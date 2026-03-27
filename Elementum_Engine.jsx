@@ -1,20 +1,3 @@
-// ============================================================
-// ELEMENTUM — BaZi Spiritual Guidance Engine
-// ============================================================
-// Version:  1.0.0-alpha
-// Sections: 1 (Day Master Profile) · 2 (Energy Profile)
-// Pending:  Sections 3–10
-//
-// Architecture (split on Vite migration):
-//   ████ CALCULATION ENGINE  → src/engine/calculator.js
-//   ████ CONTENT LAYER       → src/content/content.js
-//   ████ AI READING ENGINE   → src/engine/reading.js
-//   ████ UI COMPONENTS       → src/components/
-//
-// Reference chart: 1995-04-29 18:00 Beijing Male
-//   → 乙亥 庚辰 庚寅 乙酉  (Day Master: 庚 Yang Metal)
-// ============================================================
-
 import { useState, useRef } from "react";
 
 // ═══════════════════════════════════════════════════════════════════════════
@@ -864,73 +847,173 @@ const STRENGTH_RING = {
 const WHO_YOU_ARE = {
   "甲": {
     teaser: "You don't grow toward things because you decided to — you grow because stopping would require an effort you don't have access to.",
-    paragraphs: [
-      "The Oak doesn't choose to reach toward the light. Reaching is simply what the Oak does — before the decision, before the intention, before anything else. There is a forward orientation in you that is so fundamental it doesn't register as ambition or drive. It registers as the only natural direction. People who spend significant time with you tend to find themselves thinking bigger, reaching further, believing more in what could exist. That isn't something you do deliberately. It is what happens in your proximity, because your nature is generative in the most structural sense.",
-      "The shadow of the Oak is not weakness — it is the gap between where you are and where you can already see. The next stage is always visible before the current one has taken root, and there is a recurring pattern: reaching past what hasn't been fully integrated, growing through a difficulty rather than completing it, leaving behind what needed more time. The work that is quietly waiting for you is not more growth — it is learning to root as deeply as you reach. The Oak that grows tallest is the one whose roots went down first."
-    ]
+    bands: {
+      concentrated: {
+        p1: "As a Yang Wood type at concentrated energy, your default is forward projection — identifying where something is going before others have finished assessing where it is. The specific consequence most people notice: you've mentally moved to the next phase before the current one is complete.",
+        p2: "Your drive is self-generating and strong enough to outpace your own foundations. The recurring challenge isn't initiating — it's consolidating. What defines this chapter is learning to build something durable rather than something fast.",
+      },
+      balanced: {
+        p1: "As a Yang Wood type at balanced energy, you can hold a long-term direction without abandoning what's in progress — a combination your type doesn't arrive at naturally. What you're producing now has a staying power your earlier work often lacked.",
+        p2: 'Your drive is real but no longer untethered. People around you have started to experience you as someone they can plan around rather than just admire. What defines this chapter is protecting that equilibrium, which your natural instinct will consistently pressure you to abandon.',
+      },
+      open: {
+        p1: "As a Yang Wood type at receptive energy, your orientation toward growth is fully intact — what's changed is your relationship to conditions. The key insight: your output variance by environment is higher than most types. Context is the variable, not capability.",
+        p2: "You're selective in a way that looks like hesitation from outside but operates as precision from inside. What defines this chapter is getting more deliberate about the conditions you choose — because the difference between the right environment and the wrong one is categorical for your type.",
+      },
+    },
   },
   "乙": {
-    teaser: "The path you take to get somewhere looks indirect to everyone watching — and arrives exactly where you always intended.",
-    paragraphs: [
-      "There is a quality in how you move through the world that looks like adaptability but is actually something more sophisticated: a precise intelligence about which surfaces are worth your energy and which ones will only cost you. The Vine doesn't fight the wall. It reads it — finding the path of least resistance not out of avoidance but out of an acute understanding of what actually works. This is not accommodation. It is a form of navigation that produces results the more forceful approach consistently misses, arriving at places that a less flexible intelligence simply cannot reach.",
-      "What the Vine must learn is to trust its own position as firmly as it reads others'. There is a recurring question in your life: when is adapting a sophisticated strategy, and when has it quietly crossed into self-erasure? The two can feel identical from the inside. The work is not to become more rigid — the flexibility is genuinely your strength — but to build an inner position as solid as your reach outward. The Vine with roots holds the wall as much as the wall holds the Vine. That mutuality is what you are learning to inhabit."
-    ]
+    teaser: 'The path you take to get somewhere looks indirect to everyone watching — and arrives exactly where you always intended.',
+    bands: {
+      concentrated: {
+        p1: 'As a Yin Wood type at concentrated energy, your thinking is navigational — reading surfaces, finding angles, identifying the path that actually arrives somewhere. The specific insight: you often know the route before you can explain the reasoning, and your instinct is usually correct.',
+        p2: "Your independence expresses through strategy rather than assertion. You don't need to win the room — you need to arrive where you intended. What defines this chapter is whether you're committed to a specific destination rather than optimising for perpetual navigability.",
+      },
+      balanced: {
+        p1: "As a Yin Wood type at balanced energy, your adaptability is now in service of a specific direction. You can hold your position without becoming rigid — taking in what's useful, discarding what isn't. People experience you as both reliable and resourceful simultaneously.",
+        p2: "Your intelligence is pointed rather than exploratory right now. What defines this chapter is naming clearly what you're building — because the Yin Wood in balance tends to be making something more significant than they've articulated, and the articulation would accelerate it.",
+      },
+      open: {
+        p1: "As a Yin Wood type at receptive energy, you've become attuned to which surfaces are worth the full reach. The specific insight: your instinct for what won't work is as reliable as your instinct for what will. You've learned to trust the negative signal.",
+        p2: "You operate best when the environment genuinely supports your approach — not just fails to obstruct it. Those are different conditions, and you've developed the ability to tell them apart. What defines this chapter is becoming more deliberate about choosing the right walls to climb.",
+      },
+    },
   },
   "丙": {
     teaser: "People don't decide to orient toward you. They simply find themselves doing it.",
-    paragraphs: [
-      "The Sun doesn't perform its warmth. It simply is warm — and what is near it becomes more visible, more alive, more itself than it was before. There is a quality in your presence that operates before you've decided to deploy it: rooms shift when you enter them, conversations find a different register, people feel more seen than they expected to. This is not charisma as a cultivated skill. It is your nature doing what it was built to do. The warmth is structural, not situational. It shows up when you're tired, when you're distracted, when you're not trying — because it isn't something you switch on.",
-      "The work of the Sun is not to shine more — it is to choose where to direct the light. Warmth given without direction diffuses, and there is a real cost to being the source of illumination for everyone who gets close. The question that recurs in your life is not whether you have enough to give — you do — but whether you are receiving as freely as you are giving. What gets illuminated when someone else turns their full attention toward you? That capacity, to be fully seen rather than only to illuminate, is the growing edge your nature has always been reaching toward."
-    ]
+    bands: {
+      concentrated: {
+        p1: 'As a Yang Fire type at concentrated energy, your effect on people is structural rather than intentional. People often feel more capable after contact with you — and may not attribute that to you, which means the effect is real but frequently unaccounted for.',
+        p2: "Your warmth operates at the same level whether or not you've chosen to direct it. The cost accumulates before you notice it, and people assume you're inexhaustible. What defines this chapter is learning to direct what you give rather than simply give more.",
+      },
+      balanced: {
+        p1: 'As a Yang Fire type at balanced energy, your ability to affect people is directed rather than diffuse — and matched by a growing capacity to receive in return. The specific insight: your presence now creates trust rather than just warmth, and trust is more durable than enthusiasm.',
+        p2: "You're learning to distinguish between giving that refills you and giving that depletes you. At this level reciprocity is becoming real rather than aspirational. What defines this chapter is protecting the selective generosity you've developed, rather than reverting to giving everything within reach.",
+      },
+      open: {
+        p1: "As a Yang Fire type at receptive energy, your warmth is genuine but context-dependent in ways most people around you don't understand. The specific insight: what looks like inconsistency from outside is actually precision — a developed sense of where your warmth genuinely belongs.",
+        p2: "You need conditions that sustain you in order to sustain others — and you've stopped pretending otherwise. What defines this chapter is becoming explicit about what genuine reciprocity looks like for you, rather than accepting its appearance as the real thing.",
+      },
+    },
   },
   "丁": {
-    teaser: "What you give your full attention to becomes more fully itself — that is the rarest quality in a person.",
-    paragraphs: [
-      "The Candle doesn't illuminate everything in the room. It illuminates what it's pointed at — and what it illuminates, it illuminates completely. There is a precision in how you engage with the world that is not about limitation but about depth: the person in front of you receives a quality of attention so specific and so genuine that they see themselves more clearly in it than they do in most other mirrors. You have the capacity to make people feel genuinely seen in a way that is rare in human experience — not glanced at, not processed, but actually witnessed. That is a form of power most people underestimate because it doesn't announce itself.",
-      "The recurring challenge for the Candle is the wind. The same focused quality that makes you effective can be experienced as intensity by people who didn't ask for full illumination — and there is work in learning when the full flame is what the moment needs and when a gentler light is what's called for. There is also this: the Candle gives light readily and receives it rarely. The people in your life benefit from your attention in ways they may not fully articulate. What you are learning — and this takes longer than it should — is how to receive that same quality of genuine witnessing in return."
-    ]
+    teaser: 'What you give your full attention to becomes more fully itself — that is the rarest quality in a person.',
+    bands: {
+      concentrated: {
+        p1: "As a Yin Fire type at concentrated energy, your defining characteristic is the completeness of your attention — you illuminate what you're pointed at rather than everything in the room. The specific insight: people feel genuinely understood after real contact with you in a way they don't often feel elsewhere.",
+        p2: "Your investment in whatever you engage with is total — you don't have a partial mode. The same quality that makes people feel profoundly seen can arrive at a force the moment didn't require. What defines this chapter is developing the range to choose how fully you engage.",
+      },
+      balanced: {
+        p1: "As a Yin Fire type at balanced energy, you've developed what concentrated types typically lack: the judgment to calibrate rather than simply maximise your engagement. What you give is meaningful because it's targeted rather than uniform. People trust your assessments because you don't offer them indiscriminately.",
+        p2: 'Your focus is a tool you direct rather than a force you inhabit. Your work and relationships now reflect a more accurate read of what merits deepest investment. What defines this chapter is learning to receive the same quality of attention you offer — harder for your type than it should be.',
+      },
+      open: {
+        p1: "As a Yin Fire type at receptive energy, your capacity for focused attention is intact — but it arrives at its fullest in contexts of real exchange. The specific insight: your full engagement isn't available to everyone, and that selectivity is how the quality is maintained rather than diluted.",
+        p2: "You produce your best work when you're in situations that offer something genuine in return. At this level that's not a limitation but a discovered truth about how your type functions. What defines this chapter is acting on that knowledge rather than extending full attention to contexts that won't reciprocate.",
+      },
+    },
   },
   "戊": {
     teaser: "You provide something most people spend their lives looking for: ground that doesn't move when everything else does.",
-    paragraphs: [
-      "The Mountain doesn't decide to be stable. Stability is the material it's made of — and people orient around you the way they orient around physical landmarks: as a reference point, as something they can find when they're lost, as the thing that tells them where they are. This happens without your arranging it. People in your life have built things on you — plans, confidence, their understanding of what holds — in ways you've probably never fully accounted for. The reliability you offer is not a service you provide. It is a structural fact about what you are, and it has been shaping the people around you since before you noticed it was happening.",
-      "The work that is quietly waiting for the Mountain is not more holding — it is learning to allow movement before certainty fully arrives. There is a recurring pattern: waiting until the ground is absolutely solid before stepping, holding what could be released, remaining unmoved when being moved is exactly what the moment is asking for. The Mountain that never shifts can become a weight rather than a foundation. What the stone is slowly learning is the difference between the stability that holds and the rigidity that isolates — and that being genuinely open to being shaped by what matters is not a loss of groundedness but its fullest expression."
-    ]
+    bands: {
+      concentrated: {
+        p1: "As a Yang Earth type at concentrated energy, your presence stabilises everything around you — not because you try, but because consistency is the material you're made of. The specific insight: you've been a structural foundation for people who didn't fully realise they were building on you.",
+        p2: "Your reliability doesn't require acknowledgment — which is both your most distinctive quality and your most unexamined cost. People have never had to account for what you need because you've always appeared not to need anything. What defines this chapter is examining what you're holding and whether all of it still needs to be.",
+      },
+      balanced: {
+        p1: "As a Yang Earth type at balanced energy, you've built something your type doesn't arrive at naturally: the ability to adapt without experiencing it as instability. The specific insight: people experience you as genuinely trustworthy now rather than just predictable — and those are meaningfully different things.",
+        p2: "Your reliability now includes the capacity to change course when the ground has genuinely shifted. You've started asking whether structures still serve their purpose rather than simply maintaining them. What defines this chapter is applying that question regularly to the habits and commitments you're currently sustaining.",
+      },
+      open: {
+        p1: "As a Yang Earth type at receptive energy, your groundedness is real but requires conditions that actively support it — which tends to surprise people who've assumed your stability was unconditional. The specific insight: stable people are routinely assumed not to need support, which explains how you've ended up carrying more than you should.",
+        p2: "Your reliability isn't self-replenishing. The work isn't being stable for others — it's ensuring what sustains your stability is actually present. What defines this chapter is the shift from quietly absorbing what isn't returned to naming what genuine reciprocity looks like for you.",
+      },
+    },
   },
   "己": {
-    teaser: "The growth you create in others is so quiet you have probably never fully accounted for what you leave behind.",
-    paragraphs: [
-      "The Field doesn't announce its fertility. It simply grows things — and in your presence, people develop, projects find their form, ideas that were stalled begin to move again. This is not something you engineer. It is the quality of the ground you are, and it operates below the level of intention. The people who have spent significant time in your life have been changed by it in ways that are real and lasting, even when neither of you has named what happened. You cultivate without announcing it, nourish without requiring acknowledgment, and tend to what needs tending because that is simply what the Field does. It is a profound form of generosity — and it is so natural to you that you have probably been giving it without keeping any account of what has been given.",
-      "The shadow of the Field is not its giving — it is what happens when the giving is not met with returning. A field that is only harvested, never replenished, gradually loses the very fertility that made it valuable. There is a question that lives beneath the surface of your life: are you receiving, with the same openness and consistency with which you give? The work is not to give less — it is to notice, honestly, where the reciprocity is real and where it isn't, and to tend the conditions that allow the Field to remain fertile rather than gradually depleted."
-    ]
+    teaser: 'The growth you create in others is so quiet you have probably never fully accounted for what you leave behind.',
+    bands: {
+      concentrated: {
+        p1: "As a Yin Earth type at concentrated energy, your natural mode is developmental — you notice what people and things need and respond before it's stated. The specific insight: people around you grow in ways they often attribute to themselves, without recognising the conditions you created made it possible.",
+        p2: "Your care is continuous and doesn't require acknowledgment — which is what makes you genuinely valuable and the primary way you accumulate unreciprocated investment. What defines this chapter: is what you're putting out being genuinely matched, or have you been managing a deficit by not looking at it?",
+      },
+      balanced: {
+        p1: "As a Yin Earth type at balanced energy, the care you give is increasingly matched by care you receive — and that reciprocity is changing everything you produce. You've become more targeted in where you invest, not less generous. The specific insight: selectivity is producing better outcomes than giving to everything that needed it.",
+        p2: "You're treating your own development as a legitimate priority rather than something to attend to after everyone else. At this level the relationships you're most invested in are ones where growth runs in both directions. What defines this chapter is protecting that reciprocity under accumulated social pressure to revert.",
+      },
+      open: {
+        p1: "As a Yin Earth type at receptive energy, your ability to support others is real — but performs substantially better when conditions return something genuine. The specific insight: in genuinely supportive conditions your contribution produces growth that transactional approaches can't replicate. Conditions are the variable, not your capability.",
+        p2: "You've become more accurate at distinguishing genuine reciprocity from its appearance. At this level the work isn't output — it's environment selection. What defines this chapter is acting consistently on that distinction rather than extending care into contexts that drain rather than return.",
+      },
+    },
   },
   "庚": {
     teaser: "You don't sharpen your edge. You were born with one — and the question has always been what to cut toward.",
-    paragraphs: [
-      "The Blade doesn't decide to be precise. Precision is the nature of the metal, present before any work was done on it. There is a quality in how you see the world that arrives before the analysis: you register what is true in a situation, what is real in a person, what is actually happening beneath the surface — before the conscious process of assessment has even begun. This is not intelligence as something you apply. It is perception as something you simply have, in the same way a blade has an edge. The people in your life have probably noticed it before you did — the directness that doesn't perform itself, the clarity that sometimes arrives before anyone was ready for it, the quality of seeing through what isn't real without particularly trying to.",
-      "The forge is the missing piece of the Blade's story — and for you, it arrived late. What fire does to exceptional metal is not damage it. It reveals it. The pressure you have felt — the external force with leverage over your direction that arrived in recent years — is not something happening to you. It is something happening for you, in the way that only real heat can make real work possible. The Blade that has been through the forge is categorically different from the Blade that hasn't. What is being asked of you right now is not endurance. It is transformation — and the edge that comes out the other side will be something even you haven't seen yet."
-    ]
+    bands: {
+      concentrated: {
+        p1: "As a Yang Metal type at concentrated energy, your thinking is evaluative by default — you register what's actually true before others have finished forming their first impression. The specific consequence: you're often several steps ahead of the room, waiting for everyone else to catch up.",
+        p2: "Your independence is structural, not a preference. You've always found it difficult to sustain effort inside someone else's framework. At this level the drive needs something worthy to push against — without that, the same quality that makes you exceptional becomes restlessness. The question that defines this chapter isn't capability — it's direction.",
+      },
+      balanced: {
+        p1: 'As a Yang Metal type at balanced energy, your analytical precision is directed toward something specific rather than simply operating as your default mode. The specific insight: people now come to you for accurate assessments — not reassuring ones — because your track record has earned that particular form of trust.',
+        p2: "Your clarity is in service of something rather than simply present. The work isn't sharpening further — it's staying pointed at what you've chosen rather than being redirected by every context that presents itself as worthy. What defines this chapter is that protection of direction.",
+      },
+      open: {
+        p1: "As a Yang Metal type at receptive energy, your precision is fully intact — what's developed is a more sophisticated sense of which contexts actually deserve and use it. The specific insight: the gap between competent and exceptional is larger for your type than most — the right conditions are a significant multiplier.",
+        p2: "You've become more selective about where you apply the full force of what you bring — not from hesitation but from accuracy about where it will actually land. What defines this chapter is getting deliberate about context selection, because the environments that deserve your precision are worth seeking.",
+      },
+    },
   },
   "辛": {
-    teaser: "You notice things others pass over as if they were obvious — and cannot pretend the difference between what is excellent and what merely appears to be.",
-    paragraphs: [
-      "The Jewel doesn't acquire its clarity through effort. It is clear because of what it is made of — and the way you perceive quality, genuineness, and the distinction between what is real and what is performed operates as a primary sense rather than a considered judgment. You feel the difference before you name it. This gives you a kind of accuracy in your assessments that people who know you well come to rely on: when you say something is good, they know it is actually good, not just that it passed a surface evaluation. The standard you carry is not a preference or a cultivated taste. It is a structural feature of how you experience the world, as automatic and as precise as sight.",
-      "The work of the Jewel is learning to inhabit a world that doesn't always offer what your standard requires — and to find a way to be fully present in it without either compromising the clarity or spending yourself on the gap. There is a recurring question in your life: when is the ideal genuinely available, and when is the gap between what is possible and what exists a form of suffering you are choosing to sustain? The growing edge here is not lowering the standard — it is extending toward yourself the same quality of grace you can perceive so clearly in others. The Jewel that is hardest on itself is cutting against the very clarity it was made to offer."
-    ]
+    teaser: 'You notice things others pass over as if they were obvious — and cannot pretend the difference between what is excellent and what merely appears to be.',
+    bands: {
+      concentrated: {
+        p1: "As a Yin Metal type at concentrated energy, your perception of quality is automatic — you feel the difference between genuine and performed before conscious assessment begins. The specific insight: your assessments tend to be accurate before the supporting evidence is visible to others. You've been right about things well before anyone else could verify it.",
+        p2: "Your standards are a structural feature of how you experience the world. At this level the gap between what you perceive as possible and what's available is consistently present. What defines this chapter is applying the rigour selectively rather than continuously — reserving it for what actually merits it.",
+      },
+      balanced: {
+        p1: "As a Yin Metal type at balanced energy, your standards are generating excellent output rather than persistent dissatisfaction. The gap between what you perceive as achievable and what exists has narrowed. The specific insight: what you're producing has a calibre that less rigorous approaches simply couldn't generate.",
+        p2: "You've developed the ability to distinguish productive refinement from refinement past completion. Your discernment is functioning as a creative tool rather than a critical one — producing rather than evaluating. What defines this chapter is learning to finish to your own standard and stop, which is harder for your type than it sounds.",
+      },
+      open: {
+        p1: "As a Yin Metal type at receptive energy, your discernment performs at its fullest in settings that genuinely warrant that level of precision. The specific insight: you've developed an accurate sense of which environments are which — even when acting on that assessment has been difficult.",
+        p2: "Your standards haven't lowered — you've become more deliberate about where you apply them, and those are meaningfully different things. What defines this chapter is choosing and protecting contexts that merit your full rigour, rather than applying it uniformly and exhausting the clarity on what doesn't deserve it.",
+      },
+    },
   },
   "壬": {
-    teaser: "The depth you carry has always been larger than the space you have been given to show it.",
-    paragraphs: [
-      "The Ocean doesn't decide to be vast. Vastness is its nature — and what you carry, beneath the surface of how you present yourself, is larger and more complex than most of the contexts you move through have had the capacity to hold. There is a quality of depth in you that people sense before they can articulate what they're sensing: a quality of knowing more than is being said, of having considered things more thoroughly than the conversation has reached, of containing a range that the current exchange is not quite measuring. This is not performance. It is the actual scale of what you carry — and it has probably made you feel, at various points in your life, that you are being encountered at the surface when what you actually are is much further down.",
-      "The challenge the Ocean faces is not depth — it is translation. The most important developmental work of your life is finding the forms through which what you carry at depth can actually reach people — forms they can receive, engage with, be changed by. The vastness that stays internal becomes isolation. The vastness that finds its channel becomes the most powerful force in any room it enters. The shore is not a limit on the Ocean. It is what gives the Ocean's power its shape and its direction. The question that is quietly waiting for you: what are the shores that give your particular depth its real form?"
-    ]
+    teaser: 'The depth you carry has always been larger than the space you have been given to show it.',
+    bands: {
+      concentrated: {
+        p1: "As a Yang Water type at concentrated energy, you process at a scale most contexts aren't built to match. People sense you know more than you're saying — because you usually do. The specific insight: being encountered at the surface when you're actually much further down is a consistent feature of your life.",
+        p2: "Your intelligence is expansive by nature — you hold multiple frameworks simultaneously and find it genuinely difficult to operate at the level most exchanges require. The challenge isn't depth — it's translation. What defines this chapter is building specific channels through which what you carry can actually reach people.",
+      },
+      balanced: {
+        p1: "As a Yang Water type at balanced energy, your analytical range is finding channels through which it can actually reach and affect people. You've moved from operating at depth and waiting, to meeting people where they are and drawing them further. The specific insight: the work you're doing now compounds in ways that aren't immediately visible.",
+        p2: "You're in a productive state where the scope of your thinking is in service of specific outcomes rather than simply present. The depth is landing rather than just existing. What defines this chapter is deepening what's already working rather than expanding into new territory because the capacity is there.",
+      },
+      open: {
+        p1: "As a Yang Water type at receptive energy, your analytical capacity is sensitive to the quality of intellectual exchange in your environment. The specific insight: one-directional exchanges — where you bring depth and receive surface — are genuinely depleting in a way that's difficult to explain to people who haven't experienced the difference.",
+        p2: "You've developed accurate instincts about which contexts are worth your full engagement — where thinking feels generative versus where it feels present but not landing. What defines this chapter is making more deliberate choices about which those are, and protecting access to them.",
+      },
+    },
   },
   "癸": {
     teaser: "You sense what's actually true in a room before anyone has said the thing — and you have learned, slowly, to trust that sensing.",
-    paragraphs: [
-      "The Rain doesn't decide what to nourish. It falls, and what it touches is changed — in ways that are real and lasting, even when neither the Rain nor what it nourishes has named what happened. There is a quality of perceptive sensitivity in you that is so fundamental you may have stopped noticing it: the ability to sense what is genuinely true in a situation, what someone is actually feeling beneath what they are presenting, what the room actually needs rather than what it is asking for. This operates below the level of analysis. It arrives before the conclusion. It is, at its best, the most accurate form of intelligence — and it has been informing your decisions and your relationships in ways you have probably only partially accounted for.",
-      "The work of the Rain is building a container strong enough to hold its own sensitivity. The porousness that makes you perceptive — the quality of being genuinely affected by what you encounter — is also the quality that makes it genuinely difficult to know, in difficult moments, whose feeling is whose, whose need is yours to carry, which sky you are falling from. This is not weakness. It is the structural reality of a nature built for subtlety rather than insulation. What you are learning — and this is the central developmental work of your life — is to choose your ground deliberately: the people, environments, and conditions that genuinely deserve the particular quality of nourishment only you can offer."
-    ]
+    bands: {
+      concentrated: {
+        p1: "As a Yin Water type at concentrated energy, your perceptive attunement is your most fundamental operating characteristic — you register what someone is actually feeling with an accuracy most people experience as uncanny. The specific insight: you regularly know things about people that they haven't explicitly told you.",
+        p2: "Your sensitivity is continuous — you're always receiving, whether or not you've chosen to attend. At this level the permeability that makes you perceptive also makes it difficult to maintain a clear boundary between what you're sensing and what you're carrying. What defines this chapter is building structures that keep the sensitivity a tool rather than a weight.",
+      },
+      balanced: {
+        p1: "As a Yin Water type at balanced energy, your attunement is functioning as navigational data rather than something that simply happens to you. Your perception is as accurate as ever — what's changed is your relationship to it. The specific insight: the people you're investing in are ones you've actually chosen rather than drifted into.",
+        p2: "You've stopped accepting the appearance of reciprocity as the real thing — a development now shaping the quality of your closest relationships. What defines this chapter is trusting your sensitivity enough to act on what it tells you, particularly in the places where acting on it is uncomfortable.",
+      },
+      open: {
+        p1: "As a Yin Water type at receptive energy, your attunement is real and distinctive — but it isn't self-sustaining. It requires genuine reciprocity to remain at full function. The specific insight: your contribution in genuinely reciprocal conditions is among the most specific and valuable available. Conditions are the variable, not your capability.",
+        p2: "You've become more deliberate about which people and contexts get full access to what you carry — not from withholding but from understanding how your sensitivity actually works. What defines this chapter is allowing yourself to receive genuine nourishment without treating that as weakness — because for your type, it's what makes everything else possible.",
+      },
+    },
   },
 };
 
@@ -1063,6 +1146,112 @@ function ArchetypeSeal({ stem, color, size = 72 }) {
 }
 
 // Chart-specific profile text — generated from computed data, no LLM
+const CORE_STRENGTHS = {
+  '甲': {
+    concentrated: [{label:'Initiating Force', desc:"You start things — not because you were asked to, but because you can see where something needs to go before anyone else has finished assessing whether it's worth starting."}, {label:'Visionary Output', desc:"What you build consistently has a scope others didn't see coming. Not from ambition but from a forward orientation that simply operates at a longer timeframe than most."}, {label:'Growth Leadership', desc:'People around you move forward in your presence — not because you direct them, but because your momentum creates a current that carries others without requiring their conscious decision.'}],
+    balanced: [{label:'Directional Clarity', desc:"You can hold a clear long-term aim without abandoning what's immediately in front of you. This produces work that is both ambitious and actually finished."}, {label:'Sustained Momentum', desc:'You initiate and follow through in the same motion. What you build reaches completion rather than simply reaching the point where someone else has to take it over.'}, {label:'Reliable Vision', desc:"People can plan around your direction because you've demonstrated you'll still be pointed the same way months from now. That consistency is something others can actually use."}],
+    open: [{label:'Environmental Discernment', desc:"You've developed an accurate read of which conditions actually produce your growth versus which ones absorb your effort without return. Most people never develop this distinction."}, {label:'Patient Cultivation', desc:"You don't force growth into conditions that won't support it. This produces results that are slower to arrive but more durable once they do."}, {label:'Selective Reach', desc:"Because you can't reach everywhere, you've become accurate about which directions are actually worth extending into. That selectivity makes what you do build more purposeful."}]
+  },
+  '乙': {
+    concentrated: [{label:'Navigational Precision', desc:"You find paths through situations that direct approaches can't access. This isn't luck — it's a structural intelligence that reads environments accurately and moves through them efficiently."}, {label:'Strategic Arrival', desc:"You reach intended destinations by routes that weren't obvious to anyone watching. The outcome consistently validates an approach that looked indirect while it was happening."}, {label:'Adaptive Reading', desc:'You pick up more about a situation, a person, or a room than most people consciously register. This feeds decisions that appear intuitive but are actually information-dense.'}],
+    balanced: [{label:'Committed Adaptability', desc:'You pursue a specific direction while staying genuinely flexible about how you get there. This makes you effective in conditions where rigid approaches consistently fail.'}, {label:'Positional Intelligence', desc:"You can hold your own view in a conversation without becoming defensive. You take in what's useful, release what isn't, and your core judgment stays intact through the exchange."}, {label:'Trustworthy Resourcefulness', desc:"People come to you when they're stuck because your track record of finding usable routes is real. The trust is based on demonstrated results, not on promise."}],
+    open: [{label:'Surface Sensitivity', desc:"You've developed an accurate read of which environments are genuinely supportive versus which ones simply fail to actively obstruct. Those are different things, and you can tell them apart."}, {label:'Earned Attunement', desc:"Because you can't function in all conditions equally, you've become precise about what genuine support looks and feels like. This protects you in ways that less sensitive navigators never develop."}, {label:'Selective Extension', desc:"You extend fully into conditions that merit it and withhold from those that don't. That discrimination is a form of intelligence that produces better outcomes than reaching everywhere."}]
+  },
+  '丙': {
+    concentrated: [{label:'Generative Presence', desc:"Your effect on people is structural rather than performed. People feel more capable, more seen, more alive to possibility in your presence — not because you engineered it but because it's what you do."}, {label:'Conviction-Driven Influence', desc:'You move people through what you genuinely believe rather than through performance. This produces a quality of influence that holds up where performance would fail.'}, {label:'Unconditional Warmth', desc:"The warmth you extend doesn't require conditions to be met first. It arrives before trust is established and creates trust as a consequence."}],
+    balanced: [{label:'Directed Warmth', desc:"You've developed the ability to point your warmth toward specific people and contexts rather than distributing it uniformly. This makes what you give more impactful rather than less generous."}, {label:'Sustainable Influence', desc:"You can sustain your effect on people across time rather than burning bright and requiring recovery. What you build with people lasts because it isn't built on unsustainable output."}, {label:'Genuine Reception', desc:"You're learning to let care arrive when it's offered. That capacity creates the reciprocity that makes your level of giving sustainable over the long term."}],
+    open: [{label:'Contextual Warmth', desc:'Because your warmth is conditional on being genuinely received, when it does arrive it has a quality of specificity that unconditional warmth rarely achieves.'}, {label:'Reciprocal Sensitivity', desc:"You've developed an accurate read of which people and environments genuinely feed you back versus which ones consume without returning. That distinction is protective and rare."}, {label:'Preserved Quality', desc:"Because you don't give indiscriminately, what you do give hasn't been diluted by overextension. The people who receive it know they're receiving something that isn't offered to everyone."}]
+  },
+  '丁': {
+    concentrated: [{label:'Complete Attention', desc:'What you focus on, you focus on entirely. The quality of engagement you bring to a person or problem creates understanding that more distributed attention simply cannot produce.'}, {label:'Precise Illumination', desc:'You identify what actually matters in a situation with a speed and accuracy that others spend significant effort trying to replicate. You see the thing beneath the surface without particularly trying.'}, {label:'Deep Witness', desc:'People feel genuinely seen in your presence — not assessed, not processed, not managed. Actually witnessed. Most people never experience this from anyone and remember it when they do.'}],
+    balanced: [{label:'Calibrated Focus', desc:"You've developed the ability to modulate how fully you engage rather than always arriving at maximum intensity. This makes your attention more useful because it's more precisely matched to what each situation requires."}, {label:'Selective Illumination', desc:"You choose what to illuminate and what to leave in softer light. That choice produces outcomes that blanket attention doesn't — because the right things receive the full treatment."}, {label:'Trusted Perception', desc:"People rely on your read of situations because you've shown the discipline to withhold it when you're uncertain and offer it fully when you're not. That restraint is what makes the insight trustworthy."}],
+    open: [{label:'Earned Precision', desc:"Your quality of attention has been refined through conditions that required it to be specific rather than general. It works most powerfully in genuine exchange because that's the condition under which it developed."}, {label:'Reciprocal Attunement', desc:"Because your full engagement requires something genuine in return, when it does arrive it's one of the most specific and accurate forms of attention available. It was selected, not distributed."}, {label:'Protective Selectivity', desc:"You've developed an instinct for when genuine reciprocity is present and when it isn't. That instinct protects both the quality of your attention and the people who receive it."}]
+  },
+  '戊': {
+    concentrated: [{label:'Gravitational Authority', desc:'People orient around you without being asked to. Your presence creates a reference point that others use to locate themselves — in meetings, in relationships, in decisions.'}, {label:'Unconditional Reliability', desc:"You show up the same way regardless of conditions. This isn't discipline — it's constitution. People build on you precisely because they don't have to wonder which version of you they'll get."}, {label:'Structural Holding', desc:"You can carry significant weight — responsibility, pressure, other people's uncertainty — without showing the cost. What you hold tends to stay held."}],
+    balanced: [{label:'Responsive Stability', desc:'You know the difference between what needs to be held and what needs to be released. That discernment makes your reliability more useful than simple consistency.'}, {label:'Structured Flexibility', desc:"You can adapt without losing your centre. Movement no longer registers as threat — you've developed the ability to tell what genuinely needs to flex from what genuinely needs to hold."}, {label:'Trustworthy Judgment', desc:"People bring you their hardest decisions not because you're soft but because you're solid enough to hold the weight of real deliberation — and honest enough to say what you actually see."}],
+    open: [{label:'Earned Groundedness', desc:"Your stability isn't inherited — it's been built through conditions that required you to find ground where it wasn't given. This makes it more genuine and more portable than the kind that comes effortlessly."}, {label:'Receptive Presence', desc:"Because you've learned you need conditions to remain grounded, you've become sensitive to what those conditions are — in environments, in people, in the quality of what surrounds you."}, {label:'Collaborative Solidity', desc:'Paired with people and environments that genuinely support you, what you provide for others is exceptional. Your groundedness in those conditions is something the people around you feel clearly.'}]
+  },
+  '己': {
+    concentrated: [{label:'Developmental Instinct', desc:"You notice what people and situations need before anyone has named it. This isn't empathy as a style — it's a structural read that operates before you decide to pay attention."}, {label:'Generative Presence', desc:'Things grow around you. People take on more, projects find form, stuck ideas begin moving — not because you directed any of it, but because the conditions you create make it possible.'}, {label:'Sustained Investment', desc:"You follow through on people and things across time without requiring return. This consistency is what separates your care from everyone else's — it doesn't have an expiration condition."}],
+    balanced: [{label:'Reciprocal Cultivation', desc:"You've learned to grow things in both directions — developing others while actively building conditions that develop you. The care is still real, but it now flows in a circuit rather than one way."}, {label:'Selective Nourishment', desc:"You've become accurate about which people and projects actually benefit from your level of investment and which ones simply absorb it. That discrimination makes everything you tend grow better."}, {label:'Earned Boundaries', desc:'You can say no to requests for care that would cost more than they return — not coldly, but with the same attentiveness you bring to everything. This is a development, not a default.'}],
+    open: [{label:'Environmental Sensitivity', desc:'You read what a situation genuinely needs — not what it presents, not what it asks for. This accuracy is a function of receptivity, and it produces a quality of care that more self-sufficient approaches simply cannot replicate.'}, {label:'Relational Intelligence', desc:"You understand the dynamics between people — who needs what from whom, what's blocking something, what would genuinely help — with a precision that others attribute to intuition but is actually close reading."}, {label:'Authentic Warmth', desc:"Because your care is conditional on genuinely receiving, when it does arrive it's unmistakably real. People who matter to you feel it as specific rather than general — directed at them, not distributed."}]
+  },
+  '庚': {
+    concentrated: [{label:'Decisive Clarity', desc:"You reach conclusions others are still circling. When you speak, people know you've already cut through what wasn't real — and they trust it."}, {label:'Productive Force', desc:"Your drive isn't motivational — it's structural. When you commit to something, you generate results that wouldn't exist without you applying yourself fully."}, {label:'Honest Directness', desc:"You say what's actually true even when a softer version would be easier. This makes you the person others come to when they need a real answer, not a reassuring one."}],
+    balanced: [{label:'Strategic Precision', desc:'You know when to cut and when to hold. The analytical sharpness that others apply everywhere, you deploy where it counts — which makes it substantially more effective.'}, {label:'Principled Adaptability', desc:'You can operate inside systems and alongside people without losing your own perspective. You flex without conceding the core judgment underneath.'}, {label:'Earned Credibility', desc:"People trust your assessments because you've shown both the precision to be right and the restraint to not always insist on it. That combination is rare."}],
+    open: [{label:'Refined Discernment', desc:"Your precision has been earned rather than inherited. Having had to develop it under less-than-ideal conditions means it's more specific and more reliable than it looks from outside."}, {label:'Collaborative Precision', desc:"Paired with the right people or placed in the right environment, your output has a quality that self-sufficient approaches often can't match — because you've learned to use the full system, not just yourself."}, {label:'Contextual Intelligence', desc:"You've developed an unusually accurate read of which environments and relationships bring out your actual capability versus which ones suppress it. Most people never develop this."}]
+  },
+  '辛': {
+    concentrated: [{label:'Automatic Quality Recognition', desc:'You perceive the difference between genuine and performed, excellent and merely competent, before conscious analysis begins. This operates as a sense, not a process.'}, {label:'Uncompromising Standard', desc:"What you produce to your own standard has a durability and distinction that work produced to a lower bar simply doesn't. You can't make yourself output something you don't believe in."}, {label:'Reliable Assessment', desc:"When you say something is genuinely good, people who know you take it seriously. You've never said it carelessly, and that restraint is the source of the trust."}],
+    balanced: [{label:'Productive Discernment', desc:"Your standard is generating actual output rather than perpetual evaluation. The gap between what you can see as possible and what you're producing has narrowed to something workable."}, {label:'Completable Excellence', desc:"You've developed the ability to finish things to your own standard and stop. That completion instinct transforms a capacity for refinement into a capacity for delivery."}, {label:'Contextual Application', desc:"You've learned to apply the full standard where it matters and allow something lighter in contexts that don't require the full treatment. That discrimination makes you more effective rather than less precise."}],
+    open: [{label:'Contextual Refinement', desc:"Your discernment performs at its fullest in settings that genuinely warrant that level of precision. You've developed an accurate sense of which those are — and what you produce there has a quality that less selective approaches can't match."}, {label:'Earned Standard', desc:"Because your precision has been exercised under conditions that didn't always meet it, it's more robust and more specific than a standard that's never been tested against resistance."}, {label:'Setting Intelligence', desc:"You know what conditions bring out your best discernment and what conditions suppress it. That knowledge is itself a form of precision that people who've always had the right setting rarely develop."}]
+  },
+  '壬': {
+    concentrated: [{label:'Integrative Depth', desc:"You hold more variables simultaneously than most contexts around you require. This produces insights that emerge from synthesis rather than analysis, reaching conclusions that linear thinking can't access."}, {label:'Strategic Foresight', desc:'You see where things are going before the evidence for it is complete. The pattern is visible to you while others are still accumulating the data that would confirm it.'}, {label:'Expansive Range', desc:'The scope of what you can hold in mind — how many dimensions, how many implications, how many timeframes — is genuinely unusual. People in proximity either benefit from it or feel outpaced by it.'}],
+    balanced: [{label:'Channelled Depth', desc:'Your analytical range has found specific forms through which it can reach people. The depth is landing rather than existing in potential.'}, {label:'Translational Fluency', desc:'You can move between the level at which you think and the level at which exchanges operate without losing what matters in the transition. That fluency is what makes your insight actually useful.'}, {label:'Compounding Influence', desc:'What you contribute now has effects that extend further than their immediate surface suggests. People are genuinely changed by contact with your thinking in ways that accumulate over time.'}],
+    open: [{label:'Receptive Intelligence', desc:"Your depth is activated by genuine intellectual engagement. When you find contexts that meet you at the level you're operating, what you produce has a quality that isolated thinking doesn't generate."}, {label:'Relational Synthesis', desc:"You think better in genuine exchange than in isolation. The right conversation doesn't distract from the depth — it extends it in directions you wouldn't reach alone."}, {label:'Depth Discernment', desc:"You've developed an accurate sense of which exchanges are genuinely generative versus which ones are transactional. That discrimination is itself a sophisticated form of intelligence."}]
+  },
+  '癸': {
+    concentrated: [{label:'Perceptive Accuracy', desc:"You register what's actually true in a room, in a person, in a situation — before it's been stated. This isn't analysis. It arrives before the conclusion and it's usually right."}, {label:'Specific Nourishment', desc:'The care you offer is calibrated to what the person in front of you actually needs. Not generic support — specific, accurate attunement that people experience as being genuinely understood.'}, {label:'Quiet Influence', desc:"You affect people and situations in ways that are real and lasting without requiring visibility or credit. What you've changed in others tends to stay changed."}],
+    balanced: [{label:'Navigational Sensitivity', desc:"Your attunement is functioning as intelligence rather than as something that happens to you. You can read what's true in a situation and use that reading to make deliberate decisions rather than simply respond to it."}, {label:'Chosen Investment', desc:"You're directing the depth of your care toward people and contexts you've actually selected rather than defaulted into. The care is as real as it's ever been and more specifically placed."}, {label:'Reciprocal Attunement', desc:"You've built relationships where genuine care runs in both directions. The nourishment you offer has a context that feeds you back, and that reciprocity changes everything about the sustainability of what you give."}],
+    open: [{label:'Genuine Attunement', desc:'Because your full sensitivity is conditional on genuine reciprocity, when it does activate it is among the most specific and accurate forms of care available. It was earned by the exchange, not distributed regardless of it.'}, {label:'Ground Discernment', desc:"You've developed an accurate sense of which environments and relationships genuinely nourish you versus which ones create the appearance of reciprocity without the reality. That discrimination is protective and sophisticated."}, {label:'Relational Depth', desc:"In the right conditions, what you build with people has a quality that more armoured approaches can't create. The vulnerability that feels like a risk is what makes the depth possible."}]
+  },
+};
+
+const CORE_SHADOWS = {
+  '甲': {
+    concentrated: [{label:'Premature Extension', desc:"You move into the next phase before the current one is consolidated. The gap between what you've built and what you've actually finished is a recurring pattern with recurring costs."}, {label:'Diminished Completion', desc:"The moment something is done, your interest migrates to what's next. This leaves a trail of well-initiated but under-finished things that others have to stabilise."}, {label:'Outpacing Relationships', desc:"The people in your life often feel like they're catching up rather than alongside. The pace that feels natural to you is faster than most can sustain without explicit slowing."}],
+    balanced: [{label:'Equilibrium Fragility', desc:"The balance you've found requires active maintenance. Your instinct still pulls toward extension, and without deliberate effort the reach begins to outpace the root again."}, {label:'Impatience with Pace', desc:"You've developed the capacity to complete things but not full patience for those who move more slowly through the same process. This creates friction in collaborative work."}, {label:'Undeclared Completion', desc:"You sometimes consider something done before communicating it. Others treat it as still in progress — which creates confusion you didn't know existed."}],
+    open: [{label:'Condition Reliance', desc:'Your growth in the wrong environment is genuinely limited — not from lack of will but from how your type actually functions. This creates performance gaps that are hard to explain to people who assumed effort was the only variable.'}, {label:'Withheld Initiative', desc:'You sometimes wait for conditions to be right before beginning something you already know you want to do. The wait is often longer than necessary.'}, {label:'Underestimated Potential', desc:"Because you haven't consistently had the right conditions, others — and sometimes you — don't have an accurate picture of what you're actually capable of producing."}]
+  },
+  '乙': {
+    concentrated: [{label:'Uncommitted Navigation', desc:'The same skill that finds multiple paths can prevent full commitment to any one of them. You keep options open longer than decisions require.'}, {label:'Obscured Contribution', desc:'Because your routes are non-obvious, your contributions are frequently underattributed. People see the result without seeing the navigation that produced it.'}, {label:'Accommodated Drift', desc:"Your ability to adapt to surfaces can tip into adapting away from your own position. You sometimes concede ground you didn't intend to concede, gradually and without noticing."}],
+    balanced: [{label:'Unstated Destination', desc:"You're building toward something more significant than you've named. Without naming it, you can't get full support for it — and the navigation continues without the momentum that clarity would create."}, {label:'Provisional Commitment', desc:"You commit fully enough to make things work but maintain enough flexibility that others sometimes can't tell how invested you actually are. This creates uncertainty that works against collaboration."}, {label:'Deferred Position', desc:'When your view conflicts with the room, you tend to accommodate first and push back later, if at all. By then the moment to redirect has often passed.'}],
+    open: [{label:'Surface Dependence', desc:"Your effectiveness is substantially higher in the right environment than in a neutral one. That gap creates reliance on conditions you can't always control."}, {label:'Withheld Direction', desc:"When conditions aren't right, you tend to withhold your actual view rather than advance it into resistance. This means you're underrepresented in situations that need your input most."}, {label:'Delayed Commitment', desc:'You read conditions before committing, which is accurate and also means you commit later than the situation sometimes requires. The timing cost is real even when the caution is warranted.'}]
+  },
+  '丙': {
+    concentrated: [{label:'Uncontained Radiation', desc:'You give to everything within reach without directing where the warmth goes. This diffuses your impact and costs you more than targeted giving would.'}, {label:'Depletion Blindness', desc:"The output is continuous enough that you don't notice the cost accumulating until you're running on reserves. By then you've been depleted for longer than the people around you know."}, {label:'Receiving Resistance', desc:'Accepting genuine care from others is harder than giving it. You deflect as fluently as you extend, which means the reciprocity that would sustain you rarely lands.'}],
+    balanced: [{label:'Selectivity Discomfort', desc:"Choosing where the warmth goes means not giving it everywhere. That withholding still produces guilt even when it's the right decision."}, {label:'Residual Overdrive', desc:'In high-demand situations you revert to giving everything without direction. The balance is real but requires active maintenance under pressure.'}, {label:'Unaccounted Cost', desc:"You're better at tracking what others need than what your own output is costing you. The accounting still lags behind the spending."}],
+    open: [{label:'Output Variability', desc:'Your warmth and presence fluctuate with your conditions in ways that surprise people who expected consistency. In unsupportive environments, what you can offer is genuinely diminished.'}, {label:'Fuel Dependency', desc:'You need genuine reciprocity to sustain what you give. Without it the output continues for a while on will alone — then dims in ways that are hard to explain to people who assumed you were inexhaustible.'}, {label:'Withheld Presence', desc:"When conditions aren't right, you hold back in ways people experience as withdrawal. The protection is real but the cost to connection is also real."}]
+  },
+  '丁': {
+    concentrated: [{label:'Intensity Mismatch', desc:'The force of your focus is calibrated for depth, not for every situation. Contexts that needed something lighter receive the full flame, and the effect is often overwhelming rather than illuminating.'}, {label:'Tunnel Engagement', desc:"What you're focused on receives everything. What you're not focused on receives almost nothing. This creates significant gaps in attention that the people outside your current focus feel clearly."}, {label:'Unreturned Investment', desc:"You invest the full quality of your attention without calibrating to whether you'll receive equivalent investment back. The asymmetry accumulates in ways you absorb without flagging."}],
+    balanced: [{label:'Calibration Cost', desc:"Modulating your engagement requires more effort than operating at full intensity. The management of your own attention is an ongoing demand that doesn't disappear."}, {label:'Selective Blind Spots', desc:"Because you've learned to choose what to illuminate, you sometimes don't illuminate things that would have benefited from the full treatment. The judgment is mostly right but not always."}, {label:'Receiving Difficulty', desc:"You give your full attention readily and struggle to accept it in return. People who want to fully see you often can't, because you redirect the light outward before it can land on you."}],
+    open: [{label:'Exchange Dependence', desc:"Your deepest engagement requires genuine reciprocity to activate. In relationships or contexts that don't offer it, you stay in a shallower mode that protects you but limits what's possible."}, {label:'Misread Withdrawal', desc:"When you withhold the full depth of your attention, people who don't understand the condition experience it as indifference. The protection is real — the cost to connection is also real."}, {label:'Inconsistent Depth', desc:"The gap between what you're capable of and what you produce in the wrong conditions is large enough that people who haven't seen you fully engaged don't know what you actually are."}]
+  },
+  '戊': {
+    concentrated: [{label:'Calcified Position', desc:"Once you've decided something is solid, moving it requires more force than the situation usually warrants. You resist change that would actually serve you because it feels indistinguishable from instability."}, {label:'Unacknowledged Load', desc:'You carry more than is yours to carry — and you do it quietly, without accounting for the cost. The people around you benefit from your holding without understanding what it requires of you.'}, {label:'Withheld Movement', desc:"There are things you've known needed to change for longer than you've acted on them. The certainty you require before shifting rarely arrives at the pace that life actually moves."}],
+    balanced: [{label:'Maintenance Inertia', desc:"You're better at building structures than at retiring them. Things that have stopped serving their purpose remain in place longer than they should — because you built them and letting go still feels like losing ground."}, {label:'Unvoiced Expectations', desc:"You have clear standards for how relationships and commitments should function. You rarely state them explicitly — and then feel the gap when they aren't met."}, {label:'Deferred Reciprocity', desc:"You're capable of sustaining unequal relationships for a very long time before acknowledging the imbalance. By then the gap is larger than it needed to be."}],
+    open: [{label:'Conditional Stability', desc:'Your groundedness fluctuates with your environment in ways that surprise people who assumed it was unconditional. In genuinely unsupportive conditions you can appear solid while quietly hollowing.'}, {label:'Support Scarcity', desc:"You need more active reciprocity than you receive — and you've normalised that deficit so thoroughly that you rarely name it, even to people who would want to help."}, {label:'Mistaken Self-Sufficiency', desc:"You present as not needing much. People take you at your word. The result is that genuine support — the kind that would actually sustain you — rarely arrives because you've never signalled that it's needed."}]
+  },
+  '己': {
+    concentrated: [{label:'Invisible Depletion', desc:"You give continuously without tracking it. By the time the deficit becomes visible, it's been accumulating for months — and the people around you had no idea, because you never showed it."}, {label:'Muted Self-Advocacy', desc:'You can articulate exactly what someone else needs. Naming what you need, to someone who could actually provide it, is a different and harder task that you consistently defer.'}, {label:'Unclaimed Output', desc:"The growth you create in others tends to be attributed to them, not to you. You rarely contest this — which is generous and also means you're chronically undercompensated for what you actually produce."}],
+    balanced: [{label:'Reversion Risk', desc:"Under pressure, you return to older habits — giving more, asking for less, absorbing what isn't yours to carry. The balance you've built is real but not yet automatic."}, {label:'Ambiguous Investment', desc:"You're more targeted than you used to be, but not yet fully explicit about what a relationship or project needs to offer to remain worth your full investment. The criteria exist — they're just unspoken."}, {label:'Residual Guilt', desc:'Choosing yourself over someone who needs you still produces a low-grade resistance. You do it more than before — but not yet without cost.'}],
+    open: [{label:'Nourishment Threshold', desc:'You need more genuine support than most people around you understand or consistently provide. Without it your output diminishes — not from lack of will, but from how your capacity actually works.'}, {label:'Invisible Needs', desc:"You're attuned to others' needs and largely silent about your own — which means people who would genuinely want to help you don't know what you require."}, {label:'Absorbed Distress', desc:"In difficult environments you don't just read what's wrong — you carry it. The sensitivity that makes you accurate makes it hard to leave what you've perceived where you found it."}]
+  },
+  '庚': {
+    concentrated: [{label:'Combative Certainty', desc:'Your read on situations is usually accurate — which makes it genuinely hard to stay open when challenged. You resist correction even when it would improve the outcome.'}, {label:'Uniform Force', desc:'You apply the same intensity to everything. What works in high-stakes confrontation damages collaborative or low-stakes situations that needed something lighter.'}, {label:'Closed to Shaping', desc:"You're better at changing others than at allowing yourself to be changed. Feedback that doesn't confirm your existing assessment tends to bounce off rather than land."}],
+    balanced: [{label:'Inconsistent Edge', desc:"The sharpness is real but not always available. In contexts that don't activate it, you appear more conventional than you are — which frustrates people who've seen what you're capable of."}, {label:'Anchor Dependence', desc:'Your best work happens when direction is clear. Without a specific purpose or challenge to cut toward, the precision loses its target and the energy disperses into restlessness.'}, {label:'Undeclared Standards', desc:"You hold high internal standards but don't always voice them. This leads to dissatisfaction with outcomes you helped create without specifying what you actually needed."}],
+    open: [{label:'Condition Dependency', desc:"Your best performance requires specific inputs — the right environment, the right challenge, the right support. Without them, capability that's genuinely there doesn't fully surface."}, {label:'Deferred Authority', desc:'You sometimes wait for external validation before acting on what you already know. The assessment is accurate — the confidence to move on it independently takes longer than it should.'}, {label:'Underestimated Ceiling', desc:'The gap between what you produce in the right conditions and what you produce in the wrong ones is large enough that others — and sometimes you — underestimate your actual ceiling.'}]
+  },
+  '辛': {
+    concentrated: [{label:'Perpetual Refinement', desc:"The same faculty that produces excellent work keeps working past the point of completion. You improve things that are done, delay delivery of things that are ready, and exhaust the capacity on what doesn't require it."}, {label:'Continuous Friction', desc:"Your awareness of the gap between what's possible and what's currently available is a persistent background condition. In contexts that can't meet your standard, this friction is constant and costly."}, {label:'Inverted Self-Assessment', desc:'You apply the same unsparing standard to yourself that you apply to everything else. The result is a precision of self-criticism that is rarely accurate and consistently costly.'}],
+    balanced: [{label:'Completion Resistance', desc:"The instinct to keep improving hasn't fully retired. It requires active decision to call something done, and that decision is still uncomfortable even when it's clearly right."}, {label:'Standard Communication', desc:"You hold high internal criteria that you don't always make explicit. Collaborators produce to a bar they haven't been told about and discover the gap at the end."}, {label:'Self-Grace Deficit', desc:"The reasonable judgment you apply to others' work doesn't apply to your own. You complete things at the level of excellence you require and then immediately see where they fell short."}],
+    open: [{label:'Setting Dependency', desc:"In contexts that don't meet the conditions your discernment requires, what you produce is genuinely diminished. The capability is real — the conditions are the variable."}, {label:'Self-Directed Friction', desc:"When the external environment doesn't provide worthy material, the same faculty that assesses quality turns inward. The standard that works beautifully on output becomes a source of unnecessary self-scrutiny."}, {label:'Incomplete Visibility', desc:"Because your capability depends on conditions, people who haven't seen you in the right setting don't have an accurate picture of what you're actually capable of. Neither, sometimes, do you."}]
+  },
+  '壬': {
+    concentrated: [{label:'Translation Gap', desc:'The distance between how you think and how most exchanges operate requires continuous downward translation. This is costly, frequently incomplete, and often produces the feeling of being encountered at the surface.'}, {label:'Undirected Depth', desc:'Without a specific channel, the depth disperses. The same range that produces insight in the right context produces unfocused elaboration in the wrong one.'}, {label:'Inaccessible Intelligence', desc:"What you carry is genuinely useful but frequently arrives in forms that others can't receive without significant translation effort on your part. The insight lands less often than it should."}],
+    balanced: [{label:'Channel Maintenance', desc:'The specific contexts and relationships where your depth lands require active maintenance. Without it, you drift back toward thinking that reaches no one.'}, {label:'Scope Temptation', desc:'The capacity is still there to go wider and deeper than any given situation requires. Staying in the productive channel rather than expanding into new territory requires ongoing discipline.'}, {label:'Depth Variability', desc:"Not every exchange activates the full range. In contexts that don't, you function competently at a fraction of your actual capacity — and the gap registers as persistent dissatisfaction."}],
+    open: [{label:'Activation Dependence', desc:'Your full analytical capacity requires genuine intellectual reciprocity to engage. Without it the depth is present but not active — and operating at a fraction of capacity for extended periods is genuinely depleting.'}, {label:'One-Directional Cost', desc:"Exchanges where you bring depth and receive surface leave you more depleted than exchanges where nothing is required. The asymmetry has a specific cost that's hard to explain to people who don't experience it."}, {label:'Understimulation Drift', desc:"In contexts that don't engage your full range, the excess capacity finds somewhere to go — rumination, overanalysis, elaboration that serves no one. The surplus doesn't disappear; it redirects."}]
+  },
+  '癸': {
+    concentrated: [{label:'Absorbed States', desc:"You don't just read what others are feeling — you carry it. The same permeability that makes you accurate makes it genuinely difficult to leave what you've perceived where you found it."}, {label:'Boundary Erosion', desc:"The line between what you're sensing in others and what you're experiencing yourself dissolves under pressure. This makes difficult environments far more costly for you than they appear from outside."}, {label:'Continuous Reception', desc:"You're receiving information from your environment whether or not you've chosen to attend to it. The sensitivity doesn't have an off switch, and the accumulation is real."}],
+    balanced: [{label:'Maintenance Requirement', desc:"The boundary between perception and absorption requires active maintenance. It's real but not automatic — under pressure, the pattern of simply carrying what you sense reasserts itself."}, {label:'Selective Guilt', desc:'Protecting yourself from draining exchanges still produces resistance. You do it more consistently than before, but not yet without cost.'}, {label:'Calibration Lag', desc:"Your sensitivity is accurate but still processes everything before you've decided whether to receive it. The filtering happens after the information has arrived, which means you're still managing the intake even as you get better at it."}],
+    open: [{label:'Nourishment Dependency', desc:"Your sensitivity requires genuine reciprocity to remain at full function. In environments that don't provide it, you continue to function but at a cost that accumulates quietly and is rarely visible to others."}, {label:'Self-Silencing', desc:"You're attuned to others' needs and largely silent about your own. The people who would genuinely want to meet your needs often don't know what they are because you haven't named them."}, {label:'Residual Absorption', desc:"Even with better boundaries than before, genuinely charged environments still take more from you than they take from others. The protection is improving — it isn't yet complete."}]
+  },
+};
+
 function buildDayMasterProfile(chart) {
   const dm = chart.dayMaster;
   const sr = STRENGTH_RING[dm.strength] || STRENGTH_RING.moderate;
@@ -1088,44 +1277,24 @@ function buildDayMasterProfile(chart) {
   };
 
   // Core Gifts — punchy, 3-5 words, instantly quotable (MBTI-style memorability)
-  const CORE_STRENGTHS = {
-    "甲": ["Vision before proof exists", "Structural courage — goes first", "Others build on you"],
-    "乙": ["Navigates what others can't", "Bends without breaking", "Connection that actually lasts"],
-    "丙": ["Changes rooms on entry", "Warmth as structure, not performance", "Belief that moves people"],
-    "丁": ["Makes people feel genuinely seen", "Precision of attention", "Quality through full focus"],
-    "戊": ["The reference point in any room", "Patience that outlasts pressure", "Reliability as structural fact"],
-    "己": ["Grows what others abandon", "Care without announcement", "Reads what things need to flourish"],
-    "庚": ["Sees through what isn't real", "Creative force that won't dilute", "Goes further than most dare"],
-    "辛": ["Accuracy others come to rely on", "Work of real distinction", "Standards that outlast trends"],
-    "壬": ["Depth others simply can't reach", "Synthesizes across the full range", "Holds without needing to control"],
-    "癸": ["Senses truth before it's said", "Nourishes everything it reaches", "Quiet intelligence that outlasts noise"],
-  };
 
   // Growing Edge — invitations not diagnoses, concise
-  const CORE_SHADOWS = {
-    "甲": ["Root as deep as you reach", "Receive support — mean it", "Let what's planted land"],
-    "乙": ["Trust your own position", "Know when adapting becomes erasing", "Build inward as much as outward"],
-    "丙": ["Choose where to direct the light", "Receive as freely as you give", "Be seen — not only illuminating"],
-    "丁": ["Read the room before the full flame", "Receive witnessing in return", "Focused light is enough"],
-    "戊": ["Allow movement before certainty", "Stay open to being shaped", "Let others carry some weight"],
-    "己": ["Harvest for yourself too", "Know when the field is full", "Receive nourishment as naturally as you give it"],
-    "庚": ["Let heat shape you, not just test you", "Feedback is information, not challenge", "Make room inside the precision"],
-    "辛": ["Find peace in what's available", "Extend yourself the grace you see in others", "Your facet is already enough"],
-    "壬": ["Translate depth into forms others can reach", "Choose which currents are worth following", "Find the shores that give you shape"],
-    "癸": ["Build a container for your sensitivity", "Choose your ground deliberately", "Let yourself be nourished in return"],
-  };
 
   // Who You Are — pulled from WHO_YOU_ARE template constant
-  const wya = WHO_YOU_ARE[dm.stem] || { teaser: "", paragraphs: [] };
+  const wya     = WHO_YOU_ARE[dm.stem] || { teaser: "", bands: {} };
+  const band    = getEnergyBand(dm.strength);
+  const wyaBand = wya.bands?.[band] || {};
 
   return {
     archetype:      ARCHETYPES[dm.stem] || "",
     manifesto:      ARCHETYPE_MANIFESTO[dm.stem] || "",
     coreLine:       CORE_LINES[dm.stem] || "",
-    strengths:      CORE_STRENGTHS[dm.stem] || [],
-    shadows:        CORE_SHADOWS[dm.stem] || [],
+    strengths:      (CORE_STRENGTHS[dm.stem]?.[band]) || [],
+    shadows:        (CORE_SHADOWS[dm.stem]?.[band])  || [],
     whoYouAreTeaser:     wya.teaser,
-    whoYouAreParagraphs: wya.paragraphs || [],
+    whoYouAreTeaser: wya.teaser,
+    whoYouAreP1:     wyaBand.p1 || "",
+    whoYouAreP2:     wyaBand.p2 || "",
     strengthRing:   sr,
   };
 }
@@ -1158,117 +1327,130 @@ function StrengthRing({ pct, color, stem, size = 80 }) {
 }
 
 function DayMasterHero({ chart }) {
-  const [whoOpen, setWhoOpen] = useState(false);
   const dm = chart.dayMaster;
   const color = EL_C[dm.element];
   const profile = buildDayMasterProfile(chart);
   const polarity = dm.polarity === "yang" ? "Yang" : "Yin";
 
   const natureTeaser = profile.whoYouAreTeaser;
-  const bodyParas    = profile.whoYouAreParagraphs || [];
+  const wyaP1        = profile.whoYouAreP1;
+  const wyaP2        = profile.whoYouAreP2;
 
   const bgMap = {
-    Metal:"linear-gradient(135deg, #eef2f8 0%, #f0ebe0 100%)",
-    Wood: "linear-gradient(135deg, #eef5ee 0%, #f0ebe0 100%)",
-    Fire: "linear-gradient(135deg, #f9efee 0%, #f0ebe0 100%)",
-    Earth:"linear-gradient(135deg, #f5f0e8 0%, #f0ebe0 100%)",
-    Water:"linear-gradient(135deg, #eef1f8 0%, #f0ebe0 100%)",
+    Metal:"linear-gradient(160deg, #eef2f8 0%, #f0ebe0 100%)",
+    Wood: "linear-gradient(160deg, #eef5ee 0%, #f0ebe0 100%)",
+    Fire: "linear-gradient(160deg, #f9efee 0%, #f0ebe0 100%)",
+    Earth:"linear-gradient(160deg, #f5f0e8 0%, #f0ebe0 100%)",
+    Water:"linear-gradient(160deg, #eef1f8 0%, #f0ebe0 100%)",
   };
 
+  const divider = <div style={{height:"0.5px",background:`${color}20`,margin:"20px 0"}}/>;
+
   return (
-    <div style={{borderRadius:14,border:`1.5px solid ${color}40`,background:bgMap[dm.element]||C.bgCard,marginBottom:24,overflow:"hidden"}} className="fade">
+    <div style={{borderRadius:16,border:`1.5px solid ${color}30`,background:bgMap[dm.element]||C.bgCard,marginBottom:24,overflow:"hidden"}} className="fade">
 
-      {/* ── HERO: Seal + Identity token + Title + Manifesto ── */}
-      <div style={{padding:"24px 20px 18px",textAlign:"center",borderBottom:`0.5px solid ${color}20`,position:"relative"}}>
-
-        {/* Seal */}
-        <div style={{display:"flex",justifyContent:"center",marginBottom:14}}>
+      {/* ── HERO HEADER ── */}
+      <div style={{padding:"28px 22px 22px",textAlign:"center",borderBottom:`0.5px solid ${color}18`}}>
+        <div style={{display:"flex",justifyContent:"center",marginBottom:16}}>
           <ArchetypeSeal stem={dm.stem} color={color} size={72}/>
         </div>
-
-        {/* Identity token: 庚 · Yang Metal · Blade */}
-        <div style={{display:"inline-flex",alignItems:"center",gap:7,background:`${color}10`,border:`0.5px solid ${color}30`,borderRadius:20,padding:"4px 14px",marginBottom:12}}>
-          <span style={{fontFamily:"'Noto Serif SC',Georgia,serif",fontSize:13,color:color,fontWeight:400}}>{dm.stem}</span>
+        <div style={{display:"inline-flex",alignItems:"center",gap:7,background:`${color}12`,border:`0.5px solid ${color}28`,borderRadius:20,padding:"5px 16px",marginBottom:14}}>
+          <span style={{fontFamily:"'Noto Serif SC',Georgia,serif",fontSize:14,color:color,fontWeight:400}}>{dm.stem}</span>
           <span style={{width:3,height:3,borderRadius:"50%",background:`${color}50`,display:"inline-block"}}/>
-          <span style={{fontSize:9,letterSpacing:1.5,textTransform:"uppercase",color:color,fontFamily:"'EB Garamond',Georgia,serif"}}>{polarity} {dm.element}</span>
+          <span style={{fontSize:11,letterSpacing:1.2,textTransform:"uppercase",color:color,fontFamily:"'EB Garamond',Georgia,serif"}}>{polarity} {dm.element}</span>
           <span style={{width:3,height:3,borderRadius:"50%",background:`${color}50`,display:"inline-block"}}/>
-          <span style={{fontSize:9,letterSpacing:1.5,textTransform:"uppercase",color:color,fontFamily:"'EB Garamond',Georgia,serif"}}>{profile.archetype.replace("The ","")}</span>
+          <span style={{fontSize:11,letterSpacing:1.2,textTransform:"uppercase",color:color,fontFamily:"'EB Garamond',Georgia,serif"}}>{profile.archetype.replace("The ","")}</span>
         </div>
-
-        {/* Archetype title — hero-sized */}
-        <div style={{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:38,fontWeight:600,color:color,lineHeight:1,marginBottom:8}}>
+        <div style={{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:38,fontWeight:600,color:color,lineHeight:1,marginBottom:10}}>
           {profile.archetype}
         </div>
-
-        {/* Manifesto line — archetype description, not user description */}
-        <div style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:13.5,lineHeight:1.7,color:C.textSec,fontStyle:"italic",maxWidth:280,margin:"0 auto"}}>
+        <div style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:14,lineHeight:1.7,color:C.textSec,fontStyle:"italic",maxWidth:300,margin:"0 auto"}}>
           {profile.manifesto}
         </div>
       </div>
 
-      {/* ── BODY: Who You Are + Gifts/Edge ── */}
-      <div style={{padding:"18px 20px 20px"}}>
+      {/* ── BODY ── */}
+      <div style={{padding:"22px 22px 26px"}}>
 
-        {/* Strength indicator — compact, inline */}
-        <div style={{display:"flex",alignItems:"center",justifyContent:"center",gap:10,marginBottom:18}}>
-          <StrengthRing pct={profile.strengthRing.pct} color={color} stem={dm.stem} size={52}/>
+        {/* Energy level */}
+        <div style={{display:"flex",alignItems:"center",gap:14,marginBottom:20,padding:"14px 16px",background:`${color}06`,borderRadius:10,border:`0.5px solid ${color}15`}}>
+          <StrengthRing pct={profile.strengthRing.pct} color={color} stem={dm.stem} size={48}/>
           <div>
-            <div style={{fontSize:8,letterSpacing:1.5,textTransform:"uppercase",color:color,fontFamily:"'EB Garamond',Georgia,serif"}}>{profile.strengthRing.label}</div>
-            <div style={{fontSize:11,color:C.textTer,fontFamily:"'EB Garamond',Georgia,serif",fontStyle:"italic",marginTop:1}}>{profile.strengthRing.sublabel}</div>
+            <div style={{fontSize:11,letterSpacing:1.2,textTransform:"uppercase",color:color,fontFamily:"'EB Garamond',Georgia,serif",fontWeight:500,marginBottom:3}}>{profile.strengthRing.label}</div>
+            <div style={{fontSize:13,color:C.textTer,fontFamily:"'EB Garamond',Georgia,serif",fontStyle:"italic",lineHeight:1.5}}>{profile.strengthRing.sublabel}</div>
           </div>
         </div>
 
-        {/* Who You Are teaser + expand */}
+        {/* Who You Are */}
         {natureTeaser && (
-          <div style={{marginBottom:18,paddingBottom:18,borderBottom:`0.5px solid ${color}15`}}>
-            <div style={{fontSize:8,letterSpacing:2,textTransform:"uppercase",color:color,fontFamily:"'EB Garamond',Georgia,serif",marginBottom:8}}>Who You Are</div>
-            <p style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:14.5,lineHeight:1.85,color:C.textSec,fontStyle:"italic",marginBottom:0}}>
+          <div>
+            <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:color,fontFamily:"'EB Garamond',Georgia,serif",fontWeight:500,marginBottom:12}}>Who You Are</div>
+            <p style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:17,lineHeight:1.75,color:C.text,fontStyle:"italic",margin:"0 0 16px 0"}}>
               {natureTeaser}
             </p>
-            {whoOpen && bodyParas.length > 0 && (
-              <div style={{marginTop:14}} className="fade">
-                {bodyParas.map((para,i) => (
-                  <p key={i} style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:14,lineHeight:1.9,color:C.textSec,marginBottom:i<bodyParas.length-1?"1.1em":0}}>
-                    {para}
-                  </p>
-                ))}
-              </div>
+            {wyaP1 && (
+              <p style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:15,lineHeight:1.8,color:C.textSec,margin:"0 0 14px 0"}}>
+                {wyaP1}
+              </p>
             )}
-            {!whoOpen && bodyParas.length > 0 && (
-              <div style={{height:14,marginTop:4,background:`linear-gradient(to bottom, transparent, ${bgMap[dm.element]?.split("0%,")[1]?.split("100%")[0]?.trim()||"#f0ebe0"})`}}/>
-            )}
-            {bodyParas.length > 0 && (
-              <button onClick={()=>setWhoOpen(o=>!o)} style={{marginTop:whoOpen?12:2,background:"transparent",border:`0.5px solid ${color}40`,borderRadius:20,cursor:"pointer",padding:"5px 14px",display:"flex",alignItems:"center",gap:6,fontFamily:"'EB Garamond',Georgia,serif",fontSize:12,color:color,fontStyle:"italic"}}>
-                {whoOpen
-                  ? <><span style={{fontSize:10}}>↑</span> Show less</>
-                  : <><span style={{fontSize:10}}>↓</span> Read more about {profile.archetype}</>
-                }
-              </button>
+            {wyaP2 && (
+              <p style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:15,lineHeight:1.8,color:C.textSec,margin:0}}>
+                {wyaP2}
+              </p>
             )}
           </div>
         )}
 
-        {/* Core Gifts · Growing Edge — two column */}
-        <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:10}}>
-          <div style={{background:`${color}07`,borderRadius:10,padding:"11px 13px",border:`0.5px solid ${color}18`}}>
-            <div style={{fontSize:8,letterSpacing:1.5,textTransform:"uppercase",color:color,marginBottom:9,fontFamily:"'EB Garamond',Georgia,serif",fontWeight:500}}>Core Gifts</div>
-            {profile.strengths.map((s,i)=>(
-              <div key={i} style={{display:"flex",alignItems:"flex-start",gap:6,marginBottom:i<profile.strengths.length-1?7:0}}>
-                <div style={{width:3,height:3,borderRadius:"50%",background:color,flexShrink:0,marginTop:6}}/>
-                <span style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:12.5,lineHeight:1.55,color:C.textSec}}>{s}</span>
-              </div>
-            ))}
+        {divider}
+
+        {/* Core Gifts — boxed card */}
+        <div style={{marginBottom:14,borderRadius:14,overflow:"hidden",border:`1px solid ${color}22`}}>
+          {/* Card header bar */}
+          <div style={{background:`${color}18`,borderBottom:`1px solid ${color}20`,padding:"12px 18px",display:"flex",alignItems:"center",gap:10}}>
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+              <polygon points="7,1 8.8,5.5 13.5,5.5 9.7,8.5 11.2,13 7,10.2 2.8,13 4.3,8.5 0.5,5.5 5.2,5.5" fill={color} opacity="0.85"/>
+            </svg>
+            <div style={{fontSize:11,letterSpacing:2,textTransform:"uppercase",color:color,fontFamily:"'EB Garamond',Georgia,serif",fontWeight:600}}>Core Gifts</div>
           </div>
-          <div style={{background:`${C.accent}05`,borderRadius:10,padding:"11px 13px",border:`0.5px solid ${C.accent}12`}}>
-            <div style={{fontSize:8,letterSpacing:1.5,textTransform:"uppercase",color:C.accent,marginBottom:9,fontFamily:"'EB Garamond',Georgia,serif",fontWeight:500}}>Growing Edge</div>
-            {profile.shadows.map((s,i)=>(
-              <div key={i} style={{display:"flex",alignItems:"flex-start",gap:6,marginBottom:i<profile.shadows.length-1?7:0}}>
-                <div style={{width:3,height:3,borderRadius:"50%",background:C.accentLight,flexShrink:0,marginTop:6}}/>
-                <span style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:12.5,lineHeight:1.55,color:C.textSec}}>{s}</span>
+          {/* Items */}
+          <div style={{background:`${color}06`,padding:"6px 0"}}>
+            {profile.strengths.map((s,i) => (
+              <div key={i} style={{
+                padding:"14px 18px",
+                borderBottom: i < profile.strengths.length-1 ? `0.5px solid ${color}15` : "none",
+              }}>
+                <div style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:15,fontWeight:600,color:color,lineHeight:1.4,marginBottom:5}}>{s.label||s}</div>
+                {s.desc && <div style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:14,lineHeight:1.7,color:C.textSec}}>{s.desc}</div>}
               </div>
             ))}
           </div>
         </div>
+
+        {/* Growing Edge — boxed card */}
+        <div style={{borderRadius:14,overflow:"hidden",border:`1px solid ${C.accent}22`}}>
+          {/* Card header bar */}
+          <div style={{background:`${C.accent}12`,borderBottom:`1px solid ${C.accent}18`,padding:"12px 18px",display:"flex",alignItems:"center",gap:10}}>
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+              <path d="M7 2 C7 2 11 5 11 8.5 C11 10.5 9.2 12 7 12 C4.8 12 3 10.5 3 8.5 C3 5 7 2 7 2Z" stroke={C.accent} strokeWidth="1.2" fill="none" opacity="0.8"/>
+              <path d="M7 5.5 L7 8.5" stroke={C.accent} strokeWidth="1.4" strokeLinecap="round"/>
+              <circle cx="7" cy="10" r="0.7" fill={C.accent} opacity="0.8"/>
+            </svg>
+            <div style={{fontSize:11,letterSpacing:2,textTransform:"uppercase",color:C.accent,fontFamily:"'EB Garamond',Georgia,serif",fontWeight:600}}>Growing Edge</div>
+          </div>
+          {/* Items */}
+          <div style={{background:`${C.accent}04`,padding:"6px 0"}}>
+            {profile.shadows.map((s,i) => (
+              <div key={i} style={{
+                padding:"14px 18px",
+                borderBottom: i < profile.shadows.length-1 ? `0.5px solid ${C.accent}12` : "none",
+              }}>
+                <div style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:15,fontWeight:600,color:C.accent,lineHeight:1.4,marginBottom:5}}>{s.label||s}</div>
+                {s.desc && <div style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:14,lineHeight:1.7,color:C.textSec}}>{s.desc}</div>}
+              </div>
+            ))}
+          </div>
+        </div>
+
       </div>
     </div>
   );
@@ -1514,6 +1696,115 @@ function getEnergyBand(strength) {
   return "open";
 }
 
+// ─── 调候 CLIMATE ADJUSTMENT ─────────────────────────────────────────────────
+// Overrides 扶抑 (strength-based) catalyst/resistance when the chart's seasonal
+// temperature is extreme (hot summer or cold winter births).
+// Source: 穷通宝鉴 — month branch determines chart temperature; 调候 is a
+// modifier ON TOP of 扶抑, not a replacement system.
+//
+// Override rule (derived from month branch element + season):
+//   Cold charts (亥子丑寅卯 — Winter/early Spring):
+//     → Fire promoted to top Catalyst regardless of DM strength
+//     → Water demoted to Resistance if it deepens cold (Metal/Water DMs)
+//   Hot charts (巳午未 — Summer):
+//     → Water promoted to top Catalyst regardless of DM strength
+//     → Fire demoted if it deepens heat (Fire/Wood DMs)
+//   Neutral (辰申酉戌 — Late Spring/Autumn): standard 扶抑 rules, no override
+
+const TIAOHOU_SEASON = {
+  // branch → { temp: "cold"|"hot"|"neutral", humidity: "wet"|"dry"|"neutral" }
+  "子":{ temp:"cold",   humidity:"wet"     },
+  "丑":{ temp:"cold",   humidity:"wet"     },
+  "寅":{ temp:"cold",   humidity:"neutral" },
+  "卯":{ temp:"cool",   humidity:"neutral" },
+  "辰":{ temp:"neutral",humidity:"wet"     },
+  "巳":{ temp:"warm",   humidity:"dry"     },
+  "午":{ temp:"hot",    humidity:"dry"     },
+  "未":{ temp:"hot",    humidity:"dry"     },
+  "申":{ temp:"cool",   humidity:"dry"     },
+  "酉":{ temp:"cool",   humidity:"dry"     },
+  "戌":{ temp:"neutral",humidity:"dry"     },
+  "亥":{ temp:"cold",   humidity:"wet"     },
+};
+
+// Returns { promoteCatalyst: Element|null, demoteFromCatalyst: Element|null }
+// promoteCatalyst: force this element to the top of the catalyst list
+// demoteFromCatalyst: move this element from catalyst to resistance
+function getTiaohouAdjustment(dmStem, monthBranch) {
+  const season = TIAOHOU_SEASON[monthBranch];
+  if (!season) return { promoteCatalyst: null, demoteFromCatalyst: null };
+
+  const dmElement = { 甲:"Wood",乙:"Wood",丙:"Fire",丁:"Fire",
+    戊:"Earth",己:"Earth",庚:"Metal",辛:"Metal",壬:"Water",癸:"Water" }[dmStem];
+
+  const isExtremeCold = season.temp === "cold";
+  const isExtremeHot  = season.temp === "hot";
+
+  let promoteCatalyst    = null;
+  let demoteFromCatalyst = null;
+
+  if (isExtremeCold) {
+    // Fire is urgently needed to warm the chart
+    promoteCatalyst = "Fire";
+    // Water deepens cold for Metal/Water DMs — demote it
+    if (dmElement === "Metal" || dmElement === "Water") {
+      demoteFromCatalyst = "Water";
+    }
+  } else if (isExtremeHot) {
+    // Water is urgently needed to cool the chart
+    promoteCatalyst = "Water";
+    // Fire deepens heat for Fire/Wood DMs — demote it
+    if (dmElement === "Fire" || dmElement === "Wood") {
+      demoteFromCatalyst = "Fire";
+    }
+  }
+
+  return { promoteCatalyst, demoteFromCatalyst };
+}
+
+// Applies 调候 adjustments to the stem's base lifts/depletes arrays.
+// Returns { lifts, depletes } with reordering applied where 调候 overrides 扶抑.
+function applyTiaohouToEnergies(baseEnergies, dmStem, monthBranch) {
+  const { promoteCatalyst, demoteFromCatalyst } = getTiaohouAdjustment(dmStem, monthBranch);
+  if (!promoteCatalyst && !demoteFromCatalyst) return baseEnergies;
+
+  let lifts    = [...baseEnergies.lifts];
+  let depletes = [...baseEnergies.depletes];
+
+  // Demote: move element from lifts → depletes if it conflicts with 调候
+  if (demoteFromCatalyst) {
+    const liftIdx = lifts.findIndex(e => e.el === demoteFromCatalyst);
+    if (liftIdx >= 0) {
+      const [demoted] = lifts.splice(liftIdx, 1);
+      // Rewrite the line to reflect 调候 reason
+      const tiaohouLine = demoteFromCatalyst === "Water"
+        ? `${demoted.line} — but deepens the seasonal cold, making heat the priority`
+        : `${demoted.line} — but intensifies the seasonal heat, making cooling the priority`;
+      depletes = [{ el: demoted.el, line: tiaohouLine }, ...depletes];
+    }
+  }
+
+  // Promote: ensure element is at top of lifts
+  if (promoteCatalyst) {
+    const existingIdx = lifts.findIndex(e => e.el === promoteCatalyst);
+    if (existingIdx > 0) {
+      // Already in lifts but not first — move to top
+      const [item] = lifts.splice(existingIdx, 1);
+      lifts = [item, ...lifts];
+    } else if (existingIdx === -1) {
+      // Not in lifts at all — add it with 调候 explanation
+      const tiaohouLines = {
+        Fire: "The forge this chart needs — seasonal warmth that gives cold Metal its direction and purpose",
+        Water:"The cooling this chart needs — seasonal moisture that gives hot Fire its sustainability",
+      };
+      lifts = [{ el: promoteCatalyst, line: tiaohouLines[promoteCatalyst] || `Seasonal priority — brings climate balance this chart needs` }, ...lifts];
+    }
+    // If already first (existingIdx === 0), no change needed
+  }
+
+  return { lifts, depletes };
+}
+
 // Per-stem dominant/missing insight lines
 function getElementInsights(chart) {
   const dm = chart.dayMaster;
@@ -1610,15 +1901,16 @@ const STRENGTH_META = {
 };
 
 function ElementSpectrum({ chart }) {
-  const dm = chart.dayMaster;
+  const dm      = chart.dayMaster;
   const dmColor = EL_C[dm.element];
   const insights = getElementInsights(chart);
-  const energies = ELEMENT_ENERGIES[dm.stem] || ELEMENT_ENERGIES["庚"];
-  const sm = STRENGTH_META[dm.strength] || STRENGTH_META.moderate;
+  const energiesBase = ELEMENT_ENERGIES[dm.stem] || ELEMENT_ENERGIES["庚"];
+  const monthBranch  = chart.pillars?.month?.branch || "";
+  const energies     = applyTiaohouToEnergies(energiesBase, dm.stem, monthBranch);
+  const sm  = STRENGTH_META[dm.strength] || STRENGTH_META.moderate;
   const band = getEnergyBand(dm.strength);
   const ecr = (ENERGY_CONDITION_READINGS[dm.stem] || ENERGY_CONDITION_READINGS["庚"])[band];
 
-  // Feedback #2: sort bars by count descending, absent elements at bottom
   const sortedEls = Object.entries(chart.elements)
     .map(([el, d]) => ({ el, count: d?.count || 0, present: d?.present || false }))
     .sort((a, b) => {
@@ -1628,51 +1920,68 @@ function ElementSpectrum({ chart }) {
     })
     .map(({ el }) => el);
 
+  const ff = "'EB Garamond',Georgia,serif";
+  const divider = <div style={{height:"0.5px",background:`${dmColor}18`,margin:"20px 0"}}/>;
+
+  // Shared callout card renderer
+  const CalloutCard = ({ color, borderStyle="solid", icon, sectionLabel, name, line, guidance }) => (
+    <div style={{borderRadius:12,padding:"14px 15px",marginBottom:12,
+      background: borderStyle==="dashed" ? "transparent" : `${color}0d`,
+      border: borderStyle==="dashed" ? `1px dashed ${color}50` : `0.5px solid ${color}28`}}>
+      <div style={{display:"flex",alignItems:"center",gap:10,marginBottom:9}}>
+        <div style={{width:28,height:28,borderRadius:8,display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,
+          background: borderStyle==="dashed" ? "transparent" : `${color}18`,
+          border: borderStyle==="dashed" ? `1px dashed ${color}55` : `0.5px solid ${color}35`}}>
+          <ElementIcon el={icon} color={color} size={15}/>
+        </div>
+        <div>
+          <div style={{fontSize:9,letterSpacing:1.5,textTransform:"uppercase",color:`${color}90`,fontFamily:ff,fontWeight:500,marginBottom:2}}>{sectionLabel}</div>
+          <div style={{fontSize:14,fontWeight:600,color:color,fontFamily:ff,lineHeight:1.15}}>{name}</div>
+        </div>
+      </div>
+      <div style={{fontSize:13,lineHeight:1.68,color:C.textSec,fontStyle:"italic",fontFamily:ff,marginBottom:5}}>{line}</div>
+      <div style={{fontSize:12,lineHeight:1.6,color:C.textTer,fontFamily:ff}}>{guidance}</div>
+    </div>
+  );
+
   return (
-    <div style={{borderRadius:14,border:`1.5px solid ${dmColor}38`,overflow:"hidden",background:`linear-gradient(135deg,${dmColor}06 0%,transparent 60%)`}} className="fade">
-      <div style={{padding:"20px 18px 18px"}}>
+    <div style={{borderRadius:16,border:`1.5px solid ${dmColor}30`,overflow:"hidden",
+      background:`linear-gradient(160deg,${dmColor}07 0%,#faf7f2 100%)`}} className="fade">
+      <div style={{padding:"22px 20px 26px"}}>
 
-        {/* Title */}
-        <div style={{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:22,fontWeight:600,color:C.text,marginBottom:16,lineHeight:1.1}}>Your Energy Profile</div>
-
-        {/* Energy Condition block — stem-specific reading */}
-        <div style={{padding:"13px 14px",background:`${dmColor}0d`,borderRadius:10,border:`0.5px solid ${dmColor}28`,marginBottom:18}}>
-          {/* Label row */}
-          <div style={{display:"flex",alignItems:"flex-start",justifyContent:"space-between",marginBottom:8}}>
+        {/* ── BLOCK 1: Energy Condition + Balance Approach ──────────────── */}
+        <div style={{borderRadius:12,padding:"16px 16px",background:`${dmColor}0e`,border:`0.5px solid ${dmColor}28`,marginBottom:20}}>
+          {/* Condition header */}
+          <div style={{display:"flex",alignItems:"flex-start",gap:13,marginBottom:13}}>
+            <div style={{width:44,height:44,borderRadius:10,background:`${dmColor}20`,border:`0.5px solid ${dmColor}40`,
+              display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0}}>
+              <ElementIcon el={dm.element} color={dmColor} size={22}/>
+            </div>
             <div>
-              <div style={{fontSize:8,letterSpacing:1.5,textTransform:"uppercase",color:C.textTer,marginBottom:3,fontFamily:"'EB Garamond',Georgia,serif"}}>Energy Condition</div>
-              <div style={{display:"flex",alignItems:"baseline",gap:8}}>
-                <div style={{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:20,fontWeight:600,color:dmColor,lineHeight:1}}>{sm.label}</div>
-                <div style={{fontSize:9,color:`${dmColor}90`,letterSpacing:1,textTransform:"uppercase",fontFamily:"'EB Garamond',Georgia,serif",borderLeft:`1px solid ${dmColor}30`,paddingLeft:8}}>{sm.polarity}</div>
+              <div style={{fontSize:9,letterSpacing:1.8,textTransform:"uppercase",color:`${dmColor}90`,fontFamily:ff,fontWeight:500,marginBottom:3}}>Energy condition</div>
+              <div style={{fontSize:18,fontWeight:600,color:dmColor,fontFamily:"'Cormorant Garamond',Georgia,serif",lineHeight:1.15,marginBottom:2}}>{sm.label}</div>
+              <div style={{fontSize:10,letterSpacing:1,textTransform:"uppercase",color:`${dmColor}80`,fontFamily:ff}}>{sm.polarity}</div>
+            </div>
+          </div>
+          <div style={{height:"0.5px",background:`${dmColor}20`,marginBottom:12}}/>
+          {/* Portrait */}
+          <div style={{fontSize:13,lineHeight:1.72,color:C.textSec,fontStyle:"italic",fontFamily:ff,marginBottom:12}}>{ecr.portrait}</div>
+          {/* Balance approach */}
+          <div style={{display:"flex",alignItems:"flex-start",gap:9}}>
+            <div style={{width:3,borderRadius:2,background:dmColor,flexShrink:0,alignSelf:"stretch",minHeight:18}}/>
+            <div>
+              <div style={{fontSize:9,letterSpacing:1.5,textTransform:"uppercase",color:`${dmColor}90`,fontFamily:ff,fontWeight:500,marginBottom:3}}>Balance approach</div>
+              <div style={{fontSize:12.5,lineHeight:1.65,color:C.textSec,fontFamily:ff}}>
+                <span style={{color:dmColor,fontWeight:600}}>{sm.approach} — </span>
+                {ecr.dynamic} {ecr.practice}
               </div>
             </div>
-            <div style={{textAlign:"right"}}>
-              <div style={{fontSize:8,letterSpacing:1.5,textTransform:"uppercase",color:C.textTer,marginBottom:3,fontFamily:"'EB Garamond',Georgia,serif"}}>Balance approach</div>
-              <div style={{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:15,fontWeight:600,color:dmColor,lineHeight:1}}>{sm.approach}</div>
-            </div>
-          </div>
-          <div style={{height:"0.5px",background:`${dmColor}18`,marginBottom:8}}/>
-          {/* Stem-specific portrait — replaces generic frame line */}
-          <div style={{fontSize:12.5,lineHeight:1.7,color:C.textSec,fontStyle:"italic",marginBottom:6,fontFamily:"'EB Garamond',Georgia,serif"}}>{ecr.portrait}</div>
-          {/* Dynamic — what it creates */}
-          <div style={{fontSize:12,lineHeight:1.65,color:C.textSec,marginBottom:6,fontFamily:"'EB Garamond',Georgia,serif",borderLeft:`2px solid ${dmColor}30`,paddingLeft:8}}>{ecr.dynamic}</div>
-          {/* Practice */}
-          <div style={{fontSize:11.5,lineHeight:1.6,color:C.textTer,fontFamily:"'EB Garamond',Georgia,serif"}}><span style={{color:dmColor,fontWeight:500}}>Practice — </span>{ecr.practice}</div>
-        </div>
-
-        {/* Legend */}
-        <div style={{display:"flex",justifyContent:"flex-end",gap:12,marginBottom:8}}>
-          <div style={{display:"flex",alignItems:"center",gap:4}}>
-            <span style={{fontSize:10,color:dmColor}}>✦</span>
-            <span style={{fontSize:9,color:C.textTer,fontStyle:"italic",fontFamily:"'EB Garamond',Georgia,serif"}}>Your core element</span>
-          </div>
-          <div style={{display:"flex",alignItems:"center",gap:4}}>
-            <div style={{width:14,height:8,borderRadius:2,border:`1px dashed ${C.fire}55`}}/>
-            <span style={{fontSize:9,color:C.fire,fontStyle:"italic",fontFamily:"'EB Garamond',Georgia,serif"}}>absent</span>
           </div>
         </div>
 
-        <div style={{marginBottom:16}}>
+        {/* ── BLOCK 2: Elemental composition ───────────────────────────── */}
+        <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:12}}>Elemental composition</div>
+        <div style={{marginBottom:6}}>
           {sortedEls.map(el => {
             const d = chart.elements[el];
             const count = d?.count || 0;
@@ -1680,29 +1989,34 @@ function ElementSpectrum({ chart }) {
             const isDM = el === dm.element;
             const color = EL_C[el];
             return (
-              <div key={el} style={{display:"flex",alignItems:"center",gap:10,marginBottom:11}}>
-                <div style={{width:80,display:"flex",alignItems:"center",gap:7,flexShrink:0}}>
-                  <div style={{width:26,height:26,borderRadius:7,background:`${color}12`,border:`0.5px solid ${color}28`,display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0}}>
-                    <ElementIcon el={el} color={color} size={15}/>
+              <div key={el} style={{display:"flex",alignItems:"center",gap:10,marginBottom:10}}>
+                <div style={{width:74,display:"flex",alignItems:"center",gap:7,flexShrink:0}}>
+                  <div style={{width:24,height:24,borderRadius:6,flexShrink:0,
+                    background: isMissing ? "transparent" : `${color}12`,
+                    border: isMissing ? `1px dashed ${color}45` : `0.5px solid ${color}30`,
+                    display:"flex",alignItems:"center",justifyContent:"center",
+                    opacity: isMissing ? 0.45 : 1}}>
+                    <ElementIcon el={el} color={color} size={13}/>
                   </div>
-                  <div>
-                                <div style={{fontSize:11.5,color:isMissing?`${color}88`:color,fontWeight:500,lineHeight:1,fontFamily:"'EB Garamond',Georgia,serif"}}>
-                      {el}{isDM && <span style={{fontSize:10,color:dmColor,marginLeft:3}}>✦</span>}
+                  <div style={{opacity: isMissing ? 0.45 : 1}}>
+                    <div style={{fontSize:12,color:isMissing ? `${color}88` : color,
+                      fontWeight:isDM ? 600 : 400,lineHeight:1,fontFamily:ff}}>
+                      {el}{isDM && <span style={{fontSize:9,marginLeft:2}}>✦</span>}
                     </div>
-                    {isMissing && <div style={{fontSize:9,color:C.fire,fontStyle:"italic",lineHeight:1.3,fontFamily:"'EB Garamond',Georgia,serif"}}>absent</div>}
+                    {isMissing && <div style={{fontSize:9,color:C.fire,fontStyle:"italic",lineHeight:1.2,fontFamily:ff,marginTop:1}}>absent</div>}
                   </div>
                 </div>
-                <div style={{flex:1,display:"flex",gap:3}}>
+                <div style={{flex:1,display:"flex",gap:3,opacity: isMissing ? 0.35 : 1}}>
                   {[...Array(8)].map((_,i) => (
-                    <div key={i} style={{flex:1,height:8,borderRadius:3,
-                      background: isMissing ? "transparent" : i < count ? color : "#ddd9d0",
-                      opacity: isMissing ? 1 : i < count ? (isDM ? 0.82 : 0.58) : 1,
-                      border: isMissing ? `1px dashed ${color}` : "none",
-                      ...(isMissing ? {opacity:0.32} : {}),
+                    <div key={i} style={{flex:1,height:9,borderRadius:2,
+                      background: isMissing ? "transparent" : i < count ? color : "#e4dfd6",
+                      opacity: isMissing ? 1 : i < count ? (isDM ? 0.88 : 0.58) : 1,
+                      border: isMissing ? `1px dashed ${color}55` : "none",
                     }}/>
                   ))}
                 </div>
-                <div style={{width:18,textAlign:"right",fontSize:11,color:isMissing?C.fire:C.textTer,flexShrink:0,fontFamily:"'EB Garamond',Georgia,serif"}}>
+                <div style={{width:16,textAlign:"right",fontSize:11,flexShrink:0,fontFamily:ff,
+                  color: isMissing ? C.fire : C.textTer, opacity: isMissing ? 0.6 : 1}}>
                   {isMissing ? "—" : count}
                 </div>
               </div>
@@ -1710,53 +2024,67 @@ function ElementSpectrum({ chart }) {
           })}
         </div>
 
+        {divider}
+
+        {/* ── BLOCK 3: Dominant energy ──────────────────────────────────── */}
+        <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:12}}>Dominant energy</div>
         {insights.dominant && (
-          <div style={{display:"flex",gap:8,padding:"10px 12px",background:`${EL_C[insights.dominant.el]}07`,borderRadius:10,border:`0.5px solid ${EL_C[insights.dominant.el]}22`,marginBottom:8}}>
-            <div style={{width:3,borderRadius:2,background:EL_C[insights.dominant.el],flexShrink:0,minHeight:30}}/>
-            <div>
-              <div style={{fontSize:8,letterSpacing:1.5,textTransform:"uppercase",color:EL_C[insights.dominant.el],marginBottom:3,fontFamily:"'EB Garamond',Georgia,serif"}}>Dominant force</div>
-              <div style={{fontSize:12.5,lineHeight:1.65,color:C.textSec,fontStyle:"italic",marginBottom:4,fontFamily:"'EB Garamond',Georgia,serif"}}>{insights.dominant.line}</div>
-              <div style={{fontSize:11.5,lineHeight:1.55,color:C.textTer,fontFamily:"'EB Garamond',Georgia,serif"}}>{insights.dominant.guidance}</div>
-            </div>
-          </div>
+          <CalloutCard
+            color={EL_C[insights.dominant.el]}
+            icon={insights.dominant.el}
+            sectionLabel={`${insights.dominant.el} · overall chart influence`}
+            name={`${insights.dominant.el} dominates`}
+            line={insights.dominant.line}
+            guidance={insights.dominant.guidance}
+          />
         )}
 
-        {/* Missing insights */}
-        {insights.missing.map((m,i) => (
-          <div key={i} style={{display:"flex",gap:8,padding:"10px 12px",background:`${C.fire}07`,borderRadius:10,border:`0.5px solid ${C.fire}22`,marginBottom:8}}>
-            <div style={{width:3,borderRadius:2,background:C.fire,flexShrink:0,minHeight:30}}/>
-            <div>
-              <div style={{fontSize:8,letterSpacing:1.5,textTransform:"uppercase",color:C.fire,marginBottom:3,fontFamily:"'EB Garamond',Georgia,serif"}}>Missing {m.el.toLowerCase()}</div>
-              <div style={{fontSize:12.5,lineHeight:1.65,color:C.textSec,fontStyle:"italic",marginBottom:4,fontFamily:"'EB Garamond',Georgia,serif"}}>{m.line}</div>
-              <div style={{fontSize:11.5,lineHeight:1.55,color:C.textTer,fontFamily:"'EB Garamond',Georgia,serif"}}>{m.guidance}</div>
-            </div>
-          </div>
+        {divider}
+
+        {/* ── BLOCK 4: Your Catalyst ────────────────────────────────────── */}
+        <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:12}}>Your catalyst</div>
+        {energies.lifts.map(({el, line}, i) => (
+          <CalloutCard key={i}
+            color={EL_C[el]}
+            icon={el}
+            sectionLabel={`${el} · what activates this chart`}
+            name={el}
+            line={line}
+            guidance={`When ${el} is present — in your environment, timing, or the people around you — the full capacity of this chart comes through.`}
+          />
         ))}
 
-        <div style={{height:"0.5px",background:C.border,margin:"14px 0"}}/>
+        {divider}
 
-        {/* Lifts / Depletes */}
-        <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:14}}>
-          {[
-            { items: energies.lifts,    label:"What lifts you",    accent:"#6a9860" },
-            { items: energies.depletes, label:"What depletes you", accent:C.fire },
-          ].map(({items,label,accent}) => (
-            <div key={label}>
-              <div style={{fontSize:8,letterSpacing:1.5,textTransform:"uppercase",color:accent,marginBottom:9,fontFamily:"'EB Garamond',Georgia,serif"}}>{label}</div>
-              {items.map(({el,line},i) => (
-                <div key={i} style={{display:"flex",gap:7,alignItems:"flex-start",marginBottom:9}}>
-                  <div style={{width:24,height:24,borderRadius:"50%",background:`${EL_C[el]}10`,border:`0.5px solid ${EL_C[el]}30`,display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,marginTop:1}}>
-                    <ElementIcon el={el} color={EL_C[el]} size={13}/>
-                  </div>
-                  <div style={{fontSize:11.5,lineHeight:1.55,color:C.textSec,fontFamily:"'EB Garamond',Georgia,serif"}}>
-                    <span style={{color:EL_C[el],fontWeight:500}}>{el}</span>
-                    <span style={{color:C.textTer}}> — {line}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          ))}
-        </div>
+        {/* ── BLOCK 5: Your Resistance ──────────────────────────────────── */}
+        <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:12}}>Your resistance</div>
+        {energies.depletes.map(({el, line}, i) => (
+          <CalloutCard key={i}
+            color={EL_C[el]}
+            icon={el}
+            sectionLabel={`${el} · what resists this chart`}
+            name={el}
+            line={line}
+            guidance={`Environments or periods dominated by ${el} energy create friction without forward movement — not always avoidable, but worth recognising.`}
+          />
+        ))}
+
+        {/* ── BLOCK 6: Absent element ───────────────────────────────────── */}
+        {insights.missing.length > 0 && divider}
+        {insights.missing.length > 0 && (
+          <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:12}}>What is absent</div>
+        )}
+        {insights.missing.map((m, i) => (
+          <CalloutCard key={i}
+            color={C.fire}
+            borderStyle="dashed"
+            icon={m.el}
+            sectionLabel={`${m.el} · missing element`}
+            name={`${m.el} is absent`}
+            line={m.line}
+            guidance={m.guidance}
+          />
+        ))}
 
       </div>
     </div>
