@@ -56,6 +56,296 @@ function getTenGod(dmStem, targetStem) {
   return {zh:"—",en:"—",family:"none"};
 }
 
+// ── HYBRID ELEMENT CALCULATION — Method C + D with Method B modifier ─────────
+// Documented in Bible Part 2.8. This replaces the old raw character count.
+// Sources: 子平真诠 (Method A gates), 黄景泓打分法 (Method C weights),
+//          藏干理论 (Method D hidden stems), 穷通宝鉴 (Method B seasonal phase)
+
+// Method D — 藏干 Hidden Stems for all 12 branches
+// Format: [{stem, element, weight}] where weights sum to 1.0
+// 本气(Main)=0.6, 中气(Secondary)=0.3, 余气(Residual)=0.1; single=1.0; two=0.7/0.3
+const HIDDEN_STEMS = {
+  "子":[{s:"癸",e:"Water",w:1.0}],
+  "丑":[{s:"己",e:"Earth",w:0.6},{s:"癸",e:"Water",w:0.3},{s:"辛",e:"Metal",w:0.1}],
+  "寅":[{s:"甲",e:"Wood", w:0.6},{s:"丙",e:"Fire", w:0.3},{s:"戊",e:"Earth",w:0.1}],
+  "卯":[{s:"乙",e:"Wood", w:1.0}],
+  "辰":[{s:"戊",e:"Earth",w:0.6},{s:"乙",e:"Wood", w:0.3},{s:"癸",e:"Water",w:0.1}],
+  "巳":[{s:"丙",e:"Fire", w:0.6},{s:"庚",e:"Metal",w:0.3},{s:"戊",e:"Earth",w:0.1}],
+  "午":[{s:"丁",e:"Fire", w:0.7},{s:"己",e:"Earth",w:0.3}],
+  "未":[{s:"己",e:"Earth",w:0.6},{s:"丁",e:"Fire", w:0.3},{s:"乙",e:"Wood", w:0.1}],
+  "申":[{s:"庚",e:"Metal",w:0.6},{s:"壬",e:"Water",w:0.3},{s:"戊",e:"Earth",w:0.1}],
+  "酉":[{s:"辛",e:"Metal",w:1.0}],
+  "戌":[{s:"戊",e:"Earth",w:0.6},{s:"辛",e:"Metal",w:0.3},{s:"丁",e:"Fire", w:0.1}],
+  "亥":[{s:"壬",e:"Water",w:0.7},{s:"甲",e:"Wood", w:0.3}],
+};
+
+// Method B — Corrected 12-branch seasonal phase multipliers
+// Each branch treated individually based on 旺相休囚死 + hidden stem character.
+// Earth months (辰未戌丑) use Earth-dominant phases, NOT their surrounding season.
+// Derivation: 旺=1.3(ruling), 相=1.1(child of ruler), 休=0.9(parent of ruler, depleted),
+//             囚=0.7(controller, overpowered), 死=0.6(controlled, most suppressed)
+// Earth months modify these base scores by their specific hidden stems.
+const SEASONAL_PHASE = {
+  // ── Spring (Wood旺) ─────────────────────────────────────────────────────
+  "寅":{Wood:1.3,Fire:1.1,Earth:0.6,Metal:0.7,Water:0.9}, // pure Wood (甲木本气)
+  "卯":{Wood:1.3,Fire:1.1,Earth:0.6,Metal:0.7,Water:0.9}, // pure Wood (乙木本气)
+  // ── Spring→Summer transition (Earth旺, Metal相) ──────────────────────────
+  // 辰: 戊Earth本气. Metal=相(Earth→Metal=1.1). Fire=休(softened from 死 by approaching summer).
+  // Wood=囚(softened by 乙木 lingering). Water=死(softened by 癸水 hidden).
+  "辰":{Wood:0.8,Fire:0.9,Earth:1.3,Metal:1.1,Water:0.8},
+  // ── Summer (Fire旺) ─────────────────────────────────────────────────────
+  "巳":{Wood:0.9,Fire:1.3,Earth:1.1,Metal:0.6,Water:0.7}, // Fire主(丙火本气)
+  "午":{Wood:0.9,Fire:1.3,Earth:1.1,Metal:0.6,Water:0.7}, // Fire主(丁火本气)
+  // ── Summer→Autumn transition (Earth旺) ──────────────────────────────────
+  // 未: 己Earth本气. 丁Fire lingers (休 elevated to 1.0). Metal相 weakened by heat=0.9. Water driest=0.6.
+  "未":{Wood:0.7,Fire:1.0,Earth:1.3,Metal:0.9,Water:0.6},
+  // ── Autumn (Metal旺) ────────────────────────────────────────────────────
+  "申":{Wood:0.6,Fire:0.7,Earth:0.9,Metal:1.3,Water:1.1}, // Metal主(庚金本气)
+  "酉":{Wood:0.6,Fire:0.7,Earth:0.9,Metal:1.3,Water:1.1}, // Metal主(辛金本气)
+  // ── Autumn→Winter transition (Earth旺, Metal相 elevated) ─────────────────
+  // 戌: 戊Earth本气. 辛Metal lingers strongly=1.2. 丁Fire fading=0.8. Wood=死(最死 in autumn).
+  // Water rising toward winter=0.8.
+  "戌":{Wood:0.6,Fire:0.8,Earth:1.3,Metal:1.2,Water:0.8},
+  // ── Winter (Water旺) ────────────────────────────────────────────────────
+  "亥":{Wood:1.1,Fire:0.6,Earth:0.7,Metal:0.9,Water:1.3}, // Water主(壬水本气)
+  "子":{Wood:1.1,Fire:0.6,Earth:0.7,Metal:0.9,Water:1.3}, // Water主(癸水本气)
+  // ── Winter→Spring transition (Earth旺) ──────────────────────────────────
+  // 丑: 己Earth本气. 癸Water 死(softened by 癸水 present=0.9). 辛Metal相=1.0. Wood囚(stirring toward spring=0.9).
+  // Fire coldest=0.6.
+  "丑":{Wood:0.9,Fire:0.6,Earth:1.3,Metal:1.0,Water:0.9},
+};
+
+// Method C — Position weights (月支40%, 日支20%, 月干15%, 时干10%, 年柱10%, 时支5%)
+// Day stem excluded — it IS the DM
+const POS_WEIGHTS = {yearStem:0.05,yearBranch:0.05,monthStem:0.15,monthBranch:0.40,dayBranch:0.20,hourStem:0.10,hourBranch:0.05};
+
+// Method D root modifier — does a heavenly stem have 通根 in branches?
+function getRootMod(stemEl, pillars, pillarKey) {
+  const branchMap = {yearBranch:pillars.year.branch,monthBranch:pillars.month.branch,dayBranch:pillars.day.branch,hourBranch:pillars.hour.branch};
+  const samePillar = {yearStem:"yearBranch",monthStem:"monthBranch",hourStem:"hourBranch"};
+  let hasRoot=false, samePillarRoot=false;
+  for (const [bKey,branch] of Object.entries(branchMap)) {
+    const hidden = HIDDEN_STEMS[branch]||[];
+    if (hidden.some(h=>h.e===stemEl)) {
+      hasRoot=true;
+      if (samePillar[pillarKey]===bKey) samePillarRoot=true;
+    }
+  }
+  return samePillarRoot?1.30:hasRoot?1.15:0.85;
+}
+
+// Compute weighted element composition — returns raw scores AND per-position contributions
+// posContrib is used by applyBondModifiers to shift specific contributions
+function computeElementComposition(pillars) {
+  const phase = SEASONAL_PHASE[pillars.month.branch] || SEASONAL_PHASE["辰"];
+  const posContrib = {}; // posKey → [{element, score}]
+  const raw = {Metal:0, Wood:0, Fire:0, Earth:0, Water:0};
+
+  const stemPos = [
+    {key:"yearStem",  stem:pillars.year.stem,   w:POS_WEIGHTS.yearStem},
+    {key:"monthStem", stem:pillars.month.stem,  w:POS_WEIGHTS.monthStem},
+    {key:"hourStem",  stem:pillars.hour.stem,   w:POS_WEIGHTS.hourStem},
+  ];
+  for (const {key,stem,w} of stemPos) {
+    const el = STEM_ELEM[stem]; if (!el) continue;
+    const score = w * getRootMod(el,pillars,key) * (phase[el]||1);
+    posContrib[key] = [{element:el, score}];
+    raw[el] += score;
+  }
+
+  const branchPos = [
+    {key:"yearBranch",  branch:pillars.year.branch,  w:POS_WEIGHTS.yearBranch},
+    {key:"monthBranch", branch:pillars.month.branch, w:POS_WEIGHTS.monthBranch},
+    {key:"dayBranch",   branch:pillars.day.branch,   w:POS_WEIGHTS.dayBranch},
+    {key:"hourBranch",  branch:pillars.hour.branch,  w:POS_WEIGHTS.hourBranch},
+  ];
+  for (const {key,branch,w} of branchPos) {
+    posContrib[key] = [];
+    for (const {e,w:hw} of (HIDDEN_STEMS[branch]||[])) {
+      const score = w * hw * (phase[e]||1);
+      posContrib[key].push({element:e, score});
+      raw[e] += score;
+    }
+  }
+  return {raw, posContrib};
+}
+
+// Apply bond modifiers — stem bonds (天干五合), branch six-harmony (六合), three-harmony (三合)
+// Returns bond-adjusted scores and set of stems bonded toward DM support (for 得势 gate)
+function applyBondModifiers(raw, posContrib, pillars, dayStem) {
+  const MAIN_QI = {"子":"Water","丑":"Earth","寅":"Wood","卯":"Wood","辰":"Earth","巳":"Fire","午":"Fire","未":"Earth","申":"Metal","酉":"Metal","戌":"Earth","亥":"Water"};
+  const monthMQi = MAIN_QI[pillars.month.branch];
+  const GEN = {Wood:"Fire",Fire:"Earth",Earth:"Metal",Metal:"Water",Water:"Wood"};
+  const dmEl = STEM_ELEM[dayStem];
+
+  const allStems    = [pillars.year.stem,  pillars.month.stem,  dayStem,            pillars.hour.stem];
+  const allBranches = [pillars.year.branch,pillars.month.branch,pillars.day.branch, pillars.hour.branch];
+
+  // Map branch → posContrib key
+  const branchPosKey = b =>
+    pillars.year.branch===b?"yearBranch":pillars.month.branch===b?"monthBranch":
+    pillars.day.branch===b?"dayBranch":"hourBranch";
+  // Map stem → posContrib key
+  const stemPosKey = s =>
+    pillars.year.stem===s?"yearStem":pillars.month.stem===s?"monthStem":"hourStem";
+
+  const adj = {...raw};
+  const bondedDMStems = new Set(); // non-DM stems whose bond converts them to DM support
+
+  function shift(fromEl, toEl, amount) {
+    adj[fromEl] = Math.max(0, (adj[fromEl]||0) - amount);
+    adj[toEl]   = (adj[toEl]||0) + amount;
+  }
+
+  const STEM_BOND_PAIRS = [
+    {s1:"甲",s2:"己",result:"Earth"},{s1:"乙",s2:"庚",result:"Metal"},
+    {s1:"丙",s2:"辛",result:"Water"},{s1:"丁",s2:"壬",result:"Wood"},
+    {s1:"戊",s2:"癸",result:"Fire"},
+  ];
+  const SIX_COMBO = [
+    {b1:"子",b2:"丑",result:"Earth"},{b1:"寅",b2:"亥",result:"Wood"},
+    {b1:"卯",b2:"戌",result:"Fire"},{b1:"辰",b2:"酉",result:"Metal"},
+    {b1:"巳",b2:"申",result:"Water"},{b1:"午",b2:"未",result:"Earth"},
+  ];
+  const THREE_COMBO = [
+    {branches:["寅","午","戌"],result:"Fire"},{branches:["申","子","辰"],result:"Water"},
+    {branches:["亥","卯","未"],result:"Wood"},{branches:["巳","酉","丑"],result:"Metal"},
+  ];
+
+  // ── 1. Stem bonds (天干五合) ───────────────────────────────────────────────
+  for (const {s1,s2,result} of STEM_BOND_PAIRS) {
+    if (!allStems.includes(s1) || !allStems.includes(s2)) continue;
+    const sf = monthMQi === result ? 0.80 : 0.40;
+    for (const s of [s1,s2]) {
+      if (s === dayStem) continue; // DM not shifted in composition
+      const contribs = posContrib[stemPosKey(s)] || [];
+      for (const c of contribs) {
+        if (c.element === result) continue;
+        shift(c.element, result, c.score * sf);
+      }
+      // Mark stem as bonded-supportive if bond result supports DM
+      if (result === dmEl || GEN[result] === dmEl) bondedDMStems.add(s);
+    }
+  }
+
+  // ── 2. Branch six-harmony (地支六合) ─────────────────────────────────────
+  for (const {b1,b2,result} of SIX_COMBO) {
+    if (!allBranches.includes(b1) || !allBranches.includes(b2)) continue;
+    const sf = monthMQi === result ? 0.80 : 0.40;
+    for (const b of [b1,b2]) {
+      const contribs = posContrib[branchPosKey(b)] || [];
+      for (const c of contribs) {
+        if (c.element === result) continue;
+        shift(c.element, result, c.score * sf);
+      }
+    }
+  }
+
+  // ── 3. Branch three-harmony (三合 / 半三合) ──────────────────────────────
+  for (const {branches,result} of THREE_COMBO) {
+    const present = branches.filter(b => allBranches.includes(b));
+    if (present.length < 2) continue;
+    const sf = present.length === 3
+      ? (monthMQi === result ? 0.90 : 0.55)   // full three-combo
+      : (monthMQi === result ? 0.60 : 0.30);   // half three-combo
+    for (const b of present) {
+      const contribs = posContrib[branchPosKey(b)] || [];
+      for (const c of contribs) {
+        if (c.element === result) continue;
+        shift(c.element, result, c.score * sf);
+      }
+    }
+  }
+
+  return {adj, bondedDMStems};
+}
+
+
+// Method A gate check → 3-gate decision → strength label + score
+// bondedDMStems: stems whose bond result supports DM (from applyBondModifiers)
+function computeDMStrength(pillars, dmStem, bondedDMStems = new Set()) {
+  const dmEl = STEM_ELEM[dmStem];
+  const GEN  = {Wood:"Fire",Fire:"Earth",Earth:"Metal",Metal:"Water",Water:"Wood"};
+  const MAIN_QI = {"子":"Water","丑":"Earth","寅":"Wood","卯":"Wood","辰":"Earth","巳":"Fire","午":"Fire","未":"Earth","申":"Metal","酉":"Metal","戌":"Earth","亥":"Water"};
+  // 得令: month branch 本気 = DM element or generates DM (月令本気十神)
+  const monthMainQi = MAIN_QI[pillars.month.branch] || "Earth";
+  const gotLing = monthMainQi === dmEl || GEN[monthMainQi] === dmEl;
+  // 得地: DM element rooted in any branch hidden stems
+  const allBranches = [pillars.year.branch,pillars.month.branch,pillars.day.branch,pillars.hour.branch];
+  const gotDi = allBranches.some(b=>(HIDDEN_STEMS[b]||[]).some(h=>h.e===dmEl));
+  // 得势: supporting stems > draining (bond-converted stems count as supportive)
+  const nonDMStems = [pillars.year.stem,pillars.month.stem,pillars.hour.stem];
+  const supporting = nonDMStems.filter(s=>{
+    const el = STEM_ELEM[s];
+    return el===dmEl || GEN[el]===dmEl || bondedDMStems.has(s);
+  });
+  const gotShi = supporting.length > (nonDMStems.length - supporting.length);
+  // 8-case decision table
+  const g = (gotLing?4:0)+(gotDi?2:0)+(gotShi?1:0);
+  if (g===7) return {strength:"extremely_strong",strengthScore:0.92};
+  if (g===6||g===5||g===3) return {strength:"strong",strengthScore:0.72};
+  if (g===4) return {strength:"moderate",strengthScore:0.50};
+  if (g===2||g===1) return {strength:"weak",strengthScore:0.30};
+  return {strength:"extremely_weak",strengthScore:0.12};
+}
+
+
+// ── COMPOUND ARCHETYPE SYSTEM — Part 3A of Bible ────────────────────────────
+// Three functions that produce the Tier 2 template lookup key:
+//   [stem]_[band]_[tension]_[catalyst]
+// See Bible Part 3A for full taxonomy, content rules, and generation protocol.
+
+const CATALYST_MAP = {
+  Metal: {concentrated:["Fire","Water"], balanced:["Fire","Earth"],  open:["Earth","Metal"]},
+  Wood:  {concentrated:["Metal","Fire"], balanced:["Metal","Water"], open:["Water","Wood"]},
+  Water: {concentrated:["Earth","Wood"], balanced:["Earth","Metal"], open:["Metal","Water"]},
+  Fire:  {concentrated:["Water","Earth"],balanced:["Water","Wood"],  open:["Wood","Fire"]},
+  Earth: {concentrated:["Wood","Metal"], balanced:["Wood","Fire"],   open:["Fire","Earth"]},
+};
+
+// Tension = relationship of dominant chart element to DM (Bible §3A.3)
+function computeTension(chart) {
+  const dmEl = chart.dayMaster.element;
+  const GEN  = {Wood:"Fire",Fire:"Earth",Earth:"Metal",Metal:"Water",Water:"Wood"};
+  const CTL  = {Wood:"Earth",Earth:"Water",Water:"Fire",Fire:"Metal",Metal:"Wood"};
+  const sorted = Object.entries(chart.elements)
+    .filter(([,d]) => d.present)
+    .sort(([,a],[,b]) => (b.score||0) - (a.score||0));
+  if (!sorted.length) return "pure";
+  const dominant = sorted[0][0];
+  if (dominant === dmEl)          return "pure";
+  if (GEN[dominant] === dmEl)     return "rooted";
+  if (GEN[dmEl]     === dominant) return "flowing";
+  if (CTL[dmEl]     === dominant) return "forging";
+  return "tested";
+}
+
+// Primary catalyst = what this DM needs at this band (Bible §3A.3)
+function getPrimaryCatalyst(chart) {
+  const dmEl = chart.dayMaster.element;
+  const band = getEnergyBand(chart.dayMaster.strength);
+  const [primary, secondary] = CATALYST_MAP[dmEl]?.[band] || ["Fire","Water"];
+  return primary === dmEl ? secondary : primary;
+}
+
+// Full Tier 2 lookup key
+function getArchetypeKey(chart) {
+  const tension  = computeTension(chart);
+  const catalyst = getPrimaryCatalyst(chart);
+  const band     = getEnergyBand(chart.dayMaster.strength);
+  return `${chart.dayMaster.stem}_${band}_${tension}_${catalyst}`;
+}
+
+// Tension display labels — Tier 1 user-facing names (Bible §3A.2)
+const TENSION_LABELS = {
+  pure:    "Pure",
+  rooted:  "Rooted",
+  flowing: "Flowing",
+  forging: "Forging",
+  tested:  "Tested",
+};
+
+
 function calculateBaziChart(input) {
   const { year, month, day, hour, gender, location } = input;
   const longitudes = {beijing:120,shanghai:121,guangzhou:113,chengdu:104,newyork:-74,london:0,tokyo:139,paris:2,sydney:151};
@@ -79,32 +369,27 @@ function calculateBaziChart(input) {
   const hourBranch = EB[hourBranchIdx];
   const hourStem = HS[(HS.indexOf(dayStem)*2+hourBranchIdx)%10];
 
-  const elements = {Metal:0,Wood:0,Fire:0,Earth:0,Water:0};
-  [yearStem,monthStem,dayStem,hourStem].forEach(s=>elements[STEM_ELEM[s]]++);
-  [yearBranch,monthBranch,dayBranch,hourBranch].forEach(b=>elements[BRANCH_ELEM[b]]++);
+  // ── Hybrid element composition (C+D+B) ──────────────────────────────────
+  const pillarsObj = {year:{stem:yearStem,branch:yearBranch},month:{stem:monthStem,branch:monthBranch},day:{stem:dayStem,branch:dayBranch},hour:{stem:hourStem,branch:hourBranch}};
+  const {raw: rawScores, posContrib} = computeElementComposition(pillarsObj);
+  // ── Apply bond modifiers (五合/六合/三合) ─────────────────────────────────
+  const {adj: bondAdj, bondedDMStems} = applyBondModifiers(rawScores, posContrib, pillarsObj, dayStem);
+  // Scale to 0-8 bar segments; ensure present elements show ≥1 bar
+  const totalRaw = Object.values(bondAdj).reduce((s,v)=>s+v,0)||1;
+  const elements = Object.fromEntries(
+    Object.entries(bondAdj).map(([el,raw])=>{
+      const pct = raw/totalRaw;
+      const count = raw > 0.001 ? Math.max(1, Math.round(pct*10)) : 0;
+      return [el,{count,score:parseFloat(pct.toFixed(3)),dominant:false,present:raw>0.001}];
+    })
+  );
+  const maxCount = Math.max(...Object.values(elements).map(e=>e.count));
+  if (maxCount>0) Object.values(elements).forEach(e=>{ e.dominant = e.count===maxCount; });
+  // ── Method A gate check (with bond-adjusted 得势) ────────────────────────
+  const dmStrengthResult = computeDMStrength(pillarsObj, dayStem, bondedDMStems);
+  const { strength, strengthScore } = dmStrengthResult;
 
   const combinations = [];
-  const STEM_BONDS = {甲:"己",乙:"庚",丙:"辛",丁:"壬",戊:"癸",己:"甲",庚:"乙",辛:"丙",壬:"丁",癸:"戊"};
-  const BOND_RESULT = {甲:"Earth",乙:"Metal",丙:"Water",丁:"Wood",戊:"Fire",己:"Earth",庚:"Metal",辛:"Water",壬:"Wood",癸:"Fire"};
-  const BRANCH_BONDS = {子:"丑",丑:"子",寅:"亥",亥:"寅",卯:"戌",戌:"卯",辰:"酉",酉:"辰",巳:"申",申:"巳",午:"未",未:"午"};
-  const BR_RESULT = {子:"Earth",丑:"Earth",寅:"Wood",亥:"Wood",卯:"Fire",戌:"Fire",辰:"Metal",酉:"Metal",巳:"Water",申:"Water",午:"Earth",未:"Earth"};
-  const stems = [yearStem,monthStem,dayStem,hourStem];
-  const stemPos = ["yearStem","monthStem","dayStem","hourStem"];
-  const branches = [yearBranch,monthBranch,dayBranch,hourBranch];
-  const branchPos = ["yearBranch","monthBranch","dayBranch","hourBranch"];
-  for (let i=0;i<4;i++) for (let j=i+1;j<4;j++) {
-    if (STEM_BONDS[stems[i]]===stems[j])
-      combinations.push({type:"stemBond",elements:[stems[i],stems[j]],positions:[stemPos[i],stemPos[j]],resultElement:BOND_RESULT[stems[i]],activates:true,name:`${stems[i]}${stems[j]}合`});
-    if (BRANCH_BONDS[branches[i]]===branches[j])
-      combinations.push({type:"branchBond",elements:[branches[i],branches[j]],positions:[branchPos[i],branchPos[j]],resultElement:BR_RESULT[branches[i]],activates:true,name:`${branches[i]}${branches[j]}合`});
-  }
-
-  const dmEl = STEM_ELEM[dayStem];
-  const GEN={Wood:"Fire",Fire:"Earth",Earth:"Metal",Metal:"Water",Water:"Wood"};
-  const supportScore = (elements[dmEl]*1.2) + (elements[Object.keys(GEN).find(k=>GEN[k]===dmEl)]||0);
-  const ratio = supportScore / 8;
-  const strength = ratio>0.7?"extremely_strong":ratio>0.5?"strong":ratio>0.35?"moderate":ratio>0.2?"weak":"extremely_weak";
-
   const tgMap = k => ({yearStem:getTenGod(dayStem,yearStem),monthStem:getTenGod(dayStem,monthStem),hourStem:getTenGod(dayStem,hourStem)}[k]);
   const outputCt = ["食神","伤官"].filter(g=>["yearStem","monthStem","hourStem"].some(k=>tgMap(k)?.zh===g)).length;
   const wealthCt  = ["偏财","正财"].filter(g=>["yearStem","monthStem","hourStem"].some(k=>tgMap(k)?.zh===g)).length;
@@ -148,12 +433,19 @@ function calculateBaziChart(input) {
   const fdEl=Math.floor((now-anchor)/86400000);
   const fdStem=HS[fdEl%10],fdBranch=EB[(fdEl+10)%12];
 
+  const dmEl = STEM_ELEM[dayStem];
+  // Build partial chart for archetype key computation (elements already computed above)
+  const partialChart = {dayMaster:{element:dmEl,strength},elements};
+  const tension      = computeTension(partialChart);
+  const catalyst     = getPrimaryCatalyst(partialChart);
+  const archetypeKey = `${dayStem}_${getEnergyBand(strength)}_${tension}_${catalyst}`;
   return {
     meta:{birthDate:`${year}-${String(month).padStart(2,"0")}-${String(day).padStart(2,"0")}`,birthHour:hour,location:location||"Beijing",gender,calculatedAt:now.toISOString().split("T")[0]},
     pillars:{year:{stem:yearStem,branch:yearBranch,stemElement:STEM_ELEM[yearStem],branchElement:BRANCH_ELEM[yearBranch],stemPolarity:STEM_YIN[yearStem]?"yin":"yang",branchPolarity:BRANCH_YIN[yearBranch]?"yin":"yang"},month:{stem:monthStem,branch:monthBranch,stemElement:STEM_ELEM[monthStem],branchElement:BRANCH_ELEM[monthBranch],stemPolarity:STEM_YIN[monthStem]?"yin":"yang",branchPolarity:BRANCH_YIN[monthBranch]?"yin":"yang"},day:{stem:dayStem,branch:dayBranch,stemElement:STEM_ELEM[dayStem],branchElement:BRANCH_ELEM[dayBranch],stemPolarity:STEM_YIN[dayStem]?"yin":"yang",branchPolarity:BRANCH_YIN[dayBranch]?"yin":"yang"},hour:{stem:hourStem,branch:hourBranch,stemElement:STEM_ELEM[hourStem],branchElement:BRANCH_ELEM[hourBranch],stemPolarity:STEM_YIN[hourStem]?"yin":"yang",branchPolarity:BRANCH_YIN[hourBranch]?"yin":"yang"}},
-    dayMaster:{stem:dayStem,element:dmEl,polarity:STEM_YIN[dayStem]?"yin":"yang",strength,strengthScore:Math.round(ratio*100)/100},
-    elements:Object.fromEntries(Object.entries(elements).map(([k,v])=>[k,{count:v,dominant:v===Math.max(...Object.values(elements)),present:v>0}])),
-    missingElements:Object.keys(elements).filter(e=>elements[e]===0),
+    dayMaster:{stem:dayStem,element:dmEl,polarity:STEM_YIN[dayStem]?"yin":"yang",strength,strengthScore},
+    elements,
+    missingElements:Object.keys(elements).filter(e=>!elements[e].present),
+    tension, catalyst, archetypeKey,
     tenGods:{yearStem:getTenGod(dayStem,yearStem),yearBranch:getTenGod(dayStem,yearBranch),monthStem:getTenGod(dayStem,monthStem),monthBranch:getTenGod(dayStem,monthBranch),dayStem:{zh:"日主",en:"Day Master",family:"self"},dayBranch:getTenGod(dayStem,dayBranch),hourStem:getTenGod(dayStem,hourStem),hourBranch:getTenGod(dayStem,hourBranch)},
     combinations,pattern:PATTERNS[patternKey],luckPillars,
     currentFlowYear:{year:cy,stem:fyStem,branch:fyBranch,stemElement:STEM_ELEM[fyStem],branchElement:BRANCH_ELEM[fyBranch],stemTenGod:getTenGod(dayStem,fyStem),branchTenGod:getTenGod(dayStem,fyBranch)},
@@ -163,19 +455,37 @@ function calculateBaziChart(input) {
 }
 
 
-// ── TEMPLATE DATABASE (generated by generate_templates_v2.js) ──────────
-// In production: populated by running the batch script (~800 entries).
-// After migration: import from src/content/content.js
-// ─────────────────────────────────────────────────────────────────────────
-
-// ═══════════════════════════════════════════════════════════════════════════
-// LAYER 1.5 — TEMPLATE DATABASE
-// In production: populated by running generate_templates.js (800 entries, ~$6)
-// For testing: hand-crafted samples covering 6 Day Masters × key combinations
-// Template key format: {stem}_{strength}_{missing_sorted}_{pattern}
-// ═══════════════════════════════════════════════════════════════════════════
+// ── TEMPLATE DATABASE ──────────────────────────────────────────────────────
+// Tier 2 compound archetype template lookup.
+// Key format: [stem]_[band]_[tension]_[catalyst]  (see Bible Part 3A)
+// Full 300-key library generated via generate_templates_v2.js (Claude Opus, ~$25).
+// Reference template below is hand-written to spec — used as quality benchmark.
+// Legacy keys (old format) retained below reference key for fallback compatibility.
+// ─────────────────────────────────────────────────────────────────────────────
 
 const TEMPLATE_DB = {
+
+  // ── COMPOUND ARCHETYPE TEMPLATES (new format) ────────────────────────────
+  // Schema: { teaser, p1, p2, gifts:[{label,desc}×3], edges:[{label,desc}×2] }
+  // Reference chart: 1995-04-29 18:00 Beijing Male → 乙亥 庚辰 庚寅 乙酉
+
+  "庚_concentrated_pure_Fire": {
+    teaser: "Before you say a word, the room recalibrates. Precision at this concentration has a quality people sense before it speaks — not a trait you cultivated, but the structural default of Yang Metal running at full charge. No tempering, no counterbalance. The edge was already there when you arrived.",
+    p1: "Your processing runs through accuracy before anything else engages. The assessment happens automatically — before the social read, before the emotional response, before you've decided to engage at all. When something doesn't hold up, your system registers it before the problem has a name. Others feel evaluated in your presence even when you say nothing, because structurally, you are always evaluating.",
+    p2: "What drives you isn't achievement — it's the resolution of what's actually true. The Pure chart intensifies this: without a counterbalancing force, the precision turns on whatever is in reach, including yourself. Fire is what this chart has been seeking before it had a language for it — the force that gives precision a direction. Without it, the edge is fully formed but unpointed.",
+    gifts: [
+      {label:"Signal clarity",       desc:"When others are confused, your read sharpens. You see what's actually happening before it has been named, and you don't mistake noise for signal."},
+      {label:"Structural durability",desc:"What you build holds. You cannot tolerate what does not, which means everything you put your name on carries a durability others cannot easily replicate."},
+      {label:"Precision of completion",desc:"You finish what others lose the thread of. Vagueness costs you more than most, making your follow-through structural rather than motivational."},
+    ],
+    edges: [
+      {label:"Warmth reads as performance",  desc:"Without Fire in this chart, precision registers as coldness rather than rigor. The same quality that makes you most capable is what makes genuine care difficult to offer — and harder for others to feel."},
+      {label:"Rigidity under new information",desc:"A Pure chart compounds Metal's tendency toward fixed assessment. The conclusion already made becomes difficult to revise, even when new evidence arrives that should change it."},
+    ],
+  },
+
+  // ── LEGACY TEMPLATES (old key format — pre-compound archetype system) ────
+  // Retained for fallback. Will be superseded once 300-key library is generated.
 
   // ── 庚 Yang Metal ───────────────────────────────────────────────────────
   // Exact match: reference chart 1995-04-29
@@ -1255,6 +1565,7 @@ const CORE_SHADOWS = {
 function buildDayMasterProfile(chart) {
   const dm = chart.dayMaster;
   const sr = STRENGTH_RING[dm.strength] || STRENGTH_RING.moderate;
+  const band = getEnergyBand(dm.strength);
 
   const ARCHETYPES = {
     "甲":"The Oak", "乙":"The Vine", "丙":"The Sun",  "丁":"The Candle",
@@ -1262,7 +1573,6 @@ function buildDayMasterProfile(chart) {
     "壬":"The Ocean", "癸":"The Rain",
   };
 
-  // Core lines — archetype-voice, third person, describes the character
   const CORE_LINES = {
     "甲": "The Oak grows toward light before it decides to — its nature is forward motion, its gift is building what others can only imagine.",
     "乙": "The Vine finds its way not through force but through intelligence — it reads every surface and arrives where the Oak never could.",
@@ -1276,26 +1586,30 @@ function buildDayMasterProfile(chart) {
     "癸": "The Rain senses what is true in a room before anyone has said the thing — and nourishes what it touches without announcing it.",
   };
 
-  // Core Gifts — punchy, 3-5 words, instantly quotable (MBTI-style memorability)
+  // ── Try compound archetype template first (new system) ─────────────────
+  const compoundKey  = chart.archetypeKey || "";
+  const compoundTmpl = TEMPLATE_DB[compoundKey];
 
-  // Growing Edge — invitations not diagnoses, concise
-
-  // Who You Are — pulled from WHO_YOU_ARE template constant
+  // ── Fall back to legacy WHO_YOU_ARE system ──────────────────────────────
   const wya     = WHO_YOU_ARE[dm.stem] || { teaser: "", bands: {} };
-  const band    = getEnergyBand(dm.strength);
   const wyaBand = wya.bands?.[band] || {};
 
   return {
     archetype:      ARCHETYPES[dm.stem] || "",
     manifesto:      ARCHETYPE_MANIFESTO[dm.stem] || "",
     coreLine:       CORE_LINES[dm.stem] || "",
-    strengths:      (CORE_STRENGTHS[dm.stem]?.[band]) || [],
-    shadows:        (CORE_SHADOWS[dm.stem]?.[band])  || [],
-    whoYouAreTeaser:     wya.teaser,
-    whoYouAreTeaser: wya.teaser,
-    whoYouAreP1:     wyaBand.p1 || "",
-    whoYouAreP2:     wyaBand.p2 || "",
-    strengthRing:   sr,
+    // Content: compound template takes priority; legacy system is fallback
+    whoYouAreTeaser: compoundTmpl?.teaser  || wya.teaser     || "",
+    whoYouAreP1:     compoundTmpl?.p1      || wyaBand.p1     || "",
+    whoYouAreP2:     compoundTmpl?.p2      || wyaBand.p2     || "",
+    strengths:       compoundTmpl?.gifts   || (CORE_STRENGTHS[dm.stem]?.[band]) || [],
+    shadows:         compoundTmpl?.edges   || (CORE_SHADOWS[dm.stem]?.[band])   || [],
+    // Metadata for DayMasterHero identity card
+    tension:         chart.tension   || "",
+    catalyst:        chart.catalyst  || "",
+    archetypeKey:    compoundKey,
+    band,
+    strengthRing:    sr,
   };
 }
 
@@ -1364,9 +1678,38 @@ function DayMasterHero({ chart }) {
         <div style={{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:38,fontWeight:600,color:color,lineHeight:1,marginBottom:10}}>
           {profile.archetype}
         </div>
-        <div style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:14,lineHeight:1.7,color:C.textSec,fontStyle:"italic",maxWidth:300,margin:"0 auto"}}>
+        <div style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:14,lineHeight:1.7,color:C.textSec,fontStyle:"italic",maxWidth:300,margin:"0 auto 14px"}}>
           {profile.manifesto}
         </div>
+        {/* Compound identity chips — band / tension / catalyst */}
+        {(profile.tension || profile.catalyst) && (
+          <div style={{display:"flex",justifyContent:"center",gap:7,flexWrap:"wrap",marginBottom:14}}>
+            {profile.band && (
+              <div style={{fontSize:10,letterSpacing:1,padding:"3px 11px",borderRadius:20,border:`0.5px solid ${color}35`,background:`${color}08`,color:color,fontFamily:"'EB Garamond',Georgia,serif"}}>
+                {profile.band === "concentrated" ? "☀" : profile.band === "balanced" ? "⚖" : "☽"} {profile.band.charAt(0).toUpperCase() + profile.band.slice(1)}
+              </div>
+            )}
+            {profile.tension && (
+              <div style={{fontSize:10,letterSpacing:1,padding:"3px 11px",borderRadius:20,border:`0.5px solid ${color}35`,background:`${color}08`,color:color,fontFamily:"'EB Garamond',Georgia,serif"}}>
+                {TENSION_LABELS[profile.tension] || profile.tension}
+              </div>
+            )}
+            {profile.catalyst && (
+              <div style={{fontSize:10,letterSpacing:1,padding:"3px 11px",borderRadius:20,border:`0.5px solid ${EL_C[profile.catalyst] || color}50`,background:`${EL_C[profile.catalyst] || color}08`,color:EL_C[profile.catalyst] || color,fontFamily:"'EB Garamond',Georgia,serif"}}>
+                Seeking {profile.catalyst}
+              </div>
+            )}
+          </div>
+        )}
+        {/* Shareable code strip */}
+        {profile.tension && (
+          <div style={{display:"inline-flex",alignItems:"center",gap:8,background:`${color}08`,border:`0.5px dashed ${color}35`,borderRadius:10,padding:"6px 14px"}}>
+            <span style={{fontFamily:"monospace",fontSize:11,color:color,letterSpacing:0.5}}>
+              {dm.stem} · {profile.archetype.replace("The ","").toUpperCase()} · {profile.band === "concentrated" ? "☀" : profile.band === "balanced" ? "⚖" : "☽"} · {(TENSION_LABELS[profile.tension]||"").toUpperCase()}
+            </span>
+            <span style={{fontSize:9,letterSpacing:1.5,textTransform:"uppercase",color:`${color}70`}}>Share ↗</span>
+          </div>
+        )}
       </div>
 
       {/* ── BODY ── */}
@@ -1497,16 +1840,16 @@ function ElementIcon({ el, color, size=15 }) {
 
 // Per-stem favourable / unfavourable element data
 const ELEMENT_ENERGIES = {
-  "甲":{ lifts:[{el:"Water",line:"Nourishes the roots — the missing foundation"},{el:"Fire",line:"Channels growth into visible results"}], depletes:[{el:"Metal",line:"Cuts growth directly — the primary opposing force"},{el:"Earth",line:"Absorbs water before it reaches the roots"}] },
-  "乙":{ lifts:[{el:"Water",line:"Nourishes the vine from below"},{el:"Fire",line:"Draws the vine upward and outward"}], depletes:[{el:"Metal",line:"Cuts the vine — the most direct opposing force"},{el:"Earth",line:"Too much soil smothers rather than supports"}] },
-  "丙":{ lifts:[{el:"Wood",line:"Feeds the flame — sustains warmth when it might exhaust itself"},{el:"Fire",line:"Genuine conviction that costs something carries furthest"}], depletes:[{el:"Water",line:"Extinguishes what the Sun works hardest to sustain"},{el:"Metal",line:"Absorbs warmth before it reaches who it's meant for"}] },
-  "丁":{ lifts:[{el:"Wood",line:"Sustains the flame through steady nourishment"},{el:"Fire",line:"Deepens the warmth and focus the candle carries"}], depletes:[{el:"Water",line:"Extinguishes the focused flame"},{el:"Metal",line:"Draws the light away before it can illuminate"}] },
-  "戊":{ lifts:[{el:"Fire",line:"Warms the mountain — activates what has been still"},{el:"Earth",line:"More ground deepens the foundation's reach"}], depletes:[{el:"Wood",line:"Roots break the stone — the primary destabilising force"},{el:"Water",line:"Erodes the mountain over time"}] },
-  "己":{ lifts:[{el:"Fire",line:"Warms the field — activates growth and ripening"},{el:"Earth",line:"More soil deepens the capacity to nourish"}], depletes:[{el:"Wood",line:"Takes without giving — drains the field's fertility"},{el:"Water",line:"Too much floods rather than nourishes"}] },
-  "庚":{ lifts:[{el:"Fire",line:"Gives the edge purpose — transforms precision into mastery"},{el:"Wood",line:"Channels precision outward into results"}], depletes:[{el:"Metal",line:"More Metal deepens rigidity — already full"},{el:"Water",line:"Cools what needs to stay hot"}] },
-  "辛":{ lifts:[{el:"Water",line:"Brings out the jewel's clarity and brightness"},{el:"Earth",line:"Holds and protects the gem's setting"}], depletes:[{el:"Fire",line:"The heat that tests — without Earth, it risks damaging the facet"},{el:"Metal",line:"Too much Metal crowds rather than refines"}] },
-  "壬":{ lifts:[{el:"Metal",line:"Generates Water — the primary source of support"},{el:"Water",line:"More depth amplifies what the Ocean can hold and reach"}], depletes:[{el:"Earth",line:"Dams the current — the primary opposing force"},{el:"Fire",line:"Evaporates depth before it can be used"}] },
-  "癸":{ lifts:[{el:"Wood",line:"Flow with the dominant force — it amplifies everything"},{el:"Water",line:"Supports the core while feeding what grows"}], depletes:[{el:"Metal",line:"Cuts what's dominant — disrupts the natural current"},{el:"Fire",line:"Burns Wood — undermines the entire foundation"}] },
+  "甲":{ lifts:[{el:"Water",line:"The element that nourishes rather than demands — it allows the reach to consolidate into something with roots rather than simply continuing outward."},{el:"Fire",line:"The element that makes the growth visible and gives it a direction the outside world can recognise and engage with."}], depletes:[{el:"Metal",line:"The element that cuts directly against what you're building — in environments where it dominates, the growth that is your most natural output meets its sharpest opposing force."},{el:"Earth",line:"The element that absorbs the nourishment before it reaches the roots — too much structure and weight beneath the growth prevents the reach from consolidating into something lasting."}] },
+  "乙":{ lifts:[{el:"Water",line:"The element that sustains the intelligence without requiring it to perform — nourishment that arrives quietly and allows the navigation to continue at depth."},{el:"Fire",line:"The element that draws the reach upward and outward, giving the adaptability a specific destination worth committing to."}], depletes:[{el:"Metal",line:"The element that cuts the intelligence off before it reaches its destination — direct opposition to the adaptability and precision of route that is this energy's most distinctive quality."},{el:"Earth",line:"The element that smothers rather than supports — too much of it creates a heaviness that the navigational intelligence can't work around, because there is no surface left to read."}] },
+  "丙":{ lifts:[{el:"Wood",line:"The element that feeds what you give out — it replenishes the source so the warmth can continue without consuming itself."},{el:"Fire",line:"The element that deepens conviction rather than spreading it — what you genuinely believe and are willing to pay for carries further than what simply feels good to say."}], depletes:[{el:"Water",line:"The element that works directly against what this chart produces most naturally — in quantities that dominate, it extinguishes the warmth before it can reach who it's meant for."},{el:"Metal",line:"The element that absorbs the light before it arrives — environments saturated with it pull warmth inward and away from the people and contexts it was moving toward."}] },
+  "丁":{ lifts:[{el:"Wood",line:"The element that sustains the flame steadily — consistent nourishment that allows the focused attention to continue without burning through its own source."},{el:"Fire",line:"The element that deepens the warmth rather than broadening it — more of what you already are at your most specific and most real."}], depletes:[{el:"Water",line:"The element that extinguishes the focused attention before it illuminates what it was pointed at — direct opposition to the precision this energy carries most distinctively."},{el:"Metal",line:"The element that draws the light sideways before it can land — it redirects the focused attention away from what it was moving toward."}] },
+  "戊":{ lifts:[{el:"Fire",line:"The element that activates what has been patient — it brings warmth to what has been waiting and creates the conditions for movement that doesn't compromise the underlying stability."},{el:"Earth",line:"The element that deepens rather than shifts — it adds to what's already solid rather than asking it to become something different."}], depletes:[{el:"Wood",line:"The element that works against the stability at its deepest level — roots break stone over time, and environments dominated by it create destabilisation that reliability cannot simply hold against indefinitely."},{el:"Water",line:"The element that erodes rather than confronting — it works beneath the stability over time, and by the time the cost is visible it has been accumulating for a while."}] },
+  "己":{ lifts:[{el:"Fire",line:"The element that ripens what has been quietly growing — it brings the warmth that converts patient cultivation into visible results."},{el:"Earth",line:"The element that deepens the capacity to nourish without depleting — more soil means more can be grown without the field going barren."}], depletes:[{el:"Wood",line:"The element that takes without returning — it drains what the field has been quietly building and tends to leave less fertility than it found."},{el:"Water",line:"The element that floods rather than nourishes — too much of it overwhelms careful cultivation rather than supporting it, and what was growing carefully becomes waterlogged before it can produce."}] },
+  "庚":{ lifts:[{el:"Fire",line:"Fire is the forge — the external force that gives precision its direction. You have always had the capability. What Fire brings is the target: when it enters your life through the right environment, challenge, or people, you stop searching and start producing."},{el:"Wood",line:"Wood is the material the edge exists to work with. Without genuine substance to engage — problems with depth, projects worth the full precision — the capability stays potential rather than becoming output."}], depletes:[{el:"Metal",line:"Metal is what you already carry in abundance. More of it produces compression rather than capability — rigid environments, unmovable hierarchies, and people who meet your edge with their own don't sharpen you. They stall you."},{el:"Water",line:"Water tempers what needs to stay sharp. Conditions that are too fluid, too accommodating, or too diffuse dissipate the precision before it finds a target. You don't thrive where nothing pushes back."}] },
+  "辛":{ lifts:[{el:"Water",line:"The element that brings out the inherent clarity — it reveals the quality that was always present rather than adding something new, the way water shows the true colour of a stone."},{el:"Earth",line:"The element that holds and protects the setting — it provides the structure that allows the discernment to function at its finest rather than being exposed to conditions that damage it."}], depletes:[{el:"Fire",line:"The element that tests the setting rather than refining what's in it — without the protective structure of Earth, it risks damaging the precision rather than revealing it."},{el:"Metal",line:"More of what is already present in abundance — it crowds rather than refines, producing a density that obscures the discernment rather than sharpening it."}] },
+  "壬":{ lifts:[{el:"Metal",line:"The element that generates and renews the depth — it feeds the source directly, ensuring that what the Ocean carries continues to grow rather than gradually diminishing."},{el:"Water",line:"The element that amplifies what's already present — more of what you carry means the range and depth extend further than any single context can contain."}], depletes:[{el:"Earth",line:"The element that dams the current — it blocks the movement and reach of what this energy carries most naturally, creating stagnation in what was built for depth and flow."},{el:"Fire",line:"The element that evaporates the depth before it can be used — in environments dominated by it, what took sustained effort to build can be consumed before it reaches the people or outcomes it was moving toward."}] },
+  "癸":{ lifts:[{el:"Wood",line:"The element that works with what this chart is already moving toward — it amplifies rather than redirects, allowing the sensitivity to flow in the direction it's already oriented."},{el:"Water",line:"The element that supports the core while feeding what's growing — it nourishes both the source of sensitivity and the specific things it's currently nourishing."}], depletes:[{el:"Metal",line:"The element that disrupts what this chart is built around — it cuts against the dominant current, creating interference in the precise attunement that is this energy's most natural quality."},{el:"Fire",line:"The element that undermines the foundation — it works against what this chart most depends on, and environments dominated by it tend to deplete the sensitivity before it can do its best work."}] },
 };
 
 
@@ -1621,9 +1964,9 @@ const ENERGY_CONDITION_READINGS = {
   },
   "庚": {
     concentrated: {
-      portrait: "The Blade at full concentration is the sharpest it will ever be and the most in need of direction — the precision is absolute, the edge is undeniable, but without the forge that gives it purpose it will cut whatever it encounters simply because cutting is what it does. At this level the Blade is looking for something genuinely worth cutting toward.",
-      dynamic:  "The precision operates continuously whether or not the context requires it — the clarity that is the Blade's greatest gift becomes intensity in environments that haven't asked for it.",
-      practice: "Find the forge — seek pressure, friction, and heat deliberately, because the Blade at this concentration only becomes its full self when something worthy is shaping it.",
+      portrait: "At this level, precision and directness aren't traits you switch on — they're structural. You've probably never needed motivation. What you've needed is a worthy target, and conditions that don't ask you to spend energy justifying the standard you're already holding.",
+      dynamic:  "Without something genuinely worthy to push against, the same force that makes you exceptionally effective starts turning inward.",
+      practice: "Seek pressure, friction, and real challenge deliberately — not because you need toughening, but because this is the only condition under which the full capacity actually produces something.",
     },
     balanced: {
       portrait: "The Blade in equilibrium has found what it's for — the precision is directed, the edge is in service of something specific, and the quality of what it produces at this level has a distinctiveness that the unforged Blade never achieves. This is the Blade that has been through enough to know what it's cutting toward.",
@@ -1816,43 +2159,82 @@ function getElementInsights(chart) {
   const topEl = counts[0];
   const dominant = topEl.el;
 
-  const DOMINANT_LINES = {
-    Metal:`Metal dominates — precision without flexibility. The edge is real, but without heat it cannot find its purpose.`,
-    Wood: `Wood overwhelms — almost all energy nourishes growth in others, leaving little for yourself.`,
-    Fire: `Fire saturates — warmth without restraint. The light is genuine but risks consuming its own source.`,
-    Earth:`Earth dominates — deep stability, but movement and change become genuinely difficult.`,
-    Water:`Water floods — depth without direction. The capacity is vast; the challenge is finding the channel.`,
+  // ── DOMINANT_DATA — element keywords + insight + guidance ──────────────────
+  // traits[0..1]: two element-trait tags; third keyword = relationship tag (computed below)
+  const DOMINANT_DATA = {
+    Metal: {
+      traits: ["Precision", "Discernment"],
+      line: `You filter experience through accuracy before anything else engages — you assess what's real and what isn't automatically, before social or emotional processing begins. Others feel evaluated in your presence even when nothing has been said.`,
+      guidance: `Without sufficient Fire or Wood in the chart, this discernment finds no specific target — the standard operates continuously but lacks something worthy of the full precision.`,
+    },
+    Wood: {
+      traits: ["Growth", "Reach"],
+      line: `You identify what people and things need to grow, and you invest in them before being asked. The instinct is developmental — you're always feeding something. The consequence is that you invest broadly and own little of what actually grows.`,
+      guidance: `Without Metal to define what to keep, the developmental instinct spreads without concentrating — broad investment, diffuse return, and little that is specifically yours.`,
+    },
+    Fire: {
+      traits: ["Presence", "Warmth"],
+      line: `Your presence generates social heat independent of intention — people register your energy before you've spoken, and the contact leaves an impression regardless of what was said. The demand this places on you is constant whether you choose it or not.`,
+      guidance: `Without Water to internalize what returns, the chart radiates without absorbing — presence accumulates outward but does not cycle back into depth or reflection.`,
+    },
+    Earth: {
+      traits: ["Stability", "Endurance"],
+      line: `You provide psychological ground for the people around you — a stability they orient by and rely on without necessarily recognizing its source. You carry the accumulated weight of being the reliable one, and it rarely gets named.`,
+      guidance: `Without Wood to introduce movement, the stability calcifies — the chart holds and contains reliably, but circulates slowly and accumulates weight that compounds over time.`,
+    },
+    Water: {
+      traits: ["Intelligence", "Depth"],
+      line: `You read beneath the surface of situations automatically — you know what's actually happening before it's said, and you process several layers of context simultaneously. The consequence is operating with more information than others can verify or follow.`,
+      guidance: `Without Earth to provide channel, the perceptual depth has no defined form — the intelligence perceives broadly but concentrates into output that others can engage with only when specific containers are built.`,
+    },
   };
 
-  const DOMINANT_GUIDANCE = {
-    Metal:`Seek environments that introduce friction and heat deliberately. Pressure is not the enemy — it is what gives your edge its purpose.`,
-    Wood: `What you grow in others is real. The question is whether any of those roots belong to you. Choose one thing you are growing entirely for yourself.`,
-    Fire: `Choose where you direct the warmth rather than shining at everything. Selectivity is not dimming — it is precision.`,
-    Earth:`Allow movement before certainty fully arrives. The Mountain's strength is not less for being moved — it is more for having shifted deliberately.`,
-    Water:`Find the shores. The depth becomes power not by staying vast but by finding the forms through which it can actually reach people.`,
-  };
+  // Relationship of dominant element to DM — becomes the third keyword tag
+  const EL_GEN = {Wood:"Fire",Fire:"Earth",Earth:"Metal",Metal:"Water",Water:"Wood"};
+  const EL_CTL = {Wood:"Earth",Earth:"Water",Water:"Fire",Fire:"Metal",Metal:"Wood"};
+  const REL_TAG = {self:"Amplifies",resource:"Nourishes",output:"Channels",wealth:"Drives",pressure:"Shapes"};
+  function getDomRel(dmEl, domEl) {
+    if (domEl === dmEl)           return "self";
+    if (EL_GEN[domEl] === dmEl)   return "resource";
+    if (EL_GEN[dmEl] === domEl)   return "output";
+    if (EL_CTL[dmEl] === domEl)   return "wealth";
+    return "pressure";
+  }
 
   const MISSING_LINES = {
-    Fire: `Fire is absent — no external force has shaped this chart's direction. Freedom and isolation in equal measure.`,
-    Earth:`Earth is absent — no structural ground beneath the movement. The architecture is entirely self-generated.`,
-    Water:`Water is absent — no reflective depth to temper or nourish. What is built may be strong; what is sustained is still developing.`,
-    Wood: `Wood is absent — no natural outward reach or creative momentum. Expression must be cultivated rather than assumed.`,
-    Metal:`Metal is absent — no natural precision or definition. Structure must be chosen rather than inherited.`,
+    Fire: `Fire is the forge — external recognition, directional pressure, the outside force that tells precision what it's for. You've never had it by default. Every sense of direction you've built, every moment of recognition you've earned, came from the inside out.`,
+    Earth:`Earth is absent from this chart — there is no natural structural ground beneath what you carry. The stability others inherit, you construct. Every container that holds what you do has been built deliberately, because none arrived by default, and the effort that has required is something most people in your life have probably never fully understood.`,
+    Water:`Water is absent from this chart — the reflective depth that tempers and nourishes isn't a natural presence here. What you build tends to be strong. The question of whether it can be sustained over time, whether what's been created can rest and be renewed, requires more deliberate cultivation than what comes naturally to this chart.`,
+    Wood: `Wood is absent from this chart — the natural outward reach, the creative momentum that grows toward things and other people, isn't a given here. What others assume will simply happen, you have to decide to do. That deliberateness is both harder than it sounds and what makes your commitments more considered than most.`,
+    Metal:`Metal is absent from this chart — the precision and definition that give things their shape, the natural standards and boundaries, aren't inherited here. Every structure you operate by has been chosen rather than given. That is a more demanding way to live than most people recognise, and it produces a different kind of integrity — one that was earned rather than assumed.`,
   };
-
   const MISSING_GUIDANCE = {
-    Fire: `Build the conditions that make your work impossible to ignore. The forge comes to those who make themselves worth forging.`,
-    Earth:`Build one container strong enough to hold what you carry. Internal structure is the practice — not a destination.`,
-    Water:`Cultivate stillness as a practice, not an absence. What you build without depth can stand; what stands with depth endures.`,
-    Wood: `Invest in the one direction that is genuinely yours. One root growing deep is worth more than many reaching shallow.`,
-    Metal:`Define what is non-negotiable in how you work and live. Precision is a practice — and it begins with what you will not compromise.`,
+    Fire: `When Fire arrives — through timing, environment, or the right people — something that has always been real in you finally has the heat it was built for.`,
+    Earth:`Build one container strong enough to hold what you carry — not all of them at once, but one. Internal structure is the practice, and the one you build deliberately will hold better than anything that could have been inherited.`,
+    Water:`Cultivate stillness as a practice rather than waiting for it to arrive. What you build without depth can stand; what stands with depth endures across the conditions that test whether it was real.`,
+    Wood: `Invest in the one direction that is genuinely yours — not the one that's available, or the one that seems most reasonable, but the one that is actually yours. One root growing deep is worth more than many reaching shallow.`,
+    Metal:`Define what is non-negotiable in how you work and live. Precision is a practice, and the one you develop by choosing it is more genuinely yours than any that could have arrived ready-made.`,
   };
+  // Multi-dominant threshold: show elements where count >= max(2, maxCount-1), cap at 2
+  const maxCount = counts[0].count;
+  const threshold = Math.max(2, maxCount - 1);
+  const dominants = counts
+    .filter(({count}) => count >= threshold && count > 0)
+    .slice(0, 2);
 
-  const results = { dominant: null, missing: [] };
+  const results = { dominant: [], missing: [] };
 
-  if (DOMINANT_LINES[dominant]) {
-    results.dominant = { el: dominant, count: topEl.count, line: DOMINANT_LINES[dominant], guidance: DOMINANT_GUIDANCE[dominant] };
-  }
+  dominants.forEach(({el, count}) => {
+    const data = DOMINANT_DATA[el];
+    if (!data) return;
+    const rel  = getDomRel(dm.element, el);
+    const kws  = [...data.traits, REL_TAG[rel]];
+    // Substitute count in line for non-DM elements
+    const line = el === dm.element
+      ? data.line
+      : data.line.replace(/runs through \d+ of your 8 characters\. Your chart doesn't carry [^ ]+ as a tendency — it IS [^\.]+\./, `scores ${count}/10 in this chart.`);
+    results.dominant.push({ el, count, line, guidance: data.guidance, keywords: kws });
+  });
 
   missing.forEach(el => {
     if (MISSING_LINES[el]) {
@@ -1863,11 +2245,27 @@ function getElementInsights(chart) {
   return results;
 }
 
-// Energy rating scale — replaces Strong/Weak framing
-// Energy Condition scale — neutral descriptions, not verdicts
-// polarity: what kind of energy state this is (neither good nor bad)
-// frame: one sentence telling the user what this state means before any action
+// ─── STRENGTH_META ──────────────────────────────────────────────────────────
+// Maps the 5 computed strength values to all UI content for Block 1 (Energy Condition).
+//
+// Three energy bands (身强 / 身中和 / 身弱) map from five strength levels:
+//   CONCENTRATED (身强):  extremely_strong + strong  → Channel & Release ☀ Sun icon
+//   EQUILIBRATED (身中和): moderate                  → Maintain & Attune ⚖ Scale icon
+//   OPEN (身弱):          weak + extremely_weak       → Nourish & Amplify ☽ Moon icon
+//
+// Fields per entry:
+//   label       — UI condition name ("Overpowering", "Dominant", etc.)
+//   zh          — Chinese character (internal reference only, never rendered)
+//   polarity    — Energy band label rendered in UI ("Concentrated", "Equilibrated", "Open")
+//   frame       — One-sentence diagnosis: what this state means for this person
+//   approach    — Balance approach name ("Channel & Release" / "Maintain & Attune" / "Nourish & Amplify")
+//   approachLine — One-sentence approach: what to do about it in plain terms
+//
+// Used by: ElementSpectrum Block 1 (sm.label, sm.polarity, sm.frame, sm.approach, sm.approachLine)
+//          conditionIcon (band → sun / scale / moon SVG)
+//          DM support % bar (chart.dayMaster.strengthScore × 100)
 const STRENGTH_META = {
+  // ── CONCENTRATED (身强) ─────────────────────────────────────────────────────
   extremely_strong: {
     label:"Overpowering", zh:"极旺", polarity:"Concentrated",
     frame:"Your core element saturates the chart — there is very little counterbalance to what you already are.",
@@ -1880,12 +2278,14 @@ const STRENGTH_META = {
     approach:"Channel & Release",
     approachLine:"This energy thrives when it has meaningful work to push against. Give it direction or it finds its own, usually at inconvenient moments.",
   },
+  // ── EQUILIBRATED (身中和) ────────────────────────────────────────────────────
   moderate: {
     label:"Balanced", zh:"中和", polarity:"Equilibrated",
     frame:"Your core element sits in genuine equilibrium — neither overwhelming nor overwhelmed by the forces around it.",
     approach:"Maintain & Attune",
     approachLine:"This energy is naturally stable. The practice is staying attuned to what genuinely disrupts the balance, rather than forcing movement.",
   },
+  // ── OPEN (身弱) ──────────────────────────────────────────────────────────────
   weak: {
     label:"Receptive", zh:"弱", polarity:"Open",
     frame:"Your core element depends on the right conditions to come through fully — it is not limited, it is context-sensitive.",
@@ -1911,6 +2311,61 @@ function ElementSpectrum({ chart }) {
   const band = getEnergyBand(dm.strength);
   const ecr = (ENERGY_CONDITION_READINGS[dm.stem] || ENERGY_CONDITION_READINGS["庚"])[band];
 
+  // ── Condition identity icons — Sun / Scale / Moon ──────────────────────────
+  const conditionIcon = (() => {
+    const co = dmColor;
+    // ── Sun — Concentrated (身强) ───────────────────────────────────────────
+    if (band === "concentrated") return (
+      <svg width="38" height="38" viewBox="0 0 36 36" fill="none">
+        {/* Core disc */}
+        <circle cx="18" cy="18" r="6.5" fill={co} opacity="0.92"/>
+        {/* 4 cardinal rays — long */}
+        <line x1="18" y1="2.5"  x2="18" y2="9"   stroke={co} strokeWidth="2.5" strokeLinecap="round"/>
+        <line x1="18" y1="27"   x2="18" y2="33.5" stroke={co} strokeWidth="2.5" strokeLinecap="round"/>
+        <line x1="2.5" y1="18"  x2="9"  y2="18"   stroke={co} strokeWidth="2.5" strokeLinecap="round"/>
+        <line x1="27"  y1="18"  x2="33.5" y2="18" stroke={co} strokeWidth="2.5" strokeLinecap="round"/>
+        {/* 4 diagonal rays — shorter */}
+        <line x1="7.8"  y1="7.8"  x2="11.8" y2="11.8" stroke={co} strokeWidth="2"   strokeLinecap="round"/>
+        <line x1="24.2" y1="24.2" x2="28.2" y2="28.2" stroke={co} strokeWidth="2"   strokeLinecap="round"/>
+        <line x1="28.2" y1="7.8"  x2="24.2" y2="11.8" stroke={co} strokeWidth="2"   strokeLinecap="round"/>
+        <line x1="7.8"  y1="28.2" x2="11.8" y2="24.2" stroke={co} strokeWidth="2"   strokeLinecap="round"/>
+      </svg>
+    );
+    // ── Scale — Balanced (身中和) ────────────────────────────────────────────
+    if (band === "balanced") return (
+      <svg width="38" height="38" viewBox="0 0 36 36" fill="none">
+        {/* Fulcrum post */}
+        <line x1="18" y1="11" x2="18" y2="27" stroke={co} strokeWidth="2" strokeLinecap="round"/>
+        {/* Base */}
+        <line x1="12" y1="27" x2="24" y2="27" stroke={co} strokeWidth="2.5" strokeLinecap="round"/>
+        {/* Balance beam */}
+        <line x1="5" y1="12" x2="31" y2="12" stroke={co} strokeWidth="2.5" strokeLinecap="round"/>
+        {/* Left pan */}
+        <circle cx="5"  cy="12" r="3.2" fill={co} opacity="0.85"/>
+        {/* Right pan */}
+        <circle cx="31" cy="12" r="3.2" fill={co} opacity="0.85"/>
+        {/* Pivot dot */}
+        <circle cx="18" cy="12" r="2" fill={co}/>
+      </svg>
+    );
+    // ── Crescent Moon — Open / Receptive (身弱) ─────────────────────────────
+    // Built with SVG mask: white outer circle minus black offset inner circle = crescent
+    // Outer: center(18,18) r=13 · Inner bite: center(24,14) r=10
+    // Result: classic left-facing crescent, fully readable at 38px
+    const moonId = `moon_${co.replace(/[^a-z0-9]/gi,'x')}`;
+    return (
+      <svg width="38" height="38" viewBox="0 0 36 36" fill="none">
+        <defs>
+          <mask id={moonId}>
+            <circle cx="18" cy="18" r="13" fill="white"/>
+            <circle cx="24" cy="14" r="10" fill="black"/>
+          </mask>
+        </defs>
+        <circle cx="18" cy="18" r="13" fill={co} opacity="0.88" mask={`url(#${moonId})`}/>
+      </svg>
+    );
+  })();
+
   const sortedEls = Object.entries(chart.elements)
     .map(([el, d]) => ({ el, count: d?.count || 0, present: d?.present || false }))
     .sort((a, b) => {
@@ -1924,11 +2379,11 @@ function ElementSpectrum({ chart }) {
   const divider = <div style={{height:"0.5px",background:`${dmColor}18`,margin:"20px 0"}}/>;
 
   // Shared callout card renderer
-  const CalloutCard = ({ color, borderStyle="solid", icon, sectionLabel, name, line, guidance }) => (
+  const CalloutCard = ({ color, borderStyle="solid", icon, sectionLabel, name, line, guidance, keywords=[] }) => (
     <div style={{borderRadius:12,padding:"14px 15px",marginBottom:12,
       background: borderStyle==="dashed" ? "transparent" : `${color}0d`,
       border: borderStyle==="dashed" ? `1px dashed ${color}50` : `0.5px solid ${color}28`}}>
-      <div style={{display:"flex",alignItems:"center",gap:10,marginBottom:9}}>
+      <div style={{display:"flex",alignItems:"center",gap:10,marginBottom: keywords.length ? 8 : 9}}>
         <div style={{width:28,height:28,borderRadius:8,display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,
           background: borderStyle==="dashed" ? "transparent" : `${color}18`,
           border: borderStyle==="dashed" ? `1px dashed ${color}55` : `0.5px solid ${color}35`}}>
@@ -1939,6 +2394,13 @@ function ElementSpectrum({ chart }) {
           <div style={{fontSize:14,fontWeight:600,color:color,fontFamily:ff,lineHeight:1.15}}>{name}</div>
         </div>
       </div>
+      {keywords.length > 0 && (
+        <div style={{display:"flex",gap:6,marginBottom:9,flexWrap:"wrap"}}>
+          {keywords.map((kw,i) => (
+            <span key={i} style={{fontSize:10,letterSpacing:0.5,color:color,background:`${color}14`,border:`0.5px solid ${color}30`,borderRadius:20,padding:"2px 9px",fontFamily:ff,fontWeight:500}}>{kw}</span>
+          ))}
+        </div>
+      )}
       <div style={{fontSize:13,lineHeight:1.68,color:C.textSec,fontStyle:"italic",fontFamily:ff,marginBottom:5}}>{line}</div>
       <div style={{fontSize:12,lineHeight:1.6,color:C.textTer,fontFamily:ff}}>{guidance}</div>
     </div>
@@ -1949,38 +2411,8 @@ function ElementSpectrum({ chart }) {
       background:`linear-gradient(160deg,${dmColor}07 0%,#faf7f2 100%)`}} className="fade">
       <div style={{padding:"22px 20px 26px"}}>
 
-        {/* ── BLOCK 1: Energy Condition + Balance Approach ──────────────── */}
-        <div style={{borderRadius:12,padding:"16px 16px",background:`${dmColor}0e`,border:`0.5px solid ${dmColor}28`,marginBottom:20}}>
-          {/* Condition header */}
-          <div style={{display:"flex",alignItems:"flex-start",gap:13,marginBottom:13}}>
-            <div style={{width:44,height:44,borderRadius:10,background:`${dmColor}20`,border:`0.5px solid ${dmColor}40`,
-              display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0}}>
-              <ElementIcon el={dm.element} color={dmColor} size={22}/>
-            </div>
-            <div>
-              <div style={{fontSize:9,letterSpacing:1.8,textTransform:"uppercase",color:`${dmColor}90`,fontFamily:ff,fontWeight:500,marginBottom:3}}>Energy condition</div>
-              <div style={{fontSize:18,fontWeight:600,color:dmColor,fontFamily:"'Cormorant Garamond',Georgia,serif",lineHeight:1.15,marginBottom:2}}>{sm.label}</div>
-              <div style={{fontSize:10,letterSpacing:1,textTransform:"uppercase",color:`${dmColor}80`,fontFamily:ff}}>{sm.polarity}</div>
-            </div>
-          </div>
-          <div style={{height:"0.5px",background:`${dmColor}20`,marginBottom:12}}/>
-          {/* Portrait */}
-          <div style={{fontSize:13,lineHeight:1.72,color:C.textSec,fontStyle:"italic",fontFamily:ff,marginBottom:12}}>{ecr.portrait}</div>
-          {/* Balance approach */}
-          <div style={{display:"flex",alignItems:"flex-start",gap:9}}>
-            <div style={{width:3,borderRadius:2,background:dmColor,flexShrink:0,alignSelf:"stretch",minHeight:18}}/>
-            <div>
-              <div style={{fontSize:9,letterSpacing:1.5,textTransform:"uppercase",color:`${dmColor}90`,fontFamily:ff,fontWeight:500,marginBottom:3}}>Balance approach</div>
-              <div style={{fontSize:12.5,lineHeight:1.65,color:C.textSec,fontFamily:ff}}>
-                <span style={{color:dmColor,fontWeight:600}}>{sm.approach} — </span>
-                {ecr.dynamic} {ecr.practice}
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* ── BLOCK 2: Elemental composition ───────────────────────────── */}
-        <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:12}}>Elemental composition</div>
+        <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:12}}>Energy Blueprint</div>
         <div style={{marginBottom:6}}>
           {sortedEls.map(el => {
             const d = chart.elements[el];
@@ -2007,7 +2439,7 @@ function ElementSpectrum({ chart }) {
                   </div>
                 </div>
                 <div style={{flex:1,display:"flex",gap:3,opacity: isMissing ? 0.35 : 1}}>
-                  {[...Array(8)].map((_,i) => (
+                  {[...Array(10)].map((_,i) => (
                     <div key={i} style={{flex:1,height:9,borderRadius:2,
                       background: isMissing ? "transparent" : i < count ? color : "#e4dfd6",
                       opacity: isMissing ? 1 : i < count ? (isDM ? 0.88 : 0.58) : 1,
@@ -2015,9 +2447,12 @@ function ElementSpectrum({ chart }) {
                     }}/>
                   ))}
                 </div>
-                <div style={{width:16,textAlign:"right",fontSize:11,flexShrink:0,fontFamily:ff,
-                  color: isMissing ? C.fire : C.textTer, opacity: isMissing ? 0.6 : 1}}>
-                  {isMissing ? "—" : count}
+                <div style={{width:22,textAlign:"right",flexShrink:0,fontFamily:ff,
+                  color: isMissing ? C.fire : color, opacity: isMissing ? 0.6 : 1}}>
+                  {isMissing
+                    ? <span style={{fontSize:11,color:C.fire}}>—</span>
+                    : <span style={{fontSize:13,fontWeight:600}}>{count}</span>
+                  }
                 </div>
               </div>
             );
@@ -2026,53 +2461,111 @@ function ElementSpectrum({ chart }) {
 
         {divider}
 
+        {/* ── BLOCK 1: Energy Condition + Balance Approach ──────────────── */}
+        {(() => {
+          const pct = Math.round((dm.strengthScore || 0.5) * 100);
+          return (
+            <div style={{borderRadius:12,padding:"16px 16px",background:`${dmColor}0e`,border:`0.5px solid ${dmColor}28`,marginBottom:20}}>
+
+              {/* Header row — condition icon + label + percentage */}
+              <div style={{display:"flex",alignItems:"flex-start",justifyContent:"space-between",marginBottom:10}}>
+                <div style={{display:"flex",alignItems:"center",gap:10}}>
+                  <div style={{width:44,height:44,borderRadius:11,background:`${dmColor}15`,border:`0.5px solid ${dmColor}30`,display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0}}>
+                    {conditionIcon}
+                  </div>
+                  <div>
+                    <div style={{fontSize:9,letterSpacing:1.8,textTransform:"uppercase",color:`${dmColor}90`,fontFamily:ff,marginBottom:2}}>Energy condition</div>
+                    <div style={{fontSize:17,fontWeight:600,color:dmColor,fontFamily:"'Cormorant Garamond',Georgia,serif",lineHeight:1.1}}>{sm.label}</div>
+                    <div style={{fontSize:9,letterSpacing:1,textTransform:"uppercase",color:`${dmColor}70`,fontFamily:ff,marginTop:2}}>{sm.polarity}</div>
+                  </div>
+                </div>
+                <div style={{textAlign:"right",flexShrink:0}}>
+                  <div style={{fontSize:24,fontWeight:600,color:dmColor,fontFamily:"'Cormorant Garamond',Georgia,serif",lineHeight:1}}>{pct}%</div>
+                  <div style={{fontSize:9,letterSpacing:1,textTransform:"uppercase",color:`${dmColor}80`,fontFamily:ff,marginTop:2}}>DM support</div>
+                </div>
+              </div>
+
+              {/* Percentage bar */}
+              <div style={{height:5,borderRadius:3,background:`${dmColor}18`,marginBottom:10,overflow:"hidden"}}>
+                <div style={{width:`${pct}%`,height:"100%",borderRadius:3,background:dmColor,opacity:0.65,transition:"width 0.6s ease"}}/>
+              </div>
+
+              {/* One-sentence diagnosis */}
+              <div style={{fontSize:12.5,lineHeight:1.65,color:C.textSec,fontFamily:ff,marginBottom:12}}>{sm.frame}</div>
+
+              <div style={{height:"0.5px",background:`${dmColor}20`,marginBottom:12}}/>
+
+              {/* Balance approach — one sentence */}
+              <div style={{display:"flex",alignItems:"flex-start",gap:9}}>
+                <div style={{width:3,borderRadius:2,background:dmColor,flexShrink:0,alignSelf:"stretch",minHeight:16}}/>
+                <div>
+                  <div style={{fontSize:9,letterSpacing:1.5,textTransform:"uppercase",color:`${dmColor}90`,fontFamily:ff,fontWeight:500,marginBottom:3}}>Balance approach</div>
+                  <div style={{fontSize:12.5,lineHeight:1.65,color:C.textSec,fontFamily:ff}}>
+                    <span style={{color:dmColor,fontWeight:600}}>{sm.approach} — </span>{sm.approachLine}
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          );
+        })()}
+
+        {divider}
+
         {/* ── BLOCK 3: Dominant energy ──────────────────────────────────── */}
-        <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:12}}>Dominant energy</div>
-        {insights.dominant && (
-          <CalloutCard
-            color={EL_C[insights.dominant.el]}
-            icon={insights.dominant.el}
-            sectionLabel={`${insights.dominant.el} · overall chart influence`}
-            name={`${insights.dominant.el} dominates`}
-            line={insights.dominant.line}
-            guidance={insights.dominant.guidance}
+        <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:6}}>Dominant energy</div>
+        <div style={{fontSize:11,lineHeight:1.6,color:C.textTer,fontFamily:ff,marginBottom:12,fontStyle:"italic"}}>The element that appears most across your chart — not just a tendency, but the lens through which everything else operates.</div>
+        {insights.dominant.map((d,i) => (
+          <CalloutCard key={i}
+            color={EL_C[d.el]}
+            icon={d.el}
+            sectionLabel={`${d.el} · ${d.count}/10`}
+            name={`${d.el} dominant`}
+            line={d.line}
+            guidance={d.guidance}
+            keywords={d.keywords}
           />
-        )}
+        ))}
 
         {divider}
 
         {/* ── BLOCK 4: Your Catalyst ────────────────────────────────────── */}
-        <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:12}}>Your catalyst</div>
+        <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:6}}>Your catalyst</div>
+        <div style={{fontSize:11,lineHeight:1.6,color:C.textTer,fontFamily:ff,marginBottom:12,fontStyle:"italic"}}>The energy your chart needs to unlock — not what makes you comfortable, but what makes you complete.</div>
         {energies.lifts.map(({el, line}, i) => (
           <CalloutCard key={i}
             color={EL_C[el]}
             icon={el}
-            sectionLabel={`${el} · what activates this chart`}
+            sectionLabel={`${el} · activates this chart`}
             name={el}
             line={line}
-            guidance={`When ${el} is present — in your environment, timing, or the people around you — the full capacity of this chart comes through.`}
+            guidance={`When ${el} is present — in your environment, your timing, or the people around you — something that has always been capable in you becomes directional.`}
           />
         ))}
 
         {divider}
 
         {/* ── BLOCK 5: Your Resistance ──────────────────────────────────── */}
-        <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:12}}>Your resistance</div>
+        <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:6}}>Your resistance</div>
+        <div style={{fontSize:11,lineHeight:1.6,color:C.textTer,fontFamily:ff,marginBottom:12,fontStyle:"italic"}}>The energy that creates friction in this chart's natural flow — not inherently bad, but worth recognising when it's in the room.</div>
         {energies.depletes.map(({el, line}, i) => (
           <CalloutCard key={i}
             color={EL_C[el]}
             icon={el}
-            sectionLabel={`${el} · what resists this chart`}
+            sectionLabel={`${el} · resists this chart`}
             name={el}
             line={line}
-            guidance={`Environments or periods dominated by ${el} energy create friction without forward movement — not always avoidable, but worth recognising.`}
+            guidance={`Environments or periods where ${el} dominates tend to produce friction without forward movement — not always avoidable, but worth naming.`}
           />
         ))}
 
         {/* ── BLOCK 6: Absent element ───────────────────────────────────── */}
         {insights.missing.length > 0 && divider}
         {insights.missing.length > 0 && (
-          <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:12}}>What is absent</div>
+          <>
+            <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:6}}>What is absent</div>
+            <div style={{fontSize:11,lineHeight:1.6,color:C.textTer,fontFamily:ff,marginBottom:12,fontStyle:"italic"}}>An absent element never appeared in your chart — its absence has shaped you as actively as what's present.</div>
+          </>
         )}
         {insights.missing.map((m, i) => (
           <CalloutCard key={i}

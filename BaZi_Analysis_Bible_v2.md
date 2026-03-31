@@ -178,40 +178,226 @@ Given Day Master stem D, target stem T:
 Polarity: Yang = 甲丙戊庚壬   Yin = 乙丁己辛癸
 ```
 
-## 2.8 Day Master Strength [HARD]
+## 2.8 Day Master Strength & Element Composition [HARD]
 
-### 2.8.1 Scoring Formula
+### Overview: Hybrid Algorithm (C+D+B)
 
-```javascript
-// Score = (supporting element count) / (total element count)
-// Supporting elements = same element as DM + elements that generate DM
-// Non-supporting = elements DM generates, controls, or that control DM
+The engine uses three classical methods in combination:
+- **Method C** (黄景泓打分法): Position weights — 月支40%, 日支20%, 月干15%, 时干10%, 年柱10%, 时支5%
+- **Method D** (藏干理论): Hidden stem expansion for earthly branches
+- **Method B** (穷通宝鉴): Seasonal phase multipliers per month branch
+- **Method A** (子平真诠): 得令/得地/得势 three-gate check for DM strength band
 
-const SUPPORT_MAP = {
-  Wood:  ["Wood","Water"],   // Water generates Wood; Wood itself
-  Fire:  ["Fire","Wood"],
-  Earth: ["Earth","Fire"],
-  Metal: ["Metal","Earth"],
-  Water: ["Water","Metal"],
-};
+This replaces the old raw character count, which was arbitrary and inaccurate.
 
-let supportCount = 0, totalCount = 0;
-for (const [el, data] of Object.entries(chart.elements)) {
-  totalCount += data.count;
-  if (SUPPORT_MAP[dmElement].includes(el)) supportCount += data.count;
-}
-const ratio = totalCount > 0 ? supportCount / totalCount : 0.5;
+### 2.8.1 — Position Weights (Method C)
+
+Day stem (the DM itself) is excluded from scoring.
+
+| Position | Key | Weight |
+|---|---|---|
+| Year stem | yearStem | 5% |
+| Year branch | yearBranch | 5% |
+| Month stem | monthStem | 15% |
+| **Month branch** | monthBranch | **40%** |
+| Day branch | dayBranch | 20% |
+| Hour stem | hourStem | 10% |
+| Hour branch | hourBranch | 5% |
+
+### 2.8.2 — Hidden Stems / 藏干 (Method D)
+
+Each earthly branch contains hidden stems with weighted qi distribution.
+
+| Branch | 本气 Main | 中气 Secondary | 余气 Residual |
+|---|---|---|---|
+| 子 | Water 1.0 | | |
+| 丑 | Earth 0.6 | Water 0.3 | Metal 0.1 |
+| 寅 | Wood 0.6 | Fire 0.3 | Earth 0.1 |
+| 卯 | Wood 1.0 | | |
+| 辰 | Earth 0.6 | Wood 0.3 | Water 0.1 |
+| 巳 | Fire 0.6 | Metal 0.3 | Earth 0.1 |
+| 午 | Fire 0.7 | Earth 0.3 | |
+| 未 | Earth 0.6 | Fire 0.3 | Wood 0.1 |
+| 申 | Metal 0.6 | Water 0.3 | Earth 0.1 |
+| 酉 | Metal 1.0 | | |
+| 戌 | Earth 0.6 | Metal 0.3 | Fire 0.1 |
+| 亥 | Water 0.7 | Wood 0.3 | |
+
+### 2.8.3 — Seasonal Phase Multipliers (Method B, corrected)
+
+Applied to all elements during composition calculation. **Earth months (辰未戌丑) use Earth-dominant phases — not the surrounding season.** This is the key correction from classical analysis.
+
+Derivation logic:
+- 旺 (1.3) — the ruling element itself
+- 相 (1.1) — the element the ruler generates (its child, being nourished)
+- 休 (0.9) — the element that generated the ruler (parent depleted itself)
+- 囚 (0.7) — the element that controls the ruler (imprisoned at ruler's peak)
+- 死 (0.6) — the element the ruler controls (most suppressed)
+
+Earth months modify base scores by their specific hidden stems.
+
+| Branch | Wood | Fire | Earth | Metal | Water | Notes |
+|---|---|---|---|---|---|---|
+| 寅 | 1.3 | 1.1 | 0.6 | 0.7 | 0.9 | Pure Wood (甲木本气) |
+| 卯 | 1.3 | 1.1 | 0.6 | 0.7 | 0.9 | Pure Wood (乙木本气) |
+| **辰** | **0.8** | **0.9** | **1.3** | **1.1** | **0.8** | Earth旺, Metal相(Earth→Metal). Wood囚 softened by 乙. Water死 softened by 癸. Fire=休 |
+| 巳 | 0.9 | 1.3 | 1.1 | 0.6 | 0.7 | Fire主(丙火本气) |
+| 午 | 0.9 | 1.3 | 1.1 | 0.6 | 0.7 | Fire主(丁火本气) |
+| **未** | **0.7** | **1.0** | **1.3** | **0.9** | **0.6** | Earth旺. 丁Fire lingers (休→1.0). Metal相 weakened by heat. Water driest |
+| 申 | 0.6 | 0.7 | 0.9 | 1.3 | 1.1 | Metal主(庚金本气) |
+| 酉 | 0.6 | 0.7 | 0.9 | 1.3 | 1.1 | Metal主(辛金本气) |
+| **戌** | **0.6** | **0.8** | **1.3** | **1.2** | **0.8** | Earth旺. 辛Metal lingers strongly (相→1.2). 丁Fire fading (休→0.8). Water rising toward winter |
+| 亥 | 1.1 | 0.6 | 0.7 | 0.9 | 1.3 | Water主(壬水本气) |
+| 子 | 1.1 | 0.6 | 0.7 | 0.9 | 1.3 | Water主(癸水本气) |
+| **丑** | **0.9** | **0.6** | **1.3** | **1.0** | **0.9** | Earth旺. 癸Water 死 softened by 癸 present. Wood囚 softened (spring stirring). Fire coldest |
+
+**Why this corrects 辰月:** Under the old 4-season table, 辰 was grouped with 寅卯 giving Metal=0.7 (囚). Correct analysis: 辰本气 is 戊Earth. Earth generates Metal (土生金). Metal is in the 相 position (child of the ruling Earth) → Metal=1.1. This makes 庚 Metal born in 辰月 receive Earth's support, which classical texts confirm.
+
+### 2.8.4 — Root Modifier (Method D, 通根)
+
+Applies to heavenly stems only. A stem without roots in any branch is 虚浮 (floating) and is penalised.
+
+| Root condition | Modifier |
+|---|---|
+| Root in same-pillar branch | ×1.30 |
+| Root in any other branch | ×1.15 |
+| No root (虚浮) | ×0.85 |
+
+### 2.8.5 — Element Composition Formula
+
+```
+For each heavenly stem position:
+  elementScore[E] += posWeight × rootModifier × seasonalPhase[E]
+
+For each earthly branch position:
+  for each hidden stem {element E, weight hw}:
+    elementScore[E] += posWeight × hw × seasonalPhase[E]
+
+Normalize: pct[E] = elementScore[E] / sum(all elementScores)
+Bar count:  count[E] = round(pct[E] × 8)   → 0-8 segment display
 ```
 
-### 2.8.2 Strength Thresholds
+### 2.8.6 — DM Strength: Method A Gate Check (得令/得地/得势)
 
-| Ratio | Strength label | Content band |
+After computing element composition, DM strength is determined by three binary gates:
+
+**得令 (Seasonal Authority / 月令本气十神):**
+Does the month branch's **本气 (main qi)** element equal the DM element, or generate the DM element?
+
+This replaces the seasonal phase threshold check. The 本气 is the highest-weight hidden stem — the element that actually governs the month branch.
+
+| Branch | 本气 element |
+|---|---|
+| 子 | Water | 丑 | Earth | 寅 | Wood | 卯 | Wood |
+| 辰 | Earth | 巳 | Fire | 午 | Fire | 未 | Earth |
+| 申 | Metal | 酉 | Metal | 戌 | Earth | 亥 | Water |
+
+**Why 辰月 gives 庚 Metal 得令:** 辰本气 = 戊Earth. Earth generates Metal (土生金). Metal is in the 相 (child/nourished) position → 得令 ✓. Under the old seasonal phase check, 庚 in 辰 was incorrectly marked as 不得令 because it was grouped with the Spring season.
+
+**得地 (Branch Root):** Does any branch's hidden stems contain the DM element?
+
+**得势 (Stem Support):** Do more of the 3 non-DM heavenly stems support the DM (Seal 印 = generates DM; Parallel 比 = same element) than drain it?
+
+**Decision table:**
+
+| 得令 | 得地 | 得势 | Strength | Score | Band | Icon |
+|---|---|---|---|---|---|---|
+| ✓ | ✓ | ✓ | extremely_strong | 0.92 | Concentrated | ☀ Sun |
+| ✓ | ✓ | — | strong | 0.72 | Concentrated | ☀ Sun |
+| ✓ | — | ✓ | strong | 0.72 | Concentrated | ☀ Sun |
+| — | ✓ | ✓ | strong | 0.72 | Concentrated | ☀ Sun |
+| ✓ | — | — | moderate | 0.50 | Equilibrated | ⚖ Scale |
+| — | ✓ | — | weak | 0.30 | Open | ☽ Moon |
+| — | — | ✓ | weak | 0.30 | Open | ☽ Moon |
+| — | — | — | extremely_weak | 0.12 | Open | ☽ Moon |
+
+### 2.8.7 — Reference Chart Worked Example
+
+Chart: 乙亥 庚辰 庚寅 乙酉 · DM: 庚 Metal · Month: 辰 (Earth主, Spring→Summer transition)
+
+**Seasonal phase for 辰:** Earth=1.3, Metal=1.1, Fire=0.9, Wood=0.8, Water=0.8
+
+**Element composition:**
+
+| Position | Weight | Root mod | Element contribution |
+|---|---|---|---|
+| 乙 year stem | 5% | ×1.30 (rooted in 亥甲) | Wood += 0.052 |
+| 亥 year branch | 5% | — | Water(70%)×0.8=0.028, Wood(30%)×0.8=0.012 |
+| 庚 month stem | 15% | ×1.15 (rooted in 酉辛) | Metal×1.1 += 0.190 |
+| 辰 month branch | 40% | — | Earth(60%)×1.3=0.312, Wood(30%)×0.8=0.096, Water(10%)×0.8=0.032 |
+| 寅 day branch | 20% | — | Wood(60%)×0.8=0.096, Fire(30%)×0.9=0.054, Earth(10%)×1.3=0.026 |
+| 乙 hour stem | 10% | ×1.15 (rooted in 辰亥寅) | Wood×0.8 += 0.092 |
+| 酉 hour branch | 5% | — | Metal(100%)×1.1=0.055 |
+
+**Normalized scores → bar segments:**
+- Wood: **33.4% → 3 bars**
+- Earth: **32.4% → 3 bars** (co-dominant with Wood)
+- Metal: **23.5% → 2 bars**
+- Water: **5.8% → 1 bar** (min 1 for present elements)
+- Fire: **5.2% → 1 bar** (min 1 for present elements)
+
+**Gate check (月令本气十神):**
+- 得令: 辰本气 = 戊Earth → Earth generates Metal → ✓
+- 得地: 辛 in 酉 branch → ✓
+- 得势: 庚(month) supports vs 乙(year)+乙(hour) drain → 1 vs 2 → ✗
+
+**Result: ✓✓✗ → strong (0.72) → Concentrated ☀**
+
+**What changed from the old calculation:** Old engine: "extremely strong (0.91)" via raw character count. Old hybrid: "weak (0.30)" because seasonal phase wrongly penalized Metal in Spring. Corrected hybrid: **strong (0.72)** — 辰月 Earth supports Metal correctly, 酉 branch provides root, only 得势 is lost due to the two 乙 stems.
+
+### 2.8.8 — Engine Implementation
+
+```javascript
+// Entry point in calculateBaziChart():
+const {raw, posContrib} = computeElementComposition(pillars);
+const {adj, bondedDMStems} = applyBondModifiers(raw, posContrib, pillars, dayStem);
+// adj → normalize → count (0-8) → chart.elements
+const {strength, strengthScore} = computeDMStrength(pillars, dayStem, bondedDMStems);
+// bondedDMStems adjusts 得势 gate before strength is determined
+```
+
+### 2.8.9 — Bond Modifiers (天干五合 / 地支六合 / 三合)
+
+Bonds partially convert bonded element scores toward the result element. Applied after raw composition is computed, before normalizing.
+
+**Bond types:**
+
+| Type | Pairs | Result |
 |---|---|---|
-| > 0.70 | `extremely_strong` | concentrated |
-| 0.51–0.70 | `strong` | concentrated |
-| 0.36–0.50 | `moderate` | balanced |
-| 0.21–0.35 | `weak` | open |
-| ≤ 0.20 | `extremely_weak` | open |
+| 天干五合 Stem bonds | 甲己, 乙庚, 丙辛, 丁壬, 戊癸 | Earth, Metal, Water, Wood, Fire |
+| 地支六合 Six-harmony | 子丑, 寅亥, 卯戌, 辰酉, 巳申, 午未 | Earth, Wood, Fire, Metal, Water, Earth |
+| 三合 Three-harmony | 寅午戌, 申子辰, 亥卯未, 巳酉丑 | Fire, Water, Wood, Metal |
+| 半三合 Half three-harmony | Any 2 of the above triplets | Same as three-harmony |
+
+**Shift factors:**
+
+| Bond type | In season (月令本気) | Out of season |
+|---|---|---|
+| Stem bond / Six-harmony | 80% | 40% |
+| Full three-harmony (all 3) | 90% | 55% |
+| Half three-harmony (2 of 3) | 60% | 30% |
+
+"In season" = result element equals month branch 本気 element.
+
+**What shifts:** Non-result contributions from each bonded position shift proportionally. The DM stem itself is excluded from composition shifts (identity cannot be converted).
+
+**Effect on 得势 gate:** When a non-DM stem is bonded and the bond result element = DM element or generates DM, that stem is counted as **supportive** in 得势, regardless of its original element.
+
+**Reference chart bond walkthrough (乙亥 庚辰 庚寅 乙酉):**
+
+Active bonds:
+- 乙(year) + 庚(month) → 乙庚合金 → Metal. 辰本気=Earth ≠ Metal → shift 40%
+- 乙(hour) + 庚(DM) → 乙庚合金 → Metal. DM excluded from composition, 乙(hour) still shifts
+- 辰(month) + 酉(hour) → 辰酉合金 → Metal. Shift 40%
+- 寅(day) + 亥(year) → 寅亥合木 → Wood. Shift 40%
+
+Net effect: Metal gains ~0.109 from bond shifts (two 乙庚 + 辰酉). Wood loses 0.096 but gains 0.044 from 寅亥. Result: **Metal co-dominant with Earth, Wood reduced to secondary.**
+
+得势 with bonds: Both 乙 stems bond to Metal (DM element) → all 3 non-DM stems now supportive → 得势 ✓
+
+**Final gates: 得令✓ 得地✓ 得势✓ → extremely_strong (0.92) ☀**
+
+This is the classically correct result — the double 乙庚合金 and 辰酉合金 triple bond structure is a defining feature of this chart that classical masters would immediately identify.
 
 ### 2.8.3 Useful God Derivation (扶抑用神)
 
@@ -344,7 +530,474 @@ This is the locked interface between the calculation engine and the content laye
 
 ---
 
+# PART 3A — COMPOUND ARCHETYPE SYSTEM
+
+> This part documents the complete identity system for Elementum. It governs what every user sees as their identity, what gets stored and looked up internally, and how all template content is keyed. Read this before any content or UI work.
+
+---
+
+## 3A.1 Overview and Purpose
+
+The compound archetype system replaces the previous stem × band template key with a richer five-dimensional identity fingerprint. The key insight: a 庚 Metal chart with Wood dominating is a fundamentally different person from a 庚 Metal chart where Metal dominates — different internal dynamic, different life pattern, different guidance. The old system gave both the same reading. The new system gives each a distinct identity and reading.
+
+The system has two tiers that serve completely different purposes and audiences:
+
+| Tier | Purpose | Audience | Format |
+|---|---|---|---|
+| Tier 1 | User-facing identity — what they share, remember, and buy | The user | Visual card + shareable code |
+| Tier 2 | Internal template lookup — what determines which reading they receive | The engine | Key string |
+
+These two tiers must never be conflated. Tier 1 is designed for emotional resonance and virality. Tier 2 is designed for determinism and coverage.
+
+---
+
+## 3A.2 Tier 1 — User-Facing Identity
+
+### The five axes
+
+The user's identity is composed of five axes, displayed in order of felt importance:
+
+| Axis | What it is | Display format | Example |
+|---|---|---|---|
+| 1. Element | 五行 — the element at the core of who this person is | Large glyph + English name | 金 Metal |
+| 2. Polarity | Yin or Yang — the mode of the element | Text inline with archetype name | Yang |
+| 3. Archetype | The 10-stem character name — the emotional identity anchor | Large title text | The Blade |
+| 4. Energy band | How concentrated the core element is | Icon (☀ / ⚖ / ☽) | ☀ Concentrated |
+| 5. Chart tension | Relationship between the dominant chart force and the DM | Flow glyph + one word | Pure |
+
+The **catalyst** (喜用神 — the element the chart needs) is surfaced separately as "Seeking [Element]" — not part of the main identity code but part of the card and the reading narrative.
+
+### The shareable identity code
+
+```
+[Stem glyph] · [ARCHETYPE] · [Band icon] · [TENSION]
+
+Examples:
+  庚 · BLADE · ☀ · PURE
+  乙 · VINE  · ☽ · TESTED
+  壬 · OCEAN · ⚖ · FLOWING
+```
+
+This code is the MBTI-equivalent for Elementum. It is short enough for a social bio, specific enough to be distinctive (~1 in 300 people share the same code), and contains a word ("TESTED", "PURE", "FLOWING") that invites the question "what does that mean?"
+
+### Element visual language
+
+The Chinese character is displayed as a visual glyph — like a zodiac symbol, not as a word. It is never pronounced to the user or translated inline. Its foreignness is intentional and part of the cultural identity hook.
+
+| Element | Glyph | English | Color |
+|---|---|---|---|
+| Metal | 金 | Metal | #8ba3b8 |
+| Wood | 木 | Wood | #7a9e6e |
+| Fire | 火 | Fire | #c4745a |
+| Earth | 土 | Earth | #b89a6a |
+| Water | 水 | Water | #5a7fa8 |
+
+### Energy band icons
+
+Three SVG icons, one per band. Rendered in element color. Never labeled alone — always paired with the band name as a tooltip or sub-label.
+
+| Band | Icon | Meaning conveyed |
+|---|---|---|
+| Concentrated | ☀ Sun | Self-generating, full, radiating — no external input required |
+| Equilibrated | ⚖ Scale | Two equal forces held in tension — neither overwhelms |
+| Open | ☽ Moon | Receives rather than generates — context determines expression |
+
+### Chart tension — five states (new naming)
+
+The chart tension describes the relationship between the dominant chart element and the Day Master. This is the single most important axis for personalisation — two people with the same archetype and band live very different lives depending on their tension.
+
+**Critical naming principle:** Names describe how the person *feels from the inside*, not what the chart *does structurally*. Each name must pass the self-recognition test: someone hears it and immediately thinks "yes, that is my dynamic."
+
+| Tension | Classical root | What dominates | What it means for this person | Flow glyph |
+|---|---|---|---|---|
+| **Pure** | 比劫旺 | Same element as DM | The element at your core saturates the chart without counterbalance — the signal returns to itself, amplified. No opposing force, just more of what you already are. | Circular arrows (self-loop) |
+| **Rooted** | 印旺 | Element that generates DM | Something larger than you feeds and sustains your core. The chart provides resource, backing, ground. You draw from deep support you didn't build. | Inward arrow + root lines |
+| **Flowing** | 食伤旺 | Element DM generates | Your energy moves outward — the chart is built for expression, creation, generosity. You pour more than you hold. | Outward arrow from center |
+| **Forging** | 财旺 | Element DM controls | The chart surrounds you with material to shape and direct. You control what dominates — the world gives you something to work with. | Downward arrow + object below |
+| **Tested** | 官杀旺 | Element that controls DM | External force is the defining pressure of your chart. You are being shaped from outside — not destroyed, but refined by what resists you. | Opposing inward arrows |
+
+**Forbidden names** (old naming, removed): Amplified, Nourished, Expressive, Driven, Pressured. These described chart mechanics, not personal experience.
+
+### Identity card layout
+
+The Tier 1 identity card has four visual zones (top to bottom):
+
+```
+┌──────────────────────────────────────────────────────┐
+│  ZONE 1 — Core identity                              │
+│  [Archetype seal SVG 52px]  [Archetype title 23px]   │
+│                             [Meta: Yang Metal · 庚]   │
+│                             [Watermark glyph behind] │
+├──────────────────────────────────────────────────────┤
+│  ZONE 2 — Dimension chips (inline pills)             │
+│  [☀ Concentrated]  [↻ Pure]  [🔥 Seeking Fire]       │
+│  [Metal · Yang]                                      │
+├──────────────────────────────────────────────────────┤
+│  ZONE 3 — Chart tension display                      │
+│  [Tension flow glyph]  [Tension name 18px]           │
+│                        [One-line description]        │
+│  [5-pip position indicator]                          │
+├──────────────────────────────────────────────────────┤
+│  ZONE 4 — Shareable code                            │
+│  庚 · BLADE · ☀ · PURE · FIRE         [Share ↗]     │
+└──────────────────────────────────────────────────────┘
+```
+
+**Design rules:**
+- All colors derived from element color — never hardcoded for a specific element
+- Chinese characters (庚, 金 etc.) appear only as glyphs, never as text to be read
+- Catalyst element color used for the "Seeking [Element]" chip — always Fire/Water/etc. color, not DM element color
+- No dark backgrounds — card is always light/warm tinted surface
+
+### Reveal sequence (product flow)
+
+The identity is revealed in three moments, not one:
+
+1. **Element reveal** — full screen, element color, large glyph: "You are Metal"
+2. **Archetype name** — fades in below: "The Blade"
+3. **Full identity card** — all five axes visible
+
+This sequence is the viral mechanic. Three moments of recognition before the reading begins.
+
+---
+
+## 3A.3 Tier 2 — Internal Template Lookup Key
+
+### Formula
+
+```
+[stem]_[band]_[tension]_[catalyst]
+```
+
+All fields lowercase. Underscore-separated. Used as the exact key into the template object.
+
+| Field | Type | Values |
+|---|---|---|
+| stem | Chinese character | 甲 乙 丙 丁 戊 己 庚 辛 壬 癸 |
+| band | string | concentrated · balanced · open |
+| tension | string | pure · rooted · flowing · forging · tested |
+| catalyst | string | Metal · Wood · Water · Fire · Earth |
+
+**Example key:** `庚_concentrated_pure_Fire`
+
+### Tension computation
+
+The tension is determined by comparing the dominant non-DM element (highest-scoring element after bond modifiers) to the DM element using the 五行生克 relationships:
+
+| Dominant element relationship to DM | Tension |
+|---|---|
+| Same element as DM | pure |
+| Dominant generates DM (印) | rooted |
+| DM generates dominant (食伤) | flowing |
+| DM controls dominant (财) | forging |
+| Dominant controls DM (官杀) | tested |
+
+If the DM element itself is the highest-scoring element, tension = **pure** (the chart is amplifying itself).
+
+### Catalyst derivation per band
+
+The catalyst (喜用神) is derived from the DM element and energy band following classical 扶抑用神 logic:
+
+| DM Element | Concentrated catalyst | Balanced catalyst | Open catalyst |
+|---|---|---|---|
+| Metal | Fire, Water | Fire, Earth | Earth, Metal |
+| Wood | Metal, Fire | Metal, Water | Water, Wood |
+| Water | Earth, Wood | Earth, Metal | Metal, Water |
+| Fire | Water, Earth | Water, Wood | Wood, Fire |
+| Earth | Wood, Metal | Wood, Fire | Fire, Earth |
+
+**Derivation logic:**
+- **Concentrated DM:** Needs drain/control elements — Officer (controls DM), Output (DM generates), Wealth (DM controls)
+- **Balanced DM:** Context-dependent — usually the opposing or missing element
+- **Open DM:** Needs support — Seal (generates DM) and Parallel (same element)
+
+The first catalyst listed per band is the primary; the second is the secondary (used when the primary is also the dominant element, which creates redundancy).
+
+### Full 300-key taxonomy
+
+The taxonomy covers all 10 stems × 3 bands × 5 tensions × 2 catalysts = 300 compound archetype keys. This covers approximately 95% of all real birth charts. Edge cases (e.g. extreme bond configurations) fall back to the nearest matching key.
+
+**Taxonomy per element (30 keys per element, 60 keys per stem pair):**
+
+#### Metal archetypes (庚 The Blade · 辛 The Jewel)
+
+| Key pattern | Band | Tension | Catalyst | Count |
+|---|---|---|---|---|
+| [Metal stem]_concentrated_[tension]_Fire | concentrated | all 5 | Fire | 10 |
+| [Metal stem]_concentrated_[tension]_Water | concentrated | all 5 | Water | 10 |
+| [Metal stem]_balanced_[tension]_Fire | balanced | all 5 | Fire | 10 |
+| [Metal stem]_balanced_[tension]_Earth | balanced | all 5 | Earth | 10 |
+| [Metal stem]_open_[tension]_Earth | open | all 5 | Earth | 10 |
+| [Metal stem]_open_[tension]_Metal | open | all 5 | Metal | 10 |
+| **Total Metal** | | | | **60** |
+
+#### Wood archetypes (甲 The Oak · 乙 The Vine)
+
+| Key pattern | Catalyst options |
+|---|---|
+| concentrated | Metal, Fire |
+| balanced | Metal, Water |
+| open | Water, Wood |
+| **Total Wood** | **60** |
+
+#### Water archetypes (壬 The Ocean · 癸 The Rain)
+
+| Key pattern | Catalyst options |
+|---|---|
+| concentrated | Earth, Wood |
+| balanced | Earth, Metal |
+| open | Metal, Water |
+| **Total Water** | **60** |
+
+#### Fire archetypes (丙 The Torch · 丁 The Ember)
+
+| Key pattern | Catalyst options |
+|---|---|
+| concentrated | Water, Earth |
+| balanced | Water, Wood |
+| open | Wood, Fire |
+| **Total Fire** | **60** |
+
+#### Earth archetypes (戊 The Mountain · 己 The Field)
+
+| Key pattern | Catalyst options |
+|---|---|
+| concentrated | Wood, Metal |
+| balanced | Wood, Fire |
+| open | Fire, Earth |
+| **Total Earth** | **60** |
+
+**Grand total: 300 keys**
+
+### Fallback logic
+
+When a computed key has no template (rare edge case), fall back in this order:
+
+1. Try same stem + same band + same tension + other catalyst for this band
+2. Try same stem + same band + neutral tension (pure) + primary catalyst
+3. Try same stem + balanced + pure + primary catalyst
+4. Final fallback: stem-only default reading (the original 30-template system)
+
+```javascript
+function resolveTemplateKey(chart) {
+  const stem    = chart.dayMaster.stem;
+  const band    = getEnergyBand(chart.dayMaster.strength);
+  const tension = computeTension(chart);          // returns pure/rooted/flowing/forging/tested
+  const catalyst = getPrimaryCatalyst(chart);     // returns element name
+  const primary = `${stem}_${band}_${tension}_${catalyst}`;
+  if (TEMPLATE_DB[primary]) return primary;
+  // fallback chain...
+  return `${stem}_balanced_pure_${CATALYST_MAP[chart.dayMaster.element].balanced[0]}`;
+}
+```
+
+### Reference chart lookup
+
+Chart: 乙亥 庚辰 庚寅 乙酉 · DM: 庚 Metal · extremely_strong
+
+| Field | Value | Source |
+|---|---|---|
+| stem | 庚 | Day stem |
+| band | concentrated | extremely_strong → concentrated |
+| tension | pure | Metal is dominant element (same as DM) |
+| catalyst | Fire | Concentrated Metal → Fire (controls, forges) |
+| **Lookup key** | **庚_concentrated_pure_Fire** | Combined |
+
+---
+
+## 3A.4 Section 1 Content Structure (Compound Archetype Reading)
+
+Every template in the 300-key library follows this exact structure. Deviation from this structure requires a Bible update before implementation.
+
+### Complete content schema
+
+```javascript
+TEMPLATE_DB["庚_concentrated_pure_Fire"] = {
+  // ── WHO YOU ARE ─────────────────────────────────────────────────────────
+  teaser: String,       // 2–3 sentences. Atmospheric hook. Second person. Italic.
+                        // Must make the user feel immediately seen.
+                        // No BaZi terminology. No reasoning. Just the portrait.
+
+  p1: String,           // Cognitive portrait. How this person processes the world.
+                        // ≤60 words. Present tense. Second person.
+                        // Grounded in the specific stem × band × tension combination.
+
+  p2: String,           // Motivational portrait. What drives this person internally.
+                        // ≤60 words. Must include the catalyst as aspiration narrative.
+                        // Never repeats territory covered in p1.
+
+  // ── CORE GIFTS ───────────────────────────────────────────────────────────
+  gifts: [
+    { label: String,    // 2–3 word title for the gift
+      desc:  String },  // 1–2 sentences. What this gift produces for this person.
+    // × 3 items
+  ],
+
+  // ── GROWING EDGE ─────────────────────────────────────────────────────────
+  edges: [
+    { label: String,    // 2–3 word title for the edge
+      desc:  String },  // 1–2 sentences. The specific pattern this combination creates.
+    // × 2 items
+  ],
+}
+```
+
+### Content rules (non-negotiable)
+
+1. **No BaZi terminology in any text field.** No 比劫, no 印, no 食伤, no 官杀, no 财. These are internal calculation terms only.
+2. **No cross-template comparisons.** Never write "unlike a Rooted Blade..." or "where the Pure version..." Each template stands alone.
+3. **Tension must be felt, not explained.** The tension word (Pure, Rooted, Flowing, Forging, Tested) is never used in the reading text itself — it is embodied in the description.
+4. **Catalyst as aspiration, not deficit.** The missing/needed element is always framed as something moving toward, never as a lack. "Fire is what this chart has been seeking" not "this chart lacks Fire."
+5. **Stem × band × tension specificity required.** A reading for 庚_concentrated_pure_Fire must describe something that could not be said of 庚_concentrated_tested_Fire. If the text could apply to any Metal chart, it is not specific enough.
+6. **Language register:** Direct, behavioral, second person, present tense. No mystical language. No "the universe," "destiny," "cosmic." Clinical-poetic: precise but felt.
+
+### Reference reading: 庚_concentrated_pure_Fire
+
+```
+teaser: "Before you say a word, the room recalibrates. Precision at this
+concentration has a quality people sense before it speaks — not a trait you
+cultivated, but the structural default of Yang Metal running at full charge.
+The edge was already there when you arrived."
+
+p1: "Your processing runs through accuracy before anything else engages. The
+assessment happens automatically — before the social read, before the emotional
+response, before you've decided to engage at all. Others feel evaluated in your
+presence even when you say nothing, because structurally, you are always
+evaluating. The precision is not a choice — it is the operating mode."
+
+p2: "What drives you isn't achievement — it's the resolution of what's actually
+true. The Pure chart intensifies this: without a counterbalancing force, the
+precision turns on whatever is in reach, including yourself. Fire is what this
+chart has been seeking before it had a language for it — the force that gives
+precision a direction. Without it, the edge is fully formed but unpointed."
+
+gifts: [
+  { label: "Signal clarity",
+    desc: "When others are confused, your read sharpens. You see what's
+    actually happening before it has been named, and you do not mistake
+    noise for signal." },
+  { label: "Structural durability",
+    desc: "What you build holds. You cannot tolerate what does not, which means
+    everything you put your name on carries a durability others cannot easily
+    replicate." },
+  { label: "Precision of completion",
+    desc: "You finish what others lose the thread of. Vagueness costs you more
+    than most, making your follow-through structural rather than motivational." }
+]
+
+edges: [
+  { label: "Warmth reads as performance",
+    desc: "Without Fire in this chart, precision registers as coldness rather
+    than rigor. The same quality that makes you most capable is what makes
+    genuine care difficult to offer — and harder for others to feel." },
+  { label: "Rigidity under new information",
+    desc: "A Pure chart compounds Metal's tendency toward fixed assessment. The
+    conclusion already made becomes difficult to revise, even when new evidence
+    arrives that should change it." }
+]
+```
+
+---
+
+## 3A.5 Template Generation Protocol
+
+### When to generate
+
+Generate all 300 templates in a single batch before launch. Do not generate at runtime. Generated templates are static content identical to all other static content in TEMPLATE_DB.
+
+### Generation model
+
+Model: `claude-opus-4-6` (Opus 4.6)  
+Estimated cost: $20–25 for full 300-key library  
+Estimated time: 15–20 minutes batch  
+Input: This Bible section (3A) + the reference reading (庚_concentrated_pure_Fire) as few-shot example  
+Output: JSON object conforming to the schema in 3A.4
+
+### Generation prompt structure
+
+```
+System: You are generating content for Elementum, a BaZi-based spiritual guidance app.
+        You are writing for Western users who have no prior knowledge of BaZi.
+        Follow the Bible rules in Part 3A.4 exactly.
+        Use the reference reading as your quality standard.
+
+User:   Generate the template for key: [stem]_[band]_[tension]_[catalyst]
+        DM: [archetype name] ([element], [polarity])
+        Band: [band description from STRENGTH_META]
+        Tension: [tension name] — [tension description]
+        Catalyst: [element] — [what it means for this DM at this band]
+        Output: valid JSON with keys: teaser, p1, p2, gifts (array of 3), edges (array of 2)
+```
+
+### Quality gates (applied after generation, before merge)
+
+1. No BaZi terminology present in any string
+2. teaser ≤ 3 sentences, p1 ≤ 60 words, p2 ≤ 60 words
+3. gifts array has exactly 3 items, edges array has exactly 2 items
+4. Catalyst appears in p2 as aspiration narrative
+5. Reading does not duplicate the reference reading structure verbatim
+6. Tension is embodied (not named or explained in the text)
+
+---
+
+## 3A.6 Engine Integration
+
+### Computing tension
+
+```javascript
+function computeTension(chart) {
+  const dmEl = chart.dayMaster.element;
+  const GEN  = {Wood:"Fire",Fire:"Earth",Earth:"Metal",Metal:"Water",Water:"Wood"};
+  const CTL  = {Wood:"Earth",Earth:"Water",Water:"Fire",Fire:"Metal",Metal:"Wood"};
+
+  // Get highest-scoring element from bond-adjusted composition
+  const sorted = Object.entries(chart.elements)
+    .filter(([,d]) => d.present)
+    .sort(([,a],[,b]) => b.score - a.score);
+
+  const dominant = sorted[0][0];  // highest scoring element
+
+  if (dominant === dmEl)           return "pure";
+  if (GEN[dominant] === dmEl)      return "rooted";
+  if (GEN[dmEl]    === dominant)   return "flowing";
+  if (CTL[dmEl]    === dominant)   return "forging";
+  return "tested";                 // dominant controls DM
+}
+```
+
+### Computing catalyst
+
+```javascript
+const CATALYST_MAP = {
+  Metal: { concentrated:["Fire","Water"], balanced:["Fire","Earth"],  open:["Earth","Metal"] },
+  Wood:  { concentrated:["Metal","Fire"], balanced:["Metal","Water"], open:["Water","Wood"]  },
+  Water: { concentrated:["Earth","Wood"], balanced:["Earth","Metal"], open:["Metal","Water"] },
+  Fire:  { concentrated:["Water","Earth"],balanced:["Water","Wood"],  open:["Wood","Fire"]   },
+  Earth: { concentrated:["Wood","Metal"], balanced:["Wood","Fire"],   open:["Fire","Earth"]  },
+};
+
+function getPrimaryCatalyst(chart) {
+  const dmEl = chart.dayMaster.element;
+  const band = getEnergyBand(chart.dayMaster.strength);
+  const [primary, secondary] = CATALYST_MAP[dmEl][band];
+  // Use secondary if primary is the DM element itself (no self-catalyst)
+  return (primary === dmEl) ? secondary : primary;
+}
+```
+
+### Key computation (full pipeline)
+
+```javascript
+function getArchetypeKey(chart) {
+  return `${chart.dayMaster.stem}_${getEnergyBand(chart.dayMaster.strength)}_${computeTension(chart)}_${getPrimaryCatalyst(chart)}`;
+}
+// Reference chart: "庚_concentrated_pure_Fire"
+```
+
+---
+
 # PART 4 — TERMINOLOGY (Canonical Elementum Translations)
+
 
 All UI labels use these translations exclusively. No Chinese characters appear in rendered user-facing text. Chinese characters are used only as JavaScript object keys (internal only).
 
@@ -621,18 +1274,20 @@ No toggles. Everything visible on scroll. Six blocks in this exact order.
 
 ```
 ┌────────────────────────────────────────────────────┐
-│  BLOCK 1 — Energy Condition + Balance Approach     │
-│  [tinted card, element icon 44px, condition label] │
-│  Portrait paragraph (italic, 13px)                 │
-│  Balance approach: "Channel & Release — …"         │
-├────────────────────────────────────────────────────┤
-│  BLOCK 2 — Elemental Composition                   │
-│  (section label, no repeated header info)          │
+│  BLOCK 1 — Elemental Composition        (first)    │
 │  Metal ✦  ████████░░  4                           │
 │  Earth     ██░░░░░░░░  2                           │
 │  Water     ██░░░░░░░░  2                           │
 │  Wood      █░░░░░░░░░  1                           │
 │  Fire      ╌╌╌╌╌╌╌╌╌  —  absent                   │
+├────────────────────────────────────────────────────┤
+│  BLOCK 2 — Energy Condition + Balance Approach     │
+│  [☀/⚖/☽ condition icon 44px]  [Extremely Strong]  [91%] │
+│                                [Concentrated] [DM support] │
+│  [──────────── 91% bar ──────────────────────────] │
+│  One-sentence diagnosis                            │
+│  ─────────────────────────────                     │
+│  Channel & Release — one-sentence approach         │
 ├────────────────────────────────────────────────────┤
 │  BLOCK 3 — Dominant Energy                         │
 │  [callout card: element icon + "Metal dominates"]  │
@@ -657,30 +1312,73 @@ No toggles. Everything visible on scroll. Six blocks in this exact order.
 
 ## 6.3 Block 1 — Energy Condition + Balance Approach
 
-One merged card. Never split.
+One merged card. Never split. Read order: elemental composition (Block 2) appears FIRST as the visual overview, then Block 1 contextualises it.
 
-**Header:** element icon (44px tile) + condition label (e.g. "Extremely Strong") + polarity (e.g. "Concentrated"). These come from `STRENGTH_META[dm.strength]`.
+### Visual layout (top → bottom)
 
-**Portrait:** The `ecr.portrait` sentence from `ENERGY_CONDITION_READINGS[dm.stem][band]`. Italic, 13px. This is the stem × band specific reading of what this energy state feels like for THIS archetype specifically.
-
-**Balance approach:** Left-border accent bar + approach name bolded + `ecr.dynamic` + `ecr.practice` combined into one readable paragraph.
-
-**Balance approach labels and rationale:**
-
-| UI label | Classical root | Meaning |
-|---|---|---|
-| Channel & Release | 喜克泄耗 | Concentrated DM needs outlets: expression, challenge, friction |
-| Maintain & Attune | 中和 | Balanced DM needs protection from extremes |
-| Nourish & Amplify | 喜生助 | Open DM comes through fully in the right conditions |
-
-**ENERGY_CONDITION_READINGS structure:**
-```javascript
-// Keyed: stem → band → { portrait, dynamic, practice }
-// portrait: 2–3 sentences, what this condition feels like for THIS archetype
-// dynamic:  1 sentence, what it creates specifically
-// practice: 1 sentence, the specific Channel/Maintain/Nourish action for this archetype
-// All 10 stems × 3 bands = 30 readings
 ```
+[Condition icon 44px]  [Energy condition label]        [91%]
+                       [Extremely Strong]               [DM support]
+                       [Concentrated]
+[──────────────── DM support % bar ────────────────────]
+[One-sentence diagnosis]
+[────────────────── divider ────────────────────────────]
+[Balance approach] Channel & Release — [one-sentence approach line]
+```
+
+### Condition identity icons
+
+Three SVG icons, one per energy band. Rendered in element color inside a 44px tinted tile. These are the user's vivid identity symbols for their energy state — equivalent to a zodiac glyph.
+
+| Band | Icon | Symbol meaning | SVG description |
+|---|---|---|---|
+| concentrated | ☀ Sun | Self-generating, full, radiating — no external input required | Filled circle (r=7) + 8 rays (4 cardinal long, 4 diagonal short) |
+| balanced | ⚖ Scale | Two equal forces in held tension — neither overwhelms | Horizontal beam + two equal-weight circles + triangular fulcrum + center post |
+| open | ☽ Moon | Receives rather than generates — context determines expression | Crescent path: outer arc r=12 (center 18,18) + inner arc r=11 (center 22,18) |
+
+**Implementation:** `conditionIcon` computed in `ElementSpectrum` from `band` value. Icon color = `dmColor` (Day Master element color). Never uses a background fill — the crescent SVG path geometry creates the shape.
+
+### DM support percentage bar
+
+A filled horizontal bar showing `Math.round(chart.dayMaster.strengthScore * 100)` as a percentage. Width scales from 0–100%. Rendered in element color at 65% opacity. Large percentage numeral (24px) displayed top-right alongside "DM support" label.
+
+**What it represents:** The ratio of chart elements that support the Day Master (same element or elements that generate it) to the total chart element count. A concentrated chart scores 70–100%. A balanced chart scores 36–70%. An open chart scores 0–35%.
+
+### STRENGTH_META — complete template
+
+All content for Block 1 derives from `STRENGTH_META[dm.strength]`. Five strength levels map to three energy bands:
+
+**CONCENTRATED (身强) — ☀ Sun icon**
+
+| strength | label | polarity | frame | approach | approachLine |
+|---|---|---|---|---|---|
+| extremely_strong | Overpowering | Concentrated | Your core element saturates the chart — there is very little counterbalance to what you already are. | Channel & Release | This energy needs outlets: expression, challenge, and friction. Without them it turns inward and becomes rigidity. |
+| strong | Dominant | Concentrated | Your core element leads the chart with clear authority — self-directed and largely independent of external conditions. | Channel & Release | This energy thrives when it has meaningful work to push against. Give it direction or it finds its own, usually at inconvenient moments. |
+
+**EQUILIBRATED (身中和) — ⚖ Scale icon**
+
+| strength | label | polarity | frame | approach | approachLine |
+|---|---|---|---|---|---|
+| moderate | Balanced | Equilibrated | Your core element sits in genuine equilibrium — neither overwhelming nor overwhelmed by the forces around it. | Maintain & Attune | This energy is naturally stable. The practice is staying attuned to what genuinely disrupts the balance, rather than forcing movement. |
+
+**OPEN (身弱) — ☽ Moon icon**
+
+| strength | label | polarity | frame | approach | approachLine |
+|---|---|---|---|---|---|
+| weak | Receptive | Open | Your core element depends on the right conditions to come through fully — it is not limited, it is context-sensitive. | Nourish & Amplify | This energy deepens when genuinely supported. The environment matters more than effort — seek what truly nourishes rather than what simply doesn't drain. |
+| extremely_weak | Yielding | Open | Your core element operates almost entirely through alignment — when the conditions are right, the results are disproportionate to the apparent effort. | Nourish & Amplify | Alignment matters more than force here. The right conditions produce what years of effort in the wrong ones never will. |
+
+### Balance approach — classical roots
+
+| Approach | Classical root | Plain meaning |
+|---|---|---|
+| Channel & Release | 喜克泄耗 | Concentrated energy needs expression, challenge, and deliberate friction to stay purposeful |
+| Maintain & Attune | 中和 | Balanced energy needs protection from extremes and awareness of what disrupts equilibrium |
+| Nourish & Amplify | 喜生助 | Open energy comes through fully in the right conditions — environment matters more than force |
+
+### What was removed from this block
+
+The `ecr.portrait`, `ecr.dynamic`, and `ecr.practice` fields from `ENERGY_CONDITION_READINGS` are no longer rendered in Block 1. They are retained in the data for potential use in Section 3 [FUTURE] but do not appear in Section 2. Block 1 is deliberately concise: icon + % bar + one diagnosis sentence + one approach sentence.
 
 ## 6.4 Block 2 — Elemental Composition Bar Chart
 
