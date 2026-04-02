@@ -1,6 +1,6 @@
 // generate_templates_v2.js
-// Generates all 300 compound archetype templates for Elementum.
-// Key format:  [stem]_[band]_[tension]_[catalyst]   (Bible Part 3A)
+// Generates all 420 compound archetype templates for Elementum.
+// Key format:  [stem]_[band]_[tgPattern]_[catalyst]   (Bible Part 3A)
 // Output schema per key: { teaser, p1, p2, gifts:[{label,desc}×3], edges:[{label,desc}×2] }
 //
 // Usage:
@@ -9,8 +9,8 @@
 //   node generate_templates_v2.js check              → validate schema + content rules
 //   node generate_templates_v2.js merge              → merge into TEMPLATE_DB export
 //
-// Estimated cost:  ~$20–25 (Claude Opus 4.6, 300 keys × ~500 tokens each)
-// Estimated time:  15–20 minutes for batch processing
+// Estimated cost:  ~$28–34 (Claude Opus 4.6, 419 keys × ~500 tokens each)
+// Estimated time:  15–25 minutes for batch processing
 
 import Anthropic from "@anthropic-ai/sdk";
 import fs from "fs";
@@ -53,33 +53,78 @@ const BANDS = {
   },
 };
 
-const TENSIONS = {
+// TG_PATTERNS — the 7-value axis encoding the Ten Gods structural relationship
+// between the dominant chart element and the Day Master (Bible §3A.3).
+//
+// Three patterns are structurally unambiguous (pure, rooted, forging).
+// Two TG pairs are split by yin/yang polarity of the dominant element:
+//   flowing / expressive  — Output family (食神 Food God / 伤官 Hurting Officer)
+//   tested  / pressured   — Authority family (正官 Direct Officer / 七杀 Seven Killings)
+//
+// The expressive and pressured templates are generated last, after their sister
+// templates (flowing and tested respectively) are complete — they share the same
+// structural relationship but differ in the character of expression.
+const TG_PATTERNS = {
   pure: {
-    label: "Pure",
+    label:     "Pure",
     classical: "比劫旺 — same element dominant",
-    desc: "The same element as the Day Master dominates the chart. No counterbalancing force, no interference. The core energy amplifies itself, saturating without correction.",
+    tgFamily:  "Companion",
+    desc:      "The same element as the Day Master dominates the chart. No counterbalancing force, no interference. The core energy amplifies itself — more of who this person already is with nothing to moderate or redirect it. Potent and brittle in equal measure.",
+    dominantForce: (dm) => `the same element as ${dm.archetype} itself — the chart is amplifying its own core without correction`,
+    sisterNote: null,
   },
   rooted: {
-    label: "Rooted",
+    label:     "Rooted",
     classical: "印旺 — element that generates DM is dominant",
-    desc: "The element that generates and nourishes the Day Master dominates the chart. External resource, backing, ground. The person draws from deep support they didn't build themselves.",
+    tgFamily:  "Seal/Resource",
+    desc:      "The element that generates and nourishes the Day Master dominates the chart. External resource, backing, support. This person draws from a deep well they didn't build themselves — institutional backing, inherited strength, or unconditional nourishment.",
+    dominantForce: (dm) => `the element that generates and nourishes ${dm.archetype} — deep support they didn't build, feeding rather than challenging`,
+    sisterNote: null,
   },
   flowing: {
-    label: "Flowing",
-    classical: "食伤旺 — element DM generates is dominant",
-    desc: "The element the Day Master naturally produces dominates the chart. Energy moves outward — the chart is built for expression, creation, output. The person pours more than they hold.",
+    label:     "Flowing",
+    classical: "食神旺 — Food God dominant (same polarity output)",
+    tgFamily:  "Output — 食神 Food God",
+    desc:      "The element the Day Master naturally produces dominates the chart, in a same-polarity expression (Food God 食神). Energy moves outward without friction — naturally generous, naturally productive. The person gives what they have because giving is structural, not willed. There is contentment in this: the output is its own reward.",
+    dominantForce: (dm) => `what ${dm.archetype} naturally produces — the chart flows outward easily, expression without friction, output as natural state`,
+    sisterNote: null,
+  },
+  expressive: {
+    label:     "Expressive",
+    classical: "伤官旺 — Hurting Officer dominant (opposite polarity output)",
+    tgFamily:  "Output — 伤官 Hurting Officer",
+    desc:      "The element the Day Master produces dominates the chart, in an opposite-polarity expression (Hurting Officer 伤官). Energy moves outward but with tension — the brilliance pushes against something, challenges structure, refuses easy containment. Where Flowing gives freely, Expressive gives with an edge. The output has a quality of assertion rather than just production.",
+    dominantForce: (dm) => `what ${dm.archetype} produces under tension — the same output as Flowing but charged, pushing against the structure that tries to contain it`,
+    sisterNote: "NOTE — SISTER TEMPLATE: This is the Expressive counterpart to the Flowing template for the same key. Both describe the Output TG family (DM generates the dominant element), but where Flowing describes natural, generous, frictionless outward expression (Food God 食神), Expressive describes output that carries an edge — brilliance that challenges structure, creativity that refuses easy containment (Hurting Officer 伤官). The archetype is the same person with the same catalyst. The difference is in how their expression meets the world: not freely given, but asserted.",
   },
   forging: {
-    label: "Forging",
+    label:     "Forging",
     classical: "财旺 — element DM controls is dominant",
-    desc: "The element the Day Master controls and shapes dominates the chart. Material to work with, things to direct. The person has abundant resources but must actively shape them.",
+    tgFamily:  "Wealth",
+    desc:      "The element the Day Master controls and shapes dominates the chart. The person has abundant material to work with — things to direct, shape, acquire, convert. The question is not capability but application: what gets built with what is available, and whether the person can direct enough to not be directed by it.",
+    dominantForce: (dm) => `what ${dm.archetype} controls and shapes — abundant material, things to direct and convert, the question is application not capability`,
+    sisterNote: null,
   },
   tested: {
-    label: "Tested",
-    classical: "官杀旺 — element that controls DM is dominant",
-    desc: "The element that controls and pressures the Day Master dominates the chart. External force is the defining feature — not destructive, but continuously shaping. The person is refined by what resists them.",
+    label:     "Tested",
+    classical: "正官旺 — Direct Officer dominant (opposite polarity authority)",
+    tgFamily:  "Authority — 正官 Direct Officer",
+    desc:      "The element that disciplines the Day Master dominates the chart, in an opposite-polarity expression (Direct Officer 正官). This is structured authority — the person operates within a framework they respect, earns recognition through legitimate channels, finds their place inside an order that values them. The pressure is real but orderly: the Officer tests, but grants permission when the test is passed.",
+    dominantForce: (dm) => `the element that structures and disciplines ${dm.archetype} — orderly authority that grants recognition when legitimacy is demonstrated`,
+    sisterNote: null,
+  },
+  pressured: {
+    label:     "Pressured",
+    classical: "七杀旺 — Seven Killings dominant (same polarity authority)",
+    tgFamily:  "Authority — 七杀 Seven Killings",
+    desc:      "The element that controls the Day Master dominates the chart, in a same-polarity expression (Seven Killings 七杀). This is direct, unmediated pressure — the force does not grant permission and does not moderate itself. The person must prove themselves against a challenge that doesn't care whether they succeed. High achievement or high cost, sometimes both.",
+    dominantForce: (dm) => `the element that directly challenges ${dm.archetype} — unmediated pressure that neither grants permission nor moderates itself`,
+    sisterNote: "NOTE — SISTER TEMPLATE: This is the Pressured counterpart to the Tested template for the same key. Both describe the Authority TG family (dominant element controls DM), but where Tested describes structured, orderly authority that grants recognition through legitimate channels (Direct Officer 正官), Pressured describes unmediated direct pressure — a force that does not grant permission and does not soften itself (Seven Killings 七杀). The archetype is the same person with the same catalyst. The difference is whether the external force respects a framework: Tested operates within one; Pressured does not.",
   },
 };
+
+// Legacy alias — TENSIONS was the previous 5-value constant. Kept for any references.
+const TENSIONS = TG_PATTERNS;
 
 // Catalyst options per element per band — from CATALYST_MAP in engine
 const CATALYST_MAP = {
@@ -132,14 +177,19 @@ const SKIP_KEYS = new Set([
 
 function buildCombinations() {
   const combos = [];
+  // Generate in a specific order: pure/rooted/forging/flowing/tested first,
+  // then expressive/pressured last (their sister templates will already exist
+  // in the batch results, enabling quality review of the split pairs together).
+  const PATTERN_ORDER = ["pure","rooted","flowing","forging","tested","expressive","pressured"];
+
   for (const dm of DAY_MASTERS) {
     for (const band of Object.keys(BANDS)) {
       const catalysts = CATALYST_MAP[dm.element][band];
-      for (const tension of Object.keys(TENSIONS)) {
+      for (const tgPattern of PATTERN_ORDER) {
         for (const catalyst of catalysts) {
-          const key = `${dm.stem}_${band}_${tension}_${catalyst}`;
+          const key = `${dm.stem}_${band}_${tgPattern}_${catalyst}`;
           if (SKIP_KEYS.has(key)) continue;
-          combos.push({ key, dm, band, tension, catalyst });
+          combos.push({ key, dm, band, tgPattern, catalyst });
         }
       }
     }
@@ -171,10 +221,10 @@ OUTPUT FORMAT — return ONLY valid JSON, no markdown fences, no preamble:
 
 CONTENT RULES (non-negotiable):
 1. No BaZi terminology: no Day Master, Ten Gods, 比劫, 印, 食伤, 官杀, 财, 用神, 格局, 大运, 流年
-2. No tension names in the text: never write "Pure", "Rooted", "Flowing", "Forging", "Tested" in the reading
-3. No cross-template comparisons: never write "unlike a Tested version..." or "where a Rooted chart..."
+2. No tgPattern names in the text: never write "Pure", "Rooted", "Flowing", "Expressive", "Forging", "Tested", "Pressured" in the reading
+3. No cross-template comparisons: never write "unlike a Tested version..." or "where a Flowing chart..." or "as opposed to the Pressured..."
 4. Catalyst as aspiration: the catalyst element is always framed as something moving toward, never as a deficit
-5. Stem × band × tension specificity: the reading must describe something only true for THIS exact combination
+5. Stem × band × tgPattern specificity: the reading must describe something only true for THIS exact combination
 6. Language register: direct, behavioral, second person, present tense. Not mystical. Not motivational. Clinical-poetic.
 
 QUALITY STANDARD — reference reading for 庚_concentrated_pure_Fire (Yang Metal, Concentrated, self-dominant, seeking Fire):
@@ -183,13 +233,19 @@ p1: "Your processing runs through accuracy before anything else engages. The ass
 p2: "What drives you isn't achievement — it's the resolution of what's actually true. Without a counterbalancing force, the precision turns on whatever is in reach, including yourself. Fire is what this chart has been seeking before it had a language for it — the force that gives precision a direction."`;
 
 function buildPrompt(combo) {
-  const { dm, band, tension, catalyst } = combo;
-  const bandData     = BANDS[band];
-  const tensionData  = TENSIONS[tension];
-  const catalystCtx  = CATALYST_CONTEXT[dm.element]?.[catalyst] || `${catalyst} is the key element this chart needs.`;
+  const { dm, band, tgPattern, catalyst } = combo;
+  const bandData    = BANDS[band];
+  const tgData      = TG_PATTERNS[tgPattern];
+  const catalystCtx = CATALYST_CONTEXT[dm.element]?.[catalyst] || `${catalyst} is the key element this chart needs.`;
 
-  return `Generate the reading for: ${dm.stem}_${band}_${tension}_${catalyst}
+  // Sister-template context injection for expressive and pressured —
+  // frames the split clearly so the model writes the right character profile.
+  const sisterContext = tgData.sisterNote
+    ? `\n${tgData.sisterNote}\n`
+    : "";
 
+  return `Generate the reading for: ${dm.stem}_${band}_${tgPattern}_${catalyst}
+${sisterContext}
 ARCHETYPE: ${dm.archetype}
   ${dm.polarityDesc}
 
@@ -197,10 +253,10 @@ ENERGY BAND: ${bandData.label} (${bandData.icon})
   ${bandData.frame}
   Balance approach: ${bandData.approach}
 
-CHART TENSION: ${tensionData.label}
-  Classical: ${tensionData.classical}
-  What this means: ${tensionData.desc}
-  For ${dm.archetype} specifically: the dominant force in this person's chart is ${tension === "pure" ? dm.element : tension === "rooted" ? `the element that generates ${dm.element}` : tension === "flowing" ? `what ${dm.element} naturally produces` : tension === "forging" ? `what ${dm.element} controls and shapes` : `the element that controls ${dm.element}`}.
+CHART PATTERN: ${tgData.label}  [Ten Gods family: ${tgData.tgFamily}]
+  Classical reference: ${tgData.classical}
+  What this means: ${tgData.desc}
+  For ${dm.archetype} specifically: the dominant force in this person's chart is ${tgData.dominantForce(dm)}.
 
 CATALYST: ${catalyst}
   ${catalystCtx}
@@ -299,8 +355,8 @@ const FORBIDDEN_JARGON = [
   "Direct Seal","Indirect Wealth","Direct Wealth",
   "官杀","食神","伤官","正官","七杀","比肩","劫财","偏印","正印",
   "日主","格局","大运","流年","喜用神","忌神","调候",
-  // Tension names (must not appear in text)
-  " Pure "," Rooted "," Flowing "," Forging "," Tested ",
+  // tgPattern names (must not appear verbatim in reading text)
+  " Pure "," Rooted "," Flowing "," Expressive "," Forging "," Tested "," Pressured ",
   // Generic spiritual filler
   "the universe","cosmic","destiny","fate","zodiac",
 ];
@@ -376,7 +432,10 @@ async function main() {
 
   const combos = buildCombinations();
   console.log(`Compound archetype taxonomy: ${combos.length} keys to generate`);
-  console.log(`(${SKIP_KEYS.size} hand-written key(s) will be skipped)`);
+  console.log(`(${SKIP_KEYS.size} hand-written key(s) skipped | 420 total in taxonomy)`);
+  console.log(`  — 300 base patterns (pure/rooted/flowing/forging/tested)`);
+  console.log(`  — 120 new patterns  (expressive/pressured splits)`);
+  console.log(`  — Generated in order: base patterns first, splits last`);
 
   if (mode === "generate") {
     const batchId = await submitBatch(combos);

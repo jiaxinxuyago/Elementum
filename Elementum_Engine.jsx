@@ -292,8 +292,18 @@ function computeDMStrength(pillars, dmStem, bondedDMStems = new Set()) {
 
 // ── COMPOUND ARCHETYPE SYSTEM — Part 3A of Bible ────────────────────────────
 // Three functions that produce the Tier 2 template lookup key:
-//   [stem]_[band]_[tension]_[catalyst]
+//   [stem]_[band]_[tgPattern]_[catalyst]   (420-key taxonomy, Bible §3A.3)
 // See Bible Part 3A for full taxonomy, content rules, and generation protocol.
+//
+// tgPattern is a 7-value axis derived from the Ten Gods relationship between
+// the dominant chart element and the Day Master. The two highest-impact TG
+// pairs are split using yin/yang polarity resolution:
+//   flowing  = 食神 (Food God, same polarity output)
+//   expressive = 伤官 (Hurting Officer, opposite polarity output)
+//   tested   = 正官 (Direct Officer, opposite polarity authority)
+//   pressured = 七杀 (Seven Killings, same polarity authority)
+// The remaining three (pure / rooted / forging) are structurally unambiguous
+// and require no polarity split.
 
 const CATALYST_MAP = {
   Metal: {concentrated:["Fire","Water"], balanced:["Fire","Earth"],  open:["Earth","Metal"]},
@@ -303,21 +313,86 @@ const CATALYST_MAP = {
   Earth: {concentrated:["Wood","Metal"], balanced:["Wood","Fire"],   open:["Fire","Earth"]},
 };
 
-// Tension = relationship of dominant chart element to DM (Bible §3A.3)
-function computeTension(chart) {
-  const dmEl = chart.dayMaster.element;
-  const GEN  = {Wood:"Fire",Fire:"Earth",Earth:"Metal",Metal:"Water",Water:"Wood"};
-  const CTL  = {Wood:"Earth",Earth:"Water",Water:"Fire",Fire:"Metal",Metal:"Wood"};
+// ── Helper: weighted yin/yang polarity of domEl across all 8 chart characters.
+// Uses position weights (月令 highest) and hidden-stem weights (本气 > 中气 > 余气).
+// Returns 0 (yang) or 1 (yin). Fallback = DM's own polarity on tie / no data.
+function getDominantElementPolarity(domEl, dmStem, pillars) {
+  if (!pillars) return STEM_YIN[dmStem];
+  const { year, month, day, hour } = pillars;
+  let yangW = 0, yinW = 0;
+
+  // Visible heavenly stems (day stem excluded — that is the DM itself)
+  const stemSlots = [
+    [month?.stem, 3],   // 月干 — highest non-branch positional weight
+    [hour?.stem,  2],
+    [year?.stem,  1],
+  ];
+  for (const [stem, w] of stemSlots) {
+    if (stem && STEM_ELEM[stem] === domEl)
+      STEM_YIN[stem] === 0 ? (yangW += w) : (yinW += w);
+  }
+
+  // Earthly branch hidden stems — 月令本气 carries the most influence
+  const branchSlots = [
+    [month?.branch, 4],   // 月令 — highest overall weight
+    [day?.branch,   2],
+    [hour?.branch,  1.5],
+    [year?.branch,  1],
+  ];
+  for (const [branch, baseW] of branchSlots) {
+    if (!branch || !HIDDEN_STEMS[branch]) continue;
+    for (const hs of HIDDEN_STEMS[branch]) {
+      if (hs.e === domEl) {
+        const w = baseW * hs.w; // hs.w = 本气0.6 / 中气0.3 / 余气0.1
+        STEM_YIN[hs.s] === 0 ? (yangW += w) : (yinW += w);
+      }
+    }
+  }
+
+  if (yangW === 0 && yinW === 0) return STEM_YIN[dmStem]; // no data → fallback
+  return yangW >= yinW ? 0 : 1;
+}
+
+// ── TG Pattern: the 7-value structural relationship axis (Bible §3A.3).
+// Requires chart.dayMaster.stem and chart.pillars for the Output/Authority splits.
+// chart.pillars is optional — omitting it gracefully falls back to flowing/tested.
+function computeTgPattern(chart) {
+  const dmEl   = chart.dayMaster.element;
+  const dmStem = chart.dayMaster.stem;
+  const dmYin  = STEM_YIN[dmStem];   // 0 = yang, 1 = yin
+  const GEN    = {Wood:"Fire",Fire:"Earth",Earth:"Metal",Metal:"Water",Water:"Wood"};
+  const CTL    = {Wood:"Earth",Earth:"Water",Water:"Fire",Fire:"Metal",Metal:"Wood"};
+
+  // Find highest-scoring present element (after bond modifiers)
   const sorted = Object.entries(chart.elements)
     .filter(([,d]) => d.present)
     .sort(([,a],[,b]) => (b.score||0) - (a.score||0));
   if (!sorted.length) return "pure";
+
   const dominant = sorted[0][0];
-  if (dominant === dmEl)          return "pure";
-  if (GEN[dominant] === dmEl)     return "rooted";
-  if (GEN[dmEl]     === dominant) return "flowing";
-  if (CTL[dmEl]     === dominant) return "forging";
-  return "tested";
+
+  // ── Five structural relationships ──────────────────────────────────────
+  if (dominant === dmEl)          return "pure";    // 比劫: self-element leads
+  if (GEN[dominant] === dmEl)     return "rooted";  // 印: resource generates DM
+  if (CTL[dmEl]     === dominant) return "forging"; // 财: DM controls dominant
+
+  if (GEN[dmEl] === dominant) {
+    // Output TG family — DM generates dominant element.
+    // 食神 (Food God):    same polarity as DM  → "flowing"
+    // 伤官 (Hurt Officer): opp  polarity to DM  → "expressive"
+    const domYin = getDominantElementPolarity(dominant, dmStem, chart.pillars);
+    return (dmYin === domYin) ? "flowing" : "expressive";
+  }
+
+  if (CTL[dominant] === dmEl) {
+    // Authority TG family — dominant element controls DM.
+    // 正官 (Direct Officer): opp  polarity to DM  → "tested"
+    // 七杀 (Seven Killings): same polarity as DM  → "pressured"
+    const domYin = getDominantElementPolarity(dominant, dmStem, chart.pillars);
+    return (dmYin === domYin) ? "pressured" : "tested";
+  }
+
+  return "pure"; // unreachable given exhaustive 五行生克 coverage above
 }
 
 // Primary catalyst = what this DM needs at this band (Bible §3A.3)
@@ -328,22 +403,27 @@ function getPrimaryCatalyst(chart) {
   return primary === dmEl ? secondary : primary;
 }
 
-// Full Tier 2 lookup key
+// Full Tier 2 lookup key: [stem]_[band]_[tgPattern]_[catalyst]  (Bible §3A.3)
 function getArchetypeKey(chart) {
-  const tension  = computeTension(chart);
-  const catalyst = getPrimaryCatalyst(chart);
-  const band     = getEnergyBand(chart.dayMaster.strength);
-  return `${chart.dayMaster.stem}_${band}_${tension}_${catalyst}`;
+  const tgPattern = computeTgPattern(chart);
+  const catalyst  = getPrimaryCatalyst(chart);
+  const band      = getEnergyBand(chart.dayMaster.strength);
+  return `${chart.dayMaster.stem}_${band}_${tgPattern}_${catalyst}`;
 }
 
-// Tension display labels — Tier 1 user-facing names (Bible §3A.2)
-const TENSION_LABELS = {
-  pure:    "Pure",
-  rooted:  "Rooted",
-  flowing: "Flowing",
-  forging: "Forging",
-  tested:  "Tested",
+// TG Pattern display labels — Tier 1 user-facing names (Bible §3A.2 / §3A.3)
+// Seven values: the Output and Authority pairs are now split by yin/yang polarity.
+const TG_PATTERN_LABELS = {
+  pure:       "Pure",
+  rooted:     "Rooted",
+  flowing:    "Flowing",
+  expressive: "Expressive",
+  forging:    "Forging",
+  tested:     "Tested",
+  pressured:  "Pressured",
 };
+// Legacy alias — retained so any downstream code referencing TENSION_LABELS still works.
+const TENSION_LABELS = TG_PATTERN_LABELS;
 
 
 function calculateBaziChart(input) {
@@ -434,18 +514,28 @@ function calculateBaziChart(input) {
   const fdStem=HS[fdEl%10],fdBranch=EB[(fdEl+10)%12];
 
   const dmEl = STEM_ELEM[dayStem];
-  // Build partial chart for archetype key computation (elements already computed above)
-  const partialChart = {dayMaster:{element:dmEl,strength},elements};
-  const tension      = computeTension(partialChart);
+  // Build partial chart with pillars so computeTgPattern can resolve
+  // yin/yang polarity for the flowing/expressive and tested/pressured splits.
+  const partialChart = {
+    dayMaster: { element: dmEl, strength, stem: dayStem },
+    elements,
+    pillars: {
+      year:  { stem: yearStem,  branch: yearBranch  },
+      month: { stem: monthStem, branch: monthBranch },
+      day:   { stem: dayStem,   branch: dayBranch   },
+      hour:  { stem: hourStem,  branch: hourBranch  },
+    },
+  };
+  const tgPattern    = computeTgPattern(partialChart);
   const catalyst     = getPrimaryCatalyst(partialChart);
-  const archetypeKey = `${dayStem}_${getEnergyBand(strength)}_${tension}_${catalyst}`;
+  const archetypeKey = `${dayStem}_${getEnergyBand(strength)}_${tgPattern}_${catalyst}`;
   return {
     meta:{birthDate:`${year}-${String(month).padStart(2,"0")}-${String(day).padStart(2,"0")}`,birthHour:hour,location:location||"Beijing",gender,calculatedAt:now.toISOString().split("T")[0]},
     pillars:{year:{stem:yearStem,branch:yearBranch,stemElement:STEM_ELEM[yearStem],branchElement:BRANCH_ELEM[yearBranch],stemPolarity:STEM_YIN[yearStem]?"yin":"yang",branchPolarity:BRANCH_YIN[yearBranch]?"yin":"yang"},month:{stem:monthStem,branch:monthBranch,stemElement:STEM_ELEM[monthStem],branchElement:BRANCH_ELEM[monthBranch],stemPolarity:STEM_YIN[monthStem]?"yin":"yang",branchPolarity:BRANCH_YIN[monthBranch]?"yin":"yang"},day:{stem:dayStem,branch:dayBranch,stemElement:STEM_ELEM[dayStem],branchElement:BRANCH_ELEM[dayBranch],stemPolarity:STEM_YIN[dayStem]?"yin":"yang",branchPolarity:BRANCH_YIN[dayBranch]?"yin":"yang"},hour:{stem:hourStem,branch:hourBranch,stemElement:STEM_ELEM[hourStem],branchElement:BRANCH_ELEM[hourBranch],stemPolarity:STEM_YIN[hourStem]?"yin":"yang",branchPolarity:BRANCH_YIN[hourBranch]?"yin":"yang"}},
     dayMaster:{stem:dayStem,element:dmEl,polarity:STEM_YIN[dayStem]?"yin":"yang",strength,strengthScore},
     elements,
     missingElements:Object.keys(elements).filter(e=>!elements[e].present),
-    tension, catalyst, archetypeKey,
+    tension: tgPattern, tgPattern, catalyst, archetypeKey,
     tenGods:{yearStem:getTenGod(dayStem,yearStem),yearBranch:getTenGod(dayStem,yearBranch),monthStem:getTenGod(dayStem,monthStem),monthBranch:getTenGod(dayStem,monthBranch),dayStem:{zh:"日主",en:"Day Master",family:"self"},dayBranch:getTenGod(dayStem,dayBranch),hourStem:getTenGod(dayStem,hourStem),hourBranch:getTenGod(dayStem,hourBranch)},
     combinations,pattern:PATTERNS[patternKey],luckPillars,
     currentFlowYear:{year:cy,stem:fyStem,branch:fyBranch,stemElement:STEM_ELEM[fyStem],branchElement:BRANCH_ELEM[fyBranch],stemTenGod:getTenGod(dayStem,fyStem),branchTenGod:getTenGod(dayStem,fyBranch)},
@@ -466,22 +556,28 @@ function calculateBaziChart(input) {
 const TEMPLATE_DB = {
 
   // ── COMPOUND ARCHETYPE TEMPLATES (new format) ────────────────────────────
-  // Schema: { teaser, p1, p2, gifts:[{label,desc}×3], edges:[{label,desc}×2] }
+  // Schema: { teaser, p1, p2, gifts:[{label,desc}×3], edges:[{label,desc}×2],
+  //           twoAM:String, landscape:{thrives:String, costs:String} }
   // Reference chart: 1995-04-29 18:00 Beijing Male → 乙亥 庚辰 庚寅 乙酉
 
   "庚_concentrated_pure_Fire": {
-    teaser: "Before you say a word, the room recalibrates. Precision at this concentration has a quality people sense before it speaks — not a trait you cultivated, but the structural default of Yang Metal running at full charge. No tempering, no counterbalance. The edge was already there when you arrived.",
-    p1: "Your processing runs through accuracy before anything else engages. The assessment happens automatically — before the social read, before the emotional response, before you've decided to engage at all. When something doesn't hold up, your system registers it before the problem has a name. Others feel evaluated in your presence even when you say nothing, because structurally, you are always evaluating.",
-    p2: "What drives you isn't achievement — it's the resolution of what's actually true. The Pure chart intensifies this: without a counterbalancing force, the precision turns on whatever is in reach, including yourself. Fire is what this chart has been seeking before it had a language for it — the force that gives precision a direction. Without it, the edge is fully formed but unpointed.",
+    teaser: "You're the one who already knows. Not because you asked around or ran the research — because something ran the assessment before the conversation started. People experience you as sharp before they experience you as warm. Some of them read that as cold. It isn't. It's what it looks like when precision is the baseline, not the mode.",
+    p1: "On the outside: composed, direct, low small-talk — the person whose feedback lands like a scalpel, accurate and occasionally more honest than the room was ready for. What's actually running: a quiet audit that started the moment you walked in. Not deliberately. It just goes first. Everyone else is still reading the room. You've already filed the report.",
+    p2: "What you're after isn't being right — it's resolution. The standard wants something to commit to; without it, the evaluation finds targets wherever it can, including you. You've been circling the same question: not \"am I capable\" but \"what actually deserves this.\" When you find it, the precision stops feeling like a weight and starts feeling like the point.",
     gifts: [
-      {label:"Signal clarity",       desc:"When others are confused, your read sharpens. You see what's actually happening before it has been named, and you don't mistake noise for signal."},
-      {label:"Structural durability",desc:"What you build holds. You cannot tolerate what does not, which means everything you put your name on carries a durability others cannot easily replicate."},
-      {label:"Precision of completion",desc:"You finish what others lose the thread of. Vagueness costs you more than most, making your follow-through structural rather than motivational."},
+      {label:"The one who already knows",     desc:"People come to you with problems they've been carrying for weeks. You see the actual issue in the first two minutes. In a room full of competing reads, yours is the one others quietly check against — not because you declared it, but because it turned out to be right."},
+      {label:"What you build doesn't break",  desc:"You have a specific intolerance for things that don't hold up. This makes you a difficult collaborator when someone wants to ship something half-finished. Years later, people are still using the framework you built, the call you made, the thing you said once that quietly reframed everything."},
+      {label:"The person who finishes",       desc:"You actually complete things — not because you're unusually disciplined, but because leaving something half-done creates internal pressure that's harder to live with than just finishing it. Most people experience stopping as an option. You don't. This is the most underrated thing about you."},
     ],
     edges: [
-      {label:"Warmth reads as performance",  desc:"Without Fire in this chart, precision registers as coldness rather than rigor. The same quality that makes you most capable is what makes genuine care difficult to offer — and harder for others to feel."},
-      {label:"Rigidity under new information",desc:"A Pure chart compounds Metal's tendency toward fixed assessment. The conclusion already made becomes difficult to revise, even when new evidence arrives that should change it."},
+      {label:"Warmth arrives through the same door as everything else", desc:"The precision doesn't soften at the boundary of people. The person who needed presence got clarity instead — and they felt the difference even if they couldn't name it. What it costs you: you are sometimes alone in rooms you built. The care was real. It just came through the wrong door, and you've known this longer than you've been comfortable admitting."},
+      {label:"The verdict was already load-bearing",                    desc:"Once the assessment is built, revising it requires going back through the same system that built it. New evidence arrives; the conclusion is already structural. What it costs others: they feel like the case is closed before it was heard. What it costs you: you occasionally stay wrong longer than necessary, and some part of you knows it before you'll say it."},
     ],
+    twoAM: "I already know what the right call is — the problem is I don't know yet if it's worth being right about.",
+    landscape: {
+      thrives: "Anywhere the stakes are real and the noise needs cutting — founding decisions, high-trust feedback rooms, problems where being accurate matters more than being comfortable.",
+      costs:   "Anywhere the job is to make people feel good about a decision before it's actually good — consensus-building meetings, client management situations where the right answer has to wait for the room to be ready.",
+    },
   },
 
   // ── LEGACY TEMPLATES (old key format — pre-compound archetype system) ────
@@ -1604,8 +1700,12 @@ function buildDayMasterProfile(chart) {
     whoYouAreP2:     compoundTmpl?.p2      || wyaBand.p2     || "",
     strengths:       compoundTmpl?.gifts   || (CORE_STRENGTHS[dm.stem]?.[band]) || [],
     shadows:         compoundTmpl?.edges   || (CORE_SHADOWS[dm.stem]?.[band])   || [],
+    // New Bible fields — only present when compound template exists
+    twoAM:           compoundTmpl?.twoAM   || null,
+    landscape:       compoundTmpl?.landscape || null,
     // Metadata for DayMasterHero identity card
-    tension:         chart.tension   || "",
+    tgPattern:       chart.tgPattern || chart.tension || "",
+    tension:         chart.tgPattern || chart.tension || "", // backwards-compat alias
     catalyst:        chart.catalyst  || "",
     archetypeKey:    compoundKey,
     band,
@@ -1681,17 +1781,17 @@ function DayMasterHero({ chart }) {
         <div style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:14,lineHeight:1.7,color:C.textSec,fontStyle:"italic",maxWidth:300,margin:"0 auto 14px"}}>
           {profile.manifesto}
         </div>
-        {/* Compound identity chips — band / tension / catalyst */}
-        {(profile.tension || profile.catalyst) && (
+        {/* Compound identity chips — band / tgPattern / catalyst */}
+        {(profile.tgPattern || profile.catalyst) && (
           <div style={{display:"flex",justifyContent:"center",gap:7,flexWrap:"wrap",marginBottom:14}}>
             {profile.band && (
               <div style={{fontSize:10,letterSpacing:1,padding:"3px 11px",borderRadius:20,border:`0.5px solid ${color}35`,background:`${color}08`,color:color,fontFamily:"'EB Garamond',Georgia,serif"}}>
                 {profile.band === "concentrated" ? "☀" : profile.band === "balanced" ? "⚖" : "☽"} {profile.band.charAt(0).toUpperCase() + profile.band.slice(1)}
               </div>
             )}
-            {profile.tension && (
+            {profile.tgPattern && (
               <div style={{fontSize:10,letterSpacing:1,padding:"3px 11px",borderRadius:20,border:`0.5px solid ${color}35`,background:`${color}08`,color:color,fontFamily:"'EB Garamond',Georgia,serif"}}>
-                {TENSION_LABELS[profile.tension] || profile.tension}
+                {TG_PATTERN_LABELS[profile.tgPattern] || profile.tgPattern}
               </div>
             )}
             {profile.catalyst && (
@@ -1702,10 +1802,10 @@ function DayMasterHero({ chart }) {
           </div>
         )}
         {/* Shareable code strip */}
-        {profile.tension && (
+        {profile.tgPattern && (
           <div style={{display:"inline-flex",alignItems:"center",gap:8,background:`${color}08`,border:`0.5px dashed ${color}35`,borderRadius:10,padding:"6px 14px"}}>
             <span style={{fontFamily:"monospace",fontSize:11,color:color,letterSpacing:0.5}}>
-              {dm.stem} · {profile.archetype.replace("The ","").toUpperCase()} · {profile.band === "concentrated" ? "☀" : profile.band === "balanced" ? "⚖" : "☽"} · {(TENSION_LABELS[profile.tension]||"").toUpperCase()}
+              {dm.stem} · {profile.archetype.replace("The ","").toUpperCase()} · {profile.band === "concentrated" ? "☀" : profile.band === "balanced" ? "⚖" : "☽"} · {(TG_PATTERN_LABELS[profile.tgPattern]||"").toUpperCase()}
             </span>
             <span style={{fontSize:9,letterSpacing:1.5,textTransform:"uppercase",color:`${color}70`}}>Share ↗</span>
           </div>
@@ -1744,6 +1844,19 @@ function DayMasterHero({ chart }) {
           </div>
         )}
 
+        {/* 2 AM Thought — only renders when compound template provides it */}
+        {profile.twoAM && (
+          <>
+            {divider}
+            <div style={{borderRadius:14,padding:"18px 20px",marginBottom:4,border:`1px dashed ${color}35`,background:`${color}04`}}>
+              <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:color,fontFamily:"'EB Garamond',Georgia,serif",fontWeight:500,marginBottom:10}}>2 AM Thought</div>
+              <p style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:16,lineHeight:1.8,color:C.text,fontStyle:"italic",margin:0}}>
+                "{profile.twoAM}"
+              </p>
+            </div>
+          </>
+        )}
+
         {divider}
 
         {/* Core Gifts — boxed card */}
@@ -1770,7 +1883,7 @@ function DayMasterHero({ chart }) {
         </div>
 
         {/* Growing Edge — boxed card */}
-        <div style={{borderRadius:14,overflow:"hidden",border:`1px solid ${C.accent}22`}}>
+        <div style={{borderRadius:14,overflow:"hidden",border:`1px solid ${C.accent}22`,marginBottom: profile.landscape ? 14 : 0}}>
           {/* Card header bar */}
           <div style={{background:`${C.accent}12`,borderBottom:`1px solid ${C.accent}18`,padding:"12px 18px",display:"flex",alignItems:"center",gap:10}}>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -1793,6 +1906,34 @@ function DayMasterHero({ chart }) {
             ))}
           </div>
         </div>
+
+        {/* Landscape — only renders when compound template provides it */}
+        {profile.landscape && (
+          <div style={{borderRadius:14,overflow:"hidden",border:`1px solid ${color}22`}}>
+            <div style={{background:`${color}10`,borderBottom:`1px solid ${color}18`,padding:"12px 18px",display:"flex",alignItems:"center",gap:10}}>
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M1 11 L4 6 L7 9 L10 4 L13 11 Z" stroke={color} strokeWidth="1.1" fill={`${color}20`} strokeLinejoin="round"/>
+              </svg>
+              <div style={{fontSize:11,letterSpacing:2,textTransform:"uppercase",color:color,fontFamily:"'EB Garamond',Georgia,serif",fontWeight:600}}>Your Landscape</div>
+            </div>
+            <div style={{padding:"6px 0"}}>
+              <div style={{padding:"14px 18px",borderBottom:`0.5px solid ${color}15`,display:"flex",gap:12,alignItems:"flex-start"}}>
+                <div style={{width:6,height:6,borderRadius:"50%",background:color,marginTop:7,flexShrink:0}}/>
+                <div>
+                  <div style={{fontSize:11,letterSpacing:1,textTransform:"uppercase",color:color,fontFamily:"'EB Garamond',Georgia,serif",marginBottom:5}}>Where you operate at full capacity</div>
+                  <div style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:14,lineHeight:1.75,color:C.textSec}}>{profile.landscape.thrives}</div>
+                </div>
+              </div>
+              <div style={{padding:"14px 18px",display:"flex",gap:12,alignItems:"flex-start"}}>
+                <div style={{width:6,height:6,borderRadius:"50%",background:C.accent,marginTop:7,flexShrink:0}}/>
+                <div>
+                  <div style={{fontSize:11,letterSpacing:1,textTransform:"uppercase",color:C.accent,fontFamily:"'EB Garamond',Georgia,serif",marginBottom:5}}>Where this consistently costs you</div>
+                  <div style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:14,lineHeight:1.75,color:C.textSec}}>{profile.landscape.costs}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
 
       </div>
     </div>
