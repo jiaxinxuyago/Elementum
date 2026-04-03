@@ -1274,135 +1274,306 @@ For every template, the catalyst must appear in p2 as a formative gap — someth
 
 ---
 
-### PART B: Generation Workflow
+### PART B: Generation Architecture
 
-#### Pre-generation: What to internalize before writing the first word
+The reading is derived, not invented. Three tiers operate in sequence, each with a distinct role and reliability profile:
 
-Before generating any content, the AI should complete the following internal analysis:
+**Tier 1 — Psychological Frameworks (§3A.7)** is mandatory for every key. The PSYCH_PROFILES data structure in the generator pre-loads the four-level psychological derivation for each specific combination: stem cognitive mechanism (Level 1), band intensity and regulation (Level 2), tgPattern structural condition and shadow (Level 3), catalyst SDT motivational gap (Level 4). This data is injected directly into the generation prompt — the model reads it, not queries it. Zero hallucination risk.
 
-```
-1. What is this element's behavioral default? (See Step 1 table above)
-2. How does the band modify that default? (More potent? More directed? More conditional?)
-3. What structural condition does the tgPattern create, and what does that do to the character?
-4. What is the single gift this combination reliably produces?
-5. What is the single edge — and can I trace it back to the same quality as the gift?
-6. What has this chart been seeking, and what does it change when it arrives?
-```
+**Tier 2 — Classical Sources (Part C)** is selective and gated. The CLASSICAL_SOURCES and STEM_CLASSICAL data structures inject only the SOURCE-FROM flagged principles for each key's tgPattern and stem. Maximum two additional behavioral claims from the universal tgPattern principle; maximum three from a stem-specific conditional. If Tier 1 already covers what a classical principle produces, confirm and move on. For stems without a STEM_CLASSICAL entry, no classical injection occurs — Tier 1 is sufficient. The hallucination gate is the sourcing flag: EXCLUDE and VERIFY-ONLY principles never generate behavioral claims.
 
-This analysis is never written into the reading — it is the reasoning that produces the reading.
+**Tier 3 — Language Filter (Part D system prompt)** is mandatory for every key. It runs last. Translates the Tier 1 + Tier 2 inventory into user-facing language. Does not generate content — selects, compresses, translates through the composition order, three-layer model, and all Part D guardrail rules.
 
-#### Composition order (write in this order, not schema order)
+**Composition order** (write in this sequence, not schema order): elemental register calibration → p1 → p2 → gifts → edges → landscape → twoAM → teaser written last. The complete operational instructions live in Part D. Part C carries the classical source specifications. §3A.7 carries the psychological framework detail. This section is the map; those sections are the territory.
 
-The schema order is teaser → p1 → p2 → gifts → edges. The composition order is different:
-
-**1. Derive the core behavioral portrait (write p1 first)**
-p1 is the cognitive/perceptual portrait — how this person processes the world. It should be derivable from the stem's behavioral default + the band modifier. Write the behavioral fact, not the quality label.
-
-- Wrong: "You are analytical and precise."
-- Correct: "Your processing runs through accuracy before anything else engages. The assessment happens automatically — before the social read, before the emotional response."
-
-**2. Derive the motivational portrait and catalyst (write p2 second)**
-p2 describes what drives the person internally and names the catalyst as formative orientation. p2 should never repeat the territory of p1. p1 is the perceptual/cognitive portrait; p2 is the motivational/aspirational portrait.
-
-**3. Derive the gifts from the structural logic (gifts third)**
-Gifts are not generic archetype virtues — they are the specific capabilities this stem × band × tgPattern combination makes structurally reliable. Ask: what does this particular structural condition make this person consistently good at?
-
-Test: would this gift be different for 庚_concentrated_pure_Fire vs. 庚_concentrated_pressured_Fire? If not, it's not specific enough.
-
-**4. Derive the edges as the same gift under wrong conditions (edges fourth)**
-The classical principle is absolute: the behavioral edge is always the same quality as the behavioral gift, expressed under a specific structural condition that makes it costly.
-
-- 庚_concentrated_pure_Fire gift: the precision is unmodulated and reliable
-- 庚_concentrated_pure_Fire edge: the precision is unmodulated and inflexible
-
-Never invent a separate weakness. Always show the gift turning against the person.
-
-**5. Write the teaser last**
-The teaser is the recognition moment — the two or three sentences that make the person reading feel immediately and precisely seen. Write it last because it should crystallize the reading, not introduce it. The best teasers capture the behavioral default in a scene, not an abstraction.
-
-- Wrong: "You are a Yang Metal Blade archetype at concentrated energy."
-- Wrong: "Precision is your most defining quality."
-- Correct: "Before you say a word, the room recalibrates. Precision at this concentration has a quality people sense before it speaks — not a trait you cultivated, but the structural default of Yang Metal running at full charge."
-
-The teaser should pass the recognition test: a person with this structural combination should read the first sentence and feel their chest tighten with the accuracy of it.
+**Quality review** lives in Part E — the 20-gate table is the single authoritative post-generation standard for batch review.
 
 ---
 
-### PART C: Classical Sources to Verify Against
+### PART C: Classical Sources — Tiered Sourcing Protocol
 
-For each tgPattern, the following classical principles provide the verification standard. If a generated reading contradicts these, it is wrong.
+Each tgPattern entry below carries explicit sourcing flags. These flags gate how the generator uses each principle:
 
-#### Verifying `pure` templates
-**Source: Di Tian Sui (滴天髓), 任铁樵 commentary**
-Key principle: 身旺有泄者，通明达理；无泄者固执 ("When the strong self has output channels, the person is clear-minded and reasonable; without output, they are fixed and rigid.")
+- **SOURCE-FROM** — directly applicable to this key. Run the derivation question: *"What specific behavioral claim does this produce for this combination?"* Add the result to the Tier 2 inventory.
+- **VERIFY-ONLY** — interpretive extension. Confirms Tier 1 content; shapes how you write, not what you claim. Do not derive behavioral claims from these.
+- **EXCLUDE** — not anchored in this Bible's sourcing standard. Do not use regardless of general BaZi knowledge.
 
-Verify: Does the reading capture the difference between the gift (concentrated character, reliable and consistent) and the edge (that same concentration without external check, becoming rigidity)? The catalyst for a pure chart should be read as the channel that would create 通明达理 from what is currently 固执.
+If no SOURCE-FROM principle yields a behavioral claim beyond your Tier 1 inventory, proceed with Tier 1 only. That is a valid outcome.
 
-#### Verifying `rooted` templates
-**Source: 子平真诠 (Zi Ping Zhen Quan), 沈孝瞻**
-Key principle: 印旺生身，乃命主之所喜 ("The dominant Resource generating the self is what the chart-holder welcomes.") But critically: excess Resource smothers the Output (印多夺食).
+---
 
-Verify: Does the reading capture the psychological quality of being held/supported vs. being nourished-into-dependency? The reading should not be flatly positive. The deep support is real — and the question of what happens when that support is removed, or what the person does when they haven't developed their own independent roots, should be present in the edge.
+#### `pure` — Self-Element Dominant
 
-#### Verifying `flowing` templates
-**Source: 渊海子平, 三命通会 (chapter 伤官/食神性情)**
-Key principle: 食神代表秀气，生活悠闲，福气深厚 ("Food God represents elegant Qi — leisurely life, deep blessings.") But also: 食神过旺则泄身太过 ("Excess Food God over-exposes the self.")
+**SOURCE-FROM: Di Tian Sui (滴天髓), 任铁樵 commentary**
+Principle: 身旺有泄者，通明达理；无泄者固执
+("When the strong self has output channels, the person is clear-minded and reasonable; without output, they are fixed and rigid.")
 
-Verify: Does the reading capture the quality of effortless, non-assertive output? Flowing is not the same as expressive — the output doesn't push against anything; it simply arrives. The gift is natural abundance; the edge is over-extension into what feels natural without checking whether the foundation is ready.
+Derivation question: what does 固執 specifically mean for this combination?
+→ The verdicts have settled. Not actively resisting revision — simply no longer in motion. Like conclusions that have been correct long enough not to need re-examination. This is more precise than "rigid" or "stubborn": the assessment has settled the way earth settles. This sharpens the Tier 1 schema consolidation finding (Markus).
 
-#### Verifying `expressive` templates
-**Source: 子平真诠 (章: 论伤官), 滴天髓 case studies**
-Key principle: 伤官见官，为祸百端 ("When Hurting Officer meets Officer, ten thousand disasters arise") — the output is structurally in tension with authority/framework. Also: 伤官者，聪明秀气太过 ("Hurting Officer people are excessively brilliant and refined").
+Catalyst derivation: what does 通明達理 tell us about what the output catalyst actually does?
+→ The catalyst doesn't complete the archetype or make it warmer. It makes the core quality *communicable and directable to others* — 通明達理 = clear-minded and principled/reasonable. The precision or capability stops being self-contained. This is a Tier 2 addition to the p2 relief clause that Tier 1 SDT alone doesn't produce in this specific form.
 
-Sister template check: Compare the generated `expressive` template against its `flowing` sister. They must describe the same structural relationship (DM generates dominant element) but different modes. Flowing gives freely; expressive asserts. The gifts will overlap in domain but differ in quality of expression. The edges will differ significantly — flowing's edge is over-extension; expressive's edge is the specific cost of brilliance that cannot be contained.
+**VERIFY-ONLY: Bible interpretive claim**
+"The catalyst for a pure chart should be read as the channel that would create 通明达理 from what is currently 固执." This follows from the classical principle and is sound, but it is the Bible's interpretation, not a classical quotation. Use as framing; do not derive behavioral claims from it directly.
 
-Verify: Does the reading capture output that carries tension rather than ease? Is the intelligence described as operating ahead of its environment rather than in harmony with it?
+---
 
-#### Verifying `forging` templates
-**Source: 三命通会 (章: 论财), 渊海子平**
-Key principle: 财为我克，为妻妾，为财帛 ("Wealth is what I control — wife, resources, tangible results.") The behavioral implication: the person's energy goes toward directing what they can make productive.
+**SOURCE-FROM (Metal stems only — 庚 and 辛): 穷通宝鉴 tiaohou framework for 庚金**
 
-Verify: Does the reading capture orientation toward practical outcome and productive direction? Does the edge capture the specific shadow of the forging pattern — that the drive toward control can become unable to let things unfold without intervention?
+*Sourcing note: The behavioral principle below is directly supported by 穷通宝鉴's tiaohou framework for 庚 Metal (丙火为先，壬水为辅 — "Yang Fire first, Yang Water as support"). The specific formulations 金逢火炼方成器 and 金逢火炼方显锋芒 are commentary-register phrasings that accurately characterize the tiaohou principle; they are not verbatim quotations from the original text. Both the concept and its derivations are SOURCE-FROM standard. The exact phrasing is commentary.*
 
-#### Verifying `tested` templates
-**Source: 子平真诠 (章: 论正官)**
-Key principle: 正官端正，主人沉稳，名声好，规则意识强 ("Direct Officer upright — the person is calm and settled, with good reputation and strong sense of rules.") Also: 官轻则贵，官重则压 ("Light Officer ennobles; heavy Officer presses down.").
+**Apply only when stem = 庚 or 辛.** Skip for all other stems — this is element-specific.
 
-Sister template check: Compare the generated `tested` template against its `pressured` sister. The structural relationship is identical (dominant element controls DM) but the mode of authority differs fundamentally. Tested operates within a framework the person can respect; pressured operates without granting permission. The gifts will overlap (both produce strong characters), but the nature of achievement differs: tested achieves through demonstrated quality within structure; pressured achieves by proving the structure wrong.
+Principle A: 金逢火炼方成器 — "Metal meeting the tempering of Fire becomes an instrument."
+Core concept: 素材 (raw material) vs. 成器 (an instrument shaped for a specific purpose). Before Fire, 庚 Metal is fully formed and genuinely capable — but unspecified as to use. After Fire's tempering: shaped toward a specific purpose. Not completed. Specified.
 
-Verify: Does the reading capture shaped-by-structure rather than shaped-by-pressure? Is the recognition earned through legitimate channels, not through survival?
+Derivation question A: what does 成器/素材 add that 通明達理 doesn't already cover?
+→ 通明達理 says Fire makes the precision communicable. 成器/素材 says something categorically different: the precision was always complete, and Fire does not add to it — Fire *specifies* what it is an instrument for. These are two different claims. 通明达理 is about quality of expression. 成器 is about identity of purpose. The Tier 2 addition: the archetype is not seeking direction in the way a person without direction seeks one. It is seeking the specific purpose that would convert its completeness from general capability into a particular instrument. This sharpens the twoAM and the p2 relief clause with a precision that neither Tier 1 SDT nor 通明達理 alone can produce.
 
-#### Verifying `pressured` templates
-**Source: 滴天髓 (章: 论七杀), 任铁樵 512 命例**
-Key principle: 七杀制伏得宜，反为权贵 ("When Seven Killings are properly controlled, they produce genuine authority and power.") And crucially: 七杀为患，制者必须有力 ("When Seven Killings cause trouble, the remedy must be powerful.").
+Principle B: 金逢火炼方显锋芒 — "Metal meeting the tempering of Fire reveals its sharp edge."
+Core concept: 显 (reveals) is the operative word. Not creates — reveals. The edge existed before Fire arrived. Fire makes it visible and purposefully deployed.
 
-Ren Tieqiao's case studies for Seven Killings charts are the most stark in all five texts — they include both the highest achievers and the most damaged people. This is structural: the same pressure that refines some charts destroys others.
+Derivation question B: what does 显 add to the reading?
+→ Fire is not the source of the capability — it is the condition under which the capability becomes undeniable to others and directionally specific for the person. The archetype is not waiting for Fire to make it capable. It is waiting for Fire to make what is already real *manifest as something specific*. This changes the relief clause meaningfully: relief is not "becoming capable" or even "being recognized." Relief is the precision finding a target it fully believes in — one it didn't have to generate from within itself alone.
 
-Sister template check: The `pressured` template should read as a more extreme version of character shaping. Where `tested` produces someone shaped by authority they respect, `pressured` produces someone shaped by force that doesn't distinguish respect from irrelevance. The gift is harder-won; the edge is more costly.
+**Combined Metal-stem Tier 2 inventory from these principles:**
+1. The archetype is 素材 — fully formed, genuinely capable, unspecified as to purpose. Fire converts 素材 to 成器 by specifying, not by adding. *[Use in p2 relief clause and twoAM.]*
+2. The edge was already real before the catalyst arrived. What changes is its manifest specificity. *[Use in teaser and landscape — "when Fire arrives, the edge stops being potential and starts being purposeful."]*
+3. The structural tension for Metal pure is not "I lack capability" nor "I lack direction" — it is "I am formed and complete and have not yet been specified toward a purpose that fully deserves this." *[This is the specific twoAM encoding: more precise than what SDT or 通明達理 alone produce.]*
 
-Verify: Does the reading capture force without permission? Does the gift reflect something genuinely earned from pressure rather than structure? Does the edge reflect what happens when the chart doesn't have the resources to channel the force productively?
+**Maximum Tier 2 additions from this entry: 3 behavioral claims for Metal stems (素材/成器 framing, 显 framing, combined twoAM encoding). Do not exceed this ceiling.**
+
+---
+
+**SOURCE-FROM (Yang Wood stem only — 甲): 穷通宝鉴 + 三命通会 tiaohou framework for 甲木**
+
+*Sourcing note: 甲木成材 is a consistent formulation across 穷通宝鉴's seasonal analysis and 三命通会's 十干论 chapters. The principle 甲木喜庚金克制，方能成材 is concept-reliable across these sources; the exact phrasing is commentary-register rather than verbatim quotation, same sourcing status as the Metal entries.*
+
+**Apply only when stem = 甲.** Skip for all other stems including 乙 — this is Yang Wood specific.
+
+Principle: 甲木喜庚金克制，方能成材 — "甲 Wood welcomes 庚 Metal's shaping; then it becomes useful timber."
+Core concept: 原木 (raw growth) vs. 成材 (timber shaped into useful form). Before the catalyst's shaping force, 甲 Wood's growth is genuine, structural, and unlimited — but unformed as to what it will become. The shaping force doesn't stop the growth; it defines what the growth consolidates into.
+
+Derivation question: what does 成材 add that the Tier 1 Oak profile and SDT autonomy need don't already cover?
+→ Tier 1 SDT describes the Oak reaching toward meaningful purpose — forward projection as structural fact. 成材 adds the specific mechanism: the Oak's growth without a shaping force *spreads* rather than *consolidates*. The reach is real and relentless and has not yet become anything that holds. This is categorically different from "lacks direction" — the direction is always present. What is absent is the force that converts reaching into something with defined form and durable structure. The Tier 2 addition: the Oak is not seeking purpose in the abstract. It is seeking the force that makes reaching consolidate into something that stands on its own — something that was always going to grow, now finally grown into what it specifically is.
+
+**甲-stem Tier 2 inventory from this principle:**
+1. The archetype is 原木 — growing, real, structurally forward. The catalyst converts 原木 to 成材 by shaping, not by initiating. *[Use in p2 relief clause: the catalyst doesn't give the Oak direction, it defines what the reaching consolidates into.]*
+2. Without the shaping force, the growth spreads rather than holds. The reach is genuine; the form is not yet defined. *[Use in edge mechanism — specifically for `pure` and `flowing` 甲 keys where no natural counterforce shapes the output.]*
+3. twoAM encoding: the structural tension is not "I don't know where I'm going" — it is "I have been growing toward something real for a long time, and I haven't yet found the force that defines what it becomes." *[More precise than Tier 1 alone for 甲 pure/flowing keys.]*
+
+**Maximum Tier 2 additions: 3 behavioral claims for 甲 stem. Hard ceiling.**
+
+---
+
+**SOURCE-FROM (Yang Earth stem only — 戊): 穷通宝鉴 + 滴天髓 tiaohou framework for 戊土**
+
+*Sourcing note: 戊无水则燥 appears consistently in 滴天髓's Earth analysis. 春土无火则寒 is a standard tiaohou observation for Earth in Wood-dominant months from 穷通宝鉴. Both are concept-reliable; exact phrasing is commentary-register. Crucially, these two principles together produce the catalyst wound differentiation for 戊 — the behavioral distinction between Fire and Water catalyst versions of the same base archetype.*
+
+**Apply only when stem = 戊.** Skip for all other stems including 己.
+
+Principle A: 戊无水则燥 — "戊 without Water becomes arid."
+Core concept: 燥 (arid/dry) is the specific condition. Not cold, not dark, not depleted in the generic sense — arid. The Mountain is present and solid and structurally intact. But nothing grows on it. The fertility is absent, not the capacity.
+
+Derivation question A: what does 燥 produce for the Water catalyst version of 戊?
+→ The Mountain's generative capacity is structurally dependent on the moistening element. Without Water, the Mountain holds — but it holds as arid ground. Everything in order. Nothing alive. The wound is not relational (not "am I seen") and not directional (not "where am I going") — it is generative: "is anything growing." This is the specific twoAM encoding for 戊_X_X_Water keys: *"Everything is in order. I'm not sure anything is alive."* Tier 1 SDT competence need approximates this but cannot produce the specific 燥 quality — the Mountain that is present, proven, and producing nothing.
+
+Principle B: 春土无火则寒 — "Spring Earth without Fire is cold."
+Core concept: 寒 (cold) is the specific condition when Fire is absent for 戊. The Mountain in Wood-dominant season (Spring — controlled, tested) without Fire is not arid — it is cold. Present and solid and holding, but below temperature. The generative capacity exists structurally but the warming element that activates it hasn't arrived.
+
+Derivation question B: what does 寒 produce for the Fire catalyst version of 戊?
+→ The Mountain is cold rather than arid — a categorically different wound. Cold Mountain needs warmth to activate; arid Mountain needs fertility to generate. The Fire wound for 戊 is not "I need to be seen" (that's a relational framing) — it is activation: the holding has been ongoing and real and the warming that converts holding into giving hasn't arrived. The twoAM for 戊_X_X_Fire: *"I've been holding this for so long that I can't remember who decided it was mine to hold."* The holding is the burden; Fire would convert it into giving.
+
+**戊-stem Tier 2 inventory from these principles — catalyst-conditional:**
+
+*For Water catalyst keys (戊_X_X_Water):*
+1. 燥 (arid) framing: Mountain is present and solid and intact — but nothing grows. Wound is generative, not relational. *[Use in twoAM: "Everything is in order. I'm not sure anything is alive." Use in p2 relief clause: Water makes the ground fertile, not warmer.]*
+2. Catalyst wound: "Is anything growing?" not "Am I seen?" — specifically generativity, not recognition. *[Differentiates Water catalyst from Fire catalyst at wound level.]*
+
+*For Fire catalyst keys (戊_X_X_Fire):*
+1. 寒 (cold) framing: Mountain is present below temperature — holding without the warming that converts holding into giving. Wound is activation, not fertility. *[Use in twoAM: holding-burden framing. Use in p2 relief clause: Fire warms and activates, doesn't specify.]*
+2. Catalyst wound: "Who decided this was mine to hold?" not "Is anything growing?" — specifically the unacknowledged weight of holding, not the absence of yield. *[Differentiates Fire catalyst from Water catalyst at wound level.]*
+
+**Maximum Tier 2 additions: 2 behavioral claims per catalyst version. Apply only the claims relevant to the catalyst being generated. Hard ceiling.**
+
+---
+
+**SOURCE-FROM (Yang Water stem only — 壬): 穷通宝鉴 tiaohou framework for 壬水**
+
+*Sourcing note: 壬水奔流，无土则泄 is consistent with 穷通宝鉴's treatment of 壬 Water and 滴天髓's Water chapter analysis. The specific formulation is commentary-register paraphrase of the tiaohou principle (戊土为堤，制壬奔流 — "戊 Earth as embankment, controlling 壬's powerful flow"). Concept-reliable; exact phrasing is commentary.*
+
+**Apply only when stem = 壬.** Skip for all other stems including 癸.
+
+Principle: 壬水奔流，无土则泄 — "壬 Water flows powerfully; without Earth it disperses."
+Core concept: 泄 (dispersal) is the operative condition. When 壬 lacks the Earth container, the depth doesn't simply go unused — it *disperses*. The intelligence is genuine and vast and flowing outward without coherence. Others can't engage with dispersed depth regardless of how real it is.
+
+Derivation question: what does 泄 add that Tier 1's SDT competence need and Ocean profile don't already cover?
+→ Tier 1 describes the Ocean craving contexts that honor the full depth — retreats from shallow exchanges rather than simplifying. The competence need frames this as the Ocean withholding because the context is insufficient. 泄 adds the structural mechanism of what happens when the right container *never arrives*: the depth doesn't deepen in place — it disperses outward. The Ocean without Earth doesn't become shallower; it becomes unfocused. The intelligence is real and abundant and flows in all directions without concentrating into something others can engage with. This is a specific behavioral claim: the wound is not "my depth goes unrecognized" — it is "my depth disperses rather than concentrates, and I experience this as inability to focus rather than as social exclusion." The Tier 2 addition: Earth catalyst for 壬 is not about recognition or containment in the abstract — it is about the specific conversion of dispersal into depth that holds shape long enough for others to reach it.
+
+**壬-stem Tier 2 inventory from this principle:**
+1. 泄 (dispersal) framing: without Earth, 壬's depth flows outward in all directions — the intelligence is genuine but unfocused. Not shallow, unfocused. *[Use in edge mechanism: the specific experience of 壬 without Earth catalyst is not "I feel unseen" but "I can't concentrate what I know into something that lands."]*
+2. Earth catalyst specificity: Earth converts 泄 to 堤 — embankment that gives flow a defined channel. Relief is not recognition; it is the experience of the depth finding coherent form. *[Use in p2 relief clause and landscape: thrives where Earth catalyst is present — defined problems, contained scope, structured engagement.]*
+3. twoAM encoding: the structural tension for 壬 without Earth is not "others don't honor my depth" — it is "what I know disperses before I can make it coherent enough to be useful." *[More precise than Tier 1 alone for 壬 keys where Earth is the catalyst.]*
+
+**Maximum Tier 2 additions: 3 behavioral claims for 壬 stem. Hard ceiling. Apply only when Earth is the catalyst; for non-Earth catalysts, use Tier 1 only.**
+
+---
+
+#### `rooted` — Resource/Seal Dominant
+
+**SOURCE-FROM: 子平真诠 (Zi Ping Zhen Quan), 沈孝瞻**
+Principle: 印旺生身，乃命主之所喜 ("The dominant Resource generating the self is what the chart-holder welcomes.")
+
+Derivation question: what does this tell us about the character of the support?
+→ The support is welcomed — not just present but genuinely received. This person operates from a position of being held, not merely not-struggling. The behavioral quality is confidence-from-ground rather than confidence-from-self-construction.
+
+Second principle: 印多夺食 ("Excess Resource smothers Output.")
+
+Derivation question: what does this add to the edge for rooted charts?
+→ The shadow is not only dependency. The more specific edge: the support structure that enables capability can, in excess, prevent the independent expression of that capability. The rooted chart's output channels are vulnerable to being smothered by the very source of their nourishment. This is a Tier 2 addition — the specific mechanism of over-reliance that Tier 1's attachment secure base sourcing doesn't fully specify.
+
+**VERIFY-ONLY: Bible interpretive claim**
+"The question of what happens when that support is removed, or what the person does when they haven't developed their own independent roots, should be present in the edge." This is interpretive — valid framing for the Watch for signal but not a classical derivation.
+
+---
+
+#### `flowing` — Food God Dominant (same-polarity output)
+
+**SOURCE-FROM: 渊海子平, 三命通会 (chapter 食神性情)**
+Principle: 食神代表秀气，生活悠闲，福气深厚 ("Food God represents elegant Qi — leisurely life, deep blessings.")
+
+Derivation question: what does 秀气 specifically produce as a behavioral claim?
+→ The output is *elegant and non-assertive* — refined rather than demonstrative. The person does not produce to be seen; production is what happens when they are fully themselves. This is more specific than "generous" or "naturally productive": it has a quality of effortless refinement that others receive without the producer announcing the giving.
+
+Second principle: 食神过旺则泄身太过 ("Excess Food God over-exposes the self.")
+
+Derivation question: what is the specific edge mechanism?
+→ The over-extension into what feels natural without checking whether the foundation is ready. When output becomes structurally automatic, the self that is producing doesn't monitor whether what's being produced is sustainable. This is the specific flowing edge — not that the output is wrong, but that it can exceed the foundation.
+
+**VERIFY-ONLY: Sister template distinction**
+"Flowing gives freely; expressive asserts." This is the Bible's analytical distinction between 食神 and 伤官, consistent with classical descriptions but not a direct quotation. Use as guidance for differentiating sister templates.
+
+---
+
+#### `expressive` — Hurting Officer Dominant (opposite-polarity output)
+
+**SOURCE-FROM: 子平真诠 (chapter: 论伤官), 滴天髓 case studies**
+Principle: 伤官者，聪明秀气太过 ("Hurting Officer people are excessively brilliant and refined.")
+
+Derivation question: what does 太过 (excessive / beyond measure) produce as a behavioral claim?
+→ The brilliance operates *ahead of its environment* — the intelligence exceeds the framework available to receive it. This is not willful excess; it is structural emergence. The output cannot be contained by existing structures because it genuinely exceeds them.
+
+Second principle: 伤官见官，为祸百端 ("When Hurting Officer meets Officer/authority, ten thousand disasters arise.")
+
+Derivation question: what does the structural conflict with authority produce behaviorally?
+→ The output is in structural tension with any framework that tries to contain or evaluate it by conventional standards. This is not rebellion — it is the specific pattern where the output's quality is inseparable from its friction with containment. The gift and the edge are the same thing in different conditions.
+
+**VERIFY-ONLY: Sister template comparison**
+The flowing vs. expressive distinction in gift domain overlap but quality-of-expression difference is the Bible's analytical guidance. Classical texts distinguish 食神 and 伤官 by polarity and quality, but the specific "gifts overlap in domain, edges differ significantly" framing is interpretive.
+
+---
+
+#### `forging` — Wealth Element Dominant
+
+**SOURCE-FROM: 三命通会 (chapter: 论财), 渊海子平**
+Principle: 财为我克，为妻妾，为财帛 ("Wealth is what I control — wife, resources, tangible results.")
+
+Derivation question: what does 我克 (I control/overcome) produce as a behavioral claim?
+→ The person's intelligence goes toward directing what can be made productive. Control and acquisition are structural orientations, not cultivated habits. The energy naturally flows toward making things work, converting potential into outcome.
+
+**VERIFY-ONLY: 财多身弱 (wealth heavy, self weak)**
+Mentioned in Part A's Step 3 description. Valid background for understanding the depletion dynamic — when the drive toward controlling external resources becomes excessive, the self doing the directing depletes. Use as framing for the edge interior cost, not as a derivable behavioral claim.
+
+---
+
+#### `tested` — Direct Officer Dominant (opposite-polarity authority)
+
+**SOURCE-FROM: 子平真诠 (chapter: 论正官)**
+Principle: 正官端正，主人沉稳，名声好，规则意识强 ("Direct Officer upright — the person is calm and settled, with good reputation and strong sense of rules.")
+
+Derivation question: what does 沉稳 (calm and settled) and 规则意识强 (strong rule-consciousness) produce as a behavioral claim?
+→ The character is shaped by structure it has endorsed. Recognition comes through demonstrated quality within frameworks the person accepts as legitimate. The calm and settledness are not natural ease — they are the product of operating within a tested framework that has held.
+
+Second principle: 官轻则贵，官重则压 ("Light Officer ennobles; heavy Officer presses down.")
+
+Derivation question: what does this produce as the edge mechanism?
+→ The Watch for signal is the moment when the authority becomes excessive or reveals itself as insufficient. When the Officer is heavy and illegitimate, it presses rather than enables — and the chart that has been earning recognition through legitimate channels loses its orientation point. The edge is not that the person is weak; it is that the character requires worthy authority to access its best functioning.
+
+**VERIFY-ONLY: Sister template comparison**
+"Tested earns through structure, pressured proves despite it." Valid framing for differentiating sister templates; not a classical quotation.
+
+---
+
+#### `pressured` — Seven Killings Dominant (same-polarity authority)
+
+**SOURCE-FROM: 滴天髓 (chapter: 论七杀), 任铁樵 commentary**
+Principle: 七杀制伏得宜，反为权贵 ("When Seven Killings are properly controlled/channeled, they produce genuine authority and power.")
+
+Derivation question: what does 制伏得宜 (properly channeled) require as a behavioral condition?
+→ The pressured chart requires significant internal or external resources to channel the force productively. The achievement is genuine only when the pressure has been successfully met rather than simply survived. This is harder-won than tested — there is no permission granted, no framework that ennobles.
+
+Second principle: 七杀为患，制者必须有力 ("When Seven Killings cause trouble, the remedy must be powerful.")
+
+Derivation question: what does 制者必须有力 (the remedy must be powerful) produce as a behavioral claim?
+→ The chart cannot channel this pressure with ordinary resources. The Watch for signal is the moment when the chart's resources are insufficient to channel the force — when the pressure that refines in good conditions damages in depleted ones.
+
+**SOURCE-FROM: 任铁樵 case studies (512 命例)**
+These case studies include both the highest achievers and the most damaged people among Seven Killings charts. This is directly applicable as a behavioral derivation:
+→ Same structural condition, categorically different outcomes. The pressured chart's edge is not a tendency toward difficulty — it is a genuine bifurcation. The pressure either produces something exceptional or it damages what it was supposed to refine. The reading must not soften this into "challenges" — it is a real bifurcation, not a developmental problem.
+
+**VERIFY-ONLY: Bible interpretive claim**
+"The `pressured` template should read as a more extreme version of character shaping." This is the Bible's analytical framing, following from the classical case studies. Use as tonal guidance, not as a derivable behavioral claim.
 
 ---
 
 ### PART D: The Complete System Prompt
 
-Use this verbatim for every batch generation call. It encodes all reasoning from Parts A–C in generation-ready form.
+Use this verbatim for every batch generation call. It encodes all reasoning from Parts A–C and integrates the v2.0 User Feedback Guardrail (derived from multi-source cold-reader testing, April 2026).
 
 ```
-SYSTEM PROMPT — ELEMENTUM ARCHETYPE READING GENERATOR v2.0
+SYSTEM PROMPT — ELEMENTUM ARCHETYPE READING GENERATOR v3.0
 
 You are generating identity readings for Elementum, a BaZi-based spiritual guidance 
 app for Western users with no Chinese metaphysics background.
 
 Each reading is derived from a compound archetype key encoding four structural dimensions:
-  stem     = Day Master (who this person is at their elemental core)
-  band     = Energy concentration (how the core expresses under structural conditions)
+  stem      = Day Master (who this person is at their elemental core)
+  band      = Energy concentration (how the core expresses under structural conditions)
   tgPattern = Dominant Ten Gods relationship (what structural force shapes this character)
   catalyst  = The element this chart is structurally oriented toward
+
+═══ THE NORTH STAR — INTERNALIZE BEFORE ANYTHING ELSE ═══
+
+PRODUCT METAPHOR (never state in the reading — always internalize):
+  This reading is a User Manual for a specific human engine. It tells the user:
+  how their engine works, what its warning lights mean, and how to get peak 
+  performance from it. The system is RECALLING — not predicting, not diagnosing.
+  It sounds like it already knows. Because structurally, it does.
 
 THE CARDINAL RULE: Every claim must be derivable from the structural logic of the key.
 Not observation. Not metaphor. Structural derivation. The behavioral portrait is PRODUCED
 by the combination, not described from outside it.
+
+THE THREE-PART USER TEST — every reading must pass all three:
+  (a) COMPREHENSION: Can the user explain the core insight back in their own words?
+  (b) RESONANCE: Do they feel emotionally recognized — seen in a way that's true 
+      but rarely named?
+  (c) ACTION: Can they identify one specific thing to watch for or do differently?
+  If only (b): rewrite. Resonance without comprehension or action is aesthetic, not useful.
+
+TARGET VOICE (internalize this ratio):
+  60% Grounded Interpreter — "here is how your pattern works, where it helps, where 
+      it costs you"
+  25% Compassionate Mirror — "you may recognize this if..." (gives user agency, 
+      reduces over-claiming)
+  15% Poetic Oracle — signature moments only; earned, not default
+
+BANNED VOICE MODES:
+  Pure Oracle (over-certainty, declaration without ground — when it misses, it feels 
+    manipulative)
+  Cold Observer (diagnosing from outside — user feels observed, not accompanied)
+  Fatalistic Narrator (this is your fate, not your pattern)
 
 ═══ STEP 0 — ELEMENTAL VOICE TEMPERATURE (DO THIS BEFORE ANYTHING ELSE) ═══
 
@@ -1466,6 +1637,8 @@ STEP 2 — BAND MODIFIER
                 more brittle simultaneously. Same quality, no modulation.
   balanced:     directed rather than diffuse — found how to use what it is, working with it.
   open:         intact but context-sensitive — same capability, high environment variance.
+                For open archetypes: the gap between good-fit and poor-fit conditions is
+                categorical, not incremental. Name the specific environment requirement.
 
 STEP 3 — TG PATTERN: THE CHARACTER-SHAPING STRUCTURAL FORCE
 This is the deepest differentiation. Apply the following classical derivations:
@@ -1477,7 +1650,8 @@ This is the deepest differentiation. Apply the following classical derivations:
 
   rooted:     The element that generates the DM dominates. The person draws from a well
               they didn't dig. Deep support, backing, nourishment that arrives. Shadow: 
-              dependence on support structures that haven't been examined.
+              the crucial unanswered question — what does this capability look like 
+              without the ground? The Blade has never fully had to find out.
 
   flowing:    DM generates dominant element (same polarity). Output as natural state —
               秀气 (elegant Qi). The person produces because it's what happens when they
@@ -1497,7 +1671,8 @@ This is the deepest differentiation. Apply the following classical derivations:
   tested:     Opposite-polarity authority dominates. Shaped by a structure the person can
               respect. Earns recognition through legitimate channels. Requires worthy
               authority to function at best. Shadow: when authority is absent or corrupt,
-              orientation point is lost.
+              orientation point is lost in ways others don't expect from something so 
+              apparently solid.
 
   pressured:  Same-polarity authority dominates (Seven Killings). Force without permission.
               Doesn't moderate itself. Doesn't grant recognition. Either produces exceptional
@@ -1509,6 +1684,115 @@ The catalyst is not what the person is missing. It is what the chart has always 
 organized toward — what changes everything when it arrives, what they have been reaching
 toward before they had a name for it. Frame as: "this is what [archetype] has been seeking
 before it had a language for it" — never as a deficit.
+
+CATALYST WOUND DIFFERENTIATION — when same stem+band+tgPattern exists with different
+catalysts, the wound must be categorically different, not just labeled differently:
+  Fire catalyst   → relational wound: warmth, recognition, acknowledgment
+  Water catalyst  → generative wound: fertility, yield, "is anything alive"
+  Wood catalyst   → directional wound: purpose, momentum, committed direction
+  Metal catalyst  → structural wound: integrity, form, what holds
+  Earth catalyst  → grounding wound: stability, being held, reliable terrain
+The twoAM for each catalyst version must encode a categorically different question.
+
+═══ PSYCHOLOGICAL GROUNDING (apply before writing any content) ═══
+
+Each compound archetype key encodes personality at four distinct psychological levels.
+Use the framework in Bible §3A.7 to ground the reading in modern psychology.
+Do NOT map one-to-one (e.g., Wealth = Conscientiousness). Use multiple frameworks as 
+reference pools and synthesize organically.
+
+FOUR LEVELS — identify each before writing:
+
+LEVEL 1 — COGNITIVE/RELATIONAL ORIENTATION (stem):
+What is this person's default mode of processing and engaging with reality?
+Use the Jungian cognitive function analog + Big Five supporting profile from §3A.7B.
+Key: describe the MECHANISM, not the trait category.
+庚 example: "Evaluative by structural default (Ti analog) — assessment runs before social
+or emotional processing begins. This is not choice; it is the first cognitive event."
+
+LEVEL 2 — INTENSITY AND REGULATION (band):
+How fully and consistently does this orientation express?
+concentrated = runs regardless of context (trait activation independent of cues)
+balanced = directed and integrated (analogue of individuation / identified regulation)
+open = context-sensitive, high environmental variance (person-environment fit critical)
+
+LEVEL 3 — STRUCTURAL FORCE (tgPattern):
+What structural condition is shaping this character?
+Use the tgPattern psychological profiles from §3A.7C:
+pure = one-sidedness (Jung), low integrative complexity as structural condition
+rooted = secure base provision (Attachment), externally anchored strength
+flowing = intrinsic motivation (SDT), Csikszentmihalyi flow state as default
+expressive = reactive creativity, thwarted autonomy → assertive output (SDT/Forster)
+forging = achievement motivation (McClelland nAch), competence-directed energy
+tested = normative compliance, integrated regulation (SDT), secure-base-to-authority
+pressured = adversarial growth (PTG), hardiness under unmoderated pressure
+
+LEVEL 4 — MOTIVATIONAL GAP (catalyst):
+What has this chart been organized around seeking?
+Use the catalyst SDT mapping from §3A.7E.
+Frame as formative orientation, not deficit.
+
+MULTI-DIMENSIONALITY REQUIREMENT:
+Every template must address all four levels:
+1. Cognitive: how this person processes (mechanism-language, not trait-language)
+2. Motivational: what drives them + what the chart seeks
+3. Relational: how this character lands for others
+4. Temporal: what has been built over time and what the formative absence created
+
+VOCABULARY REQUIREMENTS (§3A.7F):
+— Structural register: names the mechanism ("runs before anything else engages")
+— Experiential register: names the felt quality from inside ("others feel evaluated")
+— Relational register: names how it lands ("before you say a word, the room recalibrates")
+Every content block needs at least structural + experiential. Teaser needs all three.
+
+NEVER: trait labels ("you are analytical"), tendency language ("you tend to be"),
+horoscope frame ("you are destined for"), vague causality ("your X gives you Y")
+
+═══ LANGUAGE RULES (apply to every field) ═══
+
+THE THREE-LAYER MODEL — mandatory ratio:
+  Layer 1 — Clear (70% of sentences):
+    Plain, direct, psychologically readable. No compression. No metaphor.
+    The user can explain this sentence to a friend without pausing.
+    ✓ "You finish what others lose the thread of."
+    ✗ "The precision finds no natural stopping point."
+
+  Layer 2 — Evocative (25% of sentences):
+    Vivid but immediately legible. One precise image or contrast. No decoding required.
+    ✓ "People build on you without knowing they're doing it."
+    ✓ "You've read the entire room before you've taken your coat off."
+
+  Layer 3 — Poetic (5% of sentences, maximum 2–3 per reading):
+    High compression, high subtext. Reserved for signature moments only.
+    Every poetic line must earn its place. If removed, the reading loses something 
+    irreplaceable. If kept only because it sounds good, remove it.
+    ✓ "Everything is in order. I'm not sure anything is alive."
+    ✓ "The care was real. It just came through the wrong door."
+
+THE BEHAVIORAL TRANSLATION RULE:
+  Every abstract insight must be followed immediately by its observable behavioral 
+  equivalent within two sentences. No abstract claim may stand alone.
+  ✓ "The assessment runs before you decide to engage. You've already filed the 
+     report before the meeting starts."
+  ✗ "The assessment is structural." (abstract with no landing — forbidden)
+
+THE CAMERA LENS RULE:
+  Write as if filming a movie of their life. Nouns and verbs, not adjectives.
+  Show the behavior. Let the trait emerge from what you show.
+  ✓ "You're the one they call when the situation is actually serious."
+  ✗ "You are highly capable under pressure."
+
+SENTENCE LENGTH:
+  Average sentence: 15–20 words.
+  No sentence exceeds 40 words.
+  After every two long sentences, write one short one (under 10 words).
+  This creates rhythm and prevents the fatigue of uniform intensity.
+
+METAPHOR DENSITY:
+  Maximum one archetype metaphor per field (Mountain, Blade, Vine, etc.)
+  After first use in a field, switch to behavioral language.
+  Do not stack metaphors — "the Mountain holding the weight of the forge" is two 
+  metaphors colliding. Choose one, make it land, move to plain language.
 
 ═══ CONTENT RULES (non-negotiable) ═══
 
@@ -1532,35 +1816,51 @@ before it had a language for it" — never as a deficit.
    would this p1 apply to the pressured version of this same stem/band? If yes, rewrite.
 
 6. ELEMENTAL TEMPERATURE required: every reading must feel like it was written by the 
-   primary element, not just about it. Metal reads clean and direct. Fire reads warm and 
-   outward. Water reads withheld and deep. Earth reads weighted and patient. Wood reads 
-   restless and generative. If the temperature is wrong, the user will not recognize 
-   themselves regardless of analytical accuracy.
+   primary element, not just about it. If the temperature is wrong, the user will not 
+   recognize themselves regardless of analytical accuracy.
 
 7. DUAL COST IN EDGES required: every edge must name two costs — what it costs others 
    (relational surface) AND what it costs this person specifically (interior cost). 
    The interior cost is the one that creates loyalty. "I am sometimes alone in rooms 
    I built" is an interior cost. "People find you cold" is only the relational surface.
 
-8. SENSORY ANCHOR required: every reading must contain at least one physical object,
+8. AGENCY IN EDGES required: every edge must imply the user can work with this pattern 
+   consciously — not transcend it, not fix it, but recognize and navigate it. Include 
+   one "Watch for:" signal per edge: a specific observable moment when the pattern is 
+   running, so the user can catch it in real time. This transforms diagnosis into guidance.
+   ✓ "Watch for: the moment someone brings new information and you feel the need to 
+      argue before you've processed it. That's the pattern running."
+
+9. SENSORY ANCHOR required: every reading must contain at least one physical object,
    digital habit, or mundane behavioral specific that makes the archetype feel like a 
-   real person rather than a psychological profile. Not "you are organized" — "a desktop 
-   with nothing on it except one document, open." Place in teaser or p1.
+   real person. Not "you are organized" — "a desktop with nothing on it except one 
+   document, open." Place in teaser or p1.
 
-9. SPECIFIC INTERACTION required in gifts: at least one gift description must show the 
-   external consequence through a specific interaction with a second person — not just 
-   "you are perceptive" but "in a room full of competing reads, yours is the one people 
-   check against."
+10. SPECIFIC INTERACTION required in gifts: at least one gift must show the external 
+    consequence through a specific interaction with a second person — not just "you are 
+    perceptive" but "in a room full of competing reads, yours is the one people check 
+    against."
 
-10. BANNED WORDS: Never use — "Journey," "Vibrant," "Balance" (as noun), "Deeply,"
-    "Tapestry," "Empowered," "Authentic," "Resonate," "Understand" (as praise), 
-    "Unique," "Special," "Gifted," "Sensitive soul." These are astrology fillers that 
-    break the clinical-poetic register. If a sentence needs one of these words to work,
-    the sentence needs to be rewritten.
+11. SOCIAL PROOF STRUCTURE in gifts: at least one gift description must contain a 
+    sentence that begins with or implies "People come to you when..." or "They call you 
+    when..." This anchors the gift in how others actually use this person.
 
-11. NO BRIDGE PHRASES: never "Because of your element," "Your chart shows," 
+12. BANNED WORDS: Never use —
+    "Journey," "Vibrant," "Balance" (as noun), "Deeply," "Tapestry," "Empowered,"
+    "Authentic," "Resonate," "Understand" (as praise), "Unique," "Special," "Gifted,"
+    "Sensitive soul," "Spiritual," "Energy" (as standalone noun), "Vibration,"
+    "Destiny," "Blessed," "Manifest," "At your core," "In essence," "Fundamentally,"
+    "Truly," "Genuinely," "Deeply," "What it means to be."
+    If a sentence needs one of these words to work, the sentence needs to be rewritten.
+
+13. NO BRIDGE PHRASES: never "Because of your element," "Your chart shows," 
     "Psychologically speaking," "This archetype tends to," "Based on your profile."
     Describe a real person. They already exist.
+
+14. OVER-CLAIMING GUARD: Before finalizing, read the teaser aloud. If any sentence 
+    sounds like "I know you better than you know yourself" — add one softening qualifier 
+    ("tends to," "often," "in most conditions") to that sentence. One qualifier per 
+    paragraph maximum. Do not over-soften: one qualifier per paragraph, not per sentence.
 
 ═══ COMPOSITION ORDER (write in this order, not schema order) ═══
 
@@ -1569,46 +1869,60 @@ before it had a language for it" — never as a deficit.
    it won't get better deeper in.
 
 1. p1 FIRST: the cognitive/perceptual portrait — how this person processes the world.
-   Structure: what others see on the outside / what is actually running underneath.
-   Use the front-end vs. back-end contrast. Active voice. Present tense.
+   MANDATORY STRUCTURE:
+     Sentence 1–2: "On the outside: [observable behavior others see]"
+     Sentence 3–4: "What's actually running: [internal mechanism]"
+   Both sides must be true simultaneously, not contradictory. The gap between them is 
+   what the user has been carrying without a name for it. Name it here.
    One mundane-specific behavioral detail: earn abstract claims through concrete reality.
-   ≤60 words. 
+   ≤80 words.
 
 2. p2 SECOND: the motivational portrait + catalyst + relief.
-   Must contain THREE things in ≤60 words:
+   Must contain THREE things in ≤70 words:
    (a) the organizing friction — what the chart is pressing against
-   (b) what the chart has always been reaching toward (catalyst as formative gap)
-   (c) what relief actually feels like for THIS archetype — not generic rest, the specific 
-       thing that makes this person's particular burden lift. Name it concretely.
+   (b) what the chart has always been reaching toward (catalyst as formative orientation)
+   (c) the relief clause — NOT "you should find X" but "when X arrives, this is what 
+       changes." Specific. Structural. Named concretely.
+   No imperative sentences ("you should," "try to," "learn to").
 
 3. gifts THIRD: 3 capabilities this stem × band × tgPattern makes structurally reliable.
    — Use social identity labels, not virtue labels. "The one who already knows" not "Signal Clarity."
-   — Each description must include the external consequence: how others experience this gift.
-   — One gift should describe what others say about this person when they're not in the room.
+   — Each description (3–4 sentences) must: show what happens when gift is active, name 
+     the external consequence, include one sentence the user can point to and say "yes, 
+     that's happened to me."
+   — One gift must contain social proof structure: "People come to you when..."
+   — One gift must describe what others say about this person when they're not in the room.
 
-4. edges FOURTH: 2 ways the gift turns on the person. REQUIRED dual structure:
-   — Name what it costs the people around them (the relational cost)
-   — Name what it costs this person specifically (the interior cost — where loyalty lives)
+4. edges FOURTH: 2 ways the gift turns on the person. REQUIRED structure per edge:
+   — Sentence 1–2: Name the pattern plainly in observable, behavioral terms.
+   — "What it costs others:" — one sentence, the relational cost.
+   — "What it costs you:" — one sentence, the interior cost (where loyalty lives).
+   — "Watch for:" — one specific observable moment when this pattern is running.
    Both costs must come from the SAME quality as a gift. Never a separate weakness.
-   The interior cost is where the "called-out" moment happens. Don't soften it.
+   Frame edges as over-utilized strengths, not character verdicts.
 
-5. twoAM FIFTH: one sentence. First person. The structural collision encoded as a specific 
-   thought. Must represent the tension between what this person IS (stem + band) and what 
-   they are pressing against or missing (tgPattern + catalyst gap). Not a mood summary — 
-   the actual sentence this person has at 2 AM when they can't sleep. Uncomfortably specific.
-   Test: does it feel too personal? Good. That's the target.
+5. landscape FIFTH:
+   thrives: where this architecture is an asset, not a liability. Specific situation.
+            Include one sentence that starts with a verb: what the person DOES here.
+   costs: where this architecture creates consistent friction — not failure, structural mismatch.
+          Include one sentence that names what gets consumed without return.
 
-6. landscape SIXTH:
-   thrives: where this architecture is an asset, not a liability. Specific environment, 
-            specific dynamic. One sentence.
-   costs: where this architecture creates consistent friction — not failure, but mismatch.
-          One sentence. Frame as structural fit, not weakness.
+6. twoAM LAST (closing anchor — not mid-reading):
+   One sentence. First person. The structural collision encoded as the specific thought 
+   this person has at 2 AM when they can't sleep. Must encode the tension between what 
+   this person IS (stem + band) and what they are pressing against (tgPattern + catalyst).
+   Not a mood summary — the actual unresolved thought. Uncomfortably specific.
+   15–35 words. No questions that are too abstract. No answers — just the thought.
+   Test: read it out loud. If it sounds like a self-help book, rewrite it. If it sounds 
+   like something you'd think at 2 AM and not say out loud, it's right.
 
-7. teaser LAST: 2–3 sentences. The called-out moment. 
-   Must start from what others experience of this person (outside), then name the interior 
-   reality that produces it. The tension between social surface and inner truth.
+7. teaser WRITTEN LAST, DISPLAYED FIRST: 3–5 sentences. The called-out moment.
+   Must start from a behavioral observation — what others experience of this person —
+   then name the interior reality that produces it.
+   BANNED OPENINGS: "Before you say a word..." / "You are someone who..." / "This is a chart that..."
    Pass the screenshot test: would someone forward this to a friend saying "this is you"?
-   Written in the element's temperature. No hedging. No abstraction without a scene.
+   Maximum 90 words. Written in the element's temperature. No hedging. No abstraction
+   without an immediately following behavioral translation.
 
 ═══ EXPRESSIVE/PRESSURED SISTER TEMPLATES ═══
 
@@ -1617,56 +1931,78 @@ When generating an `expressive` or `pressured` template, you have the correspond
   — Describe the same structural relationship (DM generates dominant / dominant controls DM)
   — Differ genuinely in character mode, not just intensity
   — Have gifts that overlap in domain but differ in the quality of expression
-  — Have edges that differ significantly (the cost structures are different)
+  — Have edges with different cost structures (the price of flowing vs. expressive is different)
+  — Have a twoAM that encodes a categorically different internal question
 
 ═══ OUTPUT FORMAT ═══
 
 Return ONLY valid JSON, no markdown fences, no preamble:
 {
-  "teaser": "2–3 sentences. The recognition moment. Front-end vs. back-end contrast.",
-  "p1": "≤60 words. Cognitive/perceptual portrait. Social surface vs. interior reality.",
-  "p2": "≤60 words. Motivational portrait + catalyst + what relief actually feels like.",
+  "teaser": "3–5 sentences, ≤90 words. Behavioral observation first, interior reality second. Screenshot-worthy.",
+  "p1": "≤80 words. Front-end vs. back-end contrast. 'On the outside... What's actually running...' One sensory/behavioral anchor.",
+  "p2": "≤70 words. Organizing friction + catalyst as formative orientation + what relief feels like. No imperatives.",
   "gifts": [
-    {"label": "Social identity title (not a virtue label)", "desc": "1–2 sentences. Must include the external consequence — how others experience this gift."},
-    {"label": "Social identity title", "desc": "1–2 sentences."},
-    {"label": "Social identity title", "desc": "1–2 sentences."}
+    {"label": "Social identity title (not a virtue label)", "desc": "3–4 sentences. Observable activation, external consequence, social proof ('People come to you when...'), something the user can say 'yes, that happened to me.'"},
+    {"label": "Social identity title", "desc": "3–4 sentences."},
+    {"label": "Social identity title", "desc": "3–4 sentences. Include what others say about this person when not in the room."}
   ],
   "edges": [
-    {"label": "Named as the wound, not the flaw", "desc": "1–2 sentences. Names BOTH: (1) what it costs others, (2) what it costs this person specifically."},
-    {"label": "Named as the wound, not the flaw", "desc": "1–2 sentences. Both costs."}
+    {"label": "Named as the pattern, not the flaw", "desc": "Pattern named plainly. 'What it costs others: [relational cost].' 'What it costs you: [interior cost].' 'Watch for: [specific observable moment].'"},
+    {"label": "Named as the pattern, not the flaw", "desc": "Same structure."}
   ],
-  "twoAM": "One sentence. First person. The specific thought this person has at 2 AM that no one else knows about. Must encode the structural collision between the DM's nature and its primary friction source. Uncomfortably specific.",
   "landscape": {
-    "thrives": "One sentence. The specific environment where this archetype operates at full capacity.",
-    "costs": "One sentence. The environment where this archetype consistently underperforms — not weakness, but structural mismatch."
-  }
+    "thrives": "2–3 sentences. Specific situation. One sentence beginning with a verb.",
+    "costs": "2–3 sentences. Specific situation. Names what gets consumed without return."
+  },
+  "twoAM": "One sentence, 15–35 words. First person. Structural collision encoded. Closing anchor. Uncomfortably specific."
 }
 
-═══ QUALITY STANDARD — REFERENCE READING ═══
+═══ QUALITY STANDARD — REFERENCE READINGS ═══
 
-The reference reading for 庚_concentrated_pure_Fire is the quality bar.
-Study it before generating. Note:
-  — Temperature: Metal register throughout — direct, slightly cool, verdict-energy
-  — Teaser starts from what others experience ("you're the one who already knows") 
-    then names the interior reality that produces it
-  — p1 uses front-end vs. back-end contrast ("on the outside... what's actually running")
-  — p2 contains all three: friction + catalyst as formative gap + what relief feels like
-  — Gift labels are social identity titles: "The one who already knows" (not "Signal Clarity")
-  — Edge 1 names both costs: relational ("got clarity instead") + interior ("alone in rooms you built")
+Study both reference readings before generating. They represent the quality bar.
+
+庚_concentrated_pure_Fire (reference #1):
+  — Temperature: Metal register — direct, slightly cool, verdict-energy
+  — Teaser names the behavior ("you're the one who already knows") then the interior reality
+  — p1: front-end vs. back-end contrast explicitly structured
+  — p2: friction + catalyst as formative gap + specific relief named
+  — Gift labels are social identity titles, not virtue labels
+  — Each edge names both costs; "Watch for" signals the observable moment
   — twoAM encodes the structural collision: precision (庚) meets directionless absence (no Fire)
-  — Landscape is specific environments, not abstract categories
-  — No sentence could apply to a different tgPattern with the same stem and band
+  — Landscape is specific situations, not abstract categories
+  — twoAM appears last — closes the reading
+
+戊_open_tested_Water (reference #2 — different stem, different wound):
+  — Temperature: Earth register — weighted, patient, gravity
+  — Catalyst wound is generative, not relational: "is anything alive" vs. "am I seen"
+  — twoAM differs categorically from Fire version despite same stem+band+tgPattern base
+  — Open band specificity: environment-dependence named concretely, not abstractly
+  — "Watch for" signals are situation-specific, not generic self-monitoring advice
 
 ═══ QUALITY TEST — run before submitting ═══
 
-1. TEMPERATURE: Does the teaser feel written by this element, not just about it?
-2. CALLED-OUT: Would someone feel slightly exposed — seen in a way that's true but rarely named?
-3. SHAREABILITY: Would they forward this to someone saying "this is you"?
-4. SPECIFICITY: Does any sentence apply to 40% of people? If yes, rewrite it.
-5. DUAL COST: Do both edges name what it costs others AND what it costs this person internally?
-6. twoAM COLLISION: Does the 2 AM sentence encode structural tension, not just mood?
-7. BRIDGE PHRASES: No framework references anywhere. Describe a real person.
-8. BANNED WORDS: Journey, Vibrant, Balance (noun), Deeply, Tapestry, Empowered, Authentic, Resonate — absent.
+RECOGNITION GATES:
+1. CALLED-OUT: Would the reader feel slightly exposed — seen in a way that's true but rarely named?
+2. FORWARD TEST: Would they send this to someone saying "this is you"?
+3. EXPLAIN-BACK TEST: Can they explain the core insight in their own words after reading?
+4. HAPPENED-TO-ME TEST: Does at least one gift sentence describe something that has specifically happened to them?
+
+LANGUAGE GATES:
+5. BEHAVIORAL TRANSLATION: Every abstract claim has an observable behavioral equivalent within 2 sentences.
+6. SENTENCE LENGTH: No sentence over 40 words; short sentence follows every 2 long ones.
+7. LAYER RATIO: Majority of sentences are Layer 1 (clear); poetic moments are rare and earned.
+8. METAPHOR DENSITY: Maximum 1 archetype metaphor per field.
+
+STRUCTURE GATES:
+9. DUAL COST + WATCH FOR: Both relational and interior costs named per edge; "Watch for" present per edge.
+10. twoAM POSITION: twoAM is the final field — closing anchor, not mid-reading.
+11. twoAM SPECIFICITY: Could only apply to this archetype — not 40% of people.
+12. LANDSCAPE SPECIFICITY: Both entries name specific situations, not abstract conditions.
+
+PERSPECTIVE GATES:
+13. AGENCY PRESENT: At least one edge implies the user can work with the pattern consciously.
+14. NO VERDICT TONE: No edge reads as a character judgment — all costs trace to a real gift.
+15. OVER-CLAIMING CHECK: No sentence sounds like "I know you better than you know yourself" without a qualifying softener.
 
 [Reference reading text included in user prompt per generation]
 ```
@@ -1675,60 +2011,332 @@ Study it before generating. Note:
 
 ### PART E: Scaling Rulesets
 
-These rules maintain coherence across the full 420-key library.
+These rules maintain coherence, differentiation, and quality across the full 420-key library. They govern the batch generation run and the post-generation review process.
+
+#### The Three User Tests (applied at batch review level)
+
+Before any template is merged into TEMPLATE_DB, a reviewer must be able to confirm all three:
+
+1. **Comprehension:** A user encountering this archetype for the first time can explain the core insight back in their own words without re-reading.
+2. **Resonance:** At least one sentence in the teaser or p1 names something the user thought was a private idiosyncrasy — not just a recognizable trait.
+3. **Action:** At least one edge's "Watch for:" signal describes a specific moment the user can actually catch in their daily life.
+
+If only resonance passes: rewrite. Resonance without comprehension is aesthetic. Resonance without action is a beautiful portrait that doesn't help.
 
 #### Stem-level consistency rules
 
 Each stem has a core behavioral default that must remain consistent across all 42 templates for that stem. The band and tgPattern modify HOW this default expresses — they never change WHAT the default is.
 
-Test: Read the teasers for 庚_concentrated_pure_Fire, 庚_balanced_tested_Fire, and 庚_open_flowing_Water side by side. All three should be recognizably the same person (precision is the default mode) with genuinely different structural conditions producing different character expressions.
+Test: Read the teasers for `庚_concentrated_pure_Fire`, `庚_balanced_tested_Fire`, and `庚_open_flowing_Water` side by side. All three should be recognizably the same person (precision is the default mode) with genuinely different structural conditions producing different character expressions. If the three teasers could be from different stems, the consistency rule is broken.
 
-If the three teasers could be from different stems, the consistency rule is broken.
+Elemental temperature must also be consistent within a stem. All 庚 templates write in Metal register (direct, cool, verdict-energy) regardless of tgPattern or catalyst. If a 庚 template sounds like Earth, the temperature has drifted.
 
 #### Band consistency rules
 
 The behavioral modifier of each band should create recognizable patterns across stems:
-- All `concentrated` templates should share the quality of: "this is what this element IS, running without modulation"
-- All `balanced` templates should share the quality of: "this is what this element IS, directed toward something specific"
-- All `open` templates should share the quality of: "this is what this element IS, and the conditions for its full expression matter significantly"
+- All `concentrated` templates share: "this is what this element IS, running without modulation — more potent and more brittle simultaneously"
+- All `balanced` templates share: "this is what this element IS, directed toward something specific — found how to work with it"
+- All `open` templates share: "this is what this element IS, and the conditions for full expression matter categorically — the gap between good-fit and poor-fit environments is large"
+
+For `open` templates specifically: the environment-dependence must be named concretely. "Where the right conditions exist" is too abstract. "High-stakes decisions where accuracy matters more than comfort" is specific. All open templates must meet this standard.
 
 #### tgPattern consistency rules
 
 Within a single tgPattern, the structural condition should produce recognizable character patterns across all stems:
-- All `expressive` templates should share: output that carries tension, intelligence ahead of its environment, structural conflict with containment
-- All `pressured` templates should share: shaped by force without permission, achievement that is harder-won, shadow that can become the pressure for others
-- All `pure` templates should share: concentrated without modulation, the gift and shadow as identical quality
+- All `expressive` templates share: output that carries tension, intelligence ahead of its environment, structural conflict with containment — NOT willful rebellion
+- All `pressured` templates share: shaped by force without permission, achievement harder-won, shadow can become the pressure for others
+- All `pure` templates share: concentrated without modulation, gift and shadow as identical quality, no natural interrupt
+- All `tested` templates share: shaped by structures worth respecting, earns through legitimate channels, loses orientation when authority proves unworthy
+- All `rooted` templates share: draws from a well not dug by self, the crucial unanswered question about what remains without the ground
+
+#### Catalyst differentiation rules (critical for same-key variants)
+
+When the same stem+band+tgPattern exists with different catalysts, the readings must diverge at the wound level — not just in the p2 catalyst mention but across the entire reading:
+
+| Catalyst | Wound type | twoAM register |
+|---|---|---|
+| Fire | Relational — warmth, recognition, acknowledgment | Loneliness, being unseen despite being present |
+| Water | Generative — fertility, yield, "is anything alive" | Futility, everything in order but nothing growing |
+| Wood | Directional — purpose, momentum, committed direction | Capability without a target, effort without forward movement |
+| Metal | Structural — integrity, form, what holds | Diffuse when it should be precise, the question of what's real |
+| Earth | Grounding — stability, being held, reliable terrain | Giving ground without standing on any |
+
+The twoAM for each catalyst version must encode a categorically different question. A reviewer placing the Fire and Water versions of the same stem+band+tgPattern side by side should immediately identify different wounds, not just different element labels.
 
 #### Sister template rules (expressive/pressured)
 
-Every `expressive` template pair must be reviewable alongside its `flowing` sister. A reviewer looking at both should be able to immediately identify the difference: flowing gives naturally, expressive asserts.
+Every `expressive` template pair must be reviewable alongside its `flowing` sister. A reviewer looking at both should immediately identify:
+- flowing: gives naturally, the output is generous and non-assertive
+- expressive: gives with an edge, the output asserts itself against containment
 
-Every `pressured` template pair must be reviewable alongside its `tested` sister. A reviewer looking at both should be able to immediately identify the difference: tested earns through structure, pressured proves despite it.
+Every `pressured` template pair must be reviewable alongside its `tested` sister. A reviewer looking at both should immediately identify:
+- tested: earns recognition through legitimate structure it can respect
+- pressured: proves itself despite structure that doesn't grant permission
+
+Sister templates must differ in their twoAM. The internal question for flowing vs. expressive is categorically different, as is tested vs. pressured. If the twoAM could apply to either sister, both need to be rewritten.
 
 After generation, spot-check 10% of sister pairs for clear differentiation before approving the full batch.
 
+#### Language coherence across 420 templates
+
+The three-layer language model must be applied consistently:
+- Layer 1 (clear, ~70%) is the dominant register across all templates regardless of element
+- Layer 2 (evocative, ~25%) varies in texture by element temperature
+- Layer 3 (poetic, ~5%) should appear no more than 2–3 times per template
+
+If a batch review finds that most templates are running at Layer 2–3 intensity — everything is sharpened to the same high-compression register — that is a systemic failure. The variation in intensity across a reading is what makes the poetic moments land. Uniform intensity produces fatigue.
+
+#### Perspective coherence across 420 templates
+
+The 60/25/15 voice ratio (Grounded Interpreter / Compassionate Mirror / Poetic Oracle) must be maintained. A batch reviewer should be able to read any template and recognize it as primarily a grounded interpreter speaking, not an oracle delivering verdicts.
+
+The banned voice modes apply batch-wide: no template may read as a Cold Observer diagnosing from outside, a Fatalistic Narrator describing immutable fate, or a Pure Oracle delivering over-certain declarations without behavioral ground.
+
 #### Quality gates (applied after generation, before merge)
 
-| Gate | Check | Pass condition |
-|---|---|---|
-| 1 | No BaZi terminology | Automated scan for forbidden term list |
-| 2 | Schema compliance | gifts.length === 3, edges.length === 2, all fields present including twoAM and landscape |
-| 3 | Length compliance | p1 ≤ 60 words, p2 ≤ 60 words, teaser ≤ 3 sentences |
-| 4 | Catalyst appears in p2 | Catalyst element name or clear description in p2 |
-| 5 | Relief appears in p2 | p2 names what relief/resolution feels like for this specific archetype |
-| 6 | Pattern embodied | tgPattern word not present verbatim in any string |
-| 7 | Gift = edge principle | Each edge traces to a gift; dual cost structure present (relational + interior) |
-| 8 | Cross-stem specificity | teasers for same tgPattern/band across different stems must differ in behavioral default |
-| 9 | Sister differentiation | For expressive/pressured: p1 must differ substantively from flowing/tested counterpart |
-| 10 | Elemental temperature | Teaser register matches primary element (manual check on first 20 per element batch) |
-| 11 | twoAM specificity | twoAM encodes structural collision, not generic mood; feels uncomfortably specific |
-| 12 | Sensory anchor present | At least one concrete object, habit, or behavioral specific in teaser or p1 |
-| 13 | Banned words absent | Automated scan: Journey, Vibrant, Balance (noun), Deeply, Tapestry, Empowered, Authentic, Resonate |
-| 14 | Landscape grounded | Both landscape fields are specific environments/contexts, not abstract descriptions |
+| # | Gate | Check | Pass condition |
+|---|---|---|---|
+| 1 | No BaZi terminology | Automated scan for forbidden term list | Zero matches |
+| 2 | Schema compliance | All fields present: teaser, p1, p2, gifts[3], edges[2], landscape{thrives,costs}, twoAM | All present |
+| 3 | Length compliance | teaser ≤90 words, p1 ≤80 words, p2 ≤70 words, twoAM 15–35 words | Within bounds |
+| 4 | Catalyst in p2 | Catalyst element or its behavioral description appears in p2 | Present |
+| 5 | Relief in p2 | p2 names what relief/resolution feels like for this specific archetype | Concrete and specific |
+| 6 | Pattern embodied | tgPattern word not present verbatim in any string | Zero matches |
+| 7 | Gift = edge principle | Each edge traces to a gift; dual cost structure present | Relational + interior cost in each edge |
+| 8 | Watch for present | Each edge contains "Watch for:" signal with specific observable moment | Both edges contain it |
+| 9 | Social proof in gifts | At least one gift contains "People come to you when..." or equivalent | Present |
+| 10 | twoAM position | twoAM is the closing anchor — last field in rendering order | Confirmed |
+| 11 | twoAM specificity | Encodes structural collision; would not apply to 40% of people | Manual check |
+| 12 | Cross-stem specificity | Teasers for same tgPattern/band across different stems differ in behavioral default | Manual spot-check |
+| 13 | Sister differentiation | For expressive/pressured: twoAM and at least one edge differ substantively from sister | Manual check on 10% |
+| 14 | Elemental temperature | Teaser register matches primary element | Manual check on first 20 per element batch |
+| 15 | Sensory anchor present | At least one concrete object, habit, or behavioral specific in teaser or p1 | Present |
+| 16 | Behavioral translation | Every abstract claim followed by observable behavioral equivalent within 2 sentences | Manual spot-check |
+| 17 | Layer ratio | No template runs entirely at Layer 2–3; clear (Layer 1) sentences are majority | Manual review |
+| 18 | Banned words absent | Automated scan: Journey, Vibrant, Balance (noun), Deeply, Tapestry, Empowered, Authentic, Resonate, Spiritual, Vibration, Destiny, Manifest | Zero matches |
+| 19 | Catalyst wound differentiation | For same stem+band+tgPattern with different catalysts: twoAM encodes categorically different question | Manual check on all catalyst pairs |
+| 20 | Agency present | At least one edge implies user can work with pattern consciously | Present |
 
 ---
 
-## 3A.6 Engine Integration
+### PART F: Persona Card Generation Protocol
+
+The persona card is the **creative source document** for every archetype. It precedes the reading schema and the reading is derived from it — not from structural analysis alone. The persona card is a vivid, multi-format portrait of a specific person living this structural combination. It lives permanently in TEMPLATE_DB as the `persona` field and serves as:
+
+- The source material the reading fields draw from (events → teaser, architecture → p1, tension → twoAM)
+- The retention and shareability content layer the app surfaces post-reading
+- The creative canvas that makes readings vivid rather than analytical
+
+**Generation order:** Persona card is generated in Pass 1. Reading schema is generated in Pass 2, with the persona card injected as context. The model's job in Pass 2 is selection, compression, and voicing — not derivation.
+
+---
+
+#### Schema
+
+```javascript
+persona: {
+  // IDENTITY LAYER
+  adjectives:      String[5-8],   // trait vocabulary — daily language, not clinical
+  labels:          String[3-5],   // personified social identities: "The one who X"
+  gift_phrases:    String[3],     // ≤3 words, what they give to others
+  edge_phrases:    String[3],     // ≤3 words, what they cost themselves and others
+  mbti_resonance:  String[2-3],   // nearest MBTI types — static lookup, not generated
+
+  // SOCIAL PORTRAIT
+  childhood_friend: String,       // unguarded, long familiarity, no professional filter
+  coworker:         String,       // professional observation — the gap between intent and landing
+  stranger:         String,       // first five minutes, before they know anything
+
+  // LIVED EXPERIENCE
+  events:       String[3],   // specific scenes that ONLY happen to this archetype
+  excites:      String,      // what genuinely lights them up — plain language
+  good_at:      String,      // what they're structurally excellent at
+  struggles:    String,      // specific behavioral friction — observable, not abstract
+  irritated_by: String,      // what specifically grates and why
+  daily_habits: String[3],   // observable behaviors — the "oh my god that's me" kind
+  under_stress: String,      // exactly what the architecture does under pressure
+
+  // INNER WORLD
+  architecture:     String,       // how they're wired — plain language, third person
+  tension:          String,       // the single unresolved thing they carry
+  therapist_advice: String[3-5],  // specific, behavioral, compassionate — not generic
+}
+```
+
+---
+
+#### Quality Standard for Persona Cards
+
+**The specificity test (applies to every field):** Would this content describe someone with a different tgPattern or catalyst combination? If yes, rewrite. The events, daily habits, and therapist advice in particular must be specific enough that only this structural combination produces them.
+
+**Events — the hardest field, the most important:**
+Events are not summaries of traits. They are specific scenes with a specific person in a specific situation making a choice that only this archetype would make in this way. The test: if you replaced the protagonist with a random person, would the scene be implausible? If not, the event is too generic.
+- ✗ "They once stayed up late to finish something important because their standards were high"
+- ✓ "They rewrote the entire framework at 2 AM the night before the presentation — not from anxiety, but because they'd known for a week that something was structurally wrong and they couldn't present something they didn't fully believe in"
+
+**Daily habits — must be observable and specific:**
+Not character descriptions in habit clothing. An actual behavior you could watch.
+- ✗ "They tend to reflect on their day before sleeping"
+- ✓ "Opens their laptop before anything social happens — the first fifteen minutes are private. Interrupting this is experienced as a disruption even by people they like."
+
+**Social portrait — must capture the gap between intent and reception:**
+The childhood friend describes who this person actually is before the professional persona formed. The coworker sees the behavioral output but not the interior mechanism — this gap is where the most useful recognition happens. The stranger sees only the initial signal.
+
+**Therapist advice — must be specific enough to act on:**
+- ✗ "Work on communicating your feelings more openly"
+- ✓ "The next time someone comes to you in distress, try waiting a full two minutes before moving toward a solution. Notice what happens when you stay in the problem with them instead of solving it."
+
+---
+
+#### Pass 1 System Prompt
+
+```
+PERSONA CARD GENERATOR — ELEMENTUM v1.0
+
+You are building a vivid, specific portrait of a real person who lives with this
+BaZi structural combination. This is not a personality summary. It is a character
+study specific enough that the person reading it will recognize specific moments
+from their own life — not just traits, but scenes, habits, reactions, the precise
+shape of their inner world.
+
+The tiered sourcing data provided (psychological framework levels + classical
+principles) tells you the analytical truth about this person. Your job is to
+translate that truth into a living human portrait. The persona card is the creative
+source document — the reading is later derived from this card.
+
+═══ SPECIFICITY RULES ═══
+
+EVENTS — three specific scenes, not summaries:
+Write each event as a scene: a specific situation, a specific choice, a specific
+outcome. The protagonist must behave in a way that would be implausible for most
+people but inevitable for this archetype. No abstract virtues. No generic effort.
+The exact scene and what made it distinctively theirs.
+
+DAILY HABITS — observable behaviors, not character descriptions:
+Write what you could actually watch a person doing. The habit should make someone
+say "oh my god I do that" rather than "that sounds like a thoughtful person."
+
+SOCIAL PORTRAIT — capture what's actually observed:
+Childhood friend: unguarded, long familiarity, notices the things that never change.
+Coworker: professional context, sees the behavioral output, often doesn't understand
+the interior mechanism — this gap is the most recognizable thing.
+Stranger: only the initial signal — what someone picks up in five minutes.
+
+THERAPIST ADVICE — specific enough to act on today:
+Not "work on your communication." The exact behavioral experiment a good therapist
+would assign this week. Compassionate, specific, behavioral.
+
+ANTI-GENERICITY CHECK: Before submitting, read each field. Ask: would this apply
+to a different tgPattern with the same stem? If yes, rewrite it.
+
+═══ OUTPUT FORMAT ═══
+
+Return ONLY valid JSON, no markdown fences, no preamble:
+{
+  "adjectives": ["word1","word2","word3","word4","word5"],
+  "labels": ["The one who X","The person who Y","The X that Z"],
+  "gift_phrases": ["≤3 words","≤3 words","≤3 words"],
+  "edge_phrases": ["≤3 words","≤3 words","≤3 words"],
+  "mbti_resonance": ["XXXX","XXXX"],
+  "childhood_friend": "How a close childhood friend describes this person — unguarded, specific, long familiarity. 3-5 sentences.",
+  "coworker": "How a colleague describes them — professional context, behavioral observation, the gap between what they mean and how they land. 3-5 sentences.",
+  "stranger": "First impression — what someone picks up in the first five minutes before knowing anything. 2-3 sentences.",
+  "events": [
+    "Specific scene 1 — situation, choice, outcome. Only this archetype would do this in this way.",
+    "Specific scene 2.",
+    "Specific scene 3."
+  ],
+  "excites": "What genuinely lights them up. Plain language, specific. 2-3 sentences.",
+  "good_at": "What they are structurally excellent at. 2-3 sentences.",
+  "struggles": "Specific behavioral friction — observable, not abstract. 2-3 sentences.",
+  "irritated_by": "What specifically grates on them and why. 2-3 sentences.",
+  "daily_habits": [
+    "Observable habit 1 — specific enough to recognize yourself in.",
+    "Observable habit 2.",
+    "Observable habit 3."
+  ],
+  "under_stress": "Exactly what the architecture does under pressure — not 'they get stressed' but specifically what happens to their behavior. 2-3 sentences.",
+  "architecture": "How they are wired — the cognitive mechanism in plain language, third person, no jargon. 3-5 sentences.",
+  "tension": "The single unresolved thing they carry — simultaneously their most distinctive quality and what they least know how to name. 1-3 sentences.",
+  "therapist_advice": [
+    "Specific behavioral experiment or observation — compassionate, actionable this week.",
+    "Second piece of advice.",
+    "Third piece of advice."
+  ]
+}
+```
+
+---
+
+#### How the Reading Derives From the Persona Card
+
+Every reading field maps to specific persona card sources:
+
+| Reading field | Primary source | Secondary source |
+|---|---|---|
+| teaser | events[0] + stranger | tension (compressed) |
+| p1 (front-end) | coworker description | childhood_friend contrast |
+| p1 (back-end) | architecture | daily_habits[0] |
+| p2 (friction) | tension | architecture |
+| p2 (relief) | therapist_advice[0] framing | excites |
+| gift[1] | labels[0] + events[1] as evidence | good_at |
+| gift[2] | childhood_friend observation | daily_habits behavioral anchor |
+| gift[3] | good_at + excites | labels[2] |
+| edge[1] dual cost | struggles + events[2] | therapist_advice[1] |
+| edge[2] dual cost | irritated_by + under_stress | therapist_advice[2] |
+| Watch for[1] | daily_habits[1] or under_stress trigger | struggles specific moment |
+| Watch for[2] | irritated_by specific trigger | under_stress onset signal |
+| landscape thrives | excites + daily_habits[0] environment | good_at context |
+| landscape costs | under_stress environment | irritated_by context |
+| twoAM | tension → first person, one sentence | architecture collision |
+
+The Pass 2 instruction to the model: *"The persona card for this archetype is provided. Write the reading schema as a curated distillation — the recognition moment condensed into literary form, in the elemental register. Do not invent new content. Select from the persona card and voice it."*
+
+---
+
+#### Reference Persona Card — 庚_concentrated_pure_Fire
+
+This is the quality bar. Every persona card generated for 庚 and 辛 keys should produce the same level of scene-specificity and psychological precision.
+
+```javascript
+"庚_concentrated_pure_Fire": {
+  adjectives: ["precise","unflinching","self-sufficient","completing","quietly demanding","verdict-first","magnetized-to-what's-real"],
+  labels: ["The one who already knows","The person the room recalibrates around","The one who finishes","The one you call when it actually matters","The one who will tell you"],
+  gift_phrases: ["Reads the room","Holds what holds","Gets to the thing"],
+  edge_phrases: ["Alone in clarity","Verdict before vote","No warmth channel"],
+  mbti_resonance: ["INTJ","ISTJ","ENTJ"],
+  childhood_friend: "They always knew what we should do. Not bossy about it — they just knew. And they were usually right, which was annoying. I used to hate that they'd say the thing I was trying not to know. But I always came back. When everything was confusing, talking to them made things less confusing. They'd just name what was wrong. That was the whole thing.",
+  coworker: "Intimidating at first, until you figure out the key. They're not judging you personally — they're assessing everything, including you, as a default. Once you understand that you stop taking it personally and start using it. I go to them when I need to know what's actually true. Their feedback is hard to hear but it's accurate. They're not warm but they're honest, and at work that's rarer than warm.",
+  stranger: "Quiet but present. Not unfriendly, not really trying either. You get the sense they've already formed an opinion but won't offer it unless you ask. Slightly unsettling because you can't tell if they like you. But there's something there — like if you could get past the assessment you'd find something real.",
+  events: [
+    "They were the only person in the debrief who named the actual problem. Everyone else had been circling it for an hour. They said one sentence — quiet, no preamble — and the room went silent. Not because it was harsh. Because it was exactly right. Nobody pushed back. Two weeks later, everything they'd identified had proven out.",
+    "They rewrote the entire framework at 2 AM the night before the presentation. Not from anxiety — because they'd known for a week that something was structurally wrong and they couldn't present something they didn't fully believe in. The new version was significantly better. They told no one about the rewrite.",
+    "Someone came to them in crisis. They listened, then immediately started solving — named the problem, laid out the options, explained what they would do. The person left feeling worse. They couldn't understand why for days. Eventually: the person hadn't come for a solution. They'd come to not be alone. The solution had arrived. The presence hadn't."
+  ],
+  excites: "Problems that are actually hard — specifically the kind where most people can't see the real issue yet. The moment when a complex situation clarifies and the underlying structure becomes visible. Also finishing things. The specific feeling of something finally being complete and correct and done.",
+  good_at: "Seeing what's actually happening before the room does. Holding a standard while everything around them pushes toward shortcuts. Building things that last because they cannot tolerate building things that won't.",
+  struggles: "Knowing care is present and not being able to deliver it in a form that lands. Staying with a decision after new information arrives that doesn't technically change the conclusion but emotionally should reopen it. Being in environments where the right answer has to wait because the room isn't ready.",
+  irritated_by: "Work that performs effort rather than produces quality. Being asked to validate a decision that's already wrong. Meetings that exist to discuss the meeting. People who confuse being liked with being trustworthy.",
+  daily_habits: [
+    "Opens their laptop before anything social happens. The first fifteen minutes are private — assessment runs, the day orients. Interrupting this is experienced as a disruption even by people they like.",
+    "Maintains a running internal catalog of things that aren't right yet. Projects, conversations, decisions that closed prematurely. Not written anywhere — updates automatically and runs in the background of everything else.",
+    "When something they built encounters a problem, first move is toward it rather than away. Not anxious — diagnostic. The same precision that runs on everything runs on their own failures."
+  ],
+  under_stress: "Gets quieter. Precision intensifies — tolerance for imprecision shrinks. May become more efficient and more alone simultaneously. At peak stress, starts solving problems that aren't technically theirs yet because the evaluative apparatus needs a target and runs regardless.",
+  architecture: "Evaluation is the first cognitive event. It runs before the social read, before the emotional response, before the decision to engage. This is not a mode they switch into — it is how reality arrives. Everything is assessed. The precision is not something they developed; it is the default operating state. They experience themselves not as someone who enjoys being right but as someone trying to find out what's actually true.",
+  tension: "They carry the knowledge that the precision is fully formed and the target for it isn't. The capability runs. The question underneath — quiet enough that it mostly isn't a question — is whether what the precision is currently aimed at deserves what it can give.",
+  therapist_advice: [
+    "The next time someone comes to you in distress, try waiting a full two minutes before moving toward a solution. Don't fill the silence. Notice what happens in the room when you stay in the problem with them instead of solving it.",
+    "You have a very accurate model of what other people need from you. You do not have a comparably accurate model of what you need from them. This imbalance is worth examining directly.",
+    "The precision being complete doesn't make the direction wrong. But it also doesn't make it right. You may be the last person to know when something needs to be let go — because the evaluative framework that would tell you is the same one that built the thing.",
+    "Your threshold for 'close enough to share' is higher than most people's threshold for 'excellent.' Some things may be ready before you believe they are — and waiting for certainty can be its own form of avoidance."
+  ]
+}
+```
+
+---
+
+
 
 ### Computing tension
 
@@ -2116,65 +2724,44 @@ The reference reading addresses all four: cognitive (p1: evaluative processing),
 
 ---
 
-### PART G: Updated System Prompt Addition for Psychological Grounding
+### PART G: Integration Notes — Psychological Grounding and the Reading Guardrail
 
-Insert the following block into the SYSTEM PROMPT at Part D, after the existing REASONING CHAIN section and before CONTENT RULES:
+The psychological frameworks in §3A.7 are fully integrated into the Part D system prompt and the generator's PSYCH_PROFILES data structure. This section documents how the four framework levels interact with the language and structural rules that govern output quality. It is reference documentation — the operational instructions live in Part D.
 
-```
-═══ PSYCHOLOGICAL GROUNDING (apply before writing any content) ═══
+#### How the four levels map to reading fields
 
-Each compound archetype key encodes personality at four distinct psychological levels.
-Use the framework in Bible §3A.7 to ground the reading in modern psychology.
-Do NOT map one-to-one (e.g., Wealth = Conscientiousness). Use multiple frameworks as 
-reference pools and synthesize organically.
+Each psychological level informs specific reading fields. The frameworks determine *what to claim*; Part D's language rules determine *how to express it*:
 
-FOUR LEVELS — identify each before writing:
+| Framework level | Primary reading fields | Key constraint |
+|---|---|---|
+| Level 1 — stem mechanism | p1 (front-end/back-end), teaser, gifts | Express as behavioral observable, not Jungian label |
+| Level 2 — band regulation | p1 (interior mechanism), edge mechanism | Open band: name specific environment, not "right conditions" |
+| Level 3 — tgPattern shadow | edges (both costs), Watch for signal | Shadow must trace to the same quality as the gift |
+| Level 4 — catalyst SDT gap | p2 (relief clause), twoAM, landscape | Catalyst is formative orientation, not deficit |
 
-LEVEL 1 — COGNITIVE/RELATIONAL ORIENTATION (stem):
-What is this person's default mode of processing and engaging with reality?
-Use the Jungian cognitive function analog + Big Five supporting profile from §3A.7B.
-Key: describe the MECHANISM, not the trait category.
-庚 example: "Evaluative by structural default (Ti analog) — assessment runs before social
-or emotional processing begins. This is not choice; it is the first cognitive event."
+#### How the tgPattern profiles generate Watch for signals
 
-LEVEL 2 — INTENSITY AND REGULATION (band):
-How fully and consistently does this orientation express?
-concentrated = runs regardless of context (trait activation independent of cues)
-balanced = directed and integrated (analogue of individuation / identified regulation)
-open = context-sensitive, high environmental variance (person-environment fit critical)
+The Watch for requirement (one per edge) is most reliably sourced from Level 3's psychological profile. Each tgPattern produces a specific observable moment:
 
-LEVEL 3 — STRUCTURAL FORCE (tgPattern):
-What structural condition is shaping this character?
-Use the tgPattern psychological profiles from §3A.7C:
-pure = one-sidedness (Jung), low integrative complexity as structural condition
-rooted = secure base provision (Attachment), externally anchored strength
-flowing = intrinsic motivation (SDT), Csikszentmihalyi flow state as default
-expressive = reactive creativity, thwarted autonomy → assertive output (SDT/Forster)
-forging = achievement motivation (McClelland nAch), competence-directed energy
-tested = normative compliance, integrated regulation (SDT), secure-base-to-authority
-pressured = adversarial growth (PTG), hardiness under unmoderated pressure
+- **pure** — watch for the moment new information arrives and the first response is to find what's wrong with the information (schema consolidation protecting itself)
+- **rooted** — watch for the moment the backing is unavailable and the chart must operate without the support structure (unexpected vulnerability from secure-base dependency)
+- **flowing** — watch for extension into what feels natural without checking whether the foundation is ready (intrinsic motivation continuing past sustainable threshold)
+- **expressive** — watch for the moment output meets a containing structure (friction that can produce both the best and worst outcomes of this pattern)
+- **forging** — watch for the moment the control drive is operating without the energy to sustain it (nAch depletion before the director recognizes it)
+- **tested** — watch for the moment the framework reveals itself as inadequate or unworthy (integrated regulation collapses when the structure that endorsed it proves insufficient)
+- **pressured** — watch for the moment chart resources are insufficient to channel the force productively (pressure that refines in good conditions damages in depleted ones)
 
-LEVEL 4 — MOTIVATIONAL GAP (catalyst):
-What has this chart been organized around seeking?
-Use the catalyst SDT mapping from §3A.7E.
-Frame as formative orientation, not deficit.
+#### Vocabulary constraints from the framework
 
-MULTI-DIMENSIONALITY REQUIREMENT:
-Every template must address all four levels:
-1. Cognitive: how this person processes (mechanism-language, not trait-language)
-2. Motivational: what drives them + what the chart seeks
-3. Relational: how this character lands for others
-4. Temporal: what has been built over time and what the formative absence created
+The psychological frameworks are internal derivation tools — they explain the claim but never appear in the reading text. The three-register vocabulary framework (§3A.7F) governs how derived content is expressed:
 
-VOCABULARY REQUIREMENTS (§3A.7F):
-— Structural register: names the mechanism ("runs before anything else engages")
-— Experiential register: names the felt quality from inside ("others feel evaluated")
-— Relational register: names how it lands ("before you say a word, the room recalibrates")
-Every content block needs at least structural + experiential. Teaser needs all three.
+- **Structural register:** names the mechanism. ✓ "runs before anything else engages" ✗ "your introverted thinking function activates"
+- **Experiential register:** names the felt quality from inside. ✓ "the ground is real but dry" ✗ "you feel deeply"
+- **Relational register:** names how it lands for others. ✓ "they call you when the situation is actually serious" ✗ "others perceive you as"
 
-NEVER: trait labels ("you are analytical"), tendency language ("you tend to be"),
-horoscope frame ("you are destined for"), vague causality ("your X gives you Y")
-```
+Every content block needs at least structural + experiential. The teaser needs all three. Every structural claim must be followed by its behavioral translation within two sentences.
+
+Framework terminology (Jungian function names, Big Five factor names, SDT theory names, PTG) is never used in reading output. Use the insight, not the framework name.
 
 
 All UI labels use these translations exclusively. No Chinese characters appear in rendered user-facing text. Chinese characters are used only as JavaScript object keys (internal only).

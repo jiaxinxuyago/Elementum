@@ -556,9 +556,26 @@ function calculateBaziChart(input) {
 const TEMPLATE_DB = {
 
   // ── COMPOUND ARCHETYPE TEMPLATES (new format) ────────────────────────────
-  // Schema: { teaser, p1, p2, gifts:[{label,desc}×3], edges:[{label,desc}×2],
-  //           twoAM:String, landscape:{thrives:String, costs:String} }
+  // Schema: {
+  //   teaser, p1, p2,
+  //   gifts:[{label,desc}×3], edges:[{label,desc}×2],
+  //   twoAM:String, landscape:{thrives, costs},
+  //   persona: {
+  //     adjectives, labels, gift_phrases, edge_phrases, mbti_resonance,
+  //     childhood_friend, coworker, stranger,
+  //     events[3], excites, good_at, struggles, irritated_by,
+  //     daily_habits[3], under_stress,
+  //     architecture, tension, therapist_advice[3-5]
+  //   }
+  // }
+  // Generation: two-pass workflow (Bible §3A.5 Part F)
+  //   Pass 1 — generate persona card (Tier 1 + Tier 2 sourcing)
+  //   Pass 2 — generate reading schema derived from persona card
+  //   Tier 1 — §3A.7 psychological frameworks (mandatory, all keys)
+  //   Tier 2 — Part C classical sources (selective, SOURCE-FROM flags only)
+  //   Tier 3 — Part D language filter (mandatory, runs last)
   // Reference chart: 1995-04-29 18:00 Beijing Male → 乙亥 庚辰 庚寅 乙酉
+  // Render order: teaser → p1 → p2 → gifts → edges → landscape → twoAM
 
   "庚_concentrated_pure_Fire": {
     teaser: "You're the one who already knows. Not because you asked around or ran the research — because something ran the assessment before the conversation started. People experience you as sharp before they experience you as warm. Some of them read that as cold. It isn't. It's what it looks like when precision is the baseline, not the mode.",
@@ -570,13 +587,46 @@ const TEMPLATE_DB = {
       {label:"The person who finishes",       desc:"You actually complete things — not because you're unusually disciplined, but because leaving something half-done creates internal pressure that's harder to live with than just finishing it. Most people experience stopping as an option. You don't. This is the most underrated thing about you."},
     ],
     edges: [
-      {label:"Warmth arrives through the same door as everything else", desc:"The precision doesn't soften at the boundary of people. The person who needed presence got clarity instead — and they felt the difference even if they couldn't name it. What it costs you: you are sometimes alone in rooms you built. The care was real. It just came through the wrong door, and you've known this longer than you've been comfortable admitting."},
-      {label:"The verdict was already load-bearing",                    desc:"Once the assessment is built, revising it requires going back through the same system that built it. New evidence arrives; the conclusion is already structural. What it costs others: they feel like the case is closed before it was heard. What it costs you: you occasionally stay wrong longer than necessary, and some part of you knows it before you'll say it."},
+      {label:"Warmth arrives through the same door as everything else", desc:"The precision doesn't soften at the boundary of people. The person who needed presence got clarity instead — and they felt the difference even if they couldn't name it. What it costs you: you are sometimes alone in rooms you built. The care was real. It just came through the wrong door. Watch for: the moment you solve something for someone who didn't ask you to solve it."},
+      {label:"The verdict was already load-bearing",                    desc:"Once the assessment is built, revising it requires passing new information through the same system that produced the original verdict — and that system already decided. What it costs others: they feel like the case was closed before it was heard. What it costs you: you occasionally stay certain longer than the evidence warrants, and some part of you knows it. Watch for: when new information arrives and your first move is to find what's wrong with the information."},
     ],
     twoAM: "I already know what the right call is — the problem is I don't know yet if it's worth being right about.",
     landscape: {
       thrives: "Anywhere the stakes are real and the noise needs cutting — founding decisions, high-trust feedback rooms, problems where being accurate matters more than being comfortable.",
-      costs:   "Anywhere the job is to make people feel good about a decision before it's actually good — consensus-building meetings, client management situations where the right answer has to wait for the room to be ready.",
+      costs:   "Anywhere the job is to make people feel good about a decision before it's actually good — consensus-building meetings, situations where the right answer has to wait for the room to be ready.",
+    },
+    persona: {
+      adjectives: ["precise","unflinching","self-sufficient","completing","quietly demanding","verdict-first","magnetized-to-what's-real"],
+      labels: ["The one who already knows","The person the room recalibrates around","The one who finishes","The one you call when it actually matters","The one who will tell you"],
+      gift_phrases: ["Reads the room","Holds what holds","Gets to the thing"],
+      edge_phrases: ["Alone in clarity","Verdict before vote","No warmth channel"],
+      mbti_resonance: ["INTJ","ISTJ","ENTJ"],
+      childhood_friend: "They always knew what we should do. Not bossy about it — they just knew. And they were usually right, which was annoying. I used to hate that they'd say the thing I was trying not to know. But I always came back. When everything was confusing, talking to them made things less confusing. They'd just name what was wrong. That was the whole thing.",
+      coworker: "Intimidating at first, until you figure out the key. They're not judging you personally — they're assessing everything, including you, as a default. Once you understand that you stop taking it personally and start using it. I go to them when I need to know what's actually true. Their feedback is hard to hear but it's accurate. They're not warm but they're honest, and at work that's rarer than warm.",
+      stranger: "Quiet but present. Not unfriendly, not really trying either. You get the sense they've already formed an opinion but won't offer it unless you ask. Slightly unsettling because you can't tell if they like you. But there's something there — like if you could get past the assessment you'd find something real.",
+      events: [
+        "They were the only person in the debrief who named the actual problem. Everyone else had been circling it for an hour. They said one sentence — quiet, no preamble — and the room went silent. Not because it was harsh. Because it was exactly right. Nobody pushed back. Two weeks later, everything they'd identified had proven out.",
+        "They rewrote the entire framework at 2 AM the night before the presentation. Not from anxiety — because they'd known for a week that something was structurally wrong and they couldn't present something they didn't fully believe in. The new version was significantly better. They told no one about the rewrite.",
+        "Someone came to them in crisis. They listened, then immediately started solving — named the problem, laid out the options, explained what they'd do. The person left feeling worse. They couldn't understand why for days. Eventually: the person hadn't come for a solution. They'd come to not be alone. The solution had arrived. The presence hadn't.",
+      ],
+      excites: "Problems that are actually hard — specifically the kind where most people can't see the real issue yet. The moment when a complex situation clarifies and the underlying structure becomes visible. Also finishing things. The specific feeling of something finally being complete and correct and done.",
+      good_at: "Seeing what's actually happening before the room does. Holding a standard while everything around them pushes toward shortcuts. Building things that last because they cannot tolerate building things that won't.",
+      struggles: "Knowing care is present and not being able to deliver it in a form that lands. Staying with a decision after new information arrives that doesn't technically change the conclusion but emotionally should reopen it. Being in environments where the right answer has to wait because the room isn't ready.",
+      irritated_by: "Work that performs effort rather than produces quality. Being asked to validate a decision that's already wrong. Meetings that exist to discuss the meeting. People who confuse being liked with being trustworthy.",
+      daily_habits: [
+        "Opens their laptop before anything social happens. The first fifteen minutes are private — assessment runs, the day orients. Interrupting this is experienced as a disruption even by people they like.",
+        "Maintains a running internal catalog of things that aren't right yet. Projects, conversations, decisions that closed prematurely. Not written anywhere — updates automatically and runs in the background of everything else.",
+        "When something they built encounters a problem, first move is toward it rather than away. Not anxious — diagnostic. The same precision that runs on everything runs on their own failures.",
+      ],
+      under_stress: "Gets quieter. Precision intensifies — tolerance for imprecision shrinks. May become more efficient and more alone simultaneously. At peak stress, starts solving problems that aren't technically theirs yet because the evaluative apparatus needs a target and runs regardless.",
+      architecture: "Evaluation is the first cognitive event. It runs before the social read, before the emotional response, before the decision to engage. This is not a mode they switch into — it is how reality arrives. Everything is assessed. The precision is not something they developed; it is the default operating state. They experience themselves not as someone who enjoys being right but as someone trying to find out what's actually true.",
+      tension: "They carry the knowledge that the precision is fully formed and the target for it isn't. The capability runs. The question underneath — quiet enough that it mostly isn't a question — is whether what the precision is currently aimed at deserves what it can give.",
+      therapist_advice: [
+        "The next time someone comes to you in distress, try waiting a full two minutes before moving toward a solution. Don't fill the silence. Notice what happens in the room when you stay in the problem with them instead of solving it.",
+        "You have a very accurate model of what other people need from you. You do not have a comparably accurate model of what you need from them. This imbalance is worth examining directly.",
+        "The precision being complete doesn't make the direction wrong. But it also doesn't make it right. You may be the last person to know when something needs to be let go — because the evaluative framework that would tell you is the same one that built the thing.",
+        "Your threshold for 'close enough to share' is higher than most people's threshold for 'excellent.' Some things may be ready before you believe they are — and waiting for certainty can be its own form of avoidance.",
+      ],
     },
   },
 
@@ -1703,6 +1753,7 @@ function buildDayMasterProfile(chart) {
     // New Bible fields — only present when compound template exists
     twoAM:           compoundTmpl?.twoAM   || null,
     landscape:       compoundTmpl?.landscape || null,
+    persona:         compoundTmpl?.persona  || null,
     // Metadata for DayMasterHero identity card
     tgPattern:       chart.tgPattern || chart.tension || "",
     tension:         chart.tgPattern || chart.tension || "", // backwards-compat alias
@@ -1808,6 +1859,26 @@ function DayMasterHero({ chart }) {
               {dm.stem} · {profile.archetype.replace("The ","").toUpperCase()} · {profile.band === "concentrated" ? "☀" : profile.band === "balanced" ? "⚖" : "☽"} · {(TG_PATTERN_LABELS[profile.tgPattern]||"").toUpperCase()}
             </span>
             <span style={{fontSize:9,letterSpacing:1.5,textTransform:"uppercase",color:`${color}70`}}>Share ↗</span>
+          </div>
+        )}
+
+        {/* Adjective chips — from persona card */}
+        {profile.persona?.adjectives?.length > 0 && (
+          <div style={{display:"flex",flexWrap:"wrap",justifyContent:"center",gap:5,marginTop:12}}>
+            {profile.persona.adjectives.map((adj,i) => (
+              <span key={i} style={{
+                fontSize:10,letterSpacing:0.8,padding:"2px 10px",borderRadius:20,
+                background:`${color}06`,border:`0.5px solid ${color}20`,
+                color:`${color}90`,fontFamily:"'EB Garamond',Georgia,serif",fontStyle:"italic"
+              }}>{adj}</span>
+            ))}
+          </div>
+        )}
+
+        {/* MBTI resonance — from persona card */}
+        {profile.persona?.mbti_resonance?.length > 0 && (
+          <div style={{marginTop:8,fontSize:10,color:`${color}60`,fontFamily:"'EB Garamond',Georgia,serif",letterSpacing:0.5}}>
+            Resonates with {profile.persona.mbti_resonance.join(" · ")}
           </div>
         )}
       </div>
