@@ -591,32 +591,132 @@ Write the reading now. Return only valid JSON.`;
 }
 
 // ─── PERSONA SYSTEM PROMPT ───────────────────────────────────────────────────
+// v2.0 — Adds Four-Level Integration Model and Mandatory Portrait Pre-Write
+// before specificity rules. Caps therapist_advice at 3 items.
 
 const PERSONA_SYSTEM_PROMPT = `You are building a vivid, specific portrait of a real person who lives with this BaZi structural combination. This is not a personality summary. It is a character study specific enough that the person reading it will recognize specific moments from their own life — not just traits, but scenes, habits, reactions, the precise shape of their inner world.
 
 The persona card is the creative source document. The reading schema is later derived from it. Your job here is to produce a living human portrait — not to compress structural analysis into prose.
 
+═══ THE FOUR-LEVEL INTEGRATION MODEL ═══
+
+The four sourcing levels you will receive are not separate inputs to be combined. They are four angles on the same person. Think of someone you know well — you don't know them as a list of their traits. You know them as a whole, and the traits emerge from that whole. Your job is to find the whole person first, then let the fields emerge from that person.
+
+What each level describes:
+
+  LEVEL 1 — THE ENGINE
+  How this person processes reality. The cognitive mechanism that runs by default,
+  whether they're aware of it or not. Not what they do — what they ARE.
+
+  LEVEL 2 — THE VOLUME
+  How intensely the engine runs. Concentrated = full throttle, minimal counterbalance.
+  Balanced = regulated, responsive. Open = depends on conditions. Band sets the
+  amplitude at which everything else operates.
+
+  LEVEL 3 — THE CONDITION
+  The structural force the engine operates under. This is the dramatic fact of this
+  person's character: whether their energy amplifies itself (pure), is nourished from
+  outside (rooted), shapes what it encounters (forging), generates outward
+  (flowing/expressive), or operates under a force bearing down on it (tested/pressured).
+  This determines the structural drama of their life.
+
+  LEVEL 4 — THE ORIENTATION
+  What the engine has been pointed toward. The formative gap. What this person has
+  been building toward — possibly without a name for it — whose arrival would change
+  the register of everything else they do.
+
+A person is not the sum of these levels. A person is what happens when this engine
+runs at this volume under this condition while oriented toward this thing it hasn't
+fully reached.
+
+WHERE LEVELS CONVERGE: consistent, legible traits — use these to anchor the portrait
+so the reader feels immediate recognition.
+
+WHERE LEVELS DIVERGE: dimensional traits — where the engine meets its condition and
+creates friction, surprise, or inner contradiction. These conflicts are not problems
+to resolve. They are the source of depth. The most specific persona cards are built
+around the productive tensions between levels, not the points of easy agreement.
+
+A coherent portrait doesn't iron out the contradictions. It shows how a real person
+lives with them. Consistency is a list. Coherence is a person.
+
+═══ MANDATORY PORTRAIT PRE-WRITE (internal — never in output) ═══
+
+Before writing a single JSON field, write a private portrait of this person in
+5–8 sentences. Write it in the voice of an intimate observer — someone who has
+known this person long enough to see past the surface. Not analytically: the way
+a close friend would describe them, or the way a good novelist would place them
+in a room.
+
+The portrait must weave together four things — not as a list, but as a whole:
+
+  1. What makes this person immediately recognizable — the signal a room picks up
+     before anything is said. This emerges from the intersection of Level 1 (the
+     engine's default output) and Level 2 (how intensely it runs).
+
+  2. The thing they do that confuses people who don't understand their architecture
+     — the behavior that makes sense from the inside but puzzles observers. This
+     emerges from the gap between Level 3 (what the condition produces) and how
+     Level 1 processes it. This confusion is the most recognizable thing — because
+     the user reading it will have been confused this way before.
+
+  3. What they're reaching toward without a name for it — in plain human language,
+     not structural language. What it feels like from the inside to not quite have
+     arrived at the thing they've been building toward. This is Level 4 in lived
+     experience, not concept.
+
+  4. The quality that is simultaneously their greatest gift and their greatest cost
+     — the single thing that makes them exceptional and makes them hard to live with
+     or be. Not an edge. The core paradox: the same thing, two faces. This must
+     emerge from the level tensions — not be stated abstractly.
+
+COHERENCE TEST — before proceeding to field generation, ask:
+  — Is this one person, or a collection of traits?
+  — Would someone who knows this person recognize them from this description
+    without any structural labels?
+  — Does the portrait hold together at the points where the levels conflict —
+    not by resolving the conflict, but by showing a person who lives with it?
+
+If the portrait fails any of these tests: don't adjust individual sentences.
+Return to the level conflicts. Find the most productive tension. Rebuild the
+portrait around it.
+
+FIELD GENERATION RULE: Every field must be derivable from your portrait — from
+the person you just described — not directly from the structural levels. If a
+field conflicts with your portrait, trust the portrait. The levels are inputs.
+The portrait is your working model. The fields are evidence of the portrait.
+
 ═══ SPECIFICITY RULES ═══
 
 EVENTS — three specific scenes:
-A situation + a specific choice + a specific outcome. The protagonist must behave in a way that would be implausible for most people but inevitable for this archetype.
+A situation + a specific choice + a specific outcome. The protagonist must behave
+in a way that would be implausible for most people but inevitable for this archetype.
   ✗ "They once stayed up late to finish something because their standards were high."
-  ✓ "They rewrote the entire framework at 2 AM the night before the presentation — not from anxiety, but because they'd known for a week that something was structurally wrong and they couldn't present something they didn't fully believe in."
+  ✓ "They rewrote the entire framework at 2 AM the night before the presentation —
+     not from anxiety, but because they'd known for a week that something was
+     structurally wrong and they couldn't present something they didn't fully believe in."
 
 DAILY HABITS — observable behaviors only:
 What you could watch a person doing. Should produce "oh my god I do that."
   ✗ "They tend to reflect deeply before making decisions."
-  ✓ "Opens their laptop before anything social happens. The first fifteen minutes are private — assessment runs, the day orients. Interrupting this is experienced as a disruption even by people they like."
+  ✓ "Opens their laptop before anything social happens. The first fifteen minutes are
+     private — assessment runs, the day orients. Interrupting this is experienced as
+     a disruption even by people they like."
 
 THERAPIST ADVICE — specific enough to act on this week:
   ✗ "Work on communicating your feelings more openly."
-  ✓ "The next time someone comes to you in distress, try waiting a full two minutes before moving toward a solution."
+  ✓ "The next time someone comes to you in distress, try waiting a full two minutes
+     before moving toward a solution. Notice what happens when you stay in the
+     problem with them instead of solving it."
 
-ANTI-GENERICITY: Before writing each field, ask: could this apply to a different tgPattern or catalyst for the same stem? If yes, rewrite until it couldn't.
+ANTI-GENERICITY: Before writing each field, ask: could this apply to a different
+tgPattern or catalyst for the same stem? If yes, rewrite until it couldn't.
 
 ═══ OUTPUT FORMAT ═══
 
-Return ONLY valid JSON, no markdown fences, no preamble:
+Return ONLY valid JSON, no markdown fences, no preamble.
+Do not include the portrait pre-write in your output.
+
 {
   "adjectives": ["word1","word2","word3","word4","word5","word6"],
   "labels": ["The one who X","The person who Y","The X that Z","label4","label5"],
@@ -635,7 +735,7 @@ Return ONLY valid JSON, no markdown fences, no preamble:
   "under_stress": "2-3 sentences. Exactly what the architecture does under pressure.",
   "architecture": "3-5 sentences. How they are wired — plain language, third person, no jargon.",
   "tension": "1-3 sentences. The single unresolved thing they carry.",
-  "therapist_advice": ["Specific behavioral experiment 1.","Advice 2.","Advice 3.","Advice 4."]
+  "therapist_advice": ["Specific behavioral experiment 1.","Advice 2.","Advice 3."]
 }`;
 
 // ─── PERSONA PROMPT BUILDER ──────────────────────────────────────────────────
@@ -659,21 +759,33 @@ function buildPersonaPrompt(combo) {
 
   return `Generate the persona card for: ${dm.stem}_${band}_${tgPattern}_${catalyst}
 ${sisterContext}
-ARCHETYPE: ${dm.stem} — ${dm.archetype} | ${dm.polarityDesc}
-BAND: ${bandData.label} (${bandData.icon}) — ${bandData.frame}
-PATTERN: ${tgData.label} [${tgData.tgFamily}] — Dominant force: ${tgData.dominantForce(dm)}
-CATALYST: ${catalyst} — ${catalystCtx}
+ARCHETYPE IDENTITY:
+  Stem:     ${dm.stem} — ${dm.archetype} | ${dm.polarityDesc}
+  Band:     ${bandData.label} (${bandData.icon}) — ${bandData.frame}
+  Pattern:  ${tgData.label} [${tgData.tgFamily}] — Dominant force: ${tgData.dominantForce(dm)}
+  Catalyst: ${catalyst} — ${catalystCtx}
+
+═══ STEP 1: WRITE YOUR PORTRAIT PRE-WRITE (internal — do not include in output) ═══
+Using the sourcing data below as raw material, write your private 5–8 sentence
+portrait before generating any field. The portrait is your working model.
+Find the whole person first — especially the productive conflict between levels.
+The data is source material, not a sequence to process.
+
+═══ SOURCING DATA (reference for your portrait and fields) ═══
 
 TIER 1 PSYCHOLOGICAL:
-  Level 1 (stem): ${psychStem.mechanism} | Attachment: ${psychStem.attachment}
-  Level 2 (band): ${psychBand}
+  Level 1 (stem):     ${psychStem.mechanism} | Attachment: ${psychStem.attachment}
+  Level 2 (band):     ${psychBand}
   Level 3 (tgPattern): ${psychTgPattern}
   Level 4 (catalyst): ${psychCatalyst.need} | Substitution: ${psychCatalyst.substitution} | Arrival: ${psychCatalyst.arrival}
 
 TIER 2 CLASSICAL:
   Universal: ${classical.principle} — ${classical.derivation}${stemBlock}
 
-Generate the persona card now. Return only valid JSON.`;
+═══ STEP 2: GENERATE ALL FIELDS FROM YOUR PORTRAIT ═══
+Once your portrait is coherent and passes the three-question test, generate
+all JSON fields from it — not from the sourcing data directly.
+Return only valid JSON.`;
 }
 
 // ─── READING PROMPT BUILDER (Pass 2) ─────────────────────────────────────────
@@ -682,16 +794,7 @@ function buildReadingPrompt(combo, persona) {
   const { dm, band, tgPattern, catalyst } = combo;
   const bandData       = BANDS[band];
   const tgData         = TG_PATTERNS[tgPattern];
-  const catalystCtx    = CATALYST_CONTEXT[dm.element]?.[catalyst] || `${catalyst} is the key element this chart needs.`;
-  const psychStem      = PSYCH_PROFILES.stems[dm.stem];
-  const psychBand      = PSYCH_PROFILES.bands[band];
-  const psychTgPattern = PSYCH_PROFILES.tgPatterns[tgPattern];
-  const psychCatalyst  = PSYCH_PROFILES.catalysts[catalyst];
-  const classical      = CLASSICAL_SOURCES[tgPattern];
-  const stemData       = STEM_CLASSICAL[dm.stem];
   const sisterContext  = tgData.sisterNote ? `\n${tgData.sisterNote}\n` : "";
-  const stemBlock      = (stemData && !(dm.stem === "壬" && catalyst !== "Earth"))
-    ? `\nSTEM SOURCE-FROM: ${stemData.principle} — ${stemData.derivation}` : "";
 
   const personaBlock = persona
     ? `\n═══ PERSONA CARD (derive the reading from this portrait) ═══\n${JSON.stringify(persona, null, 2)}\n`
@@ -700,18 +803,12 @@ function buildReadingPrompt(combo, persona) {
   return `Generate the reading schema for: ${dm.stem}_${band}_${tgPattern}_${catalyst}
 ${sisterContext}${personaBlock}
 ARCHETYPE: ${dm.stem} — ${dm.archetype} | ${dm.polarityDesc}
-BAND: ${bandData.label} (${bandData.icon}) | PATTERN: ${tgData.label} | CATALYST: ${catalyst} — ${catalystCtx}
+ELEMENTAL REGISTER: ${dm.element} — voice this reading in the ${dm.element} elemental register.
 
-SOURCING CONTEXT:
-  Level 1: ${psychStem.mechanism}
-  Level 2: ${psychBand}
-  Level 3: ${psychTgPattern}
-  Level 4: ${psychCatalyst.need} | ${psychCatalyst.arrival}
-  Classical: ${classical.principle} — ${classical.derivation}${stemBlock}
-
-INSTRUCTION: The persona card above is the source. Write the reading as a curated
-distillation — not a new analysis, but the recognition moment condensed into
-literary form and voiced in the ${dm.element} elemental register.
+INSTRUCTION: The persona card above is the sole source. The sourcing data that
+produced this portrait is not present here — it did its job in Pass 1. Your job
+in Pass 2 is selection, compression, and voicing. Do not derive content from
+structural logic. Derive it from the person in the portrait.
 
 Derivation map:
   teaser  ← events[0] + stranger + tension (<=90 words)

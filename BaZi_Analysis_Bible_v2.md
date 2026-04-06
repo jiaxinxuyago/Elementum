@@ -1276,13 +1276,49 @@ For every template, the catalyst must appear in p2 as a formative gap — someth
 
 ### PART B: Generation Architecture
 
-The reading is derived, not invented. Three tiers operate in sequence, each with a distinct role and reliability profile:
+The complete generation pipeline is a three-layer architecture. Each layer has a distinct role, a distinct output format, and strict scoping rules about what data crosses each boundary.
 
-**Tier 1 — Psychological Frameworks (§3A.7)** is mandatory for every key. The PSYCH_PROFILES data structure in the generator pre-loads the four-level psychological derivation for each specific combination: stem cognitive mechanism (Level 1), band intensity and regulation (Level 2), tgPattern structural condition and shadow (Level 3), catalyst SDT motivational gap (Level 4). This data is injected directly into the generation prompt — the model reads it, not queries it. Zero hallucination risk.
+```
+SOURCING LAYER          PORTRAIT LAYER           READING LAYER
+(Tier 1 + Tier 2)  →   (Persona Card)       →   (Reading Schema)
+analytical              vivid + human            distilled + voiced
+Pass 1 input            Pass 1 output            Pass 2 output
+                        Pass 2 input only
+```
 
-**Tier 2 — Classical Sources (Part C)** is selective and gated. The CLASSICAL_SOURCES and STEM_CLASSICAL data structures inject only the SOURCE-FROM flagged principles for each key's tgPattern and stem. Maximum two additional behavioral claims from the universal tgPattern principle; maximum three from a stem-specific conditional. If Tier 1 already covers what a classical principle produces, confirm and move on. For stems without a STEM_CLASSICAL entry, no classical injection occurs — Tier 1 is sufficient. The hallucination gate is the sourcing flag: EXCLUDE and VERIFY-ONLY principles never generate behavioral claims.
+**The boundary rule:** Sourcing data is scoped to Pass 1 only. It does not cross into Pass 2. The persona card is the sole input to Pass 2. This is not a convenience — it is the architectural guarantee that the reading derives from a living human portrait, not from structural formulas.
 
-**Tier 3 — Language Filter (Part D system prompt)** is mandatory for every key. It runs last. Translates the Tier 1 + Tier 2 inventory into user-facing language. Does not generate content — selects, compresses, translates through the composition order, three-layer model, and all Part D guardrail rules.
+You cannot derive a vivid reading directly from analytical inputs. The intermediate portrait layer exists because structural mechanics → literary prose produces precision without vividness. The persona card solves this: it is the creative canvas that transforms analytical truth into a human being. The reading is then curated from that canvas — selected, compressed, voiced — never from the analysis itself.
+
+---
+
+**SOURCING LAYER — Pass 1 input only**
+
+Two sourcing tiers, both scoped to Pass 1:
+
+**Tier 1 — Psychological Frameworks (§3A.7)** is mandatory for every key. The PSYCH_PROFILES data structure pre-loads the four-level psychological derivation: stem cognitive mechanism (Level 1), band intensity and regulation (Level 2), tgPattern structural condition and shadow (Level 3), catalyst SDT motivational gap (Level 4). Injected directly into the Pass 1 prompt. Zero hallucination risk. Stops at the portrait layer boundary.
+
+**Tier 2 — Classical Sources (Part C)** is selective and gated. CLASSICAL_SOURCES and STEM_CLASSICAL inject only SOURCE-FROM flagged principles for each key's tgPattern and stem. Maximum two additional behavioral claims from the universal tgPattern principle; maximum three from a stem-specific conditional. If Tier 1 already covers a principle's output, confirm and move on. Stops at the portrait layer boundary.
+
+---
+
+**PORTRAIT LAYER — Pass 1 output · Pass 2 input**
+
+The persona card is a vivid, multi-format portrait of a specific person living this structural combination. It is generated in Pass 1 from the sourcing data. It lives permanently in TEMPLATE_DB as the `persona` field and serves three roles:
+
+- **Source for the reading** — Pass 2 derives all reading content from this portrait, not from structural analysis
+- **Content database for the app** — daily habits become push notifications; therapist advice becomes weekly reflections; events become the "does this sound like someone you know" share mechanic
+- **Retention layer** — the reading converts a new user; the persona card keeps them
+
+The portrait is generated using the Four-Level Integration Model and Mandatory Portrait Pre-Write (Part F). The model builds a coherent whole person from the level tensions first, then generates the fields from that person.
+
+---
+
+**READING LAYER — Pass 2 output**
+
+The reading schema is distilled from the persona card. Pass 2 receives the persona card and archetype identity only — no sourcing data. The model's job is selection, compression, and voicing through the elemental register. It does not derive new content. It does not consult structural logic. It curates from the portrait.
+
+**Tier 3 — Language Filter (Part D system prompt)** applies at the reading layer. Mandatory for every key. Translates the portrait-sourced content into user-facing language through the composition order, three-layer voice model, and all Part D guardrail rules.
 
 **Composition order** (write in this sequence, not schema order): elemental register calibration → p1 → p2 → gifts → edges → landscape → twoAM → teaser written last. The complete operational instructions live in Part D. Part C carries the classical source specifications. §3A.7 carries the psychological framework detail. This section is the map; those sections are the territory.
 
@@ -2185,6 +2221,90 @@ The childhood friend describes who this person actually is before the profession
 **Therapist advice — must be specific enough to act on:**
 - ✗ "Work on communicating your feelings more openly"
 - ✓ "The next time someone comes to you in distress, try waiting a full two minutes before moving toward a solution. Notice what happens when you stay in the problem with them instead of solving it."
+
+---
+
+#### The Four-Level Integration Model
+
+The four sourcing levels are not separate inputs to be combined. They are four angles on the same person. Think of someone you know well — you don't know them as a list of their traits. You know them as a whole, and the traits emerge from that whole. The four levels describe the same human architecture from different vantage points. Taken together, they explain a person. Taken separately, they produce a list.
+
+**What each level describes:**
+
+| Level | Role | What it explains |
+|---|---|---|
+| Level 1 — Stem | The Engine | How this person processes reality — the default cognitive mechanism that runs whether they're aware of it or not. Not what they do: what they ARE. |
+| Level 2 — Band | The Volume | How intensely the engine runs. Concentrated = full throttle, minimal counterbalance. Balanced = regulated and responsive. Open = depends on conditions. Band sets the amplitude at which everything else operates. |
+| Level 3 — tgPattern | The Condition | The structural force the engine is operating under. This is the dramatic fact of this person's character: whether their energy amplifies itself (pure), is nourished from outside (rooted), shapes what it encounters (forging), generates outward (flowing/expressive), or operates under a force bearing down on it (tested/pressured). This determines the structural drama of their life — what kind of situations they attract and what kind of character those situations produce. |
+| Level 4 — Catalyst | The Orientation | What the engine has been pointed toward. The formative gap. What they've been building toward — possibly without a name for it — whose arrival would change the register of everything else they do. Not a supplement: a destination. |
+
+**A person is not the sum of these levels.** A person is what happens when this engine runs at this volume under this condition while oriented toward this thing it hasn't fully reached yet.
+
+**Where levels converge:** The most consistent, legible traits. The ones this person's friends could predict. Use these to anchor the portrait so the reader feels immediate recognition.
+
+**Where levels diverge:** The dimensional traits. Where the engine meets its condition and produces friction, surprise, or inner contradiction. These conflicts are not problems to resolve — they are the source of depth. A coherent portrait doesn't iron them out. It shows how a real person lives with them.
+
+The most specific persona cards are built around 1–2 productive conflicts between levels, not around the points of convergence.
+
+---
+
+**Integration example — 庚_concentrated_pressured_Fire**
+
+*Engine (Level 1, Yang Metal):* Precision-first processing. Assessment runs automatically on everything encountered. The cognitive default is evaluation, not engagement.
+
+*Volume (Level 2, concentrated):* Saturated — self-directed, full charge, very little counterbalance. The precision runs at maximum and has almost nothing to moderate it.
+
+*Condition (Level 3, pressured):* Seven Killings — a force of the same polarity as the DM, bearing down. Not a challenge to overcome: an unasked-for shaping pressure. It doesn't negotiate. It doesn't care whether the person survives it. The outcome is a genuine bifurcation: exceptional or damaged, with few cases in between.
+
+*Orientation (Level 4, Fire):* Autonomy from within. Internally constructed purpose. Direction that comes from inside rather than assigned by the pressure bearing down.
+
+**Where they converge:** A highly precise person operating at maximum intensity — legible, consistent, immediately recognizable.
+
+**Where they diverge:** The precision (Level 1) is self-sufficient and internally generated. The pressure (Level 3) is external and indifferent to the self it's shaping. The orientation (Level 4) is toward self-directed purpose — but the pressure that produced this person operated outside their control. The productive conflict: someone whose entire architecture is built around internal precision being formed by a force that had nothing to do with what they intended.
+
+**The portrait that emerges from this conflict — not from the convergence:**
+
+This is not "a precise person who has faced adversity." That's convergence without dimensionality. The vivid portrait is: someone who was refined to an extraordinary degree precisely because the force bearing down on them didn't give them the option of staying rough. The precision isn't incidental — it was survival. And what the Fire catalyst names is: all of that refinement still hasn't told them what it's for. They built the instrument. They haven't found the purpose it was built for. That gap — between a completed instrument and an unconfirmed direction — is the tension the portrait must hold.
+
+A different, equally valid portrait would not emerge from a clean synthesis of all four levels. It emerges from the friction between them.
+
+---
+
+#### Mandatory Portrait Pre-Write
+
+> This pre-write is an internal working step. It is never in the JSON output.
+> It is the portrait the fields are drawn from — not a summary of the levels.
+
+Before generating any JSON field, write a private portrait of this person in 5–8 sentences. Write it in the voice of an intimate observer — someone who has known this person long enough to see past the surface. Not analytically: the way a close friend would describe them, or the way a good novelist would place them in a room.
+
+**The portrait must contain four things, woven together — not listed separately:**
+
+1. **What makes this person immediately recognizable** — the signal a room picks up in the first few minutes, before anything is said. This emerges from the intersection of Level 1 (the engine's default output) and Level 2 (how intensely it runs).
+
+2. **The thing they do that confuses people** — the behavior that makes sense from the inside but puzzles people who don't understand the architecture. This emerges from the gap between Level 3 (what the condition produces) and how Level 1 actually processes it. The confusion is the most recognizable thing — because the user reading it will have been confused this way before.
+
+3. **What they're reaching toward without a name for it** — in plain language, not structural language. Not "they lack catalyst." What it feels like to be them, from the inside, to not quite have arrived at the thing they've been building toward. This is Level 4 translated into lived experience.
+
+4. **The quality that is simultaneously their greatest gift and their greatest cost** — the single thing that makes them exceptional and makes them hard to live with or be. This is not an edge. It's the core paradox: the same thing, two faces. It must emerge from the level tensions, not be stated abstractly.
+
+**The coherence test:** Read your portrait. Ask three questions before proceeding:
+
+- Is this one person, or a collection of traits? A list of traits is not a portrait. A person is coherent — their contradictions make sense when you understand the architecture.
+- Would someone who knows this person recognize them from this description, even without the structural labels?
+- Does the portrait hold together at the points where the levels conflict — not by resolving the conflict, but by showing a person who lives with it?
+
+If the portrait fails any of these tests, don't adjust individual sentences. Return to the level conflicts, find the most productive one, and rebuild the portrait around it. Field generation follows from portrait quality, not the reverse.
+
+**Field generation rule:** Every field must be derivable from this portrait — from the person you've just described. Not directly from the structural levels. If a field conflicts with your portrait, trust the portrait. The levels are inputs. The portrait is the working model. The fields are evidence of the portrait.
+
+---
+
+**Portrait Pre-Write example — 庚_concentrated_pressured_Fire**
+
+*Private portrait (not in output):*
+
+> They've always been the person who finishes. Not the loudest, not the one making promises — the one who, when it actually needed to happen, made it happen, and said nothing about it afterward. People around them can feel the standard they hold themselves to, even when nothing is said. This is reassuring and slightly unsettling in equal measure: you know they see everything, and you know they've already formed a judgment you haven't been told. What confuses people is that the precision feels personal, even when it isn't. They're not assessing you — they're assessing everything, because that's how the engine runs. The thing they've never quite named is that all of it — the finishing, the holding of standard, the relentlessness — was never in service of an external goal. They want to feel like the direction came from inside. Like the precision was chosen, not forged by something they didn't ask for. The cost of what they are: the same capacity that makes them the person you call when everything actually matters is what makes them difficult to be close to when it doesn't.
+
+Notice that this portrait doesn't list "precision, intensity, externally shaped" as separate traits. It shows a person living those things — and the conflict between them (the precision is real and their own; the force that produced it was not) is held inside the portrait without being resolved. The fields are all derivable from this portrait: `events` will be specific scenes where this person's finishing-capacity manifested; `architecture` will explain the engine the childhood friend always noticed; `tension` will name what the last sentence points at; `twoAM` will be the first-person version of the cost.
 
 ---
 
