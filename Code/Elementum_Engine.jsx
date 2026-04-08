@@ -290,20 +290,17 @@ function computeDMStrength(pillars, dmStem, bondedDMStems = new Set()) {
 }
 
 
-// ── COMPOUND ARCHETYPE SYSTEM — Part 3A of Bible ────────────────────────────
-// Three functions that produce the Tier 2 template lookup key:
-//   [stem]_[band]_[tgPattern]_[catalyst]   (420-key taxonomy, Bible §3A.3)
-// See Bible Part 3A for full taxonomy, content rules, and generation protocol.
+// ── COMPOUND ARCHETYPE SYSTEM — Doc2 §3 ─────────────────────────────────────
+// Layer 1 key: [stem]_[band]_[tgPattern]   (150-key taxonomy, Doc2 §3)
+// Layer 2 key: [domEl]_[specificTenGod]    (50-key pool, Doc2 §3)
 //
-// tgPattern is a 7-value axis derived from the Ten Gods relationship between
-// the dominant chart element and the Day Master. The two highest-impact TG
-// pairs are split using yin/yang polarity resolution:
-//   flowing  = 食神 (Food God, same polarity output)
-//   expressive = 伤官 (Hurting Officer, opposite polarity output)
-//   tested   = 正官 (Direct Officer, opposite polarity authority)
-//   pressured = 七杀 (Seven Killings, same polarity authority)
-// The remaining three (pure / rooted / forging) are structurally unambiguous
-// and require no polarity split.
+// tgPattern is a 5-value axis. The yin/yang polarity split within Output and
+// Authority families is resolved at Layer 2 via getDominantTenGod(), not here.
+//   pure    = 比劫旺  (same element dominant)
+//   rooted  = 印旺    (resource element dominant)
+//   flowing = 食伤旺  (output element dominant — both 食神 and 伤官)
+//   forging = 财旺    (wealth element dominant)
+//   tested  = 官杀旺  (authority element dominant — both 正官 and 七杀)
 
 const CATALYST_MAP = {
   Metal: {concentrated:["Fire","Water"], balanced:["Fire","Earth"],  open:["Earth","Metal"]},
@@ -353,13 +350,11 @@ function getDominantElementPolarity(domEl, dmStem, pillars) {
   return yangW >= yinW ? 0 : 1;
 }
 
-// ── TG Pattern: the 7-value structural relationship axis (Bible §3A.3).
-// Requires chart.dayMaster.stem and chart.pillars for the Output/Authority splits.
-// chart.pillars is optional — omitting it gracefully falls back to flowing/tested.
+// ── TG Pattern: the 5-value structural relationship axis (Doc2 §3).
+// Yin/yang polarity within Output (食神/伤官) and Authority (正官/七杀) families
+// is NOT resolved here — that lives in getDominantTenGod() for Layer 2 lookups.
 function computeTgPattern(chart) {
   const dmEl   = chart.dayMaster.element;
-  const dmStem = chart.dayMaster.stem;
-  const dmYin  = STEM_YIN[dmStem];   // 0 = yang, 1 = yin
   const GEN    = {Wood:"Fire",Fire:"Earth",Earth:"Metal",Metal:"Water",Water:"Wood"};
   const CTL    = {Wood:"Earth",Earth:"Water",Water:"Fire",Fire:"Metal",Metal:"Wood"};
 
@@ -371,31 +366,34 @@ function computeTgPattern(chart) {
 
   const dominant = sorted[0][0];
 
-  // ── Five structural relationships ──────────────────────────────────────
-  if (dominant === dmEl)          return "pure";    // 比劫: self-element leads
-  if (GEN[dominant] === dmEl)     return "rooted";  // 印: resource generates DM
-  if (CTL[dmEl]     === dominant) return "forging"; // 财: DM controls dominant
-
-  if (GEN[dmEl] === dominant) {
-    // Output TG family — DM generates dominant element.
-    // 食神 (Food God):    same polarity as DM  → "flowing"
-    // 伤官 (Hurt Officer): opp  polarity to DM  → "expressive"
-    const domYin = getDominantElementPolarity(dominant, dmStem, chart.pillars);
-    return (dmYin === domYin) ? "flowing" : "expressive";
-  }
-
-  if (CTL[dominant] === dmEl) {
-    // Authority TG family — dominant element controls DM.
-    // 正官 (Direct Officer): opp  polarity to DM  → "tested"
-    // 七杀 (Seven Killings): same polarity as DM  → "pressured"
-    const domYin = getDominantElementPolarity(dominant, dmStem, chart.pillars);
-    return (dmYin === domYin) ? "pressured" : "tested";
-  }
+  if (dominant === dmEl)          return "pure";    // 比劫旺: self-element leads
+  if (GEN[dominant] === dmEl)     return "rooted";  // 印旺: resource generates DM
+  if (CTL[dmEl]     === dominant) return "forging"; // 财旺: DM controls dominant
+  if (GEN[dmEl]     === dominant) return "flowing"; // 食伤旺: DM generates dominant
+  if (CTL[dominant] === dmEl)     return "tested";  // 官杀旺: dominant controls DM
 
   return "pure"; // unreachable given exhaustive 五行生克 coverage above
 }
 
-// Primary catalyst = what this DM needs at this band (Bible §3A.3)
+// Resolve the specific Ten God for any dominant element vs Day Master.
+// Uses getDominantElementPolarity to determine the dominant element's yin/yang,
+// then compares with the DM's polarity to pick the precise TG within each family.
+function getDominantTenGod(domEl, dmStem, pillars) {
+  const dmEl  = STEM_ELEM[dmStem];
+  const dmYin = STEM_YIN[dmStem];
+  const domYin = getDominantElementPolarity(domEl, dmStem, pillars);
+  const same  = dmYin === domYin;
+  const GEN   = {Wood:"Fire",Fire:"Earth",Earth:"Metal",Metal:"Water",Water:"Wood"};
+  const CTL   = {Wood:"Earth",Earth:"Water",Water:"Fire",Fire:"Metal",Metal:"Wood"};
+  if (domEl === dmEl)          return same ? "比肩" : "劫财";
+  if (GEN[domEl] === dmEl)     return same ? "偏印" : "正印";
+  if (GEN[dmEl]  === domEl)    return same ? "食神" : "伤官";
+  if (CTL[dmEl]  === domEl)    return same ? "偏财" : "正财";
+  if (CTL[domEl] === dmEl)     return same ? "七杀" : "正官";
+  return "比肩";
+}
+
+
 function getPrimaryCatalyst(chart) {
   const dmEl = chart.dayMaster.element;
   const band = getEnergyBand(chart.dayMaster.strength);
@@ -403,24 +401,20 @@ function getPrimaryCatalyst(chart) {
   return primary === dmEl ? secondary : primary;
 }
 
-// Full Tier 2 lookup key: [stem]_[band]_[tgPattern]_[catalyst]  (Bible §3A.3)
+// Layer 1 lookup key: [stem]_[band]_[tgPattern]  (Doc2 §3, 150-key taxonomy)
 function getArchetypeKey(chart) {
   const tgPattern = computeTgPattern(chart);
-  const catalyst  = getPrimaryCatalyst(chart);
   const band      = getEnergyBand(chart.dayMaster.strength);
-  return `${chart.dayMaster.stem}_${band}_${tgPattern}_${catalyst}`;
+  return `${chart.dayMaster.stem}_${band}_${tgPattern}`;
 }
 
-// TG Pattern display labels — Tier 1 user-facing names (Bible §3A.2 / §3A.3)
-// Seven values: the Output and Authority pairs are now split by yin/yang polarity.
+// tgPattern display labels — 5 values (Doc2 §3)
 const TG_PATTERN_LABELS = {
-  pure:       "Pure",
-  rooted:     "Rooted",
-  flowing:    "Flowing",
-  expressive: "Expressive",
-  forging:    "Forging",
-  tested:     "Tested",
-  pressured:  "Pressured",
+  pure:    "Pure",
+  rooted:  "Rooted",
+  flowing:  "Flowing",
+  forging: "Forging",
+  tested:  "Tested",
 };
 // Legacy alias — retained so any downstream code referencing TENSION_LABELS still works.
 const TENSION_LABELS = TG_PATTERN_LABELS;
@@ -528,7 +522,7 @@ function calculateBaziChart(input) {
   };
   const tgPattern    = computeTgPattern(partialChart);
   const catalyst     = getPrimaryCatalyst(partialChart);
-  const archetypeKey = `${dayStem}_${getEnergyBand(strength)}_${tgPattern}_${catalyst}`;
+  const archetypeKey = `${dayStem}_${getEnergyBand(strength)}_${tgPattern}`;
   return {
     meta:{birthDate:`${year}-${String(month).padStart(2,"0")}-${String(day).padStart(2,"0")}`,birthHour:hour,location:location||"Beijing",gender,calculatedAt:now.toISOString().split("T")[0]},
     pillars:{year:{stem:yearStem,branch:yearBranch,stemElement:STEM_ELEM[yearStem],branchElement:BRANCH_ELEM[yearBranch],stemPolarity:STEM_YIN[yearStem]?"yin":"yang",branchPolarity:BRANCH_YIN[yearBranch]?"yin":"yang"},month:{stem:monthStem,branch:monthBranch,stemElement:STEM_ELEM[monthStem],branchElement:BRANCH_ELEM[monthBranch],stemPolarity:STEM_YIN[monthStem]?"yin":"yang",branchPolarity:BRANCH_YIN[monthBranch]?"yin":"yang"},day:{stem:dayStem,branch:dayBranch,stemElement:STEM_ELEM[dayStem],branchElement:BRANCH_ELEM[dayBranch],stemPolarity:STEM_YIN[dayStem]?"yin":"yang",branchPolarity:BRANCH_YIN[dayBranch]?"yin":"yang"},hour:{stem:hourStem,branch:hourBranch,stemElement:STEM_ELEM[hourStem],branchElement:BRANCH_ELEM[hourBranch],stemPolarity:STEM_YIN[hourStem]?"yin":"yang",branchPolarity:BRANCH_YIN[hourBranch]?"yin":"yang"}},
@@ -546,11 +540,10 @@ function calculateBaziChart(input) {
 
 
 // ── TEMPLATE DATABASE ──────────────────────────────────────────────────────
-// Tier 2 compound archetype template lookup.
-// Key format: [stem]_[band]_[tension]_[catalyst]  (see Bible Part 3A)
-// Full 300-key library generated via generate_templates_v2.js (Claude Opus, ~$25).
-// Reference template below is hand-written to spec — used as quality benchmark.
-// Legacy keys (old format) retained below reference key for fallback compatibility.
+// Layer 1 templates: key format [stem]_[band]_[tgPattern]  (Doc2 §3)
+// 150 keys total (10 stems × 3 bands × 5 patterns).
+// 1 key hand-authored as reference standard: 庚_concentrated_pure
+// Remaining 149 generated via generate_templates_v2.js (see Doc4 §6).
 // ─────────────────────────────────────────────────────────────────────────────
 
 const TEMPLATE_DB = {
@@ -1016,10 +1009,10 @@ async function generateReading(chartData, userTier, onBelowFold) {
 const C = {
   bg:"#f7f3ec",bgCard:"#f0ebe0",text:"#1d1b18",textSec:"#4a4540",textTer:"#8a8278",
   accent:"#8b7250",accentDark:"#5a4228",accentLight:"#c4a878",
-  border:"#e0d8cc",borderLight:"#ece7df",fire:"#b04030",
+  border:"#e0d8cc",borderLight:"#ece7df",fire:"#c4745a",
   tierFree:"#6a9860", tierSeeker:"#8b7250", tierAdvisor:"#4870a0", tierOracle:"#7a6080",
 };
-const EL_C  = {Metal:"#6080a0",Wood:"#6a9860",Fire:"#b04030",Earth:"#a08850",Water:"#4870a0"};
+const EL_C  = {Metal:"#8ba3b8",Wood:"#7a9e6e",Fire:"#c4745a",Earth:"#b89a6a",Water:"#5a7fa8"};
 const EL_ZH = {Metal:"金",Wood:"木",Fire:"火",Earth:"土",Water:"水"};
 
 // ─── SECTION TITLES BY DAY MASTER ─────────────────────────────────────────
@@ -1833,173 +1826,186 @@ function DayMasterHero({ chart }) {
           {profile.manifesto}
         </div>
         {/* Compound identity chips — band / tgPattern / catalyst */}
-        {(profile.tgPattern || profile.catalyst) && (
-          <div style={{display:"flex",justifyContent:"center",gap:7,flexWrap:"wrap",marginBottom:14}}>
-            {profile.band && (
-              <div style={{fontSize:10,letterSpacing:1,padding:"3px 11px",borderRadius:20,border:`0.5px solid ${color}35`,background:`${color}08`,color:color,fontFamily:"'EB Garamond',Georgia,serif"}}>
-                {profile.band === "concentrated" ? "☀" : profile.band === "balanced" ? "⚖" : "☽"} {profile.band.charAt(0).toUpperCase() + profile.band.slice(1)}
-              </div>
-            )}
-            {profile.tgPattern && (
-              <div style={{fontSize:10,letterSpacing:1,padding:"3px 11px",borderRadius:20,border:`0.5px solid ${color}35`,background:`${color}08`,color:color,fontFamily:"'EB Garamond',Georgia,serif"}}>
-                {TG_PATTERN_LABELS[profile.tgPattern] || profile.tgPattern}
-              </div>
-            )}
-            {profile.catalyst && (
-              <div style={{fontSize:10,letterSpacing:1,padding:"3px 11px",borderRadius:20,border:`0.5px solid ${EL_C[profile.catalyst] || color}50`,background:`${EL_C[profile.catalyst] || color}08`,color:EL_C[profile.catalyst] || color,fontFamily:"'EB Garamond',Georgia,serif"}}>
-                Seeking {profile.catalyst}
-              </div>
-            )}
-          </div>
-        )}
         {/* Shareable code strip */}
-        {profile.tgPattern && (
-          <div style={{display:"inline-flex",alignItems:"center",gap:8,background:`${color}08`,border:`0.5px dashed ${color}35`,borderRadius:10,padding:"6px 14px"}}>
-            <span style={{fontFamily:"monospace",fontSize:11,color:color,letterSpacing:0.5}}>
-              {dm.stem} · {profile.archetype.replace("The ","").toUpperCase()} · {profile.band === "concentrated" ? "☀" : profile.band === "balanced" ? "⚖" : "☽"} · {(TG_PATTERN_LABELS[profile.tgPattern]||"").toUpperCase()}
-            </span>
-            <span style={{fontSize:9,letterSpacing:1.5,textTransform:"uppercase",color:`${color}70`}}>Share ↗</span>
-          </div>
-        )}
-
         {/* Adjective chips — from persona card */}
-        {profile.persona?.adjectives?.length > 0 && (
-          <div style={{display:"flex",flexWrap:"wrap",justifyContent:"center",gap:5,marginTop:12}}>
-            {profile.persona.adjectives.map((adj,i) => (
-              <span key={i} style={{
-                fontSize:10,letterSpacing:0.8,padding:"2px 10px",borderRadius:20,
-                background:`${color}06`,border:`0.5px solid ${color}20`,
-                color:`${color}90`,fontFamily:"'EB Garamond',Georgia,serif",fontStyle:"italic"
-              }}>{adj}</span>
-            ))}
-          </div>
-        )}
-
         {/* MBTI resonance — from persona card */}
-        {profile.persona?.mbti_resonance?.length > 0 && (
-          <div style={{marginTop:8,fontSize:10,color:`${color}60`,fontFamily:"'EB Garamond',Georgia,serif",letterSpacing:0.5}}>
-            Resonates with {profile.persona.mbti_resonance.join(" · ")}
-          </div>
-        )}
+        {/* All of the above are stored in the user profile database (see Debug Panel) */}
+        {/* and intentionally not rendered on the identity card to keep it clean */}
       </div>
 
-      {/* ── BODY ── */}
+    </div>
+  );
+}
+// ─── DEBUG PANEL — NOT FOR PRODUCTION ─────────────────────────────────────
+// This panel displays the computed user profile database for development only.
+// It will NOT ship in the actual product. Expand with additional db fields later.
+function DebugPanel({ chart }) {
+  const [open, setOpen] = useState(false);
+  const dm      = chart.dayMaster;
+  const profile = buildDayMasterProfile(chart);
+  const band    = getEnergyBand(dm.strength);
+  const tgPat   = computeTgPattern(chart);
+  const catalyst= getPrimaryCatalyst(chart);
+
+  const rows = [
+    ["Day Master stem",    dm.stem],
+    ["Day Master element", dm.element],
+    ["Polarity",           dm.polarity],
+    ["Strength",           dm.strength],
+    ["Energy band",        band],
+    ["Archetype",          profile.archetype],
+    ["tgPattern",          tgPat],
+    ["Catalyst",           catalyst],
+    ["Archetype key",      `${dm.stem}_${band}_${tgPat}`],
+    ["Shareable code",     `${dm.stem} · ${(profile.archetype||"").replace("The","").trim().toUpperCase()} · ${band.toUpperCase()} · ${(tgPat||"").toUpperCase()}`],
+    ["MBTI resonance",     profile.persona?.mbti_resonance?.join(" · ") || "—"],
+    ["Adjectives",         profile.persona?.adjectives?.join(", ") || "—"],
+    ["Tension (2AM)",      profile.twoAM ? `"${profile.twoAM.slice(0,60)}…"` : "—"],
+    ["Missing elements",   chart.missingElements?.join(", ") || "none"],
+    ["Element scores",     Object.entries(chart.elements||{}).map(([el,d])=>`${el}:${d.count??0}`).join(" · ")],
+  ];
+
+  const ff = "'EB Garamond',Georgia,serif";
+  return (
+    <div style={{marginTop:24,borderRadius:10,border:"1px dashed #c4745a50",overflow:"hidden",fontFamily:ff}}>
+      <button onClick={()=>setOpen(o=>!o)} style={{width:"100%",padding:"10px 14px",background:"#c4745a08",border:"none",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"space-between"}}>
+        <div style={{display:"flex",alignItems:"center",gap:8}}>
+          <span style={{fontSize:9,fontWeight:600,letterSpacing:1.5,textTransform:"uppercase",color:"#c4745a",fontFamily:ff}}>⚙ Debug — User Profile Database</span>
+          <span style={{fontSize:9,color:"#c4745a80",fontFamily:ff,fontStyle:"italic"}}>not shipped in production</span>
+        </div>
+        <span style={{fontSize:11,color:"#c4745a70"}}>{open ? "▲" : "▼"}</span>
+      </button>
+      {open && (
+        <div style={{padding:"12px 14px",background:"#fdf9f7"}}>
+          <div style={{fontSize:9,color:"#c4745a90",fontFamily:ff,fontStyle:"italic",marginBottom:10,lineHeight:1.6}}>
+            This panel shows the computed profile data stored in the user's database record. All fields shown here are available for product features but intentionally hidden from the identity card UI. Expand this panel as new database fields are added.
+          </div>
+          <div style={{borderRadius:6,overflow:"hidden",border:"0.5px solid #c4745a20"}}>
+            {rows.map(([label, value], i) => (
+              <div key={i} style={{display:"flex",gap:10,padding:"7px 10px",borderBottom: i<rows.length-1?"0.5px solid #c4745a12":"none",background:i%2===0?"transparent":"#c4745a05"}}>
+                <div style={{fontSize:10,color:"#9a8a7e",fontFamily:ff,width:140,flexShrink:0}}>{label}</div>
+                <div style={{fontSize:10,color:"#584A3E",fontFamily:"monospace",flex:1,wordBreak:"break-all"}}>{value}</div>
+              </div>
+            ))}
+          </div>
+          <div style={{marginTop:10,padding:"8px 10px",background:"#c4745a08",borderRadius:6,border:"0.5px solid #c4745a18"}}>
+            <div style={{fontSize:9,fontWeight:600,letterSpacing:1,textTransform:"uppercase",color:"#c4745a",fontFamily:ff,marginBottom:4}}>Pillars</div>
+            {["year","month","day","hour"].map(p => {
+              const pl = chart.pillars?.[p];
+              if (!pl) return null;
+              return (
+                <div key={p} style={{display:"flex",gap:8,marginBottom:3}}>
+                  <span style={{fontSize:9,color:"#9a8a7e",fontFamily:ff,width:40}}>{p}</span>
+                  <span style={{fontSize:10,fontFamily:"monospace",color:"#584A3E"}}>{pl.stem}{pl.branch} — {pl.stemElement}/{pl.branchElement}</span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function ProfileReading({ chart }) {
+  const dm      = chart.dayMaster;
+  const color   = EL_C[dm.element];
+  const profile = buildDayMasterProfile(chart);
+  const ff      = "'EB Garamond',Georgia,serif";
+  const divider = <div style={{height:"0.5px",background:`${color}20`,margin:"20px 0"}}/>;
+  const bgMap   = {
+    Metal:"linear-gradient(160deg,#eef2f8 0%,#f0ebe0 100%)",
+    Wood: "linear-gradient(160deg,#eef5ee 0%,#f0ebe0 100%)",
+    Fire: "linear-gradient(160deg,#f9efee 0%,#f0ebe0 100%)",
+    Earth:"linear-gradient(160deg,#f5f0e8 0%,#f0ebe0 100%)",
+    Water:"linear-gradient(160deg,#eef1f8 0%,#f0ebe0 100%)",
+  };
+  return (
+    <div style={{borderRadius:16,border:`1.5px solid ${color}30`,background:bgMap[dm.element]||C.bgCard,marginBottom:24,overflow:"hidden"}} className="fade">
       <div style={{padding:"22px 22px 26px"}}>
 
         {/* Energy level */}
         <div style={{display:"flex",alignItems:"center",gap:14,marginBottom:20,padding:"14px 16px",background:`${color}06`,borderRadius:10,border:`0.5px solid ${color}15`}}>
           <StrengthRing pct={profile.strengthRing.pct} color={color} stem={dm.stem} size={48}/>
           <div>
-            <div style={{fontSize:11,letterSpacing:1.2,textTransform:"uppercase",color:color,fontFamily:"'EB Garamond',Georgia,serif",fontWeight:500,marginBottom:3}}>{profile.strengthRing.label}</div>
-            <div style={{fontSize:13,color:C.textTer,fontFamily:"'EB Garamond',Georgia,serif",fontStyle:"italic",lineHeight:1.5}}>{profile.strengthRing.sublabel}</div>
+            <div style={{fontSize:11,letterSpacing:1.2,textTransform:"uppercase",color:color,fontFamily:ff,fontWeight:500,marginBottom:3}}>{profile.strengthRing.label}</div>
+            <div style={{fontSize:13,color:C.textTer,fontFamily:ff,fontStyle:"italic",lineHeight:1.5}}>{profile.strengthRing.sublabel}</div>
           </div>
         </div>
 
-        {/* Who You Are */}
-        {natureTeaser && (
-          <div>
-            <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:color,fontFamily:"'EB Garamond',Georgia,serif",fontWeight:500,marginBottom:12}}>Who You Are</div>
-            <p style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:17,lineHeight:1.75,color:C.text,fontStyle:"italic",margin:"0 0 16px 0"}}>
-              {natureTeaser}
-            </p>
-            {wyaP1 && (
-              <p style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:15,lineHeight:1.8,color:C.textSec,margin:"0 0 14px 0"}}>
-                {wyaP1}
-              </p>
-            )}
-            {wyaP2 && (
-              <p style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:15,lineHeight:1.8,color:C.textSec,margin:0}}>
-                {wyaP2}
-              </p>
-            )}
-          </div>
-        )}
-
-        {/* 2 AM Thought — only renders when compound template provides it */}
+        {/* 2 AM Thought */}
         {profile.twoAM && (
           <>
             {divider}
             <div style={{borderRadius:14,padding:"18px 20px",marginBottom:4,border:`1px dashed ${color}35`,background:`${color}04`}}>
-              <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:color,fontFamily:"'EB Garamond',Georgia,serif",fontWeight:500,marginBottom:10}}>2 AM Thought</div>
-              <p style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:16,lineHeight:1.8,color:C.text,fontStyle:"italic",margin:0}}>
-                "{profile.twoAM}"
-              </p>
+              <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:color,fontFamily:ff,fontWeight:500,marginBottom:10}}>2 AM Thought</div>
+              <p style={{fontFamily:ff,fontSize:16,lineHeight:1.8,color:C.text,fontStyle:"italic",margin:0}}>"{profile.twoAM}"</p>
             </div>
           </>
         )}
 
         {divider}
 
-        {/* Core Gifts — boxed card */}
+        {/* Core Gifts */}
         <div style={{marginBottom:14,borderRadius:14,overflow:"hidden",border:`1px solid ${color}22`}}>
-          {/* Card header bar */}
           <div style={{background:`${color}18`,borderBottom:`1px solid ${color}20`,padding:"12px 18px",display:"flex",alignItems:"center",gap:10}}>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
               <polygon points="7,1 8.8,5.5 13.5,5.5 9.7,8.5 11.2,13 7,10.2 2.8,13 4.3,8.5 0.5,5.5 5.2,5.5" fill={color} opacity="0.85"/>
             </svg>
-            <div style={{fontSize:11,letterSpacing:2,textTransform:"uppercase",color:color,fontFamily:"'EB Garamond',Georgia,serif",fontWeight:600}}>Core Gifts</div>
+            <div style={{fontSize:11,letterSpacing:2,textTransform:"uppercase",color:color,fontFamily:ff,fontWeight:600}}>Core Gifts</div>
           </div>
-          {/* Items */}
           <div style={{background:`${color}06`,padding:"6px 0"}}>
             {profile.strengths.map((s,i) => (
-              <div key={i} style={{
-                padding:"14px 18px",
-                borderBottom: i < profile.strengths.length-1 ? `0.5px solid ${color}15` : "none",
-              }}>
-                <div style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:15,fontWeight:600,color:color,lineHeight:1.4,marginBottom:5}}>{s.label||s}</div>
-                {s.desc && <div style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:14,lineHeight:1.7,color:C.textSec}}>{s.desc}</div>}
+              <div key={i} style={{padding:"14px 18px",borderBottom:i<profile.strengths.length-1?`0.5px solid ${color}15`:"none"}}>
+                <div style={{fontFamily:ff,fontSize:15,fontWeight:600,color:color,lineHeight:1.4,marginBottom:5}}>{s.label||s}</div>
+                {s.desc && <div style={{fontFamily:ff,fontSize:14,lineHeight:1.7,color:C.textSec}}>{s.desc}</div>}
               </div>
             ))}
           </div>
         </div>
 
-        {/* Growing Edge — boxed card */}
-        <div style={{borderRadius:14,overflow:"hidden",border:`1px solid ${C.accent}22`,marginBottom: profile.landscape ? 14 : 0}}>
-          {/* Card header bar */}
+        {/* Growing Edge */}
+        <div style={{borderRadius:14,overflow:"hidden",border:`1px solid ${C.accent}22`,marginBottom:profile.landscape?14:0}}>
           <div style={{background:`${C.accent}12`,borderBottom:`1px solid ${C.accent}18`,padding:"12px 18px",display:"flex",alignItems:"center",gap:10}}>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
               <path d="M7 2 C7 2 11 5 11 8.5 C11 10.5 9.2 12 7 12 C4.8 12 3 10.5 3 8.5 C3 5 7 2 7 2Z" stroke={C.accent} strokeWidth="1.2" fill="none" opacity="0.8"/>
               <path d="M7 5.5 L7 8.5" stroke={C.accent} strokeWidth="1.4" strokeLinecap="round"/>
               <circle cx="7" cy="10" r="0.7" fill={C.accent} opacity="0.8"/>
             </svg>
-            <div style={{fontSize:11,letterSpacing:2,textTransform:"uppercase",color:C.accent,fontFamily:"'EB Garamond',Georgia,serif",fontWeight:600}}>Growing Edge</div>
+            <div style={{fontSize:11,letterSpacing:2,textTransform:"uppercase",color:C.accent,fontFamily:ff,fontWeight:600}}>Growing Edge</div>
           </div>
-          {/* Items */}
           <div style={{background:`${C.accent}04`,padding:"6px 0"}}>
             {profile.shadows.map((s,i) => (
-              <div key={i} style={{
-                padding:"14px 18px",
-                borderBottom: i < profile.shadows.length-1 ? `0.5px solid ${C.accent}12` : "none",
-              }}>
-                <div style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:15,fontWeight:600,color:C.accent,lineHeight:1.4,marginBottom:5}}>{s.label||s}</div>
-                {s.desc && <div style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:14,lineHeight:1.7,color:C.textSec}}>{s.desc}</div>}
+              <div key={i} style={{padding:"14px 18px",borderBottom:i<profile.shadows.length-1?`0.5px solid ${C.accent}12`:"none"}}>
+                <div style={{fontFamily:ff,fontSize:15,fontWeight:600,color:C.accent,lineHeight:1.4,marginBottom:5}}>{s.label||s}</div>
+                {s.desc && <div style={{fontFamily:ff,fontSize:14,lineHeight:1.7,color:C.textSec}}>{s.desc}</div>}
               </div>
             ))}
           </div>
         </div>
 
-        {/* Landscape — only renders when compound template provides it */}
+        {/* Landscape */}
         {profile.landscape && (
           <div style={{borderRadius:14,overflow:"hidden",border:`1px solid ${color}22`}}>
             <div style={{background:`${color}10`,borderBottom:`1px solid ${color}18`,padding:"12px 18px",display:"flex",alignItems:"center",gap:10}}>
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M1 11 L4 6 L7 9 L10 4 L13 11 Z" stroke={color} strokeWidth="1.1" fill={`${color}20`} strokeLinejoin="round"/>
               </svg>
-              <div style={{fontSize:11,letterSpacing:2,textTransform:"uppercase",color:color,fontFamily:"'EB Garamond',Georgia,serif",fontWeight:600}}>Your Landscape</div>
+              <div style={{fontSize:11,letterSpacing:2,textTransform:"uppercase",color:color,fontFamily:ff,fontWeight:600}}>Your Landscape</div>
             </div>
             <div style={{padding:"6px 0"}}>
               <div style={{padding:"14px 18px",borderBottom:`0.5px solid ${color}15`,display:"flex",gap:12,alignItems:"flex-start"}}>
                 <div style={{width:6,height:6,borderRadius:"50%",background:color,marginTop:7,flexShrink:0}}/>
                 <div>
-                  <div style={{fontSize:11,letterSpacing:1,textTransform:"uppercase",color:color,fontFamily:"'EB Garamond',Georgia,serif",marginBottom:5}}>Where you operate at full capacity</div>
-                  <div style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:14,lineHeight:1.75,color:C.textSec}}>{profile.landscape.thrives}</div>
+                  <div style={{fontSize:11,letterSpacing:1,textTransform:"uppercase",color:color,fontFamily:ff,marginBottom:5}}>Where you operate at full capacity</div>
+                  <div style={{fontFamily:ff,fontSize:14,lineHeight:1.75,color:C.textSec}}>{profile.landscape.thrives}</div>
                 </div>
               </div>
               <div style={{padding:"14px 18px",display:"flex",gap:12,alignItems:"flex-start"}}>
                 <div style={{width:6,height:6,borderRadius:"50%",background:C.accent,marginTop:7,flexShrink:0}}/>
                 <div>
-                  <div style={{fontSize:11,letterSpacing:1,textTransform:"uppercase",color:C.accent,fontFamily:"'EB Garamond',Georgia,serif",marginBottom:5}}>Where this consistently costs you</div>
-                  <div style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:14,lineHeight:1.75,color:C.textSec}}>{profile.landscape.costs}</div>
+                  <div style={{fontSize:11,letterSpacing:1,textTransform:"uppercase",color:C.accent,fontFamily:ff,marginBottom:5}}>Where this consistently costs you</div>
+                  <div style={{fontFamily:ff,fontSize:14,lineHeight:1.75,color:C.textSec}}>{profile.landscape.costs}</div>
                 </div>
               </div>
             </div>
@@ -2050,18 +2056,335 @@ function ElementIcon({ el, color, size=15 }) {
 //   Insights: dominant + missing one-liners with guidance
 //   Lifts / depletes: what lifts you / what depletes you
 
-// Per-stem favourable / unfavourable element data
+// ─── ELEMENT_ENERGIES — band-conditional catalyst / friction ─────────────────
+// Each stem has three bands. Catalyst/friction INVERT by band per 扶抑用神:
+//   Concentrated (excess DM) → needs 克泄耗 (control/exhaust/expend) → catalyst
+//                             → 生助 (generate/compound) are friction
+//   Balanced                 → needs moderate support; avoid extremes
+//   Open (deficient DM)      → needs 生助 (generate/strengthen) → catalyst
+//                             → 克泄 (control/drain) are friction
+// The 调候 layer applies seasonal override on top of whichever band is selected.
 const ELEMENT_ENERGIES = {
-  "甲":{ lifts:[{el:"Water",line:"The element that nourishes rather than demands — it allows the reach to consolidate into something with roots rather than simply continuing outward."},{el:"Fire",line:"The element that makes the growth visible and gives it a direction the outside world can recognise and engage with."}], depletes:[{el:"Metal",line:"The element that cuts directly against what you're building — in environments where it dominates, the growth that is your most natural output meets its sharpest opposing force."},{el:"Earth",line:"The element that absorbs the nourishment before it reaches the roots — too much structure and weight beneath the growth prevents the reach from consolidating into something lasting."}] },
-  "乙":{ lifts:[{el:"Water",line:"The element that sustains the intelligence without requiring it to perform — nourishment that arrives quietly and allows the navigation to continue at depth."},{el:"Fire",line:"The element that draws the reach upward and outward, giving the adaptability a specific destination worth committing to."}], depletes:[{el:"Metal",line:"The element that cuts the intelligence off before it reaches its destination — direct opposition to the adaptability and precision of route that is this energy's most distinctive quality."},{el:"Earth",line:"The element that smothers rather than supports — too much of it creates a heaviness that the navigational intelligence can't work around, because there is no surface left to read."}] },
-  "丙":{ lifts:[{el:"Wood",line:"The element that feeds what you give out — it replenishes the source so the warmth can continue without consuming itself."},{el:"Fire",line:"The element that deepens conviction rather than spreading it — what you genuinely believe and are willing to pay for carries further than what simply feels good to say."}], depletes:[{el:"Water",line:"The element that works directly against what this chart produces most naturally — in quantities that dominate, it extinguishes the warmth before it can reach who it's meant for."},{el:"Metal",line:"The element that absorbs the light before it arrives — environments saturated with it pull warmth inward and away from the people and contexts it was moving toward."}] },
-  "丁":{ lifts:[{el:"Wood",line:"The element that sustains the flame steadily — consistent nourishment that allows the focused attention to continue without burning through its own source."},{el:"Fire",line:"The element that deepens the warmth rather than broadening it — more of what you already are at your most specific and most real."}], depletes:[{el:"Water",line:"The element that extinguishes the focused attention before it illuminates what it was pointed at — direct opposition to the precision this energy carries most distinctively."},{el:"Metal",line:"The element that draws the light sideways before it can land — it redirects the focused attention away from what it was moving toward."}] },
-  "戊":{ lifts:[{el:"Fire",line:"The element that activates what has been patient — it brings warmth to what has been waiting and creates the conditions for movement that doesn't compromise the underlying stability."},{el:"Earth",line:"The element that deepens rather than shifts — it adds to what's already solid rather than asking it to become something different."}], depletes:[{el:"Wood",line:"The element that works against the stability at its deepest level — roots break stone over time, and environments dominated by it create destabilisation that reliability cannot simply hold against indefinitely."},{el:"Water",line:"The element that erodes rather than confronting — it works beneath the stability over time, and by the time the cost is visible it has been accumulating for a while."}] },
-  "己":{ lifts:[{el:"Fire",line:"The element that ripens what has been quietly growing — it brings the warmth that converts patient cultivation into visible results."},{el:"Earth",line:"The element that deepens the capacity to nourish without depleting — more soil means more can be grown without the field going barren."}], depletes:[{el:"Wood",line:"The element that takes without returning — it drains what the field has been quietly building and tends to leave less fertility than it found."},{el:"Water",line:"The element that floods rather than nourishes — too much of it overwhelms careful cultivation rather than supporting it, and what was growing carefully becomes waterlogged before it can produce."}] },
-  "庚":{ lifts:[{el:"Fire",line:"Fire is the forge — the external force that gives precision its direction. You have always had the capability. What Fire brings is the target: when it enters your life through the right environment, challenge, or people, you stop searching and start producing."},{el:"Wood",line:"Wood is the material the edge exists to work with. Without genuine substance to engage — problems with depth, projects worth the full precision — the capability stays potential rather than becoming output."}], depletes:[{el:"Metal",line:"Metal is what you already carry in abundance. More of it produces compression rather than capability — rigid environments, unmovable hierarchies, and people who meet your edge with their own don't sharpen you. They stall you."},{el:"Water",line:"Water tempers what needs to stay sharp. Conditions that are too fluid, too accommodating, or too diffuse dissipate the precision before it finds a target. You don't thrive where nothing pushes back."}] },
-  "辛":{ lifts:[{el:"Water",line:"The element that brings out the inherent clarity — it reveals the quality that was always present rather than adding something new, the way water shows the true colour of a stone."},{el:"Earth",line:"The element that holds and protects the setting — it provides the structure that allows the discernment to function at its finest rather than being exposed to conditions that damage it."}], depletes:[{el:"Fire",line:"The element that tests the setting rather than refining what's in it — without the protective structure of Earth, it risks damaging the precision rather than revealing it."},{el:"Metal",line:"More of what is already present in abundance — it crowds rather than refines, producing a density that obscures the discernment rather than sharpening it."}] },
-  "壬":{ lifts:[{el:"Metal",line:"The element that generates and renews the depth — it feeds the source directly, ensuring that what the Ocean carries continues to grow rather than gradually diminishing."},{el:"Water",line:"The element that amplifies what's already present — more of what you carry means the range and depth extend further than any single context can contain."}], depletes:[{el:"Earth",line:"The element that dams the current — it blocks the movement and reach of what this energy carries most naturally, creating stagnation in what was built for depth and flow."},{el:"Fire",line:"The element that evaporates the depth before it can be used — in environments dominated by it, what took sustained effort to build can be consumed before it reaches the people or outcomes it was moving toward."}] },
-  "癸":{ lifts:[{el:"Wood",line:"The element that works with what this chart is already moving toward — it amplifies rather than redirects, allowing the sensitivity to flow in the direction it's already oriented."},{el:"Water",line:"The element that supports the core while feeding what's growing — it nourishes both the source of sensitivity and the specific things it's currently nourishing."}], depletes:[{el:"Metal",line:"The element that disrupts what this chart is built around — it cuts against the dominant current, creating interference in the precise attunement that is this energy's most natural quality."},{el:"Fire",line:"The element that undermines the foundation — it works against what this chart most depends on, and environments dominated by it tend to deplete the sensitivity before it can do its best work."}] },
+  "甲": {
+    concentrated: {
+      lifts: [
+        { el:"Metal", line:"Metal is the force that gives your reach definition — without something that says 'here, not everywhere,' growth disperses. In environments where this force is present you stop reaching in all directions and start building something that holds." },
+        { el:"Fire",  line:"Fire is where your reach converts into something visible. You pour energy outward naturally; Fire is the element that turns that outward pour into warmth and expression others can actually receive and recognise." },
+      ],
+      depletes: [
+        { el:"Water", line:"Water nourishes what is already growing without limit — and at this level, more nourishment is the last thing needed. Environments dominated by Water tend to feed the reach before it has any reason to consolidate." },
+        { el:"Wood",  line:"More of what you already carry in abundance. Wood-saturated environments compound the reaching instinct until the spread becomes structural — broad investment, shallow roots, and little that is specifically yours." },
+      ],
+    },
+    balanced: {
+      lifts: [
+        { el:"Water", line:"Water nourishes without pushing — it sustains the roots quietly while the reach continues. At this level it maintains without overwhelming, and what you build with it tends to last." },
+        { el:"Metal", line:"Metal provides moderate definition — enough to give the growth direction without cutting what should continue. The two are in productive tension: reach and structure holding each other in check." },
+      ],
+      depletes: [
+        { el:"Wood",  line:"More reaching when equilibrium is what's needed. Wood-dominant environments tip the balance toward extension before consolidation, and what was sustainable becomes overextended." },
+        { el:"Fire",  line:"Fire draws the energy outward into expression faster than the balance can absorb — what was moving at the right pace accelerates past the point where the roots can follow." },
+      ],
+    },
+    open: {
+      lifts: [
+        { el:"Water", line:"Water is the primary nourishment for this chart — it feeds the roots directly and allows the reach to develop the depth it needs to sustain itself. This is the element that makes what you build genuinely yours." },
+        { el:"Wood",  line:"More of what you are at your core gives this chart the strength it needs. In environments where Wood is present and supported, the growth that has always been potential starts to become structural." },
+      ],
+      depletes: [
+        { el:"Metal", line:"Metal cuts against what needs to be growing — and at this level, the reach is already operating on limited resources. Environments dominated by this force tend to diminish what is still establishing itself." },
+        { el:"Fire",  line:"Fire draws the energy outward into expression before the roots have established — draining what is already scarce into output that the chart cannot yet sustain." },
+      ],
+    },
+  },
+  "乙": {
+    concentrated: {
+      lifts: [
+        { el:"Metal", line:"Metal gives the intelligence a defined path rather than a general surface — it converts the Vine's natural navigation into movement toward something specific. In environments where this force is present, the adaptability finds its actual destination." },
+        { el:"Fire",  line:"Fire is where the Vine's sensitivity converts into visible expression. The navigation has always been real; Fire is what makes it visible and gives it a direction others can orient around." },
+      ],
+      depletes: [
+        { el:"Water", line:"Water nourishes the Vine's reach further when the reach is already everywhere. Environments dominated by Water at this level tend to produce more movement than arrival — the intelligence stays in motion without committing to where it has landed." },
+        { el:"Wood",  line:"More reaching compounds what is already in excess. Wood-saturated environments at this level reinforce the instinct to find another path before the current one has been fully climbed." },
+      ],
+    },
+    balanced: {
+      lifts: [
+        { el:"Water", line:"Water sustains the Vine's intelligence steadily — nourishing without flooding, allowing the navigation to continue at a depth that produces genuine arrival rather than continuous movement." },
+        { el:"Metal", line:"Metal provides enough definition to give the adaptability a specific surface worth committing to. The two are in productive conversation: the Vine's intelligence and the structure that lets it become something." },
+      ],
+      depletes: [
+        { el:"Wood",  line:"More adaptability than the balance can hold. Wood-dominant environments tip toward continuous navigation at the expense of the consolidation that gives the intelligence somewhere to land." },
+        { el:"Fire",  line:"Fire accelerates outward expression faster than the equilibrium can absorb — drawing the Vine's intelligence into performance before the underlying navigation has been completed." },
+      ],
+    },
+    open: {
+      lifts: [
+        { el:"Water", line:"Water nourishes the intelligence at its source — feeding the Vine's capacity to read and navigate without requiring it to perform. This is the primary nourishment for what this chart does most distinctively." },
+        { el:"Wood",  line:"More of the Vine's own nature gives it the strength to navigate with its full intelligence rather than in a diminished form. The adaptability deepens when it has genuine support." },
+      ],
+      depletes: [
+        { el:"Metal", line:"Metal cuts the navigation before it reaches its destination — and at this level, the intelligence is already operating on limited resources. Environments dominated by this force tend to sever what is still finding its route." },
+        { el:"Fire",  line:"Fire draws the Vine's sensitivity outward into expression before the underlying navigation has established — draining what little energy is available into visibility rather than depth." },
+      ],
+    },
+  },
+  "丙": {
+    concentrated: {
+      lifts: [
+        { el:"Water", line:"Water is the containing force that gives the warmth a boundary — without it, the light illuminates everything at equal intensity and nothing specifically. In environments where this force is present the Sun's warmth becomes directed rather than diffuse." },
+        { el:"Earth", line:"Earth is where the Sun's warmth deposits into something lasting — it converts the relational energy into structure and productive form. Fire pours; Earth holds what it pours into." },
+      ],
+      depletes: [
+        { el:"Wood",  line:"Wood feeds what is already at full intensity — more fuel into a fire that doesn't need it. Environments dominated by this force compound the warmth until the presence becomes consuming rather than illuminating." },
+        { el:"Fire",  line:"More of what you already carry in excess. Fire-saturated environments deepen the intensity until the source is expenditure without replenishment — warmth that gives everything and holds nothing back for itself." },
+      ],
+    },
+    balanced: {
+      lifts: [
+        { el:"Wood",  line:"Wood nourishes the Sun at a pace the balance can absorb — sustaining the warmth without inflaming it, allowing the illumination to continue without consuming its own source." },
+        { el:"Water", line:"Water provides moderate containment — enough to give the warmth direction without extinguishing it. The two forces hold each other: the Sun illuminates, Water gives what it illuminates a form." },
+      ],
+      depletes: [
+        { el:"Fire",  line:"More warmth than the equilibrium can hold. Fire-dominant environments push toward the excess condition — the presence filling every room rather than the rooms that specifically need it." },
+        { el:"Earth", line:"Earth draws the Sun's energy outward into productive deposit faster than the balance replenishes — converting warmth into structure at a pace that leaves the source running low." },
+      ],
+    },
+    open: {
+      lifts: [
+        { el:"Wood",  line:"Wood is the primary nourishment for the Sun's warmth — feeding the source so the illumination can continue without burning through what little it has. This is the element that sustains what this chart does most naturally." },
+        { el:"Fire",  line:"More of the Sun's own nature gives it the warmth it needs. In environments where Fire is present and genuine, the illumination deepens rather than spreading thin." },
+      ],
+      depletes: [
+        { el:"Water", line:"Water extinguishes what needs to be burning — and at this level, the warmth is already operating without a full source. Environments dominated by this force work directly against the Sun's most essential quality." },
+        { el:"Earth", line:"Earth draws the warmth outward into productive deposit before the source has replenished — at this level, the expenditure depletes what was already scarce." },
+      ],
+    },
+  },
+  "丁": {
+    concentrated: {
+      lifts: [
+        { el:"Water", line:"Water is the containing force that gives the focused attention its boundary — without it, the candle illuminates in all directions at once and loses the precision that makes it irreplaceable. Where this force is present, the intensity becomes specific." },
+        { el:"Earth", line:"Earth is where the candle's focused attention converts into something that persists — warmth deposited into form rather than released and gone. The specific illumination builds something that remains after the light moves on." },
+      ],
+      depletes: [
+        { el:"Wood",  line:"Wood feeds what is already burning at full intensity — more nourishment into a flame that needs direction, not more fuel. Wood-dominant environments compound the focused attention until the precision becomes broadcast." },
+        { el:"Fire",  line:"More of what you already carry in excess. Fire-saturated environments deepen the intensity past the point where the specificity that makes the candle irreplaceable can be sustained." },
+      ],
+    },
+    balanced: {
+      lifts: [
+        { el:"Wood",  line:"Wood sustains the candle steadily — nourishing the focused attention without inflaming it past the point of precision. The flame continues; what it illuminates deepens." },
+        { el:"Water", line:"Water provides moderate containment at this level — enough to keep the intensity from spreading, allowing the specific attention to continue doing its particular work." },
+      ],
+      depletes: [
+        { el:"Fire",  line:"More intensity than the equilibrium can sustain. Fire-dominant environments push the focused attention past the specificity that gives it power — the candle becomes a torch, and the precision is lost." },
+        { el:"Earth", line:"Earth draws the focused energy outward faster than the equilibrium replenishes — depositing the attention into lasting form at a pace that leaves the source running low." },
+      ],
+    },
+    open: {
+      lifts: [
+        { el:"Wood",  line:"Wood is the primary nourishment for the candle's focused attention — the consistent, quiet feeding that allows the precision to continue without consuming itself. This is the element this chart most needs." },
+        { el:"Fire",  line:"More of the candle's own nature gives it the warmth and specificity it needs. In genuinely supportive environments the focused attention deepens and the precision sharpens." },
+      ],
+      depletes: [
+        { el:"Water", line:"Water extinguishes what the candle's precision depends on — and at this level, the flame is already delicate. Environments where this force dominates work directly against the most essential quality this chart carries." },
+        { el:"Earth", line:"Earth draws the focused attention outward into lasting deposit before the source has anything to spare — at this level the expenditure depletes what was already insufficient." },
+      ],
+    },
+  },
+  "戊": {
+    concentrated: {
+      lifts: [
+        { el:"Wood",  line:"Wood is the force that prevents calcification — roots that push through the Mountain's stability and require it to yield. In environments where this force is present the reliability that defines this chart becomes dynamic rather than merely weight-bearing." },
+        { el:"Metal", line:"Metal is where the Mountain's accumulated stability converts into refined, specific output — it takes what the Earth has consolidated and gives it a form that can actually be used. Stability that produces something." },
+      ],
+      depletes: [
+        { el:"Fire",  line:"Fire generates more Earth — more warmth deposited into an already-saturated foundation. Environments dominated by this force deepen the immobility rather than activating what has been patient." },
+        { el:"Earth", line:"More of what you already carry in abundance. Earth-heavy environments compound the stability until it becomes inertia — the Mountain that can no longer distinguish between holding and refusing to move." },
+      ],
+    },
+    balanced: {
+      lifts: [
+        { el:"Fire",  line:"Fire activates what has been patient — bringing warmth and movement to the stability without destabilising it. At this level the two are in productive conversation: the Mountain holds and the warmth gives it something to hold toward." },
+        { el:"Wood",  line:"Wood provides moderate movement — enough to keep the stability dynamic and living without undermining the foundation that gives this chart its most essential quality." },
+      ],
+      depletes: [
+        { el:"Earth", line:"More stability than the equilibrium needs. Earth-dominant environments push toward the concentrated condition — the holding becomes weight rather than ground, and movement becomes increasingly difficult." },
+        { el:"Metal", line:"Metal draws the Mountain's energy outward into refinement and output faster than the balance can replenish — converting what should be steady accumulation into depletion of the source." },
+      ],
+    },
+    open: {
+      lifts: [
+        { el:"Fire",  line:"Fire is the primary nourishment for the Mountain at this level — the warmth that activates what has been patient and creates the conditions for the stability to become generative rather than simply present." },
+        { el:"Earth", line:"More of the Mountain's own nature gives it the depth of foundation it needs. In environments where this force is genuinely supportive, what has been holding quietly can begin to hold with authority." },
+      ],
+      depletes: [
+        { el:"Wood",  line:"Wood controls and destabilises what is already operating on limited foundation — roots pushing through ground that hasn't yet consolidated. Environments dominated by this force work against the stability before it can establish itself." },
+        { el:"Metal", line:"Metal draws the Mountain's accumulated resources outward into output before the foundation has established — at this level the expenditure depletes what was already scarce." },
+      ],
+    },
+  },
+  "己": {
+    concentrated: {
+      lifts: [
+        { el:"Wood",  line:"Wood gives the Field's fertility a direction — it takes what nourishes in all directions and asks it to nourish something specific. In environments where this force is present the cultivation becomes intentional rather than ambient." },
+        { el:"Metal", line:"Metal is where the Field's patient cultivation converts into something that can be harvested — refined, specific output from what has been quietly growing. The fertility produces something that can be held and used." },
+      ],
+      depletes: [
+        { el:"Fire",  line:"Fire generates more Earth — more warmth and activation into a field that is already producing everywhere it turns. Environments dominated by this force compound the nourishing instinct until the fertility is dispersed without return." },
+        { el:"Earth", line:"More of what you already carry in abundance. Earth-heavy environments deepen the accumulation without giving the fertility any specific direction — more soil without more harvest." },
+      ],
+    },
+    balanced: {
+      lifts: [
+        { el:"Fire",  line:"Fire activates and ripens — the warmth that converts patient cultivation into visible results without depleting the source. At this level it moves the fertility toward harvest at a pace the Field can sustain." },
+        { el:"Wood",  line:"Wood gives the cultivation direction without taking more than it returns. The two are in productive tension: the Field nourishes and Wood gives that nourishment something to grow toward." },
+      ],
+      depletes: [
+        { el:"Earth", line:"More accumulation than the equilibrium needs. Earth-dominant environments tip the Field toward retention rather than production — the fertility builds without the movement toward harvest that gives it purpose." },
+        { el:"Metal", line:"Metal draws the Field's resources into harvest faster than the balance can replenish — what should be a cycle of growth and rest becomes a one-directional depletion." },
+      ],
+    },
+    open: {
+      lifts: [
+        { el:"Fire",  line:"Fire is the warmth that ripens and activates what this chart cultivates — the primary nourishment that converts patient growth into something that can actually be harvested. Without it, the fertility remains potential." },
+        { el:"Earth", line:"More of the Field's own nature gives it the depth of soil it needs. In genuinely supportive environments the cultivation deepens and what has been quietly growing produces at a scale that surprises." },
+      ],
+      depletes: [
+        { el:"Wood",  line:"Wood takes from what has been carefully cultivated without restoring what it uses — draining the Field's fertility at a rate the chart can't sustain. The growth it produces is real; the cost to the source is also real." },
+        { el:"Water", line:"Water floods what needs careful cultivation — too much arrives before the Field can absorb it, and what was growing carefully becomes waterlogged before it can produce." },
+      ],
+    },
+  },
+  "庚": {
+    concentrated: {
+      lifts: [
+        { el:"Fire",  line:"Fire is the forge — the external force that gives precision its direction. The capability has always been present. What Fire brings is the target: when it enters your life through the right environment, challenge, or people, the precision stops searching and starts producing." },
+        { el:"Water", line:"Water is the release channel — Metal generates Water naturally, and at this level that outward flow is what prevents the precision from turning back on itself. Environments rich in Water give the edge somewhere to go rather than accumulating as pressure." },
+      ],
+      depletes: [
+        { el:"Earth", line:"Earth generates more Metal — adding to what is already in excess. Environments dominated by Earth compound the precision until the capability deepens without finding direction, and what was formidable becomes rigid." },
+        { el:"Metal", line:"More of what you already carry in abundance. Metal-heavy environments intensify the evaluative apparatus without providing a target — rigid hierarchies and pure-precision environments don't sharpen the edge. They compress it." },
+      ],
+    },
+    balanced: {
+      lifts: [
+        { el:"Fire",  line:"Fire provides moderate direction at this level — enough to keep the precision purposeful without applying overwhelming pressure. The edge stays sharp and pointed toward something genuinely worth the precision." },
+        { el:"Earth", line:"Earth provides moderate generation — sustaining the DM without adding to excess. At this level the two are in balance: the precision is supported and the direction is maintained." },
+      ],
+      depletes: [
+        { el:"Metal", line:"More of the same risks tipping the equilibrium toward excess — the evaluative apparatus intensifying past the point where it serves the work rather than replacing it." },
+        { el:"Water", line:"Water risks draining the precision outward faster than the balance can replenish — the release channel drawing the edge into flow before it has found what it's for." },
+      ],
+    },
+    open: {
+      lifts: [
+        { el:"Earth", line:"Earth generates and sustains the precision at this level — the quiet nourishment that keeps the edge from dispersing entirely. This is the primary support for a chart that is already operating with limited resources." },
+        { el:"Metal", line:"More of the DM's own nature gives it the strength it needs. In genuinely supportive environments the precision consolidates rather than dispersing, and the capability becomes structural rather than conditional." },
+      ],
+      depletes: [
+        { el:"Fire",  line:"Fire controls and directs what is already at limited strength — at this level the pressure that refines a concentrated chart diminishes a weak one. Environments dominated by this force work against what needs to be sustained." },
+        { el:"Water", line:"Water drains scarce Metal further — the outward flow that releases excess in a concentrated chart depletes what little remains in a weak one. The edge disperses before it can find its target." },
+      ],
+    },
+  },
+  "辛": {
+    concentrated: {
+      lifts: [
+        { el:"Water", line:"Water reveals the jewel — it brings out what was always present rather than adding something new. The clarity the Jewel carries has always been real; Water is the element that makes it visible and specific rather than merely potential." },
+        { el:"Fire",  line:"Fire refines with care — the heat that reveals quality when the setting is intact. At this level it gives the discernment a purpose: the standard that was internal becomes one that the world can encounter and recognise." },
+      ],
+      depletes: [
+        { el:"Earth", line:"Earth generates more Metal — adding density to an already saturated discernment. Environments dominated by Earth compound the refinement until the precision crowds rather than clarifies, and the quality becomes obscured by its own accumulation." },
+        { el:"Metal", line:"More of what you already carry in abundance. Metal-heavy environments deepen the density rather than the clarity — what should refine becomes compression, and the jewel's quality is lost in the accumulation." },
+      ],
+    },
+    balanced: {
+      lifts: [
+        { el:"Water", line:"Water sustains the Jewel's clarity at the right depth — neither flooding nor withdrawing. The discernment continues to operate at its finest, and what is perceived is both accurate and usable." },
+        { el:"Earth", line:"Earth holds and protects the setting — providing the structure that allows the discernment to function without being exposed to conditions that damage it. Quality requires a context that can receive it." },
+      ],
+      depletes: [
+        { el:"Metal", line:"More density than the equilibrium can hold. Metal-dominant environments tip the balance toward the concentrated condition — the discernment deepening into compression rather than maintaining the clarity that makes it valuable." },
+        { el:"Fire",  line:"Fire without Earth's mediation risks the setting — at this level the heat tests rather than reveals, and the precision can be damaged rather than refined. The balance between heat and protection is specific to this archetype." },
+      ],
+    },
+    open: {
+      lifts: [
+        { el:"Earth", line:"Earth holds and protects what is already operating with limited resources — at this level it is the primary support, the setting that allows the Jewel's discernment to function at all rather than dispersing entirely." },
+        { el:"Metal", line:"More of the Jewel's own nature gives the discernment the strength it needs. In genuinely supportive environments the quality that has always been real becomes something the chart can operate from rather than reaching toward." },
+      ],
+      depletes: [
+        { el:"Fire",  line:"Fire without sufficient grounding damages what it should reveal — at this level the heat that refines a concentrated Jewel works against an open one, diminishing the setting rather than illuminating what's in it." },
+        { el:"Water", line:"Water flows outward and carries the discernment with it before it can concentrate — draining what little clarity remains rather than revealing it. The Jewel needs stillness, not more movement." },
+      ],
+    },
+  },
+  "壬": {
+    concentrated: {
+      lifts: [
+        { el:"Earth", line:"Earth gives the depth its banks — without it the intelligence flows everywhere at once and becomes impossible to navigate. In environments where this force is present the vast perceptual range finds channels and becomes something others can actually use." },
+        { el:"Wood",  line:"Wood is where the Ocean's depth converts into productive growth — the intelligence poured outward into something that develops and reaches. The depth finds a direction rather than continuing to accumulate." },
+      ],
+      depletes: [
+        { el:"Metal", line:"Metal generates more Water — adding depth to what is already vast. Environments dominated by Metal compound the intelligence until the range becomes overwhelming rather than navigable, and the depth deepens without form." },
+        { el:"Water", line:"More of what you already carry in abundance. Water-heavy environments amplify the perceptual range until the intelligence is simultaneously everywhere and specifically nowhere." },
+      ],
+    },
+    balanced: {
+      lifts: [
+        { el:"Metal", line:"Metal generates steadily at the right level — sustaining the depth without flooding it. The intelligence is nourished without being overwhelmed, and what is perceived continues to be specific rather than diffuse." },
+        { el:"Earth", line:"Earth provides moderate containment — enough to give the depth direction without damming the current entirely. The two are in productive relationship: the depth moves within a form that allows it to reach who it's for." },
+      ],
+      depletes: [
+        { el:"Water", line:"More depth than the equilibrium can give form to. Water-dominant environments tip toward the concentrated condition — the intelligence amplifying without the banks that make it navigable." },
+        { el:"Wood",  line:"Wood draws the depth outward into expression and growth faster than the balance can replenish — the intelligence converting into output at a pace that leaves the source running low." },
+      ],
+    },
+    open: {
+      lifts: [
+        { el:"Metal", line:"Metal is the primary source — the element that generates and renews the Ocean's depth. At this level it is what keeps the intelligence alive and accumulating rather than dispersing entirely into the contexts it moves through." },
+        { el:"Water", line:"More of the Ocean's own nature gives it the range and depth it needs. In environments where Water is genuinely present and supportive, the intelligence that has been operating below its capacity comes through fully." },
+      ],
+      depletes: [
+        { el:"Earth", line:"Earth dams the current — and at this level the current is already limited. Environments dominated by this force block the movement that is this chart's most natural quality, creating stagnation in what was built for depth and reach." },
+        { el:"Fire",  line:"Fire evaporates the depth before it can be used — at this level the intelligence that took sustained effort to accumulate can be consumed before it reaches the people or outcomes it was moving toward." },
+      ],
+    },
+  },
+  "癸": {
+    concentrated: {
+      lifts: [
+        { el:"Earth", line:"Earth gives the sensitivity a container — without it the perception flows everywhere and touches nothing specifically. In environments where this force is present the Rain's nourishing intelligence finds a direction and becomes something that lands." },
+        { el:"Wood",  line:"Wood is where the Rain's sensitivity converts into growth and development — the intelligence poured into what needs nurturing. The perception stops flowing in all directions and becomes specifically productive." },
+      ],
+      depletes: [
+        { el:"Metal", line:"Metal generates more Water — adding sensitivity to what is already saturated. Environments dominated by Metal compound the perceptual range until the attunement is constant and the form that gives it direction is lost." },
+        { el:"Water", line:"More of what you already carry in abundance. Water-heavy environments deepen the sensitivity until it becomes exposure rather than perception — too much arrives before any of it can be given direction." },
+      ],
+    },
+    balanced: {
+      lifts: [
+        { el:"Metal", line:"Metal generates steadily — sustaining the sensitivity without saturating it. The Rain's intelligence continues to perceive accurately and specifically without dispersing into diffuse attunement." },
+        { el:"Earth", line:"Earth provides gentle containment — enough direction to give the sensitivity form without damming the current that makes this chart's perception distinctive." },
+      ],
+      depletes: [
+        { el:"Water", line:"More sensitivity than the equilibrium can form. Water-dominant environments tip toward the concentrated condition — the perception deepening beyond what can be directed toward anyone or anything specifically." },
+        { el:"Metal", line:"Metal generating too strongly risks flooding the sensitivity past the balance point — the intelligence amplifying beyond what the current form can give direction to." },
+      ],
+    },
+    open: {
+      lifts: [
+        { el:"Metal", line:"Metal is the primary source that renews the Rain's sensitivity — feeding the perception from the inside rather than requiring it to sustain itself. At this level it is what keeps the intelligence alive and accumulating." },
+        { el:"Water", line:"More of the Rain's own nature gives the sensitivity the depth it needs. In environments where Water is genuinely supportive the perception that has been operating below its capacity comes through at its full range." },
+      ],
+      depletes: [
+        { el:"Earth", line:"Earth dams what needs to flow — and at this level the current is already limited. Environments dominated by this force contain the sensitivity before it can reach who it was moving toward." },
+        { el:"Fire",  line:"Fire burns what the Rain's sensitivity depends on — working against the foundation of perception at the point where the chart can least afford the cost." },
+      ],
+    },
+  },
 };
 
 
@@ -2349,10 +2672,10 @@ function applyTiaohouToEnergies(baseEnergies, dmStem, monthBranch) {
     } else if (existingIdx === -1) {
       // Not in lifts at all — add it with 调候 explanation
       const tiaohouLines = {
-        Fire: "The forge this chart needs — seasonal warmth that gives cold Metal its direction and purpose",
-        Water:"The cooling this chart needs — seasonal moisture that gives hot Fire its sustainability",
+        Fire: "The forge you need — seasonal warmth that gives cold Metal its direction and purpose",
+        Water:"The cooling you need — seasonal moisture that gives hot Fire its sustainability",
       };
-      lifts = [{ el: promoteCatalyst, line: tiaohouLines[promoteCatalyst] || `Seasonal priority — brings climate balance this chart needs` }, ...lifts];
+      lifts = [{ el: promoteCatalyst, line: tiaohouLines[promoteCatalyst] || `Seasonal priority — brings the climate balance you need` }, ...lifts];
     }
     // If already first (existingIdx === 0), no change needed
   }
@@ -2361,12 +2684,223 @@ function applyTiaohouToEnergies(baseEnergies, dmStem, monthBranch) {
 }
 
 // Per-stem dominant/missing insight lines
-function getElementInsights(chart) {
-  const dm = chart.dayMaster;
-  const els = chart.elements;
-  const missing = chart.missingElements;
+// ─── TEN GOD PROFILES — user-facing names, concept art, combined descriptions ──
+// Each entry: en (English name), art (SVG render fn taking color), describe (fn taking element)
+const TG_PROFILES = {
+  "比肩": {
+    en: "The Mirror",
+    art: (c) => (
+      <svg viewBox="0 0 80 80" width="72" height="72">
+        <circle cx="40" cy="40" r="36" fill={c} opacity="0.07"/>
+        <path d="M40 16 C26 16 17 27 17 40 C17 53 26 64 40 64 Z" fill={c} opacity="0.35"/>
+        <path d="M40 16 C54 16 63 27 63 40 C63 53 54 64 40 64 Z" fill={c} opacity="0.18"/>
+        <line x1="40" y1="14" x2="40" y2="66" stroke={c} strokeWidth="1" opacity="0.4"/>
+        <circle cx="29" cy="35" r="3.5" fill={c} opacity="0.75"/>
+        <circle cx="51" cy="35" r="3.5" fill={c} opacity="0.35"/>
+        <path d="M30 48 Q40 54 50 48" stroke={c} strokeWidth="1.4" fill="none" strokeLinecap="round" opacity="0.5"/>
+      </svg>
+    ),
+    describe: (el) => ({
+      Metal: `金比肩 is Metal meeting Metal — your own precision amplified by a force identical in nature. The evaluative standard runs doubled: no counterpoint, no friction to mark where it has gone too far. The gift is extraordinary self-reliance and internal consistency. The cost is a self-referencing loop with no natural interrupt — the same quality that makes you exceptional is also what keeps you circling when direction is missing.`,
+      Wood:  `木比肩 is reach meeting reach — the growth impulse compounding on itself without anything present to ask what should be consolidated. You invest broadly because the nature cannot distinguish between feeding what grows and growing endlessly. The gift is generosity at scale. The shadow is diffuse investment: you build for many and own little of what actually grows.`,
+      Fire:  `火比肩 is warmth meeting warmth — presence amplifying presence. The room is always lit, always relational, always drawing people toward it. Without a counterforce to create depth, the warmth can become broadcast rather than specific. The gift is extraordinary reach. The shadow is the difficulty of knowing who you are when the audience is absent.`,
+      Earth: `土比肩 is stability meeting stability — ground layering beneath ground. The holding capacity is exceptional; the circulation is not. What accumulates here tends to stay accumulated. The gift is reliable, load-bearing presence that others orient by without naming. The shadow is inertia that compounds quietly until it becomes weight.`,
+      Water: `水比肩 is depth meeting depth — perception compounding on itself with no defined form to concentrate into. You see what's actually happening at multiple layers simultaneously, but the intelligence disperses unless a specific container is built for it. The gift is rare perceptual range. The shadow is brilliance that never quite lands in a form others can engage with directly.`,
+    }[el] || `This element amplifies your Day Master directly — more of what you already are, with no moderating counterforce. The gift is intensity and self-consistency. The shadow is a loop that has no natural exit.`),
+  },
+  "劫财": {
+    en: "The Rival",
+    art: (c) => (
+      <svg viewBox="0 0 80 80" width="72" height="72">
+        <circle cx="40" cy="40" r="36" fill={c} opacity="0.07"/>
+        <path d="M40 16 C26 16 17 27 17 40 C17 53 26 64 40 64 Z" fill={c} opacity="0.4"/>
+        <path d="M42 18 C56 20 65 31 63 44 C61 57 52 65 40 64 Z" fill={c} opacity="0.15"/>
+        <circle cx="28" cy="35" r="3.5" fill={c} opacity="0.8"/>
+        <circle cx="52" cy="37" r="3" fill={c} opacity="0.3"/>
+        <path d="M38 48 Q36 54 44 52" stroke={c} strokeWidth="1.4" fill="none" strokeLinecap="round" opacity="0.5"/>
+        <line x1="40" y1="14" x2="42" y2="66" stroke={c} strokeWidth="1" strokeDasharray="3 2" opacity="0.35"/>
+      </svg>
+    ),
+    describe: (el) => ({
+      Metal: `金劫财 is Metal meeting Metal across the yin-yang divide — a force that shares your nature but not your register. Close enough to feel like yourself, different enough to compete rather than simply mirror. What this produces is structural competitiveness: with your own standards, with others who occupy your space, with any outcome that almost meets the bar. The drive to be genuinely better is real — and so is the difficulty of knowing when good enough is actually good.`,
+      Wood:  `木劫财 is growth meeting growth in a competing register — the developmental impulse expressed differently. Where you grow outward, this force reaches in its own direction. Collaborators who share your nature but not your approach. The gift is an instinct for where real competition lies. The shadow is resource depletion in the rivalry — investing against what should be shared rather than what should be outpaced.`,
+      Fire:  `火劫财 is warmth meeting warmth in a competing key — the relational impulse at a slightly different frequency. This produces restlessness in close relationships: the people most like you are also the ones you measure yourself against. The gift is the clarity that comes from genuine peers. The shadow is the difficulty of truly collaborating with someone who mirrors you closely enough to reveal your limits.`,
+      Earth: `土劫财 is stability meeting stability in a competing register. Two containing forces, each claiming the same ground. The gift is knowing what real solidity feels like. The shadow is an impulse to hold what you have against encroachment — even when sharing would produce more than defending.`,
+      Water: `水劫财 is depth meeting depth across a yin-yang divide — two forms of perceptual intelligence, oriented differently. The gift is recognising genuine intelligence when it appears, because you know the real thing. The shadow is that similar minds are also the ones most likely to challenge your read — and the most difficult to yield to.`,
+    }[el] || `A force sharing your element but across the yin-yang divide — close enough to feel like you, different enough to create structural competition. The gift is discernment. The shadow is rivalry where collaboration would serve better.`),
+  },
+  "食神": {
+    en: "The Flow",
+    art: (c) => (
+      <svg viewBox="0 0 80 80" width="72" height="72">
+        <circle cx="40" cy="40" r="36" fill={c} opacity="0.07"/>
+        <path d="M20 40 C25 28 35 22 40 22 C45 22 50 26 52 32 C54 38 50 46 44 50 C38 54 30 52 26 48 C22 44 22 40 20 40 Z" fill={c} opacity="0.25"/>
+        <path d="M40 22 C50 28 58 36 56 46 C54 56 44 62 36 58" stroke={c} strokeWidth="1.5" fill="none" strokeLinecap="round" opacity="0.5"/>
+        <circle cx="40" cy="38" r="5" fill={c} opacity="0.6"/>
+        <path d="M28 52 C32 58 42 60 50 56" stroke={c} strokeWidth="1.2" fill="none" strokeLinecap="round" opacity="0.4"/>
+      </svg>
+    ),
+    describe: (el) => ({
+      Water: `水食神 is the water that flows from your source — what Metal naturally produces, moving outward without needing to be asked. This is expression in its most natural form: refined, non-assertive, generous. You don't produce to be seen; production is simply what happens when you are fully yourself. The classical description is 秀气 — elegant, unforced output. The shadow is extending into what feels natural without checking whether the foundation is ready.`,
+      Fire:  `火食神 is warmth generated from your core and offered freely. The creative output flows outward as heat and light — not to impress, but because that is what happens when the source is full. The gift is an effortless quality to what you give. The shadow is giving so naturally that you don't notice when the source is running low.`,
+      Earth: `土食神 is the stable, nourishing ground that your energy deposits as it moves through the world — what remains after you have engaged, in the form of structure, stability, and a sense of things held together. The gift is leaving things more grounded than you found them. The shadow is building for others what you haven't yet built for yourself.`,
+      Wood:  `木食神 is the outward reach of your generative energy — growth that moves toward others naturally, without calculation. You invest in what is growing because that is the direction the nature moves. The gift is developmental generosity at its most authentic. The shadow is extending the reach before checking whether there is ground beneath it.`,
+      Metal: `金食神 is precision as natural output — the evaluative standard expressed freely, without agenda. Assessment and clarity emerge as gifts rather than judgments, because that is simply what happens when this energy flows. The gift is honest, usable clarity. The shadow is precision without warmth, landing harder than intended.`,
+    }[el] || `The energy your core naturally generates and expresses — what flows outward when you are fully yourself. Expression is structural here, not performed. The shadow is extending the flow without checking whether the foundation is ready.`),
+  },
+  "伤官": {
+    en: "The Edge",
+    art: (c) => (
+      <svg viewBox="0 0 80 80" width="72" height="72">
+        <circle cx="40" cy="40" r="36" fill={c} opacity="0.07"/>
+        <polygon points="40,16 58,58 40,50 22,58" fill={c} opacity="0.2"/>
+        <polygon points="40,16 58,58 40,50 22,58" fill="none" stroke={c} strokeWidth="1.2" opacity="0.5"/>
+        <circle cx="40" cy="36" r="4.5" fill={c} opacity="0.7"/>
+        <line x1="40" y1="16" x2="40" y2="30" stroke={c} strokeWidth="1.5" strokeLinecap="round" opacity="0.6"/>
+        <path d="M30 54 L34 50 M50 54 L46 50" stroke={c} strokeWidth="1.2" strokeLinecap="round" opacity="0.4"/>
+      </svg>
+    ),
+    describe: (el) => ({
+      Water: `水伤官 is brilliance that runs ahead of the frameworks built to receive it — intelligence operating beyond the conventional. This is output that cannot be contained by existing structures because it genuinely exceeds them. Not willful rebellion, but structural emergence: what you produce is in natural tension with whatever tries to define its limits. The gift is genuine innovation. The shadow is that the same quality that creates breakthroughs also creates friction with any authority that encounters it.`,
+      Fire:  `火伤官 is expressive energy that challenges rather than warms — warmth with an edge, vision that refuses the easy container. What you communicate carries more than the words; it challenges the room's assumptions even when you didn't mean it to. The gift is creative force that moves things. The shadow is intensity that exceeds what the environment was prepared for.`,
+      Earth: `土伤官 is the excess of what your energy builds — output that runs beyond the containing structure and creates weight in unexpected places. The gift is productive force that leaves something real behind. The shadow is building momentum without checking whether the architecture can hold it.`,
+      Wood:  `木伤官 is developmental reach in a frequency that strains existing structures — growth that exceeds the framework built to support it. You grow faster than the containers around you were built for. The gift is genuine forward motion. The shadow is leaving the supporting structure behind before you've found what comes next.`,
+      Metal: `金伤官 is precision expressed as challenge — evaluation that doesn't soften when it meets authority. The standard is real and the output is honest, but it operates in structural tension with any framework that tries to grade it by conventional measure. The gift is genuine quality that doesn't perform deference. The shadow is that the same clarity that makes you trustworthy makes you difficult to manage.`,
+    }[el] || `Creative output that operates ahead of the structures built to receive it — expression in structural tension with convention. The gift is genuine innovation. The shadow is that the same quality creates friction with whatever tries to contain it.`),
+  },
+  "偏财": {
+    en: "The Field",
+    art: (c) => (
+      <svg viewBox="0 0 80 80" width="72" height="72">
+        <circle cx="40" cy="40" r="36" fill={c} opacity="0.07"/>
+        <ellipse cx="40" cy="48" rx="26" ry="10" fill={c} opacity="0.2"/>
+        <ellipse cx="40" cy="40" rx="20" ry="7" fill={c} opacity="0.15"/>
+        <circle cx="40" cy="32" r="8" fill={c} opacity="0.4"/>
+        <circle cx="40" cy="32" r="4" fill={c} opacity="0.6"/>
+        <line x1="26" y1="56" x2="54" y2="56" stroke={c} strokeWidth="1" opacity="0.3"/>
+        <line x1="22" y1="60" x2="58" y2="60" stroke={c} strokeWidth="0.8" opacity="0.2"/>
+      </svg>
+    ),
+    describe: (el) => ({
+      Wood: `木偏财 is the broad field your energy naturally ranges across — growth in multiple directions, engagement distributed widely. This is the material of your reach: many things, many people, many opportunities, all within your scope. The gift is an instinct for what has potential and the willingness to engage before being asked. The shadow is breadth without depth — investing across so wide a field that little of it becomes specifically yours.`,
+      Fire:  `火偏财 is scattered warmth — light distributed broadly rather than concentrated on one thing. The energy engages freely with whatever crosses its path. The gift is natural abundance and generous presence. The shadow is the difficulty of converting broad engagement into something that accumulates and holds.`,
+      Earth: `土偏财 is the wide, varied ground your energy traverses — stability spread across many areas rather than concentrated. You stabilise broadly. The gift is a capacity to hold many things at once without losing composure. The shadow is that what is spread thinly doesn't always deepen.`,
+      Metal: `金偏财 is the varied material your precision can be applied to — many different problems, many different domains, all responsive to evaluation. The gift is range and adaptability. The shadow is evaluation without commitment — the standard ranges across many things and settles on none of them completely.`,
+      Water: `水偏财 is the broad perceptual field — depth of intelligence ranging across many contexts rather than concentrating. You read many situations simultaneously and engage across a wide surface. The gift is rare contextual intelligence. The shadow is that what is perceived broadly may never find the depth of engagement it deserves.`,
+    }[el] || `The broad field of material your energy ranges across — engagement distributed widely rather than concentrated. The gift is range and natural abundance. The shadow is breadth without the depth that allows what you touch to become specifically yours.`),
+  },
+  "正财": {
+    en: "The Harvest",
+    art: (c) => (
+      <svg viewBox="0 0 80 80" width="72" height="72">
+        <circle cx="40" cy="40" r="36" fill={c} opacity="0.07"/>
+        <rect x="22" y="44" width="36" height="16" rx="2" fill={c} opacity="0.2"/>
+        <rect x="26" y="36" width="28" height="10" rx="2" fill={c} opacity="0.28"/>
+        <rect x="30" y="28" width="20" height="10" rx="2" fill={c} opacity="0.36"/>
+        <rect x="34" y="20" width="12" height="10" rx="2" fill={c} opacity="0.55"/>
+        <line x1="40" y1="18" x2="40" y2="62" stroke={c} strokeWidth="0.8" opacity="0.2"/>
+      </svg>
+    ),
+    describe: (el) => ({
+      Wood: `木正财 is Wood as the material your precision was built to shape — living, structured, responsive to disciplined engagement. 正财 is orderly control: not grasping, but the sustained direction of something that has its own momentum. Wood has its own direction and growth; your role is to define what that growth becomes, not to possess the growth itself. The gift is methodical, earned outcomes. The shadow is controlling what you care about so thoroughly that it stops being alive.`,
+      Fire:  `火正财 is the warmth and directional energy you direct and shape — the capacity for illumination under your stewardship. The gift is giving warmth a purpose and a structure. The shadow is containing what is naturally expansive until it loses the quality that made it valuable.`,
+      Earth: `土正财 is the stable ground you direct and structure — the accumulated, solid material that responds to your sustained engagement. The gift is building things that endure because they were built correctly. The shadow is an orientation toward material outcomes that, at its edge, mistakes what you control for what you value.`,
+      Metal: `金正财 is the precision and structure you direct toward your own domain — the standard turned outward into the world as an instrument of acquisition and organisation. The gift is high-quality, earned results. The shadow is the evaluative apparatus applied to outcomes in a way that eventually asks of everything: is this worthy? — including what you have already built.`,
+      Water: `水正财 is depth and perceptual intelligence under your direction — insight made productive and actionable. The gift is intelligence that produces real outcomes rather than remaining internal. The shadow is the instrumentalisation of what was originally pure perception: depth converted to utility at the cost of its own nature.`,
+    }[el] || `The material your energy shapes with discipline and structure — orderly control of something real. The gift is methodical, earned results. The shadow is the tendency to control what you care about until it stops responding.`),
+  },
+  "偏印": {
+    en: "The Well",
+    art: (c) => (
+      <svg viewBox="0 0 80 80" width="72" height="72">
+        <circle cx="40" cy="40" r="36" fill={c} opacity="0.07"/>
+        <circle cx="40" cy="36" r="20" fill={c} opacity="0.12"/>
+        <circle cx="40" cy="36" r="14" fill={c} opacity="0.18"/>
+        <circle cx="40" cy="36" r="8"  fill={c} opacity="0.3"/>
+        <circle cx="40" cy="36" r="3.5" fill={c} opacity="0.7"/>
+        <path d="M26 58 L34 48 M54 58 L46 48" stroke={c} strokeWidth="1.2" strokeLinecap="round" opacity="0.3"/>
+      </svg>
+    ),
+    describe: (el) => ({
+      Earth: `土偏印 is the ground that feeds your Metal from below — structural support arriving through the same-polarity register, which means it sustains and deepens rather than opening and warming. Earth here is the silent backer: it builds you up without directing you toward anything specific. The gift is genuine psychological ground — a stability you draw from without always knowing its source. The shadow is dependency on a condition you haven't examined, and a tendency toward inertia when the backing is present.`,
+      Fire:  `火偏印 is warmth nourishing from the same register — activation that sustains rather than redirects. The gift is a source of forward momentum you didn't consciously build. The shadow is reliance on external activation rather than developing the internal source.`,
+      Metal: `金偏印 is precision feeding precision — standards generating more standards, structure creating more structure. The gift is an extremely refined internal architecture. The shadow is a recursion of self-definition that eventually loses contact with anything outside itself.`,
+      Wood:  `木偏印 is growth feeding growth from the same register — reach sustained by more reach. The gift is abundant generative energy. The shadow is momentum without consolidation: the source keeps arriving but the form never quite settles.`,
+      Water: `水偏印 is depth nourishing depth — intelligence sustained by more intelligence. The gift is a perceptual faculty of unusual range and subtlety. The shadow is depth that spirals inward without ever finding a container for what it perceives.`,
+    }[el] || `A nourishing force that feeds your core from the same polarity register — sustaining rather than directing. The gift is genuine backing you didn't consciously build. The shadow is a support structure you depend on without fully understanding.`),
+  },
+  "正印": {
+    en: "The Root",
+    art: (c) => (
+      <svg viewBox="0 0 80 80" width="72" height="72">
+        <circle cx="40" cy="40" r="36" fill={c} opacity="0.07"/>
+        <circle cx="40" cy="30" r="10" fill={c} opacity="0.45"/>
+        <path d="M40 40 L40 62" stroke={c} strokeWidth="2" strokeLinecap="round" opacity="0.6"/>
+        <path d="M40 50 C33 50 26 54 24 62" stroke={c} strokeWidth="1.4" strokeLinecap="round" fill="none" opacity="0.4"/>
+        <path d="M40 50 C47 50 54 54 56 62" stroke={c} strokeWidth="1.4" strokeLinecap="round" fill="none" opacity="0.4"/>
+        <path d="M40 56 C36 56 32 59 30 64" stroke={c} strokeWidth="1" strokeLinecap="round" fill="none" opacity="0.25"/>
+        <path d="M40 56 C44 56 48 59 50 64" stroke={c} strokeWidth="1" strokeLinecap="round" fill="none" opacity="0.25"/>
+      </svg>
+    ),
+    describe: (el) => ({
+      Earth: `土正印 is Earth nourishing Metal from the cross-polarity register — a sustaining force that also opens and directs. This is genuine resource: the institutional backing, the mentor, the deep psychological support that arrives through legitimate channels and grants the precision somewhere real to stand. The gift is groundedness you can trust. The shadow is the tendency to wait for backing before moving, and the gradual dependency on support structures you haven't examined.`,
+      Fire:  `火正印 is warmth that nourishes your core and opens a direction for it — a cross-polarity resource that gives the precision a sense of purpose and warm recognition alongside it. The gift is the specific experience of being seen and supported in the same moment. The shadow is that what arrives easily can stop you from building the internal source yourself.`,
+      Metal: `金正印 is precision feeding precision across the yin-yang register — standards generating more standards with a slightly different quality, which means the refinement opens rather than only consolidates. The gift is an internal architecture that is both strong and adaptable. The shadow is standards that proliferate without resolution.`,
+      Wood:  `木正印 is growth sustaining growth across the yin-yang register — reach nourished from a source that also provides direction. The gift is developmental momentum with genuine backing. The shadow is reach that always expects the nourishment to continue arriving.`,
+      Water: `水正印 is depth nourishing depth across the yin-yang divide — intelligence sustained by a source that also provides direction and warmth. The gift is perceptual depth that is also emotionally intelligent. The shadow is dependency on a sustaining source that you haven't learned to generate for yourself.`,
+    }[el] || `A sustaining force that nourishes your core through a cross-polarity register — opening and supporting rather than simply amplifying. The gift is genuine backing you can trust. The shadow is a dependency on support that hasn't been fully examined.`),
+  },
+  "七杀": {
+    en: "The Trial",
+    art: (c) => (
+      <svg viewBox="0 0 80 80" width="72" height="72">
+        <circle cx="40" cy="40" r="36" fill={c} opacity="0.07"/>
+        <path d="M40 16 L40 64" stroke={c} strokeWidth="1.5" opacity="0.3"/>
+        <path d="M20 28 L60 52" stroke={c} strokeWidth="12" strokeLinecap="round" opacity="0.1"/>
+        <path d="M20 28 L60 52" stroke={c} strokeWidth="1.5" strokeLinecap="round" opacity="0.4"/>
+        <circle cx="40" cy="40" r="9" fill={c} opacity="0.5"/>
+        <circle cx="40" cy="40" r="5" fill={c} opacity="0.8"/>
+        <path d="M18 26 L22 30" stroke={c} strokeWidth="1.2" strokeLinecap="round" opacity="0.5"/>
+        <path d="M58 50 L62 54" stroke={c} strokeWidth="1.2" strokeLinecap="round" opacity="0.5"/>
+      </svg>
+    ),
+    describe: (el) => ({
+      Fire: `火七杀 is Fire pressing down on Metal from the same-polarity register — unmediated pressure, the forge that doesn't grant permission and doesn't moderate itself. This is the classical 七杀 condition: not a test you can pass by meeting a standard, but a force that demands you prove yourself against something that doesn't care whether you survive it. The character produced by this condition is either exceptional — what cannot be broken, isn't — or carries a cost that accumulates over years. What Fire pressure builds in Metal charts is the part that others don't see: something forged rather than developed.`,
+      Metal: `金七杀 is Metal pressing on Wood from the same polarity — a force that doesn't soften its cut or grant the growth permission to continue. The pressure is real and unrelenting. The character produced is either exceptionally defined or repeatedly cut before it can consolidate.`,
+      Water: `水七杀 is Water containing Fire from the same polarity — pressure that extinguishes rather than channels. The gift is the character that survives the encounter with what would put it out. The shadow is the cost of continuous containment.`,
+      Wood:  `木七杀 is Wood pressing on Earth from the same polarity — roots breaking through ground. The gift is resilience and the character built by sustained resistance. The shadow is the slow destabilisation that accumulates before it is visible.`,
+      Earth: `土七杀 is Earth damming Water from the same polarity — containing force against natural depth and flow. The gift is the discipline built by operating under real constraint. The shadow is the accumulated pressure of what keeps being held.`,
+    }[el] || `Unmediated pressure from outside — a force that doesn't grant permission and doesn't moderate itself. The character produced is either exceptional or costly. What it builds in you is forged rather than developed.`),
+  },
+  "正官": {
+    en: "The Standard",
+    art: (c) => (
+      <svg viewBox="0 0 80 80" width="72" height="72">
+        <circle cx="40" cy="40" r="36" fill={c} opacity="0.07"/>
+        <rect x="30" y="18" width="20" height="44" rx="3" fill={c} opacity="0.15"/>
+        <rect x="34" y="22" width="12" height="36" rx="2" fill={c} opacity="0.2"/>
+        <line x1="22" y1="40" x2="58" y2="40" stroke={c} strokeWidth="1.5" opacity="0.35"/>
+        <circle cx="40" cy="30" r="5" fill={c} opacity="0.6"/>
+        <line x1="34" y1="48" x2="46" y2="48" stroke={c} strokeWidth="1.2" opacity="0.3"/>
+        <line x1="36" y1="54" x2="44" y2="54" stroke={c} strokeWidth="1" opacity="0.2"/>
+      </svg>
+    ),
+    describe: (el) => ({
+      Fire: `火正官 is Fire setting a standard for Metal from the cross-polarity register — a legitimate authority that tests whether the precision is real. This is the classical 正官 condition: orderly, structured pressure that grants recognition when the standard is genuinely met. The gift is the orientation point — a framework you have chosen to respect, which gives the precision somewhere legitimate to point. The shadow is that 正官 requires worthy authority to function well. In corrupt or absent structure, the character loses its orientation point.`,
+      Metal: `金正官 is Metal setting a standard for Wood from the cross-polarity register — structured, orderly pressure that tests whether the growth is real. The gift is a framework that builds genuine quality over time. The shadow is dependence on external legitimation for what should eventually come from the inside.`,
+      Water: `水正官 is Water setting a standard for Fire from the cross-polarity register — tempering force that asks whether the warmth is sustainable. The gift is depth and sustainability added to what would otherwise burn through itself. The shadow is the quality of being contained by the standard at moments when the fire genuinely needs to expand.`,
+      Wood:  `木正官 is Wood setting a standard for Earth from the cross-polarity register — ordered pressure that asks whether the stability is living or merely inert. The gift is the distinction between holding and growing. The shadow is the standard that keeps arriving before the ground has had time to consolidate.`,
+      Earth: `土正官 is Earth setting a standard for Water from the cross-polarity register — containing force that asks whether the depth has form. The gift is intelligence given a channel and a purpose. The shadow is depth that is contained before it has fully arrived at what it was perceiving.`,
+    }[el] || `Structured external authority that tests whether the quality is real — a framework you have chosen to respect, which grants recognition when it is genuinely met. The gift is the orientation point. The shadow is dependence on worthy authority that may not always be present.`),
+  },
+};
 
-  // Dominant: always show the highest-count element
+function getElementInsights(chart) {
+  const dm   = chart.dayMaster;
+  const els  = chart.elements;
+  const missing = chart.missingElements;
+  const band = getEnergyBand(dm.strength);
+
   const counts = Object.entries(els).map(([el,v])=>({el,count:v.count})).sort((a,b)=>b.count-a.count);
   const topEl = counts[0];
   const dominant = topEl.el;
@@ -2415,10 +2949,10 @@ function getElementInsights(chart) {
 
   const MISSING_LINES = {
     Fire: `Fire is the forge — external recognition, directional pressure, the outside force that tells precision what it's for. You've never had it by default. Every sense of direction you've built, every moment of recognition you've earned, came from the inside out.`,
-    Earth:`Earth is absent from this chart — there is no natural structural ground beneath what you carry. The stability others inherit, you construct. Every container that holds what you do has been built deliberately, because none arrived by default, and the effort that has required is something most people in your life have probably never fully understood.`,
-    Water:`Water is absent from this chart — the reflective depth that tempers and nourishes isn't a natural presence here. What you build tends to be strong. The question of whether it can be sustained over time, whether what's been created can rest and be renewed, requires more deliberate cultivation than what comes naturally to this chart.`,
-    Wood: `Wood is absent from this chart — the natural outward reach, the creative momentum that grows toward things and other people, isn't a given here. What others assume will simply happen, you have to decide to do. That deliberateness is both harder than it sounds and what makes your commitments more considered than most.`,
-    Metal:`Metal is absent from this chart — the precision and definition that give things their shape, the natural standards and boundaries, aren't inherited here. Every structure you operate by has been chosen rather than given. That is a more demanding way to live than most people recognise, and it produces a different kind of integrity — one that was earned rather than assumed.`,
+    Earth:`Earth is absent from your chart — there is no natural structural ground beneath what you carry. The stability others inherit, you construct. Every container that holds what you do has been built deliberately, because none arrived by default, and the effort that has required is something most people in your life have probably never fully understood.`,
+    Water:`Water is absent from your chart — the reflective depth that tempers and nourishes isn't a natural presence here. What you build tends to be strong. The question of whether it can be sustained over time, whether what's been created can rest and be renewed, requires more deliberate cultivation than what comes naturally to you.`,
+    Wood: `Wood is absent from your chart — the natural outward reach, the creative momentum that grows toward things and other people, isn't a given here. What others assume will simply happen, you have to decide to do. That deliberateness is both harder than it sounds and what makes your commitments more considered than most.`,
+    Metal:`Metal is absent from your chart — the precision and definition that give things their shape, the natural standards and boundaries, aren't inherited here. Every structure you operate by has been chosen rather than given. That is a more demanding way to live than most people recognise, and it produces a different kind of integrity — one that was earned rather than assumed.`,
   };
   const MISSING_GUIDANCE = {
     Fire: `When Fire arrives — through timing, environment, or the right people — something that has always been real in you finally has the heat it was built for.`,
@@ -2427,13 +2961,14 @@ function getElementInsights(chart) {
     Wood: `Invest in the one direction that is genuinely yours — not the one that's available, or the one that seems most reasonable, but the one that is actually yours. One root growing deep is worth more than many reaching shallow.`,
     Metal:`Define what is non-negotiable in how you work and live. Precision is a practice, and the one you develop by choosing it is more genuinely yours than any that could have arrived ready-made.`,
   };
-  // Multi-dominant threshold: show elements where count >= max(2, maxCount-1), cap at 2
-  const maxCount = counts[0].count;
-  const threshold = Math.max(2, maxCount - 1);
+  // Show any element scoring 3 or above — gives a natural, chart-driven list
+  // without an arbitrary band cap. Charts with one strong element show 1;
+  // charts with two or three meaningful forces show them all.
   const dominants = counts
-    .filter(({count}) => count >= threshold && count > 0)
-    .slice(0, 2);
+    .filter(({ count }) => count >= 3)
+    .slice(0, 3); // hard cap at 3 to keep UI readable
 
+  const totalCount = counts.reduce((s, {count}) => s + count, 0) || 1;
   const results = { dominant: [], missing: [] };
 
   dominants.forEach(({el, count}) => {
@@ -2441,11 +2976,11 @@ function getElementInsights(chart) {
     if (!data) return;
     const rel  = getDomRel(dm.element, el);
     const kws  = [...data.traits, REL_TAG[rel]];
-    // Substitute count in line for non-DM elements
     const line = el === dm.element
       ? data.line
-      : data.line.replace(/runs through \d+ of your 8 characters\. Your chart doesn't carry [^ ]+ as a tendency — it IS [^\.]+\./, `scores ${count}/10 in this chart.`);
-    results.dominant.push({ el, count, line, guidance: data.guidance, keywords: kws });
+      : data.line.replace(/runs through \d+ of your 8 characters\. Your chart doesn't carry [^ ]+ as a tendency — it IS [^\.]+\./, `is present at ${count}/10 strength in your chart.`);
+    const tg   = getDominantTenGod(el, dm.stem, chart.pillars);
+    results.dominant.push({ el, count, totalCount, tenGod: tg, line, guidance: data.guidance, keywords: kws });
   });
 
   missing.forEach(el => {
@@ -2512,71 +3047,354 @@ const STRENGTH_META = {
   },
 };
 
+
+
+  // ── READING_ANGLES — 50 keys: domEl_specificTenGod ──────────────────────
+  // Each key encodes the full interaction because the DM element is implied.
+  // domEl × specificTenGod → unique DM element → unique elemental interaction.
+  // Three angles per entry: how (TG mechanism), works (dynamic), deep (shadow).
+  // yin/yang TG pairs are categorically different — not tonal variants.
+  // Entries marked [PLACEHOLDER] need full generation (see generate_templates_v2.js).
+  const READING_ANGLES = {
+    // ── METAL DOMINANT ───────────────────────────────────────────────────────
+    "金_比肩": { // Metal→Metal same-polarity · DM=Metal · Mirror
+      how:   "You recognise equals instinctively and are genuinely indifferent to authority that hasn't demonstrated quality. The competitive register is structural: the drive is to be actually better, not to appear so.",
+      works: "Metal-on-Metal same-polarity energises at the right intensity and compresses at excess. Environments that are all evaluation — rigid, no generative material — produce stagnation. The precision needs something real to work on rather than itself.",
+      deep:  "The self-sufficiency this creates can look like independence but is isolation by standard. The people who actually reach you are the ones who match the standard without being told what it is.",
+    },
+    "金_劫财": { // Metal→Metal cross-polarity · DM=Metal · Rival
+      how:   "You meet forces that share your nature but not your register — close enough to feel like peers, different enough to create structural competition. The orientation is comparative: not hostile, but always measuring the gap between your quality and theirs.",
+      works: "The rival dynamic energises when the competition is genuine and compresses when it turns inward. The risk is applying the competitive register to yourself — the same apparatus that drives quality also drives chronic dissatisfaction with your own output.",
+      deep:  "What the 劫财 mirror produces at depth: the people most like you are also the ones most likely to reveal your limits. Genuine peers are both the most useful and the most difficult to yield to.",
+    },
+    "金_食神": { // Metal→Earth DM · same-polarity · Flow
+      how:   "The precision that emerges from your stability is non-assertive — it doesn't demand recognition. Standards appear in what you produce as a natural quality rather than a declared position. Others encounter the precision without knowing you chose it.",
+      works: "The ease of natural precision can become its own risk: extending the evaluative output into what feels natural without checking whether the foundation that produces it is being maintained. The gift and the depletion come through the same door.",
+      deep:  "Because the precision doesn't feel like effort from the inside, the accumulating cost of continuous high-standard output is invisible until it isn't. The system that produces quality effortlessly doesn't announce when it's running low.",
+    },
+    "金_伤官": { // Metal→Earth DM · cross-polarity · Edge
+      how:   "The precision that emerges from your stability operates ahead of the structures built to evaluate it. Not willfully — structurally. What you produce consistently exceeds the conventional standard, which means the framework for assessing it is always slightly behind.",
+      works: "The output is in structural tension with any authority that tries to contain it by conventional measure. This produces both breakthroughs and friction — the same quality creates both. The friction is not avoidable; it is the cost of genuine structural advancement.",
+      deep:  "What 伤官 builds in Earth charts: the specific difficulty of working within institutions that grade on curves your output doesn't fit. The precision is real; the recognition lags. What accumulates is the gap between what you produce and what the available frameworks can acknowledge.",
+    },
+    "金_偏财": { // Metal→Fire DM · same-polarity · Field [PLACEHOLDER]
+      how:   "The precision available to this chart is broad and distributed — warmth applied to many forms of exact knowledge simultaneously. The engagement ranges widely across material that can be refined and made precise.",
+      works: "The broad distribution of precision energises when there is varied material to evaluate and dissipates when focus is required. The same ranging quality that produces wide capability makes concentrated depth harder to sustain.",
+      deep:  "The distributed precision can produce a pattern of evaluating broadly without fully possessing any single domain. The warmth that generates the precision is genuine; the question is whether the precision finds its home or keeps ranging.",
+    },
+    "金_正财": { // Metal→Fire DM · cross-polarity · Harvest [PLACEHOLDER]
+      how:   "The precision is directed toward specific, structured outcomes — focused warmth shaping the edge with cross-polarity discipline. What you build toward is methodical and earned; the standard is applied with direction, not just evaluated.",
+      works: "The focused precision energises when the material is genuinely worthy and compresses when the outcome doesn't merit the full standard being applied to it. The same discipline that produces quality also resists releasing what isn't finished.",
+      deep:  "正财 for Fire DM: the risk of directed precision is applying the evaluative standard to the warmth itself — asking whether the connection, the illumination, the relationship meets the bar. What was meant to be given becomes subjected to the very standard it was trying to express.",
+    },
+    "金_七杀": { // Metal→Wood DM · same-polarity · Trial [PLACEHOLDER]
+      how:   "Metal presses on Wood without granting permission and without moderating itself. The reach has been shaped by something that doesn't care whether it survives the encounter. What this produces in character could not have been cultivated — it had to be forged.",
+      works: "The 七杀 pressure is refining when the chart has sufficient resources to channel it and costly when it doesn't. The same structural condition produces the best and worst outcomes — it depends entirely on what the chart has to work with.",
+      deep:  "What Metal pressure builds in Wood charts at depth: a quality of directed reach that ordinary growth could never produce. The direction is not natural — it was imposed. What remains after the imposition is the character that the reach alone would not have built.",
+    },
+    "金_正官": { // Metal→Wood DM · cross-polarity · Standard [PLACEHOLDER]
+      how:   "Metal sets a standard for Wood that can be respected — structured precision that tests whether the reach is real and grants recognition when it is. The development operates within a framework the chart has chosen to endorse.",
+      works: "The 正官 standard energises when the framework is worthy and produces disorientation when it is absent or corrupt. This chart reaches within structures it respects; when those structures fail, the reach loses its orientation point.",
+      deep:  "What 正官 Metal builds in Wood charts: character that was shaped by a coherent standard rather than unmediated pressure. The shadow is dependence on worthy frameworks — the reach that learned to grow within structure has difficulty knowing what direction means without one.",
+    },
+    "金_偏印": { // Metal→Water DM · same-polarity · Well [PLACEHOLDER]
+      how:   "Metal generates Water DM through the same-polarity register — precision sustaining depth without opening or redirecting it. The intelligence this chart carries is backed by a refining source that deepens rather than widens.",
+      works: "Same-polarity generation produces backing that compounds and concentrates. The risk is a self-referencing depth that accumulates without form — precision feeding intelligence that has nowhere specific to go.",
+      deep:  "What 偏印 Metal produces in Water charts at depth: standards applied to perception itself. The intelligence is backed by a source that asks of everything it perceives: is this accurate? — which is both the gift and the cost of this particular nourishment.",
+    },
+    "金_正印": { // Metal→Water DM · cross-polarity · Root [PLACEHOLDER]
+      how:   "Metal generates Water DM through the cross-polarity register — precision nourishing depth while simultaneously opening and directing it. The intelligence this chart carries is backed by a source that both sustains and gives it somewhere to point.",
+      works: "Cross-polarity generation produces nourishment that opens rather than only concentrates. The precision that feeds this chart's depth gives it form and direction — the intelligence that would otherwise range without landing finds the channel the precision provides.",
+      deep:  "What 正印 Metal produces in Water charts: the specific quality of depth that has been given a shape by something sharper than itself. The intelligence is genuine; what makes it usable rather than diffuse is the precision that backs it.",
+    },
+
+    // ── WOOD DOMINANT ────────────────────────────────────────────────────────
+    "木_比肩": { // Wood→Wood same-polarity · DM=Wood · Mirror [PLACEHOLDER]
+      how:   "Reach amplifying reach — the developmental instinct running at double force without anything present to ask what should be consolidated. You invest in what's growing because the nature cannot distinguish between feeding what grows and growing endlessly.",
+      works: "木 same-polarity amplification energises in environments with genuine material to reach toward and dissipates when the reach has nothing to consolidate around. The gift is generosity at scale; the shadow is diffuse investment that leaves nothing specifically yours.",
+      deep:  "The 比肩 Wood mirror produces a specific pattern: the people who energise you most are also the ones who will not give the reach a boundary. Genuine peers in growth don't stop you from over-extending — they extend alongside you.",
+    },
+    "木_劫财": { // Wood→Wood cross-polarity · DM=Wood · Rival [PLACEHOLDER]
+      how:   "Reach meeting reach in a competing register — developmental instinct expressed differently enough to create structural rivalry. The orientation is comparative: not hostile, but the instinct to grow is also the instinct to outpace.",
+      works: "The rival Wood dynamic produces clarity about where genuine competition lies and depletes when the rivalry turns inward — reaching against yourself rather than toward the next stage.",
+      deep:  "木 劫财: the people most like you in developmental drive are also the ones who reveal where your growth stalls. The rivalry is productive when it's between real equals; it's costly when it becomes measuring yourself against what others accomplish.",
+    },
+    "木_食神": { // Wood→Water DM · same-polarity · Flow [PLACEHOLDER]
+      how:   "The reach that flows from your depth is non-assertive and natural — you grow toward things because that's what happens when the depth is full, not because you decided to. Others experience the developmental investment as something offered rather than claimed.",
+      works: "The ease of natural outward reach from Water DM can become its own risk: extending into growth that feels organic without checking whether the depth sustaining it has been replenished. The depletion is invisible until it isn't.",
+      deep:  "木 食神 from Water: what others don't see is that the reach is drawing from the depth. The generosity of the developmental instinct at this polarity is real; so is the cost of continuous outward movement on the source that sustains it.",
+    },
+    "木_伤官": { // Wood→Water DM · cross-polarity · Edge [PLACEHOLDER]
+      how:   "The reach that emerges from your depth operates ahead of the frameworks that try to assess it — not willfully, but because the depth produces reach that exceeds conventional measure. The growth is structurally more advanced than what the available environment was built to contain.",
+      works: "Wood 伤官 from Water produces both the breakthroughs and the friction. The same quality creates both: the reach that doesn't fit the framework is also the reach that advances beyond it. The friction is the price of genuine forward movement.",
+      deep:  "What 伤官 Wood builds in Water charts: the specific difficulty of growing in environments that grade by standards your development has already outpaced. What accumulates is the gap between the depth of what you carry and the reach of what you're permitted to express.",
+    },
+    "木_偏财": { // Wood→Metal DM · same-polarity · Field [PLACEHOLDER]
+      how:   "The living, growing material available to your precision is broad and distributed — reach ranging across many domains simultaneously. The engagement is wide: many things worth the evaluative standard, no single thing claiming its full force.",
+      works: "偏财 Wood for Metal DM: the broad field energises when there is genuinely varied material to direct and dissipates when the precision is required to settle. The same ranging quality that produces wide capability resists the focused depth that mastery requires.",
+      deep:  "The distributed engagement with living material produces a pattern of directing broadly without the precision finding its home. The evaluation is real; the question is whether it finds the domain where its full force is finally warranted.",
+    },
+    "木_正财": { // Wood→Metal DM · cross-polarity · Harvest [PLACEHOLDER]
+      how:   "Precision directing living, growing material with cross-polarity discipline — the edge applied to what reaches and grows. The specific production: methodical pursuit of outcomes with genuine developmental substance. When something goes wrong, the first move is diagnostic.",
+      works: "Wood as 正财 for Metal: the precision finds its direction in living material that has its own momentum. The two are catalytic — Metal defines what the growth becomes; Wood keeps the precision aimed at something alive. Without genuine Wood-type problems, the precision turns on itself.",
+      deep:  "正财 Wood carries a specific shadow for Metal: the risk of controlling what you care about. The evaluative apparatus applied to living material eventually asks whether it is worthy of the standard — and doesn't always know when to stop asking.",
+    },
+    "木_七杀": { // Wood→Earth DM · same-polarity · Trial [PLACEHOLDER]
+      how:   "Reach pressing on stability without permission and without moderation — roots that break stone over time. The Mountain has been shaped by something that keeps moving regardless of whether the ground yielded. What this produces in character could not have been cultivated.",
+      works: "木 七杀 pressure on Earth: the same-polarity press is either refining or destabilising depending entirely on the chart's resources. The reach that breaks through the stability either produces dynamism or erosion — the structural condition itself doesn't care which.",
+      deep:  "What Wood pressing Earth builds at depth: stability that learned to move. Not because it wanted to, but because something kept requiring it to. The Mountain that has been repeatedly pressed by roots is not the same Mountain that was never tested.",
+    },
+    "木_正官": { // Wood→Earth DM · cross-polarity · Standard [PLACEHOLDER]
+      how:   "Reach setting a standard for stability that can be respected — movement asking whether the holding is living or merely inert. The structure that emerges from this relationship is stability that has been asked real questions and answered them.",
+      works: "正官 Wood for Earth: the reach energises the stability when the framework is genuine and produces orientation loss when it is absent. This chart's stability is shaped by movement it has chosen to endorse.",
+      deep:  "What 正官 Wood produces in Earth charts: the distinction between holding and growing. The stability that learned from reach has been given a question it couldn't have asked itself — and the character that results is more alive for having been asked.",
+    },
+    "木_偏印": { // Wood→Fire DM · same-polarity · Well [PLACEHOLDER]
+      how:   "Reach sustaining warmth through the same-polarity register — the developmental instinct feeding the illuminating force from the same frequency. The nourishment compounds and deepens without opening in new directions.",
+      works: "同 polarity generation produces backing that intensifies. The risk: warmth fed by same-polarity reach can become increasingly concentrated until it exceeds the container. The nourishment is real; the direction may need something other than more of the same.",
+      deep:  "木 偏印 for Fire: the source sustaining the warmth is itself always reaching. The illumination is backed by something that never fully consolidates — which means the warmth is sustained but never quite settled.",
+    },
+    "木_正印": { // Wood→Fire DM · cross-polarity · Root [PLACEHOLDER]
+      how:   "Reach nourishing warmth through the cross-polarity register — the developmental instinct feeding the illuminating force while simultaneously opening it toward something specific. The nourishment gives the warmth a direction rather than only sustaining it.",
+      works: "Cross-polarity generation from Wood opens the Fire DM rather than only intensifying it. The reach provides nourishment that includes direction — the warmth that comes through this chart has somewhere to go, not just more of itself to give.",
+      deep:  "正印 Wood produces in Fire charts: illumination backed by something that is always pointing toward the next stage. The warmth has a developmental quality — it doesn't just shine, it grows. The shadow is warmth that reaches past what the current recipient can hold.",
+    },
+
+    // ── FIRE DOMINANT ────────────────────────────────────────────────────────
+    "火_比肩": { // Fire→Fire same-polarity · DM=Fire · Mirror [PLACEHOLDER]
+      how:   "Warmth amplifying warmth — the illuminating force running at double intensity without containment or direction. The presence fills every room simultaneously and at equal depth, which is both the gift and the precise limit of this energy.",
+      works: "火 same-polarity amplification energises in environments where the warmth has specific recipients and dissipates when the presence fills everything at once without landing anywhere in particular. Diffuse warmth costs as much as focused warmth and produces less.",
+      deep:  "The 比肩 Fire mirror produces the specific difficulty of knowing who you are when the room isn't there to reflect back. The warmth is structural; the question at depth is whether it can sustain itself without an audience.",
+    },
+    "火_劫财": { // Fire→Fire cross-polarity · DM=Fire · Rival [PLACEHOLDER]
+      how:   "Warmth meeting warmth in a competing register — presence at a slightly different frequency than the DM's. The relational instinct is comparative: the warmth recognises other warmth and measures itself against it without being able to help it.",
+      works: "火 劫财 produces restlessness in close relationships — the people most like you in relational warmth are also the ones you measure yourself against. The gift is the clarity that comes from genuine peers; the cost is the difficulty of truly collaborating with someone who mirrors you closely enough to reveal your limits.",
+      deep:  "What the rival Fire dynamic produces at depth: the specific loneliness of being most similar to the people who can't give you what you need, because they need the same thing from you.",
+    },
+    "火_食神": { // Fire→Wood DM · same-polarity · Flow [PLACEHOLDER]
+      how:   "The warmth that flows from your reach is non-assertive and naturally generous — illumination that emerges because the developmental instinct is full and gives what it has. The warmth doesn't announce itself; it arrives because the reach produced it.",
+      works: "The ease of natural warmth from Wood reach can become its own risk: extending into relational illumination that feels organic without checking whether the growth sustaining it has consolidated. The depletion of the reach-source is invisible in the warmth it produces.",
+      deep:  "火 食神 from Wood: what others receive as generous warmth is drawing from the developmental source. The giving is genuine; so is the cost of continuous outward warmth on the reach that sustains it.",
+    },
+    "火_伤官": { // Fire→Wood DM · cross-polarity · Edge [PLACEHOLDER]
+      how:   "The warmth that emerges from your reach challenges the frameworks available to receive it — not because you chose confrontation but because the illumination operates ahead of what conventional relational structures were built to contain.",
+      works: "火 伤官 from Wood produces both the connections that change people and the friction with structures that weren't built for that kind of warmth. The same quality that creates profound impact creates difficulty with institutions and hierarchies that grade warmth by conventional measure.",
+      deep:  "What 伤官 Fire builds in Wood charts: the specific gap between what the illumination offers and what the available framework can acknowledge. The warmth is real; the recognition consistently lags. What accumulates is the cost of giving more than the environment was built to receive.",
+    },
+    "火_偏财": { // Fire→Water DM · same-polarity · Field [PLACEHOLDER]
+      how:   "Depth directing warmth broadly — perceptual intelligence applied to illumination as distributed material. The engagement ranges widely: many forms of warmth, many relational contexts, no single one claiming the full depth of the directing force.",
+      works: "偏财 Fire for Water DM: the broad field of warmth energises when there is genuinely varied relational material to direct and dissipates when the depth is required to settle on one thing. The ranging quality that produces wide relational capability resists concentrated commitment.",
+      deep:  "The distributed direction of warmth produces a pattern of engaging with many people and contexts without the depth fully landing anywhere. The intelligence directing the warmth is real; the question is whether it finds where its full force is finally warranted.",
+    },
+    "火_正财": { // Fire→Water DM · cross-polarity · Harvest [PLACEHOLDER]
+      how:   "Depth directing warmth with cross-polarity discipline — perceptual intelligence shaping illumination into structured purpose. The warmth produced by this chart is directed rather than diffuse: it goes somewhere specific and builds something there.",
+      works: "水 directing 火 as 正财: the depth gives the warmth a channel and a purpose. Without the directing force, the warmth would spread. With it, the illumination concentrates into outcomes. The shadow: the same depth that gives warmth direction can make it ask whether the warmth is justified before giving it.",
+      deep:  "正财 Fire from Water: the risk is that the directing intelligence applies itself to warmth — asking whether the illumination is warranted, whether the connection meets the standard. What was meant to be freely given becomes subjected to the very precision that was trying to give it shape.",
+    },
+    "火_七杀": { // Fire→Metal DM · same-polarity · Trial [PLACEHOLDER]
+      how:   "Fire pressing on Metal without granting permission and without moderating itself — the forge at its most uncompromising. What the Blade or Jewel carries was not developed. It was produced under conditions that didn't care whether the metal survived the temperature.",
+      works: "火 七杀 on Metal: the same-polarity press is refining or damaging depending on the chart's resources. The forge that produces the finest edges also produces the most casualties. The structural condition itself makes no distinction.",
+      deep:  "What Fire pressing Metal builds at depth: precision that was forged, not cultivated. The standard the Metal chart carries is real; so is the cost of the conditions that produced it. What remains after the forge is not the same metal that went in.",
+    },
+    "火_正官": { // Fire→Metal DM · cross-polarity · Standard [PLACEHOLDER]
+      how:   "Fire setting a standard for Metal that can be respected — the forge with structure, direction, and the recognition that quality earned. What the Metal chart has built was built within a framework the warmth endorses.",
+      works: "正官 Fire for Metal: the forge energises when the framework is genuine and produces orientation loss when it's absent. The precision that was shaped by structured warmth loses its direction without the framework that gave it shape.",
+      deep:  "What 正官 Fire produces in Metal charts: precision that knows what it was built for. The shadow is the inverse — the precision that learned from a worthy standard has difficulty operating when no worthy standard is present.",
+    },
+    "火_偏印": { // Fire→Earth DM · same-polarity · Well [PLACEHOLDER]
+      how:   "Warmth sustaining the Mountain through the same-polarity register — activation feeding stability from the same frequency. The nourishment intensifies what is already present rather than opening new directions.",
+      works: "同 polarity Fire nourishing Earth: the stability is sustained and deepened by warmth that shares its register. The risk is a stability that becomes increasingly concentrated without the movement that would give what it holds somewhere to go.",
+      deep:  "火 偏印 for Earth: the source sustaining the stability is itself always warm — which means the Mountain is nourished but not moved. What accumulates at depth is the weight of holding what the warmth keeps adding to.",
+    },
+    "火_正印": { // Fire→Earth DM · cross-polarity · Root [PLACEHOLDER]
+      how:   "Warmth nourishing stability through the cross-polarity register — activation feeding the Mountain while simultaneously opening it toward movement. The nourishment gives the holding force a direction rather than only deepening it.",
+      works: "正印 Fire for Earth: the warmth provides nourishment that includes activation — the stability is sustained and given somewhere to move. The Mountain that carries this nourishment is reliable and also alive.",
+      deep:  "What 正印 Fire produces in Earth charts: the distinction between holding and giving. Stability nourished by warmth that opens has something to offer rather than only containing. The shadow is warmth that activates more than the stability can process before the next activation arrives.",
+    },
+
+    // ── EARTH DOMINANT ───────────────────────────────────────────────────────
+    "土_比肩": { // Earth→Earth same-polarity · DM=Earth · Mirror [PLACEHOLDER]
+      how:   "Stability amplifying stability — the holding force running at double weight without movement or release. The capacity to carry what others need carried is extraordinary; the circulation of what is held is not.",
+      works: "土 same-polarity amplification energises when the holding is genuinely needed and accumulates without movement when it isn't. What is held tends to stay held; what circulates does so slowly. The gift is load-bearing presence at scale; the shadow is inertia that compounds quietly.",
+      deep:  "The 比肩 Earth mirror produces the specific cost of being the ground under everyone else's feet: there is rarely anyone asking whether the ground itself is well. The stability is real; so is the invisibility of what sustains it.",
+    },
+    "土_劫财": { // Earth→Earth cross-polarity · DM=Earth · Rival [PLACEHOLDER]
+      how:   "Stability meeting stability in a competing register — two holding forces claiming the same ground. The orientation is comparative: each form of reliability measuring itself against the other in the same space.",
+      works: "土 劫财 produces clarity about where genuine solidity lies and depletes when the competition turns inward — two forms of the same holding quality pressing against each other rather than toward what needs to be held.",
+      deep:  "What the rival Earth dynamic produces at depth: the specific difficulty of collaborating with someone whose stability is as real as yours but expressed differently. What should be shared ground becomes contested.",
+    },
+    "土_食神": { // Earth→Fire DM · same-polarity · Flow [PLACEHOLDER]
+      how:   "The stability that flows from your warmth is non-assertive and naturally generous — structure that appears as a quality of what you produce rather than as a declared standard. Others encounter the reliability without knowing you chose it.",
+      works: "土 食神 from Fire: the ease of natural stability from warmth can produce the same risk — extending into structural output that feels organic without checking whether the warmth sustaining it is being replenished.",
+      deep:  "What the flow of stability from Fire produces at depth: the specific invisibility of the cost. The structure is genuine; the warmth that generates it doesn't announce when producing it has become a depletion.",
+    },
+    "土_伤官": { // Earth→Fire DM · cross-polarity · Edge [PLACEHOLDER]
+      how:   "The stability produced by your warmth exceeds the structural expectations of the environment — not as assertion but as structural emergence. What you build consistently goes further than the framework was designed to evaluate.",
+      works: "土 伤官 from Fire produces both the lasting structures and the friction with institutions that grade stability by conventional measure. The same quality that builds things that outlast their builders creates difficulty with whatever tries to assess them by standard means.",
+      deep:  "What 伤官 Earth builds in Fire charts: the specific gap between what the stability offers and what the environment knows how to acknowledge. The structure is real; the recognition consistently arrives late or not at all.",
+    },
+    "土_偏财": { // Earth→Wood DM · same-polarity · Field [PLACEHOLDER]
+      how:   "Reach directing stability broadly — developmental instinct applied to holding and structure as distributed material. The engagement ranges across many forms of stable outcome, no single one claiming the full force of the reach.",
+      works: "偏财 Earth for Wood DM: the broad field energises when there is genuinely varied material to cultivate toward stability and dissipates when concentration is required. The ranging quality resists the settled depth that enduring structure requires.",
+      deep:  "The distributed direction of stability produces a pattern of reaching toward reliable outcomes across many domains without any single one bearing the full weight of the developmental investment.",
+    },
+    "土_正财": { // Earth→Wood DM · cross-polarity · Harvest [PLACEHOLDER]
+      how:   "Reach directing stability with cross-polarity discipline — developmental instinct shaping the holding force toward structured cultivation. The reach knows what the stability is for: it directs the fertility toward what can be harvested.",
+      works: "木 directing 土 as 正财: the reach gives the stability a direction and a harvest. Without the reach, the stability accumulates without producing. With it, the holding force becomes generative. The shadow: the reach applied to stability eventually asks whether the fertility is yielding.",
+      deep:  "正财 Earth from Wood: the risk is that the developmental intelligence applies itself to what is being cultivated — asking whether the growth justifies the holding. The patience that was meant to allow things to develop becomes the standard things must meet before the patience continues.",
+    },
+    "土_七杀": { // Earth→Water DM · same-polarity · Trial [PLACEHOLDER]
+      how:   "Earth pressing on Water without permission and without moderation — the dam blocking depth that didn't ask to be contained. What the Water chart carries was shaped by a containing force that gave it the only form it has.",
+      works: "土 七杀 on Water: the same-polarity press either produces depth that has found its banks or depth that was dammed before it could find its form. The containment itself doesn't care which outcome results.",
+      deep:  "What Earth pressing Water builds at depth: intelligence that learned to work within a container it didn't choose. The depth is real; so is the shape that was imposed on it. What remains is not the depth that would have emerged naturally.",
+    },
+    "土_正官": { // Earth→Water DM · cross-polarity · Standard [PLACEHOLDER]
+      how:   "Earth setting a standard for Water that can be respected — containment that asks whether the depth has form and grants recognition when it does. The intelligence this chart carries was shaped by a structure the depth chose to endorse.",
+      works: "正官 Earth for Water: the containment energises when the framework is worthy and produces orientation loss when it is absent. The depth that learned to work within structure loses its sense of direction without the container that gave it shape.",
+      deep:  "What 正官 Earth produces in Water charts: intelligence that knows how to be useful. The shadow is depth that learned to express only within provided containers — which can mistake the container for the intelligence itself.",
+    },
+    "土_偏印": { // Earth→Metal DM · same-polarity · Well [PLACEHOLDER]
+      how:   "Stability sustaining precision through the same-polarity register — the holding force feeding the evaluative standard from the same frequency. The nourishment deepens the precision without opening it in new directions.",
+      works: "同 polarity Earth nourishing Metal: the precision is sustained and deepened by stability that shares its register. The risk is precision that becomes increasingly concentrated without the release that would give what it evaluates somewhere to go.",
+      deep:  "土 偏印 for Metal: the source sustaining the precision is itself always patient — which means the evaluative standard is nourished but not moved. What accumulates is precision applied to an increasingly refined and increasingly narrow standard.",
+    },
+    "土_正印": { // Earth→Metal DM · cross-polarity · Root [PLACEHOLDER]
+      how:   "Stability nourishing precision through the cross-polarity register — the holding force feeding the evaluative standard while simultaneously opening it toward application. The nourishment gives the precision a direction rather than only sharpening it.",
+      works: "正印 Earth for Metal: the stability provides nourishment that includes directionality. The precision is sustained and given something to evaluate — the standard is backed by ground and pointed toward what deserves it.",
+      deep:  "What 正印 Earth produces in Metal charts: precision that knows where to stand. The shadow is that the stability-backing can produce a precision that requires being grounded before it can evaluate — which means the standard is sound but contingent on the ground holding.",
+    },
+
+    // ── WATER DOMINANT ───────────────────────────────────────────────────────
+    "水_比肩": { // Water→Water same-polarity · DM=Water · Mirror [PLACEHOLDER]
+      how:   "Depth amplifying depth — perceptual intelligence running at double range without form or channel. The capacity to hold what others cannot and perceive what isn't said is extraordinary; the capacity to concentrate that depth into something specific is not.",
+      works: "水 same-polarity amplification energises when the depth has a direction and dissipates when the intelligence ranges without landing. The gift is vast perceptual range; the shadow is depth that touches everything at equal intensity and therefore nothing specifically.",
+      deep:  "The 比肩 Water mirror produces the specific cost of perceiving at a range others can't follow: you operate with more information than most environments can verify or use. What accumulates is the gap between what you carry and what can be received.",
+    },
+    "水_劫财": { // Water→Water cross-polarity · DM=Water · Rival [PLACEHOLDER]
+      how:   "Depth meeting depth in a competing register — two forms of perceptual intelligence oriented differently toward the same range of experience. The orientation is comparative: each form of intelligence measuring the depth of the other.",
+      works: "水 劫财 produces clarity about where genuine intelligence lies and depletes when the comparison turns inward. The rival dynamic is productive between real equals; it's costly when the intelligence applies its full perceptual range to its own limits.",
+      deep:  "What the rival Water dynamic produces at depth: the specific difficulty of the most genuinely intelligent people in your range also being the ones most likely to challenge your read. Yielding to a peer who perceives at the same depth requires a different kind of intelligence.",
+    },
+    "水_食神": { // Water→Metal DM · same-polarity · Flow [PLACEHOLDER]
+      how:   "The depth that flows from precision is non-assertive and naturally generous — intelligence that appears as a quality of what the precision produces rather than as a declared claim. Others encounter the depth without knowing it was the precision that generated it.",
+      works: "水 食神 from Metal: the ease of natural depth from precision can produce the invisible depletion risk — the intelligence that flows naturally from the evaluative standard draws from the same source that sustains the precision. The depletion of the evaluative source shows up in the depth first.",
+      deep:  "What flows from Metal precision as Food God depth: the intelligence is real and appears effortless. So is the cost of sustaining a precision high enough to generate that quality of depth continuously.",
+    },
+    "水_伤官": { // Water→Metal DM · cross-polarity · Edge [PLACEHOLDER]
+      how:   "The depth produced by your precision operates ahead of the frameworks built to assess intelligence — the perceptual range consistently exceeds what the available environment was designed to contain or verify.",
+      works: "水 伤官 from Metal produces both the depth that changes how problems are understood and the friction with institutions that grade intelligence by standard measures. The same quality creates genuine insight and structural difficulty with whatever tries to evaluate it conventionally.",
+      deep:  "What 伤官 Water builds in Metal charts: the specific gap between the depth of perception and the depth of recognition. The intelligence is real; the verification consistently lags. What accumulates is the cost of carrying more than the environment can use.",
+    },
+    "水_偏财": { // Water→Earth DM · same-polarity · Field [PLACEHOLDER]
+      how:   "Stability directing depth broadly — holding force applied to intelligence and perception as distributed material. The engagement ranges across many forms of perceptual depth, no single one claiming the full weight of the containing force.",
+      works: "偏财 Water for Earth DM: the broad field energises when there is genuinely varied intelligence to direct and dissipates when the stability is required to settle on one specific form of depth. The ranging quality resists the concentrated depth that mastery requires.",
+      deep:  "The distributed direction of depth produces a pattern of providing ground for many forms of intelligence without the stability fully investing in any single one. What it holds is real; what it harvests from what it holds is less clear.",
+    },
+    "水_正财": { // Water→Earth DM · cross-polarity · Harvest [PLACEHOLDER]
+      how:   "Stability directing depth with cross-polarity discipline — holding force shaping perceptual intelligence into productive form. The depth available to this chart is directed rather than diffuse: the ground gives the intelligence a channel.",
+      works: "土 directing 水 as 正财: the stability gives the depth form and direction. Without the directing force, the intelligence would range. With it, the perception concentrates into outcomes others can engage with. The shadow: the stability applied to depth eventually asks whether the intelligence is being harvested correctly.",
+      deep:  "正财 Water from Earth: the risk is that the containing intelligence applies itself to depth — asking whether the perception is useful, whether what is being carried meets the standard for what it's worth carrying. What was meant to flow is asked to justify its current.",
+    },
+    "水_七杀": { // Water→Fire DM · same-polarity · Trial [PLACEHOLDER]
+      how:   "Water pressing on Fire without permission and without moderation — the extinguishing force that shapes warmth by testing whether it can survive encounter with what would put it out. What the Fire chart carries was not the original warmth; it is the warmth that remained.",
+      works: "水 七杀 on Fire: the same-polarity press either produces warmth that learned to sustain itself in genuinely difficult conditions or warmth that was reduced by conditions it couldn't survive. The structural condition itself does not care which.",
+      deep:  "What Water pressing Fire builds at depth: warmth that doesn't require favorable conditions to sustain itself. Not because it is impervious — because it learned to burn with less than it needed. What remains after the encounter is a different kind of warmth.",
+    },
+    "水_正官": { // Water→Fire DM · cross-polarity · Standard [PLACEHOLDER]
+      how:   "Water setting a standard for Fire that can be respected — depth asking whether the warmth is sustainable and granting recognition when it is. The illumination this chart produces was shaped by a framework the depth endorses.",
+      works: "正官 Water for Fire: the standard energises when the depth-framework is genuine and produces disorientation when it is absent. The warmth that learned to sustain itself within a coherent standard of depth loses its bearing without that standard.",
+      deep:  "What 正官 Water produces in Fire charts: illumination that knows what it's for. The shadow is warmth that learned to justify itself to a standard it respected — which can make the warmth conditional on passing the justification.",
+    },
+    "水_偏印": { // Water→Wood DM · same-polarity · Well [PLACEHOLDER]
+      how:   "Depth sustaining reach through the same-polarity register — perceptual intelligence feeding the developmental instinct from the same frequency. The nourishment deepens the reach without opening it in new directions.",
+      works: "同 polarity Water nourishing Wood: the reach is sustained and deepened by depth that shares its register. The risk is reach that becomes increasingly perceptive without the definition that would give the growth somewhere specific to go.",
+      deep:  "水 偏印 for Wood: the source sustaining the reach is itself always perceiving — which means the developmental instinct is nourished but not directed. The growth keeps reaching toward something the depth keeps revealing but never specifying.",
+    },
+    "水_正印": { // Water→Wood DM · cross-polarity · Root [PLACEHOLDER]
+      how:   "Depth nourishing reach through the cross-polarity register — perceptual intelligence feeding the developmental instinct while simultaneously opening it toward something specific. The nourishment gives the growth a direction rather than only deepening it.",
+      works: "正印 Water for Wood: the depth provides nourishment that includes direction — the reach is sustained and pointed toward something the depth can identify. The growth that comes through this chart has a sense of where it is going.",
+      deep:  "What 正印 Water produces in Wood charts: reach that knows what it's growing toward. The shadow is reach that learned to grow only in directions the depth endorses — which can produce profound development within a narrowing range.",
+    },
+  };
+
+  function getAnglesForEl(el, tenGod) {
+    const key = `${el}_${tenGod}`;
+    return READING_ANGLES[key] || null;
+  }
+
+
+// ── ELEMENTAL_NATURE — module-level constant (per-stem × per-band) ────────────
+// Describes the operating MODE of the DM's core nature at this energy level.
+// Defined at module level — static content, must not rebuild on every render.
+
+// ── ELEMENTAL_NATURE — per-stem × per-band personality trait paragraph ──────
+// This describes the operating MODE of the DM's core nature at this energy level.
+// Different from the archetype identity (who you are) — this is how the energy RUNS.
+const ELEMENTAL_NATURE = {
+  "甲": {
+    concentrated: "At full charge, the reach is structural — you don't decide to grow toward things, it simply happens before a deliberate choice forms. Others experience you as someone already halfway to the next stage while they're still deciding whether to begin. The risk isn't ambition. It's building for so many people at once that little of what grows is specifically yours.",
+    balanced:     "The reach and the root are in genuine conversation — you can tell the difference between momentum that's working and momentum that's running ahead of itself. This is the Oak at its most architecturally sound: vision present, patience to let it fully form, and the instinct to consolidate before the next reach begins.",
+    open:         "The vision is entirely intact, but the energy comes through most fully in the right conditions. You're not a diminished version of this archetype — you're the one who has learned, through necessity, exactly what kind of soil is actually needed. What you build in genuinely supportive environments surprises even you.",
+  },
+  "乙": {
+    concentrated: "The intelligence that reads surfaces and finds non-obvious routes is running continuously — you navigate before you decide to, arriving exactly where you intended by routes others couldn't have predicted or followed. At this intensity, the gift is extraordinary; the risk is mistaking continuous movement for arrival.",
+    balanced:     "The adaptability serves direction rather than replacing it. You can tell the difference between a route worth committing to and one worth exploring, which is rarer than it sounds. The Vine in balance is quietly building something more significant than it typically acknowledges.",
+    open:         "The navigational intelligence is entirely real, but it requires something genuine to push against — a surface worth climbing, a destination worth the full sensitivity. Without it, the gift doesn't fail; it simply doesn't reach. This makes your choices about environment among the most consequential decisions you make.",
+  },
+  "丙": {
+    concentrated: "The warmth is structural, not situational — it operates whether or not it's been invited, and others feel it before you announce yourself. At this intensity the challenge isn't sustaining the warmth but choosing where to direct it: diffuse warmth costs the same as focused warmth and produces a fraction of the impact.",
+    balanced:     "The Sun in equilibrium has found the right arc of sky — warmth reaches who it's for, presence does its work without exhausting its source, and what gets illuminated at this level tends to stay changed. This is warmth that sustains because it chose where to go.",
+    open:         "The light is genuinely present, but it comes through most fully in the right conditions. You can fill a room when the conditions are right in a way that surprises people who've only seen you in the wrong ones. The range between those two states is one of the most important things to understand about how you work.",
+  },
+  "丁": {
+    concentrated: "The focused attention is always running — the candle illuminates completely what it's pointed at, and at this intensity it points at everything simultaneously. Precision this continuous is both irreplaceable and difficult to live near. What you light up tends to be genuinely illuminated. What doesn't receive the beam often feels that absence.",
+    balanced:     "The specificity and the sustainability are finally in conversation. At this level the candle illuminates what genuinely matters rather than everything at once, and what it lights up tends to stay lit. The focused attention is your greatest gift; the balance means it actually lands.",
+    open:         "The capacity for precise, specific illumination is fully present — but it requires nourishment to come through completely. In the right environment, the candle's precision is extraordinary. This makes you unusually attentive to what's feeding you and what's depleting you, even when others can't see the difference.",
+  },
+  "戊": {
+    concentrated: "The stability is constitutional — people orient around you before they've decided to, in the way they orient around a mountain before understanding its scale. At this intensity the reliability is extraordinary and the movement is genuinely difficult: the same quality that makes you load-bearing for others requires deliberate effort to shift yourself.",
+    balanced:     "Stability and movement are in productive conversation — you can hold things reliably and you can shift when genuine shifting is required. This is the Mountain that knows the difference between steadiness and stubbornness, which is rarer than it appears from the outside.",
+    open:         "The capacity for genuine stability is entirely real — but it requires the right conditions to become the kind of ground others can orient by. In the right environment, what you hold is extraordinary. This means the environments and relationships you choose are not incidental to your nature. They are its conditions.",
+  },
+  "己": {
+    concentrated: "The nourishing instinct operates below the threshold of conscious decision — you invest in what's growing around you before you've chosen to, and the cultivation continues whether or not it's acknowledged. At this intensity, the fertility is extraordinary and the risk is a kind of generosity that leaves little for the field itself.",
+    balanced:     "The cultivation and the harvest are in genuine rhythm — you know the difference between growth that's real and growth that's consuming the source. This is the Field at its most productive: patient with what takes time, clear-eyed about what's ready, and genuinely nourished by what returns.",
+    open:         "The capacity to cultivate and nourish is entirely real — but it comes through most fully when the conditions genuinely support it. In the right environment, what you grow is extraordinary. The care you take in choosing where to invest your fertility is not caution — it is the practice.",
+  },
+  "庚": {
+    concentrated: "The evaluation runs before you decide to evaluate — it starts the moment you walk in and files the report before the social read has fully landed. At this intensity, the precision is a default operating state, not a mode. Others experience you as accurate before they experience you as warm. Both things are true simultaneously.",
+    balanced:     "The precision and the world are in productive conversation — the evaluation is real and it takes in new information rather than simply confirming what it already concluded. This is Yang Metal at its most architecturally sound: the edge is sharp, the direction is genuine, and the standard is something others can actually work with.",
+    open:         "The precision is fully present in principle — but it comes through most completely when the conditions support it. In the right environment, the evaluation is extraordinary. This makes you more selective about where you bring your full standard than people who carry theirs at all times, which is not a limitation. It is a different kind of intelligence about fit.",
+  },
+  "辛": {
+    concentrated: "The discernment operates automatically — you perceive what is excellent the way others perceive temperature, before the question is asked. At this intensity, the standard is always running, and it applies to everything including yourself. Others may experience this as demanding before they experience it as precise. Both things are accurate.",
+    balanced:     "The clarity and its container are in genuine conversation — the discernment functions without being exposed to conditions that damage it, and what it perceives tends to be both accurate and usable. This is the Jewel at its clearest: the quality is real and the setting holds it correctly.",
+    open:         "The capacity for genuine discernment is entirely present — but it requires the right conditions to express at its finest. In environments that genuinely support it, what you perceive and the standard you carry are extraordinary. You are unusually clear about what's worth your discernment and what isn't, which others may mistake for selectivity but is actually a sophisticated form of accuracy.",
+  },
+  "壬": {
+    concentrated: "The depth is always operating — you carry more beneath the surface than you ever show, and what you're perceiving in any given room is significantly more than what's being said in it. At this intensity the intelligence is vast and the challenge is form: depth this continuous needs banks or it becomes a flood that touches everything at equal depth and therefore nothing specifically.",
+    balanced:     "The depth and its channels are in genuine conversation — what you perceive can actually reach people, and the range of what you can carry doesn't overwhelm the form that gives it direction. This is the Ocean at its most navigable: vast, yes, but with a current others can actually travel.",
+    open:         "The perceptual range is fully real — but it comes through most completely in the right conditions. In the right environment, what you carry and what you perceive are extraordinary. You are unusually clear about what genuinely nourishes the depth and what depletes it, which is both the gift and the practice of living this way.",
+  },
+  "癸": {
+    concentrated: "The sensitivity is always running — you know what's true before it's spoken and nourish what you touch without announcing it. At this intensity, the attunement is extraordinary and the risk is that what flows everywhere at once can lose the specific direction that gives it its greatest power.",
+    balanced:     "The sensitivity and its direction are in genuine conversation — what you perceive can flow toward something specific, and the nourishing instinct has a shape rather than simply spreading. This is the Rain at its most purposeful: the attunement is real and it reaches who it's for.",
+    open:         "The capacity for genuine attunement and quiet nourishment is entirely present — but it requires the right conditions to come through completely. In the right environment, what you perceive and what you offer are extraordinary. The care you take in creating those conditions is not self-protection — it is the practice of sustaining the gift.",
+  },
+};
+
 function ElementSpectrum({ chart }) {
   const dm      = chart.dayMaster;
   const dmColor = EL_C[dm.element];
   const insights = getElementInsights(chart);
-  const energiesBase = ELEMENT_ENERGIES[dm.stem] || ELEMENT_ENERGIES["庚"];
+  const band = getEnergyBand(dm.strength);
+  const energiesBase = (ELEMENT_ENERGIES[dm.stem]?.[band]) || ELEMENT_ENERGIES["庚"].concentrated;
   const monthBranch  = chart.pillars?.month?.branch || "";
   const energies     = applyTiaohouToEnergies(energiesBase, dm.stem, monthBranch);
   const sm  = STRENGTH_META[dm.strength] || STRENGTH_META.moderate;
-  const band = getEnergyBand(dm.strength);
   const ecr = (ENERGY_CONDITION_READINGS[dm.stem] || ENERGY_CONDITION_READINGS["庚"])[band];
-
-  // ── Condition identity icons — Sun / Scale / Moon ──────────────────────────
-  const conditionIcon = (() => {
-    const co = dmColor;
-    // ── Sun — Concentrated (身强) ───────────────────────────────────────────
-    if (band === "concentrated") return (
-      <svg width="38" height="38" viewBox="0 0 36 36" fill="none">
-        {/* Core disc */}
-        <circle cx="18" cy="18" r="6.5" fill={co} opacity="0.92"/>
-        {/* 4 cardinal rays — long */}
-        <line x1="18" y1="2.5"  x2="18" y2="9"   stroke={co} strokeWidth="2.5" strokeLinecap="round"/>
-        <line x1="18" y1="27"   x2="18" y2="33.5" stroke={co} strokeWidth="2.5" strokeLinecap="round"/>
-        <line x1="2.5" y1="18"  x2="9"  y2="18"   stroke={co} strokeWidth="2.5" strokeLinecap="round"/>
-        <line x1="27"  y1="18"  x2="33.5" y2="18" stroke={co} strokeWidth="2.5" strokeLinecap="round"/>
-        {/* 4 diagonal rays — shorter */}
-        <line x1="7.8"  y1="7.8"  x2="11.8" y2="11.8" stroke={co} strokeWidth="2"   strokeLinecap="round"/>
-        <line x1="24.2" y1="24.2" x2="28.2" y2="28.2" stroke={co} strokeWidth="2"   strokeLinecap="round"/>
-        <line x1="28.2" y1="7.8"  x2="24.2" y2="11.8" stroke={co} strokeWidth="2"   strokeLinecap="round"/>
-        <line x1="7.8"  y1="28.2" x2="11.8" y2="24.2" stroke={co} strokeWidth="2"   strokeLinecap="round"/>
-      </svg>
-    );
-    // ── Scale — Balanced (身中和) ────────────────────────────────────────────
-    if (band === "balanced") return (
-      <svg width="38" height="38" viewBox="0 0 36 36" fill="none">
-        {/* Fulcrum post */}
-        <line x1="18" y1="11" x2="18" y2="27" stroke={co} strokeWidth="2" strokeLinecap="round"/>
-        {/* Base */}
-        <line x1="12" y1="27" x2="24" y2="27" stroke={co} strokeWidth="2.5" strokeLinecap="round"/>
-        {/* Balance beam */}
-        <line x1="5" y1="12" x2="31" y2="12" stroke={co} strokeWidth="2.5" strokeLinecap="round"/>
-        {/* Left pan */}
-        <circle cx="5"  cy="12" r="3.2" fill={co} opacity="0.85"/>
-        {/* Right pan */}
-        <circle cx="31" cy="12" r="3.2" fill={co} opacity="0.85"/>
-        {/* Pivot dot */}
-        <circle cx="18" cy="12" r="2" fill={co}/>
-      </svg>
-    );
-    // ── Crescent Moon — Open / Receptive (身弱) ─────────────────────────────
-    // Built with SVG mask: white outer circle minus black offset inner circle = crescent
-    // Outer: center(18,18) r=13 · Inner bite: center(24,14) r=10
-    // Result: classic left-facing crescent, fully readable at 38px
-    const moonId = `moon_${co.replace(/[^a-z0-9]/gi,'x')}`;
-    return (
-      <svg width="38" height="38" viewBox="0 0 36 36" fill="none">
-        <defs>
-          <mask id={moonId}>
-            <circle cx="18" cy="18" r="13" fill="white"/>
-            <circle cx="24" cy="14" r="10" fill="black"/>
-          </mask>
-        </defs>
-        <circle cx="18" cy="18" r="13" fill={co} opacity="0.88" mask={`url(#${moonId})`}/>
-      </svg>
-    );
-  })();
+  const profile = buildDayMasterProfile(chart);
+  const natureTeaser = profile.whoYouAreTeaser;
 
   const sortedEls = Object.entries(chart.elements)
     .map(([el, d]) => ({ el, count: d?.count || 0, present: d?.present || false }))
@@ -2590,33 +3408,91 @@ function ElementSpectrum({ chart }) {
   const ff = "'EB Garamond',Georgia,serif";
   const divider = <div style={{height:"0.5px",background:`${dmColor}18`,margin:"20px 0"}}/>;
 
-  // Shared callout card renderer
-  const CalloutCard = ({ color, borderStyle="solid", icon, sectionLabel, name, line, guidance, keywords=[] }) => (
-    <div style={{borderRadius:12,padding:"14px 15px",marginBottom:12,
+
+
+  const isPure = computeTgPattern(chart) === "pure";
+
+  const CalloutCard = ({ color, borderStyle="solid", icon, sectionLabel, name, line, guidance, keywords=[], angles=null, count=null, totalCount=null, tenGod=null }) => {
+    const tgProfile  = tenGod ? TG_PROFILES[tenGod] : null;
+    const godDesc    = tgProfile ? tgProfile.describe(icon) : null;
+    return (
+    <div style={{borderRadius:12,marginBottom:12,
       background: borderStyle==="dashed" ? "transparent" : `${color}0d`,
-      border: borderStyle==="dashed" ? `1px dashed ${color}50` : `0.5px solid ${color}28`}}>
-      <div style={{display:"flex",alignItems:"center",gap:10,marginBottom: keywords.length ? 8 : 9}}>
-        <div style={{width:28,height:28,borderRadius:8,display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,
-          background: borderStyle==="dashed" ? "transparent" : `${color}18`,
-          border: borderStyle==="dashed" ? `1px dashed ${color}55` : `0.5px solid ${color}35`}}>
-          <ElementIcon el={icon} color={color} size={15}/>
+      border: borderStyle==="dashed" ? `1px dashed ${color}50` : `0.5px solid ${color}28`,
+      overflow:"hidden"}}>
+      {/* Card header */}
+      <div style={{padding:"14px 15px",paddingBottom: angles ? 10 : 14}}>
+        <div style={{display:"flex",alignItems:"center",gap:10,marginBottom: keywords.length ? 8 : 9}}>
+          <div style={{width:28,height:28,borderRadius:8,display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0,
+            background: borderStyle==="dashed" ? "transparent" : `${color}18`,
+            border: borderStyle==="dashed" ? `1px dashed ${color}55` : `0.5px solid ${color}35`}}>
+            <ElementIcon el={icon} color={color} size={15}/>
+          </div>
+          <div style={{flex:1}}>
+            <div style={{fontSize:9,letterSpacing:1.5,textTransform:"uppercase",color:`${color}90`,fontFamily:ff,fontWeight:500,marginBottom:2}}>{sectionLabel}</div>
+            <div style={{fontSize:14,fontWeight:600,color:color,fontFamily:ff,lineHeight:1.15}}>{name}</div>
+          </div>
+          {count !== null && totalCount !== null && (
+            <div style={{textAlign:"right",flexShrink:0}}>
+              <div style={{fontSize:20,fontWeight:600,color:color,fontFamily:"'Cormorant Garamond',Georgia,serif",lineHeight:1}}>{Math.round(count/totalCount*100)}<span style={{fontSize:11,color:`${color}70`,fontWeight:400}}>%</span></div>
+            </div>
+          )}
         </div>
-        <div>
-          <div style={{fontSize:9,letterSpacing:1.5,textTransform:"uppercase",color:`${color}90`,fontFamily:ff,fontWeight:500,marginBottom:2}}>{sectionLabel}</div>
-          <div style={{fontSize:14,fontWeight:600,color:color,fontFamily:ff,lineHeight:1.15}}>{name}</div>
-        </div>
+        {count !== null && totalCount !== null && (
+          <div style={{height:4,borderRadius:2,background:`${color}15`,marginBottom:9,overflow:"hidden"}}>
+            <div style={{width:`${Math.round(count/totalCount*100)}%`,height:"100%",borderRadius:2,background:color,opacity:0.65,transition:"width 0.6s ease"}}/>
+          </div>
+        )}
+        {keywords.length > 0 && (
+          <div style={{display:"flex",gap:6,marginBottom:9,flexWrap:"wrap"}}>
+            {keywords.map((kw,i) => (
+              <span key={i} style={{fontSize:10,letterSpacing:0.5,color:color,background:`${color}14`,border:`0.5px solid ${color}30`,borderRadius:20,padding:"2px 9px",fontFamily:ff,fontWeight:500}}>{kw}</span>
+            ))}
+          </div>
+        )}
+        {!angles && <div style={{fontSize:13,lineHeight:1.68,color:C.textSec,fontStyle:"italic",fontFamily:ff,marginBottom:5}}>{line}</div>}
+        {!angles && <div style={{fontSize:12,lineHeight:1.6,color:C.textTer,fontFamily:ff}}>{guidance}</div>}
       </div>
-      {keywords.length > 0 && (
-        <div style={{display:"flex",gap:6,marginBottom:9,flexWrap:"wrap"}}>
-          {keywords.map((kw,i) => (
-            <span key={i} style={{fontSize:10,letterSpacing:0.5,color:color,background:`${color}14`,border:`0.5px solid ${color}30`,borderRadius:20,padding:"2px 9px",fontFamily:ff,fontWeight:500}}>{kw}</span>
+
+      {/* Ruling god section — only for dominant elements with TG resolved */}
+      {tgProfile && godDesc && (
+        <div style={{borderTop:`0.5px solid ${color}15`,padding:"14px 15px",background:`${color}06`}}>
+          <div style={{fontSize:9,fontWeight:500,letterSpacing:1.2,textTransform:"uppercase",color:`${color}70`,fontFamily:ff,marginBottom:10}}>Your ruling force</div>
+          <div style={{display:"flex",alignItems:"flex-start",gap:12}}>
+            {/* Concept art */}
+            <div style={{flexShrink:0,borderRadius:10,overflow:"hidden",border:`0.5px solid ${color}25`,background:`${color}06`}}>
+              {tgProfile.art(color)}
+            </div>
+            {/* Name + description */}
+            <div style={{flex:1}}>
+              <div style={{display:"flex",alignItems:"baseline",gap:8,marginBottom:7}}>
+                <span style={{fontFamily:"'Noto Serif SC',Georgia,serif",fontSize:16,color:color,lineHeight:1}}>{tenGod}</span>
+                <span style={{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:15,color:color,fontWeight:400,lineHeight:1}}>{tgProfile.en}</span>
+              </div>
+              <p style={{fontFamily:ff,fontSize:12.5,lineHeight:1.75,color:C.textSec,margin:0}}>{godDesc}</p>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Three reading angles (What this energy is now lives in the god section above) */}
+      {angles && (
+        <div style={{borderTop:`0.5px solid ${color}15`}}>
+          {[
+            {q:"How it shapes you",     body: angles.how},
+            {q:"How it works with you", body: angles.works},
+            {q:"What it reveals",       body: angles.deep},
+          ].map((a, i, arr) => (
+            <div key={i} style={{padding:"10px 15px",borderBottom: i < arr.length-1 ? `0.5px solid ${color}10` : "none"}}>
+              <div style={{fontSize:9,fontWeight:500,letterSpacing:1,textTransform:"uppercase",color:`${color}65`,fontFamily:ff,marginBottom:4}}>{a.q}</div>
+              <p style={{fontFamily:ff,fontSize:13,lineHeight:1.72,color:C.textSec,margin:0,fontStyle: i===2 ? "italic" : "normal"}}>{a.body}</p>
+            </div>
           ))}
         </div>
       )}
-      <div style={{fontSize:13,lineHeight:1.68,color:C.textSec,fontStyle:"italic",fontFamily:ff,marginBottom:5}}>{line}</div>
-      <div style={{fontSize:12,lineHeight:1.6,color:C.textTer,fontFamily:ff}}>{guidance}</div>
     </div>
-  );
+    );
+  };
 
   return (
     <div style={{borderRadius:16,border:`1.5px solid ${dmColor}30`,overflow:"hidden",
@@ -2673,82 +3549,91 @@ function ElementSpectrum({ chart }) {
 
         {divider}
 
-        {/* ── BLOCK 1: Energy Condition + Balance Approach ──────────────── */}
+        {divider}
+
+        {/* ── YOUR ELEMENTAL NATURE ─────────────────────────────────────── */}
         {(() => {
-          const pct = Math.round((dm.strengthScore || 0.5) * 100);
+          const naturePara = ELEMENTAL_NATURE[dm.stem]?.[band] || sm.frame;
+          const bandLabel = band === "concentrated" ? "Self-generating" : band === "balanced" ? "Resonant" : "Receptive";
           return (
-            <div style={{borderRadius:12,padding:"16px 16px",background:`${dmColor}0e`,border:`0.5px solid ${dmColor}28`,marginBottom:20}}>
-
-              {/* Header row — condition icon + label + percentage */}
-              <div style={{display:"flex",alignItems:"flex-start",justifyContent:"space-between",marginBottom:10}}>
-                <div style={{display:"flex",alignItems:"center",gap:10}}>
-                  <div style={{width:44,height:44,borderRadius:11,background:`${dmColor}15`,border:`0.5px solid ${dmColor}30`,display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0}}>
-                    {conditionIcon}
-                  </div>
-                  <div>
-                    <div style={{fontSize:9,letterSpacing:1.8,textTransform:"uppercase",color:`${dmColor}90`,fontFamily:ff,marginBottom:2}}>Energy condition</div>
-                    <div style={{fontSize:17,fontWeight:600,color:dmColor,fontFamily:"'Cormorant Garamond',Georgia,serif",lineHeight:1.1}}>{sm.label}</div>
-                    <div style={{fontSize:9,letterSpacing:1,textTransform:"uppercase",color:`${dmColor}70`,fontFamily:ff,marginTop:2}}>{sm.polarity}</div>
-                  </div>
+            <div style={{borderRadius:12,padding:"16px",background:`${dmColor}0e`,border:`0.5px solid ${dmColor}28`,marginBottom:20}}>
+              {/* Header */}
+              <div style={{display:"flex",alignItems:"center",gap:10,marginBottom:12}}>
+                <div style={{width:44,height:44,borderRadius:11,background:`${dmColor}15`,border:`0.5px solid ${dmColor}30`,display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0}}>
+                  <ElementIcon el={dm.element} color={dmColor} size={24}/>
                 </div>
-                <div style={{textAlign:"right",flexShrink:0}}>
-                  <div style={{fontSize:24,fontWeight:600,color:dmColor,fontFamily:"'Cormorant Garamond',Georgia,serif",lineHeight:1}}>{pct}%</div>
-                  <div style={{fontSize:9,letterSpacing:1,textTransform:"uppercase",color:`${dmColor}80`,fontFamily:ff,marginTop:2}}>DM support</div>
-                </div>
-              </div>
-
-              {/* Percentage bar */}
-              <div style={{height:5,borderRadius:3,background:`${dmColor}18`,marginBottom:10,overflow:"hidden"}}>
-                <div style={{width:`${pct}%`,height:"100%",borderRadius:3,background:dmColor,opacity:0.65,transition:"width 0.6s ease"}}/>
-              </div>
-
-              {/* One-sentence diagnosis */}
-              <div style={{fontSize:12.5,lineHeight:1.65,color:C.textSec,fontFamily:ff,marginBottom:12}}>{sm.frame}</div>
-
-              <div style={{height:"0.5px",background:`${dmColor}20`,marginBottom:12}}/>
-
-              {/* Balance approach — one sentence */}
-              <div style={{display:"flex",alignItems:"flex-start",gap:9}}>
-                <div style={{width:3,borderRadius:2,background:dmColor,flexShrink:0,alignSelf:"stretch",minHeight:16}}/>
                 <div>
-                  <div style={{fontSize:9,letterSpacing:1.5,textTransform:"uppercase",color:`${dmColor}90`,fontFamily:ff,fontWeight:500,marginBottom:3}}>Balance approach</div>
-                  <div style={{fontSize:12.5,lineHeight:1.65,color:C.textSec,fontFamily:ff}}>
-                    <span style={{color:dmColor,fontWeight:600}}>{sm.approach} — </span>{sm.approachLine}
-                  </div>
+                  <div style={{fontSize:9,letterSpacing:1.5,textTransform:"uppercase",color:`${dmColor}80`,fontFamily:ff,marginBottom:2}}>Your elemental nature</div>
+                  <div style={{fontSize:17,fontWeight:600,color:dmColor,fontFamily:"'Cormorant Garamond',Georgia,serif",lineHeight:1.1}}>{sm.label}</div>
+                  <div style={{fontSize:9,letterSpacing:1,textTransform:"uppercase",color:`${dmColor}65`,fontFamily:ff,marginTop:2}}>{bandLabel} · {sm.approach}</div>
                 </div>
               </div>
-
+              {/* Trait paragraph */}
+              <p style={{fontFamily:ff,fontSize:13.5,lineHeight:1.78,color:C.textSec,margin:"0 0 12px 0"}}>{naturePara}</p>
+              {/* Balance approach bar */}
+              <div style={{display:"flex",alignItems:"flex-start",gap:9,borderTop:`0.5px solid ${dmColor}18`,paddingTop:10}}>
+                <div style={{width:3,borderRadius:2,background:dmColor,flexShrink:0,alignSelf:"stretch",minHeight:14}}/>
+                <div style={{fontSize:12,lineHeight:1.65,color:C.textSec,fontFamily:ff}}>
+                  <span style={{color:dmColor,fontWeight:600}}>{sm.approach} — </span>{sm.approachLine}
+                </div>
+              </div>
             </div>
           );
         })()}
 
         {divider}
 
-        {/* ── BLOCK 3: Dominant energy ──────────────────────────────────── */}
-        <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:6}}>Dominant energy</div>
-        <div style={{fontSize:11,lineHeight:1.6,color:C.textTer,fontFamily:ff,marginBottom:12,fontStyle:"italic"}}>The element that appears most across your chart — not just a tendency, but the lens through which everything else operates.</div>
-        {insights.dominant.map((d,i) => (
-          <CalloutCard key={i}
-            color={EL_C[d.el]}
-            icon={d.el}
-            sectionLabel={`${d.el} · ${d.count}/10`}
-            name={`${d.el} dominant`}
-            line={d.line}
-            guidance={d.guidance}
-            keywords={d.keywords}
-          />
-        ))}
+        {/* ── DOMINANT ENERGY — band-weighted ordering ───────────────────── */}
+        {(() => {
+          const dominantSection = (
+            <>
+              <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:4}}>
+                {band === "open" ? "What shapes you most" : "Dominant energy"}
+              </div>
+              {isPure && (
+                <div style={{fontSize:11,lineHeight:1.6,color:C.textTer,fontFamily:ff,marginBottom:10,fontStyle:"italic",borderLeft:`2px solid ${dmColor}35`,paddingLeft:10}}>
+                  {dm.element} saturates your entire chart — this is what it means structurally for your core element to run with no counterforce.
+                </div>
+              )}
+              {!isPure && (
+                <div style={{fontSize:11,lineHeight:1.6,color:C.textTer,fontFamily:ff,marginBottom:10,fontStyle:"italic"}}>
+                  {band === "open"
+                    ? "The dominant force in your chart shapes the conditions under which your core nature comes through fully."
+                    : "The element that runs most strongly through your chart — the lens through which everything else is filtered."}
+                </div>
+              )}
+              {insights.dominant.map((d,i) => (
+                <CalloutCard key={i}
+                  color={EL_C[d.el]}
+                  icon={d.el}
+                  sectionLabel={`${d.el} · dominant energy`}
+                  name={`${d.el} dominant`}
+                  line={d.line}
+                  guidance={d.guidance}
+                  keywords={d.keywords}
+                  angles={getAnglesForEl(d.el, d.tenGod)}
+                  count={d.count}
+                  totalCount={d.totalCount}
+                  tenGod={d.tenGod}
+                />
+              ))}
+            </>
+          );
+          // For open charts, dominant energy leads (it explains the conditions)
+          // For concentrated/balanced, it follows elemental nature (nature leads)
+          return dominantSection;
+        })()}
 
         {divider}
 
-        {/* ── BLOCK 4: Your Catalyst ────────────────────────────────────── */}
-        <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:6}}>Your catalyst</div>
-        <div style={{fontSize:11,lineHeight:1.6,color:C.textTer,fontFamily:ff,marginBottom:12,fontStyle:"italic"}}>The energy your chart needs to unlock — not what makes you comfortable, but what makes you complete.</div>
+        {/* ── YOUR CATALYST ─────────────────────────────────────────────── */}
+        <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:6}}>What activates you</div>
+        <div style={{fontSize:11,lineHeight:1.6,color:C.textTer,fontFamily:ff,marginBottom:12,fontStyle:"italic"}}>The energy that unlocks what's already in you — not what makes you comfortable, but what makes you fully operational.</div>
         {energies.lifts.map(({el, line}, i) => (
           <CalloutCard key={i}
             color={EL_C[el]}
             icon={el}
-            sectionLabel={`${el} · activates this chart`}
+            sectionLabel={`${el} · activating energy`}
             name={el}
             line={line}
             guidance={`When ${el} is present — in your environment, your timing, or the people around you — something that has always been capable in you becomes directional.`}
@@ -2757,26 +3642,26 @@ function ElementSpectrum({ chart }) {
 
         {divider}
 
-        {/* ── BLOCK 5: Your Resistance ──────────────────────────────────── */}
-        <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:6}}>Your resistance</div>
-        <div style={{fontSize:11,lineHeight:1.6,color:C.textTer,fontFamily:ff,marginBottom:12,fontStyle:"italic"}}>The energy that creates friction in this chart's natural flow — not inherently bad, but worth recognising when it's in the room.</div>
+        {/* ── YOUR RESISTANCE ───────────────────────────────────────────── */}
+        <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:6}}>What creates friction</div>
+        <div style={{fontSize:11,lineHeight:1.6,color:C.textTer,fontFamily:ff,marginBottom:12,fontStyle:"italic"}}>The energy that works against your natural flow — not a weakness, but worth recognising when it's in the room.</div>
         {energies.depletes.map(({el, line}, i) => (
           <CalloutCard key={i}
             color={EL_C[el]}
             icon={el}
-            sectionLabel={`${el} · resists this chart`}
+            sectionLabel={`${el} · friction energy`}
             name={el}
             line={line}
             guidance={`Environments or periods where ${el} dominates tend to produce friction without forward movement — not always avoidable, but worth naming.`}
           />
         ))}
 
-        {/* ── BLOCK 6: Absent element ───────────────────────────────────── */}
+        {/* ── ABSENT ELEMENT ────────────────────────────────────────────── */}
         {insights.missing.length > 0 && divider}
         {insights.missing.length > 0 && (
           <>
             <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:6}}>What is absent</div>
-            <div style={{fontSize:11,lineHeight:1.6,color:C.textTer,fontFamily:ff,marginBottom:12,fontStyle:"italic"}}>An absent element never appeared in your chart — its absence has shaped you as actively as what's present.</div>
+            <div style={{fontSize:11,lineHeight:1.6,color:C.textTer,fontFamily:ff,marginBottom:12,fontStyle:"italic"}}>An element that never appeared in your chart — its absence has shaped you as actively as what's present.</div>
           </>
         )}
         {insights.missing.map((m, i) => (
@@ -2784,12 +3669,25 @@ function ElementSpectrum({ chart }) {
             color={C.fire}
             borderStyle="dashed"
             icon={m.el}
-            sectionLabel={`${m.el} · missing element`}
+            sectionLabel={`${m.el} · not in your chart`}
             name={`${m.el} is absent`}
             line={m.line}
             guidance={m.guidance}
           />
         ))}
+
+        {/* ── WHO YOU ARE TEASER ───────────────────────────────────────── */}
+        {natureTeaser && (
+          <>
+            {divider}
+            <div>
+              <div style={{fontSize:9,letterSpacing:2,textTransform:"uppercase",color:dmColor,fontFamily:ff,fontWeight:500,marginBottom:10}}>Who You Are</div>
+              <p style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:16,lineHeight:1.8,color:C.text,fontStyle:"italic",margin:0}}>
+                {natureTeaser}
+              </p>
+            </div>
+          </>
+        )}
 
       </div>
     </div>
@@ -3051,7 +3949,7 @@ export default function App() {
           </div>
           <div style={{display:"flex",justifyContent:"center",gap:8}}>
             {["金","木","水","火","土"].map((zh,i)=>(
-              <div key={zh} className="pulse" style={{fontFamily:"'Noto Serif SC',Georgia,serif",fontSize:14,color:["#6080a0","#6a9860","#4870a0","#b04030","#a08850"][i],animationDelay:`${i*0.25}s`}}>{zh}</div>
+              <div key={zh} className="pulse" style={{fontFamily:"'Noto Serif SC',Georgia,serif",fontSize:14,color:["#8ba3b8","#7a9e6e","#5a7fa8","#c4745a","#b89a6a"][i],animationDelay:`${i*0.25}s`}}>{zh}</div>
             ))}
           </div>
         </div>
@@ -3099,9 +3997,14 @@ export default function App() {
                 <DayMasterHero chart={chart}/>
               </div>
 
-              {/* ② Element Spectrum — Section 2 */}
+              {/* ② Element Spectrum — Energy Blueprint */}
               <div style={{marginBottom:20}}>
                 <ElementSpectrum chart={chart}/>
+              </div>
+
+              {/* ③ Profile Reading — gifts, edges, landscape */}
+              <div style={{marginBottom:20}}>
+                <ProfileReading chart={chart}/>
               </div>
 
               <div style={{height:"0.5px",background:C.border,margin:"4px 0 20px"}}/>
@@ -3133,6 +4036,9 @@ export default function App() {
                     />
                   ));
               })()}
+
+              {/* ── DEBUG PANEL — not shipped in production ── */}
+              <DebugPanel chart={chart}/>
             </div>
           )}
 
