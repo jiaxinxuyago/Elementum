@@ -263,6 +263,12 @@ Chart: 乙亥 庚辰 庚寅 乙酉 · DM: 庚 Metal · extremely_strong
 
 ### The three angles
 
+**Note on extended Layer 2 content schema:**
+
+The three angles above (`how`, `works`, `deep`) are the Layer 2 reading angles used in Deliverable 2 dominant energy cards. The same 50 `domEl_specificTenGod` keys also produce a **13-field compound archetype card** used in the Seeker-tier compound reading and the self-report. The compound card schema is documented in Doc 4 §9. Content is stored in `profileData.js` as `COMPOUND_CARDS`. Content gating per tier is documented in Doc 5 §19.
+
+The 50-key taxonomy remains locked. Only the content generated per key expands.
+
 Each Layer 2/3 key produces three angles. Written in the DM element's voice register (Metal = precise, verdict-energy; Wood = reaching, forward-leaning; Fire = warm, scene-setting; Earth = weighted, patient; Water = withheld, elliptical).
 
 | # | Angle | Label in UI | What it answers |

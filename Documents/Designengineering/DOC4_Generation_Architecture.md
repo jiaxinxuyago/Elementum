@@ -733,6 +733,347 @@ If the answer to #5 is "generated about a category," the portrait pre-write fail
 
 ---
 
+## §9 — Compound Archetype Cards
+
+### What they are
+
+Compound archetype cards are the content layer for the 50 `domEl_specificTenGod` keys — the same keys that produce Layer 2 reading angles (§4). Where Layer 2 produces three short analytical angles (`how`, `works`, `deep`) for the dominant energy cards in Deliverable 2, compound archetype cards produce **13 user-facing fields** for the full Seeker-tier compound reading and the self-report.
+
+Both schemas share the same 50 keys. They are different outputs from the same structural inputs, serving different product surfaces:
+
+| Schema | Fields | Where used | Generation |
+|---|---|---|---|
+| Layer 2 angles | 3 (`how`, `works`, `deep`) | Deliverable 2 dominant energy cards | Offline batch via `generate-angles` |
+| Compound archetype cards | 13 (see below) | Seeker compound reading + self-report | Offline batch, stored in `profileData.js` |
+
+---
+
+### The 13-field schema
+
+Each field serves a specific step in the user's emotional arc: recognition → explanation → intimacy → relief → orientation. No field earns its place without moving the reader along that arc.
+
+```javascript
+{
+  // ─── RECOGNITION ────────────────────────────────────────────────────────
+  hook: "",
+  // Stops the scroll. A recognizable statement about lived experience before
+  // the reader knows what's coming. First-person orientation.
+  // Opens with: "There's a version of you that..." or equivalent.
+  // Must be specific to THIS compound — not derivable from TG or element alone.
+  // ≤2 sentences.
+
+  dynamic: "",
+  // The "that's why" field. Explains in plain language what happens when these
+  // two elemental natures meet through this TG mechanism. NOT two descriptions
+  // stapled together — a single thing that emerges from the combination.
+  // No classical terminology. One paragraph. ≤80 words.
+
+  // ─── WHAT YOU ARE ───────────────────────────────────────────────────────
+  your_gift: "",
+  // What people consistently receive from being near this person —
+  // often without being able to name it themselves.
+  // Written from the outside looking in, then connecting inward.
+  // Must be behaviorally specific to this compound, not generic to TG or element.
+  // ≤60 words.
+
+  your_scene: "",
+  // The recurring situation that keeps finding this person in different costumes.
+  // A job, a relationship, a creative project — different each time, same structure.
+  // This is the "oh my god yes" field. Most likely to produce a share or screenshot.
+  // ≤70 words.
+
+  // ─── YOUR INTERIOR ──────────────────────────────────────────────────────
+  your_interior: "",
+  // The private experience of being this person. What's running in the background
+  // that the outside doesn't show. Includes the real motivation underneath visible
+  // behavior — when others read X, this person is actually doing Y.
+  // The most intimate field. Creates the "how did it know that" moment.
+  // ≤80 words.
+
+  your_tension: "",
+  // The productive conflict that cannot be resolved and shouldn't be.
+  // Not a problem to fix — a structural fact to navigate well.
+  // Framed as generative, not as a flaw. The thing that makes everything.
+  // Specific to this compound intersection — not derivable from either layer alone.
+  // ≤60 words.
+
+  // ─── WHAT THIS PRODUCES ─────────────────────────────────────────────────
+  your_fuel: "",
+  // The specific conditions and situations that activate this compound.
+  // Concrete and behavioral — not "meaningful work" but what specifically
+  // brings THIS combination alive.
+  // ≤60 words.
+
+  your_cost: "",
+  // The shadow that only this combination creates. Not the TG shadow.
+  // Not the elemental shadow. The one that emerges specifically from these
+  // two natures in this relationship.
+  // Framed with compassion and structural honesty. Never diagnostic.
+  // ≤70 words.
+
+  your_build: "",
+  // Where this compound leads over time. Not what it produces in a moment —
+  // what it is building toward as a life arc.
+  // Forward-facing and specific to this compound.
+  // ≤50 words.
+
+  // ─── CONDITIONS ─────────────────────────────────────────────────────────
+  running_well: "",
+  // The specific signals this combination is in its best state.
+  // Observable and behavioral. What is actually happening when this compound
+  // runs the way it was designed to.
+  // ≤50 words.
+
+  off_track: "",
+  // The specific signals something has slipped.
+  // Distinct per compound — the signal that 木_正财 is off looks different
+  // from the signal that 水_正财 is off.
+  // ≤50 words.
+
+  // ─── RELATIONAL ─────────────────────────────────────────────────────────
+  your_person: "",
+  // Not relationship advice — the specific human configuration that works
+  // alongside this compound. Concrete and relational.
+  // What they actually need in their corner. Who brings out the best of this.
+  // ≤60 words.
+
+  // ─── THE ANCHOR ─────────────────────────────────────────────────────────
+  one_line: "",
+  // 15–35 words. First person. The most honest specific thing about living at
+  // this intersection. Not derived from the other fields — written directly.
+  // Not a conclusion. Not advice. Just the thing that is most true.
+  // The twoAM equivalent for the compound layer.
+}
+```
+
+---
+
+### Field authoring order
+
+Write fields in this sequence to avoid analytical drift:
+
+1. **`one_line` first.** This forces the author to find the most specific honest thing before building the surrounding explanation. If `one_line` can't be written, the compound hasn't been understood yet.
+2. **`your_tension` and `your_interior` second.** These are the structural heart of the card. Everything else derives from or supports them.
+3. **`hook` and `dynamic` third.** These are the entry point — write them after the interior is clear.
+4. **All remaining fields.** Each should feel like evidence of what was established in steps 1–3.
+
+**Anti-genericity test:** Swap the TG in the key. If any field still works, it isn't specific enough. Swap the element. If any field still works, it isn't specific enough. The compound card should be unwritable about any other key.
+
+---
+
+### Generation priority sequence
+
+Write compound cards in this order to maximize generation leverage and product value first:
+
+**Round 1 — Authority relationships (克我者):** 七杀 and 正官 combinations (10 cards). The dominant reshapes the DM — most dramatic chemistry, most specific `one_line` content, highest "how did it know that" moment. These serve the users whose chart has the most emotionally complex story.
+
+**Round 2 — Resource relationships (生我者):** 偏印 and 正印 combinations (10 cards). The fuel-source relationships — captures dependency, parental shaping, and identity-entanglement.
+
+**Round 3 — Output and wealth relationships:** 食神, 伤官, 偏财, 正财 combinations (20 cards). Highest day-to-day relevance for Western users.
+
+**Round 4 — Companion relationships (同类):** 比肩 and 劫财 combinations (10 cards). Hardest to differentiate — write last.
+
+---
+
+### Output and storage
+
+Compound archetype cards are generated offline and stored in `profileData.js` as the `COMPOUND_CARDS` constant:
+
+```javascript
+export const COMPOUND_CARDS = {
+  "木_正财": {
+    hook: "...",
+    dynamic: "...",
+    your_gift: "...",
+    your_scene: "...",
+    your_interior: "...",
+    your_tension: "...",
+    your_fuel: "...",
+    your_cost: "...",
+    your_build: "...",
+    running_well: "...",
+    off_track: "...",
+    your_person: "...",
+    one_line: "...",
+  },
+  // × 50
+};
+```
+
+No LLM is called at render time for compound cards. They are static lookup, same as `TEMPLATE_DB` and `READING_ANGLES`.
+
+---
+
+### Tier gating in the compound card
+
+The compound card fields split across tiers:
+
+| Fields | FREE | SEEKER |
+|---|---|---|
+| `hook`, `dynamic` | ✓ | ✓ |
+| `your_gift` (condensed) | ✓ | ✓ |
+| All remaining 10 fields | ✗ (blurred) | ✓ |
+
+The free cut point is after `dynamic`. The user sees recognition and explanation, then the content blurs. `your_scene` is the first locked field — the "oh my god yes" field should sit just behind the paywall, close enough that the user can feel what they're missing.
+
+---
+
+## §10 — Seeker Self-Report Generation
+
+### What it is
+
+The self-report is a **single synthesized narrative** generated by one live LLM call. It is not an assembly of compound card fields, persona card fields, or reading schema outputs concatenated together. It uses those as source material to write something new — a piece of writing about this specific person that could only be written knowing everything in the chart and all the pre-generated content simultaneously.
+
+The distinction matters for product positioning: the self-report is not "unlock more fields." It is "receive a reading that synthesizes everything into a single arc — written for you, not compiled about you."
+
+---
+
+### Inputs to the generation call
+
+The self-report prompt receives:
+
+```
+1. Full chart JSON (DM, band, tgPattern, all elemental scores, catalyst,
+   friction, missing elements, active bonds)
+
+2. Layer 1 persona card (all 18 fields) — the creative bridge.
+   This is the most important input. The persona card is the whole person.
+   The self-report is distilled from it.
+
+3. Compound archetype card for dominant energy (all 13 fields)
+
+4. Compound archetype card for secondary energy (all 13 fields, if present)
+
+5. Catalyst element name + behavioral reading (from ELEMENT_ENERGIES)
+
+6. Friction element name + behavioral reading (from ELEMENT_ENERGIES)
+
+7. Missing element names (if any)
+```
+
+**No raw BaZi terminology enters the prompt.** All inputs have already been translated by the generation pipeline. The LLM receives a person, not a chart.
+
+---
+
+### The structural principle
+
+> **The self-report synthesizes. It does not assemble.**
+
+A good synthesis uses source material the way a writer uses research — to produce something new, not to list findings. The self-report should feel like it was written by someone who knows this person well and spent time thinking about how to say the most true thing.
+
+Every field from the input material is a possible source. Not all of it appears. The most resonant content is selected, deepened, and woven into a single arc rather than displayed sequentially.
+
+The persona card's `tension` and `architecture` fields are the emotional spine. The compound cards' `your_interior` and `one_line` fields are the most specific evidence. The catalyst and friction readings provide the environmental context. The missing element (if present) provides the forward-facing arc.
+
+---
+
+### System prompt (SELF_REPORT_SYSTEM_PROMPT)
+
+```
+You are writing a holistic self-report for a specific person based on their
+BaZi chart and the archetype content generated for them. This is not a
+summary of that content. It is a piece of writing that uses that content
+as source material to say something true about who this person is.
+
+STRUCTURAL PRINCIPLE:
+The report has three movements, not sections:
+  1. Who you are — the core character, the engine, the quality others
+     experience before they know you.
+  2. How this plays out — the specific pattern, the recurring scene,
+     what this costs and what it produces.
+  3. What this is building toward — the arc, the forward direction,
+     what all of it is oriented toward over time.
+
+These are not headers. They are movements in a single piece of writing.
+The transition between them should feel earned, not announced.
+
+VOICE:
+Write as a perceptive friend who knows this person well — not as an analyst,
+not as a therapist, not as an astrologer. The tone is warm and specific.
+The language is plain. Every abstract claim has a behavioral equivalent
+within two sentences.
+
+WHAT TO SELECT:
+From the persona card: `tension`, `architecture`, `twoAM`, `under_stress`
+From the compound cards: `your_interior`, `your_tension`, `your_scene`,
+  `one_line`, `your_cost`, `your_build`
+From catalyst/friction: what activates this person and what creates drag
+From missing elements (if any): what the absence has built
+
+WHAT NOT TO DO:
+— Do not concatenate the source fields into the report. Select and synthesize.
+— Do not use BaZi terminology (Day Master, Ten God, stems, branches).
+— Do not use the element names as personality labels ("as a Metal person...").
+— Do not give advice. Describe. The reader knows themselves — name it.
+— Do not write headers or section labels. One continuous piece.
+— Do not repeat the hook from the compound card verbatim.
+
+LENGTH: 400–600 words. Dense. Every sentence earns its place.
+```
+
+---
+
+### User prompt template (buildSelfReportPrompt)
+
+```
+Generate the self-report for this person.
+
+CHART SUMMARY:
+  Day Master:      [stem] [element] — [archetype name]
+  Energy band:     [band] ([band description])
+  Structure:       [tgPattern]
+  Dominant energy: [domEl] × [specificTenGod] ([compound English name])
+  Secondary energy: [secondaryEl] × [secondaryTG] (if present)
+  Catalyst:        [catalyst element]
+  Friction:        [friction element]
+  Missing:         [missing elements, or "none"]
+
+PERSONA CARD:
+[Full 18-field persona card JSON]
+
+DOMINANT COMPOUND CARD:
+[Full 13-field compound card for dominant key]
+
+SECONDARY COMPOUND CARD (if present):
+[Full 13-field compound card for secondary key]
+
+CATALYST READING:
+[catalyst element behavioral reading from ELEMENT_ENERGIES]
+
+FRICTION READING:
+[friction element behavioral reading from ELEMENT_ENERGIES]
+
+Write the self-report. 400–600 words. Three movements, no headers.
+Plain language. Specific to this person. No BaZi terminology.
+```
+
+---
+
+### Cost model and purchase logic
+
+| Event | API call | Cost |
+|---|---|---|
+| User generates chart | None | $0 |
+| User views free tier | None (static lookup) | $0 |
+| User upgrades to Seeker | None (static lookup unlocked) | $0 |
+| User purchases self-report | One LLM call | ~$0.02–0.05 per report |
+
+The self-report API call uses `claude-sonnet-4-6` (or current production model). At $9.99 pricing, the self-report has >99% gross margin per unit even at the high end of API cost.
+
+The report is generated once per purchase. The result is stored on the user's profile. Re-generation is not automatic — a chart change (e.g., corrected birth time) would require a new purchase or a regeneration credit.
+
+---
+
+### Output format
+
+The self-report is delivered as:
+1. **In-app view** — rendered as a single scrollable card in My Chart, below the three deliverables, available only to users with `hasSelfReport: true`
+2. **PDF download** — exported via the existing PDF skill, styled with Elementum design system (EB Garamond, cream palette), title page + report body
+
+The PDF is the primary product artifact. The in-app view is a preview. The framing for the user: "Generated once. Yours to keep."
+
+---
+
 ## Document Metadata
 
 | | |

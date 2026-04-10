@@ -1,4 +1,7 @@
 import { useState, useRef } from "react";
+// profileData.js (STEM_CARD_DATA, TG_CARD_DATA, COMPOUND_CARDS) is bundled
+// separately in production (Vite). In single-file artifact mode all data
+// lives as inline constants below.
 
 // ═══════════════════════════════════════════════════════════════════════════
 // LAYER 0 — TIER CONSTANTS
@@ -6,8 +9,18 @@ import { useState, useRef } from "react";
 
 const TIERS = { FREE: 0, SEEKER: 1, ADVISOR: 2, ORACLE: 3 };
 const TIER_LABELS = { 0:"Free", 1:"Seeker", 2:"Advisor", 3:"Oracle" };
-const TIER_PRICES = { 0:"$0", 1:"$3.99/mo", 2:"$9.99/mo", 3:"$19.99/mo" };
+const TIER_PRICES = { 0:"$0", 1:"$9.99/mo", 2:"$19.99/mo", 3:"$29.99/mo" };
 const FREE_EXPANSIONS_PER_DAY = 1;
+
+// ═══════════════════════════════════════════════════════════════════════════
+// COMPOUND_CARDS — 50 domEl × specificTenGod compound archetype cards
+// 13 fields per card: hook, dynamic, your_gift, your_scene, your_interior,
+// your_tension, your_fuel, your_cost, your_build, running_well, off_track,
+// your_person, one_line.
+// Populated via offline batch generation. Empty object = no content yet →
+// engine renders placeholder skeleton. See DOC4 §9 for schema.
+// ═══════════════════════════════════════════════════════════════════════════
+const COMPOUND_CARDS = {};
 
 // ═══════════════════════════════════════════════════════════════════════════
 // LAYER 1 — BAZI CALCULATOR (pure JS, no LLM, fully deterministic)
@@ -1907,12 +1920,25 @@ function DebugPanel({ chart }) {
   );
 }
 
-function ProfileReading({ chart }) {
+function ProfileReading({ chart, userTier = TIERS.FREE, onPaywall = ()=>{} }) {
   const dm      = chart.dayMaster;
   const color   = EL_C[dm.element];
   const profile = buildDayMasterProfile(chart);
   const ff      = "'EB Garamond',Georgia,serif";
   const divider = <div style={{height:"0.5px",background:`${color}20`,margin:"20px 0"}}/>;
+  const isSeeker = userTier >= TIERS.SEEKER;
+
+  // Gated content wrapper — blur + upgrade tap
+  const GatedOverlay = ({ children, label = "Unlock on Seeker" }) => (
+    <div style={{position:"relative"}}>
+      <div style={{filter:"blur(4px)",pointerEvents:"none",userSelect:"none"}}>{children}</div>
+      <div style={{position:"absolute",inset:0,display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",gap:8}}>
+        <div style={{fontSize:10,letterSpacing:1.5,textTransform:"uppercase",color:C.textTer,fontFamily:ff}}>◆ {label}</div>
+        <button onClick={onPaywall} style={{padding:"6px 18px",borderRadius:20,border:`1px solid ${C.accentLight}`,background:"transparent",fontFamily:ff,fontSize:12,color:C.accentDark,cursor:"pointer"}}>See full reading</button>
+      </div>
+    </div>
+  );
+
   const bgMap   = {
     Metal:"linear-gradient(160deg,#eef2f8 0%,#f0ebe0 100%)",
     Wood: "linear-gradient(160deg,#eef5ee 0%,#f0ebe0 100%)",
@@ -1939,7 +1965,16 @@ function ProfileReading({ chart }) {
             {divider}
             <div style={{borderRadius:14,padding:"18px 20px",marginBottom:4,border:`1px dashed ${color}35`,background:`${color}04`}}>
               <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:color,fontFamily:ff,fontWeight:500,marginBottom:10}}>2 AM Thought</div>
-              <p style={{fontFamily:ff,fontSize:16,lineHeight:1.8,color:C.text,fontStyle:"italic",margin:0}}>"{profile.twoAM}"</p>
+              {isSeeker ? (
+                <p style={{fontFamily:ff,fontSize:16,lineHeight:1.8,color:C.text,fontStyle:"italic",margin:0}}>"{profile.twoAM}"</p>
+              ) : (
+                <>
+                  <p style={{fontFamily:ff,fontSize:16,lineHeight:1.8,color:C.text,fontStyle:"italic",margin:"0 0 10px"}}>
+                    "{profile.twoAM.split(" ").slice(0,8).join(" ")}…"
+                  </p>
+                  <button onClick={onPaywall} style={{fontSize:12,fontFamily:ff,color:C.accentDark,background:"transparent",border:`0.5px solid ${C.accentLight}`,borderRadius:20,padding:"4px 14px",cursor:"pointer"}}>◆ Full thought on Seeker</button>
+                </>
+              )}
             </div>
           </>
         )}
@@ -1953,12 +1988,13 @@ function ProfileReading({ chart }) {
               <polygon points="7,1 8.8,5.5 13.5,5.5 9.7,8.5 11.2,13 7,10.2 2.8,13 4.3,8.5 0.5,5.5 5.2,5.5" fill={color} opacity="0.85"/>
             </svg>
             <div style={{fontSize:11,letterSpacing:2,textTransform:"uppercase",color:color,fontFamily:ff,fontWeight:600}}>Core Gifts</div>
+            {!isSeeker && <div style={{marginLeft:"auto",fontSize:10,color:C.textTer,fontFamily:ff}}>◆ Full detail on Seeker</div>}
           </div>
           <div style={{background:`${color}06`,padding:"6px 0"}}>
             {profile.strengths.map((s,i) => (
               <div key={i} style={{padding:"14px 18px",borderBottom:i<profile.strengths.length-1?`0.5px solid ${color}15`:"none"}}>
-                <div style={{fontFamily:ff,fontSize:15,fontWeight:600,color:color,lineHeight:1.4,marginBottom:5}}>{s.label||s}</div>
-                {s.desc && <div style={{fontFamily:ff,fontSize:14,lineHeight:1.7,color:C.textSec}}>{s.desc}</div>}
+                <div style={{fontFamily:ff,fontSize:15,fontWeight:600,color:color,lineHeight:1.4,marginBottom:isSeeker&&s.desc?5:0}}>{s.label||s}</div>
+                {isSeeker && s.desc && <div style={{fontFamily:ff,fontSize:14,lineHeight:1.7,color:C.textSec}}>{s.desc}</div>}
               </div>
             ))}
           </div>
@@ -1973,12 +2009,13 @@ function ProfileReading({ chart }) {
               <circle cx="7" cy="10" r="0.7" fill={C.accent} opacity="0.8"/>
             </svg>
             <div style={{fontSize:11,letterSpacing:2,textTransform:"uppercase",color:C.accent,fontFamily:ff,fontWeight:600}}>Growing Edge</div>
+            {!isSeeker && <div style={{marginLeft:"auto",fontSize:10,color:C.textTer,fontFamily:ff}}>◆ Full detail on Seeker</div>}
           </div>
           <div style={{background:`${C.accent}04`,padding:"6px 0"}}>
             {profile.shadows.map((s,i) => (
               <div key={i} style={{padding:"14px 18px",borderBottom:i<profile.shadows.length-1?`0.5px solid ${C.accent}12`:"none"}}>
-                <div style={{fontFamily:ff,fontSize:15,fontWeight:600,color:C.accent,lineHeight:1.4,marginBottom:5}}>{s.label||s}</div>
-                {s.desc && <div style={{fontFamily:ff,fontSize:14,lineHeight:1.7,color:C.textSec}}>{s.desc}</div>}
+                <div style={{fontFamily:ff,fontSize:15,fontWeight:600,color:C.accent,lineHeight:1.4,marginBottom:isSeeker&&s.desc?5:0}}>{s.label||s}</div>
+                {isSeeker && s.desc && <div style={{fontFamily:ff,fontSize:14,lineHeight:1.7,color:C.textSec}}>{s.desc}</div>}
               </div>
             ))}
           </div>
@@ -3383,7 +3420,7 @@ const ELEMENTAL_NATURE = {
   },
 };
 
-function ElementSpectrum({ chart }) {
+function ElementSpectrum({ chart, userTier = TIERS.FREE, onPaywall = ()=>{} }) {
   const dm      = chart.dayMaster;
   const dmColor = EL_C[dm.element];
   const insights = getElementInsights(chart);
@@ -3395,6 +3432,7 @@ function ElementSpectrum({ chart }) {
   const ecr = (ENERGY_CONDITION_READINGS[dm.stem] || ENERGY_CONDITION_READINGS["庚"])[band];
   const profile = buildDayMasterProfile(chart);
   const natureTeaser = profile.whoYouAreTeaser;
+  const isSeeker = userTier >= TIERS.SEEKER;
 
   const sortedEls = Object.entries(chart.elements)
     .map(([el, d]) => ({ el, count: d?.count || 0, present: d?.present || false }))
@@ -3408,9 +3446,74 @@ function ElementSpectrum({ chart }) {
   const ff = "'EB Garamond',Georgia,serif";
   const divider = <div style={{height:"0.5px",background:`${dmColor}18`,margin:"20px 0"}}/>;
 
-
-
   const isPure = computeTgPattern(chart) === "pure";
+
+  // ── Compound archetype card — renders after dominant energy CalloutCard ───
+  // FREE: hook + dynamic only (or empty space if not generated yet)
+  // SEEKER: all 13 fields (or empty space if not generated yet)
+  const CompoundReadingCard = ({ el, tenGod, color }) => {
+    const key = tenGod ? `${el}_${tenGod}` : null;
+    const card = key ? COMPOUND_CARDS[key] : null;
+    const fields = isSeeker
+      ? ["your_scene","your_interior","your_tension","your_fuel","your_cost","your_build","running_well","off_track","your_person","one_line"]
+      : [];
+    const fieldLabels = {
+      your_scene:    "The scene that keeps finding you",
+      your_interior: "Your interior",
+      your_tension:  "Your tension",
+      your_fuel:     "What lights you up",
+      your_cost:     "What this costs",
+      your_build:    "What you're building",
+      running_well:  "When you're running well",
+      off_track:     "When something's off",
+      your_person:   "The person who gets you",
+      one_line:      "The one line",
+    };
+
+    // Nothing to show for free if no compound card
+    if (!isSeeker && !card?.hook) return null;
+
+    return (
+      <div style={{borderRadius:10,border:`1px dashed ${color}40`,marginTop:8,marginBottom:4,overflow:"hidden",background:`${color}04`}}>
+        {/* Hook + dynamic — free */}
+        {(card?.hook || card?.dynamic) ? (
+          <div style={{padding:"14px 15px",borderBottom: isSeeker ? `0.5px solid ${color}15` : "none"}}>
+            {card.hook && <p style={{fontFamily:ff,fontSize:14,lineHeight:1.75,color:"#584A3E",fontStyle:"italic",margin:"0 0 10px 0"}}>{card.hook}</p>}
+            {card.dynamic && <p style={{fontFamily:ff,fontSize:13.5,lineHeight:1.75,color:"#7a6e64",margin:0}}>{card.dynamic}</p>}
+          </div>
+        ) : !card && (
+          // Placeholder — not generated yet
+          <div style={{padding:"14px 15px",borderBottom: isSeeker ? `0.5px solid ${color}15` : "none"}}>
+            <p style={{fontFamily:ff,fontSize:13,lineHeight:1.7,color:`${color}60`,fontStyle:"italic",margin:0}}>
+              Full compound reading for {el} {tenGod ? `· ${tenGod}` : ""} coming soon.
+            </p>
+          </div>
+        )}
+
+        {/* Seeker-only fields */}
+        {isSeeker && fields.map((f, i) => (
+          <div key={f} style={{padding:"12px 15px",borderBottom: i < fields.length-1 ? `0.5px solid ${color}10` : "none"}}>
+            <div style={{fontSize:9,fontWeight:500,letterSpacing:1.2,textTransform:"uppercase",color:`${color}80`,fontFamily:ff,marginBottom:5}}>{fieldLabels[f]}</div>
+            {card?.[f] ? (
+              <p style={{fontFamily:ff,fontSize:13,lineHeight:1.75,color:"#584A3E",margin:0,fontStyle: f==="one_line" ? "italic" : "normal"}}>
+                {f === "one_line" ? `"${card[f]}"` : card[f]}
+              </p>
+            ) : (
+              <p style={{fontFamily:ff,fontSize:13,lineHeight:1.7,color:`${color}50`,fontStyle:"italic",margin:0}}>—</p>
+            )}
+          </div>
+        ))}
+
+        {/* Gate — free users see upgrade prompt below hook/dynamic */}
+        {!isSeeker && card?.hook && (
+          <div style={{padding:"12px 15px",display:"flex",alignItems:"center",justifyContent:"space-between",borderTop:`0.5px solid ${color}15`}}>
+            <span style={{fontFamily:ff,fontSize:12,color:`${color}80`,fontStyle:"italic"}}>Your interior, your tension, your cost + more on Seeker</span>
+            <button onClick={onPaywall} style={{padding:"5px 14px",borderRadius:20,border:`1px solid ${color}50`,background:"transparent",fontFamily:ff,fontSize:11,color:color,cursor:"pointer",flexShrink:0,marginLeft:10}}>◆ Unlock</button>
+          </div>
+        )}
+      </div>
+    );
+  };
 
   const CalloutCard = ({ color, borderStyle="solid", icon, sectionLabel, name, line, guidance, keywords=[], angles=null, count=null, totalCount=null, tenGod=null }) => {
     const tgProfile  = tenGod ? TG_PROFILES[tenGod] : null;
@@ -3603,19 +3706,22 @@ function ElementSpectrum({ chart }) {
                 </div>
               )}
               {insights.dominant.map((d,i) => (
-                <CalloutCard key={i}
-                  color={EL_C[d.el]}
-                  icon={d.el}
-                  sectionLabel={`${d.el} · dominant energy`}
-                  name={`${d.el} dominant`}
-                  line={d.line}
-                  guidance={d.guidance}
-                  keywords={d.keywords}
-                  angles={getAnglesForEl(d.el, d.tenGod)}
-                  count={d.count}
-                  totalCount={d.totalCount}
-                  tenGod={d.tenGod}
-                />
+                <div key={i}>
+                  <CalloutCard
+                    color={EL_C[d.el]}
+                    icon={d.el}
+                    sectionLabel={`${d.el} · dominant energy`}
+                    name={`${d.el} dominant`}
+                    line={d.line}
+                    guidance={d.guidance}
+                    keywords={d.keywords}
+                    angles={getAnglesForEl(d.el, d.tenGod)}
+                    count={d.count}
+                    totalCount={d.totalCount}
+                    tenGod={d.tenGod}
+                  />
+                  <CompoundReadingCard el={d.el} tenGod={d.tenGod} color={EL_C[d.el]}/>
+                </div>
               ))}
             </>
           );
@@ -3630,14 +3736,22 @@ function ElementSpectrum({ chart }) {
         <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:6}}>What activates you</div>
         <div style={{fontSize:11,lineHeight:1.6,color:C.textTer,fontFamily:ff,marginBottom:12,fontStyle:"italic"}}>The energy that unlocks what's already in you — not what makes you comfortable, but what makes you fully operational.</div>
         {energies.lifts.map(({el, line}, i) => (
-          <CalloutCard key={i}
-            color={EL_C[el]}
-            icon={el}
-            sectionLabel={`${el} · activating energy`}
-            name={el}
-            line={line}
-            guidance={`When ${el} is present — in your environment, your timing, or the people around you — something that has always been capable in you becomes directional.`}
-          />
+          <div key={i}>
+            <CalloutCard
+              color={EL_C[el]}
+              icon={el}
+              sectionLabel={`${el} · activating energy`}
+              name={el}
+              line={line}
+              guidance={isSeeker ? `When ${el} is present — in your environment, your timing, or the people around you — something that has always been capable in you becomes directional.` : ""}
+            />
+            {!isSeeker && (
+              <div style={{marginTop:-8,marginBottom:12,padding:"10px 14px",borderRadius:"0 0 10px 10px",background:`${EL_C[el]}06`,border:`0.5px dashed ${EL_C[el]}35`,borderTop:"none",display:"flex",alignItems:"center",justifyContent:"space-between"}}>
+                <span style={{fontFamily:ff,fontSize:12,color:C.textTer,fontStyle:"italic"}}>How to seek and use this · what changes when it's present</span>
+                <button onClick={onPaywall} style={{padding:"4px 12px",borderRadius:20,border:`1px solid ${EL_C[el]}50`,background:"transparent",fontFamily:ff,fontSize:11,color:EL_C[el],cursor:"pointer",flexShrink:0,marginLeft:10}}>◆ Seeker</button>
+              </div>
+            )}
+          </div>
         ))}
 
         {divider}
@@ -3646,14 +3760,22 @@ function ElementSpectrum({ chart }) {
         <div style={{fontSize:10,letterSpacing:2,textTransform:"uppercase",color:C.textTer,fontFamily:ff,marginBottom:6}}>What creates friction</div>
         <div style={{fontSize:11,lineHeight:1.6,color:C.textTer,fontFamily:ff,marginBottom:12,fontStyle:"italic"}}>The energy that works against your natural flow — not a weakness, but worth recognising when it's in the room.</div>
         {energies.depletes.map(({el, line}, i) => (
-          <CalloutCard key={i}
-            color={EL_C[el]}
-            icon={el}
-            sectionLabel={`${el} · friction energy`}
-            name={el}
-            line={line}
-            guidance={`Environments or periods where ${el} dominates tend to produce friction without forward movement — not always avoidable, but worth naming.`}
-          />
+          <div key={i}>
+            <CalloutCard
+              color={EL_C[el]}
+              icon={el}
+              sectionLabel={`${el} · friction energy`}
+              name={el}
+              line={line}
+              guidance={isSeeker ? `Environments or periods where ${el} dominates tend to produce friction without forward movement — not always avoidable, but worth naming.` : ""}
+            />
+            {!isSeeker && (
+              <div style={{marginTop:-8,marginBottom:12,padding:"10px 14px",borderRadius:"0 0 10px 10px",background:`${EL_C[el]}06`,border:`0.5px dashed ${EL_C[el]}35`,borderTop:"none",display:"flex",alignItems:"center",justifyContent:"space-between"}}>
+                <span style={{fontFamily:ff,fontSize:12,color:C.textTer,fontStyle:"italic"}}>How to channel this when it's in the room</span>
+                <button onClick={onPaywall} style={{padding:"4px 12px",borderRadius:20,border:`1px solid ${EL_C[el]}50`,background:"transparent",fontFamily:ff,fontSize:11,color:EL_C[el],cursor:"pointer",flexShrink:0,marginLeft:10}}>◆ Seeker</button>
+              </div>
+            )}
+          </div>
         ))}
 
         {/* ── ABSENT ELEMENT ────────────────────────────────────────────── */}
@@ -3695,25 +3817,53 @@ function ElementSpectrum({ chart }) {
 }
 
 // Paywall overlay — shown when free user tries to expand more than 1 section
-function PaywallModal({ onClose, onUpgrade }) {
+function PaywallModal({ onClose, onUpgrade, onSelfReport }) {
+  const ff = "'EB Garamond',Georgia,serif";
+  const ffC = "'Cormorant Garamond',Georgia,serif";
   return (
     <div style={{position:"fixed",inset:0,background:"rgba(29,27,24,0.6)",display:"flex",alignItems:"flex-end",zIndex:100}} onClick={onClose}>
-      <div style={{background:C.bg,borderRadius:"20px 20px 0 0",padding:"28px 24px 40px",width:"100%",maxWidth:430,margin:"0 auto"}} onClick={e=>e.stopPropagation()}>
-        <div style={{width:36,height:3,borderRadius:2,background:C.border,margin:"0 auto 20px"}}/>
-        <div style={{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:22,fontWeight:400,color:C.text,marginBottom:6}}>Unlock Unlimited Depth</div>
-        <p style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:15,lineHeight:1.8,color:C.textSec,marginBottom:20}}>You've opened 1 section today. The full reading — all 12 sections, any time, unlimited depth — is waiting.</p>
-        <div style={{background:C.bgCard,borderRadius:10,padding:"14px 16px",marginBottom:20}}>
-          {["Unlimited section expansions","Full current life chapter","Weekly flow readings","5 AI questions/month"].map((f,i)=>(
-            <div key={i} style={{display:"flex",alignItems:"center",gap:10,marginBottom:i<3?10:0}}>
-              <div style={{width:6,height:6,borderRadius:"50%",background:C.accentLight,flexShrink:0}}/>
-              <span style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:14,color:C.textSec}}>{f}</span>
+      <div style={{background:C.bg,borderRadius:"20px 20px 0 0",padding:"28px 24px 44px",width:"100%",maxWidth:430,margin:"0 auto"}} onClick={e=>e.stopPropagation()}>
+        <div style={{width:36,height:3,borderRadius:2,background:C.border,margin:"0 auto 22px"}}/>
+
+        {/* Headline */}
+        <div style={{fontFamily:ffC,fontSize:22,fontWeight:400,color:C.text,marginBottom:5}}>There's more here than what you've seen.</div>
+        <p style={{fontFamily:ff,fontSize:14,lineHeight:1.8,color:C.textSec,marginBottom:20}}>
+          You've seen the recognition layer. The depth — your interior, your tension, your cost, what you're actually building — is on Seeker.
+        </p>
+
+        {/* Seeker features */}
+        <div style={{background:C.bgCard,borderRadius:10,padding:"14px 16px",marginBottom:12}}>
+          <div style={{fontSize:9,letterSpacing:2,textTransform:"uppercase",color:C.accent,fontFamily:ff,marginBottom:10}}>Seeker — $9.99/month</div>
+          {[
+            "Full compound archetype reading for all your dominant energies",
+            "Catalyst and friction — full behavioral readings",
+            "ProfileReading in full: gifts, edges, your landscape",
+            "Life chapter readings, decade themes, annual context",
+            "Unlimited AI questions",
+          ].map((f,i) => (
+            <div key={i} style={{display:"flex",alignItems:"flex-start",gap:10,marginBottom:i<4?9:0}}>
+              <div style={{width:5,height:5,borderRadius:"50%",background:C.accentLight,flexShrink:0,marginTop:5}}/>
+              <span style={{fontFamily:ff,fontSize:13.5,lineHeight:1.6,color:C.textSec}}>{f}</span>
             </div>
           ))}
         </div>
-        <button onClick={onUpgrade} style={{width:"100%",padding:"14px",borderRadius:10,border:"none",background:C.accentDark,color:"#f7f3ec",fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:17,letterSpacing:0.5,cursor:"pointer",marginBottom:10}}>
-          Unlock Seeker — $3.99/month
+
+        {/* CTA */}
+        <button onClick={onUpgrade} style={{width:"100%",padding:"14px",borderRadius:10,border:"none",background:C.accentDark,color:"#f7f3ec",fontFamily:ffC,fontSize:17,letterSpacing:0.5,cursor:"pointer",marginBottom:10}}>
+          Unlock Seeker — $9.99/month
         </button>
-        <div style={{textAlign:"center",fontFamily:"'EB Garamond',Georgia,serif",fontSize:12,color:C.textTer,fontStyle:"italic"}}>7-day free trial · Cancel anytime</div>
+        <div style={{textAlign:"center",fontFamily:ff,fontSize:12,color:C.textTer,fontStyle:"italic",marginBottom:16}}>7-day free trial · Cancel anytime</div>
+
+        {/* Self-report one-time option */}
+        <div style={{borderTop:`0.5px solid ${C.border}`,paddingTop:16}}>
+          <div style={{fontFamily:ffC,fontSize:15,color:C.text,marginBottom:5}}>Just want one reading?</div>
+          <p style={{fontFamily:ff,fontSize:13,lineHeight:1.7,color:C.textTer,marginBottom:10}}>
+            Your chart as a single synthesized narrative — generated once, yours to keep as a PDF.
+          </p>
+          <button onClick={onSelfReport} style={{width:"100%",padding:"11px",borderRadius:10,border:`1px solid ${C.border}`,background:"transparent",fontFamily:ff,fontSize:14,color:C.textSec,cursor:"pointer"}}>
+            Self-Report — $6.99 one-time
+          </button>
+        </div>
       </div>
     </div>
   );
@@ -3815,6 +3965,7 @@ export default function App() {
   const [tab, setTab]           = useState("reading");
   const [showForm, setShowForm] = useState(true);
   const [userTier, setUserTier] = useState(TIERS.FREE);
+  const [hasSelfReport, setHasSelfReport] = useState(false);
   const [expansionCount, setExpansionCount] = useState(0);
   const [showPaywall, setShowPaywall]       = useState(false);
   const readingRef = useRef(null);
@@ -3866,7 +4017,7 @@ export default function App() {
   return (
     <div style={{background:C.bg,minHeight:"100vh",maxWidth:430,margin:"0 auto",position:"relative"}}>
       <style>{STYLE}</style>
-      {showPaywall && <PaywallModal onClose={()=>setShowPaywall(false)} onUpgrade={()=>{setShowPaywall(false);handleTierChange(TIERS.SEEKER);}}/>}
+      {showPaywall && <PaywallModal onClose={()=>setShowPaywall(false)} onUpgrade={()=>{setShowPaywall(false);handleTierChange(TIERS.SEEKER);}} onSelfReport={()=>{setShowPaywall(false);if(userTier>=TIERS.SEEKER)setHasSelfReport(true);else{handleTierChange(TIERS.SEEKER);setHasSelfReport(true);}}}/>}
 
       {/* Header */}
       <div style={{padding:"16px 20px 12px",borderBottom:`0.5px solid ${C.border}`,position:"sticky",top:0,background:C.bg,zIndex:10}}>
@@ -3884,9 +4035,9 @@ export default function App() {
           )}
         </div>
 
-        {/* Tier selector — always visible for testing */}
+        {/* Tier selector — testing only; production uses purchase flow */}
         <div style={{display:"flex",gap:4,marginTop:10}}>
-          {Object.entries(TIERS).map(([label,val])=>(
+          {Object.entries(TIERS).filter(([,val])=>val<=TIERS.SEEKER).map(([label,val])=>(
             <button key={val} onClick={()=>handleTierChange(val)} style={{flex:1,padding:"5px 4px",borderRadius:6,border:userTier===val?`1.5px solid ${tierColor}`:`0.5px solid ${C.border}`,background:userTier===val?`${tierColor}15`:"transparent",cursor:"pointer",fontFamily:"'EB Garamond',Georgia,serif",fontSize:11,color:userTier===val?tierColor:C.textTer,transition:"all 0.15s"}}>
               {label}<div style={{fontSize:9,opacity:0.7}}>{TIER_PRICES[val]}</div>
             </button>
@@ -3999,13 +4150,33 @@ export default function App() {
 
               {/* ② Element Spectrum — Energy Blueprint */}
               <div style={{marginBottom:20}}>
-                <ElementSpectrum chart={chart}/>
+                <ElementSpectrum chart={chart} userTier={userTier} onPaywall={()=>setShowPaywall(true)}/>
               </div>
 
               {/* ③ Profile Reading — gifts, edges, landscape */}
               <div style={{marginBottom:20}}>
-                <ProfileReading chart={chart}/>
+                <ProfileReading chart={chart} userTier={userTier} onPaywall={()=>setShowPaywall(true)}/>
               </div>
+
+              {/* ④ Self-Report — one-time purchase, Seeker only */}
+              {userTier >= TIERS.SEEKER && (
+                <div style={{marginBottom:20,borderRadius:16,border:`1px dashed ${C.accent}40`,background:`${C.accent}04`,padding:"20px 20px 22px"}}>
+                  <div style={{fontSize:9,letterSpacing:2,textTransform:"uppercase",color:C.accent,fontFamily:"'EB Garamond',Georgia,serif",marginBottom:8}}>Your Self-Report</div>
+                  {hasSelfReport ? (
+                    <>
+                      <div style={{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:17,color:C.text,marginBottom:10}}>Generated. Yours to keep.</div>
+                      <p style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:13,lineHeight:1.75,color:C.textSec,marginBottom:14}}>Your chart as a single synthesized reading — all layers held together at once. Download the PDF below.</p>
+                      <button style={{width:"100%",padding:"11px",borderRadius:10,border:"none",background:C.accentDark,color:"#f7f3ec",fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:15,cursor:"pointer"}}>Download PDF</button>
+                    </>
+                  ) : (
+                    <>
+                      <div style={{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:17,color:C.text,marginBottom:8}}>Your chart as one reading.</div>
+                      <p style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:13,lineHeight:1.75,color:C.textSec,marginBottom:14}}>A synthesized narrative combining all your layers — not a collection of cards, but a single piece of writing about you specifically. Generated once. Yours to keep as a PDF.</p>
+                      <button onClick={()=>setHasSelfReport(true)} style={{width:"100%",padding:"11px",borderRadius:10,border:`1px solid ${C.accent}`,background:"transparent",fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:15,color:C.accentDark,cursor:"pointer"}}>Generate Self-Report — $6.99</button>
+                    </>
+                  )}
+                </div>
+              )}
 
               <div style={{height:"0.5px",background:C.border,margin:"4px 0 20px"}}/>
 
@@ -4081,7 +4252,7 @@ export default function App() {
                     {userTier===TIERS.FREE && !paras.length && (
                       <div style={{padding:"14px 16px",borderRadius:10,background:C.bgCard,border:`0.5px solid ${C.border}`,textAlign:"center"}}>
                         <p style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:13,color:C.textTer,fontStyle:"italic",marginBottom:10}}>The full decade reading is available on Seeker tier.</p>
-                        <button onClick={()=>handleTierChange(TIERS.SEEKER)} style={{padding:"8px 20px",borderRadius:8,border:`1px solid ${C.accentLight}`,background:"transparent",fontFamily:"'EB Garamond',Georgia,serif",fontSize:13,color:C.accentDark,cursor:"pointer"}}>Unlock — $3.99/mo</button>
+                        <button onClick={()=>setShowPaywall(true)} style={{padding:"8px 20px",borderRadius:8,border:`1px solid ${C.accentLight}`,background:"transparent",fontFamily:"'EB Garamond',Georgia,serif",fontSize:13,color:C.accentDark,cursor:"pointer"}}>Unlock on Seeker — $9.99/mo</button>
                       </div>
                     )}
                     {/* Pillar timeline strip */}

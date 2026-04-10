@@ -575,6 +575,180 @@ function buildAngleMerge(angles) {
   return ["// AUTO-GENERATED — Layer 2/3 reading angles","// Pipeline: generate-angles → retrieve-angles → check-angles → merge-angles",`// Generated: ${new Date().toISOString()} | ${entries.length} / 50 angle keys`,"// Spread into READING_ANGLES in Elementum_Engine.jsx","export const GENERATED_ANGLES = {",...entries,"};"].join("\n");
 }
 
+
+// ─── PIPELINE C: COMPOUND ARCHETYPE CARDS ─────────────────────────────────────
+// 50 entries: domEl_specificTenGod — same 50 keys as Pipeline B.
+// 13 fields per card: user-facing content for Seeker tier compound reading
+// and the one-time self-report. See DOC4 §9 for schema.
+//
+// node generate_templates_v2.js generate-compound            → batch submit
+// node generate_templates_v2.js retrieve-compound [id]       → collect → compound.json
+// node generate_templates_v2.js check-compound               → validate 13-field schema
+// node generate_templates_v2.js merge-compound               → merge → profileData update
+//
+// Cost estimate: ~$6–10 (50 keys × 1 pass, 13 fields per card)
+// Run approve-then-scale: test 5 forge keys first before bulk.
+
+// Same 50 keys as ANGLE_KEYS — reuse the array defined in Pipeline B.
+// Priority order for authoring: Round 1 = 七杀/正官 (forge), Round 2 = 偏印/正印,
+// Round 3 = 食神/伤官/偏财/正财, Round 4 = 比肩/劫财.
+
+const COMPOUND_SYSTEM_PROMPT = `You write compound archetype cards for the Elementum app. Each card describes the specific lived experience of a person whose DM element encounters a particular dominant element through a particular Ten God mechanism.
+
+This is NOT a combination of:
+  — a general description of the element
+  — a general description of the Ten God
+  — two descriptions stapled together
+
+This IS a description of what specifically happens when THESE two elemental natures meet through THIS structural mechanism. The content must be unwritable about any other key.
+
+THE 13 FIELDS — specifications:
+
+hook (≤2 sentences):
+  Stops the scroll. A recognizable statement about lived experience before the reader knows what's coming.
+  Opens with "There's a version of you that..." or equivalent. First-person orientation.
+  Must be specific to THIS compound — not derivable from TG or element alone.
+
+dynamic (≤80 words):
+  The "that's why" field. Plain language. What happens when these two natures meet through this mechanism.
+  NOT two descriptions stapled together — a single thing that emerges from the combination.
+  No classical terminology.
+
+your_gift (≤60 words):
+  What people consistently receive from being near this person — often without being able to name it.
+  Written from the outside looking in, then connecting inward.
+  Behaviorally specific to this compound.
+
+your_scene (≤70 words):
+  The recurring situation that keeps finding this person in different costumes.
+  Different context each time, same structure underneath.
+  The "oh my god yes" field. Most likely to produce a share or screenshot.
+
+your_interior (≤80 words):
+  The private experience of being this person. What's running in the background the outside doesn't show.
+  Includes the real motivation underneath visible behavior — when others read X, this person is actually doing Y.
+  Creates the "how did it know that" moment.
+
+your_tension (≤60 words):
+  The productive conflict that cannot be resolved and shouldn't be.
+  Not a problem to fix — a structural fact to navigate well.
+  Specific to this compound intersection — not derivable from either layer alone.
+
+your_fuel (≤60 words):
+  The specific conditions and situations that activate this compound.
+  Concrete and behavioral — what specifically brings THIS combination alive.
+
+your_cost (≤70 words):
+  The shadow only this combination creates. Not the TG shadow. Not the element shadow.
+  The one that emerges specifically from these two natures in this relationship.
+  Framed with compassion and structural honesty. Never diagnostic.
+
+your_build (≤50 words):
+  Where this compound leads over time. Not what it produces in a moment — what it is building toward as a life arc.
+  Forward-facing and specific to this compound.
+
+running_well (≤50 words):
+  The specific signals this combination is in its best state.
+  Observable and behavioral. What is actually happening when this compound runs as designed.
+
+off_track (≤50 words):
+  The specific signals something has slipped.
+  Distinct per compound — the signal that 木_正财 is off looks different from the signal that 水_正财 is off.
+
+your_person (≤60 words):
+  Not relationship advice — the specific human configuration that works alongside this compound.
+  Concrete and relational. Who actually brings out the best of this.
+
+one_line (15–35 words):
+  First person. The most honest specific thing about living at this intersection.
+  Not derived from the other fields — written directly from the compound.
+  Not a conclusion. Not advice. Just the thing that is most true.
+
+ANTI-GENERICITY TEST:
+  Swap the TG. If any field still works → too generic, rewrite.
+  Swap the element. If any field still works → too generic, rewrite.
+
+AUTHORING ORDER:
+  1. Write one_line first. If you can't write it, the compound isn't understood yet.
+  2. Write your_tension and your_interior second — these are the structural heart.
+  3. Write hook and dynamic third — the entry point, written after the interior is clear.
+  4. All remaining fields — each should feel like evidence of steps 1–3.
+
+Return ONLY valid JSON with exactly these 13 fields. No preamble, no markdown.`;
+
+function buildCompoundPrompt(entry) {
+  const { key, domEl, tg, dmEl, interaction } = entry;
+  const tgMech = TG_MECHANICS[tg] || {};
+  const elName = EL_NAMES[domEl] || domEl;
+  return `Generate the compound archetype card for: ${key}
+
+STRUCTURAL FACTS:
+  Key:               ${key}
+  Dominant element:  ${domEl} (${elName})
+  Ten God:           ${tg} — ${tgMech.en || ""}
+  DM element:        ${dmEl}
+  Structural interaction: ${interaction}
+
+TG MECHANISM:
+  ${tgMech.mechanism || ""}
+  Pair note: ${tgMech.pairNote || ""}
+
+THE COMPOUND:
+  The DM is ${dmEl} in nature.
+  The dominant field is ${elName} (${domEl}).
+  The TG describes how the dominant field relates to the DM: ${tgMech.mechanism || ""}
+  
+  What specifically happens when ${dmEl} meets ${elName} through this mechanism?
+  Picture these two elemental natures in the room together.
+  The dominant is the atmosphere. The TG is what that atmosphere does to the DM.
+  What is the gift of that encounter? The friction? The thing the DM would never say aloud?
+
+Write one_line first. Then your_tension and your_interior. Then hook and dynamic. Then all remaining fields.
+
+Return ONLY valid JSON with exactly 13 fields:
+hook, dynamic, your_gift, your_scene, your_interior, your_tension,
+your_fuel, your_cost, your_build, running_well, off_track, your_person, one_line`;
+}
+
+function qualityCheckCompound(key, card) {
+  const issues = [];
+  const REQUIRED = ["hook","dynamic","your_gift","your_scene","your_interior",
+    "your_tension","your_fuel","your_cost","your_build","running_well","off_track","your_person","one_line"];
+  const LIMITS = { hook:200, dynamic:500, your_gift:350, your_scene:400, your_interior:500,
+    your_tension:350, your_fuel:350, your_cost:400, your_build:300, running_well:300, off_track:300, your_person:350, one_line:250 };
+
+  for (const f of REQUIRED) {
+    if (!card[f] || typeof card[f] !== "string" || card[f].trim().length < 20)
+      issues.push(`${f}: missing or too short`);
+    else if (card[f].length > LIMITS[f] * 1.5)
+      issues.push(`${f}: likely too long (${card[f].length} chars)`);
+  }
+  if (card.one_line && card.one_line.split(" ").length > 45)
+    issues.push(`one_line: exceeds 35 words (${card.one_line.split(" ").length} words)`);
+  if (card.one_line && card.one_line.split(" ").length < 12)
+    issues.push(`one_line: too short — should be 15–35 words`);
+  // Generic signal check
+  const tgGenericTerms = ["precision","depth","warmth","reach","stability"];
+  if (card.hook && tgGenericTerms.some(t => card.hook.toLowerCase().startsWith(t)))
+    issues.push(`hook: may be too generic — check anti-genericity test`);
+  return issues;
+}
+
+function buildCompoundMerge(compounds) {
+  const entries = Object.entries(compounds)
+    .sort(([a],[b]) => a.localeCompare(b))
+    .map(([key, c]) => \`  "\${key}": \${JSON.stringify(c, null, 4).replace(/^/gm, "  ").trim()},\`);
+  return [
+    "// AUTO-GENERATED — Pipeline C compound archetype cards",
+    "// Pipeline: generate-compound → retrieve-compound → check-compound → merge-compound",
+    \`// Generated: \${new Date().toISOString()} | \${entries.length} / 50 compound keys\`,
+    "// Paste the COMPOUND_CARDS object body into profileData.js export const COMPOUND_CARDS = { ... }",
+    "export const GENERATED_COMPOUNDS = {",
+    ...entries,
+    "};",
+  ].join("\n");
+}
+
 // ─── MAIN ──────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -668,6 +842,40 @@ async function main() {
     fs.writeFileSync("generated_angles.js", buildAngleMerge(angles));
     console.log(`Layer 2/3 → generated_angles.js (${Object.keys(angles).length} / ${angleCombos.length} keys)`);
     console.log(`Spread GENERATED_ANGLES into READING_ANGLES in Elementum_Engine.jsx`);
+
+
+  } else if (mode === "generate-compound") {
+    const id = await submitBatch(ANGLE_KEYS, COMPOUND_SYSTEM_PROMPT, buildCompoundPrompt, "compound");
+    fs.writeFileSync("compound_batch_id.txt", id);
+    console.log(`\nNext: node generate_templates_v2.js retrieve-compound ${id}`);
+
+  } else if (mode === "retrieve-compound") {
+    const id = arg2 || fs.readFileSync("compound_batch_id.txt","utf8").trim();
+    await waitForBatch(id);
+    const { results, failed } = await collectResults(id, qualityCheckCompound);
+    fs.writeFileSync("compound.json", JSON.stringify(results, null, 2));
+    console.log(`\nSaved ${Object.keys(results).length} compound cards → compound.json`);
+    if (failed.length) console.warn(`Failed (${failed.length}):`, failed.join(", "));
+    console.log(`Next: node generate_templates_v2.js check-compound`);
+
+  } else if (mode === "check-compound") {
+    const compounds = JSON.parse(fs.readFileSync("compound.json","utf8"));
+    const issues = {}; let pass = 0;
+    for (const [key, c] of Object.entries(compounds)) {
+      const ci = qualityCheckCompound(key, c);
+      if (ci.length === 0) pass++; else issues[key] = ci;
+    }
+    console.log(`\nCompound cards: ${pass}/${Object.keys(compounds).length} passed (${ANGLE_KEYS.length} total keys)`);
+    const missing = ANGLE_KEYS.filter(e => !compounds[e.key]).map(e => e.key);
+    if (missing.length) console.warn(`Missing (${missing.length}):`, missing.join(", "));
+    if (Object.keys(issues).length) { fs.writeFileSync("compound_issues.json", JSON.stringify(issues, null, 2)); console.log(`Issues → compound_issues.json`); }
+    else console.log(`All passed. Run: merge-compound`);
+
+  } else if (mode === "merge-compound") {
+    const compounds = JSON.parse(fs.readFileSync("compound.json","utf8"));
+    fs.writeFileSync("generated_compounds.js", buildCompoundMerge(compounds));
+    console.log(`Pipeline C → generated_compounds.js (${Object.keys(compounds).length} / ${ANGLE_KEYS.length} keys)`);
+    console.log(`Paste GENERATED_COMPOUNDS body into profileData.js COMPOUND_CARDS export.`);
 
   } else {
     console.log(`\nUsage: node generate_templates_v2.js [mode]\n`);

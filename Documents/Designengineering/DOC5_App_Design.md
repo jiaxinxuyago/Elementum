@@ -1091,6 +1091,114 @@ What each screen reads from the engine's Canonical JSON or computed state:
 
 ---
 
+## §19 — Pricing Model & Content Tiers
+
+### Tier structure
+
+Elementum exposes **two tiers** to users. Two additional tiers (`ADVISOR`, `ORACLE`) are retained in the engine constants for future expansion but are not surfaced in the current UI.
+
+| Constant | Label | Price | Status |
+|---|---|---|---|
+| `TIERS.FREE` | Free | $0 | Live — full chart, limited depth |
+| `TIERS.SEEKER` | Seeker | $9.99/mo | Live — full depth + self-report access |
+| `TIERS.ADVISOR` | Advisor | TBD | Engine-reserved, not exposed |
+| `TIERS.ORACLE` | Oracle | TBD | Engine-reserved, not exposed |
+
+One additional monetization unit exists outside the tier system:
+
+| Product | Price | Description |
+|---|---|---|
+| **Self-Report** | $6.99–9.99 one-time | LLM-generated holistic narrative. Purchases a single report for the user's current chart. Not a subscription. Available at SEEKER tier only (requires Seeker to unlock). |
+
+---
+
+### Content gating map
+
+The gating model applies the **revelation sequence** as a product principle: recognition (free) → explanation and domain (Seeker) → full interior and synthesis (self-report). Each tier must create genuine desire for the next before the paywall appears.
+
+#### Deliverable 1 — DayMasterHero (Identity Card)
+| Content | FREE | SEEKER |
+|---|---|---|
+| Archetype seal + name + manifesto | ✓ | ✓ |
+| Energy band + tgPattern chips | ✓ | ✓ |
+| Shareable code strip | ✓ | ✓ |
+
+Identity card is fully free. It is the hook. Nothing here is gated.
+
+#### Deliverable 2 — ElementSpectrum (Energy Blueprint)
+
+| Content | FREE | SEEKER |
+|---|---|---|
+| Energy bars (elemental composition) | ✓ | ✓ |
+| Elemental Nature card (band reading) | ✓ | ✓ |
+| Catalyst element — name + teaser only | ✓ | ✓ |
+| Catalyst element — full behavioral reading | ✗ | ✓ |
+| Friction element — name + teaser only | ✓ | ✓ |
+| Friction element — full behavioral reading | ✗ | ✓ |
+| Absent element cards — teaser only | ✓ | ✓ |
+| Dominant energy cards — `hook` + `dynamic` | ✓ | ✓ |
+| Dominant energy cards — all 13 compound fields | ✗ | ✓ |
+| Secondary energy cards | ✗ | ✓ |
+| WHO YOU ARE teaser | ✓ | ✓ |
+
+#### Deliverable 3 — ProfileReading (Full Reading)
+
+| Content | FREE | SEEKER |
+|---|---|---|
+| ProfileReading ring (strength visualization) | ✓ | ✓ |
+| twoAM | teaser line only | full |
+| Gifts (3) | labels only | labels + desc |
+| Edges (2) | label only | label + desc |
+| Landscape (thrives + costs) | ✓ | ✓ |
+| p1 + p2 paragraphs | ✗ | ✓ |
+
+#### Self-Report (one-time purchase, SEEKER only)
+
+| Content | Included |
+|---|---|
+| Synthesized holistic narrative combining all chart layers | ✓ |
+| Full compound archetype reading for all dominant + secondary energies | ✓ |
+| Catalyst and friction behavioral synthesis | ✓ |
+| `your_interior`, `your_tension`, `your_build`, `off_track` fields | ✓ |
+| Downloadable PDF format | ✓ |
+
+---
+
+### Paywall design principles
+
+**Day 0 urgency is everything.** Industry data shows 80–90% of conversions occur within the first session. The free experience must create depth hunger immediately — not after days of use.
+
+**The free compound card must be specific enough to feel accurate, incomplete enough to feel incomplete.** `hook` and `dynamic` establish recognition. Cutting before `your_scene` and `your_interior` creates the moment where the user knows there is more and wants it. The paywall appears at exactly that cut point.
+
+**Paywall copy never describes what's locked — it names what the user is already feeling.** Not "unlock your full reading." Something closer to: "You've seen what this energy is. There's a version of this that names what it costs you — and what you're actually building."
+
+**The self-report is positioned as a different product, not more of the same.** It is not "unlock more fields." It is "receive a single piece of writing about you specifically — not a collection of card descriptions, but a synthesized reading." This distinction justifies the one-time purchase alongside the subscription.
+
+---
+
+### Upgrade triggers in the UI
+
+| Trigger moment | Location | Mechanism |
+|---|---|---|
+| Compound card depth hunger | Deliverable 2, after `dynamic` | Soft blur on remaining fields + upgrade prompt |
+| twoAM teaser | Deliverable 3 | First ~10 words visible, rest blurred + "your full reading" CTA |
+| Self-report prompt | My Chart screen footer | Card: "Your chart as one reading. Generated once, yours to keep." |
+| Catalyst/friction full reading | Deliverable 2 | Locked card with accurate teaser + upgrade |
+
+**`◆` indicator** marks all Seeker-only content at the component level. Free users see the indicator and a soft blur. The indicator is not a lock icon — it is a marker that signals depth, not restriction.
+
+---
+
+### Engine implementation notes
+
+- `TIERS.FREE` and `TIERS.SEEKER` are the two active constants
+- `TIERS.ADVISOR` and `TIERS.ORACLE` are defined but not referenced in current UI logic
+- The self-report purchase is tracked as a separate boolean flag on the user profile (`hasSelfReport: boolean`) — it is not a tier change
+- Seeker access gates are implemented via `userTier >= TIERS.SEEKER` checks
+- Self-report access gates check both `userTier >= TIERS.SEEKER && user.hasSelfReport`
+
+---
+
 ## Document Metadata
 
 | | |
