@@ -1,28 +1,45 @@
-// generate_templates_v2.js
-// Generates all Elementum archetype content via Anthropic batch API.
+// batchGenerate.js
+// Batch generation and synthesis engine for Elementum archetype content.
+// Uses Anthropic batch API for offline generation and on-demand synthesis.
 //
-// TWO INDEPENDENT PIPELINES:
+// Field names follow archetypeSource.js (source of truth).
+// Internal constants (CLASSICAL_STEM_ANCHORS, CLASSICAL_TG_ANCHORS,
+// BINGYI_FRAMING, PILLAR_STAGE) are imported from archetypeSource.js at
+// synthesis time.
 //
-//   PIPELINE A — Layer 1: persona cards + readings (150 keys)
-//   Key format: [stem]_[band]_[tgPattern]   (Bible §3A.3)
-//   node generate_templates_v2.js generate-persona           → Pass 1A batch submit
-//   node generate_templates_v2.js retrieve-persona [id]      → collect → personas.json
-//   node generate_templates_v2.js generate-readings          → Pass 1B batch submit
-//   node generate_templates_v2.js retrieve-readings [id]     → collect → templates.json
-//   node generate_templates_v2.js check                      → validate Layer 1 schemas
-//   node generate_templates_v2.js merge                      → merge → generated_templates.js
+// ── CURRENT PIPELINES ──────────────────────────────────────────────────
 //
-//   PIPELINE B — Layer 2/3: reading angles (50 keys)
-//   Key format: [domEl]_[specificTenGod]   (Bible §3A.3)
-//   node generate_templates_v2.js generate-angles            → batch submit
-//   node generate_templates_v2.js retrieve-angles [id]       → collect → angles.json
-//   node generate_templates_v2.js check-angles               → validate angle schema
-//   node generate_templates_v2.js merge-angles               → merge → generated_angles.js
+//   PIPELINE A — Compound archetype cards (50 keys, offline one-time)  [BUILT]
+//   Output: DomEnergyTg_Data.js
+//   node batchGenerate.js generate-compound          → batch submit
+//   node batchGenerate.js retrieve-compound [id]     → collect → compound.json
+//   node batchGenerate.js check-compound             → validate 13-field schema
+//   node batchGenerate.js merge-compound             → merge → generated_compounds.js
+//   Cost: ~$6–10 (50 keys × 1 pass)
 //
-// Cost estimate:
-//   Pipeline A: ~$15–20  (150 keys × ~2 passes)
-//   Pipeline B: ~$4–6    (50 keys × 1 pass)
-//   Total: ~$20–26
+// ── PLANNED PIPELINES ──────────────────────────────────────────────────
+//
+//   150 ARCHETYPE TEMPLATES (stem × band × tgPattern)                  [NOT YET BUILT]
+//   Output: ElementNature_DATA.js
+//   Personality/behavioral interpretation only — no energy/manual fields.
+//   Schema TBD — will be defined when archetypeSource.js content authoring is complete.
+//
+//   PIPELINE B — Self-report synthesis (on purchase, per user)         [NOT YET BUILT]
+//   See DOC4 §7 for synthesis prompt structure.
+//   Takes user chart + compound cards from DomEnergyTg_Data.js →
+//   produces 13-field synthesized narrative in ~20–30 seconds.
+//
+//   CATALYST/RESISTANCE TEMPLATES                                      [TBD]
+//   Separate file target TBD.
+//
+// ── LEGACY PIPELINES (retained for infrastructure reuse) ───────────────
+//
+//   The persona/reading/angle generation code below was built for the
+//   old three-pass pipeline (retired in Doc 4 v3.0). The prompts and
+//   schemas target the old output format. The batch infrastructure
+//   (submitBatch, waitForBatch, collectResults), quality gate patterns,
+//   FORBIDDEN term list, and shared taxonomy are reusable for all
+//   planned pipelines.
 
 import Anthropic from "@anthropic-ai/sdk";
 import fs from "fs";
@@ -623,10 +640,10 @@ function buildAngleMerge(angles) {
 // 13 fields per card: user-facing content for Seeker tier compound reading
 // and the one-time self-report. See DOC4 §9 for schema.
 //
-// node generate_templates_v2.js generate-compound            → batch submit
-// node generate_templates_v2.js retrieve-compound [id]       → collect → compound.json
-// node generate_templates_v2.js check-compound               → validate 13-field schema
-// node generate_templates_v2.js merge-compound               → merge → profileData update
+// node batchGenerate.js generate-compound            → batch submit
+// node batchGenerate.js retrieve-compound [id]       → collect → compound.json
+// node batchGenerate.js check-compound               → validate 13-field schema
+// node batchGenerate.js merge-compound               → merge → DomEnergyTg_Data.js
 //
 // Cost estimate: ~$6–10 (50 keys × 1 pass, 13 fields per card)
 // Run approve-then-scale: test 5 forge keys first before bulk.
@@ -788,7 +805,7 @@ function buildCompoundMerge(compounds) {
     "// AUTO-GENERATED — Pipeline C compound archetype cards",
     "// Pipeline: generate-compound → retrieve-compound → check-compound → merge-compound",
     \`// Generated: \${new Date().toISOString()} | \${entries.length} / 50 compound keys\`,
-    "// Paste the COMPOUND_CARDS object body into profileData.js export const COMPOUND_CARDS = { ... }",
+    "// Paste the COMPOUND_CARDS object body into archetypeSource.js export const COMPOUND_CARDS = { ... }",
     "export const GENERATED_COMPOUNDS = {",
     ...entries,
     "};",
@@ -807,7 +824,7 @@ async function main() {
   if (mode === "generate-persona") {
     const id = await submitBatch(layer1Combos, PERSONA_SYSTEM_PROMPT, buildPersonaPrompt, "persona");
     fs.writeFileSync("persona_batch_id.txt", id);
-    console.log(`\nNext: node generate_templates_v2.js retrieve-persona ${id}`);
+    console.log(`\nNext: node batchGenerate.js retrieve-persona ${id}`);
 
   } else if (mode === "retrieve-persona") {
     const id = arg2 || fs.readFileSync("persona_batch_id.txt","utf8").trim();
@@ -816,14 +833,14 @@ async function main() {
     fs.writeFileSync("personas.json", JSON.stringify(results, null, 2));
     console.log(`\nSaved ${Object.keys(results).length} personas → personas.json`);
     if (failed.length) console.warn(`Failed (${failed.length}):`, failed.join(", "));
-    console.log(`Next: node generate_templates_v2.js generate-readings`);
+    console.log(`Next: node batchGenerate.js generate-readings`);
 
   } else if (mode === "generate-readings") {
     if (!fs.existsSync("personas.json")) { console.error("personas.json not found."); process.exit(1); }
     const personas = JSON.parse(fs.readFileSync("personas.json","utf8"));
     const id = await submitBatch(layer1Combos, READING_SYSTEM_PROMPT, (c) => buildReadingPrompt(c, personas[c.key] || null), "readings");
     fs.writeFileSync("readings_batch_id.txt", id);
-    console.log(`\nNext: node generate_templates_v2.js retrieve-readings ${id}`);
+    console.log(`\nNext: node batchGenerate.js retrieve-readings ${id}`);
 
   } else if (mode === "retrieve-readings") {
     const id = arg2 || fs.readFileSync("readings_batch_id.txt","utf8").trim();
@@ -832,7 +849,7 @@ async function main() {
     fs.writeFileSync("templates.json", JSON.stringify(results, null, 2));
     console.log(`\nSaved ${Object.keys(results).length} readings → templates.json`);
     if (failed.length) console.warn(`Failed (${failed.length}):`, failed.join(", "));
-    console.log(`Next: node generate_templates_v2.js check`);
+    console.log(`Next: node batchGenerate.js check`);
 
   } else if (mode === "check") {
     const readings = JSON.parse(fs.readFileSync("templates.json","utf8"));
@@ -859,7 +876,7 @@ async function main() {
   } else if (mode === "generate-angles") {
     const id = await submitBatch(angleCombos, ANGLE_SYSTEM_PROMPT, buildAnglePrompt, "angles");
     fs.writeFileSync("angles_batch_id.txt", id);
-    console.log(`\nNext: node generate_templates_v2.js retrieve-angles ${id}`);
+    console.log(`\nNext: node batchGenerate.js retrieve-angles ${id}`);
 
   } else if (mode === "retrieve-angles") {
     const id = arg2 || fs.readFileSync("angles_batch_id.txt","utf8").trim();
@@ -868,7 +885,7 @@ async function main() {
     fs.writeFileSync("angles.json", JSON.stringify(results, null, 2));
     console.log(`\nSaved ${Object.keys(results).length} angles → angles.json`);
     if (failed.length) console.warn(`Failed (${failed.length}):`, failed.join(", "));
-    console.log(`Next: node generate_templates_v2.js check-angles`);
+    console.log(`Next: node batchGenerate.js check-angles`);
 
   } else if (mode === "check-angles") {
     const angles = JSON.parse(fs.readFileSync("angles.json","utf8"));
@@ -893,7 +910,7 @@ async function main() {
   } else if (mode === "generate-compound") {
     const id = await submitBatch(ANGLE_KEYS, COMPOUND_SYSTEM_PROMPT, buildCompoundPrompt, "compound");
     fs.writeFileSync("compound_batch_id.txt", id);
-    console.log(`\nNext: node generate_templates_v2.js retrieve-compound ${id}`);
+    console.log(`\nNext: node batchGenerate.js retrieve-compound ${id}`);
 
   } else if (mode === "retrieve-compound") {
     const id = arg2 || fs.readFileSync("compound_batch_id.txt","utf8").trim();
@@ -902,7 +919,7 @@ async function main() {
     fs.writeFileSync("compound.json", JSON.stringify(results, null, 2));
     console.log(`\nSaved ${Object.keys(results).length} compound cards → compound.json`);
     if (failed.length) console.warn(`Failed (${failed.length}):`, failed.join(", "));
-    console.log(`Next: node generate_templates_v2.js check-compound`);
+    console.log(`Next: node batchGenerate.js check-compound`);
 
   } else if (mode === "check-compound") {
     const compounds = JSON.parse(fs.readFileSync("compound.json","utf8"));
@@ -921,10 +938,10 @@ async function main() {
     const compounds = JSON.parse(fs.readFileSync("compound.json","utf8"));
     fs.writeFileSync("generated_compounds.js", buildCompoundMerge(compounds));
     console.log(`Pipeline C → generated_compounds.js (${Object.keys(compounds).length} / ${ANGLE_KEYS.length} keys)`);
-    console.log(`Paste GENERATED_COMPOUNDS body into profileData.js COMPOUND_CARDS export.`);
+    console.log(`Paste GENERATED_COMPOUNDS body into archetypeSource.js COMPOUND_CARDS export.`);
 
   } else {
-    console.log(`\nUsage: node generate_templates_v2.js [mode]\n`);
+    console.log(`\nUsage: node batchGenerate.js [mode]\n`);
     console.log(`PIPELINE A — Layer 1 (${buildLayer1Combinations().length} keys: stem_band_tgPattern)`);
     console.log(`  generate-persona   retrieve-persona   generate-readings   retrieve-readings   check   merge`);
     console.log(`\nPIPELINE B — Layer 2/3 (${angleCombos.length} keys: domEl_specificTenGod)`);

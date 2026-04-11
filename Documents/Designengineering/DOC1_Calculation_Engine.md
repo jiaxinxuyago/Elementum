@@ -565,6 +565,6 @@ Run these against any new implementation before going to production:
 | **Audience** | Engineers implementing or verifying the calculation engine |
 | **Purpose** | Single source of truth for all BaZi math. The deterministic input → Canonical JSON pipeline. No content, no LLM, no design. |
 | **Stability** | HIGH — changes only when calculation logic changes |
-| **Used by** | Elementum_Engine.jsx · generate_templates_v2.js (via JSON output) |
+| **Used by** | Elementum_Engine.jsx · batchGenerate.js (via JSON output) |
 | **Compatible with** | Doc2 v1.0 · Doc6 v1.0 |
 | **Verified against** | 穷通宝鉴 · 子平真诠 · shen88.cn · ebaicha.cn · junzige.com |

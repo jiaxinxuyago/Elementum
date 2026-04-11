@@ -933,7 +933,7 @@ All citations formatted APA 7th edition. Where a concept appears under multiple 
 
 ## PART 7 — Calculation Accuracy Verification Anchors
 
-> **Purpose:** This section is for proofing the engine's calculation outputs — not for deriving reading content. It contains reference tables and rules against which `Elementum_Engine.jsx` and `generate_templates_v2.js` should be verified.
+> **Purpose:** This section is for proofing the engine's calculation outputs — not for deriving reading content. It contains reference tables and rules against which `Elementum_Engine.jsx` and `batchGenerate.js` should be verified.
 >
 > **Source:** bazi-skill/references/wuxing-tables.md · bazi-skill/references/shichen-table.md · bazi-skill/references/dayun-rules.md
 
@@ -1084,8 +1084,8 @@ Cross-reference with DOC1 hidden-stem weights. If the engine uses different perc
 
 | Layer | Context | Chinese Characters | BaZi Terminology | Rule |
 |---|---|---|---|---|
-| **Internal / verification** | DOC3 source entries, profileData.js constants, CLASSICAL_STEM_ANCHORS, CLASSICAL_TG_ANCHORS | ✓ Permitted | ✓ Permitted | For human + AI proof-reading and source verification only |
-| **Generation prompts** | generate_templates_v2.js prompt strings sent to LLM | ✓ Permitted as reference labels only, always English-paired | ✓ Permitted as structural labels | Prompts may reference BaZi terms when orienting the model; the model’s OUTPUT must be clean |
+| **Internal / verification** | DOC3 source entries, elementNatureData.js / dominantEnergyTgData.js constants, CLASSICAL_STEM_ANCHORS, CLASSICAL_TG_ANCHORS | ✓ Permitted | ✓ Permitted | For human + AI proof-reading and source verification only |
+| **Generation prompts** | batchGenerate.js prompt strings sent to LLM | ✓ Permitted as reference labels only, always English-paired | ✓ Permitted as structural labels | Prompts may reference BaZi terms when orienting the model; the model’s OUTPUT must be clean |
 | **User-facing output** | All reading text, UI card content, static labels, exported reading fields | ✗ Zero Chinese characters | ✗ Zero BaZi jargon | Absolute. No fallthrough from prompt layer. |
 
 **The boundary is output, not intent.** A prompt can say “七杀 (The Trial)” internally; the generated angle text must say nothing about “seven killings” or any BaZi term.
@@ -1326,7 +1326,7 @@ Before any reading content is finalized, run this checklist:
 | **Audience** | Content creators, generation system (as reference library) |
 | **Purpose** | Complete source library for all Elementum archetype content. Classical BaZi texts, modern psychological frameworks, and resonance bridges. Doc 4 tells you which sources to use for a given key; this document tells you what they are and what each produces. |
 | **Stability** | LOW for additions (grows frequently) · HIGH for existing entries (rarely changed) |
-| **Used by** | Doc 4 (generation architecture imports from here) · generate_templates_v2.js (PSYCH_PROFILES and CLASSICAL_SOURCES constants) |
+| **Used by** | Doc 4 (generation architecture imports from here) · batchGenerate.js (PSYCH_PROFILES and CLASSICAL_SOURCES constants) |
 | **Compatible with** | Doc2 v1.1 · Doc4 v2.0 · Doc6 v1.1 |
 
 ## Version History

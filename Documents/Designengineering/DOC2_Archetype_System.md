@@ -277,6 +277,6 @@ Chart: 乙亥 庚辰 庚寅 乙酉 · DM: 庚 Metal · extremely_strong
 | **Status** | LOCKED — archetypes, taxonomy, and key formulas are structural definitions |
 | **Audience** | Engineers, product, generation system |
 | **Purpose** | Single source of truth for the archetype identity system and layer key taxonomy. What each archetype is, how keys are computed, and the full 50-key interaction map. Nothing about reading content, deliverable layout, or generation — those live in Doc 4. |
-| **Stability** | HIGH — the taxonomy is the contract. Changes require updating generate_templates_v2.js and Elementum_Engine.jsx |
-| **Used by** | Elementum_Engine.jsx · generate_templates_v2.js · Doc 4 · Doc 5 |
+| **Stability** | HIGH — the taxonomy is the contract. Changes require updating batchGenerate.js and Elementum_Engine.jsx |
+| **Used by** | Elementum_Engine.jsx · batchGenerate.js · Doc 4 · Doc 5 |
 | **Compatible with** | Doc 1 v1.0 · Doc 6 v1.0 |

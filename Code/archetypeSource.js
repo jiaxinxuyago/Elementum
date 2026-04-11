@@ -1,23 +1,23 @@
 /**
- * profileData.js — Elementum Engine profile data constants
- * 
- * Contains behavioral and archetypal profile data for all 10 stems and 10 Ten Gods.
- * Separated from Elementum_Engine.jsx to keep the engine file focused on
- * calculation logic and UI components.
- * 
+ * archetypeSource.js — Elementum Engine · Source of Truth
+ *
+ * The single source of truth for all field names, reading templates, and
+ * knowledge-pool content. An identical HTML copy exists as a parallel
+ * editing surface — the JS file and the HTML file must always match.
+ *
+ * All downstream archetype data files (ElementNature_DATA.js,
+ * DomEnergyTg_Data.js) derive their field naming from this file.
+ *
  * Usage:
- *   import { STEM_CARD_DATA, TG_CARD_DATA } from './profileData.js';
- * 
- * STEM_CARD_DATA — external energy force + energy manual per stem
- * TG_CARD_DATA   — full card data per Ten God (ruling realm, personality,
- *                  life domains, people, 流年大运 signatures)
- * COMPOUND_CARDS — 50 domEl × specificTenGod compound archetype cards (13 fields each)
- *                  Populated by Pipeline C in generate_templates_v2.js.
- *                  Empty until generation runs. See DOC4 §9 for schema.
- * 
- * Note: TG_CARD_DATA is separate from TG_PROFILES (which holds Layer 2
- * artwork + describe() functions). This file holds the expanded card data
- * for Section 3+ UI rendering.
+ *   import { STEM_CARD_DATA, TG_CARD_DATA } from './archetypeSource.js';
+ *
+ * STEM_CARD_DATA — 10 stems. External energy force + energy manual per stem.
+ *                  Fields: energy.* (element as environmental force),
+ *                  manual.* (catalyst, resistance, band paragraphs)
+ * TG_CARD_DATA   — 10 Ten Gods. Full card data per Ten God (ruling realm,
+ *                  personality, life domains, people, 流年大运 signatures)
+ *
+ * See DOC4 §4 for the complete field reference and tier assignments.
  */
 
 
@@ -32,18 +32,54 @@
 // SOURCE: Free + Pro tier · Stem energy and manual fields
 export const STEM_CARD_DATA = {
   "甲": {
-    // Yang Wood — The Oak
+    subtitle: "Forward motion as structure, not ambition · The Growth Impulse (Yang)",
+    chips: ["Visionary", "Initiating", "Growth-driven", "Integrity-bound", "Consolidation-resistant"],
+    psychCore: {
+      phrase: "The Perpetual Initiator",
+      desc: `He is the person who starts things that outlast him — driven by a forward momentum so structural it operates before intention forms, with a "tall tree" quality that would rather break than bend and a deep need to find a sky large enough to grow into.`,
+    },
+    blocks: [
+      {
+        label: "How they experience the world",
+        text: `The Oak doesn't decide to grow toward things. It just grows, the way a tree grows toward light — not because it chose the direction but because that's what it does. For this person, the next stage of anything is always visible before the current one has settled. They're mentally already somewhere else while the room is still discussing whether to begin. This isn't impatience exactly. It's more like living slightly ahead of the present moment at all times.`,
+      },
+      {
+        label: "What they're genuinely good at",
+        text: `Seeing what something could become before anyone else does. Starting things — not because someone asked them to, but because the gap between what exists and what could exist is physically uncomfortable for them to leave alone. Once they start something, they generate a kind of forward pull that brings other people along without anyone deliberately organizing it. People around them tend to end up thinking bigger than they did before, often without knowing why.`,
+      },
+      {
+        label: "Where they consistently get stuck",
+        text: `The reaching outruns the roots. They commit to something genuinely and deeply — and then outgrow it before it's fully established. There's a recurring pattern of building something real, then moving before it's been properly consolidated, leaving things in a state that needs someone else to finish. The next stage is always visible before the current one has actually been tested. This isn't fickleness — the investment was real. The problem is structural: the nature moves faster than the foundations can follow.
+
+There's also a specific interpersonal cost: people who care about them often feel like they're perpetually catching up. The Oak doesn't mean to move that fast. It just can't stop.`,
+      },
+      {
+        label: "What changes when conditions are right",
+        text: `The classical principle: raw wood becomes useful timber only when something shapes and defines it — converts the reaching into something specific. The Oak doesn't need someone to give it direction. What it needs is a force that says "this, not everything." When that arrives through the right challenge or pressure, the reach consolidates into something that holds. The growth doesn't stop. It just finally has a form.`,
+      },
+      {
+        label: "What they rarely admit",
+        text: `That they often don't know what they're building toward — only that they're building. The momentum is real. The destination is often genuinely unclear even to them, which is part of why the reaching can go in so many directions before finding the thing that's actually worth the full force.`,
+      },
+    ],
+    psych: {
+      bigFive: "High Openness/Intellect · High Assertiveness · variable Industriousness (challenge is consolidation, not initiation)",
+      jungian: "Extraverted Intuition (Ne) + Extraverted Thinking (Te) — generates possibilities and reaches toward them before consolidating",
+      attachment: "Secure-leaning with over-extension risk — commits deeply then outgrows before fully rooting",
+      shadow: "Integrity vs. Rigidity — would rather break than bend. Authority is tolerated only if the vision is genuinely shared, not merely imposed",
+    },
+    archetypes: ["ENTP / ENTJ (MBTI)", "The Pioneer (Brand)", "The Hero (Jungian)", "The Magician (Campbell)", "Type 7 / Type 3 (Enneagram)", "Aries / Sagittarius (Western)", "Manifesting Generator (HD)"],
     energy: {
-      keywords: ["Initiation", "Rising ambition", "New beginnings", "Competition", "Upward thrust"],  // [FREE · energy chips]  // [FREE · energy chips]
-      what: `甲 is the first stem — the energy of spring's first upward break through frozen ground. Classically described as 木之阳 (the Yang of Wood), it represents a forceful, non-negotiable impulse to rise and expand. Think of the moment when a forest floor cracks open with new growth after winter: nothing deliberate, nothing negotiated — just life asserting itself upward. It is the atmosphere of "things beginning whether you're ready or not."`,  // [FREE · DM intro + absent energy card]  // [FREE · DM intro + absent energy card]
-      represents: `New projects launching all around you. The feeling of ambition and possibility filling the environment. People becoming more assertive, initiating more, competing more openly. The conditions that make starting things feel natural and necessary. Also: the landscape gets crowded — more people reaching for the same things at the same time.`,  // [FREE · DM intro + absent energy card]  // [FREE · DM intro + absent energy card]
-      liunian: `When 甲 energy enters a luck cycle or annual pillar, it acts like the first warm week of spring — activating everything dormant. The environment rewards boldness and punishes hesitation. Career opportunities emerge suddenly. Competitors become more visible. For charts that benefit from Wood: forward momentum. For already Wood-heavy charts: restlessness, overcommitment, difficulty consolidating.`,  // [PRO]  // [PRO]
+      keywords: ["Initiation", "Rising ambition", "New beginnings", "Competition", "Upward thrust"],
+      what: `甲 is the first stem — the energy of spring's first upward break through frozen ground. Classically described as 木之阳 (the Yang of Wood), it represents a forceful, non-negotiable impulse to rise and expand. Think of the moment when a forest floor cracks open with new growth after winter: nothing deliberate, nothing negotiated — just life asserting itself upward. It is the atmosphere of "things beginning whether you're ready or not."`,
+      represents: `New projects launching all around you. The feeling of ambition and possibility filling the environment. People becoming more assertive, initiating more, competing more openly. The conditions that make starting things feel natural and necessary. Also: the landscape gets crowded — more people reaching for the same things at the same time.`,
+      liunian: `When 甲 energy enters your luck cycle or annual pillar, it acts like the first warm week of spring — activating everything that was dormant. If you're positioned to initiate, this is the energy that provides momentum. If you're not ready to move, the pressure to start still arrives. Career opportunities emerge suddenly. Competitors become more visible. For those whose chart benefits from Wood energy, this is a period of genuine forward momentum; for those whose chart is already Wood-heavy, the excess can produce restlessness, overcommitment, or difficulty consolidating what's already been started.`,
     },
     manual: {
-      concentrated: `New ideas launch before old ones land. Commitments pile up faster than they can be honored. The classical principle warns of "growth without harvest": energy expanding without converting into completed form. Restlessness is constant. The specific trap: more beginnings accumulate than can ever be finished, and the backlog slowly becomes its own weight.`,  // [FREE · Elemental Nature card]
-      open: `Initiative is genuinely harder to find. The environment or person waits for external permission before moving. Starting things feels risky rather than natural. Projects that need a champion stall at the beginning. Ambition may exist internally but stays unexpressed.`,  // [FREE · Elemental Nature card]
-      catalyst: `Enter it by initiating the thing you have been circling — one specific thing, not ten. Commit to a direction and enter it fully before the window moves. Volunteer for the visible role, launch the project, make the first move. Outcome: things that had no momentum suddenly have it. Doors that required the right person to ask become accessible when you step forward.`,  // [FREE · teaser  /  PRO · full analysis]
-      resistance: `When 甲 energy creates friction — growth impulse is competing with your structure rather than feeding it. Don't resist the initiating force; redirect it. Use Metal quality (pruning, cutting options) to define which growth is worth nurturing. Stop adding beginnings — close enough open loops to make space for one thing to land. Outcome: restlessness converts into directed momentum.`,  // [PRO]
+      concentrated: `New ideas launch before old ones land. Commitments pile up faster than they can be honored. The chart or period is saturated with initiating energy — ambitious, restless, and difficult to anchor. The classical principle warns of "growth without harvest": energy expanding without converting into completed form. Restlessness is constant. Stillness feels impossible. The specific trap: more beginnings accumulate than can ever be finished, and the backlog slowly becomes its own weight.`,
+      open: `Initiative is genuinely harder to find. The environment or person waits for external permission before moving. Starting things feels risky rather than natural. Leadership and forward visibility feel inaccessible — not from lack of capability but from lack of the upward-push energy that makes initiating feel worth the cost. Projects that need a champion stall at the beginning. Ambition may exist internally but stays unexpressed.`,
+      catalyst: `Enter it by initiating the thing you have been circling — one specific thing, not ten. This is not a "plan more" energy; it is a "start now" energy. Commit to a direction and enter it fully before the window moves. Volunteer for the visible role, launch the project, make the first move in the relationship. The productive use is concentration of the initiating force, not dispersal. Outcome: things that had no momentum suddenly have it. Doors that required the right person to ask become accessible when you step forward as that person.`,
+      resistance: `When 甲 energy is creating friction — growth impulse is competing with your structure rather than feeding it. Don't resist the initiating force; redirect it. Use the Metal quality (pruning, deciding, cutting options) to define which growth is worth nurturing. Stop adding beginnings — close enough open loops to make space for one thing to actually land. The corrective is not stillness but focus. Outcome: restlessness converts into directed momentum, and what was scatter becomes a clear line of forward motion.`,
     },
   },
 
@@ -639,32 +675,6 @@ export const TG_CARD_DATA = {
 
 };
 
-// ═══════════════════════════════════════════════════════════════════════════
-// COMPOUND_CARDS
-// 50 domEl × specificTenGod compound archetype cards. 13 fields per card.
-// Generated by Pipeline C in generate_templates_v2.js.
-// Priority: forge combinations (七杀/正官) first — see DOC4 §9 for authoring order.
-//
-// Workflow:
-//   node generate_templates_v2.js generate-compound   (submit batch)
-//   node generate_templates_v2.js retrieve-compound   (collect results)
-//   node generate_templates_v2.js check-compound      (validate 13 fields)
-//   node generate_templates_v2.js merge-compound      (→ generated_compounds.js)
-//   Paste GENERATED_COMPOUNDS body here to populate.
-//
-// Fields per card: hook, dynamic, your_gift, your_scene, your_interior,
-//   your_tension, your_fuel, your_cost, your_build, running_well, off_track,
-//   your_person, one_line
-// ═══════════════════════════════════════════════════════════════════════════
-
-// SOURCE: Self-Report · Pre-generated offline — 50 domEl×specificTenGod cards
-// SOURCE: Self-Report · Pre-generated offline — 50 domEl×specificTenGod cards
-export const COMPOUND_CARDS = {
-  // Populated after Pipeline C generation run.
-  // Engine reads from here — CompoundReadingCard in ElementSpectrum renders
-  // empty placeholder state when a key is missing.
-};
-
 
 // ═══════════════════════════════════════════════════════════════════════════
 // CLASSICAL_STEM_ANCHORS
@@ -672,7 +682,7 @@ export const COMPOUND_CARDS = {
 // Source: 穷通宝鉴, 三命通会, 子平真诠, 滴天髓 — see DOC3 §2 for derivations.
 //
 // Usage: Inject into buildPersonaPrompt() and buildReadingPrompt() in
-//   generate_templates_v2.js. Extends and replaces the partial STEM_CLASSICAL
+//   batchGenerate.js. Extends and replaces the partial STEM_CLASSICAL
 //   constant in that file (庚, 辛, 甲, 戊, 壬 are already there; 乙, 丙, 丁,
 //   己, 癸 are new).
 //
@@ -783,7 +793,7 @@ export const CLASSICAL_STEM_ANCHORS = {
 // Classical source principles for all 10 Ten Gods.
 // Source: 子平真诠, 滴天髓 (任铁樵), 三命通会 — see DOC3 §2 for derivations.
 //
-// Usage: Inject into buildAnglePrompt() in generate_templates_v2.js to give
+// Usage: Inject into buildAnglePrompt() in batchGenerate.js to give
 //   generation the classical behavioral anchor behind each TG relationship.
 //
 // Hard ceiling per DOC3: max 2 behavioral claims per polarity per entry.

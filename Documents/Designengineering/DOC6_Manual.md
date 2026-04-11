@@ -117,13 +117,22 @@ Birth data
   → Elementum_Engine.jsx renders via Doc 5 component specs
 ```
 
-**The generation flow (offline batch):**
+**The data authoring flow:**
 
 ```
-Doc 3 (sources) + Doc 4 (protocol)
-  → generate_templates_v2.js
-  → GENERATED_TEMPLATES + GENERATED_ANGLES
-  → imported into Elementum_Engine.jsx constants
+archetypeSource.js (source of truth, hand-authored) + identical HTML twin
+  → defines field names and reading templates for 10 stems + 10 TGs
+  → ElementNature_DATA.js (150 archetype reading templates)
+  → DomEnergyTg_Data.js (50 compound archetype cards)
+  → Elementum_Engine.jsx imports from all three at runtime
+```
+
+**The generation flow (on purchase only):**
+
+```
+User chart + DomEnergyTg_Data.js compound cards
+  → batchGenerate.js (Pipeline B — self-report synthesis)
+  → 13-field synthesized narrative
 ```
 
 ---
@@ -135,7 +144,7 @@ Doc 3 (sources) + Doc 4 (protocol)
 | Doc 1 | `DOC1_Calculation_Engine.md` | ✅ LOCKED | Complete |
 | Doc 2 | `DOC2_Archetype_System.md` | ✅ LOCKED | Complete — archetype formula and key taxonomy only |
 | Doc 3 | `DOC3_Knowledge_Pool.md` | 🔲 IN DEVELOPMENT | Not yet extracted from Bible |
-| Doc 4 | `DOC4_Generation_Architecture.md` | ✅ DRAFTED · LIVING | Complete — reading schema, deliverables, voice rules, generation passes, quality gates, CLI pipeline |
+| Doc 4 | `DOC4_Generation_Architecture.md` | ✅ DRAFTED · LIVING | Complete — data architecture, tier content map, rendering logic, field reference, voice rules, compound card schema, generation pipeline |
 | Doc 5 | `DOC5_App_Design.md` | ✅ DRAFTED · LIVING | Screen flows, component specs, color system, data contracts |
 | Doc 6 | `DOC6_Manual.md` | ✅ CURRENT | This document |
 
@@ -187,16 +196,20 @@ The monolith `BaZi_Analysis_Bible_v2.md` remains the source of truth for Doc 3 c
 
 ---
 
-### Doc 4 — Generation Architecture *(once written)*
+### Doc 4 — Generation Architecture
 
-**How to read it:** This is an operational document for the AI agent doing batch generation. Read it top to bottom before starting any generation run. Every step is sequential.
+**How to read it:** This is the data architecture and content delivery specification. §1–§4 define the file structure, tier content map, rendering logic, and field reference. §5 covers voice and quality rules. §6–§7 cover compound cards and the generation pipeline. §8 tracks enrichment work.
 
 **What to look for:**
-- The reasoning chain → the numbered steps (Step 0 through Step 4)
-- The system prompt → the verbatim text injected into Pass 1 and Pass 2
-- Quality gates → the checklist at the end of each section
+- Which file holds which data → §1 (file structure diagram) and §4 (field reference)
+- What content is shown at each tier → §2 (tier content map)
+- How the engine renders content → §3 (rendering logic)
+- Field names and their tier assignments → §4
+- Voice registers and quality rules → §5
+- The 13-field compound card schema → §6
+- The self-report synthesis pipeline → §7
 
-**How to extract:** The reasoning chain steps and system prompts are extracted verbatim into `generate_templates_v2.js`. Do not paraphrase or summarise them — the exact wording matters.
+**How to extract:** `archetypeSource.js` is the source of truth for all field names. Archetype data files (`ElementNature_DATA.js`, `DomEnergyTg_Data.js`) derive their field names from it. The synthesis prompt structure in §7 is extracted into `batchGenerate.js`.
 
 ---
 
@@ -232,7 +245,7 @@ The monolith `BaZi_Analysis_Bible_v2.md` remains the source of truth for Doc 3 c
 **Who can edit:** Product, content, engineers.
 **What's locked:** The 50-key Layer 2/3 taxonomy (§3), the ten archetypes and manifestos (§2), the element colors (§2), the reading angle schema (§4, the three-angle structure and yin/yang pair rules), the deliverable component data shapes (§7–8).
 **What can evolve:** The reading architecture for Sections 3–10 (§5 is explicitly deferred). Voice rule examples (§9). New content tables that add to existing ones without removing entries.
-**After any edit:** If the key taxonomy changes, update `generate_templates_v2.js` and the `LAYER2_COMBOS` constant. If a component prop shape changes, update `Elementum_Engine.jsx` and Doc 5.
+**After any edit:** If the key taxonomy changes, update `batchGenerate.js`. If a component prop shape changes, update `Elementum_Engine.jsx` and Doc 5. If field names change, update `archetypeSource.js` first (source of truth), then propagate to `ElementNature_DATA.js` and `DomEnergyTg_Data.js`.
 
 ### Editing Doc 3 (Knowledge Pool)
 
@@ -247,15 +260,18 @@ The monolith `BaZi_Analysis_Bible_v2.md` remains the source of truth for Doc 3 c
 
 ### Editing Doc 4 (Generation Architecture)
 
-**The reasoning chain and system prompts are precision instruments.** Small wording changes produce measurable output quality differences. Every change to the system prompt or reasoning chain requires a before/after test on the reference chart (`庚_concentrated_pure`) and cold-reader evaluation of both versions.
+**Doc 4 governs both the data architecture and the self-report synthesis pipeline.** Changes to §1–§4 (file structure, tier map, rendering logic, field reference) affect which files serve what content. Changes to §7 (synthesis pipeline) affect `batchGenerate.js`.
 
-**Workflow:**
+**For data architecture changes (§1–§4):**
+1. Update `archetypeSource.js` first (source of truth for field names)
+2. Propagate field name changes to `ElementNature_DATA.js` and `DomEnergyTg_Data.js`
+3. Update `Elementum_Engine.jsx` import paths and field references
+4. Update Doc 4 field reference tables to match
+
+**For synthesis pipeline changes (§7):**
 1. Propose the change in writing with rationale
-2. Generate reference chart reading with current version
-3. Generate reference chart reading with proposed version
-4. Cold-reader evaluation (AI evaluator with no prior context)
-5. If new version passes, update the document and version history
-6. Update `generate_templates_v2.js` system prompts to match
+2. Test on the reference chart (`庚_concentrated_pure`)
+3. If new version passes, update Doc 4 and `batchGenerate.js`
 
 ### Editing Doc 5 (App Design)
 
@@ -307,22 +323,22 @@ The most common failure mode when documentation is split across multiple files: 
 
 | What changed | Also update |
 |---|---|
-| Layer 2/3 key taxonomy (§3) | `generate_templates_v2.js` LAYER2_COMBOS constant · `Elementum_Engine.jsx` READING_ANGLES constant |
+| Key taxonomy (§3) | `batchGenerate.js` · `Elementum_Engine.jsx` |
 | Archetype names or manifestos (§2) | `Elementum_Engine.jsx` archetype constants · Doc 5 (any hardcoded strings) |
 | Component prop shape (§7–8) | `Elementum_Engine.jsx` component implementation · Doc 5 component specs |
-| Reading schema field added/removed (§4) | Doc 4 generation prompts · `generate_templates_v2.js` quality gates |
 
 ### When Doc 3 changes
 
-Doc 3 is additive. Additions do not require downstream changes unless a SOURCE-FROM entry is added for a stem or tgPattern that Gen scripts already handle — in that case, update the `STEM_CLASSICAL` or `CLASSICAL_SOURCES` constants in `generate_templates_v2.js`.
+Doc 3 is additive. Additions do not require downstream changes unless a SOURCE-FROM entry is added for a stem or tgPattern that the synthesis pipeline already handles — in that case, update the `CLASSICAL_STEM_ANCHORS` or `CLASSICAL_TG_ANCHORS` constants in `archetypeSource.js`.
 
 ### When Doc 4 changes
 
 | What changed | Also update |
 |---|---|
-| System prompt text | `generate_templates_v2.js` PERSONA_SYSTEM_PROMPT / READING_SYSTEM_PROMPT / ANGLES_SYSTEM_PROMPT |
-| Quality gate rules | `generate_templates_v2.js` qualityCheckPersona / qualityCheckReading / qualityCheckAngles |
-| Reasoning chain steps | This document §9 (workflow section) if it affects how to run a generation pass |
+| File structure or field names (§1, §4) | `archetypeSource.js` (source of truth) → `ElementNature_DATA.js` → `DomEnergyTg_Data.js` → `Elementum_Engine.jsx` imports |
+| Tier assignments (§2, §3) | `Elementum_Engine.jsx` rendering logic |
+| Compound card schema (§6) | `DomEnergyTg_Data.js` · `batchGenerate.js` quality gates |
+| Synthesis pipeline (§7) | `batchGenerate.js` synthesis prompt and quality gates |
 
 ---
 
@@ -351,7 +367,7 @@ Doc 3 is additive. Additions do not require downstream changes unless a SOURCE-F
 
 ### Key redesign in Doc 4
 
-The generation reasoning chain was redesigned for Doc 4. The core change: **portrait-first, not source-first**. The old approach ran sources through a sequential checklist and generated fields from structural analysis. The new approach treats the portrait pre-write as the generative event — sources are input material, the portrait is the working model, fields are derived from the portrait. This produces more vivid readings at the cost of slightly less predictable output — the approve-then-scale workflow (Doc 4 §7) manages this.
+Doc 4 v3.0–3.1 retired the old three-pass generation pipeline (portrait prewrite → persona card → reading schema). The core change: **profile data as single source of truth, not LLM-generated content.** All Free and Pro content is now hand-authored in `archetypeSource.js` and its archetype data files. The only LLM generation is the self-report synthesis pass (Pipeline B in `batchGenerate.js`), triggered on purchase. This eliminates LLM cost at serve time and makes content quality directly editable.
 
 ### Deliberately deferred
 
@@ -387,37 +403,31 @@ The generation reasoning chain was redesigned for Doc 4. The core change: **port
 4. From JSON: find elements scoring ≥3 (excluding DM element) → run `getDominantTenGod()` → Layer 2/3 key
 5. Look up keys in TEMPLATE_DB and READING_ANGLES
 
-### Running a generation batch
+### Running the compound card generation (one-time, Pipeline A)
 
-See Doc 4 §13–14 for the full CLI reference and approve-then-scale workflow.
+See Doc 4 §7 for the full CLI reference.
 
-1. `node generate_templates_v2.js generate-persona` → submit Layer 1 Pass 1
-2. `node generate_templates_v2.js retrieve-persona` → collect → `personas.json`
-3. Sample 3–5 results against Doc 4 §11 reference standard. Approve before continuing.
-4. `node generate_templates_v2.js generate-readings` → submit Layer 1 Pass 2
-5. `node generate_templates_v2.js retrieve-readings` → collect → `templates.json`
-6. `node generate_templates_v2.js generate-angles` → submit Layer 2
-7. `node generate_templates_v2.js retrieve-angles` → collect → `angles.json`
-8. `node generate_templates_v2.js check` → validate all schemas
-9. `node generate_templates_v2.js merge` → `generated_output.js`
-10. Import into engine constants. Verify reference chart still produces expected output.
+1. `node batchGenerate.js generate-compound` → submit all 50 keys
+2. `node batchGenerate.js retrieve-compound [id]` → collect results
+3. `node batchGenerate.js check-compound` → validate all 50 against quality gates
+4. `node batchGenerate.js merge-compound` → writes to `DomEnergyTg_Data.js`
+5. Verify reference chart still produces expected output in `Elementum_Engine.jsx`
 
-### Adding a new archetype template (single key)
+### Authoring archetype content
 
-1. Identify the key (e.g. `甲_balanced_flowing`)
-2. Read the relevant sections of Doc 3 (source library for this stem and pattern) and Doc 4 §7–8 (Pass 1 + Pass 2 generation)
-3. Follow the portrait-first generation flow: portrait pre-write → coherence tests → field generation → voice register check
-4. Verify against Doc 4 §12 quality gates
-5. Add to TEMPLATE_DB in `Elementum_Engine.jsx`
-6. Add key to `LAYER1_SKIP` in `generate_templates_v2.js` to prevent overwriting at batch time
+All Free and Pro content is hand-authored, not LLM-generated.
+
+1. Edit `archetypeSource.js` (and its HTML twin) — this is the source of truth for 10 stem and 10 TG entries
+2. For the 150 archetype reading templates: author in `ElementNature_DATA.js`, using field names defined in `archetypeSource.js`
+3. Verify against Doc 4 §5 voice and quality rules
+4. Ensure `Elementum_Engine.jsx` imports reflect any new fields
 
 ### Editing a UI component
 
-1. Identify which deliverable it belongs to (Doc 4 §4, §5, or §6)
-2. Check the component's data contract (CalloutCard props in Doc 4 §5, `buildDayMasterProfile` shape in Doc 4 §6)
-3. Check Doc 5 for visual specification
-4. If you need a new field: update Doc 4 §5–6 first, then implement in `Elementum_Engine.jsx`, then update Doc 5
-5. If you're removing a field: check Doc 4 §13 to ensure generation scripts don't produce it unnecessarily
+1. Check the component's data contract in Doc 4 §4 (field reference)
+2. Check Doc 5 for visual specification
+3. If you need a new field: update `archetypeSource.js` first (source of truth), then implement in `Elementum_Engine.jsx`, then update Doc 5
+4. If you're removing a field: check that `ElementNature_DATA.js` and `DomEnergyTg_Data.js` are updated to match
 
 ---
 
@@ -435,27 +445,17 @@ See Doc 4 §13–14 for the full CLI reference and approve-then-scale workflow.
 | How layer keys are computed from the JSON | Doc 2 §3, layer key computation |
 | The element colors | Doc 2 §2 |
 | Why `expressive` and `pressured` were retired | Doc 2 §3, note on 5 vs 7 tgPattern values |
-| How `金_比肩` differs from `金_劫财` | Doc 4 §2, yin/yang pair rules |
-| The three reading angles (how/works/deep) | Doc 4 §2 |
-| The five elemental voice registers | Doc 4 §3 |
-| Which BaZi terms are banned from UI | Doc 4 §3, jargon-free principle |
-| DayMasterHero component spec | Doc 4 §4 |
-| ElementSpectrum component spec | Doc 4 §5 |
-| How catalyst/friction is derived per band | Doc 4 §5, band-conditional derivation table |
-| The catalyst/friction table for all 10 stems | Doc 4 §5 |
-| The `buildDayMasterProfile()` return shape | Doc 4 §6 |
-| The Pass 1 persona card system prompt | Doc 4 §7 |
-| The Pass 2 reading schema system prompt | Doc 4 §8 |
-| Reading field specs (teaser, twoAM, etc.) | Doc 4 §8 |
-| Layer 2 angle generation system prompt | Doc 4 §9 |
-| TG mechanism descriptions for prompts | Doc 4 §9 |
-| Compound archetype card schema (13 fields) | Doc 4 §10 |
-| The reference reading (庚 Metal) | Doc 4 §11 |
-| Quality gates for all three passes | Doc 4 §12 |
-| Forbidden vocabulary (complete list) | Doc 4 §12.4 |
-| The generation batch CLI commands | Doc 4 §13 |
-| Approve-then-scale workflow | Doc 4 §14 |
-| Which model to use for which task | Doc 4 §15 |
+| Which file holds which data | Doc 4 §1 (file structure) and §4 (field reference) |
+| What content is shown at Free / Pro / Self-Report | Doc 4 §2, tier content map |
+| How the engine renders energy cards | Doc 4 §3, rendering logic |
+| The five elemental voice registers | Doc 4 §5 |
+| Which BaZi terms are banned from UI | Doc 4 §5, jargon-free principle |
+| Forbidden vocabulary (complete list) | Doc 4 §5 |
+| STEM_CARD_DATA and TG_CARD_DATA field reference | Doc 4 §4, field tables |
+| Compound archetype card schema (13 fields) | Doc 4 §6 |
+| The self-report synthesis pipeline | Doc 4 §7 |
+| The compound card generation CLI commands | Doc 4 §7 |
+| Profile data enrichment status | Doc 4 §8 |
 | The psychological framework behind 七杀 | Bible §3A.7 Part F (until Doc 3 is written) |
 | The classical source behind the pure tgPattern | Bible §3A.5 Part C (until Doc 3 is written) |
 | Why the catalyst dimension was retired | Doc 6 §8 (deliberately deferred) + Bible §3A.7 Part A note |
@@ -466,6 +466,7 @@ See Doc 4 §13–14 for the full CLI reference and approve-then-scale workflow.
 
 | Version | Date | Changes |
 |---|---|---|
+| 1.2 | April 2026 | Updated to reflect Doc 4 v3.1 data architecture restructure. File structure, sync rules, workflows, and quick reference all updated. Old three-pass pipeline references replaced with archetypeSource.js source-of-truth model and archetype data file structure. |
 | 1.1 | April 2026 | Updated to reflect Doc 2 scope narrowing and Doc 4 expansion. All cross-references updated. Quick reference table rebuilt. |
 | 1.0 | April 2026 | Initial creation. Documents 1, 2, 6 written. Docs 3, 4, 5 status noted. |
 
@@ -476,8 +477,8 @@ See Doc 4 §13–14 for the full CLI reference and approve-then-scale workflow.
 | | |
 |---|---|
 | **Document** | Doc 6 — The Manual |
-| **Last Updated** | 2026-04-10 |
-| **Version** | 1.1  ·  April 2026 |
+| **Last Updated** | 2026-04-11 |
+| **Version** | 1.2  ·  April 2026 |
 | **Status** | LIVING — update whenever a document is added, split, or restructured |
 | **Audience** | Any new AI agent, new team member, or new conversation starting work on Elementum |
 | **Purpose** | Read this first. Always. Explains what exists, what each document is for, how they depend on each other, and how to edit safely. |

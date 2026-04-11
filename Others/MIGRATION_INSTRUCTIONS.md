@@ -41,7 +41,7 @@ elementum/
 │   ├── constants.js            ← C (colors), EL_C, EL_ZH, TIERS, STYLE
 │   └── App.jsx                 ← main shell, wires everything together
 ├── generate/
-│   └── generate_templates_v2.js ← batch generation script (Node.js)
+│   └── batchGenerate.js ← batch generation script (Node.js)
 ├── docs/
 │   └── BaZi_Analysis_Bible_v2.md
 ├── index.html
@@ -145,7 +145,7 @@ The app uses Google Fonts. Add to `index.html` `<head>`:
 
 ## Generate script
 
-Move `generate_templates_v2.js` to `generate/generate_templates_v2.js`.
+Move `batchGenerate.js` to `generate/batchGenerate.js`.
 Update the import at the top to point to `../src/content/content.js` for
 any constants it shares (ARCHETYPE_MANIFESTO, CORE_LINES etc. should be
 imported rather than duplicated).
@@ -171,5 +171,5 @@ After migration, confirm:
 ## Source files
 
 - `Elementum_AI_Engine_v10_fixed.jsx` — main source (2,184 lines)
-- `generate_templates_v2.js` — batch generation script
+- `batchGenerate.js` — batch generation script
 - `BaZi_Analysis_Bible_v2.md` — product spec (move to docs/)

@@ -1,7 +1,7 @@
 # Elementum · Doc 4 — Generation Architecture & Reading Content Guide
 
-> **Version 3.0 · April 2026**
-> This document replaces all prior generation architecture. The old three-pass pipeline (portrait prewrite → persona card → reading schema) is retired. Profile data is the single source of truth for all Free and Pro content. Generated content is limited to the compound archetype cards (offline batch) and the self-report synthesis pass (on purchase).
+> **Version 3.1 · April 2026**
+> This document replaces all prior generation architecture. The old three-pass pipeline (portrait prewrite → persona card → reading schema) is retired. `archetypeSource.js` is the single source of truth for all field names, reading templates, and knowledge-pool content. Archetype data is split into two serving files (`ElementNature_DATA.js` and `DomEnergyTg_Data.js`). Generated content is limited to the self-report synthesis pass (on purchase).
 
 ---
 
@@ -11,22 +11,46 @@
 
 | Tier | Price | Content source | Delivery |
 |---|---|---|---|
-| **Free** | $0 | Profile data (static) | Instant |
-| **Pro** | $9.99/mo | Profile data (static, full fields) | Instant on upgrade |
+| **Free** | $0 | Archetype data (static) | Instant |
+| **Pro** | $9.99/mo | Archetype data (static, full fields) | Instant on upgrade |
 | **Self-Report** | $6.99–9.99 one-time | Compound archetype cards (pre-generated) + synthesis pass | ~20–30 seconds |
 
 ### The core principle
 
-Profile data is the single source of truth. It is the knowledge pool that powers every user-facing reading in Free and Pro tiers without any LLM cost at serve time. The only generation work is:
+`archetypeSource.js` is the single source of truth. It holds the fundamental reading templates and reference content for all 10 stems and 10 Ten Gods. It defines every field name used across the system. An identical HTML copy exists as a parallel editing surface — the JS file and the HTML file must always have matching content.
 
-1. **Offline** — 50 compound archetype cards (domEl × specificTenGod) generated once, stored in `profileData.js`
-2. **On purchase** — Self-report synthesis pass: takes the user’s relevant compound cards + chart context, produces a 13-field narrative in ~20–30 seconds
+Two archetype data files derive their content and field naming from `archetypeSource.js`:
 
-No LLM calls are made for Free or Pro content delivery. Every field served at those tiers is a database read.
+- **`ElementNature_DATA.js`** — 150 archetype reading templates keyed by `stem_band_tgPattern`. Pure personality and behavioral interpretation of each energy configuration.
+- **`DomEnergyTg_Data.js`** — 50 compound archetype cards keyed by `domEl_specificTenGod`. The deepest content layer — source for Pro compound teasers and self-report synthesis.
+
+No LLM calls are made for Free or Pro content delivery. Every field served at those tiers is a static read from the archetype data files. The only generation work is:
+
+1. **On purchase** — Self-report synthesis pass via `batchGenerate.js`: takes the user’s relevant compound cards from `DomEnergyTg_Data.js` + chart context, produces a 13-field narrative in ~20–30 seconds
+
+### The file structure
+
+```
+Code/
+├── archetypeSource.js           ← Source of truth. 10 stems + 10 TGs. Hand-authored.
+│                               Defines all field names. Has an identical HTML twin.
+│                               Also holds internal-only constants
+│                               (CLASSICAL_STEM_ANCHORS, CLASSICAL_TG_ANCHORS,
+│                               BINGYI_FRAMING, PILLAR_STAGE) — part of the
+│                               knowledge pool, used by batchGenerate.js
+│                               at synthesis time.
+├── ElementNature_DATA.js    ← 150 stem_band_tgPattern archetype reading templates.
+│                               Personality/behavioral interpretation only.
+├── DomEnergyTg_Data.js      ← 50 domEl_specificTenGod compound archetype cards.
+│                               13-field schema. Pre-generated offline.
+├── Elementum_Engine.jsx     ← Calculation engine + UI components.
+└── batchGenerate.js ← Self-report synthesis engine (Pipeline B).
+                                Imports internal constants from archetypeSource.js.
+```
 
 ### The 150 archetype keys — locked structural backbone
 
-The 150 `stem_band_tgPattern` keys are the permanent structural foundation of the system. They do not change. They determine which archetype a user belongs to and which profile data fields are served. The content sourced from them will be enriched over time but the key structure is locked.
+The 150 `stem_band_tgPattern` keys are the permanent structural foundation of the system. They do not change. They determine which archetype a user belongs to and which archetype data fields are served. The content sourced from them will be enriched over time but the key structure is locked.
 
 | Dimension | Values | Count |
 |---|---|---|
@@ -43,13 +67,13 @@ The 150 `stem_band_tgPattern` keys are the permanent structural foundation of th
 
 | Section | Content | Source |
 |---|---|---|
-| Identity Card | Archetype name, element, seal SVG, manifesto quote | Profile data — archetype table (DOC2) |
-| Elemental Nature Card | Energy condition diagnosis: band paragraph (concentrated / balanced / open) | `STEM_CARD_DATA[stem].manual[band]` |
-| DM Energy Intro *(open/balanced DM only)* | Introduces the Day Master’s elemental nature when it is not the dominant energy | `STEM_CARD_DATA[stem].energy.*` |
-| Dominant Energy Cards (top 2) | Visual hierarchy — proportional card weight. TG layer: realm intro, keywords, personality paragraph, core gifts, core shadows | `TG_CARD_DATA[tg].*` free-tier fields |
-| Catalyst / Resistance teasers | Accurate but incomplete — names the catalyst/resistance without full analysis | `STEM_CARD_DATA[stem].manual.catalyst` (teaser only) |
+| Identity Card | Archetype name, element, seal SVG, manifesto quote | `archetypeSource.js` — archetype table (DOC2) |
+| Elemental Nature Card | Energy condition diagnosis: band paragraph (concentrated / balanced / open) | `archetypeSource.js` → `STEM_CARD_DATA[stem].manual[band]` |
+| DM Energy Intro *(open/balanced DM only)* | Introduces the Day Master’s elemental nature when it is not the dominant energy | `archetypeSource.js` → `STEM_CARD_DATA[stem].energy.*` |
+| Dominant Energy Cards (top 2) | Visual hierarchy — proportional card weight. TG layer: realm intro, keywords, personality paragraph, core gifts, core shadows | `archetypeSource.js` → `TG_CARD_DATA[tg].*` free-tier fields |
+| Catalyst / Resistance teasers | Accurate but incomplete — names the catalyst/resistance without full analysis | `archetypeSource.js` → `STEM_CARD_DATA[stem].manual.catalyst` (teaser only) |
 | Ghost cards | Faint outlines of locked energies 3–5 | UI only — no content |
-| Absent energy card *(if applicable)* | Special sticky card for any element with zero or near-zero chart presence | `STEM_CARD_DATA[stem].energy.*` (absent element) |
+| Absent energy card *(if applicable)* | Special sticky card for any element with zero or near-zero chart presence | `archetypeSource.js` → `STEM_CARD_DATA[stem].energy.*` (absent element) |
 
 ### Pro tier — what is shown
 
@@ -57,15 +81,15 @@ All Free tier content, plus:
 
 | Section | Content | Source |
 |---|---|---|
-| All 5 dominant energies | Full cards, no ghost treatment | `TG_CARD_DATA[tg].*` |
-| Life domains | Career, relationships, wealth, health — how each TG shapes each domain | `TG_CARD_DATA[tg].lifeDomains.*` |
-| Decision style | How this TG pattern drives decision-making | `TG_CARD_DATA[tg].decisionStyle` |
-| Communication style | How this TG pattern shapes communication | `TG_CARD_DATA[tg].communicationStyle` |
-| Catalyst & friction in depth | Full analysis of activating and compressive forces | `STEM_CARD_DATA[stem].manual.catalyst` + `manual.resistance` (full) |
-| Absent energy deep dive | Structural significance of missing elements | `STEM_CARD_DATA[stem].energy.*` (extended) |
-| Compound card teaser | 2–3 fields surfaced in partial form: `hook`, `dynamic`, opening of `your_gift` | Compound archetype card (pre-generated) |
+| All 5 dominant energies | Full cards, no ghost treatment | `archetypeSource.js` → `TG_CARD_DATA[tg].*` |
+| Life domains | Career, relationships, wealth, health — how each TG shapes each domain | `archetypeSource.js` → `TG_CARD_DATA[tg].lifeDomains.*` |
+| Decision style | How this TG pattern drives decision-making | `archetypeSource.js` → `TG_CARD_DATA[tg].decisionStyle` |
+| Communication style | How this TG pattern shapes communication | `archetypeSource.js` → `TG_CARD_DATA[tg].communicationStyle` |
+| Catalyst & friction in depth | Full analysis of activating and compressive forces | `archetypeSource.js` → `STEM_CARD_DATA[stem].manual.catalyst` + `manual.resistance` (full) |
+| Absent energy deep dive | Structural significance of missing elements | `archetypeSource.js` → `STEM_CARD_DATA[stem].energy.*` (extended) |
+| Compound card teaser | 2–3 fields surfaced in partial form: `hook`, `dynamic`, opening of `your_gift` | `DomEnergyTg_Data.js` → compound archetype card |
 
-**Pro delivers instantly.** Every field is a static read from profile data. No generation queue.
+**Pro delivers instantly.** Every field is a static read from `archetypeSource.js` and `DomEnergyTg_Data.js`. No generation queue.
 
 ### Self-Report — what is shown
 
@@ -94,7 +118,7 @@ A single synthesized narrative document following the 13-field compound archetyp
 
 ### Elemental Nature Card
 
-Sources from `STEM_CARD_DATA[stem].manual[band]`. Describes the user’s energy condition — concentrated, balanced, or open — in behavioral terms. This is the energy condition diagnosis: it explains *how much* of the core element is present and what that means structurally.
+Sources from `archetypeSource.js` → `STEM_CARD_DATA[stem].manual[band]`. Describes the user’s energy condition — concentrated, balanced, or open — in behavioral terms. This is the energy condition diagnosis: it explains *how much* of the core element is present and what that means structurally.
 
 **This section is always present and always free.** It is the first personalised statement the user reads about their chart.
 
@@ -104,7 +128,7 @@ Sources from `STEM_CARD_DATA[stem].manual[band]`. Describes the user’s energy 
 
 **Why this matters:** Without this section, the user sees dominant energy cards that describe a different element than their own core. The DM Energy Intro bridges this: it introduces the user’s own elemental nature before the dominant energy cards explain what force they are operating within.
 
-**Content:** Sources from `STEM_CARD_DATA[stem].energy.what` and `energy.represents`. Framed as: *“Your core element is [Element]. Here is what that means as a foundation…”*
+**Content:** Sources from `archetypeSource.js` → `STEM_CARD_DATA[stem].energy.what` and `energy.represents`. Framed as: *“Your core element is [Element]. Here is what that means as a foundation…”*
 
 **For concentrated DMs:** Skip this section entirely. The Elemental Nature card transitions directly to dominant energy cards with the note: *“Your elemental nature is your dominant energy — [archetype name] runs the chart.”*
 
@@ -128,25 +152,25 @@ The Ten God layer sits *inside* each dominant energy card as a subsection. It ex
 
 | Field | Content | Source |
 |---|---|---|
-| Realm intro | What this TG “rules” — the domain it governs | `TG_CARD_DATA[tg].realmPhrase` + `realmDesc` |
-| Keywords | 4–5 personality chips | `TG_CARD_DATA[tg].chips[]` |
-| Personality paragraph | Short paragraph: what this says about your nature | `TG_CARD_DATA[tg].personalityParagraph` |
-| Core gifts | 2–3 gift bullets | `TG_CARD_DATA[tg].gift[]` (first 2–3) |
-| Core shadows | 1–2 shadow bullets | `TG_CARD_DATA[tg].shadow[]` (first 1–2) |
-| Catalyst / resistance teaser | Names the force, does not analyse it fully | `STEM_CARD_DATA[stem].manual.catalyst` (truncated) |
+| Realm intro | What this TG “rules” — the domain it governs | `archetypeSource.js` → `TG_CARD_DATA[tg].realmPhrase` + `realmDesc` |
+| Keywords | 4–5 personality chips | `archetypeSource.js` → `TG_CARD_DATA[tg].chips[]` |
+| Personality paragraph | Short paragraph: what this says about your nature | `archetypeSource.js` → `TG_CARD_DATA[tg].personalityParagraph` |
+| Core gifts | 2–3 gift bullets | `archetypeSource.js` → `TG_CARD_DATA[tg].gift[]` (first 2–3) |
+| Core shadows | 1–2 shadow bullets | `archetypeSource.js` → `TG_CARD_DATA[tg].shadow[]` (first 1–2) |
+| Catalyst / resistance teaser | Names the force, does not analyse it fully | `archetypeSource.js` → `STEM_CARD_DATA[stem].manual.catalyst` (truncated) |
 
 **Pro tier TG layer adds:**
 
 | Field | Content | Source |
 |---|---|---|
-| Life domains | Career, relationships, wealth, health — full paragraphs | `TG_CARD_DATA[tg].lifeDomains.*` |
-| Decision style | Full paragraph | `TG_CARD_DATA[tg].decisionStyle` |
-| Communication style | Full paragraph | `TG_CARD_DATA[tg].communicationStyle` |
-| Hidden trait | The interior layer | `TG_CARD_DATA[tg].hiddenTrait` |
-| People (six relations) | Who this TG represents in the user’s life | `TG_CARD_DATA[tg].people` |
-| Event signatures | What to expect when this TG activates in a luck period | `TG_CARD_DATA[tg].liunian` |
-| Catalyst & friction full | Complete analysis of activating and compressive forces | `STEM_CARD_DATA[stem].manual.catalyst` + `manual.resistance` |
-| Compound card teaser | `hook` (full) + `dynamic` (full) + `your_gift` (first sentence only) | Compound archetype card |
+| Life domains | Career, relationships, wealth, health — full paragraphs | `archetypeSource.js` → `TG_CARD_DATA[tg].lifeDomains.*` |
+| Decision style | Full paragraph | `archetypeSource.js` → `TG_CARD_DATA[tg].decisionStyle` |
+| Communication style | Full paragraph | `archetypeSource.js` → `TG_CARD_DATA[tg].communicationStyle` |
+| Hidden trait | The interior layer | `archetypeSource.js` → `TG_CARD_DATA[tg].hiddenTrait` |
+| People (six relations) | Who this TG represents in the user’s life | `archetypeSource.js` → `TG_CARD_DATA[tg].people` |
+| Event signatures | What to expect when this TG activates in a luck period | `archetypeSource.js` → `TG_CARD_DATA[tg].liunian` |
+| Catalyst & friction full | Complete analysis of activating and compressive forces | `archetypeSource.js` → `STEM_CARD_DATA[stem].manual.catalyst` + `manual.resistance` |
+| Compound card teaser | `hook` (full) + `dynamic` (full) + `your_gift` (first sentence only) | `DomEnergyTg_Data.js` → compound archetype card |
 
 ### Absent Energy Card
 
@@ -154,17 +178,38 @@ The Ten God layer sits *inside* each dominant energy card as a subsection. It ex
 
 **Shown in:** Free tier. This is intentionally free — absent elements are psychologically compelling and serve as a hook that organic sharing and upgrade curiosity both benefit from.
 
-**Content:** Names the missing element, describes what structural absence means behaviourally (not as a deficiency but as a structural characteristic), and what activating that element looks like. Sources from `STEM_CARD_DATA[absentStem].energy.what` and `energy.represents` for the absent element’s nature.
+**Content:** Names the missing element, describes what structural absence means behaviourally (not as a deficiency but as a structural characteristic), and what activating that element looks like. Sources from `archetypeSource.js` → `STEM_CARD_DATA[absentStem].energy.what` and `energy.represents` for the absent element’s nature.
 
 ---
 
-## §4 — Profile Data Field Reference
+## §4 — Data Architecture & Field Reference
 
-Profile data is the single source of truth for all Free and Pro content. The following documents every field currently in `profileData.js` and its tier assignment.
+### Source of truth: `archetypeSource.js`
 
-### STEM_CARD_DATA fields
+`archetypeSource.js` is the single source of truth for all field names, reading templates, and knowledge-pool content. It holds:
 
-One entry per stem (10 total: 甲乙丙丁戊己庚辛壬癸).
+- **STEM_CARD_DATA** — 10 entries (one per stem: 甲乙丙丁戊己庚辛壬癸). The complete stem energy and manual reference data.
+- **TG_CARD_DATA** — 10 entries (one per Ten God: 比肩 劫财 食神 伤官 偏财 正财 七杀 正官 偏印 正印). The complete Ten God personality, domain, and context data.
+
+An identical HTML copy exists as a parallel editing surface. The JS file and the HTML file must always have matching content. When a field name is defined or changed, `archetypeSource.js` (and its HTML twin) is the authority — all downstream files follow.
+
+### Archetype data file 1: `ElementNature_DATA.js`
+
+150 archetype reading templates keyed by `stem_band_tgPattern` (e.g. `甲_concentrated_pure`). Each entry is a pure personality and behavioral interpretation of that energy configuration — what this energy means as a person.
+
+**These entries do not contain `energy.*` or `manual.*` fields.** The energy fields describe the element as an external environmental force, and the manual fields describe catalyst/resistance mechanics. Both of those belong at the stem level in `archetypeSource.js`. The 150 archetype entries interpret the energy configuration into personality traits and behavior patterns only — they need to know what this energy represents psychologically but not any objects or representations beside the person themselves.
+
+Field names follow `archetypeSource.js`. Schema TBD — will be defined when `archetypeSource.js` content authoring is complete.
+
+### Archetype data file 2: `DomEnergyTg_Data.js`
+
+50 compound archetype cards keyed by `domEl_specificTenGod` (e.g. `金_七杀`). Each entry is a 13-field compound card — the deepest content layer in the system. Source for Pro compound teasers and self-report synthesis. See §6 for the full 13-field schema.
+
+Field names follow `archetypeSource.js`.
+
+### STEM_CARD_DATA fields (in `archetypeSource.js`)
+
+One entry per stem (10 total).
 
 #### `energy.*` — the stem as an external environmental force
 
@@ -184,9 +229,9 @@ One entry per stem (10 total: 甲乙丙丁戊己庚辛壬癸).
 | `manual.catalyst` | string | How to seek and leverage this energy as a catalyst | Free teaser — Pro full |
 | `manual.resistance` | string | How to release and channel this energy when it creates friction | Pro |
 
-### TG_CARD_DATA fields
+### TG_CARD_DATA fields (in `archetypeSource.js`)
 
-One entry per Ten God (10 total: 比肩 劫财 食神 伤官 偏财 正财 七杀 正官 偏印 正印).
+One entry per Ten God (10 total).
 
 #### Identity and realm
 
@@ -229,9 +274,13 @@ One entry per Ten God (10 total: 比肩 劫财 食神 伤官 偏财 正财 七�
 | `liunian` | string | Event signatures when this TG activates in a luck period | Pro |
 | `liunianLabel` | string | Short label for the liunian section header | Pro |
 
-### CLASSICAL_STEM_ANCHORS fields
+### Internal constants (in `archetypeSource.js`)
 
-Internal verification layer. Not served to users directly. Referenced by the synthesis pass for accuracy grounding.
+The following data is part of the knowledge pool but is used exclusively by the self-report synthesis pass (Pipeline B) as grounding context. It lives in `archetypeSource.js` because it is knowledge-pool content — `batchGenerate.js` imports it at synthesis time. It is never served to users and is never stored in the archetype data files.
+
+#### CLASSICAL_STEM_ANCHORS
+
+Internal verification layer. Referenced by the synthesis pass for accuracy grounding.
 
 | Field | Description |
 |---|---|
@@ -241,13 +290,13 @@ Internal verification layer. Not served to users directly. Referenced by the syn
 | `derivation` | What this principle means for the archetype |
 | `ceiling` | Max behavioral claims per SOURCE-FROM entry |
 
-### CLASSICAL_TG_ANCHORS fields
+#### CLASSICAL_TG_ANCHORS
 
 Same structure as CLASSICAL_STEM_ANCHORS. Internal verification only.
 
-### BINGYI_FRAMING
+#### BINGYI_FRAMING
 
-Universal catalyst/remedy framing. Used as synthesis pass context — not served directly to users.
+Universal catalyst/remedy framing. Used as synthesis pass context.
 
 | Field | Description |
 |---|---|
@@ -256,13 +305,9 @@ Universal catalyst/remedy framing. Used as synthesis pass context — not served
 | `writingForbidden[]` | Phrases that must never appear in any reading |
 | `writingRequired[]` | Framing that must govern all catalyst writing |
 
-### PILLAR_STAGE
+#### PILLAR_STAGE
 
 VERIFY-ONLY. Conditional use in readings when chart concentration justifies it. See DOC3 §2.7.
-
-### COMPOUND_CARDS
-
-50 entries: `domEl_specificTenGod`. Populated by the offline generation pipeline. Each entry is a 13-field compound archetype card. See §6.
 
 ---
 
@@ -340,7 +385,7 @@ Cross-check before proceeding: read the first sentence back. Does it feel like i
 
 50 pre-generated entries keyed by `domEl_specificTenGod` (e.g. `金_七杀`, `木_正官`). Each card is the deepest content layer in the system — the source of the self-report and the Pro compound teaser.
 
-These are generated offline once, quality-checked, and stored in `COMPOUND_CARDS` in `profileData.js`. They are never generated at serve time.
+These are generated offline once, quality-checked, and stored in `DomEnergyTg_Data.js`. They are never generated at serve time.
 
 The 50 keys:
 
@@ -447,33 +492,35 @@ Each field serves a specific step in the user’s emotional arc: recognition →
 
 ## §7 — Generation Pipeline
 
+All generation lives in `batchGenerate.js`. It imports internal-only constants (`CLASSICAL_STEM_ANCHORS`, `CLASSICAL_TG_ANCHORS`, `BINGYI_FRAMING`, `PILLAR_STAGE`) from `archetypeSource.js` for use as synthesis grounding context.
+
 ### Pipeline A — Compound Archetype Cards (offline, one-time)
 
-Generates all 50 `domEl_specificTenGod` compound archetype cards. Run once before launch. Output stored in `COMPOUND_CARDS` in `profileData.js`.
+Generates all 50 `domEl_specificTenGod` compound archetype cards. Run once before launch. Output stored in `DomEnergyTg_Data.js`.
 
 ```
-node generate_templates_v2.js generate-compound
+node batchGenerate.js generate-compound
 ↓
-node generate_templates_v2.js retrieve-compound [id]
+node batchGenerate.js retrieve-compound [id]
 ↓
-node generate_templates_v2.js check-compound          ← runs qualityCheckCompound() on all 50
+node batchGenerate.js check-compound          ← runs qualityCheckCompound() on all 50
 ↓
-node generate_templates_v2.js merge-compound          ← writes to profileData.js COMPOUND_CARDS
+node batchGenerate.js merge-compound          ← writes to DomEnergyTg_Data.js
 ```
 
-**Quality gate:** All 13 fields present and within character limits. FORBIDDEN terms absent. No Chinese characters in output. Anti-genericity check on `hook`. See `qualityCheckCompound()` in `generate_templates_v2.js`.
+**Quality gate:** All 13 fields present and within character limits. FORBIDDEN terms absent. No Chinese characters in output. Anti-genericity check on `hook`. See `qualityCheckCompound()` in `batchGenerate.js`.
 
 **Cost estimate:** ~$6–10 for 50 keys at one pass.
 
 ### Pipeline B — Self-Report Synthesis (on purchase, per user)
 
-Triggered when a user purchases a self-report. Runs in ~20–30 seconds.
+This is the primary ongoing function of `batchGenerate.js`. Triggered when a user purchases a self-report. Runs in ~20–30 seconds.
 
 **Inputs:**
 1. User’s computed chart summary (stem, band, tgPattern, dominant elements, dominant TGs, element scores)
-2. Relevant compound archetype cards from `COMPOUND_CARDS` (1–2 cards matching the user’s dominant energies)
-3. CLASSICAL_STEM_ANCHORS and CLASSICAL_TG_ANCHORS fields may be injected as internal grounding context — they inform the LLM’s accuracy but never appear in the output
-4. BINGYI_FRAMING rules (from `profileData.js`) as system-level writing constraints
+2. Relevant compound archetype cards from `DomEnergyTg_Data.js` (1–2 cards matching the user’s dominant energies)
+3. Internal grounding context from `archetypeSource.js`: `CLASSICAL_STEM_ANCHORS` and `CLASSICAL_TG_ANCHORS` — inform the LLM’s accuracy but never appear in the output
+4. Internal writing constraints from `archetypeSource.js`: `BINGYI_FRAMING` rules as system-level framing
 
 **Output:** A single synthesized narrative following the 13-field schema. Voiced in the Day Master’s elemental register. 2AM thought integrated organically — not listed as a standalone field.
 
@@ -494,7 +541,8 @@ COMPOUND CARD(S):
 [Full compound card fields for each relevant domEl_specificTenGod key]
 
 INTERNAL CONTEXT (inspiration only — do not reproduce directly):
-[Optional: persona card fields, reading schema fields for richer synthesis]
+[CLASSICAL_STEM_ANCHORS and CLASSICAL_TG_ANCHORS for accuracy grounding]
+[BINGYI_FRAMING for catalyst writing constraints]
 
 CONSTRAINTS:
 - Output must follow the 13-field JSON schema exactly
@@ -514,7 +562,7 @@ OUTPUT: Valid JSON with exactly 13 fields.
 
 > **Flagged for future work.** The following enrichment pass is required before launch but is not part of the current architecture sprint.
 
-The profile data fields documented in §4 must be enriched and re-categorised before Pro tier launch. Current TG_CARD_DATA fields were written at an earlier stage of the project and need to be:
+The profile data fields documented in §4 must be enriched and re-categorised before Pro tier launch. The source of truth (`archetypeSource.js` and its HTML twin) will be edited directly, and downstream archetype data files updated to match. Current `TG_CARD_DATA` fields in `archetypeSource.js` were written at an earlier stage of the project and need to be:
 
 1. **Audited** against the translation protocol (DOC3 §8) — any Chinese characters or BaZi jargon in user-facing fields flagged and rewritten
 2. **Enriched** — `personalityParagraph`, `decisionStyle`, `communicationStyle`, `hiddenTrait`, and all life domain fields deepened to Pro-tier quality
@@ -530,8 +578,8 @@ This work is tracked separately and does not block the compound card generation 
 | | |
 |---|---|
 | **Document** | Doc 4 — Generation Architecture & Reading Content Guide |
-| **Last Updated** | 2026-04-10 |
-| **Version** | 3.0 · April 2026 |
+| **Last Updated** | 2026-04-11 |
+| **Version** | 3.1 · April 2026 |
 | **Status** | Current — replaces all prior versions |
 | **Audience** | Engineers, content team, generation system |
 | **Replaces** | v2.x three-pass pipeline (portrait prewrite → persona card → reading schema) |
@@ -541,6 +589,7 @@ This work is tracked separately and does not block the compound card generation 
 
 | Version | Date | Changes |
 |---|---|---|
+| 3.1 | April 2026 | Data architecture restructured. `archetypeSource.js` established as single source of truth for field names and reading templates. Archetype data split into `ElementNature_DATA.js` (150 personality/behavioral templates) and `DomEnergyTg_Data.js` (50 compound cards). Internal constants (CLASSICAL_STEM_ANCHORS, CLASSICAL_TG_ANCHORS, BINGYI_FRAMING, PILLAR_STAGE) remain in `archetypeSource.js` as knowledge-pool content, imported by `batchGenerate.js` at synthesis time. COMPOUND_CARDS removed from `archetypeSource.js` (now in `DomEnergyTg_Data.js`). Generation script narrowed to self-report synthesis (Pipeline B) as primary ongoing function. |
 | 3.0 | April 2026 | Complete rewrite. New three-tier product architecture (Free / Pro / Self-Report). Profile data as single source of truth for Free and Pro. Compound archetype cards as self-report source. Old three-pass generation pipeline retired. 150 archetype keys locked. Full profile data field reference added. |
 | 2.x | April 2026 | Three-pass pipeline: portrait prewrite → persona card → reading schema. Layer 2 angles. Compound cards introduced. |
 | 1.0 | — | Initial architecture. |

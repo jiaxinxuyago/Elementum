@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-// profileData.js (STEM_CARD_DATA, TG_CARD_DATA, COMPOUND_CARDS) is bundled
+// archetypeSource.js (STEM_CARD_DATA, TG_CARD_DATA) is bundled
 // separately in production (Vite). In single-file artifact mode all data
 // lives as inline constants below.
 
@@ -556,7 +556,7 @@ function calculateBaziChart(input) {
 // Layer 1 templates: key format [stem]_[band]_[tgPattern]  (Doc2 §3)
 // 150 keys total (10 stems × 3 bands × 5 patterns).
 // 1 key hand-authored as reference standard: 庚_concentrated_pure
-// Remaining 149 generated via generate_templates_v2.js (see Doc4 §6).
+// Remaining 149 generated via batchGenerate.js (see Doc4 §6).
 // ─────────────────────────────────────────────────────────────────────────────
 
 const TEMPLATE_DB = {
@@ -3091,7 +3091,7 @@ const STRENGTH_META = {
   // domEl × specificTenGod → unique DM element → unique elemental interaction.
   // Three angles per entry: how (TG mechanism), works (dynamic), deep (shadow).
   // yin/yang TG pairs are categorically different — not tonal variants.
-  // Entries marked [PLACEHOLDER] need full generation (see generate_templates_v2.js).
+  // Entries marked [PLACEHOLDER] need full generation (see batchGenerate.js).
   const READING_ANGLES = {
     // ── METAL DOMINANT ───────────────────────────────────────────────────────
     "金_比肩": { // Metal→Metal same-polarity · DM=Metal · Mirror
