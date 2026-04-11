@@ -415,10 +415,15 @@ GIFTS desc: must contain social proof — "come to you when," "call you when," "
 EDGES desc: required structure — [interior experience] [relational consequence] Watch for: [specific observable trigger].
 TWOAM: first person. The thought that arrives quietly at 2AM when everything is going reasonably well. Specific. Not motivational. Could only describe this exact combination.
 
-BANNED VOCABULARY (any occurrence fails):
-BaZi terms: Day Master, Ten Gods, Food God, Hurt Officer, Seven Killings, Direct Officer, Parallel Self, Rob Wealth, Indirect Seal, Direct Seal, Indirect Wealth, Direct Wealth, Pure, Rooted, Flowing, Forging, Tested, Pressured, Expressive
-Generic spiritual: the universe, cosmic, destiny, fate, zodiac, journey, vibrant, tapestry, empowered, manifest, spiritual, at your core, in essence, fundamentally
+BANNED VOCABULARY — any occurrence in output text fails (DOC3 §8.9):
+BaZi structural terms: Day Master, Ten God, Ten Gods, Food God, Hurt Officer, Seven Killings, Direct Officer, Parallel Self, Rob Wealth, Direct Wealth, Indirect Wealth, Direct Seal, Indirect Seal, Useful God, Favorable God, Unfavorable God
+Layer 1 pattern labels (as standalone descriptors): Pure, Rooted, Flowing, Forging, Tested, Pressured, Expressive
+Layer 2 English internal names: The Rival, The Flow, The Edge, The Field, The Harvest, The Trial, The Standard, The Well, The Root, The Mirror
+BaZi romanizations: Bazi, Ba Zi, Four Pillars, dayun, liunian, shichen, gejue, tiaohou
+Astrological / mystical: the universe, cosmic, destiny, fate, zodiac, astrology, horoscope, celestial, aligned, vibration, manifesting, karmic, spiritual
+Hollow affirmations: tapestry, empowered, manifest, vibrant, genuinely, fundamentally, at your core, in essence, journey (as life-metaphor)
 Weak openers: "You are someone who...", "As a [type]...", "People with your..."
+Chinese characters: zero Chinese characters in any output field
 
 Return ONLY valid JSON. No preamble. No markdown fences.`;
 
@@ -504,7 +509,38 @@ async function collectResults(batchId, validator) {
 
 // ─── QUALITY CHECKERS ─────────────────────────────────────────────────────────
 
-const FORBIDDEN = ["Day Master","Ten Gods","Food God","Seven Killings","Hurt Officer","Direct Officer","Parallel Self","Rob Wealth","Indirect Seal","Direct Seal","Indirect Wealth","Direct Wealth"," Pure "," Rooted "," Flowing "," Forging "," Tested ","the universe","cosmic","destiny","fate","zodiac","journey","vibrant","tapestry","empowered","manifest","spiritual","at your core","in essence","fundamentally","genuinely"];
+// ─── TRANSLATION PROTOCOL — DOC3 §8.9 Comprehensive Forbidden Term List ───────
+// Any match in user-facing output text fails the quality gate. Keep in sync with
+// DOC3 PART 8 §8.9. Internal prompt labels (Chinese refs, TG_MECHANICS names) are
+// fine in prompts; only the GENERATED OUTPUT text is checked here.
+const FORBIDDEN = [
+  // BaZi structural terms (English)
+  "Day Master","Ten God","Ten Gods","Food God","Hurt Officer","Seven Killings",
+  "Direct Officer","Parallel Self","Rob Wealth","Direct Wealth","Indirect Wealth",
+  "Direct Seal","Indirect Seal","Useful God","Favorable God","Unfavorable God",
+  "Wealth Star","Officer Star","Seal Star","Output Star","Companion Star",
+  // Layer 2 English internal labels — should never appear verbatim in output
+  "The Rival","The Flow","The Edge","The Field","The Harvest",
+  "The Trial","The Standard","The Well","The Root","The Mirror",
+  // Layer 1 pattern labels (as standalone identity labels)
+  " Pure "," Rooted "," Flowing "," Forging "," Tested ",
+  "Pressured","Expressive",
+  // BaZi romanizations
+  "Bazi","Ba Zi","Four Pillars","Sijia","dayun","liunian","shichen",
+  "gejue","tiaohou","fuyi","gongwei",
+  // Astrological / mystical register
+  "the universe","cosmic","destiny","fate","zodiac","astrology","horoscope",
+  "celestial","aligned","vibration","manifesting","karmic","spiritual",
+  // Hollow affirmations and weak patterns
+  "tapestry","empowered","manifest","vibrant","genuinely","fundamentally",
+  "at your core","in essence","journey",
+  // False precision
+  "You are someone who","As a [type]","People with your",
+];
+
+// Detect any Chinese/CJK characters in generated output — hard fail per DOC3 §8.1
+const CHINESE_CHAR_RE = /[\u4e00-\u9fff\u3400-\u4dbf\uf900-\ufaff]/;
+function hasChinese(str) { return CHINESE_CHAR_RE.test(str || ""); }
 
 function qualityCheckPersona(key, p) {
   const issues = [];
@@ -512,6 +548,10 @@ function qualityCheckPersona(key, p) {
   if (Array.isArray(p.events) && p.events.length < 3) issues.push("events: need 3");
   if (Array.isArray(p.daily_habits) && p.daily_habits.length < 3) issues.push("daily_habits: need 3");
   if (Array.isArray(p.therapist_advice) && p.therapist_advice.length < 3) issues.push("therapist_advice: need 3");
+  // Translation protocol gate — DOC3 §8.9
+  const allPersonaText = Object.values(p).flat().filter(v => typeof v === "string").join(" ");
+  FORBIDDEN.forEach(term => { if (allPersonaText.toLowerCase().includes(term.toLowerCase())) issues.push(`Forbidden: "${term}"`); });
+  if (hasChinese(allPersonaText)) issues.push("Chinese characters found in persona output — forbidden in user-facing text (DOC3 §8.1)");
   return issues;
 }
 
@@ -541,6 +581,7 @@ function qualityCheckReading(key, t) {
   if (tw < 10) issues.push(`twoAM too short`);
   const allText = [t.teaser,t.p1,t.p2,t.twoAM,t.landscape?.thrives,t.landscape?.costs,...(t.gifts||[]).map(g=>`${g.label} ${g.desc}`),...(t.edges||[]).map(e=>`${e.label} ${e.desc}`)].join(" ");
   FORBIDDEN.forEach(term => { if (allText.toLowerCase().includes(term.toLowerCase())) issues.push(`Forbidden: "${term}"`); });
+  if (hasChinese(allText)) issues.push("Chinese characters found in reading output — forbidden in user-facing text (DOC3 §8.1)");
   return issues;
 }
 
@@ -555,6 +596,7 @@ function qualityCheckAngle(key, a) {
   if (wc(a.deep) > 80) issues.push(`deep too long (${wc(a.deep)} words)`);
   const allText = `${a.how} ${a.works} ${a.deep}`;
   FORBIDDEN.forEach(term => { if (allText.toLowerCase().includes(term.toLowerCase())) issues.push(`Forbidden: "${term}"`); });
+  if (hasChinese(allText)) issues.push("Chinese characters found in angle output — forbidden in user-facing text (DOC3 §8.1)");
   return issues;
 }
 
@@ -731,6 +773,10 @@ function qualityCheckCompound(key, card) {
   const tgGenericTerms = ["precision","depth","warmth","reach","stability"];
   if (card.hook && tgGenericTerms.some(t => card.hook.toLowerCase().startsWith(t)))
     issues.push(`hook: may be too generic — check anti-genericity test`);
+  // Translation protocol gate — DOC3 §8.9 (was missing from compound checker)
+  const allCompoundText = Object.values(card).filter(v => typeof v === "string").join(" ");
+  FORBIDDEN.forEach(term => { if (allCompoundText.toLowerCase().includes(term.toLowerCase())) issues.push(`Forbidden: "${term}"`); });
+  if (hasChinese(allCompoundText)) issues.push("Chinese characters found in compound card — forbidden in user-facing text (DOC3 §8.1)");
   return issues;
 }
 

@@ -51,6 +51,8 @@ Never exceed these ceilings even if the source seems to offer more. Readings tha
 | 滴天髓 (任铁樵 commentary) | Song original, Qing commentary | Primary canonical | DM strength theory, 七杀 and edge cases, 512 case studies (任铁樵) |
 | 三命通会 | Ming dynasty | Primary canonical | Ten Stem behavioral profiles (十干体象), wealth theory, comprehensive compilation |
 | 渊海子平 | Song dynasty | Supporting canonical | Early systematic treatment, supporting evidence for 三命通会 profiles |
+| 神峰通考 (张神峰) | Ming dynasty | Contributing canonical | 病药说 — deficiency/remedy theory; anti-mechanical critique; catalyst/remedy framing |
+| 千里命稿 (韦千里) | 20th century | Modern practical — VERIFY-ONLY | Pillar-to-life-stage mapping (宫位论法), practical case analysis framework |
 
 **Sourcing standard:** All principles cited as SOURCE-FROM are concept-reliable across at least one of the above texts. Where exact phrasing is commentary-register rather than verbatim quotation, this is noted. The principle is what matters; the exact wording is secondary.
 
@@ -297,6 +299,57 @@ Same principle applies to 印 TG family (偏印 / 正印) with polarity differen
 - 正印 (cross-polarity): sustains and simultaneously opens — the nourishment includes a direction, not only sustenance
 
 Max: **2 behavioral claims per polarity.**
+
+---
+
+### 神峰通考 (张神峰) — Deficiency/Remedy Theory
+
+**What it covers:** 病药说 — the principle that structural distinction arises from structural deficiency, and the chart's value is revealed when the remedy element arrives. Also contains a sustained critique of mechanical application of classical rules: the principle matters; the formula is secondary.
+
+**Core principle:**
+```
+有病方为贵，无病不是奇
+"Only when there is deficiency is there distinction; without deficiency there is nothing to be specified toward."
+```
+
+The 病 (deficiency/imbalance) is not a flaw — it is the structural source of distinctiveness. The 药 (remedy element) does not "fix" the person. It specifies what the archetype becomes when the missing element arrives. Without the 病, the chart has no specific register — it is complete but unspecified.
+
+**SOURCE-FROM — Universal (applies across all stems and patterns):**
+
+The catalyst element in Elementum readings is structurally the 药 for the chart's 病. The reading implication:
+
+Derivation A: The archetype is fully formed without the catalyst — not incomplete, not lesser. The 药 specifies; it does not rescue. The precision of 庚 Metal has no named purpose until Fire specifies what instrument it becomes. The Ocean's depth (壬) has no form until Earth contains it. The capability was already real.
+
+Derivation B: The twoAM register for every archetype is the condition of being formed and complete and unspecified. Not lacking capability — lacking the element that converts capability into a specific direction fully believed in. The correct framing is waiting, not broken.
+
+**Tier 2 inventory — universal application:**
+1. The catalyst is 药 for a structural 病 — specification, not correction. The archetype is formed; the catalyst reveals what it was all along. → *[teaser, p2 relief clause — universal]*
+2. Without the catalyst, the archetype is complete and unspecified — not broken, not waiting to be fixed. The twoAM state is being fully formed and not yet made specific toward what deserves this. → *[twoAM — universal across all stems]*
+
+Max: **2 behavioral claims.** Universal ceiling.
+
+**Critical writing rule:** Do not frame the catalyst as something the person "needs" in the emotional or compensatory sense. The 药 is not a dependency; it is a structural specifier. The reading must hold both poles simultaneously: fully capable without it, and made distinct by it. This is the difference between "you need this element" (wrong register) and "this element reveals what was already true" (correct register).
+
+---
+
+### 千里命稿 (韦千里) — Life Stage Mapping
+
+**What it covers:** 宫位论法 — the mapping of the four pillars to developmental life stages. Each pillar contains energies that manifest most visibly in a corresponding period of the person's life.
+
+**Status: VERIFY-ONLY.** 千里命稿 is a 20th-century practical application text, not primary classical canon. The pillar-to-stage mapping is interpretive convention derived from classical principles, not directly sourced from the canonical five texts. Use as framing for *when* certain dynamics manifest; do not derive behavioral claims from the mapping itself.
+
+| Pillar | Life domain | Approximate age range | Reading implication |
+|---|---|---|---|
+| 年柱 (Year) | Family background, ancestral pattern, childhood environment | 1–16 | Energies here shaped the formative conditions |
+| 月柱 (Month) | Career foundation, social/work context, parent environment | 17–32 | Also the seasonal authority column — dominant in chart logic |
+| 日柱 (Day) | Self (Day Master stem), partner/relationship (Day Branch) | 33–48 | The DM's core expression; the Day Branch as relational texture |
+| 时柱 (Hour) | Legacy, output, later-life chapter, what is left behind | 49+ | Output themes that consolidate in later life |
+
+**Reading implication (VERIFY-ONLY):** When a chart's dominant elemental energy is heavily weighted in a specific pillar, its behavioral expression tends to manifest most visibly in the corresponding life stage. A Month-pillar-dominant chart shows its structural pattern most intensely in the career-formation period. A Hour-pillar-dominant chart has output and legacy themes that emerge late rather than early.
+
+Use this framing to add temporal precision to the `landscape` and `twoAM` fields when the chart's energy concentration in a specific pillar is notable. Do not derive behavioral claims from the mapping — use it to inform the period of life the reading's language most naturally speaks to.
+
+**⚠ Conditionality:** Apply only when pillar concentration is marked (dominant energy heavily weighted in one pillar rather than distributed across all four). Do not apply the stage mapping as a universal framing device — most charts have distributed energies, and the mapping adds nothing when distribution is even.
 
 ---
 
@@ -690,6 +743,8 @@ A quick-reference index of every source cited in this document.
 | 滴天髓 (任铁樵) | SOURCE-FROM | pure tgPattern (身旺有泄), 七杀 chapters, 512 case studies |
 | 三命通会 | SOURCE-FROM | 十干体象 (stem behavioral defaults), 论财 (wealth theory), rooted tgPattern |
 | 渊海子平 | SOURCE-FROM | Supporting 十干体象 profiles, rooted tgPattern |
+| 神峰通考 | SOURCE-FROM | 病药说 — universal catalyst/remedy framing (teaser, p2, twoAM fields) |
+| 千里命稿 | VERIFY-ONLY | Pillar-to-life-stage mapping — temporal framing for landscape and twoAM fields |
 
 ### Psychological frameworks
 
@@ -730,15 +785,554 @@ A quick-reference index of every source cited in this document.
 
 ---
 
+### Full Bibliographic Citations — Psychological Frameworks (Tier 2)
+
+All citations formatted APA 7th edition. Where a concept appears under multiple works (e.g., SDT), all primary sources are listed.
+
+---
+
+#### Personality Structure and Trait Frameworks
+
+**Jung, C. G. (1921/1971).** *Psychological Types* (R. F. C. Hull, Trans.). Princeton University Press. (Collected Works, Vol. 6; original work published 1921.)
+> Primary source for cognitive function theory (Ti, Te, Fi, Fe, Ni, Ne, Si, Se) used in all ten stem profiles.
+
+**Jung, C. G. (1966).** *Two essays on analytical psychology* (R. F. C. Hull, Trans.). Princeton University Press. (Collected Works, Vol. 7.)
+> Primary source for individuation theory and the concept of Einseitigkeit (one-sidedness) used in the pure tgPattern profile.
+
+**DeYoung, C. G. (2010).** Toward a theory of the Big Five. *Psychological Inquiry, 21*(1), 26–33. https://doi.org/10.1080/10478401003648674
+> Cybernetic Big Five Theory framework. Primary source for the Intellect vs. Openness/Aesthetics facet distinction (庚 vs. 辛 differentiation) and all stem Big Five profiles.
+
+**DeYoung, C. G., Quilty, L. C., & Peterson, J. B. (2007).** Between facets and domains: 10 aspects of the Big Five. *Journal of Personality and Social Psychology, 93*(5), 880–896. https://doi.org/10.1037/0022-3514.93.5.880
+> Source for the two-facet model within each Big Five factor (Industriousness/Orderliness within Conscientiousness; Enthusiasm/Assertiveness within Extraversion; Compassion/Politeness within Agreeableness).
+
+**Costa, P. T., & McCrae, R. R. (1992).** *Revised NEO Personality Inventory (NEO-PI-R) and NEO Five-Factor Inventory (NEO-FFI) professional manual*. Psychological Assessment Resources.
+> Foundational Big Five instrument. Background reference for all stem Big Five signature entries.
+
+---
+
+#### Trait Activation and Situational Expression
+
+**Tett, R. P., & Guterman, H. A. (2000).** Situation trait relevance, trait expression, and cross-situational consistency: Testing a principle of trait activation. *Journal of Research in Personality, 34*(4), 397–423. https://doi.org/10.1006/jrpe.2000.2292
+> Trait activation theory: traits express in proportion to situational cues that make them relevant. Used in the concentrated band profile (trait activates regardless of cues — the self-directed, full-charge condition).
+
+**Tetlock, P. E. (1983).** Cognitive style and political ideology. *Journal of Personality and Social Psychology, 45*(1), 118–126. https://doi.org/10.1037/0022-3514.45.1.118
+> Integrative complexity framework: differentiation vs. integration of cognitive processing. Used in the concentrated and pure profiles — high self-consistency produces lower spontaneous counter-force to dominant schemas.
+
+**Higgins, E. T. (1997).** Beyond pleasure and pain. *American Psychologist, 52*(12), 1280–1300. https://doi.org/10.1037/0003-066X.52.12.1280
+> Regulatory focus theory (promotion vs. prevention orientation). Used in the concentrated band profile — high-intensity focus with low natural cross-activation of the opposing orientation.
+
+---
+
+#### Person-Environment Fit and Sensitivity
+
+**Holland, J. L. (1985).** *Making vocational choices: A theory of vocational personalities and work environments* (2nd ed.). Prentice-Hall.
+> Person-environment fit theory. Used in the open band profile — environment quality is categorical, not merely relevant.
+
+**Aron, E. N. (1996).** *The Highly Sensitive Person: How to thrive when the world overwhelms you*. Broadway Books.
+
+**Aron, E. N., & Aron, A. (1997).** Sensory-processing sensitivity and its relation to introversion and emotionality. *Journal of Personality and Social Psychology, 73*(2), 345–368. https://doi.org/10.1037/0022-3514.73.2.345
+> Highly Sensitive Person (HSP) research: deeper cognitive processing, greater sensitivity to subtleties, stronger emotional reactivity. Primary source for 癸 stem profile and open band profile.
+
+---
+
+#### Self-Determination Theory
+
+**Deci, E. L., & Ryan, R. M. (1985).** *Intrinsic motivation and self-determination in human behavior*. Plenum.
+
+**Ryan, R. M., & Deci, E. L. (2000).** Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. *American Psychologist, 55*(1), 68–78. https://doi.org/10.1037/0003-066X.55.1.68
+
+**Ryan, R. M., & Deci, E. L. (2000).** Intrinsic and extrinsic motivations: Classic definitions and new directions. *Contemporary Educational Psychology, 25*(1), 54–67. https://doi.org/10.1006/ceps.1999.1020
+> Self-Determination Theory: three basic psychological needs (autonomy, competence, relatedness); intrinsic vs. extrinsic motivation; types of regulation from amotivation through integrated regulation. Used in: flowing tgPattern (intrinsic motivation), open band, rooted tgPattern (externally supported autonomy), 丁 stem (autonomy need), 丙 stem (relatedness need), 食神 profile, 伤官 profile (autonomy under threat), 正官 profile (identified regulation), 壬 stem (competence and autonomy).
+
+---
+
+#### Flow and Optimal Experience
+
+**Csikszentmihalyi, M. (1990).** *Flow: The psychology of optimal experience*. Harper & Row.
+> Flow theory: deep, effortless engagement where challenge and skill are matched without deliberate calibration. Used in the flowing tgPattern and 食神 TG profile.
+
+---
+
+#### Achievement Motivation
+
+**McClelland, D. C. (1961).** *The achieving society*. Van Nostrand.
+> Need for Achievement (nAch): strong orientation toward personal mastery and directing outcomes toward success. Used in the forging tgPattern, 偏财, and 正财 TG profiles.
+
+---
+
+#### Self-Schema and Identity
+
+**Markus, H. (1977).** Self-schemata and processing information about the self. *Journal of Personality and Social Psychology, 35*(2), 63–78. https://doi.org/10.1037/0022-3514.35.2.63
+> Self-schema consolidation: highly consolidated schemas become progressively resistant to discrepant input through efficient processing that routes inconsistent information as irrelevant. Used in the pure tgPattern and 比肩 TG profile.
+
+---
+
+#### Attachment Theory
+
+**Bowlby, J. (1969).** *Attachment and Loss: Vol. 1. Attachment*. Basic Books.
+
+**Bowlby, J. (1982).** *Attachment and Loss: Vol. 1. Attachment* (2nd ed.). Basic Books.
+> Attachment theory and secure base provision: the caregiver who enables confident exploration. Used in: all ten stem attachment signature entries, rooted tgPattern (constitutionally supported character), 偏印, 正印, and 正官 TG profiles.
+
+**Ainsworth, M. D. S., Blehar, M. C., Waters, E., & Wall, S. (1978).** *Patterns of attachment: A psychological study of the strange situation*. Lawrence Erlbaum Associates.
+> Secure, anxious-ambivalent, and avoidant attachment classification via the Strange Situation procedure. Used in 偏印 TG profile (secure-base dependency).
+
+**Bartholomew, K., & Horowitz, L. M. (1991).** Attachment styles among young adults: A test of a four-category model. *Journal of Personality and Social Psychology, 61*(2), 226–244. https://doi.org/10.1037/0022-3514.61.2.226
+> Four-category adult attachment model (secure, preoccupied, dismissing, fearful). Used in 庚 and 壬 stem profiles (dismissive-avoidant), 辛 stem (fearful-avoidant), 比肩 TG profile.
+
+---
+
+#### Interpersonal Theory and Social Comparison
+
+**Kiesler, D. J. (1983).** The 1982 interpersonal circle: A taxonomy for complementarity in human transactions. *Psychological Review, 90*(2), 185–214. https://doi.org/10.1037/0033-295X.90.2.185
+> Complementarity principle: similar-status interactions produce comparison rather than role differentiation. Used in 劫财 TG profile.
+
+**Festinger, L. (1954).** A theory of social comparison processes. *Human Relations, 7*(2), 117–140. https://doi.org/10.1177/001872675400700202
+> Social comparison theory: when objective standards are unavailable, people evaluate opinions and abilities by comparison with similar others. Used in 劫财 TG profile.
+
+---
+
+#### Creativity and Innovation
+
+**Friedman, R. S., & Förster, J. (2001).** The effects of promotion and prevention cues on creativity. *Journal of Personality and Social Psychology, 81*(6), 1001–1013. https://doi.org/10.1037/0022-3514.81.6.1001
+> Prevention-focused processing produces reactive, constraint-responsive creativity distinct from promotion-focused output. Primary empirical source for the "reactive creativity" mechanism in 伤官 TG profile (cited in DOC3 as Forster & Higgins 1996).
+
+**Patterson, F., Kerrin, M., & Gatto-Roissard, G. (2009).** *Characteristics and behaviours of innovative people in organisations*. NESTA Research Report.
+> Innovation personality profiles in organizational contexts. Used in 伤官 TG profile.
+
+**Furnham, A., & Bachtiar, V. (2008).** Personality and intelligence as predictors of creativity. *Personality and Individual Differences, 45*(7), 613–617. https://doi.org/10.1016/j.paid.2008.06.023
+> High Openness + Low Agreeableness/Politeness consistently associated with creative innovation. Used in 伤官 TG profile.
+
+---
+
+#### Legitimacy, Authority, and Compliance
+
+**Tyler, T. R. (2006).** *Why People Obey the Law* (2nd ed., with new Introduction). Princeton University Press. (Original work published 1990, Yale University Press.)
+> Legitimacy theory: normative compliance (follow because framework is endorsed) vs. instrumental compliance (follow because required). Used in tested tgPattern (正官) and 正官 TG profile.
+
+---
+
+#### Adversarial Growth and Resilience
+
+**Tedeschi, R. G., & Calhoun, L. G. (1996).** The Posttraumatic Growth Inventory: Measuring the positive legacy of trauma. *Journal of Traumatic Stress, 9*(3), 455–471. https://doi.org/10.1002/jts.2490090305
+
+**Tedeschi, R. G., & Calhoun, L. G. (2004).** Posttraumatic growth: Conceptual foundations and empirical evidence. *Psychological Inquiry, 15*(1), 1–18. https://doi.org/10.1207/s15327965pli1501_01
+> The same adversarial conditions that devastate some produce remarkable growth in others — genuine bifurcation, not a developmental spectrum. Used in tested tgPattern (七杀) and 七杀 TG profile. The 任鐵樵 512 case study finding parallels this bifurcation across classical charts.
+
+**Kobasa, S. C. (1979).** Stressful life events, personality, and health: An inquiry into hardiness. *Journal of Personality and Social Psychology, 37*(1), 1–11. https://doi.org/10.1037/0022-3514.37.1.1
+> Hardiness: commitment, control, and challenge as buffers against uncontrolled stress. Used in 七杀 TG profile.
+
+---
+
+#### Narrative Identity
+
+**McAdams, D. P., Reynolds, J., Lewis, M., Patten, A. H., & Bowman, P. J. (2001).** When bad things turn good and good things turn bad: Sequences of redemption and contamination in life narrative. *Personality and Social Psychology Bulletin, 27*(4), 474–485. https://doi.org/10.1177/0146167201274008
+> Redemption sequences (bad → good) vs. contamination sequences (good → bad) as organizing structures of the self-defining life story. Used in 七杀 TG profile — high-resource charts construct redemption sequences; depleted ones construct contamination sequences.
+
+---
+
+## PART 7 — Calculation Accuracy Verification Anchors
+
+> **Purpose:** This section is for proofing the engine's calculation outputs — not for deriving reading content. It contains reference tables and rules against which `Elementum_Engine.jsx` and `generate_templates_v2.js` should be verified.
+>
+> **Source:** bazi-skill/references/wuxing-tables.md · bazi-skill/references/shichen-table.md · bazi-skill/references/dayun-rules.md
+
+---
+
+### §7.1 — Branch Relationships: Element Score Modifiers
+
+Branch relationships modify effective element scores beyond simple hidden-stem weighting. The engine must account for these when computing elemental balances. These are the structural interactions that can substantially shift which element scores as dominant — and therefore which Layer 2/3 key a chart receives.
+
+**Six Clashes (六冲):** Directly opposing branches clash — weakens effective element contribution of both branches involved. Approximate effect: 20–30% reduction in hidden-stem weight for each clashing branch.
+
+Clash pairs: 子午 · 丑未 · 寅申 · 卯酉 · 辰戌 · 巳亥
+
+Accuracy check: When a clash pair appears across pillars (especially Year-Day or Month-Hour), neither branch should be counted at full hidden-stem weight.
+
+**Three Harmony Groups (三合局):** All three branches required for full reinforcement. Missing one = half-combination, approx. 50% of full reinforcement.
+
+Groups: 申子辰 (Water) · 亥卯未 (Wood) · 寅午戌 (Fire) · 巳酉丑 (Metal)
+
+Accuracy check: Full Three Harmony significantly boosts that element's effective score. If the engine does not adjust for branch combinations, element scores will be understated for strongly-grouped charts.
+
+**Three Direction Groups (三会局):** Stronger than Three Harmony — directional (seasonal) grouping. All three required; no partial credit.
+
+Groups: 寅卯辰 (Wood, Spring) · 巳午未 (Fire, Summer) · 申酉戌 (Metal, Autumn) · 亥子丑 (Water, Winter)
+
+**Six Harmonies (六合):** Paired branch combinations — softer elemental modification.
+
+Pairs: 子丑 (Earth) · 寅亥 (Wood) · 卯戌 (Fire) · 辰酉 (Metal) · 巳申 (Water) · 午未 (Fire)
+
+**Stem Combinations (天干五合):** When two adjacent stems combine, their individual elemental force is partially bound. Transformation into the stated element requires: seasonal authority + adjacent stems + supporting branch — all three conditions. Without transformation, treat as occupied/bound: reduced contribution, not transformed.
+
+Combinations: 甲己 (Earth) · 乙庚 (Metal) · 丙辛 (Water) · 丁壬 (Wood) · 戊癸 (Fire)
+
+Accuracy check: Stem combinations are a common source of miscalculation. Do not assume transformation — verify all three conditions before applying transformation scoring.
+
+---
+
+### §7.2 — 12-Stage Vitality Cycle: DM Strength Secondary Check
+
+The 12-stage cycle provides a secondary verification method for DM strength. Use when the primary algorithm produces a borderline result or when band assignment needs confirmation.
+
+**Vitality stages by strength contribution:**
+
+| Strength | Stages |
+|---|---|
+| Strong | 长生 (birth), 临官 (authority peak), 帝旺 (full power) |
+| Moderate | 沐浴 (bath), 冠带 (gown), 衰 (decline), 胎 (conception), 养 (nurture) |
+| Weak | 病 (illness), 死 (death), 墓 (tomb), 绝 (extinction) |
+
+**Yang stems — key stages (forward cycle):**
+
+| Stem | 长生 | 帝旺 | 墓 |
+|---|---|---|---|
+| 甲 Yang Wood | 亥 | 卯 | 未 |
+| 丙 Yang Fire | 寅 | 午 | 戌 |
+| 戊 Yang Earth | 寅 | 午 | 戌 |
+| 庚 Yang Metal | 巳 | 酉 | 丑 |
+| 壬 Yang Water | 申 | 子 | 辰 |
+
+**Yin stems — key stages (reverse cycle):**
+
+| Stem | 长生 | 帝旺 | 墓 |
+|---|---|---|---|
+| 乙 Yin Wood | 午 | 寅 | 戌 |
+| 丁 Yin Fire | 酉 | 巳 | 丑 |
+| 己 Yin Earth | 酉 | 巳 | 丑 |
+| 辛 Yin Metal | 子 | 申 | 辰 |
+| 癸 Yin Water | 卯 | 亥 | 未 |
+
+**Usage:** When the primary strength score sits at a band boundary, check the DM stem's stage in its Day Branch and Month Branch. Both at 长生 or 帝旺 → weight stronger. Both at 死/墓/绝 → weight open. Contradictory signals → stay within-band.
+
+---
+
+### §7.3 — Hour Stem Derivation Verification (Five Rat Rule / 五鼠遞日)
+
+Day stem determines the Hour pillar stem sequence:
+
+| Day stem | 子时 stem |
+|---|---|
+| 甲 or 己 | 甲子 |
+| 乙 or 庚 | 丙子 |
+| 丙 or 辛 | 戊子 |
+| 丁 or 壬 | 庚子 |
+| 戊 or 癸 | 壬子 |
+
+---
+
+### §7.4 — Month Stem Derivation Verification (Five Tiger Rule / 五虎遞年)
+
+Year stem determines the Month pillar stem sequence. 寅月 (正月, first month) is the reference start:
+
+| Year stem | 寅月 stem |
+|---|---|
+| 甲 or 己 | 丙寅 |
+| 乙 or 庚 | 戊寅 |
+| 丙 or 辛 | 庚寅 |
+| 丁 or 壬 | 壬寅 |
+| 戊 or 癸 | 甲寅 |
+
+---
+
+### §7.5 — Midnight Hour Boundary Handling
+
+子时 spans midnight (23:00–01:00). The engine's convention must be explicit and consistent.
+
+**Elementum convention (verify this is implemented):** 23:00 onward is counted as the next calendar day for the Day pillar stem. A birth at 23:30 uses the *next day's* Day stem when computing the Hour pillar via the Five Rat Rule.
+
+Rationale: The Chinese calendar day change at 23:00 is the more rigorous convention. It affects Hour stem derivation only for births at 23:00–23:59.
+
+**Test case:** Reference chart (1995-04-29, 18:00, Beijing) falls in 酉时 (17:00–19:00) — well clear of the boundary. Not applicable to reference chart but must be verified for edge cases.
+
+---
+
+### §7.6 — Hidden Stem Weight Reference
+
+For verification against engine's hidden-stem scoring. Standard convention: Main Qi (本气) ~60% · Middle Qi (中气) ~30% · Residual Qi (余气) ~10%.
+
+| Branch | Main Qi | Middle Qi | Residual Qi |
+|---|---|---|---|
+| 子 | 癸 Water | — | — |
+| 丑 | 己 Earth | 癸 Water | 辛 Metal |
+| 寅 | 甲 Wood | 丙 Fire | 戊 Earth |
+| 卯 | 乙 Wood | — | — |
+| 辰 | 戊 Earth | 乙 Wood | 癸 Water |
+| 巳 | 丙 Fire | 庚 Metal | 戊 Earth |
+| 午 | 丁 Fire | 己 Earth | — |
+| 未 | 己 Earth | 丁 Fire | 乙 Wood |
+| 申 | 庚 Metal | 壬 Water | 戊 Earth |
+| 酉 | 辛 Metal | — | — |
+| 戌 | 戊 Earth | 辛 Metal | 丁 Fire |
+| 亥 | 壬 Water | 甲 Wood | — |
+
+Cross-reference with DOC1 hidden-stem weights. If the engine uses different percentages, the DOC1 values are authoritative — this table is for spot-checking branch parsing logic.
+
+---
+
+
+
+---
+
+## PART 8 — Translation Protocol (Language Layer Rules)
+
+> **Purpose:** Single source of truth for how every BaZi / classical concept maps to plain English in user-facing output. All reading content, UI labels, and generated text must conform to this protocol. No Chinese characters. No BaZi jargon. No exceptions in the user-facing layer.
+
+---
+
+### §8.1 — Layer Rules: What Each Layer Allows
+
+| Layer | Context | Chinese Characters | BaZi Terminology | Rule |
+|---|---|---|---|---|
+| **Internal / verification** | DOC3 source entries, profileData.js constants, CLASSICAL_STEM_ANCHORS, CLASSICAL_TG_ANCHORS | ✓ Permitted | ✓ Permitted | For human + AI proof-reading and source verification only |
+| **Generation prompts** | generate_templates_v2.js prompt strings sent to LLM | ✓ Permitted as reference labels only, always English-paired | ✓ Permitted as structural labels | Prompts may reference BaZi terms when orienting the model; the model’s OUTPUT must be clean |
+| **User-facing output** | All reading text, UI card content, static labels, exported reading fields | ✗ Zero Chinese characters | ✗ Zero BaZi jargon | Absolute. No fallthrough from prompt layer. |
+
+**The boundary is output, not intent.** A prompt can say “七杀 (The Trial)” internally; the generated angle text must say nothing about “seven killings” or any BaZi term.
+
+---
+
+### §8.2 — Stem → Archetype Translation
+
+The Day Master stem is never named in user-facing text. The archetype name is the user-facing identity anchor.
+
+| Stem | Archetype | Element | Polarity | Core reading vocabulary |
+|---|---|---|---|---|
+| 甲 | The Oak | Wood | Yang | reach, momentum, architecture of growth, what builds before it lands |
+| 乙 | The Vine | Wood | Yin | navigation, adaptive path, arrives where it intended, flexibility with purpose |
+| 丙 | The Sun | Fire | Yang | illuminating warmth, structural presence, the room changes before announcement |
+| 丁 | The Candle | Fire | Yin | precision illumination, focused clarity, illuminates completely what it is pointed at |
+| 戊 | The Mountain | Earth | Yang | load-bearing, the ground others orient around, stability without announcement |
+| 己 | The Field | Earth | Yin | developmental nourishment, grows things in silence, leaves everything more alive |
+| 庚 | The Blade | Metal | Yang | evaluative precision, the standard that runs first, the edge that was never chosen |
+| 辛 | The Jewel | Metal | Yin | discernment, perceives excellence the way others perceive temperature |
+| 壬 | The Ocean | Water | Yang | perceptual depth, holds more beneath the surface, reads before the question is asked |
+| 癸 | The Rain | Water | Yin | empathic attunement, knows before it is spoken, nourishes without announcing |
+
+**Rule:** Once the archetype name is introduced in a reading, the person is addressed through that lens. Never revert to element-only language after the identity reveal.
+
+---
+
+### §8.3 — Five Element Reading Vocabulary
+
+Elements appear in readings as experiential qualities, not as classical symbols. The following vocabulary is locked — use these phrases, not ad-hoc elemental language.
+
+#### Metal (金)
+| Concept | Reading vocabulary |
+|---|---|
+| Core nature | evaluative precision, the standard, the edge |
+| In action | assessing before engaging, the verdict arrives before the conversation |
+| As dominant force | precision runs the room; evaluative clarity as ambient field |
+| As catalyst/activating | what shapes the edge; what gives the standard a target |
+| Absence | the part of you that gets shaped by external authority — born quiet |
+
+#### Wood (木)
+| Concept | Reading vocabulary |
+|---|---|
+| Core nature | outward reach, developmental instinct, the momentum toward |
+| In action | building before knowing what it will become; growth as architecture |
+| As dominant force | reach saturates the field; forward motion as structural fact |
+| As catalyst/activating | what gives the growth a form; what directs the reach |
+| Absence | the restlessness is structural — it was always going to arrive here |
+
+#### Fire (火)
+| Concept | Reading vocabulary |
+|---|---|
+| Core nature | illuminating warmth, relational presence, the light that changes the room |
+| In action | the room is different before you speak; warmth as structural output |
+| As dominant force | warmth saturates the relational field; illumination running continuously |
+| As catalyst/activating | what activates the warmth; what gives the presence a direction |
+| Absence | the warmth that other people feel from you — you’ve always underestimated it |
+
+#### Earth (土)
+| Concept | Reading vocabulary |
+|---|---|
+| Core nature | stability, the containing force, what holds and orients |
+| In action | load-bearing without announcement; the ground others build on |
+| As dominant force | stability as the primary material; weight as structural quality |
+| As catalyst/activating | what activates the ground; what gives the stability living quality |
+| Absence | the part of you that provides grounding for others — it was always there |
+
+#### Water (水)
+| Concept | Reading vocabulary |
+|---|---|
+| Core nature | perceptual depth, the intelligence beneath the surface |
+| In action | reads before being told; knows before the question is complete |
+| As dominant force | depth as the primary lens; everything passes through perceptual intelligence first |
+| As catalyst/activating | what gives the depth form; what channels the perception into something usable |
+| Absence | the part of you that reads beneath the surface — it runs whether you name it or not |
+
+---
+
+### §8.4 — Structural Pattern → Plain English (Layer 1 — 5 TG Patterns)
+
+These labels are **internal keys only** (Pure / Rooted / Flowing / Forging / Tested). They never appear in user-facing text verbatim. The reading must translate the structural condition into its experiential consequence.
+
+| Internal key | What it means structurally | User-facing reading language |
+|---|---|---|
+| `pure` | Same element dominant — no moderating counterforce | “The core amplifies itself — there is nothing in the structure moderating or redirecting it.” / “Extraordinary internal consistency; a self-referencing loop with no natural exit.” |
+| `rooted` | Generating element dominant — backed by sustaining force | “Continuously backed by a nourishing force you didn’t consciously build.” / “Psychological reserves arrive without effort — the question is whether you’ve examined the source.” |
+| `flowing` | Output element dominant — pours outward continuously | “Expression is constitutional, not performed.” / “The output doesn’t feel like effort from the inside — which is exactly why the depletion cost is invisible.” |
+| `forging` | Wealth element dominant — DM directs and shapes | “Disciplined, directed toward what can be earned and held.” / “The part of you that shapes material — that doesn’t stop evaluating what it controls.” |
+| `tested` | Authority element dominant — shaped by external pressure | “Formed by something that didn’t ask permission.” / “The character that exists is what the pressure made — not a developmental stage, a structural fact.” |
+
+**Never write:** “your Pure pattern,” “the Rooted configuration,” “Flowing energy,” “Forging structure,” “the Tested pattern.”
+
+---
+
+### §8.5 — Specific Ten God → Reading Vocabulary (Layer 2 — 10 Specific Forces)
+
+Ten God names are **engine inputs only**. They never appear in user-facing text in any language — neither Chinese (比肩) nor English (Parallel Self). The reading describes the structural dynamic, not the technical label.
+
+| Internal TG | Internal English label | Reading vocabulary (what to write instead) |
+|---|---|---|
+| 比肩 | Parallel Self | “the mirroring force” / “the same nature amplifying itself” / “a force that confirms rather than challenges” |
+| 劫财 | The Rival | “the measuring force” / “a near-equal that calibrates by structural competition” / “the lateral pressure that defines the edge” |
+| 食神 | The Flow | “natural creative expression” / “output that arrives without assertion” / “what flows outward when you’re fully yourself” |
+| 伤官 | The Edge | “brilliance in structural tension with frameworks” / “output that consistently exceeds what conventional structures can contain” |
+| 偏财 | The Field | “broad, distributed engagement” / “ranging widely across material rather than possessing it specifically” |
+| 正财 | The Harvest | “disciplined, methodical pursuit” / “specific and earned — the standard applied to what you control” |
+| 七杀 | The Trial | “the unmediated test” / “pressure that doesn’t grant permission” / “what forges or breaks — no middle outcome” |
+| 正官 | The Standard | “framework-mediated recognition” / “a force that tests through a structure it can respect and grants recognition when quality is real” |
+| 偏印 | The Well | “sustained depth” / “nourishment that deepens without redirecting” / “backing from the same register” |
+| 正印 | The Root | “sustained opening” / “nourishment that deepens and opens toward something specific” |
+
+---
+
+### §8.6 — Key Concept Translations
+
+These are the structural BaZi concepts that must never surface in reading text.
+
+| BaZi concept | Chinese | Technical English label | User-facing reading vocabulary |
+|---|---|---|---|
+| Day Master | 日主 | DM (internal) | archetype name / “your core element” / “your elemental nature” |
+| Useful God | 用神 | usefulGod (internal) | “catalyst” / “what activates this” / “the activating element” |
+| Favorable element | 喜神 | xishen (internal) | “supportive element” / “what nourishes this” — rarely named in readings |
+| Unfavorable element | 忘神 | jishen (internal) | “friction” / “what compresses this” — use sparingly; never label |
+| Seasonal adjustment | 调候 | tiaohou (internal) | Internal only — never surface in reading text |
+| Structural pattern | 格局 | gejue (internal) | “the pattern” / “the structural interaction” — describe, don’t label |
+| Deficiency (chart need) | 病 | bing (internal) | Internal calculation only — never say “deficiency” in reading; describe the structural condition |
+| Remedy / catalyst | 药 | yao (internal) | “catalyst” in all reading text — never “remedy”, never “yao” |
+| Major Luck Cycle | 大运 | dayun (internal) | Internal only — not in current Elementum reading scope |
+| Annual Luck | 流年 | liuNian (internal) | Internal only — not in current reading scope |
+| Balance principle | 扶抑 | fuyi (internal) | Internal only — never surface |
+| Pillar stages | 宫位 | gongwei (internal) | See §8.7 Pillar Language below |
+| Branch relationships | 六冲/三合/六合 | Clashes/Combinations (internal) | Internal calculation only — never named in reading text |
+| Vitality cycle stage | 十二长生 | (internal) | Internal calculation only — informs strength band, never named |
+
+---
+
+### §8.7 — Pillar Language (Life Stage Framing)
+
+Pillar-to-life-stage mapping (宫位论法) is VERIFY-ONLY per §2.7. When used conditionally in reading text, the plain English equivalents are:
+
+| Pillar | Internal label | Reading language (conditional use only) |
+|---|---|---|
+| Year pillar | year | “the family and ancestral layer” / “the early formation chapter” / “where you came from” |
+| Month pillar | month | “the career and social chapter” / “the working years formation” / “your public and professional layer” |
+| Day pillar | day | “the self and relational layer” / “who you are in close relationships” / “the core self chapter” |
+| Hour pillar | hour | “the legacy chapter” / “what you build toward later” / “the output and inheritance layer” |
+
+**Conditional rule:** Use pillar language only when the reading anchors a specific behavioral pattern to a specific life period and the chart concentration justifies it. Never frame as fate; always frame as structural tendency.
+
+---
+
+### §8.8 — Classical Idiom → Modern Psychology Bridges
+
+Hard-to-translate classical idioms are never quoted in user-facing text. The following table maps each idiom to its psychological equivalent and approved reading language.
+
+| Classical idiom | Literal meaning | Modern psychology anchor | Reading vocabulary |
+|---|---|---|---|
+| 有病方为贵，无病不是奇 | Only through structural deficiency is there distinction | Adversarial Growth (Tedeschi & Calhoun, 1996) | “The structure that formed under this condition is the thing itself — not a compensated version of something simpler.” |
+| 金逢火炼方成器 | Metal without fire remains potential | Post-traumatic growth; Resilience research | “The capability was real before the encounter. What the pressure revealed is the direction, not the capability.” |
+| 甲木喜庚金克制，方能成材 | Yang Wood requires constraint to become timber | Self-determination theory — competence through structured challenge | “Undirected growth produces abundance without form. The definition of reach is what makes it buildable.” |
+| 食神吐秀，秀气流行 | Elegant Qi flows naturally through the Food God | Intrinsic motivation; Csikszentmihalyi flow | “Natural creative output — expression that arrives without assertion. The cost is invisible from the inside.” |
+| 伤官聊聊，为祸百端 | Hurt Officer meeting the Officer brings a hundred harms | Reactance theory; Trait Activation (context-misfit) | “The same intelligence that exceeds conventional frameworks is in structural tension with structures that want to evaluate it.” |
+| 七杀制伏得宜，反为权贵 | Seven Killings properly contained becomes authority | PTG bifurcation — same adversarial condition, categorically different outcomes | “What the pressure made — not a developmental stage, a structural fact. The same force that breaks some people produces something else in others.” |
+| 戊无水则熥 / 春土无火则寒 | Earth without Water becomes dry; Spring Earth without Fire remains cold | Person-Environment Fit (Kristof-Brown); Trait Activation theory | “The stability is real; the question is whether the conditions are giving it something to hold.” |
+
+**Rule:** Never quote the Chinese idiom in a user-facing reading. The psychological bridge is the reading language — source the claim internally to the classical text, render it in modern experiential vocabulary.
+
+---
+
+### §8.9 — Comprehensive Forbidden Term List
+
+The following terms are **permanently banned from all user-facing output**. Any generated text containing these terms fails the output gate and must be regenerated.
+
+**BaZi structural terms (any language):**
+Day Master, Ten Gods, Ten God, Food God, Hurt Officer, Seven Killings, Direct Officer, Parallel Self, Rob Wealth, Direct Wealth, Indirect Wealth, Direct Seal, Indirect Seal, Favorable God, Unfavorable God, Useful God, Wealth Star, Officer Star, Seal Star, Output Star, Companion Star
+
+**BaZi pattern labels (as standalone labels):**
+Pure (as archetype descriptor), Rooted (as archetype descriptor), Flowing (as archetype descriptor), Forging (as archetype descriptor), Tested (as archetype descriptor)
+
+**Chinese characters and romanizations:**
+Any Chinese characters in output text, Bazi, Ba Zi, Four Pillars, Sijia, Ziweidoushu, dayun, liunian, shichen, gejue, tiaohou, fuyi, yao, bing, gongwei
+
+**Astrological / mystical register:**
+zodiac, cosmic, cosmic energy, fate, destiny, karmic, spiritual (in astrological sense), the universe (as active agent), astrology, horoscope, celestial, aligned, vibration, manifestation, manifesting
+
+**Hollow affirmations:**
+You are destined for greatness, empowered, tapestry, journey (as life-metaphor cliché), vibrant, fundamentally, at your core, in essence, genuinely, You are someone who (as opener)
+
+**False precision / catastrophizing:**
+“On [specific date] you will”, “You will face great difficulty”, any specific date prediction, any absolute fate-language
+
+---
+
+### §8.10 — Consistency Anchors (Vocabulary Locks)
+
+Once a concept is named a specific way in a reading session, all subsequent references must use the same phrasing. The following anchors are locked across the entire reading system.
+
+| Concept | Locked vocabulary | Never vary to |
+|---|---|---|
+| The activating / catalyst element | “catalyst” | remedy, useful god, favorable element, yao, activator |
+| The element that compresses | “friction” or “compressive force” | unfavorable god, obstacle, enemy element |
+| The chart’s structural condition | “the pattern” or describe it directly | gejue, chart structure, configuration |
+| The person’s core element | archetype name or “your elemental nature” | day master, DM element, your stem |
+| Effortless creative output | “natural expression” / “what flows when fully yourself” | Food God output, flowing pattern, 食神 |
+| Output in structural tension | “brilliance that exceeds frameworks” / “the exceeding edge” | Hurt Officer, 伤官, output star |
+| Unmediated external pressure | “what doesn’t grant permission” / “the unmediated test” | Seven Killings, 七杀, adversary force |
+| Framework-mediated recognition | “recognition when quality is real” | Direct Officer, 正官, officer star |
+| Nourishing resource force | “the sustaining source” / “the backing” | Seal, Indirect Seal, Direct Seal |
+
+---
+
+### §8.11 — Protocol Application Checklist
+
+Before any reading content is finalized, run this checklist:
+
+- [ ] Zero Chinese characters in output text
+- [ ] Zero BaZi technical terms (any language) in output text
+- [ ] All five elements referred to by their reading vocabulary (not raw element names only)
+- [ ] Archetype name used as identity anchor — stem never named
+- [ ] TG pattern labels absent from output (Pure/Rooted/Flowing/Forging/Tested not used as labels)
+- [ ] Specific TG names absent (no Parallel Self, Rival, Flow, Edge, etc. as labels)
+- [ ] Any catalyst reference uses “catalyst” consistently
+- [ ] Classical idioms rendered in modern psychology vocabulary only
+- [ ] No hollow affirmations or fate language
+- [ ] Every behavioral claim traceable to a specific chart element (sourced reading, not generic)
+
+
+---
+
 ## Document Metadata
 
 | | |
 |---|---|
 | **Document** | Doc 3 — Knowledge Pool |
-| **Version** | 1.0  ·  April 2026 |
+| **Last Updated** | 2026-04-10 |
+| **Version** | 1.2  ·  April 2026 |
 | **Status** | LIVING — grows additively; existing entries rarely change once verified |
 | **Audience** | Content creators, generation system (as reference library) |
 | **Purpose** | Complete source library for all Elementum archetype content. Classical BaZi texts, modern psychological frameworks, and resonance bridges. Doc 4 tells you which sources to use for a given key; this document tells you what they are and what each produces. |
 | **Stability** | LOW for additions (grows frequently) · HIGH for existing entries (rarely changed) |
 | **Used by** | Doc 4 (generation architecture imports from here) · generate_templates_v2.js (PSYCH_PROFILES and CLASSICAL_SOURCES constants) |
-| **Compatible with** | Doc2 v1.0 · Doc6 v1.0 |
+| **Compatible with** | Doc2 v1.1 · Doc4 v2.0 · Doc6 v1.1 |
+
+## Version History
+
+| Version | Date | Changes |
+|---|---|---|
+| 1.2 | April 2026 | Added PART 8 Translation Protocol — complete language layer rules, stem/element/TG vocabulary maps, classical idiom bridges, forbidden term list, consistency anchors. |
+| 1.1 | April 2026 | Added 神峰通考 (病药说 — universal catalyst/remedy SOURCE-FROM); Added 千里命稿 (pillar-stage mapping, VERIFY-ONLY); Added PART 7 Calculation Accuracy Verification Anchors; Added full APA bibliographic citations for all Tier 2 psychological frameworks (PART 6 §6.4); Updated source index and text overview table. |
+| 1.0 | April 2026 | Initial version. Five classical texts, full Tier 2 psychological frameworks, Tier 3 resonance bridges, expansion protocol. |

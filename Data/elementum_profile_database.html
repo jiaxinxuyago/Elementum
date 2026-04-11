@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Elementum · Personality Reference Guide</title>
+<title>Elementum · Profile Database</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
 <style>
@@ -212,6 +212,68 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 .hidden-label { font-size: 10px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
 .hidden-text { font-size: 13.5px; line-height: 1.8; color: var(--text-sec); font-style: italic; }
 
+/* CLASSICAL ANCHOR BLOCK */
+.classical-anchor { margin: 18px 24px 0; padding: 16px 20px; border-radius: 10px; background: linear-gradient(135deg,rgba(90,66,40,0.05),rgba(90,66,40,0.02)); border: 1px solid rgba(139,114,80,0.22); border-left: 3px solid var(--accent); }
+.classical-anchor-eyebrow { font-size: 10px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; display: flex; align-items: center; gap: 10px; }
+.classical-anchor-eyebrow::after { content: ''; flex: 1; height: 0.5px; background: rgba(139,114,80,0.2); }
+.classical-anchor-zh { font-family: 'Noto Serif SC',Georgia,serif; font-size: 14.5px; color: var(--accent-dark); line-height: 1.6; margin-bottom: 6px; letter-spacing: 0.03em; }
+.classical-anchor-en { font-family: 'Cormorant Garamond',Georgia,serif; font-size: 16px; font-weight: 400; color: var(--text); line-height: 1.5; margin-bottom: 7px; font-style: italic; }
+.classical-anchor-deriv { font-size: 13px; line-height: 1.75; color: var(--text-sec); }
+.classical-anchor-source { font-size: 11px; color: var(--text-ter); margin-top: 8px; letter-spacing: 0.02em; }
+
+/* BINGYI SECTION */
+.bingyi-section { margin: 0 0 40px; padding: 28px 32px; border-radius: 14px; background: linear-gradient(135deg,rgba(90,66,40,0.07),rgba(90,66,40,0.02)); border: 1px solid rgba(139,114,80,0.28); border-left: 4px solid var(--accent-dark); }
+.bingyi-eyebrow { font-size: 10px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
+.bingyi-principle { font-family: 'Noto Serif SC',Georgia,serif; font-size: 16px; color: var(--accent-dark); margin-bottom: 5px; line-height: 1.6; }
+.bingyi-translation { font-family: 'Cormorant Garamond',Georgia,serif; font-size: 20px; font-weight: 300; color: var(--text); line-height: 1.4; margin-bottom: 16px; font-style: italic; }
+.bingyi-rule { font-size: 14.5px; line-height: 1.85; color: var(--text-sec); margin-bottom: 12px; }
+.bingyi-rule strong { color: var(--text); font-weight: 500; }
+.bingyi-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+@media(max-width:620px){.bingyi-two-col{grid-template-columns:1fr;}}
+.bingyi-col-label { font-size: 10px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-ter); margin-bottom: 8px; }
+.bingyi-col-list { list-style: none; padding: 0; margin: 0; }
+.bingyi-col-list li { font-size: 13px; line-height: 1.7; color: var(--text-sec); padding: 5px 0; border-bottom: 0.5px solid var(--border-light); }
+.bingyi-col-list li:last-child { border-bottom: none; }
+.bingyi-col-list li::before { content: '4'; color: var(--accent-light); margin-right: 8px; }
+.bingyi-source { font-size: 11px; color: var(--text-ter); margin-top: 14px; padding-top: 10px; border-top: 0.5px solid var(--border-light); }
+
+/* PILLAR STAGE SECTION */
+.pillar-section { margin-top: 64px; padding: 32px; border-radius: 14px; background: var(--bg-card); border: 1px solid var(--border); }
+.pillar-eyebrow { font-size: 10px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+.pillar-title { font-family: 'Cormorant Garamond',Georgia,serif; font-size: 26px; font-weight: 300; color: var(--accent-dark); margin-bottom: 8px; }
+.pillar-subtitle { font-size: 14px; color: var(--text-sec); font-style: italic; margin-bottom: 20px; line-height: 1.7; }
+.pillar-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; margin-bottom: 20px; }
+@media(max-width:720px){.pillar-grid{grid-template-columns:1fr 1fr;}}
+@media(max-width:440px){.pillar-grid{grid-template-columns:1fr;}}
+.pillar-card-el { padding: 14px 16px; border-radius: 10px; border: 1px solid var(--border-light); background: var(--bg-card-alt); }
+.pillar-card-label { font-size: 10px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 4px; }
+.pillar-card-ages { font-family: 'Cormorant Garamond',Georgia,serif; font-size: 18px; color: var(--accent-dark); margin-bottom: 7px; }
+.pillar-card-domain { font-size: 13px; line-height: 1.65; color: var(--text-sec); margin-bottom: 6px; font-weight: 500; }
+.pillar-card-note { font-size: 12.5px; color: var(--text-ter); font-style: italic; line-height: 1.6; }
+.pillar-verify { margin-top: 16px; padding: 13px 16px; border-radius: 8px; background: rgba(139,114,80,0.05); border: 0.5px solid rgba(139,114,80,0.18); font-size: 13px; color: var(--text-sec); line-height: 1.8; }
+.pillar-verify strong { color: var(--accent-dark); }
+
+
+/* ── Tier Badges ──────────────────────────────────────────────────────── */
+.tier-badge {
+  display: inline-block;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 8px;
+  vertical-align: middle;
+  line-height: 1.5;
+  font-family: 'Inter', sans-serif;
+}
+.tier-free     { background: rgba(60,150,90,0.1);  color: #2e7d48; border: 1px solid rgba(60,150,90,0.28); }
+.tier-pro      { background: rgba(180,130,50,0.1); color: #9a6b10; border: 1px solid rgba(180,130,50,0.28); }
+.tier-split    { background: rgba(70,110,190,0.1); color: #3a5fa0; border: 1px solid rgba(70,110,190,0.25); }
+.tier-internal { background: rgba(130,130,130,0.09); color: #777; border: 1px solid rgba(130,130,130,0.22); }
+.tier-self     { background: rgba(140,80,160,0.1); color: #7a3a9a; border: 1px solid rgba(140,80,160,0.25); }
+
 </style>
 </head>
 <body>
@@ -219,12 +281,12 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 
 <!-- HEADER -->
 <div class="doc-header">
-  <div class="doc-eyebrow">Elementum · Reference Document</div>
-  <div class="doc-title">Personality Guide</div>
-  <div class="doc-subtitle">Ten Stems &amp; Ten Gods — behavioral traits in plain language</div>
+  <div class="doc-eyebrow">Elementum · Internal Reference</div>
+  <div class="doc-title">Profile Database</div>
+  <div class="doc-subtitle">Ten Stems &amp; Ten Gods — complete behavioral profiles with classical source anchors</div>
   <div class="doc-meta">
-    <span>Doc 3 Source</span>
-    <span>Version 2.0</span>
+    <span>Internal Reference</span>
+    <span>Version 2.1</span>
     <span>April 2026</span>
     <span>Living Document</span>
   </div>
@@ -319,7 +381,15 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
       <div class="block-text">That they often don't know what they're building toward — only that they're building. The momentum is real. The destination is often genuinely unclear even to them, which is part of why the reaching can go in so many directions before finding the thing that's actually worth the full force.</div>
     </div>
 
-<div class="psych-footer">
+
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">甲木喜庚金克制，方能成材</div>
+      <div class="classical-anchor-en">“Raw wood becomes useful timber only when shaped by Metal — undirected growth produces abundance without form.”</div>
+      <div class="classical-anchor-deriv">甲 needs the defining force of Metal to convert reach into something that holds. The growth instinct is structurally real before the shaping; what the shaping produces is direction, not capability.</div>
+      <div class="classical-anchor-source">Source: 穷通宝鉴 / 三命通会 十干体象</div>
+    </div>
+    <div class="psych-footer">
       <div class="psych-footer-label">Psychology &amp; Archetype Resonances</div>
       <div class="psych-grid">
         <div class="psych-cell">
@@ -351,7 +421,7 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
       </div>
     </div>
     <div class="energy-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · keywords / what / represents</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · liunian</span><div class="energy-eyebrow-line"></div></div>
       <div class="energy-chip-row">
         <span class="energy-chip">Initiation</span>
         <span class="energy-chip">Rising ambition</span>
@@ -360,39 +430,39 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <span class="energy-chip">Upward thrust</span>
       </div>
       <div class="energy-block">
-        <div class="energy-block-label">What is this energy?</div>
+        <div class="energy-block-label">What is this energy? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">甲 is the first stem — the energy of spring's first upward break through frozen ground. Classically described as 木之阳 (the Yang of Wood), it represents a forceful, non-negotiable impulse to rise and expand. Think of the moment when a forest floor cracks open with new growth after winter: nothing deliberate, nothing negotiated — just life asserting itself upward. It is the atmosphere of "things beginning whether you're ready or not."</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">What does it represent in real life?</div>
+        <div class="energy-block-label">What does it represent in real life? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">New projects launching all around you. The feeling of ambition and possibility filling the environment. People becoming more assertive, initiating more, competing more openly. The conditions that make starting things feel natural and necessary. Also: the landscape gets crowded — more people reaching for the same things at the same time.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">When you encounter it in 流年大运</div>
+        <div class="energy-block-label">When you encounter it in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
         <div class="energy-block-text">When 甲 energy enters your luck cycle or annual pillar, it acts like the first warm week of spring — activating everything that was dormant. If you're positioned to initiate, this is the energy that provides momentum. If you're not ready to move, the pressure to start still arrives. Career opportunities emerge suddenly. Competitors become more visible. For those whose chart benefits from Wood energy, this is a period of genuine forward momentum; for those whose chart is already Wood-heavy, the excess can produce restlessness, overcommitment, or difficulty consolidating what's already been started.</div>
       </div>
     </div>
     <div class="manual-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · concentrated / open</span><span class="tier-badge tier-split" style="margin-left:6px;">FREE→PRO · catalyst</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · resistance</span><div class="energy-eyebrow-line"></div></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is concentrated — overpowering</div>
+        <div class="manual-block-label">When this energy is concentrated — overpowering <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">New ideas launch before old ones land. Commitments pile up faster than they can be honored. The chart or period is saturated with initiating energy — ambitious, restless, and difficult to anchor. The classical principle warns of "growth without harvest": energy expanding without converting into completed form. Restlessness is constant. Stillness feels impossible. The specific trap: more beginnings accumulate than can ever be finished, and the backlog slowly becomes its own weight.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is open — receptive or missing</div>
+        <div class="manual-block-label">When this energy is open — receptive or missing <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">Initiative is genuinely harder to find. The environment or person waits for external permission before moving. Starting things feels risky rather than natural. Leadership and forward visibility feel inaccessible — not from lack of capability but from lack of the upward-push energy that makes initiating feel worth the cost. Projects that need a champion stall at the beginning. Ambition may exist internally but stays unexpressed.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to seek and use it as a catalyst</div>
+        <div class="manual-block-label">How to seek and use it as a catalyst <span class="tier-badge tier-split">FREE teaser · PRO full</span></div>
         <div class="manual-block-text">Enter it by initiating the thing you have been circling — one specific thing, not ten. This is not a "plan more" energy; it is a "start now" energy. Commit to a direction and enter it fully before the window moves. Volunteer for the visible role, launch the project, make the first move in the relationship. The productive use is concentration of the initiating force, not dispersal. Outcome: things that had no momentum suddenly have it. Doors that required the right person to ask become accessible when you step forward as that person.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to release and channel it as resistance</div>
+        <div class="manual-block-label">How to release and channel it as resistance <span class="tier-badge tier-pro">PRO</span></div>
         <div class="manual-block-text">When 甲 energy is creating friction — growth impulse is competing with your structure rather than feeding it. Don't resist the initiating force; redirect it. Use the Metal quality (pruning, deciding, cutting options) to define which growth is worth nurturing. Stop adding beginnings — close enough open loops to make space for one thing to actually land. The corrective is not stillness but focus. Outcome: restlessness converts into directed momentum, and what was scatter becomes a clear line of forward motion.</div>
       </div>
     </div>
@@ -445,7 +515,15 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
     </div>
 
 
-<div class="psych-footer">
+
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">乙木至柔，逢难则屈，遇机则伸</div>
+      <div class="classical-anchor-en">“Yin Wood yields to difficulty and extends at opportunity — adaptive navigation is structural, not chosen.”</div>
+      <div class="classical-anchor-deriv">The navigation instinct is not accommodation; it is the mechanism by which 乙 arrives where it intended without announcing the route. Flexibility and purpose are the same operation.</div>
+      <div class="classical-anchor-source">Source: 子平真诈 / 滴天髓</div>
+    </div>
+    <div class="psych-footer">
       <div class="psych-footer-label">Psychology &amp; Archetype Resonances</div>
       <div class="psych-grid">
         <div class="psych-cell">
@@ -477,7 +555,7 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
       </div>
     </div>
     <div class="energy-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · keywords / what / represents</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · liunian</span><div class="energy-eyebrow-line"></div></div>
       <div class="energy-chip-row">
         <span class="energy-chip">Networking</span>
         <span class="energy-chip">Adaptive intelligence</span>
@@ -486,39 +564,39 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <span class="energy-chip">Finding the gap</span>
       </div>
       <div class="energy-block">
-        <div class="energy-block-label">What is this energy?</div>
+        <div class="energy-block-label">What is this energy? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">乙 is the energy of the vine after the tree — not the initial thrust but the intelligent navigation that follows. Classically described as the Wood that bends rather than breaks, it represents pervasive, penetrating growth that finds every available path. Where 甲 forces upward, 乙 feels its way forward. It is the atmosphere of "the smart path matters more than the direct one."</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">What does it represent in real life?</div>
+        <div class="energy-block-label">What does it represent in real life? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">Relationship dynamics becoming more important than raw capability. Opportunities arriving through connections rather than competition. The environment rewards those who read the room well, adapt quickly, and know how to work with people. Diplomacy outperforms force. Collaboration opens doors that confrontation closes.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">When you encounter it in 流年大运</div>
+        <div class="energy-block-label">When you encounter it in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
         <div class="energy-block-text">When 乙 energy enters your luck cycle or annual pillar, the environment shifts toward relationship-intelligence. Raw power becomes less effective; knowing the right people and reading the terrain correctly becomes decisive. Opportunities arrive through networking, referrals, and word of mouth rather than visible achievement. A period that rewards those who listen well and move flexibly — and frustrates those who only know how to push directly. For charts that benefit from Wood, this brings collaborative momentum; for those already Wood-heavy, it can produce over-accommodation or difficulty making firm decisions.</div>
       </div>
     </div>
     <div class="manual-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · concentrated / open</span><span class="tier-badge tier-split" style="margin-left:6px;">FREE→PRO · catalyst</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · resistance</span><div class="energy-eyebrow-line"></div></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is concentrated — overpowering</div>
+        <div class="manual-block-label">When this energy is concentrated — overpowering <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">Everything accommodates, nothing commits. The chart or period is saturated with relational intelligence — socially exhausting because the room-reading never stops. The classical trap: 柔弱 (too yielding) — the vine that never finds a surface firm enough to actually climb, and so keeps reaching in all directions simultaneously. Chronic over-adaptation gradually erodes position: you become expert at arriving where others wanted, and lose track of where you intended to go. Commitment feels like a trap because there are always other paths.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is open — receptive or missing</div>
+        <div class="manual-block-label">When this energy is open — receptive or missing <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">Relational intelligence gaps appear. The environment can only approach things directly — and direct force fails in complex political or relational terrain. Opportunities that require connection rather than competence get missed. Diplomacy becomes unavailable when it's most needed. Life becomes more transactional and confrontational, even when a side door was available and far easier. The texture of relationships turns blunt.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to seek and use it as a catalyst</div>
+        <div class="manual-block-label">How to seek and use it as a catalyst <span class="tier-badge tier-split">FREE teaser · PRO full</span></div>
         <div class="manual-block-text">Engage it through the relational field: network, collaborate, make the introduction, let others open the door. This energy rewards those who work through people rather than around them. The productive use is entering the room where the right connections already exist, not building something alone. Allow others to facilitate what direct effort would take three times as long to produce. Outcome: networks activate, referrals arrive, opportunities appear through relationship rather than visible achievement — and often move faster than any amount of direct pushing would.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to release and channel it as resistance</div>
+        <div class="manual-block-label">How to release and channel it as resistance <span class="tier-badge tier-pro">PRO</span></div>
         <div class="manual-block-text">When 乙 energy is creating friction — flexibility is working against your actual goal. You have read the room so accurately that you've accommodated yourself out of your original position. The corrective: name where you are going before you enter the adaptive mode. Know your destination clearly before you start finding routes around the obstacles. Don't add more flexibility — add a clear ending point for the navigation so it doesn't become permanent drift. Outcome: the adaptability becomes intelligent navigation rather than endless accommodation, and what was drift becomes a route.</div>
       </div>
     </div>
@@ -571,7 +649,15 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
     </div>
 
 
-<div class="psych-footer">
+
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">丙火乃太阳之火，普照万物，无所偏私</div>
+      <div class="classical-anchor-en">“Yang Fire illuminates all things equally — the warmth is structural, not personal.”</div>
+      <div class="classical-anchor-deriv">丙 does not choose what to illuminate. The light reaches what it reaches. This is the source of both the gift (universal warmth) and the cost (no privacy for itself or others in its field).</div>
+      <div class="classical-anchor-source">Source: 子平真诈 / 三命通会 十干体象</div>
+    </div>
+    <div class="psych-footer">
       <div class="psych-footer-label">Psychology &amp; Archetype Resonances</div>
       <div class="psych-grid">
         <div class="psych-cell">
@@ -603,7 +689,7 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
       </div>
     </div>
     <div class="energy-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · keywords / what / represents</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · liunian</span><div class="energy-eyebrow-line"></div></div>
       <div class="energy-chip-row">
         <span class="energy-chip">Visibility</span>
         <span class="energy-chip">Public exposure</span>
@@ -612,39 +698,39 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <span class="energy-chip">Everything in the light</span>
       </div>
       <div class="energy-block">
-        <div class="energy-block-label">What is this energy?</div>
+        <div class="energy-block-label">What is this energy? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">丙 is the sun — the great broadcasting fire that lights everything simultaneously. Classically described as 火之阳 (the Yang of Fire), it is outward, radiant, and indiscriminate: it warms what it reaches and illuminates what it touches without choosing. The classical texts describe 丙 as giving warmth and light to all things under heaven. It is the atmosphere of "nothing stays hidden; everything becomes more visible."</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">What does it represent in real life?</div>
+        <div class="energy-block-label">What does it represent in real life? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">Public recognition opportunities. Career visibility increasing. Social environments expanding and becoming more energized. Fame and reputation becoming relevant — for better and for worse. What has been built becomes more publicly known. Equally, what has been concealed becomes harder to keep covered. It is the energy of the spotlight.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">When you encounter it in 流年大运</div>
+        <div class="energy-block-label">When you encounter it in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
         <div class="energy-block-text">When 丙 energy enters your luck cycle or annual pillar, visibility increases across the board. If you have built something worth showing, this is when it gets seen. Career recognition can arrive quickly. Social networks expand. Opportunities come through being publicly known rather than quietly competent. The shadow is equally real: 丙 reveals everything, including what wasn't meant to be seen. For charts that benefit from Fire, this is an activating period of genuine recognition; for those already Fire-heavy, the excess can produce burnout, overexposure, or reputation risk.</div>
       </div>
     </div>
     <div class="manual-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · concentrated / open</span><span class="tier-badge tier-split" style="margin-left:6px;">FREE→PRO · catalyst</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · resistance</span><div class="energy-eyebrow-line"></div></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is concentrated — overpowering</div>
+        <div class="manual-block-label">When this energy is concentrated — overpowering <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">Everything is lit up — and nothing remains private. Social momentum and recognition are high. But excess 丙 is literal overexposure: work that wasn't ready gets seen, private things become public, and being "on" continuously becomes genuinely depleting. The classical warning: 火炎土燥 (fire blazes, earth scorches) — when Fire becomes excessive, the ground beneath it dries and cracks. The environment becomes brilliant but unstable, high-energy but exhausting. Reputation risk increases alongside recognition opportunity.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is open — receptive or missing</div>
+        <div class="manual-block-label">When this energy is open — receptive or missing <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">Visibility is genuinely harder to access. Quality work exists but doesn't surface. The person or environment struggles to be noticed despite having real substance. Social connections feel effortful rather than natural. The classical image: a lantern inside a jar — the flame is real but the light doesn't reach others. Career recognition requires ten times more effort than it should because the radiance that would carry the work outward is simply not present.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to seek and use it as a catalyst</div>
+        <div class="manual-block-label">How to seek and use it as a catalyst <span class="tier-badge tier-split">FREE teaser · PRO full</span></div>
         <div class="manual-block-text">Activate it by entering public or visible contexts: put the work in front of others, attend the gathering, publish the piece, take the speaking slot. This is not a "refine quietly" energy — it produces momentum specifically through being seen. Don't wait until everything is perfect. Enter the spotlight when it's available. Outcome: recognition accelerates when conditions align. Career momentum that felt stuck suddenly moves because visibility has been restored and the quality that was invisible is now landing.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to release and channel it as resistance</div>
+        <div class="manual-block-label">How to release and channel it as resistance <span class="tier-badge tier-pro">PRO</span></div>
         <div class="manual-block-text">When 丙 energy is creating friction — warmth and visibility are running ahead of what the chart can sustain. The exposure is broader than the structure behind it can support. Channel it by directing exposure strategically rather than broadcasting broadly. Use the Water quality (depth, selectivity, substance) to give form to what's being shown — choose specific audiences, specific contexts, specific moments. Outcome: overexposure converts into targeted presence, and what felt like scatter becomes a signal that actually lands.</div>
       </div>
     </div>
@@ -698,7 +784,15 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
     </div>
 
 
-<div class="psych-footer">
+
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">丁火内薐，有时如灯烛之明，有时如炉中炼金之火</div>
+      <div class="classical-anchor-en">“Yin Fire holds internally — sometimes the candle’s illumination, sometimes the forge’s heat.”</div>
+      <div class="classical-anchor-deriv">丁 illuminates completely what it is pointed at and nothing more. The shift from candle to forge requires continuous fuel — the ongoing presence of something genuinely worth the full precision.</div>
+      <div class="classical-anchor-source">Source: 三命通会 十干体象</div>
+    </div>
+    <div class="psych-footer">
       <div class="psych-footer-label">Psychology &amp; Archetype Resonances</div>
       <div class="psych-grid">
         <div class="psych-cell">
@@ -730,7 +824,7 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
       </div>
     </div>
     <div class="energy-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · keywords / what / represents</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · liunian</span><div class="energy-eyebrow-line"></div></div>
       <div class="energy-chip-row">
         <span class="energy-chip">Focused insight</span>
         <span class="energy-chip">Careful examination</span>
@@ -739,39 +833,39 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <span class="energy-chip">Precision light</span>
       </div>
       <div class="energy-block">
-        <div class="energy-block-label">What is this energy?</div>
+        <div class="energy-block-label">What is this energy? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">丁 is the candle or the forge fire — concentrated, intentional, illuminating exactly what it points at. Where 丙 lights everything, 丁 lights one thing completely. Classically described as the refining and illuminating fire used to work metal and reveal detail, it is the energy of careful examination rather than broad visibility. It is the atmosphere of "the details that were missed before now come into focus."</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">What does it represent in real life?</div>
+        <div class="energy-block-label">What does it represent in real life? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">Learning, skill development, and careful refinement becoming more productive than broad expansion. The fine print in agreements becoming relevant. Relationships and projects kept at surface level getting examined more closely. Spiritual and intellectual insight becoming more accessible. The value of precision and quality rising relative to scale.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">When you encounter it in 流年大运</div>
+        <div class="energy-block-label">When you encounter it in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
         <div class="energy-block-text">When 丁 energy enters your luck cycle or annual pillar, the environment rewards attention to detail and careful development over broad ambition. Skills cultivated during this period tend to be genuinely refined. Examinations — literal and figurative — go well for those who have prepared carefully. Agreements and commitments should be read closely. For charts that benefit from Fire, this brings focused development and meaningful insight; for those already Fire-heavy, it can produce overthinking, excessive self-examination, or anxiety from looking too closely at everything at once.</div>
       </div>
     </div>
     <div class="manual-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · concentrated / open</span><span class="tier-badge tier-split" style="margin-left:6px;">FREE→PRO · catalyst</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · resistance</span><div class="energy-eyebrow-line"></div></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is concentrated — overpowering</div>
+        <div class="manual-block-label">When this energy is concentrated — overpowering <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">The examining quality becomes exhaustive. Every detail gets scrutinized, every relationship gets held to a standard of depth it may not be designed for, every piece of work gets refined past the point of value. The classical problem: excess 丁 burns away what it examines — the candle that runs out of its own fuel. Anxiety emerges from examining everything and finding it insufficient. The environment becomes demanding and intense rather than illuminating. The precision becomes punishing rather than refining.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is open — receptive or missing</div>
+        <div class="manual-block-label">When this energy is open — receptive or missing <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">Things stay at surface level. Work is produced but not polished. Relationships remain pleasant but never reach real depth. The "notice what others miss" quality is not accessible. There may be energy — perhaps broad warmth from 丙 — but no concentrated, directional light. The specific deficit: work gets started and finished, but the layer beneath the surface — where the genuine quality lives — remains undeveloped.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to seek and use it as a catalyst</div>
+        <div class="manual-block-label">How to seek and use it as a catalyst <span class="tier-badge tier-split">FREE teaser · PRO full</span></div>
         <div class="manual-block-text">Activate it by going deeper into one thing rather than broader across many. Study the subject fully, not partially. Have the one-on-one conversation that a group setting would prevent. Revise the work one more time past where it felt done. Develop the skill to the level where it actually distinguishes you rather than merely qualifying you. Outcome: depth produces results that breadth never could. What is made in this focused state carries a quality that persists across time and resists erosion by competition.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to release and channel it as resistance</div>
+        <div class="manual-block-label">How to release and channel it as resistance <span class="tier-badge tier-pro">PRO</span></div>
         <div class="manual-block-text">When 丁 energy is creating friction — precision is examining rather than building. The scrutiny is consuming the energy that should go into output. The corrective: set a completion point before you begin — decide in advance what "done" looks like, so the refining faculty has a finish line. Once that point is reached, move the examining quality to the next project rather than continuing to refine the current one. Outcome: precision lands constructively rather than circling endlessly, and what was paralysis becomes a sequence of genuinely completed things.</div>
       </div>
     </div>
@@ -824,7 +918,15 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
     </div>
 
 
-<div class="psych-footer">
+
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">戊无水则熥 / 春土无火则寒</div>
+      <div class="classical-anchor-en">“Earth without Water becomes dry; Spring Earth without Fire remains cold.”</div>
+      <div class="classical-anchor-deriv">Apply only to the relevant condition. Dry Earth: stability without perceptual depth becomes rigid and inaccessible. Cold Earth: stability without activation becomes inert weight rather than living ground.</div>
+      <div class="classical-anchor-source">Source: 子平真诈 / 穷通宝鉴</div>
+    </div>
+    <div class="psych-footer">
       <div class="psych-footer-label">Psychology &amp; Archetype Resonances</div>
       <div class="psych-grid">
         <div class="psych-cell">
@@ -856,7 +958,7 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
       </div>
     </div>
     <div class="energy-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · keywords / what / represents</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · liunian</span><div class="energy-eyebrow-line"></div></div>
       <div class="energy-chip-row">
         <span class="energy-chip">Consolidation</span>
         <span class="energy-chip">Foundation</span>
@@ -865,39 +967,39 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <span class="energy-chip">Accumulation</span>
       </div>
       <div class="energy-block">
-        <div class="energy-block-label">What is this energy?</div>
+        <div class="energy-block-label">What is this energy? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">戊 is the mountain or the great plain — immovable, orienting, the accumulating ground. Classically described as 土之阳 (the Yang of Earth), it is the energy of settled, solid, load-bearing stability. 三命通会 describes 戊 as the earth that "stands without moving" — the reference point by which other things find their position. It is the atmosphere of "things solidify and slow; what is built now is built to last."</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">What does it represent in real life?</div>
+        <div class="energy-block-label">What does it represent in real life? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">Real estate, property, and physical assets becoming more prominent. Consolidation of resources and positions. The environment favoring stability and reliability over speed and novelty. Long-term commitments and foundations gaining importance. Things taking longer to move — ideal if you are building something meant to endure, frustrating if you are pushing for rapid change.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">When you encounter it in 流年大运</div>
+        <div class="energy-block-label">When you encounter it in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
         <div class="energy-block-text">When 戊 energy enters your luck cycle or annual pillar, the environment shifts toward consolidation and foundation-building. Property matters become more significant. Career positions and relationships that were fluid start to solidify — sometimes helpfully, sometimes constrainingly. The pace of change slows. Reliability and consistency become more valuable than innovation. For charts that benefit from Earth, this is a grounding, stabilizing period of genuine accumulation; for those already Earth-heavy, the excess can produce stagnation, difficulty changing course, or a heaviness that makes movement feel impossible.</div>
       </div>
     </div>
     <div class="manual-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · concentrated / open</span><span class="tier-badge tier-split" style="margin-left:6px;">FREE→PRO · catalyst</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · resistance</span><div class="energy-eyebrow-line"></div></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is concentrated — overpowering</div>
+        <div class="manual-block-label">When this energy is concentrated — overpowering <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">The grounding quality becomes literal heaviness. Things that should move don't. Decisions that should be made get postponed. Weight accumulates without being processed. Classical texts warn 土重则滞 (excess Earth creates stagnation) — when the Mountain grows too dense, nothing moves across it. Opportunities pass because the inertia of consolidation prevents engagement with what's new. The environment becomes utterly reliable but genuinely stuck. Stability, which was the gift, becomes the trap when it refuses to distinguish between what should be held and what should be released.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is open — receptive or missing</div>
+        <div class="manual-block-label">When this energy is open — receptive or missing <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">Foundational stability is hard to access. Things don't land or hold. Projects start but don't root — growth happens above ground, but there's no foundation for it to anchor into. Financial and physical accumulation is more difficult. The environment feels unstable or mobile in ways that are exhausting rather than exciting. Others can't build on what you offer because the surface keeps shifting before they get a chance to establish themselves on it.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to seek and use it as a catalyst</div>
+        <div class="manual-block-label">How to seek and use it as a catalyst <span class="tier-badge tier-split">FREE teaser · PRO full</span></div>
         <div class="manual-block-text">Activate it by doing the foundation work: establish the structure, formalize the arrangement, secure the position, sign the commitment. This is not a "explore and expand" energy — it is "consolidate what you have and make it permanent." The productive use is making the tentative fixed. Outcome: what was provisional becomes stable. Resources stop moving and start accumulating. What is built now stays built in a way that the previous period of movement never allowed, and the groundwork laid here supports the next several years of activity on top of it.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to release and channel it as resistance</div>
+        <div class="manual-block-label">How to release and channel it as resistance <span class="tier-badge tier-pro">PRO</span></div>
         <div class="manual-block-text">When 戊 energy is creating friction — stability is working against the movement the chart needs. The ground is too fixed to accommodate necessary change. Don't try to remove the Mountain; find the path it allows. Use Wood energy (growth impulse, directionality) to create movement within the structure rather than against it — not breaking the foundation, but finding where within it something new can grow. Outcome: resistance becomes framework, and what felt like an obstacle becomes the specific form within which something worthwhile can be built.</div>
       </div>
     </div>
@@ -951,7 +1053,15 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 
 
 
-        <div class="psych-footer">
+        
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">己土湿润，滋生万物；己土过湿则混浊</div>
+      <div class="classical-anchor-en">“Moist Earth nourishes all things — but Earth over-saturated loses its cultivating quality and becomes mud.”</div>
+      <div class="classical-anchor-deriv">己 nourishes from below, without announcement. The excess state is not too much giving — it is giving without filtration, absorbing what it should have let pass.</div>
+      <div class="classical-anchor-source">Source: 子平真诈 / 三命通会 十干体象</div>
+    </div>
+    <div class="psych-footer">
       <div class="psych-footer-label">Psychology &amp; Archetype Resonances</div>
       <div class="psych-grid">
         <div class="psych-cell"><div class="psych-cell-label">Big Five</div><div class="psych-cell-text">High Agreeableness (both Compassion and Politeness facets) · moderate Conscientiousness · variable Extraversion — parental investment theory, not simple agreeableness</div></div>
@@ -970,7 +1080,7 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
       </div>
     </div>
 <div class="energy-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · keywords / what / represents</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · liunian</span><div class="energy-eyebrow-line"></div></div>
       <div class="energy-chip-row">
         <span class="energy-chip">Cultivation</span>
         <span class="energy-chip">Slow nourishment</span>
@@ -979,39 +1089,39 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <span class="energy-chip">Patient growth</span>
       </div>
       <div class="energy-block">
-        <div class="energy-block-label">What is this energy?</div>
+        <div class="energy-block-label">What is this energy? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">己 is the cultivated field — fertile, absorptive, responsive to what is planted. Where 戊 holds firm and does not yield, 己 receives and nourishes what it receives. Classically described as the earth that "produces and nurtures," it is the energy of patient, receptive cultivation. It does not force growth; it creates the conditions for growth to happen. It is the atmosphere of "what you plant now grows slowly and deeply."</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">What does it represent in real life?</div>
+        <div class="energy-block-label">What does it represent in real life? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">Health and wellbeing becoming a more prominent theme. Long-term investments — financial, relational, and personal — becoming more productive. The environment rewarding patience and careful cultivation over aggressive acquisition. Relationships that were casual deepening. Projects that were broad becoming more specific and nourishing. The body and its needs becoming harder to ignore.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">When you encounter it in 流年大运</div>
+        <div class="energy-block-label">When you encounter it in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
         <div class="energy-block-text">When 己 energy enters your luck cycle or annual pillar, the environment supports patient cultivation over quick results. Health matters tend to surface — both as concerns requiring attention and as an opportunity for genuine restoration. Long-term investments begin paying quiet dividends. Relationships deepen rather than expand. This is not a period for dramatic moves; it is a period for developing what is already growing. For charts that benefit from Earth, this brings genuine nourishment and productive development; for those already Earth-heavy, the excess can produce overthinking, accumulation of worry, or a tendency to absorb others' difficulties without adequate filtration.</div>
       </div>
     </div>
     <div class="manual-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · concentrated / open</span><span class="tier-badge tier-split" style="margin-left:6px;">FREE→PRO · catalyst</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · resistance</span><div class="energy-eyebrow-line"></div></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is concentrated — overpowering</div>
+        <div class="manual-block-label">When this energy is concentrated — overpowering <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">The receptive and nurturing quality becomes absorptive without filtration. The environment or person pulls in difficulties as readily as it nourishes growth. Classical texts describe 己土混浊 (己 Earth becomes muddy) — when the fertile soil absorbs too much without drainage, it loses its cultivating quality entirely and becomes mud. Overthinking, rumination, and carrying others' emotional weight characterizes the excess state. The Field grows weeds as readily as it grows crops when there's no selectivity about what gets tended.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is open — receptive or missing</div>
+        <div class="manual-block-label">When this energy is open — receptive or missing <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">The patient-development quality is absent. Growth happens but nothing is tended. People and projects are initiated but not cultivated. The environment lacks the quiet, sustained presence that allows things to develop at their natural pace — which means the depth of development that slow nourishment produces simply never arrives. Quick results get prioritized over lasting ones, and nothing reaches the quality it could have reached with genuine care.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to seek and use it as a catalyst</div>
+        <div class="manual-block-label">How to seek and use it as a catalyst <span class="tier-badge tier-split">FREE teaser · PRO full</span></div>
         <div class="manual-block-text">Activate it by investing attention and care in what is already growing rather than starting something new. This is the energy for tending: deepening existing relationships, developing skills that have already been started, returning to projects that were begun but not fully cultivated. It specifically rewards patience — what receives genuine care and attention now develops into something of real substance over the next period. Outcome: things that were beginning deepen, relationships that were forming solidify, work that was surface-level becomes genuinely developed.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to release and channel it as resistance</div>
+        <div class="manual-block-label">How to release and channel it as resistance <span class="tier-badge tier-pro">PRO</span></div>
         <div class="manual-block-text">When 己 energy is creating friction — the absorptive quality is pulling in more than the chart can process. Obligations, relationships, and projects are accumulating faster than they can be properly nurtured. The corrective is deliberate selectivity: explicitly choose what deserves the cultivation energy and stop absorbing what doesn't. Use Metal energy (boundary, definition, cutting) to create filtration — allowing only the right material into the nurturing field. Outcome: caregiving becomes targeted and powerful rather than diffuse and depleting, and what was an endless drain converts into sustainable, productive investment.</div>
       </div>
     </div>
@@ -1065,7 +1175,15 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 
 
 
-        <div class="psych-footer">
+        
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">金逢火炼方成器 / 金逢火炼方显锋芒</div>
+      <div class="classical-anchor-en">“Metal without fire remains potential — the forge reveals what the edge actually is.”</div>
+      <div class="classical-anchor-deriv">庚 needs the encounter with genuine resistance to become what it structurally is. The precision is real before the test; what the test produces is direction, not the capability itself.</div>
+      <div class="classical-anchor-source">Source: 穷通宝鉴 / 三命通会 十干体象</div>
+    </div>
+    <div class="psych-footer">
       <div class="psych-footer-label">Psychology &amp; Archetype Resonances</div>
       <div class="psych-grid">
         <div class="psych-cell"><div class="psych-cell-label">Big Five</div><div class="psych-cell-text">High Conscientiousness/Industriousness · Low Agreeableness/Politeness · lower Neuroticism — evaluation as structural default, not as active choice</div></div>
@@ -1085,7 +1203,7 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
       </div>
     </div>
 <div class="energy-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · keywords / what / represents</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · liunian</span><div class="energy-eyebrow-line"></div></div>
       <div class="energy-chip-row">
         <span class="energy-chip">Reform</span>
         <span class="energy-chip">Decisive restructuring</span>
@@ -1094,39 +1212,39 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <span class="energy-chip">Defined edges</span>
       </div>
       <div class="energy-block">
-        <div class="energy-block-label">What is this energy?</div>
+        <div class="energy-block-label">What is this energy? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">庚 is the blade, the axe, the harvest tool — the Yang Metal that cuts, defines, and restructures. Classically described as 金之阳 (the Yang of Metal), it is the energy of forced decision and structural clarity. The classical texts describe 庚 as the force that "cuts away what is complete to reveal what remains." Where Wood grows and Earth accumulates, Metal defines. It is the atmosphere of "what was vague becomes clear, often by force; what was finished gets cut away."</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">What does it represent in real life?</div>
+        <div class="energy-block-label">What does it represent in real life? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">Major restructuring in environments — organizational, governmental, relational. Forced decisions on matters that were being kept ambiguous. Endings of cycles that had been quietly completed but not yet formally closed. Competitive pressure increasing. The need for decisive action in career and personal matters. Contracts and agreements being written, enforced, or terminated.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">When you encounter it in 流年大运</div>
+        <div class="energy-block-label">When you encounter it in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
         <div class="energy-block-text">When 庚 energy enters your luck cycle or annual pillar, the environment demands clarity and decision. Things that were vague get defined — by choice or by circumstance. Relationships and situations that were being kept in comfortable ambiguity get resolved, often sharply. Restructuring happens around you and possibly to you. This period rewards those who can act decisively and punishes those who avoid decisions past the deadline. For charts that benefit from Metal, this brings productive definition and momentum-clearing restructuring; for those already Metal-heavy, the excess can produce conflict, unnecessary cutting of things not yet finished, or a bluntness that damages what it was meant to sharpen.</div>
       </div>
     </div>
     <div class="manual-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · concentrated / open</span><span class="tier-badge tier-split" style="margin-left:6px;">FREE→PRO · catalyst</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · resistance</span><div class="energy-eyebrow-line"></div></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is concentrated — overpowering</div>
+        <div class="manual-block-label">When this energy is concentrated — overpowering <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">The evaluating and cutting force is relentless. Everything gets assessed; everything gets cut to shape. Highly productive for those who benefit from defined edges and clear decisions. Damaging for those who needed more time or more flexibility — the cutting happens regardless of readiness. Classical texts warn 金旺伤木 (strong Metal injures Wood) — when Metal is excessive, it cuts down what was still growing, including what should have been given more time. The danger is cutting too early, deciding too harshly, and removing things that needed more development before they were ready to be shaped.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is open — receptive or missing</div>
+        <div class="manual-block-label">When this energy is open — receptive or missing <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">The ability to make definitive decisions, set clear limits, and close what is finished becomes genuinely harder. Things that are complete don't get properly ended. Ambiguity lingers past the point where it serves anyone. Relationships and projects that should close continue because there is no cutting force available to bring them to a clean conclusion. The environment feels gentler but more cluttered — less decisive, more unresolved, more drained by the energy required to maintain what should have ended.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to seek and use it as a catalyst</div>
+        <div class="manual-block-label">How to seek and use it as a catalyst <span class="tier-badge tier-split">FREE teaser · PRO full</span></div>
         <div class="manual-block-text">Activate it by making the decision you have been deferring. This energy specifically rewards categorical commitment: the contract signed, the option closed, the position stated clearly, the boundary set. Don't hedge — the productive use of this energy is definitiveness. One clear decision is worth ten careful ones that stay provisional. Outcome: clarity replaces ambiguity and frees up the energy that was being spent maintaining the unresolved situation. What was clouded becomes specific. Direction becomes actionable.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to release and channel it as resistance</div>
+        <div class="manual-block-label">How to release and channel it as resistance <span class="tier-badge tier-pro">PRO</span></div>
         <div class="manual-block-text">When 庚 energy is creating friction — the cutting force is removing what the chart needed to preserve, or pressing on growth energy in a way that damages rather than shapes it. The corrective is to redirect the precision toward what is actually finished rather than what is merely inconvenient or imperfect. Use the Fire quality (clarity of purpose, warmth of direction) to identify what the precision is actually for — so the blade knows what to spare. Outcome: the force becomes surgical rather than indiscriminate, and what was damaging becomes defining.</div>
       </div>
     </div>
@@ -1179,7 +1297,15 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 
 
 
-        <div class="psych-footer">
+        
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">辛金性柔，须见丙火照耀，方能光彩夺目</div>
+      <div class="classical-anchor-en">“Yin Metal requires the Sun’s light to reveal its inner quality — refinement needs the right illumination.”</div>
+      <div class="classical-anchor-deriv">辛 perceives excellence before analysis. The catalyst specifies what the discernment is for — without it, the standard runs without a target and becomes self-consuming.</div>
+      <div class="classical-anchor-source">Source: 穷通宝鉴 / 子平真诈</div>
+    </div>
+    <div class="psych-footer">
       <div class="psych-footer-label">Psychology &amp; Archetype Resonances</div>
       <div class="psych-grid">
         <div class="psych-cell"><div class="psych-cell-label">Big Five</div><div class="psych-cell-text">High Openness/Aesthetics (quality-seeking, not truth-seeking) · High Conscientiousness/Orderliness · moderate-low Extraversion — healthy vs. maladaptive perfectionism axis</div></div>
@@ -1198,7 +1324,7 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
       </div>
     </div>
 <div class="energy-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · keywords / what / represents</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · liunian</span><div class="energy-eyebrow-line"></div></div>
       <div class="energy-chip-row">
         <span class="energy-chip">Evaluation</span>
         <span class="energy-chip">Reward and consequence</span>
@@ -1207,39 +1333,39 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <span class="energy-chip">Accounting</span>
       </div>
       <div class="energy-block">
-        <div class="energy-block-label">What is this energy?</div>
+        <div class="energy-block-label">What is this energy? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">辛 is the refined metal — the jewel after the forge, the precise edge after the grinding. Where 庚 cuts broadly, 辛 evaluates with precision. Classically, 辛 represents metal that has already been shaped — the stage of assessment and recognition that follows the restructuring 庚 began. 穷通宝鉴 notes that 辛 carries an inherent quality of "revealing true value." It is the atmosphere of "what things are actually worth becomes visible; past efforts receive their accurate measure."</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">What does it represent in real life?</div>
+        <div class="energy-block-label">What does it represent in real life? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">Recognition for past work arriving — both positive recognition and accountability for what was poorly done. The quality of what has been built being assessed honestly. Rewards for genuine excellence. Consequences for corners that were cut. Aesthetic and creative standards becoming more relevant. Fine-tuning and optimization of existing systems producing results.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">When you encounter it in 流年大运</div>
+        <div class="energy-block-label">When you encounter it in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
         <div class="energy-block-text">When 辛 energy enters your luck cycle or annual pillar, the environment shifts into evaluation mode. If you have built something genuinely excellent, this is when it gets recognized. If work was shoddy or commitments were not honored, this is when the invoice arrives. Rewards and consequences from the previous cycle become visible. Aesthetic and quality matters take on more relevance — in career, in relationships, in creative work. For charts that benefit from Metal, this is a period of genuine recognition and refinement; for those already Metal-heavy, the excess can produce hypercritical evaluation of everything, perfectionism that prevents completion, or a sharpness that registers as coldness in relationships.</div>
       </div>
     </div>
     <div class="manual-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · concentrated / open</span><span class="tier-badge tier-split" style="margin-left:6px;">FREE→PRO · catalyst</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · resistance</span><div class="energy-eyebrow-line"></div></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is concentrated — overpowering</div>
+        <div class="manual-block-label">When this energy is concentrated — overpowering <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">The evaluative standard is applied to everything simultaneously with no relief. The environment produces either remarkable quality or paralysis — the discernment that should enable excellence instead prevents completion. Relationships and situations that don't meet the implicit standard become genuinely difficult to engage with. Classical texts note that excess 辛 Metal produces rigidity of aesthetic judgment — the jeweler so committed to perfection that no gem ever leaves the workshop. Self-criticism intensifies. The standard keeps moving just past wherever the work has arrived.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is open — receptive or missing</div>
+        <div class="manual-block-label">When this energy is open — receptive or missing <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">Discernment and quality-sensing are reduced. Things are produced without adequate evaluation. Work looks fine on the surface but doesn't hold up over time or under close examination. The environment loses its ability to distinguish what is genuinely excellent from what merely appears excellent. Recognition of real quality becomes unreliable — people accept substitutes they would have rejected had the discernment been present to notice the difference.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to seek and use it as a catalyst</div>
+        <div class="manual-block-label">How to seek and use it as a catalyst <span class="tier-badge tier-split">FREE teaser · PRO full</span></div>
         <div class="manual-block-text">Activate it by intentionally raising the standard of what you produce and what you accept. This is the period for genuine refinement: the revision that makes the work actually excellent rather than merely presentable, the relationship investment that makes the connection actually deep rather than merely consistent, the decision that reflects what you actually value rather than what is most convenient. Outcome: what is produced in this period carries lasting quality and remains recognizable as excellent well past the moment it was created. Recognition arrives for the refinement specifically.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to release and channel it as resistance</div>
+        <div class="manual-block-label">How to release and channel it as resistance <span class="tier-badge tier-pro">PRO</span></div>
         <div class="manual-block-text">When 辛 energy is creating friction — the discernment is running at a level that prevents output. The evaluating quality is being used to disqualify rather than develop. The corrective: set the completion criterion before beginning, not during. Decide in advance what "excellent enough to release" looks like, so the discernment has a defined finish line rather than an open-ended mandate to keep refining. Use Water energy (flow, depth, forward movement) to give the precision somewhere to go beyond itself. Outcome: evaluation produces completion rather than endless refinement, and the standard becomes generative rather than paralyzing.</div>
       </div>
     </div>
@@ -1293,7 +1419,15 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 
 
 
-        <div class="psych-footer">
+        
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">壬水奔流，无土则泄</div>
+      <div class="classical-anchor-en">“Yang Water rushes outward — without Earth to channel it, it disperses without irrigating.”</div>
+      <div class="classical-anchor-deriv">壬 needs structure to channel its intelligence into something that lands. The depth is real before the banks; what the banks produce is direction, not the intelligence itself.</div>
+      <div class="classical-anchor-source">Source: 子平真诈 / 三命通会 十干体象</div>
+    </div>
+    <div class="psych-footer">
       <div class="psych-footer-label">Psychology &amp; Archetype Resonances</div>
       <div class="psych-grid">
         <div class="psych-cell"><div class="psych-cell-label">Big Five</div><div class="psych-cell-text">High Openness/Intellect · lower Extraversion Enthusiasm · High Industriousness · variable Neuroticism — competence and autonomy needs extremely high</div></div>
@@ -1313,7 +1447,7 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
       </div>
     </div>
 <div class="energy-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · keywords / what / represents</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · liunian</span><div class="energy-eyebrow-line"></div></div>
       <div class="energy-chip-row">
         <span class="energy-chip">Movement</span>
         <span class="energy-chip">Flowing opportunity</span>
@@ -1322,39 +1456,39 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <span class="energy-chip">Boundary dissolution</span>
       </div>
       <div class="energy-block">
-        <div class="energy-block-label">What is this energy?</div>
+        <div class="energy-block-label">What is this energy? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">壬 is the great river or open ocean — vast, flowing, carrying everything with it. Classically described as 水之阳 (the Yang of Water), it is the energy of movement, passage, and systemic flow. 三命通会 describes 壬 as the water that "carries and moves all things forward." Where Earth consolidates and Metal defines, Water flows. It is the atmosphere of "things begin moving; opportunity flows in from unexpected directions; boundaries become less fixed."</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">What does it represent in real life?</div>
+        <div class="energy-block-label">What does it represent in real life? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">Career mobility and movement opportunities. Travel and expansion becoming natural and productive. Intellectual energy and curiosity increasing across the environment. Ambition energizing the social field. Opportunities arriving through flow — through being in the right currents — rather than through direct effort. Also: the potential for flooding, for dispersion, when there is no structure to channel the movement.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">When you encounter it in 流年大运</div>
+        <div class="energy-block-label">When you encounter it in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
         <div class="energy-block-text">When 壬 energy enters your luck cycle or annual pillar, things start moving. Career positions shift. Travel opens. Intellectual interests expand. Opportunities flow — sometimes all at once, requiring discernment about which currents to enter. The classical texts note that Yang Water without banks disperses and floods: this energy at its best requires structure and focus to channel productively. For charts that benefit from Water, this is a high-flow period of genuine opportunity and expanding intelligence; for those already Water-heavy, the excess can produce overwhelm, scattered attention, emotional flooding, or ambition that exceeds what the foundations can support.</div>
       </div>
     </div>
     <div class="manual-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · concentrated / open</span><span class="tier-badge tier-split" style="margin-left:6px;">FREE→PRO · catalyst</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · resistance</span><div class="energy-eyebrow-line"></div></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is concentrated — overpowering</div>
+        <div class="manual-block-label">When this energy is concentrated — overpowering <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">Everything flows at once — career mobility, intellectual expansion, ambition, opportunity. High energy. But excess 壬 without structure disperses: the intelligence ranges without landing, the ambition floods available structure, the movement goes in too many directions simultaneously. Classical texts warn 壬水泛滥 (Yang Water flooding) — when the Ocean overflows its banks, it doesn't irrigate the field; it destroys the crop. The environment becomes intellectually stimulating but practically unproductive. Too many currents pull in too many directions and nothing actually advances.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is open — receptive or missing</div>
+        <div class="manual-block-label">When this energy is open — receptive or missing <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">Systemic intelligence and movement are reduced. Career positions that should be mobile become fixed. Intellectual curiosity narrows. The depth of understanding that comes from holding many frameworks simultaneously — the quality of perceiving the whole system at once — is less accessible. Decisions get made with less information than is available because the capacity to perceive depth is not fully engaged. Life becomes more local, more predictable, and more limited in range than the chart's actual capacity warrants.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to seek and use it as a catalyst</div>
+        <div class="manual-block-label">How to seek and use it as a catalyst <span class="tier-badge tier-split">FREE teaser · PRO full</span></div>
         <div class="manual-block-text">Activate it by entering movement: change the environment, take the trip, begin the intellectual pursuit that has been deferred, apply for the position that requires relocation or expansion. This energy rewards those who enter the current rather than waiting on the bank. Don't try to control the direction — learn to read where the flow is going and position yourself there. Outcome: career mobility arrives naturally when you stop resisting movement. Opportunities flow from directions that stationary positioning would never have reached, often arriving faster than effort-based strategies would have produced.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to release and channel it as resistance</div>
+        <div class="manual-block-label">How to release and channel it as resistance <span class="tier-badge tier-pro">PRO</span></div>
         <div class="manual-block-text">When 壬 energy is creating friction — flow is running against the chart's structure rather than through it. Too much movement has dispersed what needed to concentrate. The corrective is to introduce Earth energy (consolidation, containment, banks) — not to stop the Water but to give it shape. Identify specifically where the intelligence and energy should land, and build enough structure to allow accumulation rather than flooding. Outcome: movement becomes purposeful flow rather than dispersal, and what was scatter becomes a current going somewhere specific.</div>
       </div>
     </div>
@@ -1408,7 +1542,15 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 
 
 
-        <div class="psych-footer">
+        
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">癸水如雨露，无处不至，渗透滋润</div>
+      <div class="classical-anchor-en">“Yin Water permeates everywhere without announcing itself — nourishing in secret, completing what is unseen.”</div>
+      <div class="classical-anchor-deriv">癸 attunes continuously. The sensitivity is structurally always running. The catalyst specifies what the attunement is for — without it, the perception absorbs without distinguishing what is its own.</div>
+      <div class="classical-anchor-source">Source: 子平真诈 / 穷通宝鉴</div>
+    </div>
+    <div class="psych-footer">
       <div class="psych-footer-label">Psychology &amp; Archetype Resonances</div>
       <div class="psych-grid">
         <div class="psych-cell"><div class="psych-cell-label">Big Five</div><div class="psych-cell-text">High Neuroticism/Withdrawal (perceptual, not anxious) · High Agreeableness/Compassion · lower Extraversion — Aron's Highly Sensitive Person (HSP) framework is the most precise analog</div></div>
@@ -1428,7 +1570,7 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
       </div>
     </div>
 <div class="energy-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · keywords / what / represents</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · liunian</span><div class="energy-eyebrow-line"></div></div>
       <div class="energy-chip-row">
         <span class="energy-chip">Completion</span>
         <span class="energy-chip">Hidden truth surfacing</span>
@@ -1437,43 +1579,75 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <span class="energy-chip">Cycle endings</span>
       </div>
       <div class="energy-block">
-        <div class="energy-block-label">What is this energy?</div>
+        <div class="energy-block-label">What is this energy? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">癸 is the rain, the mist, the pervasive moisture that seeps through everything without announcing itself. Classically described as the final stem — the culminating, completing water — 癸 represents the energy of endings becoming clear and hidden things rising to the surface. 子平真诠 describes 癸 as water that "nourishes in secret and completes what is unseen." It is the atmosphere of "what was hidden comes to light; what is ending becomes visible; reflection becomes more productive than action."</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">What does it represent in real life?</div>
+        <div class="energy-block-label">What does it represent in real life? <span class="tier-badge tier-free">FREE</span></div>
         <div class="energy-block-text">Completion of cycles and projects that had been running for a long time. Hidden information surfacing — sometimes gently, sometimes as a surprise. Spiritual and reflective periods becoming more productive than outward action. Intuitive accuracy increasing. Endings that prepare space for what comes next. The body's need for rest and restoration becoming harder to suppress.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="energy-block">
-        <div class="energy-block-label">When you encounter it in 流年大运</div>
+        <div class="energy-block-label">When you encounter it in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
         <div class="energy-block-text">When 癸 energy enters your luck cycle or annual pillar, things complete and hidden truths surface. What has been quietly building over the previous cycle — good work, neglected maintenance, deferred consequences — tends to become visible. This is a period for honest reflection and honest assessment more than aggressive expansion. Spiritual and inner development tends to deepen. What is ending becomes clear, and what is beginning in the next cycle starts to emerge in the reflection. For charts that benefit from Water, this is a period of genuine completion and deepening wisdom; for those already Water-heavy, the excess can produce emotional absorption, difficulty distinguishing what is perceived from what is actually happening, or exhaustion from carrying what was never fully put down.</div>
       </div>
     </div>
     <div class="manual-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><div class="energy-eyebrow-line"></div></div>
+      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · concentrated / open</span><span class="tier-badge tier-split" style="margin-left:6px;">FREE→PRO · catalyst</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · resistance</span><div class="energy-eyebrow-line"></div></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is concentrated — overpowering</div>
+        <div class="manual-block-label">When this energy is concentrated — overpowering <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">Everything is perceived, everything is felt, everything is known at a level that exceeds what can be processed. The environment or person absorbs more than it can hold without losing its own shape. Classical texts describe 癸水多则迷 (excess 癸 Water creates confusion) — when the Rain becomes a flood of perception, the person can no longer distinguish their own knowing from what they have absorbed from others. Emotional and perceptual exhaustion. The intuition that was extraordinarily accurate becomes overwhelming noise, and the sensitivity that was a gift becomes genuinely difficult to live inside.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">When this energy is open — receptive or missing</div>
+        <div class="manual-block-label">When this energy is open — receptive or missing <span class="tier-badge tier-free">FREE</span></div>
         <div class="manual-block-text">Perceptual intelligence that reads what is actually true in a room — beneath the surface of what people are saying — becomes harder to access. Things are taken at face value. Hidden information doesn't surface. The body's signals are missed. The slow-penetrating quality that reveals what careful reflection produces — the "soaks through to the real layer" quality — is reduced. What is ending doesn't get recognized as ending until it has already ended. Intuitive accuracy is replaced by logical analysis, which is slower and misses the layer below.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to seek and use it as a catalyst</div>
+        <div class="manual-block-label">How to seek and use it as a catalyst <span class="tier-badge tier-split">FREE teaser · PRO full</span></div>
         <div class="manual-block-text">Activate it by creating conditions for genuine perception: quiet, reduced stimulation, time for reflection without agenda. This energy does not respond to force — it responds to receptivity. The insight arrives when you stop trying to produce it and create the space where it can surface naturally. Sit with the question longer than feels productive. The answer arrives at the edge of sleep, in the transition between conversations, in the moment after the analysis stops. Outcome: what was obscure becomes clear. The right answer to a long-standing question arrives not from analysis but from having been genuinely still with it long enough for the perception to form.</div>
       </div>
       <div class="energy-divider"></div>
       <div class="manual-block">
-        <div class="manual-block-label">How to release and channel it as resistance</div>
+        <div class="manual-block-label">How to release and channel it as resistance <span class="tier-badge tier-pro">PRO</span></div>
         <div class="manual-block-text">When 癸 energy is creating friction — the permeability is absorbing what it should be allowing to pass through. The chart needs more definition (Metal) or more grounding (Earth) to give the perception a stable surface to land on. Channel it by deliberately separating what is perceived from what is chosen: use the intuition as information rather than as reality, and check what is sensed against what is actually observable before acting on it. Create physical or relational structure that filters what enters rather than remaining fully permeable to everything in the environment. Outcome: sensitivity becomes a tool rather than a burden, and what was overwhelm converts into accurate, actionable reading of the actual situation.</div>
       </div>
     </div>
   </div>
+</div>
+
+
+<div class="bingyi-section">
+  <div class="bingyi-eyebrow">神峰通考 · Universal Catalyst Principle <span class="tier-badge tier-internal">INTERNAL</span></div>
+  <div class="bingyi-principle">有病方为贵，无病不是奇</div>
+  <div class="bingyi-translation">“Only when there is structural deficiency is there distinction — a chart without deficiency is not remarkable.”</div>
+  <div class="bingyi-rule">The catalyst element is the <strong>remedy (药)</strong> for the chart’s structural deficiency <strong>(病)</strong>. What the catalyst does is <strong>specify</strong>, not rescue. Every Ten God archetype is fully formed before the catalyst arrives. The catalyst does not complete an incomplete person — it reveals what that complete structure was always built to do.</div>
+  <div class="bingyi-rule">The <strong>pre-catalyst state</strong> (the 2AM state) is: formed, capable, and not yet made specific. The capability is real. The direction has not yet fully arrived. This is the condition the reading must honor before naming what the catalyst does.</div>
+  <div class="bingyi-two-col">
+    <div>
+      <div class="bingyi-col-label">Never write (writing forbidden)</div>
+      <ul class="bingyi-col-list">
+        <li>You need this element to be whole</li>
+        <li>Without X you are incomplete</li>
+        <li>This element saves / rescues / heals you</li>
+        <li>You are missing something until this arrives</li>
+        <li>This completes your nature</li>
+      </ul>
+    </div>
+    <div>
+      <div class="bingyi-col-label">Always write (writing required)</div>
+      <ul class="bingyi-col-list">
+        <li>Relief is not rescue — it is specification</li>
+        <li>The capability was already real</li>
+        <li>What this activates was always there</li>
+        <li>The structure was complete; this reveals what it was built for</li>
+        <li>The 2AM state is not a lesser state — it is the full archetype not yet specified</li>
+      </ul>
+    </div>
+  </div>
+  <div class="bingyi-source">Source: 神峰通考 (Zhang Shenfeng) — 病药说 (Deficiency / Remedy Theory) · DOC3 §2.6 SOURCE-FROM</div>
 </div>
 
 <!-- ═══════ PART TWO: TEN GODS ═══════ -->
@@ -1496,46 +1670,53 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
   </div>
 
   <div class="ruling-realm">
-    <div class="realm-label">Ruling Realm</div>
+    <div class="realm-label">Ruling Realm <span class="tier-badge tier-free">FREE</span></div>
     <div class="realm-phrase">Inner Validation — the ego's private standard</div>
     <div class="realm-desc">This is the part of a person that measures everything against its own internal benchmark before anything else. Not comparison with others — comparison with the self. Self-sufficiency is not a strategy here; it is the default operating mode. The ego's reference point is always internal, and everything external is filtered through it.</div>
   </div>
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">身旺比劫旺，自立独行</div>
+      <div class="classical-anchor-en">“Strong self amplified by same-element force — self-directing, requiring no external confirmation to feel real.”</div>
+      <div class="classical-anchor-deriv">The self-referencing loop is the mechanism, not a flaw. The gift is extraordinary internal authority; the shadow is a loop with no natural exit point or corrective input.</div>
+      <div class="classical-anchor-source">Source: 三命通会 / 滴天髓</div>
+    </div>
 
   <div class="card-body">
-    <div class="tg-section-label">Personality</div>
+    <div class="tg-section-label">Personality <span class="tier-badge tier-free">FREE · chips / gifts / shadows</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · decision / communication</span></div>
     <div class="chip-row" style="margin-bottom:14px;"><span class="chip">Self-reliant</span><span class="chip">Consistent</span><span class="chip">Principled</span><span class="chip">Insular</span><span class="chip">Complete</span></div>
 
     <div class="tg-grid">
       <div class="tg-cell">
-        <div class="tg-cell-label">The Gift</div>
+        <div class="tg-cell-label">The Gift <span class="tier-badge tier-free">FREE · 2–3</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Unwavering conviction under genuine pressure — the same person in every room, every context, every crisis</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Never loses themselves in what others want; the core standard holds regardless of what the environment offers</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Those who earn entry into real trust receive something exceptionally durable and reliable</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">The Shadow</div>
+        <div class="tg-cell-label">The Shadow <span class="tier-badge tier-free">FREE · 1–2</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• The self-referencing loop has no natural interrupt — genuinely difficult to know when wrong</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Loneliness of completeness: surrounded by people and still fundamentally alone unless extraordinary peers are present</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• New information that contradicts existing conviction gets processed as irrelevant rather than challenging</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Decision Style</div>
+        <div class="tg-cell-label">Decision Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Self-referencing — trusts their own read above all consensus. Filters new information through existing conviction. Decides quickly but resists revising. The weakness is not arrogance but structure: the system is complete enough that discrepant input doesn't create internal urgency to reconsider.</div>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Communication Style</div>
+        <div class="tg-cell-label">Communication Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Direct, consistent, doesn't modulate the message for different audiences. What they say is what they think. No performance in it — which can read as cold to those expecting social calibration. Most authentic communication is with genuine equals; everyone else gets a version that is accurate but not fully open.</div>
       </div>
     </div>
 
     <div class="hidden-block">
-      <div class="hidden-label">Inner Self &amp; Hidden Traits</div>
+      <div class="hidden-label">Inner Self &amp; Hidden Traits <span class="tier-badge tier-pro">PRO</span></div>
       <div class="hidden-text">Beneath the self-sufficiency is a deep need for peers who are genuinely equal — not admirers, not subordinates, but someone who can actually meet them at the level they operate. The specific loneliness is not about being alone. It is about being surrounded by people who engage with the surface of what they are rather than the depth of it. The completeness that makes them reliable is also what makes real intimacy rare.</div>
     </div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Life Domains</div>
+    <div class="tg-section-label">Life Domains <span class="tier-badge tier-pro">PRO</span></div>
     <div class="domain-grid">
       <div class="domain-card">
         <div class="domain-name">Career</div>
@@ -1561,12 +1742,12 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">The People Around You (六亲)</div>
+    <div class="tg-section-label">The People Around You (六亲) <span class="tier-badge tier-pro">PRO</span></div>
     <div class="ppl-text">比肩 classically represents siblings and same-status peers — people who share your nature and move in your territory. In the broader life, these are close friends who genuinely get it without explanation, the rare equals who don't defer. In less healthy expressions: the peers whose similarity makes them competitors for the same recognition, the sibling who challenges the identity.</div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Event Signatures in 流年大运</div>
+    <div class="tg-section-label">Event Signatures in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
     <div class="liunian-banner">A 比肩 year or period brings increased peer competition, resource contention with those most similar, and pressure on the established identity. For charts that benefit: confidence, clarity of self, decisive independent action. For charts where 比肩 is resistance: conflict with equals, loss through competition, an identity challenge that forces honest self-examination. These are not neutral periods — they test whether the inner conviction is actually correct.</div>
   </div>
 </div>
@@ -1582,46 +1763,53 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
   </div>
 
   <div class="ruling-realm">
-    <div class="realm-label">Ruling Realm</div>
+    <div class="realm-label">Ruling Realm <span class="tier-badge tier-free">FREE</span></div>
     <div class="realm-phrase">Social Performance — the ego measured against its nearest competition</div>
     <div class="realm-desc">This is the part of a person that measures itself against others occupying the same territory. Not the internal standard of 比肩 but the comparative ego — what am I relative to the people most like me? The reference point is always lateral: those closest in nature, closest in field, closest in ambition. The rivalry is structural, not hostile.</div>
   </div>
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">劫财者，劫夺日主之财也</div>
+      <div class="classical-anchor-en">“The Rival takes — lateral competition that calibrates by structural comparison rather than self-referencing.”</div>
+      <div class="classical-anchor-deriv">Unlike 比肩 (mirror / confirmation), 劫财 creates a permanent measuring reference point. The calibration is always against the nearest near-equal, not the internal standard alone.</div>
+      <div class="classical-anchor-source">Source: 子平真诈 论劫财</div>
+    </div>
 
   <div class="card-body">
-    <div class="tg-section-label">Personality</div>
+    <div class="tg-section-label">Personality <span class="tier-badge tier-free">FREE · chips / gifts / shadows</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · decision / communication</span></div>
     <div class="chip-row" style="margin-bottom:14px;"><span class="chip">Competitive</span><span class="chip">Comparative</span><span class="chip">Socially driven</span><span class="chip">Resource-aware</span><span class="chip">Sharp</span></div>
 
     <div class="tg-grid">
       <div class="tg-cell">
-        <div class="tg-cell-label">The Gift</div>
+        <div class="tg-cell-label">The Gift <span class="tier-badge tier-free">FREE · 2–3</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Genuine clarity about where the actual edges of capability lie — real peers reveal real limits</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• The competitive register sharpens rather than diminishes when healthy: you become more precisely what you are through the comparison</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Socially intelligent in reading where they stand relative to those who actually matter to them</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">The Shadow</div>
+        <div class="tg-cell-label">The Shadow <span class="tier-badge tier-free">FREE · 1–2</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Resources spent measuring rather than building — the comparison can become the point</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Collaboration with the people most similar is structurally the hardest relationship to sustain</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Validation from genuine peers lands harder than victory over those who don't understand the territory</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Decision Style</div>
+        <div class="tg-cell-label">Decision Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Comparative — calibrates against what similar others are doing or have achieved before committing. Lateral reference is the primary frame. Can delay decisions while reading the field. The competitive orientation can produce excellent decisions when channeled toward the work rather than toward the comparison.</div>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Communication Style</div>
+        <div class="tg-cell-label">Communication Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Asserts position, especially within shared territory. Socially aware and reads status accurately. Can be competitive in delivery without intending aggression — the natural register within the domain is assertion rather than collaboration. Outside the competitive territory, often surprisingly warm.</div>
       </div>
     </div>
 
     <div class="hidden-block">
-      <div class="hidden-label">Inner Self &amp; Hidden Traits</div>
+      <div class="hidden-label">Inner Self &amp; Hidden Traits <span class="tier-badge tier-pro">PRO</span></div>
       <div class="hidden-text">Underneath the rivalry is a specific, rarely admitted desire: genuine recognition from exactly the people most like them. Not recognition from outsiders — that lands hollow. The need is for the specific peer who understands what the achievement cost and what it means, to acknowledge it as real. The rivalry is partly a way of staying close to those people, even when the relationship is friction rather than warmth.</div>
     </div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Life Domains</div>
+    <div class="tg-section-label">Life Domains <span class="tier-badge tier-pro">PRO</span></div>
     <div class="domain-grid">
       <div class="domain-card">
         <div class="domain-name">Career</div>
@@ -1647,12 +1835,12 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">The People Around You (六亲)</div>
+    <div class="tg-section-label">The People Around You (六亲) <span class="tier-badge tier-pro">PRO</span></div>
     <div class="ppl-text">劫财 classically represents brothers and sisters of a different nature, rivals, and those who share resources. In modern life: business partners who become competitors, colleagues in the same domain, the sibling whose achievements are the reference point. These relationships carry the highest charge — the ones who can hurt most precisely because they're close enough to matter.</div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Event Signatures in 流年大运</div>
+    <div class="tg-section-label">Event Signatures in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
     <div class="liunian-banner">A 劫财 year or period intensifies competition from peers, brings resource loss risks through rivalry, and activates the comparative drive. For charts that benefit: the competition produces genuine performance — this can be a defining year for achievement. For charts where 劫财 is resistance: betrayal by those most similar, loss of shared resources, the partnership that turns adversarial. Not subtle years — the rivalry becomes visible.</div>
   </div>
 </div>
@@ -1668,46 +1856,53 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
   </div>
 
   <div class="ruling-realm">
-    <div class="realm-label">Ruling Realm</div>
+    <div class="realm-label">Ruling Realm <span class="tier-badge tier-free">FREE</span></div>
     <div class="realm-phrase">Authentic Expression — output that happens before strategy</div>
     <div class="realm-desc">This is the part of a person that produces without performing. What flows out when the self is fully itself — not the assertion of 伤官, not the pressure of 七杀, just the natural emergence of what the DM generates when nothing is in the way. 食神吐秀 (the Food God expresses elegance): refined Qi moving outward without announcement.</div>
   </div>
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">食神吐秀，秀气流行 / 食神过旺则泄身太过</div>
+      <div class="classical-anchor-en">“Elegant Qi flows naturally — but over-extension depletes the foundation invisibly.”</div>
+      <div class="classical-anchor-deriv">The output arrives without assertion. The depletion cost is equally invisible from the inside — which is exactly the structural risk. The outpouring feels natural right up to the point of genuine collapse.</div>
+      <div class="classical-anchor-source">Source: 子平真诈 论食神</div>
+    </div>
 
   <div class="card-body">
-    <div class="tg-section-label">Personality</div>
+    <div class="tg-section-label">Personality <span class="tier-badge tier-free">FREE · chips / gifts / shadows</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · decision / communication</span></div>
     <div class="chip-row" style="margin-bottom:14px;"><span class="chip">Generous</span><span class="chip">Expressive</span><span class="chip">Effortless</span><span class="chip">Non-assertive</span><span class="chip">Pleasurable</span></div>
 
     <div class="tg-grid">
       <div class="tg-cell">
-        <div class="tg-cell-label">The Gift</div>
+        <div class="tg-cell-label">The Gift <span class="tier-badge tier-free">FREE · 2–3</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Output arrives without effort or announcement — what they produce has the quality of something that simply happened rather than something that was made</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Natural elegance that others experience as a gift rather than a performance; the giving doesn't register as giving from the inside</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Able to sustain creative or expressive work over time in ways that more effortful people genuinely cannot</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">The Shadow</div>
+        <div class="tg-cell-label">The Shadow <span class="tier-badge tier-free">FREE · 1–2</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• The cost of giving is invisible from the inside — depletion accumulates without warning and arrives fully formed</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• 食神过旺则泄身太过: the over-extension into what feels natural depletes the foundation; the body and psyche don't signal until reserves are genuinely low</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Tends to undervalue what flows naturally — because it doesn't feel like work, it's often undersold or given away</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Decision Style</div>
+        <div class="tg-cell-label">Decision Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Instinct-led, trusts the natural process. Decides when it feels ready rather than when the moment is optimal. Resistant to external deadlines on creative or expressive decisions. The strength is that instinct is often genuinely correct; the weakness is not knowing when to override instinct with strategy.</div>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Communication Style</div>
+        <div class="tg-cell-label">Communication Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Communicates naturally without performing the message — what they say emerges from being fully themselves rather than from strategy or positioning. Warm, generative, unforced. Others often feel genuinely nourished by the exchange without being able to name why. The content arrives in the register it's meant to, not in the register that would be most strategic.</div>
       </div>
     </div>
 
     <div class="hidden-block">
-      <div class="hidden-label">Inner Self &amp; Hidden Traits</div>
+      <div class="hidden-label">Inner Self &amp; Hidden Traits <span class="tier-badge tier-pro">PRO</span></div>
       <div class="hidden-text">Beneath the natural generosity is often a specific unawareness that giving is happening at all — the output doesn't register as effort, which means neither does the depletion. The particular vulnerability: by the time they feel genuinely exhausted, they've been running on reserves for longer than anyone knew. Including themselves. The care that was given freely was real. The cost was also real and went untracked.</div>
     </div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Life Domains</div>
+    <div class="tg-section-label">Life Domains <span class="tier-badge tier-pro">PRO</span></div>
     <div class="domain-grid">
       <div class="domain-card">
         <div class="domain-name">Career</div>
@@ -1733,12 +1928,12 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">The People Around You (六亲)</div>
+    <div class="tg-section-label">The People Around You (六亲) <span class="tier-badge tier-pro">PRO</span></div>
     <div class="ppl-text">Classically, 食神 represents children (especially for female DMs) and the people who receive the natural output. In modern life: mentees who are nourished without effort, creative collaborators who receive what flows naturally, audiences who feel genuinely fed. Also: the physical pleasures of life — food, art, rest, anything that produces without asserting. The people around a 食神 person often feel more capable and more themselves in their presence.</div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Event Signatures in 流年大运</div>
+    <div class="tg-section-label">Event Signatures in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
     <div class="liunian-banner">A 食神 year or period brings creative flourishing, ease, genuine pleasure, and opportunities for authentic expression. For aligned charts: a genuinely good period — one of the few kinds of years where things feel right rather than requiring management. For excess 食神 in chart: over-extension, depletion, difficulty stopping. For charts where 食神 is blocked: inability to produce naturally, creative or expressive friction that doesn't resolve through effort.</div>
   </div>
 </div>
@@ -1754,46 +1949,53 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
   </div>
 
   <div class="ruling-realm">
-    <div class="realm-label">Ruling Realm</div>
+    <div class="realm-label">Ruling Realm <span class="tier-badge tier-free">FREE</span></div>
     <div class="realm-phrase">Rebellion Logic — output that structurally exceeds its container</div>
     <div class="realm-desc">伤官者，聪明秀气太过: "Hurting Officer people are excessively brilliant and refined." The excess is structural, not attitudinal — the intelligence genuinely exceeds the frameworks available to receive it, so it pushes against them as a side effect of expressing itself. This is not rebellion chosen. It is what happens when the output is constituted by the friction it meets.</div>
   </div>
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">伤官者，聪明秀气太过 / 伤官见官，为祸百端</div>
+      <div class="classical-anchor-en">“Brilliance exceeding convention — structurally in tension with the frameworks that would evaluate it.”</div>
+      <div class="classical-anchor-deriv">The output is constituted by the friction, not despite it. The same quality that makes the work exceed conventional frameworks makes it structurally difficult for those frameworks to recognize or contain.</div>
+      <div class="classical-anchor-source">Source: 子平真诈 论伤官</div>
+    </div>
 
   <div class="card-body">
-    <div class="tg-section-label">Personality</div>
+    <div class="tg-section-label">Personality <span class="tier-badge tier-free">FREE · chips / gifts / shadows</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · decision / communication</span></div>
     <div class="chip-row" style="margin-bottom:14px;"><span class="chip">Brilliant</span><span class="chip">Subversive</span><span class="chip">Friction-constituted</span><span class="chip">Non-conformist</span><span class="chip">Ahead</span></div>
 
     <div class="tg-grid">
       <div class="tg-cell">
-        <div class="tg-cell-label">The Gift</div>
+        <div class="tg-cell-label">The Gift <span class="tier-badge tier-free">FREE · 2–3</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Genuine structural advancement — the work moves something forward in ways people working within convention simply cannot produce</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• The brilliance is sharpened by exactly what resists it; the friction is not an obstacle but part of the mechanism that makes the output what it is</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Authentic creative authority that comes from having actually exceeded the available framework rather than from credentialing within it</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">The Shadow</div>
+        <div class="tg-cell-label">The Shadow <span class="tier-badge tier-free">FREE · 1–2</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• 伤官见官，为祸百端: in structural tension with any authority that tries to evaluate the output by conventional standards — not chosen hostility, structural inevitability</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Self-destruction when the output has nowhere adequate to land: the same force that produces breakthroughs turns inward when there is no sufficient container</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• The brilliance and the difficulty are inseparable — improving the one without the other is not available</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Decision Style</div>
+        <div class="tg-cell-label">Decision Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Challenges assumptions before deciding. Tends to decide against the conventional option not from perversity but because the conventional option is structurally insufficient. Independent of precedent — historical decisions are useful data, not binding authority. The specific risk: challenging assumptions that were actually correct, because the challenging habit runs before the discrimination.</div>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Communication Style</div>
+        <div class="tg-cell-label">Communication Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Communicates with brilliance that challenges — the message often disrupts the framework of the listener as a side effect of being transmitted at full force. Doesn't soften delivery. 伤官见官 describes the specific friction with authority figures in communication settings: the output challenges the framework of the authority regardless of whether challenge was intended. Most effective one-on-one with those who can receive and respond.</div>
       </div>
     </div>
 
     <div class="hidden-block">
-      <div class="hidden-label">Inner Self &amp; Hidden Traits</div>
+      <div class="hidden-label">Inner Self &amp; Hidden Traits <span class="tier-badge tier-pro">PRO</span></div>
       <div class="hidden-text">The specific interior cost that goes mostly unspoken: knowing you've just broken something that can't be unbroken — in a conversation, in a relationship, in a professional setting — and not being certain whether that was necessary or excessive. The output happened before the question could be asked. The brilliance and the destruction arrived together. The grief is not about what was broken but about the recurring uncertainty of whether it should have been.</div>
     </div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Life Domains</div>
+    <div class="tg-section-label">Life Domains <span class="tier-badge tier-pro">PRO</span></div>
     <div class="domain-grid">
       <div class="domain-card">
         <div class="domain-name">Career</div>
@@ -1819,12 +2021,12 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">The People Around You (六亲)</div>
+    <div class="tg-section-label">The People Around You (六亲) <span class="tier-badge tier-pro">PRO</span></div>
     <div class="ppl-text">Classically represents children with challenging or expressive natures, creative collaborators who push the work further through friction, and the authority figures who constitute the structural resistance (伤官见官). In modern life: the brilliant difficult colleague, the artist who makes conventional practitioners uncomfortable, the person whose work the institution can't quite fit into its existing categories. These are also the people who produce the most genuine growth in those around them.</div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Event Signatures in 流年大运</div>
+    <div class="tg-section-label">Event Signatures in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
     <div class="liunian-banner">A 伤官 year or period brings creative breakthroughs, authority conflicts, and moments of genuine originality — the work that defines a period often emerges during 伤官 activations. For aligned charts: a significant output year, probably the most productive and the most friction-producing simultaneously. For charts where it creates friction: conflict with institutions, things said publicly that can't be unsaid, public friction that clarifies what was previously ambiguous.</div>
   </div>
 </div>
@@ -1840,46 +2042,53 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
   </div>
 
   <div class="ruling-realm">
-    <div class="realm-label">Ruling Realm</div>
+    <div class="realm-label">Ruling Realm <span class="tier-badge tier-free">FREE</span></div>
     <div class="realm-phrase">Risk/Opportunistic Vision — seeing potential before others recognize it</div>
     <div class="realm-desc">This is the part of a person that sees potential in everything and moves toward it broadly. Not the focused accumulation of 正财 but the ranging appetite that touches many things and activates what others walked past. 财为我克: the DM's intelligence goes toward directing what can be made productive — and the 偏财 version does this across a wide field simultaneously.</div>
   </div>
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">偏财者，我克者，为偏财</div>
+      <div class="classical-anchor-en">“Same-polarity control — the DM directs broadly across many instances without specific discipline.”</div>
+      <div class="classical-anchor-deriv">Wide engagement, distributed quality. The gift is range and ease with material; the shadow is difficulty concentrating the control into something specifically and durably owned.</div>
+      <div class="classical-anchor-source">Source: 子平真诈 论财</div>
+    </div>
 
   <div class="card-body">
-    <div class="tg-section-label">Personality</div>
+    <div class="tg-section-label">Personality <span class="tier-badge tier-free">FREE · chips / gifts / shadows</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · decision / communication</span></div>
     <div class="chip-row" style="margin-bottom:14px;"><span class="chip">Generous</span><span class="chip">Opportunity-sensing</span><span class="chip">Wide-ranging</span><span class="chip">Socially fluid</span><span class="chip">Diffuse</span></div>
 
     <div class="tg-grid">
       <div class="tg-cell">
-        <div class="tg-cell-label">The Gift</div>
+        <div class="tg-cell-label">The Gift <span class="tier-badge tier-free">FREE · 2–3</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Instinctive sense for potential before it's visible — the read on what's worth engaging arrives before the evidence does</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Natural abundance that activates things and people in its vicinity; others find opportunities and connections through proximity</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Genuine openness to what's possible across an unusually wide field; nothing is too far outside the range of engagement</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">The Shadow</div>
+        <div class="tg-cell-label">The Shadow <span class="tier-badge tier-free">FREE · 1–2</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• What is touched broadly is never fully owned — the breadth that is the gift is also what prevents full possession</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Activates without consolidating: builds real things that other people end up keeping, because the 偏财 person has already moved on</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• What is never fully possessed can be lost without the person fully registering what they had until after it's gone</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Decision Style</div>
+        <div class="tg-cell-label">Decision Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Opportunity-seeking, evaluates broad options simultaneously rather than sequentially. Makes decisions quickly based on intuitive read of potential. Tends toward distributed risk rather than concentrated bets. Doesn't overanalyze — the ranging quality means engaging before the full picture is available, which is sometimes correct and sometimes premature.</div>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Communication Style</div>
+        <div class="tg-cell-label">Communication Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Casual, broad, comfortable across many registers and audiences. The social intelligence is wide rather than deep. Can create genuine connection quickly across very different kinds of people because the warmth is real and the flexibility is structural. Most authentic in one-on-one warmth; can feel diffuse in long-term exclusive connection.</div>
       </div>
     </div>
 
     <div class="hidden-block">
-      <div class="hidden-label">Inner Self &amp; Hidden Traits</div>
+      <div class="hidden-label">Inner Self &amp; Hidden Traits <span class="tier-badge tier-pro">PRO</span></div>
       <div class="hidden-text">The interior truth that rarely gets named: everything feels equally interesting and equally possible, which is both the gift and the structural trap. The inability to fully invest in any one thing is not indecision — it is the nature of the ranging quality. What's missing is not commitment but a framework for deciding what deserves the full force versus what deserves the passing engagement. Without that, everything stays equally interesting and nothing becomes fully theirs.</div>
     </div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Life Domains</div>
+    <div class="tg-section-label">Life Domains <span class="tier-badge tier-pro">PRO</span></div>
     <div class="domain-grid">
       <div class="domain-card">
         <div class="domain-name">Career</div>
@@ -1905,12 +2114,12 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">The People Around You (六亲)</div>
+    <div class="tg-section-label">The People Around You (六亲) <span class="tier-badge tier-pro">PRO</span></div>
     <div class="ppl-text">偏财 classically represents the father (for male DMs), indirect wealth sources, and casual romantic relationships. In modern life: the broader social field — many people are activated and enriched by the 偏财 person's presence, fewer are deeply held. Business contacts who bring opportunity without lasting partnership. The people through whom money and possibility flow into the life. Also: the relationship with the father figure — warm but ranging, present but not fully there.</div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Event Signatures in 流年大运</div>
+    <div class="tg-section-label">Event Signatures in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
     <div class="liunian-banner">A 偏财 year or period brings unexpected financial opportunities, father-related events, expanded social networks, and activation of the opportunity field. For aligned charts: genuine windfalls, new income streams, multiple interesting things arriving simultaneously. For charts where 偏财 is friction: scattered resources, father health issues, overcommitment across too many fronts simultaneously. These are expansive and sometimes chaotic years.</div>
   </div>
 </div>
@@ -1926,46 +2135,53 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
   </div>
 
   <div class="ruling-realm">
-    <div class="realm-label">Ruling Realm</div>
+    <div class="realm-label">Ruling Realm <span class="tier-badge tier-free">FREE</span></div>
     <div class="realm-phrase">Wealth/Security Anxiety — the standard applied to what is held</div>
     <div class="realm-desc">This is the part of a person that evaluates what it has built and whether it is worthy of the standard applied in building it. Not greed — a specific relationship to security in which the evaluating apparatus that produced the quality also asks whether the quality is sufficient. The question "is this enough, is this worthy of the effort, is this what I meant to build" runs continuously beneath all acquisition.</div>
   </div>
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">正财者，我克者，义利之财</div>
+      <div class="classical-anchor-en">“Cross-polarity control — methodical, specific, earned through directed effort and applied standard.”</div>
+      <div class="classical-anchor-deriv">The cross-polarity creates discipline in the controlling relationship. What is earned is specifically and structurally the person’s own — not ranged across, but held.</div>
+      <div class="classical-anchor-source">Source: 子平真诈 论财</div>
+    </div>
 
   <div class="card-body">
-    <div class="tg-section-label">Personality</div>
+    <div class="tg-section-label">Personality <span class="tier-badge tier-free">FREE · chips / gifts / shadows</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · decision / communication</span></div>
     <div class="chip-row" style="margin-bottom:14px;"><span class="chip">Methodical</span><span class="chip">Disciplined</span><span class="chip">Earned</span><span class="chip">Evaluative</span><span class="chip">Security-oriented</span></div>
 
     <div class="tg-grid">
       <div class="tg-cell">
-        <div class="tg-cell-label">The Gift</div>
+        <div class="tg-cell-label">The Gift <span class="tier-badge tier-free">FREE · 2–3</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Real, earned results that hold up over time — the relationship between effort and outcome is clear and verifiable and the build was done correctly</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Unusual reliability: once committed, follows through across time without requiring re-motivation at each stage</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• The precision that builds also reveals — what was built is what was actually intended, without shortcuts that appear later as structural failures</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">The Shadow</div>
+        <div class="tg-cell-label">The Shadow <span class="tier-badge tier-free">FREE · 1–2</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• The evaluative apparatus doesn't know when to stop — applies the same standard to relationships and life commitments that it applies to financial decisions</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• 正财 precision can turn on what it values: asking whether a relationship, a career, or a life structure is worthy of the standard that was used to build it</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• The security anxiety doesn't resolve at achievement — the standard moves just past wherever the building has arrived</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Decision Style</div>
+        <div class="tg-cell-label">Decision Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Methodical, researches fully, conservative risk profile. Needs the evidence before committing. Once committed, sees it through with unusual reliability — the slow decision is the careful decision, not avoidance. The specific weakness: over-research on decisions that required timely commitment, where the thorough evaluation cost the window.</div>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Communication Style</div>
+        <div class="tg-cell-label">Communication Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Precise and considered — the specific thing said is the specific thing meant. Doesn't expand unnecessarily. What was agreed is what was meant, and deviation from what was agreed requires explicit renegotiation rather than assumption. Finds vague, expansive, or performative communication genuinely frustrating because it creates ambiguity that the evaluating faculty then has to work with.</div>
       </div>
     </div>
 
     <div class="hidden-block">
-      <div class="hidden-label">Inner Self &amp; Hidden Traits</div>
+      <div class="hidden-label">Inner Self &amp; Hidden Traits <span class="tier-badge tier-pro">PRO</span></div>
       <div class="hidden-text">Beneath the methodical exterior is a specific quiet anxiety: the fear that what has been built carefully is somehow still not enough to be safe, not worthy enough to be kept, not sufficient to justify the standard that was applied to build it. The standard that produced the quality is also what makes resting in the result genuinely difficult. This is not ambition — it is the evaluating faculty that built the thing continuing to ask whether it should have built differently.</div>
     </div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Life Domains</div>
+    <div class="tg-section-label">Life Domains <span class="tier-badge tier-pro">PRO</span></div>
     <div class="domain-grid">
       <div class="domain-card">
         <div class="domain-name">Career</div>
@@ -1991,12 +2207,12 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">The People Around You (六亲)</div>
+    <div class="tg-section-label">The People Around You (六亲) <span class="tier-badge tier-pro">PRO</span></div>
     <div class="ppl-text">Classically represents the spouse (for male DMs) and the primary committed relationship. Also: direct income sources, reliable employers and providers, the institutions that pay fairly for demonstrated work. The people in a 正财 person's life who offer genuine stability and who are held — implicitly — to the standard of genuine reliability in return. These relationships carry weight because the standard is real.</div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Event Signatures in 流年大运</div>
+    <div class="tg-section-label">Event Signatures in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
     <div class="liunian-banner">A 正财 year or period brings financial consolidation, committed relationship events (marriage, formal partnership, significant financial commitments), and opportunities to harvest what was methodically built. For aligned charts: genuine stability and tangible reward for sustained effort. For charts where 正财 creates friction: over-control of resources, relationship strain from applying the evaluating standard too strictly, the quality assessment turning on what was successfully built.</div>
   </div>
 </div>
@@ -2012,46 +2228,53 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
   </div>
 
   <div class="ruling-realm">
-    <div class="realm-label">Ruling Realm</div>
+    <div class="realm-label">Ruling Realm <span class="tier-badge tier-free">FREE</span></div>
     <div class="realm-phrase">Survival Instinct / Trauma / Resilience — forged, not developed</div>
     <div class="realm-desc">七杀制伏得宜，反为权贵: "When Seven Killings are properly channeled, they produce genuine authority." This is the force that presses against the DM without moderation, without asking whether it is ready, without caring whether it survives the encounter. What gets produced — when resources are adequate — is character that could only have come from that specific pressure. Not developed virtue. Residue.</div>
   </div>
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">七杀制伏得宜，反为权贵 / 七杀为患，制者必须有力</div>
+      <div class="classical-anchor-en">“Properly contained, the unmediated force becomes authority — same structural pressure, categorically different outcomes.”</div>
+      <div class="classical-anchor-deriv">This is not a developmental spectrum. The bifurcation is structural: the same adversarial condition that devastates some produces genuine authority in others. Resources determine which outcome. No middle ground.</div>
+      <div class="classical-anchor-source">Source: 子平真诈 / 滴天髓 任鐵樵 512 case studies</div>
+    </div>
 
   <div class="card-body">
-    <div class="tg-section-label">Personality</div>
+    <div class="tg-section-label">Personality <span class="tier-badge tier-free">FREE · chips / gifts / shadows</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · decision / communication</span></div>
     <div class="chip-row" style="margin-bottom:14px;"><span class="chip">Forged</span><span class="chip">Resilient</span><span class="chip">Intense</span><span class="chip">Non-permissioned</span><span class="chip">Bifurcated</span></div>
 
     <div class="tg-grid">
       <div class="tg-cell">
-        <div class="tg-cell-label">The Gift</div>
+        <div class="tg-cell-label">The Gift <span class="tier-badge tier-free">FREE · 2–3</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• What others carry as developed virtue, this person carries as the residue of surviving something that did not offer the option to fail gracefully</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• The character that only sustained adversarial pressure without permission produces — it cannot be imitated by those who haven't been through the equivalent</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Genuine authority that others recognize as real precisely because it was tested rather than credentialed</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">The Shadow</div>
+        <div class="tg-cell-label">The Shadow <span class="tier-badge tier-free">FREE · 1–2</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• 制者必须有力: the channeling requires significant resources — without them, the same force that refines damages</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Does not moderate itself, does not ask whether the moment warrants the full force, does not grant permission in communication or relationship any more than it does internally</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• The bifurcation is genuine: not a spectrum, not a middle outcome — the pressure either forges or breaks, depending entirely on what was available to meet it</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Decision Style</div>
+        <div class="tg-cell-label">Decision Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Decides under pressure — either sharply decisive when resources are adequate, or paralyzed when they're not. Doesn't hedge well; tends toward all-or-nothing commitment. The pressure produces clarity at the moment of genuine necessity. The specific weakness: difficulty making decisions in the absence of genuine stakes, because the calibration system requires pressure to function.</div>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Communication Style</div>
+        <div class="tg-cell-label">Communication Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Direct, unmoderated, doesn't soften delivery. The message arrives at full force. 七杀 doesn't grant permission in communication any more than it does in its structural relationship to the DM — says the thing without waiting for the listener to be ready for it. This lands as remarkable honesty to those who can receive it and as aggression to those who can't.</div>
       </div>
     </div>
 
     <div class="hidden-block">
-      <div class="hidden-label">Inner Self &amp; Hidden Traits</div>
+      <div class="hidden-label">Inner Self &amp; Hidden Traits <span class="tier-badge tier-pro">PRO</span></div>
       <div class="hidden-text">What rarely gets named: the quiet exhaustion of having been forged and knowing exactly what it cost. Not pride in the resilience — something quieter, closer to grief about what was required to become this. The question that runs beneath the authority: whether what was built through surviving was worth what was lost in the surviving of it. The authority is real. So is the cost.</div>
     </div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Life Domains</div>
+    <div class="tg-section-label">Life Domains <span class="tier-badge tier-pro">PRO</span></div>
     <div class="domain-grid">
       <div class="domain-card">
         <div class="domain-name">Career</div>
@@ -2077,12 +2300,12 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">The People Around You (六亲)</div>
+    <div class="tg-section-label">The People Around You (六亲) <span class="tier-badge tier-pro">PRO</span></div>
     <div class="ppl-text">Classically for female DMs, represents husband and romantic partners (the pressure that enters the life through relationship). More broadly: bosses who don't grant permission, adversaries, challenging authority figures who test without validating, the people who shaped you through pressure rather than warmth. Also: the mentor who refused to make it easy, the competitor who forced genuine growth, the relationship that forged rather than supported.</div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Event Signatures in 流年大运</div>
+    <div class="tg-section-label">Event Signatures in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
     <div class="liunian-banner">A 七杀 year or period brings adversarial pressure, significant challenges, potential crises — and, when resources are adequate, genuine breakthroughs and real authority. These are the years that define who a person is. For aligned charts with adequate resources: the forge produces something remarkable that couldn't have been made any other way. For depleted charts: breakdown, burnout, forced confrontations that leave lasting damage. Not neutral years — they test everything.</div>
   </div>
 </div>
@@ -2098,46 +2321,53 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
   </div>
 
   <div class="ruling-realm">
-    <div class="realm-label">Ruling Realm</div>
+    <div class="realm-label">Ruling Realm <span class="tier-badge tier-free">FREE</span></div>
     <div class="realm-phrase">Social Armor / Good Student Complex — character shaped by chosen structure</div>
     <div class="realm-desc">正官端正，主人沉稳，名声好，规则意识强: "Direct Officer upright — the person is calm and settled, with good reputation and strong rule-consciousness." This is the part of a person that operates within frameworks it has chosen to endorse — not because it has to, but because it has decided the framework is legitimate and worthy of building within. The internal compliance officer whose compliance is genuinely chosen.</div>
   </div>
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">正官端正，主人沉稳，名声好 / 官轻则贵，官重则压</div>
+      <div class="classical-anchor-en">“Framework-mediated pressure — grants recognition when quality is real; excessive pressure compresses rather than recognizes.”</div>
+      <div class="classical-anchor-deriv">Unlike 七杀 (does not grant permission), 正官 tests through a structure the DM can evaluate and choose to respect. Recognition arrives when quality is genuinely demonstrated within the framework.</div>
+      <div class="classical-anchor-source">Source: 子平真诈 论正官</div>
+    </div>
 
   <div class="card-body">
-    <div class="tg-section-label">Personality</div>
+    <div class="tg-section-label">Personality <span class="tier-badge tier-free">FREE · chips / gifts / shadows</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · decision / communication</span></div>
     <div class="chip-row" style="margin-bottom:14px;"><span class="chip">Principled</span><span class="chip">Framework-guided</span><span class="chip">Reputation-conscious</span><span class="chip">Structured</span><span class="chip">Institutional</span></div>
 
     <div class="tg-grid">
       <div class="tg-cell">
-        <div class="tg-cell-label">The Gift</div>
+        <div class="tg-cell-label">The Gift <span class="tier-badge tier-free">FREE · 2–3</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Character shaped by legitimate structure has a specific reliability and orientation — it knows what it's building toward and the framework tells it when it's arrived</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Recognition from institutions carries genuine weight because it was granted by something the person actually respected; this is different from external validation</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Operates with unusual integrity within chosen frameworks — the rules are real, and so is the character that builds within them</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">The Shadow</div>
+        <div class="tg-cell-label">The Shadow <span class="tier-badge tier-free">FREE · 1–2</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• 官轻则贵，官重则压: light structure enables, heavy structure suppresses — when the framework becomes excessive, the character shaped by endorsed structure becomes shaped by obligation</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• When the framework reveals itself as unworthy — corrupt, absent, or simply insufficient — the disorientation is larger than the situation seems to warrant from outside</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• The "good student" who did everything right, genuinely believed the institution would recognize this, and discovered that institutions don't always work the way their stated rules suggest</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Decision Style</div>
+        <div class="tg-cell-label">Decision Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Framework-guided — needs a legitimate basis for the decision before committing. Consults precedent, institutional norms, and the opinions of respected authorities. Decisions are sound and considered. The specific weakness: analysis paralysis when the legitimate framework is unclear or absent, because the internal decision-making architecture requires an external structure to operate within.</div>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Communication Style</div>
+        <div class="tg-cell-label">Communication Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Formal, structured, respects the protocol of communication within the relationship. Carries the weight of someone who means what they say within a framework that holds both parties. Doesn't freelance outside agreed terms. Finds environments that communicate through subtext or implication — rather than explicit agreement — genuinely difficult to navigate correctly.</div>
       </div>
     </div>
 
     <div class="hidden-block">
-      <div class="hidden-label">Inner Self &amp; Hidden Traits</div>
+      <div class="hidden-label">Inner Self &amp; Hidden Traits <span class="tier-badge tier-pro">PRO</span></div>
       <div class="hidden-text">The specific interior vulnerability: the person who genuinely followed the rules, who invested years in becoming excellent within the framework, who believed the institution would recognize this as a matter of legitimate exchange — and then discovered that what was stated and what was practiced were not the same thing. The confusion is not about the outcome. It is about whether the entire framework was what it claimed to be. Whether the investment was placed in something that deserved it.</div>
     </div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Life Domains</div>
+    <div class="tg-section-label">Life Domains <span class="tier-badge tier-pro">PRO</span></div>
     <div class="domain-grid">
       <div class="domain-card">
         <div class="domain-name">Career</div>
@@ -2163,12 +2393,12 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">The People Around You (六亲)</div>
+    <div class="tg-section-label">The People Around You (六亲) <span class="tier-badge tier-pro">PRO</span></div>
     <div class="ppl-text">Classically for female DMs, represents the legitimate husband and primary partnership. More broadly: official mentors, respected authorities who grant genuine recognition, institutional endorsers. The teachers who noticed you. The managers who advocated for you within the system. The people whose opinion matters specifically because they operate within legitimate frameworks that you've also chosen to endorse. Their recognition carries weight that external validation doesn't.</div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Event Signatures in 流年大运</div>
+    <div class="tg-section-label">Event Signatures in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
     <div class="liunian-banner">A 正官 year or period brings recognition from institutions, career appointments, public reputation events, marriage or formal partnership opportunities. For aligned charts: a period of genuine advancement within chosen frameworks — the structure rewards what was built within it. For charts where 正官 is unfavorable: over-regulation, unwanted institutional attention, the framework becoming a constraint rather than an enabler. These are reputation years — whatever is built or damaged in this period tends to be public.</div>
   </div>
 </div>
@@ -2184,47 +2414,54 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
   </div>
 
   <div class="ruling-realm">
-    <div class="realm-label">Ruling Realm</div>
+    <div class="realm-label">Ruling Realm <span class="tier-badge tier-free">FREE</span></div>
     <div class="realm-phrase">Niche/Occult Intelligence — depth in what others don't access</div>
     <div class="realm-desc">This is the part of a person that draws from a deep, unconventional source that others don't have access to or even know exists. Not mainstream knowledge — depth in specific, unusual, or esoteric domains. The backing that sustains and deepens without redirecting: 滋生有源 (nourishment with a continuous source). The support feels like ground rather than relationship — simply there, without requiring maintenance.</div>
   </div>
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">偏印者，枞神也，克食神，主孤独</div>
+      <div class="classical-anchor-en">“Same-polarity nourishment sustains and deepens — but may isolate when it severs the natural output channel.”</div>
+      <div class="classical-anchor-deriv">The backing arrives through the same register as the DM, consolidating existing direction without opening new ones. Classical warning: 枞神 severs 食神 — the deepening resource cuts off the natural outward expression.</div>
+      <div class="classical-anchor-source">Source: 子平真诈 论印</div>
+    </div>
 
   <div class="card-body">
-    <div class="tg-section-label">Personality</div>
+    <div class="tg-section-label">Personality <span class="tier-badge tier-free">FREE · chips / gifts / shadows</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · decision / communication</span></div>
     <div class="chip-row" style="margin-bottom:14px;"><span class="chip">Deep</span><span class="chip">Unconventional</span><span class="chip">Niche</span><span class="chip">Self-sustaining</span><span class="chip">Psychically aware</span></div>
 
     <div class="tg-grid">
       <div class="tg-cell">
-        <div class="tg-cell-label">The Gift</div>
+        <div class="tg-cell-label">The Gift <span class="tier-badge tier-free">FREE · 2–3</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Extraordinary depth in their particular domain because the sustaining source has been deepening it for a long time — a depth others can't replicate through effort alone</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• A groundedness that doesn't feel like something worked for; access to frames and knowledge that the mainstream hasn't codified</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Most useful and most trusted precisely where others lack the depth — the specific niche where the unconventional backing produced something rare</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">The Shadow</div>
+        <div class="tg-cell-label">The Shadow <span class="tier-badge tier-free">FREE · 1–2</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• The backing never required building the capacity to sustain without it — sudden loss of the source produces disproportionate disorientation</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Depth without direction: the well deepens but without opening onto new territory — extraordinary in the specific domain, underdeveloped outside it</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• 印多夺食: excess resource smothers output — the nourishment that enables can, in excess, prevent the independent expression of the capability it enabled</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Decision Style</div>
+        <div class="tg-cell-label">Decision Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Pattern-based, draws on established frameworks from the unconventional source rather than conventional wisdom. Trusts precedent that was built through the unusual system — slow to adopt new frameworks because the existing one has been refined over a long time. The specific strength: pattern recognition within the niche is exceptional. The weakness: difficulty applying that pattern recognition to genuinely novel situations outside the domain.</div>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Communication Style</div>
+        <div class="tg-cell-label">Communication Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Withheld, communicates through depth rather than volume. Prefers one-on-one over group settings. What is shared tends to be specific and unusual enough that it doesn't land easily in general audiences — the most authentic communication is with others who share or appreciate the niche. Feels most understood by people who recognize what the depth is about.</div>
       </div>
     </div>
 
     <div class="hidden-block">
-      <div class="hidden-label">Inner Self &amp; Hidden Traits</div>
+      <div class="hidden-label">Inner Self &amp; Hidden Traits <span class="tier-badge tier-pro">PRO</span></div>
       <div class="hidden-text">The specific interior quality: knowing things others don't know, from sources others don't access, in ways that are genuinely difficult to explain or legitimize through conventional credentialing. Not mysticism as performance — actual unusual access. The shadow that rarely surfaces: when the source is removed, discovering that the capacity to generate the depth independently was never fully developed. The well that runs dry when the aquifer that fed it changes.</div>
       <div class="hidden-text" style="margin-top:10px;">What makes this structurally different from 正印 — and what matters most for how this operates in practice: the nourishment runs in the same register as what it sustains. Same-polarity means it deepens what is already there rather than opening it toward something new. The well gets deeper. The territory it covers stays the same. This is both the gift and the limitation of this particular kind of backing: it produces extraordinary depth in one specific direction, and navigating outside that direction takes a different kind of effort than the depth itself required. Knowing this is knowing where the real edge is.</div>
     </div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Life Domains</div>
+    <div class="tg-section-label">Life Domains <span class="tier-badge tier-pro">PRO</span></div>
     <div class="domain-grid">
       <div class="domain-card">
         <div class="domain-name">Career</div>
@@ -2250,12 +2487,12 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">The People Around You (六亲)</div>
+    <div class="tg-section-label">The People Around You (六亲) <span class="tier-badge tier-pro">PRO</span></div>
     <div class="ppl-text">Classically represents step-parent or unconventional mentor; older figures who provide support without conventional relationship structure. In modern life: alternative teachers, mentors from unusual traditions, people who shaped you through transmission and proximity rather than through formal instruction. Esoteric or niche knowledge communities. The teacher you found outside conventional systems who gave you access to something you couldn't have found within them. Also: the relationship with the non-primary parent or caregiver.</div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Event Signatures in 流年大运</div>
+    <div class="tg-section-label">Event Signatures in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
     <div class="liunian-banner">A 偏印 year or period brings deep learning, withdrawal from mainstream activity, sustained engagement with unconventional knowledge, and strong support from unusual or niche sources. For aligned charts: a genuinely nourishing and deepening period — often the years when the real learning happens quietly while the visible activity slows. For charts where 偏印 creates friction: over-reliance on past patterns, blocked output, the support source changing or withdrawing. The deepening continues; the expression may not.</div>
   </div>
 </div>
@@ -2271,47 +2508,54 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
   </div>
 
   <div class="ruling-realm">
-    <div class="realm-label">Ruling Realm</div>
+    <div class="realm-label">Ruling Realm <span class="tier-badge tier-free">FREE</span></div>
     <div class="realm-phrase">Support System / Mother Wound — backed and pointed</div>
     <div class="realm-desc">Bowlby's secure base in its most developmental form: the base that enables exploration by providing both support and direction simultaneously. This is the part of a person that was shaped by backing that came with a destination — not just sustained, but sustained AND pointed toward something. The support that enabled reach also told the reach where to go. And the specific wound when that direction was someone else's.</div>
   </div>
+    <div class="classical-anchor">
+      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+      <div class="classical-anchor-zh">正印者，生我者也，为母</div>
+      <div class="classical-anchor-en">“Cross-polarity nourishment sustains and opens — the backing that provides direction as well as depth.”</div>
+      <div class="classical-anchor-deriv">The cross-polarity creates direction in the nourishing relationship. The support does not just deepen — it opens the DM toward something specific it can move through.</div>
+      <div class="classical-anchor-source">Source: 子平真诈 论印</div>
+    </div>
 
   <div class="card-body">
-    <div class="tg-section-label">Personality</div>
+    <div class="tg-section-label">Personality <span class="tier-badge tier-free">FREE · chips / gifts / shadows</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · decision / communication</span></div>
     <div class="chip-row" style="margin-bottom:14px;"><span class="chip">Grounded</span><span class="chip">Mentored</span><span class="chip">Directionally shaped</span><span class="chip">Supported</span><span class="chip">Purpose-oriented</span></div>
 
     <div class="tg-grid">
       <div class="tg-cell">
-        <div class="tg-cell-label">The Gift</div>
+        <div class="tg-cell-label">The Gift <span class="tier-badge tier-free">FREE · 2–3</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Character that feels simultaneously grounded and purposeful — rooted and reaching at the same time, which is genuinely rare</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Knows what it's building toward, not just that it's building; the direction arrived with the support and feels genuinely internalized</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• The quiet confidence that comes from having had genuine backing — not asserted, not performed, simply present in how the person moves</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">The Shadow</div>
+        <div class="tg-cell-label">The Shadow <span class="tier-badge tier-free">FREE · 1–2</span></div>
         <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• The direction given with the backing can become the only direction known — the reach grew where the nourishment pointed and may not know how to self-generate direction without it</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• The backing may have served the source's vision as much as the recipient's genuine calling — sorting out which parts are authentically theirs requires more honest introspection than the grounded exterior suggests</p>
 <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Loss of the supporting structure produces disorientation disproportionate to the situation — because the internal resources for self-direction weren't fully forced to develop independently</p>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Decision Style</div>
+        <div class="tg-cell-label">Decision Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Seeks guidance before deciding on significant choices. Finds genuine confidence within a decision framework provided by someone or something trusted. Can be dependent on the external directional structure when the stakes are high. The strength: decisions made with proper backing tend to be well-considered and genuinely aligned. The weakness: difficulty accessing confidence when the backing structure is absent or unclear.</div>
       </div>
       <div class="tg-cell">
-        <div class="tg-cell-label">Communication Style</div>
+        <div class="tg-cell-label">Communication Style <span class="tier-badge tier-pro">PRO</span></div>
         <div class="tg-cell-text">Directional — tends to communicate in ways that include where things should go next. Feels most competent communicating from a position of endorsed knowledge or clear authority within a domain. Less comfortable with pure improvisation or unsourced spontaneity. The communication often carries a sense of structure and purpose that feels trustworthy even when the content is uncertain.</div>
       </div>
     </div>
 
     <div class="hidden-block">
-      <div class="hidden-label">Inner Self &amp; Hidden Traits</div>
+      <div class="hidden-label">Inner Self &amp; Hidden Traits <span class="tier-badge tier-pro">PRO</span></div>
       <div class="hidden-text">The question that runs beneath everything: is what I am building toward actually mine, or did the backing shape me toward its vision? The specific version of the mother wound: the support was real, the care was genuine, the backing was constant — but the direction that came with it may have been hers rather than mine. Distinguishing the two requires honest introspection that the grounded exterior doesn't always signal is needed. The rootedness is real. The question of whose roots these are is also real.</div>
       <div class="hidden-text" style="margin-top:10px;">What makes this structurally different from 偏印 — and what changes everything at the deepest level: the nourishment comes from a different register than what it sustains. Cross-polarity means the resource doesn't just deepen what exists — it opens onto something that wasn't already there. The support included direction, not only sustenance. Which produces a specific kind of grounded purposefulness that same-polarity nourishment alone can never generate. And which carries the specific question: the direction that opened with the backing — was it genuinely toward you, or toward what the source needed you to become? Both can feel identical from the inside for a very long time.</div>
     </div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Life Domains</div>
+    <div class="tg-section-label">Life Domains <span class="tier-badge tier-pro">PRO</span></div>
     <div class="domain-grid">
       <div class="domain-card">
         <div class="domain-name">Career</div>
@@ -2337,22 +2581,57 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">The People Around You (六亲)</div>
+    <div class="tg-section-label">The People Around You (六亲) <span class="tier-badge tier-pro">PRO</span></div>
     <div class="ppl-text">Classically represents mother and maternal figures, formal mentors, and legitimate institutional backers. More broadly: the teachers who believed in you AND told you where to go with it; the institutions that accepted you and shaped your direction; the developmental relationships where support and direction arrived together as a single experience. The mother's presence and orientation — specifically whether her backing came with genuine care for the person's own calling — is often the defining early influence whose effects are visible throughout the life.</div>
 
     <div class="inner-divider" style="margin:18px 0;"></div>
 
-    <div class="tg-section-label">Event Signatures in 流年大运</div>
+    <div class="tg-section-label">Event Signatures in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
     <div class="liunian-banner">A 正印 year or period brings mentorship opportunities, institutional recognition, educational advancement, and periods of genuine backing. Also: mother-related events, significant shifts in the primary support structure, learning periods that open new direction. For aligned charts: a period of genuine development within supported, directional growth — often the years when the backing that was always present becomes explicitly recognized. For charts where 正印 creates friction: direction given with the backing becoming a constraint, the support structure's expectations conflicting with authentic calling.</div>
   </div>
 </div>
 
 
+
+<div class="pillar-section">
+  <div class="pillar-eyebrow">千里命稿 · VERIFY-ONLY</div>
+  <div class="pillar-title" style="display:flex;align-items:center;gap:10px;">Life Stage Mapping — Pillar Domains <span class="tier-badge tier-internal">INTERNAL · VERIFY-ONLY</span></div>
+  <div class="pillar-subtitle">Each of the four pillars maps to a life stage and domain of experience. Use conditionally: only when a reading anchors a specific behavioral pattern to a specific period and the chart concentration justifies it. Never frame as fate; always frame as structural tendency.</div>
+  <div class="pillar-grid">
+    <div class="pillar-card-el">
+      <div class="pillar-card-label">Year Pillar</div>
+      <div class="pillar-card-ages">Ages 1–16</div>
+      <div class="pillar-card-domain">Family background, ancestral pattern</div>
+      <div class="pillar-card-note">The formation layer — what the person came into and what shaped the foundation before they had any say in the matter.</div>
+    </div>
+    <div class="pillar-card-el">
+      <div class="pillar-card-label">Month Pillar</div>
+      <div class="pillar-card-ages">Ages 17–32</div>
+      <div class="pillar-card-domain">Career foundation, social and work environment</div>
+      <div class="pillar-card-note">The public formation layer — career first steps, professional identity, the social structures that shaped working life.</div>
+    </div>
+    <div class="pillar-card-el">
+      <div class="pillar-card-label">Day Pillar</div>
+      <div class="pillar-card-ages">Ages 33–48</div>
+      <div class="pillar-card-domain">Self (Day Master stem), partner and relational texture</div>
+      <div class="pillar-card-note">The self and relationship layer — who the person is in close relationships, the relational texture of the mid-life chapter.</div>
+    </div>
+    <div class="pillar-card-el">
+      <div class="pillar-card-label">Hour Pillar</div>
+      <div class="pillar-card-ages">Ages 49+</div>
+      <div class="pillar-card-domain">Legacy, output, later-life chapter</div>
+      <div class="pillar-card-note">The output and inheritance layer — what the person builds toward later, what they leave behind, the chapter when output becomes legacy.</div>
+    </div>
+  </div>
+  <div class="pillar-verify"><strong>VERIFY-ONLY status (DOC3 §2.7):</strong> Use only when the dominant energy in the chart is heavily concentrated in one pillar. Mention as one reading angle among several, not as a definitive framework. If the chart has roughly equal pillar weight, omit entirely. Always frame as “structural tendency” — never as fixed fate or scheduled event.</div>
+  <div class="bingyi-source" style="margin-top:14px;">Source: 千里命稿 (Wei Qianli) — 宫位论法 (Pillar-Stage Mapping) · DOC3 §2.7</div>
+</div>
+
 <!-- FOOTER -->
 <div style="margin-top:64px;padding-top:28px;border-top:0.5px solid var(--border);text-align:center;">
   <div style="font-family:'Noto Serif SC',Georgia,serif;font-size:24px;color:var(--accent-dark);opacity:0.4;margin-bottom:10px;">元素</div>
-  <div style="font-size:12px;color:var(--text-ter);letter-spacing:1px;">Elementum · Personality Reference Guide · Version 2.0 · April 2026</div>
-  <div style="font-size:12px;color:var(--text-ter);margin-top:4px;font-style:italic;">Sourced from Doc 3 — Knowledge Pool · For internal use only</div>
+  <div style="font-size:12px;color:var(--text-ter);letter-spacing:1px;">Elementum · Profile Database · Version 2.1 · April 2026</div>
+  <div style="font-size:12px;color:var(--text-ter);margin-top:4px;font-style:italic;">Source of truth for all ten stems and ten gods · Includes classical anchors · For internal use only</div>
 </div>
 
 </div>

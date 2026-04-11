@@ -21,14 +21,14 @@ Elementum's documentation is split into six purpose-specific files. Each has a s
 
 ---
 
-### Doc 2 — Archetype System & Reading Architecture
+### Doc 2 — Archetype System
 **File:** `DOC2_Archetype_System.md`
-**Audience:** Product, content, frontend engineers, generation system
-**Job:** The identity and reading system. What users see and why. How keys are computed. The full 50-key Layer 2 taxonomy. How the three deliverables are structured.
-**Stability:** MEDIUM — key taxonomy is locked; deliverable architecture for Sections 1–2 is locked; Section 3–10 reading architecture is in active development.
-**Contains:** Tier 1 identity (the four visible elements, archetypes, manifestos, colors), Tier 2 key system (Layer 1 150 keys, Layer 2/3 50 keys + full table), reading schema (three angles, yin/yang pair rules, reference reading), deliverable specs (DayMasterHero, ElementSpectrum, ProfileReading), voice rules, model assignment.
+**Audience:** Engineers, product, generation system
+**Job:** The archetype formula and rules. What each archetype is, how layer keys are computed, and the full 50-key interaction taxonomy. Nothing about reading content, deliverables, or generation — those live in Doc 4.
+**Stability:** HIGH — the taxonomy is the contract between the engine and all content layers.
+**Contains:** Tier 1 identity (the four visible elements, archetypes, manifestos, element colors), Tier 2 key system (Layer 1 150 keys, Layer 2/3 50 keys + full 50-entry table), layer key computation code, reference chart layer derivation.
 
-**Does NOT contain:** Calculation math (Doc 1), classical sources (Doc 3), generation prompts (Doc 4), detailed UI/design specs (Doc 5).
+**Does NOT contain:** Reading schema, deliverable specs, voice rules, generation prompts, model assignment (all in Doc 4). Calculation math (Doc 1). Classical sources (Doc 3). UI/design specs (Doc 5).
 
 ---
 
@@ -43,16 +43,14 @@ Elementum's documentation is split into six purpose-specific files. Each has a s
 
 ---
 
-### Doc 4 — Generation Architecture & Prompt Guidance
-**File:** `DOC4_Generation_Architecture.md` *(deferred — in active development)*
-**Audience:** Generation scripts, AI agent doing batch generation
-**Job:** The complete generation protocol. Imports from Doc 3, tells the generator exactly which sources to use for which key, in what order, with what ceilings. The document the AI agent reads when generating a new archetype template.
-**Stability:** MEDIUM — updates when generation quality improves or reasoning chain changes.
-**Contains:** The complete reasoning chain (Step 0 voice register through Step 4 angle generation), system prompts for Pass 1 and Pass 2, quality gates, persona field specifications, reading schema specifications, forbidden vocabulary.
+### Doc 4 — Generation Architecture & Reading Content Guide
+**File:** `DOC4_Generation_Architecture.md`
+**Audience:** Generation scripts, AI agent doing batch generation, frontend engineers building reading components
+**Job:** The complete reference for all reading content in Elementum. What the reading structure is, how it sounds, how it is generated, and how it is validated and shipped.
+**Stability:** MEDIUM — system prompts and reasoning chain evolve with output quality; deliverable specs and voice rules are more stable.
+**Contains:** Reading schema and three-angle structure (§2), literary voice rules and five elemental registers (§3), all three deliverable specs — DayMasterHero, ElementSpectrum, ProfileReading (§4–6), Pass 1 persona card generation (§7), Pass 2 reading schema generation (§8), Layer 2 angle generation (§9), compound archetype cards (§10), the reference standard reading (§11), quality gates (§12), CLI pipeline (§13), approve-then-scale workflow (§14), model assignment (§15).
 
-**Does NOT contain:** The knowledge pool itself (Doc 3) — it imports from it by reference. Calculation logic (Doc 1). UI specs (Doc 5).
-
-> **Current status:** Doc 4 is intentionally deferred. The reasoning chain from the monolith Bible is functional but constrains the output too tightly, producing readings that are accurate but lack angle variety. This needs redesign before being extracted into a standalone document. The relevant content currently lives in `BaZi_Analysis_Bible_v2.md §3A.5`.
+**Does NOT contain:** The knowledge pool itself (Doc 3) — imports from it by reference. Calculation logic (Doc 1). Archetype taxonomy (Doc 2). UI/visual specs (Doc 5).
 
 ---
 
@@ -135,14 +133,14 @@ Doc 3 (sources) + Doc 4 (protocol)
 | Doc | File | Status | Completeness |
 |---|---|---|---|
 | Doc 1 | `DOC1_Calculation_Engine.md` | ✅ LOCKED | Complete |
-| Doc 2 | `DOC2_Archetype_System.md` | 🔒 STRUCTURE LOCKED / 🔲 Reading arch. in dev | Sections 1–2 complete; Sections 3–10 deferred |
+| Doc 2 | `DOC2_Archetype_System.md` | ✅ LOCKED | Complete — archetype formula and key taxonomy only |
 | Doc 3 | `DOC3_Knowledge_Pool.md` | 🔲 IN DEVELOPMENT | Not yet extracted from Bible |
-| Doc 4 | `DOC4_Generation_Architecture.md` | ✅ DRAFTED · System prompts ready to extract | Reasoning chain redesigned around portrait-first generation |
+| Doc 4 | `DOC4_Generation_Architecture.md` | ✅ DRAFTED · LIVING | Complete — reading schema, deliverables, voice rules, generation passes, quality gates, CLI pipeline |
 | Doc 5 | `DOC5_App_Design.md` | ✅ DRAFTED · LIVING | Screen flows, component specs, color system, data contracts |
 | Doc 6 | `DOC6_Manual.md` | ✅ CURRENT | This document |
 
 **Where to find content not yet extracted:**
-The monolith `BaZi_Analysis_Bible_v2.md` remains the source of truth for Doc 3, Doc 4, and Doc 5 content until those documents are written. If you need generation guidance, psychological frameworks, or design details that are not in Doc 2, check the Bible first.
+The monolith `BaZi_Analysis_Bible_v2.md` remains the source of truth for Doc 3 content until that document is written. If you need psychological frameworks or classical sourcing detail, check the Bible first. All generation guidance and reading structure now lives in Doc 4.
 
 ---
 
@@ -164,17 +162,15 @@ The monolith `BaZi_Analysis_Bible_v2.md` remains the source of truth for Doc 3, 
 
 ### Doc 2 — Archetype System
 
-**How to read it:** Start with §1 (system overview and core principle) to understand the layered model. Then §3 for the key system — this is the taxonomy that everything else builds on.
+**How to read it:** Start with §1 (system overview) to understand the layered model. Then §3 for the key system — the 50-key taxonomy is the structural contract that all content and code builds on.
 
 **What to look for:**
-- What a user sees on screen → §2 (Tier 1), §6 (DayMasterHero), §7 (ElementSpectrum), §8 (ProfileReading)
+- What a user sees on the identity card → §2 (Tier 1)
 - A specific key (e.g. `金_比肩`) → §3, full 50-key taxonomy table
-- How Layer 2 angles are structured → §4 (three angles, yin/yang pair rules, reference reading)
-- Which elements are catalyst/friction for a given stem and band → §7, catalyst/friction table
-- Component prop shapes → §7 (CalloutCard props), §8 (buildDayMasterProfile return shape)
-- Voice rules for any user-facing copy → §9
+- How layer keys are computed from the Canonical JSON → §3, layer key computation
+- The ten archetypes, manifestos, element colors → §2
 
-**How to extract a specific piece:** All tables in this document are extraction-ready. Copy the row or section that applies. The reference reading in §4 is the canonical quality benchmark — when in doubt, compare against it.
+**How to extract a specific piece:** All tables are extraction-ready. Copy the row or section that applies. For reading content, deliverable layout, or voice rules — those are in Doc 4, not here.
 
 ---
 
@@ -393,11 +389,11 @@ The generation reasoning chain was redesigned for Doc 4. The core change: **port
 
 ### Running a generation batch
 
-*(Requires Doc 4 — currently deferred. Until Doc 4 is written, use the `generate_templates_v2.js` CLI directly and refer to the Bible's §3A.5 for the reasoning chain.)*
+See Doc 4 §13–14 for the full CLI reference and approve-then-scale workflow.
 
 1. `node generate_templates_v2.js generate-persona` → submit Layer 1 Pass 1
 2. `node generate_templates_v2.js retrieve-persona` → collect → `personas.json`
-3. Sample 3–5 results. Cold-reader test. Approve before continuing.
+3. Sample 3–5 results against Doc 4 §11 reference standard. Approve before continuing.
 4. `node generate_templates_v2.js generate-readings` → submit Layer 1 Pass 2
 5. `node generate_templates_v2.js retrieve-readings` → collect → `templates.json`
 6. `node generate_templates_v2.js generate-angles` → submit Layer 2
@@ -409,19 +405,19 @@ The generation reasoning chain was redesigned for Doc 4. The core change: **port
 ### Adding a new archetype template (single key)
 
 1. Identify the key (e.g. `甲_balanced_flowing`)
-2. Read the relevant sections of Doc 3 (source library for this stem and pattern) and Doc 4 (reasoning chain)
-3. Follow the reasoning chain: Step 0 (voice register) → Step 1 (stem behavioral default) → Step 2 (band modifier) → Step 3 (tgPattern condition) → Portrait pre-write → Field generation
-4. Verify against quality gates
+2. Read the relevant sections of Doc 3 (source library for this stem and pattern) and Doc 4 §7–8 (Pass 1 + Pass 2 generation)
+3. Follow the portrait-first generation flow: portrait pre-write → coherence tests → field generation → voice register check
+4. Verify against Doc 4 §12 quality gates
 5. Add to TEMPLATE_DB in `Elementum_Engine.jsx`
 6. Add key to `LAYER1_SKIP` in `generate_templates_v2.js` to prevent overwriting at batch time
 
 ### Editing a UI component
 
-1. Identify which deliverable it belongs to (Doc 2 §6, §7, or §8)
-2. Check the component's data contract (prop shapes in Doc 2 §7–8)
+1. Identify which deliverable it belongs to (Doc 4 §4, §5, or §6)
+2. Check the component's data contract (CalloutCard props in Doc 4 §5, `buildDayMasterProfile` shape in Doc 4 §6)
 3. Check Doc 5 for visual specification
-4. If you need a new field: update Doc 2 §7–8 first, then implement in `Elementum_Engine.jsx`, then update Doc 5
-5. If you're removing a field: check Doc 4 to ensure generation scripts don't produce it unnecessarily
+4. If you need a new field: update Doc 4 §5–6 first, then implement in `Elementum_Engine.jsx`, then update Doc 5
+5. If you're removing a field: check Doc 4 §13 to ensure generation scripts don't produce it unnecessarily
 
 ---
 
@@ -436,21 +432,33 @@ The generation reasoning chain was redesigned for Doc 4. The core change: **port
 | The reference chart verification tests | Doc 1 §5 |
 | What the user sees on the identity card | Doc 2 §2 |
 | All 50 Layer 2/3 keys | Doc 2 §3, full taxonomy table |
-| How `金_比肩` differs from `金_劫财` | Doc 2 §4, yin/yang pair rules |
-| The reference reading (庚 Metal) | Doc 2 §4 |
-| How catalyst/friction is derived per band | Doc 2 §7, band-conditional derivation table |
-| The catalyst/friction table for all 10 stems | Doc 2 §7 |
-| The `buildDayMasterProfile()` return shape | Doc 2 §8 |
-| Which BaZi terms are banned from UI | Doc 2 §9 |
+| How layer keys are computed from the JSON | Doc 2 §3, layer key computation |
+| The element colors | Doc 2 §2 |
+| Why `expressive` and `pressured` were retired | Doc 2 §3, note on 5 vs 7 tgPattern values |
+| How `金_比肩` differs from `金_劫财` | Doc 4 §2, yin/yang pair rules |
+| The three reading angles (how/works/deep) | Doc 4 §2 |
+| The five elemental voice registers | Doc 4 §3 |
+| Which BaZi terms are banned from UI | Doc 4 §3, jargon-free principle |
+| DayMasterHero component spec | Doc 4 §4 |
+| ElementSpectrum component spec | Doc 4 §5 |
+| How catalyst/friction is derived per band | Doc 4 §5, band-conditional derivation table |
+| The catalyst/friction table for all 10 stems | Doc 4 §5 |
+| The `buildDayMasterProfile()` return shape | Doc 4 §6 |
+| The Pass 1 persona card system prompt | Doc 4 §7 |
+| The Pass 2 reading schema system prompt | Doc 4 §8 |
+| Reading field specs (teaser, twoAM, etc.) | Doc 4 §8 |
+| Layer 2 angle generation system prompt | Doc 4 §9 |
+| TG mechanism descriptions for prompts | Doc 4 §9 |
+| Compound archetype card schema (13 fields) | Doc 4 §10 |
+| The reference reading (庚 Metal) | Doc 4 §11 |
+| Quality gates for all three passes | Doc 4 §12 |
+| Forbidden vocabulary (complete list) | Doc 4 §12.4 |
+| The generation batch CLI commands | Doc 4 §13 |
+| Approve-then-scale workflow | Doc 4 §14 |
+| Which model to use for which task | Doc 4 §15 |
 | The psychological framework behind 七杀 | Bible §3A.7 Part F (until Doc 3 is written) |
 | The classical source behind the pure tgPattern | Bible §3A.5 Part C (until Doc 3 is written) |
-| How the generation reasoning chain works | Bible §3A.5 Parts A–E (until Doc 4 is written) |
-| The system prompts used in generation | `generate_templates_v2.js` constants |
-| Which model to use for which task | Doc 2 §10 |
-| Why `expressive` and `pressured` were retired | Doc 2 §3, note on 5 vs 7 tgPattern values |
 | Why the catalyst dimension was retired | Doc 6 §8 (deliberately deferred) + Bible §3A.7 Part A note |
-| The generation batch CLI commands | `generate_templates_v2.js` header comment + Doc 6 §9 |
-| The element colors | Doc 2 §2 |
 
 ---
 
@@ -458,6 +466,7 @@ The generation reasoning chain was redesigned for Doc 4. The core change: **port
 
 | Version | Date | Changes |
 |---|---|---|
+| 1.1 | April 2026 | Updated to reflect Doc 2 scope narrowing and Doc 4 expansion. All cross-references updated. Quick reference table rebuilt. |
 | 1.0 | April 2026 | Initial creation. Documents 1, 2, 6 written. Docs 3, 4, 5 status noted. |
 
 ---
@@ -467,7 +476,8 @@ The generation reasoning chain was redesigned for Doc 4. The core change: **port
 | | |
 |---|---|
 | **Document** | Doc 6 — The Manual |
-| **Version** | 1.0  ·  April 2026 |
+| **Last Updated** | 2026-04-10 |
+| **Version** | 1.1  ·  April 2026 |
 | **Status** | LIVING — update whenever a document is added, split, or restructured |
 | **Audience** | Any new AI agent, new team member, or new conversation starting work on Elementum |
 | **Purpose** | Read this first. Always. Explains what exists, what each document is for, how they depend on each other, and how to edit safely. |

@@ -559,6 +559,7 @@ Run these against any new implementation before going to production:
 | | |
 |---|---|
 | **Document** | Doc 1 — Calculation Engine Specification |
+| **Last Updated** | 2026-04-10 |
 | **Version** | 1.0  ·  April 2026 |
 | **Status** | LOCKED — changes require full team review and anchor re-verification |
 | **Audience** | Engineers implementing or verifying the calculation engine |

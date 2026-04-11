@@ -1204,6 +1204,7 @@ Identity card is fully free. It is the hook. Nothing here is gated.
 | | |
 |---|---|
 | **Document** | Doc 5 — App Design Document |
+| **Last Updated** | 2026-04-10 |
 | **Version** | 1.0  ·  April 2026 |
 | **Status** | LIVING — most actively evolving document in the system |
 | **Audience** | Designer, frontend engineers |
