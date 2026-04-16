@@ -144,6 +144,34 @@ Max: **2 behavioral claims for 壬 stem.** Pattern-conditional.
 
 ---
 
+#### `seasonalCalibration` field — definition and sourcing
+
+**Internal field name:** `seasonalCalibration`
+**Source system:** 调候用神 from 穷通宝鉴 — the *seasonal override layer*, distinct from 病药用神 (catalyst/remedy) sourced from 神峰通考.
+
+These two systems answer different questions and frequently point to different elements:
+- **病药用神** (catalyst/remedy) — answers: *"What does this DM need structurally to function at its best?"* Derived from 扶抑 analysis (strengthen/suppress balance).
+- **调候用神** (seasonal calibration) — answers: *"What does this chart need to not be frozen or burnt by its seasonal temperature?"* Derived from month branch climate analysis in 穷通宝鉴.
+
+They must be kept as separate fields. Collapsing them into the catalyst field produces incorrect readings when the elements diverge.
+
+**Tier:** Pro. Surfaces in reading text under a per-element poetic user-facing label.
+
+**User-facing label convention (internal → user-facing):**
+| Element | Internal name | User-facing label (proposed) |
+|---|---|---|
+| Metal (金) | `seasonalCalibration` | The Forging Season |
+| Wood (木) | `seasonalCalibration` | The Growing Season |
+| Fire (火) | `seasonalCalibration` | The Tempering Season |
+| Earth (土) | `seasonalCalibration` | The Settling Season |
+| Water (水) | `seasonalCalibration` | The Still Season |
+
+*Labels are proposals — confirm during content generation for each element.*
+
+**What this field contains:** Not a single catalyst element, but a contextual reading: *given the seasonal temperature of this chart (month branch), what element, season, or environmental condition brings the structure into its most workable state.* Framed in second person. Experiential, not prescriptive. Draws from the Tier 2 inventory above for each stem.
+
+---
+
 ### 子平真诠 — Ten God Chapters
 
 **What it covers:** Systematic treatment of Ten God analysis. The most rigorous classical source for how each TG relationship shapes personality. Chapters 论正官, 论七杀, 论食神, 论伤官, 论财, 论印 are all directly applicable.
@@ -1209,7 +1237,7 @@ These are the structural BaZi concepts that must never surface in reading text.
 | Useful God | 用神 | usefulGod (internal) | “catalyst” / “what activates this” / “the activating element” |
 | Favorable element | 喜神 | xishen (internal) | “supportive element” / “what nourishes this” — rarely named in readings |
 | Unfavorable element | 忘神 | jishen (internal) | “friction” / “what compresses this” — use sparingly; never label |
-| Seasonal adjustment | 调候 | tiaohou (internal) | Internal only — never surface in reading text |
+| Seasonal Calibration | 调候用神 | `seasonalCalibration` (internal field name) | **Pro tier — surfaces in reading text** under a per-element poetic label (e.g. "The Forging Season" for Metal). Distinct from 病药用神 (catalyst/remedy). See §2 穷通宝鉴 and field definition note below. |
 | Structural pattern | 格局 | gejue (internal) | “the pattern” / “the structural interaction” — describe, don’t label |
 | Deficiency (chart need) | 病 | bing (internal) | Internal calculation only — never say “deficiency” in reading; describe the structural condition |
 | Remedy / catalyst | 药 | yao (internal) | “catalyst” in all reading text — never “remedy”, never “yao” |

@@ -26,6 +26,7 @@ This document is the primary reference for all UI and interaction design work in
 §15 Shared Component Library
 §16 Accessibility & Performance
 §17 Data Contract Summary
+§18 Features: Pending Development
 ```
 
 ---
@@ -1199,12 +1200,73 @@ Identity card is fully free. It is the hook. Nothing here is gated.
 
 ---
 
+## §18 — Features: Pending Development
+
+The following features are fully scoped but not yet built. They are documented here to establish the design intent and data contracts before implementation begins.
+
+---
+
+### Dynamic Energy Blueprint
+
+**Status:** Pending development — data foundation in progress.
+
+**What it is:** Daily, monthly, and annual energetic guidance personalised to the user's natal chart. The Blueprint answers the question: *"Given who I am structurally, what does this specific period want from me — and what does it cost me?"*
+
+This is not generic daily horoscope content. Every statement is derived from how the current year/month/day stem and branch interact with the user's natal chart through the classical liunian (流年) analysis framework — annual pillar overlays, major luck cycle activation, stem combinations, and branch clash/harmony dynamics.
+
+**Three time horizons:**
+
+| Horizon | Source mechanism | Update frequency |
+|---|---|---|
+| **Annual** | Year stem + branch interaction with natal DM and dominant TGs | Once per lunar year |
+| **Monthly** | Month pillar overlay on natal chart | Once per month |
+| **Daily** | Day stem + branch against natal DM | Daily |
+
+**Delivery model (proposed):**
+
+The feature surfaces in the existing Today screen (§10) as a dedicated card or section below the current daily guidance. Annual and monthly guidance layers sit one scroll below the daily layer — depth on demand, not depth on top of depth.
+
+**Content architecture:**
+
+Each Blueprint entry is structured around the user's `liunianSignatures` field (sourced from `archetypeSource.js` → `STEM_CARD_DATA[stem].liunianSignatures`) combined with computed pillar overlay analysis. Entry structure (proposed):
+
+- **This period's energy** — what the incoming element/stem brings structurally, framed in the DM's elemental register
+- **How your chart meets it** — the interaction between this period's force and the user's natal dominant energies
+- **What this activates** — specific life domains (career, relationships, wealth, health) where this period's energy is most likely to manifest
+- **What to hold** — structural advice framed as the DM would hold it — not prescription, but pattern awareness
+
+**Voice:** Second person, DM elemental register. Same quality bar as reading content. Never generic. Never fate-language.
+
+**Data requirements (to be built before feature launch):**
+
+- `liunianSignatures` field in `archetypeSource.js` for all 10 stems — structured by life domain (career, relationships, wealth, health) with timing notes and classical source attribution
+- Computed pillar overlay logic in `Elementum_Engine.jsx` — current year/month/day stem and branch extraction
+- Blueprint generation function: takes natal chart + current period → produces structured guidance entry
+- Pre-generated annual / monthly entries (offline pipeline, same architecture as Pipeline A in DOC4)
+- Daily entries may require lightweight LLM synthesis at generation time or a pre-generated table of 60 day-stem-branch permutations
+
+**Tier assignment (proposed):**
+
+| Horizon | Free | Pro |
+|---|---|---|
+| Annual — teaser (2–3 sentences) | ✓ | ✓ |
+| Annual — full entry | ✗ | ✓ |
+| Monthly — teaser | ✗ | ✓ |
+| Monthly — full entry | ✗ | ✓ |
+| Daily guidance | ✗ | ✓ |
+
+**Design intent:** The annual Blueprint is the primary hook — it is the thing that makes a returning user open the app at the start of each new year. Monthly guidance is the retention mechanic. Daily guidance is the habituation driver.
+
+**Classical grounding:** Rooted in 流年 (liunian) prediction frameworks from 子平真诠 and 滴天髓 — specifically the chapters on annual pillar activation, ten-god year analysis, and 大运流年相互作用 (major luck cycle × annual pillar interaction). `liunianSignatures` in `archetypeSource.js` is the authored content foundation. Classical source for each event signature must be logged internally.
+
+---
+
 ## Document Metadata
 
 | | |
 |---|---|
 | **Document** | Doc 5 — App Design Document |
-| **Last Updated** | 2026-04-10 |
+| **Last Updated** | 2026-04-13 |
 | **Version** | 1.0  ·  April 2026 |
 | **Status** | LIVING — most actively evolving document in the system |
 | **Audience** | Designer, frontend engineers |

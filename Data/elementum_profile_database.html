@@ -274,6 +274,111 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 .tier-internal { background: rgba(130,130,130,0.09); color: #777; border: 1px solid rgba(130,130,130,0.22); }
 .tier-self     { background: rgba(140,80,160,0.1); color: #7a3a9a; border: 1px solid rgba(140,80,160,0.25); }
 
+
+/* == NEW SCHEMA SECTIONS (庚 prototype) =============================== */
+/* TEASER BLOCK */
+.teaser-block { margin: 16px 24px 0; padding: 14px 18px; border-radius: 10px; }
+.metal .teaser-block { background: rgba(139,163,184,0.10); border-left: 3px solid var(--metal); }
+.wood  .teaser-block { background: rgba(122,158,110,0.10); border-left: 3px solid var(--wood); }
+.fire  .teaser-block { background: rgba(196,116,90,0.10);  border-left: 3px solid var(--fire); }
+.earth .teaser-block { background: rgba(184,154,106,0.10); border-left: 3px solid var(--earth); }
+.water .teaser-block { background: rgba(90,127,168,0.10);  border-left: 3px solid var(--water); }
+.teaser-eyebrow { font-size: 10px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-ter); margin-bottom: 8px; }
+.teaser-text { font-size: 15px; line-height: 1.85; color: var(--text); font-style: italic; }
+/* SCHEMA SECTION DIVIDERS */
+.schema-section-header { display: flex; align-items: center; gap: 10px; margin: 22px 24px 14px; }
+.schema-section-label { font-size: 9.5px; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; color: var(--text-ter); flex-shrink: 0; }
+.schema-section-line { flex: 1; height: 0.5px; background: var(--border-light); }
+/* LIFE DOMAINS (Section 1 extended) */
+.life-domains-section { margin: 0 24px; }
+.life-domains-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 600px) { .life-domains-grid { grid-template-columns: 1fr; } }
+.life-domain-card { border-radius: 8px; padding: 12px 14px; border: 0.5px solid var(--border-light); background: var(--bg-card-alt); }
+.life-domain-name { font-size: 10px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+.life-domain-text { font-size: 13px; line-height: 1.75; color: var(--text-sec); }
+/* DOMINANT ENERGY (Section 2) */
+.dominant-energy-section { margin: 0 24px 16px; padding: 18px 20px; border-radius: 10px; border: 1px dashed var(--border); background: rgba(255,255,255,0.40); }
+.dominant-energy-eyebrow { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+.dominant-energy-eyebrow-label { font-size: 10px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-ter); }
+.dominant-energy-title { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 18px; font-weight: 400; color: var(--accent-dark); margin-bottom: 10px; line-height: 1.3; }
+.dominant-energy-teaser { font-size: 14px; line-height: 1.8; color: var(--text-sec); font-style: italic; margin-bottom: 12px; padding: 10px 14px; background: var(--bg-card); border-radius: 8px; border-left: 2px solid var(--accent-light); }
+.dominant-energy-desc { font-size: 14px; line-height: 1.85; color: var(--text-sec); }
+.dominant-energy-desc p { margin-bottom: 10px; }
+.dominant-energy-desc p:last-child { margin-bottom: 0; }
+/* SEASONAL CALIBRATION */
+.seasonal-section { margin: 0 24px 16px; padding: 18px 20px; border-radius: 10px; background: linear-gradient(135deg,rgba(196,116,90,0.07),rgba(196,116,90,0.02)); border: 1px solid rgba(196,116,90,0.22); }
+.seasonal-eyebrow { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+.seasonal-eyebrow-label { font-size: 10px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--fire); }
+.seasonal-title { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 17px; font-weight: 400; color: var(--fire-dark); margin-bottom: 8px; }
+.seasonal-element-tag { display: inline-block; font-size: 11px; font-weight: 500; padding: 2px 9px; border-radius: 4px; background: rgba(196,116,90,0.12); border: 1px solid rgba(196,116,90,0.28); color: var(--fire-dark); margin-bottom: 10px; }
+.seasonal-teaser { font-size: 14px; line-height: 1.8; color: var(--text-sec); font-style: italic; padding: 10px 14px; background: var(--bg-card); border-radius: 8px; border-left: 2px solid rgba(196,116,90,0.35); margin-bottom: 12px; }
+.seasonal-desc { font-size: 13.5px; line-height: 1.85; color: var(--text-sec); }
+.seasonal-desc p { margin-bottom: 10px; }
+.seasonal-desc p:last-child { margin-bottom: 0; }
+/* LIUNIAN SIGNATURES */
+.liunian-sig-section { margin: 0 24px 20px; padding: 18px 20px; border-radius: 10px; background: var(--bg-card); border: 1px solid var(--border); }
+.liunian-sig-eyebrow { display: flex; align-items: center; gap: 8px; margin-bottom: 14px; }
+.liunian-sig-eyebrow-label { font-size: 10px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-ter); }
+.liunian-sig-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 600px) { .liunian-sig-grid { grid-template-columns: 1fr; } }
+.liunian-sig-card { padding: 12px 14px; border-radius: 8px; background: var(--bg-card-alt); border: 0.5px solid var(--border-light); }
+.liunian-sig-domain { font-size: 10px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 5px; }
+.liunian-sig-trigger { font-size: 11.5px; color: var(--text-ter); font-style: italic; margin-bottom: 7px; line-height: 1.5; }
+.liunian-sig-event { font-size: 13px; line-height: 1.7; color: var(--text-sec); margin-bottom: 7px; }
+.liunian-sig-timing { font-size: 11.5px; color: var(--text-ter); margin-bottom: 5px; line-height: 1.55; }
+.liunian-sig-source { font-size: 10.5px; color: var(--text-ter); font-style: italic; line-height: 1.5; }
+
+
+/* == TEASER BLOCK v3.3 COMPONENTS =========================================== */
+.archetype-identity { margin-bottom: 14px; }
+.archetype-phrase { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 22px; font-weight: 400; color: var(--accent-dark); line-height: 1.2; }
+.portrait-text { font-size: 14px; line-height: 1.85; color: var(--text-sec); margin-bottom: 16px; }
+/* GIFTS & SHADOWS PANEL */
+.gifts-shadows-panel { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; padding-top: 14px; border-top: 0.5px solid var(--border-light); }
+@media (max-width: 600px) { .gifts-shadows-panel { grid-template-columns: 1fr; } }
+.gs-column-label { font-size: 9.5px; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 8px; }
+.gifts-column .gs-column-label { color: var(--accent); }
+.shadows-column .gs-column-label { color: var(--text-ter); }
+.gs-item { margin-bottom: 8px; display: flex; align-items: flex-start; gap: 6px; }
+.gs-bullet { font-size: 9px; color: var(--text-ter); margin-top: 3px; flex-shrink: 0; }
+.gs-phrase { font-size: 13px; color: var(--text); font-style: italic; line-height: 1.5; }
+.gs-desc { font-size: 12.5px; color: var(--text-sec); line-height: 1.7; margin-top: 5px; padding-top: 5px; border-top: 0.5px solid var(--border-light); }
+/* DOOR OPENER */
+.door-opener { padding-top: 14px; border-top: 0.5px solid var(--border-light); }
+.door-opener-label { font-size: 9.5px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-ter); margin-bottom: 7px; }
+.door-opener-text { font-size: 13.5px; line-height: 1.85; color: var(--text-sec); font-style: italic; }
+.gs-tier-badge { margin-left: 5px; vertical-align: middle; }
+
+/* == BLOCK LABELS PREVIEW (pro gate in teaser) =============================== */
+.block-labels-preview { padding-top: 14px; border-top: 0.5px solid var(--border-light); }
+.blp-header { font-size: 9.5px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-ter); margin-bottom: 10px; }
+.blp-list { display: flex; flex-direction: column; gap: 5px; }
+.blp-item { font-size: 13px; color: var(--text-ter); line-height: 1.5; padding: 3px 0; }
+.blp-highlight { color: var(--text-sec); font-style: italic; }
+/* == BLOCK LABELS PREVIEW (pro gate in teaser) ========================= */
+.block-labels-preview { padding-top: 14px; border-top: 0.5px solid var(--border-light); }
+.blp-header { font-size: 9.5px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-ter); margin-bottom: 10px; }
+.blp-list { display: flex; flex-direction: column; gap: 5px; }
+.blp-item { font-size: 13px; color: var(--text-ter); line-height: 1.5; padding: 3px 0; }
+.blp-highlight { color: var(--text-sec); font-style: italic; }
+
+/* == VARIANT BLOCK SCHEMA v1.0 ============================================== */
+.variant-block { margin-bottom: 0; }
+.block-meta { display: flex; flex-wrap: wrap; gap: 5px; margin: 4px 0 10px 0; }
+.meta-chip { font-size: 9.5px; font-weight: 500; letter-spacing: 0.1em;
+  text-transform: uppercase; padding: 2px 6px; border-radius: 3px;
+  background: rgba(88, 74, 62, 0.06); color: var(--text-ter); }
+.meta-chip.meta-restricted { background: rgba(196, 116, 90, 0.08); color: var(--accent-dark); }
+.variant-row { margin-bottom: 10px; }
+.variant-row:last-child { margin-bottom: 0; }
+.variant-key-label { font-size: 9px; font-weight: 600; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--accent); margin-bottom: 4px; }
+.variant-key-label.key-concentrated { color: #7a8c6a; }
+.variant-key-label.key-todo { color: var(--text-ter); opacity: 0.6; }
+.variant-todo .block-text { opacity: 0.38; font-style: italic; }
+.variant-compound-note { font-size: 11px; color: var(--text-ter);
+  font-style: italic; margin-top: 6px; padding-top: 6px;
+  border-top: 0.5px solid var(--border-light); }
 </style>
 </head>
 <body>
@@ -1141,50 +1246,451 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
     <span class="chip">Self-sufficient</span>
     <span class="chip">Justice-oriented</span>
   </div>
-  <div class="psych-core">
-    <div class="psych-core-label">Psychological Core</div>
-    <div class="psych-core-phrase">The Structural Assessor</div>
-    <div class="psych-core-desc">She evaluates before she engages, and the assessment never stops — a clarity so structural it arrives as precision before warmth, making her simultaneously the most trustworthy and most difficult person in the room, with a "blade" in her tongue that is actually a defense mechanism for a very soft core beneath.</div>
+
+  <!-- SECTION 1: ELEMENTAL NATURE -->
+  <div class="teaser-block">
+    <div class="teaser-eyebrow">Elemental Nature <span class="tier-badge tier-free">FREE TEASER</span></div>
+
+    <!-- ① Archetype identity (psychCore.phrase) -->
+    <div class="archetype-identity">
+      <div class="archetype-phrase">The Structural Assessor</div>
+    </div>
+
+    <!-- ② Portrait (psychCore.desc — 2nd person, concise) -->
+    <div class="portrait-text">You evaluate before you engage, and the assessment never stops — a clarity so structural it arrives as precision before warmth, making you simultaneously the most trustworthy and most difficult person in any room. What reads as a blade is actually a defense mechanism for a very soft core beneath.</div>
+
+    <!-- ③ Gifts & Shadows panel (phrase [FREE] · desc [PRO]) -->
+    <div class="gifts-shadows-panel">
+      <div class="gs-column gifts-column">
+        <div class="gs-column-label">Gifts</div>
+        <div class="gs-item"><span class="gs-bullet">◦</span><div><span class="gs-phrase">The Structural Read</span><span class="tier-badge tier-free gs-tier-badge">FREE</span><div class="gs-desc">You don’t choose to assess — the read finishes before you’ve decided to begin it.</div></div></div>
+        <div class="gs-item"><span class="gs-bullet">◦</span><div><span class="gs-phrase">The Core Beneath the Edge</span><span class="tier-badge tier-free gs-tier-badge">FREE</span><div class="gs-desc">What people experience as your edge is covering a depth of care that almost no one earns access to.</div></div></div>
+        <div class="gs-item"><span class="gs-bullet">◦</span><div><span class="gs-phrase">The Held Position</span><span class="tier-badge tier-free gs-tier-badge">FREE</span><div class="gs-desc">When everyone else has adjusted their position to manage the room, yours is unchanged — and people depend on that more than they say.</div></div></div>
+      </div>
+      <div class="gs-column shadows-column">
+        <div class="gs-column-label">Shadows</div>
+        <div class="gs-item"><span class="gs-bullet">◦</span><div><span class="gs-phrase">The Finished Too Early</span><span class="tier-badge tier-free gs-tier-badge">FREE</span><div class="gs-desc">You tend to call things complete before they’ve fully arrived — the clarity that recognizes finished things can misread what’s still becoming.</div></div></div>
+        <div class="gs-item"><span class="gs-bullet">◦</span><div><span class="gs-phrase">The Internal Standard</span><span class="tier-badge tier-free gs-tier-badge">FREE</span><div class="gs-desc">The assessment you turn outward runs inward too — and it holds you to a standard that never fully declares you done.</div></div></div>
+        <div class="gs-item"><span class="gs-bullet">◦</span><div><span class="gs-phrase">The Clarity Gap</span><span class="tier-badge tier-free gs-tier-badge">FREE</span><div class="gs-desc">You often know something before the room is ready to hear it, and the distance between those two moments creates a loneliness that’s hard to name.</div></div></div>
+      </div>
+    </div>
+
+
+    <\!-- ④ Block labels preview (pro gate) -->
+    <div class="block-labels-preview">
+      <div class="blp-header">Inside the full reading <span class="tier-badge tier-pro">PRO</span></div>
+      <div class="blp-list">
+        <div class="blp-item">→ How you experience the world</div>
+        <div class="blp-item">→ What you’re genuinely good at</div>
+        <div class="blp-item">→ Where you consistently get stuck</div>
+        <div class="blp-item">→ What changes when conditions are right</div>
+        <div class="blp-item blp-highlight">→ What you rarely admit</div>
+        <div class="blp-item">→ How you make decisions</div>
+        <div class="blp-item">→ How you show up in relationships</div>
+        <div class="blp-item">→ What you do with pressure</div>
+        <div class="blp-item blp-highlight">→ What holds you back without looking like it</div>
+        <div class="blp-item">→ What activates the best version of this</div>
+        <div class="blp-item blp-highlight">→ The image and the interior</div>
+      </div>
+    </div>
   </div>
+
+
   <div class="card-body">
-    <div class="block">
-      <div class="block-label">How they experience the world</div>
-      <div class="block-text">The Blade evaluates before it engages. The assessment starts the moment they walk into a room — not as a decision they make but as a process that has already begun before they've chosen to begin it. They know what's real and what isn't, what holds up and what doesn't, before the conversation has fully started. Others feel assessed in their presence even when nothing has been said and nothing was intended. This is not coldness. It's what it looks like when the first cognitive event is precision rather than warmth.</div>
+    <div class="schema-section-header" style="margin-bottom:4px;">
+      <span class="schema-section-label">Reading Blocks — Variant Schema</span>
+      <span class="tier-badge tier-pro" style="margin-left:0;">PRO</span>
+      <div class="schema-section-line"></div>
+    </div>
+    <div class="variant-schema-note" style="font-size:11.5px; color:var(--text-ter); font-style:italic; margin-bottom:18px; line-height:1.7;">
+      Each block carries <code>default</code> text (balanced/modal case) and band or pattern variants where the mechanism genuinely shifts.
+      Fallback: <code>band_pattern</code> → <code>band</code> → <code>pattern</code> → <code>default</code>.
+      [TODO] entries are scaffolded variants pending authoring.
+    </div>
+    <div class="block variant-block">
+      <div class="block-label">How you experience the world <span class="tier-badge tier-pro">PRO</span></div>
+      <div class="block-meta">
+        <span class="meta-chip">priority · default 5 · concentrated 5</span>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-default">default</div>
+        <div class="block-text">You evaluate before you engage. The assessment starts when you enter a room — not as a decision you make but as a process that has already begun. You know what holds up and what doesn’t before the conversation has fully started. Others feel this in your presence even when nothing has been said. This is not coldness. It’s what it looks like when the first cognitive event is precision rather than warmth.</div>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-concentrated">concentrated</div>
+        <div class="block-text">You evaluate before you engage. The assessment starts the moment you walk into a room — not as a decision you make but as a process that has already begun before you’ve chosen to begin it. You know what’s real and what isn’t, what holds up and what doesn’t, before the conversation has fully started. Others feel assessed in your presence even when nothing has been said and nothing was intended. This is not coldness. It’s what it looks like when the first cognitive event is precision rather than warmth.</div>
+      </div>
+      <div class="variant-row variant-todo">
+        <div class="variant-key-label key-todo">[TODO] — open</div>
+        <div class="block-text">[TODO — open: the assessment is present but quieter; the evaluation doesn’t dominate every entry point; describe the 庚 open experience where precision exists without the involuntary relentlessness of the concentrated case]</div>
+      </div>
+      <div class="variant-row variant-todo">
+        <div class="variant-key-label key-todo">[TODO] — tested (官杀旺)</div>
+        <div class="block-text">[TODO — tested: the assessment runs in the context of external authority or institutional pressure; describe how the evaluative quality meets and is shaped by dominant official energy]</div>
+      </div>
     </div>
     <div class="inner-divider"></div>
-    <div class="block">
-      <div class="block-label">What they're genuinely good at</div>
-      <div class="block-text">Cutting to what's actually true, quickly, without sentimentality — not because they don't care but because accuracy is a form of care for them. Building things that last because they genuinely cannot commit to building things that won't. Being the person whose feedback is the most difficult to hear and the most reliable in the room. The things they build tend to still be in use years later, because they could not have made them any other way.</div>
+    <div class="block variant-block">
+      <div class="block-label">What you’re genuinely good at <span class="tier-badge tier-pro">PRO</span></div>
+      <div class="block-meta">
+        <span class="meta-chip">priority · default 4</span>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-default">default</div>
+        <div class="block-text">Cutting to what’s actually true, quickly, without sentimentality — not because you don’t care but because accuracy is a form of care for you. Building things that last because you genuinely cannot commit to building things that won’t. Being the person whose feedback is the most difficult to hear and the most reliable in the room. The things you build tend to still be in use years later, because you could not have made them any other way.</div>
+      </div>
+      <div class="variant-row variant-todo">
+        <div class="variant-key-label key-todo">[TODO] — flowing (食伤旺)</div>
+        <div class="block-text">[TODO — flowing: the output/expression energy is dominant; when the precision is driven outward by a strong producing force, what the 庚 is genuinely good at shifts in nature — describe how the gifts change when expression is the primary channel]</div>
+      </div>
     </div>
     <div class="inner-divider"></div>
-    <div class="block">
-      <div class="block-label">Where they consistently get stuck</div>
-      <div class="block-text">The assessment has no warmth channel. The person who came needing to feel less alone gets a solution rather than presence — accurate, often useful, and not what was actually needed in that moment. The care was real. It arrived through the wrong door.</div>
-      <div class="block-text">The verdict also becomes load-bearing: once formed, it requires new information to pass through the same evaluative system that produced the original conclusion — a system that is very good at finding reasons why the new information doesn't change anything. The Blade can hold a position longer than the evidence warrants, and some part of them knows it.</div>
+    <div class="block variant-block">
+      <div class="block-label">Where you consistently get stuck <span class="tier-badge tier-pro">PRO</span></div>
+      <div class="block-meta">
+        <span class="meta-chip">priority · default 5 · concentrated 5 · open 3</span>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-default">default</div>
+        <div class="block-text">The assessment has no warmth channel. The person who came needing to feel less alone gets a solution rather than presence — accurate, often useful, and not what was actually needed in that moment. The care was real. It arrived through the wrong door.<br><br>The verdict also becomes load-bearing: once formed, it requires new information to pass through the same evaluative system — which is very good at finding reasons why the new information doesn’t change anything. You can hold a position longer than the evidence warrants.</div>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-concentrated">concentrated</div>
+        <div class="block-text">The assessment has no warmth channel. The person who came needing to feel less alone gets a solution rather than presence — accurate, often useful, and not what was actually needed in that moment. The care was real. It arrived through the wrong door.<br><br>The verdict also becomes load-bearing: once formed, it requires new information to pass through the same evaluative system that produced the original conclusion — a system that is very good at finding reasons why the new information doesn’t change anything. You can hold a position longer than the evidence warrants, and some part of you knows it.</div>
+      </div>
+      <div class="variant-row variant-todo">
+        <div class="variant-key-label key-todo">[TODO] — open</div>
+        <div class="block-text">[TODO — open: the assessment doesn’t land with the same force; the stuck is different — verdicts don’t close cleanly, or the evaluative apparatus runs without producing actionable conclusions that hold up over time]</div>
+      </div>
+      <div class="variant-row variant-todo">
+        <div class="variant-key-label key-todo">[TODO] — tested (官杀旺)</div>
+        <div class="block-text">[TODO — tested: the stuck is at the intersection of personal verdict and external authority — when your assessment conflicts with what the institutional structure demands, describe the specific friction this produces]</div>
+      </div>
     </div>
     <div class="inner-divider"></div>
-    <div class="block">
-      <div class="block-label">What changes when conditions are right</div>
-      <div class="block-text">The classical principle: raw metal becomes an instrument — shaped for a specific purpose — through contact with fire. The capability was always real. What fire does is specify what the precision is actually for. Without a worthy target, the evaluative apparatus runs on whatever is available. With the right challenge, the precision stops searching and starts producing. The edge was already there. Fire reveals what it was for.</div>
+    <div class="block variant-block">
+      <div class="block-label">What changes when conditions are right <span class="tier-badge tier-pro">PRO</span></div>
+      <div class="block-meta">
+        <span class="meta-chip">priority · default 3 · concentrated 4</span>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-default">default</div>
+        <div class="block-text">The classical principle: raw metal becomes an instrument — shaped for a specific purpose — through contact with fire. The capability was always real. What fire does is specify what the precision is actually for. Without a worthy target, the evaluative apparatus runs on whatever is available. With the right challenge, the precision stops searching and starts producing. The edge was already there. Fire reveals what it was for.</div>
+      </div>
+      <div class="variant-row variant-todo">
+        <div class="variant-key-label key-todo">[TODO] — forging (财旺)</div>
+        <div class="block-text">[TODO — forging: when wealth/direction energy is dominant, the “conditions right” mechanism shifts — the precision is already being directed into material outcomes; describe how the activation pattern changes when there is a strong directing force already in place]</div>
+      </div>
     </div>
     <div class="inner-divider"></div>
-    <div class="block">
-      <div class="block-label">What they rarely admit</div>
-      <div class="block-text">That they're often less certain than they appear. The conviction is real. The completeness of the assessment is real. But underneath the settled verdict, there is sometimes a quieter question: whether what the precision is currently aimed at actually deserves it. That question rarely makes it to the surface. It tends to come up at 2 AM.</div>
+    <div class="block variant-block">
+      <div class="block-label">What you rarely admit <span class="tier-badge tier-pro">PRO</span></div>
+      <div class="block-meta">
+        <span class="meta-chip meta-restricted">bands: concentrated · balanced</span>
+        <span class="meta-chip">priority · default 4 · concentrated 5</span>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-default">default</div>
+        <div class="block-text">That you’re often less certain than you appear. The conviction is real. The completeness of the assessment is real. But underneath the settled verdict, there is sometimes a quieter question: whether what the precision is currently aimed at actually deserves it.</div>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-concentrated">concentrated</div>
+        <div class="block-text">That you’re often less certain than you appear. The conviction is real. The completeness of the assessment is real. But underneath the settled verdict, there is sometimes a quieter question: whether what the precision is currently aimed at actually deserves it. That question rarely makes it to the surface. It tends to come up at 2 AM.</div>
+      </div>
+    </div>
+    <div class="inner-divider"></div>
+    <div class="block variant-block">
+      <div class="block-label">How you make decisions <span class="tier-badge tier-pro">PRO</span></div>
+      <div class="block-meta">
+        <span class="meta-chip">priority · default 4 · concentrated 4 · open 3</span>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-default">default</div>
+        <div class="block-text">Decisions arrive as conclusions. You don’t deliberate the way some people do — you build a structural picture, the picture resolves, and the answer appears. What looks like confidence from the outside is usually just completion: the assessment ran, the result is there. What gets harder is the edge case: when the evidence doesn’t fully resolve, when the variables conflict, when something that should be straightforward keeps remaining ambiguous.</div>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-concentrated">concentrated</div>
+        <div class="block-text">Decisions arrive as conclusions. You don’t deliberate the way some people do — you build a structural picture, the picture resolves, and the answer appears. What looks like confidence from the outside is usually just completion: the assessment ran, the result is there. What gets harder is the edge case: when the evidence doesn’t fully resolve, when the variables conflict, when something that should be straightforward keeps remaining ambiguous. That’s when the evaluative system runs over the same ground twice, then again. You make fast decisions or you make slow, grinding ones. There isn’t much in between.</div>
+      </div>
+      <div class="variant-row variant-todo">
+        <div class="variant-key-label key-todo">[TODO] — open</div>
+        <div class="block-text">[TODO — open: decisions don’t close the way they should; the evaluative capacity is present but doesn’t reach the same decisive threshold; describe the specific experience when 庚’s precision doesn’t produce clean verdicts]</div>
+      </div>
+      <div class="variant-row variant-todo">
+        <div class="variant-key-label key-todo">[TODO] — tested (官杀旺)</div>
+        <div class="block-text">[TODO — tested: decisions involve navigating external authority as part of the calculus; describe how the 庚 decision process changes when there is dominant official or institutional pressure involved]</div>
+      </div>
+    </div>
+    <div class="inner-divider"></div>
+    <div class="block variant-block">
+      <div class="block-label">How you show up in relationships <span class="tier-badge tier-pro">PRO</span></div>
+      <div class="block-meta">
+        <span class="meta-chip">priority · default 4 · concentrated 4</span>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-default">default</div>
+        <div class="block-text">You are more reliable than you are easy. The people who know you well understand that when you give your word, it holds — that your assessment of them is honest even when it’s uncomfortable, that your care, once given, is structural and doesn’t diminish. What’s harder: the relationship that needs reassurance rather than accuracy, warmth rather than honesty, or presence rather than solutions. You deliver real things. Not always the thing that was needed in that specific moment.</div>
+      </div>
+      <div class="variant-row variant-todo">
+        <div class="variant-key-label key-todo">[TODO] — flowing (食伤旺)</div>
+        <div class="block-text">[TODO — flowing: when output and expression energy is dominant, the relational dynamic shifts; the self-expression impulse creates a different texture in relationships — describe how the precision meets the outward-driving quality in relational contexts]</div>
+      </div>
+    </div>
+    <div class="inner-divider"></div>
+    <div class="block variant-block">
+      <div class="block-label">What you do with pressure <span class="tier-badge tier-pro">PRO</span></div>
+      <div class="block-meta">
+        <span class="meta-chip meta-restricted">bands: concentrated · balanced</span>
+        <span class="meta-chip meta-restricted">patterns: pure · rooted · tested</span>
+        <span class="meta-chip">priority · default 3 · concentrated 5 · conc_pure 5</span>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-default">default</div>
+        <div class="block-text">Pressure clarifies. When the environment provides sufficient resistance — a real problem, a worthy challenge, a situation where the precision has something real to cut against — you tend to focus more sharply. The evaluative capacity sharpens. This is the mechanism: fire reveals the edge.</div>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-concentrated">concentrated</div>
+        <div class="block-text">Pressure clarifies. When the environment provides sufficient resistance — a real problem, a worthy challenge, a situation where the precision has something real to cut against — you operate at a different level than ordinary conditions allow. The evaluative capacity sharpens. Focus narrows and deepens simultaneously. This is the mechanism: fire reveals the edge. Without adequate pressure, the precision can turn inward or run on low-stakes targets, producing the same intensity that would serve you under real challenge but creates unnecessary friction where none was required.</div>
+      </div>
+      <div class="variant-row variant-todo">
+        <div class="variant-key-label key-todo">[TODO] — tested (官杀旺)</div>
+        <div class="block-text">[TODO — tested: when external authority pressure is the dominant pattern, what “pressure” does changes — it is no longer generative challenge but structural friction; describe the 庚 experience of operating under or against dominant official force]</div>
+      </div>
+    </div>
+    <div class="inner-divider"></div>
+    <div class="block variant-block">
+      <div class="block-label">What holds you back without looking like it <span class="tier-badge tier-pro">PRO</span></div>
+      <div class="block-meta">
+        <span class="meta-chip">priority · default 4 · concentrated 5</span>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-default">default</div>
+        <div class="block-text">You carry your verdicts. Not forever — but past the point where they serve you. A position formed under real evidence becomes the frame through which new evidence gets screened, and a system good at spotting confirmation becomes good at producing it. The thing that holds you back isn’t doubt. It’s certainty applied past its expiration.</div>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-concentrated">concentrated</div>
+        <div class="block-text">You carry your verdicts. Not forever — but past the point where they serve you. A position formed under real evidence becomes the frame through which new evidence gets screened, and a system very good at spotting confirmation becomes very good at producing it. This isn’t stubbornness as a character flaw. It’s structural: the same evaluative rigidity that makes your assessments reliable makes revising them costly. The thing that holds you back isn’t doubt. It’s certainty applied past its expiration.</div>
+      </div>
+    </div>
+    <div class="inner-divider"></div>
+    <div class="block variant-block">
+      <div class="block-label">What activates the best version of this <span class="tier-badge tier-pro">PRO</span></div>
+      <div class="block-meta">
+        <span class="meta-chip">priority · default 4 · concentrated 4 · tested 4 · forging 4</span>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-default">default</div>
+        <div class="block-text">Contact with something genuinely worthy of the precision. A problem hard enough that the evaluative apparatus has to operate at full range. Work where the quality actually matters and the standard is the point — not just accepted but necessary. The version of you that is most alive is the version that has found what the edge is for.</div>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-concentrated">concentrated</div>
+        <div class="block-text">Contact with something genuinely worthy of the precision. A problem hard enough that the evaluative apparatus has to operate at full range. A person capable of meeting the assessment directly without deflecting or collapsing under it. Work where the quality actually matters and the standard is the point — not just accepted but necessary. The version of you that is most alive is the version that has found what the edge is for. The question that recurs, quietly: is what I’m currently aimed at actually worthy of this?</div>
+      </div>
+      <div class="variant-row variant-todo">
+        <div class="variant-key-label key-todo">[TODO] — tested (官杀旺)</div>
+        <div class="block-text">[TODO — tested: activation comes through recognition from a legitimate authority, an institutional context where the precision has standing, or a challenge from someone who represents a worthy standard; describe the specific activation pattern]</div>
+      </div>
+      <div class="variant-row variant-todo">
+        <div class="variant-key-label key-todo">[TODO] — forging (财旺)</div>
+        <div class="block-text">[TODO — forging: activation involves finding material worthy of the directing force — systems, resources, or situations that the precision can shape into outcomes; describe what conditions allow 庚 to operate at full range under wealth-dominant energy]</div>
+      </div>
+    </div>
+    <div class="inner-divider"></div>
+    <div class="block variant-block">
+      <div class="block-label">The image and the interior <span class="tier-badge tier-pro">PRO</span></div>
+      <div class="block-meta">
+        <span class="meta-chip meta-restricted">bands: concentrated · balanced</span>
+        <span class="meta-chip">priority · default 3 · concentrated 5 · conc_pure 5</span>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-default">default</div>
+        <div class="block-text">What the room sees: precision and an edge that doesn’t easily bend. What is underneath: a softer interior than the presence suggests, running a question the assessment doesn’t fully answer — whether the verdict holds, whether the standard is being aimed at the right things. The certainty is partly real and partly structural. Most people close to you eventually sense this.</div>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-concentrated">concentrated</div>
+        <div class="block-text">What the room sees: precision, certainty, an edge that doesn’t bend. What is actually underneath: a much softer interior than anyone in the room would guess, running a question that the assessment never quite answers — whether what you’ve built is actually right, whether the verdict holds, whether the standard is being applied to the right things. The blade in the tongue is protecting something. The certainty is partly real and partly structural armor. You know this. Most people close to you eventually sense it. The gap between the version of you that the room experiences and the version that exists at 2 AM is larger than most people realize.</div>
+      </div>
     </div>
 
 
-
-        
-    <div class="classical-anchor">
-      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
-      <div class="classical-anchor-zh">金逢火炼方成器 / 金逢火炼方显锋芒</div>
-      <div class="classical-anchor-en">“Metal without fire remains potential — the forge reveals what the edge actually is.”</div>
-      <div class="classical-anchor-deriv">庚 needs the encounter with genuine resistance to become what it structurally is. The precision is real before the test; what the test produces is direction, not the capability itself.</div>
-      <div class="classical-anchor-source">Source: 穷通宝鉴 / 三命通会 十干体象</div>
+    <!-- LIFE DOMAIN CHARACTERISTICS -->
+    <div class="schema-section-header">
+      <span class="schema-section-label">Life Domain Characteristics</span>
+      <span class="tier-badge tier-pro" style="margin-left:0;">PRO</span>
+      <div class="schema-section-line"></div>
     </div>
+    <div class="life-domains-section">
+      <div class="life-domains-grid">
+        <div class="life-domain-card">
+          <div class="life-domain-name">Career · The Precision Economy</div>
+          <div class="life-domain-text">You build things that last because you literally cannot build them any other way. Environments that require genuine quality — where the standard is real and the stakes for getting it wrong are visible — are where you produce at your full range. The career challenge is finding work where the precision is the point, not a liability: where being the most rigorous person in the room is valued rather than experienced as difficult. You are most effective when you have a target worthy of the edge.</div>
+        </div>
+        <div class="life-domain-card">
+          <div class="life-domain-name">Relationships · The Honest Mirror</div>
+          <div class="life-domain-text">You are more useful than you are easy. The people who receive your honest assessment when they needed it — the ones who weren’t coddled but were told something true — often recognize, later, that your care was real even when it arrived through the wrong door. Relationships deepen when the other person can hold your directness without collapsing, and when you can develop warmth delivery alongside accuracy. The capacity for genuine closeness is there. The channel for it requires deliberate building.</div>
+        </div>
+        <div class="life-domain-card">
+          <div class="life-domain-name">Wealth · The Long Game</div>
+          <div class="life-domain-text">You build toward quality, not toward speed. Financial patterns reward patience, structure, and the willingness to make clear decisions rather than keep options open — your natural mode, when not pressured into false urgency. The risk: the evaluative rigidity that protects long-term quality can also delay exits past optimal, hold positions past expiry, and mistake comfort with a previous assessment for genuine evidence. The wealth pattern is strong when the decisiveness is active; it stalls when the precision turns defensive.</div>
+        </div>
+        <div class="life-domain-card">
+          <div class="life-domain-name">Health · The Structural Body</div>
+          <div class="life-domain-text">The body responds to the same patterns as the mind: precision-heavy, tends toward rigidity under sustained pressure, benefits from intentional softening. Chronic tension lives in the jaw, the shoulders, and the places the evaluation never rests. The health signal to watch: when the assessment is running on the body itself — when the standard that applies to everything else gets applied to how the body performs, looks, or functions. The counterbalance is movement that doesn’t evaluate, rest that isn’t optimized, warmth in the physical sense.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 2: THE FORCE (DOMINANT ENERGY) -->
+  <div class="schema-section-header">
+    <span class="schema-section-label">Section 2 · The Force — Dominant Energy</span>
+    <div class="schema-section-line"></div>
+  </div>
+  <div class="dominant-energy-section">
+    <div class="dominant-energy-eyebrow">
+      <span class="dominant-energy-eyebrow-label">Metal Dominant Quality</span>
+      <span class="tier-badge tier-free">FREE TEASER</span>
+      <span class="tier-badge tier-pro">PRO FULL</span>
+      <div class="energy-eyebrow-line"></div>
+    </div>
+    <div class="dominant-energy-title">The Force</div>
+    <div class="dominant-energy-teaser">When Metal is the dominant force in your chart, precision isn’t something you reach for — it’s the default state. The assessment runs first. Everything else follows.</div>
+    <div class="dominant-energy-desc">
+      <p>When Metal is dominant in your chart, precision is not just your nature — it is the atmosphere you operate in. Everything you encounter gets evaluated through a standard that doesn’t bend to convenience. This is not a choice you made. The Metal dominant quality is structural: it was already running before preference had a chance to form.</p>
+      <p>The gift is reliability. When you assess something, the assessment is accurate. When you commit to something, the commitment holds. What you build carries the mark of this quality in ways that outlast the moment it was made.</p>
+      <p>The cost is also structural. The same quality that produces reliability produces friction: environments, relationships, and opportunities that can’t hold the standard experience you as difficult before they experience you as valuable. The precision doesn’t modulate for readiness. It arrives at full force.</p>
+      <p>The productive question is not “how do I soften this” — it’s “what is this precision currently aimed at, and does that target actually deserve it?”</p>
+    </div>
+  </div>
+
+  <!-- SECTION 3: THE EDGE IN MOTION -->
+  <div class="schema-section-header">
+    <span class="schema-section-label">Section 3 · The Edge in Motion</span>
+    <div class="schema-section-line"></div>
+  </div>
+  <div class="energy-section">
+    <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · keywords / what / represents</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · liunian</span><div class="energy-eyebrow-line"></div></div>
+    <div class="energy-chip-row">
+      <span class="energy-chip">Defining</span>
+      <span class="energy-chip">Cutting</span>
+      <span class="energy-chip">Structural clarity</span>
+      <span class="energy-chip">Forced decision</span>
+      <span class="energy-chip">Precision force</span>
+    </div>
+    <div class="energy-block">
+      <div class="energy-block-label">What is this energy? <span class="tier-badge tier-free">FREE</span></div>
+      <div class="energy-block-text">庚 is the blade, the axe, the harvest tool — the Yang Metal that cuts, defines, and restructures. Classically described as 金之阳 (the Yang of Metal), it is the energy of forced decision and structural clarity. The classical texts describe 庚 as the force that “cuts away what is complete to reveal what remains.” Where Wood grows and Earth accumulates, Metal defines. It is the atmosphere of “what was vague becomes clear, often by force; what was finished gets cut away.”</div>
+    </div>
+    <div class="energy-divider"></div>
+    <div class="energy-block">
+      <div class="energy-block-label">What does it represent in real life? <span class="tier-badge tier-free">FREE</span></div>
+      <div class="energy-block-text">Major restructuring in environments — organizational, governmental, relational. Forced decisions on matters that were being kept ambiguous. Endings of cycles that had been quietly completed but not yet formally closed. Competitive pressure increasing. The need for decisive action in career and personal matters. Contracts and agreements being written, enforced, or terminated.</div>
+    </div>
+    <div class="energy-divider"></div>
+    <div class="energy-block">
+      <div class="energy-block-label">When you encounter it in a luck cycle or annual pillar <span class="tier-badge tier-pro">PRO</span></div>
+      <div class="energy-block-text">When 庚 energy enters your luck cycle or annual pillar, the environment demands clarity and decision. Things that were vague get defined — by choice or by circumstance. Relationships and situations that were being kept in comfortable ambiguity get resolved, often sharply. Restructuring happens around you and possibly to you. This period rewards those who can act decisively and punishes those who avoid decisions past the deadline. For charts that benefit from Metal, this brings productive definition and momentum-clearing restructuring; for those already Metal-heavy, the excess can produce conflict, unnecessary cutting of things not yet finished, or a bluntness that damages what it was meant to sharpen.</div>
+    </div>
+  </div>
+  <div class="manual-section">
+    <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · concentrated / open</span><span class="tier-badge tier-split" style="margin-left:6px;">FREE→PRO · catalyst</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · resistance</span><div class="energy-eyebrow-line"></div></div>
+    <div class="manual-block">
+      <div class="manual-block-label">When this energy is concentrated — overpowering <span class="tier-badge tier-free">FREE</span></div>
+      <div class="manual-block-text">The evaluating and cutting force is relentless. Everything gets assessed; everything gets cut to shape. Highly productive for those who benefit from defined edges and clear decisions. Damaging for those who needed more time or more flexibility — the cutting happens regardless of readiness. Classical texts warn 金旺伤木 (strong Metal injures Wood) — when Metal is excessive, it cuts down what was still growing, including what should have been given more time. The danger is cutting too early, deciding too harshly, and removing things that needed more development before they were ready to be shaped.</div>
+    </div>
+    <div class="energy-divider"></div>
+    <div class="manual-block">
+      <div class="manual-block-label">When this energy is open — receptive or missing <span class="tier-badge tier-free">FREE</span></div>
+      <div class="manual-block-text">The ability to make definitive decisions, set clear limits, and close what is finished becomes genuinely harder. Things that are complete don’t get properly ended. Ambiguity lingers past the point where it serves anyone. Relationships and projects that should close continue because there is no cutting force available to bring them to a clean conclusion. The environment feels gentler but more cluttered — less decisive, more unresolved, more drained by the energy required to maintain what should have ended.</div>
+    </div>
+    <div class="energy-divider"></div>
+    <div class="manual-block">
+      <div class="manual-block-label">How to seek and use it as a catalyst <span class="tier-badge tier-split">FREE teaser · PRO full</span></div>
+      <div class="manual-block-text">Activate it by making the decision you have been deferring. This energy specifically rewards categorical commitment: the contract signed, the option closed, the position stated clearly, the boundary set. Don’t hedge — the productive use of this energy is definitiveness. One clear decision is worth ten careful ones that stay provisional. Outcome: clarity replaces ambiguity and frees up the energy that was being spent maintaining the unresolved situation. What was clouded becomes specific. Direction becomes actionable.</div>
+    </div>
+    <div class="energy-divider"></div>
+    <div class="manual-block">
+      <div class="manual-block-label">How to release and channel it as resistance <span class="tier-badge tier-pro">PRO</span></div>
+      <div class="manual-block-text">When 庚 energy is creating friction — the cutting force is removing what the chart needed to preserve, or pressing on growth energy in a way that damages rather than shapes it. The corrective is to redirect the precision toward what is actually finished rather than what is merely inconvenient or imperfect. Use the Fire quality (clarity of purpose, warmth of direction) to identify what the precision is actually for — so the blade knows what to spare. Outcome: the force becomes surgical rather than indiscriminate, and what was damaging becomes defining.</div>
+    </div>
+  </div>
+
+  <!-- SEASONAL CALIBRATION: The Forging Season -->
+  <div class="seasonal-section">
+    <div class="seasonal-eyebrow">
+      <span class="seasonal-eyebrow-label">Seasonal Calibration · 調候用神</span>
+      <span class="tier-badge tier-free">FREE TEASER</span>
+      <span class="tier-badge tier-pro">PRO FULL</span>
+      <div class="energy-eyebrow-line"></div>
+    </div>
+    <div class="seasonal-title">The Forging Season</div>
+    <div class="seasonal-element-tag">Calibrating element: Fire</div>
+    <div class="seasonal-teaser">There is a specific kind of period that doesn’t arrive often but changes everything when it does: the encounter that specifies what the precision is actually for. The capability was always real. What fire reveals is the direction — not the capability, which was already there.</div>
+    <div class="seasonal-desc">
+      <p>The seasonal pattern for 庚: Metal is most fully expressed when Fire is present and engaged. Not because Fire adds anything to the structure — the capability was complete before Fire arrived — but because Fire specifies what the structure is an instrument for.</p>
+      <p>The classical principle from 穷通宝鉴: 金逢火煉方成器 — raw metal becomes a shaped instrument through contact with fire. The transition is from 素材 (formed, capable, unspecified raw material) to 成器 (an instrument defined for a specific purpose). The capability doesn’t change. What changes is the direction.</p>
+      <p>In practice: periods when Fire energy is strong — summer months, Fire-dominant years, relationships or career contexts that carry genuine warmth, urgency, or a target worthy of the edge — bring the specific challenge, person, or context that specifies where the precision should land. Without this contact, the evaluative apparatus remains formed but unspecified: accurate, capable, and running on whatever is available rather than on what it was built for.</p>
+      <p>Note: 庚 Metal prefers 丁 Fire (the contained flame — the forge, the purposeful heat) over 丙 Fire (the open blaze, the burning sun). The forge shapes. The wildfire consumes. When Fire contact arrives through genuine purpose and directed warmth, the Forging Season is productive. When it arrives through excessive pressure or uncontrolled intensity, the metal loses temper rather than gains it.</p>
+      <p>The 2 AM version: “I know what I am. I still don’t know what I’m for.” The Forging Season is when that question gets answered — not once, but each time Fire provides a worthy target.</p>
+    </div>
+  </div>
+
+  <!-- LIUNIAN SIGNATURES -->
+  <div class="liunian-sig-section">
+    <div class="liunian-sig-eyebrow">
+      <span class="liunian-sig-eyebrow-label">Liunian Signatures — by Life Domain</span>
+      <span class="tier-badge tier-pro">PRO</span>
+      <span class="tier-badge tier-internal">INTERNAL SOURCING</span>
+      <div class="energy-eyebrow-line"></div>
+    </div>
+    <div class="liunian-sig-grid">
+      <div class="liunian-sig-card">
+        <div class="liunian-sig-domain">Career</div>
+        <div class="liunian-sig-trigger">Trigger: Fire or Metal year/month bringing competitive pressure or restructuring (庚午, 庚寅, 丙庚 configurations)</div>
+        <div class="liunian-sig-event">Promotion, restructuring, or career-defining decision point. The precision finds an institutional target. Environments that have been unclear about what they want from you define themselves — often through competitive pressure or organizational change that requires someone to make a call. You are the person who makes the call.</div>
+        <div class="liunian-sig-timing">Timing: Activates most directly in 庚 and 丁 years; also summer months (巳午未) when Fire energy peaks</div>
+        <div class="liunian-sig-source">Source: 子平真诋 — 七杀制伏得宜，反为权贵; 三命通会 — 庚金得地得势，刀锋所指皆有成</div>
+      </div>
+      <div class="liunian-sig-card">
+        <div class="liunian-sig-domain">Relationships</div>
+        <div class="liunian-sig-trigger">Trigger: Water or Wood year/month; or partner chart bringing significant Fire</div>
+        <div class="liunian-sig-event">Relationship dynamic clarification — long-held ambiguities get resolved. A connection that was sustainable but undefined gets defined, sometimes against your preference. A person enters who can receive your directness without deflecting. The relationship either deepens structurally or ends with precision. Both outcomes are better than sustained ambiguity.</div>
+        <div class="liunian-sig-timing">Timing: Activates most strongly in 癸 (Yin Water) years; also 甲乙 (Wood) years</div>
+        <div class="liunian-sig-source">Source: 三命通会 — 庚金孤刚，得水而情生; 滴天髓 — 刚柔相推，而生变化</div>
+      </div>
+      <div class="liunian-sig-card">
+        <div class="liunian-sig-domain">Wealth</div>
+        <div class="liunian-sig-trigger">Trigger: Wood year/month (wealth element for Metal Day Master)</div>
+        <div class="liunian-sig-event">Income expansion through precision work. A project or commitment that required genuine quality produces measurable return. The evaluation that was invested in building correctly begins paying back. Not windfall wealth — the kind that accumulates from having built something that holds up over time and under examination.</div>
+        <div class="liunian-sig-timing">Timing: 甲乙 (Wood) years and 寅卯 (Wood branch) months; balanced Metal strength required</div>
+        <div class="liunian-sig-source">Source: 子平真诋 — 庚金逢木，才现而有用; 穷通宝鉴 — Metal-Wood interaction chapters</div>
+      </div>
+      <div class="liunian-sig-card">
+        <div class="liunian-sig-domain">Health</div>
+        <div class="liunian-sig-trigger">Trigger: Fire dominant periods (巳午未 branch months, 丙丁 stem years)</div>
+        <div class="liunian-sig-event">Physical energy peaks in aligned Forging Season conditions. In over-Fire configurations, watch for inflammatory pressure or cardiovascular stress. In balanced Fire contact, the result is purposeful physical energy rather than the chronic muscular tension that accumulates when the assessment has nowhere productive to go.</div>
+        <div class="liunian-sig-timing">Timing: Summer months and Fire years — generative when 庚 has adequate Water or Earth grounding; pressing when Fire is excessive</div>
+        <div class="liunian-sig-source">Source: 穷通宝鉴 — 庚金喜丁火锻炼方成大器，不喜丙火烈焰过旺; 五行医学 — 金主肺，过旺则肺气郁结</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 4: INTERNAL REFERENCE -->
+  <div class="schema-section-header">
+    <span class="schema-section-label">Section 4 · Internal Reference</span>
+    <span class="tier-badge tier-internal" style="margin-left:0;">NOT SERVED TO USERS</span>
+    <div class="schema-section-line"></div>
+  </div>
+  <div class="classical-anchor">
+    <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
+    <div class="classical-anchor-zh">金逢火煉方成器 / 金逢火煉方显锋芒</div>
+    <div class="classical-anchor-en">“Metal without fire remains potential — the forge reveals what the edge actually is.”</div>
+    <div class="classical-anchor-deriv">庚 needs the encounter with genuine resistance to become what it structurally is. The precision is real before the test; what the test produces is direction, not the capability itself.</div>
+    <div class="classical-anchor-source">Source: 穷通宝鉴 / 三命通会 十干体象</div>
+  </div>
+  <div class="card-body" style="padding-top:0;">
     <div class="psych-footer">
-      <div class="psych-footer-label">Psychology &amp; Archetype Resonances</div>
+      <div class="psych-footer-label">Psychology &amp; Archetype Resonances <span class="tier-badge tier-internal">INTERNAL</span></div>
       <div class="psych-grid">
         <div class="psych-cell"><div class="psych-cell-label">Big Five</div><div class="psych-cell-text">High Conscientiousness/Industriousness · Low Agreeableness/Politeness · lower Neuroticism — evaluation as structural default, not as active choice</div></div>
         <div class="psych-cell"><div class="psych-cell-label">Jungian Function</div><div class="psych-cell-text">Introverted Thinking (Ti) — the evaluation operates through an internal logical framework that cannot be switched off; runs before social or emotional consideration</div></div>
@@ -1200,52 +1706,6 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <span class="arch-chip">Aries / Scorpio (Western)</span>
         <span class="arch-chip">Manifestor (HD)</span>
         <span class="arch-chip">The Warrior (Campbell)</span>
-      </div>
-    </div>
-<div class="energy-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">As an External Energy</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · keywords / what / represents</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · liunian</span><div class="energy-eyebrow-line"></div></div>
-      <div class="energy-chip-row">
-        <span class="energy-chip">Reform</span>
-        <span class="energy-chip">Decisive restructuring</span>
-        <span class="energy-chip">Forced clarity</span>
-        <span class="energy-chip">Cutting away</span>
-        <span class="energy-chip">Defined edges</span>
-      </div>
-      <div class="energy-block">
-        <div class="energy-block-label">What is this energy? <span class="tier-badge tier-free">FREE</span></div>
-        <div class="energy-block-text">庚 is the blade, the axe, the harvest tool — the Yang Metal that cuts, defines, and restructures. Classically described as 金之阳 (the Yang of Metal), it is the energy of forced decision and structural clarity. The classical texts describe 庚 as the force that "cuts away what is complete to reveal what remains." Where Wood grows and Earth accumulates, Metal defines. It is the atmosphere of "what was vague becomes clear, often by force; what was finished gets cut away."</div>
-      </div>
-      <div class="energy-divider"></div>
-      <div class="energy-block">
-        <div class="energy-block-label">What does it represent in real life? <span class="tier-badge tier-free">FREE</span></div>
-        <div class="energy-block-text">Major restructuring in environments — organizational, governmental, relational. Forced decisions on matters that were being kept ambiguous. Endings of cycles that had been quietly completed but not yet formally closed. Competitive pressure increasing. The need for decisive action in career and personal matters. Contracts and agreements being written, enforced, or terminated.</div>
-      </div>
-      <div class="energy-divider"></div>
-      <div class="energy-block">
-        <div class="energy-block-label">When you encounter it in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
-        <div class="energy-block-text">When 庚 energy enters your luck cycle or annual pillar, the environment demands clarity and decision. Things that were vague get defined — by choice or by circumstance. Relationships and situations that were being kept in comfortable ambiguity get resolved, often sharply. Restructuring happens around you and possibly to you. This period rewards those who can act decisively and punishes those who avoid decisions past the deadline. For charts that benefit from Metal, this brings productive definition and momentum-clearing restructuring; for those already Metal-heavy, the excess can produce conflict, unnecessary cutting of things not yet finished, or a bluntness that damages what it was meant to sharpen.</div>
-      </div>
-    </div>
-    <div class="manual-section">
-      <div class="energy-eyebrow"><span class="energy-eyebrow-label">Energy Manual</span><span class="tier-badge tier-free" style="margin-left:10px;">FREE · concentrated / open</span><span class="tier-badge tier-split" style="margin-left:6px;">FREE→PRO · catalyst</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · resistance</span><div class="energy-eyebrow-line"></div></div>
-      <div class="manual-block">
-        <div class="manual-block-label">When this energy is concentrated — overpowering <span class="tier-badge tier-free">FREE</span></div>
-        <div class="manual-block-text">The evaluating and cutting force is relentless. Everything gets assessed; everything gets cut to shape. Highly productive for those who benefit from defined edges and clear decisions. Damaging for those who needed more time or more flexibility — the cutting happens regardless of readiness. Classical texts warn 金旺伤木 (strong Metal injures Wood) — when Metal is excessive, it cuts down what was still growing, including what should have been given more time. The danger is cutting too early, deciding too harshly, and removing things that needed more development before they were ready to be shaped.</div>
-      </div>
-      <div class="energy-divider"></div>
-      <div class="manual-block">
-        <div class="manual-block-label">When this energy is open — receptive or missing <span class="tier-badge tier-free">FREE</span></div>
-        <div class="manual-block-text">The ability to make definitive decisions, set clear limits, and close what is finished becomes genuinely harder. Things that are complete don't get properly ended. Ambiguity lingers past the point where it serves anyone. Relationships and projects that should close continue because there is no cutting force available to bring them to a clean conclusion. The environment feels gentler but more cluttered — less decisive, more unresolved, more drained by the energy required to maintain what should have ended.</div>
-      </div>
-      <div class="energy-divider"></div>
-      <div class="manual-block">
-        <div class="manual-block-label">How to seek and use it as a catalyst <span class="tier-badge tier-split">FREE teaser · PRO full</span></div>
-        <div class="manual-block-text">Activate it by making the decision you have been deferring. This energy specifically rewards categorical commitment: the contract signed, the option closed, the position stated clearly, the boundary set. Don't hedge — the productive use of this energy is definitiveness. One clear decision is worth ten careful ones that stay provisional. Outcome: clarity replaces ambiguity and frees up the energy that was being spent maintaining the unresolved situation. What was clouded becomes specific. Direction becomes actionable.</div>
-      </div>
-      <div class="energy-divider"></div>
-      <div class="manual-block">
-        <div class="manual-block-label">How to release and channel it as resistance <span class="tier-badge tier-pro">PRO</span></div>
-        <div class="manual-block-text">When 庚 energy is creating friction — the cutting force is removing what the chart needed to preserve, or pressing on growth energy in a way that damages rather than shapes it. The corrective is to redirect the precision toward what is actually finished rather than what is merely inconvenient or imperfect. Use the Fire quality (clarity of purpose, warmth of direction) to identify what the precision is actually for — so the blade knows what to spare. Outcome: the force becomes surgical rather than indiscriminate, and what was damaging becomes defining.</div>
       </div>
     </div>
   </div>
