@@ -362,19 +362,44 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 .blp-item { font-size: 13px; color: var(--text-ter); line-height: 1.5; padding: 3px 0; }
 .blp-highlight { color: var(--text-sec); font-style: italic; }
 
-/* == VARIANT BLOCK SCHEMA v1.0 ============================================== */
+/* == VARIANT BLOCK SCHEMA v1.2 ============================================== */
+/* Band axis: default (warm brown) · concentrated (sage) · open (slate blue)   */
+/* Pattern axis: tested (dusty red) · flowing (teal) · forging (amber)         */
 .variant-block { margin-bottom: 0; }
-.block-meta { display: flex; flex-wrap: wrap; gap: 5px; margin: 4px 0 10px 0; }
+.block-meta { display: flex; flex-wrap: wrap; gap: 5px; margin: 4px 0 12px 0; }
 .meta-chip { font-size: 9.5px; font-weight: 500; letter-spacing: 0.1em;
   text-transform: uppercase; padding: 2px 6px; border-radius: 3px;
   background: rgba(88, 74, 62, 0.06); color: var(--text-ter); }
 .meta-chip.meta-restricted { background: rgba(196, 116, 90, 0.08); color: var(--accent-dark); }
-.variant-row { margin-bottom: 10px; }
+
+/* Variant rows — left stripe + subtle tint, resolved via :has() */
+.variant-row { margin-bottom: 10px; padding: 8px 10px 8px 13px;
+  border-left: 2.5px solid transparent; border-radius: 0 5px 5px 0; }
 .variant-row:last-child { margin-bottom: 0; }
-.variant-key-label { font-size: 9px; font-weight: 600; letter-spacing: 0.14em;
-  text-transform: uppercase; color: var(--accent); margin-bottom: 4px; }
-.variant-key-label.key-concentrated { color: #7a8c6a; }
-.variant-key-label.key-todo { color: var(--text-ter); opacity: 0.6; }
+.variant-row:has(.key-default)      { border-left-color: rgba(139,114,80,0.35); }
+.variant-row:has(.key-concentrated) { border-left-color: rgba(122,140,106,0.55);
+  background: rgba(122,140,106,0.035); }
+.variant-row:has(.key-open)         { border-left-color: rgba(106,122,140,0.55);
+  background: rgba(106,122,140,0.035); }
+.variant-row:has(.key-tested)       { border-left-color: rgba(140,106,106,0.55); }
+.variant-row:has(.key-flowing)      { border-left-color: rgba(106,140,133,0.55); }
+.variant-row:has(.key-forging)      { border-left-color: rgba(140,122,90,0.55); }
+.variant-row:has(.key-todo)         { border-left-color: rgba(138,130,120,0.18); }
+
+/* Pattern variants distinguished by left stripe + background tint only — no extra spacing */
+
+/* Variant key labels — pill badges */
+.variant-key-label { display: inline-block; font-size: 9px; font-weight: 700;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  padding: 2px 8px; border-radius: 3px; margin-bottom: 6px; }
+.variant-key-label.key-default      { color: var(--accent);   background: rgba(139,114,80,0.10); }
+.variant-key-label.key-concentrated { color: #7a8c6a;         background: rgba(122,140,106,0.12); }
+.variant-key-label.key-open         { color: #6a7a8c;         background: rgba(106,122,140,0.12); }
+.variant-key-label.key-tested       { color: #8c6a6a;         background: rgba(140,106,106,0.12); }
+.variant-key-label.key-flowing      { color: #6a8c85;         background: rgba(106,140,133,0.12); }
+.variant-key-label.key-forging      { color: #8c7a5a;         background: rgba(140,122,90,0.12);  }
+.variant-key-label.key-todo         { color: var(--text-ter); background: rgba(138,130,120,0.07); opacity: 0.7; }
+
 .variant-todo .block-text { opacity: 0.38; font-style: italic; }
 .variant-compound-note { font-size: 11px; color: var(--text-ter);
   font-style: italic; margin-top: 6px; padding-top: 6px;
@@ -1320,13 +1345,13 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <div class="variant-key-label key-concentrated">concentrated</div>
         <div class="block-text">You evaluate before you engage. The assessment starts the moment you walk into a room — not as a decision you make but as a process that has already begun before you’ve chosen to begin it. You know what’s real and what isn’t, what holds up and what doesn’t, before the conversation has fully started. Others feel assessed in your presence even when nothing has been said and nothing was intended. This is not coldness. It’s what it looks like when the first cognitive event is precision rather than warmth.</div>
       </div>
-      <div class="variant-row variant-todo">
-        <div class="variant-key-label key-todo">[TODO] — open</div>
-        <div class="block-text">[TODO — open: the assessment is present but quieter; the evaluation doesn’t dominate every entry point; describe the 庚 open experience where precision exists without the involuntary relentlessness of the concentrated case]</div>
+      <div class="variant-row">
+        <div class="variant-key-label key-open">open</div>
+        <div class="block-text">The evaluation is present, but it doesn’t lead. You enter a room and something observes — notes what holds and what doesn’t — but that observation doesn’t arrive as a completed assessment before engagement has begun. The evaluative quality exists as an undercurrent rather than a first fact. What’s different: you can be more present to what’s actually in the room before the read closes. The precision functions; it just no longer runs ahead of everything else. The world arrives before the verdict does.</div>
       </div>
-      <div class="variant-row variant-todo">
-        <div class="variant-key-label key-todo">[TODO] — tested (官杀旺)</div>
-        <div class="block-text">[TODO — tested: the assessment runs in the context of external authority or institutional pressure; describe how the evaluative quality meets and is shaped by dominant official energy]</div>
+      <div class="variant-row">
+        <div class="variant-key-label key-tested">tested</div>
+        <div class="block-text">The world evaluates back. That’s the specific texture when authority energy is dominant: the precision runs as it always does, but now something is running a read on you at the same time. An institutional lens — an external standard — operates in parallel with your own. If the external standard is genuine, this sharpens rather than compresses: there’s something real to measure against. If it isn’t, you know before the conversation has properly started. What changes is that the assessment is no longer one-directional. You are inside a system that is also assessing you, and that fact is part of what you’re evaluating.</div>
       </div>
     </div>
     <div class="inner-divider"></div>
@@ -1339,9 +1364,9 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <div class="variant-key-label key-default">default</div>
         <div class="block-text">Cutting to what’s actually true, quickly, without sentimentality — not because you don’t care but because accuracy is a form of care for you. Building things that last because you genuinely cannot commit to building things that won’t. Being the person whose feedback is the most difficult to hear and the most reliable in the room. The things you build tend to still be in use years later, because you could not have made them any other way.</div>
       </div>
-      <div class="variant-row variant-todo">
-        <div class="variant-key-label key-todo">[TODO] — flowing (食伤旺)</div>
-        <div class="block-text">[TODO — flowing: the output/expression energy is dominant; when the precision is driven outward by a strong producing force, what the 庚 is genuinely good at shifts in nature — describe how the gifts change when expression is the primary channel]</div>
+      <div class="variant-row">
+        <div class="variant-key-label key-flowing">flowing</div>
+        <div class="block-text">When expression energy is dominant, the precision creates rather than just evaluates. What you're genuinely good at shifts toward generative output: producing work that carries that same standard into its execution rather than its assessment of others. The evaluative function is still running — now directed inward, at what's being made. The result is work of unusually high internal consistency: precise in execution, not just in judgment. The critique mechanism becomes craft. The edge finds what it was actually for.</div>
       </div>
     </div>
     <div class="inner-divider"></div>
@@ -1358,13 +1383,13 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <div class="variant-key-label key-concentrated">concentrated</div>
         <div class="block-text">The assessment has no warmth channel. The person who came needing to feel less alone gets a solution rather than presence — accurate, often useful, and not what was actually needed in that moment. The care was real. It arrived through the wrong door.<br><br>The verdict also becomes load-bearing: once formed, it requires new information to pass through the same evaluative system that produced the original conclusion — a system that is very good at finding reasons why the new information doesn’t change anything. You can hold a position longer than the evidence warrants, and some part of you knows it.</div>
       </div>
-      <div class="variant-row variant-todo">
-        <div class="variant-key-label key-todo">[TODO] — open</div>
-        <div class="block-text">[TODO — open: the assessment doesn’t land with the same force; the stuck is different — verdicts don’t close cleanly, or the evaluative apparatus runs without producing actionable conclusions that hold up over time]</div>
+      <div class="variant-row">
+        <div class="variant-key-label key-open">open</div>
+        <div class="block-text">The stuck is different in kind. The assessment runs, but verdicts don’t close with the same force — positions stay open longer than they should, and the evaluative capacity can circle a question without landing somewhere that holds. Not paralysis: more like a loop that doesn’t quite lock. You arrive at something that seems true, find a reason to reconsider, then return to roughly the same place. The care is real; the precision is real. What’s missing is the weight that makes the conclusion feel final.</div>
       </div>
-      <div class="variant-row variant-todo">
-        <div class="variant-key-label key-todo">[TODO] — tested (官杀旺)</div>
-        <div class="block-text">[TODO — tested: the stuck is at the intersection of personal verdict and external authority — when your assessment conflicts with what the institutional structure demands, describe the specific friction this produces]</div>
+      <div class="variant-row">
+        <div class="variant-key-label key-tested">tested</div>
+        <div class="block-text">The stuck is specific: you know what’s right, and the structure wants something else. Not wrong — differently calibrated, optimized for criteria your standard wasn't built around. The temptation is to push the assessment through anyway because it's accurate. The cost is structural: the framework grants standing, and standing determines what gets heard. What holds you back is the gap between maintaining the verdict and operating inside the system that lets you act on it. Most of the time you find a way to manage both. The times you can't are the ones that cost something.</div>
       </div>
     </div>
     <div class="inner-divider"></div>
@@ -1377,9 +1402,9 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <div class="variant-key-label key-default">default</div>
         <div class="block-text">The classical principle: raw metal becomes an instrument — shaped for a specific purpose — through contact with fire. The capability was always real. What fire does is specify what the precision is actually for. Without a worthy target, the evaluative apparatus runs on whatever is available. With the right challenge, the precision stops searching and starts producing. The edge was already there. Fire reveals what it was for.</div>
       </div>
-      <div class="variant-row variant-todo">
-        <div class="variant-key-label key-todo">[TODO] — forging (财旺)</div>
-        <div class="block-text">[TODO — forging: when wealth/direction energy is dominant, the “conditions right” mechanism shifts — the precision is already being directed into material outcomes; describe how the activation pattern changes when there is a strong directing force already in place]</div>
+      <div class="variant-row">
+        <div class="variant-key-label key-forging">forging</div>
+        <div class="block-text">When wealth energy is dominant, the directing force is already in place — the precision isn't searching for what to aim at, it has a material target. What shifts is the quality of the direction: conditions are right when the target is genuinely worthy, when the system, resource, or outcome being shaped actually requires the standard. The risk: the directing energy carries the evaluative apparatus on its own momentum, toward outcomes that are achievable but not worthy. The question that matters isn't whether there's a target. It's whether the target deserves the edge.</div>
       </div>
     </div>
     <div class="inner-divider"></div>
@@ -1412,13 +1437,13 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <div class="variant-key-label key-concentrated">concentrated</div>
         <div class="block-text">Decisions arrive as conclusions. You don’t deliberate the way some people do — you build a structural picture, the picture resolves, and the answer appears. What looks like confidence from the outside is usually just completion: the assessment ran, the result is there. What gets harder is the edge case: when the evidence doesn’t fully resolve, when the variables conflict, when something that should be straightforward keeps remaining ambiguous. That’s when the evaluative system runs over the same ground twice, then again. You make fast decisions or you make slow, grinding ones. There isn’t much in between.</div>
       </div>
-      <div class="variant-row variant-todo">
-        <div class="variant-key-label key-todo">[TODO] — open</div>
-        <div class="block-text">[TODO — open: decisions don’t close the way they should; the evaluative capacity is present but doesn’t reach the same decisive threshold; describe the specific experience when 庚’s precision doesn’t produce clean verdicts]</div>
+      <div class="variant-row">
+        <div class="variant-key-label key-open">open</div>
+        <div class="block-text">The structural picture builds, but the resolution hangs. Ambiguity lasts longer; new information reopens what felt settled more easily than it should. This isn’t indecision as a character flaw — the evaluative capacity is functioning, just without the finality the concentrated case produces. What helps: external anchors. A deadline. Someone whose judgment you trust. A situation where a decision has to be made and the moment arrives. The conclusion comes when something outside provides the close the internal process didn’t.</div>
       </div>
-      <div class="variant-row variant-todo">
-        <div class="variant-key-label key-todo">[TODO] — tested (官杀旺)</div>
-        <div class="block-text">[TODO — tested: decisions involve navigating external authority as part of the calculus; describe how the 庚 decision process changes when there is dominant official or institutional pressure involved]</div>
+      <div class="variant-row">
+        <div class="variant-key-label key-tested">tested</div>
+        <div class="block-text">Under authority pressure, a second calculation runs alongside the first: what the institutional context will accept, not just what the assessment says is true. For a mind that produces conclusions, holding both simultaneously creates specific friction — the answer is there; the path to it runs through a framework that doesn't always reach the same place. The decisions that stall longest aren't the complex ones. They're the ones where the answer is clear and the institutional route isn't.</div>
       </div>
     </div>
     <div class="inner-divider"></div>
@@ -1431,9 +1456,9 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <div class="variant-key-label key-default">default</div>
         <div class="block-text">You are more reliable than you are easy. The people who know you well understand that when you give your word, it holds — that your assessment of them is honest even when it’s uncomfortable, that your care, once given, is structural and doesn’t diminish. What’s harder: the relationship that needs reassurance rather than accuracy, warmth rather than honesty, or presence rather than solutions. You deliver real things. Not always the thing that was needed in that specific moment.</div>
       </div>
-      <div class="variant-row variant-todo">
-        <div class="variant-key-label key-todo">[TODO] — flowing (食伤旺)</div>
-        <div class="block-text">[TODO — flowing: when output and expression energy is dominant, the relational dynamic shifts; the self-expression impulse creates a different texture in relationships — describe how the precision meets the outward-driving quality in relational contexts]</div>
+      <div class="variant-row">
+        <div class="variant-key-label key-flowing">flowing</div>
+        <div class="block-text">When expression energy is dominant, there's more outward movement in the relational texture. The reliability is still there, but it arrives alongside something warmer — a tendency to contribute and express rather than assess and hold position. The precision lands differently: through what's made or shared rather than through direct judgment, which tends to create less friction on entry. The shadow shifts too: the output impulse can overproduce, or push expression in a direction the other person wasn't ready for. The care is more visible. The edge is softer at the start.</div>
       </div>
     </div>
     <div class="inner-divider"></div>
@@ -1452,9 +1477,9 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <div class="variant-key-label key-concentrated">concentrated</div>
         <div class="block-text">Pressure clarifies. When the environment provides sufficient resistance — a real problem, a worthy challenge, a situation where the precision has something real to cut against — you operate at a different level than ordinary conditions allow. The evaluative capacity sharpens. Focus narrows and deepens simultaneously. This is the mechanism: fire reveals the edge. Without adequate pressure, the precision can turn inward or run on low-stakes targets, producing the same intensity that would serve you under real challenge but creates unnecessary friction where none was required.</div>
       </div>
-      <div class="variant-row variant-todo">
-        <div class="variant-key-label key-todo">[TODO] — tested (官杀旺)</div>
-        <div class="block-text">[TODO — tested: when external authority pressure is the dominant pattern, what “pressure” does changes — it is no longer generative challenge but structural friction; describe the 庚 experience of operating under or against dominant official force]</div>
+      <div class="variant-row">
+        <div class="variant-key-label key-tested">tested</div>
+        <div class="block-text">When authority energy is dominant, pressure changes register. It is no longer generative challenge — it's structural friction that requires its own assessment before it can be used. The evaluative capacity is still running, but part of it is now occupied with the source of the pressure itself. Is this authority genuine? Does the standard behind it hold? Under real institutional standing, the precision sharpens — there's something worthy to cut against, and the edge has a target it can respect. Under authority that doesn't hold up, the same capacity turns resistant. The distinction between those two experiences is one you make quickly and rarely revise.</div>
       </div>
     </div>
     <div class="inner-divider"></div>
@@ -1486,13 +1511,13 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
         <div class="variant-key-label key-concentrated">concentrated</div>
         <div class="block-text">Contact with something genuinely worthy of the precision. A problem hard enough that the evaluative apparatus has to operate at full range. A person capable of meeting the assessment directly without deflecting or collapsing under it. Work where the quality actually matters and the standard is the point — not just accepted but necessary. The version of you that is most alive is the version that has found what the edge is for. The question that recurs, quietly: is what I’m currently aimed at actually worthy of this?</div>
       </div>
-      <div class="variant-row variant-todo">
-        <div class="variant-key-label key-todo">[TODO] — tested (官杀旺)</div>
-        <div class="block-text">[TODO — tested: activation comes through recognition from a legitimate authority, an institutional context where the precision has standing, or a challenge from someone who represents a worthy standard; describe the specific activation pattern]</div>
+      <div class="variant-row">
+        <div class="variant-key-label key-tested">tested</div>
+        <div class="block-text">Recognition from something that actually has standing. Not flattery — an encounter with a structure or person that represents a real standard, one capable of assessing the precision and finding it accurate rather than merely efficient. The specific activation: a problem given by someone whose judgment is real, inside a framework where meeting it means something beyond performance. What turns on is the recognition that the standard being applied from outside and the standard running inside are, for once, pointing in the same direction. That alignment is rarer than it should be. When it arrives, the version of you that operates inside it is the clearest version.</div>
       </div>
-      <div class="variant-row variant-todo">
-        <div class="variant-key-label key-todo">[TODO] — forging (财旺)</div>
-        <div class="block-text">[TODO — forging: activation involves finding material worthy of the directing force — systems, resources, or situations that the precision can shape into outcomes; describe what conditions allow 庚 to operate at full range under wealth-dominant energy]</div>
+      <div class="variant-row">
+        <div class="variant-key-label key-forging">forging</div>
+        <div class="block-text">Material worthy of being shaped. Not just achievable or profitable — genuinely worthy: a system, resource, or situation where the precision has something real to define, improve, or build toward. The specific activation under forging energy: finding that the directing force and the internal standard are aimed at the same thing. When the material is real and the direction is worthy, the output carries a mark that persists. What to watch: the forging pattern can produce the feeling of activation — directed output, visible progress — without the material actually warranting the precision. That version is productive but hollow.</div>
       </div>
     </div>
     <div class="inner-divider"></div>
@@ -3035,65 +3060,4 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
       <div class="domain-card">
         <div class="domain-name">Health</div>
         <div class="domain-mechanism">正印 pattern → nourishment and opening, inherited health approaches, maternal element</div>
-        <div class="domain-text">正印 nourishes and simultaneously opens the DM's element — when the source is genuinely nourishing, the health benefit is real and sustainable. The health approach tends to follow the mentors and support structures that formed the person — which can be excellent when the models had good health intelligence and limiting when the patterns were inherited rather than chosen. Classically related to the mother and maternal lineage in health pattern transmission.</div>
-      </div>
-    </div>
-
-    <div class="inner-divider" style="margin:18px 0;"></div>
-
-    <div class="tg-section-label">The People Around You (六亲) <span class="tier-badge tier-pro">PRO</span></div>
-    <div class="ppl-text">Classically represents mother and maternal figures, formal mentors, and legitimate institutional backers. More broadly: the teachers who believed in you AND told you where to go with it; the institutions that accepted you and shaped your direction; the developmental relationships where support and direction arrived together as a single experience. The mother's presence and orientation — specifically whether her backing came with genuine care for the person's own calling — is often the defining early influence whose effects are visible throughout the life.</div>
-
-    <div class="inner-divider" style="margin:18px 0;"></div>
-
-    <div class="tg-section-label">Event Signatures in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
-    <div class="liunian-banner">A 正印 year or period brings mentorship opportunities, institutional recognition, educational advancement, and periods of genuine backing. Also: mother-related events, significant shifts in the primary support structure, learning periods that open new direction. For aligned charts: a period of genuine development within supported, directional growth — often the years when the backing that was always present becomes explicitly recognized. For charts where 正印 creates friction: direction given with the backing becoming a constraint, the support structure's expectations conflicting with authentic calling.</div>
-  </div>
-</div>
-
-
-
-<div class="pillar-section">
-  <div class="pillar-eyebrow">千里命稿 · VERIFY-ONLY</div>
-  <div class="pillar-title" style="display:flex;align-items:center;gap:10px;">Life Stage Mapping — Pillar Domains <span class="tier-badge tier-internal">INTERNAL · VERIFY-ONLY</span></div>
-  <div class="pillar-subtitle">Each of the four pillars maps to a life stage and domain of experience. Use conditionally: only when a reading anchors a specific behavioral pattern to a specific period and the chart concentration justifies it. Never frame as fate; always frame as structural tendency.</div>
-  <div class="pillar-grid">
-    <div class="pillar-card-el">
-      <div class="pillar-card-label">Year Pillar</div>
-      <div class="pillar-card-ages">Ages 1–16</div>
-      <div class="pillar-card-domain">Family background, ancestral pattern</div>
-      <div class="pillar-card-note">The formation layer — what the person came into and what shaped the foundation before they had any say in the matter.</div>
-    </div>
-    <div class="pillar-card-el">
-      <div class="pillar-card-label">Month Pillar</div>
-      <div class="pillar-card-ages">Ages 17–32</div>
-      <div class="pillar-card-domain">Career foundation, social and work environment</div>
-      <div class="pillar-card-note">The public formation layer — career first steps, professional identity, the social structures that shaped working life.</div>
-    </div>
-    <div class="pillar-card-el">
-      <div class="pillar-card-label">Day Pillar</div>
-      <div class="pillar-card-ages">Ages 33–48</div>
-      <div class="pillar-card-domain">Self (Day Master stem), partner and relational texture</div>
-      <div class="pillar-card-note">The self and relationship layer — who the person is in close relationships, the relational texture of the mid-life chapter.</div>
-    </div>
-    <div class="pillar-card-el">
-      <div class="pillar-card-label">Hour Pillar</div>
-      <div class="pillar-card-ages">Ages 49+</div>
-      <div class="pillar-card-domain">Legacy, output, later-life chapter</div>
-      <div class="pillar-card-note">The output and inheritance layer — what the person builds toward later, what they leave behind, the chapter when output becomes legacy.</div>
-    </div>
-  </div>
-  <div class="pillar-verify"><strong>VERIFY-ONLY status (DOC3 §2.7):</strong> Use only when the dominant energy in the chart is heavily concentrated in one pillar. Mention as one reading angle among several, not as a definitive framework. If the chart has roughly equal pillar weight, omit entirely. Always frame as “structural tendency” — never as fixed fate or scheduled event.</div>
-  <div class="bingyi-source" style="margin-top:14px;">Source: 千里命稿 (Wei Qianli) — 宫位论法 (Pillar-Stage Mapping) · DOC3 §2.7</div>
-</div>
-
-<!-- FOOTER -->
-<div style="margin-top:64px;padding-top:28px;border-top:0.5px solid var(--border);text-align:center;">
-  <div style="font-family:'Noto Serif SC',Georgia,serif;font-size:24px;color:var(--accent-dark);opacity:0.4;margin-bottom:10px;">元素</div>
-  <div style="font-size:12px;color:var(--text-ter);letter-spacing:1px;">Elementum · Profile Database · Version 2.1 · April 2026</div>
-  <div style="font-size:12px;color:var(--text-ter);margin-top:4px;font-style:italic;">Source of truth for all ten stems and ten gods · Includes classical anchors · For internal use only</div>
-</div>
-
-</div>
-</body>
-</html>
+        <div class="domain-text">正印 nourishes and simultaneously opens

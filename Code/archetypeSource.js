@@ -382,8 +382,8 @@ There's also a slow accumulation of unspoken costs. The Mountain absorbs a great
         text: {
           default: `You evaluate before you engage. The assessment starts when you enter a room — not as a decision you make but as a process that has already begun. You know what holds up and what doesn't before the conversation has fully started. Others feel this in your presence even when nothing has been said. This is not coldness. It's what it looks like when the first cognitive event is precision rather than warmth.`,
           concentrated: `You evaluate before you engage. The assessment starts the moment you walk into a room — not as a decision you make but as a process that has already begun before you've chosen to begin it. You know what's real and what isn't, what holds up and what doesn't, before the conversation has fully started. Others feel assessed in your presence even when nothing has been said and nothing was intended. This is not coldness. It's what it looks like when the first cognitive event is precision rather than warmth.`,
-          open: `[TODO — open: the assessment is present but quieter; the evaluation doesn't dominate every entry point; describe the 庚 open experience where precision exists without the involuntary relentlessness of the concentrated case]`,
-          tested: `[TODO — tested (官杀旺): the assessment runs in the context of external authority or institutional pressure; describe how the evaluative quality meets and is shaped by dominant official energy]`,
+          open: `The evaluation is present, but it doesn't lead. You enter a room and something observes — notes what holds and what doesn't — but that observation doesn't arrive as a completed assessment before engagement has begun. The evaluative quality exists as an undercurrent rather than a first fact. What's different: you can be more present to what's actually in the room before the read closes. The precision functions; it just no longer runs ahead of everything else. The world arrives before the verdict does.`,
+          tested: `The world evaluates back. That's the specific texture when authority energy is dominant: the precision runs as it always does, but now something is running a read on you at the same time. An institutional lens — an external standard — operates in parallel with your own. If the external standard is genuine, this sharpens rather than compresses: there's something real to measure against. If it isn't, you know before the conversation has properly started. What changes is that the assessment is no longer one-directional. You are inside a system that is also assessing you, and that fact is part of what you're evaluating.`,
         },
       },
 
@@ -394,7 +394,7 @@ There's also a slow accumulation of unspoken costs. The Mountain absorbs a great
         priority: { default: 4 },
         text: {
           default: `Cutting to what's actually true, quickly, without sentimentality — not because you don't care but because accuracy is a form of care for you. Building things that last because you genuinely cannot commit to building things that won't. Being the person whose feedback is the most difficult to hear and the most reliable in the room. The things you build tend to still be in use years later, because you could not have made them any other way.`,
-          flowing: `[TODO — flowing (食伤旺): the output/expression energy is dominant; when the precision is driven outward by a strong producing force, what the 庚 is genuinely good at shifts in nature — describe how the gifts change when expression is the primary channel]`,
+          flowing: `When expression energy is dominant, the precision creates rather than just evaluates. What you're genuinely good at shifts toward generative output: producing work that carries that same standard into its execution rather than its assessment of others. The evaluative function is still running — now directed inward, at what's being made. The result is work of unusually high internal consistency: precise in execution, not just in judgment. The critique mechanism becomes craft. The edge finds what it was actually for.`,
         },
       },
 
@@ -410,8 +410,8 @@ The verdict also becomes load-bearing: once formed, it requires new information 
           concentrated: `The assessment has no warmth channel. The person who came needing to feel less alone gets a solution rather than presence — accurate, often useful, and not what was actually needed in that moment. The care was real. It arrived through the wrong door.
 
 The verdict also becomes load-bearing: once formed, it requires new information to pass through the same evaluative system that produced the original conclusion — a system that is very good at finding reasons why the new information doesn't change anything. You can hold a position longer than the evidence warrants, and some part of you knows it.`,
-          open: `[TODO — open: the assessment doesn't land with the same force; the stuck is different — verdicts don't close cleanly, or the evaluative apparatus runs without producing actionable conclusions that hold up over time]`,
-          tested: `[TODO — tested (官杀旺): the stuck is at the intersection of personal verdict and external authority — when your assessment conflicts with what the institutional structure demands, describe the specific friction this produces]`,
+          open: `The stuck is different in kind. The assessment runs, but verdicts don't close with the same force — positions stay open longer than they should, and the evaluative capacity can circle a question without landing somewhere that holds. Not paralysis: more like a loop that doesn't quite lock. You arrive at something that seems true, find a reason to reconsider, then return to roughly the same place. The care is real; the precision is real. What's missing is the weight that makes the conclusion feel final.`,
+          tested: `The stuck is specific: you know what's right, and the structure wants something else. Not wrong — differently calibrated, optimized for criteria your standard wasn't built around. The temptation is to push the assessment through anyway because it's accurate. The cost is structural: the framework grants standing, and standing determines what gets heard. What holds you back is the gap between maintaining the verdict and operating inside the system that lets you act on it. Most of the time you find a way to manage both. The times you can't are the ones that cost something.`,
         },
       },
 
@@ -422,7 +422,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
         priority: { default: 3, concentrated: 4 },
         text: {
           default: `The classical principle: raw metal becomes an instrument — shaped for a specific purpose — through contact with fire. The capability was always real. What fire does is specify what the precision is actually for. Without a worthy target, the evaluative apparatus runs on whatever is available. With the right challenge, the precision stops searching and starts producing. The edge was already there. Fire reveals what it was for.`,
-          forging: `[TODO — forging (财旺): when wealth/direction energy is dominant, the "conditions right" mechanism shifts — the precision is already being directed into material outcomes; describe how the activation pattern changes when there is a strong directing force already in place]`,
+          forging: `When wealth energy is dominant, the directing force is already in place — the precision isn't searching for what to aim at, it has a material target. What shifts is the quality of the direction: conditions are right when the target is genuinely worthy, when the system, resource, or outcome being shaped actually requires the standard. The risk: the directing energy carries the evaluative apparatus on its own momentum, toward outcomes that are achievable but not worthy. The question that matters isn't whether there's a target. It's whether the target deserves the edge.`,
         },
       },
 
@@ -445,8 +445,8 @@ The verdict also becomes load-bearing: once formed, it requires new information 
         text: {
           default: `Decisions arrive as conclusions. You don't deliberate the way some people do — you build a structural picture, the picture resolves, and the answer appears. What looks like confidence from the outside is usually just completion: the assessment ran, the result is there. What gets harder is the edge case: when the evidence doesn't fully resolve, when the variables conflict, when something that should be straightforward keeps remaining ambiguous.`,
           concentrated: `Decisions arrive as conclusions. You don't deliberate the way some people do — you build a structural picture, the picture resolves, and the answer appears. What looks like confidence from the outside is usually just completion: the assessment ran, the result is there. What gets harder is the edge case: when the evidence doesn't fully resolve, when the variables conflict, when something that should be straightforward keeps remaining ambiguous. That's when the evaluative system runs over the same ground twice, then again. You make fast decisions or you make slow, grinding ones. There isn't much in between.`,
-          open: `[TODO — open: decisions don't close the way they should; the evaluative capacity is present but doesn't reach the same decisive threshold; describe the specific experience when 庚's precision doesn't produce clean verdicts]`,
-          tested: `[TODO — tested (官杀旺): decisions involve navigating external authority as part of the calculus; describe how the 庚 decision process changes when there is dominant official or institutional pressure involved]`,
+          open: `The structural picture builds, but the resolution hangs. Ambiguity lasts longer; new information reopens what felt settled more easily than it should. This isn't indecision as a character flaw — the evaluative capacity is functioning, just without the finality the concentrated case produces. What helps: external anchors. A deadline. Someone whose judgment you trust. A situation where a decision has to be made and the moment arrives. The conclusion comes when something outside provides the close the internal process didn't.`,
+          tested: `Under authority pressure, a second calculation runs alongside the first: what the institutional context will accept, not just what the assessment says is true. For a mind that produces conclusions, holding both simultaneously creates specific friction — the answer is there; the path to it runs through a framework that doesn't always reach the same place. The decisions that stall longest aren't the complex ones. They're the ones where the answer is clear and the institutional route isn't.`,
         },
       },
 
@@ -457,7 +457,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
         priority: { default: 4, concentrated: 4 },
         text: {
           default: `You are more reliable than you are easy. The people who know you well understand that when you give your word, it holds — that your assessment of them is honest even when it's uncomfortable, that your care, once given, is structural and doesn't diminish. What's harder: the relationship that needs reassurance rather than accuracy, warmth rather than honesty, or presence rather than solutions. You deliver real things. Not always the thing that was needed in that specific moment.`,
-          flowing: `[TODO — flowing (食伤旺): when output and expression energy is dominant, the relational dynamic shifts; the self-expression impulse creates a different texture in relationships — describe how the precision meets the outward-driving quality in relational contexts]`,
+          flowing: `When expression energy is dominant, there's more outward movement in the relational texture. The reliability is still there, but it arrives alongside something warmer — a tendency to contribute and express rather than assess and hold position. The precision lands differently: through what's made or shared rather than through direct judgment, which tends to create less friction on entry. The shadow shifts too: the output impulse can overproduce, or push expression in a direction the other person wasn't ready for. The care is more visible. The edge is softer at the start.`,
         },
       },
 
@@ -469,7 +469,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
         text: {
           default: `Pressure clarifies. When the environment provides sufficient resistance — a real problem, a worthy challenge, a situation where the precision has something real to cut against — you tend to focus more sharply. The evaluative capacity sharpens. This is the mechanism: fire reveals the edge.`,
           concentrated: `Pressure clarifies. When the environment provides sufficient resistance — a real problem, a worthy challenge, a situation where the precision has something real to cut against — you operate at a different level than ordinary conditions allow. The evaluative capacity sharpens. Focus narrows and deepens simultaneously. This is the mechanism: fire reveals the edge. Without adequate pressure, the precision can turn inward or run on low-stakes targets, producing the same intensity that would serve you under real challenge but creates unnecessary friction where none was required.`,
-          tested: `[TODO — tested (官杀旺): when external authority pressure is the dominant pattern, what "pressure" does changes — it is no longer generative challenge but structural friction; describe the 庚 experience of operating under or against dominant official force]`,
+          tested: `When authority energy is dominant, pressure changes register. It is no longer generative challenge — it's structural friction that requires its own assessment before it can be used. The evaluative capacity is still running, but part of it is now occupied with the source of the pressure itself. Is this authority genuine? Does the standard behind it hold? Under real institutional standing, the precision sharpens — there's something worthy to cut against, and the edge has a target it can respect. Under authority that doesn't hold up, the same capacity turns resistant. The distinction between those two experiences is one you make quickly and rarely revise.`,
         },
       },
 
@@ -492,8 +492,8 @@ The verdict also becomes load-bearing: once formed, it requires new information 
         text: {
           default: `Contact with something genuinely worthy of the precision. A problem hard enough that the evaluative apparatus has to operate at full range. Work where the quality actually matters and the standard is the point — not just accepted but necessary. The version of you that is most alive is the version that has found what the edge is for.`,
           concentrated: `Contact with something genuinely worthy of the precision. A problem hard enough that the evaluative apparatus has to operate at full range. A person capable of meeting the assessment directly without deflecting or collapsing under it. Work where the quality actually matters and the standard is the point — not just accepted but necessary. The version of you that is most alive is the version that has found what the edge is for. The question that recurs, quietly: is what I'm currently aimed at actually worthy of this?`,
-          tested: `[TODO — tested (官杀旺): activation comes through recognition from a legitimate authority, an institutional context where the precision has standing, or a challenge from someone who represents a worthy standard; describe the specific activation pattern]`,
-          forging: `[TODO — forging (财旺): activation involves finding material worthy of the directing force — systems, resources, or situations that the precision can shape into outcomes; describe what conditions allow 庚 to operate at full range under wealth-dominant energy]`,
+          tested: `Recognition from something that actually has standing. Not flattery — an encounter with a structure or person that represents a real standard, one capable of assessing the precision and finding it accurate rather than merely efficient. The specific activation: a problem given by someone whose judgment is real, inside a framework where meeting it means something beyond performance. What turns on is the recognition that the standard being applied from outside and the standard running inside are, for once, pointing in the same direction. That alignment is rarer than it should be. When it arrives, the version of you that operates inside it is the clearest version.`,
+          forging: `Material worthy of being shaped. Not just achievable or profitable — genuinely worthy: a system, resource, or situation where the precision has something real to define, improve, or build toward. The specific activation under forging energy: finding that the directing force and the internal standard are aimed at the same thing. When the material is real and the direction is worthy, the output carries a mark that persists. What to watch: the forging pattern can produce the feeling of activation — directed output, visible progress — without the material actually warranting the precision. That version is productive but hollow.`,
         },
       },
 
@@ -1496,60 +1496,4 @@ export const CLASSICAL_TG_ANCHORS = {
 // Usage: Inject into ALL reading generation prompts as a universal constraint
 //   on catalyst-related content framing. Applies to teaser, p2, and twoAM
 //   fields across all 150 Layer 1 keys. Never frame the catalyst as rescue.
-// ═══════════════════════════════════════════════════════════════════════════
-
-// [INTERNAL · synthesis context — never served to users]
-// [INTERNAL · synthesis context — never served to users]
-export const BINGYI_FRAMING = {
-  // Source principle (Chinese preserved for fidelity):
-  principle_zh: "\u6709\u75c5\u65b9\u4e3a\u8d35\uff0c\u65e0\u75c5\u4e0d\u662f\u5947",
-  principle_en: "Only when there is deficiency is there distinction; without deficiency there is nothing to be specified toward.",
-  source:       "Shenfeng Tongkao (Zhang Shenfeng) — Bing Yao Shuo (Deficiency/Remedy Theory)",
-  catalystRule: "The catalyst element is the remedy (yao) for the chart's structural deficiency (bing). The archetype is fully formed and capable without the catalyst — the catalyst specifies what it was all along. It does not rescue, correct, or complete. Relief is specification: the precision finds a direction it fully believes in. The Ocean finds form. The Oak finds the shaping force that reveals what the growth was building toward.",
-  twoAMRule:    "The twoAM state for every archetype is the condition of being formed and complete and not yet made specific — not broken, not lacking capability, not waiting to be rescued. Waiting for the encounter that reveals what the precision was always for.",
-  writingForbidden: [
-    "You need this element to be whole.",
-    "Without X you are incomplete.",
-    "X saves you / rescues you / fixes you.",
-    "You lack X / you are missing something.",
-    "X makes you capable (implication: you were not capable before).",
-  ],
-  writingRequired: [
-    "Relief is not rescue — it is specification.",
-    "The capability was already real. X reveals what it was for.",
-    "The precision / depth / warmth / reach finds a direction it fully believes in.",
-    "X does not add to what was already complete — it makes the complete thing specific.",
-  ],
-};
-
-
-// ═══════════════════════════════════════════════════════════════════════════
-// PILLAR_STAGE
-// Life-stage mapping from Qianli Mingao (Wei Qianli) — Gong Wei Lun Fa.
-// Source: DOC3 section 2.7 — VERIFY-ONLY (modern practical, not primary canonical).
-//
-// Usage: Optional framing for landscape and twoAM fields when a chart's
-//   dominant energy is heavily concentrated in one specific pillar.
-//   Do not apply as universal framing — most charts have distributed energies.
-// ═══════════════════════════════════════════════════════════════════════════
-
-// [INTERNAL · VERIFY-ONLY — conditional use, never served directly]
-// [INTERNAL · VERIFY-ONLY — conditional use, never served directly]
-export const PILLAR_STAGE = {
-  source:  "Qianli Mingao (Wei Qianli) — Gong Wei Lun Fa (Pillar-Stage Method)",
-  status:  "VERIFY-ONLY — 20th-century practical convention, not primary classical canon. Use as framing only; do not derive behavioral claims.",
-  pillars: {
-    year:  {
-      domain:    "Family background, ancestral pattern, formative conditions",
-      ages:      "1\u201316",
-      note:      "Energies concentrated here shaped the conditions the person was born into — the starting inheritance, not the core identity.",
-    },
-    month: {
-      domain:    "Career foundation, social and work environment, sibling field",
-      ages:      "17\u201332",
-      note:      "Also the seasonal authority column for DM strength — structurally the most significant pillar for overall chart weighting.",
-    },
-    day:   {
-      domain:    "Self (Day Master stem), partner and relational texture (Day Branch)",
-      ages:      "33\u201348",
-      note:      "The DM's primary register — core identity expression. The Day Branch as the relational field in m
+// ══════════════════════════════════════════════════════════�

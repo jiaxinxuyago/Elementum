@@ -1136,6 +1136,52 @@ Full example of the complete schema, including the justification for a compound 
 
 ---
 
+### 庚 block library — tagging reference
+
+庚 has 11 authored blocks covering the full characterological vocabulary for Yang Metal. The table below documents each block's eligibility scope (`bands[]`, `patterns[]`), priority configuration, and variant authoring status. This is the authoring reference for completing outstanding TODO variants and serves as a structural template for subsequent stems.
+
+| # | Label | `bands[]` | `patterns[]` | `priority{}` | Written variants | Outstanding TODOs |
+|---|---|---|---|---|---|---|
+| 1 | How you experience the world | all | all | default 5 | `default`, `concentrated` | `open`, `tested` |
+| 2 | What you're genuinely good at | all | all | default 4 | `default` | `flowing` |
+| 3 | Where you consistently get stuck | all | all | default 5, open→3 | `default`, `concentrated` | `open`, `tested` |
+| 4 | What changes when conditions are right | all | all | default 3, concentrated→4 | `default` | `forging` |
+| 5 | What you rarely admit | concentrated, balanced | all | default 4, concentrated→5 | `default`, `concentrated` | *(none — open excluded by design)* |
+| 6 | How you make decisions | all | all | default 4, open→3 | `default`, `concentrated` | `open`, `tested` |
+| 7 | How you show up in relationships | all | all | default 4 | `default` | `flowing` |
+| 8 | What you do with pressure | concentrated, balanced | pure, rooted, tested | default 3, concentrated→5, concentrated_pure→5 | `default`, `concentrated` | `tested` |
+| 9 | What activates the best version of this | all | all | default 4, tested→4, forging→4 | `default`, `concentrated` | `tested`, `forging` |
+| 10 | What holds you back without looking like it | all | all | default 4, concentrated→5 | `default`, `concentrated` | *(none)* |
+| 11 | The image and the interior | concentrated, balanced | all | default 3, concentrated→5, concentrated_pure→5 | `default`, `concentrated` | *(none — open excluded by design)* |
+
+**Total outstanding: 11 TODO variants across 4 pattern types.**
+
+#### Design rationale — open-excluded blocks
+
+Blocks 5 (`What you rarely admit`) and 11 (`The image and the interior`) exclude `open` from `bands[]` by design, not by omission. For an open 庚, the exterior precision is muted enough that the interior/exterior gap described in block 11 no longer holds — the surface and interior are less divergent. Block 5's dynamic (a settled conviction running alongside a quieter underlying question) also requires a level of evaluative force that the open case doesn't produce consistently. These blocks are structurally inapplicable to the open band — not merely lower priority.
+
+Block 8 (`What you do with pressure`) additionally excludes `flowing` and `forging` from `patterns[]`. The pressure mechanism described in this block is specific to self-amplifying, resource-supported, and authority-encountering contexts. The presence of a dominant output or wealth energy changes what "pressure" does structurally enough that the topic shifts — that shift is covered by other blocks (2 and 4) rather than a variant of block 8.
+
+#### Outstanding TODOs — grouped by variant type
+
+**`open` variants — 3 blocks (1, 3, 6)**
+
+The three core experience/cognition blocks. The evaluative mechanism genuinely inverts when DM energy is weak: assessments don't dominate entry points, verdicts don't close cleanly, and what it means to "experience the world" as a 庚 shifts structurally. Each open variant describes a qualitatively different mechanism — not a quieter version of the default. Apply Rule 1 (Trigger Test): a person reading the default should feel it was written for someone else.
+
+**`tested` variants — 5 blocks (1, 3, 6, 8, 9)**
+
+The `tested` pattern means authority/official energy (官杀) is dominant. For 庚 — already a force of judgment and internal standard — the presence of external institutional pressure creates a specific DM × force dynamic: the internal standard meets external standard. Blocks covering world-experience, getting stuck, decision-making, what pressure does, and what activates the best version all shift meaningfully when official energy is dominant. The `tested` variant names the specific interaction, not just the presence of authority.
+
+**`flowing` variants — 2 blocks (2, 7)**
+
+The `flowing` pattern means output/expression energy (食伤) is dominant. The precision is channeled outward through strong expressive energy. What 庚 is genuinely good at (block 2) becomes expression-shaped; how it shows up in relationships (block 7) changes when the outward-driving quality is the dominant force. Both variants describe how the 庚 nature shifts when it operates through a strong producing channel rather than on its own terms.
+
+**`forging` variants — 2 blocks (4, 9)**
+
+The `forging` pattern means wealth/directing energy (财) is dominant. Activation patterns and what "conditions right" means both shift when a strong directing force is already in place — the precision already has a material target, and the mechanism is about the quality of that target rather than finding one. Both variants start from the assumption that material direction is active, not absent.
+
+---
+
 ## §8 — Profile Data Enrichment (Pending)
 
 > **Flagged for future work.** The following enrichment pass is required before launch but is not part of the current architecture sprint.
