@@ -27,6 +27,8 @@ This document is the primary reference for all UI and interaction design work in
 §16 Accessibility & Performance
 §17 Data Contract Summary
 §18 Features: Pending Development
+§19 Pricing Model & Content Tiers
+§20 Asset Library
 ```
 
 ---
@@ -616,11 +618,16 @@ This is the **center tab** and the heart of the product. It is also where the en
 ### Layout — three sequential deliverables
 
 ```
-DELIVERABLE 1: WHO YOU ARE (DayMasterHero)
-  Archetype seal (72px, element color)
-  Identity token pill
-  Archetype name (38px Cormorant)
-  Manifesto (14px italic)
+DELIVERABLE 1: WHO YOU ARE (DayMasterHero)  ← full viewport, no scroll
+  [Identity icon: stem-specific SVG, ~175px]
+  Archetype name (38px Cormorant, bold)
+  ─── 3 badge tiles (horizontal row) ───
+    [Element gem icon]   [Stem character]   [Half taichi]
+       METAL                 庚 GĒNG           YANG
+  ─── manifesto (2-line centered) ───
+    Line 1: "Precision before intention"  (14px bold)
+    Line 2: "An edge is never given — it is forged."  (14px)
+  [scroll hint: "Discover ↓" anchored to bottom]
 
   ─── divider ───
 
@@ -675,17 +682,111 @@ DELIVERABLE 3: YOUR READING (ProfileReading)
 
 ### Deliverable 1: DayMasterHero
 
-Centered, element-tinted gradient background (`${elementColor}08` over `#F8F6F0`). Full-width card feel without a hard border.
+The identity card is the **first reading deliverable** and the emotional anchor of the entire app. It occupies the full visible screen area on entry — the user should see nothing else until they scroll. It is not a card inside a page; it is the page.
 
-**Archetype seal:** 72px ArchetypeSeal SVG, element color, with a very soft element-colored glow (`box-shadow: 0 0 32px ${elementColor}20`).
+#### User journey
 
-**Identity token pill:** `庚 · Yang Metal · Blade` — rounded-full, bg `${elementColor}15`, text element color, 13px EB Garamond, padding `4px 14px`. The stem glyph slightly larger.
+1. **Hook (instant)** — The large identity icon for the user's Day Master fills the visual center. It is not abstract clip-art; it is a rendered illustration specific to their stem. Before reading a word, the user sees an image that is already *theirs*.
+2. **Recognition (1–2 seconds)** — The archetype name resolves: `THE BLADE`. Bold, large, unambiguous. The user's identity is named, not described.
+3. **Education (on demand)** — Three badge tiles sit below the name. Each tile is interactive. Tapping reveals a knowledge panel that teaches the domain concept and places the user within it. This is the app's orientation layer — it answers "what does this mean?" without cluttering the primary recognition moment.
+4. **Resonance (5–10 seconds)** — The two-line manifesto beneath the badges provides a personal, poetic counterpoint to the bold name. Line 1 is a thesis. Line 2 is the live edge of it. Together they create the "yes — that's me" moment that converts a curious user into a committed one.
+5. **Pull to depth** — A scroll hint at the screen bottom ("Discover ↓") signals that more exists, without making it feel like a required action.
 
-**Archetype name:** Cormorant Garamond, 38px, weight 600, `#5a4430`.
+#### Layout
 
-**Manifesto:** EB Garamond, 14px italic, `#5C554D`, max-width 320px, center.
+Full-screen container. `minHeight: 640px`, `display: flex`, `flexDirection: column`, `alignItems: center`, `justifyContent: center`. Background: a dark, element-tinted gradient (`${elementColor}15` → `${elementColor}05` → page background). No hard card border or border-radius in the phone-frame context — the card *is* the screen.
 
-See Doc 2 §6 for complete field spec and what not to show here.
+```
+┌────────────────────────────────────────┐
+│                                        │
+│                                        │
+│         [Identity icon SVG]            │
+│             ~175 × 175px               │
+│                                        │
+│           THE BLADE                    │
+│      38px · Cormorant · bold           │
+│                                        │
+│   ┌────────┐ ┌────────┐ ┌────────┐    │
+│   │  ◈     │ │  庚    │ │  ☯︎    │    │
+│   │ METAL  │ │庚 GĒNG │ │  YANG  │    │
+│   └────────┘ └────────┘ └────────┘    │
+│         (badge tiles — 76 × 72px)      │
+│                                        │
+│    Precision before intention          │
+│  An edge is never given — it is forged.│
+│                                        │
+│                                        │
+│              Discover ↓                │  ← absolute, bottom
+└────────────────────────────────────────┘
+```
+
+#### Identity icon
+
+Each of the 10 stems has its own rendered SVG identity icon. The icon is the visual signature of the archetype — it should be immediately evocative without being literal. Size: `~175px` tall, centered horizontally.
+
+See **§20 Asset Library** for current icon implementations and the specification for each stem.
+
+#### Archetype name
+
+Cormorant Garamond, 38px, weight 600, `#2a2420`. Letter-spacing 1px. Uppercase. Centered. This is the largest piece of text on the screen — the hero moment. No subtitle or descriptor sits alongside it; the identity label lives in the badge tiles below.
+
+#### Badge tiles
+
+Three tiles in a horizontal row, with `gap: 12px` between them. Each tile is `76px wide × 72px tall minimum`, centered content, `border-radius: 12px`.
+
+| Tile | Icon | Label | Popup type |
+|---|---|---|---|
+| Element | ElementGem SVG (faceted polygon, element color) | e.g. `METAL` | `"element"` |
+| Stem | Chinese character (20px) + pinyin (9px) | e.g. `庚` + `GĒNG` | `"stem"` |
+| Polarity | HalfTaichi SVG (yang = right half, yin = left half) | e.g. `YANG` | `"polarity"` |
+
+Tile styling: background `${elementColor}0e`, border `1px solid ${elementColor}25`. On hover/active: background lifts to `${elementColor}18`. Label text: 10px, uppercase, letter-spacing `0.13em`. Tiles are fully interactive — each opens its respective knowledge popup.
+
+#### Badge tile popups
+
+Popups render as full-screen overlays inside the phone frame using `position: absolute; inset: 0; zIndex: 200`. They sit outside the scrollable content div so they never get clipped. Rendered by the `HeroPopupOverlay` component which accepts `popup` type, `chart`, and `onClose`.
+
+**Element popup (`"element"`):**
+- Header: `[Element] is your element` (e.g. `Metal is your element`)
+- Explainer: 1–2 sentences on what an element means in BaZi / Five Elements cosmology
+- Five Elements grid: all 5 elements shown as color-coded tiles with Chinese character, English name, and a 3–4 word descriptor (e.g. Metal → Precision · Structure · Clarity)
+- Close: tap backdrop or × button
+
+**Stem popup (`"stem"`):**
+- Header: `[Pinyin] is your Day Master` (e.g. `Gēng is your Day Master`)
+- Explainer: 1–2 sentences on what a Day Master is in BaZi — the Heavenly Stem of the birth day, the core identity pillar
+- Ten Stems grid: all 10 stems arranged by element group, each stem shown as a colored tile with the Chinese character, pinyin, and English archetype name; the user's own stem is highlighted
+- Close: tap backdrop or × button
+
+**Polarity popup (`"polarity"`):**
+- Header: `Your polarity is [Yang/Yin]`
+- Explainer: 1–2 sentences on Yin/Yang from Taoist cosmology — the dual nature of all force
+- Full taichi SVG: rendered with split-opacity treatment, Yang half fully lit, Yin half at reduced opacity (or vice versa for Yin DMs)
+- Yang/Yin legend below the taichi: two labeled halves explaining each polarity's character in 4–6 words
+- Close: tap backdrop or × button
+
+#### Two-line manifesto
+
+Source: `ARCHETYPE_MANIFESTO[stem]` — a single string using ` · ` as the two-line separator. Split on that separator at render time.
+
+```
+manifestoRaw.split(" · ") → [line1, line2]
+```
+
+- **Line 1** (thesis): EB Garamond, 14px, weight 600 (semi-bold), `#3a3530`, centered. Example: *Precision before intention*
+- **Line 2** (live edge): EB Garamond, 14px, weight 400, `#5a5550`, centered. Example: *An edge is never given — it is forged.*
+- Container: `maxWidth: 300px`, `textAlign: center`, `lineHeight: 1.6`
+- Gap between the two lines: `6px`
+
+The ` · ` separator is part of the data contract. All 10 stems must have a manifesto string in this format. See §17 and DOC4 §2 for field spec.
+
+#### Scroll hint
+
+Absolute-positioned at the bottom of the identity card container. `bottom: 24px`, centered. Two elements stacked:
+- `DISCOVER` — 9px, uppercase, letter-spacing `0.18em`, `${elementColor}80` (semi-transparent element color)
+- Chevron-down SVG — 16px, same color
+
+The hint pulses gently (`opacity: 0.6 → 1.0 → 0.6`, 2s cycle) to signal interactivity without demanding it.
 
 ### Deliverable 2: ElementSpectrum
 
@@ -1073,7 +1174,7 @@ What each screen reads from the engine's Canonical JSON or computed state:
 |---|---|
 | Reveal | `chart.pillars`, `chart.dayMaster`, `chart.elements`, `chart.dayMasterArchetype`, `ELEMENT_ENERGIES`, `applyTiaohouToEnergies()` |
 | Today | `chart.dayMaster`, `getTodayElement()`, `getDailyGuidance(chart, todayEl)`, `cycles.find(c => c.isCurrent)` |
-| My Chart / DayMasterHero | `chart.dayMaster`, `chart.archetypeKey`, `ARCHETYPE_MANIFESTO`, `ArchetypeSeal` |
+| My Chart / DayMasterHero | `chart.dayMaster` (stem, element, polarity), `chart.archetypeKey`, `ARCHETYPE_MANIFESTO[stem]` (split on ` · ` for two-line display), identity icon SVG per stem, `STEM_PINYIN[stem]` for badge label, popup data: `FIVE_ELEMENTS[]`, `TEN_STEMS_ROWS[]` for knowledge panels |
 | My Chart / ElementSpectrum | `chart.elements`, `chart.dayMaster`, `ELEMENTAL_NATURE[stem][band]`, `STRENGTH_META`, `ELEMENT_ENERGIES[stem][band]`, `applyTiaohouToEnergies()`, `READING_ANGLES[domEl_tenGod]`, `getDominantTenGod()`, `computeTgPattern()` |
 | My Chart / ProfileReading | `buildDayMasterProfile(chart)` → `{strengths, shadows, twoAM, landscape, whoYouAreTeaser}`, `TEMPLATE_DB[archetypeKey]` |
 | Guidance | `chart.dayMasterArchetype.name`, question counter from state |
@@ -1089,6 +1190,7 @@ What each screen reads from the engine's Canonical JSON or computed state:
 | Version | Date | Changes |
 |---|---|---|
 | 1.0 | April 2026 | Initial creation. Drafted from V006 Figma prototype + Product Design Doc v005 + Business Analysis. |
+| 1.1 | April 2026 | §11 Deliverable 1 (DayMasterHero) redesigned: full-screen identity card layout, stem-specific identity icons (BladeJian for 庚), vertical badge tiles with popup knowledge panels (element / stem / polarity), two-line manifesto format split on ` · `, scroll hint. iPhone phone-frame context documented. §17 updated with popup data contracts. §20 Asset Library added. |
 
 ---
 
@@ -1261,7 +1363,192 @@ Each Blueprint entry is structured around the user's `liunianSignatures` field (
 
 ---
 
-## Document Metadata
+## §20 — Asset Library
+
+This section catalogs all SVG and icon assets used in the current implementation. It is maintained as a reference for design iteration — each entry notes what the asset represents, where it is used, its current implementation status, and what a production version would require.
+
+**Status key:** `INLINE SVG` — fully implemented as inline JSX code · `NEEDED` — asset identified but not yet created
+
+---
+
+### Identity Icons (per-stem)
+
+These are the large central images on the DayMasterHero card. One per stem. Each should visually embody the stem's archetype — not a logo, but a rendered illustration that the user would immediately associate with their identity.
+
+| Stem | Archetype | Asset name | Current status | Notes |
+|---|---|---|---|---|
+| 庚 | The Blade | `BladeJian` | INLINE SVG | Jian (直剑) sword illustration. See spec below. |
+| 甲 | — | `ArchetypeSeal` (fallback) | INLINE SVG | Abstract seal — should be replaced with archetype-specific illustration |
+| 乙 | — | `ArchetypeSeal` (fallback) | INLINE SVG | Abstract seal — should be replaced with archetype-specific illustration |
+| 丙 | — | `ArchetypeSeal` (fallback) | INLINE SVG | Abstract seal — should be replaced with archetype-specific illustration |
+| 丁 | — | `ArchetypeSeal` (fallback) | INLINE SVG | Abstract seal — should be replaced with archetype-specific illustration |
+| 戊 | — | `ArchetypeSeal` (fallback) | INLINE SVG | Abstract seal — should be replaced with archetype-specific illustration |
+| 己 | — | `ArchetypeSeal` (fallback) | INLINE SVG | Abstract seal — should be replaced with archetype-specific illustration |
+| 辛 | — | `ArchetypeSeal` (fallback) | INLINE SVG | Abstract seal — should be replaced with archetype-specific illustration |
+| 壬 | — | `ArchetypeSeal` (fallback) | INLINE SVG | Abstract seal — should be replaced with archetype-specific illustration |
+| 癸 | — | `ArchetypeSeal` (fallback) | INLINE SVG | Abstract seal — should be replaced with archetype-specific illustration |
+
+**Production direction:** All 10 stems should eventually have their own rendered identity illustration, consistent in style. The BladeJian establishes the design language: precise linework, metallic gradients, archetypal rather than decorative. Future illustrations should follow similar principles adapted to each element and archetype.
+
+---
+
+### BladeJian — 庚 Identity Icon
+
+**Used in:** DayMasterHero card (庚 stems only) · `DayMasterHero` component
+
+**Description:** A straight double-edged Chinese sword (直剑 Zhí Jiàn), rendered in a 96×200px viewBox. Composed of four parts: tapered blade, guard, handle, pommel. Metallic gradients throughout.
+
+**SVG structure:**
+
+| Part | Element | Key dimensions | Gradient |
+|---|---|---|---|
+| Blade | `<path>` tapered polygon | 12px wide at guard, narrows to point at top | `jianBlade` — 5-stop silver/white metallic |
+| Guard | `<rect>` + two `<ellipse>` wings | 30px wide × 7px tall, ellipse wings extend +10px each side | `jianGuard` — gold (#c8a84b → #f0d060 → #c8a84b) |
+| Handle | `<rect>` with 3 `<rect>` wrap bands | 8px wide × 34px tall, bands at 4px intervals | `jianHandle` — dark wood (#3a2a1a → #5a3f28) |
+| Pommel | `<ellipse>` | rx 9, ry 5.5 | `jianPommel` — gold (matches guard) |
+
+**Gradient IDs:** `jianBlade`, `jianGuard`, `jianHandle`, `jianPommel` (all defined as `<linearGradient>` inside `<defs>`)
+
+**Design intent:** Understated, precise. The blade tapers to a clean point. No decorative flourishes beyond the guard wings and handle wraps. The metallic gradients suggest the coolness of refined metal, not ornamental gold.
+
+---
+
+### ArchetypeSeal — Fallback Identity Icon
+
+**Used in:** DayMasterHero card (all stems without a specific illustration) · `ArchetypeSeal` component · also referenced in Reveal screen §9
+
+**Description:** Per-stem abstract geometric SVG seal. 10 unique designs, each 72px default size. Uses 1.5px strokes in the stem's element color. No fills — line-art only.
+
+**Stem → concept mapping:**
+
+| Stem | Geometric concept |
+|---|---|
+| 甲 | Branching tree — three forks from a central vertical line |
+| 乙 | Spiral vine — outward logarithmic spiral |
+| 丙 | Radiating sun — central circle with 8 radiating lines |
+| 丁 | Upward flame — three narrow triangular flame shapes |
+| 戊 | Layered peak — three stacked horizontal chevrons suggesting a mountain |
+| 己 | Cultivation grid — 3×3 grid with slightly irregular spacing |
+| 庚 | Bisected hexagon — regular hexagon with a vertical centerline |
+| 辛 | Faceted diamond — octagon with internal crossing diagonals |
+| 壬 | Depth rings — three concentric circles |
+| 癸 | Wave arcs — three stacked horizontal sine-wave arcs |
+
+**Props:** `stem` (string), `color` (hex), `size` (px, default 72)
+
+---
+
+### HalfTaichi — Polarity Badge Icon
+
+**Used in:** DayMasterHero badge tile (polarity) · `DayMasterHero` component
+
+**Description:** Half of the traditional taichi (☯) symbol, rendered as inline SVG at approximately 20×22px for badge use. The visible half is the user's polarity.
+
+| Polarity | Visible half | Fill |
+|---|---|---|
+| Yang | Right half (S-curve rightward) | Element color at full opacity |
+| Yin | Left half (S-curve leftward) | Element color at full opacity |
+
+**Implementation:** Constructed from SVG `<path>` arcs describing the S-curved half-circle boundary. The inner dot (the seed of the opposite polarity inside each half) is included as a small `<circle>` in the contrasting color.
+
+---
+
+### ElementGem — Element Badge Icon
+
+**Used in:** DayMasterHero badge tile (element) · `DayMasterHero` component
+
+**Description:** A faceted pentagon/gem shape rendered as a filled SVG polygon, approximately 20×20px. Represents the element in an abstract, crystalline form — particularly appropriate for Metal, but used consistently across all five elements.
+
+**Implementation:** 7-point polygon with inner facet lines suggesting a cut gem. Fill: element color at 80% opacity. Facet lines: element color at full opacity, 0.5px stroke.
+
+---
+
+### Full Taichi — Polarity Popup Illustration
+
+**Used in:** HeroPopupOverlay (polarity popup) · `HeroPopupOverlay` component
+
+**Description:** Complete taichi (yin-yang) SVG, ~140×140px. Rendered with split opacity treatment to emphasize the user's polarity.
+
+| User polarity | Treatment |
+|---|---|
+| Yang | Yang (light/right) half at full opacity; Yin (dark/left) half at 35% opacity |
+| Yin | Yin (dark/left) half at full opacity; Yang (light/right) half at 35% opacity |
+
+The central S-curve divides the circle. Each half contains the seed circle of the opposite polarity (the small dot). The taichi is rendered in the user's element color (Yang half) and a neutral dark (`#2a2420`) for the Yin half.
+
+---
+
+### Five Elements Tiles — Element Popup
+
+**Used in:** HeroPopupOverlay (element popup) · `HeroPopupOverlay` component
+
+**Description:** Grid of 5 tiles, one per element, shown in the element knowledge popup when the user taps their Element badge. Each tile is a styled `<div>` — no separate SVG asset.
+
+| Tile content | Spec |
+|---|---|
+| Chinese character (木/火/土/金/水) | 22px, Noto Serif SC, element color |
+| English name | 11px, uppercase, element color |
+| 3–4 word descriptor | 10px, `#5a5550` |
+| Background | element color at 8% opacity |
+| Border | element color at 20% opacity, 1px |
+| Border-radius | 10px |
+| Size | ~60×72px |
+
+---
+
+### Ten Stems Grid — Stem Popup
+
+**Used in:** HeroPopupOverlay (stem popup) · `HeroPopupOverlay` component
+
+**Description:** Grid of 10 stem tiles, grouped by element (2 stems per element = 5 columns of 2). Shown in the Day Master knowledge popup when the user taps their Stem badge. Each tile is a styled `<div>`.
+
+| Tile content | Spec |
+|---|---|
+| Chinese character | 18px, Noto Serif SC, element color |
+| Pinyin | 9px, element color at 70% opacity |
+| English archetype name | 9px, `#5a5550` |
+| Background | element color at 12% opacity (user's own stem: 25%) |
+| Border | element color at 25% opacity; user's stem: 2px solid element color |
+| Border-radius | 8px |
+
+---
+
+### iPhone Status Bar Icons
+
+**Used in:** App-level phone frame mockup · `App` component
+
+**Description:** Inline SVG icons in the status bar overlay at the top of the phone frame (height 56px). These are decorative — they make the app preview feel like a real iOS app.
+
+| Asset | Description | Implementation |
+|---|---|---|
+| Dynamic Island | Black pill, `120×34px`, `borderRadius: 20px` | CSS `<div>` |
+| Time label | "9:41" | Text, 15px, EB Garamond, `#F8F6F0` |
+| Signal bars | 4 vertical bars, increasing height | Inline SVG, 3 rects, `#F8F6F0` |
+| WiFi icon | 3 arc strokes | Inline SVG, 3 `<path>` arcs, `#F8F6F0` |
+| Battery | Rect body + terminal nub, 25% fill indicator | Inline SVG, 2 rects, `#F8F6F0` |
+
+All status bar icons are hardcoded decorative elements — they do not reflect real device state.
+
+---
+
+### Home Indicator
+
+**Used in:** App-level phone frame · `App` component
+
+**Description:** iOS home indicator bar. `134×5px`, `borderRadius: 3px`, `background: rgba(255,255,255,0.3)`. Absolute-positioned at `bottom: 8px`, centered horizontally.
+
+---
+
+### Design iteration notes
+
+When upgrading from the current inline SVG implementation to a production asset library:
+
+1. All identity icons (BladeJian + 9 remaining stems) should be designed as a coherent set — same visual grammar, same stroke weight system, same gradient palette philosophy per element.
+2. The HalfTaichi and ElementGem are small (badge-sized) assets — they should be optimized SVGs, not rasterized at any size.
+3. The Full Taichi popup illustration benefits from a refined version with subtle inner glow and smoother S-curve path math.
+4. Status bar icons are acceptable as inline SVG for the prototype phase. In a native app build, these would be replaced by the OS-native status bar.
+
+---
 
 | | |
 |---|---|

@@ -5869,4 +5869,23 @@ export default function App() {
             {[{id:"reading",label:"Reading",zh:"命"},{id:"decades",label:"Chapter",zh:"运"},{id:"today",label:"Today",zh:"今"}].map(t=>(
               <button key={t.id} onClick={()=>setTab(t.id)} style={{flex:1,padding:"8px 6px 4px",background:"transparent",border:"none",cursor:"pointer",borderTop:tab===t.id?`1.5px solid ${C.accentDark}`:"1.5px solid transparent",transition:"all 0.2s"}}>
                 <div style={{fontFamily:"'Noto Serif SC',Georgia,serif",fontSize:15,color:tab===t.id?C.accentDark:C.textTer,lineHeight:1,marginBottom:2}}>{t.zh}</div>
-                <div style={{fontFamily:"'Cormorant Garamond',G
+                <div style={{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:10,letterSpacing:1.5,textTransform:"uppercase",color:tab===t.id?C.accentDark:C.textTer}}>{t.label}</div>
+              </button>
+            ))}
+          </div>
+        )}
+
+        {/* Popup overlay — absolute inside phone frame, covers screen */}
+        {popup && chart && (
+          <HeroPopupOverlay popup={popup} chart={chart} onClose={() => setPopup(null)}/>
+        )}
+
+        {/* Home indicator — sits inside bottom nav bar */}
+        <div style={{position:"absolute",bottom:6,left:"50%",transform:"translateX(-50%)",
+                     width:100,height:4,background:C.text,opacity:0.15,borderRadius:3,
+                     pointerEvents:"none",zIndex:13}}/>
+
+      </div>
+    </div>
+  );
+}

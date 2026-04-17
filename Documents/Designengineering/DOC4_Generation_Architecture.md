@@ -75,7 +75,7 @@ The 150 `stem_band_tgPattern` keys are the permanent structural foundation of th
 
 | Section | Content | Source |
 |---|---|---|
-| Identity Card | Archetype name, element, seal SVG, manifesto quote | `archetypeSource.js` — archetype table (DOC2) |
+| Identity Card | Archetype name, element, identity icon SVG, manifesto (two lines) | `archetypeSource.js` — archetype table (DOC2); `ARCHETYPE_MANIFESTO[stem]` in `Elementum_Engine.jsx` |
 | Elemental Nature Card | Energy condition diagnosis: band paragraph (concentrated / balanced / open) | `archetypeSource.js` → `STEM_CARD_DATA[stem].manual[band]` |
 | DM Energy Intro *(open/balanced DM only)* | Introduces the Day Master’s elemental nature when it is not the dominant energy | `archetypeSource.js` → `STEM_CARD_DATA[stem].energy.*` |
 | Dominant Energy Cards (top 2) | Visual hierarchy — proportional card weight. TG layer: title, ruling realm (`rulingRealm`), behavioral chips, outputs (`outputs[]`), frictions (`frictions[]`) | `archetypeSource.js` → `TG_CARD_DATA[tg].*` free-tier fields |
@@ -112,6 +112,20 @@ A single synthesized narrative document following the 13-field compound archetyp
 ---
 
 ## §3 — Energy Blueprint: Rendering Logic
+
+### Identity Card — field spec and format notes
+
+The identity card is the first screen the user sees after chart generation. It occupies the full viewport (phone-frame context — 390×844px). Key field notes:
+
+**`ARCHETYPE_MANIFESTO[stem]`** — The manifesto string uses ` · ` (space-dot-space) as a two-line separator. The UI splits on this separator at render time to produce a two-line manifesto: Line 1 is a bold thesis, Line 2 is a poetic live edge. Both lines are centered, EB Garamond 14px.
+
+Example for 庚: `"Precision before intention · An edge is never given — it is forged."`
+
+All 10 stem manifesto strings must follow this `Line 1 · Line 2` format. A string with no ` · ` separator displays as a single line (fallback).
+
+**Identity icon** — Each stem has a dedicated SVG identity illustration rendered in `DayMasterHero`. 庚 uses the `BladeJian` component (straight sword). All other stems currently fall back to the `ArchetypeSeal` abstract geometric seal. The identity icon is approximately 175px tall and is the visual center of the card. See DOC5 §20 for the full asset library.
+
+**Badge tiles** — Three interactive tiles below the archetype name: Element (tapping opens Five Elements education panel), Stem (tapping opens 10-stem Day Master panel), Polarity (tapping opens taichi Yin/Yang panel). These tiles read from `chart.dayMaster.element`, `chart.dayMaster.stem`, and `chart.dayMaster.polarity`.
 
 ### Section order (all users)
 
@@ -258,10 +272,10 @@ Every field in a TG card is written through its governing angle. This is not a l
 | ⑤ | `frictions[].phrase` | string | Named evocative phrase — structural pattern when this force is misaligned | Free |
 | ⑤ | `frictions[].desc` | string | One sentence — "when this force operates without X, it produces Y" | Free |
 | ⑥ | `hiddenDynamic` | string | One paragraph — the inner mechanism beneath surface behaviour. Describe the mechanism, not the person | Pro |
-| ⑦ | `domainSignatures.career` | `{ sig, mechanism, text }` | Career domain pattern. `sig` = significance weight (1–5). `mechanism` = one-line force mapping. `text` = full paragraph | Pro |
-| ⑦ | `domainSignatures.relationships` | `{ sig, sig_female, sig_male, mechanism, text }` | Relationship domain. Gender overrides on sig where 六亲 partner star logic applies | Pro |
-| ⑦ | `domainSignatures.wealth` | `{ sig, mechanism, text }` | Wealth domain | Pro |
-| ⑦ | `domainSignatures.health` | `{ sig, mechanism, text }` | Health domain | Pro |
+| ⑦ | `domainSignatures.career` | `{ sig, mechanism, text }` | Career domain. `sig` = significance weight (1–5). Only authored and rendered when sig ≥ 4. `mechanism` = section title (evocative phrase naming the TG's territory in this domain). `text` = one paragraph covering two angles: what the force produces here + what it reveals about this person. ~80–100 words. | Pro |
+| ⑦ | `domainSignatures.relationships` | `{ sig, sig_female, sig_male, mechanism, text }` | Relationship domain. Gender overrides on sig where 六亲 partner star logic applies. Only authored/rendered when sig ≥ 4 (or sig_female ≥ 4 for female path). | Pro |
+| ⑦ | `domainSignatures.wealth` | `{ sig, mechanism, text }` | Wealth domain. Only authored and rendered when sig ≥ 4. | Pro |
+| ⑦ | `domainSignatures.health` | `{ sig, mechanism, text }` | Health domain. Only authored and rendered when sig ≥ 4. | Pro |
 | ⑧ | `sixRelations` | string | Classical 六亲 — what this TG represents in the user’s relational world | Pro |
 | ⑨ | `liunianSignatures` | string | One narrative paragraph — what this TG luck period or annual pillar brings. Unified event pattern | Pro |
 
@@ -269,17 +283,18 @@ Every field in a TG card is written through its governing angle. This is not a l
 
 #### Domain significance — sig tags
 
-The `sig` tag on each domain field is a **content selection filter** and a **cross-TG weight anchor** (see §10 for the full compound coverage protocol). Within a single TG card, sig controls prominence. Across TG cards (Layer 2 vs Layer 3), sig determines which TG has primary territory over which domain — the secondary TG’s content is optimised around the primary’s highest-sig domains.
+The `sig` tag on each domain field is a **content selection filter** and a **cross-TG weight anchor** (see §10 for the full compound coverage protocol). Within a single TG card, sig controls which domain sections are included as standalone reading fields. Across TG cards (Layer 2 vs Layer 3), sig determines which TG has primary territory over which domain — the secondary TG’s content is optimised around the primary’s highest-sig domains.
 
-**Significance scale:**
+**Sig controls selection, not detail level.** A domain section is either included at full depth or excluded entirely. There is no "condensed section" — a half-depth domain field delivers less information than no field while occupying reading space. Every domain section that appears is authored and rendered at full depth.
 
-| sig | Meaning | Rendering in single card | Role in compound stack |
-|---|---|---|---|
-| 5 | Primary — this TG most directly governs this domain | Full prominence, surfaced first | Locks this domain as primary TG territory — secondary TG covers different angle |
-| 4 | High — strong and frequent influence | Full prominence | Primary TG territory unless secondary TG also at 5 |
-| 3 | Moderate — meaningful but not defining | Normal weight | Secondary TG can cover this domain at its own angle |
-| 2 | Secondary — indirect influence | Condensed | Secondary TG does not duplicate — surfaces own primary |
-| 1 | Minimal — rarely relevant | Omit unless requested | Excluded from compound rendering |
+**Selection threshold:**
+
+| sig | Single card rendering | Role in compound stack |
+|---|---|---|
+| 5 | **Included** — primary territory, rendered first | Locks this domain as primary TG territory — secondary TG covers distinct angle only |
+| 4 | **Included** — full depth | Primary TG territory unless secondary TG also at 5 |
+| 3 | **Excluded** — not a standalone section. May be referenced briefly within an adjacent included section where it adds necessary context. | Secondary TG can cover this domain at its own angle if secondary sig ≥ 4 |
+| ≤ 2 | **Excluded** | Excluded from compound rendering |
 
 **Classical domain significance reference (locked):**
 
@@ -297,6 +312,23 @@ The `sig` tag on each domain field is a **content selection filter** and a **cro
 | 正印 | 4 | 3 | 2 | 4 |
 
 **Gender note (relationships only):** 官杀 governs the partner relationship for female users; 财 for male users. `sig_female` / `sig_male` override only set where this applies. All other domains are gender-neutral.
+
+**Qualifying domain sections — full authoring set (sig ≥ 4, 15 combinations):**
+
+| TG | Included domains | Total sections |
+|---|---|---|
+| 比肩 | Relationships | 1 |
+| 劫财 | Wealth | 1 |
+| 食神 | Career, Health | 2 |
+| 伤官 | Career | 1 |
+| 偏财 | Wealth | 1 |
+| 正财 | Wealth | 1 |
+| 七杀 | Career, Relationships, Health | 3 |
+| 正官 | Career, Relationships | 2 |
+| 偏印 | Career | 1 |
+| 正印 | Career, Health | 2 |
+
+These 15 combinations are the complete authoring target for `domainSignatures` across all 10 TGs. No other domain sections are authored or rendered.
 
 **JavaScript schema:**
 ```javascript
@@ -321,25 +353,33 @@ The `sig` tag on each domain field is a **content selection filter** and a **cro
   domainSignatures: {
     career: {
       sig: 5,
-      mechanism: `七杀 pattern → institutional recognition through demonstrated quality under pressure, not through compliance`,
-      text: `[Pro — what this force keeps creating in the career domain]`,
+      // Only authored when sig ≥ 4. sig < 4 → field omitted entirely (no condensed version).
+      mechanism: `Recognition Through Demonstrated Proof`,
+      // mechanism = section title. Evocative phrase naming this TG's territory in this domain.
+      // Not a force-mapping sentence — a named territory the user immediately recognises.
+      text: `[Pro — one paragraph covering two angles: (1) how this force shapes development in this domain — what pattern it keeps producing; (2) what this tells about the person — what it reveals about how they operate in this domain. Woven, not sectioned. ~80–100 words.]`,
+      // text authoring rule: both angles must be present. Angle 1 is force-mechanical (what the
+      // force produces). Angle 2 is self-knowledge (what it reveals about this person's nature
+      // in this domain). Together they answer: "what does this force do here, and what does
+      // that tell me about myself?"
     },
     relationships: {
       sig: 4,
       sig_female: 5,  // 六亲: 官杀 is partner star for female users
       sig_male: null,
-      mechanism: `七杀 pattern → intensity, challenge, and testing as the primary relational register`,
-      text: `[Pro — what this force keeps producing in relationships]`,
+      mechanism: `The Relationship That Forges`,
+      text: `[Pro — one paragraph, two angles: (1) what relational pattern this force keeps producing; (2) what this reveals about how this person engages in relationships. ~80–100 words.]`,
     },
     wealth: {
       sig: 3,
-      mechanism: `七杀 pattern → wealth through pressure-driven achievement, not through accumulation`,
-      text: `[Pro — what this force produces in the wealth domain]`,
+      // sig 3 — EXCLUDED. No field authored or rendered. Not a standalone section.
+      // May be referenced briefly within career section if the force-wealth connection is
+      // structurally relevant to the career mechanism.
     },
     health: {
       sig: 4,
-      mechanism: `七杀 pattern → health as a function of pressure load — the body absorbs what the pressure produces`,
-      text: `[Pro — what this force signals in the health domain]`,
+      mechanism: `What the Body Absorbs`,
+      text: `[Pro — one paragraph, two angles: (1) what health pattern this force produces; (2) what this reveals about the person's physical relationship to the force they carry. ~80–100 words.]`,
     },
   },
   sixRelations: `[Pro — classical 六亲 — what this TG represents in the user’s relational world]`,
@@ -794,37 +834,53 @@ The DM × TG synthesis (the specific way this force bends *this* DM's nature) ha
 ```javascript
 domains: {
   career: {
-    sig: 5,   // content selection filter — how relevant is the career question for this TG?
-    text: `[Pro — what career pattern does this TG keep creating?]`,
+    sig: 5,
+    // Only authored and rendered when sig ≥ 4. sig < 4 → field omitted entirely.
+    mechanism: `Recognition Through Demonstrated Proof`,
+    // mechanism = section title. Evocative phrase naming this TG's territory in this domain.
+    text: `[Pro — one paragraph, two angles woven: (1) what pattern this force keeps producing in this domain; (2) what this reveals about this person's nature in this domain. ~80–100 words.]`,
   },
   relationships: {
     sig: 3,
     sig_female: 5,  // 六亲 override — only set where classical theory shifts partner significance
     sig_male: null, // null = same as sig; omit where gender doesn't change significance
-    text: `[Pro — what relationship dynamic does this TG produce?]`,
+    // sig 3 base — excluded from standalone rendering.
+    // sig_female 5 — authored and rendered for female users only.
+    mechanism: `[Title — authored for sig_female path only]`,
+    text: `[Pro — authored for sig_female path only. Two angles: relational pattern + what it reveals. ~80–100 words.]`,
   },
   wealth: {
     sig: 5,
-    text: `[Pro — what wealth pattern does this TG create?]`,
+    mechanism: `[Section title — evocative phrase naming this TG's wealth territory]`,
+    text: `[Pro — two angles: wealth pattern this force produces + what it reveals about how this person relates to resources. ~80–100 words.]`,
   },
   health: {
     sig: 2,
-    text: `[Pro — what health signal does this TG produce?]`,
+    // sig 2 — excluded. No field authored or rendered.
   },
 },
 ```
 
-**Domain rendering thresholds:**
+**Domain selection rule — sig controls inclusion, not depth:**
 
 | sig | Rendering |
 |---|---|
-| 5 | Full prominence, surfaced first |
-| 4 | Full prominence |
-| 3 | Normal weight |
-| 2 | Condensed |
-| 1 | Omit unless user requests |
+| 5 | **Included** — primary territory, rendered first |
+| 4 | **Included** — full depth |
+| 3 | **Excluded** as standalone section. May be referenced briefly within an included section where structurally relevant. |
+| ≤ 2 | **Excluded** |
 
-**Authoring rule — write to the domain's sig, not to a generic template.** A sig-5 domain field (e.g. wealth for 正财) carries the weight of the primary reading question for that TG. A sig-2 field is a structural footnote — accurate, brief. Don't write a sig-2 field at sig-5 depth. The sig tag is both a rendering instruction and an authoring scope signal.
+Every included domain section is authored at the same depth regardless of whether its sig is 4 or 5. Sig 4 and sig 5 both produce full-depth sections — the difference is rendering order (sig 5 surfaces first), not content length.
+
+**Authoring rule — write to the domain's governing territory, not to a generic template.** A sig-5 domain (e.g. wealth for 正财, career for 七杀) is the TG's primary characterological territory in that domain. Write it as the defining statement about what this force produces here. A sig-4 domain is equally full in depth — do not write it as secondary. The sig value determines rendering order and compound stack allocation (§10), not authoring depth.
+
+**Domain field format — two angles, one paragraph:**
+
+Each domain `text` field covers two structural angles woven into one paragraph (~80–100 words):
+1. **Impact angle** — how this TG shapes development in this domain. Force-mechanical: what pattern it keeps producing, what the force creates structurally.
+2. **Self-knowledge angle** — what this TG reveals about the person in this domain. What it tells them about how they operate here, what they value, what the pattern means about their nature.
+
+Neither angle dominates. The paragraph reads as one coherent statement, not two subsections. The `mechanism` title names the territory; the `text` opens it.
 
 ---
 
@@ -927,7 +983,7 @@ A block is a candidate for a given config only when:
 - `bands` includes the user's band (or `bands` contains all three = universal)
 - `patterns` includes the user's tgPattern (or `patterns` contains all five = universal)
 
-From the candidate pool, blocks are ranked by resolved priority (same fallback chain as text: `compound` → `band` → `pattern` → `default`). The **top 7–9** are rendered. 7 is the minimum; 9 is the cap.
+From the candidate pool, blocks are selected using the **Slot + Specificity** system (v2). See §11 for the full specification. Summary: blocks are assigned to one of four narrative slots (Lens, Shadow, Domain, Activation), and within each slot the highest-scoring block is selected using `priority + specificity_bonus`. The rendered reading contains **5 blocks** covering all four narrative roles. The prior 7–9 flat sort is superseded by §11.
 
 ### 8 Authoring Rules
 
@@ -995,7 +1051,27 @@ After variant resolution, the set of rendered blocks for any given config must c
 
 **Rule 8 — Validate before shipping**
 
-Before marking a stem complete, run `validateStem()` across all 15 configurations for that stem (3 bands × 5 patterns). Each configuration must yield 7–9 rendered blocks. No `[TODO]` placeholders in production text. Any block carrying `[TODO — ...]` is scheduled debt, not a shipping state.
+Before marking a stem complete, run `validateStem()` across all 15 configurations for that stem (3 bands × 5 patterns). Each configuration must yield exactly 5 rendered blocks covering all four narrative slots. No `[TODO]` placeholders in production text. Any block carrying `[TODO — ...]` is scheduled debt, not a shipping state.
+
+---
+
+**Rule 9 — Pattern coverage guarantee**
+
+Every tgPattern listed in a block's `patterns[]` array must have an authored non-default variant in at least the three universal anchor blocks (B01 "How you experience the world", B03 "Where you consistently get stuck", B09 "What holds you back without looking like it"). A pattern that appears in `patterns[]` but has no authored variant in any of the three anchor blocks produces an all-default reading for that archetype — no selection algorithm can repair this.
+
+Minimum variant coverage per pattern across anchor blocks (B01, B03, B09):
+
+| Pattern | Minimum authored variants required |
+|---|---|
+| `concentrated` | All 3 anchor blocks |
+| `open` | All 3 anchor blocks |
+| `tested` | All 3 anchor blocks |
+| `flowing` | At least 1 anchor block + 1 domain block |
+| `forging` | At least 1 anchor block + 1 activation block |
+| `pure` | All 3 anchor blocks *(added: 2026-04-16)* |
+| `rooted` | All 3 anchor blocks *(added: 2026-04-16)* |
+
+For `balanced_pure` and `balanced_rooted` specifically: the balanced band has no band-level variant keys in most blocks, so pattern-level variants are the only mechanism through which these archetypes receive non-default text. If `pure` and `rooted` variants are absent, these two archetypes receive all-default readings regardless of how many blocks are shown. This makes pattern coverage the highest-priority authoring obligation after the base `default` and `concentrated` texts are written.
 
 ### JavaScript implementation
 
@@ -1140,21 +1216,21 @@ Full example of the complete schema, including the justification for a compound 
 
 庚 has 11 authored blocks covering the full characterological vocabulary for Yang Metal. The table below documents each block's eligibility scope (`bands[]`, `patterns[]`), priority configuration, and variant authoring status. This is the authoring reference for completing outstanding TODO variants and serves as a structural template for subsequent stems.
 
-| # | Label | `bands[]` | `patterns[]` | `priority{}` | Written variants | Outstanding TODOs |
+| # | Label | `bands[]` | `patterns[]` | `priority{}` | Written variants | Slot |
 |---|---|---|---|---|---|---|
-| 1 | How you experience the world | all | all | default 5 | `default`, `concentrated` | `open`, `tested` |
-| 2 | What you're genuinely good at | all | all | default 4 | `default` | `flowing` |
-| 3 | Where you consistently get stuck | all | all | default 5, open→3 | `default`, `concentrated` | `open`, `tested` |
-| 4 | What changes when conditions are right | all | all | default 3, concentrated→4 | `default` | `forging` |
-| 5 | What you rarely admit | concentrated, balanced | all | default 4, concentrated→5 | `default`, `concentrated` | *(none — open excluded by design)* |
-| 6 | How you make decisions | all | all | default 4, open→3 | `default`, `concentrated` | `open`, `tested` |
-| 7 | How you show up in relationships | all | all | default 4 | `default` | `flowing` |
-| 8 | What you do with pressure | concentrated, balanced | pure, rooted, tested | default 3, concentrated→5, concentrated_pure→5 | `default`, `concentrated` | `tested` |
-| 9 | What activates the best version of this | all | all | default 4, tested→4, forging→4 | `default`, `concentrated` | `tested`, `forging` |
-| 10 | What holds you back without looking like it | all | all | default 4, concentrated→5 | `default`, `concentrated` | *(none)* |
-| 11 | The image and the interior | concentrated, balanced | all | default 3, concentrated→5, concentrated_pure→5 | `default`, `concentrated` | *(none — open excluded by design)* |
+| 1 | How you experience the world | all | all | default 5, concentrated 5 | `default` `concentrated` `open` `tested` `pure` `rooted` | Lens |
+| 2 | What you're genuinely good at | all | all | default 4 | `default` `flowing` | Lens |
+| 3 | Where you consistently get stuck | all | all | default 5, concentrated 5, open 3 | `default` `concentrated` `open` `tested` `pure` `rooted` | Shadow |
+| 4 | What changes when conditions are right | all | all | default 3, concentrated 4 | `default` `forging` | Activation |
+| 5 | What you rarely admit | conc, balanced | all | default 4, concentrated 5 | `default` `concentrated` | Shadow |
+| 6 | How you make decisions | all | all | default 4, concentrated 4, open 3 | `default` `concentrated` `open` `tested` | Domain |
+| 7 | How you show up in relationships | all | all | default 4, concentrated 4 | `default` `flowing` | Domain |
+| 8 | What you do with pressure | conc, balanced | pure, rooted, tested | default 3, concentrated 5 | `default` `concentrated` `tested` | Domain |
+| 9 | What holds you back without looking like it | all | all | default 4, concentrated 5 | `default` `concentrated` `pure` `rooted` | Shadow |
+| 10 | What activates the best version of this | all | all | default 4, concentrated 4, tested 4, forging 4 | `default` `concentrated` `tested` `forging` | Activation |
+| 11 | The image and the interior | conc, balanced | all | default 3, concentrated 5, concentrated_pure 5 | `default` `concentrated` | Shadow |
 
-**Total outstanding: 11 TODO variants across 4 pattern types.**
+**庚 variant authoring: complete as of 2026-04-16.** All 15 configurations (3 bands × 5 patterns) receive at least one non-default variant. `pure` and `rooted` variants added to B01, B03, B09 — closing the `balanced_pure` and `balanced_rooted` all-default gap (Rule 9).
 
 #### Design rationale — open-excluded blocks
 
@@ -1162,23 +1238,31 @@ Blocks 5 (`What you rarely admit`) and 11 (`The image and the interior`) exclude
 
 Block 8 (`What you do with pressure`) additionally excludes `flowing` and `forging` from `patterns[]`. The pressure mechanism described in this block is specific to self-amplifying, resource-supported, and authority-encountering contexts. The presence of a dominant output or wealth energy changes what "pressure" does structurally enough that the topic shifts — that shift is covered by other blocks (2 and 4) rather than a variant of block 8.
 
-#### Outstanding TODOs — grouped by variant type
+#### Variant authoring rationale — completed
 
-**`open` variants — 3 blocks (1, 3, 6)**
+**`open` variants — B01, B03, B06**
 
-The three core experience/cognition blocks. The evaluative mechanism genuinely inverts when DM energy is weak: assessments don't dominate entry points, verdicts don't close cleanly, and what it means to "experience the world" as a 庚 shifts structurally. Each open variant describes a qualitatively different mechanism — not a quieter version of the default. Apply Rule 1 (Trigger Test): a person reading the default should feel it was written for someone else.
+The evaluative mechanism genuinely inverts when DM energy is open/weak: assessments don't dominate entry points, verdicts don't close cleanly. Each `open` variant describes a qualitatively different mechanism — not a quieter version of default. B06 (`open`) captures how decision-making shifts when the finality mechanism is absent.
 
-**`tested` variants — 5 blocks (1, 3, 6, 8, 9)**
+**`tested` variants — B01, B03, B06, B08, B10**
 
-The `tested` pattern means authority/official energy (官杀) is dominant. For 庚 — already a force of judgment and internal standard — the presence of external institutional pressure creates a specific DM × force dynamic: the internal standard meets external standard. Blocks covering world-experience, getting stuck, decision-making, what pressure does, and what activates the best version all shift meaningfully when official energy is dominant. The `tested` variant names the specific interaction, not just the presence of authority.
+The `tested` pattern (authority/official energy dominant) creates a DM × force dynamic unique to 庚: the internal standard encounters external standard. Five blocks shift meaningfully — world-experience, getting stuck, decision-making, pressure response, and activation. The `tested` variant names the specific DM × authority interaction in each case.
 
-**`flowing` variants — 2 blocks (2, 7)**
+**`flowing` variants — B02, B07**
 
-The `flowing` pattern means output/expression energy (食伤) is dominant. The precision is channeled outward through strong expressive energy. What 庚 is genuinely good at (block 2) becomes expression-shaped; how it shows up in relationships (block 7) changes when the outward-driving quality is the dominant force. Both variants describe how the 庚 nature shifts when it operates through a strong producing channel rather than on its own terms.
+The `flowing` pattern (output/expression energy dominant) channels 庚 precision outward. What 庚 is genuinely good at (B02) becomes expression-shaped; how it shows up in relationships (B07) changes when the outward-driving quality is the dominant force.
 
-**`forging` variants — 2 blocks (4, 9)**
+**`forging` variants — B04, B10**
 
-The `forging` pattern means wealth/directing energy (财) is dominant. Activation patterns and what "conditions right" means both shift when a strong directing force is already in place — the precision already has a material target, and the mechanism is about the quality of that target rather than finding one. Both variants start from the assumption that material direction is active, not absent.
+The `forging` pattern (wealth/directing energy dominant) means a material target is already in place. Both B04 (conditions right) and B10 (activation) shift: the question is no longer finding what the precision is for — it's whether the target already provided is actually worthy of it.
+
+**`pure` variants — B01, B03, B09** *(added 2026-04-16)*
+
+The `pure` pattern (no dominant Ten God, DM energy self-referencing) has a specific cognitive signature: precision without a predetermined deployment channel. Variants describe the unconstrained form — accurate assessments, no built-in priority order, structural drift as the hidden liability.
+
+**`rooted` variants — B01, B03, B09** *(added 2026-04-16)*
+
+The `rooted` pattern (resource/seal energy dominant, Earth supporting Metal) has a grounded, weight-bearing quality. Variants describe the backing dynamic — slower commitment, harder verdicts, structural reliability as both the strength and the thing that delays movement toward the unproven.
 
 ---
 
@@ -1388,6 +1472,184 @@ No field in any layer duplicates a field in another layer. Every piece of conten
 | **Audience** | Engineers, content team, generation system |
 | **Replaces** | v2.x three-pass pipeline (portrait prewrite → persona card → reading schema) |
 | **Compatible with** | Doc 2 v1.1 · Doc 3 v1.2 · Doc 6 v1.1 |
+
+## §11 — Block Selection Architecture v2 (Slot + Specificity)
+
+### Why v1 (flat top-N sort) was superseded
+
+The v1 selection model ranked all candidate blocks by resolved priority and returned the top 7–9. At a 5-block target (the correct reading length — see below), this produced only **4 unique selection sets** across 15 archetypes: the tgPattern axis was invisible in which blocks were selected. A `balanced_flowing` and `balanced_tested` person received identical block sets; differentiation existed only in the text served inside those blocks. More critically, certain architecturally important blocks (B04, B06, B07, B11) fell out of the selection entirely for some archetypes despite carrying authored variants specifically written for them.
+
+v2 solves both problems through slot assignment and specificity scoring.
+
+---
+
+### Target reading length: 5 blocks
+
+5 blocks at ~150–220 words each yields ~800–1,000 words of dense profile text — the upper limit of what a user can meaningfully absorb in a single reading session. Beyond 5 blocks, additional content produces diminishing returns. Each block should land before the next one starts. The 5-block constraint is a readability guarantee, not an arbitrary cap.
+
+---
+
+### The four narrative slots
+
+Every reading covers four narrative roles, each always contributing exactly one block to the final reading. The 5-block count is achieved by assigning two blocks to the Shadow slot (the most information-dense role for introspection products):
+
+| Slot | Role | Blocks assigned | Count in reading |
+|---|---|---|---|
+| **Lens** | How the energy perceives and expresses its core competence | B01, B02 | 1 |
+| **Shadow** | Where the energy creates friction, limitation, or hidden cost | B03, B05, B09, B11 | 2 |
+| **Domain** | How the energy operates in a specific life domain | B06, B07, B08 | 1 |
+| **Activation** | What conditions unlock the energy's best version | B04, B10 | 1 |
+
+The reading is always rendered in slot order: Lens → Shadow (primary) → Shadow (secondary) → Domain → Activation. This is the narrative arc: entry → what trips you (twice) → how it shows up in daily life → what turns it on.
+
+---
+
+### Selection formula: priority + specificity_bonus
+
+Within each slot, each eligible candidate block receives a `selection_score`:
+
+```
+selection_score = priority + specificity_bonus
+```
+
+**Priority** is the resolved block priority for this archetype (same fallback chain: `band_pattern` → `band` → `pattern` → `default`).
+
+**Specificity_bonus** rewards blocks where non-default variant text was specifically authored for this archetype:
+
+| Variant served | Specificity bonus |
+|---|---|
+| Compound key (`band_pattern`) — exact match | +2 |
+| Band key OR pattern key — partial match | +1 |
+| Default only — no variant authored | +0 |
+
+The block with the highest `selection_score` in each slot wins. Ties broken by lower block index (earlier in the library = higher narrative stability).
+
+This means a block at priority 3 with an authored pattern variant (score = 4) beats a priority 4 block with no variant (score = 4, same — index tiebreak), and beats it outright if it has a compound variant (score = 5). Blocks where the content was written specifically for you rise to the top of their slot.
+
+---
+
+### Worked example: 庚_balanced_forging vs 庚_balanced_tested
+
+These two archetypes share the same band. Under v1 (flat sort), they received identical block sets. Under v2 they diverge in the Domain and Activation slots:
+
+**庚_balanced_forging**
+
+| Slot | Candidates | Scores | Winner |
+|---|---|---|---|
+| Lens | B01 (pri 5, no forging variant → +0 = **5**), B02 (pri 4, no forging variant → +0 = **4**) | 5 vs 4 | **B01** |
+| Shadow primary | B03 (pri 5, +0 = **5**), B05 (pri 4, +0 = **4**), B09 (pri 4, +0 = **4**), B11 (pri 3, +0 = **3**) | 5 → 4 → 4 → 3 | **B03** |
+| Shadow secondary | B05 (pri 4, +0 = **4**), B09 (pri 4, +0 = **4**), B11 (pri 3, +0 = **3**) | Tie 4/4 → index | **B05** |
+| Domain | B06 (pri 4, no forging variant → +0 = **4**), B07 (pri 4, no forging variant → +0 = **4**), B08 not eligible (patterns excludes forging) | Tie 4/4 → index | **B06** |
+| Activation | B04 (pri 3, forging variant → +1 = **4**), B10 (pri 4, forging variant → +1 = **5**) | 4 vs 5 | **B10** |
+
+**Final set: B01, B03, B05, B06, B10** — B10 serves the `forging` variant ("material worthy of being shaped"), B04 is near-miss but B10 outscores it.
+
+---
+
+**庚_balanced_tested**
+
+| Slot | Candidates | Scores | Winner |
+|---|---|---|---|
+| Lens | B01 (pri 5, tested variant → +1 = **6**), B02 (pri 4, +0 = **4**) | 6 vs 4 | **B01** (serves `tested` variant) |
+| Shadow primary | B03 (pri 5, tested variant → +1 = **6**), B05 (pri 4, +0 = **4**), B09 (pri 4, +0 = **4**), B11 (pri 3, +0 = **3**) | 6 → 4 → 4 → 3 | **B03** (serves `tested` variant) |
+| Shadow secondary | B05 (pri 4, +0 = **4**), B09 (pri 4, +0 = **4**), B11 (pri 3, +0 = **3**) | Tie 4/4 → index | **B05** |
+| Domain | B06 (pri 4, tested variant → +1 = **5**), B07 (pri 4, +0 = **4**), B08 (pri 3, tested variant → +1 = **4**) | 5 vs 4 vs 4 | **B06** (serves `tested` variant) |
+| Activation | B04 (pri 3, +0 = **3**), B10 (pri 4, tested variant → +1 = **5**) | 3 vs 5 | **B10** (serves `tested` variant) |
+
+**Final set: B01, B03, B05, B06, B10** — same 5 blocks as `balanced_forging`, but B01/B03/B06/B10 all serve `tested` variants. The text is deeply differentiated; the block set happens to converge at this priority level.
+
+> **Design implication:** for balanced archetypes, pattern differentiation operates primarily through variant text rather than block selection — because balanced has no band-level priority boosts to separate candidates within slots. This is architecturally correct: the balanced band is the modal case, and its reading tracks the pattern axis through content. Concentrated archetypes, which have stronger band-level priorities, show more block-level differentiation in addition to text differentiation.
+
+---
+
+### Full selection matrix: 庚, all 15 archetypes, v2
+
+| Archetype | Lens | Shadow 1 | Shadow 2 | Domain | Activation |
+|---|---|---|---|---|---|
+| concentrated_pure | B01 | B03 | B05 | B08 | B10 |
+| concentrated_rooted | B01 | B03 | B05 | B08 | B10 |
+| concentrated_flowing | B01 | B03 | B05 | B07 | B10 |
+| concentrated_forging | B01 | B03 | B05 | B06 | B10 |
+| concentrated_tested | B01 | B03 | B05 | B08 | B10 |
+| balanced_pure | B01 | B03 | B09 | B06 | B10 |
+| balanced_rooted | B01 | B03 | B09 | B06 | B10 |
+| balanced_flowing | B01 | B03 | B05 | B07 | B10 |
+| balanced_forging | B01 | B03 | B05 | B06 | B10 |
+| balanced_tested | B01 | B03 | B05 | B06 | B10 |
+| open_pure | B01 | B03 | B09 | B07 | B10 |
+| open_rooted | B01 | B03 | B09 | B07 | B10 |
+| open_flowing | B01 | B03 | B09 | B07 | B10 |
+| open_forging | B01 | B03 | B09 | B06 | B10 |
+| open_tested | B01 | B03 | B09 | B06 | B10 |
+
+*Note: the matrix above is computed from current priority values. Adjustments to priority keys (e.g., raising B08 `tested` priority to surface it above B06 for balanced_tested) will shift Domain slot outcomes and should be re-validated via `validateStem()` after any priority change.*
+
+---
+
+### JavaScript implementation (v2)
+
+```javascript
+// Slot assignment — each block belongs to exactly one slot
+const BLOCK_SLOTS = {
+  'How you experience the world':           'lens',
+  "What you're genuinely good at":          'lens',
+  'Where you consistently get stuck':       'shadow',
+  'What changes when conditions are right': 'activation',
+  'What you rarely admit':                  'shadow',
+  'How you make decisions':                 'domain',
+  'How you show up in relationships':       'domain',
+  'What you do with pressure':              'domain',
+  'What holds you back without looking like it': 'shadow',
+  'What activates the best version of this': 'activation',
+  'The image and the interior':             'shadow',
+};
+
+function specificityBonus(block, band, pattern) {
+  const compound = `${band}_${pattern}`;
+  if (block.text[compound])  return 2;
+  if (block.text[band] || block.text[pattern]) return 1;
+  return 0;
+}
+
+function selectionScore(block, band, pattern) {
+  return resolveBlockPriority(block, band, pattern)
+       + specificityBonus(block, band, pattern);
+}
+
+function getBlocksForConfigV2(blocks, band, pattern) {
+  const candidates = blocks.filter(
+    b => b.bands.includes(band) && b.patterns.includes(pattern)
+  );
+
+  // Score every candidate in its slot
+  const slotCandidates = { lens: [], shadow: [], domain: [], activation: [] };
+  candidates.forEach((b, idx) => {
+    const slot = BLOCK_SLOTS[b.label];
+    if (!slot) return;
+    slotCandidates[slot].push({
+      block: b,
+      score: selectionScore(b, band, pattern),
+      idx,
+    });
+  });
+
+  // Sort each slot descending by score, tiebreak by index
+  Object.values(slotCandidates).forEach(arr =>
+    arr.sort((a, b) => b.score - a.score || a.idx - b.idx)
+  );
+
+  // Select: 1 lens, 2 shadow, 1 domain, 1 activation
+  return [
+    slotCandidates.lens[0]?.block,
+    slotCandidates.shadow[0]?.block,
+    slotCandidates.shadow[1]?.block,
+    slotCandidates.domain[0]?.block,
+    slotCandidates.activation[0]?.block,
+  ].filter(Boolean);
+}
+```
+
+---
 
 ## Version History
 

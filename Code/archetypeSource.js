@@ -39,34 +39,69 @@
 export const STEM_CARD_DATA = {
 
   "甲": {
+
+    // ═══════════════════════════════════════════════════════════════════
+    // IDENTITY CARD  (DayMasterHero — Deliverable 1, ALL FREE)
+    // ═══════════════════════════════════════════════════════════════════
+
+    identity: {
+      archetypeName:  `The Oak`,
+      archetypeLabel: `Yang Wood — The Oak`,
+      identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
+      manifesto:      `Motion before readiness · The oak does not negotiate its direction.`,
+      // manifesto renders as two lines, split on the ` · ` separator:
+      //   Line 1 (bold thesis)  → "Motion before readiness"
+      //   Line 2 (poetic edge)  → "The oak does not negotiate its direction."
+      //
+      // Badge tile data (resolved from chart at runtime, listed here for reference):
+      //   Element badge  → dm.element  = "Wood"           → taps open element popup
+      //   Stem badge     → dm.stem     = "甲"  + "Jiǎ"   → taps open Day Master popup
+      //   Polarity badge → dm.polarity = "yang" → "Yang"   → taps open Yin/Yang popup
+    },
+
     subtitle: `Forward motion as structure, not ambition · The Growth Impulse (Yang)`,
     chips: ["Visionary", "Initiating", "Growth-driven", "Integrity-bound", "Consolidation-resistant"],
     psychCore: {
-      phrase: `The Perpetual Initiator`,
-      desc: `He is the person who starts things that outlast him — driven by a forward momentum so structural it operates before intention forms, with a "tall tree" quality that would rather break than bend and a deep need to find a sky large enough to grow into.`,
+      phrase: `The Vanguard General`,  // [INTERNAL — not rendered in UI]
+      desc: `You're always the first to see where something could go — and you start moving toward it before anyone else has decided whether to begin. You build things that outlast you, but you're usually already thinking about the next thing before the current one is done.`,
     },
     blocks: [
       {
         label: `How they experience the world`,
-        text: `The Oak doesn't decide to grow toward things. It just grows, the way a tree grows toward light — not because it chose the direction but because that's what it does. For this person, the next stage of anything is always visible before the current one has settled. They're mentally already somewhere else while the room is still discussing whether to begin. This isn't impatience exactly. It's more like living slightly ahead of the present moment at all times.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The Oak doesn't decide to grow toward things. It just grows, the way a tree grows toward light — not because it chose the direction but because that's what it does. For this person, the next stage of anything is always visible before the current one has settled. They're mentally already somewhere else while the room is still discussing whether to begin. This isn't impatience exactly. It's more like living slightly ahead of the present moment at all times.` },
       },
       {
         label: `What they're genuinely good at`,
-        text: `Seeing what something could become before anyone else does. Starting things — not because someone asked them to, but because the gap between what exists and what could exist is physically uncomfortable for them to leave alone. Once they start something, they generate a kind of forward pull that brings other people along without anyone deliberately organizing it. People around them tend to end up thinking bigger than they did before, often without knowing why.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `Seeing what something could become before anyone else does. Starting things — not because someone asked them to, but because the gap between what exists and what could exist is physically uncomfortable for them to leave alone. Once they start something, they generate a kind of forward pull that brings other people along without anyone deliberately organizing it. People around them tend to end up thinking bigger than they did before, often without knowing why.` },
       },
       {
         label: `Where they consistently get stuck`,
-        text: `The reaching outruns the roots. They commit to something genuinely and deeply — and then outgrow it before it's fully established. There's a recurring pattern of building something real, then moving before it's been properly consolidated, leaving things in a state that needs someone else to finish. The next stage is always visible before the current one has actually been tested. This isn't fickleness — the investment was real. The problem is structural: the nature moves faster than the foundations can follow.
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The reaching outruns the roots. They commit to something genuinely and deeply — and then outgrow it before it's fully established. There's a recurring pattern of building something real, then moving before it's been properly consolidated, leaving things in a state that needs someone else to finish. The next stage is always visible before the current one has actually been tested. This isn't fickleness — the investment was real. The problem is structural: the nature moves faster than the foundations can follow.
 
-There's also a specific interpersonal cost: people who care about them often feel like they're perpetually catching up. The Oak doesn't mean to move that fast. It just can't stop.`,
+There's also a specific interpersonal cost: people who care about them often feel like they're perpetually catching up. The Oak doesn't mean to move that fast. It just can't stop.` },
       },
       {
         label: `What changes when conditions are right`,
-        text: `The classical principle: raw wood becomes useful timber only when something shapes and defines it — converts the reaching into something specific. The Oak doesn't need someone to give it direction. What it needs is a force that says "this, not everything." When that arrives through the right challenge or pressure, the reach consolidates into something that holds. The growth doesn't stop. It just finally has a form.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The classical principle: raw wood becomes useful timber only when something shapes and defines it — converts the reaching into something specific. The Oak doesn't need someone to give it direction. What it needs is a force that says "this, not everything." When that arrives through the right challenge or pressure, the reach consolidates into something that holds. The growth doesn't stop. It just finally has a form.` },
       },
       {
         label: `What they rarely admit`,
-        text: `That they often don't know what they're building toward — only that they're building. The momentum is real. The destination is often genuinely unclear even to them, which is part of why the reaching can go in so many directions before finding the thing that's actually worth the full force.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `That they often don't know what they're building toward — only that they're building. The momentum is real. The destination is often genuinely unclear even to them, which is part of why the reaching can go in so many directions before finding the thing that's actually worth the full force.` },
       },
     ],
     psych: {
@@ -77,7 +112,7 @@ There's also a specific interpersonal cost: people who care about them often fee
     },
     archetypes: ["ENTP / ENTJ (MBTI)", "The Pioneer (Brand)", "The Hero (Jungian)", "The Magician (Campbell)", "Type 7 / Type 3 (Enneagram)", "Aries / Sagittarius (Western)", "Manifesting Generator (HD)"],
     energy: {
-      keywords: [],  // [FREE · energy chips]
+      chips: [],  // [FREE · energy chips]
       what: `甲 is the first stem — the energy of spring's first upward break through frozen ground. Classically described as 木之阳 (the Yang of Wood), it represents a forceful, non-negotiable impulse to rise and expand. Think of the moment when a forest floor cracks open with new growth after winter: nothing deliberate, nothing negotiated — just life asserting itself upward. It is the atmosphere of "things beginning whether you're ready or not."`,  // [FREE · DM intro + absent energy card]
       represents: `New projects launching all around you. The feeling of ambition and possibility filling the environment. People becoming more assertive, initiating more, competing more openly. The conditions that make starting things feel natural and necessary. Also: the landscape gets crowded — more people reaching for the same things at the same time.`,  // [FREE · DM intro + absent energy card]
       liunian: `When 甲 energy enters your luck cycle or annual pillar, it acts like the first warm week of spring — activating everything that was dormant. If you're positioned to initiate, this is the energy that provides momentum. If you're not ready to move, the pressure to start still arrives. Career opportunities emerge suddenly. Competitors become more visible. For those whose chart benefits from Wood energy, this is a period of genuine forward momentum; for those whose chart is already Wood-heavy, the excess can produce restlessness, overcommitment, or difficulty consolidating what's already been started.`,  // [PRO]
@@ -91,32 +126,67 @@ There's also a specific interpersonal cost: people who care about them often fee
   },
 
   "乙": {
+
+    // ═══════════════════════════════════════════════════════════════════
+    // IDENTITY CARD  (DayMasterHero — Deliverable 1, ALL FREE)
+    // ═══════════════════════════════════════════════════════════════════
+
+    identity: {
+      archetypeName:  `The Vine`,
+      archetypeLabel: `Yin Wood — The Vine`,
+      identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
+      manifesto:      `Route bends. Destination holds. · The vine finds every wall a ladder.`,
+      // manifesto renders as two lines, split on the ` · ` separator:
+      //   Line 1 (bold thesis)  → "Route bends. Destination holds."
+      //   Line 2 (poetic edge)  → "The vine finds every wall a ladder."
+      //
+      // Badge tile data (resolved from chart at runtime, listed here for reference):
+      //   Element badge  → dm.element  = "Wood"           → taps open element popup
+      //   Stem badge     → dm.stem     = "乙"  + "Yǐ"    → taps open Day Master popup
+      //   Polarity badge → dm.polarity = "yin"  → "Yin"   → taps open Yin/Yang popup
+    },
+
     subtitle: `Navigation as intelligence, not accommodation · The Growth Impulse (Yin)`,
     chips: ["Adaptive", "Strategically perceptive", "Resilient", "Destination-fixed", "Coiling intelligence"],
     psychCore: {
-      phrase: `The Intelligent Navigator`,
-      desc: `She survives and arrives by reading surfaces others don't notice, coiling around obstacles with a precision that looks like flexibility but is actually destination-fixed — the one who survives the storm not by standing against it but by knowing exactly which way to bend.`,
+      phrase: `The Shadow Diplomat`,  // [INTERNAL — not rendered in UI]
+      desc: `You always find a way through — not by pushing harder, but by reading the room and finding the opening no one else noticed. Your destination never changes; only the path you take to get there.`,
     },
     blocks: [
       {
         label: `How they experience the world`,
-        text: `The Vine knows where it's going before it knows how to get there. It reads surfaces, finds the gaps, goes around what can't be moved, and arrives somewhere the Oak never could have reached through force. From outside this looks indirect. From inside it's extremely precise: the destination is fixed; only the path is flexible. They have a gift for reading what a situation actually is — not what it presents, not what people say it is, but the actual underlying reality — and navigating according to that.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The Vine knows where it's going before it knows how to get there. It reads surfaces, finds the gaps, goes around what can't be moved, and arrives somewhere the Oak never could have reached through force. From outside this looks indirect. From inside it's extremely precise: the destination is fixed; only the path is flexible. They have a gift for reading what a situation actually is — not what it presents, not what people say it is, but the actual underlying reality — and navigating according to that.` },
       },
       {
         label: `What they're genuinely good at`,
-        text: `Finding the route that wasn't obvious. Arriving where they intended by means that nobody predicted. Reading people and rooms with an accuracy that feels almost unfair — they pick up on what's really happening before anyone has said the thing. Building genuine trust through attentiveness, not through performance. The people who know them well describe someone who always seems to end up exactly where they were heading, even when the path looked like it was going sideways.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `Finding the route that wasn't obvious. Arriving where they intended by means that nobody predicted. Reading people and rooms with an accuracy that feels almost unfair — they pick up on what's really happening before anyone has said the thing. Building genuine trust through attentiveness, not through performance. The people who know them well describe someone who always seems to end up exactly where they were heading, even when the path looked like it was going sideways.` },
       },
       {
         label: `Where they consistently get stuck`,
-        text: `The adaptability can become the whole point. When every surface is interesting and every route is worth exploring, the Vine can keep navigating without actually landing anywhere. There's also a subtler risk: the Vine adjusts to surfaces so smoothly it can slowly accommodate away from its own position without noticing — adjusting so quietly that by the time they notice, it's hard to say exactly when it happened or what they actually think anymore.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The adaptability can become the whole point. When every surface is interesting and every route is worth exploring, the Vine can keep navigating without actually landing anywhere. There's also a subtler risk: the Vine adjusts to surfaces so smoothly it can slowly accommodate away from its own position without noticing — adjusting so quietly that by the time they notice, it's hard to say exactly when it happened or what they actually think anymore.` },
       },
       {
         label: `What changes when conditions are right`,
-        text: `The Vine's gifts fully activate when the environment is genuinely worth the full reach — a surface that deserves the climbing, a destination that's actually worth arriving at. In those conditions, the navigation is extraordinary: precise, intelligent, arriving somewhere real. In the wrong environment, the gifts don't disappear — they just don't engage. This makes choosing environments one of the highest-leverage decisions this person makes.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The Vine's gifts fully activate when the environment is genuinely worth the full reach — a surface that deserves the climbing, a destination that's actually worth arriving at. In those conditions, the navigation is extraordinary: precise, intelligent, arriving somewhere real. In the wrong environment, the gifts don't disappear — they just don't engage. This makes choosing environments one of the highest-leverage decisions this person makes.` },
       },
       {
         label: `What they rarely admit`,
-        text: `How much of what looks like flexibility is actually a form of self-protection — a way of staying mobile enough that no single failure can fully land. The adaptability is genuine intelligence. It's also, sometimes, a way of not having to find out what happens if they commit completely and it doesn't work.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `How much of what looks like flexibility is actually a form of self-protection — a way of staying mobile enough that no single failure can fully land. The adaptability is genuine intelligence. It's also, sometimes, a way of not having to find out what happens if they commit completely and it doesn't work.` },
       },
     ],
     psych: {
@@ -141,32 +211,67 @@ There's also a specific interpersonal cost: people who care about them often fee
   },
 
   "丙": {
+
+    // ═══════════════════════════════════════════════════════════════════
+    // IDENTITY CARD  (DayMasterHero — Deliverable 1, ALL FREE)
+    // ═══════════════════════════════════════════════════════════════════
+
+    identity: {
+      archetypeName:  `The Sun`,
+      archetypeLabel: `Yang Fire — The Sun`,
+      identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
+      manifesto:      `Warmth without permission · The sun does not choose who it reaches.`,
+      // manifesto renders as two lines, split on the ` · ` separator:
+      //   Line 1 (bold thesis)  → "Warmth without permission"
+      //   Line 2 (poetic edge)  → "The sun does not choose who it reaches."
+      //
+      // Badge tile data (resolved from chart at runtime, listed here for reference):
+      //   Element badge  → dm.element  = "Fire"           → taps open element popup
+      //   Stem badge     → dm.stem     = "丙"  + "Bǐng"  → taps open Day Master popup
+      //   Polarity badge → dm.polarity = "yang" → "Yang"   → taps open Yin/Yang popup
+    },
+
     subtitle: `Warmth as structural property, not personality trait · The Visibility Impulse (Yang)`,
     chips: ["Radiant", "Generative", "Involuntarily warm", "Invisibly depleting", "Trust-creating"],
     psychCore: {
-      phrase: `The Involuntary Illuminator`,
-      desc: `She warms every room she enters without deciding to, creating trust and possibility in others while often sitting in her own unacknowledged shadow — performing light for everyone while the cost accumulates invisibly, never quite getting to ask what she needs in return.`,
+      phrase: `The Court Herald`,  // [INTERNAL — not rendered in UI]
+      desc: `You walk into a room and people feel more at ease, more energized, more capable — without you trying to make that happen. The cost is that you give it constantly and almost never get asked if you're okay.`,
     },
     blocks: [
       {
         label: `How they experience the world`,
-        text: `The Sun doesn't decide to warm things. It warms things because that's what it is. People orient toward this person in a room without deciding to — they just find themselves doing it. Things feel more possible near them. Ideas get bigger. Other people feel more capable of things they weren't sure they could do. This isn't something they engineer; it's a property of their presence, the way sunlight warms a surface without the sun choosing that particular spot.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The Sun doesn't decide to warm things. It warms things because that's what it is. People orient toward this person in a room without deciding to — they just find themselves doing it. Things feel more possible near them. Ideas get bigger. Other people feel more capable of things they weren't sure they could do. This isn't something they engineer; it's a property of their presence, the way sunlight warms a surface without the sun choosing that particular spot.` },
       },
       {
         label: `What they're genuinely good at`,
-        text: `Creating trust quickly, authentically, and without trying. Moving people not through logic or performance but through what they actually believe — which means it works in rooms where performance would fail completely. Making people feel genuinely seen, not just acknowledged. Sustaining warmth over time in a way that builds rather than fluctuates — the people who receive it know it's real because it was still there on the difficult days too.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `Creating trust quickly, authentically, and without trying. Moving people not through logic or performance but through what they actually believe — which means it works in rooms where performance would fail completely. Making people feel genuinely seen, not just acknowledged. Sustaining warmth over time in a way that builds rather than fluctuates — the people who receive it know it's real because it was still there on the difficult days too.` },
       },
       {
         label: `Where they consistently get stuck`,
-        text: `The warmth goes everywhere at once, which means it costs the same as focused warmth but produces a fraction of the impact. The giving feels effortless — which is exactly why the depletion accumulates invisibly. They don't notice the tank getting low until it's very low. Others assume they're inexhaustible. This assumption is wrong but hard to correct — the moment the warmth dims, people register it as a problem with the relationship rather than a cost that was always being paid.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The warmth goes everywhere at once, which means it costs the same as focused warmth but produces a fraction of the impact. The giving feels effortless — which is exactly why the depletion accumulates invisibly. They don't notice the tank getting low until it's very low. Others assume they're inexhaustible. This assumption is wrong but hard to correct — the moment the warmth dims, people register it as a problem with the relationship rather than a cost that was always being paid.` },
       },
       {
         label: `What changes when conditions are right`,
-        text: `Directed warmth — warmth that knows where it's going — is dramatically more powerful than broadcast warmth. When this person finds relationships and contexts that genuinely give back, the warmth stops being diffuse and becomes specific. What was warming a whole room starts illuminating particular things fully. That's when the Sun's quality is at its most extraordinary: not more warmth, but warmth that has somewhere real to go.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `Directed warmth — warmth that knows where it's going — is dramatically more powerful than broadcast warmth. When this person finds relationships and contexts that genuinely give back, the warmth stops being diffuse and becomes specific. What was warming a whole room starts illuminating particular things fully. That's when the Sun's quality is at its most extraordinary: not more warmth, but warmth that has somewhere real to go.` },
       },
       {
         label: `What they rarely admit`,
-        text: `That they sometimes don't know whether the warmth is something they're choosing or something that just runs regardless. The giving can feel less like a gift and more like a structural fact — which makes it genuinely difficult to protect, because it's hard to guard something that operates before you've decided to give it.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `That they sometimes don't know whether the warmth is something they're choosing or something that just runs regardless. The giving can feel less like a gift and more like a structural fact — which makes it genuinely difficult to protect, because it's hard to guard something that operates before you've decided to give it.` },
       },
     ],
     psych: {
@@ -191,34 +296,69 @@ There's also a specific interpersonal cost: people who care about them often fee
   },
 
   "丁": {
+
+    // ═══════════════════════════════════════════════════════════════════
+    // IDENTITY CARD  (DayMasterHero — Deliverable 1, ALL FREE)
+    // ═══════════════════════════════════════════════════════════════════
+
+    identity: {
+      archetypeName:  `The Ember`,
+      archetypeLabel: `Yin Fire — The Ember`,
+      identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
+      manifesto:      `Intimacy over range · A candle doesn't reach far — it reaches true.`,
+      // manifesto renders as two lines, split on the ` · ` separator:
+      //   Line 1 (bold thesis)  → "Intimacy over range"
+      //   Line 2 (poetic edge)  → "A candle doesn't reach far — it reaches true."
+      //
+      // Badge tile data (resolved from chart at runtime, listed here for reference):
+      //   Element badge  → dm.element  = "Fire"           → taps open element popup
+      //   Stem badge     → dm.stem     = "丁"  + "Dīng"  → taps open Day Master popup
+      //   Polarity badge → dm.polarity = "yin"  → "Yin"   → taps open Yin/Yang popup
+    },
+
     subtitle: `Complete illumination of exactly what it's pointed at · The Visibility Impulse (Yin)`,
     chips: ["Precise", "Intimate", "Selectively warm", "Detail-sensitive", "Flickering under depletion"],
     psychCore: {
-      phrase: `The Focused Witness`,
-      desc: `He sees completely what he chooses to look at, making people feel genuinely known in ways they rarely experience — but is a lighthouse rather than a sun: he guides people one-on-one, feels invisible in a crowd, and begins to flicker when the resources feeding his flame run low.`,
+      phrase: `The Imperial Examiner`,  // [INTERNAL — not rendered in UI]
+      desc: `When your attention is fully on someone, they feel completely seen — understood at a level they rarely experience. But you can only truly light up one thing at a time, and everything else goes dark.`,
     },
     blocks: [
       {
         label: `How they experience the world`,
-        text: `The Candle illuminates what it's pointed at completely — and nothing else. When the Candle's attention is on you, you are genuinely seen in a way that most people never experience. The attention is total. The light is complete. And what it's not currently pointing at receives almost nothing. This is not the Sun's warmth, which fills a whole room. This is something more precise and more intimate: specificity is the whole point.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The Candle illuminates what it's pointed at completely — and nothing else. When the Candle's attention is on you, you are genuinely seen in a way that most people never experience. The attention is total. The light is complete. And what it's not currently pointing at receives almost nothing. This is not the Sun's warmth, which fills a whole room. This is something more precise and more intimate: specificity is the whole point.` },
       },
       {
         label: `What they're genuinely good at`,
-        text: `Noticing the thing that others walked past. Producing work of real quality in whatever they're fully invested in. Making people feel understood in a way that is specific to them — seen as who they actually are rather than how they've presented themselves. Their perception is unusually accurate, especially about things that are just slightly off. The quality of their attention is something people remember specifically and tend to return to.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `Noticing the thing that others walked past. Producing work of real quality in whatever they're fully invested in. Making people feel understood in a way that is specific to them — seen as who they actually are rather than how they've presented themselves. Their perception is unusually accurate, especially about things that are just slightly off. The quality of their attention is something people remember specifically and tend to return to.` },
       },
       {
         label: `Where they consistently get stuck`,
-        text: `The full force of attention can arrive harder than the moment required. Contexts that needed gentle warmth receive the full flame. What falls outside the current focus receives almost nothing — people who aren't being fully attended to can feel the absence sharply and take it personally, even when it has nothing to do with them.
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The full force of attention can arrive harder than the moment required. Contexts that needed gentle warmth receive the full flame. What falls outside the current focus receives almost nothing — people who aren't being fully attended to can feel the absence sharply and take it personally, even when it has nothing to do with them.
 
-There's also an investment asymmetry that accumulates: the Candle gives the full quality of its attention without always checking whether it's being matched. The care is real. The return is often lower than what was given. And because the giving felt like connection rather than cost, the imbalance often goes unnamed for a long time.`,
+There's also an investment asymmetry that accumulates: the Candle gives the full quality of its attention without always checking whether it's being matched. The care is real. The return is often lower than what was given. And because the giving felt like connection rather than cost, the imbalance often goes unnamed for a long time.` },
       },
       {
         label: `What changes when conditions are right`,
-        text: `The Candle works best when its autonomy to direct the light is genuinely its own — when what it chooses to focus on is genuinely worth the full illumination. In those conditions, the precision is extraordinary: the depth of understanding, the quality of care, the accuracy of perception. The practice is learning that choosing selectively isn't a failure to be more like the Sun — it's the mechanism by which this particular kind of light actually works.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The Candle works best when its autonomy to direct the light is genuinely its own — when what it chooses to focus on is genuinely worth the full illumination. In those conditions, the precision is extraordinary: the depth of understanding, the quality of care, the accuracy of perception. The practice is learning that choosing selectively isn't a failure to be more like the Sun — it's the mechanism by which this particular kind of light actually works.` },
       },
       {
         label: `What they rarely admit`,
-        text: `That when the full flame arrives at full force in a context that wasn't ready for it, they often don't understand why it didn't land the way it should have. The quality was real. The care was genuine. What they don't always account for is that not every moment wants to be fully illuminated.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `That when the full flame arrives at full force in a context that wasn't ready for it, they often don't understand why it didn't land the way it should have. The quality was real. The care was genuine. What they don't always account for is that not every moment wants to be fully illuminated.` },
       },
     ],
     psych: {
@@ -243,34 +383,69 @@ There's also an investment asymmetry that accumulates: the Candle gives the full
   },
 
   "戊": {
+
+    // ═══════════════════════════════════════════════════════════════════
+    // IDENTITY CARD  (DayMasterHero — Deliverable 1, ALL FREE)
+    // ═══════════════════════════════════════════════════════════════════
+
+    identity: {
+      archetypeName:  `The Mountain`,
+      archetypeLabel: `Yang Earth — The Mountain`,
+      identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
+      manifesto:      `Immovable by design · Others find their bearings and never name why.`,
+      // manifesto renders as two lines, split on the ` · ` separator:
+      //   Line 1 (bold thesis)  → "Immovable by design"
+      //   Line 2 (poetic edge)  → "Others find their bearings and never name why."
+      //
+      // Badge tile data (resolved from chart at runtime, listed here for reference):
+      //   Element badge  → dm.element  = "Earth"          → taps open element popup
+      //   Stem badge     → dm.stem     = "戊"  + "Wù"    → taps open Day Master popup
+      //   Polarity badge → dm.polarity = "yang" → "Yang"   → taps open Yin/Yang popup
+    },
+
     subtitle: `The ground others orient by without naming · The Stability Impulse (Yang)`,
     chips: ["Grounding", "Load-bearing", "Change-resistant", "Silently accumulating", "Orientation-providing"],
     psychCore: {
-      phrase: `The Unnamed Foundation`,
-      desc: `She provides the psychological ground that everyone orients by without acknowledging — the world's "rock," holding far more than she shows while rarely naming what she needs in return, and carrying a heaviness that prevents her from moving toward new opportunities even when she can see them clearly.`,
+      phrase: `The Mountain Warden`,  // [INTERNAL — not rendered in UI]
+      desc: `You're the person everyone builds their plans around — steady, reliable, there when things shake. The part no one sees is how much you're actually holding, because you never let it show.`,
     },
     blocks: [
       {
         label: `How they experience the world`,
-        text: `The Mountain is what people orient by. It provides a kind of psychological ground — a stable reference point that others use without thinking about it. Conversations land differently around them. Decisions get made based on what they think, often before anyone has formally asked. People plan their lives around their presence. The reliability isn't something they practice or maintain through effort — it's what they're made of, the way a mountain is made of stone rather than holding itself up by trying.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The Mountain is what people orient by. It provides a kind of psychological ground — a stable reference point that others use without thinking about it. Conversations land differently around them. Decisions get made based on what they think, often before anyone has formally asked. People plan their lives around their presence. The reliability isn't something they practice or maintain through effort — it's what they're made of, the way a mountain is made of stone rather than holding itself up by trying.` },
       },
       {
         label: `What they're genuinely good at`,
-        text: `Holding what needs holding — weight, stress, uncertainty, pressure — without showing the cost in a way that makes others feel responsible for it. Building things that last because they genuinely cannot tolerate building things that won't. Following through across time, not as a discipline they impose on themselves but as a structural fact. Being the person in the room who is still there when the dramatic options have run out.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `Holding what needs holding — weight, stress, uncertainty, pressure — without showing the cost in a way that makes others feel responsible for it. Building things that last because they genuinely cannot tolerate building things that won't. Following through across time, not as a discipline they impose on themselves but as a structural fact. Being the person in the room who is still there when the dramatic options have run out.` },
       },
       {
         label: `Where they consistently get stuck`,
-        text: `The same quality that makes them load-bearing makes genuine movement difficult. When something needs to change — a relationship that's over, a position no longer tenable — the Mountain can hold it in place long past the point where the situation calls for release. Not from stubbornness. More from the fact that the stability everyone relies on makes shifting feel like a betrayal of what they're for.
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The same quality that makes them load-bearing makes genuine movement difficult. When something needs to change — a relationship that's over, a position no longer tenable — the Mountain can hold it in place long past the point where the situation calls for release. Not from stubbornness. More from the fact that the stability everyone relies on makes shifting feel like a betrayal of what they're for.
 
-There's also a slow accumulation of unspoken costs. The Mountain absorbs a great deal without naming it. Over time this produces weight that no one sees because the Mountain never showed it — which means no one thought to ask whether it was okay.`,
+There's also a slow accumulation of unspoken costs. The Mountain absorbs a great deal without naming it. Over time this produces weight that no one sees because the Mountain never showed it — which means no one thought to ask whether it was okay.` },
       },
       {
         label: `What changes when conditions are right`,
-        text: `The Mountain that has learned to distinguish between what needs to be held and what needs to be released is dramatically more powerful than the one that holds everything equally. The fire that activates it doesn't destabilize the stability — it gives the holding a direction. What was simply present becomes generative. What was enduring begins to produce.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The Mountain that has learned to distinguish between what needs to be held and what needs to be released is dramatically more powerful than the one that holds everything equally. The fire that activates it doesn't destabilize the stability — it gives the holding a direction. What was simply present becomes generative. What was enduring begins to produce.` },
       },
       {
         label: `What they rarely admit`,
-        text: `That they need things too — specific things, from specific people — and have spent so long not needing anything visibly that they've almost stopped knowing how to name what those things are. The Mountain is so reliably there for everyone else that the question of what it needs has largely stopped being asked. Which means it's also largely stopped being answered.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `That they need things too — specific things, from specific people — and have spent so long not needing anything visibly that they've almost stopped knowing how to name what those things are. The Mountain is so reliably there for everyone else that the question of what it needs has largely stopped being asked. Which means it's also largely stopped being answered.` },
       },
     ],
     psych: {
@@ -295,32 +470,67 @@ There's also a slow accumulation of unspoken costs. The Mountain absorbs a great
   },
 
   "己": {
+
+    // ═══════════════════════════════════════════════════════════════════
+    // IDENTITY CARD  (DayMasterHero — Deliverable 1, ALL FREE)
+    // ═══════════════════════════════════════════════════════════════════
+
+    identity: {
+      archetypeName:  `The Field`,
+      archetypeLabel: `Yin Earth — The Field`,
+      identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
+      manifesto:      `Nourish without credit · The soil feeds everything and claims nothing.`,
+      // manifesto renders as two lines, split on the ` · ` separator:
+      //   Line 1 (bold thesis)  → "Nourish without credit"
+      //   Line 2 (poetic edge)  → "The soil feeds everything and claims nothing."
+      //
+      // Badge tile data (resolved from chart at runtime, listed here for reference):
+      //   Element badge  → dm.element  = "Earth"          → taps open element popup
+      //   Stem badge     → dm.stem     = "己"  + "Jǐ"    → taps open Day Master popup
+      //   Polarity badge → dm.polarity = "yin"  → "Yin"   → taps open Yin/Yang popup
+    },
+
     subtitle: `Growing things in others without announcing it · The Stability Impulse (Yin)`,
     chips: ["Nurturing", "Developmentally attuned", "Invisibly depleting", "Overcultivating", "Responsive"],
     psychCore: {
-      phrase: `The Silent Cultivator`,
-      desc: `He creates conditions for others to grow without announcing it, invested in the development of everything around him at a rate that chronically exceeds what is returned — a fertile mind that can grow anything, but often grows weeds from overthinking, and risks being "farmed" by others for his kindness.`,
+      phrase: `The Palace Gardener`,  // [INTERNAL — not rendered in UI]
+      desc: `You help others grow without making a thing out of it — quietly creating the conditions for people to become better versions of themselves. The problem is you give more than you get back, and it takes longer than it should to notice.`,
     },
     blocks: [
       {
         label: `How they experience the world`,
-        text: `The Field grows things in everyone it encounters — before it decides to. It notices what people and situations need and responds before being asked, the way fertile soil responds to a seed by providing what's required for it to grow. People develop in the presence of this person in ways they often attribute entirely to themselves — not recognizing that the conditions making the growth possible were created by someone paying close, quiet attention to what was needed.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The Field grows things in everyone it encounters — before it decides to. It notices what people and situations need and responds before being asked, the way fertile soil responds to a seed by providing what's required for it to grow. People develop in the presence of this person in ways they often attribute entirely to themselves — not recognizing that the conditions making the growth possible were created by someone paying close, quiet attention to what was needed.` },
       },
       {
         label: `What they're genuinely good at`,
-        text: `Reading what a person or situation actually needs — not what's being asked for, but the underlying requirement. Following through on care consistently across time, not just when it's convenient or visible. Building relationships that genuinely develop people rather than simply maintaining proximity. Producing in others a kind of trust earned specifically by consistency: when they say they'll show up, they do, and people build their lives around that accordingly.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `Reading what a person or situation actually needs — not what's being asked for, but the underlying requirement. Following through on care consistently across time, not just when it's convenient or visible. Building relationships that genuinely develop people rather than simply maintaining proximity. Producing in others a kind of trust earned specifically by consistency: when they say they'll show up, they do, and people build their lives around that accordingly.` },
       },
       {
         label: `Where they consistently get stuck`,
-        text: `The Field depletes invisibly. The nourishment flows outward without being tracked — and by the time the deficit becomes visible, it's been accumulating for months. The growth they create in others tends to be attributed to those others, which means the Field is chronically undercompensated for what it actually produces. They're also particularly susceptible to investing in contexts that absorb without returning. The Field is often the last to notice this, partly because caring about whether care is being returned feels, to them, like a betrayal of what genuine care should be.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The Field depletes invisibly. The nourishment flows outward without being tracked — and by the time the deficit becomes visible, it's been accumulating for months. The growth they create in others tends to be attributed to those others, which means the Field is chronically undercompensated for what it actually produces. They're also particularly susceptible to investing in contexts that absorb without returning. The Field is often the last to notice this, partly because caring about whether care is being returned feels, to them, like a betrayal of what genuine care should be.` },
       },
       {
         label: `What changes when conditions are right`,
-        text: `In genuinely reciprocal conditions — where the care flows in both directions and the Field is being nourished at the same rate it nourishes — what it produces is extraordinary. The growth that was quiet and consistent becomes visible and remarkable. The practice is treating its own fertility as something worth protecting rather than something to be fully spent on whoever arrives.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `In genuinely reciprocal conditions — where the care flows in both directions and the Field is being nourished at the same rate it nourishes — what it produces is extraordinary. The growth that was quiet and consistent becomes visible and remarkable. The practice is treating its own fertility as something worth protecting rather than something to be fully spent on whoever arrives.` },
       },
       {
         label: `What they rarely admit`,
-        text: `That they keep score, quietly — and that the accounting is often worse than anyone around them knows. They don't say this because saying it feels contrary to what care is supposed to be. But the gap between what's given and what returns is real, and it accumulates in them even when it isn't visible to anyone else.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `That they keep score, quietly — and that the accounting is often worse than anyone around them knows. They don't say this because saying it feels contrary to what care is supposed to be. But the gap between what's given and what returns is real, and it accumulates in them even when it isn't visible to anyone else.` },
       },
     ],
     psych: {
@@ -347,6 +557,27 @@ There's also a slow accumulation of unspoken costs. The Mountain absorbs a great
   "庚": {
 
     // ═══════════════════════════════════════════════════════════════════
+    // IDENTITY CARD  (DayMasterHero — Deliverable 1, ALL FREE)
+    // The first reading screen. Full-screen, no scroll. Rendered by the
+    // DayMasterHero component in Elementum_Engine.jsx.
+    // ═══════════════════════════════════════════════════════════════════
+
+    identity: {
+      archetypeName:  `The Blade`,
+      archetypeLabel: `Yang Metal — The Blade`,      // full label used in pills, headers, share cards
+      identityIcon:   `BladeJian`,                   // component key in Engine — 庚-specific sword SVG
+      manifesto:      `Precision before intention · An edge is never given — it is forged.`,
+      // manifesto renders as two lines, split on the ` · ` separator:
+      //   Line 1 (bold thesis)  → "Precision before intention"
+      //   Line 2 (poetic edge)  → "An edge is never given — it is forged."
+      //
+      // Badge tile data (resolved from chart at runtime, listed here for reference):
+      //   Element badge  → dm.element  = "Metal"           → taps open element popup
+      //   Stem badge     → dm.stem     = "庚"  + "Gēng"   → taps open Day Master popup
+      //   Polarity badge → dm.polarity = "yang" → "Yang"   → taps open Yin/Yang popup
+    },
+
+    // ═══════════════════════════════════════════════════════════════════
     // SECTION 1: ELEMENTAL NATURE  (user-facing label: "Elemental Nature")
     // Base Energy — DM stem identity. Free teaser + Pro full reading.
     // ═══════════════════════════════════════════════════════════════════
@@ -356,8 +587,8 @@ There's also a slow accumulation of unspoken costs. The Mountain absorbs a great
 
     // PSYCHCORE — phrase = archetype identity; desc = 2nd person portrait (2–3 sentences, displayed FREE)
     psychCore: {
-      phrase: `The Structural Assessor`,
-      desc: `You evaluate before you engage, and the assessment never stops — a clarity so structural it arrives as precision before warmth, making you simultaneously the most trustworthy and most difficult person in any room. What reads as a blade is actually a defense mechanism for a very soft core beneath.`,
+      phrase: `The Imperial Executioner`,  // [INTERNAL — not rendered in UI]
+      desc: `You read every room before you enter it — the assessment runs automatically, before you've decided to begin. People trust you because you're always honest, but they often find you hard to get close to.`,
     },
 
     // GIFTS & SHADOWS — phrase [FREE] · desc [FREE · one sharp sentence, distinct angle]
@@ -384,6 +615,8 @@ There's also a slow accumulation of unspoken costs. The Mountain absorbs a great
           concentrated: `You evaluate before you engage. The assessment starts the moment you walk into a room — not as a decision you make but as a process that has already begun before you've chosen to begin it. You know what's real and what isn't, what holds up and what doesn't, before the conversation has fully started. Others feel assessed in your presence even when nothing has been said and nothing was intended. This is not coldness. It's what it looks like when the first cognitive event is precision rather than warmth.`,
           open: `The evaluation is present, but it doesn't lead. You enter a room and something observes — notes what holds and what doesn't — but that observation doesn't arrive as a completed assessment before engagement has begun. The evaluative quality exists as an undercurrent rather than a first fact. What's different: you can be more present to what's actually in the room before the read closes. The precision functions; it just no longer runs ahead of everything else. The world arrives before the verdict does.`,
           tested: `The world evaluates back. That's the specific texture when authority energy is dominant: the precision runs as it always does, but now something is running a read on you at the same time. An institutional lens — an external standard — operates in parallel with your own. If the external standard is genuine, this sharpens rather than compresses: there's something real to measure against. If it isn't, you know before the conversation has properly started. What changes is that the assessment is no longer one-directional. You are inside a system that is also assessing you, and that fact is part of what you're evaluating.`,
+          pure: `No dominant Ten God is shaping the deployment of this energy. The evaluative capacity runs as its essential self — not directed outward by a wealth configuration, not grounded by a dominant resource pull, not filtered through a relational or authority register. What arrives is precision without a predetermined channel. The world is a set of things to be assessed, and the question of what to do with those assessments is genuinely more open than it is for configurations where a dominant force has already specified the answer. This is not a weakness. It is the unconstrained form: the precision is free to find the target that actually deserves it, rather than the one a dominant configuration has already selected.`,
+          rooted: `Resource energy supporting the Metal means the evaluation doesn't arrive alone — it arrives backed. Assessments form slower here and land harder once they do: the structural support that generates stability also generates weight. The world arrives not just as something to be cut but as something to be understood at depth, relative to what persists. There is a groundedness in how you encounter things — you don't need to immediately act on what you've assessed, and the holding capacity is real. Where this creates friction: the same structural weight that makes your verdicts reliable makes it harder to move toward things that aren't yet proven. You are well-positioned for durable work. You are less well-positioned for commitments that need to be made before confidence has fully formed.`,
         },
       },
 
@@ -412,6 +645,8 @@ The verdict also becomes load-bearing: once formed, it requires new information 
 The verdict also becomes load-bearing: once formed, it requires new information to pass through the same evaluative system that produced the original conclusion — a system that is very good at finding reasons why the new information doesn't change anything. You can hold a position longer than the evidence warrants, and some part of you knows it.`,
           open: `The stuck is different in kind. The assessment runs, but verdicts don't close with the same force — positions stay open longer than they should, and the evaluative capacity can circle a question without landing somewhere that holds. Not paralysis: more like a loop that doesn't quite lock. You arrive at something that seems true, find a reason to reconsider, then return to roughly the same place. The care is real; the precision is real. What's missing is the weight that makes the conclusion feel final.`,
           tested: `The stuck is specific: you know what's right, and the structure wants something else. Not wrong — differently calibrated, optimized for criteria your standard wasn't built around. The temptation is to push the assessment through anyway because it's accurate. The cost is structural: the framework grants standing, and standing determines what gets heard. What holds you back is the gap between maintaining the verdict and operating inside the system that lets you act on it. Most of the time you find a way to manage both. The times you can't are the ones that cost something.`,
+          pure: `The pure configuration produces a specific stuck point: the precision is operational and accurate, but without a dominant directive force, the question of which valid conclusion to act on first doesn't have a built-in answer. Multiple assessments can coexist in equal standing — each accurate, none obviously prioritized. The decision machinery works. The orientational function, which would normally be supplied by a dominant wealth or authority configuration, has to be consciously constructed rather than structurally given. The stuck is subtle: you are not lacking clarity. You may be lacking the frame that tells you which clarity matters most right now.`,
+          rooted: `The structural weight that makes your assessments reliable is the same force that makes revision expensive. A conclusion formed with strong resource backing doesn't revise easily — not because it can't be corrected, but because the same grounding that produced it resists being overturned by anything less than genuinely heavy counter-evidence. The stuck pattern: you identify that something may need to change, the internal evaluation runs, and it runs longer than the situation requires. By the time you've reached full confidence in the revision, the window for acting on it has sometimes closed. The other form: you hold a position past its usefulness not out of stubbornness but out of structural integrity. Same property; different cost.`,
         },
       },
 
@@ -481,6 +716,8 @@ The verdict also becomes load-bearing: once formed, it requires new information 
         text: {
           default: `You carry your verdicts. Not forever — but past the point where they serve you. A position formed under real evidence becomes the frame through which new evidence gets screened, and a system good at spotting confirmation becomes good at producing it. The thing that holds you back isn't doubt. It's certainty applied past its expiration.`,
           concentrated: `You carry your verdicts. Not forever — but past the point where they serve you. A position formed under real evidence becomes the frame through which new evidence gets screened, and a system very good at spotting confirmation becomes very good at producing it. This isn't stubbornness as a character flaw. It's structural: the same evaluative rigidity that makes your assessments reliable makes revising them costly. The thing that holds you back isn't doubt. It's certainty applied past its expiration.`,
+          pure: `Without a dominant force specifying what the precision is for, the pure configuration can accumulate something that doesn't look like a problem from outside: technically active, producing accurate reads, operating well — but the precision isn't converging toward anything in particular. The evaluative function runs without a consistent target that builds on itself. This looks like productivity from the outside while something inside registers as drift. What holds you back is not visible failure but the absence of a compounding direction — each assessment accurate in isolation, none building systematically toward something beyond itself. The sharp edge. The unspecified purpose.`,
+          rooted: `The resource backing that stabilizes you also delays you. The structural support makes commitment to unproven paths feel structurally premature — not fearful, just early. And because you are genuinely stable and functional in the current state, the cost of not moving is invisible until it isn't. Opportunities that require early commitment — relationships in their uncertain opening phase, career moves that need to be made before the destination is fully legible, positions that close if you don't act before confidence is established — arrive and pass without you registering them as losses in real time. What holds you back looks like patience from the outside. The recognition of what passed tends to arrive later, when solid is no longer the relevant question.`,
         },
       },
 
@@ -647,32 +884,67 @@ The 2 AM version: "I know what I am. I still don't know what I'm for." The Forgi
   },
 
   "辛": {
+
+    // ═══════════════════════════════════════════════════════════════════
+    // IDENTITY CARD  (DayMasterHero — Deliverable 1, ALL FREE)
+    // ═══════════════════════════════════════════════════════════════════
+
+    identity: {
+      archetypeName:  `The Jewel`,
+      archetypeLabel: `Yin Metal — The Jewel`,
+      identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
+      manifesto:      `Refinement over output · The flaw is felt before the eye finds it.`,
+      // manifesto renders as two lines, split on the ` · ` separator:
+      //   Line 1 (bold thesis)  → "Refinement over output"
+      //   Line 2 (poetic edge)  → "The flaw is felt before the eye finds it."
+      //
+      // Badge tile data (resolved from chart at runtime, listed here for reference):
+      //   Element badge  → dm.element  = "Metal"          → taps open element popup
+      //   Stem badge     → dm.stem     = "辛"  + "Xīn"   → taps open Day Master popup
+      //   Polarity badge → dm.polarity = "yin"  → "Yin"   → taps open Yin/Yang popup
+    },
+
     subtitle: `Quality perceived as temperature — before the question forms · The Definition Impulse (Yin)`,
     chips: ["Discerning", "Aesthetically precise", "Perfectionist", "Exacting", "Distance through refinement"],
     psychCore: {
-      phrase: `The Perceptual Perfectionist`,
-      desc: `He perceives quality the way others perceive temperature, producing work of genuine distinction at the cost of a standard that never fully stops asking — and his "brilliance" can be a way to keep people at a distance, ensuring they see the polished surface before they can see the flaws he imagines underneath.`,
+      phrase: `The Jade Appraiser`,  // [INTERNAL — not rendered in UI]
+      desc: `You sense whether something is genuinely excellent the way others sense whether a room is cold — automatically, before thinking about it. You produce work of real quality, but the same standard that makes you exceptional never quite lets you feel done.`,
     },
     blocks: [
       {
         label: `How they experience the world`,
-        text: `The Jewel perceives quality the way others perceive temperature — automatically, before thinking about it. Not "is this good?" as a question they ask, but an immediate, pre-verbal sense that something is or isn't genuinely excellent. This applies to work, to ideas, to environments, to people, to the way something was made. The standard is always running. It's not a habit they developed — it's a perceptual structure they were born with, as natural and involuntary as the ability to see color.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The Jewel perceives quality the way others perceive temperature — automatically, before thinking about it. Not "is this good?" as a question they ask, but an immediate, pre-verbal sense that something is or isn't genuinely excellent. This applies to work, to ideas, to environments, to people, to the way something was made. The standard is always running. It's not a habit they developed — it's a perceptual structure they were born with, as natural and involuntary as the ability to see color.` },
       },
       {
         label: `What they're genuinely good at`,
-        text: `Producing things of genuine distinction because they literally cannot bring themselves to output something they don't fully believe in. Identifying what is genuinely excellent when others would settle for adequate. Building things where the quality is lasting — not impressive on the surface but actually good in the way that holds up over time and under examination. They're also the person who has already noticed the flaw that will become a problem three months from now. They often don't say this immediately. But they've already seen it.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `Producing things of genuine distinction because they literally cannot bring themselves to output something they don't fully believe in. Identifying what is genuinely excellent when others would settle for adequate. Building things where the quality is lasting — not impressive on the surface but actually good in the way that holds up over time and under examination. They're also the person who has already noticed the flaw that will become a problem three months from now. They often don't say this immediately. But they've already seen it.` },
       },
       {
         label: `Where they consistently get stuck`,
-        text: `The refining doesn't know when to stop. The same faculty that produces excellent work keeps working past the point of completion — improving things that are done, delaying delivery of things that are ready, exhausting the precision on what doesn't need it. There's also a persistent gap between what the Jewel can perceive as possible and what the world tends to offer, creating a background friction that doesn't switch off. In environments that can't meet the standard, this becomes chronic dissatisfaction.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The refining doesn't know when to stop. The same faculty that produces excellent work keeps working past the point of completion — improving things that are done, delaying delivery of things that are ready, exhausting the precision on what doesn't need it. There's also a persistent gap between what the Jewel can perceive as possible and what the world tends to offer, creating a background friction that doesn't switch off. In environments that can't meet the standard, this becomes chronic dissatisfaction.` },
       },
       {
         label: `What changes when conditions are right`,
-        text: `The Jewel's quality is most fully expressed in settings that can actually receive what it produces. In conditions that genuinely warrant the discernment, what the Jewel produces is something most other approaches simply cannot generate. The practice is protecting access to those conditions rather than applying the full standard uniformly to everything.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The Jewel's quality is most fully expressed in settings that can actually receive what it produces. In conditions that genuinely warrant the discernment, what the Jewel produces is something most other approaches simply cannot generate. The practice is protecting access to those conditions rather than applying the full standard uniformly to everything.` },
       },
       {
         label: `What they rarely admit`,
-        text: `That the standard they apply to everything, they apply to themselves — and that this is often the hardest part. The gap between what they can perceive as possible in themselves and what they currently are is always visible to them. Which means they are almost never quite satisfied with who they are right now, regardless of what they've achieved.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `That the standard they apply to everything, they apply to themselves — and that this is often the hardest part. The gap between what they can perceive as possible in themselves and what they currently are is always visible to them. Which means they are almost never quite satisfied with who they are right now, regardless of what they've achieved.` },
       },
     ],
     psych: {
@@ -697,34 +969,69 @@ The 2 AM version: "I know what I am. I still don't know what I'm for." The Forgi
   },
 
   "壬": {
+
+    // ═══════════════════════════════════════════════════════════════════
+    // IDENTITY CARD  (DayMasterHero — Deliverable 1, ALL FREE)
+    // ═══════════════════════════════════════════════════════════════════
+
+    identity: {
+      archetypeName:  `The Ocean`,
+      archetypeLabel: `Yang Water — The Ocean`,
+      identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
+      manifesto:      `Depth before disclosure · Oceans don't announce their depth.`,
+      // manifesto renders as two lines, split on the ` · ` separator:
+      //   Line 1 (bold thesis)  → "Depth before disclosure"
+      //   Line 2 (poetic edge)  → "Oceans don't announce their depth."
+      //
+      // Badge tile data (resolved from chart at runtime, listed here for reference):
+      //   Element badge  → dm.element  = "Water"          → taps open element popup
+      //   Stem badge     → dm.stem     = "壬"  + "Rén"   → taps open Day Master popup
+      //   Polarity badge → dm.polarity = "yang" → "Yang"   → taps open Yin/Yang popup
+    },
+
     subtitle: `More beneath the surface than is ever shown · The Intelligence Impulse (Yang)`,
     chips: ["Expansive", "Systemic", "Depth-witholding", "Untranslatable", "Ambition without edges"],
     psychCore: {
-      phrase: `The Submerged Intelligence`,
-      desc: `He processes at a depth most people never reach, carrying more beneath the surface than he shows — with a massive ambition and a lack of natural limits that tends to flood rooms or disappear entirely into the deep, never quite landing at the level where he actually operates.`,
+      phrase: `The River Cartographer`,  // [INTERNAL — not rendered in UI]
+      desc: `You process things at a depth most people in the room aren't reaching, and you carry more beneath the surface than you ever show. The hard part is the gap between how deep you actually think and what you can get the room to understand.`,
     },
     blocks: [
       {
         label: `How they experience the world`,
-        text: `The Ocean holds more beneath the surface than it shows. In any exchange, they're processing at a depth that most people in the conversation can't quite follow — holding more variables, more layers, more implications simultaneously than the situation might seem to warrant. Others sense this as intelligence before they can name what they're sensing. The depth is structural, not accumulated through study or experience. It was there before anything else was added to it.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The Ocean holds more beneath the surface than it shows. In any exchange, they're processing at a depth that most people in the conversation can't quite follow — holding more variables, more layers, more implications simultaneously than the situation might seem to warrant. Others sense this as intelligence before they can name what they're sensing. The depth is structural, not accumulated through study or experience. It was there before anything else was added to it.` },
       },
       {
         label: `What they're genuinely good at`,
-        text: `Understanding how things actually work at the level where they actually operate — not the surface dynamics everyone can see but the real dynamics beneath them. Producing insights that emerge from holding many things at once rather than following a single logical thread, reaching conclusions by routes they can't always fully explain. Going further into complex or difficult territory than most people are willing to go, and returning with something genuinely useful.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `Understanding how things actually work at the level where they actually operate — not the surface dynamics everyone can see but the real dynamics beneath them. Producing insights that emerge from holding many things at once rather than following a single logical thread, reaching conclusions by routes they can't always fully explain. Going further into complex or difficult territory than most people are willing to go, and returning with something genuinely useful.` },
       },
       {
         label: `Where they consistently get stuck`,
-        text: `The depth needs banks or it disperses. Without a specific channel — a specific form, a specific person who can engage at the level where they're actually operating — the intelligence ranges widely without landing anywhere productive. The translation problem is real: bringing what they perceive at depth into forms that people at the surface can receive is a constant, effortful process that never quite finishes.
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The depth needs banks or it disperses. Without a specific channel — a specific form, a specific person who can engage at the level where they're actually operating — the intelligence ranges widely without landing anywhere productive. The translation problem is real: bringing what they perceive at depth into forms that people at the surface can receive is a constant, effortful process that never quite finishes.
 
-Most exchanges happen at a shallower level than where the Ocean operates. This produces a persistent sense of being encountered at the surface — of having depth that no one is quite reaching. The response is often to withdraw further rather than simplify, which deepens the problem without resolving it.`,
+Most exchanges happen at a shallower level than where the Ocean operates. This produces a persistent sense of being encountered at the surface — of having depth that no one is quite reaching. The response is often to withdraw further rather than simplify, which deepens the problem without resolving it.` },
       },
       {
         label: `What changes when conditions are right`,
-        text: `In conditions of genuine exchange — where someone meets them at the level they're operating and gives something back at that level — the Ocean produces things it cannot produce alone. The depth that was ranging without form finds a channel. The intelligence that was present but not landing becomes genuinely useful. These conditions are rare, which is why the Ocean learns to recognize them quickly and protects them once found.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `In conditions of genuine exchange — where someone meets them at the level they're operating and gives something back at that level — the Ocean produces things it cannot produce alone. The depth that was ranging without form finds a channel. The intelligence that was present but not landing becomes genuinely useful. These conditions are rare, which is why the Ocean learns to recognize them quickly and protects them once found.` },
       },
       {
         label: `What they rarely admit`,
-        text: `How often they're lonely in this specific way: surrounded by capable, intelligent people and still operating in a depth that no one in the room is quite reaching. Not because the people are insufficient. Because the depth is structural — it was always going to be this particular width and this particular distance down, regardless of who was in the room.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `How often they're lonely in this specific way: surrounded by capable, intelligent people and still operating in a depth that no one in the room is quite reaching. Not because the people are insufficient. Because the depth is structural — it was always going to be this particular width and this particular distance down, regardless of who was in the room.` },
       },
     ],
     psych: {
@@ -749,34 +1056,69 @@ Most exchanges happen at a shallower level than where the Ocean operates. This p
   },
 
   "癸": {
+
+    // ═══════════════════════════════════════════════════════════════════
+    // IDENTITY CARD  (DayMasterHero — Deliverable 1, ALL FREE)
+    // ═══════════════════════════════════════════════════════════════════
+
+    identity: {
+      archetypeName:  `The Rain`,
+      archetypeLabel: `Yin Water — The Rain`,
+      identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
+      manifesto:      `Felt before spoken · What enters water becomes water.`,
+      // manifesto renders as two lines, split on the ` · ` separator:
+      //   Line 1 (bold thesis)  → "Felt before spoken"
+      //   Line 2 (poetic edge)  → "What enters water becomes water."
+      //
+      // Badge tile data (resolved from chart at runtime, listed here for reference):
+      //   Element badge  → dm.element  = "Water"          → taps open element popup
+      //   Stem badge     → dm.stem     = "癸"  + "Guǐ"   → taps open Day Master popup
+      //   Polarity badge → dm.polarity = "yin"  → "Yin"   → taps open Yin/Yang popup
+    },
+
     subtitle: `Knows what is true before it is spoken · The Intelligence Impulse (Yin)`,
     chips: ["Attuned", "Psychically permeable", "Absorbing", "Specifically nourishing", "Lost in own fog"],
     psychCore: {
-      phrase: `The Involuntary Empath`,
-      desc: `She senses what is true before it is spoken, nourishes what she touches with specific precision, and absorbs the emotional reality of her environment in ways that blur the boundary between what she perceives and what she carries — the most intuitive stem, at risk of feeling so lost in her own fog that she can no longer tell which weather is hers.`,
+      phrase: `The Court Oracle`,  // [INTERNAL — not rendered in UI]
+      desc: `You know what's true in a room before anyone says it out loud — the feeling arrives before the reasoning does. The difficult part is that you absorb what everyone around you is feeling, and it can be hard to tell what's yours and what isn't.`,
     },
     blocks: [
       {
         label: `How they experience the world`,
-        text: `The Rain senses what's true in a room before anyone says the thing. Not through observation and analysis — the knowing arrives as a felt sense, directly, before any reasoning catches up. They know when something is off, when someone is hurting, when the thing that was said isn't the thing that is actually true. This happens continuously and without their choosing it. Proximity to others is never emotionally neutral for them — they absorb the emotional reality of their environment the way rain absorbs the ground's temperature when it falls.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The Rain senses what's true in a room before anyone says the thing. Not through observation and analysis — the knowing arrives as a felt sense, directly, before any reasoning catches up. They know when something is off, when someone is hurting, when the thing that was said isn't the thing that is actually true. This happens continuously and without their choosing it. Proximity to others is never emotionally neutral for them — they absorb the emotional reality of their environment the way rain absorbs the ground's temperature when it falls.` },
       },
       {
         label: `What they're genuinely good at`,
-        text: `Nourishing what they touch in ways that are specific to what that particular person or situation actually needs — not generic care, but calibrated care. Making people feel genuinely known rather than simply seen. Perceiving the thing that's almost true but not quite, and finding the exact words for it that make the person realize it was there all along. Sustaining this across time — their care doesn't diminish when circumstances change. It's structural.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `Nourishing what they touch in ways that are specific to what that particular person or situation actually needs — not generic care, but calibrated care. Making people feel genuinely known rather than simply seen. Perceiving the thing that's almost true but not quite, and finding the exact words for it that make the person realize it was there all along. Sustaining this across time — their care doesn't diminish when circumstances change. It's structural.` },
       },
       {
         label: `Where they consistently get stuck`,
-        text: `The permeability that makes them so perceptive makes it genuinely hard to know whose feeling is whose. The Rain absorbs what it encounters — not from weakness but from how the sensitivity is wired. In difficult or charged environments, they don't just observe the difficulty; they carry it home. The boundary between what they're sensing in others and what they're experiencing themselves can dissolve quietly, often before they've noticed it's happened.
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `The permeability that makes them so perceptive makes it genuinely hard to know whose feeling is whose. The Rain absorbs what it encounters — not from weakness but from how the sensitivity is wired. In difficult or charged environments, they don't just observe the difficulty; they carry it home. The boundary between what they're sensing in others and what they're experiencing themselves can dissolve quietly, often before they've noticed it's happened.
 
-There's also a pattern of caring for others at the level they wish they were cared for — which means the care they give is often more than what returns. Because the giving felt natural, the gap takes a long time to become visible.`,
+There's also a pattern of caring for others at the level they wish they were cared for — which means the care they give is often more than what returns. Because the giving felt natural, the gap takes a long time to become visible.` },
       },
       {
         label: `What changes when conditions are right`,
-        text: `In genuinely reciprocal conditions — where the sensitivity is met with sensitivity, where the nourishment returns at something close to the rate it goes out — what the Rain produces is among the most valuable things available in close relationship. The perception is extraordinary. The care is specific. The knowing is real. Protecting these conditions isn't selfishness. It's maintenance of the instrument.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `In genuinely reciprocal conditions — where the sensitivity is met with sensitivity, where the nourishment returns at something close to the rate it goes out — what the Rain produces is among the most valuable things available in close relationship. The perception is extraordinary. The care is specific. The knowing is real. Protecting these conditions isn't selfishness. It's maintenance of the instrument.` },
       },
       {
         label: `What they rarely admit`,
-        text: `That they absorb far more than they show — and that the accumulation is real and has weight. Over time, in environments that don't return what's given, this becomes something between exhaustion and a kind of grief: the specific sadness of giving something real that doesn't arrive back at the same depth.`,
+        bands: ['concentrated', 'balanced', 'open'],
+        patterns: ['pure', 'rooted', 'flowing', 'forging', 'tested'],
+        priority: { default: 5 },
+        text: { default: `That they absorb far more than they show — and that the accumulation is real and has weight. Over time, in environments that don't return what's given, this becomes something between exhaustion and a kind of grief: the specific sadness of giving something real that doesn't arrive back at the same depth.` },
       },
     ],
     psych: {
@@ -815,32 +1157,29 @@ There's also a pattern of caring for others at the level they wish they were car
 // not the DM configuration. DM-specific differentiation happens at the
 // compound card layer (DomEnergyTg_Data.js, keyed by domEl_specificTenGod).
 //
-// Fields:
-//   name, sub         → display title
-//   realmPhrase       → ruling realm one-liner
-//   realmDesc         → ruling realm description paragraph
-//   keywords          → 5 trait keywords
-//   gifts, shadows    → 3 items each
-//   decision          → decision-making style paragraph
-//   communication     → communication style paragraph
-//   hidden            → inner self / hidden traits paragraph
-//   domains           → { career, relationships, wealth, health }
+// Fields (9-section schema — DOC4 §4):
+//   name, sub              → display title
+//   rulingRealm            → { phrase, desc } — psychological territory [FREE]
+//   chips[]                → 5 TG-specific behavioral tags [FREE]
+//   outputs[]              → { phrase, desc } × 3 — what force generates well-placed [FREE]
+//   frictions[]            → { phrase, desc } × 3 — structural patterns when misaligned [FREE]
+//   gifts, shadows         → 3 items each [FREE/PRO]
+//   hiddenDynamic          → one paragraph — inner mechanism beneath surface [PRO]
+//   domainSignatures       → { career, relationships, wealth, health }
 //     each: {
-//       sig: int,        // 1–5 — how strongly this TG governs this domain
-//                        // 5=primary · 4=high · 3=moderate · 2=secondary · 1=minimal
+//       sig: int,            // 1–5 significance weight (DOC4 §4 sig table)
 //       sig_female: int|null,  // override for female users (六亲 relationship stars)
 //       sig_male:   int|null,  // override for male users
-//       text: string,   // Pro — domain pattern signature for this TG
-//                        // Written as: what recurring situation/pattern does this
-//                        // TG keep creating in this domain? NOT a personality desc.
+//       mechanism: string,   // section title — evocative phrase naming TG's territory here
+//       text: string,        // Pro — two-angle paragraph: (1) what force produces here,
+//                            //   (2) what it reveals about person in this domain. ~80–100w.
 //     }
-//     Rendering: show domains at sig ≥ 3 by default; sig ≥ 4 at full prominence.
-//     Gender overrides (sig_female/sig_male) are used when user gender is known.
-//     Classical 六亲 basis: 官杀 = husband star (female) / authority (all);
-//       财 = wife star (male) / wealth (all); 食伤 = children star (female);
-//       印 = mother energy (all). See DOC4 §4 reference table.
-//   people            → 六亲 description paragraph
-//   liunian           → 流年大运 event signatures paragraph
+//     Rendering: sig ≥ 4 → included at full depth. sig ≤ 3 → excluded entirely.
+//     Gender overrides used when user gender is known.
+//     Classical 六亲 basis: 官杀 = husband star (female); 财 = wife star (male).
+//     See DOC4 §4 qualifying domains table (15 combinations).
+//   sixRelations           → 六亲 description paragraph [PRO]
+//   liunianSignatures      → 流年大运 event signatures paragraph [PRO]
 // ═══════════════════════════════════════════════════════════════════════════
 
 // SOURCE: Free + Pro tier · Ten God personality and domain fields
@@ -850,9 +1189,21 @@ export const TG_CARD_DATA = {
     // The Mirror — Same nature, same register
     name: "The Mirror",  // [INTERNAL · display label]  // [INTERNAL · display label]
     sub: "Same nature, same register",  // [INTERNAL · display label]  // [INTERNAL · display label]
-    realmPhrase: `Inner Validation — the ego's private standard`,  // [FREE]  // [FREE]
-    realmDesc: `The part of a person that measures everything against their own internal benchmark before anything else. Not comparison with others — comparison with the self. Self-sufficiency is not a strategy here; it is the default operating mode.`,  // [FREE]  // [FREE]
-    keywords: ["Self-reliant", "Consistent", "Principled", "Insular", "Complete"],  // [FREE · personality chips]  // [FREE · personality chips]
+    rulingRealm: {
+      phrase: `Inner Validation — the ego's private standard`,  // [FREE]
+      desc: `The part of a person that measures everything against their own internal benchmark before anything else. Not comparison with others — comparison with the self. Self-sufficiency is not a strategy here; it is the default operating mode.`,  // [FREE]
+    },  // [FREE]
+    chips: ["Self-reliant", "Consistent", "Principled", "Insular", "Complete"],  // [FREE · personality chips]
+    outputs: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
+    frictions: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
     gifts: [  // [FREE · first 2–3  /  PRO · all]  // [FREE · first 2–3  /  PRO · all]
       `Unwavering conviction under genuine pressure — the same person in every room, every context, every crisis`,
     `Never loses themselves in what others want; the core standard holds regardless of what the environment offers`,
@@ -863,38 +1214,52 @@ export const TG_CARD_DATA = {
     `Loneliness of completeness: surrounded by people and still fundamentally alone unless extraordinary peers are present`,
     `New information that contradicts existing conviction gets processed as irrelevant rather than challenging`,
     ],
-    decision: `Self-referencing — trusts their own read above all consensus. Filters new information through existing conviction. Decides quickly but resists revising. The weakness is not arrogance but structure: the system is complete enough that discrepant input doesn't create internal urgency to reconsider.`,  // [PRO]  // [PRO]
-    communication: `Direct, consistent, doesn't modulate the message for different audiences. What they say is what they think. No performance in it — which can read as cold to those expecting social calibration.`,  // [PRO]  // [PRO]
-    hidden: `Beneath the self-sufficiency is a deep need for peers who are genuinely equal — not admirers, not subordinates, but someone who can actually meet them at the level they operate. The specific loneliness is not about being alone. It is about being surrounded by people who engage with the surface rather than the depth.`,  // [PRO]  // [PRO]
-    domains: {  // [PRO]  // [PRO]
+    hiddenDynamic: `Beneath the self-sufficiency is a deep need for peers who are genuinely equal — not admirers, not subordinates, but someone who can actually meet them at the level they operate. The specific loneliness is not about being alone. It is about being surrounded by people who engage with the surface rather than the depth.`,  // [PRO]
+    domainSignatures: {  // [PRO]
       career: {
+        sig: 3,
         mechanism: "比肩 → independent judgment, exceptional depth in native domain",
         text: `Excels in roles requiring sustained conviction and independent judgment. The self-amplification produces unusual depth. Collaboration is structurally harder because the reference point is always internal — genuine compromise feels like compromise of the standard itself.`,
       },
       relationships: {
+        sig: 4,
         mechanism: "比肩 → peer dynamics, identity pressure, resource contention with equals",
         text: `Needs a peer who can actually meet them — not someone who defers. Tends to attract people who want to be near the self-sufficiency rather than genuine equals. The pattern: respected and relied upon, but not truly known.`,
       },
       wealth: {
+        sig: 2,
         mechanism: "比肩 → independent income, personal standards drive earning",
         text: `Earns through their own effort and internally validated standards. Won't monetize things they don't believe in. Independent income sources strongly preferred over institutional dependency.`,
       },
       health: {
+        sig: 2,
         mechanism: "比肩 → self-monitoring calibrated to output, depletion unrecognized",
         text: `Tends not to recognize depletion because the self-monitoring system is calibrated to output. Runs on conviction past the point where the body signals readiness to stop. Rest has to be decided, not felt.`,
       },
     },
-    people: `比肩 classically represents siblings and same-status peers — people who share your nature and move in your territory. In the broader life: close friends who genuinely get it without explanation, the rare equals who don't defer. In less healthy expressions: the peers whose similarity makes them competitors for the same recognition.`,  // [PRO]  // [PRO]
-    liunian: `A 比肩 year or period brings increased peer competition, resource contention with those most similar, and pressure on the established identity. For charts that benefit: confidence, clarity of self, decisive independent action. For charts where 比肩 is resistance: conflict with equals, loss through competition, an identity challenge that forces honest self-examination.`,  // [PRO]  // [PRO]
+    sixRelations: `比肩 classically represents siblings and same-status peers — people who share your nature and move in your territory. In the broader life: close friends who genuinely get it without explanation, the rare equals who don't defer. In less healthy expressions: the peers whose similarity makes them competitors for the same recognition.`,  // [PRO]
+    liunianSignatures: `A 比肩 year or period brings increased peer competition, resource contention with those most similar, and pressure on the established identity. For charts that benefit: confidence, clarity of self, decisive independent action. For charts where 比肩 is resistance: conflict with equals, loss through competition, an identity challenge that forces honest self-examination.`,  // [PRO]
   },
 
   "劫财": {
     // The Rival — Same nature, different register
     name: "The Rival",  // [INTERNAL · display label]  // [INTERNAL · display label]
     sub: "Same nature, different register",  // [INTERNAL · display label]  // [INTERNAL · display label]
-    realmPhrase: `Social Performance — the ego measured against its nearest competition`,  // [FREE]  // [FREE]
-    realmDesc: `The part of a person that measures itself against others occupying the same territory. Not the internal standard of 比肩 but the comparative ego — what am I relative to the people most like me? The reference point is always lateral.`,  // [FREE]  // [FREE]
-    keywords: ["Competitive", "Comparative", "Socially driven", "Resource-aware", "Sharp"],  // [FREE · personality chips]  // [FREE · personality chips]
+    rulingRealm: {
+      phrase: `Social Performance — the ego measured against its nearest competition`,  // [FREE]
+      desc: `The part of a person that measures itself against others occupying the same territory. Not the internal standard of 比肩 but the comparative ego — what am I relative to the people most like me? The reference point is always lateral.`,  // [FREE]
+    },  // [FREE]
+    chips: ["Competitive", "Comparative", "Socially driven", "Resource-aware", "Sharp"],  // [FREE · personality chips]
+    outputs: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
+    frictions: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
     gifts: [  // [FREE · first 2–3  /  PRO · all]  // [FREE · first 2–3  /  PRO · all]
       `Genuine clarity about where the actual edges of capability lie — real peers reveal real limits`,
     `The competitive register sharpens rather than diminishes when healthy: you become more precisely what you are through the comparison`,
@@ -905,38 +1270,52 @@ export const TG_CARD_DATA = {
     `Collaboration with the people most similar is structurally the hardest relationship to sustain`,
     `Validation from genuine peers lands harder than victory over those who don't understand the territory`,
     ],
-    decision: `Comparative — calibrates against what similar others are doing or have achieved before committing. Lateral reference is the primary frame. Can delay decisions while reading the field.`,  // [PRO]  // [PRO]
-    communication: `Asserts position, especially within shared territory. Socially aware and reads status accurately. Can be competitive in delivery without intending aggression — the natural register within the domain is assertion rather than collaboration.`,  // [PRO]  // [PRO]
-    hidden: `Underneath the rivalry is a specific, rarely admitted desire: genuine recognition from exactly the people most like them. Not recognition from outsiders — that lands hollow. The need is for the specific peer who understands what the achievement cost to acknowledge it as real.`,  // [PRO]  // [PRO]
-    domains: {  // [PRO]  // [PRO]
+    hiddenDynamic: `Underneath the rivalry is a specific, rarely admitted desire: genuine recognition from exactly the people most like them. Not recognition from outsiders — that lands hollow. The need is for the specific peer who understands what the achievement cost to acknowledge it as real.`,  // [PRO]
+    domainSignatures: {  // [PRO]
       career: {
+        sig: 3,
         mechanism: "劫财 → lateral competition, peer performance benchmarking",
         text: `Thrives in competitive environments where performance is measured against others — fields with visible rankings and clear standards. The comparison drive produces real results when channeled toward the work rather than toward the rival.`,
       },
       relationships: {
+        sig: 3,
         mechanism: "劫财 → rivalry with similar partners, resource contention",
         text: `Most significant relationships are with people most similar to them. Sharing resources with someone in the same lane feels like giving something away. The specific challenge: genuine collaboration with the people who most deserve it.`,
       },
       wealth: {
+        sig: 5,
         mechanism: "劫财 → resource contention, competitive wealth dynamics",
         text: `Resource contention with peers is a recurring pattern. The competitive orientation can produce genuine wealth when directed toward building rather than measuring. Risk: losing resources to rivalry.`,
       },
       health: {
+        sig: 2,
         mechanism: "劫财 → competitive overperformance, external calibration of limits",
         text: `Competitive orientation produces overperformance relative to the body's actual capacity — pushing past physical limits to match or exceed a rival. The self-monitoring calibrates to the external reference rather than internal signals.`,
       },
     },
-    people: `劫财 classically represents brothers and sisters of a different nature, rivals, and those who share resources. In modern life: business partners who become competitors, colleagues in the same domain, the sibling whose achievements are the reference point.`,  // [PRO]  // [PRO]
-    liunian: `A 劫财 year or period intensifies competition from peers, brings resource loss risks through rivalry, and activates the comparative drive. For charts that benefit: the competition produces genuine performance — this can be a defining year. For charts where 劫财 is resistance: betrayal by those most similar, loss of shared resources.`,  // [PRO]  // [PRO]
+    sixRelations: `劫财 classically represents brothers and sisters of a different nature, rivals, and those who share resources. In modern life: business partners who become competitors, colleagues in the same domain, the sibling whose achievements are the reference point.`,  // [PRO]
+    liunianSignatures: `A 劫财 year or period intensifies competition from peers, brings resource loss risks through rivalry, and activates the comparative drive. For charts that benefit: the competition produces genuine performance — this can be a defining year. For charts where 劫财 is resistance: betrayal by those most similar, loss of shared resources.`,  // [PRO]
   },
 
   "食神": {
     // The Flow — Same-polarity output — giving that feels like being
     name: "The Flow",  // [INTERNAL · display label]  // [INTERNAL · display label]
     sub: "Same-polarity output — giving that feels like being",  // [INTERNAL · display label]  // [INTERNAL · display label]
-    realmPhrase: `Authentic Expression — output that happens before strategy`,  // [FREE]  // [FREE]
-    realmDesc: `食神吐秀 (the Food God expresses elegance): refined Qi moving outward without announcement. What flows out when the self is fully itself — not the assertion of 伤官, not the pressure of 七杀, just the natural emergence of what the DM generates when nothing is in the way.`,  // [FREE]  // [FREE]
-    keywords: ["Generous", "Expressive", "Effortless", "Non-assertive", "Pleasurable"],  // [FREE · personality chips]  // [FREE · personality chips]
+    rulingRealm: {
+      phrase: `Authentic Expression — output that happens before strategy`,  // [FREE]
+      desc: `食神吐秀 (the Food God expresses elegance): refined Qi moving outward without announcement. What flows out when the self is fully itself — not the assertion of 伤官, not the pressure of 七杀, just the natural emergence of what the DM generates when nothing is in the way.`,  // [FREE]
+    },  // [FREE]
+    chips: ["Generous", "Expressive", "Effortless", "Non-assertive", "Pleasurable"],  // [FREE · personality chips]
+    outputs: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
+    frictions: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
     gifts: [  // [FREE · first 2–3  /  PRO · all]  // [FREE · first 2–3  /  PRO · all]
       `Output arrives without effort or announcement — what they produce has the quality of something that simply happened rather than something that was made`,
     `Natural elegance that others experience as a gift rather than a performance; the giving doesn't register as giving from the inside`,
@@ -947,38 +1326,52 @@ export const TG_CARD_DATA = {
     `食神过旺则泄身太过: the over-extension into what feels natural depletes the foundation without signaling beforehand`,
     `Tends to undervalue what flows naturally — because it doesn't feel like work, it's often undersold or given away`,
     ],
-    decision: `Instinct-led, trusts the natural process. Decides when it feels ready rather than when the moment is optimal. Resistant to external deadlines on creative or expressive work.`,  // [PRO]  // [PRO]
-    communication: `Communicates naturally without performing the message — what they say emerges from being fully themselves rather than from strategy. Warm, generative, unforced. Others often feel genuinely nourished by the exchange.`,  // [PRO]  // [PRO]
-    hidden: `Beneath the natural generosity is often a specific unawareness that giving is happening at all — the output doesn't register as effort, which means neither does the depletion. By the time they feel genuinely exhausted, they've been running on reserves for longer than anyone knew.`,  // [PRO]  // [PRO]
-    domains: {  // [PRO]  // [PRO]
+    hiddenDynamic: `Beneath the natural generosity is often a specific unawareness that giving is happening at all — the output doesn't register as effort, which means neither does the depletion. By the time they feel genuinely exhausted, they've been running on reserves for longer than anyone knew.`,  // [PRO]
+    domainSignatures: {  // [PRO]
       career: {
+        sig: 4,
         mechanism: "食神 → natural output becomes the product, authentic production capacity",
         text: `Excels in roles where what flows naturally IS the product — creative work, teaching, mentoring. Struggles in highly structured environments that require output to be performed rather than expressed.`,
       },
       relationships: {
+        sig: 2,
         mechanism: "食神 → naturally nourishing, structural generosity, reciprocity gap risk",
         text: `Naturally nourishing to be near — people feel genuinely fed without being able to account for why. The pattern to watch: attracting those who receive well without giving back, because the giving never seems costly.`,
       },
       wealth: {
+        sig: 3,
         mechanism: "食神 → natural production capacity, undervaluation risk",
         text: `Can generate real financial value through authentic creative output. The recurring risk: what flows naturally doesn't feel like it should cost money, so it gets given away or undersold.`,
       },
       health: {
+        sig: 4,
         mechanism: "食神 → invisible depletion, DM element bears the output load",
         text: `食神过旺 produces genuine physical depletion that arrives without warning because the cost was invisible at every intermediate stage. Restoration requires genuine rest, not just reduced output.`,
       },
     },
-    people: `食神 classically represents children (especially for female DMs) and the people who receive the natural output. In modern life: mentees nourished without effort, creative collaborators who receive what flows naturally. Also: the physical pleasures of life — food, art, rest, anything that produces without asserting.`,  // [PRO]  // [PRO]
-    liunian: `A 食神 year or period brings creative flourishing, ease, genuine pleasure, and opportunities for authentic expression. For aligned charts: a genuinely good period — one of the few kinds of years where things feel right. For excess 食神: over-extension, depletion, difficulty stopping.`,  // [PRO]  // [PRO]
+    sixRelations: `食神 classically represents children (especially for female DMs) and the people who receive the natural output. In modern life: mentees nourished without effort, creative collaborators who receive what flows naturally. Also: the physical pleasures of life — food, art, rest, anything that produces without asserting.`,  // [PRO]
+    liunianSignatures: `A 食神 year or period brings creative flourishing, ease, genuine pleasure, and opportunities for authentic expression. For aligned charts: a genuinely good period — one of the few kinds of years where things feel right. For excess 食神: over-extension, depletion, difficulty stopping.`,  // [PRO]
   },
 
   "伤官": {
     // The Edge — Cross-polarity output — brilliance made of what it meets
     name: "The Edge",  // [INTERNAL · display label]  // [INTERNAL · display label]
     sub: "Cross-polarity output — brilliance made of what it meets",  // [INTERNAL · display label]  // [INTERNAL · display label]
-    realmPhrase: `Rebellion Logic — output that structurally exceeds its container`,  // [FREE]  // [FREE]
-    realmDesc: `伤官者，聪明秀气太过: "Hurting Officer people are excessively brilliant and refined." The excess is structural, not attitudinal — the intelligence genuinely exceeds the frameworks available to receive it, so it pushes against them as a side effect of expressing itself.`,  // [FREE]  // [FREE]
-    keywords: ["Brilliant", "Subversive", "Friction-constituted", "Non-conformist", "Ahead"],  // [FREE · personality chips]  // [FREE · personality chips]
+    rulingRealm: {
+      phrase: `Rebellion Logic — output that structurally exceeds its container`,  // [FREE]
+      desc: `伤官者，聪明秀气太过: "Hurting Officer people are excessively brilliant and refined." The excess is structural, not attitudinal — the intelligence genuinely exceeds the frameworks available to receive it, so it pushes against them as a side effect of expressing itself.`,  // [FREE]
+    },  // [FREE]
+    chips: ["Brilliant", "Subversive", "Friction-constituted", "Non-conformist", "Ahead"],  // [FREE · personality chips]
+    outputs: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
+    frictions: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
     gifts: [  // [FREE · first 2–3  /  PRO · all]  // [FREE · first 2–3  /  PRO · all]
       `Genuine structural advancement — the work moves something forward in ways people working within convention cannot produce`,
     `The brilliance is sharpened by exactly what resists it; the friction is part of the mechanism that makes the output what it is`,
@@ -989,38 +1382,52 @@ export const TG_CARD_DATA = {
     `Self-destruction when the output has nowhere adequate to land: the force that produces breakthroughs turns inward`,
     `The brilliance and the difficulty are inseparable — improving the one without the other is not available`,
     ],
-    decision: `Challenges assumptions before deciding. Tends to decide against the conventional option not from perversity but because the conventional option is structurally insufficient. Independent of precedent.`,  // [PRO]  // [PRO]
-    communication: `Communicates with brilliance that challenges — the message often disrupts the framework of the listener as a side effect. 伤官见官 describes the specific friction with authority figures: the output challenges the framework regardless of whether challenge was intended.`,  // [PRO]  // [PRO]
-    hidden: `The specific interior cost that goes mostly unspoken: knowing you've just broken something that can't be unbroken — in a conversation, in a relationship — and not being certain whether that was necessary or excessive. The brilliance and the destruction arrived together.`,  // [PRO]  // [PRO]
-    domains: {  // [PRO]  // [PRO]
+    hiddenDynamic: `The specific interior cost that goes mostly unspoken: knowing you've just broken something that can't be unbroken — in a conversation, in a relationship — and not being certain whether that was necessary or excessive. The brilliance and the destruction arrived together.`,  // [PRO]
+    domainSignatures: {  // [PRO]
       career: {
+        sig: 5,
         mechanism: "伤官 → innovation, disruption, structural advancement beyond convention",
         text: `Exceptional in roles requiring genuine creative innovation or disruption — entrepreneurship, research, independent creative practice. Deeply unsuited to politically managed hierarchies where 伤官见官 produces constant institutional friction.`,
       },
       relationships: {
+        sig: 3,
         mechanism: "伤官 → intensity, friction as intimacy, container requirements",
         text: `Others are drawn to the brilliance and encounter the friction as inseparable from it. The relationships that hold are those that can contain the full force. Intensity deepens some relationships and exhausts others.`,
       },
       wealth: {
+        sig: 3,
         mechanism: "伤官 → edge output seeking adequate container, timing critical",
         text: `Can generate significant wealth when the output finds the right market or moment. The risk: the output is structurally ahead of what current audiences can receive, so timing is everything.`,
       },
       health: {
+        sig: 3,
         mechanism: "伤官 → internal pressure when output has no channel, DM element depleted",
         text: `When the output has nowhere to land, the friction turns inward. The body bears the cost of sustained structural tension between what is produced and what the environment can receive.`,
       },
     },
-    people: `伤官 classically represents children with challenging or expressive natures, creative collaborators who push the work further through friction, and the authority figures who constitute the structural resistance. Also: the person whose work the institution can't quite fit into existing categories.`,  // [PRO]  // [PRO]
-    liunian: `A 伤官 year or period brings creative breakthroughs, authority conflicts, and moments of genuine originality. For aligned charts: a significant output year — the defining work of a period often emerges during 伤官 activations. For charts where it creates friction: things said publicly that can't be unsaid.`,  // [PRO]  // [PRO]
+    sixRelations: `伤官 classically represents children with challenging or expressive natures, creative collaborators who push the work further through friction, and the authority figures who constitute the structural resistance. Also: the person whose work the institution can't quite fit into existing categories.`,  // [PRO]
+    liunianSignatures: `A 伤官 year or period brings creative breakthroughs, authority conflicts, and moments of genuine originality. For aligned charts: a significant output year — the defining work of a period often emerges during 伤官 activations. For charts where it creates friction: things said publicly that can't be unsaid.`,  // [PRO]
   },
 
   "偏财": {
     // The Field — Same-polarity wealth — wide-ranging engagement
     name: "The Field",  // [INTERNAL · display label]  // [INTERNAL · display label]
     sub: "Same-polarity wealth — wide-ranging engagement",  // [INTERNAL · display label]  // [INTERNAL · display label]
-    realmPhrase: `Risk/Opportunistic Vision — seeing potential before others recognize it`,  // [FREE]  // [FREE]
-    realmDesc: `The part of a person that sees potential in everything and moves toward it broadly. Not the focused accumulation of 正财 but the ranging appetite that touches many things and activates what others walked past.`,  // [FREE]  // [FREE]
-    keywords: ["Generous", "Opportunity-sensing", "Wide-ranging", "Socially fluid", "Diffuse"],  // [FREE · personality chips]  // [FREE · personality chips]
+    rulingRealm: {
+      phrase: `Risk/Opportunistic Vision — seeing potential before others recognize it`,  // [FREE]
+      desc: `The part of a person that sees potential in everything and moves toward it broadly. Not the focused accumulation of 正财 but the ranging appetite that touches many things and activates what others walked past.`,  // [FREE]
+    },  // [FREE]
+    chips: ["Generous", "Opportunity-sensing", "Wide-ranging", "Socially fluid", "Diffuse"],  // [FREE · personality chips]
+    outputs: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
+    frictions: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
     gifts: [  // [FREE · first 2–3  /  PRO · all]  // [FREE · first 2–3  /  PRO · all]
       `Instinctive sense for potential before it's visible — the read on what's worth engaging arrives before the evidence does`,
     `Natural abundance that activates things and people in its vicinity; others find opportunities and connections through proximity`,
@@ -1031,38 +1438,54 @@ export const TG_CARD_DATA = {
     `Activates without consolidating: builds real things that other people end up keeping`,
     `What is never fully possessed can be lost without the person fully registering what they had`,
     ],
-    decision: `Opportunity-seeking, evaluates broad options simultaneously rather than sequentially. Makes decisions quickly based on intuitive read of potential. Tends toward distributed risk. Doesn't overanalyze.`,  // [PRO]  // [PRO]
-    communication: `Casual, broad, comfortable across many registers and audiences. The social intelligence is wide rather than deep. Can create genuine connection quickly across very different kinds of people.`,  // [PRO]  // [PRO]
-    hidden: `The interior truth that rarely gets named: everything feels equally interesting and equally possible, which is both the gift and the structural trap. The inability to fully invest in any one thing is not indecision — it is the nature of the ranging quality.`,  // [PRO]  // [PRO]
-    domains: {  // [PRO]  // [PRO]
+    hiddenDynamic: `The interior truth that rarely gets named: everything feels equally interesting and equally possible, which is both the gift and the structural trap. The inability to fully invest in any one thing is not indecision — it is the nature of the ranging quality.`,  // [PRO]
+    domainSignatures: {  // [PRO]
       career: {
+        sig: 3,
         mechanism: "偏财 → ranging intelligence, opportunity activation across many domains",
         text: `Thrives in sales, business development, entrepreneurship, and any role where moving across many domains and activating opportunity is the primary value. The ranging intelligence IS the product.`,
       },
       relationships: {
+        sig: 3,
+        sig_male: 5,  // 六亲: 财 is partner star for male
+        sig_female: null,
         mechanism: "偏财 → broad warmth, elusive depth, diffuse investment",
         text: `Charming and genuinely warm across many connections, but full depth with any single person is harder than breadth across many. Partners often feel the warmth is real but the full presence is somehow always partially elsewhere.`,
       },
       wealth: {
+        sig: 5,
         mechanism: "偏财 → multiple income streams, generation over accumulation",
         text: `Natural sense for where money can be made, especially through opportunity and social connection. Usually better at generating wealth than keeping it. Multiple income streams natural and preferred.`,
       },
       health: {
+        sig: 2,
         mechanism: "偏财 → breadth depletes, rest deprioritized, paternal lineage",
         text: `Involvement in so many things makes genuine rest genuinely rare. The body's signals for slowing down tend to be treated as opportunities for new engagement. Classically relates to the father and paternal lineage in health pattern transmission.`,
       },
     },
-    people: `偏财 classically represents the father (for male DMs), indirect wealth sources, and casual romantic relationships. In modern life: the broader social field — many people are activated by the 偏财 person's presence, fewer are deeply held. Also: business contacts who bring opportunity without lasting partnership.`,  // [PRO]  // [PRO]
-    liunian: `A 偏财 year or period brings unexpected financial opportunities, father-related events, expanded social networks, and activation of the opportunity field. For aligned charts: genuine windfalls, new income streams. For charts where 偏财 is friction: scattered resources, father health issues, overcommitment.`,  // [PRO]  // [PRO]
+    sixRelations: `偏财 classically represents the father (for male DMs), indirect wealth sources, and casual romantic relationships. In modern life: the broader social field — many people are activated by the 偏财 person's presence, fewer are deeply held. Also: business contacts who bring opportunity without lasting partnership.`,  // [PRO]
+    liunianSignatures: `A 偏财 year or period brings unexpected financial opportunities, father-related events, expanded social networks, and activation of the opportunity field. For aligned charts: genuine windfalls, new income streams. For charts where 偏财 is friction: scattered resources, father health issues, overcommitment.`,  // [PRO]
   },
 
   "正财": {
     // The Harvest — Cross-polarity wealth — methodical, directed acquisition
     name: "The Harvest",  // [INTERNAL · display label]  // [INTERNAL · display label]
     sub: "Cross-polarity wealth — methodical, directed acquisition",  // [INTERNAL · display label]  // [INTERNAL · display label]
-    realmPhrase: `Wealth/Security Anxiety — the standard applied to what is held`,  // [FREE]  // [FREE]
-    realmDesc: `The part of a person that evaluates what it has built and whether it is worthy of the standard applied in building it. Not greed — a specific relationship to security in which the evaluating apparatus that produced the quality also asks whether the quality is sufficient.`,  // [FREE]  // [FREE]
-    keywords: ["Methodical", "Disciplined", "Earned", "Evaluative", "Security-oriented"],  // [FREE · personality chips]  // [FREE · personality chips]
+    rulingRealm: {
+      phrase: `Wealth/Security Anxiety — the standard applied to what is held`,  // [FREE]
+      desc: `The part of a person that evaluates what it has built and whether it is worthy of the standard applied in building it. Not greed — a specific relationship to security in which the evaluating apparatus that produced the quality also asks whether the quality is sufficient.`,  // [FREE]
+    },  // [FREE]
+    chips: ["Methodical", "Disciplined", "Earned", "Evaluative", "Security-oriented"],  // [FREE · personality chips]
+    outputs: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
+    frictions: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
     gifts: [  // [FREE · first 2–3  /  PRO · all]  // [FREE · first 2–3  /  PRO · all]
       `Real, earned results that hold up over time — the relationship between effort and outcome is clear and verifiable`,
     `Unusual reliability: once committed, follows through across time without requiring re-motivation`,
@@ -1073,38 +1496,54 @@ export const TG_CARD_DATA = {
     `正财 precision can turn on what it values: asking whether a relationship is worthy of the standard used to build it`,
     `The security anxiety doesn't resolve at achievement — the standard moves just past wherever the building has arrived`,
     ],
-    decision: `Methodical, researches fully, conservative risk profile. Needs the evidence before committing. Once committed, sees it through with unusual reliability. The specific weakness: over-research on decisions that required timely commitment.`,  // [PRO]  // [PRO]
-    communication: `Precise and considered — the specific thing said is the specific thing meant. Doesn't expand unnecessarily. Finds vague or performative communication genuinely frustrating because it creates ambiguity.`,  // [PRO]  // [PRO]
-    hidden: `Beneath the methodical exterior is a specific quiet anxiety: the fear that what has been built carefully is somehow still not enough to be safe, not worthy enough to be kept. The standard that produced the quality is also what makes resting in the result genuinely difficult.`,  // [PRO]  // [PRO]
-    domains: {  // [PRO]  // [PRO]
+    hiddenDynamic: `Beneath the methodical exterior is a specific quiet anxiety: the fear that what has been built carefully is somehow still not enough to be safe, not worthy enough to be kept. The standard that produced the quality is also what makes resting in the result genuinely difficult.`,  // [PRO]
+    domainSignatures: {  // [PRO]
       career: {
+        sig: 3,
         mechanism: "正财 → methodical execution, earned reputation, demonstrable quality",
         text: `Best in roles where methodical, disciplined execution produces visible, trackable results — finance, law, engineering, operations. The career trajectory is typically slower than peers but more structurally durable.`,
       },
       relationships: {
+        sig: 3,
+        sig_male: 5,  // 六亲: 财 is partner star for male
+        sig_female: null,
         mechanism: "正财 → committed, present across time, quality-assessing",
         text: `Committed, reliable, genuinely present across time. The shadow: applies the evaluating standard to the relationship itself. The partner and the dynamic are assessed for whether they are worthy of the investment being made.`,
       },
       wealth: {
+        sig: 5,
         mechanism: "正财 → methodical accumulation, conservative risk, wealth held and evaluated",
         text: `Methodical accumulation, conservative risk, genuine building over time. Usually better at keeping wealth than generating it quickly. The specific risk: the evaluating apparatus keeps asking whether the current financial position is truly sufficient.`,
       },
       health: {
+        sig: 2,
         mechanism: "正财 → controlled disciplined approach to body, rigidity risk",
         text: `Tends to apply the same disciplined control to the body as to external resources. Excess 正财 produces bodily rigidity — the body is managed rather than listened to.`,
       },
     },
-    people: `正财 classically represents the spouse (for male DMs) and the primary committed relationship. Also: direct income sources, reliable employers and providers, the institutions that pay fairly for demonstrated work.`,  // [PRO]  // [PRO]
-    liunian: `A 正财 year or period brings financial consolidation, committed relationship events (marriage, formal partnership), and opportunities to harvest what was methodically built. For aligned charts: genuine stability and tangible reward. For charts where 正财 creates friction: over-control of resources, relationship strain from applying the evaluating standard too strictly.`,  // [PRO]  // [PRO]
+    sixRelations: `正财 classically represents the spouse (for male DMs) and the primary committed relationship. Also: direct income sources, reliable employers and providers, the institutions that pay fairly for demonstrated work.`,  // [PRO]
+    liunianSignatures: `A 正财 year or period brings financial consolidation, committed relationship events (marriage, formal partnership), and opportunities to harvest what was methodically built. For aligned charts: genuine stability and tangible reward. For charts where 正财 creates friction: over-control of resources, relationship strain from applying the evaluating standard too strictly.`,  // [PRO]
   },
 
   "七杀": {
     // The Trial — Same-polarity authority — pressure that doesn't grant permission
     name: "The Trial",  // [INTERNAL · display label]  // [INTERNAL · display label]
     sub: "Same-polarity authority — pressure that doesn't grant permission",  // [INTERNAL · display label]  // [INTERNAL · display label]
-    realmPhrase: `Survival Instinct / Trauma / Resilience — forged, not developed`,  // [FREE]  // [FREE]
-    realmDesc: `七杀制伏得宜，反为权贵: "When Seven Killings are properly channeled, they produce genuine authority." The force that presses against the DM without moderation, without asking whether it is ready. What gets produced — when resources are adequate — is character that could only have come from that specific pressure.`,  // [FREE]  // [FREE]
-    keywords: ["Forged", "Resilient", "Intense", "Non-permissioned", "Bifurcated"],  // [FREE · personality chips]  // [FREE · personality chips]
+    rulingRealm: {
+      phrase: `Survival Instinct / Trauma / Resilience — forged, not developed`,  // [FREE]
+      desc: `七杀制伏得宜，反为权贵: "When Seven Killings are properly channeled, they produce genuine authority." The force that presses against the DM without moderation, without asking whether it is ready. What gets produced — when resources are adequate — is character that could only have come from that specific pressure.`,  // [FREE]
+    },  // [FREE]
+    chips: ["Forged", "Resilient", "Intense", "Non-permissioned", "Bifurcated"],  // [FREE · personality chips]
+    outputs: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
+    frictions: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
     gifts: [  // [FREE · first 2–3  /  PRO · all]  // [FREE · first 2–3  /  PRO · all]
       `What others carry as developed virtue, this person carries as the residue of surviving something that did not offer the option to fail gracefully`,
     `The character that only sustained adversarial pressure without permission produces — it cannot be imitated by those who haven't been through the equivalent`,
@@ -1115,38 +1554,54 @@ export const TG_CARD_DATA = {
     `Does not moderate itself, does not ask whether the moment warrants the full force`,
     `The bifurcation is genuine: not a spectrum, not a middle outcome — the pressure either forges or breaks`,
     ],
-    decision: `Decides under pressure — either sharply decisive when resources are adequate, or paralyzed when they're not. Doesn't hedge well; tends toward all-or-nothing commitment.`,  // [PRO]  // [PRO]
-    communication: `Direct, unmoderated, doesn't soften delivery. The message arrives at full force. Says the thing without waiting for the listener to be ready for it.`,  // [PRO]  // [PRO]
-    hidden: `What rarely gets named: the quiet exhaustion of having been forged and knowing exactly what it cost. Not pride in the resilience — something quieter, closer to grief about what was required to become this. The question that runs beneath the authority: whether what was built through surviving was worth what was lost in the surviving.`,  // [PRO]  // [PRO]
-    domains: {  // [PRO]  // [PRO]
+    hiddenDynamic: `What rarely gets named: the quiet exhaustion of having been forged and knowing exactly what it cost. Not pride in the resilience — something quieter, closer to grief about what was required to become this. The question that runs beneath the authority: whether what was built through surviving was worth what was lost in the surviving.`,  // [PRO]
+    domainSignatures: {  // [PRO]
       career: {
+        sig: 5,
         mechanism: "七杀 → adversarial pressure tolerance, genuine authority under fire",
         text: `Exceptional in roles requiring genuine pressure-tolerance and leadership under adversity — emergency work, high-stakes entrepreneurship, competitive performance, crisis management. The authority that comes from demonstrated survival is recognized differently from institutional authority.`,
       },
       relationships: {
+        sig: 4,
+        sig_female: 5,  // 六亲: 官杀 is partner star for female
+        sig_male: null,
         mechanism: "七杀 → intensity, testing without permission, bifurcated outcomes",
         text: `Relationships shaped by 七杀 involve significant pressure, intensity, or adversity. The bifurcation applies here too: relationships are either deeply forged or significantly damaged. Tends to attract challenging partners or bring intensity that others find difficult to sustain.`,
       },
       wealth: {
+        sig: 3,
         mechanism: "七杀 → high-risk/high-reward, non-moderate financial outcomes",
         text: `Can generate significant wealth through high-risk, high-consequence situations that others won't enter. The risk: the same non-permission quality that produces exceptional outcomes also produces exceptional losses when resources run out.`,
       },
       health: {
+        sig: 4,
         mechanism: "七杀 → chronic high-pressure operation, DM element depleted by adversarial force",
         text: `The body bears the cost of sustained adversarial operation. Even when external pressure subsides, the internal system calibrated for it doesn't easily downregulate.`,
       },
     },
-    people: `七杀 classically for female DMs represents husband and romantic partners. More broadly: bosses who don't grant permission, adversaries, challenging authority figures who test without validating, the people who shaped you through pressure rather than warmth.`,  // [PRO]  // [PRO]
-    liunian: `A 七杀 year or period brings adversarial pressure, significant challenges, potential crises — and, when resources are adequate, genuine breakthroughs and real authority. For aligned charts with adequate resources: the forge produces something remarkable. For depleted charts: breakdown, burnout, forced confrontations that leave lasting damage.`,  // [PRO]  // [PRO]
+    sixRelations: `七杀 classically for female DMs represents husband and romantic partners. More broadly: bosses who don't grant permission, adversaries, challenging authority figures who test without validating, the people who shaped you through pressure rather than warmth.`,  // [PRO]
+    liunianSignatures: `A 七杀 year or period brings adversarial pressure, significant challenges, potential crises — and, when resources are adequate, genuine breakthroughs and real authority. For aligned charts with adequate resources: the forge produces something remarkable. For depleted charts: breakdown, burnout, forced confrontations that leave lasting damage.`,  // [PRO]
   },
 
   "正官": {
     // The Standard — Cross-polarity authority — framework-mediated pressure
     name: "The Standard",  // [INTERNAL · display label]  // [INTERNAL · display label]
     sub: "Cross-polarity authority — framework-mediated pressure",  // [INTERNAL · display label]  // [INTERNAL · display label]
-    realmPhrase: `Social Armor / Good Student Complex — character shaped by chosen structure`,  // [FREE]  // [FREE]
-    realmDesc: `正官端正，主人沉稳，名声好，规则意识强: "Direct Officer upright — the person is calm and settled, with good reputation and strong rule-consciousness." The part of a person that operates within frameworks it has chosen to endorse — not because it has to, but because it has decided the framework is legitimate.`,  // [FREE]  // [FREE]
-    keywords: ["Principled", "Framework-guided", "Reputation-conscious", "Structured", "Institutional"],  // [FREE · personality chips]  // [FREE · personality chips]
+    rulingRealm: {
+      phrase: `Social Armor / Good Student Complex — character shaped by chosen structure`,  // [FREE]
+      desc: `正官端正，主人沉稳，名声好，规则意识强: "Direct Officer upright — the person is calm and settled, with good reputation and strong rule-consciousness." The part of a person that operates within frameworks it has chosen to endorse — not because it has to, but because it has decided the framework is legitimate.`,  // [FREE]
+    },  // [FREE]
+    chips: ["Principled", "Framework-guided", "Reputation-conscious", "Structured", "Institutional"],  // [FREE · personality chips]
+    outputs: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
+    frictions: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
     gifts: [  // [FREE · first 2–3  /  PRO · all]  // [FREE · first 2–3  /  PRO · all]
       `Character shaped by legitimate structure has a specific reliability and orientation — it knows what it's building toward and the framework tells it when it's arrived`,
     `Recognition from institutions carries genuine weight because it was granted by something the person actually respected`,
@@ -1157,38 +1612,54 @@ export const TG_CARD_DATA = {
     `When the framework reveals itself as unworthy, the disorientation is larger than the situation warrants from outside`,
     `The "good student" who did everything right and discovered that institutions don't always work the way their stated rules suggest`,
     ],
-    decision: `Framework-guided — needs a legitimate basis for the decision before committing. Consults precedent, institutional norms, and the opinions of respected authorities. The specific weakness: analysis paralysis when the legitimate framework is unclear or absent.`,  // [PRO]  // [PRO]
-    communication: `Formal, structured, respects the protocol of communication within the relationship. Carries the weight of someone who means what they say within a framework that holds both parties. Doesn't freelance outside agreed terms.`,  // [PRO]  // [PRO]
-    hidden: `The specific interior vulnerability: the person who genuinely followed the rules, who invested years in becoming excellent within the framework, who believed the institution would recognize this — and then discovered that what was stated and what was practiced were not the same thing.`,  // [PRO]  // [PRO]
-    domains: {  // [PRO]  // [PRO]
+    hiddenDynamic: `The specific interior vulnerability: the person who genuinely followed the rules, who invested years in becoming excellent within the framework, who believed the institution would recognize this — and then discovered that what was stated and what was practiced were not the same thing.`,  // [PRO]
+    domainSignatures: {  // [PRO]
       career: {
+        sig: 5,
         mechanism: "正官 → legitimate institutional advancement, meritocratic recognition",
         text: `Excels within legitimate institutional structures — established professions, government, corporate ladders where the rules are genuinely real. The failure mode: institutional environments that operate by stated rules and hidden rules simultaneously.`,
       },
       relationships: {
+        sig: 4,
+        sig_female: 5,  // 六亲: 官杀 is partner star for female
+        sig_male: null,
         mechanism: "正官 → commitment-oriented, framework-defined, endorsement-seeking",
         text: `Commitment-oriented, takes the agreed terms of a relationship seriously, reliable across time. The shadow: applies the institutional framework to relationships — there are implicit rules about what the relationship is, and deviation requires renegotiation.`,
       },
       wealth: {
+        sig: 3,
         mechanism: "正官 → legitimate channels, meritocratic earning, stable accumulation",
         text: `Earns through legitimate, endorsed paths. Conservative and reliable. The risk: wealth opportunities that exist outside conventional legitimacy are difficult to engage because they don't fit the endorsable framework.`,
       },
       health: {
+        sig: 2,
         mechanism: "正官 → institutional health approaches, suppression of DM expression",
         text: `Follows established health frameworks — respected medical guidance, conventional approaches. The shadow: difficulty trusting signals that fall outside the endorsed framework.`,
       },
     },
-    people: `正官 classically for female DMs represents the legitimate husband and primary partnership. More broadly: official mentors, respected authorities who grant genuine recognition, institutional endorsers. The teachers who noticed you. The managers who advocated for you within the system.`,  // [PRO]  // [PRO]
-    liunian: `A 正官 year or period brings recognition from institutions, career appointments, public reputation events, marriage or formal partnership opportunities. For aligned charts: a period of genuine advancement within chosen frameworks. For charts where 正官 is unfavorable: over-regulation, the framework becoming a constraint.`,  // [PRO]  // [PRO]
+    sixRelations: `正官 classically for female DMs represents the legitimate husband and primary partnership. More broadly: official mentors, respected authorities who grant genuine recognition, institutional endorsers. The teachers who noticed you. The managers who advocated for you within the system.`,  // [PRO]
+    liunianSignatures: `A 正官 year or period brings recognition from institutions, career appointments, public reputation events, marriage or formal partnership opportunities. For aligned charts: a period of genuine advancement within chosen frameworks. For charts where 正官 is unfavorable: over-regulation, the framework becoming a constraint.`,  // [PRO]
   },
 
   "偏印": {
     // The Well — Same-polarity resource — nourishment that deepens without redirecting
     name: "The Well",  // [INTERNAL · display label]  // [INTERNAL · display label]
     sub: "Same-polarity resource — nourishment that deepens without redirecting",  // [INTERNAL · display label]  // [INTERNAL · display label]
-    realmPhrase: `Niche/Occult Intelligence — depth in what others don't access`,  // [FREE]  // [FREE]
-    realmDesc: `滋生有源 (nourishment with a continuous source). The part of a person that draws from a deep, unconventional source that others don't have access to or even know exists. The backing that sustains and deepens without redirecting.`,  // [FREE]  // [FREE]
-    keywords: ["Deep", "Unconventional", "Niche", "Self-sustaining", "Psychically aware"],  // [FREE · personality chips]  // [FREE · personality chips]
+    rulingRealm: {
+      phrase: `Niche/Occult Intelligence — depth in what others don't access`,  // [FREE]
+      desc: `滋生有源 (nourishment with a continuous source). The part of a person that draws from a deep, unconventional source that others don't have access to or even know exists. The backing that sustains and deepens without redirecting.`,  // [FREE]
+    },  // [FREE]
+    chips: ["Deep", "Unconventional", "Niche", "Self-sustaining", "Psychically aware"],  // [FREE · personality chips]
+    outputs: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
+    frictions: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
     gifts: [  // [FREE · first 2–3  /  PRO · all]  // [FREE · first 2–3  /  PRO · all]
       `Extraordinary depth in their particular domain because the sustaining source has been deepening it for a long time — a depth others can't replicate through effort alone`,
     `A groundedness that doesn't feel like something worked for; access to frames and knowledge that the mainstream hasn't codified`,
@@ -1199,38 +1670,52 @@ export const TG_CARD_DATA = {
     `Depth without direction: the well deepens but without opening onto new territory`,
     `印多夺食: excess resource smothers output — the nourishment that enables can, in excess, prevent the independent expression of the capability it enabled`,
     ],
-    decision: `Pattern-based, draws on established frameworks from the unconventional source rather than conventional wisdom. Slow to adopt new frameworks because the existing one has been refined over a long time.`,  // [PRO]  // [PRO]
-    communication: `Withheld, communicates through depth rather than volume. Prefers one-on-one over group settings. What is shared tends to be specific and unusual enough that it doesn't land easily in general audiences.`,  // [PRO]  // [PRO]
-    hidden: `Knowing things others don't know, from sources others don't access, in ways that are genuinely difficult to explain or legitimize. The shadow: when the source is removed, discovering that the capacity to generate the depth independently was never fully developed. What makes this structurally different from 正印: same-polarity nourishment deepens what is already there without opening it toward something genuinely new. The well gets deeper. The territory stays the same.`,  // [PRO]  // [PRO]
-    domains: {  // [PRO]  // [PRO]
+    hiddenDynamic: `Knowing things others don't know, from sources others don't access, in ways that are genuinely difficult to explain or legitimize. The shadow: when the source is removed, discovering that the capacity to generate the depth independently was never fully developed. What makes this structurally different from 正印: same-polarity nourishment deepens what is already there without opening it toward something genuinely new. The well gets deeper. The territory stays the same.`,  // [PRO]
+    domainSignatures: {  // [PRO]
       career: {
+        sig: 4,
         mechanism: "偏印 → unconventional expertise, niche authority, alternative knowledge systems",
         text: `Excels in research, alternative knowledge systems, specialized consulting, unconventional creative fields. The depth that 偏印 produces is genuine and specific — hard to replicate, hard to credential conventionally.`,
       },
       relationships: {
+        sig: 2,
         mechanism: "偏印 → depth without opening, sustaining without directing",
         text: `Deep connection with those who share or appreciate the niche; genuine bafflement with those who don't. 偏印 in relationships provides security and depth but not growth direction — sustaining without redirecting.`,
       },
       wealth: {
+        sig: 2,
         mechanism: "偏印 → niche expertise monetization, unconventional income paths",
         text: `Generates income through unusual or niche expertise. When the depth is properly monetized, it works because there are few who can offer the equivalent. The risk: the abundance mentality of the source can make charging appropriately feel out of alignment.`,
       },
       health: {
+        sig: 3,
         mechanism: "偏印 → specific restoration conditions, dependency on source element",
         text: `偏印 produces deep restoration specifically when the DM's element is replenished through its own nature. The health pattern: extremely effective specific recovery practices that aren't easily transferred or replaced.`,
       },
     },
-    people: `偏印 classically represents step-parent or unconventional mentor; older figures who provide support without conventional relationship structure. In modern life: alternative teachers, mentors from unusual traditions, esoteric knowledge communities.`,  // [PRO]  // [PRO]
-    liunian: `A 偏印 year or period brings deep learning, withdrawal from mainstream activity, sustained engagement with unconventional knowledge, and strong support from unusual sources. For aligned charts: a genuinely nourishing and deepening period. For charts where 偏印 creates friction: over-reliance on past patterns, blocked output.`,  // [PRO]  // [PRO]
+    sixRelations: `偏印 classically represents step-parent or unconventional mentor; older figures who provide support without conventional relationship structure. In modern life: alternative teachers, mentors from unusual traditions, esoteric knowledge communities.`,  // [PRO]
+    liunianSignatures: `A 偏印 year or period brings deep learning, withdrawal from mainstream activity, sustained engagement with unconventional knowledge, and strong support from unusual sources. For aligned charts: a genuinely nourishing and deepening period. For charts where 偏印 creates friction: over-reliance on past patterns, blocked output.`,  // [PRO]
   },
 
   "正印": {
     // The Root — Cross-polarity resource — nourishment that sustains and opens
     name: "The Root",  // [INTERNAL · display label]  // [INTERNAL · display label]
     sub: "Cross-polarity resource — nourishment that sustains and opens",  // [INTERNAL · display label]  // [INTERNAL · display label]
-    realmPhrase: `Support System / Mother Wound — backed and pointed`,  // [FREE]  // [FREE]
-    realmDesc: `Bowlby's secure base in its most developmental form: the base that enables exploration by providing both support and direction simultaneously. The part of a person shaped by backing that came with a destination — not just sustained, but sustained AND pointed toward something.`,  // [FREE]  // [FREE]
-    keywords: ["Grounded", "Mentored", "Directionally shaped", "Supported", "Purpose-oriented"],  // [FREE · personality chips]  // [FREE · personality chips]
+    rulingRealm: {
+      phrase: `Support System / Mother Wound — backed and pointed`,  // [FREE]
+      desc: `Bowlby's secure base in its most developmental form: the base that enables exploration by providing both support and direction simultaneously. The part of a person shaped by backing that came with a destination — not just sustained, but sustained AND pointed toward something.`,  // [FREE]
+    },  // [FREE]
+    chips: ["Grounded", "Mentored", "Directionally shaped", "Supported", "Purpose-oriented"],  // [FREE · personality chips]
+    outputs: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
+    frictions: [  // [FREE]
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+      { phrase: `[TODO]`, desc: `[TODO]` },
+    ],
     gifts: [  // [FREE · first 2–3  /  PRO · all]  // [FREE · first 2–3  /  PRO · all]
       `Character that feels simultaneously grounded and purposeful — rooted and reaching at the same time, which is genuinely rare`,
     `Knows what it's building toward, not just that it's building; the direction arrived with the support and feels genuinely internalized`,
@@ -1241,29 +1726,31 @@ export const TG_CARD_DATA = {
     `The backing may have served the source's vision as much as the recipient's genuine calling`,
     `Loss of the supporting structure produces disorientation disproportionate to the situation`,
     ],
-    decision: `Seeks guidance before deciding on significant choices. Finds genuine confidence within a decision framework provided by someone or something trusted. The weakness: difficulty accessing confidence when the backing structure is absent.`,  // [PRO]  // [PRO]
-    communication: `Directional — tends to communicate in ways that include where things should go next. Feels most competent communicating from a position of endorsed knowledge. Less comfortable with pure improvisation.`,  // [PRO]  // [PRO]
-    hidden: `The question that runs beneath everything: is what I am building toward actually mine, or did the backing shape me toward its vision? What makes this structurally different from 偏印: cross-polarity nourishment sustains AND opens — it doesn't just feed what exists, it points toward what doesn't yet exist. The direction that opened with the backing — was it genuinely toward you, or toward what the source needed you to become?`,  // [PRO]  // [PRO]
-    domains: {  // [PRO]  // [PRO]
+    hiddenDynamic: `The question that runs beneath everything: is what I am building toward actually mine, or did the backing shape me toward its vision? What makes this structurally different from 偏印: cross-polarity nourishment sustains AND opens — it doesn't just feed what exists, it points toward what doesn't yet exist. The direction that opened with the backing — was it genuinely toward you, or toward what the source needed you to become?`,  // [PRO]
+    domainSignatures: {  // [PRO]
       career: {
+        sig: 4,
         mechanism: "正印 → mentored capability, institutional advancement, legitimate backing",
         text: `Excels in roles with genuine mentorship, institutional backing, and clear developmental paths — academia, established professions, organizations with real career ladders. The risk: the career direction may have been shaped by what the supporting system rewarded.`,
       },
       relationships: {
+        sig: 3,
         mechanism: "正印 → vertical orientation, sustaining and directing in relationships",
         text: `The relational reference frame tends toward the vertical (mentor/mentee) rather than the horizontal (genuine peer equality). Often extraordinary in relationships where they can provide support and direction to others.`,
       },
       wealth: {
+        sig: 2,
         mechanism: "正印 → institutionally backed income, endorsed paths, directionally validated earning",
         text: `Tends to generate wealth through paths that carry legitimate endorsement. Difficulty pursuing wealth through paths that aren't legitimized by the supporting structure — not from lack of capability but from lack of directional endorsement.`,
       },
       health: {
+        sig: 4,
         mechanism: "正印 → nourishment and opening, inherited health approaches, maternal lineage",
         text: `The health approach tends to follow the mentors and support structures that formed the person. Classically related to the mother and maternal lineage in health pattern transmission.`,
       },
     },
-    people: `正印 classically represents mother and maternal figures, formal mentors, and legitimate institutional backers. More broadly: the teachers who believed in you AND told you where to go with it; the institutions that accepted you and shaped your direction.`,  // [PRO]  // [PRO]
-    liunian: `A 正印 year or period brings mentorship opportunities, institutional recognition, educational advancement, and periods of genuine backing. Also: mother-related events, significant shifts in the primary support structure. For aligned charts: a period of genuine development within supported, directional growth. For charts where 正印 creates friction: direction given with the backing becoming a constraint.`,  // [PRO]  // [PRO]
+    sixRelations: `正印 classically represents mother and maternal figures, formal mentors, and legitimate institutional backers. More broadly: the teachers who believed in you AND told you where to go with it; the institutions that accepted you and shaped your direction.`,  // [PRO]
+    liunianSignatures: `A 正印 year or period brings mentorship opportunities, institutional recognition, educational advancement, and periods of genuine backing. Also: mother-related events, significant shifts in the primary support structure. For aligned charts: a period of genuine development within supported, directional growth. For charts where 正印 creates friction: direction given with the backing becoming a constraint.`,  // [PRO]
   },
 
 };
@@ -1454,46 +1941,4 @@ export const CLASSICAL_TG_ANCHORS = {
     principle:   "七杀制伏得宜，反为权贵 / 七杀为患，制者必须有力",
     translation: "When Seven Killings are properly channeled, they produce genuine authority. When Seven Killings cause trouble, the remedy must be powerful.",
     source:      "子平真诠 论七杀 / 滴天髓 任铁樵 512 case studies — bifurcation finding",
-    derivation:  "七杀does not grant permission. Does not moderate itself. Does not care whether you survive the encounter. This is the most important feature. The 任铁樵 finding: the same structural condition (unmediated, same-polarity authority pressure) produces either the best or the worst outcomes — no middle result. Chart resources determine which side of the bifurcation. What high-resource 七杀 builds is character that could only have come from being forged, not developed — what others carry as virtue, this person carries as the residue of having survived something that didn't grant the option to fail gracefully.",
-    ceiling:     3,
-    pairNote:    "七杀 does not grant permission and does not moderate; 正官 grants recognition when quality is real. These are categorically different structures — not different pressure intensities.",
-  },
-
-  "正官": {
-    principle:   "正官端正，主人沉稳，名声好，规则意识强 / 官轻则贵，官重则压",
-    translation: "Direct Officer upright — the person is calm and settled, with good reputation and strong framework-consciousness. Light Officer ennobles; heavy Officer presses down.",
-    source:      "子平真诠 论正官 — direct quotation",
-    derivation:  "Character shaped by structure that the person has genuinely endorsed. Recognition arrives through demonstrated quality within frameworks the person accepts as legitimate. The critical nuance from 官重则压: when the authority becomes excessive or reveals itself as insufficient, the character that was shaped by a worthy structure loses its primary orientation. The disorientation is not failure — it is the structural consequence of having built identity around a framework.",
-    ceiling:     2,
-    pairNote:    "正官 grants recognition within endorsed frameworks; 七杀 does not grant permission and does not moderate. Framework-mediated vs. unmediated — categorically different.",
-  },
-
-  "偏印": {
-    principle:   "偏印滋生有源，深固专一",
-    translation: "Partial Seal nourishment has a continuous source — deepens and consolidates the existing direction.",
-    source:      "三命通会 / 滴天髓 — rooted-pattern derivation",
-    derivation:  "Same-polarity nourishment deepens without redirecting — consolidates what is already present. The support arrives through the same register as the DM, which means it reinforces without introducing new direction. The gift: extraordinary depth in the native domain, because the sustaining source keeps deepening what's already there. The shadow: structural dependency on conditions that were never forced to be built internally — when the supporting source withdraws, the internal reserves are thinner than they appeared.",
-    ceiling:     2,
-    pairNote:    "偏印 deepens same register; 正印 sustains and opens direction cross-register. Different nourishment orientations, not different intensities of support.",
-  },
-
-  "正印": {
-    principle:   "正印乃慈母之爱，既养育又指引",
-    translation: "Direct Seal is the care of a nurturing mother — it sustains and simultaneously provides direction.",
-    source:      "三命通会 / 渊海子平 — 正印六亲 and resource theory",
-    derivation:  "Cross-polarity nourishment sustains AND opens toward something specific — the resource comes from a different register and therefore gestures toward what is not yet present. The gift: being backed AND directed simultaneously — the most complete form of external support. The shadow: the direction given with the backing can become the only direction the person knows how to grow in. Reach that learned to grow only where the nourishment pointed.",
-    ceiling:     2,
-    pairNote:    "正印opens direction with sustenance; 偏印 deepens without redirecting. The cross-polarity of 正印 is the structural source of its directional quality.",
-  },
-};
-
-
-// ═══════════════════════════════════════════════════════════════════════════
-// BINGYI_FRAMING
-// Universal catalyst/remedy framing from Shenfeng Tongkao — Bing Yao Shuo.
-// Source: DOC3 section 2.6 — see that entry for full derivation and sourcing.
-//
-// Usage: Inject into ALL reading generation prompts as a universal constraint
-//   on catalyst-related content framing. Applies to teaser, p2, and twoAM
-//   fields across all 150 Layer 1 keys. Never frame the catalyst as rescue.
-// ══════════════════════════════════════════════════════════�
+    derivation:  "七杀does not grant permission. Does not moderate itself. Does not care whether you survive the encounter. This is the most important feature. The 任铁樵 finding: the same structural condition (unmediated, same-polarity authorit

@@ -384,6 +384,8 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 .variant-row:has(.key-tested)       { border-left-color: rgba(140,106,106,0.55); }
 .variant-row:has(.key-flowing)      { border-left-color: rgba(106,140,133,0.55); }
 .variant-row:has(.key-forging)      { border-left-color: rgba(140,122,90,0.55); }
+.variant-row:has(.key-pure)         { border-left-color: rgba(90,115,140,0.50); }
+.variant-row:has(.key-rooted)       { border-left-color: rgba(122,104,69,0.50); }
 .variant-row:has(.key-todo)         { border-left-color: rgba(138,130,120,0.18); }
 
 /* Pattern variants distinguished by left stripe + background tint only — no extra spacing */
@@ -398,12 +400,129 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 .variant-key-label.key-tested       { color: #8c6a6a;         background: rgba(140,106,106,0.12); }
 .variant-key-label.key-flowing      { color: #6a8c85;         background: rgba(106,140,133,0.12); }
 .variant-key-label.key-forging      { color: #8c7a5a;         background: rgba(140,122,90,0.12);  }
+.variant-key-label.key-pure         { color: #5a7282;         background: rgba(90,114,130,0.10); }
+.variant-key-label.key-rooted       { color: #7a6840;         background: rgba(122,104,64,0.10); }
 .variant-key-label.key-todo         { color: var(--text-ter); background: rgba(138,130,120,0.07); opacity: 0.7; }
 
 .variant-todo .block-text { opacity: 0.38; font-style: italic; }
 .variant-compound-note { font-size: 11px; color: var(--text-ter);
   font-style: italic; margin-top: 6px; padding-top: 6px;
   border-top: 0.5px solid var(--border-light); }
+
+/* ══ IDENTITY CARD PREVIEW ═══════════════════════════════════════════════ */
+/* iPhone-frame mockup of Deliverable 1 (DayMasterHero) — 1/3 page width   */
+.ic-eyebrow { display:flex; align-items:center; gap:10px; margin:22px 24px 14px; }
+.ic-eyebrow-label { font-size:9.5px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--text-ter); flex-shrink:0; }
+.ic-eyebrow-line { flex:1; height:0.5px; background:var(--border-light); }
+
+/* Side-by-side layout: phone left (1/3), field table right (2/3) */
+.ic-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 0 24px 20px;
+}
+
+/* Phone column — fixed width, no shrink */
+.ic-phone-wrap {
+  flex-shrink: 0;
+}
+
+/* Identity card — matches actual DayMasterHero design from the engine.
+   Background: element-tinted bgMap gradient (light cream/paper system).
+   Metal:  linear-gradient(160deg, #eef2f8 0%, #f0ebe0 100%)
+   Wood:   linear-gradient(160deg, #eef5ee 0%, #f0ebe0 100%)
+   Fire:   linear-gradient(160deg, #f9efee 0%, #f0ebe0 100%)
+   Earth:  linear-gradient(160deg, #f5f0e8 0%, #f0ebe0 100%)
+   Water:  linear-gradient(160deg, #eef1f8 0%, #f0ebe0 100%) */
+.ic-phone {
+  width: 240px;
+  /* Metal element gradient — update per stem when adding other stems */
+  background: linear-gradient(160deg, #eef2f8 0%, #f0ebe0 100%);
+  border-radius: 20px;
+  border: 1.5px solid rgba(139,163,184,0.3);
+  box-shadow: 0 4px 24px rgba(139,163,184,0.18), 0 1px 4px rgba(0,0,0,0.06);
+  overflow: hidden;
+}
+
+/* Card content area */
+.ic-screen {
+  width: 100%;
+  padding: 22px 16px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* Section annotation label — sits above each component inside the card */
+.ic-label {
+  align-self: flex-start;
+  font-size: 7px; font-weight: 600; letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(139,163,184,0.55);
+  border: 1px solid rgba(139,163,184,0.2);
+  border-radius: 3px;
+  padding: 1px 5px;
+  margin-bottom: 7px;
+}
+.ic-label-gap { margin-bottom: 12px; }
+
+/* ① Identity icon */
+.ic-icon-wrap { display:flex; justify-content:center; margin-bottom:10px; }
+
+/* ② Archetype name — element color (Metal = #8ba3b8), matches EL_C in engine */
+.ic-archetype-name {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 26px; font-weight: 600;
+  color: #8ba3b8;
+  letter-spacing: 0.02em; line-height: 1;
+  margin-bottom: 14px; text-align: center;
+}
+
+/* ③ Badge tiles — bg: color+0e, border: color+25, label: element color */
+.ic-badges { display:flex; gap:6px; margin-bottom:14px; }
+.ic-badge {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 4px;
+  background: rgba(139,163,184,0.08);   /* #8ba3b8 0e */
+  border: 1px solid rgba(139,163,184,0.18);  /* #8ba3b8 25 */
+  border-radius: 8px;
+  padding: 8px 0;
+  width: 52px; min-height: 50px;
+}
+.ic-badge-label {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 7.5px; letter-spacing: 0.12em; text-transform: uppercase;
+  color: #8ba3b8; line-height: 1;
+}
+
+/* ④ Manifesto — C.textSec = #4a4540, muted second line */
+.ic-manifesto { text-align:center; max-width:200px; margin-bottom: 14px; }
+.ic-manifesto-l1 {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 11px; font-weight: 600;
+  color: #4a4540; line-height: 1.5; margin-bottom: 4px;
+}
+.ic-manifesto-l2 {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 10px; color: rgba(74,69,64,0.55); font-style: italic; line-height: 1.5;
+}
+
+/* ⑤ Scroll hint — element color, low opacity */
+.ic-scroll-hint { display:flex; flex-direction:column; align-items:center; gap:3px; opacity:0.38; }
+.ic-scroll-text { font-family:'EB Garamond',Georgia,serif; font-size:6.5px; letter-spacing:0.2em; text-transform:uppercase; color:#8ba3b8; }
+
+/* Field reference table — right column, fills remaining space */
+.ic-field-table { flex: 1; min-width: 0; border-radius: 10px; border: 0.5px solid var(--border-light); overflow: hidden; align-self: stretch; }
+.ic-field-row { display: grid; grid-template-columns: 26px 1fr; border-bottom: 0.5px solid var(--border-light); }
+.ic-field-row:last-child { border-bottom: none; }
+.ic-field-num  { padding: 10px 0; text-align: center; font-size: 11px; color: var(--metal-dark); font-weight: 500; background: rgba(139,163,184,0.06); border-right: 0.5px solid var(--border-light); }
+.ic-field-body { padding: 9px 12px; }
+.ic-field-name { margin-bottom: 4px; }
+.ic-field-name code { font-family: 'Courier New', monospace; font-size: 10px; background: rgba(139,163,184,0.1); color: var(--metal-dark); padding: 1px 5px; border-radius: 3px; }
+.ic-field-name small { font-size: 9.5px; color: var(--text-ter); font-style: italic; line-height: 1.4; margin-left: 5px; }
+.ic-field-desc { font-size: 12px; color: var(--text-sec); line-height: 1.65; }
 </style>
 </head>
 <body>
@@ -434,7 +553,7 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
     <div class="toc-entry"><span class="toc-zh">甲</span><span class="toc-name">Yang Wood</span><span class="toc-archetype">— The Oak</span></div>
     <div class="toc-entry"><span class="toc-zh">乙</span><span class="toc-name">Yin Wood</span><span class="toc-archetype">— The Vine</span></div>
     <div class="toc-entry"><span class="toc-zh">丙</span><span class="toc-name">Yang Fire</span><span class="toc-archetype">— The Sun</span></div>
-    <div class="toc-entry"><span class="toc-zh">丁</span><span class="toc-name">Yin Fire</span><span class="toc-archetype">— The Candle</span></div>
+    <div class="toc-entry"><span class="toc-zh">丁</span><span class="toc-name">Yin Fire</span><span class="toc-archetype">— The Ember</span></div>
     <div class="toc-entry"><span class="toc-zh">戊</span><span class="toc-name">Yang Earth</span><span class="toc-archetype">— The Mountain</span></div>
     <div class="toc-entry"><span class="toc-zh">己</span><span class="toc-name">Yin Earth</span><span class="toc-archetype">— The Field</span></div>
     <div class="toc-entry"><span class="toc-zh">庚</span><span class="toc-name">Yang Metal</span><span class="toc-archetype">— The Blade</span></div>
@@ -479,6 +598,143 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
     <span class="chip">Integrity-bound</span>
     <span class="chip">Consolidation-resistant</span>
   </div>
+  <!-- ══ IDENTITY CARD: DELIVERABLE 1 ══════════════════════════════════════
+       Phone-frame preview of the DayMasterHero screen.
+       All fields FREE. Source: identity{} block in archetypeSource.js.
+  ══════════════════════════════════════════════════════════════════════════ -->
+  <div class="ic-eyebrow">
+    <span class="ic-eyebrow-label">Deliverable 1 — Identity Card</span>
+    <div class="ic-eyebrow-line"></div>
+    <span class="tier-badge tier-free">ALL FREE</span>
+  </div>
+
+  <!-- Side-by-side: phone left · field table right -->
+  <div class="ic-layout">
+  <div class="ic-phone-wrap">
+  <div class="ic-phone" style="background: linear-gradient(160deg, #edf5ea 0%, #f0ebe0 100%);">
+    <div class="ic-screen">
+
+    <!-- ① Identity Icon -->
+    <div class="ic-label">① Identity Icon · <code style="font-family:monospace;font-size:7px;color:rgba(122,158,110,0.7);">identity.identityIcon = "ArchetypeSeal"</code></div>
+    <div class="ic-icon-wrap">
+      <svg width="54" height="54" viewBox="0 0 72 72" fill="none">
+        <line x1="36" y1="66" x2="36" y2="14" stroke="#7a9e6e" stroke-width="2" stroke-linecap="round"/>
+        <line x1="36" y1="44" x2="15" y2="30" stroke="#7a9e6e" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="36" y1="44" x2="57" y2="30" stroke="#7a9e6e" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="36" y1="30" x2="19" y2="18" stroke="#7a9e6e" stroke-width="1.1" stroke-linecap="round"/>
+        <line x1="36" y1="30" x2="53" y2="18" stroke="#7a9e6e" stroke-width="1.1" stroke-linecap="round"/>
+        <line x1="36" y1="20" x2="28" y2="10" stroke="#7a9e6e" stroke-width="0.7" stroke-linecap="round"/>
+        <line x1="36" y1="20" x2="44" y2="10" stroke="#7a9e6e" stroke-width="0.7" stroke-linecap="round"/>
+        <line x1="22" y1="64" x2="36" y2="56" stroke="#7a9e6e" stroke-width="0.8" stroke-linecap="round" opacity="0.35"/>
+        <line x1="50" y1="64" x2="36" y2="56" stroke="#7a9e6e" stroke-width="0.8" stroke-linecap="round" opacity="0.35"/>
+      </svg>
+    </div>
+    <div class="ic-label-gap"></div>
+
+    <!-- ② Archetype Name -->
+    <div class="ic-label">② Archetype Name · <code style="font-family:monospace;font-size:8px;color:rgba(122,158,110,0.7);">identity.archetypeName</code></div>
+    <div class="ic-archetype-name" style="color:#7a9e6e;">THE OAK</div>
+
+    <!-- ③ Badge Tiles -->
+    <div class="ic-label">③ Badge Tiles · Element · Stem · Polarity (tappable — each opens a knowledge popup)</div>
+    <div class="ic-badges">
+
+      <!-- Element badge -->
+      <div class="ic-badge">
+        <svg width="15" height="15" viewBox="0 0 32 32" fill="none">
+          <defs>
+            <linearGradient id="db-gem-jia" x1="20%" y1="0%" x2="80%" y2="100%">
+              <stop offset="0%"   stop-color="#7a9e6e" stop-opacity="1"/>
+              <stop offset="50%"  stop-color="#7a9e6e" stop-opacity="0.55"/>
+              <stop offset="100%" stop-color="#7a9e6e" stop-opacity="0.9"/>
+            </linearGradient>
+          </defs>
+          <polygon points="16,2 27,10 22,29 10,29 5,10" fill="url(#db-gem-jia)"/>
+          <polygon points="16,2 27,10 16,13 5,10" fill="white" opacity="0.28"/>
+          <line x1="16" y1="2" x2="16" y2="13" stroke="white" stroke-width="0.6" opacity="0.45"/>
+          <line x1="16" y1="13" x2="10" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+          <line x1="16" y1="13" x2="22" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+        </svg>
+        <span class="ic-badge-label">Wood</span>
+      </div>
+
+      <!-- Stem badge -->
+      <div class="ic-badge">
+        <span style="font-family:'Noto Serif SC',Georgia,serif;font-size:16px;color:#7a9e6e;line-height:1;font-weight:400;display:block;">甲</span>
+        <span class="ic-badge-label">Jiǎ</span>
+      </div>
+
+      <!-- Polarity badge (Yang = right half) -->
+      <div class="ic-badge">
+        <svg width="17" height="17" viewBox="0 0 40 40" fill="none">
+          <path d="M20,2 A18,18 0 0,1 20,38 A9,9 0 0,0 20,20 A9,9 0 0,1 20,2 Z" fill="#7a9e6e" opacity="0.85"/>
+          <circle cx="20" cy="11" r="3" fill="#7a9e6e" opacity="0.85"/>
+          <circle cx="20" cy="29" r="3" fill="none" stroke="#7a9e6e" stroke-width="1.5" opacity="0.55"/>
+        </svg>
+        <span class="ic-badge-label">Yang</span>
+      </div>
+
+    </div><!-- end .ic-badges -->
+
+    <!-- ④ Manifesto -->
+    <div class="ic-label">④ Manifesto · <code style="font-family:monospace;font-size:8px;color:rgba(122,158,110,0.7);">identity.manifesto</code> (split on " · ")</div>
+    <div class="ic-manifesto">
+      <div class="ic-manifesto-l1">Motion before readiness</div>
+      <div class="ic-manifesto-l2">The oak does not negotiate its direction.</div>
+    </div>
+
+    <!-- ⑤ Scroll Hint -->
+    <div class="ic-label">⑤ Scroll Hint · anchored bottom, fades in/out</div>
+    <div class="ic-scroll-hint">
+      <span class="ic-scroll-text">Discover</span>
+      <svg width="10" height="6" viewBox="0 0 14 8" fill="none">
+        <path d="M1 1L7 7L13 1" stroke="#7a9e6e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    </div><!-- end .ic-screen -->
+  </div><!-- end .ic-phone -->
+  </div><!-- end .ic-phone-wrap -->
+
+  <div class="ic-field-table">
+    <div class="ic-field-row">
+      <div class="ic-field-num">①</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.identityIcon</code><small>placeholder</small></div>
+        <div class="ic-field-desc"><strong>ArchetypeSeal</strong> — abstract geometric seal, element-colored. 72×72px viewBox. Dedicated SVG TBD.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">②</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.archetypeName</code><small>hero display name</small></div>
+        <div class="ic-field-desc"><strong>"The Oak"</strong> — Cormorant Garamond, bold, element color. The primary recognition moment of the reading.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">③</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.badges</code><small>from chart.dayMaster</small></div>
+        <div class="ic-field-desc">Three tappable tiles. <strong>Element</strong> → Five Elements panel. <strong>Stem</strong> (甲 + Jiǎ) → 10-stem Day Master panel. <strong>Polarity</strong> → Yin/Yang taichi panel.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">④</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.manifesto</code><small>split on " · "</small></div>
+        <div class="ic-field-desc"><strong>L1:</strong> "Motion before readiness" — semi-bold.<br><strong>L2:</strong> "The oak does not negotiate its direction." — italic, reduced opacity.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">⑤</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>scroll hint</code><small>UI-only</small></div>
+        <div class="ic-field-desc">"DISCOVER ↓" — bottom-anchored, opacity 0.38, subtle pulse. No data field.</div>
+      </div>
+    </div>
+  </div><!-- end field table -->
+  </div><!-- end ic-layout -->
+
   <div class="psych-core">
     <div class="psych-core-label">Psychological Core</div>
     <div class="psych-core-phrase">The Perpetual Initiator</div>
@@ -612,6 +868,139 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
     <span class="chip">Destination-fixed</span>
     <span class="chip">Coiling intelligence</span>
   </div>
+  <!-- ══ IDENTITY CARD: DELIVERABLE 1 ══════════════════════════════════════
+       Phone-frame preview of the DayMasterHero screen.
+       All fields FREE. Source: identity{} block in archetypeSource.js.
+  ══════════════════════════════════════════════════════════════════════════ -->
+  <div class="ic-eyebrow">
+    <span class="ic-eyebrow-label">Deliverable 1 — Identity Card</span>
+    <div class="ic-eyebrow-line"></div>
+    <span class="tier-badge tier-free">ALL FREE</span>
+  </div>
+
+  <!-- Side-by-side: phone left · field table right -->
+  <div class="ic-layout">
+  <div class="ic-phone-wrap">
+  <div class="ic-phone" style="background: linear-gradient(160deg, #edf5ea 0%, #f0ebe0 100%);">
+    <div class="ic-screen">
+
+    <!-- ① Identity Icon -->
+    <div class="ic-label">① Identity Icon · <code style="font-family:monospace;font-size:7px;color:rgba(122,158,110,0.7);">identity.identityIcon = "ArchetypeSeal"</code></div>
+    <div class="ic-icon-wrap">
+      <svg width="54" height="54" viewBox="0 0 72 72" fill="none">
+        <line x1="36" y1="8" x2="36" y2="64" stroke="#7a9e6e" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
+        <path d="M36 16 C52 18 56 28 48 34 C40 40 24 38 20 46 C16 54 24 62 36 62" stroke="#7a9e6e" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+        <circle cx="36" cy="16" r="2.5" fill="#7a9e6e" opacity="0.7"/>
+        <line x1="48" y1="22" x2="56" y2="16" stroke="#7a9e6e" stroke-width="0.9" stroke-linecap="round" opacity="0.5"/>
+        <line x1="22" y1="44" x2="14" y2="40" stroke="#7a9e6e" stroke-width="0.9" stroke-linecap="round" opacity="0.5"/>
+      </svg>
+    </div>
+    <div class="ic-label-gap"></div>
+
+    <!-- ② Archetype Name -->
+    <div class="ic-label">② Archetype Name · <code style="font-family:monospace;font-size:8px;color:rgba(122,158,110,0.7);">identity.archetypeName</code></div>
+    <div class="ic-archetype-name" style="color:#7a9e6e;">THE VINE</div>
+
+    <!-- ③ Badge Tiles -->
+    <div class="ic-label">③ Badge Tiles · Element · Stem · Polarity (tappable — each opens a knowledge popup)</div>
+    <div class="ic-badges">
+
+      <!-- Element badge -->
+      <div class="ic-badge">
+        <svg width="15" height="15" viewBox="0 0 32 32" fill="none">
+          <defs>
+            <linearGradient id="db-gem-yi" x1="20%" y1="0%" x2="80%" y2="100%">
+              <stop offset="0%"   stop-color="#7a9e6e" stop-opacity="1"/>
+              <stop offset="50%"  stop-color="#7a9e6e" stop-opacity="0.55"/>
+              <stop offset="100%" stop-color="#7a9e6e" stop-opacity="0.9"/>
+            </linearGradient>
+          </defs>
+          <polygon points="16,2 27,10 22,29 10,29 5,10" fill="url(#db-gem-yi)"/>
+          <polygon points="16,2 27,10 16,13 5,10" fill="white" opacity="0.28"/>
+          <line x1="16" y1="2" x2="16" y2="13" stroke="white" stroke-width="0.6" opacity="0.45"/>
+          <line x1="16" y1="13" x2="10" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+          <line x1="16" y1="13" x2="22" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+        </svg>
+        <span class="ic-badge-label">Wood</span>
+      </div>
+
+      <!-- Stem badge -->
+      <div class="ic-badge">
+        <span style="font-family:'Noto Serif SC',Georgia,serif;font-size:16px;color:#7a9e6e;line-height:1;font-weight:400;display:block;">乙</span>
+        <span class="ic-badge-label">Yǐ</span>
+      </div>
+
+      <!-- Polarity badge (Yin = left half) -->
+      <div class="ic-badge">
+        <svg width="17" height="17" viewBox="0 0 40 40" fill="none">
+          <path d="M20,2 A18,18 0 0,0 20,38 A9,9 0 0,1 20,20 A9,9 0 0,0 20,2 Z" fill="#7a9e6e" opacity="0.85"/>
+          <circle cx="20" cy="11" r="3" fill="none" stroke="#7a9e6e" stroke-width="1.5" opacity="0.55"/>
+          <circle cx="20" cy="29" r="3" fill="#7a9e6e" opacity="0.85"/>
+        </svg>
+        <span class="ic-badge-label">Yin</span>
+      </div>
+
+    </div><!-- end .ic-badges -->
+
+    <!-- ④ Manifesto -->
+    <div class="ic-label">④ Manifesto · <code style="font-family:monospace;font-size:8px;color:rgba(122,158,110,0.7);">identity.manifesto</code> (split on " · ")</div>
+    <div class="ic-manifesto">
+      <div class="ic-manifesto-l1">Route bends. Destination holds.</div>
+      <div class="ic-manifesto-l2">The vine finds every wall a ladder.</div>
+    </div>
+
+    <!-- ⑤ Scroll Hint -->
+    <div class="ic-label">⑤ Scroll Hint · anchored bottom, fades in/out</div>
+    <div class="ic-scroll-hint">
+      <span class="ic-scroll-text">Discover</span>
+      <svg width="10" height="6" viewBox="0 0 14 8" fill="none">
+        <path d="M1 1L7 7L13 1" stroke="#7a9e6e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    </div><!-- end .ic-screen -->
+  </div><!-- end .ic-phone -->
+  </div><!-- end .ic-phone-wrap -->
+
+  <div class="ic-field-table">
+    <div class="ic-field-row">
+      <div class="ic-field-num">①</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.identityIcon</code><small>placeholder</small></div>
+        <div class="ic-field-desc"><strong>ArchetypeSeal</strong> — abstract geometric seal, element-colored. 72×72px viewBox. Dedicated SVG TBD.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">②</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.archetypeName</code><small>hero display name</small></div>
+        <div class="ic-field-desc"><strong>"The Vine"</strong> — Cormorant Garamond, bold, element color. The primary recognition moment of the reading.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">③</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.badges</code><small>from chart.dayMaster</small></div>
+        <div class="ic-field-desc">Three tappable tiles. <strong>Element</strong> → Five Elements panel. <strong>Stem</strong> (乙 + Yǐ) → 10-stem Day Master panel. <strong>Polarity</strong> → Yin/Yang taichi panel.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">④</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.manifesto</code><small>split on " · "</small></div>
+        <div class="ic-field-desc"><strong>L1:</strong> "Route bends. Destination holds." — semi-bold.<br><strong>L2:</strong> "The vine finds every wall a ladder." — italic, reduced opacity.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">⑤</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>scroll hint</code><small>UI-only</small></div>
+        <div class="ic-field-desc">"DISCOVER ↓" — bottom-anchored, opacity 0.38, subtle pulse. No data field.</div>
+      </div>
+    </div>
+  </div><!-- end field table -->
+  </div><!-- end ic-layout -->
+
   <div class="psych-core">
     <div class="psych-core-label">Psychological Core</div>
     <div class="psych-core-phrase">The Intelligent Navigator</div>
@@ -746,6 +1135,143 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
     <span class="chip">Invisibly depleting</span>
     <span class="chip">Trust-creating</span>
   </div>
+  <!-- ══ IDENTITY CARD: DELIVERABLE 1 ══════════════════════════════════════
+       Phone-frame preview of the DayMasterHero screen.
+       All fields FREE. Source: identity{} block in archetypeSource.js.
+  ══════════════════════════════════════════════════════════════════════════ -->
+  <div class="ic-eyebrow">
+    <span class="ic-eyebrow-label">Deliverable 1 — Identity Card</span>
+    <div class="ic-eyebrow-line"></div>
+    <span class="tier-badge tier-free">ALL FREE</span>
+  </div>
+
+  <!-- Side-by-side: phone left · field table right -->
+  <div class="ic-layout">
+  <div class="ic-phone-wrap">
+  <div class="ic-phone" style="background: linear-gradient(160deg, #f5eeea 0%, #f0ebe0 100%);">
+    <div class="ic-screen">
+
+    <!-- ① Identity Icon -->
+    <div class="ic-label">① Identity Icon · <code style="font-family:monospace;font-size:7px;color:rgba(122,158,110,0.7);">identity.identityIcon = "ArchetypeSeal"</code></div>
+    <div class="ic-icon-wrap">
+      <svg width="54" height="54" viewBox="0 0 72 72" fill="none">
+        <circle cx="36" cy="36" r="9" stroke="#c4745a" stroke-width="1.6" fill="none"/>
+        <line x1="49" y1="36" x2="64" y2="36" stroke="#c4745a" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="45.2" y1="45.2" x2="51.6" y2="51.6" stroke="#c4745a" stroke-width="0.9" stroke-linecap="round"/>
+        <line x1="36" y1="49" x2="36" y2="64" stroke="#c4745a" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="26.8" y1="45.2" x2="20.4" y2="51.6" stroke="#c4745a" stroke-width="0.9" stroke-linecap="round"/>
+        <line x1="23" y1="36" x2="8" y2="36" stroke="#c4745a" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="26.8" y1="26.8" x2="20.4" y2="20.4" stroke="#c4745a" stroke-width="0.9" stroke-linecap="round"/>
+        <line x1="36" y1="23" x2="36" y2="8" stroke="#c4745a" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="45.2" y1="26.8" x2="51.6" y2="20.4" stroke="#c4745a" stroke-width="0.9" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="ic-label-gap"></div>
+
+    <!-- ② Archetype Name -->
+    <div class="ic-label">② Archetype Name · <code style="font-family:monospace;font-size:8px;color:rgba(122,158,110,0.7);">identity.archetypeName</code></div>
+    <div class="ic-archetype-name" style="color:#c4745a;">THE SUN</div>
+
+    <!-- ③ Badge Tiles -->
+    <div class="ic-label">③ Badge Tiles · Element · Stem · Polarity (tappable — each opens a knowledge popup)</div>
+    <div class="ic-badges">
+
+      <!-- Element badge -->
+      <div class="ic-badge">
+        <svg width="15" height="15" viewBox="0 0 32 32" fill="none">
+          <defs>
+            <linearGradient id="db-gem-bing" x1="20%" y1="0%" x2="80%" y2="100%">
+              <stop offset="0%"   stop-color="#c4745a" stop-opacity="1"/>
+              <stop offset="50%"  stop-color="#c4745a" stop-opacity="0.55"/>
+              <stop offset="100%" stop-color="#c4745a" stop-opacity="0.9"/>
+            </linearGradient>
+          </defs>
+          <polygon points="16,2 27,10 22,29 10,29 5,10" fill="url(#db-gem-bing)"/>
+          <polygon points="16,2 27,10 16,13 5,10" fill="white" opacity="0.28"/>
+          <line x1="16" y1="2" x2="16" y2="13" stroke="white" stroke-width="0.6" opacity="0.45"/>
+          <line x1="16" y1="13" x2="10" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+          <line x1="16" y1="13" x2="22" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+        </svg>
+        <span class="ic-badge-label">Fire</span>
+      </div>
+
+      <!-- Stem badge -->
+      <div class="ic-badge">
+        <span style="font-family:'Noto Serif SC',Georgia,serif;font-size:16px;color:#c4745a;line-height:1;font-weight:400;display:block;">丙</span>
+        <span class="ic-badge-label">Bǐng</span>
+      </div>
+
+      <!-- Polarity badge (Yang = right half) -->
+      <div class="ic-badge">
+        <svg width="17" height="17" viewBox="0 0 40 40" fill="none">
+          <path d="M20,2 A18,18 0 0,1 20,38 A9,9 0 0,0 20,20 A9,9 0 0,1 20,2 Z" fill="#c4745a" opacity="0.85"/>
+          <circle cx="20" cy="11" r="3" fill="#c4745a" opacity="0.85"/>
+          <circle cx="20" cy="29" r="3" fill="none" stroke="#c4745a" stroke-width="1.5" opacity="0.55"/>
+        </svg>
+        <span class="ic-badge-label">Yang</span>
+      </div>
+
+    </div><!-- end .ic-badges -->
+
+    <!-- ④ Manifesto -->
+    <div class="ic-label">④ Manifesto · <code style="font-family:monospace;font-size:8px;color:rgba(196,116,90,0.7);">identity.manifesto</code> (split on " · ")</div>
+    <div class="ic-manifesto">
+      <div class="ic-manifesto-l1">Warmth without permission</div>
+      <div class="ic-manifesto-l2">The sun does not choose who it reaches.</div>
+    </div>
+
+    <!-- ⑤ Scroll Hint -->
+    <div class="ic-label">⑤ Scroll Hint · anchored bottom, fades in/out</div>
+    <div class="ic-scroll-hint">
+      <span class="ic-scroll-text">Discover</span>
+      <svg width="10" height="6" viewBox="0 0 14 8" fill="none">
+        <path d="M1 1L7 7L13 1" stroke="#c4745a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    </div><!-- end .ic-screen -->
+  </div><!-- end .ic-phone -->
+  </div><!-- end .ic-phone-wrap -->
+
+  <div class="ic-field-table">
+    <div class="ic-field-row">
+      <div class="ic-field-num">①</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.identityIcon</code><small>placeholder</small></div>
+        <div class="ic-field-desc"><strong>ArchetypeSeal</strong> — abstract geometric seal, element-colored. 72×72px viewBox. Dedicated SVG TBD.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">②</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.archetypeName</code><small>hero display name</small></div>
+        <div class="ic-field-desc"><strong>"The Sun"</strong> — Cormorant Garamond, bold, element color. The primary recognition moment of the reading.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">③</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.badges</code><small>from chart.dayMaster</small></div>
+        <div class="ic-field-desc">Three tappable tiles. <strong>Element</strong> → Five Elements panel. <strong>Stem</strong> (丙 + Bǐng) → 10-stem Day Master panel. <strong>Polarity</strong> → Yin/Yang taichi panel.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">④</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.manifesto</code><small>split on " · "</small></div>
+        <div class="ic-field-desc"><strong>L1:</strong> "Warmth without permission" — semi-bold.<br><strong>L2:</strong> "The sun does not choose who it reaches." — italic, reduced opacity.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">⑤</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>scroll hint</code><small>UI-only</small></div>
+        <div class="ic-field-desc">"DISCOVER ↓" — bottom-anchored, opacity 0.38, subtle pulse. No data field.</div>
+      </div>
+    </div>
+  </div><!-- end field table -->
+  </div><!-- end ic-layout -->
+
   <div class="psych-core">
     <div class="psych-core-label">Psychological Core</div>
     <div class="psych-core-phrase">The Involuntary Illuminator</div>
@@ -871,7 +1397,7 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 <div class="card fire">
   <div class="card-header">
     <div class="badge">丁</div>
-    <div><div class="card-title">Yin Fire — The Candle</div><div class="card-sub">Complete illumination of exactly what it's pointed at · The Visibility Impulse (Yin)</div></div>
+    <div><div class="card-title">Yin Fire — The Ember</div><div class="card-sub">Complete illumination of exactly what it's pointed at · The Visibility Impulse (Yin)</div></div>
   </div>
   <div class="chip-row">
     <span class="chip">Precise</span>
@@ -880,6 +1406,138 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
     <span class="chip">Detail-sensitive</span>
     <span class="chip">Flickering under depletion</span>
   </div>
+  <!-- ══ IDENTITY CARD: DELIVERABLE 1 ══════════════════════════════════════
+       Phone-frame preview of the DayMasterHero screen.
+       All fields FREE. Source: identity{} block in archetypeSource.js.
+  ══════════════════════════════════════════════════════════════════════════ -->
+  <div class="ic-eyebrow">
+    <span class="ic-eyebrow-label">Deliverable 1 — Identity Card</span>
+    <div class="ic-eyebrow-line"></div>
+    <span class="tier-badge tier-free">ALL FREE</span>
+  </div>
+
+  <!-- Side-by-side: phone left · field table right -->
+  <div class="ic-layout">
+  <div class="ic-phone-wrap">
+  <div class="ic-phone" style="background: linear-gradient(160deg, #f5eeea 0%, #f0ebe0 100%);">
+    <div class="ic-screen">
+
+    <!-- ① Identity Icon -->
+    <div class="ic-label">① Identity Icon · <code style="font-family:monospace;font-size:7px;color:rgba(196,116,90,0.7);">identity.identityIcon = "ArchetypeSeal"</code></div>
+    <div class="ic-icon-wrap">
+      <svg width="54" height="54" viewBox="0 0 72 72" fill="none">
+        <path d="M36 64 C28 64 22 58 22 50 C22 38 30 28 36 8 C42 28 50 38 50 50 C50 58 44 64 36 64 Z" stroke="#c4745a" stroke-width="1.5" fill="#c4745a" fill-opacity="0.08"/>
+        <path d="M36 58 C32 58 29 55 29 50 C29 43 33 36 36 24 C39 36 43 43 43 50 C43 55 40 58 36 58 Z" stroke="#c4745a" stroke-width="0.8" fill="#c4745a" fill-opacity="0.2"/>
+        <line x1="36" y1="64" x2="36" y2="70" stroke="#c4745a" stroke-width="2" stroke-linecap="round"/>
+        <line x1="28" y1="68" x2="44" y2="68" stroke="#c4745a" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="ic-label-gap"></div>
+
+    <!-- ② Archetype Name -->
+    <div class="ic-label">② Archetype Name · <code style="font-family:monospace;font-size:8px;color:rgba(196,116,90,0.7);">identity.archetypeName</code></div>
+    <div class="ic-archetype-name" style="color:#c4745a;">THE EMBER</div>
+
+    <!-- ③ Badge Tiles -->
+    <div class="ic-label">③ Badge Tiles · Element · Stem · Polarity (tappable — each opens a knowledge popup)</div>
+    <div class="ic-badges">
+
+      <!-- Element badge -->
+      <div class="ic-badge">
+        <svg width="15" height="15" viewBox="0 0 32 32" fill="none">
+          <defs>
+            <linearGradient id="db-gem-ding" x1="20%" y1="0%" x2="80%" y2="100%">
+              <stop offset="0%"   stop-color="#c4745a" stop-opacity="1"/>
+              <stop offset="50%"  stop-color="#c4745a" stop-opacity="0.55"/>
+              <stop offset="100%" stop-color="#c4745a" stop-opacity="0.9"/>
+            </linearGradient>
+          </defs>
+          <polygon points="16,2 27,10 22,29 10,29 5,10" fill="url(#db-gem-ding)"/>
+          <polygon points="16,2 27,10 16,13 5,10" fill="white" opacity="0.28"/>
+          <line x1="16" y1="2" x2="16" y2="13" stroke="white" stroke-width="0.6" opacity="0.45"/>
+          <line x1="16" y1="13" x2="10" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+          <line x1="16" y1="13" x2="22" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+        </svg>
+        <span class="ic-badge-label">Fire</span>
+      </div>
+
+      <!-- Stem badge -->
+      <div class="ic-badge">
+        <span style="font-family:'Noto Serif SC',Georgia,serif;font-size:16px;color:#c4745a;line-height:1;font-weight:400;display:block;">丁</span>
+        <span class="ic-badge-label">Dīng</span>
+      </div>
+
+      <!-- Polarity badge (Yin = left half) -->
+      <div class="ic-badge">
+        <svg width="17" height="17" viewBox="0 0 40 40" fill="none">
+          <path d="M20,2 A18,18 0 0,0 20,38 A9,9 0 0,1 20,20 A9,9 0 0,0 20,2 Z" fill="#c4745a" opacity="0.85"/>
+          <circle cx="20" cy="11" r="3" fill="none" stroke="#c4745a" stroke-width="1.5" opacity="0.55"/>
+          <circle cx="20" cy="29" r="3" fill="#c4745a" opacity="0.85"/>
+        </svg>
+        <span class="ic-badge-label">Yin</span>
+      </div>
+
+    </div><!-- end .ic-badges -->
+
+    <!-- ④ Manifesto -->
+    <div class="ic-label">④ Manifesto · <code style="font-family:monospace;font-size:8px;color:rgba(196,116,90,0.7);">identity.manifesto</code> (split on " · ")</div>
+    <div class="ic-manifesto">
+      <div class="ic-manifesto-l1">Intimacy over range</div>
+      <div class="ic-manifesto-l2">A candle doesn't reach far — it reaches true.</div>
+    </div>
+
+    <!-- ⑤ Scroll Hint -->
+    <div class="ic-label">⑤ Scroll Hint · anchored bottom, fades in/out</div>
+    <div class="ic-scroll-hint">
+      <span class="ic-scroll-text">Discover</span>
+      <svg width="10" height="6" viewBox="0 0 14 8" fill="none">
+        <path d="M1 1L7 7L13 1" stroke="#c4745a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    </div><!-- end .ic-screen -->
+  </div><!-- end .ic-phone -->
+  </div><!-- end .ic-phone-wrap -->
+
+  <div class="ic-field-table">
+    <div class="ic-field-row">
+      <div class="ic-field-num">①</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.identityIcon</code><small>placeholder</small></div>
+        <div class="ic-field-desc"><strong>ArchetypeSeal</strong> — abstract geometric seal, element-colored. 72×72px viewBox. Dedicated SVG TBD.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">②</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.archetypeName</code><small>hero display name</small></div>
+        <div class="ic-field-desc"><strong>"The Ember"</strong> — Cormorant Garamond, bold, element color. The primary recognition moment of the reading.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">③</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.badges</code><small>from chart.dayMaster</small></div>
+        <div class="ic-field-desc">Three tappable tiles. <strong>Element</strong> → Five Elements panel. <strong>Stem</strong> (丁 + Dīng) → 10-stem Day Master panel. <strong>Polarity</strong> → Yin/Yang taichi panel.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">④</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.manifesto</code><small>split on " · "</small></div>
+        <div class="ic-field-desc"><strong>L1:</strong> "Intimacy over range" — semi-bold.<br><strong>L2:</strong> "A candle doesn't reach far — it reaches true." — italic, reduced opacity.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">⑤</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>scroll hint</code><small>UI-only</small></div>
+        <div class="ic-field-desc">"DISCOVER ↓" — bottom-anchored, opacity 0.38, subtle pulse. No data field.</div>
+      </div>
+    </div>
+  </div><!-- end field table -->
+  </div><!-- end ic-layout -->
+
   <div class="psych-core">
     <div class="psych-core-label">Psychological Core</div>
     <div class="psych-core-phrase">The Focused Witness</div>
@@ -1015,6 +1673,139 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
     <span class="chip">Silently accumulating</span>
     <span class="chip">Orientation-providing</span>
   </div>
+  <!-- ══ IDENTITY CARD: DELIVERABLE 1 ══════════════════════════════════════
+       Phone-frame preview of the DayMasterHero screen.
+       All fields FREE. Source: identity{} block in archetypeSource.js.
+  ══════════════════════════════════════════════════════════════════════════ -->
+  <div class="ic-eyebrow">
+    <span class="ic-eyebrow-label">Deliverable 1 — Identity Card</span>
+    <div class="ic-eyebrow-line"></div>
+    <span class="tier-badge tier-free">ALL FREE</span>
+  </div>
+
+  <!-- Side-by-side: phone left · field table right -->
+  <div class="ic-layout">
+  <div class="ic-phone-wrap">
+  <div class="ic-phone" style="background: linear-gradient(160deg, #f5f0e8 0%, #f0ebe0 100%);">
+    <div class="ic-screen">
+
+    <!-- ① Identity Icon -->
+    <div class="ic-label">① Identity Icon · <code style="font-family:monospace;font-size:7px;color:rgba(196,116,90,0.7);">identity.identityIcon = "ArchetypeSeal"</code></div>
+    <div class="ic-icon-wrap">
+      <svg width="54" height="54" viewBox="0 0 72 72" fill="none">
+        <polygon points="36,10 64,58 8,58" stroke="#b89a6a" stroke-width="1.6" fill="#b89a6a" fill-opacity="0.06"/>
+        <line x1="20" y1="42" x2="52" y2="42" stroke="#b89a6a" stroke-width="1.1" opacity="0.45"/>
+        <line x1="27" y1="30" x2="45" y2="30" stroke="#b89a6a" stroke-width="0.8" opacity="0.3"/>
+        <line x1="8" y1="58" x2="64" y2="58" stroke="#b89a6a" stroke-width="1.5"/>
+        <circle cx="36" cy="10" r="2" fill="#b89a6a" opacity="0.7"/>
+      </svg>
+    </div>
+    <div class="ic-label-gap"></div>
+
+    <!-- ② Archetype Name -->
+    <div class="ic-label">② Archetype Name · <code style="font-family:monospace;font-size:8px;color:rgba(196,116,90,0.7);">identity.archetypeName</code></div>
+    <div class="ic-archetype-name" style="color:#b89a6a;">THE MOUNTAIN</div>
+
+    <!-- ③ Badge Tiles -->
+    <div class="ic-label">③ Badge Tiles · Element · Stem · Polarity (tappable — each opens a knowledge popup)</div>
+    <div class="ic-badges">
+
+      <!-- Element badge -->
+      <div class="ic-badge">
+        <svg width="15" height="15" viewBox="0 0 32 32" fill="none">
+          <defs>
+            <linearGradient id="db-gem-wu" x1="20%" y1="0%" x2="80%" y2="100%">
+              <stop offset="0%"   stop-color="#b89a6a" stop-opacity="1"/>
+              <stop offset="50%"  stop-color="#b89a6a" stop-opacity="0.55"/>
+              <stop offset="100%" stop-color="#b89a6a" stop-opacity="0.9"/>
+            </linearGradient>
+          </defs>
+          <polygon points="16,2 27,10 22,29 10,29 5,10" fill="url(#db-gem-wu)"/>
+          <polygon points="16,2 27,10 16,13 5,10" fill="white" opacity="0.28"/>
+          <line x1="16" y1="2" x2="16" y2="13" stroke="white" stroke-width="0.6" opacity="0.45"/>
+          <line x1="16" y1="13" x2="10" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+          <line x1="16" y1="13" x2="22" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+        </svg>
+        <span class="ic-badge-label">Earth</span>
+      </div>
+
+      <!-- Stem badge -->
+      <div class="ic-badge">
+        <span style="font-family:'Noto Serif SC',Georgia,serif;font-size:16px;color:#b89a6a;line-height:1;font-weight:400;display:block;">戊</span>
+        <span class="ic-badge-label">Wù</span>
+      </div>
+
+      <!-- Polarity badge (Yang = right half) -->
+      <div class="ic-badge">
+        <svg width="17" height="17" viewBox="0 0 40 40" fill="none">
+          <path d="M20,2 A18,18 0 0,1 20,38 A9,9 0 0,0 20,20 A9,9 0 0,1 20,2 Z" fill="#b89a6a" opacity="0.85"/>
+          <circle cx="20" cy="11" r="3" fill="#b89a6a" opacity="0.85"/>
+          <circle cx="20" cy="29" r="3" fill="none" stroke="#b89a6a" stroke-width="1.5" opacity="0.55"/>
+        </svg>
+        <span class="ic-badge-label">Yang</span>
+      </div>
+
+    </div><!-- end .ic-badges -->
+
+    <!-- ④ Manifesto -->
+    <div class="ic-label">④ Manifesto · <code style="font-family:monospace;font-size:8px;color:rgba(184,154,106,0.7);">identity.manifesto</code> (split on " · ")</div>
+    <div class="ic-manifesto">
+      <div class="ic-manifesto-l1">Immovable by design</div>
+      <div class="ic-manifesto-l2">Others find their bearings and never name why.</div>
+    </div>
+
+    <!-- ⑤ Scroll Hint -->
+    <div class="ic-label">⑤ Scroll Hint · anchored bottom, fades in/out</div>
+    <div class="ic-scroll-hint">
+      <span class="ic-scroll-text">Discover</span>
+      <svg width="10" height="6" viewBox="0 0 14 8" fill="none">
+        <path d="M1 1L7 7L13 1" stroke="#b89a6a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    </div><!-- end .ic-screen -->
+  </div><!-- end .ic-phone -->
+  </div><!-- end .ic-phone-wrap -->
+
+  <div class="ic-field-table">
+    <div class="ic-field-row">
+      <div class="ic-field-num">①</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.identityIcon</code><small>placeholder</small></div>
+        <div class="ic-field-desc"><strong>ArchetypeSeal</strong> — abstract geometric seal, element-colored. 72×72px viewBox. Dedicated SVG TBD.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">②</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.archetypeName</code><small>hero display name</small></div>
+        <div class="ic-field-desc"><strong>"The Mountain"</strong> — Cormorant Garamond, bold, element color. The primary recognition moment of the reading.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">③</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.badges</code><small>from chart.dayMaster</small></div>
+        <div class="ic-field-desc">Three tappable tiles. <strong>Element</strong> → Five Elements panel. <strong>Stem</strong> (戊 + Wù) → 10-stem Day Master panel. <strong>Polarity</strong> → Yin/Yang taichi panel.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">④</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.manifesto</code><small>split on " · "</small></div>
+        <div class="ic-field-desc"><strong>L1:</strong> "Immovable by design" — semi-bold.<br><strong>L2:</strong> "Others find their bearings and never name why." — italic, reduced opacity.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">⑤</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>scroll hint</code><small>UI-only</small></div>
+        <div class="ic-field-desc">"DISCOVER ↓" — bottom-anchored, opacity 0.38, subtle pulse. No data field.</div>
+      </div>
+    </div>
+  </div><!-- end field table -->
+  </div><!-- end ic-layout -->
+
   <div class="psych-core">
     <div class="psych-core-label">Psychological Core</div>
     <div class="psych-core-phrase">The Unnamed Foundation</div>
@@ -1149,6 +1940,150 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
     <span class="chip">Overcultivating</span>
     <span class="chip">Responsive</span>
   </div>
+  <!-- ══ IDENTITY CARD: DELIVERABLE 1 ══════════════════════════════════════
+       Phone-frame preview of the DayMasterHero screen.
+       All fields FREE. Source: identity{} block in archetypeSource.js.
+  ══════════════════════════════════════════════════════════════════════════ -->
+  <div class="ic-eyebrow">
+    <span class="ic-eyebrow-label">Deliverable 1 — Identity Card</span>
+    <div class="ic-eyebrow-line"></div>
+    <span class="tier-badge tier-free">ALL FREE</span>
+  </div>
+
+  <!-- Side-by-side: phone left · field table right -->
+  <div class="ic-layout">
+  <div class="ic-phone-wrap">
+  <div class="ic-phone" style="background: linear-gradient(160deg, #f5f0e8 0%, #f0ebe0 100%);">
+    <div class="ic-screen">
+
+    <!-- ① Identity Icon -->
+    <div class="ic-label">① Identity Icon · <code style="font-family:monospace;font-size:7px;color:rgba(184,154,106,0.7);">identity.identityIcon = "ArchetypeSeal"</code></div>
+    <div class="ic-icon-wrap">
+      <svg width="54" height="54" viewBox="0 0 72 72" fill="none">
+        <line x1="12" y1="38" x2="60" y2="38" stroke="#b89a6a" stroke-width="1.4" stroke-linecap="round"/>
+        <line x1="12" y1="46" x2="60" y2="46" stroke="#b89a6a" stroke-width="1.0" stroke-linecap="round" opacity="0.82"/>
+        <line x1="12" y1="54" x2="60" y2="54" stroke="#b89a6a" stroke-width="1.0" stroke-linecap="round" opacity="0.64"/>
+        <line x1="12" y1="62" x2="60" y2="62" stroke="#b89a6a" stroke-width="1.0" stroke-linecap="round" opacity="0.46"/>
+        <line x1="20" y1="36" x2="20" y2="22" stroke="#b89a6a" stroke-width="1.1" stroke-linecap="round"/>
+        <line x1="20" y1="26" x2="15" y2="18" stroke="#b89a6a" stroke-width="0.8" stroke-linecap="round" opacity="0.7"/>
+        <line x1="20" y1="26" x2="25" y2="18" stroke="#b89a6a" stroke-width="0.8" stroke-linecap="round" opacity="0.7"/>
+        <line x1="30" y1="36" x2="30" y2="22" stroke="#b89a6a" stroke-width="1.1" stroke-linecap="round"/>
+        <line x1="30" y1="26" x2="25" y2="18" stroke="#b89a6a" stroke-width="0.8" stroke-linecap="round" opacity="0.7"/>
+        <line x1="30" y1="26" x2="35" y2="18" stroke="#b89a6a" stroke-width="0.8" stroke-linecap="round" opacity="0.7"/>
+        <line x1="40" y1="36" x2="40" y2="22" stroke="#b89a6a" stroke-width="1.1" stroke-linecap="round"/>
+        <line x1="40" y1="26" x2="35" y2="18" stroke="#b89a6a" stroke-width="0.8" stroke-linecap="round" opacity="0.7"/>
+        <line x1="40" y1="26" x2="45" y2="18" stroke="#b89a6a" stroke-width="0.8" stroke-linecap="round" opacity="0.7"/>
+        <line x1="50" y1="36" x2="50" y2="22" stroke="#b89a6a" stroke-width="1.1" stroke-linecap="round"/>
+        <line x1="50" y1="26" x2="45" y2="18" stroke="#b89a6a" stroke-width="0.8" stroke-linecap="round" opacity="0.7"/>
+        <line x1="50" y1="26" x2="55" y2="18" stroke="#b89a6a" stroke-width="0.8" stroke-linecap="round" opacity="0.7"/>
+      </svg>
+    </div>
+    <div class="ic-label-gap"></div>
+
+    <!-- ② Archetype Name -->
+    <div class="ic-label">② Archetype Name · <code style="font-family:monospace;font-size:8px;color:rgba(184,154,106,0.7);">identity.archetypeName</code></div>
+    <div class="ic-archetype-name" style="color:#b89a6a;">THE FIELD</div>
+
+    <!-- ③ Badge Tiles -->
+    <div class="ic-label">③ Badge Tiles · Element · Stem · Polarity (tappable — each opens a knowledge popup)</div>
+    <div class="ic-badges">
+
+      <!-- Element badge -->
+      <div class="ic-badge">
+        <svg width="15" height="15" viewBox="0 0 32 32" fill="none">
+          <defs>
+            <linearGradient id="db-gem-ji" x1="20%" y1="0%" x2="80%" y2="100%">
+              <stop offset="0%"   stop-color="#b89a6a" stop-opacity="1"/>
+              <stop offset="50%"  stop-color="#b89a6a" stop-opacity="0.55"/>
+              <stop offset="100%" stop-color="#b89a6a" stop-opacity="0.9"/>
+            </linearGradient>
+          </defs>
+          <polygon points="16,2 27,10 22,29 10,29 5,10" fill="url(#db-gem-ji)"/>
+          <polygon points="16,2 27,10 16,13 5,10" fill="white" opacity="0.28"/>
+          <line x1="16" y1="2" x2="16" y2="13" stroke="white" stroke-width="0.6" opacity="0.45"/>
+          <line x1="16" y1="13" x2="10" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+          <line x1="16" y1="13" x2="22" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+        </svg>
+        <span class="ic-badge-label">Earth</span>
+      </div>
+
+      <!-- Stem badge -->
+      <div class="ic-badge">
+        <span style="font-family:'Noto Serif SC',Georgia,serif;font-size:16px;color:#b89a6a;line-height:1;font-weight:400;display:block;">己</span>
+        <span class="ic-badge-label">Jǐ</span>
+      </div>
+
+      <!-- Polarity badge (Yin = left half) -->
+      <div class="ic-badge">
+        <svg width="17" height="17" viewBox="0 0 40 40" fill="none">
+          <path d="M20,2 A18,18 0 0,0 20,38 A9,9 0 0,1 20,20 A9,9 0 0,0 20,2 Z" fill="#b89a6a" opacity="0.85"/>
+          <circle cx="20" cy="11" r="3" fill="none" stroke="#b89a6a" stroke-width="1.5" opacity="0.55"/>
+          <circle cx="20" cy="29" r="3" fill="#b89a6a" opacity="0.85"/>
+        </svg>
+        <span class="ic-badge-label">Yin</span>
+      </div>
+
+    </div><!-- end .ic-badges -->
+
+    <!-- ④ Manifesto -->
+    <div class="ic-label">④ Manifesto · <code style="font-family:monospace;font-size:8px;color:rgba(184,154,106,0.7);">identity.manifesto</code> (split on " · ")</div>
+    <div class="ic-manifesto">
+      <div class="ic-manifesto-l1">Nourish without credit</div>
+      <div class="ic-manifesto-l2">The soil feeds everything and claims nothing.</div>
+    </div>
+
+    <!-- ⑤ Scroll Hint -->
+    <div class="ic-label">⑤ Scroll Hint · anchored bottom, fades in/out</div>
+    <div class="ic-scroll-hint">
+      <span class="ic-scroll-text">Discover</span>
+      <svg width="10" height="6" viewBox="0 0 14 8" fill="none">
+        <path d="M1 1L7 7L13 1" stroke="#b89a6a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    </div><!-- end .ic-screen -->
+  </div><!-- end .ic-phone -->
+  </div><!-- end .ic-phone-wrap -->
+
+  <div class="ic-field-table">
+    <div class="ic-field-row">
+      <div class="ic-field-num">①</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.identityIcon</code><small>placeholder</small></div>
+        <div class="ic-field-desc"><strong>ArchetypeSeal</strong> — abstract geometric seal, element-colored. 72×72px viewBox. Dedicated SVG TBD.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">②</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.archetypeName</code><small>hero display name</small></div>
+        <div class="ic-field-desc"><strong>"The Field"</strong> — Cormorant Garamond, bold, element color. The primary recognition moment of the reading.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">③</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.badges</code><small>from chart.dayMaster</small></div>
+        <div class="ic-field-desc">Three tappable tiles. <strong>Element</strong> → Five Elements panel. <strong>Stem</strong> (己 + Jǐ) → 10-stem Day Master panel. <strong>Polarity</strong> → Yin/Yang taichi panel.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">④</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.manifesto</code><small>split on " · "</small></div>
+        <div class="ic-field-desc"><strong>L1:</strong> "Nourish without credit" — semi-bold.<br><strong>L2:</strong> "The soil feeds everything and claims nothing." — italic, reduced opacity.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">⑤</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>scroll hint</code><small>UI-only</small></div>
+        <div class="ic-field-desc">"DISCOVER ↓" — bottom-anchored, opacity 0.38, subtle pulse. No data field.</div>
+      </div>
+    </div>
+  </div><!-- end field table -->
+  </div><!-- end ic-layout -->
+
   <div class="psych-core">
     <div class="psych-core-label">Psychological Core</div>
     <div class="psych-core-phrase">The Silent Cultivator</div>
@@ -1272,17 +2207,191 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
     <span class="chip">Justice-oriented</span>
   </div>
 
+  <!-- ══ IDENTITY CARD: DELIVERABLE 1 ══════════════════════════════════════
+       Phone-frame preview of the DayMasterHero screen.
+       All fields FREE. Source: identity{} block in archetypeSource.js.
+  ══════════════════════════════════════════════════════════════════════════ -->
+  <div class="ic-eyebrow">
+    <span class="ic-eyebrow-label">Deliverable 1 — Identity Card</span>
+    <div class="ic-eyebrow-line"></div>
+    <span class="tier-badge tier-free">ALL FREE</span>
+  </div>
+
+  <!-- Side-by-side: phone left · field table right -->
+  <div class="ic-layout">
+  <div class="ic-phone-wrap">
+  <div class="ic-phone">
+    <div class="ic-screen">
+
+    <!-- ① Identity Icon -->
+    <div class="ic-label">① Identity Icon · <code style="font-family:monospace;font-size:7px;color:rgba(139,163,184,0.7);">identity.identityIcon = "BladeJian"</code></div>
+    <div class="ic-icon-wrap">
+      <svg width="54" height="102" viewBox="0 0 96 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="db-jianBlade" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%"   stop-color="#7a8fa8"/>
+            <stop offset="30%"  stop-color="#c8d8e8"/>
+            <stop offset="50%"  stop-color="#f0f5fa"/>
+            <stop offset="70%"  stop-color="#c8d8e8"/>
+            <stop offset="100%" stop-color="#7a8fa8"/>
+          </linearGradient>
+          <linearGradient id="db-jianGuard" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%"   stop-color="#e8c87a"/>
+            <stop offset="50%"  stop-color="#d4a840"/>
+            <stop offset="100%" stop-color="#a87830"/>
+          </linearGradient>
+          <linearGradient id="db-jianHandle" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%"   stop-color="#1e1008"/>
+            <stop offset="50%"  stop-color="#3c2010"/>
+            <stop offset="100%" stop-color="#1e1008"/>
+          </linearGradient>
+          <linearGradient id="db-jianPommel" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%"   stop-color="#e8d080"/>
+            <stop offset="100%" stop-color="#a87830"/>
+          </linearGradient>
+          <filter id="db-jianGlow">
+            <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#00000025"/>
+          </filter>
+        </defs>
+        <!-- Blade -->
+        <path d="M48,6 L54,124 L48,132 L42,124 Z" fill="url(#db-jianBlade)" filter="url(#db-jianGlow)"/>
+        <line x1="48" y1="8" x2="48" y2="126" stroke="#ffffff70" stroke-width="0.7"/>
+        <path d="M42,124 L48,6" stroke="#b8cce050" stroke-width="0.5"/>
+        <!-- Guard -->
+        <rect x="33" y="124" width="30" height="7" rx="2.5" fill="url(#db-jianGuard)" filter="url(#db-jianGlow)"/>
+        <ellipse cx="33" cy="127.5" rx="5" ry="3.5" fill="#d4a840"/>
+        <ellipse cx="63" cy="127.5" rx="5" ry="3.5" fill="#d4a840"/>
+        <line x1="38" y1="127.5" x2="58" y2="127.5" stroke="#e8d07040" stroke-width="0.6"/>
+        <!-- Handle -->
+        <rect x="44" y="131" width="8" height="34" rx="2" fill="url(#db-jianHandle)"/>
+        <rect x="43" y="134" width="10" height="1.5" rx="0.75" fill="#c8a86035"/>
+        <rect x="43" y="138" width="10" height="1.5" rx="0.75" fill="#c8a86035"/>
+        <rect x="43" y="142" width="10" height="1.5" rx="0.75" fill="#c8a86035"/>
+        <rect x="43" y="146" width="10" height="1.5" rx="0.75" fill="#c8a86035"/>
+        <rect x="43" y="150" width="10" height="1.5" rx="0.75" fill="#c8a86035"/>
+        <rect x="43" y="154" width="10" height="1.5" rx="0.75" fill="#c8a86035"/>
+        <rect x="43" y="158" width="10" height="1.5" rx="0.75" fill="#c8a86035"/>
+        <path d="M44,132 L52,136 M44,140 L52,144 M44,148 L52,152 M44,156 L52,160" stroke="#c8a86040" stroke-width="1" fill="none"/>
+        <!-- Pommel -->
+        <ellipse cx="48" cy="168" rx="9" ry="5.5" fill="url(#db-jianPommel)" filter="url(#db-jianGlow)"/>
+        <ellipse cx="48" cy="167" rx="5.5" ry="3" fill="#f0e09060"/>
+      </svg>
+    </div>
+    <div class="ic-label-gap"></div>
+
+    <!-- ② Archetype Name -->
+    <div class="ic-label">② Archetype Name · <code style="font-family:monospace;font-size:8px;color:rgba(139,163,184,0.7);">identity.archetypeName</code></div>
+    <div class="ic-archetype-name">THE BLADE</div>
+
+    <!-- ③ Badge Tiles -->
+    <div class="ic-label">③ Badge Tiles · Element · Stem · Polarity (tappable — each opens a knowledge popup)</div>
+    <div class="ic-badges">
+
+      <!-- Element badge -->
+      <div class="ic-badge">
+        <svg width="15" height="15" viewBox="0 0 32 32" fill="none">
+          <defs>
+            <linearGradient id="db-gem" x1="20%" y1="0%" x2="80%" y2="100%">
+              <stop offset="0%"   stop-color="#8ba3b8" stop-opacity="1"/>
+              <stop offset="50%"  stop-color="#8ba3b8" stop-opacity="0.55"/>
+              <stop offset="100%" stop-color="#8ba3b8" stop-opacity="0.9"/>
+            </linearGradient>
+          </defs>
+          <polygon points="16,2 27,10 22,29 10,29 5,10" fill="url(#db-gem)"/>
+          <polygon points="16,2 27,10 16,13 5,10" fill="white" opacity="0.28"/>
+          <line x1="16" y1="2" x2="16" y2="13" stroke="white" stroke-width="0.6" opacity="0.45"/>
+          <line x1="16" y1="13" x2="10" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+          <line x1="16" y1="13" x2="22" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+        </svg>
+        <span class="ic-badge-label">Metal</span>
+      </div>
+
+      <!-- Stem badge -->
+      <div class="ic-badge">
+        <span style="font-family:'Noto Serif SC',Georgia,serif;font-size:16px;color:#8ba3b8;line-height:1;font-weight:400;display:block;">庚</span>
+        <span class="ic-badge-label">Gēng</span>
+      </div>
+
+      <!-- Polarity badge (Yang = right half) -->
+      <div class="ic-badge">
+        <svg width="17" height="17" viewBox="0 0 40 40" fill="none">
+          <path d="M20,2 A18,18 0 0,1 20,38 A9,9 0 0,0 20,20 A9,9 0 0,1 20,2 Z" fill="#8ba3b8" opacity="0.85"/>
+          <circle cx="20" cy="11" r="3" fill="#8ba3b8" opacity="0.85"/>
+          <circle cx="20" cy="29" r="3" fill="none" stroke="#8ba3b8" stroke-width="1.5" opacity="0.55"/>
+        </svg>
+        <span class="ic-badge-label">Yang</span>
+      </div>
+
+    </div><!-- end .ic-badges -->
+
+    <!-- ④ Manifesto -->
+    <div class="ic-label">④ Manifesto · <code style="font-family:monospace;font-size:8px;color:rgba(139,163,184,0.7);">identity.manifesto</code> (split on " · ")</div>
+    <div class="ic-manifesto">
+      <div class="ic-manifesto-l1">Precision before intention</div>
+      <div class="ic-manifesto-l2">An edge is never given — it is forged.</div>
+    </div>
+
+    <!-- ⑤ Scroll Hint -->
+    <div class="ic-label">⑤ Scroll Hint · anchored bottom, fades in/out</div>
+    <div class="ic-scroll-hint">
+      <span class="ic-scroll-text">Discover</span>
+      <svg width="10" height="6" viewBox="0 0 14 8" fill="none">
+        <path d="M1 1L7 7L13 1" stroke="#8ba3b8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    </div><!-- end .ic-screen -->
+  </div><!-- end .ic-phone -->
+  </div><!-- end .ic-phone-wrap -->
+
+  <div class="ic-field-table">
+    <div class="ic-field-row">
+      <div class="ic-field-num">①</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.identityIcon</code><small>庚-specific SVG</small></div>
+        <div class="ic-field-desc"><strong>BladeJian</strong> — straight double-edged sword (直剑). Four parts: tapered blade, gold guard, dark wood handle, gold pommel. Each has its own metallic linearGradient. 96×180px viewBox. All other stems fall back to <code>ArchetypeSeal</code>.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">②</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.archetypeName</code><small>hero display name</small></div>
+        <div class="ic-field-desc"><strong>"The Blade"</strong> — Cormorant Garamond, bold, element color. The primary recognition moment of the reading.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">③</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.badges</code><small>from chart.dayMaster</small></div>
+        <div class="ic-field-desc">Three tappable tiles. <strong>Element</strong> → Five Elements panel. <strong>Stem</strong> (庚 + Gēng) → 10-stem Day Master panel. <strong>Polarity</strong> → Yin/Yang taichi panel.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">④</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.manifesto</code><small>split on " · "</small></div>
+        <div class="ic-field-desc"><strong>L1:</strong> "Precision before intention" — semi-bold.<br><strong>L2:</strong> "An edge is never given — it is forged." — italic, reduced opacity.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">⑤</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>scroll hint</code><small>UI-only</small></div>
+        <div class="ic-field-desc">"DISCOVER ↓" — bottom-anchored, opacity 0.38, subtle pulse. Signals the Elemental Nature section below. No data field.</div>
+      </div>
+    </div>
+  </div><!-- end field table -->
+  </div><!-- end ic-layout -->
+
   <!-- SECTION 1: ELEMENTAL NATURE -->
   <div class="teaser-block">
     <div class="teaser-eyebrow">Elemental Nature <span class="tier-badge tier-free">FREE TEASER</span></div>
 
-    <!-- ① Archetype identity (psychCore.phrase) -->
-    <div class="archetype-identity">
-      <div class="archetype-phrase">The Structural Assessor</div>
-    </div>
+    <!-- ① psychCore.phrase — INTERNAL, not rendered in UI. Reserved for share cards / Pro features -->
+    <!-- phrase: "The Imperial Executioner" -->
 
     <!-- ② Portrait (psychCore.desc — 2nd person, concise) -->
-    <div class="portrait-text">You evaluate before you engage, and the assessment never stops — a clarity so structural it arrives as precision before warmth, making you simultaneously the most trustworthy and most difficult person in any room. What reads as a blade is actually a defense mechanism for a very soft core beneath.</div>
+    <div class="portrait-text">You read every room before you enter it — the assessment runs automatically, before you've decided to begin. People trust you because you're always honest, but they often find you hard to get close to.</div>
 
     <!-- ③ Gifts & Shadows panel (phrase [FREE] · desc [PRO]) -->
     <div class="gifts-shadows-panel">
@@ -1301,7 +2410,7 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
     </div>
 
 
-    <\!-- ④ Block labels preview (pro gate) -->
+    <!-- ④ Block labels preview (pro gate) -->
     <div class="block-labels-preview">
       <div class="blp-header">Inside the full reading <span class="tier-badge tier-pro">PRO</span></div>
       <div class="blp-list">
@@ -1336,6 +2445,7 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
       <div class="block-label">How you experience the world <span class="tier-badge tier-pro">PRO</span></div>
       <div class="block-meta">
         <span class="meta-chip">priority · default 5 · concentrated 5</span>
+        <span class="meta-chip meta-restricted">variants: concentrated · open · tested · pure · rooted</span>
       </div>
       <div class="variant-row">
         <div class="variant-key-label key-default">default</div>
@@ -1352,6 +2462,14 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
       <div class="variant-row">
         <div class="variant-key-label key-tested">tested</div>
         <div class="block-text">The world evaluates back. That’s the specific texture when authority energy is dominant: the precision runs as it always does, but now something is running a read on you at the same time. An institutional lens — an external standard — operates in parallel with your own. If the external standard is genuine, this sharpens rather than compresses: there’s something real to measure against. If it isn’t, you know before the conversation has properly started. What changes is that the assessment is no longer one-directional. You are inside a system that is also assessing you, and that fact is part of what you’re evaluating.</div>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-pure">pure</div>
+        <div class="block-text">No dominant Ten God is shaping the deployment of this energy. The evaluative capacity runs as its essential self — not directed outward by a wealth configuration, not grounded by a dominant resource pull, not filtered through a relational or authority register. What arrives is precision without a predetermined channel. The world is a set of things to be assessed, and the question of what to do with those assessments is genuinely more open than it is for configurations where a dominant force has already specified the answer. This is not a weakness. It is the unconstrained form: the precision is free to find the target that actually deserves it, rather than the one a dominant configuration has already selected.</div>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-rooted">rooted</div>
+        <div class="block-text">Resource energy supporting the Metal means the evaluation doesn’t arrive alone — it arrives backed. Assessments form slower here and land harder once they do: the structural support that generates stability also generates weight. The world arrives not just as something to be cut but as something to be understood at depth, relative to what persists. There is a groundedness in how you encounter things — you don’t need to immediately act on what you’ve assessed, and the holding capacity is real. Where this creates friction: the same structural weight that makes your verdicts reliable makes it harder to move toward things that aren’t yet proven. You are well-positioned for durable work. You are less well-positioned for commitments that need to be made before confidence has fully formed.</div>
       </div>
     </div>
     <div class="inner-divider"></div>
@@ -1374,6 +2492,7 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
       <div class="block-label">Where you consistently get stuck <span class="tier-badge tier-pro">PRO</span></div>
       <div class="block-meta">
         <span class="meta-chip">priority · default 5 · concentrated 5 · open 3</span>
+        <span class="meta-chip meta-restricted">variants: concentrated · open · tested · pure · rooted</span>
       </div>
       <div class="variant-row">
         <div class="variant-key-label key-default">default</div>
@@ -1389,7 +2508,15 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
       </div>
       <div class="variant-row">
         <div class="variant-key-label key-tested">tested</div>
-        <div class="block-text">The stuck is specific: you know what’s right, and the structure wants something else. Not wrong — differently calibrated, optimized for criteria your standard wasn't built around. The temptation is to push the assessment through anyway because it's accurate. The cost is structural: the framework grants standing, and standing determines what gets heard. What holds you back is the gap between maintaining the verdict and operating inside the system that lets you act on it. Most of the time you find a way to manage both. The times you can't are the ones that cost something.</div>
+        <div class="block-text">The stuck is specific: you know what’s right, and the structure wants something else. Not wrong — differently calibrated, optimized for criteria your standard wasn’t built around. The temptation is to push the assessment through anyway because it’s accurate. The cost is structural: the framework grants standing, and standing determines what gets heard. What holds you back is the gap between maintaining the verdict and operating inside the system that lets you act on it. Most of the time you find a way to manage both. The times you can’t are the ones that cost something.</div>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-pure">pure</div>
+        <div class="block-text">The pure configuration produces a specific stuck point: the precision is operational and accurate, but without a dominant directive force, the question of which valid conclusion to act on first doesn’t have a built-in answer. Multiple assessments can coexist in equal standing — each accurate, none obviously prioritized. The decision machinery works. The orientational function, which would normally be supplied by a dominant wealth or authority configuration, has to be consciously constructed rather than structurally given. The stuck is subtle: you are not lacking clarity. You may be lacking the frame that tells you which clarity matters most right now.</div>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-rooted">rooted</div>
+        <div class="block-text">The structural weight that makes your assessments reliable is the same force that makes revision expensive. A conclusion formed with strong resource backing doesn’t revise easily — not because it can’t be corrected, but because the same grounding that produced it resists being overturned by anything less than genuinely heavy counter-evidence. The stuck pattern: you identify that something may need to change, the internal evaluation runs, and it runs longer than the situation requires. By the time you’ve reached full confidence in the revision, the window for acting on it has sometimes closed. The other form: you hold a position past its usefulness not out of stubbornness but out of structural integrity. Same property; different cost.</div>
       </div>
     </div>
     <div class="inner-divider"></div>
@@ -1487,6 +2614,7 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
       <div class="block-label">What holds you back without looking like it <span class="tier-badge tier-pro">PRO</span></div>
       <div class="block-meta">
         <span class="meta-chip">priority · default 4 · concentrated 5</span>
+        <span class="meta-chip meta-restricted">variants: concentrated · pure · rooted</span>
       </div>
       <div class="variant-row">
         <div class="variant-key-label key-default">default</div>
@@ -1495,6 +2623,14 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
       <div class="variant-row">
         <div class="variant-key-label key-concentrated">concentrated</div>
         <div class="block-text">You carry your verdicts. Not forever — but past the point where they serve you. A position formed under real evidence becomes the frame through which new evidence gets screened, and a system very good at spotting confirmation becomes very good at producing it. This isn’t stubbornness as a character flaw. It’s structural: the same evaluative rigidity that makes your assessments reliable makes revising them costly. The thing that holds you back isn’t doubt. It’s certainty applied past its expiration.</div>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-pure">pure</div>
+        <div class="block-text">Without a dominant force specifying what the precision is for, the pure configuration can accumulate something that doesn’t look like a problem from outside: technically active, producing accurate reads, operating well — but the precision isn’t converging toward anything in particular. The evaluative function runs without a consistent target that builds on itself. This looks like productivity from the outside while something inside registers as drift. What holds you back is not visible failure but the absence of a compounding direction — each assessment accurate in isolation, none building systematically toward something beyond itself. The sharp edge. The unspecified purpose.</div>
+      </div>
+      <div class="variant-row">
+        <div class="variant-key-label key-rooted">rooted</div>
+        <div class="block-text">The resource backing that stabilizes you also delays you. The structural support makes commitment to unproven paths feel structurally premature — not fearful, just early. And because you are genuinely stable and functional in the current state, the cost of not moving is invisible until it isn’t. Opportunities that require early commitment — relationships in their uncertain opening phase, career moves that need to be made before the destination is fully legible, positions that close if you don’t act before confidence is established — arrive and pass without you registering them as losses in real time. What holds you back looks like patience from the outside. The recognition of what passed tends to arrive later, when solid is no longer the relevant question.</div>
       </div>
     </div>
     <div class="inner-divider"></div>
@@ -1749,6 +2885,141 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
     <span class="chip">Exacting</span>
     <span class="chip">Distance through refinement</span>
   </div>
+  <!-- ══ IDENTITY CARD: DELIVERABLE 1 ══════════════════════════════════════
+       Phone-frame preview of the DayMasterHero screen.
+       All fields FREE. Source: identity{} block in archetypeSource.js.
+  ══════════════════════════════════════════════════════════════════════════ -->
+  <div class="ic-eyebrow">
+    <span class="ic-eyebrow-label">Deliverable 1 — Identity Card</span>
+    <div class="ic-eyebrow-line"></div>
+    <span class="tier-badge tier-free">ALL FREE</span>
+  </div>
+
+  <!-- Side-by-side: phone left · field table right -->
+  <div class="ic-layout">
+  <div class="ic-phone-wrap">
+  <div class="ic-phone" style="background: linear-gradient(160deg, #eef2f8 0%, #f0ebe0 100%);">
+    <div class="ic-screen">
+
+    <!-- ① Identity Icon -->
+    <div class="ic-label">① Identity Icon · <code style="font-family:monospace;font-size:7px;color:rgba(184,154,106,0.7);">identity.identityIcon = "ArchetypeSeal"</code></div>
+    <div class="ic-icon-wrap">
+      <svg width="54" height="54" viewBox="0 0 72 72" fill="none">
+        <polygon points="36,8 62,36 36,64 10,36" stroke="#8ba3b8" stroke-width="1.6" fill="#8ba3b8" fill-opacity="0.05"/>
+        <polygon points="36,18 54,36 36,54 18,36" stroke="#8ba3b8" stroke-width="0.9" fill="none" opacity="0.6"/>
+        <line x1="10" y1="36" x2="62" y2="36" stroke="#8ba3b8" stroke-width="0.6" opacity="0.3"/>
+        <line x1="36" y1="8" x2="36" y2="64" stroke="#8ba3b8" stroke-width="0.6" opacity="0.3"/>
+        <line x1="18" y1="18" x2="54" y2="54" stroke="#8ba3b8" stroke-width="0.5" opacity="0.2"/>
+        <line x1="54" y1="18" x2="18" y2="54" stroke="#8ba3b8" stroke-width="0.5" opacity="0.2"/>
+        <circle cx="36" cy="36" r="2.5" fill="#8ba3b8" opacity="0.6"/>
+      </svg>
+    </div>
+    <div class="ic-label-gap"></div>
+
+    <!-- ② Archetype Name -->
+    <div class="ic-label">② Archetype Name · <code style="font-family:monospace;font-size:8px;color:rgba(184,154,106,0.7);">identity.archetypeName</code></div>
+    <div class="ic-archetype-name" style="color:#8ba3b8;">THE JEWEL</div>
+
+    <!-- ③ Badge Tiles -->
+    <div class="ic-label">③ Badge Tiles · Element · Stem · Polarity (tappable — each opens a knowledge popup)</div>
+    <div class="ic-badges">
+
+      <!-- Element badge -->
+      <div class="ic-badge">
+        <svg width="15" height="15" viewBox="0 0 32 32" fill="none">
+          <defs>
+            <linearGradient id="db-gem-xin" x1="20%" y1="0%" x2="80%" y2="100%">
+              <stop offset="0%"   stop-color="#8ba3b8" stop-opacity="1"/>
+              <stop offset="50%"  stop-color="#8ba3b8" stop-opacity="0.55"/>
+              <stop offset="100%" stop-color="#8ba3b8" stop-opacity="0.9"/>
+            </linearGradient>
+          </defs>
+          <polygon points="16,2 27,10 22,29 10,29 5,10" fill="url(#db-gem-xin)"/>
+          <polygon points="16,2 27,10 16,13 5,10" fill="white" opacity="0.28"/>
+          <line x1="16" y1="2" x2="16" y2="13" stroke="white" stroke-width="0.6" opacity="0.45"/>
+          <line x1="16" y1="13" x2="10" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+          <line x1="16" y1="13" x2="22" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+        </svg>
+        <span class="ic-badge-label">Metal</span>
+      </div>
+
+      <!-- Stem badge -->
+      <div class="ic-badge">
+        <span style="font-family:'Noto Serif SC',Georgia,serif;font-size:16px;color:#8ba3b8;line-height:1;font-weight:400;display:block;">辛</span>
+        <span class="ic-badge-label">Xīn</span>
+      </div>
+
+      <!-- Polarity badge (Yin = left half) -->
+      <div class="ic-badge">
+        <svg width="17" height="17" viewBox="0 0 40 40" fill="none">
+          <path d="M20,2 A18,18 0 0,0 20,38 A9,9 0 0,1 20,20 A9,9 0 0,0 20,2 Z" fill="#8ba3b8" opacity="0.85"/>
+          <circle cx="20" cy="11" r="3" fill="none" stroke="#8ba3b8" stroke-width="1.5" opacity="0.55"/>
+          <circle cx="20" cy="29" r="3" fill="#8ba3b8" opacity="0.85"/>
+        </svg>
+        <span class="ic-badge-label">Yin</span>
+      </div>
+
+    </div><!-- end .ic-badges -->
+
+    <!-- ④ Manifesto -->
+    <div class="ic-label">④ Manifesto · <code style="font-family:monospace;font-size:8px;color:rgba(139,163,184,0.7);">identity.manifesto</code> (split on " · ")</div>
+    <div class="ic-manifesto">
+      <div class="ic-manifesto-l1">Refinement over output</div>
+      <div class="ic-manifesto-l2">The flaw is felt before the eye finds it.</div>
+    </div>
+
+    <!-- ⑤ Scroll Hint -->
+    <div class="ic-label">⑤ Scroll Hint · anchored bottom, fades in/out</div>
+    <div class="ic-scroll-hint">
+      <span class="ic-scroll-text">Discover</span>
+      <svg width="10" height="6" viewBox="0 0 14 8" fill="none">
+        <path d="M1 1L7 7L13 1" stroke="#8ba3b8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    </div><!-- end .ic-screen -->
+  </div><!-- end .ic-phone -->
+  </div><!-- end .ic-phone-wrap -->
+
+  <div class="ic-field-table">
+    <div class="ic-field-row">
+      <div class="ic-field-num">①</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.identityIcon</code><small>placeholder</small></div>
+        <div class="ic-field-desc"><strong>ArchetypeSeal</strong> — abstract geometric seal, element-colored. 72×72px viewBox. Dedicated SVG TBD.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">②</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.archetypeName</code><small>hero display name</small></div>
+        <div class="ic-field-desc"><strong>"The Jewel"</strong> — Cormorant Garamond, bold, element color. The primary recognition moment of the reading.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">③</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.badges</code><small>from chart.dayMaster</small></div>
+        <div class="ic-field-desc">Three tappable tiles. <strong>Element</strong> → Five Elements panel. <strong>Stem</strong> (辛 + Xīn) → 10-stem Day Master panel. <strong>Polarity</strong> → Yin/Yang taichi panel.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">④</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.manifesto</code><small>split on " · "</small></div>
+        <div class="ic-field-desc"><strong>L1:</strong> "Refinement over output" — semi-bold.<br><strong>L2:</strong> "The flaw is felt before the eye finds it." — italic, reduced opacity.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">⑤</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>scroll hint</code><small>UI-only</small></div>
+        <div class="ic-field-desc">"DISCOVER ↓" — bottom-anchored, opacity 0.38, subtle pulse. No data field.</div>
+      </div>
+    </div>
+  </div><!-- end field table -->
+  </div><!-- end ic-layout -->
+
   <div class="psych-core">
     <div class="psych-core-label">Psychological Core</div>
     <div class="psych-core-phrase">The Perceptual Perfectionist</div>
@@ -1870,6 +3141,140 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
     <span class="chip">Untranslatable</span>
     <span class="chip">Ambition without edges</span>
   </div>
+  <!-- ══ IDENTITY CARD: DELIVERABLE 1 ══════════════════════════════════════
+       Phone-frame preview of the DayMasterHero screen.
+       All fields FREE. Source: identity{} block in archetypeSource.js.
+  ══════════════════════════════════════════════════════════════════════════ -->
+  <div class="ic-eyebrow">
+    <span class="ic-eyebrow-label">Deliverable 1 — Identity Card</span>
+    <div class="ic-eyebrow-line"></div>
+    <span class="tier-badge tier-free">ALL FREE</span>
+  </div>
+
+  <!-- Side-by-side: phone left · field table right -->
+  <div class="ic-layout">
+  <div class="ic-phone-wrap">
+  <div class="ic-phone" style="background: linear-gradient(160deg, #eaeff5 0%, #f0ebe0 100%);">
+    <div class="ic-screen">
+
+    <!-- ① Identity Icon -->
+    <div class="ic-label">① Identity Icon · <code style="font-family:monospace;font-size:7px;color:rgba(139,163,184,0.7);">identity.identityIcon = "ArchetypeSeal"</code></div>
+    <div class="ic-icon-wrap">
+      <svg width="54" height="54" viewBox="0 0 72 72" fill="none">
+        <circle cx="36" cy="36" r="28" stroke="#5a7fa8" stroke-width="1.4" fill="none" opacity="0.9"/>
+        <circle cx="36" cy="36" r="20" stroke="#5a7fa8" stroke-width="1.2" fill="none" opacity="0.75"/>
+        <circle cx="36" cy="36" r="13" stroke="#5a7fa8" stroke-width="1.0" fill="none" opacity="0.6"/>
+        <circle cx="36" cy="36" r="7" stroke="#5a7fa8" stroke-width="0.8" fill="none" opacity="0.45"/>
+        <line x1="8" y1="36" x2="64" y2="36" stroke="#5a7fa8" stroke-width="1.6" opacity="0.4"/>
+        <line x1="8" y1="36" x2="64" y2="36" stroke="#5a7fa8" stroke-width="0.5" stroke-dasharray="3 3" opacity="0.3"/>
+      </svg>
+    </div>
+    <div class="ic-label-gap"></div>
+
+    <!-- ② Archetype Name -->
+    <div class="ic-label">② Archetype Name · <code style="font-family:monospace;font-size:8px;color:rgba(139,163,184,0.7);">identity.archetypeName</code></div>
+    <div class="ic-archetype-name" style="color:#5a7fa8;">THE OCEAN</div>
+
+    <!-- ③ Badge Tiles -->
+    <div class="ic-label">③ Badge Tiles · Element · Stem · Polarity (tappable — each opens a knowledge popup)</div>
+    <div class="ic-badges">
+
+      <!-- Element badge -->
+      <div class="ic-badge">
+        <svg width="15" height="15" viewBox="0 0 32 32" fill="none">
+          <defs>
+            <linearGradient id="db-gem-ren" x1="20%" y1="0%" x2="80%" y2="100%">
+              <stop offset="0%"   stop-color="#5a7fa8" stop-opacity="1"/>
+              <stop offset="50%"  stop-color="#5a7fa8" stop-opacity="0.55"/>
+              <stop offset="100%" stop-color="#5a7fa8" stop-opacity="0.9"/>
+            </linearGradient>
+          </defs>
+          <polygon points="16,2 27,10 22,29 10,29 5,10" fill="url(#db-gem-ren)"/>
+          <polygon points="16,2 27,10 16,13 5,10" fill="white" opacity="0.28"/>
+          <line x1="16" y1="2" x2="16" y2="13" stroke="white" stroke-width="0.6" opacity="0.45"/>
+          <line x1="16" y1="13" x2="10" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+          <line x1="16" y1="13" x2="22" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+        </svg>
+        <span class="ic-badge-label">Water</span>
+      </div>
+
+      <!-- Stem badge -->
+      <div class="ic-badge">
+        <span style="font-family:'Noto Serif SC',Georgia,serif;font-size:16px;color:#5a7fa8;line-height:1;font-weight:400;display:block;">壬</span>
+        <span class="ic-badge-label">Rén</span>
+      </div>
+
+      <!-- Polarity badge (Yang = right half) -->
+      <div class="ic-badge">
+        <svg width="17" height="17" viewBox="0 0 40 40" fill="none">
+          <path d="M20,2 A18,18 0 0,1 20,38 A9,9 0 0,0 20,20 A9,9 0 0,1 20,2 Z" fill="#5a7fa8" opacity="0.85"/>
+          <circle cx="20" cy="11" r="3" fill="#5a7fa8" opacity="0.85"/>
+          <circle cx="20" cy="29" r="3" fill="none" stroke="#5a7fa8" stroke-width="1.5" opacity="0.55"/>
+        </svg>
+        <span class="ic-badge-label">Yang</span>
+      </div>
+
+    </div><!-- end .ic-badges -->
+
+    <!-- ④ Manifesto -->
+    <div class="ic-label">④ Manifesto · <code style="font-family:monospace;font-size:8px;color:rgba(90,127,168,0.7);">identity.manifesto</code> (split on " · ")</div>
+    <div class="ic-manifesto">
+      <div class="ic-manifesto-l1">Depth before disclosure</div>
+      <div class="ic-manifesto-l2">Oceans don't announce their depth.</div>
+    </div>
+
+    <!-- ⑤ Scroll Hint -->
+    <div class="ic-label">⑤ Scroll Hint · anchored bottom, fades in/out</div>
+    <div class="ic-scroll-hint">
+      <span class="ic-scroll-text">Discover</span>
+      <svg width="10" height="6" viewBox="0 0 14 8" fill="none">
+        <path d="M1 1L7 7L13 1" stroke="#5a7fa8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    </div><!-- end .ic-screen -->
+  </div><!-- end .ic-phone -->
+  </div><!-- end .ic-phone-wrap -->
+
+  <div class="ic-field-table">
+    <div class="ic-field-row">
+      <div class="ic-field-num">①</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.identityIcon</code><small>placeholder</small></div>
+        <div class="ic-field-desc"><strong>ArchetypeSeal</strong> — abstract geometric seal, element-colored. 72×72px viewBox. Dedicated SVG TBD.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">②</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.archetypeName</code><small>hero display name</small></div>
+        <div class="ic-field-desc"><strong>"The Ocean"</strong> — Cormorant Garamond, bold, element color. The primary recognition moment of the reading.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">③</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.badges</code><small>from chart.dayMaster</small></div>
+        <div class="ic-field-desc">Three tappable tiles. <strong>Element</strong> → Five Elements panel. <strong>Stem</strong> (壬 + Rén) → 10-stem Day Master panel. <strong>Polarity</strong> → Yin/Yang taichi panel.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">④</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.manifesto</code><small>split on " · "</small></div>
+        <div class="ic-field-desc"><strong>L1:</strong> "Depth before disclosure" — semi-bold.<br><strong>L2:</strong> "Oceans don't announce their depth." — italic, reduced opacity.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">⑤</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>scroll hint</code><small>UI-only</small></div>
+        <div class="ic-field-desc">"DISCOVER ↓" — bottom-anchored, opacity 0.38, subtle pulse. No data field.</div>
+      </div>
+    </div>
+  </div><!-- end field table -->
+  </div><!-- end ic-layout -->
+
   <div class="psych-core">
     <div class="psych-core-label">Psychological Core</div>
     <div class="psych-core-phrase">The Submerged Intelligence</div>
@@ -1993,6 +3398,141 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
     <span class="chip">Specifically nourishing</span>
     <span class="chip">Lost in own fog</span>
   </div>
+  <!-- ══ IDENTITY CARD: DELIVERABLE 1 ══════════════════════════════════════
+       Phone-frame preview of the DayMasterHero screen.
+       All fields FREE. Source: identity{} block in archetypeSource.js.
+  ══════════════════════════════════════════════════════════════════════════ -->
+  <div class="ic-eyebrow">
+    <span class="ic-eyebrow-label">Deliverable 1 — Identity Card</span>
+    <div class="ic-eyebrow-line"></div>
+    <span class="tier-badge tier-free">ALL FREE</span>
+  </div>
+
+  <!-- Side-by-side: phone left · field table right -->
+  <div class="ic-layout">
+  <div class="ic-phone-wrap">
+  <div class="ic-phone" style="background: linear-gradient(160deg, #eaeff5 0%, #f0ebe0 100%);">
+    <div class="ic-screen">
+
+    <!-- ① Identity Icon -->
+    <div class="ic-label">① Identity Icon · <code style="font-family:monospace;font-size:7px;color:rgba(90,127,168,0.7);">identity.identityIcon = "ArchetypeSeal"</code></div>
+    <div class="ic-icon-wrap">
+      <svg width="54" height="54" viewBox="0 0 72 72" fill="none">
+        <path d="M10 22 Q18 12 26 22 Q34 32 42 22 Q50 12 58 22 Q66 32 74 22" stroke="#5a7fa8" stroke-width="1.5" fill="none" opacity="0.85"/>
+        <path d="M10 36 Q18 26 26 36 Q34 46 42 36 Q50 26 58 36 Q66 46 74 36" stroke="#5a7fa8" stroke-width="1.2" fill="none" opacity="0.6"/>
+        <path d="M10 50 Q18 40 26 50 Q34 60 42 50 Q50 40 58 50 Q66 60 74 50" stroke="#5a7fa8" stroke-width="0.8" fill="none" opacity="0.35"/>
+        <line x1="20" y1="56" x2="17" y2="66" stroke="#5a7fa8" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+        <line x1="32" y1="56" x2="29" y2="66" stroke="#5a7fa8" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+        <line x1="44" y1="56" x2="41" y2="66" stroke="#5a7fa8" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+        <line x1="56" y1="56" x2="53" y2="66" stroke="#5a7fa8" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+      </svg>
+    </div>
+    <div class="ic-label-gap"></div>
+
+    <!-- ② Archetype Name -->
+    <div class="ic-label">② Archetype Name · <code style="font-family:monospace;font-size:8px;color:rgba(90,127,168,0.7);">identity.archetypeName</code></div>
+    <div class="ic-archetype-name" style="color:#5a7fa8;">THE RAIN</div>
+
+    <!-- ③ Badge Tiles -->
+    <div class="ic-label">③ Badge Tiles · Element · Stem · Polarity (tappable — each opens a knowledge popup)</div>
+    <div class="ic-badges">
+
+      <!-- Element badge -->
+      <div class="ic-badge">
+        <svg width="15" height="15" viewBox="0 0 32 32" fill="none">
+          <defs>
+            <linearGradient id="db-gem-gui" x1="20%" y1="0%" x2="80%" y2="100%">
+              <stop offset="0%"   stop-color="#5a7fa8" stop-opacity="1"/>
+              <stop offset="50%"  stop-color="#5a7fa8" stop-opacity="0.55"/>
+              <stop offset="100%" stop-color="#5a7fa8" stop-opacity="0.9"/>
+            </linearGradient>
+          </defs>
+          <polygon points="16,2 27,10 22,29 10,29 5,10" fill="url(#db-gem-gui)"/>
+          <polygon points="16,2 27,10 16,13 5,10" fill="white" opacity="0.28"/>
+          <line x1="16" y1="2" x2="16" y2="13" stroke="white" stroke-width="0.6" opacity="0.45"/>
+          <line x1="16" y1="13" x2="10" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+          <line x1="16" y1="13" x2="22" y2="29" stroke="white" stroke-width="0.4" opacity="0.18"/>
+        </svg>
+        <span class="ic-badge-label">Water</span>
+      </div>
+
+      <!-- Stem badge -->
+      <div class="ic-badge">
+        <span style="font-family:'Noto Serif SC',Georgia,serif;font-size:16px;color:#5a7fa8;line-height:1;font-weight:400;display:block;">癸</span>
+        <span class="ic-badge-label">Guǐ</span>
+      </div>
+
+      <!-- Polarity badge (Yin = left half) -->
+      <div class="ic-badge">
+        <svg width="17" height="17" viewBox="0 0 40 40" fill="none">
+          <path d="M20,2 A18,18 0 0,0 20,38 A9,9 0 0,1 20,20 A9,9 0 0,0 20,2 Z" fill="#5a7fa8" opacity="0.85"/>
+          <circle cx="20" cy="11" r="3" fill="none" stroke="#5a7fa8" stroke-width="1.5" opacity="0.55"/>
+          <circle cx="20" cy="29" r="3" fill="#5a7fa8" opacity="0.85"/>
+        </svg>
+        <span class="ic-badge-label">Yin</span>
+      </div>
+
+    </div><!-- end .ic-badges -->
+
+    <!-- ④ Manifesto -->
+    <div class="ic-label">④ Manifesto · <code style="font-family:monospace;font-size:8px;color:rgba(90,127,168,0.7);">identity.manifesto</code> (split on " · ")</div>
+    <div class="ic-manifesto">
+      <div class="ic-manifesto-l1">Felt before spoken</div>
+      <div class="ic-manifesto-l2">What enters water becomes water.</div>
+    </div>
+
+    <!-- ⑤ Scroll Hint -->
+    <div class="ic-label">⑤ Scroll Hint · anchored bottom, fades in/out</div>
+    <div class="ic-scroll-hint">
+      <span class="ic-scroll-text">Discover</span>
+      <svg width="10" height="6" viewBox="0 0 14 8" fill="none">
+        <path d="M1 1L7 7L13 1" stroke="#5a7fa8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    </div><!-- end .ic-screen -->
+  </div><!-- end .ic-phone -->
+  </div><!-- end .ic-phone-wrap -->
+
+  <div class="ic-field-table">
+    <div class="ic-field-row">
+      <div class="ic-field-num">①</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.identityIcon</code><small>placeholder</small></div>
+        <div class="ic-field-desc"><strong>ArchetypeSeal</strong> — abstract geometric seal, element-colored. 72×72px viewBox. Dedicated SVG TBD.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">②</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.archetypeName</code><small>hero display name</small></div>
+        <div class="ic-field-desc"><strong>"The Rain"</strong> — Cormorant Garamond, bold, element color. The primary recognition moment of the reading.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">③</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.badges</code><small>from chart.dayMaster</small></div>
+        <div class="ic-field-desc">Three tappable tiles. <strong>Element</strong> → Five Elements panel. <strong>Stem</strong> (癸 + Guǐ) → 10-stem Day Master panel. <strong>Polarity</strong> → Yin/Yang taichi panel.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">④</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>identity.manifesto</code><small>split on " · "</small></div>
+        <div class="ic-field-desc"><strong>L1:</strong> "Felt before spoken" — semi-bold.<br><strong>L2:</strong> "What enters water becomes water." — italic, reduced opacity.</div>
+      </div>
+    </div>
+    <div class="ic-field-row">
+      <div class="ic-field-num">⑤</div>
+      <div class="ic-field-body">
+        <div class="ic-field-name"><code>scroll hint</code><small>UI-only</small></div>
+        <div class="ic-field-desc">"DISCOVER ↓" — bottom-anchored, opacity 0.38, subtle pulse. No data field.</div>
+      </div>
+    </div>
+  </div><!-- end field table -->
+  </div><!-- end ic-layout -->
+
   <div class="psych-core">
     <div class="psych-core-label">Psychological Core</div>
     <div class="psych-core-phrase">The Involuntary Empath</div>
@@ -2940,124 +4480,4 @@ body { font-family: 'EB Garamond', Georgia, serif; background: var(--bg); color:
 
     <div class="hidden-block">
       <div class="hidden-label">Inner Self &amp; Hidden Traits <span class="tier-badge tier-pro">PRO</span></div>
-      <div class="hidden-text">The specific interior quality: knowing things others don't know, from sources others don't access, in ways that are genuinely difficult to explain or legitimize through conventional credentialing. Not mysticism as performance — actual unusual access. The shadow that rarely surfaces: when the source is removed, discovering that the capacity to generate the depth independently was never fully developed. The well that runs dry when the aquifer that fed it changes.</div>
-      <div class="hidden-text" style="margin-top:10px;">What makes this structurally different from 正印 — and what matters most for how this operates in practice: the nourishment runs in the same register as what it sustains. Same-polarity means it deepens what is already there rather than opening it toward something new. The well gets deeper. The territory it covers stays the same. This is both the gift and the limitation of this particular kind of backing: it produces extraordinary depth in one specific direction, and navigating outside that direction takes a different kind of effort than the depth itself required. Knowing this is knowing where the real edge is.</div>
-    </div>
-
-    <div class="inner-divider" style="margin:18px 0;"></div>
-
-    <div class="tg-section-label">Life Domains <span class="tier-badge tier-pro">PRO</span></div>
-    <div class="domain-grid">
-      <div class="domain-card">
-        <div class="domain-name">Career</div>
-        <div class="domain-mechanism">偏印 pattern → unconventional expertise, niche authority, alternative knowledge</div>
-        <div class="domain-text">Excels in research, alternative knowledge systems, specialized consulting, unconventional creative fields, and any role that values rare depth in an unusual domain over broad conventional credentials. The depth that 偏印 produces is genuine and specific — hard to replicate, hard to credential conventionally. Struggles in careers that require broad legitimacy, mainstream signaling, or active performance of expertise to non-specialist audiences.</div>
-      </div>
-      <div class="domain-card">
-        <div class="domain-name">Relationships</div>
-        <div class="domain-mechanism">偏印 pattern → depth without opening, sustaining without directing</div>
-        <div class="domain-text">Deep connection with those who share or appreciate the niche; genuine bafflement with those who don't. The most important relational influences are often teachers, traditions, or systems that shaped the person without being formally acknowledged as relationships. 偏印 in relationships provides security and depth but not growth direction — sustaining without redirecting, which can produce either profound stability or a kind of comfortable stagnation.</div>
-      </div>
-      <div class="domain-card">
-        <div class="domain-name">Wealth</div>
-        <div class="domain-mechanism">偏印 pattern → niche expertise monetization, unconventional income paths</div>
-        <div class="domain-text">Generates income through unusual or niche expertise rather than mainstream channels. When the depth is properly monetized, it works because there are few who can offer the equivalent. The risk: the backing that produced the depth comes with an abundance mentality that can make charging appropriately feel out of alignment. What was given freely by the source may be given freely by the recipient.</div>
-      </div>
-      <div class="domain-card">
-        <div class="domain-name">Health</div>
-        <div class="domain-mechanism">偏印 pattern → specific restoration conditions, dependency on the source element</div>
-        <div class="domain-text">偏印 produces deep restoration specifically when the DM's element is replenished through its own nature — Water for Water DM, Metal for Metal DM. The health pattern: extremely effective specific recovery practices that aren't easily transferred or replaced. The shadow: dependency on exact conditions for restoration makes adaptation to different circumstances genuinely harder. Related to the step-parent or unconventional caregiver in TCM frameworks.</div>
-      </div>
-    </div>
-
-    <div class="inner-divider" style="margin:18px 0;"></div>
-
-    <div class="tg-section-label">The People Around You (六亲) <span class="tier-badge tier-pro">PRO</span></div>
-    <div class="ppl-text">Classically represents step-parent or unconventional mentor; older figures who provide support without conventional relationship structure. In modern life: alternative teachers, mentors from unusual traditions, people who shaped you through transmission and proximity rather than through formal instruction. Esoteric or niche knowledge communities. The teacher you found outside conventional systems who gave you access to something you couldn't have found within them. Also: the relationship with the non-primary parent or caregiver.</div>
-
-    <div class="inner-divider" style="margin:18px 0;"></div>
-
-    <div class="tg-section-label">Event Signatures in 流年大运 <span class="tier-badge tier-pro">PRO</span></div>
-    <div class="liunian-banner">A 偏印 year or period brings deep learning, withdrawal from mainstream activity, sustained engagement with unconventional knowledge, and strong support from unusual or niche sources. For aligned charts: a genuinely nourishing and deepening period — often the years when the real learning happens quietly while the visible activity slows. For charts where 偏印 creates friction: over-reliance on past patterns, blocked output, the support source changing or withdrawing. The deepening continues; the expression may not.</div>
-  </div>
-</div>
-
-<!-- 正印 -->
-<div class="card neutral" id="tg_正印">
-  <div class="card-header">
-    <div class="badge">正印</div>
-    <div>
-      <div class="card-title">The Root — Cross-polarity resource — nourishment that sustains and opens</div>
-      <div class="card-sub">Support System / Mother Wound — backed and pointed</div>
-    </div>
-  </div>
-
-  <div class="ruling-realm">
-    <div class="realm-label">Ruling Realm <span class="tier-badge tier-free">FREE</span></div>
-    <div class="realm-phrase">Support System / Mother Wound — backed and pointed</div>
-    <div class="realm-desc">Bowlby's secure base in its most developmental form: the base that enables exploration by providing both support and direction simultaneously. This is the part of a person that was shaped by backing that came with a destination — not just sustained, but sustained AND pointed toward something. The support that enabled reach also told the reach where to go. And the specific wound when that direction was someone else's.</div>
-  </div>
-    <div class="classical-anchor">
-      <div class="classical-anchor-eyebrow">Classical Source Anchor <span class="tier-badge tier-internal">INTERNAL</span></div>
-      <div class="classical-anchor-zh">正印者，生我者也，为母</div>
-      <div class="classical-anchor-en">“Cross-polarity nourishment sustains and opens — the backing that provides direction as well as depth.”</div>
-      <div class="classical-anchor-deriv">The cross-polarity creates direction in the nourishing relationship. The support does not just deepen — it opens the DM toward something specific it can move through.</div>
-      <div class="classical-anchor-source">Source: 子平真诈 论印</div>
-    </div>
-
-  <div class="card-body">
-    <div class="tg-section-label">Personality <span class="tier-badge tier-free">FREE · chips / gifts / shadows</span><span class="tier-badge tier-pro" style="margin-left:6px;">PRO · decision / communication</span></div>
-    <div class="chip-row" style="margin-bottom:14px;"><span class="chip">Grounded</span><span class="chip">Mentored</span><span class="chip">Directionally shaped</span><span class="chip">Supported</span><span class="chip">Purpose-oriented</span></div>
-
-    <div class="tg-grid">
-      <div class="tg-cell">
-        <div class="tg-cell-label">The Gift <span class="tier-badge tier-free">FREE · 2–3</span></div>
-        <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Character that feels simultaneously grounded and purposeful — rooted and reaching at the same time, which is genuinely rare</p>
-<p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Knows what it's building toward, not just that it's building; the direction arrived with the support and feels genuinely internalized</p>
-<p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• The quiet confidence that comes from having had genuine backing — not asserted, not performed, simply present in how the person moves</p>
-      </div>
-      <div class="tg-cell">
-        <div class="tg-cell-label">The Shadow <span class="tier-badge tier-free">FREE · 1–2</span></div>
-        <p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• The direction given with the backing can become the only direction known — the reach grew where the nourishment pointed and may not know how to self-generate direction without it</p>
-<p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• The backing may have served the source's vision as much as the recipient's genuine calling — sorting out which parts are authentically theirs requires more honest introspection than the grounded exterior suggests</p>
-<p style="margin:0 0 6px;font-size:13px;line-height:1.7;color:var(--text-sec);">• Loss of the supporting structure produces disorientation disproportionate to the situation — because the internal resources for self-direction weren't fully forced to develop independently</p>
-      </div>
-      <div class="tg-cell">
-        <div class="tg-cell-label">Decision Style <span class="tier-badge tier-pro">PRO</span></div>
-        <div class="tg-cell-text">Seeks guidance before deciding on significant choices. Finds genuine confidence within a decision framework provided by someone or something trusted. Can be dependent on the external directional structure when the stakes are high. The strength: decisions made with proper backing tend to be well-considered and genuinely aligned. The weakness: difficulty accessing confidence when the backing structure is absent or unclear.</div>
-      </div>
-      <div class="tg-cell">
-        <div class="tg-cell-label">Communication Style <span class="tier-badge tier-pro">PRO</span></div>
-        <div class="tg-cell-text">Directional — tends to communicate in ways that include where things should go next. Feels most competent communicating from a position of endorsed knowledge or clear authority within a domain. Less comfortable with pure improvisation or unsourced spontaneity. The communication often carries a sense of structure and purpose that feels trustworthy even when the content is uncertain.</div>
-      </div>
-    </div>
-
-    <div class="hidden-block">
-      <div class="hidden-label">Inner Self &amp; Hidden Traits <span class="tier-badge tier-pro">PRO</span></div>
-      <div class="hidden-text">The question that runs beneath everything: is what I am building toward actually mine, or did the backing shape me toward its vision? The specific version of the mother wound: the support was real, the care was genuine, the backing was constant — but the direction that came with it may have been hers rather than mine. Distinguishing the two requires honest introspection that the grounded exterior doesn't always signal is needed. The rootedness is real. The question of whose roots these are is also real.</div>
-      <div class="hidden-text" style="margin-top:10px;">What makes this structurally different from 偏印 — and what changes everything at the deepest level: the nourishment comes from a different register than what it sustains. Cross-polarity means the resource doesn't just deepen what exists — it opens onto something that wasn't already there. The support included direction, not only sustenance. Which produces a specific kind of grounded purposefulness that same-polarity nourishment alone can never generate. And which carries the specific question: the direction that opened with the backing — was it genuinely toward you, or toward what the source needed you to become? Both can feel identical from the inside for a very long time.</div>
-    </div>
-
-    <div class="inner-divider" style="margin:18px 0;"></div>
-
-    <div class="tg-section-label">Life Domains <span class="tier-badge tier-pro">PRO</span></div>
-    <div class="domain-grid">
-      <div class="domain-card">
-        <div class="domain-name">Career</div>
-        <div class="domain-mechanism">正印 pattern → mentored capability, institutional advancement, legitimate backing</div>
-        <div class="domain-text">Excels in roles with genuine mentorship, institutional backing, and clear developmental paths — academia, established professions, organizations with real career ladders. The grounded, mentored capability is what conventional institutional systems most readily recognize and advance. The risk: the career direction may have been shaped by what the supporting system rewarded rather than by genuine internal calling — the two can look identical from outside for a long time.</div>
-      </div>
-      <div class="domain-card">
-        <div class="domain-name">Relationships</div>
-        <div class="domain-mechanism">正印 pattern → vertical orientation, sustaining and directing in relationships</div>
-        <div class="domain-text">The relational reference frame tends toward the vertical (mentor/mentee) rather than the horizontal (genuine peer equality). Often extraordinary in relationships where they can provide support and direction to others — giving to others what was given to them. The growth edge: genuine peer relationships that don't have the support/direction structure can feel less familiar and less safe than they should at a fully developed stage.</div>
-      </div>
-      <div class="domain-card">
-        <div class="domain-name">Wealth</div>
-        <div class="domain-mechanism">正印 pattern → institutionally backed income, endorsed paths, directionally validated earning</div>
-        <div class="domain-text">Tends to generate wealth through paths that carry legitimate endorsement — institutional income, recognized professional work, income that reflects approved achievement within chosen frameworks. Conservative by nature, with a genuine sense of deserving the backing once earned. Difficulty pursuing wealth through paths that aren't legitimized by the supporting structure — not from lack of capability but from lack of the directional endorsement that produces confidence.</div>
-      </div>
-      <div class="domain-card">
-        <div class="domain-name">Health</div>
-        <div class="domain-mechanism">正印 pattern → nourishment and opening, inherited health approaches, maternal element</div>
-        <div class="domain-text">正印 nourishes and simultaneously opens
+      <div class="hidden-text">The specific interior quality: knowing things others don't know, from sources others don't access, in ways that are genuinely difficult to explain or legitimize through conventional credentialing. Not mysticism as performance — actual unusual access. The shadow that rarely surfaces: when the source is removed, discovering that the capacity t
