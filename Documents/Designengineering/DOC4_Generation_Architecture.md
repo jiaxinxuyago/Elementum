@@ -21,7 +21,7 @@
 
 Two pre-generated serving files derive their content from `archetypeSource.js`:
 
-- **`STEM_CARD_DATA.js`** — 150 entries keyed by `stem_band_tgPattern` (e.g. `庚_concentrated_pure`). Contains configuration-specific `psychCore` (phrase + desc) and `gifts[]` / `shadows[]` (phrase + desc) for each of the 150 archetype configurations. Generated offline via Pipeline A. These fields vary meaningfully by band and tgPattern and are LLM-generated with `archetypeSource.js` as grounding context.
+- **`STEM_CARD_DATA.js`** — 150 entries keyed by `stem_band_tgPattern` (e.g. `庚_concentrated_pure`). Contains configuration-specific `yourNature` (phrase + desc) and `gifts[]` / `shadows[]` (phrase + desc) for each of the 150 archetype configurations. Generated offline via Pipeline A. These fields vary meaningfully by band and tgPattern and are LLM-generated with `archetypeSource.js` as grounding context.
 - **`DomEnergyTg_Data.js`** — 50 compound archetype cards keyed by `domEl_specificTenGod`. The deepest content layer — source for Pro compound teasers and self-report synthesis. Generated offline via Pipeline A.
 
 `archetypeSource.js` serves hand-authored content directly: `blocks[]` (variant schema, runtime-resolved), `manual.*`, `energy.*`, and all `TG_CARD_DATA` fields. `STEM_CARD_DATA.js` and `DomEnergyTg_Data.js` are the pre-generated layers on top.
@@ -33,28 +33,44 @@ No LLM calls are made at serve time for Free or Pro content. Every field served 
 ### The file structure
 
 ```
-Code/
-├── archetypeSource.js      ← Source of truth. Hand-authored. Defines all field names.
-│                              STEM_CARD_DATA: 10 stems — blocks[] (variant schema,
-│                              runtime-resolved), manual.*, energy.*, and grounding
-│                              content for LLM generation passes.
-│                              TG_CARD_DATA: 10 Ten Gods — flat fields, context-layered.
-│                              Has an identical HTML twin (elementum_profile_database.html).
-│                              Internal constants (CLASSICAL_STEM_ANCHORS,
-│                              CLASSICAL_TG_ANCHORS, BINGYI_FRAMING, PILLAR_STAGE)
-│                              used by batchGenerate.js at synthesis time.
-├── STEM_CARD_DATA.js       ← 150 stem_band_tgPattern entries. Pre-generated offline
-│                              via Pipeline A. Fields: psychCore (phrase + desc),
-│                              gifts[] (phrase + desc × 3), shadows[] (phrase + desc × 3).
-│                              Keyed by stem_band_tgPattern (e.g. 庚_concentrated_pure).
-├── DomEnergyTg_Data.js     ← 50 domEl_specificTenGod compound archetype cards.
-│                              Self-report source + Pro compound teaser.
-│                              Pre-generated offline via Pipeline A.
-├── Elementum_Engine.jsx    ← Calculation engine + UI components.
-└── batchGenerate.js        ← Pipeline A (offline generation) + Pipeline B (self-report
-                               synthesis on purchase). Imports internal constants from
-                               archetypeSource.js.
+Elementum_Project/
+├── Code/
+│   ├── archetypeSource.js      ← Source of truth. Hand-authored. Defines all field names.
+│   │                              STEM_CARD_DATA: 10 stems — identity.elementIntro,
+│   │                              yourNature (baseline), gifts, shadows, blocks[],
+│   │                              manual.*, energy.*, psych, archetypes.
+│   │                              TG_CARD_DATA: 10 Ten Gods — flat fields, context-layered.
+│   │                              Has an identical HTML twin (elementum_profile_database.html).
+│   │                              Internal constants (CLASSICAL_STEM_ANCHORS,
+│   │                              CLASSICAL_TG_ANCHORS, BINGYI_FRAMING, PILLAR_STAGE)
+│   │                              used by batchGenerate.js at synthesis time.
+│   ├── STEM_CARD_DATA.js       ← 150 stem_band_tgPattern variant entries. Keyed by
+│   │                              stem_band_tgPattern (e.g. "庚_balanced_pure").
+│   │                              Phase 1: 15 庚 yourNature.desc entries hand-authored.
+│   │                              Remaining 135 + gifts/shadows: Pipeline A output.
+│   │                              Fields per entry: yourNature (phrase + desc),
+│   │                              gifts[] (phrase + desc × 3), shadows[] (phrase + desc × 3).
+│   ├── DomEnergyTg_Data.js     ← 50 domEl_specificTenGod compound archetype cards.
+│   │                              Self-report source + Pro compound teaser.
+│   │                              Pre-generated offline via Pipeline A.
+│   └── batchGenerate.js        ← Pipeline A (offline generation) + Pipeline B (self-report
+│                                  synthesis on purchase). Imports internal constants from
+│                                  archetypeSource.js. NOT bundled with the app.
+│
+├── Data/
+│   └── elementum_profile_database.html  ← HTML twin of archetypeSource.js.
+│                                           Parallel editing surface — must stay in sync.
+│
+└── Elementum/
+    └── Elementum_Engine.jsx    ← Single-file dev artifact. Inlines archetypeSource.js
+                                   data and STEM_CARD_DATA.js variant entries for
+                                   artifact preview mode. In production (Vite), the
+                                   engine imports from the Code/ files instead.
 ```
+
+> **Vite migration:** See `Documents/Designengineering/DOC8_Code_Architecture_and_Migration.md` for the complete guide
+> to migrating from single-file artifact to a structured Vite + React project,
+> including the full import map, component extraction order, and data loading wiring.
 
 ### The 150 archetype keys — locked structural backbone
 
@@ -141,9 +157,17 @@ All 10 stem manifesto strings must follow this `Line 1 · Line 2` format. A stri
 
 ### Elemental Nature Card
 
-Sources from `archetypeSource.js` → `STEM_CARD_DATA[stem].manual[band]`. Describes the user’s energy condition — concentrated, balanced, or open — in behavioral terms. This is the energy condition diagnosis: it explains *how much* of the core element is present and what that means structurally.
+**This section is always present and always free.**
 
-**This section is always present and always free.** It is the first personalised statement the user reads about their chart.
+#### Layer 0 — "The Element" block (world-building)
+
+The first thing the user reads on this page. UI eyebrow: **"THE ELEMENT"**. Rendered before any personalised content. Sources from `archetypeSource.js` → `identity.elementIntro`. Two sentences: a declarative codex-register definition of the elemental force (`punch`), and an adjective-rich vibe description of someone carrying it (`expand`). Third-person throughout — no "you". SVG illustration of the stem’s archetype symbol rendered alongside the text.
+
+See DOC7 §3 for full authoring spec and prompt guidance for all 10 stems.
+
+#### Layer 1–4 — Energy condition reading
+
+Sources from `archetypeSource.js` → `STEM_CARD_DATA[stem].manual[band]`. Describes the user’s energy condition — concentrated, balanced, or open — in behavioral terms. This is the energy condition diagnosis: it explains *how much* of the core element is present and what that means structurally.
 
 ### DM Energy Intro (conditional)
 
@@ -219,6 +243,19 @@ Field names follow `archetypeSource.js`.
 ### STEM_CARD_DATA fields (in `archetypeSource.js`)
 
 One entry per stem (10 total).
+
+#### `identity.elementIntro.*` — "The Element" block (Layer 0 of the Elemental Nature page)
+
+World-building intro block. UI eyebrow label: **"THE ELEMENT"**. Rendered before any personal reading content. Third-person, no "you". One entry per stem, hand-authored — not generated. See DOC7 §3 for authoring spec and prompt guidance.
+
+| Field | Type | Description | Tier |
+|---|---|---|---|
+| `identity.elementIntro.punch` | string | 9–12 words. Declarative codex register. What this elemental force *is*, grounded in classical Chinese source material. | Free |
+| `identity.elementIntro.expand` | string | 16–20 words. Adjective-rich. The felt vibe/presence of someone carrying this energy. Em-dash pivot structure. | Free |
+
+**庚 reference (approved):**
+- punch: `"The Blade is the ancient cutting force of Metal."`
+- expand: `"Sharp without announcement, cold without cruelty — it carries in a person the stillness of something that has already decided."`
 
 #### `energy.*` — the stem as an external environmental force
 
@@ -499,13 +536,13 @@ Cross-check before proceeding: read the first sentence back. Does it feel like i
 
 ---
 
-**① Archetype identity** — `psychCore.phrase` displayed prominently (serif, typographically distinct above the portrait). The named archetype: the single most distilled characterological statement for this stem. Examples: *The Structural Assessor*, *The Ascending Vine*. Displayed as the visual anchor; read before anything else.
+**① Archetype identity** — `yourNature.phrase` displayed prominently (serif, typographically distinct above the portrait). The named archetype: the single most distilled characterological statement for this stem. Examples: *The Structural Assessor*, *The Ascending Vine*. Displayed as the visual anchor; read before anything else.
 
 ---
 
-**② Portrait** — `psychCore.desc` written in second person. 2–3 sentences maximum. Concise inner-experience statement: what it actually feels like to be wired this way from the inside. Not a description of the element — a description of the person's interior.
+**② Portrait** — `yourNature.desc` written in second person. 2–3 sentences maximum. Concise inner-experience statement: what it actually feels like to be wired this way from the inside. Not a description of the element — a description of the person's interior.
 
-**Convention — `psychCore.desc` is always written in second person.** It serves double duty: internal synthesis reference AND the displayed portrait. No separate portrait field. When writing or updating any stem, the desc must be second person, present-tense, under 3 sentences.
+**Convention — `yourNature.desc` is always written in second person.** It serves double duty: internal synthesis reference AND the displayed portrait. No separate portrait field. When writing or updating any stem, the desc must be second person, present-tense, under 3 sentences.
 
 This is the primary recognition landing point. The reader should feel *seen* before they reach the gifts and shadows.
 
@@ -688,7 +725,7 @@ Pipeline A covers two generation jobs, both run offline before launch. Total: **
 
 Generates all 150 `stem_band_tgPattern` entries. Each config is an independent generation target — no collapsing band and pattern axes. Output stored in `STEM_CARD_DATA.js`.
 
-**Fields generated per entry:** `psychCore` (phrase + desc), `gifts[]` (phrase + desc × 3), `shadows[]` (phrase + desc × 3).
+**Fields generated per entry:** `yourNature` (phrase + desc), `gifts[]` (phrase + desc × 3), `shadows[]` (phrase + desc × 3).
 
 **Generation inputs per call:**
 1. Target config key: `stem`, `band`, `tgPattern`
@@ -708,7 +745,7 @@ node batchGenerate.js check-stem-configs     ← runs qualityCheckStemConfig() o
 node batchGenerate.js merge-stem-configs     ← writes to STEM_CARD_DATA.js
 ```
 
-**Quality gate:** `psychCore.phrase` is evocative and configuration-specific (not derivable from stem alone). `psychCore.desc` is second person, present tense, ≤3 sentences. Each gift/shadow phrase is distinct (no two from the same underlying trait). All six gifts/shadows cover independent dimensions. FORBIDDEN terms absent. No Chinese characters in output.
+**Quality gate:** `yourNature.phrase` is evocative and configuration-specific (not derivable from stem alone). `yourNature.desc` is second person, present tense, ≤3 sentences. Each gift/shadow phrase is distinct (no two from the same underlying trait). All six gifts/shadows cover independent dimensions. FORBIDDEN terms absent. No Chinese characters in output.
 
 **Cost estimate:** ~$15–25 for 150 keys at one pass.
 
@@ -746,7 +783,7 @@ This is the primary ongoing function of `batchGenerate.js`. Triggered when a use
 
 **Inputs:**
 1. User’s computed chart summary (stem, band, tgPattern, dominant elements, dominant TGs, element scores)
-2. Layer 1 base energy entry from `STEM_CARD_DATA.js` — the user’s `stem_band_tgPattern` config: `psychCore`, `gifts[]`, `shadows[]`. Grounds the synthesis in who this person fundamentally is at this configuration.
+2. Layer 1 base energy entry from `STEM_CARD_DATA.js` — the user’s `stem_band_tgPattern` config: `yourNature`, `gifts[]`, `shadows[]`. Grounds the synthesis in who this person fundamentally is at this configuration.
 3. Relevant compound archetype cards from `DomEnergyTg_Data.js` (1–2 cards matching the user’s dominant energies). Contains the interaction-specific content: what happens when this DM nature meets these dominant forces.
 4. Internal grounding context from `archetypeSource.js`: `CLASSICAL_STEM_ANCHORS` and `CLASSICAL_TG_ANCHORS` — inform accuracy but never appear in output
 5. Internal writing constraints from `archetypeSource.js`: `BINGYI_FRAMING` rules as system-level framing
@@ -769,8 +806,8 @@ Dominant energies: [domEl1] via [tg1] / [domEl2] via [tg2]
 DM voice register: [register description]
 
 LAYER 1 — BASE NATURE ([stem_band_tgPattern]):
-psychCore.phrase: [phrase]
-psychCore.desc: [desc]
+yourNature.phrase: [phrase]
+yourNature.desc: [desc]
 gifts: [gift phrases and descs]
 shadows: [shadow phrases and descs]
 
@@ -1656,17 +1693,17 @@ function getBlocksForConfigV2(blocks, band, pattern) {
 | Version | Date | Changes |
 |---|---|---|
 | 4.3 | April 2026 | §10 added: Compound Coverage Protocol. Three rules governing the full reading stack: Rule A (Layer 1 characterological vs Layer 2/3 force-mechanical — no overlap), Rule B (Layer 2 vs Layer 3 domain territory allocation by sig weight — secondary TG covers distinct angles only), Rule C (protocol as generation gate — coverage checks added to Pipeline A2 quality gate; pre-synthesis territory allocation pass added to Pipeline B before synthesis prompt runs). Full illustrated example: `庚_concentrated_tested` × `火_七杀` (primary) + `土_偏印` (secondary) showing domain allocation across all three layers. Example includes inline TG derivation from engine logic as permanent authoring reference. Pipeline A2 quality gate updated with Rule A coverage check. Pipeline B updated with pre-synthesis territory allocation step. §2 Free and Pro tier tables updated to match 9-section TG schema: Free tier TG description updated (rulingRealm, chips, outputs[], frictions[]); Pro tier table updated (decisionStyle and communicationStyle removed, hiddenDynamic / domainSignatures / sixRelations / liunianSignatures added). Stale `lifeDomains` reference in §5 teaser architecture corrected. |
-| 4.2 | April 2026 | Pipeline B updated: self-report synthesizes from all layers (Option B). STEM_CARD_DATA.js (Layer 1 psychCore/gifts/shadows) added as Pipeline B input alongside DomEnergyTg_Data.js compound cards. Synthesis job reframed: weaver role (base nature grounds force interactions into one arc). Prompt structure updated to reflect two-layer input. Quality gate updated: coherence check requires one unified portrait, not two sections. |
+| 4.2 | April 2026 | Pipeline B updated: self-report synthesizes from all layers (Option B). STEM_CARD_DATA.js (Layer 1 yourNature/gifts/shadows) added as Pipeline B input alongside DomEnergyTg_Data.js compound cards. Synthesis job reframed: weaver role (base nature grounds force interactions into one arc). Prompt structure updated to reflect two-layer input. Quality gate updated: coherence check requires one unified portrait, not two sections. |
 | 4.1 | April 2026 | Pipeline A split into A1 (150 stem_band_tgPattern entries → STEM_CARD_DATA.js) and A2 (50 compound cards → DomEnergyTg_Data.js). All 150 configs generated as independent targets (Option A — no band/pattern axis collapse). Generation inputs, CLI commands, and quality gates documented for both sub-pipelines. Total Pipeline A: 200 generation calls. |
-| 4.0 | April 2026 | `STEM_CARD_DATA.js` added as a pre-generated serving file (150 `stem_band_tgPattern` entries — `psychCore`, `gifts[]`, `shadows[]` generated offline via Pipeline A). `archetypeSource.js` remains the hand-authored source for `blocks[]`, `manual.*`, `energy.*`, and TG fields. Pipeline A expanded to cover both STEM_CARD_DATA.js (150 entries) and DomEnergyTg_Data.js (50 compound cards). File structure updated. |
+| 4.0 | April 2026 | `STEM_CARD_DATA.js` added as a pre-generated serving file (150 `stem_band_tgPattern` entries — `yourNature`, `gifts[]`, `shadows[]` generated offline via Pipeline A). `archetypeSource.js` remains the hand-authored source for `blocks[]`, `manual.*`, `energy.*`, and TG fields. Pipeline A expanded to cover both STEM_CARD_DATA.js (150 entries) and DomEnergyTg_Data.js (50 compound cards). File structure updated. |
 | 3.9 | April 2026 | `ElementNature_DATA.js` eliminated — confirmed as a naming artifact of `STEM_CARD_DATA`. Layer 1 content is served directly from `archetypeSource.js` (`STEM_CARD_DATA`). File structure updated: one pre-generated data file (`DomEnergyTg_Data.js`), not two. §4 "Archetype data file 1" section removed. |
 | 3.8 | April 2026 | §9 expanded: TG_CARD_DATA content authoring schema added alongside block variant schema. Documents field groups, authoring frames (universal vs. context-layered), domain sig schema with rendering thresholds, and the authoring rule for sig-proportional depth. "The problem this solves" retitled to distinguish base energy blocks from TG layer. |
 | 3.7 | April 2026 | Life domains reclassified to TG layer exclusively. `STEM_CARD_DATA.lifeDomains` deprecated — the 11 base energy blocks already carry characterological domain content implicitly. `TG_CARD_DATA.domains` is the canonical home for domain content, written as domain pattern signatures (recurring situations/patterns the TG produces) not personality descriptions. Domain significance tagging added: `sig` (1–5), `sig_female`, `sig_male` overrides based on classical 六亲 theory. Field renamed `lifeDomains` → `domains` in TG_CARD_DATA. Reference significance table added to §4. |
 | 3.6 | April 2026 | Added §9 Block Content Schema and Authoring Rules. Variant approach with fallback hierarchy (`band_pattern` → `band` → `pattern` → `default`). 8 dogmatic authoring rules including the Trigger Test. JavaScript `resolveBlockText`, `getBlocksForConfig`, `renderBlocks`, `validateStem` implementation. Estimation: ~230 variant entries vs. 1,650 full matrix. 庚 `blocks[]` converted to variant schema in `archetypeSource.js`. |
 | 3.5 | April 2026 | Gifts/shadows desc moved to FREE tier. One sentence each (was 2–3 sentences PRO). Distinct-angle rule enforced: all six must cover independent dimensions of the person, not variations of one core trait. New phrase names for 庚: The Core Beneath the Edge, The Held Position, The Internal Standard, The Clarity Gap. |
 | 3.4 | April 2026 | Removed door opener paragraph from ④. Replaced with block labels preview — all 11 block labels shown as a locked list, 3 highlighted. No `teaser` field. Labels are the hook; no paragraph competes with them. |
-| 3.3 | April 2026 | Revised §5 Teaser Architecture: 4-component structure (archetype identity → portrait → gifts/shadows panel → door opener). `psychCore.desc` now always 2nd person, serves as portrait. `gifts[]` and `shadows[]` schema added ({phrase, desc} — desc is PRO). `teaser` field repurposed as door opener. Chips remain for metadata only. |
-| 3.2 | April 2026 | Added §5 Teaser Architecture guidance: purpose-built teasers (recognition + door-opener), 3–4 sentences, Pro version starts fresh. Section 1 free teaser = core character recognition moment + psychCore paragraph. |
+| 3.3 | April 2026 | Revised §5 Teaser Architecture: 4-component structure (archetype identity → portrait → gifts/shadows panel → door opener). `yourNature.desc` now always 2nd person, serves as portrait. `gifts[]` and `shadows[]` schema added ({phrase, desc} — desc is PRO). `teaser` field repurposed as door opener. Chips remain for metadata only. |
+| 3.2 | April 2026 | Added §5 Teaser Architecture guidance: purpose-built teasers (recognition + door-opener), 3–4 sentences, Pro version starts fresh. Section 1 free teaser = core character recognition moment + yourNature paragraph. |
 | 3.1 | April 2026 | Data architecture restructured. `archetypeSource.js` established as single source of truth for field names and reading templates. Archetype data split into `ElementNature_DATA.js` (150 personality/behavioral templates) and `DomEnergyTg_Data.js` (50 compound cards). Internal constants (CLASSICAL_STEM_ANCHORS, CLASSICAL_TG_ANCHORS, BINGYI_FRAMING, PILLAR_STAGE) remain in `archetypeSource.js` as knowledge-pool content, imported by `batchGenerate.js` at synthesis time. COMPOUND_CARDS removed from `archetypeSource.js` (now in `DomEnergyTg_Data.js`). Generation script narrowed to self-report synthesis (Pipeline B) as primary ongoing function. |
 | 3.0 | April 2026 | Complete rewrite. New three-tier product architecture (Free / Pro / Self-Report). Profile data as single source of truth for Free and Pro. Compound archetype cards as self-report source. Old three-pass generation pipeline retired. 150 archetype keys locked. Full profile data field reference added. |
 | 2.x | April 2026 | Three-pass pipeline: portrait prewrite → persona card → reading schema. Layer 2 angles. Compound cards introduced. |

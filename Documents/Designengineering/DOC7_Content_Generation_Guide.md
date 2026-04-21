@@ -10,6 +10,7 @@ Written against the live schema in `archetypeSource.js` — field names and data
 
 | Field | Location | Status | Count |
 |---|---|---|---|
+| `identity.elementIntro.punch` + `.expand` | `archetypeSource.js` → `identity` | 庚 complete; 甲乙丙丁戊己辛壬癸 **[TODO]** | 9 pairs remaining |
 | `outputs[].phrase` + `.desc` | `TG_CARD_DATA[tg]` | **[TODO] all 10** | 30 phrases, 30 descs |
 | `frictions[].phrase` + `.desc` | `TG_CARD_DATA[tg]` | **[TODO] all 10** | 30 phrases, 30 descs |
 | `text.{band}`, `text.{pattern}`, `text.{compound}` | `STEM_CARD_DATA[stem].blocks[]` | 庚 complete; 甲乙丙丁戊己辛壬癸 default-only | ~100 variants across 9 stems |
@@ -215,7 +216,7 @@ Write a variant when **the mechanism of the block genuinely changes** for a spec
 
 ### Authoring convention for variants
 
-Variants are written from the DM's interior perspective (second person for the `psychCore` fields, but blocks are third person or second person depending on the label convention used in the live file — check the existing 庚 variants for the person/perspective used in each block and match it).
+Variants are written from the DM's interior perspective (second person for the `yourNature` fields, but blocks are third person or second person depending on the label convention used in the live file — check the existing 庚 variants for the person/perspective used in each block and match it).
 
 **From 庚 `concentrated` variant of "How you experience the world":**
 > *"You evaluate before you engage. The assessment starts the moment you walk into a room — not as a decision you make but as a process that has already begun before you've chosen to begin it..."*
@@ -231,8 +232,8 @@ These are clearly different experiences, not stylistic variations.
 You are writing variant text for Elementum's archetype blocks. You are writing variants for the [STEM] stem (archetype: [ARCHETYPE_NAME]).
 
 STEM IDENTITY:
-[psychCore.phrase — the named archetype]
-[psychCore.desc — interior experience statement]
+[yourNature.phrase — the named archetype]
+[yourNature.desc — interior experience statement]
 
 BLOCK TO VARY:
 Label: "[block.label]"
@@ -313,3 +314,299 @@ A piece of content fails if:
 - It begins with "You" (except in blocks that already use second person)
 - It uses hedging language
 - The phrase names something the desc doesn't describe
+
+---
+
+## §3 — elementIntro: punch + expand (all 10 stems)
+
+### What they are
+
+`identity.elementIntro` is the **"The Element" block** — Layer 0 of the Elemental Nature page. UI eyebrow label: *"THE ELEMENT · [Element]"*. It is the first text the user reads after the identity card. It describes the stem's elemental force as a world-building entity, not a personal reading. There is no "you". The register is game lore / fantasy codex / elemental force description.
+
+Two fields per stem:
+
+- **`punch`** — 9–12 words. Declarative. What this force *is*, grounded in classical Chinese source material. Reads like a codex definition or encyclopaedia entry. Element color, medium weight in UI.
+- **`expand`** — 16–20 words. Adjective-rich. The felt vibe or presence of someone carrying this energy — not describing a trait, describing an atmosphere. Em-dash pivot structure preferred. Deep warm body color in UI.
+
+Total: 28–32 words for the pair.
+
+---
+
+### Voice and register — non-negotiable constraints
+
+- **No "you"** in either sentence. Not implied, not as "those who" as a euphemism for the reader. The energy is the subject.
+- **Third person elemental force** — write as if describing a force in a fictional universe. Think: Dark Souls item description, fantasy codex entry, classical elemental treatise in English translation.
+- **Classical grounding for punch** — every `punch` must be derivable from how classical Chinese texts describe the stem. Reference the element's nature (金木水火土), its polarity (Yin/Yang), its seasonal quality, its classical metaphor (blade, vine, flame, etc.), and its structural role.
+- **Adjective-rich for expand** — `expand` should have at least 3 meaningful adjectives or adjective phrases. "Cold without cruelty", "structurally impossible to rush", "sharp without announcement" are the model. Avoid generic adjectives (powerful, strong, intense).
+- **No moralising** — do not imply the energy is good or bad, dangerous or safe.
+- **No hedging** — no "can sometimes", "tends to", "may".
+
+---
+
+### Sentence structure templates
+
+**punch** — one of these two structures:
+1. `"The [Archetype] is [classical definition of the energy]."`
+2. `"The [Archetype] is [element quality] — [defining characteristic]."`
+
+Keep the em-dash optional. If using it, the clause after must be ≤5 words and sharper than the clause before. Do not add a third clause.
+
+**expand** — preferred structure:
+`"[Adj] without [noun], [adj] without [noun] — [what it does in/to a person]."`
+
+The "without" construction creates tension and prevents the adjectives from becoming generic praise. The em-dash pivot shifts from describing the force to describing its effect on whoever carries it.
+
+Acceptable variations:
+- `"[Adj], [adj], and [adj] — [what it does in a person]."`
+- `"[Adj] and [adj] by nature, [what it does in a person]."`
+
+---
+
+### Classical source reference per stem
+
+Use these classical characterisations as the grounding material for `punch`. Do not quote them directly — translate their essence into English.
+
+| Stem | Element | Classical character | Key classical quality |
+|---|---|---|---|
+| 甲 | Yang Wood | 木之阳 · the rising force | Non-negotiable upward drive; spring's first break through frozen ground; growth before there is permission |
+| 乙 | Yin Wood | 木之阴 · the adaptive vine | Lateral, persistent, finds the gap; survives by flexibility not force; the creeping strength that outlasts |
+| 丙 | Yang Fire | 火之阳 · the open blaze | Radiating, revealing, unable to be contained; everything in its field becomes visible; warmth without preference |
+| 丁 | Yin Fire | 火之阴 · the directed flame | Purposeful heat; the forge, the candle; transformation requiring proximity and intent |
+| 戊 | Yang Earth | 土之阳 · the mountain | Immovable, load-bearing, the axis around which things organise; receives without moving |
+| 己 | Yin Earth | 土之阴 · the soil | Fertile, absorbing, patient; transformation happens internally; nourishes what grows within it |
+| 庚 | Yang Metal | 金之阳 · the blade / axe | Cuts, defines, restructures; the 肃杀 (austere cutting) force of autumn; clarifies by force |
+| 辛 | Yin Metal | 金之阴 · the jewel / refined edge | Precision over power; the polished surface that reveals flaws; refinement as an act of discernment |
+| 壬 | Yang Water | 水之阳 · the deep current | Vast, accumulating, moving beneath the surface; carries everything without being seen to carry it |
+| 癸 | Yin Water | 水之阴 · the condensed drop | Concentrated, clarifying; the dew point; what distils from abundance into the essential |
+
+---
+
+### Quality gate
+
+A pair passes if:
+1. `punch` is 9–12 words and reads like a codex definition — one complete thought, no filler
+2. `expand` is 16–20 words with at least 3 adjective phrases, no "you", no hedging
+3. The two sentences are doing different jobs — `punch` defines, `expand` evokes
+4. A reader unfamiliar with Chinese astrology can understand what kind of force this is from `expand` alone
+5. The pair does not duplicate language from the stem's `manifesto`, `yourNature.desc`, or `energy.what`
+
+A pair fails if:
+- Either sentence begins with "You" or implies the reader directly
+- `punch` uses more than one em-dash clause
+- `expand` has fewer than 3 meaningful adjectives
+- The two sentences feel like one idea split in two rather than two distinct registers
+- The tone is self-help, psychological, or therapeutic rather than world-building
+
+---
+
+### Approved reference — 庚
+
+```
+punch:  "The Blade is the ancient cutting force of Metal."
+expand: "Sharp without announcement, cold without cruelty — it carries in a person the stillness of something that has already decided."
+```
+
+Word counts: punch 9 · expand 19 · total 28.
+Adjective phrases in expand: "sharp without announcement", "cold without cruelty", "the stillness of something that has already decided" (3).
+Classical grounding: 金之阳, 肃杀之气 (the austere cutting force of autumn Metal).
+
+---
+
+### Generation prompt template
+
+Use this prompt per stem. Replace `[STEM]`, `[ARCHETYPE_NAME]`, `[ELEMENT]`, `[POLARITY]`, `[CLASSICAL_CHARACTER]`, and `[CLASSICAL_QUALITY]` with the values from the table above.
+
+```
+You are writing world-building text for a fantasy / game universe called Elementum. 
+The universe is built on the classical Chinese Five Elements and Ten Heavenly Stems.
+
+You are writing the elemental intro block for [STEM] ([ARCHETYPE_NAME]) — [ELEMENT] [POLARITY].
+Classical character: [CLASSICAL_CHARACTER]. Key quality: [CLASSICAL_QUALITY].
+
+Write exactly two sentences. No more, no less.
+
+SENTENCE 1 (punch) — 9 to 12 words:
+- Starts with "The [ARCHETYPE_NAME] is..."
+- Declares what this elemental force IS, grounded in its classical Chinese character
+- Codex register — like an encyclopaedia entry or game lore definition
+- No em-dash unless the clause after is ≤5 words and sharper than the clause before
+- No "you"
+
+SENTENCE 2 (expand) — 16 to 20 words:
+- Describes the felt vibe or atmospheric quality of someone who carries this energy
+- Must contain at least 3 adjective phrases
+- Preferred structure: "[Adj] without [noun], [adj] without [noun] — [what it does in a person]."
+- No "you" — the energy is the subject, not the reader
+- No hedging (no "can sometimes", "tends to", "may")
+
+REGISTER: game lore / fantasy codex / elemental force description. Not self-help. Not therapy. Not personality psychology.
+
+REFERENCE (庚, approved):
+punch:  "The Blade is the ancient cutting force of Metal."
+expand: "Sharp without announcement, cold without cruelty — it carries in a person the stillness of something that has already decided."
+
+Now write the pair for [STEM] ([ARCHETYPE_NAME]).
+Output format — two labelled lines only:
+punch: "..."
+expand: "..."
+```
+
+After generation, verify word counts and run the quality gate before committing to `archetypeSource.js`.
+Now write the pair for [STEM] ([ARCHETYPE_NAME]).
+Output format — two labelled lines only:
+punch: "..."
+expand: "..."
+```
+
+After generation, verify word counts and run the quality gate before committing to `archetypeSource.js`.
+
+---
+
+## §4 — yourNature.desc: Archetype Variants (all 10 stems × 15 configs)
+
+### What it is
+
+`yourNature.desc` is the first personalised statement in the reading — the opening of the Archetype Variants layer. It is the text that appears under **"YOUR NATURE"** on the Elemental Nature page, immediately after the world-building "The Element" block.
+
+It varies by `STEM_Band_tgPattern` — 15 configurations per stem, 150 total. The baseline version (balanced_pure) is hand-authored per stem. All 150 variants are generated via Pipeline A1 using this guidance as the system prompt.
+
+**Field location:** `yourNature.desc` in `archetypeSource.js` (baseline) and `STEM_CARD_DATA[stem_band_tgPattern].yourNature.desc` (generated variants)
+**Tier:** FREE — always shown, no paywall gate
+**Length:** 2–3 sentences · 30–45 words total
+
+---
+
+### The governing principle
+
+This statement is not describing what kind of person you are. It is **defining** something the person already knows about themselves but has never heard articulated this precisely. The target reaction is: *"Wow, this is me."*
+
+Emotional resonance comes first. Bazi system accuracy is the foundation — but the reader experience is the product.
+
+---
+
+### Language guidance
+
+**Define, do not describe.** A description tells you what something looks like. A definition tells you what something *is*. The statement should feel like it names an essential truth, not paints a picture.
+
+**Provoking adjectives and short sharp phrases over descriptive prose.** Words and phrases that make the reader sit up — not because they're clever, but because they're exact. "Involuntarily exact." "The most alone in it." "They never quite stop feeling assessed." These land harder than full sentences explaining the same thing.
+
+**No hedging, ever.** No "tends to", "may", "often finds themselves", "can sometimes". The statement speaks with the authority of a system that has been calculating this for centuries. It is declarative.
+
+**Second person, present tense.** "You are." "Precision arrives." Not "people with this pattern" or "those who carry this energy."
+
+---
+
+### Universal structure
+
+**Always lead with the person, never the trait in the abstract.**
+
+`"The most [X] person in any [context], [paradox / cost embedded in the same breath]. [How the element/trait operates] — [what people experience] [what they don't find or what's missing]."`
+
+The person comes first. The trait is introduced as something the reader already *is* — a social fact, a lived position — not as an abstract property being explained. The paradox follows immediately in the same sentence: the gift and the cost arrive together, not sequentially. Sentence 2 shows the mechanism through its effect on other people.
+
+**What this structure prevents:**
+- Starting with the trait in the abstract ("The precision is involuntary") instead of the person ("The fastest read in any room")
+- Explaining a quality instead of depicting someone who carries it
+- Separating gift and cost into different sentences where one subordinates the other
+
+**S1 — Person first, paradox immediate.**
+`"The most [X] person in any room, [the cost or paradox folded in]."`
+The person is identified by their defining position in a room or relationship. The cost arrives in the same sentence, not as a correction but as part of the same truth. Both halves of the paradox are stated at full weight.
+
+**S2 — Mechanism through people.**
+Show how the trait operates by what people experience and what they don't find. The mechanism is implied through effect, not explained directly. The gap between what people get and what they can't reach is where the cost lives.
+
+**The test:** Would a different stem feel wrong in this slot? Good. Does the cost feel like an afterthought? Rewrite. Does S1 feel complete without S2? Rewrite — they must do different jobs.
+
+---
+
+### Band dimension — how it shifts the statement
+
+The band is the most significant variable. Each band produces a meaningfully different person, not a variation of the same person.
+
+**Concentrated** — the native quality runs at maximum intensity, often ahead of the person's intention. It precedes them. The trait is amplified to the point where it can overwhelm. S1 should convey that the quality *precedes* the person — it is operating before they have chosen to engage. The cost is usually excess.
+
+**Balanced** — the quality and its expression are in genuine conversation. The element works cleanly. S1 names the trait as something accessible and functional. The gift and cost are both present but neither is extreme.
+
+**Open** — the quality is real but not the lead force. Something else is driving. S1 should convey a particular clarity — the native force is present but not overwhelming — alongside the particular absence when the element isn't fully available.
+
+---
+
+### tgPattern dimension — how it modifies the statement
+
+tgPattern shifts the *channel* through which the nature expresses. It modifies the trait, not replaces it.
+
+| Pattern | What it adds to the statement |
+|---|---|
+| `pure` | Unfiltered, undirected. The trait in its most essential form — no dominant Ten God shaping where it goes. Freer, less anchored. |
+| `rooted` | Backed and weighted. Resource energy behind the trait — things built are more durable, assessments land heavier. |
+| `flowing` | Expressive, outward. The trait finds channels easily. A productive, generative quality to how the nature operates. |
+| `forging` | Under pressure. The nature is being tested and shaped. Operates sharpest when stakes are real; without friction, turns inward. |
+| `tested` | Within or against structure. An external standard runs alongside the internal one. The trait is partly defined by what it meets. |
+
+---
+
+### Quality gate
+
+A `yourNature.desc` passes if:
+1. The trait is named first and is immediately recognisable — not a generic adjective
+2. S1 defines, S2 does not repeat S1 in different words
+3. Gift and cost carry equal syntactic weight — no subordinate clause demotes either
+4. No hedging language anywhere
+5. A reader who has never heard of Bazi would still feel seen by it
+6. It would feel *wrong* for a different stem or a different band — it is specific to this configuration
+
+A `yourNature.desc` fails if:
+- It describes rather than defines
+- The cost is an afterthought ("but sometimes...")
+- It could apply to multiple stems
+- It uses descriptive prose where a sharp phrase would do
+- It starts with "You are" followed by an adjective list
+
+---
+
+### Approved reference — 庚_balanced_pure
+
+```
+"The most honest person in any room, often the most alone in it. Precision arrives before warmth does — people lean on the edge and rarely find what's behind it."
+```
+
+Word count: 32. Band: balanced — trait accessible, both sides present but neither extreme. tgPattern: pure — the precision runs in its essential form, no dominant Ten God directing it. S1 identifies the person by their position in a room and folds the cost into the same sentence. S2 shows the mechanism through what people experience and what they don't find.
+
+---
+
+### Generation prompt template
+
+```
+You are writing the `yourNature.desc` field for Elementum — a Bazi-based personality reading app.
+
+This field is the first personalised statement in the reading. It appears under "YOUR NATURE" immediately after a world-building intro. The target reaction from the reader is: "Wow, this is me."
+
+CONFIGURATION: [STEM] ([ARCHETYPE_NAME]) · Band: [BAND] · tgPattern: [TGPATTERN]
+
+STEM CHARACTER: [classical description of the stem's nature — from the archetypeSource reference]
+BAND CONTEXT: [concentrated / balanced / open — what this means for how fully and intensely the nature operates]
+TGPATTERN CONTEXT: [pure / rooted / flowing / forging / tested — what this adds to the channel of expression]
+
+LANGUAGE RULES:
+- Always lead with the person, never the trait in the abstract. "The fastest read in any room" not "The precision is involuntary."
+- Depict someone — identify them by their position in a room or relationship, not by their psychological properties.
+- Fold the paradox into S1: gift and cost arrive in the same sentence, not sequentially.
+- S2 shows the mechanism through what people experience and what they don't find. Effect, not explanation.
+- No hedging: no "tends to", "may", "can sometimes", "often finds themselves"
+- No "but" that demotes the cost — both truths carry equal weight
+- No abstract trait-labelling: never start a sentence with a noun that describes a quality ("The precision...", "The clarity...", "The warmth...")
+
+STRUCTURE:
+S1: "The most [X] person in any [context], [paradox / cost in the same breath]."
+S2: "[How the trait operates] — [what people experience] [what they don't find or what's missing]."
+
+LENGTH: 2–3 sentences · 30–45 words total
+
+APPROVED REFERENCE (庚_balanced_pure — match this tone and structure exactly):
+"The most honest person in any room, often the most alone in it. Precision arrives before warmth does — people lean on the edge and rarely find what's behind it."
+
+Generate one `yourNature.desc` for the configuration above.
+Output: the statement only, no explanation.
+```
+

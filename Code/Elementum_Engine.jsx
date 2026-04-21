@@ -6,7 +6,7 @@ const STEM_CARD_DATA = {
   "甲": {
     subtitle: `Forward motion as structure, not ambition · The Growth Impulse (Yang)`,
     chips: ["Visionary", "Initiating", "Growth-driven", "Integrity-bound", "Consolidation-resistant"],
-    psychCore: {
+    yourNature: {
       phrase: `The Vanguard General`,
       desc: `You're always the first to see where something could go — and you start moving toward it before anyone else has decided whether to begin. You build things that outlast you, but you're usually already thinking about the next thing before the current one is done.`,
     },
@@ -73,7 +73,7 @@ There's also a specific interpersonal cost: people who care about them often fee
   "乙": {
     subtitle: `Navigation as intelligence, not accommodation · The Growth Impulse (Yin)`,
     chips: ["Adaptive", "Strategically perceptive", "Resilient", "Destination-fixed", "Coiling intelligence"],
-    psychCore: {
+    yourNature: {
       phrase: `The Shadow Diplomat`,
       desc: `You always find a way through — not by pushing harder, but by reading the room and finding the opening no one else noticed. Your destination never changes; only the path you take to get there.`,
     },
@@ -138,7 +138,7 @@ There's also a specific interpersonal cost: people who care about them often fee
   "丙": {
     subtitle: `Warmth as structural property, not personality trait · The Visibility Impulse (Yang)`,
     chips: ["Radiant", "Generative", "Involuntarily warm", "Invisibly depleting", "Trust-creating"],
-    psychCore: {
+    yourNature: {
       phrase: `The Court Herald`,
       desc: `You walk into a room and people feel more at ease, more energized, more capable — without you trying to make that happen. The cost is that you give it constantly and almost never get asked if you're okay.`,
     },
@@ -203,7 +203,7 @@ There's also a specific interpersonal cost: people who care about them often fee
   "丁": {
     subtitle: `Complete illumination of exactly what it's pointed at · The Visibility Impulse (Yin)`,
     chips: ["Precise", "Intimate", "Selectively warm", "Detail-sensitive", "Flickering under depletion"],
-    psychCore: {
+    yourNature: {
       phrase: `The Imperial Examiner`,
       desc: `When your attention is fully on someone, they feel completely seen — understood at a level they rarely experience. But you can only truly light up one thing at a time, and everything else goes dark.`,
     },
@@ -270,7 +270,7 @@ There's also an investment asymmetry that accumulates: the Candle gives the full
   "戊": {
     subtitle: `The ground others orient by without naming · The Stability Impulse (Yang)`,
     chips: ["Grounding", "Load-bearing", "Change-resistant", "Silently accumulating", "Orientation-providing"],
-    psychCore: {
+    yourNature: {
       phrase: `The Mountain Warden`,
       desc: `You're the person everyone builds their plans around — steady, reliable, there when things shake. The part no one sees is how much you're actually holding, because you never let it show.`,
     },
@@ -337,7 +337,7 @@ There's also a slow accumulation of unspoken costs. The Mountain absorbs a great
   "己": {
     subtitle: `Growing things in others without announcing it · The Stability Impulse (Yin)`,
     chips: ["Nurturing", "Developmentally attuned", "Invisibly depleting", "Overcultivating", "Responsive"],
-    psychCore: {
+    yourNature: {
       phrase: `The Palace Gardener`,
       desc: `You help others grow without making a thing out of it — quietly creating the conditions for people to become better versions of themselves. The problem is you give more than you get back, and it takes longer than it should to notice.`,
     },
@@ -402,6 +402,18 @@ There's also a slow accumulation of unspoken costs. The Mountain absorbs a great
   "庚": {
 
     // ═══════════════════════════════════════════════════════════════════
+    // IDENTITY — Layer 0 of Elemental Nature page (world-building, third-person)
+    // punch: 9–12 words · expand: 16–20 words · no "you" · game lore register
+    // ═══════════════════════════════════════════════════════════════════
+
+    identity: {
+      elementIntro: {
+        punch:  `The Blade is the ancient cutting force of Metal.`,
+        expand: `Sharp without announcement, cold without cruelty — it carries in a person the stillness of something that has already decided.`,
+      },
+    },
+
+    // ═══════════════════════════════════════════════════════════════════
     // SECTION 1: ELEMENTAL NATURE  (user-facing label: "Elemental Nature")
     // Base Energy — DM stem identity. Free teaser + Pro full reading.
     // ═══════════════════════════════════════════════════════════════════
@@ -409,10 +421,10 @@ There's also a slow accumulation of unspoken costs. The Mountain absorbs a great
     subtitle: `Evaluation runs before engagement begins · The Definition Impulse (Yang)`,
     chips: ["Evaluative", "Uncompromising", "Precision-first", "Self-sufficient", "Justice-oriented"],
 
-    // PSYCHCORE — phrase = archetype identity; desc = 2nd person portrait (2–3 sentences, displayed FREE)
-    psychCore: {
-      phrase: `The Imperial Executioner`,
-      desc: `You read every room before you enter it — the assessment runs automatically, before you've decided to begin. People trust you because you're always honest, but they often find you hard to get close to.`,
+    // YOURNATURE — phrase = archetype identity [INTERNAL]; desc = 2nd person portrait [FREE · Archetype Variants: varies by STEM_Band_tgPattern]
+    yourNature: {
+      phrase: `The Imperial Executioner`,  // [INTERNAL — not rendered in UI]
+      desc: `The most honest person in any room, often the most alone in it. Precision arrives before warmth does — people lean on the edge and rarely find what's behind it.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
 
     // GIFTS & SHADOWS — phrase [FREE] · desc [FREE · one sharp sentence, distinct angle]
@@ -710,7 +722,7 @@ The 2 AM version: "I know what I am. I still don't know what I'm for." The Forgi
   "辛": {
     subtitle: `Quality perceived as temperature — before the question forms · The Definition Impulse (Yin)`,
     chips: ["Discerning", "Aesthetically precise", "Perfectionist", "Exacting", "Distance through refinement"],
-    psychCore: {
+    yourNature: {
       phrase: `The Jade Appraiser`,
       desc: `You sense whether something is genuinely excellent the way others sense whether a room is cold — automatically, before thinking about it. You produce work of real quality, but the same standard that makes you exceptional never quite lets you feel done.`,
     },
@@ -775,7 +787,7 @@ The 2 AM version: "I know what I am. I still don't know what I'm for." The Forgi
   "壬": {
     subtitle: `More beneath the surface than is ever shown · The Intelligence Impulse (Yang)`,
     chips: ["Expansive", "Systemic", "Depth-witholding", "Untranslatable", "Ambition without edges"],
-    psychCore: {
+    yourNature: {
       phrase: `The River Cartographer`,
       desc: `You process things at a depth most people in the room aren't reaching, and you carry more beneath the surface than you ever show. The hard part is the gap between how deep you actually think and what you can get the room to understand.`,
     },
@@ -842,7 +854,7 @@ Most exchanges happen at a shallower level than where the Ocean operates. This p
   "癸": {
     subtitle: `Knows what is true before it is spoken · The Intelligence Impulse (Yin)`,
     chips: ["Attuned", "Psychically permeable", "Absorbing", "Specifically nourishing", "Lost in own fog"],
-    psychCore: {
+    yourNature: {
       phrase: `The Court Oracle`,
       desc: `You know what's true in a room before anyone says it out loud — the feeling arrives before the reasoning does. The difficult part is that you absorb what everyone around you is feeling, and it can be hard to tell what's yours and what isn't.`,
     },
@@ -904,6 +916,63 @@ There's also a pattern of caring for others at the level they wish they were car
       catalyst: `Activate it by creating conditions for genuine perception: quiet, reduced stimulation, time for reflection without agenda. This energy does not respond to force — it responds to receptivity. The insight arrives when you stop trying to produce it and create the space where it can surface naturally. Sit with the question longer than feels productive. The answer arrives at the edge of sleep, in the transition between conversations, in the moment after the analysis stops. Outcome: what was obscure becomes clear. The right answer to a long-standing question arrives not from analysis but from having been genuinely still with it long enough for the perception to form.`,  // [FREE · teaser  /  PRO · full analysis]
       resistance: `When 癸 energy is creating friction — the permeability is absorbing what it should be allowing to pass through. The chart needs more definition (Metal) or more grounding (Earth) to give the perception a stable surface to land on. Channel it by deliberately separating what is perceived from what is chosen: use the intuition as information rather than as reality, and check what is sensed against what is actually observable before acting on it. Create physical or relational structure that filters what enters rather than remaining fully permeable to everything in the environment. Outcome: sensitivity becomes a tool rather than a burden, and what was overwhelm converts into accurate, actionable reading of the actual situation.`,  // [PRO]
     },
+  },
+
+  // ── Archetype variant data (stem_band_tgPattern keys) ───────────────────
+  // Source of truth: Code/STEM_CARD_DATA.js (production serving file).
+  // Inlined here for single-file artifact preview — keep in sync with STEM_CARD_DATA.js.
+  // 15 庚 entries authored (Phase 1). Remaining 135 generated via batchGenerate.js.
+  // ─────────────────────────────────────────────────────────────────────────────
+
+  // ── 庚 balanced ───────────────────────────────────────────────────────────
+  "庚_balanced_pure": {
+    yourNature: { desc: `The most honest person in any room, often the most alone in it. Precision arrives before warmth does — people lean on the edge and rarely find what's behind it.` },
+  },
+  "庚_balanced_rooted": {
+    yourNature: { desc: `The most credible read in any room, and the one hardest to argue with — the assessment lands with the weight of everything already tested and proven. People trust it structurally. The closeness it keeps is structural, too.` },
+  },
+  "庚_balanced_flowing": {
+    yourNature: { desc: `The most generous read in any room, given before anyone has had to ask for it — what is seen gets said, what is assessed gets delivered, and people leave with something useful. The warmth it sends out is real. What rarely comes back with it is warmth in return.` },
+  },
+  "庚_balanced_forging": {
+    yourNature: { desc: `The most reliable person in a crisis, occasionally the most exhausting without one. The precision sharpens when there is something worth cutting — people get the full blade when the stakes are real, and something considerably quieter when they are not.` },
+  },
+  "庚_balanced_tested": {
+    yourNature: { desc: `The most reliable presence inside any structure, and the one for whom the external standard was already the lower bar — the internal one was higher before the evaluation arrived. People sense the quality of what is being assessed. They also sense, correctly, that they are part of it.` },
+  },
+
+  // ── 庚 concentrated ───────────────────────────────────────────────────────
+  "庚_concentrated_pure": {
+    yourNature: { desc: `The fastest read in any room, and the one that finishes before anyone notices it has started — the verdict is already in, already right, by the time the conversation begins. People trust it completely. They also never fully stop feeling like one was passed on them.` },
+  },
+  "庚_concentrated_rooted": {
+    yourNature: { desc: `The most authoritative read in any room, and the one that does not move once it is settled — the assessment is backed by everything already lived and proven, and it arrives with that weight. The reliability is total. The distance that comes with it is total, too.` },
+  },
+  "庚_concentrated_flowing": {
+    yourNature: { desc: `The most prolific source of clarity in any room, and the one that does not pace itself — assessments flow outward faster than anyone can use them, without waiting for the room to catch up. People find the current and follow. It does not stop to receive them.` },
+  },
+  "庚_concentrated_forging": {
+    yourNature: { desc: `The sharpest person in any room when the room is falling apart, and the one most likely to leave marks after — what others produce with effort, this produces in surplus under pressure. The friction is where it belongs. The cost comes proportionally after.` },
+  },
+  "庚_concentrated_tested": {
+    yourNature: { desc: `The most formidable person under scrutiny, and the one for whom evaluation is a formality — the internal standard already exceeded the external one before it arrived. What the room sees is the gap between what was required and what was produced. It is always visible.` },
+  },
+
+  // ── 庚 open ───────────────────────────────────────────────────────────────
+  "庚_open_pure": {
+    yourNature: { desc: `The clearest read in the right room, and the quietest in the wrong one — the precision is fully there, but it does not lead everywhere. When it arrives it lands cleanly. When it steps back, people feel the difference before they can name it.` },
+  },
+  "庚_open_rooted": {
+    yourNature: { desc: `The most reliable read when the right foundations are in place, and the quietest when they are not — what is available when the conditions are there is backed, settled, and clear. People rely on it when it comes. They learn not to expect it at a constant rate.` },
+  },
+  "庚_open_flowing": {
+    yourNature: { desc: `The most accessible read in any room, and the one least likely to leave a mark — clarity moves outward easily and people find it useful rather than uncomfortable. What they rarely encounter is the actual edge. It is there. It mostly travels toward useful.` },
+  },
+  "庚_open_forging": {
+    yourNature: { desc: `The most surprising person under pressure, and the quietest presence without it — the precision is fully intact, but it waits for something worth cutting. When the stakes are real, what arrives is the full blade. The rest of the time, the room does not see it.` },
+  },
+  "庚_open_tested": {
+    yourNature: { desc: `The sharpest person inside any structure, and the most directionless outside one — give this precision something to measure against and it exceeds it; remove the standard and the force disperses. The edge is real. The right conditions make it visible.` },
   },
 
 };
@@ -1902,6 +1971,8 @@ function getArchetypeKey(chart) {
 }
 
 // tgPattern display labels — 5 values (Doc2 §3)
+
+const tgEn = (zh) => TG_CARD_DATA[zh]?.name || TG_PROFILES[zh]?.en || zh;
 const TG_PATTERN_LABELS = {
   pure:    "Pure",
   rooted:  "Rooted",
@@ -2035,8 +2106,8 @@ function calculateBaziChart(input) {
 // ── TEMPLATE DATABASE ──────────────────────────────────────────────────────
 // Layer 1 templates: key format [stem]_[band]_[tgPattern]  (Doc2 §3)
 // 150 keys total (10 stems × 3 bands × 5 patterns).
-// 1 key hand-authored as reference standard: 庚_concentrated_pure
-// Remaining 149 generated via batchGenerate.js (see Doc4 §6).
+// 15 庚 keys hand-authored (Phase 1 · see STEM_NATURE_VARIANTS in archetypeSource.js).
+// Remaining 135 keys generated via batchGenerate.js (see Doc4 §6).
 // ─────────────────────────────────────────────────────────────────────────────
 
 // TEMPLATE_DB + buildTemplateKey + findTemplate removed.
@@ -2453,7 +2524,7 @@ const STRENGTH_RING = {
 // Source: hardcoded per Day Master stem — no LLM, no runtime generation
 // ═══════════════════════════════════════════════════════════════════════════
 
-// [DEPRECATED] WHO_YOU_ARE — fallback until STEM_CARD_DATA.js generated.
+// [DEPRECATED] WHO_YOU_ARE — fallback until Code/STEM_CARD_DATA.js is generated.
 const WHO_YOU_ARE = {
   "甲": {
     teaser: "You don't grow toward things because you decided to — you grow because stopping would require an effort you don't have access to.",
@@ -3234,9 +3305,17 @@ function DayMasterHero({ chart, onOpenPopup = () => {} }) {
         </div>
       )}
 
+      {/* Gradient fade — blends hero into catalogue below */}
+      <div style={{
+        position:"absolute", bottom:0, left:0, right:0, height:120,
+        background:"linear-gradient(to bottom, transparent 0%, #f7f3ec 100%)",
+        pointerEvents:"none", zIndex:2,
+      }}/>
+
       {/* Scroll hint */}
       <div style={{position:"absolute",bottom:24,left:"50%",transform:"translateX(-50%)",
-                   display:"flex",flexDirection:"column",alignItems:"center",gap:5,opacity:0.4}}>
+                   display:"flex",flexDirection:"column",alignItems:"center",gap:5,
+                   opacity:0.35, zIndex:3}}>
         <span style={{fontFamily:"'EB Garamond',Georgia,serif",fontSize:9,letterSpacing:"0.22em",
                        textTransform:"uppercase",color}}>Discover</span>
         <svg width="14" height="8" viewBox="0 0 14 8" fill="none">
@@ -4825,39 +4904,77 @@ function YourNature({ chart }) {
   const ff      = "'EB Garamond',Georgia,serif";
 
   const stemData  = STEM_CARD_DATA[dm.stem] || {};
-  const psychCore = stemData.psychCore || {};
-  const blocks    = stemData.blocks || [];
+  // Variant lookup: try stem_band_tgPattern key first (Pipeline A1 output),
+  // fall back to stem baseline from archetypeSource.js
+  const tgPattern   = computeTgPattern(chart);
+  const configKey   = `${dm.stem}_${band}_${tgPattern}`;
+  const configData  = STEM_CARD_DATA[configKey] || {};
+  const yourNature  = configData.yourNature || stemData.yourNature || {};
+  const blocks      = stemData.blocks || [];
 
   const getBlock  = (kw) => blocks.find(b => b.label && b.label.toLowerCase().includes(kw.toLowerCase()));
   const blockText = (block) => { if (!block || !block.text) return ""; return block.text[band] || block.text.default || ""; };
   const firstN    = (text, n) => { if (!text) return ""; const s = text.match(/[^.!?]+[.!?]+/g) || [text]; return s.slice(0, n).join(" ").trim(); };
 
-  const desc      = firstN(psychCore.desc || "", 2);
+  const desc      = firstN(yourNature.desc || "", 2);
   const pullQuote = firstN(blockText(getBlock("experience")), 2);
   const yangText  = firstN(blockText(getBlock("good at")), 1);
   const yinText   = firstN(blockText(getBlock("get stuck")), 1);
 
+  // Element intro — world-building, third-person. Sourced from archetypeSource.js → identity.elementIntro
+  const intro = stemData.identity?.elementIntro || null;
+
+  // Blade SVG — top-down face view (weapon-smith's perspective, not warrior's)
+  const BladeIllustration = () => (
+    <svg width="42" height="100" viewBox="0 0 42 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      {/* Blade flat — double taper seen from directly above */}
+      <path d="M 8,80 L 21,5 L 34,80 Z" fill={`${color}10`}/>
+      {/* Left edge */}
+      <line x1="8" y1="80" x2="21" y2="5" stroke={`${color}70`} strokeWidth="1.2" strokeLinecap="round"/>
+      {/* Right edge */}
+      <line x1="34" y1="80" x2="21" y2="5" stroke={`${color}70`} strokeWidth="1.2" strokeLinecap="round"/>
+      {/* Left fuller — groove on the face */}
+      <line x1="13" y1="78" x2="21" y2="9" stroke={`${color}45`} strokeWidth="0.7"/>
+      {/* Right fuller */}
+      <line x1="29" y1="78" x2="21" y2="9" stroke={`${color}45`} strokeWidth="0.7"/>
+      {/* Tip */}
+      <circle cx="21" cy="5" r="1.5" fill={`${color}85`}/>
+      {/* Cross-guard */}
+      <rect x="2" y="80" width="38" height="4" rx="2" fill={`${color}18`} stroke={`${color}55`} strokeWidth="0.8"/>
+      {/* Tang — implied, runs off the bottom */}
+      <rect x="17" y="84" width="8" height="16" rx="1" fill={`${color}08`} stroke={`${color}28`} strokeWidth="0.7"/>
+    </svg>
+  );
+
   return (
-    <div style={{borderRadius:16,border:`1.5px solid ${color}25`,overflow:"hidden",background:`linear-gradient(160deg,${color}06 0%,#faf7f2 100%)`,marginBottom:20}} className="fade">
+    <div style={{minHeight:728,overflow:"hidden",background:`linear-gradient(160deg,${color}06 0%,#faf7f2 100%)`,display:"flex",flexDirection:"column"}} className="fade">
 
-      {/* Layer 1 — Description */}
-      <div style={{padding:"28px 24px 22px"}}>
-        <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:16}}>
-          <span style={{fontSize:9,letterSpacing:2.5,textTransform:"uppercase",color:`${color}60`,fontFamily:ff}}>Your Nature</span>
-          <span style={{width:3,height:3,borderRadius:"50%",background:`${color}35`,display:"inline-block"}}/>
-          <span style={{fontSize:9,letterSpacing:1.5,textTransform:"uppercase",color:`${color}60`,fontFamily:ff}}>{profile.archetype}</span>
-        </div>
-        {desc && <p style={{fontFamily:ff,fontSize:15,lineHeight:1.78,color:"#4a3c32",margin:0}}>{desc}</p>}
-      </div>
-
-      {/* Layer 2 — Pull-quote */}
-      {pullQuote && (
-        <div style={{margin:"0 20px 22px",padding:"16px 18px",borderLeft:`3px solid ${color}`,background:`${color}08`,borderRadius:"0 10px 10px 0"}}>
-          <p style={{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:16,lineHeight:1.72,color:"#3a2e26",fontStyle:"italic",margin:0}}>
-            "{pullQuote}"
-          </p>
+      {/* Layer 0 — Elemental intro (world-building, third-person) */}
+      {intro && (
+        <div style={{padding:"28px 24px 22px",borderBottom:`0.5px solid ${color}15`,display:"flex",alignItems:"center",gap:18}}>
+          <div style={{flex:1}}>
+            <div style={{fontSize:10,letterSpacing:2.5,textTransform:"uppercase",color:`${color}80`,fontFamily:ff,marginBottom:14}}>
+              The Element
+            </div>
+            <p style={{fontFamily:ff,fontSize:15.5,fontWeight:500,lineHeight:1.55,color:color,margin:"0 0 11px",letterSpacing:0.2}}>
+              {intro.punch}
+            </p>
+            <p style={{fontFamily:ff,fontSize:13.5,lineHeight:1.75,color:"#3d2e24",margin:0}}>
+              {intro.expand}
+            </p>
+          </div>
+          <BladeIllustration/>
         </div>
       )}
+
+      {/* Layer 0.5 — Elemental Saturation */}
+      <ElementalSaturation chart={chart}/>
+
+      {/* Layer 1 — Your Nature [FREE · Archetype Variants: resolved from STEM_Band_tgPattern config] */}
+      <div style={{padding:"28px 24px 22px",borderTop:`0.5px solid ${color}15`}}>
+        <div style={{fontSize:10,letterSpacing:2.5,textTransform:"uppercase",color:`${color}80`,fontFamily:ff,marginBottom:14}}>Your Nature</div>
+        {desc && <p style={{fontFamily:ff,fontSize:15,lineHeight:1.78,color:"#4a3c32",margin:0}}>{desc}</p>}
+      </div>
 
       {/* Layer 3 — Yang / Yin contrast */}
       {(yangText || yinText) && (
@@ -4880,13 +4997,63 @@ function YourNature({ chart }) {
       )}
 
       {/* Layer 4 — Curiosity hook */}
-      <div style={{padding:"13px 24px 15px",borderTop:`0.5px solid ${color}12`,display:"flex",alignItems:"center",justifyContent:"space-between"}}>
+      <div style={{marginTop:"auto",padding:"13px 24px 80px",borderTop:`0.5px solid ${color}12`,display:"flex",alignItems:"center",justifyContent:"space-between"}}>
         <p style={{fontFamily:ff,fontSize:13,fontStyle:"italic",color:`${color}80`,margin:0,lineHeight:1.5}}>
           There's a specific condition that brings out the sharpest version of this.
         </p>
         <span style={{fontSize:14,color:`${color}50`,marginLeft:10,flexShrink:0}}>›</span>
       </div>
 
+    </div>
+  );
+}
+
+function ElementalSaturation({ chart }) {
+  const dm    = chart.dayMaster;
+  const color = EL_C[dm.element];
+  const ff    = "'EB Garamond',Georgia,serif";
+  const sm    = STRENGTH_META[dm.strength] || STRENGTH_META.moderate;
+  const pct   = Math.round(dm.strengthScore * 100);
+
+  return (
+    <div style={{background:`linear-gradient(160deg,${color}06 0%,#faf7f2 100%)`,marginTop:2}} className="fade">
+      <div style={{padding:"28px 24px 26px"}}>
+
+        {/* Section label */}
+        <div style={{fontSize:10,letterSpacing:2.5,textTransform:"uppercase",color:`${color}80`,fontFamily:ff,marginBottom:16}}>
+          Elemental Saturation
+        </div>
+
+        {/* State + polarity + pct */}
+        <div style={{display:"flex",alignItems:"baseline",gap:8,marginBottom:14}}>
+          <span style={{fontFamily:ff,fontSize:15,letterSpacing:0.5,color:color,fontWeight:500}}>{sm.label}</span>
+          <span style={{fontFamily:ff,fontSize:12,color:`${color}50`}}>·</span>
+          <span style={{fontFamily:ff,fontSize:12.5,color:`${color}70`,letterSpacing:0.3}}>{sm.polarity}</span>
+          <span style={{marginLeft:"auto",fontFamily:ff,fontSize:13,color:`${color}70`,fontVariantNumeric:"tabular-nums",letterSpacing:0.5}}>{pct}%</span>
+        </div>
+
+        {/* Bar */}
+        <div style={{height:4,background:`${color}15`,borderRadius:2,marginBottom:7,overflow:"hidden"}}>
+          <div style={{height:"100%",width:`${pct}%`,background:color,borderRadius:2,transition:"width 0.8s ease"}}/>
+        </div>
+
+        {/* Zone labels */}
+        <div style={{display:"flex",justifyContent:"space-between",marginBottom:22}}>
+          <span style={{fontFamily:ff,fontSize:9,letterSpacing:1.5,textTransform:"uppercase",color:`${color}45`}}>Open</span>
+          <span style={{fontFamily:ff,fontSize:9,letterSpacing:1.5,textTransform:"uppercase",color:`${color}45`}}>Balanced</span>
+          <span style={{fontFamily:ff,fontSize:9,letterSpacing:1.5,textTransform:"uppercase",color:`${color}45`}}>Concentrated</span>
+        </div>
+
+        {/* Frame */}
+        <p style={{fontFamily:ff,fontSize:14.5,lineHeight:1.75,color:"#4a3c32",margin:"0 0 22px"}}>{sm.frame}</p>
+
+        {/* Approach */}
+        <div style={{borderTop:`0.5px solid ${color}15`,paddingTop:16}}>
+          <div style={{fontSize:9,letterSpacing:2,textTransform:"uppercase",color:`${color}60`,fontFamily:ff,marginBottom:8}}>{sm.approach}</div>
+          <p style={{fontFamily:ff,fontSize:13.5,lineHeight:1.75,color:`${color}95`,margin:0,fontStyle:"italic"}}>{sm.approachLine}</p>
+        </div>
+
+      </div>
     </div>
   );
 }
@@ -4956,7 +5123,7 @@ function ElementSpectrum({ chart, userTier = TIERS.FREE, onPaywall = ()=>{} }) {
           // Placeholder — not generated yet
           <div style={{padding:"14px 15px",borderBottom: isSeeker ? `0.5px solid ${color}15` : "none"}}>
             <p style={{fontFamily:ff,fontSize:13,lineHeight:1.7,color:`${color}60`,fontStyle:"italic",margin:0}}>
-              Full compound reading for {el} {tenGod ? `· ${tenGod}` : ""} coming soon.
+              Full compound reading for {el} {tenGod ? `· ${tgEn(tenGod)}` : ""} coming soon.
             </p>
           </div>
         )}
@@ -5040,8 +5207,7 @@ function ElementSpectrum({ chart, userTier = TIERS.FREE, onPaywall = ()=>{} }) {
             {/* Name + description */}
             <div style={{flex:1}}>
               <div style={{display:"flex",alignItems:"baseline",gap:8,marginBottom:7}}>
-                <span style={{fontFamily:"'Noto Serif SC',Georgia,serif",fontSize:16,color:color,lineHeight:1}}>{tenGod}</span>
-                <span style={{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:15,color:color,fontWeight:400,lineHeight:1}}>{tgProfile.en}</span>
+                <span style={{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:16,color:color,fontWeight:400,lineHeight:1}}>{tgProfile.en}</span>
               </div>
               <p style={{fontFamily:ff,fontSize:12.5,lineHeight:1.75,color:C.textSec,margin:0}}>{godDesc}</p>
             </div>
@@ -5254,6 +5420,828 @@ function ElementSpectrum({ chart, userTier = TIERS.FREE, onPaywall = ()=>{} }) {
 }
 
 // Paywall overlay — shown when free user tries to expand more than 1 section
+
+// ─── ENERGY MAP PAGE ─────────────────────────────────────────────────────────
+// Navigation state → null = catalogue home
+//   "yourNature" | "dom_0" | "dom_1" | "seasonal" | "catalyst" | "resistance"
+
+// ── Compute ordered section list for this chart ───────────────────────────
+function getSections(chart) {
+  const insights = getElementInsights(chart);
+  const secs = [
+    { key: "yourNature", tag: "Identity",        label: "Your Nature"         },
+    { key: "blueprint",  tag: "Composition",     label: "Energy Blueprint"    },
+  ];
+  if (insights.dominant[0]) secs.push({
+    key: "dom_0", tag: "Primary Force",
+    label: insights.dominant[0].el + " Dominance",
+  });
+  if (insights.dominant[1]) secs.push({
+    key: "dom_1", tag: "Secondary Force",
+    label: insights.dominant[1].el + " Current",
+  });
+  if (insights.missing.length > 0) secs.push({
+    key: "seasonal", tag: "Absence",
+    label: "Seasonal Calibration",
+  });
+  secs.push({ key: "catalyst", tag: "Dynamics", label: "Catalyst & Resistance" });
+  return secs;
+}
+
+// ── Shared shell wrapper: top nav bar + scrollable body + prev/next strip ──
+function DetailShell({ elColor, stepLabel, onBack, prev, next, onNavigate, children }) {
+  const ff = "'EB Garamond',Georgia,serif";
+  const gc = elColor || "#8b7a6a";
+  return (
+    <div style={{display:"flex", flexDirection:"column", minHeight:"100%", background:"#fdfaf6"}}>
+      {/* Top nav */}
+      <div style={{
+        display:"flex", alignItems:"center", justifyContent:"space-between",
+        padding:"12px 18px", borderBottom:"0.5px solid #e2dcd4",
+        background:"#fdfaf6", flexShrink:0,
+      }}>
+        <div onClick={onBack} style={{display:"flex", alignItems:"center", gap:6, cursor:"pointer"}}>
+          <span style={{fontSize:16, color:"#8b7a6a", lineHeight:1}}>‹</span>
+          <span style={{fontFamily:ff, fontSize:11, letterSpacing:1.5,
+            textTransform:"uppercase", color:"#8b7a6a"}}>Energy Map</span>
+        </div>
+        <span style={{fontFamily:ff, fontSize:10, letterSpacing:1.2,
+          textTransform:"uppercase", color:gc + "80"}}>{stepLabel}</span>
+      </div>
+
+      {/* Content */}
+      <div style={{flex:1}}>
+        {children}
+      </div>
+
+      {/* Prev / Next strip */}
+      {(prev || next) && (
+        <div style={{
+          display:"flex", justifyContent:"space-between", alignItems:"center",
+          padding:"12px 18px", borderTop:"0.5px solid #e2dcd4",
+          background:"#fdfaf6", flexShrink:0,
+        }}>
+          {prev ? (
+            <div onClick={() => onNavigate(prev.key)}
+              style={{display:"flex", alignItems:"center", gap:6, cursor:"pointer"}}>
+              <span style={{fontSize:14, color:"#8b7a6a"}}>‹</span>
+              <div>
+                <div style={{fontFamily:ff, fontSize:9, letterSpacing:1.5,
+                  textTransform:"uppercase", color:"#8b7a6a", marginBottom:1}}>Previous</div>
+                <div style={{fontFamily:ff, fontSize:12, color:"#5a4f43"}}>{prev.label}</div>
+              </div>
+            </div>
+          ) : <div/>}
+          {next ? (
+            <div onClick={() => onNavigate(next.key)}
+              style={{display:"flex", alignItems:"center", gap:6, cursor:"pointer", textAlign:"right"}}>
+              <div>
+                <div style={{fontFamily:ff, fontSize:9, letterSpacing:1.5,
+                  textTransform:"uppercase", color:"#8b7a6a", marginBottom:1}}>Next</div>
+                <div style={{fontFamily:ff, fontSize:12, color:"#5a4f43"}}>{next.label}</div>
+              </div>
+              <span style={{fontSize:14, color:"#8b7a6a"}}>›</span>
+            </div>
+          ) : <div/>}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ── Catalogue / Home page ─────────────────────────────────────────────────
+function EnergyMapMenu({ chart, onNavigate }) {
+  const ff      = "'EB Garamond',Georgia,serif";
+  const ffSC    = "'Noto Serif SC',Georgia,serif";
+  const dm      = chart.dayMaster;
+  const color   = EL_C[dm.element];
+  const band    = getEnergyBand(dm.strength);
+  const sm      = STRENGTH_META[dm.strength] || STRENGTH_META.moderate;
+  const pct     = Math.round((dm.strengthScore || 0.5) * 100);
+  const insights  = getElementInsights(chart);
+  const energies  = ELEMENT_ENERGIES[dm.stem]?.[band] || { lifts:[], depletes:[] };
+
+  const sortedEls = Object.entries(chart.elements)
+    .sort(([,a],[,b]) => (b.score||b.count||0) - (a.score||a.count||0))
+    .map(([el]) => el);
+  const topPresent = sortedEls.filter(el => chart.elements[el]?.present);
+  const missingEls = sortedEls.filter(el => !chart.elements[el]?.present);
+
+  const firstSent = (str) => {
+    if (!str) return "";
+    const m = str.match(/^.*?[.!?](?:\s|$)/);
+    return m ? m[0].trim() : str.split(' ').slice(0,22).join(' ') + '…';
+  };
+  const twoSent = (str) => {
+    if (!str) return "";
+    const ms = [...str.matchAll(/.*?[.!?](?:\s|$)/g)];
+    return ms.slice(0,2).map(m => m[0].trim()).join(' ')
+      || str.split(' ').slice(0,28).join(' ') + '…';
+  };
+
+  const Chip = ({ text, c }) => (
+    <span style={{
+      fontFamily:ff, fontSize:10, color:c,
+      background:c+"12", border:"0.5px solid "+c+"28",
+      padding:"3px 9px", borderRadius:20, whiteSpace:"nowrap",
+    }}>{text}</span>
+  );
+
+  return (
+    <div style={{fontFamily:ff, padding:"0 14px 36px",
+      background:"#f7f3ec",
+      display:"flex", flexDirection:"column", gap:9}}>
+
+      {/* ── ① Your Nature ─────────────────────────────────────── */}
+      <div onClick={() => onNavigate("yourNature")} style={{
+        padding:"14px 14px 16px", borderRadius:14, cursor:"pointer",
+        background:color+"07", border:"0.5px solid "+color+"28",
+      }}>
+        {/* Card header row */}
+        <div style={{display:"flex", alignItems:"center",
+          justifyContent:"space-between", marginBottom:12}}>
+          <div style={{display:"flex", alignItems:"center", gap:8}}>
+            <span style={{fontSize:14, color:color}}>✦</span>
+            <div style={{fontSize:8, letterSpacing:2.2, textTransform:"uppercase",
+              color:color+"80"}}>Identity</div>
+          </div>
+          <div style={{width:28, height:28, borderRadius:14,
+            background:color+"14", border:"0.5px solid "+color+"30",
+            display:"flex", alignItems:"center", justifyContent:"center"}}>
+            <span style={{fontSize:15, color:color}}>›</span>
+          </div>
+        </div>
+
+        {/* Stem + identity row */}
+        <div style={{display:"flex", alignItems:"center", gap:12, marginBottom:11}}>
+          <div style={{
+            width:44, height:44, borderRadius:11, flexShrink:0,
+            background:color+"1a", border:"1.5px solid "+color+"38",
+            display:"flex", alignItems:"center", justifyContent:"center",
+            fontFamily:ffSC, fontSize:24, color:color, fontWeight:700,
+          }}>{dm.stem}</div>
+          <div style={{flex:1}}>
+            <div style={{fontSize:15.5, color:color, fontWeight:600,
+              lineHeight:1.2, marginBottom:5}}>
+              {dm.element} · {dm.name}
+            </div>
+            <div style={{display:"flex", gap:5, flexWrap:"wrap"}}>
+              <Chip text={sm.label} c={color}/>
+              <Chip text={sm.polarity} c={color}/>
+            </div>
+          </div>
+        </div>
+
+        {/* Frame teaser */}
+        <p style={{fontFamily:ff, fontSize:12.5, lineHeight:1.75,
+          color:"#5a4f43", fontStyle:"italic", margin:"0 0 12px",
+          borderLeft:"2px solid "+color+"25", paddingLeft:10}}>
+          {twoSent(sm.frame)}
+        </p>
+
+        {/* Saturation bar */}
+        <div style={{display:"flex", alignItems:"center", gap:9}}>
+          <div style={{flex:1, height:4, background:color+"14",
+            borderRadius:2, overflow:"hidden"}}>
+            <div style={{height:"100%", width:pct+"%",
+              background:color, borderRadius:2}}/>
+          </div>
+          <span style={{fontSize:10.5, color:color, fontWeight:600,
+            flexShrink:0}}>{pct}%</span>
+        </div>
+      </div>
+
+      {/* ── ② Energy Blueprint (non-tappable outer) ───────────── */}
+      <div style={{
+        padding:"14px 14px 14px", borderRadius:14,
+        background:"#7a6e5a07", border:"0.5px solid #7a6e5a28",
+      }}>
+        {/* Header — no arrow, not tappable */}
+        <div style={{display:"flex", alignItems:"center", gap:8, marginBottom:8}}>
+          <span style={{fontSize:14, color:"#7a6e5a"}}>☰</span>
+          <span style={{fontFamily:ff, fontSize:14.5, color:"#3a3028",
+            fontWeight:500}}>Energy Blueprint</span>
+        </div>
+        <p style={{fontFamily:ff, fontSize:11.5, lineHeight:1.65,
+          color:"#7a6e5a", fontStyle:"italic", margin:"0 0 12px"}}>
+          The pattern of all five energies across your four pillars — what is present,
+          what dominates, and what is absent.
+        </p>
+
+        {/* 5-element bar chart */}
+        <div style={{display:"flex", flexDirection:"column", gap:5, marginBottom:14}}>
+          {sortedEls.map(el => {
+            const d = chart.elements[el];
+            const ec = EL_C[el];
+            const cnt = d?.count || 0;
+            const missing = !d?.present;
+            const isDM = el === dm.element;
+            return (
+              <div key={el} style={{display:"flex", alignItems:"center", gap:8,
+                opacity: missing ? 0.5 : 1}}>
+                <div style={{
+                  width:20, height:20, borderRadius:5, flexShrink:0,
+                  background: missing ? "transparent" : ec+"14",
+                  border: missing ? "1px dashed "+ec+"40" : "0.5px solid "+ec+"28",
+                  display:"flex", alignItems:"center", justifyContent:"center",
+                }}>
+                  <ElementIcon el={el} color={missing ? ec+"55" : ec} size={10}/>
+                </div>
+                <span style={{width:42, fontSize:11, color: missing ? ec+"60" : ec,
+                  fontFamily:ff, fontWeight: isDM ? 600 : 400, flexShrink:0}}>
+                  {el}{isDM ? " ✦" : ""}
+                </span>
+                <div style={{flex:1, display:"flex", gap:2}}>
+                  {[...Array(10)].map((_,i) => (
+                    <div key={i} style={{flex:1, height:6, borderRadius:1.5,
+                      background: missing ? "transparent"
+                        : i < cnt ? ec : "#e8e2d8",
+                      opacity: i < cnt ? (isDM ? 0.9 : 0.65) : 1,
+                    }}/>
+                  ))}
+                </div>
+                <span style={{width:14, textAlign:"right", fontSize:11,
+                  flexShrink:0, fontFamily:ff,
+                  color: missing ? "#c4745a" : ec,
+                  fontStyle: missing ? "italic" : "normal"}}>
+                  {missing ? "—" : cnt}
+                </span>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Dominant energy sub-rows — each tappable */}
+        {insights.dominant.slice(0,2).map((d, i) => {
+          const ec   = EL_C[d.el];
+          const tag  = i === 0 ? "Primary Force" : "Secondary Force";
+          const chips = (TG_CARD_DATA[d.tenGod]?.chips || []).slice(0,3);
+          return (
+            <div key={d.el} onClick={() => onNavigate("dom_" + i)}
+              style={{
+                display:"flex", alignItems:"center", gap:10,
+                padding:"11px 11px", marginTop: i===0 ? 0 : 7,
+                borderRadius:10, cursor:"pointer",
+                background:ec+"08", border:"0.5px solid "+ec+"22",
+              }}>
+              {/* Element icon */}
+              <div style={{
+                width:30, height:30, borderRadius:8, flexShrink:0,
+                background:ec+"16", border:"0.5px solid "+ec+"2a",
+                display:"flex", alignItems:"center", justifyContent:"center",
+              }}>
+                <ElementIcon el={d.el} color={ec} size={14}/>
+              </div>
+              {/* Text block */}
+              <div style={{flex:1, minWidth:0}}>
+                <div style={{display:"flex", alignItems:"center",
+                  justifyContent:"space-between", marginBottom:3}}>
+                  <div>
+                    <div style={{fontSize:7, letterSpacing:2, textTransform:"uppercase",
+                      color:ec+"70", marginBottom:2}}>{tag}</div>
+                    <div style={{fontFamily:ff, fontSize:13, color:ec, fontWeight:600,
+                      lineHeight:1.1}}>{d.el}</div>
+                  </div>
+                  <div style={{display:"flex", alignItems:"center", gap:5, flexShrink:0}}>
+                    <span style={{fontFamily:ff, fontSize:9.5, color:ec+"85",
+                      fontStyle:"italic"}}>{tgEn(d.tenGod)}</span>
+                    <div style={{
+                      width:22, height:22, borderRadius:11,
+                      background:ec+"14", border:"0.5px solid "+ec+"28",
+                      display:"flex", alignItems:"center", justifyContent:"center",
+                    }}>
+                      <span style={{fontSize:13, color:ec, lineHeight:1}}>›</span>
+                    </div>
+                  </div>
+                </div>
+                {/* TG trait chips */}
+                {chips.length > 0 && (
+                  <div style={{display:"flex", gap:4, flexWrap:"wrap", marginTop:5}}>
+                    {chips.map((chip, ci) => (
+                      <span key={ci} style={{
+                        fontFamily:ff, fontSize:9.5, color:ec,
+                        background:ec+"0e", border:"0.5px solid "+ec+"22",
+                        padding:"2px 8px", borderRadius:20,
+                      }}>{chip}</span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* ── ③ Seasonal Calibration ────────────────────────────── */}
+      {insights.missing.length > 0 && (
+        <div onClick={() => onNavigate("seasonal")} style={{
+          padding:"14px 14px 14px", borderRadius:14, cursor:"pointer",
+          background:"#c4745a07", border:"0.5px solid #c4745a28",
+        }}>
+          <div style={{display:"flex", alignItems:"center",
+            justifyContent:"space-between", marginBottom:10}}>
+            <div style={{display:"flex", alignItems:"center", gap:8}}>
+              <span style={{fontSize:14, color:"#c4745a"}}>◌</span>
+              <div>
+                <div style={{fontSize:8, letterSpacing:2.2, textTransform:"uppercase",
+                  color:"#c4745a80", marginBottom:1}}>Absence</div>
+                <div style={{fontFamily:ff, fontSize:14.5, color:"#3a3028",
+                  fontWeight:500}}>Seasonal Calibration</div>
+              </div>
+            </div>
+            <div style={{width:28, height:28, borderRadius:14,
+              background:"#c4745a14", border:"0.5px solid #c4745a30",
+              display:"flex", alignItems:"center", justifyContent:"center"}}>
+              <span style={{fontSize:15, color:"#c4745a"}}>›</span>
+            </div>
+          </div>
+          <div style={{display:"flex", gap:8, flexWrap:"wrap"}}>
+            {insights.missing.map((m, i) => {
+              const ec = EL_C[m.el];
+              return (
+                <div key={i} style={{display:"flex", alignItems:"center", gap:7,
+                  padding:"7px 10px", borderRadius:8,
+                  background:ec+"07", border:"1px dashed "+ec+"38"}}>
+                  <div style={{
+                    width:22, height:22, borderRadius:6, flexShrink:0,
+                    border:"1px dashed "+ec+"45",
+                    display:"flex", alignItems:"center", justifyContent:"center",
+                  }}>
+                    <ElementIcon el={m.el} color={ec+"65"} size={11}/>
+                  </div>
+                  <div>
+                    <div style={{fontFamily:ff, fontSize:12, color:ec,
+                      fontWeight:500}}>{m.el}</div>
+                    <div style={{fontFamily:ff, fontSize:9.5, color:"#c4745a",
+                      fontStyle:"italic"}}>absent</div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+          <p style={{fontFamily:ff, fontSize:11.5, lineHeight:1.65,
+            color:"#7a6e5a", fontStyle:"italic", margin:"10px 0 0"}}>
+            Shaped by what is not there as much as what arrived.
+          </p>
+        </div>
+      )}
+
+      {/* ── ④ Catalyst + Resistance — 2 separate columns ─────── */}
+      <div style={{display:"flex", gap:9}}>
+
+        {/* Catalyst */}
+        <div onClick={() => onNavigate("catalyst")} style={{
+          flex:1, padding:"13px 11px 13px", borderRadius:14, cursor:"pointer",
+          background:"#7a9e6e07", border:"0.5px solid #7a9e6e28",
+        }}>
+          <div style={{display:"flex", alignItems:"center",
+            justifyContent:"space-between", marginBottom:8}}>
+            <span style={{fontSize:13, color:"#7a9e6e"}}>↑</span>
+            <div style={{width:24, height:24, borderRadius:12,
+              background:"#7a9e6e14", border:"0.5px solid #7a9e6e28",
+              display:"flex", alignItems:"center", justifyContent:"center"}}>
+              <span style={{fontSize:13, color:"#7a9e6e"}}>›</span>
+            </div>
+          </div>
+          <div style={{fontFamily:ff, fontSize:13.5, color:"#3a3028",
+            fontWeight:500, marginBottom:4}}>Catalyst</div>
+          <p style={{fontFamily:ff, fontSize:10.5, lineHeight:1.6,
+            color:"#7a6e5a", fontStyle:"italic", margin:"0 0 10px"}}>
+            Energies that amplify your capacity and sharpen your focus.
+          </p>
+          {(energies.lifts||[]).slice(0,2).map((item, i) => {
+            const ec = EL_C[item.el];
+            return (
+              <div key={i} style={{
+                display:"flex", alignItems:"center", gap:7,
+                padding:"7px 8px", borderRadius:8, marginBottom: i===0 ? 6 : 0,
+                background:ec+"09", border:"0.5px solid "+ec+"22",
+              }}>
+                <div style={{
+                  width:24, height:24, borderRadius:6, flexShrink:0,
+                  background:ec+"18", border:"0.5px solid "+ec+"2a",
+                  display:"flex", alignItems:"center", justifyContent:"center",
+                }}>
+                  <ElementIcon el={item.el} color={ec} size={11}/>
+                </div>
+                <div>
+                  <div style={{fontFamily:ff, fontSize:12, color:ec,
+                    fontWeight:600, lineHeight:1}}>{item.el}</div>
+                  <div style={{fontFamily:ff, fontSize:9.5, color:ec+"70",
+                    marginTop:1}}>{tgEn(getDominantTenGod(item.el, dm.stem, chart.pillars))}</div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Resistance */}
+        <div onClick={() => onNavigate("resistance")} style={{
+          flex:1, padding:"13px 11px 13px", borderRadius:14, cursor:"pointer",
+          background:"#c4745a07", border:"0.5px solid #c4745a28",
+        }}>
+          <div style={{display:"flex", alignItems:"center",
+            justifyContent:"space-between", marginBottom:8}}>
+            <span style={{fontSize:13, color:"#c4745a"}}>↓</span>
+            <div style={{width:24, height:24, borderRadius:12,
+              background:"#c4745a14", border:"0.5px solid #c4745a28",
+              display:"flex", alignItems:"center", justifyContent:"center"}}>
+              <span style={{fontSize:13, color:"#c4745a"}}>›</span>
+            </div>
+          </div>
+          <div style={{fontFamily:ff, fontSize:13.5, color:"#3a3028",
+            fontWeight:500, marginBottom:4}}>Resistance</div>
+          <p style={{fontFamily:ff, fontSize:10.5, lineHeight:1.6,
+            color:"#7a6e5a", fontStyle:"italic", margin:"0 0 10px"}}>
+            Energies that cost you before the work begins.
+          </p>
+          {(energies.depletes||[]).slice(0,2).map((item, i) => {
+            const ec = EL_C[item.el];
+            return (
+              <div key={i} style={{
+                display:"flex", alignItems:"center", gap:7,
+                padding:"7px 8px", borderRadius:8, marginBottom: i===0 ? 6 : 0,
+                background:ec+"09", border:"0.5px solid "+ec+"22",
+              }}>
+                <div style={{
+                  width:24, height:24, borderRadius:6, flexShrink:0,
+                  background:ec+"18", border:"0.5px solid "+ec+"2a",
+                  display:"flex", alignItems:"center", justifyContent:"center",
+                }}>
+                  <ElementIcon el={item.el} color={ec} size={11}/>
+                </div>
+                <div>
+                  <div style={{fontFamily:ff, fontSize:12, color:ec,
+                    fontWeight:600, lineHeight:1}}>{item.el}</div>
+                  <div style={{fontFamily:ff, fontSize:9.5, color:ec+"70",
+                    marginTop:1}}>{tgEn(getDominantTenGod(item.el, dm.stem, chart.pillars))}</div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+      </div>
+    </div>
+  );
+}
+// ── Your Nature detail page ───────────────────────────────────────────────
+function YourNatureDetailPage({ chart, onNavigate }) {
+  const dm       = chart.dayMaster;
+  const color    = EL_C[dm.element];
+  const sections = getSections(chart);
+  const si       = sections.findIndex(s => s.key === "yourNature");
+  return (
+    <DetailShell elColor={color} stepLabel={(si+1) + " of " + sections.length}
+      onBack={() => onNavigate(null)}
+      prev={sections[si-1]||null} next={sections[si+1]||null}
+      onNavigate={onNavigate}>
+      <YourNature chart={chart}/>
+    </DetailShell>
+  );
+}
+
+// ── Energy Blueprint detail page ──────────────────────────────────────────
+function BlueprintDetailPage({ chart, onNavigate }) {
+  const ff       = "'EB Garamond',Georgia,serif";
+  const dm       = chart.dayMaster;
+  const sections = getSections(chart);
+  const si       = sections.findIndex(s => s.key === "blueprint");
+  const sortedEls = Object.entries(chart.elements)
+    .sort(([,a],[,b]) => (b.score||b.count||0) - (a.score||a.count||0))
+    .map(([el]) => el);
+
+  return (
+    <DetailShell elColor="#7a6e5a" stepLabel={(si+1) + " of " + sections.length}
+      onBack={() => onNavigate(null)}
+      prev={sections[si-1]||null} next={sections[si+1]||null}
+      onNavigate={onNavigate}>
+      <div style={{padding:"24px 20px 36px"}}>
+        <div style={{fontSize:8.5, letterSpacing:2.5, textTransform:"uppercase",
+          color:"#8b7a6a", marginBottom:6}}>Energy Blueprint</div>
+        <div style={{fontSize:22, fontFamily:ff, color:"#3a3028", fontWeight:600,
+          marginBottom:8, lineHeight:1.2}}>Your Elemental Composition</div>
+        <p style={{fontFamily:ff, fontSize:13.5, lineHeight:1.85, color:"#6a5f52",
+          fontStyle:"italic", margin:"0 0 24px",
+          borderLeft:"2px solid #d4c9b8", paddingLeft:14}}>
+          Every chart is a landscape. The elements present define the terrain — 
+          what flows naturally, what holds firm, what generates heat.
+          The elements absent shaped you just as much as what arrived.
+        </p>
+        {sortedEls.map(el => {
+          const d       = chart.elements[el];
+          const cnt     = d?.count || 0;
+          const ec      = EL_C[el];
+          const missing = !d?.present;
+          const isDM    = el === dm.element;
+          return (
+            <div key={el} style={{
+              marginBottom:14, padding:"14px 16px", borderRadius:12,
+              background: missing ? "transparent" : ec+"07",
+              border: missing ? "1px dashed "+ec+"35" : "0.5px solid "+ec+"22",
+              opacity: missing ? 0.75 : 1,
+            }}>
+              <div style={{display:"flex", alignItems:"center", gap:12, marginBottom: missing ? 10 : 0}}>
+                <div style={{
+                  width:36, height:36, borderRadius:10, flexShrink:0,
+                  background: missing ? "transparent" : ec+"16",
+                  border: missing ? "1px dashed "+ec+"45" : "0.5px solid "+ec+"30",
+                  display:"flex", alignItems:"center", justifyContent:"center",
+                }}>
+                  <ElementIcon el={el} color={missing ? ec+"55" : ec} size={18}/>
+                </div>
+                <div style={{flex:1}}>
+                  <div style={{fontSize:16, color: missing ? ec+"66" : ec,
+                    fontFamily:ff, fontWeight:600, lineHeight:1.1}}>
+                    {el}{isDM ? <span style={{fontSize:10, marginLeft:5, opacity:0.65}}>✦ Day Master</span> : ""}
+                  </div>
+                  <div style={{fontSize:10, marginTop:2, fontFamily:ff,
+                    color: missing ? "#c4745a" : ec+"75",
+                    fontStyle: missing ? "italic" : "normal"}}>
+                    {missing ? "Absent from chart" : cnt + (cnt === 1 ? " pillar" : " pillars")}
+                  </div>
+                </div>
+                {!missing && (
+                  <div style={{display:"flex", gap:2.5, flexShrink:0}}>
+                    {[...Array(10)].map((_,i) => (
+                      <div key={i} style={{
+                        width:7, height:18, borderRadius:2,
+                        background: i < cnt ? ec : "#e4dfd6",
+                        opacity: i < cnt ? (isDM ? 0.9 : 0.65) : 1,
+                      }}/>
+                    ))}
+                  </div>
+                )}
+              </div>
+              {missing && (
+                <p style={{fontFamily:ff, fontSize:12.5, color:"#7a6e5a",
+                  fontStyle:"italic", lineHeight:1.65, margin:0}}>
+                  An absent element is not a deficit — it is the gap the chart organizes itself around.
+                </p>
+              )}
+            </div>
+          );
+        })}
+      </div>
+    </DetailShell>
+  );
+}
+
+// ── Dominant Energy detail page (handles dom_0 and dom_1) ─────────────────
+function DomDetailPage({ chart, idx, onNavigate }) {
+  const ff       = "'EB Garamond',Georgia,serif";
+  const insights = getElementInsights(chart);
+  const dom      = insights.dominant[idx];
+  if (!dom) return null;
+  const ec       = EL_C[dom.el];
+  const sections = getSections(chart);
+  const secKey   = "dom_" + idx;
+  const si       = sections.findIndex(s => s.key === secKey);
+
+  return (
+    <DetailShell elColor={ec} stepLabel={(si+1) + " of " + sections.length}
+      onBack={() => onNavigate(null)}
+      prev={sections[si-1]||null} next={sections[si+1]||null}
+      onNavigate={onNavigate}>
+      <div style={{padding:"24px 20px 36px"}}>
+        <div style={{fontSize:8.5, letterSpacing:2.5, textTransform:"uppercase",
+          color:ec+"80", marginBottom:8}}>
+          {idx === 0 ? "Dominant Energy" : "Second Dominant"}
+        </div>
+        <div style={{display:"flex", alignItems:"center", gap:14, marginBottom:22}}>
+          <div style={{
+            width:56, height:56, borderRadius:15, flexShrink:0,
+            background:ec+"18", border:"1.5px solid "+ec+"38",
+            display:"flex", alignItems:"center", justifyContent:"center",
+          }}>
+            <ElementIcon el={dom.el} color={ec} size={28}/>
+          </div>
+          <div>
+            <div style={{fontSize:22, color:ec, fontFamily:ff,
+              fontWeight:600, lineHeight:1.1}}>{dom.el}</div>
+            <div style={{fontSize:11.5, color:ec+"70", fontFamily:ff, marginTop:4}}>
+              {tgEn(dom.tenGod)} · {idx === 0 ? "Primary" : "Secondary"} influence
+            </div>
+          </div>
+        </div>
+        <p style={{fontFamily:ff, fontSize:14.5, lineHeight:1.85,
+          color:"#3a3028", margin:"0 0 22px"}}>{dom.line}</p>
+        {dom.guidance && (
+          <div style={{padding:"16px", borderRadius:10,
+            background:ec+"08", border:"0.5px solid "+ec+"22", marginBottom:22}}>
+            <div style={{fontSize:8.5, letterSpacing:2, textTransform:"uppercase",
+              color:ec+"65", marginBottom:8}}>Guidance</div>
+            <p style={{fontFamily:ff, fontSize:13.5, lineHeight:1.75,
+              color:"#5a4f43", fontStyle:"italic", margin:0}}>{dom.guidance}</p>
+          </div>
+        )}
+        {dom.keywords && dom.keywords.length > 0 && (
+          <div>
+            <div style={{fontSize:8.5, letterSpacing:2, textTransform:"uppercase",
+              color:ec+"65", marginBottom:10}}>Keywords</div>
+            <div style={{display:"flex", flexWrap:"wrap", gap:7}}>
+              {dom.keywords.map((kw,i) => (
+                <span key={i} style={{
+                  fontFamily:ff, fontSize:12.5, color:ec,
+                  background:ec+"10", border:"0.5px solid "+ec+"28",
+                  padding:"4px 12px", borderRadius:20,
+                }}>{kw}</span>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </DetailShell>
+  );
+}
+
+// ── Seasonal Calibration detail page ─────────────────────────────────────
+function SeasonalDetailPage({ chart, onNavigate }) {
+  const ff       = "'EB Garamond',Georgia,serif";
+  const insights = getElementInsights(chart);
+  const sections = getSections(chart);
+  const si       = sections.findIndex(s => s.key === "seasonal");
+
+  return (
+    <DetailShell elColor="#c4745a" stepLabel={(si+1) + " of " + sections.length}
+      onBack={() => onNavigate(null)}
+      prev={sections[si-1]||null} next={sections[si+1]||null}
+      onNavigate={onNavigate}>
+      <div style={{padding:"24px 20px 36px"}}>
+        <div style={{fontSize:8.5, letterSpacing:2.5, textTransform:"uppercase",
+          color:"#c4745a80", marginBottom:6}}>Seasonal Calibration</div>
+        <div style={{fontSize:22, fontFamily:ff, color:"#3a3028", fontWeight:600,
+          marginBottom:8, lineHeight:1.2}}>
+          The Absent Element{insights.missing.length > 1 ? "s" : ""}
+        </div>
+        <p style={{fontFamily:ff, fontSize:13.5, lineHeight:1.85, color:"#6a5f52",
+          fontStyle:"italic", margin:"0 0 24px",
+          borderLeft:"2px solid #c4745a35", paddingLeft:14}}>
+          What is absent from a chart is not what is lacking in the person — 
+          it is the dimension shaped by pressure rather than presence.
+          The chart bends around these gaps.
+        </p>
+        {insights.missing.map((m, i) => {
+          const ec = EL_C[m.el];
+          return (
+            <div key={i} style={{
+              marginBottom:16, padding:"16px", borderRadius:12,
+              border:"1px dashed "+ec+"45", background:ec+"04",
+            }}>
+              <div style={{display:"flex", alignItems:"center", gap:12, marginBottom:12}}>
+                <div style={{
+                  width:40, height:40, borderRadius:10, flexShrink:0,
+                  border:"1px dashed "+ec+"45",
+                  display:"flex", alignItems:"center", justifyContent:"center",
+                }}>
+                  <ElementIcon el={m.el} color={ec+"55"} size={20}/>
+                </div>
+                <div>
+                  <div style={{fontSize:17, color:ec, fontFamily:ff,
+                    fontWeight:600, lineHeight:1.1}}>{m.el}</div>
+                  <div style={{fontSize:10, color:"#c4745a", fontFamily:ff,
+                    marginTop:2, fontStyle:"italic"}}>Absent from chart</div>
+                </div>
+              </div>
+              {m.guidance && (
+                <p style={{fontFamily:ff, fontSize:13.5, lineHeight:1.75,
+                  color:"#5a4f43", margin:0}}>{m.guidance}</p>
+              )}
+            </div>
+          );
+        })}
+      </div>
+    </DetailShell>
+  );
+}
+
+// ── Catalyst & Resistance detail page ────────────────────────────────────
+function CatalystDetailPage({ chart, onNavigate }) {
+  const ff       = "'EB Garamond',Georgia,serif";
+  const dm       = chart.dayMaster;
+  const band     = getEnergyBand(dm.strength);
+  const energies = ELEMENT_ENERGIES[dm.stem]?.[band] || { lifts:[], depletes:[] };
+  const sections = getSections(chart);
+  const si       = sections.findIndex(s => s.key === "catalyst");
+
+  return (
+    <DetailShell elColor="#7a9e6e" stepLabel={(si+1) + " of " + sections.length}
+      onBack={() => onNavigate(null)}
+      prev={sections[si-1]||null} next={sections[si+1]||null}
+      onNavigate={onNavigate}>
+      <div style={{padding:"24px 20px 36px"}}>
+        <div style={{fontSize:8.5, letterSpacing:2.5, textTransform:"uppercase",
+          color:"#7a9e6e80", marginBottom:6}}>Catalyst</div>
+        <div style={{fontSize:22, fontFamily:ff, color:"#3a3028", fontWeight:600,
+          marginBottom:8, lineHeight:1.2}}>What Lifts You</div>
+        <p style={{fontFamily:ff, fontSize:13.5, lineHeight:1.85, color:"#6a5f52",
+          fontStyle:"italic", margin:"0 0 24px",
+          borderLeft:"2px solid #7a9e6e35", paddingLeft:14}}>
+          These energies amplify your capacity. In their presence, your focus sharpens,
+          your reserves feel fuller, and things that ordinarily cost effort become available.
+          They do not remove challenge — they make you more capable of meeting it.
+        </p>
+        {(energies.lifts||[]).map((item, i) => {
+          const ec = EL_C[item.el];
+          const tg = getDominantTenGod(item.el, dm.stem, chart.pillars);
+          return (
+            <div key={i} style={{padding:"14px 16px", borderRadius:12, marginBottom:12,
+              background:ec+"07", border:"0.5px solid "+ec+"22"}}>
+              <div style={{display:"flex", alignItems:"center", gap:12,
+                marginBottom: item.line ? 10 : 0}}>
+                <div style={{width:40, height:40, borderRadius:10, flexShrink:0,
+                  background:ec+"18", border:"0.5px solid "+ec+"32",
+                  display:"flex", alignItems:"center", justifyContent:"center"}}>
+                  <ElementIcon el={item.el} color={ec} size={20}/>
+                </div>
+                <div style={{flex:1}}>
+                  <div style={{fontSize:16, color:ec, fontFamily:ff,
+                    fontWeight:600, lineHeight:1.1}}>{item.el}</div>
+                  <div style={{fontSize:10.5, color:ec+"75", fontFamily:ff,
+                    marginTop:2}}>{tgEn(tg)}</div>
+                </div>
+                <div style={{padding:"4px 10px", borderRadius:20,
+                  background:"#7a9e6e18", border:"0.5px solid #7a9e6e38"}}>
+                  <span style={{fontFamily:ff, fontSize:9.5, letterSpacing:1,
+                    textTransform:"uppercase", color:"#7a9e6e"}}>Catalyst</span>
+                </div>
+              </div>
+              {item.line && (
+                <p style={{fontFamily:ff, fontSize:13, lineHeight:1.75,
+                  color:"#5a4f43", margin:0, fontStyle:"italic"}}>{item.line}</p>
+              )}
+            </div>
+          );
+        })}
+      </div>
+    </DetailShell>
+  );
+}
+
+function ResistanceDetailPage({ chart, onNavigate }) {
+  const ff       = "'EB Garamond',Georgia,serif";
+  const dm       = chart.dayMaster;
+  const band     = getEnergyBand(dm.strength);
+  const energies = ELEMENT_ENERGIES[dm.stem]?.[band] || { lifts:[], depletes:[] };
+  const sections = getSections(chart);
+  const si       = sections.findIndex(s => s.key === "resistance");
+
+  return (
+    <DetailShell elColor="#c4745a" stepLabel={(si+1) + " of " + sections.length}
+      onBack={() => onNavigate(null)}
+      prev={sections[si-1]||null} next={sections[si+1]||null}
+      onNavigate={onNavigate}>
+      <div style={{padding:"24px 20px 36px"}}>
+        <div style={{fontSize:8.5, letterSpacing:2.5, textTransform:"uppercase",
+          color:"#c4745a80", marginBottom:6}}>Resistance</div>
+        <div style={{fontSize:22, fontFamily:ff, color:"#3a3028", fontWeight:600,
+          marginBottom:8, lineHeight:1.2}}>What Depletes You</div>
+        <p style={{fontFamily:ff, fontSize:13.5, lineHeight:1.85, color:"#6a5f52",
+          fontStyle:"italic", margin:"0 0 24px",
+          borderLeft:"2px solid #c4745a35", paddingLeft:14}}>
+          These energies are not opponents — they are costs. In their presence, your
+          reserve drains faster, effort increases before the work has begun, and
+          the same output requires more from you than it ordinarily would.
+          Knowing them is not about avoidance. It is about accurate accounting.
+        </p>
+        {(energies.depletes||[]).map((item, i) => {
+          const ec = EL_C[item.el];
+          const tg = getDominantTenGod(item.el, dm.stem, chart.pillars);
+          return (
+            <div key={i} style={{padding:"14px 16px", borderRadius:12, marginBottom:12,
+              background:ec+"07", border:"0.5px solid "+ec+"22"}}>
+              <div style={{display:"flex", alignItems:"center", gap:12,
+                marginBottom: item.line ? 10 : 0}}>
+                <div style={{width:40, height:40, borderRadius:10, flexShrink:0,
+                  background:ec+"18", border:"0.5px solid "+ec+"32",
+                  display:"flex", alignItems:"center", justifyContent:"center"}}>
+                  <ElementIcon el={item.el} color={ec} size={20}/>
+                </div>
+                <div style={{flex:1}}>
+                  <div style={{fontSize:16, color:ec, fontFamily:ff,
+                    fontWeight:600, lineHeight:1.1}}>{item.el}</div>
+                  <div style={{fontSize:10.5, color:ec+"75", fontFamily:ff,
+                    marginTop:2}}>{tgEn(tg)}</div>
+                </div>
+                <div style={{padding:"4px 10px", borderRadius:20,
+                  background:"#c4745a18", border:"0.5px solid #c4745a38"}}>
+                  <span style={{fontFamily:ff, fontSize:9.5, letterSpacing:1,
+                    textTransform:"uppercase", color:"#c4745a"}}>Resistance</span>
+                </div>
+              </div>
+              {item.line && (
+                <p style={{fontFamily:ff, fontSize:13, lineHeight:1.75,
+                  color:"#5a4f43", margin:0, fontStyle:"italic"}}>{item.line}</p>
+              )}
+            </div>
+          );
+        })}
+      </div>
+    </DetailShell>
+  );
+}
+
+
 function PaywallModal({ onClose, onUpgrade, onSelfReport }) {
   const ff = "'EB Garamond',Georgia,serif";
   const ffC = "'Cormorant Garamond',Georgia,serif";
@@ -5540,6 +6528,7 @@ export default function App() {
   const [loading, setLoading]   = useState(false);
   const [error, setError]       = useState(null);
   const [tab, setTab]           = useState("reading");
+  const [page, setPage]         = useState(null);   // null=report overview, "yourNature", "dom_0", "dom_1"
   const [showForm, setShowForm] = useState(true);
   const [userTier, setUserTier] = useState(TIERS.FREE);
   const [hasSelfReport, setHasSelfReport] = useState(false);
@@ -5553,7 +6542,7 @@ export default function App() {
       setError("Please fill in all fields."); return;
     }
     setLoading(true); setError(null); setShowForm(false);
-    setReading(null); setChart(null); setExpansionCount(0);
+    setReading(null); setChart(null); setExpansionCount(0); setPage(null);
     try {
       const computed = calculateBaziChart(input);
       setChart(computed);
@@ -5581,7 +6570,7 @@ export default function App() {
   async function handleTierChange(newTier) {
     setUserTier(newTier);
     if (!chart) return;
-    setLoading(true); setError(null); setExpansionCount(0);
+    setLoading(true); setError(null); setExpansionCount(0); setPage(null);
     try {
       const generated = await generateReading(chart, newTier, (full)=>setReading({...full}));
       setReading(generated);
@@ -5759,13 +6748,34 @@ export default function App() {
           {/* Reading tab */}
           {tab==="reading" && (
             <div className="fade">
-              {/* ① Day Master Hero — full screen identity card */}
+              {/* ① Day Master Hero — always visible identity card */}
               <DayMasterHero chart={chart} onOpenPopup={t => setPopup(t)}/>
 
-              {/* ② Your Elemental Nature */}
-              <div style={{padding:"0 20px 80px"}}>
-                <YourNature chart={chart}/>
-              </div>
+              {/* ② Energy Map — catalogue home or section detail */}
+              {page === null && (
+                <EnergyMapMenu chart={chart} onNavigate={p => setPage(p)}/>
+              )}
+              {page === "yourNature" && (
+                <YourNatureDetailPage chart={chart} onNavigate={p => setPage(p)}/>
+              )}
+              {page === "blueprint" && (
+                <BlueprintDetailPage chart={chart} onNavigate={p => setPage(p)}/>
+              )}
+              {page && page.startsWith("dom_") && (
+                <DomDetailPage
+                  chart={chart}
+                  idx={parseInt(page.split("_")[1])}
+                  onNavigate={p => setPage(p)}/>
+              )}
+              {page === "seasonal" && (
+                <SeasonalDetailPage chart={chart} onNavigate={p => setPage(p)}/>
+              )}
+              {page === "catalyst" && (
+                <CatalystDetailPage chart={chart} onNavigate={p => setPage(p)}/>
+              )}
+              {page === "resistance" && (
+                <ResistanceDetailPage chart={chart} onNavigate={p => setPage(p)}/>
+              )}
             </div>
           )}
 
@@ -5869,4 +6879,22 @@ export default function App() {
             {[{id:"reading",label:"Reading",zh:"命"},{id:"decades",label:"Chapter",zh:"运"},{id:"today",label:"Today",zh:"今"}].map(t=>(
               <button key={t.id} onClick={()=>setTab(t.id)} style={{flex:1,padding:"8px 6px 4px",background:"transparent",border:"none",cursor:"pointer",borderTop:tab===t.id?`1.5px solid ${C.accentDark}`:"1.5px solid transparent",transition:"all 0.2s"}}>
                 <div style={{fontFamily:"'Noto Serif SC',Georgia,serif",fontSize:15,color:tab===t.id?C.accentDark:C.textTer,lineHeight:1,marginBottom:2}}>{t.zh}</div>
-                <div style={{fontFamily:"'Cormorant Garamond',G
+                <div style={{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:10,color:tab===t.id?C.accentDark:C.textTer,letterSpacing:0.5}}>{t.label}</div>
+              </button>
+            ))}
+          </div>
+        )}
+
+        {/* Popup overlay */}
+        {popup && (
+          <HeroPopupOverlay popup={popup} chart={chart} onClose={()=>setPopup(null)}/>
+        )}
+
+        {/* Paywall modal */}
+        {showPaywall && (
+          <PaywallModal onClose={()=>setShowPaywall(false)} onUpgrade={()=>{setShowPaywall(false);handleTierChange(TIERS.SEEKER);}} onSelfReport={()=>{setShowPaywall(false);if(userTier>=TIERS.SEEKER)setHasSelfReport(true);else{handleTierChange(TIERS.SEEKER);setHasSelfReport(true);}}}/>
+        )}
+      </div>{/* end phone frame */}
+    </div>
+  );
+}

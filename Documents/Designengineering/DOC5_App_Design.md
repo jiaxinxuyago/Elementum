@@ -144,6 +144,21 @@ Section labels are always: uppercase · EB Garamond · 10–11px · letter-spaci
 
 Example: `"YOUR ELEMENTAL NATURE"` — this is the standard eyebrow format.
 
+#### Reading page section label standard (locked)
+
+All section label headings within the Elemental Nature reading page (and any future reading pages) must follow this exact spec — no exceptions:
+
+| Property | Value |
+|---|---|
+| Font | EB Garamond |
+| Size | 10px |
+| Letter spacing | 2.5px |
+| Transform | uppercase |
+| Color | element color at 80% opacity (`${color}80`) |
+| Margin bottom | 14px |
+
+**Applies to:** "THE ELEMENT", "YOUR NATURE", and all future section labels within reading page cards. This ensures visual consistency as the reading system scales to more sections and all 10 stems.
+
 ---
 
 ## §4 — Motion System
@@ -792,21 +807,43 @@ The hint pulses gently (`opacity: 0.6 → 1.0 → 0.6`, 2s cycle) to signal inte
 
 **Your Elemental Nature card:**
 
+Fills the full phone viewport (minHeight: 728px). Four layers stacked vertically; Layer 4 pins to the bottom with `marginTop: auto`.
+
+**Layer 0 — "The Element" block** (world-building, always shown, always free):
+
 ```
 ┌──────────────────────────────────────────┐
-│  YOUR ELEMENTAL NATURE (10px uppercase)  │
+│  THE ELEMENT  (9px s-caps)              │
 │                                          │
-│  [Element icon 24px]  Overpowering       │
-│                       Self-generating    │
-│                       Channel & Release  │
+│  "The Blade is the ancient cutting       │  ← punch: element color, 15.5px, weight 500
+│   force of Metal."                       │
 │                                          │
-│  "The evaluation runs before you decide  │
-│   to evaluate — it starts the moment     │
-│   you walk in..."                        │
+│  "Sharp without announcement, cold       │  ← expand: deep warm body, 13.5px
+│   without cruelty — it carries in a      │
+│   person the stillness of something      │
+│   that has already decided."             │
+│                                [SVG ↗]  │  ← stem illustration, right-aligned, centered
+└──────────────────────────────────────────┘
+```
+
+- Data source: `archetypeSource.js` → `identity.elementIntro.{punch, expand}`
+- SVG: stem-specific archetype illustration (non-iconic angle — see §20 Asset Library). For 庚: top-down face view of the blade showing fuller grooves, cross-guard, and tang.
+- Neither sentence uses "you". Register: world-building / game lore / elemental force description.
+- Word limits: punch 9–12 words · expand 16–20 words. See DOC7 §3 for authoring spec.
+
+**Layers 1–4 — Energy condition reading:**
+
+```
+┌──────────────────────────────────────────┐
+│  YOUR NATURE · THE BLADE  (9px s-caps)  │
+│                                          │
+│  [psychCore desc — 2 sentences]          │
 │  ─────────────────────────────           │
-│  Channel & Release — "This energy needs  │
-│   outlets: expression, challenge,        │
-│   friction."                             │
+│  "pull quote from experience block"      │
+│  ─────────────────────────────           │
+│  [Yang col]        [Yin col]             │
+│  ─────────────────────────────           │
+│  There's a specific condition that...  › │  ← Layer 4 pinned to bottom
 └──────────────────────────────────────────┘
 ```
 

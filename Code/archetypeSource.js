@@ -61,9 +61,9 @@ export const STEM_CARD_DATA = {
 
     subtitle: `Forward motion as structure, not ambition · The Growth Impulse (Yang)`,
     chips: ["Visionary", "Initiating", "Growth-driven", "Integrity-bound", "Consolidation-resistant"],
-    psychCore: {
+    yourNature: {
       phrase: `The Vanguard General`,  // [INTERNAL — not rendered in UI]
-      desc: `You're always the first to see where something could go — and you start moving toward it before anyone else has decided whether to begin. You build things that outlast you, but you're usually already thinking about the next thing before the current one is done.`,
+      desc: `You're always the first to see where something could go — and you start moving toward it before anyone else has decided whether to begin. You build things that outlast you, but you're usually already thinking about the next thing before the current one is done.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
     blocks: [
       {
@@ -148,9 +148,9 @@ There's also a specific interpersonal cost: people who care about them often fee
 
     subtitle: `Navigation as intelligence, not accommodation · The Growth Impulse (Yin)`,
     chips: ["Adaptive", "Strategically perceptive", "Resilient", "Destination-fixed", "Coiling intelligence"],
-    psychCore: {
+    yourNature: {
       phrase: `The Shadow Diplomat`,  // [INTERNAL — not rendered in UI]
-      desc: `You always find a way through — not by pushing harder, but by reading the room and finding the opening no one else noticed. Your destination never changes; only the path you take to get there.`,
+      desc: `You always find a way through — not by pushing harder, but by reading the room and finding the opening no one else noticed. Your destination never changes; only the path you take to get there.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
     blocks: [
       {
@@ -233,9 +233,9 @@ There's also a specific interpersonal cost: people who care about them often fee
 
     subtitle: `Warmth as structural property, not personality trait · The Visibility Impulse (Yang)`,
     chips: ["Radiant", "Generative", "Involuntarily warm", "Invisibly depleting", "Trust-creating"],
-    psychCore: {
+    yourNature: {
       phrase: `The Court Herald`,  // [INTERNAL — not rendered in UI]
-      desc: `You walk into a room and people feel more at ease, more energized, more capable — without you trying to make that happen. The cost is that you give it constantly and almost never get asked if you're okay.`,
+      desc: `You walk into a room and people feel more at ease, more energized, more capable — without you trying to make that happen. The cost is that you give it constantly and almost never get asked if you're okay.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
     blocks: [
       {
@@ -318,9 +318,9 @@ There's also a specific interpersonal cost: people who care about them often fee
 
     subtitle: `Complete illumination of exactly what it's pointed at · The Visibility Impulse (Yin)`,
     chips: ["Precise", "Intimate", "Selectively warm", "Detail-sensitive", "Flickering under depletion"],
-    psychCore: {
+    yourNature: {
       phrase: `The Imperial Examiner`,  // [INTERNAL — not rendered in UI]
-      desc: `When your attention is fully on someone, they feel completely seen — understood at a level they rarely experience. But you can only truly light up one thing at a time, and everything else goes dark.`,
+      desc: `When your attention is fully on someone, they feel completely seen — understood at a level they rarely experience. But you can only truly light up one thing at a time, and everything else goes dark.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
     blocks: [
       {
@@ -405,9 +405,9 @@ There's also an investment asymmetry that accumulates: the Candle gives the full
 
     subtitle: `The ground others orient by without naming · The Stability Impulse (Yang)`,
     chips: ["Grounding", "Load-bearing", "Change-resistant", "Silently accumulating", "Orientation-providing"],
-    psychCore: {
+    yourNature: {
       phrase: `The Mountain Warden`,  // [INTERNAL — not rendered in UI]
-      desc: `You're the person everyone builds their plans around — steady, reliable, there when things shake. The part no one sees is how much you're actually holding, because you never let it show.`,
+      desc: `You're the person everyone builds their plans around — steady, reliable, there when things shake. The part no one sees is how much you're actually holding, because you never let it show.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
     blocks: [
       {
@@ -492,9 +492,9 @@ There's also a slow accumulation of unspoken costs. The Mountain absorbs a great
 
     subtitle: `Growing things in others without announcing it · The Stability Impulse (Yin)`,
     chips: ["Nurturing", "Developmentally attuned", "Invisibly depleting", "Overcultivating", "Responsive"],
-    psychCore: {
+    yourNature: {
       phrase: `The Palace Gardener`,  // [INTERNAL — not rendered in UI]
-      desc: `You help others grow without making a thing out of it — quietly creating the conditions for people to become better versions of themselves. The problem is you give more than you get back, and it takes longer than it should to notice.`,
+      desc: `You help others grow without making a thing out of it — quietly creating the conditions for people to become better versions of themselves. The problem is you give more than you get back, and it takes longer than it should to notice.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
     blocks: [
       {
@@ -575,6 +575,15 @@ There's also a slow accumulation of unspoken costs. The Mountain absorbs a great
       //   Element badge  → dm.element  = "Metal"           → taps open element popup
       //   Stem badge     → dm.stem     = "庚"  + "Gēng"   → taps open Day Master popup
       //   Polarity badge → dm.polarity = "yang" → "Yang"   → taps open Yin/Yang popup
+
+      // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person.
+      // Two sentences. punch: 9–12 words, declarative codex register, classical source grounding.
+      // expand: 16–20 words, adjective-rich, describes the vibe/presence of someone carrying this energy.
+      // Neither sentence uses "you". Register: game lore / fantasy codex / elemental force description.
+      elementIntro: {
+        punch:  `The Blade is the ancient cutting force of Metal.`,
+        expand: `Sharp without announcement, cold without cruelty — it carries in a person the stillness of something that has already decided.`,
+      },
     },
 
     // ═══════════════════════════════════════════════════════════════════
@@ -586,9 +595,9 @@ There's also a slow accumulation of unspoken costs. The Mountain absorbs a great
     chips: ["Evaluative", "Uncompromising", "Precision-first", "Self-sufficient", "Justice-oriented"],
 
     // PSYCHCORE — phrase = archetype identity; desc = 2nd person portrait (2–3 sentences, displayed FREE)
-    psychCore: {
+    yourNature: {
       phrase: `The Imperial Executioner`,  // [INTERNAL — not rendered in UI]
-      desc: `You read every room before you enter it — the assessment runs automatically, before you've decided to begin. People trust you because you're always honest, but they often find you hard to get close to.`,
+      desc: `The most honest person in any room, often the most alone in it. Precision arrives before warmth does — people lean on the edge and rarely find what's behind it.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
 
     // GIFTS & SHADOWS — phrase [FREE] · desc [FREE · one sharp sentence, distinct angle]
@@ -906,9 +915,9 @@ The 2 AM version: "I know what I am. I still don't know what I'm for." The Forgi
 
     subtitle: `Quality perceived as temperature — before the question forms · The Definition Impulse (Yin)`,
     chips: ["Discerning", "Aesthetically precise", "Perfectionist", "Exacting", "Distance through refinement"],
-    psychCore: {
+    yourNature: {
       phrase: `The Jade Appraiser`,  // [INTERNAL — not rendered in UI]
-      desc: `You sense whether something is genuinely excellent the way others sense whether a room is cold — automatically, before thinking about it. You produce work of real quality, but the same standard that makes you exceptional never quite lets you feel done.`,
+      desc: `You sense whether something is genuinely excellent the way others sense whether a room is cold — automatically, before thinking about it. You produce work of real quality, but the same standard that makes you exceptional never quite lets you feel done.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
     blocks: [
       {
@@ -991,9 +1000,9 @@ The 2 AM version: "I know what I am. I still don't know what I'm for." The Forgi
 
     subtitle: `More beneath the surface than is ever shown · The Intelligence Impulse (Yang)`,
     chips: ["Expansive", "Systemic", "Depth-witholding", "Untranslatable", "Ambition without edges"],
-    psychCore: {
+    yourNature: {
       phrase: `The River Cartographer`,  // [INTERNAL — not rendered in UI]
-      desc: `You process things at a depth most people in the room aren't reaching, and you carry more beneath the surface than you ever show. The hard part is the gap between how deep you actually think and what you can get the room to understand.`,
+      desc: `You process things at a depth most people in the room aren't reaching, and you carry more beneath the surface than you ever show. The hard part is the gap between how deep you actually think and what you can get the room to understand.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
     blocks: [
       {
@@ -1078,9 +1087,9 @@ Most exchanges happen at a shallower level than where the Ocean operates. This p
 
     subtitle: `Knows what is true before it is spoken · The Intelligence Impulse (Yin)`,
     chips: ["Attuned", "Psychically permeable", "Absorbing", "Specifically nourishing", "Lost in own fog"],
-    psychCore: {
+    yourNature: {
       phrase: `The Court Oracle`,  // [INTERNAL — not rendered in UI]
-      desc: `You know what's true in a room before anyone says it out loud — the feeling arrives before the reasoning does. The difficult part is that you absorb what everyone around you is feeling, and it can be hard to tell what's yours and what isn't.`,
+      desc: `You know what's true in a room before anyone says it out loud — the feeling arrives before the reasoning does. The difficult part is that you absorb what everyone around you is feeling, and it can be hard to tell what's yours and what isn't.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
     blocks: [
       {
@@ -1797,148 +1806,14 @@ export const CLASSICAL_STEM_ANCHORS = {
     principle:   "丙火乃太阳之火，普照万物，无所偏私",
     translation: "Yang Fire is the fire of the great sun — it illuminates ten thousand things without choosing which ones.",
     source:      "三命通会 十干体象 / 穷通宝鉴",
-    derivation:  "The warmth does not choose what it reaches. Illumination is structural, not selective. The gift and the cost are the same thing: the giving is genuine and automatic, which means neither the giving nor the depletion registers as a choice from the inside. The interior question: being the source of warmth for everyone in a room and then finding oneself genuinely alone at the end of the gathering.",
-    ceiling:     2,
-  },
-
-  // ── Yin Fire ─────────────────────────────────────────────────────────────
-  "丁": {
-    principle:   "丁火内蕴，有时如灯烛之明，有时如炉中炼金之火",
-    translation: "丁 Fire is contained within — at times the clarity of the lamp, at times the refining forge for precious metal.",
-    source:      "三命通会 十干体象 / 穷通宝鉴",
-    derivation:  "丁 illuminates completely what it has chosen to illuminate. What falls outside the focused beam is genuinely dark for this person — not hidden, simply not pointed at. The classical forge-fire role adds precision: 丁 does not just illuminate, it transforms what it contacts through sustained, focused heat. The shadow: the sustained focus that produces genuine depth also produces a threshold for everything that doesn't meet the standard for that depth.",
-    ceiling:     2,
-  },
-
-  // ── Yang Earth ───────────────────────────────────────────────────────────
-  "戊": {
-    principle:   "戊无水则燥 / 春土无火则寒",
-    translation: "Earth without Water becomes arid. Spring Earth without Fire remains cold.",
-    source:      "穷通宝鉴 — climate adjustment conditionals",
-    derivation:  "Apply only the clause matching the chart's catalyst condition. Arid version (Water catalyst): the Mountain holds, structurally intact, but nothing grows on it — present, proven, producing nothing. Cold version (Fire catalyst): solid, holding, waiting for the warmth that activates what the stability was built to hold. Do not combine both clauses for the same key.",
-    ceiling:     2,
-    conditionality: "catalyst-conditional — Water vs. Fire clause applies to different charts. Check the chart's catalyst element before applying.",
-  },
-
-  // ── Yin Earth ────────────────────────────────────────────────────────────
-  "己": {
-    principle:   "己土湿润，滋生万物；己土过湿则混浊",
-    translation: "己 Earth is moist and fertile — nourishes the ten thousand things. Excess moisture turns fertile soil to mud.",
-    source:      "三命通会 十干体象 / 穷通宝鉴",
-    derivation:  "The nourishment is genuine and continuous. What己 does for others is not a strategy — it happens at the structural level, the way fertile ground grows things. The shadow: 己土混浊 — when the absorbing quality takes in more than can be processed, the fertility becomes muddy and loses its nourishing power. The depletion does not announce itself because the giving never registered as effort.",
-    ceiling:     2,
-  },
-
-  // ── Yang Metal ───────────────────────────────────────────────────────────
-  "庚": {
-    principle:   "金逢火炼方成器 / 金逢火炼方显锋芒",
-    translation: "Metal meeting the tempering of Fire becomes an instrument. Metal meeting Fire reveals its sharp edge.",
-    source:      "穷通宝鉴 — Metal stem conditionals",
-    derivation:  "素材 (raw material with full capability, unspecified as to purpose) vs. 成器 (an instrument shaped toward a specific function). Fire does not add capability — it specifies what the precision is for. The edge was already real before the encounter; Fire changes manifest specificity, not the underlying capability. Relief is not 'becoming capable' — it is the precision finding a direction it fully believes in.",
+    derivation:  "The warmth is not directed — it is structural. 丙 does not choose what to illuminate; the illumination is what it does. Everything in its field becomes visible, including things people would prefer to leave in the dark. Classical texts note 丙火之明 (the illuminating clarity of Yang Fire): the light reveals rather than evaluates, which is both its gift (no pretense survives it) and its shadow (no privacy survives it either). The twoAM: 'I light up every room I'm in. I don't know why that isn't enough for anyone to stay.'",
     ceiling:     3,
   },
 
-  // ── Yin Metal ────────────────────────────────────────────────────────────
-  "辛": {
-    principle:   "辛金性柔，须见丙火照耀，方能光彩夺目",
-    translation: "辛 Metal is refined and yielding — it requires 丙 Fire's illumination to reveal the full brilliance.",
-    source:      "穷通宝鉴 — Metal stem conditionals",
-    derivation:  "The Jewel holds value within itself — but its full brilliance requires both the refining encounter and the protective setting that holds what is revealed. Without the setting, the heat risks damage rather than revelation. The specific interior quality: the discernment that perceives excellence registers what falls short with equal precision. The standard is structurally on, for everything, including the self.",
-    ceiling:     2,
-  },
+  // ── [丁 through 癸 entries: TODO — see DOC7 §3 classical source table for grounding material] ──
 
-  // ── Yang Water ───────────────────────────────────────────────────────────
-  "壬": {
-    principle:   "壬水奔流，无土则泄",
-    translation: "Yang Water flows powerfully — without Earth banks it becomes runoff, dispersing without reaching anything.",
-    source:      "穷通宝鉴 / 三命通会 十干体象",
-    derivation:  "Apply only when tgPattern = forging (Earth as dominant element). The intelligence without containing structure ranges everywhere simultaneously and reaches nothing specifically. The banks do not diminish the Ocean — they give it direction and make it navigable. Without them: the vastness that is genuinely impressive from outside produces the interior experience of always moving and never arriving.",
-    ceiling:     2,
-    conditionality: "forging-pattern conditional — applies when Earth is the controlling force. Do not apply to other tgPattern values.",
-  },
-
-  // ── Yin Water ────────────────────────────────────────────────────────────
-  "癸": {
-    principle:   "癸水如雨露，无处不至，渗透滋润",
-    translation: "癸 Water like rain and dew — reaches everywhere without directing itself, permeates and nourishes without announcing.",
-    source:      "穷通宝鉴 / 三命通会 十干体象",
-    derivation:  "The perception is pervasive and unconscious — 癸 knows what is true before reasoning toward it. The permeability that makes this possible also makes it difficult to distinguish what the person feels from what they've absorbed from those around them. The specific interior experience: the room's emotional state enters without permission. The gift (sensing what is true before it is spoken) and the cost (absorbing what should pass through) are the same structural fact.",
-    ceiling:     2,
-  },
 };
 
-
-// ═══════════════════════════════════════════════════════════════════════════
-// CLASSICAL_TG_ANCHORS
-// Classical source principles for all 10 Ten Gods.
-// Source: 子平真诠, 滴天髓 (任铁樵), 三命通会 — see DOC3 §2 for derivations.
-//
-// Usage: Inject into buildAnglePrompt() in batchGenerate.js to give
-//   generation the classical behavioral anchor behind each TG relationship.
-//
-// Hard ceiling per DOC3: max 2 behavioral claims per polarity per entry.
-// ═══════════════════════════════════════════════════════════════════════════
-
-// [INTERNAL · verification only — never served to users]
-// [INTERNAL · verification only — never served to users]
-export const CLASSICAL_TG_ANCHORS = {
-
-  "比肩": {
-    principle:   "身旺比劫旺，自立独行，难于合作",
-    translation: "When the self is strong and 比肩 amplifies it — independent and self-directing, collaboration is structurally difficult.",
-    source:      "三命通会 / 滴天髓 (任铁樵) — DM strength dynamics",
-    derivation:  "Self-amplification without counterpoint produces a complete internal system. The completeness is genuine — not defensiveness, not ego. The specific loneliness: surrounded by people engaging with the surface while the interior runs at full depth with nothing to meet it. The gift and the shadow are structurally identical: the same self-sufficiency that produces extraordinary self-consistency is what makes genuine peers necessary and rare.",
-    ceiling:     2,
-    pairNote:    "比肩 is internal amplification; 劫财 is external lateral comparison. Not degrees of the same thing — categorically different orientations.",
-  },
-
-  "劫财": {
-    principle:   "劫财主争竞，损耗财物，友中有敌",
-    translation: "劫财 governs competition and resource contention — among those most similar, some will be rivals.",
-    source:      "三命通会 论兄弟 / 渊海子平",
-    derivation:  "Lateral comparison is the primary relational frame. The reference point is always the people most like you — close enough to be meaningful, different enough (cross-polarity) to generate structural competition. The gift: genuine peers sharpen and reveal actual limits in ways admirers never can. The shadow: the resources and recognition most desired are contested precisely by the people closest to your own territory.",
-    ceiling:     2,
-    pairNote:    "劫财 is competitive lateral reference; 比肩 is self-amplifying loop. Different structural orientations, not different intensities.",
-  },
-
-  "食神": {
-    principle:   "食神吐秀，秀气流行 / 食神过旺则泄身太过",
-    translation: "Food God expresses elegance — refined Qi moves outward. Excess Food God over-exposes the self.",
-    source:      "子平真诠 论食神 — direct quotation",
-    derivation:  "Output is elegant and non-assertive — it arrives because the person is fully themselves, not because they decided to give. The invisible cost: because the output does not feel like effort from the inside, neither does the depletion. 食神过旺: the over-extension into what feels natural depletes the foundation before any signal arrives. The gap between visible gift and invisible cost is structural.",
-    ceiling:     2,
-    pairNote:    "食神 gives without asserting; 伤官 produces into structural resistance. Same-polarity effortlessness vs. cross-polarity friction-constituted output.",
-  },
-
-  "伤官": {
-    principle:   "伤官者，聪明秀气太过 / 伤官见官，为祸百端",
-    translation: "Hurting Officer people are excessively brilliant and refined. When Hurting Officer meets authority, ten thousand conflicts arise.",
-    source:      "子平真诠 论伤官 — direct quotation",
-    derivation:  "太过 (excessive/beyond measure): the brilliance operates ahead of the frameworks available to receive it — not willful, structural. The intelligence genuinely exceeds the container. 伤官见官: the output is in structural tension with any framework that tries to evaluate it by conventional standards. The critical distinction from 食神: the friction that 伤官 produces is not a side effect — it is constitutive. The brilliance is partially made of what it presses against.",
-    ceiling:     2,
-    pairNote:    "伤官 is constituted by friction; 食神 flows without resistance. The shadow of each is symmetrically opposite: 食神 depletes invisibly through effortless output; 伤官 risks self-destruction when output finds no adequate container.",
-  },
-
-  "偏财": {
-    principle:   "财为我克，偏财主广泛，与人结缘",
-    translation: "Wealth is what I control — 偏财 governs broadly, touching many material forms without concentrating on one.",
-    source:      "三命通会 论财 / 渊海子平",
-    derivation:  "Same-polarity control produces distributed engagement — ranging across many instances of material simultaneously. The gift is range and natural ease with resources. The shadow: what is controlled broadly is never fully possessed, and what is never fully possessed can slip away without the person fully registering what they had. The engagement was wide; the grip was diffuse.",
-    ceiling:     2,
-    pairNote:    "偏财 is broad distributed ranging; 正财 is specific disciplined acquisition. Same controlling relationship, opposite concentrations of engagement.",
-  },
-
-  "正财": {
-    principle:   "正财主诚实勤劳，按部就班获得财富",
-    translation: "Direct Wealth governs honest methodical effort — wealth acquired step by step through disciplined specific control.",
-    source:      "三命通会 论财 / 子平真诠",
-    derivation:  "Cross-polarity control produces specific, disciplined direction. The acquisition is methodical and earned. The shadow: the evaluative apparatus applied to what you control does not know when to stop asking whether what you hold is worthy of the standard. The precision that produces genuine wealth by methodical direction continues examining after the examination is no longer useful.",
-    ceiling:     2,
-    pairNote:    "正财 is methodical specific control; 偏财 is distributed broad ranging. Different acquisition styles, not different quantities.",
-  },
-
-  "七杀": {
-    principle:   "七杀制伏得宜，反为权贵 / 七杀为患，制者必须有力",
-    translation: "When Seven Killings are properly channeled, they produce genuine authority. When Seven Killings cause trouble, the remedy must be powerful.",
-    source:      "子平真诠 论七杀 / 滴天髓 任铁樵 512 case studies — bifurcation finding",
-    derivation:  "七杀does not grant permission. Does not moderate itself. Does not care whether you survive the encounter. This is the most important feature. The 任铁樵 finding: the same structural condition (unmediated, same-polarity authorit
+// ── Archetype variant data (stem_band_tgPattern keys) lives in STEM_CARD_DATA.js ──
+// See Code/STEM_CARD_DATA.js — 150 entries keyed by stem_band_tgPattern.
+// Do not add variant data here. archetypeSource.js holds stem baselines only.
