@@ -30,19 +30,33 @@ import {
 } from '../store/chartContext.jsx';
 import { calculateBaziChart } from '../engine/calculator.js';
 
+// Ceremonial transition timing — DOC5 §8 → §9 handoff
+// Phase 1: loading content disperses + fades (600ms)
+// Phase 2: silk holds empty (250ms) — the "exhale"
+// Phase 3: Reveal handles its own entrance (see RevealScreen.jsx)
+const EXIT_DURATION_MS = 600;
+const SILK_PAUSE_MS = 250;
+
 export default function LoadingScreen({ onComplete }) {
   const { birthData, setChart } = useChart();
   const [tick, setTick] = useState(0);
+  // Exit-phase flag — flips true after the dwell completes; CSS transitions
+  // take over from here for the dispersal animation.
+  const [exiting, setExiting] = useState(false);
 
-  // Pulsing animation — 80ms tick so the pulse + dot sweep update smoothly
+  // Pulsing animation — 80ms tick so the pulse + dot sweep update smoothly.
+  // STOPS when we enter the exit phase so the elements freeze before fading
+  // (twitching while disappearing reads as a glitch, not ceremony).
   useEffect(() => {
+    if (exiting) return;
     const id = setInterval(() => setTick((t) => t + 1), 80);
     return () => clearInterval(id);
-  }, []);
+  }, [exiting]);
 
   // Kick the calculation synchronously on mount, then pad to ~2.5s
   useEffect(() => {
     let cancelled = false;
+    const timers = [];
 
     const run = async () => {
       const start = Date.now();
@@ -68,14 +82,25 @@ export default function LoadingScreen({ onComplete }) {
       })();
       const elapsed = Date.now() - start;
       const remaining = Math.max(0, hold - elapsed);
-      setTimeout(() => {
-        if (!cancelled) onComplete && onComplete();
-      }, remaining);
+
+      // Schedule the ceremonial exit:
+      //   wait `remaining` (rest of the dwell)
+      //   → flip `exiting` to true (CSS fade-out runs over EXIT_DURATION_MS)
+      //   → wait EXIT_DURATION_MS + SILK_PAUSE_MS (silk breath)
+      //   → call onComplete (mount Reveal — its own entrance animation runs)
+      timers.push(setTimeout(() => {
+        if (cancelled) return;
+        setExiting(true);
+        timers.push(setTimeout(() => {
+          if (!cancelled) onComplete && onComplete();
+        }, EXIT_DURATION_MS + SILK_PAUSE_MS));
+      }, remaining));
     };
 
     run();
     return () => {
       cancelled = true;
+      timers.forEach(clearTimeout);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -100,8 +125,17 @@ export default function LoadingScreen({ onComplete }) {
       }}
     >
       <SilkPaper />
-      {/* Ridge sits low in the frame — grounds the composition */}
-      <DistantRidge y={700} opacity={0.18} height={144} />
+      {/* Ridge sits low in the frame — grounds the composition. Wrapped so
+          it fades together with the loading content during the ceremonial
+          exit (silk paper itself stays — that's the visual constant). */}
+      <div
+        style={{
+          opacity: exiting ? 0 : 1,
+          transition: `opacity ${EXIT_DURATION_MS}ms cubic-bezier(0.22, 1, 0.36, 1)`,
+        }}
+      >
+        <DistantRidge y={700} opacity={0.18} height={144} />
+      </div>
       <StatusBar tint={INK} />
 
       <div
@@ -114,6 +148,13 @@ export default function LoadingScreen({ onComplete }) {
           alignItems: 'center',
           justifyContent: 'center',
           padding: '0 32px',
+          // Ceremonial exit: gentle dispersal upward, opacity to zero.
+          // Easing chosen to match Reveal's entrance for visual continuity
+          // (cubic-bezier(0.22, 1, 0.36, 1) is the "expo-out-ish" curve we
+          // use across the silk-paper aesthetic — a slow release, no bounce).
+          opacity: exiting ? 0 : 1,
+          transform: exiting ? 'translateY(-8px) scale(1.04)' : 'none',
+          transition: `opacity ${EXIT_DURATION_MS}ms cubic-bezier(0.22, 1, 0.36, 1), transform ${EXIT_DURATION_MS}ms cubic-bezier(0.22, 1, 0.36, 1)`,
         }}
       >
         {/* 5 element characters — floating + pulsing */}

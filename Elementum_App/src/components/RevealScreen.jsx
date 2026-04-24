@@ -552,6 +552,48 @@ const PRESCRIPTIONS = {
 };
 
 // ---------- Main screen ----------
+// ─── Ceremonial entrance timing (DOC5 §9 v1.7) ─────────────────────
+// The Reveal mounts after Loading's exit + silk-pause (~850ms). From the
+// moment Section 1 mounts, identity content arrives in a deliberate
+// staggered sequence — the blade leads, text follows, chips land last.
+//
+// Numbers below are tuned for a "ceremonial" pace: 200ms intervals between
+// text beats (above the perceptual threshold so each arrival reads as a
+// discrete event, not a smear), 120ms between chips (faster — they're a
+// unit), and a 1000ms ink-bleed for the blade so it earns 600ms of solo
+// presence before any text appears.
+const ENTRANCE = {
+  // [delay ms, duration ms]
+  mountains:   [0,    700],
+  blade:       [100,  1000],
+  eyebrow:     [700,  350],
+  archetype:   [900,  450],
+  underline:   [1250, 350],
+  manifesto:   [1500, 400],
+  chip0:       [1800, 350],
+  chip1:       [1920, 350],
+  chip2:       [2040, 350],
+  essence:     [2300, 400],
+};
+
+// Helper: compose the opacity/transform/transition styles for an entrance
+// element based on a `mounted` flag. `lift` controls the rise distance for
+// elements that should drift UP into place (default 6px). Pass `lift: 0`
+// for elements that should only fade (e.g. mountains).
+function entrance(mounted, key, opts = {}) {
+  const [delay, duration] = ENTRANCE[key];
+  const lift = opts.lift ?? 6;
+  return {
+    opacity: mounted ? 1 : 0,
+    transform: mounted ? 'translateY(0)' : `translateY(${lift}px)`,
+    transition:
+      `opacity ${duration}ms cubic-bezier(0.22, 1, 0.36, 1) ${delay}ms, ` +
+      `transform ${duration}ms cubic-bezier(0.22, 1, 0.36, 1) ${delay}ms` +
+      (opts.extraTransition ? `, ${opts.extraTransition}` : ''),
+    willChange: 'opacity, transform',
+  };
+}
+
 export default function RevealScreen({ onEnterDashboard }) {
   const { chart } = useChart();
   const scrollRef = useRef(null);
@@ -567,6 +609,24 @@ export default function RevealScreen({ onEnterDashboard }) {
     return () => el.removeEventListener('scroll', onScroll);
   }, [chart]);
   const hintOpacity = Math.max(0, 1 - scrollY / 120);
+
+  // Entrance flag — flips to true after first paint so CSS transitions run.
+  // We use rAF + a short timeout (rather than setting it in render) so the
+  // initial DOM is committed in the OFF state before the transition kicks in.
+  // Without this, React batches the initial render with the state flip and
+  // the "from" frame is never painted → animations don't run.
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    if (!chart) return;
+    let raf1 = 0, raf2 = 0;
+    raf1 = requestAnimationFrame(() => {
+      raf2 = requestAnimationFrame(() => setMounted(true));
+    });
+    return () => {
+      cancelAnimationFrame(raf1);
+      cancelAnimationFrame(raf2);
+    };
+  }, [chart]);
 
   if (!chart) {
     // Still calculating or no data yet
@@ -658,7 +718,10 @@ export default function RevealScreen({ onEnterDashboard }) {
       {/* Ink scene — reuse welcome ink for continuity.
           Stays anchored to the viewport top (position: fixed-within-scroll
           via position:absolute on the scroll container) and fades out at
-          the bottom so it dissolves into the silk without a hard edge. */}
+          the bottom so it dissolves into the silk without a hard edge.
+          Ceremonial entrance: fades in atmospherically (no rise — the
+          mountains are spatial, not temporal — they should bleed into
+          existence rather than drift up into place). */}
       <div
         style={{
           position: 'absolute',
@@ -672,6 +735,7 @@ export default function RevealScreen({ onEnterDashboard }) {
             'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 55%, rgba(0,0,0,0) 100%)',
           maskImage:
             'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 55%, rgba(0,0,0,0) 100%)',
+          ...entrance(mounted, 'mountains', { lift: 0 }),
         }}
       >
         <img
@@ -711,8 +775,22 @@ export default function RevealScreen({ onEnterDashboard }) {
       >
         {/* Hero stem mark — large painted sword (or other stem-specific
             mark), no ring around it. Sized to pierce the mountain band
-            from above and end its hilt just above the eyebrow line. */}
-        <HeroStemMark stem={dmStem} element={dmElement} size={280} />
+            from above and end its hilt just above the eyebrow line.
+            Ceremonial entrance: ink-bleed effect via opacity + filter blur
+            (6px → 0) over 1000ms — the blade looks like wet ink drying
+            into the silk paper. Lift is small (4px) — this is a deposit,
+            not a drift. */}
+        <div
+          style={{
+            ...entrance(mounted, 'blade', {
+              lift: 4,
+              extraTransition: 'filter 1000ms cubic-bezier(0.22, 1, 0.36, 1) 100ms',
+            }),
+            filter: mounted ? 'blur(0px)' : 'blur(6px)',
+          }}
+        >
+          <HeroStemMark stem={dmStem} element={dmElement} size={280} />
+        </div>
 
         {/* YOU ARE… eyebrow — tracked italic caps */}
         <div
@@ -724,12 +802,15 @@ export default function RevealScreen({ onEnterDashboard }) {
             color: INK_LIGHT,
             marginBottom: 14,
             fontStyle: 'italic',
+            ...entrance(mounted, 'eyebrow'),
           }}
         >
           You are…
         </div>
 
-        {/* Archetype name — Cormorant h1 */}
+        {/* Archetype name — Cormorant h1. A larger lift (10px) gives the
+            name a stronger "rises into being" feel, matching its weight
+            in the visual hierarchy. */}
         <h1
           style={{
             fontFamily: "'Cormorant Garamond', serif",
@@ -740,17 +821,27 @@ export default function RevealScreen({ onEnterDashboard }) {
             letterSpacing: 1,
             margin: '0 0 14px',
             textShadow: '0 2px 4px rgba(139,115,85,0.15)',
+            ...entrance(mounted, 'archetype', { lift: 10 }),
           }}
         >
           {archetypeName}
         </h1>
 
-        {/* Brush underline */}
+        {/* Brush underline — drawn left-to-right via scaleX from a left-
+            anchored origin. Reads as a brush stroke being painted in time,
+            not a static line fading in. */}
         <div
           style={{
             display: 'flex',
             justifyContent: 'center',
             margin: '0 0 14px',
+            transformOrigin: 'left center',
+            transform: mounted ? 'scaleX(1)' : 'scaleX(0)',
+            opacity: mounted ? 1 : 0,
+            transition:
+              `opacity ${ENTRANCE.underline[1]}ms cubic-bezier(0.22, 1, 0.36, 1) ${ENTRANCE.underline[0]}ms, ` +
+              `transform ${ENTRANCE.underline[1]}ms cubic-bezier(0.22, 1, 0.36, 1) ${ENTRANCE.underline[0]}ms`,
+            willChange: 'opacity, transform',
           }}
         >
           <BrushUnderline w={100} color={WALNUT} opacity={0.5} />
@@ -772,6 +863,7 @@ export default function RevealScreen({ onEnterDashboard }) {
               lineHeight: 1.3,
               maxWidth: 320,
               marginBottom: 22,
+              ...entrance(mounted, 'manifesto'),
             }}
           >
             {manifestoLine1}
@@ -781,7 +873,9 @@ export default function RevealScreen({ onEnterDashboard }) {
         {/* Three badge tiles — Element · Stem · Polarity. Stacked
             rounded-squares per DOC5 §17 data contract. Hover lifts +
             warms the border to hint the tap-to-open-popup affordance
-            (Phase 2: element / stem / polarity knowledge panels). */}
+            (Phase 2: element / stem / polarity knowledge panels).
+            Ceremonial entrance: each chip rises + fades 120ms apart so
+            they land as a coordinated unit, not three independent items. */}
         <div
           style={{
             display: 'flex',
@@ -794,33 +888,39 @@ export default function RevealScreen({ onEnterDashboard }) {
               etc.) in element pigment. The chip identifies the element
               family — the stem's painted identity (sword, branch, …) lives
               up top as the dominant hero mark, not duplicated here. */}
-          <BadgeTile
-            color={PIG[dmElement]}
-            mark={<ElementSign element={EL_KEY[dmElement]} size={26} color={PIG[dmElement]} />}
-            label={dmElement}
-          />
-          <BadgeTile
-            color={PIG[dmElement]}
-            mark={
-              <span
-                style={{
-                  fontFamily: "'Noto Serif SC', serif",
-                  fontSize: 26,
-                  color: PIG[dmElement],
-                  fontWeight: 500,
-                  lineHeight: 1,
-                }}
-              >
-                {dmStem}
-              </span>
-            }
-            label={STEM_PINYIN[dmStem] || dmStem}
-          />
-          <BadgeTile
-            color={PIG[dmElement]}
-            mark={<YinYangGlyph polarity={dmPolarity} color={PIG[dmElement]} size={24} />}
-            label={polarityLabel}
-          />
+          <div style={entrance(mounted, 'chip0', { lift: 8 })}>
+            <BadgeTile
+              color={PIG[dmElement]}
+              mark={<ElementSign element={EL_KEY[dmElement]} size={26} color={PIG[dmElement]} />}
+              label={dmElement}
+            />
+          </div>
+          <div style={entrance(mounted, 'chip1', { lift: 8 })}>
+            <BadgeTile
+              color={PIG[dmElement]}
+              mark={
+                <span
+                  style={{
+                    fontFamily: "'Noto Serif SC', serif",
+                    fontSize: 26,
+                    color: PIG[dmElement],
+                    fontWeight: 500,
+                    lineHeight: 1,
+                  }}
+                >
+                  {dmStem}
+                </span>
+              }
+              label={STEM_PINYIN[dmStem] || dmStem}
+            />
+          </div>
+          <div style={entrance(mounted, 'chip2', { lift: 8 })}>
+            <BadgeTile
+              color={PIG[dmElement]}
+              mark={<YinYangGlyph polarity={dmPolarity} color={PIG[dmElement]} size={24} />}
+              label={polarityLabel}
+            />
+          </div>
         </div>
 
         {/* Essence paragraph — world-building elementIntro.expand from
@@ -836,6 +936,7 @@ export default function RevealScreen({ onEnterDashboard }) {
             lineHeight: 1.65,
             maxWidth: 310,
             margin: '0 auto 32px',
+            ...entrance(mounted, 'essence'),
           }}
         >
           {elementIntroExpand || (

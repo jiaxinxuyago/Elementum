@@ -691,7 +691,29 @@ The browser-default `<select>` elements in V006 are mismatched to the aesthetic.
 
 **Progress dots:** 5 dots, one per element. They fill left to right over 2.5 seconds using their element colors. This communicates that five distinct calculations are happening.
 
-**Transition out:** Fade out entire screen at 0.5s, then push to `/reveal`.
+**Transition out — the ceremonial handoff to Reveal (DOC5 §9 v1.7):**
+
+The hand-off from Loading → Reveal is the most emotionally loaded transition in the product. The user has spent 60–90 seconds answering birth questions and 2.5 seconds watching elements pulse. A hard cut here would break the meditative state. Instead, a three-phase ceremonial sequence is performed:
+
+```
+PHASE 1 — Loading exit (600 ms)
+  · 5 pulsing element characters STOP pulsing (no twitch on fade-out)
+  · All loading content disperses: opacity 1 → 0,
+    transform scale(1) → scale(1.04) translateY(-8 px)
+  · Bottom DistantRidge fades on the same 600 ms curve
+  · Easing: cubic-bezier(0.22, 1, 0.36, 1) — slow release, no bounce
+  · Silk paper background does NOT animate — it is the visual constant
+
+PHASE 2 — Silk pause (250 ms)
+  · The screen holds on silk paper alone, no visible content
+  · This is the psychological exhale — the "moment before"
+  · A beat of stillness frames what comes next
+
+PHASE 3 — onComplete fires → Reveal mounts and runs its own
+            staggered entrance animation (see §9 Section 1)
+```
+
+Total ceremonial transition: ~850 ms before Reveal Section 1 begins entering. The Loading screen's exit phase is implemented in `LoadingScreen.jsx` via an `exiting` state flag (constants `EXIT_DURATION_MS = 600`, `SILK_PAUSE_MS = 250`).
 
 ---
 
@@ -738,15 +760,32 @@ SECTION 4 — CTA
 
 ### Section 1: Identity
 
-This is the recognition moment. The animation sequence matters:
+This is the recognition moment. The Reveal screen mounts ~850 ms after the Loading screen begins its exit (see §8 — ceremonial handoff). From mount, identity content arrives in a deliberate staggered sequence — the blade leads, text follows, chips land last. The 200 ms intervals between text beats sit above the perceptual threshold so each arrival reads as a discrete event, not a continuous fade.
 
-1. Hero stem mark fades in with brush bleed (filter ramps in over 600ms)
-2. "You are..." fades in at 0ms delay
-3. Archetype name slides up at 200ms delay
-4. Brush underline draws at 350ms
-5. Manifesto line 1 fades at 500ms
-6. Three badge tiles fade in staggered (Element 600ms · Stem 700ms · Polarity 800ms)
-7. Essence paragraph fades at 1000ms
+**Timing table** (delays measured from the moment Reveal mounts; all transitions use `cubic-bezier(0.22, 1, 0.36, 1)`):
+
+| Element | Delay | Duration | Motion | Notes |
+|---|---|---|---|---|
+| Mountains (ink-wash band) | 0 ms | 700 ms | opacity 0→1, no rise | Atmospheric bleed, not drift |
+| Hero stem mark (blade) | 100 ms | 1000 ms | opacity 0→1, blur 6 px → 0, translateY 4 px → 0 | The blade gets 600 ms of solo screen time before any text — it earns its presence. The blur ramp simulates wet-ink-drying-into-silk |
+| "You are…" eyebrow | 700 ms | 350 ms | opacity 0→1, translateY 6 px → 0 | |
+| Archetype name (h1) | 900 ms | 450 ms | opacity 0→1, translateY 10 px → 0 | Larger lift matches its visual weight |
+| Brush underline | 1250 ms | 350 ms | opacity 0→1, scaleX 0→1 from left origin | Draws left-to-right like a brush stroke being painted in time |
+| Manifesto line 1 | 1500 ms | 400 ms | opacity 0→1, translateY 6 px → 0 | |
+| Element chip | 1800 ms | 350 ms | opacity 0→1, translateY 8 px → 0 | |
+| Stem chip | 1920 ms | 350 ms | opacity 0→1, translateY 8 px → 0 | 120 ms after element chip — chips land as a coordinated unit |
+| Polarity chip | 2040 ms | 350 ms | opacity 0→1, translateY 8 px → 0 | |
+| Essence paragraph | 2300 ms | 400 ms | opacity 0→1, translateY 6 px → 0 | Anchors the bottom 400 ms after the chips — the "and finally" |
+
+Total entrance window: ~2700 ms from Reveal mount. Combined with the 850 ms loading-exit + silk-pause, the full ceremony from "Calculating your chart…" to fully-rendered Identity is ≈ 3.5 seconds. This is substantial — but appropriate for the most emotionally loaded moment in the product.
+
+**Implementation:** `RevealScreen.jsx` exposes an `ENTRANCE` constant table keyed by element name (`mountains`, `blade`, `eyebrow`, `archetype`, `underline`, `manifesto`, `chip0`, `chip1`, `chip2`, `essence`) and an `entrance(mounted, key, opts)` helper that returns `{opacity, transform, transition, willChange}` styles. A `mounted` boolean flips from `false` to `true` via two consecutive `requestAnimationFrame` calls in a `useEffect` so the initial DOM is committed in the OFF state before the transition fires (without the double-rAF, React batches the initial render with the state flip and the "from" frame is never painted → animations don't run).
+
+**Why these specific numbers:**
+- *200 ms intervals between text beats* — above the ~150 ms perceptual threshold so each arrival reads as a discrete event
+- *120 ms intervals between chips* — faster, because the chips are visually a unit (one row, three identifiers)
+- *1000 ms blade duration* — long enough that the ink-bleed feels like a brush stroke drying, not a fade
+- *400 ms essence delay after final chip* — gives the chip strip time to "land" before the essence anchors the composition
 
 **Hero stem mark (replaces ArchetypeSeal):** A large, dominant painted stem icon — *no circle, no ring, no enclosing seal.* Centered in the section. Sized ~280px tall and positioned with a ~40px negative top margin so the tip pierces ABOVE the mountain peaks while the body of the icon descends THROUGH the mountain band; the hilt/base rests just above the eyebrow line. The silk landscape and the archetype's mark read as a single painting. The mark itself is per-stem (see §20 Asset Library — BladeJian for 庚, OakArchetype for 甲, etc.) rendered in `INK` rather than element pigment, so the painted iron / wood / fire stays Wabi-sabi monochrome and element pigment is reserved for the chip strip below. Implementation: `<HeroStemMark stem={dmStem} element={dmElement} size={280} />` → `<StemSign>` dispatcher → `<BrushJian>` (or future per-stem painted SVGs).
 
@@ -2362,6 +2401,7 @@ These lines appear in upgrade modals, onboarding, and App Store copy. They must 
 | 1.4 | April 2026 | §7 Step 6 redesigned: three-option sex question (Male / Female / Prefer not to say) with conditional inline reveal of energy current toggle — Yang/Yin framing only surfaces for users who need it. §9 Reveal screen: Four Pillars grid removed from opening; Day Master Identity is now Section 1, Energy Blueprint Section 2, Balance Prescription Section 3, CTA Section 4. §11 DayMasterHero: flat element spectrum bar replaced by element-coloured Ten God ring (single ring encodes TG weight distribution + elemental role simultaneously). New §11 subsection: tgPattern Visual System — five pattern types (Pure/Rooted/Flowing/Forging/Tested), element-to-role colour legend, ring animation spec, tap behaviour, YourNature integration. |
 | 1.5 | April 2026 | §7 Step 4 fully redesigned: three-level birth hour input (exact / approximate 6-window / unknown) with dual-chart blend calculation for approximate, 3-pillar calculation for unknown, no blocking at any level. §5 geocoding failure: soft fallback to Beijing longitude, never blocks onboarding. §11 Birth Chart Raw Data page: conditional 3-pillar vs 4-pillar rendering spec, approximate hour `~` indicator, 3-pillar grid layout. New §11 subsection: Chart Resonance Feature (hour discovery post-onboarding, portrait-matching exercise, confidence tiers, reveal moment). New §22: Error States and Data Integrity — geocoding failure, bad calculation handling, unknown hour full calculation spec (dual-chart blend + 3-pillar), chart resonance summary, share card fallback. §21 expanded: first-session-after-upgrade (returning user path) — Welcome to Seeker screen (B: element flood + seal + what's unlocked preview + CTA), contextual unlock reveal system (C: per-feature blur dissolve + content breathe-in + unlock badge, tracked via localStorage, fires once per feature). |
 | 1.6 | April 2026 | §9 Reveal Section 1 (Identity) recomposed end-to-end. **ArchetypeSeal (the brushed circle/ring containing the element crescent) removed entirely.** Replaced with a **HeroStemMark** — the painted stem icon (BrushJian for 庚, etc.) at hero scale (~280px), no ring, positioned with negative top margin so the icon pierces THROUGH the ink-wash mountain band (tip above peaks, hilt above eyebrow). New `<StemSign>` dispatcher in `RevealScreen.jsx` routes per-stem to its painted SVG and falls back to `<ElementSign>` for stems without painted art yet. **Single Identity token pill replaced with three flat silk badge tiles** — Element / Stem / Polarity — each opening its own knowledge popup in Phase 2; gradient fill, inset highlight, and inner ring removed; tiles now match `deckleCard` silk surfaces. Manifesto rendering simplified to line-1 only, Cormorant italic 22px. Section background unified to a single flat `#EFE5CC` silk fill spanning the full scrollable height (eliminates the hairline that the layered SilkPaper SVG produced at the section seam). §20 Asset Library updated: BladeJian renamed to BrushJian, redrawn with vertical-portrait 60×220 viewBox + INK fill; StemSign dispatcher pattern documented as the production-grade entry point for all per-stem hero icons. |
+| 1.7 | 2026-04-24 | **Ceremonial Loading → Reveal transition implemented.** §8 transition-out spec rewritten as a three-phase sequence: Phase 1 — Loading content disperses (opacity 1→0 + scale 1→1.04 + translateY 0→-8 px over 600 ms, easing cubic-bezier(0.22, 1, 0.36, 1), pulse animation stops first so elements don't twitch on fade); Phase 2 — silk holds empty for a 250 ms exhale; Phase 3 — Reveal mounts and runs its own staggered entrance. §9 Section 1 animation block rewritten as a complete timing table: 10 entrance keys (mountains/blade/eyebrow/archetype/underline/manifesto/chip0-2/essence) with documented delays, durations, motions, and rationale. The blade gets a 1000 ms ink-bleed (opacity + filter blur 6→0) earning 600 ms of solo screen time; text beats land at 200 ms intervals; chips at 120 ms intervals (a unit); essence anchors 400 ms after the chip strip. Total ceremony from "Calculating your chart…" to fully-rendered Identity ≈ 3.5 s. Implementation notes: `LoadingScreen.jsx` uses `EXIT_DURATION_MS = 600` + `SILK_PAUSE_MS = 250` constants and an `exiting` state flag; `RevealScreen.jsx` exposes an `ENTRANCE` table + `entrance(mounted, key, opts)` helper, with a double-`requestAnimationFrame` to ensure the initial off-state frame paints before the transition fires. |
 
 ---
 
