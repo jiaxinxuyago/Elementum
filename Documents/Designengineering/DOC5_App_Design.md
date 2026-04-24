@@ -237,46 +237,142 @@ type: spring, bounce: 0.5
 ### Route map
 
 ```
-/                   → WelcomeScreen
-/onboarding         → OnboardingScreen
-/loading            → LoadingScreen
-/reveal             → RevealScreen
-/dashboard          → AppLayout wrapper
-  /dashboard/       → TodayScreen     (default)
-  /dashboard/chart  → MyChartScreen
-  /dashboard/guide  → GuidanceScreen
-  /dashboard/connect→ ConnectScreen
-  /dashboard/me     → MeScreen
+/                        → WelcomeScreen          (no nav)
+/onboarding              → OnboardingScreen        (no nav)
+/loading                 → LoadingScreen           (no nav)
+/reveal                  → RevealScreen            (no nav)
+/chart-reveal            → BirthChartRawPage       (no nav, modal-style full page)
+/dashboard               → AppLayout wrapper
+  /dashboard/            → TodayScreen             (default tab)
+  /dashboard/guidance    → GuidanceScreen
+  /dashboard/energy-map  → EnergyMapScreen
+  /dashboard/friends     → FriendsScreen
+  /dashboard/profile     → ProfileScreen
 ```
 
-### Navigation logic
+### User journey flows
 
-**Pre-dashboard screens** have no bottom nav. They form a one-way funnel: Welcome → Onboarding → Loading → Reveal → Dashboard.
+**First-time user:**
+Welcome → Onboarding (7 steps) → Loading → Reveal → Dashboard (lands on Energy Map)
 
-**Returning users** (chart in localStorage): Welcome auto-redirects to `/dashboard`. No onboarding required.
+The Energy Map is the default landing after Reveal because the user has just had their identity recognition moment — they want to go deeper into who they are, not pivot immediately to daily utility.
 
-**Dashboard navigation** is always available via bottom nav with 5 tabs. The default landing on first entry is `/dashboard/chart` (My Chart), not Today — because the identity reveal is fresh and the user wants to go deeper on who they are. After first session, the default changes to `/dashboard/` (Today).
+**Returning user (chart exists in storage):**
+WelcomeScreen detects chart in localStorage via `useEffect` and auto-redirects to `/dashboard/` (Today). No onboarding. Every subsequent fresh open lands on Today.
 
-### Bottom navigation
+**Incomplete onboarding:**
+If a user begins onboarding but exits before completing all 7 steps, partial progress is saved to localStorage. On next Welcome Screen load, a secondary quiet link appears beneath the primary CTA: *"Continue where you left off →"* in 14px EB Garamond, `#8C857B`. Tapping it resumes at the last completed step with all previous answers pre-filled. The primary CTA ("Begin Your Journey") starts fresh.
 
-```
-[ TODAY ] [ GUIDE ] [ MY CHART ] [ CONNECT ] [ ME ]
-    📅       📖        ◉ (logo)      👥        👤
-```
-
-| Tab | Path | Icon | Default first visit? |
-|---|---|---|---|
-| TODAY | `/dashboard/` | Calendar | After day 1 |
-| GUIDE | `/dashboard/guide` | Book open | — |
-| MY CHART | `/dashboard/chart` | Element seal | Day 1 (post-reveal) |
-| CONNECT | `/dashboard/connect` | Users | — |
-| ME | `/dashboard/me` | User | — |
-
-**MY CHART is center** — not just because it's the structural anchor of the app, but because it is the reading layer. It is where the engine's content lives: the DayMasterHero identity card, the ElementSpectrum energy blueprint, and the ProfileReading. It is the product.
-
-**Nav active state:** Element color of the user's Day Master on active icon. Gold dot indicator beneath. Nav labels 10px, uppercase, EB Garamond.
+**Route guards:**
+Defensive code only — not a user-facing design concern. If a user reaches `/dashboard/*` with no chart (edge case: push notification deep link on fresh install), redirect silently to `/`. Resolved automatically once server-side auth is implemented and the chart travels with the account, not the device.
 
 ---
+
+### Bottom navigation bar
+
+**Visual spec:**
+
+```
+┌─────────────────────────────────────────────────────┐
+│  TODAY    GUIDANCE   ENERGY MAP   FRIENDS   PROFILE  │
+│    📅        📖         ◉ (seal)      👥        👤   │
+│    ·                                                  │
+└─────────────────────────────────────────────────────┘
+```
+
+| Tab | Label | Icon (Lucide) | Route | Default? |
+|-----|-------|---------------|-------|----------|
+| Today | TODAY | `Calendar` | `/dashboard/` | Returning users |
+| Guidance | GUIDANCE | `BookOpen` | `/dashboard/guidance` | — |
+| Energy Map | ENERGY MAP | `BarChart2` | `/dashboard/energy-map` | First session post-reveal |
+| Friends | FRIENDS | `Users` | `/dashboard/friends` | — |
+| Profile | PROFILE | `User` | `/dashboard/profile` | — |
+
+**Container:**
+```
+position: fixed
+bottom: 0
+width: 100%
+background: rgba(253, 253, 252, 0.85)
+backdrop-filter: blur(12px)
+border-top: 1px solid #EAE5DF
+padding-bottom: env(safe-area-inset-bottom)   ← iOS safe zone
+padding-top: 8px
+padding-horizontal: 16px
+display: flex
+justify-content: space-between
+z-index: 50
+```
+
+**Each tab button:**
+```
+width: 64px
+display: flex
+flex-direction: column
+align-items: center
+gap: 4px
+padding: 8px 0
+background: transparent
+border: none
+cursor: pointer
+```
+
+**Icon — inactive:**
+```
+size: 24px
+strokeWidth: 1.5
+color: #8C857B
+```
+
+**Icon — active:**
+```
+size: 24px
+strokeWidth: 2
+color: #2C2825
+```
+
+**Active indicator — gold dot:**
+```
+position: absolute
+bottom: -8px
+left: 50%
+transform: translateX(-50%)
+width: 4px
+height: 4px
+border-radius: 50%
+background: #D4AF37
+```
+Animated via Framer Motion `layoutId="nav-indicator"` — spring transition `stiffness: 300, damping: 30`. The dot slides smoothly between tabs rather than appearing and disappearing.
+
+**Tab label:**
+```
+font-family: system-ui, sans-serif   ← intentional: contrast with serif content
+font-size: 10px
+font-weight: active ? 500 : 400
+letter-spacing: 0.1em
+text-transform: uppercase
+color: active ? #2C2825 : #8C857B
+transition: color 300ms
+```
+
+**Energy Map center tab (special treatment):**
+The center tab is the structural anchor. In a future iteration, the icon may be replaced with the user's ArchetypeSeal SVG at 24px — their element seal as the nav icon. For V1, use `BarChart2` as the placeholder icon.
+
+---
+
+### Notification strategy
+
+Push notifications are the primary D7 and D30 retention driver. Opt-in is collected at onboarding Step 7. The notification is a personalized morning energy briefing.
+
+**Content by tier:**
+
+| Tier | Notification content |
+|------|---------------------|
+| Free | Day's element energy line — *"Good morning, The Blade. Today is a Water day — your precision cuts deepest when the current is calm."* |
+| Seeker | Above + one-line domain impact from their Energy Manual — *"Career energy is heightened today — Metal clarity meets a Water foundation."* |
+| Advisor | Above + one-line from AI consultant context — *"The decision you're weighing becomes clearer mid-week as Metal yields to Water."* |
+
+Notification always uses the archetype name ("The Blade", "The Ocean"), never a generic greeting. Delivered at user-set time (chosen at onboarding Step 7, editable in Profile). Default: 8:00 AM.
 
 ## §6 — Welcome Screen
 
@@ -295,7 +391,7 @@ type: spring, bounce: 0.5
 │              元 素                       │
 │           ELEMENTUM                     │
 │                                         │
-│   "Five elements. One signature. Yours." │
+│   "Your elemental energy, read from the moment you were born." │
 │                                         │
 │   Everyone carries a unique elemental   │
 │   blueprint. We reveal yours.           │
@@ -315,7 +411,7 @@ type: spring, bounce: 0.5
 
 **Latin title (ELEMENTUM):** EB Garamond, 24px, uppercase, letter-spacing 2px, `#5C554D`.
 
-**Tagline:** EB Garamond, 18px italic, `#5C554D`. Use a single, direct hook — not a description. Current "Want to discover..." is a question (weak). Use a statement: *"Five elements. One signature. Yours."*
+**Tagline:** EB Garamond, 18px italic, `#5C554D`. *"Your elemental energy, read from the moment you were born."*
 
 **Body text:** EB Garamond, 16px, `#6f6b66`, max-width 360px, center aligned.
 
@@ -332,26 +428,24 @@ On load: Fade in all content together at 0.8s with `y: 20 → 0`. The Enso draws
 ## §7 — Onboarding Screen
 
 **Route:** `/onboarding`
-**Purpose:** Collect the six birth data points. Must feel like a ritual, not a form.
+**Purpose:** Collect seven birth data points. Must feel like a ritual, not a form.
 
 ### Design principle
 
-Each step gets the full screen. One question at a time. The poetic subtitle is the key differentiator from any other input flow — it establishes that this information matters spiritually, not just technically.
-
-The progression bar at the top (3px, `#8b7355` gradient) must animate smoothly — it is the user's only sense of how long this takes.
+Each step occupies the full screen. One question at a time. The poetic subtitle is the key differentiator from any other input form — it establishes that this information matters spiritually, not just technically. The progression bar at the top (3px, gradient `#8b7355 → #9d8468`) animates smoothly — it is the user's only sense of how long this takes.
 
 ### Step structure
 
 ```
 ┌─────────────────────────────────────────┐
-│ [progress bar 3px at top]               │
+│ [progress bar 3px at very top]          │
 │                                         │
-│      Step 3 of 6                        │
+│      Step 3 of 7                        │
 │                                         │
-│    "What day were you born?"            │
+│    "What day were you born?"            │  32px EB Garamond, #8b7355, tracking 2px
 │                                         │
-│    Your day is your core — the          │
-│    essence of who you are at            │
+│    Your day is your core — the          │  16px EB Garamond italic, #5C554D
+│    essence of who you are at            │  line-height 1.7
 │    the deepest level.                   │
 │                                         │
 │    [Input / Selector]                   │
@@ -361,36 +455,215 @@ The progression bar at the top (3px, `#8b7355` gradient) must animate smoothly �
 └─────────────────────────────────────────┘
 ```
 
-### Input styles per step
+**Step counter:** 14px EB Garamond, tracking 3px, uppercase, `#6f6b66`.
 
-| Step | Input type | Notes |
-|---|---|---|
-| Year | Scroll-pick or select, years 1900–present | Large serif text in selector |
-| Month | 12-button grid, month names | Tappable, not a dropdown |
-| Day | Scroll-pick 1–31 | Match year/month context |
-| Hour | Scroll-pick 0–23 with readable labels ("3:00 AM", "18:00 / 6PM") | Note "skip if unknown" |
-| Location | Text input with auto-complete | Used for True Solar Time, show it matters |
-| Gender | Two-button pill toggle: Male / Female | Explain it affects Luck Cycle direction |
+**Back button:** Transparent bg, `border: 1px solid #d9d3c8`, rounded-full, 13px uppercase tracking 2px, `#5C554D`. Hover: `border-color #8b7355`.
 
-**Input philosophy:** The selects in V006 feel like browser defaults — mismatched to the aesthetic. Replace with scroll pickers that feel like the kind of selector you'd use in a meditation or wellness app: large type, spring-animated, element-tinted highlight on selected item.
+**Continue button:** `bg-[#6b5339]`, `text-[#F8F6F0]`, rounded-lg, 16px EB Garamond weight 500. Disabled: `opacity-50 cursor-not-allowed`. Final step: label changes to **"Reveal My Nature"**.
 
-**Poetic subtitles (one per step — the voice of the app):**
-1. Year: *"The year you arrived reveals what you carry from those who came before."*
-2. Month: *"Your month is the season your soul chose to enter this world."*
-3. Day: *"Your day is your core — the essence of who you are at the deepest level."*
-4. Hour: *"Your hour reveals how you express your nature outward."*
-5. Location: *"We'll calculate your True Solar Time (真太阳时) to place you precisely in the cosmos."*
-6. Gender: *"This determines the direction of your decade energy cycles (大运)."*
+**Transitions:** Each step slides in from the right (`x: 20 → 0`), previous step slides out left (`x: 0 → -20`). `AnimatePresence mode="wait"`, duration 350ms, easing `[0.22, 1, 0.36, 1]`. Back navigation reverses direction.
 
-### Transitions
+### All 7 steps
 
-Each step slides in from the right (x: 20 → 0), previous step slides out to the left (x: 0 → −20). AnimatePresence mode="wait". Duration 350ms.
+| Step | Question | Input type | Poetic subtitle |
+|------|----------|------------|-----------------|
+| 1 | When were you born? | Select — years 1900 → present | *"The year you arrived reveals what you carry from those who came before."* |
+| 2 | Which month? | Select — full month names | *"Your month is the season your soul chose to enter this world."* |
+| 3 | What day? | Select — 1–31 | *"Your day is your core — the essence of who you are at the deepest level."* |
+| 4 | What time? | Three-level: exact / approximate window / unknown | *"Your hour reveals how you express your nature outward."* |
+| 5 | Where were you born? | Text input + geocoding | *"We'll calculate your True Solar Time (真太阳时) to place you precisely."* |
+| 6 | Which energy current moves through you? | Two-button toggle | *"This determines the direction of your Decade Luck Cycles (大运)."* |
+| 7 | Stay in tune with your energy? | Notification opt-in + time picker | *"We'll send you a morning reading each day. Your energy doesn't wait for you to remember to check."* |
 
-Back button slides the reverse direction.
+### Step 4 — Birth hour (three-level input)
 
-Continue button disabled until valid input — visual state: reduced opacity 0.4, cursor not-allowed.
+The birth hour is the most commonly unknown piece of birth data. Step 4 never blocks the user — it offers three tiers of precision and continues regardless.
 
----
+**Level 1 — Exact time (primary):**
+24-hour scroll picker, `00:00–23:00`, local time. Below the picker, a quiet note: *"24-hour format, local time. Even an approximate time improves accuracy."* 13px EB Garamond italic, `#6f6b66`.
+
+**Level 2 — Approximate window (secondary):**
+A text link beneath the picker: *"I only know the general time →"* (14px, `#8C857B`, underlined). Tapping replaces the picker with 6 window buttons arranged in a 2×3 grid:
+
+```
+┌─────────────────┐  ┌─────────────────┐
+│  Late night     │  │  Early morning  │
+│  11pm – 3am     │  │  3am – 7am      │
+├─────────────────┤  ├─────────────────┤
+│  Morning        │  │  Midday         │
+│  7am – 11am     │  │  11am – 3pm     │
+├─────────────────┤  ├─────────────────┤
+│  Afternoon      │  │  Evening        │
+│  3pm – 7pm      │  │  7pm – 11pm     │
+└─────────────────┘  └─────────────────┘
+```
+
+Each window maps to exactly 2 adjacent 时辰. Selecting one runs the chart calculation twice (once per 时辰) and blends the result (see Calculation section below).
+
+**Level 3 — Unknown (tertiary):**
+Below the window buttons: *"I have no idea →"* (14px, `#8C857B`, underlined). Tapping continues to Step 5 with hour marked as `null`. A 3-pillar chart is calculated. No error, no block.
+
+**Calculation logic by level:**
+
+| Input | Chart type | Hour pillar display | Accuracy note |
+|-------|------------|---------------------|---------------|
+| Exact time | 4-pillar full | Full confidence, no indicator | None |
+| Approximate window | 4-pillar full | `~` indicator, hover/tap shows window range | *"Based on [window]"* shown in Profile |
+| Unknown | 3-pillar | No hour column rendered | *"Birth hour not provided"* in Profile |
+
+**Approximate window calculation detail:**
+Each window maps to 2 时辰. Run `generateChart()` for both. Characters identical across both charts (year/month/day pillars = 6 of 8) are used at full confidence. For the hour pillar specifically:
+- Hour TG weight = average of both charts' hour TG contributions
+- tgPattern = pattern type if both charts agree; flagged `~` if they diverge
+- Branch interactions involving hour = shown only if both charts produce the same interaction
+- Display: hour pillar renders with `~` prefix on the stem character
+
+**Level switch:** A quiet *"Enter exact time ↑"* link at the bottom of the window/unknown views lets users switch back. Switching does not lose other step answers.
+
+**Profile completion state:**
+For approximate and unknown inputs, the Profile screen shows a persistent but quiet card:
+```
+"Your birth chart is [approximate / partial]"
+"Refine your hour →"    ← links to chart resonance feature
+```
+
+**Step 4 → Step 5 transition:** Regardless of which level is used, Continue is always active once a selection is made (or "I have no idea" is tapped). No blocking.
+
+### Step 5 — Location
+Text input: placeholder `"City, Country (e.g., New York, USA)"`. On input, geocode city → longitude. Below input, an explanatory card:
+```
+background: rgba(139,115,85,0.06)
+border: 1px solid rgba(139,115,85,0.25)
+border-radius: 12px
+padding: 16px
+```
+Copy: **"Why location matters:"** Traditional BaZi uses Beijing solar time. We convert your local time to True Solar Time (真太阳时) for accuracy. If location is unavailable, Beijing is used as default.
+
+**Geocoding failure handling:**
+If the city cannot be resolved (network failure, unrecognised input, or geocoding API error), do **not** block the user. Apply a soft fallback silently:
+- Default to Beijing longitude (116.4°E) — the traditional BaZi standard
+- Show a quiet inline note beneath the input field: *"Using standard solar time — update location in Profile anytime."* 13px EB Garamond italic, `#6f6b66`
+- Continue button remains active
+- Profile screen shows: *"Birth location not confirmed — tap to update →"*
+
+This is not an error state. Beijing default is a legitimate BaZi convention used when birth location is unavailable.
+
+### Step 6 — Birth polarity (conditional energy current reveal)
+
+The BaZi calculation requires a birth polarity to determine the direction of Decade Luck Cycles — Yang-born and Yin-born charts run in opposite temporal directions. Most users resolve this immediately via biological sex. The energy current framing only surfaces for users who need it.
+
+**Primary question:** "What is your gender?"
+
+*Poetic subtitle:* *"This determines the direction of your Decade Luck Cycles (大运)."*
+
+**Three options — stacked vertically:**
+
+```
+┌──────────────────────────────────────────┐
+│   Man                                    │  → auto-assigns Yang polarity, advance
+├──────────────────────────────────────────┤
+│   Woman                                  │  → auto-assigns Yin polarity, advance
+├──────────────────────────────────────────┤
+│   I'd rather not specify                 │  → reveals energy current inline ↓
+└──────────────────────────────────────────┘
+```
+
+Man and Woman selections silently map to Yang and Yin respectively in the engine. No energy current language is shown. The user taps and moves to Step 7 without friction.
+
+**Conditional reveal — "I'd rather not specify" selected:**
+
+When this option is tapped, it highlights (selected state) and an inline panel expands beneath it with a smooth height animation (300ms ease-out). The follow-up drops gender language entirely and asks about energetic polarity directly:
+
+```
+┌──────────────────────────────────────────────────┐
+│  Which energy current feels more like you?        │
+│                                                   │
+│  ┌─────────────────┐   ┌─────────────────┐        │
+│  │  Yang           │   │  Yin            │        │
+│  │  ↑ Outward      │   │  ↓ Receptive    │        │
+│  │  Initiating     │   │  Inward         │        │
+│  └─────────────────┘   └─────────────────┘        │
+│                                                   │
+│  "I'm not sure →"  (tertiary, below buttons)      │
+└──────────────────────────────────────────────────┘
+```
+
+"I'm not sure →" (14px, `#8C857B`, underlined) defaults to Yang and adds a note to the Profile screen: *"Luck cycle direction is estimated — update anytime in Profile."*
+
+Once a polarity is resolved (either via Man/Woman or via the inline Yang/Yin toggle), Continue activates.
+
+**Button spec — all three primary options:**
+```
+width: 100%
+padding: 16px 20px
+border-radius: 10px
+border: 1px solid #d9d3c8
+background: #e8e3d8
+font-family: EB Garamond, serif
+font-size: 17px
+text-align: left
+transition: all 300ms
+
+"Prefer not to say" variant:
+  font-size: 15px
+  color: #6f6b66
+
+selected state (any button):
+  border-color: #8b7355
+  background: rgba(139,115,85,0.12)
+  font-weight: 500
+```
+
+**Inline energy current toggle spec:**
+```
+margin-top: 12px
+padding: 16px
+border-radius: 10px
+border: 1px dashed #8b7355
+background: rgba(139,115,85,0.06)
+
+Expand animation:
+  height: 0 → auto, opacity: 0 → 1
+  duration: 300ms, easing: ease-out
+  Framer Motion: AnimatePresence + motion.div
+
+Inner toggle buttons: flex row, gap 8px
+  Each: flex-1, padding 12px, border-radius 8px
+  Unselected: border #d9d3c8, bg #e8e3d8
+  Selected: border #8b7355, bg rgba(139,115,85,0.15)
+```
+
+### Step 7 — Notification opt-in
+
+**Layout:**
+```
+┌─────────────────────────────────────────┐
+│                                         │
+│   [Bell icon, 32px, #8b7355]            │
+│                                         │
+│   "Stay in tune with your energy?"      │
+│                                         │
+│   We'll send you a morning reading      │
+│   each day — personalized to your       │
+│   archetype and the day's energy.       │
+│                                         │
+│   ┌─────────────────────────────────┐   │
+│   │  [ Toggle: ON ]  8:00 AM        │   │
+│   │  ▼  Change time                 │   │
+│   └─────────────────────────────────┘   │
+│                                         │
+│   Skip for now (small, below buttons)   │
+│                                         │
+└─────────────────────────────────────────┘
+```
+
+Toggle: on by default. `bg-[#6b5339]` when on. Time picker below the toggle — a simple hour selector (on/off state). "Skip for now" is a text link in `#8C857B`, 14px — it does not disable notifications permanently, just defers the permission request to the Profile screen.
+
+**Note:** The Continue button on Step 7 becomes "Reveal My Nature" — this is the last step before Loading and Reveal. The transition out of Step 7 should feel weighty — slightly longer fade, 500ms.
+
+### Input philosophy
+
+The browser-default `<select>` elements in V006 are mismatched to the aesthetic. Target implementation should use scroll-picker wheels: large serif type, spring-animated selected item highlighted with a warm tone, element-tinted when appropriate. This applies to Year, Month, Day, and Hour selectors.
 
 ## §8 — Loading Screen
 
@@ -427,116 +700,97 @@ Continue button disabled until valid input — visual state: reduced opacity 0.4
 **Route:** `/reveal`
 **Purpose:** The product's most important screen. The identity recognition moment.
 
-### Layout — four sections, one continuous scroll
+### Layout — three sections, one continuous scroll
 
 The Reveal screen is intentionally long — each section gets near full viewport height and triggers as the user scrolls. The user is meant to spend 60–90 seconds here, not 10 seconds. This is where the emotional connection forms.
 
+The traditional 八字 Four Pillars grid is **not shown on the Reveal screen.** Raw chart data is accessible separately via `/chart-reveal` (see §11). Western users do not need to decode Chinese characters to feel the depth of their chart — they need the identity, in language they already speak. The Reveal screen delivers that directly.
+
 ```
-SECTION 1 — YOUR CHART (full viewport)
-  Eight Characters header in Chinese brush
-  The Four Pillars grid
-  "Scroll to explore" animated cue
-
-SECTION 2 — WHO YOU ARE (full viewport)
-  Archetype seal SVG, spring-animated
+SECTION 1 — WHO YOU ARE (full viewport)
+  Hero stem mark — large painted stem icon (BladeJian for 庚, etc.)
+    centered, NO ring/seal, positioned to pierce through the
+    ink-wash mountain band (tip above peaks, hilt above eyebrow)
   "You are..."
-  THE BLADE  (archetype name, 40px Cormorant)
-  "Yang Metal · Precision before intention"
-  Identity token pill: 庚 · Yang Metal · Blade
+  THE BLADE  (archetype name, 44px Cormorant)
+  Brush underline
+  Manifesto line 1 ("Precision before intention")
+  Three flat silk badge tiles — Element · Stem · Polarity
+    (Metal crescent · 庚 GENG · Yang taichi)
   Archetype essence paragraph
+  ↓ scroll hint
 
-SECTION 3 — YOUR ENERGY BLUEPRINT (partial viewport)
+SECTION 2 — YOUR ENERGY BLUEPRINT (partial viewport)
   "YOUR ENERGY BLUEPRINT"
   Element composition bars (5, animated fill)
   Missing element callout (if present)
 
-SECTION 4 — YOUR PRESCRIPTION (partial viewport)
+SECTION 3 — YOUR PRESCRIPTION (partial viewport, conditional)
+  Shown only when a missing element exists
   "WHAT BALANCES YOU"
-  Catalyst section (What activates you)
-  Friction section (What drains you)
-  Absent element guidance
+  Missing element prescription card
 
-SECTION 5 — CTA
-  "Enter Dashboard →"
+SECTION 4 — CTA
+  "Enter Your Dashboard →"
+  Navigates to /dashboard/energy-map (Energy Map tab)
+  First session only — subsequent opens land on Today tab
 ```
 
-### Section 1: The Chart
-
-**Four Pillars grid:**
-
-```
-┌──────┬──────┬──────┬──────┐
-│ YEAR │MONTH │ DAY  │ HOUR │
-│      │      │  ↑   │      │
-│      │      │ Day  │      │
-│  乙  │  庚  │  庚  │  乙  │
-│ 天干 │ 天干 │Master│ 天干 │
-│──────│──────│──────│──────│
-│  亥  │  辰  │  寅  │  酉  │
-│ 地支 │ 地支 │ 地支 │ 地支 │
-└──────┴──────┴──────┴──────┘
-```
-
-Day Pillar treatment: `border: 2.5px solid #584A3E`, background slightly deeper (`#DDD8CC`), vertical padding extended (−my-3 to break grid baseline). All other pillars: `border: 1px solid #D5CDBD`.
-
-Chinese characters: 38px, Times New Roman (for authentic weight), colored by element using `elementColor()`. Sub-labels (天干, 地支): 10px Noto Serif SC, `#968C7C`.
-
-Section entrance: `opacity 0 → 1, y 30 → 0`, duration 0.8s on mount.
-
-### Section 2: Identity
+### Section 1: Identity
 
 This is the recognition moment. The animation sequence matters:
 
-1. Element seal icon springs in (scale 0.5 → 1, spring bounce 0.5)
+1. Hero stem mark fades in with brush bleed (filter ramps in over 600ms)
 2. "You are..." fades in at 0ms delay
 3. Archetype name slides up at 200ms delay
-4. Subtitle fades at 400ms
-5. Identity token pill fades at 600ms
-6. Essence paragraph fades at 800ms
+4. Brush underline draws at 350ms
+5. Manifesto line 1 fades at 500ms
+6. Three badge tiles fade in staggered (Element 600ms · Stem 700ms · Polarity 800ms)
+7. Essence paragraph fades at 1000ms
 
-**Archetype name:** Cormorant Garamond, 40px, weight 600, color `#5a4430`, letter-spacing 1px, text-shadow `0 2px 4px rgba(139,115,85,0.15)`.
+**Hero stem mark (replaces ArchetypeSeal):** A large, dominant painted stem icon — *no circle, no ring, no enclosing seal.* Centered in the section. Sized ~280px tall and positioned with a ~40px negative top margin so the tip pierces ABOVE the mountain peaks while the body of the icon descends THROUGH the mountain band; the hilt/base rests just above the eyebrow line. The silk landscape and the archetype's mark read as a single painting. The mark itself is per-stem (see §20 Asset Library — BladeJian for 庚, OakArchetype for 甲, etc.) rendered in `INK` rather than element pigment, so the painted iron / wood / fire stays Wabi-sabi monochrome and element pigment is reserved for the chip strip below. Implementation: `<HeroStemMark stem={dmStem} element={dmElement} size={280} />` → `<StemSign>` dispatcher → `<BrushJian>` (or future per-stem painted SVGs).
 
-**Identity token pill:** `庚 · Yang Metal · Blade` — element color on `#EAE5DF` background, 13px, rounded-full, inline block. The stem glyph (庚) is slightly larger (14px) in its element color. This is the shareable identity code.
+**Archetype name:** Cormorant Garamond, 44px, weight 600, color `#5a4430` (WALNUT), letter-spacing 1px, text-shadow `0 2px 4px rgba(139,115,85,0.15)`.
 
-**Element seal:** Use the existing ArchetypeSeal SVG component from the engine (see Doc 2 §2). 72px, element color. Spring animation on entry.
+**Manifesto line 1:** Cormorant Garamond italic, 22px, weight 500, color `INK_SOFT`, letter-spacing 0.3px, line-height 1.3, max-width 320px. The single-sentence stem slogan ("Precision before intention" for 庚 Blade) — first half of `identity.manifesto` split on ` · `.
 
-### Section 3: Energy Blueprint
+**Three badge tiles (replaces single token pill):** Stacked rounded-square buttons, 84×84, `borderRadius: 16`. Three chips, gap 12px:
+- **Element chip** — `<ElementSign>` (line iconography: Metal crescent / Wood tree / Water waves / Fire triangle / Earth square) in element pigment, label = element name.
+- **Stem chip** — Chinese stem character (`庚`, `乙`, …) in `Noto Serif SC`, 26px, in element pigment, label = pinyin (`GENG`, `YI`, …).
+- **Polarity chip** — `<YinYangGlyph polarity={dmPolarity}>` in element pigment, label = `Yang` or `Yin`.
+
+Tile background: flat `rgba(248,241,225,0.92)` silk fill (the same tone as `deckleCard` surfaces — Energy Blueprint card, etc.). NO gradient, NO inset highlight, NO inner ring. One hairline border in `PAPER_HAIR` that warms to `${elementPigment}55` on hover; one subtle 1px shadow that becomes a soft `${elementPigment}22` glow on hover. The tiles are sibling silk pieces with the cards below — the painted hero mark above carries the visual weight; the chips are quiet identifiers.
+
+**Why three chips, not one pill?** A pill ran the three identifiers together as a string (`庚 · Yang Metal · Blade`), which made the stem character compete with the archetype name. The three-chip layout separates the *element family*, the *stem letter*, and the *polarity* into discrete tap targets — each will open its own knowledge popup in Phase 2 (DOC5 §17 popup data contracts: `ELEMENT_KNOWLEDGE`, `STEM_KNOWLEDGE`, `POLARITY_KNOWLEDGE`).
+
+**Section composition:** The section uses `padding: '90px 32px 120px'` and `justifyContent: 'flex-start'`. The `HeroStemMark` is the first child with `marginTop: -40` so the blade tip rises into the mountain band; everything else follows in document flow. Mountains paint at `zIndex: 1` (absolute, top: 20, height: 260, masked-fade at the bottom); section content lives at `zIndex: 10`, so the painted mark renders ABOVE the mountain wash.
+
+**Background:** A single flat `#EFE5CC` silk fill spans the entire scrollable content (NOT the layered SilkPaper SVG, which only covers one viewport and produced a hairline at the section seam in earlier iterations).
+
+### Section 2: Energy Blueprint
 
 **Composition bars:** 5 rows, sorted highest count first. Each row:
 - Element icon (20px, element color)
 - Element name (EB Garamond, 15px, `#5C554D`)
-- Count fraction (`4/10`, 13px, right-aligned, `#6f6b66`)
-- 10-pip bar (each pip is a small rounded rect, not a continuous bar — this makes the count visually discrete)
+- Count fraction (`3/8`, 13px, right-aligned, `#6f6b66`) — denominator is 8 (eight characters in the chart)
+- Continuous bar: `h-2 bg-[#E5DFD1] rounded-full`, filled portion is element color, animated from 0 → `(count/8)×100%` on scroll-enter, 0.8s easeOut via Framer Motion `whileInView`
 
-Pip rendering: Filled pips use element color at 88% opacity for DM element, 58% for others. Absent element: dashed border pips, 35% opacity, "absent" italic label replacing count.
+Missing element: count shows `0/8`, bar renders empty, missing element callout card activates below.
 
 **Missing element callout card:** Background `${elementColor}10`, border `${elementColor}40`, rounded-xl, p-5. Shows element icon, "Your [Element] is missing", and the missing element paragraph from the engine.
 
-### Section 4: What Balances You
+### Section 3: Balance Prescription
 
-This section is the **product differentiator**. Every chart gets this — not just charts with missing elements.
+Shown **only when a missing element exists** (count === 0 for that element). Charts without a missing element skip directly to the CTA.
 
-```
-┌─────────────────────────────────────────┐
-│  WHAT BALANCES YOU                      │
-│                                         │
-│  ✦ WHAT ACTIVATES YOU                   │
-│  [Catalyst element card]                │
-│  [Secondary catalyst card]              │
-│                                         │
-│  ✦ WHAT DRAINS YOU                      │
-│  [Resistance element card]              │
-│  [Secondary resistance card]            │
-│                                         │
-│  ✦ WHAT IS ABSENT                       │
-│  [Absent element card, if any]          │
-│                                         │
-└─────────────────────────────────────────┘
-```
+The prescription card (`bg-[#EBE5D6] border border-[#DCD3C0] rounded-xl p-6`):
+- Header: element icon + "Cultivate [Element]" in element color, 16px, uppercase tracking-widest
+- Up to 3 categories from `getElementPrescription(missingElement)`: Environment, Colors, Timing, Physical, Diet
+- Each category: small icon (MapPin / Palette / Clock / Gem / Flame) + title (11px uppercase, `#584A3E`) + bullet list of 2–3 concrete actions
 
-Data source: `applyTiaohouToEnergies(ELEMENT_ENERGIES[dm.stem][band], dm.stem, monthBranch)`. This is the same data that powers ElementSpectrum in the dashboard — showing it here on first reveal is critical.
+**Catalyst and Resistance are NOT shown on the Reveal screen.** They live in the My Chart catalogue (§11 — `CatalystDetailPage`, `ResistanceDetailPage`). The Reveal screen's Section 4 is a simpler, corrective prescription for the absent element only.
 
-This section is currently missing from the V006 Reveal screen. Add it.
+**The link to the Today screen:** Catalyst and Resistance serve as the theoretical foundation for the dynamic energy overlay throughout the app. The daily, monthly, and annual energy scores in the Today screen weight favorably toward the user's catalyst elements and unfavorably toward resistance elements. High-flow periods are those where the current periodic element harmonizes with catalysts; clash periods are those where it conflicts with resistances. The Today screen is a live, real-time projection of the same energy dynamics the user encounters when they drill into My Chart.
 
 ---
 
@@ -613,482 +867,1092 @@ This voice comes from the `getDailyGuidance(chart, todayElement)` function. The 
 
 Rendered as card with simple list. DO items: checkbox-style left icon (`border-2 border-[#D5CDBD]`, rounded square). AVOID items: triangle warning icon left. Both use `#5C554D` body text, EB Garamond 15px, 1.7 line height.
 
+### Content tier decision
+
+| Tier | Today tab | Month tab | Year tab |
+|------|-----------|-----------|----------|
+| Free | Pre-authored templates per `DM × day element` | Calendar grid + windows card, pre-computed | Year energy card + strategic guidance template + timeline chart |
+| Pro | Claude API, streaming, full Canonical JSON context | Same as free (calendar is always computed) | Claude API strategic guidance, streaming |
+
+The calendar grid and timeline chart are always computed locally — they don't require LLM calls. Only narrative guidance (the 2–3 sentence personalized text) differs between tiers.
+
 ### Month tab
 
-Calendar grid showing each day colored by its element. High-flow days (element harmonizes with DM) get a soft glow. Clash days get a subtle X overlay. Tap a day → slide-in panel showing that day's guidance.
+**Calendar grid:** 7-column layout (Mon–Sun header row), 4–5 rows of day cells. Each day cell:
+- Day number (16px, `#2C2825`)
+- Element dot below the number: small colored circle (8px) in that day's element color — element cycles through the 5-element sequence per the solar calendar's daily branch
+
+High-flow days (periodic element harmonizes with DM catalysts): warm border `#D4AF37`, soft gold background tint. No explicit clash marker in V1 — clash days simply render in their element color without embellishment.
+
+**High Flow / Clash Windows card** (below calendar, `bg-[#EBE5D6] border border-[#DCD3C0] rounded-xl`): lists 2–3 date ranges of favorable energy ("High Flow: Apr 3–7, Apr 18–22") and 1–2 challenging ranges ("Challenging: Apr 12–14"). These are pre-computed from `temporal.js` for the current month.
+
+**Day tap:** Bottom slide-in sheet. Shows that day's element name, DO THIS / AVOID / BEST HOURS — same component as the Today tab daily guidance card, but seeded with the tapped date rather than today's date.
 
 ### Year tab
 
-Seasonal overview. Four sections: Spring / Summer / Autumn / Winter. Each shows the dominant element energy for that quarter and a 2–3 sentence strategic note for this user's DM.
+Three stacked cards:
+
+**Year Energy card:** The sovereign year's elemental character. Displays the year's heavenly stem + earthly branch (e.g., 丙午 for Fire/Horse 2026), the element label, and a 2–3 sentence description of the year's energetic archetype.
+
+**Strategic Guidance card:** 3–4 sentences personalized to the user's DM — how the year's dominant element interacts with their nature. Free tier: pre-authored template per `[DM stem] × [year element]` combination (~50 templates covering all 10 stems × 5 elements). Pro tier: generated via Claude API with the user's Canonical JSON as context, streamed.
+
+**Energy Timeline chart:** `recharts` `BarChart`, 12 bars (Jan–Dec) on the X-axis. Y-axis: relative energy score (0–100), derived from each month's branch element weighted against the user's catalyst and resistance elements. Bar color: `#D4AF37` (gold) for high-flow months, `#C9C3B8` (muted stone) for neutral/low months. Hover tooltip: month name + energy label ("High Flow" / "Neutral" / "Challenging"). Y-axis values are hidden — the relative visual comparison is what communicates, not the number.
+
+**Temporal calculation note:** All energy scores — daily, monthly, annual — are computed by `engine/temporal.js`. The scoring function weights each periodic element positively for elements matching the user's catalysts and negatively for elements matching resistances. This makes the Today screen a live projection of the energy dynamics already established in the My Chart reading layer (§11).
 
 ---
 
-## §11 — My Chart Screen (Reading Layer)
+## §11 — Energy Map Screen (Reading Layer)
 
-**Route:** `/dashboard/chart`
-**Purpose:** The deepest identity content. DayMasterHero + ElementSpectrum + ProfileReading in one scrollable experience.
+**Route:** `/dashboard/energy-map`
+**Purpose:** The heart of the product. The user's elemental identity expressed as a navigable catalogue — not a scroll, not a chart, but a reading you move through. Every section is drillable. The deeper you go, the more precisely the product mirrors who you are.
 
-This is the **center tab** and the heart of the product. It is also where the engine's full content lives — the teaser, p1, p2, gifts, edges, landscape, twoAM, and the 50-key dominant energy readings.
+**Design principle:** The traditional 八字 birth chart (Four Pillars grid) is intentionally absent from this screen. Western users don't need to decode Chinese characters to feel the depth of their chart — they need the meaning, in language they already speak. The Energy Map surfaces that meaning directly: archetypes, elemental forces, dynamic patterns. The raw chart data is accessible via a separate opt-in view (see Birth Chart Raw Data Page below) for users who want it.
 
-### Layout — three sequential deliverables
+---
 
-```
-DELIVERABLE 1: WHO YOU ARE (DayMasterHero)  ← full viewport, no scroll
-  [Identity icon: stem-specific SVG, ~175px]
-  Archetype name (38px Cormorant, bold)
-  ─── 3 badge tiles (horizontal row) ───
-    [Element gem icon]   [Stem character]   [Half taichi]
-       METAL                 庚 GĒNG           YANG
-  ─── manifesto (2-line centered) ───
-    Line 1: "Precision before intention"  (14px bold)
-    Line 2: "An edge is never given — it is forged."  (14px)
-  [scroll hint: "Discover ↓" anchored to bottom]
+### Architecture: Catalogue Navigation
 
-  ─── divider ───
+Energy Map is a two-level navigation system:
 
-DELIVERABLE 2: YOUR ENERGY BLUEPRINT (ElementSpectrum)
-  "YOUR ELEMENTAL NATURE"
-  [Element icon] [band mode label] [approach]
-  Trait paragraph (3–4 sentences)
-  Approach line
-  ─── divider ───
-  "DOMINANT ENERGY" or "WHAT SHAPES YOU MOST"
-  [1–3 dominant energy cards]
-  ─── divider ───
-  "WHAT ACTIVATES YOU"
-  [Catalyst cards]
-  ─── divider ───
-  "WHAT CREATES FRICTION"
-  [Resistance cards]
-  ─── divider ───
-  "WHAT IS ABSENT" (if present)
-  [Absent element cards]
-  ─── divider ───
-  "WHO YOU ARE"
-  [Teaser text, italic 16px]
+**Level 1 — Catalogue home (`page === null`)**
+DayMasterHero sits at the top and fades seamlessly into the EnergyMapMenu below. The catalogue is a vertical stack of rich section cards — each is simultaneously an infographic teaser and the tap target to enter its detail page.
 
-  ─── divider ───
+**Level 2 — Detail pages**
+Each section card navigates to a dedicated full-page detail view wrapped in `DetailShell` — a shared nav shell providing back button, position counter ("3 of 8"), and previous/next strip at the bottom.
 
-DELIVERABLE 3: YOUR READING (ProfileReading)
-  [Energy ring 48px]  [strength label]
-  ─── 2 AM THOUGHT ───
-  "Formed. Capable. Still waiting..."
-  ┌─────────────────────────────────────┐
-  │ ★ CORE GIFTS                        │
-  │ Decisive Clarity · [desc]           │
-  │ Productive Force · [desc]           │
-  │ Honest Directness · [desc]          │
-  └─────────────────────────────────────┘
-  ┌─────────────────────────────────────┐
-  │ 〰 GROWING EDGE                      │
-  │ Combative Certainty · [desc]        │
-  │ Closed to Shaping · [desc]          │
-  └─────────────────────────────────────┘
-  ┌─────────────────────────────────────┐
-  │ ↗ YOUR LANDSCAPE                    │
-  │ thrives · [text]                    │
-  │ costs · [text]                      │
-  └─────────────────────────────────────┘
+### Page state routing
 
-  [Four Pillars grid — reference]
+React `useState` controls which layer is active:
 
-  [Birth coordinates: date · time · location]
+| `page` value | Component rendered |
+|---|---|
+| `null` | EnergyMapMenu (catalogue home) |
+| `"yourNature"` | YourNatureDetailPage |
+| `"dom_0"` | DomDetailPage (idx=0, Primary Force) |
+| `"dom_1"` | DomDetailPage (idx=1, Secondary Force) |
+| `"seasonal"` | SeasonalDetailPage (conditional) |
+| `"catalyst"` | CatalystDetailPage |
+| `"resistance"` | ResistanceDetailPage |
+| `"lifeChapters"` | LifeChaptersDetailPage |
+| `"patterns"` | ChartPatternsDetailPage |
+
+### Routing block
+
+```jsx
+<DayMasterHero chart={chart} onOpenPopup={t => setPopup(t)} onRevealChart={() => navigate('/chart-reveal')}/>
+{page === null && <EnergyMapMenu chart={chart} onNavigate={p => setPage(p)}/>}
+{page === "yourNature" && <YourNatureDetailPage chart={chart} onNavigate={p => setPage(p)}/>}
+{page?.startsWith("dom_") && <DomDetailPage chart={chart} idx={parseInt(page.split("_")[1])} onNavigate={p => setPage(p)}/>}
+{page === "seasonal" && <SeasonalDetailPage chart={chart} onNavigate={p => setPage(p)}/>}
+{page === "catalyst" && <CatalystDetailPage chart={chart} onNavigate={p => setPage(p)}/>}
+{page === "resistance" && <ResistanceDetailPage chart={chart} onNavigate={p => setPage(p)}/>}
+{page === "lifeChapters" && <LifeChaptersDetailPage chart={chart} cycles={cycles} onNavigate={p => setPage(p)}/>}
+{page === "patterns" && <ChartPatternsDetailPage chart={chart} onNavigate={p => setPage(p)}/>}
 ```
 
-### Deliverable 1: DayMasterHero
+### Catalogue section order (8 sections)
 
-The identity card is the **first reading deliverable** and the emotional anchor of the entire app. It occupies the full visible screen area on entry — the user should see nothing else until they scroll. It is not a card inside a page; it is the page.
+```
+1. Your Nature           → YourNatureDetailPage
+2. Primary Force         → DomDetailPage idx=0
+3. Secondary Force       → DomDetailPage idx=1
+4. Seasonal Calibration  → SeasonalDetailPage (conditional on missing elements)
+5. Catalyst              → CatalystDetailPage
+6. Resistance            → ResistanceDetailPage
+7. Life Chapters         → LifeChaptersDetailPage  (NEW)
+8. Chart Patterns        → ChartPatternsDetailPage (NEW)
+```
 
-#### User journey
+### getSections() — Navigation sequence
 
-1. **Hook (instant)** — The large identity icon for the user's Day Master fills the visual center. It is not abstract clip-art; it is a rendered illustration specific to their stem. Before reading a word, the user sees an image that is already *theirs*.
-2. **Recognition (1–2 seconds)** — The archetype name resolves: `THE BLADE`. Bold, large, unambiguous. The user's identity is named, not described.
-3. **Education (on demand)** — Three badge tiles sit below the name. Each tile is interactive. Tapping reveals a knowledge panel that teaches the domain concept and places the user within it. This is the app's orientation layer — it answers "what does this mean?" without cluttering the primary recognition moment.
-4. **Resonance (5–10 seconds)** — The two-line manifesto beneath the badges provides a personal, poetic counterpoint to the bold name. Line 1 is a thesis. Line 2 is the live edge of it. Together they create the "yes — that's me" moment that converts a curious user into a committed one.
-5. **Pull to depth** — A scroll hint at the screen bottom ("Discover ↓") signals that more exists, without making it feel like a required action.
+```js
+function getSections(chart) {
+  const secs = [];
+  secs.push({ key: "yourNature",    tag: "Your Nature",    label: "Your Nature"         });
+  secs.push({ key: "dom_0",         tag: "Primary Force",  label: "Primary Force"       });
+  if (chart.dominantTGs.length > 1)
+    secs.push({ key: "dom_1",       tag: "Secondary Force",label: "Secondary Force"     });
+  if (chart.missingElements?.length)
+    secs.push({ key: "seasonal",    tag: "Seasonal",       label: "Seasonal Calibration"});
+  secs.push({ key: "catalyst",      tag: "Catalyst",       label: "What Lifts You"      });
+  secs.push({ key: "resistance",    tag: "Resistance",     label: "What Depletes You"   });
+  secs.push({ key: "lifeChapters",  tag: "Life Chapters",  label: "Your Decades"        });
+  secs.push({ key: "patterns",      tag: "Patterns",       label: "Chart Patterns"      });
+  return secs;
+}
+```
 
-#### Layout
+Energy Blueprint is excluded from `getSections()` — it is a non-navigable container in the catalogue home.
 
-Full-screen container. `minHeight: 640px`, `display: flex`, `flexDirection: column`, `alignItems: center`, `justifyContent: center`. Background: a dark, element-tinted gradient (`${elementColor}15` → `${elementColor}05` → page background). No hard card border or border-radius in the phone-frame context — the card *is* the screen.
+---
 
+### Content tier split
+
+| Section | Free | Seeker | Advisor |
+|---------|------|--------|---------|
+| Your Nature | Teaser — 2-sentence identity description, element bars | Full reading — essence paragraph, tgPattern visualization, elementIntro pair | Same as Seeker |
+| Primary Force (TG) | Teaser — archetype name + 1 sentence + domain hint | Full TG archetype reading — all domain readings, life implications | + "Ask consultant about this →" button |
+| Secondary Force (TG) | Teaser | Full reading | + Consultant button |
+| Seasonal Calibration | Teaser — element name + 1 line | Full prescription | Same as Seeker |
+| Catalyst | Teaser — element name + 1 word descriptor | Full catalyst reading | + Consultant button |
+| Resistance | Teaser — element name + 1 word descriptor | Full resistance reading | + Consultant button |
+| Life Chapters | Current decade name + element only | Full current decade + full timeline | + Future decade AI guidance |
+| Chart Patterns | Pattern count badge only | Full pattern readings | + Pattern-seeded consultant |
+
+**Lock state visual treatment:**
+Locked content appears below a visible section header and a 1–2 sentence preview, then blurs with `backdrop-blur-sm` over a `rgba(248,246,240,0.7)` overlay. A small tier badge (◆ Seeker or ✦ Advisor) and `Lock` icon (16px, `#8C857B`) sit centered over the blur. The teaser is generous enough that the user understands what they would be reading — not so generous that they don't need to upgrade.
+
+---
+
+### DayMasterHero → Catalogue gradient transition
+
+DayMasterHero includes a gradient overlay at its bottom edge:
+
+```css
+position: absolute
+bottom: 0
+left: 0
+right: 0
+height: 120px
+background: linear-gradient(to bottom, transparent 0%, #f7f3ec 100%)
+pointer-events: none
+```
+
+EnergyMapMenu container: `background: #f7f3ec` — matches gradient endpoint exactly. No visual seam.
+
+### Birth chart reveal button (in DayMasterHero)
+
+A subtle link sits beneath the archetype name in DayMasterHero:
+
+```
+[◦ View your birth chart  →]
+```
+
+```
+font-family: EB Garamond, serif
+font-size: 13px
+color: #8C857B
+letter-spacing: 0.5px
+text-decoration: none
+border-bottom: 1px dashed #C5BDB0
+padding-bottom: 2px
+```
+
+Tapping it navigates to `/chart-reveal` — a dedicated page (see Birth Chart Raw Data Page below). This is intentionally quiet — power users find it, casual users don't need it.
+
+---
+
+### DayMasterHero
+
+**Container:**
+```
+background: linear-gradient(180deg, #2C2825 0%, #3d342b 60%, #f7f3ec 100%)
+min-height: 52vh
+padding: 60px 20px 0
+display: flex
+flex-direction: column
+align-items: center
+text-align: center
+position: relative
+```
+
+**Element seal:** ArchetypeSeal SVG, 88px, element color. Springs in on mount: `scale: 0 → 1`, spring bounce 0.4.
+
+**Archetype name:** Cormorant Garamond, 36px, weight 600, `#F8F6F0`, letter-spacing 1px.
+
+**Archetype subtitle:** EB Garamond italic, 17px, `#C5BDB0`.
+
+**Identity token:** `[庚 · Yang Metal · The Blade]` — EB Garamond 13px, element color on `rgba(255,255,255,0.08)` bg, rounded-full, padding `4px 12px`. The stem glyph is 14px in the element's deep color.
+
+**Element-colored TG ring:** Below the identity token. A single radial donut ring — the primary identity visual that anchors the entire Energy Map screen. Replaces the flat element spectrum bar.
+
+```
+Ring dimensions:
+  width: 200px
+  height: 200px
+  outer radius: 100px
+  inner radius: 60px (donut hole)
+  gap between segments: 2.5° each
+  center: Day Master element name + polarity (small, muted)
+```
+
+The ring encodes **two dimensions simultaneously** in a single visual:
+- Segment **size** = weight of each Ten God in the chart (computed from all four pillars)
+- Segment **color** = element that Ten God represents relative to the user's Day Master
+
+**Element-to-role color mapping** (consistent across all Day Masters from the user's perspective):
+
+| Color | Element | Role |
+|-------|---------|------|
+| Fire red `#c85a3c` | Fire | Authority |
+| Earth gold `#c8963c` | Earth | Resource |
+| Wood green `#4a9a5c` | Wood | Wealth |
+| Water blue `#3c6a9a` | Water | Output |
+| Metal silver `#b0b8c8` | Metal | Companion |
+
+The engine maps each TG group to its element relative to the DM internally — the user always sees the same intuitive color language regardless of their Day Master. A Fire-heavy ring always means strong Authority energy in the user's chart. A Water-heavy ring always means strong Output/creative energy.
+
+**tgPattern label:** Beneath the ring, centered:
+```
+[PATTERN NAME]            ← 9px, monospace, #c8a96e, uppercase, tracking 2px
+Pattern descriptor        ← 7px, #f0ece4, opacity 0.5, italic
+```
+
+**Ring animation:** On first mount, segments sweep in from the top (12 o'clock) clockwise. Duration 800ms, stagger 30ms per segment, spring easing. On subsequent mounts: no animation, static render.
+
+**Tap behavior:** Tapping the ring navigates to the Your Nature detail page (page = "yourNature"), which contains the full tgPattern visualization and reading.
+
+**Archetype essence:** EB Garamond, 15px, `rgba(248,246,240,0.85)`, max-width 320px, line-height 1.8. Begins to fade into the gradient below. Rendered below the ring.
+
+**Birth chart link:** Positioned after the essence paragraph, before the gradient fade-out zone.
+
+---
+
+### tgPattern Visual System
+
+tgPattern describes the **structural distribution** of Ten Gods across the chart — the energetic fingerprint of how forces are arranged, not which force dominates individually.
+
+**Five pattern types:**
+
+| Pattern | Structure | Descriptor |
+|---------|-----------|------------|
+| **Pure** | One TG type overwhelmingly dominant (>50% weight) | Strength through singularity |
+| **Rooted** | Dominant TG appears in both heavenly stems and earthly branches | Anchored, consistent expression |
+| **Flowing** | TGs cycle in productive sequence across pillars | Fluid movement between modes |
+| **Forging** | Two competing TG groups (e.g., Authority + Companion) clash for dominance | Strength through tension |
+| **Tested** | Strong controlling forces (Authority) weigh heavily against the DM | Identity shaped by constraint |
+
+**Computation:** `tgPattern` is derived separately from `getDominantTenGod()`. It analyzes the weight distribution across all 10 TG slots and classifies the structural type. A user can have 正官 as their dominant TG (the highest individual score) and a Forging pattern (the overall structural shape), simultaneously.
+
+**On the Full Profile Card (DayMasterHero):** Pattern name + one-line descriptor beneath the ring.
+
+**On YourNatureDetailPage:** A dedicated tgPattern section shows the ring in larger format (240px) with the pattern name, full descriptor paragraph, and (Seeker+) the breakdown of which TG groups are creating the pattern.
+
+**On the EnergyMapMenu catalogue card:** Pattern type shown as a small badge beneath the section title.
+
+---
+
+### EnergyMapMenu — Catalogue Home
+
+**Container:** `background: #f7f3ec`, `padding: 0 16px 100px` (100px bottom for nav bar clearance).
+
+**Section header:** `YOUR ENERGY MAP` — 11px, tracking 0.3em, uppercase, `#8C8273`, weight 500, margin-bottom 16px.
+
+**Section card order:**
+```
+┌────────────────────────────────────────────┐
+│  ① Your Nature                    [tap →]  │
+│────────────────────────────────────────────│
+│  ② Energy Blueprint               [info]   │  ← non-tappable outer container
+│     └ Primary Force               [tap →]  │
+│     └ Secondary Force             [tap →]  │
+│────────────────────────────────────────────│
+│  ③ Seasonal Calibration           [tap →]  │  ← conditional
+│────────────────────────────────────────────│
+│  ④ Catalyst / Resistance       [col col]   │  ← two-column row
+│────────────────────────────────────────────│
+│  ⑤ Life Chapters (大运)           [tap →]  │  ← NEW
+│────────────────────────────────────────────│
+│  ⑥ Chart Patterns (合冲刑害)      [tap →]  │  ← NEW
+└────────────────────────────────────────────┘
+```
+
+**Section card base spec:**
+```
+background: #EBE5D6
+border: 1px solid #DCD3C0
+border-radius: 16px
+padding: 20px
+margin-bottom: 12px
+cursor: pointer
+transition: transform 150ms, box-shadow 150ms
+
+hover / tap:
+  transform: translateY(-1px)
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06)
+```
+
+**Card content:** Tag label (10px uppercase, `#8C8273`), section title (22px EB Garamond, `#2C2825`), 1-line teaser or infographic element, right-side chevron `→` (`#C5BDB0`).
+
+---
+
+### Life Chapters detail page (NEW)
+
+**Purpose:** The temporal dimension of the chart — how the user's energy unfolds across 10-year Decade Luck Cycles.
+
+**Entry point:** Tapping the Life Chapters catalogue card, OR tapping the Decade Indicator card on the Today tab.
+
+#### Decade Timeline Strip
+
+A horizontally scrollable strip of decade cards, each representing one 10-year period:
+
+```
+← [AGE 8–18] [AGE 18–28] [AGE 28–38 ●] [AGE 38–48] [AGE 48–58] →
+      Wood       Water      [CURRENT]      Fire          Earth
+   muted/60%   muted/60%   full opacity  Seeker lock   Seeker lock
+```
+
+**Individual decade card:**
+```
+width: 80px
+height: 80px
+border-radius: 12px
+display: flex flex-col items-center justify-center
+background: [element color]15
+border: 1px solid [element color]40
+
+Current decade:
+  border: 2px solid [element color]
+  background: [element color]20
+  scale: 1.05
+
+Past decades:
+  opacity: 0.6
+  filter: grayscale(20%)
+
+Future decades (Seeker+):
+  full opacity, visible
+  overlay: Lock icon 14px centered, Seeker badge
+
+Future decades (free):
+  opacity: 0.35
+  overlay: Lock icon + "Seeker" badge
+```
+
+**Decade card labels:**
+- Age range: 10px, `#8C8273`, uppercase
+- Element name: 14px EB Garamond, element color
+
+#### Decade reading (below strip)
+
+**Free:** Decade name, element, stem-branch characters (天干 地支), 1-sentence energy description. CTA: `◆ Unlock full reading with Seeker`.
+
+**Seeker:**
+- Section heading: e.g., "The Water Decade · AGE 28–38"
+- Element identity paragraph (3–4 sentences): what energy this decade carries, its character
+- Domain impact table: how each of the 5 life domains is activated or dampened this decade
+- Transition note: what the entry into this decade felt like / will feel like
+- The full timeline shows all decades including past, all readable
+
+**Advisor:** Same as Seeker + `"Ask your consultant about this decade →"` button at the bottom. AI conversation seeded with the decade context.
+
+**Components needed:** `DecadeTimelineStrip`, `LifeChaptersDetailPage`, `DecadeLockCard`
+
+---
+
+### Chart Patterns detail page (NEW)
+
+**Purpose:** The structural dynamics of the chart — combinations, clashes, and tensions between pillars that create specific life tendencies.
+
+**Catalogue card teaser:** Shows a pattern count badge: *"2 active patterns in your chart"* in a small pill `bg-[#EBE5D6] border border-[#DCD3C0]`. This alone compels the tap — everyone wants to know what their patterns are.
+
+#### Pattern Badge component
+
+```
+display: inline-flex items-center gap-4px
+padding: 4px 10px
+border-radius: 9999px
+font-size: 11px
+letter-spacing: 0.05em
+text-transform: uppercase
+
+Combination (合): bg-[Wood color]15, border-[Wood color]40, text-[Wood color deep]
+Clash (冲):        bg-[Fire color]15, border-[Fire color]40,  text-[Fire color deep]
+Penalty (刑):      bg-[Metal color]15, border-[Metal color]40, text-[Metal color deep]
+Harm (害):         bg-[Water color]15, border-[Water color]40, text-[Water color deep]
+```
+
+#### Pattern detail page
+
+**Free:** Pattern count badge only on the catalogue card. Detail page: list of pattern names (type + elements involved) with readings blurred. Lock overlay per pattern. "Unlock all pattern readings with Seeker."
+
+**Seeker:** Each pattern rendered as a full card:
+```
+[Pattern type badge]  [Pattern name]
+[Elements involved: e.g., "甲 + 己 → Earth Combination"]
+[Reading: 3–4 sentences explaining what this pattern creates as a tendency]
+```
+
+**Advisor:** Each pattern card adds `"Explore this with your consultant →"` at the bottom. Opens AI Consultant seeded with pattern as topic.
+
+**Pattern types to detect and display:** Six Combinations (六合), Six Clashes (六冲), Three Penalties (三刑), Six Harms (六害), Directional Combinations (三合 / 方合).
+
+**Note for implementation:** Pattern detection logic must be added to `engine/calculator.js`. Patterns are derived from the branch (地支) relationships in the chart's four pillars.
+
+**Components needed:** `PatternBadge`, `ChartPatternsDetailPage`, `PatternCard`, `PatternLockOverlay`
+
+---
+
+### Birth Chart Raw Data Page
+
+**Route:** `/chart-reveal`
+**Access:** Via "View your birth chart →" link in DayMasterHero. Navigates as a full-page push (not a modal).
+**Purpose:** The traditional 八字 Four Pillars display for users who want the raw data. No interpretation, no guidance — purely the chart.
+
+**Conditional rendering — 4-pillar vs 3-pillar:**
+
+The page checks `chart.hourPillar \!== null` before rendering. This is not a degraded state — three-pillar (三柱) BaZi is a legitimate practice with centuries of tradition.
+
+| Hour input at onboarding | Chart display | Hour pillar treatment |
+|--------------------------|---------------|-----------------------|
+| Exact time | 4-column grid | Full confidence, no indicator |
+| Approximate window | 4-column grid | `~` prefix on hour stem character, hover shows window range |
+| Unknown (null) | 3-column grid | No fourth column rendered |
+
+**4-pillar layout (hour known or approximate):**
+```
+← Back                              [page header]
+
+YOUR BIRTH CHART · 八字排盘
+
+┌──────┬──────┬──────┬──────┐
+│ YEAR │MONTH │ DAY  │ HOUR │
+│      │      │  ↑   │      │
+│  乙  │  庚  │  庚  │ ~乙  │  ← ~ prefix if approximate
+│ 天干 │ 天干 │Master│ 天干 │
+│──────│──────│──────│──────│
+│  亥  │  辰  │  寅  │  酉  │
+│ 地支 │ 地支 │ 地支 │ 地支 │
+└──────┴──────┴──────┴──────┘
+
+BIRTH COORDINATES
+Date · Time (or "Approximate: [window]") · True Solar Time · Location · Energy current
+
+[Footer: "To understand what these characters mean, visit the Codex →"]
+```
+
+**3-pillar layout (hour unknown):**
+```
+← Back                              [page header]
+
+YOUR BIRTH CHART · 三柱排盘
+
+        ┌──────┬──────┬──────┐
+        │ YEAR │MONTH │ DAY  │
+        │      │      │  ↑   │
+        │  乙  │  庚  │  庚  │
+        │ 天干 │ 天干 │Master│
+        │──────│──────│──────│
+        │  亥  │  辰  │  寅  │
+        │ 地支 │ 地支 │ 地支 │
+        └──────┴──────┴──────┘
+
+        "Birth hour not provided — showing three-pillar chart."
+        [Refine your hour →]
+
+BIRTH COORDINATES
+Date · Location · Energy current
+
+[Footer: "To understand what these characters mean, visit the Codex →"]
+```
+
+The 3-pillar grid is centered horizontally. No empty fourth column, no placeholder, no error indicator. The subtitle beneath (*"Birth hour not provided"*) is 13px EB Garamond italic, `#6f6b66` — quiet, factual, not apologetic. The *"Refine your hour →"* link initiates the chart resonance feature (see below).
+
+**Day Pillar highlight:** `border: 2.5px solid #584A3E`, extended padding, background `#DDD8CC`. All other pillars: `border: 1px solid #D5CDBD`.
+
+**Chinese characters:** 38px, Times New Roman, colored by element via `elementColor()`. Sub-labels (天干, 地支): 10px Noto Serif SC, `#968C7C`. Approximate hour stem: rendered in element color at 60% opacity with `~` prefix in `#8C857B`.
+
+**Codex footer link:** 13px EB Garamond, `#8C857B`, dashed underline.
+
+**No interpretation copy on this page.** No archetype name, no element description, no guidance text.
+
+---
+
+### Chart Resonance Feature (hour refinement)
+
+**Purpose:** Allow users who skipped the birth hour at onboarding to estimate their hour 时辰 after they are already invested in the product. Based on the traditional BaZi practitioner technique of presenting hour archetypes and asking for resonance.
+
+**Entry points:**
+- *"Refine your hour →"* link on the Birth Chart Raw Data page (3-pillar state)
+- *"Your birth chart is partial — refine your hour →"* card in Profile screen
+- Proactive prompt after 3 sessions: *"Want a more complete chart? It takes 2 minutes."*
+
+**Flow:**
+
+Step 1 — Introduction card:
+```
+"Discover your birth hour"
+
+Your Day Master is already complete — your core identity,
+elemental nature, and most readings are fully accurate.
+Adding your birth hour refines the final layer.
+
+We'll show you a few portraits. Pick the one that
+sounds most like how others experience you.
+
+[Begin →]
+```
+
+Step 2 — Portrait selection (2–3 rounds):
+For each round, present 3 short hour archetype portraits (50–70 words each) drawn from the most likely 时辰 configurations for the user's Day Master. Each portrait describes how the person shows up to others — not how they see themselves. This is the hour pillar's domain.
+
+Example portraits for a Metal DM:
 ```
 ┌────────────────────────────────────────┐
-│                                        │
-│                                        │
-│         [Identity icon SVG]            │
-│             ~175 × 175px               │
-│                                        │
-│           THE BLADE                    │
-│      38px · Cormorant · bold           │
-│                                        │
-│   ┌────────┐ ┌────────┐ ┌────────┐    │
-│   │  ◈     │ │  庚    │ │  ☯︎    │    │
-│   │ METAL  │ │庚 GĒNG │ │  YANG  │    │
-│   └────────┘ └────────┘ └────────┘    │
-│         (badge tiles — 76 × 72px)      │
-│                                        │
-│    Precision before intention          │
-│  An edge is never given — it is forged.│
-│                                        │
-│                                        │
-│              Discover ↓                │  ← absolute, bottom
+│  "People sense your precision before   │
+│   you speak. You arrive prepared.      │
+│   Others often assume you're in charge │
+│   even when you haven't claimed it."   │
+└────────────────────────────────────────┘
+
+┌────────────────────────────────────────┐
+│  "You draw people in without trying.   │
+│   There's a warmth in how you listen   │
+│   that makes others feel understood    │
+│   before you've said much at all."     │
+└────────────────────────────────────────┘
+
+┌────────────────────────────────────────┐
+│  "You're often underestimated at first.│
+│   Your energy is quieter than your     │
+│   depth. People are surprised by how   │
+│   much you've already observed."       │
 └────────────────────────────────────────┘
 ```
 
-#### Identity icon
+Each portrait maps to a specific hour element grouping. Selection narrows candidates from 12 → 4–6 → 2–3 时辰.
 
-Each of the 10 stems has its own rendered SVG identity icon. The icon is the visual signature of the archetype — it should be immediately evocative without being literal. Size: `~175px` tall, centered horizontally.
+Step 3 — Confirmation + update:
+*"Based on your selections, your most likely birth hour is [时辰 range, e.g., 酉时 · 5–7pm]."*
+Confidence indicator: High / Moderate / Approximate.
 
-See **§20 Asset Library** for current icon implementations and the specification for each stem.
+If high confidence → chart updates to 4-pillar immediately.
+If moderate/approximate → chart updates with `~` indicator on hour stem.
 
-#### Archetype name
-
-Cormorant Garamond, 38px, weight 600, `#2a2420`. Letter-spacing 1px. Uppercase. Centered. This is the largest piece of text on the screen — the hero moment. No subtitle or descriptor sits alongside it; the identity label lives in the badge tiles below.
-
-#### Badge tiles
-
-Three tiles in a horizontal row, with `gap: 12px` between them. Each tile is `76px wide × 72px tall minimum`, centered content, `border-radius: 12px`.
-
-| Tile | Icon | Label | Popup type |
-|---|---|---|---|
-| Element | ElementGem SVG (faceted polygon, element color) | e.g. `METAL` | `"element"` |
-| Stem | Chinese character (20px) + pinyin (9px) | e.g. `庚` + `GĒNG` | `"stem"` |
-| Polarity | HalfTaichi SVG (yang = right half, yin = left half) | e.g. `YANG` | `"polarity"` |
-
-Tile styling: background `${elementColor}0e`, border `1px solid ${elementColor}25`. On hover/active: background lifts to `${elementColor}18`. Label text: 10px, uppercase, letter-spacing `0.13em`. Tiles are fully interactive — each opens its respective knowledge popup.
-
-#### Badge tile popups
-
-Popups render as full-screen overlays inside the phone frame using `position: absolute; inset: 0; zIndex: 200`. They sit outside the scrollable content div so they never get clipped. Rendered by the `HeroPopupOverlay` component which accepts `popup` type, `chart`, and `onClose`.
-
-**Element popup (`"element"`):**
-- Header: `[Element] is your element` (e.g. `Metal is your element`)
-- Explainer: 1–2 sentences on what an element means in BaZi / Five Elements cosmology
-- Five Elements grid: all 5 elements shown as color-coded tiles with Chinese character, English name, and a 3–4 word descriptor (e.g. Metal → Precision · Structure · Clarity)
-- Close: tap backdrop or × button
-
-**Stem popup (`"stem"`):**
-- Header: `[Pinyin] is your Day Master` (e.g. `Gēng is your Day Master`)
-- Explainer: 1–2 sentences on what a Day Master is in BaZi — the Heavenly Stem of the birth day, the core identity pillar
-- Ten Stems grid: all 10 stems arranged by element group, each stem shown as a colored tile with the Chinese character, pinyin, and English archetype name; the user's own stem is highlighted
-- Close: tap backdrop or × button
-
-**Polarity popup (`"polarity"`):**
-- Header: `Your polarity is [Yang/Yin]`
-- Explainer: 1–2 sentences on Yin/Yang from Taoist cosmology — the dual nature of all force
-- Full taichi SVG: rendered with split-opacity treatment, Yang half fully lit, Yin half at reduced opacity (or vice versa for Yin DMs)
-- Yang/Yin legend below the taichi: two labeled halves explaining each polarity's character in 4–6 words
-- Close: tap backdrop or × button
-
-#### Two-line manifesto
-
-Source: `ARCHETYPE_MANIFESTO[stem]` — a single string using ` · ` as the two-line separator. Split on that separator at render time.
-
+**Reveal moment:**
 ```
-manifestoRaw.split(" · ") → [line1, line2]
+[Element seal animation — same spring as Reveal screen]
+"Your chart is now complete."
+[View your updated chart →]
 ```
 
-- **Line 1** (thesis): EB Garamond, 14px, weight 600 (semi-bold), `#3a3530`, centered. Example: *Precision before intention*
-- **Line 2** (live edge): EB Garamond, 14px, weight 400, `#5a5550`, centered. Example: *An edge is never given — it is forged.*
-- Container: `maxWidth: 300px`, `textAlign: center`, `lineHeight: 1.6`
-- Gap between the two lines: `6px`
+**Components needed:** `ChartResonanceFlow`, `HourPortraitCard`, `HourConfirmationCard`
+**Data needed:** Hour portrait copy per DM × element group combination (~50 portraits total)
 
-The ` · ` separator is part of the data contract. All 10 stems must have a manifesto string in this format. See §17 and DOC4 §2 for field spec.
+## §12 — Guidance Screen (Premium Feature Hub)
 
-#### Scroll hint
-
-Absolute-positioned at the bottom of the identity card container. `bottom: 24px`, centered. Two elements stacked:
-- `DISCOVER` — 9px, uppercase, letter-spacing `0.18em`, `${elementColor}80` (semi-transparent element color)
-- Chevron-down SVG — 16px, same color
-
-The hint pulses gently (`opacity: 0.6 → 1.0 → 0.6`, 2s cycle) to signal interactivity without demanding it.
-
-### Deliverable 2: ElementSpectrum
-
-**Your Elemental Nature card:**
-
-Fills the full phone viewport (minHeight: 728px). Four layers stacked vertically; Layer 4 pins to the bottom with `marginTop: auto`.
-
-**Layer 0 — "The Element" block** (world-building, always shown, always free):
-
-```
-┌──────────────────────────────────────────┐
-│  THE ELEMENT  (9px s-caps)              │
-│                                          │
-│  "The Blade is the ancient cutting       │  ← punch: element color, 15.5px, weight 500
-│   force of Metal."                       │
-│                                          │
-│  "Sharp without announcement, cold       │  ← expand: deep warm body, 13.5px
-│   without cruelty — it carries in a      │
-│   person the stillness of something      │
-│   that has already decided."             │
-│                                [SVG ↗]  │  ← stem illustration, right-aligned, centered
-└──────────────────────────────────────────┘
-```
-
-- Data source: `archetypeSource.js` → `identity.elementIntro.{punch, expand}`
-- SVG: stem-specific archetype illustration (non-iconic angle — see §20 Asset Library). For 庚: top-down face view of the blade showing fuller grooves, cross-guard, and tang.
-- Neither sentence uses "you". Register: world-building / game lore / elemental force description.
-- Word limits: punch 9–12 words · expand 16–20 words. See DOC7 §3 for authoring spec.
-
-**Layers 1–4 — Energy condition reading:**
-
-```
-┌──────────────────────────────────────────┐
-│  YOUR NATURE · THE BLADE  (9px s-caps)  │
-│                                          │
-│  [psychCore desc — 2 sentences]          │
-│  ─────────────────────────────           │
-│  "pull quote from experience block"      │
-│  ─────────────────────────────           │
-│  [Yang col]        [Yin col]             │
-│  ─────────────────────────────           │
-│  There's a specific condition that...  › │  ← Layer 4 pinned to bottom
-└──────────────────────────────────────────┘
-```
-
-Band mode labels and approach lines from `STRENGTH_META`. Trait paragraph from `ELEMENTAL_NATURE[stem][band]`.
-
-**Dominant energy cards (CalloutCard component):**
-
-Each dominant element card shows:
-- Element icon (28px) + element name
-- Score display (count of 10 pips — rendered as filled/unfilled pip dots)
-- The Ten God ruling force (resolved via `getDominantTenGod()`)
-- Keywords (3–4 chips, element color background at 15%, text)
-- Three angles in expandable accordion: HOW THIS TELLS ABOUT ME · HOW THIS WORKS WITH ME · WHAT THIS REVEALS
-
-The three angles are the key content from the 50-key Layer 2 taxonomy (`READING_ANGLES`). This is the deepest reading content the app has and it lives here, not behind a paywall.
-
-**Section label by band:**
-- concentrated / balanced: "Dominant energy"
-- open: "What shapes you most"
-
-**Dominant element section intro (3 lines under section label):**
-- concentrated: *"The element that runs most strongly through your chart — the lens through which everything else is filtered."*
-- open: *"The dominant force in your chart shapes the conditions under which your core nature comes through fully."*
-
-**Catalyst/Friction callout cards:**
-
-Solid-border cards. Element icon + element name + 2 keywords + insight line + guidance line.
-
-Catalyst guidance: *"This element activates and directs your energy."*
-Friction guidance: *"This element deepens what you already have in excess."*
-
-**What Is Absent cards:** Dashed border. Each missing element gets one card with the absence-as-formative-force framing. *"Its absence has shaped you as actively as what's present."*
-
-**WHO YOU ARE teaser:** The final line of the ElementSpectrum section, italic 16px. From `buildDayMasterProfile(chart).whoYouAreTeaser`. This is the bridge into the reading.
-
-### Deliverable 3: ProfileReading
-
-**Energy ring:** 48px SVG ring, element color, partially filled to strength percentage. DM stem character centered inside.
-
-| strength | Ring % | Label | Sublabel |
-|---|---|---|---|
-| extremely_strong | 92% | Extremely Strong | Dominant — pure and concentrated |
-| strong | 72% | Dominant | Well-supported and self-directed |
-| moderate | 50% | Balanced | Flexible — works across many conditions |
-| weak | 30% | Receptive | Needs the right conditions |
-| extremely_weak | 12% | Yielding | Highly context-dependent |
-
-**2 AM Thought card:**
-
-Dashed border (`1px dashed ${elementColor}50`), rounded-xl, `${elementColor}08` background. First-person italic text, EB Garamond 16px. The most quietly powerful content in the reading.
-
-Example: *"Formed. Capable. Still waiting for the thing that finally deserves it."*
-
-**Core Gifts section:**
-
-Header: `★ CORE GIFTS` in element color. 3 items, each:
-- Label: 2–4 words, bold, element color, 15px
-- Desc: 1 sentence behavioral, `#5C554D`, 15px
-
-**Growing Edge section:**
-
-Header: `〰 GROWING EDGE`. 2 items, same structure.
-
-**Your Landscape:**
-
-Header: `↗ YOUR LANDSCAPE`. Two rows:
-- "Where you operate at full capacity" + thrives text
-- "Where this consistently costs you" + costs text
-
-Not a flaw framing — a fit framing. Color: element color for the section header, `#5C554D` for content.
+**Route:** `/dashboard/guidance`
+**Purpose:** The premium layer of the product. Everything that requires deeper engagement — AI, personalized advisories, curated question rituals, education — lives here. The hub is organized as a vertical card stack, each card representing a distinct feature. Free users see the full hub with locked states; upgrading unlocks cards in place.
 
 ---
 
-## §12 — Guidance Screen (AI + Codex)
+### Hub layout overview
 
-**Route:** `/dashboard/guide`
-**Purpose:** Depth layer — AI-powered questions and BaZi education.
+```
+GUIDANCE (header — 40px EB Garamond, tracking-widest uppercase, #2C2825)
+
+─── ELEMENTAL DRAW ────────────────────────  ← Free
+─── ENERGY MANUAL ─────────────────────────  ← Seeker
+─── SELF-REPORT ───────────────────────────  ← Seeker
+─── AI CONSULTANT ─────────────────────────  ← Advisor
+─── BAZI CODEX ────────────────────────────  ← Free basics / Seeker advanced
+─── UPGRADE ───────────────────────────────  ← contextual (shows relevant tier)
+```
+
+**Hub container:**
+```
+background: #F8F6F0
+max-width: 480px
+margin: 0 auto
+padding: 48px 20px 120px
+```
+
+**Feature card base spec:**
+```
+background: #FDFBF8
+border: 1px solid #DCD3C0
+border-radius: 20px
+padding: 24px
+margin-bottom: 16px
+```
+
+**Card icon circle:**
+```
+width: 40px
+height: 40px
+border-radius: 50%
+background: #EAE5DF
+display: flex items-center justify-center
+color: #7A7164
+margin-bottom: 16px
+```
+
+**Card title:** EB Garamond, 20px, `#2C2825`
+**Card body:** system-ui / sans-serif, 15px, `#5C554D`, line-height 1.7
+**Tier badge:** `◆ Seeker` or `✦ Advisor` — 10px uppercase, `#D4AF37` or `#8b7355`, positioned top-right of card
+
+---
+
+### Card 1 — Elemental Draw (Free)
+
+**Concept:** A daily question ritual. The deck you draw from is determined by the day's element energy — the same energy governing the Today tab. Free users draw from today's featured deck. Seeker and Advisor users choose any deck, any day.
+
+**Icon circle:** `bg-[#F0EAE0]`, playing card or sparkle icon, `text-[#8b7355]`
+
+**Card visual — the deck:**
+```
+Three cards fanned face-down at 10° angle offset
+Card back face: #EAE4D5 background
+  — center: element glyph (e.g., 元 or ☯) in element color, 24px, opacity 0.6
+  — subtle shimmer animation: diagonal light sweep across card
+    every 4 seconds, 800ms duration, linear, opacity 0.08 → 0.18 → 0.08
+Card dimensions: 64px × 90px, border-radius 8px
+Shadow: 0 2px 8px rgba(0,0,0,0.08)
+```
+
+**Today's featured deck label:**
+```
+FIRE DAY  ·  PASSION & PURPOSE DECK
+```
+10px uppercase, `#8C8273`, tracking 0.2em. The deck name maps to the day's element:
+- Wood day → "Growth & Vision deck"
+- Fire day → "Passion & Purpose deck"
+- Earth day → "Stability & Wealth deck"
+- Metal day → "Clarity & Career deck"
+- Water day → "Depth & Relationships deck"
+
+**Draw button (free users, today's deck):**
+```
+background: #6b5339
+color: #F8F6F0
+border-radius: 12px
+padding: 12px 24px
+font-family: EB Garamond, serif
+font-size: 15px
+font-weight: 500
+letter-spacing: 0.5px
+width: 100%
+text: "Draw today's card"
+```
+
+**Draw interaction flow:**
+1. Tap "Draw today's card" — two face-down cards slide out from the deck with spring animation, side by side
+2. User taps one card — it flips face-up with a 3D Y-axis rotation (400ms), revealing the question
+3. The question fills the card face: 16px EB Garamond italic, `#2C2825`, centered
+4. Below the question: the pre-authored answer — 4–6 lines of personalized text, `#5C554D`, 14px
+5. The unselected card fades away (`opacity → 0`, 300ms)
+6. A quiet "Come back tomorrow for your next draw" note appears at the bottom
+
+**Deck selector (Seeker / Advisor):**
+Below the featured deck label, a horizontal row of 5 small deck pills — one per element. Tapping a pill switches the featured deck. Pro users can choose any deck any day and draw up to 3 cards, keeping all open.
+
+```
+Deck pill (inactive): bg-[#EAE5DF], border 1px solid #DCD3C0, rounded-full, 11px
+Deck pill (active): bg-[element color]20, border 1px solid [element color]50
+```
+
+**Coming Soon state (while feature is in development):**
+```
+Three fanned face-down cards with shimmer animation (as above)
+Below: italic text — "Your daily question cards are being prepared —
+each one drawn from the energetic current of the day."
+Font: EB Garamond italic, 15px, #5C554D
+Small badge: "◦ Coming soon" — 11px, #A29A8E, no CTA
+```
+
+---
+
+### Card 2 — Energy Manual (Seeker)
+
+**Concept:** A persistent, living document — the user's personalized reading across all five life domains. Seeded by a short setup questionnaire. Updates automatically when decade or year cycles change. The Manual is the primary Seeker value proposition.
+
+**Icon circle:** `bg-[#F5F0E8]`, `BookOpen` icon, `text-[#8b7355]`
+**Card background:** `background: linear-gradient(135deg, #FAF8F5 0%, #F5EFE4 100%)`
+
+**For free users — locked state:**
+Card shows a blurred excerpt sample:
+```
+[Blurred text block — Career chapter excerpt visible through blur]
+"As The Blade, your precision defines your professional edge.
+The current Metal decade amplifies your natural inclination..."
+```
+`backdrop-blur-sm` overlay with `rgba(248,246,240,0.75)` fill.
+Lock icon + `◆ Unlock with Seeker` CTA button.
+
+**For Seeker users — active state:**
+
+**Setup flow (first use only):** A 3-step in-card questionnaire slides open:
+1. "Which domains matter most to you right now?" — multi-select pills: Career, Relationships, Wealth, Health, Purpose
+2. "What's your biggest focus in the next 6 months?" — short text input (optional, improves AI quality)
+3. "Generate my Manual →" CTA
+
+**Domain tabs (post-setup):**
+```
+[ Career ] [ Relationships ] [ Wealth ] [ Health ] [ Purpose ]
+```
+Tab pills, 12px uppercase, EB Garamond. Active tab: element color for that domain.
+
+Domain color coding:
+- Career → Metal `#7F8C8D`
+- Relationships → Fire `#C0392B`
+- Wealth → Earth `#B8860B`
+- Health → Wood `#4A7C59`
+- Purpose → Water `#2E4057`
+
+**Each domain chapter contains:**
+1. **Natal reading** — how the user's base chart (Day Master archetype) expresses in this domain (3–4 sentences)
+2. **Dominant energy lens** — what the user's primary Ten God archetype creates in this domain (2–3 sentences)
+3. **Current chapter** — how the current decade and year energies are shaping this domain right now (2–3 sentences, updates with cycles)
+
+**"Ask your consultant →" button** (Advisor only, appears at the bottom of each domain chapter):
+```
+font-family: EB Garamond
+font-size: 13px
+color: #8b7355
+border-bottom: 1px dashed #C5BDB0
+text: "Ask your consultant about this →"
+```
+Opens AI Consultant pre-seeded with the domain chapter as context.
+
+---
+
+### Card 3 — Self-Report (Seeker)
+
+**Concept:** The user's life context — a structured intake that enriches all readings and AI responses. Updated over time as life evolves.
+
+**Icon circle:** `bg-[#EEF0F5]`, `ClipboardList` icon, `text-[#6B7C8D]`
+**Card title:** "Your Life Context"
+**Card body:** "The more you share, the more precisely your readings speak to where you actually are."
+
+**Free state — locked:** Preview shows the structure of the form but fields are blurred. `◆ Seeker` badge.
+
+**Seeker state — active:** A structured form with 4 sections:
+1. **Life chapter:** "How would you describe your life right now?" — select: Transition / Building / Thriving / Challenging / Exploring
+2. **Key domains:** "Which areas feel most alive or most stuck?" — multi-select: Career, Relationships, Wealth, Health, Purpose
+3. **Open context (optional):** "Anything specific on your mind?" — textarea, 3 lines max
+4. **Last updated:** Small timestamp, `#8C857B`, 12px
+
+**Save button:** `bg-[#6b5339]` CTA, "Update my context". After save, a quiet confirmation: *"Your readings have been recalibrated."*
+
+---
+
+### Card 4 — AI Consultant (Advisor)
+
+**Concept:** An interactive AI conversation interface with the user's full chart, Energy Manual, and Self-Report context pre-loaded. The consultant doesn't need to be introduced — it already knows who the user is.
+
+**Icon circle:** `bg-[#E8E0F0]`, `Bot` icon, `text-[#8D6B8D]`
+**Card background:** `background: linear-gradient(135deg, #F8F4FF 0%, #F0E8FF 100%)`
+
+**Free state — locked:** Shows a sample conversation fragment:
+```
+User: "Why do I keep sabotaging things when they're going well?"
+Consultant: "As The Blade, your Seven Killings archetype..."
+```
+Text is partially visible, then blurs to: `✦ Unlock with Advisor` button.
+
+**Seeker state — locked:** Same preview, same blur. CTA: "Upgrade to Advisor for live conversations."
+
+**Advisor state — full chat:**
+```
+┌─────────────────────────────────────────┐
+│ [Consultant context bar — collapsed]    │
+│  "Reading: Energy Manual loaded · Self  │
+│   Report: last updated Apr 19"          │
+│                                         │
+│ [Chat history — scrollable]             │
+│                                         │
+│ [Input area]                            │
+│  "Ask anything about your path..."     │
+│  [Send →]                               │
+└─────────────────────────────────────────┘
+```
+
+**Context bar:** Collapsed by default, expandable. Shows which context documents are loaded (Energy Manual domains, Self-Report answers). This builds trust — the user knows the AI is reading their actual data.
+
+**Message styling:**
+- User messages: `bg-[#6b5339]`, `text-[#F8F6F0]`, rounded-2xl, right-aligned, 15px
+- Consultant responses: `bg-[#EBE5D6]`, `text-[#2C2825]`, rounded-2xl, left-aligned, 15px EB Garamond
+- Streaming: responses render token by token with a blinking cursor `_` (600ms blink)
+
+**Opening message (first session):** *"I've read your Energy Manual and your life context. I know what your chart says — tell me what's actually on your mind."* Sets the tone immediately: conversational, specific, not generic.
+
+---
+
+### Card 5 — BaZi Codex (Free basics / Seeker advanced)
+
+**Concept:** The educational layer. Teaches the BaZi system — what concepts mean, how they work, why they matter. Separate from the interpretation layer (Energy Map) which applies these concepts to the user's specific chart.
+
+**Icon circle:** `bg-[#EBE5D6]`, `Book` icon, `text-[#A29A8E]`
+
+**Free concepts (always unlocked):**
+- What is BaZi? — Four Pillars of Destiny
+- Day Master (日主) — Your core nature
+- Five Elements — Wood, Fire, Earth, Metal, Water
+
+**Seeker concepts (◆ badge, blurred on free tier):**
+- Ten Gods (十神) — The 10 archetypal forces
+- Luck Cycles (大运) — Decade energy chapters
+- Clashes & Combinations (冲合) — Dynamic chart patterns
+- Void & Empty Branch (空亡) — The absent energy
+- Yin and Yang Polarity — Energy direction
+
+**Entry design (accordion list):**
+```
+Tapping entry → expands below:
+  Definition (1–2 sentences)       ← always shown
+  Explanation (2–3 paragraphs)     ← Seeker+ or visible on free for basic entries
+  Your Chart Reference             ← always personalized to this user's chart
+```
+
+"Your Chart Reference" is the differentiator — a direct application of the concept to the user's actual chart. Example for a 庚 Yang Metal user reading about Ten Gods: *"Your dominant force is the Seven Killings (七杀) — the archetype of pressure-into-precision. Every challenge in your chart is, by design, a forge."*
+
+**Browse button:**
+```
+border: 1px solid #A29A8E
+color: #4A4238
+rounded-xl
+padding: 16px
+width: 100%
+display flex items-center justify-center gap-2
+icon: BookOpen 16px
+text: "Browse Full Codex"
+```
+
+---
+
+### Tier comparison display (contextual upgrade card)
+
+Shown to free and Seeker users at the bottom of the hub. Displays only the next tier above — free users see Seeker; Seeker users see Advisor.
+
+**Layout:**
+```
+[Gem icon]  Seeker                 $X.XX/month
+─────────────────────────────────────────────
+✓ Energy Manual (5 domain reading)
+✓ Full Energy Map readings
+✓ Advanced Codex
+✓ Self-Report context
+─────────────────────────────────────────────
+[ Upgrade to Seeker → ]
+```
+
+Background: `linear-gradient(135deg, #D4AF3715, #D4AF3705)`, border `1px solid #D4AF3730`.
+
+## §13 — Friends Screen (Compatibility)
+
+**Route:** `/dashboard/friends`
+**Purpose:** Elemental compatibility — comparing your blueprint with people close to you. The primary viral mechanic of the product.
+
+---
+
+### V1 — Coming Soon state
+
+Friends ships as a Coming Soon placeholder in V1. The state is designed to feel intentional, not unfinished.
+
+**Layout:**
+```
+FRIENDS (header — 40px EB Garamond, tracking-widest, #2C2825)
+"Compare your energy with friends, family, or partners"
+(15px, #5C554D, max-width 300px, centered)
+
+[Dual seal visual]
+
+[Feature preview card]
+
+[Tier card]
+```
+
+**Dual seal visual:**
+```
+Two circles, side by side, centered:
+
+LEFT CIRCLE (user's seal):
+  width: 80px, height: 80px, border-radius: 50%
+  border: 2px solid [user's element color]
+  background: [element color]15
+  center: ArchetypeSeal SVG, 44px, element color
+
+CENTER: thin connection line, 40px wide
+  gradient: [user element color] → #D5CDBD
+  height: 1.5px
+  soft pulse animation: opacity 0.4 → 0.9 → 0.4, 2s repeat
+
+RIGHT CIRCLE (placeholder):
+  width: 80px, height: 80px, border-radius: 50%
+  border: 2px dashed #D5CDBD
+  background: transparent
+  center: + icon, 24px, #C5BDB0
+  label below: "Someone close" — 11px, #A29A8E
+```
+
+**Feature preview card:**
+```
+background: #EBE5D6
+border: 1px solid #DCD3C0
+border-radius: 20px
+padding: 24px
+```
+Three feature bullets (icon + text):
+- `Heart` icon — "Compare your BaZi chart with friends"
+- `Sparkles` icon — "See compatibility scores and relationship archetypes"
+- `UserPlus` icon — "Invite friends to compare (V2)"
+
+**Tier card:**
+```
+background: #F8F6F0
+border: 1px solid #EAE5DF
+border-radius: 16px
+padding: 16px
+text-align: center
+
+"Free: 1 comparison / month"     14px, #8C857B
+"Seeker: unlimited comparisons"   14px, #8C857B
+```
+
+---
+
+### V2 — Full feature (target)
+
+#### Input flow (V2 — Prototype: manual entry)
+
+User fills a form for the comparison subject:
+- Name (text, required — for labeling only)
+- Birth year, month, day (selects)
+- Birth hour (select, optional)
+- Location (text, optional — for True Solar Time)
+- Energy current (Forward/Yang or Inward/Yin toggle)
+
+**"Calculate Compatibility →"** CTA button. Computation is instant (pure JS from `engine/compatibility.js`).
+
+#### Free tier result
+
+After calculation: slide-up results panel (modal sheet, covers 80% screen, X to dismiss).
+
+```
+[Element comparison grid]
+  YOU                    THEM
+  庚 · Yang Metal        丁 · Yin Fire
+  The Blade              The Candle
+  [element seal]         [element seal]
+
+[Relationship archetype label]
+  "The Forge" — Metal meets Fire
+  11px uppercase, #8C8273
+
+[1-sentence teaser insight]
+  "Metal and Fire share the most productive tension in the
+  five element system — one sharpens, the other reveals."
+
+[Upgrade prompt]
+  "Unlock the full relationship reading with Seeker →"
+```
+
+#### Seeker tier result
+
+All of free tier, plus:
+
+**Compatibility percentage:**
+```
+72
+% Compatible
+font-family: Cormorant Garamond
+font-size: 72px (number), 16px (label)
+color: #2C2825
+```
+
+**Headline:** "Harmonious and Creative" / "Challenging but Growth-Focused" / "Complementary Opposites" — pre-authored per element pair category.
+
+**Full relationship reading:** 3–4 sentence paragraph from `engine/compatibility.js`. Each of the 25 element-pair combinations has a voice-authored archetype (e.g., Fire × Metal: the forge — productive tension, clarity under pressure, the relationship that makes both parties sharper).
+
+**Share card:**
+```
+background: #2C2825
+border-radius: 16px
+padding: 24px
+[User archetype seal]  ×  [Their archetype seal]
+"We're 72% compatible — Metal meets Fire"
+[Elementum attribution watermark]
+```
+Tapping "Share" exports as image. Attribution watermark drives installs.
+
+#### Viral trigger
+
+After the first comparison: a quiet card slides in below the result: *"See how compatible you are with someone else? Seeker unlocks unlimited comparisons."*
+
+#### V2 invite flow (future)
+
+User enters a name, app generates a shareable link. The other person opens the link, completes a lightweight onboarding (date only, no full 7-step flow), and the comparison runs automatically. More accurate data, stronger viral loop.
+
+---
+
+## §14 — Profile Screen
+
+**Route:** `/dashboard/profile`
+**Purpose:** Personal data and account management. Intentionally minimal — the chart is the profile. Everything meaningful about the user is expressed through their Energy Map, not through a settings screen.
+
+**Design principle:** No avatar, no username, no social handle. The user's identity in this app is their archetype. The Profile screen exists for data verification and session management only.
 
 ### Layout
 
 ```
-READINGS (header)
+PROFILE (header — 40px EB Garamond, tracking-widest, #2C2825)
 
-─── AI ASSISTANT ──────────────────────────
-
-[Bot icon in lavender circle]
-AI Readings
-
-"Ask questions about your [Archetype] chart
-and get personalized guidance."
-
-Free: 3 questions/month
-[2/3 remaining]
-
-[ Ask AI Assistant → ]
-
-─── BAZI CODEX ────────────────────────────
-
-[Book icon in earth circle]
-BaZi Codex
-
-Learn the fundamentals.
-
-CORE CONCEPTS
-  What is BaZi?
-  The Day Master
-  Five Elements
-  Luck Cycles
-  ──────────────
-  [Browse Full Codex →]
-
-─── UPGRADE ───────────────────────────────
-
-[Diamond icon]
-Unlimited Access
-
-Unlimited AI questions, advanced Codex,
-expert Q&A sessions.
-
-$9.99/month
-
-[ Upgrade to Pro → ]
+[Profile data card]
+[Notification settings card]
+[Account card]
+[Debug card — dev only]
 ```
 
-### AI modal
+### Profile data card
 
-When "Ask AI Assistant" is tapped: slide-up sheet. Contains:
-- "Ask anything about your chart" — 16px italic, `#5C554D`
-- Text input area, auto-focus, EB Garamond, rounded-xl
-- Recent question chips (last 3 questions as tappable suggestions)
-- Submit button
+Displays the birth data inputs used to generate the chart:
+- Birth Date: `YYYY/MM/DD`
+- Birth Time: `HH:00 (Local)`
+- True Solar Time: `HH:MM` (shown only if different from local time)
+- Location: city name or "Beijing (default)"
+- Energy Current: "Forward / Yang" or "Inward / Yin" + edit link if estimated
 
-Response renders in the sheet with a streaming text effect. The response references the user's actual chart: "As a Yang Metal at concentrated energy..." This requires the AI to receive the Canonical JSON and respond in the established voice.
-
-**Question counter:** Rendered as a small indicator under the CTA. `2/3 remaining` in tertiary color. When 0/3: gray the button, show "Monthly limit reached · Upgrade for unlimited".
-
-### Codex entry design
-
-Accordion-style list. Each entry:
-- Entry name (EB Garamond 16px, `#2C2825`)
-- Expand → Definition (1–2 sentences) + Explanation (2–3 paragraphs) + Your Chart Reference (how this applies to them)
-
-Pro entries marked with `◆` icon and soft blur if user is on free tier.
-
----
-
-## §13 — Connect Screen (Friends)
-
-**Route:** `/dashboard/connect`
-**Purpose:** Social viral loop. Compatibility calculation.
-
-### Layout (V1 — launch state)
-
+Each field:
 ```
-CONNECT (header)
-
-─── COMPARE YOUR ENERGY ──────────────────
-
-Compare your elemental blueprint with
-friends, partners, or family.
-
-[Input form: Name, Birth Date, Birth Time, Location]
-
-[ Calculate Compatibility → ]
-
-─── RECENT ────────────────────────────────
-
-[Empty state: "Your comparisons will appear here"]
-
-─── INVITE ────────────────────────────────
-
-"Know someone who should know their element?"
-
-[ Share Elementum → ]
+label: 10px uppercase, tracking-widest, #A29A8E, font-weight 500
+value: EB Garamond, 18px, #2C2825
+separator: border-bottom: 1px solid #EAE5DF, padding-bottom: 16px
 ```
 
-### Compatibility result
+**"Edit birth data →"** link at the bottom of the card. Tapping opens a simplified re-entry flow (same 7-step onboarding, current values pre-filled). Re-entering data regenerates the chart.
 
-When calculated: slide up results panel.
+### Notification settings card
 
-**Score display:**
-- Large number (72px, Cormorant Garamond)
-- "% Compatible" label
-- Short headline: "Harmonious and Creative" or "Challenging but Growth-Focused"
+Shows current notification status and delivery time. Toggle on/off. Time picker (hour selector). Applies immediately.
 
-**Element comparison grid:**
+### Account card (production)
 
+In the production app with auth implemented:
+- Email address
+- Tier badge (Free / Seeker / Advisor) with current plan label
+- "Manage subscription →" link
+- "Sign Out" button — ends session only, chart persists server-side
+
+**Sign Out button spec:**
 ```
-YOU              THEM
-庚 Yang Metal    丁 Yin Fire
-The Blade        The Candle
-```
-
-**Relationship insight:** 3–4 sentence paragraph generated from element relationship logic. Fire-Metal is the forge relationship — productive tension with a specific character.
-
-**Share card:** Shows both archetypes side by side. "We're 74% compatible — Metal meets Fire 🔥" with attribution watermark and invite link.
-
-### Viral trigger
-
-After first comparison: "See how compatible you are with one more friend? Compare unlimited charts with Pro."
-
----
-
-## §14 — Me Screen (Profile)
-
-**Route:** `/dashboard/me`
-**Purpose:** Account, birth data, settings. Minimal.
-
-### Layout
-
-```
-ME (header)
-
-─── YOUR BIRTH DATA ───────────────────────
-
-Born: March 15, 1990
-Time: 14:00 (2:00 PM)
-Location: New York City
-Gender: Male
-
-[Edit birth data →]
-
-─── SUBSCRIPTION ──────────────────────────
-
-Free · 3 AI questions/month
-
-[Upgrade to Pro →]
-
-─── SETTINGS ──────────────────────────────
-
-Notifications · On
-App Theme · Default
-Export Chart as PDF →
-
-─── ACCOUNT ───────────────────────────────
-
-Sign Out
-This will clear all saved data.
-
-[Sign Out]
+background: #8C857B
+color: white
+border-radius: 12px
+padding: 16px
+width: 100%
+text: "Sign Out"
 ```
 
-The profile screen should feel minimal and functional. No narrative. No reading content here.
+### Debug card (development only)
 
-**Future (Phase 2):** MBTI resonance display. Shareable identity card. Achievement timeline (how long they've been a user).
+**This card is a development utility and must not appear in production builds.** It is conditionally rendered only when `process.env.NODE_ENV === 'development'` or when a dev feature flag is active.
+
+```
+background: #F8EFE8
+border: 1px dashed #C5BDB0
+border-radius: 12px
+padding: 16px
+
+Label: "DEV TOOLS" — 10px uppercase, #A29A8E
+
+Button: "Reset & Start Over"
+  — Clears localStorage, resets chart and birth data, navigates to Welcome
+  — background: #8C857B, color: white, rounded-xl
+  — On tap: confirmation dialog first ("This will clear all your data. Continue?")
+```
+
+**Rationale:** This button enables rapid testing of the onboarding and reveal flows without manually clearing browser storage. In production, clearing data is a destructive action that requires intentional auth-backed flows, not a button.
 
 ---
 
@@ -1212,8 +2076,13 @@ What each screen reads from the engine's Canonical JSON or computed state:
 | Reveal | `chart.pillars`, `chart.dayMaster`, `chart.elements`, `chart.dayMasterArchetype`, `ELEMENT_ENERGIES`, `applyTiaohouToEnergies()` |
 | Today | `chart.dayMaster`, `getTodayElement()`, `getDailyGuidance(chart, todayEl)`, `cycles.find(c => c.isCurrent)` |
 | My Chart / DayMasterHero | `chart.dayMaster` (stem, element, polarity), `chart.archetypeKey`, `ARCHETYPE_MANIFESTO[stem]` (split on ` · ` for two-line display), identity icon SVG per stem, `STEM_PINYIN[stem]` for badge label, popup data: `FIVE_ELEMENTS[]`, `TEN_STEMS_ROWS[]` for knowledge panels |
-| My Chart / ElementSpectrum | `chart.elements`, `chart.dayMaster`, `ELEMENTAL_NATURE[stem][band]`, `STRENGTH_META`, `ELEMENT_ENERGIES[stem][band]`, `applyTiaohouToEnergies()`, `READING_ANGLES[domEl_tenGod]`, `getDominantTenGod()`, `computeTgPattern()` |
-| My Chart / ProfileReading | `buildDayMasterProfile(chart)` → `{strengths, shadows, twoAM, landscape, whoYouAreTeaser}`, `TEMPLATE_DB[archetypeKey]` |
+| My Chart / EnergyMapMenu | `getElementInsights(chart)` → `{dominant[], missing[]}`, `TG_CARD_DATA[tenGod].chips` (trait chips for blueprint sub-rows), `tgEn(zh)` helper for English Ten God names, `getSections(chart)` for section ordering |
+| My Chart / YourNatureDetailPage | `archetypeSource.STEM_CARD_DATA[stem].identity.elementIntro.{punch, expand}`, `ELEMENTAL_NATURE[stem][band]`, `STRENGTH_META`, `computeBand(chart)` |
+| My Chart / DomDetailPage | `getElementInsights(chart).dominant[idx]`, `TG_CARD_DATA[tenGod]` (chips, archetype name), `READING_ANGLES[domEl_tenGod]` (three reading angles), `tgEn(zh)`, `computeBand(chart)` |
+| My Chart / CatalystDetailPage | `applyTiaohouToEnergies()` catalyst element, `ELEMENT_ENERGIES[stem][band]` catalyst fields, `tgEn(zh)` |
+| My Chart / ResistanceDetailPage | `applyTiaohouToEnergies()` resistance element, `ELEMENT_ENERGIES[stem][band]` resistance fields, `tgEn(zh)` |
+| My Chart / SeasonalDetailPage | `getElementInsights(chart).missing[]`, missing element paragraphs from engine |
+| My Chart / DetailShell | `getSections(chart)` for prev/next labels and step counter; `page` key to resolve current position |
 | Guidance | `chart.dayMasterArchetype.name`, question counter from state |
 | Connect | `chart.dayMaster`, `chart.elements`, computed compatibility score |
 | Me | `chart.meta.birthDate`, `chart.meta.birthHour`, `chart.meta.location`, `chart.meta.gender` |
@@ -1222,12 +2091,277 @@ What each screen reads from the engine's Canonical JSON or computed state:
 
 ---
 
+## §21 — Upgrade Flow & Tier Transitions
+
+**Purpose:** Every locked feature in the app leads to an upgrade moment. These moments are among the most important UX surfaces — they must feel like a natural next step, not a paywall interruption.
+
+---
+
+### Upgrade modal (tier selection)
+
+Triggered when a user taps a locked feature. Appears as a **modal overlay** — a panel covering ~85% of the screen height, sliding up from the bottom. The content beneath dims to `rgba(0,0,0,0.4)`. An `×` button in the top-right corner dismisses without navigating away.
+
+```
+┌─────────────────────────────────────────┐
+│                              [×]        │
+│                                         │
+│  [Feature they tapped — brief context]  │
+│  "Unlock your Energy Manual"            │
+│                                         │
+│  ┌─────────────────────────────────┐    │
+│  │  ◆ SEEKER           $X.XX/mo   │    │  ← highlighted if relevant tier
+│  │  Energy Manual                  │    │
+│  │  Full Energy Map readings        │    │
+│  │  Advanced Codex                 │    │
+│  │  Unlimited Elemental Draw        │    │
+│  │  [ Upgrade to Seeker → ]        │    │
+│  └─────────────────────────────────┘    │
+│                                         │
+│  ┌─────────────────────────────────┐    │
+│  │  ✦ ADVISOR          $X.XX/mo   │    │
+│  │  Everything in Seeker           │    │
+│  │  AI Consultant (full chat)       │    │
+│  │  AI-tailored daily readings      │    │
+│  │  [ Upgrade to Advisor → ]       │    │
+│  └─────────────────────────────────┘    │
+│                                         │
+│  [Not now — text link, #8C857B, 13px]  │
+└─────────────────────────────────────────┘
+```
+
+**Modal container:**
+```
+position: fixed
+bottom: 0
+left: 0
+right: 0
+height: 85dvh
+background: #F8F6F0
+border-radius: 24px 24px 0 0
+padding: 32px 24px 48px
+box-shadow: 0 -8px 40px rgba(0,0,0,0.12)
+z-index: 100
+animation: slide up from bottom, 350ms, spring easing
+```
+
+**Context header:** The modal opens with a 1-line reminder of what the user was trying to access — "Unlock your Energy Manual" or "Access the AI Consultant." This keeps the upgrade decision anchored to the specific value, not a generic pitch.
+
+**Tier cards:**
+```
+border-radius: 16px
+padding: 20px
+margin-bottom: 12px
+
+Seeker card:
+  background: linear-gradient(135deg, #FAF8F5, #F0EBE1)
+  border: 1.5px solid #D4AF37
+
+Advisor card:
+  background: linear-gradient(135deg, #F8F4FF, #F0E8FF)
+  border: 1px solid #C9B8E8
+```
+
+**Tier name:** 12px uppercase, tracking 0.2em, `#8C8273`
+**Price:** 20px EB Garamond, `#2C2825`
+**Feature list:** 14px, `#5C554D`, each line preceded by `✓` in element color
+
+---
+
+### Free → Seeker: Ceremonial upgrade screen
+
+After the user confirms the Seeker upgrade (payment processed), the upgrade modal closes and a **full-screen ceremonial moment** plays before returning to the app. This is the recognition moment — the product acknowledges that something has changed.
+
+**Duration:** 3–4 seconds. Skippable by tap.
+
+**Sequence:**
+
+1. **Element flood (0–600ms)**
+   The screen fills from the bottom with the user's Day Master element color — a liquid rise animation. Full screen, `opacity: 0 → 0.85`, background becomes `[element color]`.
+
+2. **Seal spring-in (400–900ms)**
+   The user's ArchetypeSeal SVG springs into center at 1.6× scale then settles to 1× — `scale: 0 → 1.6 → 1.0`, spring bounce 0.6.
+
+3. **Particle burst (600–1200ms)**
+   24 small particles (4–6px circles) in the 5 element colors burst outward from the seal center in a radial pattern. Each particle follows a slightly randomized arc, `opacity: 1 → 0` over 800ms.
+
+4. **Text reveal (900ms)**
+   Single line, centered: **"Your reading has been unsealed."**
+   Cormorant Garamond, 28px, `#F8F6F0` (on colored background) or `#2C2825` (if background fades), fade-in 400ms.
+
+5. **CTA appears (1800ms)**
+   Button: "Explore your Energy Manual →" — slides up from below, 300ms. Tapping navigates directly to the Energy Manual card in Guidance, auto-expanded.
+
+**Visual spec:**
+```
+background: [user's element color]
+  Wood:  #4A7C59  → overlay at 90% opacity
+  Fire:  #C0392B  → overlay at 85% opacity (intense, reduce slightly)
+  Earth: #B8860B  → overlay at 90% opacity
+  Metal: #7F8C8D  → overlay at 90% opacity
+  Water: #2E4057  → overlay at 90% opacity
+
+ArchetypeSeal: white version (stroke #F8F6F0) on colored bg, 96px
+Text color: #F8F6F0
+CTA button: bg-[rgba(255,255,255,0.15)] border border-[rgba(255,255,255,0.4)] text-[#F8F6F0]
+```
+
+---
+
+### Seeker → Advisor: Quiet unlock
+
+The Seeker → Advisor upgrade is handled through the same upgrade modal. No ceremonial screen. Instead:
+
+After payment confirmation, the modal closes, the app returns to the Guidance hub, and the AI Consultant card **unlocks in place** with a brief glow animation:
+```
+box-shadow: 0 0 0 0px rgba(141,107,141,0) → 0 0 30px 8px rgba(141,107,141,0.3) → 0 0 0 0px rgba(141,107,141,0)
+duration: 1200ms, ease-in-out
+```
+
+The Consultant card's opening state shows an initial message from the AI:
+*"I've read your Manual. Ask me anything."*
+
+This message renders as if streaming — each word appears 80ms apart — creating the impression of a live, thinking presence acknowledging the upgrade.
+
+---
+
+### First session after upgrade (returning user path)
+
+When a user upgrades outside the active session — via web, overnight purchase, or subscription renewal — the app detects the tier change on the next open via a server-side auth/tier check. The in-app ceremonial screen (§21 Free→Seeker) may not have played. This path ensures the upgrade is **acknowledged, celebrated, and oriented** regardless of how it happened.
+
+**Trigger:** App open → tier check returns Seeker (or Advisor) for a user previously stored as Free (or Seeker). Fires once per upgrade event. Tracked via `seekerFirstOpen: true` flag in local storage, cleared after the welcome screen plays.
+
+---
+
+#### Step B — Welcome to Seeker screen
+
+Plays on first app open after upgrade is detected. Full-screen, replaces the normal app open transition. Skippable by tap at any point.
+
+**Duration:** 3–4 seconds auto-advance, or tap to skip.
+
+**Sequence:**
+
+1. **Element flood (0–500ms)**
+   Screen fills from bottom with user's Day Master element color — same liquid rise as the in-app ceremony. Full-screen, `opacity: 0 → 0.9`.
+
+2. **Seal spring-in (300–800ms)**
+   ArchetypeSeal SVG springs to center: `scale: 0 → 1.5 → 1.0`, spring bounce 0.55, white stroke version on colored background.
+
+3. **Welcome line (700ms)**
+   Two lines, centered, staggered:
+   - Line 1: *"Welcome back, [Archetype name]."* — Cormorant Garamond 28px, `#F8F6F0`, fade-in 300ms
+   - Line 2: *"Your full reading is now open."* — EB Garamond italic 18px, `rgba(248,246,240,0.75)`, fade-in 400ms delay 200ms
+
+4. **What's unlocked preview (1400ms)**
+   Three short lines slide up, staggered 80ms each. EB Garamond 15px, `rgba(248,246,240,0.85)`:
+   ```
+   ✓  Energy Manual — your 5-domain living document
+   ✓  Full Energy Map readings
+   ✓  Life Chapters — your decade-by-decade arc
+   ```
+   These are the 3 most compelling Seeker features, not a full list.
+
+5. **CTA (2200ms)**
+   Button slides up: *"See what's waiting for you →"*
+   Tapping navigates to the Energy Map tab (not Guidance) — the core identity layer, where the most visible unlock difference is immediately obvious.
+   ```
+   background: rgba(255,255,255,0.18)
+   border: 1px solid rgba(248,246,240,0.45)
+   color: #F8F6F0
+   border-radius: 10px
+   padding: 14px 28px
+   font-family: EB Garamond, serif
+   font-size: 17px
+   ```
+
+**Key distinction from in-app ceremony:**
+The in-app ceremony (§21) says *"Your reading has been unsealed"* — it marks the act of unlocking. The returning-user welcome says *"Welcome back"* — it acknowledges a decision that was made, confirms it, and points the user forward. Same emotional register, different framing.
+
+**State flag:**
+```js
+// Set after welcome screen plays
+localStorage.setItem('seekerFirstOpen', 'shown');
+
+// Check on app open
+if (tier === 'seeker' && localStorage.getItem('seekerFirstOpen') \!== 'shown') {
+  // show welcome screen
+}
+```
+
+---
+
+#### Step C — Contextual unlock reveal (per-feature)
+
+After the welcome screen, as the user navigates the app, each previously locked feature plays a brief **unlock reveal** the first time it is tapped. This creates a series of discovery moments spread across the session rather than a single all-at-once reveal. Every unlock feels earned.
+
+**Trigger:** User taps into a feature that was previously in a locked/blurred state. Fires once per feature. Tracked via `unlockedFeatures: string[]` in local storage.
+
+**Animation sequence (per feature, ~800ms total):**
+
+1. **Lock overlay dissolves (0–300ms)**
+   The `backdrop-blur-sm` and `rgba(248,246,240,0.7)` lock overlay fades: `opacity: 1 → 0`, `blur: 4px → 0`. The tier badge (◆ Seeker) and lock icon simultaneously scale down and fade: `scale: 1 → 0.6, opacity: 1 → 0`, 250ms spring.
+
+2. **Content breathes in (200–500ms)**
+   Previously blurred content reveals: `opacity: 0 → 1`, `scale: 0.97 → 1.0`, 300ms ease-out. Feels like the content was always there waiting, not like it was created on demand.
+
+3. **Unlock badge flash (400–800ms)**
+   A small pill badge appears briefly centered over the content, then fades:
+   ```
+   "Unlocked"  ← 11px monospace, #8C8273, uppercase, tracking 2px
+   background: rgba(139,115,85,0.12)
+   border: 1px solid rgba(139,115,85,0.4)
+   border-radius: 999px
+   padding: 4px 12px
+   opacity: 0 → 1 → 0  (200ms in, hold 400ms, 200ms out)
+   ```
+
+**Features that play the contextual unlock reveal:**
+
+| Feature | Unlock trigger | What reveals |
+|---------|---------------|--------------|
+| YourNature full reading | Tap section after map opens | Essence paragraph + tgPattern section |
+| Primary/Secondary Force full reading | Tap domain card | All domain readings |
+| Life Chapters full timeline | Tap Life Chapters card | Full decade strip + all readings |
+| Chart Patterns full readings | Tap Patterns card | All pattern cards |
+| Energy Manual | Tap card in Guidance | Full card expands with setup CTA |
+| Self-Report | Tap card in Guidance | Full card with questionnaire CTA |
+| Elemental Draw any-deck access | Switch deck | Deck unlocks with brief glow |
+
+**State tracking:**
+```js
+// After each feature unlock reveal plays
+const unlocked = JSON.parse(localStorage.getItem('unlockedFeatures') || '[]');
+unlocked.push(featureKey);
+localStorage.setItem('unlockedFeatures', JSON.stringify(unlocked));
+
+// Check before playing animation
+const hasPlayed = unlocked.includes(featureKey);
+if (\!hasPlayed) { playUnlockReveal(); }
+```
+
+**On subsequent visits:** No animation replays. Content is simply visible. The unlock is permanent — the system never re-locks or re-blurs content for a Seeker user.
+
+---
+
+### One-sentence tier descriptions (for all upgrade surfaces)
+
+These lines appear in upgrade modals, onboarding, and App Store copy. They must communicate the tier value in under 10 words:
+
+- **Free:** Discover your elemental blueprint.
+- **Seeker:** Understand how your energy shapes every domain of your life.
+- **Advisor:** Your personal AI consultant, guided by your chart.
+
+
 ## §18 — Version History
 
 | Version | Date | Changes |
 |---|---|---|
 | 1.0 | April 2026 | Initial creation. Drafted from V006 Figma prototype + Product Design Doc v005 + Business Analysis. |
 | 1.1 | April 2026 | §11 Deliverable 1 (DayMasterHero) redesigned: full-screen identity card layout, stem-specific identity icons (BladeJian for 庚), vertical badge tiles with popup knowledge panels (element / stem / polarity), two-line manifesto format split on ` · `, scroll hint. iPhone phone-frame context documented. §17 updated with popup data contracts. §20 Asset Library added. |
+| 1.2 | April 2026 | §11 fully rewritten: reading layer redesigned from 3-deliverable sequential scroll to catalogue navigation system. Added: EnergyMapMenu catalogue home (infographic section cards as nav targets), DetailShell shared navigation shell (back button + step counter + prev/next strip), getSections() navigation sequence function, tgEn() Ten God English name helper, six dedicated detail pages (YourNature, DomDetail ×2, Seasonal, Catalyst, Resistance), DayMasterHero → catalogue gradient fade transition. §5 updated to reflect new My Chart architecture. §17 data contract expanded with all new catalogue components. |
+| 1.3 | April 2026 | Major update across §5, §7, §9, §10, §11, §12, §13, §14 + new §21 (Upgrade Flow). Navigation bar finalised (TODAY · GUIDANCE · ENERGY MAP · FRIENDS · PROFILE). Onboarding extended to 7 steps (Step 6: energy current reframe, Step 7: notification opt-in). Reveal screen restructured (4-pillar chart removed, identity-first). Energy Map renamed from My Chart; 8-section catalogue with Life Chapters and Chart Patterns. Guidance redesigned as premium feature hub (5 cards). Pricing model (Free / Seeker / Advisor) documented. Friends V1 Coming Soon state. Upgrade flow + ceremonial screens. §19 Pricing Model added. |
+| 1.4 | April 2026 | §7 Step 6 redesigned: three-option sex question (Male / Female / Prefer not to say) with conditional inline reveal of energy current toggle — Yang/Yin framing only surfaces for users who need it. §9 Reveal screen: Four Pillars grid removed from opening; Day Master Identity is now Section 1, Energy Blueprint Section 2, Balance Prescription Section 3, CTA Section 4. §11 DayMasterHero: flat element spectrum bar replaced by element-coloured Ten God ring (single ring encodes TG weight distribution + elemental role simultaneously). New §11 subsection: tgPattern Visual System — five pattern types (Pure/Rooted/Flowing/Forging/Tested), element-to-role colour legend, ring animation spec, tap behaviour, YourNature integration. |
+| 1.5 | April 2026 | §7 Step 4 fully redesigned: three-level birth hour input (exact / approximate 6-window / unknown) with dual-chart blend calculation for approximate, 3-pillar calculation for unknown, no blocking at any level. §5 geocoding failure: soft fallback to Beijing longitude, never blocks onboarding. §11 Birth Chart Raw Data page: conditional 3-pillar vs 4-pillar rendering spec, approximate hour `~` indicator, 3-pillar grid layout. New §11 subsection: Chart Resonance Feature (hour discovery post-onboarding, portrait-matching exercise, confidence tiers, reveal moment). New §22: Error States and Data Integrity — geocoding failure, bad calculation handling, unknown hour full calculation spec (dual-chart blend + 3-pillar), chart resonance summary, share card fallback. §21 expanded: first-session-after-upgrade (returning user path) — Welcome to Seeker screen (B: element flood + seal + what's unlocked preview + CTA), contextual unlock reveal system (C: per-feature blur dissolve + content breathe-in + unlock badge, tracked via localStorage, fires once per feature). |
+| 1.6 | April 2026 | §9 Reveal Section 1 (Identity) recomposed end-to-end. **ArchetypeSeal (the brushed circle/ring containing the element crescent) removed entirely.** Replaced with a **HeroStemMark** — the painted stem icon (BrushJian for 庚, etc.) at hero scale (~280px), no ring, positioned with negative top margin so the icon pierces THROUGH the ink-wash mountain band (tip above peaks, hilt above eyebrow). New `<StemSign>` dispatcher in `RevealScreen.jsx` routes per-stem to its painted SVG and falls back to `<ElementSign>` for stems without painted art yet. **Single Identity token pill replaced with three flat silk badge tiles** — Element / Stem / Polarity — each opening its own knowledge popup in Phase 2; gradient fill, inset highlight, and inner ring removed; tiles now match `deckleCard` silk surfaces. Manifesto rendering simplified to line-1 only, Cormorant italic 22px. Section background unified to a single flat `#EFE5CC` silk fill spanning the full scrollable height (eliminates the hairline that the layered SilkPaper SVG produced at the section seam). §20 Asset Library updated: BladeJian renamed to BrushJian, redrawn with vertical-portrait 60×220 viewBox + INK fill; StemSign dispatcher pattern documented as the production-grade entry point for all per-stem hero icons. |
 
 ---
 
@@ -1339,6 +2473,115 @@ Identity card is fully free. It is the hook. Nothing here is gated.
 
 ---
 
+## §22 — Error States & Data Integrity
+
+### Philosophy
+Error states in Elementum should never feel like failures — they are handled gracefully, transparently, and without blocking the user's journey. The product never shows raw error codes, blank screens, or alarming language. Every failure has a soft landing.
+
+---
+
+### Geocoding failure (Step 5 — location not resolved)
+
+**Trigger:** City input cannot be geocoded — network failure, unrecognised city name, or API error.
+
+**Handling:** Silent soft fallback.
+- Apply Beijing longitude (116.4°E) as default — the traditional BaZi standard, not a hack
+- Show quiet inline note: *"Using standard solar time — update location in Profile anytime."* 13px EB Garamond italic, `#6f6b66`
+- Continue button remains active — user is never blocked
+- Profile screen shows: *"Birth location not confirmed — tap to update →"*
+- Chart is calculated and valid; accuracy note is transparent, not alarming
+
+**Do not:** Show a red error state, disable Continue, or ask the user to retry before proceeding.
+
+---
+
+### Bad BaZi calculation (invalid or unresolvable chart data)
+
+Two sub-cases:
+
+**Recoverable edge case** (chart computes but produces unusual output — e.g., extreme element imbalance, rare stem/branch combination):
+- Render partial: show what can be computed confidently
+- Mark uncertain fields with `~` prefix and muted `opacity-50` treatment
+- No error message — just quiet visual distinction
+- Log the edge case internally for review
+
+**Unrecoverable error** (calculation throws, null chart, corrupt birth data):
+- Do not show a blank screen or generic error
+- Navigate the user back to the relevant onboarding step with a gentle prompt:
+  *"We couldn't place your birth data precisely — a small adjustment will help."*
+- Pre-fill all previously entered values
+- Only the problematic field (usually birth time or location) is highlighted for correction
+- After correction, re-run calculation and proceed normally
+
+---
+
+### Unknown birth hour (full system)
+
+See §7 Step 4 for the onboarding UX. The calculation behaviour is documented here.
+
+**Three-tier input model:**
+
+| Input type | Calculation | TG weights | tgPattern | Hour pillar display |
+|------------|-------------|------------|-----------|---------------------|
+| Exact time | Standard 4-pillar | 8 characters | Full confidence | No indicator |
+| Approximate window | Dual 4-pillar blend | Average of both 时辰 | Agree → full; diverge → `~` | `~` prefix on stem |
+| Unknown (null) | 3-pillar (三柱) | 6 characters (denom stays 8) | From 6-char data | No hour column |
+
+**Approximate window → dual chart blend:**
+1. Map selected window to its 2 adjacent 时辰 (e.g., Morning → 辰时 + 巳时)
+2. Call `generateChart()` twice — once per 时辰
+3. Year/month/day pillars are identical across both (6 of 8 chars confirmed)
+4. Hour TG weight = `(chart1.hourTGWeight + chart2.hourTGWeight) / 2`
+5. tgPattern = use shared pattern type if both agree; mark `~` if they diverge
+6. Branch interactions involving hour = include only if both charts produce the same interaction
+7. Store both 时辰 on the chart object for display in Profile and Birth Chart Raw Data page
+
+**Unknown hour → 3-pillar calculation:**
+- `chart.hourPillar = null`
+- TG weights computed from 6 characters only
+- Denominator kept at 8 for cross-user comparability (hour TG slots contribute 0)
+- tgPattern derived from 6-character distribution — valid, slightly less precise
+- All readings available — no tier gating on incomplete hour
+- Life Chapters and Chart Patterns run on day/month/year branch data — hour branch interactions excluded but features remain fully accessible
+
+**Profile completion prompts (non-blocking, non-alarming):**
+
+For approximate hour:
+```
+"Your birth chart uses an approximate hour."
+"Add your exact time for a more precise reading →"
+```
+
+For unknown hour:
+```
+"Your birth chart is a three-pillar reading."
+"Discover your birth hour →"    ← initiates Chart Resonance
+```
+
+Both shown as quiet cards in Profile, never as alerts or modal interruptions.
+
+---
+
+### Chart Resonance — hour discovery (post-onboarding)
+
+Full spec: see Birth Chart Raw Data Page in §11.
+
+**Summary:** After the user is invested in the product (3+ sessions or explicit tap), a 2-minute portrait-matching exercise narrows the likely 时辰 from 12 → 2–3 candidates using resonance with hour-archetype descriptions. Result updates the chart to 4-pillar (exact or approximate) with a small reveal moment. Traditional BaZi practitioners use this technique when birth time is unavailable.
+
+**Confidence outputs:**
+- High → 4-pillar, no indicator
+- Moderate → 4-pillar, `~` on hour stem
+- Approximate → 4-pillar, `~` on hour stem + *"Based on chart resonance"* note in Profile
+
+---
+
+### Share card error states
+
+If share card generation fails (canvas render error, image export failure):
+- Fall back to text share: archetype name + element + one-line essence as plain text
+- No error shown to user — the share sheet opens with the text fallback silently
+- Log failure for debugging
+
 ## §18 — Features: Pending Development
 
 The following features are fully scoped but not yet built. They are documented here to establish the design intent and data contracts before implementation begins.
@@ -1410,191 +2653,172 @@ This section catalogs all SVG and icon assets used in the current implementation
 
 ### Identity Icons (per-stem)
 
-These are the large central images on the DayMasterHero card. One per stem. Each should visually embody the stem's archetype — not a logo, but a rendered illustration that the user would immediately associate with their identity.
+These are the large central images on the DayMasterHero / Reveal Identity card. One per stem. Each should visually embody the stem's archetype — not a logo, but a rendered ink illustration that the user would immediately associate with their identity. They are the **stem sign** (the painted form of who you are), distinct from the **element sign** (the abstract line iconography for the element family — crescent, tree, triangle, etc.) which lives in the chip strip.
 
-| Stem | Archetype | Asset name | Current status | Notes |
-|---|---|---|---|---|
-| 庚 | The Blade | `BladeJian` | INLINE SVG | Jian (直剑) sword illustration. See spec below. |
-| 甲 | — | `ArchetypeSeal` (fallback) | INLINE SVG | Abstract seal — should be replaced with archetype-specific illustration |
-| 乙 | — | `ArchetypeSeal` (fallback) | INLINE SVG | Abstract seal — should be replaced with archetype-specific illustration |
-| 丙 | — | `ArchetypeSeal` (fallback) | INLINE SVG | Abstract seal — should be replaced with archetype-specific illustration |
-| 丁 | — | `ArchetypeSeal` (fallback) | INLINE SVG | Abstract seal — should be replaced with archetype-specific illustration |
-| 戊 | — | `ArchetypeSeal` (fallback) | INLINE SVG | Abstract seal — should be replaced with archetype-specific illustration |
-| 己 | — | `ArchetypeSeal` (fallback) | INLINE SVG | Abstract seal — should be replaced with archetype-specific illustration |
-| 辛 | — | `ArchetypeSeal` (fallback) | INLINE SVG | Abstract seal — should be replaced with archetype-specific illustration |
-| 壬 | — | `ArchetypeSeal` (fallback) | INLINE SVG | Abstract seal — should be replaced with archetype-specific illustration |
-| 癸 | — | `ArchetypeSeal` (fallback) | INLINE SVG | Abstract seal — should be replaced with archetype-specific illustration |
+**Implementation pattern (`<StemSign>` dispatcher):** All stem icons render through a single `<StemSign stem element size color>` dispatcher in `RevealScreen.jsx`. The dispatcher routes each stem to its painted SVG and falls back to the generic `<ElementSign>` for stems whose painted icon isn't authored yet — so the hero slot is never empty during incremental authoring.
 
-**Production direction:** All 10 stems should eventually have their own rendered identity illustration, consistent in style. The BladeJian establishes the design language: precise linework, metallic gradients, archetypal rather than decorative. Future illustrations should follow similar principles adapted to each element and archetype.
+| Stem | Archetype | Element | Asset name | Current status | Notes |
+|---|---|---|---|---|---|
+| 庚 | The Blade | Yang Metal | `BrushJian` | INLINE SVG | Vertical jian (直剑) — long tapered down-stroke, short cross-guard, bound grip, pommel dot. ViewBox 60×220 (slender). Renders in `INK` to read as raw iron. See visual direction below. |
+| 甲 | The Oak | Yang Wood | `OakArchetype` | NEEDED | Tall figure at forest edge at dawn, upward brushstrokes behind |
+| 乙 | The Vine | Yin Wood | `VineArchetype` | NEEDED | Figure reaching upward and sideways; vine tendrils integrated into form |
+| 丙 | The Sun | Yang Fire | `SunArchetype` | NEEDED | Radiant figure, light from chest not prop; others shown as warm shadows |
+| 丁 | The Ember | Yin Fire | `EmberArchetype` | NEEDED | Seated figure, flame cupped in both hands; face half-lit, half-shadow |
+| 戊 | The Mountain | Yang Earth | `MountainArchetype` | NEEDED | Massive still figure grown from ground; tiny scale reference elements |
+| 己 | The Field | Yin Earth | `FieldArchetype` | NEEDED | Figure kneeling, hands in soil; wide horizontal composition, low horizon |
+| 辛 | The Jewel | Yin Metal | `JewelArchetype` | NEEDED | Figure catching light from multiple angles; dark surround, faceted linework |
+| 壬 | The Ocean | Yang Water | `OceanArchetype` | NEEDED | Figure mid-motion within water, governing it; enormous implied scale |
+| 癸 | The Rain | Yin Water | `RainArchetype` | NEEDED | Figure seen through or composed of falling rain; saturated, flowing ink |
 
----
+**Production direction:** All 10 stems should have their own painted identity SVG in a consistent ink-wash style. `BrushJian` establishes the design language: SVG path geometry with `feTurbulence` + `feDisplacementMap` to bleed the edges, vertical-portrait viewBox, single-color ink (NOT element pigment — element color lives in the chip strip and the surrounding context, while the painted form itself stays Wabi-sabi monochrome iron / wood / fire / water / earth). All marks must scale gracefully from chip context (~28px) to hero context (~280px); `BrushJian` does this by keeping all proportions parameter-free relative to the viewBox.
 
-### BladeJian — 庚 Identity Icon
-
-**Used in:** DayMasterHero card (庚 stems only) · `DayMasterHero` component
-
-**Description:** A straight double-edged Chinese sword (直剑 Zhí Jiàn), rendered in a 96×200px viewBox. Composed of four parts: tapered blade, guard, handle, pommel. Metallic gradients throughout.
-
-**SVG structure:**
-
-| Part | Element | Key dimensions | Gradient |
-|---|---|---|---|
-| Blade | `<path>` tapered polygon | 12px wide at guard, narrows to point at top | `jianBlade` — 5-stop silver/white metallic |
-| Guard | `<rect>` + two `<ellipse>` wings | 30px wide × 7px tall, ellipse wings extend +10px each side | `jianGuard` — gold (#c8a84b → #f0d060 → #c8a84b) |
-| Handle | `<rect>` with 3 `<rect>` wrap bands | 8px wide × 34px tall, bands at 4px intervals | `jianHandle` — dark wood (#3a2a1a → #5a3f28) |
-| Pommel | `<ellipse>` | rx 9, ry 5.5 | `jianPommel` — gold (matches guard) |
-
-**Gradient IDs:** `jianBlade`, `jianGuard`, `jianHandle`, `jianPommel` (all defined as `<linearGradient>` inside `<defs>`)
-
-**Design intent:** Understated, precise. The blade tapers to a clean point. No decorative flourishes beyond the guard wings and handle wraps. The metallic gradients suggest the coolness of refined metal, not ornamental gold.
+**Hero placement:** All stem signs are placed via `<HeroStemMark stem element size>` at the top of Reveal Section 1. The wrapper applies `marginTop: -40` so the painted mark visually pierces the ink-wash mountain band rendered behind it. No ring, no enclosing seal — the painted mark IS the identity, not a logo inside a frame.
 
 ---
 
-### ArchetypeSeal — Fallback Identity Icon
+### §20.2 — Inner Council: The Ten God Visual Personas
 
-**Used in:** DayMasterHero card (all stems without a specific illustration) · `ArchetypeSeal` component · also referenced in Reveal screen §9
+The Inner Council is the central character system of Elementum. Each of the 10 Ten Gods is a personified psychological force — a humanoid deity drawn from the tradition of Chinese mythological office-bearers (神官). Every god has a specific post, a signature prop (法宝), and a voice that speaks to the user from within their chart.
 
-**Description:** Per-stem abstract geometric SVG seal. 10 unique designs, each 72px default size. Uses 1.5px strokes in the stem's element color. No fills — line-art only.
+**The design frame:** In ancient Chinese myth (封神演义, 西游记), every function of the cosmos has a humanoid god with a specific temperament and tool. Elementum's Inner Council follows this logic: the Ten Gods are not abstractions — they are officials in the user's inner court, each governing a specific domain of the psyche.
 
-**Stem → concept mapping:**
+**The element-color system:** Each Inner Council character's visual palette adapts to the user's Day Master element. The character archetype (The General, The Alchemist, etc.) is fixed — but the armor, robes, and accent colors shift to match the user's element. A Metal DM's General wears steel-blue armor. A Wood DM's General stands in bamboo-forest green. This is the "I am the blue one" moment — the same character, personalized to your nature.
 
-| Stem | Geometric concept |
-|---|---|
-| 甲 | Branching tree — three forks from a central vertical line |
-| 乙 | Spiral vine — outward logarithmic spiral |
-| 丙 | Radiating sun — central circle with 8 radiating lines |
-| 丁 | Upward flame — three narrow triangular flame shapes |
-| 戊 | Layered peak — three stacked horizontal chevrons suggesting a mountain |
-| 己 | Cultivation grid — 3×3 grid with slightly irregular spacing |
-| 庚 | Bisected hexagon — regular hexagon with a vertical centerline |
-| 辛 | Faceted diamond — octagon with internal crossing diagonals |
-| 壬 | Depth rings — three concentric circles |
-| 癸 | Wave arcs — three stacked horizontal sine-wave arcs |
+**Illustration style:** Ink wash (水墨) with element-color accents. All characters share a consistent style: expressive brushwork for figure and atmosphere, precise linework for the prop, parchment background with ink-bleed textures. No photorealism. Characters appear as luminous ink-figures — present but not quite of this world.
 
-**Props:** `stem` (string), `color` (hex), `size` (px, default 72)
+**Two uses in the app:**
+1. **Dominant TG card** — The user's dominant force is introduced as a full character reveal in the Energy Blueprint section. Animated summoning: scroll unrolls, ink bleeds into the figure's shape, character name appears.
+2. **TG ring detail** — Smaller, iconic renders of each TG appear when the user taps segments of the element-colored TG ring on the DayMasterHero.
 
 ---
 
-### HalfTaichi — Polarity Badge Icon
+#### The Vanguard (Companion Forces — 比肩 · 劫财)
 
-**Used in:** DayMasterHero badge tile (polarity) · `DayMasterHero` component
+**1 · The Mirror** `比肩`
+- **Full epithet:** The Mirror-Twin · Keeper of the Inner Standard
+- **Council role:** The Internal Compass
+- **Prop:** The Bronze Mirror of Sincerity — when raised, cancels the noise of others' opinions; only one's own truth remains visible
+- **Council voice:** *"We don't need their approval. We already know who we are."*
+- **Visual direction:** A monk-warrior shown from behind or in profile — deliberately ambiguous, as this character looks like the user. Simple, unadorned silk robes. The Bronze Mirror is held at chest height. The posture is immovable, rooted. Composition: calm, symmetrical, self-contained. Ink: clean, controlled lines with almost no atmospheric wash — clarity is the visual language.
+- **Element coloring:** Robes and mirror frame take DM element color. The reflection in the mirror shows the same color back.
 
-**Description:** Half of the traditional taichi (☯) symbol, rendered as inline SVG at approximately 20×22px for badge use. The visible half is the user's polarity.
+**2 · The Rival** `劫财`
+- **Full epithet:** The Silver Rival · Edge of the Comparison
+- **Council role:** The Social Engine
+- **Prop:** The Hook of Comparison — snags the attention, status, and resources of those nearby, but holds them loosely
+- **Council voice:** *"Look at what they have. Now take it."*
+- **Visual direction:** A dashing duelist in a competitive stance — one hand on hip, the other extending the Hook toward an implied target outside the frame. Flamboyant details: decorated collar, a smirk that reads as both charming and dangerous. The composition feels laterally oriented — this character always measuring against something at the same level. Ink: dynamic, slightly theatrical brushwork.
+- **Element coloring:** Jacket and hook chain in DM element color. The implied rival target at the edge of frame is a contrasting shadow.
 
-| Polarity | Visible half | Fill |
+---
+
+#### The Artisans (Output Forces — 食神 · 伤官)
+
+**3 · The Muse** `食神`
+- **Full epithet:** The Celestial Muse · Bearer of the Jade Ladle
+- **Council role:** The Creative Flow
+- **Prop:** The Jade Ladle of Abundance — dipped into any situation, it extracts a hidden creative solution that arrives as if it was always there
+- **Council voice:** *"Relax. The inspiration comes when the tea is ready."*
+- **Visual direction:** A relaxed scholar-figure reclining against a pavilion post or low table. Long sleeves, loose clothing. The Jade Ladle rests nearby, a small wisp of steam rising. One hand holds a brush, the other a wine cup. The expression is one of complete ease — not laziness, but zero friction between inner state and output. Ink: soft wash, warm tones, inviting composition.
+- **Element coloring:** Robes and ladle rim in DM element color. The steam carries a hint of element color as it dissipates.
+
+**4 · The Edge** `伤官`
+- **Full epithet:** The Rebel Edge · Wielder of the Thunder-String
+- **Council role:** The Disruptive Genius
+- **Prop:** The Thunder-String Pipa — music of extraordinary beauty with edges that can shatter glass, expose lies, or break the silence of institutions
+- **Council voice:** *"The rules are for people who aren't as smart as us."*
+- **Visual direction:** A sharp-featured prodigy with wild, ink-dark hair mid-performance or mid-confrontation. The Thunder-String Pipa is slung across their back or held at a defiant angle. The expression is simultaneously brilliant and dangerous — aware of the disruption and choosing it. Background: suggestions of a cracked or disrupted frame, as if the brilliance is exceeding the container. Ink: dynamic, broken lines, expressive energy.
+- **Element coloring:** Pipa body and hair accent in DM element color. The sound-wave brushstrokes emanating from the strings carry element color.
+
+---
+
+#### The Ministers (Wealth Forces — 偏财 · 正财)
+
+**5 · The Horizon** `偏财`
+- **Full epithet:** The Wind-Chaser · Bearer of the Star-Map
+- **Council role:** The Visionary
+- **Prop:** The Wind-Chasing Banner — when waved, reveals the currents of opportunity months before they arrive to anyone else
+- **Council voice:** *"Why count grains of rice when we could own the field?"*
+- **Visual direction:** A sun-darkened merchant-traveler with a star-map unfurled in one hand, the Wind-Chasing Banner streaming behind them. The figure is mid-stride, facing a wide horizon that dominates the composition — they are always at the edge of the known territory, never fully arrived. The scale of the horizon dwarfs the figure slightly. Ink: open composition, expansive washes, feeling of wind and motion.
+- **Element coloring:** Banner and map borders in DM element color. The horizon itself bleeds into element color at the edge.
+
+**6 · The Steward** `正财`
+- **Full epithet:** The Golden Steward · Keeper of the Infinite Abacus
+- **Council role:** The Pragmatist
+- **Prop:** The Infinite Abacus — beads slide with lightning speed to calculate the precise ROI of any decision; it provides stability but registers risk acutely
+- **Council voice:** *"Hard work is the only math that never lies."*
+- **Visual direction:** A meticulous figure in heavy, embroidered court robes. The Infinite Abacus is held at waist height, mid-calculation. The posture is completely grounded — no theatrical quality, just precision and accountability. A ledger is implied nearby. Composition: formal, stable, anchored at the center of frame. Ink: deliberate, measured strokes. Every fold of the robe is placed.
+- **Element coloring:** Robe embroidery and abacus frame in DM element color. The bead currently being moved carries a gold highlight.
+
+---
+
+#### The Enforcers (Authority Forces — 七杀 · 正官)
+
+**7 · The General** `七杀`
+- **Full epithet:** The Scourged General · Wielder of the Seven-Star Halberd
+- **Council role:** The Protector
+- **Prop:** The Seven-Star Halberd — grows heavier and sharper under pressure; it transforms what the user has survived into the force that protects them going forward
+- **Council voice:** *"The pressure isn't here to break you. It's here to forge the blade."*
+- **Visual direction:** A battle-scarred warrior in dark armor standing in a storm. The Seven-Star Halberd rests point-down, held lightly — not threatened, forged. The face carries the specific expression of someone who has survived something and knows what it cost. Not triumphant. Not defeated. The storm in the background is ongoing. Composition: the most dramatic in the council — the figure is a vertical axis in a diagonal world. Ink: heavy, storm-dark washes, strong contrast.
+- **Element coloring:** Armor trim and halberd stars in DM element color. The storm washes behind carry element color in their deepest tones.
+
+**8 · The Arbiter** `正官`
+- **Full epithet:** The Iron Arbiter · Holder of the Seal of Mandate
+- **Council role:** The Conscience
+- **Prop:** The Seal of Mandate — when pressed, a decision becomes official, binding, and legitimate; it transforms aspiration into social contract
+- **Council voice:** *"What will the world think of us if we fail our duty?"*
+- **Visual direction:** A stern figure in formal court robes, the Seal of Mandate raised or extended outward. The composition is deliberately symmetrical — this character operates within frames and embodies them. The expression is not harsh but serious, duty-carrying. A heavy scroll of laws is implied at the side. Ink: precise, contained lines. Nothing informal or asymmetrical. The Seal itself is the compositional anchor.
+- **Element coloring:** Robe borders and Seal face in DM element color. The stamped impression glows briefly in element color.
+
+---
+
+#### The Mentors (Resource Forces — 偏印 · 正印)
+
+**9 · The Alchemist** `偏印`
+- **Full epithet:** The Moonlit Alchemist · Keeper of the Flask of Transmutation
+- **Council role:** The Intuition
+- **Prop:** The Flask of Transmutation — contains a liquid that can transform a curse into a blessing; the process is painful, solitary, and works only in darkness
+- **Council voice:** *"The truth is hidden in the dark. Don't be afraid to go there alone."*
+- **Visual direction:** A solitary, eccentric figure in a shadow-tower study, seen at an oblique angle — never quite head-on. The Flask of Transmutation glows faintly in one hand, the only warm light in the composition. Scrolls, astronomical instruments, and arcane materials are suggested in the shadows. The expression is inward, absorbed in something others cannot see. Ink: night-scene — deep washes with a single luminous point. The figure is partially consumed by the darkness, partially lit by their own work.
+- **Element coloring:** Flask glow and robe trim in DM element color. The rest of the composition is deliberately desaturated to make the element color luminous by contrast.
+
+**10 · The Sage** `正印`
+- **Full epithet:** The Grand Sage · Bearer of the Brush of Life
+- **Council role:** The Nurturer
+- **Prop:** The Brush of Life — can rewrite a difficult year into a learning chapter; it channels the protection of ancestors and the direction of accumulated wisdom into a single stroke
+- **Council voice:** *"Rest now. The ancestors have already paved the road for you."*
+- **Visual direction:** A warm, white-haired elder figure with the Brush of Life raised mid-stroke. Floating books or scrolls drift around them, drawn by the same force that makes the brush move. One hand extends toward the viewer — the gesture is simultaneously welcoming and directional. The most approachable composition in the council: open, warm, centered. Ink: broad, confident strokes for the figure; soft washes for the floating materials. The warmth of the composition matches the warmth of the character.
+- **Element coloring:** Robes and brush handle in DM element color. The ink trail from the Brush of Life glows briefly in element color before settling to deep ink black.
+
+---
+
+#### Inner Council — Reveal Card Format
+
+When a user first encounters their dominant Ten God (in the reveal sequence or Energy Blueprint section), the card appears as an **animated summoning**:
+
+1. **The scroll** — aged parchment background unrolls from top to bottom (300ms)
+2. **The ink bleed** — the character's form bleeds into shape from a center point, like ink dropped into water (500ms, ease-out)
+3. **The name** — short name appears first in Cormorant Garamond 38px, then epithet in EB Garamond 15px below (700ms)
+4. **The council voice** — the voice quote fades in italicized at the bottom (900ms)
+5. **The prop label** — small label identifies the prop in the illustration (1100ms)
+
+**Card dimensions:** Full-width mobile card (~390px), 520px tall. Character illustration occupies upper 65% of card. Text block occupies lower 35% on parchment background.
+
+**Card fields (rendered):**
+- `name` → large title (38px Cormorant)
+- `epithet` → subtitle (15px EB Garamond, italic)
+- `councilRole` → eyebrow label above name (11px, tracked, uppercase)
+- `councilVoice` → bottom quote (15px EB Garamond, italic, accent-colored)
+- `prop` → small caption over illustration (13px, bronze accent)
+
+All five fields are now authored in `archetypeSource.js → TG_CARD_DATA[tg]`.
+
+---
+
+### Version history
+
+| Version | Date | Changes |
 |---|---|---|
-| Yang | Right half (S-curve rightward) | Element color at full opacity |
-| Yin | Left half (S-curve leftward) | Element color at full opacity |
-
-**Implementation:** Constructed from SVG `<path>` arcs describing the S-curved half-circle boundary. The inner dot (the seed of the opposite polarity inside each half) is included as a small `<circle>` in the contrasting color.
-
----
-
-### ElementGem — Element Badge Icon
-
-**Used in:** DayMasterHero badge tile (element) · `DayMasterHero` component
-
-**Description:** A faceted pentagon/gem shape rendered as a filled SVG polygon, approximately 20×20px. Represents the element in an abstract, crystalline form — particularly appropriate for Metal, but used consistently across all five elements.
-
-**Implementation:** 7-point polygon with inner facet lines suggesting a cut gem. Fill: element color at 80% opacity. Facet lines: element color at full opacity, 0.5px stroke.
-
----
-
-### Full Taichi — Polarity Popup Illustration
-
-**Used in:** HeroPopupOverlay (polarity popup) · `HeroPopupOverlay` component
-
-**Description:** Complete taichi (yin-yang) SVG, ~140×140px. Rendered with split opacity treatment to emphasize the user's polarity.
-
-| User polarity | Treatment |
-|---|---|
-| Yang | Yang (light/right) half at full opacity; Yin (dark/left) half at 35% opacity |
-| Yin | Yin (dark/left) half at full opacity; Yang (light/right) half at 35% opacity |
-
-The central S-curve divides the circle. Each half contains the seed circle of the opposite polarity (the small dot). The taichi is rendered in the user's element color (Yang half) and a neutral dark (`#2a2420`) for the Yin half.
-
----
-
-### Five Elements Tiles — Element Popup
-
-**Used in:** HeroPopupOverlay (element popup) · `HeroPopupOverlay` component
-
-**Description:** Grid of 5 tiles, one per element, shown in the element knowledge popup when the user taps their Element badge. Each tile is a styled `<div>` — no separate SVG asset.
-
-| Tile content | Spec |
-|---|---|
-| Chinese character (木/火/土/金/水) | 22px, Noto Serif SC, element color |
-| English name | 11px, uppercase, element color |
-| 3–4 word descriptor | 10px, `#5a5550` |
-| Background | element color at 8% opacity |
-| Border | element color at 20% opacity, 1px |
-| Border-radius | 10px |
-| Size | ~60×72px |
-
----
-
-### Ten Stems Grid — Stem Popup
-
-**Used in:** HeroPopupOverlay (stem popup) · `HeroPopupOverlay` component
-
-**Description:** Grid of 10 stem tiles, grouped by element (2 stems per element = 5 columns of 2). Shown in the Day Master knowledge popup when the user taps their Stem badge. Each tile is a styled `<div>`.
-
-| Tile content | Spec |
-|---|---|
-| Chinese character | 18px, Noto Serif SC, element color |
-| Pinyin | 9px, element color at 70% opacity |
-| English archetype name | 9px, `#5a5550` |
-| Background | element color at 12% opacity (user's own stem: 25%) |
-| Border | element color at 25% opacity; user's stem: 2px solid element color |
-| Border-radius | 8px |
-
----
-
-### iPhone Status Bar Icons
-
-**Used in:** App-level phone frame mockup · `App` component
-
-**Description:** Inline SVG icons in the status bar overlay at the top of the phone frame (height 56px). These are decorative — they make the app preview feel like a real iOS app.
-
-| Asset | Description | Implementation |
-|---|---|---|
-| Dynamic Island | Black pill, `120×34px`, `borderRadius: 20px` | CSS `<div>` |
-| Time label | "9:41" | Text, 15px, EB Garamond, `#F8F6F0` |
-| Signal bars | 4 vertical bars, increasing height | Inline SVG, 3 rects, `#F8F6F0` |
-| WiFi icon | 3 arc strokes | Inline SVG, 3 `<path>` arcs, `#F8F6F0` |
-| Battery | Rect body + terminal nub, 25% fill indicator | Inline SVG, 2 rects, `#F8F6F0` |
-
-All status bar icons are hardcoded decorative elements — they do not reflect real device state.
-
----
-
-### Home Indicator
-
-**Used in:** App-level phone frame · `App` component
-
-**Description:** iOS home indicator bar. `134×5px`, `borderRadius: 3px`, `background: rgba(255,255,255,0.3)`. Absolute-positioned at `bottom: 8px`, centered horizontally.
-
----
-
-### Design iteration notes
-
-When upgrading from the current inline SVG implementation to a production asset library:
-
-1. All identity icons (BladeJian + 9 remaining stems) should be designed as a coherent set — same visual grammar, same stroke weight system, same gradient palette philosophy per element.
-2. The HalfTaichi and ElementGem are small (badge-sized) assets — they should be optimized SVGs, not rasterized at any size.
-3. The Full Taichi popup illustration benefits from a refined version with subtle inner glow and smoother S-curve path math.
-4. Status bar icons are acceptable as inline SVG for the prototype phase. In a native app build, these would be replaced by the OS-native status bar.
-
----
-
-| | |
-|---|---|
-| **Document** | Doc 5 — App Design Document |
-| **Last Updated** | 2026-04-13 |
-| **Version** | 1.0  ·  April 2026 |
-| **Status** | LIVING — most actively evolving document in the system |
-| **Audience** | Designer, frontend engineers |
-| **Purpose** | Full UI/UX: component specs, color system, typography, animation, screen flows, interaction design. References Doc 2 for what data is available and in what order. |
-| **Stability** | LOW — updates with every design iteration |
-| **Used by** | Elementum_Engine.jsx · frontend components · design tools |
-| **Compatible with** | Doc2 v1.0 · Doc1 v1.0 · Doc6 v1.0 |
+| §20 initial | Prior session | BladeJian spec, stem icon table (庚 only complete) |
+| §20 v1.1 | 2026-04-22 | Completed stem identity table with all 10 archetypes + visual directions. Added §20.2 Inner Council visual personas for all 10 Ten Gods. Added reveal card format spec. |
+| §20 v1.2 | 2026-04-24 | BladeJian renamed to **BrushJian**, redrawn with vertical-portrait 60×220 viewBox + INK fill (was element pigment). Added the **StemSign dispatcher pattern** as the production entry point for all per-stem hero icons — routes per-stem, falls back to ElementSign for stems whose painted SVG isn't authored yet. Added the **HeroStemMark** placement convention (negative top margin so hero icon pierces ink-wash mountain band). Asset table updated to reflect that stem signs render in INK monochrome, NOT element pigment. |

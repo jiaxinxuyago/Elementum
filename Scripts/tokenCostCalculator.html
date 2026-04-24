@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elementum — Token Cost Calculator</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 14px;
+    background: #f9f9f8;
+    color: #1a1a1a;
+    padding: 24px 16px 48px;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  h1 { font-size: 22px; font-weight: 600; margin-bottom: 4px; }
+  .subtitle { font-size: 13px; color: #666; margin-bottom: 28px; }
+  .card {
+    background: #fff;
+    border: 1px solid #e5e5e3;
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-bottom: 14px;
+  }
+  .section-label {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 12px;
+  }
+  .model-btns { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+  .mbtn {
+    padding: 5px 14px;
+    border-radius: 6px;
+    border: 1px solid #d9d9d6;
+    background: transparent;
+    font-size: 12px;
+    cursor: pointer;
+    color: #666;
+    transition: all 0.15s;
+  }
+  .mbtn:hover { border-color: #999; color: #333; }
+  .mbtn.active {
+    background: #eef3ff;
+    color: #2563eb;
+    border-color: #93b4f5;
+    font-weight: 500;
+  }
+  .price-label { font-size: 12px; color: #888; margin-bottom: 16px; }
+  .divider { height: 1px; background: #f0f0ee; margin: 14px 0; }
+  .toggle-row {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 9px;
+    font-size: 13px;
+    color: #555;
+  }
+  .toggle-row input[type=checkbox] { width: 15px; height: 15px; accent-color: #2563eb; cursor: pointer; }
+  .badge {
+    display: inline-block;
+    font-size: 10px;
+    padding: 1px 7px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-left: 4px;
+  }
+  .badge-green { background: #dcfce7; color: #166534; }
+  .slider-row { display: flex; align-items: center; gap: 10px; margin-bottom: 11px; }
+  .slider-label { font-size: 13px; color: #555; min-width: 200px; }
+  .slider-row input[type=range] { flex: 1; accent-color: #2563eb; cursor: pointer; }
+  .slider-val { font-size: 13px; font-weight: 500; min-width: 60px; text-align: right; color: #1a1a1a; }
+  .metric-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 14px; }
+  @media (max-width: 480px) { .metric-grid { grid-template-columns: 1fr 1fr; } }
+  .metric { background: #f9f9f8; border-radius: 8px; padding: 12px; }
+  .metric-label { font-size: 11px; color: #999; margin-bottom: 4px; }
+  .metric-val { font-size: 22px; font-weight: 600; color: #1a1a1a; }
+  .metric-sub { font-size: 11px; color: #aaa; margin-top: 2px; }
+  .scale-table { border: 1px solid #ececec; border-radius: 8px; overflow: hidden; }
+  .scale-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 14px;
+    border-bottom: 1px solid #f0f0ee;
+    font-size: 13px;
+  }
+  .scale-row:last-child { border-bottom: none; }
+  .scale-row:nth-child(even) { background: #fafaf9; }
+  .scale-label { color: #444; font-weight: 500; min-width: 90px; }
+  .scale-total { font-weight: 600; min-width: 90px; text-align: right; }
+  .scale-detail { font-size: 11px; color: #aaa; text-align: right; }
+  .rec-box {
+    background: #eef3ff;
+    border-left: 3px solid #2563eb;
+    border-radius: 0 6px 6px 0;
+    padding: 11px 14px;
+    font-size: 13px;
+    color: #1e3a8a;
+    line-height: 1.6;
+    margin-top: 12px;
+  }
+  .margin-note {
+    font-size: 12px;
+    color: #888;
+    line-height: 1.7;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #f0f0ee;
+  }
+  .margin-note strong { color: #444; }
+  .chart-wrap { position: relative; width: 100%; height: 240px; margin-top: 14px; }
+  .footer { font-size: 11px; color: #bbb; text-align: center; margin-top: 28px; }
+  .highlight-row { background: #fffbeb !important; }
+</style>
+</head>
+<body>
+
+<h1>Elementum — API Token Cost Calculator</h1>
+<p class="subtitle">Model your reading engine's token spend across every scale scenario</p>
+
+<!-- Model selector -->
+<div class="card">
+  <div class="section-label">Model tier</div>
+  <div class="model-btns">
+    <button class="mbtn" id="m-haiku" onclick="setModel('haiku')">Haiku 4.5 — fastest</button>
+    <button class="mbtn active" id="m-sonnet" onclick="setModel('sonnet')">Sonnet 4.6 — recommended</button>
+    <button class="mbtn" id="m-opus" onclick="setModel('opus')">Opus 4.6 — premium</button>
+  </div>
+  <div class="price-label" id="price-label">Sonnet 4.6: $3.00 input / $15.00 output per million tokens</div>
+
+  <div class="divider"></div>
+  <div class="section-label">Cost optimizations</div>
+  <div class="toggle-row">
+    <input type="checkbox" id="cache" checked onchange="update()">
+    Prompt caching enabled
+    <span class="badge badge-green">−90% input</span>
+  </div>
+  <div class="toggle-row">
+    <input type="checkbox" id="batch" onchange="update()">
+    Batch API for background calls
+    <span class="badge badge-green">−50% all</span>
+  </div>
+  <div class="toggle-row">
+    <input type="checkbox" id="dynamic-daily" onchange="update()">
+    Dynamic daily readings (LLM-generated Today tab)
+  </div>
+  <div class="toggle-row">
+    <input type="checkbox" id="hybrid" onchange="update()">
+    Hybrid routing: Sonnet teasers + Opus expansions
+  </div>
+</div>
+
+<!-- User behavior -->
+<div class="card">
+  <div class="section-label">User behavior assumptions</div>
+  <div class="slider-row">
+    <span class="slider-label">Avg section expansions / session</span>
+    <input type="range" id="expansions" min="0" max="12" step="1" value="3" oninput="update()">
+    <span class="slider-val" id="expansions-out">3</span>
+  </div>
+  <div class="slider-row">
+    <span class="slider-label">DAU / MAU ratio</span>
+    <input type="range" id="dau" min="5" max="60" step="5" value="20" oninput="update()">
+    <span class="slider-val" id="dau-out">20%</span>
+  </div>
+  <div class="slider-row">
+    <span class="slider-label">Sessions per active day</span>
+    <input type="range" id="sessions" min="1" max="4" step="1" value="1" oninput="update()">
+    <span class="slider-val" id="sessions-out">1</span>
+  </div>
+  <div class="slider-row">
+    <span class="slider-label">New user growth (% of base / month)</span>
+    <input type="range" id="growth" min="1" max="20" step="1" value="5" oninput="update()">
+    <span class="slider-val" id="growth-out">5%</span>
+  </div>
+</div>
+
+<!-- Per-user economics -->
+<div class="card">
+  <div class="section-label">Per-user unit economics</div>
+  <div class="metric-grid">
+    <div class="metric">
+      <div class="metric-label">One-time reading setup</div>
+      <div class="metric-val" id="m-onetime">—</div>
+      <div class="metric-sub">per new user</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">Monthly variable cost</div>
+      <div class="metric-val" id="m-monthly">—</div>
+      <div class="metric-sub">per active user/mo</div>
+    </div>
+    <div class="metric">
+      <div class="metric-label">Tokens per session</div>
+      <div class="metric-val" id="m-tokens">—</div>
+      <div class="metric-sub">input + output</div>
+    </div>
+  </div>
+  <div class="rec-box" id="rec-box"></div>
+</div>
+
+<!-- Scale projections -->
+<div class="card">
+  <div class="section-label">Monthly API spend at scale</div>
+  <div class="scale-table" id="scale-table"></div>
+  <div class="margin-note" id="margin-note"></div>
+  <div class="chart-wrap">
+    <canvas id="scaleChart"></canvas>
+  </div>
+</div>
+
+<div class="footer">Elementum · Token Cost Calculator · Prices verified March 2026 against Anthropic official docs</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const MODELS = {
+  haiku:  { label:"Haiku 4.5",  inp:1.00, out:5.00  },
+  sonnet: { label:"Sonnet 4.6", inp:3.00, out:15.00 },
+  opus:   { label:"Opus 4.6",   inp:5.00, out:25.00 },
+};
+let model = "sonnet";
+let chartInst = null;
+
+function setModel(m) {
+  model = m;
+  ["haiku","sonnet","opus"].forEach(k => {
+    document.getElementById("m-"+k).className = "mbtn" + (k===m?" active":"");
+  });
+  const p = MODELS[m];
+  document.getElementById("price-label").textContent =
+    `${p.label}: $${p.inp.toFixed(2)} input / $${p.out.toFixed(2)} output per million tokens`;
+  update();
+}
+
+function calcCost(inTok, outTok, cache, batch, overrideModel) {
+  const p = MODELS[overrideModel || model];
+  let inp = p.inp, out = p.out;
+  if (batch)  { inp *= 0.5; out *= 0.5; }
+  if (cache)  { inp *= 0.1; }
+  return (inTok * inp + outTok * out) / 1e6;
+}
+
+function fmt(n) {
+  if (n === 0) return "$0";
+  if (n < 0.001) return "$" + n.toFixed(5);
+  if (n < 0.01)  return "$" + n.toFixed(4);
+  if (n < 0.1)   return "$" + n.toFixed(3);
+  if (n < 1)     return "$" + n.toFixed(2);
+  if (n < 10)    return "$" + n.toFixed(2);
+  if (n < 1000)  return "$" + Math.round(n).toLocaleString();
+  if (n < 1e6)   return "$" + (n/1000).toFixed(1) + "K";
+  return "$" + (n/1e6).toFixed(2) + "M";
+}
+
+function fmtUsers(n) {
+  if (n < 1000) return n.toLocaleString();
+  if (n < 1e6)  return (n/1000).toFixed(0) + "K";
+  return (n/1e6).toFixed(0) + "M";
+}
+
+function update() {
+  const expansions    = +document.getElementById("expansions").value;
+  const dauPct        = +document.getElementById("dau").value;
+  const dauRatio      = dauPct / 100;
+  const sessPerDay    = +document.getElementById("sessions").value;
+  const growthPct     = +document.getElementById("growth").value;
+  const cache         = document.getElementById("cache").checked;
+  const batch         = document.getElementById("batch").checked;
+  const dynamicDaily  = document.getElementById("dynamic-daily").checked;
+  const hybrid        = document.getElementById("hybrid").checked;
+
+  document.getElementById("expansions-out").textContent = expansions;
+  document.getElementById("dau-out").textContent = dauPct + "%";
+  document.getElementById("sessions-out").textContent = sessPerDay;
+  document.getElementById("growth-out").textContent = growthPct + "%";
+
+  // Token budget (based on Elementum v6 architecture)
+  const ABOVE_IN = 200, ABOVE_OUT = 180;   // above-fold Phase 1a
+  const BELOW_IN = 200, BELOW_OUT = 100;   // below-fold Phase 1b (background)
+  const EXP_IN   = 130, EXP_OUT   = 150;   // per section expansion
+  const DAILY_IN = 80,  DAILY_OUT = 100;   // dynamic Today tab
+
+  // One-time setup (above + below fold)
+  const onetimeAbove = calcCost(ABOVE_IN, ABOVE_OUT, cache, false);
+  const onetimeBelow = calcCost(BELOW_IN, BELOW_OUT, cache, batch);
+  const onetime = onetimeAbove + onetimeBelow;
+
+  // Per session: expansions + optional daily
+  const expModel  = hybrid && model !== "haiku" ? "opus" : model;
+  const expCost   = calcCost(expansions * EXP_IN, expansions * EXP_OUT, cache, false, expModel);
+  const dailyCost = dynamicDaily ? calcCost(DAILY_IN, DAILY_OUT, cache, batch) : 0;
+  const perSession = expCost + dailyCost;
+
+  // Monthly per DAU (30 days × DAU ratio × sessions/day)
+  const activeDays = 30 * dauRatio;
+  const monthlyPerDAU = perSession * sessPerDay * activeDays;
+
+  // Tokens per session
+  const tokPerSession = (expansions * EXP_IN) + (expansions * EXP_OUT)
+    + (dynamicDaily ? DAILY_IN + DAILY_OUT : 0);
+
+  document.getElementById("m-onetime").textContent = fmt(onetime);
+  document.getElementById("m-monthly").textContent = fmt(monthlyPerDAU);
+  document.getElementById("m-tokens").textContent  = tokPerSession.toLocaleString();
+
+  // Scale rows
+  const scales = [10000, 100000, 500000, 1000000, 5000000, 10000000];
+  const chartLabels = [], chartData = [];
+
+  let tableHtml = "";
+  scales.forEach((u, i) => {
+    const dau          = Math.round(u * dauRatio);
+    const newPerMonth  = Math.round(u * growthPct / 100);
+    const setupCost    = newPerMonth * onetime;
+    const varCost      = dau * perSession * sessPerDay * 30;
+    const total        = setupCost + varCost;
+    const perUser      = total / u;
+    const isHighlight  = u === 1000000;
+
+    tableHtml += `<div class="scale-row${isHighlight?" highlight-row":""}">
+      <span class="scale-label">${fmtUsers(u)} users${isHighlight?" ★":""}</span>
+      <span class="scale-total">${fmt(total)}<span style="font-size:10px;font-weight:400;color:#aaa">/mo</span></span>
+      <span class="scale-detail">${fmt(perUser)}/user · ${fmtUsers(dau)} DAU</span>
+    </div>`;
+
+    chartLabels.push(fmtUsers(u));
+    chartData.push(parseFloat(total.toFixed(2)));
+  });
+  document.getElementById("scale-table").innerHTML = tableHtml;
+
+  // Margin guidance
+  const atMillion = (() => {
+    const dau = Math.round(1e6 * dauRatio);
+    const nu  = Math.round(1e6 * growthPct / 100);
+    return nu * onetime + dau * perSession * sessPerDay * 30;
+  })();
+  const revenueFor20pct = atMillion / 0.20;
+  const pricePer        = revenueFor20pct / 1e6;
+  document.getElementById("margin-note").innerHTML =
+    `At 1M users: API cost = <strong>${fmt(atMillion)}/mo</strong>. ` +
+    `To keep API at 20% of revenue → need <strong>${fmt(pricePer)}/user/mo</strong> in subscription revenue. ` +
+    `A 10% freemium conversion at $4.99/mo generates ~$500K/mo — ` +
+    `your API is <strong>${((atMillion/500000)*100).toFixed(1)}%</strong> of that revenue.`;
+
+  // Recommendation
+  let rec = "";
+  if (hybrid && model !== "haiku") {
+    rec = "Hybrid routing is your best configuration. Sonnet-tier teasers keep the fast path cheap; Opus expansions deliver depth only when the user asks for it. This is the recommended production architecture.";
+  } else if (model === "opus" && !hybrid) {
+    rec = "Opus 4.6 for all calls will be your largest cost line. Consider hybrid routing: Sonnet for teasers (identical quality at that length), Opus only for section expansions. Would cut this by ~60% with no reader-facing quality loss.";
+  } else if (model === "haiku") {
+    rec = "Haiku keeps costs minimal but produces shallower literary prose — fine for flow periods and teasers, but section expansions need Sonnet to meet the reading quality bar. Consider hybrid: Haiku teasers + Sonnet expansions.";
+  } else if (!cache) {
+    rec = "Enable prompt caching immediately. Your system prompt is identical across every call. Caching drops input cost by 90% — highest leverage change available with zero quality impact.";
+  } else if (!batch) {
+    rec = "Enable Batch API for the below-fold background call — it runs off the critical path anyway and saves 50%. Real-time calls (above-fold, section expansions) stay standard.";
+  } else {
+    rec = "Optimal configuration: Sonnet 4.6 + caching + batch. This is the production-ready setup. Your API cost scales gracefully — at 1M users you're well within sustainable unit economics for a $4.99/mo freemium model.";
+  }
+  document.getElementById("rec-box").textContent = rec;
+
+  // Chart
+  if (chartInst) { chartInst.destroy(); }
+  const ctx = document.getElementById("scaleChart").getContext("2d");
+  chartInst = new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels: chartLabels,
+      datasets: [{
+        label: "Monthly API cost ($)",
+        data: chartData,
+        backgroundColor: chartData.map((_, i) => i === 3 ? "#2563eb" : "#bfcfef"),
+        borderRadius: 4,
+        borderSkipped: false,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: ctx => " " + fmt(ctx.parsed.y) + " / month"
+          }
+        }
+      },
+      scales: {
+        x: { grid: { display: false }, ticks: { font: { size: 11 } } },
+        y: {
+          grid: { color: "#f0f0ee" },
+          ticks: {
+            font: { size: 11 },
+            callback: v => fmt(v)
+          }
+        }
+      }
+    }
+  });
+}
+
+update();
+</script>
+</body>
+</html>
