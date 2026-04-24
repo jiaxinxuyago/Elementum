@@ -9,7 +9,7 @@
 // whichever stem is currently active.
 // ===================================================================
 
-import { ARCHETYPE_SCHEMA } from './archetypeSchema.js';
+import { ARCHETYPE_SCHEMA, cardinalityOf } from './archetypeSchema.js';
 
 // A leaf descriptor is anything with a `type` string field.
 function isLeaf(node) {
@@ -89,7 +89,7 @@ function checkLeaf(value, leaf) {
   return issues.length === 0 ? 'present' : `violates:${issues.join(';')}`;
 }
 
-export function walkSchema(schema, data, path = []) {
+export function walkSchema(schema, data, path = [], inherited = {}) {
   const rows = [];
 
   for (const [key, node] of Object.entries(schema)) {
@@ -104,18 +104,25 @@ export function walkSchema(schema, data, path = []) {
       rows.push({
         path: here.join('.'),
         kind: 'group',
-        tier: meta.tier || '—',
+        tier: meta.tier || inherited.tier || '—',
+        varyBy: meta.varyBy ?? inherited.varyBy ?? null,
         status: 'deprecated',
         note: meta.note || 'deprecated',
       });
       continue;
     }
 
+    // Resolve tier and varyBy from leaf → node._meta → inherited → default.
+    const effectiveTier = node.tier || meta?.tier || inherited.tier || '—';
+    const effectiveVaryBy = node.varyBy ?? meta?.varyBy ?? inherited.varyBy ?? null;
+
     if (isLeaf(node)) {
       rows.push({
         path: here.join('.'),
         kind: 'leaf',
-        tier: node.tier || meta?.tier || '—',
+        tier: effectiveTier,
+        varyBy: effectiveVaryBy,
+        cardinality: cardinalityOf(effectiveVaryBy),
         type: node.type,
         required: !!node.required,
         status: checkLeaf(value, node),
@@ -128,11 +135,18 @@ export function walkSchema(schema, data, path = []) {
       rows.push({
         path: here.join('.'),
         kind: 'group',
-        tier: meta?.tier || '—',
+        tier: effectiveTier,
+        varyBy: effectiveVaryBy,
+        cardinality: cardinalityOf(effectiveVaryBy),
         section: meta?.section,
         status: value === undefined ? 'missing' : 'present',
       });
-      rows.push(...walkSchema(node, value ?? {}, here));
+      rows.push(...walkSchema(
+        node,
+        value ?? {},
+        here,
+        { tier: effectiveTier, varyBy: effectiveVaryBy },
+      ));
     }
   }
 

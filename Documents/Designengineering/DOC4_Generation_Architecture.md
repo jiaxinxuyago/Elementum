@@ -3,6 +3,12 @@
 > **Version 4.3 · April 2026**
 > This document replaces all prior generation architecture. The old three-pass pipeline (portrait prewrite → persona card → reading schema) is retired. `archetypeSource.js` is the single source of truth for all field names, reading templates, and knowledge-pool content. Two pre-generated serving files exist: `STEM_CARD_DATA.js` (150 configuration-specific entries) and `DomEnergyTg_Data.js` (50 compound archetype cards). Generated content beyond those files is limited to the self-report synthesis pass (on purchase).
 
+> **Cross-reference (added with DOC9).**
+> Field shapes, tier gating per field, and `varyBy` cardinality now live in the canonical schema: [`Elementum_App/src/content/archetypeSchema.js`](../../Elementum_App/src/content/archetypeSchema.js).
+> Designer-facing companion grouped by UI surface: [DOC9 — Archetype Fields](./DOC9_Archetype_Fields.md).
+> The DevBar `Schema` tab visualizes coverage and cardinality against this schema for the active stem.
+> **When this doc and the schema disagree, the schema wins.** DOC4 focuses on orchestration, delivery, rendering rules, and synthesis contracts — the *how*, not the *what*.
+
 ---
 
 ## §1 — Architecture Overview
@@ -224,6 +230,10 @@ Every TG card is governed by a **locked reading angle** — a single lens that a
 ---
 
 ## §4 — Data Architecture & Field Reference
+
+> **⚠ Partial overlap with the schema (DOC9 / archetypeSchema.js).**
+> The field names, types, and tier tables in this section duplicate what is now canonically declared in [`archetypeSchema.js`](../../Elementum_App/src/content/archetypeSchema.js) and documented by UI surface in [DOC9](./DOC9_Archetype_Fields.md).
+> This section is retained for historical continuity and to keep DOC4's orchestration/rendering discussion self-contained. When field specifics diverge between this section and the schema, the schema wins. Candidate for consolidation to a pointer once DOC9 matures.
 
 ### Source of truth: `archetypeSource.js`
 

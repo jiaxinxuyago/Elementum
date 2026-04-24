@@ -4,6 +4,11 @@
 **Purpose:** Prompt templates and quality standards for authoring Elementum content fields.  
 Written against the live schema in `archetypeSource.js` — field names and data shapes are exact.
 
+> **Cross-reference (added with DOC9).**
+> The *shape* of every field (type, tier, word caps, `varyBy` cardinality) is declared canonically in [`Elementum_App/src/content/archetypeSchema.js`](../../Elementum_App/src/content/archetypeSchema.js). The UI-surface companion is [DOC9 — Archetype Fields](./DOC9_Archetype_Fields.md).
+> DOC7 tells you **how to write each field** (prompt templates, voice, classical grounding, quality gates). The schema tells you **what to write and how many variants are needed**.
+> When this doc describes a field shape that conflicts with the schema, the schema wins — update this doc.
+
 ---
 
 ## What needs to be written
