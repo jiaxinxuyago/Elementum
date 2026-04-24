@@ -52,31 +52,93 @@ export const PATTERNS = ['pure', 'rooted', 'flowing', 'forging', 'tested'];
 export const ELEMENTS = ['Wood', 'Fire', 'Earth', 'Metal', 'Water'];
 
 // -------------------------------------------------------------------
-// VARIABILITY
+// VARIABILITY — the tag library
 //
 // `varyBy` tells the generation pipeline how many authored variants a
-// field requires, and the DevBar coverage panel how to count "missing".
+// field requires, and tells the DevBar coverage panel how to read a
+// "missing" field (one hole, or 150 holes?).
 //
-//   null                            — static (no variation, 1 authored value)
-//   ['stem']                        — 1 per stem (10 variants total)
-//   ['tg']                          — 1 per Ten God (10 variants total)
-//   ['element']                     — 1 per element (5 variants; Yang/Yin share)
-//   ['stem', 'band', 'tgPattern']   — 1 per (stem × band × tgPattern) (150 variants)
+// Authoring convention:
+//   null                      — static, 1 authored value
+//   [dim]                     — one variant per value of `dim`
+//   [dim1, dim2, ...]         — one variant per (dim1 × dim2 × ...) combination
 //
-// Scope convention: a group's `_meta.varyBy` is the default for all
-// leaves under it. Individual leaves can override. If no varyBy is
-// declared anywhere, the walker assumes ['stem'] (the current baseline).
+// A group's `_meta.varyBy` is the default for all leaves under it.
+// Individual leaves can override. If nothing is declared, the walker
+// assumes ['stem'] (the current baseline).
+//
+// NOTE: `tier` is NOT a varyBy dimension — it is gating, not authoring.
+// Use the field-level `tier` declaration; never put tier inside varyBy.
 // -------------------------------------------------------------------
 
-export const VARY_DIMENSIONS = ['stem', 'tg', 'element', 'band', 'tgPattern'];
+// All dimensions we plausibly classify content by. Extend here first,
+// then the library (VARY_LIBRARY) below, then any downstream code.
+export const VARY_DIMENSIONS = [
+  // — Core archetype identity —
+  'stem',        // DM stem — 甲乙丙丁戊己庚辛壬癸
+  'tg',          // Ten God — 比肩 劫财 食神 伤官 偏财 正财 七杀 正官 偏印 正印
+  'element',     // Five Elements — Wood/Fire/Earth/Metal/Water (yang+yin of same element share)
+  'polarity',    // Yang / Yin — orthogonal axis; mostly redundant with stem
+
+  // — Chart structural modifiers —
+  'band',        // DM strength — concentrated / balanced / open
+  'tgPattern',   // TG structure — pure / rooted / flowing / forging / tested
+  'branch',      // 地支 — 子丑寅卯辰巳午未申酉戌亥
+  'season',      // Birth season — spring / summer / autumn / winter
+  'gender',      // Reader gender — M / F / other
+
+  // — Content-slot axes —
+  'lifeDomain',  // career / relationships / wealth / health
+  'lifeStage',   // rough life phase bucket when a field varies by age
+  'lifePeriod',  // 大运 luck-pillar decade
+  'annualPillar' // 流年 annual stem-branch pair (60-year sexagenary cycle)
+];
 
 export const VARY_CARDINALITY = {
   stem: 10,
   tg: 10,
   element: 5,
-  band: 3,        // concentrated | balanced | open
-  tgPattern: 5,   // pure | rooted | flowing | forging | tested
+  polarity: 2,
+  band: 3,
+  tgPattern: 5,
+  branch: 12,
+  season: 4,
+  gender: 2,
+  lifeDomain: 4,
+  lifeStage: 4,
+  lifePeriod: 8,      // approx typical decades covered in a reading
+  annualPillar: 60,
 };
+
+// Status of each dimension — whether the schema currently uses it,
+// plans to, or lists it as available for future fields.
+export const VARY_LIBRARY = {
+  stem:         { status: 'in-use',    category: 'archetype', description: 'Day Master stem. Primary axis for STEM_CARD_DATA.' },
+  tg:           { status: 'planned',   category: 'archetype', description: '10 relational dynamics between DM and other stems. TG_CARD_DATA.' },
+  element:      { status: 'available', category: 'archetype', description: 'Five Elements. Use when yang/yin stems of the same element share content.' },
+  polarity:     { status: 'available', category: 'archetype', description: 'Yang/Yin axis. Usually covered by stem; use when a field is polarity-only.' },
+  band:         { status: 'in-use',    category: 'modifier',  description: 'DM strength signature. Used in block-text variants.' },
+  tgPattern:    { status: 'in-use',    category: 'modifier',  description: 'TG structural pattern. Used in block-text variants.' },
+  branch:       { status: 'available', category: 'modifier',  description: 'Earthly Branch. Use when content varies by branch (e.g. seasonal calibration specifics).' },
+  season:       { status: 'available', category: 'modifier',  description: 'Derivable from birth month; use when content is season-keyed.' },
+  gender:       { status: 'available', category: 'modifier',  description: 'Only if copy must differ by gender.' },
+  lifeDomain:   { status: 'in-use',    category: 'slot',      description: 'career/relationships/wealth/health. Used in liunianSignatures.' },
+  lifeStage:    { status: 'available', category: 'slot',      description: 'Reader life phase. Not currently used.' },
+  lifePeriod:   { status: 'available', category: 'slot',      description: '大运 decade. Dynamic reading material.' },
+  annualPillar: { status: 'available', category: 'slot',      description: '流年 annual pillar (60-year cycle).' },
+};
+
+// Common compound tags worth naming so writers and generators recognize them.
+export const VARY_COMPOUND_EXAMPLES = [
+  { tag: ['stem'],                         cardinality:  10, note: 'Baseline stem field' },
+  { tag: ['tg'],                           cardinality:  10, note: 'Baseline Ten God field' },
+  { tag: ['element'],                      cardinality:   5, note: 'Element-level (yang/yin share)' },
+  { tag: ['element', 'tg'],                cardinality:  50, note: 'Compound archetype (DomEnergyTg_Data.js planned)' },
+  { tag: ['band', 'tgPattern'],            cardinality:  15, note: 'Variant signature — inside a single stem' },
+  { tag: ['stem', 'band', 'tgPattern'],    cardinality: 150, note: 'Full variant surface (STEM_CARD_DATA.js)' },
+  { tag: ['stem', 'lifeDomain'],           cardinality:  40, note: 'Per-stem per-domain — e.g. liunianSignatures' },
+  { tag: ['tg', 'lifeDomain'],             cardinality:  40, note: 'Per-TG per-domain' },
+];
 
 export function cardinalityOf(varyBy) {
   if (!varyBy || !varyBy.length) return 1;

@@ -6,6 +6,7 @@
 > **Cross-reference (added with DOC9).**
 > Field shapes, tier gating per field, and `varyBy` cardinality now live in the canonical schema: [`Elementum_App/src/content/archetypeSchema.js`](../../Elementum_App/src/content/archetypeSchema.js).
 > Designer-facing companion grouped by UI surface: [DOC9 — Archetype Fields](./DOC9_Archetype_Fields.md).
+> The full tag library (stem, tg, element, band, tgPattern, branch, season, gender, lifeDomain, lifeStage, lifePeriod, annualPillar) is documented in DOC9 → "VaryBy Tag Library". Use it to classify any new field without colliding with existing archetype universes.
 > The DevBar `Schema` tab visualizes coverage and cardinality against this schema for the active stem.
 > **When this doc and the schema disagree, the schema wins.** DOC4 focuses on orchestration, delivery, rendering rules, and synthesis contracts — the *how*, not the *what*.
 

@@ -528,11 +528,19 @@ function VaryChip({ varyBy, cardinality }) {
   // Static fields and defaults don't need a chip.
   if (!varyBy || !varyBy.length) return null;
 
-  // Pigment: single-dim = calm slate; multi-dim = amber (expensive to generate).
-  const color = varyBy.length > 1 ? '#c79b4a' : '#7a8a9a';
+  // Pigment by primary dimension so stem / tg / element sets are visually distinct.
+  // Multi-dim fields inherit from amber (high generation cost) regardless of primary.
+  const PRIMARY_COLOR = {
+    stem:    '#7a8a9a',  // slate — the baseline stem set
+    tg:      '#9a7a8a',  // dusty rose — the ten god set
+    element: '#8fa88f',  // sage — the element set (yang/yin shared)
+    band:    '#8a7a9a',
+    tgPattern: '#a8908a',
+  };
+  const color = varyBy.length > 1 ? '#c79b4a' : (PRIMARY_COLOR[varyBy[0]] || '#7d766b');
 
-  const label =
-    cardinality && cardinality > 1 ? `×${cardinality}` : varyBy.join('·');
+  // Always show dimension + count so "stem ×10" and "tg ×10" never look the same.
+  const label = `${varyBy.join('·')}×${cardinality}`;
 
   return (
     <span
@@ -540,7 +548,7 @@ function VaryChip({ varyBy, cardinality }) {
       style={{
         marginLeft: 5,
         fontSize: 9,
-        letterSpacing: 0.5,
+        letterSpacing: 0.3,
         padding: '1px 5px',
         borderRadius: 3,
         border: `1px solid ${color}55`,

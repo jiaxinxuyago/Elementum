@@ -31,6 +31,51 @@ Verify any archetype's coverage in the DevBar → **Schema** tab.
 
 ---
 
+## VaryBy Tag Library
+
+Every field in the schema declares a `varyBy` tag that tells the generation pipeline how many authored variants are needed and stops different archetype universes from colliding under the same `×10` label. The tag is rendered in the DevBar next to the tier chip (e.g. `stem×10`, `tg×10`, `element·tg×50`).
+
+**Dimensions — the full set:**
+
+| Dimension | Cardinality | Category | Status | Description |
+|---|---|---|---|---|
+| `stem` | 10 | archetype | in-use | Day Master stem — 甲乙丙丁戊己庚辛壬癸. Primary axis for STEM_CARD_DATA. |
+| `tg` | 10 | archetype | planned | Ten God — 比肩 劫财 食神 伤官 偏财 正财 七杀 正官 偏印 正印. TG_CARD_DATA. |
+| `element` | 5 | archetype | available | Five Elements — Wood/Fire/Earth/Metal/Water. Yang/Yin stems of the same element share. |
+| `polarity` | 2 | archetype | available | Yang / Yin. Usually covered by stem; use only when a field is polarity-specific. |
+| `band` | 3 | modifier | in-use | DM strength — concentrated / balanced / open. |
+| `tgPattern` | 5 | modifier | in-use | TG structure — pure / rooted / flowing / forging / tested. |
+| `branch` | 12 | modifier | available | 地支 — 子丑寅卯辰巳午未申酉戌亥. |
+| `season` | 4 | modifier | available | Birth season — spring/summer/autumn/winter. |
+| `gender` | 2 | modifier | available | Reader gender. Use only if copy must differ. |
+| `lifeDomain` | 4 | slot | in-use | career / relationships / wealth / health. |
+| `lifeStage` | 4 | slot | available | Reader life phase bucket. Not currently used. |
+| `lifePeriod` | 8 | slot | available | 大运 decade. |
+| `annualPillar` | 60 | slot | available | 流年 annual stem-branch pair. |
+
+**Status legend:** `in-use` = schema currently tags fields this way · `planned` = next schema extension · `available` = dimension is defined but no field uses it yet.
+
+**Category legend:** `archetype` = who the reading is about · `modifier` = chart structure · `slot` = where in the reading.
+
+**Common compound tags** (multiple dimensions multiplied):
+
+| Tag | Cardinality | Meaning |
+|---|---|---|
+| `stem×10` | 10 | Per-stem baseline (most current schema fields) |
+| `tg×10` | 10 | Per-Ten-God baseline (future TG schema) |
+| `element×5` | 5 | Element-level (yang/yin share) |
+| `element·tg×50` | 50 | Compound archetype (`DomEnergyTg_Data.js`, planned) |
+| `band·tgPattern×15` | 15 | Variant signature inside one stem (used in `blocks[].text` key namespace) |
+| `stem·band·tgPattern×150` | 150 | Full variant surface (`STEM_CARD_DATA.js` — 庚 complete, others TODO) |
+| `stem·lifeDomain×40` | 40 | Per-stem × per-domain (e.g. `liunianSignatures.*` when authored at this grain) |
+| `tg·lifeDomain×40` | 40 | Per-TG × per-domain |
+
+**Authoring rule:** if your field doesn't fit any combination above, extend `VARY_DIMENSIONS` in [`archetypeSchema.js`](../../Elementum_App/src/content/archetypeSchema.js), add a cardinality to `VARY_CARDINALITY`, and add a `VARY_LIBRARY` entry — then this doc gets the corresponding row. The DevBar picks up new dimensions automatically; color palette may need a pigment for the new primary dimension in `DevBar.jsx → VaryChip`.
+
+> `tier` is **not** a varyBy dimension. Tier is gating (who sees the field); varyBy is authoring cardinality (how many variants exist). Keep them in separate schema fields.
+
+---
+
 ## 1 · Reveal Hero (DayMasterHero) — first reading screen
 
 **Render target.** `RevealScreen.jsx` — full-screen, no scroll.  **Tier.** All FREE.
