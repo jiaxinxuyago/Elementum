@@ -52,6 +52,38 @@ export const PATTERNS = ['pure', 'rooted', 'flowing', 'forging', 'tested'];
 export const ELEMENTS = ['Wood', 'Fire', 'Earth', 'Metal', 'Water'];
 
 // -------------------------------------------------------------------
+// VARIABILITY
+//
+// `varyBy` tells the generation pipeline how many authored variants a
+// field requires, and the DevBar coverage panel how to count "missing".
+//
+//   null                            — static (no variation, 1 authored value)
+//   ['stem']                        — 1 per stem (10 variants total)
+//   ['tg']                          — 1 per Ten God (10 variants total)
+//   ['element']                     — 1 per element (5 variants; Yang/Yin share)
+//   ['stem', 'band', 'tgPattern']   — 1 per (stem × band × tgPattern) (150 variants)
+//
+// Scope convention: a group's `_meta.varyBy` is the default for all
+// leaves under it. Individual leaves can override. If no varyBy is
+// declared anywhere, the walker assumes ['stem'] (the current baseline).
+// -------------------------------------------------------------------
+
+export const VARY_DIMENSIONS = ['stem', 'tg', 'element', 'band', 'tgPattern'];
+
+export const VARY_CARDINALITY = {
+  stem: 10,
+  tg: 10,
+  element: 5,
+  band: 3,        // concentrated | balanced | open
+  tgPattern: 5,   // pure | rooted | flowing | forging | tested
+};
+
+export function cardinalityOf(varyBy) {
+  if (!varyBy || !varyBy.length) return 1;
+  return varyBy.reduce((n, dim) => n * (VARY_CARDINALITY[dim] || 1), 1);
+}
+
+// -------------------------------------------------------------------
 // Shared shapes (referenced by itemShape: 'LiunianEntry' etc.)
 // -------------------------------------------------------------------
 
@@ -88,6 +120,7 @@ export const ARCHETYPE_SCHEMA = {
   identity: {
     _meta: {
       tier: 'free',
+      varyBy: ['stem'],
       section: 'Identity Card · DayMasterHero (first reading screen, full-screen, no scroll)',
       status: 'stable',
     },
@@ -117,7 +150,7 @@ export const ARCHETYPE_SCHEMA = {
       example: 'Precision before intention · An edge is never given — it is forged.',
     },
     elementIntro: {
-      _meta: { tier: 'free', section: 'Elemental Nature · Layer 0 (world-building, third-person)' },
+      _meta: { tier: 'free', varyBy: ['stem'], section: 'Elemental Nature · Layer 0 (world-building, third-person)' },
       punch: {
         type: 'string', wordMin: 9, wordMax: 12, tier: 'free', required: true,
         note: 'Declarative codex register, third-person, classical source grounding. No "you".',
@@ -133,7 +166,7 @@ export const ARCHETYPE_SCHEMA = {
 
   // ─────────────────────────────────────────────────────────────
   subtitle: {
-    type: 'string', tier: 'free', required: true,
+    type: 'string', tier: 'free', varyBy: ['stem'], required: true,
     section: 'Section 1 · Elemental Nature (sub-header)',
     splitOn: ' · ',
     note: 'Two-part subtitle. Right half names the impulse (Yin/Yang).',
@@ -142,7 +175,7 @@ export const ARCHETYPE_SCHEMA = {
 
   // ─────────────────────────────────────────────────────────────
   chips: {
-    type: 'string[]', tier: 'free', required: true,
+    type: 'string[]', tier: 'free', varyBy: ['stem'], required: true,
     section: 'Section 1 · Elemental Nature (keyword row)',
     arrayLen: 5, itemWordCap: 3,
     note: 'Five single-word (or hyphenated compound) keywords.',
@@ -153,8 +186,9 @@ export const ARCHETYPE_SCHEMA = {
   yourNature: {
     _meta: {
       tier: 'mixed',
+      varyBy: ['stem'],
       section: 'Your Nature block',
-      note: 'desc varies by STEM_band_tgPattern — variants live in STEM_CARD_DATA.js.',
+      note: 'desc overrides varyBy to stem×band×tgPattern — variants live in STEM_CARD_DATA.js.',
     },
     phrase: {
       type: 'string', wordCap: 4, tier: 'internal', required: false,
@@ -163,21 +197,22 @@ export const ARCHETYPE_SCHEMA = {
     },
     desc: {
       type: 'string', sentenceMin: 2, sentenceMax: 3, tier: 'free', required: true,
-      note: '2nd-person portrait. Overridden per band×pattern via STEM_CARD_DATA.js.',
+      varyBy: ['stem', 'band', 'tgPattern'],
+      note: '2nd-person portrait. Overridden per band×pattern via STEM_CARD_DATA.js (150 variants).',
       example: "The most honest person in any room, often the most alone in it. Precision arrives before warmth does — people lean on the edge and rarely find what's behind it.",
     },
   },
 
   // ─────────────────────────────────────────────────────────────
   gifts: {
-    _meta: { tier: 'free', section: 'Gifts row (3 cards)', itemShape: 'PhraseDesc' },
+    _meta: { tier: 'free', varyBy: ['stem'], section: 'Gifts row (3 cards)', itemShape: 'PhraseDesc' },
     type: 'object[]', arrayLen: 3, required: true,
     itemShape: SHAPES.PhraseDesc,
     example: [{ phrase: 'The Structural Read', desc: "You don't choose to assess — the read finishes before you've decided to begin it." }],
   },
 
   shadows: {
-    _meta: { tier: 'free', section: 'Shadows row (3 cards)', itemShape: 'PhraseDesc' },
+    _meta: { tier: 'free', varyBy: ['stem'], section: 'Shadows row (3 cards)', itemShape: 'PhraseDesc' },
     type: 'object[]', arrayLen: 3, required: true,
     itemShape: SHAPES.PhraseDesc,
     example: [{ phrase: 'The Finished Too Early', desc: "You tend to call things complete before they've fully arrived — the clarity that recognizes finished things can misread what's still becoming." }],
@@ -187,20 +222,22 @@ export const ARCHETYPE_SCHEMA = {
   blocks: {
     _meta: {
       tier: 'free',
+      varyBy: ['stem'],       // block list shape varies per stem; text keys below expand it
       section: 'Blocks grid (detail page)',
       status: 'stable',
       note: 'Each block carries default text + per-band / per-pattern / per-(band_pattern) overrides. ' +
-            'Renderer picks the most specific key available for the active chart.',
+            'Renderer picks the most specific key available for the active chart. ' +
+            'Effective generation cost for text = stems × blocks × variants (~ 10 × 8 × 15 ≈ 1200 pieces at full expansion).',
     },
     type: 'object[]', arrayMin: 5, arrayMax: 11, required: true,
     itemShape: {
-      label:   { type: 'string', wordCap: 7, required: true,
+      label:   { type: 'string', wordCap: 7, required: true, varyBy: ['stem'],
                  note: 'Block heading. E.g. "How you experience the world".' },
-      bands:   { type: 'string[]', valid: BANDS,    required: true },
-      patterns:{ type: 'string[]', valid: PATTERNS, required: true },
-      priority:{ type: 'object', required: true,
+      bands:   { type: 'string[]', valid: BANDS,    required: true, varyBy: ['stem'] },
+      patterns:{ type: 'string[]', valid: PATTERNS, required: true, varyBy: ['stem'] },
+      priority:{ type: 'object', required: true, varyBy: ['stem'],
                  note: 'Render-order weights keyed by variant signature. `default` is the fallback. Higher = earlier.' },
-      text:    { type: 'object', required: true,
+      text:    { type: 'object', required: true, varyBy: ['stem', 'band', 'tgPattern'],
                  note: 'Keyed by variant signature (e.g. "default", "concentrated", "tested", "concentrated_pure"). ' +
                        '`default` is required. More specific keys override.' },
     },
@@ -218,7 +255,7 @@ export const ARCHETYPE_SCHEMA = {
 
   // ─────────────────────────────────────────────────────────────
   dominantEnergy: {
-    _meta: { tier: 'mixed', section: 'Section 2 · The Force (Dominant Energy layer)' },
+    _meta: { tier: 'mixed', varyBy: ['stem'], section: 'Section 2 · The Force (Dominant Energy layer)' },
     label: {
       type: 'string', wordCap: 3, tier: 'free', required: true,
       note: 'User-facing element-specific label. e.g. "The Force" for Metal.',
@@ -236,7 +273,7 @@ export const ARCHETYPE_SCHEMA = {
 
   // ─────────────────────────────────────────────────────────────
   energy: {
-    _meta: { tier: 'mixed', section: 'Section 3 · The Edge in Motion (environmental/operational)' },
+    _meta: { tier: 'mixed', varyBy: ['stem'], section: 'Section 3 · The Edge in Motion (environmental/operational)' },
     keywords: {
       type: 'string[]', arrayLen: 5, itemWordCap: 3, tier: 'free', required: true,
       aliases: ['chips'],
@@ -253,7 +290,7 @@ export const ARCHETYPE_SCHEMA = {
 
   // ─────────────────────────────────────────────────────────────
   manual: {
-    _meta: { tier: 'mixed', section: 'Elemental Nature · Usage Manual' },
+    _meta: { tier: 'mixed', varyBy: ['stem'], section: 'Elemental Nature · Usage Manual' },
     concentrated: { type: 'string', tier: 'free', required: true,
                     note: 'When this stem/element is concentrated in the chart.' },
     open:         { type: 'string', tier: 'free', required: true,
@@ -268,6 +305,7 @@ export const ARCHETYPE_SCHEMA = {
   seasonalCalibration: {
     _meta: {
       tier: 'mixed',
+      varyBy: ['stem'],
       section: 'The Forging Season (PRO detail page) · 调候用神 system',
       note: 'Source: 穷通宝鉴. Distinct from 病药用神 / catalyst system.',
     },
@@ -284,6 +322,7 @@ export const ARCHETYPE_SCHEMA = {
   liunianSignatures: {
     _meta: {
       tier: 'pro',
+      varyBy: ['stem'],
       section: 'Dynamic Energy Blueprint (foundation)',
       note: 'Structured by life domain. Each entry uses the LiunianEntry shape.',
     },
@@ -295,7 +334,7 @@ export const ARCHETYPE_SCHEMA = {
 
   // ─────────────────────────────────────────────────────────────
   psych: {
-    _meta: { tier: 'internal', section: 'Synthesis pass context — never rendered', status: 'stable' },
+    _meta: { tier: 'internal', varyBy: ['stem'], section: 'Synthesis pass context — never rendered', status: 'stable' },
     bigFive:    { type: 'string', required: true, note: 'Big Five / HEXACO signature.' },
     jungian:    { type: 'string', required: true, note: 'Dominant function + cognitive pattern.' },
     attachment: { type: 'string', required: true, note: 'Attachment style + texture.' },
@@ -303,7 +342,7 @@ export const ARCHETYPE_SCHEMA = {
   },
 
   archetypes: {
-    type: 'string[]', tier: 'internal', required: false,
+    type: 'string[]', tier: 'internal', varyBy: ['stem'], required: false,
     note: 'External framework mappings (MBTI, Jungian, Enneagram, etc.). Author reference only.',
   },
 

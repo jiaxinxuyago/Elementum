@@ -341,6 +341,7 @@ function SchemaView({ chart }) {
                 {' '}
                 <strong>{topKey}</strong>
                 {meta?.tier && <TierChip tier={meta.tier} />}
+                <VaryChip varyBy={firstRow?.varyBy} cardinality={firstRow?.cardinality} />
                 {isDeprecated && <span style={{ marginLeft: 6, fontSize: 10, color: '#c79b4a' }}>deprecated</span>}
               </span>
               <span style={{ fontSize: 10, color: '#7d766b' }}>
@@ -412,6 +413,7 @@ function SchemaRow({ row }) {
           {subPath}
           <span style={{ color: '#7d766b', fontSize: 10, marginLeft: 6 }}>{row.type}</span>
           {row.tier && row.tier !== '—' && <TierChip tier={row.tier} />}
+          <VaryChip varyBy={row.varyBy} cardinality={row.cardinality} />
         </div>
         {preview && (
           <div style={{ color: '#8a8378', fontSize: 10, lineHeight: 1.4, marginTop: 2, wordBreak: 'break-word' }}>
@@ -519,6 +521,34 @@ function TabBtn({ active, onClick, children }) {
     >
       {children}
     </button>
+  );
+}
+
+function VaryChip({ varyBy, cardinality }) {
+  // Static fields and defaults don't need a chip.
+  if (!varyBy || !varyBy.length) return null;
+
+  // Pigment: single-dim = calm slate; multi-dim = amber (expensive to generate).
+  const color = varyBy.length > 1 ? '#c79b4a' : '#7a8a9a';
+
+  const label =
+    cardinality && cardinality > 1 ? `×${cardinality}` : varyBy.join('·');
+
+  return (
+    <span
+      title={`varyBy: [${varyBy.join(', ')}] — ${cardinality} authored variants`}
+      style={{
+        marginLeft: 5,
+        fontSize: 9,
+        letterSpacing: 0.5,
+        padding: '1px 5px',
+        borderRadius: 3,
+        border: `1px solid ${color}55`,
+        color,
+        background: `${color}15`,
+        fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace',
+      }}
+    >{label}</span>
   );
 }
 
