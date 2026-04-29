@@ -50,6 +50,8 @@ const FLOW_SCREENS = [
   'step6', 'step6a',
   'step7', 'step7a',
   'loading', 'reveal',
+  'mockup-detail',
+  'mockup-energymap',
 ];
 
 export default function DevBar() {

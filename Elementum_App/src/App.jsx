@@ -15,6 +15,8 @@ import {
 } from './components/onboarding/OnboardingSteps.jsx';
 import LoadingScreen from './components/LoadingScreen.jsx';
 import RevealScreen from './components/RevealScreen.jsx';
+import DetailScreenMockup from './components/mockup/DetailScreenMockup.jsx';
+import EnergyMapMockup from './components/mockup/EnergyMapMockup.jsx';
 import DevBar from './components/dev/DevBar.jsx';
 import { SILK } from './styles/tokens.jsx';
 
@@ -93,6 +95,8 @@ const FLOW = [
   'step7a',   // conditional — only via Change time
   'loading',
   'reveal',
+  'mockup-detail',     // dev-only mockup of the post-Reveal Detail page
+  'mockup-energymap',  // dev-only mockup of the Energy Map catalogue (DOC5 §11)
 ];
 
 // Read the initial screen from URL hash so refresh/deep-links land correctly.
@@ -224,6 +228,17 @@ export default function App() {
       break;
     case 'reveal':
       rendered = <RevealScreen onEnterDashboard={() => { /* TODO Phase 2 */ }} />;
+      break;
+    case 'mockup-detail':
+      rendered = <DetailScreenMockup onBack={goto('reveal')} />;
+      break;
+    case 'mockup-energymap':
+      rendered = (
+        <EnergyMapMockup
+          onBack={goto('reveal')}
+          onOpenDetail={() => setScreen('mockup-detail')}
+        />
+      );
       break;
     default:
       rendered = <WelcomeScreen onContinue={goto('step1')} />;

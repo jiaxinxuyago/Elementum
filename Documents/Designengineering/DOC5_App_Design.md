@@ -242,13 +242,16 @@ type: spring, bounce: 0.5
 /loading                 → LoadingScreen           (no nav)
 /reveal                  → RevealScreen            (no nav)
 /chart-reveal            → BirthChartRawPage       (no nav, modal-style full page)
-/dashboard               → AppLayout wrapper
-  /dashboard/            → TodayScreen             (default tab)
+/dashboard               → AppLayout wrapper (bottom tab nav appears HERE)
+  /dashboard/            → TodayScreen             (default tab on returning sessions)
   /dashboard/guidance    → GuidanceScreen
-  /dashboard/energy-map  → EnergyMapScreen
+  /dashboard/energy-map  → EnergyMapScreen          (default tab on FIRST session)
   /dashboard/friends     → FriendsScreen
   /dashboard/profile     → ProfileScreen
 ```
+
+**Tab nav — first appearance moment.**
+The 5-tab bottom navigation (Today · Energy Map · Guidance · Friends · Profile) materialises **only** when the user enters the Dashboard. Welcome / Onboarding / Loading / Reveal / Chart-Reveal all render *without* the tab nav — they are immersive surfaces. The tab bar's first appearance, on the user's first arrival at `/dashboard/energy-map` post-Reveal, is intentionally part of the "the app reveals itself" moment. See §11 for the visual spec.
 
 ### User journey flows
 
@@ -808,15 +811,25 @@ Tile background: flat `rgba(248,241,225,0.92)` silk fill (the same tone as `deck
 
 ### Section 2: Energy Blueprint
 
-**Composition bars:** 5 rows, sorted highest count first. Each row:
-- Element icon (20px, element color)
-- Element name (EB Garamond, 15px, `#5C554D`)
-- Count fraction (`3/8`, 13px, right-aligned, `#6f6b66`) — denominator is 8 (eight characters in the chart)
-- Continuous bar: `h-2 bg-[#E5DFD1] rounded-full`, filled portion is element color, animated from 0 → `(count/8)×100%` on scroll-enter, 0.8s easeOut via Framer Motion `whileInView`
+> **v1.8 update (2026-04-29).** Section 2 now opens with an **identity ribbon + saturation reading** above the composition bars, and the bars use **segmented-block fills** (8 discrete cells per row) instead of continuous bars. The denser visualisation is a deliberate echo of the dashboard's Energy Map, introducing the visual vocabulary the user will read fluently throughout the app. Forces, Catalyst, Resistance still **do not** appear on Reveal — those are dashboard territory (§11).
 
-Missing element: count shows `0/8`, bar renders empty, missing element callout card activates below.
+**Identity ribbon** (new) — sits above the composition bars, single row:
+- Stem character in a small framed-square seal (44×44, `bg: rgba(248,241,225,0.92)`, 1px `PAPER_HAIR`, radius 12, character in element pigment, 22px Noto Serif SC)
+- Element label (EB Garamond italic 16px `INK`)
+- Two state chips ("Overpowering" / "Concentrated" / "Balanced" / "Open" / etc.) — derived from `dmStrength` band, in `INK_LIGHT` 11px uppercase tracking 0.18em, hairline `PAPER_HAIR` border, transparent fill
+- Saturation percent (right-aligned, `${dmElementColor}` 14px tabular)
+- Below the row: italic 1-sentence saturation reading from `IDENTITY_SATURATION_READING[stem][band]` (12.5px italic `INK_SOFT`, max-width 320px, line-height 1.5)
+- Small saturation bar (h-1.5, segmented like the composition bars below, fills to saturation%)
 
-**Missing element callout card:** Background `${elementColor}10`, border `${elementColor}40`, rounded-xl, p-5. Shows element icon, "Your [Element] is missing", and the missing element paragraph from the engine.
+**Composition bars** (revised — segmented blocks, not continuous fills):
+- 5 rows, sorted highest count first. Same data as before (counts out of 8).
+- Each row: element line-icon (20px in element pigment) → element name (EB Garamond 15px `#5C554D`) → 8 discrete cells (each 22×8, gap 3px), filled cells in element color, empty cells in `#E5DFD1` → count number on right (13px `#6f6b66`)
+- Filled cells animate from 0 → `count` on scroll-enter, staggered 60ms per cell (so a Metal=4 row paints cell-by-cell over 240ms — feels like an abacus settling, not a bar growing)
+- Visual rationale: continuous bars read as "percentage" / "progress"; segmented cells read as "count" / "tally" — closer to how 八字 actually works (you literally count characters)
+
+**Missing element:** count shows `0`, all 8 cells render empty in `#E5DFD1`, missing element callout card activates below.
+
+**Missing element callout card:** Background `${elementColor}10`, border `${elementColor}40`, rounded-xl, p-5. Shows element icon, "Your [Element] is missing", and the missing element paragraph from the engine. (Unchanged from v1.7.)
 
 ### Section 3: Balance Prescription
 
@@ -944,13 +957,55 @@ Three stacked cards:
 ## §11 — Energy Map Screen (Reading Layer)
 
 **Route:** `/dashboard/energy-map`
-**Purpose:** The heart of the product. The user's elemental identity expressed as a navigable catalogue — not a scroll, not a chart, but a reading you move through. Every section is drillable. The deeper you go, the more precisely the product mirrors who you are.
+**Purpose:** The heart of the product. The user's elemental identity expressed as a reading dashboard — not a card menu, but a layered scroll where the highest-value content (identity ribbon, energy blueprint with dominant forces, catalyst/resistance pair) reads inline, while deeper sections (seasonal calibration, life chapters, chart patterns) live as compact secondary cards that drill into detail pages.
 
 **Design principle:** The traditional 八字 birth chart (Four Pillars grid) is intentionally absent from this screen. Western users don't need to decode Chinese characters to feel the depth of their chart — they need the meaning, in language they already speak. The Energy Map surfaces that meaning directly: archetypes, elemental forces, dynamic patterns. The raw chart data is accessible via a separate opt-in view (see Birth Chart Raw Data Page below) for users who want it.
 
+> **v1.8 update (2026-04-29) — Architecture shift: card menu → reading dashboard.**
+>
+> The earlier v1.7 architecture (DayMasterHero + 8 navigation cards, each a tap target leading to a detail page) is **superseded**. The new architecture is **content-rich, not navigation-rich**:
+>
+> 1. **Identity ribbon** — `庚 · Metal · [strength chips]` + saturation %  + 1-italic-sentence saturation reading. Same component used as Reveal Section 2 opener.
+> 2. **Energy Blueprint card** — segmented-block element composition (8-cell rows per element, count-keyed) + **Primary Force** sub-card (DM element + ruling TG archetype + 3 chips, inline) + **Secondary Force** sub-card (same shape, secondary TG). The two Force sub-cards live INSIDE the Blueprint card — no extra tap to see them.
+> 3. **Catalyst / Resistance pair** — side-by-side cards, ↑ / ↓ accent. Each shows italic intro + 1–2 element badges (e.g. *Fire · The Trial*, *Water · The Flow*). Tap chevron to drill into detail.
+> 4. **Secondary cards row** — Seasonal Calibration, Life Chapters, Chart Patterns — smaller cards with chevrons leading to their detail pages.
+>
+> **Why the change:** the older card-menu pattern hid 6 of 8 readings behind a tap. The user's reading deserves to *be present* on first arrival, not gated. The detail pages still exist for deep dives, but the dashboard is the home.
+>
+> **What survives from v1.7:** DayMasterHero (above the ribbon, smaller scale than Reveal), `DetailShell` for drill-downs, `getSections()` for prev/next routing, the tier-locking visual treatment, the lock-blur affordance.
+>
+> **Bottom tab nav (new — visible only inside `/dashboard/`):** 5 tabs — Today · Energy Map · Guidance · Friends · Profile. Materialises on dashboard mount; absent on Reveal and earlier surfaces. See "Bottom tab nav" subsection below for visual spec.
+>
+> The v1.7 architecture detail (catalogue cards, page-state routing, getSections) is retained below for historical reference; the **page-state routing block, getSections() function, and DetailShell wrapper remain authoritative.** What changes is the **catalogue home layout** (Level 1) and which sections appear inline vs. behind taps.
+
 ---
 
-### Architecture: Catalogue Navigation
+### Bottom tab nav (Dashboard chrome)
+
+The 5-tab nav is the only persistent UI element across all dashboard tabs. Visible inside `/dashboard/*`; absent on Welcome, Onboarding, Loading, Reveal, Chart-Reveal.
+
+**Container:** Fixed bottom, full-width, `bg: rgba(241,233,214,0.96)` with `backdrop-blur(8px)`, hairline top border `1px PAPER_HAIR`, safe-area inset for iPhone home indicator (`paddingBottom: env(safe-area-inset-bottom, 8px)`), height 64px above the inset.
+
+**Tabs (5):**
+
+| Tab | Icon (line, 22px) | Label | Route |
+|---|---|---|---|
+| Today | small filled brush dot | Today | `/dashboard/` |
+| Energy Map | concentric ring (mini 3-layer) | Map | `/dashboard/energy-map` |
+| Guidance | upward stroke (compass) | Guidance | `/dashboard/guidance` |
+| Friends | two linked circles | Friends | `/dashboard/friends` |
+| Profile | seal square | Profile | `/dashboard/profile` |
+
+**State styling:**
+- Active: icon + label in **DM element pigment** (Metal=`PIG_METAL`, etc.), label weight 500, small underline brush stroke beneath the label
+- Inactive: icon + label in `INK_LIGHT`, weight 400
+- Tap target: 56×56 minimum, 8px tap-area padding around each icon
+
+**First-appearance moment:** When the user transitions Reveal → Dashboard, the tab bar should fade in over 400ms after the dashboard content has settled (~200ms post-mount), so the bar's arrival reads as "the app revealing its full surface" rather than "chrome appearing." After first session, the bar is just there.
+
+---
+
+### Architecture: Catalogue Navigation (v1.7 historical reference)
 
 Energy Map is a two-level navigation system:
 
