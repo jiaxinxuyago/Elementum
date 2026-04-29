@@ -17,6 +17,7 @@ import LoadingScreen from './components/LoadingScreen.jsx';
 import RevealScreen from './components/RevealScreen.jsx';
 import DetailScreenMockup from './components/mockup/DetailScreenMockup.jsx';
 import EnergyMapMockup from './components/mockup/EnergyMapMockup.jsx';
+import RevealMockupV2 from './components/mockup/RevealMockupV2.jsx';
 import DevBar from './components/dev/DevBar.jsx';
 import { SILK } from './styles/tokens.jsx';
 
@@ -97,6 +98,7 @@ const FLOW = [
   'reveal',
   'mockup-detail',     // dev-only mockup of the post-Reveal Detail page
   'mockup-energymap',  // dev-only mockup of the Energy Map catalogue (DOC5 §11)
+  'mockup-reveal-v2',  // dev-only mockup of Reveal v1.8 (DOC5 §9)
 ];
 
 // Read the initial screen from URL hash so refresh/deep-links land correctly.
@@ -237,6 +239,14 @@ export default function App() {
         <EnergyMapMockup
           onBack={goto('reveal')}
           onOpenDetail={() => setScreen('mockup-detail')}
+        />
+      );
+      break;
+    case 'mockup-reveal-v2':
+      rendered = (
+        <RevealMockupV2
+          onBack={goto('reveal')}
+          onContinue={goto('mockup-energymap')}
         />
       );
       break;

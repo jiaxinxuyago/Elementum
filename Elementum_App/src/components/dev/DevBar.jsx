@@ -52,6 +52,7 @@ const FLOW_SCREENS = [
   'loading', 'reveal',
   'mockup-detail',
   'mockup-energymap',
+  'mockup-reveal-v2',
 ];
 
 export default function DevBar() {

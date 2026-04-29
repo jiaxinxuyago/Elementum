@@ -25,12 +25,10 @@ import {
   StatusBar, ElementSign,
 } from '../../styles/tokens.jsx';
 import DashboardNav from './DashboardNav.jsx';
-
-const PAGE_BG = '#EFE5CC';
-const CARD_BG = '#EBE5D6';
-const CARD_BORDER = '#DCD3C0';
-const TAG_GREY = '#8C8273';
-const TITLE_INK = '#2C2825';
+import {
+  PAGE_BG, CARD_BG, CARD_BORDER, TAG_GREY, TITLE_INK,
+  IdentityRibbon, SegmentedBar,
+} from './_shared.jsx';
 
 // ── 庚 reference data ──
 const DM = {
@@ -105,9 +103,9 @@ export default function EnergyMapMockup({ onBack, onOpenDetail }) {
         color: INK,
       }}
     >
-      <StatusBar tint={INK} />
-
-      {/* Scroll viewport — bottom 76px reserved so nav doesn't overlap content */}
+      {/* Scroll viewport — bottom 76px reserved so nav doesn't overlap content.
+          Top 84px is sticky-header territory, but content scrolls under it
+          (with a backdrop blur on the header so text doesn't bleed). */}
       <div
         style={{
           position: 'absolute',
@@ -116,10 +114,25 @@ export default function EnergyMapMockup({ onBack, onOpenDetail }) {
           overflowY: 'auto',
         }}
       >
-        {/* Top safe-area + section header */}
-        <div style={{ padding: '54px 20px 8px' }}>
+        {/* Sticky header — replaces both StatusBar background and page title.
+            Contains: status bar safe-area, Energy Map title, ← Reveal back link.
+            Backdrop blur so content scrolls behind it without bleeding text. */}
+        <header
+          style={{
+            position: 'sticky',
+            top: 0,
+            zIndex: 20,
+            background: 'linear-gradient(180deg, rgba(239,229,204,0.94) 0%, rgba(239,229,204,0.88) 80%, rgba(239,229,204,0) 100%)',
+            backdropFilter: 'blur(8px)',
+            WebkitBackdropFilter: 'blur(8px)',
+            paddingTop: 0,
+            paddingBottom: 12,
+          }}
+        >
+          <StatusBar tint={INK} />
           <div
             style={{
+              padding: '50px 20px 4px',
               display: 'flex',
               justifyContent: 'space-between',
               alignItems: 'baseline',
@@ -147,9 +160,9 @@ export default function EnergyMapMockup({ onBack, onOpenDetail }) {
               ← Reveal
             </button>
           </div>
-        </div>
+        </header>
 
-        <div style={{ padding: '0 16px 24px' }}>
+        <div style={{ padding: '8px 16px 24px' }}>
           {/* ── 1. Identity ribbon ──────────────────────────── */}
           <IdentityRibbon dm={DM} />
 
@@ -170,79 +183,8 @@ export default function EnergyMapMockup({ onBack, onOpenDetail }) {
   );
 }
 
-// ─────────────────────────────────────────────────────────────
-// Identity ribbon — same component shape used as Reveal §2 opener
-// ─────────────────────────────────────────────────────────────
-function IdentityRibbon({ dm }) {
-  return (
-    <article
-      style={{
-        background: CARD_BG,
-        border: `1px solid ${CARD_BORDER}`,
-        borderRadius: 14,
-        padding: '14px 14px 16px',
-        marginBottom: 12,
-      }}
-    >
-      <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-        <StemSeal stem={dm.stem} color={dm.elementColor} />
-        <div style={{ flex: 1 }}>
-          <div style={{ display: 'flex', alignItems: 'baseline', gap: 6, flexWrap: 'wrap' }}>
-            <span style={{
-              fontFamily: 'inherit', fontStyle: 'italic',
-              fontSize: 17, color: INK, fontWeight: 500,
-            }}>
-              {dm.element}
-            </span>
-            <span style={{ color: INK_LIGHT, fontSize: 14 }}>·</span>
-            {dm.bandChips.map((c, i) => (
-              <span
-                key={i}
-                style={{
-                  fontSize: 10.5,
-                  letterSpacing: 0.4,
-                  padding: '2px 8px',
-                  borderRadius: 999,
-                  border: `1px solid ${PAPER_HAIR}`,
-                  color: INK_SOFT,
-                  background: 'transparent',
-                }}
-              >
-                {c}
-              </span>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* Saturation reading */}
-      <div
-        style={{
-          marginTop: 10,
-          paddingLeft: 14,
-          borderLeft: `2px solid ${dm.elementColor}50`,
-          fontStyle: 'italic',
-          fontSize: 13,
-          lineHeight: 1.55,
-          color: INK_SOFT,
-        }}
-      >
-        {dm.saturationLine}
-      </div>
-
-      {/* Saturation bar (segmented blocks, like composition) */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginTop: 12 }}>
-        <SegmentedBar count={Math.round(dm.saturation * 8)} max={8} color={dm.elementColor} />
-        <span style={{
-          fontSize: 12, color: dm.elementColor, fontWeight: 500,
-          letterSpacing: 0.3, fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace',
-        }}>
-          {Math.round(dm.saturation * 100)}%
-        </span>
-      </div>
-    </article>
-  );
-}
+// IdentityRibbon, SegmentedBar, StemSeal — imported from ./_shared.jsx
+// (same primitives used by Reveal §2 — the cascade is literal)
 
 // ─────────────────────────────────────────────────────────────
 // Energy Blueprint card — composition bars + inline force sub-cards
@@ -506,11 +448,18 @@ function ItemBadge({ item }) {
 function SecondaryCards({ cards, onOpenDetail }) {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+      {/* Hairline divider with tag — softer than a plain section header */}
       <div style={{
-        fontSize: 10, letterSpacing: 0.3 * 10, textTransform: 'uppercase',
-        color: TAG_GREY, fontWeight: 500, margin: '4px 4px 4px',
+        display: 'flex', alignItems: 'center', gap: 12,
+        margin: '14px 4px 8px',
       }}>
-        Deeper Sections
+        <span style={{
+          fontSize: 10, letterSpacing: 3, textTransform: 'uppercase',
+          color: TAG_GREY, fontWeight: 500,
+        }}>
+          Deeper Sections
+        </span>
+        <span style={{ flex: 1, height: 1, background: PAPER_HAIR, opacity: 0.6 }} />
       </div>
       {cards.map((c) => (
         <SecondaryCard key={c.key} card={c} onTap={() => onOpenDetail?.(c.key)} />
@@ -581,53 +530,4 @@ function SecondaryCard({ card, onTap }) {
   );
 }
 
-// ─────────────────────────────────────────────────────────────
-// Shared bits: stem seal, segmented bar
-// ─────────────────────────────────────────────────────────────
-function StemSeal({ stem, color }) {
-  return (
-    <div
-      style={{
-        width: 44, height: 44, borderRadius: 10,
-        background: 'rgba(248,241,225,0.92)',
-        border: `1px solid ${PAPER_HAIR}`,
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-      }}
-    >
-      <span
-        style={{
-          fontFamily: 'Noto Serif SC, serif',
-          fontSize: 22,
-          color: color,
-          letterSpacing: 0,
-          lineHeight: 1,
-        }}
-      >
-        {stem}
-      </span>
-    </div>
-  );
-}
-
-function SegmentedBar({ count, max = 8, color }) {
-  const cells = [];
-  for (let i = 0; i < max; i++) {
-    cells.push(
-      <span
-        key={i}
-        style={{
-          flex: 1,
-          height: 8,
-          background: i < count ? color : '#E5DFD1',
-          borderRadius: 1.5,
-          opacity: i < count ? 1 : 0.85,
-        }}
-      />
-    );
-  }
-  return (
-    <div style={{ display: 'flex', flex: 1, gap: 3, alignItems: 'center' }}>
-      {cells}
-    </div>
-  );
-}
+// StemSeal and SegmentedBar moved to ./_shared.jsx
