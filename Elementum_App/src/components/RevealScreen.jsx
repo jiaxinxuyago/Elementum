@@ -39,6 +39,10 @@ import { STEM_CARD_DATA as STEM_BASELINES } from '../content/archetypeSource.js'
 // Shared chart visualization — also used by Energy Map dashboard so both
 // surfaces render IDENTICALLY from the same chart data.
 import EnergyBlueprint, { buildComposition } from './shared/EnergyBlueprint.jsx';
+// Shared identity ribbon — adds the cascade vocabulary above Section 2's
+// composition (DOC5 §9 v1.8). Same component used at the top of the
+// Energy Map dashboard so the user reads identical chrome on both screens.
+import { IdentityRibbon, buildDm } from './shared/IdentityRibbon.jsx';
 
 // Map element name → pigment color (Ink & Pigment tokens)
 const PIG = {
@@ -606,6 +610,8 @@ export default function RevealScreen({ onEnterDashboard }) {
   // shared with the Energy Map dashboard via buildComposition().
   const composition = buildComposition(chart);
   const missing = composition.find((el) => el.n === 0);
+  // Identity ribbon data — same helper used by Energy Map (DOC5 §9 v1.8).
+  const dm = buildDm(chart);
 
   return (
     <div
@@ -933,7 +939,7 @@ export default function RevealScreen({ onEnterDashboard }) {
             fontStyle: 'italic',
             color: INK_LIGHT,
             textAlign: 'center',
-            margin: '0 0 28px',
+            margin: '0 0 22px',
             lineHeight: 1.6,
           }}
         >
@@ -941,6 +947,13 @@ export default function RevealScreen({ onEnterDashboard }) {
           <br />
           This is how they fall in your chart.
         </p>
+
+        {/* Identity ribbon — DOC5 §9 v1.8 cascade. The same component
+            used at the top of the Energy Map dashboard, introducing
+            the visual vocabulary the user will read fluently throughout
+            the app. Sits above the composition card without changing
+            the existing card or callout below. */}
+        {dm && <IdentityRibbon dm={dm} />}
 
         <div style={{ ...deckleCard({ padding: '12px 18px' }) }}>
           <EnergyBlueprint chart={chart} />

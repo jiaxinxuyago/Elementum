@@ -27,57 +27,11 @@ import {
 import DashboardNav from './DashboardNav.jsx';
 import {
   PAGE_BG, CARD_BG, CARD_BORDER, TAG_GREY, TITLE_INK,
-  IdentityRibbon, SegmentedBar,
+  IdentityRibbon, LockIcon,
 } from './_shared.jsx';
 import { useChart } from '../../store/chartContext.jsx';
 import EnergyBlueprint, { buildComposition } from '../shared/EnergyBlueprint.jsx';
-
-// Pigment + key lookup (mirrors the helpers in shared/EnergyBlueprint.jsx
-// so we can resolve DM color and the inline force colors from chart data)
-const PIG_BY_NAME = {
-  Metal: PIG_METAL, Wood: PIG_WOOD, Water: PIG_WATER, Fire: PIG_FIRE, Earth: PIG_EARTH,
-};
-const KEY_BY_NAME = {
-  Metal: 'metal', Wood: 'wood', Water: 'water', Fire: 'fire', Earth: 'earth',
-};
-const STEM_PINYIN = {
-  '甲':'JIA', '乙':'YI', '丙':'BING', '丁':'DING',
-  '戊':'WU',  '己':'JI', '庚':'GENG', '辛':'XIN',
-  '壬':'REN', '癸':'GUI',
-};
-const BAND_CHIPS = {
-  extremely_strong: ['Overpowering', 'Concentrated'],
-  strong:           ['Concentrated'],
-  balanced:         ['Balanced'],
-  weak:             ['Open'],
-  extremely_weak:   ['Open', 'Vulnerable'],
-};
-
-/** Build the IdentityRibbon's "dm" object from a real chart. */
-function buildDm(chart) {
-  if (!chart) return null;
-  const stem    = chart.dayMaster?.stem;
-  const element = chart.dayMaster?.element;
-  if (!stem || !element) return null;
-  const elementColor = PIG_BY_NAME[element] || PIG_METAL;
-  const dmCount      = chart.elements?.[element]?.count ?? 0;
-  // Saturation = DM-element count / total chars (8). Real number, not placeholder.
-  const saturation   = dmCount / 8;
-  const band         = chart.dayMaster?.strength || 'balanced';
-  return {
-    stem,
-    stemPinyin: STEM_PINYIN[stem] || '',
-    element,
-    elementColor,
-    polarity: chart.dayMaster?.polarity === 'yang' ? 'Yang' : 'Yin',
-    band,
-    saturation,
-    saturationLine: saturation >= 0.5
-      ? 'Your core element saturates the chart — there is very little counterbalance to what you already are.'
-      : 'Your core element runs through the chart with room around it — other forces share the structure.',
-    bandChips: BAND_CHIPS[band] || ['Balanced'],
-  };
-}
+import { buildDm } from '../shared/IdentityRibbon.jsx';
 
 const PRIMARY_FORCE = {
   tag: 'Primary Force',
@@ -590,6 +544,7 @@ function SecondaryCard({ card, onTap }) {
         gridTemplateColumns: '1fr auto',
         alignItems: 'center',
         gap: 10,
+        overflow: 'hidden',  // so the lock-state overlay clips to the card's rounded corners
       }}
     >
       <div>
@@ -631,6 +586,40 @@ function SecondaryCard({ card, onTap }) {
           →
         </span>
       </div>
+
+      {/* Lock state visual — DOC5 §11 v1.8 spec.
+          Sits as an overlay covering the bottom strip of the card,
+          representing the locked detail-page content beyond the tap.
+          backdrop-blur-sm + rgba(248,246,240,0.7) + Lock icon + tier
+          badge centered over the blur. Existing card content (header,
+          title, teaser, corner pill, chevron) all preserved beneath. */}
+      {locked && (
+        <div
+          style={{
+            position: 'absolute',
+            left: 0, right: 0, bottom: 0,
+            height: 22,
+            background: 'rgba(248,246,240,0.7)',
+            backdropFilter: 'blur(3px)',
+            WebkitBackdropFilter: 'blur(3px)',
+            borderTop: `1px solid ${PAPER_HAIR}55`,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: 6,
+            pointerEvents: 'none',
+          }}
+        >
+          <LockIcon size={12} color="#8C857B" />
+          <span style={{
+            fontSize: 8.5, letterSpacing: 1.4, textTransform: 'uppercase',
+            color: '#8C857B',
+            fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace',
+          }}>
+            ◆ Seeker — full reading inside
+          </span>
+        </div>
+      )}
     </article>
   );
 }
