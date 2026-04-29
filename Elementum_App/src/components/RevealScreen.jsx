@@ -36,6 +36,9 @@ import { useChart } from '../store/chartContext.jsx';
 // Per DOC4 §1: archetypeSource.js is the single source of truth for all reading content.
 // Imported with an alias to reserve STEM_CARD_DATA for the variant file (DOC8 pattern).
 import { STEM_CARD_DATA as STEM_BASELINES } from '../content/archetypeSource.js';
+// Shared chart visualization — also used by Energy Map dashboard so both
+// surfaces render IDENTICALLY from the same chart data.
+import EnergyBlueprint, { buildComposition } from './shared/EnergyBlueprint.jsx';
 
 // Map element name → pigment color (Ink & Pigment tokens)
 const PIG = {
@@ -277,89 +280,8 @@ function HeroStemMark({ stem, element = 'Metal', size = 280 }) {
   );
 }
 
-// ---------- Single blueprint row with animated bar ----------
-function BlueprintRow({ el, total = 8, animate = true }) {
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => {
-    if (animate) {
-      const t = setTimeout(() => setMounted(true), 100);
-      return () => clearTimeout(t);
-    } else {
-      setMounted(true);
-    }
-  }, [animate]);
-  const pct = (el.n / total) * 100;
-
-  return (
-    <div
-      style={{
-        display: 'grid',
-        gridTemplateColumns: '28px 1fr auto',
-        gap: 14,
-        alignItems: 'center',
-        padding: '10px 0',
-      }}
-    >
-      <ElementSign
-        element={el.key}
-        size={20}
-        color={el.color}
-        muted={el.n === 0}
-      />
-      <div>
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'baseline',
-            marginBottom: 6,
-          }}
-        >
-          <span
-            style={{
-              fontFamily: "'EB Garamond', serif",
-              fontSize: 15,
-              color: el.n === 0 ? INK_LIGHT : INK_SOFT,
-            }}
-          >
-            {el.en}
-          </span>
-        </div>
-        <div
-          style={{
-            height: 6,
-            width: '100%',
-            background: '#E5DFD1',
-            borderRadius: 999,
-            overflow: 'hidden',
-            position: 'relative',
-          }}
-        >
-          <div
-            style={{
-              width: mounted ? `${pct}%` : '0%',
-              height: '100%',
-              background: el.color,
-              borderRadius: 999,
-              transition: 'width 800ms cubic-bezier(0.22, 1, 0.36, 1)',
-            }}
-          />
-        </div>
-      </div>
-      <span
-        style={{
-          fontFamily: "'EB Garamond', serif",
-          fontSize: 13,
-          color: INK_LIGHT,
-          minWidth: 28,
-          textAlign: 'right',
-        }}
-      >
-        {el.n}/{total}
-      </span>
-    </div>
-  );
-}
+// BlueprintRow moved to ./shared/EnergyBlueprint.jsx — used by both
+// this Reveal screen and the Energy Map dashboard.
 
 // ---------- Prescription category (Environment / Colors / Timing) ----------
 function PrescriptionCategory({ title, icon, bullets, accent = PIG_FIRE }) {
@@ -680,17 +602,9 @@ export default function RevealScreen({ onEnterDashboard }) {
   // eslint-disable-next-line no-unused-vars
   const _archetypeWord = archetypeName.replace(/^The\s+/, '');
 
-  // Build ordered composition — dm element first, then descending count
-  const order = ['Metal', 'Wood', 'Water', 'Fire', 'Earth'];
-  const composition = order
-    .map((el) => ({
-      key: EL_KEY[el],
-      en: el,
-      color: PIG[el],
-      n: chart.elements[el]?.count ?? 0,
-    }))
-    .sort((a, b) => b.n - a.n);
-
+  // Build ordered composition (sorted descending by count). Same calculation
+  // shared with the Energy Map dashboard via buildComposition().
+  const composition = buildComposition(chart);
   const missing = composition.find((el) => el.n === 0);
 
   return (
@@ -1029,9 +943,7 @@ export default function RevealScreen({ onEnterDashboard }) {
         </p>
 
         <div style={{ ...deckleCard({ padding: '12px 18px' }) }}>
-          {composition.map((el) => (
-            <BlueprintRow key={el.key} el={el} />
-          ))}
+          <EnergyBlueprint chart={chart} />
         </div>
 
         {/* Missing element callout */}

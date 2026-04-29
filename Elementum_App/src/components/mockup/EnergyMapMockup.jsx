@@ -29,28 +29,55 @@ import {
   PAGE_BG, CARD_BG, CARD_BORDER, TAG_GREY, TITLE_INK,
   IdentityRibbon, SegmentedBar,
 } from './_shared.jsx';
+import { useChart } from '../../store/chartContext.jsx';
+import EnergyBlueprint, { buildComposition } from '../shared/EnergyBlueprint.jsx';
 
-// ── 庚 reference data ──
-const DM = {
-  stem: '庚',
-  stemPinyin: 'GENG',
-  element: 'Metal',
-  elementColor: PIG_METAL,
-  polarity: 'Yang',
-  band: 'concentrated',
-  saturation: 0.92,
-  saturationLine: 'Your core element saturates the chart — there is very little counterbalance to what you already are.',
-  bandChips: ['Overpowering', 'Concentrated'],
+// Pigment + key lookup (mirrors the helpers in shared/EnergyBlueprint.jsx
+// so we can resolve DM color and the inline force colors from chart data)
+const PIG_BY_NAME = {
+  Metal: PIG_METAL, Wood: PIG_WOOD, Water: PIG_WATER, Fire: PIG_FIRE, Earth: PIG_EARTH,
+};
+const KEY_BY_NAME = {
+  Metal: 'metal', Wood: 'wood', Water: 'water', Fire: 'fire', Earth: 'earth',
+};
+const STEM_PINYIN = {
+  '甲':'JIA', '乙':'YI', '丙':'BING', '丁':'DING',
+  '戊':'WU',  '己':'JI', '庚':'GENG', '辛':'XIN',
+  '壬':'REN', '癸':'GUI',
+};
+const BAND_CHIPS = {
+  extremely_strong: ['Overpowering', 'Concentrated'],
+  strong:           ['Concentrated'],
+  balanced:         ['Balanced'],
+  weak:             ['Open'],
+  extremely_weak:   ['Open', 'Vulnerable'],
 };
 
-// Composition: 8 chars total in chart → counts per element (sums to 8)
-const COMPOSITION = [
-  { key: 'metal', label: 'Metal',  color: PIG_METAL, count: 4, isDM: true },
-  { key: 'wood',  label: 'Wood',   color: PIG_WOOD,  count: 2 },
-  { key: 'earth', label: 'Earth',  color: PIG_EARTH, count: 1 },
-  { key: 'water', label: 'Water',  color: PIG_WATER, count: 1 },
-  { key: 'fire',  label: 'Fire',   color: PIG_FIRE,  count: 0 },
-];
+/** Build the IdentityRibbon's "dm" object from a real chart. */
+function buildDm(chart) {
+  if (!chart) return null;
+  const stem    = chart.dayMaster?.stem;
+  const element = chart.dayMaster?.element;
+  if (!stem || !element) return null;
+  const elementColor = PIG_BY_NAME[element] || PIG_METAL;
+  const dmCount      = chart.elements?.[element]?.count ?? 0;
+  // Saturation = DM-element count / total chars (8). Real number, not placeholder.
+  const saturation   = dmCount / 8;
+  const band         = chart.dayMaster?.strength || 'balanced';
+  return {
+    stem,
+    stemPinyin: STEM_PINYIN[stem] || '',
+    element,
+    elementColor,
+    polarity: chart.dayMaster?.polarity === 'yang' ? 'Yang' : 'Yin',
+    band,
+    saturation,
+    saturationLine: saturation >= 0.5
+      ? 'Your core element saturates the chart — there is very little counterbalance to what you already are.'
+      : 'Your core element runs through the chart with room around it — other forces share the structure.',
+    bandChips: BAND_CHIPS[band] || ['Balanced'],
+  };
+}
 
 const PRIMARY_FORCE = {
   tag: 'Primary Force',
@@ -125,6 +152,29 @@ function fade(mounted, key) {
 }
 
 export default function EnergyMapMockup({ onBack, onOpenDetail }) {
+  // Pull real chart data — same source as RevealScreen.
+  const { chart } = useChart();
+  const dm = buildDm(chart);
+
+  // Inline force sub-cards: derive elements from the actual chart composition.
+  // Archetype names + chip text are still placeholders — those need
+  // TG_CARD_DATA wiring (planned in DOC5 §17).
+  const composition = buildComposition(chart);
+  const primaryEl   = composition[0];                      // most-present element (the DM)
+  const secondaryEl = composition[1];                      // second-most-present
+  const PRIMARY_FORCE = primaryEl ? {
+    tag: 'Primary Force',
+    element: primaryEl.en, elementKey: primaryEl.key, color: primaryEl.color,
+    archetype: 'The Mirror',  // TODO: pull from TG_CARD_DATA[dominantTG]
+    chips: ['Self-reliant', 'Consistent', 'Principled'],
+  } : null;
+  const SECONDARY_FORCE = secondaryEl ? {
+    tag: 'Secondary Force',
+    element: secondaryEl.en, elementKey: secondaryEl.key, color: secondaryEl.color,
+    archetype: 'The Harvest',
+    chips: ['Methodical', 'Disciplined', 'Earned'],
+  } : null;
+
   // Double-rAF mount pattern — same as RevealScreen §1.
   // Initial DOM commits in OFF state, then we flip to ON in the next
   // frame so the transition actually fires.
@@ -139,6 +189,28 @@ export default function EnergyMapMockup({ onBack, onOpenDetail }) {
       cancelAnimationFrame(id2);
     };
   }, []);
+
+  // Empty state — no chart yet. Surfaces the seed presets in the DevBar.
+  if (!chart || !dm) {
+    return (
+      <div style={{
+        position: 'absolute', inset: 0, background: PAGE_BG,
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        fontFamily: "'EB Garamond', serif", color: INK_LIGHT,
+        textAlign: 'center', padding: 32,
+      }}>
+        <StatusBar tint={INK} />
+        <div>
+          <p style={{ fontSize: 14, fontStyle: 'italic', margin: 0 }}>
+            No chart available.
+          </p>
+          <p style={{ fontSize: 12, marginTop: 8, opacity: 0.7 }}>
+            Seed a preset (DevBar → 庚 Blade or 癸 Rain) to view the dashboard.
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div
@@ -213,12 +285,12 @@ export default function EnergyMapMockup({ onBack, onOpenDetail }) {
         <div style={{ padding: '8px 16px 24px' }}>
           {/* ── 1. Identity ribbon ──────────────────────────── */}
           <div style={fade(mounted, 'ribbon')}>
-            <IdentityRibbon dm={DM} />
+            <IdentityRibbon dm={dm} />
           </div>
 
           {/* ── 2. Energy Blueprint card (with inline forces) ── */}
           <div style={fade(mounted, 'blueprint')}>
-            <BlueprintCard composition={COMPOSITION} primary={PRIMARY_FORCE} secondary={SECONDARY_FORCE} />
+            <BlueprintCard chart={chart} primary={PRIMARY_FORCE} secondary={SECONDARY_FORCE} />
           </div>
 
           {/* ── 3. Catalyst / Resistance pair ─────────────────── */}
@@ -236,7 +308,7 @@ export default function EnergyMapMockup({ onBack, onOpenDetail }) {
       {/* ── Bottom tab nav (the "full reveal" punctuation — arrives last) ─── */}
       <DashboardNav
         active="energyMap"
-        accent={DM.elementColor}
+        accent={dm.elementColor}
         style={fade(mounted, 'nav')}
       />
     </div>
@@ -247,16 +319,20 @@ export default function EnergyMapMockup({ onBack, onOpenDetail }) {
 // (same primitives used by Reveal §2 — the cascade is literal)
 
 // ─────────────────────────────────────────────────────────────
-// Energy Blueprint card — composition bars + inline force sub-cards
+// Energy Blueprint card — composition chart + inline force sub-cards.
+// Composition is rendered by the SHARED <EnergyBlueprint> component
+// (src/components/shared/EnergyBlueprint.jsx) — same component used
+// by RevealScreen Section 2, so both screens are pixel-identical and
+// fed by the same chart data.
 // ─────────────────────────────────────────────────────────────
-function BlueprintCard({ composition, primary, secondary }) {
+function BlueprintCard({ chart, primary, secondary }) {
   return (
     <article
       style={{
         background: CARD_BG,
         border: `1px solid ${CARD_BORDER}`,
         borderRadius: 14,
-        padding: 16,
+        padding: '16px 18px',
         marginBottom: 12,
       }}
     >
@@ -271,52 +347,21 @@ function BlueprintCard({ composition, primary, secondary }) {
       </div>
       <p style={{
         fontStyle: 'italic', fontSize: 13, lineHeight: 1.55,
-        color: INK_LIGHT, margin: '0 0 14px',
+        color: INK_LIGHT, margin: '0 0 8px',
       }}>
         The pattern of all five energies across your four pillars — what is present,
         what dominates, and what is absent.
       </p>
 
-      {/* Composition bars */}
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 8, marginBottom: 14 }}>
-        {composition.map((row) => (
-          <CompositionRow key={row.key} row={row} />
-        ))}
-      </div>
+      {/* Composition chart — shared with Reveal Section 2 */}
+      <EnergyBlueprint chart={chart} />
 
       {/* Inline force sub-cards */}
-      <ForceSubCard force={primary} kind="primary" />
-      <ForceSubCard force={secondary} kind="secondary" />
+      <div style={{ marginTop: 14 }}>
+        {primary   && <ForceSubCard force={primary}   kind="primary" />}
+        {secondary && <ForceSubCard force={secondary} kind="secondary" />}
+      </div>
     </article>
-  );
-}
-
-function CompositionRow({ row }) {
-  return (
-    <div style={{ display: 'grid', gridTemplateColumns: '24px 60px 1fr 18px', alignItems: 'center', gap: 8 }}>
-      <span style={{
-        width: 24, height: 24, borderRadius: 6,
-        background: 'rgba(248,241,225,0.9)',
-        border: `1px solid ${PAPER_HAIR}`,
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-      }}>
-        <ElementSign element={row.key} size={14} color={row.color} />
-      </span>
-      <span style={{
-        fontSize: 14, color: INK_SOFT, fontWeight: row.isDM ? 500 : 400,
-        display: 'flex', alignItems: 'center', gap: 4,
-      }}>
-        {row.label}
-        {row.isDM && <span style={{ color: row.color, fontSize: 11 }}>✦</span>}
-      </span>
-      <SegmentedBar count={row.count} max={8} color={row.color} />
-      <span style={{
-        fontSize: 12, color: row.count === 0 ? INK_MIST : INK_LIGHT, textAlign: 'right',
-        fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace',
-      }}>
-        {row.count}
-      </span>
-    </div>
   );
 }
 
