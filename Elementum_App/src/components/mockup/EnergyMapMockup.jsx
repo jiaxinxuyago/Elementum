@@ -16,7 +16,7 @@
 // Catalyst/Resistance side-by-side pair).
 // ===================================================================
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   INK, INK_SOFT, INK_LIGHT, INK_MIST,
   SILK, PAPER_HAIR,
@@ -92,7 +92,54 @@ const SECONDARY_CARDS = [
   { key: 'patterns',     tag: 'Structural',   title: 'Chart Patterns',      teaser: '2 active patterns shape your chart.',                   accent: PIG_METAL, tier: 'pro' },
 ];
 
+// ─────────────────────────────────────────────────────────────
+// Ceremonial entrance schedule.
+// The Energy Map is the user's "full reveal of the app" moment —
+// after the cinematic Reveal screen, the dashboard arrives in
+// composed beats so the new chrome (tab nav included) reads as
+// the surface unfolding rather than appearing.
+//
+// Total entrance window ~1300 ms. Same easing curve as Reveal §1
+// (cubic-bezier 0.22, 1, 0.36, 1) so the two screens feel like
+// one continuous ceremony, not two separate transitions.
+// ─────────────────────────────────────────────────────────────
+const ENTRANCE = {
+  header:    { delay: 0,    duration: 350, lift: 4 },
+  ribbon:    { delay: 200,  duration: 400, lift: 8 },
+  blueprint: { delay: 350,  duration: 400, lift: 8 },
+  pair:      { delay: 500,  duration: 400, lift: 8 },
+  secondary: { delay: 650,  duration: 400, lift: 8 },
+  nav:       { delay: 850,  duration: 500, lift: 12 },
+};
+
+function fade(mounted, key) {
+  const cfg = ENTRANCE[key];
+  return {
+    opacity: mounted ? 1 : 0,
+    transform: mounted ? 'translateY(0)' : `translateY(${cfg.lift}px)`,
+    transition:
+      `opacity ${cfg.duration}ms cubic-bezier(0.22, 1, 0.36, 1) ${cfg.delay}ms, ` +
+      `transform ${cfg.duration}ms cubic-bezier(0.22, 1, 0.36, 1) ${cfg.delay}ms`,
+    willChange: 'opacity, transform',
+  };
+}
+
 export default function EnergyMapMockup({ onBack, onOpenDetail }) {
+  // Double-rAF mount pattern — same as RevealScreen §1.
+  // Initial DOM commits in OFF state, then we flip to ON in the next
+  // frame so the transition actually fires.
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    let id1, id2;
+    id1 = requestAnimationFrame(() => {
+      id2 = requestAnimationFrame(() => setMounted(true));
+    });
+    return () => {
+      cancelAnimationFrame(id1);
+      cancelAnimationFrame(id2);
+    };
+  }, []);
+
   return (
     <div
       style={{
@@ -127,6 +174,7 @@ export default function EnergyMapMockup({ onBack, onOpenDetail }) {
             WebkitBackdropFilter: 'blur(8px)',
             paddingTop: 0,
             paddingBottom: 12,
+            ...fade(mounted, 'header'),
           }}
         >
           <StatusBar tint={INK} />
@@ -164,21 +212,33 @@ export default function EnergyMapMockup({ onBack, onOpenDetail }) {
 
         <div style={{ padding: '8px 16px 24px' }}>
           {/* ── 1. Identity ribbon ──────────────────────────── */}
-          <IdentityRibbon dm={DM} />
+          <div style={fade(mounted, 'ribbon')}>
+            <IdentityRibbon dm={DM} />
+          </div>
 
           {/* ── 2. Energy Blueprint card (with inline forces) ── */}
-          <BlueprintCard composition={COMPOSITION} primary={PRIMARY_FORCE} secondary={SECONDARY_FORCE} />
+          <div style={fade(mounted, 'blueprint')}>
+            <BlueprintCard composition={COMPOSITION} primary={PRIMARY_FORCE} secondary={SECONDARY_FORCE} />
+          </div>
 
           {/* ── 3. Catalyst / Resistance pair ─────────────────── */}
-          <PairRow catalyst={CATALYST} resistance={RESISTANCE} onOpenDetail={onOpenDetail} />
+          <div style={fade(mounted, 'pair')}>
+            <PairRow catalyst={CATALYST} resistance={RESISTANCE} onOpenDetail={onOpenDetail} />
+          </div>
 
           {/* ── 4. Secondary cards row (Seasonal / Life Chapters / Patterns) ── */}
-          <SecondaryCards cards={SECONDARY_CARDS} onOpenDetail={onOpenDetail} />
+          <div style={fade(mounted, 'secondary')}>
+            <SecondaryCards cards={SECONDARY_CARDS} onOpenDetail={onOpenDetail} />
+          </div>
         </div>
       </div>
 
-      {/* ── Bottom tab nav (fixed at phone-frame bottom) ─────── */}
-      <DashboardNav active="energyMap" accent={DM.elementColor} />
+      {/* ── Bottom tab nav (the "full reveal" punctuation — arrives last) ─── */}
+      <DashboardNav
+        active="energyMap"
+        accent={DM.elementColor}
+        style={fade(mounted, 'nav')}
+      />
     </div>
   );
 }

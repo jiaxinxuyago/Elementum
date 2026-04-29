@@ -25,7 +25,7 @@ const TABS = [
   { key: 'profile',   label: 'Profile' },
 ];
 
-export default function DashboardNav({ active = 'energyMap', accent = PIG_METAL, onTabChange }) {
+export default function DashboardNav({ active = 'energyMap', accent = PIG_METAL, onTabChange, style }) {
   return (
     <nav
       style={{
@@ -42,6 +42,7 @@ export default function DashboardNav({ active = 'energyMap', accent = PIG_METAL,
         paddingBottom: 16, // would be env(safe-area-inset-bottom) in shipping app
         zIndex: 100,
         fontFamily: "'EB Garamond', serif",
+        ...style,
       }}
     >
       {TABS.map((t) => {
