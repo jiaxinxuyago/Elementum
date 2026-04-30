@@ -17,17 +17,28 @@ export const SILK_DEEP  = '#ECE2C9';
 export const SILK_FOLD  = '#DDD1B3';
 export const PAPER_HAIR = '#CDBE9E';
 
-export const BRONZE_MID  = '#8b7355';
-export const BRONZE_DARK = '#6b5339';
-export const WALNUT      = '#5a4430';
+export const BRONZE_LIGHT = '#9d8468';
+export const BRONZE_MID   = '#8b7355';
+export const BRONZE_DARK  = '#6b5339';
+export const WALNUT       = '#5a4430';
+export const GOLD         = '#D4AF37';
 
-// Five-element pigments (desaturated mineral tones)
-export const PIG_METAL = '#8A9AA6';
-export const PIG_WOOD  = '#8D9C7A';
-export const PIG_WATER = '#6F8AA2';
-export const PIG_FIRE  = '#B4755E';
-export const PIG_EARTH = '#B59A6B';
-export const PIG_SEAL  = '#A04030';
+// Borders + auxiliary
+export const BORDER_STD   = '#D5CDBD';
+export const BORDER_LIGHT = '#E5DFD1';
+export const DM_BORDER    = '#584A3E';
+
+// Five-element pigments — locked palette per the polished V1 prototype
+// (D:\Elementum\Elementum_Project\Design\exports\reveal-and-energymap\
+//  reveal-and-energymap.bundle.html). Each pigment now ships with a
+// matching `*_DEEP` variant for accent foregrounds (titles, badges,
+// pressed states) on tinted card backgrounds.
+export const PIG_METAL  = '#8ba3b8';  export const PIG_METAL_DEEP = '#6a849a';
+export const PIG_WOOD   = '#7a9e6e';  export const PIG_WOOD_DEEP  = '#587a4d';
+export const PIG_WATER  = '#5a7fa8';  export const PIG_WATER_DEEP = '#3e5f85';
+export const PIG_FIRE   = '#c4745a';  export const PIG_FIRE_DEEP  = '#9e5540';
+export const PIG_EARTH  = '#b89a6a';  export const PIG_EARTH_DEEP = '#927750';
+export const PIG_SEAL   = '#A04030';
 
 // Reference user (DOC2): Yang Metal · The Blade · The General (七杀)
 export const USER = {

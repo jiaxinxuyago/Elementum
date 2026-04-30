@@ -19,10 +19,15 @@
 import React, { useEffect, useState } from 'react';
 import {
   INK, INK_SOFT, INK_LIGHT, INK_MIST,
-  SILK, PAPER_HAIR,
-  BRONZE_MID,
-  PIG_METAL, PIG_WOOD, PIG_FIRE, PIG_EARTH, PIG_WATER, PIG_SEAL,
-  StatusBar, ElementSign,
+  SILK, PAPER_HAIR, BORDER_LIGHT,
+  BRONZE_MID, BRONZE_DARK, WALNUT,
+  PIG_METAL, PIG_METAL_DEEP,
+  PIG_WOOD,  PIG_WOOD_DEEP,
+  PIG_FIRE,  PIG_FIRE_DEEP,
+  PIG_EARTH, PIG_EARTH_DEEP,
+  PIG_WATER, PIG_WATER_DEEP,
+  PIG_SEAL,
+  StatusBar, ElementSign, SilkPaper, deckleCard,
 } from '../../styles/tokens.jsx';
 import DashboardNav from './DashboardNav.jsx';
 import {
@@ -32,6 +37,14 @@ import {
 import { useChart } from '../../store/chartContext.jsx';
 import EnergyBlueprint, { buildComposition } from '../shared/EnergyBlueprint.jsx';
 import { buildDm } from '../shared/IdentityRibbon.jsx';
+
+// Element pigment lookup keyed by lowercase name (matches polished bundle)
+const PIG = {
+  metal: PIG_METAL,  wood: PIG_WOOD,  water: PIG_WATER,  fire: PIG_FIRE,  earth: PIG_EARTH,
+};
+const PIG_DEEP = {
+  metal: PIG_METAL_DEEP, wood: PIG_WOOD_DEEP, water: PIG_WATER_DEEP, fire: PIG_FIRE_DEEP, earth: PIG_EARTH_DEEP,
+};
 
 const PRIMARY_FORCE = {
   tag: 'Primary Force',
@@ -171,88 +184,109 @@ export default function EnergyMapMockup({ onBack, onOpenDetail }) {
       style={{
         position: 'absolute',
         inset: 0,
-        background: PAGE_BG,
+        background: '#F4ECD9',  // matches polished V1 prototype Energy Map base
         fontFamily: "'EB Garamond', serif",
         color: INK,
+        overflow: 'hidden',
       }}
     >
-      {/* Scroll viewport — bottom 76px reserved so nav doesn't overlap content.
-          Top 84px is sticky-header territory, but content scrolls under it
-          (with a backdrop blur on the header so text doesn't bleed). */}
+      {/* Layered atmospheric backdrop (matches polished V1 prototype) —
+          silk paper noise + a soft ink-wash mountain band at the top. */}
+      <SilkPaper />
+      <img
+        src="/assets/ink-a-top.png"
+        alt=""
+        style={{
+          position: 'absolute',
+          top: 0, left: -30, right: -30,
+          height: 180,
+          width: 'calc(100% + 60px)',
+          objectFit: 'cover',
+          opacity: 0.18,
+          mixBlendMode: 'multiply',
+          pointerEvents: 'none',
+          zIndex: 1,
+        }}
+      />
+
+      {/* Scroll viewport — bottom 76px reserved so nav doesn't overlap content. */}
       <div
         style={{
           position: 'absolute',
           inset: 0,
           bottom: 76,    // height of DashboardNav
           overflowY: 'auto',
+          zIndex: 10,
         }}
       >
-        {/* Sticky header — replaces both StatusBar background and page title.
-            Contains: status bar safe-area, Energy Map title, ← Reveal back link.
-            Backdrop blur so content scrolls behind it without bleeding text. */}
+        {/* Sticky top bar — polished V1 spec:
+            "‹ ENERGY MAP" eyebrow LEFT · "Birth chart →" italic dashed link RIGHT */}
         <header
           style={{
             position: 'sticky',
             top: 0,
             zIndex: 20,
-            background: 'linear-gradient(180deg, rgba(239,229,204,0.94) 0%, rgba(239,229,204,0.88) 80%, rgba(239,229,204,0) 100%)',
+            background: 'linear-gradient(180deg, rgba(244,236,217,0.94) 0%, rgba(244,236,217,0.86) 80%, rgba(244,236,217,0) 100%)',
             backdropFilter: 'blur(8px)',
             WebkitBackdropFilter: 'blur(8px)',
             paddingTop: 0,
-            paddingBottom: 12,
+            paddingBottom: 10,
             ...fade(mounted, 'header'),
           }}
         >
           <StatusBar tint={INK} />
           <div
             style={{
-              padding: '50px 20px 4px',
+              padding: '14px 22px 0',
               display: 'flex',
               justifyContent: 'space-between',
-              alignItems: 'baseline',
+              alignItems: 'center',
+              gap: 12,
             }}
           >
-            <h1
-              style={{
-                fontSize: 22,
-                fontWeight: 600,
-                margin: 0,
-                color: INK,
-                letterSpacing: 0.2,
-              }}
-            >
-              Energy Map
-            </h1>
             <button
               onClick={onBack}
               style={{
-                background: 'none', border: 'none', cursor: 'pointer',
-                fontFamily: 'inherit', fontSize: 12, color: INK_LIGHT,
-                padding: '4px 8px', letterSpacing: 0.3,
+                background: 'transparent', border: 0, padding: 0,
+                display: 'inline-flex', alignItems: 'center', gap: 6, cursor: 'pointer',
+                color: INK_SOFT, whiteSpace: 'nowrap', flexShrink: 0,
+                fontFamily: "'EB Garamond', serif",
               }}
             >
-              ← Reveal
+              <span style={{ fontSize: 16, color: BRONZE_MID, lineHeight: 1 }}>‹</span>
+              <span style={{
+                fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
+                color: INK_LIGHT, fontWeight: 500,
+              }}>Energy map</span>
             </button>
+            <span style={{
+              fontFamily: "'EB Garamond', serif", fontSize: 11.5,
+              color: INK_LIGHT, fontStyle: 'italic',
+              borderBottom: `1px dashed ${PAPER_HAIR}`, cursor: 'pointer',
+              whiteSpace: 'nowrap', flexShrink: 0,
+            }}>Birth chart →</span>
           </div>
         </header>
 
-        <div style={{ padding: '8px 16px 24px' }}>
-          {/* ── 1. Identity ribbon ──────────────────────────── */}
+        <div style={{ padding: '12px 22px 24px' }}>
+          {/* ── 1. Identity ribbon (in deckleCard, 18px padding) ──── */}
           <div style={fade(mounted, 'ribbon')}>
-            <IdentityRibbon dm={dm} />
+            <div style={{ ...deckleCard({ padding: '18px 18px 16px' }), marginBottom: 14 }}>
+              <IdentityRibbon dm={dm} />
+            </div>
           </div>
 
-          {/* ── 2. Energy Blueprint card (with inline forces) ── */}
+          {/* ── 2. Energy Blueprint card (Cormorant title + composition + inline forces) ── */}
           <div style={fade(mounted, 'blueprint')}>
             <BlueprintCard chart={chart} primary={PRIMARY_FORCE} secondary={SECONDARY_FORCE} />
           </div>
 
-          {/* ── 3. Catalyst / Resistance pair ─────────────────── */}
+          {/* ── 3. Catalyst / Resistance pair (tinted backgrounds) ── */}
           <div style={fade(mounted, 'pair')}>
             <PairRow catalyst={CATALYST} resistance={RESISTANCE} onOpenDetail={onOpenDetail} />
           </div>
 
-          {/* ── 4. Secondary cards row (Seasonal / Life Chapters / Patterns) ── */}
+          {/* ── 4. Secondary cards row ─────────────────────────────── */}
           <div style={fade(mounted, 'secondary')}>
             <SecondaryCards cards={SECONDARY_CARDS} onOpenDetail={onOpenDetail} />
           </div>
@@ -273,49 +307,92 @@ export default function EnergyMapMockup({ onBack, onOpenDetail }) {
 // (same primitives used by Reveal §2 — the cascade is literal)
 
 // ─────────────────────────────────────────────────────────────
-// Energy Blueprint card — composition chart + inline force sub-cards.
-// Composition is rendered by the SHARED <EnergyBlueprint> component
-// (src/components/shared/EnergyBlueprint.jsx) — same component used
-// by RevealScreen Section 2, so both screens are pixel-identical and
-// fed by the same chart data.
+// Energy Blueprint card — Cormorant title + "8 MARKS" eyebrow,
+// composition chart, and inline force rows. Mirrors the polished
+// V1 prototype's card structure exactly.
 // ─────────────────────────────────────────────────────────────
 function BlueprintCard({ chart, primary, secondary }) {
   return (
     <article
       style={{
-        background: CARD_BG,
-        border: `1px solid ${CARD_BORDER}`,
-        borderRadius: 14,
-        padding: '16px 18px',
-        marginBottom: 12,
+        ...deckleCard({ padding: '18px 16px 18px', position: 'relative', overflow: 'hidden' }),
+        marginBottom: 14,
       }}
     >
-      {/* Header */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 6 }}>
-        <span style={{ fontSize: 14, color: INK_LIGHT, lineHeight: 1 }}>≡</span>
-        <h2 style={{
-          fontSize: 18, margin: 0, color: INK, fontWeight: 600, letterSpacing: 0.2,
-        }}>
-          Energy Blueprint
-        </h2>
-      </div>
-      <p style={{
-        fontStyle: 'italic', fontSize: 13, lineHeight: 1.55,
-        color: INK_LIGHT, margin: '0 0 8px',
+      {/* Header — Cormorant title left + element-tinted eyebrow right */}
+      <div style={{
+        display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+        marginBottom: 14, gap: 12,
       }}>
-        The pattern of all five energies across your four pillars — what is present,
-        what dominates, and what is absent.
-      </p>
+        <div style={{
+          fontFamily: "'Cormorant Garamond', serif",
+          fontSize: 18, fontWeight: 600, color: INK, letterSpacing: 0.3,
+          whiteSpace: 'nowrap',
+        }}>Energy Blueprint</div>
+        <span style={{
+          fontFamily: "'EB Garamond', serif",
+          fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
+          color: INK_LIGHT, fontWeight: 500, whiteSpace: 'nowrap',
+        }}>8 marks</span>
+      </div>
 
       {/* Composition chart — shared with Reveal Section 2 */}
       <EnergyBlueprint chart={chart} />
 
-      {/* Inline force sub-cards */}
-      <div style={{ marginTop: 14 }}>
-        {primary   && <ForceSubCard force={primary}   kind="primary" />}
-        {secondary && <ForceSubCard force={secondary} kind="secondary" />}
+      <div style={{ height: 14 }} />
+
+      {/* Inline force rows */}
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: 8 }}>
+        {primary   && <ForceRow which="primary"   force={primary}   />}
+        {secondary && <ForceRow which="secondary" force={secondary} />}
       </div>
     </article>
+  );
+}
+
+// ─────────────────────────────────────────────────────────────
+// ForceRow — inline grid (36px element bg + label/sentence + chevron).
+// Polished V1 layout · §11 compact display of dominant TGs.
+// ─────────────────────────────────────────────────────────────
+function ForceRow({ which, force }) {
+  const c = PIG[force.elementKey] || force.color;
+  return (
+    <div style={{
+      display: 'grid', gridTemplateColumns: '36px 1fr auto',
+      alignItems: 'center', columnGap: 12, padding: '10px 12px',
+      background: 'rgba(255,255,255,0.4)',
+      border: `1px solid ${BORDER_LIGHT}`,
+      borderRadius: 12, cursor: 'pointer',
+    }}>
+      <div style={{
+        width: 36, height: 36, borderRadius: 10,
+        background: `${c}1A`,
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+      }}>
+        <ElementSign element={force.elementKey} size={18} color={c} />
+      </div>
+      <div style={{ minWidth: 0 }}>
+        <div style={{
+          fontFamily: "'EB Garamond', serif", fontSize: 9.5,
+          letterSpacing: 2, color: INK_LIGHT, textTransform: 'uppercase',
+          fontWeight: 600, lineHeight: 1.2, marginBottom: 2,
+        }}>{which === 'primary' ? 'Primary' : 'Secondary'}</div>
+        <div style={{
+          display: 'flex', alignItems: 'baseline', gap: 8,
+          flexWrap: 'wrap', rowGap: 0,
+        }}>
+          <span style={{
+            fontFamily: "'Cormorant Garamond', serif", fontSize: 16,
+            fontWeight: 600, color: INK, lineHeight: 1.2,
+          }}>{force.archetype}</span>
+          <span style={{
+            fontFamily: "'EB Garamond', serif", fontSize: 11.5,
+            color: INK_SOFT, fontStyle: 'italic', lineHeight: 1.3,
+          }}>· {force.element}</span>
+        </div>
+      </div>
+      <span style={{ color: INK_MIST, fontSize: 16, lineHeight: 1 }}>›</span>
+    </div>
   );
 }
 
@@ -396,73 +473,71 @@ function ForceSubCard({ force, kind }) {
 }
 
 // ─────────────────────────────────────────────────────────────
-// Catalyst / Resistance pair (side-by-side)
+// Catalyst / Resistance pair — side-by-side, element-tinted backgrounds.
+// Polished V1 spec: tinted bg + arrow/label + ElementSign + Cormorant
+// 18px word + italic line.
 // ─────────────────────────────────────────────────────────────
 function PairRow({ catalyst, resistance, onOpenDetail }) {
+  const cFirst = catalyst.items?.[0];
+  const rFirst = resistance.items?.[0];
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8, marginBottom: 12 }}>
+    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10, marginTop: 14 }}>
       <PairCard
-        title="Catalyst"
+        label="What lifts you"
         arrow="↑"
-        arrowColor={PIG_WOOD}
-        intro={catalyst.intro}
-        items={catalyst.items}
+        elementKey={cFirst?.elementKey || 'fire'}
+        word={cFirst?.element || 'Fire'}
+        line={catalyst.intro}
         onTap={() => onOpenDetail?.('catalyst')}
       />
       <PairCard
-        title="Resistance"
+        label="What depletes you"
         arrow="↓"
-        arrowColor={PIG_FIRE}
-        intro={resistance.intro}
-        items={resistance.items}
+        elementKey={rFirst?.elementKey || 'earth'}
+        word={rFirst?.element || 'Earth'}
+        line={resistance.intro}
         onTap={() => onOpenDetail?.('resistance')}
       />
     </div>
   );
 }
 
-function PairCard({ title, arrow, arrowColor, intro, items, onTap }) {
+function PairCard({ label, arrow, elementKey, word, line, onTap }) {
+  const tint     = PIG[elementKey];
+  const tintDeep = PIG_DEEP[elementKey];
   return (
     <article
       onClick={onTap}
       style={{
-        background: CARD_BG,
-        border: `1px solid ${CARD_BORDER}`,
-        borderRadius: 14,
-        padding: '14px 14px 12px',
+        ...deckleCard({
+          background: `${tint}10`,
+          border: `1px solid ${tint}40`,
+        }),
+        padding: '14px 14px 14px',
+        minHeight: 130,
+        position: 'relative',
         cursor: 'pointer',
-        display: 'flex',
-        flexDirection: 'column',
-        gap: 8,
       }}
     >
-      <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between' }}>
-        <span style={{ fontSize: 18, color: arrowColor, lineHeight: 1, fontWeight: 500 }}>
-          {arrow}
-        </span>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 8 }}>
+        <span style={{ color: tintDeep, fontSize: 14, fontWeight: 700 }}>{arrow}</span>
         <span style={{
-          width: 22, height: 22, borderRadius: 999,
-          border: `1px solid ${PAPER_HAIR}`,
-          background: 'rgba(248,241,225,0.7)',
-          color: INK_LIGHT, fontSize: 11, lineHeight: '20px', textAlign: 'center',
-        }}>
-          →
-        </span>
+          fontFamily: "'EB Garamond', serif", fontSize: 9.5,
+          letterSpacing: 2, color: tintDeep, textTransform: 'uppercase',
+          fontWeight: 600,
+        }}>{label}</span>
       </div>
-      <h3 style={{ fontSize: 17, margin: 0, color: TITLE_INK, fontWeight: 600 }}>
-        {title}
-      </h3>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
+        <ElementSign element={elementKey} size={16} color={tint} />
+        <span style={{
+          fontFamily: "'Cormorant Garamond', serif", fontSize: 18,
+          fontWeight: 600, color: INK,
+        }}>{word}</span>
+      </div>
       <p style={{
-        fontStyle: 'italic', fontSize: 12.5, lineHeight: 1.5,
-        color: INK_LIGHT, margin: 0,
-      }}>
-        {intro}
-      </p>
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 5, marginTop: 4 }}>
-        {items.map((it, i) => (
-          <ItemBadge key={i} item={it} />
-        ))}
-      </div>
+        margin: 0, fontSize: 11.5, color: INK_SOFT, lineHeight: 1.5,
+        fontStyle: 'italic',
+      }}>{line}</p>
     </article>
   );
 }
@@ -506,20 +581,7 @@ function ItemBadge({ item }) {
 // ─────────────────────────────────────────────────────────────
 function SecondaryCards({ cards, onOpenDetail }) {
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-      {/* Hairline divider with tag — softer than a plain section header */}
-      <div style={{
-        display: 'flex', alignItems: 'center', gap: 12,
-        margin: '14px 4px 8px',
-      }}>
-        <span style={{
-          fontSize: 10, letterSpacing: 3, textTransform: 'uppercase',
-          color: TAG_GREY, fontWeight: 500,
-        }}>
-          Deeper Sections
-        </span>
-        <span style={{ flex: 1, height: 1, background: PAPER_HAIR, opacity: 0.6 }} />
-      </div>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 8, marginTop: 14 }}>
       {cards.map((c) => (
         <SecondaryCard key={c.key} card={c} onTap={() => onOpenDetail?.(c.key)} />
       ))}
@@ -534,58 +596,48 @@ function SecondaryCard({ card, onTap }) {
       onClick={onTap}
       style={{
         position: 'relative',
-        background: CARD_BG,
-        border: `1px solid ${CARD_BORDER}`,
-        borderRadius: 12,
-        padding: '12px 14px',
+        background: '#EBE5D6',
+        border: `1px solid #DCD3C0`,
+        borderRadius: 22,
+        padding: '14px 18px',
         cursor: 'pointer',
-        boxShadow: `inset 3px 0 0 ${card.accent}55`,
-        display: 'grid',
-        gridTemplateColumns: '1fr auto',
+        opacity: locked ? 0.85 : 1,
+        display: 'flex',
         alignItems: 'center',
-        gap: 10,
-        overflow: 'hidden',  // so the lock-state overlay clips to the card's rounded corners
+        justifyContent: 'space-between',
+        gap: 12,
+        overflow: 'hidden',
       }}
     >
       <div>
         <div style={{
-          fontSize: 9.5, letterSpacing: 0.18 * 10, textTransform: 'uppercase',
-          color: TAG_GREY, marginBottom: 2,
+          fontFamily: "'EB Garamond', serif",
+          fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
+          color: card.accent, fontWeight: 500, marginBottom: 3,
         }}>
           {card.tag}
         </div>
         <h3 style={{
-          fontSize: 16, margin: 0, color: TITLE_INK, fontWeight: 600,
-          letterSpacing: 0.1, marginBottom: 3,
+          fontFamily: "'Cormorant Garamond', serif",
+          fontSize: 16, margin: 0, color: INK, fontWeight: 500,
+          letterSpacing: 0.2, marginBottom: 3,
         }}>
           {card.title}
         </h3>
         <p style={{
+          fontFamily: "'EB Garamond', serif",
           fontSize: 12, color: INK_LIGHT, margin: 0, lineHeight: 1.4,
           fontStyle: 'italic',
         }}>
           {card.teaser}
         </p>
       </div>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-        {locked && (
-          <span style={{
-            fontSize: 8.5, letterSpacing: 1.4, textTransform: 'uppercase',
-            color: '#8b5a44', fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace',
-            padding: '2px 6px', borderRadius: 999,
-            background: 'rgba(180,117,94,0.08)', border: '1px solid rgba(180,117,94,0.25)',
-          }}>
-            ◆ Seeker
-          </span>
-        )}
-        <span style={{
-          width: 26, height: 26, borderRadius: 999,
-          border: `1px solid ${PAPER_HAIR}`, background: 'rgba(248,241,225,0.7)',
-          color: INK_LIGHT, fontSize: 13, lineHeight: '24px', textAlign: 'center',
-        }}>
-          →
-        </span>
-      </div>
+      <span style={{
+        color: locked ? INK_LIGHT : INK_MIST, fontSize: 18,
+        fontFamily: "'EB Garamond', serif", lineHeight: 1,
+      }}>
+        {locked ? '◆' : '›'}
+      </span>
 
       {/* Lock state visual — DOC5 §11 v1.8 spec.
           Sits as an overlay covering the bottom strip of the card,
