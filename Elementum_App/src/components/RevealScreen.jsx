@@ -635,35 +635,55 @@ export default function RevealScreen({ onEnterDashboard }) {
       {/* SilkPaper intentionally omitted here — the CSS gradient above covers
           the full scroll height, so there's no viewport-height cut-off. */}
 
-      {/* Ink scene — reuse welcome ink for continuity.
-          Stays anchored to the viewport top (position: fixed-within-scroll
-          via position:absolute on the scroll container) and fades out at
-          the bottom so it dissolves into the silk without a hard edge.
-          Ceremonial entrance: fades in atmospherically (no rise — the
-          mountains are spatial, not temporal — they should bleed into
-          existence rather than drift up into place). */}
+      {/* Ink scene — layered ink-wash landscape behind the blade hero.
+          Two paintings stacked for atmospheric depth (matches the
+          reference user supplied):
+            • ink-a-top.png — distant peaks, fades higher in the frame
+            • ink-a-bottom.png — closer ranges / forest cluster on the
+              right, anchoring the mid-line of the painting
+          Both fade out via a top-down mask so they dissolve into the
+          silk without a hard horizon. Entrance: atmospheric fade-in
+          (no rise — mountains are spatial, not temporal). */}
       <div
         style={{
           position: 'absolute',
-          top: 20,
-          left: -20,
-          right: -20,
-          height: 260,
+          top: 30,
+          left: -30,
+          right: -30,
+          height: 320,
           zIndex: 1,
           pointerEvents: 'none',
           WebkitMaskImage:
-            'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 55%, rgba(0,0,0,0) 100%)',
+            'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%)',
           maskImage:
-            'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 55%, rgba(0,0,0,0) 100%)',
+            'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%)',
           ...entrance(mounted, 'mountains', { lift: 0 }),
         }}
       >
+        {/* Distant peaks — sit high in the frame */}
         <img
           src="/assets/ink-a-top.png"
           alt=""
           style={{
+            position: 'absolute',
+            top: 0, left: 0, right: 0,
             width: '100%',
-            height: '100%',
+            height: 240,
+            objectFit: 'cover',
+            opacity: 0.28,
+            mixBlendMode: 'multiply',
+          }}
+        />
+        {/* Closer ranges / forest cluster — slightly lower & a touch wider,
+            adds the "pine trees on the right" feel from the reference */}
+        <img
+          src="/assets/ink-a-bottom.png"
+          alt=""
+          style={{
+            position: 'absolute',
+            top: 100, left: -10, right: -10,
+            width: 'calc(100% + 20px)',
+            height: 200,
             objectFit: 'cover',
             opacity: 0.22,
             mixBlendMode: 'multiply',
