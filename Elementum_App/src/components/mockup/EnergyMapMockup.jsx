@@ -220,7 +220,12 @@ export default function EnergyMapMockup({ onBack, onOpenDetail }) {
         }}
       >
         {/* Sticky top bar — polished V1 spec:
-            "‹ ENERGY MAP" eyebrow LEFT · "Birth chart →" italic dashed link RIGHT */}
+            iOS status bar (44px) on its own row, then on the next row
+            "‹ ENERGY MAP" eyebrow LEFT · "Birth chart →" italic dashed link RIGHT.
+            <StatusBar> is `position: absolute` (occupies 0–44px of its
+            parent), so the header content row needs paddingTop ≥ 44
+            to clear it. Using 56 to include the 12px gap shown in the
+            reference. */}
         <header
           style={{
             position: 'sticky',
@@ -229,15 +234,14 @@ export default function EnergyMapMockup({ onBack, onOpenDetail }) {
             background: 'linear-gradient(180deg, rgba(244,236,217,0.94) 0%, rgba(244,236,217,0.86) 80%, rgba(244,236,217,0) 100%)',
             backdropFilter: 'blur(8px)',
             WebkitBackdropFilter: 'blur(8px)',
-            paddingTop: 0,
-            paddingBottom: 10,
+            paddingBottom: 12,
             ...fade(mounted, 'header'),
           }}
         >
           <StatusBar tint={INK} />
           <div
             style={{
-              padding: '14px 22px 0',
+              padding: '56px 22px 0',  // 56 = status bar (44) + 12 gap, clears the absolute StatusBar
               display: 'flex',
               justifyContent: 'space-between',
               alignItems: 'center',
