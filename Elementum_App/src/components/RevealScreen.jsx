@@ -909,14 +909,63 @@ export default function RevealScreen({ onEnterDashboard }) {
       </section>
 
       {/* ── SECTION 2 — ENERGY BLUEPRINT ─────────────────── */}
-      {/* No borderTop — the scroll should feel like one continuous silk surface. */}
+      {/* Full-viewport "page" — DOC5 §9 says each Reveal section gets near
+          full viewport height. Content is vertically centered so when the
+          user lands on this section, the cards sit in the middle of the
+          frame and Section 1's tail is fully off-screen above. A soft
+          ink-wash painting fills the bottom of the section so the empty
+          area beneath the composition card doesn't read as dead space. */}
       <section
         style={{
           position: 'relative',
           zIndex: 10,
-          padding: '48px 28px 32px',
+          minHeight: 828,                 // matches Section 1 — one viewport per section
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',       // vertically centers the content block
+          padding: '60px 28px 60px',
+          overflow: 'hidden',             // contain the ink-wash bleed beyond edges
         }}
       >
+        {/* Ink-wash backdrop — bottom band, multiply blend, low opacity */}
+        <img
+          src="/assets/ink-a-bottom.png"
+          alt=""
+          style={{
+            position: 'absolute',
+            bottom: -20,
+            left: -40,
+            right: -40,
+            height: 260,
+            width: 'calc(100% + 80px)',
+            objectFit: 'cover',
+            opacity: 0.22,
+            mixBlendMode: 'multiply',
+            pointerEvents: 'none',
+            zIndex: 0,
+          }}
+        />
+        {/* Faint ink ridge near the top so the upper space doesn't feel hollow */}
+        <img
+          src="/assets/ink-a-top.png"
+          alt=""
+          style={{
+            position: 'absolute',
+            top: 30,
+            left: -20,
+            right: -20,
+            height: 130,
+            width: 'calc(100% + 40px)',
+            objectFit: 'cover',
+            opacity: 0.10,
+            mixBlendMode: 'multiply',
+            pointerEvents: 'none',
+            zIndex: 0,
+          }}
+        />
+
+        {/* Section content sits above the ink-wash backdrop */}
+        <div style={{ position: 'relative', zIndex: 1 }}>
         <div
           style={{
             fontFamily: "'EB Garamond', serif",
@@ -1020,6 +1069,7 @@ export default function RevealScreen({ onEnterDashboard }) {
             </p>
           </div>
         )}
+        </div>
       </section>
 
       {/* ── SECTION 3 — BALANCE PRESCRIPTION ─────────────── */}
