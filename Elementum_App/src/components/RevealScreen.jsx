@@ -4,7 +4,7 @@
 //   1. Identity        — seal, "You are…", archetype name, pill, essence
 //   2. Energy Blueprint — 5 rows sorted high→low, missing-element callout
 //   3. Balance Prescription — shown when any element is missing
-//   4. CTA              — Enter Your Dashboard
+//   4. CTA              — Enter Your Energy Map
 // Reads live chart from ChartContext (no USER mock).
 // ===================================================================
 
@@ -925,28 +925,12 @@ export default function RevealScreen({ onEnterDashboard }) {
             textTransform: 'uppercase',
             color: INK_LIGHT,
             textAlign: 'center',
-            marginBottom: 8,
+            marginBottom: 18,
             fontWeight: 600,
           }}
         >
           Your Energy Blueprint
         </div>
-
-        <p
-          style={{
-            fontFamily: "'EB Garamond', serif",
-            fontSize: 13.5,
-            fontStyle: 'italic',
-            color: INK_LIGHT,
-            textAlign: 'center',
-            margin: '0 0 22px',
-            lineHeight: 1.6,
-          }}
-        >
-          Eight characters. Five elements.
-          <br />
-          This is how they fall in your chart.
-        </p>
 
         {/* Identity ribbon — DOC5 §9 v1.8 cascade. The same component
             used at the top of the Energy Map dashboard. Wrapped in
@@ -1152,7 +1136,7 @@ export default function RevealScreen({ onEnterDashboard }) {
             gap: 10,
           }}
         >
-          Enter Your Dashboard
+          Enter Your Energy Map
           <span
             style={{
               fontFamily: "'EB Garamond', serif",
@@ -1163,19 +1147,6 @@ export default function RevealScreen({ onEnterDashboard }) {
             →
           </span>
         </button>
-        <p
-          style={{
-            marginTop: 14,
-            textAlign: 'center',
-            fontFamily: "'EB Garamond', serif",
-            fontSize: 12,
-            fontStyle: 'italic',
-            color: INK_LIGHT,
-            letterSpacing: 0.3,
-          }}
-        >
-          Your reading refreshes with each sunrise.
-        </p>
       </section>
     </div>
   );
