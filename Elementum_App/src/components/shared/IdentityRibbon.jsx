@@ -13,12 +13,9 @@
 import React from 'react';
 import {
   INK, INK_SOFT, INK_LIGHT, INK_MIST,
-  PAPER_HAIR,
+  PAPER_HAIR, BORDER_LIGHT,
   PIG_METAL, PIG_WOOD, PIG_WATER, PIG_FIRE, PIG_EARTH,
 } from '../../styles/tokens.jsx';
-
-const CARD_BG = '#EBE5D6';
-const CARD_BORDER = '#DCD3C0';
 
 // ── Lookup tables shared by buildDm ────────────────────────────
 const PIG_BY_NAME = {
@@ -68,154 +65,129 @@ export function buildDm(chart) {
 }
 
 // ─────────────────────────────────────────────────────────────
-// IdentityRibbon — small framed seal + element + chips +
-// saturation reading + segmented saturation bar.
+// IdentityRibbon — stem seal + italic element + state chip + saturation %
+// (header row), italic saturation reading, full-width segmented bar.
+//
+// Component returns just the inner contents — the consumer wraps it in
+// a card (use `deckleCard()` from styles/tokens.jsx for the polished
+// silk-card look).
 // ─────────────────────────────────────────────────────────────
 export function IdentityRibbon({ dm, compact = false }) {
   if (!dm) return null;
+  // Use the most specific (last) chip when multiple are computed by
+  // buildDm — the polished V1 prototype shows a single state chip.
+  const chip = (dm.bandChips || []).slice(-1)[0];
+  const sat  = dm.saturation || 0;
   return (
-    <article
-      style={{
-        background: CARD_BG,
-        border: `1px solid ${CARD_BORDER}`,
-        borderRadius: 14,
-        padding: compact ? '12px 12px 14px' : '14px 14px 16px',
-        marginBottom: 12,
-      }}
-    >
+    <div>
+      {/* Header row: seal · italic element · state chip · spacer · % */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-        <StemSeal stem={dm.stem} pinyin={dm.stemPinyin} color={dm.elementColor} />
-        <div style={{ flex: 1 }}>
-          <div style={{ display: 'flex', alignItems: 'baseline', gap: 6, flexWrap: 'wrap' }}>
-            <span style={{
-              fontFamily: "'EB Garamond', serif", fontStyle: 'italic',
-              fontSize: 17, color: INK, fontWeight: 500,
-            }}>
-              {dm.element}
-            </span>
-            <span style={{ color: INK_LIGHT, fontSize: 14 }}>·</span>
-            {dm.bandChips.map((c, i) => (
-              <span
-                key={i}
-                style={{
-                  fontFamily: "'EB Garamond', serif",
-                  fontSize: 10.5,
-                  letterSpacing: 0.4,
-                  padding: '2px 8px',
-                  borderRadius: 999,
-                  border: `1px solid ${PAPER_HAIR}`,
-                  color: INK_SOFT,
-                  background: 'transparent',
-                }}
-              >
-                {c}
-              </span>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {dm.saturationLine && (
-        <div
-          style={{
-            fontFamily: "'EB Garamond', serif",
-            marginTop: 10,
-            paddingLeft: 14,
-            borderLeft: `2px solid ${dm.elementColor}50`,
-            fontStyle: 'italic',
-            fontSize: 13,
-            lineHeight: 1.55,
-            color: INK_SOFT,
-          }}
-        >
-          {dm.saturationLine}
-        </div>
-      )}
-
-      <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginTop: 12 }}>
-        <SegmentedBar count={Math.round((dm.saturation || 0) * 8)} max={8} color={dm.elementColor} />
+        <StemSeal stem={dm.stem} color={dm.elementColor} />
         <span style={{
-          fontSize: 12, color: dm.elementColor, fontWeight: 500,
-          letterSpacing: 0.3, fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace',
+          fontFamily: "'EB Garamond', serif", fontStyle: 'italic',
+          fontSize: 16, color: INK, fontWeight: 500,
         }}>
-          {Math.round((dm.saturation || 0) * 100)}%
+          {dm.element}
+        </span>
+        {chip && (
+          <span style={{
+            fontFamily: "'EB Garamond', serif",
+            fontSize: 9.5, letterSpacing: 1.8, textTransform: 'uppercase',
+            padding: '4px 9px', border: `1px solid ${PAPER_HAIR}`,
+            borderRadius: 999, background: 'transparent',
+            color: INK_LIGHT, fontWeight: 500,
+          }}>{chip}</span>
+        )}
+        <div style={{ flex: 1 }} />
+        <span style={{
+          fontFamily: "'EB Garamond', serif", fontSize: 14,
+          color: dm.elementColor, fontWeight: 600,
+          fontVariantNumeric: 'tabular-nums',
+        }}>
+          {Math.round(sat * 100)}%
         </span>
       </div>
-    </article>
+
+      {/* Saturation reading (full width, italic, no left-border accent) */}
+      {!compact && dm.saturationLine && (
+        <p style={{
+          fontFamily: "'EB Garamond', serif", fontStyle: 'italic',
+          fontSize: 12.5, color: INK_SOFT, lineHeight: 1.5,
+          margin: '10px 0 8px', maxWidth: 320,
+        }}>
+          {dm.saturationLine}
+        </p>
+      )}
+
+      {/* Saturation bar — 8 evenly spaced cells, height 5 */}
+      <SegmentedBar
+        count={Math.round(sat * 8)}
+        max={8}
+        color={dm.elementColor}
+        height={5}
+        marginTop={compact ? 8 : 4}
+      />
+    </div>
   );
 }
 
 // ─────────────────────────────────────────────────────────────
-// StemSeal — small framed-square Chinese character with pinyin.
+// StemSeal — small framed-square Chinese character. Centered, single
+// glyph (no pinyin underneath — matches the polished V1 prototype).
 // ─────────────────────────────────────────────────────────────
-export function StemSeal({ stem, pinyin, color, size = 44 }) {
+export function StemSeal({ stem, color, size = 44 }) {
   return (
     <div
       style={{
-        width: size, height: size, borderRadius: 10,
+        width: size, height: size, borderRadius: 12,
         background: 'rgba(248,241,225,0.92)',
         border: `1px solid ${PAPER_HAIR}`,
-        display: 'flex', flexDirection: 'column',
-        alignItems: 'center', justifyContent: 'center',
-        position: 'relative',
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        flexShrink: 0,
       }}
     >
       <span
         style={{
-          fontFamily: 'Noto Serif SC, serif',
+          fontFamily: "'Noto Serif SC', serif",
           fontSize: size * 0.5,
-          color: color,
+          color,
+          fontWeight: 600,
           letterSpacing: 0,
           lineHeight: 1,
         }}
       >
         {stem}
       </span>
-      {pinyin && (
-        <span
-          style={{
-            position: 'absolute',
-            bottom: 3,
-            fontSize: 7.5,
-            letterSpacing: 1,
-            color: INK_MIST,
-            fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace',
-            textTransform: 'uppercase',
-            opacity: 0.7,
-          }}
-        >
-          {pinyin}
-        </span>
-      )}
     </div>
   );
 }
 
 // ─────────────────────────────────────────────────────────────
-// SegmentedBar — count out of max (default 8 = chart character total).
-// Discrete cells, midpoint gap echoing the four-pillar structure.
+// SegmentedBar — `max` evenly-spaced cells (no midpoint gap).
+// Cells use `repeat(max, 1fr)` so widths are exactly equal —
+// matches the polished V1 prototype exactly.
 // ─────────────────────────────────────────────────────────────
-export function SegmentedBar({ count, max = 8, color, height = 8 }) {
+export function SegmentedBar({ count, max = 8, color, height = 8, marginTop = 0 }) {
   const cells = [];
   for (let i = 0; i < max; i++) {
-    const isFilled = i < count;
-    const isMidGap = max === 8 && i === 4;
     cells.push(
-      <span
+      <div
         key={i}
         style={{
-          flex: 1,
           height,
-          background: isFilled ? color : '#E5DFD1',
-          borderRadius: 1.5,
-          opacity: isFilled ? 1 : 0.85,
-          marginLeft: isMidGap ? 5 : 0,
+          borderRadius: 1,
+          background: i < count ? color : BORDER_LIGHT,
         }}
       />
     );
   }
   return (
-    <div style={{ display: 'flex', flex: 1, gap: 3, alignItems: 'center' }}>
+    <div style={{
+      display: 'grid',
+      gridTemplateColumns: `repeat(${max}, 1fr)`,
+      gap: 3,
+      marginTop,
+    }}>
       {cells}
     </div>
   );

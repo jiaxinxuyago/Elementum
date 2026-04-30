@@ -949,13 +949,34 @@ export default function RevealScreen({ onEnterDashboard }) {
         </p>
 
         {/* Identity ribbon — DOC5 §9 v1.8 cascade. The same component
-            used at the top of the Energy Map dashboard, introducing
-            the visual vocabulary the user will read fluently throughout
-            the app. Sits above the composition card without changing
-            the existing card or callout below. */}
-        {dm && <IdentityRibbon dm={dm} />}
+            used at the top of the Energy Map dashboard. Wrapped in
+            deckleCard for the polished V1 silk-card look. */}
+        {dm && (
+          <div style={{ ...deckleCard({ padding: '18px 18px 16px' }), marginBottom: 14 }}>
+            <IdentityRibbon dm={dm} />
+          </div>
+        )}
 
-        <div style={{ ...deckleCard({ padding: '12px 18px' }) }}>
+        {/* Composition card — "COMPOSITION" + "8 MARKS" eyebrow header
+            above the segmented 5-element chart. Matches polished V1. */}
+        <div style={{ ...deckleCard({ padding: '18px 18px 20px' }) }}>
+          <div style={{
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'baseline',
+            marginBottom: 14,
+          }}>
+            <span style={{
+              fontFamily: "'EB Garamond', serif",
+              fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
+              color: INK_LIGHT, fontWeight: 500,
+            }}>Composition</span>
+            <span style={{
+              fontFamily: "'EB Garamond', serif",
+              fontSize: 10, letterSpacing: 2, textTransform: 'uppercase',
+              color: INK_LIGHT, fontWeight: 500,
+            }}>8 marks</span>
+          </div>
           <EnergyBlueprint chart={chart} />
         </div>
 

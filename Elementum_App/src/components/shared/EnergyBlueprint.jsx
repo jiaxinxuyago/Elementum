@@ -6,18 +6,19 @@
 // dashboard. Same component, same data, same visual treatment —
 // no parallel implementations.
 //
-// Data contract: takes a `chart` object as produced by engine/calculator.js.
-// Reads `chart.elements[ElementName].count` for each of the 5 elements.
-// Sorts by count descending (so the user's dominant element leads).
-//
-// Visual: continuous fill bars (rounded), animated 0 → (count/8)×100%
-// over 800ms easeOut on mount. Each row: ElementSign + element name +
-// bar + count out of 8.
+// Visual: matches the polished V1 prototype at
+// Design/exports/reveal-and-energymap/reveal-and-energymap.bundle.html.
+//   - 5 rows sorted by count descending (DM-element row leads when tied)
+//   - Per row: 22px element icon · 60px italic name · 8-cell segmented bar · count
+//   - Cells use `repeat(8, 1fr)` for exactly even widths · gap 3 · no midpoint gap
+//   - Filled cells in the element pigment, empty cells in BORDER_LIGHT (#E5DFD1)
+//   - Element icon muted when count === 0
 // ===================================================================
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import {
   INK_SOFT, INK_LIGHT,
+  BORDER_LIGHT,
   PIG_METAL, PIG_WOOD, PIG_WATER, PIG_FIRE, PIG_EARTH,
   ElementSign,
 } from '../../styles/tokens.jsx';
@@ -61,10 +62,10 @@ export function buildComposition(chart) {
  *
  * Props:
  *   chart    — the chart object from useChart() / calculator.js
- *   animate  — whether to animate the bars filling on mount (default: true)
- *   total    — denominator for the bar width (default: 8 — total chars in 八字 chart)
+ *   compact  — if true, slightly tighter row gap (used in dashboard cards)
+ *   total    — denominator for the bar (default: 8)
  */
-export default function EnergyBlueprint({ chart, animate = true, total = 8 }) {
+export default function EnergyBlueprint({ chart, compact = false, total = 8 }) {
   const composition = buildComposition(chart);
   if (composition.length === 0) {
     return (
@@ -77,99 +78,72 @@ export default function EnergyBlueprint({ chart, animate = true, total = 8 }) {
     );
   }
   return (
-    <>
+    <div style={{
+      display: 'flex',
+      flexDirection: 'column',
+      gap: compact ? 8 : 11,
+    }}>
       {composition.map((el) => (
-        <BlueprintRow key={el.key} el={el} total={total} animate={animate} />
+        <BlueprintRow key={el.key} el={el} total={total} />
       ))}
-    </>
+    </div>
   );
 }
 
 /**
  * BlueprintRow — single composition row.
- * ElementSign + element name + animated bar + count.
- *
- * Lifted verbatim from the prior RevealScreen.jsx implementation
- * so the visual is unchanged. RevealScreen and EnergyMap now both
- * import this — no parallel rendering.
+ * Grid: 22px icon · 60px italic name · 1fr 8-cell bar · 18px count.
  */
-export function BlueprintRow({ el, total = 8, animate = true }) {
-  const [mounted, setMounted] = useState(!animate);
-  useEffect(() => {
-    if (animate) {
-      const t = setTimeout(() => setMounted(true), 100);
-      return () => clearTimeout(t);
-    }
-  }, [animate]);
-  const pct = (el.n / total) * 100;
-
+export function BlueprintRow({ el, total = 8 }) {
+  const empty = el.n === 0;
   return (
     <div
       style={{
         display: 'grid',
-        gridTemplateColumns: '28px 1fr auto',
-        gap: 14,
+        gridTemplateColumns: '22px 60px 1fr 18px',
+        gap: 10,
         alignItems: 'center',
-        padding: '10px 0',
       }}
     >
       <ElementSign
         element={el.key}
-        size={20}
-        color={el.color}
-        muted={el.n === 0}
+        size={18}
+        color={empty ? INK_LIGHT : el.color}
+        muted={empty}
       />
-      <div>
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'baseline',
-            marginBottom: 6,
-          }}
-        >
-          <span
-            style={{
-              fontFamily: "'EB Garamond', serif",
-              fontSize: 15,
-              color: el.n === 0 ? INK_LIGHT : INK_SOFT,
-            }}
-          >
-            {el.en}
-          </span>
-        </div>
-        <div
-          style={{
-            height: 6,
-            width: '100%',
-            background: '#E5DFD1',
-            borderRadius: 999,
-            overflow: 'hidden',
-            position: 'relative',
-          }}
-        >
+      <div style={{
+        fontFamily: "'EB Garamond', serif",
+        fontSize: 14,
+        color: INK_SOFT,
+        fontStyle: 'italic',
+      }}>
+        {el.en}
+      </div>
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: `repeat(${total}, 1fr)`,
+        gap: 3,
+      }}>
+        {Array.from({ length: total }).map((_, i) => (
           <div
+            key={i}
             style={{
-              width: mounted ? `${pct}%` : '0%',
-              height: '100%',
-              background: el.color,
-              borderRadius: 999,
-              transition: 'width 800ms cubic-bezier(0.22, 1, 0.36, 1)',
+              height: 8,
+              borderRadius: 1,
+              background: i < el.n ? el.color : BORDER_LIGHT,
             }}
           />
-        </div>
+        ))}
       </div>
-      <span
-        style={{
-          fontFamily: "'EB Garamond', serif",
-          fontSize: 13,
-          color: INK_LIGHT,
-          minWidth: 28,
-          textAlign: 'right',
-        }}
-      >
-        {el.n}/{total}
-      </span>
+      <div style={{
+        fontFamily: "'EB Garamond', serif",
+        fontSize: 13,
+        color: INK_LIGHT,
+        textAlign: 'right',
+        fontVariantNumeric: 'tabular-nums',
+      }}>
+        {el.n}
+      </div>
     </div>
   );
 }
