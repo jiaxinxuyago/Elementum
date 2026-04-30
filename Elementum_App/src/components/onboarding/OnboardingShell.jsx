@@ -339,10 +339,26 @@ export function OnboardingShell({
         overflow: 'hidden',
       }}
     >
-      <SilkPaper />
-      {/* Ridge sits in the top ~90px, finishing well above the question.
-          Short height + strong fade ensures no overlap with the counter/h1. */}
-      <DistantRidge y={30} opacity={0.2} height={90} />
+      {/* Painted page background — Step 1 gets the corner-stamp atmosphere
+          (signals "you've entered the experience"), all subsequent steps
+          fall back to quiet-paper so form inputs are the focus. */}
+      <img
+        src={
+          step === 1
+            ? '/assets/backgrounds/bg-onboarding-01-corner-stamp.png'
+            : '/assets/backgrounds/bg-onboarding-04-quiet-paper.png'
+        }
+        alt=""
+        style={{
+          position: 'absolute',
+          inset: 0,
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',
+          pointerEvents: 'none',
+          zIndex: 0,
+        }}
+      />
 
       {/* progress bar — 3px at very top */}
       <div

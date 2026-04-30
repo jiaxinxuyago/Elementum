@@ -124,7 +124,21 @@ export default function LoadingScreen({ onComplete }) {
         overflow: 'hidden',
       }}
     >
-      <SilkPaper />
+      {/* Full-frame painted background — continuity with Welcome.
+          The mist deepens as the chart calculates, narrowing into revelation. */}
+      <img
+        src="/assets/backgrounds/bg-reveal-04-mist-veil.png"
+        alt=""
+        style={{
+          position: 'absolute',
+          inset: 0,
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',
+          pointerEvents: 'none',
+          zIndex: 0,
+        }}
+      />
       {/* Ridge sits low in the frame — grounds the composition. Wrapped so
           it fades together with the loading content during the ceremonial
           exit (silk paper itself stays — that's the visual constant). */}

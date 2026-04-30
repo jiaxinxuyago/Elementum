@@ -635,22 +635,18 @@ export default function RevealScreen({ onEnterDashboard }) {
       {/* SilkPaper intentionally omitted here — the CSS gradient above covers
           the full scroll height, so there's no viewport-height cut-off. */}
 
-      {/* Ink scene — layered ink-wash landscape behind the blade hero.
-          Two paintings stacked for atmospheric depth (matches the
-          reference user supplied):
-            • ink-a-top.png — distant peaks, fades higher in the frame
-            • ink-a-bottom.png — closer ranges / forest cluster on the
-              right, anchoring the mid-line of the painting
-          Both fade out via a top-down mask so they dissolve into the
-          silk without a hard horizon. Entrance: atmospheric fade-in
-          (no rise — mountains are spatial, not temporal). */}
+      {/* Reveal §1 painted background — bg-reveal-01-distant-peaks.
+          Asymmetric mountain peaks + pine trees in upper-right that frame
+          the painted blade hero. Fixed in position over the scroll, but
+          fades out at the bottom so it doesn't bleed into §2's painting.
+          Entrance: atmospheric fade-in (no rise — spatial, not temporal). */}
       <div
         style={{
           position: 'absolute',
-          top: 30,
-          left: -30,
-          right: -30,
-          height: 320,
+          top: 0,
+          left: 0,
+          right: 0,
+          height: 720,
           zIndex: 1,
           pointerEvents: 'none',
           WebkitMaskImage:
@@ -660,33 +656,13 @@ export default function RevealScreen({ onEnterDashboard }) {
           ...entrance(mounted, 'mountains', { lift: 0 }),
         }}
       >
-        {/* Distant peaks — sit high in the frame */}
         <img
-          src="/assets/ink-a-top.png"
+          src="/assets/backgrounds/bg-reveal-01-distant-peaks.png"
           alt=""
           style={{
-            position: 'absolute',
-            top: 0, left: 0, right: 0,
             width: '100%',
-            height: 240,
+            height: '100%',
             objectFit: 'cover',
-            opacity: 0.28,
-            mixBlendMode: 'multiply',
-          }}
-        />
-        {/* Closer ranges / forest cluster — slightly lower & a touch wider,
-            adds the "pine trees on the right" feel from the reference */}
-        <img
-          src="/assets/ink-a-bottom.png"
-          alt=""
-          style={{
-            position: 'absolute',
-            top: 100, left: -10, right: -10,
-            width: 'calc(100% + 20px)',
-            height: 200,
-            objectFit: 'cover',
-            opacity: 0.22,
-            mixBlendMode: 'multiply',
           }}
         />
       </div>
@@ -947,38 +923,19 @@ export default function RevealScreen({ onEnterDashboard }) {
           overflow: 'hidden',             // contain the ink-wash bleed beyond edges
         }}
       >
-        {/* Ink-wash backdrop — bottom band, multiply blend, low opacity */}
+        {/* Reveal §2 painted background — bg-reveal-02-floating-island.
+            Islands floating on water suggest the chart's elements settling
+            into place — perfect setting for the composition reveal.
+            Fills the section behind the cards. */}
         <img
-          src="/assets/ink-a-bottom.png"
+          src="/assets/backgrounds/bg-reveal-02-floating-island.png"
           alt=""
           style={{
             position: 'absolute',
-            bottom: -20,
-            left: -40,
-            right: -40,
-            height: 260,
-            width: 'calc(100% + 80px)',
+            inset: 0,
+            width: '100%',
+            height: '100%',
             objectFit: 'cover',
-            opacity: 0.22,
-            mixBlendMode: 'multiply',
-            pointerEvents: 'none',
-            zIndex: 0,
-          }}
-        />
-        {/* Faint ink ridge near the top so the upper space doesn't feel hollow */}
-        <img
-          src="/assets/ink-a-top.png"
-          alt=""
-          style={{
-            position: 'absolute',
-            top: 30,
-            left: -20,
-            right: -20,
-            height: 130,
-            width: 'calc(100% + 40px)',
-            objectFit: 'cover',
-            opacity: 0.10,
-            mixBlendMode: 'multiply',
             pointerEvents: 'none',
             zIndex: 0,
           }}
@@ -1099,8 +1056,22 @@ export default function RevealScreen({ onEnterDashboard }) {
             position: 'relative',
             zIndex: 10,
             padding: '40px 28px 32px',
+            overflow: 'hidden',
           }}
         >
+          {/* Painted §3 backdrop — bg-onboarding-03-bottom-anchor.
+              Quiet island anchor at bottom — appropriate for a
+              conditional remedy section that doesn't shout. */}
+          <img
+            src="/assets/backgrounds/bg-onboarding-03-bottom-anchor.png"
+            alt=""
+            style={{
+              position: 'absolute', inset: 0,
+              width: '100%', height: '100%', objectFit: 'cover',
+              pointerEvents: 'none', zIndex: 0,
+            }}
+          />
+          <div style={{ position: 'relative', zIndex: 1 }}>
           <div
             style={{
               fontFamily: "'EB Garamond', serif",
@@ -1175,6 +1146,7 @@ export default function RevealScreen({ onEnterDashboard }) {
               />
             ))}
           </div>
+          </div>
         </section>
       )}
 
@@ -1184,8 +1156,22 @@ export default function RevealScreen({ onEnterDashboard }) {
           position: 'relative',
           zIndex: 10,
           padding: '40px 28px 80px',
+          overflow: 'hidden',
         }}
       >
+        {/* Painted §4 backdrop — bg-reveal-03-stacked-horizons.
+            Symmetric stacked mountain bands feel like a *threshold*
+            — the right atmosphere for handing off into the dashboard. */}
+        <img
+          src="/assets/backgrounds/bg-reveal-03-stacked-horizons.png"
+          alt=""
+          style={{
+            position: 'absolute', inset: 0,
+            width: '100%', height: '100%', objectFit: 'cover',
+            pointerEvents: 'none', zIndex: 0,
+          }}
+        />
+        <div style={{ position: 'relative', zIndex: 1 }}>
         <button
           onClick={onEnterDashboard}
           style={{
@@ -1217,6 +1203,7 @@ export default function RevealScreen({ onEnterDashboard }) {
             →
           </span>
         </button>
+        </div>
       </section>
     </div>
   );

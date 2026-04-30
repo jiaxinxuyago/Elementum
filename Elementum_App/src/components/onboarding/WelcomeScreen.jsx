@@ -50,8 +50,22 @@ export default function WelcomeScreen({ onContinue }) {
         }
       `}</style>
 
-      <SilkPaper />
-      <WelcomeInkScene />
+      {/* Full-frame painted background — sets the ceremonial tone before
+          the user begins. (Replaces the prior SilkPaper + WelcomeInkScene
+          composite; the painted PNG already includes the silk paper base.) */}
+      <img
+        src="/assets/backgrounds/bg-reveal-04-mist-veil.png"
+        alt=""
+        style={{
+          position: 'absolute',
+          inset: 0,
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',
+          pointerEvents: 'none',
+          zIndex: 0,
+        }}
+      />
       <StatusBar tint={INK} />
 
       {/* No masthead mark — silk, mountains, and the wordmark speak.

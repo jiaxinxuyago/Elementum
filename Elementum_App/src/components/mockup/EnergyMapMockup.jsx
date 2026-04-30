@@ -190,22 +190,21 @@ export default function EnergyMapMockup({ onBack, onOpenDetail }) {
         overflow: 'hidden',
       }}
     >
-      {/* Layered atmospheric backdrop (matches polished V1 prototype) —
-          silk paper noise + a soft ink-wash mountain band at the top. */}
-      <SilkPaper />
+      {/* Painted page background — bg-energymap-01-top-band.
+          Mountain band + pine trees at the top fades to clean paper
+          below, framing the chrome (header + IdentityRibbon) without
+          competing with the dense card stack underneath. */}
       <img
-        src="/assets/ink-a-top.png"
+        src="/assets/backgrounds/bg-energymap-01-top-band.png"
         alt=""
         style={{
           position: 'absolute',
-          top: 0, left: -30, right: -30,
-          height: 180,
-          width: 'calc(100% + 60px)',
+          inset: 0,
+          width: '100%',
+          height: '100%',
           objectFit: 'cover',
-          opacity: 0.18,
-          mixBlendMode: 'multiply',
           pointerEvents: 'none',
-          zIndex: 1,
+          zIndex: 0,
         }}
       />
 
