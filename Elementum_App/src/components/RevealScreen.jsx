@@ -1132,15 +1132,41 @@ export default function RevealScreen({ onEnterDashboard }) {
         style={{
           position: 'relative',
           zIndex: 10,
-          padding: '40px 28px 80px',
+          minHeight: 380,
+          padding: '60px 28px 80px',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'flex-end',
           overflow: 'hidden',
         }}
       >
-        {/* §4 painted backdrop intentionally omitted — keeps the
-            page on one consistent silk paper for the whole scroll. */}
+        {/* Painted §4 closing landscape — bg-reveal-02-floating-island.
+            Islands at the bottom of the painting create a "you've
+            arrived at the shore" feel as the scroll ends, framing
+            the dashboard handoff. Uses `mixBlendMode: multiply` so
+            ONLY the dark ink shapes contribute — the cream paper base
+            multiplies with the page's silk and disappears (no visible
+            seam where this section meets the uniform paper above). */}
+        <img
+          src="/assets/backgrounds/bg-reveal-02-floating-island.png"
+          alt=""
+          style={{
+            position: 'absolute',
+            inset: 0,
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            mixBlendMode: 'multiply',
+            opacity: 0.55,
+            pointerEvents: 'none',
+            zIndex: 0,
+          }}
+        />
         <button
           onClick={onEnterDashboard}
           style={{
+            position: 'relative',
+            zIndex: 1,
             width: '100%',
             padding: '18px 22px',
             background: INK,
