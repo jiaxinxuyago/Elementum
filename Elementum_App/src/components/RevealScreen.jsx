@@ -923,25 +923,14 @@ export default function RevealScreen({ onEnterDashboard }) {
           overflow: 'hidden',             // contain the ink-wash bleed beyond edges
         }}
       >
-        {/* Reveal §2 painted background — bg-reveal-02-floating-island.
-            Islands floating on water suggest the chart's elements settling
-            into place — perfect setting for the composition reveal.
-            Fills the section behind the cards. */}
-        <img
-          src="/assets/backgrounds/bg-reveal-02-floating-island.png"
-          alt=""
-          style={{
-            position: 'absolute',
-            inset: 0,
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            pointerEvents: 'none',
-            zIndex: 0,
-          }}
-        />
+        {/* §2 painted background intentionally omitted — keeping the
+            scroll on a single consistent silk paper avoids the visible
+            seam that appeared when §1's and §2's painted PNGs (each with
+            their own cream base) butted up against each other. The §1
+            painting handles the atmosphere; sections below sit on the
+            page's `#EFE5CC` silk uniformly. */}
 
-        {/* Section content sits above the ink-wash backdrop */}
+        {/* Section content sits above the (now-uniform) silk page bg */}
         <div style={{ position: 'relative', zIndex: 1 }}>
         <div
           style={{
@@ -1059,19 +1048,8 @@ export default function RevealScreen({ onEnterDashboard }) {
             overflow: 'hidden',
           }}
         >
-          {/* Painted §3 backdrop — bg-onboarding-03-bottom-anchor.
-              Quiet island anchor at bottom — appropriate for a
-              conditional remedy section that doesn't shout. */}
-          <img
-            src="/assets/backgrounds/bg-onboarding-03-bottom-anchor.png"
-            alt=""
-            style={{
-              position: 'absolute', inset: 0,
-              width: '100%', height: '100%', objectFit: 'cover',
-              pointerEvents: 'none', zIndex: 0,
-            }}
-          />
-          <div style={{ position: 'relative', zIndex: 1 }}>
+          {/* §3 painted backdrop intentionally omitted — keeps the
+              page on one consistent silk paper for the whole scroll. */}
           <div
             style={{
               fontFamily: "'EB Garamond', serif",
@@ -1146,7 +1124,6 @@ export default function RevealScreen({ onEnterDashboard }) {
               />
             ))}
           </div>
-          </div>
         </section>
       )}
 
@@ -1159,19 +1136,8 @@ export default function RevealScreen({ onEnterDashboard }) {
           overflow: 'hidden',
         }}
       >
-        {/* Painted §4 backdrop — bg-reveal-03-stacked-horizons.
-            Symmetric stacked mountain bands feel like a *threshold*
-            — the right atmosphere for handing off into the dashboard. */}
-        <img
-          src="/assets/backgrounds/bg-reveal-03-stacked-horizons.png"
-          alt=""
-          style={{
-            position: 'absolute', inset: 0,
-            width: '100%', height: '100%', objectFit: 'cover',
-            pointerEvents: 'none', zIndex: 0,
-          }}
-        />
-        <div style={{ position: 'relative', zIndex: 1 }}>
+        {/* §4 painted backdrop intentionally omitted — keeps the
+            page on one consistent silk paper for the whole scroll. */}
         <button
           onClick={onEnterDashboard}
           style={{
@@ -1203,7 +1169,6 @@ export default function RevealScreen({ onEnterDashboard }) {
             →
           </span>
         </button>
-        </div>
       </section>
     </div>
   );
