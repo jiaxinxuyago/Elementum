@@ -1023,7 +1023,7 @@ export default function RevealScreen({ onEnterDashboard }) {
             }}>Composition</span>
             <span style={{
               fontFamily: "'EB Garamond', serif",
-              fontSize: 10, letterSpacing: 2, textTransform: 'uppercase',
+              fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
               color: INK_LIGHT, fontWeight: 500,
             }}>8 marks</span>
           </div>
@@ -1061,11 +1061,11 @@ export default function RevealScreen({ onEnterDashboard }) {
               <div
                 style={{
                   fontFamily: "'EB Garamond', serif",
-                  fontSize: 11,
-                  letterSpacing: 2.8,
+                  fontSize: 10,
+                  letterSpacing: 2.5,
                   color: missing.color,
                   textTransform: 'uppercase',
-                  fontWeight: 600,
+                  fontWeight: 500,
                 }}
               >
                 Your {missing.en} is missing
@@ -1104,13 +1104,13 @@ export default function RevealScreen({ onEnterDashboard }) {
           <div
             style={{
               fontFamily: "'EB Garamond', serif",
-              fontSize: 11,
-              letterSpacing: 3.5,
+              fontSize: 10,
+              letterSpacing: 2.5,
               textTransform: 'uppercase',
               color: INK_LIGHT,
               textAlign: 'center',
               marginBottom: 22,
-              fontWeight: 600,
+              fontWeight: 500,
             }}
           >
             What Balances You
@@ -1154,11 +1154,11 @@ export default function RevealScreen({ onEnterDashboard }) {
               <div
                 style={{
                   fontFamily: "'EB Garamond', serif",
-                  fontSize: 12,
-                  letterSpacing: 3,
+                  fontSize: 10,
+                  letterSpacing: 2.5,
                   textTransform: 'uppercase',
                   color: missing.color,
-                  fontWeight: 600,
+                  fontWeight: 500,
                 }}
               >
                 Cultivate {missing.en}
