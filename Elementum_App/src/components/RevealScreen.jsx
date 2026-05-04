@@ -775,13 +775,14 @@ export default function RevealScreen({ onEnterDashboard }) {
         </div>
 
         {/* Archetype name — Cormorant h1. Specs match the polished V1
-            reference exactly: weight 500 (NOT bold — user feedback was
-            explicit on this), 44px, lineHeight 1.05, letterSpacing 0.5,
-            walnut color, soft text-shadow for depth. */}
+            reference exactly: Cormorant Garamond weight 600, 44px,
+            lineHeight 1.05, letterSpacing 0.5, walnut color, soft
+            text-shadow for depth. (Verified against the bundle's
+            _template-decoded.html — every property identical.) */}
         <h1
           style={{
             fontFamily: "'Cormorant Garamond', serif",
-            fontWeight: 500,
+            fontWeight: 600,
             fontSize: 44,
             lineHeight: 1.05,
             color: WALNUT,
