@@ -614,39 +614,31 @@ export default function RevealScreen({ onEnterDashboard }) {
   const dm = buildDm(chart);
 
   return (
+    /* Outer phone-frame container. Holds the FIXED painted background
+       layer + the scrolling content layer. The painted ink-wash stays
+       anchored to the phone frame; only the inner content scrolls past
+       it. (Pattern matches the polished V1 prototype.) */
     <div
-      ref={scrollRef}
       style={{
-        // One consistent silk fill that spans the full scrollable content.
-        // Previously we layered a 844px SilkPaper SVG over a flat SILK
-        // fallback — they didn't match in tone, producing a visible hairline
-        // where the SVG ended. Now a single flat silk tone (the midpoint of
-        // the original silkG gradient) covers every section uniformly —
-        // no transitions, no bands, no hairlines.
-        background: '#EFE5CC',
-        color: INK,
         position: 'relative',
         width: '100%',
         height: '100%',
-        overflowY: 'auto',
-        overflowX: 'hidden',
+        background: '#EFE5CC',  // page silk — visible behind the painted bg & between cards
+        color: INK,
+        overflow: 'hidden',
       }}
     >
-      {/* SilkPaper intentionally omitted here — the CSS gradient above covers
-          the full scroll height, so there's no viewport-height cut-off. */}
-
-      {/* Reveal §1 painted background — bg-reveal-01-distant-peaks.
-          Asymmetric mountain peaks + pine trees in upper-right that frame
-          the painted blade hero. Fixed in position over the scroll, but
-          fades out at the bottom so it doesn't bleed into §2's painting.
-          Entrance: atmospheric fade-in (no rise — spatial, not temporal). */}
+      {/* ── Fixed top-mountains backdrop (does NOT scroll) ────────
+          bg-reveal-01-distant-peaks. Painted ink-wash anchored to the
+          top of the phone frame. As the user scrolls, the cards slide
+          UP past these mountains; the painting stays put. */}
       <div
         style={{
           position: 'absolute',
           top: 0,
           left: 0,
           right: 0,
-          height: 720,
+          height: 320,
           zIndex: 1,
           pointerEvents: 'none',
           WebkitMaskImage:
@@ -663,11 +655,68 @@ export default function RevealScreen({ onEnterDashboard }) {
             width: '100%',
             height: '100%',
             objectFit: 'cover',
+            objectPosition: 'center top',
+          }}
+        />
+      </div>
+
+      {/* ── Fixed bottom-islands backdrop (does NOT scroll) ────────
+          bg-reveal-02-floating-island. Painted ink-wash anchored to the
+          bottom of the phone frame. The CTA in §4 (which scrolls into
+          this same area at the end of the scroll) lands ON TOP of the
+          islands — Welcome-page composition. `mixBlendMode: multiply`
+          drops the painting's cream base so it doesn't create a seam
+          against the silk page color above. Top edge masked into a soft
+          fade so there's no hard line. */}
+      <div
+        style={{
+          position: 'absolute',
+          bottom: 0,
+          left: -20,
+          right: -20,
+          height: 280,
+          zIndex: 1,
+          pointerEvents: 'none',
+          WebkitMaskImage:
+            'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 38%, rgba(0,0,0,1) 100%)',
+          maskImage:
+            'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 38%, rgba(0,0,0,1) 100%)',
+        }}
+      >
+        <img
+          src="/assets/backgrounds/bg-reveal-02-floating-island.png"
+          alt=""
+          style={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            objectPosition: 'center bottom',
+            mixBlendMode: 'multiply',
+            opacity: 0.6,
           }}
         />
       </div>
 
       <StatusBar tint={INK} />
+
+      {/* ── Scroll layer (content only) ────────────────────────────
+          Skip the 44px status-bar zone with `top: 44`. zIndex above
+          the painted backdrop so cards render in front of the
+          mountains/islands. Background transparent so the fixed
+          painted bg shows through between cards. */}
+      <div
+        ref={scrollRef}
+        style={{
+          position: 'absolute',
+          top: 44,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          overflowY: 'auto',
+          overflowX: 'hidden',
+          zIndex: 10,
+        }}
+      >
 
       {/* ── SECTION 1 — IDENTITY ───────────────────────────
           Composition: ink-wash mountains (zIndex=1) hold the upper third;
@@ -1140,43 +1189,11 @@ export default function RevealScreen({ onEnterDashboard }) {
           overflow: 'hidden',
         }}
       >
-        {/* Painted §4 closing landscape — bg-reveal-02-floating-island.
-            Composed like the Welcome screen: the landscape sits as a
-            mid-section band, and the CTA button rides on top of its
-            lower edge (button "covers" the islands). The band has a
-            top-down fade mask so its leading edge dissolves into the
-            silk paper instead of showing a hard horizontal line.
-            `mixBlendMode: multiply` removes the painting's cream base
-            so it merges seamlessly with the page silk. */}
-        <div
-          style={{
-            position: 'absolute',
-            left: -20,
-            right: -20,
-            bottom: 90,             // anchor: just above the CTA so the button overlaps the island silhouettes
-            height: 240,
-            zIndex: 0,
-            pointerEvents: 'none',
-            // Soft fade-in at the top edge — no hard "haircut" line
-            WebkitMaskImage:
-              'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 38%, rgba(0,0,0,1) 100%)',
-            maskImage:
-              'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 38%, rgba(0,0,0,1) 100%)',
-          }}
-        >
-          <img
-            src="/assets/backgrounds/bg-reveal-02-floating-island.png"
-            alt=""
-            style={{
-              width: '100%',
-              height: '100%',
-              objectFit: 'cover',
-              objectPosition: 'center bottom',  // anchor the islands (which sit in the painting's lower third) to the band's bottom
-              mixBlendMode: 'multiply',
-              opacity: 0.6,
-            }}
-          />
-        </div>
+        {/* §4 painted backdrop intentionally omitted — the bottom
+            islands are now a FIXED layer on the outer phone-frame
+            wrapper (does not scroll). When the user scrolls to the
+            end and the CTA arrives at the bottom of the viewport,
+            the button overlays the fixed islands automatically. */}
         <button
           onClick={onEnterDashboard}
           style={{
@@ -1211,6 +1228,7 @@ export default function RevealScreen({ onEnterDashboard }) {
           </span>
         </button>
       </section>
+      </div>{/* /scroll layer */}
     </div>
   );
 }
