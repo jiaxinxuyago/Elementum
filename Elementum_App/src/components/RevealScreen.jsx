@@ -1132,8 +1132,8 @@ export default function RevealScreen({ onEnterDashboard }) {
         style={{
           position: 'relative',
           zIndex: 10,
-          minHeight: 380,
-          padding: '60px 28px 80px',
+          minHeight: 360,
+          padding: '40px 28px 70px',
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'flex-end',
@@ -1141,27 +1141,42 @@ export default function RevealScreen({ onEnterDashboard }) {
         }}
       >
         {/* Painted §4 closing landscape — bg-reveal-02-floating-island.
-            Islands at the bottom of the painting create a "you've
-            arrived at the shore" feel as the scroll ends, framing
-            the dashboard handoff. Uses `mixBlendMode: multiply` so
-            ONLY the dark ink shapes contribute — the cream paper base
-            multiplies with the page's silk and disappears (no visible
-            seam where this section meets the uniform paper above). */}
-        <img
-          src="/assets/backgrounds/bg-reveal-02-floating-island.png"
-          alt=""
+            Composed like the Welcome screen: the landscape sits as a
+            mid-section band, and the CTA button rides on top of its
+            lower edge (button "covers" the islands). The band has a
+            top-down fade mask so its leading edge dissolves into the
+            silk paper instead of showing a hard horizontal line.
+            `mixBlendMode: multiply` removes the painting's cream base
+            so it merges seamlessly with the page silk. */}
+        <div
           style={{
             position: 'absolute',
-            inset: 0,
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            mixBlendMode: 'multiply',
-            opacity: 0.55,
-            pointerEvents: 'none',
+            left: -20,
+            right: -20,
+            bottom: 90,             // anchor: just above the CTA so the button overlaps the island silhouettes
+            height: 240,
             zIndex: 0,
+            pointerEvents: 'none',
+            // Soft fade-in at the top edge — no hard "haircut" line
+            WebkitMaskImage:
+              'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 38%, rgba(0,0,0,1) 100%)',
+            maskImage:
+              'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 38%, rgba(0,0,0,1) 100%)',
           }}
-        />
+        >
+          <img
+            src="/assets/backgrounds/bg-reveal-02-floating-island.png"
+            alt=""
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              objectPosition: 'center bottom',  // anchor the islands (which sit in the painting's lower third) to the band's bottom
+              mixBlendMode: 'multiply',
+              opacity: 0.6,
+            }}
+          />
+        </div>
         <button
           onClick={onEnterDashboard}
           style={{
