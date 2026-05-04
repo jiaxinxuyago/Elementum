@@ -757,33 +757,35 @@ export default function RevealScreen({ onEnterDashboard }) {
           <HeroStemMark stem={dmStem} element={dmElement} size={280} />
         </div>
 
-        {/* YOU ARE… eyebrow — tracked italic caps */}
+        {/* YOU ARE… eyebrow — matches the polished V1 Eyebrow primitive
+            (10px / EB Garamond / weight 500 / 2.5 letterSpacing / no italic). */}
         <div
           style={{
             fontFamily: "'EB Garamond', serif",
-            fontSize: 12,
-            letterSpacing: 3.2,
+            fontSize: 10,
+            letterSpacing: 2.5,
             textTransform: 'uppercase',
             color: INK_LIGHT,
             marginBottom: 14,
-            fontStyle: 'italic',
+            fontWeight: 500,
             ...entrance(mounted, 'eyebrow'),
           }}
         >
           You are…
         </div>
 
-        {/* Archetype name — Cormorant h1. A larger lift (10px) gives the
-            name a stronger "rises into being" feel, matching its weight
-            in the visual hierarchy. */}
+        {/* Archetype name — Cormorant h1. Specs match the polished V1
+            reference exactly: weight 500 (NOT bold — user feedback was
+            explicit on this), 44px, lineHeight 1.05, letterSpacing 0.5,
+            walnut color, soft text-shadow for depth. */}
         <h1
           style={{
             fontFamily: "'Cormorant Garamond', serif",
-            fontWeight: 600,
+            fontWeight: 500,
             fontSize: 44,
-            lineHeight: 1,
+            lineHeight: 1.05,
             color: WALNUT,
-            letterSpacing: 1,
+            letterSpacing: 0.5,
             margin: '0 0 14px',
             textShadow: '0 2px 4px rgba(139,115,85,0.15)',
             ...entrance(mounted, 'archetype', { lift: 10 }),
@@ -820,7 +822,7 @@ export default function RevealScreen({ onEnterDashboard }) {
           <div
             style={{
               fontFamily: "'Cormorant Garamond', serif",
-              fontSize: 22,
+              fontSize: 19,
               fontStyle: 'italic',
               fontWeight: 500,
               color: INK_SOFT,
@@ -984,13 +986,13 @@ export default function RevealScreen({ onEnterDashboard }) {
         <div
           style={{
             fontFamily: "'EB Garamond', serif",
-            fontSize: 11,
-            letterSpacing: 3.5,
+            fontSize: 10,
+            letterSpacing: 2.5,
             textTransform: 'uppercase',
             color: INK_LIGHT,
             textAlign: 'center',
             marginBottom: 18,
-            fontWeight: 600,
+            fontWeight: 500,
           }}
         >
           Your Energy Blueprint
@@ -1206,7 +1208,7 @@ export default function RevealScreen({ onEnterDashboard }) {
             border: 0,
             borderRadius: 999,
             fontFamily: 'Cinzel, serif',
-            fontSize: 12,
+            fontSize: 11,
             letterSpacing: 4,
             textTransform: 'uppercase',
             cursor: 'pointer',
