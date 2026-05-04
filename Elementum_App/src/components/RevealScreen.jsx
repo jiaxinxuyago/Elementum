@@ -774,15 +774,16 @@ export default function RevealScreen({ onEnterDashboard }) {
           You are…
         </div>
 
-        {/* Archetype name — Cormorant h1. Specs match the polished V1
-            reference exactly: Cormorant Garamond weight 600, 44px,
-            lineHeight 1.05, letterSpacing 0.5, walnut color, soft
-            text-shadow for depth. (Verified against the bundle's
-            _template-decoded.html — every property identical.) */}
+        {/* Archetype name — Cormorant h1. Visually calibrated against
+            the design mockup: even at the spec's weight 600 our render
+            came across heavier than the design (likely because the
+            design's woff2 subset is hinted differently from the Google
+            Fonts CDN we load). Dropping to weight 400 lands closer to
+            the design's actual visual weight. */}
         <h1
           style={{
             fontFamily: "'Cormorant Garamond', serif",
-            fontWeight: 600,
+            fontWeight: 400,
             fontSize: 44,
             lineHeight: 1.05,
             color: WALNUT,
