@@ -161,6 +161,131 @@ All section label headings within the Elemental Nature reading page (and any fut
 
 ---
 
+## §3.5 — Locked Component Primitives (anchor-derived)
+
+These primitives are extracted from `Design/northstar-anchor.html` — the self-contained extract of the V1 Reveal + Energy Map prototype. Together with §2 (color) and §3 (typography), they form the visual contract every screen, card, and component must obey.
+
+**See also:** `Design/legend-primitives.html` — the rendered design legend that visually documents every rule in this section (color palette, type specimen, eyebrow library, radius scale, spacing scale, card surfaces, component primitives, italic gallery, border palette, anti-patterns, page templates, drift log). When in doubt about how a rule looks rendered, open the legend. The companion `Design/legend-patterns.html` covers screen-level assemblies (welcome, onboarding, loading, tab nav, modals, forms, status, page header).
+
+**Authority:** The anchor is the source of truth. When DOC5 and the anchor disagree, fix DOC5 to match the anchor (not the other way around). When app code drifts from the anchor, fix the app code. New patterns require a doc patch *before* implementation.
+
+### §3.5.A — Pigment alpha ladder
+
+Each element pigment (`metal #8ba3b8`, `wood #7a9e6e`, `fire #c4745a`, `earth #b89a6a`, `water #5a7fa8`) appears at exactly four alphas — and only on the surface type listed:
+
+| Surface | Hex suffix | Alpha | Anchor line | Where it appears |
+|---|---|---|---|---|
+| Soft fill (card bg) | `10` | ~6% | 825, 1080 | Pair card bg, archetype-themed block |
+| Tint fill (icon bg) | `1A` | ~10% | 832 | Force icon backdrop |
+| Border / chip outline | `40` | ~25% | 826, 1080 | Tinted-card border, chip outline |
+| Glyph / deep text | — | 100% | 841 (uses `*Deep`) | Stem seal, element character, headings over tints |
+
+Eyebrow text uses element color at 80% (`CC`) — already locked in §3.
+
+Each pigment ships with a `*Deep` companion (e.g. `metalDeep #6a849a`, `fireDeep #9e5540`) — used for high-contrast headings sitting *over* tinted surfaces. The Deep variant is never used as a fill alpha-blended on cream paper.
+
+A reserved `seal: #A04030` accent appears **once per screen maximum** (typically the chop mark) and is forbidden elsewhere.
+
+**Rule:** one alpha per surface type — never invent intermediate values like `${color}25`, `${color}55`, `${color}80`, `${color}90`.
+
+### §3.5.B — Border-radius scale
+
+The anchor uses six radii — and only these:
+
+| Radius | Use | Anchor line |
+|---|---|---|
+| `1px` | Segmented bar cells, hairline pills | 599, 630 |
+| `10px` | Small square icon containers (36×36) | 1046 |
+| `12px` | Standard cards, list rows, 44×44 icon containers | 551, 1043 |
+| `16px` | Feature cards, large stem seal (84×84) | 668, 827 |
+| `22px` | Toggle pills, archetype glyph backdrop | 370, 718 |
+| `999px` | CTAs, chips, badges, pill labels | 500, 517, 880 |
+
+`47px` and `56px` are reserved for the phone-frame surround only — never for app content.
+
+Out-of-scale radii (4, 6, 8, 14, 18, 20, 24, 28) are doc-patch triggers.
+
+### §3.5.C — Spacing values
+
+The anchor uses a wider palette than a strict 4-multiple grid. Allowed values:
+
+| Range | Values | Typical use |
+|---|---|---|
+| Micro | `1 · 3 · 4` | Hairline gaps, internal cell spacing |
+| Small | `5 · 6 · 8 · 10` | Tight component gaps, icon-to-text |
+| Medium | `12 · 14 · 16 · 18` | Card padding, row gaps, label margins |
+| Large | `20 · 22 · 26 · 28` | Inter-card spacing, section rhythm |
+| XL | `36 · 44 · 56` | Hero margins, screen-level spacing |
+
+Values **not** used by the anchor (and therefore disallowed): `7, 9, 11, 13, 15, 17, 19, 21, 24, 30, 32, 40, 48, 64`.
+
+Specifically: `5`, `10`, `16`, `20`, `26` *are* used in the anchor (e.g. line 18 `gap: 5`, line 786 `marginBottom: 26`) and are allowed — do not reflexively round them to 4-multiples.
+
+### §3.5.D — Card surface taxonomy
+
+Every card surface in the app must be one of these three types:
+
+| Surface | Background | Border | Anchor line | Use |
+|---|---|---|---|---|
+| **Cream-cardstock** | `rgba(248,241,225,0.92)` (silk @ 92%) | `1px solid #CDBE9E` (`paperHair`) | 368, 552, 669 | Stem chips, blueprint card, archetype glyph card |
+| **Tinted (element-themed)** | `${pigment}10` (~6%) | `1px solid ${pigment}40` (~25%) | 825-826, 1080 | Pair card, archetype-themed block |
+| **Quiet secondary** | `#EBE5D6` | `1px solid #DCD3C0` | 857, 1110 | Secondary cards, lock-state strips |
+
+Card shadow (when present): `0 1px 0 rgba(43,39,34,0.04)` for the lift-line variant; CTA buttons add `0 8px 22px rgba(43,39,34,0.35)`.
+
+The bottom tab bar adds a fourth surface — "elevated translucent" — covered in §11. Not used elsewhere.
+
+A new surface variant is a doc-patch trigger.
+
+### §3.5.E — Italic usage  *(superseded — see §AM.10 for v2 rule)*
+
+> **Notice (2026-05-06):** This section originally listed 5 italic contexts. The locked rule has been narrowed to **two** contexts only — sub-headline and microcopy. The five-row table below is preserved for historical reference; the v2 rule lives at §AM.10. Three contexts (element-name label, composition row name, descriptive paragraph) are now **forbidden** in italic and revert to regular.
+
+| Context | Font · size · weight · color | Status under v2 (§AM.10) |
+|---|---|---|
+| Sub-headline (archetype tagline, e.g. "Precision before intention") | Cormorant Garamond italic · 19 · 500 · `inkSoft` | ✓ ALLOWED |
+| Element-name label, large (BlueprintRow primary) | ~~EB Garamond italic · 16 · 500 · `ink`~~ | ✗ REVERT TO REGULAR |
+| Composition row name, small | ~~EB Garamond italic · 14 · 400 · `inkSoft`~~ | ✗ REVERT TO REGULAR |
+| Descriptive paragraph | ~~EB Garamond italic · 12.5 · 400 · `inkSoft`~~ | ✗ REVERT TO REGULAR |
+| Microcopy chip, force sentence, lock copy | EB Garamond italic · 11.5 · 400 · `inkSoft`/`inkLight` | ✓ ALLOWED |
+
+Italic is **never** used for:
+- Archetype titles ("The Blade" is regular Cormorant 38/400)
+- Eyebrows (already locked at §3)
+- CTAs, button labels
+- Body reading copy
+- Numeric values (50%, counts)
+- Status text (timestamps, badges)
+- *(Newly forbidden per §AM.10:)* Element-name labels, composition row names, descriptive paragraphs
+
+### §3.5.F — Border palette
+
+| Token | Hex | Use | Anchor line |
+|---|---|---|---|
+| `paperHair` | `#CDBE9E` | Default 1px borders — chips, cards, ribbon dividers, dashed underlines | 369, 462, 532, 553, 569, 670, 964 |
+| `borderLight` | `#E5DFD1` | Subtle dividers — bottom tab strip, list item separators | 903, 1042 |
+| `borderStd` | `#D5CDBD` | Defined but rarely used in V1 — reserved for future dense-info surfaces | (token only) |
+| `dmBorder` | `#584A3E` | Day-master pillar highlight only — never used elsewhere | (token only) |
+| `borderFocus` | `#8b7355` | Reserved for input focus rings — unused in V1 reading pages | (token only) |
+
+Element-tinted borders use the pigment ladder (rule §3.5.A: `${pigment}40`) and override neutral borders on themed cards.
+
+Dashed borders (`1px dashed ${T.paperHair}`) are used for **interaction affordances only** — e.g. "Birth chart →" inline action link (anchor line 964). Never for static separators.
+
+### §3.5 — Application notes
+
+- **Drift between app code and anchor:** the current `Elementum_App/src/styles/tokens.jsx` defines `BORDER_LIGHT` and `BORDER_STD` as `rgba(139,115,85,*)` — *different* from the anchor's `paperHair`/`borderLight`/`borderStd` opaque palette. Rectifying this is a separate work item; the anchor's values are authoritative.
+- **Tokens not yet in app:** `paperHair`, `silkDeep`, `silkFold`, `vellum`, `inkMist`, `walnut`, `seal`, the `*Deep` element variants — present in the anchor `T` object, not all yet in `tokens.jsx`.
+- **Anti-patterns** (forbidden across the app):
+  - Element pigments at non-ladder alphas (`${color}25`, `${color}55`, `${color}80`)
+  - Out-of-scale radii (4, 6, 8, 14, 18, 20, 28)
+  - Off-scale spacing (7, 9, 11, 13, 15, 17, 19, 24, 30, 32)
+  - Italic on archetype titles, CTAs, eyebrows
+  - New card surface variants (must be one of the 3)
+  - More than one `seal #A04030` accent per screen
+
+---
+
 ## §4 — Motion System
 
 ### Guiding principle
@@ -2917,3 +3042,140 @@ All five fields are now authored in `archetypeSource.js → TG_CARD_DATA[tg]`.
 | §20 initial | Prior session | BladeJian spec, stem icon table (庚 only complete) |
 | §20 v1.1 | 2026-04-22 | Completed stem identity table with all 10 archetypes + visual directions. Added §20.2 Inner Council visual personas for all 10 Ten Gods. Added reveal card format spec. |
 | §20 v1.2 | 2026-04-24 | BladeJian renamed to **BrushJian**, redrawn with vertical-portrait 60×220 viewBox + INK fill (was element pigment). Added the **StemSign dispatcher pattern** as the production entry point for all per-stem hero icons — routes per-stem, falls back to ElementSign for stems whose painted SVG isn't authored yet. Added the **HeroStemMark** placement convention (negative top margin so hero icon pierces ink-wash mountain band). Asset table updated to reflect that stem signs render in INK monochrome, NOT element pigment. |
+
+---
+
+## §AMENDMENT — v3 IA Reframe + v3 Amendment Polish Patches
+
+This section consolidates the doc-patch obligations surfaced by:
+- `Design/legend-screens-amendment.html` §A7 drift log (DA.1 – DA.10)
+- `Design/legend-screens.html` §14 drift log (D14.1 – D14.6)
+
+Each row supersedes the originally-cited section. When the original section disagrees with this amendment, this amendment wins.
+
+### §AM.1 — IA reframe (supersedes §11)
+
+Originally §11 specified the Energy Map as a flat dashboard tab with an 8-card menu. v3 §0 retired the catalogue. The amendment restores the layered model:
+
+| Aspect | Locked rule |
+|---|---|
+| Reveal page | Single scrollable surface · identity card + full energy summary + CTA "Enter Your Readings" · is the first-time view of the Energy Map |
+| Reading tab | 5-tab dashboard (Today · Guidance · **Reading** · Compat · Profile) — Reading replaces Map at center, carries the seal-dot indicator |
+| Reading page | Catalogue of reading cards · top-of-page "Energy Map →" link returns to the Reveal layout (minus first-time framing) |
+| Energy Map | Destination accessed from Reading's top action — same content as Reveal, no first-time CTA |
+| "Energy Map" eyebrow | Renames the formerly-titled "Energy Blueprint" section · used on both Reveal and Reading link |
+
+### §AM.2 — Tab nav is icons-only (supersedes §11 + v2 §4)
+
+Tab labels (calendar / book / etc) carry meaning on their own — no underline text. Bottom tab nav renders icons only with the seal-dot indicator beneath the active tab. First-time onboarding may include one-time tooltips per tab for discoverability.
+
+### §AM.3 — Cormorant title weight at hero vs mini scale (supersedes §3)
+
+The "never bold" rule applies at hero scale only:
+- **Hero scale** (≥30px) — Cormorant 400, never weight 600+ (e.g. archetype titles like "The Blade")
+- **Mini-hero scale** (≤24px) — weight 500 or 600 acceptable on tinted surfaces (e.g. v3 §3 mini DM hero at 24/600)
+
+### §AM.4 — Card-expand motion primitive (additive to §4)
+
+The γ inline-expansion pattern (amendment §A4) introduces a height-transition motion not previously specified:
+
+```
+property:  max-height
+range:     90px → 340px (collapsed → expanded)
+duration:  220ms
+easing:    cubic-bezier(0.22, 1, 0.36, 1)  /* ease-out — same as scroll reveals */
+companion: chev-right rotates 0deg → 135deg over the same duration
+```
+
+Use only for cards that expand in place (Today's daily snippet). Modal patterns (α / β / C / D / E) use slide/push, not card-expand.
+
+### §AM.5 — Dashed-border rule extension (supersedes §3.5.F)
+
+Original §3.5.F: "Dashed borders are reserved for interaction affordances only — never used as static separators."
+
+Amended: "Dashed borders are reserved for **interaction affordances or placeholder/scaffolding states** (e.g. empty-card variants where the data is scheduled but unavailable). Static separators stay solid 1px `--paperHair`."
+
+### §AM.6 — Elevated surface variant (additive to §3.5.D)
+
+v1 §6 / §3.5.D originally locked three card surfaces (cardstock, quiet, parchment). Modal sheets and the bottom tab bar both need an upward-pointing shadow + translucent fill that no existing surface provides. Adding a fourth surface:
+
+| Surface | Background | Border | Shadow | Use |
+|---|---|---|---|---|
+| **Elevated · sheet** | `--silk` or `--cream` | none | `0 -8px 40px rgba(0,0,0,0.12)` | Bottom-sheet modals (Type α / A / C / D), reading sheets |
+| **Elevated · blurred chrome** | `rgba(253,253,252,0.85)` + `backdrop-filter: blur(12px)` | `1px solid --borderLight` (top only) | none | Bottom tab bar |
+
+### §AM.7 — Cardstock-active variant (additive to §3.5.D)
+
+For Today's decade-pillar card (gold rim marking the active 大运 decade), define a fifth surface:
+
+| Surface | Background | Border | Use |
+|---|---|---|---|
+| **Cardstock-active** | `--cardstock-bg` | 1px gold rim (`rgba(212,175,55,0.45)`) + `--paperHair` outer if needed | Today's active-decade card · this-year forecast bars · any "current period" affordance |
+
+### §AM.8 — Reading-section icon library (new asset family)
+
+Adds 5 reading-section icons + 1 empty-state icon to the canonical icon library at `Design/icons.svg`:
+
+| ID | Use | Status |
+|---|---|---|
+| `read-elemental` | Elemental Nature card | placeholder line-mark — refinement welcome |
+| `read-dominant` | Dominant Energies card | placeholder |
+| `read-forces` | Forces in Motion card | placeholder |
+| `read-chapters` | Life Chapters card | placeholder |
+| `read-pillars` | Pillar Patterns card | placeholder |
+| `ico-empty` | Empty/scheduled placeholder card | placeholder |
+
+Companion gap (§AM.9): 10 day-master ink-wash marks (`dm-jia` … `dm-gui`) are line-mark placeholders awaiting brush commission.
+
+### §AM.9 — Open commission queue
+
+Items requiring hand-drawn / AI-image-generated brushwork before they can ship at full fidelity:
+
+1. **10 day-master ink-wash marks** (`dm-*` in `icons.svg`) — sumi-e influence, monochrome ink, tied to motif map (甲=tree, 乙=vine, 丙=sun, 丁=candle, 戊=mountain, 己=field, 庚=blade, 辛=jewel, 壬=river, 癸=mist)
+2. **5 reading-section glyphs** (`read-*`) — domain-specific brushed icons or refined illustration
+
+Drop-in target: replace each `<symbol>` body in `Design/icons.svg`. Every consumer (legend HTML + React app) auto-updates.
+
+### §AM.10 — Italic usage v2 (supersedes §3.5.E)
+
+Italic is reserved for **two contexts only**:
+
+| Allowed context | Font · size · weight · color | Anchor source |
+|---|---|---|
+| **Sub-headline** (archetype tagline / manifesto line, e.g. "Precision before intention") | Cormorant Garamond italic · 19 · 500 · `inkSoft` | northstar-anchor.html line 784 |
+| **Microcopy** (chip, force sentence, lock copy, helper line) | EB Garamond italic · 11.5 · 400 · `inkSoft` / `inkLight` | northstar-anchor.html lines 963, 1068, 1101 |
+
+**Reverted to regular** (these were italic under the v1 §3.5.E rule and are now forbidden in italic):
+
+| Context | Old (v1) | New (v2 / §AM.10) |
+|---|---|---|
+| Element-name label (BlueprintRow primary) | EB Garamond italic 16/500 `ink` | EB Garamond regular 16/500 `ink` |
+| Composition row name (small) | EB Garamond italic 14/400 `inkSoft` | EB Garamond regular 14/400 `inkSoft` |
+| Descriptive paragraph | EB Garamond italic 12.5/400 `inkSoft` | EB Garamond regular 12.5/400 `inkSoft` |
+| Status text / timestamps | (already forbidden) | unchanged |
+| Numeric values | (already forbidden) | unchanged |
+
+**Rationale.** Italic was overused — under v1 §3.5.E it covered five contexts and was bleeding into long-form reading copy at 12.5px, blurring the distinction between "voice" and "default body." Restricting italic to sub-headline (display) and microcopy (chip-scale only) preserves italic as a *deliberate* tonal cue rather than ambient texture.
+
+**Cascade.** Updating this rule cascades to:
+- `Design/legend-primitives.html` §8 — already updated (canonical source of v2 rule)
+- `Design/legend-patterns.html` §8 — patch needed (italic gallery shows old 5-context table)
+- `Design/legend-screens-amendment.html` — patch needed (descriptive paragraphs in §A1 / §A4 / §A5 / §A6, daily card title)
+- `Design/legend-screens.html` — patch deferred to v4 (covered in v4 polish brief)
+- `Elementum_App/src/components/shared/EnergyBlueprint.jsx` — patch needed (BlueprintRow `.name` italic, empty-state message italic)
+- `Elementum_App/src/components/shared/IdentityRibbon.jsx` — patch needed (element-name italic, saturation reading paragraph italic)
+- DOC5 §3.5.E — annotated as superseded (this commit)
+
+**Audit checklist for new code.** Before shipping any text element with `fontStyle: 'italic'` or CSS `font-style: italic`, verify it answers YES to one of:
+1. Is this a sub-headline (Cormorant 19/italic on a hero card)?
+2. Is this microcopy (EB Garamond 11.5/italic on a chip / force sentence / lock strip / helper line)?
+
+If neither, set the text upright.
+
+### Version history
+
+| Version | Date | Changes |
+|---|---|---|
+| §AMENDMENT initial | 2026-05-05 | Consolidated v3 + amendment drift items into 9 patches. Added IA reframe, motion spec, cardstock-active + elevated surface variants, reading-section icon family. |
+| §AM.10 added | 2026-05-06 | Italic usage v2 — restricted from 5 contexts to 2 (sub-headline + microcopy). Annotated §3.5.E as superseded. Cascaded patches into amendment HTML + 2 shared components. |
+
