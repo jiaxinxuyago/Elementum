@@ -112,15 +112,25 @@ These need addressing in v1 / v2 doc patches before the manifest is fully stable
 
 ```
 Design/
-├── tokens.css                     ← canonical CSS variables
-├── icons.svg                      ← canonical icon library (33 symbols)
-├── manifest.md                    ← THIS FILE (component → app mapping)
-├── northstar-anchor.html          ← V1 prototype DNA
-├── legend-primitives.html         ← v1 (color · type · primitives)
-├── legend-patterns.html           ← v2 (welcome · onboarding · loading · tab nav · modals · forms · status · page header)
-├── legend-screens.html            ← v3 (Today · Energy Map · Guidance · Friends · Profile · DetailShell · Calendar · Backgrounds · Tier-locks · Modal taxonomy · Nav map)
-├── legend-screens-amendment.html  ← v3 amendment (Reveal redesign · Reading catalogue · 10 DM icons · Reading containers α/β/γ · Scroll-vs-collapsible · Reading card variants · Drift log)
-└── assets/backgrounds/            ← 16 painted PNGs
+├── tokens.css                       ← canonical CSS variables
+├── icons.svg                        ← canonical icon library (33 symbols)
+├── manifest.md                      ← THIS FILE (component → app mapping)
+├── Legends/                         ← canonical legend HTMLs (in version order)
+│   ├── northstar-anchor.html        ← V1 prototype DNA
+│   ├── legend-primitives.html       ← v1 (color · type · primitives · italic gallery v2)
+│   ├── legend-patterns.html         ← v2 (welcome · onboarding · loading · tab nav · modals · forms · status · page header)
+│   ├── legend-screens.html          ← v3 (Today · Energy Map · Guidance · Friends · Profile · DetailShell · Calendar · Backgrounds · Tier-locks · Modal taxonomy · Nav map · ICONS-ONLY tab bar)
+│   ├── legend-screens-amendment.html ← IA reframe (Reveal → Reading-catalogue → Energy Map · 10 DM placeholder icons · Reading containers α/β/γ · 5 reading card variants · drift log DA.1–DA.11)
+│   ├── legend-v4-polish.html        ← v4 (refined DM ink-wash icons · 7 reading-section icons · Reveal rhythm · γ inline-expansion motion · tab-bar fade-in)
+│   ├── legend-v6-card-archetypes.html ← v6 (element/pillar tile · section hero · halftone duotone register · modal-from-card · tab-strip-inside-card)
+│   └── legend-v7-ink-wash.html      ← v7 (ink-wash polish using uploaded ref paintings · 4 archetypes: tile, section hero, modal hero, compact strip)
+├── assets/                          ← painted backgrounds (16 PNGs) + ink references
+├── reference/                       ← visual references
+│   ├── AppPages/                    ← Pattern + Nebula screenshots (10 PNGs)
+│   ├── CardReference/               ← Apps + Games card-design references
+│   ├── InkWash/FromClaude/          ← 6 public-domain Chinese ink-wash paintings (38 MB · Fan Kuan, Ma Yuan ×3, Bada Shanren, Shi Tao)
+│   └── Five Element Icons/
+└── exports/reveal-and-energymap/    ← original V1 prototype seed bundle
 
 Elementum_App/src/components/
 ├── onboarding/
