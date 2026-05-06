@@ -1,0 +1,126 @@
+/* =============================================================
+   Elementum · Design Tokens (canonical source-of-truth)
+   =============================================================
+   This file is the single canonical CSS-variable source for:
+     · legend-primitives.html
+     · legend-patterns.html
+     · legend-screens.html
+     · legend-screens-amendment.html
+     · any future legend or prototype HTML
+
+   The same values are mirrored to:
+     · Elementum_App/src/styles/tokens.jsx (JS-named exports)
+
+   When editing: update this file FIRST, then sync tokens.jsx.
+   Drift between the two is a doc-patch trigger.
+
+   Sealed against:
+     · northstar-anchor.html (T object, lines 67–104)
+     · DOC5 §2 + §3 + §3.5 + §3.5.A pigment alpha ladder
+   ============================================================= */
+
+:root {
+  /* ───── Paper · Silk · Ink ───── */
+  --cream:     #F8F6F0;
+  --silk:      #F1E9D6;
+  --silkDeep:  #ECE2C9;
+  --silkFold:  #DDD1B3;
+  --parchment: #EAE5DF;
+  --vellum:    #DDD8CC;
+  --paperHair: #CDBE9E;
+
+  --ink:       #2B2722;
+  --inkSoft:   #4A433B;
+  --inkLight:  #857D72;
+  --inkMist:   #B8AFA1;
+  --inkDeep:   #1a1815;
+
+  /* ───── Bronze ramp ───── */
+  --bronzeLight: #9d8468;
+  --bronze:      #8b7355;
+  --bronzeDark:  #6b5339;
+  --walnut:      #5a4430;
+  --gold:        #D4AF37;
+
+  /* ───── Borders ───── */
+  --borderStd:   #D5CDBD;
+  --borderLight: #E5DFD1;
+  --borderFocus: #8b7355;
+  --dmBorder:    #584A3E; /* Day-master pillar highlight only — never used elsewhere */
+
+  /* ───── Five-element pigments + *Deep companions ─────
+     Pigment alpha ladder (DOC5 §3.5.A — only these alphas allowed):
+       ${pigment}10 → ~6%  · soft fill (card bg)
+       ${pigment}1A → ~10% · tint fill (icon bg)
+       ${pigment}40 → ~25% · border / chip outline
+       ${pigment}CC → ~80% · eyebrow text (DOC5 §3 reading-page label)
+       ${pigment}   → 100% · glyph / heading on tint
+     ────────────────────────────────────────────────── */
+  --metal:     #8ba3b8;  --metalDeep: #6a849a;
+  --wood:      #7a9e6e;  --woodDeep:  #587a4d;
+  --fire:      #c4745a;  --fireDeep:  #9e5540;
+  --earth:     #b89a6a;  --earthDeep: #927750;
+  --water:     #5a7fa8;  --waterDeep: #3e5f85;
+
+  /* ───── Reserved accents ───── */
+  --seal:      #A04030;  /* MAX ONCE PER SCREEN — chop mark only */
+  --advisor:   #7a5e9a;  /* Premium tier accent */
+
+  /* ───── Surface fills (DOC5 §3.5.D card surface taxonomy) ───── */
+  --quiet-bg:      #EBE5D6;
+  --quiet-border:  #DCD3C0;
+  --cardstock-bg:  rgba(248, 241, 225, 0.92);
+  --tabbar-bg:     rgba(253, 253, 252, 0.85); /* with backdrop-filter: blur(12px) */
+
+  /* ───── Spacing scale (DOC5 §3.5.C — only these values allowed) ───── */
+  --sp-1:  1px;
+  --sp-3:  3px;
+  --sp-4:  4px;
+  --sp-5:  5px;
+  --sp-6:  6px;
+  --sp-8:  8px;
+  --sp-10: 10px;
+  --sp-12: 12px;
+  --sp-14: 14px;
+  --sp-16: 16px;
+  --sp-18: 18px;
+  --sp-20: 20px;
+  --sp-22: 22px;
+  --sp-26: 26px;
+  --sp-28: 28px;
+  --sp-36: 36px;
+  --sp-44: 44px;
+  --sp-56: 56px;
+  /* Forbidden values (DOC5 §3.5.C anti-pattern):
+     7, 9, 11, 13, 15, 17, 19, 21, 24, 30, 32, 40, 48, 64 */
+
+  /* ───── Border-radius scale (DOC5 §3.5.B) ───── */
+  --r-1:    1px;    /* Segmented bar cells, hairline pills */
+  --r-10:   10px;   /* Small icon containers (36×36) */
+  --r-12:   12px;   /* Standard cards, list rows, 44×44 icons */
+  --r-16:   16px;   /* Feature cards, large stem seal (84×84) */
+  --r-22:   22px;   /* Toggle pills, archetype glyph backdrop */
+  --r-pill: 999px;  /* CTAs, chips, badges */
+  /* Forbidden radii: 4, 6, 8, 14, 18, 20, 28
+     Reserved (phone-frame only): 47px, 56px */
+
+  /* ───── Shadows ───── */
+  --shadow-card:    0 1px 0 rgba(43, 39, 34, 0.04);     /* cardstock lift line */
+  --shadow-cta:     0 6px 18px rgba(40, 30, 20, 0.18);  /* primary pill */
+  --shadow-cta-alt: 0 8px 22px rgba(43, 39, 34, 0.35);  /* CTA over imagery */
+  --shadow-sheet:   0 -8px 40px rgba(0, 0, 0, 0.12);    /* bottom-sheet upward */
+  --shadow-bronze:  0 4px 12px rgba(107, 83, 57, 0.20); /* bronze pill */
+  --shadow-phone:
+    0 30px 60px rgba(40, 30, 20, 0.18),
+    0 8px 18px rgba(40, 30, 20, 0.10),
+    inset 0 0 0 8px var(--ink),
+    inset 0 0 0 9px rgba(80, 72, 60, 0.4);
+
+  /* ───── Easing curves (DOC5 §4) ───── */
+  --ease-out:   cubic-bezier(0.22, 1, 0.36, 1);  /* most screen entrances */
+  --ease-inout: ease-in-out;                      /* progress bars */
+  --d-fast:     150ms;
+  --d-medium:   220ms;
+  --d-slow:     400ms;
+  --d-ceremony: 600ms;
+}
