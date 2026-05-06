@@ -1,44 +1,80 @@
 // ===================================================================
 // ELEMENTUM · Design System Tokens
-// Ink & Pigment (设色) — extracted verbatim from Design/source/design_tokens.js
-// Every component imports palette constants and SVG primitives from here.
+// Ink & Pigment (设色) — legacy SCREAMING_SNAKE constants + React
+// component primitives (StatusBar, SilkPaper, ElementSign, etc.).
+//
+// CANONICAL SOURCE: Design/tokens.css → tokens.js (camelCase mirror).
+// This file imports from tokens.js for token values, then re-exports
+// them as SCREAMING_SNAKE aliases for the existing app components
+// that already use them. New code should import from tokens.js.
+//
+// Alignment status (vs Design/tokens.css):
+//   ✓ ink, inkSoft, inkLight, inkMist, inkDeep
+//   ✓ silk, silkDeep, silkFold, paperHair, parchment, vellum, cream
+//   ✓ bronzeLight, bronze, bronzeDark, walnut, gold
+//   ✓ borderStd, borderLight, borderFocus, dmBorder
+//   ✓ all element pigments + *Deep companions
+//   ✓ seal, advisor
+//   ✓ quietBg, quietBorder, cardstockBg, tabbarBg
+//   ✓ spacing scale + radius scale + shadows + ease
+// (v1 §12 drift log items already resolved — borders are opaque, matching anchor.)
 // ===================================================================
 
 import React, { useMemo } from 'react';
+import * as t from './tokens';
 
-// ---------- Palette ----------
-export const INK        = '#2B2722';
-export const INK_SOFT   = '#4A433B';
-export const INK_LIGHT  = '#857D72';
-export const INK_MIST   = '#B8AFA1';
+// ---------- Palette · re-exported from tokens.js ----------
+export const INK        = t.ink;
+export const INK_SOFT   = t.inkSoft;
+export const INK_LIGHT  = t.inkLight;
+export const INK_MIST   = t.inkMist;
+export const INK_DEEP   = t.inkDeep;     // NEW
+export const CREAM      = t.cream;        // NEW
 
-export const SILK       = '#F1E9D6';
-export const SILK_DEEP  = '#ECE2C9';
-export const SILK_FOLD  = '#DDD1B3';
-export const PAPER_HAIR = '#CDBE9E';
+export const SILK       = t.silk;
+export const SILK_DEEP  = t.silkDeep;
+export const SILK_FOLD  = t.silkFold;
+export const PAPER_HAIR = t.paperHair;
+export const PARCHMENT  = t.parchment;    // NEW
+export const VELLUM     = t.vellum;       // NEW
 
-export const BRONZE_LIGHT = '#9d8468';
-export const BRONZE_MID   = '#8b7355';
-export const BRONZE_DARK  = '#6b5339';
-export const WALNUT       = '#5a4430';
-export const GOLD         = '#D4AF37';
+export const BRONZE_LIGHT = t.bronzeLight;
+export const BRONZE_MID   = t.bronze;     // alias — tokens.css names this --bronze
+export const BRONZE       = t.bronze;     // NEW canonical alias
+export const BRONZE_DARK  = t.bronzeDark;
+export const WALNUT       = t.walnut;
+export const GOLD         = t.gold;
 
 // Borders + auxiliary
-export const BORDER_STD   = '#D5CDBD';
-export const BORDER_LIGHT = '#E5DFD1';
-export const DM_BORDER    = '#584A3E';
+export const BORDER_STD    = t.borderStd;
+export const BORDER_LIGHT  = t.borderLight;
+export const BORDER_FOCUS  = t.borderFocus; // NEW — input focus rings
+export const DM_BORDER     = t.dmBorder;
 
-// Five-element pigments — locked palette per the polished V1 prototype
-// (D:\Elementum\Elementum_Project\Design\exports\reveal-and-energymap\
-//  reveal-and-energymap.bundle.html). Each pigment now ships with a
-// matching `*_DEEP` variant for accent foregrounds (titles, badges,
-// pressed states) on tinted card backgrounds.
-export const PIG_METAL  = '#8ba3b8';  export const PIG_METAL_DEEP = '#6a849a';
-export const PIG_WOOD   = '#7a9e6e';  export const PIG_WOOD_DEEP  = '#587a4d';
-export const PIG_WATER  = '#5a7fa8';  export const PIG_WATER_DEEP = '#3e5f85';
-export const PIG_FIRE   = '#c4745a';  export const PIG_FIRE_DEEP  = '#9e5540';
-export const PIG_EARTH  = '#b89a6a';  export const PIG_EARTH_DEEP = '#927750';
-export const PIG_SEAL   = '#A04030';
+// Five-element pigments + *Deep companions (DOC5 §3.5.A pigment alpha ladder)
+export const PIG_METAL  = t.metal;   export const PIG_METAL_DEEP = t.metalDeep;
+export const PIG_WOOD   = t.wood;    export const PIG_WOOD_DEEP  = t.woodDeep;
+export const PIG_WATER  = t.water;   export const PIG_WATER_DEEP = t.waterDeep;
+export const PIG_FIRE   = t.fire;    export const PIG_FIRE_DEEP  = t.fireDeep;
+export const PIG_EARTH  = t.earth;   export const PIG_EARTH_DEEP = t.earthDeep;
+export const PIG_SEAL   = t.seal;
+export const ADVISOR    = t.advisor; // NEW — premium tier accent
+
+// Surface fills (DOC5 §3.5.D card surface taxonomy)
+export const QUIET_BG       = t.quietBg;       // NEW
+export const QUIET_BORDER   = t.quietBorder;   // NEW
+export const CARDSTOCK_BG   = t.cardstockBg;   // NEW
+export const TABBAR_BG      = t.tabbarBg;      // NEW (pair with backdrop-filter: blur(12px))
+
+// Scales (re-exported as objects; see tokens.js for individual names)
+export const SP     = t.sp;       // NEW — spacing scale (allowed values)
+export const R      = t.r;        // NEW — radius scale (allowed values)
+export const SHADOW = t.shadow;   // NEW — shadow tokens
+export const EASE   = t.ease;     // NEW — easing curves
+export const DURATION = t.duration; // NEW — animation durations
+
+// Helper · pigment alpha ladder
+export const withAlpha = t.withAlpha;
 
 // Reference user (DOC2): Yang Metal · The Blade · The General (七杀)
 export const USER = {

@@ -895,12 +895,14 @@ export default function RevealScreen({ onEnterDashboard }) {
         {/* Essence paragraph — world-building elementIntro.expand from
             archetypeSource.js (DOC7 §3). Falls back to the original
             "doesn't hesitate / found already sharp" register if the stem's
-            elementIntro isn't authored yet. */}
+            elementIntro isn't authored yet.
+            (was Cormorant italic 16.5 under v1 §3.5.E; descriptive paragraphs
+            revert to regular per DOC5 §AM.10.) */}
         <p
           style={{
+            // DOC5 §AM.10 — descriptive paragraph is regular (was italic 16.5 under v1 §3.5.E)
             fontFamily: "'Cormorant Garamond', serif",
             fontSize: 16.5,
-            fontStyle: 'italic',
             color: INK_SOFT,
             lineHeight: 1.65,
             maxWidth: 310,
@@ -934,12 +936,12 @@ export default function RevealScreen({ onEnterDashboard }) {
         >
           <div
             style={{
+              // DOC5 §AM.10 — eyebrow-shaped label is regular (italic forbidden on eyebrows + microcopy chips)
               fontFamily: "'EB Garamond', serif",
               fontSize: 10,
               letterSpacing: 3,
               textTransform: 'uppercase',
               color: INK_LIGHT,
-              fontStyle: 'italic',
             }}
           >
             Continue

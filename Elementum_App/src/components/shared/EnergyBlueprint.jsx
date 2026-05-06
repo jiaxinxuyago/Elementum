@@ -9,7 +9,8 @@
 // Visual: matches the polished V1 prototype at
 // Design/exports/reveal-and-energymap/reveal-and-energymap.bundle.html.
 //   - 5 rows sorted by count descending (DM-element row leads when tied)
-//   - Per row: 22px element icon · 60px italic name · 8-cell segmented bar · count
+//   - Per row: 22px element icon · 60px regular name · 8-cell segmented bar · count
+//     (element-name was italic under v1 §3.5.E; reverted to regular per DOC5 §AM.10)
 //   - Cells use `repeat(8, 1fr)` for exactly even widths · gap 3 · no midpoint gap
 //   - Filled cells in the element pigment, empty cells in BORDER_LIGHT (#E5DFD1)
 //   - Element icon muted when count === 0
@@ -20,8 +21,10 @@ import {
   INK_SOFT, INK_LIGHT,
   BORDER_LIGHT,
   PIG_METAL, PIG_WOOD, PIG_WATER, PIG_FIRE, PIG_EARTH,
-  ElementSign,
 } from '../../styles/tokens.jsx';
+// Element marks now come from the shared icon library (Design/icons.svg via /icons.svg).
+// Single source of truth — no more inline SVG drift between component code and the legends.
+import { ElementMark } from './icons';
 
 const PIG = {
   Metal: PIG_METAL,
@@ -70,7 +73,8 @@ export default function EnergyBlueprint({ chart, compact = false, total = 8 }) {
   if (composition.length === 0) {
     return (
       <div style={{
-        fontSize: 13, color: INK_LIGHT, fontStyle: 'italic',
+        // DOC5 §AM.10 — descriptive paragraph is regular (was italic 13 under v1 §3.5.E)
+        fontSize: 13, color: INK_LIGHT,
         textAlign: 'center', padding: 20,
       }}>
         No chart data — seed a preset to render.
@@ -92,7 +96,8 @@ export default function EnergyBlueprint({ chart, compact = false, total = 8 }) {
 
 /**
  * BlueprintRow — single composition row.
- * Grid: 22px icon · 60px italic name · 1fr 8-cell bar · 18px count.
+ * Grid: 22px icon · 60px element name · 1fr 8-cell bar · 18px count.
+ * (element-name was italic under v1 §3.5.E; reverted to regular per DOC5 §AM.10)
  */
 export function BlueprintRow({ el, total = 8 }) {
   const empty = el.n === 0;
@@ -105,17 +110,17 @@ export function BlueprintRow({ el, total = 8 }) {
         alignItems: 'center',
       }}
     >
-      <ElementSign
+      <ElementMark
         element={el.key}
         size={18}
         color={empty ? INK_LIGHT : el.color}
-        muted={empty}
+        style={{ opacity: empty ? 0.32 : 1 }}
       />
       <div style={{
+        // DOC5 §AM.10 — element-name label is regular (was italic 14 under v1 §3.5.E)
         fontFamily: "'EB Garamond', serif",
         fontSize: 14,
         color: INK_SOFT,
-        fontStyle: 'italic',
       }}>
         {el.en}
       </div>

@@ -80,11 +80,13 @@ export function IdentityRibbon({ dm, compact = false }) {
   const sat  = dm.saturation || 0;
   return (
     <div>
-      {/* Header row: seal · italic element · state chip · spacer · % */}
+      {/* Header row: seal · element · state chip · spacer · %
+          (element-name was italic under v1 §3.5.E; reverted to regular per DOC5 §AM.10) */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
         <StemSeal stem={dm.stem} color={dm.elementColor} />
         <span style={{
-          fontFamily: "'EB Garamond', serif", fontStyle: 'italic',
+          // DOC5 §AM.10 — element-name label is regular (was italic 16/500 under v1 §3.5.E)
+          fontFamily: "'EB Garamond', serif",
           fontSize: 16, color: INK, fontWeight: 500,
         }}>
           {dm.element}
@@ -108,10 +110,12 @@ export function IdentityRibbon({ dm, compact = false }) {
         </span>
       </div>
 
-      {/* Saturation reading (full width, italic, no left-border accent) */}
+      {/* Saturation reading (full width, regular, no left-border accent)
+          (was italic 12.5 under v1 §3.5.E; reverted to regular per DOC5 §AM.10) */}
       {!compact && dm.saturationLine && (
         <p style={{
-          fontFamily: "'EB Garamond', serif", fontStyle: 'italic',
+          // DOC5 §AM.10 — descriptive paragraph is regular (was italic 12.5 under v1 §3.5.E)
+          fontFamily: "'EB Garamond', serif",
           fontSize: 12.5, color: INK_SOFT, lineHeight: 1.5,
           margin: '10px 0 8px', maxWidth: 320,
         }}>
