@@ -631,20 +631,24 @@ export default function RevealScreen({ onEnterDashboard }) {
       {/* ── Fixed top-mountains backdrop (does NOT scroll) ────────
           bg-reveal-01-distant-peaks. Painted ink-wash anchored to the
           top of the phone frame. As the user scrolls, the cards slide
-          UP past these mountains; the painting stays put. */}
+          UP past these mountains; the painting stays put.
+          v2.4: band height 320 → 422 (50% of 844 phone height), mask
+          tightened from 40%-fade to 25%-fade so the painted mountain
+          fills the upper half prominently — matches Library §A3
+          showcase composition. */}
       <div
         style={{
           position: 'absolute',
           top: 0,
           left: 0,
           right: 0,
-          height: 320,
+          height: 422,
           zIndex: 1,
           pointerEvents: 'none',
           WebkitMaskImage:
-            'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%)',
+            'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%)',
           maskImage:
-            'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%)',
+            'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%)',
           ...entrance(mounted, 'mountains', { lift: 0 }),
         }}
       >
@@ -667,20 +671,25 @@ export default function RevealScreen({ onEnterDashboard }) {
           islands — Welcome-page composition. `mixBlendMode: multiply`
           drops the painting's cream base so it doesn't create a seam
           against the silk page color above. Top edge masked into a soft
-          fade so there's no hard line. */}
+          fade so there's no hard line.
+          v2.4: band height 280 → 422 (50% of 844), mask tightened from
+          38%-fade to 25%-fade so the painted bottom landscape fills the
+          lower half prominently — matches Library §A3 showcase. The two
+          bands meet at y=422 with overlapping soft fades for a seamless
+          horizon line. */}
       <div
         style={{
           position: 'absolute',
           bottom: 0,
           left: -20,
           right: -20,
-          height: 280,
+          height: 422,
           zIndex: 1,
           pointerEvents: 'none',
           WebkitMaskImage:
-            'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 38%, rgba(0,0,0,1) 100%)',
+            'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 100%)',
           maskImage:
-            'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 38%, rgba(0,0,0,1) 100%)',
+            'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 100%)',
         }}
       >
         <img

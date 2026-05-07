@@ -185,102 +185,13 @@ export function SilkPaper() {
 }
 
 // =====================================================
-// Distant ridge — atmospheric ink-wash band (v2).
-// Uses the keyed ink painting (ink-a-top.png) with a linear-gradient mask
-// that fades into the silk so it doesn't meet content with a hard edge.
-// Kept high in the frame, heavily ghosted, so form content reads cleanly.
+// (Removed v2.3 — DistantRidge + WelcomeInkScene)
+// These v1/v2-era helpers layered ink-a-top.png / ink-a-bottom.png on top
+// of the page silk. They were superseded by the full-frame painted bg-*.png
+// system (Design/assets/backgrounds/), where each page composes its own
+// painterly atmosphere directly. Removing them prevents residual ridges
+// from showing up over the new picture-rich backgrounds.
 // =====================================================
-export function DistantRidge({ y = 80, opacity = 0.18, height = 180 }) {
-  return (
-    <div
-      style={{
-        position: 'absolute',
-        top: y,
-        left: 0,
-        right: 0,
-        height,
-        pointerEvents: 'none',
-        zIndex: 1,
-        overflow: 'hidden',
-      }}
-    >
-      <img
-        src="/assets/ink-a-top.png"
-        alt=""
-        style={{
-          width: '100%',
-          height: '100%',
-          objectFit: 'cover',
-          objectPosition: 'center top',
-          opacity,
-          mixBlendMode: 'multiply',
-          WebkitMaskImage:
-            'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 55%, rgba(0,0,0,0) 100%)',
-          maskImage:
-            'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 55%, rgba(0,0,0,0) 100%)',
-        }}
-      />
-    </div>
-  );
-}
-
-// =====================================================
-// Welcome ink scene (v2) — two keyed ink paintings:
-// distant ridges at the top, island cluster at the bottom.
-// Used by WelcomeScreen; establishes the Ink & Pigment atmosphere.
-// =====================================================
-export function WelcomeInkScene() {
-  return (
-    <>
-      <div
-        style={{
-          position: 'absolute',
-          top: 60,
-          left: -20,
-          right: -20,
-          height: 210,
-          zIndex: 1,
-          pointerEvents: 'none',
-        }}
-      >
-        <img
-          src="/assets/ink-a-top.png"
-          alt=""
-          style={{
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            opacity: 0.3,
-            mixBlendMode: 'multiply',
-          }}
-        />
-      </div>
-      <div
-        style={{
-          position: 'absolute',
-          bottom: -30,
-          left: -40,
-          right: -40,
-          height: 220,
-          zIndex: 2,
-          pointerEvents: 'none',
-        }}
-      >
-        <img
-          src="/assets/ink-a-bottom.png"
-          alt=""
-          style={{
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            opacity: 0.38,
-            mixBlendMode: 'multiply',
-          }}
-        />
-      </div>
-    </>
-  );
-}
 
 // =====================================================
 // Five-element iconic signs (same vocabulary as Phase 1 D)

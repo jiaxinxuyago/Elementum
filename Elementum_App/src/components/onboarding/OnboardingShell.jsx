@@ -17,7 +17,6 @@ import {
   BRONZE_MID,
   BRONZE_DARK,
   SilkPaper,
-  DistantRidge,
   StatusBar,
 } from '../../styles/tokens.jsx';
 
@@ -339,15 +338,11 @@ export function OnboardingShell({
         overflow: 'hidden',
       }}
     >
-      {/* Painted page background — Step 1 gets the corner-stamp atmosphere
-          (signals "you've entered the experience"), all subsequent steps
-          fall back to quiet-paper so form inputs are the focus. */}
+      {/* Painted page background — all onboarding steps share the same
+          atmospheric-mist canvas so the sequence reads as one coherent
+          ceremony rather than per-step variations. */}
       <img
-        src={
-          step === 1
-            ? '/assets/backgrounds/bg-onboarding-01-corner-stamp.png'
-            : '/assets/backgrounds/bg-onboarding-04-quiet-paper.png'
-        }
+        src="/assets/backgrounds/bg-onboarding-04-quiet-paper.png"
         alt=""
         style={{
           position: 'absolute',

@@ -13,7 +13,6 @@ import {
   SILK,
   BRONZE_DARK,
   SilkPaper,
-  WelcomeInkScene,
   StatusBar,
 } from '../../styles/tokens.jsx';
 

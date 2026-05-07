@@ -1,0 +1,1076 @@
+<!--
+  ELEMENTUM · DESIGN LIBRARY · PRIMITIVES (consolidated)
+  File: primitives-library.html
+  Purpose: Single source-of-truth visual reference for color, type, and surface primitives.
+  Consolidates: Moodboards/mood-foundation.html (M1–M3) + Legends/legend-primitives.html (§1, §2, §6).
+  Sealed against: Design/tokens.css (canonical CSS-variable file).
+  Resolution log: see §0 below.
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Elementum · Library · Primitives (consolidated)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Noto+Serif+SC:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  /* =========================================================
+     Tokens — mirrored from Design/tokens.css (canonical).
+     If any value drifts from tokens.css, that is a doc-patch
+     trigger — fix tokens.css FIRST, then resync this file.
+     ========================================================= */
+  :root {
+    /* Paper / Silk / Ink */
+    --cream: #F8F6F0;
+    --silk: #F1E9D6;
+    --silkDeep: #ECE2C9;
+    --silkFold: #DDD1B3;
+    --parchment: #EAE5DF;
+    --vellum: #DDD8CC;
+    --paperHair: #CDBE9E;
+
+    --ink: #2B2722;
+    --inkSoft: #4A433B;
+    --inkLight: #857D72;
+    --inkMist: #B8AFA1;
+    --inkDeep: #1a1815;
+
+    /* Bronze ramp */
+    --bronzeLight: #9d8468;
+    --bronze: #8b7355;
+    --bronzeDark: #6b5339;
+    --walnut: #5a4430;
+    --gold: #D4AF37;
+
+    /* Borders */
+    --borderStd: #D5CDBD;
+    --borderLight: #E5DFD1;
+    --borderFocus: #8b7355;
+    --dmBorder: #584A3E;
+
+    /* Five-element pigments */
+    --metal: #8ba3b8;  --metalDeep: #6a849a;
+    --wood:  #7a9e6e;  --woodDeep:  #587a4d;
+    --fire:  #c4745a;  --fireDeep:  #9e5540;
+    --earth: #b89a6a;  --earthDeep: #927750;
+    --water: #5a7fa8;  --waterDeep: #3e5f85;
+
+    /* Reserved accents */
+    --seal: #A04030;
+    --advisor: #7a5e9a;
+
+    /* Surface fills */
+    --quiet-bg: #EBE5D6;
+    --quiet-border: #DCD3C0;
+    --cardstock-bg: rgba(248, 241, 225, 0.92);
+    --tabbar-bg: rgba(253, 253, 252, 0.85);
+
+    /* Shadows */
+    --shadow-card: 0 1px 0 rgba(43, 39, 34, 0.04);
+    --shadow-cta: 0 6px 18px rgba(40, 30, 20, 0.18);
+    --shadow-sheet: 0 -8px 40px rgba(0, 0, 0, 0.12);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: 'EB Garamond', Georgia, serif;
+    color: var(--ink);
+    background: #EFE5CC;
+    background-image:
+      radial-gradient(ellipse 1100px 700px at 12% -8%, rgba(248,241,225,0.85), transparent 60%),
+      radial-gradient(ellipse 900px 600px at 90% 6%, rgba(241,233,214,0.6), transparent 60%),
+      linear-gradient(180deg, #F4ECD9 0%, #EFE5CC 55%, #E8DCBD 100%);
+    background-attachment: fixed;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* ============================================================
+     PAGE FRAME
+     ============================================================ */
+  .page { max-width: 1180px; margin: 0 auto; padding: 56px 56px 96px; }
+  .doc-header {
+    border-bottom: 1px solid var(--paperHair);
+    padding-bottom: 28px;
+    margin-bottom: 48px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+    gap: 36px;
+  }
+  .doc-header .cn {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 8px;
+    margin-bottom: 8px;
+  }
+  .doc-header h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 1.05;
+    color: var(--walnut);
+    letter-spacing: 0.5px;
+    margin: 0 0 10px;
+    text-shadow: 0 2px 4px rgba(139,115,85,0.15);
+  }
+  .doc-header .tagline {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--inkSoft);
+    line-height: 1.3;
+    margin: 0;
+    max-width: 560px;
+  }
+  .doc-header .meta {
+    text-align: right;
+    font-family: 'EB Garamond', serif;
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--inkLight);
+    line-height: 1.8;
+  }
+  .doc-header .meta .cinzel {
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: var(--bronzeDark);
+  }
+  .doc-header .meta .seal-mark { color: var(--seal); font-weight: 600; font-style: normal; }
+
+  /* TOC */
+  .toc {
+    background: var(--cardstock-bg);
+    border: 1px solid var(--paperHair);
+    border-radius: 22px;
+    padding: 24px 28px;
+    margin-bottom: 56px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px 32px;
+  }
+  .toc h3 {
+    grid-column: 1 / -1;
+    font-family: 'EB Garamond', serif;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--bronzeDark);
+    margin: 0 0 6px;
+  }
+  .toc a {
+    display: flex;
+    gap: 14px;
+    align-items: baseline;
+    font-family: 'EB Garamond', serif;
+    font-size: 14px;
+    color: var(--inkSoft);
+    text-decoration: none;
+    padding: 6px 0;
+    border-bottom: 1px dotted rgba(139,115,85,0.18);
+  }
+  .toc a .num {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--bronzeDark);
+    flex: 0 0 56px;
+  }
+
+  /* Sections */
+  section { margin-bottom: 72px; scroll-margin-top: 24px; }
+  .section-head {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 18px;
+    align-items: end;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--paperHair);
+    padding-bottom: 14px;
+  }
+  .section-head .num {
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: var(--bronzeDark);
+    align-self: start;
+    padding-top: 8px;
+  }
+  .section-head h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 0;
+    letter-spacing: 0.4px;
+  }
+  .section-head .rule {
+    grid-column: 2;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 13.5px;
+    color: var(--inkLight);
+  }
+  .section-intro {
+    font-family: 'EB Garamond', serif;
+    font-size: 14.5px;
+    color: var(--inkSoft);
+    line-height: 1.7;
+    max-width: 820px;
+    margin: 0 0 24px;
+  }
+  .subhead {
+    font-family: 'EB Garamond', serif;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--bronzeDark);
+    margin: 26px 0 14px;
+    display: block;
+  }
+
+  /* Cardstock surfaces */
+  .cardstock {
+    background: var(--cardstock-bg);
+    border: 1px solid var(--paperHair);
+    border-radius: 16px;
+    box-shadow: var(--shadow-card);
+  }
+  .quiet { background: var(--quiet-bg); border: 1px solid var(--quiet-border); border-radius: 16px; }
+  .tinted-metal { background: rgba(139,163,184,0.06); border: 1px solid rgba(139,163,184,0.25); border-radius: 16px; }
+  .tinted-wood  { background: rgba(122,158,110,0.06); border: 1px solid rgba(122,158,110,0.25); border-radius: 16px; }
+  .tinted-fire  { background: rgba(196,116,90,0.06);  border: 1px solid rgba(196,116,90,0.25);  border-radius: 16px; }
+  .tinted-earth { background: rgba(184,154,106,0.06); border: 1px solid rgba(184,154,106,0.25); border-radius: 16px; }
+  .tinted-water { background: rgba(90,127,168,0.06);  border: 1px solid rgba(90,127,168,0.25);  border-radius: 16px; }
+  .elevated { background: var(--silk); border: 1px solid var(--paperHair); border-radius: 16px; box-shadow: var(--shadow-sheet); }
+  .active-cardstock { background: var(--cardstock-bg); border: 1px solid rgba(212,175,55,0.45); border-radius: 16px; box-shadow: var(--shadow-card); }
+
+  /* Eyebrow (locked DOC5 §3) */
+  .eyebrow {
+    font-family: 'EB Garamond', serif;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--inkLight);
+    font-weight: 500;
+    margin-bottom: 14px;
+    display: block;
+  }
+  .eyebrow.metal { color: rgba(139,163,184,0.8); }
+  .eyebrow.wood  { color: rgba(122,158,110,0.8); }
+  .eyebrow.fire  { color: rgba(196,116,90,0.8); }
+  .eyebrow.earth { color: rgba(184,154,106,0.8); }
+  .eyebrow.water { color: rgba(90,127,168,0.8); }
+  .eyebrow.bronze { color: var(--bronzeDark); }
+
+  /* Resolution log */
+  .reso-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .reso-card {
+    background: var(--cardstock-bg);
+    border: 1px solid var(--paperHair);
+    border-radius: 14px;
+    padding: 16px 20px;
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 18px;
+    align-items: baseline;
+  }
+  .reso-card .tag {
+    font-family: 'EB Garamond', serif;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--bronzeDark);
+    font-weight: 500;
+  }
+  .reso-card .body {
+    font-family: 'EB Garamond', serif;
+    font-size: 13.5px;
+    color: var(--inkSoft);
+    line-height: 1.55;
+  }
+  .reso-card .body strong { color: var(--walnut); font-weight: 600; }
+  .reso-card .body code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11.5px;
+    background: rgba(139,115,85,0.08);
+    padding: 1px 6px;
+    border-radius: 4px;
+    color: var(--bronzeDark);
+  }
+
+  /* Specimen grids */
+  .grid { display: grid; gap: 14px; }
+  .grid-2 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .grid-3 { grid-template-columns: repeat(3, minmax(0,1fr)); }
+  .grid-4 { grid-template-columns: repeat(4, minmax(0,1fr)); }
+  .grid-5 { grid-template-columns: repeat(5, minmax(0,1fr)); }
+  .grid-6 { grid-template-columns: repeat(6, minmax(0,1fr)); }
+
+  .swatch {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--paperHair);
+    background: var(--cardstock-bg);
+  }
+  .swatch .chip { height: 84px; border-bottom: 1px solid var(--paperHair); }
+  .swatch .meta { padding: 10px 12px 12px; }
+  .swatch .name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--ink);
+    letter-spacing: 0.2px;
+    margin-bottom: 2px;
+  }
+  .swatch .hex, .token {
+    font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+    font-size: 11px;
+    letter-spacing: 0.2px;
+    color: var(--inkLight);
+  }
+  .swatch .use {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 12px;
+    color: var(--inkSoft);
+    margin-top: 4px;
+    line-height: 1.4;
+  }
+
+  /* Alpha ladder (5-column) */
+  .alpha-table {
+    display: grid;
+    grid-template-columns: 140px repeat(5, 1fr);
+    gap: 6px;
+    align-items: stretch;
+  }
+  .alpha-cell, .alpha-head, .alpha-name {
+    border: 1px solid var(--paperHair);
+    border-radius: 10px;
+    background: var(--cardstock-bg);
+    padding: 10px;
+  }
+  .alpha-head {
+    font-family: 'EB Garamond', serif;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--bronzeDark);
+  }
+  .alpha-head .sub {
+    display: block;
+    margin-top: 2px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0;
+    color: var(--inkLight);
+    text-transform: none;
+    font-weight: 400;
+  }
+  .alpha-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .alpha-name .gly {
+    width: 30px; height: 30px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Noto Serif SC', serif;
+    font-size: 16px; font-weight: 600;
+    color: white;
+    flex-shrink: 0;
+  }
+  .alpha-name .lbl { display: flex; flex-direction: column; gap: 2px; }
+  .alpha-name .pinyin {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px;
+    color: var(--inkLight);
+    letter-spacing: 0.5px;
+    font-weight: 400;
+  }
+  .alpha-cell .mini { height: 44px; border-radius: 8px; border: 1px solid var(--paperHair); margin-bottom: 6px; }
+
+  /* Type specimen */
+  .type-grid { display: grid; gap: 0; }
+  .type-row {
+    border-top: 1px solid var(--borderLight);
+    padding: 16px 18px;
+    display: grid;
+    grid-template-columns: 150px 1fr 220px;
+    align-items: baseline;
+    gap: 24px;
+    background: var(--cardstock-bg);
+  }
+  .type-row:first-child {
+    border-top: 0;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+  .type-row:last-child {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+  .type-row .meta-l {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--inkLight);
+    line-height: 1.55;
+  }
+  .type-row .sample { color: var(--ink); }
+  .type-row .desc {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 12.5px;
+    color: var(--inkSoft);
+    line-height: 1.45;
+  }
+  .type-card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  .type-family-card { padding: 22px; }
+
+  /* Locked headline pair */
+  .headline-pair {
+    padding: 36px 32px;
+    margin-top: 22px;
+    text-align: center;
+  }
+  .headline-pair .blade {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    line-height: 1.1;
+    font-weight: 400;
+    color: var(--walnut);
+    letter-spacing: 0.5px;
+    margin: 0 0 14px;
+  }
+  .headline-pair .tagline {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--inkSoft);
+    line-height: 1.3;
+    letter-spacing: 0.3px;
+    margin: 0;
+  }
+  .headline-pair .anno {
+    margin-top: 18px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    color: var(--inkLight);
+  }
+
+  /* Italic rule banner */
+  .rule-banner {
+    background: rgba(160,64,48,0.05);
+    border: 1px solid rgba(160,64,48,0.25);
+    border-radius: 14px;
+    padding: 16px 22px;
+    margin-bottom: 22px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 16px;
+    align-items: baseline;
+  }
+  .rule-banner .seal-tag {
+    font-family: 'EB Garamond', serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--seal);
+  }
+  .rule-banner .body {
+    font-family: 'EB Garamond', serif;
+    font-size: 13.5px;
+    color: var(--inkSoft);
+    line-height: 1.55;
+  }
+  .rule-banner .body strong { color: var(--ink); font-weight: 600; }
+
+  /* Surface taxonomy */
+  .surface-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+  .surface-card {
+    padding: 22px;
+    min-height: 200px;
+  }
+  .surface-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: var(--ink);
+    margin: 0 0 8px;
+  }
+  .surface-card p {
+    font-family: 'EB Garamond', serif;
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: var(--inkSoft);
+    margin: 0 0 10px;
+  }
+  .surface-card .token {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    color: var(--inkLight);
+    line-height: 1.5;
+    display: block;
+  }
+  .pattern-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    margin-top: 16px;
+  }
+  .pattern-card { padding: 22px; min-height: 160px; }
+
+  /* Footer */
+  footer {
+    border-top: 1px solid var(--paperHair);
+    padding-top: 22px;
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: 'EB Garamond', serif;
+    font-size: 12px;
+    color: var(--inkLight);
+  }
+  footer .seal-mark { color: var(--seal); font-weight: 600; letter-spacing: 1.5px; }
+
+  .cite {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    color: var(--inkLight);
+    letter-spacing: 0.2px;
+  }
+  .cite::before { content: '— '; }
+</style>
+</head>
+<body>
+
+<main class="page">
+
+<!-- ===================== HEADER ===================== -->
+<header class="doc-header">
+  <div>
+    <div class="cn">元 素 庫</div>
+    <h1>Library · Primitives</h1>
+    <p class="tagline">Color, type, and surface — consolidated from the mood foundation and design legend, sealed against tokens.css.</p>
+  </div>
+  <div class="meta">
+    <div class="cinzel">Library</div>
+    <div>v1 · primitives</div>
+    <div>sealed against <span class="cite" style="font-style:normal">Design/tokens.css</span></div>
+    <div><span class="seal-mark">●</span> consolidated</div>
+  </div>
+</header>
+
+<!-- ===================== TOC ===================== -->
+<nav class="toc" aria-label="Sections">
+  <h3>Contents</h3>
+  <a href="#s0"><span class="num">§0</span><span>Resolution log — discrepancies reconciled</span></a>
+  <a href="#s1"><span class="num">§1</span><span>Color palette + 5-step alpha ladder</span></a>
+  <a href="#s2"><span class="num">§2</span><span>Typography specimens</span></a>
+  <a href="#s3"><span class="num">§3</span><span>Surface taxonomy + composed patterns</span></a>
+</nav>
+
+<!-- =====================================================
+     §0 — RESOLUTION LOG
+     ===================================================== -->
+<section id="s0">
+  <div class="section-head">
+    <div class="num">§0</div>
+    <div>
+      <h2>Resolution log</h2>
+      <div class="rule">Where the two source files disagreed — and how each was reconciled.</div>
+    </div>
+  </div>
+  <p class="section-intro">
+    This library was assembled from <code class="cite" style="font-style:normal">Moodboards/mood-foundation.html</code> (sections M1–M3) and
+    <code class="cite" style="font-style:normal">Legends/legend-primitives.html</code> (sections §1, §2, §6). Where they conflicted,
+    <code class="cite" style="font-style:normal">Design/tokens.css</code> was treated as the single source of truth; where tokens.css was silent, the newer of the two files won, with the rationale recorded below.
+  </p>
+
+  <div class="reso-grid">
+    <div class="reso-card">
+      <div class="tag">Color · alpha ladder</div>
+      <div class="body">
+        Mood-M1 showed <strong>5 alphas (10 / 1A / 40 / CC / 100)</strong>. Legend-§1 dropped the <code>CC</code> column.
+        <strong>Resolution:</strong> tokens.css declares 5 alphas including <code>CC ≈ 80%</code> for eyebrow text — Mood wins. Ladder below restored to 5 columns.
+      </div>
+    </div>
+    <div class="reso-card">
+      <div class="tag">Color · paper coverage</div>
+      <div class="body">
+        Mood-M1 omitted <code>silkFold</code>, <code>inkMist</code>, <code>inkDeep</code>, <code>borderStd</code>, <code>borderLight</code>.
+        Legend-§1 covered them but missed <code>--advisor</code>.
+        <strong>Resolution:</strong> all paper/ink/border tokens shown; <code>advisor</code> added to reserved accents.
+      </div>
+    </div>
+    <div class="reso-card">
+      <div class="tag">Type · "The Blade" color</div>
+      <div class="body">
+        Mood-M2 set the locked headline in <code>--ink</code>; Legend-§2 set it in <code>--walnut</code>.
+        <strong>Resolution:</strong> Legend wins — walnut is the documented archetype-name color.
+      </div>
+    </div>
+    <div class="reso-card">
+      <div class="tag">Type · italic rule</div>
+      <div class="body">
+        Mood-M2 said italic appears in specimens, locked pair, voice chips. Legend-§2 carries the
+        <strong>NEW v2 rule (2026-05-06): italic restricted to sub-headlines + microcopy only</strong>.
+        <strong>Resolution:</strong> v2 rule is canonical; supersedes M2's looser phrasing.
+      </div>
+    </div>
+    <div class="reso-card">
+      <div class="tag">Type · scale coverage</div>
+      <div class="body">
+        Mood-M2 was a weight-matrix view (38/32/24/18/16/14 × 400/500/600).
+        Legend-§2 was a use-case view (40 hero, 38, 32, 24, 18; EB 16/15/14/13/11/10).
+        <strong>Resolution:</strong> kept Legend's broader use-case scale, added Mood's weight matrix as a secondary view.
+        <code>11</code> is the regular nav/micro-label; <code>11.5</code> is the italic microcopy chip — distinct uses, both kept.
+      </div>
+    </div>
+    <div class="reso-card">
+      <div class="tag">Surface · count</div>
+      <div class="body">
+        Mood-M3 listed <strong>5 surfaces</strong> (cardstock, tinted-metal, quiet, elevated, active-cardstock).
+        Legend-§6 said <strong>3 surfaces</strong> (cardstock, tinted ×5, quiet) and called any addition a doc-patch trigger.
+        <strong>Resolution:</strong> Legend's 3-surface taxonomy is canonical. <code>elevated</code> and <code>active-cardstock</code> are
+        <em>composed patterns</em>, not core surfaces — shown as such in §3.
+      </div>
+    </div>
+    <div class="reso-card">
+      <div class="tag">Surface · tinted variants</div>
+      <div class="body">
+        Mood-M3 only previewed <code>tinted-metal</code>; Legend-§6 showed all 5 pigments.
+        <strong>Resolution:</strong> Legend wins — all 5 tinted variants shown below.
+      </div>
+    </div>
+    <div class="reso-card">
+      <div class="tag">Color · doc-patch trigger</div>
+      <div class="body">
+        Legend-§1 explicitly forbids intermediate alpha values like <code>${'$'}{color}25</code> or <code>${'$'}{color}55</code>; Mood-M1 was silent.
+        <strong>Resolution:</strong> rule retained — only <code>10 / 1A / 40 / CC / 100</code> are valid pigment alphas.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     §1 — COLOR PALETTE
+     ===================================================== -->
+<section id="s1">
+  <div class="section-head">
+    <div class="num">§1</div>
+    <div>
+      <h2>Color palette + alpha ladder</h2>
+      <div class="rule">Paper, ink, bronze, five pigments, reserved accents. <span class="cite">tokens.css · DOC5 §2 + §3.5.A</span></div>
+    </div>
+  </div>
+  <p class="section-intro">
+    The palette is a restraint system: most fields stay paper and ink. Pigment is signal, not decoration — applied at exactly five alphas, on exactly one role per alpha.
+  </p>
+
+  <span class="subhead">Paper · silk · vellum</span>
+  <div class="grid grid-6">
+    <div class="swatch"><div class="chip" style="background:#F8F6F0"></div><div class="meta"><div class="name">Cream</div><div class="hex">#F8F6F0</div><div class="use">Primary screen background</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#F1E9D6"></div><div class="meta"><div class="name">Silk</div><div class="hex">#F1E9D6</div><div class="use">Cardstock fill base (@92%)</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#ECE2C9"></div><div class="meta"><div class="name">Silk Deep</div><div class="hex">#ECE2C9</div><div class="use">Mid silk transition</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#DDD1B3"></div><div class="meta"><div class="name">Silk Fold</div><div class="hex">#DDD1B3</div><div class="use">Deepest silk shadow</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#EAE5DF"></div><div class="meta"><div class="name">Parchment</div><div class="hex">#EAE5DF</div><div class="use">Elevated surfaces</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#DDD8CC"></div><div class="meta"><div class="name">Vellum</div><div class="hex">#DDD8CC</div><div class="use">Header bands, day-master pillar</div></div></div>
+  </div>
+
+  <span class="subhead">Ink ramp · paperhair</span>
+  <div class="grid grid-6">
+    <div class="swatch"><div class="chip" style="background:#CDBE9E"></div><div class="meta"><div class="name">Paper Hair</div><div class="hex">#CDBE9E</div><div class="use">Default 1px hairline</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#1a1815"></div><div class="meta"><div class="name" style="color:var(--silk);background:var(--inkDeep);margin:-10px -12px 4px;padding:10px 12px 4px">Ink Deep</div><div class="hex">#1a1815</div><div class="use">Phone-frame inset, max-contrast text</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#2B2722"></div><div class="meta"><div class="name" style="color:var(--silk);background:var(--ink);margin:-10px -12px 4px;padding:10px 12px 4px">Ink</div><div class="hex">#2B2722</div><div class="use">Primary text</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#4A433B"></div><div class="meta"><div class="name">Ink Soft</div><div class="hex">#4A433B</div><div class="use">Body paragraphs</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#857D72"></div><div class="meta"><div class="name">Ink Light</div><div class="hex">#857D72</div><div class="use">Eyebrows, microcopy, counts</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#B8AFA1"></div><div class="meta"><div class="name">Ink Mist</div><div class="hex">#B8AFA1</div><div class="use">Chevrons, disabled text</div></div></div>
+  </div>
+
+  <span class="subhead">Bronze ramp</span>
+  <div class="grid grid-5">
+    <div class="swatch"><div class="chip" style="background:#9d8468"></div><div class="meta"><div class="name">Bronze Light</div><div class="hex">#9d8468</div><div class="use">Section labels, secondary CTAs</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#8b7355"></div><div class="meta"><div class="name">Bronze</div><div class="hex">#8b7355</div><div class="use">Active states, progress bullets</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#6b5339"></div><div class="meta"><div class="name">Bronze Dark</div><div class="hex">#6b5339</div><div class="use">Primary CTA background</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#5a4430"></div><div class="meta"><div class="name">Walnut</div><div class="hex">#5a4430</div><div class="use">Archetype name color (e.g. "The Blade")</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#D4AF37"></div><div class="meta"><div class="name">Gold</div><div class="hex">#D4AF37</div><div class="use">Nav indicator, ceremonial moments</div></div></div>
+  </div>
+
+  <span class="subhead">Borders</span>
+  <div class="grid grid-4">
+    <div class="swatch"><div class="chip" style="background:#D5CDBD"></div><div class="meta"><div class="name">Border Std</div><div class="hex">#D5CDBD</div><div class="use">Standard 1px field/divider</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#E5DFD1"></div><div class="meta"><div class="name">Border Light</div><div class="hex">#E5DFD1</div><div class="use">Inner dividers, type-row separators</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#8b7355"></div><div class="meta"><div class="name">Border Focus</div><div class="hex">#8b7355</div><div class="use">Input focus rings (reserved)</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#584A3E"></div><div class="meta"><div class="name">DM Border</div><div class="hex">#584A3E</div><div class="use">Day-master pillar highlight only</div></div></div>
+  </div>
+
+  <span class="subhead">Five-element pigments — alpha ladder (DOC5 §3.5.A)</span>
+  <p class="section-intro" style="margin-top:-2px">
+    Each pigment renders at exactly five alphas, each tied to one role. Intermediate values like <code class="token">${'$'}{color}25</code> or <code class="token">${'$'}{color}55</code> are doc-patch triggers.
+  </p>
+
+  <div class="alpha-table">
+    <div class="alpha-head">Element</div>
+    <div class="alpha-head">10<span class="sub">~6% · soft fill</span></div>
+    <div class="alpha-head">1A<span class="sub">~10% · tint fill</span></div>
+    <div class="alpha-head">40<span class="sub">~25% · border / chip</span></div>
+    <div class="alpha-head">CC<span class="sub">~80% · eyebrow text</span></div>
+    <div class="alpha-head">100<span class="sub">glyph / heading</span></div>
+
+    <!-- Metal -->
+    <div class="alpha-name">
+      <span class="gly" style="background:#8ba3b8">金</span>
+      <span class="lbl"><span>Metal</span><span class="pinyin">#8ba3b8 · deep #6a849a</span></span>
+    </div>
+    <div class="alpha-cell"><div class="mini" style="background:#8ba3b810"></div><div class="token">#8ba3b810</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#8ba3b81A"></div><div class="token">#8ba3b81A</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#8ba3b840"></div><div class="token">#8ba3b840</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#8ba3b8CC"></div><div class="token">#8ba3b8CC</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#8ba3b8"></div><div class="token">#8ba3b8</div></div>
+
+    <!-- Wood -->
+    <div class="alpha-name">
+      <span class="gly" style="background:#7a9e6e">木</span>
+      <span class="lbl"><span>Wood</span><span class="pinyin">#7a9e6e · deep #587a4d</span></span>
+    </div>
+    <div class="alpha-cell"><div class="mini" style="background:#7a9e6e10"></div><div class="token">#7a9e6e10</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#7a9e6e1A"></div><div class="token">#7a9e6e1A</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#7a9e6e40"></div><div class="token">#7a9e6e40</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#7a9e6eCC"></div><div class="token">#7a9e6eCC</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#7a9e6e"></div><div class="token">#7a9e6e</div></div>
+
+    <!-- Fire -->
+    <div class="alpha-name">
+      <span class="gly" style="background:#c4745a">火</span>
+      <span class="lbl"><span>Fire</span><span class="pinyin">#c4745a · deep #9e5540</span></span>
+    </div>
+    <div class="alpha-cell"><div class="mini" style="background:#c4745a10"></div><div class="token">#c4745a10</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#c4745a1A"></div><div class="token">#c4745a1A</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#c4745a40"></div><div class="token">#c4745a40</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#c4745aCC"></div><div class="token">#c4745aCC</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#c4745a"></div><div class="token">#c4745a</div></div>
+
+    <!-- Earth -->
+    <div class="alpha-name">
+      <span class="gly" style="background:#b89a6a">土</span>
+      <span class="lbl"><span>Earth</span><span class="pinyin">#b89a6a · deep #927750</span></span>
+    </div>
+    <div class="alpha-cell"><div class="mini" style="background:#b89a6a10"></div><div class="token">#b89a6a10</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#b89a6a1A"></div><div class="token">#b89a6a1A</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#b89a6a40"></div><div class="token">#b89a6a40</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#b89a6aCC"></div><div class="token">#b89a6aCC</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#b89a6a"></div><div class="token">#b89a6a</div></div>
+
+    <!-- Water -->
+    <div class="alpha-name">
+      <span class="gly" style="background:#5a7fa8">水</span>
+      <span class="lbl"><span>Water</span><span class="pinyin">#5a7fa8 · deep #3e5f85</span></span>
+    </div>
+    <div class="alpha-cell"><div class="mini" style="background:#5a7fa810"></div><div class="token">#5a7fa810</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#5a7fa81A"></div><div class="token">#5a7fa81A</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#5a7fa840"></div><div class="token">#5a7fa840</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#5a7fa8CC"></div><div class="token">#5a7fa8CC</div></div>
+    <div class="alpha-cell"><div class="mini" style="background:#5a7fa8"></div><div class="token">#5a7fa8</div></div>
+  </div>
+
+  <span class="subhead">Reserved accents</span>
+  <div class="grid grid-3">
+    <div class="swatch"><div class="chip" style="background:#A04030"></div><div class="meta"><div class="name">Seal</div><div class="hex">#A04030</div><div class="use">Max once per screen — chop mark only</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#7a5e9a"></div><div class="meta"><div class="name">Advisor</div><div class="hex">#7a5e9a</div><div class="use">Premium tier accent (locked AI consultant)</div></div></div>
+    <div class="swatch"><div class="chip" style="background:#D4AF37"></div><div class="meta"><div class="name">Gold (rim)</div><div class="hex">#D4AF37</div><div class="use">Nav active indicator · 45% opacity for cardstock-active rim</div></div></div>
+  </div>
+</section>
+
+<!-- =====================================================
+     §2 — TYPOGRAPHY SPECIMENS
+     ===================================================== -->
+<section id="s2">
+  <div class="section-head">
+    <div class="num">§2</div>
+    <div>
+      <h2>Typography specimens</h2>
+      <div class="rule">Four families · use-case scale + weight matrix · v2 italic rule. <span class="cite">DOC5 §3 · italic-rule v2 (2026-05-06)</span></div>
+    </div>
+  </div>
+  <p class="section-intro">
+    Cormorant Garamond carries display weight; EB Garamond holds body and labels; Cinzel marks architectural caps (CTAs, pillar labels); Noto Serif SC speaks Chinese as glyph. The locked headline pair sets archetype color (walnut) and the italic sub-head pattern.
+  </p>
+
+  <div class="rule-banner">
+    <div class="seal-tag">Locked rule · v2</div>
+    <div class="body">
+      <strong>Italic is restricted to sub-headlines and microcopy only.</strong>
+      Wireframe band labels, pair-card body lines, element-name labels, and footer colophons are <strong>regular</strong> — not italic. (Supersedes the older "italic where it feels right" §3.5.E phrasing.)
+    </div>
+  </div>
+
+  <!-- Locked headline pair -->
+  <div class="cardstock headline-pair">
+    <div class="eyebrow">Locked headline pair</div>
+    <h3 class="blade">The Blade</h3>
+    <p class="tagline">Precision before intention</p>
+    <div class="anno">archetype: Cormorant 38/400 · walnut · manifesto: Cormorant italic 19/500 · inkSoft</div>
+  </div>
+
+  <span class="subhead">Use-case scale</span>
+  <div class="type-grid cardstock" style="padding:0">
+    <div class="type-row">
+      <div class="meta-l">Cormorant<br>40 · 400</div>
+      <div class="sample" style="font-family:'Cormorant Garamond',serif;font-weight:400;font-size:40px;line-height:1.2">元素 · the elemental tongue</div>
+      <div class="desc">Reserved hero — Chinese brush + Latin pairing</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">Cormorant<br>38 · 400</div>
+      <div class="sample" style="font-family:'Cormorant Garamond',serif;font-weight:400;font-size:38px;line-height:1.1;color:var(--walnut)">The Blade</div>
+      <div class="desc">Archetype name (locked walnut, never bold)</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">Cormorant<br>32 · 500</div>
+      <div class="sample" style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:32px;line-height:1.3">Screen section title</div>
+      <div class="desc">Screen-level headers</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">Cormorant<br>24 · 600</div>
+      <div class="sample" style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:24px;line-height:1.4">Card header / sub-title</div>
+      <div class="desc">Card-level headers</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">Cormorant<br>18 · 600</div>
+      <div class="sample" style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:18px;line-height:1.4">Energy Blueprint</div>
+      <div class="desc">Card title in tinted block</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">Cormorant italic<br>19 · 500</div>
+      <div class="sample" style="font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:19px;line-height:1.3;color:var(--inkSoft)">Precision before intention</div>
+      <div class="desc">Sub-headline / manifesto line (italic ALLOWED · v2)</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">EB Garamond<br>16 · 400</div>
+      <div class="sample" style="font-family:'EB Garamond',serif;font-weight:400;font-size:16px;line-height:1.7">Body paragraph. The most honest person in any room, often the most alone in it.</div>
+      <div class="desc">Reading paragraph default</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">EB Garamond<br>15 · 400</div>
+      <div class="sample" style="font-family:'EB Garamond',serif;font-weight:400;font-size:15px;line-height:1.7">Secondary body / card description</div>
+      <div class="desc">Card description, composition row name</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">EB Garamond<br>14 · 400</div>
+      <div class="sample" style="font-family:'EB Garamond',serif;font-weight:400;font-size:14px;line-height:1.5">Step counter, helper labels</div>
+      <div class="desc">Form labels, blueprint-row name</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">EB Garamond<br>13 · 400</div>
+      <div class="sample" style="font-family:'EB Garamond',serif;font-weight:400;font-size:13px;line-height:1.5">Counts, timestamps, helper text</div>
+      <div class="desc">Helper text scale</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">EB Garamond<br>11 · 500 · tracked</div>
+      <div class="sample" style="font-family:'EB Garamond',serif;font-weight:500;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--inkLight)">Navigation · micro-label</div>
+      <div class="desc">Tab labels, pill chips (regular, not italic)</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">EB Garamond italic<br>11.5 · 400</div>
+      <div class="sample" style="font-family:'EB Garamond',serif;font-style:italic;font-weight:400;font-size:11.5px;color:var(--inkSoft)">Pressure is the forge.</div>
+      <div class="desc">Microcopy chip · italic ALLOWED · v2</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">EB Garamond<br>10 · 500 · tracked</div>
+      <div class="sample"><span class="eyebrow" style="margin-bottom:0">Your elemental nature</span></div>
+      <div class="desc">The locked eyebrow — element @ 80% (CC alpha)</div>
+    </div>
+  </div>
+
+  <span class="subhead">Cinzel · architectural caps</span>
+  <div class="type-grid cardstock" style="padding:0">
+    <div class="type-row">
+      <div class="meta-l">Cinzel<br>13 · 500 · tracked 3</div>
+      <div class="sample" style="font-family:'Cinzel',serif;font-weight:500;font-size:13px;letter-spacing:3px;text-transform:uppercase">Year · Month · Day · Hour</div>
+      <div class="desc">Pillar labels</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">Cinzel<br>11 · 500 · tracked 4</div>
+      <div class="sample" style="font-family:'Cinzel',serif;font-weight:500;font-size:11px;letter-spacing:4px;text-transform:uppercase">Enter · Dashboard</div>
+      <div class="desc">CTA pill text</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">Cinzel<br>10 · 500 · tracked 3</div>
+      <div class="sample" style="font-family:'Cinzel',serif;font-weight:500;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--bronzeDark)">Section eyebrow caps</div>
+      <div class="desc">Section/lockup labels</div>
+    </div>
+  </div>
+
+  <span class="subhead">Noto Serif SC · glyph</span>
+  <div class="type-grid cardstock" style="padding:0">
+    <div class="type-row">
+      <div class="meta-l">Noto Serif SC<br>44 · 600</div>
+      <div class="sample" style="font-family:'Noto Serif SC',serif;font-weight:600;font-size:44px;line-height:1">庚</div>
+      <div class="desc">Stem seal · 84×84</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">Noto Serif SC<br>40 · 500 · tracked 6</div>
+      <div class="sample" style="font-family:'Noto Serif SC',serif;font-weight:500;font-size:40px;letter-spacing:6px;line-height:1.2">元素</div>
+      <div class="desc">Lockup mark</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">Noto Serif SC<br>32 · 600 · tracked 6</div>
+      <div class="sample" style="font-family:'Noto Serif SC',serif;font-weight:600;font-size:32px;letter-spacing:6px">庚 乙 丙 丁</div>
+      <div class="desc">Stem family demo</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">Noto Serif SC<br>28 · 500</div>
+      <div class="sample" style="font-family:'Noto Serif SC',serif;font-weight:500;font-size:28px;line-height:1.2">庚</div>
+      <div class="desc">Header glyph</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">Noto Serif SC<br>24 · 500 · tracked 6</div>
+      <div class="sample" style="font-family:'Noto Serif SC',serif;font-weight:500;font-size:24px;letter-spacing:6px">五行</div>
+      <div class="desc">Inline glyph atmosphere</div>
+    </div>
+    <div class="type-row">
+      <div class="meta-l">Noto Serif SC<br>22 · 600</div>
+      <div class="sample" style="font-family:'Noto Serif SC',serif;font-weight:600;font-size:22px;line-height:1">庚</div>
+      <div class="desc">Stem seal · 44×44</div>
+    </div>
+  </div>
+
+  <span class="subhead">Family overview</span>
+  <div class="type-card-grid">
+    <div class="cardstock type-family-card">
+      <div class="eyebrow">Cormorant Garamond</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:500;line-height:1.2">Aa Bb Cc 0123</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:24px;font-weight:500;color:var(--inkSoft);margin-top:6px">Italic display voice</div>
+      <div class="token" style="margin-top:10px">400 · 500 · 600 · italic 400 · italic 500</div>
+    </div>
+    <div class="cardstock type-family-card">
+      <div class="eyebrow">EB Garamond</div>
+      <div style="font-family:'EB Garamond',serif;font-size:32px;font-weight:500;line-height:1.2">Aa Bb Cc 0123</div>
+      <div style="font-family:'EB Garamond',serif;font-style:italic;font-size:24px;font-weight:400;color:var(--inkSoft);margin-top:6px">Body and microcopy voice</div>
+      <div class="token" style="margin-top:10px">400 · 500 · 600 · italic 400 · italic 500</div>
+    </div>
+    <div class="cardstock type-family-card">
+      <div class="eyebrow">Cinzel</div>
+      <div style="font-family:'Cinzel',serif;font-size:22px;font-weight:500;letter-spacing:4px;text-transform:uppercase">ENTER · DASHBOARD</div>
+      <div class="token" style="margin-top:14px">CTAs, pillar labels · 400 · 500 · 600</div>
+    </div>
+    <div class="cardstock type-family-card">
+      <div class="eyebrow">Noto Serif SC</div>
+      <div style="font-family:'Noto Serif SC',serif;font-size:32px;font-weight:600;letter-spacing:6px">庚 乙 丙 丁</div>
+      <div class="token" style="margin-top:14px">Stem &amp; pillar glyphs · 400 · 500 · 600</div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     §3 — SURFACE TAXONOMY
+     ===================================================== -->
+<section id="s3">
+  <div class="section-head">
+    <div class="num">§3</div>
+    <div>
+      <h2>Surface taxonomy</h2>
+      <div class="rule">Three canonical surfaces · five tinted variants · two composed patterns. <span class="cite">DOC5 §3.5.D</span></div>
+    </div>
+  </div>
+  <p class="section-intro">
+    The system has <strong>three surfaces</strong>. A new surface is a doc-patch trigger.
+    "Elevated" and "Active-cardstock" are <em>composed patterns</em> — combinations of an existing surface with a documented shadow or rim — not new surfaces.
+  </p>
+
+  <span class="subhead">Three canonical surfaces</span>
+  <div class="surface-row">
+    <article class="surface-card cardstock">
+      <span class="eyebrow">Cream-cardstock</span>
+      <h3>Default reading object</h3>
+      <p>Stem chips, blueprint card, archetype glyph card. When in doubt, use this.</p>
+      <span class="token">background: rgba(248,241,225,0.92)</span>
+      <span class="token">border: 1px solid var(--paperHair)</span>
+      <span class="token">box-shadow: var(--shadow-card)</span>
+    </article>
+    <article class="surface-card tinted-fire">
+      <span class="eyebrow fire">Tinted (rotates pigment)</span>
+      <h3>Element-identified card</h3>
+      <p>Pair card, archetype-themed block. Pigment tint at 6% / 25% border. One pigment per card.</p>
+      <span class="token">background: ${'$'}{pigment}10 (≈6%)</span>
+      <span class="token">border: 1px solid ${'$'}{pigment}40 (≈25%)</span>
+    </article>
+    <article class="surface-card quiet">
+      <span class="eyebrow bronze">Quiet secondary</span>
+      <h3>Locked / deferred state</h3>
+      <p>For content the user cannot act on yet — locked, deferred, secondary.</p>
+      <span class="token">background: #EBE5D6</span>
+      <span class="token">border: 1px solid #DCD3C0</span>
+    </article>
+  </div>
+
+  <span class="subhead">All five tinted variants</span>
+  <div class="grid grid-5">
+    <div class="tinted-metal" style="padding:18px"><div class="eyebrow metal">Metal · 金</div><div style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600">Forge</div><div class="token" style="margin-top:6px">${'$'}{metal}10 / ${'$'}{metal}40</div></div>
+    <div class="tinted-wood"  style="padding:18px"><div class="eyebrow wood">Wood · 木</div><div style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600">Drift</div><div class="token" style="margin-top:6px">${'$'}{wood}10 / ${'$'}{wood}40</div></div>
+    <div class="tinted-fire"  style="padding:18px"><div class="eyebrow fire">Fire · 火</div><div style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600">Spark</div><div class="token" style="margin-top:6px">${'$'}{fire}10 / ${'$'}{fire}40</div></div>
+    <div class="tinted-earth" style="padding:18px"><div class="eyebrow earth">Earth · 土</div><div style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600">Anchor</div><div class="token" style="margin-top:6px">${'$'}{earth}10 / ${'$'}{earth}40</div></div>
+    <div class="tinted-water" style="padding:18px"><div class="eyebrow water">Water · 水</div><div style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600">Source</div><div class="token" style="margin-top:6px">${'$'}{water}10 / ${'$'}{water}40</div></div>
+  </div>
+
+  <span class="subhead">Composed patterns (not new surfaces)</span>
+  <p class="section-intro" style="margin-top:-2px">
+    These are <strong>cardstock + a documented shadow or rim</strong>. They borrow surface, add lift or selection — they do not introduce new fills or borders.
+  </p>
+  <div class="pattern-grid">
+    <article class="pattern-card elevated">
+      <span class="eyebrow">Elevated · pattern</span>
+      <h3 style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:500;color:var(--ink);margin:0 0 8px">Lifted layer</h3>
+      <p style="font-family:'EB Garamond',serif;font-size:13.5px;color:var(--inkSoft);line-height:1.6;margin:0 0 10px">Used for overlays, bottom-sheets, and tray moments. Silk fill + upward shadow.</p>
+      <span class="token">background: var(--silk)</span>
+      <span class="token">border: 1px solid var(--paperHair)</span>
+      <span class="token">box-shadow: var(--shadow-sheet)</span>
+    </article>
+    <article class="pattern-card active-cardstock">
+      <span class="eyebrow" style="color:rgba(212,175,55,0.85)">Active-cardstock · pattern</span>
+      <h3 style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:500;color:var(--ink);margin:0 0 8px">Selection state</h3>
+      <p style="font-family:'EB Garamond',serif;font-size:13.5px;color:var(--inkSoft);line-height:1.6;margin:0 0 10px">Cardstock + ceremonial gold rim. Used sparingly to mark a chosen item.</p>
+      <span class="token">background: var(--cardstock-bg)</span>
+      <span class="token">border: 1px solid rgba(212,175,55,0.45)</span>
+      <span class="token">box-shadow: var(--shadow-card)</span>
+    </article>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <span>Elementum · Library · Primitives v1</span>
+  <span><span class="seal-mark">●</span> sealed against tokens.css · 2026-05-07</span>
+</footer>
+
+</main>
+</body>
+</html>

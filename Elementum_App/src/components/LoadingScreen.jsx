@@ -18,7 +18,6 @@ import {
   PIG_FIRE,
   PIG_EARTH,
   SilkPaper,
-  DistantRidge,
   StatusBar,
 } from '../styles/tokens.jsx';
 import {
@@ -124,10 +123,12 @@ export default function LoadingScreen({ onComplete }) {
         overflow: 'hidden',
       }}
     >
-      {/* Full-frame painted background — continuity with Welcome.
-          The mist deepens as the chart calculates, narrowing into revelation. */}
+      {/* Full-frame painted background — top peaks + bottom water frame the
+          "Your Archetype" title in the calmer middle band. Distinct from
+          Welcome's upper-fill mist-veil; the ceremony deepens as the chart
+          calculates, narrowing into revelation. */}
       <img
-        src="/assets/backgrounds/bg-reveal-04-mist-veil.png"
+        src="/assets/backgrounds/bg-reveal-03-stacked-horizons.png"
         alt=""
         style={{
           position: 'absolute',
@@ -139,17 +140,6 @@ export default function LoadingScreen({ onComplete }) {
           zIndex: 0,
         }}
       />
-      {/* Ridge sits low in the frame — grounds the composition. Wrapped so
-          it fades together with the loading content during the ceremonial
-          exit (silk paper itself stays — that's the visual constant). */}
-      <div
-        style={{
-          opacity: exiting ? 0 : 1,
-          transition: `opacity ${EXIT_DURATION_MS}ms cubic-bezier(0.22, 1, 0.36, 1)`,
-        }}
-      >
-        <DistantRidge y={700} opacity={0.18} height={144} />
-      </div>
       <StatusBar tint={INK} />
 
       <div
