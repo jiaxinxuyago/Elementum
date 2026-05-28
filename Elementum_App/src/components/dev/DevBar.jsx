@@ -50,8 +50,28 @@ const FLOW_SCREENS = [
   'step6', 'step6a',
   'step7', 'step7a',
   'loading', 'reveal',
+  // Dashboard tabs (DOC5 §10–§14)
+  'app-today', 'app-guidance', 'app-reading', 'app-compat', 'app-profile',
+  // Reading-detail destinations (DOC5 §11)
+  'read-elemental', 'read-daymaster', 'read-tengods', 'read-locked',
+  // Legacy mockups — kept reachable for A/B comparison
   'mockup-detail',
   'mockup-energymap',
+];
+
+// 10 day-master stems in canonical 甲乙丙丁戊己庚辛壬癸 order.
+// Each maps to a __seedData preset that produces that day-master.
+const STEM_CYCLE = [
+  { key: 'jia',  hanzi: '甲', label: 'Oak'   },
+  { key: 'yi',   hanzi: '乙', label: 'Vine'  },
+  { key: 'bing', hanzi: '丙', label: 'Sun'   },
+  { key: 'ding', hanzi: '丁', label: 'Lamp'  },
+  { key: 'wu',   hanzi: '戊', label: 'Mtn'   },
+  { key: 'ji',   hanzi: '己', label: 'Field' },
+  { key: 'geng', hanzi: '庚', label: 'Blade' },
+  { key: 'xin',  hanzi: '辛', label: 'Jewel' },
+  { key: 'ren',  hanzi: '壬', label: 'River' },
+  { key: 'gui',  hanzi: '癸', label: 'Rain'  },
 ];
 
 export default function DevBar() {
@@ -67,6 +87,22 @@ export default function DevBar() {
     const onHash = () => setHash(window.location.hash);
     window.addEventListener('hashchange', onHash);
     return () => window.removeEventListener('hashchange', onHash);
+  }, []);
+
+  // [ / ] keyboard shortcuts cycle prev/next day-master stem. Ignored
+  // when an input/textarea/contenteditable is focused so we don't hijack
+  // typing in onboarding form fields.
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const onKey = (e) => {
+      const tag = (e.target?.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea' || e.target?.isContentEditable) return;
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      if (e.key === ']') { e.preventDefault(); window.__cycleStem?.('next'); }
+      else if (e.key === '[') { e.preventDefault(); window.__cycleStem?.('prev'); }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
   }, []);
 
   const currentScreen = (hash.replace(/^#\/?/, '') || 'welcome').toLowerCase();
@@ -203,10 +239,45 @@ function ChartView({ birthData, chart, tier, setTier, currentScreen, goto, seed,
         </div>
       </DevSection>
 
-      <DevSection label="Seed Preset">
+      <DevSection label={`Day-master cycle  ·  ${chart?.dayMaster?.stem || '—'}`}>
+        {/* 10-stem grid — clicking seeds that stem in place.
+            Keyboard shortcuts: [ ] cycles prev/next stem (see useEffect). */}
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: 4, marginBottom: 6 }}>
+          {STEM_CYCLE.map((s) => {
+            const active = chart?.dayMaster?.stem === s.hanzi;
+            return (
+              <button
+                key={s.key}
+                onClick={seed(s.key)}
+                title={`${s.hanzi} ${s.label}`}
+                style={{
+                  padding: '6px 2px',
+                  borderRadius: 6,
+                  border: `1px solid ${active ? '#8b7355' : '#3a342d'}`,
+                  background: active ? 'rgba(139,115,85,0.28)' : '#2a2621',
+                  color: active ? '#e8dec8' : '#bfb7a8',
+                  cursor: 'pointer',
+                  fontFamily: 'inherit',
+                  fontSize: 13,
+                  lineHeight: 1.2,
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  gap: 1,
+                }}
+              >
+                <span style={{ fontSize: 16 }}>{s.hanzi}</span>
+                <span style={{ fontSize: 9, opacity: 0.75, letterSpacing: 0.2 }}>{s.label}</span>
+              </button>
+            );
+          })}
+        </div>
         <div style={{ display: 'flex', gap: 6 }}>
-          <button onClick={seed('blade')} style={miniBtn}>庚 Blade</button>
-          <button onClick={seed('rain')}  style={miniBtn}>癸 Rain</button>
+          <button onClick={() => window.__cycleStem?.('prev')} style={miniBtn}>← prev</button>
+          <button onClick={() => window.__cycleStem?.('next')} style={miniBtn}>next →</button>
+          <span style={{ flex: 1, alignSelf: 'center', textAlign: 'right', fontSize: 10, color: '#7d766b', letterSpacing: 0.3 }}>
+            [&nbsp;] keys
+          </span>
         </div>
       </DevSection>
 

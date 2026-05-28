@@ -1,0 +1,29 @@
+/* ===================================================================
+   ELEMENTUM · global accessibility styles  (DOC5 §16)
+   =================================================================== */
+
+/* Screen-reader-only text. Use to pair an English label with a
+   decorative Chinese glyph: <span aria-hidden>庚</span><span class="sr-only">Geng — Yang Metal</span> */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Respect prefers-reduced-motion (DOC5 §16): neutralise all animation +
+   transition motion app-wide. Covers the ceremony, welcome-back, card
+   draw flip, advisor glow, tab presses, and every CSS transition. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

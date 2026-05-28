@@ -1,0 +1,64 @@
+// ===================================================================
+// ELEMENTUM · DashboardShell
+// ===================================================================
+// Wraps any dashboard tab screen with the persistent BottomTabNav and
+// reserves room above it so screen content doesn't slide under the bar.
+//
+// Spec:
+//   · Tab bar is the only persistent chrome inside /dashboard/* (DOC5 §AM.2).
+//   · Welcome, Onboarding, Loading, Reveal render WITHOUT the tab bar.
+//   · Reading drill-downs (read-elemental, read-daymaster, read-tengods,
+//     read-locked) render WITHOUT the tab bar — they push over the tabs
+//     like a page in a stack.
+//
+// Usage:
+//   <DashboardShell active="today" onTabChange={...}>
+//     <TodayScreen />
+//   </DashboardShell>
+// ===================================================================
+
+import React from 'react';
+import BottomTabNav from './BottomTabNav';
+import PageBg from '../shared/PageBg.jsx';
+import { silk } from '../../styles/tokens';
+
+// Bar takes 76px; we add the same as bottom padding on the scroll area
+// so the last bit of content isn't hidden by the bar.
+const TAB_BAR_HEIGHT = 76;
+
+// `bg` — optional { src, opacity } painted background for the tab
+// (see styles/backgrounds.js). Renders behind the scroll content; the
+// translucent blurred tab bar sits above it cleanly.
+export default function DashboardShell({ active, onTabChange, children, background = silk, bg }) {
+  return (
+    <div
+      style={{
+        position: 'relative',
+        width: '100%',
+        height: '100%',
+        background,
+        overflow: 'hidden',
+      }}
+    >
+      {/* Painted background layer — fixed behind the scroll area so it
+          doesn't move as content scrolls. Accepts a painted src or a
+          CSS gradient stand-in (see styles/backgrounds.js). */}
+      {bg && <PageBg src={bg.src} opacity={bg.opacity} gradient={bg.gradient} size={bg.size} pos={bg.pos} />}
+
+      {/* Scrollable content area — reserves room for the tab bar via padding */}
+      <div
+        style={{
+          position: 'absolute',
+          inset: 0,
+          paddingBottom: TAB_BAR_HEIGHT,
+          overflowY: 'auto',
+          WebkitOverflowScrolling: 'touch',
+          zIndex: 1,   // above the painted bg layer
+        }}
+      >
+        {children}
+      </div>
+      <BottomTabNav active={active} onChange={onTabChange} />
+    </div>
+  );
+}

@@ -43,6 +43,40 @@ export function getTenGod(dmStem, targetStem) {
   return {zh:"—",en:"—",family:"none"};
 }
 
+// ── BRANCH-RELATIONSHIP PATTERN DETECTION (合冲刑害) ─────────────────────────
+// DOC5 §11 Chart Patterns. Detects classical 地支 relationships across the
+// chart's pillars: Six Combinations 六合, Six Clashes 六冲, Six Harms 六害,
+// Three Penalties 三刑 (+ self-penalty 自刑). Pure structural detection.
+const SIX_COMBO = [['子','丑'],['寅','亥'],['卯','戌'],['辰','酉'],['巳','申'],['午','未']];
+const SIX_CLASH = [['子','午'],['丑','未'],['寅','申'],['卯','酉'],['辰','戌'],['巳','亥']];
+const SIX_HARM  = [['子','未'],['丑','午'],['寅','巳'],['卯','辰'],['申','亥'],['酉','戌']];
+const PENALTY_TRIPLES = [['寅','巳','申'],['丑','戌','未']]; // 无恩之刑 · 恃势之刑
+const PENALTY_PAIRS   = [['子','卯']];                       // 无礼之刑
+const SELF_PENALTY    = ['辰','午','酉','亥'];                // 自刑
+
+export function detectPatterns(pillars) {
+  const branches = [
+    pillars.year?.branch, pillars.month?.branch,
+    pillars.day?.branch,  pillars.hour?.branch,
+  ].filter(Boolean);
+  const present = new Set(branches);
+  const out = [];
+  const elOf = (b) => BRANCH_ELEM[b];
+  for (const [a, b] of SIX_COMBO)
+    if (present.has(a) && present.has(b)) out.push({ type: 'combination', zh: '六合', en: 'Combination', branches: [a, b], elements: [elOf(a), elOf(b)] });
+  for (const [a, b] of SIX_CLASH)
+    if (present.has(a) && present.has(b)) out.push({ type: 'clash', zh: '六冲', en: 'Clash', branches: [a, b], elements: [elOf(a), elOf(b)] });
+  for (const [a, b] of SIX_HARM)
+    if (present.has(a) && present.has(b)) out.push({ type: 'harm', zh: '六害', en: 'Harm', branches: [a, b], elements: [elOf(a), elOf(b)] });
+  for (const tri of PENALTY_TRIPLES)
+    if (tri.every((x) => present.has(x))) out.push({ type: 'penalty', zh: '三刑', en: 'Penalty', branches: tri, elements: tri.map(elOf) });
+  for (const [a, b] of PENALTY_PAIRS)
+    if (present.has(a) && present.has(b)) out.push({ type: 'penalty', zh: '相刑', en: 'Penalty', branches: [a, b], elements: [elOf(a), elOf(b)] });
+  for (const b of SELF_PENALTY)
+    if (branches.filter((x) => x === b).length >= 2) out.push({ type: 'penalty', zh: '自刑', en: 'Self-Penalty', branches: [b, b], elements: [elOf(b), elOf(b)] });
+  return out;
+}
+
 // ── HYBRID ELEMENT CALCULATION — Method C + D with Method B modifier ─────────
 // Documented in DOC1 §3. Sources: 子平真诠 · 黄景泓打分法 · 藏干理论 · 穷通宝鉴.
 
@@ -456,7 +490,7 @@ export function calculateBaziChart(input) {
     missingElements:Object.keys(elements).filter(e=>!elements[e].present),
     tension: tgPattern, tgPattern, catalyst, archetypeKey,
     tenGods:{yearStem:getTenGod(dayStem,yearStem),yearBranch:getTenGod(dayStem,yearBranch),monthStem:getTenGod(dayStem,monthStem),monthBranch:getTenGod(dayStem,monthBranch),dayStem:{zh:"日主",en:"Day Master",family:"self"},dayBranch:getTenGod(dayStem,dayBranch),hourStem:getTenGod(dayStem,hourStem),hourBranch:getTenGod(dayStem,hourBranch)},
-    combinations,pattern:PATTERNS[patternKey],luckPillars,
+    combinations,pattern:PATTERNS[patternKey],luckPillars,patterns:detectPatterns(pillarsObj),
     currentFlowYear:{year:cy,stem:fyStem,branch:fyBranch,stemElement:STEM_ELEM[fyStem],branchElement:BRANCH_ELEM[fyBranch],stemTenGod:getTenGod(dayStem,fyStem),branchTenGod:getTenGod(dayStem,fyBranch)},
     currentFlowMonth:{stem:fmStem,branch:fmBranch,stemElement:STEM_ELEM[fmStem],branchElement:BRANCH_ELEM[fmBranch],stemTenGod:getTenGod(dayStem,fmStem),branchTenGod:getTenGod(dayStem,fmBranch)},
     currentFlowDay:{stem:fdStem,branch:fdBranch,stemElement:STEM_ELEM[fdStem],branchElement:BRANCH_ELEM[fdBranch],stemTenGod:getTenGod(dayStem,fdStem),branchTenGod:getTenGod(dayStem,fdBranch)},

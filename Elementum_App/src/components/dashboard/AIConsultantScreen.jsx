@@ -1,0 +1,159 @@
+// ===================================================================
+// ELEMENTUM · AIConsultantScreen  (DOC5 §12 Card 4 — AI Consultant)
+// ===================================================================
+// Advisor chat. There is no LLM backend in this build, so replies are
+// chart-aware scripted reflections, rendered with SIMULATED token-by-
+// token streaming + a blinking cursor (per DOC5's streaming spec). A
+// collapsed context bar shows the "loaded" documents. Opening message
+// is preloaded.
+// ===================================================================
+
+import React, { useEffect, useRef, useState } from 'react';
+import { useChart } from '../../store/chartContext.jsx';
+import { STEM_CARD_DATA } from '../../content/archetypeSource.js';
+import { Icon } from '../shared/icons';
+import {
+  ink, inkSoft, inkLight, bronzeDark, silk, cream,
+  paperHair, quietBg, advisor, withAlpha,
+} from '../../styles/tokens';
+
+// Scripted, chart-aware reflections. Rotated per user turn. Each is a
+// function of the chart so it always sounds like it has read the chart.
+function buildReplies(chart) {
+  const stem = chart?.dayMaster?.stem || '庚';
+  const el = chart?.dayMaster?.element || 'Metal';
+  const arch = STEM_CARD_DATA[stem]?.identity?.archetypeName || `${el} Day Master`;
+  const cat = chart?.catalyst || 'Fire';
+  return [
+    `Reading your chart, ${arch} doesn't usually struggle with the answer — it struggles with permission. Your ${el} nature has likely already reached a verdict here. What would change if you trusted it a day sooner than feels safe?`,
+    `Your catalyst is ${cat}. When you feel stuck, it's often because you're starving that element — not because the situation is unsolvable. Where could you bring more ${cat.toLowerCase()} into this, this week?`,
+    `As ${arch}, the cost you tend to underprice is the relational one — being right lands, but it can land cold. The chart isn't asking you to soften the read, only to deliver it through a warmer door.`,
+    `Here's what your chart suggests: this isn't a decision problem, it's a timing one. The ${el} in you wants the clean cut now; the better move may be to let the situation finish arriving first. What are you not yet seeing?`,
+  ];
+}
+
+export default function AIConsultantScreen({ onBack }) {
+  const { chart } = useChart();
+  const replies = useRef(buildReplies(chart));
+  const turn = useRef(0);
+  const opening = "I've read your chart, your Manual, and your life context. I know what the chart says — tell me what's actually on your mind.";
+
+  const [messages, setMessages] = useState([]);   // {role, text}
+  const [streaming, setStreaming] = useState('');  // partial consultant text
+  const [input, setInput] = useState('');
+  const [contextOpen, setContextOpen] = useState(false);
+  const bodyRef = useRef(null);
+  const timer = useRef(null);
+
+  // Stream a consultant message word-by-word.
+  const streamReply = (full) => {
+    const words = full.split(' ');
+    let i = 0;
+    setStreaming('');
+    clearInterval(timer.current);
+    timer.current = setInterval(() => {
+      i += 1;
+      setStreaming(words.slice(0, i).join(' '));
+      if (i >= words.length) {
+        clearInterval(timer.current);
+        setMessages((m) => [...m, { role: 'consultant', text: full }]);
+        setStreaming('');
+      }
+    }, 55);
+  };
+
+  // Opening message streams once on mount.
+  useEffect(() => {
+    streamReply(opening);
+    return () => clearInterval(timer.current);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // Auto-scroll to the latest content.
+  useEffect(() => {
+    if (bodyRef.current) bodyRef.current.scrollTop = bodyRef.current.scrollHeight;
+  }, [messages, streaming]);
+
+  const send = () => {
+    const text = input.trim();
+    if (!text || streaming) return;
+    setMessages((m) => [...m, { role: 'user', text }]);
+    setInput('');
+    const reply = replies.current[turn.current % replies.current.length];
+    turn.current += 1;
+    setTimeout(() => streamReply(reply), 350);
+  };
+
+  return (
+    <div style={{ position: 'relative', height: '100%', display: 'flex', flexDirection: 'column', background: silk }}>
+      {/* Header */}
+      <div style={{ flexShrink: 0, padding: '54px 20px 10px' }}>
+        <button type="button" onClick={onBack} style={{
+          appearance: 'none', background: 'transparent', border: 'none', color: inkLight, cursor: 'pointer',
+          padding: 0, marginBottom: 8, display: 'inline-flex', alignItems: 'center', gap: 6,
+          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13,
+        }}><Icon id="ico-chev-l" size={15} color={inkLight} /> Guidance</button>
+        <div style={{ display: 'flex', alignItems: 'baseline', gap: 8 }}>
+          <h1 style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 26, fontWeight: 500, color: ink, margin: 0 }}>Consultant</h1>
+          <span style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10, letterSpacing: 1.4, textTransform: 'uppercase', color: advisor, fontWeight: 500 }}>✦ Advisor</span>
+        </div>
+        {/* Context bar (collapsible) */}
+        <button type="button" onClick={() => setContextOpen((o) => !o)} style={{
+          appearance: 'none', background: 'transparent', border: 'none', cursor: 'pointer', padding: '6px 0 0',
+          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 11.5, color: inkLight,
+          display: 'inline-flex', alignItems: 'center', gap: 5,
+        }}>
+          <Icon id="ico-chev-r" size={12} color={inkLight} />
+          {contextOpen ? 'Context loaded' : 'Context loaded — tap to view'}
+        </button>
+        {contextOpen && (
+          <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 11.5, color: inkSoft, marginTop: 4, lineHeight: 1.5 }}>
+            ✓ Full chart · ✓ Energy Manual · ✓ Self-Report
+          </div>
+        )}
+      </div>
+
+      {/* Chat history */}
+      <div ref={bodyRef} style={{ flex: 1, overflowY: 'auto', padding: '12px 20px', display: 'flex', flexDirection: 'column', gap: 12 }}>
+        {messages.map((m, i) => <Bubble key={i} role={m.role} text={m.text} />)}
+        {streaming && <Bubble role="consultant" text={streaming} cursor />}
+      </div>
+
+      {/* Input */}
+      <div style={{ flexShrink: 0, padding: '10px 16px 18px', borderTop: `1px solid ${paperHair}`, display: 'flex', gap: 8, background: cream }}>
+        <input
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          onKeyDown={(e) => { if (e.key === 'Enter') send(); }}
+          placeholder="Ask anything about your path…"
+          style={{
+            flex: 1, boxSizing: 'border-box', padding: '11px 14px', borderRadius: 999,
+            border: `1px solid ${paperHair}`, background: silk, color: ink,
+            fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14,
+          }} />
+        <button type="button" onClick={send} disabled={!input.trim() || !!streaming} aria-label="Send" style={{
+          appearance: 'none', width: 44, height: 44, borderRadius: 999, border: 'none', flexShrink: 0,
+          background: input.trim() && !streaming ? bronzeDark : '#D8D0C0', color: silk, cursor: input.trim() && !streaming ? 'pointer' : 'default',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+        }}><Icon id="ico-arrow-r" size={18} color={silk} /></button>
+      </div>
+    </div>
+  );
+}
+
+function Bubble({ role, text, cursor }) {
+  const isUser = role === 'user';
+  return (
+    <div style={{ display: 'flex', justifyContent: isUser ? 'flex-end' : 'flex-start' }}>
+      <div style={{
+        maxWidth: '82%', padding: '10px 14px', borderRadius: 18,
+        background: isUser ? bronzeDark : quietBg,
+        color: isUser ? silk : ink,
+        fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14.5, lineHeight: 1.6,
+        borderTopRightRadius: isUser ? 4 : 18, borderTopLeftRadius: isUser ? 18 : 4,
+      }}>
+        {text}{cursor && <span style={{ opacity: 0.6 }}>▍</span>}
+      </div>
+    </div>
+  );
+}

@@ -24,8 +24,12 @@
 //             tokens.js (e.g. metalDeep, ink, bronzeDark)
 //   className, style, ...rest — forwarded to the <svg> root
 //
-// CONVENTION: every <symbol> in icons.svg uses currentColor, 1.7 stroke,
-// fill=none, stroke-linecap/linejoin=round, viewBox 0 0 24 24.
+// CONVENTION: every <symbol> in icons.svg is 24×24 viewBox and uses
+// currentColor — but two visual families coexist (see icons.svg header):
+//   · LINE family       — stroke=currentColor, fill=none, sw 1.7 default.
+//   · SILHOUETTE family — fill=currentColor, no stroke. (el-* Set E3 +
+//                          v7 ink-wash dm-* Yang stems.)
+// Both honour the host `color` prop transparently.
 // ===================================================================
 
 import React from 'react';
@@ -69,19 +73,22 @@ export default function Icon({
 // available icons (e.g. for a story / catalogue / dev panel).
 // ===================================================================
 export const ICON_IDS = Object.freeze({
-  // Five elements
+  // Five elements — Set E3 sealed silhouettes (production)
   elements: ['el-metal', 'el-wood', 'el-fire', 'el-earth', 'el-water'],
-  // Ten Heavenly Stems (day-master) — PLACEHOLDER per amendment §A3
+  // Ten Heavenly Stems (day-master):
+  //   Yang (jia, bing, wu, geng, ren) — v7 ink-wash silhouettes, sealed.
+  //   Yin  (yi, ding, ji, xin, gui)   — v4 line placeholders pending brushwork.
   dayMasters: ['dm-jia', 'dm-yi', 'dm-bing', 'dm-ding', 'dm-wu',
                'dm-ji',  'dm-geng', 'dm-xin', 'dm-ren', 'dm-gui'],
-  // Bottom tab nav (canonical from legend-screens.html §4)
+  // Bottom tab nav (DOC5 §AM.2 — icons-only, Reading in centre)
   tabs: ['tab-today', 'tab-guidance', 'tab-reading', 'tab-compat', 'tab-profile'],
   // Reading-section catalogue — PLACEHOLDER per amendment §A6
   readings: ['read-elemental', 'read-dominant', 'read-forces',
              'read-chapters', 'read-pillars'],
   // Utility / chrome
-  utility: ['ico-lock', 'ico-chev-r', 'ico-chev-l', 'ico-arrow-r',
-            'ico-dismiss', 'ico-sunrise', 'ico-empty', 'ico-edit'],
+  utility: ['ico-lock', 'ico-chev-r', 'ico-chev-l', 'ico-back',
+            'ico-arrow-r', 'ico-dismiss', 'ico-sunrise', 'ico-empty',
+            'ico-edit'],
 });
 
 // Flat list for `id in VALID_IDS` style guards
@@ -110,9 +117,10 @@ export function ElementMark({ element, ...rest }) {
  * DayMasterMark — render one of the ten Heavenly Stem icons.
  *   <DayMasterMark stem="geng" size={84} color={metalDeep} />
  *
- * NOTE: these are line-mark placeholders (amendment §A3 / DA.2).
- * Replace the <symbol> definitions in Design/icons.svg when ink-wash
- * brushwork lands — every consumer auto-updates.
+ * Yang stems (jia, bing, wu, geng, ren) render v7 ink-wash silhouettes.
+ * Yin stems (yi, ding, ji, xin, gui) still render v4 line placeholders
+ * until the ChatGPT brushwork dispatch returns — they will swap in-place
+ * via the icons.svg edit (consumers auto-update).
  */
 export function DayMasterMark({ stem, ...rest }) {
   return <Icon id={`dm-${stem}`} {...rest} />;

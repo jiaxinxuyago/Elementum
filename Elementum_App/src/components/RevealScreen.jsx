@@ -520,7 +520,10 @@ function entrance(mounted, key, opts = {}) {
   };
 }
 
-export default function RevealScreen({ onEnterDashboard }) {
+// `hideCTA` — DOC5 §AM.1: the Energy Map page renders the same content
+// as Reveal but without the first-time "Enter Your Energy Map" CTA.
+// When true, Section 4 is suppressed and `onEnterDashboard` is ignored.
+export default function RevealScreen({ onEnterDashboard, hideCTA = false }) {
   const { chart } = useChart();
   const scrollRef = useRef(null);
 
@@ -1192,6 +1195,9 @@ export default function RevealScreen({ onEnterDashboard }) {
       )}
 
       {/* ── SECTION 4 — CTA ───────────────────────────────── */}
+      {/* Suppressed when this component renders inside the Energy Map
+          per DOC5 AM.1 — same content as Reveal, no first-time CTA. */}
+      {hideCTA ? null : (
       <section
         style={{
           position: 'relative',
@@ -1243,6 +1249,7 @@ export default function RevealScreen({ onEnterDashboard }) {
           </span>
         </button>
       </section>
+      )}
       </div>{/* /scroll layer */}
     </div>
   );
