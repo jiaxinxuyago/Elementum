@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Elementum · Stems Brief — Aesthetic Reference</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:wght@500;600&family=EB+Garamond:wght@400;500;600&family=Noto+Serif+SC:wght@500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --cream:#F8F6F0; --silk:#F1E9D6; --paperHair:#CDBE9E;
+  --ink:#2B2722; --inkSoft:#4A433B; --inkLight:#857D72;
+  --bronze:#8b7355; --bronzeDark:#6b5339; --walnut:#5a4430;
+  --metal:#8ba3b8; --metalDeep:#6a849a; --wood:#7a9e6e; --woodDeep:#587a4d;
+  --fire:#c4745a; --fireDeep:#9e5540; --earth:#b89a6a; --earthDeep:#927750;
+  --water:#5a7fa8; --waterDeep:#3e5f85;
+  --cardstock-bg:rgba(248,241,225,.92);
+}
+*{box-sizing:border-box}
+body{
+  margin:0;color:var(--ink);font-family:'EB Garamond',Georgia,serif;background:#EFE5CC;
+  background-image:radial-gradient(900px 520px at 8% -10%,rgba(248,241,225,.75),transparent 62%),radial-gradient(760px 520px at 92% 4%,rgba(241,233,214,.55),transparent 60%);
+}
+.page{max-width:1180px;margin:0 auto;padding:48px 40px 80px}
+header{display:grid;grid-template-columns:1fr auto;gap:28px;align-items:end;border-bottom:1px solid var(--paperHair);padding-bottom:24px;margin-bottom:32px}
+.cn{font-family:'Noto Serif SC',serif;font-size:26px;letter-spacing:8px;margin-bottom:8px;color:var(--ink)}
+h1{font-family:'Cormorant Garamond',serif;font-size:38px;line-height:1.05;margin:0;color:var(--ink)}
+.sub{font-size:15px;line-height:1.65;color:var(--inkSoft);max-width:760px;margin:10px 0 0}
+.badge{font-family:'Cinzel',serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--bronzeDark);border:1px solid var(--paperHair);border-radius:999px;padding:8px 12px;background:var(--cardstock-bg);white-space:nowrap}
+
+.section-head{display:flex;align-items:baseline;gap:14px;margin:42px 0 18px;border-bottom:1px solid var(--paperHair);padding-bottom:10px}
+.section-head .num{font-family:'Cinzel',serif;font-size:12px;letter-spacing:3px;color:var(--bronzeDark)}
+.section-head h2{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:600;margin:0;color:var(--ink)}
+.section-head .rule{font-style:italic;font-size:13.5px;color:var(--inkLight);margin-left:auto}
+.intro{font-size:14.5px;line-height:1.65;color:var(--inkSoft);max-width:880px;margin:0 0 22px}
+
+/* === SECTION 1 · Target silhouettes === */
+.target-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.target-card{background:var(--cardstock-bg);border:1px solid var(--paperHair);border-radius:16px;padding:18px 14px 14px;display:flex;flex-direction:column;align-items:center;gap:10px;color:var(--ink)}
+.target-card.metal{color:var(--metalDeep)} .target-card.wood{color:var(--woodDeep)}
+.target-card.fire{color:var(--fireDeep)} .target-card.earth{color:var(--earthDeep)}
+.target-card.water{color:var(--waterDeep)}
+.target-field{width:80px;height:80px;border-radius:18px;display:flex;align-items:center;justify-content:center;background:color-mix(in srgb,currentColor 12%,transparent);border:1px solid color-mix(in srgb,currentColor 30%,transparent)}
+.target-field svg{width:56px;height:56px;fill:currentColor;display:block}
+.target-name{font-family:'Cormorant Garamond',serif;font-size:19px;font-weight:600;color:var(--ink);margin:0}
+.target-name .cn{display:inline-block;font-family:'Noto Serif SC',serif;font-size:16px;letter-spacing:2px;margin-left:6px;color:var(--inkSoft)}
+.target-token{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--bronzeDark);background:rgba(139,115,85,.08);padding:2px 6px;border-radius:4px}
+
+/* === SECTION 2 · Painterly source === */
+.composite-card{background:var(--cardstock-bg);border:1px solid var(--paperHair);border-radius:18px;padding:18px;margin-bottom:16px}
+.composite-card .composite-img{width:100%;border-radius:12px;display:block}
+.composite-card .composite-meta{display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;font-size:12px;color:var(--inkLight)}
+.composite-card code{font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--bronzeDark);background:rgba(139,115,85,.08);padding:2px 6px;border-radius:4px}
+
+.painterly-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.painterly-card{background:var(--cardstock-bg);border:1px solid var(--paperHair);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.painterly-card .img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border-bottom:1px solid var(--paperHair)}
+.painterly-card .meta{padding:10px 12px 12px}
+.painterly-card .nm{font-family:'Cormorant Garamond',serif;font-size:15px;font-weight:600;color:var(--ink);margin:0 0 4px}
+.painterly-card .path{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--bronzeDark);background:rgba(139,115,85,.08);padding:2px 6px;border-radius:4px;display:inline-block;letter-spacing:0;word-break:break-all}
+
+/* === SECTION 3 · Translation grid === */
+.translation-row{display:grid;grid-template-columns:130px 1fr 130px 1fr;gap:18px;align-items:center;padding:16px 0;border-bottom:1px dotted rgba(139,115,85,.22)}
+.translation-row:last-child{border-bottom:none}
+.translation-img{width:130px;height:130px;border-radius:12px;object-fit:cover;border:1px solid var(--paperHair);display:block}
+.translation-target{width:130px;height:130px;border-radius:12px;background:var(--cardstock-bg);border:1px solid var(--paperHair);display:flex;align-items:center;justify-content:center}
+.translation-target svg{width:72px;height:72px;fill:currentColor;display:block}
+.translation-target.metal{color:var(--metalDeep)} .translation-target.wood{color:var(--woodDeep)}
+.translation-target.fire{color:var(--fireDeep)} .translation-target.earth{color:var(--earthDeep)}
+.translation-target.water{color:var(--waterDeep)}
+.translation-note{font-size:14px;line-height:1.55;color:var(--inkSoft)}
+.translation-note strong{color:var(--ink);font-weight:600}
+.translation-arrow{font-family:'Cinzel',serif;font-size:10px;letter-spacing:3px;color:var(--bronzeDark);text-transform:uppercase;text-align:center}
+
+/* === SECTION 4 · Dispatch checklist === */
+.dispatch-list{background:rgba(212,175,55,.06);border:1px solid rgba(212,175,55,.35);border-radius:14px;padding:18px 22px;font-size:14px;line-height:1.7;color:var(--inkSoft)}
+.dispatch-list h3{font-family:'EB Garamond',serif;font-size:10px;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:var(--bronzeDark);margin:0 0 12px}
+.dispatch-list ol{margin:0;padding-left:22px}
+.dispatch-list li{margin:6px 0}
+.dispatch-list code{font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--bronzeDark);background:rgba(139,115,85,.1);padding:2px 6px;border-radius:4px}
+
+footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--paperHair);font-family:'EB Garamond',serif;font-size:11px;color:var(--inkLight);letter-spacing:1.5px;text-transform:uppercase;text-align:center}
+</style>
+</head>
+<body>
+
+<!-- Sealed E3 silhouettes — inline sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="el-metal" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12 2.35L18.15 8.05L14.35 17.15H16.45V20.85H7.55V17.15H9.65L5.85 8.05L12 2.35ZM8.25 8.75L11.1 17.15H12.9L15.75 8.75L12 5.4L8.25 8.75ZM10.3 9.15L12 14.65L13.7 9.15L12 7.55L10.3 9.15Z"/></symbol>
+    <symbol id="el-wood" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10.95 21.15V13.75C7.55 14.15 5.15 12.05 4.35 7.05C8.15 6.75 10.55 8.35 11.85 11.35C13.2 7.25 15.9 5.15 20.05 5.75C19.85 11.3 16.55 13.95 13.05 13.55V21.15H10.95ZM7.15 8.7C7.85 11.05 9.2 12.05 11 11.65C10.15 9.85 8.95 8.85 7.15 8.7ZM17.2 7.85C15.2 8.05 13.9 9.25 13.15 11.45C15.25 11.6 16.65 10.35 17.2 7.85Z"/></symbol>
+    <symbol id="el-fire" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12.35 2.75C15.85 6.8 18.55 10.35 18.55 14.65C18.55 18.75 15.65 21.25 12 21.25C8.3 21.25 5.45 18.7 5.45 15.05C5.45 12.25 6.9 10 9.55 7.35C9.45 10.05 10.25 12 11.65 13C11.15 9.55 11.4 6.05 12.35 2.75ZM14.95 10.65C16.25 12.45 16.8 13.95 16.8 15.45C16.8 17.85 14.95 19.35 12.1 19.35C9.65 19.35 7.45 17.75 7.45 15.15C7.45 13.75 7.95 12.65 9 11.35C9.3 13.05 10.2 14.25 11.85 15.15L13 15.8L12.75 14.5C12.35 12.45 12.55 10.45 13.2 8.05C13.85 8.95 14.45 9.85 14.95 10.65Z"/></symbol>
+    <symbol id="el-earth" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M3.55 18.2L8.45 9.35L11.45 13.15L15.25 5.6L20.45 18.2H3.55ZM8.8 13L7 16.25H17.45L15.1 10.55L12 16.7L8.8 13Z"/><path fill="currentColor" d="M3.1 19.5H20.9V21.15H3.1V19.5Z"/></symbol>
+    <symbol id="el-water" viewBox="0 0 24 24"><path fill="currentColor" d="M3.65 9.2C5.65 6.95 8.45 6.65 11.05 8.4C13.15 9.8 14.65 9.85 16.25 8.3C17.25 7.35 18.75 7.15 20.35 7.9C18.95 10.65 16.35 12 13.5 11.15C12.45 10.85 11.5 10.35 10.55 9.7C8.7 8.5 6.95 8.65 5.55 10.05C4.9 10.7 4.25 10.35 3.65 9.2Z"/><path fill="currentColor" d="M3.65 15.15C5.65 12.9 8.45 12.6 11.05 14.35C13.15 15.75 14.65 15.8 16.25 14.25C17.25 13.3 18.75 13.1 20.35 13.85C18.95 16.6 16.35 17.95 13.5 17.1C12.45 16.8 11.5 16.3 10.55 15.65C8.7 14.45 6.95 14.6 5.55 16C4.9 16.65 4.25 16.3 3.65 15.15Z"/></symbol>
+  </defs>
+</svg>
+
+<main class="page">
+
+  <header>
+    <div>
+      <div class="cn">十 天 干 · 美 学 参 考</div>
+      <h1>Ten Stems Brief — Aesthetic Reference</h1>
+      <p class="sub">Visual pairing of the sealed Set E3 element silhouettes (the icon-family target) with the painterly ink-wash source vocabulary (the motif library). Drop this file plus the listed PNGs into your ChatGPT thread alongside <code>PROMPT_chatgpt_iconography_ten_stems_DISPATCH.md</code>.</p>
+    </div>
+    <div class="badge">Stems brief · companion</div>
+  </header>
+
+  <!-- ============================================================
+       §1 · TARGET — sealed Set E3 silhouettes
+       ============================================================ -->
+  <div class="section-head">
+    <span class="num">§1</span>
+    <h2>Target — Set E3 silhouettes</h2>
+    <span class="rule">The visual family the new stems must join</span>
+  </div>
+  <p class="intro">Each stem must read as a cousin of these five marks: monochrome silhouette, <code>fill="currentColor"</code>, 24×24 viewBox, evenodd cutouts allowed, ≥2 px optical margin. Element hue flows from the host container — no hardcoded colors inside the symbol.</p>
+  <div class="target-grid">
+    <div class="target-card metal"><div class="target-field"><svg viewBox="0 0 24 24"><use href="#el-metal"/></svg></div><div class="target-name">Metal<span class="cn">金</span></div><code class="target-token">#el-metal</code></div>
+    <div class="target-card wood"><div class="target-field"><svg viewBox="0 0 24 24"><use href="#el-wood"/></svg></div><div class="target-name">Wood<span class="cn">木</span></div><code class="target-token">#el-wood</code></div>
+    <div class="target-card fire"><div class="target-field"><svg viewBox="0 0 24 24"><use href="#el-fire"/></svg></div><div class="target-name">Fire<span class="cn">火</span></div><code class="target-token">#el-fire</code></div>
+    <div class="target-card earth"><div class="target-field"><svg viewBox="0 0 24 24"><use href="#el-earth"/></svg></div><div class="target-name">Earth<span class="cn">土</span></div><code class="target-token">#el-earth</code></div>
+    <div class="target-card water"><div class="target-field"><svg viewBox="0 0 24 24"><use href="#el-water"/></svg></div><div class="target-name">Water<span class="cn">水</span></div><code class="target-token">#el-water</code></div>
+  </div>
+
+  <!-- ============================================================
+       §2 · SOURCE — painterly ink-wash vocabulary
+       ============================================================ -->
+  <div class="section-head">
+    <span class="num">§2</span>
+    <h2>Source — painterly vocabulary</h2>
+    <span class="rule">Sumi-e ink references the silhouettes were translated from</span>
+  </div>
+  <p class="intro">Master composite at top — the motif vocabulary in one frame. Per-element samples below — deeper studies of each element's brushwork. Don't trace literally; extract iconic essence.</p>
+
+  <div class="composite-card">
+    <img class="composite-img" src="/concept-arts/five-elements/Five Elements (1).png" alt="Five Elements composite — enso ring, bamboo stand, river waves, flame tongue, mountain mass, gate"/>
+    <div class="composite-meta">
+      <span>Master composite — all five motifs on one sheet</span>
+      <code>Concept Arts/Five Elements/Five Elements (1).png</code>
+    </div>
+  </div>
+
+  <div class="painterly-grid">
+    <div class="painterly-card"><img class="img" src="/concept-arts/five-elements/Metal-Blade (1).png" alt="Metal — blade study"/><div class="meta"><div class="nm">Metal · 金</div><code class="path">…/Metal/Blade (1).png</code></div></div>
+    <div class="painterly-card"><img class="img" src="/concept-arts/five-elements/Wood-Wood (1).png" alt="Wood — bamboo study"/><div class="meta"><div class="nm">Wood · 木</div><code class="path">…/Wood/Wood (1).png</code></div></div>
+    <div class="painterly-card"><img class="img" src="/concept-arts/five-elements/Fire-Burn (1).png" alt="Fire — flame study"/><div class="meta"><div class="nm">Fire · 火</div><code class="path">…/Fire/Burn (1).png</code></div></div>
+    <div class="painterly-card"><img class="img" src="/concept-arts/five-elements/Earth-Earth (1).png" alt="Earth — mountain study"/><div class="meta"><div class="nm">Earth · 土</div><code class="path">…/Earth/Earth (1).png</code></div></div>
+    <div class="painterly-card"><img class="img" src="/concept-arts/five-elements/Water-Water (1).png" alt="Water — wave study"/><div class="meta"><div class="nm">Water · 水</div><code class="path">…/Water/Water (1).png</code></div></div>
+  </div>
+
+  <!-- ============================================================
+       §3 · TRANSLATION LOGIC — painterly → silhouette per element
+       ============================================================ -->
+  <div class="section-head">
+    <span class="num">§3</span>
+    <h2>Translation logic — painterly → silhouette</h2>
+    <span class="rule">How each painterly motif reduced to its E3 mark</span>
+  </div>
+  <p class="intro">Apply the same logic when translating stem motifs to silhouettes: extract the single most-iconic shape, drop atmospheric detail, render as one closed silhouette with optional evenodd cutouts. Stems should silhouette-rhyme with their parent element — same vocabulary of curves, weights, and asymmetries.</p>
+
+  <div class="translation-row">
+    <img class="translation-img" src="/concept-arts/five-elements/Metal-Blade (1).png" alt="Metal painterly"/>
+    <div class="translation-note"><strong>Metal</strong> — blade brushwork reduced to a faceted shard silhouette with internal cutouts. Sharp angular edges, ingot weight at the base, slim tongue rising. Yang stems within Metal (庚 axe / sword) should inherit this faceted-blade weight; Yin (辛 jade hairpin) should inherit only the precision, not the mass.</div>
+    <div class="translation-arrow">→ silhouette</div>
+    <div class="translation-target metal"><svg viewBox="0 0 24 24"><use href="#el-metal"/></svg></div>
+  </div>
+
+  <div class="translation-row">
+    <img class="translation-img" src="/concept-arts/five-elements/Wood-Wood (1).png" alt="Wood painterly"/>
+    <div class="translation-note"><strong>Wood</strong> — bamboo culm with two leaf clusters becomes a vertical stem with two asymmetric leaf silhouettes meeting at mid-height. Yang stems (甲 great tree) should inherit the vertical structural weight; Yin (乙 vine) should inherit the leaf curl and lateral motion, drop the trunk.</div>
+    <div class="translation-arrow">→ silhouette</div>
+    <div class="translation-target wood"><svg viewBox="0 0 24 24"><use href="#el-wood"/></svg></div>
+  </div>
+
+  <div class="translation-row">
+    <img class="translation-img" src="/concept-arts/five-elements/Fire-Burn (1).png" alt="Fire painterly"/>
+    <div class="translation-note"><strong>Fire</strong> — flame tongue rising reduces to a three-tongue asymmetric silhouette with an inner cutout. Yang stems (丙 sun) should radiate larger and outward, possibly as a disc with rays; Yin (丁 candle/ember) should focus inward — one small tongue on a base, contained.</div>
+    <div class="translation-arrow">→ silhouette</div>
+    <div class="translation-target fire"><svg viewBox="0 0 24 24"><use href="#el-fire"/></svg></div>
+  </div>
+
+  <div class="translation-row">
+    <img class="translation-img" src="/concept-arts/five-elements/Earth-Earth (1).png" alt="Earth painterly"/>
+    <div class="translation-note"><strong>Earth</strong> — mountain mass + horizon line becomes layered peaks above a stable base. Yang stems (戊 mountain) should inherit the peak mass and base; Yin (己 cultivated soil) should drop the peaks for horizontal furrows or a small mound — earth as worked surface, not skyline.</div>
+    <div class="translation-arrow">→ silhouette</div>
+    <div class="translation-target earth"><svg viewBox="0 0 24 24"><use href="#el-earth"/></svg></div>
+  </div>
+
+  <div class="translation-row">
+    <img class="translation-img" src="/concept-arts/five-elements/Water-Water (1).png" alt="Water painterly"/>
+    <div class="translation-note"><strong>Water</strong> — river crests reduce to two horizontal flowing waves. Yang stems (壬 ocean/river) should inherit the cresting scale, possibly with depth/current; Yin (癸 dew/mist) should drop the waves for small droplets or vapor strokes — water at the smallest readable scale.</div>
+    <div class="translation-arrow">→ silhouette</div>
+    <div class="translation-target water"><svg viewBox="0 0 24 24"><use href="#el-water"/></svg></div>
+  </div>
+
+  <!-- ============================================================
+       §4 · DISPATCH CHECKLIST
+       ============================================================ -->
+  <div class="section-head">
+    <span class="num">§4</span>
+    <h2>Dispatch checklist</h2>
+    <span class="rule">What to attach when sending the brief to ChatGPT</span>
+  </div>
+  <div class="dispatch-list">
+    <h3>Attach in this order</h3>
+    <ol>
+      <li>This reference file — <code>stems-aesthetic-reference.html</code> (or a screenshot of it). Carries the target silhouettes + painterly source pairing in one frame.</li>
+      <li>The dispatch prompt — <code>PROMPT_chatgpt_iconography_ten_stems_DISPATCH.md</code>.</li>
+      <li>The 6 painterly PNGs from <code>Design/assets/Concept Arts/Five Elements/</code>:
+        <code>Five Elements (1).png</code>, <code>Metal/Blade (1).png</code>, <code>Wood/Wood (1).png</code>, <code>Fire/Burn (1).png</code>, <code>Earth/Earth (1).png</code>, <code>Water/Water (1).png</code>.</li>
+    </ol>
+  </div>
+
+  <footer>Elementum · Stems Brief Companion · 2026-05-27</footer>
+
+</main>
+</body>
+</html>

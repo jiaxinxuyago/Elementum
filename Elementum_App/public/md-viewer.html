@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Markdown viewer · Elementum</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Noto+Serif+SC:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream:#F8F6F0; --silk:#F1E9D6; --silkDeep:#ECE2C9;
+    --parchment:#EAE5DF; --vellum:#DDD8CC; --paperHair:#CDBE9E;
+    --ink:#2B2722; --inkSoft:#4A433B; --inkLight:#857D72; --inkMist:#B8AFA1;
+    --bronze:#8b7355; --bronzeDark:#6b5339; --walnut:#5a4430; --gold:#D4AF37;
+    --borderLight:#E5DFD1;
+    --seal:#A04030;
+    --cardstock-bg:rgba(248,241,225,0.92);
+    --shadow-card:0 1px 0 rgba(43,39,34,0.04);
+  }
+  *,*::before,*::after { box-sizing:border-box; }
+  html,body { margin:0; padding:0; }
+  body {
+    font-family:'EB Garamond', Georgia, serif;
+    color:var(--ink);
+    background:#EFE5CC;
+    background-image:
+      radial-gradient(ellipse 1100px 700px at 12% -8%, rgba(248,241,225,0.85), transparent 60%),
+      radial-gradient(ellipse 900px 600px at 90% 6%, rgba(241,233,214,0.6), transparent 60%),
+      linear-gradient(180deg,#F4ECD9 0%, #EFE5CC 55%, #E8DCBD 100%);
+    background-attachment:fixed;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+
+  .page { max-width:880px; margin:0 auto; padding:48px 48px 96px; }
+
+  /* Viewer chrome */
+  .viewer-bar {
+    background:var(--cardstock-bg);
+    border:1px solid var(--paperHair);
+    border-radius:14px;
+    padding:14px 20px;
+    margin-bottom:32px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:18px;
+    font-family:'EB Garamond', serif;
+    font-size:12px;
+    color:var(--inkLight);
+  }
+  .viewer-bar .src {
+    font-family:'JetBrains Mono', monospace;
+    font-size:11.5px;
+    color:var(--bronzeDark);
+    word-break:break-all;
+  }
+  .viewer-bar .reload {
+    background:transparent;
+    border:1px solid var(--paperHair);
+    border-radius:999px;
+    padding:6px 14px;
+    font-family:'EB Garamond', serif;
+    font-size:11px;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    color:var(--bronzeDark);
+    cursor:pointer;
+    flex-shrink:0;
+  }
+  .viewer-bar .reload:hover {
+    background:var(--silk);
+  }
+
+  /* Markdown article */
+  article { font-size:16px; color:var(--inkSoft); }
+
+  article h1, article h2, article h3, article h4, article h5, article h6 {
+    font-family:'Cormorant Garamond', serif;
+    color:var(--ink);
+    font-weight:600;
+    line-height:1.2;
+    margin:2em 0 0.6em;
+  }
+  article h1 {
+    font-size:38px; font-weight:600; color:var(--walnut);
+    letter-spacing:0.4px;
+    border-bottom:1px solid var(--paperHair);
+    padding-bottom:14px;
+    margin-top:0;
+  }
+  article h2 {
+    font-size:28px;
+    border-bottom:1px solid var(--borderLight);
+    padding-bottom:8px;
+    margin-top:48px;
+  }
+  article h3 { font-size:22px; color:var(--bronzeDark); }
+  article h4 { font-size:18px; }
+
+  article p { margin:1em 0; }
+
+  article strong { color:var(--ink); font-weight:600; }
+  article em { color:var(--inkSoft); font-style:italic; }
+
+  article a {
+    color:var(--bronzeDark);
+    text-decoration:underline;
+    text-decoration-style:dashed;
+    text-underline-offset:3px;
+  }
+  article a:hover { color:var(--walnut); }
+
+  /* Code */
+  article code {
+    font-family:'JetBrains Mono', ui-monospace, monospace;
+    font-size:13px;
+    background:rgba(139,115,85,0.08);
+    color:var(--bronzeDark);
+    padding:1px 6px;
+    border-radius:4px;
+    letter-spacing:0;
+  }
+  article pre {
+    font-family:'JetBrains Mono', ui-monospace, monospace;
+    background:var(--cardstock-bg);
+    border:1px solid var(--paperHair);
+    border-radius:12px;
+    padding:18px 22px;
+    overflow-x:auto;
+    font-size:13px;
+    line-height:1.55;
+    box-shadow:var(--shadow-card);
+    margin:1.2em 0;
+  }
+  article pre code {
+    background:transparent;
+    color:var(--ink);
+    padding:0;
+    border-radius:0;
+    font-size:13px;
+  }
+
+  /* Lists */
+  article ul, article ol { padding-left:24px; margin:1em 0; }
+  article li { margin:0.4em 0; }
+
+  /* Blockquote */
+  article blockquote {
+    border-left:3px solid var(--bronze);
+    padding:6px 0 6px 18px;
+    margin:1.2em 0;
+    color:var(--inkSoft);
+    font-style:italic;
+  }
+
+  /* Tables */
+  article table {
+    width:100%;
+    border-collapse:collapse;
+    margin:1.4em 0;
+    font-size:14px;
+    background:var(--cardstock-bg);
+    border:1px solid var(--paperHair);
+    border-radius:12px;
+    overflow:hidden;
+  }
+  article th, article td {
+    text-align:left;
+    padding:10px 14px;
+    border-bottom:1px solid var(--borderLight);
+    vertical-align:top;
+  }
+  article th {
+    background:rgba(139,115,85,0.06);
+    color:var(--bronzeDark);
+    font-family:'EB Garamond', serif;
+    font-weight:600;
+    font-size:11px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+  }
+  article tr:last-child td { border-bottom:0; }
+
+  /* HR */
+  article hr {
+    border:0;
+    border-top:1px solid var(--paperHair);
+    margin:2em 0;
+  }
+
+  /* Loading + error states */
+  .status {
+    text-align:center;
+    padding:80px 20px;
+    color:var(--inkLight);
+    font-style:italic;
+    font-size:14px;
+  }
+  .status.error {
+    color:var(--seal);
+    font-style:normal;
+  }
+  .status.error .hint {
+    margin-top:14px;
+    font-style:italic;
+    color:var(--inkLight);
+    font-size:13px;
+  }
+  .status.error code {
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px;
+    background:rgba(160,64,48,0.08);
+    color:var(--seal);
+    padding:2px 6px;
+    border-radius:4px;
+  }
+
+  /* Footer */
+  footer {
+    margin-top:64px;
+    padding-top:18px;
+    border-top:1px solid var(--paperHair);
+    font-family:'EB Garamond', serif;
+    font-size:11px;
+    color:var(--inkLight);
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    text-align:center;
+  }
+</style>
+</head>
+<body>
+
+<main class="page">
+
+  <div class="viewer-bar">
+    <div>
+      <span style="font-family:'Cinzel', serif; font-size:10px; letter-spacing:3px; color:var(--bronzeDark)">MARKDOWN VIEWER</span>
+      <div class="src" id="src-path">—</div>
+    </div>
+    <button class="reload" onclick="loadMarkdown()">↻ Reload</button>
+  </div>
+
+  <article id="content">
+    <div class="status">Loading…</div>
+  </article>
+
+  <footer>
+    Elementum · md-viewer · serves any .md file under the dev-server root
+  </footer>
+
+</main>
+
+<!-- marked.js (Markdown parser) — CDN, ~30 KB gzipped -->
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
+<script>
+  // Read ?file=... query param. Default to the iconography prompt.
+  function getFile() {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('file') || 'Documents/Designengineering/PROMPT_chatgpt_iconography_five_element_marks.md';
+  }
+
+  async function loadMarkdown() {
+    const file = getFile();
+    document.getElementById('src-path').textContent = '/' + file;
+    document.title = file.split('/').pop() + ' · md-viewer';
+
+    const content = document.getElementById('content');
+    content.innerHTML = '<div class="status">Loading…</div>';
+
+    try {
+      const resp = await fetch('/' + file + '?t=' + Date.now()); // cache-bust on reload
+      if (!resp.ok) {
+        throw new Error('HTTP ' + resp.status + ' ' + resp.statusText);
+      }
+      const md = await resp.text();
+      // marked v12 — sync render, GFM tables enabled by default
+      content.innerHTML = marked.parse(md);
+    } catch (err) {
+      content.innerHTML =
+        '<div class="status error">Could not load <code>/' + file + '</code>' +
+        '<div class="hint">' + err.message +
+        '<br/>Hint: file must live under <code>Elementum_App/public/</code> ' +
+        'to be served by the dev server.</div></div>';
+    }
+  }
+
+  loadMarkdown();
+</script>
+
+</body>
+</html>

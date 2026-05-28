@@ -1,0 +1,3043 @@
+<!--
+  ELEMENTUM · DESIGN LIBRARY · COMPONENTS (consolidated)
+  File: components-library.html
+  Purpose: Single source-of-truth visual reference for every component — atoms
+           through screen-level assemblies. Pull-and-pick reference for app
+           design and engineering.
+
+  Consolidates:
+    Moodboards/component-library.html  (File A — atoms, icons.svg, chrome chips, thumbnails)
+    Legends/legend-patterns.html       (File B — canonical screen-level assemblies + tokens)
+
+  Sealed against:
+    Design/Legends/legend-primitives.html      (v1 tokens · the floor)
+    Design/Legends/legend-patterns.html        (v2 patterns · authority for screens)
+    Documents/Designengineering/DOC5_App_Design.md §AMENDMENT  (italic v2, IA reframe)
+    Design/tokens.css                          (canonical CSS-variable file)
+    Design/assets/icons.svg                    (canonical icon source — inlined below)
+
+  Authority cascade: anchor > Legends > DOC5 > canvas refs.
+
+  12 sections + drift log:
+    §1  Foundations recap                  §8  Thumbnails / tiles
+    §2  Typography recipes                 §9  Bottom tab navigation
+    §3  Iconography                        §10 Modal taxonomy
+    §4  Buttons (6 tier × 3 state)         §11 Status & feedback
+    §5  Form controls                      §12 Page header chrome
+    §6  Chips, badges, tags                §13 Open work / drift log
+    §7  Cards
+
+  Resolution log — 7 hard conflicts settled in build brief (carried below).
+  Open in browser:
+    file:///D:/Elementum/Elementum_Project/Design/assets/Library/components-library.html
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Elementum · Library · Components (consolidated)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Noto+Serif+SC:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  /* =========================================================
+     TOKENS — mirrored verbatim from Legends/legend-patterns.html
+     :root (lines 15–29). Canonical source: Design/tokens.css.
+     Any drift fixes tokens.css FIRST, then resyncs here.
+     ========================================================= */
+  :root {
+    /* Paper / Silk / Ink */
+    --cream:#F8F6F0; --silk:#F1E9D6; --silkDeep:#ECE2C9; --silkFold:#DDD1B3;
+    --parchment:#EAE5DF; --vellum:#DDD8CC; --paperHair:#CDBE9E;
+    --ink:#2B2722; --inkSoft:#4A433B; --inkLight:#857D72; --inkMist:#B8AFA1; --inkDeep:#1a1815;
+    /* Bronze ramp */
+    --bronzeLight:#9d8468; --bronze:#8b7355; --bronzeDark:#6b5339; --walnut:#5a4430; --gold:#D4AF37;
+    /* Borders */
+    --borderStd:#D5CDBD; --borderLight:#E5DFD1; --borderFocus:#8b7355; --dmBorder:#584A3E;
+    /* Five-element pigments */
+    --metal:#8ba3b8;  --metalDeep:#6a849a;
+    --wood:#7a9e6e;   --woodDeep:#587a4d;
+    --fire:#c4745a;   --fireDeep:#9e5540;
+    --earth:#b89a6a;  --earthDeep:#927750;
+    --water:#5a7fa8;  --waterDeep:#3e5f85;
+    /* Reserved accents */
+    --seal:#A04030;
+    --advisor:#7a5e9a;
+    /* Surface fills */
+    --quiet-bg:#EBE5D6; --quiet-border:#DCD3C0;
+    --cardstock-bg:rgba(248,241,225,0.92);
+    --tabbar-bg:rgba(253,253,252,0.85);
+    /* Radius scale (locked DOC5 §AM + v1 §4) */
+    --r-1:1px; --r-8:8px; --r-10:10px; --r-12:12px; --r-14:14px; --r-16:16px;
+    --r-22:22px; --r-pill:999px;
+    /* Shadows */
+    --shadow-card:0 1px 0 rgba(43,39,34,0.04);
+    --shadow-cta:0 6px 18px rgba(40,30,20,0.18);
+    --shadow-sheet:0 -8px 40px rgba(0,0,0,0.12);
+    --shadow-bronze:0 4px 12px rgba(107,83,57,0.20);
+    /* Spacing tokens (mirrored from File A — used by ported cards/chips) */
+    --sp-3:3px; --sp-4:4px; --sp-5:5px; --sp-6:6px; --sp-8:8px; --sp-10:10px;
+    --sp-12:12px; --sp-14:14px; --sp-16:16px; --sp-18:18px; --sp-22:22px; --sp-26:26px;
+    /* Motion */
+    --d-fast:160ms;
+    --ease-out:cubic-bezier(0.22,1,0.36,1);
+  }
+
+  *,*::before,*::after { box-sizing:border-box; }
+  html, body { margin:0; padding:0; }
+  body {
+    font-family:'EB Garamond', Georgia, serif;
+    color:var(--ink);
+    background:#EFE5CC;
+    background-image:
+      radial-gradient(ellipse 1100px 700px at 12% -8%, rgba(248,241,225,0.85), transparent 60%),
+      radial-gradient(ellipse 900px 600px at 90% 6%, rgba(241,233,214,0.6), transparent 60%),
+      linear-gradient(180deg, #F4ECD9 0%, #EFE5CC 55%, #E8DCBD 100%);
+    background-attachment:fixed;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+
+  /* ============================================================
+     PAGE FRAME (house style — mirrors primitives-library.html)
+     ============================================================ */
+  .page { max-width:1180px; margin:0 auto; padding:56px 56px 96px; }
+  .doc-header {
+    border-bottom:1px solid var(--paperHair);
+    padding-bottom:28px; margin-bottom:48px;
+    display:grid; grid-template-columns:1fr auto;
+    align-items:end; gap:36px;
+  }
+  .doc-header .cn {
+    font-family:'Noto Serif SC', serif;
+    font-size:28px; font-weight:500; letter-spacing:8px;
+    color:var(--ink); margin-bottom:8px;
+  }
+  .doc-header h1 {
+    font-family:'Cormorant Garamond', serif;
+    font-weight:600; font-size:44px; line-height:1.05;
+    color:var(--walnut); letter-spacing:0.5px;
+    margin:0 0 10px;
+    text-shadow:0 2px 4px rgba(139,115,85,0.15);
+  }
+  .doc-header h1 .sub {
+    display:block; font-size:24px; font-weight:500;
+    color:var(--bronzeDark); margin-top:6px;
+    text-shadow:none;
+  }
+  .doc-header .tagline {
+    font-family:'Cormorant Garamond', serif;
+    font-style:italic; font-size:19px; font-weight:500;
+    color:var(--inkSoft); line-height:1.3;
+    margin:0; max-width:560px;
+  }
+  .doc-header .meta {
+    text-align:right;
+    font-family:'EB Garamond', serif;
+    font-size:11px; letter-spacing:2.5px;
+    text-transform:uppercase; color:var(--inkLight);
+    line-height:1.8;
+  }
+  .doc-header .meta .cinzel {
+    font-family:'Cinzel', serif; font-size:11px;
+    letter-spacing:3px; color:var(--bronzeDark);
+  }
+  .doc-header .meta .seal-mark {
+    color:var(--seal); font-weight:600; font-style:normal;
+  }
+
+  /* TOC */
+  .toc {
+    background:var(--cardstock-bg);
+    border:1px solid var(--paperHair);
+    border-radius:22px; padding:24px 28px;
+    margin-bottom:56px;
+    display:grid; grid-template-columns:repeat(2, minmax(0,1fr));
+    gap:8px 32px;
+  }
+  .toc h3 {
+    grid-column:1/-1;
+    font-family:'EB Garamond', serif; font-size:10px;
+    font-weight:500; letter-spacing:2.5px; text-transform:uppercase;
+    color:var(--bronzeDark); margin:0 0 6px;
+  }
+  .toc a {
+    display:flex; gap:14px; align-items:baseline;
+    font-family:'EB Garamond', serif; font-size:14px;
+    color:var(--inkSoft); text-decoration:none;
+    padding:6px 0;
+    border-bottom:1px dotted rgba(139,115,85,0.18);
+  }
+  .toc a:hover { color:var(--bronzeDark); }
+  .toc a .num {
+    font-family:'Cinzel', serif; font-size:10px;
+    letter-spacing:2px; color:var(--bronzeDark);
+    flex:0 0 56px;
+  }
+  .toc a .ttl { flex:1; }
+  .toc a .count {
+    font-family:'JetBrains Mono', monospace;
+    font-size:10.5px; color:var(--inkLight);
+  }
+
+  /* Sections */
+  section { margin-bottom:72px; scroll-margin-top:24px; }
+  .section-head {
+    display:grid; grid-template-columns:auto 1fr; gap:18px;
+    align-items:end; margin-bottom:24px;
+    border-bottom:1px solid var(--paperHair); padding-bottom:14px;
+  }
+  .section-head .num {
+    font-family:'Cinzel', serif; font-size:14px; letter-spacing:3px;
+    color:var(--bronzeDark); align-self:start; padding-top:8px;
+  }
+  .section-head h2 {
+    grid-column:2; grid-row:1;
+    font-family:'Cormorant Garamond', serif; font-weight:600;
+    font-size:30px; color:var(--ink); margin:0; letter-spacing:0.4px;
+  }
+  .section-head .rule {
+    grid-column:2; grid-row:2;
+    font-family:'EB Garamond', serif; font-style:italic;
+    font-size:14px; color:var(--inkLight);
+  }
+  .cite {
+    font-family:'JetBrains Mono', monospace; font-size:11px;
+    color:var(--bronzeDark); background:rgba(139,115,85,0.08);
+    padding:1px 6px; border-radius:3px; letter-spacing:0;
+  }
+  .section-intro {
+    font-family:'EB Garamond', serif; font-size:14.5px;
+    color:var(--inkSoft); line-height:1.7;
+    max-width:820px; margin:0 0 24px;
+  }
+  .subhead, .eyebrow.bronze.subhead {
+    font-family:'EB Garamond', serif; font-size:10px;
+    font-weight:500; letter-spacing:2.5px; text-transform:uppercase;
+    color:var(--bronzeDark); margin:26px 0 14px; display:block;
+  }
+
+  /* Eyebrows — locked DOC5 §3 */
+  .eyebrow {
+    font-family:'EB Garamond', serif; font-weight:500;
+    font-size:10px; letter-spacing:2.5px; text-transform:uppercase;
+    color:var(--inkLight); display:block;
+  }
+  .eyebrow.ink     { color:var(--ink); }
+  .eyebrow.bronze  { color:var(--bronzeDark); }
+  .eyebrow.metal   { color:var(--metalDeep); }
+  .eyebrow.wood    { color:var(--woodDeep); }
+  .eyebrow.fire    { color:var(--fireDeep); }
+  .eyebrow.earth   { color:var(--earthDeep); }
+  .eyebrow.water   { color:var(--waterDeep); }
+
+  /* Cardstock & quiet surfaces */
+  .cardstock {
+    background:var(--cardstock-bg);
+    border:1px solid var(--paperHair);
+    border-radius:16px; padding:18px;
+    box-shadow:var(--shadow-card);
+  }
+  .quiet {
+    background:var(--quiet-bg); border:1px solid var(--quiet-border);
+    border-radius:14px; padding:16px;
+  }
+  .parchment {
+    background:var(--parchment); border:1px solid var(--vellum);
+    border-radius:12px; padding:14px;
+  }
+
+  /* Annotation grid — (visual)(spec) pair, mirrored from File B */
+  .anno-grid {
+    display:grid; grid-template-columns:auto 1fr;
+    gap:34px; align-items:start;
+  }
+  .anno-grid > .visual { min-width:0; }
+  .anno-grid > .spec { min-width:0; padding-top:6px; }
+  .anno-grid .spec h4 {
+    font-family:'Cormorant Garamond', serif; font-weight:500;
+    font-size:18px; color:var(--ink); margin:0 0 10px;
+  }
+  .anno-grid .spec ul { list-style:none; padding:0; margin:0; }
+  .anno-grid .spec li {
+    font-family:'EB Garamond', serif; font-size:13.5px;
+    color:var(--inkSoft); line-height:1.65;
+    padding:5px 0; border-bottom:1px dotted rgba(139,115,85,0.18);
+    display:grid; grid-template-columns:160px 1fr; gap:14px;
+  }
+  .anno-grid .spec li:last-child { border-bottom:none; }
+  .anno-grid .spec li .k {
+    color:var(--bronzeDark); font-size:12.5px; letter-spacing:0.2px;
+  }
+  .anno-grid .spec li .v {
+    color:var(--ink); font-size:13.5px;
+  }
+  .anno-grid .spec li .v code,
+  code.token {
+    font-family:'JetBrains Mono', monospace; font-size:12px;
+    background:rgba(139,115,85,0.08); padding:0 5px;
+    border-radius:3px; color:var(--bronzeDark);
+  }
+  .anno-grid .cite-row {
+    margin-top:14px; font-family:'EB Garamond', serif;
+    font-size:12px; color:var(--inkLight);
+  }
+
+  /* Cardstock cell — File A flat catalogue style */
+  .cell {
+    background:var(--cardstock-bg);
+    border:1px solid var(--paperHair);
+    border-radius:16px; padding:22px 26px;
+    box-shadow:var(--shadow-card);
+    display:flex; flex-direction:column;
+    gap:14px; align-items:flex-start;
+  }
+  .cell.center { align-items:center; text-align:center; }
+  .kicker {
+    font-family:'Cinzel', serif; font-size:10px;
+    letter-spacing:2px; text-transform:uppercase;
+    color:var(--bronzeDark); margin:0;
+  }
+
+  /* Grid helpers */
+  .grid { display:grid; gap:14px; }
+  .grid-2 { grid-template-columns:repeat(2, minmax(0,1fr)); }
+  .grid-3 { grid-template-columns:repeat(3, minmax(0,1fr)); }
+  .grid-4 { grid-template-columns:repeat(4, minmax(0,1fr)); }
+  .grid-5 { grid-template-columns:repeat(5, minmax(0,1fr)); }
+  .grid-6 { grid-template-columns:repeat(6, minmax(0,1fr)); }
+
+  /* Resolution log carry-over (top-of-page) */
+  .reso-grid { display:grid; grid-template-columns:1fr; gap:12px; }
+  .reso-card {
+    background:var(--cardstock-bg);
+    border:1px solid var(--paperHair);
+    border-radius:14px; padding:14px 18px;
+    display:grid; grid-template-columns:90px 1fr; gap:18px;
+    align-items:baseline;
+  }
+  .reso-card .tag {
+    font-family:'EB Garamond', serif; font-size:10px;
+    letter-spacing:2.5px; text-transform:uppercase;
+    color:var(--bronzeDark); font-weight:500;
+  }
+  .reso-card .body {
+    font-family:'EB Garamond', serif; font-size:13.5px;
+    color:var(--inkSoft); line-height:1.6;
+  }
+  .reso-card .body strong { color:var(--walnut); font-weight:600; }
+
+  /* Token table — File B style at-a-glance */
+  .token-list {
+    margin:0; padding:0; list-style:none;
+    display:grid; gap:0;
+  }
+  .token-list li {
+    padding:8px 0; border-bottom:1px dotted rgba(139,115,85,0.18);
+    display:grid; grid-template-columns:160px 1fr; gap:14px;
+  }
+  .token-list li:last-child { border-bottom:0; }
+  .token-list li .k {
+    color:var(--bronzeDark); font-size:12.5px; letter-spacing:0.2px;
+  }
+  .token-list li .v {
+    font-family:'JetBrains Mono', monospace; font-size:12px;
+    color:var(--ink);
+  }
+
+  /* Rule banner — locked-decision callouts */
+  .rule-banner {
+    background:rgba(160,64,48,0.05);
+    border:1px solid rgba(160,64,48,0.25);
+    border-radius:14px; padding:16px 22px;
+    margin:0 0 22px;
+    display:grid; grid-template-columns:auto 1fr;
+    gap:16px; align-items:baseline;
+  }
+  .rule-banner .seal-tag {
+    font-family:'EB Garamond', serif;
+    font-size:10px; font-weight:600;
+    letter-spacing:2.5px; text-transform:uppercase;
+    color:var(--seal);
+  }
+  .rule-banner .body {
+    font-family:'EB Garamond', serif; font-size:13.5px;
+    color:var(--inkSoft); line-height:1.6;
+  }
+  .rule-banner code { font-family:'JetBrains Mono', monospace; font-size:12px; color:var(--bronzeDark); background:rgba(139,115,85,0.08); padding:0 5px; border-radius:3px; }
+
+  /* ============================================================
+     §2 TYPOGRAPHY RECIPES
+     Atom blocks from File A + composed recipes from File B.
+     ============================================================ */
+  .tb { display:block; }
+  .tb h3, .tb p { margin:0; }
+  .tb-hero h3 {
+    font-family:'Cormorant Garamond', serif;
+    font-size:38px; line-height:1.1; font-weight:400; color:var(--ink);
+  }
+  .tb-hero p {
+    font-family:'Cormorant Garamond', serif; font-style:italic;
+    font-size:19px; line-height:1.3; font-weight:500;
+    color:var(--inkSoft); margin-top:5px;
+  }
+  .tb-section-headline h3 {
+    font-family:'Cormorant Garamond', serif;
+    font-size:24px; line-height:1.2; font-weight:600; margin:4px 0 0;
+  }
+  .tb-card-stack h3 {
+    font-family:'Cormorant Garamond', serif;
+    font-size:18px; line-height:1.2; font-weight:600; margin:5px 0;
+  }
+  .tb-card-stack p {
+    font-family:'EB Garamond', serif; font-size:14px; line-height:1.55;
+    color:var(--inkSoft); max-width:300px;
+  }
+  .brush-rule {
+    border:0; height:1px;
+    background:linear-gradient(90deg,transparent,var(--paperHair),transparent);
+    margin:0 0 14px;
+  }
+  .tb-quote p {
+    font-family:'Cormorant Garamond', serif; font-style:italic;
+    font-size:17px; line-height:1.45; font-weight:500; color:var(--inkSoft);
+  }
+  .tb-data strong {
+    display:block; font-family:'Cormorant Garamond', serif;
+    font-size:38px; line-height:1; font-weight:600;
+  }
+  .tb-data span {
+    display:block; font-family:'EB Garamond', serif;
+    font-size:11px; line-height:1.2; font-weight:500;
+    letter-spacing:2.5px; color:var(--bronzeDark); margin-top:5px;
+  }
+  .tb-data p {
+    font-family:'EB Garamond', serif; font-size:12.5px;
+    line-height:1.45; color:var(--inkSoft); margin-top:8px;
+  }
+  .microchips { display:flex; gap:8px; flex-wrap:wrap; }
+  .microchip {
+    display:inline-flex; align-items:center;
+    padding:5px 12px; font-family:'EB Garamond', serif;
+    font-size:11.5px; line-height:1.4; font-style:italic;
+    color:var(--inkLight); background:rgba(139,115,85,0.08);
+    border:1px solid var(--paperHair); border-radius:999px;
+  }
+  .tb-chev-row {
+    display:flex; align-items:center; justify-content:space-between;
+    width:260px;
+  }
+  .tb-chev-row svg { width:18px; height:18px; color:var(--bronzeDark); }
+  .tb-daystamp, .daystamp {
+    display:flex; align-items:center; gap:8px;
+  }
+  .tb-daystamp strong, .daystamp strong {
+    font-family:'Noto Serif SC', serif;
+    font-size:14px; font-weight:500; color:var(--metalDeep);
+  }
+  .tb-daystamp span, .daystamp span {
+    font-family:'EB Garamond', serif; font-size:10px;
+    line-height:1.2; letter-spacing:2.5px; color:rgba(106,132,154,0.8);
+  }
+  .tb-manifesto p {
+    font-family:'Cormorant Garamond', serif; font-style:italic;
+    font-size:17px; line-height:1.45; font-weight:500;
+    color:var(--inkSoft); text-align:center;
+  }
+  .tb-status {
+    display:flex; align-items:center; gap:8px;
+    font-family:'EB Garamond', serif; font-size:11.5px;
+    color:var(--inkLight); font-variant-numeric:tabular-nums;
+  }
+  .tb-status strong { font-weight:500; color:var(--inkSoft); }
+
+  /* Composed recipes (File B §12) */
+  .recipe {
+    background:var(--cardstock-bg); border:1px solid var(--paperHair);
+    border-radius:14px; padding:22px; margin-bottom:14px;
+    display:grid; grid-template-columns:1fr 280px; gap:30px; align-items:start;
+  }
+  .recipe .render { padding:14px 0; }
+  .recipe .render .big {
+    font-family:'Cormorant Garamond', serif; font-size:30px;
+    font-weight:500; color:var(--ink); line-height:1.05;
+  }
+  .recipe .render .italic {
+    font-family:'EB Garamond', serif; font-size:15px;
+    font-style:italic; color:var(--inkSoft); margin-top:6px;
+  }
+  .recipe .render .body {
+    font-family:'EB Garamond', serif; font-size:14px;
+    color:var(--inkSoft); line-height:1.65; margin-top:10px;
+  }
+  .recipe .render .caption {
+    font-family:'EB Garamond', serif; font-size:12px;
+    font-style:italic; color:var(--inkLight); margin-top:8px;
+  }
+  .recipe .render .force {
+    font-family:'Cormorant Garamond', serif; font-size:24px;
+    color:var(--ink); font-weight:500; margin-top:4px;
+  }
+  .recipe .render .number {
+    font-family:'Cormorant Garamond', serif; font-size:48px;
+    color:var(--ink); font-weight:500; line-height:1;
+  }
+  .recipe .ann {
+    font-family:'EB Garamond', serif; font-size:13px;
+    color:var(--inkSoft); line-height:1.6;
+  }
+  .recipe .ann strong {
+    font-family:'Cormorant Garamond', serif; font-size:17px;
+    color:var(--ink); font-weight:500; display:block; margin-bottom:8px;
+  }
+  .recipe .ann ul { padding-left:18px; margin:8px 0 0; }
+  .recipe .ann li { padding:3px 0; }
+
+  /* ============================================================
+     §3 ICONOGRAPHY
+     ============================================================ */
+  .icon-grid {
+    display:grid; grid-template-columns:repeat(6, 1fr); gap:14px;
+  }
+  .icon-cell {
+    background:var(--cardstock-bg); border:1px solid var(--paperHair);
+    border-radius:12px; padding:14px 10px; text-align:center;
+  }
+  .icon-cell .ico { width:28px; height:28px; margin:0 auto 8px; color:var(--ink); display:block; }
+  .icon-cell .nm { font-family:'EB Garamond', serif; font-size:12px; color:var(--inkSoft); }
+  .icon-cell .tk { font-family:'JetBrains Mono', monospace; font-size:10px; color:var(--bronzeDark); margin-top:2px; }
+  .icon-cell.placeholder {
+    border-style:dashed; border-color:var(--bronze);
+    background:rgba(248,241,225,0.55);
+  }
+  .icon-cell.placeholder .ico { color:var(--inkMist); }
+  .icon-cell .ph-flag {
+    display:inline-block; margin-top:4px;
+    font-family:'EB Garamond', serif; font-size:9px;
+    letter-spacing:1.5px; text-transform:uppercase;
+    color:var(--seal); font-weight:600;
+  }
+  /* dm-stem cell shows brush placeholder + ka glyph */
+  .dm-cell .stem-glyph {
+    font-family:'Noto Serif SC', serif; font-size:22px;
+    color:var(--ink); margin-bottom:2px; display:block;
+  }
+  .dm-cell .py {
+    font-family:'EB Garamond', serif; font-size:10px;
+    letter-spacing:1.5px; color:var(--inkLight); text-transform:uppercase;
+  }
+
+  /* ============================================================
+     §3a ELEMENT MARKS — large card format (Set E3 canonical · 2026-05-21)
+     .exp-* prefix retained from original exploration scaffolding;
+     now exclusive to §3a since the exploration gallery was removed.
+     ============================================================ */
+  .exp-set {
+    margin:18px 0 24px;
+    border:1px solid var(--paperHair); border-radius:18px;
+    background:rgba(253,251,247,0.48); overflow:hidden;
+  }
+  .exp-set-head {
+    padding:16px 20px; background:rgba(248,241,225,0.58);
+    border-bottom:1px solid var(--paperHair);
+    display:grid; grid-template-columns:1fr auto; gap:24px; align-items:center;
+  }
+  .exp-set-head .exp-eyebrow {
+    display:block; font-family:'EB Garamond', serif; font-size:10px;
+    letter-spacing:2.5px; text-transform:uppercase; color:var(--bronzeDark);
+    font-weight:600; margin-bottom:6px;
+  }
+  .exp-set-head h4 {
+    font-family:'Cormorant Garamond', serif; font-weight:600;
+    font-size:22px; color:var(--ink); margin:0; letter-spacing:0.2px;
+  }
+  .exp-set-head p {
+    font-family:'EB Garamond', serif; font-size:13px; color:var(--inkSoft);
+    line-height:1.5; margin:5px 0 0; max-width:680px;
+  }
+  .exp-direction {
+    font-family:'EB Garamond', serif; font-size:11.5px; color:var(--bronzeDark);
+    background:rgba(139,115,85,0.08); border:1px solid rgba(139,115,85,0.18);
+    border-radius:999px; padding:6px 12px; white-space:nowrap; letter-spacing:0.3px;
+  }
+
+  .exp-marks-grid {
+    display:grid; grid-template-columns:repeat(5, 1fr); gap:12px;
+    padding:14px;
+  }
+  .exp-mark-card {
+    --el: var(--ink);
+    background:var(--cardstock-bg); border:1px solid var(--paperHair);
+    border-radius:12px; padding:14px 10px 12px;
+    display:flex; flex-direction:column; align-items:center; gap:8px;
+    color:var(--el); min-width:0;
+  }
+  .exp-mark-card.metal { --el:var(--metalDeep); }
+  .exp-mark-card.wood  { --el:var(--woodDeep); }
+  .exp-mark-card.fire  { --el:var(--fireDeep); }
+  .exp-mark-card.earth { --el:var(--earthDeep); }
+  .exp-mark-card.water { --el:var(--waterDeep); }
+  .exp-icon-field {
+    width:72px; height:72px; border-radius:16px;
+    display:flex; align-items:center; justify-content:center;
+    background:color-mix(in srgb, currentColor 10%, transparent);
+    border:1px solid color-mix(in srgb, currentColor 25%, transparent);
+  }
+  .exp-mark { display:block; color:currentColor; overflow:visible; }
+  .exp-mark.hero { width:52px; height:52px; }
+  .exp-mark.s12  { width:12px; height:12px; }
+  .exp-mark.s16  { width:16px; height:16px; }
+  .exp-mark.s20  { width:20px; height:20px; }
+  .exp-mark.s24  { width:24px; height:24px; }
+  .exp-mark.s28  { width:28px; height:28px; }
+  .exp-mark.s36  { width:36px; height:36px; }
+  .el-token {
+    display:inline-block; margin-top:4px;
+    font-family:'JetBrains Mono', monospace; font-size:10.5px;
+    color:var(--bronzeDark); background:rgba(139,115,85,0.08);
+    padding:2px 7px; border-radius:4px; letter-spacing:0;
+  }
+  .exp-label {
+    text-align:center; color:var(--ink); line-height:1.2;
+    font-family:'EB Garamond', serif;
+  }
+  .exp-label strong { display:block; font-size:14px; font-weight:600; }
+  .exp-label span { display:block; margin-top:3px; font-size:10.5px; color:var(--inkLight); }
+  .exp-scale-row {
+    width:100%; display:flex; justify-content:center; align-items:center; gap:8px;
+    padding:6px 0; border-top:1px dotted rgba(139,115,85,0.2);
+    border-bottom:1px dotted rgba(139,115,85,0.2);
+  }
+  .exp-microcopy {
+    font-family:'EB Garamond', serif; font-style:italic;
+    margin:0; color:var(--inkLight); font-size:11px; line-height:1.35;
+    text-align:center; min-height:28px;
+  }
+
+  /* ============================================================
+     §4 BUTTONS — 6-tier × 3-state matrix
+     ============================================================ */
+  .btn-matrix {
+    display:grid; grid-template-columns:140px repeat(3, minmax(0,1fr));
+    gap:10px; align-items:stretch;
+  }
+  .btn-matrix .tier-label {
+    font-family:'EB Garamond', serif; font-size:11px;
+    letter-spacing:2px; text-transform:uppercase;
+    color:var(--bronzeDark); align-self:center;
+    padding:0 12px 0 4px;
+  }
+  .btn-matrix .head-cell {
+    font-family:'Cinzel', serif; font-size:10px;
+    letter-spacing:2.5px; text-transform:uppercase;
+    color:var(--bronzeDark); padding:4px 0 8px;
+    text-align:center;
+  }
+  .btn-cell {
+    background:var(--cardstock-bg);
+    border:1px solid var(--paperHair);
+    border-radius:14px; padding:18px;
+    display:flex; align-items:center; justify-content:center;
+    min-height:80px;
+  }
+  /* Button base */
+  .btn {
+    display:inline-flex; align-items:center; justify-content:center;
+    gap:10px; min-height:44px; padding:0 22px;
+    border:0; cursor:pointer; white-space:nowrap;
+    transition:transform var(--d-fast) var(--ease-out), filter var(--d-fast) var(--ease-out);
+  }
+  .btn .arr { font-family:'EB Garamond', serif; font-size:18px; }
+  .btn.is-pressed { transform:scale(0.96); filter:brightness(0.92); }
+  .btn.is-disabled { opacity:0.4; box-shadow:none; pointer-events:none; cursor:not-allowed; }
+
+  /* Tier 1 · pill-cta (primary ink) */
+  .pill-cta {
+    background:var(--ink); color:var(--silk);
+    font-family:'Cinzel', serif; font-size:12px;
+    letter-spacing:4px; text-transform:uppercase; font-weight:500;
+    border-radius:999px; box-shadow:var(--shadow-cta);
+    padding:16px 22px;
+  }
+  /* Tier 2 · btn-outline-pill (former A "secondary") */
+  .btn-outline-pill {
+    background:var(--cardstock-bg); color:var(--ink);
+    font-family:'Cinzel', serif; font-size:12px;
+    letter-spacing:3.6px; text-transform:uppercase; font-weight:500;
+    border:1px solid var(--paperHair); border-radius:999px;
+  }
+  /* Tier 3 · pill-signin (former B "secondary" — italic body + bronze accent) */
+  .pill-signin {
+    background:var(--cardstock-bg); color:var(--ink);
+    font-family:'EB Garamond', serif; font-size:13px;
+    border:1px solid var(--paperHair); border-radius:999px;
+    padding:10px 18px; min-height:auto;
+  }
+  .pill-signin .accent {
+    color:var(--bronzeDark); font-style:normal; font-weight:500;
+    letter-spacing:0.3px; margin-left:6px;
+  }
+  /* Tier 4 · text-tertiary (italic + dashed underline · DOC5 §AM v2) */
+  .text-tertiary {
+    background:transparent; border:0; padding:0;
+    font-family:'EB Garamond', serif; font-size:13px; font-style:italic;
+    color:var(--bronzeDark); text-decoration:underline;
+    text-decoration-style:dashed; text-underline-offset:3px;
+    min-height:28px; cursor:pointer;
+  }
+  /* Tier 5 · ghost (inline borderless) */
+  .ghost {
+    background:transparent; border:0; padding:0;
+    color:var(--inkLight);
+    font-family:'EB Garamond', serif; font-size:13px;
+    min-height:28px; cursor:pointer;
+  }
+  /* Tier 6 · btn-cta-shadow (bronze fill, soft rectangle) */
+  .btn-cta-shadow {
+    background:var(--bronze); color:var(--cream);
+    font-family:'EB Garamond', serif; font-size:14px; font-weight:500;
+    border-radius:12px; box-shadow:var(--shadow-bronze);
+    padding:14px 22px;
+  }
+
+  /* Onboarding back/cont pair (flow-specific, documented as sub-spec) */
+  .onb-back {
+    padding:13px 22px; background:transparent;
+    border:1px solid #d9d3c8; border-radius:999px;
+    font-family:'EB Garamond', serif; font-size:12px;
+    letter-spacing:2px; text-transform:uppercase; color:var(--inkSoft);
+    cursor:pointer;
+  }
+  .onb-cont {
+    padding:14px 22px; background:var(--bronzeDark);
+    color:var(--silk); border:0; border-radius:10px;
+    font-family:'EB Garamond', serif; font-size:15px;
+    letter-spacing:0.5px; font-weight:500; cursor:pointer;
+    box-shadow:var(--shadow-bronze);
+    display:inline-flex; align-items:center; justify-content:center; gap:10px;
+  }
+  .onb-cont.disabled {
+    background:rgba(107,83,57,0.45); opacity:0.55;
+    cursor:not-allowed; box-shadow:none;
+  }
+
+  /* ============================================================
+     §5 FORM CONTROLS
+     ============================================================ */
+  .form-cell {
+    background:var(--cardstock-bg);
+    border:1px solid var(--paperHair); border-radius:14px;
+    padding:18px; margin-bottom:14px;
+  }
+  .form-cell .head {
+    display:flex; justify-content:space-between; align-items:baseline;
+    margin-bottom:10px;
+  }
+  .form-cell .head .cap {
+    font-family:'Cormorant Garamond', serif; font-size:16px;
+    font-weight:500; color:var(--ink);
+  }
+  .form-cell .row {
+    display:flex; gap:10px; align-items:center; flex-wrap:wrap;
+  }
+  .form-cell .label {
+    font-family:'EB Garamond', serif; font-size:12px;
+    color:var(--inkLight); min-width:90px;
+  }
+
+  /* Text input */
+  .input {
+    width:100%; padding:14px 16px;
+    background:rgba(248,241,225,0.85);
+    border:1px solid var(--paperHair); border-radius:12px;
+    font-family:'EB Garamond', serif; font-size:16px; color:var(--ink);
+    outline:none;
+  }
+  .input.placeholder { color:var(--inkLight); font-style:italic; font-size:12.5px; }
+  .input.focus { border:2px solid var(--borderFocus); padding:13px 15px; }
+  .input.error { border-color:var(--seal); }
+  .helper {
+    font-family:'EB Garamond', serif; font-size:12.5px; font-style:italic;
+    color:var(--inkLight); margin-top:6px;
+  }
+  .helper.error { color:var(--seal); }
+  .helper.success { color:var(--woodDeep); }
+
+  /* Toggle — H4 lock: 44×26 default · knob 20 · 200ms cubic-bezier */
+  .toggle {
+    width:44px; height:26px; border-radius:999px; position:relative;
+    background:rgba(205,190,158,0.55); border:1px solid var(--paperHair);
+    cursor:pointer; flex-shrink:0;
+  }
+  .toggle .knob {
+    position:absolute; top:2px; left:2px; width:20px; height:20px;
+    background:var(--silk); border-radius:999px;
+    box-shadow:0 1px 3px rgba(0,0,0,0.15);
+    transition:left 200ms cubic-bezier(0.22,1,0.36,1);
+  }
+  .toggle.on { background:var(--bronze); border-color:var(--bronzeDark); }
+  .toggle.on .knob { left:21px; }
+  /* Onboarding variant 48×28 / knob 24 (documented sub-spec) */
+  .toggle.lg { width:48px; height:28px; }
+  .toggle.lg .knob { width:24px; height:24px; }
+  .toggle.lg.on .knob { left:22px; }
+
+  /* Radio — H5 lock: custom 18×18 ring + 9×9 ink dot, no native input */
+  .radio {
+    width:18px; height:18px; border:1.5px solid var(--paperHair);
+    border-radius:999px; display:inline-flex;
+    align-items:center; justify-content:center; flex-shrink:0;
+  }
+  .radio.on::after {
+    content:""; width:9px; height:9px; border-radius:999px; background:var(--ink);
+  }
+
+  /* Checkbox */
+  .checkbox {
+    width:18px; height:18px; border:1.5px solid var(--paperHair);
+    border-radius:1px; display:inline-flex;
+    align-items:center; justify-content:center;
+    color:var(--ink); font-size:12px; flex-shrink:0;
+  }
+  .checkbox.on {
+    background:var(--ink); color:var(--silk); border-color:var(--ink);
+  }
+
+  /* Segmented */
+  .seg {
+    display:inline-flex; padding:4px; gap:4px;
+    background:rgba(205,190,158,0.35); border:1px solid var(--paperHair);
+    border-radius:999px;
+  }
+  .seg button {
+    border:0; background:transparent; cursor:pointer;
+    padding:8px 14px; border-radius:999px;
+    font-family:'EB Garamond', serif; font-size:13px;
+    color:var(--inkSoft); letter-spacing:0.2px;
+  }
+  .seg button.active {
+    background:var(--ink); color:var(--silk);
+    box-shadow:0 1px 3px rgba(20,18,16,0.18);
+  }
+  .seg.mini button { padding:6px 10px; font-size:12px; }
+
+  /* Search bar (from File A) */
+  .search-bar {
+    width:358px; min-height:44px;
+    border:1px solid var(--paperHair); border-radius:999px;
+    background:var(--cardstock-bg);
+    display:flex; align-items:center; gap:10px;
+    padding:0 14px;
+  }
+  .search-bar svg { width:18px; height:18px; color:var(--inkLight); }
+  .search-bar input {
+    flex:1; border:0; outline:0; background:transparent;
+    font-family:'EB Garamond', serif; font-size:15px; color:var(--ink);
+    min-height:44px;
+  }
+  .search-bar input::placeholder { color:var(--inkLight); font-style:italic; }
+
+  /* ============================================================
+     §6 CHIPS, BADGES, TAGS (File A chrome board + B gold tier-chip)
+     ============================================================ */
+  .chrome-board {
+    display:grid; gap:14px;
+    background:var(--cardstock-bg); border:1px solid var(--paperHair);
+    border-radius:16px; padding:18px;
+  }
+  .chrome-row {
+    display:flex; gap:10px; align-items:center; flex-wrap:wrap;
+  }
+  .eyebrow-chip {
+    min-height:22px; display:inline-flex; align-items:center;
+    padding:0 8px; font-family:'EB Garamond', serif;
+    font-size:9px; line-height:1.6; font-weight:500;
+    letter-spacing:1.6px;
+    border:1px solid var(--paperHair); border-radius:999px;
+    background:var(--cream); color:var(--bronzeDark);
+  }
+  .status-badge, .tag-pill, .lock-chip, .tier-badge {
+    display:inline-flex; align-items:center; min-height:22px;
+    border-radius:999px; padding:0 8px;
+    border:1px solid var(--paperHair);
+  }
+  .status-badge {
+    font-family:'Cinzel', serif; font-size:10px; line-height:1;
+    font-weight:500; letter-spacing:2px;
+  }
+  .status-badge.live    { color:var(--woodDeep); background:rgba(122,158,110,0.10); border-color:rgba(122,158,110,0.25); }
+  .status-badge.beta    { color:var(--waterDeep); background:rgba(90,127,168,0.10); border-color:rgba(90,127,168,0.25); }
+  .status-badge.locked  { color:var(--bronzeDark); background:var(--quiet-bg); border-color:var(--quiet-border); }
+  .tag-pill {
+    font-family:'EB Garamond', serif; font-size:11px; color:var(--inkSoft);
+  }
+  .tag-pill.metal { background:rgba(139,163,184,0.10); border-color:rgba(139,163,184,0.25); }
+  .tag-pill.wood  { background:rgba(122,158,110,0.10); border-color:rgba(122,158,110,0.25); }
+  .tag-pill.fire  { background:rgba(196,116,90,0.10); border-color:rgba(196,116,90,0.25); }
+  .tag-pill.earth { background:rgba(184,154,106,0.10); border-color:rgba(184,154,106,0.25); }
+  .tag-pill.water { background:rgba(90,127,168,0.10); border-color:rgba(90,127,168,0.25); }
+  .lock-chip {
+    background:var(--gold); border-color:var(--gold);
+    font-family:'EB Garamond', serif; font-size:9px; line-height:1;
+    letter-spacing:2px; color:var(--ink); padding:4px 10px;
+  }
+  .tier-badge {
+    font-family:'EB Garamond', serif; font-size:12px;
+    color:var(--bronzeDark); background:var(--cardstock-bg);
+    padding:4px 10px;
+  }
+  .tier-badge.seeker  { color:var(--bronzeDark); border-color:var(--gold); }
+  .tier-badge.advisor { color:var(--advisor); border-color:var(--advisor); }
+  .tier-badge.free    { color:var(--bronzeDark); border-color:var(--bronzeDark); }
+  /* B's gold rgba tier-chip — 4th tier-badge variant */
+  .tier-chip-gold {
+    display:inline-flex; gap:6px; align-items:center;
+    padding:4px 10px; border-radius:999px;
+    background:rgba(212,175,55,0.12);
+    border:1px solid rgba(212,175,55,0.35);
+    font-family:'EB Garamond', serif; font-size:9.5px; font-weight:500;
+    letter-spacing:1.8px; text-transform:uppercase; color:var(--bronzeDark);
+  }
+
+  /* ============================================================
+     §7 CARDS
+     ============================================================ */
+  /* Element tile · 144×144 */
+  .element-tile {
+    position:relative; width:144px; height:144px;
+    border-radius:16px; overflow:hidden;
+    border:1px solid rgba(139,163,184,0.25);
+    box-shadow:var(--shadow-card);
+    padding:12px;
+  }
+  .metal-tile { background:linear-gradient(135deg,rgba(139,163,184,0.10),rgba(139,163,184,0.25)); }
+  .wood-tile  { background:linear-gradient(135deg,rgba(122,158,110,0.10),rgba(122,158,110,0.25)); }
+  .fire-tile  { background:linear-gradient(135deg,rgba(196,116,90,0.10),rgba(196,116,90,0.25)); }
+  .earth-tile { background:linear-gradient(135deg,rgba(184,154,106,0.10),rgba(184,154,106,0.25)); }
+  .water-tile { background:linear-gradient(135deg,rgba(90,127,168,0.10),rgba(90,127,168,0.25)); }
+  .element-tile .dm-icon {
+    position:absolute; width:68px; height:68px;
+    right:14px; top:18px; color:rgba(43,39,34,0.78);
+  }
+  .polarity-chip {
+    position:absolute; right:10px; top:10px;
+    font-family:'EB Garamond', serif; font-size:10px;
+    color:var(--inkSoft); background:var(--cardstock-bg);
+    border:1px solid var(--paperHair); border-radius:999px;
+    padding:3px 8px;
+  }
+  .stem-label { position:absolute; left:12px; bottom:12px; }
+  .stem-label strong {
+    display:block; font-family:'Noto Serif SC', serif;
+    font-size:26px; line-height:1; color:var(--inkDeep); font-weight:500;
+  }
+  .stem-label span {
+    font-family:'EB Garamond', serif; font-size:12px; color:var(--inkSoft);
+  }
+
+  /* Hero cards (358×340 / 358×420) */
+  .hero-card {
+    position:relative; background:var(--silk);
+    border:1px solid var(--paperHair);
+    box-shadow:var(--shadow-card); overflow:hidden;
+  }
+  .section-hero { width:358px; height:340px; border-radius:16px; }
+  .modal-hero { width:358px; height:420px; border-radius:16px; }
+  .hero-card > .hero-bg-fallback {
+    position:absolute; inset:0;
+    background:
+      radial-gradient(ellipse 220px 160px at 28% 18%, rgba(248,241,221,0.85), rgba(248,241,221,0) 70%),
+      radial-gradient(ellipse 280px 200px at 75% 90%, rgba(184,154,106,0.35), rgba(184,154,106,0) 70%),
+      linear-gradient(180deg,#F4ECD9 0%,#EAD9B6 100%);
+  }
+  .hero-shade {
+    position:absolute; inset:0;
+    background:linear-gradient(180deg,rgba(248,246,240,0.12),rgba(248,246,240,0.92));
+  }
+  .hero-content {
+    position:absolute; inset:16px; z-index:1;
+    display:flex; flex-direction:column; align-items:flex-start;
+  }
+  .hero-content h3 {
+    font-family:'Cormorant Garamond', serif; font-size:32px;
+    line-height:1.05; font-weight:600;
+    margin:auto 0 6px; color:var(--ink);
+  }
+  .subheadline {
+    font-family:'Cormorant Garamond', serif; font-style:italic;
+    color:var(--inkSoft); font-size:19px; line-height:1.3;
+    font-weight:500; margin:0 0 14px;
+  }
+  /* mini segmented inside hero */
+  .segmented {
+    display:inline-flex; align-items:center; gap:3px;
+    background:var(--tabbar-bg); border:1px solid var(--paperHair);
+    border-radius:999px; padding:3px;
+    backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px);
+  }
+  .segmented span {
+    font-family:'EB Garamond', serif; font-size:12px;
+    color:var(--inkSoft); padding:5px 10px; border-radius:999px;
+  }
+  .segmented .active { background:var(--ink); color:var(--silk); }
+  .segmented.mini { margin-bottom:16px; }
+
+  /* Modal hero internals */
+  .modal-close {
+    position:absolute; top:14px; right:18px; z-index:2;
+    width:32px; height:32px; border-radius:999px;
+    background:rgba(205,190,158,0.35); color:var(--inkSoft);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'EB Garamond', serif; font-size:18px;
+    cursor:pointer; border:0;
+  }
+  .modal-band { height:160px; overflow:hidden; border-bottom:1px solid var(--paperHair); position:relative; }
+  .modal-band .band-fallback {
+    position:absolute; inset:0;
+    background:linear-gradient(180deg,#D5C39A 0%,#EFE5CC 100%);
+  }
+  .modal-body {
+    height:260px; overflow:auto; padding:18px; background:var(--cardstock-bg);
+  }
+  .modal-body h3 {
+    font-family:'Cormorant Garamond', serif; font-size:28px;
+    line-height:1.1; font-weight:600; margin:12px 0 6px;
+  }
+  .modal-body p:not(.subheadline) {
+    font-family:'EB Garamond', serif; font-size:14px;
+    line-height:1.6; color:var(--inkSoft); margin:0;
+  }
+
+  /* Compact strip · 358×96 */
+  .compact-strip, .daily-snippet {
+    width:358px; height:96px; border-radius:12px;
+    position:relative; overflow:hidden;
+    display:grid; grid-template-columns:88px 1fr 22px;
+    gap:12px; align-items:center; padding:12px;
+    background:var(--cardstock-bg); border:1px solid var(--paperHair);
+  }
+  .compact-strip .strip-bg, .daily-snippet .strip-bg {
+    position:absolute; inset:0;
+    background:linear-gradient(90deg,rgba(139,115,85,0.18) 0%,rgba(139,115,85,0) 50%);
+    opacity:0.6;
+  }
+  .compact-strip > *:not(.strip-bg), .daily-snippet > *:not(.strip-bg) {
+    position:relative; z-index:1;
+  }
+  .compact-strip h3, .daily-snippet h3 {
+    font-family:'Cormorant Garamond', serif; font-size:20px;
+    line-height:1.1; font-weight:600; margin:0 0 4px;
+  }
+  .compact-strip p, .daily-snippet p {
+    font-family:'EB Garamond', serif; font-size:12.5px;
+    line-height:1.3; color:var(--inkSoft); margin:0;
+  }
+  .compact-strip > svg, .daily-snippet > svg {
+    width:18px; height:18px; color:var(--bronzeDark);
+  }
+  .strip-thumb {
+    width:88px; height:72px; border-radius:8px;
+    background:linear-gradient(135deg,#D8C9A6,#B8A47C);
+  }
+
+  /* Reading-row card · 720×72 (File A) */
+  .reading-row-card {
+    width:720px; min-height:72px; border-radius:12px;
+    background:var(--cardstock-bg); border:1px solid var(--paperHair);
+    display:grid; grid-template-columns:44px 1fr 22px;
+    gap:14px; align-items:center; padding:14px;
+  }
+  .read-icon {
+    width:44px; height:44px; border-radius:12px;
+    background:rgba(139,163,184,0.10);
+    border:1px solid rgba(139,163,184,0.25);
+    display:grid; place-items:center; color:var(--metalDeep);
+  }
+  .read-icon svg { width:22px; height:22px; }
+  .reading-row-card h3 {
+    font-family:'Cormorant Garamond', serif; font-size:17px;
+    line-height:1.2; font-weight:500; margin:0;
+  }
+  .reading-row-card p {
+    font-family:'EB Garamond', serif; font-size:12.5px;
+    line-height:1.3; color:var(--inkLight); margin:3px 0 0;
+  }
+  .reading-row-card .chev { width:18px; height:18px; color:var(--bronzeDark); }
+
+  /* Featured card */
+  .featured-card {
+    width:358px; min-height:144px; border-radius:12px;
+    background:rgba(139,163,184,0.06);
+    border:1px solid rgba(139,163,184,0.25);
+    box-shadow:var(--shadow-card);
+    padding:18px;
+    display:flex; flex-direction:column; gap:6px;
+  }
+  .featured-card h3 {
+    font-family:'Cormorant Garamond', serif; font-size:20px;
+    line-height:1.2; font-weight:600; margin:0;
+  }
+  .featured-card p {
+    font-family:'EB Garamond', serif; font-size:13.5px;
+    line-height:1.5; color:var(--inkSoft); margin:4px 0 0;
+  }
+  .next-cue {
+    font-family:'EB Garamond', serif; font-size:12px;
+    letter-spacing:0.5px; color:var(--bronzeDark); margin-top:auto;
+  }
+
+  /* Lock card (B) · lock row (A) · blur preview · empty states */
+  .lock-card {
+    border:1px solid var(--quiet-border); background:var(--quiet-bg);
+    border-radius:14px; padding:18px; position:relative;
+  }
+  .lock-card .lock-row {
+    display:flex; justify-content:space-between; align-items:center; gap:12px;
+  }
+  /* A's lock-row layout — 3-col list context */
+  .lock-row-listing {
+    width:358px; min-height:88px; border-radius:12px;
+    background:var(--quiet-bg); border:1px solid var(--quiet-border);
+    padding:18px;
+    display:grid; grid-template-columns:36px 1fr auto;
+    gap:14px; align-items:center;
+  }
+  .lock-row-listing > svg { width:24px; height:24px; color:var(--bronzeDark); }
+  .lock-row-listing h3 {
+    font-family:'Cormorant Garamond', serif; font-size:18px;
+    line-height:1.2; font-weight:600; margin:0;
+  }
+  .lock-row-listing p {
+    font-family:'EB Garamond', serif; font-size:13px;
+    line-height:1.5; color:var(--inkSoft); margin:4px 0 0;
+  }
+  .blur-card {
+    position:relative; border-radius:14px; overflow:hidden;
+    border:1px solid var(--paperHair); background:var(--cardstock-bg);
+  }
+  .blur-card .blurred { filter:blur(4px); padding:18px; }
+  .blur-card .overlay {
+    position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    background:rgba(241,233,214,0.55);
+    font-family:'EB Garamond', serif; font-size:11px; font-weight:500;
+    letter-spacing:2.5px; text-transform:uppercase; color:var(--bronzeDark);
+  }
+  /* Empty card (A dashed) */
+  .empty-card {
+    width:358px; min-height:144px; border-radius:12px;
+    padding:18px; display:grid; gap:8px;
+    border:1px dashed var(--paperHair);
+    background:rgba(248,241,225,0.45);
+    color:var(--inkLight);
+    align-items:center; justify-items:center; text-align:center;
+  }
+  .empty-card > svg { width:56px; height:56px; opacity:0.6; color:var(--inkLight); }
+  .empty-card h3 {
+    font-family:'Cormorant Garamond', serif; font-size:18px;
+    font-weight:600; margin:0; color:var(--inkSoft);
+  }
+  .empty-card p {
+    font-family:'EB Garamond', serif; font-size:13.5px;
+    line-height:1.5; color:var(--inkLight); margin:4px 0 0;
+  }
+  /* Empty state poetic (B SC glyph) */
+  .empty-state {
+    text-align:center; padding:40px 16px;
+    background:var(--silk); border-radius:14px;
+  }
+  .empty-state .glyph {
+    font-family:'Noto Serif SC', serif; font-size:48px;
+    color:var(--inkMist); opacity:0.6;
+  }
+  .empty-state .copy {
+    font-family:'EB Garamond', serif; font-size:14px;
+    font-style:italic; color:var(--inkLight); margin-top:14px;
+  }
+
+  /* ============================================================
+     §8 THUMBNAILS / TILES (File A — 200×200 set)
+     ============================================================ */
+  .thumb-grid {
+    display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+    gap:18px;
+  }
+  .thumb-cell {
+    background:var(--cardstock-bg); border:1px solid var(--paperHair);
+    border-radius:16px; padding:22px 26px;
+    display:flex; flex-direction:column; gap:14px;
+    align-items:center; text-align:center;
+    box-shadow:var(--shadow-card);
+  }
+  .thumb-cell .kicker { align-self:flex-start; }
+  .thumb {
+    position:relative; width:200px; height:200px;
+    border-radius:16px; overflow:hidden;
+    border:1px solid var(--paperHair); background:var(--silk);
+    display:grid; place-items:center;
+  }
+  .thumb img { width:100%; height:100%; object-fit:cover; }
+  .stem-painted {
+    background:
+      radial-gradient(ellipse 90px 70px at 30% 28%, rgba(43,39,34,0.18), transparent 70%),
+      radial-gradient(ellipse 60px 50px at 70% 70%, rgba(43,39,34,0.10), transparent 70%),
+      var(--silk);
+  }
+  .stem-painted .brush {
+    font-family:'Noto Serif SC', serif; font-size:90px;
+    color:rgba(43,39,34,0.62); font-weight:500;
+  }
+  .square-element {
+    background:linear-gradient(135deg,rgba(139,163,184,0.10),rgba(139,163,184,0.25));
+    color:var(--metalDeep);
+  }
+  .square-element svg, .gradient-thumb svg { width:56px; height:56px; }
+  .square-element span {
+    position:absolute; left:14px; bottom:14px;
+    font-family:'Noto Serif SC', serif; font-size:30px; color:var(--inkDeep);
+  }
+  .painterly {
+    background:
+      radial-gradient(ellipse 200px 100px at 50% 30%, rgba(139,115,85,0.40), transparent 70%),
+      radial-gradient(ellipse 200px 80px at 50% 60%, rgba(106,132,154,0.30), transparent 70%),
+      radial-gradient(ellipse 220px 70px at 50% 88%, rgba(43,39,34,0.30), transparent 70%),
+      linear-gradient(180deg,#E8DCBD,#D5C39A);
+  }
+  .tall-stroke {
+    background:
+      radial-gradient(ellipse 50px 140px at 50% 50%, rgba(43,39,34,0.65), transparent 80%),
+      var(--silk);
+  }
+  .overlay-thumb {
+    background:
+      radial-gradient(ellipse 200px 120px at 50% 40%, rgba(184,154,106,0.45), transparent 70%),
+      linear-gradient(180deg,#C9B998,#A89373);
+  }
+  .overlay-thumb::after {
+    content:""; position:absolute; inset:0;
+    background:rgba(43,39,34,0.50);
+  }
+  .overlay-thumb span {
+    position:relative; z-index:1;
+    font-family:'Cormorant Garamond', serif; font-size:24px; color:var(--silk);
+  }
+  .gradient-thumb {
+    background:linear-gradient(180deg,rgba(139,163,184,0.10),rgba(139,163,184,0.40));
+    color:var(--metalDeep);
+  }
+  .locked-thumb {
+    background:
+      radial-gradient(ellipse 80px 100px at 35% 65%, rgba(122,158,110,0.45), transparent 70%),
+      linear-gradient(180deg,#D8C9A6,#B8A47C);
+  }
+  .locked-thumb::before {
+    content:""; position:absolute; inset:0;
+    background:rgba(248,241,225,0.40);
+    backdrop-filter:blur(2px); -webkit-backdrop-filter:blur(2px);
+  }
+  .locked-thumb span {
+    position:absolute; top:12px; right:12px; z-index:2;
+    background:var(--gold); border-radius:999px;
+    padding:4px 8px;
+    font-family:'EB Garamond', serif; font-size:9px;
+    letter-spacing:2px; color:var(--ink);
+  }
+
+  /* ============================================================
+     §9 BOTTOM TAB NAVIGATION (File B — 3 states)
+     ============================================================ */
+  .frame-grid {
+    display:flex; gap:36px; flex-wrap:wrap; align-items:flex-start;
+    padding:8px 0 4px;
+  }
+  .frame-cell { display:flex; flex-direction:column; align-items:center; }
+  .frame-cap {
+    font-family:'EB Garamond', serif; font-size:11px;
+    letter-spacing:2.5px; text-transform:uppercase;
+    color:var(--bronzeDark); font-weight:500;
+    margin-top:16px; text-align:center;
+  }
+  .frame-cap small {
+    display:block; font-family:'EB Garamond', serif;
+    font-style:italic; font-size:12px; color:var(--inkLight);
+    text-transform:none; letter-spacing:0; margin-top:4px;
+  }
+
+  /* Phone frame (used by tab nav + modal taxonomy + header in situ) */
+  .phone {
+    width:390px; height:844px; border-radius:48px;
+    background:var(--silk);
+    box-shadow:
+      0 30px 60px rgba(40,30,20,0.18),
+      0 8px 18px rgba(40,30,20,0.10),
+      inset 0 0 0 1px rgba(43,39,34,0.18);
+    position:relative; overflow:hidden; isolation:isolate;
+  }
+  .phone .silk-bg {
+    position:absolute; inset:0; pointer-events:none;
+    background:
+      radial-gradient(ellipse 380px 280px at 18% 12%, rgba(248,241,221,0.85), rgba(248,241,221,0) 70%),
+      radial-gradient(ellipse 330px 240px at 84% 88%, rgba(218,201,160,0.35), rgba(218,201,160,0) 70%),
+      linear-gradient(180deg,#F4ECD9 0%,#EFE5CC 55%,#E8DCBD 100%);
+  }
+  .phone .notch {
+    position:absolute; top:10px; left:50%; transform:translateX(-50%);
+    width:120px; height:30px; background:#0a0907; border-radius:18px; z-index:30;
+  }
+  .phone .status-bar {
+    position:absolute; top:0; left:0; right:0; height:44px;
+    display:flex; justify-content:space-between; align-items:center;
+    padding:18px 28px 0; z-index:20;
+    font-family:'Cinzel', serif; font-size:13px; font-weight:500;
+    color:var(--ink); letter-spacing:0.5px;
+  }
+  .phone .status-bar .icons { display:flex; gap:6px; align-items:center; color:var(--ink); }
+
+  /* Tab bar */
+  .tabbar {
+    position:absolute; bottom:0; left:0; right:0;
+    background:rgba(253,253,252,0.85);
+    backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px);
+    border-top:1px solid var(--borderLight);
+    padding:8px 16px calc(8px + env(safe-area-inset-bottom, 18px));
+    height:76px; z-index:30;
+    display:flex; justify-content:space-around; align-items:center;
+  }
+  .tabbar .tab {
+    width:64px; display:flex; flex-direction:column; align-items:center;
+    padding:14px 0 16px; cursor:pointer; gap:0;
+  }
+  .tabbar .tab .ico { width:24px; height:24px; color:var(--inkLight); }
+  .tabbar .tab.active .ico { color:var(--ink); }
+  .tabbar .tab.active .seal-dot {
+    width:4px; height:4px; border-radius:999px;
+    background:var(--seal); margin-top:6px;
+  }
+  .tabbar .tab.pressed { transform:scale(0.96); }
+
+  /* ============================================================
+     §10 MODAL TAXONOMY (File B — 3 patterns)
+     ============================================================ */
+  .modal-stage {
+    position:relative; width:390px; height:560px;
+    border-radius:30px; overflow:hidden;
+    background:var(--silk); border:1px solid var(--paperHair);
+    box-shadow:0 20px 40px rgba(40,30,20,0.12);
+  }
+  .modal-stage .stage-bg {
+    position:absolute; inset:0;
+    background:
+      radial-gradient(ellipse 280px 200px at 18% 14%, rgba(248,241,221,0.85), rgba(248,241,221,0) 70%),
+      linear-gradient(180deg,#F4ECD9 0%,#EFE5CC 100%);
+  }
+  .modal-stage .scrim {
+    position:absolute; inset:0; background:rgba(0,0,0,0.4); z-index:5;
+  }
+  .sheet-bottom {
+    position:absolute; left:0; right:0; bottom:0;
+    background:var(--cream); border-radius:22px 22px 0 0;
+    padding:14px 24px 32px;
+    box-shadow:var(--shadow-sheet);
+    z-index:10;
+  }
+  .sheet-bottom .grab {
+    width:40px; height:4px; border-radius:999px;
+    background:var(--paperHair); margin:0 auto 18px;
+  }
+  .sheet-bottom h3 {
+    font-family:'Cormorant Garamond', serif; font-weight:500;
+    font-size:22px; color:var(--ink); margin:0 0 8px;
+  }
+  .sheet-bottom p {
+    font-family:'EB Garamond', serif; font-size:14px; font-style:italic;
+    color:var(--inkSoft); line-height:1.6; margin:0 0 14px;
+  }
+  .full-modal {
+    position:absolute; inset:0; background:var(--silk);
+    z-index:10; padding:60px 22px 24px;
+  }
+  .full-modal .back-row {
+    display:flex; align-items:center; gap:6px;
+    font-family:'EB Garamond', serif; font-size:11px;
+    color:var(--bronzeDark); letter-spacing:2.5px;
+    text-transform:uppercase; cursor:pointer; margin-bottom:22px;
+  }
+  .upgrade-sheet {
+    position:absolute; left:0; right:0; bottom:0;
+    height:85%; background:var(--cream); border-radius:24px 24px 0 0;
+    padding:24px 22px 32px; z-index:10; box-shadow:var(--shadow-sheet);
+  }
+  .upgrade-sheet .close {
+    position:absolute; top:14px; right:18px;
+    width:32px; height:32px; border-radius:999px;
+    background:rgba(205,190,158,0.35); color:var(--inkSoft);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'EB Garamond', serif; font-size:18px; cursor:pointer; border:0;
+  }
+  .upgrade-sheet .ctx {
+    margin-top:24px; font-family:'EB Garamond', serif; font-size:11px;
+    letter-spacing:2.5px; text-transform:uppercase; color:var(--bronzeDark);
+  }
+  .upgrade-sheet h3 {
+    font-family:'Cormorant Garamond', serif; font-weight:600;
+    font-size:24px; color:var(--ink); margin:6px 0 18px; line-height:1.2;
+  }
+  .tier-card { border-radius:16px; padding:18px; margin-bottom:12px; }
+  .tier-card.seeker {
+    background:linear-gradient(135deg,#FAF8F5,#F0EBE1);
+    border:1.5px solid var(--gold);
+  }
+  .tier-card.advisor {
+    background:linear-gradient(135deg,#F8F4FF,#F0E8FF);
+    border:1px solid #C9B8E8;
+  }
+  .tier-card .tname {
+    font-family:'EB Garamond', serif; font-size:11px; font-weight:500;
+    letter-spacing:2.5px; text-transform:uppercase; color:var(--bronzeDark);
+  }
+  .tier-card .price {
+    font-family:'Cormorant Garamond', serif; font-size:20px; font-weight:500;
+    color:var(--ink); margin-top:2px;
+  }
+  .tier-card ul {
+    list-style:none; padding:0; margin:10px 0 14px;
+    font-family:'EB Garamond', serif; font-size:13px;
+    color:var(--inkSoft); line-height:1.65;
+  }
+  .tier-card ul li::before { content:"✓"; color:var(--woodDeep); margin-right:8px; }
+
+  /* ============================================================
+     §11 STATUS / FEEDBACK (File B §7)
+     ============================================================ */
+  .toast {
+    display:inline-flex; align-items:center; gap:10px;
+    padding:11px 18px; background:var(--cardstock-bg);
+    border:1px solid var(--paperHair); border-radius:999px;
+    font-family:'EB Garamond', serif; font-size:13px; font-style:italic;
+    color:var(--inkSoft);
+    box-shadow:0 4px 18px rgba(40,30,20,0.10);
+  }
+  .banner {
+    background:var(--parchment); border:1px solid var(--paperHair);
+    border-radius:8px; padding:10px 14px;
+    font-family:'EB Garamond', serif; font-size:13.5px; color:var(--inkSoft);
+    display:flex; align-items:center; justify-content:space-between; gap:12px;
+  }
+  .banner .x {
+    width:20px; height:20px; display:flex; align-items:center; justify-content:center;
+    color:var(--inkLight); cursor:pointer; font-size:14px;
+  }
+
+  /* ============================================================
+     §12 PAGE HEADER CHROME (File B §13)
+     ============================================================ */
+  .pg-header {
+    background:rgba(248,241,225,0.55);
+    border:1px solid var(--paperHair); border-radius:14px;
+    padding:14px 18px;
+    display:flex; justify-content:space-between; align-items:center; gap:12px;
+  }
+  .pg-header .left {
+    display:flex; align-items:center; gap:6px;
+    font-family:'EB Garamond', serif; font-size:11px; font-weight:500;
+    letter-spacing:2.5px; text-transform:uppercase; color:var(--ink);
+  }
+
+  /* ============================================================
+     §13 DRIFT / OPEN-WORK LOG
+     ============================================================ */
+  .drift-item {
+    border-left:3px solid var(--bronze); padding:12px 0 12px 18px;
+    margin-bottom:18px;
+  }
+  .drift-item .q {
+    font-family:'Cormorant Garamond', serif; font-weight:600;
+    font-size:18px; color:var(--ink); margin-bottom:6px;
+  }
+  .drift-item .body {
+    font-family:'EB Garamond', serif; font-size:14px;
+    color:var(--inkSoft); line-height:1.65;
+  }
+
+  /* Footer */
+  footer {
+    border-top:1px solid var(--paperHair);
+    padding-top:24px; margin-top:60px;
+    display:flex; justify-content:space-between; align-items:baseline;
+    font-family:'EB Garamond', serif; font-size:12px;
+    color:var(--inkLight);
+  }
+  footer .seal-mark { color:var(--seal); font-weight:600; letter-spacing:1.5px; }
+
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     EMBEDDED ICONS.SVG · canonical source-of-truth.
+     Mirrored from Moodboards/component-library.html (lines 1253–1594).
+     33 symbols. Edit here ONLY in lockstep with Design/assets/icons.svg.
+     Convention: viewBox 0 0 24 24 · stroke="currentColor" · stroke 1.7
+     · round caps/joins · fill none unless explicit.
+     ID prefixes: el-* (5) · dm-* (10, PLACEHOLDER) · tab-* (5)
+                  · read-* (5, PLACEHOLDER) · ico-* (8)
+     ============================================================ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+
+    <!-- FIVE ELEMENTS · el-* (sealed v2 · Set E3 silhouette · 2026-05-21)
+         Swapped from v1 geometric line stubs to production silhouettes.
+         All five use fill="currentColor"; cutouts via fill-rule:evenodd.
+         Source: element-marks-e3.html (ChatGPT delivery 2026-05-21). -->
+    <symbol id="el-metal" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12 2.35L18.15 8.05L14.35 17.15H16.45V20.85H7.55V17.15H9.65L5.85 8.05L12 2.35ZM8.25 8.75L11.1 17.15H12.9L15.75 8.75L12 5.4L8.25 8.75ZM10.3 9.15L12 14.65L13.7 9.15L12 7.55L10.3 9.15Z"/>
+    </symbol>
+    <symbol id="el-wood" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10.95 21.15V13.75C7.55 14.15 5.15 12.05 4.35 7.05C8.15 6.75 10.55 8.35 11.85 11.35C13.2 7.25 15.9 5.15 20.05 5.75C19.85 11.3 16.55 13.95 13.05 13.55V21.15H10.95ZM7.15 8.7C7.85 11.05 9.2 12.05 11 11.65C10.15 9.85 8.95 8.85 7.15 8.7ZM17.2 7.85C15.2 8.05 13.9 9.25 13.15 11.45C15.25 11.6 16.65 10.35 17.2 7.85Z"/>
+    </symbol>
+    <symbol id="el-fire" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12.35 2.75C15.85 6.8 18.55 10.35 18.55 14.65C18.55 18.75 15.65 21.25 12 21.25C8.3 21.25 5.45 18.7 5.45 15.05C5.45 12.25 6.9 10 9.55 7.35C9.45 10.05 10.25 12 11.65 13C11.15 9.55 11.4 6.05 12.35 2.75ZM14.95 10.65C16.25 12.45 16.8 13.95 16.8 15.45C16.8 17.85 14.95 19.35 12.1 19.35C9.65 19.35 7.45 17.75 7.45 15.15C7.45 13.75 7.95 12.65 9 11.35C9.3 13.05 10.2 14.25 11.85 15.15L13 15.8L12.75 14.5C12.35 12.45 12.55 10.45 13.2 8.05C13.85 8.95 14.45 9.85 14.95 10.65Z"/>
+    </symbol>
+    <symbol id="el-earth" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M3.55 18.2L8.45 9.35L11.45 13.15L15.25 5.6L20.45 18.2H3.55ZM8.8 13L7 16.25H17.45L15.1 10.55L12 16.7L8.8 13Z"/>
+      <path fill="currentColor" d="M3.1 19.5H20.9V21.15H3.1V19.5Z"/>
+    </symbol>
+    <symbol id="el-water" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M3.65 9.2C5.65 6.95 8.45 6.65 11.05 8.4C13.15 9.8 14.65 9.85 16.25 8.3C17.25 7.35 18.75 7.15 20.35 7.9C18.95 10.65 16.35 12 13.5 11.15C12.45 10.85 11.5 10.35 10.55 9.7C8.7 8.5 6.95 8.65 5.55 10.05C4.9 10.7 4.25 10.35 3.65 9.2Z"/>
+      <path fill="currentColor" d="M3.65 15.15C5.65 12.9 8.45 12.6 11.05 14.35C13.15 15.75 14.65 15.8 16.25 14.25C17.25 13.3 18.75 13.1 20.35 13.85C18.95 16.6 16.35 17.95 13.5 17.1C12.45 16.8 11.5 16.3 10.55 15.65C8.7 14.45 6.95 14.6 5.55 16C4.9 16.65 4.25 16.3 3.65 15.15Z"/>
+    </symbol>
+
+    <!-- DAY-MASTER STEMS · dm-* (PLACEHOLDER · DA.2 ink-wash commission pending) -->
+    <symbol id="dm-jia" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round">
+        <path d="M12 4 V20"/>
+        <path d="M12 8 H6"/><path d="M12 8 H18"/>
+        <path d="M12 13 H8"/><path d="M12 13 H16"/>
+      </g>
+    </symbol>
+    <symbol id="dm-yi" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round">
+        <path d="M5 18 Q 9 14 12 16 T 19 12"/>
+        <path d="M14 17 Q 16 18 17 20"/>
+      </g>
+    </symbol>
+    <symbol id="dm-bing" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round">
+        <circle cx="12" cy="12" r="4"/>
+        <line x1="12" y1="3" x2="12" y2="5.5"/>
+        <line x1="12" y1="18.5" x2="12" y2="21"/>
+        <line x1="3" y1="12" x2="5.5" y2="12"/>
+        <line x1="18.5" y1="12" x2="21" y2="12"/>
+        <line x1="5.5" y1="5.5" x2="7.3" y2="7.3"/>
+        <line x1="16.7" y1="16.7" x2="18.5" y2="18.5"/>
+        <line x1="5.5" y1="18.5" x2="7.3" y2="16.7"/>
+        <line x1="16.7" y1="7.3" x2="18.5" y2="5.5"/>
+      </g>
+    </symbol>
+    <symbol id="dm-ding" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="9" y="11" width="6" height="9"/>
+        <path d="M11 6 Q 12 4 13 6 Q 13 9 12 11 Q 11 9 11 6 Z"/>
+      </g>
+    </symbol>
+    <symbol id="dm-wu" viewBox="0 0 24 24">
+      <path d="M3 19 L 8 8 L 12 14 L 16 6 L 21 19 Z" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="dm-ji" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linejoin="round">
+        <rect x="4" y="6" width="16" height="12"/>
+        <line x1="4" y1="12" x2="20" y2="12"/>
+        <line x1="12" y1="6" x2="12" y2="18"/>
+      </g>
+    </symbol>
+    <symbol id="dm-geng" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 19 L 19 5"/>
+        <path d="M3 19 L 9 19"/>
+        <path d="M5 19 L 5 13"/>
+      </g>
+    </symbol>
+    <symbol id="dm-xin" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linejoin="round">
+        <path d="M12 4 L 18 9 L 15 19 L 9 19 L 6 9 Z"/>
+        <line x1="12" y1="4" x2="12" y2="19"/>
+        <line x1="6" y1="9" x2="18" y2="9"/>
+      </g>
+    </symbol>
+    <symbol id="dm-ren" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round">
+        <path d="M3 10 Q 7 6 11 10 T 19 10"/>
+        <path d="M3 14 Q 7 10 11 14 T 19 14"/>
+      </g>
+    </symbol>
+    <symbol id="dm-gui" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round">
+        <path d="M4 7 Q 7 5 10 7"/>
+        <path d="M14 8 Q 17 6 20 8"/>
+        <path d="M5 12 Q 8 10 11 12 T 19 12"/>
+        <path d="M8 17 Q 11 15 14 17"/>
+      </g>
+    </symbol>
+
+    <!-- BOTTOM TAB NAV · tab-* (sealed v1 §4) -->
+    <symbol id="tab-today" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="5" width="18" height="16" rx="2"/>
+        <path d="M3 10h18"/><path d="M8 3v4"/><path d="M16 3v4"/>
+      </g>
+    </symbol>
+    <symbol id="tab-guidance" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="9"/>
+        <path d="M12 4.8 L14.5 12 L12 19.2 L9.5 12 Z"/>
+        <circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"/>
+      </g>
+    </symbol>
+    <symbol id="tab-reading" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 5 C 6 4, 9 4, 12 6 C 15 4, 18 4, 21 5 V19 C 18 18, 15 18, 12 20 C 9 18, 6 18, 3 19 Z"/>
+        <path d="M12 6 V20"/>
+      </g>
+    </symbol>
+    <symbol id="tab-compat" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="8.5" cy="12" r="6.5"/>
+        <circle cx="15.5" cy="12" r="6.5"/>
+        <circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"/>
+      </g>
+    </symbol>
+    <symbol id="tab-profile" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="8" r="4"/>
+        <path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"/>
+      </g>
+    </symbol>
+
+    <!-- READING-SECTION ICONS · read-* (PLACEHOLDER · DA.9 refinement) -->
+    <symbol id="read-elemental" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="8"/>
+        <path d="M12 4 L 19.6 9.4 L 16.7 18.6 L 7.3 18.6 L 4.4 9.4 Z"/>
+      </g>
+    </symbol>
+    <symbol id="read-dominant" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.6" fill="none">
+        <circle cx="9" cy="11" r="4" fill="currentColor"/>
+        <circle cx="17" cy="15" r="2.5"/>
+      </g>
+    </symbol>
+    <symbol id="read-forces" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8 4 V14 M5 7 L 8 4 L 11 7"/>
+        <path d="M16 20 V10 M13 17 L 16 20 L 19 17"/>
+      </g>
+    </symbol>
+    <symbol id="read-chapters" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round">
+        <line x1="12" y1="3" x2="12" y2="21"/>
+        <line x1="9" y1="7" x2="15" y2="7"/>
+        <line x1="9" y1="12" x2="15" y2="12"/>
+        <line x1="9" y1="17" x2="15" y2="17"/>
+      </g>
+    </symbol>
+    <symbol id="read-pillars" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round">
+        <line x1="5" y1="6" x2="5" y2="18"/>
+        <line x1="9.7" y1="6" x2="9.7" y2="18"/>
+        <line x1="14.3" y1="6" x2="14.3" y2="18"/>
+        <line x1="19" y1="6" x2="19" y2="18"/>
+      </g>
+    </symbol>
+
+    <!-- UTILITY / CHROME · ico-* -->
+    <symbol id="ico-lock" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round">
+        <rect x="5" y="11" width="14" height="9" rx="1.5"/>
+        <path d="M8 11 V 8 a4 4 0 0 1 8 0 V 11"/>
+      </g>
+    </symbol>
+    <symbol id="ico-chev-r" viewBox="0 0 24 24">
+      <path d="M9 6 L15 12 L9 18" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="ico-chev-l" viewBox="0 0 24 24">
+      <path d="M15 6 L9 12 L15 18" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="ico-arrow-r" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12 H19"/>
+        <path d="M14 7 L19 12 L14 17"/>
+      </g>
+    </symbol>
+    <symbol id="ico-dismiss" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round">
+        <line x1="6" y1="6" x2="18" y2="18"/>
+        <line x1="18" y1="6" x2="6" y2="18"/>
+      </g>
+    </symbol>
+    <symbol id="ico-sunrise" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round">
+        <line x1="3" y1="17" x2="21" y2="17"/>
+        <path d="M7 17 A 5 5 0 0 1 17 17"/>
+        <line x1="12" y1="6" x2="12" y2="8" stroke-width="1.4"/>
+        <line x1="6" y1="11" x2="7.3" y2="12.3" stroke-width="1.4"/>
+        <line x1="18" y1="11" x2="16.7" y2="12.3" stroke-width="1.4"/>
+      </g>
+    </symbol>
+    <symbol id="ico-empty" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.4" fill="none">
+        <circle cx="12" cy="12" r="7"/>
+        <circle cx="9" cy="12" r="0.9" fill="currentColor" stroke="none"/>
+        <circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"/>
+        <circle cx="15" cy="12" r="0.9" fill="currentColor" stroke="none"/>
+      </g>
+    </symbol>
+    <symbol id="ico-edit" viewBox="0 0 24 24">
+      <path d="M14.5 4.5l5 5L8 21H3v-5L14.5 4.5z" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <!-- Additional affordances carried over from File B for completeness -->
+    <symbol id="ico-arrow-up" viewBox="0 0 24 24">
+      <path d="M12 5v14M6 11l6-6 6 6" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="ico-arrow-down" viewBox="0 0 24 24">
+      <path d="M12 5v14M6 13l6 6 6-6" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="ico-info" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16v.01"/>
+      </g>
+    </symbol>
+    <symbol id="ico-alert" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 4l9 16H3z"/><path d="M12 11v4M12 18v.01"/>
+      </g>
+    </symbol>
+    <symbol id="ico-check" viewBox="0 0 24 24">
+      <path d="M5 12l5 5L20 7" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="ico-pin" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="10" r="3"/>
+        <path d="M12 3a7 7 0 0 1 7 7c0 5-7 11-7 11s-7-6-7-11a7 7 0 0 1 7-7z"/>
+      </g>
+    </symbol>
+    <symbol id="ico-bell" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M16 4 C 11 4 8 8 8 14 L 8 17 L 5 21 L 19 21 L 16 17 L 16 14 C 16 8 13 4 8 4 Z" transform="translate(2,0)"/>
+        <path d="M10 22 Q 12 24 14 22"/>
+      </g>
+    </symbol>
+
+
+  </defs>
+</svg>
+
+
+<main class="page">
+
+<!-- ============================================================
+     DOCUMENT HEADER
+     ============================================================ -->
+<header class="doc-header">
+  <div class="lockup">
+    <div class="cn">设 计 卷 三</div>
+    <h1>Elementum Component Library<span class="sub">consolidated · atoms + screens</span></h1>
+    <p class="tagline">Single pull-and-pick reference, built from File A (Moodboards) and File B (Legends v2).</p>
+  </div>
+  <div class="meta">
+    <div class="cinzel">Sealed against <span class="seal-mark">●</span> File A &amp; File B</div>
+    <div>Authority cascade</div>
+    <div>anchor &gt; Legends &gt; DOC5 &gt; canvas refs</div>
+    <div style="margin-top:8px">7 hard conflicts settled in build brief</div>
+  </div>
+</header>
+
+<!-- TOC -->
+<nav class="toc" aria-label="Table of contents">
+  <h3>Contents · 12 sections + drift log</h3>
+  <a href="#s1"><span class="num">§1</span><span class="ttl">Foundations recap</span><span class="count">tokens · shadows · radii</span></a>
+  <a href="#s2"><span class="num">§2</span><span class="ttl">Typography recipes</span><span class="count">10 atoms + 5 compositions</span></a>
+  <a href="#s3"><span class="num">§3</span><span class="ttl">Iconography</span><span class="count">33 symbols</span></a>
+  <a href="#s4"><span class="num">§4</span><span class="ttl">Buttons</span><span class="count">6 tier × 3 state</span></a>
+  <a href="#s5"><span class="num">§5</span><span class="ttl">Form controls</span><span class="count">7 controls</span></a>
+  <a href="#s6"><span class="num">§6</span><span class="ttl">Chips, badges, tags</span><span class="count">chrome board</span></a>
+  <a href="#s7"><span class="num">§7</span><span class="ttl">Cards</span><span class="count">9 archetypes</span></a>
+  <a href="#s8"><span class="num">§8</span><span class="ttl">Thumbnails / tiles</span><span class="count">7 patterns · 200²</span></a>
+  <a href="#s9"><span class="num">§9</span><span class="ttl">Bottom tab navigation</span><span class="count">3 states + token spec</span></a>
+  <a href="#s10"><span class="num">§10</span><span class="ttl">Modal taxonomy</span><span class="count">3 patterns + table</span></a>
+  <a href="#s11"><span class="num">§11</span><span class="ttl">Status &amp; feedback</span><span class="count">toast · banner · empty</span></a>
+  <a href="#s12"><span class="num">§12</span><span class="ttl">Page header chrome</span><span class="count">3 variants + in situ</span></a>
+  <a href="#s13"><span class="num">§13</span><span class="ttl">Open work / drift log</span><span class="count">6 known gaps</span></a>
+</nav>
+
+<!-- ============================================================
+     RESOLUTION LOG (build-brief carry-over)
+     ============================================================ -->
+<section id="reso">
+  <div class="section-head">
+    <span class="num">§0</span>
+    <h2>Resolution log · seven hard conflicts</h2>
+    <div class="rule">Locked decisions from the consolidation brief. Do not relitigate — open a doc-patch instead. <span class="cite">build-brief 2026-05-18</span></div>
+  </div>
+  <div class="reso-grid">
+    <div class="reso-card"><div class="tag">H1 · names</div><div class="body">File A's "secondary" → <strong>btn-outline-pill</strong>. File B's "secondary" → <strong>pill-signin</strong>. Both appear in §4 as distinct tiers. No more name collisions.</div></div>
+    <div class="reso-card"><div class="tag">H2 · italic</div><div class="body">Tertiary text-link is <strong>italic EB Garamond + dashed underline</strong> (DOC5 §AM v2 italic rule). Overrides File A's prior "no italic" drift fix.</div></div>
+    <div class="reso-card"><div class="tag">H3 · outline</div><div class="body">File A's bordered uppercase pill = <code>btn-outline-pill</code> (Cinzel caps · paperHair border). File B's <code>ghost</code> stays as the inline borderless link.</div></div>
+    <div class="reso-card"><div class="tag">H4 · toggle</div><div class="body">Default: <strong>44 × 26 / knob 20 / 200ms cubic-bezier</strong>. The 48 × 28 / knob 24 onboarding variant is a documented sub-spec, not a separate component.</div></div>
+    <div class="reso-card"><div class="tag">H5 · radio</div><div class="body">Custom <strong>18 × 18 ring + 9 × 9 ink dot</strong> pseudo-element. Native <code>&lt;input type="radio"&gt;</code> not used.</div></div>
+    <div class="reso-card"><div class="tag">H6 · lock</div><div class="body">Keep both lock layouts. <strong>lock-card</strong> (B · screen-level, chip-over-icon stack) for feature gating; <strong>lock-row-listing</strong> (A · 3-col) for list rows.</div></div>
+    <div class="reso-card"><div class="tag">H7 · close chip</div><div class="body">Modal close chip is <strong>32 × 32</strong> (File B). Replaces File A's 28 × 28 chip.</div></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     §1 FOUNDATIONS RECAP
+     ============================================================ -->
+<section id="s1">
+  <div class="section-head">
+    <span class="num">§1</span>
+    <h2>Foundations recap</h2>
+    <div class="rule">Token extract for quick reference. Authoritative source is <code>Design/tokens.css</code>. <span class="cite">primitives-library.html</span></div>
+  </div>
+
+  <p class="section-intro">
+    Components on this page consume the canonical token set — paper / ink / bronze / element pigments, the seven-step radius scale, and three shadow tiers. Nothing here introduces a new primitive. If a value below drifts from <code>tokens.css</code>, treat that as a doc-patch trigger: fix <code>tokens.css</code> first, then resync this file. The Amendment-locked italic rule and the IA tab-icon reframe are summarised after the token tables.
+  </p>
+
+  <h3 class="subhead">Surface, ink &amp; bronze · the floor</h3>
+  <div class="cardstock" style="padding:22px">
+    <ul class="token-list">
+      <li><span class="k">Paper / silk</span><span class="v"><code>--cream #F8F6F0</code> · <code>--silk #F1E9D6</code> · <code>--silkDeep #ECE2C9</code> · <code>--paperHair #CDBE9E</code></span></li>
+      <li><span class="k">Ink ramp</span><span class="v"><code>--ink #2B2722</code> · <code>--inkSoft #4A433B</code> · <code>--inkLight #857D72</code> · <code>--inkMist #B8AFA1</code></span></li>
+      <li><span class="k">Bronze ramp</span><span class="v"><code>--bronzeLight #9d8468</code> · <code>--bronze #8b7355</code> · <code>--bronzeDark #6b5339</code> · <code>--walnut #5a4430</code></span></li>
+      <li><span class="k">Accents</span><span class="v"><code>--gold #D4AF37</code> · <code>--seal #A04030</code> · <code>--advisor #7a5e9a</code> · <code>--dmBorder #584A3E</code></span></li>
+      <li><span class="k">Element pigments</span><span class="v"><code>--metal/Deep</code> · <code>--wood/Deep</code> · <code>--fire/Deep</code> · <code>--earth/Deep</code> · <code>--water/Deep</code></span></li>
+      <li><span class="k">Surface fills</span><span class="v"><code>--cardstock-bg rgba(248,241,225,0.92)</code> · <code>--quiet-bg #EBE5D6</code> · <code>--tabbar-bg rgba(253,253,252,0.85)</code></span></li>
+    </ul>
+  </div>
+
+  <h3 class="subhead">Radius scale · seven steps</h3>
+  <div class="cardstock" style="padding:22px">
+    <ul class="token-list">
+      <li><span class="k">1 px</span><span class="v">hairline rules · DM grid lines</span></li>
+      <li><span class="k">8 px</span><span class="v">small chips · banner corners</span></li>
+      <li><span class="k">10 px</span><span class="v">onboarding continue button (rectangular variant)</span></li>
+      <li><span class="k">12 px</span><span class="v">form inputs · list-row cards · compact strips</span></li>
+      <li><span class="k">14 px</span><span class="v">parchment surfaces · form cells · drift-item nests</span></li>
+      <li><span class="k">16 px</span><span class="v">cardstock + thumb tile boundary · §C section containers</span></li>
+      <li><span class="k">22 px</span><span class="v">TOC · cardstock-large · bottom-sheet top corners</span></li>
+      <li><span class="k">999 px</span><span class="v">pill CTAs · toggles · chips · badges</span></li>
+    </ul>
+  </div>
+
+  <h3 class="subhead">Shadow scale · three tiers</h3>
+  <div class="cardstock" style="padding:22px">
+    <ul class="token-list">
+      <li><span class="k">--shadow-card</span><span class="v"><code>0 1px 0 rgba(43,39,34,0.04)</code> — flat resting card / row</span></li>
+      <li><span class="k">--shadow-cta</span><span class="v"><code>0 6px 18px rgba(40,30,20,0.18)</code> — primary ink pill</span></li>
+      <li><span class="k">--shadow-bronze</span><span class="v"><code>0 4px 12px rgba(107,83,57,0.20)</code> — onboarding continue · bronze-fill CTA</span></li>
+      <li><span class="k">--shadow-sheet</span><span class="v"><code>0 -8px 40px rgba(0,0,0,0.12)</code> — upward shadow for bottom sheets &amp; upgrade modals</span></li>
+    </ul>
+  </div>
+
+  <div class="rule-banner" style="margin-top:26px">
+    <span class="seal-tag">Locked · DOC5 §AM v2</span>
+    <div class="body">
+      <strong>Italic rule:</strong> italic EB Garamond is reserved for <em>poetic / advisory voice</em> (taglines, subtitles, helpers, captions). It is <strong>permitted</strong> on the tertiary text-link (dashed underline below). UI labels, button captions, spec keys, footer colophons, status text and form labels are <strong>regular</strong>. Supersedes File A's prior "no italic on tertiary buttons" resolution and the older §3.5.E "italic where it feels right" phrasing.
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     §2 TYPOGRAPHY RECIPES
+     ============================================================ -->
+<section id="s2">
+  <div class="section-head">
+    <span class="num">§2</span>
+    <h2>Typography recipes</h2>
+    <div class="rule">Ten atomic blocks (File A) followed by five composed recipes (File B) — atoms before molecules. <span class="cite">File A §C1 · File B §12</span></div>
+  </div>
+
+  <p class="section-intro">
+    Every text block in the app is one of these compositions. The ten atoms below are the smallest reusable units — eyebrows, headlines, body, captions, micro-chips, status rows. The five composed recipes show how atoms stack into the textures the user actually meets on screen: card heads, force rows, hero compositions, big-number ribbons, and section-with-grid blocks.
+  </p>
+
+  <h3 class="subhead">Atoms · ten blocks</h3>
+  <div class="grid grid-2">
+
+    <article class="cell"><div class="kicker">01 · Hero pair</div>
+      <div class="tb tb-hero"><h3>The Blade</h3><p>Precision before intention</p></div>
+    </article>
+
+    <article class="cell"><div class="kicker">02 · Section header</div>
+      <div class="tb tb-section-headline">
+        <span class="eyebrow metal">YOUR ELEMENTAL NATURE</span>
+        <h3>The Metal reading</h3>
+      </div>
+    </article>
+
+    <article class="cell"><div class="kicker">03 · Card content stack</div>
+      <div class="tb tb-card-stack">
+        <span class="eyebrow bronze">CURRENT FORCE</span>
+        <h3>Order asks for an edge</h3>
+        <p>The day holds its line. Your task is not to rush the verdict, but to cut away the noise around it.</p>
+      </div>
+    </article>
+
+    <article class="cell"><div class="kicker">04 · Quote block</div>
+      <div class="tb tb-quote">
+        <hr class="brush-rule"/>
+        <p>"The edge was real before the hand learned its name."</p>
+      </div>
+    </article>
+
+    <article class="cell"><div class="kicker">05 · Data callout</div>
+      <div class="tb tb-data">
+        <strong>72%</strong>
+        <span>METAL WEIGHT</span>
+        <p>A disciplined pattern is dominating the present reading.</p>
+      </div>
+    </article>
+
+    <article class="cell"><div class="kicker">06 · Microcopy chip group</div>
+      <div class="tb microchips">
+        <span class="microchip">forge</span>
+        <span class="microchip">inheritance</span>
+        <span class="microchip">edge</span>
+      </div>
+    </article>
+
+    <article class="cell"><div class="kicker">07 · Eyebrow + chev row</div>
+      <div class="tb tb-chev-row">
+        <span class="eyebrow bronze">OPEN THREAD</span>
+        <svg viewBox="0 0 24 24"><use href="#ico-chev-r"/></svg>
+      </div>
+    </article>
+
+    <article class="cell"><div class="kicker">08 · Day-stamp eyebrow</div>
+      <div class="tb tb-daystamp">
+        <strong>庚</strong>
+        <span>GENG · 2026.05.06</span>
+      </div>
+    </article>
+
+    <article class="cell"><div class="kicker">09 · Two-line manifesto</div>
+      <div class="tb tb-manifesto">
+        <p>Where pressure gathers, form appears.<br/>Where form appears, choice sharpens.</p>
+      </div>
+    </article>
+
+    <article class="cell"><div class="kicker">10 · Status row</div>
+      <div class="tb tb-status">
+        <span>Last reading</span>
+        <strong>2 days ago</strong>
+      </div>
+    </article>
+
+  </div>
+
+  <h3 class="subhead">Composed recipes · five stacks</h3>
+
+  <div class="recipe">
+    <div class="render">
+      <div class="eyebrow metal">Metal · The Blade</div>
+      <div class="big" style="font-size:30px">Forge</div>
+      <div class="body">"Fire days press on Metal — the precision meets its furnace. Use that pressure today."</div>
+      <div class="caption">Updated this morning · 8:00 AM</div>
+    </div>
+    <div class="ann">
+      <strong>1 · Eyebrow → Title → Body → Caption</strong>
+      <ul>
+        <li>Eyebrow: 10 / ls 2.5 / element pigment</li>
+        <li>Gap to title: <strong>4</strong></li>
+        <li>Title: Cormorant 30 / 500 / <code class="token">--ink</code></li>
+        <li>Gap to body: <strong>10</strong></li>
+        <li>Body: EB Garamond 14 / <code class="token">--inkSoft</code> / 1.65</li>
+        <li>Caption: italic 12 / <code class="token">--inkLight</code></li>
+      </ul>
+      <span class="cite">Card content · cardstock surface</span>
+    </div>
+  </div>
+
+  <div class="recipe">
+    <div class="render">
+      <div class="eyebrow fire">Catalyst</div>
+      <div class="force">The Trial</div>
+      <div class="italic" style="margin-top:8px">"Fire enters · the metal must hold its edge."</div>
+    </div>
+    <div class="ann">
+      <strong>2 · Eyebrow → Force → Sentence</strong>
+      <ul>
+        <li>Eyebrow: element pigment per role</li>
+        <li>Force: Cormorant 24 / 500 / <code class="token">--ink</code></li>
+        <li>Sentence: italic 15 / <code class="token">--inkSoft</code></li>
+        <li>Stack tight — gap 4 / 8</li>
+      </ul>
+      <span class="cite">Force-row vertical · Energy Map</span>
+    </div>
+  </div>
+
+  <div class="recipe">
+    <div class="render" style="text-align:center; padding:30px 0">
+      <div style="font-family:'Cinzel', serif; font-size:22px; font-weight:500; letter-spacing:10px; color:var(--ink); margin-bottom:18px">ELEMENTUM</div>
+      <div class="italic" style="font-size:16px; max-width:280px; margin:0 auto">Your elemental energy,<br/>read from the moment you were born.</div>
+      <div style="margin-top:24px"><button class="btn pill-cta">Discover Yours <span class="arr">→</span></button></div>
+    </div>
+    <div class="ann">
+      <strong>3 · Wordmark → Tagline → CTA</strong>
+      <ul>
+        <li>Wordmark anchored at <code>bottom: 240</code></li>
+        <li>Wordmark → tagline gap: <strong>22</strong></li>
+        <li>Tagline → CTA gap: <strong>120</strong> (CTA at <code>bottom: 80</code>)</li>
+        <li>Wordmark Cinzel 22 / ls 10 · tagline italic 17</li>
+      </ul>
+      <span class="cite">Welcome hero · DOC5 §6</span>
+    </div>
+  </div>
+
+  <div class="recipe">
+    <div class="render" style="text-align:center; padding:20px 0">
+      <div class="eyebrow ink">Saturation</div>
+      <div class="number">50<span style="font-size:24px; color:var(--inkLight)">%</span></div>
+      <div class="italic" style="margin-top:6px">Concentrated — a strong main current.</div>
+    </div>
+    <div class="ann">
+      <strong>4 · Eyebrow → Big number → Italic descriptor</strong>
+      <ul>
+        <li>Number: Cormorant 48 / 500 / <code class="token">--ink</code> / line-height 1</li>
+        <li>Unit: 24 / <code class="token">--inkLight</code> · inline</li>
+        <li>Descriptor: italic 14 / <code class="token">--inkSoft</code></li>
+      </ul>
+      <span class="cite">Identity ribbon · Reveal §2 / Energy Map</span>
+    </div>
+  </div>
+
+  <div class="recipe">
+    <div class="render">
+      <div class="eyebrow bronze">Forces · 2 of 8</div>
+      <div class="big" style="font-size:24px">Energy Blueprint</div>
+      <div class="italic" style="margin-top:6px; font-size:14px">Two currents shape how you act.</div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:14px">
+        <div class="quiet" style="padding:10px"><span class="eyebrow metal" style="font-size:9px">Primary</span><div style="font-family:'Cormorant Garamond', serif; font-size:18px">The General</div></div>
+        <div class="quiet" style="padding:10px"><span class="eyebrow earth" style="font-size:9px">Secondary</span><div style="font-family:'Cormorant Garamond', serif; font-size:18px">The Builder</div></div>
+      </div>
+    </div>
+    <div class="ann">
+      <strong>5 · Section title → Description → Card grid</strong>
+      <ul>
+        <li>Eyebrow + title in cardstock head</li>
+        <li>Description italic 14</li>
+        <li>Gap to grid: <strong>14</strong></li>
+        <li>Grid: 2 col · gap 8 · quiet surface</li>
+      </ul>
+      <span class="cite">Energy Map sections</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     §3 ICONOGRAPHY
+     ============================================================ -->
+<section id="s3">
+  <div class="section-head">
+    <span class="num">§3</span>
+    <h2>Iconography</h2>
+    <div class="rule">Five element marks · ten day-master stems · four force roles · five reading icons · five tab icons · fourteen affordances. <span class="cite">icons.svg · 33 symbols + 6 chrome extras</span></div>
+  </div>
+
+  <p class="section-intro">
+    Every symbol on this page is consumed from the <code>icons.svg</code> sprite embedded at the top of <code>&lt;body&gt;</code>. Convention is locked: <code>viewBox 0 0 24 24</code> · stroke <strong>1.7</strong> · <code>currentColor</code> · round caps and joins · <code>fill: none</code> unless explicit. Two sub-sections still carry the <strong>PLACEHOLDER</strong> flag — day-master stems (DA.2, ink-wash brushwork to commission) and reading-section icons (DA.9, refinement welcome). The line glyphs shown for those are valid fall-throughs until the painted versions land.
+  </p>
+
+  <h3 class="subhead">3a · Element marks · five (sealed v2 · Set E3)</h3>
+  <p class="section-intro" style="margin-top:-4px">
+    Production silhouette set sealed 2026-05-21 from the ChatGPT Set E3 delivery. Each mark is monochrome (<code>fill:currentColor</code>, evenodd cutouts on Metal / Wood / Fire), 24×24 viewBox, tuned for 12–36 px UI surfaces and 52 px hero contexts. Element hue flows from the host container — no hardcoded colors inside the symbol.
+  </p>
+  <div class="exp-set">
+    <div class="exp-set-head">
+      <div>
+        <span class="exp-eyebrow">Five Element Marks · Final</span>
+        <h4>Sealed canonical · Set E3</h4>
+        <p>Showpiece at 52 px above the six-step scale ramp (12 / 16 / 20 / 24 / 28 / 36 px) for small-size readability. Italic line gives the visual essence; the code token is the consumer reference.</p>
+      </div>
+      <div class="exp-direction">Sealed 2026-05-21</div>
+    </div>
+    <div class="exp-marks-grid">
+
+      <div class="exp-mark-card metal">
+        <div class="exp-icon-field"><svg class="exp-mark hero" viewBox="0 0 24 24"><use href="#el-metal"/></svg></div>
+        <div class="exp-label"><strong>Metal · 金</strong><span>faceted blade / forged shard</span></div>
+        <div class="exp-scale-row">
+          <svg class="exp-mark s12" viewBox="0 0 24 24"><use href="#el-metal"/></svg>
+          <svg class="exp-mark s16" viewBox="0 0 24 24"><use href="#el-metal"/></svg>
+          <svg class="exp-mark s20" viewBox="0 0 24 24"><use href="#el-metal"/></svg>
+          <svg class="exp-mark s24" viewBox="0 0 24 24"><use href="#el-metal"/></svg>
+          <svg class="exp-mark s28" viewBox="0 0 24 24"><use href="#el-metal"/></svg>
+          <svg class="exp-mark s36" viewBox="0 0 24 24"><use href="#el-metal"/></svg>
+        </div>
+        <p class="exp-microcopy">defined, sharp, reflective</p>
+        <code class="el-token">#el-metal</code>
+      </div>
+
+      <div class="exp-mark-card wood">
+        <div class="exp-icon-field"><svg class="exp-mark hero" viewBox="0 0 24 24"><use href="#el-wood"/></svg></div>
+        <div class="exp-label"><strong>Wood · 木</strong><span>stem with two readable leaves</span></div>
+        <div class="exp-scale-row">
+          <svg class="exp-mark s12" viewBox="0 0 24 24"><use href="#el-wood"/></svg>
+          <svg class="exp-mark s16" viewBox="0 0 24 24"><use href="#el-wood"/></svg>
+          <svg class="exp-mark s20" viewBox="0 0 24 24"><use href="#el-wood"/></svg>
+          <svg class="exp-mark s24" viewBox="0 0 24 24"><use href="#el-wood"/></svg>
+          <svg class="exp-mark s28" viewBox="0 0 24 24"><use href="#el-wood"/></svg>
+          <svg class="exp-mark s36" viewBox="0 0 24 24"><use href="#el-wood"/></svg>
+        </div>
+        <p class="exp-microcopy">growing, branching, alive</p>
+        <code class="el-token">#el-wood</code>
+      </div>
+
+      <div class="exp-mark-card fire">
+        <div class="exp-icon-field"><svg class="exp-mark hero" viewBox="0 0 24 24"><use href="#el-fire"/></svg></div>
+        <div class="exp-label"><strong>Fire · 火</strong><span>sharp triple flame, not a droplet</span></div>
+        <div class="exp-scale-row">
+          <svg class="exp-mark s12" viewBox="0 0 24 24"><use href="#el-fire"/></svg>
+          <svg class="exp-mark s16" viewBox="0 0 24 24"><use href="#el-fire"/></svg>
+          <svg class="exp-mark s20" viewBox="0 0 24 24"><use href="#el-fire"/></svg>
+          <svg class="exp-mark s24" viewBox="0 0 24 24"><use href="#el-fire"/></svg>
+          <svg class="exp-mark s28" viewBox="0 0 24 24"><use href="#el-fire"/></svg>
+          <svg class="exp-mark s36" viewBox="0 0 24 24"><use href="#el-fire"/></svg>
+        </div>
+        <p class="exp-microcopy">heat, rising motion, ignition</p>
+        <code class="el-token">#el-fire</code>
+      </div>
+
+      <div class="exp-mark-card earth">
+        <div class="exp-icon-field"><svg class="exp-mark hero" viewBox="0 0 24 24"><use href="#el-earth"/></svg></div>
+        <div class="exp-label"><strong>Earth · 土</strong><span>mountain mass + stable ground</span></div>
+        <div class="exp-scale-row">
+          <svg class="exp-mark s12" viewBox="0 0 24 24"><use href="#el-earth"/></svg>
+          <svg class="exp-mark s16" viewBox="0 0 24 24"><use href="#el-earth"/></svg>
+          <svg class="exp-mark s20" viewBox="0 0 24 24"><use href="#el-earth"/></svg>
+          <svg class="exp-mark s24" viewBox="0 0 24 24"><use href="#el-earth"/></svg>
+          <svg class="exp-mark s28" viewBox="0 0 24 24"><use href="#el-earth"/></svg>
+          <svg class="exp-mark s36" viewBox="0 0 24 24"><use href="#el-earth"/></svg>
+        </div>
+        <p class="exp-microcopy">mass, terrain, support</p>
+        <code class="el-token">#el-earth</code>
+      </div>
+
+      <div class="exp-mark-card water">
+        <div class="exp-icon-field"><svg class="exp-mark hero" viewBox="0 0 24 24"><use href="#el-water"/></svg></div>
+        <div class="exp-label"><strong>Water · 水</strong><span>two horizontal waves, clearly separate from fire</span></div>
+        <div class="exp-scale-row">
+          <svg class="exp-mark s12" viewBox="0 0 24 24"><use href="#el-water"/></svg>
+          <svg class="exp-mark s16" viewBox="0 0 24 24"><use href="#el-water"/></svg>
+          <svg class="exp-mark s20" viewBox="0 0 24 24"><use href="#el-water"/></svg>
+          <svg class="exp-mark s24" viewBox="0 0 24 24"><use href="#el-water"/></svg>
+          <svg class="exp-mark s28" viewBox="0 0 24 24"><use href="#el-water"/></svg>
+          <svg class="exp-mark s36" viewBox="0 0 24 24"><use href="#el-water"/></svg>
+        </div>
+        <p class="exp-microcopy">flow, pooling, current</p>
+        <code class="el-token">#el-water</code>
+      </div>
+
+    </div>
+  </div>
+
+  <h3 class="subhead">3b · Day-master stems · ten <span style="color:var(--seal); font-weight:600">· PLACEHOLDER (DA.2)</span></h3>
+  <div class="icon-grid grid-5">
+    <div class="icon-cell placeholder dm-cell"><svg class="ico"><use href="#dm-jia"/></svg><span class="stem-glyph" style="color:var(--woodDeep)">甲</span><div class="py">Jiǎ</div><div class="nm">Yang Wood</div><span class="ph-flag">ph</span></div>
+    <div class="icon-cell placeholder dm-cell"><svg class="ico"><use href="#dm-yi"/></svg><span class="stem-glyph" style="color:var(--woodDeep)">乙</span><div class="py">Yǐ</div><div class="nm">Yin Wood</div><span class="ph-flag">ph</span></div>
+    <div class="icon-cell placeholder dm-cell"><svg class="ico"><use href="#dm-bing"/></svg><span class="stem-glyph" style="color:var(--fireDeep)">丙</span><div class="py">Bǐng</div><div class="nm">Yang Fire</div><span class="ph-flag">ph</span></div>
+    <div class="icon-cell placeholder dm-cell"><svg class="ico"><use href="#dm-ding"/></svg><span class="stem-glyph" style="color:var(--fireDeep)">丁</span><div class="py">Dīng</div><div class="nm">Yin Fire</div><span class="ph-flag">ph</span></div>
+    <div class="icon-cell placeholder dm-cell"><svg class="ico"><use href="#dm-wu"/></svg><span class="stem-glyph" style="color:var(--earthDeep)">戊</span><div class="py">Wù</div><div class="nm">Yang Earth</div><span class="ph-flag">ph</span></div>
+    <div class="icon-cell placeholder dm-cell"><svg class="ico"><use href="#dm-ji"/></svg><span class="stem-glyph" style="color:var(--earthDeep)">己</span><div class="py">Jǐ</div><div class="nm">Yin Earth</div><span class="ph-flag">ph</span></div>
+    <div class="icon-cell placeholder dm-cell"><svg class="ico"><use href="#dm-geng"/></svg><span class="stem-glyph" style="color:var(--metalDeep)">庚</span><div class="py">Gēng</div><div class="nm">Yang Metal</div><span class="ph-flag">ph</span></div>
+    <div class="icon-cell placeholder dm-cell"><svg class="ico"><use href="#dm-xin"/></svg><span class="stem-glyph" style="color:var(--metalDeep)">辛</span><div class="py">Xīn</div><div class="nm">Yin Metal</div><span class="ph-flag">ph</span></div>
+    <div class="icon-cell placeholder dm-cell"><svg class="ico"><use href="#dm-ren"/></svg><span class="stem-glyph" style="color:var(--waterDeep)">壬</span><div class="py">Rén</div><div class="nm">Yang Water</div><span class="ph-flag">ph</span></div>
+    <div class="icon-cell placeholder dm-cell"><svg class="ico"><use href="#dm-gui"/></svg><span class="stem-glyph" style="color:var(--waterDeep)">癸</span><div class="py">Guǐ</div><div class="nm">Yin Water</div><span class="ph-flag">ph</span></div>
+  </div>
+
+  <h3 class="subhead">3c · Force roles · four (from File B §11)</h3>
+  <div class="icon-grid grid-4">
+    <div class="icon-cell"><svg class="ico" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4" fill="currentColor"/></svg><div class="nm">Primary force</div><div class="tk">solid centre</div></div>
+    <div class="icon-cell"><svg class="ico" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/></svg><div class="nm">Secondary force</div><div class="tk">open centre</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#ico-arrow-up"/></svg><div class="nm">Catalyst (↑)</div><div class="tk">upward</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#ico-arrow-down"/></svg><div class="nm">Resistance (↓)</div><div class="tk">downward</div></div>
+  </div>
+
+  <h3 class="subhead">3d · Reading-section icons · five <span style="color:var(--seal); font-weight:600">· PLACEHOLDER (DA.9)</span></h3>
+  <div class="icon-grid grid-5">
+    <div class="icon-cell placeholder"><svg class="ico"><use href="#read-elemental"/></svg><div class="nm">Elemental Nature</div><div class="tk">#read-elemental</div><span class="ph-flag">ph</span></div>
+    <div class="icon-cell placeholder"><svg class="ico"><use href="#read-dominant"/></svg><div class="nm">Dominant Energies</div><div class="tk">#read-dominant</div><span class="ph-flag">ph</span></div>
+    <div class="icon-cell placeholder"><svg class="ico"><use href="#read-forces"/></svg><div class="nm">Forces in Motion</div><div class="tk">#read-forces</div><span class="ph-flag">ph</span></div>
+    <div class="icon-cell placeholder"><svg class="ico"><use href="#read-chapters"/></svg><div class="nm">Life Chapters</div><div class="tk">#read-chapters</div><span class="ph-flag">ph</span></div>
+    <div class="icon-cell placeholder"><svg class="ico"><use href="#read-pillars"/></svg><div class="nm">Pillar Patterns</div><div class="tk">#read-pillars</div><span class="ph-flag">ph</span></div>
+  </div>
+
+  <h3 class="subhead">3e · Tab icons · five (sealed v1 §4 · DOC5 §AM IA reframe)</h3>
+  <div class="icon-grid grid-5">
+    <div class="icon-cell"><svg class="ico"><use href="#tab-today"/></svg><div class="nm">Today</div><div class="tk">#tab-today</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#tab-guidance"/></svg><div class="nm">Guidance</div><div class="tk">#tab-guidance</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#tab-reading"/></svg><div class="nm">Reading</div><div class="tk">#tab-reading</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#tab-compat"/></svg><div class="nm">Compatibility</div><div class="tk">#tab-compat</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#tab-profile"/></svg><div class="nm">Profile</div><div class="tk">#tab-profile</div></div>
+  </div>
+
+  <h3 class="subhead">3f · Affordance / utility · fourteen (A ∪ B merged)</h3>
+  <div class="icon-grid grid-6">
+    <div class="icon-cell"><svg class="ico"><use href="#ico-chev-r"/></svg><div class="nm">Chevron right</div><div class="tk">›</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#ico-chev-l"/></svg><div class="nm">Chevron left</div><div class="tk">‹</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#ico-arrow-r"/></svg><div class="nm">Arrow right</div><div class="tk">→</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#ico-arrow-up"/></svg><div class="nm">Arrow up</div><div class="tk">↑</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#ico-arrow-down"/></svg><div class="nm">Arrow down</div><div class="tk">↓</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#ico-dismiss"/></svg><div class="nm">Dismiss</div><div class="tk">×</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#ico-lock"/></svg><div class="nm">Lock</div><div class="tk">closed</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#ico-info"/></svg><div class="nm">Info</div><div class="tk">ⓘ</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#ico-alert"/></svg><div class="nm">Alert</div><div class="tk">⚠</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#ico-check"/></svg><div class="nm">Check</div><div class="tk">✓</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#ico-pin"/></svg><div class="nm">Pin</div><div class="tk">location</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#ico-bell"/></svg><div class="nm">Bell</div><div class="tk">notify</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#ico-sunrise"/></svg><div class="nm">Sunrise</div><div class="tk">today</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#ico-empty"/></svg><div class="nm">Empty</div><div class="tk">vessel</div></div>
+    <div class="icon-cell"><svg class="ico"><use href="#ico-edit"/></svg><div class="nm">Edit</div><div class="tk">pencil</div></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     §4 BUTTONS · 6 tier × 3 state matrix
+     ============================================================ -->
+<section id="s4">
+  <div class="section-head">
+    <span class="num">§4</span>
+    <h2>Buttons · six tiers × three states</h2>
+    <div class="rule">18 cells. Tier names renamed to remove ambiguity (see H1/H2/H3). Italic tertiary link is canonical (H2). <span class="cite">DOC5 §AM · build-brief H1–H3</span></div>
+  </div>
+
+  <p class="section-intro">
+    Six tiers cover the full button vocabulary. Each renders in three states (default / pressed / disabled). Tier 4 — the tertiary text-link — is <em>deliberately italic</em>, with a dashed underline (DOC5 §AM v2 italic rule, H2 lock). The onboarding back/continue pair is a flow-specific variant: it composes from these tiers but ships with onboarding-specific geometry; it's documented separately at the bottom of this section, not on the matrix.
+  </p>
+
+  <div class="btn-matrix">
+    <div></div>
+    <div class="head-cell">Default</div>
+    <div class="head-cell">Pressed</div>
+    <div class="head-cell">Disabled</div>
+
+    <div class="tier-label">Tier 1<br/>pill-cta</div>
+    <div class="btn-cell"><button class="btn pill-cta">Discover Yours <span class="arr">→</span></button></div>
+    <div class="btn-cell"><button class="btn pill-cta is-pressed">Discover Yours <span class="arr">→</span></button></div>
+    <div class="btn-cell"><button class="btn pill-cta is-disabled">Discover Yours <span class="arr">→</span></button></div>
+
+    <div class="tier-label">Tier 2<br/>btn-outline-pill</div>
+    <div class="btn-cell"><button class="btn btn-outline-pill">View details</button></div>
+    <div class="btn-cell"><button class="btn btn-outline-pill is-pressed">View details</button></div>
+    <div class="btn-cell"><button class="btn btn-outline-pill is-disabled">View details</button></div>
+
+    <div class="tier-label">Tier 3<br/>pill-signin</div>
+    <div class="btn-cell"><div class="pill-signin">Already mapped? <span class="accent">Sign in</span></div></div>
+    <div class="btn-cell"><div class="pill-signin is-pressed" style="transform:scale(0.96); filter:brightness(0.92)">Already mapped? <span class="accent">Sign in</span></div></div>
+    <div class="btn-cell"><div class="pill-signin is-disabled" style="opacity:0.4">Already mapped? <span class="accent">Sign in</span></div></div>
+
+    <div class="tier-label">Tier 4<br/>text-tertiary</div>
+    <div class="btn-cell"><span class="text-tertiary">Continue where you left off →</span></div>
+    <div class="btn-cell"><span class="text-tertiary" style="transform:scale(0.96); filter:brightness(0.92); display:inline-block">Continue where you left off →</span></div>
+    <div class="btn-cell"><span class="text-tertiary" style="opacity:0.4">Continue where you left off →</span></div>
+
+    <div class="tier-label">Tier 5<br/>ghost</div>
+    <div class="btn-cell"><button class="ghost">Not now</button></div>
+    <div class="btn-cell"><button class="ghost" style="transform:scale(0.96); color:var(--inkSoft)">Not now</button></div>
+    <div class="btn-cell"><button class="ghost" style="opacity:0.4">Not now</button></div>
+
+    <div class="tier-label">Tier 6<br/>btn-cta-shadow</div>
+    <div class="btn-cell"><button class="btn btn-cta-shadow">Open today</button></div>
+    <div class="btn-cell"><button class="btn btn-cta-shadow is-pressed">Open today</button></div>
+    <div class="btn-cell"><button class="btn btn-cta-shadow is-disabled">Open today</button></div>
+  </div>
+
+  <h3 class="subhead" style="margin-top:32px">Onboarding back / cont pair · flow-specific</h3>
+  <div class="cardstock" style="padding:22px">
+    <div style="display:flex; gap:12px; align-items:center">
+      <button class="onb-back">← Back</button>
+      <button class="onb-cont" style="flex:0 1 auto; min-width:200px">Continue <span style="font-size:17px; line-height:1">→</span></button>
+      <button class="onb-cont disabled" style="flex:0 1 auto; min-width:200px">Continue <span style="font-size:17px; line-height:1">→</span></button>
+    </div>
+    <p style="font-family:'EB Garamond', serif; font-style:italic; font-size:13px; color:var(--inkLight); margin:14px 0 0; line-height:1.6">
+      Shipped in <code class="token">flow/onboarding.jsx</code> only. The back button is a paperHair pill (matches Tier 2 visually but uses softer border <code>#d9d3c8</code>); the continue button is bronze-fill with radius 10 — final-step variant overrides to radius 999 and adopts Cinzel uppercase (matches Tier 1 styling). Disabled state ships with reduced bronze opacity and no shadow.
+    </p>
+  </div>
+</section>
+
+<!-- ============================================================
+     §5 FORM CONTROLS
+     ============================================================ -->
+<section id="s5">
+  <div class="section-head">
+    <span class="num">§5</span>
+    <h2>Form controls</h2>
+    <div class="rule">Text input · toggle · radio · checkbox · segmented (large + mini) · search. Toggle and radio specs locked H4/H5. <span class="cite">File B §6 + File A §C5</span></div>
+  </div>
+
+  <p class="section-intro">
+    All form controls compose from primitive tokens. The two locked decisions: toggle default geometry is <strong>44 × 26 / knob 20</strong> with a 200ms cubic-bezier; radio is a <strong>custom 18 × 18 ring + 9 × 9 ink dot</strong> pseudo-element (no native input). The 48 × 28 toggle from onboarding is shown as a documented variant in the same cell.
+  </p>
+
+  <div class="form-cell">
+    <div class="head"><span class="cap">Text input · four states + success helper row</span><span class="kicker">radius 12</span></div>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px">
+      <div>
+        <div class="label">Default</div>
+        <input class="input" placeholder="City, Country"/>
+      </div>
+      <div>
+        <div class="label">Focus</div>
+        <input class="input focus" value="New York, USA"/>
+      </div>
+      <div>
+        <div class="label">Filled</div>
+        <input class="input" value="Shanghai, China"/>
+      </div>
+      <div>
+        <div class="label">Error</div>
+        <input class="input error" value="Atlantis"/>
+        <div class="helper error">⚠ We couldn't resolve that — try City, Country.</div>
+      </div>
+    </div>
+    <div style="margin-top:14px">
+      <input class="input" value="London, UK"/>
+      <div class="helper success">✓ Coordinates set — True Solar Time will adjust.</div>
+    </div>
+  </div>
+
+  <div class="form-cell">
+    <div class="head"><span class="cap">Toggle · 44×26 default + 48×28 onboarding variant</span><span class="kicker">H4 lock</span></div>
+    <div class="row">
+      <span class="label">44×26 default</span>
+      <div class="toggle"><div class="knob"></div></div>
+      <div class="toggle on"><div class="knob"></div></div>
+    </div>
+    <div class="row" style="margin-top:14px">
+      <span class="label">48×28 onboarding</span>
+      <div class="toggle lg"><div class="knob"></div></div>
+      <div class="toggle lg on"><div class="knob"></div></div>
+    </div>
+    <p style="font-family:'EB Garamond', serif; font-style:italic; font-size:12.5px; color:var(--inkLight); margin:14px 0 0">
+      Use 48×28 for primary opt-in surfaces (onboarding step 7, profile push notifications). Use 44×26 for inline list toggles. Both inherit the 200ms cubic-bezier transition; on-state pigment is <code class="token">--bronze</code> with <code class="token">--bronzeDark</code> border. (Disabled state — visual TBD — flagged in §13.)
+    </p>
+  </div>
+
+  <div class="form-cell">
+    <div class="head"><span class="cap">Radio group · custom ring + ink dot</span><span class="kicker">H5 lock</span></div>
+    <div class="row">
+      <span class="radio"></span><span style="font-size:14px; color:var(--inkSoft)">Exact time</span>
+      <span class="radio on" style="margin-left:18px"></span><span style="font-size:14px; color:var(--ink); font-weight:500">Approximate window</span>
+      <span class="radio" style="margin-left:18px"></span><span style="font-size:14px; color:var(--inkSoft)">Unknown</span>
+    </div>
+  </div>
+
+  <div class="form-cell">
+    <div class="head"><span class="cap">Checkbox · ink fill on check</span></div>
+    <div class="row">
+      <span class="checkbox"></span><span style="font-size:14px; color:var(--inkSoft)">Daily reading</span>
+      <span class="checkbox on" style="margin-left:18px">✓</span><span style="font-size:14px; color:var(--ink); font-weight:500">Monthly digest</span>
+    </div>
+  </div>
+
+  <div class="form-cell">
+    <div class="head"><span class="cap">Segmented control · large + mini</span></div>
+    <div class="row">
+      <span class="label">Large</span>
+      <div class="seg">
+        <button class="active">Exact</button>
+        <button>Window</button>
+        <button>Unknown</button>
+      </div>
+    </div>
+    <div class="row" style="margin-top:14px">
+      <span class="label">Mini</span>
+      <div class="seg mini">
+        <button class="active">Today</button>
+        <button>Tomorrow</button>
+        <button>Weekly</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-cell">
+    <div class="head"><span class="cap">Search bar</span><span class="kicker">radius pill · w 358</span></div>
+    <label class="search-bar">
+      <svg viewBox="0 0 24 24"><use href="#ico-edit"/></svg>
+      <input placeholder="Find a reading…"/>
+    </label>
+    <p style="font-family:'EB Garamond', serif; font-style:italic; font-size:12.5px; color:var(--inkLight); margin:14px 0 0">
+      Default state shown. Focus / filled / no-results / loading states flagged in §13 — not yet specified by either source file.
+    </p>
+  </div>
+</section>
+
+<!-- ============================================================
+     §6 CHIPS, BADGES, TAGS
+     ============================================================ -->
+<section id="s6">
+  <div class="section-head">
+    <span class="num">§6</span>
+    <h2>Chips, badges, tags</h2>
+    <div class="rule">Three rows: eyebrow + status; element tags + lock chip; four tier-badge variants. <span class="cite">File A §C6 + File B §9 tier-chip</span></div>
+  </div>
+
+  <p class="section-intro">
+    The chrome board shows every chip the app uses, at intended scale. All three rows share the 22 px pill height and ride on a cardstock surface. The fourth tier-badge variant — File B's gold-rgba tier-chip — sits beside File A's three name-bordered tiers; use it inside the lock-card pattern (§7f) where the chip needs to read against a quiet surface without competing with the lock icon.
+  </p>
+
+  <div class="chrome-board">
+    <div class="chrome-row">
+      <span class="eyebrow-chip">TODAY</span>
+      <span class="status-badge live">LIVE</span>
+      <span class="status-badge beta">BETA</span>
+      <span class="status-badge locked">LOCKED</span>
+    </div>
+    <div class="chrome-row">
+      <span class="tag-pill metal">metal</span>
+      <span class="tag-pill wood">wood</span>
+      <span class="tag-pill fire">fire</span>
+      <span class="tag-pill earth">earth</span>
+      <span class="tag-pill water">water</span>
+      <span class="lock-chip">🔒 SEEKER</span>
+    </div>
+    <div class="chrome-row">
+      <span class="tier-badge seeker">◆ Seeker</span>
+      <span class="tier-badge advisor">✦ Advisor</span>
+      <span class="tier-badge free">Free</span>
+      <span class="tier-chip-gold"><span style="font-size:9px">◆</span> Seeker · gold-rgba</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     §7 CARDS
+     ============================================================ -->
+<section id="s7">
+  <div class="section-head">
+    <span class="num">§7</span>
+    <h2>Cards</h2>
+    <div class="rule">Element tile · section hero · compact strip · featured · reading-row · locked (both layouts) · blur preview · empty (both). <span class="cite">File A §C3 + File B §9</span></div>
+  </div>
+
+  <p class="section-intro">
+    Eight card archetypes cover every container the app uses. The two lock layouts (H6) coexist: <code>lock-card</code> for screen-level feature gates, <code>lock-row-listing</code> for list rows. The two empty states coexist: the A dashed-border <code>empty-card</code> for missing data on dashboards; the B poetic <code>empty-state</code> with an SC glyph for moments where the absence itself is part of the reading. The painterly hero / strip cards substitute a CSS-gradient fallback in this file; the live app overlays the Tier-1 PNG (e.g. <code>atmospheric-depth/atmospheric-5-layer.png</code>).
+  </p>
+
+  <h3 class="subhead">7a · Element tile · 144 × 144</h3>
+  <div class="cell">
+    <div class="kicker">w 144 · h 144 · radius 16</div>
+    <div style="display:flex; gap:18px; flex-wrap:wrap">
+      <div class="element-tile metal-tile">
+        <svg class="dm-icon" viewBox="0 0 24 24"><use href="#dm-geng"/></svg>
+        <span class="polarity-chip">Yang</span>
+        <div class="stem-label"><strong>庚</strong><span>gēng · metal</span></div>
+      </div>
+      <div class="element-tile wood-tile">
+        <svg class="dm-icon" viewBox="0 0 24 24" style="color:rgba(88,122,77,0.85)"><use href="#dm-jia"/></svg>
+        <span class="polarity-chip">Yang</span>
+        <div class="stem-label"><strong>甲</strong><span>jiǎ · wood</span></div>
+      </div>
+      <div class="element-tile fire-tile">
+        <svg class="dm-icon" viewBox="0 0 24 24" style="color:rgba(158,85,64,0.85)"><use href="#dm-bing"/></svg>
+        <span class="polarity-chip">Yang</span>
+        <div class="stem-label"><strong>丙</strong><span>bǐng · fire</span></div>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="subhead">7b · Section hero · 358 × 340</h3>
+  <div class="cell">
+    <div class="kicker">w 358 · h 340 · radius 16 · painterly bg (fallback gradient shown)</div>
+    <div class="section-hero hero-card">
+      <div class="hero-bg-fallback"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <div class="segmented mini"><span class="active">Today</span><span>Tomorrow</span><span>Weekly</span></div>
+        <div class="daystamp"><strong>庚</strong><span>GENG · 2026.05.06</span></div>
+        <h3>The Blade returns</h3>
+        <p class="subheadline">Precision before intention</p>
+        <button class="btn pill-cta">Begin reading</button>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="subhead">7c · Compact strip · 358 × 96</h3>
+  <div class="cell">
+    <div class="kicker">3-col grid · 88 + 1fr + 22</div>
+    <div class="compact-strip">
+      <div class="strip-bg"></div>
+      <div class="strip-thumb"></div>
+      <div><h3>Weekly ridge</h3><p>Read the pattern that is building underneath.</p></div>
+      <svg viewBox="0 0 24 24"><use href="#ico-chev-r"/></svg>
+    </div>
+    <div class="daily-snippet">
+      <div class="strip-bg"></div>
+      <div class="strip-thumb" style="background:linear-gradient(135deg,#C9B998,#9A8A6E)"></div>
+      <div><h3>A clarifying day</h3><p>There is less to resolve than you think.</p></div>
+      <svg viewBox="0 0 24 24"><use href="#ico-chev-r"/></svg>
+    </div>
+  </div>
+
+  <h3 class="subhead">7d · Featured card</h3>
+  <div class="cell">
+    <div class="kicker">w 358 · element-tinted · soft fill</div>
+    <div class="featured-card">
+      <span class="eyebrow metal">NEXT READ</span>
+      <h3>The inheritance of structure</h3>
+      <p>Metal days sharpen what has already been built. Read the next cue before acting.</p>
+      <span class="next-cue">Next read · open thread →</span>
+    </div>
+  </div>
+
+  <h3 class="subhead">7e · Reading-row card · 720 × 72</h3>
+  <div class="cell">
+    <div class="kicker">3-col grid · 44 icon + 1fr + 22 chev</div>
+    <div class="reading-row-card">
+      <span class="read-icon"><svg viewBox="0 0 24 24"><use href="#read-elemental"/></svg></span>
+      <div><h3>Elemental profile</h3><p>Dominant signal, missing force, and current pressure.</p></div>
+      <svg class="chev" viewBox="0 0 24 24"><use href="#ico-chev-r"/></svg>
+    </div>
+  </div>
+
+  <h3 class="subhead">7f · Lock — both layouts (H6 lock)</h3>
+  <div class="grid grid-2">
+    <div>
+      <div class="kicker" style="margin-bottom:8px">B · lock-card (screen-level)</div>
+      <div class="lock-card">
+        <div class="lock-row">
+          <div>
+            <span class="eyebrow bronze">Energy Manual</span>
+            <div style="font-family:'Cormorant Garamond', serif; font-size:22px; color:var(--ink); margin-top:4px">Your 5-domain reading</div>
+            <div style="font-family:'EB Garamond', serif; font-size:13.5px; font-style:italic; color:var(--inkLight); margin-top:4px">Unlock with Seeker.</div>
+          </div>
+          <div style="display:flex; flex-direction:column; align-items:flex-end; gap:8px">
+            <span class="tier-chip-gold"><span style="font-size:9px">◆</span> Seeker</span>
+            <svg width="22" height="22" viewBox="0 0 24 24" style="color:var(--bronzeDark)"><use href="#ico-lock"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="kicker" style="margin-bottom:8px">A · lock-row-listing (list row)</div>
+      <div class="lock-row-listing">
+        <svg viewBox="0 0 24 24"><use href="#ico-lock"/></svg>
+        <div>
+          <h3>Advisor pattern</h3>
+          <p>Unlock the full relationship between pressure and timing.</p>
+        </div>
+        <span class="tier-badge seeker">◆ Seeker</span>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="subhead">7g · Blur preview + continue link (File B)</h3>
+  <div class="grid grid-2">
+    <div class="blur-card">
+      <div class="blurred">
+        <span class="eyebrow fire">Catalyst · Fire</span>
+        <div style="font-family:'Cormorant Garamond', serif; font-size:22px; color:var(--ink); margin-top:4px">The Trial</div>
+        <div style="font-family:'EB Garamond', serif; font-size:13.5px; color:var(--inkSoft); line-height:1.65; margin-top:6px">Fire days press on Metal — the precision meets its furnace. Use that pressure today: it's not friction…</div>
+      </div>
+      <div class="overlay">Preview only</div>
+    </div>
+    <div class="quiet" style="display:flex; justify-content:space-between; align-items:center; gap:12px">
+      <div>
+        <span class="eyebrow bronze">Resume reading</span>
+        <div style="font-family:'Cormorant Garamond', serif; font-size:18px; color:var(--ink); margin-top:2px">Your nature · §3 of 7</div>
+      </div>
+      <span class="text-tertiary" style="color:var(--inkLight)">Continue where you left off →</span>
+    </div>
+  </div>
+
+  <h3 class="subhead">7h · Empty — both layouts</h3>
+  <div class="grid grid-2">
+    <div>
+      <div class="kicker" style="margin-bottom:8px">A · empty-card (dashed)</div>
+      <div class="empty-card">
+        <svg viewBox="0 0 24 24"><use href="#ico-empty"/></svg>
+        <h3>No reading saved</h3>
+        <p>When a reading is pinned, it will appear here.</p>
+      </div>
+    </div>
+    <div>
+      <div class="kicker" style="margin-bottom:8px">B · empty-state (poetic, SC glyph)</div>
+      <div class="empty-state">
+        <div class="glyph">水</div>
+        <div class="copy">No chapters yet.<br/>Your decade arc unfolds with time.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     §8 THUMBNAILS / TILES
+     ============================================================ -->
+<section id="s8">
+  <div class="section-head">
+    <span class="num">§8</span>
+    <h2>Thumbnails / tiles</h2>
+    <div class="rule">Seven reusable 200 × 200 patterns. Painterly variants use Tier-1 PNGs in production; CSS-gradient fallbacks shown here. <span class="cite">File A §C4</span></div>
+  </div>
+
+  <p class="section-intro">
+    Seven thumbnail patterns cover the catalogue, card-grid, and lock-state surfaces. Each is 200 × 200 with a 16 px radius and a 1 px paperHair border. The "stem painted" variant carries a brushed glyph; the painterly / locked variants reference <code>atmospheric-depth/</code> and <code>brush-samples/</code> PNGs in the live app — here we render gradient fallbacks so this file stays self-contained. Interaction states (hover · selected · locked-loading · video-ready) are flagged open in §13.
+  </p>
+
+  <div class="thumb-grid">
+    <div class="thumb-cell"><div class="kicker">Stem painted · 庚 Geng</div>
+      <div class="thumb stem-painted"><span class="brush">庚</span></div>
+    </div>
+    <div class="thumb-cell"><div class="kicker">Square element</div>
+      <div class="thumb square-element"><svg viewBox="0 0 24 24"><use href="#dm-geng"/></svg><span>庚</span></div>
+    </div>
+    <div class="thumb-cell"><div class="kicker">Painterly · ridge composition</div>
+      <div class="thumb painterly"></div>
+    </div>
+    <div class="thumb-cell"><div class="kicker">Tall ink stroke</div>
+      <div class="thumb tall-stroke"></div>
+    </div>
+    <div class="thumb-cell"><div class="kicker">Overlay · titled</div>
+      <div class="thumb overlay-thumb"><span>The Ridge</span></div>
+    </div>
+    <div class="thumb-cell"><div class="kicker">Gradient · element glyph</div>
+      <div class="thumb gradient-thumb"><svg viewBox="0 0 24 24"><use href="#el-metal"/></svg></div>
+    </div>
+    <div class="thumb-cell"><div class="kicker">Locked · blur + tier chip</div>
+      <div class="thumb locked-thumb"><span>🔒 SEEKER</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     §9 BOTTOM TAB NAVIGATION
+     ============================================================ -->
+<section id="s9">
+  <div class="section-head">
+    <span class="num">§9</span>
+    <h2>Bottom tab navigation</h2>
+    <div class="rule">Five tabs · 76 px bar · translucent silk · icon-only · seal-dot on Energy Map. Three states + token spec. <span class="cite">File B §4</span></div>
+  </div>
+
+  <p class="section-intro">
+    The tab bar is the only persistent UI across <code>/dashboard/*</code> — Welcome, Onboarding, Loading, Reveal, and Chart-Reveal render <em>without</em> it. Energy Map (the centre tab) is the only place the <code>--seal</code> pigment surfaces in app chrome, as a 4 px dot below the icon when active. Per DOC5 §AM, tabs are <strong>icon-only</strong> — no labels.
+  </p>
+
+  <h3 class="subhead">Three states</h3>
+  <div class="frame-grid">
+    <div class="frame-cell">
+      <div class="phone" style="height:140px">
+        <div class="silk-bg" style="background-position:center bottom"></div>
+        <div class="tabbar">
+          <div class="tab active"><svg class="ico"><use href="#tab-today"/></svg></div>
+          <div class="tab"><svg class="ico"><use href="#tab-guidance"/></svg></div>
+          <div class="tab"><svg class="ico"><use href="#tab-reading"/></svg></div>
+          <div class="tab"><svg class="ico"><use href="#tab-compat"/></svg></div>
+          <div class="tab"><svg class="ico"><use href="#tab-profile"/></svg></div>
+        </div>
+      </div>
+      <div class="frame-cap">Cold · Today active<small>Energy Map inactive · no seal dot</small></div>
+    </div>
+    <div class="frame-cell">
+      <div class="phone" style="height:140px">
+        <div class="silk-bg" style="background-position:center bottom"></div>
+        <div class="tabbar">
+          <div class="tab"><svg class="ico"><use href="#tab-today"/></svg></div>
+          <div class="tab"><svg class="ico"><use href="#tab-guidance"/></svg></div>
+          <div class="tab active"><svg class="ico"><use href="#tab-reading"/></svg><div class="seal-dot"></div></div>
+          <div class="tab"><svg class="ico"><use href="#tab-compat"/></svg></div>
+          <div class="tab"><svg class="ico"><use href="#tab-profile"/></svg></div>
+        </div>
+      </div>
+      <div class="frame-cap">Warm · Energy Map active<small>seal dot revealed beneath icon</small></div>
+    </div>
+    <div class="frame-cell">
+      <div class="phone" style="height:140px">
+        <div class="silk-bg" style="background-position:center bottom"></div>
+        <div class="tabbar">
+          <div class="tab"><svg class="ico"><use href="#tab-today"/></svg></div>
+          <div class="tab pressed" style="opacity:0.7"><svg class="ico"><use href="#tab-guidance"/></svg></div>
+          <div class="tab"><svg class="ico"><use href="#tab-reading"/></svg></div>
+          <div class="tab"><svg class="ico"><use href="#tab-compat"/></svg></div>
+          <div class="tab"><svg class="ico"><use href="#tab-profile"/></svg></div>
+        </div>
+      </div>
+      <div class="frame-cap">Pressed · Guidance<small>scale 0.96 · momentary</small></div>
+    </div>
+  </div>
+
+  <h3 class="subhead">Token spec</h3>
+  <div class="cardstock" style="padding:22px">
+    <div class="grid grid-2" style="gap:30px">
+      <ul class="token-list">
+        <li><span class="k">Container bg</span><span class="v"><code>rgba(253,253,252,0.85)</code> + blur(12)</span></li>
+        <li><span class="k">Top border</span><span class="v">1px <code>--borderLight</code></span></li>
+        <li><span class="k">Bar height</span><span class="v">76 + <code>env(safe-area-inset-bottom)</code></span></li>
+        <li><span class="k">Padding</span><span class="v">8 / 16 (top · horizontal)</span></li>
+        <li><span class="k">Tab cell</span><span class="v">w 64 · pad 14 0 16</span></li>
+      </ul>
+      <ul class="token-list">
+        <li><span class="k">Icon stroke</span><span class="v">1.7 · round caps + joins</span></li>
+        <li><span class="k">Icon size</span><span class="v">24</span></li>
+        <li><span class="k">Inactive colour</span><span class="v"><code>--inkLight #857D72</code></span></li>
+        <li><span class="k">Active colour</span><span class="v"><code>--ink</code> + 4×4 <code>--seal</code> dot (Map only)</span></li>
+        <li><span class="k">Pressed</span><span class="v">scale 0.96 · momentary</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     §10 MODAL TAXONOMY
+     ============================================================ -->
+<section id="s10">
+  <div class="section-head">
+    <span class="num">§10</span>
+    <h2>Modal taxonomy · three patterns</h2>
+    <div class="rule">Bottom sheet · full-page · upgrade sheet. Modal close chip 32 × 32 (H7 lock). Cross-ref: §7's modal-hero card. <span class="cite">File B §5</span></div>
+  </div>
+
+  <p class="section-intro">
+    Three modal patterns cover every overlay in the app. Pattern A (bottom sheet) is drag-resizable. Pattern B (full-page) pushes as a page — no backdrop scrim, "‹ Back" eyebrow top-left. Pattern C (upgrade sheet) is 85% fixed-height with a 32 × 32 close chip top-right and a "Not now" ghost link bottom-centre. The §7 modal-hero card is a screen-level <em>content</em> pattern that may appear <em>inside</em> any of these three containers — not a fourth modal type.
+  </p>
+
+  <div class="frame-grid">
+
+    <div class="frame-cell">
+      <div class="modal-stage">
+        <div class="stage-bg"></div>
+        <div style="position:absolute; inset:0; padding:60px 22px; opacity:0.55">
+          <span class="eyebrow ink" style="opacity:0.8">‹ Friends</span>
+          <h2 style="font-family:'Cormorant Garamond', serif; font-size:24px; color:var(--ink); margin:6px 0 16px">Compatibility</h2>
+          <div style="background:rgba(248,241,225,0.75); border:1px solid var(--paperHair); border-radius:14px; height:80px"></div>
+        </div>
+        <div class="scrim"></div>
+        <div class="sheet-bottom">
+          <div class="grab"></div>
+          <h3>Mei · The Vine</h3>
+          <p>"Wood softens Metal — the Vine wraps the Blade. Trust runs both ways here."</p>
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px">
+            <div class="parchment" style="text-align:center"><span class="eyebrow wood">Wood × Metal</span><div style="font-family:'Cormorant Garamond',serif; font-size:22px; color:var(--ink); margin-top:4px">Yielding</div></div>
+            <div class="parchment" style="text-align:center"><span class="eyebrow ink">Score</span><div style="font-family:'Cormorant Garamond',serif; font-size:22px; color:var(--ink); margin-top:4px">82 / 100</div></div>
+          </div>
+          <button class="btn pill-cta" style="width:100%; margin-top:16px">Read full <span class="arr">→</span></button>
+        </div>
+      </div>
+      <div class="frame-cap">A · Bottom sheet<small>compatibility result · ~80% height</small></div>
+    </div>
+
+    <div class="frame-cell">
+      <div class="modal-stage">
+        <div class="stage-bg"></div>
+        <div class="full-modal">
+          <div class="back-row"><span style="font-size:14px">‹</span> Back</div>
+          <span class="eyebrow bronze" style="margin-bottom:6px; display:block">YOUR CHART · 庚 GENG</span>
+          <h2 style="font-family:'Cormorant Garamond', serif; font-size:26px; color:var(--ink); margin:0 0 18px; letter-spacing:0.4px">Birth chart</h2>
+          <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:10px">
+            <div style="display:flex; flex-direction:column; align-items:center; gap:6px; padding:14px 8px; background:var(--cardstock-bg); border:1px solid var(--paperHair); border-radius:12px"><div style="font-family:'Noto Serif SC',serif; font-size:32px; color:var(--earthDeep)">己</div><div style="font-family:'Noto Serif SC',serif; font-size:32px; color:var(--metalDeep)">巳</div></div>
+            <div style="display:flex; flex-direction:column; align-items:center; gap:6px; padding:14px 8px; background:var(--cardstock-bg); border:1px solid var(--paperHair); border-radius:12px"><div style="font-family:'Noto Serif SC',serif; font-size:32px; color:var(--metalDeep)">壬</div><div style="font-family:'Noto Serif SC',serif; font-size:32px; color:var(--woodDeep)">申</div></div>
+            <div style="display:flex; flex-direction:column; align-items:center; gap:6px; padding:14px 8px; background:var(--vellum); border:1px solid var(--dmBorder); border-radius:12px"><div style="font-family:'Noto Serif SC',serif; font-size:32px; color:var(--metalDeep)">庚</div><div style="font-family:'Noto Serif SC',serif; font-size:32px; color:var(--earthDeep)">辰</div></div>
+            <div style="display:flex; flex-direction:column; align-items:center; gap:6px; padding:14px 8px; background:rgba(248,241,225,0.55); border:1px dashed var(--paperHair); border-radius:12px"><div style="font-family:'Noto Serif SC',serif; font-size:32px; color:var(--inkLight)">~</div><div style="font-family:'Noto Serif SC',serif; font-size:32px; color:var(--inkLight)">巳</div></div>
+          </div>
+          <p style="font-family:'EB Garamond', serif; font-style:italic; font-size:13px; color:var(--inkLight); line-height:1.6; margin-top:18px">
+            The Day pillar is highlighted in <code class="token">--vellum</code> with a 1px <code class="token">--dmBorder</code> ring — the only place the dmBorder token appears in the app.
+          </p>
+        </div>
+      </div>
+      <div class="frame-cap">B · Full-page modal<small>chart-reveal · `/chart-reveal`</small></div>
+    </div>
+
+    <div class="frame-cell">
+      <div class="modal-stage">
+        <div class="stage-bg"></div>
+        <div class="scrim"></div>
+        <div class="upgrade-sheet">
+          <button class="close">×</button>
+          <div class="ctx">Unlock</div>
+          <h3>Open your Energy Manual</h3>
+          <div class="tier-card seeker">
+            <div style="display:flex; justify-content:space-between; align-items:baseline">
+              <div class="tname">◆ Seeker</div>
+              <div style="font-family:'EB Garamond', serif; font-size:13px; color:var(--inkSoft)">$X · mo</div>
+            </div>
+            <div class="price">Energy Manual + full Map</div>
+            <ul>
+              <li>Full Energy Map readings</li>
+              <li>Advanced Codex</li>
+              <li>Unlimited Elemental Draw</li>
+            </ul>
+            <button class="btn pill-cta" style="width:100%">Upgrade <span class="arr">→</span></button>
+          </div>
+          <div class="tier-card advisor">
+            <div style="display:flex; justify-content:space-between; align-items:baseline">
+              <div class="tname" style="color:#7a5e9a">✦ Advisor</div>
+              <div style="font-family:'EB Garamond', serif; font-size:13px; color:var(--inkSoft)">$XX · mo</div>
+            </div>
+            <div class="price" style="font-size:18px">Everything in Seeker</div>
+            <ul>
+              <li>AI Consultant — full chat</li>
+              <li>AI-tailored daily readings</li>
+            </ul>
+          </div>
+          <div style="text-align:center; margin-top:8px">
+            <button class="ghost">Not now</button>
+          </div>
+        </div>
+      </div>
+      <div class="frame-cap">C · Upgrade sheet<small>~85% height · context header pinned</small></div>
+    </div>
+  </div>
+
+  <h3 class="subhead">Container token table</h3>
+  <div class="cardstock" style="padding:22px">
+    <div style="display:grid; grid-template-columns:120px 1fr 1fr 1fr; gap:18px; font-family:'EB Garamond', serif; font-size:13px">
+      <span class="eyebrow ink" style="font-size:10px">Property</span>
+      <span class="eyebrow bronze" style="font-size:10px">A · Bottom sheet</span>
+      <span class="eyebrow bronze" style="font-size:10px">B · Full-page</span>
+      <span class="eyebrow bronze" style="font-size:10px">C · Upgrade sheet</span>
+
+      <div style="color:var(--bronzeDark)">Surface</div>
+      <div><code class="token">--cream</code></div>
+      <div><code class="token">--silk</code></div>
+      <div><code class="token">--cream</code></div>
+
+      <div style="color:var(--bronzeDark)">Radius (top)</div>
+      <div><code class="token">22 22 0 0</code></div>
+      <div><code class="token">0</code> (full bleed)</div>
+      <div><code class="token">24 24 0 0</code></div>
+
+      <div style="color:var(--bronzeDark)">Height</div>
+      <div>~80% (drag-resizable)</div>
+      <div>100%</div>
+      <div>85% fixed</div>
+
+      <div style="color:var(--bronzeDark)">Backdrop</div>
+      <div><code class="token">rgba(0,0,0,0.4)</code></div>
+      <div>none — pushes as page</div>
+      <div><code class="token">rgba(0,0,0,0.4)</code></div>
+
+      <div style="color:var(--bronzeDark)">Dismiss</div>
+      <div>40 × 4 grab handle</div>
+      <div>"‹ Back" eyebrow</div>
+      <div>× chip 32 × 32 + "Not now"</div>
+
+      <div style="color:var(--bronzeDark)">Shadow</div>
+      <div><code class="token">--shadow-sheet</code></div>
+      <div>none</div>
+      <div><code class="token">--shadow-sheet</code></div>
+
+      <div style="color:var(--bronzeDark)">Entrance</div>
+      <div>slide-up 350ms · spring 0.6</div>
+      <div>page-push 300ms · ease</div>
+      <div>slide-up 350ms · spring 0.6</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     §11 STATUS &amp; FEEDBACK
+     ============================================================ -->
+<section id="s11">
+  <div class="section-head">
+    <span class="num">§11</span>
+    <h2>Status &amp; feedback</h2>
+    <div class="rule">Toast · banner · inline error / success · empty state. All from File B §7. <span class="cite">DOC5 §22</span></div>
+  </div>
+
+  <p class="section-intro">
+    Four feedback surfaces. Toast is transient (auto-dismiss 3s) and italic; banner is persistent on parchment; inline helpers ride below text inputs in the seal / wood colours. Empty state composes with §7's poetic empty-state pattern when the absence carries meaning. All copy uses the italic-rule lock — italic for transient / advisory voice, regular for the surrounding UI.
+  </p>
+
+  <div class="grid grid-2">
+
+    <div class="cell">
+      <div class="kicker">Toast · transient</div>
+      <div style="width:100%; background:var(--quiet-bg); border-radius:18px; padding:24px 16px; min-height:120px; display:flex; align-items:flex-end; justify-content:center">
+        <div class="toast">
+          <span style="color:var(--woodDeep)">✓</span>
+          Reading saved to Friends.
+        </div>
+      </div>
+      <p style="font-family:'EB Garamond', serif; font-style:italic; font-size:12.5px; color:var(--inkLight); margin:0">Anchored 56 px from bottom · slides up 350ms · auto-dismiss 3s</p>
+    </div>
+
+    <div class="cell">
+      <div class="kicker">Inline · error · success</div>
+      <div style="display:grid; gap:12px; padding:6px 0; width:100%">
+        <div>
+          <input class="input error" value="Atlantis" style="font-size:14px; padding:10px 12px"/>
+          <div class="helper error">⚠ We couldn't find that location.</div>
+        </div>
+        <div>
+          <input class="input" value="London, UK" style="font-size:14px; padding:10px 12px"/>
+          <div class="helper success">✓ Coordinates set.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cell">
+      <div class="kicker">Banner · persistent</div>
+      <div class="banner" style="width:100%">
+        <span><em>Birth location not confirmed</em> — tap to update.</span>
+        <span class="x">×</span>
+      </div>
+      <p style="font-family:'EB Garamond', serif; font-style:italic; font-size:12.5px; color:var(--inkLight); margin:0">Parchment surface · dismiss optional</p>
+    </div>
+
+    <div class="cell">
+      <div class="kicker">Empty state · poetic</div>
+      <div class="empty-state" style="width:100%">
+        <div class="glyph">水</div>
+        <div class="copy">No chapters yet.<br/>Your decade arc unfolds with time.</div>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="subhead">Token spec — at a glance</h3>
+  <div class="cardstock" style="padding:22px">
+    <ul class="token-list">
+      <li><span class="k">Toast</span><span class="v">cardstock 0.92 · pad 11/18 · radius 999 · italic 13 · shadow <code>0 4 18 rgba(40,30,20,0.10)</code></span></li>
+      <li><span class="k">Inline error</span><span class="v">italic 12.5 · <code>--seal</code> · ⚠ glyph leading</span></li>
+      <li><span class="k">Inline success</span><span class="v">italic 12.5 · <code>--woodDeep</code> · ✓ glyph leading</span></li>
+      <li><span class="k">Banner</span><span class="v"><code>--parchment</code> bg · 1px <code>--paperHair</code> · radius 8 · pad 10/14</span></li>
+      <li><span class="k">Empty state</span><span class="v">Noto Serif SC 48 · <code>--inkMist</code> · italic 14 / <code>--inkLight</code> · 40 vertical pad</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================================
+     §12 PAGE HEADER CHROME
+     ============================================================ -->
+<section id="s12">
+  <div class="section-head">
+    <span class="num">§12</span>
+    <h2>Page header chrome</h2>
+    <div class="rule">Three variants + in-context Energy Map header + token spec. Shared eyebrow + italic action grammar. <span class="cite">File B §13</span></div>
+  </div>
+
+  <p class="section-intro">
+    The page header is a 56-tall row that sits 12 px below the 44 px iOS status bar. It always carries a tracked-caps eyebrow (with optional <code>‹</code> chevron for back-nav context), and an italic right-side action with a dashed underline (the canonical tertiary affordance from §4 Tier 4). When the header gates content, a 1 px <code>--paperHair</code> rule sits below it.
+  </p>
+
+  <div style="display:flex; flex-direction:column; gap:14px; margin-bottom:22px">
+    <div class="pg-header">
+      <span class="left">‹ Energy Map</span>
+      <span class="text-tertiary">Birth chart →</span>
+    </div>
+    <div class="pg-header">
+      <span class="left">Today</span>
+      <span style="font-family:'EB Garamond', serif; font-size:13px; color:var(--inkLight)">Wed · Apr 8</span>
+    </div>
+    <div class="pg-header">
+      <span class="left">Profile</span>
+      <span style="display:flex; align-items:center; gap:6px; color:var(--bronzeDark)">
+        <svg width="14" height="14" viewBox="0 0 24 24"><use href="#ico-edit"/></svg>
+        <span class="text-tertiary" style="color:var(--bronzeDark)">Edit</span>
+      </span>
+    </div>
+  </div>
+
+  <h3 class="subhead">In context · Energy Map header</h3>
+  <div class="frame-grid">
+    <div class="frame-cell">
+      <div class="phone" style="height:340px">
+        <div class="silk-bg"></div>
+        <div class="notch"></div>
+        <div class="status-bar">
+          <span>9:41</span>
+          <span class="icons"><svg viewBox="0 0 26 12" width="26" height="12"><rect x="0.5" y="1" width="22" height="10" rx="2.5" stroke="currentColor" stroke-opacity="0.5" fill="none"/><rect x="2" y="2.5" width="18" height="7" rx="1" fill="currentColor"/></svg></span>
+        </div>
+        <div style="position:absolute; top:56px; left:0; right:0; padding:0 22px; z-index:10">
+          <div class="pg-header" style="background:transparent; border:0; padding:14px 0; border-bottom:1px solid var(--paperHair); border-radius:0">
+            <span class="left">‹ Energy Map</span>
+            <span class="text-tertiary">Birth chart →</span>
+          </div>
+          <div style="margin-top:18px" class="cardstock">
+            <span class="eyebrow metal">庚 · Yang Metal</span>
+            <div style="font-family:'Cormorant Garamond', serif; font-size:32px; font-weight:600; color:var(--ink); margin-top:4px">The Blade</div>
+            <div style="font-family:'EB Garamond', serif; font-size:14px; font-style:italic; color:var(--inkSoft); margin-top:6px">"Precision before intention."</div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-cap">Energy Map · header in situ<small>56-tall · 12 px below status bar · paperHair underline at content gate</small></div>
+    </div>
+  </div>
+
+  <h3 class="subhead">Token spec</h3>
+  <div class="cardstock" style="padding:22px">
+    <ul class="token-list">
+      <li><span class="k">Top offset</span><span class="v">56 (44 status bar + 12 gap)</span></li>
+      <li><span class="k">Height</span><span class="v">~52 (pad 14 0 + content)</span></li>
+      <li><span class="k">Eyebrow</span><span class="v">EB Garamond 11 / 500 / ls 2.5 / uppercase / <code>--ink</code></span></li>
+      <li><span class="k">Right action</span><span class="v">italic 13 / <code>--bronzeDark</code> / dashed underline · text-underline-offset 3</span></li>
+      <li><span class="k">Bottom rule</span><span class="v">1px <code>--paperHair</code> · only when header gates content</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================================
+     §13 OPEN WORK / DRIFT LOG
+     ============================================================ -->
+<section id="s13">
+  <div class="section-head">
+    <span class="num">§13</span>
+    <h2>Open work / drift log</h2>
+    <div class="rule">Six gaps neither File A nor File B covers. Specify before shipping affected screens. <span class="cite">consolidation drift</span></div>
+  </div>
+
+  <p class="section-intro">
+    These are the holes the consolidation exposed. Each is bounded — not a blocker for the rest of the library, but a flag for engineering not to ship the affected screens without a spec decision. Where the gap is downstream of a third-party (e.g. ink-wash commission for stems), it's marked as such.
+  </p>
+
+  <div class="drift-item">
+    <div class="q">D1 · Thumbnail interaction states (hover · selected · locked-loading · video-ready)</div>
+    <div class="body">
+      §8 ships the seven base patterns but neither file specifies how they respond to touch / hover / selection. Energy Map "draw" interactions need at minimum: <strong>hover</strong> (subtle lift + paperHair brighten), <strong>selected</strong> (1.5 px <code>--bronzeDark</code> ring + scale 1.02), <strong>locked-loading</strong> (shimmer pass while gating decision resolves), and <strong>video-ready</strong> (small play glyph overlay for the future motion thumbnails). <strong>Resolution:</strong> draft in v4 — depends on confirmed Energy Map IA.
+    </div>
+  </div>
+
+  <div class="drift-item">
+    <div class="q">D2 · Day-master stems — ink-wash commission (DA.2)</div>
+    <div class="body">
+      Both files flag <code>dm-*</code> symbols as placeholders. The current line glyphs (五·甲·乙…) work as functional fallbacks but they break the painterly register the rest of the system holds. <strong>Resolution:</strong> external commission. The ten brushwork SVGs will replace the symbols in <code>icons.svg</code>; consumers (this file, all DM-pillar surfaces) will pick up automatically via <code>&lt;use href="…"&gt;</code>. No CSS changes required.
+    </div>
+  </div>
+
+  <div class="drift-item">
+    <div class="q">D3 · Reading-section icons (DA.9)</div>
+    <div class="body">
+      <code>read-*</code> symbols are also placeholders. Current geometric line glyphs (pentagram, paired arrows, decade-grid, four-pillars bars) are <em>functional</em> but generic. <strong>Resolution:</strong> brushwork refinement pass on the five reading-section icons in parallel with the dm-* commission — same painter, same paper register.
+    </div>
+  </div>
+
+  <div class="drift-item">
+    <div class="q">D4 · Card pressed / disabled states</div>
+    <div class="body">
+      Buttons have an 18-cell state matrix (§4). Cards do not. The featured card, compact strip, reading-row card, and element tile all accept taps but neither file specs a press visual or a disabled visual. <strong>Resolution:</strong> propose a unified card-press spec — scale 0.98 + filter brightness 0.96 + 120ms ease-out — and add a card-disabled visual (opacity 0.5 + pointer-events:none + greyscale 30%) for locked rows that haven't yet upgraded to the lock-card pattern. Draft inline in this file's §7 after sign-off.
+    </div>
+  </div>
+
+  <div class="drift-item">
+    <div class="q">D5 · Search bar states beyond default</div>
+    <div class="body">
+      §5 ships the default search bar. Missing: <strong>focus</strong> (likely 2 px <code>--borderFocus</code> + ink-text), <strong>filled</strong> (clear-x chip on the right), <strong>with-results</strong> (suggestions dropdown — surface unspecified), <strong>no-results</strong> (italic empty state inside the dropdown), <strong>loading</strong> (subtle dot pulse where the clear-x would be). <strong>Resolution:</strong> spec in v4 alongside the Friends search and the future Codex search.
+    </div>
+  </div>
+
+  <div class="drift-item">
+    <div class="q">D6 · Toggle disabled state</div>
+    <div class="body">
+      H4 locks 44 × 26 + 48 × 28 geometry and the on/off pigments. Neither file specs disabled. <strong>Resolution:</strong> propose opacity 0.4 + knob in the locked position with cursor not-allowed; bg stays in its current state but desaturates 20%. Add to the §5 toggle cell after sign-off.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>components-library.html · sealed against File A (Moodboards) · File B (Legends v2)</span>
+  <span><span class="seal-mark">●</span> 12 sections + drift log · 2026-05-18</span>
+</footer>
+
+</main>
+</body>
+</html>
