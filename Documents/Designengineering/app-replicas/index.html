@@ -1,0 +1,403 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Elementum · App Replicas — current build</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+  :root{--cream:#F8F6F0;--silk:#F1E9D6;--paperHair:#CDBE9E;--ink:#2B2722;--inkSoft:#4A433B;--inkLight:#857D72;--bronzeDark:#6b5339;--gold:#D4AF37;}
+  *{box-sizing:border-box;} body{margin:0;background:#E4DCC9;color:var(--ink);font-family:"EB Garamond",Georgia,serif;}
+  .wrap{max-width:1400px;margin:0 auto;padding:48px 28px 80px;}
+  header.top{background:var(--cream);border:1px solid var(--paperHair);border-radius:16px;padding:30px 32px;margin-bottom:26px;}
+  .eyebrow{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--bronzeDark);font-weight:500;margin:0 0 8px;}
+  h1{font-family:"Cormorant Garamond",serif;font-weight:400;font-size:38px;margin:0 0 6px;}
+  header.top p{font-size:16px;color:var(--inkSoft);margin:8px 0 0;max-width:780px;line-height:1.55;}
+  .grp{margin-bottom:34px;}
+  .grp h2{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:24px;color:var(--ink);border-bottom:1px solid var(--paperHair);padding-bottom:8px;margin:0 0 18px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px;align-items:start;}
+  .card{background:var(--cream);border:1px solid var(--paperHair);border-radius:14px;overflow:hidden;box-shadow:0 1px 0 rgba(43,39,34,.04);}
+  .card.bad{outline:2px solid #c4745a;}
+  .shot{background:var(--silk);max-height:560px;overflow:auto;border-bottom:1px solid var(--paperHair);}
+  .shot img{display:block;width:100%;height:auto;}
+  figcaption{padding:12px 14px 14px;}
+  .cl{font-family:"Cormorant Garamond",serif;font-size:18px;font-weight:600;color:var(--ink);}
+  .cr{margin:3px 0 6px;} .cr code{font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--bronzeDark);background:var(--silk);border:1px solid var(--paperHair);border-radius:5px;padding:1px 6px;}
+  .cn{font-size:13.5px;color:var(--inkSoft);line-height:1.5;}
+</style></head><body><div class="wrap">
+<header class="top">
+  <p class="eyebrow">Reference · current build · seeded 庚 "The Blade", live data</p>
+  <h1>Elementum — App Replicas</h1>
+  <p>Full-page screenshots of every screen in the running app, captured 2026-05-28. Each card scrolls if the page is taller than the frame. These are the <strong>current</strong> layouts — the starting point for layout iteration, paired with the Design Status &amp; Direction handoff.</p>
+</header>
+
+    <section class="grp">
+      <h2>Pre-dashboard flow</h2>
+      <div class="grid">
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/01-welcome.png" alt="Welcome"/></div>
+        <figcaption>
+          <div class="cl">Welcome</div>
+          <div class="cr"><code>welcome</code></div>
+          <div class="cn">First screen — sets the contemplative tone.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/02-step1-year.png" alt="Onboarding · Year"/></div>
+        <figcaption>
+          <div class="cl">Onboarding · Year</div>
+          <div class="cr"><code>step1</code></div>
+          <div class="cn">Birth-year entry.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/03-step2-month.png" alt="Onboarding · Month"/></div>
+        <figcaption>
+          <div class="cl">Onboarding · Month</div>
+          <div class="cr"><code>step2</code></div>
+          <div class="cn">Birth-month entry.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/04-step3-day.png" alt="Onboarding · Day"/></div>
+        <figcaption>
+          <div class="cl">Onboarding · Day</div>
+          <div class="cr"><code>step3</code></div>
+          <div class="cn">Birth-day entry.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/05-step4-hour.png" alt="Onboarding · Hour"/></div>
+        <figcaption>
+          <div class="cl">Onboarding · Hour</div>
+          <div class="cr"><code>step4</code></div>
+          <div class="cn">Birth-hour entry (exact / approximate / unknown).</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/06-step4a-hourwindow.png" alt="Onboarding · Hour window"/></div>
+        <figcaption>
+          <div class="cl">Onboarding · Hour window</div>
+          <div class="cr"><code>step4a</code></div>
+          <div class="cn">Approximate-hour branch.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/07-step5-location.png" alt="Onboarding · Location"/></div>
+        <figcaption>
+          <div class="cl">Onboarding · Location</div>
+          <div class="cr"><code>step5</code></div>
+          <div class="cn">Birth location for true solar time.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/08-step6-polarity.png" alt="Onboarding · Polarity"/></div>
+        <figcaption>
+          <div class="cl">Onboarding · Polarity</div>
+          <div class="cr"><code>step6</code></div>
+          <div class="cn">Gender/polarity for luck-pillar direction.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/09-step6a-energycurrent.png" alt="Onboarding · Energy current"/></div>
+        <figcaption>
+          <div class="cl">Onboarding · Energy current</div>
+          <div class="cr"><code>step6a</code></div>
+          <div class="cn">Prefer-not-to-specify branch.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/10-step7-notify.png" alt="Onboarding · Notifications"/></div>
+        <figcaption>
+          <div class="cl">Onboarding · Notifications</div>
+          <div class="cr"><code>step7</code></div>
+          <div class="cn">Daily-reading opt-in.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/11-step7a-notifytime.png" alt="Onboarding · Notify time"/></div>
+        <figcaption>
+          <div class="cl">Onboarding · Notify time</div>
+          <div class="cr"><code>step7a</code></div>
+          <div class="cn">Delivery-time branch.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/12-loading.png" alt="Loading"/></div>
+        <figcaption>
+          <div class="cl">Loading</div>
+          <div class="cr"><code>loading</code></div>
+          <div class="cn">Chart-calculation ceremony (auto-advances).</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/13-reveal.png" alt="Reveal"/></div>
+        <figcaption>
+          <div class="cl">Reveal</div>
+          <div class="cr"><code>reveal</code></div>
+          <div class="cn">First-run identity reveal with enter-dashboard CTA.</div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="grp">
+      <h2>Reading (center tab) + detail pages</h2>
+      <div class="grid">
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/14-reading-catalogue-seeker.png" alt="Reading catalogue · Seeker"/></div>
+        <figcaption>
+          <div class="cl">Reading catalogue · Seeker</div>
+          <div class="cr"><code>app-reading</code></div>
+          <div class="cn">Day-master hero + 6 reading tiles (Daily Reading unlocked).</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/15-energy-map.png" alt="Energy Map"/></div>
+        <figcaption>
+          <div class="cl">Energy Map</div>
+          <div class="cr"><code>app-energymap</code></div>
+          <div class="cn">Full energy summary — identity + blueprint.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/16-read-elemental.png" alt="Detail · Elemental Nature"/></div>
+        <figcaption>
+          <div class="cl">Detail · Elemental Nature</div>
+          <div class="cr"><code>read-elemental</code></div>
+          <div class="cn">Reading-detail template (hero + section cards + prev/next).</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/17-read-daymaster.png" alt="Detail · Day Master"/></div>
+        <figcaption>
+          <div class="cl">Detail · Day Master</div>
+          <div class="cr"><code>read-daymaster</code></div>
+          <div class="cn">Day-master identity long-form.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/18-read-tengods.png" alt="Detail · Ten Gods"/></div>
+        <figcaption>
+          <div class="cl">Detail · Ten Gods</div>
+          <div class="cr"><code>read-tengods</code></div>
+          <div class="cn">Adds weighted role-ring + pillar grid.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/19-read-forces.png" alt="Detail · Forces in Motion"/></div>
+        <figcaption>
+          <div class="cl">Detail · Forces in Motion</div>
+          <div class="cr"><code>read-forces</code></div>
+          <div class="cn">Adds ↑Catalyst / ↓Resistance pair.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/20-read-chapters.png" alt="Detail · Life Chapters"/></div>
+        <figcaption>
+          <div class="cl">Detail · Life Chapters</div>
+          <div class="cr"><code>read-chapters</code></div>
+          <div class="cn">Adds horizontal decade timeline.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/21-read-patterns.png" alt="Detail · Pillar Patterns"/></div>
+        <figcaption>
+          <div class="cl">Detail · Pillar Patterns</div>
+          <div class="cr"><code>read-patterns</code></div>
+          <div class="cn">Adds 合冲刑害 pattern badges.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/22-read-seasonal.png" alt="Detail · Seasonal Calibration"/></div>
+        <figcaption>
+          <div class="cl">Detail · Seasonal Calibration</div>
+          <div class="cr"><code>read-seasonal</code></div>
+          <div class="cn">Conditional missing-element prescription.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/23-read-locked.png" alt="Detail · Locked"/></div>
+        <figcaption>
+          <div class="cl">Detail · Locked</div>
+          <div class="cr"><code>read-locked</code></div>
+          <div class="cn">Generic locked-section state.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/24-chart-reveal-rawchart.png" alt="Raw Chart (Four Pillars)"/></div>
+        <figcaption>
+          <div class="cl">Raw Chart (Four Pillars)</div>
+          <div class="cr"><code>chart-reveal</code></div>
+          <div class="cn">Literal 4-pillar grid, day pillar highlighted.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/25-reading-catalogue-free.png" alt="Reading catalogue · Free"/></div>
+        <figcaption>
+          <div class="cl">Reading catalogue · Free</div>
+          <div class="cr"><code>app-reading</code></div>
+          <div class="cn">Daily Reading tile locked (Seeker chip).</div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="grp">
+      <h2>Today tab</h2>
+      <div class="grid">
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/26-today-today.png" alt="Today · TODAY"/></div>
+        <figcaption>
+          <div class="cl">Today · TODAY</div>
+          <div class="cr"><code>app-today</code></div>
+          <div class="cn">Decade card + daily narrative + Do/Avoid + Best Hours + Catalyst.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/27-today-month.png" alt="Today · MONTH"/></div>
+        <figcaption>
+          <div class="cl">Today · MONTH</div>
+          <div class="cr"><code>app-today</code></div>
+          <div class="cn">7-col element-dot calendar + flow windows.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/28-today-year.png" alt="Today · YEAR"/></div>
+        <figcaption>
+          <div class="cl">Today · YEAR</div>
+          <div class="cr"><code>app-today</code></div>
+          <div class="cn">Year-energy card + strategic paragraph + 12-bar timeline.</div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="grp">
+      <h2>Guidance hub + sub-screens</h2>
+      <div class="grid">
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/29-guidance-free.png" alt="Guidance hub · Free"/></div>
+        <figcaption>
+          <div class="cl">Guidance hub · Free</div>
+          <div class="cr"><code>app-guidance</code></div>
+          <div class="cn">Locked cards show Unlock CTAs.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/30-guidance-advisor.png" alt="Guidance hub · Advisor"/></div>
+        <figcaption>
+          <div class="cl">Guidance hub · Advisor</div>
+          <div class="cr"><code>app-guidance</code></div>
+          <div class="cn">All feature cards unlocked.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/31-codex.png" alt="Guidance · BaZi Codex"/></div>
+        <figcaption>
+          <div class="cl">Guidance · BaZi Codex</div>
+          <div class="cr"><code>app-codex</code></div>
+          <div class="cn">Accordion entries: definition / explanation / your chart.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/32-draw.png" alt="Guidance · Elemental Draw"/></div>
+        <figcaption>
+          <div class="cl">Guidance · Elemental Draw</div>
+          <div class="cr"><code>app-draw</code></div>
+          <div class="cn">Fanned deck → draw → flip-reveal ritual.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/33-manual.png" alt="Guidance · Energy Manual"/></div>
+        <figcaption>
+          <div class="cl">Guidance · Energy Manual</div>
+          <div class="cr"><code>app-manual</code></div>
+          <div class="cn">Setup → 5 domain tabs → 3 sections each.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/34-selfreport.png" alt="Guidance · Self-Report"/></div>
+        <figcaption>
+          <div class="cl">Guidance · Self-Report</div>
+          <div class="cr"><code>app-selfreport</code></div>
+          <div class="cn">Calibration: single/multi-select + textarea.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/35-consultant.png" alt="Guidance · AI Consultant"/></div>
+        <figcaption>
+          <div class="cl">Guidance · AI Consultant</div>
+          <div class="cr"><code>app-consultant</code></div>
+          <div class="cn">Context bar + chat history + input.</div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="grp">
+      <h2>Friends / Compatibility</h2>
+      <div class="grid">
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/36-compat-intro.png" alt="Compatibility · Intro"/></div>
+        <figcaption>
+          <div class="cl">Compatibility · Intro</div>
+          <div class="cr"><code>app-compat</code></div>
+          <div class="cn">Dual-seal + "Compare with someone".</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/37-compat-input.png" alt="Compatibility · Input"/></div>
+        <figcaption>
+          <div class="cl">Compatibility · Input</div>
+          <div class="cr"><code>(state)</code></div>
+          <div class="cn">Manual entry form for the other person.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/38-compat-result-seeker.png" alt="Compatibility · Result (Seeker)"/></div>
+        <figcaption>
+          <div class="cl">Compatibility · Result (Seeker)</div>
+          <div class="cr"><code>(state)</code></div>
+          <div class="cn">% score + full reading + share card.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/39-compat-result-free.png" alt="Compatibility · Result (Free)"/></div>
+        <figcaption>
+          <div class="cl">Compatibility · Result (Free)</div>
+          <div class="cr"><code>app-compat</code></div>
+          <div class="cn">Teaser + upgrade gate.</div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="grp">
+      <h2>Profile + chart tools</h2>
+      <div class="grid">
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/40-profile.png" alt="Profile"/></div>
+        <figcaption>
+          <div class="cl">Profile</div>
+          <div class="cr"><code>app-profile</code></div>
+          <div class="cn">Birth data + notifications + account (minimal by design).</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/41-resonance-intro.png" alt="Chart Resonance · Intro"/></div>
+        <figcaption>
+          <div class="cl">Chart Resonance · Intro</div>
+          <div class="cr"><code>chart-resonance</code></div>
+          <div class="cn">Recover an unknown birth hour by resonance.</div>
+        </figcaption>
+      </figure>
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/42-resonance-result.png" alt="Chart Resonance · Result"/></div>
+        <figcaption>
+          <div class="cl">Chart Resonance · Result</div>
+          <div class="cr"><code>(state)</code></div>
+          <div class="cn">Discovered 时辰 + confidence + apply CTA.</div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="grp">
+      <h2>Cross-cutting</h2>
+      <div class="grid">
+      <figure class="card">
+        <div class="shot"><img loading="lazy" src="screens/43-upgrade-modal.png" alt="Upgrade modal (§21)"/></div>
+        <figcaption>
+          <div class="cl">Upgrade modal (§21)</div>
+          <div class="cr"><code>app-guidance</code></div>
+          <div class="cn">Tier comparison opened from a locked card.</div>
+        </figcaption>
+      </figure></div>
+    </section>
+</div></body></html>

@@ -1,636 +1,280 @@
 // ===================================================================
-// ELEMENTUM · TodayScreen (DOC5 §10)
+// ELEMENTUM · TodayScreen — Readings Hub (mosaic)
 // ===================================================================
-// The daily-utility habit screen. Layout (top → bottom):
-//   1. Decade indicator — full-width gold-rim card (§AM.7 cardstock-active)
-//   2. TODAY / MONTH / YEAR tab switcher
-//   3. TODAY tab (built fully):
-//      · Date + today's element/stem hero
-//      · Personalized daily guidance narrative (dailyGuidance.js)
-//      · DO THIS / AVOID lists
-//      · BEST HOURS windows
-//      · YOUR CATALYST TODAY
-//   4. MONTH / YEAR tabs — scaffolded placeholders (calendar grid +
-//      recharts timeline need engine/temporal.js, which doesn't exist yet)
+// Direction 2 / Hub from Claude Design's consolidated wireframes.
+//
+// The Today tab is no longer a daily-utility screen. It is now the
+// "Readings Hub": a mosaic of nested time periods that all open into
+// their own drill-down pages.
+//
+//   1. Header — "Your Readings / Across time"
+//   2. Featured DAY tile (218) — painterly day-element art + the day's
+//      phrase + open-today's-reading cue. Tap → app-day.
+//   3. Themed pair (158, 2-col) — Month + Year tiles. Tap → app-month
+//      / app-year.
+//   4. Wide DECADE tile (150) — current 大运 with hanzi watermark.
+//      Tap → app-decade.
+//
+// All the daily-utility content (Do/Avoid/Best Hours/Catalyst) now
+// lives on the Day drill-down page (DayPage.jsx).
 // ===================================================================
 
-import React, { useState } from 'react';
+import React from 'react';
 import { useChart } from '../../../store/chartContext.jsx';
 import { getDailyGuidance } from '../../../content/dailyGuidance.js';
-import { monthGrid, flowWindows, yearEnergy, energyContext } from '../../../engine/temporal.js';
-import { ElementMark, Icon } from '../../shared/icons';
-import { SceneHero } from '../VisualTile.jsx';
-import { elementArt } from '../../../styles/backgrounds.js';
+import { elementArt, stemArt, tileArt, heroArt, dedupeArt } from '../../../styles/backgrounds.js';
+import { MoodboardArt } from '../VisualTile.jsx';
+import { Icon, ElementMark } from '../../shared/icons';
 import {
-  ink, inkSoft, inkLight, bronzeDark, gold,
-  paperHair, cardstockBg, quietBg, quietBorder,
+  ink, inkSoft, inkLight, bronzeDark, silk,
   pigments, withAlpha,
 } from '../../../styles/tokens';
 
 const ELEMENT_TO_PIGMENT = {
-  Metal: 'metal', Wood: 'wood', Fire: 'fire',
-  Earth: 'earth', Water: 'water',
+  Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water',
+};
+const MONTHS = ['January','February','March','April','May','June',
+                'July','August','September','October','November','December'];
+const WD_SHORT = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+
+// Short element-keyed phrases — the timeless cue for each tile.
+const TODAY_PHRASE = {
+  Metal: 'A day to cut clean',
+  Wood:  'A day to grow',
+  Fire:  'A day to express',
+  Earth: 'A day to ground',
+  Water: 'A day to flow',
+};
+const MONTH_PHRASE = {
+  Metal: 'Refine',  Wood: 'Initiate', Fire: 'Show',
+  Earth: 'Consolidate', Water: 'Reflect',
+};
+const YEAR_PHRASE = {
+  Metal: 'Sharpen', Wood: 'Expand', Fire: 'Be seen',
+  Earth: 'Build',   Water: 'Listen',
 };
 
-const WEEKDAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June',
-                'July', 'August', 'September', 'October', 'November', 'December'];
-
-const TABS = ['today', 'month', 'year'];
-
-export default function TodayScreen() {
+export default function TodayScreen({ onOpen }) {
   const { chart } = useChart();
-  const [tab, setTab] = useState('today');
+  const guidance = getDailyGuidance(chart);
+  const now = new Date();
 
   const dmElement = chart?.dayMaster?.element || 'Metal';
-  const dmPigKey = ELEMENT_TO_PIGMENT[dmElement] || 'metal';
-  const dmPig = pigments[dmPigKey].deep;
 
+  // Day tile data
+  const dayElement = guidance?.todayElement || dmElement;
+  const dayStem    = guidance?.todayStem || '';
+  const dayPhrase  = guidance?.label || TODAY_PHRASE[dayElement] || 'Today';
+
+  // Month tile data
+  const monthIdx   = now.getMonth();
+  const monthLabel = MONTHS[monthIdx];
+  const fm         = chart?.currentFlowMonth;
+  const monthElement = fm?.stemElement || dmElement;
+  const monthStemBr  = fm?.stem ? `${fm.stem}${fm.branch || ''}` : null;
+
+  // Year tile data
+  const year       = now.getFullYear();
+  const fy         = chart?.currentFlowYear;
+  const yearElement = fy?.stemElement || dmElement;
+  const yearStemBr  = fy?.stem ? `${fy.stem}${fy.branch || ''}` : null;
+
+  // Decade tile data
   const decade = (chart?.luckPillars || []).find((p) => p.isCurrent);
-  const guidance = getDailyGuidance(chart);
+  const decadeElement = decade?.element || dmElement;
+  const decadeYr = decade
+    ? Math.min(10, Math.max(1, (year - decade.startYear) + 1))
+    : null;
+
+  const dateLabel = `${WD_SHORT[now.getDay()]} ${MONTHS[monthIdx].slice(0,3)} ${now.getDate()}`;
+
+  // ── Design rule: no two thumbnails on this page share the same painting.
+  // Day/Month/Year all use themed catalogue tiles; if two periods land on
+  // the same element (e.g. Fire day + Fire year), the dedupe bumps the
+  // later one to the next motif variant. Decade keeps its generic hero.
+  const arts = React.useMemo(() => dedupeArt([
+    { key: 'day',    kind: 'tile', element: dayElement,   stem: dayStem,   n: 1 },
+    { key: 'month',  kind: 'tile', element: monthElement, stem: fm?.stem,  n: 1 },
+    { key: 'year',   kind: 'tile', element: yearElement,  stem: fy?.stem,  n: 1 },
+    { key: 'decade', kind: 'hero', n: 3 },
+  ]), [dayElement, dayStem, monthElement, fm?.stem, yearElement, fy?.stem]);
 
   return (
-    <main style={{ minHeight: '100%', padding: '54px 20px 24px' }}>
-      {/* ── 1. Decade indicator — gold-rim cardstock-active (§AM.7) ─── */}
-      {decade && <DecadeIndicator decade={decade} />}
+    <main style={{ minHeight: '100%', padding: '54px 18px 24px' }}>
+      <header style={{ marginBottom: 14, padding: '0 2px' }}>
+        <span style={{
+          fontFamily: "'EB Garamond', Georgia, serif",
+          fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
+          color: bronzeDark, fontWeight: 500,
+        }}>Your Readings</span>
+        <h1 style={{
+          fontFamily: "'Cormorant Garamond', Georgia, serif",
+          fontSize: 26, fontWeight: 400, lineHeight: 1.1,
+          color: ink, margin: '2px 0 0',
+        }}>Across time</h1>
+      </header>
 
-      {/* ── 2. TODAY / MONTH / YEAR switcher ───────────────────────── */}
-      <TabSwitcher tab={tab} onChange={setTab} />
+      {/* Featured Day — themed catalogue tile (day's element + stem variant) */}
+      <HubTile
+        height={228}
+        pigment={ELEMENT_TO_PIGMENT[dayElement]}
+        artSrc={arts.day}
+        meta={`Today · ${dateLabel} · ${dayElement} Day`}
+        title={dayPhrase}
+        chev
+        chevSub={dayStem ? `${dayStem} · open today's reading` : "open today's reading"}
+        onClick={() => onOpen?.('app-day')}
+      />
 
-      {/* ── 3/4. Tab content ───────────────────────────────────────── */}
-      {tab === 'today' && <TodayTab guidance={guidance} pigKey={dmPigKey} pig={dmPig} chart={chart} />}
-      {tab === 'month' && <MonthTab chart={chart} />}
-      {tab === 'year' && <YearTab chart={chart} />}
+      {/* Month + Year pair — themed catalogue tiles */}
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10, marginTop: 10 }}>
+        <HubTile
+          height={176}
+          pigment={ELEMENT_TO_PIGMENT[monthElement]}
+          artSrc={arts.month}
+          meta="This Month"
+          title={MONTH_PHRASE[monthElement] || 'Steady'}
+          sub={monthStemBr ? `${monthLabel} · ${monthStemBr}` : `${monthLabel} · ${monthElement} Month`}
+          onClick={() => onOpen?.('app-month')}
+        />
+        <HubTile
+          height={176}
+          pigment={ELEMENT_TO_PIGMENT[yearElement]}
+          artSrc={arts.year}
+          meta="This Year"
+          title={YEAR_PHRASE[yearElement] || 'Steady'}
+          sub={yearStemBr ? `${year} · ${yearStemBr}` : `${year} · ${yearElement} Year`}
+          onClick={() => onOpen?.('app-year')}
+        />
+      </div>
+
+      {/* Wide Decade — generic scene-hero band (per library map) */}
+      {decade && (
+        <div style={{ marginTop: 10 }}>
+          <HubTile
+            height={166}
+            pigment={ELEMENT_TO_PIGMENT[decadeElement]}
+            artSrc={arts.decade}
+            meta={`Life Chapter · Yr ${decadeYr} / 10`}
+            title={`The ${decadeElement} Decade`}
+            sub={`${decade.startYear}–${decade.endYear} · the season beneath it all`}
+            hanzi={`${decade.stem}${decade.branch}`}
+            onClick={() => onOpen?.('app-decade')}
+          />
+        </div>
+      )}
     </main>
   );
 }
 
 // ───────────────────────────────────────────────────────────────────
-// DecadeIndicator — current 大运 decade, gold-rim card.
+// HubTile — Inkstone footer recipe (rendered-screens spec). Art frame
+// at top with seal mark badge + hanzi watermark fade-to-silk, paper
+// footer below carrying eyebrow + title + optional sub. The featured
+// Day tile additionally renders a footer chev row ("壬 · open today's
+// reading →") via `chev + chevSub`.
 // ───────────────────────────────────────────────────────────────────
-function DecadeIndicator({ decade }) {
-  const pigKey = ELEMENT_TO_PIGMENT[decade.element] || 'metal';
-  const pig = pigments[pigKey].deep;
+function HubTile({ height, pigment, artSrc, meta, title, sub, chev, chevSub, hanzi, onClick }) {
+  const [pressed, setPressed] = React.useState(false);
+  const pigKey = pigment || 'metal';
+  const pig = pigments[pigKey];
+
+  // Frame / footer split — keep the title block legible at every size.
+  const footerH = chev ? 86 : (sub ? 60 : 52);
+  const frameH = Math.max(48, height - footerH);
+
   return (
-    <section
+    <button
+      type="button"
+      onClick={onClick}
+      aria-label={title}
+      onPointerDown={() => setPressed(true)}
+      onPointerUp={() => setPressed(false)}
+      onPointerLeave={() => setPressed(false)}
       style={{
-        background: cardstockBg,
-        // §AM.7 cardstock-active — 1px gold rim
-        border: `1px solid ${withAlpha(gold, '40')}`,
-        boxShadow: `0 0 0 1px ${withAlpha(gold, '10')}`,
-        borderRadius: 16,
-        padding: '16px 18px',
-        marginBottom: 16,
-        display: 'flex',
-        alignItems: 'center',
-        gap: 14,
+        appearance: 'none', position: 'relative', display: 'flex', flexDirection: 'column',
+        width: '100%', height,
+        border: `1px solid ${withAlpha(pig.base, '40')}`,
+        borderRadius: 16, overflow: 'hidden', padding: 0, cursor: 'pointer',
+        background: silk,
+        textAlign: 'left',
+        transform: pressed ? 'scale(0.99)' : 'none',
+        transition: 'transform 140ms cubic-bezier(0.22,1,0.36,1)',
+        boxShadow: '0 1px 0 rgba(43,39,34,.04), 0 8px 20px rgba(60,46,28,.07)',
       }}
     >
-      <div
-        aria-hidden="true"
-        style={{
-          width: 44, height: 44, borderRadius: 12,
-          background: withAlpha(pigments[pigKey].base, '1A'),
-          border: `1px solid ${withAlpha(pigments[pigKey].base, '40')}`,
+      {/* Art frame (top) — fades to silk paper at the bottom */}
+      <div style={{ position: 'relative', height: frameH, overflow: 'hidden' }}>
+        {artSrc && (
+          <MoodboardArt
+            src={artSrc}
+            pigBase={pig.base}
+            footerFade={true}
+            footerColor={silk}
+          />
+        )}
+        {/* Top-left round mark badge (paper chip with element seal SVG) */}
+        <span aria-hidden="true" style={{
+          position: 'absolute', top: 10, left: 10, zIndex: 3,
+          width: 28, height: 28, borderRadius: 999,
+          background: 'rgba(248,244,236,0.8)',
+          border: `1px solid ${withAlpha(pig.base, '40')}`,
+          color: pig.deep,
           display: 'flex', alignItems: 'center', justifyContent: 'center',
-          color: pig, flexShrink: 0,
-        }}
-      >
-        <ElementMark element={pigKey} size={26} />
-      </div>
-      <div style={{ flex: 1 }}>
-        <div style={{
-          fontFamily: "'EB Garamond', Georgia, serif",
-          fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
-          color: bronzeDark, fontWeight: 500, marginBottom: 3,
+          backdropFilter: 'blur(2px)',
+          WebkitBackdropFilter: 'blur(2px)',
         }}>
-          Age {decade.startAge}–{decade.endAge} · {decade.startYear}–{decade.endYear}
-        </div>
-        <div style={{
-          fontFamily: "'EB Garamond', Georgia, serif",
-          fontSize: 20, color: ink, lineHeight: 1.2,
-        }}>
-          The {decade.element} Decade
-        </div>
+          <ElementMark element={pigKey} size={16} />
+        </span>
+        {/* Top-right hanzi watermark — overrides default with explicit hanzi prop */}
+        {hanzi && (
+          <span aria-hidden="true" style={{
+            position: 'absolute', top: 8, right: 12, zIndex: 3,
+            fontFamily: "'Noto Serif SC', serif", fontWeight: 500,
+            fontSize: hanzi.length > 1 ? 22 : 26,
+            color: pig.deep, opacity: 0.5, lineHeight: 1,
+          }}>{hanzi}</span>
+        )}
       </div>
+
+      {/* Paper footer */}
       <div style={{
-        fontFamily: "'Noto Serif SC', serif",
-        fontSize: 22, color: pig, lineHeight: 1, flexShrink: 0,
+        flex: 1, padding: '9px 13px 11px',
+        display: 'flex', flexDirection: 'column', gap: 2,
+        justifyContent: 'center',
       }}>
-        {decade.stem}{decade.branch}
-      </div>
-    </section>
-  );
-}
-
-// ───────────────────────────────────────────────────────────────────
-// TabSwitcher — TODAY / MONTH / YEAR pill row.
-// ───────────────────────────────────────────────────────────────────
-function TabSwitcher({ tab, onChange }) {
-  return (
-    <div
-      role="tablist"
-      style={{
-        display: 'flex',
-        background: 'rgba(234,229,223,0.5)',  // parchment @ ~50% (DOC5 §10)
-        borderRadius: 999,
-        padding: 4,
-        marginBottom: 18,
-        gap: 4,
-      }}
-    >
-      {TABS.map((t) => {
-        const active = tab === t;
-        return (
-          <button
-            key={t}
-            role="tab"
-            aria-selected={active}
-            onClick={() => onChange(t)}
-            style={{
-              flex: 1,
-              appearance: 'none',
-              border: 'none',
-              cursor: 'pointer',
-              padding: '8px 0',
-              borderRadius: 999,
-              background: active ? '#FFFFFF' : 'transparent',
-              boxShadow: active ? '0 1px 2px rgba(40,30,20,0.08)' : 'none',
-              fontFamily: "'EB Garamond', Georgia, serif",
-              fontSize: 10,
-              letterSpacing: 1.5,
-              textTransform: 'uppercase',
-              fontWeight: active ? 600 : 400,
-              color: active ? ink : inkLight,
-              transition: 'background 180ms ease, color 180ms ease',
-            }}
-          >
-            {t}
-          </button>
-        );
-      })}
-    </div>
-  );
-}
-
-// ───────────────────────────────────────────────────────────────────
-// TodayTab — the daily guidance content.
-// ───────────────────────────────────────────────────────────────────
-function TodayTab({ guidance, pigKey, pig, chart }) {
-  const now = new Date();
-  const dateLabel = `${WEEKDAYS[now.getDay()]}, ${MONTHS[now.getMonth()]} ${now.getDate()}`;
-
-  if (!guidance) {
-    return (
-      <ScaffoldTab title="Today" note="Seed a chart to see today's reading." icon="ico-sunrise" />
-    );
-  }
-
-  const todayPigKey = ELEMENT_TO_PIGMENT[guidance.todayElement] || 'metal';
-  const todayPig = pigments[todayPigKey].deep;
-  const todayPigBase = pigments[todayPigKey].base;
-  const catalyst = chart?.catalyst;
-  const catalystPigKey = catalyst ? ELEMENT_TO_PIGMENT[catalyst] : null;
-
-  return (
-    <>
-      {/* Today's element — scene hero (painterly day-element art) */}
-      <SceneHero
-        element={guidance.todayElement}
-        artSrc={elementArt(guidance.todayElement)}
-        eyebrow={`${dateLabel} · ${guidance.todayElement} Day`}
-        title={guidance.label}
-        subtitle={`${guidance.todayStem} · ${guidance.todayElement} Stem · ${guidance.todayStemTenGod?.en || ''}`}
-        height={188}
-      />
-
-      {/* Daily narrative — reads below the hero */}
-      <p style={{
-        fontFamily: "'EB Garamond', Georgia, serif",
-        fontSize: 15, lineHeight: 1.78, color: ink,
-        margin: '16px 2px 16px',
-      }}>
-        {guidance.narrative}
-      </p>
-
-      {/* DO THIS */}
-      <ListCard
-        eyebrow="DO THIS"
-        pig={todayPig}
-        items={guidance.doThis}
-        marker="check"
-      />
-
-      {/* AVOID */}
-      <ListCard
-        eyebrow="AVOID"
-        pig={bronzeDark}
-        items={guidance.avoid}
-        marker="warn"
-      />
-
-      {/* BEST HOURS */}
-      <section style={{
-        background: cardstockBg,
-        border: `1px solid ${paperHair}`,
-        borderRadius: 16,
-        padding: '18px 18px 14px',
-        marginBottom: 14,
-      }}>
+        {meta && (
+          <span style={{
+            fontFamily: "'EB Garamond', Georgia, serif",
+            fontSize: 10, letterSpacing: 2, textTransform: 'uppercase',
+            color: pig.deep, fontWeight: 600,
+          }}>{meta}</span>
+        )}
         <div style={{
-          fontFamily: "'EB Garamond', Georgia, serif",
-          fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
-          color: withAlpha(todayPig, 'CC'), fontWeight: 500, marginBottom: 12,
-        }}>
-          Best Hours
-        </div>
-        {guidance.bestHours.map(([window, desc], i) => (
-          <div key={i} style={{
-            display: 'flex', alignItems: 'baseline', gap: 12,
-            padding: '8px 0',
-            borderTop: i === 0 ? 'none' : `1px solid ${paperHair}`,
-          }}>
-            <span style={{
-              fontFamily: "'EB Garamond', Georgia, serif",
-              fontSize: 13, fontWeight: 600, color: ink,
-              minWidth: 76, flexShrink: 0,
-            }}>
-              {window}
-            </span>
-            <span style={{
-              fontFamily: "'EB Garamond', Georgia, serif",
-              fontSize: 14, color: inkSoft, lineHeight: 1.4,
-            }}>
-              {desc}
-            </span>
-          </div>
-        ))}
-      </section>
-
-      {/* YOUR CATALYST TODAY */}
-      {catalyst && (
-        <section style={{
-          background: quietBg,
-          border: `1px solid ${quietBorder}`,
-          borderRadius: 16,
-          padding: '18px',
-          marginBottom: 14,
-        }}>
+          fontFamily: "'Cormorant Garamond', Georgia, serif",
+          fontSize: 19, fontWeight: 600, lineHeight: 1.04,
+          color: ink, marginTop: 2,
+        }}>{title}</div>
+        {sub && !chev && (
           <div style={{
             fontFamily: "'EB Garamond', Georgia, serif",
-            fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
-            color: bronzeDark, fontWeight: 500, marginBottom: 10,
+            fontSize: 12.5, lineHeight: 1.4, fontStyle: 'italic',
+            color: inkLight, marginTop: 2,
+          }}>{sub}</div>
+        )}
+        {chev && (
+          <div style={{
+            display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+            marginTop: 6,
           }}>
-            Your Catalyst
-          </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-            {catalystPigKey && (
-              <div aria-hidden="true" style={{
-                width: 36, height: 36, borderRadius: 10,
-                background: withAlpha(pigments[catalystPigKey].base, '1A'),
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                color: pigments[catalystPigKey].deep, flexShrink: 0,
-              }}>
-                <ElementMark element={catalystPigKey} size={20} />
-              </div>
-            )}
-            <p style={{
-              fontFamily: "'EB Garamond', Georgia, serif",
-              fontSize: 14, lineHeight: 1.6, color: inkSoft, margin: 0,
-            }}>
-              {catalyst} lifts your {guidance.dmElement} nature.
-              {guidance.todayElement === catalyst
-                ? ' Today carries it directly — a rare alignment worth using.'
-                : ` Seek ${catalyst.toLowerCase()} energy where you can today; it restores what the day spends.`}
-            </p>
-          </div>
-        </section>
-      )}
-    </>
-  );
-}
-
-// ───────────────────────────────────────────────────────────────────
-// ListCard — DO THIS / AVOID list with marker icons.
-// ───────────────────────────────────────────────────────────────────
-function ListCard({ eyebrow, pig, items, marker }) {
-  return (
-    <section style={{
-      background: cardstockBg,
-      border: `1px solid ${paperHair}`,
-      borderRadius: 16,
-      padding: '18px 18px 14px',
-      marginBottom: 14,
-    }}>
-      <div style={{
-        fontFamily: "'EB Garamond', Georgia, serif",
-        fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
-        color: withAlpha(pig, 'CC'), fontWeight: 500, marginBottom: 12,
-      }}>
-        {eyebrow}
-      </div>
-      <ul style={{ listStyle: 'none', margin: 0, padding: 0 }}>
-        {items.map((item, i) => (
-          <li key={i} style={{
-            display: 'flex', gap: 12, alignItems: 'flex-start',
-            padding: '7px 0',
-          }}>
-            <Marker kind={marker} color={pig} />
             <span style={{
               fontFamily: "'EB Garamond', Georgia, serif",
-              fontSize: 15, lineHeight: 1.55, color: inkSoft,
-            }}>
-              {item}
-            </span>
-          </li>
-        ))}
-      </ul>
-    </section>
-  );
-}
-
-// DO = rounded-square checkbox outline; AVOID = triangle warning.
-function Marker({ kind, color }) {
-  if (kind === 'warn') {
-    return (
-      <svg width="16" height="16" viewBox="0 0 16 16" style={{ marginTop: 3, flexShrink: 0 }} aria-hidden="true">
-        <path d="M8 2 L15 14 L1 14 Z" fill="none" stroke={color} strokeWidth="1.4" strokeLinejoin="round" />
-        <line x1="8" y1="6.5" x2="8" y2="10" stroke={color} strokeWidth="1.4" strokeLinecap="round" />
-        <circle cx="8" cy="11.6" r="0.7" fill={color} />
-      </svg>
-    );
-  }
-  return (
-    <svg width="16" height="16" viewBox="0 0 16 16" style={{ marginTop: 3, flexShrink: 0 }} aria-hidden="true">
-      <rect x="2" y="2" width="12" height="12" rx="3" fill="none" stroke={color} strokeWidth="1.6" />
-    </svg>
-  );
-}
-
-// ───────────────────────────────────────────────────────────────────
-// MonthTab — calendar grid + flow-window summary (DOC5 §10 Month tab).
-// ───────────────────────────────────────────────────────────────────
-const WEEK_HEADER = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
-
-function fmtRange(monthIdx, run) {
-  const m = MONTHS[monthIdx].slice(0, 3);
-  return run.start === run.end ? `${m} ${run.start}` : `${m} ${run.start}–${run.end}`;
-}
-
-function MonthTab({ chart }) {
-  const now = new Date();
-  const year = now.getFullYear();
-  const monthIdx = now.getMonth();
-  const { weeks } = monthGrid(year, monthIdx, chart);
-  const windows = flowWindows(year, monthIdx, chart);
-
-  return (
-    <>
-      {/* Month label */}
-      <div style={{
-        fontFamily: "'Cormorant Garamond', Georgia, serif",
-        fontSize: 24, fontWeight: 500, color: ink, margin: '4px 2px 14px',
-      }}>
-        {MONTHS[monthIdx]} {year}
-      </div>
-
-      {/* Calendar card */}
-      <section style={{
-        background: cardstockBg, border: `1px solid ${paperHair}`,
-        borderRadius: 16, padding: '14px 12px', marginBottom: 14,
-      }}>
-        {/* Weekday header */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7,1fr)', marginBottom: 6 }}>
-          {WEEK_HEADER.map((d, i) => (
-            <div key={i} style={{
-              textAlign: 'center', fontFamily: "'EB Garamond', Georgia, serif",
-              fontSize: 10, letterSpacing: 1, color: inkLight, fontWeight: 500,
-            }}>{d}</div>
-          ))}
-        </div>
-        {/* Weeks */}
-        {weeks.map((week, wi) => (
-          <div key={wi} style={{ display: 'grid', gridTemplateColumns: 'repeat(7,1fr)', gap: 2 }}>
-            {week.map((cell, ci) => <DayCell key={ci} cell={cell} />)}
+              fontSize: 12.5, fontStyle: 'italic', color: inkLight,
+            }}>{chevSub || sub}</span>
+            <Icon id="ico-chev-r" size={14} color={inkLight} />
           </div>
-        ))}
-      </section>
-
-      {/* Flow windows */}
-      <section style={{
-        background: quietBg, border: `1px solid ${quietBorder}`,
-        borderRadius: 16, padding: '16px 18px', marginBottom: 14,
-      }}>
-        <div style={{
-          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10,
-          letterSpacing: 2.5, textTransform: 'uppercase', color: bronzeDark,
-          fontWeight: 500, marginBottom: 12,
-        }}>Flow Windows</div>
-
-        <WindowRow color={gold} label="High flow"
-          ranges={windows.high.map((r) => fmtRange(monthIdx, r))} empty="No standout high-flow runs this month." />
-        <WindowRow color={pigments.fire.deep} label="Challenging"
-          ranges={windows.low.map((r) => fmtRange(monthIdx, r))} empty="No notable clash windows this month." last />
-      </section>
-    </>
-  );
-}
-
-function DayCell({ cell }) {
-  if (!cell) return <div style={{ aspectRatio: '1', minHeight: 38 }} />;
-  const pigKey = ELEMENT_TO_PIGMENT[cell.element] || 'metal';
-  const dot = pigments[pigKey].deep;
-  const high = cell.level === 'high';
-  return (
-    <div style={{
-      aspectRatio: '1', minHeight: 38,
-      display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
-      gap: 3, borderRadius: 10,
-      background: high ? withAlpha(gold, '10') : 'transparent',
-      border: cell.isToday ? `1.5px solid ${ink}` : high ? `1px solid ${withAlpha(gold, '40')}` : '1px solid transparent',
-    }}>
-      <span style={{
-        fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13,
-        color: cell.isToday ? ink : inkSoft, fontWeight: cell.isToday ? 600 : 400,
-      }}>{cell.day}</span>
-      <span aria-hidden="true" style={{ width: 6, height: 6, borderRadius: 999, background: dot, opacity: cell.level === 'low' ? 0.45 : 0.9 }} />
-    </div>
-  );
-}
-
-function WindowRow({ color, label, ranges, empty, last }) {
-  return (
-    <div style={{
-      display: 'flex', gap: 10, alignItems: 'flex-start',
-      paddingTop: 8, marginTop: 8,
-      borderTop: last ? `1px solid ${paperHair}` : 'none',
-    }}>
-      <span aria-hidden="true" style={{ width: 8, height: 8, borderRadius: 999, background: color, marginTop: 6, flexShrink: 0 }} />
-      <div>
-        <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13, fontWeight: 600, color: ink }}>{label}</div>
-        <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14, color: inkSoft, lineHeight: 1.5 }}>
-          {ranges.length ? ranges.join(' · ') : empty}
-        </div>
+        )}
       </div>
-    </div>
-  );
-}
-
-// ───────────────────────────────────────────────────────────────────
-// YearTab — year energy + strategic guidance + 12-month timeline.
-// ───────────────────────────────────────────────────────────────────
-function YearTab({ chart }) {
-  const fy = chart?.currentFlowYear;
-  const ctx = energyContext(chart);
-  const series = yearEnergy(chart);
-  if (!fy) return <ScaffoldTab title="This year" note="Seed a chart to see the year ahead." icon="read-chapters" />;
-
-  const yearEl = fy.stemElement;
-  const yearPigKey = ELEMENT_TO_PIGMENT[yearEl] || 'metal';
-  const yearPig = pigments[yearPigKey].deep;
-
-  // Strategic guidance — templated by the year element's relation to the DM.
-  let strategic;
-  if (yearEl === ctx.catalyst)
-    strategic = `${fy.year} runs on ${yearEl} — the very energy that lifts your ${ctx.dmElement} nature. A year to push: the current is with you, so commit to the things you have been waiting for permission to begin.`;
-  else if (yearEl === ctx.resistance)
-    strategic = `${fy.year} runs on ${yearEl}, the energy that tests your ${ctx.dmElement} nature. Not a year to force — a year to refine. Protect your reserves and let the pressure sharpen rather than scatter you.`;
-  else
-    strategic = `${fy.year} runs on ${yearEl} — neither strongly with nor against your ${ctx.dmElement} nature. A year that rewards steadiness: build quietly, and the foundations you lay now hold.`;
-
-  return (
-    <>
-      {/* Year energy card */}
-      <section style={{
-        background: withAlpha(pigments[yearPigKey].base, '10'),
-        border: `1px solid ${withAlpha(pigments[yearPigKey].base, '40')}`,
-        borderRadius: 16, padding: '18px', marginBottom: 14,
-        display: 'flex', alignItems: 'center', gap: 16,
-      }}>
-        <div aria-hidden="true" style={{
-          width: 52, height: 52, borderRadius: 12,
-          background: withAlpha(pigments[yearPigKey].base, '1A'),
-          display: 'flex', alignItems: 'center', justifyContent: 'center',
-          color: yearPig, flexShrink: 0,
-        }}>
-          <ElementMark element={yearPigKey} size={28} />
-        </div>
-        <div style={{ flex: 1 }}>
-          <div style={{
-            fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10,
-            letterSpacing: 2.5, textTransform: 'uppercase',
-            color: withAlpha(yearPig, 'CC'), fontWeight: 500, marginBottom: 3,
-          }}>The {yearEl} Year · {fy.year}</div>
-          <div style={{
-            fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 22,
-            fontWeight: 500, color: ink, lineHeight: 1.1,
-          }}>
-            <span style={{ fontFamily: "'Noto Serif SC', serif", color: yearPig, marginRight: 8 }}>
-              {fy.stem}{fy.branch}
-            </span>
-            {fy.stemTenGod?.en}
-          </div>
-        </div>
-      </section>
-
-      {/* Strategic guidance */}
-      <section style={{
-        background: cardstockBg, border: `1px solid ${paperHair}`,
-        borderRadius: 16, padding: '18px', marginBottom: 14,
-      }}>
-        <div style={{
-          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10,
-          letterSpacing: 2.5, textTransform: 'uppercase', color: bronzeDark,
-          fontWeight: 500, marginBottom: 10,
-        }}>Strategic Guidance</div>
-        <p style={{
-          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 15,
-          lineHeight: 1.75, color: ink, margin: 0,
-        }}>{strategic}</p>
-      </section>
-
-      {/* Energy timeline — 12 monthly bars */}
-      <section style={{
-        background: cardstockBg, border: `1px solid ${paperHair}`,
-        borderRadius: 16, padding: '18px 14px 12px', marginBottom: 14,
-      }}>
-        <div style={{
-          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10,
-          letterSpacing: 2.5, textTransform: 'uppercase', color: bronzeDark,
-          fontWeight: 500, marginBottom: 14, padding: '0 4px',
-        }}>Energy Through the Year</div>
-        <EnergyTimeline series={series} />
-      </section>
-    </>
-  );
-}
-
-// Hand-rolled SVG bar chart (no chart lib). Gold = high-flow months,
-// muted stone = neutral/low. Y-axis hidden; relative comparison communicates.
-function EnergyTimeline({ series }) {
-  const W = 322, H = 120, pad = 6;
-  const barW = (W - pad * 2) / series.length;
-  const max = 100;
-  return (
-    <svg viewBox={`0 0 ${W} ${H + 18}`} width="100%" style={{ display: 'block' }} aria-hidden="true">
-      {series.map((m, i) => {
-        const h = Math.round((m.score / max) * H);
-        const x = pad + i * barW;
-        const y = H - h;
-        const fill = m.level === 'high' ? gold : '#C9C3B8';
-        return (
-          <g key={i}>
-            <rect x={x + 2} y={y} width={barW - 4} height={h} rx={3} fill={fill} opacity={m.level === 'low' ? 0.55 : 0.9} />
-            <text x={x + barW / 2} y={H + 12} textAnchor="middle"
-              fontFamily="'EB Garamond', serif" fontSize="8.5" fill="#857D72">
-              {m.label[0]}
-            </text>
-          </g>
-        );
-      })}
-    </svg>
-  );
-}
-
-// ───────────────────────────────────────────────────────────────────
-// ScaffoldTab — placeholder for MONTH / YEAR tabs (temporal engine TBD).
-// ───────────────────────────────────────────────────────────────────
-function ScaffoldTab({ title, note, icon }) {
-  return (
-    <section style={{
-      background: 'transparent',
-      border: `1px dashed ${paperHair}`,
-      borderRadius: 16,
-      padding: '36px 24px',
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      gap: 14,
-      textAlign: 'center',
-      marginTop: 4,
-    }}>
-      <div aria-hidden="true" style={{
-        width: 52, height: 52, borderRadius: 22,
-        background: 'rgba(139,115,85,0.06)',
-        border: `1px dashed ${paperHair}`,
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-        color: inkLight,
-      }}>
-        <Icon id={icon} size={26} />
-      </div>
-      <div style={{
-        fontFamily: "'Cormorant Garamond', Georgia, serif",
-        fontSize: 22, fontWeight: 500, color: ink,
-      }}>
-        {title}
-      </div>
-      <p style={{
-        fontFamily: "'EB Garamond', Georgia, serif",
-        fontSize: 14, lineHeight: 1.65, color: inkLight,
-        margin: 0, maxWidth: 280,
-      }}>
-        {note}
-      </p>
-    </section>
+    </button>
   );
 }

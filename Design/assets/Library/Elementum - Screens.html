@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Elementum · Consolidated Screens</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --pg:#e7e6e3; --ink:#3a3a38; --mid:#7c7b77; --soft:#a9a8a3;
+    --line:#bdbcb7; --fill:#f3f2ef; --fill2:#eae9e5; --frame:#2f2e2c; --hatch:#d9d8d3;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:var(--pg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;}
+  .sheet{padding:40px 36px 90px;}
+  .doc-h{max-width:1240px;margin:0 auto 30px;}
+  .doc-h .kick{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--mid);margin:0 0 6px;}
+  .doc-h h1{font-family:Georgia,serif;font-weight:500;font-size:30px;margin:0 0 8px;letter-spacing:.2px;}
+  .doc-h p{font-size:14px;line-height:1.6;color:var(--mid);max-width:820px;margin:0;}
+
+  .deck{display:flex;gap:30px;align-items:flex-start;flex-wrap:wrap;max-width:1290px;margin:0 auto;justify-content:flex-start;}
+  .col{width:390px;}
+  .col-h{margin:0 0 11px;}
+  .col-h .v{font-family:ui-monospace,monospace;font-size:10.5px;letter-spacing:2px;text-transform:uppercase;color:var(--ink);font-weight:600;}
+  .col-h .n{font-family:Georgia,serif;font-size:18px;margin:3px 0 0;}
+  .col-h .d{font-size:11.5px;color:var(--mid);margin:4px 0 0;line-height:1.45;}
+
+  .phone{width:390px;height:844px;background:var(--fill);border:2px solid var(--frame);border-radius:24px;position:relative;overflow:hidden;display:flex;flex-direction:column;}
+  .status{height:30px;display:flex;align-items:center;justify-content:center;color:var(--soft);font-family:ui-monospace,monospace;font-size:9px;letter-spacing:1px;flex-shrink:0;}
+  .pgbg{font-family:ui-monospace,monospace;font-size:9px;letter-spacing:1px;color:var(--soft);position:absolute;top:8px;left:11px;z-index:5;}
+  .fitnote{position:absolute;top:8px;right:11px;font-family:ui-monospace,monospace;font-size:9px;color:#3f7a4f;z-index:5;}
+  .pad{flex:1;display:flex;flex-direction:column;padding:0 14px 12px;min-height:0;}
+
+  .box{background:var(--fill);border:1px solid var(--line);border-radius:12px;position:relative;overflow:hidden;}
+  .slot{position:absolute;top:6px;left:8px;font-family:ui-monospace,monospace;font-size:8px;letter-spacing:.6px;color:var(--mid);background:rgba(255,255,255,.72);padding:1px 4px;border-radius:3px;z-index:3;}
+  .slot.r{left:auto;right:8px;}
+  .ey{font-family:ui-monospace,monospace;font-size:8.5px;letter-spacing:1.6px;text-transform:uppercase;color:var(--mid);}
+  .ti{font-family:Georgia,serif;color:var(--ink);line-height:1.06;}
+  .sub{font-size:11px;color:var(--mid);}
+  .mark{width:26px;height:26px;border:1.5px solid var(--soft);border-radius:6px;display:flex;align-items:center;justify-content:center;color:var(--soft);font-size:13px;flex-shrink:0;background:rgba(255,255,255,.55);}
+  .chev{color:var(--soft);font-size:14px;flex-shrink:0;}
+  .hanzi{font-family:Georgia,serif;color:var(--soft);letter-spacing:2px;}
+
+  .hatch{background:repeating-linear-gradient(135deg,var(--hatch) 0 8px,transparent 8px 16px),var(--fill2);}
+  .tex-rain{background:repeating-linear-gradient(80deg,#d5d4cf 0 2px,transparent 2px 9px),radial-gradient(120% 90% at 70% 30%,#e0dfda,#c8c7c2);}
+  .tex-month{background:repeating-linear-gradient(90deg,#cfcec9 0 3px,#deddd8 3px 26px);}
+  .tex-year{background:repeating-radial-gradient(circle at 74% 30%,#c9c8c3 0 6px,#dcdbd6 6px 16px);}
+  .tex-decade{background:repeating-linear-gradient(0deg,#dadad5 0 8px,#c8c7c2 8px 16px);}
+  .tex-mist{background:radial-gradient(130% 100% at 28% 22%,#e4e3de,#cdccc7);}
+  .tex-ore{background:linear-gradient(135deg,#dcdbd6 0 38%,#c3c2bd 38% 70%,#d2d1cc 70%),var(--fill2);}
+  .tex-flow{background:repeating-linear-gradient(135deg,#d7d6d1 0 7px,#c6c5c0 7px 14px);}
+  .tex-strata{background:repeating-linear-gradient(0deg,#dcdbd6 0 7px,#c9c8c3 7px 14px);}
+  .tex-pillars{background:repeating-linear-gradient(90deg,#c7c6c1 0 4px,#deddd8 4px 20px);}
+
+  .hero{position:relative;display:flex;flex-direction:column;justify-content:flex-end;color:var(--mid);padding:13px;}
+  .hero .meta{font-family:ui-monospace,monospace;font-size:8.5px;letter-spacing:1.6px;text-transform:uppercase;color:var(--mid);}
+
+  .bhead{display:flex;align-items:center;gap:8px;padding:7px 2px 2px;flex-shrink:0;}
+  .bhead .bk{font-size:16px;color:var(--mid);}
+  .bhead .bt{font-family:ui-monospace,monospace;font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mid);}
+
+  .rbar{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding:11px 2px;flex-shrink:0;}
+  .rbar .lk{font-family:Georgia,serif;font-style:italic;font-size:12px;color:var(--mid);border-bottom:1px dashed var(--line);}
+
+  .tabbar{display:flex;align-items:center;justify-content:space-around;height:62px;border-top:1px solid var(--line);background:var(--fill2);flex-shrink:0;}
+  .tabbar i{width:20px;height:20px;border:1.5px solid var(--soft);border-radius:5px;display:block;}
+  .tabbar i.mid{border-radius:999px;border-color:var(--ink);}
+  .tabbar i.act{background:var(--soft);border-color:var(--soft);}
+  .tabbar i.mid.act{background:var(--ink);border-color:var(--ink);}
+
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+  .glab{font-family:ui-monospace,monospace;font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mid);padding:11px 12px 0;display:block;}
+  .glist{display:flex;flex-direction:column;gap:9px;padding:10px 12px;}
+  .gitem{display:flex;gap:9px;align-items:flex-start;font-size:11.5px;line-height:1.35;color:var(--ink);}
+  .gitem .bx{width:14px;height:14px;border:1.4px solid var(--soft);border-radius:3px;flex-shrink:0;margin-top:1px;}
+  .gitem .wt{width:14px;height:14px;border:1.4px solid var(--soft);border-radius:3px;flex-shrink:0;margin-top:1px;display:flex;align-items:center;justify-content:center;font-size:9px;color:var(--soft);}
+
+  .tcap{padding:11px;display:flex;flex-direction:column;justify-content:flex-end;gap:3px;height:100%;}
+  .mk2{position:absolute;top:11px;right:11px;}
+
+  .rowline{display:flex;align-items:center;gap:10px;padding:11px 12px;border-top:1px solid var(--line);}
+  .rowline:first-child{border-top:none;}
+  .rowline .t{font-family:Georgia,serif;font-weight:600;font-size:13px;min-width:64px;}
+  .rowline .d{font-family:Georgia,serif;font-size:12px;color:var(--mid);}
+
+  .bars{display:flex;gap:6px;align-items:flex-end;padding:12px 12px 0;height:72px;}
+  .bars .b{flex:1;background:var(--line);border-radius:3px 3px 0 0;}
+  .bars .b.on{background:var(--soft);}
+  .barlab{display:flex;gap:6px;padding:6px 12px 12px;}
+  .barlab span{flex:1;text-align:center;font-family:ui-monospace,monospace;font-size:8px;color:var(--mid);}
+
+  .ebal{display:flex;gap:7px;padding:12px;}
+  .ebal .e{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;}
+  .ebal .e .bar{width:100%;background:var(--fill2);border:1px solid var(--line);border-radius:3px;display:flex;align-items:flex-end;height:58px;overflow:hidden;}
+  .ebal .e .bar>i{width:100%;background:var(--soft);display:block;}
+
+  .arc{display:flex;align-items:center;margin:14px 12px 2px;}
+  .arc .dot{width:9px;height:9px;border-radius:999px;border:1.5px solid var(--soft);background:var(--fill);flex-shrink:0;}
+  .arc .now{width:14px;height:14px;border-radius:999px;background:var(--soft);border:2px solid var(--fill);box-shadow:0 0 0 1.5px var(--soft);flex-shrink:0;}
+  .arc .ln{flex:1;height:1.5px;background:var(--soft);}
+  .arc .ln.dim{background:var(--line);}
+  .arclab{display:flex;justify-content:space-between;padding:0 12px 10px;}
+
+  .prose{font-family:Georgia,serif;font-size:12.5px;color:var(--ink);padding:8px 12px 13px;line-height:1.55;}
+
+  /* ---- reading detail (template · Variant A) ---- */
+  .rdscroll{flex:1;overflow-y:auto;min-height:0;}
+  .tex-ink{background:radial-gradient(120% 90% at 60% 32%,#cfcec9,#aeada8 70%,#8f8e8a);}
+  .rdhero{position:relative;display:flex;flex-direction:column;justify-content:flex-end;color:#eceae5;padding:16px;}
+  .rdhero .reye{font-family:ui-monospace,monospace;font-size:8.5px;letter-spacing:1.8px;text-transform:uppercase;color:#c7d2dc;}
+  .rdhero .rti{font-family:Georgia,serif;color:#f2f0ec;line-height:1.05;}
+  .rdhero .rsub{font-family:Georgia,serif;font-size:12px;color:#d8d6d1;}
+  .back{position:absolute;top:14px;left:14px;width:34px;height:34px;border-radius:999px;background:rgba(255,255,255,.55);display:flex;align-items:center;justify-content:center;color:var(--ink);font-size:16px;z-index:2;}
+  .stick{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:10px;padding:9px 14px;background:rgba(238,237,233,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(4px);}
+  .stick .bar{flex:1;height:4px;border-radius:999px;background:var(--line);position:relative;overflow:hidden;}
+  .stick .bar>i{position:absolute;left:0;top:0;bottom:0;width:38%;background:var(--soft);display:block;}
+  .stick .ct{font-family:ui-monospace,monospace;font-size:9px;letter-spacing:1px;color:var(--mid);}
+  .rdbody{padding:0 16px 18px;}
+  .eyb{font-family:ui-monospace,monospace;font-size:8.5px;letter-spacing:1.8px;text-transform:uppercase;color:#7e94a6;}
+  .bd{font-family:Georgia,serif;font-size:12px;line-height:1.5;color:var(--ink);margin:0;}
+  .bd.sm{font-size:11px;color:var(--mid);}
+  .bd.lead b{font-weight:600;}
+  .verse{font-family:Georgia,serif;font-style:italic;color:var(--ink);}
+  .chips{display:flex;flex-wrap:wrap;gap:7px;}
+  .chip{font-family:Georgia,serif;font-size:11px;color:var(--mid);border:1px solid var(--line);border-radius:999px;padding:4px 11px;background:var(--fill);}
+  .litem{display:flex;gap:11px;padding:12px 0;border-top:1px solid var(--line);}
+  .litem:first-of-type{border-top:none;}
+  .litem .dot{width:7px;height:7px;border-radius:999px;background:var(--soft);margin-top:5px;flex-shrink:0;}
+  .litem .tx{flex:1;display:flex;flex-direction:column;gap:6px;}
+  .link{font-family:Georgia,serif;font-size:13px;color:var(--mid);border-bottom:1px dashed var(--line);display:inline-block;padding-bottom:3px;}
+  .pager{display:flex;align-items:stretch;gap:10px;}
+  .pager .pg{flex:1;border:1px solid var(--line);border-radius:12px;padding:11px 12px;display:flex;flex-direction:column;gap:3px;background:var(--fill);}
+  .pager .ct{display:flex;align-items:center;justify-content:center;font-family:ui-monospace,monospace;font-size:9px;letter-spacing:1px;color:var(--mid);min-width:48px;}
+  .pager .pl{font-family:ui-monospace,monospace;font-size:8px;letter-spacing:1.5px;text-transform:uppercase;color:var(--soft);}
+  .fitnote.scr{color:#9a7b3f;}
+
+  /* ---- energy map (Variant B · scrollable) ---- */
+  .em{flex:1;overflow-y:auto;position:relative;min-height:0;
+    background:linear-gradient(180deg,#e6e3db 0%,#e6e3db 22%,#d7d3c8 52%,#e6e3db 74%,#d7d3c8 100%);}
+  .em::-webkit-scrollbar{width:0;}
+  .landscape{position:absolute;left:0;right:0;top:0;height:100%;pointer-events:none;z-index:0;
+    background:radial-gradient(120% 40% at 78% 60%,rgba(150,145,132,.30),transparent 60%),radial-gradient(90% 30% at 20% 52%,rgba(150,145,132,.22),transparent 55%),radial-gradient(60% 22% at 62% 84%,rgba(120,116,104,.28),transparent 60%);}
+  .landscape .ridge{position:absolute;left:0;right:0;border-top:1.5px solid rgba(120,116,104,.25);}
+  .em .z{position:relative;z-index:2;}
+  .slotabs{position:absolute;top:6px;left:8px;z-index:6;}
+  .reveal{height:812px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;position:relative;padding:46px 28px 64px;}
+  .sword{width:2px;height:188px;background:linear-gradient(var(--soft),rgba(120,116,104,.15));margin-bottom:16px;flex-shrink:0;}
+  .sword::after{content:"";position:absolute;width:40px;height:7px;background:var(--mid);left:50%;transform:translateX(-50%);margin-top:182px;border-radius:2px;opacity:.55;}
+  .reveal .reye{font-family:ui-monospace,monospace;letter-spacing:4px;font-size:11px;text-transform:uppercase;color:var(--mid);}
+  .reveal .big{font-family:Georgia,serif;font-size:50px;color:var(--ink);line-height:1;margin:8px 0 0;font-weight:500;}
+  .uline{width:120px;height:0;border-top:1px solid var(--soft);opacity:.6;margin:16px 0 14px;}
+  .reveal .isub{font-family:Georgia,serif;font-style:italic;font-size:15px;color:var(--mid);}
+  .chips3{display:flex;gap:12px;margin:22px 0 18px;}
+  .chip3{width:94px;height:84px;border-radius:16px;background:rgba(248,241,225,.92);border:1px solid var(--line);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:11px;position:relative;box-shadow:0 1px 3px rgba(80,76,66,.08);}
+  .chip3 .gl{height:26px;display:flex;align-items:center;justify-content:center;}
+  .chip3 .lb{font-family:ui-monospace,monospace;font-size:8.5px;letter-spacing:1.8px;text-transform:uppercase;color:var(--mid);}
+  .chip3 .stemc{font-family:"Noto Serif SC",Georgia,serif;font-size:27px;color:var(--ink);line-height:1;}
+  .cres{width:23px;height:23px;border-radius:999px;box-shadow:inset -7px -1px 0 0 var(--mid);}
+  .taichi{width:23px;height:23px;border-radius:999px;border:1.5px solid var(--mid);background:linear-gradient(90deg,var(--mid) 50%,transparent 50%);}
+  .essence{font-family:Georgia,serif;font-size:13.5px;line-height:1.55;color:var(--mid);max-width:300px;}
+  .scrollcue{position:absolute;bottom:22px;left:0;right:0;display:flex;flex-direction:column;align-items:center;gap:5px;color:var(--mid);}
+  .scrollcue .ey{letter-spacing:3px;}
+  .scrollcue .ch{font-size:15px;animation:bob 1.6s ease-in-out infinite;}
+  @keyframes bob{0%,100%{transform:translateY(0);}50%{transform:translateY(4px);}}
+  .card{background:rgba(245,244,240,.86);border:1px solid rgba(189,188,183,.7);border-radius:18px;backdrop-filter:blur(3px);box-shadow:0 8px 30px rgba(80,76,66,.12);position:relative;}
+  .blueprint{display:flex;align-items:center;gap:13px;padding:15px 16px;}
+  .emmark{width:46px;height:46px;border:1.5px solid var(--soft);border-radius:11px;display:flex;align-items:center;justify-content:center;color:var(--mid);font-size:20px;flex-shrink:0;background:rgba(255,255,255,.5);font-family:Georgia,serif;}
+  .pill{font-family:ui-monospace,monospace;font-size:8.5px;letter-spacing:1.4px;text-transform:uppercase;color:var(--mid);border:1px solid var(--line);border-radius:999px;padding:3px 10px;}
+  .chead{display:flex;justify-content:space-between;align-items:baseline;padding:14px 16px 2px;}
+  .wheel{position:relative;height:250px;width:250px;margin:2px auto 8px;}
+  .ring{position:absolute;inset:32px;border:1px dashed var(--line);border-radius:999px;}
+  .wnode{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;justify-content:center;border:1.5px solid var(--soft);border-radius:999px;background:rgba(245,244,240,.92);color:var(--mid);}
+  .wnode b{font-family:Georgia,serif;font-size:15px;color:var(--ink);font-weight:600;line-height:1;}
+  .wnode span{font-family:ui-monospace,monospace;font-size:7px;letter-spacing:.5px;text-transform:uppercase;margin-top:2px;}
+  .wcenter{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);text-align:center;}
+  .enter{display:flex;align-items:center;justify-content:center;gap:14px;height:64px;border-radius:999px;background:var(--frame);color:#efece6;font-family:ui-monospace,monospace;font-size:11px;letter-spacing:3px;text-transform:uppercase;}
+
+  /* ---- guidance hub (Variant C) ---- */
+  .gph{padding:14px 2px 4px;}
+  .gph .ey{font-family:ui-monospace,monospace;font-size:9px;letter-spacing:2px;text-transform:uppercase;color:var(--mid);}
+  .gph .ti{font-family:Georgia,serif;font-size:30px;color:var(--ink);margin-top:2px;}
+  .acc{border-left:4px solid var(--soft);}
+  .icontile{width:44px;height:44px;border-radius:11px;background:var(--fill2);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;color:var(--mid);font-size:18px;flex-shrink:0;}
+  .icontile.sm{width:34px;height:34px;font-size:14px;border-radius:9px;}
+  .tier{font-family:ui-monospace,monospace;font-size:8px;letter-spacing:1.4px;text-transform:uppercase;color:var(--mid);display:inline-flex;align-items:center;gap:4px;}
+  .tier::before{content:"◆";font-size:7px;}
+  .cta{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:8px 15px;font-family:Georgia,serif;font-size:12.5px;color:var(--ink);background:var(--fill);}
+  .cta .ar{color:var(--soft);}
+  .fcard{padding:15px 16px;display:flex;flex-direction:column;gap:11px;}
+  .fcard .top{display:flex;align-items:flex-start;justify-content:space-between;}
+  .gtile{padding:13px;display:flex;flex-direction:column;gap:8px;min-height:128px;}
+  .gtile .top{display:flex;align-items:flex-start;justify-content:space-between;}
+  .lock{position:relative;width:14px;height:13px;color:var(--mid);}
+  .lock::before{content:"";position:absolute;bottom:0;left:0;width:14px;height:9px;border:1.5px solid currentColor;border-radius:2px;}
+  .lock::after{content:"";position:absolute;top:0;left:3px;width:8px;height:8px;border:1.5px solid currentColor;border-bottom:none;border-radius:5px 5px 0 0;}
+
+  /* ---- compatibility result (Variant B) ---- */
+  .cback{display:flex;align-items:center;gap:8px;padding:8px 2px;font-family:Georgia,serif;font-size:15px;color:var(--mid);}
+  .cback .bk{font-size:16px;}
+  .cpair{position:relative;display:flex;gap:10px;margin-top:4px;}
+  .cpcard{flex:1;display:flex;flex-direction:column;align-items:center;gap:8px;padding:16px 10px 30px;text-align:center;}
+  .cpmark{width:50px;height:50px;border-radius:12px;background:rgba(234,233,229,.7);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;color:var(--soft);font-size:21px;}
+  .chz{font-family:"Noto Serif SC",Georgia,serif;color:var(--soft);}
+  .cmedal{position:absolute;left:50%;bottom:-28px;transform:translateX(-50%);width:80px;height:80px;border-radius:999px;background:conic-gradient(var(--soft) 0 70%,var(--line) 70% 100%);display:flex;align-items:center;justify-content:center;z-index:4;}
+  .cmedal .hole{width:62px;height:62px;border-radius:999px;background:#e6e2d9;display:flex;align-items:center;justify-content:center;}
+  .cscore{font-family:Georgia,serif;font-weight:500;color:var(--ink);line-height:.9;}
+  .cverdict{font-family:Georgia,serif;font-style:italic;color:var(--mid);}
+  .cshare{background:var(--frame);color:#e9e6df;border-radius:16px;padding:18px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:9px;}
+  .cshare .sti{font-family:Georgia,serif;font-size:17px;line-height:1.25;color:#efece6;}
+  .cshare .brand{font-family:ui-monospace,monospace;font-size:8.5px;letter-spacing:3px;color:#9a9488;}
+  .ccomplink{text-align:center;font-family:Georgia,serif;font-size:13px;color:var(--mid);padding:12px 0 2px;margin-top:auto;}
+  .cxdot{font-size:13px;color:var(--soft);align-self:center;}
+
+  /* ---- profile (Variant C) ---- */
+  .plab{font-family:ui-monospace,monospace;font-size:8.5px;letter-spacing:1.6px;text-transform:uppercase;color:var(--mid);}
+  .pval{font-family:Georgia,serif;font-size:15px;color:var(--ink);}
+  .pseclab{font-family:ui-monospace,monospace;font-size:9px;letter-spacing:1.6px;text-transform:uppercase;color:var(--mid);}
+  .pnotice{border:1px solid var(--line);border-radius:12px;background:var(--fill2);padding:11px 13px;}
+  .pnotice .bd{font-family:Georgia,serif;font-size:11.5px;line-height:1.45;color:var(--mid);margin:0;}
+  .plink{font-family:Georgia,serif;font-size:13px;color:var(--mid);display:inline-flex;align-items:center;gap:6px;}
+  .ptoggle{width:42px;height:24px;border-radius:999px;background:var(--soft);position:relative;flex-shrink:0;}
+  .ptoggle::after{content:"";position:absolute;top:2px;right:2px;width:20px;height:20px;border-radius:999px;background:var(--fill);}
+  .pplan{font-family:ui-monospace,monospace;font-size:9px;letter-spacing:1.2px;text-transform:uppercase;color:var(--mid);border:1px solid var(--line);border-radius:999px;padding:5px 12px;display:inline-flex;align-items:center;gap:5px;}
+  .pplan::before{content:"◆";font-size:7px;}
+  .pbtn{display:flex;align-items:center;justify-content:center;height:48px;border-radius:12px;background:var(--fill2);border:1px solid var(--line);font-family:Georgia,serif;font-size:14px;color:var(--ink);}
+  .pdevlink{text-align:center;font-family:ui-monospace,monospace;font-size:9px;letter-spacing:1.4px;text-transform:uppercase;color:var(--soft);margin-top:auto;padding:12px 0 2px;}
+
+  /* ---- raw chart (Variant A) ---- */
+  .rcback{display:flex;align-items:center;gap:8px;padding:8px 2px;font-family:Georgia,serif;font-size:15px;color:var(--mid);}
+  .rcback .bk{font-size:16px;}
+  .rcph{padding:6px 2px 8px;}
+  .rcph .ey2{font-family:ui-monospace,monospace;font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--mid);}
+  .rcph .ti{font-family:Georgia,serif;font-size:30px;color:var(--ink);margin-top:4px;}
+  .rcpillars{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;}
+  .rcpillar{border:1px solid var(--line);border-radius:12px;background:var(--fill);display:flex;flex-direction:column;align-items:center;text-align:center;padding:11px 4px 12px;gap:5px;position:relative;min-width:0;}
+  .rcpillar.self{background:var(--fill2);border-color:var(--soft);}
+  .rcpillar .pcol{font-family:ui-monospace,monospace;font-size:8px;letter-spacing:1.2px;text-transform:uppercase;color:var(--mid);}
+  .rcpillar .tg{font-family:Georgia,serif;font-size:9.5px;color:var(--soft);line-height:1.1;min-height:22px;display:flex;align-items:center;}
+  .rcpillar .stem{font-size:30px;}
+  .rcpillar .el{font-family:ui-monospace,monospace;font-size:7px;letter-spacing:.6px;text-transform:uppercase;color:var(--mid);line-height:1.3;min-height:18px;}
+  .rcpillar .dv{width:60%;height:1px;background:var(--line);margin:3px 0;}
+  .rcpillar .branch{font-size:26px;}
+  .rchz{font-family:"Noto Serif SC",Georgia,serif;color:var(--ink);line-height:1;}
+  .rclegend{display:flex;justify-content:space-between;padding:10px 4px 0;}
+  .rclegend span{font-family:Georgia,serif;font-size:11px;color:var(--mid);}
+  .rclegend b{font-family:"Noto Serif SC",Georgia,serif;color:var(--ink);font-weight:500;}
+  .rccta{display:flex;align-items:center;justify-content:center;gap:10px;height:60px;border-radius:14px;background:var(--frame);color:#efece6;font-family:Georgia,serif;font-size:15px;}
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="doc-h">
+    <p class="kick">Elementum · consolidated screens · Direction 2 (mosaic hub) · all 390×844</p>
+    <h1>Catalogue · Today · pages · reading detail · energy map · guidance · compatibility · profile · raw chart</h1>
+    <p>Twelve screens at one uniform device size. Most fit a single 390×844 viewport; the <b>Reading detail</b> (7) and <b>Energy Map</b> (8) are scrolling drill-downs. Tabs: Today (hub) · Guidance (9) · Reading (Catalogue, center) · Compat (result, 10) · Profile (11); the <b>Raw Chart</b> (12) is a drill-down from Profile.</p>
+  </div>
+
+  <div class="deck">
+
+    <!-- ============ 1 · READING CATALOGUE ============ -->
+    <div class="col">
+      <div class="col-h"><div class="v">Reading tab · center</div><div class="n">Reading Catalogue</div><div class="d">Tiered priority pyramid — featured Elemental Nature, themed pair, compact pair.</div></div>
+      <div class="phone">
+        <span class="pgbg">PAGE-BG</span><span class="fitnote">fits 844</span>
+        <div class="status">9:41</div>
+        <div class="hero hatch" style="height:264px;align-items:center;padding:0;">
+          <span class="slot">SCENE-HERO · full-bleed · tap→Day Master</span>
+          <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;">
+            <div style="width:92px;height:92px;border:1.5px solid var(--soft);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:38px;color:var(--mid);background:rgba(255,255,255,.4);">庚</div>
+            <div style="text-align:center;"><div class="ey">Your Day Master</div><div class="ti" style="font-size:31px;">The Blade</div><div class="sub" style="font-family:Georgia,serif;font-style:italic;">庚 · Yang Metal</div></div>
+          </div>
+        </div>
+        <div class="pad" style="justify-content:space-between;">
+          <div class="rbar"><span class="ey">Readings</span><span class="lk">Energy Map →</span></div>
+          <div class="box tex-mist" style="height:104px;margin-top:11px;"><span class="slot">TILE · featured · mist</span><div class="tcap"><span class="mark mk2">◇</span><span class="ey">Base Energy · primary</span><span class="ti" style="font-size:21px;">Elemental Nature</span><span class="sub">One-line essence of your element.</span></div></div>
+          <div class="grid" style="margin-top:10px;">
+            <div class="box tex-ore" style="height:140px;"><span class="slot">TILE-ART · ore</span><div class="tcap"><span class="mark mk2">◐</span><span class="ey">Primary · Sec.</span><span class="ti" style="font-size:18px;">Dominant<br/>Energies</span></div></div>
+            <div class="box tex-flow" style="height:140px;"><span class="slot">TILE-ART · flow</span><div class="tcap"><span class="mark mk2">↕</span><span class="ey">Catalyst · Res.</span><span class="ti" style="font-size:18px;">Forces in<br/>Motion</span></div></div>
+          </div>
+          <div class="grid" style="margin-top:10px;">
+            <div class="box tex-strata" style="height:84px;"><span class="slot">TILE · strata</span><div class="tcap"><span class="mark mk2" style="top:9px;right:9px;width:20px;height:20px;font-size:10px;">≣</span><span class="ey">Your Decades</span><span class="ti" style="font-size:15px;">Life Chapters</span></div></div>
+            <div class="box tex-pillars" style="height:84px;"><span class="slot">TILE · columns</span><div class="tcap"><span class="mark mk2" style="top:9px;right:9px;width:20px;height:20px;font-size:10px;">∥</span><span class="ey">Four Pillars</span><span class="ti" style="font-size:15px;">Pillar Patterns</span></div></div>
+          </div>
+        </div>
+        <div class="tabbar"><i></i><i></i><i class="mid act"></i><i></i><i></i></div>
+      </div>
+    </div>
+
+    <!-- ============ 2 · MOSAIC HUB ============ -->
+    <div class="col">
+      <div class="col-h"><div class="v">Today tab · landing</div><div class="n">Readings Hub (mosaic)</div><div class="d">Day featured, Month + Year pair, Decade wide — nested time made visible.</div></div>
+      <div class="phone">
+        <span class="pgbg">PAGE-BG</span><span class="fitnote">fits 844</span>
+        <div class="status">9:41</div>
+        <div class="pad" style="justify-content:space-between;">
+          <div style="padding:12px 2px 2px;"><div class="ey">Your Readings</div><div class="ti" style="font-size:23px;">Across time</div></div>
+          <div class="box hero tex-rain" style="height:218px;"><span class="slot">TILE · day · featured · tap→Day</span><span class="meta">Today · Thu May 28 · Water Day</span><span class="ti" style="font-size:27px;">A day to express</span><div style="display:flex;justify-content:space-between;align-items:center;"><span class="sub" style="font-family:Georgia,serif;font-style:italic;">壬 · open today's reading</span><span class="chev">›</span></div></div>
+          <div class="grid">
+            <div class="box hero tex-month" style="height:158px;"><span class="slot">TILE · month</span><span class="meta">This Month</span><span class="ti" style="font-size:19px;">Consolidate</span><span class="sub">May · Wood Month</span></div>
+            <div class="box hero tex-year" style="height:158px;"><span class="slot">TILE · year</span><span class="meta">This Year</span><span class="ti" style="font-size:19px;">Be seen</span><span class="sub">2026 · 丙午</span></div>
+          </div>
+          <div class="box hero tex-decade" style="height:150px;"><span class="slot">TILE · life chapter · wide · tap→Decade</span><span class="hanzi" style="position:absolute;top:11px;right:13px;font-size:28px;opacity:.5;">丁丑</span><span class="meta">Life Chapter · Yr 3 / 10</span><span class="ti" style="font-size:23px;">The Fire Decade</span><span class="sub">2023–2032 · the season beneath it all</span></div>
+        </div>
+        <div class="tabbar"><i class="act"></i><i></i><i class="mid"></i><i></i><i></i></div>
+      </div>
+    </div>
+
+    <!-- ============ 3 · DAY PAGE ============ -->
+    <div class="col">
+      <div class="col-h"><div class="v">Hub → destination</div><div class="n">Day page</div><div class="d">Clickable hero → day energy, chapter context, Catalyst, Do/Avoid, Best Hours.</div></div>
+      <div class="phone">
+        <span class="pgbg">PAGE-BG</span><span class="fitnote">fits 844</span>
+        <div class="status">9:41</div>
+        <div class="pad" style="justify-content:space-between;">
+          <div class="bhead"><span class="bk">‹</span><span class="bt">Readings · Day</span></div>
+          <div class="box hero tex-rain" style="height:168px;"><span class="slot">SCENE-HERO · day · tap→day energy</span><span class="meta">Thursday, May 28 · Water Day</span><span class="ti" style="font-size:27px;">A day to express</span><div style="display:flex;justify-content:space-between;align-items:center;"><span class="sub" style="font-family:Georgia,serif;font-style:italic;">壬 · Water Stem · Food God</span><span class="chev">›</span></div></div>
+          <div class="box" style="display:flex;align-items:center;gap:9px;padding:10px 12px;"><span class="slot r">link→Life Chapter</span><span class="ey">Within</span><span class="ti" style="font-size:13px;flex:1;">The Fire Decade</span><span class="chev">›</span></div>
+          <div class="box" style="display:flex;gap:10px;align-items:center;padding:12px;"><span class="slot">TILE · catalyst</span><span class="mark">△</span><div style="flex:1;"><div class="ey">Your Catalyst</div><div class="sub" style="font-family:Georgia,serif;">Fire lifts your Metal — seek fire energy today.</div></div></div>
+          <div class="grid" style="align-items:start;">
+            <div class="box" style="min-height:150px;"><span class="glab">Do This</span><div class="glist"><div class="gitem"><span class="bx"></span>Ship waiting work</div><div class="gitem"><span class="bx"></span>Say the rehearsed line</div><div class="gitem"><span class="bx"></span>Let craft lead</div></div></div>
+            <div class="box" style="min-height:150px;"><span class="glab">Avoid</span><div class="glist"><div class="gitem"><span class="wt">!</span>Over-polishing</div><div class="gitem"><span class="wt">!</span>Withholding</div><div class="gitem"><span class="wt">!</span>Critique over making</div></div></div>
+          </div>
+          <div class="box"><span class="glab">Best Hours</span><div class="grid" style="grid-template-columns:1fr 1fr 1fr;gap:0;padding:7px 12px 12px;"><div><div class="ti" style="font-size:13px;">5–7a</div><div class="sub" style="font-size:10px;">Plan</div></div><div><div class="ti" style="font-size:13px;">9–11p</div><div class="sub" style="font-size:10px;">Peak flow</div></div><div><div class="ti" style="font-size:13px;">11–1a</div><div class="sub" style="font-size:10px;">Rest</div></div></div></div>
+        </div>
+        <div class="tabbar"><i class="act"></i><i></i><i class="mid"></i><i></i><i></i></div>
+      </div>
+    </div>
+
+    <!-- ============ 4 · MONTH PAGE ============ -->
+    <div class="col">
+      <div class="col-h"><div class="v">Hub → destination</div><div class="n">Month page</div><div class="d">Month hero, 4-week arc, key dates, lean-into / avoid.</div></div>
+      <div class="phone">
+        <span class="pgbg">PAGE-BG</span><span class="fitnote">fits 844</span>
+        <div class="status">9:41</div>
+        <div class="pad" style="justify-content:space-between;">
+          <div class="bhead"><span class="bk">‹</span><span class="bt">Readings · Month</span></div>
+          <div class="box hero tex-month" style="height:158px;"><span class="slot">SCENE-HERO · month</span><span class="meta">May 2026 · Wood Month</span><span class="ti" style="font-size:27px;">A month to consolidate</span><span class="sub" style="font-family:Georgia,serif;font-style:italic;">癸巳 · feeds your Metal</span></div>
+          <div class="box"><span class="glab">The Month's Arc · 4 weeks</span><div class="bars"><div class="b" style="height:45%;"></div><div class="b on" style="height:80%;"></div><div class="b" style="height:60%;"></div><div class="b" style="height:35%;"></div></div><div class="barlab"><span>W1 build</span><span>W2 peak</span><span>W3 refine</span><span>W4 rest</span></div></div>
+          <div class="box"><span class="glab">Key Dates</span><div style="padding:2px 0 4px;"><div class="rowline"><span class="t">May 12</span><span class="d">Favorable — launch &amp; commit</span></div><div class="rowline"><span class="t">May 23</span><span class="d">Caution — defer decisions</span></div></div></div>
+          <div class="grid" style="align-items:start;">
+            <div class="box"><span class="glab">Lean Into</span><div class="glist"><div class="gitem"><span class="bx"></span>Finishing, not starting</div><div class="gitem"><span class="bx"></span>Consolidating gains</div></div></div>
+            <div class="box"><span class="glab">Avoid</span><div class="glist"><div class="gitem"><span class="wt">!</span>New commitments</div><div class="gitem"><span class="wt">!</span>Scattering focus</div></div></div>
+          </div>
+        </div>
+        <div class="tabbar"><i class="act"></i><i></i><i class="mid"></i><i></i><i></i></div>
+      </div>
+    </div>
+
+    <!-- ============ 5 · YEAR PAGE ============ -->
+    <div class="col">
+      <div class="col-h"><div class="v">Hub → destination</div><div class="n">Year page</div><div class="d">Year hero, four quarters, element balance, the year's counsel.</div></div>
+      <div class="phone">
+        <span class="pgbg">PAGE-BG</span><span class="fitnote">fits 844</span>
+        <div class="status">9:41</div>
+        <div class="pad" style="justify-content:space-between;">
+          <div class="bhead"><span class="bk">‹</span><span class="bt">Readings · Year</span></div>
+          <div class="box hero tex-year" style="height:158px;"><span class="slot">SCENE-HERO · year</span><span class="meta">2026 · 丙午 Fire Horse</span><span class="ti" style="font-size:27px;">A year to be seen</span><span class="sub" style="font-family:Georgia,serif;font-style:italic;">Fire amplifies your Metal</span></div>
+          <div class="box"><span class="glab">Four Quarters</span><div class="bars"><div class="b on" style="height:70%;"></div><div class="b" style="height:50%;"></div><div class="b" style="height:85%;"></div><div class="b" style="height:40%;"></div></div><div class="barlab"><span>Q1 ignite</span><span>Q2 steady</span><span>Q3 harvest</span><span>Q4 close</span></div></div>
+          <div class="box"><span class="glab">Element Balance · this year</span><div class="ebal"><div class="e"><div class="bar"><i style="height:80%;"></i></div><span class="ey">Fire</span></div><div class="e"><div class="bar"><i style="height:55%;"></i></div><span class="ey">Earth</span></div><div class="e"><div class="bar"><i style="height:40%;"></i></div><span class="ey">Metal</span></div><div class="e"><div class="bar"><i style="height:25%;"></i></div><span class="ey">Water</span></div><div class="e"><div class="bar"><i style="height:60%;"></i></div><span class="ey">Wood</span></div></div></div>
+          <div class="box"><span class="glab">The Year's Counsel</span><div class="prose">Visibility favors you — let work be seen. Guard against burning bright too early.</div></div>
+        </div>
+        <div class="tabbar"><i class="act"></i><i></i><i class="mid"></i><i></i><i></i></div>
+      </div>
+    </div>
+
+    <!-- ============ 6 · DECADE PAGE ============ -->
+    <div class="col">
+      <div class="col-h"><div class="v">Hub → destination</div><div class="n">Decade page (life chapter)</div><div class="d">Chapter hero, the ten-year arc, what it governs, three phases.</div></div>
+      <div class="phone">
+        <span class="pgbg">PAGE-BG</span><span class="fitnote">fits 844</span>
+        <div class="status">9:41</div>
+        <div class="pad" style="justify-content:space-between;">
+          <div class="bhead"><span class="bk">‹</span><span class="bt">Readings · Life Chapter</span></div>
+          <div class="box hero tex-decade" style="height:170px;"><span class="slot">SCENE-HERO · life chapter</span><span class="hanzi" style="position:absolute;top:11px;right:13px;font-size:32px;opacity:.5;">丁丑</span><span class="meta">Life Chapter · 2023–2032</span><span class="ti" style="font-size:29px;">The Fire Decade</span><span class="sub" style="font-family:Georgia,serif;font-size:11.5px;">A ten-year season beneath every day.</span></div>
+          <div class="box"><span class="slot r">you-are-here</span><span class="glab">The Ten-Year Arc</span><div class="arc"><span class="dot"></span><div class="ln"></div><span class="now"></span><div class="ln dim"></div><span class="dot"></span></div><div class="arclab"><span class="ey">2023 · 28</span><span class="ey">Now · 31</span><span class="ey">2032 · 37</span></div></div>
+          <div class="box"><span class="glab">What This Chapter Governs</span><div class="prose">Fire over Metal: a decade that asks you to be forged and made visible. Reputation, output, and exposure compound now.</div></div>
+          <div class="box"><span class="glab">Three Phases</span><div style="padding:2px 0 4px;"><div class="rowline"><span class="t">23–26</span><span class="d">Early — heat rising</span></div><div class="rowline"><span class="t">27–29</span><span class="d" style="color:var(--ink);">Now — the forge</span></div><div class="rowline"><span class="t">30–32</span><span class="d">Late — temper &amp; set</span></div></div></div>
+        </div>
+        <div class="tabbar"><i class="act"></i><i></i><i class="mid"></i><i></i><i></i></div>
+      </div>
+    </div>
+
+    <!-- ============ 7 · READING DETAIL (template · Variant A) ============ -->
+    <div class="col">
+      <div class="col-h"><div class="v">Reading tab · drill-down</div><div class="n">Reading detail (template)</div><div class="d">Variant A — sticky chapter header + progress. The one scrolling screen; pager is its bottom nav (no app tab bar). Scroll it to watch the header pin.</div></div>
+      <div class="phone">
+        <span class="pgbg">PAGE-BG</span><span class="fitnote scr">scrolls ↓</span>
+        <div class="status">9:41</div>
+        <div class="rdscroll">
+          <div class="rdhero tex-ink" style="height:300px;">
+            <span class="slot">SCENE-HERO · full-bleed · collapses → sticky bar</span>
+            <div class="back">‹</div>
+            <div class="reye">Day Master · 日主</div>
+            <div class="rti" style="font-size:34px;">The Blade</div>
+            <div class="rsub">庚 · Gēng · Yang Metal</div>
+          </div>
+          <div class="stick"><span class="slot">sticky · pins on scroll</span><span class="ct">2 / 6</span><div class="bar"><i></i></div><span class="ti" style="font-size:12px;">The Blade</span></div>
+          <div class="rdbody">
+            <div style="text-align:center;margin:18px 0 14px;">
+              <div class="verse" style="font-size:21px;">Precision before intention</div>
+              <div class="rsub" style="color:var(--mid);font-style:italic;font-size:13px;margin-top:5px;">An edge is never given — it is forged.</div>
+            </div>
+            <div class="box" style="padding:14px;"><span class="slot">CARD</span><div class="eyb" style="margin-bottom:10px;">The Element</div><p class="bd lead"><b>The Blade is the ancient cutting force of Metal.</b> Sharp without announcement, cold without cruelty — it carries in a person the stillness of something that has already decided.</p></div>
+            <div class="chips" style="margin-top:14px;"><span class="chip">Evaluative</span><span class="chip">Uncompromising</span><span class="chip">Precision-first</span><span class="chip">Self-sufficient</span><span class="chip">Justice-oriented</span></div>
+            <div class="box" style="padding:14px;margin-top:14px;"><span class="slot">CARD</span><div class="eyb" style="margin-bottom:10px;">How you experience the world</div><p class="bd">You evaluate before you engage. The assessment starts the moment you walk into a room — not as a decision you make but as a process that has already begun before you've chosen to begin it.</p></div>
+            <div class="box" style="padding:14px;margin-top:14px;"><span class="slot">CARD</span><div class="eyb" style="margin-bottom:10px;">What you're genuinely good at</div><p class="bd">Cutting to what's actually true, quickly, without sentimentality — not because you don't care but because accuracy is a form of care for you.</p></div>
+            <div class="box" style="padding:14px;margin-top:14px;"><span class="slot">CARD · list</span><div class="eyb" style="margin-bottom:4px;">Gifts</div>
+              <div class="litem"><span class="dot"></span><div class="tx"><span class="ti" style="font-size:15px;">The Structural Read</span><p class="bd sm">You don't choose to assess — the read finishes before you've decided to begin it.</p></div></div>
+              <div class="litem"><span class="dot"></span><div class="tx"><span class="ti" style="font-size:15px;">The Core Beneath the Edge</span><p class="bd sm">What people experience as your edge is covering a depth of care that almost no one earns access to.</p></div></div>
+            </div>
+            <div class="box" style="padding:14px;margin-top:14px;"><span class="slot">CARD · list</span><div class="eyb" style="margin-bottom:4px;">Shadows</div>
+              <div class="litem"><span class="dot"></span><div class="tx"><span class="ti" style="font-size:15px;">The Finished Too Early</span><p class="bd sm">You tend to call things complete before they've fully arrived — the clarity that recognizes finished things can misread what's still becoming.</p></div></div>
+            </div>
+            <div style="margin:18px 0;"><span class="link">◦ View your birth chart →</span></div>
+            <div class="pager"><div class="pg"><span class="pl">‹ Previous</span><span class="ti" style="font-size:13px;">—</span></div><div class="ct">1 / 6</div><div class="pg" style="text-align:right;"><span class="pl">Next ›</span><span class="ti" style="font-size:13px;">Elemental…</span></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ 8 · ENERGY MAP (Variant B · scrollable) ============ -->
+    <div class="col">
+      <div class="col-h"><div class="v">Profile tab · Energy Map</div><div class="n">Energy Map (reveal → chart)</div><div class="d">Variant B — ceremonial "The Blade" reveal fills one screen; scroll reveals the composition wheel + Enter. Scroll inside the frame.</div></div>
+      <div class="phone">
+        <span class="pgbg">SCENE-HERO (mist)</span><span class="fitnote scr">scroll ↓ live</span>
+        <div class="status">9:41</div>
+        <div class="em" id="emLive2">
+          <div class="landscape"><div class="ridge" style="top:62%;opacity:.6;"></div><div class="ridge" style="top:70%;opacity:.4;"></div></div>
+          <span class="slot slotabs">SCENE-HERO · full-bleed misty landscape</span>
+          <div class="back" style="position:absolute;top:12px;left:12px;width:34px;height:34px;border-radius:999px;background:rgba(255,255,255,.5);display:flex;align-items:center;justify-content:center;color:var(--ink);font-size:16px;z-index:7;">‹</div>
+          <div class="z">
+            <div class="reveal">
+              <div class="sword"></div>
+              <div class="reye">You are…</div>
+              <div class="big">The Blade</div>
+              <div class="uline"></div>
+              <div class="isub">Precision before intention</div>
+              <div class="chips3">
+                <div class="chip3"><span class="gl"><span class="cres"></span></span><span class="lb">Metal</span></div>
+                <div class="chip3"><span class="gl"><span class="stemc">庚</span></span><span class="lb">Geng</span></div>
+                <div class="chip3"><span class="gl"><span class="taichi"></span></span><span class="lb">Yang</span></div>
+              </div>
+              <p class="essence">Sharp without announcement, cold without cruelty — it carries in a person the stillness of something that has already decided.</p>
+              <div class="scrollcue"><span class="ey">Continue</span><span class="ch">⌄</span></div>
+            </div>
+            <div style="padding:0 16px 22px;">
+              <div class="card blueprint"><span class="slot slotabs">CARD · blueprint</span>
+                <span class="emmark">庚</span>
+                <div style="flex:1;"><div class="ti" style="font-size:21px;">Metal <span class="pill" style="margin-left:4px;">Concentrated</span></div><div class="sub" style="font-family:Georgia,serif;margin-top:3px;">Half your chart — little counterbalance.</div></div>
+                <div class="ti" style="font-size:23px;">50%</div>
+              </div>
+              <div class="card" style="margin-top:13px;padding-bottom:6px;"><span class="slot slotabs">CARD · composition · radial wheel</span>
+                <div class="chead"><span class="ey">Composition</span><span class="ey">8 marks</span></div>
+                <div class="wheel">
+                  <div class="ring"></div>
+                  <div class="wnode" style="left:50%;top:20px;width:54px;height:54px;"><b>3</b><span>Wood</span></div>
+                  <div class="wnode" style="left:214px;top:98px;width:34px;height:34px;"><b>1</b><span>Fire</span></div>
+                  <div class="wnode" style="left:182px;top:210px;width:42px;height:42px;"><b>2</b><span>Earth</span></div>
+                  <div class="wnode" style="left:68px;top:210px;width:64px;height:64px;border-width:2px;border-color:var(--mid);"><b>4</b><span>Metal</span></div>
+                  <div class="wnode" style="left:36px;top:98px;width:34px;height:34px;"><b>1</b><span>Water</span></div>
+                  <div class="wcenter"><div class="ey" style="font-size:8px;">total</div><div class="ti" style="font-size:18px;">8</div></div>
+                </div>
+              </div>
+              <div class="enter" style="margin-top:16px;"><span>Enter your Energy Map</span><span style="font-size:14px;">→</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ 9 · GUIDANCE HUB (Variant C) ============ -->
+    <div class="col">
+      <div class="col-h"><div class="v">Guidance tab</div><div class="n">Guidance hub</div><div class="d">Variant C — daily Draw featured, four deeper features as a 2×2 grid; gated features carry a lock + tier badge.</div></div>
+      <div class="phone">
+        <span class="pgbg">PAGE-BG</span><span class="fitnote">fits 844</span>
+        <div class="status">9:41</div>
+        <div class="pad" style="justify-content:flex-start;">
+          <div class="gph"><span class="ey">Guidance · 引路</span><div class="ti">Guidance</div></div>
+
+          <div class="box acc fcard" style="margin-top:8px;"><span class="slot">CARD · featured · accent: Wood</span>
+            <div class="top"><span class="icontile">◌</span></div>
+            <div><div class="ti" style="font-size:20px;">Elemental Draw</div><p class="bd" style="font-family:Georgia,serif;font-size:12px;line-height:1.5;margin:6px 0 0;">A daily question drawn from the day's elemental current — today's deck follows your Today tab.</p></div>
+            <div><span class="cta">Draw today's card <span class="ar">→</span></span></div>
+          </div>
+
+          <div class="grid" style="margin-top:12px;flex:1;grid-template-rows:1fr 1fr;">
+            <div class="box acc gtile" style="justify-content:space-between;"><span class="slot">TILE · Earth · locked</span><div class="top" style="margin-top:8px;"><span class="icontile sm"><span class="lock"></span></span><span class="tier">Seeker</span></div><div><div class="ti" style="font-size:16px;">Energy<br/>Manual</div><p class="bd sm" style="font-family:Georgia,serif;font-size:11.5px;color:var(--mid);margin:5px 0 0;">Five life domains.</p></div></div>
+            <div class="box acc gtile" style="justify-content:space-between;"><span class="slot">TILE · Water · locked</span><div class="top" style="margin-top:8px;"><span class="icontile sm"><span class="lock"></span></span><span class="tier">Seeker</span></div><div><div class="ti" style="font-size:16px;">Self-<br/>Report</div><p class="bd sm" style="font-family:Georgia,serif;font-size:11.5px;color:var(--mid);margin:5px 0 0;">Tune your readings.</p></div></div>
+            <div class="box acc gtile" style="justify-content:space-between;"><span class="slot">TILE · Water · locked · Adv</span><div class="top" style="margin-top:8px;"><span class="icontile sm"><span class="lock"></span></span><span class="tier">Advisor</span></div><div><div class="ti" style="font-size:16px;">AI<br/>Consultant</div><p class="bd sm" style="font-family:Georgia,serif;font-size:11.5px;color:var(--mid);margin:5px 0 0;">Ask anything.</p></div></div>
+            <div class="box acc gtile" style="justify-content:space-between;"><span class="slot">TILE · Fire · free</span><div class="top" style="margin-top:8px;"><span class="icontile sm">≣</span></div><div><div class="ti" style="font-size:16px;">BaZi<br/>Codex</div><p class="bd sm" style="font-family:Georgia,serif;font-size:11.5px;color:var(--mid);margin:5px 0 0;">The concepts, explained.</p></div></div>
+          </div>
+        </div>
+        <div class="tabbar"><i></i><i class="act"></i><i class="mid"></i><i></i><i></i></div>
+      </div>
+    </div>
+
+    <!-- ============ 10 · COMPATIBILITY RESULT (Variant B) ============ -->
+    <div class="col">
+      <div class="col-h"><div class="v">Compat tab · result</div><div class="n">Compatibility result</div><div class="d">Variant B — versus split with the score medallion bridging the two portraits at the seam. Free state swaps reading → teaser + unlock.</div></div>
+      <div class="phone" style="background:linear-gradient(180deg,#e9e5db 0%,#e9e5db 30%,#dbd6ca 62%,#e9e5db 100%);">
+        <span class="pgbg">PAGE-BG · mist</span><span class="fitnote">fits 844</span>
+        <div class="status">9:41</div>
+        <div class="pad" style="padding:0 16px 14px;">
+          <div class="cback"><span class="bk">‹</span>Friends</div>
+          <div class="cpair">
+            <div class="box cpcard"><span class="slot">portrait · You</span><span class="ey">You</span><span class="cpmark">◈</span><div><div class="chz" style="font-size:24px;">庚</div><div class="ti" style="font-size:15px;margin-top:2px;">The Blade</div><div class="ey" style="margin-top:3px;">Yang Metal</div></div></div>
+            <div class="box cpcard"><span class="slot">portrait · Them</span><span class="ey">Mara</span><span class="cpmark">◈</span><div><div class="chz" style="font-size:24px;">辛</div><div class="ti" style="font-size:15px;margin-top:2px;">The Jewel</div><div class="ey" style="margin-top:3px;">Yin Metal</div></div></div>
+            <div class="cmedal"><span class="slot" style="top:-14px;left:50%;transform:translateX(-50%);white-space:nowrap;">score medallion</span><div class="hole"><div class="cscore" style="font-size:25px;">70<span style="font-size:11px;color:var(--mid);">%</span></div></div></div>
+          </div>
+          <div style="text-align:center;margin:40px 0 0;">
+            <div class="ey" style="letter-spacing:2.5px;">Metal meets Metal</div>
+            <div class="ti" style="font-size:29px;margin-top:3px;">"The Mirror"</div>
+            <div class="cverdict" style="font-size:16px;margin-top:6px;">Kindred but Exacting</div>
+          </div>
+          <div class="box" style="padding:16px;margin-top:16px;"><span class="slot">CARD · reading (free → teaser + unlock)</span>
+            <p class="bd" style="font-family:Georgia,serif;font-size:12.5px;line-height:1.55;margin:0;">Two blades in one room. You recognise each other instantly — the same precision, the same refusal to pretend. The risk is that neither yields first; the gift is a bond where nothing needs to be explained.</p>
+          </div>
+          <div class="cshare" style="margin-top:14px;"><span class="slot" style="color:#cfcabf;background:rgba(255,255,255,.12);">SHARE card</span>
+            <div style="display:flex;align-items:center;gap:14px;color:#cfcabf;"><span>◈</span><span style="font-size:11px;">×</span><span>◈</span></div>
+            <div class="sti">We're 70% compatible —<br/>Metal meets Metal</div>
+            <div class="brand">ELEMENTUM</div>
+          </div>
+          <div class="ccomplink">Compare someone else →</div>
+        </div>
+        <div class="tabbar"><i></i><i></i><i class="mid"></i><i class="act"></i><i></i></div>
+      </div>
+    </div>
+
+    <!-- ============ 11 · PROFILE (Variant C) ============ -->
+    <div class="col">
+      <div class="col-h"><div class="v">Profile tab</div><div class="n">Profile (Me)</div><div class="d">Variant C — birth-data 2-col grid, Notifications + Account merged, Sign Out button. Minimal.</div></div>
+      <div class="phone">
+        <span class="pgbg">PAGE-BG</span><span class="fitnote">fits 844</span>
+        <div class="status">9:41</div>
+        <div class="pad" style="padding:0 16px 14px;">
+          <div class="gph"><span class="ey">Profile · 个人</span><div class="ti">Me</div></div>
+
+          <div class="box" style="padding:24px 14px 14px;margin-top:6px;"><span class="slot">CARD · birth data · grid</span>
+            <div class="pseclab" style="margin-bottom:11px;">Birth Data</div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px 12px;">
+              <div><div class="plab">Birth date</div><div class="pval" style="margin-top:3px;">1995 / 04 / 29</div></div>
+              <div><div class="plab">Birth time</div><div class="pval" style="margin-top:3px;">18:00 (Local)</div></div>
+              <div><div class="plab">True solar</div><div class="pval" style="margin-top:3px;">18:14</div></div>
+              <div><div class="plab">Location</div><div class="pval" style="margin-top:3px;">Beijing</div></div>
+              <div style="grid-column:1 / -1;"><div class="plab">Energy current</div><div class="pval" style="margin-top:3px;">Forward / Yang</div></div>
+            </div>
+            <div class="pnotice" style="margin-top:13px;"><p class="bd">Location not confirmed — standard solar time. <span style="color:var(--ink);">Update →</span></p></div>
+            <div style="display:flex;gap:18px;margin-top:13px;"><span class="plink">View birth chart →</span><span class="plink">Edit →</span></div>
+          </div>
+
+          <div class="box" style="margin-top:12px;"><span class="slot">CARD · prefs + account</span>
+            <div style="display:flex;align-items:center;gap:12px;padding:24px 14px 14px;border-bottom:1px solid var(--line);"><div style="flex:1;"><div class="ti" style="font-size:15px;">Daily reading</div><div class="ey" style="margin-top:3px;">Delivered at 8:00 AM</div></div><div class="ptoggle"></div></div>
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px;"><div style="flex:1;"><div class="ti" style="font-size:15px;">Current plan</div></div><span class="pplan">Seeker · $9.99/mo</span><span class="chev">›</span></div>
+          </div>
+
+          <div class="pbtn" style="margin-top:12px;">Sign Out</div>
+
+          <div class="pdevlink">Dev · Reset &amp; Start Over</div>
+        </div>
+        <div class="tabbar"><i></i><i></i><i class="mid"></i><i></i><i class="act"></i></div>
+      </div>
+    </div>
+
+    <!-- ============ 12 · RAW CHART (Variant A) ============ -->
+    <div class="col">
+      <div class="col-h"><div class="v">Profile → drill-down</div><div class="n">Raw Chart + Resonance entry</div><div class="d">Variant A — four pillars (Day = Self, Hour unconfirmed ~), legend, and the Resonance entry card filling the lower space. No app tab bar (drill-down).</div></div>
+      <div class="phone">
+        <span class="pgbg">PAGE-BG</span><span class="fitnote">fits 844</span>
+        <div class="status">9:41</div>
+        <div class="pad" style="padding:0 16px 16px;">
+          <div class="rcback"><span class="bk">‹</span>Profile</div>
+          <div class="rcph"><span class="ey2">Birth Chart · 八字排盘</span><div class="ti">Your four pillars</div></div>
+
+          <div class="rcpillars" style="margin-top:8px;"><span class="slot" style="top:-13px;">TILE × 4 · pillars</span>
+            <div class="rcpillar"><div class="pcol">Year</div><div class="tg">Direct Wealth</div><div class="rchz stem">乙</div><div class="el">Wood · Yin</div><div class="dv"></div><div class="rchz branch">亥</div><div class="el">Water</div></div>
+            <div class="rcpillar"><div class="pcol">Month</div><div class="tg">Parallel Self</div><div class="rchz stem">庚</div><div class="el">Metal · Yang</div><div class="dv"></div><div class="rchz branch">辰</div><div class="el">Earth</div></div>
+            <div class="rcpillar self"><div class="pcol">Day</div><div class="tg">Self</div><div class="rchz stem">庚</div><div class="el">Metal · Yang</div><div class="dv"></div><div class="rchz branch">寅</div><div class="el">Wood</div></div>
+            <div class="rcpillar"><div class="pcol">Hour</div><div class="tg" style="color:var(--soft);font-style:italic;">~ unconfirmed</div><div class="rchz stem" style="opacity:.4;">乙</div><div class="el">Wood · Yin</div><div class="dv"></div><div class="rchz branch" style="opacity:.4;">酉</div><div class="el">Metal</div></div>
+          </div>
+          <div class="rclegend"><span><b>天干</b> — Heavenly Stems (upper)</span></div>
+          <div class="rclegend" style="padding-top:3px;"><span><b>地支</b> — Earthly Branches (lower)</span></div>
+
+          <div class="box" style="padding:16px;margin-top:18px;"><span class="slot">CARD · resonance entry (hour unconfirmed)</span>
+            <span class="ey">Chart Resonance · 时辰感应</span>
+            <div class="ti" style="font-size:21px;margin:6px 0 8px;">Discover your birth hour</div>
+            <p class="bd" style="font-family:Georgia,serif;font-size:12.5px;line-height:1.55;margin:0;">Your hour is unconfirmed. Recover it by resonance — a few honest answers narrow twelve 时辰 to one. About two minutes.</p>
+            <div class="rccta" style="margin-top:14px;"><span>Begin →</span></div>
+          </div>
+
+          <div class="ey" style="text-align:center;margin-top:auto;padding-top:10px;">Tap any pillar to read what it governs</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<script>
+  window.addEventListener('load',()=>{var e=document.getElementById('emLive2');if(e)e.scrollTop=0;});
+</script>
+</body>
+</html>

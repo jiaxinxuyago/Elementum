@@ -41,6 +41,11 @@ import ElementalDrawScreen from './components/dashboard/ElementalDrawScreen.jsx'
 import EnergyManualScreen from './components/dashboard/EnergyManualScreen.jsx';
 import SelfReportScreen from './components/dashboard/SelfReportScreen.jsx';
 import AIConsultantScreen from './components/dashboard/AIConsultantScreen.jsx';
+// Today Hub drill-downs (Direction 2 — mosaic hub + 4 time-period pages)
+import DayPage from './components/dashboard/DayPage.jsx';
+import MonthPage from './components/dashboard/MonthPage.jsx';
+import YearPage from './components/dashboard/YearPage.jsx';
+import DecadePage from './components/dashboard/DecadePage.jsx';
 // Reading-detail pages + Energy Map (Phase 2)
 import EnergyMapScreen from './components/dashboard/EnergyMapScreen.jsx';
 import ElementalNatureDetail from './components/dashboard/reading-detail/ElementalNatureDetail.jsx';
@@ -138,6 +143,11 @@ const FLOW = [
   'reveal',
   // Dashboard tabs (DOC5 §10–§14) — entered from Reveal's "Enter Your Energy Map" CTA.
   'app-today',
+  // Today-hub drill-downs (Direction 2 — wireframes/Elementum - Screens.html)
+  'app-day',
+  'app-month',
+  'app-year',
+  'app-decade',
   'app-guidance',
   'app-reading',     // catalogue (DOC5 §11)
   'app-energymap',   // Energy Map destination (DOC5 §AM.1 — same as Reveal, no first-time CTA)
@@ -310,7 +320,39 @@ export default function App() {
     case 'app-today':
       rendered = (
         <DashboardShell active="today" onTabChange={routeTab} bg={SCREEN_BG.today}>
-          <TodayScreen />
+          <TodayScreen onOpen={(route) => setScreen(route)} />
+        </DashboardShell>
+      );
+      break;
+    // ── Today Hub drill-downs: Day · Month · Year · Decade ─────────
+    case 'app-day':
+      rendered = (
+        <DashboardShell active="today" onTabChange={routeTab} bg={SCREEN_BG.today}>
+          <DayPage
+            onBack={goto('app-today')}
+            onOpen={(route) => setScreen(route)}
+          />
+        </DashboardShell>
+      );
+      break;
+    case 'app-month':
+      rendered = (
+        <DashboardShell active="today" onTabChange={routeTab} bg={SCREEN_BG.today}>
+          <MonthPage onBack={goto('app-today')} />
+        </DashboardShell>
+      );
+      break;
+    case 'app-year':
+      rendered = (
+        <DashboardShell active="today" onTabChange={routeTab} bg={SCREEN_BG.today}>
+          <YearPage onBack={goto('app-today')} />
+        </DashboardShell>
+      );
+      break;
+    case 'app-decade':
+      rendered = (
+        <DashboardShell active="today" onTabChange={routeTab} bg={SCREEN_BG.today}>
+          <DecadePage onBack={goto('app-today')} />
         </DashboardShell>
       );
       break;

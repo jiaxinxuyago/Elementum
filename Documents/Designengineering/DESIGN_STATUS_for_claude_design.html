@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Elementum · Design Status &amp; Direction — Handoff</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Cinzel:wght@400;500&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --cream:#F8F6F0; --silk:#F1E9D6; --silkDeep:#ECE2C9; --paperHair:#CDBE9E;
+    --ink:#2B2722; --inkSoft:#4A433B; --inkLight:#857D72; --inkMist:#B8AFA1;
+    --bronze:#8b7355; --bronzeDark:#6b5339; --gold:#D4AF37; --seal:#A04030; --advisor:#7a5e9a;
+    --cardstock:rgba(248,241,225,0.92); --quietBg:#EBE5D6;
+    --metal:#8ba3b8; --wood:#7a9e6e; --fire:#c4745a; --earth:#b89a6a; --water:#5a7fa8;
+    --metalD:#6a849a; --woodD:#587a4d; --fireD:#9e5540; --earthD:#927750; --waterD:#3e5f85;
+    --serif:"Cormorant Garamond",Georgia,serif;
+    --body:"EB Garamond",Georgia,serif;
+    --caps:"Cinzel",Georgia,serif;
+    --hanzi:"Noto Serif SC",serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;background:#E4DCC9;color:var(--ink);font-family:var(--body);
+    -webkit-font-smoothing:antialiased;line-height:1.6;}
+  .wrap{max-width:1000px;margin:0 auto;padding:56px 28px 80px;}
+  .sheet{background:var(--cream);border:1px solid var(--paperHair);border-radius:16px;
+    padding:36px 36px 44px;margin-bottom:22px;box-shadow:0 1px 0 rgba(43,39,34,.04);}
+  .eyebrow{font-family:var(--body);font-size:11px;letter-spacing:2.5px;text-transform:uppercase;
+    color:var(--bronzeDark);font-weight:500;margin:0 0 8px;}
+  h1{font-family:var(--serif);font-weight:400;font-size:42px;line-height:1.08;margin:0 0 4px;}
+  h2{font-family:var(--serif);font-weight:500;font-size:27px;line-height:1.15;margin:0 0 14px;
+    padding-bottom:10px;border-bottom:1px solid var(--paperHair);}
+  h3{font-family:var(--serif);font-weight:600;font-size:21px;margin:0 0 6px;}
+  p{font-size:16px;color:var(--inkSoft);margin:0 0 12px;}
+  .lede{font-size:18.5px;color:var(--ink);line-height:1.55;}
+  .hanzi{font-family:var(--hanzi);color:var(--bronzeDark);}
+  strong{color:var(--ink);font-weight:600;}
+  em{color:var(--bronzeDark);font-style:italic;}
+  ul{margin:0 0 12px;padding-left:20px;} li{margin:5px 0;color:var(--inkSoft);}
+  code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px;
+    background:var(--silkDeep);border:1px solid var(--paperHair);border-radius:6px;padding:1px 6px;color:var(--bronzeDark);}
+
+  /* process stepper */
+  .steps{display:flex;flex-wrap:wrap;gap:0;margin:6px 0 4px;}
+  .step{flex:1 1 0;min-width:120px;text-align:center;position:relative;padding:0 6px;}
+  .step .dot{width:16px;height:16px;border-radius:999px;background:var(--bronze);margin:0 auto 8px;border:3px solid var(--cream);outline:1px solid var(--paperHair);}
+  .step.done .dot{background:var(--bronzeDark);}
+  .step.here .dot{background:var(--gold);outline-color:var(--gold);box-shadow:0 0 0 4px rgba(212,175,55,.25);}
+  .step.todo .dot{background:var(--inkMist);}
+  .step .lbl{font-size:12.5px;color:var(--inkSoft);line-height:1.3;}
+  .step.here .lbl{color:var(--ink);font-weight:600;}
+  .step::before{content:"";position:absolute;top:7px;left:-50%;width:100%;height:2px;background:var(--paperHair);z-index:-1;}
+  .step:first-child::before{display:none;}
+  .stepwrap{position:relative;z-index:0;}
+
+  /* palette */
+  .swatches{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:10px 0 18px;}
+  .sw{border-radius:12px;overflow:hidden;border:1px solid var(--paperHair);}
+  .sw .chip{height:60px;}
+  .sw .meta{padding:7px 8px;background:var(--cardstock);font-size:11px;}
+  .sw .nm{font-weight:600;color:var(--ink);display:block;}
+  .sw .hex{font-family:ui-monospace,monospace;color:var(--inkLight);font-size:10.5px;}
+  .neutrals{display:flex;gap:8px;flex-wrap:wrap;margin:4px 0 14px;}
+  .nbox{flex:1 1 90px;border-radius:10px;border:1px solid var(--paperHair);overflow:hidden;}
+  .nbox .chip{height:42px;} .nbox .meta{padding:5px 7px;background:var(--cream);font-size:10.5px;}
+
+  /* type specimens */
+  .spec{border-left:3px solid var(--bronze);padding:4px 0 4px 16px;margin:14px 0;}
+  .spec .role{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--inkLight);margin-bottom:2px;}
+  .spec .ex-serif{font-family:var(--serif);font-size:32px;font-weight:400;line-height:1.1;color:var(--ink);}
+  .spec .ex-body{font-family:var(--body);font-size:16px;color:var(--inkSoft);}
+  .spec .ex-caps{font-family:var(--caps);font-size:15px;letter-spacing:2px;text-transform:uppercase;color:var(--bronzeDark);}
+  .spec .ex-hanzi{font-family:var(--hanzi);font-size:36px;color:var(--bronzeDark);}
+
+  /* scale chips */
+  .chiprow{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 16px;align-items:center;}
+  .scl{font-family:ui-monospace,monospace;font-size:12px;background:var(--silk);border:1px solid var(--paperHair);
+    border-radius:6px;padding:3px 9px;color:var(--inkSoft);}
+
+  .badge{display:inline-block;font-size:11px;border-radius:999px;padding:2px 9px;font-weight:600;letter-spacing:.3px;vertical-align:middle;}
+  .b-built{background:rgba(122,158,110,.18);color:#3f5a35;border:1px solid rgba(122,158,110,.5);}
+  .b-fn{background:rgba(139,163,184,.18);color:#46627a;border:1px solid rgba(139,163,184,.5);}
+  .b-ph{background:rgba(196,116,90,.16);color:#9e5540;border:1px solid rgba(196,116,90,.45);}
+
+  /* slot vocab */
+  .slots{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0;}
+  .slot{background:var(--cardstock);border:1px solid var(--paperHair);border-radius:12px;padding:12px 14px;}
+  .slot b{font-family:var(--caps);font-size:13px;letter-spacing:1px;color:var(--bronzeDark);display:block;margin-bottom:2px;}
+  .slot span{font-size:13.5px;color:var(--inkSoft);}
+
+  /* callouts */
+  .call{border-radius:12px;padding:16px 18px;margin:14px 0;font-size:15.5px;}
+  .call.ask{background:rgba(212,175,55,.10);border:1px solid rgba(212,175,55,.45);}
+  .call.no{background:rgba(160,64,48,.07);border:1px solid rgba(160,64,48,.30);}
+  .call .ttl{font-family:var(--caps);font-size:13px;letter-spacing:1.5px;text-transform:uppercase;
+    color:var(--bronzeDark);margin-bottom:8px;}
+  .call.no .ttl{color:var(--seal);}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+  .foot{text-align:center;color:var(--inkLight);font-size:12.5px;margin-top:8px;}
+  .principle{display:flex;gap:12px;margin:10px 0;}
+  .principle .n{font-family:var(--serif);font-size:26px;color:var(--bronze);line-height:1;flex-shrink:0;width:30px;}
+  .principle .t{font-size:15px;color:var(--inkSoft);}
+  .principle .t b{display:block;color:var(--ink);font-family:var(--serif);font-size:17px;font-weight:600;}
+
+  /* ░░ SCREEN GALLERY ░░ */
+  .screen{display:grid;grid-template-columns:268px 1fr;gap:30px;align-items:start;
+    padding:30px 0;border-top:1px solid var(--paperHair);}
+  .screen:first-of-type{border-top:none;}
+  .phonewrap{display:flex;flex-direction:column;align-items:center;gap:8px;}
+  .route{font-family:ui-monospace,monospace;font-size:11px;color:var(--inkLight);}
+  .ann .hd{display:flex;align-items:center;gap:10px;margin-bottom:6px;flex-wrap:wrap;}
+  .ann .tabno{font-family:var(--body);font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--bronzeDark);font-weight:600;}
+  .ann p{font-size:15px;margin:0 0 9px;}
+  .ann .open{background:rgba(212,175,55,.09);border-left:3px solid var(--gold);padding:9px 12px;border-radius:0 8px 8px 0;font-size:14.5px;}
+  .tags{margin:8px 0 0;font-size:11px;color:var(--inkLight);}
+  .tags span{display:inline-block;font-family:var(--caps);letter-spacing:.5px;background:var(--silk);
+    border:1px solid var(--paperHair);border-radius:999px;padding:1px 8px;margin:0 4px 4px 0;color:var(--bronzeDark);font-size:10px;}
+
+  /* phone frame */
+  .phone{width:262px;background:var(--ink);border-radius:30px;padding:7px;
+    box-shadow:0 20px 44px rgba(40,30,20,.20), inset 0 0 0 1px rgba(120,108,90,.4);}
+  .scr{background:var(--cream);border-radius:24px;height:524px;overflow:hidden;position:relative;}
+  .scr .pad{padding:30px 13px 0;}                 /* 30px ≈ status reserve */
+  .scr.bleed .pad{padding:0;}
+  .scr .tabbar{position:absolute;left:0;right:0;bottom:0;height:42px;background:rgba(253,253,252,.9);
+    border-top:1px solid var(--paperHair);display:flex;align-items:center;justify-content:space-around;backdrop-filter:blur(6px);}
+  .scr .tabbar i{width:17px;height:17px;border-radius:5px;border:1.5px solid var(--inkMist);display:block;}
+  .scr .tabbar i.mid{background:var(--bronzeDark);border-color:var(--bronzeDark);border-radius:999px;}
+  .scr .tabbar i.on{border-color:var(--ink);}
+  .fade{position:absolute;left:0;right:0;bottom:42px;height:40px;background:linear-gradient(transparent,var(--cream));}
+
+  /* mock building blocks (scaled) */
+  .me{font-size:7.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--bronzeDark);font-weight:600;margin-bottom:4px;}
+  .mc{background:var(--cardstock);border:1px solid var(--paperHair);border-radius:9px;padding:8px 9px;margin-bottom:7px;}
+  .mtitle{font-family:var(--serif);color:var(--ink);line-height:1.1;}
+  .mbody{font-size:8px;color:var(--inkSoft);line-height:1.5;}
+  .mhanzi{font-family:var(--hanzi);}
+  .mark{width:22px;height:22px;border-radius:7px;display:flex;align-items:center;justify-content:center;
+    font-size:12px;flex-shrink:0;}
+  .row{display:flex;align-items:center;gap:8px;}
+  .chk{width:9px;height:9px;border:1.4px solid currentColor;border-radius:2px;flex-shrink:0;margin-top:2px;}
+  .pill{font-size:7px;border-radius:999px;padding:1.5px 7px;display:inline-block;letter-spacing:.5px;}
+  /* element tints */
+  .t-metal{background:rgba(139,163,184,.12);border:1px solid rgba(139,163,184,.4);color:var(--metalD);}
+  .t-wood{background:rgba(122,158,110,.12);border:1px solid rgba(122,158,110,.4);color:var(--woodD);}
+  .t-fire{background:rgba(196,116,90,.12);border:1px solid rgba(196,116,90,.4);color:var(--fireD);}
+  .t-earth{background:rgba(184,154,106,.12);border:1px solid rgba(184,154,106,.4);color:var(--earthD);}
+  .t-water{background:rgba(90,127,168,.12);border:1px solid rgba(90,127,168,.4);color:var(--waterD);}
+  /* scene-hero ink-wash evocations */
+  .hero{position:relative;display:flex;flex-direction:column;justify-content:flex-end;color:#fff;padding:9px 11px;overflow:hidden;}
+  .hero .scrim{position:absolute;inset:0;background:linear-gradient(180deg,transparent 32%,rgba(22,18,12,.6));}
+  .hero>*{position:relative;z-index:1;}
+  .hero .he{font-size:6.5px;letter-spacing:1.3px;text-transform:uppercase;opacity:.92;margin-bottom:2px;}
+  .hero .ht{font-family:var(--serif);font-size:16px;line-height:1.02;}
+  .hero .hs{font-size:8px;opacity:.85;margin-top:2px;}
+  .hero .slotlab{position:absolute;top:6px;right:7px;z-index:2;font-size:6px;letter-spacing:.6px;
+    background:rgba(20,18,12,.4);color:#fff;border-radius:4px;padding:1px 5px;font-family:var(--caps);}
+  .hw-metal{background:radial-gradient(120% 90% at 28% 18%,#b3c0cd,#8ba3b8 52%,#54708a)}
+  .hw-fire{background:radial-gradient(120% 90% at 28% 18%,#e0a48f,#c4745a 52%,#8a4633)}
+  .hw-earth{background:radial-gradient(120% 90% at 28% 18%,#d6c197,#b89a6a 52%,#806a44)}
+  .hw-water{background:radial-gradient(120% 90% at 28% 18%,#8fa9c6,#5a7fa8 52%,#365578)}
+  .hw-wood{background:radial-gradient(120% 90% at 28% 18%,#a7c39b,#7a9e6e 52%,#4c6b40)}
+  .back{position:absolute;top:9px;left:9px;z-index:3;width:18px;height:18px;border-radius:999px;
+    background:rgba(248,246,240,.85);display:flex;align-items:center;justify-content:center;color:var(--inkSoft);font-size:10px;}
+  .switcher{display:flex;background:rgba(234,229,223,.6);border-radius:999px;padding:2px;gap:2px;margin:9px 0;}
+  .switcher b{flex:1;text-align:center;font-size:7px;letter-spacing:1px;text-transform:uppercase;padding:4px 0;border-radius:999px;color:var(--inkLight);font-weight:500;}
+  .switcher b.on{background:#fff;color:var(--ink);box-shadow:0 1px 2px rgba(40,30,20,.08);}
+  .tilegrid{display:grid;grid-template-columns:1fr 1fr;gap:6px;}
+  .tile{border-radius:9px;padding:8px;height:58px;display:flex;flex-direction:column;justify-content:space-between;position:relative;}
+  .tile .tt{font-family:var(--serif);font-size:11px;color:var(--ink);line-height:1.05;}
+  .tile .lk{position:absolute;top:6px;right:6px;font-size:8px;}
+  .seg{display:flex;height:13px;border-radius:999px;overflow:hidden;border:1px solid var(--paperHair);margin:6px 0;}
+  .pillargrid{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;}
+  .pcol{border:1px solid var(--paperHair);border-radius:8px;padding:5px 2px;text-align:center;background:var(--cardstock);}
+  .pcol.dm{border:1.5px solid #584A3E;background:rgba(139,163,184,.08);}
+  .pcol .pl{font-size:6px;letter-spacing:.5px;text-transform:uppercase;color:var(--inkLight);margin-bottom:3px;}
+  .pcol .gan,.pcol .zhi{font-family:var(--hanzi);font-size:16px;line-height:1.25;}
+  .sub{display:grid;grid-template-columns:repeat(5,1fr);gap:9px;margin-top:6px;}
+  .subt{text-align:center;}
+  .subt .box{height:84px;border-radius:10px;border:1px solid var(--paperHair);background:var(--cardstock);
+    padding:7px;overflow:hidden;display:flex;flex-direction:column;gap:4px;}
+  .subt .cap{font-size:11px;color:var(--inkSoft);margin-top:6px;font-family:var(--serif);}
+  .subt .sublab{font-size:10px;color:var(--inkLight);}
+  .ln{height:4px;border-radius:3px;background:var(--silkDeep);}
+  @media(max-width:760px){.two,.slots{grid-template-columns:1fr;}.swatches{grid-template-columns:repeat(3,1fr);}
+    .screen{grid-template-columns:1fr;justify-items:center;}.ann{max-width:520px;}.sub{grid-template-columns:repeat(2,1fr);}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ░░ HERO ░░ -->
+  <div class="sheet">
+    <p class="eyebrow">Handoff brief · for Claude Design</p>
+    <h1>Elementum — Design Status &amp; Direction</h1>
+    <p class="eyebrow" style="color:var(--inkLight);margin-top:6px;">元 素 · a personal-energy reading, drawn from BaZi (八字 · Four Pillars)</p>
+    <p class="lede" style="margin-top:18px;">
+      <strong>Read this first.</strong> You are <em>not</em> starting from a blank page. Elementum is a
+      <strong>working, shipped prototype</strong> — a full mobile React app with a live calculation engine,
+      five dashboard tabs, and a locked aesthetic system. This page shows you <strong>every major screen as it exists today</strong>,
+      what each one is <em>for</em>, and what it currently <em>does</em>. We are bringing you in for a focused
+      <strong>layout-first iteration pass</strong>: explore <em>structural</em> variations of these screens so we can pick
+      the strongest skeleton, then we rebuild it in code with the aesthetic below. Your job is
+      <strong>structure, hierarchy, and sectioning — not finished visuals.</strong>
+    </p>
+  </div>
+
+  <!-- ░░ WHERE WE ARE ░░ -->
+  <div class="sheet">
+    <h2>Where we are in the process</h2>
+    <div class="stepwrap">
+      <div class="steps">
+        <div class="step done"><div class="dot"></div><div class="lbl">Tokens locked<br/><small>palette · type · scales</small></div></div>
+        <div class="step done"><div class="dot"></div><div class="lbl">System legends built<br/><small>components · cards · ink-wash</small></div></div>
+        <div class="step done"><div class="dot"></div><div class="lbl">Functional prototype<br/><small>shown below</small></div></div>
+        <div class="step here"><div class="dot"></div><div class="lbl">Layout iteration<br/><small>← you are here</small></div></div>
+        <div class="step todo"><div class="dot"></div><div class="lbl">Rebuild in code<br/><small>aesthetic applied</small></div></div>
+      </div>
+    </div>
+    <p style="margin-top:18px;">
+      Everything left of <em>“you are here”</em> is <strong>settled</strong> — fixed input, not open questions.
+      The mockups below are the <strong>current</strong> layout. We don't consider them final; the structure is exactly
+      what we want you to challenge and improve. The aesthetic, palette, type, and 5-tab IA are <strong>not</strong> up for redesign.
+    </p>
+  </div>
+
+  <!-- ░░ LOCKED SYSTEM ░░ -->
+  <div class="sheet">
+    <h2>What is locked — honor it, don't reinvent it</h2>
+
+    <h3 style="font-size:18px;">Palette — 5 element pigments</h3>
+    <p>Every reading is colored by one of five elements. These hexes are exact.</p>
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#8ba3b8"></div><div class="meta"><span class="nm">Metal 金</span><span class="hex">#8ba3b8</span></div></div>
+      <div class="sw"><div class="chip" style="background:#7a9e6e"></div><div class="meta"><span class="nm">Wood 木</span><span class="hex">#7a9e6e</span></div></div>
+      <div class="sw"><div class="chip" style="background:#c4745a"></div><div class="meta"><span class="nm">Fire 火</span><span class="hex">#c4745a</span></div></div>
+      <div class="sw"><div class="chip" style="background:#b89a6a"></div><div class="meta"><span class="nm">Earth 土</span><span class="hex">#b89a6a</span></div></div>
+      <div class="sw"><div class="chip" style="background:#5a7fa8"></div><div class="meta"><span class="nm">Water 水</span><span class="hex">#5a7fa8</span></div></div>
+    </div>
+
+    <h3 style="font-size:18px;">Grounds &amp; ink</h3>
+    <p>Warm paper/silk grounds; soft warm-black ink (never #000). Bronze is the metallic; gold = decade; the vermilion seal appears <em>at most once per screen</em>.</p>
+    <div class="neutrals">
+      <div class="nbox"><div class="chip" style="background:#F8F6F0"></div><div class="meta">cream <span class="hex">#F8F6F0</span></div></div>
+      <div class="nbox"><div class="chip" style="background:#F1E9D6"></div><div class="meta">silk <span class="hex">#F1E9D6</span></div></div>
+      <div class="nbox"><div class="chip" style="background:#2B2722"></div><div class="meta" style="color:#fff;background:#2B2722">ink <span class="hex" style="color:#CDBE9E">#2B2722</span></div></div>
+      <div class="nbox"><div class="chip" style="background:#8b7355"></div><div class="meta">bronze <span class="hex">#8b7355</span></div></div>
+      <div class="nbox"><div class="chip" style="background:#D4AF37"></div><div class="meta">gold <span class="hex">#D4AF37</span></div></div>
+      <div class="nbox"><div class="chip" style="background:#A04030"></div><div class="meta" style="color:#fff;background:#A04030">seal <span class="hex" style="color:#f1d9b0">#A04030</span></div></div>
+    </div>
+
+    <div class="two">
+      <div>
+        <h3 style="font-size:18px;">Type — four roles</h3>
+        <div class="spec"><div class="role">Display / titles</div><div class="ex-serif">Your elemental nature</div><div class="role" style="margin-top:2px;">Cormorant Garamond · 400</div></div>
+        <div class="spec"><div class="role">Body + uppercase labels</div><div class="ex-body">A clear resonance — your hour reads with confidence. EB Garamond carries body + small-caps labels.</div></div>
+        <div class="spec"><div class="role">CTA caps / pillar labels</div><div class="ex-caps">Begin the reading</div><div class="role" style="margin-top:4px;">Cinzel</div></div>
+        <div class="spec"><div class="role">Hanzi</div><div class="ex-hanzi">庚 金 时辰</div><div class="role" style="margin-top:2px;">Noto Serif SC</div></div>
+      </div>
+      <div>
+        <h3 style="font-size:18px;">Spacing scale — only these</h3>
+        <div class="chiprow"><span class="scl">1</span><span class="scl">3</span><span class="scl">4</span><span class="scl">5</span><span class="scl">6</span><span class="scl">8</span><span class="scl">10</span><span class="scl">12</span><span class="scl">14</span><span class="scl">16</span><span class="scl">18</span><span class="scl">20</span><span class="scl">22</span><span class="scl">26</span><span class="scl">28</span><span class="scl">36</span><span class="scl">44</span><span class="scl">56</span></div>
+        <h3 style="font-size:18px;">Radius scale — only these</h3>
+        <div class="chiprow"><span class="scl">1</span><span class="scl">10</span><span class="scl">12</span><span class="scl">16</span><span class="scl">22</span><span class="scl">999 (pill)</span></div>
+        <h3 style="font-size:18px;">Frame &amp; navigation</h3>
+        <p style="font-size:14.5px;">Fixed viewport <strong>390 × 844</strong>. A persistent <strong>76px bottom tab bar</strong>, <strong>icons-only</strong>,
+          5 slots: <em>Today · Guidance · Reading (center) · Compat · Profile</em>. No hamburger, no top drawer.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ░░ NORTH STAR ░░ -->
+  <div class="sheet">
+    <h2>The aesthetic north star</h2>
+    <div class="two">
+      <div>
+        <div class="principle"><div class="n">一</div><div class="t"><b>Contemplative, editorial, calm</b>Reads like a quiet almanac or fine book — not a dashboard. Generous negative space; nothing shouts.</div></div>
+        <div class="principle"><div class="n">二</div><div class="t"><b>One raster focal point per screen</b>A single painterly ink-wash image (a hero band <em>or</em> soft page scenery) — never two competing images.</div></div>
+        <div class="principle"><div class="n">三</div><div class="t"><b>Ink-wash + negative space</b>Imagery is loose Chinese-brush landscape (mist, ridges, water, strokes), low-opacity, bleeding into paper.</div></div>
+      </div>
+      <div>
+        <div class="principle"><div class="n">四</div><div class="t"><b>“The chart is the profile”</b>We resist feature bloat. Depth lives in the readings, not in settings or chrome.</div></div>
+        <div class="principle"><div class="n">五</div><div class="t"><b>Restraint with accents</b>Bronze is the metallic; gold = decade only; red seal at most once per screen. Pigment tints stay faint (6–25%).</div></div>
+        <div class="principle"><div class="n">六</div><div class="t"><b>Daily utility, zero friction</b>The Today screen must deliver value in <em>0 taps</em>.</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ░░ THE SCREENS AS BUILT ░░ -->
+  <div class="sheet">
+    <h2>The screens as built — what exists today</h2>
+    <p style="margin-bottom:4px;">Each mockup reproduces the <strong>current</strong> structure (cropped at the fold; the bottom tab bar is persistent).
+      Heroes are shown as ink-wash gradients — in the real app a painterly element painting fills that band.
+      Badges: <span class="badge b-built">built</span> functional &amp; complete · <span class="badge b-fn">functional</span> works, art still being finalized · <span class="badge b-ph">placeholder</span> stand-in art.</p>
+
+    <!-- 1 · TODAY -->
+    <div class="screen">
+      <div class="phonewrap">
+        <div class="phone"><div class="scr"><div class="pad">
+          <!-- decade card -->
+          <div class="mc" style="border-color:rgba(212,175,55,.5);box-shadow:0 0 0 1px rgba(212,175,55,.12);display:flex;align-items:center;gap:8px;">
+            <span class="mark t-metal">◆</span>
+            <div style="flex:1;"><div class="me" style="margin-bottom:2px;">Age 28–37 · 2024–2033</div><div class="mtitle" style="font-size:13px;">The Metal Decade</div></div>
+            <span class="mhanzi" style="font-size:15px;color:var(--metalD);">庚申</span>
+          </div>
+          <!-- switcher -->
+          <div class="switcher"><b class="on">Today</b><b>Month</b><b>Year</b></div>
+          <!-- scene hero -->
+          <div class="hero hw-metal" style="height:64px;border-radius:10px;margin-bottom:7px;"><div class="scrim"></div><span class="slotlab">SCENE-HERO</span><div class="he">Tue, May 28 · Metal Day</div><div class="ht">A day to cut clean</div></div>
+          <div class="mbody" style="margin-bottom:7px;">The day's Metal sharpens your judgement. Decide the thing you've been circling.</div>
+          <!-- DO -->
+          <div class="mc"><div class="me" style="color:var(--metalD)">Do This</div>
+            <div class="row" style="color:var(--metalD);margin-bottom:3px;"><span class="chk"></span><span class="mbody">Finish the decision you've delayed</span></div>
+            <div class="row" style="color:var(--metalD);"><span class="chk"></span><span class="mbody">Cut one commitment that drains you</span></div>
+          </div>
+          <!-- AVOID -->
+          <div class="mc"><div class="me" style="color:var(--bronzeDark)">Avoid</div>
+            <div class="row" style="color:var(--bronzeDark)"><span style="font-size:9px;margin-top:1px;">△</span><span class="mbody">Starting something that needs warmth, not edge</span></div>
+          </div>
+          <div class="fade"></div>
+        </div>
+        <div class="tabbar"><i class="on"></i><i></i><i class="mid"></i><i></i><i></i></div>
+        </div></div>
+        <span class="route">/dashboard</span>
+      </div>
+      <div class="ann">
+        <div class="hd"><span class="tabno">Tab 1 · Today</span><span class="badge b-built">built</span></div>
+        <h3>Today</h3>
+        <p><b>Purpose.</b> The daily-utility habit screen — the reason to open the app every morning. Value in zero taps.</p>
+        <p><b>What it does.</b> Shows the current 大运 <em>decade</em> (gold-rim card), a TODAY / MONTH / YEAR switcher, then today's element + a personalized narrative, <em>Do This</em> / <em>Avoid</em> lists, <em>Best Hours</em> (3 windows), and <em>Your Catalyst</em>. MONTH = 7-col element-dot calendar + flow windows; YEAR = year-energy card + strategic paragraph + 12-bar timeline. All generated live from the chart.</p>
+        <div class="open"><b>Open to explore:</b> hero-led vs. decade-pinned vs. scroll-feed ordering; how the TODAY/MONTH/YEAR states relate; what truly earns the fold.</div>
+        <div class="tags"><span>SCENE-HERO</span><span>MARK</span><span>data cards</span></div>
+      </div>
+    </div>
+
+    <!-- 2 · READING CATALOGUE -->
+    <div class="screen">
+      <div class="phonewrap">
+        <div class="phone"><div class="scr bleed">
+          <div class="hero hw-metal" style="height:122px;"><div class="scrim"></div><span class="slotlab">SCENE-HERO · tap → detail</span><div class="he">Your Day Master</div><div class="ht" style="font-size:19px;">The Blade</div><div class="hs mhanzi">庚 · Yang Metal</div></div>
+          <div class="pad" style="padding-top:9px;">
+            <div class="row" style="justify-content:space-between;border-bottom:1px solid var(--paperHair);padding-bottom:7px;margin-bottom:8px;">
+              <span class="me" style="margin:0;">Readings</span><span style="font-size:8px;font-style:italic;color:var(--bronzeDark);border-bottom:1px dashed var(--paperHair);">Energy Map →</span>
+            </div>
+            <div class="tilegrid">
+              <div class="tile t-metal"><span class="mark t-metal" style="width:16px;height:16px;font-size:9px;">◆</span><span class="tt">Elemental Nature</span></div>
+              <div class="tile t-metal"><span class="mark t-metal" style="width:16px;height:16px;font-size:9px;">◆</span><span class="tt">Dominant Energies</span></div>
+              <div class="tile t-fire"><span class="mark t-fire" style="width:16px;height:16px;font-size:9px;">◆</span><span class="tt">Forces in Motion</span></div>
+              <div class="tile t-earth"><span class="mark t-earth" style="width:16px;height:16px;font-size:9px;">◆</span><span class="tt">Life Chapters</span></div>
+              <div class="tile t-water"><span class="lk">🔒</span><span class="pill" style="background:rgba(212,175,55,.15);border:1px solid rgba(212,175,55,.4);color:var(--bronzeDark);align-self:flex-start;">Seeker</span><span class="tt">Daily Reading</span></div>
+              <div class="tile t-metal"><span class="mark t-metal" style="width:16px;height:16px;font-size:9px;">◆</span><span class="tt">Pillar Patterns</span></div>
+            </div>
+          </div>
+          <div class="tabbar"><i></i><i></i><i class="mid"></i><i></i><i></i></div>
+        </div></div>
+        <span class="route">/dashboard/reading</span>
+      </div>
+      <div class="ann">
+        <div class="hd"><span class="tabno">Tab 3 · Reading (center)</span><span class="badge b-built">built</span></div>
+        <h3>Reading catalogue</h3>
+        <p><b>Purpose.</b> The heart of the product — the catalogue of readings drawn from the chart. The center tab.</p>
+        <p><b>What it does.</b> A tappable day-master identity hero leads, then a 2-column mosaic of 6 reading tiles (Elemental Nature, Dominant Energies, Forces in Motion, Life Chapters, Daily Reading [Seeker-locked], Pillar Patterns). Each tile drills into a detail page; “Energy Map →” opens the full energy summary.</p>
+        <div class="open"><b>Open to explore:</b> 2-col mosaic vs. sectioned list vs. themed horizontal carousels; how the hero and the tiles share weight; where the lock lives.</div>
+        <div class="tags"><span>SCENE-HERO</span><span>TILE ×6</span><span>MARK</span></div>
+      </div>
+    </div>
+
+    <!-- 3 · READING DETAIL -->
+    <div class="screen">
+      <div class="phonewrap">
+        <div class="phone"><div class="scr bleed">
+          <div class="hero hw-metal" style="height:120px;"><div class="scrim"></div><span class="back">‹</span><span class="slotlab">SCENE-HERO</span><div class="he">Elemental Nature · 元素之性</div><div class="ht" style="font-size:18px;">Your elemental nature</div><div class="hs">Metal · Yang</div></div>
+          <div class="pad" style="padding-top:9px;">
+            <div class="mc"><div class="me">Your Nature</div><div class="mbody">You are unrefined ore — capacity before form. Pressure doesn't break you; it reveals the edge that was always there.</div></div>
+            <div class="row" style="gap:4px;margin-bottom:7px;flex-wrap:wrap;"><span class="pill t-metal">decisive</span><span class="pill t-metal">exacting</span><span class="pill t-metal">unyielding</span></div>
+            <div class="mc"><div class="me">How You Move</div><div class="mbody">You lead by cutting away the inessential. Others feel the clarity — and sometimes the cold.</div></div>
+            <!-- prev/next -->
+            <div class="row" style="gap:5px;margin-top:9px;">
+              <div class="mc" style="flex:1;margin:0;padding:6px 7px;"><div style="font-size:6px;letter-spacing:1px;text-transform:uppercase;color:var(--inkLight);">‹ Prev</div><div class="mtitle" style="font-size:10px;">Day Master</div></div>
+              <span style="font-size:7px;color:var(--inkLight);">2 of 7</span>
+              <div class="mc" style="flex:1;margin:0;padding:6px 7px;text-align:right;"><div style="font-size:6px;letter-spacing:1px;text-transform:uppercase;color:var(--inkLight);">Next ›</div><div class="mtitle" style="font-size:10px;">Dominant</div></div>
+            </div>
+          </div>
+          <div class="tabbar"><i></i><i></i><i class="mid"></i><i></i><i></i></div>
+        </div></div>
+        <span class="route">read-elemental · +6 siblings</span>
+      </div>
+      <div class="ann">
+        <div class="hd"><span class="tabno">Template · 7 detail pages</span><span class="badge b-built">built</span></div>
+        <h3>Reading detail (shared template)</h3>
+        <p><b>Purpose.</b> One long-form reading section. A single template (DetailShell) renders all seven pages.</p>
+        <p><b>What it does.</b> A picture-rich hero band (element art + eyebrow/title/subtitle, back button overlaid), a body of 2–4 section cards, an optional chips row, and a prev/next sequence strip with an “X of N” counter. Per-page variants add their own block: Ten Gods → a weighted role-ring + pillar grid; Life Chapters → a decade timeline; Chart Patterns → pattern badges; Forces → a ↑Catalyst / ↓Resistance pair.</p>
+        <div class="open"><b>Open to explore:</b> full-bleed hero vs. framed hero card vs. split hero + sticky title; the rhythm between hero and section cards.</div>
+        <div class="tags"><span>SCENE-HERO</span><span>section cards</span><span>chips</span><span>prev/next</span></div>
+      </div>
+    </div>
+
+    <!-- 4 · ENERGY MAP -->
+    <div class="screen">
+      <div class="phonewrap">
+        <div class="phone"><div class="scr bleed">
+          <div class="hero hw-metal" style="height:96px;"><div class="scrim"></div><span class="back">‹</span><span class="slotlab">SCENE-HERO</span><div class="he">Your Energy Map</div><div class="ht" style="font-size:17px;">The Blade</div></div>
+          <div class="pad" style="padding-top:9px;">
+            <div class="row" style="justify-content:center;gap:5px;margin-bottom:8px;"><span class="pill t-metal">庚 Stem</span><span class="pill t-metal">Metal</span><span class="pill t-metal">Yang</span></div>
+            <div class="me">Energy Blueprint</div>
+            <div class="seg"><span style="flex:3.2;background:#8ba3b8"></span><span style="flex:1.4;background:#b89a6a"></span><span style="flex:1;background:#5a7fa8"></span><span style="flex:.8;background:#7a9e6e"></span><span style="flex:.6;background:#c4745a"></span></div>
+            <div class="row" style="gap:6px;margin:8px 0;">
+              <div class="mc" style="flex:1;margin:0;"><div class="me" style="margin-bottom:2px;">Primary</div><div class="mtitle" style="font-size:12px;">Metal · 41%</div></div>
+              <div class="mc" style="flex:1;margin:0;"><div class="me" style="margin-bottom:2px;">Secondary</div><div class="mtitle" style="font-size:12px;">Earth · 22%</div></div>
+            </div>
+            <div class="row" style="gap:6px;">
+              <div class="mc t-wood" style="flex:1;margin:0;"><div class="me" style="color:var(--woodD);margin-bottom:2px;">↑ Catalyst</div><div class="mbody">Water frees you</div></div>
+              <div class="mc t-fire" style="flex:1;margin:0;"><div class="me" style="color:var(--fireD);margin-bottom:2px;">↓ Resistance</div><div class="mbody">Fire tests you</div></div>
+            </div>
+          </div>
+          <div class="tabbar"><i></i><i></i><i class="mid"></i><i></i><i></i></div>
+        </div></div>
+        <span class="route">app-energymap</span>
+      </div>
+      <div class="ann">
+        <div class="hd"><span class="tabno">From Reading tab</span><span class="badge b-fn">functional</span></div>
+        <h3>Energy Map</h3>
+        <p><b>Purpose.</b> The full energy summary — identity at a glance. Same content as the first-run Reveal, minus the CTA.</p>
+        <p><b>What it does.</b> Day-master hero, an identity ribbon (stem · element · polarity), the segmented <em>energy blueprint</em> (five-pigment composition bar), primary/secondary force, the catalyst/resistance pair, and secondary section cards — all in one scroll.</p>
+        <div class="open"><b>Open to explore:</b> the single-scroll composition — what leads, how the blueprint bar reads, whether catalyst/resistance pairs or stacks.</div>
+        <div class="tags"><span>SCENE-HERO</span><span>blueprint bar</span><span>ribbon</span></div>
+      </div>
+    </div>
+
+    <!-- 5 · GUIDANCE -->
+    <div class="screen">
+      <div class="phonewrap">
+        <div class="phone"><div class="scr"><div class="pad">
+          <div class="me" style="margin-bottom:2px;">Guidance · 引 路</div>
+          <div class="mtitle" style="font-size:26px;margin-bottom:10px;">Guidance</div>
+          <!-- card 1 free -->
+          <div class="mc" style="background:#FDFBF8;border-radius:13px;position:relative;padding-left:11px;">
+            <span style="position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--woodD);border-radius:3px 0 0 3px;"></span>
+            <span class="mark t-wood" style="margin-bottom:5px;">◆</span>
+            <div class="mtitle" style="font-size:13px;margin-bottom:2px;">Elemental Draw</div>
+            <div class="mbody">A daily question drawn from the day's elemental current.</div>
+            <span class="pill t-wood" style="margin-top:5px;">Draw today's card →</span>
+          </div>
+          <!-- card 2 locked -->
+          <div class="mc" style="background:#FDFBF8;border-radius:13px;position:relative;padding-left:11px;opacity:.92;">
+            <span style="position:absolute;left:0;top:0;bottom:0;width:3px;background:rgba(184,154,106,.4);border-radius:3px 0 0 3px;"></span>
+            <span style="position:absolute;top:8px;right:9px;font-size:7px;letter-spacing:1px;text-transform:uppercase;color:var(--bronzeDark);">◆ Seeker</span>
+            <span class="mark" style="background:rgba(133,125,114,.12);border:1px solid var(--paperHair);color:var(--inkLight);margin-bottom:5px;">🔒</span>
+            <div class="mtitle" style="font-size:13px;margin-bottom:2px;">Energy Manual</div>
+            <div class="mbody">Your reading across all five life domains — a living document.</div>
+            <span class="pill" style="background:rgba(212,175,55,.12);border:1px solid rgba(212,175,55,.4);color:var(--bronzeDark);margin-top:5px;">Unlock with Seeker →</span>
+          </div>
+          <div class="fade"></div>
+        </div>
+        <div class="tabbar"><i></i><i class="on"></i><i class="mid"></i><i></i><i></i></div>
+        </div></div>
+        <span class="route">/dashboard/guidance</span>
+      </div>
+      <div class="ann">
+        <div class="hd"><span class="tabno">Tab 2 · Guidance</span><span class="badge b-built">built</span></div>
+        <h3>Guidance hub + 5 sub-screens</h3>
+        <p><b>Purpose.</b> The premium feature hub — the “depth on demand” layer, with tier gating made visible.</p>
+        <p><b>What it does.</b> A vertical stack of 5 feature cards — Elemental Draw (Free), Energy Manual (Seeker), Self-Report (Seeker), AI Consultant (Advisor), BaZi Codex (Free→Seeker) — each with an icon, body, tier badge, and a locked/unlock state that opens the upgrade modal. Each opens a working sub-screen (see strip below).</p>
+        <div class="open"><b>Open to explore:</b> uniform stack vs. featured-first vs. grouped-by-tier; how locked cards entice without nagging.</div>
+        <div class="tags"><span>feature cards</span><span>tier badge</span><span>lock state</span><span>MARK</span></div>
+      </div>
+    </div>
+
+    <!-- 6 · FRIENDS -->
+    <div class="screen">
+      <div class="phonewrap">
+        <div class="phone"><div class="scr"><div class="pad">
+          <div style="font-size:8px;color:var(--inkLight);margin-bottom:7px;">‹ Friends</div>
+          <div class="row" style="align-items:stretch;gap:6px;margin-bottom:9px;">
+            <div class="mc t-metal" style="flex:1;margin:0;text-align:center;padding:8px 4px;"><div style="font-size:6.5px;letter-spacing:1px;text-transform:uppercase;color:var(--inkLight)">You</div><span class="mark t-metal" style="margin:5px auto;">◆</span><div class="mhanzi" style="font-size:13px;color:var(--metalD)">庚</div><div class="mtitle" style="font-size:10px;">The Blade</div></div>
+            <span style="align-self:center;font-family:var(--serif);color:var(--inkLight);">×</span>
+            <div class="mc t-water" style="flex:1;margin:0;text-align:center;padding:8px 4px;"><div style="font-size:6.5px;letter-spacing:1px;text-transform:uppercase;color:var(--inkLight)">Mara</div><span class="mark t-water" style="margin:5px auto;">◆</span><div class="mhanzi" style="font-size:13px;color:var(--waterD)">癸</div><div class="mtitle" style="font-size:10px;">The Tide</div></div>
+          </div>
+          <div style="text-align:center;margin-bottom:8px;"><div class="me" style="margin-bottom:2px;">Metal meets Water</div><div class="mtitle" style="font-size:17px;">“The Tempering”</div></div>
+          <div style="text-align:center;margin-bottom:7px;"><span class="mtitle" style="font-size:30px;">78</span><span style="font-size:9px;color:var(--inkLight);"> % Compatible</span><div class="mtitle" style="font-size:11px;font-style:italic;color:var(--inkSoft);">You sharpen; they soften the edge</div></div>
+          <div class="mc"><div class="mbody">Your decisiveness gives their fluid nature a spine; their patience keeps your edge from cutting too soon.</div></div>
+          <div class="fade"></div>
+        </div>
+        <div class="tabbar"><i></i><i></i><i class="mid"></i><i class="on"></i><i></i></div>
+        </div></div>
+        <span class="route">/dashboard/friends</span>
+      </div>
+      <div class="ann">
+        <div class="hd"><span class="tabno">Tab 4 · Compat</span><span class="badge b-built">built</span></div>
+        <h3>Friends / Compatibility</h3>
+        <p><b>Purpose.</b> Compare your energy with a friend, family member, or partner — the social/shareable surface.</p>
+        <p><b>What it does.</b> Intro (dual-seal + CTA) → input form (name, birth date, optional hour, energy current) → result: a you × them element grid, the relationship archetype (one of 15), and — for Seeker+ — a % score, full reading, and a dark share card. Free sees a teaser + upgrade. The other person's chart is computed live.</p>
+        <div class="open"><b>Open to explore (focus here):</b> the <em>result</em> surface — how the pair, the archetype name, the score, and the share card stack and breathe.</div>
+        <div class="tags"><span>person cells</span><span>MARK ×2</span><span>share card</span></div>
+      </div>
+    </div>
+
+    <!-- 7 · PROFILE -->
+    <div class="screen">
+      <div class="phonewrap">
+        <div class="phone"><div class="scr"><div class="pad">
+          <div class="me" style="margin-bottom:2px;">Profile · 个 人</div>
+          <div class="mtitle" style="font-size:26px;margin-bottom:10px;">Me</div>
+          <div class="mc"><div class="me">Birth Data</div>
+            <div style="border-bottom:1px solid var(--silkDeep);padding-bottom:5px;margin-bottom:5px;"><div style="font-size:6.5px;letter-spacing:1px;text-transform:uppercase;color:var(--inkLight)">Birth Date</div><div class="mtitle" style="font-size:12px;">1996 / 05 / 28</div></div>
+            <div style="border-bottom:1px solid var(--silkDeep);padding-bottom:5px;margin-bottom:5px;"><div style="font-size:6.5px;letter-spacing:1px;text-transform:uppercase;color:var(--inkLight)">Birth Time</div><div class="mtitle" style="font-size:12px;">08:00 (Local)</div></div>
+            <div><div style="font-size:6.5px;letter-spacing:1px;text-transform:uppercase;color:var(--inkLight)">Energy Current</div><div class="mtitle" style="font-size:12px;">Forward / Yang</div></div>
+          </div>
+          <div class="mc"><div class="row" style="justify-content:space-between;"><div><div class="mtitle" style="font-size:12px;">Daily reading</div><div class="mbody">Delivered at 7:00 AM</div></div><span style="width:26px;height:15px;border-radius:999px;background:var(--bronzeDark);position:relative;flex-shrink:0;"><span style="position:absolute;top:2px;right:2px;width:11px;height:11px;border-radius:999px;background:#fff;"></span></span></div></div>
+          <div class="fade"></div>
+        </div>
+        <div class="tabbar"><i></i><i></i><i class="mid"></i><i></i><i class="on"></i></div>
+        </div></div>
+        <span class="route">/dashboard/profile</span>
+      </div>
+      <div class="ann">
+        <div class="hd"><span class="tabno">Tab 5 · Profile</span><span class="badge b-built">built</span></div>
+        <h3>Profile</h3>
+        <p><b>Purpose.</b> Account &amp; birth data — intentionally minimal. “The chart is the profile.”</p>
+        <p><b>What it does.</b> A birth-data card (date, time, optional True Solar Time, location, energy current) with non-blocking completion prompts; a notifications card (toggle + delivery time); an account card (tier pill + manage/upgrade + sign out). Links out to the raw chart and to edit birth data.</p>
+        <div class="open"><b>Open to explore:</b> ordering and density — but <em>keep it minimal</em>. Do not grow it into a settings hub.</div>
+        <div class="tags"><span>data rows</span><span>toggle</span><span>tier pill</span></div>
+      </div>
+    </div>
+
+    <!-- 8 · RAW CHART -->
+    <div class="screen">
+      <div class="phonewrap">
+        <div class="phone"><div class="scr"><div class="pad">
+          <div style="font-size:8px;color:var(--inkLight);margin-bottom:7px;">‹ Profile</div>
+          <div class="me">Your Birth Chart · 八 字</div>
+          <div class="mtitle" style="font-size:18px;margin-bottom:10px;">Four Pillars</div>
+          <div class="pillargrid">
+            <div class="pcol"><div class="pl">Hour</div><div class="gan" style="color:var(--woodD)">甲</div><div class="zhi" style="color:var(--earthD)">辰</div></div>
+            <div class="pcol dm"><div class="pl" style="color:#584A3E">Day</div><div class="gan" style="color:var(--metalD)">庚</div><div class="zhi" style="color:var(--metalD)">申</div></div>
+            <div class="pcol"><div class="pl">Month</div><div class="gan" style="color:var(--fireD)">丁</div><div class="zhi" style="color:var(--waterD)">亥</div></div>
+            <div class="pcol"><div class="pl">Year</div><div class="gan" style="color:var(--fireD)">丙</div><div class="zhi" style="color:var(--earthD)">子</div></div>
+          </div>
+          <div style="text-align:center;font-size:6.5px;color:var(--inkLight);margin-top:8px;">天干 over 地支 · day pillar highlighted</div>
+          <div class="row" style="gap:6px;justify-content:center;margin-top:10px;flex-wrap:wrap;">
+            <span class="pill t-metal">金 Metal</span><span class="pill t-wood">木 Wood</span><span class="pill t-fire">火 Fire</span><span class="pill t-earth">土 Earth</span><span class="pill t-water">水 Water</span>
+          </div>
+        </div>
+        <div class="tabbar"><i></i><i></i><i class="mid"></i><i></i><i></i></div>
+        </div></div>
+        <span class="route">chart-reveal · chart-resonance</span>
+      </div>
+      <div class="ann">
+        <div class="hd"><span class="tabno">From Profile</span><span class="badge b-built">built</span></div>
+        <h3>Birth Chart raw data + Chart Resonance</h3>
+        <p><b>Purpose.</b> The traditionalist's view — the literal Four-Pillar chart — plus a flow to recover an unknown birth hour.</p>
+        <p><b>What it does.</b> Raw chart: a 4- (or 3-) pillar grid, Year/Month/Day/Hour columns, each 天干 over 地支, element-colored, with the day pillar highlighted and a legend. Resonance: a 3-round portrait-matching exercise that narrows 12 possible 时辰 to one, with a confidence indicator and an “apply to my chart” CTA.</p>
+        <div class="open"><b>Open to explore:</b> how dense the pillar grid should read; whether the legend is inline or a key; the resonance reveal moment.</div>
+        <div class="tags"><span>pillar grid</span><span>hanzi</span><span>legend</span></div>
+      </div>
+    </div>
+
+    <!-- GUIDANCE SUB-SCREENS STRIP -->
+    <div style="border-top:1px solid var(--paperHair);padding-top:22px;margin-top:8px;">
+      <h3 style="font-size:18px;">The 5 Guidance sub-screens <span class="badge b-built" style="vertical-align:middle;">built</span></h3>
+      <p style="font-size:14.5px;">Each Guidance card opens a working, functionally-constrained screen. These are lower priority for layout exploration (their structure is dictated by function) — shown so you see the full surface area.</p>
+      <div class="sub">
+        <div class="subt"><div class="box"><div class="me" style="margin:0;">Codex</div><div class="ln" style="width:90%"></div><div class="ln" style="width:70%"></div><div class="ln" style="width:80%"></div><div class="ln" style="width:60%"></div></div><div class="cap">BaZi Codex</div><div class="sublab">Accordion entries: definition · explanation · your chart</div></div>
+        <div class="subt"><div class="box" style="align-items:center;justify-content:center;flex-direction:row;gap:3px;"><span style="width:18px;height:26px;border-radius:4px;background:var(--metalD);transform:rotate(-9deg)"></span><span style="width:18px;height:26px;border-radius:4px;background:var(--bronze)"></span><span style="width:18px;height:26px;border-radius:4px;background:var(--woodD);transform:rotate(9deg)"></span></div><div class="cap">Elemental Draw</div><div class="sublab">Fanned deck → drawn pair → flip-reveal</div></div>
+        <div class="subt"><div class="box"><div class="row" style="gap:3px;"><span class="pill t-metal" style="font-size:6px;">Career</span><span class="pill" style="font-size:6px;background:var(--silk);border:1px solid var(--paperHair);color:var(--inkLight)">Love</span></div><div class="ln"></div><div class="ln" style="width:80%"></div><div class="ln" style="width:88%"></div></div><div class="cap">Energy Manual</div><div class="sublab">Setup → 5 domain tabs → 3 sections each</div></div>
+        <div class="subt"><div class="box"><div class="ln" style="height:9px;width:100%;background:var(--silkDeep)"></div><div class="row" style="gap:3px;"><span style="width:9px;height:9px;border-radius:3px;border:1.2px solid var(--bronze)"></span><div class="ln" style="flex:1"></div></div><div class="ln" style="height:18px;background:var(--silkDeep);border:1px solid var(--paperHair)"></div></div><div class="cap">Self-Report</div><div class="sublab">Single-select · multi-select · textarea</div></div>
+        <div class="subt"><div class="box"><div class="ln" style="width:62%;height:11px;border-radius:7px;background:var(--silkDeep);align-self:flex-start"></div><div class="ln" style="width:75%;height:11px;border-radius:7px;background:var(--bronzeDark);align-self:flex-end"></div><div class="ln" style="width:55%;height:11px;border-radius:7px;background:var(--silkDeep);align-self:flex-start"></div></div><div class="cap">AI Consultant</div><div class="sublab">Context bar + chat bubbles + input</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ░░ SLOT VOCAB ░░ -->
+  <div class="sheet">
+    <h2>Label your boxes with our slot vocabulary</h2>
+    <p>So your wireframes map cleanly onto our asset + component system, tag every visual box with one of these
+      (the mockups above use them). Pure-data boxes — calendars, timelines, bars, forms — need no tag.</p>
+    <div class="slots">
+      <div class="slot"><b>PAGE-BG</b><span>Full-screen subtle scenery behind a whole tab, low opacity.</span></div>
+      <div class="slot"><b>SCENE-HERO</b><span>The painterly picture band at the top of a screen or section.</span></div>
+      <div class="slot"><b>TILE</b><span>A catalogue thumbnail: mark + label + title.</span></div>
+      <div class="slot"><b>STEM-THUMB</b><span>A per-identity signature portrait (e.g. the day-master).</span></div>
+      <div class="slot"><b>MARK</b><span>A small element seal / icon — line art, inline.</span></div>
+      <div class="slot"><b>TEXTURE</b><span>Paper grain, mist band, divider accent — element-agnostic.</span></div>
+    </div>
+  </div>
+
+  <!-- ░░ THE ASK ░░ -->
+  <div class="sheet">
+    <h2>What we want from you</h2>
+    <div class="call ask">
+      <div class="ttl">The deliverable, per screen</div>
+      <strong>Exactly 3 distinct structural wireframes</strong> of the screen we brief you on — grayscale, boxes + labels,
+      hierarchy only. Each must fit 390px wide with no horizontal scroll, be readable in under 2 seconds, carry a slot
+      tag on every visual box, and come with a <strong>one-line trade-off</strong>. We dispatch <strong>one screen per session</strong>;
+      a separate brief gives you that screen's content list and which reference files to attach.
+    </div>
+    <div class="call no">
+      <div class="ttl">Please do not</div>
+      <ul style="margin:0;">
+        <li>Produce finished or colored visuals, or invent painterly art — that's applied later, in code.</li>
+        <li>Redesign the palette, type, scales, or the 5-tab IA — those are locked.</li>
+        <li>Give hedged “option A or maybe B” boxes — commit to 3 genuinely different skeletons.</li>
+        <li>Expand Profile into a settings hub, or add a second focal image to any screen.</li>
+        <li>Use spacing/radius values outside the scales above.</li>
+      </ul>
+    </div>
+    <p class="foot">Send this page <strong>once</strong> at the start of the engagement (it's screen-agnostic context). Then dispatch the
+      per-screen <em>Wireframe Dispatch</em> prompt one screen at a time, attaching that screen's legend/component reference files + a current screenshot.</p>
+  </div>
+
+</div>
+</body>
+</html>

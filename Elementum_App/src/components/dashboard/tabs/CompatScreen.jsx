@@ -18,6 +18,8 @@ import { calculateBaziChart } from '../../../engine/calculator.js';
 import { computeCompatibility } from '../../../engine/compatibility.js';
 import { STEM_CARD_DATA } from '../../../content/archetypeSource.js';
 import { ElementMark, Icon } from '../../shared/icons';
+import { MoodboardArt } from '../VisualTile.jsx';
+import { stemArt, elementArt } from '../../../styles/backgrounds.js';
 import {
   ink, inkSoft, inkLight, bronzeDark, gold, silk, cream,
   paperHair, quietBg, quietBorder, borderLight, cardstockBg,
@@ -109,58 +111,69 @@ export default function CompatScreen() {
     );
   }
 
-  // ── RESULT ────────────────────────────────────────────────────
+  // ── RESULT ─ Variant B — bridging medallion at the seam ───────
   const r = result;
   const otherPigKey = ELEMENT_TO_PIGMENT[r.other.element] || 'metal';
+  // Score medallion's tint blends the two element pigments (or uses the user's
+  // when both sides share the element, which matches the wireframe's mirror case).
+  const medallionPig = pigments[userPigKey].deep;
   return (
     <main style={{ minHeight: '100%', padding: '54px 22px 24px' }}>
       <BackLink onBack={() => setPhase('intro')} label="Friends" />
 
-      {/* Element comparison grid */}
-      <div style={{ display: 'flex', alignItems: 'stretch', gap: 10, marginBottom: 18 }}>
+      {/* Versus pair with bridging score medallion */}
+      <div style={{ position: 'relative', display: 'flex', gap: 10, marginBottom: 56 }}>
         <PersonCell label="You" stem={r.user.stem} element={r.user.element} sub={r.user.label} archetype={r.user.archetype} pigKey={userPigKey} />
-        <div style={{ alignSelf: 'center', fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 18, color: inkLight }}>×</div>
         <PersonCell label={r.name} stem={r.other.stem} element={r.other.element} sub={r.other.label} archetype={r.other.archetype} pigKey={otherPigKey} />
+        {/* Score medallion — bridges the seam, sits half over / half under */}
+        <ScoreMedallion score={r.score} pigColor={medallionPig} />
       </div>
 
-      {/* Relationship archetype */}
+      {/* Relationship archetype + verdict */}
       <div style={{ textAlign: 'center', marginBottom: 16 }}>
-        <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10, letterSpacing: 2, textTransform: 'uppercase', color: bronzeDark, fontWeight: 500, marginBottom: 4 }}>
+        <div style={{
+          fontFamily: "'EB Garamond', Georgia, serif",
+          fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
+          color: bronzeDark, fontWeight: 500, marginBottom: 4,
+        }}>
           {r.user.element} meets {r.other.element}
         </div>
-        <div style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 28, fontWeight: 400, color: ink }}>“{r.archetype}”</div>
+        <div style={{
+          fontFamily: "'Cormorant Garamond', Georgia, serif",
+          fontSize: 29, fontWeight: 400, color: ink, lineHeight: 1.05,
+        }}>"{r.archetype}"</div>
+        {r.headline && (
+          <div style={{
+            fontFamily: "'Cormorant Garamond', Georgia, serif",
+            fontSize: 16, fontStyle: 'italic', color: inkSoft, marginTop: 6,
+          }}>{r.headline}</div>
+        )}
       </div>
 
       {isSeeker ? (
         <>
-          {/* Percentage */}
-          <div style={{ textAlign: 'center', marginBottom: 18 }}>
-            <span style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 64, fontWeight: 400, color: ink, lineHeight: 1 }}>{r.score}</span>
-            <span style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 16, color: inkLight }}>% Compatible</span>
-            <div style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 19, fontStyle: 'italic', color: inkSoft, marginTop: 4 }}>{r.headline}</div>
-          </div>
           {/* Full reading */}
-          <section style={{ background: cardstockBg, border: `1px solid ${paperHair}`, borderRadius: 16, padding: '18px', marginBottom: 14 }}>
-            <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 15, lineHeight: 1.75, color: inkSoft, margin: 0 }}>{r.reading}</p>
+          <section style={{ background: cardstockBg, border: `1px solid ${paperHair}`, borderRadius: 16, padding: '16px 18px', marginBottom: 14 }}>
+            <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14.5, lineHeight: 1.65, color: inkSoft, margin: 0 }}>{r.reading}</p>
           </section>
           {/* Share card */}
           <div style={{ background: ink, borderRadius: 16, padding: '20px', textAlign: 'center', marginBottom: 14 }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 14, marginBottom: 12, color: silk }}>
               <ElementMark element={userPigKey} size={28} />
-              <span style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 16, color: 'rgba(248,246,240,0.6)' }}>×</span>
+              <span style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 14, color: 'rgba(248,246,240,0.5)' }}>×</span>
               <ElementMark element={otherPigKey} size={28} />
             </div>
-            <div style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 18, color: silk }}>
-              We’re {r.score}% compatible — {r.user.element} meets {r.other.element}
+            <div style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 17, color: silk, lineHeight: 1.25 }}>
+              We're {r.score}% compatible —<br />{r.user.element} meets {r.other.element}
             </div>
-            <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10, letterSpacing: 1.5, textTransform: 'uppercase', color: 'rgba(248,246,240,0.4)', marginTop: 10 }}>Elementum</div>
+            <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 9, letterSpacing: 3, textTransform: 'uppercase', color: 'rgba(248,246,240,0.4)', marginTop: 10 }}>Elementum</div>
           </div>
         </>
       ) : (
         <>
           {/* Free teaser */}
-          <section style={{ background: cardstockBg, border: `1px solid ${paperHair}`, borderRadius: 16, padding: '18px', marginBottom: 14 }}>
-            <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 15, lineHeight: 1.7, color: inkSoft, margin: 0 }}>{r.teaser}</p>
+          <section style={{ background: cardstockBg, border: `1px solid ${paperHair}`, borderRadius: 16, padding: '16px 18px', marginBottom: 14 }}>
+            <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14.5, lineHeight: 1.65, color: inkSoft, margin: 0 }}>{r.teaser}</p>
           </section>
           <button type="button" onClick={() => openUpgrade('the full relationship reading')} style={{
             width: '100%', padding: '14px', borderRadius: 999, border: `1px solid ${withAlpha(gold, '40')}`,
@@ -178,6 +191,37 @@ export default function CompatScreen() {
         color: inkLight, cursor: 'pointer', fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13,
       }}>Compare someone else →</button>
     </main>
+  );
+}
+
+// ── Score medallion — conic donut bridging the two person cards ────
+function ScoreMedallion({ score, pigColor }) {
+  return (
+    <div aria-label={`${score}% compatible`} style={{
+      position: 'absolute', left: '50%', bottom: -32,
+      transform: 'translateX(-50%)', zIndex: 4,
+      width: 80, height: 80, borderRadius: 999,
+      background: `conic-gradient(${pigColor} 0 ${score * 3.6}deg, ${paperHair} ${score * 3.6}deg 360deg)`,
+      display: 'flex', alignItems: 'center', justifyContent: 'center',
+      boxShadow: '0 4px 12px rgba(40,30,20,0.18)',
+    }}>
+      <div style={{
+        width: 64, height: 64, borderRadius: 999,
+        background: cream,
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+      }}>
+        <span style={{
+          fontFamily: "'Cormorant Garamond', Georgia, serif",
+          fontSize: 24, fontWeight: 500, color: ink, lineHeight: 1,
+        }}>
+          {score}
+          <span style={{
+            fontSize: 11, fontFamily: "'EB Garamond', Georgia, serif",
+            color: inkLight, marginLeft: 1,
+          }}>%</span>
+        </span>
+      </div>
+    </div>
   );
 }
 
@@ -210,18 +254,64 @@ function Field({ label, children }) {
   );
 }
 function PersonCell({ label, stem, element, sub, archetype, pigKey }) {
-  const pig = pigments[pigKey].deep;
+  const pig = pigments[pigKey];
+  const artUrl = stemArt(stem) || elementArt(element);
   return (
-    <div style={{ flex: 1, background: withAlpha(pigments[pigKey].base, '10'), border: `1px solid ${withAlpha(pigments[pigKey].base, '40')}`, borderRadius: 16, padding: '14px 10px', textAlign: 'center' }}>
-      <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 9.5, letterSpacing: 1.5, textTransform: 'uppercase', color: inkLight, marginBottom: 8 }}>{label}</div>
-      <div style={{ width: 48, height: 48, borderRadius: 12, margin: '0 auto 8px', background: withAlpha(pigments[pigKey].base, '1A'), display: 'flex', alignItems: 'center', justifyContent: 'center', color: pig }}>
-        <ElementMark element={pigKey} size={26} />
+    <div style={{
+      position: 'relative', flex: 1, overflow: 'hidden',
+      borderRadius: 16,
+      border: `1px solid ${withAlpha(pig.base, '40')}`,
+      background: cardstockBg,
+      padding: '16px 10px 30px',
+      display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 7,
+      textAlign: 'center',
+      boxShadow: '0 1px 0 rgba(43,39,34,.04), 0 8px 20px rgba(60,46,28,.07)',
+    }}>
+      {/* Painterly art at 50% opacity behind — paper still wins for legibility */}
+      {artUrl && (
+        <div aria-hidden="true" style={{
+          position: 'absolute', inset: 0, opacity: 0.5,
+        }}>
+          <MoodboardArt src={artUrl} pigBase={pig.base} />
+        </div>
+      )}
+
+      {/* Person label eyebrow */}
+      <span style={{
+        position: 'relative', zIndex: 1,
+        fontFamily: "'EB Garamond', Georgia, serif",
+        fontSize: 10, letterSpacing: 2, textTransform: 'uppercase',
+        color: inkLight, fontWeight: 500,
+      }}>{label}</span>
+
+      {/* 48×48 round element-seal mark */}
+      <span style={{
+        position: 'relative', zIndex: 1,
+        width: 48, height: 48, borderRadius: 12,
+        background: 'rgba(248,244,236,0.75)',
+        border: `1px solid ${withAlpha(pig.base, '40')}`,
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        color: pig.deep,
+      }}>
+        <ElementMark element={pigKey} size={24} />
+      </span>
+
+      {/* Stem hanzi (DARK INK, 24px) + archetype + polarity eyebrow */}
+      <div style={{ position: 'relative', zIndex: 1 }}>
+        <div style={{
+          fontFamily: "'Noto Serif SC', serif",
+          fontSize: 24, color: ink, lineHeight: 1, fontWeight: 500,
+        }}>{stem}</div>
+        <div style={{
+          fontFamily: "'Cormorant Garamond', Georgia, serif",
+          fontSize: 15, fontWeight: 600, color: ink, marginTop: 2,
+        }}>{archetype}</div>
+        <div style={{
+          fontFamily: "'EB Garamond', Georgia, serif",
+          fontSize: 10, letterSpacing: 1.6, textTransform: 'uppercase',
+          color: inkLight, fontWeight: 500, marginTop: 3,
+        }}>{sub || `${element}`}</div>
       </div>
-      <div style={{ display: 'flex', alignItems: 'baseline', gap: 5, justifyContent: 'center' }}>
-        <span style={{ fontFamily: "'Noto Serif SC', serif", fontSize: 18, color: pig }}>{stem}</span>
-        <span style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 11, color: inkLight }}>{sub}</span>
-      </div>
-      <div style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 16, color: ink, marginTop: 2 }}>{archetype}</div>
     </div>
   );
 }

@@ -477,6 +477,145 @@ const PRESCRIPTIONS = {
   },
 };
 
+// ---------- Variant B · Blueprint card + 5-element Composition Wheel ----------
+// Wireframe: Energy Map (Direction 2) — replaces the linear EnergyBlueprint
+// bars with a flat row showing the dominant element + band classification +
+// percent, followed by a 250×250 radial wheel of all five elements arranged
+// on a pentagonal ring (Generating Cycle clockwise from top: Wood · Fire ·
+// Earth · Metal · Water). Node sizes scale with mark count; the dominant
+// element carries a thicker outline.
+
+const BAND_LABEL = {
+  concentrated: 'Concentrated',
+  balanced:     'Balanced',
+  open:         'Open',
+};
+const BAND_DESC = {
+  concentrated: 'Heavily weighted — little counterbalance.',
+  balanced:     'Even distribution — every element holds its share.',
+  open:         'Spread thin — each element holds little weight.',
+};
+
+function BlueprintRow({ stem, element, pigColor, bandLabel, bandDesc, percent }) {
+  return (
+    <div style={{ ...deckleCard({ padding: '15px 18px' }) }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 13 }}>
+        <div style={{
+          width: 46, height: 46, borderRadius: 11,
+          border: `1.5px solid ${pigColor}66`,
+          background: `${pigColor}14`,
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          color: pigColor, fontFamily: "'Noto Serif SC', serif",
+          fontSize: 22, lineHeight: 1, flexShrink: 0,
+        }}>{stem}</div>
+        <div style={{ flex: 1, minWidth: 0 }}>
+          <div style={{
+            display: 'flex', alignItems: 'baseline', gap: 8, flexWrap: 'wrap',
+          }}>
+            <span style={{
+              fontFamily: "'Cormorant Garamond', serif",
+              fontSize: 21, color: INK, fontWeight: 500, lineHeight: 1,
+            }}>{element}</span>
+            <span style={{
+              fontFamily: "'EB Garamond', serif",
+              fontSize: 9, letterSpacing: 1.5, textTransform: 'uppercase',
+              border: `1px solid ${PAPER_HAIR}`, borderRadius: 999,
+              padding: '3px 10px', color: INK_LIGHT, fontWeight: 500,
+            }}>{bandLabel}</span>
+          </div>
+          <div style={{
+            fontFamily: "'EB Garamond', serif",
+            fontSize: 12.5, color: INK_LIGHT, marginTop: 4, lineHeight: 1.4,
+          }}>{bandDesc}</div>
+        </div>
+        <div style={{
+          fontFamily: "'Cormorant Garamond', serif",
+          fontSize: 23, color: INK, fontWeight: 500, flexShrink: 0,
+        }}>{percent}%</div>
+      </div>
+    </div>
+  );
+}
+
+function CompositionWheel({ composition, dominantElement, totalMarks }) {
+  // Generating-cycle order, clockwise from top: Wood → Fire → Earth → Metal → Water.
+  const ORDER = ['Wood', 'Fire', 'Earth', 'Metal', 'Water'];
+  const SIZE = 250;
+  const RADIUS = 95;
+  const CENTER = SIZE / 2;
+
+  // Lookup composition by element name.
+  const byEl = Object.fromEntries(composition.map((c) => [c.en, c]));
+
+  return (
+    <div style={{
+      position: 'relative', width: SIZE, height: SIZE,
+      margin: '4px auto 4px',
+    }}>
+      {/* Dashed inner ring */}
+      <div aria-hidden="true" style={{
+        position: 'absolute', inset: 36,
+        borderRadius: 999,
+        border: `1px dashed ${PAPER_HAIR}`,
+      }} />
+
+      {/* 5 element nodes */}
+      {ORDER.map((el, i) => {
+        const item = byEl[el] || { n: 0, color: PIG[el] || INK_LIGHT, key: el.toLowerCase() };
+        const angleDeg = (i * 72) - 90;   // start at top (-90°), clockwise
+        const rad = (angleDeg * Math.PI) / 180;
+        const cx = CENTER + Math.cos(rad) * RADIUS;
+        const cy = CENTER + Math.sin(rad) * RADIUS;
+        // Size scales with count: 28 (n=0) → 78 (n=6+).
+        const nodeSize = Math.max(28, Math.min(78, 28 + item.n * 9));
+        const isDominant = el === dominantElement;
+        const empty = item.n === 0;
+        return (
+          <div key={el} style={{
+            position: 'absolute',
+            left: cx - nodeSize / 2,
+            top:  cy - nodeSize / 2,
+            width: nodeSize, height: nodeSize,
+            borderRadius: 999,
+            border: `${isDominant ? 2 : 1.5}px solid ${item.color}`,
+            background: 'rgba(248, 241, 225, 0.92)',
+            display: 'flex', flexDirection: 'column',
+            alignItems: 'center', justifyContent: 'center',
+            opacity: empty ? 0.5 : 1,
+          }}>
+            <b style={{
+              fontFamily: "'Cormorant Garamond', serif",
+              fontSize: nodeSize > 50 ? 16 : 14,
+              fontWeight: 600, color: INK, lineHeight: 1,
+            }}>{item.n}</b>
+            <span style={{
+              fontFamily: "'EB Garamond', serif",
+              fontSize: 7.5, letterSpacing: 0.6, textTransform: 'uppercase',
+              marginTop: 2, color: INK_LIGHT,
+            }}>{el}</span>
+          </div>
+        );
+      })}
+
+      {/* Center label — Total / N */}
+      <div style={{
+        position: 'absolute', left: '50%', top: '50%',
+        transform: 'translate(-50%, -50%)', textAlign: 'center',
+      }}>
+        <div style={{
+          fontFamily: "'EB Garamond', serif",
+          fontSize: 8.5, letterSpacing: 1.5, textTransform: 'uppercase',
+          color: INK_LIGHT, fontWeight: 500,
+        }}>Total</div>
+        <div style={{
+          fontFamily: "'Cormorant Garamond', serif",
+          fontSize: 18, color: INK, fontWeight: 500, marginTop: 2,
+        }}>{totalMarks}</div>
+      </div>
+    </div>
+  );
+}
+
 // ---------- Main screen ----------
 // ─── Ceremonial entrance timing (DOC5 §9 v1.7) ─────────────────────
 // The Reveal mounts after Loading's exit + silk-pause (~850ms). From the
@@ -615,6 +754,16 @@ export default function RevealScreen({ onEnterDashboard, hideCTA = false }) {
   const missing = composition.find((el) => el.n === 0);
   // Identity ribbon data — same helper used by Energy Map (DOC5 §9 v1.8).
   const dm = buildDm(chart);
+
+  // Variant B composition wheel — band classification, total marks, dominant %.
+  const totalMarks = composition.reduce((s, c) => s + c.n, 0) || 8;
+  const dominantPct = totalMarks ? Math.round((composition[0].n / totalMarks) * 100) : 0;
+  const _strength = chart.dayMaster?.strength || 'moderate';
+  const bandKey =
+    _strength === 'extremely_strong' || _strength === 'strong' ? 'concentrated' :
+    _strength === 'moderate' ? 'balanced' : 'open';
+  const bandLabel = BAND_LABEL[bandKey];
+  const bandDesc  = BAND_DESC[bandKey];
 
   return (
     /* Outer phone-frame container. Holds the FIXED painted background
@@ -999,124 +1148,6 @@ export default function RevealScreen({ onEnterDashboard, hideCTA = false }) {
 
         {/* Section content sits above the (now-uniform) silk page bg */}
         <div style={{ position: 'relative', zIndex: 1 }}>
-        <div
-          style={{
-            fontFamily: "'EB Garamond', serif",
-            fontSize: 10,
-            letterSpacing: 2.5,
-            textTransform: 'uppercase',
-            color: INK_LIGHT,
-            textAlign: 'center',
-            marginBottom: 18,
-            fontWeight: 500,
-          }}
-        >
-          Your Energy Blueprint
-        </div>
-
-        {/* Identity ribbon — DOC5 §9 v1.8 cascade. The same component
-            used at the top of the Energy Map dashboard. Wrapped in
-            deckleCard for the polished V1 silk-card look. */}
-        {dm && (
-          <div style={{ ...deckleCard({ padding: '18px 18px 16px' }), marginBottom: 14 }}>
-            <IdentityRibbon dm={dm} />
-          </div>
-        )}
-
-        {/* Composition card — "COMPOSITION" + "8 MARKS" eyebrow header
-            above the segmented 5-element chart. Matches polished V1. */}
-        <div style={{ ...deckleCard({ padding: '18px 18px 20px' }) }}>
-          <div style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'baseline',
-            marginBottom: 14,
-          }}>
-            <span style={{
-              fontFamily: "'EB Garamond', serif",
-              fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
-              color: INK_LIGHT, fontWeight: 500,
-            }}>Composition</span>
-            <span style={{
-              fontFamily: "'EB Garamond', serif",
-              fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
-              color: INK_LIGHT, fontWeight: 500,
-            }}>8 marks</span>
-          </div>
-          <EnergyBlueprint chart={chart} />
-        </div>
-
-        {/* Missing element callout */}
-        {missing && (
-          <div
-            style={{
-              marginTop: 20,
-              padding: '18px 20px',
-              background: `${missing.color}10`,
-              border: `1px solid ${missing.color}40`,
-              borderRadius: 16,
-              position: 'relative',
-              overflow: 'hidden',
-            }}
-          >
-            <CornerInk size={48} color={missing.color} opacity={0.12} position="tr" />
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: 10,
-                marginBottom: 10,
-                position: 'relative',
-              }}
-            >
-              <ElementSign
-                element={missing.key}
-                size={18}
-                color={missing.color}
-              />
-              <div
-                style={{
-                  fontFamily: "'EB Garamond', serif",
-                  fontSize: 10,
-                  letterSpacing: 2.5,
-                  color: missing.color,
-                  textTransform: 'uppercase',
-                  fontWeight: 500,
-                }}
-              >
-                Your {missing.en} is missing
-              </div>
-            </div>
-            <p
-              style={{
-                fontFamily: "'EB Garamond', serif",
-                fontSize: 14,
-                color: INK_SOFT,
-                lineHeight: 1.6,
-                margin: 0,
-                position: 'relative',
-              }}
-            >
-              {PRESCRIPTIONS[missing.en]?.blurb ||
-                'What you lack is what you must cultivate.'}
-            </p>
-          </div>
-        )}
-        </div>
-      </section>
-
-      {/* ── SECTION 3 — BALANCE PRESCRIPTION ─────────────── */}
-      {missing && (
-        <section
-          style={{
-            position: 'relative',
-            zIndex: 10,
-            padding: '40px 28px 32px',
-            overflow: 'hidden',
-          }}
-        >
-          {/* §3 painted backdrop intentionally omitted — keeps the
-              page on one consistent silk paper for the whole scroll. */}
           <div
             style={{
               fontFamily: "'EB Garamond', serif",
@@ -1125,74 +1156,48 @@ export default function RevealScreen({ onEnterDashboard, hideCTA = false }) {
               textTransform: 'uppercase',
               color: INK_LIGHT,
               textAlign: 'center',
-              marginBottom: 22,
+              marginBottom: 18,
               fontWeight: 500,
             }}
           >
-            What Balances You
+            Your Energy Blueprint
           </div>
 
-          <div
-            style={{
-              background: '#EBE5D6',
-              border: `1px solid #DCD3C0`,
-              borderRadius: 18,
-              padding: 24,
-            }}
-          >
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: 10,
-                marginBottom: 18,
-                paddingBottom: 16,
-                borderBottom: `1px solid ${missing.color}33`,
-              }}
-            >
-              <div
-                style={{
-                  width: 36,
-                  height: 36,
-                  borderRadius: 999,
-                  background: `${missing.color}22`,
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
-              >
-                <ElementSign
-                  element={missing.key}
-                  size={18}
-                  color={missing.color}
-                />
-              </div>
-              <div
-                style={{
-                  fontFamily: "'EB Garamond', serif",
-                  fontSize: 10,
-                  letterSpacing: 2.5,
-                  textTransform: 'uppercase',
-                  color: missing.color,
-                  fontWeight: 500,
-                }}
-              >
-                Cultivate {missing.en}
-              </div>
+          {/* Blueprint card — stem mark + element + band pill + sub + dominant % */}
+          <BlueprintRow
+            stem={dmStem}
+            element={dmElement}
+            pigColor={PIG[dmElement]}
+            bandLabel={bandLabel}
+            bandDesc={bandDesc}
+            percent={dominantPct}
+          />
+
+          {/* Composition wheel card — 5 elements arranged on a pentagonal ring */}
+          <div style={{ ...deckleCard({ padding: '14px 18px 12px' }), marginTop: 13 }}>
+            <div style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'baseline',
+              marginBottom: 2,
+            }}>
+              <span style={{
+                fontFamily: "'EB Garamond', serif",
+                fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
+                color: INK_LIGHT, fontWeight: 500,
+              }}>Composition</span>
+              <span style={{
+                fontFamily: "'EB Garamond', serif",
+                fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
+                color: INK_LIGHT, fontWeight: 500,
+              }}>{totalMarks} marks</span>
             </div>
-
-            {(PRESCRIPTIONS[missing.en]?.categories || []).map((cat) => (
-              <PrescriptionCategory
-                key={cat.title}
-                title={cat.title}
-                icon={cat.icon}
-                bullets={cat.bullets}
-                accent={missing.color}
-              />
-            ))}
+            <CompositionWheel composition={composition} dominantElement={dmElement} totalMarks={totalMarks} />
           </div>
-        </section>
-      )}
+        </div>
+      </section>
+
+      {/* ── SECTION 3 (Balance Prescription) — removed in Variant B ─── */}
 
       {/* ── SECTION 4 — CTA ───────────────────────────────── */}
       {/* Suppressed when this component renders inside the Energy Map

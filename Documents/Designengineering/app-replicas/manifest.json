@@ -1,0 +1,389 @@
+[
+  {
+    "file": "screens/01-welcome.png",
+    "name": "01-welcome",
+    "route": "welcome",
+    "label": "Welcome",
+    "note": "First screen — sets the contemplative tone.",
+    "group": "Pre-dashboard flow",
+    "ok": true
+  },
+  {
+    "file": "screens/02-step1-year.png",
+    "name": "02-step1-year",
+    "route": "step1",
+    "label": "Onboarding · Year",
+    "note": "Birth-year entry.",
+    "group": "Pre-dashboard flow",
+    "ok": true
+  },
+  {
+    "file": "screens/03-step2-month.png",
+    "name": "03-step2-month",
+    "route": "step2",
+    "label": "Onboarding · Month",
+    "note": "Birth-month entry.",
+    "group": "Pre-dashboard flow",
+    "ok": true
+  },
+  {
+    "file": "screens/04-step3-day.png",
+    "name": "04-step3-day",
+    "route": "step3",
+    "label": "Onboarding · Day",
+    "note": "Birth-day entry.",
+    "group": "Pre-dashboard flow",
+    "ok": true
+  },
+  {
+    "file": "screens/05-step4-hour.png",
+    "name": "05-step4-hour",
+    "route": "step4",
+    "label": "Onboarding · Hour",
+    "note": "Birth-hour entry (exact / approximate / unknown).",
+    "group": "Pre-dashboard flow",
+    "ok": true
+  },
+  {
+    "file": "screens/06-step4a-hourwindow.png",
+    "name": "06-step4a-hourwindow",
+    "route": "step4a",
+    "label": "Onboarding · Hour window",
+    "note": "Approximate-hour branch.",
+    "group": "Pre-dashboard flow",
+    "ok": true
+  },
+  {
+    "file": "screens/07-step5-location.png",
+    "name": "07-step5-location",
+    "route": "step5",
+    "label": "Onboarding · Location",
+    "note": "Birth location for true solar time.",
+    "group": "Pre-dashboard flow",
+    "ok": true
+  },
+  {
+    "file": "screens/08-step6-polarity.png",
+    "name": "08-step6-polarity",
+    "route": "step6",
+    "label": "Onboarding · Polarity",
+    "note": "Gender/polarity for luck-pillar direction.",
+    "group": "Pre-dashboard flow",
+    "ok": true
+  },
+  {
+    "file": "screens/09-step6a-energycurrent.png",
+    "name": "09-step6a-energycurrent",
+    "route": "step6a",
+    "label": "Onboarding · Energy current",
+    "note": "Prefer-not-to-specify branch.",
+    "group": "Pre-dashboard flow",
+    "ok": true
+  },
+  {
+    "file": "screens/10-step7-notify.png",
+    "name": "10-step7-notify",
+    "route": "step7",
+    "label": "Onboarding · Notifications",
+    "note": "Daily-reading opt-in.",
+    "group": "Pre-dashboard flow",
+    "ok": true
+  },
+  {
+    "file": "screens/11-step7a-notifytime.png",
+    "name": "11-step7a-notifytime",
+    "route": "step7a",
+    "label": "Onboarding · Notify time",
+    "note": "Delivery-time branch.",
+    "group": "Pre-dashboard flow",
+    "ok": true
+  },
+  {
+    "file": "screens/12-loading.png",
+    "name": "12-loading",
+    "route": "loading",
+    "label": "Loading",
+    "note": "Chart-calculation ceremony (auto-advances).",
+    "group": "Pre-dashboard flow",
+    "ok": true
+  },
+  {
+    "file": "screens/13-reveal.png",
+    "name": "13-reveal",
+    "route": "reveal",
+    "label": "Reveal",
+    "note": "First-run identity reveal with enter-dashboard CTA.",
+    "group": "Pre-dashboard flow",
+    "ok": true
+  },
+  {
+    "file": "screens/14-reading-catalogue-seeker.png",
+    "name": "14-reading-catalogue-seeker",
+    "route": "app-reading",
+    "label": "Reading catalogue · Seeker",
+    "note": "Day-master hero + 6 reading tiles (Daily Reading unlocked).",
+    "group": "Reading (center tab) + detail pages",
+    "ok": true
+  },
+  {
+    "file": "screens/15-energy-map.png",
+    "name": "15-energy-map",
+    "route": "app-energymap",
+    "label": "Energy Map",
+    "note": "Full energy summary — identity + blueprint.",
+    "group": "Reading (center tab) + detail pages",
+    "ok": true
+  },
+  {
+    "file": "screens/16-read-elemental.png",
+    "name": "16-read-elemental",
+    "route": "read-elemental",
+    "label": "Detail · Elemental Nature",
+    "note": "Reading-detail template (hero + section cards + prev/next).",
+    "group": "Reading (center tab) + detail pages",
+    "ok": true
+  },
+  {
+    "file": "screens/17-read-daymaster.png",
+    "name": "17-read-daymaster",
+    "route": "read-daymaster",
+    "label": "Detail · Day Master",
+    "note": "Day-master identity long-form.",
+    "group": "Reading (center tab) + detail pages",
+    "ok": true
+  },
+  {
+    "file": "screens/18-read-tengods.png",
+    "name": "18-read-tengods",
+    "route": "read-tengods",
+    "label": "Detail · Ten Gods",
+    "note": "Adds weighted role-ring + pillar grid.",
+    "group": "Reading (center tab) + detail pages",
+    "ok": true
+  },
+  {
+    "file": "screens/19-read-forces.png",
+    "name": "19-read-forces",
+    "route": "read-forces",
+    "label": "Detail · Forces in Motion",
+    "note": "Adds ↑Catalyst / ↓Resistance pair.",
+    "group": "Reading (center tab) + detail pages",
+    "ok": true
+  },
+  {
+    "file": "screens/20-read-chapters.png",
+    "name": "20-read-chapters",
+    "route": "read-chapters",
+    "label": "Detail · Life Chapters",
+    "note": "Adds horizontal decade timeline.",
+    "group": "Reading (center tab) + detail pages",
+    "ok": true
+  },
+  {
+    "file": "screens/21-read-patterns.png",
+    "name": "21-read-patterns",
+    "route": "read-patterns",
+    "label": "Detail · Pillar Patterns",
+    "note": "Adds 合冲刑害 pattern badges.",
+    "group": "Reading (center tab) + detail pages",
+    "ok": true
+  },
+  {
+    "file": "screens/22-read-seasonal.png",
+    "name": "22-read-seasonal",
+    "route": "read-seasonal",
+    "label": "Detail · Seasonal Calibration",
+    "note": "Conditional missing-element prescription.",
+    "group": "Reading (center tab) + detail pages",
+    "ok": true
+  },
+  {
+    "file": "screens/23-read-locked.png",
+    "name": "23-read-locked",
+    "route": "read-locked",
+    "label": "Detail · Locked",
+    "note": "Generic locked-section state.",
+    "group": "Reading (center tab) + detail pages",
+    "ok": true
+  },
+  {
+    "file": "screens/24-chart-reveal-rawchart.png",
+    "name": "24-chart-reveal-rawchart",
+    "route": "chart-reveal",
+    "label": "Raw Chart (Four Pillars)",
+    "note": "Literal 4-pillar grid, day pillar highlighted.",
+    "group": "Reading (center tab) + detail pages",
+    "ok": true
+  },
+  {
+    "file": "screens/25-reading-catalogue-free.png",
+    "name": "25-reading-catalogue-free",
+    "route": "app-reading",
+    "label": "Reading catalogue · Free",
+    "note": "Daily Reading tile locked (Seeker chip).",
+    "group": "Reading (center tab) + detail pages",
+    "ok": true
+  },
+  {
+    "file": "screens/26-today-today.png",
+    "name": "26-today-today",
+    "route": "app-today",
+    "label": "Today · TODAY",
+    "note": "Decade card + daily narrative + Do/Avoid + Best Hours + Catalyst.",
+    "group": "Today tab",
+    "ok": true
+  },
+  {
+    "file": "screens/27-today-month.png",
+    "name": "27-today-month",
+    "route": "app-today",
+    "label": "Today · MONTH",
+    "note": "7-col element-dot calendar + flow windows.",
+    "group": "Today tab",
+    "ok": true
+  },
+  {
+    "file": "screens/28-today-year.png",
+    "name": "28-today-year",
+    "route": "app-today",
+    "label": "Today · YEAR",
+    "note": "Year-energy card + strategic paragraph + 12-bar timeline.",
+    "group": "Today tab",
+    "ok": true
+  },
+  {
+    "file": "screens/29-guidance-free.png",
+    "name": "29-guidance-free",
+    "route": "app-guidance",
+    "label": "Guidance hub · Free",
+    "note": "Locked cards show Unlock CTAs.",
+    "group": "Guidance hub + sub-screens",
+    "ok": true
+  },
+  {
+    "file": "screens/30-guidance-advisor.png",
+    "name": "30-guidance-advisor",
+    "route": "app-guidance",
+    "label": "Guidance hub · Advisor",
+    "note": "All feature cards unlocked.",
+    "group": "Guidance hub + sub-screens",
+    "ok": true
+  },
+  {
+    "file": "screens/31-codex.png",
+    "name": "31-codex",
+    "route": "app-codex",
+    "label": "Guidance · BaZi Codex",
+    "note": "Accordion entries: definition / explanation / your chart.",
+    "group": "Guidance hub + sub-screens",
+    "ok": true
+  },
+  {
+    "file": "screens/32-draw.png",
+    "name": "32-draw",
+    "route": "app-draw",
+    "label": "Guidance · Elemental Draw",
+    "note": "Fanned deck → draw → flip-reveal ritual.",
+    "group": "Guidance hub + sub-screens",
+    "ok": true
+  },
+  {
+    "file": "screens/33-manual.png",
+    "name": "33-manual",
+    "route": "app-manual",
+    "label": "Guidance · Energy Manual",
+    "note": "Setup → 5 domain tabs → 3 sections each.",
+    "group": "Guidance hub + sub-screens",
+    "ok": true
+  },
+  {
+    "file": "screens/34-selfreport.png",
+    "name": "34-selfreport",
+    "route": "app-selfreport",
+    "label": "Guidance · Self-Report",
+    "note": "Calibration: single/multi-select + textarea.",
+    "group": "Guidance hub + sub-screens",
+    "ok": true
+  },
+  {
+    "file": "screens/35-consultant.png",
+    "name": "35-consultant",
+    "route": "app-consultant",
+    "label": "Guidance · AI Consultant",
+    "note": "Context bar + chat history + input.",
+    "group": "Guidance hub + sub-screens",
+    "ok": true
+  },
+  {
+    "file": "screens/36-compat-intro.png",
+    "name": "36-compat-intro",
+    "route": "app-compat",
+    "label": "Compatibility · Intro",
+    "note": "Dual-seal + \"Compare with someone\".",
+    "group": "Friends / Compatibility",
+    "ok": true
+  },
+  {
+    "file": "screens/37-compat-input.png",
+    "name": "37-compat-input",
+    "route": "(state)",
+    "label": "Compatibility · Input",
+    "note": "Manual entry form for the other person.",
+    "group": "Friends / Compatibility",
+    "ok": true
+  },
+  {
+    "file": "screens/38-compat-result-seeker.png",
+    "name": "38-compat-result-seeker",
+    "route": "(state)",
+    "label": "Compatibility · Result (Seeker)",
+    "note": "% score + full reading + share card.",
+    "group": "Friends / Compatibility",
+    "ok": true
+  },
+  {
+    "file": "screens/39-compat-result-free.png",
+    "name": "39-compat-result-free",
+    "route": "app-compat",
+    "label": "Compatibility · Result (Free)",
+    "note": "Teaser + upgrade gate.",
+    "group": "Friends / Compatibility",
+    "ok": true
+  },
+  {
+    "file": "screens/40-profile.png",
+    "name": "40-profile",
+    "route": "app-profile",
+    "label": "Profile",
+    "note": "Birth data + notifications + account (minimal by design).",
+    "group": "Profile + chart tools",
+    "ok": true
+  },
+  {
+    "file": "screens/41-resonance-intro.png",
+    "name": "41-resonance-intro",
+    "route": "chart-resonance",
+    "label": "Chart Resonance · Intro",
+    "note": "Recover an unknown birth hour by resonance.",
+    "group": "Profile + chart tools",
+    "ok": true
+  },
+  {
+    "file": "screens/42-resonance-result.png",
+    "name": "42-resonance-result",
+    "route": "(state)",
+    "label": "Chart Resonance · Result",
+    "note": "Discovered 时辰 + confidence + apply CTA.",
+    "group": "Profile + chart tools",
+    "ok": true
+  },
+  {
+    "file": "screens/43-upgrade-modal.png",
+    "name": "43-upgrade-modal",
+    "route": "app-guidance",
+    "label": "Upgrade modal (§21)",
+    "note": "Tier comparison opened from a locked card.",
+    "group": "Cross-cutting",
+    "ok": true
+  }
+]
