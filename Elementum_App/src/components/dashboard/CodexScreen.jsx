@@ -108,7 +108,7 @@ const ENTRIES = [
       'A void branch doesn’t disappear; it reads as latent, half-real, often felt as a domain that never quite lands the way the chart suggests it should.',
       'Classical readers use it to explain the gap between what a chart promises and what a life delivers in one specific area.',
     ],
-    ref: () => 'Void calculation is not yet computed in this version of your chart.',
+    ref: () => null,  // void/empty-branch calc isn't surfaced yet — render no personalized line rather than a dev placeholder
   },
   {
     key: 'yinyang', title: 'Yin / Yang Polarity', hanzi: '阴 阳', tier: 'seeker',

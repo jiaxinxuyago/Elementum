@@ -203,8 +203,9 @@ export default function App() {
   }, []);
 
   // Dev-only helper: window.__goto('step3') to jump to any screen for testing.
+  // Gated to dev builds (IS_DEV) so the navigation/test hook never ships to users.
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    if (IS_DEV && typeof window !== 'undefined') {
       window.__goto = (name) => {
         if (FLOW.includes(name)) setScreen(name);
         else console.warn('Unknown screen:', name, '; valid:', FLOW);
@@ -493,7 +494,9 @@ export default function App() {
   return (
     <ChartProvider>
       <UpgradeModalProvider>
-        <DevHelpers />
+        {/* Dev/test hooks (window.__seedData/__setTier/__buySelfReport/etc.) —
+            gated to dev builds so they never ship as a console backdoor. */}
+        {IS_DEV && <DevHelpers />}
         <Shell>
           <PhoneFrame>
             {/* Graceful recovery — a calc/render error never blanks the

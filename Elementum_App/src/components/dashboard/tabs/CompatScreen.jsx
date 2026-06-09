@@ -50,6 +50,7 @@ export default function CompatScreen() {
       gender: form.yang ? 'male' : 'female', longitude: 120, location: 'Beijing',
     });
     const user = chart?.dayMaster;
+    if (!user) return;   // no chart yet (e.g. deep-link/refresh before onboarding) — don't crash
     const res = computeCompatibility(
       { stem: user.stem, element: user.element, polarity: user.polarity, archetype: archetypeOf(user.stem, user.element) },
       { stem: other.dayMaster.stem, element: other.dayMaster.element, polarity: other.dayMaster.polarity, archetype: archetypeOf(other.dayMaster.stem, other.dayMaster.element) },
