@@ -274,7 +274,7 @@ function useFourPillars(chart, dmStem) {
       const branchElement = branch ? BRANCH_ELEMENT[branch] : null;
       return {
         col, isSelf,
-        tg: pi.stemTenGod?.en || pi.tg || tenGodLabel(stem, dmStem, isSelf),
+        tg: chart?.tenGods?.[`${key}Stem`]?.en || pi.stemTenGod?.en || tenGodLabel(stem, dmStem, isSelf),
         stem,
         stemElement: pi.stemElement || stemInfo?.element || null,
         stemPolarity: stemInfo?.polarity || (pi.stemPolarity ? (pi.stemPolarity === 'yin' ? 'Yin' : 'Yang') : null),

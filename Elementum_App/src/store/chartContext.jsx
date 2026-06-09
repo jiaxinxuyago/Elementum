@@ -6,7 +6,7 @@
 // customNotifyTime). Provider wraps the whole app in App.jsx.
 // ===================================================================
 
-import React, { createContext, useContext, useState, useMemo, useCallback } from 'react';
+import React, { createContext, useContext, useState, useEffect, useMemo, useCallback } from 'react';
 
 const ChartContext = createContext(null);
 
@@ -49,9 +49,16 @@ function readSelfReportOwned() {
   try { return localStorage.getItem(SELF_REPORT_KEY) === '1'; } catch { return false; }
 }
 
+// Session persistence (B-4) — birthData + the computed chart survive a refresh
+// or deep-link, so the dashboard renders the user's REAL reading instead of the
+// null-chart default fallback. Versioned keys; a parse failure falls back cleanly.
+const BIRTH_KEY = 'elementum_birthdata_v1';
+const CHART_KEY = 'elementum_chart_v1';
+function readJSON(key) { try { return JSON.parse(localStorage.getItem(key) || 'null'); } catch { return null; } }
+
 export function ChartProvider({ children }) {
-  const [birthData, setBirthData] = useState(INITIAL_BIRTH_DATA);
-  const [chart, setChart] = useState(null);
+  const [birthData, setBirthData] = useState(() => readJSON(BIRTH_KEY) || INITIAL_BIRTH_DATA);
+  const [chart, setChart] = useState(() => readJSON(CHART_KEY));
   const [tier, setTier] = useState('free');
   const [hasSelfReport, setHasSelfReportState] = useState(readSelfReportOwned);
 
@@ -71,9 +78,21 @@ export function ChartProvider({ children }) {
     setBirthData((prev) => ({ ...prev, ...patch }));
   }, []);
 
+  // Persist birthData + chart so a refresh / deep-link restores the session (B-4).
+  useEffect(() => {
+    try { localStorage.setItem(BIRTH_KEY, JSON.stringify(birthData)); } catch {}
+  }, [birthData]);
+  useEffect(() => {
+    try {
+      if (chart) localStorage.setItem(CHART_KEY, JSON.stringify(chart));
+      else localStorage.removeItem(CHART_KEY);
+    } catch {}
+  }, [chart]);
+
   const resetFlow = useCallback(() => {
     setBirthData(INITIAL_BIRTH_DATA);
     setChart(null);
+    try { localStorage.removeItem(BIRTH_KEY); localStorage.removeItem(CHART_KEY); } catch {}
   }, []);
 
   const value = useMemo(
