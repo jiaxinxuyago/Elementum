@@ -17,7 +17,7 @@
 import React from 'react';
 import DetailShell from './DetailShell.jsx';
 import { Icon } from '../../shared/icons';
-import { SCREEN_BG } from '../../../styles/backgrounds.js';
+import { readingDetailBg } from '../../../styles/backgrounds.js';
 import {
   ink, inkSoft, inkLight, inkMist,
   paperHair, bronzeDark,
@@ -34,7 +34,7 @@ export default function LockedDetail({
       onBack={onBack}
       eyebrow={eyebrow}
       title={title}
-      bg={SCREEN_BG.readingDetail}
+      bg={readingDetailBg()}
     >
       {/* Dashed-border empty-state card per §AM.5 */}
       <section

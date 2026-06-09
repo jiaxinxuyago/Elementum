@@ -4,7 +4,7 @@
 //   1. Identity        — seal, "You are…", archetype name, pill, essence
 //   2. Energy Blueprint — 5 rows sorted high→low, missing-element callout
 //   3. Balance Prescription — shown when any element is missing
-//   4. CTA              — Enter Your Energy Map
+//   4. CTA              — Enter Your Readings
 // Reads live chart from ChartContext (no USER mock).
 // ===================================================================
 
@@ -24,7 +24,6 @@ import {
   PIG_EARTH,
   SilkPaper,
   StatusBar,
-  ElementSign,
   BrushUnderline,
   CornerInk,
   deckleCard,
@@ -43,6 +42,9 @@ import EnergyBlueprint, { buildComposition } from './shared/EnergyBlueprint.jsx'
 // composition (DOC5 §9 v1.8). Same component used at the top of the
 // Energy Map dashboard so the user reads identical chrome on both screens.
 import { IdentityRibbon, buildDm } from './shared/IdentityRibbon.jsx';
+// Newest five-element marks (icons.svg #el-*) — the same set used across the
+// catalogue. Replaces the legacy ElementSign line icon on the Reveal badges.
+import { ElementMark } from './shared/icons';
 // Ceremonial ink-wash stem seal (Rendered Screens v2) — the "one subject"
 // of the Reveal / Energy Map. Falls back to HeroStemMark if a stem's seal
 // PNG isn't present.
@@ -194,7 +196,7 @@ function StemSign({ stem, element, size = 26, color }) {
       return <BrushJian size={size} color={color || INK} />;
     default: {
       const c = color || PIG[element] || INK;
-      return <ElementSign element={EL_KEY[element] || 'metal'} size={size} color={c} />;
+      return <ElementMark element={EL_KEY[element] || 'metal'} size={size} color={c} />;
     }
   }
 }
@@ -664,7 +666,7 @@ function entrance(mounted, key, opts = {}) {
 }
 
 // `hideCTA` — DOC5 §AM.1: the Energy Map page renders the same content
-// as Reveal but without the first-time "Enter Your Energy Map" CTA.
+// as Reveal but without the first-time "Enter Your Readings" CTA.
 // When true, Section 4 is suppressed and `onEnterDashboard` is ignored.
 export default function RevealScreen({ onEnterDashboard, hideCTA = false }) {
   const { chart } = useChart();
@@ -1027,7 +1029,7 @@ export default function RevealScreen({ onEnterDashboard, hideCTA = false }) {
           <div style={entrance(mounted, 'chip0', { lift: 8 })}>
             <BadgeTile
               color={PIG[dmElement]}
-              mark={<ElementSign element={EL_KEY[dmElement]} size={26} color={PIG[dmElement]} />}
+              mark={<ElementMark element={EL_KEY[dmElement]} size={26} color={PIG[dmElement]} />}
               label={dmElement}
             />
           </div>
@@ -1294,7 +1296,7 @@ export default function RevealScreen({ onEnterDashboard, hideCTA = false }) {
             gap: 10,
           }}
         >
-          Enter Your Energy Map
+          Enter Your Readings
           <span
             style={{
               fontFamily: "'EB Garamond', serif",

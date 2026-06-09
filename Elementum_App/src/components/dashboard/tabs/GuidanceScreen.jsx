@@ -264,70 +264,6 @@ function tierBadge(tierKey) {
   return null;
 }
 
-// ── Featured card — wide, with accent bar + body + CTA ────────────
-function FeaturedCard({ card, locked, onUnlock, onOpen }) {
-  const pig = pigments[card.pigment] || pigments.metal;
-  const badge = tierBadge(card.tier);
-  return (
-    <section style={{
-      background: '#FDFBF8',
-      border: `1px solid ${quietBorder}`,
-      borderRadius: 16,
-      padding: '16px 18px 16px 21px',
-      position: 'relative',
-      overflow: 'hidden',
-    }}>
-      {/* Left accent bar in feature pigment */}
-      <div aria-hidden="true" style={{
-        position: 'absolute', left: 0, top: 0, bottom: 0, width: 4,
-        background: locked ? withAlpha(pig.base, '40') : pig.deep,
-        opacity: locked ? 0.5 : 0.9,
-      }} />
-      {badge && (
-        <span style={{
-          position: 'absolute', top: 14, right: 16,
-          fontFamily: "'EB Garamond', Georgia, serif",
-          fontSize: 10, letterSpacing: 1.6, textTransform: 'uppercase',
-          color: badge.color, fontWeight: 500,
-        }}>
-          <span aria-hidden="true">{badge.mark}</span> {badge.label}
-        </span>
-      )}
-      <div aria-hidden="true" style={{
-        width: 44, height: 44, borderRadius: 11,
-        background: withAlpha(pig.base, '1A'),
-        border: `1px solid ${withAlpha(pig.base, '40')}`,
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-        color: locked ? inkLight : pig.deep,
-        marginBottom: 12,
-      }}>
-        <Icon id={locked ? 'ico-lock' : card.icon} size={22} />
-      </div>
-      <h2 style={{
-        fontFamily: "'Cormorant Garamond', Georgia, serif",
-        fontSize: 22, fontWeight: 500, color: ink, margin: '0 0 6px',
-      }}>{card.title}</h2>
-      <p style={{
-        fontFamily: "'EB Garamond', Georgia, serif",
-        fontSize: 13, lineHeight: 1.55, color: inkSoft, margin: 0,
-      }}>{card.body}</p>
-      <div style={{ marginTop: 14 }}>
-        {locked ? (
-          <button type="button" onClick={onUnlock} style={ctaStyle(gold, bronzeDark)}>
-            Unlock with {tierBadge(card.tier)?.label || 'Seeker'}
-            <Icon id="ico-arrow-r" size={13} color={bronzeDark} />
-          </button>
-        ) : (
-          <button type="button" onClick={onOpen} style={ctaStyle(pig.base, pig.deep)}>
-            {card.cta || 'Open'}
-            <Icon id="ico-arrow-r" size={13} color={pig.deep} />
-          </button>
-        )}
-      </div>
-    </section>
-  );
-}
-
 // ── Grid tile — compact 2×2 cell ─────────────────────────────────
 function GridTile({ card, locked, glow, note, onUnlock, onOpen }) {
   const pig = pigments[card.pigment] || pigments.metal;
@@ -404,17 +340,4 @@ function GridTile({ card, locked, glow, note, onUnlock, onOpen }) {
       </div>
     </button>
   );
-}
-
-function ctaStyle(baseColor, fgColor) {
-  return {
-    appearance: 'none',
-    display: 'inline-flex', alignItems: 'center', gap: 6,
-    padding: '10px 18px', borderRadius: 999,
-    border: `1px solid ${withAlpha(baseColor, '40')}`,
-    background: withAlpha(baseColor, '10'),
-    color: fgColor, cursor: 'pointer',
-    fontFamily: "'EB Garamond', Georgia, serif",
-    fontSize: 13, letterSpacing: 0.4,
-  };
 }
