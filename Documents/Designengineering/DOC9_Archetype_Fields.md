@@ -122,7 +122,7 @@ Every field in the schema declares a `varyBy` tag that tells the generation pipe
 
 ## 4 · Detail Page · Blocks Grid
 
-**Shape.** `blocks[]` — 5–11 blocks per archetype. Each block carries default text plus overrides keyed by band, pattern, or `band_pattern`.
+**Shape.** `blocks[]` — 5–11 blocks **authored** per archetype (the candidate pool). Each block carries default text plus overrides keyed by band, pattern, or `band_pattern`. At render time, exactly **5 blocks** are selected for any given chart (the 4 narrative slots, DOC4 §11): so "5–11" is the authored pool and "5" is what actually renders. *(Note: the live ElementalNatureDetail currently surfaces the first 2 blocks; the 5-block selection is the generation-layer target.)*
 
 **Renderer rule.** Walk from most specific to least: `concentrated_pure` → `concentrated` → `pure` → `default`. First match wins.
 

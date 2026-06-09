@@ -200,9 +200,15 @@ function TGCell({ pillar, position, tg, isPrimary }) {
 // PrimaryForceCard — the full archetype reading for the dominant TG.
 // ───────────────────────────────────────────────────────────────────
 function PrimaryForceCard({ tgZh, tgEn, card, pigment }) {
-  // Filter out [TODO] placeholders that some TG entries have.
-  const cleanGifts = (card.gifts || []).filter(g => g && !/^\[TODO\]/.test(g)).slice(0, 3);
-  const cleanShadows = (card.shadows || []).filter(s => s && !/^\[TODO\]/.test(s)).slice(0, 3);
+  // Prefer the structured outputs/frictions {phrase,desc}; fall back to the
+  // legacy flat gifts/shadows strings. Normalize both to {phrase,desc} and
+  // drop any [TODO] placeholders.
+  const normTG = (arr) => (arr || [])
+    .map((x) => (typeof x === 'string' ? { phrase: null, desc: x } : { phrase: x?.phrase || null, desc: x?.desc || '' }))
+    .filter((x) => x.desc && !/^\[TODO\]/.test(x.desc) && !/^\[TODO\]/.test(x.phrase || ''))
+    .slice(0, 3);
+  const cleanGifts = normTG(card.outputs?.length ? card.outputs : card.gifts);
+  const cleanShadows = normTG(card.frictions?.length ? card.frictions : card.shadows);
 
   return (
     <section style={{
@@ -294,17 +300,27 @@ function PrimaryForceCard({ tgZh, tgEn, card, pigment }) {
           <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
             {cleanGifts.map((g, i) => (
               <li key={i} style={{
-                fontFamily: "'EB Garamond', Georgia, serif",
-                fontSize: 14, lineHeight: 1.6, color: inkSoft,
-                padding: '6px 0 6px 14px',
+                padding: '7px 0 7px 14px',
                 position: 'relative',
               }}>
                 <span aria-hidden="true" style={{
-                  position: 'absolute', left: 0, top: 12,
+                  position: 'absolute', left: 0, top: 13,
                   width: 4, height: 4, borderRadius: 999,
                   background: pigment,
                 }} />
-                {g}
+                {g.phrase && (
+                  <span style={{
+                    display: 'block',
+                    fontFamily: "'EB Garamond', Georgia, serif",
+                    fontSize: 14, fontWeight: 600, color: ink,
+                    marginBottom: 1,
+                  }}>{g.phrase}</span>
+                )}
+                <span style={{
+                  display: 'block',
+                  fontFamily: "'EB Garamond', Georgia, serif",
+                  fontSize: 14, lineHeight: 1.6, color: inkSoft,
+                }}>{g.desc}</span>
               </li>
             ))}
           </ul>
@@ -325,17 +341,27 @@ function PrimaryForceCard({ tgZh, tgEn, card, pigment }) {
           <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
             {cleanShadows.map((s, i) => (
               <li key={i} style={{
-                fontFamily: "'EB Garamond', Georgia, serif",
-                fontSize: 14, lineHeight: 1.6, color: inkSoft,
-                padding: '6px 0 6px 14px',
+                padding: '7px 0 7px 14px',
                 position: 'relative',
               }}>
                 <span aria-hidden="true" style={{
-                  position: 'absolute', left: 0, top: 12,
+                  position: 'absolute', left: 0, top: 13,
                   width: 4, height: 4, borderRadius: 999,
                   background: pigment, opacity: 0.55,
                 }} />
-                {s}
+                {s.phrase && (
+                  <span style={{
+                    display: 'block',
+                    fontFamily: "'EB Garamond', Georgia, serif",
+                    fontSize: 14, fontWeight: 600, color: ink,
+                    marginBottom: 1,
+                  }}>{s.phrase}</span>
+                )}
+                <span style={{
+                  display: 'block',
+                  fontFamily: "'EB Garamond', Georgia, serif",
+                  fontSize: 14, lineHeight: 1.6, color: inkSoft,
+                }}>{s.desc}</span>
               </li>
             ))}
           </ul>

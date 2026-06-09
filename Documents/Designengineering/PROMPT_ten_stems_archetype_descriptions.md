@@ -71,7 +71,7 @@ Pair discipline: each element has one **Yang** (active, expansive, raw, larger-s
 ## Metal · 庚 / 辛
 
 ### 7 · 庚 Gēng — The Blade · Yang Metal
-> "Precision before intention. An edge that was never chosen — only found."
+> "Precision before intention · An edge is never given — it is forged."
 
 **Iconic essence** — An axe head. A sword blade. Raw iron ore. Unpolished, weighted, angular. The weapon before it is even named a weapon.
 **Personality signature** — Decisive, blunt, courageous. Cuts to the point before the point has finished forming. Justice-oriented; impatient with softness that isn't earned.

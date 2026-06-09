@@ -58,7 +58,7 @@ import SeasonalCalibrationDetail from './components/dashboard/reading-detail/Sea
 import LockedDetail from './components/dashboard/reading-detail/LockedDetail.jsx';
 import DevBar from './components/dev/DevBar.jsx';
 import { SILK } from './styles/tokens.jsx';
-import { SCREEN_BG } from './styles/backgrounds.js';
+import { SCREEN_BG, PLATE_BG } from './styles/backgrounds.js';
 import ErrorBoundary from './components/ErrorBoundary.jsx';
 
 // Dev-only. DevBar + phone-frame sit side-by-side on desktop; on mobile
@@ -327,7 +327,7 @@ export default function App() {
     // ── Today Hub drill-downs: Day · Month · Year · Decade ─────────
     case 'app-day':
       rendered = (
-        <DashboardShell active="today" onTabChange={routeTab} bg={SCREEN_BG.today}>
+        <DashboardShell active="today" onTabChange={routeTab} bg={PLATE_BG.day}>
           <DayPage
             onBack={goto('app-today')}
             onOpen={(route) => setScreen(route)}
@@ -337,21 +337,21 @@ export default function App() {
       break;
     case 'app-month':
       rendered = (
-        <DashboardShell active="today" onTabChange={routeTab} bg={SCREEN_BG.today}>
+        <DashboardShell active="today" onTabChange={routeTab} bg={PLATE_BG.month}>
           <MonthPage onBack={goto('app-today')} />
         </DashboardShell>
       );
       break;
     case 'app-year':
       rendered = (
-        <DashboardShell active="today" onTabChange={routeTab} bg={SCREEN_BG.today}>
+        <DashboardShell active="today" onTabChange={routeTab} bg={PLATE_BG.year}>
           <YearPage onBack={goto('app-today')} />
         </DashboardShell>
       );
       break;
     case 'app-decade':
       rendered = (
-        <DashboardShell active="today" onTabChange={routeTab} bg={SCREEN_BG.today}>
+        <DashboardShell active="today" onTabChange={routeTab} bg={PLATE_BG.decade}>
           <DecadePage onBack={goto('app-today')} />
         </DashboardShell>
       );
@@ -518,12 +518,20 @@ export default function App() {
 // by N positions in HS (甲乙丙丁戊己庚辛壬癸). The DOC1 reference date
 // 1995-04-29 lands on 庚 (index 6); each subsequent day advances by 1.
 function DevHelpers() {
-  const { updateBirthData, setChart } = useChart();
+  const { updateBirthData, setChart, setTier, setHasSelfReport, purchaseSelfReport } = useChart();
   const { playWelcomeBack } = useUpgrade();
   // Dev hook: demo the §21 "Welcome to Seeker" returning-user screen.
   useEffect(() => {
     if (typeof window !== 'undefined') window.__welcomeSeeker = () => playWelcomeBack();
   }, [playWelcomeBack]);
+  // Dev hooks: flip tier + the one-time Self-Report entitlement for testing.
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      window.__setTier = (t) => setTier(t);
+      window.__setSelfReport = (v = true) => setHasSelfReport(v);
+      window.__buySelfReport = () => purchaseSelfReport();
+    }
+  }, [setTier, setHasSelfReport, purchaseSelfReport]);
   useEffect(() => {
     if (typeof window !== 'undefined') {
       // Base preset shared across all 10 stem variants — only the date shifts.

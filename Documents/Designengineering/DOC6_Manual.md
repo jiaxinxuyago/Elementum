@@ -122,7 +122,7 @@ Birth data
 ```
 archetypeSource.js (source of truth, hand-authored) + identical HTML twin
   → defines field names and reading templates for 10 stems + 10 TGs
-  → ElementNature_DATA.js (150 archetype reading templates)
+  → STEM_CARD_DATA.js (150 archetype reading templates)
   → DomEnergyTg_Data.js (50 compound archetype cards)
   → Elementum_Engine.jsx imports from all three at runtime
 ```
@@ -209,7 +209,7 @@ The monolith `BaZi_Analysis_Bible_v2.md` remains the source of truth for Doc 3 c
 - The 13-field compound card schema → §6
 - The self-report synthesis pipeline → §7
 
-**How to extract:** `archetypeSource.js` is the source of truth for all field names. Archetype data files (`ElementNature_DATA.js`, `DomEnergyTg_Data.js`) derive their field names from it. The synthesis prompt structure in §7 is extracted into `batchGenerate.js`.
+**How to extract:** `archetypeSource.js` is the source of truth for all field names. Archetype data files (`STEM_CARD_DATA.js`, `DomEnergyTg_Data.js`) derive their field names from it. The synthesis prompt structure in §7 is extracted into `batchGenerate.js`.
 
 ---
 
@@ -245,7 +245,7 @@ The monolith `BaZi_Analysis_Bible_v2.md` remains the source of truth for Doc 3 c
 **Who can edit:** Product, content, engineers.
 **What's locked:** The 50-key Layer 2/3 taxonomy (§3), the ten archetypes and manifestos (§2), the element colors (§2), the reading angle schema (§4, the three-angle structure and yin/yang pair rules), the deliverable component data shapes (§7–8).
 **What can evolve:** The reading architecture for Sections 3–10 (§5 is explicitly deferred). Voice rule examples (§9). New content tables that add to existing ones without removing entries.
-**After any edit:** If the key taxonomy changes, update `batchGenerate.js`. If a component prop shape changes, update `Elementum_Engine.jsx` and Doc 5. If field names change, update `archetypeSource.js` first (source of truth), then propagate to `ElementNature_DATA.js` and `DomEnergyTg_Data.js`.
+**After any edit:** If the key taxonomy changes, update `batchGenerate.js`. If a component prop shape changes, update `Elementum_Engine.jsx` and Doc 5. If field names change, update `archetypeSource.js` first (source of truth), then propagate to `STEM_CARD_DATA.js` and `DomEnergyTg_Data.js`.
 
 ### Editing Doc 3 (Knowledge Pool)
 
@@ -264,7 +264,7 @@ The monolith `BaZi_Analysis_Bible_v2.md` remains the source of truth for Doc 3 c
 
 **For data architecture changes (§1–§4):**
 1. Update `archetypeSource.js` first (source of truth for field names)
-2. Propagate field name changes to `ElementNature_DATA.js` and `DomEnergyTg_Data.js`
+2. Propagate field name changes to `STEM_CARD_DATA.js` and `DomEnergyTg_Data.js`
 3. Update `Elementum_Engine.jsx` import paths and field references
 4. Update Doc 4 field reference tables to match
 
@@ -335,7 +335,7 @@ Doc 3 is additive. Additions do not require downstream changes unless a SOURCE-F
 
 | What changed | Also update |
 |---|---|
-| File structure or field names (§1, §4) | `archetypeSource.js` (source of truth) → `ElementNature_DATA.js` → `DomEnergyTg_Data.js` → `Elementum_Engine.jsx` imports |
+| File structure or field names (§1, §4) | `archetypeSource.js` (source of truth) → `STEM_CARD_DATA.js` → `DomEnergyTg_Data.js` → `Elementum_Engine.jsx` imports |
 | Tier assignments (§2, §3) | `Elementum_Engine.jsx` rendering logic |
 | Compound card schema (§6) | `DomEnergyTg_Data.js` · `batchGenerate.js` quality gates |
 | Synthesis pipeline (§7) | `batchGenerate.js` synthesis prompt and quality gates |
@@ -418,7 +418,7 @@ See Doc 4 §7 for the full CLI reference.
 All Free and Pro content is hand-authored, not LLM-generated.
 
 1. Edit `archetypeSource.js` (and its HTML twin) — this is the source of truth for 10 stem and 10 TG entries
-2. For the 150 archetype reading templates: author in `ElementNature_DATA.js`, using field names defined in `archetypeSource.js`
+2. For the 150 archetype reading templates: author in `STEM_CARD_DATA.js`, using field names defined in `archetypeSource.js`
 3. Verify against Doc 4 §5 voice and quality rules
 4. Ensure `Elementum_Engine.jsx` imports reflect any new fields
 
@@ -427,7 +427,7 @@ All Free and Pro content is hand-authored, not LLM-generated.
 1. Check the component's data contract in Doc 4 §4 (field reference)
 2. Check Doc 5 for visual specification
 3. If you need a new field: update `archetypeSource.js` first (source of truth), then implement in `Elementum_Engine.jsx`, then update Doc 5
-4. If you're removing a field: check that `ElementNature_DATA.js` and `DomEnergyTg_Data.js` are updated to match
+4. If you're removing a field: check that `STEM_CARD_DATA.js` and `DomEnergyTg_Data.js` are updated to match
 
 ---
 

@@ -974,7 +974,9 @@ The prescription card (`bg-[#EBE5D6] border border-[#DCD3C0] rounded-xl p-6`):
 ## §10 — Today Screen
 
 **Route:** `/dashboard/`
-**Purpose:** Daily utility. The habit-forming screen. 0 taps to value.
+**Purpose:** Daily utility. The habit-forming screen.
+
+> **[AUDIT 2026-06 · D4 — CANONICAL] Today is a Readings Hub, not an inline daily screen.** The shipped app rebuilt Today as a tile **mosaic** that navigates to dedicated Day / Month / Year / Decade pages; the daily-utility content (element, message, Do/Avoid/Best Hours) now lives in the **Day drill-down** (`DayPage`), not inline. The "0 taps to value" goal is relaxed to "1 tap." The inline Today/Month/Year sub-tab layout described below is **historical** — retained for reference but superseded by the hub. (Decision: keep the hub.)
 
 ### Layout
 
@@ -1284,7 +1286,9 @@ position: relative
 
 **Identity token:** `[庚 · Yang Metal · The Blade]` — EB Garamond 13px, element color on `rgba(255,255,255,0.08)` bg, rounded-full, padding `4px 12px`. The stem glyph is 14px in the element's deep color.
 
-**Element-colored TG ring:** Below the identity token. A single radial donut ring — the primary identity visual that anchors the entire Energy Map screen. Replaces the flat element spectrum bar.
+> **[AUDIT 2026-06 · D1 — CANONICAL] The painterly StemSeal is the primary identity visual, not the TG ring.** The shipped identity card / Reveal / Energy Map render the ink-wash **StemSeal PNG** (`/concept-arts/stems/<pinyin>.png`, all 10 authored) as the ceremonial centerpiece. The element-colored **TG ring described below is demoted to a Ten-Gods data viz** and now appears only on the Ten Gods detail page (`read-tengods`). It is no longer "the primary identity visual that anchors the screen." The ring spec below remains accurate **as a Ten-Gods visualization**; ignore its "primary identity visual" framing. (Decision: seal is canonical.)
+
+**Element-colored TG ring** *(now a Ten-Gods detail visualization — see D1 note above)***:** A single radial donut ring. Replaces the flat element spectrum bar.
 
 ```
 Ring dimensions:
@@ -1317,6 +1321,8 @@ The engine maps each TG group to its element relative to the DM internally — t
 [PATTERN NAME]            ← 9px, monospace, #c8a96e, uppercase, tracking 2px
 Pattern descriptor        ← 7px, #f0ece4, opacity 0.5, italic
 ```
+
+> **[AUDIT 2026-06 · D2 — CANONICAL] tgPattern is internal-only; it is NOT surfaced in the UI.** The five-pattern system (Pure / Rooted / Flowing / Forging / Tested) is retained as a **content-variant key** (it drives `archetypeKey = ${stem}_${band}_${tgPattern}` and block resolution per DOC4), but the user-facing "PATTERN NAME + descriptor" label above is **not rendered** in the shipped app. Treat the label spec as deprecated for UI; keep tgPattern as a behind-the-scenes generation dimension. (Decision: keep internal-only.)
 
 **Ring animation:** On first mount, segments sweep in from the top (12 o'clock) clockwise. Duration 800ms, stagger 30ms per segment, spring easing. On subsequent mounts: no animation, static render.
 
@@ -1957,6 +1963,8 @@ Background: `linear-gradient(135deg, #D4AF3715, #D4AF3705)`, border `1px solid #
 
 ### V1 — Coming Soon state
 
+> **[AUDIT 2026-06 · D8 — CANONICAL] Compatibility shipped as the FULL feature, not a Coming-Soon placeholder.** The live `CompatScreen` runs the complete flow: manual subject entry → real `engine/compatibility.js` calculation → result with versus seals + score medallion. The Coming-Soon placeholder described below is **historical**. **Gating (canonical):** Free users may run **unlimited** comparisons but see only the **teaser** (element grid + relationship archetype + one line); the **full reading + share card is Seeker**. The old "1 comparison/month" limit is **dropped** (it was never enforced). (Decision: unlimited teaser, full = Seeker.)
+
 Friends ships as a Coming Soon placeholder in V1. The state is designed to feel intentional, not unfinished.
 
 **Layout:**
@@ -2589,13 +2597,13 @@ These lines appear in upgrade modals, onboarding, and App Store copy. They must 
 
 ### Tier structure
 
-Elementum exposes **two tiers** to users. Two additional tiers (`ADVISOR`, `ORACLE`) are retained in the engine constants for future expansion but are not surfaced in the current UI.
+> **[AUDIT 2026-06 · D6 — CANONICAL] The product exposes THREE tiers: Free / Seeker / Advisor.** The shipped app surfaces **Advisor** as live UI — the AI Consultant (`app-consultant`) and the "Meet your advisor" upsell banner are Advisor-gated. The earlier "two tiers only" framing is superseded. `ORACLE` remains engine-reserved and unexposed. (Note: the AI Consultant currently runs scripted, chart-aware replies; wiring it to a real LLM is a tracked build item, but the **tier** is canonical now.) (Decision: three tiers.) **D7:** Self-Report stays a **one-time purchase** (`hasSelfReport`), tracked separately from the tier — see the monetization unit below.
 
 | Constant | Label | Price | Status |
 |---|---|---|---|
 | `TIERS.FREE` | Free | $0 | Live — full chart, limited depth |
 | `TIERS.SEEKER` | Seeker | $9.99/mo | Live — full depth + self-report access |
-| `TIERS.ADVISOR` | Advisor | TBD | Engine-reserved, not exposed |
+| `TIERS.ADVISOR` | Advisor | TBD | **Live UI — AI Consultant + advisor upsell (LLM backend pending)** |
 | `TIERS.ORACLE` | Oracle | TBD | Engine-reserved, not exposed |
 
 One additional monetization unit exists outside the tier system:
@@ -2873,6 +2881,8 @@ This section catalogs all SVG and icon assets used in the current implementation
 
 ### Identity Icons (per-stem)
 
+> **[AUDIT 2026-06 · D10 — CANONICAL] The painterly StemSeal PNGs are the official identity asset.** All ten ink-wash seals exist (`/concept-arts/stems/{jia…gui}.png`) and render on every identity surface via `<StemSeal>`. The geometric per-stem **SVG commissions below (`OakArchetype`, `VineArchetype`, … — 9× `NEEDED`) are RETIRED** — do not commission them. The `<StemSign>` / `BrushJian` inline-SVG path remains only as a dead fallback. The companion `dm-*` ink-glyph queue (§AM.8/§AM.9) is likewise **retired for identity use**; if any `dm-*` glyph is kept, it is for small nav/ceremony contexts only. (Decision: standardize on PNG seals.)
+
 These are the large central images on the DayMasterHero / Reveal Identity card. One per stem. Each should visually embody the stem's archetype — not a logo, but a rendered ink illustration that the user would immediately associate with their identity. They are the **stem sign** (the painted form of who you are), distinct from the **element sign** (the abstract line iconography for the element family — crescent, tree, triangle, etc.) which lives in the chip strip.
 
 **Implementation pattern (`<StemSign>` dispatcher):** All stem icons render through a single `<StemSign stem element size color>` dispatcher in `RevealScreen.jsx`. The dispatcher routes each stem to its painted SVG and falls back to the generic `<ElementSign>` for stems whose painted icon isn't authored yet — so the hero slot is never empty during incremental authoring.
@@ -3125,7 +3135,11 @@ Adds 5 reading-section icons + 1 empty-state icon to the canonical icon library 
 | `read-pillars` | Pillar Patterns card | placeholder |
 | `ico-empty` | Empty/scheduled placeholder card | placeholder |
 
-Companion gap (§AM.9): 10 day-master ink-wash marks (`dm-jia` … `dm-gui`) are line-mark placeholders awaiting brush commission.
+> **[AUDIT 2026-06 · D3 — CANONICAL] The Reading catalogue is SIX rows, not five.** The shipped catalogue (`ReadingScreen`) is: an **Identity Card** (StemSeal + archetype + manifesto + distribution strip + element flags → `read-daymaster`) followed by six bleed-rows — **Elemental Nature** (`read-elemental`), **Dominant Energies** (`read-tengods`), **Forces in Motion** (`read-forces`), **Life Chapters** (`read-chapters`), **Daily Reading** (Seeker-gated → `app-today`), **Pillar Patterns** (`read-patterns`). The **Daily Reading** row is the sixth, added vs. the original five-card set, and doubles as a Seeker upsell. This six-row set is canonical; align §11's `getSections` labels to it. (Decision: keep 6 rows incl. Daily.)
+>
+> **[AUDIT 2026-06 · D10] The `dm-*` day-master ink-glyph commission below is RETIRED for identity use** — painterly StemSeal PNGs replace it (see §20 D10 note). Retain `dm-*` only if needed for small nav/ceremony glyphs.
+
+Companion gap (§AM.9): 10 day-master ink-wash marks (`dm-jia` … `dm-gui`) are line-mark placeholders awaiting brush commission. *(See D10 note above — retired for identity use.)*
 
 ### §AM.9 — Open commission queue
 

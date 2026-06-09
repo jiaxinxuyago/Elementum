@@ -17,26 +17,53 @@ import {
   paperHair, quietBg, advisor, withAlpha,
 } from '../../styles/tokens';
 
-// Scripted, chart-aware reflections. Rotated per user turn. Each is a
-// function of the chart so it always sounds like it has read the chart.
-function buildReplies(chart) {
+const SELF_REPORT_KEY = 'elementum_selfreport_v1';
+function readSelfReport() { try { return JSON.parse(localStorage.getItem(SELF_REPORT_KEY) || 'null'); } catch { return null; } }
+
+// Scripted, chart-aware reflections. Rotated per user turn. Each is a function
+// of the chart so it always sounds like it has read the chart. When a
+// Self-Report (`sr`) is present, its life context is woven into the rotation so
+// the consultant genuinely uses it — not just claims to in the context bar.
+function buildReplies(chart, sr) {
   const stem = chart?.dayMaster?.stem || '庚';
   const el = chart?.dayMaster?.element || 'Metal';
   const arch = STEM_CARD_DATA[stem]?.identity?.archetypeName || `${el} Day Master`;
   const cat = chart?.catalyst || 'Fire';
-  return [
+  const replies = [
     `Reading your chart, ${arch} doesn't usually struggle with the answer — it struggles with permission. Your ${el} nature has likely already reached a verdict here. What would change if you trusted it a day sooner than feels safe?`,
     `Your catalyst is ${cat}. When you feel stuck, it's often because you're starving that element — not because the situation is unsolvable. Where could you bring more ${cat.toLowerCase()} into this, this week?`,
     `As ${arch}, the cost you tend to underprice is the relational one — being right lands, but it can land cold. The chart isn't asking you to soften the read, only to deliver it through a warmer door.`,
     `Here's what your chart suggests: this isn't a decision problem, it's a timing one. The ${el} in you wants the clean cut now; the better move may be to let the situation finish arriving first. What are you not yet seeing?`,
   ];
+  // Weave Self-Report context toward the front so it's actually used.
+  if (sr) {
+    const chapter = sr.chapter ? sr.chapter.toLowerCase() : null;
+    const doms = Array.isArray(sr.domains) && sr.domains.length
+      ? sr.domains.map((d) => d.toLowerCase()).join(' and ') : null;
+    if (chapter || doms) {
+      replies.unshift(
+        `You told me you're in a ${chapter || 'transitional'} chapter${doms ? `, with ${doms} most alive right now` : ''} — so I'm reading this through that lens, not in the abstract. For ${arch}, a ${chapter || 'transitional'} stretch usually asks you to hold the standard without letting it harden into a wall. Where is the edge serving you here, and where is it just keeping people out?`
+      );
+    }
+    if (sr.context && sr.context.trim()) {
+      const snip = sr.context.trim();
+      replies.splice(1, 0,
+        `Holding what you wrote — "${snip.slice(0, 90)}${snip.length > 90 ? '…' : ''}" — against the chart: your ${el} nature wants to resolve this cleanly, but the situation you describe may need one more season of evidence before the cut lands right. What's the smallest move that keeps your options open?`
+      );
+    }
+  }
+  return replies;
 }
 
 export default function AIConsultantScreen({ onBack }) {
-  const { chart } = useChart();
-  const replies = useRef(buildReplies(chart));
+  const { chart, hasSelfReport } = useChart();
+  const selfReport = useRef(hasSelfReport ? readSelfReport() : null);
+  const srActive = hasSelfReport && !!selfReport.current;
+  const replies = useRef(buildReplies(chart, selfReport.current));
   const turn = useRef(0);
-  const opening = "I've read your chart, your Manual, and your life context. I know what the chart says — tell me what's actually on your mind.";
+  const opening = srActive
+    ? "I've read your chart, your Manual, and your Self-Report — I know where you actually are right now, not just what the chart says. Tell me what's on your mind."
+    : "I've read your chart and your Manual. I know what the chart says — tell me what's actually on your mind. (Add a Self-Report in Guidance and I'll tune to your life context too.)";
 
   const [messages, setMessages] = useState([]);   // {role, text}
   const [streaming, setStreaming] = useState('');  // partial consultant text
@@ -108,7 +135,7 @@ export default function AIConsultantScreen({ onBack }) {
         </button>
         {contextOpen && (
           <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 11.5, color: inkSoft, marginTop: 4, lineHeight: 1.5 }}>
-            ✓ Full chart · ✓ Energy Manual · ✓ Self-Report
+            ✓ Full chart · ✓ Energy Manual · {srActive ? '✓ Self-Report' : '○ Self-Report (not added)'}
           </div>
         )}
       </div>

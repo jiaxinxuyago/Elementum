@@ -1,0 +1,76 @@
+# Design Audit — Resolutions & Deferred Backlog (2026-06)
+
+Source: full audit of the live Elementum app against **DOC5** (incl. §AMENDMENT), **DOC4** (generation architecture), **DOC6** (manual), **DOC9** (field schema). Eleven discrepancies were surfaced and decided with the product owner. This file is the **tracked backlog** for the items deferred under decision **D11** ("decisions-only doc patch, defer the rest"), plus the two large execution workstreams.
+
+---
+
+## 1 · Decision ledger (all 11)
+
+| # | Item | Resolution | Landed where |
+|---|------|-----------|--------------|
+| D1 | Identity visual: TG ring vs. seal | **Seal is canonical**; ring → Ten-Gods viz | DOC5 §11, §20 patched |
+| D2 | tgPattern label on identity card | **Internal-only** (content key, not UI) | DOC5 §11 patched |
+| D3 | Catalogue card set | **Keep 6 rows incl. Daily Reading** | DOC5 §AM.8 patched |
+| D4 | Today screen purpose | **Keep the Readings-Hub mosaic** | DOC5 §10 patched |
+| D5 | Reveal Balance Prescription | **Restore on Reveal** | ✅ App (RevealScreen.jsx) |
+| D6 | Tier model | **Three tiers (Free / Seeker / Advisor)** | DOC5 §19 patched |
+| D7 | Self-Report monetization | **One-time purchase (`hasSelfReport`)** | ⏳ App build — §2 below |
+| D8 | Compatibility gating | **Unlimited teaser; full = Seeker; drop "1/mo"** | ✅ App copy + DOC5 §13 patched |
+| D9 | Content coverage | **Author all 10 day-masters** | ⏳ Content sprint — §2 below |
+| D10 | Stem identity assets | **Standardize on PNG seals**; retire SVG/dm-* | DOC5 §20, §AM.8 patched |
+| D11 | Doc sweep scope | **Decisions-only; defer the rest** | This file |
+
+**Already shipped this pass (app):** D5 (Reveal Section 3 restored — renders whenever a chart has a fully-absent element), D8 (CompatScreen tier copy reframed to unlimited-teaser / full=Seeker).
+
+---
+
+## 2 · Large workstreams awaiting greenlight
+
+### D7 — Self-Report one-time purchase (build)
+Make Self-Report a separately-purchased unit (`hasSelfReport` boolean), tracked independently of `tier`, available to Seekers as a $6.99–9.99 SKU.
+- **Gating today:** Self-Report is a plain Seeker tile (`SelfReportScreen`), and it is **cosmetic** — saving life-context to `localStorage` (`elementum_selfreport_v1`) does not actually feed any reading or the AI.
+- **To build:** (a) a real purchase/billing flow + `hasSelfReport` state; (b) gate on `tier >= SEEKER && hasSelfReport`; (c) wire the saved context into reading generation + the AI Consultant so it genuinely "recalibrates."
+- **Blocked on:** payment provider decision; confirms whether (c) ships with (a/b) or later.
+
+### D9 — Author all 10 day-masters (content sprint)
+Today only **庚 (The Blade)** is fully authored. The other nine stems fall back gracefully but render thinner.
+- **Missing for 9 stems:** `gifts[]` / `shadows[]` (stem-level, currently 庚 only → Gifts/Shadows sections render blank), `identity.elementIntro.punch/expand` (Reveal essence + Day Master "element intro" fall back), and the 15 `STEM_CARD_DATA` `yourNature.desc` variants per stem (≈135 entries — Pipeline A).
+- **Also TODO across all 10 TGs:** `TG_CARD_DATA[tg].outputs[]` and `frictions[]` (currently `[TODO]`, filtered out at render in `TenGodsDetail`).
+- **Per DOC4:** this is Pipeline A (A1 = 150 `STEM_CARD_DATA`, A2 = 50 compound cards). Run offline pre-launch.
+- **Note:** owner chose "author all 10 now" — sequence this as a dedicated content sprint before further UI work.
+
+---
+
+## 3 · Deferred doc-hygiene backlog (D11 — clear later)
+
+Cross-doc contradictions found during the audit.
+
+> **✅ RESOLVED in the 2026-06 doc-hygiene sweep:**
+> - **#1 庚 manifesto** → canonical "Precision before intention · An edge is never given — it is forged" (matches the app); fixed in DOC2 §2 and DOC3.
+> - **#2 block count** → DOC4 `validateStem` threshold `< 7` → `< 5`; DOC9 §4 clarified that 5–11 is the *authored* pool and exactly 5 *render* (DOC4 §11).
+> - **#4 `yourNature.phrase`** → INTERNAL / not rendered (matches DOC9 §3 + the app); DOC4 §5 corrected.
+> - **#5 `ElementNature_DATA.js`** → renamed to `STEM_CARD_DATA.js` throughout DOC6.
+> - **#6 `keywords` vs `chips`** → already canonical (`keywords`) per DOC9 §6; confirmed, no change needed.
+> - **#7 removed TG fields** → DOC4 "Authoring units and frames" table + §8 Enrichment list annotated; legacy `personalityParagraph`/`decisionStyle`/`communicationStyle`/`hiddenTrait` mapped to current schema.
+> - **#3 "5 vs 4" life-domains** → **clarified as two intentional systems**: the 4 force-domains (`domainSignatures` — career/relationships/wealth/health, DOC4) and the Energy Manual's 5 (adds Purpose, DOC5 §12). Note added in DOC4.
+>
+> **Still deferred (low impact):** **#8** DOC5 body still uses the `energy-map`/`friends` route slugs (canonical Reading/Compat is established by §AM.1 + the audit patches; slugs are cosmetic), and **#9** DOC6's DOC4 §-number cross-references are stale.
+
+Original list (for reference):
+
+1. **庚 manifesto exists in two wordings** — DOC2 §2 ("An edge that was never chosen — only found") vs DOC4 §3 / DOC9 §1 ("An edge is never given — it is forged"). Pick one; align the others + `archetypeSource.js`.
+2. **Block count specced three ways** — DOC4 §11 locks **5 blocks**; DOC4 §9 `validateStem()` still errors at `<7`; DOC9 §4 says "5–11". Reconcile to 5 and fix the stale validator.
+3. **"5 life-domains" vs the actual 4** — docs/app use **career / relationships / wealth / health** (4). Any "5 life-domain" references (and the Energy Manual's 5-domain framing) should be corrected to 4, or the 5th explicitly defined.
+4. **`yourNature.phrase` tier conflict** — DOC9 §3 marks it INTERNAL (not rendered); DOC4 §5 renders it as the visible anchor. Decide and align.
+5. **`ElementNature_DATA.js`** — DOC6 §2 still lists it; DOC4 v3.9 eliminated it as a naming artifact of `STEM_CARD_DATA`. Remove from DOC6.
+6. **`keywords` vs `chips`** — DOC9 §6 flags `keywords` canonical; older files use `chips` (coverage walker reports missing). Normalize.
+7. **Removed TG fields still referenced** — DOC4 §8 and the §9 TG authoring table still list `personalityParagraph` / `decisionStyle` / `communicationStyle` / `hiddenTrait` (replaced by outputs/frictions + `hiddenDynamic`). Strike them.
+8. **Nav-label staleness beyond what was patched** — DOC5 body (§5 route map, §11 title "Energy Map Screen", various) still uses "Energy Map / Friends"; canonical is **Reading / Compat** (§AM.1). Routes still slugged `energy-map` / `friends`. Full sweep deferred.
+9. **DOC6 internal cross-refs stale** — it describes DOC4's old §7–§15 ("Pass 1 / Pass 2 / Layer 2 angle generation") which no longer matches DOC4 v4.3.
+
+### Minor app/IA notes (not blocking)
+- **Reveal CTA copy** says "Enter Your Energy Map" but routes to the **Reading** tab (`app-reading`); §AM.1 copy is "Enter Your Readings." Align text to route.
+- **`read-locked` / `LockedDetail`** is wired into FLOW but unreachable (no catalogue row links it). Keep as a safety net or remove.
+- **Dead code:** `GuidanceScreen.FeaturedCard` (superseded by `DrawTile`); `mockup-detail` / `mockup-energymap` legacy hash-only screens.
+- **Engine fallbacks:** Month/Year pages fall back to hardcoded wireframe bar values on `temporal.js` error; many drill-downs default a missing chart to a Metal/庚 chart rather than erroring.
+- **Non-functional stubs (pre-launch):** Profile "Sign Out" no-op (no auth); AI Consultant scripted (no LLM — see D7/D6); tokens.jsx `BORDER_LIGHT`/`BORDER_STD` drift from the anchor's opaque palette.

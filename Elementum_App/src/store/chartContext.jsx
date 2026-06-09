@@ -38,10 +38,33 @@ export const TIERS = ['free', 'seeker', 'advisor'];
 export const TIER_LABELS = { free: 'Free', seeker: 'Seeker', advisor: 'Advisor' };
 export const TIER_PRICES = { free: '$0', seeker: '$9.99/mo', advisor: '$19.99/mo' };
 
+// Self-Report — a one-time purchase (DOC5 §19), tracked SEPARATELY from the
+// subscription tier (a Seeker still buys it as a one-time add-on). Persisted
+// so the entitlement survives reloads. The demo has no payment backend, so
+// `purchaseSelfReport()` flips the entitlement locally — mirroring how the
+// tier upgrade flow flips tier state in UpgradeModal.
+export const SELF_REPORT_PRICE = '$6.99';
+const SELF_REPORT_KEY = 'elementum_hasselfreport_v1';
+function readSelfReportOwned() {
+  try { return localStorage.getItem(SELF_REPORT_KEY) === '1'; } catch { return false; }
+}
+
 export function ChartProvider({ children }) {
   const [birthData, setBirthData] = useState(INITIAL_BIRTH_DATA);
   const [chart, setChart] = useState(null);
   const [tier, setTier] = useState('free');
+  const [hasSelfReport, setHasSelfReportState] = useState(readSelfReportOwned);
+
+  // One-time Self-Report purchase (demo: flips the local entitlement + persists).
+  const purchaseSelfReport = useCallback(() => {
+    try { localStorage.setItem(SELF_REPORT_KEY, '1'); } catch {}
+    setHasSelfReportState(true);
+  }, []);
+  // Direct setter (used by dev tooling / reset).
+  const setHasSelfReport = useCallback((v) => {
+    try { localStorage.setItem(SELF_REPORT_KEY, v ? '1' : '0'); } catch {}
+    setHasSelfReportState(!!v);
+  }, []);
 
   // Merge partial updates, e.g. updateBirthData({ year: 1991 })
   const updateBirthData = useCallback((patch) => {
@@ -58,9 +81,10 @@ export function ChartProvider({ children }) {
       birthData, updateBirthData, setBirthData,
       chart, setChart,
       tier, setTier,
+      hasSelfReport, purchaseSelfReport, setHasSelfReport,
       resetFlow,
     }),
-    [birthData, chart, tier, updateBirthData, resetFlow]
+    [birthData, chart, tier, hasSelfReport, purchaseSelfReport, setHasSelfReport, updateBirthData, resetFlow]
   );
 
   return <ChartContext.Provider value={value}>{children}</ChartContext.Provider>;

@@ -35,6 +35,69 @@ function prescription(missing, dm) {
   return { role: 'Companion', text: `More ${missing} would echo your own ${dm} nature.` };
 }
 
+// ── Complete-chart reading ─────────────────────────────────────────
+// When no element is missing, the page would otherwise be a single line.
+// This fills it with a genuine reading on the meaning, difficulty and
+// practice of completeness — parameterized by the Day Master element so
+// it reads naturally for every balanced chart.
+const ELEMENT_VERB = {
+  Wood:  'growth and reach', Fire: 'warmth and expression',
+  Earth: 'grounding and patience', Metal: 'precision and resolve',
+  Water: 'depth and adaptability',
+};
+function CompleteReading({ element, pig, pigKey }) {
+  const dmLower = element.toLowerCase();
+  const others = ['Wood', 'Fire', 'Earth', 'Metal', 'Water'].filter((e) => e !== element);
+  const sections = [
+    {
+      eyebrow: 'The Reading',
+      title: 'A complete chart',
+      body: `All five elements are present in your chart — a rare completeness. Where most charts lean, missing something and spending a lifetime reaching for it, yours does not. You hold every register of energy at once: ${others.map((e) => ELEMENT_VERB[e]).join(', ')}, and the ${ELEMENT_VERB[element]} that is your own ${element} nature. The work of your chart is not supply. It is balance.`,
+    },
+    {
+      eyebrow: 'The Gift',
+      title: 'Versatility is native',
+      body: `Because nothing is absent, you can draw on whichever energy the moment asks for — the patience of Earth when a thing needs to settle, the edge of Metal when it needs deciding, the flow of Water when it needs to move. Others borrow these modes with effort; you switch between them as a matter of temperament. People often experience you as someone who "contains multitudes" — capable in registers that rarely sit in one person.`,
+    },
+    {
+      eyebrow: 'The Difficulty',
+      title: 'The discipline of balance',
+      body: `Completeness carries its own danger. When every element is available, nothing forces a choice — and the failure mode is diffusion: a little of everything, mastery of nothing. The reaching that drives a lopsided chart toward focus is absent in yours. So your discipline is the opposite one: not to acquire what you lack, but to govern what you hold. Choose where to concentrate. Let the other registers recede until they're called for.`,
+    },
+    {
+      eyebrow: 'The Practice',
+      title: 'Read the season, not the chart',
+      body: `Because you carry all five elements internally, you are unusually sensitive to the external cycle. The day, the month, the year and the decade each tilt your balance from outside — amplifying one element, muting another. This is where your Today reading and Energy Map earn their place: they show which element the current season is raising in you, so you can lean with it or steady against it on purpose. For a complete chart, timing is the real instrument.`,
+    },
+  ];
+  return (
+    <>
+      {sections.map((s, i) => (
+        <section key={i} style={{
+          background: cardstockBg, border: `1px solid ${paperHair}`,
+          borderRadius: 16, padding: '18px', marginBottom: 14,
+        }}>
+          <div style={{
+            fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10,
+            letterSpacing: 2, textTransform: 'uppercase',
+            color: withAlpha(pig || pigments[pigKey].deep, 'CC'), fontWeight: 500,
+            marginBottom: 4,
+          }}>{s.eyebrow}</div>
+          <div style={{
+            fontFamily: "'Cormorant Garamond', Georgia, serif",
+            fontSize: 21, fontWeight: 500, color: ink, lineHeight: 1.15,
+            marginBottom: 10,
+          }}>{s.title}</div>
+          <p style={{
+            fontFamily: "'EB Garamond', Georgia, serif", fontSize: 15,
+            lineHeight: 1.75, color: inkSoft, margin: 0,
+          }}>{s.body}</p>
+        </section>
+      ))}
+    </>
+  );
+}
+
 export default function SeasonalCalibrationDetail({ onBack }) {
   const { chart } = useChart();
   const element = chart?.dayMaster?.element || 'Metal';
@@ -57,14 +120,7 @@ export default function SeasonalCalibrationDetail({ onBack }) {
       }}
     >
       {missing.length === 0 && (
-        <p style={{
-          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 15,
-          lineHeight: 1.75, color: inkSoft, padding: '8px 2px',
-        }}>
-          All five elements are present in your chart — a rare completeness.
-          You have access to every register of energy; the work is balance,
-          not supply.
-        </p>
+        <CompleteReading element={element} pig={pig} pigKey={ELEMENT_TO_PIGMENT[element] || 'metal'} />
       )}
 
       {missing.map((m) => {

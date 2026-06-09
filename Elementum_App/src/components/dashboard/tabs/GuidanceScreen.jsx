@@ -17,15 +17,12 @@
 // ===================================================================
 
 import React from 'react';
-import { useChart } from '../../../store/chartContext.jsx';
+import { useChart, SELF_REPORT_PRICE } from '../../../store/chartContext.jsx';
 import { useUpgrade } from '../UpgradeModal.jsx';
-import { Icon } from '../../shared/icons';
-import { MoodboardArt } from '../VisualTile.jsx';
+import { Icon, ElementMark } from '../../shared/icons';
+import { bannerArt } from '../../../styles/backgrounds.js';
 import {
-  elementArt, ART_ENSO, ART_COMPOSITE, ART_LANDSCAPE,
-} from '../../../styles/backgrounds.js';
-import {
-  ink, inkSoft, inkLight, bronzeDark, gold, advisor,
+  ink, inkSoft, inkLight, bronzeDark, gold, advisor, cream,
   paperHair, quietBorder, pigments, withAlpha,
 } from '../../../styles/tokens';
 
@@ -92,7 +89,7 @@ const CARDS = [
 ];
 
 export default function GuidanceScreen({ onOpen }) {
-  const { tier } = useChart();
+  const { tier, hasSelfReport } = useChart();
   const { openUpgrade, advisorGlow } = useUpgrade();
   const currentRank = TIER_RANK[tier] ?? 0;
 
@@ -124,8 +121,8 @@ export default function GuidanceScreen({ onOpen }) {
         </h1>
       </header>
 
-      {/* Featured Elemental Draw */}
-      <FeaturedCard
+      {/* Featured Elemental Draw — element-gradient stem-tile (v2) */}
+      <DrawTile
         card={featured}
         locked={isLocked(featured)}
         onUnlock={() => openUpgrade(featured.title)}
@@ -142,11 +139,17 @@ export default function GuidanceScreen({ onOpen }) {
       }}>
         {gridCards.map((card) => {
           const locked = isLocked(card);
+          // Self-Report is a one-time add-on (separate from the Seeker tier).
+          // Show its purchase/owned state once the tier gate is cleared.
+          const note = card.key === 'selfreport' && !locked
+            ? (hasSelfReport ? '✓ Added · tap to update' : `${SELF_REPORT_PRICE} · one-time add-on`)
+            : undefined;
           return (
             <GridTile
               key={card.key}
               card={card}
               locked={locked}
+              note={note}
               glow={advisorGlow && card.key === 'consultant'}
               onUnlock={() => openUpgrade(card.title)}
               onOpen={!locked ? () => onOpen?.(card.route) : undefined}
@@ -154,7 +157,104 @@ export default function GuidanceScreen({ onOpen }) {
           );
         })}
       </div>
+
+      {/* Premium advisor banner (v2) */}
+      <PremiumBanner onUpgrade={() => openUpgrade('Advisor')} />
     </main>
+  );
+}
+
+// ── DrawTile — Elemental Draw as an element-gradient tile with a large
+// mark and the draw CTA (Rendered Screens v2 stem-tile). ──────────────
+function DrawTile({ card, locked, onUnlock, onOpen }) {
+  const pig = pigments[card.pigment] || pigments.wood;
+  return (
+    <button
+      type="button"
+      onClick={locked ? onUnlock : onOpen}
+      aria-label={card.title}
+      style={{
+        appearance: 'none', position: 'relative', width: '100%', textAlign: 'left',
+        cursor: 'pointer', borderRadius: 16, overflow: 'hidden', border: 'none',
+        padding: 14, minHeight: 150, display: 'flex', flexDirection: 'column',
+        justifyContent: 'flex-end',
+        background: `linear-gradient(150deg, ${withAlpha(pig.base, '40')} 0%, ${pig.base} 100%)`,
+        boxShadow: '0 1px 0 rgba(43,39,34,.05), 0 8px 18px rgba(40,30,20,.12)',
+      }}
+    >
+      <span aria-hidden="true" style={{
+        position: 'absolute', top: 12, right: 12, width: 46, height: 46,
+        color: 'rgba(26,24,21,0.72)', display: 'flex',
+      }}>
+        {locked ? <Icon id="ico-lock" size={40} /> : <ElementMark element={card.pigment} size={46} />}
+      </span>
+      <div style={{ position: 'relative', zIndex: 2 }}>
+        <div style={{
+          fontFamily: "'Cormorant Garamond', Georgia, serif",
+          fontSize: 21, fontWeight: 600, color: ink, lineHeight: 1.05,
+        }}>{card.title}</div>
+        <p style={{
+          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12.5,
+          color: 'rgba(26,24,21,0.78)', maxWidth: 240, margin: '6px 0 0', lineHeight: 1.5,
+        }}>{card.body}</p>
+        <span style={{
+          display: 'inline-flex', alignItems: 'center', gap: 7, marginTop: 12,
+          padding: '7px 15px', borderRadius: 999,
+          background: 'rgba(248,244,236,0.86)', color: ink,
+          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12.5, fontWeight: 600,
+          border: `1px solid ${withAlpha(pig.base, '40')}`,
+        }}>
+          {locked ? `Unlock with ${card.tier}` : card.cta}
+          <Icon id="ico-arrow-r" size={13} color={ink} />
+        </span>
+      </div>
+    </button>
+  );
+}
+
+// ── PremiumBanner — advisor upsell with a panoramic crop (v2). ────────
+function PremiumBanner({ onUpgrade }) {
+  return (
+    <button
+      type="button"
+      onClick={onUpgrade}
+      aria-label="Meet your advisor"
+      style={{
+        appearance: 'none', position: 'relative', display: 'block',
+        width: '100%', height: 132, marginTop: 12, padding: 0, cursor: 'pointer',
+        borderRadius: 16, overflow: 'hidden', border: '1px solid rgba(43,39,34,.14)',
+        boxShadow: '0 10px 24px rgba(40,30,20,.16)',
+      }}
+    >
+      <div aria-hidden="true" style={{
+        position: 'absolute', inset: 0,
+        backgroundImage: `url("${bannerArt(2)}")`,
+        backgroundSize: 'cover', backgroundPosition: 'center',
+      }} />
+      <div aria-hidden="true" style={{
+        position: 'absolute', inset: 0,
+        background: 'linear-gradient(to right, rgba(20,17,13,.82) 0%, rgba(20,17,13,.42) 46%, transparent 100%)',
+      }} />
+      <div style={{
+        position: 'absolute', left: 18, top: 0, bottom: 0,
+        display: 'flex', flexDirection: 'column', justifyContent: 'center',
+        maxWidth: '72%', textAlign: 'left',
+      }}>
+        <span style={{
+          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 8.5,
+          letterSpacing: 2.2, textTransform: 'uppercase', color: gold,
+        }}>Elementum · Advisor</span>
+        <h3 style={{
+          fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 20,
+          fontWeight: 500, color: '#f6f1e6', margin: '5px 0 0', lineHeight: 1.08,
+        }}>Meet your advisor</h3>
+        <span style={{
+          alignSelf: 'flex-start', marginTop: 10,
+          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12, fontWeight: 600,
+          color: ink, background: cream, borderRadius: 999, padding: '6px 15px',
+        }}>Begin →</span>
+      </div>
+    </button>
   );
 }
 
@@ -229,7 +329,7 @@ function FeaturedCard({ card, locked, onUnlock, onOpen }) {
 }
 
 // ── Grid tile — compact 2×2 cell ─────────────────────────────────
-function GridTile({ card, locked, glow, onUnlock, onOpen }) {
+function GridTile({ card, locked, glow, note, onUnlock, onOpen }) {
   const pig = pigments[card.pigment] || pigments.metal;
   const badge = tierBadge(card.tier);
   return (
@@ -300,7 +400,7 @@ function GridTile({ card, locked, glow, onUnlock, onOpen }) {
           fontFamily: "'EB Garamond', Georgia, serif",
           fontSize: 11.5, lineHeight: 1.4, color: inkLight,
           marginTop: 4,
-        }}>{card.short || card.body}</div>
+        }}>{note || card.short || card.body}</div>
       </div>
     </button>
   );

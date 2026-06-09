@@ -43,6 +43,10 @@ import EnergyBlueprint, { buildComposition } from './shared/EnergyBlueprint.jsx'
 // composition (DOC5 §9 v1.8). Same component used at the top of the
 // Energy Map dashboard so the user reads identical chrome on both screens.
 import { IdentityRibbon, buildDm } from './shared/IdentityRibbon.jsx';
+// Ceremonial ink-wash stem seal (Rendered Screens v2) — the "one subject"
+// of the Reveal / Energy Map. Falls back to HeroStemMark if a stem's seal
+// PNG isn't present.
+import StemSeal, { stemSealSrc } from './shared/StemSeal.jsx';
 
 // Map element name → pigment color (Ink & Pigment tokens)
 const PIG = {
@@ -915,7 +919,9 @@ export default function RevealScreen({ onEnterDashboard, hideCTA = false }) {
             filter: mounted ? 'blur(0px)' : 'blur(6px)',
           }}
         >
-          <HeroStemMark stem={dmStem} element={dmElement} size={280} />
+          {stemSealSrc(dmStem)
+            ? <StemSeal stem={dmStem} size={200} style={{ margin: '0 auto' }} />
+            : <HeroStemMark stem={dmStem} element={dmElement} size={280} />}
         </div>
 
         {/* YOU ARE… eyebrow — matches the polished V1 Eyebrow primitive
@@ -1197,7 +1203,53 @@ export default function RevealScreen({ onEnterDashboard, hideCTA = false }) {
         </div>
       </section>
 
-      {/* ── SECTION 3 (Balance Prescription) — removed in Variant B ─── */}
+      {/* ── SECTION 3 — Balance Prescription (restored · audit D5) ─── */}
+      {/* DOC5 §9 Section 3: shown only when an element is entirely absent
+          from the chart — "Cultivate [missing element]." Re-instated after
+          the v2 audit; helpers (PRESCRIPTIONS, PrescriptionCategory) were
+          already present, only the render had been removed in Variant B. */}
+      {missing && PRESCRIPTIONS[missing.en] && (
+        <section style={{ position: 'relative', zIndex: 1, padding: '16px 20px 4px' }}>
+          <div style={{ ...deckleCard({ padding: '18px 18px 8px' }) }}>
+            <div
+              style={{
+                fontFamily: "'EB Garamond', serif",
+                fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
+                color: INK_LIGHT, fontWeight: 500, marginBottom: 8,
+              }}
+            >
+              What You Must Cultivate
+            </div>
+            <h3
+              style={{
+                fontFamily: "'Cormorant Garamond', Georgia, serif",
+                fontSize: 26, fontWeight: 400, color: INK, margin: '0 0 8px',
+                lineHeight: 1.1,
+              }}
+            >
+              Cultivate {missing.en}
+            </h3>
+            <p
+              style={{
+                fontFamily: "'EB Garamond', serif",
+                fontSize: 14, lineHeight: 1.6, color: INK_SOFT,
+                margin: '0 0 16px',
+              }}
+            >
+              {PRESCRIPTIONS[missing.en].blurb}
+            </p>
+            {PRESCRIPTIONS[missing.en].categories.map((cat) => (
+              <PrescriptionCategory
+                key={cat.title}
+                title={cat.title}
+                icon={cat.icon}
+                bullets={cat.bullets}
+                accent={PIG[missing.en]}
+              />
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* ── SECTION 4 — CTA ───────────────────────────────── */}
       {/* Suppressed when this component renders inside the Energy Map

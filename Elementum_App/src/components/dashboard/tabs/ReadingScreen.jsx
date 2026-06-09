@@ -19,14 +19,16 @@
 
 import React from 'react';
 import { useChart } from '../../../store/chartContext.jsx';
-import { Icon } from '../../shared/icons';
-import { VisualTile, MoodboardArt } from '../VisualTile.jsx';
-import {
-  elementArt, stemArt, tileArt, genericCardArt, dedupeArt,
-} from '../../../styles/backgrounds.js';
+import { useUpgrade } from '../UpgradeModal.jsx';
+import { Icon, ElementMark } from '../../shared/icons';
+import StemSeal from '../../shared/StemSeal.jsx';
+import { catArt } from '../../../styles/backgrounds.js';
 import { STEM_CARD_DATA } from '../../../content/archetypeSource.js';
+import { buildComposition } from '../../shared/EnergyBlueprint.jsx';
 import {
-  bronzeDark, paperHair, pigments, withAlpha,
+  ink, inkSoft, inkLight, bronzeDark, gold,
+  paperHair, cardstockBg, quietBg, quietBorder,
+  pigments, withAlpha,
 } from '../../../styles/tokens';
 
 const ELEMENT_TO_PIGMENT = {
@@ -40,172 +42,95 @@ const HANZI_PINYIN = {
   '戊': 'Yang Earth', '己': 'Yin Earth', '庚': 'Yang Metal', '辛': 'Yin Metal',
   '壬': 'Yang Water', '癸': 'Yin Water',
 };
-// Yin counterpart of each Yang stem (for visual variety on the secondary tile).
-const YIN_OF = {
-  '甲': '乙', '丙': '丁', '戊': '己', '庚': '辛', '壬': '癸',
-};
-// Featured Elemental Nature subtitle — one motif per element family.
-const ELEMENTAL_NATURE_SUB = {
-  Metal: 'The forged edge — precise, exacting.',
-  Wood:  'The growing tree — vital, upward.',
-  Fire:  'The open blaze — radiant, expressive.',
-  Earth: 'The standing mountain — stable, enduring.',
-  Water: 'The flowing deep — wise, adaptive.',
-};
+// Controlling element (resistance) per Day Master element — the force that
+// wears the DM down. Drives the ↓ flag on the Forces row.
+const CTL = { Metal: 'Fire', Wood: 'Metal', Water: 'Earth', Fire: 'Water', Earth: 'Wood' };
+// Generating element (resource) per Day Master — the force that lifts/feeds
+// it. Drives the ↑ flag. Structurally distinct from CTL, so never duplicates.
+const GEN_BY = { Metal: 'Earth', Wood: 'Water', Water: 'Metal', Fire: 'Wood', Earth: 'Fire' };
 
 export default function ReadingScreen({ onOpen, onOpenEnergyMap }) {
-  const { chart } = useChart();
+  const { chart, tier } = useChart();
+  const { openUpgrade } = useUpgrade();
 
   const dmHanzi = chart?.dayMaster?.stem || '庚';
   const dmElement = chart?.dayMaster?.element || 'Metal';
-  const dmHanziChar = ELEMENT_HANZI[dmElement] || '金';
   const pigmentKey = ELEMENT_TO_PIGMENT[dmElement] || 'metal';
   const pig = pigments[pigmentKey];
   const archetype = STEM_CARD_DATA[dmHanzi]?.identity?.archetypeName || `${dmElement} Day Master`;
   const polarityLabel = HANZI_PINYIN[dmHanzi] || dmElement;
 
-  // Catalyst & decade — drive the Forces and Life Chapters tiles.
-  const catalystEl = chart?.catalyst || 'Fire';
-  const catalystKey = ELEMENT_TO_PIGMENT[catalystEl] || 'fire';
-  const catalystHanzi = ELEMENT_HANZI[catalystEl] || '火';
-  const decade = (chart?.luckPillars || []).find((p) => p.isCurrent);
-  const decadeEl = decade?.element || dmElement;
-  const decadeKey = ELEMENT_TO_PIGMENT[decadeEl] || pigmentKey;
-  const decadeHanzi = ELEMENT_HANZI[decadeEl] || dmHanziChar;
+  const liftEl = GEN_BY[dmElement] || 'Earth';        // ↑ what lifts (resource)
+  const resistanceEl = CTL[dmElement] || 'Fire';      // ↓ what wears (control)
 
-  // Secondary stem (Yin counterpart) for the Dominant tile — gives
-  // visual variety against the featured Elemental Nature painting.
-  const yinStem = YIN_OF[dmHanzi] || dmHanzi;
+  // Five-element composition (shared with the Energy Map) → identity-card
+  // distribution strip + the Primary/Secondary element flags.
+  const composition = React.useMemo(() => buildComposition(chart) || [], [chart]);
+  const secondaryEl = composition.find((c) => c.en !== dmElement && c.n > 0)?.en || liftEl;
 
   const go = (route) => () => onOpen?.(route);
 
-  // ── Design rule: no two thumbnails on this page share the same painting.
-  // We declare each tile's preferred art slot; dedupeArt walks the family
-  // and bumps any collision to the next variant.
-  const arts = React.useMemo(() => dedupeArt([
-    { key: 'elemental', kind: 'tile', element: dmElement, n: 1 },
-    { key: 'dominant',  kind: 'tile', element: dmElement, n: 3 },
-    { key: 'forces',    kind: 'tile', element: catalystEl, n: 1 },
-    { key: 'chapters',  kind: 'card', n: 20, range: [15, 20] },
-    { key: 'patterns',  kind: 'card', n: 16, range: [15, 20] },
-  ]), [dmElement, catalystEl]);
+  // ── Reading rows (v2 bleed list). Each routes to its detail page; the
+  // element badges encode the forces in play. Daily Reading is Seeker-
+  // gated (opens the upgrade modal on Free).
+  const isFree = tier === 'free';
+  const READINGS = [
+    { key: 'nature',   ti: 'Elemental Nature',  d: 'Your five-element composition.',     onTap: go('read-elemental'), badges: [[dmElement, 'primary']] },
+    { key: 'dominant', ti: 'Dominant Energies', d: 'Primary & secondary forces.',        onTap: go('read-tengods'),   badges: [[dmElement, 'primary'], [secondaryEl, 'sec']] },
+    { key: 'forces',   ti: 'Forces in Motion',  d: 'What lifts you, what wears you.',     onTap: go('read-forces'),    badges: [[liftEl, 'up'], [resistanceEl, 'down']] },
+    { key: 'chapters', ti: 'Life Chapters',     d: 'Your ten-year journey.',             onTap: go('read-chapters'),  badges: [] },
+    { key: 'daily',    ti: 'Daily Reading',     d: "Today's alignment.",                 onTap: isFree ? () => openUpgrade('Daily Reading') : () => onOpen?.('app-today'), locked: isFree, tierLabel: 'Seeker', badges: [] },
+    { key: 'pillars',  ti: 'Pillar Patterns',   d: 'The four pillars of your chart.',    onTap: go('read-patterns'),  badges: [] },
+  ];
 
   return (
     <main style={{ minHeight: '100%', padding: '0 0 24px' }}>
-      {/* ── 1. Day-master SCENE-HERO — full-bleed at top edge ───── */}
-      <DayMasterHero
-        stem={dmHanzi}
-        archetype={archetype}
-        polarityLabel={polarityLabel}
-        dmElement={dmElement}
-        pig={pig}
-        onClick={go('read-daymaster')}
-      />
-
-      {/* ── 2. Page header ───────────────────────────────────────── */}
-      <header style={{
-        padding: '14px 18px 12px',
+      {/* ── Page head — title + Energy Map link ──────────────────── */}
+      <div style={{
+        padding: '6px 18px 13px',
+        display: 'flex', alignItems: 'baseline', justifyContent: 'space-between',
         borderBottom: `1px solid ${paperHair}`,
-        display: 'flex', justifyContent: 'space-between', alignItems: 'baseline',
       }}>
         <span style={{
-          fontFamily: "'EB Garamond', Georgia, serif",
-          fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
-          color: bronzeDark, fontWeight: 500,
+          fontFamily: "'Cormorant Garamond', Georgia, serif",
+          fontSize: 26, fontWeight: 600, color: ink,
+        }}>Readings</span>
+        <button type="button" onClick={onOpenEnergyMap} style={{
+          appearance: 'none', background: 'transparent', border: 'none', cursor: 'pointer',
+          fontFamily: "'EB Garamond', Georgia, serif", fontStyle: 'italic', fontSize: 13,
+          color: bronzeDark, borderBottom: `1px dashed ${paperHair}`, padding: '0 0 2px',
+          display: 'inline-flex', alignItems: 'center', gap: 4,
         }}>
-          Readings
-        </span>
-        <button
-          type="button"
-          onClick={onOpenEnergyMap}
-          style={{
-            appearance: 'none', background: 'transparent', border: 'none',
-            padding: '2px 0', fontFamily: "'EB Garamond', Georgia, serif",
-            fontSize: 13, fontStyle: 'italic', color: bronzeDark, cursor: 'pointer',
-            borderBottom: `1px dashed ${paperHair}`,
-            display: 'inline-flex', alignItems: 'center', gap: 4,
-          }}
-        >
-          Energy Map
-          <Icon id="ico-arrow-r" size={12} color={bronzeDark} />
+          Energy Map <Icon id="ico-arrow-r" size={12} color={bronzeDark} />
         </button>
-      </header>
+      </div>
 
-      {/* ── 3. Tiered tile pyramid (Inkstone footer recipe) ──────── */}
-      <div style={{
-        padding: '11px 18px 0',
-        display: 'flex', flexDirection: 'column', gap: 10,
-      }}>
-        {/* Featured Elemental Nature — themed catalogue tile (DM element, stem variant) */}
-        <VisualTile
-          variant="footer"
-          pigment={pigmentKey}
-          iconId="read-elemental"
-          hanzi={dmHanziChar}
-          eyebrow="Base Energy · Primary"
-          title="Elemental Nature"
-          subtitle={ELEMENTAL_NATURE_SUB[dmElement] || ELEMENTAL_NATURE_SUB.Metal}
-          artSrc={arts.elemental}
-          height={148}
-          onClick={go('read-elemental')}
+      {/* ── Identity card — ink-wash stem seal + distribution ────── */}
+      <div style={{ padding: '14px 18px 0' }}>
+        <IdentityCard
+          stem={dmHanzi}
+          archetype={archetype}
+          polarityLabel={polarityLabel}
+          dmElement={dmElement}
+          pig={pig}
+          composition={composition}
+          secondaryEl={secondaryEl}
+          catalystEl={liftEl}
+          resistanceEl={resistanceEl}
+          onClick={go('read-daymaster')}
         />
+      </div>
 
-        {/* Themed pair — frame ~108 + 2-line eyebrow + 2-line title */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
-          <VisualTile
-            variant="footer"
-            pigment={pigmentKey}
-            iconId="read-dominant"
-            hanzi={dmHanziChar}
-            eyebrow="Primary · Secondary"
-            title={<>Dominant<br/>Energies</>}
-            titleSize={17}
-            artSrc={arts.dominant}
-            height={188}
-            ariaLabel="Dominant Energies"
-            onClick={go('read-tengods')}
-          />
-          <VisualTile
-            variant="footer"
-            pigment={catalystKey}
-            iconId="read-forces"
-            hanzi={catalystHanzi}
-            eyebrow="Catalyst · Resistance"
-            title={<>Forces in<br/>Motion</>}
-            titleSize={17}
-            artSrc={arts.forces}
-            height={188}
-            ariaLabel="Forces in Motion"
-            onClick={go('read-forces')}
-          />
-        </div>
-
-        {/* Compact pair — generic wide cards (per library Screen→Card map) */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
-          <VisualTile
-            variant="footer"
-            pigment="wood"
-            iconId="read-chapters"
-            hanzi="木"
-            eyebrow="Your Decades"
-            title="Life Chapters"
-            artSrc={arts.chapters}
-            height={124}
-            compact
-            onClick={go('read-chapters')}
-          />
-          <VisualTile
-            variant="footer"
-            pigment="water"
-            iconId="read-pillars"
-            hanzi="水"
-            eyebrow="Four Pillars"
-            title="Pillar Patterns"
-            artSrc={arts.patterns}
-            height={124}
-            compact
-            onClick={go('read-patterns')}
-          />
+      {/* ── Reading rows — bleed list ────────────────────────────── */}
+      <div style={{ padding: '14px 18px 0' }}>
+        <span style={{
+          display: 'block',
+          fontFamily: "'EB Garamond', Georgia, serif",
+          fontSize: 9.5, letterSpacing: 2, textTransform: 'uppercase',
+          color: bronzeDark, fontWeight: 600, marginBottom: 8,
+        }}>Readings</span>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+          {READINGS.map((r) => <ReadingRow key={r.key} row={r} />)}
         </div>
       </div>
     </main>
@@ -213,13 +138,26 @@ export default function ReadingScreen({ onOpen, onOpenEnergyMap }) {
 }
 
 // ───────────────────────────────────────────────────────────────────
-// DayMasterHero — 264-px hero with the moodboard ink-wash treatment.
-// The day-master stem hanzi sits in a 92×92 frosted mark, centered,
-// over eyebrow / archetype / polarity. Tap → Day Master detail.
+// IdentityCard (Rendered Screens v2) — the day-master identity on a
+// quiet paper card with the ceremonial ink-wash stem seal as the "one
+// subject" (left), eyebrow / archetype / manifesto stacked right. The
+// seal sits on paper (not over a painting) so it reads cleanly. A thin
+// element-pigment rule tops the card. Tap → Day Master detail.
 // ───────────────────────────────────────────────────────────────────
-function DayMasterHero({ stem, archetype, polarityLabel, dmElement, pig, onClick }) {
+function IdentityCard({
+  stem, archetype, polarityLabel, dmElement, pig,
+  composition = [], secondaryEl, catalystEl, resistanceEl, onClick,
+}) {
   const [pressed, setPressed] = React.useState(false);
-  const artUrl = stemArt(stem) || elementArt(dmElement);
+  const manifesto = (STEM_CARD_DATA[stem]?.identity?.manifesto || '').split(' · ')[0]
+    || `Your ${dmElement.toLowerCase()} nature.`;
+  const segs = composition.filter((c) => c.n > 0);
+  const flags = [
+    [dmElement, 'Primary'],
+    secondaryEl && secondaryEl !== dmElement ? [secondaryEl, '2nd'] : null,
+    catalystEl ? [catalystEl, '↑'] : null,
+    resistanceEl ? [resistanceEl, '↓'] : null,
+  ].filter(Boolean);
   return (
     <button
       type="button"
@@ -230,64 +168,200 @@ function DayMasterHero({ stem, archetype, polarityLabel, dmElement, pig, onClick
       onPointerLeave={() => setPressed(false)}
       style={{
         appearance: 'none', position: 'relative', display: 'block',
-        width: '100%', height: 250,
-        border: 'none', borderRadius: 0, overflow: 'hidden', padding: 0, cursor: 'pointer',
-        background: `linear-gradient(135deg, ${withAlpha(pig.base, '10')}, ${withAlpha(pig.base, '40')})`,
-        transform: pressed ? 'scale(0.997)' : 'none',
+        width: '100%', textAlign: 'left', cursor: 'pointer',
+        background: cardstockBg,
+        border: `1px solid ${paperHair}`, borderRadius: 16,
+        padding: '16px 16px 16px', overflow: 'hidden',
+        transform: pressed ? 'scale(0.995)' : 'none',
         transition: 'transform 140ms cubic-bezier(0.22,1,0.36,1)',
+        boxShadow: '0 1px 0 rgba(43,39,34,.04), 0 8px 20px rgba(60,46,28,.07)',
       }}
     >
-      {/* Moodboard art stack + soft radial scrim (rendered-screens recipe) */}
-      <MoodboardArt src={artUrl} pigBase={pig.base} scrim={false} />
+      {/* element-pigment top rule */}
       <div aria-hidden="true" style={{
-        position: 'absolute', inset: 0, zIndex: 1,
-        background:
-          'linear-gradient(to top, rgba(20,17,13,.66), rgba(20,17,13,.14) 56%, transparent 78%), ' +
-          'radial-gradient(58% 48% at 50% 44%, rgba(20,17,13,.30), transparent)',
+        position: 'absolute', left: 0, right: 0, top: 0,
+        height: 3, background: pig.deep, opacity: 0.85,
       }} />
-
-      {/* Centered stem mark + caption — 86×86 frosted mark per rendered spec */}
-      <div style={{
-        position: 'absolute', inset: 0, zIndex: 2,
-        display: 'flex', flexDirection: 'column',
-        alignItems: 'center', justifyContent: 'center',
-        gap: 10, padding: 18, textAlign: 'center',
-      }}>
-        <div style={{
-          width: 86, height: 86, borderRadius: 18,
-          border: '1px solid rgba(248,244,236,0.4)',
-          background: 'rgba(248,244,236,0.14)',
-          backdropFilter: 'blur(2px)',
-          WebkitBackdropFilter: 'blur(2px)',
-          display: 'flex', alignItems: 'center', justifyContent: 'center',
-          color: '#F3ECDD',
-          fontFamily: "'Noto Serif SC', serif", fontSize: 40, lineHeight: 1,
-        }}>
-          {stem}
-        </div>
-        <div>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+        <StemSeal stem={stem} size={84} style={{ flexShrink: 0 }} />
+        <div style={{ flex: 1, minWidth: 0 }}>
           <div style={{
             fontFamily: "'EB Garamond', Georgia, serif",
-            fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
-            color: '#E7D7B6', fontWeight: 500,
+            fontSize: 10, letterSpacing: 1.6, textTransform: 'uppercase',
+            color: pig.deep, fontWeight: 600, marginBottom: 4,
           }}>
-            Your Day Master
+            Your Day Master · {stem} {polarityLabel}
           </div>
           <div style={{
             fontFamily: "'Cormorant Garamond', Georgia, serif",
-            fontSize: 33, fontWeight: 500, color: '#F6F1E6', lineHeight: 1.02,
-            marginTop: 4,
+            fontSize: 28, fontWeight: 600, color: ink, lineHeight: 1.04,
           }}>
             {archetype}
           </div>
           <div style={{
-            fontFamily: "'EB Garamond', Georgia, serif",
-            fontSize: 13, color: '#DCCFB6', marginTop: 3,
+            fontFamily: "'EB Garamond', Georgia, serif", fontStyle: 'italic',
+            fontSize: 13.5, color: inkSoft, marginTop: 4, lineHeight: 1.4,
           }}>
-            {stem} · {polarityLabel}
+            {manifesto}
           </div>
         </div>
       </div>
+
+      {/* Distribution strip — five-element composition */}
+      {segs.length > 0 && (
+        <div style={{
+          display: 'flex', alignItems: 'center', gap: 7,
+          marginTop: 13, paddingTop: 12,
+          borderTop: '1px solid rgba(205,190,158,0.5)',
+        }}>
+          <div style={{
+            flex: 1, display: 'flex', gap: 2, height: 7,
+            borderRadius: 3, overflow: 'hidden',
+          }}>
+            {segs.map((c) => (
+              <span key={c.key} style={{
+                flex: c.n, display: 'block',
+                background: pigments[c.key]?.base || c.color,
+              }} />
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Element flags — primary · secondary · catalyst↑ · resistance↓ */}
+      <div style={{ display: 'flex', gap: 5, flexWrap: 'wrap', marginTop: 11 }}>
+        {flags.map(([el, role]) => <Flag key={role} el={el} role={role} />)}
+      </div>
     </button>
+  );
+}
+
+// ── Flag — small element pill (Primary / 2nd / ↑ / ↓) ─────────────
+function Flag({ el, role }) {
+  const key = ELEMENT_TO_PIGMENT[el] || 'metal';
+  const p = pigments[key];
+  return (
+    <span style={{
+      display: 'inline-flex', alignItems: 'center', gap: 5,
+      fontFamily: "'EB Garamond', Georgia, serif", fontSize: 11,
+      padding: '3px 8px', borderRadius: 999,
+      border: `1px solid ${withAlpha(p.base, '40')}`,
+      background: withAlpha(p.base, '10'), color: p.deep,
+    }}>
+      <span style={{ color: p.deep, display: 'flex' }}>
+        <ElementMark element={key} size={12} />
+      </span>
+      <span style={{ fontWeight: 500 }}>{el}</span>
+      <span style={{ fontSize: 9, letterSpacing: 0.5, textTransform: 'uppercase', opacity: 0.7 }}>{role}</span>
+    </span>
+  );
+}
+
+// ── ReadingRow (v2 bleed list) — text + element badges on the left, the
+// painterly cat-* crop dissolving in from the right; chevron or lock. ──
+function ReadingRow({ row }) {
+  const [pressed, setPressed] = React.useState(false);
+  const art = catArt(row.key);
+  const locked = !!row.locked;
+  const baseBg = locked ? quietBg : cardstockBg;
+  return (
+    <button
+      type="button"
+      onClick={row.onTap}
+      aria-label={`${row.ti}${locked ? ` (locked — ${row.tierLabel})` : ''}`}
+      onPointerDown={() => setPressed(true)}
+      onPointerUp={() => setPressed(false)}
+      onPointerLeave={() => setPressed(false)}
+      style={{
+        appearance: 'none', position: 'relative', display: 'flex', alignItems: 'center',
+        width: '100%', minHeight: 96, padding: '15px 16px', borderRadius: 16,
+        background: baseBg, border: `1px solid ${locked ? quietBorder : paperHair}`,
+        overflow: 'hidden', cursor: 'pointer', textAlign: 'left',
+        boxShadow: '0 4px 12px rgba(60,46,28,.06)',
+        transform: pressed ? 'scale(0.99)' : 'none',
+        transition: 'transform 120ms cubic-bezier(0.22,1,0.36,1)',
+      }}
+    >
+      {/* painterly crop bleeding in from the right */}
+      {art && (
+        <div aria-hidden="true" style={{ position: 'absolute', right: 0, top: 0, bottom: 0, width: '52%' }}>
+          <img src={art} alt="" style={{
+            width: '100%', height: '100%', objectFit: 'cover',
+            filter: locked ? 'grayscale(.45) brightness(1.05)' : 'none',
+            opacity: locked ? 0.7 : 1,
+          }} />
+          <div style={{
+            position: 'absolute', inset: 0,
+            background: `linear-gradient(to right, ${baseBg} 12%, rgba(244,236,217,0.4) 42%, transparent 78%)`,
+          }} />
+        </div>
+      )}
+
+      {/* text + badges */}
+      <div style={{ position: 'relative', zIndex: 2, flex: 1, maxWidth: '64%' }}>
+        <div style={{
+          fontFamily: "'Cormorant Garamond', Georgia, serif",
+          fontSize: 19, fontWeight: 600, lineHeight: 1.08,
+          color: locked ? inkSoft : ink,
+          display: 'inline-flex', alignItems: 'center', flexWrap: 'wrap',
+        }}>
+          {row.ti}
+          {locked && row.tierLabel && (
+            <span style={{
+              display: 'inline-flex', alignItems: 'center', gap: 3,
+              fontFamily: "'EB Garamond', Georgia, serif", fontSize: 8,
+              letterSpacing: 0.5, textTransform: 'uppercase', color: bronzeDark,
+              border: `1px solid ${withAlpha(gold, '40')}`, borderRadius: 5,
+              padding: '1px 5px', marginLeft: 6, verticalAlign: 2,
+            }}>◆ {row.tierLabel}</span>
+          )}
+        </div>
+        <div style={{
+          fontFamily: "'EB Garamond', Georgia, serif", fontStyle: 'italic',
+          fontSize: 12, color: inkLight, lineHeight: 1.35, marginTop: 2,
+        }}>{row.d}</div>
+        {row.badges?.length > 0 && (
+          <div style={{ display: 'flex', gap: 8, marginTop: 8, alignItems: 'center' }}>
+            {row.badges.map(([el, st], i) => <ElBadge key={i} el={el} state={st} />)}
+          </div>
+        )}
+      </div>
+
+      {/* chevron / lock */}
+      <span style={{ position: 'relative', zIndex: 2, marginLeft: 8, flexShrink: 0, display: 'flex' }}>
+        <Icon id={locked ? 'ico-lock' : 'ico-chev-r'} size={locked ? 17 : 18} color={locked ? gold : inkLight} />
+      </span>
+    </button>
+  );
+}
+
+// ── ElBadge — element seal in a rounded tile; primary filled, sec smaller,
+// up/down carry a corner direction chip. ──────────────────────────────
+function ElBadge({ el, state }) {
+  const key = ELEMENT_TO_PIGMENT[el] || 'metal';
+  const p = pigments[key];
+  const primary = state === 'primary';
+  const dir = state === 'up' ? '↑' : state === 'down' ? '↓' : null;
+  const size = state === 'sec' ? 25 : 28;
+  return (
+    <span style={{
+      position: 'relative', width: size, height: size, borderRadius: 8,
+      display: 'flex', alignItems: 'center', justifyContent: 'center',
+      background: primary ? p.deep : withAlpha(p.base, '10'),
+      border: `1.5px solid ${withAlpha(p.base, '40')}`,
+      boxShadow: '0 3px 7px rgba(60,46,28,.14)',
+    }}>
+      <span style={{ color: primary ? '#F4ECD9' : p.deep, display: 'flex' }}>
+        <ElementMark element={key} size={state === 'sec' ? 14 : 16} />
+      </span>
+      {dir && (
+        <span style={{
+          position: 'absolute', right: -5, top: -6, width: 14, height: 14,
+          borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center',
+          fontSize: 9, fontWeight: 700, background: '#F4ECD9',
+          border: `1.5px solid ${withAlpha(p.base, '40')}`, color: p.deep, lineHeight: 1,
+        }}>{dir}</span>
+      )}
+    </span>
   );
 }

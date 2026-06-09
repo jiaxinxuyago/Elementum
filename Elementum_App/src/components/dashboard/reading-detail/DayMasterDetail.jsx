@@ -64,6 +64,7 @@ export default function DayMasterDetail({ onBack }) {
       pigment={pigment}
       bg={readingDetailBg(element)}
       sectionKey="read-daymaster"
+      sealStem={stem}
       hero={{
         element,
         artSrc: elementArt(element),
@@ -160,6 +161,54 @@ export default function DayMasterDetail({ onBack }) {
           </div>
         </Card>
       )}
+
+      {/* ── WHAT THE DAY MASTER IS — universal grounding so every stem's
+            page reads in full, not just the ones with a classical anchor ── */}
+      <Card pigment={pigment} eyebrow="WHAT THIS IS">
+        <p style={{
+          fontFamily: "'EB Garamond', Georgia, serif",
+          fontSize: 15, lineHeight: 1.75, color: ink, margin: 0,
+        }}>
+          Of the eight characters in your chart, one is you: the{' '}
+          <span style={{ fontFamily: "'Noto Serif SC', serif", color: pigment }}>{stem}</span>{' '}
+          stem of the day pillar — your <b>Day Master</b>. Everything else is
+          read in relation to it. The Day Master is not a trait among traits;
+          it is the lens. Where the other pillars describe the forces, seasons
+          and people around you, the Day Master is the standpoint from which all
+          of it is met. To know your {element} Day Master is to know the
+          temperament that arrives at every circumstance first.
+        </p>
+      </Card>
+
+      {/* ── POLARITY READING — Yang/Yin face of the element ─────────── */}
+      <Card pigment={pigment} eyebrow={`${polarity === 'yin' ? 'Yin' : 'Yang'} ${element}`}>
+        <p style={{
+          fontFamily: "'EB Garamond', Georgia, serif",
+          fontSize: 15, lineHeight: 1.75, color: inkSoft, margin: 0,
+        }}>
+          {polarity === 'yin' ? (
+            <>
+              <span style={{ fontFamily: "'Noto Serif SC', serif", color: pigment }}>{stem}</span>{' '}
+              is the <b>Yin face of {element}</b> — {element.toLowerCase()} turned
+              inward. Where Yang {element.toLowerCase()} extends and declares, your
+              nature refines, conserves and perfects. You shape by attention rather
+              than force, working beneath the surface where the result shows but the
+              labour does not. The cost is that your effort is easy to miss; the gift
+              is a precision louder natures rarely reach.
+            </>
+          ) : (
+            <>
+              <span style={{ fontFamily: "'Noto Serif SC', serif", color: pigment }}>{stem}</span>{' '}
+              is the <b>Yang face of {element}</b> — {element.toLowerCase()} turned
+              outward. Where Yin {element.toLowerCase()} refines and conserves, your
+              nature extends, structures and declares. You do not wait to be drawn
+              out; you arrive. The cost of that directness is subtlety — what is
+              obvious to you often needs translating for those who move more quietly.
+              The gift is that people always know exactly where you stand.
+            </>
+          )}
+        </p>
+      </Card>
 
       {/* Quiet link to the raw four-pillar chart (DOC5 §11) */}
       <button

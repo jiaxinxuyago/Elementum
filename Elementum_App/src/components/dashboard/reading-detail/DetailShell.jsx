@@ -24,6 +24,7 @@ import PageBg from '../../shared/PageBg.jsx';
 import { SceneHero } from '../VisualTile.jsx';
 import { getReadingSections } from './sections.js';
 import { useChart } from '../../../store/chartContext.jsx';
+import StemSeal from '../../shared/StemSeal.jsx';
 import {
   ink, inkSoft, inkLight, bronzeDark, paperHair, silk, cardstockBg,
   withAlpha,
@@ -35,6 +36,7 @@ export default function DetailShell({
   title,                   // text-mode title
   pigment,                 // optional — tints the eyebrow / hero veil / progress
   hero,                    // optional { element, artSrc, eyebrow, title, subtitle, height } → hero mode
+  sealStem,                // optional — crowns the hero with the ink-wash stem seal (v2)
   verse,                   // optional centered verse line
   verseSubtitle,           // optional italic subtitle below the verse
   sectionKey,              // optional FLOW route key → enables prev/next + sticky progress
@@ -59,9 +61,12 @@ export default function DetailShell({
 
   return (
     <div style={{
-      position: 'relative', minHeight: '100%',
-      background, padding: 0,
-      display: 'flex', flexDirection: 'column',
+      // Definite, bounded height + overflow:hidden so the absolutely-
+      // positioned scroll container below actually scrolls within the
+      // 844 phone frame (mirrors DashboardShell). Using minHeight here
+      // let the whole stack grow past the frame and clip the bottom.
+      position: 'relative', height: '100%',
+      background, overflow: 'hidden',
     }}>
       {/* Painted background layer (behind body content) */}
       {bg && <PageBg src={bg.src} opacity={bg.opacity} gradient={bg.gradient} />}
@@ -88,24 +93,39 @@ export default function DetailShell({
         <Icon id="ico-back" size={heroMode ? 20 : 22} />
       </button>
 
-      {/* Scroll container — owns the hero, sticky bar, and body. */}
+      {/* Scroll container — absolutely fills the frame so it's bounded and
+          scrolls; owns the hero, sticky bar, and body. */}
       <div style={{
-        position: 'relative', zIndex: 1,
-        flex: 1, overflowY: 'auto', WebkitOverflowScrolling: 'touch',
+        position: 'absolute', inset: 0, zIndex: 1,
+        overflowY: 'auto', overflowX: 'hidden', WebkitOverflowScrolling: 'touch',
       }}>
-        {/* Hero — bleeds to top, scrolls away with the page */}
+        {/* Hero — bleeds to top, scrolls away with the page. In v2 the
+            day-master reading wears the ceremonial ink-wash stem seal,
+            crowning the painting above the title. */}
         {heroMode && (
-          <SceneHero
-            element={hero.element || pigment}
-            pigment={hero.element || pigment}
-            artSrc={hero.artSrc}
-            eyebrow={hero.eyebrow}
-            title={hero.title}
-            subtitle={hero.subtitle}
-            height={hero.height || 248}
-            radius={0}
-            contentBottom={18}
-          />
+          <div style={{ position: 'relative' }}>
+            <SceneHero
+              element={hero.element || pigment}
+              pigment={hero.element || pigment}
+              artSrc={hero.artSrc}
+              eyebrow={hero.eyebrow}
+              title={hero.title}
+              subtitle={hero.subtitle}
+              height={hero.height || 248}
+              radius={0}
+              contentBottom={18}
+            />
+            {sealStem && (
+              <StemSeal
+                stem={sealStem}
+                size={84}
+                style={{
+                  position: 'absolute', left: 16, bottom: 92, zIndex: 4,
+                  filter: 'drop-shadow(0 4px 10px rgba(0,0,0,0.28))',
+                }}
+              />
+            )}
+          </div>
         )}
 
         {/* Text-mode header — only in non-hero pages */}

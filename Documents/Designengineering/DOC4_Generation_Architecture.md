@@ -547,7 +547,7 @@ Cross-check before proceeding: read the first sentence back. Does it feel like i
 
 ---
 
-**① Archetype identity** — `yourNature.phrase` displayed prominently (serif, typographically distinct above the portrait). The named archetype: the single most distilled characterological statement for this stem. Examples: *The Structural Assessor*, *The Ascending Vine*. Displayed as the visual anchor; read before anything else.
+**① Archetype identity** — `yourNature.phrase` is the named archetype: the single most distilled characterological statement for this stem (examples: *The Structural Assessor*, *The Ascending Vine*). **[AUDIT 2026-06] INTERNAL — authoring anchor only, NOT rendered in the UI.** Per DOC9 §3 and the live app (which marks it `[INTERNAL — not rendered]` and renders `yourNature.desc` as the portrait), this field is a synthesis/authoring anchor. The earlier "displayed prominently as the visual anchor" framing is superseded.
 
 ---
 
@@ -864,6 +864,8 @@ Ten God content differentiation happens at the compound card layer (`DomEnergyTg
 `TG_CARD_DATA` entries are flat — no `bands`, `patterns`, `priority`, or `text{}` variant keys. The TG layer's selectivity mechanism is different: **domain significance tags** (`sig`, 1–5) control which domain sections are surfaced for each TG card. This is the TG equivalent of the band/pattern variant system — it determines what content renders, but through relevance filtering rather than text substitution.
 
 **Authoring units and frames:**
+
+> **[AUDIT 2026-06] The field names in the table below are LEGACY (pre-v3.5).** The current `TG_CARD_DATA` schema (see §3/§4 and the live `archetypeSource.js`) uses: `rulingRealm{phrase,desc}`, `chips[]`, `outputs[]`, `frictions[]`, `gifts[]`, `shadows[]`, `hiddenDynamic`, `domainSignatures.{career,relationships,wealth,health}`, `sixRelations`, `liunianSignatures`. **Removed:** `personalityParagraph`, `decisionStyle`, `communicationStyle`, `hiddenTrait` (the last three replaced by `hiddenDynamic` — mechanism, not person). Map: `realmPhrase/realmDesc → rulingRealm.{phrase,desc}`, `gift/shadow → gifts/shadows` (+ structured `outputs/frictions`), `domains → domainSignatures`, `people → sixRelations`, `liunian/liunianLabel → liunianSignatures`. Treat the table and the "Context-layered convention" note below as historical. *(The 4 `domainSignatures` here — career/relationships/wealth/health — are the force-domain model; the Energy Manual's 5 domains (DOC5 §12, adds Purpose) are a separate, intentional UI model.)*
 
 | Field group | Fields | Authoring frame |
 |---|---|---|
@@ -1182,8 +1184,8 @@ function validateStem(stem) {
       const selected = getBlocksForConfig(blocks, band, pattern);
       const compound = `${band}_${pattern}`;
 
-      if (selected.length < 7) {
-        errors.push(`Under minimum: ${selected.length} blocks for ${stem} ${compound}`);
+      if (selected.length < 5) {   // v2 target: exactly 5 rendered blocks (§11 / §1102). Was `< 7` under the retired v1 top-N model.
+        errors.push(`Under minimum: ${selected.length}/5 rendered blocks for ${stem} ${compound}`);
       }
       for (const b of selected) {
         const text = resolveBlockText(b, band, pattern);
@@ -1321,7 +1323,7 @@ The `rooted` pattern (resource/seal energy dominant, Earth supporting Metal) has
 The profile data fields documented in §4 must be enriched and re-categorised before Pro tier launch. The source of truth (`archetypeSource.js` and its HTML twin) will be edited directly, and downstream archetype data files updated to match. Current `TG_CARD_DATA` fields in `archetypeSource.js` were written at an earlier stage of the project and need to be:
 
 1. **Audited** against the translation protocol (DOC3 §8) — any Chinese characters or BaZi jargon in user-facing fields flagged and rewritten
-2. **Enriched** — `personalityParagraph`, `decisionStyle`, `communicationStyle`, `hiddenTrait`, and all life domain fields deepened to Pro-tier quality
+2. **Enriched** — the PRO-tier TG fields (`hiddenDynamic`, `domainSignatures`, `sixRelations`, `liunianSignatures`, plus the structured `outputs`/`frictions`) deepened to Pro-tier quality. *([AUDIT 2026-06] The legacy names `personalityParagraph` / `decisionStyle` / `communicationStyle` / `hiddenTrait` were removed — see §3/§4 and the "Authoring units and frames" note.)*
 3. **Banded** — stem energy content eventually scaled to concentrated / balanced / open variants (currently one version per stem)
 4. **Field-categorised** — each field explicitly tagged with its tier (Free / Pro / Internal) in the data structure for clean API filtering
 

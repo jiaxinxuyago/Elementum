@@ -1132,7 +1132,7 @@ The Day Master stem is never named in user-facing text. The archetype name is th
 | 丁 | The Candle | Fire | Yin | precision illumination, focused clarity, illuminates completely what it is pointed at |
 | 戊 | The Mountain | Earth | Yang | load-bearing, the ground others orient around, stability without announcement |
 | 己 | The Field | Earth | Yin | developmental nourishment, grows things in silence, leaves everything more alive |
-| 庚 | The Blade | Metal | Yang | evaluative precision, the standard that runs first, the edge that was never chosen |
+| 庚 | The Blade | Metal | Yang | evaluative precision, the standard that runs first, the edge that is forged |
 | 辛 | The Jewel | Metal | Yin | discernment, perceives excellence the way others perceive temperature |
 | 壬 | The Ocean | Water | Yang | perceptual depth, holds more beneath the surface, reads before the question is asked |
 | 癸 | The Rain | Water | Yin | empathic attunement, knows before it is spoken, nourishes without announcing |

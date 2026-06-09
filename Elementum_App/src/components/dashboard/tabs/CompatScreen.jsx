@@ -19,6 +19,7 @@ import { computeCompatibility } from '../../../engine/compatibility.js';
 import { STEM_CARD_DATA } from '../../../content/archetypeSource.js';
 import { ElementMark, Icon } from '../../shared/icons';
 import { MoodboardArt } from '../VisualTile.jsx';
+import StemSeal, { stemSealSrc } from '../../shared/StemSeal.jsx';
 import { stemArt, elementArt } from '../../../styles/backgrounds.js';
 import {
   ink, inkSoft, inkLight, bronzeDark, gold, silk, cream,
@@ -68,7 +69,7 @@ export default function CompatScreen() {
         <DualSeal pigKey={userPigKey} pig={userPig} />
         <button type="button" onClick={() => setPhase('input')} style={primaryBtn}>Compare with someone</button>
         <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12, color: inkLight, marginTop: 18 }}>
-          {isSeeker ? 'Seeker: unlimited comparisons' : 'Free: 1 comparison · Seeker: unlimited'}
+          {isSeeker ? 'Seeker: full readings, unlimited' : 'Free: preview any match · Seeker: full reading + share'}
         </div>
       </main>
     );
@@ -284,17 +285,25 @@ function PersonCell({ label, stem, element, sub, archetype, pigKey }) {
         color: inkLight, fontWeight: 500,
       }}>{label}</span>
 
-      {/* 48×48 round element-seal mark */}
-      <span style={{
-        position: 'relative', zIndex: 1,
-        width: 48, height: 48, borderRadius: 12,
-        background: 'rgba(248,244,236,0.75)',
-        border: `1px solid ${withAlpha(pig.base, '40')}`,
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-        color: pig.deep,
-      }}>
-        <ElementMark element={pigKey} size={24} />
-      </span>
+      {/* Painterly ink-wash stem seal (v2) — the portrait's "one subject".
+          Falls back to the round element-mark badge if the seal is absent. */}
+      {stemSealSrc(stem) ? (
+        <StemSeal stem={stem} size={64} style={{
+          position: 'relative', zIndex: 1,
+          filter: 'drop-shadow(0 3px 8px rgba(40,30,20,0.2))',
+        }} />
+      ) : (
+        <span style={{
+          position: 'relative', zIndex: 1,
+          width: 48, height: 48, borderRadius: 12,
+          background: 'rgba(248,244,236,0.75)',
+          border: `1px solid ${withAlpha(pig.base, '40')}`,
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          color: pig.deep,
+        }}>
+          <ElementMark element={pigKey} size={24} />
+        </span>
+      )}
 
       {/* Stem hanzi (DARK INK, 24px) + archetype + polarity eyebrow */}
       <div style={{ position: 'relative', zIndex: 1 }}>

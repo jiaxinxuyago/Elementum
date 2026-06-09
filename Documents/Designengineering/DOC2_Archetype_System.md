@@ -72,7 +72,7 @@ Example: 庚 · Yang Metal · Blade
 | 丁 | The Candle | Fire | Yin | "Illuminates completely what it's pointed at. Nothing more. Nothing less." |
 | 戊 | The Mountain | Earth | Yang | "People orient their lives around it without knowing why. The ground that holds." |
 | 己 | The Field | Earth | Yin | "Grows things in silence. Leaves everything it touches more alive than it found it." |
-| 庚 | The Blade | Metal | Yang | "Precision before intention. An edge that was never chosen — only found." |
+| 庚 | The Blade | Metal | Yang | "Precision before intention · An edge is never given — it is forged." |
 | 辛 | The Jewel | Metal | Yin | "Perceives what is excellent the way others perceive temperature — before the question is asked." |
 | 壬 | The Ocean | Water | Yang | "Holds more beneath the surface than it ever shows. Always has. Always will." |
 | 癸 | The Rain | Water | Yin | "Knows what is true before it is spoken. Nourishes what it touches without announcing it." |

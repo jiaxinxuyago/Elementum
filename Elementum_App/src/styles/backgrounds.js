@@ -30,32 +30,47 @@
 const MIST_5 = '/concept-arts/atmospheric/atmospheric-5-layer.png'; // layered ridges, panoramic
 const MIST_3 = '/concept-arts/atmospheric/atmospheric-3-layer.png'; // quieter, 3-layer
 
-export const SCREEN_BG = {
-  // Reading catalogue — real painted rice-paper texture.
-  reading: { src: 'bg-reading-04-rice-paper.png', opacity: 0.10 },
+// v7 scenery-margin PLATES (Rendered Screens v2). Each screen sits on a
+// composed-silk plate — cream + grain + painted scenery baked into the
+// margins, UI in the quiet center zone. The plate PNGs are the finished
+// painted backgrounds in public/backgrounds/. Rendered at high opacity
+// (the plates carry their own cream base, so they read as the full
+// background, not a faint wash). `size: cover` to fill the frame.
+const PLATE = (src, opacity = 0.78) => ({ src, opacity, size: 'cover', pos: 'center' });
 
-  // Today — layered ridges anchored at top, warm gold glow washed over
-  // ("subtle warm glow at top, fades to paper").
-  today: {
-    src: MIST_5, opacity: 0.16, pos: 'center top', size: '140% auto',
-    gradient: 'radial-gradient(150% 60% at 50% -10%, rgba(212,175,55,0.10), rgba(212,175,55,0) 58%)',
-  },
-  // Guidance — quiet mist, centered, faint premium violet corner.
+export const SCREEN_BG = {
+  // Reading catalogue — rice-paper plate.
+  reading: PLATE('bg-reading-04-rice-paper.png', 0.7),
+  // Today — quiet-paper plate.
+  today:   PLATE('bg-onboarding-04-quiet-paper.png'),
+  // Guidance — quiet-paper plate + a faint premium violet corner.
   guidance: {
-    src: MIST_3, opacity: 0.12, pos: 'center', size: '160% auto',
+    ...PLATE('bg-onboarding-04-quiet-paper.png'),
     gradient: 'radial-gradient(120% 50% at 100% 0%, rgba(122,94,154,0.06), transparent 55%)',
   },
-  // Friends — ridges centered (the horizon = the meeting line).
-  compat: { src: MIST_5, opacity: 0.13, pos: 'center', size: '150% auto' },
-  // Profile — quietest: 3-layer mist sunk to the bottom, very faint.
-  profile: { src: MIST_3, opacity: 0.08, pos: 'center bottom', size: '150% auto' },
+  // Friends — center-glow plate (the meeting horizon).
+  compat:  PLATE('bg-energymap-03-center-glow.png'),
+  // Profile — corner-stamp plate (quietest, just a touch of register).
+  profile: PLATE('bg-onboarding-01-corner-stamp.png', 0.7),
 };
 
-// Reading-detail pages carry their imagery in the SceneHero band now
-// (P3), so they no longer need a full-page background. Kept as a no-op
-// resolver so callers can opt back in if a real immersive bg is produced.
+// Per-time-period plates for the Today-hub drill-downs (Day/Month/Year use
+// the corner-quartet plate; Decade uses split-horizon). Consumed by the
+// drill-down pages so they read distinct from the hub.
+export const PLATE_BG = {
+  day:    PLATE('bg-energymap-02-corner-quartet.png'),
+  month:  PLATE('bg-energymap-02-corner-quartet.png'),
+  year:   PLATE('bg-energymap-02-corner-quartet.png'),
+  decade: PLATE('bg-reveal-04-mist-veil.png'),
+  detail: PLATE('bg-onboarding-04-quiet-paper.png'),
+  rawchart: PLATE('bg-reading-01-side-margins.png', 0.7),
+};
+
+// Reading-detail pages sit on the quiet-paper plate (Rendered Screens v2);
+// the SceneHero band carries the element imagery on top. Subtle so the
+// cards stay legible.
 export function readingDetailBg() {
-  return null;
+  return { src: 'bg-onboarding-04-quiet-paper.png', opacity: 0.5, size: 'cover', pos: 'center' };
 }
 
 // ───────────────────────────────────────────────────────────────────
@@ -133,6 +148,14 @@ export function portArt(element, nOrStem) {
     : (nOrStem || 1);
   const idx = clampN(element, n);
   return `${LIBRARY_DIR}/t_${el}_${idx}_p.png`;
+}
+
+// Catalogue function-card crop (Rendered Screens v2) — bespoke painterly
+// art per reading row, each carrying its function motif. These dissolve
+// in from the right of each list row. cat-<name>.png in /library/cat/.
+const CAT_CARDS = ['nature', 'dominant', 'forces', 'chapters', 'daily', 'pillars'];
+export function catArt(name) {
+  return CAT_CARDS.includes(name) ? `${LIBRARY_DIR}/cat/cat-${name}.png` : null;
 }
 
 // ── Generic asset resolvers ────────────────────────────────────────
