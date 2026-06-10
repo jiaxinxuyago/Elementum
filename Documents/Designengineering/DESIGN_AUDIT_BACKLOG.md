@@ -74,3 +74,21 @@ Original list (for reference):
 - **Dead code:** `GuidanceScreen.FeaturedCard` (superseded by `DrawTile`); `mockup-detail` / `mockup-energymap` legacy hash-only screens.
 - **Engine fallbacks:** Month/Year pages fall back to hardcoded wireframe bar values on `temporal.js` error; many drill-downs default a missing chart to a Metal/庚 chart rather than erroring.
 - **Non-functional stubs (pre-launch):** Profile "Sign Out" no-op (no auth); AI Consultant scripted (no LLM — see D7/D6); tokens.jsx `BORDER_LIGHT`/`BORDER_STD` drift from the anchor's opaque palette.
+
+---
+
+## 4 · Reading-Structure Audit (S-series · 2026-06)
+
+Source: structural audit of the live reading IA (`App.jsx` FLOW + dashboard tabs + `reading-detail/` screens) against **DOC5 §9/§11 + §AMENDMENT (§AM.1/§AM.2/§AM.8)**, cross-checked with the content schema. **Headline:** the content scorecard's *99 "missing required" fields were entirely S1 vestigial schema* — the live UI renders `TG_CARD_DATA` + templated logic for those surfaces, not the schema groups. Live content is complete for 9/10 stems (庚 reference + the D9 sprint); the only real live gap was S7 (now closed). Content-Readiness Phases 3–4 (baseline authoring + 150-variant batch) are therefore **enrichment, not breakage-fixing**.
+
+| # | Item | Resolution | Landed |
+|---|------|-----------|--------|
+| S1 | `dominantEnergy` / `seasonalCalibration` / `liunianSignatures` — schema-`required` but no live consumer | **Keep internal-only** (`status:'internal'`, not counted missing); retained as Self-Report synthesis context | ✅ App (`archetypeSchema.js` + coverage walker) · scorecard missing **99 → 0** |
+| S2/S3 | Seasonal had no catalogue entry; catalogue (6) ↔ detail pager (7) diverged | **Align both** — conditional Seasonal catalogue row; pager = the catalogue reading rows; Daily Reading = tab-jump; Identity Card = pager stop 1 | ✅ App (`ReadingScreen.jsx`) |
+| S4 | Reading-tab seal-dot (§AM.1/§AM.2) absent in app | **Drop the rule** — align §AM.1/§AM.2 to the app's deliberate ink-only nav (no code change) | ✅ DOC5 §AM.1/§AM.2 + handoff patched |
+| S5 | DOC5 §9/§11 base text pre-amendment (Energy Map/Friends, 8-section `getSections`, "Enter Your Dashboard") | **Patch to shipped reality** via canonical callouts | ✅ DOC5 §9 + §11 callouts |
+| S6 | TenGods consolidation — old `dom_0`/`dom_1` Primary/Secondary Force routing + `dominantEnergy` | **Confirm consolidated model canonical**; retire dom routing in docs | ✅ DOC5 §11 callout |
+| S7 | `CLASSICAL_STEM_ANCHORS` 3/10 → DayMasterDetail "Classical Source" card blank for 7 stems | **Hand-author the 7** (丁戊己庚辛壬癸) from 三命通会 十干体象 | ✅ App (`archetypeSource.js` — 10/10) |
+| S8 | Two dev mockups + now-orphaned `mockup/` dir | **Delete** | ✅ App (`App.jsx`, `DevBar.jsx`, `mockup/` removed) |
+
+**Resolves earlier backlog items:** §3 **#8** (DOC5 nav-label staleness — patched via the S5 callouts) and the Minor-notes **"Dead code: `mockup-*`"** (S8) + **"Reveal CTA copy"** (the `App.jsx` comment now reads "Enter Your Readings"; §AM.1 copy is canonical).

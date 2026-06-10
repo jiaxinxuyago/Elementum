@@ -881,8 +881,8 @@ SECTION 3 — YOUR PRESCRIPTION (partial viewport, conditional)
   Missing element prescription card
 
 SECTION 4 — CTA
-  "Enter Your Dashboard →"
-  Navigates to /dashboard/energy-map (Energy Map tab)
+  "Enter Your Readings →"   // [AUDIT 2026-06 · S5] copy + route updated to §AM.1
+  Navigates to app-reading (Reading catalogue — first-time view of the Energy Map)
   First session only — subsequent opens land on Today tab
 ```
 
@@ -1106,6 +1106,8 @@ Three stacked cards:
 > The v1.7 architecture detail (catalogue cards, page-state routing, getSections) is retained below for historical reference; the **page-state routing block, getSections() function, and DetailShell wrapper remain authoritative.** What changes is the **catalogue home layout** (Level 1) and which sections appear inline vs. behind taps.
 
 ---
+
+> **[AUDIT 2026-06 · S5/S6/S2/S3 — CANONICAL] The shipped Reading layer differs from the v1.7/v1.8 blocks below; those are historical.** Tabs are **Today · Guidance · Reading · Compat · Profile** (icons-only, §AM.2 — not "Energy Map / Friends", and the table below's labels are stale). The catalogue is the **6-row set** (Identity Card + Elemental Nature · Dominant Energies · Forces in Motion · [Seasonal Calibration — conditional] · Life Chapters · Daily Reading · Pillar Patterns) per §AM.8 D3 — Seasonal is a conditional catalogue row (S2/S3). The detail **pager** is `getReadingSections()` (`reading-detail/sections.js`), listing the same reading rows (Identity Card = stop 1; Daily Reading is a tab-jump, not a pager stop). The old **8-section `getSections` with `dom_0`/`dom_1` Primary/Secondary Force pages is retired** (S6): Dominant Energies is one page (`read-tengods`) rendering `TG_CARD_DATA` + the TG ring, and the schema's `dominantEnergy` / `seasonalCalibration` / `liunianSignatures` groups are **internal-only — no live consumer** (S1). See DESIGN_AUDIT_BACKLOG.md §4 (S-series).
 
 ### Bottom tab nav (Dashboard chrome)
 
@@ -3070,14 +3072,14 @@ Originally §11 specified the Energy Map as a flat dashboard tab with an 8-card 
 | Aspect | Locked rule |
 |---|---|
 | Reveal page | Single scrollable surface · identity card + full energy summary + CTA "Enter Your Readings" · is the first-time view of the Energy Map |
-| Reading tab | 5-tab dashboard (Today · Guidance · **Reading** · Compat · Profile) — Reading replaces Map at center, carries the seal-dot indicator |
+| Reading tab | 5-tab dashboard (Today · Guidance · **Reading** · Compat · Profile) — Reading replaces Map at center (active tab marked by ink-color, **no seal-dot** — see §AM.2 / Audit S4) |
 | Reading page | Catalogue of reading cards · top-of-page "Energy Map →" link returns to the Reveal layout (minus first-time framing) |
 | Energy Map | Destination accessed from Reading's top action — same content as Reveal, no first-time CTA |
 | "Energy Map" eyebrow | Renames the formerly-titled "Energy Blueprint" section · used on both Reveal and Reading link |
 
 ### §AM.2 — Tab nav is icons-only (supersedes §11 + v2 §4)
 
-Tab labels (calendar / book / etc) carry meaning on their own — no underline text. Bottom tab nav renders icons only with the seal-dot indicator beneath the active tab. First-time onboarding may include one-time tooltips per tab for discoverability.
+Tab labels (calendar / book / etc) carry meaning on their own — no underline text. Bottom tab nav renders icons only; the active tab is marked purely by ink-color weight (the "COLD" style) — **no seal-dot**. *(Audit S4, 2026-06: the WARM seal-dot state was dropped per product direction; this rule is aligned to the shipped `BottomTabNav.jsx`.)* First-time onboarding may include one-time tooltips per tab for discoverability.
 
 ### §AM.3 — Cormorant title weight at hero vs mini scale (supersedes §3)
 

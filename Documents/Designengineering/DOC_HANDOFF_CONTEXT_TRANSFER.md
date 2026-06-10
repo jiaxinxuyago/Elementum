@@ -166,7 +166,7 @@ These rules MUST be followed in any new design or code. Violations are doc-patch
 
 ### Tab nav (DOC5 §AM.2)
 - **Icons-only** — no text labels. 5 tabs: Today · Guidance · Reading · Compat · Profile.
-- Reading is center, carries seal-dot indicator on active.
+- Reading is center; the active tab is marked by ink-color only (no seal-dot — Audit S4, 2026-06).
 
 ### IA (DOC5 §AM.1 — supersedes §11)
 - Reveal page = identity card + full energy summary + "Enter Your Readings" CTA · is the first-time view of the Energy Map
