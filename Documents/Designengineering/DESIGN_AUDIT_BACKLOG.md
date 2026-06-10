@@ -1,6 +1,28 @@
-# Design Audit — Resolutions & Deferred Backlog (2026-06)
+# Elementum — Project Status & Design-Audit Backlog
 
 Source: full audit of the live Elementum app against **DOC5** (incl. §AMENDMENT), **DOC4** (generation architecture), **DOC6** (manual), **DOC9** (field schema). Eleven discrepancies were surfaced and decided with the product owner. This file is the **tracked backlog** for the items deferred under decision **D11** ("decisions-only doc patch, defer the rest"), plus the two large execution workstreams.
+
+> **2026-06-10:** This file now doubles as the **project status record** (§0 below). No separate status doc is needed.
+
+---
+
+## 0 · Project status (2026-06-10)
+
+**Milestone — Elementum is at a shippable-alpha "real product" state.** Content, reading structure, and docs are complete and mutually consistent for all 10 day-masters; remaining work is enrichment / polish, not repair.
+
+**Complete**
+- **Content** — all 10 day-masters render on every live surface (庚 reference + the D9 sprint + S7's 7 classical anchors → `CLASSICAL_STEM_ANCHORS` 10/10). The earlier "99 missing fields" were vestigial `status:'internal'` schema with no live consumer (S1) — not authoring debt.
+- **Reading IA** — settled per the S-series: Reveal → Reading catalogue (Identity Card + 6 rows + conditional Seasonal) → detail pager (`getReadingSections`) → Energy Map; 5-tab nav icons-only. Schema ↔ UI ↔ docs agree.
+- **Design system** — canonical (`Design/Legends/` + `tokens.css` + `icons.svg` + `manifest.md`); StemSeal PNGs are the identity visual.
+- **App** — QA'd bug-free alpha; code-split; demo entitlement stubs (`tier` / `hasSelfReport` / scripted consultant) at clean seams.
+- **Docs** — DOC1–DOC10 current; this ledger holds the D-series (D1–D11) + S-series (S1–S8) decisions; folder decluttered to core docs only (2026-06-10).
+- **Backend** — scoped + deferred to pre-beta (DOC10): managed BaaS + ~3 serverless functions, no dedicated server.
+
+**Next pending — all non-blocking enrichment / polish**
+1. **Presentation polish (cosmetic):** 9 per-stem painted `identityIcon` SVGs; a `cat-seasonal.png` for the conditional Seasonal row; micro-interactions.
+2. **24 QC violations:** over-length `elementIntro` (15), `keywords`/`chips` alias (9), one over-length 癸 `chips` item — surfaced by the `coverageFor` walker (required-missing = 0).
+3. **150-variant content batch:** Pipeline A1 (`Scripts/batchGenerate.js`) → `STEM_CARD_DATA.js`; gated on a schema-freeze + building the 150-template pipeline (`[NOT YET BUILT]`).
+4. **Backend build (pre-beta)** per DOC10.
 
 ---
 
@@ -14,9 +36,9 @@ Source: full audit of the live Elementum app against **DOC5** (incl. §AMENDMENT
 | D4 | Today screen purpose | **Keep the Readings-Hub mosaic** | DOC5 §10 patched |
 | D5 | Reveal Balance Prescription | **Restore on Reveal** | ✅ App (RevealScreen.jsx) |
 | D6 | Tier model | **Three tiers (Free / Seeker / Advisor)** | DOC5 §19 patched |
-| D7 | Self-Report monetization | **One-time purchase (`hasSelfReport`)** | ⏳ App build — §2 below |
+| D7 | Self-Report monetization | **One-time purchase (`hasSelfReport`)** | ✅ App (chartContext + SelfReportScreen + AIConsultant); real billing deferred → DOC10 |
 | D8 | Compatibility gating | **Unlimited teaser; full = Seeker; drop "1/mo"** | ✅ App copy + DOC5 §13 patched |
-| D9 | Content coverage | **Author all 10 day-masters** | ⏳ Content sprint — §2 below |
+| D9 | Content coverage | **Author all 10 day-masters** | ✅ App (all 10 authored; complete per §0 + S-series) |
 | D10 | Stem identity assets | **Standardize on PNG seals**; retire SVG/dm-* | DOC5 §20, §AM.8 patched |
 | D11 | Doc sweep scope | **Decisions-only; defer the rest** | This file |
 
@@ -24,15 +46,19 @@ Source: full audit of the live Elementum app against **DOC5** (incl. §AMENDMENT
 
 ---
 
-## 2 · Large workstreams awaiting greenlight
+## 2 · Large workstreams — completed
 
-### D7 — Self-Report one-time purchase (build)
+### D7 — Self-Report one-time purchase (build) ✅
+> **Built (2026-06):** `hasSelfReport` + the purchase gate (`SelfReportScreen`) + AI-Consultant context wiring shipped (demo). Real billing is deferred to pre-beta — see DOC10 §4.2. Original spec retained below for history.
+
 Make Self-Report a separately-purchased unit (`hasSelfReport` boolean), tracked independently of `tier`, available to Seekers as a $6.99–9.99 SKU.
 - **Gating today:** Self-Report is a plain Seeker tile (`SelfReportScreen`), and it is **cosmetic** — saving life-context to `localStorage` (`elementum_selfreport_v1`) does not actually feed any reading or the AI.
 - **To build:** (a) a real purchase/billing flow + `hasSelfReport` state; (b) gate on `tier >= SEEKER && hasSelfReport`; (c) wire the saved context into reading generation + the AI Consultant so it genuinely "recalibrates."
 - **Blocked on:** payment provider decision; confirms whether (c) ships with (a/b) or later.
 
-### D9 — Author all 10 day-masters (content sprint)
+### D9 — Author all 10 day-masters (content sprint) ✅
+> **Done (2026-06):** all 10 day-masters authored; the S-series audit (§4) confirmed content is complete on every live surface. The fields once flagged "missing" were internal-only schema (S1), not real gaps. Original sprint scope retained below for history.
+
 Today only **庚 (The Blade)** is fully authored. The other nine stems fall back gracefully but render thinner.
 - **Missing for 9 stems:** `gifts[]` / `shadows[]` (stem-level, currently 庚 only → Gifts/Shadows sections render blank), `identity.elementIntro.punch/expand` (Reveal essence + Day Master "element intro" fall back), and the 15 `STEM_CARD_DATA` `yourNature.desc` variants per stem (≈135 entries — Pipeline A).
 - **Also TODO across all 10 TGs:** `TG_CARD_DATA[tg].outputs[]` and `frictions[]` (currently `[TODO]`, filtered out at render in `TenGodsDetail`).
