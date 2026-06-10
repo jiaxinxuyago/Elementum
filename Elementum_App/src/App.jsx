@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense, lazy } from 'react';
 import {
   ChartProvider,
   useChart,
@@ -22,41 +22,51 @@ import {
   Step7A_NotifyTime,
 } from './components/onboarding/OnboardingSteps.jsx';
 import LoadingScreen from './components/LoadingScreen.jsx';
-import RevealScreen from './components/RevealScreen.jsx';
-import DetailScreenMockup from './components/mockup/DetailScreenMockup.jsx';
-import EnergyMapMockup from './components/mockup/EnergyMapMockup.jsx';
-// Dashboard shell + 5 tab screens (Phase 1)
+// Eager — cross-cutting providers + the dashboard shell (layout/nav wrapper).
 import DashboardShell from './components/dashboard/DashboardShell.jsx';
-import TodayScreen from './components/dashboard/tabs/TodayScreen.jsx';
-import GuidanceScreen from './components/dashboard/tabs/GuidanceScreen.jsx';
-import ReadingScreen from './components/dashboard/tabs/ReadingScreen.jsx';
-import CompatScreen from './components/dashboard/tabs/CompatScreen.jsx';
-import ProfileScreen from './components/dashboard/tabs/ProfileScreen.jsx';
-// Upgrade modal (Phase 5 — cross-cutting, used by Phase 4 locked cards)
 import { UpgradeModalProvider, UpgradeModalHost, useUpgrade } from './components/dashboard/UpgradeModal.jsx';
-import RawChartPage from './components/dashboard/RawChartPage.jsx';
-import CodexScreen from './components/dashboard/CodexScreen.jsx';
-import ChartResonanceScreen from './components/dashboard/ChartResonanceScreen.jsx';
-import ElementalDrawScreen from './components/dashboard/ElementalDrawScreen.jsx';
-import EnergyManualScreen from './components/dashboard/EnergyManualScreen.jsx';
-import SelfReportScreen from './components/dashboard/SelfReportScreen.jsx';
-import AIConsultantScreen from './components/dashboard/AIConsultantScreen.jsx';
-// Today Hub drill-downs (Direction 2 — mosaic hub + 4 time-period pages)
-import DayPage from './components/dashboard/DayPage.jsx';
-import MonthPage from './components/dashboard/MonthPage.jsx';
-import YearPage from './components/dashboard/YearPage.jsx';
-import DecadePage from './components/dashboard/DecadePage.jsx';
-// Reading-detail pages + Energy Map (Phase 2)
-import EnergyMapScreen from './components/dashboard/EnergyMapScreen.jsx';
-import ElementalNatureDetail from './components/dashboard/reading-detail/ElementalNatureDetail.jsx';
-import DayMasterDetail from './components/dashboard/reading-detail/DayMasterDetail.jsx';
-import TenGodsDetail from './components/dashboard/reading-detail/TenGodsDetail.jsx';
-import ForcesInMotionDetail from './components/dashboard/reading-detail/ForcesInMotionDetail.jsx';
-import LifeChaptersDetail from './components/dashboard/reading-detail/LifeChaptersDetail.jsx';
-import ChartPatternsDetail from './components/dashboard/reading-detail/ChartPatternsDetail.jsx';
-import SeasonalCalibrationDetail from './components/dashboard/reading-detail/SeasonalCalibrationDetail.jsx';
-import LockedDetail from './components/dashboard/reading-detail/LockedDetail.jsx';
-import DevBar from './components/dev/DevBar.jsx';
+
+// ── Code-split (Group E) ────────────────────────────────────────────────────
+// Every post-onboarding screen loads on demand. This pulls all the screen code
+// AND the big reading content (archetypeSource.js, ~276 KB, imported only by
+// these screens) out of the initial bundle — it arrives when a reading/dashboard
+// screen is actually opened. Welcome / onboarding / loading stay eager so first
+// paint and the onboarding flow are instant.
+const RevealScreen = lazy(() => import('./components/RevealScreen.jsx'));
+const DetailScreenMockup = lazy(() => import('./components/mockup/DetailScreenMockup.jsx'));
+const EnergyMapMockup = lazy(() => import('./components/mockup/EnergyMapMockup.jsx'));
+const TodayScreen = lazy(() => import('./components/dashboard/tabs/TodayScreen.jsx'));
+const GuidanceScreen = lazy(() => import('./components/dashboard/tabs/GuidanceScreen.jsx'));
+const ReadingScreen = lazy(() => import('./components/dashboard/tabs/ReadingScreen.jsx'));
+const CompatScreen = lazy(() => import('./components/dashboard/tabs/CompatScreen.jsx'));
+const ProfileScreen = lazy(() => import('./components/dashboard/tabs/ProfileScreen.jsx'));
+const RawChartPage = lazy(() => import('./components/dashboard/RawChartPage.jsx'));
+const CodexScreen = lazy(() => import('./components/dashboard/CodexScreen.jsx'));
+const ChartResonanceScreen = lazy(() => import('./components/dashboard/ChartResonanceScreen.jsx'));
+const ElementalDrawScreen = lazy(() => import('./components/dashboard/ElementalDrawScreen.jsx'));
+const EnergyManualScreen = lazy(() => import('./components/dashboard/EnergyManualScreen.jsx'));
+const SelfReportScreen = lazy(() => import('./components/dashboard/SelfReportScreen.jsx'));
+const AIConsultantScreen = lazy(() => import('./components/dashboard/AIConsultantScreen.jsx'));
+const DayPage = lazy(() => import('./components/dashboard/DayPage.jsx'));
+const MonthPage = lazy(() => import('./components/dashboard/MonthPage.jsx'));
+const YearPage = lazy(() => import('./components/dashboard/YearPage.jsx'));
+const DecadePage = lazy(() => import('./components/dashboard/DecadePage.jsx'));
+const EnergyMapScreen = lazy(() => import('./components/dashboard/EnergyMapScreen.jsx'));
+const ElementalNatureDetail = lazy(() => import('./components/dashboard/reading-detail/ElementalNatureDetail.jsx'));
+const DayMasterDetail = lazy(() => import('./components/dashboard/reading-detail/DayMasterDetail.jsx'));
+const TenGodsDetail = lazy(() => import('./components/dashboard/reading-detail/TenGodsDetail.jsx'));
+const ForcesInMotionDetail = lazy(() => import('./components/dashboard/reading-detail/ForcesInMotionDetail.jsx'));
+const LifeChaptersDetail = lazy(() => import('./components/dashboard/reading-detail/LifeChaptersDetail.jsx'));
+const ChartPatternsDetail = lazy(() => import('./components/dashboard/reading-detail/ChartPatternsDetail.jsx'));
+const SeasonalCalibrationDetail = lazy(() => import('./components/dashboard/reading-detail/SeasonalCalibrationDetail.jsx'));
+const LockedDetail = lazy(() => import('./components/dashboard/reading-detail/LockedDetail.jsx'));
+const DevBar = lazy(() => import('./components/dev/DevBar.jsx'));
+
+// Lazy-load placeholder — a silk page while a screen's chunk arrives (usually
+// imperceptible; chunks are cached after first visit).
+function ScreenFallback() {
+  return <div style={{ width: '100%', height: '100%', minHeight: 480, background: SILK }} />;
+}
 import { SILK } from './styles/tokens.jsx';
 import { SCREEN_BG, PLATE_BG } from './styles/backgrounds.js';
 import ErrorBoundary from './components/ErrorBoundary.jsx';
@@ -114,7 +124,7 @@ function Shell({ children }) {
         padding: 20,
       }}
     >
-      {IS_DEV && showDev && <DevBar />}
+      {IS_DEV && showDev && <Suspense fallback={null}><DevBar /></Suspense>}
       {children}
     </div>
   );
@@ -501,7 +511,7 @@ export default function App() {
           <PhoneFrame>
             {/* Graceful recovery — a calc/render error never blanks the
                 screen; it offers a soft path back to adjust birth data. */}
-            <ErrorBoundary>{rendered}</ErrorBoundary>
+            <ErrorBoundary><Suspense fallback={<ScreenFallback />}>{rendered}</Suspense></ErrorBoundary>
             {/* Upgrade modal overlays only the phone frame (DOC5 §21) */}
             <UpgradeModalHost />
           </PhoneFrame>

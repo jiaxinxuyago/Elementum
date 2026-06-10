@@ -19,7 +19,14 @@
 
 import React, { createContext, useContext, useState, useCallback } from 'react';
 import { useChart, TIER_PRICES } from '../../store/chartContext.jsx';
-import { STEM_CARD_DATA } from '../../content/archetypeSource.js';
+// Stem -> archetype name (10 entries) inlined so this always-mounted provider
+// does NOT statically import the 276 KB archetypeSource.js content file
+// (Group E — keeps that content out of the eager initial bundle; it rides with
+// the lazy reading screens instead).
+const ARCHETYPE_NAMES = {
+  '甲': 'The Oak', '乙': 'The Vine', '丙': 'The Sun', '丁': 'The Ember', '戊': 'The Mountain',
+  '己': 'The Field', '庚': 'The Blade', '辛': 'The Jewel', '壬': 'The Ocean', '癸': 'The Rain',
+};
 import { Icon, DayMasterMark } from '../shared/icons';
 import {
   ink, inkSoft, inkLight, bronzeDark, gold, advisor, cream, paperHair,
@@ -123,7 +130,7 @@ export function UpgradeModalHost() {
     return (
       <WelcomeToSeekerScreen
         element={dmElement} stemKey={stemKey}
-        archetype={STEM_CARD_DATA[chart?.dayMaster?.stem]?.identity?.archetypeName || `${dmElement} Day Master`}
+        archetype={ARCHETYPE_NAMES[chart?.dayMaster?.stem] || `${dmElement} Day Master`}
         onDone={() => { endWelcomeBack(); if (typeof window !== 'undefined') window.location.hash = '#/app-energymap'; }}
       />
     );
