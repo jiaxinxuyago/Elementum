@@ -1,7 +1,11 @@
 # Claude worktrees and session artifacts
 .claude/
 Elementum/
-Code/*.bak*
+
+# Editor/backup cruft
+*.bak
+*.tmp
+*.orig
 
 # Large reference bundle (downloaded export — not for version control)
 Reference/
