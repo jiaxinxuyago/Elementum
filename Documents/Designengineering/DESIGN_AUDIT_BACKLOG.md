@@ -44,7 +44,7 @@ Source: full audit of the live Elementum app against **DOC5** (incl. §AMENDMENT
 | D9 | Content coverage | **Author all 10 day-masters** | ✅ App (all 10 authored; complete per §0 + S-series) |
 | D10 | Stem identity assets | **Standardize on PNG seals**; retire SVG/dm-* | DOC5 §20, §AM.8 patched |
 | D11 | Doc sweep scope | **Decisions-only; defer the rest** | This file |
-| D12 | Reading schema & structure | **RE-OPENED for redesign** (owner decision, 2026-06-10) — supersedes the S-series "settled" status; goal: concept-ladder journey + resonance-engine content (Beta north star) | **DOC5 §0 (charter)**; `READING_FORMAT_AUDIT.md` (evidence base); 150-key batch stays gated on the new schema freeze |
+| D12 | Reading schema & structure | **RE-OPENED for redesign** (owner decision, 2026-06-10) — supersedes the S-series "settled" status; goal: concept-ladder journey + resonance-engine content (Beta north star). **D12a (naming ruling):** Ten Gods use the mythic-persona register (Mirror…Sage) with mandatory structural definition lines; Profile-DB names + engine translations are non-surfacing aliases | **DOC5 §0 (charter)** · `READING_CONCEPT_INVENTORY.md` (Step 1.1 — vocabulary law + registry) · `READING_FORMAT_AUDIT.md` (format evidence) · 150-key batch stays gated on the new schema freeze |
 
 **Already shipped this pass (app):** D5 (Reveal Section 3 restored — renders whenever a chart has a fully-absent element), D8 (CompatScreen tier copy reframed to unlimited-teaser / full=Seeker).
 
