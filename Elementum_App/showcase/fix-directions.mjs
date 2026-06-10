@@ -1,0 +1,15 @@
+import { chromium } from 'playwright';
+import { pathToFileURL } from 'node:url';
+import path from 'node:path';
+const BASE = 'D:/Elementum/Elementum_Project/Reference/Elementum_unzip';
+const f = process.argv[2] || 'Elementum - Visual Directions v2.html';
+const browser = await chromium.launch();
+const page = await browser.newPage({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 1 });
+await page.goto(pathToFileURL(path.join(BASE, f)).href, { waitUntil: 'networkidle', timeout: 25000 }).catch(()=>{});
+await page.evaluate(() => document.fonts && document.fonts.ready).catch(()=>{});
+await page.waitForTimeout(1500);
+const dims = await page.evaluate(() => ({ h: document.body.scrollHeight, w: document.body.scrollWidth }));
+console.log('page dims', JSON.stringify(dims));
+await page.screenshot({ path: 'C:/Users/NOBOD/AppData/Local/Temp/vd_full.jpg', type: 'jpeg', quality: 70, fullPage: true });
+console.log('saved /tmp/vd_full.jpg');
+await browser.close();

@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Noto+Serif+SC:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --cream:#F8F6F0; --silk:#F1E9D6; --silkDeep:#ECE2C9; --silkFold:#DDD1B3;
+    --parchment:#EAE5DF; --vellum:#DDD8CC; --paperHair:#CDBE9E;
+    --ink:#2B2722; --inkSoft:#4A433B; --inkLight:#857D72; --inkMist:#B8AFA1;
+    --bronze:#8b7355; --bronzeL:#9d8468; --bronzeDark:#6b5339; --walnut:#5a4430; --gold:#D4AF37;
+    --seal:#A04030;
+    --metal:#8ba3b8; --metalD:#6a849a; --wood:#7a9e6e; --woodD:#587a4d;
+    --fire:#c4745a; --fireD:#9e5540; --earth:#b89a6a; --earthD:#927750; --water:#5a7fa8; --waterD:#3e5f85;
+  }
+  *{box-sizing:border-box; margin:0; padding:0; -webkit-font-smoothing:antialiased;}
+  body{background:#3a352d; font-family:"EB Garamond",Georgia,serif; color:var(--ink);}
+  .diagram{
+    position:relative; overflow:hidden; margin:0 auto;
+    background:radial-gradient(130% 110% at 18% 6%, #FBF8F1 0%, var(--silk) 46%, var(--silkDeep) 100%);
+  }
+  .diagram::after{ /* faint paper vignette */
+    content:""; position:absolute; inset:0; pointer-events:none;
+    box-shadow:inset 0 0 200px rgba(90,68,48,.13);
+  }
+  .eyebrow{font-family:"Cinzel",serif; font-weight:600; letter-spacing:6px; text-transform:uppercase; color:var(--bronzeDark);}
+  .han{font-family:"Noto Serif SC",serif;}
+  .cor{font-family:"Cormorant Garamond",serif;}
+  .eb{font-family:"EB Garamond",serif;}
+  .cz{font-family:"Cinzel",serif;}
+  .seal-dot{display:inline-block; width:9px; height:9px; border-radius:999px; background:var(--seal);}
+
+  /* ===== shared node/card ===== */
+  .card{background:rgba(248,241,225,.92); border:1px solid var(--paperHair); border-radius:12px;}
+  .tint-metal{background:rgba(139,163,184,.10); border:1px solid rgba(139,163,184,.40);}
+  .tint-fire{background:rgba(196,116,90,.10); border:1px solid rgba(196,116,90,.40);}
+  .tint-wood{background:rgba(122,158,110,.10); border:1px solid rgba(122,158,110,.40);}
+  .tint-earth{background:rgba(184,154,106,.10); border:1px solid rgba(184,154,106,.40);}
+  .tint-water{background:rgba(90,127,168,.10); border:1px solid rgba(90,127,168,.40);}
+  .arrow{color:var(--bronze); font-size:34px; line-height:1;}
+
+  /* =========================================================
+     D1 — THE COMPASS
+  ========================================================= */
+  #d1{width:1600px; height:920px;}
+  #d1 .wrap{position:absolute; inset:0; padding:84px 96px; display:flex; flex-direction:column;}
+  #d1 .eyebrow{font-size:19px; margin-bottom:10px;}
+  #d1 h1{font-family:"Cormorant Garamond",serif; font-weight:500; font-size:60px; color:var(--ink); margin-bottom:8px;}
+  #d1 .beam{flex:1; display:flex; align-items:center; justify-content:center; position:relative;}
+  #d1 .bar{position:absolute; top:50%; left:230px; right:230px; height:3px;
+    background:linear-gradient(90deg,var(--metalD),var(--bronze) 50%,var(--fireD)); transform:translateY(-50%); border-radius:2px;}
+  #d1 .fulcrum{position:absolute; left:50%; top:calc(50% + 2px); transform:translateX(-50%);
+    width:0; height:0; border-left:34px solid transparent; border-right:34px solid transparent; border-top:54px solid var(--bronzeDark);}
+  #d1 .node{position:relative; z-index:2; width:330px; height:330px; border-radius:999px; display:flex;
+    flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:34px;}
+  #d1 .node.left{margin-right:auto;}
+  #d1 .node.right{margin-left:auto;}
+  #d1 .node .k{font-family:"Cormorant Garamond",serif; font-size:42px; font-weight:500; line-height:1.05; color:var(--ink);}
+  #d1 .node .s{font-size:19px; color:var(--inkSoft); margin-top:16px; line-height:1.45; max-width:240px;}
+  #d1 .pivot{position:absolute; left:50%; bottom:96px; transform:translateX(-50%); text-align:center; z-index:3;}
+  #d1 .pivot .lbl{font-family:"Cormorant Garamond",serif; font-style:italic; font-size:27px; color:var(--bronzeDark); margin-top:14px;}
+  #d1 .quote{font-family:"Cormorant Garamond",serif; font-style:italic; font-size:30px; color:var(--inkSoft);
+    text-align:center; line-height:1.4; max-width:1180px; margin:0 auto;}
+
+  /* =========================================================
+     D2 — DETERMINISTIC PIPELINE
+  ========================================================= */
+  #d2{width:1600px; height:880px;}
+  #d2 .wrap{position:absolute; inset:0; padding:80px 80px;}
+  #d2 .eyebrow{font-size:18px;}
+  #d2 h1{font-family:"Cormorant Garamond",serif; font-weight:500; font-size:52px; margin:10px 0 50px;}
+  #d2 .row{display:flex; align-items:stretch; gap:8px;}
+  #d2 .step{flex:1; border-radius:12px; padding:26px 18px; text-align:center; display:flex; flex-direction:column; align-items:center; justify-content:flex-start; min-height:300px;}
+  #d2 .step .glyph{font-family:"Noto Serif SC",serif; font-size:46px; line-height:1; margin-bottom:18px;}
+  #d2 .step .t{font-family:"Cormorant Garamond",serif; font-size:26px; font-weight:600; color:var(--ink); line-height:1.1;}
+  #d2 .step .d{font-size:16.5px; color:var(--inkSoft); margin-top:12px; line-height:1.45;}
+  #d2 .step .n{font-family:"Cinzel",serif; font-size:12px; letter-spacing:2px; color:var(--bronze); margin-bottom:14px;}
+  #d2 .a{display:flex; align-items:center; color:var(--bronze); font-size:30px; padding-top:130px;}
+  #d2 .rule{margin-top:42px; border-radius:12px; padding:26px 34px; display:flex; align-items:center; gap:20px;
+    background:rgba(160,64,48,.07); border:1px solid rgba(160,64,48,.34);}
+  #d2 .rule .mark{width:40px; height:40px; border-radius:999px; background:var(--seal); flex:none; display:flex; align-items:center; justify-content:center; color:#F1E9D6; font-family:"Noto Serif SC",serif; font-size:20px;}
+  #d2 .rule .txt{font-family:"Cormorant Garamond",serif; font-size:27px; color:var(--walnut); line-height:1.3;}
+  #d2 .rule .txt b{color:var(--seal); font-weight:600;}
+
+  /* =========================================================
+     D3 — STRENGTH MODEL
+  ========================================================= */
+  #d3{width:1600px; height:1000px;}
+  #d3 .wrap{position:absolute; inset:0; padding:78px 90px;}
+  #d3 .eyebrow{font-size:18px;}
+  #d3 h1{font-family:"Cormorant Garamond",serif; font-weight:500; font-size:52px; margin:10px 0 6px;}
+  #d3 .sub{font-size:20px; color:var(--inkSoft); margin-bottom:40px;}
+  #d3 .sources{display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:36px;}
+  #d3 .src{border-radius:12px; padding:20px 20px; text-align:left;}
+  #d3 .src .l{font-family:"Cinzel",serif; font-size:22px; font-weight:600; color:var(--bronzeDark);}
+  #d3 .src .h{font-family:"Noto Serif SC",serif; font-size:21px; color:var(--ink); margin:6px 0 8px;}
+  #d3 .src .d{font-size:16px; color:var(--inkSoft); line-height:1.4;}
+  #d3 .flow{display:flex; align-items:center; gap:22px;}
+  #d3 .gates{display:flex; gap:12px;}
+  #d3 .gate{width:150px; height:150px; border-radius:999px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;}
+  #d3 .gate .g{font-family:"Noto Serif SC",serif; font-size:34px; color:var(--ink);}
+  #d3 .gate .gl{font-size:15px; color:var(--inkSoft); margin-top:6px;}
+  #d3 .toband{flex:1;}
+  #d3 .bands{display:flex; flex-direction:column; gap:10px;}
+  #d3 .band{display:flex; align-items:center; gap:16px;}
+  #d3 .band .pill{font-family:"Cinzel",serif; font-size:16px; letter-spacing:1.5px; padding:8px 18px; border-radius:999px; color:#fff; min-width:168px; text-align:center;}
+  #d3 .band .meta{padding:7px 16px; border-radius:999px;}
+  #d3 .band .arr{color:var(--bronze); font-size:24px;}
+  #d3 .weights{margin-top:36px; display:flex; align-items:flex-end; gap:14px; height:150px;}
+  #d3 .wbar{display:flex; flex-direction:column; align-items:center; justify-content:flex-end; gap:8px;}
+  #d3 .wbar .bar{width:74px; background:linear-gradient(180deg,var(--bronze),var(--bronzeDark)); border-radius:4px 4px 0 0;}
+  #d3 .wbar .wl{font-size:14px; color:var(--inkSoft); text-align:center; line-height:1.2;}
+  #d3 .wbar .wv{font-family:"Cinzel",serif; font-size:15px; color:var(--bronzeDark);}
+  #d3 .wtitle{font-family:"Cinzel",serif; font-size:13px; letter-spacing:2px; color:var(--bronze); margin:34px 0 4px; text-transform:uppercase;}
+
+  /* =========================================================
+     D4 — CANONICAL JSON CONTRACT
+  ========================================================= */
+  #d4{width:1600px; height:900px;}
+  #d4 .wrap{position:absolute; inset:0; padding:80px 90px; display:flex; gap:54px;}
+  #d4 .left{flex:1.15;}
+  #d4 .right{flex:1; display:flex; flex-direction:column; justify-content:center;}
+  #d4 .eyebrow{font-size:18px;}
+  #d4 h1{font-family:"Cormorant Garamond",serif; font-weight:500; font-size:50px; margin:10px 0 8px;}
+  #d4 .sub{font-size:19px; color:var(--inkSoft); margin-bottom:30px; line-height:1.45; max-width:560px;}
+  #d4 .doc{border-radius:14px; padding:30px 34px; background:rgba(248,241,225,.94); border:1px solid var(--paperHair); box-shadow:0 14px 40px -22px rgba(43,39,34,.4);}
+  #d4 .kv{display:flex; align-items:baseline; padding:11px 0; border-bottom:1px dashed rgba(205,190,158,.7);}
+  #d4 .kv:last-child{border-bottom:none;}
+  #d4 .kv .k{font-family:"Cinzel",serif; font-size:18px; color:var(--bronzeDark); width:230px;}
+  #d4 .kv .v{font-size:18px; color:var(--inkSoft);}
+  #d4 .refcard{border-radius:14px; padding:32px 34px;}
+  #d4 .refcard .rl{font-family:"Cinzel",serif; font-size:13px; letter-spacing:3px; text-transform:uppercase; color:var(--metalD); margin-bottom:18px;}
+  #d4 .refcard .glyph{font-family:"Noto Serif SC",serif; font-size:78px; color:var(--metalD); line-height:1;}
+  #d4 .refcard .name{font-family:"Cormorant Garamond",serif; font-size:40px; color:var(--ink); margin:4px 0 2px;}
+  #d4 .refcard .manifesto{font-family:"Cormorant Garamond",serif; font-style:italic; font-size:21px; color:var(--inkSoft); margin-bottom:22px;}
+  #d4 .refrow{display:flex; justify-content:space-between; padding:9px 0; border-top:1px solid rgba(139,163,184,.3); font-size:18px;}
+  #d4 .refrow .a{color:var(--inkLight);} #d4 .refrow .b{color:var(--ink); font-family:"Noto Serif SC",serif;}
+  #d4 .pillars{display:flex; gap:8px; margin-top:18px;}
+  #d4 .pillar{flex:1; text-align:center; border-radius:10px; padding:10px 4px; background:rgba(139,163,184,.10); border:1px solid rgba(139,163,184,.35);}
+  #d4 .pillar .py{font-family:"Cinzel",serif; font-size:11px; letter-spacing:1px; color:var(--bronze);}
+  #d4 .pillar .pg{font-family:"Noto Serif SC",serif; font-size:30px; color:var(--ink); margin-top:4px;}
+</style>
+</head>
+<body>
+
+<!-- ===================== D1 — COMPASS ===================== -->
+<div class="diagram" id="d1" data-diagram>
+  <div class="wrap">
+    <div class="eyebrow">The Governing Tension</div>
+    <h1 class="cor">Two things most apps choose between</h1>
+    <div class="beam">
+      <div class="bar"></div>
+      <div class="fulcrum"></div>
+      <div class="node left tint-metal">
+        <div class="k">Ancient<br>Seriousness</div>
+        <div class="s">Ritual · classical sources · precise enough to feel uncomfortably accurate</div>
+      </div>
+      <div class="node right tint-fire">
+        <div class="k">Daily<br>Accessibility</div>
+        <div class="s">Openable in the seven minutes before a meeting · one clear signal</div>
+      </div>
+      <div class="pivot">
+        <span class="seal-dot"></span>
+        <div class="lbl">a recognition event, not an information delivery</div>
+      </div>
+    </div>
+    <div class="quote">“A private silk-paper codex that knows your energetic structure —<br>deterministic underneath, poetic on the surface, restrained in UI.”</div>
+  </div>
+</div>
+
+<!-- ===================== D2 — PIPELINE ===================== -->
+<div class="diagram" id="d2" data-diagram>
+  <div class="wrap">
+    <div class="eyebrow">The Deterministic Pipeline</div>
+    <h1 class="cor">Birth data becomes a chart — with no guessing</h1>
+    <div class="row">
+      <div class="step card"><div class="n">INPUT</div><div class="glyph" style="color:var(--bronzeDark)">生</div><div class="t">Birth Data</div><div class="d">Date · exact hour · place, corrected to true solar time</div></div>
+      <div class="a">→</div>
+      <div class="step tint-water"><div class="n">天干地支</div><div class="glyph" style="color:var(--waterD)">柱</div><div class="t">Four Pillars</div><div class="d">Year · Month · Day · Hour stems &amp; branches</div></div>
+      <div class="a">→</div>
+      <div class="step tint-wood"><div class="n">藏干</div><div class="glyph" style="color:var(--woodD)">藏</div><div class="t">Hidden Stems</div><div class="d">Each branch expanded into its concealed elements</div></div>
+      <div class="a">→</div>
+      <div class="step tint-earth"><div class="n">得令·得地·得势</div><div class="glyph" style="color:var(--earthD)">衡</div><div class="t">Strength Gate</div><div class="d">Element composition weighed → strength band</div></div>
+      <div class="a">→</div>
+      <div class="step tint-fire"><div class="n">用神·调候</div><div class="glyph" style="color:var(--fireD)">神</div><div class="t">Useful God</div><div class="d">The element that restores balance + climate override</div></div>
+      <div class="a">→</div>
+      <div class="step tint-metal"><div class="n">OUTPUT</div><div class="glyph" style="color:var(--metalD)">契</div><div class="t">Canonical JSON</div><div class="d">One locked object every reading is built from</div></div>
+    </div>
+    <div class="rule">
+      <div class="mark han">禁</div>
+      <div class="txt">The cardinal rule — <b>the LLM never sees raw birth data.</b> It receives a fully computed, validated object. Layer&nbsp;1 is pure JavaScript: no model, fully deterministic, every stem&nbsp;×&nbsp;strength verified.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== D3 — STRENGTH MODEL ===================== -->
+<div class="diagram" id="d3" data-diagram>
+  <div class="wrap">
+    <div class="eyebrow">How Strong Is The Day Master?</div>
+    <h1 class="cor">A hybrid of four classical methods</h1>
+    <div class="sub">Replacing a naïve character count with a weighted model — <span class="han">C + D + B + A</span></div>
+
+    <div class="sources">
+      <div class="src tint-metal"><div class="l">C</div><div class="h">黄景泓打分法</div><div class="d">Position weights — where in the chart an element sits</div></div>
+      <div class="src tint-wood"><div class="l">D</div><div class="h">藏干理论</div><div class="d">Hidden-stem expansion of every branch</div></div>
+      <div class="src tint-fire"><div class="l">B</div><div class="h">穷通宝鉴</div><div class="d">Seasonal phase multipliers by birth month</div></div>
+      <div class="src tint-earth"><div class="l">A</div><div class="h">子平真诠</div><div class="d">得令 · 得地 · 得势 gate check</div></div>
+    </div>
+
+    <div class="flow">
+      <div class="gates">
+        <div class="gate tint-earth"><div class="g">得令</div><div class="gl">in season</div></div>
+        <div class="gate tint-earth"><div class="g">得地</div><div class="gl">rooted</div></div>
+        <div class="gate tint-earth"><div class="g">得势</div><div class="gl">supported</div></div>
+      </div>
+      <div class="arrow">→</div>
+      <div class="toband">
+        <div class="bands">
+          <div class="band"><div class="pill" style="background:var(--metalD)">CONCENTRATED</div><span class="arr">←</span><div class="meta tint-metal eb">extremely strong · strong</div></div>
+          <div class="band"><div class="pill" style="background:var(--earthD)">BALANCED</div><span class="arr">←</span><div class="meta tint-earth eb">moderate</div></div>
+          <div class="band"><div class="pill" style="background:var(--waterD)">OPEN</div><span class="arr">←</span><div class="meta tint-water eb">weak · extremely weak</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wtitle">Position weights — the month branch dominates</div>
+    <div class="weights">
+      <div class="wbar"><div class="wv">40%</div><div class="bar" style="height:128px"></div><div class="wl">Month<br>branch</div></div>
+      <div class="wbar"><div class="wv">20%</div><div class="bar" style="height:64px"></div><div class="wl">Day<br>branch</div></div>
+      <div class="wbar"><div class="wv">15%</div><div class="bar" style="height:48px"></div><div class="wl">Month<br>stem</div></div>
+      <div class="wbar"><div class="wv">10%</div><div class="bar" style="height:32px"></div><div class="wl">Hour<br>stem</div></div>
+      <div class="wbar"><div class="wv">5%</div><div class="bar" style="height:16px"></div><div class="wl">Year<br>stem</div></div>
+      <div class="wbar"><div class="wv">5%</div><div class="bar" style="height:16px"></div><div class="wl">Year<br>branch</div></div>
+      <div class="wbar"><div class="wv">5%</div><div class="bar" style="height:16px"></div><div class="wl">Hour<br>branch</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== D4 — CANONICAL JSON CONTRACT ===================== -->
+<div class="diagram" id="d4" data-diagram>
+  <div class="wrap">
+    <div class="left">
+      <div class="eyebrow">The Locked Contract</div>
+      <h1 class="cor">One object, read by everything</h1>
+      <div class="sub">The engine always outputs this structure. No content layer — and no LLM — ever receives anything else.</div>
+      <div class="doc">
+        <div class="kv"><div class="k">meta</div><div class="v">version · timezone · solar-time correction</div></div>
+        <div class="kv"><div class="k">pillars</div><div class="v">year · month · day · hour (stem + branch)</div></div>
+        <div class="kv"><div class="k">dayMaster</div><div class="v">stem · element · polarity · strength · band</div></div>
+        <div class="kv"><div class="k">elements</div><div class="v">weighted composition across the five</div></div>
+        <div class="kv"><div class="k">missingElements</div><div class="v">what the chart never supplies</div></div>
+        <div class="kv"><div class="k">tenGods</div><div class="v">every stem's relationship to the day master</div></div>
+        <div class="kv"><div class="k">combinations</div><div class="v">合 · 冲 · 刑 · 害 bonds between pillars</div></div>
+        <div class="kv"><div class="k">luckPillars · flowYear</div><div class="v">decade cycles + the current year</div></div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="refcard tint-metal">
+        <div class="rl">The reference chart · 1995 · 04 · 29</div>
+        <div class="glyph">庚</div>
+        <div class="name cor">The Blade</div>
+        <div class="manifesto">“Precision before intention.”</div>
+        <div class="refrow"><span class="a">Day Master</span><span class="b">庚 · Yang Metal</span></div>
+        <div class="refrow"><span class="a">Strength</span><span class="b" style="font-family:'EB Garamond'">extremely strong · 0.92</span></div>
+        <div class="refrow"><span class="a">Band</span><span class="b" style="font-family:'Cinzel'; font-size:15px">CONCENTRATED</span></div>
+        <div class="refrow"><span class="a">Missing element</span><span class="b">火 Fire</span></div>
+        <div class="pillars">
+          <div class="pillar"><div class="py">YEAR</div><div class="pg">乙亥</div></div>
+          <div class="pillar"><div class="py">MONTH</div><div class="pg">庚辰</div></div>
+          <div class="pillar"><div class="py">DAY</div><div class="pg">庚寅</div></div>
+          <div class="pillar"><div class="py">HOUR</div><div class="pg">乙酉</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* ===== D5 — TEN ARCHETYPES BOARD ===== */
+  #d5{width:1600px; height:840px;}
+  #d5 .wrap{position:absolute; inset:0; padding:74px 70px;}
+  #d5 .eyebrow{font-size:18px;}
+  #d5 h1{font-family:"Cormorant Garamond",serif; font-weight:500; font-size:50px; margin:10px 0 40px;}
+  #d5 .cols{display:grid; grid-template-columns:repeat(5,1fr); gap:14px;}
+  #d5 .col .ehead{text-align:center; padding:12px 0 16px;}
+  #d5 .col .ehead .eg{font-family:"Noto Serif SC",serif; font-size:34px; line-height:1;}
+  #d5 .col .ehead .en{font-family:"Cinzel",serif; font-size:14px; letter-spacing:3px; text-transform:uppercase; margin-top:6px;}
+  #d5 .tile{border-radius:12px; padding:20px 16px 18px; text-align:center; margin-bottom:12px; min-height:228px; display:flex; flex-direction:column; align-items:center; justify-content:flex-start;}
+  #d5 .tile .g{font-family:"Noto Serif SC",serif; font-size:50px; line-height:1;}
+  #d5 .tile .pe{font-family:"Cinzel",serif; font-size:10px; letter-spacing:2px; text-transform:uppercase; margin:10px 0 4px;}
+  #d5 .tile .nm{font-family:"Cormorant Garamond",serif; font-size:25px; font-weight:600; color:var(--ink); line-height:1.05;}
+  #d5 .tile .mf{font-family:"EB Garamond",serif; font-style:italic; font-size:14.5px; color:var(--inkSoft); margin-top:10px; line-height:1.4;}
+
+  /* ===== D6 — LAYERED COCKTAIL ===== */
+  #d6{width:1600px; height:760px;}
+  #d6 .wrap{position:absolute; inset:0; padding:78px 84px; display:flex; gap:54px;}
+  #d6 .eyebrow{font-size:18px;}
+  #d6 h1{font-family:"Cormorant Garamond",serif; font-weight:500; font-size:52px; margin:10px 0 6px;}
+  #d6 .sub{font-size:19px; color:var(--inkSoft); margin-bottom:34px; max-width:560px; line-height:1.45;}
+  #d6 .left{flex:1.3;}
+  #d6 .layer{border-radius:14px; padding:24px 28px; margin-bottom:14px; display:flex; align-items:center; gap:24px;}
+  #d6 .layer .num{font-family:"Cormorant Garamond",serif; font-size:46px; font-weight:500; width:54px; flex:none;}
+  #d6 .layer .body{flex:1;}
+  #d6 .layer .lt{font-family:"Cormorant Garamond",serif; font-size:27px; font-weight:600; color:var(--ink);}
+  #d6 .layer .lf{font-family:"Cinzel",serif; font-size:13px; letter-spacing:1.5px; color:var(--bronzeDark); margin:4px 0;}
+  #d6 .layer .ld{font-size:16px; color:var(--inkSoft);}
+  #d6 .layer .ct{font-family:"Cormorant Garamond",serif; font-size:40px; font-weight:500; flex:none;}
+  #d6 .right{flex:1; display:flex; flex-direction:column; justify-content:center;}
+  #d6 .deriv{border-radius:14px; padding:30px;}
+  #d6 .deriv .dl{font-family:"Cinzel",serif; font-size:12px; letter-spacing:2.5px; text-transform:uppercase; color:var(--metalD); margin-bottom:18px;}
+  #d6 .chip{background:rgba(248,241,225,.9); border:1px solid var(--paperHair); border-radius:10px; padding:12px 16px; margin-bottom:10px;}
+  #d6 .chip .cl{font-size:13px; color:var(--inkLight);}
+  #d6 .chip .cv{font-family:"Noto Serif SC",serif; font-size:20px; color:var(--ink);}
+  #d6 .chip .cv b{font-family:"Cormorant Garamond",serif; font-weight:600; font-size:21px; margin-left:8px;}
+  #d6 .eq{font-family:"Cormorant Garamond",serif; font-style:italic; font-size:21px; color:var(--bronzeDark); margin-top:14px; text-align:center;}
+
+  /* ===== D7 — THE 50-KEY COLLAPSE ===== */
+  #d7{width:1600px; height:720px;}
+  #d7 .wrap{position:absolute; inset:0; padding:74px 80px;}
+  #d7 .eyebrow{font-size:18px;}
+  #d7 h1{font-family:"Cormorant Garamond",serif; font-weight:500; font-size:50px; margin:10px 0 6px;}
+  #d7 .sub{font-size:18px; color:var(--inkSoft); margin-bottom:30px; max-width:1100px; line-height:1.45;}
+  #d7 .flow{display:flex; align-items:center; gap:34px;}
+  #d7 .cubewrap{flex:none; width:340px; text-align:center;}
+  #d7 .cubewrap .axis{font-family:"Cinzel",serif; font-size:12px; letter-spacing:1.5px; color:var(--bronzeDark); margin-top:14px; line-height:1.7;}
+  #d7 .collapse{font-family:"Cormorant Garamond",serif; font-style:italic; font-size:22px; color:var(--bronze); flex:none;}
+  #d7 table{border-collapse:separate; border-spacing:5px; flex:1;}
+  #d7 th,#d7 td{text-align:center;}
+  #d7 .gh{font-family:"Cinzel",serif; font-size:11.5px; letter-spacing:.5px; color:var(--inkSoft); padding-bottom:4px; line-height:1.25;}
+  #d7 .gh .gx{font-family:"Noto Serif SC",serif; font-size:15px; color:var(--ink); display:block;}
+  #d7 .rh{font-family:"Noto Serif SC",serif; font-size:22px; padding-right:8px;}
+  #d7 td.cell{width:48px; height:48px; border-radius:8px; font-family:"Noto Serif SC",serif; font-size:22px; font-weight:500;}
+  #d7 .legend{margin-top:24px; font-size:15px; color:var(--inkSoft); text-align:center;}
+</style>
+
+<!-- ===================== D5 — TEN ARCHETYPES BOARD ===================== -->
+<div class="diagram" id="d5" data-diagram>
+  <div class="wrap">
+    <div class="eyebrow">The Ten Day Masters</div>
+    <h1 class="cor">Ten archetypes — five elements, two polarities</h1>
+    <div class="cols">
+      <div class="col">
+        <div class="ehead" style="color:var(--woodD)"><div class="eg">木</div><div class="en">Wood</div></div>
+        <div class="tile tint-wood"><div class="g" style="color:var(--woodD)">甲</div><div class="pe" style="color:var(--woodD)">Yang · Wood</div><div class="nm">The Oak</div><div class="mf">“Growth is not ambition — it is the architecture.”</div></div>
+        <div class="tile tint-wood"><div class="g" style="color:var(--woodD)">乙</div><div class="pe" style="color:var(--woodD)">Yin · Wood</div><div class="nm">The Vine</div><div class="mf">“Finds the path no one else sees.”</div></div>
+      </div>
+      <div class="col">
+        <div class="ehead" style="color:var(--fireD)"><div class="eg">火</div><div class="en">Fire</div></div>
+        <div class="tile tint-fire"><div class="g" style="color:var(--fireD)">丙</div><div class="pe" style="color:var(--fireD)">Yang · Fire</div><div class="nm">The Sun</div><div class="mf">“Simply is light — and everything near it comes alive.”</div></div>
+        <div class="tile tint-fire"><div class="g" style="color:var(--fireD)">丁</div><div class="pe" style="color:var(--fireD)">Yin · Fire</div><div class="nm">The Candle</div><div class="mf">“Illuminates completely what it is pointed at.”</div></div>
+      </div>
+      <div class="col">
+        <div class="ehead" style="color:var(--earthD)"><div class="eg">土</div><div class="en">Earth</div></div>
+        <div class="tile tint-earth"><div class="g" style="color:var(--earthD)">戊</div><div class="pe" style="color:var(--earthD)">Yang · Earth</div><div class="nm">The Mountain</div><div class="mf">“The ground that holds.”</div></div>
+        <div class="tile tint-earth"><div class="g" style="color:var(--earthD)">己</div><div class="pe" style="color:var(--earthD)">Yin · Earth</div><div class="nm">The Field</div><div class="mf">“Leaves everything it touches more alive.”</div></div>
+      </div>
+      <div class="col">
+        <div class="ehead" style="color:var(--metalD)"><div class="eg">金</div><div class="en">Metal</div></div>
+        <div class="tile tint-metal" style="box-shadow:0 0 0 2px var(--metalD) inset"><div class="g" style="color:var(--metalD)">庚</div><div class="pe" style="color:var(--metalD)">Yang · Metal</div><div class="nm">The Blade</div><div class="mf">“Precision before intention.”</div></div>
+        <div class="tile tint-metal"><div class="g" style="color:var(--metalD)">辛</div><div class="pe" style="color:var(--metalD)">Yin · Metal</div><div class="nm">The Jewel</div><div class="mf">“Perceives what is excellent before the question is asked.”</div></div>
+      </div>
+      <div class="col">
+        <div class="ehead" style="color:var(--waterD)"><div class="eg">水</div><div class="en">Water</div></div>
+        <div class="tile tint-water"><div class="g" style="color:var(--waterD)">壬</div><div class="pe" style="color:var(--waterD)">Yang · Water</div><div class="nm">The Ocean</div><div class="mf">“Holds more beneath the surface than it ever shows.”</div></div>
+        <div class="tile tint-water"><div class="g" style="color:var(--waterD)">癸</div><div class="pe" style="color:var(--waterD)">Yin · Water</div><div class="nm">The Rain</div><div class="mf">“Knows what is true before it is spoken.”</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== D6 — LAYERED COCKTAIL ===================== -->
+<div class="diagram" id="d6" data-diagram>
+  <div class="wrap">
+    <div class="left">
+      <div class="eyebrow">One Identity, Three Layers</div>
+      <h1 class="cor">The layered cocktail</h1>
+      <div class="sub">Identity is not one key — it is a stack of lenses, each derived on its own and read together.</div>
+      <div class="layer tint-water"><div class="num" style="color:var(--waterD)">3</div><div class="body"><div class="lt">Secondary Energy</div><div class="lf">[ secondary element ] _ [ ten god ]</div><div class="ld">the next voice in the chart · shared 50-key pool</div></div><div class="ct" style="color:var(--waterD)">50</div></div>
+      <div class="layer tint-fire"><div class="num" style="color:var(--fireD)">2</div><div class="body"><div class="lt">Dominant Energy</div><div class="lf">[ dominant element ] _ [ ten god ]</div><div class="ld">the loudest non-self element, through its relationship</div></div><div class="ct" style="color:var(--fireD)">50</div></div>
+      <div class="layer tint-metal"><div class="num" style="color:var(--metalD)">1</div><div class="body"><div class="lt">Base Identity</div><div class="lf">[ stem ] _ [ band ] _ [ pattern ]</div><div class="ld">who you are at rest · 10 stems × 3 bands × 5 patterns</div></div><div class="ct" style="color:var(--metalD)">150</div></div>
+    </div>
+    <div class="right">
+      <div class="deriv tint-metal">
+        <div class="dl">The Blade, derived</div>
+        <div class="chip"><div class="cl">Layer 1 · base</div><div class="cv">庚_concentrated_pure</div></div>
+        <div class="chip"><div class="cl">Layer 2 · dominant</div><div class="cv">金_比肩 <b>The Mirror</b></div></div>
+        <div class="chip"><div class="cl">Layer 3 · secondary</div><div class="cv">木_正财 <b>The Harvest</b></div></div>
+        <div class="eq">read together — a blade that sharpens<br>against its own reflection</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== D7 — THE 50-KEY COLLAPSE ===================== -->
+<div class="diagram" id="d7" data-diagram>
+  <div class="wrap">
+    <div class="eyebrow">Why Only 50 Keys</div>
+    <h1 class="cor">A space that collapses flat</h1>
+    <div class="sub">Day-master element × dominant element × ten god looks like a huge 3-D space. But given the dominant element and the ten god, exactly one day-master element can produce that relationship — so it collapses to 50 unique interactions.</div>
+    <div class="flow">
+      <div class="cubewrap">
+        <svg width="300" height="270" viewBox="0 0 300 270">
+          <polygon points="150,30 250,85 150,140 50,85" fill="rgba(106,132,154,.18)" stroke="#6a849a" stroke-width="1.5"/>
+          <polygon points="50,85 150,140 150,250 50,195" fill="rgba(88,122,77,.16)" stroke="#587a4d" stroke-width="1.5"/>
+          <polygon points="250,85 150,140 150,250 250,195" fill="rgba(158,85,64,.14)" stroke="#9e5540" stroke-width="1.5"/>
+          <line x1="150" y1="140" x2="150" y2="250" stroke="#8b7355" stroke-width=".8" opacity=".5"/>
+        </svg>
+        <div class="axis">DM element ×5 · dominant ×5 · ten god ×10</div>
+      </div>
+      <div class="collapse">→ collapses to →</div>
+      <table id="d7grid"></table>
+    </div>
+    <div class="legend">Each cell is the one day-master element (金 木 水 火 土) implied by that dominant-element × ten-god pair. 5 × 10 = <b>50</b>.</div>
+  </div>
+</div>
+
+<style>
+  /* ===== D8 — TWO-LEVEL LOOKUP ===== */
+  #d8{width:1600px; height:680px;}
+  #d8 .wrap{position:absolute; inset:0; padding:76px 80px;}
+  #d8 .eyebrow{font-size:18px;}
+  #d8 h1{font-family:"Cormorant Garamond",serif; font-weight:500; font-size:50px; margin:10px 0 44px;}
+  #d8 .chain{display:flex; align-items:stretch; gap:14px;}
+  #d8 .node{flex:1; border-radius:12px; padding:24px 22px; display:flex; flex-direction:column; justify-content:center; min-height:200px;}
+  #d8 .node .nl{font-family:"Cinzel",serif; font-size:11px; letter-spacing:2px; text-transform:uppercase; color:var(--bronze); margin-bottom:12px;}
+  #d8 .node .nv{font-family:"Noto Serif SC",serif; font-size:23px; color:var(--ink); line-height:1.3; word-break:break-word;}
+  #d8 .node .nd{font-size:15px; color:var(--inkSoft); margin-top:12px; line-height:1.4;}
+  #d8 .op{display:flex; flex-direction:column; align-items:center; justify-content:center; flex:none; color:var(--bronze);}
+  #d8 .op .o{font-size:26px;} #d8 .op .ot{font-size:13px; font-family:"Cinzel",serif; letter-spacing:1px; margin-top:4px;}
+  #d8 .banner{margin-top:34px; text-align:center; font-family:"Cormorant Garamond",serif; font-style:italic; font-size:22px; color:var(--bronzeDark);}
+
+  /* ===== D9 — TIER LADDER ===== */
+  #d9{width:1600px; height:760px;}
+  #d9 .wrap{position:absolute; inset:0; padding:74px 84px;}
+  #d9 .eyebrow{font-size:18px;}
+  #d9 h1{font-family:"Cormorant Garamond",serif; font-weight:500; font-size:50px; margin:10px 0 40px;}
+  #d9 .steps{display:flex; align-items:flex-end; gap:20px;}
+  #d9 .step{flex:1; border-radius:14px; padding:28px 26px;}
+  #d9 .step .sp{font-family:"Cinzel",serif; font-size:13px; letter-spacing:2px; text-transform:uppercase; color:var(--bronzeDark);}
+  #d9 .step .sn{font-family:"Cormorant Garamond",serif; font-size:36px; font-weight:600; color:var(--ink); margin:4px 0 2px;}
+  #d9 .step .spr{font-size:17px; color:var(--inkLight); margin-bottom:16px;}
+  #d9 .step ul{list-style:none; font-size:16px; color:var(--inkSoft); line-height:1.7;}
+  #d9 .step .tag{display:inline-block; margin-top:14px; font-family:"Cinzel",serif; font-size:11px; letter-spacing:1.5px; color:var(--bronze);}
+  #d9 .banner{margin-top:30px; border-radius:12px; padding:20px 28px; background:rgba(160,64,48,.06); border:1px solid rgba(160,64,48,.3);
+    font-family:"Cormorant Garamond",serif; font-size:23px; color:var(--walnut); text-align:center;}
+  #d9 .banner b{color:var(--seal);}
+
+  /* ===== D10 — VOICE REGISTERS ===== */
+  #d10{width:1600px; height:780px;}
+  #d10 .wrap{position:absolute; inset:0; padding:74px 76px;}
+  #d10 .eyebrow{font-size:18px;}
+  #d10 h1{font-family:"Cormorant Garamond",serif; font-weight:500; font-size:50px; margin:10px 0 40px;}
+  #d10 .cards{display:grid; grid-template-columns:repeat(5,1fr); gap:16px;}
+  #d10 .v{border-radius:14px; padding:26px 22px; min-height:430px; display:flex; flex-direction:column;}
+  #d10 .v .g{font-family:"Noto Serif SC",serif; font-size:54px; line-height:1;}
+  #d10 .v .en{font-family:"Cinzel",serif; font-size:13px; letter-spacing:2px; text-transform:uppercase; margin:14px 0 14px;}
+  #d10 .v .d{font-size:17px; color:var(--inkSoft); line-height:1.5; flex:1;}
+  #d10 .v .ex{font-family:"Cormorant Garamond",serif; font-style:italic; font-size:19px; color:var(--ink); margin-top:18px; padding-top:16px; border-top:1px solid var(--paperHair); line-height:1.4;}
+
+  /* ===== D11 — EMOTIONAL ARC ===== */
+  #d11{width:1600px; height:600px;}
+  #d11 .wrap{position:absolute; inset:0; padding:74px 80px;}
+  #d11 .eyebrow{font-size:18px;}
+  #d11 h1{font-family:"Cormorant Garamond",serif; font-weight:500; font-size:50px; margin:10px 0 8px;}
+  #d11 .sub{font-size:18px; color:var(--inkSoft); margin-bottom:46px;}
+  #d11 .arc{position:relative; display:flex; justify-content:space-between; align-items:flex-start; padding-top:30px;}
+  #d11 .arc::before{content:""; position:absolute; top:30px; left:4%; right:4%; height:2px;
+    background:linear-gradient(90deg,var(--metalD),var(--woodD),var(--fireD),var(--earthD),var(--waterD));}
+  #d11 .phase{position:relative; text-align:center; width:19%;}
+  #d11 .phase .dot{width:16px; height:16px; border-radius:999px; background:var(--bronzeDark); margin:0 auto -6px; position:relative; top:-37px;}
+  #d11 .phase .pn{font-family:"Cinzel",serif; font-size:15px; letter-spacing:1.5px; text-transform:uppercase; color:var(--bronzeDark); margin-bottom:14px;}
+  #d11 .phase .f{display:block; font-family:ui-monospace,Menlo,monospace; font-size:14px; color:var(--inkSoft); background:rgba(248,241,225,.8); border:1px solid var(--paperHair); border-radius:6px; padding:5px 8px; margin:6px auto; max-width:170px;}
+
+  /* ===== D12 — PIGMENT ALPHA LADDER ===== */
+  #d12{width:1600px; height:660px;}
+  #d12 .wrap{position:absolute; inset:0; padding:74px 80px;}
+  #d12 .eyebrow{font-size:18px;}
+  #d12 h1{font-family:"Cormorant Garamond",serif; font-weight:500; font-size:50px; margin:10px 0 6px;}
+  #d12 .sub{font-size:18px; color:var(--inkSoft); margin-bottom:34px;}
+  #d12 .rungs{display:flex; gap:16px; margin-bottom:40px;}
+  #d12 .rung{flex:1; text-align:center;}
+  #d12 .rung .sw{height:120px; border-radius:12px; border:1px solid var(--paperHair); display:flex; align-items:center; justify-content:center;
+    font-family:"Noto Serif SC",serif; font-size:40px;}
+  #d12 .rung .a{font-family:"Cinzel",serif; font-size:18px; color:var(--metalD); margin-top:14px;}
+  #d12 .rung .p{font-size:15px; color:var(--inkLight);}
+  #d12 .rung .u{font-size:15px; color:var(--inkSoft); margin-top:6px; line-height:1.35;}
+  #d12 .ramps{display:flex; gap:30px; align-items:center;}
+  #d12 .ramp{display:flex; align-items:center; gap:10px;}
+  #d12 .ramp .gl{font-family:"Noto Serif SC",serif; font-size:20px; width:24px;}
+  #d12 .ramp .strip{display:flex;}
+  #d12 .ramp .strip i{width:30px; height:30px; display:block;}
+  #d12 .forbid{margin-left:auto; font-family:"Cormorant Garamond",serif; font-style:italic; font-size:20px; color:var(--seal);}
+
+  /* ===== D14 — FOUNDATIONS ===== */
+  #d14{width:1600px; height:880px;}
+  #d14 .wrap{position:absolute; inset:0; padding:74px 80px; display:flex; gap:54px;}
+  #d14 .eyebrow{font-size:18px;}
+  #d14 h1{font-family:"Cormorant Garamond",serif; font-weight:500; font-size:46px; margin:10px 0 32px;}
+  #d14 .col{flex:1;}
+  #d14 .spec{border-bottom:1px solid var(--paperHair); padding:20px 0;}
+  #d14 .spec .lbl{font-family:"Cinzel",serif; font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--bronze); margin-bottom:8px;}
+  #d14 .swrow{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px;}
+  #d14 .swatch{width:96px; border-radius:10px; overflow:hidden; border:1px solid var(--paperHair);}
+  #d14 .swatch .c{height:54px;}
+  #d14 .swatch .t{font-size:12px; color:var(--inkSoft); padding:5px 7px; background:rgba(248,241,225,.7);}
+  #d14 .metarow{display:flex; gap:8px; flex-wrap:wrap; margin-top:8px;}
+  #d14 .pill{font-family:"Cinzel",serif; font-size:13px; letter-spacing:1px; color:var(--bronzeDark); border:1px solid var(--paperHair); border-radius:999px; padding:5px 13px; background:rgba(248,241,225,.7);}
+  #d14 .h2{font-family:"Cinzel",serif; font-size:13px; letter-spacing:2px; text-transform:uppercase; color:var(--bronze); margin:22px 0 10px;}
+</style>
+
+<!-- ===================== D8 — TWO-LEVEL LOOKUP ===================== -->
+<div class="diagram" id="d8" data-diagram>
+  <div class="wrap">
+    <div class="eyebrow">At Serve Time · Just A Lookup</div>
+    <h1 class="cor">No model — a waterfall of keys</h1>
+    <div class="chain">
+      <div class="node card"><div class="nl">the key</div><div class="nv">庚_concentrated_pure</div><div class="nd">computed by the engine</div></div>
+      <div class="op"><div class="o">→</div><div class="ot">try</div></div>
+      <div class="node tint-metal"><div class="nl">variant</div><div class="nv">STEM_CARD_DATA[ key ]</div><div class="nd">the most specific entry</div></div>
+      <div class="op"><div class="o">‖</div><div class="ot">else</div></div>
+      <div class="node tint-earth"><div class="nl">baseline</div><div class="nv">STEM_CARD_DATA[ 庚 ]</div><div class="nd">the per-stem fallback</div></div>
+      <div class="op"><div class="o">‖</div><div class="ot">else</div></div>
+      <div class="node tint-wood"><div class="nl">source of truth</div><div class="nv">archetypeSource.js</div><div class="nd">hand-authored fields</div></div>
+    </div>
+    <div class="banner">first match wins · every field is a static read · the model is never called at serve time</div>
+  </div>
+</div>
+
+<!-- ===================== D9 — TIER LADDER ===================== -->
+<div class="diagram" id="d9" data-diagram>
+  <div class="wrap">
+    <div class="eyebrow">What Unlocks</div>
+    <h1 class="cor">Three tiers, one source of truth</h1>
+    <div class="steps">
+      <div class="step tint-water" style="min-height:300px"><div class="sp">Free</div><div class="sn">Seeker begins here</div><div class="spr">$0 · instant</div><ul><li>· core identity</li><li>· elemental nature</li><li>· one daily signal</li></ul><div class="tag">STATIC DATA</div></div>
+      <div class="step tint-earth" style="min-height:360px"><div class="sp">Seeker</div><div class="sn">The full reading</div><div class="spr">$9.99 / mo · instant on upgrade</div><ul><li>· every reading, full depth</li><li>· domain signatures</li><li>· seasonal calibration</li><li>· compatibility</li></ul><div class="tag">STATIC DATA</div></div>
+      <div class="step tint-fire" style="min-height:420px"><div class="sp">Advisor</div><div class="sn">Tuned to you</div><div class="spr">one-time · ~20–30s synthesis</div><ul><li>· self-report synthesis</li><li>· a consultant that has read</li><li>&nbsp;&nbsp;your full chart + manual</li></ul><div class="tag" style="color:var(--seal)">THE ONLY LLM PASS</div></div>
+    </div>
+    <div class="banner">Free &amp; Seeker are <b>static data</b> — shipped, not generated. The model only ever runs <b>on purchase.</b></div>
+  </div>
+</div>
+
+<!-- ===================== D10 — VOICE REGISTERS ===================== -->
+<div class="diagram" id="d10" data-diagram>
+  <div class="wrap">
+    <div class="eyebrow">Five Voices</div>
+    <h1 class="cor">Every reading speaks in its element</h1>
+    <div class="cards">
+      <div class="v tint-metal"><div class="g" style="color:var(--metalD)">金</div><div class="en" style="color:var(--metalD)">Verdict-energy</div><div class="d">Precise, direct, cool. Sentences arrive as conclusions. No hedging — warmth arrives through accuracy.</div><div class="ex">“The audit was already running. You didn't start it.”</div></div>
+      <div class="v tint-wood"><div class="g" style="color:var(--woodD)">木</div><div class="en" style="color:var(--woodD)">Momentum-energy</div><div class="d">Reaching, restless, generative. Sentences lean forward into the next thing.</div><div class="ex">it grows toward the opening.</div></div>
+      <div class="v tint-fire"><div class="g" style="color:var(--fireD)">火</div><div class="en" style="color:var(--fireD)">Presence-energy</div><div class="d">Warm, scene-setting, relational. The reading sets a room before it makes a point.</div><div class="ex">it warms whatever it enters.</div></div>
+      <div class="v tint-earth"><div class="g" style="color:var(--earthD)">土</div><div class="en" style="color:var(--earthD)">Gravity-energy</div><div class="d">Weighted, patient, load-bearing. Sentences settle rather than reach.</div><div class="ex">it holds; it does not hurry.</div></div>
+      <div class="v tint-water"><div class="g" style="color:var(--waterD)">水</div><div class="en" style="color:var(--waterD)">Depth-energy</div><div class="d">Beneath the surface, fluid, withheld. Trails off where Metal would conclude.</div><div class="ex">it knows before it says.</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== D11 — EMOTIONAL ARC ===================== -->
+<div class="diagram" id="d11" data-diagram>
+  <div class="wrap">
+    <div class="eyebrow">The Compound Card</div>
+    <h1 class="cor">Thirteen fields, one arc</h1>
+    <div class="sub">Every deep reading is written to move a reader along the same emotional line.</div>
+    <div class="arc">
+      <div class="phase"><div class="dot"></div><div class="pn">Recognition</div><span class="f">hook</span><span class="f">dynamic</span></div>
+      <div class="phase"><div class="dot"></div><div class="pn">Explanation</div><span class="f">your_gift</span><span class="f">your_scene</span><span class="f">your_interior</span></div>
+      <div class="phase"><div class="dot"></div><div class="pn">Intimacy</div><span class="f">your_tension</span><span class="f">your_fuel</span></div>
+      <div class="phase"><div class="dot"></div><div class="pn">Relief</div><span class="f">your_cost</span><span class="f">your_build</span></div>
+      <div class="phase"><div class="dot"></div><div class="pn">Orientation</div><span class="f">running_well</span><span class="f">off_track</span><span class="f">your_person</span><span class="f">one_line</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== D12 — PIGMENT ALPHA LADDER ===================== -->
+<div class="diagram" id="d12" data-diagram>
+  <div class="wrap">
+    <div class="eyebrow">One Alpha Per Surface</div>
+    <h1 class="cor">The pigment ladder</h1>
+    <div class="sub">Each element pigment appears at exactly five strengths — one per surface type, nothing in between.</div>
+    <div class="rungs">
+      <div class="rung"><div class="sw" style="background:rgba(139,163,184,.06)"></div><div class="a">10</div><div class="p">~6%</div><div class="u">soft fill · card background</div></div>
+      <div class="rung"><div class="sw" style="background:rgba(139,163,184,.10)"></div><div class="a">1A</div><div class="p">~10%</div><div class="u">tint fill · icon background</div></div>
+      <div class="rung"><div class="sw" style="background:rgba(139,163,184,.06); border:1px solid rgba(139,163,184,.40)"></div><div class="a">40</div><div class="p">~25%</div><div class="u">border · chip outline</div></div>
+      <div class="rung"><div class="sw" style="background:rgba(139,163,184,.06); color:rgba(106,132,154,.8)">庚</div><div class="a">CC</div><div class="p">~80%</div><div class="u">eyebrow text</div></div>
+      <div class="rung"><div class="sw" style="background:rgba(139,163,184,.06); color:#6a849a">庚</div><div class="a">100</div><div class="p">solid</div><div class="u">glyph · heading on tint</div></div>
+    </div>
+    <div class="ramps">
+      <div class="ramp"><span class="gl" style="color:var(--woodD)">木</span><span class="strip"><i style="background:rgba(122,158,110,.06)"></i><i style="background:rgba(122,158,110,.10)"></i><i style="background:rgba(122,158,110,.25)"></i><i style="background:rgba(122,158,110,.8)"></i><i style="background:#7a9e6e"></i></span></div>
+      <div class="ramp"><span class="gl" style="color:var(--fireD)">火</span><span class="strip"><i style="background:rgba(196,116,90,.06)"></i><i style="background:rgba(196,116,90,.10)"></i><i style="background:rgba(196,116,90,.25)"></i><i style="background:rgba(196,116,90,.8)"></i><i style="background:#c4745a"></i></span></div>
+      <div class="ramp"><span class="gl" style="color:var(--earthD)">土</span><span class="strip"><i style="background:rgba(184,154,106,.06)"></i><i style="background:rgba(184,154,106,.10)"></i><i style="background:rgba(184,154,106,.25)"></i><i style="background:rgba(184,154,106,.8)"></i><i style="background:#b89a6a"></i></span></div>
+      <div class="ramp"><span class="gl" style="color:var(--waterD)">水</span><span class="strip"><i style="background:rgba(90,127,168,.06)"></i><i style="background:rgba(90,127,168,.10)"></i><i style="background:rgba(90,127,168,.25)"></i><i style="background:rgba(90,127,168,.8)"></i><i style="background:#5a7fa8"></i></span></div>
+      <div class="forbid">25 · 55 · 80 · 90 do not exist.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== D14 — FOUNDATIONS ===================== -->
+<div class="diagram" id="d14" data-diagram>
+  <div class="wrap">
+    <div class="col">
+      <div class="eyebrow">The Foundations</div>
+      <h1 class="cor">Four fonts, five pigments, fixed metrics</h1>
+      <div class="spec"><div class="lbl">Cormorant Garamond · display</div><div style="font-family:'Cormorant Garamond'; font-size:42px; color:var(--ink);">The Blade</div></div>
+      <div class="spec"><div class="lbl">EB Garamond · body &amp; reading</div><div style="font-family:'EB Garamond'; font-size:21px; color:var(--inkSoft); line-height:1.4;">The audit was already running. You didn't start it.</div></div>
+      <div class="spec"><div class="lbl">Cinzel · architectural caps</div><div style="font-family:'Cinzel'; font-size:22px; letter-spacing:3px; color:var(--bronzeDark);">ENTER YOUR READINGS</div></div>
+      <div class="spec" style="border-bottom:none"><div class="lbl">Noto Serif SC · hanzi as art</div><div style="font-family:'Noto Serif SC'; font-size:40px; color:var(--ink); letter-spacing:10px;">庚 辛 壬 癸 甲</div></div>
+    </div>
+    <div class="col">
+      <div class="h2" style="margin-top:60px">Foundation</div>
+      <div class="swrow">
+        <div class="swatch"><div class="c" style="background:#F8F6F0"></div><div class="t">Cream</div></div>
+        <div class="swatch"><div class="c" style="background:#F1E9D6"></div><div class="t">Silk</div></div>
+        <div class="swatch"><div class="c" style="background:#EAE5DF"></div><div class="t">Parchment</div></div>
+        <div class="swatch"><div class="c" style="background:#8b7355"></div><div class="t">Bronze</div></div>
+        <div class="swatch"><div class="c" style="background:#D4AF37"></div><div class="t">Gold</div></div>
+        <div class="swatch"><div class="c" style="background:#A04030"></div><div class="t">Seal</div></div>
+      </div>
+      <div class="h2">Five element pigments · base / deep</div>
+      <div class="swrow">
+        <div class="swatch"><div class="c" style="background:linear-gradient(90deg,#8ba3b8 50%,#6a849a 50%)"></div><div class="t">Metal 金</div></div>
+        <div class="swatch"><div class="c" style="background:linear-gradient(90deg,#7a9e6e 50%,#587a4d 50%)"></div><div class="t">Wood 木</div></div>
+        <div class="swatch"><div class="c" style="background:linear-gradient(90deg,#c4745a 50%,#9e5540 50%)"></div><div class="t">Fire 火</div></div>
+        <div class="swatch"><div class="c" style="background:linear-gradient(90deg,#b89a6a 50%,#927750 50%)"></div><div class="t">Earth 土</div></div>
+        <div class="swatch"><div class="c" style="background:linear-gradient(90deg,#5a7fa8 50%,#3e5f85 50%)"></div><div class="t">Water 水</div></div>
+      </div>
+      <div class="h2">Radii — the only allowed corners</div>
+      <div class="metarow"><span class="pill">1</span><span class="pill">10</span><span class="pill">12</span><span class="pill">16</span><span class="pill">22</span><span class="pill">999</span></div>
+      <div class="h2">Card surfaces — exactly five</div>
+      <div class="metarow"><span class="pill">Cardstock</span><span class="pill">Tinted</span><span class="pill">Quiet</span><span class="pill">Elevated</span><span class="pill">Active</span></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function(){
+    const GEN=['Wood','Fire','Earth','Metal','Water'];
+    const HAN={Wood:'木',Fire:'火',Earth:'土',Metal:'金',Water:'水'};
+    const COL={Wood:'#587a4d',Fire:'#9e5540',Earth:'#927750',Metal:'#6a849a',Water:'#3e5f85'};
+    const TINT={Wood:'rgba(88,122,77,.12)',Fire:'rgba(158,85,64,.12)',Earth:'rgba(146,119,80,.12)',Metal:'rgba(106,132,154,.12)',Water:'rgba(62,95,133,.12)'};
+    const gN=e=>GEN[(GEN.indexOf(e)+1)%5];
+    const gP=e=>GEN[(GEN.indexOf(e)+4)%5];
+    const CTRL={Wood:'Earth',Earth:'Water',Water:'Fire',Fire:'Metal',Metal:'Wood'};
+    const cBy=e=>Object.keys(CTRL).find(k=>CTRL[k]===e);
+    // ten gods: hanzi, English, category
+    const GODS=[['比肩','Mirror','same'],['劫财','Rival','same'],['食神','Flow','out'],['伤官','Edge','out'],['偏财','Field','wealth'],['正财','Harvest','wealth'],['七杀','Trial','officer'],['正官','Standard','officer'],['偏印','Well','res'],['正印','Root','res']];
+    const dm=(D,c)=>({same:D,out:gP(D),wealth:cBy(D),officer:CTRL[D],res:gN(D)})[c];
+    const ROWS=['Wood','Fire','Earth','Metal','Water'];
+    const t=document.getElementById('d7grid');
+    let head='<tr><th></th>'+GODS.map(g=>`<th class="gh"><span class="gx">${g[0]}</span>The ${g[1]}</th>`).join('')+'</tr>';
+    let body=ROWS.map(D=>{
+      let cells=GODS.map(g=>{const e=dm(D,g[2]);return `<td class="cell" style="background:${TINT[e]};color:${COL[e]}">${HAN[e]}</td>`;}).join('');
+      return `<tr><td class="rh" style="color:${COL[D]}">${HAN[D]}</td>${cells}</tr>`;
+    }).join('');
+    t.innerHTML=head+body;
+  })();
+</script>
+</body>
+</html>
