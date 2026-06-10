@@ -53,7 +53,16 @@ export function archetypeKeyFor(stem, chart) {
 // over the stem baseline. Returns a baseline-shaped object, variant-enriched.
 export function resolveArchetype(stem, baseline, chart) {
   if (!baseline) return baseline;
-  const v = VARIANTS[archetypeKeyFor(stem, chart)] || {};
+  // Variant lookup with a fallback chain (Group C) so a stem can ship concise
+  // band/pattern variants instead of all 15 compounds:
+  //   `${stem}_${band}_${pattern}` -> `${stem}_${band}` -> `${stem}_${pattern}` -> baseline
+  // 庚's 15 full-compound keys still match on the first try (no regression).
+  const band = getEnergyBand(chart?.dayMaster?.strength || 'moderate');
+  const pattern = chart?.tgPattern || 'pure';
+  let v = {};
+  for (const k of [`${stem}_${band}_${pattern}`, `${stem}_${band}`, `${stem}_${pattern}`]) {
+    if (VARIANTS[k]) { v = VARIANTS[k]; break; }
+  }
   return {
     ...baseline,
     yourNature: { ...(baseline.yourNature || {}), ...(v.yourNature || {}) },
