@@ -9,6 +9,9 @@
 // Design/assets/backgrounds/). Reference them by bare filename — PageBg
 // resolves the /backgrounds/ path.
 //
+// [Group D — RESOLVED] The notes below are HISTORICAL. Every screen now maps to
+// a finished v7 plate PNG (Rendered Screens v2) with a real `src` — no screen
+// renders a gradient-only placeholder. Kept for context only.
 // NOTE: the Today / Guidance / Friends / Profile / reading-detail PNGs
 // are currently low-fidelity placeholder art (flat/gradient stand-ins,
 // ~14 KB) pending the ChatGPT/DALL-E generation pipeline. They drop in

@@ -27,7 +27,8 @@ const ARCHETYPE_NAMES = {
   '甲': 'The Oak', '乙': 'The Vine', '丙': 'The Sun', '丁': 'The Ember', '戊': 'The Mountain',
   '己': 'The Field', '庚': 'The Blade', '辛': 'The Jewel', '壬': 'The Ocean', '癸': 'The Rain',
 };
-import { Icon, DayMasterMark } from '../shared/icons';
+import { Icon } from '../shared/icons';
+import StemSeal from '../shared/StemSeal.jsx';
 import {
   ink, inkSoft, inkLight, bronzeDark, gold, advisor, cream, paperHair,
   metal, wood, fire, earth, water,
@@ -285,6 +286,24 @@ const FLOOD_COLOR = {
 };
 const PARTICLE_COLORS = [metal, wood, fire, earth, water];
 
+// Ceremonial seal medallion (Group D) — the painterly StemSeal (dark ink, all 10
+// stems) on a warm cream disc with a faint gold rim, so it reads on the dark
+// ceremony background. Replaces the white dm-* glyphs whose Yin variants were
+// still v4 line placeholders; now every stem shows its finished ink-wash seal.
+function SealMedallion({ stemKey, size = 92 }) {
+  return (
+    <div style={{
+      width: size + 30, height: size + 30, borderRadius: 999, margin: '0 auto',
+      background: 'radial-gradient(circle at 50% 38%, #faf6ec, #ebe2cf)',
+      border: '1px solid rgba(212,175,55,0.5)',
+      boxShadow: '0 10px 30px rgba(0,0,0,0.42), inset 0 1px 2px rgba(255,255,255,0.55)',
+      display: 'flex', alignItems: 'center', justifyContent: 'center',
+    }}>
+      <StemSeal stem={stemKey} size={size} />
+    </div>
+  );
+}
+
 function CeremonyScreen({ element, stemKey, onDone }) {
   const flood = FLOOD_COLOR[element] || FLOOD_COLOR.Metal;
   // 24 particles on a radial burst, deterministic angles.
@@ -345,7 +364,7 @@ function CeremonyScreen({ element, stemKey, onDone }) {
           color: '#F8F6F0', marginBottom: 28,
           animation: 'cm-seal 500ms cubic-bezier(0.34,1.56,0.64,1) 400ms both',
         }}>
-          <DayMasterMark stem={stemKey} size={96} />
+          <SealMedallion stemKey={stemKey} size={92} />
         </div>
 
         {/* Text reveal */}
@@ -420,7 +439,7 @@ function WelcomeToSeekerScreen({ element, stemKey, archetype, onDone }) {
       <div aria-hidden="true" style={{ position: 'absolute', inset: 0, background: flood, opacity: 0.92, animation: 'wbFlood 600ms cubic-bezier(0.22,1,0.36,1) forwards' }} />
       <div style={{ position: 'relative', zIndex: 1, textAlign: 'center', padding: '0 30px' }}>
         <div style={{ color: '#F8F6F0', marginBottom: 24, animation: 'wbSeal 500ms cubic-bezier(0.34,1.56,0.64,1) 300ms both' }}>
-          <DayMasterMark stem={stemKey} size={88} />
+          <SealMedallion stemKey={stemKey} size={84} />
         </div>
         <div style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 28, color: '#F8F6F0', lineHeight: 1.25, animation: 'wbRise 400ms ease-out 700ms both' }}>
           Welcome back, {archetype}.
