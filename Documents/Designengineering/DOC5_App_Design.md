@@ -9,6 +9,7 @@ This document is the primary reference for all UI and interaction design work in
 ## CATALOGUE
 
 ```
+§0  BETA CORE GOAL — the D12 charter (read first)
 §1  Design Philosophy & Voice
 §2  Visual Identity System
 §3  Typography
@@ -30,6 +31,40 @@ This document is the primary reference for all UI and interaction design work in
 §19 Pricing Model & Content Tiers
 §20 Asset Library
 ```
+
+---
+
+## §0 — BETA CORE GOAL (D12 Charter · 2026-06-10)
+
+> **[OWNER DECISION · D12] This section is the north star for the Beta iteration. Every reading-structure, content, and journey design decision in Beta is evaluated against it.**
+
+### Purpose
+
+Design the reading structure and construct the reading content so that Elementum:
+
+1. **Introduces BaZi as a new cultural/spiritual system without cognitive overload** — yet builds a *systematic, archetypal* cultural understanding, not a flattened horoscope; and
+2. **Delivers the most emotionally resonant ("addictive") spiritual guidance** — every reading produces self-recognition, and guidance that pulls the user back.
+
+### The two axes — how the goal decomposes
+
+**Axis A — the Concept Ladder (design / UX / journey).** The UI, UX, and user journey guide the user into each new BaZi concept (elemental nature, energy blueprint, day master, dominant energies, luck cycles…) **step by step**. No screen may require a concept the journey has not yet taught. Cognitive load is a budgeted resource: each screen introduces at most one new concept, anchored to what the user already knows.
+
+**Axis B — the Resonance Engine (reading content).** Each reading section **decodes one concept into accurate prediction and emotionally resonant words**. Accuracy = the claim is specific enough to be recognized ("that's me"), not generic enough to be unfalsifiable. Resonance is *tested, not assumed* — the cold-reader / self-recognition test (≥7/10 strangers) is the acceptance gate for content.
+
+### What this governs
+
+- The **reading-structure redesign** (D12): section composition, per-section jobs, field formats, and word budgets (evidence base: `READING_FORMAT_AUDIT.md` — budgets serve the voice, not vice versa).
+- The **content reconstruction** that follows the new schema, and the 150-key batch behind it (gated on the new schema freeze).
+- The **journey design** of Reveal → catalogue → detail pagers: progressive concept disclosure, not flat presentation.
+
+### Acceptance tests (Beta exit)
+
+| Axis | Test |
+|---|---|
+| A — Concept Ladder | A BaZi-naive user can explain, unprompted, what their day master and elemental composition mean after one session ("teach-back" test). |
+| B — Resonance | ≥7/10 cold readers report self-recognition on their own reading; returning-user rate on Today screen demonstrates the daily pull. |
+
+**Related:** §1 (the ancient-seriousness ↔ daily-accessibility tension this charter operationalizes) · DOC4 (voice + generation rules) · `DESIGN_AUDIT_BACKLOG.md` D12 · `READING_FORMAT_AUDIT.md` (format evidence).
 
 ---
 
