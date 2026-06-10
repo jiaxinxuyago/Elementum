@@ -78,6 +78,7 @@ const IS_DEV = typeof import.meta !== 'undefined' && import.meta.env?.DEV;
 function PhoneFrame({ children }) {
   return (
     <div
+      className="el-frame"
       style={{
         position: 'relative',
         width: 390,
@@ -112,6 +113,7 @@ function Shell({ children }) {
 
   return (
     <div
+      className="el-shell"
       style={{
         minHeight: '100vh',
         background: '#1a1815',

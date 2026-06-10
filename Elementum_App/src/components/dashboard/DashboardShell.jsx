@@ -22,9 +22,9 @@ import BottomTabNav from './BottomTabNav';
 import PageBg from '../shared/PageBg.jsx';
 import { silk } from '../../styles/tokens';
 
-// Bar takes 76px; we add the same as bottom padding on the scroll area
-// so the last bit of content isn't hidden by the bar.
-const TAB_BAR_HEIGHT = 76;
+// Bar takes 76px (+ the device safe-area inset); we add the same as bottom
+// padding on the scroll area so the last bit of content isn't hidden by it.
+const TAB_BAR_HEIGHT = 'calc(76px + env(safe-area-inset-bottom, 0px))';
 
 // `bg` — optional { src, opacity } painted background for the tab
 // (see styles/backgrounds.js). Renders behind the scroll content; the

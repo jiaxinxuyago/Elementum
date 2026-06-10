@@ -43,9 +43,10 @@ export default function BottomTabNav({ active, onChange }) {
         backdropFilter: 'blur(12px)',
         WebkitBackdropFilter: 'blur(12px)',
         borderTop: `1px solid ${borderLight}`,
-        // 8 px top + (8 + safe-area-inset-bottom) px bottom; 18 px fallback.
-        padding: '8px 16px calc(8px + env(safe-area-inset-bottom, 18px))',
-        height: 76,
+        // 8 px top/bottom padding around a 60 px content row; the bar grows by
+        // the device's safe-area inset so icons clear the iOS home indicator.
+        padding: '8px 16px calc(8px + env(safe-area-inset-bottom, 0px))',
+        height: 'calc(76px + env(safe-area-inset-bottom, 0px))',
         zIndex: 30,
         display: 'flex',
         justifyContent: 'space-around',

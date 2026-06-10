@@ -1,0 +1,13 @@
+{
+  // Serve the built Vite app (dist/) as a static-assets Worker — same
+  // pattern as the portfolio site. Build with `npm run build`, deploy
+  // with `npx wrangler deploy`.
+  "name": "elementum",
+  "compatibility_date": "2025-11-01",
+  "assets": {
+    "directory": "./dist",
+    // The app is a single index.html (hash navigation, no client routes),
+    // but SPA fallback keeps deep links and the SW navigation safe.
+    "not_found_handling": "single-page-application"
+  }
+}
