@@ -98,16 +98,18 @@ export function walkSchema(schema, data, path = [], inherited = {}) {
     const here = [...path, key];
     const value = data != null ? data[key] : undefined;
 
-    // Deprecated branch — flag the whole subtree and don't descend.
+    // Deprecated OR internal-only branch — flag the whole subtree and don't descend.
+    // 'internal' = retained as synthesis context but rendered by no live surface,
+    // so its leaves must not count as "missing" required content (Audit S1, 2026-06).
     const meta = node?._meta;
-    if (meta?.status === 'deprecated') {
+    if (meta?.status === 'deprecated' || meta?.status === 'internal') {
       rows.push({
         path: here.join('.'),
         kind: 'group',
         tier: meta.tier || inherited.tier || '—',
         varyBy: meta.varyBy ?? inherited.varyBy ?? null,
-        status: 'deprecated',
-        note: meta.note || 'deprecated',
+        status: meta.status,
+        note: meta.note || meta.status,
       });
       continue;
     }

@@ -67,6 +67,10 @@ export default function ReadingScreen({ onOpen, onOpenEnergyMap }) {
   // distribution strip + the Primary/Secondary element flags.
   const composition = React.useMemo(() => buildComposition(chart) || [], [chart]);
   const secondaryEl = composition.find((c) => c.en !== dmElement && c.n > 0)?.en || liftEl;
+  // Elements the chart is entirely missing → gate the conditional Seasonal
+  // Calibration row (mirrors getReadingSections + SeasonalCalibrationDetail,
+  // so the catalogue and the detail pager list the same sections — Audit S2/S3).
+  const missingEls = composition.filter((c) => c.n === 0).map((c) => c.en);
 
   const go = (route) => () => onOpen?.(route);
 
@@ -78,6 +82,11 @@ export default function ReadingScreen({ onOpen, onOpenEnergyMap }) {
     { key: 'nature',   ti: 'Elemental Nature',  d: 'Your five-element composition.',     onTap: go('read-elemental'), badges: [[dmElement, 'primary']] },
     { key: 'dominant', ti: 'Dominant Energies', d: 'Primary & secondary forces.',        onTap: go('read-tengods'),   badges: [[dmElement, 'primary'], [secondaryEl, 'sec']] },
     { key: 'forces',   ti: 'Forces in Motion',  d: 'What lifts you, what wears you.',     onTap: go('read-forces'),    badges: [[liftEl, 'up'], [resistanceEl, 'down']] },
+    // Seasonal Calibration — conditional: only appears when an element is
+    // absent, matching the detail pager's condition (Audit S2/S3).
+    ...(missingEls.length
+      ? [{ key: 'seasonal', ti: 'Seasonal Calibration', d: 'Cultivating what your chart is missing.', onTap: go('read-seasonal'), badges: missingEls.map((el) => [el, 'sec']) }]
+      : []),
     { key: 'chapters', ti: 'Life Chapters',     d: 'Your ten-year journey.',             onTap: go('read-chapters'),  badges: [] },
     { key: 'daily',    ti: 'Daily Reading',     d: "Today's alignment.",                 onTap: isFree ? () => openUpgrade('Daily Reading') : () => onOpen?.('app-today'), locked: isFree, tierLabel: 'Seeker', badges: [] },
     { key: 'pillars',  ti: 'Pillar Patterns',   d: 'The four pillars of your chart.',    onTap: go('read-patterns'),  badges: [] },

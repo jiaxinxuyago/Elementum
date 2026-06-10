@@ -317,7 +317,8 @@ export const ARCHETYPE_SCHEMA = {
 
   // ─────────────────────────────────────────────────────────────
   dominantEnergy: {
-    _meta: { tier: 'mixed', varyBy: ['stem'], section: 'Section 2 · The Force (Dominant Energy layer)' },
+    _meta: { tier: 'internal', status: 'internal', varyBy: ['stem'], section: 'Section 2 · The Force (Dominant Energy layer)',
+             note: 'NOT rendered by any live surface — TenGodsDetail uses TG_CARD_DATA instead. Retained as Self-Report synthesis context. See Reading-Structure Audit S1 (2026-06).' },
     label: {
       type: 'string', wordCap: 3, tier: 'free', required: true,
       note: 'User-facing element-specific label. e.g. "The Force" for Metal.',
@@ -366,10 +367,12 @@ export const ARCHETYPE_SCHEMA = {
   // ─────────────────────────────────────────────────────────────
   seasonalCalibration: {
     _meta: {
-      tier: 'mixed',
+      tier: 'internal',
+      status: 'internal',
       varyBy: ['stem'],
       section: 'The Forging Season (PRO detail page) · 调候用神 system',
-      note: 'Source: 穷通宝鉴. Distinct from 病药用神 / catalyst system.',
+      note: 'NOT rendered — SeasonalCalibrationDetail uses templated prescription() from chart.missingElements. ' +
+            'Retained as Self-Report synthesis context. See Reading-Structure Audit S1 (2026-06). Source: 穷通宝鉴.',
     },
     label:   { type: 'string', wordCap: 3, tier: 'free', required: true,
                note: 'User-facing element-specific label. e.g. "The Forging Season" for Metal.' },
@@ -383,10 +386,12 @@ export const ARCHETYPE_SCHEMA = {
   // ─────────────────────────────────────────────────────────────
   liunianSignatures: {
     _meta: {
-      tier: 'pro',
+      tier: 'internal',
+      status: 'internal',
       varyBy: ['stem'],
       section: 'Dynamic Energy Blueprint (foundation)',
-      note: 'Structured by life domain. Each entry uses the LiunianEntry shape.',
+      note: 'NOT rendered — LifeChaptersDetail uses templated decadeReading() from chart.luckPillars. ' +
+            'Retained as Self-Report synthesis context. See Reading-Structure Audit S1 (2026-06). Each entry uses the LiunianEntry shape.',
     },
     career:        { type: 'object', required: true, itemShape: SHAPES.LiunianEntry },
     relationships: { type: 'object', required: true, itemShape: SHAPES.LiunianEntry },

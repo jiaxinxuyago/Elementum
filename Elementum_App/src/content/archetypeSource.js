@@ -2156,7 +2156,68 @@ export const CLASSICAL_STEM_ANCHORS = {
     ceiling:     3,
   },
 
-  // ── [丁 through 癸 entries: TODO — see DOC7 §3 classical source table for grounding material] ──
+  // ── Yin Fire ─────────────────────────────────────────────────────────────
+  "丁": {
+    principle:   "丁火柔中，内性昭融",
+    translation: "Yin Fire is gentle on the surface — its inner nature bright and complete, lighting whatever it is turned toward all the way to the floor.",
+    source:      "三命通会 十干体象",
+    derivation:  "The candle, not the blaze: 丁 illuminates completely what it is pointed at, and almost nothing outside that beam. The focus is total; the cost is everyone and everything left in the dark while it burns. The twoAM: 'When I turn toward you, you are the only thing in the world. I never notice who I left in the dark to do it.'",
+    ceiling:     3,
+  },
+
+  // ── Yang Earth ───────────────────────────────────────────────────────────
+  "戊": {
+    principle:   "戊土固重，既中且正",
+    translation: "Yang Earth is solid and weighted — centered and upright, the ground others build on without asking what holds it up.",
+    source:      "三命通会 十干体象",
+    derivation:  "The mountain receives without moving: people orient by 戊 and stand on it, rarely naming the source. The density that makes it unshakeable makes it slow to move — and the weight it carries but never shows keeps accumulating where no one thinks to look. The twoAM: 'Everyone leans on me. No one has ever once asked what I lean on.'",
+    ceiling:     3,
+  },
+
+  // ── Yin Earth ────────────────────────────────────────────────────────────
+  "己": {
+    principle:   "己土卑湿，中正蓄藏",
+    translation: "Yin Earth lies low and moist — centered, storing, growing things within itself without claiming what it grows.",
+    source:      "三命通会 十干体象",
+    derivation:  "Fertile, absorbing, patient: 己 creates the conditions for growth in others and announces none of it. Soil this active absorbs as readily as it feeds — it takes on everyone's difficulty along with their potential, and the deficit accumulates unseen. The twoAM: 'I make everything around me grow. I cannot remember the last time anything grew in me.'",
+    ceiling:     3,
+  },
+
+  // ── Yang Metal ───────────────────────────────────────────────────────────
+  "庚": {
+    principle:   "庚金带煞，刚健为最",
+    translation: "Yang Metal carries the austere cutting force — supremely firm, the 肃杀 edge of autumn that clarifies by force.",
+    source:      "三命通会 十干体象 / 穷通宝鉴",
+    derivation:  "The blade cuts, defines, restructures: the assessment runs before social or emotional processing begins. What clarifies can also wound — precision arrives before warmth does, and people lean on the edge and rarely find what is behind it. The twoAM: 'I see what is real before anyone else in the room. I am usually the most alone person in it.'",
+    ceiling:     3,
+  },
+
+  // ── Yin Metal ────────────────────────────────────────────────────────────
+  "辛": {
+    principle:   "辛金软弱，温润而清",
+    translation: "Yin Metal is yielding and clear — warm, polished, the refined surface that registers a flaw before the eye has found it.",
+    source:      "三命通会 十干体象",
+    derivation:  "Precision over power: 辛 registers quality the way others register temperature, before the question is asked. The bar sits just above wherever reality has arrived, so the world reads as a near-continuous catalog of what falls short — the self included. The twoAM: 'I can feel the flaw in everything before I can say why. I have never been able to turn it off.'",
+    ceiling:     3,
+  },
+
+  // ── Yang Water ───────────────────────────────────────────────────────────
+  "壬": {
+    principle:   "壬水通河，能泄金气",
+    translation: "Yang Water runs to the open sea — vast and accumulating, draining even Metal's force, carrying more beneath the surface than it ever shows.",
+    source:      "三命通会 十干体象 / 穷通宝鉴",
+    derivation:  "Systemic depth: 壬 holds more beneath the surface than it shows, and the intelligence is structural rather than accumulated. Water this high without banks disperses — the thinking ranges so wide it stops landing anywhere usable, and the distance between what it perceives and what it can convey becomes its own isolation. The twoAM: 'I see the whole system at once. I have never found the words that bring anyone down to where I am standing.'",
+    ceiling:     3,
+  },
+
+  // ── Yin Water ────────────────────────────────────────────────────────────
+  "癸": {
+    principle:   "癸水至弱，达于天津",
+    translation: "Yin Water is the most yielding — condensed and clarifying, the dew that reaches everywhere and distils abundance into the essential.",
+    source:      "三命通会 十干体象",
+    derivation:  "Attunement is the default: 癸 senses what is true before it is spoken and nourishes without announcing it. Water this permeable floods — it takes in more than it can hold without losing its own shape, until it can no longer tell its own knowing from what it absorbed from the room. The twoAM: 'I feel what everyone around me feels. I cannot always tell which feelings began as mine.'",
+    ceiling:     3,
+  },
 
 };
 

@@ -54,9 +54,6 @@ const FLOW_SCREENS = [
   'app-today', 'app-guidance', 'app-reading', 'app-compat', 'app-profile',
   // Reading-detail destinations (DOC5 §11)
   'read-elemental', 'read-daymaster', 'read-tengods', 'read-locked',
-  // Legacy mockups — kept reachable for A/B comparison
-  'mockup-detail',
-  'mockup-energymap',
 ];
 
 // 10 day-master stems in canonical 甲乙丙丁戊己庚辛壬癸 order.

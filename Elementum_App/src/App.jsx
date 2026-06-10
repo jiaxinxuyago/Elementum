@@ -33,8 +33,6 @@ import { UpgradeModalProvider, UpgradeModalHost, useUpgrade } from './components
 // screen is actually opened. Welcome / onboarding / loading stay eager so first
 // paint and the onboarding flow are instant.
 const RevealScreen = lazy(() => import('./components/RevealScreen.jsx'));
-const DetailScreenMockup = lazy(() => import('./components/mockup/DetailScreenMockup.jsx'));
-const EnergyMapMockup = lazy(() => import('./components/mockup/EnergyMapMockup.jsx'));
 const TodayScreen = lazy(() => import('./components/dashboard/tabs/TodayScreen.jsx'));
 const GuidanceScreen = lazy(() => import('./components/dashboard/tabs/GuidanceScreen.jsx'));
 const ReadingScreen = lazy(() => import('./components/dashboard/tabs/ReadingScreen.jsx'));
@@ -134,9 +132,7 @@ function Shell({ children }) {
 // Conditionals (4A, 6A, 7A) are handled via per-step `onX` callbacks.
 //
 // Post-Reveal screens live under the `app/*` namespace and render inside the
-// 5-tab dashboard shell (DOC5 §AM.2). The legacy `mockup-*` entries remain
-// reachable by direct hash (#/mockup-detail, #/mockup-energymap) for A/B
-// comparison during the build — they are NOT linked from the main flow.
+// 5-tab dashboard shell (DOC5 §AM.2).
 const FLOW = [
   'welcome',
   'step1',
@@ -151,7 +147,7 @@ const FLOW = [
   'step7a',   // conditional — only via Change time
   'loading',
   'reveal',
-  // Dashboard tabs (DOC5 §10–§14) — entered from Reveal's "Enter Your Energy Map" CTA.
+  // Dashboard tabs (DOC5 §10–§14) — entered from Reveal's "Enter Your Readings" CTA.
   'app-today',
   // Today-hub drill-downs (Direction 2 — wireframes/Elementum - Screens.html)
   'app-day',
@@ -179,9 +175,6 @@ const FLOW = [
   'chart-reveal',    // Birth Chart Raw Data — four-pillar grid
   'chart-resonance', // Chart Resonance — hour-discovery flow (§11/§22)
   'read-locked',     // generic locked-card for not-yet-built sections
-  // Legacy — kept reachable by hash for visual comparison; out of routing flow.
-  'mockup-detail',
-  'mockup-energymap',
 ];
 
 // Read the initial screen from URL hash so refresh/deep-links land correctly.
@@ -475,23 +468,6 @@ export default function App() {
       break;
     case 'read-locked':
       rendered = <LockedDetail onBack={goto('app-reading')} />;
-      break;
-
-    // ────────────────────────────────────────────────────────────────
-    // Legacy mockups — reachable only by direct hash. Kept around for
-    // A/B comparison during the dashboard build per Q3 (b). Will be
-    // deleted once the real screens are confirmed.
-    // ────────────────────────────────────────────────────────────────
-    case 'mockup-detail':
-      rendered = <DetailScreenMockup onBack={goto('reveal')} />;
-      break;
-    case 'mockup-energymap':
-      rendered = (
-        <EnergyMapMockup
-          onBack={goto('reveal')}
-          onOpenDetail={() => setScreen('mockup-detail')}
-        />
-      );
       break;
     default:
       rendered = <WelcomeScreen onContinue={goto('step1')} />;
