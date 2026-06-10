@@ -17,6 +17,9 @@ Source: full audit of the live Elementum app against **DOC5** (incl. §AMENDMENT
 - **App** — QA'd bug-free alpha; code-split; demo entitlement stubs (`tier` / `hasSelfReport` / scripted consultant) at clean seams.
 - **Docs** — DOC1–DOC10 current; this ledger holds the D-series (D1–D11) + S-series (S1–S8) decisions; folder decluttered to core docs only (2026-06-10).
 - **Backend** — scoped + deferred to pre-beta (DOC10): managed BaaS + ~3 serverless functions, no dedicated server.
+- **Live demo / installable PWA (2026-06-10)** — **https://elementum.jiaxinxuyago.workers.dev** (Cloudflare Workers static assets, `Elementum_App/wrangler.jsonc`). Phase A of iOS testing: PWA manifest + SW, 庚-seal icons, mobile-fullscreen shell with safe-areas, dist pruned of design references (246→192 MB). Phase B (Capacitor + TestFlight) deferred to pre-beta with DOC10.
+
+> **Dev rule — the live demo tracks the working tree.** Every app change must reach the live URL. Automated: a Claude Code `Stop` hook (`.claude/settings.local.json`, machine-local) runs `Elementum_App/tools/sync-live.ps1`, which fingerprints the app tree and runs `npm run build` + `npx wrangler deploy` only when something changed. Manual fallback from `Elementum_App/`: `npm run build; npx wrangler deploy` (re-auth with `npx wrangler login` if deploy fails).
 
 **Next pending — all non-blocking enrichment / polish**
 1. **Presentation polish (cosmetic):** 9 per-stem painted `identityIcon` SVGs; a `cat-seasonal.png` for the conditional Seasonal row; micro-interactions.
