@@ -1,0 +1,47 @@
+# Reading-Format Audit — evidence base for the reading-schema redesign
+
+Generated 2026-06-10 by `Elementum_App/tools/reading-format-audit.mjs` (read-only).
+Source: `STEM_CARD_DATA` (all 10 stems) walked against `ARCHETYPE_SCHEMA`.
+
+Read **OVER/UNDER** rows as "the authored voice disagrees with the budget" — input for setting
+the NEW budgets, not as defects to trim.
+
+| Field | Budget (current schema) | Actual words min/med/max | Stems over | Stems under | Notes |
+|---|---|---|---|---|---|
+| `chips` | len=5 · item≤3w | items: 1/1/4 | 癸 | — | len 5 |
+| `energy.keywords` | len=5 · item≤3w | items: 1/2/2 | — | — | len 0/5; 甲: len=0≠5; 乙: len=0≠5; 丙: len=0≠5; 丁: len=0≠5; 戊: len=0≠5; 己: len=0≠5; 辛: len=0≠5; 壬: len=0≠5; 癸: len=0≠5 |
+| `identity.elementIntro.expand` | 16–20w | 20/21/22 | 甲 乙 丁 戊 己 辛 癸 | — | — |
+| `identity.elementIntro.punch` | 9–12w | 9/13/14 | 甲 丙 丁 戊 己 辛 壬 | — | — |
+
+Total walker violations across 10 stems: **24**
+
+## Full field inventory (current budgets)
+
+| Field | Type | Required | Budget |
+|---|---|---|---|
+| `archetypes` | string[] | — | — |
+| `blocks` | object[] | ✓ | len 5–11 |
+| `chips` | string[] | ✓ | len=5 · item≤3w |
+| `energy.keywords` | string[] | ✓ | len=5 · item≤3w |
+| `energy.liunian` | string | ✓ | — |
+| `energy.represents` | string | ✓ | — |
+| `energy.what` | string | ✓ | — |
+| `gifts` | object[] | ✓ | len=3 |
+| `identity.archetypeLabel` | string | ✓ | ≤6w |
+| `identity.archetypeName` | string | ✓ | ≤3w |
+| `identity.elementIntro.expand` | string | ✓ | 16–20w |
+| `identity.elementIntro.punch` | string | ✓ | 9–12w |
+| `identity.identityIcon` | ComponentKey | ✓ | — |
+| `identity.manifesto` | string | ✓ | ≤14w · split " · " |
+| `manual.catalyst` | string | ✓ | — |
+| `manual.concentrated` | string | ✓ | — |
+| `manual.open` | string | ✓ | — |
+| `manual.resistance` | string | ✓ | — |
+| `psych.attachment` | string | ✓ | — |
+| `psych.bigFive` | string | ✓ | — |
+| `psych.jungian` | string | ✓ | — |
+| `psych.shadow` | string | ✓ | — |
+| `shadows` | object[] | ✓ | len=3 |
+| `subtitle` | string | ✓ | split " · " |
+| `yourNature.desc` | string | ✓ | ≥2 sent |
+| `yourNature.phrase` | string | — | ≤4w |

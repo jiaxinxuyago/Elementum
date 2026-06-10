@@ -12,7 +12,7 @@ Source: full audit of the live Elementum app against **DOC5** (incl. §AMENDMENT
 
 **Complete**
 - **Content** — all 10 day-masters render on every live surface (庚 reference + the D9 sprint + S7's 7 classical anchors → `CLASSICAL_STEM_ANCHORS` 10/10). The earlier "99 missing fields" were vestigial `status:'internal'` schema with no live consumer (S1) — not authoring debt.
-- **Reading IA** — settled per the S-series: Reveal → Reading catalogue (Identity Card + 6 rows + conditional Seasonal) → detail pager (`getReadingSections`) → Energy Map; 5-tab nav icons-only. Schema ↔ UI ↔ docs agree.
+- **Reading IA** — settled per the S-series: Reveal → Reading catalogue (Identity Card + 6 rows + conditional Seasonal) → detail pager (`getReadingSections`) → Energy Map; 5-tab nav icons-only. Schema ↔ UI ↔ docs agree. **⚠ D12 (2026-06-10): the reading schema/structure is RE-OPENED for redesign** — see the D12 row and `READING_FORMAT_AUDIT.md`; the navigation IA above remains live until the redesign lands.
 - **Design system** — canonical (`Design/Legends/` + `tokens.css` + `icons.svg` + `manifest.md`); StemSeal PNGs are the identity visual.
 - **App** — QA'd bug-free alpha; code-split; demo entitlement stubs (`tier` / `hasSelfReport` / scripted consultant) at clean seams.
 - **Docs** — DOC1–DOC10 current; this ledger holds the D-series (D1–D11) + S-series (S1–S8) decisions; folder decluttered to core docs only (2026-06-10).
@@ -23,13 +23,13 @@ Source: full audit of the live Elementum app against **DOC5** (incl. §AMENDMENT
 
 **Next pending — all non-blocking enrichment / polish**
 1. **Presentation polish (cosmetic):** 9 per-stem painted `identityIcon` SVGs; a `cat-seasonal.png` for the conditional Seasonal row; micro-interactions.
-2. **24 QC violations:** over-length `elementIntro` (15), `keywords`/`chips` alias (9), one over-length 癸 `chips` item — surfaced by the `coverageFor` walker (required-missing = 0).
+2. **~~24 QC violations~~ → superseded by D12 (2026-06-10):** the violations are *evidence* for the reading-schema redesign, not defects — 7/10 stems exceed both `elementIntro` budgets by 1–2 words (budget fights the voice). Do NOT trim copy to the old budgets. See `READING_FORMAT_AUDIT.md`.
 3. **150-variant content batch:** Pipeline A1 (`Scripts/batchGenerate.js`) → `STEM_CARD_DATA.js`; gated on a schema-freeze + building the 150-template pipeline (`[NOT YET BUILT]`).
 4. **Backend build (pre-beta)** per DOC10.
 
 ---
 
-## 1 · Decision ledger (all 11)
+## 1 · Decision ledger (D1–D12)
 
 | # | Item | Resolution | Landed where |
 |---|------|-----------|--------------|
@@ -44,6 +44,7 @@ Source: full audit of the live Elementum app against **DOC5** (incl. §AMENDMENT
 | D9 | Content coverage | **Author all 10 day-masters** | ✅ App (all 10 authored; complete per §0 + S-series) |
 | D10 | Stem identity assets | **Standardize on PNG seals**; retire SVG/dm-* | DOC5 §20, §AM.8 patched |
 | D11 | Doc sweep scope | **Decisions-only; defer the rest** | This file |
+| D12 | Reading schema & structure | **RE-OPENED for redesign** (owner decision, 2026-06-10) — supersedes the S-series "settled" status; new format + word budgets to be set from evidence | `READING_FORMAT_AUDIT.md` (evidence base); 150-key batch stays gated on the new schema freeze |
 
 **Already shipped this pass (app):** D5 (Reveal Section 3 restored — renders whenever a chart has a fully-absent element), D8 (CompatScreen tier copy reframed to unlimited-teaser / full=Seeker).
 
