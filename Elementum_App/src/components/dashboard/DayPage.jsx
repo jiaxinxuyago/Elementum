@@ -10,6 +10,7 @@
 import React from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { getDailyGuidance } from '../../content/dailyGuidance.js';
+import { tgPersona } from '../../content/tgNames.js';
 import { Icon, ElementMark } from '../shared/icons';
 import { SceneHero } from './VisualTile.jsx';
 import { elementArt } from '../../styles/backgrounds.js';
@@ -52,7 +53,7 @@ export default function DayPage({ onBack, onOpen }) {
           artSrc={elementArt(dayEl)}
           eyebrow={`${dateLabel} · ${dayEl} Day`}
           title={guidance.label}
-          subtitle={`${guidance.todayStem} · ${dayEl} Stem · ${guidance.todayStemTenGod?.en || ''}`}
+          subtitle={`${guidance.todayStem} · ${dayEl} Stem · ${tgPersona(guidance.todayStemTenGod?.zh) || ''}`}
           height={168}
           radius={16}
         />

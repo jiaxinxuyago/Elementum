@@ -197,7 +197,6 @@ export default function LoadingScreen({ onComplete }) {
           style={{
             fontFamily: "'Cormorant Garamond', serif",
             fontSize: 22,
-            fontStyle: 'italic',
             color: INK,
             letterSpacing: 0.4,
             marginBottom: 28,
@@ -211,7 +210,6 @@ export default function LoadingScreen({ onComplete }) {
           style={{
             fontFamily: "'EB Garamond', serif",
             fontSize: 13.5,
-            fontStyle: 'italic',
             color: INK_LIGHT,
             textAlign: 'center',
             margin: '0 0 42px',

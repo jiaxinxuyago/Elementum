@@ -82,7 +82,7 @@ export default function DayMasterDetail({ onBack }) {
         }}>
           <div style={{
             fontFamily: "'Cormorant Garamond', Georgia, serif",
-            fontSize: 21, fontStyle: 'italic', fontWeight: 500,
+            fontSize: 21, fontWeight: 500,
             color: inkSoft, lineHeight: 1.4, maxWidth: 300, margin: '0 auto',
           }}>
             {manifestoThesis}
@@ -155,7 +155,6 @@ export default function DayMasterDetail({ onBack }) {
             fontSize: 11.5,
             color: inkLight,
             letterSpacing: 0.4,
-            fontStyle: 'italic',
           }}>
             — {anchor.source}
           </div>

@@ -146,7 +146,7 @@ export default function ElementalDrawScreen({ onBack }) {
                   anim={i === 0 ? 'drawSlideR' : 'drawSlideL'} />
               ))}
             </div>
-            <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13, color: inkLight, fontStyle: 'italic' }}>
+            <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13, color: inkLight }}>
               Tap the card that calls to you
             </div>
           </>
@@ -160,7 +160,7 @@ export default function ElementalDrawScreen({ onBack }) {
       {phase === 'revealed' && (
         <div style={{
           textAlign: 'center', marginTop: 8,
-          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12.5, color: inkLight, fontStyle: 'italic',
+          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12.5, color: inkLight,
         }}>
           {isFree ? 'Come back tomorrow for your next draw.' : 'Draw again from any deck above.'}
         </div>
@@ -215,7 +215,7 @@ function RevealedCard({ pig, card }) {
       animation: 'drawSlideR 420ms cubic-bezier(0.22,1,0.36,1) both',
     }}>
       <p style={{
-        fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 21, fontStyle: 'italic',
+        fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 21,
         fontWeight: 500, color: ink, lineHeight: 1.4, margin: '0 0 16px',
       }}>
         “{card.q}”

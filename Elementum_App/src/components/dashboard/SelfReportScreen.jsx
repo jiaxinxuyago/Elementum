@@ -106,7 +106,7 @@ export default function SelfReportScreen({ onBack }) {
         <div style={{
           marginTop: 14, padding: '12px 16px', borderRadius: 12, textAlign: 'center',
           background: withAlpha(gold, '10'), border: `1px solid ${withAlpha(gold, '40')}`,
-          fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 17, fontStyle: 'italic', color: bronzeDark,
+          fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 17, color: bronzeDark,
         }}>Saved — your readings and consultant now read from this.</div>
       )}
       </>
@@ -149,7 +149,7 @@ function PurchaseGate({ tier, onBuy, onUpgrade }) {
         <Bullet>The life chapter you're actually in</Bullet>
         <Bullet>The domains most alive for you right now</Bullet>
         <Bullet>Anything you want your readings to know — in your own words</Bullet>
-        <div style={{ marginTop: 6, paddingTop: 12, borderTop: `1px solid ${paperHair}`, fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12.5, fontStyle: 'italic', color: inkLight, lineHeight: 1.5 }}>
+        <div style={{ marginTop: 6, paddingTop: 12, borderTop: `1px solid ${paperHair}`, fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12.5, color: inkLight, lineHeight: 1.5 }}>
           Feeds directly into your AI Consultant and contextualizes your readings.
         </div>
       </div>

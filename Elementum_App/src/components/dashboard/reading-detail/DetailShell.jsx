@@ -192,13 +192,13 @@ export default function DetailShell({
               {verse && (
                 <div style={{
                   fontFamily: "'Cormorant Garamond', Georgia, serif",
-                  fontSize: 22, fontStyle: 'italic', color: ink, lineHeight: 1.2,
+                  fontSize: 22, color: ink, lineHeight: 1.2,
                 }}>{verse}</div>
               )}
               {verseSubtitle && (
                 <div style={{
                   fontFamily: "'EB Garamond', Georgia, serif",
-                  fontSize: 13, fontStyle: 'italic', color: inkLight, marginTop: 6,
+                  fontSize: 13, color: inkLight, marginTop: 6,
                 }}>{verseSubtitle}</div>
               )}
             </div>

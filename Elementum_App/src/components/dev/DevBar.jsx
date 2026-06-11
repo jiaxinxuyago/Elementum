@@ -62,12 +62,12 @@ const STEM_CYCLE = [
   { key: 'jia',  hanzi: '甲', label: 'Oak'   },
   { key: 'yi',   hanzi: '乙', label: 'Vine'  },
   { key: 'bing', hanzi: '丙', label: 'Sun'   },
-  { key: 'ding', hanzi: '丁', label: 'Lamp'  },
-  { key: 'wu',   hanzi: '戊', label: 'Mtn'   },
+  { key: 'ding', hanzi: '丁', label: 'Ember' },
+  { key: 'wu',   hanzi: '戊', label: 'Mountain' },
   { key: 'ji',   hanzi: '己', label: 'Field' },
   { key: 'geng', hanzi: '庚', label: 'Blade' },
   { key: 'xin',  hanzi: '辛', label: 'Jewel' },
-  { key: 'ren',  hanzi: '壬', label: 'River' },
+  { key: 'ren',  hanzi: '壬', label: 'Ocean' },
   { key: 'gui',  hanzi: '癸', label: 'Rain'  },
 ];
 
@@ -216,7 +216,7 @@ function ChartView({ birthData, chart, tier, setTier, currentScreen, goto, seed,
             <Row k="Missing" v={(chart.missingElements || []).join(', ') || 'none'} />
           </div>
         ) : (
-          <div style={{ fontStyle: 'italic', color: '#8a8378', fontSize: 12 }}>
+          <div style={{ color: '#8a8378', fontSize: 12 }}>
             no chart generated yet
           </div>
         )}
@@ -423,7 +423,7 @@ function SchemaView({ chart }) {
             {!isCollapsed && (
               <div style={{ paddingLeft: 8, paddingTop: 6 }}>
                 {meta?.section && (
-                  <div style={{ fontSize: 10, color: '#7d766b', fontStyle: 'italic', marginBottom: 4 }}>
+                  <div style={{ fontSize: 10, color: '#7d766b', marginBottom: 4 }}>
                     {meta.section}
                   </div>
                 )}

@@ -18,6 +18,7 @@ import React from 'react';
 import DetailShell from './DetailShell.jsx';
 import { useChart } from '../../../store/chartContext.jsx';
 import { TG_CARD_DATA } from '../../../content/archetypeSource.js';
+import { tgPersona } from '../../../content/tgNames.js';
 import TGRing from '../TGRing.jsx';
 import { readingDetailBg, elementArt } from '../../../styles/backgrounds.js';
 import {
@@ -78,8 +79,8 @@ export default function TenGodsDetail({ onBack }) {
         element,
         artSrc: elementArt(element),
         eyebrow: 'Dominant Energies · 十 神',
-        title: 'The Ten Gods in your chart',
-        subtitle: primaryEntry ? `Primary force · ${primaryEntry.zh} ${primaryEntry.en}` : undefined,
+        title: 'The council in your chart',
+        subtitle: primaryEntry ? `Primary force · ${tgPersona(primaryEntry.zh)} ${primaryEntry.zh}` : undefined,
       }}
     >
       {/* ── TG RING — weighted role donut (DOC5 §11 identity visual) ── */}
@@ -102,9 +103,10 @@ export default function TenGodsDetail({ onBack }) {
         color: inkSoft,
         margin: '4px 0 18px',
       }}>
-        The Ten Gods (十神) are the relational forces visible in every
-        pillar — how each piece of your chart relates to your Day Master.
-        The ring above weighs them by role; the pattern below is yours.
+        Your council (十神) — the relational forces visible in every
+        pillar, each one a way the rest of your chart relates to your
+        Day Master. The ring above weighs them by role; the pattern
+        below is yours.
       </p>
 
       {/* ── PILLAR GRID — all visible TGs ───────────────────────── */}
@@ -144,7 +146,7 @@ export default function TenGodsDetail({ onBack }) {
       {primaryCard && (
         <PrimaryForceCard
           tgZh={primaryEntry.zh}
-          tgEn={primaryEntry.en}
+          tgEn={tgPersona(primaryEntry.zh)}
           card={primaryCard}
           pigment={pigment}
         />
@@ -190,7 +192,7 @@ function TGCell({ pillar, position, tg, isPrimary }) {
         color: inkSoft,
         lineHeight: 1.25,
       }}>
-        {tg.en}
+        {tgPersona(tg.zh) || tg.en}
       </div>
     </div>
   );

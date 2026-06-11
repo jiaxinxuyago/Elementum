@@ -18,6 +18,7 @@
 import React from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { Icon } from '../shared/icons';
+import { tgPersona } from '../../content/tgNames.js';
 import {
   ink, inkSoft, inkLight, bronzeDark, silk,
   paperHair, cardstockBg, pigments,
@@ -46,14 +47,16 @@ const ELEMENT_TO_PIGMENT = {
   Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water',
 };
 
+// Fallback when the engine didn't tag the pillar — canonical persona
+// names only (READING_CONCEPT_INVENTORY §2; engine translations banned).
 function tenGodLabel(stem, dmStem, isDay) {
   if (isDay) return 'Self';
   if (!stem || !dmStem) return '';
-  if (stem === dmStem) return 'Parallel Self';
+  if (stem === dmStem) return 'The Mirror';
   const dmInfo = STEM_INFO[dmStem];
   const stInfo = STEM_INFO[stem];
   if (!dmInfo || !stInfo) return '';
-  if (stInfo.element === dmInfo.element) return 'Rob Wealth';
+  if (stInfo.element === dmInfo.element) return 'The Rival';
   return '—';
 }
 
@@ -220,7 +223,6 @@ function Pillar({ colLabel, isSelf, tg, stem, stemElement, stemPolarity, branch,
         fontFamily: "'Cormorant Garamond', Georgia, serif",
         fontSize: 10, color: inkLight,
         lineHeight: 1.15, minHeight: 22,
-        fontStyle: unconfirmed ? 'italic' : 'normal',
         display: 'flex', alignItems: 'center',
       }}>{unconfirmed ? '~ unconfirmed' : (tg || '')}</div>
 
@@ -274,7 +276,7 @@ function useFourPillars(chart, dmStem) {
       const branchElement = branch ? BRANCH_ELEMENT[branch] : null;
       return {
         col, isSelf,
-        tg: chart?.tenGods?.[`${key}Stem`]?.en || pi.stemTenGod?.en || tenGodLabel(stem, dmStem, isSelf),
+        tg: tgPersona(chart?.tenGods?.[`${key}Stem`]?.zh || pi.stemTenGod?.zh) || tenGodLabel(stem, dmStem, isSelf),
         stem,
         stemElement: pi.stemElement || stemInfo?.element || null,
         stemPolarity: stemInfo?.polarity || (pi.stemPolarity ? (pi.stemPolarity === 'yin' ? 'Yin' : 'Yang') : null),

@@ -101,7 +101,6 @@ export default function WelcomeScreen({ onContinue }) {
           style={{
             fontFamily: "'EB Garamond', serif",
             fontSize: 17,
-            fontStyle: 'italic',
             color: INK_SOFT,
             lineHeight: 1.55,
             margin: '0 auto',
@@ -185,7 +184,6 @@ export default function WelcomeScreen({ onContinue }) {
               fontFamily: "'EB Garamond', serif",
               fontSize: 13,
               color: INK,
-              fontStyle: 'italic',
               boxShadow: '0 2px 10px rgba(60,40,20,0.08)',
               cursor: 'pointer',
             }}

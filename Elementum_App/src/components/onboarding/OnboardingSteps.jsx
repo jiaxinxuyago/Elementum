@@ -376,7 +376,6 @@ export function Step4A_HourWindow({ onBack, onContinue, onUnknown }) {
             textAlign: 'center',
             fontFamily: "'EB Garamond', serif",
             fontSize: 12.5,
-            fontStyle: 'italic',
             color: INK_LIGHT,
             lineHeight: 1.55,
             padding: '0 12px',
@@ -790,7 +789,7 @@ export function Step6_Polarity({ onBack, onContinue, onPreferNot }) {
       step={6}
       question="What is your gender?"
       subtitle={
-        <>“This determines the direction of your Decade Luck Cycles (大运).”</>
+        <>“This determines the direction of your Life Chapters (大运).”</>
       }
       canContinue={true}
       onBack={onBack}
@@ -870,7 +869,7 @@ export function Step6A_EnergyCurrent({ onBack, onContinue }) {
         <>
           “A quiet follow-up — this sets the direction of
           <br />
-          your Decade Luck Cycles.”
+          your Life Chapters.”
         </>
       }
       canContinue={current !== null}
@@ -901,7 +900,6 @@ export function Step6A_EnergyCurrent({ onBack, onContinue }) {
             background: 'rgba(139,115,85,0.05)',
             fontFamily: "'EB Garamond', serif",
             fontSize: 12.5,
-            fontStyle: 'italic',
             color: INK_SOFT,
             lineHeight: 1.55,
             textAlign: 'center',
@@ -1095,7 +1093,6 @@ export function Step7_Notify({ onBack, onContinue, onChangeTime }) {
             fontFamily: "'EB Garamond', serif",
             fontSize: 13,
             color: INK_LIGHT,
-            fontStyle: 'italic',
           }}
         >
           <span

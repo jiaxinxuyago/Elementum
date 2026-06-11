@@ -723,7 +723,6 @@ export default function RevealScreen({ onEnterDashboard, hideCTA = false }) {
         <div
           style={{
             fontFamily: "'Cormorant Garamond', serif",
-            fontStyle: 'italic',
             color: INK_LIGHT,
             fontSize: 18,
             zIndex: 10,
@@ -994,7 +993,6 @@ export default function RevealScreen({ onEnterDashboard, hideCTA = false }) {
             style={{
               fontFamily: "'Cormorant Garamond', serif",
               fontSize: 19,
-              fontStyle: 'italic',
               fontWeight: 500,
               color: INK_SOFT,
               letterSpacing: 0.3,

@@ -18,6 +18,7 @@ import { useChart } from '../../../store/chartContext.jsx';
 import { energyContext } from '../../../engine/temporal.js';
 import { Icon } from '../../shared/icons';
 import { readingDetailBg, elementArt } from '../../../styles/backgrounds.js';
+import { tgPersona } from '../../../content/tgNames.js';
 import {
   ink, inkSoft, inkLight, bronzeDark, gold,
   paperHair, cardstockBg, quietBg, quietBorder,
@@ -28,18 +29,18 @@ const ELEMENT_TO_PIGMENT = {
   Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water',
 };
 
-// Templated decade reading from the decade element's relation to the DM.
+// Templated chapter reading from the chapter element's relation to the DM.
 function decadeReading(decade, ctx) {
   const el = decade.element;
-  const tg = decade.stemTenGod?.en;
+  const tg = tgPersona(decade.stemTenGod?.zh);
   let body;
   if (el === ctx.catalyst)
-    body = `This decade carries ${el} — the energy that most lifts your ${ctx.dmElement} nature. These are the years the current runs with you: the ambitions you commit to now tend to compound. Push, build, and commit while the window is open.`;
+    body = `This chapter carries ${el} — the energy that most lifts your ${ctx.dmElement} nature. These are the years the current runs with you: the ambitions you commit to now tend to compound. Push, build, and commit while the window is open.`;
   else if (el === ctx.resistance)
-    body = `This decade carries ${el}, the energy that tests your ${ctx.dmElement} nature. Not a decade to force — one to refine and consolidate. What you protect and deepen now holds; what you over-extend tends to scatter.`;
+    body = `This chapter carries ${el}, the energy that tests your ${ctx.dmElement} nature. Not a chapter to force — one to refine and consolidate. What you protect and deepen now holds; what you over-extend tends to scatter.`;
   else
-    body = `This decade carries ${el} — neither strongly with nor against your ${ctx.dmElement} nature. A steadying span: the foundations you lay quietly here become the ground the next decade builds on.`;
-  if (tg && tg !== '—') body += ` Its dominant register is ${tg} — the lens through which this decade's pressure arrives.`;
+    body = `This chapter carries ${el} — neither strongly with nor against your ${ctx.dmElement} nature. A steadying span: the foundations you lay quietly here become the ground the next chapter builds on.`;
+  if (tg) body += ` Its dominant register is ${tg} — the lens through which this chapter's pressure arrives.`;
   return body;
 }
 

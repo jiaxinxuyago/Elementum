@@ -101,7 +101,6 @@ export default function DecadePage({ onBack }) {
         <p style={{
           fontFamily: "'Cormorant Garamond', Georgia, serif",
           fontSize: 14.5, lineHeight: 1.55, color: ink, margin: 0,
-          fontStyle: 'italic',
         }}>
           {el} over {dmEl}: {GOVERNS[el] || GOVERNS.Metal}
         </p>

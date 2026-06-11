@@ -82,7 +82,6 @@ export default function LockedDetail({
             fontFamily: "'EB Garamond', Georgia, serif",
             fontSize: 11.5,
             color: inkMist,
-            fontStyle: 'italic',
             letterSpacing: 0.3,
           }}
         >

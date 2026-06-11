@@ -16,6 +16,7 @@ import React, { useState } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { useUpgrade } from './UpgradeModal.jsx';
 import { Icon } from '../shared/icons';
+import { tgPersona } from '../../content/tgNames.js';
 import {
   ink, inkSoft, inkLight, bronzeDark, gold,
   paperHair, cardstockBg, withAlpha,
@@ -65,28 +66,28 @@ const ENTRIES = [
     },
   },
   {
-    key: 'tengods', title: 'The Ten Gods', hanzi: '十 神', tier: 'seeker',
-    def: 'The Ten Gods (十神) are the ten relational roles every other stem can play toward your Day Master — companion, output, wealth, authority, resource, each in a yin and yang register.',
+    key: 'tengods', title: 'The Council', hanzi: '十 神', tier: 'seeker',
+    def: 'Your council (十神) is the ten relational roles every other stem can play toward your Day Master — companion, output, wealth, authority, resource, each in a yin and yang register.',
     body: [
       'They translate raw elements into life meaning: the same Metal that is “Metal” in the abstract becomes Wealth, Authority, or Resource depending on what your Day Master is.',
-      'Your dominant Ten Gods describe how your energy actually deploys — whether you lead with output, accumulate wealth, answer to authority, or draw on resource.',
+      'Your dominant council figures describe how your energy actually deploys — whether you lead with output, accumulate wealth, answer to authority, or draw on resource.',
     ],
     ref: (c) => {
       const tg = c?.tenGods; if (!tg) return null;
-      const names = [...new Set(['yearStem', 'monthStem', 'hourStem'].map((k) => tg[k]?.en).filter((n) => n && n !== '—'))];
+      const names = [...new Set(['yearStem', 'monthStem', 'hourStem'].map((k) => tgPersona(tg[k]?.zh)).filter(Boolean))];
       return names.length ? `Active in your chart: ${names.join(', ')}.` : null;
     },
   },
   {
-    key: 'luckcycles', title: 'Luck Cycles', hanzi: '大 运', tier: 'seeker',
-    def: 'Your luck pillars (大运) are ten-year periods, each a stem-and-branch that overlays your chart and shifts which energies are emphasised.',
+    key: 'luckcycles', title: 'Life Chapters', hanzi: '大 运', tier: 'seeker',
+    def: 'Your Life Chapters (大运) are ten-year periods, each a stem-and-branch that overlays your chart and shifts which energies are emphasised.',
     body: [
-      'The natal chart is fixed; the luck cycles move. A decade can amplify a strength, supply a missing element, or press on a weakness.',
-      'Reading your decades is how the chart becomes a timeline rather than a static portrait.',
+      'The birth chart is fixed; the chapters move. A chapter can amplify a strength, supply a missing element, or press on a weakness.',
+      'Reading your chapters is how the chart becomes a timeline rather than a static portrait.',
     ],
     ref: (c) => {
       const d = (c?.luckPillars || []).find((x) => x.isCurrent);
-      return d ? `You are in the ${d.element} Decade — age ${d.startAge}–${d.endAge}.` : null;
+      return d ? `Your current chapter: ${d.element} — age ${d.startAge}–${d.endAge}.` : null;
     },
   },
   {
@@ -115,7 +116,7 @@ const ENTRIES = [
     def: 'Every stem and branch carries a polarity — Yang (active, outward) or Yin (receptive, inward). Your Day Master’s polarity colours how its element expresses.',
     body: [
       'Yang Metal (庚) is the blade; Yin Metal (辛) is the jewel — same element, opposite temperament. The polarity is the difference between force and finesse.',
-      'Polarity also governs how the Ten Gods split into their direct and indirect forms, doubling five relationships into ten.',
+      'Polarity also governs how the council splits into direct and indirect forms, doubling five relationships into ten.',
     ],
     ref: (c) => {
       const dm = c?.dayMaster; if (!dm) return null;

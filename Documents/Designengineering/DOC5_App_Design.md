@@ -3187,9 +3187,11 @@ Items requiring hand-drawn / AI-image-generated brushwork before they can ship a
 
 Drop-in target: replace each `<symbol>` body in `Design/icons.svg`. Every consumer (legend HTML + React app) auto-updates.
 
-### §AM.10 — Italic usage v2 (supersedes §3.5.E)
+### §AM.10 — Italic usage v2 (supersedes §3.5.E) — *superseded by v3 below*
 
-Italic is reserved for **two contexts only**:
+> **[OWNER RULING 2026-06-10 · v3 — ITALIC IS BANNED APP-WIDE.]** The v2 rule's two remaining contexts (sub-headline, microcopy) are revoked. **No text in the app renders italic — zero contexts.** All former italic sites render regular at their existing size/weight/color; tonal distinction is carried by font family (Cormorant vs EB Garamond), size, and color only. The italic axes were removed from the Google Fonts payload (`index.html`), so any future `fontStyle: 'italic'` would render as faux-oblique — treat any italic appearance as a defect. Enforced 2026-06-10: 34 italic sites stripped across 19 files. The v2 table below is historical.
+
+Italic was reserved for **two contexts only** (v2, now revoked):
 
 | Allowed context | Font · size · weight · color | Anchor source |
 |---|---|---|

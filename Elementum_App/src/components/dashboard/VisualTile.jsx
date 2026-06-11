@@ -353,8 +353,7 @@ export function VisualTile({
           {subtitle && (
             <div style={{
               fontFamily: "'EB Garamond', Georgia, serif",
-              fontSize: 12.5, lineHeight: 1.4,
-              fontStyle: 'italic', color: inkLight, marginTop: 3,
+              fontSize: 12.5, lineHeight: 1.4, color: inkLight, marginTop: 3,
             }}>{subtitle}</div>
           )}
         </div>
@@ -458,7 +457,6 @@ export function SceneHero({
         {subtitle && (
           <span style={{
             fontFamily: "'EB Garamond', Georgia, serif",
-            fontStyle: 'italic',
             fontSize: 14, color: '#D8CDB6', lineHeight: 1.4,
           }}>{subtitle}</span>
         )}

@@ -423,7 +423,6 @@ export function OnboardingShell({
           style={{
             fontFamily: "'EB Garamond', serif",
             fontSize: 15,
-            fontStyle: 'italic',
             color: INK_SOFT,
             lineHeight: 1.7,
             textAlign: 'center',

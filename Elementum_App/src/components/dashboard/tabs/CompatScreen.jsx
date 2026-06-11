@@ -147,7 +147,7 @@ export default function CompatScreen() {
         {r.headline && (
           <div style={{
             fontFamily: "'Cormorant Garamond', Georgia, serif",
-            fontSize: 16, fontStyle: 'italic', color: inkSoft, marginTop: 6,
+            fontSize: 16, color: inkSoft, marginTop: 6,
           }}>{r.headline}</div>
         )}
       </div>

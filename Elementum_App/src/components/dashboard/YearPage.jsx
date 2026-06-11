@@ -119,7 +119,7 @@ export default function YearPage({ onBack }) {
       <SectionCard label="The Year's Counsel" style={{ marginTop: 10 }}>
         <p style={{
           fontFamily: "'Cormorant Garamond', Georgia, serif",
-          fontSize: 14.5, lineHeight: 1.55, color: ink, margin: 0, fontStyle: 'italic',
+          fontSize: 14.5, lineHeight: 1.55, color: ink, margin: 0,
         }}>{counsel}</p>
       </SectionCard>
     </main>

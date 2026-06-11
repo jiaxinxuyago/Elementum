@@ -444,7 +444,7 @@ function WelcomeToSeekerScreen({ element, stemKey, archetype, onDone }) {
         <div style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 28, color: '#F8F6F0', lineHeight: 1.25, animation: 'wbRise 400ms ease-out 700ms both' }}>
           Welcome back, {archetype}.
         </div>
-        <div style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 18, fontStyle: 'italic', color: 'rgba(248,246,240,0.78)', marginTop: 6, animation: 'wbRise 400ms ease-out 900ms both' }}>
+        <div style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 18, color: 'rgba(248,246,240,0.78)', marginTop: 6, animation: 'wbRise 400ms ease-out 900ms both' }}>
           Your full reading is now open.
         </div>
         <div style={{ marginTop: 24, display: 'flex', flexDirection: 'column', gap: 8, alignItems: 'flex-start', maxWidth: 280, marginLeft: 'auto', marginRight: 'auto' }}>

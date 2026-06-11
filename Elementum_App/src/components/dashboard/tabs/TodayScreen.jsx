@@ -258,7 +258,7 @@ function HubTile({ height, pigment, artSrc, meta, title, sub, chev, chevSub, han
         {sub && !chev && (
           <div style={{
             fontFamily: "'EB Garamond', Georgia, serif",
-            fontSize: 12.5, lineHeight: 1.4, fontStyle: 'italic',
+            fontSize: 12.5, lineHeight: 1.4,
             color: inkLight, marginTop: 2,
           }}>{sub}</div>
         )}
@@ -269,7 +269,7 @@ function HubTile({ height, pigment, artSrc, meta, title, sub, chev, chevSub, han
           }}>
             <span style={{
               fontFamily: "'EB Garamond', Georgia, serif",
-              fontSize: 12.5, fontStyle: 'italic', color: inkLight,
+              fontSize: 12.5, color: inkLight,
             }}>{chevSub || sub}</span>
             <Icon id="ico-chev-r" size={14} color={inkLight} />
           </div>

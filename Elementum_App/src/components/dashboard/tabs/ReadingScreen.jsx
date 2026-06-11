@@ -106,7 +106,7 @@ export default function ReadingScreen({ onOpen, onOpenEnergyMap }) {
         }}>Readings</span>
         <button type="button" onClick={onOpenEnergyMap} style={{
           appearance: 'none', background: 'transparent', border: 'none', cursor: 'pointer',
-          fontFamily: "'EB Garamond', Georgia, serif", fontStyle: 'italic', fontSize: 13,
+          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13,
           color: bronzeDark, borderBottom: `1px dashed ${paperHair}`, padding: '0 0 2px',
           display: 'inline-flex', alignItems: 'center', gap: 4,
         }}>
@@ -208,7 +208,7 @@ function IdentityCard({
             {archetype}
           </div>
           <div style={{
-            fontFamily: "'EB Garamond', Georgia, serif", fontStyle: 'italic',
+            fontFamily: "'EB Garamond', Georgia, serif",
             fontSize: 13.5, color: inkSoft, marginTop: 4, lineHeight: 1.4,
           }}>
             {manifesto}
@@ -326,7 +326,7 @@ function ReadingRow({ row }) {
           )}
         </div>
         <div style={{
-          fontFamily: "'EB Garamond', Georgia, serif", fontStyle: 'italic',
+          fontFamily: "'EB Garamond', Georgia, serif",
           fontSize: 12, color: inkLight, lineHeight: 1.35, marginTop: 2,
         }}>{row.d}</div>
         {row.badges?.length > 0 && (
