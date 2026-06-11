@@ -142,6 +142,8 @@ Status legend: ✅ taught (introduced before/where used) · ⚠ used-untaught (s
 
 **Added 2026-06-10.** The inventory (§3) sorted by its prerequisite arrows and assigned to journey moments. Every moment gets three lists: **assumes** (rungs that must already be taught), **teaches** (the ONE new rung this moment owns), and **previews** (rungs it may *show* as a teaser without explaining — curiosity is allowed; reliance is not).
 
+> **⚠ INVERSION AMENDMENT (2026-06-10 · D13).** Field evidence (first BaZi-literate tester: couldn't connect the invented categories to her reading — **payoff latency**) inverts how this ladder is applied. The rungs, prerequisites, and journey order below **stand**, but their role changes: the ladder now governs what the **on-demand explanations** beneath each reading may assume — it no longer gates the readings. **Claims lead; teaching beats become expandable depth under the claim** ("reading before rubric"). Consequences: the L9 cycle moment relocates *inside* the Five Energy Cards as the tap-to-open "how this works" layer; L8–L11 below now describe the internals of the per-element cards (D13 structure — see Part 3); a concept name appearing without an attached personal claim is a defect (DOC5 §0 governing principle).
+
 ## 6 · Ladder rules
 
 1. **One new rung per moment.** A screen may teach exactly one concept. Showing ≠ teaching: a preview (an unexplained glimpse that creates pull) is legal; *using* an untaught concept to make a claim is not.
@@ -184,4 +186,45 @@ Status legend: ✅ taught (introduced before/where used) · ⚠ used-untaught (s
 - **L9 diagram form** — ring? cross? the canvas brief decides, but if you have an instinct (the TG ring already exists as a viz), it shapes the brief.
 - **L14 Chart Patterns** — teach it properly, or label it "advanced" and let it be the one deliberately steep room in the house?
 
-*Next: Part 3 — Section Charters: per reading section — concept taught (from this ladder) · claim type · emotional beat · format + word budget (from `READING_FORMAT_AUDIT.md`).*
+---
+
+# PART 3 — Section Charters (the D13 structure)
+
+**Added 2026-06-10.** Per reading surface: the contract that Part 1's vocabulary, Part 2's ladder (inverted), and the schema v2 all serve. Structure per D13: **Identity · Five Energy Cards · Time · Patterns.** Word budgets derive from `READING_FORMAT_AUDIT.md` (budgets serve the voice: punch 10–14w, expand 18–24w, conclusion lines ≤14w, chips ≤4w).
+
+**Claim types** (the Resonance Spec, Step 2, will define acceptance tests per type):
+- **R — Recognition:** a specific, falsifiable-enough self-description ("that's me").
+- **E — Explanation:** why the recognition is true (mechanism — always on-demand).
+- **P — Prediction:** how this energy behaves under conditions (pressure, season, chapter, today).
+- **X — Prescription:** what to do with it (cultivate, lean on, guard against).
+
+## 10 · Charter table
+
+| Surface | Concepts (ladder) | Claim lead | Emotional beat | Face format (zero-tap) | Depth layers (in order) |
+|---|---|---|---|---|---|
+| **Identity Card / Reveal §2** | 1.1+1.2 | **R** ×2–3 | "I am seen" | Archetype name + 汉字 + manifesto + 2–3 recognition claims (punch register) | mechanism line ("born on a 庚 day…") → expandable "what is a Day Master" (E) → Codex |
+| **Energy Card · Self** (DM element) | 1.2, 1.4 | **R** | "this is my core" | Element + 汉字 + % + conclusion line ("Metal is your core — precision before intention") | band/saturation reading (R+E) → how concentrated self-energy behaves (P) → cycle layer (E) |
+| **Energy Card · Strongest non-self** | 2.2, 2.3 | **R** | "so THAT's what that is" | Element + % + conclusion via its council persona ("Fire in you is The General — pressure that forges") | persona reading: claims from Profile DB Part Two (R) → role badge (strongest) → catalyst/friction status if any (X) → cycle layer (E) |
+| **Energy Card · Present** (×2–3) | 2.2 | **R** | "even the quiet parts are me" | Element + % + one conclusion line via its persona | persona reading (shorter) (R) → role badges → cycle layer (E) |
+| **Energy Card · Absent/scarce** | 2.5, 3.3 | **R→X** | "what I'm missing has a name" | Element + 0%/low + conclusion ("Fire is scarce — borrowed, never owned") | absence reading (R) → **cultivation practice (former Seasonal Calibration, X)** → cycle layer (E) |
+| **Today / Day page** | 3.2 | **P→X** | "today is mine" | Today's element meets your chart: one-line forecast | do/avoid (X) → best hours (P) → persona register of the day (R) → cycle chip (E) |
+| **Life Chapters** | 3.1 | **P** | "my life has shape" | Current chapter conclusion first ("These are compounding years") | chapter timeline (P) → per-chapter readings (P+X) → mechanism (E) |
+| **Patterns** *(advanced-labeled)* | 4.1 | **E→R** | "that's why it's complicated" | One conclusion ("Your chart argues with itself in one place") | per-pattern readings (R) → mechanism (E) — the one deliberately steep room |
+| **Energy Map** | synthesis | — (viz) | "the whole of me, at once" | The composed visualization | links back into the five cards |
+
+## 11 · Charter rules
+
+1. **Card faces carry conclusions, never category labels.** "Primary & secondary forces" is dead copy; "Fire in you is The General — pressure that forges" is the format.
+2. **Tier gating follows the revelation sequence** (§19): faces + first recognition claim free; depth layers (full persona reading, prescriptions, cultivation) = Seeker. The gate sits *inside* a card the user already wants open — never in front of the face.
+3. **Every depth layer ends with the Codex affordance** (quiet, standard component).
+4. **The cycle layer (E) is one shared component** — the personal feed/check diagram (former L9), parameterized by element pair. One canvas brief.
+5. **Five-element art** (`t_{el}_{n}_{shape}` library) gives every card its painting — the visual system was already organized this way.
+
+## 12 · What this means for schema v2 (Step 3 preview)
+
+- The per-element card becomes the schema's central unit: `energyCard[element]` with `face.conclusion` (≤14w), `claims[]` (2–3 × punch register), `roleBadges[]`, `depth` blocks per claim type, `cultivation` (absent-element only).
+- `elementIntro` punch/expand survive as the Self card's face + first depth block — budgets corrected to the audit's evidence (punch 10–14w, expand 18–24w).
+- `keywords`/`chips` alias resolves to `chips` (≤4w each).
+- Dominant/secondary/catalyst/friction become **derived role badges**, not content categories — they stop needing their own authored sections.
+
+*Next: owner markup of Parts 1–3 → Step 2 (Resonance Spec: acceptance tests per claim type + the cold-reader protocol with time-to-first-recognition) → Step 3 (schema v2 + freeze) → canvas brief (element card + cycle layer).*

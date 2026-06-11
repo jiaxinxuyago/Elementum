@@ -57,12 +57,17 @@ Design the reading structure and construct the reading content so that Elementum
 - The **content reconstruction** that follows the new schema, and the 150-key batch behind it (gated on the new schema freeze).
 - The **journey design** of Reveal → catalogue → detail pagers: progressive concept disclosure, not flat presentation.
 
+### The governing principle — "Reading first, system second" (added 2026-06-10 · D13)
+
+> First field test (a BaZi-literate tester) showed the failure mode is **payoff latency**, not concept difficulty: the app led with taxonomy and deferred conclusions. The rule that fixes it: **every concept surfaces attached to its personal conclusion; mechanism and taxonomy live one tap beneath the claim, never in front of it.** A concept name without a claim is a defect of the same severity as a vocabulary violation. A 算命 master tells you about yourself first — the system is the master's internal tooling, surfaced as texture and authority, not as prerequisite. Axis A's concept ladder governs what the *on-demand explanations* may assume; it does not gate the readings themselves.
+
 ### Acceptance tests (Beta exit)
 
 | Axis | Test |
 |---|---|
 | A — Concept Ladder | A BaZi-naive user can explain, unprompted, what their day master and elemental composition mean after one session ("teach-back" test). |
 | B — Resonance | ≥7/10 cold readers report self-recognition on their own reading; returning-user rate on Today screen demonstrates the daily pull. |
+| **Payoff latency (D13)** | A personal claim ("that's me") is on screen **within the first Reveal viewport, zero taps**; every catalogue card face carries a conclusion, not a category label. |
 
 **Related:** §1 (the ancient-seriousness ↔ daily-accessibility tension this charter operationalizes) · DOC4 (voice + generation rules) · `DESIGN_AUDIT_BACKLOG.md` D12 · `READING_FORMAT_AUDIT.md` (format evidence).
 
