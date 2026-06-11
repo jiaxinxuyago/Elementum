@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Elementum · D13 Wireframe v4 — The Five Energies Journey (handoff edition)</title>
+<title>Elementum · D13 Wireframe v5 — The Five Energies Journey (Claude Design handoff)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:wght@400;500&family=Noto+Serif+SC:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
     --paper: #f5f2ea; --frame: #fdfcf9; --ink: #2b2722; --ink-soft: #5c554d;
@@ -12,10 +14,11 @@
     --metal: #4a7090; --earth: #7a5c30; --water: #2a4e7a; --wood: #3d6b31; --fire: #8a3d25;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: Georgia, 'Times New Roman', serif; background: var(--paper); color: var(--ink); padding: 40px 48px 90px; }
-  .doc-head { max-width: 1140px; margin-bottom: 10px; }
-  .doc-eyebrow { font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: var(--ink-light); }
-  h1 { font-size: 30px; font-weight: 400; margin: 6px 0 8px; }
+  body { font-family: 'EB Garamond', Georgia, serif; background: var(--paper); color: var(--ink); padding: 40px 48px 90px; }
+  .doc-head { max-width: 1140px; margin-bottom: 10px; background: var(--frame); border: 1px solid var(--hair); border-radius: 14px; padding: 26px 30px 4px; }
+  .doc-eyebrow { font-family: Cinzel, serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); }
+  h1 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 34px; font-weight: 500; margin: 8px 0 10px; }
+  h1 .zh-accent { font-family: 'Noto Serif SC', serif; font-size: 26px; color: var(--accent); }
   .doc-meta { font-size: 13px; color: var(--ink-soft); line-height: 1.7; max-width: 1000px; }
   .doc-meta b { color: var(--ink); }
   .spec-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; max-width: 1140px; margin: 18px 0 34px; }
@@ -27,7 +30,7 @@
 
   .flow { display: flex; gap: 26px; align-items: flex-start; overflow-x: auto; padding-bottom: 24px; }
   .stage { flex-shrink: 0; width: 318px; }
-  .stage-label { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); margin-bottom: 4px; font-weight: 600; }
+  .stage-label { font-family: Cinzel, serif; font-size: 10.5px; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); margin-bottom: 4px; font-weight: 600; }
   .stage-sub { font-size: 12px; color: var(--ink-soft); min-height: 56px; line-height: 1.5; margin-bottom: 10px; }
   .arrow { flex-shrink: 0; align-self: center; font-size: 22px; color: var(--ink-light); margin-top: 220px; }
 
@@ -43,7 +46,8 @@
   .anno.motion::before { content: '∿'; font-size: 12px; }
 
   .seal-ph { width: 88px; height: 88px; border: 2px solid var(--ink); border-radius: 50%; margin: 0 auto; display: flex; align-items: center; justify-content: center; font-size: 33px; color: var(--ink); background: rgba(253,252,249,0.55); }
-  .arch-name { font-size: 30px; text-align: center; }
+  .arch-name { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 30px; font-weight: 500; text-align: center; }
+  .zh, .card-zh, .pzh, .seal-ph { font-family: 'Noto Serif SC', serif; }
   .manifesto { font-size: 15px; text-align: center; color: var(--ink-soft); }
   .claims { display: flex; flex-direction: column; gap: 9px; margin: 0 4px; }
   .claim { border-left: 2px solid var(--accent); padding: 7px 10px; font-size: 13px; line-height: 1.45; background: rgba(107,83,57,0.05); }
@@ -91,7 +95,7 @@
   .swipe-dots { text-align: center; font-size: 9px; letter-spacing: 4px; color: var(--ink-light); margin-top: auto; }
 
   .section-block { max-width: 1140px; margin-top: 44px; }
-  .section-block h2 { font-size: 17px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+  .section-block h2 { font-family: Cinzel, serif; font-size: 15px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
   .section-block .lead { font-size: 12.5px; color: var(--ink-soft); margin-bottom: 12px; line-height: 1.6; }
   .section-block table { border-collapse: collapse; width: 100%; font-size: 12.5px; background: var(--frame); }
   .section-block td, .section-block th { border: 1px solid var(--hair); padding: 7px 11px; text-align: left; vertical-align: top; line-height: 1.5; }
@@ -103,8 +107,8 @@
 <body>
 
 <div class="doc-head">
-  <div class="doc-eyebrow">Elementum · D13 · Wireframe v4 — Handoff Edition · 2026-06-10</div>
-  <h1>The Five Energies Journey — Reveal <em>is</em> the Catalogue</h1>
+  <div class="doc-eyebrow">Elementum · D13 · Wireframe v5 — Claude Design Handoff · 2026-06-10</div>
+  <h1>The Five Energies Journey <span class="zh-accent">· 五行之旅</span> — Reveal IS the Catalogue</h1>
   <div class="doc-meta">
     The complete UX spec for the redesigned reading surface, prepared for the <b>Claude Design polish pass</b> (visual wireframe →
     rendered screens). Every text slot carries a <span class="bud">word budget</span> — the binding contract between UX and writing,
