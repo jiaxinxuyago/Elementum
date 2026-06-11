@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Elementum · D13 Wireframe — Five Energies Journey (Reveal = Catalogue)</title>
+<title>Elementum · D13 Wireframe v2 — Five Energies Journey (Reveal = Catalogue)</title>
 <style>
   :root {
     --paper: #f5f2ea; --frame: #fdfcf9; --ink: #2b2722; --ink-soft: #5c554d;
@@ -20,11 +20,12 @@
   .doc-meta b { color: var(--ink); }
   .rulings { margin: 18px 0 38px; display: flex; flex-wrap: wrap; gap: 6px; max-width: 1100px; }
   .ruling { font-size: 11px; padding: 4px 11px; border: 1px solid var(--hair); border-radius: 14px; background: var(--frame); color: var(--ink-soft); }
+  .ruling.new { border-color: var(--accent); color: var(--accent); }
 
   .flow { display: flex; gap: 26px; align-items: flex-start; overflow-x: auto; padding-bottom: 24px; }
   .stage { flex-shrink: 0; width: 318px; }
   .stage-label { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); margin-bottom: 4px; font-weight: 600; }
-  .stage-sub { font-size: 12px; color: var(--ink-soft); min-height: 50px; line-height: 1.5; margin-bottom: 10px; }
+  .stage-sub { font-size: 12px; color: var(--ink-soft); min-height: 64px; line-height: 1.5; margin-bottom: 10px; }
   .arrow { flex-shrink: 0; align-self: center; font-size: 22px; color: var(--ink-light); margin-top: 220px; }
 
   .phone { width: 318px; height: 660px; background: var(--frame); border: 1.5px solid var(--ink); border-radius: 26px; padding: 18px 16px; position: relative; overflow: hidden; display: flex; flex-direction: column; }
@@ -32,7 +33,6 @@
   .wf-note { font-size: 9px; color: var(--ink-light); border: 1px dashed var(--hair); border-radius: 6px; padding: 3px 7px; display: inline-block; }
   .draft { color: var(--down); font-size: 8px; letter-spacing: 1px; text-transform: uppercase; }
 
-  /* annotations under each phone */
   .annos { margin-top: 12px; display: flex; flex-direction: column; gap: 6px; }
   .anno { font-size: 11.5px; line-height: 1.55; color: var(--ink-soft); padding-left: 18px; position: relative; }
   .anno::before { content: '◆'; position: absolute; left: 0; top: 1px; font-size: 9px; color: var(--accent); }
@@ -40,10 +40,9 @@
   .anno.gate::before { color: var(--gate); }
   .anno.motion::before { content: '∿'; font-size: 12px; }
 
-  /* P1 identity */
+  /* identity / DM card page */
   .seal-ph { width: 92px; height: 92px; border: 1.5px dashed var(--ink-light); border-radius: 50%; margin: 26px auto 12px; display: flex; align-items: center; justify-content: center; font-size: 34px; color: var(--ink-soft); }
   .arch-name { font-size: 30px; text-align: center; }
-  .arch-sub { font-size: 11px; text-align: center; color: var(--ink-light); letter-spacing: 1.5px; text-transform: uppercase; margin-top: 2px; }
   .manifesto { font-size: 15px; text-align: center; color: var(--ink-soft); margin: 10px 0 16px; }
   .claims { display: flex; flex-direction: column; gap: 9px; margin: 0 4px; }
   .claim { border-left: 2px solid var(--accent); padding: 7px 10px; font-size: 13.5px; line-height: 1.45; background: rgba(107,83,57,0.05); }
@@ -51,19 +50,17 @@
   .mech a { color: var(--accent); }
   .scroll-cue { margin-top: auto; text-align: center; font-size: 10px; color: var(--ink-light); letter-spacing: 2px; }
 
-  /* P2 wheel */
-  .pillar-strip { display: flex; gap: 5px; justify-content: center; margin: 8px 0 4px; }
-  .mini-pillar { width: 34px; border: 1px solid var(--hair); border-radius: 6px; text-align: center; font-size: 13px; padding: 4px 0; color: var(--ink-soft); line-height: 1.5; }
-  .mini-pillar span { display: block; font-size: 6.5px; letter-spacing: 0.5px; color: var(--ink-light); text-transform: uppercase; }
-  .strip-note { text-align: center; font-size: 8.5px; color: var(--ink-light); margin-bottom: 6px; }
-  .wheel { position: relative; width: 252px; height: 240px; margin: 8px auto 2px; }
+  /* wheel */
+  .wheel { position: relative; width: 252px; height: 240px; margin: 14px auto 2px; }
   .wheel-ring { position: absolute; inset: 18px; border: 1px dashed var(--hair); border-radius: 50%; }
   .node { position: absolute; border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--frame); border: 1.5px solid; line-height: 1.15; text-align: center; }
   .node .zh { font-size: 15px; }
   .node .nm { font-size: 7.5px; letter-spacing: 0.8px; text-transform: uppercase; }
   .node .pc { font-size: 9px; font-weight: 700; }
+  .node.center { border: 2px solid var(--ink); background: var(--frame); box-shadow: 0 0 0 4px rgba(43,39,34,0.05); }
+  .node.center .zh { font-size: 20px; }
   .badge { position: absolute; top: -7px; right: -5px; font-size: 10px; font-weight: 700; }
-  .rx-ribbon { text-align: center; font-size: 11.5px; color: var(--ink-soft); border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair); padding: 6px 4px; margin: 8px 6px 0; }
+  .rx-ribbon { text-align: center; font-size: 11.5px; color: var(--ink-soft); border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair); padding: 6px 4px; margin: 10px 6px 0; }
   .deck { display: flex; gap: 5px; margin: 10px 2px 0; }
   .deck-card { flex: 1; border: 1px solid var(--hair); border-radius: 8px; padding: 6px 4px 7px; text-align: center; background: var(--frame); }
   .deck-card .zh { font-size: 13px; }
@@ -71,7 +68,18 @@
   .deck-card .cl { font-size: 6.8px; line-height: 1.35; color: var(--ink-soft); margin-top: 3px; }
   .deck-card.ghosted { border-style: dashed; opacity: 0.55; }
 
-  /* P4/P5 card pages */
+  /* pillar chart page */
+  .pillar-grid { display: flex; gap: 7px; justify-content: center; margin: 12px 0 4px; }
+  .pillar { width: 58px; border: 1px solid var(--hair); border-radius: 9px; text-align: center; padding: 7px 0 8px; color: var(--ink-soft); }
+  .pillar.self { border: 1.5px solid var(--ink); }
+  .pillar .plabel { font-size: 7px; letter-spacing: 1px; color: var(--ink-light); text-transform: uppercase; }
+  .pillar .pzh { font-size: 21px; line-height: 1.25; color: var(--ink); }
+  .pillar .ptg { font-size: 7.5px; line-height: 1.3; color: var(--ink-soft); margin-top: 2px; }
+  .chart-section { border: 1px solid var(--hair); border-radius: 10px; padding: 9px 11px; margin-top: 9px; }
+  .chart-section .layer-label { font-size: 8px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--ink-light); margin-bottom: 4px; }
+  .chart-section p { font-size: 11.5px; line-height: 1.5; color: var(--ink-soft); }
+
+  /* card pages */
   .card-head { display: flex; align-items: baseline; gap: 8px; margin-top: 6px; }
   .card-zh { font-size: 30px; }
   .card-ttl { font-size: 17px; }
@@ -101,23 +109,24 @@
 <body>
 
 <div class="doc-head">
-  <div class="doc-eyebrow">Elementum · D13 · Wireframe v1 · 2026-06-10 · DRAFT FOR OWNER MARKUP</div>
+  <div class="doc-eyebrow">Elementum · D13 · Wireframe v2 · 2026-06-10 · DRAFT FOR OWNER MARKUP</div>
   <h1>The Five Energies Journey — Reveal <em>is</em> the Catalogue</h1>
   <div class="doc-meta">
-    One surface, two modes: first run plays the <b>three-beat ceremony</b> (identity hit → wheel bloom → quiet elements);
-    every later visit to the <b>Reading tab</b> lands on the identical surface without the ceremony.
-    Governing principle (DOC5 §0 / D13): <b>reading first, system second</b> — a personal claim is on screen in the first
-    viewport, zero taps; every face carries a conclusion, never a category label.
-    Charters: <b>READING_CONCEPT_INVENTORY.md Part 3</b>. All copy is DRAFT, written for the 庚 demo chart
-    (Metal 42 · Earth 28 · Water 16 · Wood 14 · Fire 0; catalyst Earth ↑ · friction/absent Fire ↓).
+    <b>v2 (owner feedback):</b> Beat 3 removed — <b>Beat 2 IS the Reading tab</b> (first run prepends the Beat-1 ceremony; revisits land
+    on Beat 2 directly). The <b>Day Master sits at the wheel's center</b> — the self at the axis of its five energies; tap → the Day Master
+    card. The four-pillar strip leaves Beat 2; the header link renames to <b>"Pillar Chart →"</b>, opening one merged chart page
+    (pillars + patterns + energy-map viz); the separate Energy Map screen retires.
+    Governing principle (DOC5 §0 / D13): <b>reading first, system second</b>. Charters: <b>READING_CONCEPT_INVENTORY.md Part 3</b>.
+    All copy is DRAFT, 庚 demo chart (Metal 42 · Earth 28 · Water 16 · Wood 14 · Fire 0; catalyst Earth ↑ · friction/absent Fire ↓).
   </div>
   <div class="rulings">
-    <span class="ruling">Reveal = catalogue (one surface, two modes)</span>
-    <span class="ruling">Wuxing wheel hero · nodes sized by chart</span>
+    <span class="ruling">Reveal = catalogue · one surface, two modes</span>
+    <span class="ruling new">2 beats + card pages — Beat 3 removed (v2)</span>
+    <span class="ruling new">Day Master at the wheel's center (v2)</span>
+    <span class="ruling new">"Pillar Chart →" merged page · Energy Map screen retires (v2)</span>
     <span class="ruling">Self first, then presence · absent = ghost</span>
-    <span class="ruling">Chart → compact strip · Rx → wheel badges (D5 ✓)</span>
-    <span class="ruling">Reading tab = static Five-Energies deep-dive · all temporal → Calendar (Today) tab</span>
-    <span class="ruling">3-beat ceremony</span>
+    <span class="ruling">Rx → wheel badges + ribbon (D5 ✓)</span>
+    <span class="ruling">Reading tab = static deep-dive · temporal → Calendar tab (D13a)</span>
     <span class="ruling">Card-flip → full page, swipeable ×5</span>
     <span class="ruling">Seeker gates inside cards (§19 ✓)</span>
   </div>
@@ -125,13 +134,13 @@
 
 <div class="flow">
 
-  <!-- ════ P1 — BEAT 1: IDENTITY HIT ════ -->
+  <!-- ════ P1 — BEAT 1: IDENTITY HIT (first run only) ════ -->
   <div class="stage">
-    <div class="stage-label">Beat 1 · The identity hit</div>
-    <div class="stage-sub">Loading fades → this lands <b>alone</b>. Nothing shares the stage with "that's me."</div>
+    <div class="stage-label">Beat 1 · The identity hit <span style="color:var(--ink-light);">(first run only)</span></div>
+    <div class="stage-sub">Loading fades → this lands <b>alone</b>. Nothing shares the stage with "that's me." Revisits skip straight to Beat 2.</div>
     <div class="phone">
       <div class="eyebrow" style="text-align:center; margin-top:8px;">YOUR DAY MASTER · 庚 YANG METAL</div>
-      <div class="seal-ph">庚<br></div>
+      <div class="seal-ph">庚</div>
       <div style="text-align:center;"><span class="wf-note">StemSeal PNG · ink draw-on</span></div>
       <div class="arch-name">The Blade</div>
       <div class="manifesto">Precision before intention</div>
@@ -146,53 +155,50 @@
     </div>
     <div class="annos">
       <div class="anno"><b>Payoff latency test passes here:</b> three recognition claims (R), zero taps, first viewport.</div>
-      <div class="anno">Mechanism line is the <b>support</b>, not the lead; "What's a Day Master?" opens the E-layer (ladder L5).</div>
-      <div class="anno motion">Seal ink-bloom 1.2s → name fades 300ms → claims stagger 150ms apart. Reduced-motion: instant.</div>
+      <div class="anno">This exact content lives on as the <b>Day Master card</b> (P3) — tap the wheel's center any day to return to it.</div>
+      <div class="anno motion">Seal ink-bloom 1.2s → name 300ms → claims stagger 150ms. Reduced-motion: instant.</div>
     </div>
   </div>
 
   <div class="arrow">→</div>
 
-  <!-- ════ P2 — BEAT 2: WHEEL BLOOM ════ -->
+  <!-- ════ P2 — BEAT 2: THE WHEEL = THE READING TAB ════ -->
   <div class="stage">
-    <div class="stage-label">Beat 2 · The wheel blooms</div>
-    <div class="stage-sub">Scroll (or 2.5s dwell) births the wuxing wheel beneath the identity. The blueprint is now a <b>doorway</b>.</div>
+    <div class="stage-label">Beat 2 · The wheel — this IS the Reading tab</div>
+    <div class="stage-sub">First run: the wheel blooms beneath the identity. Every revisit lands exactly here. The Day Master holds the <b>center</b>; the five energies orbit it.</div>
     <div class="phone">
-      <div class="eyebrow" style="display:flex; justify-content:space-between;"><span>庚 · THE BLADE</span><span style="color:var(--accent);">ENERGY MAP →</span></div>
-      <div class="pillar-strip">
-        <div class="mini-pillar"><span>YEAR</span>乙亥</div>
-        <div class="mini-pillar"><span>MONTH</span>庚辰</div>
-        <div class="mini-pillar" style="border-color:var(--ink);"><span>DAY</span>庚寅</div>
-        <div class="mini-pillar"><span>HOUR</span>~ ?</div>
-      </div>
-      <div class="strip-note">tap → full chart page (Patterns now lives there too)</div>
+      <div class="eyebrow" style="display:flex; justify-content:space-between;"><span>YOUR ENERGIES · 五行</span><span style="color:var(--accent);">PILLAR CHART →</span></div>
 
-      <div class="wheel">
+      <div class="wheel" style="margin-top:30px;">
         <div class="wheel-ring"></div>
+        <!-- DM center -->
+        <div class="node center" style="width:62px;height:62px;left:95px;top:89px;color:var(--ink);">
+          <span class="zh">庚</span><span class="nm">The Blade</span>
+        </div>
         <!-- Metal: core, top, largest -->
-        <div class="node" style="width:78px;height:78px;left:87px;top:0;border-color:var(--metal);color:var(--metal);">
+        <div class="node" style="width:74px;height:74px;left:89px;top:-4px;border-color:var(--metal);color:var(--metal);">
           <span class="zh">金</span><span class="nm">Metal · core</span><span class="pc">42%</span>
         </div>
         <!-- Earth: catalyst ↑ -->
-        <div class="node" style="width:64px;height:64px;left:188px;top:74px;border-color:var(--earth);color:var(--earth);">
+        <div class="node" style="width:62px;height:62px;left:190px;top:76px;border-color:var(--earth);color:var(--earth);">
           <span class="badge" style="color:var(--up);">↑</span>
           <span class="zh">土</span><span class="nm">Earth</span><span class="pc">28%</span>
         </div>
         <!-- Water -->
-        <div class="node" style="width:52px;height:52px;left:158px;top:172px;border-color:var(--water);color:var(--water);">
+        <div class="node" style="width:52px;height:52px;left:158px;top:174px;border-color:var(--water);color:var(--water);">
           <span class="zh">水</span><span class="nm">Water</span><span class="pc">16%</span>
         </div>
         <!-- Wood -->
-        <div class="node" style="width:48px;height:48px;left:48px;top:176px;border-color:var(--wood);color:var(--wood);">
+        <div class="node" style="width:48px;height:48px;left:50px;top:178px;border-color:var(--wood);color:var(--wood);">
           <span class="zh">木</span><span class="nm">Wood</span><span class="pc">14%</span>
         </div>
         <!-- Fire: ghost + friction -->
-        <div class="node" style="width:46px;height:46px;left:8px;top:80px;border-color:var(--ghost);color:var(--ghost);border-style:dashed;">
+        <div class="node" style="width:46px;height:46px;left:6px;top:82px;border-color:var(--ghost);color:var(--ghost);border-style:dashed;">
           <span class="badge" style="color:var(--down);">↓</span>
           <span class="zh">火</span><span class="nm">Fire</span><span class="pc">0%</span>
         </div>
       </div>
-      <div style="text-align:center;"><span class="wf-note">faint 生 generating-ring arrows · pre-teaches the cycle by existing</span></div>
+      <div style="text-align:center;"><span class="wf-note">faint 生 ring arrows · spokes link center ↔ nodes (relation made visible)</span></div>
 
       <div class="rx-ribbon">Lean on Earth — it feeds your edge. Watch what Fire costs you. <span class="draft">draft</span></div>
 
@@ -203,53 +209,81 @@
         <div class="deck-card"><div class="zh">木</div><div class="pc">14%</div><div class="cl">What your blade is for.</div></div>
         <div class="deck-card ghosted"><div class="zh">火</div><div class="pc">0% ↓</div><div class="cl">The forge you borrow, never own.</div></div>
       </div>
-      <div class="swipe-dots" style="margin-top:10px;">tap node or card → flips open</div>
-    </div>
-    <div class="annos">
-      <div class="anno"><b>Prescription = wheel badges + one ribbon line</b> (D5 satisfied; zero taxonomy vocabulary).</div>
-      <div class="anno">Node size ∝ presence. The absent element is a <b>ghost node</b> — "the missing one" is the curiosity hook.</div>
-      <div class="anno">Card faces carry <b>conclusions</b> (≤14w), never category labels — charter rule 1.</div>
-      <div class="anno motion">Wheel draws on like an ink ensō (1.4s); nodes pop in presence order; ghost node arrives last, faintly.</div>
-    </div>
-  </div>
-
-  <div class="arrow">→</div>
-
-  <!-- ════ P3 — BEAT 3: SURFACE AT REST ════ -->
-  <div class="stage">
-    <div class="stage-label">Beat 3 · At rest — the Reading tab</div>
-    <div class="stage-sub"><b>The static birth-chart deep-dive.</b> Every revisit lands here: identity + wheel + deck, no ceremony — and <b>nothing temporal</b>. The chart meeting <i>you</i>, not the chart meeting time.</div>
-    <div class="phone">
-      <div class="eyebrow" style="display:flex; justify-content:space-between;"><span>庚 · THE BLADE</span><span style="color:var(--accent);">ENERGY MAP →</span></div>
-      <div style="border:1px solid var(--hair); border-radius:12px; padding:8px 10px; margin-top:8px; display:flex; gap:10px; align-items:center;">
-        <div style="width:34px;height:34px;border:1px dashed var(--ink-light);border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:15px;">庚</div>
-        <div>
-          <div style="font-size:14px;">The Blade</div>
-          <div style="font-size:9.5px;color:var(--ink-soft);">You cut to the point — and only later count what the cut touched.</div>
-        </div>
-      </div>
-      <div style="text-align:center; margin:6px 0;"><span class="wf-note">identity compresses to a header card on revisit · tap → full identity + claims</span></div>
-      <div class="wheel" style="transform:scale(0.92); margin-top:0;">
-        <div class="wheel-ring"></div>
-        <div class="node" style="width:78px;height:78px;left:87px;top:0;border-color:var(--metal);color:var(--metal);"><span class="zh">金</span><span class="nm">Metal · core</span><span class="pc">42%</span></div>
-        <div class="node" style="width:64px;height:64px;left:188px;top:74px;border-color:var(--earth);color:var(--earth);"><span class="badge" style="color:var(--up);">↑</span><span class="zh">土</span><span class="nm">Earth</span><span class="pc">28%</span></div>
-        <div class="node" style="width:52px;height:52px;left:158px;top:172px;border-color:var(--water);color:var(--water);"><span class="zh">水</span><span class="nm">Water</span><span class="pc">16%</span></div>
-        <div class="node" style="width:48px;height:48px;left:48px;top:176px;border-color:var(--wood);color:var(--wood);"><span class="zh">木</span><span class="nm">Wood</span><span class="pc">14%</span></div>
-        <div class="node" style="width:46px;height:46px;left:8px;top:80px;border-color:var(--ghost);color:var(--ghost);border-style:dashed;"><span class="badge" style="color:var(--down);">↓</span><span class="zh">火</span><span class="nm">Fire</span><span class="pc">0%</span></div>
-      </div>
-      <div class="rx-ribbon" style="margin-top:0;">Lean on Earth — it feeds your edge. Watch what Fire costs you.</div>
-      <div style="text-align:center; margin-top:12px;"><span class="wf-note">first-run only: "Enter your days →" CTA appears here once, then never again</span></div>
+      <div style="text-align:center; margin-top:8px;"><span class="wf-note">tap center → Day Master card (P3) · tap node or tile → energy card (P5/P6)</span></div>
       <div class="swipe-dots" style="margin-top:auto;">[ icons-only 5-tab nav — §AM.2 unchanged ]</div>
     </div>
     <div class="annos">
-      <div class="anno"><b>The two-tab split (owner ruling, 2026-06-10):</b> Reading tab = the <b>static</b> deep-dive (who you are — timeless). The <b>Calendar (Today) tab</b> owns everything temporal: today's energy, Day/Month/Year pages, and Life Chapters (when you are — moving). Patterns lives on the chart page. No cross-links — the tab bar is the navigation.</div>
-      <div class="anno">First-run CTA ("Enter your days →") hands off to the Calendar tab once; revisits never see it.</div>
+      <div class="anno"><b>The center is the design answer to "where does the Blade live":</b> every node's meaning is defined by its relation to the center — the layout teaches the system's deepest truth without a word. Center = WHO (the persona), Metal node = WHAT (the energy).</div>
+      <div class="anno"><b>Four pillars are gone from this page</b> — "Pillar Chart →" opens the merged data page (P4). Beat 2 stays purely interpretive.</div>
+      <div class="anno"><b>Prescription = badges + one ribbon line</b> (D5 ✓, zero taxonomy). Faces carry conclusions, never categories.</div>
+      <div class="anno motion">First run: wheel ring draws on (1.4s) → center seal settles first → nodes pop in presence order → ghost last. Revisit: static, instant.</div>
     </div>
   </div>
 
   <div class="arrow">→</div>
 
-  <!-- ════ P4 — CARD OPEN: EARTH (strongest ally) ════ -->
+  <!-- ════ P3 — DAY MASTER CARD (tap center) ════ -->
+  <div class="stage">
+    <div class="stage-label">Tap center · The Day Master card</div>
+    <div class="stage-sub">Beat 1's content, permanently revisitable — identity claims live here at rest. Fully free (§19: the identity is the hook).</div>
+    <div class="phone">
+      <div class="eyebrow">‹ YOUR ENERGIES · DAY MASTER</div>
+      <div class="seal-ph" style="margin-top:18px;">庚</div>
+      <div class="arch-name" style="font-size:26px;">The Blade</div>
+      <div class="manifesto" style="margin-bottom:12px;">Precision before intention</div>
+      <div class="claims">
+        <div class="claim">You cut to the point — and only later count what the cut touched.</div>
+        <div class="claim">Being vague feels worse to you than being wrong.</div>
+      </div>
+      <div class="layer" style="margin-top:12px;">
+        <div class="layer-label">How your edge is built · R</div>
+        <p>Yang Metal tempered by spring wood — strength that grew against resistance, not in its absence.</p>
+      </div>
+      <div class="expander">▸ What's a Day Master — and why the day? <span class="wf-note" style="font-size:8px;">E-layer (ladder L5)</span></div>
+      <div class="codex-link">Deeper in the Codex →</div>
+      <div class="swipe-dots">center</div>
+    </div>
+    <div class="annos">
+      <div class="anno"><b>At-rest payoff:</b> a returning user reaches their claims in one tap (center). The deck's conclusion lines keep zero-tap claims on Beat 2 itself.</div>
+      <div class="anno">No gate on this card — identity stays fully free (§19 D1: "it is the hook").</div>
+    </div>
+  </div>
+
+  <div class="arrow">→</div>
+
+  <!-- ════ P4 — PILLAR CHART (merged page) ════ -->
+  <div class="stage">
+    <div class="stage-label">"Pillar Chart →" · the merged data page</div>
+    <div class="stage-sub">The raw, necessary-but-not-essential layer: four pillars (hero) + Patterns (D13a) + the Energy Map viz folded in. The old Energy Map screen retires.</div>
+    <div class="phone">
+      <div class="eyebrow">‹ YOUR ENERGIES · PILLAR CHART · 八字排盘</div>
+      <div class="pillar-grid">
+        <div class="pillar"><div class="plabel">Year</div><div class="pzh">乙<br>亥</div><div class="ptg">The Steward</div></div>
+        <div class="pillar"><div class="plabel">Month</div><div class="pzh">庚<br>辰</div><div class="ptg">The Mirror</div></div>
+        <div class="pillar self"><div class="plabel">Day · Self</div><div class="pzh">庚<br>寅</div><div class="ptg">—</div></div>
+        <div class="pillar"><div class="plabel">Hour</div><div class="pzh">~<br>?</div><div class="ptg">unconfirmed</div></div>
+      </div>
+      <div style="text-align:center; margin:4px 0;"><span class="wf-note">hour unconfirmed → Resonance entry card renders below (existing flow)</span></div>
+      <div class="chart-section">
+        <div class="layer-label">Patterns · where the chart argues with itself</div>
+        <p>One live pattern between your branches — 寅亥 combining wood. Your drive and your depths conspire. <span class="draft">draft</span></p>
+      </div>
+      <div class="chart-section">
+        <div class="layer-label">Energy map · the whole of you, at once</div>
+        <p style="text-align:center; padding:16px 0; color:var(--ink-light);">[ energy-map visualization folds in here<br>as a section — former standalone screen ]</p>
+      </div>
+      <div class="codex-link" style="margin-top:8px;">What's a pillar? → Codex</div>
+      <div class="swipe-dots">data page · reached only from Beat 2 header</div>
+    </div>
+    <div class="annos">
+      <div class="anno"><b>One "raw data" destination.</b> Pillars use persona names only (V1 fix already live); patterns lead with a conclusion, not 合冲刑害 vocabulary.</div>
+      <div class="anno"><b>Doc consequence:</b> retiring the standalone Energy Map screen touches §AM.1 — doc patch when this ships.</div>
+    </div>
+  </div>
+
+  <div class="arrow">→</div>
+
+  <!-- ════ P5 — CARD OPEN: EARTH ════ -->
   <div class="stage">
     <div class="stage-label">Card open · Earth (catalyst)</div>
     <div class="stage-sub">Tap 土 → card flips to a full page. Swipe ⟷ moves through all five in presence order.</div>
@@ -270,23 +304,22 @@
         <div class="layer-label">⊙ Seeker — the full Alchemist reading</div>
         <p>Where this nourishment turns to over-protection · how it shapes your work and bonds · the season it peaks. <b>[Unlock →]</b></p>
       </div>
-      <div class="expander">▸ Why Earth feeds Metal — the cycle, in your chart <span class="wf-note" style="font-size:8px;">tap-open: personal feed/check diagram (E)</span></div>
+      <div class="expander">▸ Why Earth feeds Metal — the cycle, in your chart <span class="wf-note" style="font-size:8px;">personal feed/check diagram (E)</span></div>
       <div class="codex-link">Deeper in the Codex →</div>
       <div class="swipe-dots">● ● ○ ○ ○</div>
     </div>
     <div class="annos">
-      <div class="anno"><b>Conclusion → R → X → gate → E:</b> exactly the charter's depth order. The gate sits inside a card the user already wants open (§19).</div>
-      <div class="anno">The council persona is the <b>meaning layer of the element</b>, not a separate taxonomy — definition line mandatory (D12a).</div>
-      <div class="anno gate"><b>Gate copy is depth-hunger, not denial:</b> it names what's behind it, specifically.</div>
+      <div class="anno"><b>Conclusion → R → X → gate → E:</b> the charter's depth order. The gate sits inside a card the user already wants open (§19).</div>
+      <div class="anno gate"><b>Gate copy is depth-hunger, not denial</b> — it names what's behind it, specifically.</div>
     </div>
   </div>
 
   <div class="arrow">→</div>
 
-  <!-- ════ P5 — CARD OPEN: FIRE (ghost) ════ -->
+  <!-- ════ P6 — CARD OPEN: FIRE (ghost) ════ -->
   <div class="stage">
     <div class="stage-label">Card open · Fire (absent + friction)</div>
-    <div class="stage-sub">The ghost card — absence as the most personal reading of all. Former Seasonal Calibration lives here now.</div>
+    <div class="stage-sub">The ghost card — absence as the most personal reading. Former Seasonal Calibration lives here now.</div>
     <div class="phone">
       <div class="eyebrow">‹ YOUR ENERGIES · 5 OF 5</div>
       <div class="card-head"><span class="card-zh" style="color:var(--ghost);">火</span><span class="card-ttl" style="color:var(--ink-soft);">Fire in you</span><span style="font-size:11px;color:var(--ink-light);">0%</span></div>
@@ -309,8 +342,7 @@
       <div class="swipe-dots">● ● ● ● ●</div>
     </div>
     <div class="annos">
-      <div class="anno"><b>Seasonal Calibration is absorbed</b> — the conditional row is gone; cultivation is the absent card's X-layer.</div>
-      <div class="anno">Friction + absence on one card resolves cleanly: "the energy that tests you is also the one you don't carry."</div>
+      <div class="anno"><b>Seasonal Calibration is absorbed</b> — cultivation is the absent card's X-layer; the conditional row is gone.</div>
       <div class="anno">Visual register: ghosted ink, washed color — the card itself <i>performs</i> scarcity.</div>
     </div>
   </div>
@@ -322,25 +354,26 @@
   <h2>Charter compliance check</h2>
   <table>
     <tr><th>DOC5 §0 / Part 3 requirement</th><th>Where it lands</th><th></th></tr>
-    <tr><td>Personal claim in first viewport, zero taps</td><td>Beat 1 — three R-claims above the fold</td><td class="ok">✓</td></tr>
-    <tr><td>Faces carry conclusions, never category labels</td><td>Deck cards + wheel nodes (Beat 2); "Dominant Energies"/"Forces in Motion" appear nowhere</td><td class="ok">✓</td></tr>
-    <tr><td>Mechanism one tap beneath the claim</td><td>"What's a Day Master?" link · cycle expanders inside cards</td><td class="ok">✓</td></tr>
-    <tr><td>D5 — prescription on Reveal</td><td>Wheel badges (↑/↓/ghost) + one ribbon line</td><td class="ok">✓</td></tr>
-    <tr><td>D12a — persona + definition line</td><td>P4/P5 persona-lines ("The Alchemist — nourishment that transmutes")</td><td class="ok">✓</td></tr>
-    <tr><td>§19 — gate inside the card, depth-hunger copy</td><td>P4/P5 gate strips</td><td class="ok">✓</td></tr>
-    <tr><td>§AM.2 — icons-only nav unchanged</td><td>Beat 3 footer</td><td class="ok">✓</td></tr>
-    <tr><td>Ladder (inverted) — E-layers assume only taught rungs</td><td>Cycle expanders assume 0.1 only (wheel itself pre-teaches the ring)</td><td class="ok">✓</td></tr>
+    <tr><td>Personal claim in first viewport, zero taps</td><td>Beat 1 (first run); at rest, deck conclusion lines on Beat 2 + one tap to the Day Master card's claims</td><td class="ok">✓</td></tr>
+    <tr><td>Faces carry conclusions, never category labels</td><td>Deck cards + wheel nodes; "Dominant Energies"/"Forces in Motion" appear nowhere</td><td class="ok">✓</td></tr>
+    <tr><td>Mechanism one tap beneath the claim</td><td>"What's a Day Master?" expander · cycle expanders inside cards</td><td class="ok">✓</td></tr>
+    <tr><td>D5 — prescription on Reveal</td><td>Wheel badges (↑/↓/ghost) + ribbon line, Beat 2</td><td class="ok">✓</td></tr>
+    <tr><td>D12a — persona + definition line</td><td>P5/P6 persona-lines; Pillar Chart tags use persona names</td><td class="ok">✓</td></tr>
+    <tr><td>§19 — gate inside the card; identity fully free</td><td>P5/P6 gate strips; P3 has no gate</td><td class="ok">✓</td></tr>
+    <tr><td>§AM.2 — icons-only nav unchanged</td><td>Beat 2 footer</td><td class="ok">✓</td></tr>
+    <tr><td>D13a — Reading = static; temporal → Calendar tab</td><td>No temporal content on any panel; Pillar Chart is data, not time</td><td class="ok">✓</td></tr>
   </table>
 </div>
 
 <div class="section-block">
   <h2>Open items for owner markup</h2>
   <table>
-    <tr><td>1</td><td><b>Claims copy (Beat 1)</b> — three DRAFT lines in punch register; the most voice-sensitive words in the app. Mark up freely.</td></tr>
-    <tr><td>2</td><td><b>Wheel geometry</b> — pentagon-with-generating-ring shown; the canvas brief should explore ink-wash ensō vs. formal 五行 star.</td></tr>
-    <tr><td>3</td><td><b>Hour-unknown charts</b> — wheel %s shift with hour; ghost-node treatment when the hour pillar is unconfirmed needs a rule (suggest: "~" on the % until Resonance flow confirms).</td></tr>
-    <tr><td>4</td><td><b>The Calendar tab</b> — absorbs ALL temporal readings (today's energy · Day/Month/Year · Life Chapters); the chart page absorbs Patterns. The Calendar hub deserves its own conclusion-first wireframe pass (separate, smaller artifact) — incl. whether the tab's doc-name shifts from "Today" to "Calendar."</td></tr>
-    <tr><td>5</td><td><b>Compat/Share tie-in</b> — the deck card is a natural share-card unit (B5); noted, out of scope here.</td></tr>
+    <tr><td>1</td><td><b>Claims copy (Beat 1 / Day Master card)</b> — three DRAFT lines in punch register; the most voice-sensitive words in the app.</td></tr>
+    <tr><td>2</td><td><b>Wheel geometry with the center seal</b> — canvas brief explores: spokes vs. clean ring, 生-arrow visibility, center-seal treatment (ink seal vs. stamp red).</td></tr>
+    <tr><td>3</td><td><b>Hour-unknown charts</b> — %s shift with hour; suggest "~" on percentages until the Resonance flow confirms (Pillar Chart already carries the entry).</td></tr>
+    <tr><td>4</td><td><b>The Calendar tab</b> — owns all temporal readings (today's energy · Day/Month/Year · Life Chapters); deserves its own conclusion-first wireframe pass, incl. whether its doc-name shifts from "Today."</td></tr>
+    <tr><td>5</td><td><b>§AM.1 doc patch</b> — retiring the standalone Energy Map screen (folded into Pillar Chart) supersedes the AM.1 destination rule when this ships.</td></tr>
+    <tr><td>6</td><td><b>Share tie-in (B5)</b> — the deck card is the natural share unit; out of scope here.</td></tr>
   </table>
 </div>
 
@@ -348,8 +381,8 @@
   <h2>Next steps</h2>
   <table>
     <tr><td>1</td><td>Owner markup of this wireframe (structure + draft copy)</td></tr>
-    <tr><td>2</td><td>Canvas brief — ONE deliverable: the wuxing wheel + energy-card visual system in ink-wash fidelity (per design-canvas discipline)</td></tr>
-    <tr><td>3</td><td>Schema v2 (`energyCard[element]` per Part 3 §12) → freeze → content reconstruction for 10 stems</td></tr>
+    <tr><td>2</td><td>Canvas brief — ONE deliverable: wuxing wheel (center seal + five nodes) + energy-card visual system, ink-wash fidelity</td></tr>
+    <tr><td>3</td><td>Schema v2 (`energyCard[element]`, Part 3 §12) → freeze → content reconstruction ×10 stems</td></tr>
     <tr><td>4</td><td>Rebuild the surface in-app behind a DevBar toggle; field-retest with tester zero</td></tr>
   </table>
 </div>
