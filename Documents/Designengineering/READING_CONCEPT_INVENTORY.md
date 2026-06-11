@@ -1,6 +1,6 @@
-# Reading Concept Inventory — the vocabulary law & concept registry
+# Reading Concept Inventory & Ladder — vocabulary law, concept registry, journey ordering
 
-**D12 Step 1, Part 1 of 3** (Part 2 = the Concept Ladder ordering · Part 3 = Section Charters)
+**D12 Step 1** — Part 1 (§1–§5): inventory + vocabulary law · **Part 2 (§6–§9): the Concept Ladder** · Part 3: Section Charters (pending)
 **Serves:** DOC5 §0 (Beta core goal) Axis A — introduce BaZi step by step, without cognitive overload.
 **Sources:** `Data/elementum_profile_database.html` (the Profile Database — canonical behavioral content for stems + Ten Gods) · DOC2 (archetype system) · DOC3 (knowledge pool) · DOC6 (manual) · the live app (audited 2026-06-10).
 **Status:** DRAFT for owner markup · 2026-06-10
@@ -136,4 +136,52 @@ Status legend: ✅ taught (introduced before/where used) · ⚠ used-untaught (s
 
 ---
 
-*Next: Part 2 — the Concept Ladder (prerequisite graph → journey ordering: which screen teaches which rung). Part 3 — Section Charters (per reading section: concept taught · claim type · emotional beat · format).*
+---
+
+# PART 2 — The Concept Ladder (journey ordering)
+
+**Added 2026-06-10.** The inventory (§3) sorted by its prerequisite arrows and assigned to journey moments. Every moment gets three lists: **assumes** (rungs that must already be taught), **teaches** (the ONE new rung this moment owns), and **previews** (rungs it may *show* as a teaser without explaining — curiosity is allowed; reliance is not).
+
+## 6 · Ladder rules
+
+1. **One new rung per moment.** A screen may teach exactly one concept. Showing ≠ teaching: a preview (an unexplained glimpse that creates pull) is legal; *using* an untaught concept to make a claim is not.
+2. **Teach at first need, not in a library.** A rung is taught at the first moment a claim depends on it — via an in-place teaching beat (2–3 sentences + a visual), not by linking out. The Codex remains the *reference* (every teaching beat ends with a quiet "more in the Codex" affordance), never the primary teacher.
+3. **Anchor down the ladder.** Every teaching beat names the rung it stands on ("You know your chart holds five energies in a ratio. Here is what the loudest one *does*…").
+4. **Locked decisions are constraints, not casualties.** D5 (Balance Prescription stays on Reveal) and §AM.2 (icons-only nav) are respected — the ladder reframes *how* concepts appear, not *whether* locked surfaces exist.
+
+## 7 · The ladder — journey moments in order
+
+| # | Moment | Assumes | **Teaches** | Previews | Delta vs. today |
+|---|---|---|---|---|---|
+| L1 | **Onboarding steps 1–4** (year/month/day/hour) | — | **0.3 your chart** (drip): each step's poetic subtitle names its pillar — "your year pillar · the world you arrived into" | — | NEW micro-copy per step (4 lines; copy-only change) |
+| L2 | **Onboarding step 6/6a** (polarity) | — | **0.2 Yin/Yang** (light): the question explains itself — two registers of the same energy | — | Copy already close; sharpen to definition register |
+| L3 | **Loading screen** | — | **0.1 the five elements**: the five glyphs pulse — NAME them ("Wood · Fire · Earth · Metal · Water — weighing your five energies") | 1.3 (the act of "weighing") | NEW one-line caption naming the glyphs |
+| L4 | **Reveal §1 — Your Chart** | 0.3 (drip from L1) | **0.3 consolidation**: the four pillars assembled — "the eight characters of your birth" | 2.2 (pillar tags visible, unexplained) | Keep; add one anchor sentence |
+| L5 | **Reveal §2 — Who You Are** | 0.1, 0.2 | **1.1 + 1.2 Day Master & your archetype** (the emotional peak — one rung from the user's POV: "this is who you are") | 1.4 (band word appears in archetype label) | Keep; teaching beat = existing manifesto + ONE new mechanism line ("born on a 庚 day — Yang Metal is the lens you live through") |
+| L6 | **Reveal §3 — Energy Blueprint** | 0.1 | *previews* **1.3 composition** (bars speak for themselves) | 1.3, 2.5 | Demote from "taught" to preview — full teaching moves to L8. Cuts Reveal's load from 5 rungs to 2 taught + previews |
+| L7 | **Reveal §4 — Prescription** (D5: stays) | 1.1 | *previews* **2.4 Catalyst/Friction** as outcome ("Fire lifts you") — **no mechanism claim** | 2.4 | Reframe copy: state the prescription, defer the *why* explicitly — "why Fire? → Forces in Motion" |
+| L8 | **Catalogue row 1 → Elemental Nature detail** | 0.1, 1.1 | **1.3 composition + 1.4 band** (one rung: "what you're made of, and how concentrated") | — | Teaching beat at top of detail (the audit's over-budget `elementIntro` likely *becomes* this beat — budget set in Part 3) |
+| L9 | **Catalogue row 2 → Dominant Energies detail** | 1.1, 1.3, 0.2 | **2.1 elements act on each other** — THE cycle moment: a 20-second feed/check diagram centered on YOUR element — then **2.2/2.3 the council** lands on top of it | — | **The single biggest redesign item.** New diagram beat (canvas brief) + persona cards (exist) get definition lines |
+| L10 | **Catalogue row 3 → Forces in Motion detail** | 2.1, 1.3 | **2.4 Catalyst/Friction mechanism** (pays off L7's deferred "why") | 2.5 | Add the anchor-down line; cycle-reminder chip (compact 2.1 recall) |
+| L11 | **Seasonal Calibration** (conditional) | 1.3, 2.5 | **2.5 + 3.3 absence & cultivation** (one rung: "what you don't carry, and how to borrow it") | — | Existing detail close; add anchor line |
+| L12 | **Catalogue row → Life Chapters detail** | 0.3 | **3.1 chapters**: the chart becomes a timeline | 2.2 (chapter's "dominant register" persona) | Existing; teaching beat at top |
+| L13 | **Today tab / Day page** | 2.1 | **3.2 today's energy**: today carries an element; it meets yours | — | Cycle-reminder chip; subtitle already shows persona post-vocab-fix |
+| L14 | **Chart Patterns detail** | 0.3, 2.1 | **4.1 pillar patterns** | — | Steepest rung — gets the heaviest teaching beat (or stays explicitly "advanced-labeled") |
+| L15 | **Raw chart / Resonance** | 0.3 | **4.2 hour discovery** | 2.2 | Self-contained today; fine |
+
+## 8 · What the ladder changes (design backlog → Part 3 / canvas briefs)
+
+1. **The L9 cycle moment** — the one genuinely new designed artifact: a personal feed/check diagram (your element at center, fed-by / feeds / checks / checked-by). One canvas brief, one deliverable, per our brief discipline.
+2. **Reveal sheds 3 rungs** — §3 and §4 become previews (copy reframes, no layout change; D5 respected). Reveal's taught load drops 5 → 2.
+3. **Teaching beats** at the top of 5 details (L8, L10, L11, L12, L14) — a repeatable 2–3 sentence + anchor-line format, specced per-section in Part 3.
+4. **Micro-copy drips** — L1 pillar subtitles, L3 loading caption, L5 mechanism line. Pure copy, high leverage.
+5. **"More in the Codex" affordance** — a quiet standard component closing every teaching beat (weaves the off-path library into the path).
+6. **Cycle-reminder chip** — compact 2.1 recall used at L10/L13 (and anywhere 2.1 is consumed later).
+
+## 9 · Open items for owner markup
+
+- **L5's single mechanism line** — the one sentence that teaches "Day Master = born on a X day." Voice matters most here; I'll draft 3 candidates in Part 3.
+- **L9 diagram form** — ring? cross? the canvas brief decides, but if you have an instinct (the TG ring already exists as a viz), it shapes the brief.
+- **L14 Chart Patterns** — teach it properly, or label it "advanced" and let it be the one deliberately steep room in the house?
+
+*Next: Part 3 — Section Charters: per reading section — concept taught (from this ladder) · claim type · emotional beat · format + word budget (from `READING_FORMAT_AUDIT.md`).*
