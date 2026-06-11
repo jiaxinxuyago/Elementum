@@ -24,7 +24,7 @@ Source: full audit of the live Elementum app against **DOC5** (incl. §AMENDMENT
 **Next pending — all non-blocking enrichment / polish**
 1. **Presentation polish (cosmetic):** 9 per-stem painted `identityIcon` SVGs; a `cat-seasonal.png` for the conditional Seasonal row; micro-interactions.
 2. **~~24 QC violations~~ → superseded by D12 (2026-06-10):** the violations are *evidence* for the reading-schema redesign, not defects — 7/10 stems exceed both `elementIntro` budgets by 1–2 words (budget fights the voice). Do NOT trim copy to the old budgets. See `READING_FORMAT_AUDIT.md`.
-3. **150-variant content batch:** Pipeline A1 (`Scripts/batchGenerate.js`) → `STEM_CARD_DATA.js`; gated on a schema-freeze + building the 150-template pipeline (`[NOT YET BUILT]`).
+3. **~~150-variant~~ content batch → RETARGETED (D12 Step 3, 2026-06-10):** the batch is now the **50-key K2 energy-card corpus** (+30 self-cards +10 identity extensions ≈ 12,200 words total) per `READING_SCHEMA_V2.md`; TG_CARD_DATA + Profile DB are the god-core sources; still gated on the schema-v2 freeze; approve-then-scale starts with the 庚 chart's 5 cards.
 4. **Backend build (pre-beta)** per DOC10.
 
 ---
