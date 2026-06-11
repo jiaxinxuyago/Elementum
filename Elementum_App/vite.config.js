@@ -11,6 +11,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 // Strip it from dist/ so the deployable build ships only live assets.
 const DEV_ONLY_PUBLIC = [
   'd13-five-energies-journey.html',
+  'd13-reading-example-19950429.html',
   'component-library.html',
   'legend-patterns.html',
   'legend-primitives.html',
