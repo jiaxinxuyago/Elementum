@@ -10,6 +10,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 // the app at runtime (see src/styles/backgrounds.js for the runtime set).
 // Strip it from dist/ so the deployable build ships only live assets.
 const DEV_ONLY_PUBLIC = [
+  'd13-five-energies-journey.html',
   'component-library.html',
   'legend-patterns.html',
   'legend-primitives.html',
