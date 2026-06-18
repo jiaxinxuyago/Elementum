@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style data-omelette-injected>html,body{background:transparent}</style><script data-omelette-injected>(()=>{var j=[];var x=false;var S=30000;var f=3000;document.addEventListener("DOMContentLoaded",()=>{const H=window.Babel;const G="om-src-id";if(H&&H.registerPlugin&&!(H.availablePlugins&&H.availablePlugins[G])){H.registerPlugin(G,({types:Y})=>({visitor:{JSXOpeningElement(U,Q){const J=U.node;if(J.name&&J.name.type==="JSXMemberExpression")return;for(let V=0;V<J.attributes.length;V++){const L=J.attributes[V];if(L.type==="JSXAttribute"&&L.name&&L.name.name==="data-om-id")return}const W=Q.file&&Q.file.opts&&Q.file.opts.filename||"?";const Z=J.loc&&J.loc.start;const z=`jsx:${W}:${J.start??0}:${Z?Z.line:0}:${Z?Z.column+1:0}`;J.attributes.push(Y.jsxAttribute(Y.jsxIdentifier("data-om-id"),Y.stringLiteral(z)))}}}))}const k="om-text-extract";let A=false;if(x&&H&&H.registerPlugin&&!(H.availablePlugins&&H.availablePlugins[k])){const Y=window.React;if(Y&&Y.useSyncExternalStore&&Y.createElement){A=true;const U={};const Q=new Set;let J=0;window.__omTextO=U;window.__omTextSet=(z)=>{for(const V in z){const L=z[V];if(L==null)delete U[V];else U[V]=L}J++;Q.forEach((V)=>V())};const W=(z)=>{Q.add(z);return()=>Q.delete(z)};const Z=()=>J;window.__OmT=function z(V){Y.useSyncExternalStore(W,Z,Z);return Y.createElement("span",{"data-om-text":V.i,className:"__om-t"},V.i in U?U[V.i]:V.children)};H.registerPlugin(k,({types:z})=>{const V={style:1,script:1,noscript:1,textarea:1,title:1,option:1,text:1,tspan:1,textPath:1};const L={placeholder:1,alt:1,title:1,label:1,"aria-label":1,"aria-description":1,"aria-placeholder":1};const _=($,C)=>z.logicalExpression("??",z.memberExpression(z.logicalExpression("||",z.memberExpression(z.identifier("window"),z.identifier("__omTextO")),z.objectExpression([])),z.stringLiteral($),true),C);const E=($)=>$.file&&$.file.opts&&$.file.opts.filename||"?";const B=($)=>$.file&&$.file.code||"";const b=($,C)=>{const X=(F)=>F&&F.start!=null&&F.end!=null&&(F.type==="StringLiteral"||F.type==="TemplateLiteral"&&F.expressions.length===0)?[F.start,F.end]:null;const N=X(C);if(N)return N;if(C&&C.type==="Identifier"){const F=$.scope.getBinding(C.name);if(F&&F.constant&&F.path.node.type==="VariableDeclarator"){return X(F.path.node.init)}}return null};const M=($,C,X)=>{const N=$.node;let F=false;const w=(K,q)=>{F=true;return z.jsxElement(z.jsxOpeningElement(z.jsxIdentifier("__OmT"),[z.jsxAttribute(z.jsxIdentifier("i"),z.stringLiteral(K))],false),z.jsxClosingElement(z.jsxIdentifier("__OmT")),[q],false)};const D=N.children.map((K)=>{if(K.type==="JSXText"){if(K.start==null||K.end==null)return K;const q=X.slice(K.start,K.end);const R=q.length-q.trimStart().length;const m=q.length-q.trimEnd().length;if(R+m>=q.length)return K;return w(`txt:${C}:${K.start+R}:${K.end-m}`,K)}if(K.type==="JSXExpressionContainer"){const q=b($,K.expression);if(q)return w(`str:${C}:${q[0]}:${q[1]}`,K)}return K});if(F)N.children=D};return{visitor:{JSXOpeningElement($,C){const X=$.node;const N=E(C);const F={};for(let w=0;w<X.attributes.length;w++){const D=X.attributes[w];if(D.type!=="JSXAttribute"||!D.name)continue;const K=D.name.name;if(!L[K])continue;if(!D.value||D.value.type!=="StringLiteral")continue;if(D.value.start==null||D.value.end==null)continue;const q=`txt:${N}:${D.value.start}:${D.value.end}`;F[K]=q;D.value=z.jsxExpressionContainer(_(q,z.stringLiteral(D.value.value)))}if(Object.keys(F).length){X.attributes.push(z.jsxAttribute(z.jsxIdentifier("data-om-text-attrs"),z.stringLiteral(JSON.stringify(F))))}},JSXElement($,C){const X=$.node.openingElement;const N=X&&X.name&&X.name.name;if(N==="__OmT")return;if(typeof N==="string"&&V[N])return;M($,E(C),B(C))},JSXFragment($,C){M($,E(C),B(C))}}}})}}const u=A?["transform-react-jsx-source",G,k]:["transform-react-jsx-source",G];document.querySelectorAll('script[type="text/babel"],script[type="text/jsx"]').forEach((Y,U)=>{const Q=Y.getAttribute("data-plugins")||"";const J=u.filter((W)=>Q.indexOf(W)<0);if(J.length){Y.setAttribute("data-plugins",Q?`${Q},${J.join(",")}`:J.join(","))}if(!Y.hasAttribute("data-filename")){Y.setAttribute("data-filename",Y.getAttribute("src")||`inline-${U}`)}})});var y=window.parent;if(y&&y!==window){const H=(Q,J)=>{try{y.postMessage({__omelette_log:true,type:Q,data:J},"*")}catch{}};["log","warn","error"].forEach((Q)=>{const J=console[Q];console[Q]=(...W)=>{const Z=W.map((z)=>{try{return typeof z==="object"?JSON.stringify(z):String(z)}catch{try{return String(z)}catch{return"[unstringifiable]"}}}).join(" ");H(Q,Z);J.apply(console,W)}});window.addEventListener("error",(Q)=>{const J=Q.target;if(J&&J!==window&&J.tagName){const W=J.src||J.href||"";H("resource_error",`${J.tagName} failed to load: ${W}`)}else{H("error",`${Q.message||"Unknown error"} at ${Q.filename||"?"}:${Q.lineno||0}:${Q.colno||0}`)}},true);window.addEventListener("unhandledrejection",(Q)=>{const J=Q.reason;const W=J instanceof Error?`${J.message} ${J.stack}`:String(J);H("error",`Unhandled rejection: ${W}`)});const G=()=>{try{y.postMessage({type:"omelette:height",height:document.documentElement.scrollHeight},"*")}catch{}};if(document.readyState==="complete")G();else window.addEventListener("load",G);if(window.ResizeObserver)new ResizeObserver(G).observe(document.documentElement);const k={};let A=0;window.claude={complete(Q){return new Promise((J,W)=>{if(!j.length){W(new Error("claude.complete: no parent origin"));return}const Z=`c${++A}`;const z=()=>setTimeout(()=>{delete k[Z];W(new Error(`claude.complete: no data for ${S/1000}s`))},S);const V=z();k[Z]={resolve:J,reject:W,text:"",t:V,arm:z};try{for(const L of j){y.postMessage({__om_api:true,id:Z,body:Q},L)}}catch(L){clearTimeout(V);delete k[Z];W(L)}})}};const u={};let Y=0;window.omelette={writeFile:(Q,J)=>new Promise((W,Z)=>{if(!j.length){W();return}const z=`f${++Y}`;const V=setTimeout(()=>{delete u[z];W()},f);u[z]={resolve:W,reject:Z,t:V};try{for(const L of j){y.postMessage({__om_file:true,id:z,op:"write",path:Q,content:J},L)}}catch{clearTimeout(V);delete u[z];W()}})};const U=(Q)=>{try{return JSON.stringify(Q)}catch{return JSON.stringify(String(Q))}};window.addEventListener("message",(Q)=>{if(j.indexOf(Q.origin)<0)return;if(Q.source!==y)return;const J=Q.data;if(!J)return;if(J.type==="omelette-preview-refresh"){if(typeof J.token!=="string"||!/^[0-9a-f.-]+(\.(rc|pr-[0-9]+))?(\.[0-9]+\.[0-9a-f]{16})?$/.test(J.token))return;const z=Math.max(1,Math.floor((J.expiresAt||0)-Date.now()/1000));document.cookie="__Host-omelette-preview="+J.token+"; Path=/; Secure; SameSite=None; Partitioned; Max-Age="+z;return}if(J.__om_file_r){const z=u[J.id];if(!z)return;clearTimeout(z.t);delete u[J.id];if(J.ok)z.resolve();else z.reject(new Error(J.error||"write failed"));return}if(J.__om_api_r){const z=k[J.id];if(!z)return;if(J.error!=null){clearTimeout(z.t);delete k[J.id];z.reject(new Error(J.error));return}if(J.chunk!=null){clearTimeout(z.t);z.t=z.arm();z.text+=J.chunk;return}if(J.done){clearTimeout(z.t);delete k[J.id];z.resolve(J.text!=null?J.text:z.text);return}return}if(!J.__om_eval)return;const W=J;const Z=(z)=>{Q.source.postMessage({...z,__om_eval_r:1,id:W.id},Q.origin)};try{const z=(0,eval)(W.code);if(z&&typeof z.then==="function"){z.then((V)=>Z({ok:1,v:U(V)}),(V)=>Z({ok:0,e:String(V)}))}else{Z({ok:1,v:U(z)})}}catch(z){Z({ok:0,e:String(z)})}})}})();
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elementum · D13 — The Five Energies Journey · Final Wireframe v5</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="d13-v5.css">
+<template id="__bundler_thumbnail">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <rect width="100" height="100" fill="#F1E9D6"></rect>
+    <circle cx="50" cy="50" r="22" fill="none" stroke="#2B2722" stroke-width="3" stroke-dasharray="118 20" stroke-linecap="round"></circle>
+    <circle cx="50" cy="50" r="7" fill="#927750"></circle>
+  </svg>
+</template>
+</head>
+<body>
+
+<!-- Set E3 element marks + product chrome icons (primitives-library sprite) -->
+<svg width="0" height="0" style="position: absolute;" aria-hidden="true"><defs>
+  <symbol id="el-metal" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12 2.35L18.15 8.05L14.35 17.15H16.45V20.85H7.55V17.15H9.65L5.85 8.05L12 2.35ZM8.25 8.75L11.1 17.15H12.9L15.75 8.75L12 5.4L8.25 8.75ZM10.3 9.15L12 14.65L13.7 9.15L12 7.55L10.3 9.15Z"></path></symbol>
+  <symbol id="el-wood" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10.95 21.15V13.75C7.55 14.15 5.15 12.05 4.35 7.05C8.15 6.75 10.55 8.35 11.85 11.35C13.2 7.25 15.9 5.15 20.05 5.75C19.85 11.3 16.55 13.95 13.05 13.55V21.15H10.95ZM7.15 8.7C7.85 11.05 9.2 12.05 11 11.65C10.15 9.85 8.95 8.85 7.15 8.7ZM17.2 7.85C15.2 8.05 13.9 9.25 13.15 11.45C15.25 11.6 16.65 10.35 17.2 7.85Z"></path></symbol>
+  <symbol id="el-fire" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12.35 2.75C15.85 6.8 18.55 10.35 18.55 14.65C18.55 18.75 15.65 21.25 12 21.25C8.3 21.25 5.45 18.7 5.45 15.05C5.45 12.25 6.9 10 9.55 7.35C9.45 10.05 10.25 12 11.65 13C11.15 9.55 11.4 6.05 12.35 2.75ZM14.95 10.65C16.25 12.45 16.8 13.95 16.8 15.45C16.8 17.85 14.95 19.35 12.1 19.35C9.65 19.35 7.45 17.75 7.45 15.15C7.45 13.75 7.95 12.65 9 11.35C9.3 13.05 10.2 14.25 11.85 15.15L13 15.8L12.75 14.5C12.35 12.45 12.55 10.45 13.2 8.05C13.85 8.95 14.45 9.85 14.95 10.65Z"></path></symbol>
+  <symbol id="el-earth" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M3.55 18.2L8.45 9.35L11.45 13.15L15.25 5.6L20.45 18.2H3.55ZM8.8 13L7 16.25H17.45L15.1 10.55L12 16.7L8.8 13Z"></path><path fill="currentColor" d="M3.1 19.5H20.9V21.15H3.1V19.5Z"></path></symbol>
+  <symbol id="el-water" viewBox="0 0 24 24"><path fill="currentColor" d="M3.65 9.2C5.65 6.95 8.45 6.65 11.05 8.4C13.15 9.8 14.65 9.85 16.25 8.3C17.25 7.35 18.75 7.15 20.35 7.9C18.95 10.65 16.35 12 13.5 11.15C12.45 10.85 11.5 10.35 10.55 9.7C8.7 8.5 6.95 8.65 5.55 10.05C4.9 10.7 4.25 10.35 3.65 9.2Z"></path><path fill="currentColor" d="M3.65 15.15C5.65 12.9 8.45 12.6 11.05 14.35C13.15 15.75 14.65 15.8 16.25 14.25C17.25 13.3 18.75 13.1 20.35 13.85C18.95 16.6 16.35 17.95 13.5 17.1C12.45 16.8 11.5 16.3 10.55 15.65C8.7 14.45 6.95 14.6 5.55 16C4.9 16.65 4.25 16.3 3.65 15.15Z"></path></symbol>
+  <symbol id="tab-today" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18"></path><path d="M8 3v4"></path><path d="M16 3v4"></path></g></symbol>
+  <symbol id="tab-guidance" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 4.8 L14.5 12 L12 19.2 L9.5 12 Z"></path><circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"></circle></g></symbol>
+  <symbol id="tab-reading" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5 C 6 4, 9 4, 12 6 C 15 4, 18 4, 21 5 V19 C 18 18, 15 18, 12 20 C 9 18, 6 18, 3 19 Z"></path><path d="M12 6 V20"></path></g></symbol>
+  <symbol id="tab-compat" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="12" r="6.5"></circle><circle cx="15.5" cy="12" r="6.5"></circle><circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"></circle></g></symbol>
+  <symbol id="tab-profile" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"></path></g></symbol>
+  <symbol id="ico-lock" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="1.5"></rect><path d="M8 11 V 8 a4 4 0 0 1 8 0 V 11"></path></g></symbol>
+  <symbol id="ico-chev-l" viewBox="0 0 24 24"><path d="M15 6 L9 12 L15 18" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+  <symbol id="ico-chev-r" viewBox="0 0 24 24"><path d="M9 6 L15 12 L9 18" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+  <symbol id="ico-arrow-r" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12 H19"></path><path d="M14 7 L19 12 L14 17"></path></g></symbol>  <symbol id="ar-up" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V6"></path><path d="M6 11l6-6 6 6"></path></g></symbol>
+  <symbol id="ar-down" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v13"></path><path d="M6 13l6 6 6-6"></path></g></symbol>
+</defs></svg>
+
+<header class="doc-head">
+  <div class="doc-eyebrow">Elementum · D13 · Handoff 1 of 2 · The Reveal Journey + Reading Catalogue · 2026-06-18</div>
+  <h1 class="doc-title">The Five Energies Journey — Part 1</h1>
+  <div class="doc-meta">
+    <b>Implementation slice 1:</b> the first-run reveal sequence (P1 The Naming → P2 The Dissolve → P3 Reading Catalogue) plus the full dominance-wheel system — geometry explorations and the wheel rendered across all ten Heavenly Stems. The wheel's diameter / seating rule is documented in <b>DOMINANCE_WHEEL_RULES.md</b>. Shared stylesheet <code>d13-v5.css</code> · script <code>d13-v5.js</code>.
+  </div>
+</header>
+
+<div class="rule"></div>
+
+<!-- ════════════════ THE JOURNEY ════════════════ -->
+<main class="flow">
+
+  <!-- ──────── P1 · THE NAMING ──────── -->
+  <section class="stage" data-screen-label="P1 · The Naming">
+    <div class="stage-label">P1 · Beat 1 — The Naming <span class="dim">(first run only)</span></div>
+    <div class="stage-sub">A ceremonial object, not a card: the first image of their Elementum identity, composed to be screenshot — and reused as the share card (B5). No tab bar — the ceremony owns the screen.</div>
+    <div class="phone">
+      <div class="notch"></div>
+      <div class="screen">
+        <div class="plate-blank"></div>
+        <img class="bg-reveal-top" src="assets/bg/bg-reveal-01-distant-peaks.png" alt="">
+        <img class="bg-reveal-bot" src="assets/bg/bg-reveal-02-floating-island.png" alt="">
+        <div class="bg-reveal-fog"></div>
+        <div class="status"><span>9:41</span><span class="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
+        <div class="art-slot" style="position: absolute; left: 20px; top: 102px; z-index: 12;">[ painted scene slot · blank until art pass ]</div>
+        <div class="plate-col">
+          <span class="eyebrow" style="text-align: center; color: var(--inkSoft);">YOUR ELEMENTUM IDENTITY <span class="bud">fixed</span></span>
+          <div class="seal-stamp" style="margin-top: 40px;">
+            <img class="seal-img" src="assets/stems/geng.png" alt="Geng seal — the Blade" width="124" height="124">
+          </div>
+          <div class="arch-name" style="font-size: 36px; margin-top: 14px;">The Blade <span class="bud">≤3w</span></div>
+          <div class="pinyin" style="margin-top: 6px;">GĒNG · YANG METAL <span class="bud">fixed pattern</span></div>
+          <div class="manifesto" style="font-size: 17px; margin-top: 12px;">Precision before intention <span class="bud">≤5w</span></div>
+          <div class="inscription">
+            <div class="en">You say what others soften — and pay, quietly, for being the one who did.</div>
+            <div style="margin-top: 7px;"><span class="bud">10–16w · calligraphy line returns with bilingual pass</span></div>
+          </div>
+          <div class="foundry" style="margin-top: auto;">
+            <div class="cast">CAST FROM 1995 · 4 · 29 · YǑU HOUR 17–19</div>
+            <div class="mark-line">— ELEMENTUM —</div>
+            <div style="margin-top: 5px;"><span class="bud">fixed · no hour → HOUR UNSET</span></div>
+          </div>
+          <div class="ring-peek"></div>
+        </div>
+      </div>
+      <div class="home-bar"></div>
+    </div>
+    <div class="annos">
+      <div class="anno"><b>Plate total: 19 of ≤30 words.</b> Ceremony over content — the full reading waits one tap away (P4). No category label on the face.</div>
+      <div class="anno">Identity-card pattern from the iconography guidance: seal hero → Cormorant name → Cinzel pinyin line → manifesto. Painted scene slot blank until the art pass.</div>
+      <div class="anno motion">Scene ink-blooms 1.4s (once art lands) → seal stamps (320ms, overshoot) → name fades → inscription writes L→R (800ms).</div>
+      <div class="anno">Hour-unknown variant: foundry mark renders 「CAST FROM 1995 · 4 · 29 · HOUR UNSET」 — see W·E below.</div>
+    </div>
+  </section>
+
+  <div class="flow-arrow">→</div>
+
+  <!-- ──────── P2 · THE DISSOLVE — 3 KEYFRAMES ──────── -->
+  <section class="stage grouped" data-screen-label="P2 · The Dissolve">
+    <div class="stage-label">P2 · The Dissolve — three keyframes</div>
+    <div class="stage-sub" style="max-width: 820px;">Scroll-driven, reversible, zero intentional interaction. <b>The seal is the continuity object</b> — it shrinks and glides to become the wheel's center while the plate dissolves to the wheel ground. The tab bar arrives only when Beat 2 lands.</div>
+    <div class="kf-row">
+
+      <!-- KF·1 -->
+      <div class="kf-col" data-screen-label="P2 · KF1 scroll 0%">
+        <div class="kf-tag"><b>KF·1</b> · scroll 0% — plate at rest · ring peek</div>
+        <div class="phone">
+          <div class="notch"></div>
+          <div class="screen">
+            <div class="plate-blank"></div>
+            <img class="bg-reveal-top" src="assets/bg/bg-reveal-01-distant-peaks.png" alt="">
+            <img class="bg-reveal-bot" src="assets/bg/bg-reveal-02-floating-island.png" alt="">
+        <div class="bg-reveal-fog"></div>
+            <div class="status"><span>9:41</span><span class="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
+            <div class="plate-col">
+              <span class="eyebrow" style="text-align: center; color: var(--inkSoft);">YOUR ELEMENTUM IDENTITY</span>
+              <div class="seal-stamp" style="margin-top: 40px;">
+                <img class="seal-img" src="assets/stems/geng.png" alt="" width="124" height="124">
+              </div>
+              <div class="arch-name" style="font-size: 36px; margin-top: 14px;">The Blade</div>
+              <div class="pinyin" style="margin-top: 6px;">GĒNG · YANG METAL</div>
+              <div class="manifesto" style="font-size: 17px; margin-top: 12px;">Precision before intention</div>
+              <div class="inscription">
+                <div class="en">You say what others soften — and pay, quietly, for being the one who did.</div>
+              </div>
+              <div class="foundry" style="margin-top: auto;">
+                <div class="cast">CAST FROM 1995 · 4 · 29 · YǑU HOUR 17–19</div>
+                <div class="mark-line">— ELEMENTUM —</div>
+              </div>
+              <div class="ring-peek"></div>
+            </div>
+          </div>
+          <div class="home-bar"></div>
+        </div>
+      </div>
+
+      <!-- KF·2 -->
+      <div class="kf-col" data-screen-label="P2 · KF2 scroll 50%">
+        <div class="kf-tag"><b>KF·2</b> · scroll ~50% — plate → silk · text exits up · seal shrinks &amp; glides</div>
+        <div class="phone">
+          <div class="notch"></div>
+          <div class="screen">
+            <img class="bg-reveal-top" src="assets/bg/bg-reveal-01-distant-peaks.png" alt="" style="opacity: 0.5;">
+            <img class="bg-reveal-bot" src="assets/bg/bg-reveal-02-floating-island.png" alt="" style="opacity: 0.3;">
+            <img class="ground-img bg-energy" src="assets/bg/bg-energymap-01-top-band.png" alt="" style="opacity: 0.42;">
+            <div class="plate-blank" style="opacity: 0.5;"></div>
+            <div class="status"><span>9:41</span><span class="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
+            <div class="plate-col" style="opacity: 0.28; transform: translateY(-48px);">
+              <span class="eyebrow" style="text-align: center; color: var(--inkSoft);">YOUR ELEMENTUM IDENTITY</span>
+              <div style="height: 152px;"></div>
+              <div class="arch-name" style="font-size: 36px;">The Blade</div>
+              <div class="pinyin" style="margin-top: 6px;">GĒNG · YANG METAL</div>
+              <div class="manifesto" style="font-size: 17px; margin-top: 12px;">Precision before intention</div>
+              <div class="inscription" style="opacity: 0.7;">
+                <div class="en">You say what others soften — and pay, quietly, for being the one who did.</div>
+              </div>
+            </div>
+            
+            <img src="assets/stems/geng.png" alt="" style="position: absolute; width: 102px; height: 102px; left: 138px; top: 218px; z-index: 12;">
+          </div>
+          <div class="home-bar"></div>
+        </div>
+      </div>
+
+      <!-- KF·3 -->
+      <div class="kf-col" data-screen-label="P2 · KF3 scroll 100%">
+        <div class="kf-tag"><b>KF·3</b> · scroll 100% = Beat 2 — ring painted · nodes bloom · reading shelf + tab bar settle</div>
+        <div class="phone">
+          <div class="notch"></div>
+          <div class="screen">
+            <img class="ground-img bg-energy" src="assets/bg/bg-energymap-01-top-band.png" alt="">
+            <div class="status"><span>9:41</span><span class="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
+            <div class="screen-pad">
+              <div class="eyebrow-row" style="opacity: 0.85;"><span class="eyebrow">YOUR ENERGIES</span></div>
+              <div class="wheel" style="margin-top: 24px;" data-wheel-nodes data-order="presence" data-bloom="1,1,0.78,0.48,0.22">
+                
+                <svg class="wheel-svg" data-wheel="committed"></svg>
+                <div class="center-seal"><img src="assets/stems/geng.png" alt="The Blade" width="92" height="92"><span class="cname">The Blade</span></div>
+              </div>
+              <div class="rx-ribbon" style="opacity: 0.85;">Lean on Earth — it feeds your edge. Watch what Fire costs you.</div>
+              <div class="shelf" style="opacity: 0.72;">
+                <div class="spine dk-metal open" data-el="metal">
+                  <span class="sp-fill" style="height: 84%;"></span><span class="sp-cap"></span><span class="sp-notch"></span>
+                  <span class="sp-col"><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-metal"></use></svg></span><span class="sp-pc">42%</span></span>
+                  <span class="sp-open"><span class="sp-art"><img src="assets/art/t_metal_1_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-core" title="Core"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor"></circle></svg></span><span class="sp-rg k-res" title="Resistance"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">METAL · 42%</span><span class="sp-stack"><span class="sp-track"><i class="cur" style="width:42%;background:var(--metalDeep)"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-core"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor"></circle></svg>Core</span><span class="rl-sep">·</span><span class="rl rl-res"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg>Resistance</span></span></span><span class="sp-hook">Your core — precision before intention.</span><span class="sp-pol">Refinement · the edge</span></span><span class="sp-read">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+                </div>
+                <div class="spine dk-earth" data-el="earth">
+                  <span class="sp-fill" style="height: 56%;"></span><span class="sp-cap"></span><span class="sp-notch"></span>
+                  <span class="sp-col"><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-earth"></use></svg></span><span class="sp-pc">28%</span></span>
+                  <span class="sp-open"><span class="sp-art"><img src="assets/art/t_earth_2_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-res" title="Resistance"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">EARTH · 28%</span><span class="sp-stack"><span class="sp-track"><i class="" style="width:42%;background:color-mix(in srgb, var(--metalDeep) 40%, var(--silkDeep))"></i><i class="cur" style="width:28%;background:var(--earthDeep)"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-res"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg>Resistance</span></span></span><span class="sp-hook">The ground that feeds your edge.</span><span class="sp-pol">Stability · the centre</span></span><span class="sp-read">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+                </div>
+                <div class="spine dk-water" data-el="water">
+                  <span class="sp-fill" style="height: 32%;"></span><span class="sp-cap"></span><span class="sp-notch"></span>
+                  <span class="sp-col"><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-water"></use></svg></span><span class="sp-pc">16%</span></span>
+                  <span class="sp-open"><span class="sp-art"><img src="assets/art/t_water_5_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-cat" title="Catalyst"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">WATER · 16%</span><span class="sp-stack"><span class="sp-track"><i class="" style="width:42%;background:color-mix(in srgb, var(--metalDeep) 40%, var(--silkDeep))"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="cur" style="width:16%;background:var(--waterDeep)"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-cat"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg>Catalyst</span></span></span><span class="sp-hook">Where your edge learns to flow.</span><span class="sp-pol">Flow · the descent</span></span><span class="sp-read">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+                </div>
+                <div class="spine dk-wood" data-el="wood">
+                  <span class="sp-fill" style="height: 28%;"></span><span class="sp-cap"></span><span class="sp-notch"></span>
+                  <span class="sp-col"><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-wood"></use></svg></span><span class="sp-pc">14%</span></span>
+                  <span class="sp-open"><span class="sp-art"><img src="assets/art/t_wood_1_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-cat" title="Catalyst"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">WOOD · 14%</span><span class="sp-stack"><span class="sp-track"><i class="" style="width:42%;background:color-mix(in srgb, var(--metalDeep) 40%, var(--silkDeep))"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="cur" style="width:14%;background:var(--woodDeep)"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-cat"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg>Catalyst</span></span></span><span class="sp-hook">What your blade is for.</span><span class="sp-pol">Growth · the upward push</span></span><span class="sp-read">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+                </div>
+                <div class="spine ghosted ghosted" data-el="fire">
+                  <span class="sp-fill" style="height: 4%;"></span><span class="sp-cap"></span><span class="sp-notch"></span>
+                  <span class="sp-col"><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-fire"></use></svg></span><span class="sp-pc">0%</span></span>
+                  <span class="sp-open"><span class="sp-art"><img src="assets/art/t_fire_1_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-miss" title="Missing"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="2.6 2.4"></circle></svg></span><span class="sp-rg k-cat major" title="Catalyst"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">FIRE · 0%</span><span class="sp-stack"><span class="sp-track"><i class="" style="width:42%;background:color-mix(in srgb, var(--metalDeep) 40%, var(--silkDeep))"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh cur" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-miss"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="2.6 2.4"></circle></svg>Missing</span><span class="rl-sep">·</span><span class="rl rl-cat"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg>Catalyst</span></span></span><span class="sp-hook">The forge you borrow, never own.</span><span class="sp-pol">Radiance · the rising heat</span></span><span class="sp-read">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+                </div>
+              </div>
+            </div>
+            <nav class="tabbar" style="opacity: 0.75;">
+              <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-today"></use></svg></span><span class="seal-dot"></span></div>
+              <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-guidance"></use></svg></span><span class="seal-dot"></span></div>
+              <div class="tab active"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-reading"></use></svg></span><span class="seal-dot"></span></div>
+              <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-compat"></use></svg></span><span class="seal-dot"></span></div>
+              <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-profile"></use></svg></span><span class="seal-dot"></span></div>
+            </nav>
+          </div>
+          <div class="home-bar"></div>
+        </div>
+      </div>
+    </div>
+    <div class="annos wide" style="max-width: 820px;">
+      <div class="anno">The seal you were named by becomes the axis of your five energies — "Reveal is the catalogue," literally. Same object, three scales: 124px → 102px → 84px.</div>
+      <div class="anno"><b>The tab bar fades up with Beat 2</b> — the moment the wheel IS the Reading tab, the product chrome arrives with it (Reading active, seal dot). The catalogue shelf blooms beneath the ribbon — the dissolve lands directly on the canonical Beat 2 (P3, next).</div>
+      <div class="anno motion">The brush enso paints itself in clockwise (conic reveal). 2.5s dwell on the plate auto-nudges 12px. Reduced-motion: instant cross-fades.</div>
+    </div>
+  </section>
+
+  <div class="flow-arrow">→</div>
+
+  <!-- ──────── P2 · LIVE — SCRUB THE DISSOLVE ──────── -->
+  <section class="stage live-phone" data-screen-label="P2 · Live dissolve">
+    <div class="stage-label">P2 · Live — scrub the dissolve</div>
+    <div class="stage-sub"><b>Working demonstration of the transition.</b> Scroll inside the phone: the plate dissolves, text exits, the seal glides to center, the brush ring paints in, nodes bloom, and the reading shelf settles in beneath. Fully reversible — exactly as shipped.</div>
+    <button class="play-pill" id="play-dissolve" type="button">▶ Play the transition</button>
+    <div class="phone">
+      <div class="notch"></div>
+      <div class="screen">
+        <div id="dissolve-scroll" class="dissolve-scroll">
+          <div class="dissolve-track">
+            <div class="dissolve-stage">
+              <img id="ds-bg-reveal-top" class="bg-reveal-top" src="assets/bg/bg-reveal-01-distant-peaks.png" alt="">
+              <img id="ds-bg-reveal-bot" class="bg-reveal-bot" src="assets/bg/bg-reveal-02-floating-island.png" alt="">
+              <div id="ds-bg-fog" class="bg-reveal-fog"></div>
+              <img id="ds-bg-energy" class="ground-img bg-energy" src="assets/bg/bg-energymap-01-top-band.png" alt="" style="opacity: 0;">
+              <div id="ds-pagetint" class="pagetint" style="background: radial-gradient(140% 80% at 50% -10%, rgba(139,163,184,0.10), transparent 60%); opacity: 0;"></div>
+              <div id="ds-paint"><div class="plate-blank"></div></div>
+              <div class="status" style="position: absolute; left: 0; right: 0; top: 0; z-index: 40;"><span>9:41</span><span class="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
+              <div id="ds-text-top" class="ds-plate-text" style="position: absolute; left: 24px; right: 24px; top: 84px; display: flex; flex-direction: column; align-items: center;">
+                <span class="eyebrow" style="color: var(--inkSoft);">YOUR ELEMENTUM IDENTITY</span>
+                <div style="height: 150px;"></div>
+                <div class="arch-name" style="font-size: 36px; margin-top: 14px;">The Blade</div>
+                <div class="pinyin" style="margin-top: 6px;">GĒNG · YANG METAL</div>
+                <div class="manifesto" style="font-size: 17px; margin-top: 12px;">Precision before intention</div>
+                <div class="inscription">
+                  <div class="en">You say what others soften — and pay, quietly, for being the one who did.</div>
+                </div>
+              </div>
+              <div id="ds-text-bottom" class="ds-plate-text" style="position: absolute; left: 24px; right: 24px; bottom: 54px;">
+                <div class="foundry" style="margin-top: 0;">
+                  <div class="cast">CAST FROM 1995 · 4 · 29 · YǑU HOUR 17–19</div>
+                  <div class="mark-line">— ELEMENTUM —</div>
+                </div>
+              </div>
+              <div id="ds-peek" style="position: absolute; left: 50%; transform: translateX(-50%); bottom: 36px; z-index: 12;"><div class="ring-peek" style="margin-top: 0;"></div></div>
+              <div id="ds-eyebrow" class="eyebrow-row" style="position: absolute; left: 22px; right: 22px; top: 64px; opacity: 0; z-index: 12;"><span class="eyebrow">YOUR ENERGIES</span></div>
+              <div id="ds-wheel" class="ds-wheel-wrap" data-wheel-nodes data-order="presence" data-scale="0.92" style="left: 35px; top: 80px; width: 320px; height: 300px;">
+                
+                <svg class="wheel-svg" data-wheel-mini></svg>
+                <div class="center-seal" style="background: none;"><span class="cname">The Blade</span></div>
+              </div>
+              <div id="ds-seal" class="ds-seal"><img src="assets/stems/geng.png" alt="The seal — the continuity object"></div>
+              <div id="ds-after" class="ds-after" style="opacity: 0;">
+                <div class="rx-ribbon" style="margin: 0 0 8px;">Metal rules clarity and judgment — your dominant force, the edge that cuts to what is true.</div>
+                <div class="shelf-hint"><span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span>Each dot is an energy — tap to open its reading</div>
+                <div class="shelf">
+                  <div class="spine dk-metal open" data-el="metal">
+                    <span class="sp-fill" style="height: 84%;"></span><span class="sp-cap"></span><span class="sp-notch"></span>
+                    <span class="sp-col"><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-metal"></use></svg></span><span class="sp-pc">42%</span></span>
+                    <span class="sp-open"><span class="sp-art"><img src="assets/art/t_metal_1_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-core" title="Core"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor"></circle></svg></span><span class="sp-rg k-res" title="Resistance"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">METAL · 42%</span><span class="sp-stack"><span class="sp-track"><i class="cur" style="width:42%;background:var(--metalDeep)"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-core"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor"></circle></svg>Core</span><span class="rl-sep">·</span><span class="rl rl-res"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg>Resistance</span></span></span><span class="sp-hook">Your core — precision before intention.</span><span class="sp-pol">Refinement · the edge</span></span><span class="sp-read" data-goto="P6 · Energy card — Earth">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+                  </div>
+                  <div class="spine dk-earth" data-el="earth">
+                    <span class="sp-fill" style="height: 56%;"></span><span class="sp-cap"></span><span class="sp-notch"></span>
+                    <span class="sp-col"><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-earth"></use></svg></span><span class="sp-pc">28%</span></span>
+                    <span class="sp-open"><span class="sp-art"><img src="assets/art/t_earth_2_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-res" title="Resistance"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">EARTH · 28%</span><span class="sp-stack"><span class="sp-track"><i class="" style="width:42%;background:color-mix(in srgb, var(--metalDeep) 40%, var(--silkDeep))"></i><i class="cur" style="width:28%;background:var(--earthDeep)"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-res"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg>Resistance</span></span></span><span class="sp-hook">The ground that feeds your edge.</span><span class="sp-pol">Stability · the centre</span></span><span class="sp-read">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+                  </div>
+                  <div class="spine dk-water" data-el="water">
+                    <span class="sp-fill" style="height: 32%;"></span><span class="sp-cap"></span><span class="sp-notch"></span>
+                    <span class="sp-col"><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-water"></use></svg></span><span class="sp-pc">16%</span></span>
+                    <span class="sp-open"><span class="sp-art"><img src="assets/art/t_water_5_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-cat" title="Catalyst"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">WATER · 16%</span><span class="sp-stack"><span class="sp-track"><i class="" style="width:42%;background:color-mix(in srgb, var(--metalDeep) 40%, var(--silkDeep))"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="cur" style="width:16%;background:var(--waterDeep)"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-cat"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg>Catalyst</span></span></span><span class="sp-hook">Where your edge learns to flow.</span><span class="sp-pol">Flow · the descent</span></span><span class="sp-read">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+                  </div>
+                  <div class="spine dk-wood" data-el="wood">
+                    <span class="sp-fill" style="height: 28%;"></span><span class="sp-cap"></span><span class="sp-notch"></span>
+                    <span class="sp-col"><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-wood"></use></svg></span><span class="sp-pc">14%</span></span>
+                    <span class="sp-open"><span class="sp-art"><img src="assets/art/t_wood_1_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-cat" title="Catalyst"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">WOOD · 14%</span><span class="sp-stack"><span class="sp-track"><i class="" style="width:42%;background:color-mix(in srgb, var(--metalDeep) 40%, var(--silkDeep))"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="cur" style="width:14%;background:var(--woodDeep)"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-cat"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg>Catalyst</span></span></span><span class="sp-hook">What your blade is for.</span><span class="sp-pol">Growth · the upward push</span></span><span class="sp-read">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+                  </div>
+                  <div class="spine ghosted ghosted" data-el="fire">
+                    <span class="sp-fill" style="height: 4%;"></span><span class="sp-cap"></span><span class="sp-notch"></span>
+                    <span class="sp-col"><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-fire"></use></svg></span><span class="sp-pc">0%</span></span>
+                    <span class="sp-open"><span class="sp-art"><img src="assets/art/t_fire_1_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-miss" title="Missing"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="2.6 2.4"></circle></svg></span><span class="sp-rg k-cat major" title="Catalyst"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">FIRE · 0%</span><span class="sp-stack"><span class="sp-track"><i class="" style="width:42%;background:color-mix(in srgb, var(--metalDeep) 40%, var(--silkDeep))"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh cur" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-miss"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="2.6 2.4"></circle></svg>Missing</span><span class="rl-sep">·</span><span class="rl rl-cat"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg>Catalyst</span></span></span><span class="sp-hook">The forge you borrow, never own.</span><span class="sp-pol">Radiance · the rising heat</span></span><span class="sp-read">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+                  </div>
+                </div>
+              </div>
+              <nav id="ds-tabbar" class="tabbar" style="opacity: 0;">
+                <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-today"></use></svg></span><span class="seal-dot"></span></div>
+                <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-guidance"></use></svg></span><span class="seal-dot"></span></div>
+                <div class="tab active"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-reading"></use></svg></span><span class="seal-dot"></span></div>
+                <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-compat"></use></svg></span><span class="seal-dot"></span></div>
+                <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-profile"></use></svg></span><span class="seal-dot"></span></div>
+              </nav>
+              <div id="ds-hint" class="scroll-hint">scroll ⇣ inside the phone</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="home-bar"></div>
+    </div>
+    <div class="annos">
+      <div class="anno motion"><b>Timing map</b> — plate ground 4–42% · plate text 4–46% · seal glide 8–74% (ease-out) · enso paints in 44–70% · node bloom 52–98% staggered by presence · ribbon + reading shelf + tab bar 82–99%.</div>
+      <div class="anno">Demonstration only — production binds the same curves to the plate's scroll position.</div>
+    </div>
+  </section>
+
+  <div class="flow-arrow">→</div>
+
+  <!-- ──────── P3 · BEAT 2 — READING CATALOGUE (canonical) ──────── -->
+  <section class="stage" data-screen-label="P3 · Beat 2 — Reading catalogue">
+    <div class="stage-label">P3 · Beat 2 — the wheel = the Reading catalogue <span class="dim">(canonical · lands here from P2)</span></div>
+    <div class="stage-sub"><b>The core catalogue.</b> The wheel maps your five energies; the shelf beneath holds all five as latched reading tiles. Tap a dot — its tile opens; tap a tile — its dot lifts. Five energies, five readings, one gesture connecting them.</div>
+    <div class="phone">
+      <div class="notch"></div>
+      <div class="screen">
+        <img class="ground-img bg-energy" src="assets/bg/bg-energymap-01-top-band.png" alt="">
+        <div class="pagetint" style="background: radial-gradient(140% 80% at 50% -10%, rgba(139,163,184,0.10), transparent 60%);"></div>
+        <div class="status"><span>9:41</span><span class="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
+        <div class="screen-pad">
+          <div class="eyebrow-row"><span class="eyebrow">YOUR ENERGIES</span></div>
+          <div class="mini-wheel" style="width: 320px; height: 300px; margin: 4px auto 0;" data-wheel-nodes="quiet" data-order="presence" data-scale="0.92" data-interactive data-sync="shelf">
+            
+            <svg class="wheel-svg" data-wheel-mini></svg>
+            <img src="assets/stems/geng.png" alt="The Blade seal — opens the Day Master card" width="276" height="276" data-goto="P4 · Day Master card" title="Opens the Day Master card" style="position: absolute; left: 18px; top: 9px; z-index: 2; cursor: pointer;">
+          </div>
+          <div class="rx-ribbon" style="margin: 6px 4px 0;">Metal rules clarity and judgment — your dominant force, the edge that cuts to what is true.</div>
+          <div class="shelf-hint"><span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span>Each dot is an energy — tap to open its reading</div>
+          <div class="shelf">
+            <button class="spine dk-metal" data-el="metal" type="button">
+              <span class="sp-fill" style="height: 84%;"></span>
+              <span class="sp-cap"></span><span class="sp-notch"></span>
+              <span class="sp-col"><span class="sp-rank">1</span><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-metal"></use></svg></span><span class="sp-pc">42%</span></span>
+              <span class="sp-open"><span class="sp-art"><img src="assets/art/t_metal_1_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-core" title="Core"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor"></circle></svg></span><span class="sp-rg k-res" title="Resistance"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">METAL · 42%</span><span class="sp-stack"><span class="sp-track"><i class="cur" style="width:42%;background:var(--metalDeep)"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-core"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor"></circle></svg>Core</span><span class="rl-sep">·</span><span class="rl rl-res"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg>Resistance</span></span></span><span class="sp-hook">Your core — precision before intention.</span><span class="sp-pol">Refinement · the edge</span></span><span class="sp-read" data-goto="P6 · Energy card — Earth">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+            </button>
+            <button class="spine dk-earth" data-el="earth" type="button">
+              <span class="sp-fill" style="height: 56%;"></span>
+              <span class="sp-cap"></span><span class="sp-notch"></span>
+              <span class="sp-col"><span class="sp-rank">2</span><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-earth"></use></svg></span><span class="sp-pc">28%</span></span>
+              <span class="sp-open"><span class="sp-art"><img src="assets/art/t_earth_2_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-res" title="Resistance"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">EARTH · 28%</span><span class="sp-stack"><span class="sp-track"><i class="" style="width:42%;background:color-mix(in srgb, var(--metalDeep) 40%, var(--silkDeep))"></i><i class="cur" style="width:28%;background:var(--earthDeep)"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-res"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg>Resistance</span></span></span><span class="sp-hook">The ground that feeds your edge.</span><span class="sp-pol">Stability · the centre</span></span><span class="sp-read" data-goto="P6 · Energy card — Earth">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+            </button>
+            <button class="spine dk-water" data-el="water" type="button">
+              <span class="sp-fill" style="height: 32%;"></span>
+              <span class="sp-cap"></span><span class="sp-notch"></span>
+              <span class="sp-col"><span class="sp-rank">3</span><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-water"></use></svg></span><span class="sp-pc">16%</span></span>
+              <span class="sp-open"><span class="sp-art"><img src="assets/art/t_water_5_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-cat" title="Catalyst"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">WATER · 16%</span><span class="sp-stack"><span class="sp-track"><i class="" style="width:42%;background:color-mix(in srgb, var(--metalDeep) 40%, var(--silkDeep))"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="cur" style="width:16%;background:var(--waterDeep)"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-cat"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg>Catalyst</span></span></span><span class="sp-hook">Where your edge learns to flow.</span><span class="sp-pol">Flow · the descent</span></span><span class="sp-read" data-goto="P6 · Energy card — Earth">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+            </button>
+            <button class="spine dk-wood" data-el="wood" type="button">
+              <span class="sp-fill" style="height: 28%;"></span>
+              <span class="sp-cap"></span><span class="sp-notch"></span>
+              <span class="sp-col"><span class="sp-rank">4</span><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-wood"></use></svg></span><span class="sp-pc">14%</span></span>
+              <span class="sp-open"><span class="sp-art"><img src="assets/art/t_wood_1_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-cat" title="Catalyst"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">WOOD · 14%</span><span class="sp-stack"><span class="sp-track"><i class="" style="width:42%;background:color-mix(in srgb, var(--metalDeep) 40%, var(--silkDeep))"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="cur" style="width:14%;background:var(--woodDeep)"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-cat"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg>Catalyst</span></span></span><span class="sp-hook">What your blade is for.</span><span class="sp-pol">Growth · the upward push</span></span><span class="sp-read" data-goto="P6 · Energy card — Earth">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+            </button>
+            <button class="spine ghosted ghosted" data-el="fire" type="button">
+              <span class="sp-fill" style="height: 4%;"></span>
+              <span class="sp-cap"></span><span class="sp-notch"></span>
+              <span class="sp-col" data-comment-anchor="dc8d43529c-span"><span class="sp-rank">5</span><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-fire"></use></svg></span><span class="sp-pc">0%</span></span>
+              <span class="sp-open"><span class="sp-art"><img src="assets/art/t_fire_1_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-miss" title="Missing"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="2.6 2.4"></circle></svg></span><span class="sp-rg k-cat major" title="Catalyst"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">FIRE · 0%</span><span class="sp-stack"><span class="sp-track"><i class="" style="width:42%;background:color-mix(in srgb, var(--metalDeep) 40%, var(--silkDeep))"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh cur" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-miss"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="2.6 2.4"></circle></svg>Missing</span><span class="rl-sep">·</span><span class="rl rl-cat"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg>Catalyst</span></span></span><span class="sp-hook">The forge you borrow, never own.</span><span class="sp-pol">Radiance · the rising heat</span></span><span class="sp-read" data-goto="P7 · Energy card — Fire ghost">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+            </button>
+          </div>
+          <div style="text-align: center; margin-top: 9px;"><span class="bud">hook ≤8w verbatim · spine gauge ∝ presence · pole line teaches the five-energy idea</span></div>
+        </div>
+        <nav class="tabbar">
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-today"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-guidance"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab active"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-reading"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-compat"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-profile"></use></svg></span><span class="seal-dot"></span></div>
+        </nav>
+      </div>
+      <div class="home-bar"></div>
+    </div>
+    <div class="annos">
+      <div class="anno"><b>The shelf is the lesson.</b> Five spines, always all five visible — like books on a shelf, one pulled out. The open spine carries the hook + art bleed + the pole line that names the energy ("Stability · the centre"); the four closed spines stay as thin marks with a percent and a <b>presence gauge that fills to match the dot's size on the wheel</b>. The encoding is taught twice — once round, once tall.</div>
+      <div class="anno"><b>Wheel ⟷ shelf are latched, both ways.</b> Tap a dot → its spine expands and takes the pigment cap + up-notch (pulled from the wheel); tap a spine → its dot scales up with a pigment ring. The shared element pigment is the visible tether — the user learns dot and tile are the same energy. Try it live: tap any dot or any spine.</div>
+      <div class="anno"><b>The hook earns the tap; the Read pill commits it.</b> A single tap opens the spine (browse, zero cost); the Read pill (or a second tap) flips to the full energy card — Earth → P6, Fire → P7. Persona payoff (The Alchemist, The General) waits there. Engine taxonomy never surfaces.</div>
+    </div>
+  </section>
+
+</main>
+
+<div class="rule"></div>
+
+<!-- ════════════════ ENERGY-TILE LEGEND (primitive) ════════════════ -->
+<section>
+  <h2 class="section-h">The energy tile — format &amp; examples</h2>
+  <p class="section-lead">Each energy in your chart is a <b>tile</b> on the reading shelf. Closed, it’s a thin spine with its mark and presence; tapped open, it becomes the card below — a hook over a painted ground, with the calibration role and dominance laid in. Five tiles, always all five present.</p>
+
+  <div class="sub-h">Anatomy of an open tile</div>
+  <div class="tile-anat">
+    <div class="tile-demo"><div class="spine open dk-metal " data-el="metal">
+    <span class="sp-cap"></span>
+    <span class="sp-open"><span class="sp-art"><img src="assets/art/t_metal_1_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-core" title="Core"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor"></circle></svg></span><span class="sp-rg k-res" title="Resistance"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">METAL · 42%</span><span class="sp-stack"><span class="sp-track"><i class="cur" style="width:42%;background:var(--metalDeep)"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-core"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor"></circle></svg>Core</span><span class="rl-sep">·</span><span class="rl rl-res"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg>Resistance</span></span></span><span class="sp-hook">Your core — precision before intention.</span><span class="sp-pol">Refinement · the edge</span></span><span class="sp-read">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+  </div></div>
+    <div class="anat-list">
+      <div class="anat-item"><span class="anat-n">1</span><span class="anat-tx"><b>Element + presence</b> — The element icon and its share of your chart — here Metal at 42%.</span></div><div class="anat-item"><span class="anat-n">2</span><span class="anat-tx"><b>Calibration glyphs</b> — Up to two role marks, top-right: this energy’s part in the reading (Core, Catalyst, Resistance, Missing).</span></div><div class="anat-item"><span class="anat-n">3</span><span class="anat-tx"><b>Dominance bar</b> — All five energies in one 100% track — this tile’s segment full-strength, the rest muted.</span></div><div class="anat-item"><span class="anat-n">4</span><span class="anat-tx"><b>Role caption</b> — The glyphs named in words, colour-matched, so the role reads without guessing.</span></div><div class="anat-item"><span class="anat-n">5</span><span class="anat-tx"><b>The hook</b> — One line, ≤8 words — the seductive promise that earns the tap.</span></div><div class="anat-item"><span class="anat-n">6</span><span class="anat-tx"><b>Foundation line</b> — Names the energy’s nature (“Refinement · the edge”) — teaches the five-energy idea.</span></div><div class="anat-item"><span class="anat-n">7</span><span class="anat-tx"><b>Read pill</b> — Commits to the full energy reading (→ P6 / P7).</span></div>
+    </div>
+  </div>
+
+  <div class="sub-h">Closed &rarr; open</div>
+  <div class="tile-states">
+    <div class="st-shelf">
+      <div class="spine open dk-metal" data-el="metal"><span class="sp-fill" style="height:84%"></span><span class="sp-cap"></span><span class="sp-col"><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-metal"></use></svg></span><span class="sp-pc">42%</span></span><span class="sp-open"><span class="sp-art"><img src="assets/art/t_metal_1_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-core" title="Core"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor"></circle></svg></span><span class="sp-rg k-res" title="Resistance"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">METAL · 42%</span><span class="sp-stack"><span class="sp-track"><i class="cur" style="width:42%;background:var(--metalDeep)"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-core"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor"></circle></svg>Core</span><span class="rl-sep">·</span><span class="rl rl-res"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg>Resistance</span></span></span><span class="sp-hook">Your core — precision before intention.</span><span class="sp-pol">Refinement · the edge</span></span><span class="sp-read">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span></div>
+      <div class="spine dk-earth" data-el="earth"><span class="sp-fill" style="height:56%"></span><span class="sp-cap"></span><span class="sp-col"><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-earth"></use></svg></span><span class="sp-pc">28%</span></span><span class="sp-open"><span class="sp-art"><img src="assets/art/t_earth_2_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-res" title="Resistance"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">EARTH · 28%</span><span class="sp-stack"><span class="sp-track"><i class="" style="width:42%;background:color-mix(in srgb, var(--metalDeep) 40%, var(--silkDeep))"></i><i class="cur" style="width:28%;background:var(--earthDeep)"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-res"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg>Resistance</span></span></span><span class="sp-hook">The ground that feeds your edge.</span><span class="sp-pol">Stability · the centre</span></span><span class="sp-read">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span></div>
+      <div class="spine dk-water" data-el="water"><span class="sp-fill" style="height:32%"></span><span class="sp-cap"></span><span class="sp-col"><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-water"></use></svg></span><span class="sp-pc">16%</span></span><span class="sp-open"><span class="sp-art"><img src="assets/art/t_water_5_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-cat" title="Catalyst"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">WATER · 16%</span><span class="sp-stack"><span class="sp-track"><i class="" style="width:42%;background:color-mix(in srgb, var(--metalDeep) 40%, var(--silkDeep))"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="cur" style="width:16%;background:var(--waterDeep)"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-cat"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg>Catalyst</span></span></span><span class="sp-hook">Where your edge learns to flow.</span><span class="sp-pol">Flow · the descent</span></span><span class="sp-read">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span></div>
+      <div class="spine dk-wood" data-el="wood"><span class="sp-fill" style="height:28%"></span><span class="sp-cap"></span><span class="sp-col"><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-wood"></use></svg></span><span class="sp-pc">14%</span></span><span class="sp-open"><span class="sp-art"><img src="assets/art/t_wood_1_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-cat" title="Catalyst"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">WOOD · 14%</span><span class="sp-stack"><span class="sp-track"><i class="" style="width:42%;background:color-mix(in srgb, var(--metalDeep) 40%, var(--silkDeep))"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="cur" style="width:14%;background:var(--woodDeep)"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-cat"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg>Catalyst</span></span></span><span class="sp-hook">What your blade is for.</span><span class="sp-pol">Growth · the upward push</span></span><span class="sp-read">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span></div>
+      <div class="spine dk-fire ghosted" data-el="fire"><span class="sp-fill" style="height:4%"></span><span class="sp-cap"></span><span class="sp-col"><span class="sp-mk"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-fire"></use></svg></span><span class="sp-pc">0%</span></span><span class="sp-open"><span class="sp-art"><img src="assets/art/t_fire_1_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-miss" title="Missing"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="2.6 2.4"></circle></svg></span><span class="sp-rg k-cat major" title="Catalyst"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">FIRE · 0%</span><span class="sp-stack"><span class="sp-track"><i class="" style="width:42%;background:color-mix(in srgb, var(--metalDeep) 40%, var(--silkDeep))"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh cur" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-miss"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="2.6 2.4"></circle></svg>Missing</span><span class="rl-sep">·</span><span class="rl rl-cat"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg>Catalyst</span></span></span><span class="sp-hook">The forge you borrow, never own.</span><span class="sp-pol">Radiance · the rising heat</span></span><span class="sp-read">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span></div>
+    </div>
+    <div class="st-cap"><b>The shelf is the lesson.</b> All five stay visible like books on a shelf — one pulled out. Closed spines keep a presence gauge that mirrors the dot’s size on the wheel; tap any to swap which one is open.</div>
+  </div>
+
+  <div class="sub-h">Reading examples</div>
+  <div class="tile-examples">
+    <div class="tile-ex"><div class="tile-demo"><div class="spine open dk-water " data-el="water">
+    <span class="sp-cap"></span>
+    <span class="sp-open"><span class="sp-art"><img src="assets/art/t_water_5_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-cat" title="Catalyst"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">WATER · 16%</span><span class="sp-stack"><span class="sp-track"><i class="" style="width:42%;background:color-mix(in srgb, var(--metalDeep) 40%, var(--silkDeep))"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="cur" style="width:16%;background:var(--waterDeep)"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-cat"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg>Catalyst</span></span></span><span class="sp-hook">Where your edge learns to flow.</span><span class="sp-pol">Flow · the descent</span></span><span class="sp-read">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+  </div></div><div class="ex-cap"><b>Single role.</b> Water is a Catalyst — one glyph, one caption.</div></div>
+    <div class="tile-ex"><div class="tile-demo"><div class="spine open dk-metal " data-el="metal">
+    <span class="sp-cap"></span>
+    <span class="sp-open"><span class="sp-art"><img src="assets/art/t_metal_1_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-core" title="Core"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor"></circle></svg></span><span class="sp-rg k-res" title="Resistance"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">METAL · 42%</span><span class="sp-stack"><span class="sp-track"><i class="cur" style="width:42%;background:var(--metalDeep)"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-core"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor"></circle></svg>Core</span><span class="rl-sep">·</span><span class="rl rl-res"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg>Resistance</span></span></span><span class="sp-hook">Your core — precision before intention.</span><span class="sp-pol">Refinement · the edge</span></span><span class="sp-read">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+  </div></div><div class="ex-cap"><b>Dual role.</b> Metal is your Core <i>and</i> a Resistance — two stacked glyphs, two captioned words.</div></div>
+    <div class="tile-ex"><div class="tile-demo"><div class="spine open dk-fire ghosted " data-el="fire">
+    <span class="sp-cap"></span>
+    <span class="sp-open"><span class="sp-art"><img src="assets/art/t_fire_1_s.png" alt=""><span class="bfade"></span></span><span class="sp-corner"><span class="sp-rg k-miss" title="Missing"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="2.6 2.4"></circle></svg></span><span class="sp-rg k-cat major" title="Catalyst"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg></span></span><span class="sp-txt"><span class="sp-ey">FIRE · 0%</span><span class="sp-stack"><span class="sp-track"><i class="" style="width:42%;background:color-mix(in srgb, var(--metalDeep) 40%, var(--silkDeep))"></i><i class="" style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i><i class="" style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i><i class="" style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i><i class="gh cur" style="background:var(--fireDeep)"></i></span><span class="sp-roles"><span class="rl rl-miss"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="2.6 2.4"></circle></svg>Missing</span><span class="rl-sep">·</span><span class="rl rl-cat"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg>Catalyst</span></span></span><span class="sp-hook">The forge you borrow, never own.</span><span class="sp-pol">Radiance · the rising heat</span></span><span class="sp-read">Read<span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span></span>
+  </div></div><div class="ex-cap"><b>Absent energy.</b> Fire is Missing (0%) yet a major Catalyst — grayscale ground, dashed sliver, emphasis ring.</div></div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- ════════════════ CALIBRATION LEGEND (primitive) ════════════════ -->
+<section>
+  <h2 class="section-h">Calibration signs — the energy-tile iconography</h2>
+  <p class="section-lead">Every open energy tile carries up to two <b>calibration glyphs</b> in its top-right corner (the role each energy plays in the chart) and a <b>100% dominance bar</b> above the hook. Five roles, color-coded; a single energy may hold two — e.g. Metal is both your Core and a source of Resistance. These are the primitives reused across the catalogue, energy cards, and chips.</p>
+
+  <div class="cal-legend">
+    <div class="cal-card">
+      <div class="cal-glyph k-core"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor"></circle></svg></div>
+      <div class="cal-body">
+        <div class="cal-name">Core <span class="cal-tag t-core">Core</span></div>
+        <div class="cal-desc">Your Day Master's element — the anchor the whole reading is built around. Solid filled disc.</div>
+        <div class="cal-where"><b>Used on:</b> the dominant energy tile · day-master border on P4/P5.</div>
+      </div>
+    </div>
+    <div class="cal-card">
+      <div class="cal-glyph k-cat"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg></div>
+      <div class="cal-body">
+        <div class="cal-name">Catalyst <span class="cal-tag t-cat">Catalyst ↑</span></div>
+        <div class="cal-desc">An energy that feeds and strengthens your edge. Upward arrow, sage-green. A <b>major</b> catalyst gains an emphasis ring.</div>
+        <div class="cal-where"><b>Used on:</b> supportive energy tiles · "feeds your edge" hooks.</div>
+      </div>
+    </div>
+    <div class="cal-card">
+      <div class="cal-glyph k-res"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg></div>
+      <div class="cal-body">
+        <div class="cal-name">Resistance <span class="cal-tag t-res">Resistance ↓</span></div>
+        <div class="cal-desc">An energy that drains or costs you — the friction to manage. Downward arrow, cinnabar-red.</div>
+        <div class="cal-where"><b>Used on:</b> tiles that "cost you" · paired with Core on an over-dominant element.</div>
+      </div>
+    </div>
+    <div class="cal-card">
+      <div class="cal-glyph k-miss"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="2.6 2.4"></circle></svg></div>
+      <div class="cal-body">
+        <div class="cal-name">Missing <span class="cal-tag t-miss">Missing —</span></div>
+        <div class="cal-desc">An energy absent from the chart (0%) — must be borrowed or cultivated. Dashed hollow ring, muted.</div>
+        <div class="cal-where"><b>Used on:</b> the ghost tile (Fire here) · grayscale thumbnail + dashed dominance sliver.</div>
+      </div>
+    </div>
+    <div class="cal-card">
+      <div class="cal-glyph k-ally"><svg viewBox="0 0 24 24"><circle cx="8.5" cy="12" r="4.4" fill="none" stroke="currentColor" stroke-width="2"></circle><circle cx="15.5" cy="12" r="4.4" fill="none" stroke="currentColor" stroke-width="2"></circle></svg></div>
+      <div class="cal-body">
+        <div class="cal-name">Ally <span class="cal-tag" style="color:var(--ally)">Ally</span></div>
+        <div class="cal-desc">An energy that steadies and balances you — supportive without being a primary driver. Linked rings, slate-blue. <span style="color:var(--inkLight)">(Defined for completeness; not in this demo chart.)</span></div>
+        <div class="cal-where"><b>Used on:</b> secondary supporting tiles when the chart calls for it.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cal-barkey">
+    <div class="demo-track">
+      <i style="width:42%;background:var(--metalDeep)"></i>
+      <i style="width:28%;background:color-mix(in srgb, var(--earthDeep) 40%, var(--silkDeep))"></i>
+      <i style="width:16%;background:color-mix(in srgb, var(--waterDeep) 40%, var(--silkDeep))"></i>
+      <i style="width:14%;background:color-mix(in srgb, var(--woodDeep) 40%, var(--silkDeep))"></i>
+      <i class="gh" style="background:var(--fireDeep)"></i>
+    </div>
+    <div class="bk-txt"><b>The 100% dominance bar.</b> All five energies' shares in one track; the tile's own segment shows full-strength with a highlight ring, the others muted, a 0% energy as a dashed sliver — so each tile reads its weight relative to the whole chart, not in isolation.</div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- ════════════════ WHEEL EXPLORATIONS ════════════════ -->
+<section>
+  <h2 class="section-h">The wheel — geometry explorations · ink-wash register</h2>
+  <p class="section-lead">All variants share the painted language: brush enso ring over quiet paper, wash-medallion nodes with Set E3 marks, ghost dashed, ↑/↓ badges, node ⌀ ∝ presence. P3 commits to <b>presence seating + whisper generation chords</b>; the alternates answer the spoke question and the order question.</p>
+  <div class="explore-row">
+
+    <div class="xcard pick" data-screen-label="Wheel — committed">
+      <span class="pick-flag">In P3</span>
+      <div class="xtag">W·0 <span class="dim">· committed</span></div>
+      <h4>Whisper chords</h4>
+      <div class="xwheel" data-wheel-nodes data-order="presence">
+        
+        <svg class="wheel-svg" data-wheel="committed"></svg>
+        <div class="center-seal"><img src="assets/stems/geng.png" alt="The Blade" width="92" height="92"></div>
+      </div>
+      <p class="xnote">All five generation relations as inner chords at 10% ink — present, never loud. Only <b>Earth feeds Metal</b> carries pigment: the wheel's structure underlines the prescription ribbon.</p>
+    </div>
+
+    <div class="xcard" data-screen-label="Wheel — quiet ring">
+      <div class="xtag">W·A <span class="dim">· alternate</span></div>
+      <h4>Quiet ring</h4>
+      <div class="xwheel" data-wheel-nodes data-order="presence">
+        
+        <svg class="wheel-svg" data-wheel="quiet"></svg>
+        <div class="center-seal"><img src="assets/stems/geng.png" alt="The Blade" width="92" height="92"></div>
+      </div>
+      <p class="xnote">No spokes, no chords — brush ring + nodes only, one clockwise hint. The calmest reading surface; the cycle waits inside the cards' expanders.</p>
+    </div>
+
+    <div class="xcard" data-screen-label="Wheel — weighted spokes">
+      <div class="xtag">W·B <span class="dim">· alternate</span></div>
+      <h4>Weighted spokes</h4>
+      <div class="xwheel" data-wheel-nodes data-order="presence">
+        
+        <svg class="wheel-svg" data-wheel="spokes"></svg>
+        <div class="center-seal"><img src="assets/stems/geng.png" alt="The Blade" width="92" height="92"></div>
+      </div>
+      <p class="xnote">A hairline from every node to the seal, stroke weight ∝ presence; the ghost's thread is dashed. Says <b>"every element relates to YOU"</b> at the cost of a busier center.</p>
+    </div>
+
+    <div class="xcard" data-screen-label="Wheel — marked axis">
+      <div class="xtag">W·C <span class="dim">· alternate</span></div>
+      <h4>Marked axis</h4>
+      <div class="xwheel" data-wheel-nodes data-order="presence">
+        
+        <svg class="wheel-svg" data-wheel="marked"></svg>
+        <div class="center-seal"><img src="assets/stems/geng.png" alt="The Blade" width="92" height="92"></div>
+      </div>
+      <p class="xnote">Spokes only where the prescription points: catalyst ↑ in green, friction ↓ dashed in rust. The quietest wheel that still <b>encodes the ribbon structurally</b>.</p>
+    </div>
+
+    <div class="xcard" data-screen-label="Wheel — cycle seating">
+      <div class="xtag">W·D <span class="dim">· alternate</span></div>
+      <h4>Cycle seating</h4>
+      <div class="xwheel" data-wheel-nodes data-order="cycle">
+        
+        <svg class="wheel-svg" data-wheel="cycle" data-order="cycle"></svg>
+        <div class="center-seal"><img src="assets/stems/geng.png" alt="The Blade" width="92" height="92"></div>
+      </div>
+      <p class="xnote">Nodes seated in generation order (Metal → Water → Wood → Fire → Earth) so every chord runs neighbor-to-neighbor — the cycle reads true around the ring. Trade-off: presence hierarchy no longer reads top-down.</p>
+    </div>
+
+    <div class="xcard" data-screen-label="Wheel — hour unknown">
+      <div class="xtag">W·E <span class="dim">· state variant</span></div>
+      <h4>Hour unknown</h4>
+      <div class="mini-wheel" data-wheel-nodes="quiet" data-order="presence" data-scale="0.706" data-tilde>
+        
+        <svg class="wheel-svg" data-wheel-mini></svg>
+        <img src="assets/stems/geng.png" alt="" width="212" height="212" style="position: absolute; left: 14px; top: 7px; z-index: 2;">
+      </div>
+      <div class="hour-chip" style="margin: 10px 0 0;">Cast without your hour — close, not exact. <span class="go">Discover it →</span> <span class="bud">≤12w</span></div>
+      <p class="xnote">Every percentage renders <b>"~"</b> · the quiet chip routes to Resonance · P1's foundry mark reads 「CAST FROM 1995 · 4 · 29 · HOUR UNSET」. Nothing else changes — approximation is stated once, calmly.</p>
+    </div>
+
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- ════════════════ 10-STEM GALLERY ════════════════ -->
+<section>
+  <h2 class="section-h">The dominance wheel across the ten stems</h2>
+  <p class="section-lead">The finalized energy-dominance wheel rendered under each of the ten Heavenly Stems — the brush-enso seal at center carries each stem's own motif and element tint, while the five ink-wash energy dots hold the same composition. (Dot percentages shown are illustrative — each chart binds to that person's real distribution.)</p>
+  <div class="stem-gallery">
+    <div class="stem-cell">
+      <div class="mini-wheel gwheel" data-wheel-nodes="quiet" data-order="presence" data-scale="0.5">
+        <img src="assets/stems/jia.png" alt="JIǍ seal" width="150" height="150" style="position: absolute; left: 10px; top: 5px; z-index: 2;">
+      </div>
+      <div class="glabel">JIǍ</div>
+      <div class="gsub">YANG WOOD</div>
+    </div>
+    <div class="stem-cell">
+      <div class="mini-wheel gwheel" data-wheel-nodes="quiet" data-order="presence" data-scale="0.5">
+        <img src="assets/stems/yi.png" alt="YǏ seal" width="150" height="150" style="position: absolute; left: 10px; top: 5px; z-index: 2;">
+      </div>
+      <div class="glabel">YǏ</div>
+      <div class="gsub">YIN WOOD</div>
+    </div>
+    <div class="stem-cell">
+      <div class="mini-wheel gwheel" data-wheel-nodes="quiet" data-order="presence" data-scale="0.5">
+        <img src="assets/stems/bing.png" alt="BǏNG seal" width="150" height="150" style="position: absolute; left: 10px; top: 5px; z-index: 2;">
+      </div>
+      <div class="glabel">BǏNG</div>
+      <div class="gsub">YANG FIRE</div>
+    </div>
+    <div class="stem-cell">
+      <div class="mini-wheel gwheel" data-wheel-nodes="quiet" data-order="presence" data-scale="0.5">
+        <img src="assets/stems/ding.png" alt="DĪNG seal" width="150" height="150" style="position: absolute; left: 10px; top: 5px; z-index: 2;">
+      </div>
+      <div class="glabel">DĪNG</div>
+      <div class="gsub">YIN FIRE</div>
+    </div>
+    <div class="stem-cell">
+      <div class="mini-wheel gwheel" data-wheel-nodes="quiet" data-order="presence" data-scale="0.5">
+        <img src="assets/stems/wu.png" alt="WÙ seal" width="150" height="150" style="position: absolute; left: 10px; top: 5px; z-index: 2;">
+      </div>
+      <div class="glabel">WÙ</div>
+      <div class="gsub">YANG EARTH</div>
+    </div>
+    <div class="stem-cell">
+      <div class="mini-wheel gwheel" data-wheel-nodes="quiet" data-order="presence" data-scale="0.5">
+        <img src="assets/stems/ji.png" alt="JǏ seal" width="150" height="150" style="position: absolute; left: 10px; top: 5px; z-index: 2;">
+      </div>
+      <div class="glabel">JǏ</div>
+      <div class="gsub">YIN EARTH</div>
+    </div>
+    <div class="stem-cell">
+      <div class="mini-wheel gwheel" data-wheel-nodes="quiet" data-order="presence" data-scale="0.5">
+        <img src="assets/stems/geng.png" alt="GĒNG seal" width="150" height="150" style="position: absolute; left: 10px; top: 5px; z-index: 2;">
+      </div>
+      <div class="glabel">GĒNG</div>
+      <div class="gsub">YANG METAL</div>
+    </div>
+    <div class="stem-cell">
+      <div class="mini-wheel gwheel" data-wheel-nodes="quiet" data-order="presence" data-scale="0.5">
+        <img src="assets/stems/xin.png" alt="XĪN seal" width="150" height="150" style="position: absolute; left: 10px; top: 5px; z-index: 2;">
+      </div>
+      <div class="glabel">XĪN</div>
+      <div class="gsub">YIN METAL</div>
+    </div>
+    <div class="stem-cell">
+      <div class="mini-wheel gwheel" data-wheel-nodes="quiet" data-order="presence" data-scale="0.5">
+        <img src="assets/stems/ren.png" alt="RÉN seal" width="150" height="150" style="position: absolute; left: 10px; top: 5px; z-index: 2;">
+      </div>
+      <div class="glabel">RÉN</div>
+      <div class="gsub">YANG WATER</div>
+    </div>
+    <div class="stem-cell">
+      <div class="mini-wheel gwheel" data-wheel-nodes="quiet" data-order="presence" data-scale="0.5">
+        <img src="assets/stems/gui.png" alt="GUǏ seal" width="150" height="150" style="position: absolute; left: 10px; top: 5px; z-index: 2;">
+      </div>
+      <div class="glabel">GUǏ</div>
+      <div class="gsub">YIN WATER</div>
+    </div>
+  </div>
+</section>
+
+<script src="d13-v5.js"></script>
+</body>
+</html>
