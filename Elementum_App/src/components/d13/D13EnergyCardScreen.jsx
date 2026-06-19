@@ -11,6 +11,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import './d13.css';
 import D13EnergyCard from './D13EnergyCard.jsx';
 import { ENERGY_CONTENT } from './d13ReadingContent.js';
+import { resolveEnergyReading, ENERGY_ART } from './d13ReadingResolve.js';
 import { useD13 } from './useD13.js';
 import { useChart } from '../../store/chartContext.jsx';
 import { useUpgrade } from '../dashboard/UpgradeModal.jsx';
@@ -44,14 +45,22 @@ export default function D13EnergyCardScreen({ initialEl, onBack }) {
   const i = Math.min(idx, energies.length - 1);
   const energy = energies[i];
   const el = energy.el;
-  const content = ENERGY_CONTENT[el];
+  const dmEl = ((chart && chart.dayMaster && chart.dayMaster.element) || '').toLowerCase();
+  // authored dominant-ten-god reading for this energy; filler as fallback
+  const authored = resolveEnergyReading(dmEl, el);
+  const fb = ENERGY_CONTENT[el] || {};
+  const persona = authored.persona || fb.persona || '';
+  const tail = authored.tail || fb.tail || '';
+  const rText = authored.r || fb.r || '';
+  const xText = authored.x || fb.x || '';
+  const gate = (authored.gate && authored.gate.body) ? authored.gate : (fb.gate || { label: '', body: '' });
+  const art = ENERGY_ART[el] || fb.art;
   const ghost = energy.presence <= GHOST_MAX;
 
   let badges = (energy.roles || []).map((r) => ROLE_BADGE[r]).filter(Boolean);
   if (ghost && !badges.some((b) => b.t === 'scarce')) badges = [ROLE_BADGE.missing, ...badges];
   badges = badges.slice(0, 2);
 
-  const dmEl = ((chart && chart.dayMaster && chart.dayMaster.element) || '').toLowerCase();
   const verb = GEN[el] === dmEl ? 'feeds' : CTL[el] === dmEl ? 'tests' : 'meets';
   const expander = `Why ${CAP[el]} ${verb} ${CAP[dmEl] || ''} — the cycle, in your chart`;
   const xLabel = ghost ? "Borrowing what you don't own · X" : 'What to do with it · X';
@@ -71,13 +80,13 @@ export default function D13EnergyCardScreen({ initialEl, onBack }) {
       <D13EnergyCard
         el={el}
         presence={energy.presence}
-        art={content.art}
+        art={art}
         badges={badges}
-        persona={content.persona}
-        tail={content.tail}
-        r={content.r}
-        x={content.x}
-        gate={content.gate}
+        persona={persona}
+        tail={tail}
+        r={rText}
+        x={xText}
+        gate={gate}
         ghost={ghost}
         idx={i}
         total={energies.length}
@@ -85,7 +94,7 @@ export default function D13EnergyCardScreen({ initialEl, onBack }) {
         expander={expander}
         showGate={showGate}
         onBack={onBack}
-        onUnlock={() => openUpgrade(content.gate.label)}
+        onUnlock={() => openUpgrade(gate.label)}
       />
     </div>
   );
