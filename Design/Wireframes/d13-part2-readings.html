@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elementum · D13 — The Five Energies Journey · Final Wireframe v5</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&amp;family=Cormorant+Garamond:wght@400;500;600&amp;family=EB+Garamond:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;family=Noto+Serif+TC:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="d13-v5.css">
+<template id="__bundler_thumbnail">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <rect width="100" height="100" fill="#F1E9D6"></rect>
+    <circle cx="50" cy="50" r="22" fill="none" stroke="#2B2722" stroke-width="3" stroke-dasharray="118 20" stroke-linecap="round"></circle>
+    <circle cx="50" cy="50" r="7" fill="#927750"></circle>
+  </svg>
+</template>
+</head>
+<body>
+
+<!-- Set E3 element marks + product chrome icons (primitives-library sprite) -->
+<svg width="0" height="0" style="position: absolute;" aria-hidden="true"><defs>
+  <symbol id="el-metal" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12 2.35L18.15 8.05L14.35 17.15H16.45V20.85H7.55V17.15H9.65L5.85 8.05L12 2.35ZM8.25 8.75L11.1 17.15H12.9L15.75 8.75L12 5.4L8.25 8.75ZM10.3 9.15L12 14.65L13.7 9.15L12 7.55L10.3 9.15Z"></path></symbol>
+  <symbol id="el-wood" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10.95 21.15V13.75C7.55 14.15 5.15 12.05 4.35 7.05C8.15 6.75 10.55 8.35 11.85 11.35C13.2 7.25 15.9 5.15 20.05 5.75C19.85 11.3 16.55 13.95 13.05 13.55V21.15H10.95ZM7.15 8.7C7.85 11.05 9.2 12.05 11 11.65C10.15 9.85 8.95 8.85 7.15 8.7ZM17.2 7.85C15.2 8.05 13.9 9.25 13.15 11.45C15.25 11.6 16.65 10.35 17.2 7.85Z"></path></symbol>
+  <symbol id="el-fire" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12.35 2.75C15.85 6.8 18.55 10.35 18.55 14.65C18.55 18.75 15.65 21.25 12 21.25C8.3 21.25 5.45 18.7 5.45 15.05C5.45 12.25 6.9 10 9.55 7.35C9.45 10.05 10.25 12 11.65 13C11.15 9.55 11.4 6.05 12.35 2.75ZM14.95 10.65C16.25 12.45 16.8 13.95 16.8 15.45C16.8 17.85 14.95 19.35 12.1 19.35C9.65 19.35 7.45 17.75 7.45 15.15C7.45 13.75 7.95 12.65 9 11.35C9.3 13.05 10.2 14.25 11.85 15.15L13 15.8L12.75 14.5C12.35 12.45 12.55 10.45 13.2 8.05C13.85 8.95 14.45 9.85 14.95 10.65Z"></path></symbol>
+  <symbol id="el-earth" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M3.55 18.2L8.45 9.35L11.45 13.15L15.25 5.6L20.45 18.2H3.55ZM8.8 13L7 16.25H17.45L15.1 10.55L12 16.7L8.8 13Z"></path><path fill="currentColor" d="M3.1 19.5H20.9V21.15H3.1V19.5Z"></path></symbol>
+  <symbol id="el-water" viewBox="0 0 24 24"><path fill="currentColor" d="M3.65 9.2C5.65 6.95 8.45 6.65 11.05 8.4C13.15 9.8 14.65 9.85 16.25 8.3C17.25 7.35 18.75 7.15 20.35 7.9C18.95 10.65 16.35 12 13.5 11.15C12.45 10.85 11.5 10.35 10.55 9.7C8.7 8.5 6.95 8.65 5.55 10.05C4.9 10.7 4.25 10.35 3.65 9.2Z"></path><path fill="currentColor" d="M3.65 15.15C5.65 12.9 8.45 12.6 11.05 14.35C13.15 15.75 14.65 15.8 16.25 14.25C17.25 13.3 18.75 13.1 20.35 13.85C18.95 16.6 16.35 17.95 13.5 17.1C12.45 16.8 11.5 16.3 10.55 15.65C8.7 14.45 6.95 14.6 5.55 16C4.9 16.65 4.25 16.3 3.65 15.15Z"></path></symbol>
+  <symbol id="tab-today" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18"></path><path d="M8 3v4"></path><path d="M16 3v4"></path></g></symbol>
+  <symbol id="tab-guidance" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 4.8 L14.5 12 L12 19.2 L9.5 12 Z"></path><circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"></circle></g></symbol>
+  <symbol id="tab-reading" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5 C 6 4, 9 4, 12 6 C 15 4, 18 4, 21 5 V19 C 18 18, 15 18, 12 20 C 9 18, 6 18, 3 19 Z"></path><path d="M12 6 V20"></path></g></symbol>
+  <symbol id="tab-compat" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="12" r="6.5"></circle><circle cx="15.5" cy="12" r="6.5"></circle><circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"></circle></g></symbol>
+  <symbol id="tab-profile" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"></path></g></symbol>
+  <symbol id="ico-lock" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="1.5"></rect><path d="M8 11 V 8 a4 4 0 0 1 8 0 V 11"></path></g></symbol>
+  <symbol id="ico-chev-l" viewBox="0 0 24 24"><path d="M15 6 L9 12 L15 18" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+  <symbol id="ico-chev-r" viewBox="0 0 24 24"><path d="M9 6 L15 12 L9 18" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+  <symbol id="ico-arrow-r" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12 H19"></path><path d="M14 7 L19 12 L14 17"></path></g></symbol>
+</defs></svg>
+
+<header class="doc-head">
+  <div class="doc-eyebrow">Elementum · D13 · Handoff 2 of 2 · Day Master · Pillar Chart · Energy Readings · 2026-06-18</div>
+  <h1 class="doc-title">The Five Energies Journey — Part 2</h1>
+  <div class="doc-meta">
+    <b>Implementation slice 2:</b> the reading destinations — P4 Day Master card, P5 八字 Four-Pillars (Birth Chart), and exemplar energy-reading pages (P6 Earth · catalyst, P7 Fire · absent ghost). Reached from Part 1's catalogue (tap the wheel centre → Day Master → Birth Chart). Shared stylesheet <code>d13-v5.css</code> · script <code>d13-v5.js</code>.
+  </div>
+</header>
+
+<div class="rule"></div>
+
+<!-- ════════════════ THE JOURNEY ════════════════ -->
+<main class="flow">
+
+  <!-- ──────── P4 · DAY MASTER CARD ──────── -->
+  <section class="stage" data-screen-label="P4 · Day Master card">
+    <div class="stage-label">P4 · Tap center — the Day Master card</div>
+    <div class="stage-sub">The <b>reference</b>, not the ceremony: the full claim set + mechanism. Fully free — identity is the hook (§19). Claims sit in a single cardstock list, product-style.</div>
+    <div class="phone">
+      <div class="notch"></div>
+      <div class="screen">
+        <img class="ground-img" src="assets/bg/bg-reading-03-watermark-low.png" alt="" style="opacity: 1;">
+        <div class="status"><span>9:41</span><span class="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
+        <div class="screen-pad">
+          <div class="back-row"><span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-chev-l"></use></svg></span><span class="eyebrow">YOUR ENERGIES · DAY MASTER</span></div>
+          <div style="display: flex; flex-direction: column; align-items: center; margin-top: 18px;">
+            <img class="seal-img" src="assets/stems/geng.png" alt="The Blade seal" width="86" height="86" style="opacity: 0.92;">
+            <div class="arch-name" style="font-size: 30px; margin-top: 8px;">The Blade</div>
+            <div class="manifesto" style="font-size: 15.5px; margin-top: 2px;">Precision before intention</div>
+            <a class="birth-chart-btn" href="#" role="button">
+              <svg class="bc-ico" viewBox="0 0 24 24" aria-hidden="true"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round"><path d="M5 8 V17 M10 5 V17 M14 10 V17 M19 7 V17"></path></g></svg>
+              <span>Birth Chart</span>
+              <svg class="bc-arr" viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-arrow-r"></use></svg>
+            </a>
+          </div>
+          <div class="claims-card" style="margin-top: 18px;">
+            <div class="claim">You say what others soften — and pay, quietly, for being the one who did. <span class="bud">claim 1 = inscription</span></div>
+            <div class="claim">Being vague feels worse to you than being wrong. <span class="bud">10–16w</span></div>
+            <div class="claim">People come to you when they need the unsoftened truth. <span class="bud">10–16w</span></div>
+          </div>
+          <div class="layer" style="margin-top: 12px;">
+            <div class="layer-label">How your edge is built · R+E</div>
+            <p>Yang Metal tempered by spring wood — strength that grew against resistance, not in its absence. <span class="bud">≤30w</span></p>
+          </div>
+          <div class="expander"><span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-chev-r"></use></svg></span>What's a Day Master — and why the day? <span class="bud">label ≤8w</span></div>
+          <div class="codex-link">Deeper in the Codex →</div>
+          <div class="swipe-dots">center</div>
+        </div>
+        <nav class="tabbar">
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-today"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-guidance"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab active"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-reading"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-compat"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-profile"></use></svg></span><span class="seal-dot"></span></div>
+        </nav>
+      </div>
+      <div class="home-bar"></div>
+    </div>
+    <div class="annos">
+      <div class="anno"><b>Plate vs card:</b> visual ceremony (≤30 words) vs textual reference (~70 words). Claim 1 repeats the inscription deliberately — a title line, not redundancy.</div>
+      <div class="anno"><b>Birth Chart entry lives here, not on the catalogue.</b> The Day Master is read from the Day pillar, so the dark pill under the seal is the motivated route into the supplementary 八字 chart — it never competes with the Read CTAs that pull users into their energies first.</div>
+      <div class="anno">No gate anywhere on this card. Back chevron + eyebrow form the locked header pattern.</div>
+    </div>
+  </section>
+
+  <div class="flow-arrow">→</div>
+
+  <!-- ──────── P5 · PILLAR CHART ──────── -->
+  <section class="stage" data-screen-label="P5 · Pillar Chart">
+    <div class="stage-label">P5 · "Pillar Chart →" — the data page</div>
+    <div class="stage-sub">Necessary, not essential: four pillars (hero) + Patterns + the energy-map viz folded in. The old standalone screen retires.</div>
+    <div class="phone">
+      <div class="notch"></div>
+      <div class="screen">
+        <img class="ground-img" src="assets/bg/bg-reading-01-side-margins.png" alt="" style="opacity: 1;">
+        <div class="status"><span>9:41</span><span class="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
+        <div class="screen-pad">
+          <div class="back-row"><span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-chev-l"></use></svg></span><span class="eyebrow">YOUR ENERGIES · PILLAR CHART</span></div>
+          <div class="bazi-head">
+            <div class="bz-en">Four Pillars · Eight Characters</div>
+          </div>
+          <div class="bazi-chart">
+            <!-- Year 乙亥 -->
+            <div class="bz-col">
+              <div class="bz-cap">Year</div>
+              <div class="bz-char e-wood"><svg class="bz-ico" viewBox="0 0 24 24"><use href="#el-wood"></use></svg><span class="bz-glyph">乙</span></div>
+              <div class="bz-div"></div>
+              <div class="bz-char e-water"><svg class="bz-ico" viewBox="0 0 24 24"><use href="#el-water"></use></svg><span class="bz-glyph">亥</span></div>
+              <div class="bz-hidden">
+                <div class="bz-hlabel">藏干</div>
+                <div class="bz-hrow e-water"><svg class="bz-hico" viewBox="0 0 24 24"><use href="#el-water"></use></svg><span class="bz-hc">壬</span></div>
+                <div class="bz-hrow e-wood"><svg class="bz-hico" viewBox="0 0 24 24"><use href="#el-wood"></use></svg><span class="bz-hc">甲</span></div>
+              </div>
+            </div>
+            <!-- Month 庚辰 -->
+            <div class="bz-col">
+              <div class="bz-cap">Month</div>
+              <div class="bz-char e-metal"><svg class="bz-ico" viewBox="0 0 24 24"><use href="#el-metal"></use></svg><span class="bz-glyph">庚</span></div>
+              <div class="bz-div"></div>
+              <div class="bz-char e-earth"><svg class="bz-ico" viewBox="0 0 24 24"><use href="#el-earth"></use></svg><span class="bz-glyph">辰</span></div>
+              <div class="bz-hidden">
+                <div class="bz-hlabel">藏干</div>
+                <div class="bz-hrow e-earth"><svg class="bz-hico" viewBox="0 0 24 24"><use href="#el-earth"></use></svg><span class="bz-hc">戊</span></div>
+                <div class="bz-hrow e-wood"><svg class="bz-hico" viewBox="0 0 24 24"><use href="#el-wood"></use></svg><span class="bz-hc">乙</span></div>
+                <div class="bz-hrow e-water"><svg class="bz-hico" viewBox="0 0 24 24"><use href="#el-water"></use></svg><span class="bz-hc">癸</span></div>
+              </div>
+            </div>
+            <!-- Day 庚寅 · Self -->
+            <div class="bz-col self">
+              <div class="bz-cap">Day · Self</div>
+              <div class="bz-char e-metal"><svg class="bz-ico" viewBox="0 0 24 24"><use href="#el-metal"></use></svg><span class="bz-glyph">庚</span></div>
+              <div class="bz-div"></div>
+              <div class="bz-char e-wood"><svg class="bz-ico" viewBox="0 0 24 24"><use href="#el-wood"></use></svg><span class="bz-glyph">寅</span></div>
+              <div class="bz-hidden">
+                <div class="bz-hlabel">藏干</div>
+                <div class="bz-hrow e-wood"><svg class="bz-hico" viewBox="0 0 24 24"><use href="#el-wood"></use></svg><span class="bz-hc">甲</span></div>
+                <div class="bz-hrow e-fire"><svg class="bz-hico" viewBox="0 0 24 24"><use href="#el-fire"></use></svg><span class="bz-hc">丙</span></div>
+                <div class="bz-hrow e-earth"><svg class="bz-hico" viewBox="0 0 24 24"><use href="#el-earth"></use></svg><span class="bz-hc">戊</span></div>
+              </div>
+            </div>
+            <!-- Hour — unset -->
+            <div class="bz-col unset">
+              <div class="bz-cap">Hour</div>
+              <div class="bz-char"><span class="bz-glyph">？</span></div>
+              <div class="bz-div"></div>
+              <div class="bz-char"><span class="bz-glyph">？</span></div>
+              <div class="bz-hidden">
+                <div class="bz-hlabel">藏干</div>
+                <div class="bz-hmuted">—</div>
+              </div>
+            </div>
+          </div>
+          <div style="text-align: center; margin: 7px 0 12px;"><span class="wf-note">Each of the eight characters pairs with its element. The day stem is your Day Master; the Hour pillar completes once your birth time is set.</span></div>
+          <div class="layer">
+            <div class="layer-label">Patterns · where the chart argues with itself</div>
+            <p>One live pattern between your branches — Tiger and Pig combining into wood. Your drive and your depths conspire. <span class="bud">conclusion ≤25w</span></p>
+          </div>
+          <div class="layer">
+            <div class="layer-label">Energy map · the whole of you, at once</div>
+            <div class="viz-ph">[ energy-map viz folds in as a section ]</div>
+          </div>
+          <div class="hour-chip">Cast without your hour — close, not exact. <span class="go">Discover it →</span></div>
+          <div class="codex-link" style="margin-top: 10px;">What's a pillar? → Codex</div>
+          <div class="swipe-dots">data page · reached from the Day Master's Birth Chart button</div>
+        </div>
+        <nav class="tabbar">
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-today"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-guidance"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab active"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-reading"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-compat"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-profile"></use></svg></span><span class="seal-dot"></span></div>
+        </nav>
+      </div>
+      <div class="home-bar"></div>
+    </div>
+    <div class="annos">
+      <div class="anno"><b>The 八字 chart, icon-led.</b> Each of the eight characters leads with its Five-Element mark (the primary read), the original character sitting beside it. Explanatory CJK, ten-gods and glosses are stripped — only the eight characters remain.</div>
+      <div class="anno">Cells are cardstock with an element-tinted wash; the Day pillar's stem carries the reserved dm-border highlight. The Hour pillar shows the unset state until birth time is captured. Patterns lead with a conclusion, never combination-pattern vocabulary.</div>
+    </div>
+  </section>
+
+  <div class="flow-arrow">→</div>
+
+  <!-- ──────── P6 · ENERGY CARD — EARTH ──────── -->
+  <section class="stage" data-screen-label="P6 · Energy card — Earth">
+    <div class="stage-label">P6 · Energy card — Earth <span class="dim">(catalyst)</span></div>
+    <div class="stage-sub">Tap the Earth node → flip to full page; swipe ⟷ moves through all five in presence order. Scene-hero band from the thumbnail library; depth order: conclusion → R → X → gate → E.</div>
+    <div class="phone">
+      <div class="notch"></div>
+      <div class="screen">
+        <img class="ground-img" src="assets/bg/bg-energymap-02-corner-quartet.png" alt="" style="opacity: 0.92;">
+        <div class="status"><span>9:41</span><span class="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
+        <div class="screen-pad">
+          <div class="back-row"><span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-chev-l"></use></svg></span><span class="eyebrow">YOUR ENERGIES · 2 OF 5</span></div>
+          <div class="hero">
+            <img class="hart" src="assets/art/t_earth_2_w.png" alt="Earth landscape — terraced fields">
+            <div class="scrim"></div>
+            <div class="hc">
+              <div class="reye"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-earth"></use></svg>EARTH · 28% OF YOUR CHART</div>
+              <div class="htitle">Earth in you</div>
+            </div>
+          </div>
+          <div class="role-badges"><span class="rb up">↑ your catalyst</span><span class="rb">strongest ally</span><span class="bud">badge ≤3w · max 2</span></div>
+          <div class="persona-line">Earth in you is <b>The Alchemist</b> — nourishment that transmutes. It's the ground your edge is forged on. <span class="bud">≤20w</span></div>
+          <div class="layer">
+            <div class="layer-label">What it says about you · R</div>
+            <p>You steady people without meaning to. When plans wobble, yours is the version everyone quietly adopts. <span class="bud">≤30w</span></p>
+          </div>
+          <div class="layer tinted-earth">
+            <div class="layer-label">What to do with it · X</div>
+            <p>Build on it deliberately: routines, places, people that ground you sharpen you. Lean here when Fire-seasons burn. <span class="bud">≤30w</span></p>
+          </div>
+          <div class="gate-strip">
+            <span class="glock"><span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-lock"></use></svg></span></span>
+            <div>
+              <div class="layer-label">Seeker — the full Alchemist reading</div>
+              <p>Where this nourishment turns to over-protection · how it shapes your work and bonds · the season it peaks. <span class="bud">≤25w</span></p>
+              <span class="unlock">Unlock <span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span>
+            </div>
+          </div>
+          <div class="expander"><span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-chev-r"></use></svg></span>Why Earth feeds Metal — the cycle, in your chart <span class="bud">label ≤10w</span></div>
+          <div class="codex-link">Deeper in the Codex →</div>
+          <div class="swipe-dots">● ● ○ ○ ○</div>
+        </div>
+        <nav class="tabbar">
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-today"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-guidance"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab active"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-reading"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-compat"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-profile"></use></svg></span><span class="seal-dot"></span></div>
+        </nav>
+      </div>
+      <div class="home-bar"></div>
+    </div>
+    <div class="annos">
+      <div class="anno"><b>Scene-hero band</b> (t_earth_2_w, scrim + light type) makes the energy card read like every reading-detail page in the product. The face still leads with the conclusion — the hero carries data, not category prose.</div>
+      <div class="anno"><b>Gate sits inside the card, after two free layers</b> — advisor accent, lock roundel, ink pill CTA. Copy is depth-hunger, not denial. The X layer rides the tinted-earth surface.</div>
+    </div>
+  </section>
+
+  <div class="flow-arrow">→</div>
+
+  <!-- ──────── P7 · ENERGY CARD — FIRE (GHOST) ──────── -->
+  <section class="stage" data-screen-label="P7 · Energy card — Fire ghost">
+    <div class="stage-label">P7 · Energy card — Fire <span class="dim">(absent + friction)</span></div>
+    <div class="stage-sub">The ghost card: absence as the most personal reading. Same anatomy as P6, drained of pigment — the hero art itself runs cold.</div>
+    <div class="phone">
+      <div class="notch"></div>
+      <div class="screen">
+        <img class="ground-img" src="assets/bg/bg-energymap-02-corner-quartet.png" alt="" style="opacity: 0.92;">
+        <div class="status"><span>9:41</span><span class="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
+        <div class="screen-pad ghosted-card">
+          <div class="back-row"><span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-chev-l"></use></svg></span><span class="eyebrow">YOUR ENERGIES · 5 OF 5</span></div>
+          <div class="hero ghost">
+            <img class="hart" src="assets/art/t_fire_1_w.png" alt="Fire landscape — desaturated">
+            <div class="scrim"></div>
+            <div class="hc">
+              <div class="reye"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-fire"></use></svg>FIRE · 0% OF YOUR CHART</div>
+              <div class="htitle">Fire in you</div>
+            </div>
+          </div>
+          <div class="role-badges"><span class="rb">scarce</span><span class="rb down">↓ your friction</span></div>
+          <div class="persona-line">Fire in you is <b>The General</b> — pressure that doesn't grant permission. You don't carry it; you meet it. <span class="bud">≤20w</span></div>
+          <div class="layer">
+            <div class="layer-label">What it says about you · R</div>
+            <p>Urgency is never your idea — it arrives from outside, and it costs you more than it costs others. <span class="bud">≤30w</span></p>
+          </div>
+          <div class="layer">
+            <div class="layer-label">Borrowing what you don't own · X</div>
+            <p>You can't store Fire, but you can visit it: deadlines chosen on purpose, heat in small doses, one bold hour — not a bold life. <span class="bud">≤30w</span></p>
+          </div>
+          <div class="gate-strip">
+            <span class="glock"><span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-lock"></use></svg></span></span>
+            <div>
+              <div class="layer-label">Seeker — the cultivation practice</div>
+              <p>The season-by-season practice for a chart that runs cold — when to borrow heat, when to let it pass. <span class="bud">≤25w</span></p>
+              <span class="unlock">Unlock <span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"></use></svg></span></span>
+            </div>
+          </div>
+          <div class="expander"><span class="uico"><svg viewBox="0 0 24 24"><use href="#ico-chev-r"></use></svg></span>Why Fire tests Metal — the cycle, in your chart</div>
+          <div class="codex-link">Deeper in the Codex →</div>
+          <div class="swipe-dots">● ● ● ● ●</div>
+        </div>
+        <nav class="tabbar">
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-today"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-guidance"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab active"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-reading"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-compat"></use></svg></span><span class="seal-dot"></span></div>
+          <div class="tab"><span class="tico"><svg viewBox="0 0 24 24"><use href="#tab-profile"></use></svg></span><span class="seal-dot"></span></div>
+        </nav>
+      </div>
+      <div class="home-bar"></div>
+    </div>
+    <div class="annos">
+      <div class="anno"><b>Visual register performs scarcity:</b> the hero art runs at grayscale 0.85, the layers go dashed, the mark rides ghost gray. Identical layer order to P6 — the gate never moves to the face.</div>
+    </div>
+  </section>
+
+</main>
+
+<script src="d13-v5.js"></script>
+
+
+</body></html>
