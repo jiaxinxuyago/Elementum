@@ -26,6 +26,7 @@ export default function DominanceWheel({
   onSelect,
   bloom = null,        // optional per-node [opacity,…] for the staged bloom
   className = 'wheel',
+  style,               // optional size override (e.g. the 0.92 catalogue wheel)
   centerName,          // optional label under the seal (hidden by default in CSS)
 }) {
   const geom = useMemo(() => ({ cx: GEOM.cx * scale, cy: GEOM.cy * scale, r: GEOM.r * scale }), [scale]);
@@ -46,6 +47,7 @@ export default function DominanceWheel({
   return (
     <div
       className={className}
+      style={style}
       {...(interactive ? { 'data-interactive': '' } : {})}
     >
       {/* the brush enso ring is the stem seal art, scaled to encircle the nodes */}

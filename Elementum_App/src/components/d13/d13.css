@@ -125,3 +125,82 @@
 .d13 .hour-chip .go { color: var(--bronzeDark); }
 .d13 .shelf-hint { display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 9px; font-size: 11px; color: var(--inkLight); }
 .d13 .shelf-hint .uico { width: 13px; height: 13px; color: var(--bronzeDark); }
+
+/* ───────── element-color spine classes ───────── */
+.d13 .dk-metal { color: var(--metalDeep); --npig: var(--metal); }
+.d13 .dk-earth { color: var(--earthDeep); --npig: var(--earth); }
+.d13 .dk-water { color: var(--waterDeep); --npig: var(--water); }
+.d13 .dk-wood  { color: var(--woodDeep);  --npig: var(--wood); }
+.d13 .dk-fire  { color: var(--fireDeep);  --npig: var(--fire); }
+.d13 .ghosted  { color: var(--ghost); --npig: var(--ghost); }
+
+/* ───────── tile calibration: corner role glyphs + 100% context bar ───────── */
+.d13 .sp-corner { position: absolute; top: 10px; right: 10px; z-index: 4; display: flex; flex-direction: column; gap: 5px; align-items: center; }
+.d13 .sp-rg { width: 26px; height: 26px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: rgba(248,244,236,0.94); border: 1.5px solid; box-shadow: 0 1px 3px rgba(43,39,34,0.12); }
+.d13 .sp-rg svg { width: 13px; height: 13px; }
+.d13 .sp-rg.k-core { border-color: var(--dmBorder); color: var(--ink); }
+.d13 .sp-rg.k-cat  { border-color: var(--up); color: var(--up); }
+.d13 .sp-rg.k-res  { border-color: var(--down); color: var(--down); }
+.d13 .sp-rg.k-miss { border-color: var(--inkMist); color: var(--inkLight); border-style: dashed; }
+.d13 .sp-rg.k-ally { border-color: var(--ally); color: var(--ally); }
+.d13 .sp-rg.major  { box-shadow: 0 0 0 3px color-mix(in srgb, var(--up) 22%, transparent), 0 1px 3px rgba(43,39,34,0.12); }
+.d13 .sp-stack { display: flex; flex-direction: column; gap: 3px; margin: 1px 0 2px; }
+.d13 .sp-track { display: flex; height: 7px; border-radius: 4px; overflow: hidden; border: 1px solid rgba(43,39,34,0.12); background: rgba(248,244,236,0.7); }
+.d13 .sp-track i { height: 100%; }
+.d13 .sp-track i.cur { box-shadow: inset 0 0 0 1.5px rgba(255,255,255,0.7); }
+.d13 .sp-track i.gh { background: repeating-linear-gradient(45deg, rgba(184,176,162,0.6) 0 3px, transparent 3px 6px) !important; min-width: 5px; }
+.d13 .sp-roles { display: flex; flex-wrap: wrap; align-items: center; gap: 3px 6px; font-family: 'JetBrains Mono', Consolas, monospace; font-size: 8px; font-weight: 600; letter-spacing: 0.6px; text-transform: uppercase; }
+.d13 .sp-roles .rl { display: inline-flex; align-items: center; gap: 3px; }
+.d13 .sp-roles .rl svg { width: 9px; height: 9px; }
+.d13 .sp-roles .rl-core { color: var(--ink); }
+.d13 .sp-roles .rl-cat  { color: var(--up); }
+.d13 .sp-roles .rl-res  { color: var(--down); }
+.d13 .sp-roles .rl-miss { color: var(--inkLight); }
+.d13 .sp-roles .rl-ally { color: var(--ally); }
+.d13 .sp-roles .rl-sep  { color: var(--inkMist); font-weight: 400; }
+
+/* ───────── accordion shelf — five latched spines ───────── */
+.d13 .shelf { display: flex; gap: 5px; height: 222px; margin-top: 6px; }
+.d13 .spine {
+  position: relative; flex-grow: 0; flex-shrink: 0; flex-basis: 32px; min-width: 0; overflow: hidden; cursor: pointer;
+  border: 1px solid var(--borderStd); border-radius: 14px; background: var(--silk);
+  box-shadow: var(--shadow-tile); padding: 0; font-family: inherit; color: inherit;
+  text-align: left; display: block; -webkit-tap-highlight-color: transparent;
+  transition: box-shadow 220ms, border-color 220ms, flex-grow 280ms var(--ease-out), flex-basis 280ms var(--ease-out);
+}
+.d13 .spine.open { flex-grow: 1; flex-basis: 0; }
+.d13 .spine:focus-visible { outline: 2px solid var(--bronzeDark); outline-offset: 2px; }
+.d13 .spine::before { content: ''; position: absolute; inset: 0; z-index: 1; pointer-events: none; opacity: 0.5; mix-blend-mode: multiply; background-image: radial-gradient(circle at 22% 15%, rgba(255,255,255,0.5) 0%, transparent 42%), radial-gradient(circle at 84% 90%, rgba(43,39,34,0.07) 0%, transparent 55%); }
+.d13 .spine .sp-fill { position: absolute; left: 0; right: 0; bottom: 0; z-index: 0; transition: opacity 240ms var(--ease-out); background: radial-gradient(130% 22px at 50% 0, color-mix(in srgb, var(--npig) 30%, transparent), transparent 72%), linear-gradient(to top, color-mix(in srgb, var(--npig) 24%, transparent), color-mix(in srgb, var(--npig) 8%, transparent)); }
+.d13 .spine.open .sp-fill { opacity: 0; }
+.d13 .spine .sp-cap { position: absolute; top: 0; left: 0; right: 0; height: 3px; background: color-mix(in srgb, var(--npig) 55%, transparent); z-index: 4; }
+.d13 .spine .sp-notch { position: absolute; top: -1px; left: 50%; transform: translateX(-50%); z-index: 5; width: 0; height: 0; border-left: 6px solid transparent; border-right: 6px solid transparent; border-top: 6px solid color-mix(in srgb, var(--npig) 58%, transparent); opacity: 0; transition: opacity 200ms; }
+.d13 .sp-col { position: absolute; inset: 0; z-index: 2; display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding: 13px 0 12px; gap: 6px; }
+.d13 .sp-rank { display: none; }
+.d13 .sp-col .sp-mk { width: 26px; height: 26px; flex: 0 0 26px; background: none; border: none; box-shadow: none; display: flex; align-items: center; justify-content: center; }
+.d13 .sp-col .sp-mk .elmark { width: 18px; height: 18px; fill: var(--npig); }
+.d13 .sp-col .sp-pc { font-family: 'JetBrains Mono', Consolas, monospace; font-size: 9px; font-weight: 500; writing-mode: vertical-rl; letter-spacing: 1px; }
+.d13 .sp-open { position: absolute; inset: 0; z-index: 3; opacity: 0; pointer-events: none; transition: opacity 240ms var(--ease-out); }
+.d13 .sp-open .sp-art { position: absolute; inset: 0; z-index: 0; }
+.d13 .sp-open .sp-art img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 100%; display: block; }
+.d13 .sp-open .sp-art .bfade { position: absolute; inset: 0; background: linear-gradient(to bottom, var(--silk) 0%, var(--silk) 50%, rgba(241,233,214,0.62) 70%, rgba(241,233,214,0.12) 90%, transparent 100%); }
+.d13 .sp-open .sp-txt { position: relative; z-index: 2; padding: 13px 14px 0; display: flex; flex-direction: column; gap: 6px; }
+.d13 .sp-open .sp-head { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+.d13 .sp-open .sp-seal { width: 44px; height: 44px; flex: 0 0 44px; border-radius: 12px; background: rgba(248,244,236,0.9); border: 1px solid color-mix(in srgb, var(--npig) 38%, transparent); display: flex; align-items: center; justify-content: center; box-shadow: 0 1px 3px rgba(43,39,34,0.08); }
+.d13 .sp-open .sp-seal .elmark { width: 24px; height: 24px; fill: var(--npig); filter: none; }
+.d13 .sp-seal.n-metal { --npig: var(--metalDeep); }
+.d13 .sp-seal.n-earth { --npig: var(--earthDeep); }
+.d13 .sp-seal.n-water { --npig: var(--waterDeep); }
+.d13 .sp-seal.n-wood  { --npig: var(--woodDeep); }
+.d13 .sp-seal.n-fire  { --npig: var(--ghost); }
+.d13 .sp-open .sp-ey { font-family: 'JetBrains Mono', Consolas, monospace; font-size: 8px; letter-spacing: 1.2px; line-height: 1.35; text-transform: uppercase; color: var(--inkSoft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.d13 .sp-open .sp-hook { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 17px; line-height: 1.18; color: var(--ink); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.d13 .sp-open .sp-pol { font-size: 10.5px; color: var(--inkLight); line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+.d13 .sp-open .sp-read { position: absolute; right: 10px; bottom: 10px; z-index: 4; display: inline-flex; align-items: center; gap: 5px; font-family: 'EB Garamond', serif; font-size: 10.5px; font-weight: 600; letter-spacing: 1.2px; text-transform: uppercase; color: var(--silk); background: var(--ink); border-radius: 999px; padding: 5px 12px; box-shadow: 0 4px 12px rgba(40,30,20,0.28); cursor: pointer; }
+.d13 .sp-open .sp-read .uico { width: 11px; height: 11px; }
+.d13 .spine.open { box-shadow: 0 12px 28px rgba(60,46,28,0.18); border-color: color-mix(in srgb, var(--npig) 48%, var(--borderStd)); }
+.d13 .spine.open .sp-col { opacity: 0; pointer-events: none; }
+.d13 .spine.open .sp-open { opacity: 1; pointer-events: auto; }
+.d13 .spine.open .sp-notch { opacity: 1; }
+.d13 .spine.ghosted { --npig: var(--fire); }
+.d13 .spine.ghosted .sp-art img { filter: grayscale(0.85); opacity: 0.6; }
