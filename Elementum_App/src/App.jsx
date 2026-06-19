@@ -67,6 +67,7 @@ const D13RevealScreen = lazy(() => import('./components/d13/D13RevealScreen.jsx'
 const D13ReadingScreen = lazy(() => import('./components/d13/D13ReadingScreen.jsx'));
 const D13DayMasterScreen = lazy(() => import('./components/d13/D13DayMasterScreen.jsx'));
 const D13PillarChartScreen = lazy(() => import('./components/d13/D13PillarChartScreen.jsx'));
+const D13EnergyCardScreen = lazy(() => import('./components/d13/D13EnergyCardScreen.jsx'));
 
 // Lazy-load placeholder — a silk page while a screen's chunk arrives (usually
 // imperceptible; chunks are cached after first visit).
@@ -254,6 +255,9 @@ export default function App() {
   // 'profile') to the corresponding FLOW screen ('app-*'). Used as the
   // `onTabChange` callback by every DashboardShell render.
   const routeTab = (tabKey) => setScreen(`app-${tabKey}`);
+  // Which energy the reading card opens on (set when a node/tile is tapped).
+  const [energyEl, setEnergyEl] = useState(null);
+  const openEnergy = (el) => { setEnergyEl(el); setScreen('app-energy'); };
 
   // Back handler: previous in the linear sequence, respecting conditionals
   // (so that a user on step5 who came through step4a returns to step4a).
@@ -440,7 +444,7 @@ export default function App() {
     case 'app-reading':
       // D13: the at-rest energy catalogue. Tapping the wheel-centre seal
       // descends into the Day Master card (P4).
-      rendered = <D13ReadingScreen onTab={routeTab} onDayMaster={goto('app-daymaster')} />;
+      rendered = <D13ReadingScreen onTab={routeTab} onDayMaster={goto('app-daymaster')} onOpenEnergy={openEnergy} />;
       break;
     case 'app-daymaster':
       // D13 P4 — the Day Master reference card; "Birth Chart" → P5.
@@ -449,6 +453,10 @@ export default function App() {
     case 'app-pillars':
       // D13 P5 — the 八字 Four-Pillars data page; "Discover it" → hour flow.
       rendered = <D13PillarChartScreen onBack={goto('app-daymaster')} onDiscoverHour={goto('chart-resonance')} />;
+      break;
+    case 'app-energy':
+      // D13 P6/P7 — the energy reading card; swipe ⟷ through all five.
+      rendered = <D13EnergyCardScreen initialEl={energyEl} onBack={goto('app-reading')} />;
       break;
     case 'app-compat':
       rendered = (

@@ -24,6 +24,7 @@ export default function D13Sprite() {
       <symbol id="ico-chev-l" viewBox="0 0 24 24"><path d="M15 6 L9 12 L15 18" stroke="currentColor" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round"></path></symbol>
       <symbol id="ico-chev-r" viewBox="0 0 24 24"><path d="M9 6 L15 12 L9 18" stroke="currentColor" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round"></path></symbol>
       <symbol id="ico-arrow-r" viewBox="0 0 24 24"><g stroke="currentColor" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12 H19"></path><path d="M14 7 L19 12 L14 17"></path></g></symbol>
+      <symbol id="ico-lock" viewBox="0 0 24 24"><g stroke="currentColor" strokeWidth="1.6" fill="none" strokeLinejoin="round"><rect x="5" y="11" width="14" height="9" rx="1.5"></rect><path d="M8 11 V 8 a4 4 0 0 1 8 0 V 11"></path></g></symbol>
       <symbol id="ar-up" viewBox="0 0 24 24"><g stroke="currentColor" strokeWidth="2.4" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M12 19V6"></path><path d="M6 11l6-6 6 6"></path></g></symbol>
       <symbol id="ar-down" viewBox="0 0 24 24"><g stroke="currentColor" strokeWidth="2.4" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M12 5v13"></path><path d="M6 13l6 6 6-6"></path></g></symbol>
     </defs></svg>

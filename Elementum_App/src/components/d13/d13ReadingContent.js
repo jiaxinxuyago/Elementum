@@ -84,6 +84,55 @@ export const DM_READING = {
   },
 };
 
+// ── P6/P7 · energy reading cards ──────────────────────────────────
+// Keyed by element (the card reads "{Element} in you …"). persona + tail
+// build the persona line; r = "what it says about you · R", x = "what to
+// do / borrow · X", gate = the locked Seeker layer. Earth + Fire match the
+// design exemplars; metal/wood/water are templated filler. Hero art is the
+// thumbnail-library wash variant.
+export const ENERGY_CONTENT = {
+  earth: {
+    persona: 'The Alchemist',
+    tail: "nourishment that transmutes. It's the ground your edge is forged on.",
+    r: 'You steady people without meaning to. When plans wobble, yours is the version everyone quietly adopts.',
+    x: 'Build on it deliberately: routines, places, people that ground you sharpen you. Lean here when Fire-seasons burn.',
+    gate: { label: 'Seeker — the full Alchemist reading', body: 'Where this nourishment turns to over-protection · how it shapes your work and bonds · the season it peaks.' },
+    art: '/concept-arts/library/t_earth_2_w.png',
+  },
+  fire: {
+    persona: 'The General',
+    tail: "pressure that doesn't grant permission. You don't carry it; you meet it.",
+    r: 'Urgency is never your idea — it arrives from outside, and it costs you more than it costs others.',
+    x: "You can't store Fire, but you can visit it: deadlines chosen on purpose, heat in small doses, one bold hour — not a bold life.",
+    gate: { label: 'Seeker — the cultivation practice', body: 'The season-by-season practice for a chart that runs cold — when to borrow heat, when to let it pass.' },
+    art: '/concept-arts/library/t_fire_1_w.png',
+  },
+  metal: {
+    persona: 'The Arbiter',
+    tail: 'judgment that cuts clean. It is the edge the rest of you is organized around.',
+    r: 'You name the thing others circle. People trust your read because you do not soften it to be liked.',
+    x: 'Spend it where a clear line helps and hold it where warmth matters more — precision lands best when chosen, not constant.',
+    gate: { label: 'Seeker — the full Arbiter reading', body: 'Where clarity turns to coldness · how it shapes your work and bonds · the season it sharpens.' },
+    art: '/concept-arts/library/t_metal_1_w.png',
+  },
+  wood: {
+    persona: 'The Cultivator',
+    tail: 'growth that reaches. It is how you turn pressure into a direction.',
+    r: 'You build toward something even at rest. Given a constraint, you find the one way through and grow along it.',
+    x: 'Point it at a long arc, not a quick win — your strength compounds when it is planted, not when it is spent.',
+    gate: { label: 'Seeker — the full Cultivator reading', body: 'Where ambition turns to overreach · how it shapes your work and bonds · the season it flowers.' },
+    art: '/concept-arts/library/t_wood_1_w.png',
+  },
+  water: {
+    persona: 'The Strategist',
+    tail: 'depth that moves unseen. It is the patience underneath your decisiveness.',
+    r: 'You read the current before the wave. You reach what you want around obstacles, not through them.',
+    x: 'Trust the slow route when the fast one is loud — your advantage is seeing two moves ahead, not moving first.',
+    gate: { label: 'Seeker — the full Strategist reading', body: 'Where depth turns to withholding · how it shapes your work and bonds · the season it runs deep.' },
+    art: '/concept-arts/library/t_water_1_w.png',
+  },
+};
+
 // generic fallback (should not normally trigger — all 10 stems are covered)
 export const DM_READING_FALLBACK = {
   claims: [
