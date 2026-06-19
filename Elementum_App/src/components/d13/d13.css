@@ -1,0 +1,128 @@
+/* ═══════════════════════════════════════════════════════════════
+   ELEMENTUM · D13 — product styles (ported verbatim from d13-v5.css)
+   Tokens scoped to .d13 so they never leak into the app globals; the
+   document-chrome rules (body/.doc-*/.flow/.stage/legends) are dropped
+   — only the product surfaces are here. Asset url()s point at the app
+   public folder. No italics, no CJK (D13 Part-1 rule).
+   ═══════════════════════════════════════════════════════════════ */
+
+.d13 {
+  --cream: #F8F6F0; --silk: #F1E9D6; --silkDeep: #ECE2C9; --silkFold: #DDD1B3;
+  --paperHair: #CDBE9E;
+  --ink: #2B2722; --inkSoft: #4A433B; --inkLight: #857D72; --inkMist: #B8AFA1;
+  --bronze: #8b7355; --bronzeDark: #6B5339; --walnut: #5a4430; --gold: #D4AF37;
+  --borderStd: #D5CDBD; --borderLight: #E5DFD1; --dmBorder: #584A3E;
+  --metal: #8BA3B8; --metalDeep: #6A849A;
+  --wood:  #7A9E6E; --woodDeep:  #587A4D;
+  --fire:  #C4745A; --fireDeep:  #9E5540;
+  --earth: #B89A6A; --earthDeep: #927750;
+  --water: #5A7FA8; --waterDeep: #3E5F85;
+  --ghost: #B8B0A2;
+  --seal-red: #A04030; --advisor: #7a5e9a;
+  --up: #4a7a52; --down: #a85c48; --bud: #4A7090; --ally: #4A7090;
+  --quiet-bg: #EBE5D6; --quiet-border: #DCD3C0;
+  --cardstock: rgba(248, 241, 225, 0.92);
+  --tabbar-bg: rgba(253, 253, 252, 0.85);
+  --frame: #FBF7EC;
+  --shadow-card: 0 1px 0 rgba(43, 39, 34, 0.04);
+  --shadow-tile: 0 1px 0 rgba(43, 39, 34, 0.04), 0 8px 18px rgba(60, 46, 28, 0.07);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  font-family: 'EB Garamond', Georgia, serif; color: var(--ink);
+}
+.d13 *, .d13 *::before, .d13 *::after { box-sizing: border-box; }
+
+/* ───────── element marks + icons ───────── */
+.d13 .elmark { display: inline-block; fill: currentColor; flex-shrink: 0; }
+.d13 .uico { display: inline-block; width: 16px; height: 16px; flex-shrink: 0; }
+.d13 .uico svg { width: 100%; height: 100%; display: block; }
+
+/* ───────── the phone ───────── */
+.d13 .phone {
+  width: 390px; height: 844px; border-radius: 47px; position: relative; overflow: hidden;
+  background: var(--frame);
+  box-shadow:
+    0 30px 60px rgba(40, 30, 20, 0.18),
+    0 8px 18px rgba(40, 30, 20, 0.10),
+    inset 0 0 0 8px var(--ink),
+    inset 0 0 0 9px rgba(80, 72, 60, 0.4);
+}
+.d13 .notch { position: absolute; top: 16px; left: 50%; transform: translateX(-50%); width: 110px; height: 26px; border-radius: 999px; background: var(--ink); z-index: 60; }
+.d13 .home-bar { position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%); width: 120px; height: 4px; border-radius: 999px; background: rgba(43,39,34,0.35); z-index: 60; }
+.d13 .screen { position: absolute; inset: 8px; border-radius: 40px; overflow: hidden; display: flex; flex-direction: column; }
+.d13 .ground-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.d13 .bg-reveal-top, .d13 .bg-reveal-bot { position: absolute; left: 0; width: 100%; z-index: 1; pointer-events: none; }
+.d13 .bg-reveal-top { top: 0; height: 50%; object-fit: cover; object-position: center top; opacity: 1; -webkit-mask-image: linear-gradient(to bottom, #000 56%, transparent 100%); mask-image: linear-gradient(to bottom, #000 56%, transparent 100%); }
+.d13 .bg-reveal-bot { top: 50%; height: 50%; object-fit: cover; object-position: center bottom; mix-blend-mode: multiply; opacity: 0.72; -webkit-mask-image: linear-gradient(to top, #000 60%, transparent 100%); mask-image: linear-gradient(to top, #000 60%, transparent 100%); }
+.d13 .bg-reveal-fog {
+  position: absolute; left: -8%; right: -8%; top: 24%; height: 52%; z-index: 2; pointer-events: none;
+  background: linear-gradient(to bottom, rgba(243,236,221,0) 0%, rgba(243,236,221,0.14) 34%, rgba(244,238,224,0.32) 50%, rgba(243,236,221,0.14) 66%, rgba(243,236,221,0) 100%);
+  filter: blur(20px);
+}
+.d13 .bg-energy { opacity: 0.82; }
+.d13 .pagetint { position: absolute; inset: 0; pointer-events: none; }
+
+/* status + tab bar — locked product chrome */
+.d13 .status { height: 52px; flex-shrink: 0; display: flex; align-items: flex-end; justify-content: space-between; padding: 0 30px 4px; font-family: 'EB Garamond', serif; font-size: 13px; font-weight: 600; color: var(--ink); position: relative; z-index: 50; }
+.d13 .status .dots { font-size: 11px; letter-spacing: 1px; color: var(--inkSoft); white-space: nowrap; }
+.d13 .tabbar { position: absolute; bottom: 0; left: 0; right: 0; height: 76px; background: var(--tabbar-bg); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-top: 1px solid var(--borderLight); display: flex; justify-content: space-around; align-items: center; padding: 8px 14px 20px; z-index: 30; }
+.d13 .tabbar .tab { width: 60px; display: flex; flex-direction: column; align-items: center; background: none; border: none; cursor: pointer; }
+.d13 .tabbar .tab .tico { width: 24px; height: 24px; color: var(--inkLight); }
+.d13 .tabbar .tab .tico svg { width: 100%; height: 100%; display: block; }
+.d13 .tabbar .tab.active .tico { color: var(--ink); }
+.d13 .tabbar .tab .seal-dot { width: 4px; height: 4px; border-radius: 999px; background: transparent; margin-top: 6px; }
+.d13 .tabbar .tab.active .seal-dot { background: var(--seal-red); }
+
+.d13 .screen-pad { padding: 6px 22px 84px; display: flex; flex-direction: column; flex: 1; min-height: 0; position: relative; z-index: 5; }
+.d13 .screen-pad > * { flex-shrink: 0; }
+
+.d13 .eyebrow { font-family: 'EB Garamond', serif; font-size: 10px; font-weight: 500; letter-spacing: 2.5px; text-transform: uppercase; color: var(--inkLight); display: block; }
+.d13 .eyebrow-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.d13 .pinyin { font-family: Cinzel, serif; font-size: 11px; letter-spacing: 3px; color: var(--metalDeep); text-transform: uppercase; }
+
+/* ───────── P1 · the identity plate ───────── */
+.d13 .plate-blank { position: absolute; inset: 0; background: linear-gradient(180deg, #F5EEDE 0%, #F1E9D6 52%, #ECE2C9 100%); }
+.d13 .plate-col { position: relative; z-index: 10; flex: 1; display: flex; flex-direction: column; align-items: center; padding: 20px 24px 0; }
+.d13 .seal-img { display: block; }
+.d13 .seal-stamp { position: relative; }
+.d13 .seal-stamp::before { content: ''; position: absolute; inset: -14px; border-radius: 50%; background: radial-gradient(circle, rgba(241,233,214,0.85) 30%, rgba(241,233,214,0.45) 60%, transparent 75%); }
+.d13 .seal-stamp .seal-img { position: relative; filter: drop-shadow(0 2px 6px rgba(43,39,34,0.22)); }
+.d13 .arch-name { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; text-align: center; color: var(--ink); }
+.d13 .manifesto { text-align: center; color: var(--inkSoft); }
+.d13 .inscription { margin-top: 26px; padding: 16px 18px; text-align: center; border-top: 1px solid var(--paperHair); border-bottom: 1px solid var(--paperHair); background: linear-gradient(90deg, rgba(253,250,242,0), rgba(253,250,242,0.78) 14% 86%, rgba(253,250,242,0)); }
+.d13 .inscription .en { font-size: 15px; line-height: 1.6; color: var(--inkSoft); max-width: 280px; margin: 0 auto; }
+.d13 .foundry { text-align: center; }
+.d13 .foundry .cast { font-family: Cinzel, serif; font-size: 10.5px; letter-spacing: 2px; color: var(--inkSoft); }
+.d13 .foundry .mark-line { font-family: Cinzel, serif; font-size: 8.5px; letter-spacing: 3.5px; color: var(--inkLight); margin-top: 5px; }
+.d13 .ring-peek { margin-top: 16px; height: 30px; overflow: hidden; width: 200px; position: relative; }
+.d13 .ring-peek::before { content: ''; position: absolute; top: 6px; left: 0; width: 200px; height: 200px; border: 1.5px dashed var(--bronze); border-radius: 50%; opacity: 0.65; }
+
+/* ───────── the wheel · ink-wash register ───────── */
+.d13 .wheel { position: relative; width: 340px; height: 312px; margin: 0 auto; }
+.d13 .mini-wheel { position: relative; width: 240px; height: 222px; margin: 26px auto 8px; }
+.d13 .node {
+  position: absolute; border-radius: 50%;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  line-height: 1.12; text-align: center; gap: 2px; z-index: 3;
+  transition: transform 140ms var(--ease-out);
+}
+.d13 [data-interactive] .node { cursor: pointer; }
+.d13 [data-interactive] .node:hover { transform: scale(1.05); }
+.d13 .node.sel { transform: scale(1.09); z-index: 4; filter: drop-shadow(0 5px 12px color-mix(in srgb, var(--npig) 42%, transparent)); }
+.d13 .node::before { content: ''; position: absolute; inset: -22%; background: var(--plate) center / contain no-repeat; }
+.d13 .node > * { position: relative; }
+.d13 .node .elmark { fill: var(--ink); }
+.d13 .node .pc { font-family: 'JetBrains Mono', Consolas, monospace; font-weight: 700; color: var(--ink); text-shadow: 0 1px 2px rgba(248,246,240,0.7); }
+.d13 .node.n-metal { color: var(--ink); --npig: var(--metal); --plate: url('/concept-arts/dots/dotf-metal.png'); }
+.d13 .node.n-earth { color: var(--ink); --npig: var(--earth); --plate: url('/concept-arts/dots/dotf-earth.png'); }
+.d13 .node.n-water { color: var(--ink); --npig: var(--water); --plate: url('/concept-arts/dots/dotf-water.png'); }
+.d13 .node.n-wood  { color: var(--ink); --npig: var(--wood);  --plate: url('/concept-arts/dots/dotf-wood.png'); }
+.d13 .node.n-fire  { color: var(--ink); --npig: var(--fire);  --plate: url('/concept-arts/dots/dotf-fire.png'); }
+.d13 .center-seal { position: absolute; z-index: 2; display: flex; align-items: center; justify-content: center; background: none; pointer-events: none; }
+.d13 .center-seal img { display: block; }
+
+/* prescription ribbon + hour chip */
+.d13 .rx-ribbon { text-align: center; font-size: 14px; color: var(--inkSoft); line-height: 1.5; border-top: 1px solid var(--borderStd); border-bottom: 1px solid var(--borderStd); padding: 7px 6px; margin: 14px 4px 0; }
+.d13 .hour-chip { margin: 10px 8px 0; border: 1px dashed var(--quiet-border); border-radius: 12px; padding: 5px 12px; font-size: 11.5px; color: var(--inkSoft); text-align: center; line-height: 1.5; background: var(--quiet-bg); }
+.d13 .hour-chip .go { color: var(--bronzeDark); }
+.d13 .shelf-hint { display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 9px; font-size: 11px; color: var(--inkLight); }
+.d13 .shelf-hint .uico { width: 13px; height: 13px; color: var(--bronzeDark); }

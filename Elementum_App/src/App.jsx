@@ -59,6 +59,7 @@ const ChartPatternsDetail = lazy(() => import('./components/dashboard/reading-de
 const SeasonalCalibrationDetail = lazy(() => import('./components/dashboard/reading-detail/SeasonalCalibrationDetail.jsx'));
 const LockedDetail = lazy(() => import('./components/dashboard/reading-detail/LockedDetail.jsx'));
 const DevBar = lazy(() => import('./components/dev/DevBar.jsx'));
+const D13WheelPreview = lazy(() => import('./components/d13/D13WheelPreview.jsx'));
 
 // Lazy-load placeholder — a silk page while a screen's chunk arrives (usually
 // imperceptible; chunks are cached after first visit).
@@ -177,6 +178,7 @@ const FLOW = [
   'chart-reveal',    // Birth Chart Raw Data — four-pillar grid
   'chart-resonance', // Chart Resonance — hour-discovery flow (§11/§22)
   'read-locked',     // generic locked-card for not-yet-built sections
+  'd13preview',      // dev-only D13 component render harness (#/d13preview)
 ];
 
 // Read the initial screen from URL hash so refresh/deep-links land correctly.
@@ -248,6 +250,11 @@ export default function App() {
       }
     });
   };
+
+  // Dev-only D13 component harness — renders isolated (no phone-frame wrapper).
+  if (screen === 'd13preview') {
+    return <Suspense fallback={null}><D13WheelPreview /></Suspense>;
+  }
 
   let rendered = null;
   switch (screen) {
