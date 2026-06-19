@@ -202,6 +202,8 @@ const DASHBOARD_TAB = {
   'app-guidance': 'guidance', 'app-codex': 'guidance', 'app-draw': 'guidance', 'app-manual': 'guidance',
   'app-selfreport': 'guidance', 'app-consultant': 'guidance',
   'app-reading': 'reading', 'app-daymaster': 'reading', 'app-pillars': 'reading', 'app-energy': 'reading',
+  // retired routes aliased to the D13 screens above
+  'read-daymaster': 'reading', 'chart-reveal': 'reading', 'app-energymap': 'reading',
   'app-compat': 'compat',
   'app-profile': 'profile',
 };
@@ -481,13 +483,16 @@ export default function App() {
     // (carried forward by §AM.1 as authoritative).
     // ────────────────────────────────────────────────────────────────
     case 'app-energymap':
-      rendered = <EnergyMapScreen onBack={goto('app-reading')} />;
+      // Retired standalone Energy Map — the energy overview is the catalogue
+      // (and folds into P5). Alias to the D13 catalogue.
+      rendered = <D13ReadingScreen onTab={routeTab} onDayMaster={goto('app-daymaster')} onOpenEnergy={openEnergy} />;
       break;
     case 'read-elemental':
       rendered = <ElementalNatureDetail onBack={goto('app-reading')} />;
       break;
     case 'read-daymaster':
-      rendered = <DayMasterDetail onBack={goto('app-reading')} />;
+      // Retired DayMasterDetail — aliased to the D13 Day Master card (P4).
+      rendered = <D13DayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} />;
       break;
     case 'read-tengods':
       rendered = <TenGodsDetail onBack={goto('app-reading')} />;
@@ -505,10 +510,12 @@ export default function App() {
       rendered = <SeasonalCalibrationDetail onBack={goto('app-reading')} />;
       break;
     case 'chart-reveal':
-      rendered = <RawChartPage onBack={goto('read-daymaster')} />;
+      // Retired RawChartPage — aliased to the D13 八字 Pillar Chart (P5).
+      rendered = <D13PillarChartScreen onBack={goto('app-daymaster')} onDiscoverHour={goto('chart-resonance')} />;
       break;
     case 'chart-resonance':
-      rendered = <ChartResonanceScreen onBack={goto('app-profile')} onDone={goto('chart-reveal')} />;
+      // After recovering the hour, land on the D13 Pillar Chart (not the old raw chart).
+      rendered = <ChartResonanceScreen onBack={goto('app-profile')} onDone={goto('app-pillars')} />;
       break;
     case 'read-locked':
       rendered = <LockedDetail onBack={goto('app-reading')} />;
