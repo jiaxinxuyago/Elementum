@@ -27,8 +27,8 @@ const S1 = { x: 53, y: 89, s: 276 };
 
 export default function RevealDissolve({ identity, energies, dayMaster, selected, onSelect, onRead, onTab, onSeal, tilde }) {
   const scroller = useRef(null), paint = useRef(null), textTop = useRef(null), textBottom = useRef(null);
-  const peek = useRef(null), seal = useRef(null), eyebrow = useRef(null), after = useRef(null);
-  const tabbar = useRef(null), hint = useRef(null), bgRevealTop = useRef(null), bgRevealBot = useRef(null);
+  const seal = useRef(null), eyebrow = useRef(null), after = useRef(null);
+  const tabbar = useRef(null), swipeCue = useRef(null), stage = useRef(null), bgRevealTop = useRef(null), bgRevealBot = useRef(null);
   const bgFog = useRef(null), bgEnergy = useRef(null), pagetint = useRef(null), dsWheel = useRef(null);
 
   useEffect(() => {
@@ -36,6 +36,10 @@ export default function RevealDissolve({ identity, energies, dayMaster, selected
     if (!sc) return undefined;
     const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const setOp = (ref, v) => { if (ref.current) ref.current.style.opacity = String(v); };
+    // pin the stage to the real viewport height so the textured plate fills
+    // to the bottom (device height varies — no fixed 828px gap of bare paper).
+    const sizeStage = () => { if (stage.current) stage.current.style.height = `${sc.clientHeight}px`; };
+    sizeStage();
 
     const apply = () => {
       const max = sc.scrollHeight - sc.clientHeight;
@@ -53,7 +57,6 @@ export default function RevealDissolve({ identity, energies, dayMaster, selected
       if (textTop.current) { textTop.current.style.opacity = String(1 - t1); textTop.current.style.transform = `translateY(${(-64 * easeOut(t1)).toFixed(1)}px)`; }
       const t2 = win(p, 0.12, 0.46);
       if (textBottom.current) { textBottom.current.style.opacity = String(1 - t2); textBottom.current.style.transform = `translateY(${(-44 * easeOut(t2)).toFixed(1)}px)`; }
-      setOp(peek, 1 - win(p, 0.02, 0.18));
 
       const ts = easeOut(win(p, 0.08, 0.74));
       if (seal.current) {
@@ -76,15 +79,14 @@ export default function RevealDissolve({ identity, energies, dayMaster, selected
       }
       setOp(eyebrow, win(p, 0.84, 0.98));
       setOp(tabbar, win(p, 0.86, 0.99));
-      if (hint.current) {
-        hint.current.textContent = p > 0.92 ? 'scroll ⇡ — fully reversible' : 'scroll ⇣ inside the phone';
-        hint.current.style.opacity = (p > 0.04 && p < 0.92) ? '0' : '1';
-      }
+      // swipe cue lives only at the plate; it fades the moment scroll begins
+      setOp(swipeCue, 1 - win(p, 0.02, 0.12));
     };
 
     sc.addEventListener('scroll', apply, { passive: true });
+    window.addEventListener('resize', sizeStage);
     apply();
-    return () => sc.removeEventListener('scroll', apply);
+    return () => { sc.removeEventListener('scroll', apply); window.removeEventListener('resize', sizeStage); };
   }, []);
 
   const tab = (id, active) => (
@@ -97,7 +99,7 @@ export default function RevealDissolve({ identity, energies, dayMaster, selected
     <div className="d13-fill live-phone">
       <div ref={scroller} className="dissolve-scroll">
           <div className="dissolve-track">
-            <div className="dissolve-stage">
+            <div ref={stage} className="dissolve-stage">
               <img ref={bgRevealTop} className="bg-reveal-top" src="/backgrounds/bg-reveal-01-distant-peaks.png" alt="" />
               <img ref={bgRevealBot} className="bg-reveal-bot" src="/backgrounds/bg-reveal-02-floating-island.png" alt="" />
               <div ref={bgFog} className="bg-reveal-fog" />
@@ -117,7 +119,6 @@ export default function RevealDissolve({ identity, energies, dayMaster, selected
               <div ref={textBottom} className="ds-plate-text" style={{ position: 'absolute', left: 24, right: 24, bottom: 54 }}>
                 <div className="foundry" style={{ marginTop: 0 }}><div className="cast">{identity.cast}</div><div className="mark-line">— ELEMENTUM —</div></div>
               </div>
-              <div ref={peek} style={{ position: 'absolute', left: '50%', transform: 'translateX(-50%)', bottom: 36, zIndex: 12 }}><div className="ring-peek" style={{ marginTop: 0 }} /></div>
 
               <div ref={eyebrow} className="eyebrow-row" style={{ position: 'absolute', left: 22, right: 22, top: 64, opacity: 0, zIndex: 12 }}><span className="eyebrow">YOUR ENERGIES</span></div>
               <div ref={dsWheel} className="ds-wheel-wrap" style={{ left: 35, top: 80, width: 320, height: 300 }}>
@@ -145,7 +146,10 @@ export default function RevealDissolve({ identity, energies, dayMaster, selected
               <nav ref={tabbar} className="tabbar" style={{ opacity: 0 }}>
                 {tab('today')}{tab('guidance')}{tab('reading', true)}{tab('compat')}{tab('profile')}
               </nav>
-              <div ref={hint} className="scroll-hint">scroll ⇣ inside the phone</div>
+              <div ref={swipeCue} className="ds-swipe-cue" aria-hidden="true">
+                <svg className="cue c1" viewBox="0 0 26 13"><path d="M3 3 L13 11 L23 3" /></svg>
+                <svg className="cue c2" viewBox="0 0 26 13"><path d="M3 3 L13 11 L23 3" /></svg>
+              </div>
             </div>
           </div>
         </div>

@@ -226,11 +226,23 @@
 .d13 .dissolve-scroll::-webkit-scrollbar { display: none; }
 .d13 .dissolve-track { height: 1828px; position: relative; }
 .d13 .dissolve-stage { position: sticky; top: 0; height: 828px; overflow: hidden; }
-.d13 .scroll-hint {
-  position: absolute; bottom: 26px; left: 50%; transform: translateX(-50%); z-index: 35;
-  font-family: 'EB Garamond', serif; font-weight: 500; font-size: 9px; letter-spacing: 2px; text-transform: uppercase;
-  color: var(--bronzeDark); background: rgba(253,250,242,0.85); border: 1px solid var(--paperHair);
-  border-radius: 999px; padding: 4px 12px; pointer-events: none; transition: opacity 300ms var(--ease-out);
+/* swipe affordance — a bronze double-chevron that bobs downward, inviting
+   the scroll that dissolves the plate. Replaces the dev scroll-hint pill;
+   echoes the ring-peek's "the wheel is just below" cue. */
+.d13 .ds-swipe-cue {
+  position: absolute; left: 50%; bottom: 26px; transform: translateX(-50%); z-index: 35;
+  display: flex; flex-direction: column; align-items: center; pointer-events: none;
+  transition: opacity 360ms var(--ease-out);
+}
+.d13 .ds-swipe-cue .cue { width: 26px; height: 13px; display: block; fill: none; stroke: var(--bronze); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.d13 .ds-swipe-cue .c1 { animation: ds-bob 1.8s ease-in-out infinite; }
+.d13 .ds-swipe-cue .c2 { margin-top: -8px; animation: ds-bob 1.8s ease-in-out 0.18s infinite; }
+@keyframes ds-bob {
+  0%, 100% { transform: translateY(-2px); opacity: 0.22; }
+  50%      { transform: translateY(3px);  opacity: 0.85; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .d13 .ds-swipe-cue .cue { animation: none; opacity: 0.55; transform: none; }
 }
 .d13 .ds-plate-text { will-change: transform, opacity; z-index: 12; }
 .d13 .ds-seal { position: absolute; z-index: 25; will-change: transform; left: 0; top: 0; }
