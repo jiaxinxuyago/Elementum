@@ -66,6 +66,7 @@ const D13WheelPreview = lazy(() => import('./components/d13/D13WheelPreview.jsx'
 const D13RevealScreen = lazy(() => import('./components/d13/D13RevealScreen.jsx'));
 const D13ReadingScreen = lazy(() => import('./components/d13/D13ReadingScreen.jsx'));
 const D13DayMasterScreen = lazy(() => import('./components/d13/D13DayMasterScreen.jsx'));
+const D13PillarChartScreen = lazy(() => import('./components/d13/D13PillarChartScreen.jsx'));
 
 // Lazy-load placeholder — a silk page while a screen's chunk arrives (usually
 // imperceptible; chunks are cached after first visit).
@@ -444,6 +445,10 @@ export default function App() {
     case 'app-daymaster':
       // D13 P4 — the Day Master reference card; "Birth Chart" → P5.
       rendered = <D13DayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} />;
+      break;
+    case 'app-pillars':
+      // D13 P5 — the 八字 Four-Pillars data page; "Discover it" → hour flow.
+      rendered = <D13PillarChartScreen onBack={goto('app-daymaster')} onDiscoverHour={goto('chart-resonance')} />;
       break;
     case 'app-compat':
       rendered = (
