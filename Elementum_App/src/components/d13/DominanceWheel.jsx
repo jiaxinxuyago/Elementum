@@ -28,6 +28,8 @@ export default function DominanceWheel({
   className = 'wheel',
   style,               // optional size override (e.g. the 0.92 catalogue wheel)
   centerName,          // optional label under the seal (hidden by default in CSS)
+  seal = true,         // false during the dissolve — the gliding seal provides the ring
+  onSealClick,         // optional: tap the center seal (opens P4)
 }) {
   const geom = useMemo(() => ({ cx: GEOM.cx * scale, cy: GEOM.cy * scale, r: GEOM.r * scale }), [scale]);
 
@@ -53,18 +55,21 @@ export default function DominanceWheel({
       {/* the brush enso ring is the stem seal art, scaled to encircle the nodes */}
       <div
         className="center-seal"
-        style={{ left: sealLeft, top: sealTop, width: sealSize, height: sealSize }}
+        style={{ left: sealLeft, top: sealTop, width: sealSize, height: sealSize, ...(onSealClick ? { pointerEvents: 'auto', cursor: 'pointer' } : null) }}
+        onClick={onSealClick}
       >
-        <img
-          src={`/concept-arts/stems/${dayMaster}.png`}
-          alt=""
-          width={sealSize}
-          height={sealSize}
-          style={draw < 1 ? {
-            WebkitMaskImage: `conic-gradient(from -90deg, #000 ${draw * 360}deg, transparent 0)`,
-            maskImage: `conic-gradient(from -90deg, #000 ${draw * 360}deg, transparent 0)`,
-          } : undefined}
-        />
+        {seal ? (
+          <img
+            src={`/concept-arts/stems/${dayMaster}.png`}
+            alt={centerName || ''}
+            width={sealSize}
+            height={sealSize}
+            style={draw < 1 ? {
+              WebkitMaskImage: `conic-gradient(from -90deg, #000 ${draw * 360}deg, transparent 0)`,
+              maskImage: `conic-gradient(from -90deg, #000 ${draw * 360}deg, transparent 0)`,
+            } : undefined}
+          />
+        ) : null}
         {centerName ? <span className="cname">{centerName}</span> : null}
       </div>
 

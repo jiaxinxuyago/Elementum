@@ -118,6 +118,7 @@
 .d13 .node.n-fire  { color: var(--ink); --npig: var(--fire);  --plate: url('/concept-arts/dots/dotf-fire.png'); }
 .d13 .center-seal { position: absolute; z-index: 2; display: flex; align-items: center; justify-content: center; background: none; pointer-events: none; }
 .d13 .center-seal img { display: block; }
+.d13 .center-seal .cname { display: none; }
 
 /* prescription ribbon + hour chip */
 .d13 .rx-ribbon { text-align: center; font-size: 14px; color: var(--inkSoft); line-height: 1.5; border-top: 1px solid var(--borderStd); border-bottom: 1px solid var(--borderStd); padding: 7px 6px; margin: 14px 4px 0; }
@@ -204,3 +205,21 @@
 .d13 .spine.open .sp-notch { opacity: 1; }
 .d13 .spine.ghosted { --npig: var(--fire); }
 .d13 .spine.ghosted .sp-art img { filter: grayscale(0.85); opacity: 0.6; }
+
+/* ───────── live dissolve (P2 · scroll-driven) ───────── */
+.d13 .live-phone .screen { background: var(--frame); }
+.d13 .dissolve-scroll { position: absolute; inset: 0; overflow-y: auto; overflow-x: hidden; scrollbar-width: none; z-index: 10; }
+.d13 .dissolve-scroll::-webkit-scrollbar { display: none; }
+.d13 .dissolve-track { height: 1828px; position: relative; }
+.d13 .dissolve-stage { position: sticky; top: 0; height: 828px; overflow: hidden; }
+.d13 .scroll-hint {
+  position: absolute; bottom: 26px; left: 50%; transform: translateX(-50%); z-index: 35;
+  font-family: 'EB Garamond', serif; font-weight: 500; font-size: 9px; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--bronzeDark); background: rgba(253,250,242,0.85); border: 1px solid var(--paperHair);
+  border-radius: 999px; padding: 4px 12px; pointer-events: none; transition: opacity 300ms var(--ease-out);
+}
+.d13 .ds-plate-text { will-change: transform, opacity; z-index: 12; }
+.d13 .ds-seal { position: absolute; z-index: 25; will-change: transform; left: 0; top: 0; }
+.d13 .ds-seal img { width: 100%; height: 100%; }
+.d13 .ds-wheel-wrap { position: absolute; left: 17px; top: 168px; width: 340px; height: 312px; }
+.d13 .ds-after { position: absolute; left: 22px; right: 22px; top: 392px; }
