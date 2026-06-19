@@ -1,10 +1,12 @@
 // ===================================================================
 // SCREEN 9 — LOADING (DOC5 §8)
-// Ported from Design/flow/loading.jsx. Pulses 5 element signs,
-// "Calculating your chart…", 5 element dots filling L→R.
-// On mount, triggers calculateBaziChart() with birthData and advances
-// to Reveal after ~2.5s (padded if calc is instant — the wait is
-// intentional per §8).
+// The five energies turn through a 3D spotlight carousel — each element
+// icon rotates to the front and ignites in its pigment, one by one —
+// while "Calculating your chart…" runs. On mount we kick
+// calculateBaziChart() with the birthData and hold the ceremonial dwell
+// (~2.5s, padded if calc is instant). The exit is the ritual moment: a
+// strong WHITE BLOOM floods the frame and carries through into the
+// Reveal, which fades the same white out so the plate emerges from it.
 // ===================================================================
 
 import React, { useState, useEffect } from 'react';
@@ -17,7 +19,6 @@ import {
   PIG_WATER,
   PIG_FIRE,
   PIG_EARTH,
-  SilkPaper,
   StatusBar,
 } from '../styles/tokens.jsx';
 import {
@@ -29,30 +30,45 @@ import {
 } from '../store/chartContext.jsx';
 import { calculateBaziChart } from '../engine/calculator.js';
 
-// Ceremonial transition timing — DOC5 §8 → §9 handoff
-// Phase 1: loading content disperses + fades (600ms)
-// Phase 2: silk holds empty (250ms) — the "exhale"
-// Phase 3: Reveal handles its own entrance (see RevealScreen.jsx)
-const EXIT_DURATION_MS = 600;
-const SILK_PAUSE_MS = 250;
+// Ceremonial handoff timing — DOC5 §8 → §9
+const SPOT_MS = 820;          // each energy's moment in the front spotlight
+const CONTENT_FADE_MS = 420;  // loading content recedes beneath the flash
+const FLASH_BLOOM_MS = 620;   // white floods the frame — the revelation flash
+const FLASH_HOLD_MS = 150;    // hold full white to mask the screen swap
+
+// Five energies in the generating (sheng) cycle — the order the spotlight
+// walks: Wood feeds Fire feeds Earth bears Metal carries Water feeds Wood.
+const ELS = [
+  { key: 'wood',  color: PIG_WOOD },
+  { key: 'fire',  color: PIG_FIRE },
+  { key: 'earth', color: PIG_EARTH },
+  { key: 'metal', color: PIG_METAL },
+  { key: 'water', color: PIG_WATER },
+];
+const N = ELS.length;
+const STEP = 360 / N;  // 72° between seats on the ring
+const RING_R = 96;     // ring radius (px)
 
 export default function LoadingScreen({ onComplete }) {
   const { birthData, setChart } = useChart();
-  const [tick, setTick] = useState(0);
-  // Exit-phase flag — flips true after the dwell completes; CSS transitions
-  // take over from here for the dispersal animation.
+  const [spot, setSpot] = useState(0);
   const [exiting, setExiting] = useState(false);
+  const reduce = typeof window !== 'undefined' && window.matchMedia
+    && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  // Pulsing animation — 80ms tick so the pulse + dot sweep update smoothly.
-  // STOPS when we enter the exit phase so the elements freeze before fading
-  // (twitching while disappearing reads as a glitch, not ceremony).
+  // Spotlight stepper — advance which energy faces front; freeze on exit so
+  // the elements settle before the flash (a twitch mid-fade reads as a glitch).
   useEffect(() => {
-    if (exiting) return;
-    const id = setInterval(() => setTick((t) => t + 1), 80);
+    if (exiting) return undefined;
+    const id = setInterval(() => setSpot((s) => s + 1), SPOT_MS);
     return () => clearInterval(id);
   }, [exiting]);
 
-  // Kick the calculation synchronously on mount, then pad to ~2.5s
+  // Warm the Reveal chunk while we wait, so the white-flash handoff isn't
+  // interrupted by a lazy-load fallback when onComplete mounts it.
+  useEffect(() => { import('./d13/D13RevealScreen.jsx').catch(() => {}); }, []);
+
+  // Calculate the chart on mount, hold the ceremonial dwell, then flash out.
   useEffect(() => {
     let cancelled = false;
     const timers = [];
@@ -73,26 +89,21 @@ export default function LoadingScreen({ onComplete }) {
       } catch (err) {
         console.error('calculateBaziChart failed:', err);
       }
-      // Intentional minimum dwell per DOC5 §8 (2.5–3s)
-      // Override via ?hold=N in URL for screenshot testing.
+      // Intentional minimum dwell per DOC5 §8 (2.5–3s). Override via ?hold=N.
       const hold = (() => {
         const m = typeof location !== 'undefined' && /[?&]hold=(\d+)/.exec(location.search);
         return m ? parseInt(m[1], 10) : 2500;
       })();
-      const elapsed = Date.now() - start;
-      const remaining = Math.max(0, hold - elapsed);
+      const remaining = Math.max(0, hold - (Date.now() - start));
 
-      // Schedule the ceremonial exit:
-      //   wait `remaining` (rest of the dwell)
-      //   → flip `exiting` to true (CSS fade-out runs over EXIT_DURATION_MS)
-      //   → wait EXIT_DURATION_MS + SILK_PAUSE_MS (silk breath)
-      //   → call onComplete (mount Reveal — its own entrance animation runs)
+      // wait the rest of the dwell → flip `exiting` (white bloom runs) → wait
+      // the bloom + hold → onComplete (mount Reveal, which fades the white out).
       timers.push(setTimeout(() => {
         if (cancelled) return;
         setExiting(true);
         timers.push(setTimeout(() => {
           if (!cancelled) onComplete && onComplete();
-        }, EXIT_DURATION_MS + SILK_PAUSE_MS));
+        }, FLASH_BLOOM_MS + FLASH_HOLD_MS));
       }, remaining));
     };
 
@@ -104,156 +115,107 @@ export default function LoadingScreen({ onComplete }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const ELS = [
-    { key: 'wood',  label: '木', color: PIG_WOOD  },
-    { key: 'fire',  label: '火', color: PIG_FIRE  },
-    { key: 'earth', label: '土', color: PIG_EARTH },
-    { key: 'metal', label: '金', color: PIG_METAL },
-    { key: 'water', label: '水', color: PIG_WATER },
-  ];
+  const front = ((spot % N) + N) % N;
 
-  return (
-    <div
+  // One element glyph (#el-* from the global D13 sprite, mounted by App) —
+  // lit in its pigment when it holds the front spotlight, dim otherwise.
+  const elIcon = (e, isFront) => (
+    <svg
+      viewBox="0 0 24 24"
       style={{
-        background: SILK,
-        color: INK,
-        position: 'relative',
-        width: '100%',
-        height: '100%',
-        overflow: 'hidden',
+        width: '100%', height: '100%', display: 'block',
+        color: isFront ? e.color : INK_LIGHT,
+        opacity: isFront ? 1 : 0.3,
+        filter: isFront ? `drop-shadow(0 6px 16px ${e.color}59)` : 'none',
+        transition: 'color 460ms ease, opacity 460ms ease, filter 460ms ease',
       }}
     >
-      {/* Full-frame painted background — top peaks + bottom water frame the
-          "Your Archetype" title in the calmer middle band. Distinct from
-          Welcome's upper-fill mist-veil; the ceremony deepens as the chart
-          calculates, narrowing into revelation. */}
+      <use href={`#el-${e.key}`} />
+    </svg>
+  );
+
+  return (
+    <div style={{ background: SILK, color: INK, position: 'relative', width: '100%', height: '100%', overflow: 'hidden' }}>
+      {/* Full-frame painted background — peaks above, water below, framing the
+          ceremony in the calmer middle band as the chart narrows into form. */}
       <img
         src="/assets/backgrounds/bg-reveal-03-stacked-horizons.png"
         alt=""
-        style={{
-          position: 'absolute',
-          inset: 0,
-          width: '100%',
-          height: '100%',
-          objectFit: 'cover',
-          pointerEvents: 'none',
-          zIndex: 0,
-        }}
+        style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none', zIndex: 0 }}
       />
       <StatusBar tint={INK} />
 
       <div
         style={{
-          position: 'absolute',
-          inset: 0,
-          zIndex: 10,
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          justifyContent: 'center',
+          position: 'absolute', inset: 0, zIndex: 10,
+          display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
           padding: '0 32px',
-          // Ceremonial exit: gentle dispersal upward, opacity to zero.
-          // Easing chosen to match Reveal's entrance for visual continuity
-          // (cubic-bezier(0.22, 1, 0.36, 1) is the "expo-out-ish" curve we
-          // use across the silk-paper aesthetic — a slow release, no bounce).
           opacity: exiting ? 0 : 1,
-          transform: exiting ? 'translateY(-8px) scale(1.04)' : 'none',
-          transition: `opacity ${EXIT_DURATION_MS}ms cubic-bezier(0.22, 1, 0.36, 1), transform ${EXIT_DURATION_MS}ms cubic-bezier(0.22, 1, 0.36, 1)`,
+          transform: exiting ? 'translateY(-6px)' : 'none',
+          transition: `opacity ${CONTENT_FADE_MS}ms cubic-bezier(0.22,1,0.36,1), transform ${CONTENT_FADE_MS}ms cubic-bezier(0.22,1,0.36,1)`,
         }}
       >
-        {/* 5 element characters — floating + pulsing */}
-        <div
-          style={{
-            display: 'flex',
-            gap: 18,
-            marginBottom: 44,
-          }}
-        >
-          {ELS.map((e, i) => {
-            const phase = (tick - i * 3) % 32;
-            const pulseT = phase < 16 ? phase / 16 : (32 - phase) / 16;
-            const scale = 1 + pulseT * 0.15;
-            const opacity = 0.45 + pulseT * 0.5;
-            return (
-              <div
-                key={e.key}
-                style={{
-                  fontFamily: "'Noto Serif SC', serif",
-                  fontSize: 18,
-                  color: e.color,
-                  transform: `scale(${scale})`,
-                  opacity,
-                  transition:
-                    'transform 80ms ease-out, opacity 80ms ease-out',
-                }}
-              >
-                {e.label}
+        {/* Five energies — the spotlight carousel. Reduced-motion gets a flat
+            sequential row instead of the 3D ring. */}
+        {reduce ? (
+          <div style={{ display: 'flex', gap: 22, marginBottom: 46, height: 48, alignItems: 'center' }}>
+            {ELS.map((e, i) => (
+              <div key={e.key} style={{ width: 40, height: 40, transform: i === front ? 'scale(1.2)' : 'scale(1)', transition: 'transform 460ms ease' }}>
+                {elIcon(e, i === front)}
               </div>
-            );
-          })}
-        </div>
+            ))}
+          </div>
+        ) : (
+          <div style={{ perspective: 820, width: 220, height: 132, marginBottom: 38 }}>
+            <div
+              style={{
+                position: 'relative', width: '100%', height: '100%',
+                transformStyle: 'preserve-3d',
+                transform: `rotateY(${-spot * STEP}deg)`,
+                transition: `transform ${Math.round(SPOT_MS * 0.74)}ms cubic-bezier(0.5,0.05,0.2,1)`,
+              }}
+            >
+              {ELS.map((e, i) => (
+                <div
+                  key={e.key}
+                  style={{
+                    position: 'absolute', left: '50%', top: '50%',
+                    width: 58, height: 58, margin: '-29px 0 0 -29px',
+                    transform: `rotateY(${i * STEP}deg) translateZ(${RING_R}px)`,
+                    backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden',
+                  }}
+                >
+                  {elIcon(e, i === front)}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
-        <div
-          style={{
-            fontFamily: "'Cormorant Garamond', serif",
-            fontSize: 22,
-            color: INK,
-            letterSpacing: 0.4,
-            marginBottom: 28,
-            textAlign: 'center',
-          }}
-        >
+        <div style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 22, color: INK, letterSpacing: 0.4, marginBottom: 22, textAlign: 'center' }}>
           Calculating your chart…
         </div>
 
-        <p
-          style={{
-            fontFamily: "'EB Garamond', serif",
-            fontSize: 13.5,
-            color: INK_LIGHT,
-            textAlign: 'center',
-            margin: '0 0 42px',
-            maxWidth: 280,
-            lineHeight: 1.65,
-          }}
-        >
+        <p style={{ fontFamily: "'EB Garamond', serif", fontSize: 13.5, color: INK_LIGHT, textAlign: 'center', margin: 0, maxWidth: 280, lineHeight: 1.65 }}>
           Five pillars gather. Eight characters align.
           <br />
           Your signature takes form.
         </p>
 
-        {/* 5 dots — filling L→R with element colors */}
-        <div style={{ display: 'flex', gap: 14, alignItems: 'center' }}>
-          {ELS.map((e, i) => {
-            const fillT = ((tick - i * 6) % 60) / 60;
-            const filled = fillT > 0 && fillT < 0.7;
-            return (
-              <div
-                key={e.key}
-                style={{
-                  width: 10,
-                  height: 10,
-                  borderRadius: 999,
-                  background: filled ? e.color : 'rgba(139,115,85,0.18)',
-                  boxShadow: filled ? `0 0 10px ${e.color}55` : 'none',
-                  transition: 'background 150ms ease, box-shadow 150ms ease',
-                }}
-              />
-            );
-          })}
-        </div>
-
-        {/* Subtle spinner rule */}
-        <div
-          style={{
-            marginTop: 56,
-            width: 40,
-            height: 1,
-            background: `linear-gradient(90deg, transparent, ${INK_LIGHT}, transparent)`,
-            opacity: 0.5,
-          }}
-        />
+        {/* Subtle hairline */}
+        <div style={{ marginTop: 50, width: 40, height: 1, background: `linear-gradient(90deg, transparent, ${INK_LIGHT}, transparent)`, opacity: 0.5 }} />
       </div>
+
+      {/* The revelation flash — a strong white bloom that floods the frame and
+          carries through into the Reveal (which fades the same white out). */}
+      <div
+        aria-hidden="true"
+        style={{
+          position: 'absolute', inset: 0, zIndex: 60, background: '#fff',
+          opacity: exiting ? 1 : 0, pointerEvents: 'none',
+          transition: exiting ? `opacity ${FLASH_BLOOM_MS}ms cubic-bezier(0.66,0,0.34,1)` : 'none',
+        }}
+      />
     </div>
   );
 }

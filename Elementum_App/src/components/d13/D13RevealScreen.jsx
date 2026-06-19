@@ -28,6 +28,9 @@ export default function D13RevealScreen({ onTab }) {
         onSeal={() => showWip('Coming soon')}
         onTab={onTab}
       />
+      {/* The revelation flash continues from LoadingScreen's white bloom: the
+          plate emerges as this fades out, so the hand-off reads as one ritual. */}
+      <div className="reveal-flash" aria-hidden="true" />
       {wip ? <div className="d13-wip">{wip}</div> : null}
     </div>
   );
