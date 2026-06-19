@@ -248,4 +248,10 @@
 .d13 .ds-seal { position: absolute; z-index: 25; will-change: transform; left: 0; top: 0; }
 .d13 .ds-seal img { width: 100%; height: 100%; }
 .d13 .ds-wheel-wrap { position: absolute; left: 17px; top: 168px; width: 340px; height: 312px; }
+/* the gliding ds-seal (z25) IS the ring; lift the orbiting nodes above it so
+   they land in front of the enso at the end frame, matching the static
+   catalogue. The wheel-wrap makes no stacking context, so this resolves
+   against the seal in the stage; the empty center-seal (z2) stays below it,
+   keeping the center seal-tap working. */
+.d13 .ds-wheel-wrap .node { z-index: 30; }
 .d13 .ds-after { position: absolute; left: 22px; right: 22px; top: 392px; }
