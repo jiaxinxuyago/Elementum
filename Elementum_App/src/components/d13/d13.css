@@ -1,10 +1,9 @@
-/* ═══════════════════════════════════════════════════════════════
-   ELEMENTUM · D13 — product styles (ported verbatim from d13-v5.css)
-   Tokens scoped to .d13 so they never leak into the app globals; the
-   document-chrome rules (body/.doc-*/.flow/.stage/legends) are dropped
-   — only the product surfaces are here. Asset url()s point at the app
-   public folder. No italics, no CJK (D13 Part-1 rule).
-   ═══════════════════════════════════════════════════════════════ */
+/* ===================================================================
+   ELEMENTUM D13 — product styles, ported verbatim from d13-v5 css.
+   Tokens scoped to .d13 so they never leak into app globals; the
+   document-chrome rules are dropped — only product surfaces remain.
+   Asset paths point at the app public folder. No italics, no CJK.
+   =================================================================== */
 
 .d13 {
   --cream: #F8F6F0; --silk: #F1E9D6; --silkDeep: #ECE2C9; --silkFold: #DDD1B3;
