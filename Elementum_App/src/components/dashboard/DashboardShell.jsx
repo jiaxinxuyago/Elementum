@@ -18,7 +18,6 @@
 // ===================================================================
 
 import React from 'react';
-import BottomTabNav from './BottomTabNav';
 import PageBg from '../shared/PageBg.jsx';
 import { silk } from '../../styles/tokens';
 
@@ -58,7 +57,10 @@ export default function DashboardShell({ active, onTabChange, children, backgrou
       >
         {children}
       </div>
-      <BottomTabNav active={active} onChange={onTabChange} />
+      {/* The persistent nav is now a single static object rendered by App
+          (D13TabBar), outside every page — so it stays pixel-aligned across
+          tab switches. This shell only reserves room for it (TAB_BAR_HEIGHT)
+          and paints the page background. */}
     </div>
   );
 }

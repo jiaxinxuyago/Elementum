@@ -25,6 +25,10 @@ import LoadingScreen from './components/LoadingScreen.jsx';
 // Eager — cross-cutting providers + the dashboard shell (layout/nav wrapper).
 import DashboardShell from './components/dashboard/DashboardShell.jsx';
 import { UpgradeModalProvider, UpgradeModalHost, useUpgrade } from './components/dashboard/UpgradeModal.jsx';
+// Eager — the persistent dashboard chrome: the static D13 tab bar + the
+// shared SVG sprite that supplies every D13 glyph (tabs, element marks, …).
+import D13TabBar from './components/d13/D13TabBar.jsx';
+import D13Sprite from './components/d13/D13Sprite.jsx';
 
 // ── Code-split (Group E) ────────────────────────────────────────────────────
 // Every post-onboarding screen loads on demand. This pulls all the screen code
@@ -181,6 +185,20 @@ const FLOW = [
   'read-locked',     // generic locked-card for not-yet-built sections
   'd13preview',      // dev-only D13 component render harness (#/d13preview)
 ];
+
+// Which dashboard tab is "active" for a given screen — drives the single
+// persistent D13 tab bar (rendered once by App, outside the page). Screens
+// absent here (welcome/onboarding/reveal + the stacked read-*/chart-* detail
+// pages) show NO tab bar — they own the full frame. Drill-downs map back to
+// their parent tab so the bar stays lit correctly.
+const DASHBOARD_TAB = {
+  'app-today': 'today', 'app-day': 'today', 'app-month': 'today', 'app-year': 'today', 'app-decade': 'today',
+  'app-guidance': 'guidance', 'app-codex': 'guidance', 'app-draw': 'guidance', 'app-manual': 'guidance',
+  'app-selfreport': 'guidance', 'app-consultant': 'guidance',
+  'app-reading': 'reading',
+  'app-compat': 'compat',
+  'app-profile': 'profile',
+};
 
 // Read the initial screen from URL hash so refresh/deep-links land correctly.
 function readHash() {
@@ -493,6 +511,13 @@ export default function App() {
             {/* Graceful recovery — a calc/render error never blanks the
                 screen; it offers a soft path back to adjust birth data. */}
             <ErrorBoundary><Suspense fallback={<ScreenFallback />}>{rendered}</Suspense></ErrorBoundary>
+            {/* One global D13 glyph sprite feeds every #tab-/#el-/#ico- <use>
+                across the app (the tab bar, wheel, shelf …). */}
+            <D13Sprite />
+            {/* The single persistent dashboard nav — rendered here, OUTSIDE the
+                swappable page, so it never re-mounts or shifts between tabs.
+                Hidden on welcome/onboarding/reveal + stacked detail pages. */}
+            {DASHBOARD_TAB[screen] && <D13TabBar active={DASHBOARD_TAB[screen]} onTab={routeTab} />}
             {/* Upgrade modal overlays only the phone frame (DOC5 §21) */}
             <UpgradeModalHost />
           </PhoneFrame>

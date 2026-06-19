@@ -9,7 +9,6 @@
 
 import React from 'react';
 import './d13.css';
-import D13Sprite from './D13Sprite.jsx';
 import RevealDissolve from './RevealDissolve.jsx';
 import { useD13 } from './useD13.js';
 
@@ -18,7 +17,6 @@ export default function D13RevealScreen({ onTab }) {
   if (!ec || !identity) return null;
   return (
     <div className="d13" style={{ position: 'absolute', inset: 0 }}>
-      <D13Sprite />
       <RevealDissolve
         identity={identity}
         energies={ec.energies}

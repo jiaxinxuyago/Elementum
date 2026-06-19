@@ -9,7 +9,6 @@
 
 import React from 'react';
 import './d13.css';
-import D13Sprite from './D13Sprite.jsx';
 import EnergyCatalogue from './EnergyCatalogue.jsx';
 import { useD13 } from './useD13.js';
 
@@ -18,7 +17,6 @@ export default function D13ReadingScreen({ onTab, onPillarChart }) {
   if (!ec) return null;
   return (
     <div className="d13" style={{ position: 'absolute', inset: 0 }}>
-      <D13Sprite />
       <EnergyCatalogue
         energies={ec.energies}
         dayMaster={ec.dayMaster}

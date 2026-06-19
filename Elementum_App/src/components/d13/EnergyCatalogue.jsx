@@ -13,12 +13,7 @@ import DominanceWheel from './DominanceWheel.jsx';
 import EnergyShelf from './EnergyShelf.jsx';
 import { RIBBON_INTRO } from './d13Content.js';
 
-export default function EnergyCatalogue({ energies, dayMaster, selected, onSelect, onRead, onTab, onSeal, onPillarChart, tilde }) {
-  const tab = (id, active) => (
-    <button type="button" className={`tab${active ? ' active' : ''}`} onClick={() => onTab && onTab(id)}>
-      <span className="tico"><svg viewBox="0 0 24 24"><use href={`#tab-${id}`} /></svg></span>
-    </button>
-  );
+export default function EnergyCatalogue({ energies, dayMaster, selected, onSelect, onRead, onSeal, onPillarChart, tilde }) {
   return (
     <div className="d13-fill">
       <img className="ground-img bg-energy" src="/backgrounds/bg-energymap-01-top-band.png" alt="" />
@@ -50,9 +45,8 @@ export default function EnergyCatalogue({ energies, dayMaster, selected, onSelec
         </div>
         <EnergyShelf energies={energies} selected={selected} onSelect={onSelect} onRead={onRead} />
       </div>
-      <nav className="tabbar">
-        {tab('today')}{tab('guidance')}{tab('reading', true)}{tab('compat')}{tab('profile')}
-      </nav>
+      {/* the persistent tab bar is the app-level static D13TabBar, not drawn
+          here — keeps it identical + fixed across every dashboard surface. */}
     </div>
   );
 }

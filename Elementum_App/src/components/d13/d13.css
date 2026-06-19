@@ -78,6 +78,11 @@
 .d13 .status { height: 52px; flex-shrink: 0; display: flex; align-items: flex-end; justify-content: space-between; padding: 0 30px 4px; font-family: 'EB Garamond', serif; font-size: 13px; font-weight: 600; color: var(--ink); position: relative; z-index: 50; }
 .d13 .status .dots { font-size: 11px; letter-spacing: 1px; color: var(--inkSoft); white-space: nowrap; }
 .d13 .tabbar { position: absolute; bottom: 0; left: 0; right: 0; height: 76px; background: var(--tabbar-bg); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-top: 1px solid var(--borderLight); display: flex; justify-content: space-around; align-items: center; padding: 8px 14px 20px; z-index: 30; }
+/* App-level static nav host: an inset overlay that is click-transparent
+   except the bar, so it floats over any page without blocking it. The bar
+   keeps its own bottom:0 anchor, so it sits at the same spot on every page. */
+.d13.d13-tabhost { position: absolute; inset: 0; pointer-events: none; z-index: 50; }
+.d13.d13-tabhost .tabbar { pointer-events: auto; }
 .d13 .tabbar .tab { width: 60px; display: flex; flex-direction: column; align-items: center; background: none; border: none; cursor: pointer; }
 .d13 .tabbar .tab .tico { width: 24px; height: 24px; color: var(--inkLight); }
 .d13 .tabbar .tab .tico svg { width: 100%; height: 100%; display: block; }
