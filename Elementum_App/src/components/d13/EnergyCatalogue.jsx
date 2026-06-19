@@ -22,9 +22,8 @@ export default function EnergyCatalogue({ energies, dayMaster, selected, onSelec
       <div className="screen-pad">
         <div className="eyebrow-row">
           <span className="eyebrow">YOUR ENERGIES</span>
-          <span className="link" style={{ cursor: 'pointer' }} onClick={onPillarChart}>
-            PILLAR CHART <span className="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r" /></svg></span>
-          </span>
+          {/* PILLAR CHART link removed — its destination is a Handoff-2 screen;
+              the entry point will be reintroduced with that batch. */}
         </div>
         <DominanceWheel
           className="mini-wheel"
