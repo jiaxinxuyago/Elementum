@@ -21,6 +21,54 @@ import { resolveArchetype } from '../../content/resolveVariant.js';
 const GEN = { wood: 'fire', fire: 'earth', earth: 'metal', metal: 'water', water: 'wood' };
 const CTL = { wood: 'earth', earth: 'water', water: 'fire', fire: 'metal', metal: 'wood' };
 
+// Per-persona refinements — the poetic persona-line tail + the Seeker gate
+// teaser, in the design voice (the Alchemist + General entries match the
+// design exemplars exactly). Keyed by the internal Ten-God; the tails are
+// presence-neutral (the ghost register already signals absence) and the
+// teasers follow the design's three-part "·" shape. No internal vocabulary.
+const PERSONA_COPY = {
+  '比肩': { // The Mirror
+    tail: 'the inner standard you measure by before any other.',
+    teaser: 'Where this conviction turns to a closed door · how it shapes your work and bonds · the season it stands alone.',
+  },
+  '劫财': { // The Rival
+    tail: 'the edge that sharpens against equals.',
+    teaser: 'Where this drive turns to loss through rivalry · how it shapes your work and bonds · the season it competes.',
+  },
+  '食神': { // The Muse
+    tail: "ease that makes things, expression that flows before it's forced.",
+    teaser: 'Where this ease turns to drift · how it shapes your work and bonds · the season it pours.',
+  },
+  '伤官': { // The Edge
+    tail: 'brilliance that will not be told how.',
+    teaser: 'Where this brilliance turns to friction · how it shapes your work and bonds · the season it cuts.',
+  },
+  '偏财': { // The Horizon
+    tail: 'the world read as opportunity, the far thing already within reach.',
+    teaser: 'Where this reach turns to overreach · how it shapes your work and bonds · the season it widens.',
+  },
+  '正财': { // The Steward
+    tail: 'value built one honest increment at a time.',
+    teaser: 'Where this care turns to holding too tight · how it shapes your work and bonds · the season it gathers.',
+  },
+  '七杀': { // The General
+    tail: "pressure that doesn't grant permission. You don't carry it; you meet it.",
+    teaser: 'Where this pressure turns to harshness · how it shapes your work and bonds · the season it tests.',
+  },
+  '正官': { // The Arbiter
+    tail: 'authority that earns its weight by being fair.',
+    teaser: 'Where this order turns to rigidity · how it shapes your work and bonds · the season it judges.',
+  },
+  '偏印': { // The Alchemist
+    tail: "nourishment that transmutes. It's the ground your edge is forged on.",
+    teaser: 'Where this nourishment turns to over-protection · how it shapes your work and bonds · the season it peaks.',
+  },
+  '正印': { // The Sage
+    tail: 'the quiet support that steadies you before you ask.',
+    teaser: 'Where this support turns to dependence · how it shapes your work and bonds · the season it deepens.',
+  },
+};
+
 // hero art per element (thumbnail-library wash variant)
 export const ENERGY_ART = {
   metal: '/concept-arts/library/t_metal_1_w.png',
@@ -62,9 +110,10 @@ export function resolveEnergyReading(dmEl, el) {
   const tg = TG_CARD_DATA[zh];
   const persona = TG_PERSONA[zh] || (tg && tg.name) || '';
   if (!tg) return { persona, tail: '', r: '', x: '', gate: { label: `Seeker — the full reading`, body: '' } };
+  const copy = PERSONA_COPY[zh] || {};
+  // refined poetic tail; fall back to the ruling-realm phrase if unmapped
   const realm = (tg.rulingRealm && tg.rulingRealm.phrase) || '';
-  // strip the trailing gloss after the em dash for a clean persona-line tail
-  const tail = realm.split(' — ')[0].toLowerCase();
+  const tail = copy.tail || realm.split(' — ')[0].toLowerCase();
   const out = tg.outputs || [];
   return {
     persona,
@@ -76,7 +125,7 @@ export function resolveEnergyReading(dmEl, el) {
       label: `Seeker — the full ${persona.replace(/^The /, '')} reading`,
       // a TEASE of what's behind the paywall — never the full PRO body (which
       // carries internal Ten-God vocabulary that must not surface).
-      body: 'Where this energy turns to its shadow · how it shapes your work and bonds · the season it peaks.',
+      body: copy.teaser || 'Where this energy turns to its shadow · how it shapes your work and bonds · the season it peaks.',
     },
   };
 }
