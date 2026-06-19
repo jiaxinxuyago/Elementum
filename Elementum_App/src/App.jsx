@@ -65,6 +65,7 @@ const DevBar = lazy(() => import('./components/dev/DevBar.jsx'));
 const D13WheelPreview = lazy(() => import('./components/d13/D13WheelPreview.jsx'));
 const D13RevealScreen = lazy(() => import('./components/d13/D13RevealScreen.jsx'));
 const D13ReadingScreen = lazy(() => import('./components/d13/D13ReadingScreen.jsx'));
+const D13DayMasterScreen = lazy(() => import('./components/d13/D13DayMasterScreen.jsx'));
 
 // Lazy-load placeholder — a silk page while a screen's chunk arrives (usually
 // imperceptible; chunks are cached after first visit).
@@ -164,6 +165,9 @@ const FLOW = [
   'app-decade',
   'app-guidance',
   'app-reading',     // catalogue (DOC5 §11)
+  'app-daymaster',   // D13 P4 — Day Master card (wheel-centre seal)
+  'app-pillars',     // D13 P5 — 八字 Pillar Chart (from the Day Master)
+  'app-energy',      // D13 P6/P7 — energy reading card (tap a node, swipe ⟷)
   'app-energymap',   // Energy Map destination (DOC5 §AM.1 — same as Reveal, no first-time CTA)
   'app-codex',       // BaZi Codex (Guidance §12 Card 5)
   'app-draw',        // Elemental Draw (Guidance §12 Card 1)
@@ -195,7 +199,7 @@ const DASHBOARD_TAB = {
   'app-today': 'today', 'app-day': 'today', 'app-month': 'today', 'app-year': 'today', 'app-decade': 'today',
   'app-guidance': 'guidance', 'app-codex': 'guidance', 'app-draw': 'guidance', 'app-manual': 'guidance',
   'app-selfreport': 'guidance', 'app-consultant': 'guidance',
-  'app-reading': 'reading',
+  'app-reading': 'reading', 'app-daymaster': 'reading', 'app-pillars': 'reading', 'app-energy': 'reading',
   'app-compat': 'compat',
   'app-profile': 'profile',
 };
@@ -433,9 +437,13 @@ export default function App() {
       );
       break;
     case 'app-reading':
-      // D13: the at-rest energy catalogue (its own icons-only tab bar routes
-      // the dashboard). Forward links (Pillar Chart, Read, seal) are Handoff-2.
-      rendered = <D13ReadingScreen onTab={routeTab} />;
+      // D13: the at-rest energy catalogue. Tapping the wheel-centre seal
+      // descends into the Day Master card (P4).
+      rendered = <D13ReadingScreen onTab={routeTab} onDayMaster={goto('app-daymaster')} />;
+      break;
+    case 'app-daymaster':
+      // D13 P4 — the Day Master reference card; "Birth Chart" → P5.
+      rendered = <D13DayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} />;
       break;
     case 'app-compat':
       rendered = (

@@ -22,5 +22,5 @@ export function useD13() {
     setWip(label);
     setTimeout(() => setWip((w) => (w === label ? null : w)), 1800);
   }, []);
-  return { ec, identity, hourUnknown, sel: sel || (ec && ec.energies[0].el), setSel, wip, showWip };
+  return { chart, ec, identity, hourUnknown, sel: sel || (ec && ec.energies[0].el), setSel, wip, showWip };
 }

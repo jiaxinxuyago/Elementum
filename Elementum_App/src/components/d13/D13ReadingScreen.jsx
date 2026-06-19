@@ -12,7 +12,7 @@ import './d13.css';
 import EnergyCatalogue from './EnergyCatalogue.jsx';
 import { useD13 } from './useD13.js';
 
-export default function D13ReadingScreen({ onTab, onPillarChart }) {
+export default function D13ReadingScreen({ onTab, onDayMaster, onPillarChart }) {
   const { ec, hourUnknown, sel, setSel, wip, showWip } = useD13();
   if (!ec) return null;
   return (
@@ -24,7 +24,7 @@ export default function D13ReadingScreen({ onTab, onPillarChart }) {
         selected={sel}
         onSelect={setSel}
         onRead={() => showWip('Coming soon')}
-        onSeal={() => showWip('Coming soon')}
+        onSeal={onDayMaster || (() => showWip('Coming soon'))}
         onPillarChart={onPillarChart || (() => showWip('Coming soon'))}
         onTab={onTab}
       />
