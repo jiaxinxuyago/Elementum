@@ -95,6 +95,112 @@
 @media (prefers-reduced-motion: reduce) {
   .d13 .reveal-flash { animation-duration: 520ms; }
 }
+
+/* ═══════════ P4–P7 · reading pages (D13 Part 2) ═══════════ */
+/* Ported from d13-v5.css, scoped to .d13. Shared by the Day Master card,
+   the 八字 Pillar Chart, and the energy-reading cards (incl. ghost). */
+
+/* locked-header pattern: back chevron + eyebrow */
+.d13 .back-row { display: flex; align-items: center; gap: 6px; }
+.d13 .back-row .uico { width: 15px; height: 15px; color: var(--inkSoft); margin-left: -4px; }
+
+/* P4 · Birth Chart entry — dark pill, motivated from the Day Master */
+.d13 .birth-chart-btn {
+  margin-top: 15px; align-self: center; display: inline-flex; align-items: center; gap: 8px;
+  padding: 9px 17px 9px 15px; border-radius: 999px; background: var(--ink); color: var(--cream); border: 1px solid var(--ink);
+  font-family: 'EB Garamond', serif; font-size: 11px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  text-decoration: none; white-space: nowrap; box-shadow: 0 4px 14px rgba(43,39,34,0.22);
+  cursor: pointer; transition: transform .18s var(--ease-out), background .18s, box-shadow .18s;
+}
+.d13 .birth-chart-btn:hover { background: #1c1916; transform: translateY(-1px); box-shadow: 0 7px 20px rgba(43,39,34,0.30); }
+.d13 .birth-chart-btn:active { transform: translateY(0); box-shadow: 0 2px 8px rgba(43,39,34,0.24); }
+.d13 .birth-chart-btn .bc-ico { width: 15px; height: 15px; opacity: 0.9; }
+.d13 .birth-chart-btn .bc-arr { width: 13px; height: 13px; opacity: 0.75; }
+
+/* claims — cardstock list rows */
+.d13 .claims-card { background: var(--cardstock); border: 1px solid var(--paperHair); border-radius: 14px; box-shadow: var(--shadow-card); padding: 4px 14px; }
+.d13 .claims-card .claim { padding: 10px 0; font-size: 13.5px; line-height: 1.5; color: var(--inkSoft); border-bottom: 1px dotted rgba(139,115,85,0.24); }
+.d13 .claims-card .claim:last-child { border-bottom: none; }
+
+/* layers — cardstock reading surfaces */
+.d13 .layer { background: var(--cardstock); border: 1px solid var(--paperHair); border-radius: 12px; box-shadow: var(--shadow-card); padding: 11px 13px; margin-bottom: 9px; }
+.d13 .layer-label { font-family: 'EB Garamond', serif; font-weight: 500; font-size: 8.5px; letter-spacing: 2px; text-transform: uppercase; color: var(--inkLight); margin-bottom: 5px; }
+.d13 .layer p { font-size: 13.5px; line-height: 1.55; color: var(--inkSoft); }
+.d13 .layer.tinted-earth { background: rgba(184,154,106,0.06); border-color: rgba(184,154,106,0.25); }
+.d13 .layer.tinted-earth .layer-label { color: var(--earthDeep); }
+
+/* scene-hero band */
+.d13 .hero { position: relative; height: 108px; border-radius: 16px; overflow: hidden; border: 1px solid rgba(43,39,34,0.12); box-shadow: 0 12px 28px rgba(40,30,20,0.15); margin-top: 10px; flex-shrink: 0; }
+.d13 .hero img.hart { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.d13 .hero .scrim { position: absolute; inset: 0; background: linear-gradient(to top, rgba(20,17,13,0.78) 0%, rgba(20,17,13,0.30) 40%, transparent 70%); }
+.d13 .hero .hc { position: absolute; left: 16px; right: 16px; bottom: 12px; }
+.d13 .hero .reye { font-family: 'EB Garamond', serif; font-weight: 500; font-size: 9.5px; letter-spacing: 2.5px; text-transform: uppercase; color: #e9d9b8; display: flex; align-items: center; gap: 7px; }
+.d13 .hero .reye .elmark { width: 14px; height: 14px; color: #e9d9b8; }
+.d13 .hero .htitle { font-family: 'Cormorant Garamond', serif; font-weight: 500; font-size: 26px; color: #f6f1e6; line-height: 1.05; margin-top: 4px; display: flex; align-items: baseline; gap: 10px; }
+.d13 .hero .hpc { font-family: 'JetBrains Mono', Consolas, monospace; font-size: 11px; color: rgba(246,241,230,0.75); }
+.d13 .hero.ghost img.hart { filter: grayscale(0.85) contrast(0.92); opacity: 0.6; }
+.d13 .hero.ghost .scrim { background: linear-gradient(to top, rgba(43,39,34,0.62) 0%, rgba(43,39,34,0.24) 40%, rgba(241,233,214,0.18) 75%); }
+
+/* role badges + persona line */
+.d13 .role-badges { display: flex; gap: 6px; margin: 12px 0; align-items: center; }
+.d13 .rb { font-family: 'EB Garamond', serif; font-weight: 500; font-size: 8.5px; letter-spacing: 1.5px; text-transform: uppercase; border: 1px solid var(--borderStd); border-radius: 999px; padding: 3px 10px; color: var(--inkSoft); white-space: nowrap; background: var(--cardstock); }
+.d13 .rb.up { border-color: var(--up); color: var(--up); }
+.d13 .rb.down { border-color: var(--down); color: var(--down); }
+.d13 .persona-line { font-size: 15.5px; line-height: 1.5; margin-bottom: 14px; color: var(--ink); }
+.d13 .persona-line b { font-weight: 600; }
+
+/* gate — advisor accent + lock roundel + pill CTA */
+.d13 .gate-strip { border: 1px solid rgba(122,94,154,0.4); border-radius: 12px; padding: 10px 12px; margin-bottom: 9px; background: rgba(122,94,154,0.06); display: grid; grid-template-columns: 34px 1fr; gap: 11px; align-items: start; }
+.d13 .gate-strip .glock { width: 34px; height: 34px; border-radius: 9px; background: rgba(122,94,154,0.10); border: 1px solid rgba(122,94,154,0.32); display: flex; align-items: center; justify-content: center; color: var(--advisor); }
+.d13 .gate-strip .glock .uico { width: 17px; height: 17px; }
+.d13 .gate-strip .layer-label { color: var(--advisor); margin-bottom: 4px; }
+.d13 .gate-strip p { font-size: 12px; line-height: 1.5; color: var(--inkSoft); }
+.d13 .gate-strip .unlock { display: inline-flex; align-items: center; gap: 5px; margin-top: 7px; font-family: 'EB Garamond', serif; font-size: 11px; font-weight: 600; color: var(--silk); background: var(--ink); border-radius: 999px; padding: 4px 12px; cursor: pointer; }
+.d13 .gate-strip .unlock .uico { width: 12px; height: 12px; }
+
+/* expander · codex link · swipe dots */
+.d13 .expander { font-size: 13px; color: var(--bronzeDark); padding: 7px 2px; display: flex; align-items: center; gap: 6px; }
+.d13 .expander .uico { width: 13px; height: 13px; }
+.d13 .codex-link { font-size: 11.5px; color: var(--inkLight); text-align: center; margin-top: 6px; }
+.d13 .swipe-dots { text-align: center; font-size: 10px; letter-spacing: 5px; color: var(--inkLight); margin-top: auto; padding-top: 10px; }
+
+/* ghost register (P7) */
+.d13 .ghosted-card .persona-line { color: var(--inkSoft); }
+.d13 .ghosted-card .layer { border-style: dashed; background: rgba(248,241,225,0.55); box-shadow: none; }
+.d13 .ghosted-card .layer p { color: var(--inkLight); }
+
+/* P5 · 八字 Four-Pillars chart */
+.d13 .bazi-head { text-align: center; margin: 14px 0 6px; }
+.d13 .bazi-head .bz-en { font-family: 'EB Garamond', serif; font-size: 8px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--inkLight); }
+.d13 .bazi-chart { display: flex; gap: 8px; justify-content: center; align-items: stretch; margin: 10px 0 8px; }
+.d13 .bz-col { flex: 1; max-width: 80px; background: var(--cardstock); border: 1px solid var(--borderLight); border-radius: 14px; box-shadow: var(--shadow-card); display: flex; flex-direction: column; align-items: center; padding: 8px 5px 9px; }
+.d13 .bz-col.self { border: 1.5px solid var(--dmBorder); background: rgba(248,241,225,0.97); box-shadow: 0 0 0 3px rgba(88,74,62,0.06), var(--shadow-tile); }
+.d13 .bz-col.unset { border: 1.5px dashed var(--inkMist); background: repeating-linear-gradient(45deg, rgba(184,175,161,0.05) 0 7px, transparent 7px 14px); }
+.d13 .bz-cap { font-family: 'EB Garamond', serif; font-size: 7.5px; letter-spacing: 1.4px; text-transform: uppercase; color: var(--inkLight); margin-bottom: 6px; text-align: center; }
+.d13 .bz-col.self .bz-cap { color: var(--dmBorder); font-weight: 600; }
+.d13 .bz-char { display: flex; align-items: center; justify-content: center; gap: 4px; width: 92%; padding: 5px 0; border-radius: 9px; color: var(--ink); }
+.d13 .bz-ico { width: 19px; height: 19px; flex: none; color: inherit; }
+.d13 .bz-glyph { font-family: 'Noto Serif TC', 'Songti SC', serif; font-size: 26px; line-height: 1; font-weight: 500; color: inherit; }
+.d13 .bz-char.e-wood  { color: var(--woodDeep);  background: color-mix(in srgb, var(--wood) 9%, transparent); }
+.d13 .bz-char.e-fire  { color: var(--fireDeep);  background: color-mix(in srgb, var(--fire) 9%, transparent); }
+.d13 .bz-char.e-earth { color: var(--earthDeep); background: color-mix(in srgb, var(--earth) 10%, transparent); }
+.d13 .bz-char.e-metal { color: var(--metalDeep); background: color-mix(in srgb, var(--metal) 10%, transparent); }
+.d13 .bz-char.e-water { color: var(--waterDeep); background: color-mix(in srgb, var(--water) 9%, transparent); }
+.d13 .bz-div { width: 30px; height: 1px; background: var(--borderStd); opacity: 0.55; margin: 3px 0; }
+.d13 .bz-hidden { display: flex; flex-direction: column; align-items: center; gap: 3px; width: 100%; margin-top: 7px; padding-top: 7px; border-top: 1px dashed var(--borderStd); min-height: 60px; }
+.d13 .bz-col.unset .bz-hidden { border-top-color: var(--inkMist); }
+.d13 .bz-hlabel { font-family: 'Noto Serif TC', serif; font-size: 8.5px; letter-spacing: 2px; color: var(--inkMist); margin-bottom: 1px; padding-left: 2px; }
+.d13 .bz-hrow { display: flex; align-items: center; gap: 3px; color: var(--ink); }
+.d13 .bz-hico { width: 12px; height: 12px; flex: none; color: inherit; }
+.d13 .bz-hc { font-family: 'Noto Serif TC', serif; font-size: 12.5px; line-height: 1.05; color: inherit; }
+.d13 .bz-hrow.e-wood  { color: var(--woodDeep); }
+.d13 .bz-hrow.e-fire  { color: var(--fireDeep); }
+.d13 .bz-hrow.e-earth { color: var(--earthDeep); }
+.d13 .bz-hrow.e-metal { color: var(--metalDeep); }
+.d13 .bz-hrow.e-water { color: var(--waterDeep); }
+.d13 .bz-hmuted { color: var(--inkMist); font-size: 13px; line-height: 1; }
+.d13 .bz-col.unset .bz-glyph { color: var(--inkMist); font-size: 23px; }
+.d13 .viz-ph { text-align: center; padding: 22px 0; color: var(--inkLight); font-family: 'JetBrains Mono', Consolas, monospace; font-size: 9.5px; background: repeating-linear-gradient(-45deg, rgba(43,39,34,0.03) 0 8px, transparent 8px 16px); border-radius: 8px; }
 .d13 .tabbar .tab { width: 60px; display: flex; flex-direction: column; align-items: center; background: none; border: none; cursor: pointer; }
 .d13 .tabbar .tab .tico { width: 24px; height: 24px; color: var(--inkLight); }
 .d13 .tabbar .tab .tico svg { width: 100%; height: 100%; display: block; }
