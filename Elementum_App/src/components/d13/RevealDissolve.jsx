@@ -20,7 +20,9 @@ const win = (p, a, b) => clamp((p - a) / (b - a));
 const easeOut = (t) => 1 - Math.pow(1 - t, 3);
 const lerp = (a, b, t) => a + (b - a) * t;
 // seal travel: plate spot → wheel center (stage coords)
-const S0 = { x: 127, y: 88, s: 120 };
+// S0.y sits the seal below the eyebrow with the design's ~48px breathing gap
+// (P1 seal-ph margin-top:48px); only affects the plate frame, not the glide end.
+const S0 = { x: 127, y: 120, s: 120 };
 const S1 = { x: 53, y: 89, s: 276 };
 
 export default function RevealDissolve({ identity, energies, dayMaster, selected, onSelect, onRead, onTab, onSeal, tilde }) {
@@ -105,7 +107,7 @@ export default function RevealDissolve({ identity, energies, dayMaster, selected
               <div className="status" style={{ position: 'absolute', left: 0, right: 0, top: 0, zIndex: 40 }}><span>9:41</span><span className="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
 
               <div ref={textTop} className="ds-plate-text" style={{ position: 'absolute', left: 24, right: 24, top: 84, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                <span className="eyebrow" style={{ color: 'var(--inkSoft)' }}>YOUR ELEMENTUM IDENTITY</span>
+                <span className="eyebrow" style={{ color: 'var(--inkSoft)' }}>YOUR ELEMENT</span>
                 <div style={{ height: 150 }} />
                 <div className="arch-name" style={{ fontSize: 36, marginTop: 14 }}>{identity.archetype}</div>
                 <div className="pinyin" style={{ marginTop: 6 }}>{identity.pinyin}</div>

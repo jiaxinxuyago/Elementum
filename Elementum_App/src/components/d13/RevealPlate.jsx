@@ -28,8 +28,8 @@ export default function RevealPlate({
         <div className="bg-reveal-fog" />
         <div className="status"><span>9:41</span><span className="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
         <div className="plate-col">
-          <span className="eyebrow" style={{ textAlign: 'center', color: 'var(--inkSoft)' }}>YOUR ELEMENTUM IDENTITY</span>
-          <div className="seal-stamp" style={{ marginTop: 40 }}>
+          <span className="eyebrow" style={{ textAlign: 'center', color: 'var(--inkSoft)' }}>YOUR ELEMENT</span>
+          <div className="seal-stamp" style={{ marginTop: 48 }}>
             <img className="seal-img" src={`/concept-arts/stems/${dayMaster}.png`} alt={archetype} width="124" height="124" />
           </div>
           <div className="arch-name" style={{ fontSize: 36, marginTop: 14 }}>{archetype}</div>
