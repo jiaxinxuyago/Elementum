@@ -23,7 +23,7 @@ const lerp = (a, b, t) => a + (b - a) * t;
 const S0 = { x: 127, y: 88, s: 120 };
 const S1 = { x: 53, y: 89, s: 276 };
 
-export default function RevealDissolve({ identity, energies, dayMaster, selected, onSelect, onRead }) {
+export default function RevealDissolve({ identity, energies, dayMaster, selected, onSelect, onRead, onTab, onSeal, tilde }) {
   const scroller = useRef(null), paint = useRef(null), textTop = useRef(null), textBottom = useRef(null);
   const peek = useRef(null), seal = useRef(null), eyebrow = useRef(null), after = useRef(null);
   const tabbar = useRef(null), hint = useRef(null), bgRevealTop = useRef(null), bgRevealBot = useRef(null);
@@ -86,14 +86,14 @@ export default function RevealDissolve({ identity, energies, dayMaster, selected
   }, []);
 
   const tab = (id, active) => (
-    <div className={`tab${active ? ' active' : ''}`}><span className="tico"><svg viewBox="0 0 24 24"><use href={`#tab-${id}`} /></svg></span><span className="seal-dot" /></div>
+    <button type="button" className={`tab${active ? ' active' : ''}`} onClick={() => onTab && onTab(id)}>
+      <span className="tico"><svg viewBox="0 0 24 24"><use href={`#tab-${id}`} /></svg></span>
+    </button>
   );
 
   return (
-    <div className="phone live-phone">
-      <div className="notch" />
-      <div className="screen">
-        <div ref={scroller} className="dissolve-scroll">
+    <div className="d13-fill live-phone">
+      <div ref={scroller} className="dissolve-scroll">
           <div className="dissolve-track">
             <div className="dissolve-stage">
               <img ref={bgRevealTop} className="bg-reveal-top" src="/backgrounds/bg-reveal-01-distant-peaks.png" alt="" />
@@ -125,11 +125,12 @@ export default function RevealDissolve({ identity, energies, dayMaster, selected
                   energies={energies}
                   dayMaster={dayMaster}
                   scale={0.92}
+                  tilde={tilde}
                   seal={false}
                   centerName={identity.archetype}
                 />
               </div>
-              <div ref={seal} className="ds-seal"><img src={`/concept-arts/stems/${dayMaster}.png`} alt="" /></div>
+              <div ref={seal} className="ds-seal" style={onSeal ? { cursor: 'pointer' } : null} onClick={onSeal}><img src={`/concept-arts/stems/${dayMaster}.png`} alt="" /></div>
 
               <div ref={after} className="ds-after" style={{ opacity: 0 }}>
                 <div className="rx-ribbon" style={{ margin: '0 0 8px' }}>{RIBBON_INTRO[selected]}</div>
@@ -146,8 +147,6 @@ export default function RevealDissolve({ identity, energies, dayMaster, selected
             </div>
           </div>
         </div>
-      </div>
-      <div className="home-bar" />
     </div>
   );
 }

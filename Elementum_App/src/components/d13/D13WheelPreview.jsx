@@ -28,7 +28,7 @@ export default function D13WheelPreview() {
   return (
     <div style={{ minHeight: '100vh', background: '#1a1815', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 30 }}>
       <D13Sprite />
-      <div className="d13">
+      <div className="d13" style={{ position: 'relative', width: 390, height: 844, borderRadius: 40, overflow: 'hidden', background: 'var(--frame)', boxShadow: '0 30px 60px rgba(40,30,20,0.45)' }}>
         <RevealDissolve
           identity={BLADE_IDENTITY}
           energies={ec.energies}

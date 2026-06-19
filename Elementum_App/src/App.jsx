@@ -32,10 +32,9 @@ import { UpgradeModalProvider, UpgradeModalHost, useUpgrade } from './components
 // these screens) out of the initial bundle — it arrives when a reading/dashboard
 // screen is actually opened. Welcome / onboarding / loading stay eager so first
 // paint and the onboarding flow are instant.
-const RevealScreen = lazy(() => import('./components/RevealScreen.jsx'));
+// RevealScreen + ReadingScreen replaced in place by the D13 surfaces below.
 const TodayScreen = lazy(() => import('./components/dashboard/tabs/TodayScreen.jsx'));
 const GuidanceScreen = lazy(() => import('./components/dashboard/tabs/GuidanceScreen.jsx'));
-const ReadingScreen = lazy(() => import('./components/dashboard/tabs/ReadingScreen.jsx'));
 const CompatScreen = lazy(() => import('./components/dashboard/tabs/CompatScreen.jsx'));
 const ProfileScreen = lazy(() => import('./components/dashboard/tabs/ProfileScreen.jsx'));
 const RawChartPage = lazy(() => import('./components/dashboard/RawChartPage.jsx'));
@@ -60,6 +59,8 @@ const SeasonalCalibrationDetail = lazy(() => import('./components/dashboard/read
 const LockedDetail = lazy(() => import('./components/dashboard/reading-detail/LockedDetail.jsx'));
 const DevBar = lazy(() => import('./components/dev/DevBar.jsx'));
 const D13WheelPreview = lazy(() => import('./components/d13/D13WheelPreview.jsx'));
+const D13RevealScreen = lazy(() => import('./components/d13/D13RevealScreen.jsx'));
+const D13ReadingScreen = lazy(() => import('./components/d13/D13ReadingScreen.jsx'));
 
 // Lazy-load placeholder — a silk page while a screen's chunk arrives (usually
 // imperceptible; chunks are cached after first visit).
@@ -320,9 +321,9 @@ export default function App() {
       rendered = <LoadingScreen onComplete={goto('reveal')} />;
       break;
     case 'reveal':
-      // §AM.1: Reveal CTA lands the user inside the Reading tab catalogue
-      // (the dashboard's centre tab), not on a separate Energy Map page.
-      rendered = <RevealScreen onEnterDashboard={goto('app-reading')} />;
+      // D13: the reveal is the ceremonial plate that scroll-dissolves into the
+      // energy catalogue; the tab bar fades in live at the end (Reading active).
+      rendered = <D13RevealScreen onTab={routeTab} />;
       break;
 
     // ────────────────────────────────────────────────────────────────
@@ -414,14 +415,9 @@ export default function App() {
       );
       break;
     case 'app-reading':
-      rendered = (
-        <DashboardShell active="reading" onTabChange={routeTab} bg={SCREEN_BG.reading}>
-          <ReadingScreen
-            onOpen={(route) => setScreen(route)}
-            onOpenEnergyMap={goto('app-energymap')}
-          />
-        </DashboardShell>
-      );
+      // D13: the at-rest energy catalogue (its own icons-only tab bar routes
+      // the dashboard). Forward links (Pillar Chart, Read, seal) are Handoff-2.
+      rendered = <D13ReadingScreen onTab={routeTab} />;
       break;
     case 'app-compat':
       rendered = (

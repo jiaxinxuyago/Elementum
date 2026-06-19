@@ -30,6 +30,20 @@
 }
 .d13 *, .d13 *::before, .d13 *::after { box-sizing: border-box; }
 
+/* In-app the D13 surfaces fill the app PhoneFrame (no drawn bezel — that
+   is preview-only). Acts as the .screen container. */
+.d13-fill { position: absolute; inset: 0; overflow: hidden; background: var(--frame); display: flex; flex-direction: column; }
+
+/* "coming soon" toast for Handoff-2 destinations not yet wired in */
+.d13-wip {
+  position: absolute; left: 50%; bottom: 92px; transform: translateX(-50%); z-index: 80;
+  font-family: 'EB Garamond', serif; font-size: 12px; letter-spacing: 1px; color: var(--silk);
+  background: rgba(43,39,34,0.92); border-radius: 999px; padding: 8px 16px; white-space: nowrap;
+  box-shadow: 0 8px 22px rgba(40,30,20,0.35); pointer-events: none;
+  animation: d13WipFade 1800ms ease-out forwards;
+}
+@keyframes d13WipFade { 0% { opacity: 0; transform: translate(-50%, 8px); } 14% { opacity: 1; transform: translate(-50%, 0); } 80% { opacity: 1; } 100% { opacity: 0; } }
+
 /* ───────── element marks + icons ───────── */
 .d13 .elmark { display: inline-block; fill: currentColor; flex-shrink: 0; }
 .d13 .uico { display: inline-block; width: 16px; height: 16px; flex-shrink: 0; }
