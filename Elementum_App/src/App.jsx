@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Suspense, lazy } from 'react';
+import React, { useState, useEffect, useTransition, Suspense, lazy } from 'react';
 import {
   ChartProvider,
   useChart,
@@ -30,17 +30,23 @@ import { UpgradeModalProvider, UpgradeModalHost, useUpgrade } from './components
 import D13TabBar from './components/d13/D13TabBar.jsx';
 import D13Sprite from './components/d13/D13Sprite.jsx';
 
+// ── Eager core (no Suspense flash) ──────────────────────────────────────────
+// The reveal + the five nav-bar destinations are loaded into the main bundle
+// so tapping a tab, and the reveal handing off to the catalogue, NEVER fetches
+// a chunk — the swap is synchronous with no Suspense fallback (the "white
+// blink"). These pull in the reading content (archetypeSource) which the reveal
+// needs the moment it plays anyway; the long onboarding flow gives the bundle
+// plenty of time to arrive before first paint of any of them.
+import D13RevealScreen from './components/d13/D13RevealScreen.jsx';
+import D13ReadingScreen from './components/d13/D13ReadingScreen.jsx';
+import TodayScreen from './components/dashboard/tabs/TodayScreen.jsx';
+import GuidanceScreen from './components/dashboard/tabs/GuidanceScreen.jsx';
+import CompatScreen from './components/dashboard/tabs/CompatScreen.jsx';
+import ProfileScreen from './components/dashboard/tabs/ProfileScreen.jsx';
+
 // ── Code-split (Group E) ────────────────────────────────────────────────────
-// Every post-onboarding screen loads on demand. This pulls all the screen code
-// AND the big reading content (archetypeSource.js, ~276 KB, imported only by
-// these screens) out of the initial bundle — it arrives when a reading/dashboard
-// screen is actually opened. Welcome / onboarding / loading stay eager so first
-// paint and the onboarding flow are instant.
-// RevealScreen + ReadingScreen replaced in place by the D13 surfaces below.
-const TodayScreen = lazy(() => import('./components/dashboard/tabs/TodayScreen.jsx'));
-const GuidanceScreen = lazy(() => import('./components/dashboard/tabs/GuidanceScreen.jsx'));
-const CompatScreen = lazy(() => import('./components/dashboard/tabs/CompatScreen.jsx'));
-const ProfileScreen = lazy(() => import('./components/dashboard/tabs/ProfileScreen.jsx'));
+// Secondary / heavier screens still load on demand, but are warmed by
+// prefetchScreens() on idle so they're cached before the user reaches them.
 const RawChartPage = lazy(() => import('./components/dashboard/RawChartPage.jsx'));
 const CodexScreen = lazy(() => import('./components/dashboard/CodexScreen.jsx'));
 const ChartResonanceScreen = lazy(() => import('./components/dashboard/ChartResonanceScreen.jsx'));
@@ -63,14 +69,94 @@ const SeasonalCalibrationDetail = lazy(() => import('./components/dashboard/read
 const LockedDetail = lazy(() => import('./components/dashboard/reading-detail/LockedDetail.jsx'));
 const DevBar = lazy(() => import('./components/dev/DevBar.jsx'));
 const D13WheelPreview = lazy(() => import('./components/d13/D13WheelPreview.jsx'));
-const D13RevealScreen = lazy(() => import('./components/d13/D13RevealScreen.jsx'));
-const D13ReadingScreen = lazy(() => import('./components/d13/D13ReadingScreen.jsx'));
 const D13DayMasterScreen = lazy(() => import('./components/d13/D13DayMasterScreen.jsx'));
 const D13PillarChartScreen = lazy(() => import('./components/d13/D13PillarChartScreen.jsx'));
 const D13EnergyCardScreen = lazy(() => import('./components/d13/D13EnergyCardScreen.jsx'));
 
-// Lazy-load placeholder — a silk page while a screen's chunk arrives (usually
-// imperceptible; chunks are cached after first visit).
+// Warm every on-demand screen chunk during idle time so navigation never
+// shows the Suspense fallback (the "white blink"). These are the SAME import
+// paths as the lazy() calls above, so Vite/the browser serve the identical
+// cached chunk — by the time the user taps a tab or the reveal hands off to
+// the catalogue, the code is already in memory and the swap is instant.
+// Runs once; dev-only harnesses (DevBar, D13WheelPreview) are intentionally
+// excluded. First paint is unaffected — this only fires when the main thread
+// is idle.
+let _prefetchedScreens = false;
+function prefetchScreens() {
+  if (_prefetchedScreens || typeof window === 'undefined') return;
+  _prefetchedScreens = true;
+  const run = () => {
+    Promise.all([
+      import('./components/dashboard/RawChartPage.jsx'),
+      import('./components/dashboard/CodexScreen.jsx'),
+      import('./components/dashboard/ChartResonanceScreen.jsx'),
+      import('./components/dashboard/ElementalDrawScreen.jsx'),
+      import('./components/dashboard/EnergyManualScreen.jsx'),
+      import('./components/dashboard/SelfReportScreen.jsx'),
+      import('./components/dashboard/AIConsultantScreen.jsx'),
+      import('./components/dashboard/DayPage.jsx'),
+      import('./components/dashboard/MonthPage.jsx'),
+      import('./components/dashboard/YearPage.jsx'),
+      import('./components/dashboard/DecadePage.jsx'),
+      import('./components/dashboard/EnergyMapScreen.jsx'),
+      import('./components/dashboard/reading-detail/ElementalNatureDetail.jsx'),
+      import('./components/dashboard/reading-detail/DayMasterDetail.jsx'),
+      import('./components/dashboard/reading-detail/TenGodsDetail.jsx'),
+      import('./components/dashboard/reading-detail/ForcesInMotionDetail.jsx'),
+      import('./components/dashboard/reading-detail/LifeChaptersDetail.jsx'),
+      import('./components/dashboard/reading-detail/ChartPatternsDetail.jsx'),
+      import('./components/dashboard/reading-detail/SeasonalCalibrationDetail.jsx'),
+      import('./components/dashboard/reading-detail/LockedDetail.jsx'),
+      import('./components/d13/D13DayMasterScreen.jsx'),
+      import('./components/d13/D13PillarChartScreen.jsx'),
+      import('./components/d13/D13EnergyCardScreen.jsx'),
+    ]).catch(() => {});
+  };
+  if ('requestIdleCallback' in window) window.requestIdleCallback(run, { timeout: 2000 });
+  else setTimeout(run, 600);
+}
+
+// Warm the screen background PNGs so a page's painted ground is already
+// decoded the first time the screen mounts — otherwise iOS Safari shows the
+// near-white base color for a beat while the PNG fetches (the "white flash").
+// These are the finished plate/ground images referenced by the dashboard
+// shells (PageBg → /backgrounds/<name>), the D13 surfaces, and onboarding.
+// Started promptly (not deep-idle) since they're visual-critical, but after
+// first paint so they never delay the welcome screen.
+let _prefetchedBg = false;
+function prefetchBackgrounds() {
+  if (_prefetchedBg || typeof window === 'undefined') return;
+  _prefetchedBg = true;
+  const urls = [
+    // D13 surfaces (catalogue / energy card / reveal grounds)
+    '/backgrounds/bg-energymap-01-top-band.png',
+    '/assets/backgrounds/bg-energymap-02-corner-quartet.png',
+    '/backgrounds/bg-reveal-01-distant-peaks.png',
+    '/backgrounds/bg-reveal-02-floating-island.png',
+    // Dashboard tab plates (SCREEN_BG)
+    '/backgrounds/bg-reading-04-rice-paper.png',
+    '/backgrounds/bg-onboarding-04-quiet-paper.png',
+    '/backgrounds/bg-energymap-03-center-glow.png',
+    '/backgrounds/bg-onboarding-01-corner-stamp.png',
+    // Today-hub drill-down plates (PLATE_BG)
+    '/backgrounds/bg-energymap-02-corner-quartet.png',
+    '/backgrounds/bg-reveal-04-mist-veil.png',
+    '/backgrounds/bg-reading-01-side-margins.png',
+    // Onboarding shell
+    '/assets/backgrounds/bg-onboarding-04-quiet-paper.png',
+  ];
+  const warm = () => urls.forEach((u) => {
+    const img = new Image();
+    img.src = u;
+    if (img.decode) img.decode().catch(() => {});
+  });
+  // Kick off soon after first paint; don't wait for deep idle.
+  setTimeout(warm, 250);
+}
+
+// Lazy-load placeholder — a silk page while a screen's chunk arrives. With
+// prefetchScreens() warming chunks on idle, this is rarely seen after the
+// first moments; it matches the frame's silk so any residual frame is calm.
 function ScreenFallback() {
   return <div style={{ width: '100%', height: '100%', minHeight: 480, background: SILK }} />;
 }
@@ -218,12 +304,17 @@ function readHash() {
 
 export default function App() {
   const [screen, setScreenState] = useState(readHash);
+  // Navigations run as a transition: if the target screen is still lazy-loading,
+  // React keeps the CURRENT screen on-screen until it's ready instead of
+  // dropping to the blank Suspense fallback — so there's no "white blink" even
+  // on a cold cache. Eager core screens (above) swap synchronously regardless.
+  const [, startTransition] = useTransition();
 
   // Keep URL hash in sync so reloads preserve state (and screens are
   // deep-linkable during development).
   const setScreen = (next) => {
     const name = typeof next === 'function' ? next(screen) : next;
-    setScreenState(name);
+    startTransition(() => setScreenState(name));
     if (typeof window !== 'undefined') {
       window.location.hash = `#/${name}`;
     }
@@ -231,10 +322,14 @@ export default function App() {
 
   // Listen for external hash changes (e.g. preview_eval setting location.hash)
   useEffect(() => {
-    const onHashChange = () => setScreenState(readHash());
+    const onHashChange = () => startTransition(() => setScreenState(readHash()));
     window.addEventListener('hashchange', onHashChange);
     return () => window.removeEventListener('hashchange', onHashChange);
   }, []);
+
+  // Warm all on-demand screen chunks on idle so tab/nav/reveal transitions
+  // are instant (no Suspense "white blink"). Runs once; first paint unaffected.
+  useEffect(() => { prefetchScreens(); prefetchBackgrounds(); }, []);
 
   // Dev-only helper: window.__goto('step3') to jump to any screen for testing.
   // Gated to dev builds (IS_DEV) so the navigation/test hook never ships to users.
@@ -352,7 +447,7 @@ export default function App() {
     case 'reveal':
       // D13: the reveal is the ceremonial plate that scroll-dissolves into the
       // energy catalogue; the tab bar fades in live at the end (Reading active).
-      rendered = <D13RevealScreen onTab={routeTab} />;
+      rendered = <D13RevealScreen onTab={routeTab} onDone={() => setScreen('app-reading')} />;
       break;
 
     // ────────────────────────────────────────────────────────────────

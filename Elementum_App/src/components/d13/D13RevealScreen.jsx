@@ -12,7 +12,7 @@ import './d13.css';
 import RevealDissolve from './RevealDissolve.jsx';
 import { useD13 } from './useD13.js';
 
-export default function D13RevealScreen({ onTab }) {
+export default function D13RevealScreen({ onTab, onDone }) {
   const { ec, identity, hourUnknown, sel, setSel, wip, showWip } = useD13();
   if (!ec || !identity) return null;
   return (
@@ -27,6 +27,7 @@ export default function D13RevealScreen({ onTab }) {
         onRead={() => showWip('Coming soon')}
         onSeal={() => showWip('Coming soon')}
         onTab={onTab}
+        onComplete={onDone}
       />
       {/* The revelation flash continues from LoadingScreen's white bloom: the
           plate emerges as this fades out, so the hand-off reads as one ritual. */}

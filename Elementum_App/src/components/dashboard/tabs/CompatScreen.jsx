@@ -62,15 +62,36 @@ export default function CompatScreen() {
   // ── INTRO ─────────────────────────────────────────────────────
   if (phase === 'intro') {
     return (
-      <main style={{ minHeight: '100%', padding: '54px 22px 24px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
-        <h1 style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 38, fontWeight: 400, color: ink, margin: '0 0 10px' }}>Friends</h1>
-        <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 15, lineHeight: 1.6, color: inkSoft, maxWidth: 300, margin: '0 0 32px' }}>
-          Compare your energy with friends, family, or partners.
-        </p>
-        <DualSeal pigKey={userPigKey} pig={userPig} />
-        <button type="button" onClick={() => setPhase('input')} style={primaryBtn}>Compare with someone</button>
-        <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12, color: inkLight, marginTop: 18 }}>
-          {isSeeker ? 'Seeker: full readings, unlimited' : 'Free: preview any match · Seeker: full reading + share'}
+      <main style={{ minHeight: '100%', padding: '54px 22px 24px' }}>
+        {/* Page header — left-aligned eyebrow + title, matching the other tab
+            landings (Today / Guidance / Profile) so every tab opens the same
+            way. The compare visual + CTA stay centered as the hero below. */}
+        <header style={{ marginBottom: 12, padding: '2px 2px 0' }}>
+          <span style={{
+            fontFamily: "'EB Garamond', Georgia, serif",
+            fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
+            color: bronzeDark, fontWeight: 500,
+          }}>
+            Compatibility · 合 盘
+          </span>
+          <h1 style={{
+            fontFamily: "'Cormorant Garamond', Georgia, serif",
+            fontSize: 30, fontWeight: 400, lineHeight: 1.1,
+            color: ink, margin: '4px 0 0',
+          }}>
+            Friends
+          </h1>
+        </header>
+
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', marginTop: 18 }}>
+          <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 15, lineHeight: 1.6, color: inkSoft, maxWidth: 300, margin: '0 0 32px' }}>
+            Compare your energy with friends, family, or partners.
+          </p>
+          <DualSeal pigKey={userPigKey} pig={userPig} />
+          <button type="button" onClick={() => setPhase('input')} style={primaryBtn}>Compare with someone</button>
+          <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12, color: inkLight, marginTop: 18 }}>
+            {isSeeker ? 'Seeker: full readings, unlimited' : 'Free: preview any match · Seeker: full reading + share'}
+          </div>
         </div>
       </main>
     );
