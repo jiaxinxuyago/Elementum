@@ -5,9 +5,16 @@
 // 3px bronze progress bar, step counter, bronze question, italic
 // subtitle, input slot, and Back/Continue row. ScrollPicker is the
 // iOS-style wheel used by Year/Month/Day/Hour and the Step 7A time.
+//
+// ScrollPicker physics (D13 QA): a real momentum wheel — the strip
+// follows the finger 1:1, flings with gravity-inertia deceleration,
+// and snaps to the nearest row at rest. Built on Framer Motion drag +
+// dragTransition.modifyTarget so the feel is identical on iOS Safari
+// and Android Chrome. Replaces the old discrete row-stepper.
 // ===================================================================
 
 import React, { useCallback, useEffect, useRef, useState } from 'react';
+import { motion, useMotionValue, useTransform, useMotionValueEvent, animate } from 'framer-motion';
 import {
   INK,
   INK_SOFT,
@@ -21,7 +28,51 @@ import {
 } from '../../styles/tokens.jsx';
 
 // -------------------------------------------------------------
-// ScrollPicker — minimal iOS-style wheel, silk palette
+// PickerRow — one wheel value. Opacity + scale fall off smoothly
+// with distance from the centre band, driven live off the strip's
+// motion value so the fade tracks the finger continuously.
+// -------------------------------------------------------------
+function PickerRow({ y, index, ROW_H, centerPx, val, formatter, onPick }) {
+  const opacity = useTransform(y, (v) => {
+    const floatIdx = (centerPx - v) / ROW_H;
+    const d = Math.abs(index - floatIdx);
+    return d < 0.5 ? 1 : Math.max(0.12, 1 - d * 0.42);
+  });
+  const scale = useTransform(y, (v) => {
+    const floatIdx = (centerPx - v) / ROW_H;
+    const d = Math.abs(index - floatIdx);
+    return Math.max(0.72, 1 - d * 0.17);
+  });
+  return (
+    <motion.div
+      onTap={onPick}
+      style={{
+        position: 'absolute',
+        top: index * ROW_H,
+        left: 0,
+        right: 0,
+        height: ROW_H,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        fontFamily: "'Cormorant Garamond', serif",
+        fontWeight: 500,
+        fontSize: 30,
+        letterSpacing: 0.5,
+        color: INK,
+        opacity,
+        scale,
+        willChange: 'transform, opacity',
+        cursor: 'pointer',
+      }}
+    >
+      {formatter(val)}
+    </motion.div>
+  );
+}
+
+// -------------------------------------------------------------
+// ScrollPicker — momentum wheel, silk palette
 // -------------------------------------------------------------
 export function ScrollPicker({
   values,
@@ -35,20 +86,67 @@ export function ScrollPicker({
   const VISIBLE = visibleRows === 3 ? 3 : 5;
   const center = Math.floor(VISIBLE / 2);
   const containerH = ROW_H * VISIBLE;
+  const centerPx = ROW_H * center;
+  const N = values.length;
 
-  const wheelRef = useRef(null);
+  const clampIdx = useCallback((i) => Math.max(0, Math.min(N - 1, i)), [N]);
+  // translateY that centres index i in the selection band.
+  const indexToY = useCallback((i) => centerPx - i * ROW_H, [centerPx]);
 
-  // Step the selection by ±delta, clamped to [0, values.length - 1].
-  const step = useCallback(
-    (delta) => {
-      const next = Math.max(0, Math.min(values.length - 1, selectedIndex + delta));
-      if (next !== selectedIndex) onChange(next);
-    },
-    [onChange, selectedIndex, values.length]
+  const y = useMotionValue(indexToY(clampIdx(selectedIndex)));
+  // True while the finger / inertia controls the strip — suppresses the
+  // external-sync effect so a fling is never yanked back mid-flight.
+  const controlling = useRef(false);
+  const liveIdx = useRef(clampIdx(selectedIndex));
+  // Only a window of rows is mounted (perf on long lists like Year 1900–now);
+  // it recentres as the live index moves, so dragging stays continuous.
+  const [winCenter, setWinCenter] = useState(clampIdx(selectedIndex));
+
+  const dragTop = indexToY(N - 1); // most-negative y (last value)
+  const dragBottom = indexToY(0);  // most-positive y (first value)
+
+  // Inertia target snapped to the nearest row, clamped to range.
+  const snapTarget = useCallback(
+    (target) => indexToY(clampIdx(Math.round((centerPx - target) / ROW_H))),
+    [indexToY, clampIdx, centerPx]
   );
 
-  // Mouse wheel / trackpad scroll. We debounce by accumulating small deltas
-  // so a single flick advances only one row, not ten.
+  // Live read-out: as the strip moves, report the centred index up and keep
+  // the mounted window centred. Firing during the fling keeps any live
+  // preview (e.g. Step 7A header) in sync with the deceleration.
+  useMotionValueEvent(y, 'change', (v) => {
+    const i = clampIdx(Math.round((centerPx - v) / ROW_H));
+    if (i !== liveIdx.current) {
+      liveIdx.current = i;
+      setWinCenter(i);
+      onChange(i);
+    }
+  });
+
+  // External selection changes (carets, keyboard, parent reset) — spring the
+  // strip to the new row, unless the user is actively driving it.
+  useEffect(() => {
+    const i = clampIdx(selectedIndex);
+    if (!controlling.current && i !== liveIdx.current) {
+      liveIdx.current = i;
+      setWinCenter(i);
+      animate(y, indexToY(i), { type: 'spring', stiffness: 340, damping: 36 });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedIndex]);
+
+  // Step the selection by ±delta (carets / keyboard / wheel).
+  const step = useCallback(
+    (delta) => {
+      const next = clampIdx(selectedIndex + delta);
+      if (next !== selectedIndex) onChange(next);
+    },
+    [onChange, selectedIndex, clampIdx]
+  );
+
+  // Mouse wheel / trackpad — accumulate small deltas so a flick advances one
+  // row, with a brief lock so a fast scroll doesn't skip many.
+  const wheelRef = useRef(null);
   const accumRef = useRef(0);
   const wheelLockRef = useRef(false);
   useEffect(() => {
@@ -58,71 +156,33 @@ export function ScrollPicker({
       e.preventDefault();
       if (wheelLockRef.current) return;
       accumRef.current += e.deltaY;
-      const threshold = 30; // wheel units per row advance
-      if (Math.abs(accumRef.current) >= threshold) {
-        const dir = accumRef.current > 0 ? 1 : -1;
-        step(dir);
+      if (Math.abs(accumRef.current) >= 30) {
+        step(accumRef.current > 0 ? 1 : -1);
         accumRef.current = 0;
-        // brief lock so a fast flick doesn't skip multiple rows
         wheelLockRef.current = true;
-        setTimeout(() => {
-          wheelLockRef.current = false;
-        }, 90);
+        setTimeout(() => { wheelLockRef.current = false; }, 90);
       }
     };
     el.addEventListener('wheel', onWheel, { passive: false });
     return () => el.removeEventListener('wheel', onWheel);
   }, [step]);
 
-  // Keyboard: ArrowUp/Down when the picker has focus.
   const onKeyDown = useCallback(
     (e) => {
-      if (e.key === 'ArrowUp') {
-        e.preventDefault();
-        step(-1);
-      } else if (e.key === 'ArrowDown') {
-        e.preventDefault();
-        step(1);
-      } else if (e.key === 'PageUp') {
-        e.preventDefault();
-        step(-5);
-      } else if (e.key === 'PageDown') {
-        e.preventDefault();
-        step(5);
-      }
+      if (e.key === 'ArrowUp') { e.preventDefault(); step(-1); }
+      else if (e.key === 'ArrowDown') { e.preventDefault(); step(1); }
+      else if (e.key === 'PageUp') { e.preventDefault(); step(-5); }
+      else if (e.key === 'PageDown') { e.preventDefault(); step(5); }
     },
     [step]
   );
 
-  // Touch / pointer drag: each ~ROW_H pixels of drag advances one row.
-  const dragRef = useRef({ startY: null, lastStep: 0 });
-  const onPointerDown = (e) => {
-    dragRef.current = { startY: e.clientY, lastStep: 0 };
-    e.currentTarget.setPointerCapture?.(e.pointerId);
-  };
-  const onPointerMove = (e) => {
-    if (dragRef.current.startY == null) return;
-    const totalSteps = Math.round((dragRef.current.startY - e.clientY) / ROW_H);
-    const delta = totalSteps - dragRef.current.lastStep;
-    if (delta !== 0) {
-      step(delta);
-      dragRef.current.lastStep = totalSteps;
-    }
-  };
-  const onPointerUp = (e) => {
-    dragRef.current = { startY: null, lastStep: 0 };
-    e.currentTarget.releasePointerCapture?.(e.pointerId);
-  };
-
-  const rows = [];
-  for (let i = -center; i <= center; i++) {
-    const idx = selectedIndex + i;
-    rows.push({
-      val: idx >= 0 && idx < values.length ? values[idx] : null,
-      offset: i,
-      realIdx: idx,
-    });
-  }
+  // Mounted window of rows around the live centre.
+  const RADIUS = VISIBLE === 3 ? 6 : 9;
+  const start = clampIdx(winCenter - RADIUS);
+  const end = clampIdx(winCenter + RADIUS);
+  const rowIdx = [];
+  for (let i = start; i <= end; i++) rowIdx.push(i);
 
   return (
     <div
@@ -134,9 +194,7 @@ export function ScrollPicker({
       }}
     >
       {/* Confirm indicator — small right-pointing triangle at the selected
-          row. Neutral utility marker: "this row is the one that will be saved
-          on Continue." Replaces an earlier element-sign decoration that read
-          ambiguously as a confirm affordance. */}
+          row: "this row is the one that will be saved on Continue." */}
       <div
         aria-hidden="true"
         style={{
@@ -158,10 +216,6 @@ export function ScrollPicker({
         ref={wheelRef}
         tabIndex={0}
         onKeyDown={onKeyDown}
-        onPointerDown={onPointerDown}
-        onPointerMove={onPointerMove}
-        onPointerUp={onPointerUp}
-        onPointerCancel={onPointerUp}
         role="listbox"
         aria-label="Scroll to select"
         style={{
@@ -188,6 +242,7 @@ export function ScrollPicker({
             borderTop: '1px solid rgba(139,115,85,0.22)',
             borderBottom: '1px solid rgba(139,115,85,0.22)',
             zIndex: 1,
+            pointerEvents: 'none',
           }}
         />
 
@@ -217,52 +272,45 @@ export function ScrollPicker({
           }}
         />
 
-        {/* rows — clicking a ghosted neighbor selects it */}
-        <div style={{ position: 'relative', zIndex: 2 }}>
-          {rows.map((r, i) => {
-            const isCenter = r.offset === 0;
-            const distance = Math.abs(r.offset);
-            const opacity = distance === 0 ? 1 : distance === 1 ? 0.5 : 0.22;
-            const fontSize = isCenter ? 30 : 20;
-            const color = isCenter ? INK : INK_LIGHT;
-            const clickable = r.val !== null && !isCenter;
-            return (
-              <div
-                key={i}
-                onClick={
-                  clickable
-                    ? (e) => {
-                        // Don't let a click propagate to the pointer-drag layer.
-                        e.stopPropagation();
-                        step(r.offset);
-                      }
-                    : undefined
-                }
-                style={{
-                  height: ROW_H,
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontFamily: "'Cormorant Garamond', serif",
-                  fontWeight: isCenter ? 500 : 400,
-                  fontSize,
-                  letterSpacing: 0.5,
-                  color,
-                  opacity,
-                  cursor: clickable ? 'pointer' : 'default',
-                  transition: 'all 250ms cubic-bezier(0.22, 1, 0.36, 1)',
-                }}
-              >
-                {r.val !== null ? formatter(r.val) : ''}
-              </div>
-            );
-          })}
-        </div>
+        {/* the draggable strip — follows the finger, flings with gravity
+            inertia, and snaps to the nearest row on release */}
+        <motion.div
+          style={{ y, position: 'absolute', left: 0, right: 0, top: 0, height: N * ROW_H, zIndex: 2 }}
+          drag="y"
+          dragConstraints={{ top: dragTop, bottom: dragBottom }}
+          dragElastic={0.12}
+          dragTransition={{
+            power: 0.22,
+            timeConstant: 300,
+            modifyTarget: snapTarget,
+            bounceStiffness: 420,
+            bounceDamping: 42,
+          }}
+          onDragStart={() => { controlling.current = true; }}
+          onDragEnd={() => {
+            // Release control a beat after the fling so the external-sync
+            // effect doesn't fight the inertia animation.
+            setTimeout(() => { controlling.current = false; }, 80);
+          }}
+        >
+          {rowIdx.map((i) => (
+            <PickerRow
+              key={i}
+              y={y}
+              index={i}
+              ROW_H={ROW_H}
+              centerPx={centerPx}
+              val={values[i]}
+              formatter={formatter}
+              onPick={() => onChange(i)}
+            />
+          ))}
+        </motion.div>
       </div>
 
       {/* minimal iOS-style carets */}
       <button
-        onClick={() => onChange(Math.max(0, selectedIndex - 1))}
+        onClick={() => step(-1)}
         aria-label="previous"
         style={{
           position: 'absolute',
@@ -281,9 +329,7 @@ export function ScrollPicker({
         ▲
       </button>
       <button
-        onClick={() =>
-          onChange(Math.min(values.length - 1, selectedIndex + 1))
-        }
+        onClick={() => step(1)}
         aria-label="next"
         style={{
           position: 'absolute',
@@ -379,15 +425,22 @@ export function OnboardingShell({
 
       <StatusBar tint={INK} />
 
-      {/* content area — pushed down so it clears the ridge band (top ~120px) */}
+      {/* content area — pushed down so it clears the ridge band (top ~120px).
+          Scrolls on short phones (e.g. iPhone SE 375x667) where a tall step
+          (the 6-tile hour-window grid) would otherwise push Back/Continue off
+          the bottom; on taller screens the input zone grows and nothing
+          scrolls, so the centered layout is unchanged. */}
       <div
         style={{
           position: 'absolute',
           inset: 0,
-          padding: '130px 34px 0',
+          padding: '130px 34px calc(8px + env(safe-area-inset-bottom, 0px))',
           display: 'flex',
           flexDirection: 'column',
           zIndex: 10,
+          overflowY: 'auto',
+          WebkitOverflowScrolling: 'touch',
+          overscrollBehavior: 'contain',
         }}
       >
         <div
@@ -433,10 +486,12 @@ export function OnboardingShell({
           {subtitle}
         </p>
 
-        {/* input zone */}
+        {/* input zone — grow to centre on tall screens, but never shrink below
+            content (flex-basis auto) so the column overflows into a scroll
+            instead of clipping the buttons on short screens. */}
         <div
           style={{
-            flex: 1,
+            flex: '1 0 auto',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center',
