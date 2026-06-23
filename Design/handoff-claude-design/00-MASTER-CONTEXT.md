@@ -183,7 +183,8 @@ Known thin/placeholder areas to be aware of (don't treat as finished design):
 
 ## 6. How to run an alignment & polish session (workflow)
 
-1. Upload `/screens/*.png` (current screens) + the ink-wash reference images.
+1. Upload `current-screens.html` (the EXACT screens to replicate) + the relevant
+   `/screens/*.png` (visual reference) + the ink-wash reference images.
 2. Paste this `00-MASTER-CONTEXT.md`.
 3. Paste ONE per-page brief from `/briefs`.
 4. Claude Design returns HTML mockup(s) for that screen/journey meeting the
