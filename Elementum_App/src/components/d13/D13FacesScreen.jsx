@@ -54,12 +54,14 @@ function godCardProps(dmEl, energy, god, tier) {
   const ghost = energy.presence <= GHOST_MAX;
   const Element = CAP[el] || el;
   const verb = GEN[el] === dmEl ? 'feeds' : CTL[el] === dmEl ? 'tests' : 'meets';
+  const persona = authored.persona || TG_PERSONA[god] || '';
   return {
     el,
     presence: energy.presence,
     art: ENERGY_ART[el] || fb.art,
     badges: badgesFor(energy),
-    persona: authored.persona || TG_PERSONA[god] || '',
+    eyebrow: `${Element.toUpperCase()} · ${persona.toUpperCase()}`,
+    persona,
     tail: authored.tail || fb.tail || '',
     r: authored.r || fb.r || '',
     x: authored.x || fb.x || '',

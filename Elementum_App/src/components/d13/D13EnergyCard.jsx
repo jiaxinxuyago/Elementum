@@ -14,7 +14,7 @@ const CAP = { metal: 'Metal', earth: 'Earth', water: 'Water', wood: 'Wood', fire
 
 export default function D13EnergyCard({
   el, presence, art, badges, persona, tail, r, x, gate,
-  ghost, idx, total, xLabel, expander, showGate, onBack, onUnlock,
+  ghost, idx, total, xLabel, expander, showGate, onBack, onUnlock, eyebrow,
 }) {
   const Element = CAP[el] || el;
   const tint = ghost ? undefined : { background: `color-mix(in srgb, var(--${el}) 6%, transparent)`, borderColor: `color-mix(in srgb, var(--${el}) 25%, transparent)` };
@@ -28,7 +28,7 @@ export default function D13EnergyCard({
       <div className={`screen-pad${ghost ? ' ghosted-card' : ''}`}>
         <div className="back-row" style={{ cursor: 'pointer' }} onClick={onBack}>
           <span className="uico"><svg viewBox="0 0 24 24"><use href="#ico-chev-l" /></svg></span>
-          <span className="eyebrow">YOUR ENERGIES · {idx + 1} OF {total}</span>
+          <span className="eyebrow">{eyebrow || `YOUR ENERGIES · ${idx + 1} OF ${total}`}</span>
         </div>
 
         <div className={`hero${ghost ? ' ghost' : ''}`}>
@@ -71,7 +71,7 @@ export default function D13EnergyCard({
           {expander}
         </div>
         <div className="codex-link">Deeper in the Codex →</div>
-        <div className="swipe-dots">{dots}</div>
+        {total > 1 && <div className="swipe-dots">{dots}</div>}
       </div>
     </div>
   );

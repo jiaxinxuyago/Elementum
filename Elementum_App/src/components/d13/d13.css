@@ -402,7 +402,7 @@
 
 .d13 .faces-cap { font-family: 'EB Garamond', serif; font-size: 10px; font-weight: 500; letter-spacing: 2.5px; text-transform: uppercase; color: var(--inkLight); margin: 17px 0 9px; }
 .d13 .faces-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.d13 .faces-grid.solo { grid-template-columns: 1fr; }
+.d13 .faces-grid.solo { grid-template-columns: 1fr 1fr; }
 .d13 .face-card { position: relative; text-align: left; background: var(--cardstock); border: 1px solid var(--borderStd); border-radius: 14px; box-shadow: var(--shadow-card); padding: 9px 9px 11px; cursor: pointer; font-family: inherit; color: inherit; display: flex; flex-direction: column; -webkit-tap-highlight-color: transparent; transition: box-shadow .2s, border-color .2s, transform .18s var(--ease-out); }
 .d13 .face-card:hover { transform: translateY(-2px); }
 .d13 .face-card.lead { border-color: color-mix(in srgb, var(--npig) 50%, var(--borderStd)); box-shadow: 0 6px 16px rgba(60,46,28,0.12); }
