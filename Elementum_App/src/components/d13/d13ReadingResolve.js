@@ -70,6 +70,38 @@ const PERSONA_COPY = {
   },
 };
 
+// ≤8w face-card abstract per persona — the prologue conclusion line. Sourced
+// from READING_CONCEPT_INVENTORY §2 (the canonical definition lines' payoff
+// clause). Placeholder-grade authored copy until the K2 corpus lands.
+export const FACE_ABSTRACT = {
+  '比肩': 'The standard you hold yourself to',
+  '劫财': 'The edge of comparison',
+  '食神': 'Giving that feels like being',
+  '伤官': 'Brilliance made of what it meets',
+  '偏财': 'Opportunity sensed at a distance',
+  '正财': 'Value built and kept',
+  '七杀': 'The trial that forges',
+  '正官': 'The standard that legitimizes',
+  '偏印': 'Insight that transmutes',
+  '正印': 'The root that holds',
+};
+
+// The life-domain an energy governs for you, by its lead Ten-God family
+// (DM-relative — 财/印/官杀/食伤/比劫). Drives the dominant-energy card's brief.
+const DOMAIN_BY_GOD = {
+  '比肩': 'your own register — the standard you measure others by',
+  '劫财': 'your own register — the edge you sharpen against equals',
+  '食神': 'what flows out of you — expression that feels like being',
+  '伤官': 'what flows out of you — brilliance that will not be told how',
+  '偏财': 'your wealth & desire — the world read as opportunity',
+  '正财': 'your wealth & desire — value built and kept',
+  '七杀': 'the pressure that shapes you — the trial you answer to',
+  '正官': 'the order that legitimizes you — the standard you keep',
+  '偏印': 'your support & nourishment — the ground your edge is forged on',
+  '正印': 'your support & nourishment — the root that holds you',
+};
+export function energyDomain(leadGod) { return DOMAIN_BY_GOD[leadGod] || ''; }
+
 // hero art per element (thumbnail-library wash variant)
 export const ENERGY_ART = {
   metal: '/concept-arts/library/t_metal_1_w.png',

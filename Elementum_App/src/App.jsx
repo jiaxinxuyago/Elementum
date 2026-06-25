@@ -72,6 +72,7 @@ const D13WheelPreview = lazy(() => import('./components/d13/D13WheelPreview.jsx'
 const D13DayMasterScreen = lazy(() => import('./components/d13/D13DayMasterScreen.jsx'));
 const D13PillarChartScreen = lazy(() => import('./components/d13/D13PillarChartScreen.jsx'));
 const D13EnergyCardScreen = lazy(() => import('./components/d13/D13EnergyCardScreen.jsx'));
+const D13FacesScreen = lazy(() => import('./components/d13/D13FacesScreen.jsx'));
 
 // Warm every on-demand screen chunk during idle time so navigation never
 // shows the Suspense fallback (the "white blink"). These are the SAME import
@@ -109,7 +110,7 @@ function prefetchScreens() {
       import('./components/dashboard/reading-detail/LockedDetail.jsx'),
       import('./components/d13/D13DayMasterScreen.jsx'),
       import('./components/d13/D13PillarChartScreen.jsx'),
-      import('./components/d13/D13EnergyCardScreen.jsx'),
+      import('./components/d13/D13FacesScreen.jsx'),
     ]).catch(() => {});
   };
   if ('requestIdleCallback' in window) window.requestIdleCallback(run, { timeout: 2000 });
@@ -552,8 +553,9 @@ export default function App() {
       rendered = <D13PillarChartScreen onBack={goto('app-daymaster')} onDiscoverHour={goto('chart-resonance')} />;
       break;
     case 'app-energy':
-      // D13 P6/P7 — the energy reading card; swipe ⟷ through all five.
-      rendered = <D13EnergyCardScreen initialEl={energyEl} onBack={goto('app-reading')} />;
+      // D13 P6b — the polarity faces page: dominant-energy briefing + the
+      // energy's 1–2 Ten-God faces, each a door to its reading.
+      rendered = <D13FacesScreen initialEl={energyEl} onBack={goto('app-reading')} />;
       break;
     case 'app-compat':
       rendered = (
