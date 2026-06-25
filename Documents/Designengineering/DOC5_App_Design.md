@@ -1,5 +1,7 @@
 # Elementum · Doc 5 — App Design Document
 
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** Design deltas: (1) a new **FACES prologue** is inserted *inside* the reading layer (between the catalogue and the text-heavy reading) — it is **not a new IA node**, so the §AM.1 locked table (`catalogue → reading`) **stays intact**. The face card shows, per persona: dominant-energy abstract + punchline + keywords + **ruling domain**. *(Component spec: the "Energy Faces screen" subsection in §11.)* (2) The reading unit (§11) is now **persona-scoped** (one Ten-God persona), read at a depth set by its **presence frame** (dominant/present/scarce/absent). (3) An element shows **1–2 faces strictly by calculation**; full-element absence is the ghost/cultivation read. (4) **Energy-level polarity surfaces as the two FACES** (personas), not as a per-energy yin/yang label. NB the **DM identity "Polarity chip"** (§9 — the Yang/Yin badge tile) **stays**: "Yin/Yang" is permitted as the stem register per the vocabulary law (only the term "polarity" is internal). *[Corrects the first-pass banner, which over-flagged this chip as a jargon violation.]* (5) The §AM.8/D3 **six-row → five-element** catalogue reconciliation is tracked separately as **D14 (extends D13)** in `DESIGN_AUDIT_BACKLOG.md`, not forced by v2.1. (6) **NEW positional axis (宫位, B6):** add a per-pillar **positional reading** surface (年 / 月 / 日支-夫妻宫 / 时 × Ten God × polarity); the engine already computes per-pillar TGs, composed via `PALACE_FRAMES × chart.tenGods` (DOC6 §1–§4, DOC3 §2.7b).
+
 This document is the primary reference for all UI and interaction design work in Elementum. It is the contract between the design vision, the frontend implementation, and the data contracts defined in Doc 2. Designers use it to understand intent. Engineers use it to understand what to build and what data powers each component.
 
 **Reading order:** Read Doc 2 §2 and §6–8 before this document. Doc 5 describes how to render the data; Doc 2 describes what the data is.
@@ -1134,7 +1136,7 @@ Three stacked cards:
 >
 > 1. **Identity ribbon** — `庚 · Metal · [strength chips]` + saturation %  + 1-italic-sentence saturation reading. Same component used as Reveal Section 2 opener.
 > 2. **Energy Blueprint card** — segmented-block element composition (8-cell rows per element, count-keyed) + **Primary Force** sub-card (DM element + ruling TG archetype + 3 chips, inline) + **Secondary Force** sub-card (same shape, secondary TG). The two Force sub-cards live INSIDE the Blueprint card — no extra tap to see them.
-> 3. **Catalyst / Resistance pair** — side-by-side cards, ↑ / ↓ accent. Each shows italic intro + 1–2 element badges (e.g. *Fire · The Trial*, *Water · The Flow*). Tap chevron to drill into detail.
+> 3. **Catalyst / Resistance pair** — side-by-side cards, ↑ / ↓ accent. Each shows italic intro + 1–2 element badges (e.g. *Fire · The General*, *Water · The Muse*). Tap chevron to drill into detail.
 > 4. **Secondary cards row** — Seasonal Calibration, Life Chapters, Chart Patterns — smaller cards with chevrons leading to their detail pages.
 >
 > **Why the change:** the older card-menu pattern hid 6 of 8 readings behind a tap. The user's reading deserves to *be present* on first arrival, not gated. The detail pages still exist for deep dives, but the dashboard is the home.
@@ -1148,6 +1150,36 @@ Three stacked cards:
 ---
 
 > **[AUDIT 2026-06 · S5/S6/S2/S3 — CANONICAL] The shipped Reading layer differs from the v1.7/v1.8 blocks below; those are historical.** Tabs are **Today · Guidance · Reading · Compat · Profile** (icons-only, §AM.2 — not "Energy Map / Friends", and the table below's labels are stale). The catalogue is the **6-row set** (Identity Card + Elemental Nature · Dominant Energies · Forces in Motion · [Seasonal Calibration — conditional] · Life Chapters · Daily Reading · Pillar Patterns) per §AM.8 D3 — Seasonal is a conditional catalogue row (S2/S3). The detail **pager** is `getReadingSections()` (`reading-detail/sections.js`), listing the same reading rows (Identity Card = stop 1; Daily Reading is a tab-jump, not a pager stop). The old **8-section `getSections` with `dom_0`/`dom_1` Primary/Secondary Force pages is retired** (S6): Dominant Energies is one page (`read-tengods`) rendering `TG_CARD_DATA` + the TG ring, and the schema's `dominantEnergy` / `seasonalCalibration` / `liunianSignatures` groups are **internal-only — no live consumer** (S1). See DESIGN_AUDIT_BACKLOG.md §4 (S-series).
+
+### Energy Faces screen (v2.1 · the polar Ten-God display) — decisions A2 · B4 · B5 · 2026-06-24
+
+**The gap this fills:** tapping a dominant energy must reveal its **Ten-God face(s)** — the polarity personas — before the text-heavy reading. This is the "two-character-cards" mockup, now specced. Routing: **catalogue → tap an energy → Energy Faces screen → tap a face card → that persona's reading.** The screen **always appears** (showing 1 *or* 2 cards, **strictly by calculation** — A2), for **all 5 elements including the self element** (its Mirror/Rival faces; the Identity card stays a separate surface — B5).
+
+**Layout — two zones, top → bottom:**
+
+**1 · Energy banner (element overview).** A short scene band in the element pigment:
+- Recolored element/Council art band (element pigment fill, no gradient).
+- Eyebrow (`JetBrains Mono`, 11px, `{element}Deep`): `WOOD · 41% OF YOUR CHART`.
+- Title (`Cormorant Garamond`, 24–26px, weight 600, `{element}Deep`): "Wood in you".
+- Role badge(s) (derived, never authored): `dominant` / `catalyst ↑` / `friction ↓` / `present` / `scarce`.
+- **Element reading line** (`EB Garamond`, ≤14w) — the ruling-domain conclusion that answers *what this is about* before the persona choice: "Wood — your wealth & desire."
+
+**2 · Face cards (1–2, dominant-led).** A horizontal pair (or a single centered card). Each card:
+- **Recolored Council character art** — the god's Inner-Council concept, element-tinted (B4: 10 base concepts × element recolor).
+- **Persona name** (`Cormorant`, 16–17px, weight 600, `{element}Deep`): "The Horizon".
+- **Subtle Yin/Yang marker** (`JetBrains Mono`, 10px micro-tag) — `Yang Wood` / `Yin Wood`. Permitted as the stem register per the vocabulary law; makes the polarity logic legible without the term "polarity."
+- **Theme micro-line** (≤6w): "opportunity in motion".
+- **Weight tag** (pill): `Leads your wood` (lead) / `Quieter undertone` (minor) — dominant-led.
+- **Read affordance** (→).
+- **Hierarchy:** the lead (dominant-weight) card is larger / accented (`{element}` border + faint fill); the undertone card is lighter (hairline `PAPER_HAIR`, reduced weight). Single-face charts show one centered card at lead emphasis.
+
+**Tap a face card → the persona's reading.** The prologue content (abstract / punchline / chips / ruling domain) already lives on the card; the destination is the text-heavy read — `R · X · gate · seeker` in **presence-frame registers** (DOC6 §3–§4).
+
+**Surface tokens:** silk card fills (`rgba(248,241,225,0.92)`), hairline `PAPER_HAIR` borders warming to `{element}55` on press; `Cormorant` for persona/title, `EB Garamond` for body, `JetBrains Mono` for eyebrows/markers; **no italic (§AM.10)**, no gradients (§AM surfaces).
+
+**Data contract:** engine emits per element `{ presentFaces: [{god, weight}], absentGod }` (polarity-aware — DOC1). Each card binds to `ENERGY_CARD_DATA[\`${element}_${god}\`]` (prologue fields); art keyed to the god's Council concept × element. Card count is the present-face count — never padded.
+
+**Relationship to the positional axis (B6):** this screen is the **element-dominance** view. The **positional reading (宫位 × 十神)** is a *separate* per-pillar surface (年/月/日支-夫妻宫/时) reusing the same persona content framed by palace — not part of this screen. See DOC6 §3 + DOC3 §2.7b.
 
 ### Bottom tab nav (Dashboard chrome)
 
@@ -1952,7 +1984,7 @@ Text is partially visible, then blurs to: `✦ Unlock with Advisor` button.
 - Luck Cycles (大运) — Decade energy chapters
 - Clashes & Combinations (冲合) — Dynamic chart patterns
 - Void & Empty Branch (空亡) — The absent energy
-- Yin and Yang Polarity — Energy direction
+- Yin & Yang — the two registers of each element (your energies' two faces)
 
 **Entry design (accordion list):**
 ```

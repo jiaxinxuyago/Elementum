@@ -4,9 +4,13 @@
 >
 > **Source of truth.** `archetypeSchema.js` — if this doc and the schema disagree, the schema wins. Bump the version in the schema when you change a field.
 >
+> **v2.1 precedence (2026-06-24).** For the **reading content model** (keys, fields, surfaces, registers, axes), **`DOC6_Reading_Schema.md` (v2.1) is the design source of truth.** `archetypeSchema.js` is its *implementation* and must be rewritten to conform during the code pass; this companion is then **re-mirrored** from the rewritten schema. Chain: **`DOC6_Reading_Schema` → `archetypeSchema.js` → DOC9.** The v2.1 banner below lists the deltas still pending that alignment — treat them as interim until the code schema is rebuilt.
+>
 > **Status.** Schema v0.1.0-draft. Nothing is set in stone. Fields can be added, renamed, or deprecated as the app is built.
 >
 > **Reference archetype.** All examples come from 庚 (Yang Metal — The Blade), the completed golden reference. When you scale a new block to another stem, 庚 shows what "complete" looks like.
+>
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** Deltas for this doc: (1) re-scope `dominantEnergy.characterDesc` from **element-scoped** to **persona-scoped** (the energy reading resolves to a specific Ten-God persona `element_god`, not the bare element); (2) add a new **`rulingDomain`** axis (×50, **DM-relative**) — the "what is this about" life-area line — *distinct from* the Western `lifeDomain` buckets (career/relationships/wealth/health), which stay only for PRO liunian; (3) the `tg` persona layer is promoted from `planned` to the primary surface; (4) energy-card reading copy now varies by **presence frame** (dominant/present/scarce/absent) — see schema v2.1 §4 `registers`. (5) **Positional axis (宫位, B6):** a new `PALACE_FRAMES[position]` global (×7) — positional readings compose `PALACE_FRAMES × chart.tenGods × polarity` (per-pillar TG data already in the engine, `calculator.js:492`). NB the whole `dominantEnergy.*` group below is **superseded by K2 `ENERGY_CARD_DATA[element_god]`** (schema §5) — migrate its content into the per-persona energy card; do not author new `dominantEnergy.*`.
 
 ---
 
@@ -48,7 +52,7 @@ Every field in the schema declares a `varyBy` tag that tells the generation pipe
 | `branch` | 12 | modifier | available | 地支 — 子丑寅卯辰巳午未申酉戌亥. |
 | `season` | 4 | modifier | available | Birth season — spring/summer/autumn/winter. |
 | `gender` | 2 | modifier | available | Reader gender. Use only if copy must differ. |
-| `lifeDomain` | 4 | slot | in-use | career / relationships / wealth / health. |
+| `lifeDomain` | 4 | slot | in-use | career / relationships / wealth / health. Western 4-bucket — **distinct from** the new per-persona `rulingDomain` (the DM-relative life-area line, B2). |
 | `lifeStage` | 4 | slot | available | Reader life phase bucket. Not currently used. |
 | `lifePeriod` | 8 | slot | available | 大运 decade. |
 | `annualPillar` | 60 | slot | available | 流年 annual stem-branch pair. |
@@ -149,6 +153,8 @@ Element-dominant characterological reading. Kicks in when the chart shows this e
 | `dominantEnergy.label` | string | ≤ 3 words | FREE | *The Force* |
 | `dominantEnergy.teaser` | string | 2–3 sentences | FREE | *When Metal is the dominant force in your chart, precision isn't something you reach for — it's the default state…* |
 | `dominantEnergy.characterDesc` | string | 3–5 paragraphs | **PRO** | *When Metal is dominant in your chart, precision is not just your nature — it is the atmosphere you operate in…* |
+
+> **⚠ v2.1 (schema §5).** The `dominantEnergy.*` group above is **superseded by K2 `ENERGY_CARD_DATA[element_god]`** — the energy reading is now **persona-scoped** (a specific Ten God), authored in presence-frame `registers` (dominant/absent bespoke, present derived) + a `rulingDomain` line, and surfaced via the FACES prologue. Migrate this content into the per-persona energy card; do not author new `dominantEnergy.*`.
 
 ---
 

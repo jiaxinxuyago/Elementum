@@ -1,4 +1,9 @@
-# Elementum · Doc 6 — The Manual
+> # ⛔ RETIRED 2026-06-24 — ARCHIVED, DO NOT USE
+> This was the documentation meta-guide ("The Manual"). It is **stale** (describes "six documents"; predates DOC7–10 and the reading redesign) and its still-useful parts (locked list, sync rules) are superseded by each doc's own locked/v2.1 notes and `READING_V2.1_RECONCILIATION_AUDIT.md`. The **Doc 6 slot is now the Reading Schema** (`DOC6_Reading_Schema.md`). Kept in git for history only — nothing here is current.
+
+---
+
+# Elementum · Doc 6 — The Manual  *(RETIRED — see banner above)*
 
 **Read this document first.** Always. Before opening any other document, before writing any code, before generating any content. This document tells you what exists, how it fits together, and what you can touch without breaking something downstream.
 

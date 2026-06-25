@@ -2,8 +2,12 @@
 
 **D12 Step 1** — Part 1 (§1–§5): inventory + vocabulary law · **Part 2 (§6–§9): the Concept Ladder** · Part 3: Section Charters (pending)
 **Serves:** DOC5 §0 (Beta core goal) Axis A — introduce BaZi step by step, without cognitive overload.
-**Sources:** `Data/elementum_profile_database.html` (the Profile Database — canonical behavioral content for stems + Ten Gods) · DOC2 (archetype system) · DOC3 (knowledge pool) · DOC6 (manual) · the live app (audited 2026-06-10).
+**Sources:** `Data/elementum_profile_database.html` (the Profile Database — canonical behavioral content for stems + Ten Gods) · DOC2 (archetype system) · DOC3 (knowledge pool) · the Manual (now **retired** → `_ARCHIVE_Manual_RETIRED.md`) · the live app (audited 2026-06-10).
+>
+> **NB (2026-06-24):** "DOC6" in the Source columns below means the **retired Manual**, NOT the new **DOC6 = Reading Schema**. Those source tags are pre-reorg and should be re-pointed (likely to DOC3 / the in-app Energy Manual) in a follow-up.
 **Status:** DRAFT for owner markup · 2026-06-10
+
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** Deltas: (1) **2-layer model** — Identity card (Day Master) + Ten-God cards (every present energy); no dominant/secondary *layers* (those are derived role badges). (2) **Polarity faces (B5)** — each energy resolves 1–2 Ten-God personas by polarity; the self element's faces (The Mirror / The Rival) render as Ten-God cards, **separate from the Identity card**. (3) **NEW positional axis (宫位, B6)** — each Ten God *also* reads by pillar position (日支 = partner, 时柱 = children/legacy); see concept **2.6** below. (4) §2 persona names remain the **canonical source** (already correct). The "non-self" / "other element" qualifiers in 2.2/2.3 and the §10 charters are loosened accordingly.
 
 ---
 
@@ -92,10 +96,11 @@ Status legend: ✅ taught (introduced before/where used) · ⚠ used-untaught (s
 | ID | Concept | Definition | Needs | Source | Appears today | Status |
 |---|---|---|---|---|---|---|
 | **2.1** | **Elements act on each other** | Every element feeds one and checks another (生/克) — why another energy can be your fuel or your grindstone. | 0.1 | DOC3 §2; DOC6 | **NOWHERE in the journey** (Energy Manual mentions; Codex describes) | **⚠⚠ the load-bearing untaught rung** |
-| 2.2 | **The council (Ten Gods)** | Each *other* element, read through its relationship to your Day Master, becomes a figure: Mirror, Rival, Muse … Sage. | 1.1, 2.1, 0.2 | **Profile DB Part Two** (canonical defs); `TG_CARD_DATA` | Ten Gods detail (council); raw-chart per-pillar tags | ◐ rich content, but presumes 2.1; raw chart leaks engine names |
-| 2.3 | **Dominant & secondary energy** | Which council figures speak loudest in *your* chart — your two non-self leading energies. | 1.3, 2.2 | DOC2 §8 | Dominant Energies row + detail | ◐ |
+| 2.2 | **The council (Ten Gods)** | Each element — **including your own** — read through its relationship to your Day Master, becomes a figure: Mirror, Rival, Muse … Sage. | 1.1, 2.1, 0.2 | **Profile DB Part Two** (canonical defs); `TG_CARD_DATA` | Ten Gods detail (council); raw-chart per-pillar tags | ◐ rich content, but presumes 2.1; raw chart leaks engine names |
+| 2.3 | **Dominant & secondary energy** | Which council figures speak loudest in *your* chart — **every present energy gets a card**; "dominant"/"secondary" are derived role badges (the self element's Mirror/Rival included — B5). | 1.3, 2.2 | DOC2 §3 | Dominant Energies row + detail | ◐ |
 | 2.4 | **Catalyst / Friction** | The element that lifts your nature, and the one that grinds it — your chart's prescription. | 2.1, 1.3 | DOC2; DOC6 | Reveal §4; Forces in Motion | ⚠ presented as fact; *why* unexplained without 2.1 |
 | 2.5 | **The absent element** | A quality your chart barely carries — not a flaw; a place where life asks you to borrow. | 1.3 | DOC6 | Reveal §4; Seasonal row trigger | ◐ |
+| **2.6** | **Pillar position (宫位)** | The *same* Ten God reads differently by which pillar it sits in — 年 = origins, 月 = career/parents, **日支 = partner (夫妻宫)**, 时 = children/legacy. | 2.2, 0.3 | DOC3 §2.7b | engine computes per-pillar TGs (`chart.tenGods`); reading surface NEW | **NEW (B6)** — first-class positional axis |
 
 ### Family 3 — Time
 
@@ -200,6 +205,8 @@ Status legend: ✅ taught (introduced before/where used) · ⚠ used-untaught (s
 
 ## 10 · Charter table
 
+> **v2.1 note (B5/B6).** Each energy card resolves **1–2 polarity faces** via the FACES prologue; the "non-self" qualifiers below are loosened — the self element's Mirror/Rival also render as Ten-God cards, **separate from the Identity card**. Depth layers now vary by **presence-frame register** (dominant = full · present = shorter · absent = cultivation). **Add a new charter row — Positional reading (宫位 × 十神, B6):** per-pillar cards composing palace frame × the position's Ten-God persona × polarity, with 日支 (partner) and 时柱 (children/legacy) the highest-value reads. See schema v2.1 §1–§4.
+
 | Surface | Concepts (ladder) | Claim lead | Emotional beat | Face format (zero-tap) | Depth layers (in order) |
 |---|---|---|---|---|---|
 | **Identity Card / Reveal §2** | 1.1+1.2 | **R** ×2–3 | "I am seen" | Archetype name + 汉字 + manifesto + 2–3 recognition claims (punch register) | mechanism line ("born on a 庚 day…") → expandable "what is a Day Master" (E) → Codex |
@@ -221,6 +228,8 @@ Status legend: ✅ taught (introduced before/where used) · ⚠ used-untaught (s
 5. **Five-element art** (`t_{el}_{n}_{shape}` library) gives every card its painting — the visual system was already organized this way.
 
 ## 12 · What this means for schema v2 (Step 3 preview)
+
+> **v2.1 update (2026-06-24).** The central unit became **K2 `ENERGY_CARD_DATA[element_god]`** (per-**persona**, not per-element) — FACES prologue (face · persona · chips · `rulingDomain`) + presence-frame `registers` (dominant/absent bespoke, present derived) — **plus** the orthogonal **positional axis** (`PALACE_FRAMES × chart.tenGods`, B6). See `DOC6_Reading_Schema.md` (v2.1). The bullets below describe the v2 per-element precursor.
 
 - The per-element card becomes the schema's central unit: `energyCard[element]` with `face.conclusion` (≤14w), `claims[]` (2–3 × punch register), `roleBadges[]`, `depth` blocks per claim type, `cultivation` (absent-element only).
 - `elementIntro` punch/expand survive as the Self card's face + first depth block — budgets corrected to the audit's evidence (punch 10–14w, expand 18–24w).

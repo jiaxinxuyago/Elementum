@@ -6,6 +6,8 @@
 **Related docs:** DOC4 (generation architecture) · DOC5 §9 (Reveal) · DOC5 §11 (dashboard component specs) · DOC5 §20 (Asset Library) · DOC7 (content authoring)
 **Status:** Phase 1 migration **executed** — Vite project scaffolded, content files live, pre-dashboard flow (Welcome → Reveal) running. The **Reveal screen** has had its Section 1 (Identity) composition refined per DOC5 §9 v1.6 — see "Phase 1 component additions" below. Phase 2 dashboard component extraction is **pending** — use this guide for that work.
 
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** Migration deltas: (1) the reading data target is **`ENERGY_CARD_DATA[${element}_${god}]` ×50** with the v2.1 shape (FACES prologue + presence-frame `registers` + `rulingDomain`) — not the flat `DomEnergyTg_Data.js`/`dominantTGs[]` model described below. (2) The reading resolver is the **polarity-aware path** (`getDominantTenGod` + `getElementPolaritySplit`), emitting per-element `{presentFaces, absentGod}`; **retire `tenGodForEnergy`** (`d13ReadingResolve.js`). (3) `buildEnergyChart` attaches the resolved face set + weights per energy. (4) New surface components: `FacesScreen` (prologue) + `PersonaCard` (presence-frame variants). (5) **Positional axis (B6):** `chart.tenGods` already provides per-pillar Ten Gods (no new resolver); add `PALACE_FRAMES` + a `PositionalCard` component; the positional reading composes `PALACE_FRAMES × chart.tenGods × polarity`.
+
 ---
 
 ## Overview

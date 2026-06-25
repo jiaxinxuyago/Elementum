@@ -1,5 +1,7 @@
 # Elementum · Doc 3 — Knowledge Pool
 
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** Deltas for this doc: (1) the §3.5 Ten-God profiles now need **presence-frame register** variants (dominant = full read · present = derived shorter · scarce/absent = cultivation); extend §8.3's 2-band element model to the 3-band persona model. (2) §3.4 elemental-processing fields are the **source for the new `rulingDomain`** (DM-relative life-area line) — convert each element-field into a plain-English domain line per (element × Day Master). (3) §8.6 translation contract and §8.9 jargon ban **stay canonical** (no 比肩/正财, no yin/yang/"polarity" surfaced). (4) Tier-3 resonance bridges (e.g. Archetype_Reference's 5-family grouping) must **never** seed the persona taxonomy — personas are per-god, all 10 distinct (decision C3).
+
 This document is a **library, not a protocol.** It provides materials; Doc 4 provides generation instructions. Reading Doc 3 tells you what sources exist and how they are tiered. Reading Doc 4 tells you which ones to use for a given key, in what order, with what ceilings.
 
 **Source hierarchy:**
@@ -55,6 +57,8 @@ Never exceed these ceilings even if the source seems to offer more. Readings tha
 | 千里命稿 (韦千里) | 20th century | Modern practical — VERIFY-ONLY | Pillar-to-life-stage mapping (宫位论法), practical case analysis framework |
 
 **Sourcing standard:** All principles cited as SOURCE-FROM are concept-reliable across at least one of the above texts. Where exact phrasing is commentary-register rather than verbatim quotation, this is noted. The principle is what matters; the exact wording is secondary.
+
+**Committed methodology lineage (2026-06-25).** Elementum's calculation commits to a **子平真诠 (structure-core) + 滴天髓 (relative-clash)** synthesis, deliberately chosen against aggressive modern 排盘 practice. The four load-bearing rulings — **合而不化 by default** (真化 gated on 月令 + 透干引化 + no 冲破 + adjacency), **relative root-uprooting 冲**, **刑/害/破 as reading-only (never numeric)**, and **qualitative 强弱 gates** (得令/得地/得势) — all derive from these two texts. The calculation rules live in **DOC1 §3**; the classical sourcing for the clash/strength side is below in the 滴天髓 section, and for the structure/格局 side in the 子平真诠 section.
 
 ---
 
@@ -270,6 +274,13 @@ Max: **3 behavioral claims for 七杀.** Hard ceiling (elevated from 2 due to bi
 
 ---
 
+**SOURCE-FROM — strength & clash doctrine (calculation methodology · 2026-06-25 commit).** 滴天髓 is the canonical authority for how 冲 and 强弱 feed the **calculation** (engine rules in DOC1 §3):
+- **冲 is relative, root-uprooting:** *支神只以冲为重 … 旺者冲衰衰者拔，衰神冲旺旺神发* — a strong branch clashing a weak one **uproots its root**; a weak one clashing a strong one merely **provokes** it. → DOC1 §3.7b.
+- **刑 / 害(穿) / 破 are deleted from the calculation:** 任铁樵 dismisses them as folk-error — *"刑之义无所取 … 穿即害也 … 尤属不经，削之可也 … 总以论其生克为是."* They are **reading/event-layer only**, never numeric strength modifiers (this is why Elementum keeps them in `detectPatterns`, not the composition). They MAY act as *qualitative* 破格 flags in 子平真诠's 成败救应 (格局 success/failure), but **never as numbers**.
+- **Substance vs function:** the dominance number tracks 五行 **substance (旺衰)**; 合-binding and 刑害破 change **function**, not substance — full statement in DOC1 §3 methodology preamble.
+
+---
+
 ### 三命通会 — Stem Behavioral Profiles and Wealth Theory
 
 **What it covers:** The most comprehensive compilation in the classical canon. The 十干体象 chapters provide the behavioral defaults for all ten stems. The 论财 chapter is the primary source for Wealth TG dynamics.
@@ -364,7 +375,7 @@ Max: **2 behavioral claims.** Universal ceiling.
 
 **What it covers:** 宫位论法 — the mapping of the four pillars to developmental life stages. Each pillar contains energies that manifest most visibly in a corresponding period of the person's life.
 
-**Status: VERIFY-ONLY.** 千里命稿 is a 20th-century practical application text, not primary classical canon. The pillar-to-stage mapping is interpretive convention derived from classical principles, not directly sourced from the canonical five texts. Use as framing for *when* certain dynamics manifest; do not derive behavioral claims from the mapping itself.
+**Status: ELEVATED to a first-class reading axis (v2.1 · owner decision B6, 2026-06-24).** Position (宫位) is now a **primary reading dimension**, parallel to element-dominance — every Ten God reads differently by *which pillar* it occupies. **Methodological guard (the original VERIFY-ONLY caution, preserved):** the *behavioral* claim is always sourced from the Ten God's **canonical mechanism** (Tier 1, §3.5) and its **polarity register** — never from the pillar mapping alone. 千里命稿's pillar→domain convention supplies only the **life-domain** the mechanism expresses in. So a positional reading is a *composition*, not a new behavioral source: **canonical Ten-God mechanism × palace life-domain × polarity register.**
 
 | Pillar | Life domain | Approximate age range | Reading implication |
 |---|---|---|---|
@@ -377,7 +388,33 @@ Max: **2 behavioral claims.** Universal ceiling.
 
 Use this framing to add temporal precision to the `landscape` and `twoAM` fields when the chart's energy concentration in a specific pillar is notable. Do not derive behavioral claims from the mapping — use it to inform the period of life the reading's language most naturally speaks to.
 
-**⚠ Conditionality:** Apply only when pillar concentration is marked (dominant energy heavily weighted in one pillar rather than distributed across all four). Do not apply the stage mapping as a universal framing device — most charts have distributed energies, and the mapping adds nothing when distribution is even.
+**⚠ Conditionality (temporal-framing use only):** The *life-stage* framing above (using the pillar to add temporal precision to `landscape`/`twoAM`) still applies only when pillar concentration is marked. This conditionality governs the **temporal** use — NOT the positional-reading axis below, which applies to every chart.
+
+---
+
+### §2.7b — Positional reading: the 宫位 × 十神 chain (v2.1, first-class)
+
+Every chart resolves a Ten God at each of the 7 non-DM positions (`chart.tenGods`: yearStem/Branch · monthStem/Branch · dayBranch · hourStem/Branch — the engine already computes all of these, polarity-correct, via `getTenGod`). Each becomes a **positional reading** by composition:
+
+> **mechanism (§3.5, Tier 1) × palace life-domain (§371) × polarity (正/偏) → "this mechanism, in this life-domain, in this register."**
+
+**Palace life-domains (the frame, not the behavior):**
+
+| Position | Palace domain | Relational reframe |
+|---|---|---|
+| 年柱 (year stem/branch) | origins · family · early formation | how the energy was *inherited / modeled* |
+| 月柱 (month stem/branch) | career · social · parents (提纲) | how it shows up in *work and public formation* |
+| **日支 (day branch — 夫妻宫)** | the partner / marriage | the energy read **as your spouse / closest bond** |
+| 时柱 (hour stem/branch) | children · legacy · late output | what it builds *toward / leaves behind* |
+
+**Worked chain — 正财 (The Steward: disciplined, earned, evaluative acquisition):**
+- at **月干** → standards-driven *professional* formation; a methodical relationship to earning, often parent-modeled.
+- at **日支 (夫妻宫)** → the *partner* reads as steady, dependable, earned — a stabilizing, traditional bond.
+- Same god, opposite reading — purely by palace. The behavioral content (`Steward mechanism`) is unchanged and canon-sourced; only the **domain** shifts.
+
+**Polarity is what makes position precise:** a chart can hold 正财 at 月干 and 偏财 at 日支 — the dominance axis blurs that; the positional axis preserves the exact 正/偏 register **at each palace**. The two relational palaces (日支 spouse, 时柱 children/legacy) are the highest-value positional reads.
+
+**Guard:** never assert a behavioral claim from the palace alone; the palace only relocates the canon-sourced mechanism into its life-domain.
 
 ---
 
@@ -596,7 +633,7 @@ Each profile gives the specific psychological mechanism that illuminates this TG
 - **Secondary:** Kiesler (1983) complementarity principle — similar-status interactions produce comparison orientation rather than role differentiation.
 - **Key nuance:** 劫财 rivalry is not hostile. It is the structural consequence of a permanent reference point that is close enough to be meaningful and different enough to be competitive. The most important relationships for 劫财 charts are with people like them — both the most useful and the most difficult to surrender to.
 
-#### 食神 — The Flow (same-polarity output)
+#### 食神 — The Muse (same-polarity output)
 
 - **Primary:** Deci & Ryan (1985) SDT intrinsic motivation — behavior that is "inherently interesting and enjoyable" without external pressure.
 - **Secondary:** Csikszentmihalyi (1990) flow states — deep, effortless engagement where challenge and skill match without deliberate calibration.
@@ -609,39 +646,39 @@ Each profile gives the specific psychological mechanism that illuminates this TG
 - **Tertiary:** Innovation personality research (Patterson et al., 2009; Furnham et al.) — High Openness + Low Agreeableness/Politeness profile.
 - **Key nuance:** 食神 is generous (gives because giving is structural); 伤官 is assertive into resistance (the brilliance is partially constituted by the friction). The shadow of 食神 is over-extension; the shadow of 伤官 is self-destruction when the output cannot find an adequate container.
 
-#### 偏财 — The Field (same-polarity wealth)
+#### 偏财 — The Horizon (same-polarity wealth)
 
 - **Primary:** McClelland's nAch (1961) in diffuse expression — achievement motivation distributed across many domains rather than concentrated in one.
 - **Secondary:** SDT's competence need in its wide form — effectiveness across diverse contexts rather than in a specific domain.
 - **Key nuance:** What is controlled broadly is never fully possessed, and what is never fully possessed can be lost without the person fully registering what they had. The gift is range and natural abundance; the shadow is breadth without the consolidation that allows what is touched to become specifically yours.
 
-#### 正财 — The Harvest (cross-polarity wealth)
+#### 正财 — The Steward (cross-polarity wealth)
 
 - **Primary:** McClelland's nAch (1961) in specific expression + SDT's competence need focused — high achievement motivation directed at a particular domain: methodical, disciplined, earned acquisition.
 - **Secondary:** DeYoung's Conscientiousness facets (2010) — Orderliness + Industriousness applied outward. The 正财 person organises not themselves but the resources around them.
 - **Key nuance:** The specific shadow is what the evaluative apparatus does to what it controls over time. The precision applied to acquired material doesn't know when to stop asking whether what it holds is worthy of the standard.
 
-#### 七杀 — The Trial (same-polarity authority)
+#### 七杀 — The General (same-polarity authority)
 
 - **Primary:** Tedeschi & Calhoun (1996) Post-Traumatic Growth — the same adversarial conditions that devastate some people produce remarkable growth in others. Same structural condition, categorically different outcomes. This is a genuine bifurcation, not a developmental spectrum.
 - **Secondary:** Kobasa (1979) hardiness — three components buffering against uncontrolled stress: commitment (to goals and self), control (perceived capacity to influence), and challenge (viewing pressure as opportunity). Whether all three were available determines which side of the bifurcation the character lands on.
 - **Tertiary:** McAdams et al. (2001) narrative identity — redemption sequences (bad → good) vs. contamination sequences (good → bad). High-resource 七杀 charts construct redemption sequences; depleted ones construct contamination sequences.
 - **Key nuance:** 七杀 does not grant permission. Does not moderate itself. Does not care whether you survive the encounter. What this builds — when the chart has sufficient resources — is character that could only have come from being forged, not developed. What others carry as virtue, this person carries as the residue of surviving something that didn't grant them the option to fail gracefully.
 
-#### 正官 — The Standard (cross-polarity authority)
+#### 正官 — The Arbiter (cross-polarity authority)
 
 - **Primary:** Tyler (2006) legitimacy theory — normative compliance (I follow because the framework is legitimate and I have endorsed it) vs. instrumental compliance (I follow because I have to). The 正官 chart describes normative compliance at its most structurally embedded.
 - **Secondary:** SDT's identified regulation (Ryan & Deci, 2000) — the highest form of extrinsic motivation, where behavior aligns with identity and values even though it originated outside the self.
 - **Tertiary:** Bowlby (1969) secure base in authority — 正官 is the DM's external secure base: the structure that enables confident exploration within its domain, whose loss creates disproportionate disorientation.
 - **Key nuance:** 正官 vs. 七杀 is not "nice pressure vs. harsh pressure." It is permission-granting vs. non-permission-granting; framework-mediated vs. unmediated; character refined within a structure vs. character forged despite the absence of one. Different personality architectures.
 
-#### 偏印 — The Well (same-polarity resource)
+#### 偏印 — The Alchemist (same-polarity resource)
 
 - **Primary:** Bowlby (1969) + Ainsworth (1978) secure-base dependency. The 偏印 chart draws continuously from a source that sustains and deepens without redirecting — consolidates what is already present without proposing new directions.
 - **Secondary:** SDT's relatedness need in its receptive form — being nourished by the source rather than actively seeking connection. The backing is felt as ground rather than relationship.
 - **Key nuance:** 偏印 nourishment is deepening without opening. The person may be extraordinarily deep in their domain because the sustaining source keeps deepening what's already there — and may be extraordinarily dependent on conditions because those conditions never required them to build the internal source.
 
-#### 正印 — The Root (cross-polarity resource)
+#### 正印 — The Sage (cross-polarity resource)
 
 - **Primary:** Bowlby (1969) secure base in its most developmental form — the base that enables exploration by providing both support and direction. The backing includes a direction, not only sustenance.
 - **Secondary:** SDT's need satisfaction through developmental relationship — relatedness and autonomy simultaneously met by the same source.
@@ -969,7 +1006,7 @@ All citations formatted APA 7th edition. Where a concept appears under multiple 
 
 ### §7.1 — Branch Relationships: Element Score Modifiers
 
-Branch relationships modify effective element scores beyond simple hidden-stem weighting. The engine must account for these when computing elemental balances. These are the structural interactions that can substantially shift which element scores as dominant — and therefore which Layer 2/3 key a chart receives.
+Branch relationships modify effective element scores beyond simple hidden-stem weighting. The engine must account for these when computing elemental balances. These are the structural interactions that can substantially shift which element scores as dominant — and therefore which Layer 2 keys a chart's energies resolve to (and which face leads, by polarity weight).
 
 **Six Clashes (六冲):** Directly opposing branches clash — weakens effective element contribution of both branches involved. Approximate effect: 20–30% reduction in hidden-stem weight for each clashing branch.
 
@@ -1116,7 +1153,7 @@ Cross-reference with DOC1 hidden-stem weights. If the engine uses different perc
 | **Generation prompts** | batchGenerate.js prompt strings sent to LLM | ✓ Permitted as reference labels only, always English-paired | ✓ Permitted as structural labels | Prompts may reference BaZi terms when orienting the model; the model’s OUTPUT must be clean |
 | **User-facing output** | All reading text, UI card content, static labels, exported reading fields | ✗ Zero Chinese characters | ✗ Zero BaZi jargon | Absolute. No fallthrough from prompt layer. |
 
-**The boundary is output, not intent.** A prompt can say “七杀 (The Trial)” internally; the generated angle text must say nothing about “seven killings” or any BaZi term.
+**The boundary is output, not intent.** A prompt can say “七杀 (The General)” internally; the generated angle text must say nothing about “seven killings” or any BaZi term.
 
 ---
 
@@ -1216,14 +1253,14 @@ Ten God names are **engine inputs only**. They never appear in user-facing text 
 |---|---|---|
 | 比肩 | Parallel Self | “the mirroring force” / “the same nature amplifying itself” / “a force that confirms rather than challenges” |
 | 劫财 | The Rival | “the measuring force” / “a near-equal that calibrates by structural competition” / “the lateral pressure that defines the edge” |
-| 食神 | The Flow | “natural creative expression” / “output that arrives without assertion” / “what flows outward when you’re fully yourself” |
+| 食神 | The Muse | “natural creative expression” / “output that arrives without assertion” / “what flows outward when you’re fully yourself” |
 | 伤官 | The Edge | “brilliance in structural tension with frameworks” / “output that consistently exceeds what conventional structures can contain” |
-| 偏财 | The Field | “broad, distributed engagement” / “ranging widely across material rather than possessing it specifically” |
-| 正财 | The Harvest | “disciplined, methodical pursuit” / “specific and earned — the standard applied to what you control” |
-| 七杀 | The Trial | “the unmediated test” / “pressure that doesn’t grant permission” / “what forges or breaks — no middle outcome” |
-| 正官 | The Standard | “framework-mediated recognition” / “a force that tests through a structure it can respect and grants recognition when quality is real” |
-| 偏印 | The Well | “sustained depth” / “nourishment that deepens without redirecting” / “backing from the same register” |
-| 正印 | The Root | “sustained opening” / “nourishment that deepens and opens toward something specific” |
+| 偏财 | The Horizon | “broad, distributed engagement” / “ranging widely across material rather than possessing it specifically” |
+| 正财 | The Steward | “disciplined, methodical pursuit” / “specific and earned — the standard applied to what you control” |
+| 七杀 | The General | “the unmediated test” / “pressure that doesn’t grant permission” / “what forges or breaks — no middle outcome” |
+| 正官 | The Arbiter | “framework-mediated recognition” / “a force that tests through a structure it can respect and grants recognition when quality is real” |
+| 偏印 | The Alchemist | “sustained depth” / “nourishment that deepens without redirecting” / “backing from the same register” |
+| 正印 | The Sage | “sustained opening” / “nourishment that deepens and opens toward something specific” |
 
 ---
 
@@ -1252,7 +1289,7 @@ These are the structural BaZi concepts that must never surface in reading text.
 
 ### §8.7 — Pillar Language (Life Stage Framing)
 
-Pillar-to-life-stage mapping (宫位论法) is VERIFY-ONLY per §2.7. When used conditionally in reading text, the plain English equivalents are:
+Pillar mapping (宫位论法) is now a **first-class positional axis** (§2.7b) — these plain-English palace frames are what the positional reading composes with (the separate *temporal* life-stage use remains conditional). The 日支 = partner/spouse and 时柱 = children/legacy frames are the highest-value reads:
 
 | Pillar | Internal label | Reading language (conditional use only) |
 |---|---|---|

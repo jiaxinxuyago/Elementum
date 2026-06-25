@@ -1,5 +1,9 @@
 # Elementum · Doc 1 — Calculation Engine Specification
 
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** Engine deltas: (1) the reading surface needs a first-class **per-element resolution output** `{ element: { presentFaces: [{god, weight}], absentGod } }` — which 1–2 polarity faces are present, by weight. (2) Add **`getElementPolaritySplit()`** returning `{yangW, yinW}` per element — the data already exists inside `getDominantElementPolarity` (it accumulates both then discards the split; return both accumulators). (3) **Accuracy defect to fix:** the live reading resolver `tenGodForEnergy` (`d13ReadingResolve.js`) is polarity-blind — hard-locked to the same-polarity (偏) register, so it can never surface the 正 half; retire it for the polarity-aware path. (4) **Recompute the 庚 reference chart's faces** with the polarity-aware resolver before it seeds any authoring (the old `金_比肩 · 土_偏印 · 水_食神 · 木_偏财 · 火_七杀` set is the polarity-blind output). Pillar-level Ten Gods (`getTenGod`, §2.7) are already correct and unchanged.
+>
+> **🔒 Accuracy guarantee (verified against code 2026-06-24).** The v2.1 polarity work touches ONLY (a) one **additive, read-only** accessor — `getElementPolaritySplit`, exposing the `yangW`/`yinW` accumulators `getDominantElementPolarity` (`calculator.js:285`) already computes and discards — and (b) the reading-**display** layer (`d13ReadingResolve.js`, never part of the canonical calc). The calculation engine is **unchanged**: `calculateBaziChart`, element scores/weights, day-master strength, `getTenGod` (`:33`, already polarity-aware via `STEM_YIN`), `getDominantTenGod` (`:341`), and `detectPatterns` all produce the **identical Canonical JSON**. The fix only makes the energy-card *display* agree with the polarity the engine already resolves correctly — so reading accuracy can only **improve**, never regress.
+
 ---
 
 ## §1 — Architecture Overview
@@ -212,6 +216,13 @@ Five-element control cycle:    Wood → Earth → Water → Fire → Metal → W
 
 This replaces the old raw character count, which was arbitrary and inaccurate.
 
+> **⚠ COMMITTED METHODOLOGY (2026-06-25 — 子平真诠 structure-core + 滴天髓 relative-clash).** Strength & dominance follow the orthodox **substance-vs-function** principle: the **dominance number tracks 五行 substance (旺衰)** and is modified ONLY by substance-changing operations —
+> - **positional 旺衰** (§3.2–§3.6: position weights, hidden stems, seasonal phase, root),
+> - **真化** (gated transformation — §3.7), and
+> - **relative 冲** (root-uprooting — §3.7b).
+>
+> **合-binding** (合而不化) and **刑/害/破** change *function/relationship*, NOT substance — they live in the **格局/用神/reading layer, never in the number** (classical sourcing + 刑害破 placement: DOC3; dominance-to-reading contract: DOC6). Day-Master **strength** is the qualitative **得令/得地/得势 gate** (§3.8, Method A), 月令-primary-but-not-sole. *Doc leads code: §3.7–§3.8 describe the committed target; the engine fix lands it (backlog task "Implement engine fix").*
+
 ---
 
 ### 3.2 Position Weights (Method C)
@@ -291,10 +302,9 @@ Count:      count[E] = round(pct[E] × 10)   → 0–10 for UI display
 
 ---
 
-### 3.7 Bond Modifiers (天干五合 · 地支六合 · 三合)
+### 3.7 Combinations 合 — 合而不化 default, 真化 gated
 
-Bonds partially convert element scores toward the result element.
-Applied **after** raw composition, **before** normalizing.
+**Committed rule (子平真诠).** A combination **binds (羁绊); by default it does NOT convert substance** — so it makes **no shift to the composition and adds no 得势 support** (合而不化, the ordinary outcome). The shift factors below apply **only when the 真化 gate passes**.
 
 **Bond types and results:**
 
@@ -305,7 +315,7 @@ Applied **after** raw composition, **before** normalizing.
 | 三合 Three-harmony | 寅午戌 申子辰 亥卯未 巳酉丑 | Fire Water Wood Metal |
 | 半三合 Half three-harmony | Any 2 of above triplets | Same as three-harmony |
 
-**Shift factors:**
+**Shift factors (apply ONLY when the 真化 gate below passes):**
 
 | Bond type | In season (月令本気 = result) | Out of season |
 |---|---|---|
@@ -313,9 +323,30 @@ Applied **after** raw composition, **before** normalizing.
 | Full three-harmony (all 3 present) | 90% | 55% |
 | Half three-harmony (2 of 3) | 60% | 30% |
 
-**Rules:**
-- The DM stem itself is excluded from composition shifts — identity cannot be converted
-- When a non-DM stem bonds and the result element = DM element or generates DM, that stem counts as **supportive** in 得势, regardless of its original element
+**真化 gate — transformation fires ONLY if ALL hold:**
+1. **月令** — the month branch's 本気 is the **result element** (or in its 临官/帝旺/墓库 prosperous phase);
+2. **透干引化** — the result element appears as a heavenly stem;
+3. **no 冲破** breaks the combination;
+4. **adjacency** — the combining stems/branches are adjacent (合 requires adjacency; never fire on mere presence).
+
+When the gate is unmet → **合而不化**: no shift, no 得势 support. The combination's *functional* effect (合去 a 用神, binding a god) is a 格局 success/break factor handled qualitatively (DOC2 / DOC6) — **not** a number.
+
+- The DM stem itself is never converted (identity is fixed).
+- *(Deviation note: the prior engine auto-transformed on mere presence — the 得势-inflation that produced the QA-F2 "extremely strong / wrong dominance" artifact. This 真化 gate retires that.)*
+
+---
+
+### 3.7b Clashes 冲 — relative root-uprooting (NEW)
+
+**Committed rule (滴天髓 任铁樵: 旺者冲衰衰者拔，衰神冲旺旺神发).** 六冲 modifies 五行 substance **relatively**, applied after composition:
+- a **stronger** branch clashing a **weaker** one **uproots the weaker's root** → reduce that element's score;
+- a **weaker** branch clashing a **stronger** one merely **provokes** it → no reduction (slight activation only).
+
+Never a flat, context-free subtraction. The favorable/unfavorable read (uprooting a 忌神 = good vs a 喜用神 = bad) is surfaced at the **用神/reading layer**, not the number.
+
+六冲 pairs: 子午 · 丑未 · 寅申 · 卯酉 · 辰戌 · 巳亥.
+
+⚠ **墓库冲** (e.g. 辰戌冲 "opening the vault") needs a separate rule — **OPEN**; until resolved, treat as an ordinary root-clash.
 
 ---
 
@@ -333,9 +364,9 @@ Does the month branch's 本気 element equal the DM element, or generate the DM 
 | 辰 | Earth | 戌 | Earth |
 | 巳 | Fire  | 亥 | Water |
 
-**得地 (Branch Root):** Does any branch's hidden stems contain the DM element?
+**得地 (Branch Root):** Does any branch's hidden stems contain the DM element? *(A DM root **uprooted by a stronger 冲** — §3.7b — no longer counts.)*
 
-**得势 (Stem Support):** Do more of the 3 non-DM heavenly stems support the DM (印 generates DM; 比 = same element) than drain it?
+**得势 (Stem Support):** Do more of the 3 non-DM heavenly stems support the DM (印 generates DM; 比 = same element) than drain it? *(Bonded stems do **NOT** count as support unless **真化** fired — §3.7. This retires the QA-F2 得势-inflation.)*
 
 **Strength decision table:**
 

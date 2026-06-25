@@ -1,5 +1,7 @@
 # Elementum · Doc 4 — Generation Architecture & Reading Content Guide
 
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** Deltas for this doc: (1) retarget the 50 compound cards (`DomEnergyTg_Data.js`, Pipeline A2) to **`ENERGY_CARD_DATA[${element}_${god}]`** with the v2.1 shape — a **FACES prologue** (abstract · punchline · chips · `rulingDomain`) plus the **reading authored per presence-frame register**: `dominant` and `absent` **bespoke**, `present` **derived** (compressed from dominant). (2) **§9 exception (decision C5):** the rule "TG content does not vary by band" is overridden **for the energy-card layer** — a persona reads differently as dominant vs present vs absent (cultivation). (3) Add a **`rulingDomain`** field, authored **per persona (×50), DM-relative**. (4) Generation must produce the **two polarity faces** per direction (persona-per-god), not one collapsed god.
+
 > **Version 4.3 · April 2026**
 > This document replaces all prior generation architecture. The old three-pass pipeline (portrait prewrite → persona card → reading schema) is retired. `archetypeSource.js` is the single source of truth for all field names, reading templates, and knowledge-pool content. Two pre-generated serving files exist: `STEM_CARD_DATA.js` (150 configuration-specific entries) and `DomEnergyTg_Data.js` (50 compound archetype cards). Generated content beyond those files is limited to the self-report synthesis pass (on purchase).
 
@@ -208,7 +210,7 @@ Every TG card is governed by a **locked reading angle** — a single lens that a
 
 | # | Section | Tier | Field | Content |
 |---|---|---|---|---|
-| ① | Header | FREE | `title` | Poetic name (“The Trial”) + one-line descriptor |
+| ① | Header | FREE | `title` | Poetic name (“The General”) + one-line descriptor |
 | ② | Ruling Realm | FREE | `rulingRealm: { phrase, desc }` | The psychological territory this TG governs — unique to TG, no base energy equivalent |
 | ③ | Chips | FREE | `chips[]` | 5 TG-specific behavioral tags — moved here from base energy |
 | ④ | Outputs | FREE | `outputs[]: { phrase, desc }` × 3 | What this force generates when well-placed. Named phrase + one sentence. Mechanical framing: “this force produces X.” |
@@ -311,7 +313,7 @@ Every field in a TG card is written through its governing angle. This is not a l
 
 | # | Field | Type | Description | Tier |
 |---|---|---|---|---|
-| ① | `title` | string | Poetic name ("The Trial") + one-line descriptor | Free |
+| ① | `title` | string | Poetic name ("The General") + one-line descriptor | Free |
 | ② | `rulingRealm.phrase` | string | Short phrase naming the psychological territory this TG governs | Free |
 | ② | `rulingRealm.desc` | string | One paragraph — what this domain means structurally | Free |
 | ③ | `chips[]` | string[] | 5 TG-specific behavioral tags — moved here from base energy | Free |
@@ -381,7 +383,7 @@ These 15 combinations are the complete authoring target for `domainSignatures` a
 **JavaScript schema:**
 ```javascript
 {
-  title: `The Trial`,
+  title: `The General`,
   rulingRealm: {
     phrase: `Authority That Forges`,
     desc: `[The psychological territory this TG governs — one paragraph]`,
@@ -859,6 +861,8 @@ OUTPUT: Valid JSON following the 13-field self-report schema.
 
 Ten God content differentiation happens at the compound card layer (`DomEnergyTg_Data.js` keyed by `domEl_specificTenGod`) — not inside `TG_CARD_DATA` itself.
 
+> **⚠ v2.1 exception (decision C5 · 2026-06-24).** The "TG content is flat / does not vary by band" rule above is **overridden for the v2.1 energy cards**: `ENERGY_CARD_DATA[element_god]` content **does** vary by **presence frame** — `dominant` (full read) · `present` (derived shorter) · `scarce/absent` (cultivation) — per schema v2.1 §4 `registers`. The flat-field rule still describes the legacy `TG_CARD_DATA` source, but the *rendered* energy reading is register-aware.
+
 ### TG_CARD_DATA — content authoring schema
 
 `TG_CARD_DATA` entries are flat — no `bands`, `patterns`, `priority`, or `text{}` variant keys. The TG layer's selectivity mechanism is different: **domain significance tags** (`sig`, 1–5) control which domain sections are surfaced for each TG card. This is the TG equivalent of the band/pattern variant system — it determines what content renders, but through relevance filtering rather than text substitution.
@@ -1333,6 +1337,8 @@ This work is tracked separately and does not block the compound card generation 
 
 ## §10 — Compound Coverage Protocol
 
+> **⚠ v2.1 reconciliation (B5 + B6 · 2026-06-24).** This protocol predates the **2-layer model**. **Rule A still holds** — Identity (Layer 1) vs Ten-God cards are distinct angles (who-you-are vs what-a-force-does). **Rule B (Layer 2 vs Layer 3 primary/secondary territory) is SUPERSEDED:** there is no dominant-vs-secondary coordination — **every present energy gets its own card**, differentiated instead by (a) **presence-frame register** (dominant/present/absent — B1) and (b) **polarity face**. Cross-card non-overlap is handled per-card by register, not by allocating "territory" between two TGs. **New orthogonal axis — positional reading (宫位 × 十神, B6):** composes `PALACE_FRAMES[position] × chart.tenGods[position] × polarity` into per-pillar cards (schema §3, DOC3 §2.7b). The full Pipeline A2 / §10 rewrite to this model is part of the generation/code pass.
+
 ### What this section is
 
 The compound reading is not the sum of Layer 1 + Layer 2 + Layer 3 content placed side by side. It is a coordinated reading where each layer occupies distinct territory, and the full stack taken together says more than any layer does alone. The coverage protocol is the ruleset that keeps each layer doing its job without repeating what another layer already said.
@@ -1521,7 +1527,7 @@ No field in any layer duplicates a field in another layer. Every piece of conten
 | **Status** | Current — replaces all prior versions |
 | **Audience** | Engineers, content team, generation system |
 | **Replaces** | v2.x three-pass pipeline (portrait prewrite → persona card → reading schema) |
-| **Compatible with** | Doc 2 v1.1 · Doc 3 v1.2 · Doc 6 v1.1 |
+| **Compatible with** | Doc 2 v1.1 · Doc 3 v1.2  *(old "Doc 6" = retired Manual; Doc 6 now = Reading Schema)* |
 
 ## §11 — Block Selection Architecture v2 (Slot + Specificity)
 
