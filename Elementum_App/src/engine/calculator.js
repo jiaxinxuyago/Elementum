@@ -163,6 +163,11 @@ export function computeElementComposition(pillars) {
   return {raw, posContrib};
 }
 
+// v2.1 — 合而不化 by default; a combination TRANSFORMS only when the 真化 gate
+// passes (DOC1 §3.7). Previously every present 合 transformed (and counted as
+// DM-support), with no adjacency and no 化 conditions — which inflated both the
+// dominant element and the DM strength (QA-F2). Now: a 合 binds for the reading
+// layer (recorded by detectPatterns) but touches NO numbers unless 真化 fires.
 export function applyBondModifiers(raw, posContrib, pillars, dayStem) {
   const MAIN_QI = {"子":"Water","丑":"Earth","寅":"Wood","卯":"Wood","辰":"Earth","巳":"Fire","午":"Fire","未":"Earth","申":"Metal","酉":"Metal","戌":"Earth","亥":"Water"};
   const monthMQi = MAIN_QI[pillars.month.branch];
@@ -171,6 +176,23 @@ export function applyBondModifiers(raw, posContrib, pillars, dayStem) {
 
   const allStems    = [pillars.year.stem,  pillars.month.stem,  dayStem,            pillars.hour.stem];
   const allBranches = [pillars.year.branch,pillars.month.branch,pillars.day.branch, pillars.hour.branch];
+
+  // ordered positions (year→month→day→hour) for the adjacency requirement —
+  // a 合 only forms between neighbouring pillars.
+  const stemOrder   = [pillars.year.stem,   pillars.month.stem,   pillars.day.stem,   pillars.hour.stem];
+  const branchOrder = [pillars.year.branch, pillars.month.branch, pillars.day.branch, pillars.hour.branch];
+  const adjacentIn = (order, x, y) => {
+    for (let i = 0; i < order.length - 1; i++) {
+      const a = order[i], b = order[i+1];
+      if ((a===x && b===y) || (a===y && b===x)) return true;
+    }
+    return false;
+  };
+
+  // 冲破 — the bond's anchoring (month) branch is split by a present 六冲, so 化 fails.
+  const branchClashed = b => SIX_CLASH.some(([x,y]) =>
+    (b===x && allBranches.includes(y)) || (b===y && allBranches.includes(x)));
+  const monthIntact = !branchClashed(pillars.month.branch);
 
   const branchPosKey = b =>
     pillars.year.branch===b?"yearBranch":pillars.month.branch===b?"monthBranch":
@@ -201,38 +223,49 @@ export function applyBondModifiers(raw, posContrib, pillars, dayStem) {
     {branches:["亥","卯","未"],result:"Wood"},{branches:["巳","酉","丑"],result:"Metal"},
   ];
 
+  // 天干五合 — 真化 gate: adjacent + 月令 commands the result + month not 冲破.
   for (const {s1,s2,result} of STEM_BOND_PAIRS) {
     if (!allStems.includes(s1) || !allStems.includes(s2)) continue;
-    const sf = monthMQi === result ? 0.80 : 0.40;
+    if (!adjacentIn(stemOrder, s1, s2)) continue;            // non-adjacent → no 合 at all
+    const transforms = monthMQi === result && monthIntact;   // else 合而不化 (bind only)
+    if (!transforms) continue;
     for (const s of [s1,s2]) {
       if (s === dayStem) continue;
       const contribs = posContrib[stemPosKey(s)] || [];
       for (const c of contribs) {
         if (c.element === result) continue;
-        shift(c.element, result, c.score * sf);
+        shift(c.element, result, c.score * 0.80);
       }
       if (result === dmEl || GEN[result] === dmEl) bondedDMStems.add(s);
     }
   }
 
+  // 地支六合 — same 真化 gate (六合 is weak; it needs the command to transform).
   for (const {b1,b2,result} of SIX_COMBO) {
     if (!allBranches.includes(b1) || !allBranches.includes(b2)) continue;
-    const sf = monthMQi === result ? 0.80 : 0.40;
+    if (!adjacentIn(branchOrder, b1, b2)) continue;
+    const transforms = monthMQi === result && monthIntact;
+    if (!transforms) continue;
     for (const b of [b1,b2]) {
       const contribs = posContrib[branchPosKey(b)] || [];
       for (const c of contribs) {
         if (c.element === result) continue;
-        shift(c.element, result, c.score * sf);
+        shift(c.element, result, c.score * 0.80);
       }
     }
   }
 
+  // 地支三合/半合 — a full 三合 bureau (3 present) is self-sufficient (gate = no 冲破);
+  // a 半合 (2 present) is weaker, so it needs adjacency + 月令, like the others.
   for (const {branches,result} of THREE_COMBO) {
     const present = branches.filter(b => allBranches.includes(b));
     if (present.length < 2) continue;
-    const sf = present.length === 3
-      ? (monthMQi === result ? 0.90 : 0.55)
-      : (monthMQi === result ? 0.60 : 0.30);
+    const full = present.length === 3;
+    const transforms = full
+      ? monthIntact
+      : (adjacentIn(branchOrder, present[0], present[1]) && monthMQi === result && monthIntact);
+    if (!transforms) continue;
+    const sf = full ? 0.90 : 0.55;
     for (const b of present) {
       const contribs = posContrib[branchPosKey(b)] || [];
       for (const c of contribs) {
@@ -251,8 +284,25 @@ export function computeDMStrength(pillars, dmStem, bondedDMStems = new Set()) {
   const MAIN_QI = {"子":"Water","丑":"Earth","寅":"Wood","卯":"Wood","辰":"Earth","巳":"Fire","午":"Fire","未":"Earth","申":"Metal","酉":"Metal","戌":"Earth","亥":"Water"};
   const monthMainQi = MAIN_QI[pillars.month.branch] || "Earth";
   const gotLing = monthMainQi === dmEl || GEN[monthMainQi] === dmEl;
+
+  // 得地 (鸣根) with relative 冲 (滴天髓 旺者冲衰衰者拔): a DM root sitting on the
+  // WEAKER side of a present 六冲 is uprooted and no longer anchors the DM. Strength
+  // is approximated by position weight (月令 strongest), per DOC1 §3.7b / §3.8.
+  const BPOS = {year:0.05, month:0.40, day:0.20, hour:0.05};
+  const branchAt = {year:pillars.year.branch, month:pillars.month.branch, day:pillars.day.branch, hour:pillars.hour.branch};
+  const uprooted = pos => {
+    const b = branchAt[pos];
+    for (const [x,y] of SIX_CLASH) {
+      const other = b===x ? y : (b===y ? x : null);
+      if (!other) continue;
+      for (const op of Object.keys(branchAt))
+        if (branchAt[op]===other && BPOS[op] > BPOS[pos]) return true; // stronger opponent uproots
+    }
+    return false;
+  };
   const allBranches = [pillars.year.branch,pillars.month.branch,pillars.day.branch,pillars.hour.branch];
-  const gotDi = allBranches.some(b=>(HIDDEN_STEMS[b]||[]).some(h=>h.e===dmEl));
+  const gotDi = Object.keys(branchAt).some(pos =>
+    (HIDDEN_STEMS[branchAt[pos]]||[]).some(h=>h.e===dmEl) && !uprooted(pos));
   const nonDMStems = [pillars.year.stem,pillars.month.stem,pillars.hour.stem];
   const supporting = nonDMStems.filter(s=>{
     const el = STEM_ELEM[s];
@@ -282,8 +332,12 @@ export function getEnergyBand(strength) {
   return "open";
 }
 
-export function getDominantElementPolarity(domEl, dmStem, pillars) {
-  if (!pillars) return STEM_YIN[dmStem];
+// Per-element polarity split — the weighted yang vs yin mass of `domEl` across
+// all stems + hidden branch stems. (v2.1: this accumulation was computed inside
+// getDominantElementPolarity and then discarded; it is now exposed so the
+// reading can resolve BOTH polarity faces of an element, not just the winner.)
+export function getElementPolaritySplit(domEl, dmStem, pillars) {
+  if (!pillars) return { yangW: 0, yinW: 0 };
   const { year, month, day, hour } = pillars;
   let yangW = 0, yinW = 0;
 
@@ -312,7 +366,12 @@ export function getDominantElementPolarity(domEl, dmStem, pillars) {
       }
     }
   }
+  return { yangW, yinW };
+}
 
+export function getDominantElementPolarity(domEl, dmStem, pillars) {
+  if (!pillars) return STEM_YIN[dmStem];
+  const { yangW, yinW } = getElementPolaritySplit(domEl, dmStem, pillars);
   if (yangW === 0 && yinW === 0) return STEM_YIN[dmStem];
   return yangW >= yinW ? 0 : 1;
 }
@@ -351,6 +410,46 @@ export function getDominantTenGod(domEl, dmStem, pillars) {
   if (CTL[dmEl]  === domEl)    return same ? "偏财" : "正财";
   if (CTL[domEl] === dmEl)     return same ? "七杀" : "正官";
   return "比肩";
+}
+
+// The two stems of each element — its yang form and its yin form. Used to
+// resolve an element's two polarity FACES relative to the Day Master.
+const ELEMENT_STEMS = {
+  Wood:  { yang: '甲', yin: '乙' },
+  Fire:  { yang: '丙', yin: '丁' },
+  Earth: { yang: '戊', yin: '己' },
+  Metal: { yang: '庚', yin: '辛' },
+  Water: { yang: '壬', yin: '癸' },
+};
+
+// v2.1 — polarity-aware FACE resolution for one element relative to the Day
+// Master. Returns the 1–2 Ten-God faces actually present (by polarity weight,
+// dominant first), the would-be god of the absent polarity (when exactly one
+// is present), and a `leadGod` that is ALWAYS defined (a DM-polarity fallback
+// for a fully-absent / ghost element). This REPLACES the polarity-BLIND
+// `tenGodForEnergy` display lookup, which hard-coded the same-polarity (偏)
+// register and so could never surface the 正 half of the Ten Gods.
+export function resolveElementFaces(domEl, dmStem, pillars) {
+  const stems = ELEMENT_STEMS[domEl];
+  if (!stems) return { presentFaces: [], absentGod: null, leadGod: null };
+  const yangGod = getTenGod(dmStem, stems.yang).zh;
+  const yinGod  = getTenGod(dmStem, stems.yin).zh;
+  const { yangW, yinW } = getElementPolaritySplit(domEl, dmStem, pillars);
+
+  const faces = [];
+  if (yangW > 0) faces.push({ god: yangGod, weight: yangW, polarity: 'yang' });
+  if (yinW > 0)  faces.push({ god: yinGod,  weight: yinW,  polarity: 'yin'  });
+  faces.sort((a, b) => b.weight - a.weight); // dominant-led
+
+  let absentGod = null;
+  if (faces.length === 1) absentGod = faces[0].polarity === 'yang' ? yinGod : yangGod;
+
+  // ghost / fully-absent element: keep a sensible lead for the cultivation read
+  // — the element stem matching the DM's OWN polarity (the old convention).
+  const fallbackGod = STEM_YIN[dmStem] === 0 ? yangGod : yinGod;
+  const leadGod = faces.length ? faces[0].god : fallbackGod;
+
+  return { presentFaces: faces, absentGod, leadGod };
 }
 
 export function getPrimaryCatalyst(chart) {

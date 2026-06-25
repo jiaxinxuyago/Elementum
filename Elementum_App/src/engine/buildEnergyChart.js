@@ -10,7 +10,7 @@
 // applyDominanceRules. Spec: d13/HANDOFF_PART1.md §3.
 // ===================================================================
 
-import { getEnergyBand } from './calculator.js';
+import { getEnergyBand, resolveElementFaces } from './calculator.js';
 import { classifyEnergyRoles } from './energyRoles.js';
 import { EL_ORDER } from './dominanceWheel.js';
 
@@ -56,10 +56,16 @@ export function buildEnergyChart(chart) {
     .map((lc) => {
       const El = CAP[lc];
       const rec = roleMap[El];
+      // v2.1 — polarity-aware faces (the 1–2 Ten-God personas present for this
+      // element, dominant-led) + a polarity-correct leadGod for the reading.
+      const faceInfo = resolveElementFaces(El, chart.dayMaster.stem, chart.pillars);
       return {
         el: lc,
         presence: presencePct[lc],
         roles: rec.roles,
+        faces: faceInfo.presentFaces,   // [{ god, weight, polarity }]
+        leadGod: faceInfo.leadGod,      // dominant present face (DM-polarity fallback for ghost)
+        absentGod: faceInfo.absentGod,  // the absent polarity's god, when exactly one is present
         ...(rec.major ? { major: rec.major } : {}),
       };
     })

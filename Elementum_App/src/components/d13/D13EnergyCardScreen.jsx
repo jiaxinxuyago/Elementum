@@ -38,7 +38,7 @@ const GHOST_MAX = 3; // presence ≤ this reads as scarce/absent → ghost regis
 // active card; now built per card so the whole track can render at once).
 function buildCard(energy, dmEl, tier) {
   const el = energy.el;
-  const authored = resolveEnergyReading(dmEl, el);
+  const authored = resolveEnergyReading(dmEl, el, energy.leadGod);
   const fb = ENERGY_CONTENT[el] || {};
   const persona = authored.persona || fb.persona || '';
   const tail = authored.tail || fb.tail || '';

@@ -6,9 +6,10 @@
 //     (the "10×3 stem bands" — yourNature / gifts / shadows per band).
 //   · P6/P7 energy cards   ← TG_CARD_DATA, by the energy's dominant
 //     Ten-God relative to the Day Master (the "dominant ten-god
-//     archetypes"). Each element resolves to its same-polarity god, so
-//     the five energies map to {比肩 偏印 食神 偏财 七杀} = Mirror /
-//     Alchemist / Muse / Horizon / General — matching the design.
+//     archetypes"). v2.1: each element resolves POLARITY-AWARE — its
+//     dominant present face (yang/yin by weight), via the engine's
+//     resolveElementFaces → energy.leadGod. (Was hard-locked to the
+//     same-polarity register; that bug is retired.)
 // Internal Ten-God vocabulary never surfaces; only the persona names do.
 // ===================================================================
 
@@ -78,8 +79,11 @@ export const ENERGY_ART = {
   water: '/concept-arts/library/t_water_1_w.png',
 };
 
-// energy element → its dominant Ten-God (same-polarity convention) relative
-// to the Day Master element. Returns the internal 中文 key into TG_CARD_DATA.
+// ⚠ DEPRECATED (v2.1) — polarity-BLIND fallback only. Hard-codes the
+// same-polarity (偏) register, so it can never reach the 正 half of the Ten
+// Gods. The reading now resolves the polarity-correct god via the engine
+// (`resolveElementFaces` → `energy.leadGod`); this remains only as a safety
+// fallback when leadGod is absent. Do not build new code on it.
 export function tenGodForEnergy(dmEl, el) {
   const d = (dmEl || '').toLowerCase();
   const e = (el || '').toLowerCase();
@@ -105,8 +109,11 @@ export function resolveDayMasterReading(stem, chart) {
 }
 
 // P6/P7 — energy reading from the dominant Ten-God archetype card.
-export function resolveEnergyReading(dmEl, el) {
-  const zh = tenGodForEnergy(dmEl, el);
+export function resolveEnergyReading(dmEl, el, leadGod) {
+  // v2.1: prefer the polarity-aware `leadGod` resolved in buildEnergyChart
+  // (engine resolveElementFaces). Fall back to the legacy polarity-blind
+  // lookup only if it's somehow missing.
+  const zh = leadGod || tenGodForEnergy(dmEl, el);
   const tg = TG_CARD_DATA[zh];
   const persona = TG_PERSONA[zh] || (tg && tg.name) || '';
   if (!tg) return { persona, tail: '', r: '', x: '', gate: { label: `Seeker — the full reading`, body: '' } };
