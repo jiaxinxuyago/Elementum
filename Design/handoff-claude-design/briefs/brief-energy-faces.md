@@ -9,9 +9,10 @@
 
 ## Screen(s) in scope
 - Route: `#/app-energy` (reached from the catalogue: tap an energy's dot/READ).
-- Reference capture: `screens/17-energy-faces.png` (regen via
-  `Elementum_App/design-handoff-capture.mjs` — capture BOTH the two-face Wood
-  state and the single-face Earth state).
+- Reference visual: `Design/exports/energy-faces-current.html` (committed) — a
+  faithful, self-contained render of the as-built screen, both the two-face Wood
+  and single-face Earth states + the two reading destinations. Open it directly
+  or hand a screenshot to the canvas; paired with `Design/exports/energy-faces-prompt.md`.
 - Supersedes the old swipe-carousel "energy card" (brief 4 §screens line 11):
   that single-persona-per-element carousel is retired. The per-persona **reading**
   it descends into is reused here unchanged (hero + R/X layers + Seeker gate).
