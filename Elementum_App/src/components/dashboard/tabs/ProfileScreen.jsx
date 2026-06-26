@@ -81,14 +81,14 @@ export default function ProfileScreen() {
           fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase',
           color: bronzeDark, fontWeight: 500,
         }}>
-          Profile · 个 人
+          Your Profile
         </span>
         <h1 style={{
           fontFamily: "'Cormorant Garamond', Georgia, serif",
           fontSize: 30, fontWeight: 400, lineHeight: 1.1,
           color: ink, margin: '4px 0 0',
         }}>
-          Me
+          Account &amp; Settings
         </h1>
       </header>
 

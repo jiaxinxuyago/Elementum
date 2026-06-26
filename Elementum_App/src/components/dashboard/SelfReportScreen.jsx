@@ -11,6 +11,7 @@ import React, { useState } from 'react';
 import { Icon } from '../shared/icons';
 import { useChart, SELF_REPORT_PRICE } from '../../store/chartContext.jsx';
 import { useUpgrade } from './UpgradeModal.jsx';
+import HorizonHeader from '../guidance/HorizonHeader.jsx';
 import {
   ink, inkSoft, inkLight, bronzeDark, gold, silk,
   paperHair, cardstockBg, pigments, withAlpha,
@@ -44,16 +45,17 @@ export default function SelfReportScreen({ onBack }) {
 
   return (
     <main style={{ minHeight: '100%', padding: '54px 20px 24px' }}>
-      <button type="button" onClick={onBack} style={{
-        appearance: 'none', background: 'transparent', border: 'none', color: inkLight, cursor: 'pointer',
-        padding: 0, marginBottom: 12, display: 'inline-flex', alignItems: 'center', gap: 6,
-        fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13,
-      }}><Icon id="ico-chev-l" size={15} color={inkLight} /> Guidance</button>
-
-      <header style={{ marginBottom: 8 }}>
-        <span style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase', color: bronzeDark, fontWeight: 500 }}>Self-Report · 自 述</span>
-        <h1 style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 34, fontWeight: 400, lineHeight: 1.1, color: ink, margin: '6px 0 0' }}>Your life context</h1>
-      </header>
+      <HorizonHeader
+        art="/art/fhdr-self.png"
+        bgPosition="50% 20%"
+        tint="90,127,168"
+        ruleColor="rgb(74,108,150)"
+        eyebrow="A Quiet Reckoning"
+        title="Self-Report"
+        subtitle="Tell your readings who you really are"
+        onBack={onBack}
+      />
+      <div style={{ height: 14 }} />
       {!hasSelfReport ? (
         <PurchaseGate tier={tier} onBuy={purchaseSelfReport} onUpgrade={() => openUpgrade('Self-Report')} />
       ) : (

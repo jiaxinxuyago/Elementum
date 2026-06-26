@@ -15,10 +15,26 @@ import React, { useState } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { STEM_CARD_DATA, TG_CARD_DATA } from '../../content/archetypeSource.js';
 import { Icon } from '../shared/icons';
+import HorizonHeader from '../guidance/HorizonHeader.jsx';
 import {
   ink, inkSoft, inkLight, bronzeDark, silk,
   paperHair, cardstockBg, pigments, withAlpha,
 } from '../../styles/tokens';
+
+// The screens-v2 horizon-band header, shared by both the setup gate and the
+// post-setup document view.
+const MANUAL_HEADER = (onBack) => (
+  <HorizonHeader
+    art="/art/fhdr-manual.png"
+    bgPosition="50% 26%"
+    tint="122,158,110"
+    ruleColor="rgb(96,130,86)"
+    eyebrow="Your Living Manual"
+    title="Energy Manual"
+    subtitle="A reading across your five life domains"
+    onBack={onBack}
+  />
+);
 
 const SETUP_KEY = 'elementum_manual_setup_v1';
 const DOMAINS = [
@@ -67,8 +83,8 @@ export default function EnergyManualScreen({ onBack, onOpenConsultant }) {
   if (!setup) {
     return (
       <main style={{ minHeight: '100%', padding: '54px 20px 24px' }}>
-        <BackLink onBack={onBack} />
-        <Header sub="Energy Manual · 能 量 手 册" title="Set up your Manual" />
+        {MANUAL_HEADER(onBack)}
+        <div style={{ height: 14 }} />
         <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14.5, lineHeight: 1.65, color: inkSoft, margin: '0 0 18px' }}>
           Your Manual is a living reading across the domains that matter most.
           Choose where to focus — it updates on its own as your cycles turn.
@@ -119,8 +135,8 @@ export default function EnergyManualScreen({ onBack, onOpenConsultant }) {
 
   return (
     <main style={{ minHeight: '100%', padding: '54px 20px 24px' }}>
-      <BackLink onBack={onBack} />
-      <Header sub="Energy Manual · 能 量 手 册" title="Your Manual" />
+      {MANUAL_HEADER(onBack)}
+      <div style={{ height: 14 }} />
 
       {/* Domain tabs */}
       <div style={{ display: 'flex', gap: 6, overflowX: 'auto', paddingBottom: 6, marginBottom: 16 }}>

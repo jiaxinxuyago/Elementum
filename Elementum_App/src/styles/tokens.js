@@ -103,6 +103,7 @@ export const shadow = {
   ctaAlt:  '0 8px 22px rgba(43, 39, 34, 0.35)',
   sheet:   '0 -8px 40px rgba(0, 0, 0, 0.12)',
   bronze:  '0 4px 12px rgba(107, 83, 57, 0.20)',
+  tile:    '0 1px 0 rgba(43, 39, 34, 0.04), 0 8px 18px rgba(60, 46, 28, 0.07)', // guidance/feature tile lift
   phone:
     '0 30px 60px rgba(40, 30, 20, 0.18), ' +
     '0 8px 18px rgba(40, 30, 20, 0.10), ' +

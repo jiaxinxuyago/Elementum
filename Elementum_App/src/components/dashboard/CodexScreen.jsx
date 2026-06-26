@@ -16,6 +16,7 @@ import React, { useState } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { useUpgrade } from './UpgradeModal.jsx';
 import { Icon } from '../shared/icons';
+import HorizonHeader from '../guidance/HorizonHeader.jsx';
 import { tgPersona } from '../../content/tgNames.js';
 import {
   ink, inkSoft, inkLight, bronzeDark, gold,
@@ -139,26 +140,17 @@ export default function CodexScreen({ onBack }) {
 
   return (
     <main style={{ minHeight: '100%', padding: '54px 20px 24px' }}>
-      {/* Back to hub */}
-      <button type="button" onClick={onBack} style={{
-        appearance: 'none', background: 'transparent', border: 'none',
-        color: inkLight, cursor: 'pointer', padding: 0, marginBottom: 12,
-        display: 'inline-flex', alignItems: 'center', gap: 6,
-        fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13,
-      }}>
-        <Icon id="ico-chev-l" size={15} color={inkLight} /> Guidance
-      </button>
-
-      <header style={{ marginBottom: 20 }}>
-        <span style={{
-          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10,
-          letterSpacing: 2.5, textTransform: 'uppercase', color: bronzeDark, fontWeight: 500,
-        }}>BaZi Codex · 命 理 典</span>
-        <h1 style={{
-          fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 34,
-          fontWeight: 400, lineHeight: 1.1, color: ink, margin: '6px 0 0',
-        }}>The Codex</h1>
-      </header>
+      <HorizonHeader
+        art="/art/fhdr-codex.png"
+        bgPosition="50% 16%"
+        tint="139,163,184"
+        ruleColor="rgb(110,134,156)"
+        eyebrow="The Reference"
+        title="The Codex"
+        subtitle="The eight characters, explained plainly"
+        onBack={onBack}
+      />
+      <div style={{ height: 14 }} />
 
       {ENTRIES.map((e) => {
         const isOpen = open.has(e.key);

@@ -13,13 +13,15 @@ import EnergyCatalogue from './EnergyCatalogue.jsx';
 import { useD13 } from './useD13.js';
 
 export default function D13ReadingScreen({ onTab, onDayMaster, onOpenEnergy, onPillarChart }) {
-  const { ec, hourUnknown, sel, setSel, wip, showWip } = useD13();
+  const { ec, identity, chart, hourUnknown, sel, setSel, wip, showWip } = useD13();
   if (!ec) return null;
   return (
     <div className="d13" style={{ position: 'absolute', inset: 0 }}>
       <EnergyCatalogue
         energies={ec.energies}
         dayMaster={ec.dayMaster}
+        glyph={chart?.dayMaster?.stem}
+        archetype={identity?.archetype}
         tilde={hourUnknown}
         selected={sel}
         onSelect={setSel}

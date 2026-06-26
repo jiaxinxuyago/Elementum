@@ -7,6 +7,7 @@
 // ===================================================================
 
 import React, { createContext, useContext, useState, useEffect, useMemo, useCallback } from 'react';
+import { calculateBaziChart, ENGINE_VERSION } from '../engine/calculator.js';
 
 const ChartContext = createContext(null);
 
@@ -56,11 +57,50 @@ const BIRTH_KEY = 'elementum_birthdata_v1';
 const CHART_KEY = 'elementum_chart_v1';
 function readJSON(key) { try { return JSON.parse(localStorage.getItem(key) || 'null'); } catch { return null; } }
 
+// A persisted chart is only trusted if it was computed by the CURRENT engine.
+// Stored as { engineVersion, chart }; a bare/legacy chart (no engineVersion) or
+// a version mismatch is treated as stale → discarded and recomputed from
+// birthData below, so engine fixes (e.g. 合而不化) reach returning users instead
+// of being masked by a stale localStorage chart. See engine ENGINE_VERSION.
+function isCompleteBirthData(b) {
+  return !!(b && b.year != null && b.month != null && b.day != null);
+}
+function computeChart(b) {
+  try {
+    return calculateBaziChart({
+      year: b.year,
+      month: b.month,
+      day: b.day,
+      hour: resolveHourForCalc(b),
+      gender: resolveGenderForCalc(b),
+      longitude: resolveLongitudeForCalc(b),
+      location: resolveLocationName(b),
+    });
+  } catch (err) {
+    console.error('[chart] recompute from birthData failed:', err);
+    return null;
+  }
+}
+// Returns the chart to seed state with: the cached chart if its engine version
+// matches; otherwise a fresh recompute from birthData (or null if no birth data).
+function loadInitialChart() {
+  const stored = readJSON(CHART_KEY);
+  if (stored && stored.engineVersion === ENGINE_VERSION && stored.chart) {
+    return stored.chart;
+  }
+  const birth = readJSON(BIRTH_KEY) || INITIAL_BIRTH_DATA;
+  return isCompleteBirthData(birth) ? computeChart(birth) : null;
+}
+
 export function ChartProvider({ children }) {
   const [birthData, setBirthData] = useState(() => readJSON(BIRTH_KEY) || INITIAL_BIRTH_DATA);
-  const [chart, setChart] = useState(() => readJSON(CHART_KEY));
+  const [chart, setChart] = useState(loadInitialChart);
   const [tier, setTier] = useState('free');
   const [hasSelfReport, setHasSelfReportState] = useState(readSelfReportOwned);
+  // Compatibility result — set by the friend flow, read by CompatScreen.
+  // Session-only (not persisted): a relationship reading is a transient
+  // comparison, not part of the user's own saved chart.
+  const [compatResult, setCompatResult] = useState(null);
 
   // One-time Self-Report purchase (demo: flips the local entitlement + persists).
   const purchaseSelfReport = useCallback(() => {
@@ -84,7 +124,7 @@ export function ChartProvider({ children }) {
   }, [birthData]);
   useEffect(() => {
     try {
-      if (chart) localStorage.setItem(CHART_KEY, JSON.stringify(chart));
+      if (chart) localStorage.setItem(CHART_KEY, JSON.stringify({ engineVersion: ENGINE_VERSION, chart }));
       else localStorage.removeItem(CHART_KEY);
     } catch {}
   }, [chart]);
@@ -101,9 +141,10 @@ export function ChartProvider({ children }) {
       chart, setChart,
       tier, setTier,
       hasSelfReport, purchaseSelfReport, setHasSelfReport,
+      compatResult, setCompatResult,
       resetFlow,
     }),
-    [birthData, chart, tier, hasSelfReport, purchaseSelfReport, setHasSelfReport, updateBirthData, resetFlow]
+    [birthData, chart, tier, hasSelfReport, compatResult, purchaseSelfReport, setHasSelfReport, updateBirthData, resetFlow]
   );
 
   return <ChartContext.Provider value={value}>{children}</ChartContext.Provider>;

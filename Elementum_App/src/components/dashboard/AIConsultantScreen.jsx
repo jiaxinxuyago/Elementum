@@ -12,6 +12,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { STEM_CARD_DATA } from '../../content/archetypeSource.js';
 import { Icon } from '../shared/icons';
+import HorizonHeader from '../guidance/HorizonHeader.jsx';
 import {
   ink, inkSoft, inkLight, bronzeDark, silk, cream,
   paperHair, quietBg, advisor, withAlpha,
@@ -113,17 +114,19 @@ export default function AIConsultantScreen({ onBack }) {
 
   return (
     <div style={{ position: 'relative', height: '100%', display: 'flex', flexDirection: 'column', background: silk }}>
-      {/* Header */}
+      {/* Header — horizon band (no cloud veil; chat fills the frame) */}
       <div style={{ flexShrink: 0, padding: '54px 20px 10px' }}>
-        <button type="button" onClick={onBack} style={{
-          appearance: 'none', background: 'transparent', border: 'none', color: inkLight, cursor: 'pointer',
-          padding: 0, marginBottom: 8, display: 'inline-flex', alignItems: 'center', gap: 6,
-          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13,
-        }}><Icon id="ico-chev-l" size={15} color={inkLight} /> Guidance</button>
-        <div style={{ display: 'flex', alignItems: 'baseline', gap: 8 }}>
-          <h1 style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 26, fontWeight: 500, color: ink, margin: 0 }}>Consultant</h1>
-          <span style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10, letterSpacing: 1.4, textTransform: 'uppercase', color: advisor, fontWeight: 500 }}>✦ Advisor</span>
-        </div>
+        <HorizonHeader
+          art="/art/fhdr-consult.png"
+          bgPosition="50% 34%"
+          tint="122,94,154"
+          ruleColor="rgb(112,86,144)"
+          eyebrow="Counsel"
+          title="The Consultant"
+          subtitle="Answers grounded in your whole chart"
+          onBack={onBack}
+        />
+        <div style={{ height: 12 }} />
         {/* Context bar (collapsible) */}
         <button type="button" onClick={() => setContextOpen((o) => !o)} style={{
           appearance: 'none', background: 'transparent', border: 'none', cursor: 'pointer', padding: '6px 0 0',

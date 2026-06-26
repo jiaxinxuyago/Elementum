@@ -19,6 +19,7 @@
 
 import React from 'react';
 import PageBg from '../shared/PageBg.jsx';
+import CloudVeilBackground from '../guidance/CloudVeilBackground.jsx';
 import { silk } from '../../styles/tokens';
 
 // Bar takes 76px (+ the device safe-area inset); we add the same as bottom
@@ -28,7 +29,10 @@ const TAB_BAR_HEIGHT = 'calc(76px + env(safe-area-inset-bottom, 0px))';
 // `bg` — optional { src, opacity } painted background for the tab
 // (see styles/backgrounds.js). Renders behind the scroll content; the
 // translucent blurred tab bar sits above it cleanly.
-export default function DashboardShell({ active, onTabChange, children, background = silk, bg }) {
+// `veil` — when true, renders the ink-wash CloudVeilBackground (screens-v2 §5C)
+// at the z0 background layer instead of a painted PageBg plate. Used by the
+// Guidance feature screens, whose <main> is transparent so the mist shows through.
+export default function DashboardShell({ active, onTabChange, children, background = silk, bg, veil = false }) {
   return (
     <div
       style={{
@@ -42,7 +46,7 @@ export default function DashboardShell({ active, onTabChange, children, backgrou
       {/* Painted background layer — fixed behind the scroll area so it
           doesn't move as content scrolls. Accepts a painted src or a
           CSS gradient stand-in (see styles/backgrounds.js). */}
-      {bg && <PageBg src={bg.src} opacity={bg.opacity} gradient={bg.gradient} size={bg.size} pos={bg.pos} />}
+      {veil ? <CloudVeilBackground /> : (bg && <PageBg src={bg.src} opacity={bg.opacity} gradient={bg.gradient} size={bg.size} pos={bg.pos} />)}
 
       {/* Scrollable content area — reserves room for the tab bar via padding */}
       <div

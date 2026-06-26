@@ -6,6 +6,15 @@
 // Output: Canonical JSON chart per DOC1 §4.
 // ===================================================================
 
+// ---------- Engine version (chart-cache invalidation) ----------
+// Bump this WHENEVER the chart math changes (calculator / buildEnergyChart /
+// dominanceWheel / energyRoles — anything that alters computed output). A
+// persisted chart stamped with a different version is discarded and recomputed
+// from birthData on load (see chartContext.jsx), so engine fixes propagate to
+// every returning user instead of being masked by a stale localStorage chart.
+// v1 = pre-合而不化 · v2 = polarity-aware faces + 合而不化/relative-冲 (commit 975122a).
+export const ENGINE_VERSION = 2;
+
 // ---------- Heavenly Stems / Earthly Branches / element maps ----------
 export const HS = ["甲","乙","丙","丁","戊","己","庚","辛","壬","癸"];
 export const EB = ["子","丑","寅","卯","辰","巳","午","未","申","酉","戌","亥"];

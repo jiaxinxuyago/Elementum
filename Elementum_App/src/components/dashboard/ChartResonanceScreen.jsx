@@ -99,7 +99,7 @@ export default function ChartResonanceScreen({ onBack, onDone }) {
   if (phase === 'intro') {
     return (
       <Shell onBack={onBack}>
-        <Eyebrow>Chart Resonance · 时 辰 感 应</Eyebrow>
+        <Eyebrow>Chart Resonance</Eyebrow>
         <Title>Discover your birth hour</Title>
         <p style={pStyle}>
           Traditional readers recover an unknown birth hour by resonance —

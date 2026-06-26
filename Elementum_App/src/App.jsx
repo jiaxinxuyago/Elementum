@@ -73,6 +73,7 @@ const D13DayMasterScreen = lazy(() => import('./components/d13/D13DayMasterScree
 const D13PillarChartScreen = lazy(() => import('./components/d13/D13PillarChartScreen.jsx'));
 const D13EnergyCardScreen = lazy(() => import('./components/d13/D13EnergyCardScreen.jsx'));
 const D13FacesScreen = lazy(() => import('./components/d13/D13FacesScreen.jsx'));
+const CompatFriendFlow = lazy(() => import('./components/dashboard/CompatFriendFlow.jsx'));
 
 // Warm every on-demand screen chunk during idle time so navigation never
 // shows the Suspense fallback (the "white blink"). These are the SAME import
@@ -264,6 +265,7 @@ const FLOW = [
   'app-selfreport',  // Self-Report (Guidance §12 Card 3)
   'app-consultant',  // AI Consultant (Guidance §12 Card 4)
   'app-compat',
+  'compat-friends',  // full-frame "their birth" friend onboarding flow (no tab bar)
   'app-profile',
   // Reading detail destinations (DOC5 §11 drill-downs)
   'read-elemental',  // Elemental Nature (built fully)
@@ -497,35 +499,35 @@ export default function App() {
       break;
     case 'app-guidance':
       rendered = (
-        <DashboardShell active="guidance" onTabChange={routeTab} bg={SCREEN_BG.guidance}>
+        <DashboardShell active="guidance" onTabChange={routeTab}>
           <GuidanceScreen onOpen={(route) => setScreen(route)} />
         </DashboardShell>
       );
       break;
     case 'app-codex':
       rendered = (
-        <DashboardShell active="guidance" onTabChange={routeTab} bg={SCREEN_BG.guidance}>
+        <DashboardShell active="guidance" onTabChange={routeTab} veil>
           <CodexScreen onBack={goto('app-guidance')} />
         </DashboardShell>
       );
       break;
     case 'app-draw':
       rendered = (
-        <DashboardShell active="guidance" onTabChange={routeTab} bg={SCREEN_BG.guidance}>
+        <DashboardShell active="guidance" onTabChange={routeTab} veil>
           <ElementalDrawScreen onBack={goto('app-guidance')} />
         </DashboardShell>
       );
       break;
     case 'app-manual':
       rendered = (
-        <DashboardShell active="guidance" onTabChange={routeTab} bg={SCREEN_BG.guidance}>
+        <DashboardShell active="guidance" onTabChange={routeTab} veil>
           <EnergyManualScreen onBack={goto('app-guidance')} onOpenConsultant={goto('app-consultant')} />
         </DashboardShell>
       );
       break;
     case 'app-selfreport':
       rendered = (
-        <DashboardShell active="guidance" onTabChange={routeTab} bg={SCREEN_BG.guidance}>
+        <DashboardShell active="guidance" onTabChange={routeTab} veil>
           <SelfReportScreen onBack={goto('app-guidance')} />
         </DashboardShell>
       );
@@ -560,9 +562,14 @@ export default function App() {
     case 'app-compat':
       rendered = (
         <DashboardShell active="compat" onTabChange={routeTab} bg={SCREEN_BG.compat}>
-          <CompatScreen />
+          <CompatScreen onStartCompare={goto('compat-friends')} onCompareAgain={goto('compat-friends')} />
         </DashboardShell>
       );
+      break;
+    case 'compat-friends':
+      // Full-frame friend onboarding (no tab bar) — like the user's own
+      // onboarding. Computes the reading on finish → returns to app-compat.
+      rendered = <CompatFriendFlow onExit={goto('app-compat')} onDone={goto('app-compat')} />;
       break;
     case 'app-profile':
       rendered = (

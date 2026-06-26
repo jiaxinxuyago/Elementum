@@ -13,6 +13,7 @@
 import React, { useMemo, useState } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { Icon } from '../shared/icons';
+import HorizonHeader from '../guidance/HorizonHeader.jsx';
 import {
   ink, inkSoft, inkLight, bronzeDark, silk,
   paperHair, cardstockBg, pigments, withAlpha,
@@ -76,29 +77,22 @@ export default function ElementalDrawScreen({ onBack }) {
 
   return (
     <main style={{ minHeight: '100%', padding: '54px 20px 24px' }}>
-      <button type="button" onClick={onBack} style={{
-        appearance: 'none', background: 'transparent', border: 'none', color: inkLight,
-        cursor: 'pointer', padding: 0, marginBottom: 12, display: 'inline-flex', alignItems: 'center', gap: 6,
-        fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13,
-      }}>
-        <Icon id="ico-chev-l" size={15} color={inkLight} /> Guidance
-      </button>
-
-      <header style={{ marginBottom: 18 }}>
-        <span style={{
-          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10, letterSpacing: 2.5,
-          textTransform: 'uppercase', color: bronzeDark, fontWeight: 500,
-        }}>Elemental Draw · 抽 签</span>
-        <h1 style={{
-          fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 34, fontWeight: 400,
-          lineHeight: 1.1, color: ink, margin: '6px 0 0',
-        }}>Today's draw</h1>
-      </header>
+      <HorizonHeader
+        art="/art/fhdr-draw.png"
+        bgPosition="50% 30%"
+        tint="196,116,90"
+        ruleColor="rgb(160,64,48)"
+        eyebrow="Today's Rite"
+        title="The Daily Draw"
+        subtitle={`${deck} Day · ${DECKS[deck].name} deck`}
+        onBack={onBack}
+      />
+      <div style={{ height: 14 }} />
 
       {/* Featured deck label */}
       <div style={{
         fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10.5, letterSpacing: 2,
-        textTransform: 'uppercase', color: withAlpha(pig, 'CC'), fontWeight: 500,
+        textTransform: 'uppercase', color: 'rgba(146,119,80,0.8)', fontWeight: 500,
         textAlign: 'center', marginBottom: 18,
       }}>
         {deck} Day · {DECKS[deck].name} Deck

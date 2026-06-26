@@ -368,6 +368,7 @@ export function OnboardingShell({
   finalStep = false,
   stepLabel,
   progressValue,
+  eyebrow,   // overrides the "Step N of Y" counter line (e.g. friend flow: "Their birth · 1 of 5")
 }) {
   const progress =
     typeof progressValue === 'number' ? progressValue : step / total;
@@ -454,7 +455,7 @@ export function OnboardingShell({
             marginTop: 0,
           }}
         >
-          Step {displayStep} of {total}
+          {eyebrow != null ? eyebrow : `Step ${displayStep} of ${total}`}
         </div>
 
         <h1

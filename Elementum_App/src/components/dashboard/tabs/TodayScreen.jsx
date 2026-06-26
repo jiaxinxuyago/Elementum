@@ -109,8 +109,8 @@ export default function TodayScreen({ onOpen }) {
         }}>Your Readings</span>
         <h1 style={{
           fontFamily: "'Cormorant Garamond', Georgia, serif",
-          fontSize: 26, fontWeight: 400, lineHeight: 1.1,
-          color: ink, margin: '2px 0 0',
+          fontSize: 30, fontWeight: 400, lineHeight: 1.1,
+          color: ink, margin: '4px 0 0',
         }}>Across time</h1>
       </header>
 

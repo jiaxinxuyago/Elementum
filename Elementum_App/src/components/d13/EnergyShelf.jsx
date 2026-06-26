@@ -97,9 +97,10 @@ function EnergySpine({ energy, energies, open, pMax, onSelect, onRead }) {
         </span>
         <span
           className="sp-read"
+          aria-label="Read"
           onClick={(ev) => { ev.stopPropagation(); onRead && onRead(el); }}
         >
-          Read<span className="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r" /></svg></span>
+          <span className="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r" /></svg></span>
         </span>
       </span>
     </button>

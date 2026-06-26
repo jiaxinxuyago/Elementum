@@ -368,8 +368,8 @@
 .d13 .sp-open .sp-ey { font-family: 'JetBrains Mono', Consolas, monospace; font-size: 8px; letter-spacing: 1.2px; line-height: 1.35; text-transform: uppercase; color: var(--inkSoft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
 .d13 .sp-open .sp-hook { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 17px; line-height: 1.18; color: var(--ink); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .d13 .sp-open .sp-pol { font-size: 10.5px; color: var(--inkLight); line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
-.d13 .sp-open .sp-read { position: absolute; right: 10px; bottom: 10px; z-index: 4; display: inline-flex; align-items: center; gap: 5px; font-family: 'EB Garamond', serif; font-size: 10.5px; font-weight: 600; letter-spacing: 1.2px; text-transform: uppercase; color: var(--silk); background: var(--ink); border-radius: 999px; padding: 5px 12px; box-shadow: 0 4px 12px rgba(40,30,20,0.28); cursor: pointer; }
-.d13 .sp-open .sp-read .uico { width: 11px; height: 11px; }
+.d13 .sp-open .sp-read { position: absolute; right: 10px; bottom: 10px; z-index: 4; display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; color: var(--silk); background: var(--ink); border-radius: 999px; box-shadow: 0 4px 12px rgba(40,30,20,0.28); cursor: pointer; }
+.d13 .sp-open .sp-read .uico { width: 14px; height: 14px; display: block; }
 .d13 .spine.open { box-shadow: 0 12px 28px rgba(60,46,28,0.18); border-color: color-mix(in srgb, var(--npig) 48%, var(--borderStd)); }
 .d13 .spine.open .sp-col { opacity: 0; pointer-events: none; }
 .d13 .spine.open .sp-open { opacity: 1; pointer-events: auto; }
