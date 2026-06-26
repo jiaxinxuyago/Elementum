@@ -24,14 +24,14 @@ import path from 'node:path';
 const BASE = 'http://localhost:5173/';
 const LIVE = 'https://elementum.jiaxinxuyago.workers.dev';
 const APP = 'D:/Elementum/Elementum_Project/Elementum_App';
-const OUT = 'D:/Elementum/Elementum_Project/Design/handoff-claude-design/current-screens.html';
+const OUT = 'D:/Elementum/Elementum_Project/Design/assets/Library/Elementum Screen Gallery_CurrentScreens.html';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const read = (p) => { try { return fs.readFileSync(path.join(APP, p), 'utf8'); } catch { return ''; } };
 
 // Rewrite root-relative asset URLs → live origin (so images resolve in a browser).
 function liveAssets(s) {
-  return s.replace(/(url\(['"]?|src=['"]|href=['"]|&quot;)\/(backgrounds|assets|concept-arts|icons|fonts)\//g,
+  return s.replace(/(url\(['"]?|src=['"]|href=['"]|&quot;)\/(backgrounds|assets|concept-arts|icons|fonts|art)\//g,
     `$1${LIVE}/$2/`);
 }
 
@@ -111,19 +111,18 @@ function liveAssets(s) {
   await cap('consultant', 'app-consultant', 'Feature · AI Consultant', G4);
   await cap('codex', 'app-codex', 'Feature · BaZi Codex', G4);
 
+  // screens-v2: ceremonial intro → 6-step full-frame friend flow → result.
+  // Each step is reached by driving the live controls (Begin / Continue /
+  // the "general time" branch / See the reading), continuously from the prior.
   const G5 = '5 · Compatibility journey';
   await cap('compat-intro', 'app-compat', 'Compatibility · Intro', G5);
-  await cap('compat-input', null, 'Compatibility · Input', G5, {
-    prep: async () => {
-      await clickText('Compare with someone');
-      await page.evaluate(() => {
-        const set = (ph, v) => { const i = document.querySelector(`input[placeholder*="${ph}"]`); if (i) { const s = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set; s.call(i, v); i.dispatchEvent(new Event('input', { bubbles: true })); } };
-        set('YYYY', '1990'); set('MM', '6'); set('DD', '15'); set('name', 'Mara');
-      });
-      await sleep(300);
-    },
-  });
-  await cap('compat-result', null, 'Compatibility · Result', G5, { prep: () => clickText('Calculate Compatibility') });
+  await cap('friend-year', null, 'Friends · Their year', G5, { prep: () => clickText('Begin the joining') });
+  await cap('friend-month', null, 'Friends · Their month', G5, { prep: () => clickText('Continue') });
+  await cap('friend-day', null, 'Friends · Their day', G5, { prep: () => clickText('Continue') });
+  await cap('friend-hour', null, 'Friends · Their hour', G5, { prep: () => clickText('Continue') });
+  await cap('friend-hourwindow', null, 'Friends · If hour unknown', G5, { prep: () => clickText('I only know the general time') });
+  await cap('friend-current', null, 'Friends · Energy current', G5, { prep: () => clickText('Continue') });
+  await cap('compat-result', null, 'Compatibility · Result', G5, { prep: () => clickText('See the reading') });
 
   const G6 = '6 · Profile + chart tools';
   await cap('profile', 'app-profile', 'Profile', G6);
@@ -147,7 +146,7 @@ function liveAssets(s) {
 
   const doc = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Elementum · Current Screens (exact HTML) — for Claude Design</title>
+<title>Elementum · Screen Gallery — Current Screens (exact HTML)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600&family=EB+Garamond:wght@400;500&family=JetBrains+Mono:wght@400;500;700&family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;500;600&family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet"/>
@@ -185,8 +184,8 @@ body{background:var(--paper);color:var(--ink);font-family:"EB Garamond",Georgia,
 </style></head>
 <body>
 <div class="head">
-  <p class="eyebrow">Exact current screens · rendered HTML · seeded 庚 "The Blade" · ${new Date().toISOString().slice(0, 10)}</p>
-  <h1>Elementum — Current Screens (exact HTML)</h1>
+  <p class="eyebrow">Canonical screen gallery · exact rendered HTML · seeded 庚 "The Blade" · ${new Date().toISOString().slice(0, 10)}</p>
+  <h1>Elementum — Screen Gallery · Current Screens</h1>
   <p>The <strong>real rendered markup</strong> of every major screen, with the app's actual inline styles + bundled CSS (d13.css / global.css / tokens) — so the structure, spacing, type and color are exact and directly replicable. Each device is the shipped 390×844 frame, corrected to the on-device look (no mock status bar, 54px header inset). Painted background art loads from the live site (${LIVE}); if images don't appear (e.g. offline / sandboxed), the layout still reproduces precisely. Scope for Claude Design: <strong>consistency + polish only — replicate exactly, then refine. No redesign.</strong></p>
 </div>
 <div class="wrap">${sections}</div>
