@@ -4,7 +4,7 @@
 **Serves:** DOC5 §0 (Beta core goal) Axis A — introduce BaZi step by step, without cognitive overload.
 **Sources:** `Data/elementum_profile_database.html` (the Profile Database — canonical behavioral content for stems + Ten Gods) · DOC2 (archetype system) · DOC3 (knowledge pool) · the Manual (now **retired** → `_ARCHIVE_Manual_RETIRED.md`) · the live app (audited 2026-06-10).
 >
-> **NB (2026-06-24):** "DOC6" in the Source columns below means the **retired Manual**, NOT the new **DOC6 = Reading Schema**. Those source tags are pre-reorg and should be re-pointed (likely to DOC3 / the in-app Energy Manual) in a follow-up.
+> **NB (resolved 2026-06-26):** the Source-column "DOC6" tags (which meant the **retired Manual**, not the new **DOC6 = Reading Schema**) have been re-pointed to **"Manual (retired)"** to remove the collision. If a concept needs a *live* canonical source for the content pass, re-point it to DOC3 / DOC1 then (the Manual is archived at `_ARCHIVE_Manual_RETIRED.md`).
 **Status:** DRAFT for owner markup · 2026-06-10
 
 > **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** Deltas: (1) **2-layer model** — Identity card (Day Master) + Ten-God cards (every present energy); no dominant/secondary *layers* (those are derived role badges). (2) **Polarity faces (B5)** — each energy resolves 1–2 Ten-God personas by polarity; the self element's faces (The Mirror / The Rival) render as Ten-God cards, **separate from the Identity card**. (3) **NEW positional axis (宫位, B6)** — each Ten God *also* reads by pillar position (日支 = partner, 时柱 = children/legacy); see concept **2.6** below. (4) §2 persona names remain the **canonical source** (already correct). The "non-self" / "other element" qualifiers in 2.2/2.3 and the §10 charters are loosened accordingly.
@@ -80,7 +80,7 @@ Status legend: ✅ taught (introduced before/where used) · ⚠ used-untaught (s
 |---|---|---|---|---|---|---|
 | 0.1 | **The five elements** | Five qualities of energy — Wood, Fire, Earth, Metal, Water — the alphabet everything else is written in. | — | DOC3 §1; Codex | Loading screen glyphs; Reveal blueprint bars; everywhere | ⚠ shown constantly, defined only in Codex (a side library) |
 | 0.2 | **Yin / Yang** | Each element comes in two registers — expansive (Yang) and concentrated (Yin). | 0.1 | DOC3 | Onboarding Step 6 asks polarity; archetype labels ("Yang Metal") | ◐ asked before it's explained |
-| 0.3 | **Your chart (Four Pillars)** | Your birth moment written as four pairs of characters — year, month, day, hour — the data behind every reading. | — | DOC1; DOC6 | Reveal §1 grid; `chart-reveal` raw page | ✅ closest to properly taught |
+| 0.3 | **Your chart (Four Pillars)** | Your birth moment written as four pairs of characters — year, month, day, hour — the data behind every reading. | — | DOC1; Manual (retired) | Reveal §1 grid; `chart-reveal` raw page | ✅ closest to properly taught |
 
 ### Family 1 — Identity (the Elemental-Nature axis · Layer 1)
 
@@ -95,11 +95,11 @@ Status legend: ✅ taught (introduced before/where used) · ⚠ used-untaught (s
 
 | ID | Concept | Definition | Needs | Source | Appears today | Status |
 |---|---|---|---|---|---|---|
-| **2.1** | **Elements act on each other** | Every element feeds one and checks another (生/克) — why another energy can be your fuel or your grindstone. | 0.1 | DOC3 §2; DOC6 | **NOWHERE in the journey** (Energy Manual mentions; Codex describes) | **⚠⚠ the load-bearing untaught rung** |
+| **2.1** | **Elements act on each other** | Every element feeds one and checks another (生/克) — why another energy can be your fuel or your grindstone. | 0.1 | DOC3 §2; Manual (retired) | **NOWHERE in the journey** (Energy Manual mentions; Codex describes) | **⚠⚠ the load-bearing untaught rung** |
 | 2.2 | **The council (Ten Gods)** | Each element — **including your own** — read through its relationship to your Day Master, becomes a figure: Mirror, Rival, Muse … Sage. | 1.1, 2.1, 0.2 | **Profile DB Part Two** (canonical defs); `TG_CARD_DATA` | Ten Gods detail (council); raw-chart per-pillar tags | ◐ rich content, but presumes 2.1; raw chart leaks engine names |
 | 2.3 | **Dominant & secondary energy** | Which council figures speak loudest in *your* chart — **every present energy gets a card**; "dominant"/"secondary" are derived role badges (the self element's Mirror/Rival included — B5). | 1.3, 2.2 | DOC2 §3 | Dominant Energies row + detail | ◐ |
-| 2.4 | **Catalyst / Friction** | The element that lifts your nature, and the one that grinds it — your chart's prescription. | 2.1, 1.3 | DOC2; DOC6 | Reveal §4; Forces in Motion | ⚠ presented as fact; *why* unexplained without 2.1 |
-| 2.5 | **The absent element** | A quality your chart barely carries — not a flaw; a place where life asks you to borrow. | 1.3 | DOC6 | Reveal §4; Seasonal row trigger | ◐ |
+| 2.4 | **Catalyst / Friction** | The element that lifts your nature, and the one that grinds it — your chart's prescription. | 2.1, 1.3 | DOC2; Manual (retired) | Reveal §4; Forces in Motion | ⚠ presented as fact; *why* unexplained without 2.1 |
+| 2.5 | **The absent element** | A quality your chart barely carries — not a flaw; a place where life asks you to borrow. | 1.3 | Manual (retired) | Reveal §4; Seasonal row trigger | ◐ |
 | **2.6** | **Pillar position (宫位)** | The *same* Ten God reads differently by which pillar it sits in — 年 = origins, 月 = career/parents, **日支 = partner (夫妻宫)**, 时 = children/legacy. | 2.2, 0.3 | DOC3 §2.7b | engine computes per-pillar TGs (`chart.tenGods`); reading surface NEW | **NEW (B6)** — first-class positional axis |
 
 ### Family 3 — Time
@@ -107,8 +107,8 @@ Status legend: ✅ taught (introduced before/where used) · ⚠ used-untaught (s
 | ID | Concept | Definition | Needs | Source | Appears today | Status |
 |---|---|---|---|---|---|---|
 | 3.1 | **Life Chapters** | Your timeline in ten-year chapters, each carrying its own element pair. | 0.3 | DOC1 §9 | Life Chapters detail; Decade page | ◐ |
-| 3.2 | **Today's energy** | Each day/year carries an element that interacts with your chart — the basis of daily guidance. | 2.1 | `dailyGuidance.js`; DOC6 | Today tab; Day/Month/Year pages | ⚠ presumes 2.1 |
-| 3.3 | **Seasonal Calibration** | Charts missing an element get a cultivation practice — borrowing what the season can lend. | 2.5, 1.1 | DOC6 | Conditional catalogue row + detail | ◐ conditional = good design already |
+| 3.2 | **Today's energy** | Each day/year carries an element that interacts with your chart — the basis of daily guidance. | 2.1 | `dailyGuidance.js`; Manual (retired) | Today tab; Day/Month/Year pages | ⚠ presumes 2.1 |
+| 3.3 | **Seasonal Calibration** | Charts missing an element get a cultivation practice — borrowing what the season can lend. | 2.5, 1.1 | Manual (retired) | Conditional catalogue row + detail | ◐ conditional = good design already |
 
 ### Family 4 — Pattern (advanced)
 
