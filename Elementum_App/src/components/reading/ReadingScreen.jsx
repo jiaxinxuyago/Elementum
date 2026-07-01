@@ -1,5 +1,5 @@
 // ===================================================================
-// ELEMENTUM · D13ReadingScreen  (the `app-reading` route — Reading tab)
+// ELEMENTUM · ReadingScreen  (the `app-reading` route — Reading tab)
 // ===================================================================
 // The at-rest catalogue on every Reading-tab visit (no ceremony): the
 // same wheel + ribbon + shelf the reveal dissolve resolves onto. Fills
@@ -8,15 +8,15 @@
 // ===================================================================
 
 import React from 'react';
-import './d13.css';
+import './reading.css';
 import EnergyCatalogue from './EnergyCatalogue.jsx';
-import { useD13 } from './useD13.js';
+import { useReading } from './useReading.js';
 
-export default function D13ReadingScreen({ onTab, onDayMaster, onOpenEnergy, onPillarChart }) {
-  const { ec, identity, chart, hourUnknown, sel, setSel, wip, showWip } = useD13();
+export default function ReadingScreen({ onTab, onDayMaster, onOpenEnergy, onPillarChart }) {
+  const { ec, identity, chart, hourUnknown, sel, setSel, wip, showWip } = useReading();
   if (!ec) return null;
   return (
-    <div className="d13" style={{ position: 'absolute', inset: 0 }}>
+    <div className="reading" style={{ position: 'absolute', inset: 0 }}>
       <EnergyCatalogue
         energies={ec.energies}
         dayMaster={ec.dayMaster}
@@ -30,7 +30,7 @@ export default function D13ReadingScreen({ onTab, onDayMaster, onOpenEnergy, onP
         onPillarChart={onPillarChart || (() => showWip('Coming soon'))}
         onTab={onTab}
       />
-      {wip ? <div className="d13-wip">{wip}</div> : null}
+      {wip ? <div className="reading-wip">{wip}</div> : null}
     </div>
   );
 }

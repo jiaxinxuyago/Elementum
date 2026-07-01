@@ -6,7 +6,7 @@
 // translations ("Seven Killings", "Rob Wealth", …) are INTERNAL ONLY
 // and must never render. Import from here wherever a Ten God is named
 // outside TG_CARD_DATA (which already carries these names).
-// 2026-06-30 (FACES handoff — d13/IMPLEMENTATION_README §4): renamed 4 of 10 to
+// 2026-06-30 (FACES handoff — reading/IMPLEMENTATION_README §4): renamed 4 of 10 to
 // the new register — 比肩 The Twin (was Mirror), 食神 The Artisan (was Muse),
 // 伤官 The Virtuoso (was Edge), 正官 The Magistrate (was Arbiter).
 // ===================================================================

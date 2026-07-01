@@ -7,7 +7,7 @@ import { buildEnergyChart } from '../../engine/buildEnergyChart.js';
 import { buildIdentity } from './d13Identity.js';
 import { STEM_CARD_DATA } from '../../content/archetypeSource.js';
 
-export function useD13() {
+export function useReading() {
   const { chart, birthData } = useChart();
   const hourUnknown = !!(birthData?.hourUnknown || birthData?.hourWindow);
   const ec = useMemo(() => (chart ? buildEnergyChart(chart) : null), [chart]);

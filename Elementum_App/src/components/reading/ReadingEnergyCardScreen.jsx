@@ -1,5 +1,5 @@
 // ===================================================================
-// ELEMENTUM · D13EnergyCardScreen  (the `app-energy` route — P6/P7)
+// ELEMENTUM · ReadingEnergyCardScreen  (the `app-energy` route — P6/P7)
 // ===================================================================
 // Opens on the tapped energy and swipes ⟷ through all five in presence
 // order. Derives the role badges + the cycle relation to the Day Master,
@@ -14,11 +14,11 @@
 
 import React, { useState, useEffect, useRef, useLayoutEffect } from 'react';
 import { motion, useMotionValue } from 'framer-motion';
-import './d13.css';
-import D13EnergyCard from './D13EnergyCard.jsx';
+import './reading.css';
+import ReadingEnergyCard from './ReadingEnergyCard.jsx';
 import { ENERGY_CONTENT } from './d13ReadingContent.js';
-import { resolveEnergyReading, ENERGY_ART } from './d13ReadingResolve.js';
-import { useD13 } from './useD13.js';
+import { resolveEnergyReading, ENERGY_ART } from './readingResolve.js';
+import { useReading } from './useReading.js';
 import { useChart } from '../../store/chartContext.jsx';
 import { useUpgrade } from '../dashboard/UpgradeModal.jsx';
 
@@ -60,8 +60,8 @@ function buildCard(energy, dmEl, tier) {
   return { el, presence: energy.presence, art, badges, persona, tail, r: rText, x: xText, gate, ghost, xLabel, expander, showGate };
 }
 
-export default function D13EnergyCardScreen({ initialEl, onBack }) {
-  const { chart, ec } = useD13();
+export default function ReadingEnergyCardScreen({ initialEl, onBack }) {
+  const { chart, ec } = useReading();
   const { tier } = useChart();
   const { openUpgrade } = useUpgrade();
   const energies = (ec && ec.energies) || [];
@@ -114,7 +114,7 @@ export default function D13EnergyCardScreen({ initialEl, onBack }) {
   };
 
   return (
-    <div ref={frameRef} className="d13" style={{ position: 'absolute', inset: 0, overflow: 'hidden' }}>
+    <div ref={frameRef} className="reading" style={{ position: 'absolute', inset: 0, overflow: 'hidden' }}>
       <motion.div
         style={{ display: 'flex', width: w ? w * n : '100%', height: '100%', x }}
         drag="x"
@@ -130,7 +130,7 @@ export default function D13EnergyCardScreen({ initialEl, onBack }) {
       >
         {cards.map((c, i) => (
           <div key={c.el} style={{ position: 'relative', flex: w ? `0 0 ${w}px` : '0 0 100%', height: '100%' }}>
-            <D13EnergyCard
+            <ReadingEnergyCard
               el={c.el}
               presence={c.presence}
               art={c.art}

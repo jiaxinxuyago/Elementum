@@ -4,8 +4,8 @@
 // inside the phone to scrub the transition. Computes the real reference
 // chart. Not a product screen.
 import React, { useMemo, useState } from 'react';
-import './d13.css';
-import D13Sprite from './D13Sprite.jsx';
+import './reading.css';
+import ReadingSprite from './ReadingSprite.jsx';
 import RevealDissolve from './RevealDissolve.jsx';
 import { calculateBaziChart } from '../../engine/calculator.js';
 import { buildEnergyChart } from '../../engine/buildEnergyChart.js';
@@ -18,7 +18,7 @@ const BLADE_IDENTITY = {
   cast: 'CAST FROM 1995 · 4 · 29 · YǑU HOUR 17–19',
 };
 
-export default function D13WheelPreview() {
+export default function ReadingWheelPreview() {
   const ec = useMemo(
     () => buildEnergyChart(calculateBaziChart({ year: 1995, month: 4, day: 29, hour: 18, location: 'Beijing', gender: 'male' })),
     []
@@ -27,8 +27,8 @@ export default function D13WheelPreview() {
 
   return (
     <div style={{ minHeight: '100vh', background: '#1a1815', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 30 }}>
-      <D13Sprite />
-      <div className="d13" style={{ position: 'relative', width: 390, height: 844, borderRadius: 40, overflow: 'hidden', background: 'var(--frame)', boxShadow: '0 30px 60px rgba(40,30,20,0.45)' }}>
+      <ReadingSprite />
+      <div className="reading" style={{ position: 'relative', width: 390, height: 844, borderRadius: 40, overflow: 'hidden', background: 'var(--frame)', boxShadow: '0 30px 60px rgba(40,30,20,0.45)' }}>
         <RevealDissolve
           identity={BLADE_IDENTITY}
           energies={ec.energies}

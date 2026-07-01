@@ -8,7 +8,7 @@
 
 import React from 'react';
 
-export default function D13Sprite() {
+export default function ReadingSprite() {
   return (
     <svg width="0" height="0" style={{ position: 'absolute' }} aria-hidden="true"><defs>
       <symbol id="el-metal" viewBox="0 0 24 24"><path fill="currentColor" fillRule="evenodd" clipRule="evenodd" d="M12 2.35L18.15 8.05L14.35 17.15H16.45V20.85H7.55V17.15H9.65L5.85 8.05L12 2.35ZM8.25 8.75L11.1 17.15H12.9L15.75 8.75L12 5.4L8.25 8.75ZM10.3 9.15L12 14.65L13.7 9.15L12 7.55L10.3 9.15Z"></path></symbol>

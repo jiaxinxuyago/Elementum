@@ -1,5 +1,5 @@
 // ===================================================================
-// ELEMENTUM · D13EnergyCard  (P6 / P7 — one energy reading)
+// ELEMENTUM · ReadingEnergyCard  (P6 / P7 — one energy reading)
 // ===================================================================
 // One energy's full reading: scene-hero band + %, role badges, persona
 // line, the free R + X layers, then the Seeker gate (advisor accent). The
@@ -12,7 +12,7 @@ import React from 'react';
 
 const CAP = { metal: 'Metal', earth: 'Earth', water: 'Water', wood: 'Wood', fire: 'Fire' };
 
-export default function D13EnergyCard({
+export default function ReadingEnergyCard({
   el, presence, art, badges, persona, tail, r, x, gate,
   ghost, idx, total, xLabel, expander, showGate, onBack, onUnlock, eyebrow,
   reyeText, heroTitle, lede, pull, domains,
@@ -21,7 +21,7 @@ export default function D13EnergyCard({
   const dots = Array.from({ length: total }, (_, i) => (i <= idx ? '●' : '○')).join(' ');
 
   return (
-    <div className="d13-fill">
+    <div className="reading-fill">
       <img className="ground-img" src="/assets/backgrounds/bg-energymap-02-corner-quartet.png" alt="" style={{ opacity: 0.92 }} />
       <div className="status"><span>9:41</span><span className="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
       <div className={`screen-pad dk-${el}${ghost ? ' ghosted-card' : ''}`}>

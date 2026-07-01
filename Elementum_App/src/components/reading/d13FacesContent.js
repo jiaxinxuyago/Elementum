@@ -3,7 +3,7 @@
 // ===================================================================
 // The collapsed/expanded face-card copy for the P6–P10 FACES pages and
 // the full persona readings for P12/P13, authored to the deliverable's
-// fidelity (d13/The Five Energies Journey - Full.html). Wood (正财 The
+// fidelity (reading/The Five Energies Journey - Full.html). Wood (正财 The
 // Steward + 偏财 The Horizon) is the verbatim reference; the other eight
 // personas are authored in the same voice and length.
 //

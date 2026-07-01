@@ -1,5 +1,5 @@
 // ===================================================================
-// ELEMENTUM · D13FacesScreen  (the `app-energy` route — polarity faces)
+// ELEMENTUM · ReadingFacesScreen  (the `app-energy` route — polarity faces)
 // ===================================================================
 // The Polarity Ten-God page (v2.1). For the tapped energy it shows:
 //   1. a horizontal DOMINANT-ENERGY briefing card — element, dominance %,
@@ -11,19 +11,19 @@
 //
 // The faces come straight from the engine (resolveElementFaces →
 // energy.faces = [{god, weight, polarity}]); the per-face reading reuses the
-// existing D13EnergyCard. Placeholder art = the element wash (bespoke council
+// existing ReadingEnergyCard. Placeholder art = the element wash (bespoke council
 // character art is the B4 design deliverable). Internal Ten-God vocabulary
 // never surfaces beyond the 汉字 gloss; only the persona names do.
 // ===================================================================
 
 import React, { useState } from 'react';
-import './d13.css';
-import D13EnergyCard from './D13EnergyCard.jsx';
+import './reading.css';
+import ReadingEnergyCard from './ReadingEnergyCard.jsx';
 import { ENERGY_CONTENT } from './d13ReadingContent.js';
-import { resolveEnergyReading, ENERGY_ART, FACE_ABSTRACT, energyDomain } from './d13ReadingResolve.js';
+import { resolveEnergyReading, ENERGY_ART, FACE_ABSTRACT, energyDomain } from './readingResolve.js';
 import { TG_PERSONA } from '../../content/tgNames.js';
 import { FACE_CARD, FAMILY_BRIEF, FAMILY_CLAUSE, FAMILY_ELEMENT, PERSONA_READING, PERSONA_DOMAINS } from './d13FacesContent.js';
-import { useD13 } from './useD13.js';
+import { useReading } from './useReading.js';
 import { useChart } from '../../store/chartContext.jsx';
 import { useUpgrade } from '../dashboard/UpgradeModal.jsx';
 
@@ -61,7 +61,7 @@ function readingBadges(energy) {
   return [role, domain ? { t: domain, c: '' } : null].filter(Boolean);
 }
 
-// One Ten-God face's full reading (P12/P13 — reuses the D13EnergyCard anatomy).
+// One Ten-God face's full reading (P12/P13 — reuses the ReadingEnergyCard anatomy).
 function godCardProps(dmEl, energy, god, tier) {
   const el = energy.el;
   const authored = resolveEnergyReading(dmEl, el, god);
@@ -155,7 +155,7 @@ function ElementReading({ energy, dmEl, onBack }) {
     : 'Its single face below carries how that material speaks in you.';
 
   return (
-    <div className="d13-fill">
+    <div className="reading-fill">
       <img className="ground-img" src="/assets/backgrounds/bg-energymap-02-corner-quartet.png" alt="" style={{ opacity: 0.92 }} />
       <div className="status"><span>9:41</span><span className="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
       <div className={`screen-pad dk-${el}${ghost ? ' ghosted-card' : ''}`}>
@@ -192,8 +192,8 @@ function ElementReading({ energy, dmEl, onBack }) {
   );
 }
 
-export default function D13FacesScreen({ initialEl, onBack }) {
-  const { chart, ec } = useD13();
+export default function ReadingFacesScreen({ initialEl, onBack }) {
+  const { chart, ec } = useReading();
   const { tier } = useChart();
   const { openUpgrade } = useUpgrade();
   const [view, setView] = useState('faces'); // 'faces' | 'element' | <god 汉字>
@@ -214,15 +214,15 @@ export default function D13FacesScreen({ initialEl, onBack }) {
   if (view !== 'faces' && view !== 'element') {
     const props = godCardProps(dmEl, energy, view, tier);
     return (
-      <div className="d13" style={{ position: 'absolute', inset: 0, overflow: 'hidden' }}>
-        <D13EnergyCard {...props} idx={0} total={1} onBack={() => setView('faces')} onUnlock={() => openUpgrade(props.gate.label)} />
+      <div className="reading" style={{ position: 'absolute', inset: 0, overflow: 'hidden' }}>
+        <ReadingEnergyCard {...props} idx={0} total={1} onBack={() => setView('faces')} onUnlock={() => openUpgrade(props.gate.label)} />
       </div>
     );
   }
   // ── the element (substance) reading ──
   if (view === 'element') {
     return (
-      <div className="d13" style={{ position: 'absolute', inset: 0, overflow: 'hidden' }}>
+      <div className="reading" style={{ position: 'absolute', inset: 0, overflow: 'hidden' }}>
         <ElementReading energy={energy} dmEl={dmEl} onBack={() => setView('faces')} />
       </div>
     );
@@ -256,8 +256,8 @@ export default function D13FacesScreen({ initialEl, onBack }) {
   const faceArt = (f) => `/concept-arts/library/t_${el}_${f.polarity === 'yang' ? 1 : 2}_p.png`;
 
   return (
-   <div className="d13" style={{ position: 'absolute', inset: 0, overflow: 'hidden' }}>
-    <div className="d13-fill">
+   <div className="reading" style={{ position: 'absolute', inset: 0, overflow: 'hidden' }}>
+    <div className="reading-fill">
       <img className="ground-img bg-energy" src="/assets/backgrounds/bg-energymap-02-corner-quartet.png" alt="" style={{ opacity: 0.92 }} />
       <div className="status"><span>9:41</span><span className="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
       <div className={`screen-pad dk-${el}`}>

@@ -1,5 +1,5 @@
 // ===================================================================
-// ELEMENTUM · D13PillarChartCard  (P5 — the 八字 Four-Pillars chart)
+// ELEMENTUM · ReadingPillarChartCard  (P5 — the 八字 Four-Pillars chart)
 // ===================================================================
 // Reached from the Day Master's "Birth Chart" pill. The supplementary
 // data page: four pillars (hero, icon-led — element mark leads, the
@@ -47,9 +47,9 @@ function Pillar({ col }) {
   );
 }
 
-export default function D13PillarChartCard({ pillars, energies, patterns, hourUnknown, onBack, onDiscoverHour }) {
+export default function ReadingPillarChartCard({ pillars, energies, patterns, hourUnknown, onBack, onDiscoverHour }) {
   return (
-    <div className="d13-fill">
+    <div className="reading-fill">
       <img className="ground-img" src="/assets/backgrounds/bg-reading-01-side-margins.png" alt="" />
       <div className="status"><span>9:41</span><span className="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
       <div className="screen-pad">

@@ -6,7 +6,7 @@
 // rank, and the central stem seal. Disk size + seating come from
 // applyDominanceRules (engine/dominanceWheel.js). Icon + percentage are
 // FIXED size per wheel (track scale, never presence) so small disks stay
-// legible. Faithful port of buildWheelNodes in d13-v5.js.
+// legible. Faithful port of buildWheelNodes in reading-v5.js.
 // ===================================================================
 
 import React, { useMemo } from 'react';

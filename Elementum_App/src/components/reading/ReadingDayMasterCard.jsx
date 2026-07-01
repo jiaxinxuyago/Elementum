@@ -1,5 +1,5 @@
 // ===================================================================
-// ELEMENTUM · D13DayMasterCard  (P4 — the Day Master reference card)
+// ELEMENTUM · ReadingDayMasterCard  (P4 — the Day Master reference card)
 // ===================================================================
 // Reached by tapping the wheel-centre seal. The reference (not the
 // ceremony): seal + archetype + manifesto, the motivated "Birth Chart"
@@ -11,9 +11,9 @@
 
 import React from 'react';
 
-export default function D13DayMasterCard({ dayMaster, archetype, manifesto, claims, edge, onBack, onBirthChart }) {
+export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, claims, edge, onBack, onBirthChart }) {
   return (
-    <div className="d13-fill">
+    <div className="reading-fill">
       <img className="ground-img" src="/assets/backgrounds/bg-reading-03-watermark-low.png" alt="" />
       <div className="status"><span>9:41</span><span className="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
       <div className="screen-pad">

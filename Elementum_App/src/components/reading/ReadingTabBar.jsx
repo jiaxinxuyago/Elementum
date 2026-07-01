@@ -1,5 +1,5 @@
 // ===================================================================
-// ELEMENTUM · D13TabBar  (the persistent dashboard nav — "cold" tabs)
+// ELEMENTUM · ReadingTabBar  (the persistent dashboard nav — "cold" tabs)
 // ===================================================================
 // The single, static bottom navigation shared by EVERY post-reveal
 // dashboard surface (Today · Guidance · Reading · Compat · Profile).
@@ -17,14 +17,14 @@
 // ===================================================================
 
 import React from 'react';
-import './d13.css';
+import './reading.css';
 
 // Locked order — DOC5 §AM.2. The keys are the routeTab() tab keys.
 const TABS = ['today', 'guidance', 'reading', 'compat', 'profile'];
 
-export default function D13TabBar({ active, onTab }) {
+export default function ReadingTabBar({ active, onTab }) {
   return (
-    <div className="d13 d13-tabhost">
+    <div className="reading reading-tabhost">
       <nav className="tabbar" aria-label="Primary navigation">
         {TABS.map((id) => (
           <button

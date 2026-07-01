@@ -14,7 +14,7 @@ import EnergyShelf from './EnergyShelf.jsx';
 
 export default function EnergyCatalogue({ energies, dayMaster, glyph, archetype, selected, onSelect, onRead, onSeal, onPillarChart, tilde }) {
   return (
-    <div className="d13-fill">
+    <div className="reading-fill">
       <img className="ground-img bg-energy" src="/backgrounds/bg-energymap-01-top-band.png" alt="" />
       <div className="pagetint" style={{ background: 'radial-gradient(140% 80% at 50% -10%, rgba(139,163,184,0.10), transparent 60%)' }} />
       <div className="status"><span>9:41</span><span className="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
@@ -77,7 +77,7 @@ export default function EnergyCatalogue({ energies, dayMaster, glyph, archetype,
         </div>
         <EnergyShelf energies={energies} selected={selected} onSelect={onSelect} onRead={onRead} />
       </div>
-      {/* the persistent tab bar is the app-level static D13TabBar, not drawn
+      {/* the persistent tab bar is the app-level static ReadingTabBar, not drawn
           here — keeps it identical + fixed across every dashboard surface. */}
     </div>
   );

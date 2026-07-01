@@ -5,7 +5,7 @@
 // wheel + catalogue (P3). The seal is the continuity object — it shrinks
 // and glides to become the wheel center while the plate dissolves to
 // silk, the ensō ground fades in, the nodes bloom, and the reading shelf
-// settles. The same timing curves ported from initDissolve in d13-v5.js,
+// settles. The same timing curves ported from initDissolve in reading-v5.js,
 // but driven by a time-based animation instead of scroll position:
 //
 //   ANY swipe / drag / wheel gesture fires the full reveal ONCE — it
@@ -149,7 +149,7 @@ export default function RevealDissolve({ identity, energies, dayMaster, selected
   );
 
   return (
-    <div className="d13-fill live-phone">
+    <div className="reading-fill live-phone">
       {/* overflow hidden + touch-action none: the reveal is no longer
           scroll-driven, so the container captures the swipe gesture instead
           of panning. */}
