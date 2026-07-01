@@ -683,11 +683,15 @@ export default function App() {
 // 1995-04-29 lands on 庚 (index 6); each subsequent day advances by 1.
 function DevHelpers() {
   const { updateBirthData, setChart, setTier, setHasSelfReport, purchaseSelfReport } = useChart();
-  const { playWelcomeBack } = useUpgrade();
+  const { playWelcomeBack, openUpgrade } = useUpgrade();
   // Dev hook: demo the §21 "Welcome to Seeker" returning-user screen.
   useEffect(() => {
     if (typeof window !== 'undefined') window.__welcomeSeeker = () => playWelcomeBack();
   }, [playWelcomeBack]);
+  // Dev hook: open the upgrade modal (used to QA the Founding-pass card).
+  useEffect(() => {
+    if (typeof window !== 'undefined') window.__openUpgrade = (label) => openUpgrade(label || 'AI Consultant');
+  }, [openUpgrade]);
   // Dev hooks: flip tier + the one-time Self-Report entitlement for testing.
   useEffect(() => {
     if (typeof window !== 'undefined') {

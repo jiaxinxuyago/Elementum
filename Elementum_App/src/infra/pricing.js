@@ -17,5 +17,5 @@ export const SELF_REPORT_PRICE = '$6.99';
 // launch; buyers keep their access). Grants lifetime access at the tier below.
 // FOUNDING_PRICE is display-only — set it to MATCH the price on your Stripe
 // Payment Link. FOUNDING_GRANTS_TIER is the single source for what it unlocks.
-export const FOUNDING_PRICE = '$49 once'; // PLACEHOLDER — match your Stripe link
+export const FOUNDING_PRICE = '$9 once'; // matches the Stripe Payment Link ($9.00)
 export const FOUNDING_GRANTS_TIER = 'advisor';
