@@ -56,15 +56,13 @@ export default function TGRing({ tenGods, dmElement, polarity, size = 184 }) {
   const R = size / 2 - 4, r = R * 0.6;
   const gap = 2.5; // degrees between segments
 
-  let cursor = 0;
-  const segs = present.map((fam) => {
-    const frac = counts[fam] / total;
-    const sweep = frac * 360;
-    const a0 = cursor + gap / 2;
-    const a1 = cursor + sweep - gap / 2;
-    cursor += sweep;
-    return { fam, a0, a1, role: ROLE[fam], count: counts[fam] };
-  });
+  // Segments with a running start-angle. Built via reduce (immutable, no
+  // render-time variable reassignment); `end` carries the cumulative angle.
+  const segs = present.reduce((acc, fam) => {
+    const cursor = acc.length ? acc[acc.length - 1].end : 0;
+    const sweep = (counts[fam] / total) * 360;
+    return [...acc, { fam, a0: cursor + gap / 2, a1: cursor + sweep - gap / 2, end: cursor + sweep, role: ROLE[fam], count: counts[fam] }];
+  }, []);
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 12 }}>
