@@ -50,7 +50,7 @@ export default function D13EnergyCard({
 
         <div className="layer">
           <div className="layer-label">What it says about you · R</div>
-          <p>{r}</p>
+          {(Array.isArray(r) ? r : [r]).filter(Boolean).map((para, i) => <p key={i}>{para}</p>)}
           {pull && <span className="pull">{pull}</span>}
         </div>
         <div className={`layer${ghost ? '' : ' tinted'}`}>

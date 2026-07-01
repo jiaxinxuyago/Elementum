@@ -22,7 +22,7 @@ import D13EnergyCard from './D13EnergyCard.jsx';
 import { ENERGY_CONTENT } from './d13ReadingContent.js';
 import { resolveEnergyReading, ENERGY_ART, FACE_ABSTRACT, energyDomain } from './d13ReadingResolve.js';
 import { TG_PERSONA } from '../../content/tgNames.js';
-import { FACE_CARD, FAMILY_BRIEF, PERSONA_DOMAINS } from './d13FacesContent.js';
+import { FACE_CARD, FAMILY_BRIEF, FAMILY_CLAUSE, FAMILY_ELEMENT, PERSONA_READING, PERSONA_DOMAINS } from './d13FacesContent.js';
 import { useD13 } from './useD13.js';
 import { useChart } from '../../store/chartContext.jsx';
 import { useUpgrade } from '../dashboard/UpgradeModal.jsx';
@@ -79,6 +79,9 @@ function godCardProps(dmEl, energy, god, tier) {
   const pctOfEl = face ? Math.round(((face.weight || 0) / sumW) * 100) : 100;
   const isLead = face ? face.weight >= Math.max(...facesArr.map((f) => f.weight || 0)) : true;
   const pcm = PERSONA_DOMAINS[god] || null;
+  const reading = PERSONA_READING[god] || null;
+  const ledeTail = (reading && reading.ledeTail) || tail;
+  const rBody = reading && reading.r && reading.r.length ? reading.r : [authored.r || fb.r || ''];
   return {
     el,
     presence: energy.presence,
@@ -87,12 +90,12 @@ function godCardProps(dmEl, energy, god, tier) {
     eyebrow: `${Element.toUpperCase()} · ${persona.toUpperCase()}`,
     reyeText: `${Element.toUpperCase()} · ${god} · ${polarity === 'yang' ? 'YANG' : 'YIN'} · ${pctOfEl}% OF YOUR ${Element.toUpperCase()}`,
     heroTitle: `${persona} in you`,
-    lede: { pre: `${Element} in you ${isLead ? 'wears' : 'also wears'} the face of `, persona, post: tail ? ` — ${tail}` : '.' },
-    pull: authored.pull || fb.pull || '',
+    lede: { pre: `${Element} in you ${isLead ? 'wears' : 'also wears'} the face of `, persona, post: ledeTail ? ` — ${ledeTail}.` : '.' },
+    pull: (reading && reading.pull) || authored.pull || fb.pull || '',
     persona,
     tail,
-    r: authored.r || fb.r || '',
-    x: authored.x || fb.x || '',
+    r: rBody,
+    x: (reading && reading.x) || authored.x || fb.x || '',
     gate: pcm
       ? { label: pcm.gateLabel, body: pcm.gateBody }
       : (authored.gate && authored.gate.body) ? authored.gate : (fb.gate || { label: '', body: '' }),
@@ -114,13 +117,6 @@ function ElementReading({ energy, dmEl, onBack }) {
   const ghost = energy.presence <= GHOST_MAX;
   const domain = energyDomain(energy.leadGod);
   const roles = energy.roles || [];
-  const roleClause = roles.includes('core')
-    ? ' — it is your core, the lens the rest are read through'
-    : roles.includes('catalyst')
-      ? ' — and it lifts you (your catalyst)'
-      : roles.includes('friction')
-        ? ' — and it grinds against you (your friction)'
-        : '';
   const cycle = GEN[el] === dmEl
     ? `${Element} feeds your ${DM} self — it is the resource your nature draws on.`
     : GEN[dmEl] === el
@@ -134,11 +130,29 @@ function ElementReading({ energy, dmEl, onBack }) {
   const domainParts = domain.split(' — ');
   const ledeBold = FAMILY_BRIEF[energy.leadGod] || domainParts[0];
   const ledeClause = domainParts[1] || `the ${el} current running through you`;
+  const fam = FAMILY_ELEMENT[energy.leadGod] || {};
+  const appetite = fam.appetite || domainParts[1] || 'what this energy reaches for';
+  const notAlone = fam.notAlone || `not one thing alone, but everything ${ledeBold} touches`;
+  const twoFaces = (energy.faces || []).length > 1;
+  const presenceClause = energy.presence >= 25 ? 'the loudest voice in it'
+    : energy.presence > GHOST_MAX ? 'a real current in it' : 'a faint thread in it';
+  const roleSentence = roles.includes('catalyst')
+    ? `As your catalyst, it lifts you rather than drains you — the part of you that reaches for ${appetite}.`
+    : roles.includes('friction')
+      ? `As your friction, it presses on you more than it lifts — the part of you that wrestles with ${appetite}.`
+      : roles.includes('core')
+        ? `It is your core, the lens the rest are read through — the part of you that carries ${appetite}.`
+        : `It runs quietly alongside the rest — the part of you that still reaches for ${appetite}.`;
+  const rPara1 = `${Element} runs ${energy.presence}% of your chart — ${presenceClause}. ${roleSentence}`;
+  const rPara2 = `In the language of the chart, this is ${ledeBold} — ${notAlone}.`;
   const pull = energy.presence >= 25
     ? `The loudest voice in your chart — and ${roles.includes('friction') ? 'it sharpens you by resisting' : 'that reaching is your engine, not your flaw'}.`
     : energy.presence > GHOST_MAX
       ? `A quieter current in you — ${roles.includes('friction') ? 'friction you can learn to use' : 'present, and worth listening for'}.`
       : `Barely cast, yet still yours — what's faint here is felt most when it's asked for.`;
+  const xTail = twoFaces
+    ? 'The two faces below are the two ways that material speaks — one reaching outward for the new, one holding and compounding what’s already yours.'
+    : 'Its single face below carries how that material speaks in you.';
 
   return (
     <div className="d13-fill">
@@ -164,12 +178,13 @@ function ElementReading({ energy, dmEl, onBack }) {
         <p className="read-lede">{Element} is <b>{ledeBold}</b> — {ledeClause}.</p>
         <div className="layer">
           <div className="layer-label">What this energy is · R</div>
-          <p>{Element} runs {energy.presence}% of your chart{roleClause}. It carries {domain}.</p>
+          <p>{rPara1}</p>
+          <p>{rPara2}</p>
           <span className="pull">{pull}</span>
         </div>
         <div className="layer tinted">
           <div className="layer-label">How it moves in you · X</div>
-          <p>{cycle} The two faces below are the two ways that material speaks.</p>
+          <p>{cycle} {xTail}</p>
         </div>
         <div className="codex-link">Its faces below carry the reading →</div>
       </div>
@@ -236,6 +251,7 @@ export default function D13FacesScreen({ initialEl, onBack }) {
     : energy.presence > GHOST_MAX ? 'a minor current'
     : ghost ? 'faint but present' : 'scarce';
   const briefDomain = FAMILY_BRIEF[energy.leadGod] || Element;
+  const briefClause = FAMILY_CLAUSE[energy.leadGod] || '';
   const DEEP = { metal: 'metalDeep', earth: 'earthDeep', water: 'waterDeep', wood: 'woodDeep', fire: 'fireDeep' };
   const faceArt = (f) => `/concept-arts/library/t_${el}_${f.polarity === 'yang' ? 1 : 2}_p.png`;
 
@@ -263,7 +279,7 @@ export default function D13FacesScreen({ initialEl, onBack }) {
               {secondaryRole && <span className="fd-role2">{secondaryRole}</span>}
             </div>
           </div>
-          <div className="fd-brief">{Element} is <b>{briefDomain}</b>.</div>
+          <div className="fd-brief">{Element} is <b>{briefDomain}</b>{briefClause ? ` — ${briefClause}` : ''}.</div>
           <div className="fd-foot">
             <span className="fd-pct">{energy.presence}%</span>
             <span className="sp-track fd-track">
