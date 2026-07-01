@@ -4,7 +4,7 @@
 import { useMemo, useState, useEffect, useCallback } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { buildEnergyChart } from '../../engine/index.js';
-import { buildIdentity } from './d13Identity.js';
+import { buildIdentity } from './identity.js';
 import { STEM_CARD_DATA } from '../../content/index.js';
 
 export function useReading() {

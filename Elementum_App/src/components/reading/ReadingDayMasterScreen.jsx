@@ -9,7 +9,7 @@
 import React from 'react';
 import './reading.css';
 import ReadingDayMasterCard from './ReadingDayMasterCard.jsx';
-import { DM_READING, DM_READING_FALLBACK } from './d13ReadingContent.js';
+import { DM_READING, DM_READING_FALLBACK } from '../../content/reading/index.js';
 import { resolveDayMasterReading } from './readingResolve.js';
 import { useReading } from './useReading.js';
 

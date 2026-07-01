@@ -11,7 +11,7 @@
 // ===================================================================
 
 import React from 'react';
-import { ENERGY_TILE, ROLE_CFG, EL_DEEP } from './d13Content.js';
+import { ENERGY_TILE, ROLE_CFG, EL_DEEP } from '../../content/reading/index.js';
 
 const ROLE_ORDER = ['core', 'missing', 'catalyst', 'friction', 'ally'];
 

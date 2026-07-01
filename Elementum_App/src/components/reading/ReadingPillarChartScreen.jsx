@@ -9,7 +9,7 @@
 import React from 'react';
 import './reading.css';
 import ReadingPillarChartCard from './ReadingPillarChartCard.jsx';
-import { buildPillars } from './d13Pillars.js';
+import { buildPillars } from './pillars.js';
 import { useReading } from './useReading.js';
 
 // Templated filler — real combination-pattern detection lands later; the

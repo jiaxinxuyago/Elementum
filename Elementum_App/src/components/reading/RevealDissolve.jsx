@@ -21,7 +21,7 @@ import React, { useEffect, useRef } from 'react';
 import { animate } from 'framer-motion';
 import DominanceWheel from './DominanceWheel.jsx';
 import EnergyShelf from './EnergyShelf.jsx';
-import { RIBBON_INTRO } from './d13Content.js';
+import { RIBBON_INTRO } from '../../content/reading/index.js';
 
 const clamp = (x) => Math.max(0, Math.min(1, x));
 const win = (p, a, b) => clamp((p - a) / (b - a));

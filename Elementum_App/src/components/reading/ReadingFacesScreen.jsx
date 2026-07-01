@@ -19,10 +19,9 @@
 import React, { useState } from 'react';
 import './reading.css';
 import ReadingEnergyCard from './ReadingEnergyCard.jsx';
-import { ENERGY_CONTENT } from './d13ReadingContent.js';
+import { ENERGY_CONTENT, FACE_CARD, FAMILY_BRIEF, FAMILY_CLAUSE, FAMILY_ELEMENT, PERSONA_READING, PERSONA_DOMAINS } from '../../content/reading/index.js';
 import { resolveEnergyReading, ENERGY_ART, FACE_ABSTRACT, energyDomain } from './readingResolve.js';
 import { TG_PERSONA } from '../../content/index.js';
-import { FACE_CARD, FAMILY_BRIEF, FAMILY_CLAUSE, FAMILY_ELEMENT, PERSONA_READING, PERSONA_DOMAINS } from './d13FacesContent.js';
 import { useReading } from './useReading.js';
 import { useChart } from '../../store/chartContext.jsx';
 import { useUpgrade } from '../dashboard/UpgradeModal.jsx';

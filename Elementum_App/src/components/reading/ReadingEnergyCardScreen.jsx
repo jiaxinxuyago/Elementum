@@ -16,7 +16,7 @@ import React, { useState, useEffect, useRef, useLayoutEffect } from 'react';
 import { motion, useMotionValue } from 'framer-motion';
 import './reading.css';
 import ReadingEnergyCard from './ReadingEnergyCard.jsx';
-import { ENERGY_CONTENT } from './d13ReadingContent.js';
+import { ENERGY_CONTENT } from '../../content/reading/index.js';
 import { resolveEnergyReading, ENERGY_ART } from './readingResolve.js';
 import { useReading } from './useReading.js';
 import { useChart } from '../../store/chartContext.jsx';
