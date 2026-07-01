@@ -5,7 +5,7 @@
 // shared via <OnboardingShell>. All state lives in ChartContext.
 // ===================================================================
 
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import {
   INK,
   INK_SOFT,

@@ -6,15 +6,7 @@
 // is withheld until §9. ELEMENTUM wordmark IS the identity mark here.
 // ===================================================================
 
-import React from 'react';
-import {
-  INK,
-  INK_SOFT,
-  SILK,
-  BRONZE_DARK,
-  SilkPaper,
-  StatusBar,
-} from '../../styles/tokens.jsx';
+import { INK, INK_SOFT, SILK, BRONZE_DARK, StatusBar } from '../../styles/tokens.jsx';
 
 export default function WelcomeScreen({ onContinue }) {
   return (

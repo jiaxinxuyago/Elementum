@@ -18,7 +18,6 @@
 //   </DetailShell>
 // ===================================================================
 
-import React from 'react';
 import { Icon } from '../../shared/icons';
 import PageBg from '../../shared/PageBg.jsx';
 import { SceneHero } from '../VisualTile.jsx';

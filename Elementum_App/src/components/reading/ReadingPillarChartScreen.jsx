@@ -6,7 +6,6 @@
 // birth time is unset) descends into the hour-discovery flow.
 // ===================================================================
 
-import React from 'react';
 import './reading.css';
 import ReadingPillarChartCard from './ReadingPillarChartCard.jsx';
 import { buildPillars } from './pillars.js';

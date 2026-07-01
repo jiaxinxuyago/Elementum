@@ -22,13 +22,10 @@
 import React from 'react';
 import { useChart } from '../../../store/chartContext.jsx';
 import { getDailyGuidance } from '../../../content/index.js';
-import { elementArt, stemArt, tileArt, heroArt, dedupeArt } from '../../../styles/backgrounds.js';
+import { dedupeArt } from '../../../styles/backgrounds.js';
 import { MoodboardArt } from '../VisualTile.jsx';
 import { Icon, ElementMark } from '../../shared/icons';
-import {
-  ink, inkSoft, inkLight, bronzeDark, silk,
-  pigments, withAlpha,
-} from '../../../styles/tokens';
+import { ink, inkLight, bronzeDark, silk, pigments, withAlpha } from '../../../styles/tokens';
 
 const ELEMENT_TO_PIGMENT = {
   Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water',

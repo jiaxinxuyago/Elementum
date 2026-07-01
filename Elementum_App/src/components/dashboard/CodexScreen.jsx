@@ -12,7 +12,7 @@
 //   Void & Empty Branch · Yin/Yang Polarity.
 // ===================================================================
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { useUpgrade } from './UpgradeModal.jsx';
 import { Icon } from '../shared/icons';

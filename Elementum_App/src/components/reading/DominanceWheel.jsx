@@ -9,7 +9,7 @@
 // legible. Faithful port of buildWheelNodes in reading-v5.js.
 // ===================================================================
 
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 import { GEOM, applyDominanceRules, nodePos } from '../../engine/index.js';
 
 const NM = { metal: 'Metal · core', earth: 'Earth', water: 'Water', wood: 'Wood', fire: 'Fire' };

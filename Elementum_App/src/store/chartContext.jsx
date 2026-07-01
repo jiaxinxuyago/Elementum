@@ -6,7 +6,7 @@
 // customNotifyTime). Provider wraps the whole app in App.jsx.
 // ===================================================================
 
-import React, { createContext, useContext, useState, useEffect, useMemo, useCallback } from 'react';
+import { createContext, useContext, useState, useEffect, useMemo, useCallback } from 'react';
 import { calculateBaziChart, ENGINE_VERSION } from '../engine/index.js';
 
 const ChartContext = createContext(null);
@@ -104,12 +104,12 @@ export function ChartProvider({ children }) {
 
   // One-time Self-Report purchase (demo: flips the local entitlement + persists).
   const purchaseSelfReport = useCallback(() => {
-    try { localStorage.setItem(SELF_REPORT_KEY, '1'); } catch {}
+    try { localStorage.setItem(SELF_REPORT_KEY, '1'); } catch { /* storage unavailable (private mode) — ignore */ }
     setHasSelfReportState(true);
   }, []);
   // Direct setter (used by dev tooling / reset).
   const setHasSelfReport = useCallback((v) => {
-    try { localStorage.setItem(SELF_REPORT_KEY, v ? '1' : '0'); } catch {}
+    try { localStorage.setItem(SELF_REPORT_KEY, v ? '1' : '0'); } catch { /* storage unavailable (private mode) — ignore */ }
     setHasSelfReportState(!!v);
   }, []);
 
@@ -120,19 +120,19 @@ export function ChartProvider({ children }) {
 
   // Persist birthData + chart so a refresh / deep-link restores the session (B-4).
   useEffect(() => {
-    try { localStorage.setItem(BIRTH_KEY, JSON.stringify(birthData)); } catch {}
+    try { localStorage.setItem(BIRTH_KEY, JSON.stringify(birthData)); } catch { /* storage unavailable (private mode) — ignore */ }
   }, [birthData]);
   useEffect(() => {
     try {
       if (chart) localStorage.setItem(CHART_KEY, JSON.stringify({ engineVersion: ENGINE_VERSION, chart }));
       else localStorage.removeItem(CHART_KEY);
-    } catch {}
+    } catch { /* storage unavailable (private mode) — ignore */ }
   }, [chart]);
 
   const resetFlow = useCallback(() => {
     setBirthData(INITIAL_BIRTH_DATA);
     setChart(null);
-    try { localStorage.removeItem(BIRTH_KEY); localStorage.removeItem(CHART_KEY); } catch {}
+    try { localStorage.removeItem(BIRTH_KEY); localStorage.removeItem(CHART_KEY); } catch { /* storage unavailable (private mode) — ignore */ }
   }, []);
 
   const value = useMemo(

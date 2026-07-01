@@ -8,15 +8,11 @@
 // absent element" intent.
 // ===================================================================
 
-import React from 'react';
 import DetailShell from './DetailShell.jsx';
 import { useChart } from '../../../store/chartContext.jsx';
 import { ElementMark } from '../../shared/icons';
 import { elementArt } from '../../../styles/backgrounds.js';
-import {
-  ink, inkSoft, inkLight, paperHair, cardstockBg,
-  pigments, withAlpha,
-} from '../../../styles/tokens';
+import { ink, inkSoft, paperHair, cardstockBg, pigments, withAlpha } from '../../../styles/tokens';
 
 const ELEMENT_TO_PIGMENT = { Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water' };
 const GEN = { Wood: 'Fire', Fire: 'Earth', Earth: 'Metal', Metal: 'Water', Water: 'Wood' };
@@ -46,7 +42,6 @@ const ELEMENT_VERB = {
   Water: 'depth and adaptability',
 };
 function CompleteReading({ element, pig, pigKey }) {
-  const dmLower = element.toLowerCase();
   const others = ['Wood', 'Fire', 'Earth', 'Metal', 'Water'].filter((e) => e !== element);
   const sections = [
     {

@@ -16,11 +16,11 @@
 // never surfaces beyond the 汉字 gloss; only the persona names do.
 // ===================================================================
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './reading.css';
 import ReadingEnergyCard from './ReadingEnergyCard.jsx';
 import { ENERGY_CONTENT, FACE_CARD, FAMILY_BRIEF, FAMILY_CLAUSE, FAMILY_ELEMENT, PERSONA_READING, PERSONA_DOMAINS } from '../../content/reading/index.js';
-import { resolveEnergyReading, ENERGY_ART, FACE_ABSTRACT, energyDomain } from './readingResolve.js';
+import { resolveEnergyReading, ENERGY_ART, energyDomain } from './readingResolve.js';
 import { TG_PERSONA } from '../../content/index.js';
 import { useReading } from './useReading.js';
 import { useChart } from '../../store/chartContext.jsx';
@@ -30,21 +30,8 @@ const CAP = { metal: 'Metal', earth: 'Earth', water: 'Water', wood: 'Wood', fire
 const ZH = { metal: '金', earth: '土', water: '水', wood: '木', fire: '火' };
 const GEN = { wood: 'fire', fire: 'earth', earth: 'metal', metal: 'water', water: 'wood' };
 const CTL = { wood: 'earth', earth: 'water', water: 'fire', fire: 'metal', metal: 'wood' };
-const ROLE_BADGE = {
-  core: { t: 'your core', c: '' },
-  catalyst: { t: '↑ catalyst', c: 'up' },
-  friction: { t: '↓ friction', c: 'down' },
-  ally: { t: 'strongest ally', c: '' },
-  missing: { t: 'scarce', c: '' },
-};
 const GHOST_MAX = 3;
 
-function badgesFor(energy) {
-  const ghost = energy.presence <= GHOST_MAX;
-  let badges = (energy.roles || []).map((r) => ROLE_BADGE[r]).filter(Boolean);
-  if (ghost && !badges.some((b) => b.t === 'scarce')) badges = [ROLE_BADGE.missing, ...badges];
-  return badges.slice(0, 2);
-}
 
 // The P11/P12 reading-page role badges: the primary calibration role (with a
 // personal "your"), then the DM-relative family domain (e.g. "wealth & desire").

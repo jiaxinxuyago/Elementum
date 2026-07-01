@@ -13,19 +13,9 @@
 // and Android Chrome. Replaces the old discrete row-stepper.
 // ===================================================================
 
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { motion, useMotionValue, useTransform, useMotionValueEvent, animate } from 'framer-motion';
-import {
-  INK,
-  INK_SOFT,
-  INK_LIGHT,
-  SILK,
-  SILK_FOLD,
-  BRONZE_MID,
-  BRONZE_DARK,
-  SilkPaper,
-  StatusBar,
-} from '../../styles/tokens.jsx';
+import { INK, INK_SOFT, INK_LIGHT, SILK, SILK_FOLD, BRONZE_MID, BRONZE_DARK, StatusBar } from '../../styles/tokens.jsx';
 
 // -------------------------------------------------------------
 // PickerRow — one wheel value. Opacity + scale fall off smoothly

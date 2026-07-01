@@ -17,7 +17,7 @@
 // flagged in the drift notes; the modal simply upgrades in place + closes.
 // ===================================================================
 
-import React, { createContext, useContext, useState, useCallback } from 'react';
+import { createContext, useContext, useState, useCallback } from 'react';
 import { useChart, TIER_PRICES } from '../../store/chartContext.jsx';
 // Stem -> archetype name (10 entries) inlined so this always-mounted provider
 // does NOT statically import the 276 KB archetypeSource.js content file
@@ -29,11 +29,7 @@ const ARCHETYPE_NAMES = {
 };
 import { Icon } from '../shared/icons';
 import StemSeal from '../shared/StemSeal.jsx';
-import {
-  ink, inkSoft, inkLight, bronzeDark, gold, advisor, cream, paperHair,
-  metal, wood, fire, earth, water,
-  pigments,
-} from '../../styles/tokens';
+import { ink, inkSoft, inkLight, bronzeDark, gold, advisor, cream, metal, wood, fire, earth, water, pigments } from '../../styles/tokens';
 
 const UpgradeContext = createContext(null);
 

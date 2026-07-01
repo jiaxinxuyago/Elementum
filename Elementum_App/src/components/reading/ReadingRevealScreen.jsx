@@ -7,7 +7,6 @@
 // the app PhoneFrame. Replaces the old RevealScreen in place.
 // ===================================================================
 
-import React from 'react';
 import './reading.css';
 import RevealDissolve from './RevealDissolve.jsx';
 import { useReading } from './useReading.js';

@@ -10,9 +10,9 @@
 // fades → "come back tomorrow".
 // ===================================================================
 
-import React, { useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
-import { Icon } from '../shared/icons';
+
 import HorizonHeader from '../guidance/HorizonHeader.jsx';
 import {
   ink, inkSoft, inkLight, bronzeDark, silk,
@@ -58,7 +58,6 @@ function dailyPair(deck, seed) {
 export default function ElementalDrawScreen({ onBack }) {
   const { chart, tier } = useChart();
   const dayElement = chart?.currentFlowDay?.stemElement || 'Metal';
-  const dmElement = chart?.dayMaster?.element || 'Metal';
   const isFree = tier === 'free';
 
   const [deck, setDeck] = useState(dayElement);

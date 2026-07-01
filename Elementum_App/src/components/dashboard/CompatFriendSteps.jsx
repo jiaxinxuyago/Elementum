@@ -14,7 +14,7 @@
 // onboarding.
 // ===================================================================
 
-import React, { useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import {
   INK, INK_SOFT, INK_LIGHT, BRONZE_MID,
   PIG_METAL, PIG_WOOD, PIG_WATER, PIG_FIRE, PIG_EARTH,

@@ -8,8 +8,6 @@
 // the screen owns the swipe index + gate state.
 // ===================================================================
 
-import React from 'react';
-
 const CAP = { metal: 'Metal', earth: 'Earth', water: 'Water', wood: 'Wood', fire: 'Fire' };
 
 export default function ReadingEnergyCard({

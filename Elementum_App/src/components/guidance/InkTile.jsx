@@ -15,8 +15,6 @@
 // are composed from it to the exact ladder in the design markup.
 // ===================================================================
 
-import React from 'react';
-
 const EB = "'EB Garamond', Georgia, serif";
 const CORMORANT = "'Cormorant Garamond', Georgia, serif";
 const MONO = "'JetBrains Mono', monospace";
@@ -26,7 +24,7 @@ const SUBTLE = 'rgb(133,125,114)';
 const rgba = (t, a) => `rgba(${t},${a})`;
 
 // Right-bleeding matted ink motif + a soft tint sweep, behind the content.
-function InkArt({ src, tint, imgWidth, imgHeight, imgRight, imgFilter, imgMaskStop, sweep }) {
+function InkArt({ src, imgWidth, imgHeight, imgRight, imgFilter, imgMaskStop, sweep }) {
   return (
     <div aria-hidden="true" style={{ position: 'absolute', inset: 0, zIndex: 0, overflow: 'hidden', borderRadius: 'inherit', pointerEvents: 'none' }}>
       <img

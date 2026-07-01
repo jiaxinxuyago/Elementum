@@ -20,12 +20,9 @@
 // layer so the paintings look like they share a paper.
 // ===================================================================
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Icon } from '../shared/icons';
-import {
-  ink, inkSoft, inkLight, cream, silk, paperHair, gold, bronzeDark,
-  pigments, withAlpha,
-} from '../../styles/tokens';
+import { ink, inkLight, silk, gold, bronzeDark, pigments, withAlpha } from '../../styles/tokens';
 
 const ELEMENT_TO_PIGMENT = {
   Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water',

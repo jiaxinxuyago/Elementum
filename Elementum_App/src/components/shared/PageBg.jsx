@@ -14,8 +14,6 @@
 //   </div>
 // ===================================================================
 
-import React from 'react';
-
 // Accepts EITHER:
 //   · src + opacity  — an image at the given opacity. `src` may be a bare
 //     filename (resolved under /backgrounds/) or an absolute path (starts

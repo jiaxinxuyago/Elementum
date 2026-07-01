@@ -12,7 +12,6 @@
 // and the compatibility calc, then hands the finished `result` back here.
 // ===================================================================
 
-import React from 'react';
 import { useChart } from '../../../store/chartContext.jsx';
 import { useUpgrade } from '../UpgradeModal.jsx';
 import { ElementMark, Icon } from '../../shared/icons';

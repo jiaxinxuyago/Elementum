@@ -10,12 +10,7 @@
 // from a real chart so both screens read from the same source.
 // ===================================================================
 
-import React from 'react';
-import {
-  INK, INK_SOFT, INK_LIGHT, INK_MIST,
-  PAPER_HAIR, BORDER_LIGHT,
-  PIG_METAL, PIG_WOOD, PIG_WATER, PIG_FIRE, PIG_EARTH,
-} from '../../styles/tokens.jsx';
+import { INK, INK_SOFT, INK_LIGHT, PAPER_HAIR, BORDER_LIGHT, PIG_METAL, PIG_WOOD, PIG_WATER, PIG_FIRE, PIG_EARTH } from '../../styles/tokens.jsx';
 
 // ── Lookup tables shared by buildDm ────────────────────────────
 const PIG_BY_NAME = {

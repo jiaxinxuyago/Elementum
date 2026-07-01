@@ -6,15 +6,11 @@
 // NOW · line · dot) + What This Chapter Governs prose + Three Phases.
 // ===================================================================
 
-import React from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { Icon } from '../shared/icons';
 import { SceneHero } from './VisualTile.jsx';
 import { elementArt } from '../../styles/backgrounds.js';
-import {
-  ink, inkSoft, inkLight, bronzeDark,
-  paperHair, cardstockBg, pigments, withAlpha,
-} from '../../styles/tokens';
+import { ink, inkSoft, inkLight, bronzeDark, paperHair, cardstockBg, pigments } from '../../styles/tokens';
 
 const GOVERNS = {
   Metal: 'A decade that asks for refinement — strip what doesn\'t serve, sharpen what does. Reputation built on accuracy compounds now.',

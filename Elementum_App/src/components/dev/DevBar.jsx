@@ -13,7 +13,7 @@
 // wide enough to have space beside the 390px phone frame. Never shipped.
 // ===================================================================
 
-import React, { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import {
   useChart,
   TIERS,

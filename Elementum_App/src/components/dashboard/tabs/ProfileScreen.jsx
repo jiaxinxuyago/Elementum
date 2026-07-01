@@ -15,7 +15,6 @@
 // "The chart is the profile" — intentionally minimal.
 // ===================================================================
 
-import React from 'react';
 import {
   useChart, TIER_LABELS, TIER_PRICES,
 } from '../../../store/chartContext.jsx';

@@ -7,17 +7,12 @@
 // full readings.
 // ===================================================================
 
-import React from 'react';
 import DetailShell from './DetailShell.jsx';
 import { useChart } from '../../../store/chartContext.jsx';
 import { useUpgrade } from '../UpgradeModal.jsx';
 import { Icon } from '../../shared/icons';
 import { elementArt } from '../../../styles/backgrounds.js';
-import {
-  ink, inkSoft, inkLight, bronzeDark, gold,
-  paperHair, cardstockBg, quietBg, quietBorder,
-  pigments, withAlpha,
-} from '../../../styles/tokens';
+import { ink, inkSoft, inkLight, bronzeDark, gold, paperHair, cardstockBg, pigments, withAlpha } from '../../../styles/tokens';
 
 const ELEMENT_TO_PIGMENT = { Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water' };
 

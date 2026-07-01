@@ -11,7 +11,6 @@
 // '✦ Advisor') is the gating cue, faithful to the mock.
 // ===================================================================
 
-import React from 'react';
 import { useChart } from '../../../store/chartContext.jsx';
 import { useUpgrade } from '../UpgradeModal.jsx';
 import HorizonHeader from '../../guidance/HorizonHeader.jsx';

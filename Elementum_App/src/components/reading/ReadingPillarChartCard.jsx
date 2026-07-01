@@ -8,8 +8,6 @@
 // CJK glyphs are intended here (the character chart Part 1 deferred).
 // ===================================================================
 
-import React from 'react';
-
 function Pillar({ col }) {
   return (
     <div className={`bz-col${col.self ? ' self' : ''}${col.unset ? ' unset' : ''}`}>
