@@ -14,12 +14,8 @@
 // ===================================================================
 
 import { useEffect, useMemo, useState } from 'react';
-import {
-  useChart,
-  TIERS,
-  TIER_LABELS,
-  TIER_PRICES,
-} from '../../store/chartContext.jsx';
+import { useChart } from '../../store/chartContext.jsx';
+import { TIERS, TIER_LABELS, TIER_PRICES } from '../../infra/index.js';
 import { STEM_CARD_DATA, coverageFor } from '../../content/index.js';
 import { SCHEMA_VERSION, ARCHETYPE_SCHEMA } from '../../contract/index.js';
 

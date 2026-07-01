@@ -9,7 +9,8 @@
 
 import { useState } from 'react';
 
-import { useChart, SELF_REPORT_PRICE } from '../../store/chartContext.jsx';
+import { useChart } from '../../store/chartContext.jsx';
+import { SELF_REPORT_PRICE } from '../../infra/index.js';
 import { useUpgrade } from './UpgradeModal.jsx';
 import HorizonHeader from '../guidance/HorizonHeader.jsx';
 import {

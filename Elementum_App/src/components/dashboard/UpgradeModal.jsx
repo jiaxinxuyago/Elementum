@@ -18,7 +18,8 @@
 // ===================================================================
 
 import { createContext, useContext, useState, useCallback } from 'react';
-import { useChart, TIER_PRICES } from '../../store/chartContext.jsx';
+import { useChart } from '../../store/chartContext.jsx';
+import { TIER_PRICES } from '../../infra/index.js';
 // Stem -> archetype name (10 entries) inlined so this always-mounted provider
 // does NOT statically import the 276 KB archetypeSource.js content file
 // (Group E — keeps that content out of the eager initial bundle; it rides with
