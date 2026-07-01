@@ -1,0 +1,4 @@
+{
+  "_comment": "Single source of truth for Elementum's public web address. The deploy hook (tools/sync-live.ps1) and the dev tools all read liveUrl from here. DOMAIN CUTOVER: when elementum.life is live, change liveUrl below to \"https://elementum.life\" and redeploy — that one edit updates everything.",
+  "liveUrl": "https://elementum.jiaxinxuyago.workers.dev"
+}
