@@ -21,7 +21,7 @@ import {
   TIER_PRICES,
 } from '../../store/chartContext.jsx';
 import { STEM_CARD_DATA } from '../../content/archetypeSource.js';
-import { SCHEMA_VERSION, ARCHETYPE_SCHEMA } from '../../content/archetypeSchema.js';
+import { SCHEMA_VERSION, ARCHETYPE_SCHEMA } from '../../contract/index.js';
 import { coverageFor } from '../../content/archetypeCoverage.js';
 
 // Tier → pigment. Matches the pricing card gradients in DOC5 §19.
