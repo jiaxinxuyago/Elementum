@@ -189,7 +189,7 @@ export function SilkPaper() {
 // (Removed v2.3 — DistantRidge + WelcomeInkScene)
 // These v1/v2-era helpers layered ink-a-top.png / ink-a-bottom.png on top
 // of the page silk. They were superseded by the full-frame painted bg-*.png
-// system (Design/assets/backgrounds/), where each page composes its own
+// system (Design/backgrounds/), where each page composes its own
 // painterly atmosphere directly. Removing them prevents residual ridges
 // from showing up over the new picture-rich backgrounds.
 // =====================================================

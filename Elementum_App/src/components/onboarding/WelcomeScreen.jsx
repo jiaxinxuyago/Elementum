@@ -53,7 +53,7 @@ export default function WelcomeScreen({ onContinue }) {
           the user begins. (Replaces the prior SilkPaper + WelcomeInkScene
           composite; the painted PNG already includes the silk paper base.) */}
       <img
-        src="/assets/backgrounds/bg-reveal-04-mist-veil.png"
+        src="/backgrounds/bg-reveal-04-mist-veil.png"
         alt=""
         style={{
           position: 'absolute',

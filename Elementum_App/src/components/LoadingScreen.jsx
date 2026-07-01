@@ -139,7 +139,7 @@ export default function LoadingScreen({ onComplete }) {
       {/* Full-frame painted background — peaks above, water below, framing the
           ceremony in the calmer middle band as the chart narrows into form. */}
       <img
-        src="/assets/backgrounds/bg-reveal-03-stacked-horizons.png"
+        src="/backgrounds/bg-reveal-03-stacked-horizons.png"
         alt=""
         style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none', zIndex: 0 }}
       />

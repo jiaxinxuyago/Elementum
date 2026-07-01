@@ -22,7 +22,7 @@ export default function ReadingEnergyCard({
 
   return (
     <div className="reading-fill">
-      <img className="ground-img" src="/assets/backgrounds/bg-energymap-02-corner-quartet.png" alt="" style={{ opacity: 0.92 }} />
+      <img className="ground-img" src="/backgrounds/bg-energymap-02-corner-quartet.png" alt="" style={{ opacity: 0.92 }} />
       <div className="status"><span>9:41</span><span className="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
       <div className={`screen-pad dk-${el}${ghost ? ' ghosted-card' : ''}`}>
         <div className="back-row" style={{ cursor: 'pointer' }} onClick={onBack}>

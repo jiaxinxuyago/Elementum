@@ -389,7 +389,7 @@ export function OnboardingShell({
           atmospheric-mist canvas so the sequence reads as one coherent
           ceremony rather than per-step variations. */}
       <img
-        src="/assets/backgrounds/bg-onboarding-04-quiet-paper.png"
+        src="/backgrounds/bg-onboarding-04-quiet-paper.png"
         alt=""
         style={{
           position: 'absolute',

@@ -810,7 +810,7 @@ export default function RevealScreen({ onEnterDashboard, hideCTA = false }) {
         }}
       >
         <img
-          src="/assets/backgrounds/bg-reveal-01-distant-peaks.png"
+          src="/backgrounds/bg-reveal-01-distant-peaks.png"
           alt=""
           style={{
             width: '100%',
@@ -850,7 +850,7 @@ export default function RevealScreen({ onEnterDashboard, hideCTA = false }) {
         }}
       >
         <img
-          src="/assets/backgrounds/bg-reveal-02-floating-island.png"
+          src="/backgrounds/bg-reveal-02-floating-island.png"
           alt=""
           style={{
             width: '100%',
