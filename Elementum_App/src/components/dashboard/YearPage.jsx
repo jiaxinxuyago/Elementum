@@ -46,7 +46,8 @@ export default function YearPage({ onBack }) {
       : `${yearEl} alongside your ${dmElement}`;
 
   // ── Four Quarters — aggregate yearEnergy 12-month series.
-  const series = yearEnergy(chart) || [];
+  // Memoized so the two useMemos below get a stable `series` dependency.
+  const series = React.useMemo(() => yearEnergy(chart) || [], [chart]);
   const quarters = React.useMemo(() => {
     if (!series.length) return [70, 50, 85, 40];
     const q = [0, 0, 0, 0];

@@ -89,8 +89,10 @@ export default function AIConsultantScreen({ onBack }) {
     }, 55);
   };
 
-  // Opening message streams once on mount.
+  // Opening message streams once on mount — a legitimate mount-time animation
+  // effect (the stream itself runs via setInterval).
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     streamReply(opening);
     return () => clearInterval(timer.current);
     // eslint-disable-next-line react-hooks/exhaustive-deps

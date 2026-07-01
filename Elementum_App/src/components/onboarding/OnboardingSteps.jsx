@@ -465,9 +465,14 @@ export function Step5_Location({ onBack, onContinue }) {
 
     const q = val.trim();
     if (q.length < 2) {
+      // Reset the search UI for too-short queries. This is a legitimate
+      // debounced-search sync effect (external geocoding API + abort on
+      // unmount / val change), so the synchronous reset here is intended.
+      /* eslint-disable react-hooks/set-state-in-effect */
       setSuggestions([]);
       setIsSearching(false);
       setShowDropdown(false);
+      /* eslint-enable react-hooks/set-state-in-effect */
       return;
     }
 
