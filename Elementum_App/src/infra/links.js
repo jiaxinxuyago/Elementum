@@ -11,6 +11,10 @@
 export const PAYMENT = {
   seekerCheckout: null,
   advisorCheckout: null,
+  // Founding pass — one-time Stripe Payment Link (Test mode first). Grants
+  // lifetime Advisor access. Stays null until you paste the link URL; the
+  // Founding card hides itself while null. TODO(founding): paste Payment Link.
+  foundingCheckout: null,
 };
 
 // Social profiles.
