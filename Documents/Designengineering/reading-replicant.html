@@ -1,0 +1,293 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Elementum · Reading Journey Replicant</title><style>
+:root{--silk:#f4eedf;--silkDeep:#e8dfc9;--ink:#2b2722;--inkSoft:#6b6355;--line:#d9cfb6;
+--wood:#7c8a4f;--woodDeep:#55632f;--fire:#b5643f;--fireDeep:#8a3f22;--earth:#b79a5a;--earthDeep:#8a6d33;
+--metal:#9a9488;--metalDeep:#6b6459;--water:#5b7d8a;--waterDeep:#37525c;--up:#55632f;--down:#8a3f22;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:#ece4d0;color:var(--ink);font-family:Georgia,'Songti SC',serif;padding:32px 16px 80px;-webkit-font-smoothing:antialiased;}
+h1.page{font-size:26px;text-align:center;margin-bottom:4px;}
+.sub{text-align:center;color:var(--inkSoft);font-size:13px;margin-bottom:6px;}
+.legend{text-align:center;color:var(--inkSoft);font-size:12px;margin-bottom:28px;}
+.rail{display:flex;gap:20px;overflow-x:auto;padding:14px 6px 26px;align-items:flex-start;scroll-snap-type:x proximity;}
+.rail-title{max-width:1180px;margin:34px auto 0;font-size:15px;letter-spacing:.14em;text-transform:uppercase;color:var(--inkSoft);border-top:1px solid var(--line);padding-top:20px;}
+.rail-note{max-width:1180px;margin:2px auto 0;font-size:12.5px;color:var(--inkSoft);}
+.phone{flex:0 0 330px;scroll-snap-align:start;background:var(--silk);border:10px solid #1c1a17;border-radius:38px;height:690px;overflow:hidden;position:relative;box-shadow:0 12px 30px rgba(0,0,0,.18);}
+.tag{position:absolute;top:8px;left:50%;transform:translateX(-50%);z-index:5;font-family:ui-sans-serif,system-ui;font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:#fff;background:rgba(28,26,23,.62);padding:3px 9px;border-radius:20px;white-space:nowrap;}
+.pad{position:absolute;inset:0;overflow-y:auto;padding:52px 18px 26px;}
+.eyebrow{font-family:ui-sans-serif,system-ui;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--inkSoft);margin-bottom:14px;}
+.hero{position:relative;height:132px;border-radius:16px;overflow:hidden;margin-bottom:12px;background:linear-gradient(120deg,var(--silkDeep),#cfc4a6);}
+.hero img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.9);}
+.hero .hc{position:absolute;left:14px;bottom:11px;right:14px;}
+.reye{font-family:ui-sans-serif,system-ui;font-size:9.5px;letter-spacing:.11em;text-transform:uppercase;color:#40382c;margin-bottom:3px;text-shadow:0 1px 6px rgba(244,238,223,.9);}
+.htitle{font-size:23px;line-height:1.05;color:var(--ink);}
+.badges{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:12px;}
+.rb{font-family:ui-sans-serif,system-ui;font-size:10.5px;letter-spacing:.02em;border:1px solid var(--line);border-radius:20px;padding:4px 11px;color:var(--inkSoft);}
+.rb.up{color:var(--up);border-color:color-mix(in srgb,var(--up) 40%,var(--line));}
+.rb.down{color:var(--down);border-color:color-mix(in srgb,var(--down) 40%,var(--line));}
+.lede{font-size:16px;line-height:1.42;margin:2px 0 14px;}
+.lede b{font-weight:400;color:var(--pigDeep,var(--ink));border-bottom:2px solid color-mix(in srgb,var(--pig,var(--line)) 60%,transparent);}
+.layer{background:#fbf7ec;border:1px solid var(--line);border-radius:14px;padding:13px 14px;margin-bottom:11px;}
+.layer.tinted{background:color-mix(in srgb,var(--pig,var(--silkDeep)) 8%,#fbf7ec);border-color:color-mix(in srgb,var(--pig,var(--line)) 28%,transparent);}
+.ll{font-family:ui-sans-serif,system-ui;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--pigDeep,var(--inkSoft));margin-bottom:7px;}
+.layer p{font-size:13.5px;line-height:1.5;color:#3f3a31;margin-bottom:8px;}
+.layer p:last-of-type{margin-bottom:0;}
+.pull{display:block;font-style:italic;font-size:13.5px;line-height:1.45;color:var(--pigDeep,var(--inkSoft));border-top:1px solid var(--line);margin-top:9px;padding-top:9px;}
+.sec-head{display:flex;justify-content:space-between;align-items:baseline;margin:16px 2px 3px;}
+.sec-head .t{font-size:16px;}.sec-head .k{font-family:ui-sans-serif,system-ui;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--inkSoft);}
+.sec-sub{font-size:12.5px;color:var(--inkSoft);margin:0 2px 10px;line-height:1.4;}
+.dd{display:flex;gap:11px;align-items:flex-start;background:#fbf7ec;border:1px solid var(--line);border-radius:13px;padding:11px 12px;margin-bottom:9px;}
+.dd.locked{opacity:.7;}
+.dd .ic{flex:0 0 30px;height:30px;border-radius:9px;display:grid;place-items:center;background:color-mix(in srgb,var(--pig,var(--silkDeep)) 22%,#fff);color:var(--pigDeep,var(--inkSoft));font-family:ui-sans-serif,system-ui;font-size:13px;}
+.dd .nm{font-size:14px;display:block;margin-bottom:2px;}
+.dd .tz{font-size:11.5px;color:var(--inkSoft);line-height:1.35;}
+.gate{display:flex;gap:11px;background:#f0e7d2;border:1px dashed color-mix(in srgb,var(--metalDeep) 40%,var(--line));border-radius:13px;padding:12px;margin-top:6px;}
+.gate .gl{flex:0 0 26px;height:26px;border-radius:50%;display:grid;place-items:center;background:#e2d7bd;font-size:12px;}
+.gate .ll{margin-bottom:4px;}.gate p{font-size:12px;color:var(--inkSoft);line-height:1.4;}
+.fd{background:#fbf7ec;border:1px solid var(--line);border-radius:16px;padding:14px;margin-bottom:16px;}
+.fd .top{display:flex;align-items:center;gap:11px;margin-bottom:3px;}
+.fd .mk{flex:0 0 40px;height:40px;border-radius:11px;background:color-mix(in srgb,var(--pig,var(--silkDeep)) 22%,#fff);display:grid;place-items:center;font-size:18px;color:var(--pigDeep);}
+.fd .nm{font-size:19px;}.fd .zh{color:var(--inkSoft);font-size:15px;}
+.fd .role{margin-left:auto;}
+.fd-brief{font-size:13px;line-height:1.5;color:var(--inkSoft);margin-top:11px;}
+.caps{font-family:ui-sans-serif,system-ui;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--inkSoft);margin:14px 0 9px;}
+.fc{background:#fbf7ec;border:1px solid var(--line);border-radius:15px;overflow:hidden;margin-bottom:12px;}
+.fc .art{height:120px;position:relative;background:linear-gradient(120deg,var(--silkDeep),#d3c8aa);}
+.fc .art img{width:100%;height:100%;object-fit:cover;}
+.fc .art .flag{position:absolute;top:9px;right:9px;font-family:ui-sans-serif,system-ui;font-size:9px;letter-spacing:.1em;text-transform:uppercase;background:var(--pigDeep,#555);color:#fff;padding:3px 8px;border-radius:14px;}
+.fc .bd{padding:12px 13px 14px;}
+.fc .pn{font-size:18px;margin-bottom:8px;}
+.fc .kw{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:9px;}
+.fc .kw span{font-family:ui-sans-serif,system-ui;font-size:10px;letter-spacing:.02em;background:color-mix(in srgb,var(--pig,var(--silkDeep)) 16%,#fff);border:1px solid var(--line);border-radius:14px;padding:3px 9px;color:var(--inkSoft);}
+.zlabel{font-family:ui-sans-serif,system-ui;font-size:9px;letter-spacing:.13em;text-transform:uppercase;color:var(--inkSoft);margin:8px 0 3px;}
+.zdom{font-size:13px;}.zdom b{color:var(--pigDeep);}
+.zteaser{font-size:12.5px;line-height:1.45;color:#3f3a31;margin-top:3px;}
+.dk-metal{--pig:var(--metal);--pigDeep:var(--metalDeep);}
+.dk-earth{--pig:var(--earth);--pigDeep:var(--earthDeep);}
+.dk-water{--pig:var(--water);--pigDeep:var(--waterDeep);}
+.dk-wood{--pig:var(--wood);--pigDeep:var(--woodDeep);}
+.dk-fire{--pig:var(--fire);--pigDeep:var(--fireDeep);}
+.flag.auth{background:#8a6d33;}.flag.verb{background:#55632f;}
+</style></head><body>
+<h1 class="page">Elementum · Reading Journey Replicant</h1>
+<div class="sub">Sample chart: <b>yang-Metal Day Master</b> · every screen renders the live reading data — art loads from the deployed app.</div>
+<div class="legend"><span style="color:#55632f">■ verbatim (deliverable)</span> &nbsp; <span style="color:#8a6d33">■ Claude-authored — needs review</span> &nbsp;·&nbsp; regenerate: <code>node tools/build-reading-review.mjs</code></div>
+
+<div class="rail-title">1 · FACES pages (P6–P10) — one per element, its two faces beneath the briefing</div>
+<div class="rail-note">Tapping a face card opens its persona reading (row 2); tapping the briefing arrow opens the element reading (row 3).</div>
+<div class="rail"><div class="phone"><div class="tag">P6–P10 · FACES — Metal</div><div class="pad dk-metal">
+    <div class="eyebrow">Your energies · METAL</div>
+    <div class="fd dk-metal"><div class="top"><span class="mk">金</span><div><div class="nm">Metal <span class="zh">金</span></div></div><span class="rb role">Core</span></div><div class="fd-brief">Metal is <b>you</b> — the self the other four energies turn around.</div></div>
+    <div class="caps">Its two faces</div><div class="fc dk-metal">
+      <div class="art"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_metal_1_p.png" alt="" onerror="this.style.display='none'"><span class="flag auth">authored</span></div>
+      <div class="bd">
+        <div class="pn">The Twin</div>
+        <div class="kw"><span>Independent</span><span>Resolute</span><span>Self-made</span></div>
+        <div class="zlabel">What it rules</div><div class="zdom"><b>Identity &amp; autonomy</b> — standing on your own.</div>
+        <div class="zlabel">The reading</div><div class="zteaser">You trust your own counsel first. Self-reliance is a strength — and, now and then, a wall others can’t get past. You begin without waiting for permission and finish without needing rescue. The art is knowing the moment standing alone costs more than it’s worth.</div>
+      </div></div><div class="fc dk-metal">
+      <div class="art"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_metal_2_p.png" alt="" onerror="this.style.display='none'"><span class="flag auth">authored</span></div>
+      <div class="bd">
+        <div class="pn">The Rival</div>
+        <div class="kw"><span>Driven</span><span>Competitive</span><span>Bold</span></div>
+        <div class="zlabel">What it rules</div><div class="zdom"><b>Ambition &amp; rivalry</b> — the spur of a worthy opponent.</div>
+        <div class="zlabel">The reading</div><div class="zteaser">You rise to a contest. Comparison sharpens you, though it can also spend the energy you meant to keep. Put an equal in front of you and you find a gear you forgot you had. Just watch that the race doesn’t cost more than the finish line pays.</div>
+      </div></div>
+  </div></div><div class="phone"><div class="tag">P6–P10 · FACES — Earth</div><div class="pad dk-earth">
+    <div class="eyebrow">Your energies · EARTH</div>
+    <div class="fd dk-earth"><div class="top"><span class="mk">土</span><div><div class="nm">Earth <span class="zh">土</span></div></div><span class="rb up role">↑ Catalyst</span></div><div class="fd-brief">Earth is <b>your support &amp; nourishment</b> — the ground you’re built on.</div></div>
+    <div class="caps">Its two faces</div><div class="fc dk-earth">
+      <div class="art"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_earth_1_p.png" alt="" onerror="this.style.display='none'"><span class="flag auth">authored</span></div>
+      <div class="bd">
+        <div class="pn">The Sage</div>
+        <div class="kw"><span>Grounding</span><span>Nurturing</span><span>Patient</span></div>
+        <div class="zlabel">What it rules</div><div class="zdom"><b>Steady support</b> — the roots that hold you.</div>
+        <div class="zlabel">The reading</div><div class="zteaser">You learn deeply and keep what you learn. Support — given or received — is never wasted on you. You’re nourished by what others hurry past, and steadied by roots that run long and quiet. The watch is for when “not ready yet” quietly becomes a place to stay.</div>
+      </div></div><div class="fc dk-earth">
+      <div class="art"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_earth_2_p.png" alt="" onerror="this.style.display='none'"><span class="flag auth">authored</span></div>
+      <div class="bd">
+        <div class="pn">The Alchemist</div>
+        <div class="kw"><span>Intuitive</span><span>Unorthodox</span><span>Transmuting</span></div>
+        <div class="zlabel">What it rules</div><div class="zdom"><b>Unorthodox insight</b> — nourishment from the unexpected.</div>
+        <div class="zlabel">The reading</div><div class="zteaser">You feed on the strange and the oblique — understanding tends to arrive sideways, rarely on cue. You turn raw, unpromising material into sense the way few others can. Original and self-sufficient, you think best alone. Just don’t let the wondering become a room you never leave.</div>
+      </div></div>
+  </div></div><div class="phone"><div class="tag">P6–P10 · FACES — Water</div><div class="pad dk-water">
+    <div class="eyebrow">Your energies · WATER</div>
+    <div class="fd dk-water"><div class="top"><span class="mk">水</span><div><div class="nm">Water <span class="zh">水</span></div></div></div><div class="fd-brief">Water is <b>your output &amp; expression</b> — how you meet and remake the world.</div></div>
+    <div class="caps">Its two faces</div><div class="fc dk-water">
+      <div class="art"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_water_1_p.png" alt="" onerror="this.style.display='none'"><span class="flag auth">authored</span></div>
+      <div class="bd">
+        <div class="pn">The Artisan</div>
+        <div class="kw"><span>Fluent</span><span>Generous</span><span>Easeful</span></div>
+        <div class="zlabel">What it rules</div><div class="zdom"><b>Natural expression</b> — making that flows without strain.</div>
+        <div class="zlabel">The reading</div><div class="zteaser">Ideas come easily and you give them away gladly. Creation, for you, is play before it is ever work. You make rooms lighter and tables fuller without seeming to try. The one caution is drift — when everything flows, it’s easy to coast past your best.</div>
+      </div></div><div class="fc dk-water">
+      <div class="art"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_water_2_p.png" alt="" onerror="this.style.display='none'"><span class="flag auth">authored</span></div>
+      <div class="bd">
+        <div class="pn">The Virtuoso</div>
+        <div class="kw"><span>Brilliant</span><span>Unruly</span><span>Daring</span></div>
+        <div class="zlabel">What it rules</div><div class="zdom"><b>Brilliant expression</b> — talent that bends the rules.</div>
+        <div class="zlabel">The reading</div><div class="zteaser">You dazzle when you break form. The same spark that wins the room can unsettle the ones who run it. You’d rather be brilliant than merely correct — and often you’re both. The craft is aiming it where invention is wanted, not just where rules happen to be.</div>
+      </div></div>
+  </div></div><div class="phone"><div class="tag">P6–P10 · FACES — Wood</div><div class="pad dk-wood">
+    <div class="eyebrow">Your energies · WOOD</div>
+    <div class="fd dk-wood"><div class="top"><span class="mk">木</span><div><div class="nm">Wood <span class="zh">木</span></div></div><span class="rb down role">↓ Friction</span></div><div class="fd-brief">Wood is <b>your wealth &amp; desire</b> — everything you treat as worth having and keeping.</div></div>
+    <div class="caps">Its two faces</div><div class="fc dk-wood">
+      <div class="art"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_wood_1_p.png" alt="" onerror="this.style.display='none'"><span class="flag verb">verbatim</span></div>
+      <div class="bd">
+        <div class="pn">The Steward</div>
+        <div class="kw"><span>Steady</span><span>Accruing</span><span>Enduring</span></div>
+        <div class="zlabel">What it rules</div><div class="zdom"><b>Steady holdings</b> — wealth tended and kept.</div>
+        <div class="zlabel">The reading</div><div class="zteaser">Worth, to you, is built slowly and kept. Security is something earned in steady, deliberate increments. You trust the slow ledger over the lucky break, and it makes you dependable with what matters. The only real risk is holding a thing so tightly it stops growing.</div>
+      </div></div><div class="fc dk-wood">
+      <div class="art"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_wood_2_p.png" alt="" onerror="this.style.display='none'"><span class="flag verb">verbatim</span></div>
+      <div class="bd">
+        <div class="pn">The Horizon</div>
+        <div class="kw"><span>Expansive</span><span>Sensing</span><span>Distant</span></div>
+        <div class="zlabel">What it rules</div><div class="zdom"><b>Windfall &amp; opportunity</b> — wealth that arrives in waves.</div>
+        <div class="zlabel">The reading</div><div class="zteaser">You read money as movement — pulled toward the deal on the horizon more than the one already in hand. Opportunity registers at a distance, and you back the bet others hesitate on. Windfall energizes you; routine quietly bores you. The skill is choosing which horizons are actually worth crossing.</div>
+      </div></div>
+  </div></div><div class="phone"><div class="tag">P6–P10 · FACES — Fire</div><div class="pad dk-fire">
+    <div class="eyebrow">Your energies · FIRE</div>
+    <div class="fd dk-fire"><div class="top"><span class="mk">火</span><div><div class="nm">Fire <span class="zh">火</span></div></div></div><div class="fd-brief">Fire is <b>your authority &amp; structure</b> — the structure you answer to and grow into.</div></div>
+    <div class="caps">Its two faces</div><div class="fc dk-fire">
+      <div class="art"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_fire_1_p.png" alt="" onerror="this.style.display='none'"><span class="flag auth">authored</span></div>
+      <div class="bd">
+        <div class="pn">The Magistrate</div>
+        <div class="kw"><span>Principled</span><span>Measured</span><span>Ordered</span></div>
+        <div class="zlabel">What it rules</div><div class="zdom"><b>Order &amp; duty</b> — the structure you answer to.</div>
+        <div class="zlabel">The reading</div><div class="zteaser">A discipline to grow into: measured authority that holds the line without forcing it. People trust you with responsibility because you carry it evenly. You’d rather be fair than feared, and it shows. The caution is rigidity — keeping the rule after it has outlived its reason.</div>
+      </div></div><div class="fc dk-fire">
+      <div class="art"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_fire_2_p.png" alt="" onerror="this.style.display='none'"><span class="flag auth">authored</span></div>
+      <div class="bd">
+        <div class="pn">The General</div>
+        <div class="kw"><span>Forging</span><span>Relentless</span><span>Decisive</span></div>
+        <div class="zlabel">What it rules</div><div class="zdom"><b>Raw challenge</b> — the pressure that forges you.</div>
+        <div class="zlabel">The reading</div><div class="zteaser">Pressure never asks your permission. You’re sharpened by the trials you would never have chosen. You meet the hard thing head-on where others flinch — decisive, and hard to rattle. The watch is for when force becomes a reflex on what only needed a lighter hand.</div>
+      </div></div>
+  </div></div></div>
+
+<div class="rail-title">2 · Persona readings (P12/P13) — the 10 faces, full readings</div>
+<div class="rail-note">Steward &amp; Horizon are the verbatim Wood reference; the other eight are authored in the same voice.</div>
+<div class="rail"><div class="phone"><div class="tag">P12/P13 · The Steward</div><div class="pad dk-wood">
+    <div class="eyebrow">WOOD · THE STEWARD</div>
+    <div class="hero"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_wood_1_p.png" alt="" onerror="this.style.display='none'"><div class="hc"><div class="reye">WOOD · 正财 · YANG</div><div class="htitle">The Steward in you</div></div><div style="position:absolute;top:9px;right:9px;"><span class="flag verb">verbatim</span></div></div>
+    <div class="badges"><span class="rb down">↓ your friction</span><span class="rb ">wealth &amp; desire</span></div>
+    <p class="lede">Wood in you wears the face of <b>The Steward</b> — the one who builds value slowly and refuses to let it slip.</p>
+    <div class="layer"><div class="ll">What it says about you · R</div><p>You hold what you gather. Worth, for you, is tended over time — accrued in steady increments, compounded, rarely gambled. Where others chase the windfall, you trust the slow ledger: the thing that grows because you kept showing up for it.</p><p>This is the quiet engine behind your security. It makes you dependable with what matters and slow to part with it — sometimes slower than the moment deserves.</p><span class="pull">“Enough” is a number you can actually name — and you’re nearly always building toward it.</span></div>
+    <div class="layer tinted"><div class="ll">What to do with it · X</div><p>Put your hand on the long arc: the account that compounds, the craft that deepens, the bond that keeps. Notice the one place you’re holding so tightly it’s stopped growing.</p></div>
+    <div class="sec-head"><span class="t">Where it lives in your life</span><span class="k">4 domains</span></div>
+      <div class="sec-sub">The Steward shapes how you handle money, love, work and your own body. Open any one for its reading.</div><div class="dd dk-wood "><span class="ic">¤</span><span><span class="nm">Wealth</span><span class="tz">Your home domain — security built in steady layers, and the fear of ever losing it.</span></span></div><div class="dd dk-wood "><span class="ic">♥</span><span><span class="nm">Relationships</span><span class="tz">You love by providing and keeping. Loyalty runs deep; letting go runs hard.</span></span></div><div class="dd dk-wood "><span class="ic">▤</span><span><span class="nm">Career</span><span class="tz">You compound mastery. The long game rewards you where the quick pivot would not.</span></span></div><div class="dd dk-wood locked"><span class="ic">✚</span><span><span class="nm">Health</span><span class="tz">How holding-on settles in the body — where steadiness turns to tension. Seeker.</span></span></div><div class="gate"><span class="gl">🔒</span><div><div class="ll">Seeker — the full Steward reading</div><p>Every domain in depth · where holding turns to hoarding · the season it tightens.</p></div></div>
+  </div></div><div class="phone"><div class="tag">P12/P13 · The Horizon</div><div class="pad dk-wood">
+    <div class="eyebrow">WOOD · THE HORIZON</div>
+    <div class="hero"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_wood_2_p.png" alt="" onerror="this.style.display='none'"><div class="hc"><div class="reye">WOOD · 偏财 · YIN</div><div class="htitle">The Horizon in you</div></div><div style="position:absolute;top:9px;right:9px;"><span class="flag verb">verbatim</span></div></div>
+    <div class="badges"><span class="rb down">↓ your friction</span><span class="rb ">wealth &amp; desire</span></div>
+    <p class="lede">Wood in you also wears the face of <b>The Horizon</b> — the one that reaches for what isn’t here yet.</p>
+    <div class="layer"><div class="ll">What it says about you · R</div><p>You read value as movement. Opportunity registers at a distance — the deal forming, the door about to open — and you’re pulled toward it more than toward what’s already in hand. Windfall energizes you; routine quietly bores you.</p><p>Money and chance feel alive in your hands, and you’re generous with both when the mood is good. The catch is the reach itself: always leaning toward the next thing can mean the last good thing slips away uncounted.</p><span class="pull">You’d rather chase the next good thing than count the last one.</span></div>
+    <div class="layer tinted"><div class="ll">What to do with it · X</div><p>Aim the reach: pick the horizons worth crossing and let the rest pass. Pair it with the Steward’s patience so what you catch doesn’t slip straight back out.</p></div>
+    <div class="sec-head"><span class="t">Where it lives in your life</span><span class="k">3 domains</span></div>
+      <div class="sec-sub">The Horizon shows up most where timing and appetite decide the outcome.</div><div class="dd dk-wood "><span class="ic">¤</span><span><span class="nm">Wealth</span><span class="tz">Upside over safety — you back the bet others hesitate on, and feel the swings.</span></span></div><div class="dd dk-wood "><span class="ic">▤</span><span><span class="nm">Career</span><span class="tz">You thrive on the new venture, the open lane — and stall when the work goes flat.</span></span></div><div class="dd dk-wood locked"><span class="ic">♥</span><span><span class="nm">Relationships</span><span class="tz">Drawn to the spark of the new — where novelty helps, and where it costs. Seeker.</span></span></div><div class="gate"><span class="gl">🔒</span><div><div class="ll">Seeker — the full Horizon reading</div><p>Every domain in depth · where reaching turns to restlessness · the season it spikes.</p></div></div>
+  </div></div><div class="phone"><div class="tag">P12/P13 · The Twin</div><div class="pad dk-metal">
+    <div class="eyebrow">METAL · THE TWIN</div>
+    <div class="hero"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_metal_1_p.png" alt="" onerror="this.style.display='none'"><div class="hc"><div class="reye">METAL · 比肩 · YANG</div><div class="htitle">The Twin in you</div></div><div style="position:absolute;top:9px;right:9px;"><span class="flag auth">authored</span></div></div>
+    <div class="badges"><span class="rb ">your core</span><span class="rb ">you</span></div>
+    <p class="lede">Metal in you wears the face of <b>The Twin</b> — the one who stands on their own ground and answers to their own measure.</p>
+    <div class="layer"><div class="ll">What it says about you · R</div><p>You keep your own counsel. Before you weigh what anyone else thinks, there’s a standard already set inside you — and that’s the one you actually answer to. It makes you steady when a room wobbles, and hard to move once you’ve decided.</p><p>Independence like this is a quiet kind of strength: you don’t need permission to begin, and you rarely need rescue to finish. The cost is that the same wall that keeps you upright can keep others out.</p><span class="pull">You’d rather be right with yourself than agreeable with everyone.</span></div>
+    <div class="layer tinted"><div class="ll">What to do with it · X</div><p>Lean on it where conviction is the job — the call only you can make, the line only you will hold. Loosen it where a hand offered is worth more than a point proven.</p></div>
+    
+  </div></div><div class="phone"><div class="tag">P12/P13 · The Rival</div><div class="pad dk-metal">
+    <div class="eyebrow">METAL · THE RIVAL</div>
+    <div class="hero"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_metal_2_p.png" alt="" onerror="this.style.display='none'"><div class="hc"><div class="reye">METAL · 劫财 · YIN</div><div class="htitle">The Rival in you</div></div><div style="position:absolute;top:9px;right:9px;"><span class="flag auth">authored</span></div></div>
+    <div class="badges"><span class="rb ">your core</span><span class="rb ">you</span></div>
+    <p class="lede">Metal in you also wears the face of <b>The Rival</b> — the one who comes alive against a worthy equal.</p>
+    <div class="layer"><div class="ll">What it says about you · R</div><p>You rise to a contest. Put an equal in front of you and something sharpens — you find a gear you didn’t know you had. Comparison isn’t vanity for you; it’s fuel, the way you learn how far you can actually go.</p><p>That drive wins ground others leave on the table. But rivalry spends what it earns: the same heat that pushes you forward can burn through the very thing — energy, money, goodwill — you meant to keep.</p><span class="pull">You measure yourself against the best in the room, and it makes you better and poorer at once.</span></div>
+    <div class="layer tinted"><div class="ll">What to do with it · X</div><p>Point it at a real opponent — a standard, a record, a version of yourself worth beating — and let it drive. Pull it back when the contest is costing more than the win is worth.</p></div>
+    
+  </div></div><div class="phone"><div class="tag">P12/P13 · The Sage</div><div class="pad dk-earth">
+    <div class="eyebrow">EARTH · THE SAGE</div>
+    <div class="hero"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_earth_1_p.png" alt="" onerror="this.style.display='none'"><div class="hc"><div class="reye">EARTH · 正印 · YANG</div><div class="htitle">The Sage in you</div></div><div style="position:absolute;top:9px;right:9px;"><span class="flag auth">authored</span></div></div>
+    <div class="badges"><span class="rb up">↑ your catalyst</span><span class="rb ">support &amp; nourishment</span></div>
+    <p class="lede">Earth in you wears the face of <b>The Sage</b> — the one who learns deeply and is held by roots that run quiet and long.</p>
+    <div class="layer"><div class="ll">What it says about you · R</div><p>You take things in and keep them. Knowledge, care, the steadying presence of people who wish you well — none of it is wasted on you; it settles into ground you can stand on later. You’re the one who reads to the end, who remembers, who is nourished by what others rush past.</p><p>This is the root beneath your composure. It makes you patient and hard to rattle — though roots that only ever take in can grow reluctant to move, waiting to feel ready before they begin.</p><span class="pull">You are steadier than you know, and you know more than you let on.</span></div>
+    <div class="layer tinted"><div class="ll">What to do with it · X</div><p>Trust the slow accrual — the study, the mentor, the long relationship — where depth is the point. Notice where “not ready yet” has quietly become a place to hide.</p></div>
+    
+  </div></div><div class="phone"><div class="tag">P12/P13 · The Alchemist</div><div class="pad dk-earth">
+    <div class="eyebrow">EARTH · THE ALCHEMIST</div>
+    <div class="hero"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_earth_2_p.png" alt="" onerror="this.style.display='none'"><div class="hc"><div class="reye">EARTH · 偏印 · YIN</div><div class="htitle">The Alchemist in you</div></div><div style="position:absolute;top:9px;right:9px;"><span class="flag auth">authored</span></div></div>
+    <div class="badges"><span class="rb up">↑ your catalyst</span><span class="rb ">support &amp; nourishment</span></div>
+    <p class="lede">Earth in you also wears the face of <b>The Alchemist</b> — the one who turns the strange and the unwanted into understanding.</p>
+    <div class="layer"><div class="ll">What it says about you · R</div><p>You feed on the oblique. Insight arrives for you sideways — from the odd source, the dropped remark, the thing everyone else stepped over — and you have a knack for turning raw, unpromising material into sense. Understanding rarely comes on cue; it comes when it comes, and it’s usually worth the wait.</p><p>This is the ground your edge is forged on. It makes you original and quietly self-sufficient — though the same inward turn can tip into over-thinking, or into feeding yourself so privately that nothing gets out.</p><span class="pull">You make meaning from what others discard — and sometimes forget to share it.</span></div>
+    <div class="layer tinted"><div class="ll">What to do with it · X</div><p>Give it strange problems and let it wander; that’s where it earns its keep. Then set a deadline, because insight this good is wasted if it never leaves your head.</p></div>
+    
+  </div></div><div class="phone"><div class="tag">P12/P13 · The Artisan</div><div class="pad dk-water">
+    <div class="eyebrow">WATER · THE ARTISAN</div>
+    <div class="hero"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_water_1_p.png" alt="" onerror="this.style.display='none'"><div class="hc"><div class="reye">WATER · 食神 · YANG</div><div class="htitle">The Artisan in you</div></div><div style="position:absolute;top:9px;right:9px;"><span class="flag auth">authored</span></div></div>
+    <div class="badges"><span class="rb ">output &amp; expression</span></div>
+    <p class="lede">Water in you wears the face of <b>The Artisan</b> — the one for whom making is play before it is ever work.</p>
+    <div class="layer"><div class="ll">What it says about you · R</div><p>Things flow out of you without much strain. Ideas, warmth, the small pleasures of doing a thing well — they come easily, and you give them away gladly. For you, creation starts as play; the work is just the play taken seriously.</p><p>This ease is genuinely rare, and people feel it — you make rooms lighter and tables fuller. Its shadow is drift: when everything comes easily, it’s tempting to let the current carry you past the thing that would have been your best.</p><span class="pull">You’d make it anyway, whether or not anyone was watching.</span></div>
+    <div class="layer tinted"><div class="ll">What to do with it · X</div><p>Follow the ease into real craft — pick one thing worth finishing and let the pleasure do the pulling. Guard against comfort so complete that you never test the edge of what you could do.</p></div>
+    
+  </div></div><div class="phone"><div class="tag">P12/P13 · The Virtuoso</div><div class="pad dk-water">
+    <div class="eyebrow">WATER · THE VIRTUOSO</div>
+    <div class="hero"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_water_2_p.png" alt="" onerror="this.style.display='none'"><div class="hc"><div class="reye">WATER · 伤官 · YIN</div><div class="htitle">The Virtuoso in you</div></div><div style="position:absolute;top:9px;right:9px;"><span class="flag auth">authored</span></div></div>
+    <div class="badges"><span class="rb ">output &amp; expression</span></div>
+    <p class="lede">Water in you also wears the face of <b>The Virtuoso</b> — the one who dazzles precisely by refusing the given form.</p>
+    <div class="layer"><div class="ll">What it says about you · R</div><p>You shine when you break the mold. Talent, for you, isn’t quiet competence — it’s the flourish, the unexpected move, the answer no one asked for that turns out to be right. You’d rather be brilliant than correct, and often you’re both.</p><p>That spark wins rooms and moves work forward in leaps. It also unsettles the people whose job is to keep order — the same brilliance that impresses can read as defiance, and the friction is real.</p><span class="pull">You will not be told how, and that is both the gift and the bill.</span></div>
+    <div class="layer tinted"><div class="ll">What to do with it · X</div><p>Aim the fireworks at problems that reward invention, where “because I said so” has failed everyone else. Spend a little of it on tact, so the work lands before the ego does.</p></div>
+    
+  </div></div><div class="phone"><div class="tag">P12/P13 · The General</div><div class="pad dk-fire">
+    <div class="eyebrow">FIRE · THE GENERAL</div>
+    <div class="hero"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_fire_2_p.png" alt="" onerror="this.style.display='none'"><div class="hc"><div class="reye">FIRE · 七杀 · YIN</div><div class="htitle">The General in you</div></div><div style="position:absolute;top:9px;right:9px;"><span class="flag auth">authored</span></div></div>
+    <div class="badges"><span class="rb ">authority &amp; structure</span></div>
+    <p class="lede">Fire in you also wears the face of <b>The General</b> — the one who is forged by trials they would never have chosen.</p>
+    <div class="layer"><div class="ll">What it says about you · R</div><p>Pressure doesn’t ask your permission. It arrives — the deadline, the rival, the situation with no soft option — and something in you meets it head-on rather than flinching. You don’t go looking for the fight, but you don’t lose your nerve when it finds you.</p><p>This is what forges you. The trials you’d never have picked are exactly the ones that made you sharp, decisive, hard to intimidate. The danger is that a nature built for pressure can start manufacturing it — turning force on situations, and people, that only needed a lighter hand.</p><span class="pull">You’re sharpened by the trials you would never have chosen.</span></div>
+    <div class="layer tinted"><div class="ll">What to do with it · X</div><p>Point it at the hard, worthy thing — the challenge that genuinely needs someone who won’t blink. Ease off where force has become a habit, and a steadier touch would carry the room.</p></div>
+    
+  </div></div><div class="phone"><div class="tag">P12/P13 · The Magistrate</div><div class="pad dk-fire">
+    <div class="eyebrow">FIRE · THE MAGISTRATE</div>
+    <div class="hero"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_fire_1_p.png" alt="" onerror="this.style.display='none'"><div class="hc"><div class="reye">FIRE · 正官 · YANG</div><div class="htitle">The Magistrate in you</div></div><div style="position:absolute;top:9px;right:9px;"><span class="flag auth">authored</span></div></div>
+    <div class="badges"><span class="rb ">authority &amp; structure</span></div>
+    <p class="lede">Fire in you wears the face of <b>The Magistrate</b> — the one whose authority earns its weight by being fair.</p>
+    <div class="layer"><div class="ll">What it says about you · R</div><p>You hold the line without needing to raise your voice. There’s a sense of proportion in you — of what’s owed, what’s due, what a thing should rightly be — and people trust you with responsibility because you carry it evenly. You’d rather be fair than feared, and it shows.</p><p>This is a discipline to grow into, and mostly you have. The measured authority that steadies a group can, taken too far, harden into rigidity — rules kept because they’re rules, order valued over the living thing it was meant to serve.</p><span class="pull">You keep the standard because someone has to, and you’d rather it were done well.</span></div>
+    <div class="layer tinted"><div class="ll">What to do with it · X</div><p>Take the seat where fairness is the whole job — the call that has to be even-handed, the structure others rely on. Loosen the grip where the rule has outlived the reason, and judgment matters more than procedure.</p></div>
+    
+  </div></div></div>
+
+<div class="rail-title">3 · Element readings (P11) — the substance, composed per Day-Master cycle</div>
+<div class="rail-note">This R/X is composed in the component at runtime (mirrored here for the Metal DM), not stored as data.</div>
+<div class="rail"><div class="phone"><div class="tag">P11 · Element — Metal</div><div class="pad dk-metal">
+    <div class="eyebrow">METAL · YOUR ENERGY</div>
+    <div class="hero"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_metal_1_w.png" alt="" onerror="this.style.display='none'"><div class="hc"><div class="reye">METAL · 34% OF YOUR CHART</div><div class="htitle">Metal in you</div></div></div>
+    <div class="badges"><span class="rb ">your core</span><span class="rb ">you</span></div>
+    <p class="lede">Metal is <b>you</b> — the self the other four energies turn around.</p>
+    <div class="layer"><div class="ll">What this energy is · R</div><p>Metal runs 34% of your chart — the loudest voice in it. It is your core, the lens the rest are read through — the part of you that carries identity, autonomy, and the standard you hold yourself to.</p><p>In the language of the chart, this is you — not pride alone, but the self the other four energies turn around.</p></div>
+    <div class="layer tinted"><div class="ll">How it moves in you · X</div><p>Metal runs alongside your Metal self — it is your own register. The two faces below are the two ways that material speaks — one reaching outward for the new, one holding and compounding what’s already yours.</p></div>
+  </div></div><div class="phone"><div class="tag">P11 · Element — Earth</div><div class="pad dk-earth">
+    <div class="eyebrow">EARTH · YOUR ENERGY</div>
+    <div class="hero"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_earth_1_w.png" alt="" onerror="this.style.display='none'"><div class="hc"><div class="reye">EARTH · 22% OF YOUR CHART</div><div class="htitle">Earth in you</div></div></div>
+    <div class="badges"><span class="rb up">↑ your catalyst</span><span class="rb ">support &amp; nourishment</span></div>
+    <p class="lede">Earth is <b>your support &amp; nourishment</b> — the ground you’re built on.</p>
+    <div class="layer"><div class="ll">What this energy is · R</div><p>Earth runs 22% of your chart — a real current in it. As your catalyst, it lifts you rather than drains you — the part of you that reaches for learning, care, and the roots that steady you.</p><p>In the language of the chart, this is your support &amp; nourishment — not comfort alone, but everything that feeds and restores you.</p></div>
+    <div class="layer tinted"><div class="ll">How it moves in you · X</div><p>Earth feeds your Metal self — it is the resource your nature draws on. The two faces below are the two ways that material speaks — one reaching outward for the new, one holding and compounding what’s already yours.</p></div>
+  </div></div><div class="phone"><div class="tag">P11 · Element — Water</div><div class="pad dk-water">
+    <div class="eyebrow">WATER · YOUR ENERGY</div>
+    <div class="hero"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_water_1_w.png" alt="" onerror="this.style.display='none'"><div class="hc"><div class="reye">WATER · 20% OF YOUR CHART</div><div class="htitle">Water in you</div></div></div>
+    <div class="badges"><span class="rb ">output &amp; expression</span></div>
+    <p class="lede">Water is <b>your output &amp; expression</b> — how you meet and remake the world.</p>
+    <div class="layer"><div class="ll">What this energy is · R</div><p>Water runs 20% of your chart — a real current in it. It runs quietly alongside the rest — the part of you that still reaches for making, voice, and the urge to put something into the world.</p><p>In the language of the chart, this is your output &amp; expression — not talent alone, but everything you shape and send outward.</p></div>
+    <div class="layer tinted"><div class="ll">How it moves in you · X</div><p>Your Metal self feeds Water — it is what flows out of you. The two faces below are the two ways that material speaks — one reaching outward for the new, one holding and compounding what’s already yours.</p></div>
+  </div></div><div class="phone"><div class="tag">P11 · Element — Wood</div><div class="pad dk-wood">
+    <div class="eyebrow">WOOD · YOUR ENERGY</div>
+    <div class="hero"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_wood_1_w.png" alt="" onerror="this.style.display='none'"><div class="hc"><div class="reye">WOOD · 16% OF YOUR CHART</div><div class="htitle">Wood in you</div></div></div>
+    <div class="badges"><span class="rb down">↓ your friction</span><span class="rb ">wealth &amp; desire</span></div>
+    <p class="lede">Wood is <b>your wealth &amp; desire</b> — everything you treat as worth having and keeping.</p>
+    <div class="layer"><div class="ll">What this energy is · R</div><p>Wood runs 16% of your chart — a real current in it. As your friction, it presses on you more than it lifts — the part of you that wrestles with value, growth, and the things worth having.</p><p>In the language of the chart, this is your wealth &amp; desire — not money alone, but everything you treat as worth acquiring and tending.</p></div>
+    <div class="layer tinted"><div class="ll">How it moves in you · X</div><p>Your Metal self shapes Wood — it is the material your nature is for. The two faces below are the two ways that material speaks — one reaching outward for the new, one holding and compounding what’s already yours.</p></div>
+  </div></div><div class="phone"><div class="tag">P11 · Element — Fire</div><div class="pad dk-fire">
+    <div class="eyebrow">FIRE · YOUR ENERGY</div>
+    <div class="hero"><img src="https://elementum.jiaxinxuyago.workers.dev/concept-arts/library/t_fire_1_w.png" alt="" onerror="this.style.display='none'"><div class="hc"><div class="reye">FIRE · 8% OF YOUR CHART</div><div class="htitle">Fire in you</div></div></div>
+    <div class="badges"><span class="rb ">authority &amp; structure</span></div>
+    <p class="lede">Fire is <b>your authority &amp; structure</b> — the structure you answer to and grow into.</p>
+    <div class="layer"><div class="ll">What this energy is · R</div><p>Fire runs 8% of your chart — a real current in it. It runs quietly alongside the rest — the part of you that still reaches for order, duty, and the structure worth answering to.</p><p>In the language of the chart, this is your authority &amp; structure — not control alone, but everything that tests you and steadies you.</p></div>
+    <div class="layer tinted"><div class="ll">How it moves in you · X</div><p>Fire presses on your Metal self — it is the force that tests you. The two faces below are the two ways that material speaks — one reaching outward for the new, one holding and compounding what’s already yours.</p></div>
+  </div></div></div>
+</body></html>
