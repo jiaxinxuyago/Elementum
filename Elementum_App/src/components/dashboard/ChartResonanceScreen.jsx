@@ -9,16 +9,13 @@
 // Entry: Profile "Discover your birth hour →" (unknown-hour charts).
 // ===================================================================
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
   useChart, resolveLongitudeForCalc, resolveLocationName, resolveGenderForCalc,
 } from '../../store/chartContext.jsx';
 import { calculateBaziChart } from '../../engine/index.js';
 import { Icon } from '../shared/icons';
-import {
-  ink, inkSoft, inkLight, bronzeDark, gold, silk,
-  paperHair, cardstockBg, withAlpha,
-} from '../../styles/tokens';
+import { ink, inkSoft, inkLight, bronzeDark, silk, paperHair, cardstockBg } from '../../styles/tokens';
 
 // 12 时辰 — branch · animal · clock window · representative hour · tags.
 const HOURS = [
@@ -91,7 +88,7 @@ export default function ChartResonanceScreen({ onBack, onDone }) {
         gender: resolveGenderForCalc(clean), longitude: resolveLongitudeForCalc(clean), location: resolveLocationName(clean),
       });
       setChart(chart);
-    } catch (e) { /* ErrorBoundary covers */ }
+    } catch { /* ErrorBoundary covers */ }
     onDone?.();
   };
 

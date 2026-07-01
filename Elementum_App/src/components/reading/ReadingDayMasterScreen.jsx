@@ -6,7 +6,6 @@
 // the catalogue; "Birth Chart" descends into the 八字 Pillar Chart (P5).
 // ===================================================================
 
-import React from 'react';
 import './reading.css';
 import ReadingDayMasterCard from './ReadingDayMasterCard.jsx';
 import { DM_READING, DM_READING_FALLBACK } from '../../content/reading/index.js';

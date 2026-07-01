@@ -7,7 +7,6 @@
 // Replaces the old ReadingScreen in place.
 // ===================================================================
 
-import React from 'react';
 import './reading.css';
 import EnergyCatalogue from './EnergyCatalogue.jsx';
 import { useReading } from './useReading.js';

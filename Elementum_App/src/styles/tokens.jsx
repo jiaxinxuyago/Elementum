@@ -20,7 +20,7 @@
 // (v1 §12 drift log items already resolved — borders are opaque, matching anchor.)
 // ===================================================================
 
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 import * as t from './tokens';
 
 // ---------- Palette · re-exported from tokens.js ----------

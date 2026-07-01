@@ -47,7 +47,6 @@ import ProfileScreen from './components/dashboard/tabs/ProfileScreen.jsx';
 // ── Code-split (Group E) ────────────────────────────────────────────────────
 // Secondary / heavier screens still load on demand, but are warmed by
 // prefetchScreens() on idle so they're cached before the user reaches them.
-const RawChartPage = lazy(() => import('./components/dashboard/RawChartPage.jsx'));
 const CodexScreen = lazy(() => import('./components/dashboard/CodexScreen.jsx'));
 const ChartResonanceScreen = lazy(() => import('./components/dashboard/ChartResonanceScreen.jsx'));
 const ElementalDrawScreen = lazy(() => import('./components/dashboard/ElementalDrawScreen.jsx'));
@@ -58,9 +57,7 @@ const DayPage = lazy(() => import('./components/dashboard/DayPage.jsx'));
 const MonthPage = lazy(() => import('./components/dashboard/MonthPage.jsx'));
 const YearPage = lazy(() => import('./components/dashboard/YearPage.jsx'));
 const DecadePage = lazy(() => import('./components/dashboard/DecadePage.jsx'));
-const EnergyMapScreen = lazy(() => import('./components/dashboard/EnergyMapScreen.jsx'));
 const ElementalNatureDetail = lazy(() => import('./components/dashboard/reading-detail/ElementalNatureDetail.jsx'));
-const DayMasterDetail = lazy(() => import('./components/dashboard/reading-detail/DayMasterDetail.jsx'));
 const TenGodsDetail = lazy(() => import('./components/dashboard/reading-detail/TenGodsDetail.jsx'));
 const ForcesInMotionDetail = lazy(() => import('./components/dashboard/reading-detail/ForcesInMotionDetail.jsx'));
 const LifeChaptersDetail = lazy(() => import('./components/dashboard/reading-detail/LifeChaptersDetail.jsx'));
@@ -71,7 +68,6 @@ const DevBar = lazy(() => import('./components/dev/DevBar.jsx'));
 const ReadingWheelPreview = lazy(() => import('./components/reading/ReadingWheelPreview.jsx'));
 const ReadingDayMasterScreen = lazy(() => import('./components/reading/ReadingDayMasterScreen.jsx'));
 const ReadingPillarChartScreen = lazy(() => import('./components/reading/ReadingPillarChartScreen.jsx'));
-const ReadingEnergyCardScreen = lazy(() => import('./components/reading/ReadingEnergyCardScreen.jsx'));
 const ReadingFacesScreen = lazy(() => import('./components/reading/ReadingFacesScreen.jsx'));
 const CompatFriendFlow = lazy(() => import('./components/dashboard/CompatFriendFlow.jsx'));
 
@@ -89,7 +85,6 @@ function prefetchScreens() {
   _prefetchedScreens = true;
   const run = () => {
     Promise.all([
-      import('./components/dashboard/RawChartPage.jsx'),
       import('./components/dashboard/CodexScreen.jsx'),
       import('./components/dashboard/ChartResonanceScreen.jsx'),
       import('./components/dashboard/ElementalDrawScreen.jsx'),
@@ -100,9 +95,7 @@ function prefetchScreens() {
       import('./components/dashboard/MonthPage.jsx'),
       import('./components/dashboard/YearPage.jsx'),
       import('./components/dashboard/DecadePage.jsx'),
-      import('./components/dashboard/EnergyMapScreen.jsx'),
       import('./components/dashboard/reading-detail/ElementalNatureDetail.jsx'),
-      import('./components/dashboard/reading-detail/DayMasterDetail.jsx'),
       import('./components/dashboard/reading-detail/TenGodsDetail.jsx'),
       import('./components/dashboard/reading-detail/ForcesInMotionDetail.jsx'),
       import('./components/dashboard/reading-detail/LifeChaptersDetail.jsx'),
@@ -346,9 +339,6 @@ export default function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // Linear-forward helper — skips any screen not matched by the named chain.
-  const advance = (current, to) => () => setScreen(to);
-
   const goto = (name) => () => setScreen(name);
 
   // Maps a BottomTabNav key ('today', 'guidance', 'reading', 'compat',
@@ -384,7 +374,7 @@ export default function App() {
     return <Suspense fallback={null}><ReadingWheelPreview /></Suspense>;
   }
 
-  let rendered = null;
+  let rendered;
   switch (screen) {
     case 'welcome':
       rendered = <WelcomeScreen onContinue={goto('step1')} />;

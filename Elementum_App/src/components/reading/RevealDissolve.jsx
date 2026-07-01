@@ -17,7 +17,7 @@
 //   scroll to read the shelf). Honors reduced-motion.
 // ===================================================================
 
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { animate } from 'framer-motion';
 import DominanceWheel from './DominanceWheel.jsx';
 import EnergyShelf from './EnergyShelf.jsx';

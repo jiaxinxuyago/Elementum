@@ -9,8 +9,6 @@
 // identity is the free hook.
 // ===================================================================
 
-import React from 'react';
-
 export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, claims, edge, onBack, onBirthChart }) {
   return (
     <div className="reading-fill">

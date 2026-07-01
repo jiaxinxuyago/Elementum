@@ -9,7 +9,7 @@
 // Compatibility tab, which renders the result.
 // ===================================================================
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
   useChart,
   resolveHourForCalc,

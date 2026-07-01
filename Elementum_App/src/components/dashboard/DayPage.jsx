@@ -7,7 +7,6 @@
 // here, reachable by tapping the featured Day tile on the hub.
 // ===================================================================
 
-import React from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { getDailyGuidance, tgPersona } from '../../content/index.js';
 import { Icon, ElementMark } from '../shared/icons';

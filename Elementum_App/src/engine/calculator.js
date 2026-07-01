@@ -309,7 +309,6 @@ export function computeDMStrength(pillars, dmStem, bondedDMStems = new Set()) {
     }
     return false;
   };
-  const allBranches = [pillars.year.branch,pillars.month.branch,pillars.day.branch,pillars.hour.branch];
   const gotDi = Object.keys(branchAt).some(pos =>
     (HIDDEN_STEMS[branchAt[pos]]||[]).some(h=>h.e===dmEl) && !uprooted(pos));
   const nonDMStems = [pillars.year.stem,pillars.month.stem,pillars.hour.stem];

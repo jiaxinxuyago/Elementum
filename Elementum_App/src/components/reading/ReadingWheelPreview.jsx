@@ -3,7 +3,7 @@
 // start frame) and resolves to P3 (the catalogue end frame). Scroll
 // inside the phone to scrub the transition. Computes the real reference
 // chart. Not a product screen.
-import React, { useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import './reading.css';
 import ReadingSprite from './ReadingSprite.jsx';
 import RevealDissolve from './RevealDissolve.jsx';

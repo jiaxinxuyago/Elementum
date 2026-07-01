@@ -17,7 +17,6 @@
 //   </DashboardShell>
 // ===================================================================
 
-import React from 'react';
 import PageBg from '../shared/PageBg.jsx';
 import CloudVeilBackground from '../guidance/CloudVeilBackground.jsx';
 import { silk } from '../../styles/tokens';
@@ -32,7 +31,7 @@ const TAB_BAR_HEIGHT = 'calc(76px + env(safe-area-inset-bottom, 0px))';
 // `veil` — when true, renders the ink-wash CloudVeilBackground (screens-v2 §5C)
 // at the z0 background layer instead of a painted PageBg plate. Used by the
 // Guidance feature screens, whose <main> is transparent so the mist shows through.
-export default function DashboardShell({ active, onTabChange, children, background = silk, bg, veil = false }) {
+export default function DashboardShell({ children, background = silk, bg, veil = false }) {
   return (
     <div
       style={{

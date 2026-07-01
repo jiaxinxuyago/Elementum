@@ -7,8 +7,8 @@
 // recalibrated." Persists in localStorage.
 // ===================================================================
 
-import React, { useState } from 'react';
-import { Icon } from '../shared/icons';
+import { useState } from 'react';
+
 import { useChart, SELF_REPORT_PRICE } from '../../store/chartContext.jsx';
 import { useUpgrade } from './UpgradeModal.jsx';
 import HorizonHeader from '../guidance/HorizonHeader.jsx';
@@ -35,13 +35,11 @@ export default function SelfReportScreen({ onBack }) {
 
   const save = () => {
     const at = new Date().toISOString().slice(0, 10);
-    try { localStorage.setItem(KEY, JSON.stringify({ chapter, domains, context, at })); } catch {}
+    try { localStorage.setItem(KEY, JSON.stringify({ chapter, domains, context, at })); } catch { /* storage unavailable — ignore */ }
     setSavedAt(at);
     setJustSaved(true);
     setTimeout(() => setJustSaved(false), 2600);
   };
-
-  const pig = pigments.metal.deep;
 
   return (
     <main style={{ minHeight: '100%', padding: '54px 20px 24px' }}>

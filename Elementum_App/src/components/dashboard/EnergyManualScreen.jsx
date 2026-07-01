@@ -11,10 +11,9 @@
 // localStorage. Advisor sees an "Ask your consultant" link per domain.
 // ===================================================================
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { STEM_CARD_DATA, TG_CARD_DATA } from '../../content/index.js';
-import { Icon } from '../shared/icons';
 import HorizonHeader from '../guidance/HorizonHeader.jsx';
 import {
   ink, inkSoft, inkLight, bronzeDark, silk,
@@ -74,7 +73,7 @@ export default function EnergyManualScreen({ onBack, onOpenConsultant }) {
 
   const generate = () => {
     const s = { domains: picked, focus, at: new Date().toISOString().slice(0, 10) };
-    try { localStorage.setItem(SETUP_KEY, JSON.stringify(s)); } catch {}
+    try { localStorage.setItem(SETUP_KEY, JSON.stringify(s)); } catch { /* storage unavailable — ignore */ }
     setSetup(s);
     setDomain(picked[0] || 'career');
   };
@@ -169,25 +168,6 @@ export default function EnergyManualScreen({ onBack, onOpenConsultant }) {
   );
 }
 
-function BackLink({ onBack }) {
-  return (
-    <button type="button" onClick={onBack} style={{
-      appearance: 'none', background: 'transparent', border: 'none', color: inkLight, cursor: 'pointer',
-      padding: 0, marginBottom: 12, display: 'inline-flex', alignItems: 'center', gap: 6,
-      fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13,
-    }}>
-      <Icon id="ico-chev-l" size={15} color={inkLight} /> Guidance
-    </button>
-  );
-}
-function Header({ sub, title }) {
-  return (
-    <header style={{ marginBottom: 18 }}>
-      <span style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase', color: bronzeDark, fontWeight: 500 }}>{sub}</span>
-      <h1 style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 34, fontWeight: 400, lineHeight: 1.1, color: ink, margin: '6px 0 0' }}>{title}</h1>
-    </header>
-  );
-}
 function Section({ pig, label, children }) {
   return (
     <section style={{ background: cardstockBg, border: `1px solid ${paperHair}`, borderRadius: 16, padding: '18px', marginBottom: 14 }}>

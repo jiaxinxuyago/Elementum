@@ -32,8 +32,6 @@
 // Both honour the host `color` prop transparently.
 // ===================================================================
 
-import React from 'react';
-
 export default function Icon({
   id,
   size = 24,

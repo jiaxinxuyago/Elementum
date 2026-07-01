@@ -14,7 +14,6 @@
 // Data source: chart.tenGods + TG_CARD_DATA[tgZh].
 // ===================================================================
 
-import React from 'react';
 import DetailShell from './DetailShell.jsx';
 import { useChart } from '../../../store/chartContext.jsx';
 import { TG_CARD_DATA, tgPersona } from '../../../content/index.js';

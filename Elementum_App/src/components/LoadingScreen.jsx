@@ -9,7 +9,7 @@
 // Reveal, which fades the same white out so the plate emerges from it.
 // ===================================================================
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import {
   INK,
   INK_LIGHT,

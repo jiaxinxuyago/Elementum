@@ -27,12 +27,6 @@
 // "PLACEHOLDER" through the UI). So for those screens we render a CSS
 // `gradient` that honours the entry's documented composition intent, and
 // switch `gradient` → `src` once the real PNG lands at the same filename.
-// Atmospheric ink-wash scenery (lightweight, ~300–450KB) used as subtle
-// low-opacity page backgrounds (DOC5 §20 opacity ladder). Each dashboard
-// tab gets a fitting scene + position + optional warm/cool wash.
-const MIST_5 = '/concept-arts/atmospheric/atmospheric-5-layer.png'; // layered ridges, panoramic
-const MIST_3 = '/concept-arts/atmospheric/atmospheric-3-layer.png'; // quieter, 3-layer
-
 // v7 scenery-margin PLATES (Rendered Screens v2). Each screen sits on a
 // composed-silk plate — cream + grain + painted scenery baked into the
 // margins, UI in the quiet center zone. The plate PNGs are the finished

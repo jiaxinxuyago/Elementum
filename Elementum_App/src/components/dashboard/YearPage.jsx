@@ -11,10 +11,7 @@ import { yearEnergy, energyContext } from '../../engine/index.js';
 import { Icon } from '../shared/icons';
 import { SceneHero } from './VisualTile.jsx';
 import { elementArt } from '../../styles/backgrounds.js';
-import {
-  ink, inkSoft, inkLight, bronzeDark, gold,
-  paperHair, cardstockBg, pigments, withAlpha,
-} from '../../styles/tokens';
+import { ink, inkLight, bronzeDark, gold, paperHair, cardstockBg, pigments, withAlpha } from '../../styles/tokens';
 
 const YEAR_TITLE = {
   Metal: 'A year to sharpen',

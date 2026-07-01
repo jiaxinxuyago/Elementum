@@ -8,11 +8,10 @@
 // onto this exact composition. Tab bar is icons-only, no seal-dot (AM.2).
 // ===================================================================
 
-import React from 'react';
 import DominanceWheel from './DominanceWheel.jsx';
 import EnergyShelf from './EnergyShelf.jsx';
 
-export default function EnergyCatalogue({ energies, dayMaster, glyph, archetype, selected, onSelect, onRead, onSeal, onPillarChart, tilde }) {
+export default function EnergyCatalogue({ energies, dayMaster, glyph, archetype, selected, onSelect, onRead, onSeal, tilde }) {
   return (
     <div className="reading-fill">
       <img className="ground-img bg-energy" src="/backgrounds/bg-energymap-01-top-band.png" alt="" />

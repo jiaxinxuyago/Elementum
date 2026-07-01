@@ -12,18 +12,13 @@
 // for all and mark future decades Seeker-locked at Free tier.
 // ===================================================================
 
-import React from 'react';
 import DetailShell from './DetailShell.jsx';
 import { useChart } from '../../../store/chartContext.jsx';
 import { energyContext } from '../../../engine/index.js';
 import { Icon } from '../../shared/icons';
-import { readingDetailBg, elementArt } from '../../../styles/backgrounds.js';
+import { elementArt } from '../../../styles/backgrounds.js';
 import { tgPersona } from '../../../content/index.js';
-import {
-  ink, inkSoft, inkLight, bronzeDark, gold,
-  paperHair, cardstockBg, quietBg, quietBorder,
-  pigments, withAlpha,
-} from '../../../styles/tokens';
+import { ink, inkSoft, inkLight, gold, paperHair, cardstockBg, quietBg, quietBorder, pigments, withAlpha } from '../../../styles/tokens';
 
 const ELEMENT_TO_PIGMENT = {
   Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water',

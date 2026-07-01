@@ -16,7 +16,6 @@
 //   - Element icon muted when count === 0
 // ===================================================================
 
-import React from 'react';
 import {
   INK_SOFT, INK_LIGHT,
   BORDER_LIGHT,

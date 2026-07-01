@@ -11,8 +11,6 @@
 // Accepts a stem as hanzi (庚) or pinyin (geng).
 // ===================================================================
 
-import React from 'react';
-
 const STEM_TO_PINYIN = {
   '甲': 'jia',  '乙': 'yi',
   '丙': 'bing', '丁': 'ding',

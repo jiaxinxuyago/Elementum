@@ -15,7 +15,6 @@
 // family counts across the visible pillars and draw proportional arcs.
 // ===================================================================
 
-import React from 'react';
 import { inkLight, inkSoft } from '../../styles/tokens';
 
 // Calculator family → role meta (label + DOC5 role color).

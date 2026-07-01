@@ -6,8 +6,6 @@
 // D13 surface; components reference them with <use href="#el-metal"> etc.
 // ===================================================================
 
-import React from 'react';
-
 export default function ReadingSprite() {
   return (
     <svg width="0" height="0" style={{ position: 'absolute' }} aria-hidden="true"><defs>

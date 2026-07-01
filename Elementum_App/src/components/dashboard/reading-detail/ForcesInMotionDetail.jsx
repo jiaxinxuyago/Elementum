@@ -8,17 +8,13 @@
 // (manual.* paragraphs are authored per stem, in the Day Master's register.)
 // ===================================================================
 
-import React from 'react';
 import DetailShell from './DetailShell.jsx';
 import { useChart } from '../../../store/chartContext.jsx';
 import { STEM_CARD_DATA } from '../../../content/index.js';
 import { energyContext } from '../../../engine/index.js';
 import { ElementMark } from '../../shared/icons';
-import { readingDetailBg, elementArt } from '../../../styles/backgrounds.js';
-import {
-  ink, inkSoft, inkLight, bronzeDark, paperHair, cardstockBg,
-  pigments, withAlpha,
-} from '../../../styles/tokens';
+import { elementArt } from '../../../styles/backgrounds.js';
+import { ink, inkSoft, paperHair, cardstockBg, pigments, withAlpha } from '../../../styles/tokens';
 
 const ELEMENT_TO_PIGMENT = {
   Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water',

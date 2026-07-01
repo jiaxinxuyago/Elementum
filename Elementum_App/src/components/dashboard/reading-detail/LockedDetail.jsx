@@ -14,14 +14,10 @@
 // Spec: DOC5 §AM.5 dashed-border affordance for scaffold states.
 // ===================================================================
 
-import React from 'react';
 import DetailShell from './DetailShell.jsx';
 import { Icon } from '../../shared/icons';
 import { readingDetailBg } from '../../../styles/backgrounds.js';
-import {
-  ink, inkSoft, inkLight, inkMist,
-  paperHair, bronzeDark,
-} from '../../../styles/tokens';
+import { inkSoft, inkLight, inkMist, paperHair } from '../../../styles/tokens';
 
 export default function LockedDetail({
   onBack,

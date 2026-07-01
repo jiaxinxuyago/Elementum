@@ -8,8 +8,6 @@
 // Faithful port of the wireframe P1 markup. No CJK in Part 1.
 // ===================================================================
 
-import React from 'react';
-
 export default function RevealPlate({
   dayMaster,          // stem id → /concept-arts/stems/<id>.png
   archetype,          // "The Blade"

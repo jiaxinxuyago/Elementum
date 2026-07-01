@@ -12,7 +12,6 @@
 // All 10 stems populate these fields (depth varies — 庚 is canonical).
 // ===================================================================
 
-import React from 'react';
 import DetailShell from './DetailShell.jsx';
 import { useChart } from '../../../store/chartContext.jsx';
 import { STEM_CARD_DATA, resolveArchetype, resolveBlock } from '../../../content/index.js';

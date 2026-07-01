@@ -18,8 +18,6 @@
 // 20px → sidePad 20; the hub pads 18px but bleeds 22px → sidePad 22).
 // ===================================================================
 
-import React from 'react';
-
 const SILK = 'rgb(241,233,214)';
 const INK = 'rgb(43,39,34)';
 const RULE = 'rgb(160,64,48)';      // chop-mark red eyebrow rule

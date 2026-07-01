@@ -17,7 +17,7 @@
 //   · Pressed: transform scale(0.96)
 // ===================================================================
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { TabIcon } from '../shared/icons';
 import { ink, inkLight, borderLight } from '../../styles/tokens';
 

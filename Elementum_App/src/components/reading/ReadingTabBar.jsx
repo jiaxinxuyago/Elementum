@@ -16,7 +16,6 @@
 // global D13 sprite (rendered once in App) supplies the #tab-* glyphs.
 // ===================================================================
 
-import React from 'react';
 import './reading.css';
 
 // Locked order — DOC5 §AM.2. The keys are the routeTab() tab keys.

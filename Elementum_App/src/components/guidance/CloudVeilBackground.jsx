@@ -12,8 +12,6 @@
 // guidance hub headers in Design/exports/.../screens-v2.
 // ===================================================================
 
-import React from 'react';
-
 export default function CloudVeilBackground() {
   return (
     <div aria-hidden="true" style={{ position: 'absolute', inset: 0, zIndex: 0, pointerEvents: 'none' }}>

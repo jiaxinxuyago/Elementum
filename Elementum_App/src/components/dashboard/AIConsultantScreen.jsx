@@ -8,15 +8,12 @@
 // is preloaded.
 // ===================================================================
 
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { STEM_CARD_DATA } from '../../content/index.js';
 import { Icon } from '../shared/icons';
 import HorizonHeader from '../guidance/HorizonHeader.jsx';
-import {
-  ink, inkSoft, inkLight, bronzeDark, silk, cream,
-  paperHair, quietBg, advisor, withAlpha,
-} from '../../styles/tokens';
+import { ink, inkSoft, inkLight, bronzeDark, silk, cream, paperHair, quietBg } from '../../styles/tokens';
 
 const SELF_REPORT_KEY = 'elementum_selfreport_v1';
 function readSelfReport() { try { return JSON.parse(localStorage.getItem(SELF_REPORT_KEY) || 'null'); } catch { return null; } }
