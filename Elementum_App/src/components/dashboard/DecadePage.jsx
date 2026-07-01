@@ -1,3 +1,4 @@
+import PanelCard from '../shared/PanelCard.jsx';
 import BackBar from '../shared/BackBar.jsx';
 // ===================================================================
 // ELEMENTUM · DecadePage  (hub → destination, Today tab drill-down)
@@ -11,7 +12,7 @@ import { useChart } from '../../store/chartContext.jsx';
 
 import { SceneHero } from './VisualTile.jsx';
 import { elementArt } from '../../styles/backgrounds.js';
-import { ink, inkSoft, inkLight, bronzeDark, paperHair, cardstockBg, pigments } from '../../styles/tokens';
+import { ink, inkSoft, inkLight, paperHair, pigments } from '../../styles/tokens';
 
 const GOVERNS = {
   Metal: 'A decade that asks for refinement — strip what doesn\'t serve, sharpen what does. Reputation built on accuracy compounds now.',
@@ -82,7 +83,7 @@ export default function DecadePage({ onBack }) {
       </div>
 
       {/* The Ten-Year Arc — you-are-here */}
-      <SectionCard label="The Ten-Year Arc" style={{ marginTop: 10 }}>
+      <PanelCard label="The Ten-Year Arc" style={{ marginTop: 10 }}>
         <Arc progress={progress} pig={pigments[el.toLowerCase()]} />
         <div style={{
           display: 'flex', justifyContent: 'space-between', marginTop: 6, padding: '0 2px',
@@ -91,20 +92,20 @@ export default function DecadePage({ onBack }) {
           <Mark year={now} age={nowAge} now />
           <Mark year={decade.endYear} age={decade.endAge} right />
         </div>
-      </SectionCard>
+      </PanelCard>
 
       {/* What This Chapter Governs */}
-      <SectionCard label="What This Chapter Governs" style={{ marginTop: 10 }}>
+      <PanelCard label="What This Chapter Governs" style={{ marginTop: 10 }}>
         <p style={{
           fontFamily: "'Cormorant Garamond', Georgia, serif",
           fontSize: 14.5, lineHeight: 1.55, color: ink, margin: 0,
         }}>
           {el} over {dmEl}: {GOVERNS[el] || GOVERNS.Metal}
         </p>
-      </SectionCard>
+      </PanelCard>
 
       {/* Three Phases */}
-      <SectionCard label="Three Phases" style={{ marginTop: 10 }}>
+      <PanelCard label="Three Phases" style={{ marginTop: 10 }}>
         {phaseRows.map((r, i) => (
           <div key={i} style={{
             display: 'flex', alignItems: 'baseline', gap: 12,
@@ -123,7 +124,7 @@ export default function DecadePage({ onBack }) {
             }}>{r.label}{r.isNow ? '  · now' : ''}</span>
           </div>
         ))}
-      </SectionCard>
+      </PanelCard>
     </main>
   );
 }
@@ -171,21 +172,6 @@ function Mark({ year, age, now, right }) {
   );
 }
 
-function SectionCard({ label, children, style }) {
-  return (
-    <section style={{
-      background: cardstockBg, border: `1px solid ${paperHair}`,
-      borderRadius: 12, padding: 12, ...(style || {}),
-    }}>
-      <div style={{
-        fontFamily: "'EB Garamond', Georgia, serif",
-        fontSize: 10, letterSpacing: 2, textTransform: 'uppercase',
-        color: bronzeDark, fontWeight: 500, marginBottom: 10,
-      }}>{label}</div>
-      {children}
-    </section>
-  );
-}
 
 
 function ScaffoldEmpty({ onBack }) {
