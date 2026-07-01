@@ -115,23 +115,28 @@ export default function SelfReportScreen({ onBack }) {
   );
 }
 
+// Bulleted feature line. Module-scope so it isn't re-created on every render
+// (react-hooks/static-components). Uses the fixed water pigment.
+function Bullet({ children }) {
+  return (
+    <div style={{
+      display: 'flex', gap: 9, alignItems: 'flex-start', marginBottom: 8,
+      fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13.5, lineHeight: 1.5, color: inkSoft,
+    }}>
+      <span aria-hidden="true" style={{
+        flexShrink: 0, marginTop: 7, width: 4, height: 4, borderRadius: 999, background: pigments.water.deep, opacity: 0.7,
+      }} />
+      <span>{children}</span>
+    </div>
+  );
+}
+
 // One-time purchase gate (DOC5 §19). Shown until the Self-Report add-on is
 // owned. Seekers get the $6.99 one-time buy; Free users are routed to upgrade
 // first (Self-Report is a Seeker add-on).
 function PurchaseGate({ tier, onBuy, onUpgrade }) {
   const isSeeker = tier === 'seeker' || tier === 'advisor';
   const pig = pigments.water.deep;
-  const Bullet = ({ children }) => (
-    <div style={{
-      display: 'flex', gap: 9, alignItems: 'flex-start', marginBottom: 8,
-      fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13.5, lineHeight: 1.5, color: inkSoft,
-    }}>
-      <span aria-hidden="true" style={{
-        flexShrink: 0, marginTop: 7, width: 4, height: 4, borderRadius: 999, background: pig, opacity: 0.7,
-      }} />
-      <span>{children}</span>
-    </div>
-  );
   return (
     <div>
       <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14, lineHeight: 1.6, color: inkSoft, margin: '0 0 18px' }}>
