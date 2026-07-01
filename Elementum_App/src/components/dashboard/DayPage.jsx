@@ -9,8 +9,7 @@
 
 import React from 'react';
 import { useChart } from '../../store/chartContext.jsx';
-import { getDailyGuidance } from '../../content/dailyGuidance.js';
-import { tgPersona } from '../../content/tgNames.js';
+import { getDailyGuidance, tgPersona } from '../../content/index.js';
 import { Icon, ElementMark } from '../shared/icons';
 import { SceneHero } from './VisualTile.jsx';
 import { elementArt } from '../../styles/backgrounds.js';

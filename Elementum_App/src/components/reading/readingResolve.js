@@ -13,10 +13,7 @@
 // Internal Ten-God vocabulary never surfaces; only the persona names do.
 // ===================================================================
 
-import { STEM_CARD_DATA } from '../../content/archetypeSource.js';
-import { TG_CARD_DATA } from '../../content/archetypeSource.js';
-import { TG_PERSONA } from '../../content/tgNames.js';
-import { resolveArchetype } from '../../content/resolveVariant.js';
+import { STEM_CARD_DATA, TG_CARD_DATA, TG_PERSONA, resolveArchetype } from '../../content/index.js';
 
 // element generation (sheng) + control (ke) cycles
 const GEN = { wood: 'fire', fire: 'earth', earth: 'metal', metal: 'water', water: 'wood' };

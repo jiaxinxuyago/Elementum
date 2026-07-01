@@ -34,7 +34,7 @@ import {
 import { useChart } from '../store/chartContext.jsx';
 // Per DOC4 §1: archetypeSource.js is the single source of truth for all reading content.
 // Imported with an alias to reserve STEM_CARD_DATA for the variant file (DOC8 pattern).
-import { STEM_CARD_DATA as STEM_BASELINES } from '../content/archetypeSource.js';
+import { STEM_CARD_DATA as STEM_BASELINES } from '../content/index.js';
 // Shared chart visualization — also used by Energy Map dashboard so both
 // surfaces render IDENTICALLY from the same chart data.
 import EnergyBlueprint, { buildComposition } from './shared/EnergyBlueprint.jsx';

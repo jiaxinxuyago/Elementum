@@ -3,9 +3,9 @@
 // toast for Handoff-2 destinations not yet wired in.
 import { useMemo, useState, useEffect, useCallback } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
-import { buildEnergyChart } from '../../engine/buildEnergyChart.js';
+import { buildEnergyChart } from '../../engine/index.js';
 import { buildIdentity } from './d13Identity.js';
-import { STEM_CARD_DATA } from '../../content/archetypeSource.js';
+import { STEM_CARD_DATA } from '../../content/index.js';
 
 export function useReading() {
   const { chart, birthData } = useChart();

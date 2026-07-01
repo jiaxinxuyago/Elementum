@@ -7,7 +7,7 @@ import {
   resolveLongitudeForCalc,
   resolveLocationName,
 } from './store/chartContext.jsx';
-import { calculateBaziChart } from './engine/calculator.js';
+import { calculateBaziChart } from './engine/index.js';
 import WelcomeScreen from './components/onboarding/WelcomeScreen.jsx';
 import {
   Step1_Year,

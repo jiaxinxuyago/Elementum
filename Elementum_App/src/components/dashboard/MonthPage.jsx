@@ -7,7 +7,7 @@
 
 import React from 'react';
 import { useChart } from '../../store/chartContext.jsx';
-import { monthGrid, flowWindows } from '../../engine/temporal.js';
+import { monthGrid, flowWindows } from '../../engine/index.js';
 import { Icon } from '../shared/icons';
 import { SceneHero } from './VisualTile.jsx';
 import { elementArt } from '../../styles/backgrounds.js';

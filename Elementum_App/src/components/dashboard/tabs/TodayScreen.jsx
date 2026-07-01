@@ -21,7 +21,7 @@
 
 import React from 'react';
 import { useChart } from '../../../store/chartContext.jsx';
-import { getDailyGuidance } from '../../../content/dailyGuidance.js';
+import { getDailyGuidance } from '../../../content/index.js';
 import { elementArt, stemArt, tileArt, heroArt, dedupeArt } from '../../../styles/backgrounds.js';
 import { MoodboardArt } from '../VisualTile.jsx';
 import { Icon, ElementMark } from '../../shared/icons';

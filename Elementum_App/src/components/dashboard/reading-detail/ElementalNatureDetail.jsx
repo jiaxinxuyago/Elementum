@@ -15,9 +15,8 @@
 import React from 'react';
 import DetailShell from './DetailShell.jsx';
 import { useChart } from '../../../store/chartContext.jsx';
-import { STEM_CARD_DATA } from '../../../content/archetypeSource.js';
+import { STEM_CARD_DATA, resolveArchetype, resolveBlock } from '../../../content/index.js';
 import { readingDetailBg, elementArt } from '../../../styles/backgrounds.js';
-import { resolveArchetype, resolveBlock } from '../../../content/resolveVariant.js';
 import {
   ink, inkSoft, inkLight, paperHair,
   pigments, cardstockBg, withAlpha,

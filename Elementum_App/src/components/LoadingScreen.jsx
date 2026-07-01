@@ -28,7 +28,7 @@ import {
   resolveLongitudeForCalc,
   resolveLocationName,
 } from '../store/chartContext.jsx';
-import { calculateBaziChart } from '../engine/calculator.js';
+import { calculateBaziChart } from '../engine/index.js';
 
 // Ceremonial handoff timing — DOC5 §8 → §9
 const SPOT_MS = 820;          // each energy's moment in the front spotlight

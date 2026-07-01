@@ -13,7 +13,7 @@ import React, { useState } from 'react';
 import {
   useChart, resolveLongitudeForCalc, resolveLocationName, resolveGenderForCalc,
 } from '../../store/chartContext.jsx';
-import { calculateBaziChart } from '../../engine/calculator.js';
+import { calculateBaziChart } from '../../engine/index.js';
 import { Icon } from '../shared/icons';
 import {
   ink, inkSoft, inkLight, bronzeDark, gold, silk,

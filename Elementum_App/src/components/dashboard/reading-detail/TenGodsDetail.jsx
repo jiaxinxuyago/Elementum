@@ -17,8 +17,7 @@
 import React from 'react';
 import DetailShell from './DetailShell.jsx';
 import { useChart } from '../../../store/chartContext.jsx';
-import { TG_CARD_DATA } from '../../../content/archetypeSource.js';
-import { tgPersona } from '../../../content/tgNames.js';
+import { TG_CARD_DATA, tgPersona } from '../../../content/index.js';
 import TGRing from '../TGRing.jsx';
 import { readingDetailBg, elementArt } from '../../../styles/backgrounds.js';
 import {

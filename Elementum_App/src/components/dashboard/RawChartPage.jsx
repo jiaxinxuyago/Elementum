@@ -18,7 +18,7 @@
 import React from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { Icon } from '../shared/icons';
-import { tgPersona } from '../../content/tgNames.js';
+import { tgPersona } from '../../content/index.js';
 import {
   ink, inkSoft, inkLight, bronzeDark, silk,
   paperHair, cardstockBg, pigments,

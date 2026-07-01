@@ -10,7 +10,7 @@
 // ===================================================================
 
 import React, { useMemo } from 'react';
-import { GEOM, applyDominanceRules, nodePos } from '../../engine/dominanceWheel.js';
+import { GEOM, applyDominanceRules, nodePos } from '../../engine/index.js';
 
 const NM = { metal: 'Metal · core', earth: 'Earth', water: 'Water', wood: 'Wood', fire: 'Fire' };
 

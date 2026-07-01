@@ -7,7 +7,7 @@
 
 import React from 'react';
 import { useChart } from '../../store/chartContext.jsx';
-import { yearEnergy, energyContext } from '../../engine/temporal.js';
+import { yearEnergy, energyContext } from '../../engine/index.js';
 import { Icon } from '../shared/icons';
 import { SceneHero } from './VisualTile.jsx';
 import { elementArt } from '../../styles/backgrounds.js';

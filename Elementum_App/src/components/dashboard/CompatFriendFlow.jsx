@@ -17,9 +17,8 @@ import {
   resolveLongitudeForCalc,
   resolveLocationName,
 } from '../../store/chartContext.jsx';
-import { calculateBaziChart } from '../../engine/calculator.js';
-import { computeCompatibility } from '../../engine/compatibility.js';
-import { STEM_CARD_DATA } from '../../content/archetypeSource.js';
+import { calculateBaziChart, computeCompatibility } from '../../engine/index.js';
+import { STEM_CARD_DATA } from '../../content/index.js';
 import {
   FriendYear, FriendMonth, FriendDay, FriendHour, FriendHourWindow, FriendCurrent,
 } from './CompatFriendSteps.jsx';

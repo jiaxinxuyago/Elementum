@@ -7,8 +7,7 @@ import React, { useMemo, useState } from 'react';
 import './reading.css';
 import ReadingSprite from './ReadingSprite.jsx';
 import RevealDissolve from './RevealDissolve.jsx';
-import { calculateBaziChart } from '../../engine/calculator.js';
-import { buildEnergyChart } from '../../engine/buildEnergyChart.js';
+import { calculateBaziChart, buildEnergyChart } from '../../engine/index.js';
 
 const BLADE_IDENTITY = {
   archetype: 'The Blade',

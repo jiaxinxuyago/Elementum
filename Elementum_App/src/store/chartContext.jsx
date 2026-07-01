@@ -7,7 +7,7 @@
 // ===================================================================
 
 import React, { createContext, useContext, useState, useEffect, useMemo, useCallback } from 'react';
-import { calculateBaziChart, ENGINE_VERSION } from '../engine/calculator.js';
+import { calculateBaziChart, ENGINE_VERSION } from '../engine/index.js';
 
 const ChartContext = createContext(null);
 

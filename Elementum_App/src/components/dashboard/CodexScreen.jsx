@@ -17,7 +17,7 @@ import { useChart } from '../../store/chartContext.jsx';
 import { useUpgrade } from './UpgradeModal.jsx';
 import { Icon } from '../shared/icons';
 import HorizonHeader from '../guidance/HorizonHeader.jsx';
-import { tgPersona } from '../../content/tgNames.js';
+import { tgPersona } from '../../content/index.js';
 import {
   ink, inkSoft, inkLight, bronzeDark, gold,
   paperHair, cardstockBg, withAlpha,
