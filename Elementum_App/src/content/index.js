@@ -5,10 +5,10 @@
 // Depends on `@/engine` (for band resolution) and `@/contract` (schema) only.
 // UI consumers import from here (`@/content`); never deep-import a source file.
 //
-// Curated (not `export *`) on purpose: STEM_CARD_DATA is defined in BOTH
-// archetypeSource.js (the component-facing card data, exported here) and the
-// internal STEM_CARD_DATA.js variant lookup (kept private to resolveVariant).
-// See TODO(rule-4): rename the internal lookup to kill the name overload.
+// Curated (not `export *`) on purpose: STEM_CARD_DATA (component-facing card
+// data) is exported here from archetypeSource.js. The internal band×pattern
+// variant lookup lives in stemVariants.js as STEM_VARIANTS (kept private to
+// resolveVariant) — deliberately a distinct name to avoid overloading.
 // ─────────────────────────────────────────────────────────────────────────────
 
 // Archetype card data

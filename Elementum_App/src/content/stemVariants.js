@@ -1,5 +1,5 @@
 // ═══════════════════════════════════════════════════════════════════════════
-// STEM_CARD_DATA.js — Pre-generated archetype variant data
+// stemVariants.js — Pre-generated archetype variant data (STEM_VARIANTS)
 // 150 entries keyed by stem_band_tgPattern (e.g. "庚_concentrated_pure")
 //
 // Fields per entry (Pipeline A output):
@@ -16,7 +16,7 @@
 // Phase 2 — Pipeline A: remaining 135 yourNature.desc + all gifts/shadows variants
 // ═══════════════════════════════════════════════════════════════════════════
 
-export const STEM_CARD_DATA = {
+export const STEM_VARIANTS = {
 
   // ══════════════════════════════════════════════════════════════════════════
   // 庚 — The Imperial Executioner (Yang Metal · The Blade)
