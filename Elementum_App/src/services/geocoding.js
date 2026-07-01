@@ -9,7 +9,9 @@
 // module returns an empty array on failure; it never throws.
 // ===================================================================
 
-const ENDPOINT = 'https://geocoding-api.open-meteo.com/v1/search';
+import { GEOCODING } from '../infra/index.js';
+
+const ENDPOINT = GEOCODING.search;
 const DEFAULT_COUNT = 5;
 
 /**

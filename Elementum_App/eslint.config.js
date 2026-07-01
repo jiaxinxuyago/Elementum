@@ -46,6 +46,8 @@ export default defineConfig([
               '**/content/reading/surfaceContent.js',
               '**/content/reading/facesContent.js',
               '**/content/reading/readingContent.js',
+              // infra — import from infra/index.js
+              '**/infra/endpoints.js', '**/infra/links.js',
             ],
             message:
               'Cross-chunk deep import. Import from the chunk barrel instead ' +
