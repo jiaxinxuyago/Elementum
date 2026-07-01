@@ -132,7 +132,7 @@ function prefetchBackgrounds() {
   const urls = [
     // D13 surfaces (catalogue / energy card / reveal grounds)
     '/backgrounds/bg-energymap-01-top-band.png',
-    '/assets/backgrounds/bg-energymap-02-corner-quartet.png',
+    '/backgrounds/bg-energymap-02-corner-quartet.png',
     '/backgrounds/bg-reveal-01-distant-peaks.png',
     '/backgrounds/bg-reveal-02-floating-island.png',
     // Dashboard tab plates (SCREEN_BG)
@@ -145,7 +145,7 @@ function prefetchBackgrounds() {
     '/backgrounds/bg-reveal-04-mist-veil.png',
     '/backgrounds/bg-reading-01-side-margins.png',
     // Onboarding shell
-    '/assets/backgrounds/bg-onboarding-04-quiet-paper.png',
+    '/backgrounds/bg-onboarding-04-quiet-paper.png',
   ];
   const warm = () => urls.forEach((u) => {
     const img = new Image();

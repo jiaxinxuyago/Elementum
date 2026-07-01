@@ -50,7 +50,7 @@ function Pillar({ col }) {
 export default function ReadingPillarChartCard({ pillars, energies, patterns, hourUnknown, onBack, onDiscoverHour }) {
   return (
     <div className="reading-fill">
-      <img className="ground-img" src="/assets/backgrounds/bg-reading-01-side-margins.png" alt="" />
+      <img className="ground-img" src="/backgrounds/bg-reading-01-side-margins.png" alt="" />
       <div className="status"><span>9:41</span><span className="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
       <div className="screen-pad">
         <div className="back-row" style={{ cursor: 'pointer' }} onClick={onBack}>

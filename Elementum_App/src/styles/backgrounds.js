@@ -6,7 +6,7 @@
 // (line ~1212) and DOC5 §20 Asset Library.
 //
 // PNGs live in Elementum_App/public/backgrounds/ (mirrored from
-// Design/assets/backgrounds/). Reference them by bare filename — PageBg
+// Design/backgrounds/). Reference them by bare filename — PageBg
 // resolves the /backgrounds/ path.
 //
 // [Group D — RESOLVED] The notes below are HISTORICAL. Every screen now maps to

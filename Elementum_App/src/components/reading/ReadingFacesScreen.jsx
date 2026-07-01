@@ -155,7 +155,7 @@ function ElementReading({ energy, dmEl, onBack }) {
 
   return (
     <div className="reading-fill">
-      <img className="ground-img" src="/assets/backgrounds/bg-energymap-02-corner-quartet.png" alt="" style={{ opacity: 0.92 }} />
+      <img className="ground-img" src="/backgrounds/bg-energymap-02-corner-quartet.png" alt="" style={{ opacity: 0.92 }} />
       <div className="status"><span>9:41</span><span className="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
       <div className={`screen-pad dk-${el}${ghost ? ' ghosted-card' : ''}`}>
         <div className="back-row" style={{ cursor: 'pointer' }} onClick={onBack}>
@@ -257,7 +257,7 @@ export default function ReadingFacesScreen({ initialEl, onBack }) {
   return (
    <div className="reading" style={{ position: 'absolute', inset: 0, overflow: 'hidden' }}>
     <div className="reading-fill">
-      <img className="ground-img bg-energy" src="/assets/backgrounds/bg-energymap-02-corner-quartet.png" alt="" style={{ opacity: 0.92 }} />
+      <img className="ground-img bg-energy" src="/backgrounds/bg-energymap-02-corner-quartet.png" alt="" style={{ opacity: 0.92 }} />
       <div className="status"><span>9:41</span><span className="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
       <div className={`screen-pad dk-${el}`}>
         <div className="back-row" style={{ cursor: 'pointer' }} onClick={onBack}>
