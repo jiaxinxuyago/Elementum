@@ -8,7 +8,7 @@
 // is preloaded.
 // ===================================================================
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { STEM_CARD_DATA } from '../../content/index.js';
 import { Icon } from '../shared/icons';
@@ -55,10 +55,12 @@ function buildReplies(chart, sr) {
 
 export default function AIConsultantScreen({ onBack }) {
   const { chart, hasSelfReport } = useChart();
-  const selfReport = useRef(hasSelfReport ? readSelfReport() : null);
-  const srActive = hasSelfReport && !!selfReport.current;
-  const replies = useRef(buildReplies(chart, selfReport.current));
-  const turn = useRef(0);
+  // Derived-once values (recompute only if the chart / entitlement changes) —
+  // useMemo, not refs, so they're never read during render via `.current`.
+  const selfReport = useMemo(() => (hasSelfReport ? readSelfReport() : null), [hasSelfReport]);
+  const srActive = hasSelfReport && !!selfReport;
+  const replies = useMemo(() => buildReplies(chart, selfReport), [chart, selfReport]);
+  const turn = useRef(0);   // genuinely mutable per-turn counter
   const opening = srActive
     ? "I've read your chart, your Manual, and your Self-Report — I know where you actually are right now, not just what the chart says. Tell me what's on your mind."
     : "I've read your chart and your Manual. I know what the chart says — tell me what's actually on your mind. (Add a Self-Report in Guidance and I'll tune to your life context too.)";
@@ -104,7 +106,7 @@ export default function AIConsultantScreen({ onBack }) {
     if (!text || streaming) return;
     setMessages((m) => [...m, { role: 'user', text }]);
     setInput('');
-    const reply = replies.current[turn.current % replies.current.length];
+    const reply = replies[turn.current % replies.length];
     turn.current += 1;
     setTimeout(() => streamReply(reply), 350);
   };
