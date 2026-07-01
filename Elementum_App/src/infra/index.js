@@ -8,5 +8,5 @@
 // ─────────────────────────────────────────────────────────────────────────────
 
 export { GEOCODING } from './endpoints.js';
-export { PAYMENT, SOCIAL, APP_STORE } from './links.js';
+export { PAYMENT, SOCIAL, APP_STORE, APP_URL, APP_HOST } from './links.js';
 export { TIERS, TIER_LABELS, TIER_PRICES, SELF_REPORT_PRICE } from './pricing.js';

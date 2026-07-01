@@ -26,3 +26,9 @@ export const APP_STORE = {
   ios: null,
   android: null,
 };
+
+// The live app. Used by the shareable identity card footer + the compatibility
+// invite link, so both share the one canonical origin (rule 4, no hard-coding).
+export const APP_URL = 'https://elementum.life';
+// Bare host for display on the card face (no protocol).
+export const APP_HOST = APP_URL.replace(/^https?:\/\//, '');

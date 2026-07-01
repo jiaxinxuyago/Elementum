@@ -9,7 +9,7 @@
 // identity is the free hook.
 // ===================================================================
 
-export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, claims, edge, onBack, onBirthChart }) {
+export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, claims, edge, onBack, onBirthChart, onShare }) {
   return (
     <div className="reading-fill">
       <img className="ground-img" src="/backgrounds/bg-reading-03-watermark-low.png" alt="" />
@@ -29,6 +29,17 @@ export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, 
             <span>Birth Chart</span>
             <svg className="bc-arr" viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-arrow-r" /></svg>
           </button>
+          {onShare ? (
+            <button type="button" className="share-card-btn" onClick={onShare}>
+              <svg className="sc-ico" viewBox="0 0 24 24" aria-hidden="true">
+                <g stroke="currentColor" strokeWidth="1.7" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 3 V15" /><path d="M8 7 L12 3 L16 7" />
+                  <path d="M6 12 H5 V20 H19 V12 H18" />
+                </g>
+              </svg>
+              <span>Share your card</span>
+            </button>
+          ) : null}
         </div>
 
         <div className="claims-card" style={{ marginTop: 18 }}>
