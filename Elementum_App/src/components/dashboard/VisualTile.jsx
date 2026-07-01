@@ -1,3 +1,4 @@
+import { ELEMENT_TO_PIGMENT } from '../../styles/elementPigments.js';
 // ===================================================================
 // ELEMENTUM · VisualTile + SceneHero
 // ===================================================================
@@ -24,10 +25,6 @@ import { useState } from 'react';
 import { Icon } from '../shared/icons';
 import { ink, inkLight, silk, gold, bronzeDark, pigments, withAlpha } from '../../styles/tokens';
 
-const ELEMENT_TO_PIGMENT = {
-  Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water',
-  metal: 'metal', wood: 'wood', fire: 'fire', earth: 'earth', water: 'water',
-};
 
 function resolvePigment(key) {
   const k = ELEMENT_TO_PIGMENT[key] || 'metal';

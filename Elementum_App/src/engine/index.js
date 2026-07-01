@@ -14,3 +14,4 @@ export * from './compatibility.js';     // pair compatibility scoring
 export * from './dominanceWheel.js';    // dominance-wheel geometry + rules
 export * from './energyRoles.js';       // energy-role classification
 export * from './temporal.js';          // day/month/year temporal projections
+export * from './stemPinyin.js';        // stem → pinyin romanization (canonical)

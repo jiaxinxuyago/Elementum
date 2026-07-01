@@ -18,7 +18,7 @@
 // ===================================================================
 
 import { getEnergyBand } from '../engine/index.js';
-import { STEM_CARD_DATA as VARIANTS } from './STEM_CARD_DATA.js';
+import { STEM_VARIANTS as VARIANTS } from './stemVariants.js';
 
 // Ordered fallback keys for a chart's band × pattern.
 export function variantKeys(chart) {

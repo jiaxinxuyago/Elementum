@@ -20,7 +20,7 @@
 // (v1 §12 drift log items already resolved — borders are opaque, matching anchor.)
 // ===================================================================
 
-import { useMemo } from 'react';
+import { useId } from 'react';
 import * as t from './tokens';
 
 // ---------- Palette · re-exported from tokens.js ----------
@@ -259,7 +259,7 @@ export function ElementSign({ element, size = 28, color, muted = false, style })
 // Brush gestures — dry-brush underline, corner ink, seal dot
 // =====================================================
 export function BrushUnderline({ w = 120, color = INK, opacity = 0.78 }) {
-  const id = useMemo(() => `uBleed-${Math.random().toString(36).slice(2, 8)}`, []);
+  const id = `uBleed-${useId().replace(/:/g, '')}`; // stable, unique per instance
   return (
     <svg viewBox="0 0 120 10" width={w} height={10} style={{ display: 'block' }}>
       <defs>

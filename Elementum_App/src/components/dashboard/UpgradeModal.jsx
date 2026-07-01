@@ -18,7 +18,8 @@
 // ===================================================================
 
 import { createContext, useContext, useState, useCallback } from 'react';
-import { useChart, TIER_PRICES } from '../../store/chartContext.jsx';
+import { useChart } from '../../store/chartContext.jsx';
+import { TIER_PRICES } from '../../infra/index.js';
 // Stem -> archetype name (10 entries) inlined so this always-mounted provider
 // does NOT statically import the 276 KB archetypeSource.js content file
 // (Group E — keeps that content out of the eager initial bundle; it rides with
@@ -89,7 +90,7 @@ const ADVISOR_FEATURES = [
 // UpgradeModalHost — renders the bottom sheet when open. Mount inside
 // the phone frame (App.jsx) so it overlays only the phone surface.
 // ───────────────────────────────────────────────────────────────────
-const STEM_KEY = { '甲': 'jia', '乙': 'yi', '丙': 'bing', '丁': 'ding', '戊': 'wu', '己': 'ji', '庚': 'geng', '辛': 'xin', '壬': 'ren', '癸': 'gui' };
+import { STEM_PINYIN as STEM_KEY } from '../../engine/index.js';
 
 export function UpgradeModalHost() {
   const {

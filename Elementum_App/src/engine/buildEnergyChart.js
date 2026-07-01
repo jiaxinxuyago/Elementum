@@ -13,11 +13,7 @@
 import { getEnergyBand, resolveElementFaces } from './calculator.js';
 import { classifyEnergyRoles } from './energyRoles.js';
 import { EL_ORDER } from './dominanceWheel.js';
-
-const STEM_ID = {
-  '甲': 'jia', '乙': 'yi', '丙': 'bing', '丁': 'ding', '戊': 'wu',
-  '己': 'ji', '庚': 'geng', '辛': 'xin', '壬': 'ren', '癸': 'gui',
-};
+import { STEM_PINYIN as STEM_ID } from './stemPinyin.js';
 const CAP = { metal: 'Metal', earth: 'Earth', water: 'Water', wood: 'Wood', fire: 'Fire' };
 
 // Round five presence values to integers that still sum to exactly 100

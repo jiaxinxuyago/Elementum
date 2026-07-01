@@ -1,3 +1,4 @@
+import { ELEMENT_TO_PIGMENT } from '../../../styles/elementPigments.js';
 // ===================================================================
 // ELEMENTUM · ForcesInMotionDetail  (DOC5 §11 Catalyst + Resistance)
 // ===================================================================
@@ -16,9 +17,6 @@ import { ElementMark } from '../../shared/icons';
 import { elementArt } from '../../../styles/backgrounds.js';
 import { ink, inkSoft, paperHair, cardstockBg, pigments, withAlpha } from '../../../styles/tokens';
 
-const ELEMENT_TO_PIGMENT = {
-  Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water',
-};
 
 export default function ForcesInMotionDetail({ onBack }) {
   const { chart } = useChart();

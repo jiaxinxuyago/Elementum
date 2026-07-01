@@ -1,3 +1,4 @@
+import { ELEMENT_TO_PIGMENT } from '../../../styles/elementPigments.js';
 // ===================================================================
 // ELEMENTUM · LifeChaptersDetail  (DOC5 §11 Life Chapters / 大运)
 // ===================================================================
@@ -20,9 +21,6 @@ import { elementArt } from '../../../styles/backgrounds.js';
 import { tgPersona } from '../../../content/index.js';
 import { ink, inkSoft, inkLight, gold, paperHair, cardstockBg, quietBg, quietBorder, pigments, withAlpha } from '../../../styles/tokens';
 
-const ELEMENT_TO_PIGMENT = {
-  Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water',
-};
 
 // Templated chapter reading from the chapter element's relation to the DM.
 function decadeReading(decade, ctx) {

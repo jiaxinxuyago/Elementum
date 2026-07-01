@@ -39,7 +39,7 @@ export default defineConfig([
               // content root — import from content/index.js
               '**/content/archetypeSource.js', '**/content/resolveVariant.js',
               '**/content/tgNames.js', '**/content/dailyGuidance.js',
-              '**/content/archetypeCoverage.js', '**/content/STEM_CARD_DATA.js',
+              '**/content/archetypeCoverage.js', '**/content/stemVariants.js',
               // contract — import from contract/index.js
               '**/contract/archetypeSchema.js',
               // reading copy — import from content/reading/index.js

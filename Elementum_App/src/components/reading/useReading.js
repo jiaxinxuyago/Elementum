@@ -1,7 +1,7 @@
 // Shared D13 screen state: builds the energy contract + identity from the
 // live chart, tracks the selected energy, and a transient "coming soon"
 // toast for Handoff-2 destinations not yet wired in.
-import { useMemo, useState, useEffect, useCallback } from 'react';
+import { useMemo, useState, useCallback } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { buildEnergyChart } from '../../engine/index.js';
 import { buildIdentity } from './identity.js';
@@ -15,8 +15,9 @@ export function useReading() {
     () => (chart ? buildIdentity(chart, STEM_CARD_DATA[chart.dayMaster.stem], hourUnknown) : null),
     [chart, hourUnknown]
   );
+  // Selected energy. Null until the user picks one; the returned `sel` below
+  // falls back to the first energy, so no init-effect is needed.
   const [sel, setSel] = useState(null);
-  useEffect(() => { if (ec && !sel) setSel(ec.energies[0].el); }, [ec, sel]);
   const [wip, setWip] = useState(null);
   const showWip = useCallback((label) => {
     setWip(label);

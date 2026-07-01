@@ -33,18 +33,14 @@ const INITIAL_BIRTH_DATA = {
   customNotifyTime: false,
 };
 
-// Pricing tiers — DOC5 §19. Stored here so every component can read/write
-// without prop-drilling. DevBar lets the designer flip between them.
-export const TIERS = ['free', 'seeker', 'advisor'];
-export const TIER_LABELS = { free: 'Free', seeker: 'Seeker', advisor: 'Advisor' };
-export const TIER_PRICES = { free: '$0', seeker: '$9.99/mo', advisor: '$19.99/mo' };
+// Pricing tiers/labels/prices are commercial config → src/infra/pricing.js.
+// This store manages only the active `tier` STATE (set via setTier).
 
 // Self-Report — a one-time purchase (DOC5 §19), tracked SEPARATELY from the
 // subscription tier (a Seeker still buys it as a one-time add-on). Persisted
 // so the entitlement survives reloads. The demo has no payment backend, so
 // `purchaseSelfReport()` flips the entitlement locally — mirroring how the
 // tier upgrade flow flips tier state in UpgradeModal.
-export const SELF_REPORT_PRICE = '$6.99';
 const SELF_REPORT_KEY = 'elementum_hasselfreport_v1';
 function readSelfReportOwned() {
   try { return localStorage.getItem(SELF_REPORT_KEY) === '1'; } catch { return false; }

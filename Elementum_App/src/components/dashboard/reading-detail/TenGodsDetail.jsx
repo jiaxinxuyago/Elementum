@@ -1,3 +1,4 @@
+import { ELEMENT_TO_PIGMENT } from '../../../styles/elementPigments.js';
 // ===================================================================
 // ELEMENTUM · TenGodsDetail (Dominant Energies)
 // ===================================================================
@@ -32,10 +33,6 @@ const TG_FAMILY_PIGMENT = {
   wealth:    'wood',   // 偏财/正财 — wealth
   authority: 'fire',   // 七杀/正官 — authority
   resource:  'earth',  // 偏印/正印 — resource
-};
-const ELEMENT_TO_PIGMENT = {
-  Metal: 'metal', Wood: 'wood', Fire: 'fire',
-  Earth: 'earth', Water: 'water',
 };
 
 export default function TenGodsDetail({ onBack }) {

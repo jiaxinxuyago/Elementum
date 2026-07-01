@@ -8,34 +8,16 @@
 // is captured.
 // ===================================================================
 
-const STEM_EL = {
-  '甲': 'wood', '乙': 'wood', '丙': 'fire', '丁': 'fire', '戊': 'earth',
-  '己': 'earth', '庚': 'metal', '辛': 'metal', '壬': 'water', '癸': 'water',
-};
-const BRANCH_EL = {
-  '寅': 'wood', '卯': 'wood', '巳': 'fire', '午': 'fire',
-  '辰': 'earth', '戌': 'earth', '丑': 'earth', '未': 'earth',
-  '申': 'metal', '酉': 'metal', '子': 'water', '亥': 'water',
-};
-// 藏干 — the stems concealed in each Earthly Branch (principal → residual).
-const HIDDEN_STEMS = {
-  '子': ['癸'],
-  '丑': ['己', '癸', '辛'],
-  '寅': ['甲', '丙', '戊'],
-  '卯': ['乙'],
-  '辰': ['戊', '乙', '癸'],
-  '巳': ['丙', '戊', '庚'],
-  '午': ['丁', '己'],
-  '未': ['己', '丁', '乙'],
-  '申': ['庚', '壬', '戊'],
-  '酉': ['辛'],
-  '戌': ['戊', '辛', '丁'],
-  '亥': ['壬', '甲'],
-};
+import { STEM_ELEM, BRANCH_ELEM, HIDDEN_STEMS } from '../../engine/index.js';
+import { ELEMENT_TO_PIGMENT } from '../../styles/elementPigments.js';
 
-export const stemEl = (s) => STEM_EL[s] || null;
-export const branchEl = (b) => BRANCH_EL[b] || null;
-export const hiddenStems = (b) => (HIDDEN_STEMS[b] || []).map((s) => ({ stem: s, el: STEM_EL[s] || null }));
+// Pigment key for a stem / branch, derived from the engine's canonical element
+// maps — no local element tables here, so the data lives in exactly one place
+// (previously duplicated as lowercase copies that had begun to drift).
+export const stemEl = (s) => (STEM_ELEM[s] ? ELEMENT_TO_PIGMENT[STEM_ELEM[s]] : null);
+export const branchEl = (b) => (BRANCH_ELEM[b] ? ELEMENT_TO_PIGMENT[BRANCH_ELEM[b]] : null);
+// 藏干 — the stems concealed in each Earthly Branch, each with its pigment key.
+export const hiddenStems = (b) => (HIDDEN_STEMS[b] || []).map((h) => ({ stem: h.s, el: stemEl(h.s) }));
 
 // → [{ cap, key, self, unset, stem, stemEl, branch, branchEl, hidden:[{stem,el}] }]
 export function buildPillars(chart, hourUnknown) {

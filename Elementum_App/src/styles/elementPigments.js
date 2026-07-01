@@ -1,12 +1,13 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// INFRA · public API barrel
+// STYLES · element → pigment key
 // ─────────────────────────────────────────────────────────────────────────────
-// Chunk ④ (client side): external endpoints + outbound links. Depends on
-// nothing else in the app. Consumers import from here (`@/infra`), never a
-// deep source file. Server-side/Worker code + the wrangler deploy manifest are
-// the other half of this chunk — see README.md.
+// Canonical map from element name to pigment key (see `pigments` in tokens).
+// Accepts BOTH the engine's title-case element names ('Metal') and lowercase
+// ('metal') so every call style resolves. Replaces ~11 per-file copies that had
+// started to drift (some title-case only, VisualTile had both).
 // ─────────────────────────────────────────────────────────────────────────────
 
-export { GEOCODING } from './endpoints.js';
-export { PAYMENT, SOCIAL, APP_STORE } from './links.js';
-export { TIERS, TIER_LABELS, TIER_PRICES, SELF_REPORT_PRICE } from './pricing.js';
+export const ELEMENT_TO_PIGMENT = {
+  Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water',
+  metal: 'metal', wood: 'wood', fire: 'fire', earth: 'earth', water: 'water',
+};

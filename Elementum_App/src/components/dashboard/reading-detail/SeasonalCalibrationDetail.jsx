@@ -1,3 +1,4 @@
+import { ELEMENT_TO_PIGMENT } from '../../../styles/elementPigments.js';
 // ===================================================================
 // ELEMENTUM · SeasonalCalibrationDetail  (DOC5 §11 Seasonal Calibration)
 // ===================================================================
@@ -14,7 +15,6 @@ import { ElementMark } from '../../shared/icons';
 import { elementArt } from '../../../styles/backgrounds.js';
 import { ink, inkSoft, paperHair, cardstockBg, pigments, withAlpha } from '../../../styles/tokens';
 
-const ELEMENT_TO_PIGMENT = { Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water' };
 const GEN = { Wood: 'Fire', Fire: 'Earth', Earth: 'Metal', Metal: 'Water', Water: 'Wood' };
 const CTL = { Wood: 'Earth', Fire: 'Metal', Earth: 'Water', Metal: 'Wood', Water: 'Fire' };
 

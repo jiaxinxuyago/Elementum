@@ -1,3 +1,4 @@
+import { ELEMENT_TO_PIGMENT } from '../../../styles/elementPigments.js';
 // ===================================================================
 // ELEMENTUM · ElementalNatureDetail
 // ===================================================================
@@ -21,10 +22,6 @@ import {
   pigments, cardstockBg, withAlpha,
 } from '../../../styles/tokens';
 
-const ELEMENT_TO_PIGMENT = {
-  Metal: 'metal', Wood: 'wood', Fire: 'fire',
-  Earth: 'earth', Water: 'water',
-};
 
 export default function ElementalNatureDetail({ onBack }) {
   const { chart } = useChart();

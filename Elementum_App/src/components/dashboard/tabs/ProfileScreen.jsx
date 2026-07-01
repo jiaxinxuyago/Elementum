@@ -15,9 +15,8 @@
 // "The chart is the profile" — intentionally minimal.
 // ===================================================================
 
-import {
-  useChart, TIER_LABELS, TIER_PRICES,
-} from '../../../store/chartContext.jsx';
+import { useChart } from '../../../store/chartContext.jsx';
+import { TIER_LABELS, TIER_PRICES } from '../../../infra/index.js';
 import { useUpgrade } from '../UpgradeModal.jsx';
 import { Icon } from '../../shared/icons';
 import {

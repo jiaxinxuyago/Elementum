@@ -1,3 +1,4 @@
+import { ELEMENT_TO_PIGMENT } from '../../styles/elementPigments.js';
 // ===================================================================
 // ELEMENTUM · DayPage  (hub → destination, Today tab drill-down)
 // ===================================================================
@@ -17,9 +18,6 @@ import {
   paperHair, cardstockBg, pigments, withAlpha,
 } from '../../styles/tokens';
 
-const ELEMENT_TO_PIGMENT = {
-  Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water',
-};
 const MONTHS = ['January','February','March','April','May','June',
                 'July','August','September','October','November','December'];
 const WEEKDAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
