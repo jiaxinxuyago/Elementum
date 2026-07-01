@@ -16,11 +16,7 @@ import { INK, INK_SOFT, INK_LIGHT, PAPER_HAIR, BORDER_LIGHT, PIG_METAL, PIG_WOOD
 const PIG_BY_NAME = {
   Metal: PIG_METAL, Wood: PIG_WOOD, Water: PIG_WATER, Fire: PIG_FIRE, Earth: PIG_EARTH,
 };
-const STEM_PINYIN = {
-  '甲':'JIA', '乙':'YI', '丙':'BING', '丁':'DING',
-  '戊':'WU',  '己':'JI', '庚':'GENG', '辛':'XIN',
-  '壬':'REN', '癸':'GUI',
-};
+import { STEM_PINYIN } from '../../engine/index.js';
 const BAND_CHIPS = {
   extremely_strong: ['Overpowering', 'Concentrated'],
   strong:           ['Concentrated'],
@@ -46,7 +42,7 @@ export function buildDm(chart) {
   const band         = chart.dayMaster?.strength || 'balanced';
   return {
     stem,
-    stemPinyin: STEM_PINYIN[stem] || '',
+    stemPinyin: (STEM_PINYIN[stem] || '').toUpperCase(),
     element,
     elementColor,
     polarity: chart.dayMaster?.polarity === 'yang' ? 'Yang' : 'Yin',

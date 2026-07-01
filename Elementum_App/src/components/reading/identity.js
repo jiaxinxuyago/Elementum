@@ -7,9 +7,7 @@
 // until the UI fixes word budgets). No CJK.
 // ===================================================================
 
-const STEM_ID = { '甲': 'jia', '乙': 'yi', '丙': 'bing', '丁': 'ding', '戊': 'wu', '己': 'ji', '庚': 'geng', '辛': 'xin', '壬': 'ren', '癸': 'gui' };
-
-const STEM_PINYIN = { '甲': 'JIǍ', '乙': 'YǏ', '丙': 'BǏNG', '丁': 'DĪNG', '戊': 'WÙ', '己': 'JǏ', '庚': 'GĒNG', '辛': 'XĪN', '壬': 'RÉN', '癸': 'GUǏ' };
+import { STEM_PINYIN as STEM_ID, STEM_PINYIN_TONED as STEM_PINYIN } from '../../engine/index.js';
 
 // Drafted English inscriptions (one per stem) — filler, owner-approved direction.
 const STEM_INSCRIPTION = {
