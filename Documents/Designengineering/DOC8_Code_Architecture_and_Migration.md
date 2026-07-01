@@ -45,9 +45,8 @@ Elementum_Project/
 │   │                                       for Phase 2 dashboard components.
 │   └── README.md                        ← Extraction progress + remaining targets.
 │
-├── Scripts/
-│   ├── batchGenerate.js                 ← Offline generation script. NOT bundled with app.
-│   └── tokenCostCalculator.html         ← Standalone utility.
+│   (Scripts/ removed 2026-07 — batchGenerate.js + tokenCostCalculator.html
+│    relocated to Elementum_App/tools/.)
 │
 ├── Design/                              ← Phase 1/2A design source (tokens, flow JSX, ink PNGs).
 │
@@ -61,7 +60,8 @@ Elementum_Project/
 
 **Retired locations (for readers of earlier DOC8 versions):**
 - `Code/` — deleted. `archetypeSource.js` and `STEM_CARD_DATA.js` moved to `Elementum_App/src/content/`. `batchGenerate.js` → `Scripts/`. `Elementum_Engine.jsx` → `Reference/`.
-- `Others/` — deleted. Single file folded into `Scripts/tokenCostCalculator.html`.
+- `Others/` — deleted. Single file folded into `tokenCostCalculator.html`.
+- `Scripts/` — removed 2026-07. `batchGenerate.js` and `tokenCostCalculator.html` relocated to `Elementum_App/tools/` (Rule 1: all code in the app folder).
 - `Elementum_Engine.html` (browser preview wrapper) — superseded by `Elementum_App/index.html` + Vite dev server.
 
 ---
@@ -73,7 +73,7 @@ Elementum_Project/
 | `Elementum_App/src/content/archetypeSource.js` | `Data/elementum_profile_database.html` | Every field change must be applied to both. |
 | `Elementum_App/src/content/archetypeSource.js` | `Reference/Elementum_Engine.jsx` inlined `STEM_CARD_DATA` (lines 4–979) and `TG_CARD_DATA` (lines 980–1558) | When a field is authored in archetypeSource.js, sync to the engine's inlined copy **only if** you intend to open the engine in legacy browser-preview mode. The live Vite app reads from the content file directly and does not require engine sync. |
 | `Elementum_App/src/content/STEM_CARD_DATA.js` | `Reference/Elementum_Engine.jsx` inlined variant entries | Same conditional — sync only for legacy preview; Vite app is already authoritative. |
-| `Scripts/batchGenerate.js` | `Elementum_App/src/content/STEM_CARD_DATA.js`, `DomEnergyTg_Data.js` | Do not hand-edit generated entries — re-run the pipeline. The script reads the content files from the app folder. |
+| `Elementum_App/tools/batchGenerate.js` | `Elementum_App/src/content/STEM_CARD_DATA.js`, `DomEnergyTg_Data.js` | Do not hand-edit generated entries — re-run the pipeline. The script reads the content files from the app folder. |
 
 **Key rule:** `archetypeSource.js` defines all field names. Any new field must be named there first (in `Elementum_App/src/content/archetypeSource.js`). All downstream files follow. Never rename a field in a downstream file independently.
 
