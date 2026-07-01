@@ -1,3 +1,4 @@
+import { ELEMENT_TO_PIGMENT } from '../../../styles/elementPigments.js';
 // ===================================================================
 // ELEMENTUM · TodayScreen — Readings Hub (mosaic)
 // ===================================================================
@@ -27,9 +28,6 @@ import { MoodboardArt } from '../VisualTile.jsx';
 import { Icon, ElementMark } from '../../shared/icons';
 import { ink, inkLight, bronzeDark, silk, pigments, withAlpha } from '../../../styles/tokens';
 
-const ELEMENT_TO_PIGMENT = {
-  Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water',
-};
 const MONTHS = ['January','February','March','April','May','June',
                 'July','August','September','October','November','December'];
 const WD_SHORT = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];

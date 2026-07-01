@@ -1,3 +1,4 @@
+import { ELEMENT_TO_PIGMENT } from '../../styles/elementPigments.js';
 // ===================================================================
 // ELEMENTUM · ElementalDrawScreen  (DOC5 §12 Card 1 — Elemental Draw)
 // ===================================================================
@@ -19,7 +20,6 @@ import {
   paperHair, cardstockBg, pigments, withAlpha,
 } from '../../styles/tokens';
 
-const ELEMENT_TO_PIGMENT = { Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water' };
 const ELEMENT_HANZI = { Metal: '金', Wood: '木', Fire: '火', Earth: '土', Water: '水' };
 const ELEMENTS = ['Wood', 'Fire', 'Earth', 'Metal', 'Water'];
 

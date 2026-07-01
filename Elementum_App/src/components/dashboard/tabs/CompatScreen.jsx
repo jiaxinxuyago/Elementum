@@ -1,3 +1,4 @@
+import { ELEMENT_TO_PIGMENT } from '../../../styles/elementPigments.js';
 // ===================================================================
 // ELEMENTUM · CompatScreen  ("Your Circle" — Compatibility, screens-v2)
 // ===================================================================
@@ -23,7 +24,6 @@ import {
   paperHair, cardstockBg, pigments, withAlpha,
 } from '../../../styles/tokens';
 
-const ELEMENT_TO_PIGMENT = { Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water' };
 
 export default function CompatScreen({ onStartCompare, onCompareAgain }) {
   const { tier, compatResult, setCompatResult } = useChart();

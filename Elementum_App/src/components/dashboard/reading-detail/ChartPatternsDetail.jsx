@@ -1,3 +1,4 @@
+import { ELEMENT_TO_PIGMENT } from '../../../styles/elementPigments.js';
 // ===================================================================
 // ELEMENTUM · ChartPatternsDetail  (DOC5 §11 Chart Patterns / 合冲刑害)
 // ===================================================================
@@ -14,7 +15,6 @@ import { Icon } from '../../shared/icons';
 import { elementArt } from '../../../styles/backgrounds.js';
 import { ink, inkSoft, inkLight, bronzeDark, gold, paperHair, cardstockBg, pigments, withAlpha } from '../../../styles/tokens';
 
-const ELEMENT_TO_PIGMENT = { Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water' };
 
 // Pattern type → pigment + name + templated meaning (DOC5 §11 styling:
 // Combination 合=Wood, Clash 冲=Fire, Penalty 刑=Metal, Harm 害=Water).
