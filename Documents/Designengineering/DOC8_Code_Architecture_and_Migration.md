@@ -2,7 +2,7 @@
 ## Single-file artifact → Vite + React production project
 
 **Version:** 3.2 · April 2026
-**Source engine:** `Reference/Elementum_Engine.jsx` (~6,900 lines)
+**Source engine:** `archive/legacy-monolith/Elementum_Engine.jsx` (~6,900 lines)
 **Related docs:** DOC4 (generation architecture) · DOC5 §9 (Reveal) · DOC5 §11 (dashboard component specs) · DOC5 §20 (Asset Library) · DOC7 (content authoring)
 **Status:** Phase 1 migration **executed** — Vite project scaffolded, content files live, pre-dashboard flow (Welcome → Reveal) running. The **Reveal screen** has had its Section 1 (Identity) composition refined per DOC5 §9 v1.6 — see "Phase 1 component additions" below. Phase 2 dashboard component extraction is **pending** — use this guide for that work.
 
@@ -12,9 +12,11 @@
 
 ## Overview
 
-Elementum was prototyped as a single-file React JSX artifact (`Elementum_Engine.jsx`) that inlined all data, calculation logic, and UI components into one file for fast iteration without a build step. That file is preserved in `Reference/` as the extraction source for Phase 2.
+Elementum was prototyped as a single-file React JSX artifact (`Elementum_Engine.jsx`) that inlined all data, calculation logic, and UI components into one file for fast iteration without a build step. That file is archived at `archive/legacy-monolith/`.
 
-The production app lives in `Elementum_App/` as a Vite + React project with proper imports. **The content files are now the runtime source of truth** inside the app at `Elementum_App/src/content/`. Any remaining extraction (dashboard components, energy data, reading engine) is documented in `Reference/README.md` and the step-by-step guide below.
+> ⚠️ **The Phase-2 "extract the dashboard from the monolith" plan below was SUPERSEDED (2026-07).** The dashboard/reading surface was rebuilt fresh in the d13 → `reading` redesign, not lifted verbatim from the engine (12 of 13 planned extraction targets never landed in `src/` — they were rebuilt). The monolith is now a historical logic/content **quarry** only. See `archive/legacy-monolith/README.md`. The extraction guide sections that follow are retained for provenance, not as an active task list.
+
+The production app lives in `Elementum_App/` as a Vite + React project with proper imports. **The content files are now the runtime source of truth** inside the app at `Elementum_App/src/content/`. Any remaining extraction (dashboard components, energy data, reading engine) is documented in `archive/legacy-monolith/README.md` and the step-by-step guide below.
 
 ---
 
@@ -40,10 +42,10 @@ Elementum_Project/
 │   └── elementum_profile_database.html  ← HTML twin of archetypeSource.js.
 │                                           Must stay in sync at all times.
 │
-├── Reference/
-│   ├── Elementum_Engine.jsx             ← Original single-file artifact. Extraction source
-│   │                                       for Phase 2 dashboard components.
-│   └── README.md                        ← Extraction progress + remaining targets.
+├── archive/legacy-monolith/            ← Archived 2026-07. Historical reference only.
+│   ├── Elementum_Engine.jsx             ← Original prototype. Dashboard was REBUILT, not
+│   │                                       extracted from this (plan superseded).
+│   └── README.md                        ← Why it's archived + what it's still useful for.
 │
 │   (Scripts/ removed 2026-07 — batchGenerate.js + tokenCostCalculator.html
 │    relocated to Elementum_App/tools/.)
@@ -59,7 +61,7 @@ Elementum_Project/
 ```
 
 **Retired locations (for readers of earlier DOC8 versions):**
-- `Code/` — deleted. `archetypeSource.js` and `STEM_CARD_DATA.js` moved to `Elementum_App/src/content/`. `batchGenerate.js` → `Scripts/`. `Elementum_Engine.jsx` → `Reference/`.
+- `Code/` — deleted. `archetypeSource.js` and `STEM_CARD_DATA.js` moved to `Elementum_App/src/content/`. `batchGenerate.js` → `Elementum_App/tools/`. `Elementum_Engine.jsx` → `archive/legacy-monolith/` (2026-07; was briefly in `Reference/`).
 - `Others/` — deleted. Single file folded into `tokenCostCalculator.html`.
 - `Scripts/` — removed 2026-07. `batchGenerate.js` and `tokenCostCalculator.html` relocated to `Elementum_App/tools/` (Rule 1: all code in the app folder).
 - `Elementum_Engine.html` (browser preview wrapper) — superseded by `Elementum_App/index.html` + Vite dev server.
@@ -71,8 +73,8 @@ Elementum_Project/
 | File | Paired with | Rule |
 |---|---|---|
 | `Elementum_App/src/content/archetypeSource.js` | `Data/elementum_profile_database.html` | Every field change must be applied to both. |
-| `Elementum_App/src/content/archetypeSource.js` | `Reference/Elementum_Engine.jsx` inlined `STEM_CARD_DATA` (lines 4–979) and `TG_CARD_DATA` (lines 980–1558) | When a field is authored in archetypeSource.js, sync to the engine's inlined copy **only if** you intend to open the engine in legacy browser-preview mode. The live Vite app reads from the content file directly and does not require engine sync. |
-| `Elementum_App/src/content/STEM_CARD_DATA.js` | `Reference/Elementum_Engine.jsx` inlined variant entries | Same conditional — sync only for legacy preview; Vite app is already authoritative. |
+| `Elementum_App/src/content/archetypeSource.js` | `archive/legacy-monolith/Elementum_Engine.jsx` inlined `STEM_CARD_DATA` (lines 4–979) and `TG_CARD_DATA` (lines 980–1558) | When a field is authored in archetypeSource.js, sync to the engine's inlined copy **only if** you intend to open the engine in legacy browser-preview mode. The live Vite app reads from the content file directly and does not require engine sync. |
+| `Elementum_App/src/content/STEM_CARD_DATA.js` | `archive/legacy-monolith/Elementum_Engine.jsx` inlined variant entries | Same conditional — sync only for legacy preview; Vite app is already authoritative. |
 | `Elementum_App/tools/batchGenerate.js` | `Elementum_App/src/content/STEM_CARD_DATA.js`, `DomEnergyTg_Data.js` | Do not hand-edit generated entries — re-run the pipeline. The script reads the content files from the app folder. |
 
 **Key rule:** `archetypeSource.js` defines all field names. Any new field must be named there first (in `Elementum_App/src/content/archetypeSource.js`). All downstream files follow. Never rename a field in a downstream file independently.
@@ -221,7 +223,7 @@ src/
 **How to extract line ranges:**
 ```bash
 # Run from Elementum_Project/ root. Example: extract lines 1593–2116 into a new file.
-sed -n '1593,2116p' Reference/Elementum_Engine.jsx > Elementum_App/src/engine/calculator.js
+sed -n '1593,2116p' archive/legacy-monolith/Elementum_Engine.jsx > Elementum_App/src/engine/calculator.js
 ```
 
 **How to validate JSX after each step:**
@@ -289,7 +291,7 @@ Delete scaffold files: `src/App.jsx`, `src/App.css`, `src/index.css`, `src/asset
 
 ### Step 1 — Content files
 
-> **Already executed.** Files live at `Elementum_App/src/content/archetypeSource.js` and `Elementum_App/src/content/STEM_CARD_DATA.js` as the runtime source of truth. No copy step needed in the current layout — edits go directly into those files. The block below is preserved for anyone re-building the project from the `Reference/` engine alone.
+> **Already executed.** Files live at `Elementum_App/src/content/archetypeSource.js` and `Elementum_App/src/content/STEM_CARD_DATA.js` as the runtime source of truth. No copy step needed in the current layout — edits go directly into those files. The block below is preserved for anyone re-building the project from the archived `archive/legacy-monolith/` engine alone.
 
 ```bash
 # Run from Elementum_Project/. The content files were originally in Code/;
@@ -326,10 +328,10 @@ import { STEM_CARD_DATA as STEM_VARIANTS  } from '../content/STEM_CARD_DATA.js';
 
 ```bash
 # Extract each range, assemble into src/constants.js
-sed -n '1559,1562p' Reference/Elementum_Engine.jsx
-sed -n '2238,2250p' Reference/Elementum_Engine.jsx
-sed -n '2427,2445p' Reference/Elementum_Engine.jsx
-sed -n '2706,2720p' Reference/Elementum_Engine.jsx
+sed -n '1559,1562p' archive/legacy-monolith/Elementum_Engine.jsx
+sed -n '2238,2250p' archive/legacy-monolith/Elementum_Engine.jsx
+sed -n '2427,2445p' archive/legacy-monolith/Elementum_Engine.jsx
+sed -n '2706,2720p' archive/legacy-monolith/Elementum_Engine.jsx
 ```
 
 Add `export` to each declaration. Final exports:
@@ -347,7 +349,7 @@ export const C, EL_C, EL_ZH, TIERS, TIER_LABELS, TIER_PRICES,
 **Engine lines 1585–2237** — pure JS, no React, no JSX.
 
 ```bash
-sed -n '1585,2237p' Reference/Elementum_Engine.jsx > Elementum_App/src/engine/calculator.js
+sed -n '1585,2237p' archive/legacy-monolith/Elementum_Engine.jsx > Elementum_App/src/engine/calculator.js
 ```
 
 Contents (in order):
@@ -372,7 +374,7 @@ Export all top-level functions and constants. Add at top: `// src/engine/calcula
 **Engine lines 3580–4526**
 
 ```bash
-sed -n '3580,4526p' Reference/Elementum_Engine.jsx > Elementum_App/src/engine/energyData.js
+sed -n '3580,4526p' archive/legacy-monolith/Elementum_Engine.jsx > Elementum_App/src/engine/energyData.js
 ```
 
 Contents:
@@ -446,7 +448,7 @@ Each is a small self-contained JSX file.
 
 For each:
 ```bash
-sed -n 'START,ENDp' Reference/Elementum_Engine.jsx > Elementum_App/src/components/ComponentName.jsx
+sed -n 'START,ENDp' archive/legacy-monolith/Elementum_Engine.jsx > Elementum_App/src/components/ComponentName.jsx
 ```
 Add `import React from 'react';` and the relevant constants imports. Add `export default`.
 
@@ -602,7 +604,7 @@ const [hasSelfReport, set
 
 ## Phase 1 component additions (post-DOC8 v3.1)
 
-These components exist **only in the live Vite app** (`Elementum_App/src/components/`) and were authored fresh — they are not present in `Reference/Elementum_Engine.jsx`. Phase 2 extraction does not need to look for them in the engine.
+These components exist **only in the live Vite app** (`Elementum_App/src/components/`) and were authored fresh — they are not present in `archive/legacy-monolith/Elementum_Engine.jsx`. Phase 2 extraction does not need to look for them in the engine.
 
 ### `RevealScreen.jsx` — Identity Section composition
 
