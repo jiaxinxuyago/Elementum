@@ -1,3 +1,4 @@
+import BackBar from '../shared/BackBar.jsx';
 import { ELEMENT_TO_PIGMENT } from '../../styles/elementPigments.js';
 // ===================================================================
 // ELEMENTUM · DayPage  (hub → destination, Today tab drill-down)
@@ -194,24 +195,6 @@ function Marker({ kind, color }) {
   );
 }
 
-function BackBar({ label, onBack }) {
-  return (
-    <button
-      type="button"
-      onClick={onBack}
-      style={{
-        appearance: 'none', background: 'transparent', border: 'none',
-        padding: '4px 0 4px', display: 'inline-flex', alignItems: 'center', gap: 6,
-        cursor: 'pointer', color: inkLight,
-        fontFamily: "'EB Garamond', Georgia, serif",
-        fontSize: 11, letterSpacing: 1.5, textTransform: 'uppercase',
-      }}
-    >
-      <Icon id="ico-chev-l" size={14} color={inkLight} />
-      {label}
-    </button>
-  );
-}
 
 function ScaffoldEmpty({ onBack }) {
   return (

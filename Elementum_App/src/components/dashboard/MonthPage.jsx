@@ -1,3 +1,4 @@
+import BackBar from '../shared/BackBar.jsx';
 // ===================================================================
 // ELEMENTUM · MonthPage  (hub → destination, Today tab drill-down)
 // ===================================================================
@@ -8,7 +9,7 @@
 import React from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { monthGrid, flowWindows } from '../../engine/index.js';
-import { Icon } from '../shared/icons';
+
 import { SceneHero } from './VisualTile.jsx';
 import { elementArt } from '../../styles/backgrounds.js';
 import {
@@ -283,18 +284,3 @@ function Marker({ kind, color }) {
   );
 }
 
-function BackBar({ label, onBack }) {
-  return (
-    <button type="button" onClick={onBack}
-      style={{
-        appearance: 'none', background: 'transparent', border: 'none',
-        padding: '4px 0 4px', display: 'inline-flex', alignItems: 'center', gap: 6,
-        cursor: 'pointer', color: inkLight,
-        fontFamily: "'EB Garamond', Georgia, serif",
-        fontSize: 11, letterSpacing: 1.5, textTransform: 'uppercase',
-      }}>
-      <Icon id="ico-chev-l" size={14} color={inkLight} />
-      {label}
-    </button>
-  );
-}

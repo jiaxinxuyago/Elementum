@@ -1,3 +1,4 @@
+import BackBar from '../shared/BackBar.jsx';
 // ===================================================================
 // ELEMENTUM · DecadePage  (hub → destination, Today tab drill-down)
 // ===================================================================
@@ -7,7 +8,7 @@
 // ===================================================================
 
 import { useChart } from '../../store/chartContext.jsx';
-import { Icon } from '../shared/icons';
+
 import { SceneHero } from './VisualTile.jsx';
 import { elementArt } from '../../styles/backgrounds.js';
 import { ink, inkSoft, inkLight, bronzeDark, paperHair, cardstockBg, pigments } from '../../styles/tokens';
@@ -186,21 +187,6 @@ function SectionCard({ label, children, style }) {
   );
 }
 
-function BackBar({ label, onBack }) {
-  return (
-    <button type="button" onClick={onBack}
-      style={{
-        appearance: 'none', background: 'transparent', border: 'none',
-        padding: '4px 0 4px', display: 'inline-flex', alignItems: 'center', gap: 6,
-        cursor: 'pointer', color: inkLight,
-        fontFamily: "'EB Garamond', Georgia, serif",
-        fontSize: 11, letterSpacing: 1.5, textTransform: 'uppercase',
-      }}>
-      <Icon id="ico-chev-l" size={14} color={inkLight} />
-      {label}
-    </button>
-  );
-}
 
 function ScaffoldEmpty({ onBack }) {
   return (
