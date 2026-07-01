@@ -299,10 +299,11 @@
 .d13 .shelf-hint .uico { width: 13px; height: 13px; color: var(--bronzeDark); }
 
 /* ───────── element-color spine classes ───────── */
-.d13 .dk-metal { color: var(--metalDeep); --npig: var(--metal); }
-.d13 .dk-earth { color: var(--earthDeep); --npig: var(--earth); }
-.d13 .dk-water { color: var(--waterDeep); --npig: var(--water); }
-.d13 .dk-wood  { color: var(--woodDeep);  --npig: var(--wood); }
+.d13 .dk-metal { color: var(--metalDeep); --npig: var(--metal); --pig: var(--metal); --pigDeep: var(--metalDeep); }
+.d13 .dk-earth { color: var(--earthDeep); --npig: var(--earth); --pig: var(--earth); --pigDeep: var(--earthDeep); }
+.d13 .dk-water { color: var(--waterDeep); --npig: var(--water); --pig: var(--water); --pigDeep: var(--waterDeep); }
+.d13 .dk-wood  { color: var(--woodDeep);  --npig: var(--wood);  --pig: var(--wood);  --pigDeep: var(--woodDeep); }
+.d13 .dk-fire  { color: var(--fireDeep);  --npig: var(--fire);  --pig: var(--fire);  --pigDeep: var(--fireDeep); }
 .d13 .dk-fire  { color: var(--fireDeep);  --npig: var(--fire); }
 .d13 .ghosted  { color: var(--ghost); --npig: var(--ghost); }
 
@@ -378,45 +379,104 @@
 .d13 .spine.ghosted .sp-art img { filter: grayscale(0.85); opacity: 0.6; }
 
 /* ───────── P6b · polarity faces page (D13 v2.1) ───────── */
-.d13 .fd-card { background: var(--cardstock); border: 1px solid var(--paperHair); border-radius: 16px; box-shadow: var(--shadow-card); padding: 13px 15px 14px; margin-top: 12px; }
-.d13 .fd-head { display: flex; align-items: center; gap: 11px; }
-.d13 .fd-mk { width: 40px; height: 40px; border-radius: 50%; flex: none; display: flex; align-items: center; justify-content: center; background: color-mix(in srgb, var(--npig) 12%, transparent); }
-.d13 .fd-mk .elmark { width: 22px; height: 22px; fill: var(--npig); }
+.d13 .fd-card { background: var(--cardstock); border: 1px solid var(--paperHair); border-radius: 16px; box-shadow: var(--shadow-card); padding: 13px 15px; margin-top: 12px; }
+.d13 .fd-head { display: flex; align-items: center; gap: 12px; }
+.d13 .fd-mk { width: 44px; height: 44px; border-radius: 12px; flex: none; display: flex; align-items: center; justify-content: center; background: color-mix(in srgb, var(--pig) 11%, transparent); border: 1px solid color-mix(in srgb, var(--pig) 30%, transparent); }
+.d13 .fd-mk .elmark { width: 25px; height: 25px; fill: var(--pigDeep); }
 .d13 .fd-id { flex: 1; min-width: 0; }
-.d13 .fd-name { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 500; color: var(--ink); line-height: 1.1; }
-.d13 .fd-name .fd-zh { font-family: 'Noto Serif TC', serif; font-size: 15px; color: var(--inkLight); margin-left: 3px; }
-.d13 .fd-sub { font-size: 11px; letter-spacing: 0.4px; color: var(--inkLight); margin-top: 2px; }
-.d13 .fd-badges { display: flex; flex-direction: column; gap: 4px; align-items: flex-end; flex: none; }
-.d13 .fd-split { margin: 13px 0 4px; }
-.d13 .fd-bar { display: flex; height: 9px; border-radius: 5px; overflow: hidden; background: var(--borderLight); }
-.d13 .fd-bar i { height: 100%; display: block; }
-.d13 .fd-bar i.yang { background: color-mix(in srgb, var(--npig) 36%, transparent); }
-.d13 .fd-bar i.yin { background: color-mix(in srgb, var(--npig) 74%, transparent); }
-.d13 .fd-bar-lbl { display: flex; justify-content: space-between; font-size: 10px; color: var(--inkLight); margin-top: 5px; }
-.d13 .fd-bar-lbl b { color: var(--inkSoft); font-weight: 600; }
-.d13 .fd-brief { font-size: 13.5px; line-height: 1.55; color: var(--inkSoft); margin: 11px 0 13px; }
-.d13 .fd-readbtn { width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 7px; padding: 9px 14px; border-radius: 999px; background: var(--ink); color: var(--cream); border: none; font-family: 'EB Garamond', serif; font-size: 11px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase; cursor: pointer; transition: transform .18s var(--ease-out), background .18s; }
-.d13 .fd-readbtn:hover { background: #1c1916; transform: translateY(-1px); }
-.d13 .fd-readbtn:active { transform: translateY(0); }
-.d13 .fd-readbtn .uico { width: 13px; height: 13px; }
+.d13 .fd-name { font-family: 'Cormorant Garamond', serif; font-size: 23px; font-weight: 500; color: var(--ink); line-height: 1.05; }
+.d13 .fd-name .zh { font-family: 'Noto Serif TC', serif; font-size: 16px; color: var(--inkLight); margin-left: 5px; }
+.d13 .fd-sub { font-size: 11.5px; letter-spacing: 0.3px; color: var(--inkLight); margin-top: 3px; }
+.d13 .fd-badges { display: flex; flex-direction: column; gap: 5px; align-items: flex-end; flex: none; }
+.d13 .fd-role { font-family: 'EB Garamond', serif; font-size: 9px; font-weight: 700; letter-spacing: 0.7px; text-transform: uppercase; padding: 4px 10px; border-radius: 999px; color: #fff; display: inline-flex; align-items: center; gap: 3px; white-space: nowrap; }
+.d13 .fd-role.cat { background: var(--up); }
+.d13 .fd-role.fric { background: var(--down); }
+.d13 .fd-role2 { font-family: 'EB Garamond', serif; font-size: 8.5px; font-weight: 600; letter-spacing: 0.9px; text-transform: uppercase; padding: 3px 9px; border-radius: 999px; color: var(--inkSoft); background: var(--cardstock); border: 1px solid var(--borderStd); white-space: nowrap; }
+.d13 .fd-brief { font-size: 13.5px; line-height: 1.5; color: var(--inkSoft); margin-top: 11px; min-height: 40px; }
+.d13 .fd-foot { position: relative; display: flex; align-items: center; gap: 12px; margin-top: 13px; }
+.d13 .fd-foot .fd-track { flex: 1 1 auto; height: 9px; }
+.d13 .fd-pct { position: absolute; top: -2px; left: 2px; z-index: 2; font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 600; letter-spacing: 0.3px; color: var(--inkSoft); }
+.d13 .fd-arrow { width: 34px; height: 34px; flex: none; border-radius: 999px; background: var(--ink); color: var(--silk); display: flex; align-items: center; justify-content: center; border: none; cursor: pointer; box-shadow: 0 4px 12px rgba(40,30,20,0.28); }
+.d13 .fd-arrow svg { width: 15px; height: 15px; }
 
-.d13 .faces-cap { font-family: 'EB Garamond', serif; font-size: 10px; font-weight: 500; letter-spacing: 2.5px; text-transform: uppercase; color: var(--inkLight); margin: 17px 0 9px; }
-.d13 .faces-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.d13 .faces-grid.solo { grid-template-columns: 1fr 1fr; }
-.d13 .face-card { position: relative; text-align: left; background: var(--cardstock); border: 1px solid var(--borderStd); border-radius: 14px; box-shadow: var(--shadow-card); padding: 9px 9px 11px; cursor: pointer; font-family: inherit; color: inherit; display: flex; flex-direction: column; -webkit-tap-highlight-color: transparent; transition: box-shadow .2s, border-color .2s, transform .18s var(--ease-out); }
-.d13 .face-card:hover { transform: translateY(-2px); }
-.d13 .face-card.lead { border-color: color-mix(in srgb, var(--npig) 50%, var(--borderStd)); box-shadow: 0 6px 16px rgba(60,46,28,0.12); }
-.d13 .face-card .fc-lead { position: absolute; top: 8px; right: 8px; z-index: 3; font-family: 'EB Garamond', serif; font-size: 8px; font-weight: 600; letter-spacing: 1.2px; text-transform: uppercase; color: var(--silk); background: var(--npig); border-radius: 999px; padding: 2px 8px; }
-.d13 .face-card .fc-art { position: relative; height: 104px; border-radius: 10px; overflow: hidden; margin-bottom: 9px; background: color-mix(in srgb, var(--npig) 12%, var(--silk)); }
-.d13 .face-card .fc-art img { width: 100%; height: 100%; object-fit: cover; opacity: 0.88; }
-.d13 .face-card .fc-artmk { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); width: 34px; height: 34px; display: flex; align-items: center; justify-content: center; }
-.d13 .face-card .fc-artmk .elmark { width: 30px; height: 30px; fill: #f6f1e6; opacity: 0.92; filter: drop-shadow(0 1px 3px rgba(20,17,13,0.5)); }
-.d13 .face-card .fc-name { font-family: 'Cormorant Garamond', serif; font-size: 17px; font-weight: 600; color: var(--ink); line-height: 1.1; }
-.d13 .face-card .fc-reg { font-size: 9.5px; letter-spacing: 0.4px; color: var(--inkLight); margin: 3px 0 6px; }
-.d13 .face-card .fc-reg .fc-zh { font-family: 'Noto Serif TC', serif; font-size: 11px; }
-.d13 .face-card .fc-abs { font-family: 'Cormorant Garamond', serif; font-size: 13.5px; line-height: 1.3; color: var(--inkSoft); margin-bottom: 10px; flex: 1; }
-.d13 .face-card .fc-read { align-self: flex-start; display: inline-flex; align-items: center; gap: 5px; font-family: 'EB Garamond', serif; font-size: 9.5px; font-weight: 600; letter-spacing: 1.2px; text-transform: uppercase; color: var(--silk); background: var(--ink); border-radius: 999px; padding: 4px 11px; }
-.d13 .face-card .fc-read .uico { width: 10px; height: 10px; }
+.d13 .faces-cap { font-family: 'EB Garamond', serif; font-size: 10px; font-weight: 500; letter-spacing: 2.5px; text-transform: uppercase; color: var(--inkLight); margin: 14px 0 9px; }
+
+/* Ten-God faces as an expandable column accordion (face-shelf) */
+.d13 .face-shelf { display: flex; gap: 8px; flex: 1 1 auto; min-height: 0; align-items: stretch; margin-top: 2px; }
+.d13 .face-shelf .gal-card { flex: 0 0 88px; height: auto; align-self: stretch; background: var(--cardstock); border: 1px solid var(--borderStd); border-radius: 16px; box-shadow: 0 8px 18px rgba(60,46,28,0.07); overflow: hidden; display: flex; flex-direction: column; transition: flex-basis .32s cubic-bezier(.22,1,.36,1); cursor: pointer; }
+.d13 .face-shelf .gal-card.lead { border: 1.5px solid color-mix(in srgb, var(--pig) 55%, var(--borderStd)); box-shadow: 0 14px 30px rgba(60,46,28,0.18); }
+.d13 .face-shelf .gal-card.open { flex: 1 1 auto; cursor: default; }
+.d13 .face-shelf .gal-card:not(.open) > .gal-art, .d13 .face-shelf .gal-card:not(.open) > .gal-body { display: none; }
+.d13 .face-shelf .gal-card.open > .fs-tab { display: none; }
+/* collapsed column tab */
+.d13 .fs-tab { position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 7px; padding: 13px 7px 14px; height: 100%; }
+.d13 .fs-bg { position: absolute; inset: 0; z-index: 0; background-size: cover; background-position: center 44%; opacity: 0.34; mix-blend-mode: multiply; -webkit-mask-image: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.5) 26%, #000 58%); mask-image: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.5) 26%, #000 58%); }
+.d13 .fs-tab .fs-mk { position: relative; z-index: 2; width: 26px; height: 26px; border-radius: 7px; flex: none; display: flex; align-items: center; justify-content: center; background: rgba(248,244,236,0.78); border: 1px solid color-mix(in srgb, var(--pig) 40%, transparent); }
+.d13 .fs-tab .fs-mk .elmark { width: 15px; height: 15px; fill: var(--pigDeep); }
+.d13 .fs-tab .fs-label { position: relative; z-index: 2; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px; }
+.d13 .fs-tab .fs-name { font-family: 'Cormorant Garamond', serif; font-size: 15px; line-height: 1.12; font-weight: 600; color: var(--ink); text-wrap: balance; }
+.d13 .fs-tab .fs-dom { font-family: 'EB Garamond', serif; font-size: 8.5px; line-height: 1.22; font-weight: 600; letter-spacing: 0.8px; text-transform: uppercase; color: var(--pigDeep); }
+
+/* expanded face card body */
+.d13 .gal-art { position: relative; height: 104px; background: color-mix(in srgb, var(--pig) 12%, var(--silk)); }
+.d13 .gal-art img { width: 100%; height: 100%; object-fit: cover; opacity: 0.9; }
+.d13 .fc-artmk { position: absolute; left: 8px; top: 8px; width: 24px; height: 24px; border-radius: 7px; background: rgba(43,39,34,0.40); display: flex; align-items: center; justify-content: center; z-index: 2; }
+.d13 .fc-artmk .elmark { width: 15px; height: 15px; fill: #f6f1e6; opacity: 0.95; filter: drop-shadow(0 1px 2px rgba(20,17,13,0.45)); }
+.d13 .fc-lead { position: absolute; top: 8px; right: 8px; z-index: 6; font-family: 'EB Garamond', serif; font-size: 8px; font-weight: 600; letter-spacing: 1.2px; text-transform: uppercase; color: var(--silk); background: var(--pigDeep); border-radius: 999px; padding: 2px 9px; box-shadow: 0 2px 6px rgba(20,17,13,0.22); }
+.d13 .fc-dormant { position: absolute; top: 8px; right: 8px; z-index: 6; font-family: 'EB Garamond', serif; font-size: 8px; font-weight: 600; letter-spacing: 1.2px; text-transform: uppercase; color: var(--inkSoft); background: rgba(248,244,236,0.94); border: 1px dashed var(--paperHair); border-radius: 999px; padding: 2px 9px; }
+.d13 .gal-body { padding: 11px 14px; display: flex; flex-direction: column; flex: 1; }
+.d13 .gal-name { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 600; color: var(--ink); line-height: 1.05; min-height: 22px; }
+.d13 .fc-dom { width: 100%; margin-top: 8px; }
+.d13 .fc-dom-track { height: 5px; border-radius: 999px; background: var(--borderLight); overflow: hidden; border: 1px solid color-mix(in srgb, var(--pig) 16%, transparent); }
+.d13 .fc-dom-track i { display: block; height: 100%; background: color-mix(in srgb, var(--pig) 58%, transparent); }
+.d13 .fc-dom-lbl { display: flex; justify-content: space-between; align-items: baseline; gap: 6px; white-space: nowrap; font-family: 'EB Garamond', serif; font-size: 7.5px; font-weight: 600; letter-spacing: 0.3px; text-transform: uppercase; color: var(--inkLight); margin-top: 5px; }
+.d13 .gal-chips { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; margin-top: 10px; min-height: 26px; }
+.d13 .fc-yy { display: inline-flex; align-items: center; gap: 5px; font-family: 'EB Garamond', serif; font-size: 9px; font-weight: 600; letter-spacing: 0.8px; text-transform: uppercase; color: var(--inkSoft); background: var(--quiet-bg); border: 1px solid var(--quiet-border); border-radius: 999px; padding: 3px 9px 3px 4px; }
+.d13 .fc-yy .yysign { width: 14px; height: 14px; flex: none; }
+.d13 .fc-kw { display: flex; flex-wrap: nowrap; gap: 3px; margin-top: 7px; min-height: 20px; }
+.d13 .fc-kw span { font-family: 'EB Garamond', serif; font-size: 7.5px; font-weight: 600; letter-spacing: 0.2px; text-transform: uppercase; white-space: nowrap; color: var(--pigDeep); background: color-mix(in srgb, var(--pig) 9%, transparent); border: 1px solid color-mix(in srgb, var(--pig) 26%, transparent); border-radius: 6px; padding: 3px 5px; }
+.d13 .fc-zone { margin-top: 8px; padding-top: 7px; border-top: 1px solid var(--borderLight); }
+.d13 .gal-body > .fc-zone:last-of-type { flex: 1 1 auto; }
+.d13 .fc-zlabel { font-family: 'EB Garamond', serif; font-size: 8px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; color: var(--pigDeep); margin-bottom: 5px; }
+.d13 .fc-domain { font-family: 'EB Garamond', serif; font-size: 11.5px; line-height: 1.4; color: var(--inkLight); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 32px; }
+.d13 .fc-domain b { color: var(--inkSoft); font-weight: 600; }
+.d13 .fc-teaser { font-family: 'Cormorant Garamond', serif; font-size: 13px; line-height: 1.32; color: var(--inkSoft); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.d13 .fc-foot { margin-top: auto; display: flex; align-items: center; justify-content: flex-end; padding-top: 9px; }
+.d13 .fc-arrow { width: 30px; height: 30px; flex: none; border-radius: 999px; border: none; background: var(--ink); color: var(--silk); display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: 0 4px 12px rgba(40,30,20,0.28); }
+.d13 .fc-arrow svg { width: 14px; height: 14px; }
+.d13 .fc-arrow.muted { background: var(--cardstock); color: var(--bronzeDark); border: 1.5px solid color-mix(in srgb, var(--bronze) 50%, transparent); box-shadow: none; }
+
+/* ───────── P11–P14 · element + persona reading pages ───────── */
+.d13 .screen-pad.dk-metal .hero, .d13 .screen-pad.dk-earth .hero, .d13 .screen-pad.dk-water .hero, .d13 .screen-pad.dk-wood .hero, .d13 .screen-pad.dk-fire .hero { height: 128px; margin-top: 12px; }
+.d13 .screen-pad[class*="dk-"] .hero .scrim { background: linear-gradient(to top, var(--silk) 1%, color-mix(in srgb, var(--silk) 78%, transparent) 16%, color-mix(in srgb, var(--silk) 30%, transparent) 38%, transparent 64%); }
+.d13 .hero .mk { position: absolute; right: 14px; top: 14px; width: 40px; height: 40px; color: #2B2722; fill: #2B2722; opacity: 0.16; z-index: 2; }
+.d13 .screen-pad[class*="dk-"] .hero .hc { bottom: 11px; }
+.d13 .screen-pad[class*="dk-"] .hero .reye { color: var(--bronzeDark); font-weight: 600; }
+.d13 .screen-pad[class*="dk-"] .hero .reye .elmark { color: var(--pigDeep); fill: var(--pigDeep); }
+.d13 .screen-pad[class*="dk-"] .hero .htitle { color: var(--ink); }
+.d13 .layer.tinted { background: color-mix(in srgb, var(--pig) 6%, transparent); border-color: color-mix(in srgb, var(--pig) 25%, transparent); }
+.d13 .layer.tinted .layer-label { color: var(--pigDeep); }
+.d13 .layer.tinted-wood { background: rgba(122,158,110,0.07); border-color: rgba(122,158,110,0.26); }
+.d13 .layer.tinted-wood .layer-label { color: var(--woodDeep); }
+.d13 .read-lede { font-family: 'Cormorant Garamond', serif; font-size: 19px; line-height: 1.34; color: var(--ink); margin: 12px 0 4px; }
+.d13 .read-lede b { font-weight: 600; }
+.d13 .layer .pull { display: block; font-family: 'Cormorant Garamond', serif; font-size: 14.5px; font-style: italic; color: var(--pigDeep); margin-top: 9px; padding-top: 9px; border-top: 1px solid color-mix(in srgb, var(--pig) 18%, transparent); }
+.d13 .sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin: 16px 0 4px; }
+.d13 .sec-head .t { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 600; color: var(--ink); }
+.d13 .sec-head .k { font-family: 'EB Garamond', serif; font-size: 9px; font-weight: 600; letter-spacing: 1.6px; text-transform: uppercase; color: var(--inkLight); }
+.d13 .sec-sub { font-size: 12.5px; line-height: 1.45; color: var(--inkLight); margin-bottom: 10px; }
+.d13 .dd-list { display: flex; flex-direction: column; gap: 8px; }
+.d13 .dd-card { position: relative; display: grid; grid-template-columns: 38px 1fr 26px; align-items: center; gap: 12px; background: var(--cardstock); border: 1px solid var(--borderStd); border-radius: 13px; box-shadow: var(--shadow-card); padding: 12px 13px; text-align: left; }
+.d13 .dd-ic { width: 38px; height: 38px; border-radius: 10px; flex: none; display: flex; align-items: center; justify-content: center; background: color-mix(in srgb, var(--pig) 10%, transparent); border: 1px solid color-mix(in srgb, var(--pig) 26%, transparent); color: var(--pigDeep); }
+.d13 .dd-ic svg { width: 20px; height: 20px; }
+.d13 .dd-name { font-family: 'Cormorant Garamond', serif; font-size: 16.5px; font-weight: 600; color: var(--ink); line-height: 1.1; display: block; }
+.d13 .dd-tease { font-size: 12px; line-height: 1.4; color: var(--inkSoft); margin-top: 2px; display: block; }
+.d13 .dd-go { width: 26px; height: 26px; border-radius: 999px; flex: none; display: flex; align-items: center; justify-content: center; background: color-mix(in srgb, var(--pig) 12%, transparent); color: var(--pigDeep); }
+.d13 .dd-go svg { width: 13px; height: 13px; }
+.d13 .dd-card.locked .dd-name, .d13 .dd-card.locked .dd-tease { color: var(--inkLight); }
+.d13 .dd-card.locked .dd-go { background: color-mix(in srgb, var(--advisor) 12%, transparent); color: var(--advisor); }
+.d13 .pin { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: 1px; color: var(--advisor); background: color-mix(in srgb, var(--advisor) 10%, transparent); border: 1px solid color-mix(in srgb, var(--advisor) 32%, transparent); border-radius: 999px; padding: 3px 10px; margin: 6px 0 10px; }
+.d13 .gate-strip.focus-ring { outline: 2px dashed color-mix(in srgb, var(--advisor) 55%, transparent); outline-offset: 5px; }
 
 /* ───────── live dissolve (P2 · scroll-driven) ───────── */
 .d13 .live-phone .screen { background: var(--frame); }

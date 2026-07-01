@@ -620,7 +620,7 @@ When a non-DM element dominates the chart, it is not just a symbolic presence �
 
 Each profile gives the specific psychological mechanism that illuminates this TG relationship. These are the Tier 1 inputs for `buildAnglesPrompt()`. The polarity pair distinction must drive structural differences in generated content.
 
-#### 比肩 — The Mirror (same-polarity companion)
+#### 比肩 — The Twin (same-polarity companion)
 
 - **Primary:** Markus (1977) self-schema consolidation — highly consolidated self-schemas become progressively resistant to discrepant input, not through hostility but through efficient processing that routes inconsistent information as irrelevant.
 - **Secondary:** Dismissive-avoidant attachment (Bartholomew & Horowitz, 1991) — high self-model positivity, low other-model dependency.
@@ -633,13 +633,13 @@ Each profile gives the specific psychological mechanism that illuminates this TG
 - **Secondary:** Kiesler (1983) complementarity principle — similar-status interactions produce comparison orientation rather than role differentiation.
 - **Key nuance:** 劫财 rivalry is not hostile. It is the structural consequence of a permanent reference point that is close enough to be meaningful and different enough to be competitive. The most important relationships for 劫财 charts are with people like them — both the most useful and the most difficult to surrender to.
 
-#### 食神 — The Muse (same-polarity output)
+#### 食神 — The Artisan (same-polarity output)
 
 - **Primary:** Deci & Ryan (1985) SDT intrinsic motivation — behavior that is "inherently interesting and enjoyable" without external pressure.
 - **Secondary:** Csikszentmihalyi (1990) flow states — deep, effortless engagement where challenge and skill match without deliberate calibration.
 - **Key nuance:** The shadow is precisely the effortlessness. Because output doesn't feel like effort from the inside, depletion accumulates invisibly. Research on intrinsic motivation documents this: over-extension into what feels natural is not lazy — it is the specific risk of the person for whom doing never registered as work.
 
-#### 伤官 — The Edge (cross-polarity output)
+#### 伤官 — The Virtuoso (cross-polarity output)
 
 - **Primary:** Forster & Higgins (1996) reactive creativity — creativity that emerges in response to constraints is structurally different from creativity in comfortable conditions. The 伤官 output is *constituted* by the friction it meets.
 - **Secondary:** SDT's autonomy need under threat (Ryan & Deci, 2000) — when autonomy is thwarted, high-autonomy individuals push back. The 伤官 output is in structural tension with authority not from willful rebellion but because the output genuinely exceeds the existing framework.
@@ -665,7 +665,7 @@ Each profile gives the specific psychological mechanism that illuminates this TG
 - **Tertiary:** McAdams et al. (2001) narrative identity — redemption sequences (bad → good) vs. contamination sequences (good → bad). High-resource 七杀 charts construct redemption sequences; depleted ones construct contamination sequences.
 - **Key nuance:** 七杀 does not grant permission. Does not moderate itself. Does not care whether you survive the encounter. What this builds — when the chart has sufficient resources — is character that could only have come from being forged, not developed. What others carry as virtue, this person carries as the residue of surviving something that didn't grant them the option to fail gracefully.
 
-#### 正官 — The Arbiter (cross-polarity authority)
+#### 正官 — The Magistrate (cross-polarity authority)
 
 - **Primary:** Tyler (2006) legitimacy theory — normative compliance (I follow because the framework is legitimate and I have endorsed it) vs. instrumental compliance (I follow because I have to). The 正官 chart describes normative compliance at its most structurally embedded.
 - **Secondary:** SDT's identified regulation (Ryan & Deci, 2000) — the highest form of extrinsic motivation, where behavior aligns with identity and values even though it originated outside the self.
@@ -1253,12 +1253,12 @@ Ten God names are **engine inputs only**. They never appear in user-facing text 
 |---|---|---|
 | 比肩 | Parallel Self | “the mirroring force” / “the same nature amplifying itself” / “a force that confirms rather than challenges” |
 | 劫财 | The Rival | “the measuring force” / “a near-equal that calibrates by structural competition” / “the lateral pressure that defines the edge” |
-| 食神 | The Muse | “natural creative expression” / “output that arrives without assertion” / “what flows outward when you’re fully yourself” |
-| 伤官 | The Edge | “brilliance in structural tension with frameworks” / “output that consistently exceeds what conventional structures can contain” |
+| 食神 | The Artisan | “natural creative expression” / “output that arrives without assertion” / “what flows outward when you’re fully yourself” |
+| 伤官 | The Virtuoso | “brilliance in structural tension with frameworks” / “output that consistently exceeds what conventional structures can contain” |
 | 偏财 | The Horizon | “broad, distributed engagement” / “ranging widely across material rather than possessing it specifically” |
 | 正财 | The Steward | “disciplined, methodical pursuit” / “specific and earned — the standard applied to what you control” |
 | 七杀 | The General | “the unmediated test” / “pressure that doesn’t grant permission” / “what forges or breaks — no middle outcome” |
-| 正官 | The Arbiter | “framework-mediated recognition” / “a force that tests through a structure it can respect and grants recognition when quality is real” |
+| 正官 | The Magistrate | “framework-mediated recognition” / “a force that tests through a structure it can respect and grants recognition when quality is real” |
 | 偏印 | The Alchemist | “sustained depth” / “nourishment that deepens without redirecting” / “backing from the same register” |
 | 正印 | The Sage | “sustained opening” / “nourishment that deepens and opens toward something specific” |
 

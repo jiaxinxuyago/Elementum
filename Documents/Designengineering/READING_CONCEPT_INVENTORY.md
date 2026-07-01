@@ -7,7 +7,7 @@
 > **NB (resolved 2026-06-26):** the Source-column "DOC6" tags (which meant the **retired Manual**, not the new **DOC6 = Reading Schema**) have been re-pointed to **"Manual (retired)"** to remove the collision. If a concept needs a *live* canonical source for the content pass, re-point it to DOC3 / DOC1 then (the Manual is archived at `_ARCHIVE_Manual_RETIRED.md`).
 **Status:** DRAFT for owner markup · 2026-06-10
 
-> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** Deltas: (1) **2-layer model** — Identity card (Day Master) + Ten-God cards (every present energy); no dominant/secondary *layers* (those are derived role badges). (2) **Polarity faces (B5)** — each energy resolves 1–2 Ten-God personas by polarity; the self element's faces (The Mirror / The Rival) render as Ten-God cards, **separate from the Identity card**. (3) **NEW positional axis (宫位, B6)** — each Ten God *also* reads by pillar position (日支 = partner, 时柱 = children/legacy); see concept **2.6** below. (4) §2 persona names remain the **canonical source** (already correct). The "non-self" / "other element" qualifiers in 2.2/2.3 and the §10 charters are loosened accordingly.
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** Deltas: (1) **2-layer model** — Identity card (Day Master) + Ten-God cards (every present energy); no dominant/secondary *layers* (those are derived role badges). (2) **Polarity faces (B5)** — each energy resolves 1–2 Ten-God personas by polarity; the self element's faces (The Twin / The Rival) render as Ten-God cards, **separate from the Identity card**. (3) **NEW positional axis (宫位, B6)** — each Ten God *also* reads by pillar position (日支 = partner, 时柱 = children/legacy); see concept **2.6** below. (4) §2 persona names remain the **canonical source** (already correct). The "non-self" / "other element" qualifiers in 2.2/2.3 and the §10 charters are loosened accordingly.
 
 ---
 
@@ -16,7 +16,7 @@
 1. **One concept, one canonical user-facing name.** Every UI surface, reading sentence, share asset, and doc uses the canonical name. A synonym on a user-facing surface is a defect.
 2. **Chinese glosses are texture, not vocabulary.** The 汉字 may appear beside the canonical name (ancient-seriousness register) but content must never *require* it.
 3. **Internal names never surface.** Engine/schema terms (`tgPattern`, "Seven Killings", "Indirect Seal", `band`) are code/docs only.
-4. **[OWNER RULING 2026-06-10] Ten Gods use the mythic-persona register** (The Mirror … The Sage — the council, already live in `TG_CARD_DATA`). Because persona names don't self-explain, **every surface that introduces a god MUST carry its structural definition line** (the Profile DB's mechanic phrasing, e.g. The General — "pressure that doesn't grant permission"). Persona name teaches *who*; definition line teaches *how it works*. The Profile DB's own names (The Flow, The Trial, The Root…) are hereby **aliases — do not surface.**
+4. **[OWNER RULING 2026-06-10] Ten Gods use the mythic-persona register** (The Twin … The Sage — the council, already live in `TG_CARD_DATA`). Because persona names don't self-explain, **every surface that introduces a god MUST carry its structural definition line** (the Profile DB's mechanic phrasing, e.g. The General — "pressure that doesn't grant permission"). Persona name teaches *who*; definition line teaches *how it works*. The Profile DB's own names (The Flow, The Trial, The Root…) are hereby **aliases — do not surface.**
 5. **A concept may not be *used* before it is *taught***: no screen presumes a rung the journey hasn't placed (enforced by the Ladder, Part 2).
 
 ---
@@ -37,14 +37,14 @@
 
 | 神 | Canonical | Definition line (mandatory on first appearance) | Aliases (never surface) |
 |---|---|---|---|
-| 比肩 | **The Mirror** | Same nature, same register — the standard you hold yourself to | Parallel Self |
+| 比肩 | **The Twin** | Same nature, same register — the standard you hold yourself to | Parallel Self |
 | 劫财 | **The Rival** | Same nature, different register — the edge of comparison | Rob Wealth |
-| 食神 | **The Muse** | Output that flows from you — giving that feels like being | The Flow · Food God |
-| 伤官 | **The Edge** | Cross-current output — brilliance made of what it meets | Hurt Officer |
+| 食神 | **The Artisan** | Output that flows from you — giving that feels like being | The Flow · Food God |
+| 伤官 | **The Virtuoso** | Cross-current output — brilliance made of what it meets | Hurt Officer |
 | 偏财 | **The Horizon** | Wide-ranging engagement — opportunity sensed at a distance | The Field (god) · Indirect Wealth |
 | 正财 | **The Steward** | Methodical, directed acquisition — value built and kept | The Harvest · Direct Wealth |
 | 七杀 | **The General** | Pressure that doesn't grant permission — the trial that forges | The Trial · Seven Killings |
-| 正官 | **The Arbiter** | Framework-mediated pressure — the standard that legitimizes | The Standard · Direct Officer |
+| 正官 | **The Magistrate** | Framework-mediated pressure — the standard that legitimizes | The Standard · Direct Officer |
 | 偏印 | **The Alchemist** | Unconventional nourishment — insight that transmutes | The Well · Indirect Seal |
 | 正印 | **The Sage** | Nourishment that deepens without redirecting — the root that holds | The Root · Direct Seal |
 

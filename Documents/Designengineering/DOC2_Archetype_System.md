@@ -1,6 +1,6 @@
 # Elementum · Doc 2 — Archetype System
 
-> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** Deltas for this doc: (1) the 50-key Layer-2 taxonomy is **persona-per-god — all 10 Ten Gods are distinct personas** (比肩 The Mirror ≠ 劫财 The Rival); never collapse to 5 families. (2) The reading **navigates DM-relative**: each of the user's 5 elements = one Ten-God *direction* vs their Day Master, and **polarity splits it into up to two faces** surfaced by math (see schema v2.1 §1–§2). (3) Persona names are **locked** to the 2026-06-10 set (The Mirror … The Sage); the Profile-DB names (Flow/Trial/Root) and the Inner-Council concept-art names are **non-surfacing aliases**. (4) Disambiguate vocabulary: the **ten stem archetypes** (Oak…Rain — identity) are a different "ten" from the **ten Ten-God personas** (the faces). (5) The persona layer is promoted from `planned` to the primary reading surface.
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** Deltas for this doc: (1) the 50-key Layer-2 taxonomy is **persona-per-god — all 10 Ten Gods are distinct personas** (比肩 The Twin ≠ 劫财 The Rival); never collapse to 5 families. (2) The reading **navigates DM-relative**: each of the user's 5 elements = one Ten-God *direction* vs their Day Master, and **polarity splits it into up to two faces** surfaced by math (see schema v2.1 §1–§2). (3) Persona names follow the **2026-06-30 FACES-handoff register** (`d13/IMPLEMENTATION_README §4`): The Twin · The Rival · The Sage · The Alchemist · The Artisan · The Virtuoso · The Steward · The Horizon · The General · The Magistrate — this revised **4** from the 2026-06-10 set (Mirror→Twin, Muse→Artisan, Edge→Virtuoso, Arbiter→Magistrate). The Profile-DB names (Flow/Trial/Root) and the Inner-Council concept-art names are **non-surfacing aliases**. (4) Disambiguate vocabulary: the **ten stem archetypes** (Oak…Rain — identity) are a different "ten" from the **ten Ten-God personas** (the faces). (5) The persona layer is promoted from `planned` to the primary reading surface.
 
 ---
 
@@ -126,7 +126,7 @@ Chinese characters appear only as visual glyphs — never translated inline. The
 
 ### Two layers (v2.1)
 
-> **Owner revision 2026-06-24 (B5 + 2-layer model).** The model is **two layers, not three**: (1) the **Day Master identity card**, and (2) the **energy / Ten-God cards** — *every* present energy gets a reading through its Ten-God persona(s). The old "dominant (Layer 2) vs secondary (Layer 3)" split is **retired**: "dominant/secondary" are now **derived role badges** inside Layer 2, not separate layers. The **self element is included** — its 比肩 (The Mirror) / 劫财 (The Rival) faces render as energy cards, in a section **separate from the Layer-1 identity reading**. The 50-key taxonomy below is unchanged (it is the `ENERGY_CARD_DATA[element_god]` pool); only the old non-DM selection rule is dropped. ⚠ The generation scripts referenced in the §3 lock note must take the same 3→2 update.
+> **Owner revision 2026-06-24 (B5 + 2-layer model).** The model is **two layers, not three**: (1) the **Day Master identity card**, and (2) the **energy / Ten-God cards** — *every* present energy gets a reading through its Ten-God persona(s). The old "dominant (Layer 2) vs secondary (Layer 3)" split is **retired**: "dominant/secondary" are now **derived role badges** inside Layer 2, not separate layers. The **self element is included** — its 比肩 (The Twin) / 劫财 (The Rival) faces render as energy cards, in a section **separate from the Layer-1 identity reading**. The 50-key taxonomy below is unchanged (it is the `ENERGY_CARD_DATA[element_god]` pool); only the old non-DM selection rule is dropped. ⚠ The generation scripts referenced in the §3 lock note must take the same 3→2 update.
 
 | Layer | What it is | Key formula | Count |
 |---|---|---|---|
@@ -177,54 +177,54 @@ Example: 金_比肩
 
 | Key | Persona name | DM element | Structural interaction |
 |---|---|---|---|
-| 金_比肩 | The Mirror | Metal | Metal precision amplifying Metal — same-polarity self-referencing loop |
+| 金_比肩 | The Twin | Metal | Metal precision amplifying Metal — same-polarity self-referencing loop |
 | 金_劫财 | The Rival | Metal | Metal meeting Metal cross-polarity — similar nature, competitive register |
-| 金_食神 | The Muse | Earth | Earth generating Metal same-polarity — stability as natural source of precision |
-| 金_伤官 | The Edge | Earth | Earth generating Metal cross-polarity — precision that structurally exceeds its container |
+| 金_食神 | The Artisan | Earth | Earth generating Metal same-polarity — stability as natural source of precision |
+| 金_伤官 | The Virtuoso | Earth | Earth generating Metal cross-polarity — precision that structurally exceeds its container |
 | 金_偏财 | The Horizon | Fire | Fire directing Metal broadly — warmth applied to precision as distributed material |
 | 金_正财 | The Steward | Fire | Fire directing Metal cross-polarity — focused warmth shaping the edge with discipline |
 | 金_七杀 | The General | Wood | Metal pressing Wood same-polarity — the cutting force that doesn't grant permission |
-| 金_正官 | The Arbiter | Wood | Metal setting standard for Wood cross-polarity — precision that tests and grants recognition |
+| 金_正官 | The Magistrate | Wood | Metal setting standard for Wood cross-polarity — precision that tests and grants recognition |
 | 金_偏印 | The Alchemist | Water | Metal generating Water same-polarity — precision as the source sustaining depth |
 | 金_正印 | The Sage | Water | Metal generating Water cross-polarity — precision nourishing and opening intelligence |
-| 木_比肩 | The Mirror | Wood | Reach amplifying reach — developmental instinct without definition or counterforce |
+| 木_比肩 | The Twin | Wood | Reach amplifying reach — developmental instinct without definition or counterforce |
 | 木_劫财 | The Rival | Wood | Reach meeting reach cross-polarity — growth competing with growth |
-| 木_食神 | The Muse | Water | Water generating Wood same-polarity — depth as natural source of effortless reach |
-| 木_伤官 | The Edge | Water | Water generating Wood cross-polarity — depth producing reach that exceeds its container |
+| 木_食神 | The Artisan | Water | Water generating Wood same-polarity — depth as natural source of effortless reach |
+| 木_伤官 | The Virtuoso | Water | Water generating Wood cross-polarity — depth producing reach that exceeds its container |
 | 木_偏财 | The Horizon | Metal | Metal directing Wood broadly — precision ranging across living material |
 | 木_正财 | The Steward | Metal | Metal directing Wood cross-polarity — precision shaping reach toward structured outcomes |
 | 木_七杀 | The General | Earth | Wood pressing Earth same-polarity — the destabilising reach that roots break stone |
-| 木_正官 | The Arbiter | Earth | Wood setting standard for Earth cross-polarity — movement asking whether stability is living |
+| 木_正官 | The Magistrate | Earth | Wood setting standard for Earth cross-polarity — movement asking whether stability is living |
 | 木_偏印 | The Alchemist | Fire | Wood generating Fire same-polarity — reach as fuel sustaining warmth |
 | 木_正印 | The Sage | Fire | Wood generating Fire cross-polarity — reach nourishing warmth and opening direction |
-| 火_比肩 | The Mirror | Fire | Warmth amplifying warmth — illumination running without containment |
+| 火_比肩 | The Twin | Fire | Warmth amplifying warmth — illumination running without containment |
 | 火_劫财 | The Rival | Fire | Warmth meeting warmth cross-polarity — presence competing with presence |
-| 火_食神 | The Muse | Wood | Wood generating Fire same-polarity — reach as natural source of warmth and expression |
-| 火_伤官 | The Edge | Wood | Wood generating Fire cross-polarity — reach producing warmth that challenges frameworks |
+| 火_食神 | The Artisan | Wood | Wood generating Fire same-polarity — reach as natural source of warmth and expression |
+| 火_伤官 | The Virtuoso | Wood | Wood generating Fire cross-polarity — reach producing warmth that challenges frameworks |
 | 火_偏财 | The Horizon | Water | Water directing Fire broadly — depth ranging across warmth as distributed material |
 | 火_正财 | The Steward | Water | Water directing Fire cross-polarity — depth shaping illumination into structured purpose |
 | 火_七杀 | The General | Metal | Fire pressing Metal same-polarity — the forge that doesn't moderate itself |
-| 火_正官 | The Arbiter | Metal | Fire setting standard for Metal cross-polarity — the forge that refines and grants recognition |
+| 火_正官 | The Magistrate | Metal | Fire setting standard for Metal cross-polarity — the forge that refines and grants recognition |
 | 火_偏印 | The Alchemist | Earth | Fire generating Earth same-polarity — warmth as activation source for stability |
 | 火_正印 | The Sage | Earth | Fire generating Earth cross-polarity — warmth nourishing stability and opening movement |
-| 土_比肩 | The Mirror | Earth | Stability amplifying stability — holding force deepening without movement |
+| 土_比肩 | The Twin | Earth | Stability amplifying stability — holding force deepening without movement |
 | 土_劫财 | The Rival | Earth | Stability meeting stability cross-polarity — ground competing with ground |
-| 土_食神 | The Muse | Fire | Fire generating Earth same-polarity — warmth as natural source of stable deposits |
-| 土_伤官 | The Edge | Fire | Fire generating Earth cross-polarity — warmth building structure beyond expectation |
+| 土_食神 | The Artisan | Fire | Fire generating Earth same-polarity — warmth as natural source of stable deposits |
+| 土_伤官 | The Virtuoso | Fire | Fire generating Earth cross-polarity — warmth building structure beyond expectation |
 | 土_偏财 | The Horizon | Wood | Wood directing Earth broadly — reach ranging across stable material |
 | 土_正财 | The Steward | Wood | Wood directing Earth cross-polarity — reach shaping stability into structured cultivation |
 | 土_七杀 | The General | Water | Earth pressing Water same-polarity — the dam blocking depth without permission |
-| 土_正官 | The Arbiter | Water | Earth setting standard for Water cross-polarity — containment asking whether depth has form |
+| 土_正官 | The Magistrate | Water | Earth setting standard for Water cross-polarity — containment asking whether depth has form |
 | 土_偏印 | The Alchemist | Metal | Earth generating Metal same-polarity — stability as quiet source of precision |
 | 土_正印 | The Sage | Metal | Earth generating Metal cross-polarity — stability nourishing precision and opening direction |
-| 水_比肩 | The Mirror | Water | Depth amplifying depth — perceptual intelligence running without form |
+| 水_比肩 | The Twin | Water | Depth amplifying depth — perceptual intelligence running without form |
 | 水_劫财 | The Rival | Water | Depth meeting depth cross-polarity — intelligence competing with intelligence |
-| 水_食神 | The Muse | Metal | Metal generating Water same-polarity — precision as natural source of flowing depth |
-| 水_伤官 | The Edge | Metal | Metal generating Water cross-polarity — precision producing depth that exceeds its container |
+| 水_食神 | The Artisan | Metal | Metal generating Water same-polarity — precision as natural source of flowing depth |
+| 水_伤官 | The Virtuoso | Metal | Metal generating Water cross-polarity — precision producing depth that exceeds its container |
 | 水_偏财 | The Horizon | Earth | Earth directing Water broadly — stability ranging across depth as distributed material |
 | 水_正财 | The Steward | Earth | Earth directing Water cross-polarity — stability containing depth into productive form |
 | 水_七杀 | The General | Fire | Water pressing Fire same-polarity — the extinguishing force that doesn't moderate itself |
-| 水_正官 | The Arbiter | Fire | Water setting standard for Fire cross-polarity — depth asking whether warmth is sustainable |
+| 水_正官 | The Magistrate | Fire | Water setting standard for Fire cross-polarity — depth asking whether warmth is sustainable |
 | 水_偏印 | The Alchemist | Wood | Water generating Wood same-polarity — depth as nourishing source of reach |
 | 水_正印 | The Sage | Wood | Water generating Wood cross-polarity — depth nourishing reach and opening form |
 
@@ -273,10 +273,10 @@ Chart: 乙亥 庚辰 庚寅 乙酉 · DM: 庚 Metal · **strong (0.72) · concen
 
 | Key | Element | Presence | Lead face (god) | Role |
 |---|---|---|---|---|
-| `金_比肩` | Metal | 23% | 比肩 The Mirror (yang) | core / self |
+| `金_比肩` | Metal | 23% | 比肩 The Twin (yang) | core / self |
 | `木_正财` | Wood | 33% | 正财 The Steward (yin-led; 偏财 The Horizon also present) | 财 — catalyst |
 | `土_偏印` | Earth | 33% | 偏印 The Alchemist (yang) | 印 — friction |
-| `水_食神` | Water | 6% | 食神 The Muse (yang) | 食伤 — flow (食伤生财) |
+| `水_食神` | Water | 6% | 食神 The Artisan (yang) | 食伤 — flow (食伤生财) |
 | `火_七杀` | Fire | 5% | 七杀 The General (yang) | 官杀 — the sought forge (用神) |
 
 *(2-layer model — no Layer 3. The old `庚_concentrated_pure` + Layer-3 `木_正财` derivation is retired; the pre-fix golden file `elementum_section1_geng_concentrated_pure_fire.html` is kept only as a generic pure-pattern sample.)*

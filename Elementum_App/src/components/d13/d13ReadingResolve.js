@@ -28,7 +28,7 @@ const CTL = { wood: 'earth', earth: 'water', water: 'fire', fire: 'metal', metal
 // presence-neutral (the ghost register already signals absence) and the
 // teasers follow the design's three-part "·" shape. No internal vocabulary.
 const PERSONA_COPY = {
-  '比肩': { // The Mirror
+  '比肩': { // The Twin
     tail: 'the inner standard you measure by before any other.',
     teaser: 'Where this conviction turns to a closed door · how it shapes your work and bonds · the season it stands alone.',
   },
@@ -36,11 +36,11 @@ const PERSONA_COPY = {
     tail: 'the edge that sharpens against equals.',
     teaser: 'Where this drive turns to loss through rivalry · how it shapes your work and bonds · the season it competes.',
   },
-  '食神': { // The Muse
+  '食神': { // The Artisan
     tail: "ease that makes things, expression that flows before it's forced.",
     teaser: 'Where this ease turns to drift · how it shapes your work and bonds · the season it pours.',
   },
-  '伤官': { // The Edge
+  '伤官': { // The Virtuoso
     tail: 'brilliance that will not be told how.',
     teaser: 'Where this brilliance turns to friction · how it shapes your work and bonds · the season it cuts.',
   },
@@ -56,7 +56,7 @@ const PERSONA_COPY = {
     tail: "pressure that doesn't grant permission. You don't carry it; you meet it.",
     teaser: 'Where this pressure turns to harshness · how it shapes your work and bonds · the season it tests.',
   },
-  '正官': { // The Arbiter
+  '正官': { // The Magistrate
     tail: 'authority that earns its weight by being fair.',
     teaser: 'Where this order turns to rigidity · how it shapes your work and bonds · the season it judges.',
   },
@@ -119,9 +119,9 @@ export const ENERGY_ART = {
 export function tenGodForEnergy(dmEl, el) {
   const d = (dmEl || '').toLowerCase();
   const e = (el || '').toLowerCase();
-  if (e === d) return '比肩';          // self / companion → The Mirror
+  if (e === d) return '比肩';          // self / companion → The Twin
   if (GEN[e] === d) return '偏印';     // resource (feeds DM) → The Alchemist
-  if (GEN[d] === e) return '食神';     // output (DM feeds it) → The Muse
+  if (GEN[d] === e) return '食神';     // output (DM feeds it) → The Artisan
   if (CTL[d] === e) return '偏财';     // wealth (DM controls it) → The Horizon
   if (CTL[e] === d) return '七杀';     // officer (controls DM) → The General
   return '比肩';

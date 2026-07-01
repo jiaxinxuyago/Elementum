@@ -1501,8 +1501,8 @@ There's also a pattern of caring for others at the level you wish you were cared
 // SOURCE: Free + Pro tier · Ten God personality and domain fields
 export const TG_CARD_DATA = {
   "比肩": {
-    // The Mirror — Same nature, same register
-    name: "The Mirror",  // [INTERNAL · display label]
+    // The Twin — Same nature, same register
+    name: "The Twin",  // [INTERNAL · display label]
     sub: "Same nature, same register",  // [INTERNAL · display label]
     epithet: `The Mirror-Twin · Keeper of the Inner Standard`,  // [INTERNAL · reveal moment label]
     councilRole: `The Internal Compass`,  // [INTERNAL · council function]
@@ -1621,8 +1621,8 @@ export const TG_CARD_DATA = {
   },
 
   "食神": {
-    // The Muse — Same-polarity output — giving that feels like being
-    name: "The Muse",  // [INTERNAL · display label]
+    // The Artisan — Same-polarity output — giving that feels like being
+    name: "The Artisan",  // [INTERNAL · display label]
     sub: "Same-polarity output — giving that feels like being",  // [INTERNAL · display label]
     epithet: `The Celestial Muse · Bearer of the Jade Ladle`,  // [INTERNAL · reveal moment label]
     councilRole: `The Creative Flow`,  // [INTERNAL · council function]
@@ -1681,8 +1681,8 @@ export const TG_CARD_DATA = {
   },
 
   "伤官": {
-    // The Edge — Cross-polarity output — brilliance made of what it meets
-    name: "The Edge",  // [INTERNAL · display label]
+    // The Virtuoso — Cross-polarity output — brilliance made of what it meets
+    name: "The Virtuoso",  // [INTERNAL · display label]
     sub: "Cross-polarity output — brilliance made of what it meets",  // [INTERNAL · display label]
     epithet: `The Rebel Edge · Wielder of the Thunder-String`,  // [INTERNAL · reveal moment label]
     councilRole: `The Disruptive Genius`,  // [INTERNAL · council function]
@@ -1927,8 +1927,8 @@ export const TG_CARD_DATA = {
   },
 
   "正官": {
-    // The Arbiter — Cross-polarity authority — framework-mediated pressure
-    name: "The Arbiter",  // [INTERNAL · display label]
+    // The Magistrate — Cross-polarity authority — framework-mediated pressure
+    name: "The Magistrate",  // [INTERNAL · display label]
     sub: "Cross-polarity authority — framework-mediated pressure",  // [INTERNAL · display label]
     epithet: `The Iron Arbiter · Holder of the Seal of Mandate`,  // [INTERNAL · reveal moment label]
     councilRole: `The Conscience`,  // [INTERNAL · council function]

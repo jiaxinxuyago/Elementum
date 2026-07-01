@@ -27,6 +27,12 @@ export default function D13Sprite() {
       <symbol id="ico-lock" viewBox="0 0 24 24"><g stroke="currentColor" strokeWidth="1.6" fill="none" strokeLinejoin="round"><rect x="5" y="11" width="14" height="9" rx="1.5"></rect><path d="M8 11 V 8 a4 4 0 0 1 8 0 V 11"></path></g></symbol>
       <symbol id="ar-up" viewBox="0 0 24 24"><g stroke="currentColor" strokeWidth="2.4" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M12 19V6"></path><path d="M6 11l6-6 6 6"></path></g></symbol>
       <symbol id="ar-down" viewBox="0 0 24 24"><g stroke="currentColor" strokeWidth="2.4" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M12 5v13"></path><path d="M6 13l6 6 6-6"></path></g></symbol>
+      <symbol id="yy-yang" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10.4" fill="#f4eedf" stroke="#2B2722" strokeWidth="1.5"></circle><circle cx="12" cy="7.4" r="2.2" fill="#2B2722"></circle></symbol>
+      <symbol id="yy-yin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#2B2722"></circle><circle cx="12" cy="16.6" r="2.2" fill="#f4eedf"></circle></symbol>
+      <symbol id="dom-wealth" viewBox="0 0 24 24"><g stroke="currentColor" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round"><ellipse cx="12" cy="6.5" rx="7" ry="2.6"></ellipse><path d="M5 6.5v5c0 1.4 3.1 2.6 7 2.6s7-1.2 7-2.6v-5"></path><path d="M5 11.5v5c0 1.4 3.1 2.6 7 2.6s7-1.2 7-2.6v-5"></path></g></symbol>
+      <symbol id="dom-rel" viewBox="0 0 24 24"><g stroke="currentColor" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M8.5 5.2c1.4 0 2.5 1.1 2.5 2.6 0 2.4-2.5 4-4.5 5.4C4.5 11.8 2 10.2 2 7.8c0-1.5 1.1-2.6 2.5-2.6 1 0 1.7.5 2 1.1.3-.6 1-1.1 2-1.1z" transform="translate(2 2)"></path><path d="M15.5 9.2c1.4 0 2.5 1.1 2.5 2.6 0 2.4-2.5 4-4.5 5.4-2-1.4-4.5-3-4.5-5.4 0-1.5 1.1-2.6 2.5-2.6 1 0 1.7.5 2 1.1.3-.6 1-1.1 2-1.1z"></path></g></symbol>
+      <symbol id="dom-career" viewBox="0 0 24 24"><g stroke="currentColor" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round"><rect x="3.5" y="7.5" width="17" height="12" rx="2"></rect><path d="M8.5 7.5V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.5"></path><path d="M3.5 12.5h17"></path></g></symbol>
+      <symbol id="dom-health" viewBox="0 0 24 24"><g stroke="currentColor" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M3.5 12.5h3l1.6-4 2.8 8 2.4-6 1.4 2h5.3"></path></g></symbol>
     </defs></svg>
   );
 }

@@ -108,7 +108,7 @@ export const ENERGY_CONTENT = {
     art: '/concept-arts/library/t_fire_1_w.png',
   },
   metal: {
-    persona: 'The Arbiter',
+    persona: 'The Magistrate',
     tail: 'judgment that cuts clean. It is the edge the rest of you is organized around.',
     r: 'You name the thing others circle. People trust your read because you do not soften it to be liked.',
     x: 'Spend it where a clear line helps and hold it where warmth matters more — precision lands best when chosen, not constant.',

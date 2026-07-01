@@ -1136,7 +1136,7 @@ Three stacked cards:
 >
 > 1. **Identity ribbon** — `庚 · Metal · [strength chips]` + saturation %  + 1-italic-sentence saturation reading. Same component used as Reveal Section 2 opener.
 > 2. **Energy Blueprint card** — segmented-block element composition (8-cell rows per element, count-keyed) + **Primary Force** sub-card (DM element + ruling TG archetype + 3 chips, inline) + **Secondary Force** sub-card (same shape, secondary TG). The two Force sub-cards live INSIDE the Blueprint card — no extra tap to see them.
-> 3. **Catalyst / Resistance pair** — side-by-side cards, ↑ / ↓ accent. Each shows italic intro + 1–2 element badges (e.g. *Fire · The General*, *Water · The Muse*). Tap chevron to drill into detail.
+> 3. **Catalyst / Resistance pair** — side-by-side cards, ↑ / ↓ accent. Each shows italic intro + 1–2 element badges (e.g. *Fire · The General*, *Water · The Artisan*). Tap chevron to drill into detail.
 > 4. **Secondary cards row** — Seasonal Calibration, Life Chapters, Chart Patterns — smaller cards with chevrons leading to their detail pages.
 >
 > **Why the change:** the older card-menu pattern hid 6 of 8 readings behind a tap. The user's reading deserves to *be present* on first arrival, not gated. The detail pages still exist for deep dives, but the dashboard is the home.
@@ -2998,7 +2998,7 @@ The Inner Council is the central character system of Elementum. Each of the 10 T
 
 #### The Vanguard (Companion Forces — 比肩 · 劫财)
 
-**1 · The Mirror** `比肩`
+**1 · The Twin** `比肩`
 - **Full epithet:** The Mirror-Twin · Keeper of the Inner Standard
 - **Council role:** The Internal Compass
 - **Prop:** The Bronze Mirror of Sincerity — when raised, cancels the noise of others' opinions; only one's own truth remains visible
@@ -3018,7 +3018,7 @@ The Inner Council is the central character system of Elementum. Each of the 10 T
 
 #### The Artisans (Output Forces — 食神 · 伤官)
 
-**3 · The Muse** `食神`
+**3 · The Artisan** `食神`
 - **Full epithet:** The Celestial Muse · Bearer of the Jade Ladle
 - **Council role:** The Creative Flow
 - **Prop:** The Jade Ladle of Abundance — dipped into any situation, it extracts a hidden creative solution that arrives as if it was always there
@@ -3026,7 +3026,7 @@ The Inner Council is the central character system of Elementum. Each of the 10 T
 - **Visual direction:** A relaxed scholar-figure reclining against a pavilion post or low table. Long sleeves, loose clothing. The Jade Ladle rests nearby, a small wisp of steam rising. One hand holds a brush, the other a wine cup. The expression is one of complete ease — not laziness, but zero friction between inner state and output. Ink: soft wash, warm tones, inviting composition.
 - **Element coloring:** Robes and ladle rim in DM element color. The steam carries a hint of element color as it dissipates.
 
-**4 · The Edge** `伤官`
+**4 · The Virtuoso** `伤官`
 - **Full epithet:** The Rebel Edge · Wielder of the Thunder-String
 - **Council role:** The Disruptive Genius
 - **Prop:** The Thunder-String Pipa — music of extraordinary beauty with edges that can shatter glass, expose lies, or break the silence of institutions
@@ -3066,7 +3066,7 @@ The Inner Council is the central character system of Elementum. Each of the 10 T
 - **Visual direction:** A battle-scarred warrior in dark armor standing in a storm. The Seven-Star Halberd rests point-down, held lightly — not threatened, forged. The face carries the specific expression of someone who has survived something and knows what it cost. Not triumphant. Not defeated. The storm in the background is ongoing. Composition: the most dramatic in the council — the figure is a vertical axis in a diagonal world. Ink: heavy, storm-dark washes, strong contrast.
 - **Element coloring:** Armor trim and halberd stars in DM element color. The storm washes behind carry element color in their deepest tones.
 
-**8 · The Arbiter** `正官`
+**8 · The Magistrate** `正官`
 - **Full epithet:** The Iron Arbiter · Holder of the Seal of Mandate
 - **Council role:** The Conscience
 - **Prop:** The Seal of Mandate — when pressed, a decision becomes official, binding, and legitimate; it transforms aspiration into social contract

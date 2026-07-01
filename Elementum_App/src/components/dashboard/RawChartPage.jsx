@@ -52,7 +52,7 @@ const ELEMENT_TO_PIGMENT = {
 function tenGodLabel(stem, dmStem, isDay) {
   if (isDay) return 'Self';
   if (!stem || !dmStem) return '';
-  if (stem === dmStem) return 'The Mirror';
+  if (stem === dmStem) return 'The Twin';
   const dmInfo = STEM_INFO[dmStem];
   const stInfo = STEM_INFO[stem];
   if (!dmInfo || !stInfo) return '';
