@@ -21,7 +21,6 @@ export default class ErrorBoundary extends React.Component {
 
   componentDidCatch(error, info) {
     // Log for debugging; never surface raw codes to the user.
-    // eslint-disable-next-line no-console
     console.error('[Elementum] recovered from render error:', error, info);
   }
 

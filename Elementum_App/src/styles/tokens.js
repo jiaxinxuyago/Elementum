@@ -160,8 +160,8 @@ export const pigments = {
 // (i.e. any value not in the canonical set).
 export const withAlpha = (hex, suffix) => {
   if (!['10', '1A', '40', 'CC'].includes(suffix)) {
-    // dev-time guard — silent in production
-    if (typeof process !== 'undefined' && process.env?.NODE_ENV !== 'production') {
+    // dev-time guard — silent in production (Vite replaces import.meta.env.DEV)
+    if (import.meta.env.DEV) {
       console.warn(`[tokens] Off-ladder alpha "${suffix}" — DOC5 §3.5.A only allows 10/1A/40/CC.`);
     }
   }
