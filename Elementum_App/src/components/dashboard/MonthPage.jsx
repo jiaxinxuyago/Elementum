@@ -1,3 +1,5 @@
+import PanelCard from '../shared/PanelCard.jsx';
+import BackBar from '../shared/BackBar.jsx';
 // ===================================================================
 // ELEMENTUM · MonthPage  (hub → destination, Today tab drill-down)
 // ===================================================================
@@ -8,7 +10,7 @@
 import React from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { monthGrid, flowWindows } from '../../engine/index.js';
-import { Icon } from '../shared/icons';
+
 import { SceneHero } from './VisualTile.jsx';
 import { elementArt } from '../../styles/backgrounds.js';
 import {
@@ -78,16 +80,16 @@ export default function MonthPage({ onBack }) {
       </div>
 
       {/* The Month's Arc — 4 weeks */}
-      <SectionCard label="The Month's Arc · 4 weeks" style={{ marginTop: 10 }}>
+      <PanelCard label="The Month's Arc · 4 weeks" style={{ marginTop: 10 }}>
         <Bars
           data={weekScores}
           labels={['W1', 'W2', 'W3', 'W4']}
           sublabels={['build', 'peak', 'refine', 'rest']}
         />
-      </SectionCard>
+      </PanelCard>
 
       {/* Key Dates */}
-      <SectionCard label="Key Dates" style={{ marginTop: 10 }}>
+      <PanelCard label="Key Dates" style={{ marginTop: 10 }}>
         {keyDates.length ? (
           <div>
             {keyDates.map((kd, i) => (
@@ -113,7 +115,7 @@ export default function MonthPage({ onBack }) {
             fontSize: 13, color: inkLight, padding: '4px 0',
           }}>No standout dates this month — read by week instead.</div>
         )}
-      </SectionCard>
+      </PanelCard>
 
       {/* Lean Into / Avoid */}
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10, marginTop: 10 }}>
@@ -186,21 +188,6 @@ function useKeyDates(year, monthIdx, chart) {
 }
 
 // ───── presentation ────────────────────────────────────────────────
-function SectionCard({ label, children, style }) {
-  return (
-    <section style={{
-      background: cardstockBg, border: `1px solid ${paperHair}`,
-      borderRadius: 12, padding: 12, ...(style || {}),
-    }}>
-      <div style={{
-        fontFamily: "'EB Garamond', Georgia, serif",
-        fontSize: 10, letterSpacing: 2, textTransform: 'uppercase',
-        color: bronzeDark, fontWeight: 500, marginBottom: 10,
-      }}>{label}</div>
-      {children}
-    </section>
-  );
-}
 
 function Bars({ data, labels, sublabels }) {
   const max = Math.max(...data, 1);
@@ -283,18 +270,3 @@ function Marker({ kind, color }) {
   );
 }
 
-function BackBar({ label, onBack }) {
-  return (
-    <button type="button" onClick={onBack}
-      style={{
-        appearance: 'none', background: 'transparent', border: 'none',
-        padding: '4px 0 4px', display: 'inline-flex', alignItems: 'center', gap: 6,
-        cursor: 'pointer', color: inkLight,
-        fontFamily: "'EB Garamond', Georgia, serif",
-        fontSize: 11, letterSpacing: 1.5, textTransform: 'uppercase',
-      }}>
-      <Icon id="ico-chev-l" size={14} color={inkLight} />
-      {label}
-    </button>
-  );
-}
