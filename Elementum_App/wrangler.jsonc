@@ -4,6 +4,16 @@
   // with `npx wrangler deploy`.
   "name": "elementum",
   "compatibility_date": "2025-11-01",
+  // ── CUSTOM DOMAIN — elementum.life (attached 2026-07-01) ──────────────
+  // Cloudflare links the domain to this Worker and auto-issues its HTTPS
+  // certificate. workers_dev:true keeps the old *.workers.dev URL alive and
+  // stops this Worker's deploys from toggling it off (the app is deployed
+  // from two worktrees, so the workers.dev setting must be explicit here).
+  "routes": [
+    { "pattern": "elementum.life", "custom_domain": true }
+  ],
+  "workers_dev": true,
+
   "assets": {
     "directory": "./dist",
     // The app is a single index.html (hash navigation, no client routes),

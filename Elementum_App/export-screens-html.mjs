@@ -22,7 +22,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const BASE = 'http://localhost:5173/';
-const LIVE = 'https://elementum.jiaxinxuyago.workers.dev';
+// Live origin, single-sourced from site.config.json (no hard-coded URLs).
+const LIVE = JSON.parse(fs.readFileSync(new URL('./site.config.json', import.meta.url), 'utf8')).liveUrl;
 const APP = 'D:/Elementum/Elementum_Project/Elementum_App';
 const OUT = 'D:/Elementum/Elementum_Project/Design/assets/Library/Elementum Screen Gallery_CurrentScreens.html';
 
