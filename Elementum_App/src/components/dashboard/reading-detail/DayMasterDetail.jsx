@@ -15,7 +15,7 @@
 import React from 'react';
 import DetailShell from './DetailShell.jsx';
 import { useChart } from '../../../store/chartContext.jsx';
-import { STEM_CARD_DATA, CLASSICAL_STEM_ANCHORS } from '../../../content/archetypeSource.js';
+import { STEM_CARD_DATA, CLASSICAL_STEM_ANCHORS } from '../../../content/index.js';
 import { readingDetailBg, elementArt } from '../../../styles/backgrounds.js';
 import {
   ink, inkSoft, inkLight, bronzeDark,

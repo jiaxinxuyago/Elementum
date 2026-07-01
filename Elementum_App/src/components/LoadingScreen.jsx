@@ -28,7 +28,7 @@ import {
   resolveLongitudeForCalc,
   resolveLocationName,
 } from '../store/chartContext.jsx';
-import { calculateBaziChart } from '../engine/calculator.js';
+import { calculateBaziChart } from '../engine/index.js';
 
 // Ceremonial handoff timing — DOC5 §8 → §9
 const SPOT_MS = 820;          // each energy's moment in the front spotlight
@@ -66,7 +66,7 @@ export default function LoadingScreen({ onComplete }) {
 
   // Warm the Reveal chunk while we wait, so the white-flash handoff isn't
   // interrupted by a lazy-load fallback when onComplete mounts it.
-  useEffect(() => { import('./d13/D13RevealScreen.jsx').catch(() => {}); }, []);
+  useEffect(() => { import('./reading/ReadingRevealScreen.jsx').catch(() => {}); }, []);
 
   // Calculate the chart on mount, hold the ceremonial dwell, then flash out.
   useEffect(() => {

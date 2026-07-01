@@ -44,12 +44,12 @@
   /* The mock iOS status bar is part of the desktop phone-frame illusion — on a
      real device the OS draws the real one, so every mock hides:
        · .el-statusbar  → welcome / onboarding / loading (styles/tokens.jsx)
-       · .d13 .status   → catalogue, energy card, day master, pillar chart,
+       · .reading .status   → catalogue, energy card, day master, pillar chart,
                           reveal/plate  (the "9:41 ●●● ⌃ ▮" row) */
   .el-statusbar {
     display: none !important;
   }
-  .d13 .status {
+  .reading .status {
     display: none !important;
   }
   /* The D13 surfaces fill the frame with position:absolute (inset:0), so they
@@ -59,7 +59,7 @@
      main { padding: '54px …' }) so every page's header sits at the same height
      — the catalogue/energy/day-master/pillar surfaces line up with Today,
      Guidance, Compat and Profile. 54px also clears the real OS status bar. */
-  .d13 .screen-pad {
+  .reading .screen-pad {
     padding-top: 54px !important;
   }
 }

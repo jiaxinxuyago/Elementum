@@ -15,10 +15,10 @@
 import React from 'react';
 import DetailShell from './DetailShell.jsx';
 import { useChart } from '../../../store/chartContext.jsx';
-import { energyContext } from '../../../engine/temporal.js';
+import { energyContext } from '../../../engine/index.js';
 import { Icon } from '../../shared/icons';
 import { readingDetailBg, elementArt } from '../../../styles/backgrounds.js';
-import { tgPersona } from '../../../content/tgNames.js';
+import { tgPersona } from '../../../content/index.js';
 import {
   ink, inkSoft, inkLight, bronzeDark, gold,
   paperHair, cardstockBg, quietBg, quietBorder,

@@ -7,7 +7,7 @@ import {
   resolveLongitudeForCalc,
   resolveLocationName,
 } from './store/chartContext.jsx';
-import { calculateBaziChart } from './engine/calculator.js';
+import { calculateBaziChart } from './engine/index.js';
 import WelcomeScreen from './components/onboarding/WelcomeScreen.jsx';
 import {
   Step1_Year,
@@ -27,8 +27,8 @@ import DashboardShell from './components/dashboard/DashboardShell.jsx';
 import { UpgradeModalProvider, UpgradeModalHost, useUpgrade } from './components/dashboard/UpgradeModal.jsx';
 // Eager — the persistent dashboard chrome: the static D13 tab bar + the
 // shared SVG sprite that supplies every D13 glyph (tabs, element marks, …).
-import D13TabBar from './components/d13/D13TabBar.jsx';
-import D13Sprite from './components/d13/D13Sprite.jsx';
+import ReadingTabBar from './components/reading/ReadingTabBar.jsx';
+import ReadingSprite from './components/reading/ReadingSprite.jsx';
 
 // ── Eager core (no Suspense flash) ──────────────────────────────────────────
 // The reveal + the five nav-bar destinations are loaded into the main bundle
@@ -37,8 +37,8 @@ import D13Sprite from './components/d13/D13Sprite.jsx';
 // blink"). These pull in the reading content (archetypeSource) which the reveal
 // needs the moment it plays anyway; the long onboarding flow gives the bundle
 // plenty of time to arrive before first paint of any of them.
-import D13RevealScreen from './components/d13/D13RevealScreen.jsx';
-import D13ReadingScreen from './components/d13/D13ReadingScreen.jsx';
+import ReadingRevealScreen from './components/reading/ReadingRevealScreen.jsx';
+import ReadingScreen from './components/reading/ReadingScreen.jsx';
 import TodayScreen from './components/dashboard/tabs/TodayScreen.jsx';
 import GuidanceScreen from './components/dashboard/tabs/GuidanceScreen.jsx';
 import CompatScreen from './components/dashboard/tabs/CompatScreen.jsx';
@@ -68,11 +68,11 @@ const ChartPatternsDetail = lazy(() => import('./components/dashboard/reading-de
 const SeasonalCalibrationDetail = lazy(() => import('./components/dashboard/reading-detail/SeasonalCalibrationDetail.jsx'));
 const LockedDetail = lazy(() => import('./components/dashboard/reading-detail/LockedDetail.jsx'));
 const DevBar = lazy(() => import('./components/dev/DevBar.jsx'));
-const D13WheelPreview = lazy(() => import('./components/d13/D13WheelPreview.jsx'));
-const D13DayMasterScreen = lazy(() => import('./components/d13/D13DayMasterScreen.jsx'));
-const D13PillarChartScreen = lazy(() => import('./components/d13/D13PillarChartScreen.jsx'));
-const D13EnergyCardScreen = lazy(() => import('./components/d13/D13EnergyCardScreen.jsx'));
-const D13FacesScreen = lazy(() => import('./components/d13/D13FacesScreen.jsx'));
+const ReadingWheelPreview = lazy(() => import('./components/reading/ReadingWheelPreview.jsx'));
+const ReadingDayMasterScreen = lazy(() => import('./components/reading/ReadingDayMasterScreen.jsx'));
+const ReadingPillarChartScreen = lazy(() => import('./components/reading/ReadingPillarChartScreen.jsx'));
+const ReadingEnergyCardScreen = lazy(() => import('./components/reading/ReadingEnergyCardScreen.jsx'));
+const ReadingFacesScreen = lazy(() => import('./components/reading/ReadingFacesScreen.jsx'));
 const CompatFriendFlow = lazy(() => import('./components/dashboard/CompatFriendFlow.jsx'));
 
 // Warm every on-demand screen chunk during idle time so navigation never
@@ -80,7 +80,7 @@ const CompatFriendFlow = lazy(() => import('./components/dashboard/CompatFriendF
 // paths as the lazy() calls above, so Vite/the browser serve the identical
 // cached chunk — by the time the user taps a tab or the reveal hands off to
 // the catalogue, the code is already in memory and the swap is instant.
-// Runs once; dev-only harnesses (DevBar, D13WheelPreview) are intentionally
+// Runs once; dev-only harnesses (DevBar, ReadingWheelPreview) are intentionally
 // excluded. First paint is unaffected — this only fires when the main thread
 // is idle.
 let _prefetchedScreens = false;
@@ -109,9 +109,9 @@ function prefetchScreens() {
       import('./components/dashboard/reading-detail/ChartPatternsDetail.jsx'),
       import('./components/dashboard/reading-detail/SeasonalCalibrationDetail.jsx'),
       import('./components/dashboard/reading-detail/LockedDetail.jsx'),
-      import('./components/d13/D13DayMasterScreen.jsx'),
-      import('./components/d13/D13PillarChartScreen.jsx'),
-      import('./components/d13/D13FacesScreen.jsx'),
+      import('./components/reading/ReadingDayMasterScreen.jsx'),
+      import('./components/reading/ReadingPillarChartScreen.jsx'),
+      import('./components/reading/ReadingFacesScreen.jsx'),
     ]).catch(() => {});
   };
   if ('requestIdleCallback' in window) window.requestIdleCallback(run, { timeout: 2000 });
@@ -381,7 +381,7 @@ export default function App() {
 
   // Dev-only D13 component harness — renders isolated (no phone-frame wrapper).
   if (screen === 'd13preview') {
-    return <Suspense fallback={null}><D13WheelPreview /></Suspense>;
+    return <Suspense fallback={null}><ReadingWheelPreview /></Suspense>;
   }
 
   let rendered = null;
@@ -450,7 +450,7 @@ export default function App() {
     case 'reveal':
       // D13: the reveal is the ceremonial plate that scroll-dissolves into the
       // energy catalogue; the tab bar fades in live at the end (Reading active).
-      rendered = <D13RevealScreen onTab={routeTab} onDone={() => setScreen('app-reading')} />;
+      rendered = <ReadingRevealScreen onTab={routeTab} onDone={() => setScreen('app-reading')} />;
       break;
 
     // ────────────────────────────────────────────────────────────────
@@ -544,20 +544,20 @@ export default function App() {
     case 'app-reading':
       // D13: the at-rest energy catalogue. Tapping the wheel-centre seal
       // descends into the Day Master card (P4).
-      rendered = <D13ReadingScreen onTab={routeTab} onDayMaster={goto('app-daymaster')} onOpenEnergy={openEnergy} />;
+      rendered = <ReadingScreen onTab={routeTab} onDayMaster={goto('app-daymaster')} onOpenEnergy={openEnergy} />;
       break;
     case 'app-daymaster':
       // D13 P4 — the Day Master reference card; "Birth Chart" → P5.
-      rendered = <D13DayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} />;
+      rendered = <ReadingDayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} />;
       break;
     case 'app-pillars':
       // D13 P5 — the 八字 Four-Pillars data page; "Discover it" → hour flow.
-      rendered = <D13PillarChartScreen onBack={goto('app-daymaster')} onDiscoverHour={goto('chart-resonance')} />;
+      rendered = <ReadingPillarChartScreen onBack={goto('app-daymaster')} onDiscoverHour={goto('chart-resonance')} />;
       break;
     case 'app-energy':
       // D13 P6b — the polarity faces page: dominant-energy briefing + the
       // energy's 1–2 Ten-God faces, each a door to its reading.
-      rendered = <D13FacesScreen initialEl={energyEl} onBack={goto('app-reading')} />;
+      rendered = <ReadingFacesScreen initialEl={energyEl} onBack={goto('app-reading')} />;
       break;
     case 'app-compat':
       rendered = (
@@ -589,14 +589,14 @@ export default function App() {
     case 'app-energymap':
       // Retired standalone Energy Map — the energy overview is the catalogue
       // (and folds into P5). Alias to the D13 catalogue.
-      rendered = <D13ReadingScreen onTab={routeTab} onDayMaster={goto('app-daymaster')} onOpenEnergy={openEnergy} />;
+      rendered = <ReadingScreen onTab={routeTab} onDayMaster={goto('app-daymaster')} onOpenEnergy={openEnergy} />;
       break;
     case 'read-elemental':
       rendered = <ElementalNatureDetail onBack={goto('app-reading')} />;
       break;
     case 'read-daymaster':
       // Retired DayMasterDetail — aliased to the D13 Day Master card (P4).
-      rendered = <D13DayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} />;
+      rendered = <ReadingDayMasterScreen onBack={goto('app-reading')} onBirthChart={goto('app-pillars')} />;
       break;
     case 'read-tengods':
       rendered = <TenGodsDetail onBack={goto('app-reading')} />;
@@ -615,7 +615,7 @@ export default function App() {
       break;
     case 'chart-reveal':
       // Retired RawChartPage — aliased to the D13 八字 Pillar Chart (P5).
-      rendered = <D13PillarChartScreen onBack={goto('app-daymaster')} onDiscoverHour={goto('chart-resonance')} />;
+      rendered = <ReadingPillarChartScreen onBack={goto('app-daymaster')} onDiscoverHour={goto('chart-resonance')} />;
       break;
     case 'chart-resonance':
       // After recovering the hour, land on the D13 Pillar Chart (not the old raw chart).
@@ -645,11 +645,11 @@ export default function App() {
             <ErrorBoundary><Suspense fallback={<ScreenFallback />}>{rendered}</Suspense></ErrorBoundary>
             {/* One global D13 glyph sprite feeds every #tab-/#el-/#ico- <use>
                 across the app (the tab bar, wheel, shelf …). */}
-            <D13Sprite />
+            <ReadingSprite />
             {/* The single persistent dashboard nav — rendered here, OUTSIDE the
                 swappable page, so it never re-mounts or shifts between tabs.
                 Hidden on welcome/onboarding/reveal + stacked detail pages. */}
-            {DASHBOARD_TAB[screen] && <D13TabBar active={DASHBOARD_TAB[screen]} onTab={routeTab} />}
+            {DASHBOARD_TAB[screen] && <ReadingTabBar active={DASHBOARD_TAB[screen]} onTab={routeTab} />}
             {/* Upgrade modal overlays only the phone frame (DOC5 §21) */}
             <UpgradeModalHost />
           </PhoneFrame>

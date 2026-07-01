@@ -62,7 +62,7 @@ export default function DashboardShell({ active, onTabChange, children, backgrou
         {children}
       </div>
       {/* The persistent nav is now a single static object rendered by App
-          (D13TabBar), outside every page — so it stays pixel-aligned across
+          (ReadingTabBar), outside every page — so it stays pixel-aligned across
           tab switches. This shell only reserves room for it (TAB_BAR_HEIGHT)
           and paints the page background. */}
     </div>

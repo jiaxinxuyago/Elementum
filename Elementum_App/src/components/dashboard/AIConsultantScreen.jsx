@@ -10,7 +10,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
-import { STEM_CARD_DATA } from '../../content/archetypeSource.js';
+import { STEM_CARD_DATA } from '../../content/index.js';
 import { Icon } from '../shared/icons';
 import HorizonHeader from '../guidance/HorizonHeader.jsx';
 import {

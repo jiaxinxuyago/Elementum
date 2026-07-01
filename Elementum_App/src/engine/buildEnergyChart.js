@@ -7,7 +7,7 @@
 //   → { dayMaster, stem, band, energies: [{ el, presence, roles, major? }] }
 // energies are sorted presence-descending (tie-break metal→earth→water→
 // wood→fire) to match the shelf order; the wheel re-seats via
-// applyDominanceRules. Spec: d13/HANDOFF_PART1.md §3.
+// applyDominanceRules. Spec: reading/HANDOFF_PART1.md §3.
 // ===================================================================
 
 import { getEnergyBand, resolveElementFaces } from './calculator.js';

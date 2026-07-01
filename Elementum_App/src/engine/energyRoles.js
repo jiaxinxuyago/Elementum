@@ -2,7 +2,7 @@
 // ELEMENTUM · Favorable-element role classifier  (D13, internal)
 // ===================================================================
 // Turns a chart into each energy's calibration roles for the dominance
-// wheel + energy tiles. Spec + proof: d13/D13_ROLE_CLASSIFIER.md.
+// wheel + energy tiles. Spec + proof: reading/D13_ROLE_CLASSIFIER.md.
 //
 // INTERNAL VOCABULARY — NEVER SURFACED. The relation names
 // (self/resource/output/wealth/officer) and the 用神/忌神 rule are

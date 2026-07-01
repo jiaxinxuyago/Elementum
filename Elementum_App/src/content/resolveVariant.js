@@ -17,7 +17,7 @@
 // band = getEnergyBand(chart.dayMaster.strength); pattern = chart.tgPattern.
 // ===================================================================
 
-import { getEnergyBand } from '../engine/calculator.js';
+import { getEnergyBand } from '../engine/index.js';
 import { STEM_CARD_DATA as VARIANTS } from './STEM_CARD_DATA.js';
 
 // Ordered fallback keys for a chart's band × pattern.

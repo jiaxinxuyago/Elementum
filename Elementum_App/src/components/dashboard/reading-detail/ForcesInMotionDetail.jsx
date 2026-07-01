@@ -11,8 +11,8 @@
 import React from 'react';
 import DetailShell from './DetailShell.jsx';
 import { useChart } from '../../../store/chartContext.jsx';
-import { STEM_CARD_DATA } from '../../../content/archetypeSource.js';
-import { energyContext } from '../../../engine/temporal.js';
+import { STEM_CARD_DATA } from '../../../content/index.js';
+import { energyContext } from '../../../engine/index.js';
 import { ElementMark } from '../../shared/icons';
 import { readingDetailBg, elementArt } from '../../../styles/backgrounds.js';
 import {

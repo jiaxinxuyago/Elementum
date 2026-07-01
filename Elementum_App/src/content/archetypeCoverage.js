@@ -9,7 +9,7 @@
 // whichever stem is currently active.
 // ===================================================================
 
-import { ARCHETYPE_SCHEMA, cardinalityOf } from './archetypeSchema.js';
+import { ARCHETYPE_SCHEMA, cardinalityOf } from '../contract/index.js';
 
 // A leaf descriptor is anything with a `type` string field.
 function isLeaf(node) {
