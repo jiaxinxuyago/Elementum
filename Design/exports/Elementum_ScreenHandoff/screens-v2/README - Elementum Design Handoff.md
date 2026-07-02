@@ -132,7 +132,7 @@ The app's atmosphere is **ink-wash on warm paper**. Backgrounds are layered, nev
 | `compat-hero.png` | `compat-intro` | pavilion-gazing-across-water ceremonial hero |
 | `cloud-veil.png` | feature/hub body backdrop | soft ink-wash mist (from `bg-reveal-04-mist-veil`) |
 
-### Remote CDN assets — base `https://elementum.jiaxinxuyago.workers.dev/`
+### Remote CDN assets — base `https://elementum.life/`
 These are referenced by URL and **must stay reachable** (or be migrated into the app's asset
 pipeline). Three buckets:
 
