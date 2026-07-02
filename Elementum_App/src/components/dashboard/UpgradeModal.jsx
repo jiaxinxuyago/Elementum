@@ -19,6 +19,8 @@
 
 import { createContext, useContext, useState, useCallback } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
+import { useAuth } from '../../store/authContext.jsx';
+import AuthModal from './AuthModal.jsx';
 import { TIER_PRICES, PAYMENT } from '../../infra/index.js';
 // FOUNDING_PRICE via a direct pricing import (pricing isn't a restricted chunk),
 // so we needn't touch infra/index.js — which the shareable-card branch also
@@ -109,6 +111,20 @@ export function UpgradeModalHost() {
     welcomeBack, endWelcomeBack,
   } = useUpgrade();
   const { tier, chart } = useChart();
+  const { user } = useAuth();
+  const [authOpen, setAuthOpen] = useState(false);
+
+  // Purchase requires an account (DOC10 §4.2): the payment must carry the
+  // buyer's user id (client_reference_id) so the Stripe webhook can write
+  // their entitlement server-side — that's what makes the pass restorable.
+  const goToStripe = (u) => {
+    if (typeof window === 'undefined' || !PAYMENT.foundingCheckout) return;
+    const url = new URL(PAYMENT.foundingCheckout);
+    if (u?.id) url.searchParams.set('client_reference_id', u.id);
+    if (u?.email) url.searchParams.set('prefilled_email', u.email);
+    window.location.href = url.toString();
+  };
+  const buyFounding = () => (user ? goToStripe(user) : setAuthOpen(true));
 
   const dmElement = chart?.dayMaster?.element || 'Metal';
   const dmPigKey = { Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water' }[dmElement] || 'metal';
@@ -236,7 +252,7 @@ export function UpgradeModalHost() {
             ctaLabel={tier === 'advisor' ? 'You have full access' : 'Become a Founding member'}
             ctaDisabled={tier === 'advisor'}
             ctaBg={bronzeDark}
-            onUpgrade={() => { if (typeof window !== 'undefined') window.location.href = PAYMENT.foundingCheckout; }}
+            onUpgrade={buyFounding}
           />
         )}
 
@@ -286,6 +302,15 @@ export function UpgradeModalHost() {
           Not now
         </button>
       </div>
+
+      {/* Purchase-gated account sheet — overlays the paywall (zIndex 210 > 200).
+          On success the buyer continues straight to Stripe, id attached. */}
+      <AuthModal
+        open={authOpen}
+        purchase
+        onClose={() => setAuthOpen(false)}
+        onSuccess={(u) => goToStripe(u)}
+      />
     </div>
   );
 }

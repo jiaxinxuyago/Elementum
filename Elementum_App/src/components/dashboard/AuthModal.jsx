@@ -18,7 +18,9 @@ const inputStyle = {
   boxSizing: 'border-box',
 };
 
-export default function AuthModal({ open, onClose }) {
+// `purchase` — purchase-context variant: copy explains the account exists to own
+// the pass, and onSuccess(user) fires after auth (the caller continues to Stripe).
+export default function AuthModal({ open, onClose, onSuccess, purchase = false }) {
   const { signUp, signIn } = useAuth();
   const [mode, setMode] = useState('signup'); // 'signup' | 'signin'
   const [email, setEmail] = useState('');
@@ -31,15 +33,28 @@ export default function AuthModal({ open, onClose }) {
   const submit = async (e) => {
     e.preventDefault();
     setErr(null); setBusy(true);
-    const { error } = await (mode === 'signup' ? signUp : signIn)(email.trim(), password);
+    const { data, error } = await (mode === 'signup' ? signUp : signIn)(email.trim(), password);
     setBusy(false);
     if (error) { setErr(error.message); return; }
     onClose?.();
+    onSuccess?.(data?.user || null);
   };
+
+  const eyebrow = purchase
+    ? (mode === 'signup' ? 'One step before checkout' : 'Welcome back')
+    : (mode === 'signup' ? 'Create account' : 'Welcome back');
+  const title = purchase
+    ? 'Make your pass yours'
+    : (mode === 'signup' ? 'Save your readings' : 'Sign in');
+  const blurb = purchase
+    ? 'Your Founding Pass is tied to this account — so it’s yours forever, restorable on any device. Birth data stays on this device.'
+    : 'Your birth data stays on this device — an account just keeps your unlocks and lets you restore them on any device.';
 
   return (
     <div
-      onClick={onClose}
+      // stopPropagation: when stacked above the paywall sheet, dismissing the
+      // auth scrim must not also dismiss the paywall underneath.
+      onClick={(e) => { e.stopPropagation(); onClose?.(); }}
       style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.4)', zIndex: 210, display: 'flex', alignItems: 'flex-end' }}
     >
       <div
@@ -61,13 +76,13 @@ export default function AuthModal({ open, onClose }) {
         </button>
 
         <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase', color: bronzeDark, fontWeight: 500, marginBottom: 6, marginTop: 4 }}>
-          {mode === 'signup' ? 'Create account' : 'Welcome back'}
+          {eyebrow}
         </div>
         <h2 style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 26, fontWeight: 400, lineHeight: 1.15, color: ink, margin: '0 0 6px' }}>
-          {mode === 'signup' ? 'Save your readings' : 'Sign in'}
+          {title}
         </h2>
         <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13.5, color: inkSoft, lineHeight: 1.5, margin: '0 0 18px' }}>
-          Your birth data stays on this device — an account just keeps your unlocks and lets you restore them on any device.
+          {blurb}
         </p>
 
         <form onSubmit={submit}>
@@ -78,7 +93,7 @@ export default function AuthModal({ open, onClose }) {
             type="submit" disabled={busy}
             style={{ width: '100%', padding: '13px 0', borderRadius: 999, border: 'none', background: bronzeDark, color: '#F8F6F0', fontFamily: 'Cinzel, serif', fontSize: 11, letterSpacing: 2, textTransform: 'uppercase', cursor: busy ? 'default' : 'pointer', opacity: busy ? 0.7 : 1 }}
           >
-            {busy ? 'One moment…' : (mode === 'signup' ? 'Create account' : 'Sign in')}
+            {busy ? 'One moment…' : purchase ? 'Continue to checkout' : (mode === 'signup' ? 'Create account' : 'Sign in')}
           </button>
         </form>
 
