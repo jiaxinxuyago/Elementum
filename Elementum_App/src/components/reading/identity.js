@@ -51,6 +51,8 @@ export function buildIdentity(chart, card, hourUnknown) {
   return {
     dayMaster: STEM_ID[stem] || 'geng',
     archetype,
+    // Lowercased element key (metal/wood/fire/earth/water) for pigment lookup.
+    element: (element || '').toLowerCase(),
     pinyin: `${STEM_PINYIN[stem] || ''} · ${polarity} ${element.toUpperCase()}`,
     manifesto,
     inscription: STEM_INSCRIPTION[stem] || '',

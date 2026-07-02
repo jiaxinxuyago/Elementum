@@ -136,6 +136,18 @@
 .reading .birth-chart-btn .bc-ico { width: 15px; height: 15px; opacity: 0.9; }
 .reading .birth-chart-btn .bc-arr { width: 13px; height: 13px; opacity: 0.75; }
 
+/* share-your-card — secondary (bronze outline) pill under Birth Chart */
+.reading .share-card-btn {
+  margin-top: 10px; align-self: center; display: inline-flex; align-items: center; gap: 8px;
+  padding: 9px 17px; border-radius: 999px; background: transparent; color: var(--bronzeDark);
+  border: 1px solid var(--bronze);
+  font-family: 'EB Garamond', serif; font-size: 11px; font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  white-space: nowrap; cursor: pointer; transition: transform .18s var(--ease-out), background .18s, color .18s;
+}
+.reading .share-card-btn:hover { background: var(--bronze); color: var(--cream); transform: translateY(-1px); }
+.reading .share-card-btn:active { transform: translateY(0); }
+.reading .share-card-btn .sc-ico { width: 14px; height: 14px; opacity: 0.9; }
+
 /* claims — cardstock list rows */
 .reading .claims-card { background: var(--cardstock); border: 1px solid var(--paperHair); border-radius: 14px; box-shadow: var(--shadow-card); padding: 4px 14px; }
 .reading .claims-card .claim { padding: 10px 0; font-size: 13.5px; line-height: 1.5; color: var(--inkSoft); border-bottom: 1px dotted rgba(139,115,85,0.24); }

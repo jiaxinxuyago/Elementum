@@ -1,0 +1,242 @@
+/* ===================================================================
+   ELEMENTUM · share.css  (features #1/#2 — shareable cards + overlay)
+   ===================================================================
+   The card face (.share-card) reuses the P1 plate typography but paints
+   a self-contained silk ground so the raster is background-independent.
+   All colour comes from tokens.css. The card is a FIXED 540×960 logical
+   canvas (→1080×1920 @2x export) — the overlay scales it to fit; the
+   captured node is always full size.
+   =================================================================== */
+
+/* ───────── the card face ───────── */
+.share-card {
+  position: relative;
+  width: 540px;
+  height: 960px;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: 'EB Garamond', serif;
+  color: var(--ink);
+}
+.share-card .sc-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #F5EEDE 0%, #F1E9D6 52%, #ECE2C9 100%);
+}
+.share-card .sc-vignette {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(120% 78% at 50% 12%, rgba(255, 252, 244, 0.60), transparent 55%),
+    radial-gradient(150% 70% at 50% 110%, rgba(90, 68, 48, 0.12), transparent 60%);
+}
+.share-card .sc-inner {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 64px 52px 56px;
+  box-sizing: border-box;
+}
+.share-card .sc-eyebrow {
+  font-family: Cinzel, serif;
+  font-size: 15px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--inkLight);
+}
+.share-card .sc-seal-wrap {
+  position: relative;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.share-card .sc-seal {
+  position: relative;
+  width: 236px;
+  height: 236px;
+  object-fit: contain;
+  filter: drop-shadow(0 3px 10px rgba(43, 39, 34, 0.20));
+}
+.share-card .sc-arch {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 500;
+  font-size: 62px;
+  line-height: 1.05;
+  margin-top: 28px;
+  color: var(--ink);
+}
+.share-card .sc-pinyin {
+  font-family: Cinzel, serif;
+  font-size: 17px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--metalDeep);
+  margin-top: 14px;
+}
+.share-card .sc-manifesto {
+  font-size: 27px;
+  line-height: 1.4;
+  color: var(--inkSoft);
+  margin-top: 22px;
+  max-width: 420px;
+}
+.share-card .sc-inscription {
+  margin-top: 34px;
+  padding: 26px 24px;
+  max-width: 432px;
+  font-size: 23px;
+  line-height: 1.6;
+  color: var(--inkSoft);
+  border-top: 1px solid var(--paperHair);
+  border-bottom: 1px solid var(--paperHair);
+  background: linear-gradient(90deg, rgba(253, 250, 242, 0), rgba(253, 250, 242, 0.78) 14% 86%, rgba(253, 250, 242, 0));
+}
+.share-card .sc-spacer { flex: 1; }
+.share-card .sc-foundry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.share-card .sc-cast {
+  font-family: Cinzel, serif;
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: var(--inkSoft);
+}
+.share-card .sc-mark {
+  font-family: Cinzel, serif;
+  font-size: 13px;
+  letter-spacing: 6px;
+  color: var(--inkLight);
+}
+.share-card .sc-url {
+  font-family: Cinzel, serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: var(--bronze);
+  margin-top: 2px;
+}
+
+/* ───────── element tint (per day-master) ─────────
+   Pigment enters only via accents; the ink-wash seal + silk paper stay neutral.
+   --el / --elDeep are set inline from design tokens (ShareIdentityCard). */
+.share-card[data-el] .sc-vignette {
+  background:
+    radial-gradient(95% 42% at 50% 7%, color-mix(in srgb, var(--el) 20%, transparent), transparent 60%),
+    radial-gradient(150% 70% at 50% 112%, color-mix(in srgb, var(--elDeep) 16%, transparent), transparent 60%);
+}
+.share-card[data-el] .sc-seal-wrap::before {
+  content: '';
+  position: absolute;
+  width: 264px;
+  height: 264px;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--el) 26%, transparent) 20%, transparent 68%);
+}
+.share-card[data-el] .sc-eyebrow { color: var(--elDeep); }
+.share-card[data-el] .sc-pinyin { color: var(--elDeep); }
+.share-card[data-el] .sc-inscription {
+  border-top-color: color-mix(in srgb, var(--el) 55%, transparent);
+  border-bottom-color: color-mix(in srgb, var(--el) 55%, transparent);
+}
+.share-card[data-el] .sc-mark { color: var(--elDeep); }
+
+/* ───────── the overlay (preview + export) ───────── */
+.sc-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sc-overlay-scrim {
+  position: absolute;
+  inset: 0;
+  background: rgba(26, 24, 21, 0.62);
+  backdrop-filter: blur(3px);
+}
+.sc-overlay-body {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px 20px 22px;
+  box-sizing: border-box;
+}
+.sc-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: var(--r-pill);
+  background: rgba(248, 246, 240, 0.14);
+  color: var(--cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.sc-preview {
+  flex: 1;
+  width: 100%;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+.sc-scale {
+  position: relative;
+  border-radius: var(--r-16);
+  overflow: hidden;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.42);
+}
+.sc-scale-inner {
+  width: 540px;
+  height: 960px;
+  transform-origin: top left;
+}
+.sc-actions {
+  display: flex;
+  gap: var(--sp-10);
+  margin-top: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sc-btn {
+  font-family: 'EB Garamond', serif;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  padding: 11px 20px;
+  border-radius: var(--r-pill);
+  border: 1px solid rgba(248, 246, 240, 0.28);
+  background: rgba(248, 246, 240, 0.10);
+  color: var(--cream);
+  cursor: pointer;
+}
+.sc-btn.primary {
+  background: var(--cream);
+  color: var(--ink);
+  border-color: var(--cream);
+  box-shadow: var(--shadow-cta-alt);
+}
+.sc-btn:disabled { opacity: 0.5; cursor: default; }
+.sc-status {
+  min-height: 20px;
+  margin-top: 12px;
+  font-family: 'EB Garamond', serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: var(--inkMist);
+}

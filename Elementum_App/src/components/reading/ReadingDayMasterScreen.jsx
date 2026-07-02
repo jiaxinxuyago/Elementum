@@ -6,14 +6,17 @@
 // the catalogue; "Birth Chart" descends into the 八字 Pillar Chart (P5).
 // ===================================================================
 
+import { useState } from 'react';
 import './reading.css';
 import ReadingDayMasterCard from './ReadingDayMasterCard.jsx';
+import ShareCardOverlay from '../share/ShareCardOverlay.jsx';
 import { DM_READING, DM_READING_FALLBACK } from '../../content/reading/index.js';
 import { resolveDayMasterReading } from './readingResolve.js';
 import { useReading } from './useReading.js';
 
 export default function ReadingDayMasterScreen({ onBack, onBirthChart }) {
   const { chart, ec, identity, wip } = useReading();
+  const [showShare, setShowShare] = useState(false);
   if (!ec || !identity) return null;
   const stem = chart && chart.dayMaster && chart.dayMaster.stem;
   // band-resolved authored reading (the 10×3 stem-band content); falls back
@@ -30,7 +33,11 @@ export default function ReadingDayMasterScreen({ onBack, onBirthChart }) {
         edge={reading.edge}
         onBack={onBack}
         onBirthChart={onBirthChart}
+        onShare={() => setShowShare(true)}
       />
+      {showShare ? (
+        <ShareCardOverlay identity={identity} dayMaster={ec.dayMaster} onClose={() => setShowShare(false)} />
+      ) : null}
       {wip ? <div className="reading-wip">{wip}</div> : null}
     </div>
   );
