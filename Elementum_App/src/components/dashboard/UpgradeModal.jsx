@@ -105,10 +105,10 @@ import { STEM_PINYIN as STEM_KEY } from '../../engine/index.js';
 
 export function UpgradeModalHost() {
   const {
-    feature, closeUpgrade, ceremony, playCeremony, endCeremony,
-    welcomeBack, endWelcomeBack, flashAdvisorGlow,
+    feature, closeUpgrade, ceremony, endCeremony,
+    welcomeBack, endWelcomeBack,
   } = useUpgrade();
-  const { tier, setTier, chart } = useChart();
+  const { tier, chart } = useChart();
 
   const dmElement = chart?.dayMaster?.element || 'Metal';
   const dmPigKey = { Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water' }[dmElement] || 'metal';
@@ -118,21 +118,11 @@ export function UpgradeModalHost() {
   // Nothing to show?
   if (!feature && !ceremony && !welcomeBack) return null;
 
-  const upgrade = (toTier) => () => {
-    const wasFree = tier === 'free';
-    const wasSeeker = tier === 'seeker';
-    setTier(toTier);
-    closeUpgrade();
-    if (wasFree && toTier === 'seeker') {
-      // §21 Free→Seeker — ceremonial full-screen moment.
-      playCeremony();
-    } else if (wasSeeker && toTier === 'advisor') {
-      // §21 Seeker→Advisor — no ceremony; quiet in-place glow on the
-      // AI Consultant card back in the Guidance hub.
-      flashAdvisorGlow();
-      if (typeof window !== 'undefined') window.location.hash = '#/app-guidance';
-    }
-  };
+  // BETA GATING: the Founding Pass (Stripe) is the ONLY purchasable unlock.
+  // The old demo `upgrade()` free-flip (setTier on tap) is removed — it let
+  // anyone claim Seeker/Advisor without paying. Seeker/Advisor cards render
+  // as a disabled preview ("Available after beta") until real subscription
+  // checkout lands (DOC10 §4.2 webhook -> DB entitlements).
 
   // Returning-user "Welcome to Seeker" (§21 Step B) — highest priority overlay.
   if (welcomeBack) {
@@ -259,10 +249,9 @@ export function UpgradeModalHost() {
           border={`1.5px solid ${gold}`}
           features={SEEKER_FEATURES}
           checkColor={checkColor}
-          ctaLabel={tier === 'free' ? 'Upgrade to Seeker' : 'Current plan'}
-          ctaDisabled={tier !== 'free'}
+          ctaLabel={tier === 'free' ? 'Available after beta' : 'Current plan'}
+          ctaDisabled
           ctaBg={bronzeDark}
-          onUpgrade={upgrade('seeker')}
         />
 
         {/* Advisor tier card */}
@@ -274,10 +263,9 @@ export function UpgradeModalHost() {
           border={`1px solid #C9B8E8`}
           features={ADVISOR_FEATURES}
           checkColor={advisor}
-          ctaLabel={tier === 'advisor' ? 'Current plan' : 'Upgrade to Advisor'}
-          ctaDisabled={tier === 'advisor'}
+          ctaLabel={tier === 'advisor' ? 'Current plan' : 'Available after beta'}
+          ctaDisabled
           ctaBg={advisor}
-          onUpgrade={upgrade('advisor')}
         />
 
         {/* Not now */}
