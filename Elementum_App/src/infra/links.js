@@ -11,6 +11,9 @@
 export const PAYMENT = {
   seekerCheckout: null,
   advisorCheckout: null,
+  // Founding pass — one-time LIVE Stripe Payment Link. Grants lifetime Advisor
+  // access. ($9 founding launch price — keep this and the Stripe price in sync.)
+  foundingCheckout: 'https://buy.stripe.com/fZu3coeb9dQwgihctm7Re00',
 };
 
 // Social profiles.

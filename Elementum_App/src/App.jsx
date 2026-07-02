@@ -298,6 +298,27 @@ function readHash() {
   return FLOW.includes(h) ? h : 'welcome';
 }
 
+// Honor-system unlock: Stripe's Payment Link success URL returns here as
+// `<origin>/?founding=ok`. Grant the (persisted) Founding entitlement, strip the
+// param so a refresh can't replay it, and play the unlock ceremony. No payment
+// backend yet, so this trusts the redirect — acceptable for the beta founding run.
+function FoundingRedirect() {
+  const { grantFounding, hasFounding } = useChart();
+  const { playCeremony } = useUpgrade();
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('founding') !== 'ok') return;
+    if (!hasFounding) { grantFounding(); playCeremony(); }
+    params.delete('founding');
+    const qs = params.toString();
+    window.history.replaceState(null, '', window.location.pathname + (qs ? `?${qs}` : '') + window.location.hash);
+    // Run once on mount.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  return null;
+}
+
 export default function App() {
   const [screen, setScreenState] = useState(readHash);
   // Navigations run as a transition: if the target screen is still lazy-loading,
@@ -625,6 +646,8 @@ export default function App() {
   return (
     <ChartProvider>
       <UpgradeModalProvider>
+        {/* Stripe founding-pass success redirect → grant access + ceremony (once). */}
+        <FoundingRedirect />
         {/* Dev/test hooks (window.__seedData/__setTier/__buySelfReport/etc.) —
             gated to dev builds so they never ship as a console backdoor. */}
         {IS_DEV && <DevHelpers />}
@@ -660,11 +683,15 @@ export default function App() {
 // 1995-04-29 lands on 庚 (index 6); each subsequent day advances by 1.
 function DevHelpers() {
   const { updateBirthData, setChart, setTier, setHasSelfReport, purchaseSelfReport } = useChart();
-  const { playWelcomeBack } = useUpgrade();
+  const { playWelcomeBack, openUpgrade } = useUpgrade();
   // Dev hook: demo the §21 "Welcome to Seeker" returning-user screen.
   useEffect(() => {
     if (typeof window !== 'undefined') window.__welcomeSeeker = () => playWelcomeBack();
   }, [playWelcomeBack]);
+  // Dev hook: open the upgrade modal (used to QA the Founding-pass card).
+  useEffect(() => {
+    if (typeof window !== 'undefined') window.__openUpgrade = (label) => openUpgrade(label || 'AI Consultant');
+  }, [openUpgrade]);
   // Dev hooks: flip tier + the one-time Self-Report entitlement for testing.
   useEffect(() => {
     if (typeof window !== 'undefined') {

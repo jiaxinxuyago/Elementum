@@ -8,6 +8,7 @@
 
 import { createContext, useContext, useState, useEffect, useMemo, useCallback } from 'react';
 import { calculateBaziChart, ENGINE_VERSION } from '../engine/index.js';
+import { FOUNDING_GRANTS_TIER } from '../infra/pricing.js';
 
 const ChartContext = createContext(null);
 
@@ -44,6 +45,14 @@ const INITIAL_BIRTH_DATA = {
 const SELF_REPORT_KEY = 'elementum_hasselfreport_v1';
 function readSelfReportOwned() {
   try { return localStorage.getItem(SELF_REPORT_KEY) === '1'; } catch { return false; }
+}
+
+// Founding pass — one-time beta offer that grants lasting FOUNDING_GRANTS_TIER
+// access. Same shape as the Self-Report entitlement: persisted so it survives
+// reloads, flipped locally (honor-system) since there is no payment backend yet.
+const FOUNDING_KEY = 'elementum_founding_v1';
+function readFoundingOwned() {
+  try { return localStorage.getItem(FOUNDING_KEY) === '1'; } catch { return false; }
 }
 
 // Session persistence (B-4) — birthData + the computed chart survive a refresh
@@ -91,8 +100,10 @@ function loadInitialChart() {
 export function ChartProvider({ children }) {
   const [birthData, setBirthData] = useState(() => readJSON(BIRTH_KEY) || INITIAL_BIRTH_DATA);
   const [chart, setChart] = useState(loadInitialChart);
-  const [tier, setTier] = useState('free');
+  // A prior Founding purchase (persisted) starts the user at the granted tier.
+  const [tier, setTier] = useState(() => (readFoundingOwned() ? FOUNDING_GRANTS_TIER : 'free'));
   const [hasSelfReport, setHasSelfReportState] = useState(readSelfReportOwned);
+  const [hasFounding, setHasFoundingState] = useState(readFoundingOwned);
   // Compatibility result — set by the friend flow, read by CompatScreen.
   // Session-only (not persisted): a relationship reading is a transient
   // comparison, not part of the user's own saved chart.
@@ -107,6 +118,13 @@ export function ChartProvider({ children }) {
   const setHasSelfReport = useCallback((v) => {
     try { localStorage.setItem(SELF_REPORT_KEY, v ? '1' : '0'); } catch { /* storage unavailable (private mode) — ignore */ }
     setHasSelfReportState(!!v);
+  }, []);
+  // Founding purchase (honor-system): persist the entitlement + jump to the
+  // granted tier. Called on the Stripe success redirect (see App FoundingRedirect).
+  const grantFounding = useCallback(() => {
+    try { localStorage.setItem(FOUNDING_KEY, '1'); } catch { /* storage unavailable (private mode) — ignore */ }
+    setHasFoundingState(true);
+    setTier(FOUNDING_GRANTS_TIER);
   }, []);
 
   // Merge partial updates, e.g. updateBirthData({ year: 1991 })
@@ -137,10 +155,11 @@ export function ChartProvider({ children }) {
       chart, setChart,
       tier, setTier,
       hasSelfReport, purchaseSelfReport, setHasSelfReport,
+      hasFounding, grantFounding,
       compatResult, setCompatResult,
       resetFlow,
     }),
-    [birthData, chart, tier, hasSelfReport, compatResult, purchaseSelfReport, setHasSelfReport, updateBirthData, resetFlow]
+    [birthData, chart, tier, hasSelfReport, hasFounding, grantFounding, compatResult, purchaseSelfReport, setHasSelfReport, updateBirthData, resetFlow]
   );
 
   return <ChartContext.Provider value={value}>{children}</ChartContext.Provider>;

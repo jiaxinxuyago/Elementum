@@ -19,7 +19,11 @@
 
 import { createContext, useContext, useState, useCallback } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
-import { TIER_PRICES } from '../../infra/index.js';
+import { TIER_PRICES, PAYMENT } from '../../infra/index.js';
+// FOUNDING_PRICE via a direct pricing import (pricing isn't a restricted chunk),
+// so we needn't touch infra/index.js — which the shareable-card branch also
+// edits — keeping the two branches conflict-free. PAYMENT rides the barrel above.
+import { FOUNDING_PRICE } from '../../infra/pricing.js';
 // Stem -> archetype name (10 entries) inlined so this always-mounted provider
 // does NOT statically import the 276 KB archetypeSource.js content file
 // (Group E — keeps that content out of the eager initial bundle; it rides with
@@ -84,6 +88,13 @@ const ADVISOR_FEATURES = [
   'Everything in Seeker',
   'AI Consultant — full chat',
   'AI-tailored daily readings',
+];
+// Founding pass — beta-only one-time offer granting lifetime full (Advisor) access.
+const FOUNDING_FEATURES = [
+  'Lifetime full access — everything, forever',
+  'AI Consultant + AI-tailored daily readings',
+  'Energy Manual, full readings, Codex, unlimited Draw',
+  'Founding member — locked in before public launch',
 ];
 
 // ───────────────────────────────────────────────────────────────────
@@ -219,6 +230,25 @@ export function UpgradeModalHost() {
         }}>
           {feature}
         </h2>
+
+        {/* Founding pass — headline offer; shown only once the Stripe link is set.
+            Its CTA leaves for Stripe Checkout (same tab), whose success URL
+            returns to <origin>/?founding=ok → App FoundingRedirect grants access. */}
+        {PAYMENT.foundingCheckout && (
+          <TierCard
+            name="Founding Pass"
+            badge="⟡"
+            price={FOUNDING_PRICE}
+            gradient="linear-gradient(135deg, #FBF3E4, #F3E4C8)"
+            border={`1.5px solid ${gold}`}
+            features={FOUNDING_FEATURES}
+            checkColor={checkColor}
+            ctaLabel={tier === 'advisor' ? 'You have full access' : 'Become a Founding member'}
+            ctaDisabled={tier === 'advisor'}
+            ctaBg={bronzeDark}
+            onUpgrade={() => { if (typeof window !== 'undefined') window.location.href = PAYMENT.foundingCheckout; }}
+          />
+        )}
 
         {/* Seeker tier card */}
         <TierCard
