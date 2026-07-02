@@ -7,6 +7,7 @@ import {
   resolveLongitudeForCalc,
   resolveLocationName,
 } from './store/chartContext.jsx';
+import { AuthProvider } from './store/authContext.jsx';
 import { calculateBaziChart } from './engine/index.js';
 import WelcomeScreen from './components/onboarding/WelcomeScreen.jsx';
 import {
@@ -644,6 +645,7 @@ export default function App() {
   // its CTA via a sibling click listener on the container. See v2 design —
   // the welcome button routes to Step 1.
   return (
+    <AuthProvider>
     <ChartProvider>
       <UpgradeModalProvider>
         {/* Stripe founding-pass success redirect → grant access + ceremony (once). */}
@@ -669,6 +671,7 @@ export default function App() {
         </Shell>
       </UpgradeModalProvider>
     </ChartProvider>
+    </AuthProvider>
   );
 }
 
