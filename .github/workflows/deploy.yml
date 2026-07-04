@@ -38,3 +38,6 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           workingDirectory: Elementum_App
+          # The action's default wrangler (3.x) can't read the assets-only
+          # Worker config (no `main` entry-point) — that needs wrangler 4.
+          wranglerVersion: '4.107.0'
