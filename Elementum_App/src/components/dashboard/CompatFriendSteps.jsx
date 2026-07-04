@@ -3,8 +3,10 @@
 // ===================================================================
 // The 6-step "their birth" flow that feeds Compatibility: a verbatim
 // re-voicing of the user's own onboarding wheel steps (year → month →
-// day → hour → [hour-window] → energy-current), but written in the third
-// person and writing into a `friend` object instead of birthData.
+// day → hour → [hour-window] → gender → [energy-current]), but written in
+// the third person and writing into a `friend` object instead of birthData.
+// Gender is asked directly (like onboarding Step 6); the abstract yang/yin
+// energy-current screen only appears after "Prefer not to specify" (6A).
 //
 // Each step composes the shared OnboardingShell + ScrollPicker (and the
 // hour-window tile grid / yang-yin cards), so the wheel physics, layout,
@@ -179,7 +181,49 @@ export function FriendHourWindow({ friend, update, onBack, onContinue, onUnknown
   );
 }
 
-// ── 5 · ENERGY CURRENT (final step → triggers the reading) ─────────
+// ── 5 · GENDER (mirrors onboarding Step 6; "prefer not" routes to 5A) ──
+export function FriendGender({ friend, update, onBack, onContinue, onPreferNot }) {
+  const [selected, setSelected] = useState(friend.gender || 'prefer-not');
+  const btn = (id, label, fontSize = 17) => {
+    const isActive = selected === id;
+    return (
+      <div key={id} onClick={() => setSelected(id)} style={{
+        width: '100%', padding: '14px 18px', borderRadius: 10,
+        border: isActive ? `1px solid ${BRONZE_MID}` : '1px solid #d9d3c8',
+        background: isActive ? 'rgba(139,115,85,0.12)' : 'rgba(232,227,216,0.7)',
+        fontFamily: "'EB Garamond', serif", fontSize, fontWeight: isActive ? 500 : 400,
+        color: id === 'prefer-not' ? INK_SOFT : INK, textAlign: 'center', cursor: 'pointer',
+        transition: 'all 250ms ease', boxSizing: 'border-box',
+      }}>
+        {label}
+      </div>
+    );
+  };
+  return (
+    <OnboardingShell
+      eyebrow="Their birth · 5 of 5"
+      progressValue={6.5 / 7}
+      question="What is their gender?"
+      subtitle={<>“This determines the direction of their Life Chapters (大运).”</>}
+      canContinue={true}
+      continueLabel={selected === 'prefer-not' ? undefined : 'See the reading'}
+      onBack={onBack}
+      onContinue={() => {
+        update({ gender: selected });
+        if (selected === 'prefer-not') onPreferNot && onPreferNot();
+        else onContinue(selected);
+      }}
+    >
+      <div style={{ padding: '0 2px', display: 'flex', flexDirection: 'column', gap: 10 }}>
+        {btn('male', 'Male')}
+        {btn('female', 'Female')}
+        {btn('prefer-not', 'Prefer not to specify', 15)}
+      </div>
+    </OnboardingShell>
+  );
+}
+
+// ── 5A · ENERGY CURRENT (conditional on prefer-not → triggers the reading) ──
 export function FriendCurrent({ friend, update, onBack, onContinue }) {
   const [current, setCurrent] = useState(friend.polarity || 'yang');
   const curBtn = (id, title, subtitle) => {
@@ -200,8 +244,8 @@ export function FriendCurrent({ friend, update, onBack, onContinue }) {
   const finish = (polarity) => { update({ polarity }); onContinue(polarity); };
   return (
     <OnboardingShell
-      eyebrow="Their birth · 5 of 5"
-      progressValue={6.5 / 7}
+      eyebrow="Their birth · energy current"
+      progressValue={6.75 / 7}
       question="Which current moves through them?"
       subtitle={<>“A quiet follow-up — this sets the direction of<br />their Life Chapters.”</>}
       canContinue={current !== null}
