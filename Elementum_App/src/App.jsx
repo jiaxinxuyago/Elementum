@@ -683,7 +683,12 @@ export default function App() {
           <PhoneFrame>
             {/* Graceful recovery — a calc/render error never blanks the
                 screen; it offers a soft path back to adjust birth data. */}
-            <ErrorBoundary><Suspense fallback={<ScreenFallback />}>{rendered}</Suspense></ErrorBoundary>
+            {/* The key remounts the wrapper per navigation, restarting the
+                fade-through-silk enter animation (global.css .el-screen-enter).
+                The tab bar below is a sibling, so it stays static. */}
+            <ErrorBoundary><Suspense fallback={<ScreenFallback />}>
+              <div key={screen} className="el-screen-enter" style={{ position: 'absolute', inset: 0 }}>{rendered}</div>
+            </Suspense></ErrorBoundary>
             {/* One global D13 glyph sprite feeds every #tab-/#el-/#ico- <use>
                 across the app (the tab bar, wheel, shelf …). */}
             <ReadingSprite />
