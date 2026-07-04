@@ -21,7 +21,7 @@ import { useEffect, useRef } from 'react';
 import { animate } from 'framer-motion';
 import DominanceWheel from './DominanceWheel.jsx';
 import EnergyShelf from './EnergyShelf.jsx';
-import { RIBBON_INTRO } from '../../content/reading/index.js';
+import DayMasterCta from './DayMasterCta.jsx';
 
 const clamp = (x) => Math.max(0, Math.min(1, x));
 const win = (p, a, b) => clamp((p - a) / (b - a));
@@ -33,7 +33,7 @@ const lerp = (a, b, t) => a + (b - a) * t;
 const S0 = { x: 127, y: 120, s: 120 };
 const S1 = { x: 53, y: 89, s: 276 };
 
-export default function RevealDissolve({ identity, energies, dayMaster, selected, onSelect, onRead, onTab, onSeal, tilde, onComplete }) {
+export default function RevealDissolve({ identity, energies, dayMaster, glyph, selected, onSelect, onRead, onTab, onSeal, tilde, onComplete }) {
   const scroller = useRef(null), paint = useRef(null), textTop = useRef(null), textBottom = useRef(null);
   const seal = useRef(null), eyebrow = useRef(null), after = useRef(null);
   const tabbar = useRef(null), swipeCue = useRef(null), stage = useRef(null), bgRevealTop = useRef(null), bgRevealBot = useRef(null);
@@ -191,8 +191,12 @@ export default function RevealDissolve({ identity, energies, dayMaster, selected
               </div>
               <div ref={seal} className="ds-seal" style={onSeal ? { cursor: 'pointer' } : null} onClick={onSeal}><img src={`/concept-arts/stems/${dayMaster}.png`} alt="" /></div>
 
+              {/* The final composition must mirror EnergyCatalogue exactly
+                  (Day Master card → hint → shelf) so the card fades in WITH
+                  the rest and the catalogue handoff has zero layout jump —
+                  it used to pop in over the shelf hint after the ceremony. */}
               <div ref={after} className="ds-after" style={{ opacity: 0 }}>
-                <div className="rx-ribbon" style={{ margin: '0 0 8px' }}>{RIBBON_INTRO[selected]}</div>
+                <DayMasterCta dayMaster={dayMaster} glyph={glyph} archetype={identity.archetype} onSeal={onSeal} />
                 <div className="shelf-hint">
                   <span className="uico"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r" /></svg></span>
                   Each dot is an energy — tap to open its reading

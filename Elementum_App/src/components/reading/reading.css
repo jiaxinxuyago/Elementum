@@ -527,4 +527,9 @@
    against the seal in the stage; the empty center-seal (z2) stays below it,
    keeping the center seal-tap working. */
 .reading .ds-wheel-wrap .node { z-index: 30; }
-.reading .ds-after { position: absolute; left: 22px; right: 22px; top: 392px; }
+/* top + flex must mirror the catalogue's flow position of the same block
+   (screen-pad top inset 54 + eyebrow + wheel 300 + margins ≈ 369; flex
+   column stops the card/hint margins collapsing, which the catalogue's
+   flex screen-pad never collapses) — the reveal→catalogue handoff swaps
+   compositions in place, so any offset here reads as a layout jump. */
+.reading .ds-after { position: absolute; left: 22px; right: 22px; top: 369px; display: flex; flex-direction: column; }
