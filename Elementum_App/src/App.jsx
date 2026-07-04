@@ -153,10 +153,36 @@ function prefetchBackgrounds() {
 // Lazy-load placeholder — a silk page while a screen's chunk arrives. With
 // prefetchScreens() warming chunks on idle, this is rarely seen after the
 // first moments; it matches the frame's silk so any residual frame is calm.
+//
+// It doubles as a stuck-chunk watchdog: on iOS Safari the service worker can
+// be killed mid-request and the in-flight dynamic import() stalls WITHOUT
+// rejecting — no ErrorBoundary, no vite:preloadError, just this fallback on
+// screen forever as an empty page. If we're still mounted after WATCHDOG_MS,
+// reload once to re-request the chunk; the sessionStorage stamp caps it at
+// one retry per minute so a truly offline device doesn't reload-loop.
+const CHUNK_WATCHDOG_MS = 10000;
 function ScreenFallback() {
-  return <div style={{ width: '100%', height: '100%', minHeight: 480, background: SILK }} />;
+  useEffect(() => {
+    const t = setTimeout(() => {
+      try {
+        const last = Number(sessionStorage.getItem('el_chunk_reload') || 0);
+        if (Date.now() - last < 60000) return;
+        sessionStorage.setItem('el_chunk_reload', String(Date.now()));
+      } catch { /* storage unavailable (private mode) — reload unguarded */ }
+      window.location.reload();
+    }, CHUNK_WATCHDOG_MS);
+    return () => clearTimeout(t);
+  }, []);
+  return (
+    <div style={{ width: '100%', height: '100%', minHeight: 480, background: SILK, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <span style={{ fontFamily: "'EB Garamond', serif", fontSize: 13, letterSpacing: 2.5, textTransform: 'uppercase', color: INK_LIGHT, animation: 'el-fallback-breathe 1.8s ease-in-out infinite' }}>
+        A moment…
+      </span>
+      <style>{'@keyframes el-fallback-breathe { 0%, 100% { opacity: 0.35; } 50% { opacity: 0.85; } }'}</style>
+    </div>
+  );
 }
-import { SILK } from './styles/tokens.jsx';
+import { SILK, INK_LIGHT } from './styles/tokens.jsx';
 import { SCREEN_BG, PLATE_BG } from './styles/backgrounds.js';
 import ErrorBoundary from './components/ErrorBoundary.jsx';
 
