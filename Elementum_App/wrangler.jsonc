@@ -6,12 +6,15 @@
   "compatibility_date": "2025-11-01",
   // ── CUSTOM DOMAIN — elementum.life is the sole canonical URL ──────────
   // Cloudflare serves the app on elementum.life (custom domain, auto HTTPS).
+  // The domain is attached to this Worker in the Cloudflare dashboard and is
+  // deliberately NOT declared here: declaring it makes wrangler sync zone
+  // routes on every deploy, which needs zone-level token permissions that
+  // account-owned API tokens (used by the deploy workflow) cannot carry.
+  // If the Worker is ever recreated from scratch, re-attach elementum.life
+  // via dashboard → Workers → elementum → Settings → Domains & Routes.
   // workers_dev:false retires the *.workers.dev URL, and preview_urls:false
   // retires version preview URLs — so elementum.life is the only public
   // address (cleaner branding, no duplicate-site indexing).
-  "routes": [
-    { "pattern": "elementum.life", "custom_domain": true }
-  ],
   "workers_dev": false,
   "preview_urls": false,
 
