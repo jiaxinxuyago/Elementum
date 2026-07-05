@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reading Catalogue — Mockup B · Answer-First</title>
+<style>
+  /* ─── page chrome tokens (themed) ─────────────────────────────── */
+  :root {
+    --pg-bg: #EDE7D9;
+    --pg-bg2: #E6DECC;
+    --pg-ink: #2B2722;
+    --pg-mut: #7C7263;
+    --pg-hair: rgba(43,39,34,0.16);
+    --pg-card: rgba(251,247,236,0.75);
+    --pg-acc: #8B7355;
+    --pg-acc-deep: #6B5339;
+    --pg-up: #4A7A52;
+    --pg-down: #A85C48;
+    --pg-shadow: 0 30px 60px rgba(40,30,20,0.18), 0 8px 18px rgba(40,30,20,0.10);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --pg-bg: #211D17;
+      --pg-bg2: #1A1712;
+      --pg-ink: #E9E1CD;
+      --pg-mut: #A69B85;
+      --pg-hair: rgba(233,225,205,0.17);
+      --pg-card: rgba(45,40,32,0.62);
+      --pg-acc: #B29471;
+      --pg-acc-deep: #C9AC86;
+      --pg-up: #7FAE87;
+      --pg-down: #C98B77;
+      --pg-shadow: 0 30px 60px rgba(0,0,0,0.5), 0 8px 18px rgba(0,0,0,0.35);
+    }
+  }
+  :root[data-theme="light"] {
+    --pg-bg: #EDE7D9; --pg-bg2: #E6DECC; --pg-ink: #2B2722; --pg-mut: #7C7263;
+    --pg-hair: rgba(43,39,34,0.16); --pg-card: rgba(251,247,236,0.75);
+    --pg-acc: #8B7355; --pg-acc-deep: #6B5339; --pg-up: #4A7A52; --pg-down: #A85C48;
+    --pg-shadow: 0 30px 60px rgba(40,30,20,0.18), 0 8px 18px rgba(40,30,20,0.10);
+  }
+  :root[data-theme="dark"] {
+    --pg-bg: #211D17; --pg-bg2: #1A1712; --pg-ink: #E9E1CD; --pg-mut: #A69B85;
+    --pg-hair: rgba(233,225,205,0.17); --pg-card: rgba(45,40,32,0.62);
+    --pg-acc: #B29471; --pg-acc-deep: #C9AC86; --pg-up: #7FAE87; --pg-down: #C98B77;
+    --pg-shadow: 0 30px 60px rgba(0,0,0,0.5), 0 8px 18px rgba(0,0,0,0.35);
+  }
+
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: radial-gradient(120% 90% at 50% -10%, var(--pg-bg) 0%, var(--pg-bg2) 100%) fixed;
+    color: var(--pg-ink);
+    font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+    line-height: 1.5;
+  }
+  * { box-sizing: border-box; }
+  button { font: inherit; }
+
+  .sheet { max-width: 1220px; margin: 0 auto; padding: 40px 28px 64px; }
+
+  /* ─── header ──────────────────────────────────────────────────── */
+  .head { border-bottom: 1px solid var(--pg-hair); padding-bottom: 22px; margin-bottom: 34px; }
+  .head .eyeline { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .head .eb { font-size: 11px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: var(--pg-acc); }
+  .head .stamp { font-family: Consolas, 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 1.5px; color: var(--pg-mut); }
+  .head h1 {
+    font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500;
+    font-size: clamp(30px, 4.6vw, 44px); line-height: 1.06; margin: 10px 0 8px; text-wrap: balance;
+  }
+  .head .sub { max-width: 62ch; color: var(--pg-mut); font-size: 15px; margin: 0; }
+  .head .sub b { color: var(--pg-ink); font-weight: 600; }
+  .chart-chip {
+    display: inline-flex; align-items: center; gap: 8px; margin-top: 14px;
+    border: 1px solid var(--pg-hair); border-radius: 999px; padding: 5px 14px;
+    font-family: Consolas, monospace; font-size: 11px; letter-spacing: 0.6px; color: var(--pg-mut);
+  }
+  .chart-chip .zh { font-family: 'Noto Serif TC', 'Songti SC', serif; font-size: 13px; color: var(--pg-ink); }
+
+  /* ─── main grid ───────────────────────────────────────────────── */
+  .board { display: grid; grid-template-columns: 390px 390px minmax(280px, 1fr); gap: 34px; align-items: start; }
+  @media (max-width: 1180px) { .board { grid-template-columns: 390px 390px; } .notes { grid-column: 1 / -1; } }
+  @media (max-width: 880px)  { .board { grid-template-columns: minmax(0, 390px); justify-content: center; } .notes { grid-column: auto; } }
+
+  .phone-slot { display: flex; flex-direction: column; gap: 14px; align-items: center; }
+  .slot-cap { text-align: center; }
+  .slot-cap .k {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-size: 10px; font-weight: 700; letter-spacing: 2.4px; text-transform: uppercase; color: var(--pg-acc);
+  }
+  .slot-cap .k i { font-style: normal; display: inline-flex; width: 18px; height: 18px; border-radius: 50%; border: 1px solid var(--pg-acc); align-items: center; justify-content: center; font-size: 10px; }
+  .slot-cap p { margin: 4px 0 0; font-size: 12.5px; color: var(--pg-mut); max-width: 42ch; }
+
+  /* ══════════ THE PHONE — product tokens are fixed (committed silk) ══════════ */
+  .phone {
+    --cream:#F8F6F0; --silk:#F1E9D6; --silkDeep:#ECE2C9; --paperHair:#CDBE9E;
+    --ink:#2B2722; --inkSoft:#4A433B; --inkLight:#857D72; --inkMist:#B8AFA1;
+    --bronze:#8b7355; --bronzeDark:#6B5339; --dmBorder:#584A3E;
+    --metal:#8BA3B8; --metalDeep:#6A849A; --wood:#7A9E6E; --woodDeep:#587A4D;
+    --fire:#C4745A; --fireDeep:#9E5540; --earth:#B89A6A; --earthDeep:#927750;
+    --water:#5A7FA8; --waterDeep:#3E5F85; --ghost:#B8B0A2;
+    --up:#4a7a52; --down:#a85c48;
+    --borderStd:#D5CDBD; --borderLight:#E5DFD1;
+    --cardstock:rgba(248,241,225,0.92); --quiet-bg:#EBE5D6; --quiet-border:#DCD3C0;
+    --shadow-card:0 1px 0 rgba(43,39,34,0.04);
+    --shadow-tile:0 1px 0 rgba(43,39,34,0.04), 0 8px 18px rgba(60,46,28,0.07);
+    --ease-out:cubic-bezier(0.22,1,0.36,1);
+    width: 390px; height: 844px; border-radius: 47px; position: relative; overflow: hidden;
+    background: #FBF7EC; color: var(--ink);
+    font-family: 'EB Garamond', Georgia, serif;
+    box-shadow: var(--pg-shadow), inset 0 0 0 8px #2B2722, inset 0 0 0 9px rgba(80,72,60,0.4);
+    flex-shrink: 0;
+  }
+  .phone .notch { position: absolute; top: 16px; left: 50%; transform: translateX(-50%); width: 110px; height: 26px; border-radius: 999px; background: #2B2722; z-index: 60; }
+  .phone .screen {
+    position: absolute; inset: 8px; border-radius: 40px; overflow: hidden;
+    display: flex; flex-direction: column;
+    background:
+      radial-gradient(140% 80% at 50% -10%, rgba(139,163,184,0.10), transparent 60%),
+      linear-gradient(180deg, #F5EEDE 0%, #F1E9D6 55%, #ECE2C9 100%);
+  }
+  .phone .status { height: 52px; flex-shrink: 0; display: flex; align-items: flex-end; justify-content: space-between; padding: 0 30px 4px; font-size: 13px; font-weight: 600; position: relative; z-index: 50; }
+  .phone .status .dots { font-size: 11px; letter-spacing: 1px; color: var(--inkSoft); }
+  .phone .pad { padding: 6px 20px 96px; flex: 1; min-height: 0; position: relative; z-index: 5; display: flex; flex-direction: column; overflow: hidden; }
+  .phone .pad > * { flex-shrink: 0; }
+
+  .phone .eyebrow-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
+  .phone .eyebrow { font-size: 10px; font-weight: 500; letter-spacing: 2.5px; text-transform: uppercase; color: var(--inkLight); }
+  .phone .eyebrow-tag { font-family: Consolas, monospace; font-size: 8.5px; letter-spacing: 1.4px; color: var(--inkMist); }
+
+  /* ── the identity plate — absorbs the prescription (no boxes) ── */
+  .idplate { text-align: center; margin-top: 2px; }
+  .idp-name {
+    display: inline-flex; align-items: baseline; gap: 8px; background: none; border: none; padding: 0; cursor: pointer;
+    font-family: 'Cormorant Garamond', Georgia, serif; font-size: 27px; font-weight: 500; color: var(--ink); line-height: 1.05;
+  }
+  .idp-name:focus-visible { outline: 2px solid var(--bronzeDark); outline-offset: 3px; }
+  .idp-name .chev { width: 12px; height: 12px; color: var(--bronzeDark); align-self: center; opacity: 0.8; }
+  .idp-pinyin { font-family: Cinzel, Georgia, serif; font-size: 9.5px; letter-spacing: 3px; color: var(--metalDeep); text-transform: uppercase; margin-top: 3px; }
+  .idp-band {
+    margin: 10px 0 0; padding: 2px 4px;
+    border-top: 1px solid var(--paperHair); border-bottom: 1px solid var(--paperHair);
+    background: linear-gradient(90deg, rgba(253,250,242,0) 0%, rgba(253,250,242,0.78) 14%, rgba(253,250,242,0.78) 86%, rgba(253,250,242,0) 100%);
+  }
+  .idp-row {
+    display: grid; grid-template-columns: 20px 1fr 14px; gap: 10px; align-items: center;
+    width: 100%; text-align: left; background: none; border: none; cursor: pointer; padding: 9px 4px;
+    transition: transform 160ms var(--ease-out);
+  }
+  .idp-row:hover { transform: translateX(2px); }
+  .idp-row:focus-visible { outline: 2px solid var(--bronzeDark); outline-offset: 1px; }
+  .idp-row + .idp-row { border-top: 1px dotted rgba(139,115,85,0.28); }
+  .idp-pip {
+    width: 19px; height: 19px; border-radius: 50%; border: 1.4px solid;
+    background: rgba(248,244,236,0.95); display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 1px 3px rgba(43,39,34,0.12);
+  }
+  .idp-pip svg { width: 10.5px; height: 10.5px; }
+  .idp-pip.up { border-color: var(--up); color: var(--up); }
+  .idp-pip.down { border-color: var(--down); color: var(--down); }
+  .idp-lead { font-size: 13.5px; line-height: 1.3; color: var(--inkSoft); }
+  .idp-lead .el-need { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 16px; font-weight: 600; color: var(--fireDeep); }
+  .idp-lead .el-avoid { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 16px; font-weight: 600; color: var(--earthDeep); }
+  .idp-lead .ask-up { font-weight: 600; color: var(--up); }
+  .idp-lead .ask-down { font-weight: 600; color: var(--down); }
+  .idp-sub { display: block; font-size: 10.5px; line-height: 1.4; color: var(--inkLight); margin-top: 2px; }
+  .idp-sub b { font-weight: 600; color: var(--inkSoft); }
+  .idp-row .chev { width: 13px; height: 13px; color: var(--bronzeDark); opacity: 0.75; }
+
+  /* ── the dominance wheel — geometry preserved, valence layer added ── */
+  .wheel { position: relative; width: 320px; height: 292px; margin: 6px auto 0; }
+  .enso { position: absolute; left: 18px; top: 5px; width: 277px; height: 277px; pointer-events: none; }
+  .enso .glyph {
+    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    font-family: 'Noto Serif TC', 'Songti SC', Georgia, serif; font-size: 58px; color: var(--ink); opacity: 0.85;
+  }
+  .node {
+    position: absolute; border-radius: 48% 52% 50% 50% / 50% 48% 52% 50%; border: none; padding: 0; cursor: pointer;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px;
+    z-index: 3; transition: transform 140ms var(--ease-out);
+    background:
+      radial-gradient(circle at 32% 26%, rgba(255,255,255,0.4), transparent 52%),
+      radial-gradient(circle at 72% 78%, color-mix(in srgb, var(--npig) 85%, #4a443c), transparent 74%),
+      color-mix(in srgb, var(--npig) 66%, #efe6d2);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--npig) 45%, transparent), 0 3px 8px color-mix(in srgb, var(--npig) 28%, transparent);
+  }
+  .node:hover, .node.lit { transform: scale(1.07); z-index: 4; }
+  .node:focus-visible { outline: 2px solid var(--bronzeDark); outline-offset: 3px; }
+  .node .elmark { fill: var(--ink); width: 17px; height: 17px; }
+  .node .pc { font-family: Consolas, monospace; font-size: 10px; font-weight: 700; color: var(--ink); text-shadow: 0 1px 2px rgba(248,246,240,0.7); }
+  .node.n-metal { --npig: var(--metal); } .node.n-earth { --npig: var(--earth); }
+  .node.n-wood { --npig: var(--wood); }  .node.n-water { --npig: var(--water); }
+  .node.n-fire { --npig: var(--fire); }
+  /* valence halo: catalysts wear a lit ring */
+  .node.v-cat::after { content: ''; position: absolute; inset: -6px; border-radius: 50%; border: 1.5px solid color-mix(in srgb, var(--up) 62%, transparent); box-shadow: 0 0 12px color-mix(in srgb, var(--up) 30%, transparent); pointer-events: none; }
+  /* friction: pigment stays, presence dims a shade */
+  .node.v-fric { filter: saturate(0.72); }
+  .node.v-fric::after { content: ''; position: absolute; inset: -6px; border-radius: 50%; border: 1px solid color-mix(in srgb, var(--down) 34%, transparent); pointer-events: none; }
+  /* the hollow seat — missing AND major catalyst */
+  .node.hollow {
+    background: radial-gradient(circle at 40% 35%, rgba(248,244,236,0.85), rgba(241,233,214,0.4));
+    box-shadow: none; border: 1.5px dashed color-mix(in srgb, var(--fire) 65%, var(--ghost));
+  }
+  .node.hollow .elmark { fill: color-mix(in srgb, var(--fireDeep) 60%, var(--ghost)); }
+  .node.hollow .pc { color: var(--inkLight); }
+  .node.hollow.v-cat::after { inset: -8px; border-width: 2px; animation: halo 3s ease-in-out infinite; }
+  @keyframes halo {
+    0%, 100% { box-shadow: 0 0 10px color-mix(in srgb, var(--up) 26%, transparent); }
+    50% { box-shadow: 0 0 20px color-mix(in srgb, var(--up) 48%, transparent); }
+  }
+  @media (prefers-reduced-motion: reduce) { .node.hollow.v-cat::after { animation: none; } }
+  /* valence pips — the ↑/↓ verdict pinned to each node */
+  .pip {
+    position: absolute; right: -7px; bottom: -3px; width: 17px; height: 17px; border-radius: 50%;
+    background: rgba(248,244,236,0.96); border: 1.4px solid; z-index: 5;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 1px 3px rgba(43,39,34,0.16);
+  }
+  .pip svg { width: 9.5px; height: 9.5px; }
+  .pip.up { border-color: var(--up); color: var(--up); }
+  .pip.down { border-color: var(--down); color: var(--down); }
+  .pip.major { box-shadow: 0 0 0 3px color-mix(in srgb, var(--up) 22%, transparent), 0 1px 3px rgba(43,39,34,0.16); }
+
+  .wheel-hint {
+    text-align: center; font-size: 11.5px; color: var(--inkLight); line-height: 1.45;
+    border-top: 1px solid var(--borderStd); border-bottom: 1px solid var(--borderStd);
+    padding: 6px 8px; margin: 8px 2px 0;
+  }
+  .wheel-hint .u { color: var(--up); font-weight: 600; }
+  .wheel-hint .d { color: var(--down); font-weight: 600; }
+
+  /* ── role-grouped shelf — the heavy card modification ── */
+  .band-head { display: flex; align-items: center; gap: 8px; margin: 14px 0 7px; }
+  .band-head .bg { width: 19px; height: 19px; border-radius: 50%; border: 1.4px solid; display: flex; align-items: center; justify-content: center; background: rgba(248,244,236,0.9); }
+  .band-head .bg svg { width: 10px; height: 10px; }
+  .band-head .bt { font-size: 9.5px; font-weight: 700; letter-spacing: 1.8px; text-transform: uppercase; }
+  .band-head .brule { flex: 1; border-top: 1px dotted var(--borderStd); }
+  .band-head .bn { font-family: Consolas, monospace; font-size: 8.5px; color: var(--inkMist); letter-spacing: 1px; }
+  .band-head.up .bg { border-color: var(--up); color: var(--up); }
+  .band-head.up .bt { color: var(--up); }
+  .band-head.down .bg { border-color: var(--down); color: var(--down); }
+  .band-head.down .bt { color: var(--down); }
+
+  .erow {
+    position: relative; overflow: hidden; width: 100%; text-align: left; cursor: pointer;
+    display: grid; grid-template-columns: 42px 1fr 26px; align-items: center; gap: 11px;
+    background: var(--cardstock); border: 1px solid var(--borderStd); border-radius: 13px;
+    box-shadow: var(--shadow-card); padding: 9px 11px 10px; margin-bottom: 7px;
+    transition: transform 160ms var(--ease-out), box-shadow 160ms;
+  }
+  .erow:hover { transform: translateY(-1px); box-shadow: var(--shadow-tile); }
+  .erow:focus-visible { outline: 2px solid var(--bronzeDark); outline-offset: 2px; }
+  .erow::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: color-mix(in srgb, var(--pig) 55%, transparent); }
+  .erow .seal { width: 42px; height: 42px; border-radius: 11px; display: flex; align-items: center; justify-content: center; background: color-mix(in srgb, var(--pig) 11%, transparent); border: 1px solid color-mix(in srgb, var(--pig) 30%, transparent); }
+  .erow .seal .elmark { width: 22px; height: 22px; fill: var(--pigDeep); }
+  .erow .tx { min-width: 0; }
+  .erow .l1 { display: flex; align-items: baseline; gap: 7px; flex-wrap: wrap; }
+  .erow .nm { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 16.5px; font-weight: 600; color: var(--ink); line-height: 1.05; }
+  .erow .pc { font-family: Consolas, monospace; font-size: 9.5px; color: var(--inkLight); }
+  .erow .chip { font-size: 7.5px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; border-radius: 999px; padding: 2px 7px; }
+  .erow .chip.major { color: #fff; background: var(--up); }
+  .erow .chip.miss { color: var(--inkLight); border: 1px dashed var(--inkMist); }
+  .erow .chip.core { color: var(--ink); border: 1px solid var(--dmBorder); }
+  .erow .hook { display: block; font-size: 11.5px; line-height: 1.35; color: var(--inkSoft); margin-top: 2px; }
+  .erow .track { display: block; height: 4px; border-radius: 999px; background: var(--borderLight); overflow: hidden; margin-top: 6px; }
+  .erow .track i { display: block; height: 100%; background: color-mix(in srgb, var(--pig) 58%, transparent); }
+  .erow .track i.gh { background: repeating-linear-gradient(45deg, rgba(184,176,162,0.65) 0 3px, transparent 3px 6px); min-width: 6px; }
+  .erow .go { width: 26px; height: 26px; border-radius: 999px; display: flex; align-items: center; justify-content: center; background: color-mix(in srgb, var(--pig) 13%, transparent); color: var(--pigDeep); }
+  .erow .go svg { width: 13px; height: 13px; }
+  .erow.el-fire  { --pig: var(--fire);  --pigDeep: var(--fireDeep); }
+  .erow.el-water { --pig: var(--water); --pigDeep: var(--waterDeep); }
+  .erow.el-wood  { --pig: var(--wood);  --pigDeep: var(--woodDeep); }
+  .erow.el-earth { --pig: var(--earth); --pigDeep: var(--earthDeep); }
+  .erow.el-metal { --pig: var(--metal); --pigDeep: var(--metalDeep); }
+  .erow.ghosted .seal { background: rgba(184,176,162,0.12); border-style: dashed; border-color: var(--inkMist); }
+  .erow.ghosted .seal .elmark { fill: color-mix(in srgb, var(--fireDeep) 55%, var(--ghost)); }
+
+  /* ── tab bar (locked chrome) ── */
+  .tabbar {
+    position: absolute; bottom: 0; left: 0; right: 0; height: 76px;
+    background: rgba(253,253,252,0.85); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid #E5DFD1; display: flex; justify-content: space-around; align-items: center;
+    padding: 8px 14px 20px; z-index: 30;
+  }
+  .tabbar .tab { width: 60px; display: flex; justify-content: center; background: none; border: none; }
+  .tabbar .tab svg { width: 24px; height: 24px; color: #857D72; }
+  .tabbar .tab.active svg { color: #2B2722; }
+
+  /* fold line marker on phone A */
+  .foldline { position: absolute; left: 0; right: 0; bottom: 76px; border-top: 1.5px dashed color-mix(in srgb, var(--pg-acc) 70%, transparent); z-index: 40; pointer-events: none; }
+  .foldline em { position: absolute; right: 10px; top: -18px; font-style: normal; font-size: 8.5px; font-weight: 700; letter-spacing: 1.6px; color: var(--pg-acc); background: rgba(248,244,236,0.92); border-radius: 999px; padding: 2px 8px; }
+
+  /* ─── notes rail ─────────────────────────────────────────────── */
+  .notes { display: flex; flex-direction: column; gap: 0; }
+  .notes h2 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 21px; font-weight: 600; margin: 0 0 4px; }
+  .notes .lede { font-size: 13px; color: var(--pg-mut); margin: 0 0 14px; max-width: 46ch; }
+  .note { display: grid; grid-template-columns: 26px 1fr; gap: 12px; padding: 13px 0; border-top: 1px solid var(--pg-hair); }
+  .note .nno {
+    width: 24px; height: 24px; border-radius: 50%; border: 1px solid var(--pg-acc); color: var(--pg-acc);
+    display: flex; align-items: center; justify-content: center; font-family: Consolas, monospace; font-size: 11px; margin-top: 1px;
+  }
+  .note h3 { font-size: 14.5px; font-weight: 600; margin: 2px 0 3px; }
+  .note h3 .zone { font-size: 9px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; color: var(--pg-mut); display: block; margin-bottom: 2px; }
+  .note p { font-size: 13px; line-height: 1.5; color: var(--pg-mut); margin: 0; }
+  .note p b { color: var(--pg-ink); font-weight: 600; }
+  .note .tag-up { color: var(--pg-up); font-weight: 600; }
+  .note .tag-down { color: var(--pg-down); font-weight: 600; }
+
+  /* ─── kept / changed / open footer ───────────────────────────── */
+  .ledger { margin-top: 46px; border-top: 1px solid var(--pg-hair); padding-top: 26px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+  @media (max-width: 880px) { .ledger { grid-template-columns: 1fr; } }
+  .ledger h4 { font-size: 10px; font-weight: 700; letter-spacing: 2.4px; text-transform: uppercase; margin: 0 0 10px; }
+  .ledger .kept h4 { color: var(--pg-up); } .ledger .changed h4 { color: var(--pg-acc); } .ledger .open h4 { color: var(--pg-down); }
+  .ledger ul { margin: 0; padding: 0; list-style: none; }
+  .ledger li { font-size: 13px; color: var(--pg-mut); padding: 5px 0; border-bottom: 1px dotted var(--pg-hair); line-height: 1.45; }
+  .ledger li b { color: var(--pg-ink); font-weight: 600; }
+
+  .colophon { margin-top: 34px; font-family: Consolas, monospace; font-size: 10px; letter-spacing: 1px; color: var(--pg-mut); display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+
+  @media (max-width: 430px) {
+    .sheet { padding: 28px 12px 48px; }
+    .phone { transform: scale(0.9); transform-origin: top center; margin-bottom: -84px; }
+  }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <symbol id="el-metal" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12 2.35L18.15 8.05L14.35 17.15H16.45V20.85H7.55V17.15H9.65L5.85 8.05L12 2.35ZM8.25 8.75L11.1 17.15H12.9L15.75 8.75L12 5.4L8.25 8.75ZM10.3 9.15L12 14.65L13.7 9.15L12 7.55L10.3 9.15Z"></path></symbol>
+  <symbol id="el-wood" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10.95 21.15V13.75C7.55 14.15 5.15 12.05 4.35 7.05C8.15 6.75 10.55 8.35 11.85 11.35C13.2 7.25 15.9 5.15 20.05 5.75C19.85 11.3 16.55 13.95 13.05 13.55V21.15H10.95ZM7.15 8.7C7.85 11.05 9.2 12.05 11 11.65C10.15 9.85 8.95 8.85 7.15 8.7ZM17.2 7.85C15.2 8.05 13.9 9.25 13.15 11.45C15.25 11.6 16.65 10.35 17.2 7.85Z"></path></symbol>
+  <symbol id="el-fire" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12.35 2.75C15.85 6.8 18.55 10.35 18.55 14.65C18.55 18.75 15.65 21.25 12 21.25C8.3 21.25 5.45 18.7 5.45 15.05C5.45 12.25 6.9 10 9.55 7.35C9.45 10.05 10.25 12 11.65 13C11.15 9.55 11.4 6.05 12.35 2.75ZM14.95 10.65C16.25 12.45 16.8 13.95 16.8 15.45C16.8 17.85 14.95 19.35 12.1 19.35C9.65 19.35 7.45 17.75 7.45 15.15C7.45 13.75 7.95 12.65 9 11.35C9.3 13.05 10.2 14.25 11.85 15.15L13 15.8L12.75 14.5C12.35 12.45 12.55 10.45 13.2 8.05C13.85 8.95 14.45 9.85 14.95 10.65Z"></path></symbol>
+  <symbol id="el-earth" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M3.55 18.2L8.45 9.35L11.45 13.15L15.25 5.6L20.45 18.2H3.55ZM8.8 13L7 16.25H17.45L15.1 10.55L12 16.7L8.8 13Z"></path><path fill="currentColor" d="M3.1 19.5H20.9V21.15H3.1V19.5Z"></path></symbol>
+  <symbol id="el-water" viewBox="0 0 24 24"><path fill="currentColor" d="M3.65 9.2C5.65 6.95 8.45 6.65 11.05 8.4C13.15 9.8 14.65 9.85 16.25 8.3C17.25 7.35 18.75 7.15 20.35 7.9C18.95 10.65 16.35 12 13.5 11.15C12.45 10.85 11.5 10.35 10.55 9.7C8.7 8.5 6.95 8.65 5.55 10.05C4.9 10.7 4.25 10.35 3.65 9.2Z"></path><path fill="currentColor" d="M3.65 15.15C5.65 12.9 8.45 12.6 11.05 14.35C13.15 15.75 14.65 15.8 16.25 14.25C17.25 13.3 18.75 13.1 20.35 13.85C18.95 16.6 16.35 17.95 13.5 17.1C12.45 16.8 11.5 16.3 10.55 15.65C8.7 14.45 6.95 14.6 5.55 16C4.9 16.65 4.25 16.3 3.65 15.15Z"></path></symbol>
+  <symbol id="ar-up" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V6"></path><path d="M6 11l6-6 6 6"></path></g></symbol>
+  <symbol id="ar-down" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v13"></path><path d="M6 13l6 6 6-6"></path></g></symbol>
+  <symbol id="ico-arrow-r" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12 H19"></path><path d="M14 7 L19 12 L14 17"></path></g></symbol>
+  <symbol id="tab-today" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18"></path><path d="M8 3v4"></path><path d="M16 3v4"></path></g></symbol>
+  <symbol id="tab-guidance" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 4.8 L14.5 12 L12 19.2 L9.5 12 Z"></path><circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"></circle></g></symbol>
+  <symbol id="tab-reading" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5 C 6 4, 9 4, 12 6 C 15 4, 18 4, 21 5 V19 C 18 18, 15 18, 12 20 C 9 18, 6 18, 3 19 Z"></path><path d="M12 6 V20"></path></g></symbol>
+  <symbol id="tab-compat" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="12" r="6.5"></circle><circle cx="15.5" cy="12" r="6.5"></circle><circle cx="12" cy="12" r="0.9" fill="currentColor" stroke="none"></circle></g></symbol>
+  <symbol id="tab-profile" viewBox="0 0 24 24"><g stroke="currentColor" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"></path></g></symbol>
+</defs></svg>
+
+<div class="sheet">
+
+  <header class="head">
+    <div class="eyeline">
+      <span class="eb">Elementum · Reading Tab · D13</span>
+      <span class="stamp">MOCKUP B-02 · ANSWER-FIRST CATALOGUE</span>
+    </div>
+    <h1>The identity plate now carries the prescription.</h1>
+    <p class="sub">Same wheel, same silk, same vocabulary — the surface answers <b>"what energy do I need?"</b> in the first viewport, zero taps. In this iteration <b>Catalyst</b> and <b>Friction</b> are no longer boxed cards: they are inscribed into the identity plate above the wheel, so "who you are" and "what you need" read as one statement.</p>
+    <span class="chart-chip"><span class="zh">庚</span> REFERENCE CHART — YANG METAL · THE BLADE · CONCENTRATED · M40 E30 W20 A10 F0</span>
+  </header>
+
+  <div class="board">
+
+    <!-- ═══════════ PHONE A · first viewport ═══════════ -->
+    <div class="phone-slot">
+      <div class="phone" id="phoneA">
+        <div class="notch"></div>
+        <div class="screen">
+          <div class="status"><span>9:41</span><span class="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
+          <div class="pad">
+
+            <div class="eyebrow-row">
+              <span class="eyebrow">Your Reading</span>
+              <span class="eyebrow-tag">FIVE ENERGIES</span>
+            </div>
+
+            <!-- the identity plate, carrying the prescription as its inscription -->
+            <div class="idplate">
+              <button class="idp-name" aria-label="You are The Blade — read your Day Master">
+                The Blade
+                <svg class="chev" viewBox="0 0 24 24"><use href="#ico-arrow-r"/></svg>
+              </button>
+              <div class="idp-pinyin">GĒNG · YANG METAL · CONCENTRATED</div>
+              <div class="idp-band">
+                <button class="idp-row" data-link="fire" aria-label="Catalyst: Fire — the energy you need. Open its reading.">
+                  <span class="idp-pip up"><svg viewBox="0 0 24 24"><use href="#ar-up"/></svg></span>
+                  <span>
+                    <span class="idp-lead"><span class="el-need">Fire</span> is your catalyst — <span class="ask-up">the energy you need</span></span>
+                    <span class="idp-sub">Tempers your edge; cast with none — borrow it daily. Also: <b>Water · Wood</b></span>
+                  </span>
+                  <svg class="chev" viewBox="0 0 24 24"><use href="#ico-arrow-r"/></svg>
+                </button>
+                <button class="idp-row" data-link="earth" aria-label="Friction: Earth — the energy you don't. Open its reading.">
+                  <span class="idp-pip down"><svg viewBox="0 0 24 24"><use href="#ar-down"/></svg></span>
+                  <span>
+                    <span class="idp-lead"><span class="el-avoid">Earth</span> is your friction — <span class="ask-down">the energy you don't</span></span>
+                    <span class="idp-sub">You carry plenty; more ground buries the blade. Also: <b>Metal, your core</b></span>
+                  </span>
+                  <svg class="chev" viewBox="0 0 24 24"><use href="#ico-arrow-r"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- the wheel — geometry untouched, valence layer new -->
+            <div class="wheel" aria-label="Dominance wheel: size shows presence, halos and arrows show catalyst and friction">
+              <div class="enso" aria-hidden="true">
+                <svg width="277" height="277" viewBox="0 0 277 277">
+                  <circle cx="138.5" cy="138.5" r="117" fill="none" stroke="#2B2722" stroke-opacity="0.10" stroke-width="8" stroke-linecap="round" stroke-dasharray="690 45" transform="rotate(-64 138.5 138.5)"></circle>
+                  <circle cx="138.5" cy="138.5" r="120" fill="none" stroke="#2B2722" stroke-opacity="0.15" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="705 48" transform="rotate(-58 138.5 138.5)"></circle>
+                </svg>
+                <span class="glyph">庚</span>
+              </div>
+              <button class="node n-metal v-fric" data-el="metal" style="width:59px;height:59px;left:126.9px;top:-2px" aria-label="Metal, 40 percent, your core — friction">
+                <svg class="elmark" viewBox="0 0 24 24"><use href="#el-metal"/></svg><span class="pc">40%</span>
+                <span class="pip down"><svg viewBox="0 0 24 24"><use href="#ar-down"/></svg></span>
+              </button>
+              <button class="node n-earth v-fric" data-el="earth" style="width:53px;height:53px;left:245.4px;top:83.2px" aria-label="Earth, 30 percent — friction">
+                <svg class="elmark" viewBox="0 0 24 24"><use href="#el-earth"/></svg><span class="pc">30%</span>
+                <span class="pip down"><svg viewBox="0 0 24 24"><use href="#ar-down"/></svg></span>
+              </button>
+              <button class="node n-wood v-cat" data-el="wood" style="width:48px;height:48px;left:203.8px;top:221.4px" aria-label="Wood, 20 percent — catalyst">
+                <svg class="elmark" viewBox="0 0 24 24"><use href="#el-wood"/></svg><span class="pc">20%</span>
+                <span class="pip up"><svg viewBox="0 0 24 24"><use href="#ar-up"/></svg></span>
+              </button>
+              <button class="node n-water v-cat" data-el="water" style="width:42px;height:42px;left:64px;top:224.4px" aria-label="Water, 10 percent — catalyst">
+                <svg class="elmark" viewBox="0 0 24 24"><use href="#el-water"/></svg><span class="pc">10%</span>
+                <span class="pip up"><svg viewBox="0 0 24 24"><use href="#ar-up"/></svg></span>
+              </button>
+              <button class="node n-fire v-cat hollow" data-el="fire" style="width:37px;height:37px;left:22.4px;top:91.2px" aria-label="Fire, 0 percent, missing — your major catalyst">
+                <svg class="elmark" viewBox="0 0 24 24"><use href="#el-fire"/></svg><span class="pc">0%</span>
+                <span class="pip up major"><svg viewBox="0 0 24 24"><use href="#ar-up"/></svg></span>
+              </button>
+            </div>
+
+            <div class="wheel-hint">Size is how much you carry — <span class="u">↑</span> and <span class="d">↓</span> are what it does for you.</div>
+
+            <!-- catalyst band peeks under the fold -->
+            <div class="band-head up">
+              <span class="bg"><svg viewBox="0 0 24 24"><use href="#ar-up"/></svg></span>
+              <span class="bt">Catalyst — feed these</span>
+              <span class="brule"></span>
+              <span class="bn">3 OF 5</span>
+            </div>
+            <button class="erow el-fire ghosted" data-link="fire" aria-label="Fire reading">
+              <span class="seal"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-fire"/></svg></span>
+              <span class="tx">
+                <span class="l1"><span class="nm">Fire</span><span class="pc">0%</span><span class="chip major">Major</span><span class="chip miss">Missing</span></span>
+                <span class="hook">The forge you borrow, never own — visit it daily.</span>
+                <span class="track"><i class="gh"></i></span>
+              </span>
+              <span class="go"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"/></svg></span>
+            </button>
+
+            <button class="erow el-water" data-link="water" aria-label="Water reading">
+              <span class="seal"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-water"/></svg></span>
+              <span class="tx">
+                <span class="l1"><span class="nm">Water</span><span class="pc">10%</span></span>
+                <span class="hook">Where your edge learns to flow — thin in you, worth feeding.</span>
+                <span class="track"><i style="width:10%"></i></span>
+              </span>
+              <span class="go"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"/></svg></span>
+            </button>
+
+          </div>
+          <div class="foldline"><em>FOLD · 844</em></div>
+          <div class="tabbar" aria-hidden="true">
+            <span class="tab"><svg viewBox="0 0 24 24"><use href="#tab-today"/></svg></span>
+            <span class="tab"><svg viewBox="0 0 24 24"><use href="#tab-guidance"/></svg></span>
+            <span class="tab active"><svg viewBox="0 0 24 24"><use href="#tab-reading"/></svg></span>
+            <span class="tab"><svg viewBox="0 0 24 24"><use href="#tab-compat"/></svg></span>
+            <span class="tab"><svg viewBox="0 0 24 24"><use href="#tab-profile"/></svg></span>
+          </div>
+        </div>
+      </div>
+      <div class="slot-cap">
+        <span class="k"><i>A</i> First viewport — zero taps</span>
+        <p>One composition, no boxes: name → pinyin → the prescription as the plate's inscription → the wheel as evidence. The catalyst band crops at the fold to invite the scroll.</p>
+      </div>
+    </div>
+
+    <!-- ═══════════ PHONE B · scrolled ═══════════ -->
+    <div class="phone-slot">
+      <div class="phone" id="phoneB">
+        <div class="notch"></div>
+        <div class="screen">
+          <div class="status"><span>9:41</span><span class="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
+          <div class="pad">
+
+            <!-- cropped wheel bottom = scroll continuity -->
+            <div class="wheel" style="margin-top:-158px" aria-hidden="true">
+              <div class="enso">
+                <svg width="277" height="277" viewBox="0 0 277 277">
+                  <circle cx="138.5" cy="138.5" r="117" fill="none" stroke="#2B2722" stroke-opacity="0.10" stroke-width="8" stroke-linecap="round" stroke-dasharray="690 45" transform="rotate(-64 138.5 138.5)"></circle>
+                </svg>
+                <span class="glyph" style="opacity:.5">庚</span>
+              </div>
+              <span class="node n-wood v-cat" data-el="wood" style="width:48px;height:48px;left:203.8px;top:221.4px">
+                <svg class="elmark" viewBox="0 0 24 24"><use href="#el-wood"/></svg><span class="pc">20%</span>
+                <span class="pip up"><svg viewBox="0 0 24 24"><use href="#ar-up"/></svg></span>
+              </span>
+              <span class="node n-water v-cat" data-el="water" style="width:42px;height:42px;left:64px;top:224.4px">
+                <svg class="elmark" viewBox="0 0 24 24"><use href="#el-water"/></svg><span class="pc">10%</span>
+                <span class="pip up"><svg viewBox="0 0 24 24"><use href="#ar-up"/></svg></span>
+              </span>
+            </div>
+
+            <div class="wheel-hint">Size is how much you carry — <span class="u">↑</span> and <span class="d">↓</span> are what it does for you.</div>
+
+            <div class="band-head up">
+              <span class="bg"><svg viewBox="0 0 24 24"><use href="#ar-up"/></svg></span>
+              <span class="bt">Catalyst — feed these</span>
+              <span class="brule"></span>
+              <span class="bn">3 OF 5</span>
+            </div>
+
+            <button class="erow el-fire ghosted" data-link="fire" aria-label="Fire reading">
+              <span class="seal"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-fire"/></svg></span>
+              <span class="tx">
+                <span class="l1"><span class="nm">Fire</span><span class="pc">0%</span><span class="chip major">Major</span><span class="chip miss">Missing</span></span>
+                <span class="hook">The forge you borrow, never own — visit it daily.</span>
+                <span class="track"><i class="gh"></i></span>
+              </span>
+              <span class="go"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"/></svg></span>
+            </button>
+
+            <button class="erow el-water" data-link="water" aria-label="Water reading">
+              <span class="seal"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-water"/></svg></span>
+              <span class="tx">
+                <span class="l1"><span class="nm">Water</span><span class="pc">10%</span></span>
+                <span class="hook">Where your edge learns to flow — thin in you, worth feeding.</span>
+                <span class="track"><i style="width:10%"></i></span>
+              </span>
+              <span class="go"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"/></svg></span>
+            </button>
+
+            <button class="erow el-wood" data-link="wood" aria-label="Wood reading">
+              <span class="seal"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-wood"/></svg></span>
+              <span class="tx">
+                <span class="l1"><span class="nm">Wood</span><span class="pc">20%</span></span>
+                <span class="hook">What your blade is for — give it more to shape.</span>
+                <span class="track"><i style="width:20%"></i></span>
+              </span>
+              <span class="go"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"/></svg></span>
+            </button>
+
+            <div class="band-head down">
+              <span class="bg"><svg viewBox="0 0 24 24"><use href="#ar-down"/></svg></span>
+              <span class="bt">Friction — ease off</span>
+              <span class="brule"></span>
+              <span class="bn">2 OF 5</span>
+            </div>
+
+            <button class="erow el-earth" data-link="earth" aria-label="Earth reading">
+              <span class="seal"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-earth"/></svg></span>
+              <span class="tx">
+                <span class="l1"><span class="nm">Earth</span><span class="pc">30%</span></span>
+                <span class="hook">The ground that feeds your edge — already rich; stop adding.</span>
+                <span class="track"><i style="width:30%"></i></span>
+              </span>
+              <span class="go"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"/></svg></span>
+            </button>
+
+            <button class="erow el-metal" data-link="metal" aria-label="Metal reading">
+              <span class="seal"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-metal"/></svg></span>
+              <span class="tx">
+                <span class="l1"><span class="nm">Metal</span><span class="pc">40%</span><span class="chip core">Your core</span></span>
+                <span class="hook">Already concentrated — honor it, don't sharpen it further.</span>
+                <span class="track"><i style="width:40%"></i></span>
+              </span>
+              <span class="go"><svg viewBox="0 0 24 24"><use href="#ico-arrow-r"/></svg></span>
+            </button>
+
+          </div>
+          <div class="tabbar" aria-hidden="true">
+            <span class="tab"><svg viewBox="0 0 24 24"><use href="#tab-today"/></svg></span>
+            <span class="tab"><svg viewBox="0 0 24 24"><use href="#tab-guidance"/></svg></span>
+            <span class="tab active"><svg viewBox="0 0 24 24"><use href="#tab-reading"/></svg></span>
+            <span class="tab"><svg viewBox="0 0 24 24"><use href="#tab-compat"/></svg></span>
+            <span class="tab"><svg viewBox="0 0 24 24"><use href="#tab-profile"/></svg></span>
+          </div>
+        </div>
+      </div>
+      <div class="slot-cap">
+        <span class="k"><i>B</i> Scrolled — the shelf, regrouped</span>
+        <p>Spines become role-grouped rows: Catalyst then Friction, each with presence gauge, rewritten hook, and a Read affordance. Grouping is the guidance — no glyph decoding needed.</p>
+      </div>
+    </div>
+
+    <!-- ═══════════ NOTES RAIL ═══════════ -->
+    <aside class="notes">
+      <h2>Design notes</h2>
+      <p class="lede">Numbered top-to-bottom, in the order the redesigned surface is read.</p>
+
+      <div class="note">
+        <span class="nno">1</span>
+        <div>
+          <h3><span class="zone">New · the plate absorbs the prescription</span>The identity plate, inscribed</h3>
+          <p>No boxed cards. The page opens in the reveal plate's own grammar — <b>The Blade</b>, the pinyin line, then an inscription band between hairlines carrying the two verdicts: <span class="tag-up">↑ Fire is your catalyst — the energy you need</span> / <span class="tag-down">↓ Earth is your friction — the energy you don't</span>. Identity is the frame; the prescription is what's engraved on it. Each line taps into that element's full reading (<b>app-energy</b>); the name taps into the Day Master card.</p>
+        </div>
+      </div>
+
+      <div class="note">
+        <span class="nno">2</span>
+        <div>
+          <h3><span class="zone">Preserved + valence layer</span>The dominance wheel</h3>
+          <p>Geometry untouched — size still encodes presence, seat still encodes rank (<b>DOMINANCE_WHEEL_RULES</b> intact). New: every node carries an ↑/↓ pip, catalysts wear a lit ring, friction sits a shade quieter. The crowned Metal node wearing a ↓ is the point: it visually breaks the "biggest = best" misreading.</p>
+        </div>
+      </div>
+
+      <div class="note">
+        <span class="nno">3</span>
+        <div>
+          <h3><span class="zone">The hardest case, made a feature</span>The hollow seat glows</h3>
+          <p>Fire is 0% <i>and</i> the major catalyst. Its node renders dashed-hollow with the strongest halo and the major pip — the emptiest seat is the loudest ask. The hint line beneath states the lesson: <b>size is how much you carry; the marks are what it does for you.</b></p>
+        </div>
+      </div>
+
+      <div class="note">
+        <span class="nno">4</span>
+        <div>
+          <h3><span class="zone">Absorbed, not removed</span>One identity surface</h3>
+          <p>The below-wheel DayMasterCta is gone — identity moved above the wheel and became the prescription's frame, so "who you are" and "what you need" are read in the same breath. Its route survives: the plate's name and the wheel's center seal both open the Day Master card. Only one seal remains on the surface (the wheel's center), so the reveal ceremony's gliding seal keeps a single landing spot.</p>
+        </div>
+      </div>
+
+      <div class="note">
+        <span class="nno">5</span>
+        <div>
+          <h3><span class="zone">Heavy modification · spines → role rows</span>The shelf, regrouped</h3>
+          <p>Presence-ranked accordion spines become row cards under two labeled bands: <span class="tag-up">Catalyst — feed these</span> and <span class="tag-down">Friction — ease off</span>. Presence survives as the gauge + %, spine cap and pigment DNA carry over, hooks are rewritten from the catalyst/friction angle. Chips handle the collisions: <b>Major</b>, <b>Missing</b>, <b>Your core</b>.</p>
+        </div>
+      </div>
+
+      <div class="note">
+        <span class="nno">6</span>
+        <div>
+          <h3><span class="zone">Behavior</span>Fold discipline &amp; taps</h3>
+          <p>Above the fold: answer + evidence. The catalyst band header peeks under the Day Master card to motivate the scroll. Tapping a prescription card, a row, or a node all resolve to the same element reading — three doors, one room. (Hover or tap any card here to light its node.)</p>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <!-- ═══════════ KEPT / CHANGED / OPEN ═══════════ -->
+  <div class="ledger">
+    <div class="kept">
+      <h4>Kept</h4>
+      <ul>
+        <li><b>Wheel rule</b> — size ∝ presence, seat = rank, dominant at 12 o'clock</li>
+        <li><b>Silk ground, element pigments, ink type</b> — no new palette</li>
+        <li><b>Catalyst / Friction vocabulary</b> — verbatim, per concept inventory</li>
+        <li><b>Routes</b> — day master, pillar chart, element readings unchanged</li>
+        <li><b>Tab chrome + reveal handoff</b> — the ceremony still resolves here</li>
+      </ul>
+    </div>
+    <div class="changed">
+      <h4>Changed</h4>
+      <ul>
+        <li><b>Eyebrow</b> — "Your Energies" → "Your Reading"</li>
+        <li><b>Identity plate above the wheel</b> — name + pinyin + prescription inscribed between hairlines, no boxes</li>
+        <li><b>Wheel valence layer</b> — ↑/↓ pips, catalyst halos, hollow-seat treatment</li>
+        <li><b>DayMasterCta absorbed</b> — name and center seal both route to the Day Master card</li>
+        <li><b>Shelf</b> — accordion spines → role-grouped rows, hooks re-angled</li>
+      </ul>
+    </div>
+    <div class="open">
+      <h4>Open questions</h4>
+      <ul>
+        <li><b>Balanced band</b> — no friction set; the pair needs a gentler register ("lean toward / lean away")</li>
+        <li><b>Catalyst not missing</b> — when the major catalyst is present, the need-card drops the Missing chip; verify copy still lands</li>
+        <li><b>Word budgets</b> — all hooks/lines here are filler-grade; production copy is per stem × band</li>
+        <li><b>Reveal beat</b> — plate closing line "What you need is Fire" proposed, not yet mocked</li>
+        <li><b>Reveal handoff</b> — the ceremony's plate should dissolve INTO this header (name + inscription persist as the seal glides to the wheel center); needs a motion pass</li>
+      </ul>
+    </div>
+  </div>
+
+  <p class="colophon">
+    <span>ELEMENTUM · D13 READING SURFACE · MOCKUP B-02</span>
+    <span>ROLES FROM energyRoles.js — NOTHING NEW COMPUTED</span>
+  </p>
+</div>
+
+<script>
+  // hover/tap a prescription card or shelf row → light the matching wheel node in the same phone
+  document.querySelectorAll('[data-link]').forEach(function (el) {
+    var phone = el.closest('.phone');
+    if (!phone) return;
+    var nodes = phone.querySelectorAll('.node[data-el="' + el.getAttribute('data-link') + '"]');
+    function on() { nodes.forEach(function (n) { n.classList.add('lit'); }); }
+    function off() { nodes.forEach(function (n) { n.classList.remove('lit'); }); }
+    el.addEventListener('mouseenter', on);
+    el.addEventListener('mouseleave', off);
+    el.addEventListener('focus', on);
+    el.addEventListener('blur', off);
+  });
+</script>
+
+</body>
+</html>
