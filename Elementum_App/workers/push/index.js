@@ -59,16 +59,65 @@ async function vapidHeader(audience, env) {
   return `vapid t=${header}.${claims}.${b64u(sig)}, k=${env.VAPID_PUBLIC}`;
 }
 
-// Payload-less push: authenticated POST, empty body. 201 = queued.
-async function sendPush(sub, env) {
+// ── RFC 8291 payload encryption (aes128gcm) ─────────────────────────────────
+// Apple's push service silently drops payload-less pushes, so every send
+// carries the message encrypted to the subscription's keys. One ephemeral
+// ECDH keypair per message; body = salt(16) | rs(4) | idlen(1) | asPub(65) | ct.
+const fromB64u = (s) => {
+  const pad = '='.repeat((4 - (s.length % 4)) % 4);
+  return Uint8Array.from(atob((s + pad).replace(/-/g, '+').replace(/_/g, '/')), (c) => c.charCodeAt(0));
+};
+const concat = (...arrs) => {
+  const out = new Uint8Array(arrs.reduce((n, a) => n + a.length, 0));
+  let o = 0;
+  for (const a of arrs) { out.set(a, o); o += a.length; }
+  return out;
+};
+
+async function hkdf(salt, ikm, info, bits) {
+  const key = await crypto.subtle.importKey('raw', ikm, 'HKDF', false, ['deriveBits']);
+  return new Uint8Array(await crypto.subtle.deriveBits({ name: 'HKDF', hash: 'SHA-256', salt, info }, key, bits));
+}
+
+async function encryptPayload(sub, plaintextStr) {
+  const uaPub = fromB64u(sub.p256dh);          // user agent public key (65B)
+  const authSecret = fromB64u(sub.auth);       // 16B auth secret
+  const uaKey = await crypto.subtle.importKey('raw', uaPub, { name: 'ECDH', namedCurve: 'P-256' }, false, []);
+  const eph = await crypto.subtle.generateKey({ name: 'ECDH', namedCurve: 'P-256' }, true, ['deriveBits']);
+  const asPub = new Uint8Array(await crypto.subtle.exportKey('raw', eph.publicKey));
+  const ecdh = new Uint8Array(await crypto.subtle.deriveBits({ name: 'ECDH', public: uaKey }, eph.privateKey, 256));
+
+  // IKM = HKDF(authSecret, ecdh, "WebPush: info" || 0x00 || uaPub || asPub)
+  const ikm = await hkdf(authSecret, ecdh, concat(enc.encode('WebPush: info\0'), uaPub, asPub), 256);
+  const salt = crypto.getRandomValues(new Uint8Array(16));
+  const cek = await hkdf(salt, ikm, enc.encode('Content-Encoding: aes128gcm\0'), 128);
+  const nonce = await hkdf(salt, ikm, enc.encode('Content-Encoding: nonce\0'), 96);
+
+  // Single record: plaintext || 0x02 (last-record delimiter)
+  const aesKey = await crypto.subtle.importKey('raw', cek, 'AES-GCM', false, ['encrypt']);
+  const ct = new Uint8Array(await crypto.subtle.encrypt(
+    { name: 'AES-GCM', iv: nonce }, aesKey, concat(enc.encode(plaintextStr), new Uint8Array([2]))
+  ));
+
+  // aes128gcm header: salt | rs=4096 | idlen=65 | asPub
+  const header = concat(salt, new Uint8Array([0, 0, 16, 0]), new Uint8Array([asPub.length]), asPub);
+  return concat(header, ct);
+}
+
+// Encrypted push (RFC 8291): the notification content rides in the body.
+async function sendPush(sub, env, message) {
   const audience = new URL(sub.endpoint).origin;
+  const body = await encryptPayload(sub, JSON.stringify(message));
   const res = await fetch(sub.endpoint, {
     method: 'POST',
     headers: {
       Authorization: await vapidHeader(audience, env),
+      'Content-Encoding': 'aes128gcm',
+      'Content-Type': 'application/octet-stream',
       TTL: '86400',
       Urgency: 'normal',
     },
+    body,
   });
   return res.status;
 }
@@ -125,6 +174,21 @@ export default {
       return json({ ok: res.ok }, res.ok ? 200 : 500, cors);
     }
 
+    // One-off send to a single subscription (testing / "send me a preview").
+    // Push endpoints are unguessable capability URLs — only their owner (or
+    // our own server) can name one, and the content is the fixed daily message.
+    if (request.method === 'POST' && pathname === '/send-now') {
+      let body;
+      try { body = await request.json(); } catch { return json({ error: 'bad json' }, 400, cors); }
+      if (!body?.endpoint) return json({ error: 'endpoint required' }, 400, cors);
+      const { url, headers } = sb(env);
+      const res = await fetch(`${url}?endpoint=eq.${encodeURIComponent(body.endpoint)}&select=endpoint,p256dh,auth`, { headers });
+      const subs = res.ok ? await res.json() : [];
+      if (!subs.length) return json({ error: 'unknown subscription' }, 404, cors);
+      const status = await sendPush(subs[0], env, dailyMessage());
+      return json({ pushServiceStatus: status }, 200, cors);
+    }
+
     if (request.method === 'POST' && pathname === '/unsubscribe') {
       let body;
       try { body = await request.json(); } catch { return json({ error: 'bad json' }, 400, cors); }
@@ -145,10 +209,11 @@ export default {
       const res = await fetch(`${url}?utc_hour=eq.${hour}&select=endpoint,p256dh,auth`, { headers });
       if (!res.ok) { console.error('sub fetch failed', res.status); return; }
       const subs = await res.json();
+      const message = dailyMessage();
       let sent = 0, pruned = 0;
       for (const sub of subs) {
         try {
-          const status = await sendPush(sub, env);
+          const status = await sendPush(sub, env, message);
           if (status === 404 || status === 410) {
             await fetch(`${url}?endpoint=eq.${encodeURIComponent(sub.endpoint)}`, { method: 'DELETE', headers });
             pruned += 1;
