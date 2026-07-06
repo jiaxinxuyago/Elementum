@@ -114,11 +114,17 @@ Apple Pay / Google Pay are **not a separate integration** — their availability
 - **Depends on:** §4.1 (per-user limits). **Highest product uncertainty + ongoing cost of the four** — the scripted version is an acceptable demo placeholder.
 
 ### §4.4 Push notifications — daily reading reminder
-- **What:** the "daily reading" reminder actually firing.
-- **Server piece:** a push provider + a **cron** serverless function that, per opted-in user, computes the daily message and sends.
-- **Client seam:** the Profile notify toggle + onboarding notify steps are **cosmetic** today. Add: permission request + service worker (Web Push) or SDK (OneSignal). The daily-message logic already exists client-side (`content/dailyGuidance.js`) and is replicated server-side for the send (or recomputed from stored birth data).
-- **Workload:** medium, platform-dependent. Native push (if wrapped) = FCM/APNs.
-- **Depends on:** §4.1 + a server-side chart or birth data.
+
+> **DECISIONS LOCKED 2026-07 (owner):**
+> 1. **Raw Web Push** (VAPID, no vendor) — not OneSignal/FCM SDKs. Zero cost, no third-party tracking, runs on the existing Cloudflare Worker + Supabase stack.
+> 2. **Date-based message, no personalization server-side.** The daily elemental current (day stem/element) derives from the DATE alone — identical for all users, zero PII. The personalized layer renders client-side after tap-through. This preserves the §3 privacy split (birth data never leaves the device) — the server stores only a push endpoint + preferred send hour.
+> 3. **Native-app push (FCM/APNs) is DEFERRED to Phase B** — tracked alongside the §4.2a IAP/Play-Billing bundle. When the Capacitor wrap happens, Web Push subscriptions do not carry over into the native binary; a push-provider migration (FCM/APNs, likely via the §4.2a store-migration workstream) is required. **Do not treat Web Push infra as reusable for the native app.**
+
+- **What:** the "daily reading" reminder actually firing, as Web Push from `elementum.life` (no app store).
+- **Platform reality:** Android/desktop — works from the browser directly. **iOS 16.4+ — works ONLY for the installed PWA** (Add to Home Screen first); Safari browsing alone cannot receive push. The install step is the iOS friction; the A2HS prompt is therefore part of the push funnel.
+- **Server piece:** `elementum-push` Cloudflare Worker — (a) subscribe/unsubscribe API writing `push_subscriptions` via service-role (no client RLS surface), (b) hourly **cron** that sends to every subscription whose preferred UTC hour matches, (c) `/message` endpoint serving today's date-based text. Sends are **payload-less** (VAPID auth only — sidesteps RFC 8291 payload encryption); the service worker fetches `/message` on wake and shows the notification.
+- **Client seam:** onboarding step 7 + the Profile notify toggle stop being cosmetic: permission request → `pushManager.subscribe(VAPID public key)` → POST to the Worker. Custom SW push/notificationclick handlers ride `importScripts` into the vite-plugin-pwa generated SW.
+- **Depends on:** nothing server-side beyond the Worker + one table (deliberately NOT on §4.1 accounts — anonymous users can subscribe; `user_id` is attached when a session exists).
 
 ---
 

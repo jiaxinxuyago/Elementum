@@ -1,0 +1,21 @@
+{
+  // Web Push service (DOC10 §4.4) — subscribe/unsubscribe API + hourly cron
+  // that sends the daily date-based reading reminder to matching subscriptions.
+  // Deploy:  npx wrangler deploy --config workers/push/wrangler.jsonc
+  //
+  // Secrets (wrangler secret put <NAME> --config <this file>):
+  //   SUPABASE_SERVICE_ROLE_KEY — reads/writes push_subscriptions
+  //   VAPID_PRIVATE_JWK         — ES256 private key (JWK JSON) for VAPID auth
+  "name": "elementum-push",
+  "main": "index.js",
+  "compatibility_date": "2025-11-01",
+  "workers_dev": true,
+  "triggers": {
+    "crons": ["0 * * * *"]
+  },
+  "vars": {
+    "SUPABASE_URL": "https://nbactbfxqslzehzbgetp.supabase.co",
+    "VAPID_PUBLIC": "BLuEarHJvtRInQUcLSWdzjK2PxXwKWxNBuNd7kBEwVju0Or-ORY80QpQ_KpQZiAraVG9wUua23BQG1uan67AJ9Y",
+    "VAPID_SUBJECT": "mailto:jiaxinxuyago@gmail.com"
+  }
+}

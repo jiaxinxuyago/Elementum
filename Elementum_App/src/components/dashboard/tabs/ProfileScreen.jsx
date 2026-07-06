@@ -19,7 +19,7 @@ import { useState } from 'react';
 import { useChart } from '../../../store/chartContext.jsx';
 import { useAuth } from '../../../store/authContext.jsx';
 import AuthModal from '../AuthModal.jsx';
-import { TIER_LABELS, TIER_PRICES } from '../../../infra/index.js';
+import { TIER_LABELS, TIER_PRICES, enablePush, disablePush } from '../../../infra/index.js';
 import { useUpgrade } from '../UpgradeModal.jsx';
 import { Icon } from '../../shared/icons';
 import {
@@ -34,6 +34,8 @@ export default function ProfileScreen() {
   const { openUpgrade } = useUpgrade();
   const { user, signOut } = useAuth();
   const [authOpen, setAuthOpen] = useState(false);
+  // Real Web Push (DOC10 §4.4): '' | 'denied' | 'unsupported' | 'error'
+  const [pushMsg, setPushMsg] = useState('');
 
   // ── Resolved display values ────────────────────────────────────
   const locName = birthData?.location && typeof birthData.location === 'object'
@@ -159,8 +161,35 @@ export default function ProfileScreen() {
               {notifyOn ? `Delivered at ${notifyTime}` : 'Off'}
             </div>
           </div>
-          <Toggle on={notifyOn} onToggle={() => updateBirthData({ notifyOn: !notifyOn })} />
+          <Toggle
+            on={notifyOn}
+            onToggle={async () => {
+              setPushMsg('');
+              if (notifyOn) {
+                // OFF: reflect immediately, tear down in the background.
+                updateBirthData({ notifyOn: false });
+                disablePush();
+                return;
+              }
+              // ON: subscribe for real — the toggle flips only if push lands.
+              const h12 = birthData?.notifyHour ?? 8;
+              const localHour = (h12 % 12) + ((birthData?.notifyMeridiem || 'AM') === 'PM' ? 12 : 0);
+              const result = await enablePush(localHour, user?.id || null);
+              if (result === 'enabled') updateBirthData({ notifyOn: true });
+              else setPushMsg(result);
+            }}
+          />
         </Row>
+        {pushMsg && (
+          <div style={{
+            fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12,
+            color: inkLight, padding: '8px 0 2px', lineHeight: 1.45,
+          }}>
+            {pushMsg === 'denied' && 'Notifications are blocked for this site — allow them in your browser settings, then try again.'}
+            {pushMsg === 'unsupported' && 'This browser can’t receive notifications. On iPhone: add Elementum to your Home Screen first, then enable here.'}
+            {pushMsg === 'error' && 'Couldn’t enable notifications just now — please try again.'}
+          </div>
+        )}
         {/* Row 2 — Current plan + tier pill */}
         <Row onClick={() => openUpgrade('your full reading')}>
           <div style={{ flex: 1 }}>
