@@ -13,7 +13,7 @@
 // mirrored here (see composeElement) for a sample Metal Day Master.
 // ===================================================================
 
-import { writeFileSync, mkdirSync } from 'node:fs';
+import { writeFileSync, mkdirSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
 import { TG_PERSONA } from '../src/content/tgNames.js';
@@ -24,7 +24,8 @@ import {
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = resolve(__dirname, '../../Documents/Designengineering');
-const ART_BASE = 'https://elementum.jiaxinxuyago.workers.dev'; // live art, so the replicant shows real portraits when online
+// Live art base, single-sourced from site.config.json — so the replicant shows real portraits when online.
+const ART_BASE = JSON.parse(readFileSync(new URL('../site.config.json', import.meta.url), 'utf8')).liveUrl;
 
 const CAP = { metal: 'Metal', earth: 'Earth', water: 'Water', wood: 'Wood', fire: 'Fire' };
 const ZH = { metal: '金', earth: '土', water: '水', wood: '木', fire: '火' };

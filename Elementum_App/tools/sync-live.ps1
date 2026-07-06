@@ -1,7 +1,7 @@
 # ===================================================================
 # ELEMENTUM - live-demo sync (Claude Code Stop hook)
 # ===================================================================
-# Keeps https://elementum.jiaxinxuyago.workers.dev in step with the local
+# Keeps the live demo (URL in site.config.json) in step with the local
 # app. Fingerprints the app tree (committed state + uncommitted tracked
 # diffs + untracked file listing); when it differs from the last deployed
 # fingerprint, rebuilds and redeploys. No-ops in well under a second when
@@ -11,6 +11,9 @@
 # ===================================================================
 $ErrorActionPreference = 'Continue'
 $app = 'D:\Elementum\Elementum_Project\Elementum_App'
+# Live URL is single-sourced from site.config.json; fall back safely if absent.
+$cfgPath = Join-Path $app 'site.config.json'
+$liveUrl = if (Test-Path $cfgPath) { (Get-Content $cfgPath -Raw | ConvertFrom-Json).liveUrl } else { 'the live demo' }
 $tmp = Join-Path $env:TEMP 'elementum-live-sync'
 New-Item -ItemType Directory -Force $tmp | Out-Null
 $stamp = Join-Path $tmp 'fingerprint.txt'
@@ -44,7 +47,7 @@ try {
     cmd /c "npx wrangler deploy >> `"$log`" 2>&1"
     if ($LASTEXITCODE -ne 0) { Write-Output ('{"systemMessage":"Live-demo sync: DEPLOY FAILED (wrangler login expired?) - see ' + $log.Replace('\', '/') + '"}'); exit 0 }
     Set-Content $stamp $sha
-    Write-Output '{"systemMessage":"Live demo synced -> https://elementum.jiaxinxuyago.workers.dev"}'
+    Write-Output ('{"systemMessage":"Live demo synced -> ' + $liveUrl + '"}')
 } finally {
     Remove-Item $lock -Force -ErrorAction SilentlyContinue
 }

@@ -20,11 +20,11 @@ import {
 import { calculateBaziChart, computeCompatibility } from '../../engine/index.js';
 import { STEM_CARD_DATA } from '../../content/index.js';
 import {
-  FriendYear, FriendMonth, FriendDay, FriendHour, FriendHourWindow, FriendCurrent,
+  FriendYear, FriendMonth, FriendDay, FriendHour, FriendHourWindow, FriendGender, FriendCurrent,
 } from './CompatFriendSteps.jsx';
 import { ink, inkSoft, inkLight, silk, cream, paperHair, bronzeDark } from '../../styles/tokens';
 
-const INITIAL_FRIEND = { year: null, month: null, day: null, hour: null, hourWindow: null, hourUnknown: false, polarity: 'yang' };
+const INITIAL_FRIEND = { year: null, month: null, day: null, hour: null, hourWindow: null, hourUnknown: false, gender: null, polarity: 'yang' };
 const archetypeOf = (stem, element) => STEM_CARD_DATA[stem]?.identity?.archetypeName || `${element} Day Master`;
 
 export default function CompatFriendFlow({ onExit, onDone }) {
@@ -67,11 +67,13 @@ export default function CompatFriendFlow({ onExit, onDone }) {
     case 'day':
       step = <FriendDay {...common} onBack={() => setPhase('month')} onContinue={() => setPhase('hour')} />; break;
     case 'hour':
-      step = <FriendHour {...common} onBack={() => setPhase('day')} onContinue={() => setPhase('current')} onApproximate={() => setPhase('hourwindow')} onUnknown={() => setPhase('current')} />; break;
+      step = <FriendHour {...common} onBack={() => setPhase('day')} onContinue={() => setPhase('gender')} onApproximate={() => setPhase('hourwindow')} onUnknown={() => setPhase('gender')} />; break;
     case 'hourwindow':
-      step = <FriendHourWindow {...common} onBack={() => setPhase('hour')} onContinue={() => setPhase('current')} onUnknown={() => setPhase('current')} />; break;
+      step = <FriendHourWindow {...common} onBack={() => setPhase('hour')} onContinue={() => setPhase('gender')} onUnknown={() => setPhase('gender')} />; break;
+    case 'gender':
+      step = <FriendGender {...common} onBack={() => setPhase('hour')} onContinue={(gender) => computeAndExit({ gender })} onPreferNot={() => setPhase('current')} />; break;
     case 'current':
-      step = <FriendCurrent {...common} onBack={() => setPhase('hour')} onContinue={(polarity) => computeAndExit({ polarity })} />; break;
+      step = <FriendCurrent {...common} onBack={() => setPhase('gender')} onContinue={(polarity) => computeAndExit({ polarity })} />; break;
     case 'year':
     default:
       step = <FriendYear {...common} onBack={onExit} onContinue={() => setPhase('month')} />; break;

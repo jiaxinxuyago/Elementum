@@ -64,6 +64,19 @@
   }
 }
 
+/* ── Page-enter transition (fade-through-silk) ─────────────────────
+   The new screen fades in with a small upward settle, like a sheet
+   laying onto the desk — masks late-arriving art on tab switches.
+   App.jsx remounts the wrapper (key={screen}) so it restarts on every
+   navigation; the reduced-motion rule below neutralises it. */
+@keyframes el-screen-enter {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: none; }
+}
+.el-screen-enter {
+  animation: el-screen-enter 260ms ease-out;
+}
+
 /* Respect prefers-reduced-motion (DOC5 §16): neutralise all animation +
    transition motion app-wide. Covers the ceremony, welcome-back, card
    draw flip, advisor glow, tab presses, and every CSS transition. */

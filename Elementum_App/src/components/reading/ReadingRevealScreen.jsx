@@ -12,7 +12,7 @@ import RevealDissolve from './RevealDissolve.jsx';
 import { useReading } from './useReading.js';
 
 export default function ReadingRevealScreen({ onTab, onDone }) {
-  const { ec, identity, hourUnknown, sel, setSel, wip, showWip } = useReading();
+  const { ec, identity, chart, hourUnknown, sel, setSel, wip, showWip } = useReading();
   if (!ec || !identity) return null;
   return (
     <div className="reading" style={{ position: 'absolute', inset: 0 }}>
@@ -20,6 +20,7 @@ export default function ReadingRevealScreen({ onTab, onDone }) {
         identity={identity}
         energies={ec.energies}
         dayMaster={ec.dayMaster}
+        glyph={chart?.dayMaster?.stem}
         tilde={hourUnknown}
         selected={sel}
         onSelect={setSel}

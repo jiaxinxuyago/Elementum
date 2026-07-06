@@ -19,7 +19,13 @@
 
 import { createContext, useContext, useState, useCallback } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
-import { TIER_PRICES } from '../../infra/index.js';
+import { useAuth } from '../../store/authContext.jsx';
+import AuthModal from './AuthModal.jsx';
+import { TIER_PRICES, PAYMENT } from '../../infra/index.js';
+// FOUNDING_PRICE via a direct pricing import (pricing isn't a restricted chunk),
+// so we needn't touch infra/index.js — which the shareable-card branch also
+// edits — keeping the two branches conflict-free. PAYMENT rides the barrel above.
+import { FOUNDING_PRICE } from '../../infra/pricing.js';
 // Stem -> archetype name (10 entries) inlined so this always-mounted provider
 // does NOT statically import the 276 KB archetypeSource.js content file
 // (Group E — keeps that content out of the eager initial bundle; it rides with
@@ -85,6 +91,13 @@ const ADVISOR_FEATURES = [
   'AI Consultant — full chat',
   'AI-tailored daily readings',
 ];
+// Founding pass — beta-only one-time offer granting lifetime full (Advisor) access.
+const FOUNDING_FEATURES = [
+  'Lifetime full access — everything, forever',
+  'AI Consultant + AI-tailored daily readings',
+  'Energy Manual, full readings, Codex, unlimited Draw',
+  'Founding member — locked in before public launch',
+];
 
 // ───────────────────────────────────────────────────────────────────
 // UpgradeModalHost — renders the bottom sheet when open. Mount inside
@@ -94,10 +107,24 @@ import { STEM_PINYIN as STEM_KEY } from '../../engine/index.js';
 
 export function UpgradeModalHost() {
   const {
-    feature, closeUpgrade, ceremony, playCeremony, endCeremony,
-    welcomeBack, endWelcomeBack, flashAdvisorGlow,
+    feature, closeUpgrade, ceremony, endCeremony,
+    welcomeBack, endWelcomeBack,
   } = useUpgrade();
-  const { tier, setTier, chart } = useChart();
+  const { tier, chart } = useChart();
+  const { user } = useAuth();
+  const [authOpen, setAuthOpen] = useState(false);
+
+  // Purchase requires an account (DOC10 §4.2): the payment must carry the
+  // buyer's user id (client_reference_id) so the Stripe webhook can write
+  // their entitlement server-side — that's what makes the pass restorable.
+  const goToStripe = (u) => {
+    if (typeof window === 'undefined' || !PAYMENT.foundingCheckout) return;
+    const url = new URL(PAYMENT.foundingCheckout);
+    if (u?.id) url.searchParams.set('client_reference_id', u.id);
+    if (u?.email) url.searchParams.set('prefilled_email', u.email);
+    window.location.href = url.toString();
+  };
+  const buyFounding = () => (user ? goToStripe(user) : setAuthOpen(true));
 
   const dmElement = chart?.dayMaster?.element || 'Metal';
   const dmPigKey = { Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water' }[dmElement] || 'metal';
@@ -107,21 +134,11 @@ export function UpgradeModalHost() {
   // Nothing to show?
   if (!feature && !ceremony && !welcomeBack) return null;
 
-  const upgrade = (toTier) => () => {
-    const wasFree = tier === 'free';
-    const wasSeeker = tier === 'seeker';
-    setTier(toTier);
-    closeUpgrade();
-    if (wasFree && toTier === 'seeker') {
-      // §21 Free→Seeker — ceremonial full-screen moment.
-      playCeremony();
-    } else if (wasSeeker && toTier === 'advisor') {
-      // §21 Seeker→Advisor — no ceremony; quiet in-place glow on the
-      // AI Consultant card back in the Guidance hub.
-      flashAdvisorGlow();
-      if (typeof window !== 'undefined') window.location.hash = '#/app-guidance';
-    }
-  };
+  // BETA GATING: the Founding Pass (Stripe) is the ONLY purchasable unlock.
+  // The old demo `upgrade()` free-flip (setTier on tap) is removed — it let
+  // anyone claim Seeker/Advisor without paying. Seeker/Advisor cards render
+  // as a disabled preview ("Available after beta") until real subscription
+  // checkout lands (DOC10 §4.2 webhook -> DB entitlements).
 
   // Returning-user "Welcome to Seeker" (§21 Step B) — highest priority overlay.
   if (welcomeBack) {
@@ -220,6 +237,25 @@ export function UpgradeModalHost() {
           {feature}
         </h2>
 
+        {/* Founding pass — headline offer; shown only once the Stripe link is set.
+            Its CTA leaves for Stripe Checkout (same tab), whose success URL
+            returns to <origin>/?founding=ok → App FoundingRedirect grants access. */}
+        {PAYMENT.foundingCheckout && (
+          <TierCard
+            name="Founding Pass"
+            badge="⟡"
+            price={FOUNDING_PRICE}
+            gradient="linear-gradient(135deg, #FBF3E4, #F3E4C8)"
+            border={`1.5px solid ${gold}`}
+            features={FOUNDING_FEATURES}
+            checkColor={checkColor}
+            ctaLabel={tier === 'advisor' ? 'You have full access' : 'Become a Founding member'}
+            ctaDisabled={tier === 'advisor'}
+            ctaBg={bronzeDark}
+            onUpgrade={buyFounding}
+          />
+        )}
+
         {/* Seeker tier card */}
         <TierCard
           name="Seeker"
@@ -229,10 +265,9 @@ export function UpgradeModalHost() {
           border={`1.5px solid ${gold}`}
           features={SEEKER_FEATURES}
           checkColor={checkColor}
-          ctaLabel={tier === 'free' ? 'Upgrade to Seeker' : 'Current plan'}
-          ctaDisabled={tier !== 'free'}
+          ctaLabel={tier === 'free' ? 'Available after beta' : 'Current plan'}
+          ctaDisabled
           ctaBg={bronzeDark}
-          onUpgrade={upgrade('seeker')}
         />
 
         {/* Advisor tier card */}
@@ -244,10 +279,9 @@ export function UpgradeModalHost() {
           border={`1px solid #C9B8E8`}
           features={ADVISOR_FEATURES}
           checkColor={advisor}
-          ctaLabel={tier === 'advisor' ? 'Current plan' : 'Upgrade to Advisor'}
-          ctaDisabled={tier === 'advisor'}
+          ctaLabel={tier === 'advisor' ? 'Current plan' : 'Available after beta'}
+          ctaDisabled
           ctaBg={advisor}
-          onUpgrade={upgrade('advisor')}
         />
 
         {/* Not now */}
@@ -268,6 +302,15 @@ export function UpgradeModalHost() {
           Not now
         </button>
       </div>
+
+      {/* Purchase-gated account sheet — overlays the paywall (zIndex 210 > 200).
+          On success the buyer continues straight to Stripe, id attached. */}
+      <AuthModal
+        open={authOpen}
+        purchase
+        onClose={() => setAuthOpen(false)}
+        onSuccess={(u) => goToStripe(u)}
+      />
     </div>
   );
 }

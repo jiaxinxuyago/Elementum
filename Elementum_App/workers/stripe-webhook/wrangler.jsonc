@@ -1,0 +1,19 @@
+{
+  // Stripe webhook receiver — a tiny standalone Worker, separate from the
+  // `elementum` static-assets Worker. Stripe POSTs checkout events here; the
+  // Worker verifies the signature and writes the buyer's entitlement to
+  // Supabase (service-role). Deploy:  npx wrangler deploy --config workers/stripe-webhook/wrangler.jsonc
+  //
+  // Secrets (set once via `wrangler secret put <NAME> --config <this file>`):
+  //   SUPABASE_SERVICE_ROLE_KEY — writes entitlements (bypasses RLS)
+  //   STRIPE_WEBHOOK_SECRET     — the endpoint's whsec_... signing secret
+  "name": "elementum-stripe-webhook",
+  "main": "index.js",
+  "compatibility_date": "2025-11-01",
+  // This is an API endpoint for Stripe, not a user-facing page — the
+  // workers.dev URL is exactly what we give Stripe as the endpoint URL.
+  "workers_dev": true,
+  "vars": {
+    "SUPABASE_URL": "https://nbactbfxqslzehzbgetp.supabase.co"
+  }
+}

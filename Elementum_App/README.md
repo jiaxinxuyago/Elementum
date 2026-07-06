@@ -68,3 +68,14 @@ Per DOC5 §6 the runtime viewport is 390×844 (iPhone 14 Pro). On desktop, `App.
 ## Phase 2 — what's still to come
 
 The dashboard layer (Today / Energy Map / Guidance / Connect / Me) lives entirely inside `Reference/Elementum_Engine.jsx` and needs to be lifted into `src/components/`. The full extraction roadmap is in `../Reference/README.md` and DOC8 "Step-by-step extraction" (Steps 3–17). Don't add dashboard surfaces to this app without consulting that guide first — extraction order matters because of import dependencies.
+
+## Deploying elementum.life
+
+The live site is a Cloudflare Worker serving `dist/` as static assets (see
+`wrangler.jsonc`). Deploys are automated: `.github/workflows/deploy.yml` builds
+the app and runs `wrangler deploy` on every merge to `main` that touches
+`Elementum_App/`, authenticated by the `CLOUDFLARE_API_TOKEN` and
+`CLOUDFLARE_ACCOUNT_ID` repository secrets. The GitHub Pages
+"pages build and deployment" workflow publishes a separate site
+(jiaxinxuyago.github.io/Elementum) and does NOT update elementum.life.
+Manual deploy: `npm run build && npx wrangler deploy` from this folder.

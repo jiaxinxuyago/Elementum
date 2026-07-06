@@ -1,0 +1,6 @@
+{
+  "_comment": "Public config, single-sourced. liveUrl is read by the deploy hook (tools/sync-live.ps1) + dev tools. supabaseUrl/supabaseAnonKey are the PUBLIC (publishable) Supabase creds embedded in the client — safe to commit; security is enforced by Row-Level Security, not by hiding the publishable key.",
+  "liveUrl": "https://elementum.life",
+  "supabaseUrl": "https://nbactbfxqslzehzbgetp.supabase.co",
+  "supabaseAnonKey": "sb_publishable_fOeXMMKSVZXiV1fh4qBwfQ_yDvG9n9j"
+}

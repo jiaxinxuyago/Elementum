@@ -7,6 +7,7 @@ import {
   resolveLongitudeForCalc,
   resolveLocationName,
 } from './store/chartContext.jsx';
+import { AuthProvider } from './store/authContext.jsx';
 import { calculateBaziChart } from './engine/index.js';
 import WelcomeScreen from './components/onboarding/WelcomeScreen.jsx';
 import {
@@ -152,10 +153,36 @@ function prefetchBackgrounds() {
 // Lazy-load placeholder — a silk page while a screen's chunk arrives. With
 // prefetchScreens() warming chunks on idle, this is rarely seen after the
 // first moments; it matches the frame's silk so any residual frame is calm.
+//
+// It doubles as a stuck-chunk watchdog: on iOS Safari the service worker can
+// be killed mid-request and the in-flight dynamic import() stalls WITHOUT
+// rejecting — no ErrorBoundary, no vite:preloadError, just this fallback on
+// screen forever as an empty page. If we're still mounted after WATCHDOG_MS,
+// reload once to re-request the chunk; the sessionStorage stamp caps it at
+// one retry per minute so a truly offline device doesn't reload-loop.
+const CHUNK_WATCHDOG_MS = 10000;
 function ScreenFallback() {
-  return <div style={{ width: '100%', height: '100%', minHeight: 480, background: SILK }} />;
+  useEffect(() => {
+    const t = setTimeout(() => {
+      try {
+        const last = Number(sessionStorage.getItem('el_chunk_reload') || 0);
+        if (Date.now() - last < 60000) return;
+        sessionStorage.setItem('el_chunk_reload', String(Date.now()));
+      } catch { /* storage unavailable (private mode) — reload unguarded */ }
+      window.location.reload();
+    }, CHUNK_WATCHDOG_MS);
+    return () => clearTimeout(t);
+  }, []);
+  return (
+    <div style={{ width: '100%', height: '100%', minHeight: 480, background: SILK, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <span style={{ fontFamily: "'EB Garamond', serif", fontSize: 13, letterSpacing: 2.5, textTransform: 'uppercase', color: INK_LIGHT, animation: 'el-fallback-breathe 1.8s ease-in-out infinite' }}>
+        A moment…
+      </span>
+      <style>{'@keyframes el-fallback-breathe { 0%, 100% { opacity: 0.35; } 50% { opacity: 0.85; } }'}</style>
+    </div>
+  );
 }
-import { SILK } from './styles/tokens.jsx';
+import { SILK, INK_LIGHT } from './styles/tokens.jsx';
 import { SCREEN_BG, PLATE_BG } from './styles/backgrounds.js';
 import ErrorBoundary from './components/ErrorBoundary.jsx';
 
@@ -296,6 +323,40 @@ function readHash() {
     .replace(/^#\/?/, '')
     .toLowerCase();
   return FLOW.includes(h) ? h : 'welcome';
+}
+
+// Stripe's Payment Link success URL returns here as `<origin>/?founding=ok`.
+// The unlock itself is SERVER-TRUTH (DOC10 §4.2): the Stripe webhook writes the
+// entitlement to the buyer's account; this handler only plays the ceremony and
+// polls the entitlement until the webhook write lands (it can lag the redirect
+// by a few seconds). The old client-side grant is retired — the redirect no
+// longer grants anything, so faking the URL unlocks nothing.
+function FoundingRedirect() {
+  const { refreshEntitlements, hasFounding } = useChart();
+  const { playCeremony } = useUpgrade();
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('founding') !== 'ok') return;
+    // Strip the param so refresh/back can't replay the ceremony.
+    params.delete('founding');
+    const qs = params.toString();
+    window.history.replaceState(null, '', window.location.pathname + (qs ? `?${qs}` : '') + window.location.hash);
+    if (hasFounding) return; // already a known founder — nothing to confirm
+    // Poll for the webhook write (~1.5s × 14 ≈ 21s window). The ceremony plays
+    // only once the SERVER confirms the entitlement — a forged URL shows nothing.
+    let tries = 0;
+    const timer = setInterval(async () => {
+      tries += 1;
+      const tier = await refreshEntitlements();
+      if (tier === 'advisor') { clearInterval(timer); playCeremony(); }
+      else if (tries >= 14) clearInterval(timer);
+    }, 1500);
+    return () => clearInterval(timer);
+    // Run once on mount.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  return null;
 }
 
 export default function App() {
@@ -623,8 +684,11 @@ export default function App() {
   // its CTA via a sibling click listener on the container. See v2 design —
   // the welcome button routes to Step 1.
   return (
+    <AuthProvider>
     <ChartProvider>
       <UpgradeModalProvider>
+        {/* Stripe founding-pass success redirect → grant access + ceremony (once). */}
+        <FoundingRedirect />
         {/* Dev/test hooks (window.__seedData/__setTier/__buySelfReport/etc.) —
             gated to dev builds so they never ship as a console backdoor. */}
         {IS_DEV && <DevHelpers />}
@@ -632,7 +696,12 @@ export default function App() {
           <PhoneFrame>
             {/* Graceful recovery — a calc/render error never blanks the
                 screen; it offers a soft path back to adjust birth data. */}
-            <ErrorBoundary><Suspense fallback={<ScreenFallback />}>{rendered}</Suspense></ErrorBoundary>
+            {/* The key remounts the wrapper per navigation, restarting the
+                fade-through-silk enter animation (global.css .el-screen-enter).
+                The tab bar below is a sibling, so it stays static. */}
+            <ErrorBoundary><Suspense fallback={<ScreenFallback />}>
+              <div key={screen} className="el-screen-enter" style={{ position: 'absolute', inset: 0 }}>{rendered}</div>
+            </Suspense></ErrorBoundary>
             {/* One global D13 glyph sprite feeds every #tab-/#el-/#ico- <use>
                 across the app (the tab bar, wheel, shelf …). */}
             <ReadingSprite />
@@ -646,6 +715,7 @@ export default function App() {
         </Shell>
       </UpgradeModalProvider>
     </ChartProvider>
+    </AuthProvider>
   );
 }
 
@@ -660,11 +730,15 @@ export default function App() {
 // 1995-04-29 lands on 庚 (index 6); each subsequent day advances by 1.
 function DevHelpers() {
   const { updateBirthData, setChart, setTier, setHasSelfReport, purchaseSelfReport } = useChart();
-  const { playWelcomeBack } = useUpgrade();
+  const { playWelcomeBack, openUpgrade } = useUpgrade();
   // Dev hook: demo the §21 "Welcome to Seeker" returning-user screen.
   useEffect(() => {
     if (typeof window !== 'undefined') window.__welcomeSeeker = () => playWelcomeBack();
   }, [playWelcomeBack]);
+  // Dev hook: open the upgrade modal (used to QA the Founding-pass card).
+  useEffect(() => {
+    if (typeof window !== 'undefined') window.__openUpgrade = (label) => openUpgrade(label || 'AI Consultant');
+  }, [openUpgrade]);
   // Dev hooks: flip tier + the one-time Self-Report entitlement for testing.
   useEffect(() => {
     if (typeof window !== 'undefined') {

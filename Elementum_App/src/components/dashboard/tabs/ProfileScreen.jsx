@@ -15,7 +15,10 @@
 // "The chart is the profile" — intentionally minimal.
 // ===================================================================
 
+import { useState } from 'react';
 import { useChart } from '../../../store/chartContext.jsx';
+import { useAuth } from '../../../store/authContext.jsx';
+import AuthModal from '../AuthModal.jsx';
 import { TIER_LABELS, TIER_PRICES } from '../../../infra/index.js';
 import { useUpgrade } from '../UpgradeModal.jsx';
 import { Icon } from '../../shared/icons';
@@ -29,6 +32,8 @@ const IS_DEV = typeof import.meta !== 'undefined' && import.meta.env?.DEV;
 export default function ProfileScreen() {
   const { birthData, chart, tier, updateBirthData, resetFlow } = useChart();
   const { openUpgrade } = useUpgrade();
+  const { user, signOut } = useAuth();
+  const [authOpen, setAuthOpen] = useState(false);
 
   // ── Resolved display values ────────────────────────────────────
   const locName = birthData?.location && typeof birthData.location === 'object'
@@ -169,21 +174,44 @@ export default function ProfileScreen() {
         </Row>
       </Card>
 
-      {/* ── Sign Out — standalone full-width button ──────────────── */}
-      <button
-        type="button"
-        onClick={() => { /* sign-out is a no-op until auth lands */ }}
-        style={{
-          width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center',
-          height: 48, marginTop: 12,
-          background: cardstockBg, border: `1px solid ${paperHair}`,
-          borderRadius: 12,
-          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14, color: ink,
-          cursor: 'pointer',
-        }}
-      >
-        Sign Out
-      </button>
+      {/* ── Account — real sign in / out (Supabase auth) ─────────── */}
+      {user ? (
+        <div style={{ marginTop: 12 }}>
+          <div style={{
+            fontFamily: "'EB Garamond', Georgia, serif", fontSize: 11,
+            letterSpacing: 1.2, color: inkLight, textAlign: 'center', marginBottom: 8,
+          }}>
+            Signed in as {user.email}
+          </div>
+          <button
+            type="button"
+            onClick={() => signOut()}
+            style={{
+              width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center',
+              height: 48, background: cardstockBg, border: `1px solid ${paperHair}`,
+              borderRadius: 12,
+              fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14, color: ink,
+              cursor: 'pointer',
+            }}
+          >
+            Sign Out
+          </button>
+        </div>
+      ) : (
+        <button
+          type="button"
+          onClick={() => setAuthOpen(true)}
+          style={{
+            width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center',
+            height: 48, marginTop: 12,
+            background: bronzeDark, border: 'none', borderRadius: 12,
+            fontFamily: 'Cinzel, serif', fontSize: 11, letterSpacing: 2, textTransform: 'uppercase',
+            color: '#F8F6F0', cursor: 'pointer',
+          }}
+        >
+          Sign In / Create Account
+        </button>
+      )}
 
       {/* ── Dev link — small, muted, bottom of page ──────────────── */}
       {IS_DEV && (
@@ -202,6 +230,8 @@ export default function ProfileScreen() {
           Dev · Reset &amp; Start Over
         </button>
       )}
+
+      <AuthModal open={authOpen} onClose={() => setAuthOpen(false)} />
     </main>
   );
 }

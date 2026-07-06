@@ -4,7 +4,8 @@
 
 **Version:** 0.1 · June 2026 (draft — pre-implementation)
 **Related docs:** DOC8 (code architecture) · DOC5 §19 (pricing & content tiers) · DOC1 (calculation engine — client-side) · DOC7 / D7 (Self-Report)
-**Status:** **Planning.** No backend exists yet. The app runs **fully client-side** with deliberate demo stubs placed at clean integration seams (tier, entitlement, consultant, notifications). This document is the spec + sequencing for the eventual build, and the rationale for **deferring it to a pre-beta phase**.
+**Status:** **Planning.** No *server* backend exists yet. The app runs **fully client-side** with deliberate demo stubs placed at clean integration seams (tier, entitlement, consultant, notifications). This document is the spec + sequencing for the eventual build, and the rationale for **deferring it to a pre-beta phase**.
+> **Update (2026-07):** §4.1 Auth and §4.2 Payments are **SHIPPED** — Supabase accounts (purchase-gated sign-in) + the Founding Pass with a **server-verified entitlement pipeline** (Stripe webhook → entitlements DB; see §4.2). §4.3 LLM and §4.4 Push remain client-side stubs.
 
 > **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** When the LLM-consultant payload is assembled, the Canonical JSON sent to the proxy must carry the **per-element polarity resolution** `{ element: { presentFaces:[{god,weight}], absentGod } }` (post-rewire), so the consultant sees the same faces the reading surfaces — not the old single polarity-blind god. It must also carry **`chart.tenGods`** (the per-pillar Ten Gods) so the consultant has the **positional (宫位) axis** the reading now uses (B6).
 
@@ -84,6 +85,26 @@ Each item lists: **what**, the **server piece**, the **client seam it replaces**
 - **Client seam:** today `UpgradeModal` flips `tier` in memory and `purchaseSelfReport()` flips `hasSelfReport` in `localStorage` (demo). Replace: the upgrade/purchase CTAs open Stripe Checkout; `useChart().tier` / `hasSelfReport` read from the server (DB) instead of `localStorage`. **Delete the `window.__setTier` / `__buySelfReport` dev backdoor's authority** (already IS_DEV-gated).
 - **Workload:** medium (days code) + non-code: Stripe account, products/prices, **tax** (consider a Merchant-of-Record to offload VAT).
 - **Depends on:** §4.1 (Stripe customer ↔ user mapping).
+
+> **✅ SHIPPED 2026-07 — server-verified (the honor-system stopgap is retired).** The **Founding Pass** ($9 one-time, lifetime Advisor — beta-only launch offer) runs the full §4.2 pipeline:
+> 1. **Purchase-gated sign-in** — the Founding CTA requires an account; the Stripe Payment Link URL carries `client_reference_id=<user.id>` + `prefilled_email` (`UpgradeModal.buyFounding`).
+> 2. **Webhook** — a standalone Cloudflare Worker (`elementum-stripe-webhook`, code at `Elementum_App/workers/stripe-webhook/`) verifies the `stripe-signature` HMAC and, on `checkout.session.completed` (paid), **upserts the buyer's `entitlements` row** (tier=advisor, has_founding, stripe_customer_id) via Supabase REST with the service-role key (Worker secret). Idempotent on retries; paid sessions without a user id are logged for manual backfill.
+> 3. **Server-truth client** — signed-in users' `tier` is read from `entitlements` (RLS: read-own-row only; no client write path). The localStorage grant was deleted; `?founding=ok` only polls `refreshEntitlements()` and plays the ceremony **after** the server confirms. A forged URL unlocks nothing.
+>
+> Still open within §4.2: Seeker/Advisor **subscriptions** (their cards are disabled "Available after beta"), Self-Report purchase (still the localStorage demo), and tax/MoR. URL single-sourced in `infra/links.js`; display price in `infra/pricing.js`.
+
+### §4.2a — Wallets & native-app billing (Apple Pay / Google Pay / IAP) — **critical platform split**
+
+Apple Pay / Google Pay are **not a separate integration** — their availability depends entirely on *where* the purchase happens:
+
+- **Web / PWA (today):** Apple Pay + Google Pay are **payment methods *inside* Stripe**. On the hosted Payment Link (`buy.stripe.com`) they surface automatically on supported devices (Safari/iOS → Apple Pay; Chrome/Android → Google Pay), with **no domain verification** (checkout is on Stripe's domain, not ours). **Already live, ~2.9%+30¢, zero extra work.**
+- **Native App Store / Play Store app (Phase B — Capacitor/TestFlight):** Apple & Google **prohibit Stripe (and Apple-Pay-via-Stripe) for digital in-app unlocks.** Digital content must use **Apple In-App Purchase** + **Google Play Billing** (~15–30% commission). Routing the Founding Pass / tier unlocks through Stripe inside a native binary = **App Store / Play rejection.** (Apple-Pay-via-Stripe is permitted only for *physical* goods.)
+
+**Roadmap implications:**
+- The current Stripe path fully covers the **web/PWA** channel (both wallets included) — **nothing to build** for wallets.
+- A **native build** triggers a **separate billing workstream**: StoreKit (IAP) + Play Billing, *plus* the accounts backend (§4.1) to tie a purchase to a user across web + app, *plus* reconciling web-Stripe vs. store-IAP entitlements.
+- Apple/Google rules are **evolving** (post-Epic external-link entitlements; EU DMA alternative billing) — re-evaluate at Phase B, not now.
+- **Recommendation:** stay web/Stripe while PWA-only (avoids the ~30% cut); treat IAP/Play Billing as a Phase-B decision bundled with §4.1 accounts.
 
 ### §4.3 AI Consultant — real LLM
 - **What:** replace scripted replies with a real model that has the user's chart + Energy Manual + Self-Report.
@@ -166,6 +187,7 @@ Keeping `useChart()` as the single accessor for `tier`/`hasSelfReport` means the
 3. Does any astrology PII go server-side, or stays strictly on-device?
 4. Web Push (PWA) now vs. native push later (does the roadmap include a wrapped app?).
 5. LLM vendor + the consultant's exact remit + cost cap per user/tier.
+6. **Native-app billing (Phase B):** if/when wrapped for App Store/Play, digital unlocks must move to **Apple IAP + Google Play Billing** (~15–30%) — Stripe is web/PWA-only for digital goods. Decide: PWA-only (keep Stripe) vs. native + IAP vs. hybrid (web purchase + account-based unlock, navigating Apple anti-steering). Bundle with §4.1 accounts. (See §4.2a.)
 
 ---
 
@@ -174,3 +196,5 @@ Keeping `useChart()` as the single accessor for `tier`/`hasSelfReport` means the
 | Version | Date | Notes |
 |---|---|---|
 | 0.1 | June 2026 | Initial draft. Server-free managed-backend plan; four items (auth/payments/LLM/push) scoped against the existing client seams; deferral rationale; data-model + privacy guidance. Pre-implementation. |
+| 0.2 | July 2026 | Founding Pass shipped (interim, honor-system Stripe Payment Link) — recorded in §4.2. Added §4.2a wallets & native-app billing (Apple Pay/Google Pay work via Stripe on web/PWA; native App Store/Play require Apple IAP + Google Play Billing) + open decision #6. |
+| 0.3 | July 2026 | **§4.1 + §4.2 shipped server-verified.** Supabase auth (purchase-gated sign-in, entitlements table + RLS + signup trigger), Stripe webhook Worker (signature-verified → entitlement upsert), server-truth tier in the client, honor-system grant retired. Stack note: serverless functions run on **Cloudflare Workers** (not Supabase Edge Functions) — wrangler was already authenticated, same platform as the app. |
