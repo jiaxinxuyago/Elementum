@@ -17,10 +17,10 @@
 // flagged in the drift notes; the modal simply upgrades in place + closes.
 // ===================================================================
 
-import { createContext, useContext, useState, useCallback } from 'react';
+import { createContext, useContext, useState, useCallback, useEffect } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { useAuth } from '../../store/authContext.jsx';
-import AuthModal from './AuthModal.jsx';
+import AuthModal, { PURCHASE_INTENT_KEY } from './AuthModal.jsx';
 import { TIER_PRICES, PAYMENT } from '../../infra/index.js';
 // FOUNDING_PRICE via a direct pricing import (pricing isn't a restricted chunk),
 // so we needn't touch infra/index.js — which the shareable-card branch also
@@ -125,6 +125,22 @@ export function UpgradeModalHost() {
     window.location.href = url.toString();
   };
   const buyFounding = () => (user ? goToStripe(user) : setAuthOpen(true));
+
+  // Google OAuth return trip: the buyer chose "Continue with Google" mid-
+  // purchase, left for Google, and just landed back signed in. Resume the
+  // purchase — clear the intent FIRST so returning from Stripe (?founding=ok)
+  // can never bounce them back to checkout.
+  useEffect(() => {
+    if (!user || typeof window === 'undefined') return;
+    let intent = null;
+    try {
+      intent = sessionStorage.getItem(PURCHASE_INTENT_KEY);
+      if (intent) sessionStorage.removeItem(PURCHASE_INTENT_KEY);
+    } catch { /* storage unavailable — nothing to resume */ }
+    if (intent === 'founding' && tier !== 'advisor') goToStripe(user);
+    // goToStripe is stable per render and navigation leaves the page — user is the trigger.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [user]);
 
   const dmElement = chart?.dayMaster?.element || 'Metal';
   const dmPigKey = { Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water' }[dmElement] || 'metal';
