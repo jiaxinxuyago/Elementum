@@ -8,7 +8,8 @@
 
 import { createContext, useContext, useState, useEffect, useMemo, useCallback } from 'react';
 import { calculateBaziChart, ENGINE_VERSION } from '../engine/index.js';
-import { FOUNDING_GRANTS_TIER } from '../infra/pricing.js';
+import { supabase } from '../infra/supabase.js';
+import { useAuth } from './authContext.jsx';
 
 const ChartContext = createContext(null);
 
@@ -47,12 +48,20 @@ function readSelfReportOwned() {
   try { return localStorage.getItem(SELF_REPORT_KEY) === '1'; } catch { return false; }
 }
 
-// Founding pass — one-time beta offer that grants lasting FOUNDING_GRANTS_TIER
-// access. Same shape as the Self-Report entitlement: persisted so it survives
-// reloads, flipped locally (honor-system) since there is no payment backend yet.
-const FOUNDING_KEY = 'elementum_founding_v1';
-function readFoundingOwned() {
-  try { return localStorage.getItem(FOUNDING_KEY) === '1'; } catch { return false; }
+// Tier entitlement — SERVER-TRUTH (DOC10 §4.2). For signed-in users the tier
+// comes from the Supabase `entitlements` row, written only by the Stripe
+// webhook (service-role). The old localStorage honor-system grant is retired —
+// the client can no longer grant itself a paid tier. A small per-user cache
+// avoids flashing locked state on boot before the fetch lands.
+const TIER_CACHE_KEY = 'elementum_tiercache_v1';
+function readTierCache(userId) {
+  try {
+    const c = JSON.parse(localStorage.getItem(TIER_CACHE_KEY) || 'null');
+    return c && c.userId === userId ? c : null;
+  } catch { return null; }
+}
+function writeTierCache(userId, tier, hasFounding) {
+  try { localStorage.setItem(TIER_CACHE_KEY, JSON.stringify({ userId, tier, hasFounding })); } catch { /* ignore */ }
 }
 
 // Session persistence (B-4) — birthData + the computed chart survive a refresh
@@ -98,12 +107,14 @@ function loadInitialChart() {
 }
 
 export function ChartProvider({ children }) {
+  const { user } = useAuth();
   const [birthData, setBirthData] = useState(() => readJSON(BIRTH_KEY) || INITIAL_BIRTH_DATA);
   const [chart, setChart] = useState(loadInitialChart);
-  // A prior Founding purchase (persisted) starts the user at the granted tier.
-  const [tier, setTier] = useState(() => (readFoundingOwned() ? FOUNDING_GRANTS_TIER : 'free'));
+  // Boot from the per-user cache (last server-confirmed tier); the entitlement
+  // fetch below refreshes it as soon as the session is known.
+  const [tier, setTier] = useState(() => readTierCache(user?.id)?.tier || 'free');
   const [hasSelfReport, setHasSelfReportState] = useState(readSelfReportOwned);
-  const [hasFounding, setHasFoundingState] = useState(readFoundingOwned);
+  const [hasFounding, setHasFoundingState] = useState(() => !!readTierCache(user?.id)?.hasFounding);
   // Compatibility result — set by the friend flow, read by CompatScreen.
   // Session-only (not persisted): a relationship reading is a transient
   // comparison, not part of the user's own saved chart.
@@ -119,13 +130,44 @@ export function ChartProvider({ children }) {
     try { localStorage.setItem(SELF_REPORT_KEY, v ? '1' : '0'); } catch { /* storage unavailable (private mode) — ignore */ }
     setHasSelfReportState(!!v);
   }, []);
-  // Founding purchase (honor-system): persist the entitlement + jump to the
-  // granted tier. Called on the Stripe success redirect (see App FoundingRedirect).
-  const grantFounding = useCallback(() => {
-    try { localStorage.setItem(FOUNDING_KEY, '1'); } catch { /* storage unavailable (private mode) — ignore */ }
-    setHasFoundingState(true);
-    setTier(FOUNDING_GRANTS_TIER);
-  }, []);
+  // Fetch the server entitlement (RLS: the user reads only their own row) and
+  // sync tier state + cache. Returns the fetched tier so callers can poll —
+  // the Stripe redirect can land a few seconds before the webhook write.
+  const refreshEntitlements = useCallback(async () => {
+    if (!supabase || !user) return null;
+    const { data, error } = await supabase
+      .from('entitlements')
+      .select('tier, has_founding, has_self_report')
+      .eq('user_id', user.id)
+      .maybeSingle();
+    if (error || !data) return null;
+    setTier(data.tier);
+    setHasFoundingState(!!data.has_founding);
+    if (data.has_self_report) setHasSelfReportState(true);
+    writeTierCache(user.id, data.tier, !!data.has_founding);
+    return data.tier;
+  }, [user]);
+
+  // Entitlement follows the session: fetch on sign-in / account switch; a
+  // signed-out visitor is free tier (the account owns the unlock, not the
+  // device). Async so state updates happen in the callback, not the effect body.
+  useEffect(() => {
+    let active = true;
+    (async () => {
+      await Promise.resolve(); // yield — no synchronous setState in the effect
+      if (!active) return;
+      if (!user) {
+        setTier('free');
+        setHasFoundingState(false);
+        try { localStorage.removeItem(TIER_CACHE_KEY); } catch { /* ignore */ }
+        return;
+      }
+      const cached = readTierCache(user.id);
+      if (cached) { setTier(cached.tier); setHasFoundingState(!!cached.hasFounding); }
+      refreshEntitlements();
+    })();
+    return () => { active = false; };
+  }, [user, refreshEntitlements]);
 
   // Merge partial updates, e.g. updateBirthData({ year: 1991 })
   const updateBirthData = useCallback((patch) => {
@@ -155,11 +197,11 @@ export function ChartProvider({ children }) {
       chart, setChart,
       tier, setTier,
       hasSelfReport, purchaseSelfReport, setHasSelfReport,
-      hasFounding, grantFounding,
+      hasFounding, refreshEntitlements,
       compatResult, setCompatResult,
       resetFlow,
     }),
-    [birthData, chart, tier, hasSelfReport, hasFounding, grantFounding, compatResult, purchaseSelfReport, setHasSelfReport, updateBirthData, resetFlow]
+    [birthData, chart, tier, hasSelfReport, hasFounding, refreshEntitlements, compatResult, purchaseSelfReport, setHasSelfReport, updateBirthData, resetFlow]
   );
 
   return <ChartContext.Provider value={value}>{children}</ChartContext.Provider>;

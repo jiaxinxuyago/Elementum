@@ -325,21 +325,34 @@ function readHash() {
   return FLOW.includes(h) ? h : 'welcome';
 }
 
-// Honor-system unlock: Stripe's Payment Link success URL returns here as
-// `<origin>/?founding=ok`. Grant the (persisted) Founding entitlement, strip the
-// param so a refresh can't replay it, and play the unlock ceremony. No payment
-// backend yet, so this trusts the redirect — acceptable for the beta founding run.
+// Stripe's Payment Link success URL returns here as `<origin>/?founding=ok`.
+// The unlock itself is SERVER-TRUTH (DOC10 §4.2): the Stripe webhook writes the
+// entitlement to the buyer's account; this handler only plays the ceremony and
+// polls the entitlement until the webhook write lands (it can lag the redirect
+// by a few seconds). The old client-side grant is retired — the redirect no
+// longer grants anything, so faking the URL unlocks nothing.
 function FoundingRedirect() {
-  const { grantFounding, hasFounding } = useChart();
+  const { refreshEntitlements, hasFounding } = useChart();
   const { playCeremony } = useUpgrade();
   useEffect(() => {
     if (typeof window === 'undefined') return;
     const params = new URLSearchParams(window.location.search);
     if (params.get('founding') !== 'ok') return;
-    if (!hasFounding) { grantFounding(); playCeremony(); }
+    // Strip the param so refresh/back can't replay the ceremony.
     params.delete('founding');
     const qs = params.toString();
     window.history.replaceState(null, '', window.location.pathname + (qs ? `?${qs}` : '') + window.location.hash);
+    if (hasFounding) return; // already a known founder — nothing to confirm
+    // Poll for the webhook write (~1.5s × 14 ≈ 21s window). The ceremony plays
+    // only once the SERVER confirms the entitlement — a forged URL shows nothing.
+    let tries = 0;
+    const timer = setInterval(async () => {
+      tries += 1;
+      const tier = await refreshEntitlements();
+      if (tier === 'advisor') { clearInterval(timer); playCeremony(); }
+      else if (tries >= 14) clearInterval(timer);
+    }, 1500);
+    return () => clearInterval(timer);
     // Run once on mount.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
