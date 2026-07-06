@@ -10,4 +10,4 @@
 export { GEOCODING } from './endpoints.js';
 export { PAYMENT, SOCIAL, APP_STORE, APP_URL, APP_HOST } from './links.js';
 export { TIERS, TIER_LABELS, TIER_PRICES, SELF_REPORT_PRICE } from './pricing.js';
-export { pushSupported, enablePush, disablePush, getPushSubscription, localHourToUtc } from './push.js';
+export { pushSupported, enablePush, disablePush, getPushSubscription, localHourToUtc, sendPreview } from './push.js';

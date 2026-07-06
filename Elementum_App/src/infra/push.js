@@ -31,10 +31,19 @@ export function localHourToUtc(localHour) {
   return ((localHour + offsetHours) % 24 + 24) % 24;
 }
 
+// serviceWorker.ready never resolves where no SW registers (e.g. vite dev
+// mode) — race it against a timeout so callers always settle.
+function swReady(ms = 8000) {
+  return Promise.race([
+    navigator.serviceWorker.ready,
+    new Promise((_, rej) => setTimeout(() => rej(new Error('sw timeout')), ms)),
+  ]);
+}
+
 export async function getPushSubscription() {
   if (!pushSupported()) return null;
   try {
-    const reg = await navigator.serviceWorker.ready;
+    const reg = await swReady(3000);
     return await reg.pushManager.getSubscription();
   } catch { return null; }
 }
@@ -45,7 +54,7 @@ export async function enablePush(localHour = 8, userId = null) {
   try {
     const permission = await Notification.requestPermission();
     if (permission !== 'granted') return 'denied';
-    const reg = await navigator.serviceWorker.ready;
+    const reg = await swReady();
     const sub = await reg.pushManager.subscribe({
       userVisibleOnly: true,
       applicationServerKey: vapidKeyBytes(),
@@ -60,6 +69,22 @@ export async function enablePush(localHour = 8, userId = null) {
     console.warn('[push] enable failed:', err);
     return 'error';
   }
+}
+
+// Ask the worker to send THIS device today's message right now (self-test /
+// "send me a preview"). Only works for the device's own subscription.
+export async function sendPreview() {
+  const sub = await getPushSubscription();
+  if (!sub) return false;
+  try {
+    const res = await fetch(`${WORKER}/send-now`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ endpoint: sub.endpoint }),
+    });
+    const j = await res.json().catch(() => ({}));
+    return res.ok && j.pushServiceStatus >= 200 && j.pushServiceStatus < 300;
+  } catch { return false; }
 }
 
 export async function disablePush() {

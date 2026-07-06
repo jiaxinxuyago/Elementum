@@ -25,6 +25,10 @@ import {
 import { OnboardingShell, ScrollPicker } from './OnboardingShell.jsx';
 import { useChart } from '../../store/chartContext.jsx';
 import { searchCities, formatCityForInput } from '../../services/geocoding.js';
+import { enablePush } from '../../infra/index.js';
+
+// 12h picker value + meridiem → 24h local hour for the push schedule.
+const to24h = (h12, meridiem) => ((h12 || 8) % 12) + (meridiem === 'PM' ? 12 : 0);
 
 // -----------------------------------------------------------
 // STEP 1 — YEAR
@@ -959,6 +963,11 @@ export function Step7_Notify({ onBack, onContinue, onChangeTime }) {
       onBack={onBack}
       onContinue={() => {
         updateBirthData({ notifyOn: on });
+        // Real Web Push subscribe (DOC10 §4.4) — fire-and-forget so onboarding
+        // never blocks; the permission prompt overlays the loading screen.
+        // Where unsupported (e.g. iOS Safari tab), it no-ops; the Profile
+        // toggle reflects true subscription state + guidance later.
+        if (on) enablePush(to24h(birthData.notifyHour, birthData.notifyMeridiem), null);
         onContinue();
       }}
       continueLabel="Reveal My Nature"
@@ -1186,6 +1195,8 @@ export function Step7A_NotifyTime({ onBack, onContinue }) {
           customNotifyTime: true,
           notifyOn: true,
         });
+        // Subscribe with the chosen hour (fire-and-forget; see Step 7 note).
+        enablePush(to24h(hours[hIdx], meridiems[pIdx]), null);
         onContinue();
       }}
       continueLabel="Reveal My Nature"
