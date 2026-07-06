@@ -5,7 +5,7 @@
 **Version:** 0.1 · June 2026 (draft — pre-implementation)
 **Related docs:** DOC8 (code architecture) · DOC5 §19 (pricing & content tiers) · DOC1 (calculation engine — client-side) · DOC7 / D7 (Self-Report)
 **Status:** **Planning.** No *server* backend exists yet. The app runs **fully client-side** with deliberate demo stubs placed at clean integration seams (tier, entitlement, consultant, notifications). This document is the spec + sequencing for the eventual build, and the rationale for **deferring it to a pre-beta phase**.
-> **Update (2026-07):** one interim payment path is now **live** — the **Founding Pass** via a hosted **Stripe Payment Link** with a client-side honor-system unlock (see §4.2 + §4.2a). This is pre-backend (no webhook/DB yet); the other three items remain client-side stubs.
+> **Update (2026-07):** §4.1 Auth and §4.2 Payments are **SHIPPED** — Supabase accounts (purchase-gated sign-in) + the Founding Pass with a **server-verified entitlement pipeline** (Stripe webhook → entitlements DB; see §4.2). §4.3 LLM and §4.4 Push remain client-side stubs.
 
 > **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** When the LLM-consultant payload is assembled, the Canonical JSON sent to the proxy must carry the **per-element polarity resolution** `{ element: { presentFaces:[{god,weight}], absentGod } }` (post-rewire), so the consultant sees the same faces the reading surfaces — not the old single polarity-blind god. It must also carry **`chart.tenGods`** (the per-pillar Ten Gods) so the consultant has the **positional (宫位) axis** the reading now uses (B6).
 
@@ -86,7 +86,12 @@ Each item lists: **what**, the **server piece**, the **client seam it replaces**
 - **Workload:** medium (days code) + non-code: Stripe account, products/prices, **tax** (consider a Merchant-of-Record to offload VAT).
 - **Depends on:** §4.1 (Stripe customer ↔ user mapping).
 
-> **Shipped 2026-07 (interim, pre-backend):** the **Founding Pass** ($9 one-time, lifetime Advisor — a beta-only launch offer) is **live** via a hosted **Stripe Payment Link**. Unlock is **honor-system** (no webhook yet): Stripe's success redirect returns to `elementum.life/?founding=ok`, and the client grants + persists the entitlement (`FoundingRedirect` in `App.jsx`; `grantFounding()` in `chartContext.jsx`, mirroring `hasSelfReport`). Deliberate stopgap — §4.2's **webhook → DB** entitlement is still the real target (the client grant is spoofable). URL single-sourced in `infra/links.js` (`PAYMENT.foundingCheckout`); display price in `infra/pricing.js`.
+> **✅ SHIPPED 2026-07 — server-verified (the honor-system stopgap is retired).** The **Founding Pass** ($9 one-time, lifetime Advisor — beta-only launch offer) runs the full §4.2 pipeline:
+> 1. **Purchase-gated sign-in** — the Founding CTA requires an account; the Stripe Payment Link URL carries `client_reference_id=<user.id>` + `prefilled_email` (`UpgradeModal.buyFounding`).
+> 2. **Webhook** — a standalone Cloudflare Worker (`elementum-stripe-webhook`, code at `Elementum_App/workers/stripe-webhook/`) verifies the `stripe-signature` HMAC and, on `checkout.session.completed` (paid), **upserts the buyer's `entitlements` row** (tier=advisor, has_founding, stripe_customer_id) via Supabase REST with the service-role key (Worker secret). Idempotent on retries; paid sessions without a user id are logged for manual backfill.
+> 3. **Server-truth client** — signed-in users' `tier` is read from `entitlements` (RLS: read-own-row only; no client write path). The localStorage grant was deleted; `?founding=ok` only polls `refreshEntitlements()` and plays the ceremony **after** the server confirms. A forged URL unlocks nothing.
+>
+> Still open within §4.2: Seeker/Advisor **subscriptions** (their cards are disabled "Available after beta"), Self-Report purchase (still the localStorage demo), and tax/MoR. URL single-sourced in `infra/links.js`; display price in `infra/pricing.js`.
 
 ### §4.2a — Wallets & native-app billing (Apple Pay / Google Pay / IAP) — **critical platform split**
 
@@ -192,3 +197,4 @@ Keeping `useChart()` as the single accessor for `tier`/`hasSelfReport` means the
 |---|---|---|
 | 0.1 | June 2026 | Initial draft. Server-free managed-backend plan; four items (auth/payments/LLM/push) scoped against the existing client seams; deferral rationale; data-model + privacy guidance. Pre-implementation. |
 | 0.2 | July 2026 | Founding Pass shipped (interim, honor-system Stripe Payment Link) — recorded in §4.2. Added §4.2a wallets & native-app billing (Apple Pay/Google Pay work via Stripe on web/PWA; native App Store/Play require Apple IAP + Google Play Billing) + open decision #6. |
+| 0.3 | July 2026 | **§4.1 + §4.2 shipped server-verified.** Supabase auth (purchase-gated sign-in, entitlements table + RLS + signup trigger), Stripe webhook Worker (signature-verified → entitlement upsert), server-truth tier in the client, honor-system grant retired. Stack note: serverless functions run on **Cloudflare Workers** (not Supabase Edge Functions) — wrangler was already authenticated, same platform as the app. |
