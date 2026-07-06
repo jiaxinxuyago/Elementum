@@ -115,6 +115,8 @@ Apple Pay / Google Pay are **not a separate integration** — their availability
 
 ### §4.4 Push notifications — daily reading reminder
 
+> **✅ SHIPPED 2026-07 — verified end-to-end on iOS (installed PWA, encrypted payload via Apple push) + desktop Chrome (FCM).** elementum-push Worker live with hourly cron; RFC 8291 aes128gcm payloads (Apple requires them — payload-less is silently dropped); POST /send-now for preview sends; dead subs pruned. Known follow-ups: wire onboarding step 7 to the real subscribe, and reconcile the Profile toggle with actual subscription state (it defaults ON cosmetically).
+
 > **DECISIONS LOCKED 2026-07 (owner):**
 > 1. **Raw Web Push** (VAPID, no vendor) — not OneSignal/FCM SDKs. Zero cost, no third-party tracking, runs on the existing Cloudflare Worker + Supabase stack.
 > 2. **Date-based message, no personalization server-side.** The daily elemental current (day stem/element) derives from the DATE alone — identical for all users, zero PII. The personalized layer renders client-side after tap-through. This preserves the §3 privacy split (birth data never leaves the device) — the server stores only a push endpoint + preferred send hour.
@@ -203,4 +205,5 @@ Keeping `useChart()` as the single accessor for `tier`/`hasSelfReport` means the
 |---|---|---|
 | 0.1 | June 2026 | Initial draft. Server-free managed-backend plan; four items (auth/payments/LLM/push) scoped against the existing client seams; deferral rationale; data-model + privacy guidance. Pre-implementation. |
 | 0.2 | July 2026 | Founding Pass shipped (interim, honor-system Stripe Payment Link) — recorded in §4.2. Added §4.2a wallets & native-app billing (Apple Pay/Google Pay work via Stripe on web/PWA; native App Store/Play require Apple IAP + Google Play Billing) + open decision #6. |
+| 0.4 | July 2026 | §4.4 Web Push shipped + verified (iOS + desktop). RFC 8291 encrypted payloads required for Apple delivery. |
 | 0.3 | July 2026 | **§4.1 + §4.2 shipped server-verified.** Supabase auth (purchase-gated sign-in, entitlements table + RLS + signup trigger), Stripe webhook Worker (signature-verified → entitlement upsert), server-truth tier in the client, honor-system grant retired. Stack note: serverless functions run on **Cloudflare Workers** (not Supabase Edge Functions) — wrangler was already authenticated, same platform as the app. |
