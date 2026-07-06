@@ -17,10 +17,19 @@ self.addEventListener('push', (event) => {
       body: "Today's elemental current is ready — see what it stirs in your chart.",
       url: '/#/app-today',
     };
+    // Sends carry the message as an encrypted payload (RFC 8291 — required by
+    // Apple's push service). Fall back to fetching it for legacy payload-less
+    // pushes or if parsing fails.
+    let havePayload = false;
     try {
-      const res = await fetch(PUSH_MESSAGE_URL, { cache: 'no-store' });
-      if (res.ok) msg = await res.json();
-    } catch { /* offline — fall back to the generic reminder */ }
+      if (event.data) { msg = event.data.json(); havePayload = true; }
+    } catch { /* not JSON — use the fetch path */ }
+    if (!havePayload) {
+      try {
+        const res = await fetch(PUSH_MESSAGE_URL, { cache: 'no-store' });
+        if (res.ok) msg = await res.json();
+      } catch { /* offline — fall back to the generic reminder */ }
+    }
     await self.registration.showNotification(msg.title, {
       body: msg.body,
       icon: '/icons/icon-192.png',
