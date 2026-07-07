@@ -121,15 +121,74 @@ without reading git history?*
   > 3 levels of prop drilling (consider context); a barrel re-exporting > ~30 symbols
   (consider a split). A file that crosses a budget in a diff that *could* have split it:
   LOW.
-- **A6 — Comment discipline.** Comments state constraints and non-obvious *why*
-  (the codebase's header-block style), never narrate the diff or the obvious *what*.
-  Stale comments contradicting code: MEDIUM (they actively mislead).
+- **A6 — Comment discipline (house style).** Comments exist to carry what the code
+  cannot: constraints, non-obvious *why*, and decision provenance. Concretely:
+  - **File header banner** — every non-trivial file opens with the
+    `// ═══ / — ═══` banner block: one-line identity, purpose, usage/run
+    instructions for tools, and secrets/config notes for workers (see
+    `workers/push/wrangler.jsonc`, `tools/qa-route-sweep.mjs` as reference).
+    New file without one: LOW.
+  - **Section dividers** — long files use `// ── Name ──────` rules, not blank-line
+    soup.
+  - **Decision citations** — behavior that exists because of a spec or owner decision
+    cites it inline (`DOC10 §4.4`, `DOC5 §AM.2`, `D13`) so the next reader can find
+    the ruling. A workaround or intentional oddity without its *why*: MEDIUM.
+  - **Banned comment types** — narrating the next line, restating the diff, selling
+    the change ("improved", "now correctly"), commented-out code (that's A3 dead
+    code), and TODO without an owner/route to resolution. LOW–MEDIUM.
+  - **Stale comments** contradicting the code they describe: MEDIUM (they actively
+    mislead — worse than no comment).
+  - **Bilingual terms** — domain terms keep their hanzi at first use in a file
+    (八字, 合而不化, 用神) matching the docs' convention, so code and DOC1–DOC10
+    stay greppable by the same vocabulary.
 - **A7 — Reuse before new.** A new helper/component that duplicates ≥70% of an existing
   one is a finding (MEDIUM); extend or extract instead. Check `components/shared/`,
   `styles/`, existing hooks first.
 - **A8 — Placement.** All live code inside `Elementum_App/`; dev-only tooling in
   `Elementum_App/tools/`; nothing ships to users that is dev-gated (IS_DEV) — a dev
   hook reachable in prod build: HIGH.
+- **A9 — Syntax & idiom conventions.** Formatting is the linter's job (0 errors is
+  A1); *idiom* is reviewable. The house dialect:
+  - **Naming system** — `PascalCase` components/classes · `useX` hooks ·
+    `camelCase` functions/variables · `SCREAMING_SNAKE` module-level constants and
+    data tables (`FLOW`, `CASES`, `STEM_PINYIN`) · file names match their default
+    export (`ReadingFacesScreen.jsx`). Mixed or drive-by-renamed conventions: LOW.
+  - **Module system** — ESM everywhere; node tooling is `.mjs`; no `require()` in
+    app code; no default-and-named export mixing from one module without reason.
+  - **Functions over classes** — functional React components only; plain functions
+    + module state over classes in engine/tools (the codebase has zero classes by
+    convention).
+  - **Modern-JS baseline** — optional chaining / nullish coalescing over `&&`
+    chains and `||` defaults where falsy-vs-nullish matters; template literals over
+    concatenation; `const` by default, `let` when reassigned, `var` never;
+    early-return over nested `if` pyramids (>2 levels of nesting where an early
+    return would flatten: LOW).
+  - **Error style** — user-path failures degrade gracefully (null-safe patterns per
+    C1); tool/worker failures fail *loudly* with actionable messages and correct
+    exit codes (the qa tools' `exit 0/1/2` contract is the reference). Swallowed
+    catch blocks (`catch {}`) require a comment stating why silence is correct.
+  - **No TypeScript** — the repo is deliberately plain JS; a diff introducing TS
+    syntax or a transpile step is a scope decision for the owner, not a
+    contribution: flag as HIGH until the owner rules.
+- **A10 — Change-set scope discipline.** A change-set (commit or small commit train)
+  is reviewable only if its blast radius is legible:
+  - **One concern per commit** — a feature commit does not smuggle unrelated
+    refactors, renames, or formatting sweeps; behavior-preserving restructuring
+    ships separately (the 2026-07 six-PR restructure is the precedent). Mixed:
+    MEDIUM.
+  - **Coupled artifacts move together** — the same-change-set pairs are mandatory:
+    price ⇄ webhook PRODUCTS map (S3) · schema ⇄ content/DOC9 (K3) · lazy() list ⇄
+    prefetch list (P3) · engine behavior ⇄ golden re-bless + protocol run (C4) ·
+    canonical `Design/` file ⇄ `public/` mirror. Half a pair: severity per the
+    paired rule.
+  - **Commit messages** — conventional-commit style (`feat(scope):`, `fix:`,
+    `docs:`, `chore:`), body explains *why* and records verification performed;
+    a budget override (P1/P2) must be justified here. Unexplained budget
+    crossings: MEDIUM.
+  - **No orphan scope** — everything a commit introduces is reachable: a new
+    component is routed/imported, a new tool is documented in its own header, a
+    new endpoint appears in DOC10. Introduced-but-unwired code is A3 dead code at
+    birth: MEDIUM.
 
 ---
 
@@ -186,6 +245,35 @@ Budgets are measured against `npm run build` output. Baselines (2026-07-07):
   change-set: MEDIUM.
 - **K4 — Config single-sourcing.** Public URLs/keys come from `site.config.json`;
   worker names/routes documented in DOC10. New magic URLs: MEDIUM.
+- **K5 — Infrastructure conventions** (architecture itself lives in DOC10; these are
+  the reviewable habits):
+  - **Worker layout** — one directory per worker under `Elementum_App/workers/<name>/`
+    containing exactly `index.js` + `wrangler.jsonc`; the config header documents
+    the worker's purpose, its deploy command, and EVERY secret it expects (name +
+    one-line meaning — `workers/push/wrangler.jsonc` is the reference). Undocumented
+    secret dependency: MEDIUM (it strands the next deployer).
+  - **Vars vs secrets** — public values (`SUPABASE_URL`, VAPID public key,
+    `REPORT_TO`) go in `vars`; anything privileged goes through
+    `wrangler secret put`, never in the config or code. Misfiled: S4 severity rules
+    apply.
+  - **Per-endpoint auth comment** — every route in a worker's fetch handler states
+    its auth model where it's implemented (S5's documentation half). Missing on a
+    new endpoint: MEDIUM even when the enforcement is present.
+  - **Naming** — workers are `elementum-<function>` (push, stripe-webhook);
+    endpoints are verbs or plain nouns (`/subscribe`, `/report`), no versioned
+    paths without an owner decision.
+  - **Deliberate exposure flags** — `workers_dev`, `preview_urls`, and custom-domain
+    attachment are explicit decisions with a comment (the main worker's
+    dashboard-managed-domain note is the reference); a diff flipping one silently:
+    HIGH (it changes what's publicly reachable).
+  - **Deploy path** — the main `elementum` worker deploys via the Stop-hook
+    (`sync-live.ps1`, fingerprint-gated + smoke-checked); satellite workers deploy
+    manually via their documented command. A change that adds a THIRD deploy path
+    or bypasses the smoke check: MEDIUM.
+  - **New external service** — any diff introducing a new hosted dependency
+    (database, queue, API) is automatically an owner decision: flag HIGH with the
+    ownership-pattern note (personal-owner + company-member per the infra map),
+    regardless of code quality.
 
 ---
 
