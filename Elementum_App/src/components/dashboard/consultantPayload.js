@@ -13,7 +13,8 @@
 // ===================================================================
 
 import { resolveElementFaces, yearEnergy } from '../../engine/index.js';
-import { STEM_CARD_DATA, TG_PERSONA, getDailyGuidance } from '../../content/index.js';
+import { STEM_CARD_DATA, TG_PERSONA, getDailyGuidance, composeSelfReport } from '../../content/index.js';
+import { PERSONA_READING, DM_READING } from '../../content/reading/index.js';
 
 const ELEMENTS = ['Wood', 'Fire', 'Earth', 'Metal', 'Water'];
 
@@ -108,6 +109,33 @@ export function buildConsultantPayload(chart, selfReport) {
       inTheirWords: selfReport.context || null,
       updated: selfReport.at || null,
     } : null,
+
+    // ── The authored voice (owner directive 2026-07: the consultant digests the
+    // LATEST reading content and speaks in its fashion). Composed at message time
+    // from the same content modules the reading screens render — polishing copy
+    // and shipping the app updates the consultant with no worker change. ────────
+    authoredVoice: {
+      manifesto: identity.manifesto || null,
+      elementIntro: identity.elementIntro || null,
+      dayMasterReading: DM_READING[dm.stem] || null,
+      // Their cast: the authored reading of each element's lead persona.
+      personaReadings: (() => {
+        const out = {};
+        for (const el of ELEMENTS) {
+          const god = faces[el]?.leadGod?.god;
+          if (god && PERSONA_READING[god]) out[el] = { persona: TG_PERSONA[god] || god, ...PERSONA_READING[god] };
+        }
+        return out;
+      })(),
+      // The composed Self-Report — the app's own current-voice reading of them.
+      composedReport: (() => {
+        try {
+          const rep = composeSelfReport(chart, selfReport);
+          const sections = rep?.sections || (Array.isArray(rep) ? rep : null);
+          return sections ? sections.map((s) => ({ title: s.title, quote: s.quote || undefined, body: s.body })) : null;
+        } catch { return null; }
+      })(),
+    },
   };
 
   return JSON.stringify(payload);
