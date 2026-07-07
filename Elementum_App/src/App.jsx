@@ -438,7 +438,7 @@ export default function App() {
   let rendered;
   switch (screen) {
     case 'welcome':
-      rendered = <WelcomeScreen onContinue={goto('step1')} />;
+      rendered = <WelcomeScreen onContinue={goto('step1')} onEnterApp={goto('app-today')} />;
       break;
     case 'step1':
       rendered = <Step1_Year onBack={back} onContinue={goto('step2')} />;

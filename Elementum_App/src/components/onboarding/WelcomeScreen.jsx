@@ -6,9 +6,24 @@
 // is withheld until §9. ELEMENTUM wordmark IS the identity mark here.
 // ===================================================================
 
+import { useState } from 'react';
 import { INK, INK_SOFT, SILK, BRONZE_DARK, StatusBar } from '../../styles/tokens.jsx';
+import { useAuth } from '../../store/authContext.jsx';
+import { useChart } from '../../store/chartContext.jsx';
+import AuthModal from '../dashboard/AuthModal.jsx';
 
-export default function WelcomeScreen({ onContinue }) {
+// `onEnterApp` — returning user with a chart already on this device → straight
+// to the dashboard. `onContinue` — into onboarding (new chart / new device).
+export default function WelcomeScreen({ onContinue, onEnterApp }) {
+  const { user } = useAuth();
+  const { chart } = useChart();
+  const [authOpen, setAuthOpen] = useState(false);
+
+  // Post-sign-in routing: the account restores unlocks, but birth data lives
+  // on-device (DOC10 §3) — so a chart here means "welcome home", and a fresh
+  // device means the chart is redrawn through onboarding (unlocks intact).
+  const proceedSignedIn = () => (chart ? (onEnterApp || onContinue) : onContinue)();
+
   return (
     <div
       style={{
@@ -154,7 +169,9 @@ export default function WelcomeScreen({ onContinue }) {
           </span>
         </button>
 
-        {/* "Already mapped?" — elevated ivory pill with bronze "Sign in" */}
+        {/* "Already mapped?" — elevated ivory pill. Anonymous: opens the
+            sign-in sheet. Signed in (e.g. back from Google OAuth): continues
+            as the account — into the app if a chart lives on this device. */}
         <div
           style={{
             marginTop: 18,
@@ -162,7 +179,9 @@ export default function WelcomeScreen({ onContinue }) {
             justifyContent: 'center',
           }}
         >
-          <div
+          <button
+            type="button"
+            onClick={() => (user ? proceedSignedIn() : setAuthOpen(true))}
             style={{
               display: 'inline-flex',
               alignItems: 'center',
@@ -180,20 +199,41 @@ export default function WelcomeScreen({ onContinue }) {
               cursor: 'pointer',
             }}
           >
-            Already mapped?
-            <span
-              style={{
-                color: BRONZE_DARK,
-                fontStyle: 'normal',
-                fontWeight: 500,
-                letterSpacing: 0.3,
-              }}
-            >
-              Sign in
-            </span>
-          </div>
+            {user ? (
+              <>
+                <span style={{
+                  maxWidth: 190, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+                }}>
+                  Continue as {user.email}
+                </span>
+                <span style={{ color: BRONZE_DARK, fontWeight: 500 }}>→</span>
+              </>
+            ) : (
+              <>
+                Already mapped?
+                <span
+                  style={{
+                    color: BRONZE_DARK,
+                    fontStyle: 'normal',
+                    fontWeight: 500,
+                    letterSpacing: 0.3,
+                  }}
+                >
+                  Sign in
+                </span>
+              </>
+            )}
+          </button>
         </div>
       </div>
+
+      {/* Returning-user sign-in sheet (opens in sign-in mode) */}
+      <AuthModal
+        open={authOpen}
+        initialMode="signin"
+        onClose={() => setAuthOpen(false)}
+        onSuccess={() => proceedSignedIn()}
+      />
     </div>
   );
 }

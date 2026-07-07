@@ -25,9 +25,11 @@ const inputStyle = {
 // reads it and continues straight to Stripe (see PURCHASE_INTENT_KEY consumer).
 export const PURCHASE_INTENT_KEY = 'elementum_purchase_intent_v1';
 
-export default function AuthModal({ open, onClose, onSuccess, purchase = false }) {
+// `initialMode` — which face the sheet opens with: 'signup' (default; purchase +
+// profile flows) or 'signin' (the Welcome screen's returning-user entrance).
+export default function AuthModal({ open, onClose, onSuccess, purchase = false, initialMode = 'signup' }) {
   const { signUp, signIn, signInWithGoogle } = useAuth();
-  const [mode, setMode] = useState('signup'); // 'signup' | 'signin'
+  const [mode, setMode] = useState(initialMode); // 'signup' | 'signin'
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [busy, setBusy] = useState(false);
