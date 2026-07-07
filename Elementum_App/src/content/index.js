@@ -33,5 +33,8 @@ export { TG_PERSONA, tgPersona } from './tgNames.js';
 // Daily guidance
 export { getDailyGuidance } from './dailyGuidance.js';
 
+// Self-Report — the composed personal report (DOC5 §12 Card 3, v1 no-LLM)
+export { composeSelfReport } from './selfReportContent.js';
+
 // Schema coverage / QA utilities
 export { walkSchema, coverageSummary, coverageFor } from './archetypeCoverage.js';

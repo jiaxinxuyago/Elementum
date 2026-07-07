@@ -11,6 +11,7 @@ import { useState } from 'react';
 
 import { useChart } from '../../store/chartContext.jsx';
 import { SELF_REPORT_PRICE } from '../../infra/index.js';
+import { composeSelfReport } from '../../content/index.js';
 import { useUpgrade } from './UpgradeModal.jsx';
 import HorizonHeader from '../guidance/HorizonHeader.jsx';
 import {
@@ -25,22 +26,27 @@ const DOMAINS = ['Career', 'Relationships', 'Wealth', 'Health', 'Purpose'];
 function read() { try { return JSON.parse(localStorage.getItem(KEY) || 'null'); } catch { return null; } }
 
 export default function SelfReportScreen({ onBack }) {
-  const { tier, hasSelfReport, purchaseSelfReport } = useChart();
+  const { tier, hasSelfReport, purchaseSelfReport, chart } = useChart();
   const { openUpgrade } = useUpgrade();
   const saved = read();
   const [chapter, setChapter] = useState(saved?.chapter || null);
   const [domains, setDomains] = useState(saved?.domains || []);
   const [context, setContext] = useState(saved?.context || '');
   const [savedAt, setSavedAt] = useState(saved?.at || null);
-  const [justSaved, setJustSaved] = useState(false);
+  // 'form' | 'report' — saving DRAWS the report (the paid deliverable, DOC5
+  // §12 Card 3 v1: composed on-device, no LLM); "Edit" returns to the form.
+  const [view, setView] = useState('form');
 
   const save = () => {
     const at = new Date().toISOString().slice(0, 10);
     try { localStorage.setItem(KEY, JSON.stringify({ chapter, domains, context, at })); } catch { /* storage unavailable — ignore */ }
     setSavedAt(at);
-    setJustSaved(true);
-    setTimeout(() => setJustSaved(false), 2600);
+    setView('report');
   };
+
+  const report = view === 'report'
+    ? composeSelfReport(chart, { chapter, domains, context, at: savedAt })
+    : null;
 
   return (
     <main style={{ minHeight: '100%', padding: '54px 20px 24px' }}>
@@ -57,11 +63,21 @@ export default function SelfReportScreen({ onBack }) {
       <div style={{ height: 14 }} />
       {!hasSelfReport ? (
         <PurchaseGate tier={tier} onBuy={purchaseSelfReport} onUpgrade={() => openUpgrade('Self-Report')} />
+      ) : view === 'report' && report ? (
+        <ReportDoc report={report} onEdit={() => setView('form')} />
       ) : (
       <>
       <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14, lineHeight: 1.6, color: inkSoft, margin: '0 0 22px' }}>
-        Your Self-Report is active — the more you share, the more precisely your readings and your consultant speak to where you actually are.
+        Tell your report where you actually are — it is drawn from your chart <em style={{ fontStyle: 'normal' }}>and</em> your answers, and redrawn every time you update them.
       </p>
+
+      {savedAt && (
+        <button type="button" onClick={() => setView('report')} style={{
+          appearance: 'none', background: 'transparent', border: 'none', padding: 0,
+          marginBottom: 20, cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: 5,
+          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13.5, color: bronzeDark,
+        }}>View your report →</button>
+      )}
 
       {/* Life chapter — single select */}
       <FieldLabel>Where are you in life right now?</FieldLabel>
@@ -101,18 +117,83 @@ export default function SelfReportScreen({ onBack }) {
         appearance: 'none', width: '100%', padding: '14px', borderRadius: 12, border: 'none',
         background: bronzeDark, color: silk, cursor: 'pointer',
         fontFamily: "'EB Garamond', Georgia, serif", fontSize: 15, fontWeight: 500, letterSpacing: 0.5,
-      }}>Update my context</button>
-
-      {justSaved && (
-        <div style={{
-          marginTop: 14, padding: '12px 16px', borderRadius: 12, textAlign: 'center',
-          background: withAlpha(gold, '10'), border: `1px solid ${withAlpha(gold, '40')}`,
-          fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 17, color: bronzeDark,
-        }}>Saved — your readings and consultant now read from this.</div>
-      )}
+      }}>{savedAt ? 'Redraw my report' : 'Draw my report'}</button>
       </>
       )}
     </main>
+  );
+}
+
+// ───────────────────────────────────────────────────────────────────
+// ReportDoc — the composed personal report, rendered as a keepable
+// document (DOC5 §12 Card 3 v1). Pure presentation of composeSelfReport().
+// ───────────────────────────────────────────────────────────────────
+function ReportDoc({ report, onEdit }) {
+  const [thesis, edge] = (report.manifesto || '').split(' · ');
+  return (
+    <article style={{
+      background: cardstockBg, border: `1px solid ${paperHair}`, borderRadius: 16,
+      padding: '26px 22px 24px',
+    }}>
+      {/* Document head */}
+      <div style={{ textAlign: 'center', paddingBottom: 18, borderBottom: `1px solid ${paperHair}`, marginBottom: 6 }}>
+        <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase', color: bronzeDark, fontWeight: 500 }}>
+          Your Self-Report
+        </div>
+        <div style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 26, color: ink, margin: '8px 0 2px' }}>
+          {report.archetypeLabel}
+        </div>
+        {thesis && (
+          <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13.5, color: inkSoft }}>
+            {thesis}{edge ? ` — ${edge}` : ''}
+          </div>
+        )}
+        <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 11, color: inkLight, marginTop: 8 }}>
+          Drawn {report.date}
+        </div>
+      </div>
+
+      {report.sections.map((s) => (
+        <section key={s.key} style={{ padding: '18px 0 4px', borderBottom: `1px solid ${withAlpha(gold, '30')}` }}>
+          <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10, letterSpacing: 2, textTransform: 'uppercase', color: bronzeDark, fontWeight: 500 }}>
+            {s.eyebrow}
+          </div>
+          <h3 style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 19, fontWeight: 500, color: ink, margin: '5px 0 8px' }}>
+            {s.title}
+          </h3>
+          {s.quote && (
+            <blockquote style={{
+              margin: '0 0 10px', padding: '10px 14px', borderLeft: `2px solid ${withAlpha(gold, '60')}`,
+              background: withAlpha(gold, '08'), borderRadius: '0 10px 10px 0',
+              fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 15.5, color: inkSoft, lineHeight: 1.55,
+            }}>
+              “{s.quote}”
+            </blockquote>
+          )}
+          {(s.body || []).map((p, i) => (
+            <p key={i} style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14.5, lineHeight: 1.65, color: inkSoft, margin: '0 0 12px' }}>
+              {p}
+            </p>
+          ))}
+          {(s.items || []).map((it) => (
+            <div key={it.name} style={{ margin: '0 0 12px' }}>
+              <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12, letterSpacing: 1.2, textTransform: 'uppercase', color: pigments.water.deep, fontWeight: 600, marginBottom: 3 }}>
+                {it.name}
+              </div>
+              <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14.5, lineHeight: 1.65, color: inkSoft, margin: 0 }}>
+                {it.text}
+              </p>
+            </div>
+          ))}
+        </section>
+      ))}
+
+      <button type="button" onClick={onEdit} style={{
+        appearance: 'none', display: 'block', margin: '18px auto 0', background: 'transparent',
+        border: 'none', cursor: 'pointer',
+        fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13.5, color: bronzeDark,
+      }}>Edit my answers →</button>
+    </article>
   );
 }
 

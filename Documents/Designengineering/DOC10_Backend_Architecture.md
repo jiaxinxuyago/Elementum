@@ -91,7 +91,7 @@ Each item lists: **what**, the **server piece**, the **client seam it replaces**
 > 2. **Webhook** — a standalone Cloudflare Worker (`elementum-stripe-webhook`, code at `Elementum_App/workers/stripe-webhook/`) verifies the `stripe-signature` HMAC and, on `checkout.session.completed` (paid), **upserts the buyer's `entitlements` row** (tier=advisor, has_founding, stripe_customer_id) via Supabase REST with the service-role key (Worker secret). Idempotent on retries; paid sessions without a user id are logged for manual backfill.
 > 3. **Server-truth client** — signed-in users' `tier` is read from `entitlements` (RLS: read-own-row only; no client write path). The localStorage grant was deleted; `?founding=ok` only polls `refreshEntitlements()` and plays the ceremony **after** the server confirms. A forged URL unlocks nothing.
 >
-> Still open within §4.2: Seeker/Advisor **subscriptions** (their cards are disabled "Available after beta"), Self-Report purchase (still the localStorage demo), and tax/MoR. URL single-sourced in `infra/links.js`; display price in `infra/pricing.js`.
+> Still open within §4.2: Seeker/Advisor **subscriptions** (their cards are disabled "Available after beta"), Self-Report purchase (deliverable is now REAL — a composed on-device report, see DOC5 §12 Card 3 shipped-note — but the $6.99 buy is still the localStorage demo flip; wire payment-link + webhook before public ship), and tax/MoR. URL single-sourced in `infra/links.js`; display price in `infra/pricing.js`.
 
 ### §4.2a — Wallets & native-app billing (Apple Pay / Google Pay / IAP) — **critical platform split**
 

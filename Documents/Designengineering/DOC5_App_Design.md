@@ -1924,6 +1924,14 @@ Opens AI Consultant pre-seeded with the domain chapter as context.
 
 **Save button:** `bg-[#6b5339]` CTA, "Update my context". After save, a quiet confirmation: *"Your readings have been recalibrated."*
 
+> **[SHIPPED 2026-07 — v1 REPORT: the intake now DRAWS A DOCUMENT.]** The spec above described intake with an aspirational payoff ("recalibrated") that nothing rendered. The owner's call (2026-07-07): *the buyer must see a report — rudimentary is fine, but there must be content.* Reasoning chain, in order:
+> 1. **Audit finding:** the saved context fed only the scripted consultant; no reading surface consumed it → charging $6.99 for the intake alone would sell an unkept promise.
+> 2. **LLM considered and rejected for v1:** no LLM exists in the stack (§4.3 DOC10, parked); adding one requires an API key + per-token cost, **and** sending chart+context off-device — which contradicts the published privacy contract (`/legal`: "birth data never transmitted"; DOC10 §3). Not a casual add.
+> 3. **Chosen: on-device COMPOSITION** — the same authored-fragment engine every reading already uses. New content module `src/content/selfReportContent.js` (exported via the content barrel as `composeSelfReport(chart, sr)`): 55 authored fragments — `CHAPTER_ELEMENT` (5 chapters × 5 elements), `DOMAIN_ELEMENT` (5 domains × 5 elements), `CATALYST_CLOSE` (5) — plus reuse of `STEM_CARD_DATA.identity` for the head.
+> 4. **The document contract** (rendered by `ReportDoc` in `SelfReportScreen`): head (archetype label + manifesto + drawn-date) → ① WHO YOU ARE (identity + band + catalyst) → ② WHERE YOU ARE (chapter × element) → ③ YOUR LIVE DOMAINS (each chosen domain × element) → ④ IN YOUR WORDS (their context echoed as a quote) → ⑤ ONE INSTRUCTION (catalyst-keyed close). Save CTA is now **"Draw my report"** / "Redraw my report"; the old "recalibrated" toast is retired.
+> 5. **Upgrade path:** when §4.3 (LLM proxy) lands, this structure is the prompt scaffold — the LLM enriches ③–⑤ inside the same contract, with the privacy disclosure updated first.
+> 6. **Monetization status:** the $6.99 purchase is still the demo localStorage flip — real Stripe wiring (payment-link + webhook, same pipeline as the Founding Pass) is the tracked next step; the feature ships publicly only together with it.
+
 ---
 
 ### Card 4 — AI Consultant (Advisor)
