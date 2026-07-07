@@ -185,7 +185,12 @@ export default {
           try {
             const ev = JSON.parse(line.slice(5));
             if (ev.type === 'message_start') {
-              tokensIn = ev.message?.usage?.input_tokens || tokensIn;
+              // Count ALL input flavors — with prompt caching, input_tokens
+              // excludes cache writes/reads (reported separately). Summing them
+              // OVERSTATES cost slightly (cache reads are 10% price) — the
+              // budget wall errs safe.
+              const u = ev.message?.usage || {};
+              tokensIn = (u.input_tokens || 0) + (u.cache_creation_input_tokens || 0) + (u.cache_read_input_tokens || 0) || tokensIn;
             } else if (ev.type === 'message_delta') {
               tokensOut = ev.usage?.output_tokens || tokensOut;
             }
