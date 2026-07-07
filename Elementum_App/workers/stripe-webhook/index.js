@@ -64,7 +64,10 @@ async function grantEntitlement(env, userId, fields) {
 
 // ── Product routing ──────────────────────────────────────────────────────────
 // Payment-Link webhook events carry no product identifier we can verify
-// without a Stripe API key, so products are routed by amount_total (cents).
+// without a Stripe API key, so products are routed by amount (cents). Routing
+// keys on amount_subtotal (the PRE-DISCOUNT price) so promotion codes — incl.
+// the 100%-off testing coupon — still identify the product; amount_total is
+// the fallback for events without a subtotal.
 // ⚠ If a price changes in Stripe, change it here IN THE SAME DEPLOY.
 const PRODUCTS = {
   900: { name: 'founding-pass', fields: { tier: 'advisor', has_founding: true } }, // $9.00
@@ -89,13 +92,17 @@ export default {
     if (event.type === 'checkout.session.completed') {
       const session = event.data?.object || {};
       const userId = session.client_reference_id;
-      if (session.payment_status === 'paid' && userId) {
-        const product = PRODUCTS[session.amount_total];
+      // 'no_payment_required' = a zero-total checkout (100%-off promotion
+      // code) — legitimate and complete; Stripe never marks those 'paid'.
+      const settled = session.payment_status === 'paid' || session.payment_status === 'no_payment_required';
+      if (settled && userId) {
+        const cents = session.amount_subtotal ?? session.amount_total;
+        const product = PRODUCTS[cents];
         if (!product) {
           // Unknown amount — a price changed in Stripe without updating PRODUCTS,
           // or an unexpected checkout. Log loudly for manual grant; ack so Stripe
           // doesn't retry forever (the data is safe in the Stripe dashboard).
-          console.error(`UNKNOWN AMOUNT ${session.amount_total} user=${userId} session=${session.id} — grant manually + update PRODUCTS`);
+          console.error(`UNKNOWN AMOUNT subtotal=${session.amount_subtotal} total=${session.amount_total} user=${userId} session=${session.id} — grant manually + update PRODUCTS`);
           return new Response('received (unknown product — logged)', { status: 200 });
         }
         try {
