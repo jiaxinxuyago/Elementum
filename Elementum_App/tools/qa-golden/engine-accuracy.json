@@ -1,0 +1,99 @@
+{
+  "blessedAt": "2026-07-07T18:47:35.705Z",
+  "cases": [
+    {
+      "label": "REFERENCE 庚 (strong)",
+      "tierA": {
+        "pillars": [
+          "乙亥",
+          "庚辰",
+          "庚寅",
+          "乙酉"
+        ],
+        "stemTenGods": [
+          "正财(Direct Wealth)",
+          "比肩(Parallel Self)",
+          "正财(Direct Wealth)"
+        ],
+        "dayMaster": "庚 Metal yang",
+        "tgPattern": "forging",
+        "patterns": [
+          "六合(寅亥)",
+          "六合(辰酉)"
+        ]
+      },
+      "tierB": {
+        "strength": "strong",
+        "strengthScore": 0.72,
+        "band": "concentrated",
+        "catalyst": "Fire",
+        "energies": [
+          {
+            "el": "earth",
+            "presence": 33,
+            "score": 0.324,
+            "roles": [
+              "friction"
+            ],
+            "leadGod": "偏印",
+            "faces": [
+              "偏印/yang"
+            ]
+          },
+          {
+            "el": "wood",
+            "presence": 33,
+            "score": 0.333,
+            "roles": [
+              "catalyst"
+            ],
+            "leadGod": "正财",
+            "faces": [
+              "正财/yin",
+              "偏财/yang"
+            ]
+          },
+          {
+            "el": "metal",
+            "presence": 23,
+            "score": 0.234,
+            "roles": [
+              "core",
+              "friction"
+            ],
+            "leadGod": "比肩",
+            "faces": [
+              "比肩/yang",
+              "劫财/yin"
+            ]
+          },
+          {
+            "el": "water",
+            "presence": 6,
+            "score": 0.057,
+            "roles": [
+              "catalyst"
+            ],
+            "leadGod": "食神",
+            "faces": [
+              "食神/yang",
+              "伤官/yin"
+            ]
+          },
+          {
+            "el": "fire",
+            "presence": 5,
+            "score": 0.052,
+            "roles": [
+              "catalyst"
+            ],
+            "leadGod": "七杀",
+            "faces": [
+              "七杀/yang"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
