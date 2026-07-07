@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Automated QA artifacts (tools/qa-route-sweep.mjs) — regenerated every run
+tools/qa-output/

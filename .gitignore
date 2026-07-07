@@ -1,5 +1,7 @@
-# Claude worktrees and session artifacts
-.claude/
+# Claude worktrees and session artifacts (any depth) — but root
+# .claude/agents/ holds versioned automation infrastructure.
+**/.claude/*
+!.claude/agents/
 Elementum/
 
 # Editor/backup cruft

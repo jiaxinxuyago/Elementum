@@ -400,6 +400,9 @@ export default function App() {
         if (FLOW.includes(name)) setScreen(name);
         else console.warn('Unknown screen:', name, '; valid:', FLOW);
       };
+      // Route inventory for automated QA (tools/qa-route-sweep.mjs) — the
+      // sweep enumerates screens from the running app, never a copied list.
+      window.__screens = [...FLOW];
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
