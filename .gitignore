@@ -11,3 +11,6 @@ Elementum/
 
 # Large reference bundle (downloaded export — not for version control)
 Reference/
+
+# wrangler CLI cache (created by running wrangler from the repo root)
+.wrangler/
