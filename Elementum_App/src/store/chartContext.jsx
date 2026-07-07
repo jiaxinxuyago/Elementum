@@ -39,14 +39,9 @@ const INITIAL_BIRTH_DATA = {
 // This store manages only the active `tier` STATE (set via setTier).
 
 // Self-Report — a one-time purchase (DOC5 §19), tracked SEPARATELY from the
-// subscription tier (a Seeker still buys it as a one-time add-on). Persisted
-// so the entitlement survives reloads. The demo has no payment backend, so
-// `purchaseSelfReport()` flips the entitlement locally — mirroring how the
-// tier upgrade flow flips tier state in UpgradeModal.
+// subscription tier. SERVER-TRUTH like tier (webhook writes has_self_report);
+// the localStorage key below is only the IS_DEV demo flip's persistence.
 const SELF_REPORT_KEY = 'elementum_hasselfreport_v1';
-function readSelfReportOwned() {
-  try { return localStorage.getItem(SELF_REPORT_KEY) === '1'; } catch { return false; }
-}
 
 // Tier entitlement — SERVER-TRUTH (DOC10 §4.2). For signed-in users the tier
 // comes from the Supabase `entitlements` row, written only by the Stripe
@@ -60,8 +55,8 @@ function readTierCache(userId) {
     return c && c.userId === userId ? c : null;
   } catch { return null; }
 }
-function writeTierCache(userId, tier, hasFounding) {
-  try { localStorage.setItem(TIER_CACHE_KEY, JSON.stringify({ userId, tier, hasFounding })); } catch { /* ignore */ }
+function writeTierCache(userId, tier, hasFounding, hasSelfReport) {
+  try { localStorage.setItem(TIER_CACHE_KEY, JSON.stringify({ userId, tier, hasFounding, hasSelfReport })); } catch { /* ignore */ }
 }
 
 // Session persistence (B-4) — birthData + the computed chart survive a refresh
@@ -113,7 +108,7 @@ export function ChartProvider({ children }) {
   // Boot from the per-user cache (last server-confirmed tier); the entitlement
   // fetch below refreshes it as soon as the session is known.
   const [tier, setTier] = useState(() => readTierCache(user?.id)?.tier || 'free');
-  const [hasSelfReport, setHasSelfReportState] = useState(readSelfReportOwned);
+  const [hasSelfReport, setHasSelfReportState] = useState(() => !!readTierCache(user?.id)?.hasSelfReport);
   const [hasFounding, setHasFoundingState] = useState(() => !!readTierCache(user?.id)?.hasFounding);
   // Compatibility result — set by the friend flow, read by CompatScreen.
   // Session-only (not persisted): a relationship reading is a transient
@@ -131,8 +126,8 @@ export function ChartProvider({ children }) {
     setHasSelfReportState(!!v);
   }, []);
   // Fetch the server entitlement (RLS: the user reads only their own row) and
-  // sync tier state + cache. Returns the fetched tier so callers can poll —
-  // the Stripe redirect can land a few seconds before the webhook write.
+  // sync state + cache. Returns the flags so callers can poll — the Stripe
+  // redirect can land a few seconds before the webhook write.
   const refreshEntitlements = useCallback(async () => {
     if (!supabase || !user) return null;
     const { data, error } = await supabase
@@ -143,9 +138,9 @@ export function ChartProvider({ children }) {
     if (error || !data) return null;
     setTier(data.tier);
     setHasFoundingState(!!data.has_founding);
-    if (data.has_self_report) setHasSelfReportState(true);
-    writeTierCache(user.id, data.tier, !!data.has_founding);
-    return data.tier;
+    setHasSelfReportState(!!data.has_self_report);
+    writeTierCache(user.id, data.tier, !!data.has_founding, !!data.has_self_report);
+    return { tier: data.tier, hasFounding: !!data.has_founding, hasSelfReport: !!data.has_self_report };
   }, [user]);
 
   // Entitlement follows the session: fetch on sign-in / account switch; a
@@ -159,11 +154,16 @@ export function ChartProvider({ children }) {
       if (!user) {
         setTier('free');
         setHasFoundingState(false);
+        setHasSelfReportState(false);
         try { localStorage.removeItem(TIER_CACHE_KEY); } catch { /* ignore */ }
         return;
       }
       const cached = readTierCache(user.id);
-      if (cached) { setTier(cached.tier); setHasFoundingState(!!cached.hasFounding); }
+      if (cached) {
+        setTier(cached.tier);
+        setHasFoundingState(!!cached.hasFounding);
+        setHasSelfReportState(!!cached.hasSelfReport);
+      }
       refreshEntitlements();
     })();
     return () => { active = false; };

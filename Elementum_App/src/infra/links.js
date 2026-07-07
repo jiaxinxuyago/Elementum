@@ -14,6 +14,10 @@ export const PAYMENT = {
   // Founding pass — one-time LIVE Stripe Payment Link. Grants lifetime Advisor
   // access. ($9 founding launch price — keep this and the Stripe price in sync.)
   foundingCheckout: 'https://buy.stripe.com/fZu3coeb9dQwgihctm7Re00',
+  // Self-Report — one-time LIVE Payment Link ($6.99). ⚠ The webhook routes
+  // products by amount (workers/stripe-webhook PRODUCTS) — price changes in
+  // Stripe must ship with a matching worker update.
+  selfReportCheckout: 'https://buy.stripe.com/3cIcMY4Az8wcc21gJC7Re03',
 };
 
 // Social profiles.

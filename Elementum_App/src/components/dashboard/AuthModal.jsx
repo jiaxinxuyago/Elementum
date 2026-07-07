@@ -21,13 +21,14 @@ const inputStyle = {
 // `purchase` — purchase-context variant: copy explains the account exists to own
 // the pass, and onSuccess(user) fires after auth (the caller continues to Stripe).
 // Google OAuth is a FULL-PAGE redirect (away to Google, back to the app), so a
-// purchase-context sign-in stores its intent first; on return, UpgradeModalHost
-// reads it and continues straight to Stripe (see PURCHASE_INTENT_KEY consumer).
+// purchase-context sign-in stores its `intent` first ('founding' | 'selfreport');
+// on return, that product's intent consumer continues straight to its Stripe
+// checkout (UpgradeModalHost handles 'founding'; SelfReportScreen 'selfreport').
 export const PURCHASE_INTENT_KEY = 'elementum_purchase_intent_v1';
 
 // `initialMode` — which face the sheet opens with: 'signup' (default; purchase +
 // profile flows) or 'signin' (the Welcome screen's returning-user entrance).
-export default function AuthModal({ open, onClose, onSuccess, purchase = false, initialMode = 'signup' }) {
+export default function AuthModal({ open, onClose, onSuccess, purchase = false, initialMode = 'signup', intent = 'founding' }) {
   const { signUp, signIn, signInWithGoogle } = useAuth();
   const [mode, setMode] = useState(initialMode); // 'signup' | 'signin'
   const [email, setEmail] = useState('');
@@ -117,7 +118,7 @@ export default function AuthModal({ open, onClose, onSuccess, purchase = false, 
             // Full-page redirect ahead — persist the purchase intent so the
             // return trip continues to checkout instead of stranding the buyer.
             try {
-              if (purchase) sessionStorage.setItem(PURCHASE_INTENT_KEY, 'founding');
+              if (purchase) sessionStorage.setItem(PURCHASE_INTENT_KEY, intent);
               else sessionStorage.removeItem(PURCHASE_INTENT_KEY);
             } catch { /* storage unavailable — sign-in still works */ }
             const { error } = (await signInWithGoogle()) || {};

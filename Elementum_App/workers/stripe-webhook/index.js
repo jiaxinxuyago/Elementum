@@ -41,8 +41,9 @@ async function verifyStripeSignature(rawBody, header, secret, toleranceSec = 300
   });
 }
 
-// Upsert the buyer's entitlement (on_conflict=user_id ⇒ idempotent).
-async function grantFounding(env, userId, customerId) {
+// Upsert entitlement fields (on_conflict=user_id ⇒ idempotent; merge-duplicates
+// updates ONLY the provided columns, so a Self-Report grant never touches tier).
+async function grantEntitlement(env, userId, fields) {
   const res = await fetch(`${env.SUPABASE_URL}/rest/v1/entitlements?on_conflict=user_id`, {
     method: 'POST',
     headers: {
@@ -53,15 +54,22 @@ async function grantFounding(env, userId, customerId) {
     },
     body: JSON.stringify([{
       user_id: userId,
-      tier: 'advisor',
-      has_founding: true,
-      stripe_customer_id: customerId || null,
+      ...fields,
       updated_at: new Date().toISOString(),
     }]),
   });
   if (!res.ok) throw new Error(`supabase upsert failed: ${res.status} ${await res.text()}`);
   return res.json();
 }
+
+// ── Product routing ──────────────────────────────────────────────────────────
+// Payment-Link webhook events carry no product identifier we can verify
+// without a Stripe API key, so products are routed by amount_total (cents).
+// ⚠ If a price changes in Stripe, change it here IN THE SAME DEPLOY.
+const PRODUCTS = {
+  900: { name: 'founding-pass', fields: { tier: 'advisor', has_founding: true } }, // $9.00
+  699: { name: 'self-report',   fields: { has_self_report: true } },               // $6.99
+};
 
 export default {
   async fetch(request, env) {
@@ -82,9 +90,17 @@ export default {
       const session = event.data?.object || {};
       const userId = session.client_reference_id;
       if (session.payment_status === 'paid' && userId) {
+        const product = PRODUCTS[session.amount_total];
+        if (!product) {
+          // Unknown amount — a price changed in Stripe without updating PRODUCTS,
+          // or an unexpected checkout. Log loudly for manual grant; ack so Stripe
+          // doesn't retry forever (the data is safe in the Stripe dashboard).
+          console.error(`UNKNOWN AMOUNT ${session.amount_total} user=${userId} session=${session.id} — grant manually + update PRODUCTS`);
+          return new Response('received (unknown product — logged)', { status: 200 });
+        }
         try {
-          await grantFounding(env, userId, session.customer);
-          console.log(`founding granted: user=${userId} session=${session.id}`);
+          await grantEntitlement(env, userId, { ...product.fields, stripe_customer_id: session.customer || null });
+          console.log(`${product.name} granted: user=${userId} session=${session.id}`);
         } catch (err) {
           // 500 → Stripe retries with backoff; nothing is lost.
           console.error(String(err));

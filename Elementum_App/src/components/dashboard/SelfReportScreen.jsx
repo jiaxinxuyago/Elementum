@@ -7,12 +7,14 @@
 // recalibrated." Persists in localStorage.
 // ===================================================================
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { useChart } from '../../store/chartContext.jsx';
-import { SELF_REPORT_PRICE } from '../../infra/index.js';
+import { useAuth } from '../../store/authContext.jsx';
+import { SELF_REPORT_PRICE, PAYMENT } from '../../infra/index.js';
 import { composeSelfReport } from '../../content/index.js';
 import { useUpgrade } from './UpgradeModal.jsx';
+import AuthModal, { PURCHASE_INTENT_KEY } from './AuthModal.jsx';
 import HorizonHeader from '../guidance/HorizonHeader.jsx';
 import {
   ink, inkSoft, inkLight, bronzeDark, gold, silk,
@@ -26,9 +28,36 @@ const DOMAINS = ['Career', 'Relationships', 'Wealth', 'Health', 'Purpose'];
 function read() { try { return JSON.parse(localStorage.getItem(KEY) || 'null'); } catch { return null; } }
 
 export default function SelfReportScreen({ onBack }) {
-  const { tier, hasSelfReport, purchaseSelfReport, chart } = useChart();
+  const { tier, hasSelfReport, chart } = useChart();
+  const { user } = useAuth();
   const { openUpgrade } = useUpgrade();
+  const [authOpen, setAuthOpen] = useState(false);
   const saved = read();
+
+  // Real purchase (DOC10 §4.2): account required so the payment carries the
+  // buyer's id — the webhook then writes has_self_report server-side.
+  const goToStripe = (u) => {
+    if (typeof window === 'undefined' || !PAYMENT.selfReportCheckout) return;
+    const url = new URL(PAYMENT.selfReportCheckout);
+    if (u?.id) url.searchParams.set('client_reference_id', u.id);
+    if (u?.email) url.searchParams.set('prefilled_email', u.email);
+    window.location.href = url.toString();
+  };
+  const buySelfReport = () => (user ? goToStripe(user) : setAuthOpen(true));
+
+  // Google OAuth return trip mid-purchase (intent stored by AuthModal): resume
+  // straight to checkout. Cleared BEFORE navigating so the post-payment
+  // ?selfreport=ok return can never bounce back to Stripe.
+  useEffect(() => {
+    if (!user || hasSelfReport || typeof window === 'undefined') return;
+    let intent = null;
+    try {
+      intent = sessionStorage.getItem(PURCHASE_INTENT_KEY);
+      if (intent === 'selfreport') sessionStorage.removeItem(PURCHASE_INTENT_KEY);
+    } catch { /* storage unavailable — nothing to resume */ }
+    if (intent === 'selfreport') goToStripe(user);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [user]);
   const [chapter, setChapter] = useState(saved?.chapter || null);
   const [domains, setDomains] = useState(saved?.domains || []);
   const [context, setContext] = useState(saved?.context || '');
@@ -62,7 +91,7 @@ export default function SelfReportScreen({ onBack }) {
       />
       <div style={{ height: 14 }} />
       {!hasSelfReport ? (
-        <PurchaseGate tier={tier} onBuy={purchaseSelfReport} onUpgrade={() => openUpgrade('Self-Report')} />
+        <PurchaseGate tier={tier} onBuy={buySelfReport} onUpgrade={() => openUpgrade('Self-Report')} />
       ) : view === 'report' && report ? (
         <ReportDoc report={report} onEdit={() => setView('form')} />
       ) : (
@@ -120,6 +149,15 @@ export default function SelfReportScreen({ onBack }) {
       }}>{savedAt ? 'Redraw my report' : 'Draw my report'}</button>
       </>
       )}
+
+      {/* Purchase-gated account sheet — buyer continues to Stripe on success. */}
+      <AuthModal
+        open={authOpen}
+        purchase
+        intent="selfreport"
+        onClose={() => setAuthOpen(false)}
+        onSuccess={(u) => goToStripe(u)}
+      />
     </main>
   );
 }

@@ -325,32 +325,36 @@ function readHash() {
   return FLOW.includes(h) ? h : 'welcome';
 }
 
-// Stripe's Payment Link success URL returns here as `<origin>/?founding=ok`.
-// The unlock itself is SERVER-TRUTH (DOC10 §4.2): the Stripe webhook writes the
-// entitlement to the buyer's account; this handler only plays the ceremony and
-// polls the entitlement until the webhook write lands (it can lag the redirect
-// by a few seconds). The old client-side grant is retired — the redirect no
-// longer grants anything, so faking the URL unlocks nothing.
-function FoundingRedirect() {
+// Stripe's Payment Link success URLs return here as `<origin>/?founding=ok`
+// or `<origin>/?selfreport=ok`. Unlocks are SERVER-TRUTH (DOC10 §4.2): the
+// Stripe webhook writes the entitlement to the buyer's account; this handler
+// only polls until the write lands (it can lag the redirect by a few seconds)
+// and then plays the product's arrival moment. Forged URLs unlock nothing.
+function PurchaseRedirect() {
   const { refreshEntitlements, hasFounding } = useChart();
   const { playCeremony } = useUpgrade();
   useEffect(() => {
     if (typeof window === 'undefined') return;
     const params = new URLSearchParams(window.location.search);
-    if (params.get('founding') !== 'ok') return;
-    // Strip the param so refresh/back can't replay the ceremony.
-    params.delete('founding');
+    const founding = params.get('founding') === 'ok';
+    const selfreport = params.get('selfreport') === 'ok';
+    if (!founding && !selfreport) return;
+    // Strip the params so refresh/back can't replay the arrival.
+    params.delete('founding'); params.delete('selfreport');
     const qs = params.toString();
     window.history.replaceState(null, '', window.location.pathname + (qs ? `?${qs}` : '') + window.location.hash);
-    if (hasFounding) return; // already a known founder — nothing to confirm
-    // Poll for the webhook write (~1.5s × 14 ≈ 21s window). The ceremony plays
+    if (founding && hasFounding) return; // already a known founder — nothing to confirm
+    // Poll for the webhook write (~1.5s × 14 ≈ 21s window). Arrival moments play
     // only once the SERVER confirms the entitlement — a forged URL shows nothing.
     let tries = 0;
     const timer = setInterval(async () => {
       tries += 1;
-      const tier = await refreshEntitlements();
-      if (tier === 'advisor') { clearInterval(timer); playCeremony(); }
-      else if (tries >= 14) clearInterval(timer);
+      const ent = await refreshEntitlements();
+      if (founding && ent?.tier === 'advisor') { clearInterval(timer); playCeremony(); }
+      else if (selfreport && ent?.hasSelfReport) {
+        clearInterval(timer);
+        window.location.hash = '#/app-selfreport'; // land in the new purchase
+      } else if (tries >= 14) clearInterval(timer);
     }, 1500);
     return () => clearInterval(timer);
     // Run once on mount.
@@ -688,7 +692,7 @@ export default function App() {
     <ChartProvider>
       <UpgradeModalProvider>
         {/* Stripe founding-pass success redirect → grant access + ceremony (once). */}
-        <FoundingRedirect />
+        <PurchaseRedirect />
         {/* Dev/test hooks (window.__seedData/__setTier/__buySelfReport/etc.) —
             gated to dev builds so they never ship as a console backdoor. */}
         {IS_DEV && <DevHelpers />}
