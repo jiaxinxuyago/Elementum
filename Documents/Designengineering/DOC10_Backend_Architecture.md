@@ -95,14 +95,15 @@ Each item lists: **what**, the **server piece**, the **client seam it replaces**
 
 ### §4.2b — Payment user journey (local) — TRACKED FIX (owner-reported 2026-07-07)
 
-**Problem:** both purchase CTAs (Founding, Self-Report) navigate the SAME tab/webview to Stripe (). Abandoning checkout then depends on browser chrome — and the installed PWA has none, so a buyer who quits mid-payment can be stranded on the Stripe page with no obvious way back to the app.
+**Problem:** both purchase CTAs (Founding, Self-Report) navigate the SAME tab/webview to Stripe (`window.location.href = <paymentLink>` in `UpgradeModal.goToStripe` + `SelfReportScreen.goToStripe`). Abandoning checkout then depends on browser chrome — and the installed PWA has none, so a buyer who quits mid-payment can be stranded on the Stripe page with no obvious way back to the app.
 
 **Fix design (v1):**
-1. Open checkout in a NEW context () — the app never navigates away; quitting = closing the checkout tab, the app is exactly where they left it.
+1. Open checkout in a NEW context (`window.open(url, '_blank', 'noopener')`) — the app never navigates away; quitting = closing the checkout tab, the app is exactly where they left it.
 2. Behind it, show a quiet waiting state on the paywall/gate ('Complete your purchase in the opened page — this unlocks automatically') with a manual 'I've paid → refresh' affordance.
 3. Sync on return: refresh entitlements on window focus/visibilitychange, so the PWA unlocks the moment the buyer switches back — independent of where the success redirect landed (the ?ok redirect then only matters for browser-tab flows, where it still works).
 
 **Trade-off accepted:** in the installed PWA the success redirect lands in the system browser (not the PWA); the focus-refresh makes the PWA unlock anyway. Status: NOT built — tracked.
+
 ### §4.2a — Wallets & native-app billing (Apple Pay / Google Pay / IAP) — **critical platform split**
 
 Apple Pay / Google Pay are **not a separate integration** — their availability depends entirely on *where* the purchase happens:
