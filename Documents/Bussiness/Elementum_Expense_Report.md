@@ -15,7 +15,7 @@
 | **Cloudflare Email Routing** | personal | — not set up | ⚪ $0 (free when enabled) | future `support@elementum.life` |
 | **Supabase** (`nbactbfxqslzehzbgetp`) | personal | Free tier | ⚪ $0 | accounts, entitlements, push subscriptions |
 | **Stripe** | company (Lantern Digital) | pay-per-transaction | ⚪ $0 fixed · **2.9% + 30¢ per sale** (variable) | both payment links |
-| **Google Cloud** (OAuth client) | personal | free (no billable APIs) | ⚪ $0 | Google sign-in |
+| **Google Cloud** (OAuth client) | personal | free (no billable APIs) | ⚪ **$0 — structurally**: OAuth/Identity is unmetered (no per-sign-in charge, no billing account on the project); geocoding deliberately uses free Open-Meteo, not Google Maps. Phase-B Google costs are non-GCP: Play Console **$25 one-time** · FCM push free | Google sign-in |
 | **Google Search Console** | personal | free | ⚪ $0 | domain verification (brand review) |
 | **GitHub** (`jiaxinxuyago/Elementum`) | personal | free | ⚪ $0 | repo |
 | **Anthropic API** (§4.3 consultant) | — not created | — | 🔵 **pending this decision** | the AI consultant |
