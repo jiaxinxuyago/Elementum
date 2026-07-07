@@ -292,6 +292,20 @@ export default function ProfileScreen() {
         </button>
       )}
 
+      {/* Legal footer */}
+      <div style={{
+        marginTop: 18, textAlign: 'center',
+        fontFamily: "'EB Garamond', Georgia, serif", fontSize: 11.5, color: inkLight,
+      }}>
+        <a href="/legal.html#terms" target="_blank" rel="noopener" style={{ color: 'inherit' }}>Terms</a>
+        <span style={{ margin: '0 6px' }}>·</span>
+        <a href="/legal.html#privacy" target="_blank" rel="noopener" style={{ color: 'inherit' }}>Privacy</a>
+        <span style={{ margin: '0 6px' }}>·</span>
+        <a href="/legal.html#refunds" target="_blank" rel="noopener" style={{ color: 'inherit' }}>Refunds</a>
+        <span style={{ margin: '0 6px' }}>·</span>
+        <a href="/legal.html#about" target="_blank" rel="noopener" style={{ color: 'inherit' }}>Contact</a>
+      </div>
+
       <AuthModal open={authOpen} onClose={() => setAuthOpen(false)} />
     </main>
   );

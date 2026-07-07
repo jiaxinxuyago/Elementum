@@ -225,6 +225,22 @@ export default function WelcomeScreen({ onContinue, onEnterApp }) {
             )}
           </button>
         </div>
+
+        {/* Legal footer — quiet, but present for reviewers + the curious */}
+        <div
+          style={{
+            marginTop: 14,
+            textAlign: 'center',
+            fontFamily: "'EB Garamond', serif",
+            fontSize: 11,
+            color: INK_SOFT,
+            opacity: 0.75,
+          }}
+        >
+          <a href="/legal.html#terms" target="_blank" rel="noopener" style={{ color: 'inherit', textDecoration: 'none' }}>Terms</a>
+          <span style={{ margin: '0 6px' }}>·</span>
+          <a href="/legal.html#privacy" target="_blank" rel="noopener" style={{ color: 'inherit', textDecoration: 'none' }}>Privacy</a>
+        </div>
       </div>
 
       {/* Returning-user sign-in sheet (opens in sign-in mode) */}
