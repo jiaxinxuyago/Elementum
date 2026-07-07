@@ -45,10 +45,28 @@
     <div class="wordmark">E L E M E N T U M</div>
     <div class="seal">✓</div>
     <h1>Payment received</h1>
-    <p>Your purchase is being attached to your account.<br />
-    Return to Elementum — it unlocks automatically.</p>
-    <a class="cta" href="/">Open Elementum →</a>
-    <p class="hint">Using the installed app? Just switch back to it —<br />you can close this page.</p>
+    <p>Your purchase is attached to your account.<br />
+    Return to the Elementum page you left open — it unlocks automatically.</p>
+    <!-- Primary action = CLOSE, not open: the buyer's app is already running in
+         the tab/app they started from (§4.2b new-tab checkout). An "open" CTA
+         here spawns a duplicate app instance at the Welcome screen. This tab
+         was script-opened by the app, so window.close() is permitted. -->
+    <button class="cta" id="closeBtn" type="button">Close this page</button>
+    <p class="hint" id="hint">…then switch back to Elementum.</p>
+    <p class="hint" style="margin-top:14px">
+      Lost the app page? <a href="/" style="color:var(--bronze)">Open Elementum here →</a>
+    </p>
   </div>
+  <script>
+    document.getElementById('closeBtn').addEventListener('click', function () {
+      window.close();
+      // If the browser refused (rare — e.g. user navigated here directly),
+      // tell them how to leave instead of a dead button.
+      setTimeout(function () {
+        document.getElementById('hint').textContent =
+          'This tab won’t close itself — close it manually, then switch back to Elementum.';
+      }, 400);
+    });
+  </script>
 </body>
 </html>
