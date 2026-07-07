@@ -4,5 +4,6 @@
   "supabaseUrl": "https://nbactbfxqslzehzbgetp.supabase.co",
   "supabaseAnonKey": "sb_publishable_fOeXMMKSVZXiV1fh4qBwfQ_yDvG9n9j",
   "pushWorkerUrl": "https://elementum-push.jiaxinxuyago.workers.dev",
+  "llmWorkerUrl": "https://elementum-llm.jiaxinxuyago.workers.dev",
   "vapidPublicKey": "BLuEarHJvtRInQUcLSWdzjK2PxXwKWxNBuNd7kBEwVju0Or-ORY80QpQ_KpQZiAraVG9wUua23BQG1uan67AJ9Y"
 }
