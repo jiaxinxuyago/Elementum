@@ -107,40 +107,76 @@ import { STEM_PINYIN as STEM_KEY } from '../../engine/index.js';
 
 export function UpgradeModalHost() {
   const {
-    feature, closeUpgrade, ceremony, endCeremony,
+    feature, openUpgrade, closeUpgrade, ceremony, playCeremony, endCeremony,
     welcomeBack, endWelcomeBack,
   } = useUpgrade();
-  const { tier, chart } = useChart();
+  const { tier, chart, refreshEntitlements } = useChart();
   const { user } = useAuth();
   const [authOpen, setAuthOpen] = useState(false);
+  // §4.2b purchase journey: 'idle' | 'resume' (back from Google, one tap to
+  // checkout) | 'waiting' (checkout open in another tab; unlock is automatic).
+  const [payState, setPayState] = useState('idle');
 
   // Purchase requires an account (DOC10 §4.2): the payment must carry the
   // buyer's user id (client_reference_id) so the Stripe webhook can write
   // their entitlement server-side — that's what makes the pass restorable.
+  // §4.2b: checkout opens in a NEW tab so the app never navigates away —
+  // quitting checkout = closing that tab, and this screen is still here.
+  // Popup-blocked (or window unavailable)? Fall back to same-tab navigation.
   const goToStripe = (u) => {
     if (typeof window === 'undefined' || !PAYMENT.foundingCheckout) return;
     const url = new URL(PAYMENT.foundingCheckout);
     if (u?.id) url.searchParams.set('client_reference_id', u.id);
     if (u?.email) url.searchParams.set('prefilled_email', u.email);
-    window.location.href = url.toString();
+    // NOTE: 'noopener' in the features string makes open() return null even on
+    // success — sever the opener manually so blocked-detection stays reliable.
+    const tab = window.open(url.toString(), '_blank');
+    if (tab) {
+      try { tab.opener = null; } catch { /* cross-origin — already severed */ }
+      setPayState('waiting');
+    } else {
+      window.location.href = url.toString(); // popup blocked — same-tab fallback
+    }
   };
   const buyFounding = () => (user ? goToStripe(user) : setAuthOpen(true));
 
   // Google OAuth return trip: the buyer chose "Continue with Google" mid-
-  // purchase, left for Google, and just landed back signed in. Resume the
-  // purchase — clear the intent FIRST so returning from Stripe (?founding=ok)
-  // can never bounce them back to checkout.
+  // purchase, left for Google, and just landed back signed in. A new tab
+  // can't open from an effect (popup blockers demand a user gesture), so we
+  // re-open the sheet in 'resume' state — one tap continues to checkout.
+  // Intent is cleared immediately so nothing ever auto-replays.
   useEffect(() => {
     if (!user || typeof window === 'undefined') return;
     let intent = null;
     try {
       intent = sessionStorage.getItem(PURCHASE_INTENT_KEY);
-      if (intent) sessionStorage.removeItem(PURCHASE_INTENT_KEY);
+      if (intent === 'founding') sessionStorage.removeItem(PURCHASE_INTENT_KEY);
     } catch { /* storage unavailable — nothing to resume */ }
-    if (intent === 'founding' && tier !== 'advisor') goToStripe(user);
-    // goToStripe is stable per render and navigation leaves the page — user is the trigger.
+    if (intent === 'founding' && tier !== 'advisor') {
+      // yield — no synchronous setState in the effect body
+      queueMicrotask(() => {
+        setPayState('resume');
+        openUpgrade('Founding Pass');
+      });
+    }
+    // openUpgrade is stable (useCallback); user is the trigger.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
+
+  // §4.2b unlock-in-place: the buyer pays in the checkout tab, switches back,
+  // the focus-refresh (chartContext) confirms the entitlement — and the
+  // ceremony plays right here where they're waiting.
+  useEffect(() => {
+    if (payState === 'waiting' && tier === 'advisor') {
+      // yield — no synchronous setState in the effect body
+      queueMicrotask(() => {
+        setPayState('idle');
+        closeUpgrade();
+        playCeremony();
+      });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [payState, tier]);
 
   const dmElement = chart?.dayMaster?.element || 'Metal';
   const dmPigKey = { Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water' }[dmElement] || 'metal';
@@ -253,10 +289,69 @@ export function UpgradeModalHost() {
           {feature}
         </h2>
 
-        {/* Founding pass — headline offer; shown only once the Stripe link is set.
-            Its CTA leaves for Stripe Checkout (same tab), whose success URL
-            returns to <origin>/?founding=ok → App FoundingRedirect grants access. */}
-        {PAYMENT.foundingCheckout && (
+        {/* Founding pass — headline offer; shown only once the Stripe link is
+            set. §4.2b: the CTA opens Stripe Checkout in a NEW tab; while it's
+            open we show the waiting card (unlock lands via focus-refresh + the
+            in-place ceremony). 'resume' = back from Google OAuth, one tap left. */}
+        {PAYMENT.foundingCheckout && payState === 'waiting' ? (
+          <div style={{
+            background: 'linear-gradient(135deg, #FBF3E4, #F3E4C8)',
+            border: `1.5px solid ${gold}`, borderRadius: 16, padding: 20, marginBottom: 12,
+            textAlign: 'center',
+          }}>
+            <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12, letterSpacing: 2.5, textTransform: 'uppercase', color: bronzeDark, fontWeight: 500, marginBottom: 10 }}>
+              ⟡ Founding Pass
+            </div>
+            <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14.5, lineHeight: 1.6, color: inkSoft, margin: '0 0 14px' }}>
+              Complete your purchase in the page that just opened —<br />this screen unlocks automatically.
+            </p>
+            <button
+              type="button"
+              onClick={() => refreshEntitlements()}
+              style={{
+                width: '100%', padding: '13px 0', borderRadius: 999, border: 'none',
+                background: bronzeDark, color: '#F8F6F0', fontFamily: 'Cinzel, serif',
+                fontSize: 11, letterSpacing: 2, textTransform: 'uppercase', cursor: 'pointer',
+              }}
+            >
+              I've paid — check now
+            </button>
+            <button
+              type="button"
+              onClick={() => goToStripe(user)}
+              style={{
+                display: 'block', margin: '12px auto 0', background: 'transparent', border: 'none',
+                color: inkLight, fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13, cursor: 'pointer',
+              }}
+            >
+              Checkout didn't open? Reopen it →
+            </button>
+          </div>
+        ) : PAYMENT.foundingCheckout && payState === 'resume' && user && tier !== 'advisor' ? (
+          <div style={{
+            background: 'linear-gradient(135deg, #FBF3E4, #F3E4C8)',
+            border: `1.5px solid ${gold}`, borderRadius: 16, padding: 20, marginBottom: 12,
+            textAlign: 'center',
+          }}>
+            <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12, letterSpacing: 2.5, textTransform: 'uppercase', color: bronzeDark, fontWeight: 500, marginBottom: 10 }}>
+              ⟡ Founding Pass
+            </div>
+            <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14.5, lineHeight: 1.6, color: inkSoft, margin: '0 0 14px' }}>
+              Signed in as {user.email} ✓
+            </p>
+            <button
+              type="button"
+              onClick={() => goToStripe(user)}
+              style={{
+                width: '100%', padding: '13px 0', borderRadius: 999, border: 'none',
+                background: bronzeDark, color: '#F8F6F0', fontFamily: 'Cinzel, serif',
+                fontSize: 11, letterSpacing: 2, textTransform: 'uppercase', cursor: 'pointer',
+              }}
+            >
+              Continue to checkout — {FOUNDING_PRICE}
+            </button>
+          </div>
+        ) : PAYMENT.foundingCheckout && (
           <TierCard
             name="Founding Pass"
             badge="⟡"
