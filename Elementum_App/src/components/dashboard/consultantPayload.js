@@ -12,8 +12,8 @@
 // honor the "persona vocabulary, never raw jargon" rule.
 // ===================================================================
 
-import { resolveElementFaces } from '../../engine/index.js';
-import { STEM_CARD_DATA, TG_PERSONA } from '../../content/index.js';
+import { resolveElementFaces, yearEnergy } from '../../engine/index.js';
+import { STEM_CARD_DATA, TG_PERSONA, getDailyGuidance } from '../../content/index.js';
 
 const ELEMENTS = ['Wood', 'Fire', 'Earth', 'Metal', 'Water'];
 
@@ -62,11 +62,46 @@ export function buildConsultantPayload(chart, selfReport) {
     positionalTenGods: positional,          // the 宫位 axis (v2.1 requirement)
     elementFaces: faces,                     // per-element polarity resolution (v2.1 requirement)
     composition: chart.elements || null,
+
+    // ── The temporal layer (owner-reported gap 2026-07: the consultant must
+    // see the same year/day readings the Today tab composes) ────────────────
+    today: (() => {
+      const d = new Date();
+      return { date: d.toISOString().slice(0, 10), weekday: d.toLocaleDateString('en-US', { weekday: 'long' }) };
+    })(),
+    // Today's composed guidance — the same narrative/do/avoid the app shows.
+    dailyGuidance: (() => {
+      try {
+        const g = getDailyGuidance(chart);
+        return g ? {
+          todayStem: g.todayStem, todayElement: g.todayElement,
+          relationToThem: g.label, tone: g.tone, narrative: g.narrative,
+          doThis: g.doThis, avoid: g.avoid, bestHours: g.bestHours,
+        } : null;
+      } catch { return null; }
+    })(),
     currents: {
-      day: chart.currentFlowDay ? { stem: chart.currentFlowDay.stem, element: chart.currentFlowDay.stemElement, tenGod: chart.currentFlowDay.stemTenGod?.en || null } : null,
-      month: chart.currentFlowMonth ? { stem: chart.currentFlowMonth.stem, element: chart.currentFlowMonth.stemElement } : null,
-      year: chart.currentFlowYear ? { stem: chart.currentFlowYear.stem, element: chart.currentFlowYear.stemElement } : null,
+      day: chart.currentFlowDay ? { stem: chart.currentFlowDay.stem, branch: chart.currentFlowDay.branch, element: chart.currentFlowDay.stemElement, tenGod: chart.currentFlowDay.stemTenGod?.en || null } : null,
+      month: chart.currentFlowMonth ? { stem: chart.currentFlowMonth.stem, branch: chart.currentFlowMonth.branch, element: chart.currentFlowMonth.stemElement, tenGod: chart.currentFlowMonth.stemTenGod?.en || null } : null,
+      year: chart.currentFlowYear ? { year: chart.currentFlowYear.year, stem: chart.currentFlowYear.stem, branch: chart.currentFlowYear.branch, element: chart.currentFlowYear.stemElement, tenGod: chart.currentFlowYear.stemTenGod?.en || null } : null,
     },
+    // This year's month-by-month flow (the Year page's map), compact.
+    yearFlow: (() => {
+      try { return yearEnergy(chart).map((m) => ({ m: m.label, el: m.element, level: m.level })); }
+      catch { return null; }
+    })(),
+    // Decade chapters (luck pillars): where they ARE, plus the one behind and ahead.
+    decade: (() => {
+      const lps = chart.luckPillars || [];
+      const i = lps.findIndex((p) => p.isCurrent);
+      if (i < 0) return null;
+      const slim = (p) => p && {
+        ages: `${p.startAge}–${p.endAge}`, years: `${p.startYear}–${p.endYear}`,
+        stem: p.stem, branch: p.branch, element: p.element,
+        tenGod: p.stemTenGod?.en || null, current: !!p.isCurrent,
+      };
+      return { previous: slim(lps[i - 1]), current: slim(lps[i]), next: slim(lps[i + 1]) };
+    })(),
     selfReport: selfReport ? {
       lifeChapter: selfReport.chapter || null,
       liveDomains: selfReport.domains || [],
