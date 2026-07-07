@@ -55,6 +55,9 @@ function pruneDevAssets() {
 export default defineConfig({
   // Override for subpath hosting (e.g. GitHub Pages): ELEMENTUM_BASE=/Elementum/
   base: process.env.ELEMENTUM_BASE || '/',
+  // Honor a harness-assigned dev port (launch.json autoPort sets PORT); Vite
+  // ignores the PORT env var by default. No PORT → Vite's usual 5173+.
+  server: { port: Number(process.env.PORT) || undefined },
   plugins: [
     react(),
     pruneDevAssets(),
