@@ -189,6 +189,29 @@ export default {
       return json({ pushServiceStatus: status }, 200, cors);
     }
 
+    // QA report → email. Called by tools/daily-qa-routine.ps1 and the daily
+    // triage agent; guarded by the REPORT_KEY secret and only ever sends to
+    // the fixed owner address (REPORT_TO var) — not an open relay.
+    if (request.method === 'POST' && pathname === '/report') {
+      if (!env.REPORT_KEY || request.headers.get('x-report-key') !== env.REPORT_KEY) {
+        return json({ error: 'unauthorized' }, 401, cors);
+      }
+      let body;
+      try { body = await request.json(); } catch { return json({ error: 'bad json' }, 400, cors); }
+      if (!body?.subject || !body?.text) return json({ error: 'subject and text required' }, 400, cors);
+      try {
+        await env.EMAIL.send({
+          to: env.REPORT_TO,
+          from: { email: 'qa@elementum.life', name: 'Elementum QA' },
+          subject: String(body.subject).slice(0, 200),
+          text: String(body.text).slice(0, 100000),
+        });
+        return json({ ok: true }, 200, cors);
+      } catch (err) {
+        return json({ ok: false, error: String(err).slice(0, 300) }, 502, cors);
+      }
+    }
+
     if (request.method === 'POST' && pathname === '/unsubscribe') {
       let body;
       try { body = await request.json(); } catch { return json({ error: 'bad json' }, 400, cors); }

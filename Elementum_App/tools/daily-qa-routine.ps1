@@ -120,7 +120,20 @@ if ($findings) { $md += ($findings | ForEach-Object { "- **$_**" }); $md += '' }
 $md += $sections
 $md -join "`n" | Out-File $reportPath -Encoding utf8
 
+# Email the report on findings (immediate technical alert; the 2:32 PM triage
+# agent emails the plain-English digest on every run). Needs the shared key in
+# the ELEMENTUM_REPORT_KEY user env var; skips gracefully without it.
+function Send-QaEmail($subject, $bodyText) {
+    if (-not $env:ELEMENTUM_REPORT_KEY) { return }
+    try {
+        Invoke-WebRequest -Uri 'https://elementum-push.jiaxinxuyago.workers.dev/report' -Method Post -UseBasicParsing -TimeoutSec 30 `
+            -Headers @{ 'x-report-key' = $env:ELEMENTUM_REPORT_KEY } -ContentType 'application/json' `
+            -Body (@{ subject = $subject; text = $bodyText } | ConvertTo-Json) | Out-Null
+    } catch {}
+}
+
 if ($findings) {
+    Send-QaEmail "Elementum daily QA — $verdict" (Get-Content $reportPath -Raw)
     @"
 # DAILY QA ROUTINE FOUND PROBLEMS
 
