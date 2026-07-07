@@ -237,9 +237,9 @@ export default function WelcomeScreen({ onContinue, onEnterApp }) {
             opacity: 0.75,
           }}
         >
-          <a href="/legal.html#terms" target="_blank" rel="noopener" style={{ color: 'inherit', textDecoration: 'none' }}>Terms</a>
+          <a href="/legal#terms" target="_blank" rel="noopener" style={{ color: 'inherit', textDecoration: 'none' }}>Terms</a>
           <span style={{ margin: '0 6px' }}>·</span>
-          <a href="/legal.html#privacy" target="_blank" rel="noopener" style={{ color: 'inherit', textDecoration: 'none' }}>Privacy</a>
+          <a href="/legal#privacy" target="_blank" rel="noopener" style={{ color: 'inherit', textDecoration: 'none' }}>Privacy</a>
         </div>
       </div>
 
