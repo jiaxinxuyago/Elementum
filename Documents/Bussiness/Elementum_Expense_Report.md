@@ -19,7 +19,7 @@
 | **Google Search Console** | personal | free | ⚪ $0 | domain verification (brand review) |
 | **GitHub** (`jiaxinxuyago/Elementum`) | personal | free | ⚪ $0 | repo |
 | **Anthropic API** (§4.3 consultant) | — not created | — | 🔵 **pending this decision** | the AI consultant |
-| **AI dev tooling** (Claude subscription used to build all of this) | personal | — | 🟢 *(owner: add your actual plan cost — it is a real development cost of the business)* | development |
+| **Anthropic Claude Max** (AI dev tooling — built this entire product) | personal | Max 20× | 🟢 **$200/mo — the №1 cost, larger than all other lines combined** | development velocity |
 
 **Everything else in the stack is $0 by architecture:** raw Web Push (no OneSignal), on-device chart engine (no compute backend), composed reports (no generation API), static legal/paid pages.
 
@@ -29,11 +29,12 @@
 
 | Bucket | Amount |
 |---|---|
-| **Fixed monthly** | **≈ $2.50/mo** (domain amortized — literally the only fixed cost) |
+| **Fixed monthly — all-in** | **≈ $202.50/mo** = Claude Max $200 (development) + domain $2.50 |
+| **Fixed monthly — product runtime only** | **≈ $2.50/mo** (what the shipped product costs to keep running) |
 | Variable per sale | 2.9% + $0.30 → $0.56 per $9 Founding · $0.50 per $6.99 Self-Report |
 | One-time spent to date | domain registration (~$25–30) · $9 self-test purchase (recoverable: refund ≈ $8.44, or keep as Founding #1) |
 
-> The infra run (domain → payments → accounts → push → legal → payment-journey) added **zero recurring cost**. The entire commercial backbone currently runs on free tiers + one domain.
+> **The two-bucket view matters:** Claude Max is a *development* cost — it buys build velocity and exists whether or not users show up; it could be scaled down in a maintenance phase. The *runtime* cost of the shipped product is ~$2.50/mo — the infra run (domain → payments → accounts → push → legal → payment-journey) added **zero recurring runtime cost**; everything runs on free tiers + one domain. Business break-even must clear the all-in number; product-viability math uses the runtime number.
 
 ---
 
@@ -41,12 +42,16 @@
 
 | Cost line | **Today** | **Phase 1** — Founding rollout (~50 users) | **Phase 2** — public beta (~500) | **Phase 3** — growth (~5k) |
 |---|---|---|---|---|
+| **Claude Max (development)** | **200** | **200** | **200** | **200** *(revisit: maintenance phase could downshift the plan)* |
 | Domain | 2.50 | 2.50 | 2.50 | 2.50 |
 | Supabase | 0 | 0 → **25** 🟡 *(Pro required when beta marketing starts — uptime/capacity)* | **25** | **25** |
 | Cloudflare Workers | 0 | 0 | 0 → **5** 🟡 *(Paid plan only if request volume demands)* | **5** |
 | LLM — consultant 🔵 | 0 | **5–15** (Sonnet, cached) | **20–40** (Sonnet, cached) | **25–50** *(open-model default per the SWITCH TRIGGER)* |
 | Email routing / misc | 0 | 0 | 0 | 0–5 |
-| **TOTAL fixed / mo** | **≈ $2.50** | **≈ $8–43** | **≈ $53–73** | **≈ $58–88** |
+| **Runtime subtotal / mo** | ≈ 2.50 | ≈ 8–43 | ≈ 53–73 | ≈ 58–88 |
+| **TOTAL all-in / mo** | **≈ $202.50** | **≈ $208–243** | **≈ $253–273** | **≈ $258–288** |
+
+> Perspective: the entire §4.3 LLM debate (Sonnet vs open, ~$25–200/mo at scale) plays out INSIDE the shadow of the Claude Max line. Development tooling — not runtime infrastructure — is where this business spends money today.
 
 **Phase B (native app, whenever):** + Apple Developer **$99/yr** (~$8/mo) + Apple/Google take **15–30% of in-app revenue** (vs Stripe's ~3%) — the single biggest cost event on the roadmap; tracked in DOC10 §4.2a.
 
@@ -68,12 +73,14 @@
 
 Net revenue per sale after Stripe: **Founding $8.44** · **Self-Report $6.49**.
 
-| Phase | Fixed cost/mo | Founding passes to break even |
+| Phase | Runtime only → passes/mo | **All-in (incl. Claude Max) → passes/mo** |
 |---|---|---|
-| Today | ~$2.50 | **1 sale every 3 months** |
-| Phase 1 | ~$43 worst case | **~5/mo** |
-| Phase 2 | ~$73 worst case | **~9/mo** |
-| Phase 3 | ~$88 worst case | **~11/mo** — but see the structural note ↓ |
+| Today | ~$2.50 → 1 per quarter | **~$202.50 → ~24/mo** |
+| Phase 1 | ~$43 → ~5/mo | **~$243 → ~29/mo** |
+| Phase 2 | ~$73 → ~9/mo | **~$273 → ~33/mo** |
+| Phase 3 | ~$88 → ~11/mo | **~$288 → ~35/mo** — see the structural note ↓ |
+
+> **The honest read:** covering the all-in number with one-time $9 passes means ~25–35 *new* buyers every month indefinitely — not a plan. The realistic paths to all-in break-even are (a) post-beta **subscriptions** ($9.99/$19.99 recurring: ~20–25 Seeker subs covers everything), and/or (b) treating Claude Max as a bounded **investment phase** that downshifts once the build stabilizes. Runtime-only break-even, by contrast, is nearly free — the product itself is cheap to keep alive.
 
 > **Structural note (from DOC10 §4.3):** the Founding Pass is one-time revenue against forever inference cost — a typical consultant user consumes their $9 in ~a year, a heavy user in ~3 months. At Phase-3 scale the LLM must be funded by **recurring** revenue: that is the standing business case for launching the Seeker/Advisor subscriptions post-beta, and the reason the open-model switch trigger exists.
 
@@ -82,8 +89,9 @@ Net revenue per sale after Stripe: **Founding $8.44** · **Self-Report $6.49**.
 ## 6 · Owner to-dos on this report
 
 - [ ] Confirm actual elementum.life registration price (Cloudflare dashboard → Billing) and correct §1/§2
-- [ ] Add your AI dev-tooling subscription cost to §1 if you want all-in business cost
-- [ ] Decide the 🔵 LLM line (this unblocks §4.3 Phase 0) — projected impact at decision time: **+$5–15/mo**
+- [x] ~~Add AI dev-tooling cost~~ — **Claude Max $200/mo added (the №1 line)**
+- [ ] Decide the 🔵 LLM line (this unblocks §4.3 Phase 0) — projected impact: **+$5–15/mo, i.e. +2.5–7% on the all-in total**
+- [ ] Periodically revisit whether the Max plan tier still matches the build phase (heavy build vs maintenance)
 - [ ] Revisit this report at each phase gate (it is referenced from DOC10)
 
 *Maintained by hand — update alongside DOC10 when a cost trigger fires.*
