@@ -28,26 +28,40 @@ const DOMAINS = ['Career', 'Relationships', 'Wealth', 'Health', 'Purpose'];
 function read() { try { return JSON.parse(localStorage.getItem(KEY) || 'null'); } catch { return null; } }
 
 export default function SelfReportScreen({ onBack }) {
-  const { tier, hasSelfReport, chart } = useChart();
+  const { tier, hasSelfReport, chart, refreshEntitlements } = useChart();
   const { user } = useAuth();
   const { openUpgrade } = useUpgrade();
   const [authOpen, setAuthOpen] = useState(false);
+  // §4.2b purchase journey: 'idle' | 'resume' (back from Google, one tap to
+  // checkout) | 'waiting' (checkout open in another tab; the gate unlocks
+  // automatically when the focus-refresh confirms has_self_report).
+  const [payState, setPayState] = useState('idle');
   const saved = read();
 
   // Real purchase (DOC10 §4.2): account required so the payment carries the
   // buyer's id — the webhook then writes has_self_report server-side.
+  // §4.2b: checkout opens in a NEW tab (the app never navigates away);
+  // popup-blocked → same-tab fallback.
   const goToStripe = (u) => {
     if (typeof window === 'undefined' || !PAYMENT.selfReportCheckout) return;
     const url = new URL(PAYMENT.selfReportCheckout);
     if (u?.id) url.searchParams.set('client_reference_id', u.id);
     if (u?.email) url.searchParams.set('prefilled_email', u.email);
-    window.location.href = url.toString();
+    // NOTE: 'noopener' in the features string makes open() return null even on
+    // success — sever the opener manually so blocked-detection stays reliable.
+    const tab = window.open(url.toString(), '_blank');
+    if (tab) {
+      try { tab.opener = null; } catch { /* cross-origin — already severed */ }
+      setPayState('waiting');
+    } else {
+      window.location.href = url.toString(); // popup blocked — same-tab fallback
+    }
   };
   const buySelfReport = () => (user ? goToStripe(user) : setAuthOpen(true));
 
-  // Google OAuth return trip mid-purchase (intent stored by AuthModal): resume
-  // straight to checkout. Cleared BEFORE navigating so the post-payment
-  // ?selfreport=ok return can never bounce back to Stripe.
+  // Google OAuth return trip mid-purchase (intent stored by AuthModal): a new
+  // tab can't open from an effect (popup blockers demand a gesture), so show
+  // the one-tap 'resume' card instead. Intent cleared so nothing auto-replays.
   useEffect(() => {
     if (!user || hasSelfReport || typeof window === 'undefined') return;
     let intent = null;
@@ -55,7 +69,8 @@ export default function SelfReportScreen({ onBack }) {
       intent = sessionStorage.getItem(PURCHASE_INTENT_KEY);
       if (intent === 'selfreport') sessionStorage.removeItem(PURCHASE_INTENT_KEY);
     } catch { /* storage unavailable — nothing to resume */ }
-    if (intent === 'selfreport') goToStripe(user);
+    // yield — no synchronous setState in the effect body
+    if (intent === 'selfreport') queueMicrotask(() => setPayState('resume'));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
   const [chapter, setChapter] = useState(saved?.chapter || null);
@@ -90,7 +105,21 @@ export default function SelfReportScreen({ onBack }) {
         onBack={onBack}
       />
       <div style={{ height: 14 }} />
-      {!hasSelfReport ? (
+      {!hasSelfReport && payState === 'waiting' ? (
+        <PayJourneyCard
+          headline="Complete your purchase in the page that just opened — this screen unlocks automatically."
+          ctaLabel="I've paid — check now"
+          onCta={() => refreshEntitlements()}
+          footLabel="Checkout didn't open? Reopen it →"
+          onFoot={() => goToStripe(user)}
+        />
+      ) : !hasSelfReport && payState === 'resume' && user ? (
+        <PayJourneyCard
+          headline={`Signed in as ${user.email} ✓`}
+          ctaLabel={`Continue to checkout — ${SELF_REPORT_PRICE}`}
+          onCta={() => goToStripe(user)}
+        />
+      ) : !hasSelfReport ? (
         <PurchaseGate tier={tier} onBuy={buySelfReport} onUpgrade={() => openUpgrade('Self-Report')} />
       ) : view === 'report' && report ? (
         <ReportDoc report={report} onEdit={() => setView('form')} />
@@ -311,6 +340,37 @@ function PurchaseGate({ tier, onBuy, onUpgrade }) {
             fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14, fontWeight: 500, letterSpacing: 0.4,
           }}>Become a Seeker to unlock</button>
         </div>
+      )}
+    </div>
+  );
+}
+
+// §4.2b waiting / resume card — shown in place of the purchase gate while a
+// checkout tab is open (or after the Google-OAuth return, one tap remaining).
+function PayJourneyCard({ headline, ctaLabel, onCta, footLabel, onFoot }) {
+  return (
+    <div style={{
+      background: withAlpha(pigments.water.base, '10'),
+      border: `1px solid ${withAlpha(pigments.water.base, '40')}`,
+      borderRadius: 14, padding: '18px 18px 16px', textAlign: 'center',
+    }}>
+      <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12, letterSpacing: 2, textTransform: 'uppercase', color: bronzeDark, fontWeight: 500, marginBottom: 10 }}>
+        Self-Report · {SELF_REPORT_PRICE}
+      </div>
+      <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14.5, lineHeight: 1.6, color: inkSoft, margin: '0 0 14px' }}>
+        {headline}
+      </p>
+      <button type="button" onClick={onCta} style={{
+        appearance: 'none', width: '100%', padding: '13px', borderRadius: 12, border: 'none',
+        background: bronzeDark, color: silk, cursor: 'pointer',
+        fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14.5, fontWeight: 500, letterSpacing: 0.4,
+      }}>{ctaLabel}</button>
+      {footLabel && (
+        <button type="button" onClick={onFoot} style={{
+          appearance: 'none', display: 'block', margin: '12px auto 0', background: 'transparent',
+          border: 'none', color: inkLight, cursor: 'pointer',
+          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12.5,
+        }}>{footLabel}</button>
       )}
     </div>
   );

@@ -169,6 +169,28 @@ export function ChartProvider({ children }) {
     return () => { active = false; };
   }, [user, refreshEntitlements]);
 
+  // Entitlements re-sync whenever the app regains focus (DOC10 §4.2b):
+  // the buyer pays in a separate checkout tab, switches back, and the app
+  // unlocks without any redirect — also keeps a second device fresh after a
+  // purchase elsewhere. Throttled: at most one row-read per 10s of refocus.
+  useEffect(() => {
+    if (!user || typeof window === 'undefined') return;
+    let last = 0;
+    const onWake = () => {
+      if (typeof document !== 'undefined' && document.visibilityState !== 'visible') return;
+      const now = Date.now();
+      if (now - last < 10_000) return;
+      last = now;
+      refreshEntitlements();
+    };
+    window.addEventListener('focus', onWake);
+    document.addEventListener('visibilitychange', onWake);
+    return () => {
+      window.removeEventListener('focus', onWake);
+      document.removeEventListener('visibilitychange', onWake);
+    };
+  }, [user, refreshEntitlements]);
+
   // Merge partial updates, e.g. updateBirthData({ year: 1991 })
   const updateBirthData = useCallback((patch) => {
     setBirthData((prev) => ({ ...prev, ...patch }));

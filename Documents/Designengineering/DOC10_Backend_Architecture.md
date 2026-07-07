@@ -102,7 +102,7 @@ Each item lists: **what**, the **server piece**, the **client seam it replaces**
 2. Behind it, show a quiet waiting state on the paywall/gate ('Complete your purchase in the opened page — this unlocks automatically') with a manual 'I've paid → refresh' affordance.
 3. Sync on return: refresh entitlements on window focus/visibilitychange, so the PWA unlocks the moment the buyer switches back — independent of where the success redirect landed (the ?ok redirect then only matters for browser-tab flows, where it still works).
 
-**Trade-off accepted:** in the installed PWA the success redirect lands in the system browser (not the PWA); the focus-refresh makes the PWA unlock anyway. Status: NOT built — tracked.
+**Trade-off accepted:** in the installed PWA the success redirect lands in the system browser (not the PWA); the focus-refresh makes the PWA unlock anyway. **Status: SHIPPED 2026-07-07** — new-tab checkout w/ same-tab fallback (note: opener severed manually, NOT via the noopener feature string, which makes open() return null even on success and broke blocked-detection); waiting cards + in-place ceremony (UpgradeModal payState) / gate-to-form unlock (SelfReportScreen); one-tap resume after Google OAuth (entitled owners suppressed at render); always-on 10s-throttled focus-refresh in chartContext; static /paid return page (owner re-pointed both Stripe after-payment URLs to https://elementum.life/paid). The ?ok redirect paths remain as legacy fallback.
 
 ### §4.2a — Wallets & native-app billing (Apple Pay / Google Pay / IAP) — **critical platform split**
 

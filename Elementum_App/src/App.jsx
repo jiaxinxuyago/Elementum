@@ -7,7 +7,7 @@ import {
   resolveLongitudeForCalc,
   resolveLocationName,
 } from './store/chartContext.jsx';
-import { AuthProvider } from './store/authContext.jsx';
+import { AuthProvider, useAuth } from './store/authContext.jsx';
 import { calculateBaziChart } from './engine/index.js';
 import WelcomeScreen from './components/onboarding/WelcomeScreen.jsx';
 import {
@@ -26,6 +26,7 @@ import LoadingScreen from './components/LoadingScreen.jsx';
 // Eager — cross-cutting providers + the dashboard shell (layout/nav wrapper).
 import DashboardShell from './components/dashboard/DashboardShell.jsx';
 import { UpgradeModalProvider, UpgradeModalHost, useUpgrade } from './components/dashboard/UpgradeModal.jsx';
+import { PURCHASE_INTENT_KEY } from './components/dashboard/AuthModal.jsx';
 // Eager — the persistent dashboard chrome: the static D13 tab bar + the
 // shared SVG sprite that supplies every D13 glyph (tabs, element marks, …).
 import ReadingTabBar from './components/reading/ReadingTabBar.jsx';
@@ -330,9 +331,27 @@ function readHash() {
 // Stripe webhook writes the entitlement to the buyer's account; this handler
 // only polls until the write lands (it can lag the redirect by a few seconds)
 // and then plays the product's arrival moment. Forged URLs unlock nothing.
+// (§4.2b note: the primary journey is now new-tab checkout + focus-refresh —
+// these ?ok paths remain as the fallback for same-tab/legacy flows.)
 function PurchaseRedirect() {
   const { refreshEntitlements, hasFounding } = useChart();
   const { playCeremony } = useUpgrade();
+
+  // §4.2b: a Self-Report buyer returning from Google OAuth lands on Welcome,
+  // but their one-tap resume card lives on the Self-Report screen — route them
+  // there. Intent is NOT cleared here; the screen's consumer clears it and
+  // shows the resume card. (The founding intent needs no routing —
+  // UpgradeModalHost is globally mounted and re-opens the paywall itself.)
+  const { user } = useAuth();
+  useEffect(() => {
+    if (!user || typeof window === 'undefined') return;
+    try {
+      if (sessionStorage.getItem(PURCHASE_INTENT_KEY) === 'selfreport') {
+        window.location.hash = '#/app-selfreport';
+      }
+    } catch { /* storage unavailable — user can navigate manually */ }
+  }, [user]);
+
   useEffect(() => {
     if (typeof window === 'undefined') return;
     const params = new URLSearchParams(window.location.search);
