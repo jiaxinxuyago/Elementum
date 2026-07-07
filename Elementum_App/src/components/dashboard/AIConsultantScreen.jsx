@@ -1,19 +1,30 @@
 // ===================================================================
 // ELEMENTUM · AIConsultantScreen  (DOC5 §12 Card 4 — AI Consultant)
 // ===================================================================
-// Advisor chat. There is no LLM backend in this build, so replies are
-// chart-aware scripted reflections, rendered with SIMULATED token-by-
-// token streaming + a blinking cursor (per DOC5's streaming spec). A
-// collapsed context bar shows the "loaded" documents. Opening message
-// is preloaded.
+// Advisor chat, REAL LLM (DOC10 §4.3): messages stream from the
+// elementum-llm Worker (Sonnet behind a model switch), which verifies
+// the session + Advisor entitlement and enforces caps server-side.
+// The chart context payload (v2.1 spec) is composed on-device and sent
+// per-request; conversations live ONLY in this component's state.
+// First use requires the privacy consent (chart+context leave the
+// device for the AI provider — /legal §privacy). The old scripted
+// buildReplies remains below solely as few-shot source material.
 // ===================================================================
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
+import { useAuth } from '../../store/authContext.jsx';
 import { STEM_CARD_DATA } from '../../content/index.js';
+import { supabase } from '../../infra/index.js';
+import { buildConsultantPayload } from './consultantPayload.js';
+import siteConfig from '../../../site.config.json';
 import { Icon } from '../shared/icons';
 import HorizonHeader from '../guidance/HorizonHeader.jsx';
 import { ink, inkSoft, inkLight, bronzeDark, silk, cream, paperHair, quietBg } from '../../styles/tokens';
+
+const LLM_URL = siteConfig.llmWorkerUrl;
+const CONSENT_KEY = 'elementum_consultant_consent_v1';
+const readConsent = () => { try { return localStorage.getItem(CONSENT_KEY) === '1'; } catch { return false; } };
 
 const SELF_REPORT_KEY = 'elementum_selfreport_v1';
 function readSelfReport() { try { return JSON.parse(localStorage.getItem(SELF_REPORT_KEY) || 'null'); } catch { return null; } }
@@ -22,7 +33,9 @@ function readSelfReport() { try { return JSON.parse(localStorage.getItem(SELF_RE
 // of the chart so it always sounds like it has read the chart. When a
 // Self-Report (`sr`) is present, its life context is woven into the rotation so
 // the consultant genuinely uses it — not just claims to in the context bar.
-function buildReplies(chart, sr) {
+// Retained (exported) as few-shot source material for the §4.3 voice charter —
+// no longer called at runtime; the worker's real model replaced it.
+export function buildReplies(chart, sr) {
   const stem = chart?.dayMaster?.stem || '庚';
   const el = chart?.dayMaster?.element || 'Metal';
   const arch = STEM_CARD_DATA[stem]?.identity?.archetypeName || `${el} Day Master`;
@@ -55,12 +68,15 @@ function buildReplies(chart, sr) {
 
 export default function AIConsultantScreen({ onBack }) {
   const { chart, hasSelfReport } = useChart();
+  const { user } = useAuth();
   // Derived-once values (recompute only if the chart / entitlement changes) —
   // useMemo, not refs, so they're never read during render via `.current`.
   const selfReport = useMemo(() => (hasSelfReport ? readSelfReport() : null), [hasSelfReport]);
   const srActive = hasSelfReport && !!selfReport;
-  const replies = useMemo(() => buildReplies(chart, selfReport), [chart, selfReport]);
-  const turn = useRef(0);   // genuinely mutable per-turn counter
+  // The chart context sent with every request (stable string ⇒ prompt-cache hits).
+  const contextPayload = useMemo(() => buildConsultantPayload(chart, selfReport), [chart, selfReport]);
+  const [consented, setConsented] = useState(readConsent);
+  const [busy, setBusy] = useState(false);
   const opening = srActive
     ? "I've read your chart, your Manual, and your Self-Report — I know where you actually are right now, not just what the chart says. Tell me what's on your mind."
     : "I've read your chart and your Manual. I know what the chart says — tell me what's actually on your mind. (Add a Self-Report in Guidance and I'll tune to your life context too.)";
@@ -103,14 +119,73 @@ export default function AIConsultantScreen({ onBack }) {
     if (bodyRef.current) bodyRef.current.scrollTop = bodyRef.current.scrollHeight;
   }, [messages, streaming]);
 
-  const send = () => {
+  // Real send (DOC10 §4.3): session token + chart payload + rolling history →
+  // the LLM worker → SSE deltas rendered into the existing streaming UI.
+  const send = async () => {
     const text = input.trim();
-    if (!text || streaming) return;
-    setMessages((m) => [...m, { role: 'user', text }]);
+    if (!text || streaming || busy) return;
+    const history = [...messages, { role: 'user', text }];
+    setMessages(history);
     setInput('');
-    const reply = replies[turn.current % replies.length];
-    turn.current += 1;
-    setTimeout(() => streamReply(reply), 350);
+    setBusy(true);
+    setStreaming('…');
+    try {
+      const { data } = await supabase.auth.getSession();
+      const token = data?.session?.access_token;
+      if (!token) {
+        setStreaming('');
+        streamReply('The consultant reads from your account — sign in on the Profile tab first, then come back with your question.');
+        return;
+      }
+      const res = await fetch(`${LLM_URL}/chat`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({
+          context: contextPayload,
+          messages: history.slice(-12).map((m) => ({
+            role: m.role === 'consultant' ? 'assistant' : 'user',
+            content: m.text,
+          })),
+        }),
+      });
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        setStreaming('');
+        streamReply(err.error === 'advisor required'
+          ? 'The full consultant opens with Advisor access.'
+          : (err.error || 'The consultant is momentarily unavailable — try again shortly.'));
+        return;
+      }
+      // Parse the SSE stream: append text deltas as they arrive.
+      const reader = res.body.getReader();
+      const dec = new TextDecoder();
+      let buf = '';
+      let full = '';
+      for (;;) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        buf += dec.decode(value, { stream: true });
+        const lines = buf.split('\n');
+        buf = lines.pop();
+        for (const line of lines) {
+          if (!line.startsWith('data:')) continue;
+          try {
+            const ev = JSON.parse(line.slice(5));
+            if (ev.type === 'content_block_delta' && ev.delta?.text) {
+              full += ev.delta.text;
+              setStreaming(full);
+            }
+          } catch { /* keep-alive / partial line */ }
+        }
+      }
+      setMessages((m) => [...m, { role: 'consultant', text: full || '…' }]);
+      setStreaming('');
+    } catch {
+      setStreaming('');
+      streamReply('The consultant is momentarily unavailable — try again in a moment.');
+    } finally {
+      setBusy(false);
+    }
   };
 
   return (
@@ -150,24 +225,47 @@ export default function AIConsultantScreen({ onBack }) {
         {streaming && <Bubble role="consultant" text={streaming} cursor />}
       </div>
 
-      {/* Input */}
+      {/* First-use privacy consent (required before anything leaves the device
+          — /legal §privacy). Until agreed, the input is replaced by this card. */}
+      {!consented ? (
+        <div style={{ flexShrink: 0, padding: '14px 20px 18px', borderTop: `1px solid ${paperHair}`, background: cream }}>
+          <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12.5, lineHeight: 1.55, color: inkSoft, margin: '0 0 10px' }}>
+            The consultant reads your chart. When you send a message, <strong>your chart and
+            life context are sent to our AI provider (Anthropic)</strong> to compose the reply —
+            they are not used for training, and your conversation is never stored on our
+            servers. Details in <a href="/legal#privacy" target="_blank" rel="noopener" style={{ color: bronzeDark }}>the privacy policy</a>.
+          </p>
+          <button
+            type="button"
+            onClick={() => { try { localStorage.setItem(CONSENT_KEY, '1'); } catch { /* still allow */ } setConsented(true); }}
+            style={{
+              width: '100%', padding: '12px 0', borderRadius: 999, border: 'none',
+              background: bronzeDark, color: silk, cursor: 'pointer',
+              fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14, fontWeight: 500, letterSpacing: 0.4,
+            }}
+          >
+            I understand — begin the conversation
+          </button>
+        </div>
+      ) : (
       <div style={{ flexShrink: 0, padding: '10px 16px 18px', borderTop: `1px solid ${paperHair}`, display: 'flex', gap: 8, background: cream }}>
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => { if (e.key === 'Enter') send(); }}
-          placeholder="Ask anything about your path…"
+          placeholder={user ? 'Ask anything about your path…' : 'Sign in (Profile tab) to consult…'}
           style={{
             flex: 1, boxSizing: 'border-box', padding: '11px 14px', borderRadius: 999,
             border: `1px solid ${paperHair}`, background: silk, color: ink,
             fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14,
           }} />
-        <button type="button" onClick={send} disabled={!input.trim() || !!streaming} aria-label="Send" style={{
+        <button type="button" onClick={send} disabled={!input.trim() || !!streaming || busy} aria-label="Send" style={{
           appearance: 'none', width: 44, height: 44, borderRadius: 999, border: 'none', flexShrink: 0,
-          background: input.trim() && !streaming ? bronzeDark : '#D8D0C0', color: silk, cursor: input.trim() && !streaming ? 'pointer' : 'default',
+          background: input.trim() && !streaming && !busy ? bronzeDark : '#D8D0C0', color: silk, cursor: input.trim() && !streaming && !busy ? 'pointer' : 'default',
           display: 'flex', alignItems: 'center', justifyContent: 'center',
         }}><Icon id="ico-arrow-r" size={18} color={silk} /></button>
       </div>
+      )}
     </div>
   );
 }
