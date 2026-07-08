@@ -169,16 +169,20 @@ export default function AIConsultantScreen({ onBack }) {
         buf = lines.pop();
         for (const line of lines) {
           if (!line.startsWith('data:')) continue;
-          try {
-            const ev = JSON.parse(line.slice(5));
-            if (ev.type === 'content_block_delta' && ev.delta?.text) {
-              full += ev.delta.text;
-              setStreaming(full);
-            }
-          } catch { /* keep-alive / partial line */ }
+          let ev;
+          try { ev = JSON.parse(line.slice(5)); } catch { continue; /* keep-alive / partial line */ }
+          if (ev.type === 'content_block_delta' && ev.delta?.text) {
+            full += ev.delta.text;
+            setStreaming(full);
+          } else if (ev.type === 'error') {
+            // Upstream error mid-stream (overloaded etc.) — arrives under HTTP 200.
+            throw new Error(ev.error?.type || 'stream error');
+          }
         }
       }
-      setMessages((m) => [...m, { role: 'consultant', text: full || '…' }]);
+      // An empty stream is a failure, not a reply — never post a bare '…' bubble.
+      if (!full) throw new Error('empty stream');
+      setMessages((m) => [...m, { role: 'consultant', text: full }]);
       setStreaming('');
     } catch {
       setStreaming('');

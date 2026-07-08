@@ -166,6 +166,11 @@ export default {
       body: JSON.stringify({
         model: env.MODEL,
         max_tokens: 700,
+        // Claude 5 thinks by default, and thinking spends from max_tokens FIRST —
+        // broad questions ("what will happen this year?") could eat all 700 and
+        // stream zero text (the client's '…' bubble). Charter replies are short;
+        // thinking off = full budget for text, lower latency, cheaper output.
+        thinking: { type: 'disabled' },
         stream: true,
         system: [
           { type: 'text', text: VOICE_CHARTER, cache_control: { type: 'ephemeral' } },
