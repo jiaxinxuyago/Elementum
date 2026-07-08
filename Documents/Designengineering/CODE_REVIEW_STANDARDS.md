@@ -170,6 +170,12 @@ without reading git history?*
   - **No TypeScript** — the repo is deliberately plain JS; a diff introducing TS
     syntax or a transpile step is a scope decision for the owner, not a
     contribution: flag as HIGH until the owner rules.
+  - **PowerShell files are UTF-8 WITH BOM** — PS 5.1 reads BOM-less files as
+    ANSI, where an em-dash's bytes include a curly-quote that terminates
+    strings and silently breaks parsing (precedent: the 2026-07-08 daily-QA
+    task failure). New/edited `.ps1` must keep the BOM; non-ASCII characters
+    stay out of code strings. Any `.ps1` edit must be followed by a parse
+    check (`[Language.Parser]::ParseFile`) or a real run. MEDIUM.
 - **A10 — Change-set scope discipline.** A change-set (commit or small commit train)
   is reviewable only if its blast radius is legible:
   - **One concern per commit** — a feature commit does not smuggle unrelated

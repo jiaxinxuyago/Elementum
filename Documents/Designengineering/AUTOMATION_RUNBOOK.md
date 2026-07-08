@@ -107,8 +107,21 @@ prompted (`npx playwright install chromium`).
 - PostToolUse hook → matcher `Edit|Write`, command
   `node "<abs>/Elementum_App/tools/hook-engine-guard.mjs"`, `timeout 60`.
 
-**3.3 Daily detector** —
-`schtasks /Create /F /SC DAILY /ST 13:57 /TN "Elementum Daily QA" /TR "powershell -NoProfile -ExecutionPolicy Bypass -File <abs>\Elementum_App\tools\daily-qa-routine.ps1"`
+**3.3 Daily detector** — register via the PowerShell cmdlets with the cmd
+logging wrapper (stdout/stderr land in a readable log — this is how the
+2026-07-08 parse failure was diagnosed):
+```powershell
+$action = New-ScheduledTaskAction -Execute 'cmd.exe' -Argument '/c powershell -NoProfile -ExecutionPolicy Bypass -File "<abs>\Elementum_App\tools\daily-qa-routine.ps1" > "%TEMP%\dq-task.log" 2>&1'
+$trigger = New-ScheduledTaskTrigger -Daily -At '13:57'
+Register-ScheduledTask -TaskName "Elementum Daily QA" -Action $action -Trigger $trigger -Force
+```
+Health check: `schtasks /Query /TN "Elementum Daily QA" /FO LIST /V` —
+`Last Result` must be 0; a 1 with an instant return means the script died at
+startup (read `%TEMP%\dq-task.log`). ⚠ `.ps1` files must be UTF-8 WITH BOM
+(CODE_REVIEW_STANDARDS §4-A9) — PS 5.1 misreads BOM-less UTF-8 as ANSI.
+Playwright browser revisions must match the pinned dep: after any
+package-lock change touching playwright, run `npx playwright install
+chromium` FROM Elementum_App/.
 
 **3.4 Report key** — generate a fresh 64-char key; store BOTH sides:
 `setx ELEMENTUM_REPORT_KEY <key>` and

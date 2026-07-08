@@ -1,4 +1,4 @@
-# ===================================================================
+﻿# ===================================================================
 # ELEMENTUM - daily QA routine (Windows Task Scheduler, ~09:00 daily)
 # ===================================================================
 # Runs the full automated QA stack with zero token cost and reports
@@ -133,7 +133,7 @@ function Send-QaEmail($subject, $bodyText) {
 }
 
 if ($findings) {
-    Send-QaEmail "Elementum daily QA — $verdict" (Get-Content $reportPath -Raw)
+    Send-QaEmail "Elementum daily QA - $verdict" (Get-Content $reportPath -Raw)
     @"
 # DAILY QA ROUTINE FOUND PROBLEMS
 
