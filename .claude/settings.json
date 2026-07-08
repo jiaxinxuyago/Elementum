@@ -1,0 +1,32 @@
+{
+  "_comment": "Project allowlist for the agent routines (AUTOMATION_RUNBOOK §2b) + high-frequency dev tools. Curated 2026-07-08 from a 50-transcript scan. Deliberately NOT allowlisted: git push/commit/merge, wrangler, rm, blanket interpreter/npx patterns — fixer-agent mutations stay prompted-once-then-stored per task, and only the owner merges to main.",
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_eval",
+      "mcp__Claude_Preview__preview_screenshot",
+      "mcp__Claude_Preview__preview_console_logs",
+      "mcp__Claude_Preview__preview_start",
+      "mcp__Claude_Preview__preview_logs",
+      "mcp__Claude_Preview__preview_resize",
+      "mcp__Claude_Preview__preview_snapshot",
+      "mcp__Claude_Preview__preview_list",
+      "mcp__Claude_Preview__preview_click",
+      "mcp__Claude_Preview__preview_stop",
+      "Bash(git fetch *)",
+      "Bash(git ls-remote *)",
+      "Bash(git merge-base *)",
+      "Bash(node tools/qa-engine-regression.mjs)",
+      "Bash(node tools/qa-route-sweep.mjs)",
+      "Bash(node tools/qa-accuracy-dump.mjs)",
+      "Bash(node tools/qa-strength-diagnostic.mjs)",
+      "Bash(node tools/reading-format-audit.mjs)",
+      "Bash(npx eslint .)",
+      "Bash(npm run build)",
+      "Bash(npx playwright install chromium)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/)",
+      "PowerShell(schtasks /Query *)",
+      "PowerShell(Get-ScheduledTask *)",
+      "PowerShell(Get-ScheduledTaskInfo *)"
+    ]
+  }
+}
