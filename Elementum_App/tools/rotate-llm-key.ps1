@@ -5,8 +5,10 @@
 # are console-only by Anthropic's design — deliberately, so nothing on this
 # machine can mint keys). Full procedure (~60 seconds):
 #
-#   1. console.anthropic.com → API Keys → Create Key → copy
-#   2. powershell -File tools/rotate-llm-key.ps1     ← paste at hidden prompt
+#   1. console.anthropic.com → API Keys → Create Key (no expiration) → copy
+#   2. powershell -ExecutionPolicy Bypass -File tools/rotate-llm-key.ps1
+#      (the Bypass flag is required — Windows blocks .ps1 by default;
+#       it applies to this invocation only. Paste at the hidden prompt.)
 #   3. console.anthropic.com → disable the OLD key
 #   4. send the consultant one message = proof-of-life
 #
