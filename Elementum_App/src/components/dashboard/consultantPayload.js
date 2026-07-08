@@ -18,7 +18,12 @@ import { PERSONA_READING, DM_READING } from '../../content/reading/index.js';
 
 const ELEMENTS = ['Wood', 'Fire', 'Earth', 'Metal', 'Water'];
 
-const persona = (god) => (god ? { god, persona: TG_PERSONA[god] || null } : null);
+// Vocabulary law (READING_CONCEPT_INVENTORY §1–2): the engine's translated
+// god names ("Seven Killings", "Direct Seal"…) are banished aliases — the
+// model must only ever SEE the canonical persona register, so it can only
+// ever SPEAK it. Chinese glyphs stay out of every ten-god field for the
+// same reason (identity.stem / pillar glyphs remain as internal keys).
+const personaName = (god) => (god && TG_PERSONA[god]) || null;
 
 export function buildConsultantPayload(chart, selfReport) {
   if (!chart?.dayMaster) return '';
@@ -26,20 +31,22 @@ export function buildConsultantPayload(chart, selfReport) {
   const identity = STEM_CARD_DATA[dm.stem]?.identity || {};
 
   const faces = {};
+  const leadByElement = {}; // raw god keys, internal — authoredVoice lookups only
   for (const el of ELEMENTS) {
     try {
       const f = resolveElementFaces(el, dm.stem, chart.pillars);
+      leadByElement[el] = f.leadGod;
       faces[el] = {
-        presentFaces: (f.presentFaces || []).map((x) => ({ ...persona(x.god), weight: x.weight, polarity: x.polarity })),
-        absentGod: persona(f.absentGod),
-        leadGod: persona(f.leadGod),
+        presentFaces: (f.presentFaces || []).map((x) => ({ persona: personaName(x.god), weight: Math.round(x.weight * 100) / 100, polarity: x.polarity })),
+        absent: personaName(f.absentGod),
+        lead: personaName(f.leadGod),
       };
     } catch { /* element unresolvable — omit rather than fail the payload */ }
   }
 
   const tg = chart.tenGods || {};
   const positional = Object.fromEntries(
-    Object.entries(tg).map(([pos, g]) => [pos, g ? { zh: g.zh, en: g.en, family: g.family } : null])
+    Object.entries(tg).map(([pos, g]) => [pos, personaName(g?.zh) ? { persona: personaName(g.zh), family: g.family } : null])
   );
 
   const payload = {
@@ -57,7 +64,8 @@ export function buildConsultantPayload(chart, selfReport) {
     },
     pillars: chart.pillars ? Object.fromEntries(
       Object.entries(chart.pillars).map(([k, p]) => [k, {
-        stem: p.stem, branch: p.branch, stemElement: p.stemElement, branchElement: p.branchElement,
+        stem: p.stem, stemName: STEM_CARD_DATA[p.stem]?.identity?.archetypeName || null,
+        branch: p.branch, stemElement: p.stemElement, branchElement: p.branchElement,
       }])
     ) : null,
     positionalTenGods: positional,          // the 宫位 axis (v2.1 requirement)
@@ -82,24 +90,24 @@ export function buildConsultantPayload(chart, selfReport) {
       } catch { return null; }
     })(),
     currents: {
-      day: chart.currentFlowDay ? { stem: chart.currentFlowDay.stem, branch: chart.currentFlowDay.branch, element: chart.currentFlowDay.stemElement, tenGod: chart.currentFlowDay.stemTenGod?.en || null } : null,
-      month: chart.currentFlowMonth ? { stem: chart.currentFlowMonth.stem, branch: chart.currentFlowMonth.branch, element: chart.currentFlowMonth.stemElement, tenGod: chart.currentFlowMonth.stemTenGod?.en || null } : null,
-      year: chart.currentFlowYear ? { year: chart.currentFlowYear.year, stem: chart.currentFlowYear.stem, branch: chart.currentFlowYear.branch, element: chart.currentFlowYear.stemElement, tenGod: chart.currentFlowYear.stemTenGod?.en || null } : null,
+      day: chart.currentFlowDay ? { element: chart.currentFlowDay.stemElement, persona: personaName(chart.currentFlowDay.stemTenGod?.zh) } : null,
+      month: chart.currentFlowMonth ? { element: chart.currentFlowMonth.stemElement, persona: personaName(chart.currentFlowMonth.stemTenGod?.zh) } : null,
+      year: chart.currentFlowYear ? { year: chart.currentFlowYear.year, element: chart.currentFlowYear.stemElement, persona: personaName(chart.currentFlowYear.stemTenGod?.zh) } : null,
     },
     // This year's month-by-month flow (the Year page's map), compact.
     yearFlow: (() => {
       try { return yearEnergy(chart).map((m) => ({ m: m.label, el: m.element, level: m.level })); }
       catch { return null; }
     })(),
-    // Decade chapters (luck pillars): where they ARE, plus the one behind and ahead.
-    decade: (() => {
+    // Life Chapters (canonical term — never "decades"/"luck pillars" in speech):
+    // where they ARE, plus the chapter behind and the one ahead.
+    lifeChapters: (() => {
       const lps = chart.luckPillars || [];
       const i = lps.findIndex((p) => p.isCurrent);
       if (i < 0) return null;
       const slim = (p) => p && {
         ages: `${p.startAge}–${p.endAge}`, years: `${p.startYear}–${p.endYear}`,
-        stem: p.stem, branch: p.branch, element: p.element,
-        tenGod: p.stemTenGod?.en || null, current: !!p.isCurrent,
+        element: p.element, persona: personaName(p.stemTenGod?.zh), current: !!p.isCurrent,
       };
       return { previous: slim(lps[i - 1]), current: slim(lps[i]), next: slim(lps[i + 1]) };
     })(),
@@ -122,8 +130,8 @@ export function buildConsultantPayload(chart, selfReport) {
       personaReadings: (() => {
         const out = {};
         for (const el of ELEMENTS) {
-          const god = faces[el]?.leadGod?.god;
-          if (god && PERSONA_READING[god]) out[el] = { persona: TG_PERSONA[god] || god, ...PERSONA_READING[god] };
+          const god = leadByElement[el];
+          if (god && PERSONA_READING[god]) out[el] = { persona: personaName(god), ...PERSONA_READING[god] };
         }
         return out;
       })(),
