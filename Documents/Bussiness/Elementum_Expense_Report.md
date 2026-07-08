@@ -53,7 +53,7 @@
 
 > Perspective: the entire §4.3 LLM debate (Sonnet vs open, ~$25–200/mo at scale) plays out INSIDE the shadow of the Claude Max line. Development tooling — not runtime infrastructure — is where this business spends money today.
 
-**Phase B (native app, whenever):** + Apple Developer **$99/yr** (~$8/mo) + Apple/Google take **15–30% of in-app revenue** (vs Stripe's ~3%) — the single biggest cost event on the roadmap; tracked in DOC10 §4.2a.
+**Phase B (native app, whenever):** + Apple Developer **$99/yr** (~$8/mo) + Apple/Google take **15–30% of in-app revenue** (vs Stripe's ~3%; 15% at our size via the Small Business Program) — the single biggest cost event on the roadmap; tracked in DOC10 §4.2a. **Enrollment STARTED 2026-07:** Organization under Lantern Digital (owner-locked); free D-U-N-S request is the current step; the $99 is deliberately deferred until Phase B is scheduled (membership year starts at purchase).
 
 **Post-beta compliance (at real revenue):** Merchant-of-Record option (Paddle/Lemon Squeezy) trades ~+2–5% per sale for offloading global VAT/sales-tax — decision parked in DOC10 §9.
 
@@ -90,7 +90,8 @@ Net revenue per sale after Stripe: **Founding $8.44** · **Self-Report $6.49**.
 
 - [ ] Confirm actual elementum.life registration price (Cloudflare dashboard → Billing) and correct §1/§2
 - [x] ~~Add AI dev-tooling cost~~ — **Claude Max $200/mo added (the №1 line)**
-- [ ] Decide the 🔵 LLM line (this unblocks §4.3 Phase 0) — projected impact: **+$5–15/mo, i.e. +2.5–7% on the all-in total**
+- [x] ~~Decide the 🔵 LLM line~~ — **decided + live 2026-07-07: §4.3 Phase 0 shipped (Sonnet, $50/mo kill-switch); actuals accrue in `llm_usage`**
+- [ ] Apple Developer: complete the Lantern Digital D-U-N-S request; pay the $99 only when Phase B is scheduled, then add the line to §1/§2 (~$8.25/mo amortized)
 - [ ] Periodically revisit whether the Max plan tier still matches the build phase (heavy build vs maintenance)
 - [ ] Revisit this report at each phase gate (it is referenced from DOC10)
 

@@ -117,6 +117,26 @@ Apple Pay / Google Pay are **not a separate integration** — their availability
 - Apple/Google rules are **evolving** (post-Epic external-link entitlements; EU DMA alternative billing) — re-evaluate at Phase B, not now.
 - **Recommendation:** stay web/Stripe while PWA-only (avoids the ~30% cut); treat IAP/Play Billing as a Phase-B decision bundled with §4.1 accounts.
 
+> **§4.2a ADDENDUM (2026-07-07, owner) — Apple Developer & App Store setup STARTED.**
+>
+> **Enrollment decision (owner-locked): ORGANIZATION under Lantern Digital** — matches the ownership map (commerce identities are company-owned, like Stripe; infra identities personal-owned). Seller line on the App Store will read Lantern Digital.
+>
+> **The runbook (owner actions, in order):**
+> 1. **D-U-N-S number for Lantern Digital** — the long-lead item (typically 2–6 weeks; free). First CHECK whether one already exists (D&B often auto-issues on company registration): Apple's D-U-N-S lookup at developer.apple.com/enroll/duns-lookup/ — search; if found, note the number; if not, the same tool submits the request. Company legal name/address must match registration EXACTLY.
+> 2. **Apple ID on the company email** (Lantern Digital address, not personal gmail) with two-factor on — the account that will hold the membership.
+> 3. **Enroll** at developer.apple.com/programs/enroll/ as Organization once the D-U-N-S resolves: legal entity name + D-U-N-S + website (elementum.life) + the enroller must have legal authority to bind the company (owner does). Apple may phone-verify. **$99/yr — pay only when Phase B is actually scheduled** (the membership year starts at purchase; an idle year is wasted money). Add to `Elementum_Expense_Report.md` (~$8.25/mo amortized) when paid.
+>
+> **What the membership unlocks:** TestFlight (10k testers — the B2 closed-beta channel if we want it; beta does NOT wait for this — PWA covers it), App Store distribution, APNs certificates, Sign in with Apple, IAP/StoreKit.
+>
+> **Three rules that change the product at Phase B (restated as commitments):**
+> 1. **IAP replaces Stripe in the native binary** (digital unlocks; 15% at our size via the Small Business Program). Second entitlement pipeline: App Store Server Notifications → a worker granting the SAME `entitlements` rows the Stripe webhook writes — server-truth design already accommodates dual grantors; client is agnostic.
+> 2. **Web Push subscriptions die at the native boundary** → APNs migration (§4.4 decision 3).
+> 3. **Sign in with Apple becomes mandatory** the moment Google sign-in ships in the store app (guideline 4.8) — Supabase supports it; wire in the Phase-B bundle.
+>
+> **Review-risk note:** divination/astrology apps draw extra App Review scrutiny (minimal-functionality + "fortune telling" categories). Elementum's reading-first depth is the defense; still budget one rejection-and-resubmit cycle into the Phase-B timeline. (Cece's 八字 takedown was Chinese regulation, not Apple policy.)
+>
+> **Sequencing:** D-U-N-S now (background clock) → hold $99 until Phase B is scheduled → Phase B bundle = Capacitor wrap → IAP + store-server webhook → APNs migration → Apple sign-in → TestFlight → review.
+
 ### §4.3 AI Consultant — real LLM
 - **What:** replace scripted replies with a real model that has the user's chart + Energy Manual + Self-Report.
 - **Server piece:** a serverless **proxy** holding the API key, injecting context into a system prompt, streaming the response back; enforces rate-limits + a per-user cost cap.
@@ -233,3 +253,4 @@ Keeping `useChart()` as the single accessor for `tier`/`hasSelfReport` means the
 | 0.2 | July 2026 | Founding Pass shipped (interim, honor-system Stripe Payment Link) — recorded in §4.2. Added §4.2a wallets & native-app billing (Apple Pay/Google Pay work via Stripe on web/PWA; native App Store/Play require Apple IAP + Google Play Billing) + open decision #6. |
 | 0.4 | July 2026 | §4.4 Web Push shipped + verified (iOS + desktop). RFC 8291 encrypted payloads required for Apple delivery. |
 | 0.3 | July 2026 | **§4.1 + §4.2 shipped server-verified.** Supabase auth (purchase-gated sign-in, entitlements table + RLS + signup trigger), Stripe webhook Worker (signature-verified → entitlement upsert), server-truth tier in the client, honor-system grant retired. Stack note: serverless functions run on **Cloudflare Workers** (not Supabase Edge Functions) — wrangler was already authenticated, same platform as the app. |
+| 0.5 | July 2026 | **§4.3 AI Consultant shipped (Phase 0)** — elementum-llm Worker + five tuning rounds (see §4.3 tuning log); Phase-1 gates done (/legal AI amendment + on-device chat persistence); Phase 1 = empty OWNER_IDS. **§4.2a addendum: Apple Developer setup started** — Organization enrollment under Lantern Digital locked; D-U-N-S runbook + the three Phase-B product-changing rules recorded. |
