@@ -101,8 +101,9 @@
   Continued use after changes means acceptance.</p>
 
   <h2 id="privacy">Privacy Policy</h2>
-  <p class="note"><strong>The short version:</strong> your birth data never leaves your device. Our server
-  stores only your account email, what you’ve purchased, and (if you opt in) a push-notification address.
+  <p class="note"><strong>The short version:</strong> your birth data never leaves your device — with one
+  opt-in exception, the AI Consultant (see below). Our server stores only your account email, what you’ve
+  purchased, and (if you opt in) a push-notification address.
   We don’t sell data, run ads, or use third-party analytics.</p>
   <h3>What stays on your device</h3>
   <p>Your birth date, time, location, and the computed chart and readings live in your browser’s local
@@ -114,13 +115,26 @@
     <li><strong>Entitlements:</strong> which tier/purchases your account owns.</li>
     <li><strong>Billing linkage:</strong> a Stripe customer reference. Card details live with Stripe only.</li>
     <li><strong>Push subscription (optional):</strong> if you enable the daily reading, a push endpoint for your device and your preferred send hour. The daily message is derived from the calendar date — it contains no personal data.</li>
+    <li><strong>Consultant usage counters (Advisor tier, if used):</strong> per-day message counts and token totals — numbers only, never conversation content — to enforce fair-use limits.</li>
   </ul>
+  <h3>AI Consultant (Advisor tier)</h3>
+  <p>The AI Consultant is the one opt-in exception to “your birth data never leaves your device.”
+  When you send the Consultant a message, that message, your recent messages in the conversation, and a
+  summary of your chart and readings (derived from your birth details, plus your Self-Report if you
+  completed one) are transmitted over an encrypted connection, through our server, to
+  <a href="https://www.anthropic.com">Anthropic</a>, our AI model provider, solely to generate the reply.
+  This happens only when you actively use the Consultant, and the app asks for your consent before your
+  first message. <strong>Our server stores no conversation content</strong> — your chat history lives only
+  on your device, and clearing your device data removes it. Under our API terms, Anthropic does not use
+  these messages to train its models. The Consultant offers reflective guidance, not professional advice
+  (see the disclaimer above).</p>
   <h3>Service providers (sub-processors)</h3>
   <p><a href="https://supabase.com">Supabase</a> (accounts &amp; database) ·
   <a href="https://stripe.com">Stripe</a> (payments) ·
   <a href="https://cloudflare.com">Cloudflare</a> (hosting &amp; delivery) ·
-  <a href="https://google.com">Google</a> (optional sign-in) · Apple/Google/Mozilla push services
-  (notification delivery, if enabled).</p>
+  <a href="https://google.com">Google</a> (optional sign-in) ·
+  <a href="https://www.anthropic.com">Anthropic</a> (AI Consultant replies, only when you use it) ·
+  Apple/Google/Mozilla push services (notification delivery, if enabled).</p>
   <h3>Your choices</h3>
   <ul>
     <li>Use the free experience without any account at all.</li>
