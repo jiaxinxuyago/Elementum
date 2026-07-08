@@ -26,6 +26,19 @@ const LLM_URL = siteConfig.llmWorkerUrl;
 const CONSENT_KEY = 'elementum_consultant_consent_v1';
 const readConsent = () => { try { return localStorage.getItem(CONSENT_KEY) === '1'; } catch { return false; } };
 
+// Conversations are ON-DEVICE ONLY (DOC10 §4.3 owner decision — the server
+// stores zero chat content). Per-account key so shared devices don't leak
+// threads across sign-ins; capped so storage can't grow unbounded.
+const CHAT_KEY = (uid) => `elementum_consultant_chat_v1:${uid}`;
+const CHAT_CAP = 60;
+const readStoredChat = (uid) => {
+  if (!uid) return [];
+  try {
+    const arr = JSON.parse(localStorage.getItem(CHAT_KEY(uid)) || '[]');
+    return Array.isArray(arr) ? arr.filter((m) => m && typeof m.text === 'string' && typeof m.role === 'string') : [];
+  } catch { return []; }
+};
+
 const SELF_REPORT_KEY = 'elementum_selfreport_v1';
 function readSelfReport() { try { return JSON.parse(localStorage.getItem(SELF_REPORT_KEY) || 'null'); } catch { return null; } }
 
@@ -81,7 +94,7 @@ export default function AIConsultantScreen({ onBack }) {
     ? "I've read your chart, your Manual, and your Self-Report — I know where you actually are right now, not just what the chart says. Tell me what's on your mind."
     : "I've read your chart and your Manual. I know what the chart says — tell me what's actually on your mind. (Add a Self-Report in Guidance and I'll tune to your life context too.)";
 
-  const [messages, setMessages] = useState([]);   // {role, text}
+  const [messages, setMessages] = useState(() => readStoredChat(user?.id));   // {role, text}
   const [streaming, setStreaming] = useState('');  // partial consultant text
   const [input, setInput] = useState('');
   const [contextOpen, setContextOpen] = useState(false);
@@ -106,13 +119,32 @@ export default function AIConsultantScreen({ onBack }) {
   };
 
   // Opening message streams once on mount — a legitimate mount-time animation
-  // effect (the stream itself runs via setInterval).
+  // effect (the stream itself runs via setInterval). A restored thread resumes
+  // where it left off instead of greeting again.
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    streamReply(opening);
+    if (!messages.length) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      streamReply(opening);
+    }
     return () => clearInterval(timer.current);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // If sign-in resolves after mount, swap in that account's stored thread
+  // (kills any in-flight greeting so it can't append onto restored history).
+  useEffect(() => {
+    if (!user?.id) return;
+    const stored = readStoredChat(user.id);
+    if (!stored.length) return;
+    clearInterval(timer.current);
+    queueMicrotask(() => { setStreaming(''); setMessages(stored); });
+  }, [user?.id]);
+
+  // Persist as the thread grows — device-local, never the server.
+  useEffect(() => {
+    if (!user?.id || !messages.length) return;
+    try { localStorage.setItem(CHAT_KEY(user.id), JSON.stringify(messages.slice(-CHAT_CAP))); } catch { /* storage full — thread stays in-memory */ }
+  }, [messages, user?.id]);
 
   // Auto-scroll to the latest content.
   useEffect(() => {
