@@ -107,21 +107,29 @@ prompted (`npx playwright install chromium`).
 - PostToolUse hook → matcher `Edit|Write`, command
   `node "<abs>/Elementum_App/tools/hook-engine-guard.mjs"`, `timeout 60`.
 
-**3.3 Daily detector** — register via the PowerShell cmdlets with the cmd
-logging wrapper (stdout/stderr land in a readable log — this is how the
-2026-07-08 parse failure was diagnosed):
+**3.3 Daily detector** — the action is the **windowless VBS shim**
+(`tools/run-daily-qa.vbs`, committed): interactive-session tasks open a
+visible console for their action, and a mystery console gets closed by
+humans, which kills the run (2026-07-08 incident, exit 0xC000013A). The shim
+runs the same command with window style 0 and keeps the interactive session
+(failure balloon still works). It also carries the logging redirect
+(`%TEMP%\dq-task.log`) that diagnosed the incident.
 ```powershell
-$action = New-ScheduledTaskAction -Execute 'cmd.exe' -Argument '/c powershell -NoProfile -ExecutionPolicy Bypass -File "<abs>\Elementum_App\tools\daily-qa-routine.ps1" > "%TEMP%\dq-task.log" 2>&1'
-$trigger = New-ScheduledTaskTrigger -Daily -At '13:57'
-Register-ScheduledTask -TaskName "Elementum Daily QA" -Action $action -Trigger $trigger -Force
+$action   = New-ScheduledTaskAction -Execute 'wscript.exe' -Argument '"<abs>\Elementum_App\tools\run-daily-qa.vbs"'
+$trigger  = New-ScheduledTaskTrigger -Daily -At '13:57'
+$settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Minutes 30)
+Register-ScheduledTask -TaskName "Elementum Daily QA" -Action $action -Trigger $trigger -Settings $settings
 ```
+(`StartWhenAvailable` back-fills a missed 1:57 when the PC comes on. S4U /
+"run whether logged on or not" needs elevation — not used.)
 Health check: `schtasks /Query /TN "Elementum Daily QA" /FO LIST /V` —
-`Last Result` must be 0; a 1 with an instant return means the script died at
-startup (read `%TEMP%\dq-task.log`). ⚠ `.ps1` files must be UTF-8 WITH BOM
-(CODE_REVIEW_STANDARDS §4-A9) — PS 5.1 misreads BOM-less UTF-8 as ANSI.
-Playwright browser revisions must match the pinned dep: after any
-package-lock change touching playwright, run `npx playwright install
-chromium` FROM Elementum_App/.
+`Last Result` must be 0; instant-return failures → read `%TEMP%\dq-task.log`.
+⚠ `.ps1` files must be UTF-8 WITH BOM (CODE_REVIEW_STANDARDS §4-A9) — PS 5.1
+misreads BOM-less UTF-8 as ANSI. ⚠ **Sandbox overlay:** dev-session installs
+of system-path binaries (Playwright browsers) land in a virtualized overlay
+INVISIBLE to OS-scheduled processes — the routine therefore installs its own
+browser each run (idempotent `npx playwright install chromium` from
+Elementum_App/, real filesystem).
 
 **3.4 Report key** — generate a fresh 64-char key; store BOTH sides:
 `setx ELEMENTUM_REPORT_KEY <key>` and
@@ -146,6 +154,12 @@ copy is the durable source.
 - Bug-lifecycle law: a finding is CLOSED only when its merged fix is verified
   absent in a subsequent full run — the dispatch manager is the sole authority
   over the ledger, and a REOPENED finding outranks new work.
+- Scheduled jobs never depend on anything installed from an interactive
+  session: dev-session sandboxes virtualize system-path writes into an
+  overlay the scheduler can't see (2026-07-08 incident). A routine installs
+  its own binaries, idempotently, in its own context.
+- OS-scheduled actions must be windowless (VBS shim pattern) — a visible
+  console invites a human to close it mid-run.
 - This runbook is the inventory of record: adding/retiring a routine, changing
   a schedule, or changing the email suite edits this file in the same
   change-set (CODE_REVIEW_STANDARDS §4-A10 pairing rule). Routine prompts are

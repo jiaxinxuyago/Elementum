@@ -37,6 +37,10 @@ if ($LASTEXITCODE -ne 0) { $findings += "Engine regression check failed (exit $L
 $sections += "## 1 - Engine regression (exit $LASTEXITCODE)`n``````text`n$($engOut -join "`n")`n``````"
 
 # -- 2. Route sweep ---------------------------------------------------
+# Self-heal: the pinned browser must exist on the REAL filesystem — dev
+# sessions install into a sandbox overlay this scheduled context cannot
+# see (2026-07-08 incident). Idempotent: no-op when already present.
+cmd /c "npx playwright install chromium >nul 2>&1"
 $base = 'http://localhost:5173/'
 $started = $null
 $serverOk = $false
