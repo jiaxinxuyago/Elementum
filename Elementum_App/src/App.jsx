@@ -107,6 +107,7 @@ function prefetchScreens() {
       import('./components/reading/ReadingDayMasterScreen.jsx'),
       import('./components/reading/ReadingPillarChartScreen.jsx'),
       import('./components/reading/ReadingFacesScreen.jsx'),
+      import('./components/dashboard/CompatFriendFlow.jsx'),
     ]).catch(() => {});
   };
   if ('requestIdleCallback' in window) window.requestIdleCallback(run, { timeout: 2000 });
@@ -299,7 +300,9 @@ const FLOW = [
   'chart-reveal',    // Birth Chart Raw Data — four-pillar grid
   'chart-resonance', // Chart Resonance — hour-discovery flow (§11/§22)
   'read-locked',     // generic locked-card for not-yet-built sections
-  'd13preview',      // dev-only D13 component render harness (#/d13preview)
+  // Dev-only reading-component render harness (#/d13preview) — excluded from
+  // FLOW in prod builds so readHash() rejects the route for real users.
+  ...(IS_DEV ? ['d13preview'] : []),
 ];
 
 // Which dashboard tab is "active" for a given screen — drives the single
@@ -428,7 +431,7 @@ export default function App() {
 
   const goto = (name) => () => setScreen(name);
 
-  // Maps a BottomTabNav key ('today', 'guidance', 'reading', 'compat',
+  // Maps a ReadingTabBar key ('today', 'guidance', 'reading', 'compat',
   // 'profile') to the corresponding FLOW screen ('app-*'). Used as the
   // `onTabChange` callback by every DashboardShell render.
   const routeTab = (tabKey) => setScreen(`app-${tabKey}`);
@@ -531,9 +534,9 @@ export default function App() {
       break;
 
     // ────────────────────────────────────────────────────────────────
-    // Dashboard tabs (DOC5 §10–§14) — all wrapped in DashboardShell so
-    // BottomTabNav is persistent across them. The tab→screen mapping
-    // mirrors `TAB_KEYS` exported from BottomTabNav.
+    // Dashboard tabs (DOC5 §10–§14) — all wrapped in DashboardShell; the
+    // persistent icons-only ReadingTabBar is rendered once by App (below),
+    // outside the per-screen tree, and routes via routeTab.
     // ────────────────────────────────────────────────────────────────
     case 'app-today':
       rendered = (

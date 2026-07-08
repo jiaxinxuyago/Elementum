@@ -63,14 +63,17 @@ export default function SelfReportScreen({ onBack }) {
   // tab can't open from an effect (popup blockers demand a gesture), so show
   // the one-tap 'resume' card instead. Intent cleared so nothing auto-replays.
   useEffect(() => {
-    if (!user || hasSelfReport || typeof window === 'undefined') return;
+    if (!user || typeof window === 'undefined') return;
+    // Clear the intent UNCONDITIONALLY once signed in (mirrors the founding
+    // twin in UpgradeModal): an already-entitled buyer must not keep a live
+    // intent that PurchaseRedirect replays on every token refresh.
     let intent = null;
     try {
       intent = sessionStorage.getItem(PURCHASE_INTENT_KEY);
       if (intent === 'selfreport') sessionStorage.removeItem(PURCHASE_INTENT_KEY);
     } catch { /* storage unavailable — nothing to resume */ }
     // yield — no synchronous setState in the effect body
-    if (intent === 'selfreport') queueMicrotask(() => setPayState('resume'));
+    if (intent === 'selfreport' && !hasSelfReport) queueMicrotask(() => setPayState('resume'));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
   const [chapter, setChapter] = useState(saved?.chapter || null);
@@ -221,7 +224,7 @@ function ReportDoc({ report, onEdit }) {
       </div>
 
       {report.sections.map((s) => (
-        <section key={s.key} style={{ padding: '18px 0 4px', borderBottom: `1px solid ${withAlpha(gold, '30')}` }}>
+        <section key={s.key} style={{ padding: '18px 0 4px', borderBottom: `1px solid ${withAlpha(gold, '40')}` }}>
           <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10, letterSpacing: 2, textTransform: 'uppercase', color: bronzeDark, fontWeight: 500 }}>
             {s.eyebrow}
           </div>
@@ -230,8 +233,8 @@ function ReportDoc({ report, onEdit }) {
           </h3>
           {s.quote && (
             <blockquote style={{
-              margin: '0 0 10px', padding: '10px 14px', borderLeft: `2px solid ${withAlpha(gold, '60')}`,
-              background: withAlpha(gold, '08'), borderRadius: '0 10px 10px 0',
+              margin: '0 0 10px', padding: '10px 14px', borderLeft: `2px solid ${withAlpha(gold, '40')}`,
+              background: withAlpha(gold, '10'), borderRadius: '0 10px 10px 0',
               fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 15.5, color: inkSoft, lineHeight: 1.55,
             }}>
               “{s.quote}”

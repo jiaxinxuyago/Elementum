@@ -1,8 +1,9 @@
 // ===================================================================
 // ELEMENTUM · DashboardShell
 // ===================================================================
-// Wraps any dashboard tab screen with the persistent BottomTabNav and
-// reserves room above it so screen content doesn't slide under the bar.
+// Wraps any dashboard tab screen with its painted background and reserves
+// room above the persistent tab bar (ReadingTabBar, rendered once by App
+// outside the per-screen tree) so content doesn't slide under it.
 //
 // Spec:
 //   · Tab bar is the only persistent chrome inside /dashboard/* (DOC5 §AM.2).

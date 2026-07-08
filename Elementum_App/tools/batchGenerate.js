@@ -800,11 +800,11 @@ function qualityCheckCompound(key, card) {
 function buildCompoundMerge(compounds) {
   const entries = Object.entries(compounds)
     .sort(([a],[b]) => a.localeCompare(b))
-    .map(([key, c]) => \`  "\${key}": \${JSON.stringify(c, null, 4).replace(/^/gm, "  ").trim()},\`);
+    .map(([key, c]) => `  "${key}": ${JSON.stringify(c, null, 4).replace(/^/gm, "  ").trim()},`);
   return [
     "// AUTO-GENERATED — Pipeline C compound archetype cards",
     "// Pipeline: generate-compound → retrieve-compound → check-compound → merge-compound",
-    \`// Generated: \${new Date().toISOString()} | \${entries.length} / 50 compound keys\`,
+    `// Generated: ${new Date().toISOString()} | ${entries.length} / 50 compound keys`,
     "// Paste the COMPOUND_CARDS object body into archetypeSource.js export const COMPOUND_CARDS = { ... }",
     "export const GENERATED_COMPOUNDS = {",
     ...entries,

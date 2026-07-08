@@ -11,6 +11,8 @@
   "name": "elementum-llm",
   "main": "index.js",
   "compatibility_date": "2025-11-01",
+  // Public .workers.dev URL is REQUIRED: the browser calls /chat directly
+  // (AIConsultantScreen); access is enforced in-worker (JWT + entitlement).
   "workers_dev": true,
   "vars": {
     "SUPABASE_URL": "https://nbactbfxqslzehzbgetp.supabase.co",

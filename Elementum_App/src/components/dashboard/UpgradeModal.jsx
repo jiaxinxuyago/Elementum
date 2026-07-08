@@ -21,11 +21,8 @@ import { createContext, useContext, useState, useCallback, useEffect } from 'rea
 import { useChart } from '../../store/chartContext.jsx';
 import { useAuth } from '../../store/authContext.jsx';
 import AuthModal, { PURCHASE_INTENT_KEY } from './AuthModal.jsx';
-import { TIER_PRICES, PAYMENT } from '../../infra/index.js';
-// FOUNDING_PRICE via a direct pricing import (pricing isn't a restricted chunk),
-// so we needn't touch infra/index.js — which the shareable-card branch also
-// edits — keeping the two branches conflict-free. PAYMENT rides the barrel above.
-import { FOUNDING_PRICE } from '../../infra/pricing.js';
+import { TIER_PRICES, PAYMENT, FOUNDING_PRICE, FOUNDING_GRANTS_TIER } from '../../infra/index.js';
+import { ELEMENT_TO_PIGMENT } from '../../styles/elementPigments.js';
 // Stem -> archetype name (10 entries) inlined so this always-mounted provider
 // does NOT statically import the 276 KB archetypeSource.js content file
 // (Group E — keeps that content out of the eager initial bundle; it rides with
@@ -117,6 +114,15 @@ export function UpgradeModalHost() {
   // checkout) | 'waiting' (checkout open in another tab; unlock is automatic).
   const [payState, setPayState] = useState('idle');
 
+  // A dismissed sheet must not keep 'waiting'/'resume' alive: reopened later
+  // it would claim "complete your purchase in the page that just opened" with
+  // no checkout tab in existence. (Trade-off: pay-after-dismiss still unlocks
+  // via the focus refresh — it just skips the auto-ceremony.)
+  useEffect(() => {
+    // yield — no synchronous setState in the effect body
+    if (!feature && payState !== 'idle') queueMicrotask(() => setPayState('idle'));
+  }, [feature, payState]);
+
   // Purchase requires an account (DOC10 §4.2): the payment must carry the
   // buyer's user id (client_reference_id) so the Stripe webhook can write
   // their entitlement server-side — that's what makes the pass restorable.
@@ -152,7 +158,7 @@ export function UpgradeModalHost() {
       intent = sessionStorage.getItem(PURCHASE_INTENT_KEY);
       if (intent === 'founding') sessionStorage.removeItem(PURCHASE_INTENT_KEY);
     } catch { /* storage unavailable — nothing to resume */ }
-    if (intent === 'founding' && tier !== 'advisor') {
+    if (intent === 'founding' && tier !== FOUNDING_GRANTS_TIER) {
       // yield — no synchronous setState in the effect body
       queueMicrotask(() => {
         setPayState('resume');
@@ -167,7 +173,7 @@ export function UpgradeModalHost() {
   // the focus-refresh (chartContext) confirms the entitlement — and the
   // ceremony plays right here where they're waiting.
   useEffect(() => {
-    if (payState === 'waiting' && tier === 'advisor') {
+    if (payState === 'waiting' && tier === FOUNDING_GRANTS_TIER) {
       // yield — no synchronous setState in the effect body
       queueMicrotask(() => {
         setPayState('idle');
@@ -179,7 +185,7 @@ export function UpgradeModalHost() {
   }, [payState, tier]);
 
   const dmElement = chart?.dayMaster?.element || 'Metal';
-  const dmPigKey = { Metal: 'metal', Wood: 'wood', Fire: 'fire', Earth: 'earth', Water: 'water' }[dmElement] || 'metal';
+  const dmPigKey = ELEMENT_TO_PIGMENT[dmElement] || 'metal';
   const checkColor = pigments[dmPigKey].deep;
   const stemKey = STEM_KEY[chart?.dayMaster?.stem] || 'geng';
 
@@ -327,7 +333,7 @@ export function UpgradeModalHost() {
               Checkout didn't open? Reopen it →
             </button>
           </div>
-        ) : PAYMENT.foundingCheckout && payState === 'resume' && user && tier !== 'advisor' ? (
+        ) : PAYMENT.foundingCheckout && payState === 'resume' && user && tier !== FOUNDING_GRANTS_TIER ? (
           <div style={{
             background: 'linear-gradient(135deg, #FBF3E4, #F3E4C8)',
             border: `1.5px solid ${gold}`, borderRadius: 16, padding: 20, marginBottom: 12,
@@ -360,8 +366,8 @@ export function UpgradeModalHost() {
             border={`1.5px solid ${gold}`}
             features={FOUNDING_FEATURES}
             checkColor={checkColor}
-            ctaLabel={tier === 'advisor' ? 'You have full access' : 'Become a Founding member'}
-            ctaDisabled={tier === 'advisor'}
+            ctaLabel={tier === FOUNDING_GRANTS_TIER ? 'You have full access' : 'Become a Founding member'}
+            ctaDisabled={tier === FOUNDING_GRANTS_TIER}
             ctaBg={bronzeDark}
             onUpgrade={buyFounding}
           />

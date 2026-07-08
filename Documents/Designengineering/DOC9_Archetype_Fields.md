@@ -1,6 +1,6 @@
 # DOC9 · Archetype Fields (Design Companion)
 
-> **What this is.** A designer-facing companion to [`archetypeSchema.js`](../../Elementum_App/src/content/archetypeSchema.js). When you're scoping a new screen, block, card, or infographic — this tells you *which fields are available* for that surface, *what the copy cap is*, and *what assets feed it*. Grouped by UI surface, not by data shape.
+> **What this is.** A designer-facing companion to [`archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js). When you're scoping a new screen, block, card, or infographic — this tells you *which fields are available* for that surface, *what the copy cap is*, and *what assets feed it*. Grouped by UI surface, not by data shape.
 >
 > **Source of truth.** `archetypeSchema.js` — if this doc and the schema disagree, the schema wins. Bump the version in the schema when you change a field.
 >
@@ -74,7 +74,7 @@ Every field in the schema declares a `varyBy` tag that tells the generation pipe
 | `stem·lifeDomain×40` | 40 | Per-stem × per-domain (e.g. `liunianSignatures.*` when authored at this grain) |
 | `tg·lifeDomain×40` | 40 | Per-TG × per-domain |
 
-**Authoring rule:** if your field doesn't fit any combination above, extend `VARY_DIMENSIONS` in [`archetypeSchema.js`](../../Elementum_App/src/content/archetypeSchema.js), add a cardinality to `VARY_CARDINALITY`, and add a `VARY_LIBRARY` entry — then this doc gets the corresponding row. The DevBar picks up new dimensions automatically; color palette may need a pigment for the new primary dimension in `DevBar.jsx → VaryChip`.
+**Authoring rule:** if your field doesn't fit any combination above, extend `VARY_DIMENSIONS` in [`archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js), add a cardinality to `VARY_CARDINALITY`, and add a `VARY_LIBRARY` entry — then this doc gets the corresponding row. The DevBar picks up new dimensions automatically; color palette may need a pigment for the new primary dimension in `DevBar.jsx → VaryChip`.
 
 > `tier` is **not** a varyBy dimension. Tier is gating (who sees the field); varyBy is authoring cardinality (how many variants exist). Keep them in separate schema fields.
 
@@ -253,7 +253,7 @@ Authoring anchors that never surface in UI. Used by the generation pipeline for 
 
 1. Read the UI surface section above that maps to your screen.
 2. Scope the component to fields already in the schema. Don't invent new field names in the component — add them to the schema first.
-3. If you need a new field: add it to [`archetypeSchema.js`](../../Elementum_App/src/content/archetypeSchema.js), bump `SCHEMA_VERSION`, populate for 庚 as the reference, then document it here.
+3. If you need a new field: add it to [`archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js), bump `SCHEMA_VERSION`, populate for 庚 as the reference, then document it here.
 4. For asset-bearing fields, note the naming and location conventions above.
 
 ## Checking coverage

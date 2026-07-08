@@ -64,10 +64,6 @@ export default function LoadingScreen({ onComplete }) {
     return () => clearInterval(id);
   }, [exiting]);
 
-  // Warm the Reveal chunk while we wait, so the white-flash handoff isn't
-  // interrupted by a lazy-load fallback when onComplete mounts it.
-  useEffect(() => { import('./reading/ReadingRevealScreen.jsx').catch(() => {}); }, []);
-
   // Calculate the chart on mount, hold the ceremonial dwell, then flash out.
   useEffect(() => {
     let cancelled = false;

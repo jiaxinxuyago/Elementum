@@ -91,14 +91,24 @@ function computeChart(b) {
   }
 }
 // Returns the chart to seed state with: the cached chart if its engine version
-// matches; otherwise a fresh recompute from birthData (or null if no birth data).
+// matches AND it was computed today; otherwise a fresh recompute from birthData
+// (or null if no birth data). The date check matters because the calculator
+// bakes "today" into the chart (currentFlowDay/Month/Year, luckPillars
+// isCurrent/isPast, currentAge) — a cached chart served on a later day shows
+// yesterday's daily guidance next to today's date.
 function loadInitialChart() {
   const stored = readJSON(CHART_KEY);
-  if (stored && stored.engineVersion === ENGINE_VERSION && stored.chart) {
+  if (
+    stored && stored.engineVersion === ENGINE_VERSION && stored.chart &&
+    stored.computedOn === new Date().toDateString()
+  ) {
     return stored.chart;
   }
   const birth = readJSON(BIRTH_KEY) || INITIAL_BIRTH_DATA;
-  return isCompleteBirthData(birth) ? computeChart(birth) : null;
+  if (isCompleteBirthData(birth)) return computeChart(birth);
+  // Stale-dated cache with no recomputable birth data (shouldn't happen —
+  // birthData persists alongside the chart): better than serving a wrong today.
+  return stored?.chart ?? null;
 }
 
 export function ChartProvider({ children }) {
@@ -191,6 +201,28 @@ export function ChartProvider({ children }) {
     };
   }, [user, refreshEntitlements]);
 
+  // Day rollover: the calculator bakes "today" into the chart, so a PWA left
+  // open past midnight (no reload → loadInitialChart never re-runs) would keep
+  // serving yesterday's flow day. Recompute on the same wake triggers as the
+  // entitlement refresh whenever the calendar date has changed.
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    let computedDay = new Date().toDateString();
+    const onWake = () => {
+      if (typeof document !== 'undefined' && document.visibilityState !== 'visible') return;
+      const today = new Date().toDateString();
+      if (today === computedDay) return;
+      computedDay = today;
+      if (chart && isCompleteBirthData(birthData)) setChart(computeChart(birthData));
+    };
+    window.addEventListener('focus', onWake);
+    document.addEventListener('visibilitychange', onWake);
+    return () => {
+      window.removeEventListener('focus', onWake);
+      document.removeEventListener('visibilitychange', onWake);
+    };
+  }, [chart, birthData]);
+
   // Merge partial updates, e.g. updateBirthData({ year: 1991 })
   const updateBirthData = useCallback((patch) => {
     setBirthData((prev) => ({ ...prev, ...patch }));
@@ -202,7 +234,7 @@ export function ChartProvider({ children }) {
   }, [birthData]);
   useEffect(() => {
     try {
-      if (chart) localStorage.setItem(CHART_KEY, JSON.stringify({ engineVersion: ENGINE_VERSION, chart }));
+      if (chart) localStorage.setItem(CHART_KEY, JSON.stringify({ engineVersion: ENGINE_VERSION, computedOn: new Date().toDateString(), chart }));
       else localStorage.removeItem(CHART_KEY);
     } catch { /* storage unavailable (private mode) — ignore */ }
   }, [chart]);

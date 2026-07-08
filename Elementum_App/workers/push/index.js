@@ -156,6 +156,11 @@ export default {
       return json(dailyMessage(), 200, cors);
     }
 
+    // Auth model: deliberately unauthenticated write. A hostile caller can
+    // only add a subscription row for an endpoint THEY name — the cron sends
+    // by utc_hour, the payload is the fixed public daily message (no PII, no
+    // spend), and dead endpoints self-prune on 404/410. Signed-in users pass
+    // userId for their own row; it grants nothing.
     if (request.method === 'POST' && pathname === '/subscribe') {
       let body;
       try { body = await request.json(); } catch { return json({ error: 'bad json' }, 400, cors); }
@@ -212,6 +217,9 @@ export default {
       }
     }
 
+    // Auth model: unguessable capability URL — same reasoning as /send-now:
+    // only the endpoint's owner (or our own server) can name it, and deleting
+    // a row you can name is at worst self-service unsubscribe.
     if (request.method === 'POST' && pathname === '/unsubscribe') {
       let body;
       try { body = await request.json(); } catch { return json({ error: 'bad json' }, 400, cors); }
