@@ -24,6 +24,8 @@
       "Bash(git remote -v)",
       "Bash(node tools/qa-engine-regression.mjs)",
       "Bash(node tools/qa-route-sweep.mjs)",
+      "Bash(node tools/qa-journey-sweep.mjs)",
+      "Bash(node tools/send-report.mjs *)",
       "Bash(node tools/qa-accuracy-dump.mjs)",
       "Bash(node tools/qa-strength-diagnostic.mjs)",
       "Bash(node tools/reading-format-audit.mjs)",
@@ -34,6 +36,7 @@
       "Bash(curl -s -X POST \"https://elementum-push.jiaxinxuyago.workers.dev/report\"*)",
       "Edit(Elementum_App/tools/qa-output/**)",
       "Write(Elementum_App/tools/qa-output/**)",
+      "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File D:\\Elementum\\Elementum_Project\\Elementum_App\\tools\\daily-qa-routine.ps1*)",
       "PowerShell(schtasks /Query *)",
       "PowerShell(Get-ScheduledTask *)",
       "PowerShell(Get-ScheduledTaskInfo *)"
