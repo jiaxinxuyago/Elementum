@@ -1,6 +1,6 @@
 # Elementum · Doc 3 — Knowledge Pool
 
-> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** Deltas for this doc: (1) the §3.5 Ten-God profiles now need **presence-frame register** variants (dominant = full read · present = derived shorter · scarce/absent = cultivation); extend §8.3's 2-band element model to the 3-band persona model. (2) §3.4 elemental-processing fields are the **source for the new `rulingDomain`** (DM-relative life-area line) — convert each element-field into a plain-English domain line per (element × Day Master). (3) §8.6 translation contract and §8.9 jargon ban **stay canonical** (no 比肩/正财, no yin/yang/"polarity" surfaced). (4) Tier-3 resonance bridges (e.g. Archetype_Reference's 5-family grouping) must **never** seed the persona taxonomy — personas are per-god, all 10 distinct (decision C3).
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `DES_09_Reading_V2.1_Reconciliation_Audit.md`).** Deltas for this doc: (1) the §3.5 Ten-God profiles now need **presence-frame register** variants (dominant = full read · present = derived shorter · scarce/absent = cultivation); extend §8.3's 2-band element model to the 3-band persona model. (2) §3.4 elemental-processing fields are the **source for the new `rulingDomain`** (DM-relative life-area line) — convert each element-field into a plain-English domain line per (element × Day Master). (3) §8.6 translation contract and §8.9 jargon ban **stay canonical** (no 比肩/正财, no yin/yang/"polarity" surfaced). (4) Tier-3 resonance bridges (e.g. Archetype_Reference's 5-family grouping) must **never** seed the persona taxonomy — personas are per-god, all 10 distinct (decision C3).
 
 This document is a **library, not a protocol.** It provides materials; Doc 4 provides generation instructions. Reading Doc 3 tells you what sources exist and how they are tiered. Reading Doc 4 tells you which ones to use for a given key, in what order, with what ceilings.
 
@@ -58,7 +58,7 @@ Never exceed these ceilings even if the source seems to offer more. Readings tha
 
 **Sourcing standard:** All principles cited as SOURCE-FROM are concept-reliable across at least one of the above texts. Where exact phrasing is commentary-register rather than verbatim quotation, this is noted. The principle is what matters; the exact wording is secondary.
 
-**Committed methodology lineage (2026-06-25).** Elementum's calculation commits to a **子平真诠 (structure-core) + 滴天髓 (relative-clash)** synthesis, deliberately chosen against aggressive modern 排盘 practice. The four load-bearing rulings — **合而不化 by default** (真化 gated on 月令 + 透干引化 + no 冲破 + adjacency), **relative root-uprooting 冲**, **刑/害/破 as reading-only (never numeric)**, and **qualitative 强弱 gates** (得令/得地/得势) — all derive from these two texts. The calculation rules live in **DOC1 §3**; the classical sourcing for the clash/strength side is below in the 滴天髓 section, and for the structure/格局 side in the 子平真诠 section.
+**Committed methodology lineage (2026-06-25).** Elementum's calculation commits to a **子平真诠 (structure-core) + 滴天髓 (relative-clash)** synthesis, deliberately chosen against aggressive modern 排盘 practice. The four load-bearing rulings — **合而不化 by default** (真化 gated on 月令 + 透干引化 + no 冲破 + adjacency), **relative root-uprooting 冲**, **刑/害/破 as reading-only (never numeric)**, and **qualitative 强弱 gates** (得令/得地/得势) — all derive from these two texts. The calculation rules live in **DEV_01 §3**; the classical sourcing for the clash/strength side is below in the 滴天髓 section, and for the structure/格局 side in the 子平真诠 section.
 
 ---
 
@@ -274,10 +274,10 @@ Max: **3 behavioral claims for 七杀.** Hard ceiling (elevated from 2 due to bi
 
 ---
 
-**SOURCE-FROM — strength & clash doctrine (calculation methodology · 2026-06-25 commit).** 滴天髓 is the canonical authority for how 冲 and 强弱 feed the **calculation** (engine rules in DOC1 §3):
-- **冲 is relative, root-uprooting:** *支神只以冲为重 … 旺者冲衰衰者拔，衰神冲旺旺神发* — a strong branch clashing a weak one **uproots its root**; a weak one clashing a strong one merely **provokes** it. → DOC1 §3.7b.
+**SOURCE-FROM — strength & clash doctrine (calculation methodology · 2026-06-25 commit).** 滴天髓 is the canonical authority for how 冲 and 强弱 feed the **calculation** (engine rules in DEV_01 §3):
+- **冲 is relative, root-uprooting:** *支神只以冲为重 … 旺者冲衰衰者拔，衰神冲旺旺神发* — a strong branch clashing a weak one **uproots its root**; a weak one clashing a strong one merely **provokes** it. → DEV_01 §3.7b.
 - **刑 / 害(穿) / 破 are deleted from the calculation:** 任铁樵 dismisses them as folk-error — *"刑之义无所取 … 穿即害也 … 尤属不经，削之可也 … 总以论其生克为是."* They are **reading/event-layer only**, never numeric strength modifiers (this is why Elementum keeps them in `detectPatterns`, not the composition). They MAY act as *qualitative* 破格 flags in 子平真诠's 成败救应 (格局 success/failure), but **never as numbers**.
-- **Substance vs function:** the dominance number tracks 五行 **substance (旺衰)**; 合-binding and 刑害破 change **function**, not substance — full statement in DOC1 §3 methodology preamble.
+- **Substance vs function:** the dominance number tracks 五行 **substance (旺衰)**; 合-binding and 刑害破 change **function**, not substance — full statement in DEV_01 §3 methodology preamble.
 
 ---
 
@@ -960,7 +960,7 @@ All citations formatted APA 7th edition. Where a concept appears under multiple 
 #### Creativity and Innovation
 
 **Friedman, R. S., & Förster, J. (2001).** The effects of promotion and prevention cues on creativity. *Journal of Personality and Social Psychology, 81*(6), 1001–1013. https://doi.org/10.1037/0022-3514.81.6.1001
-> Prevention-focused processing produces reactive, constraint-responsive creativity distinct from promotion-focused output. Primary empirical source for the "reactive creativity" mechanism in 伤官 TG profile (cited in DOC3 as Forster & Higgins 1996).
+> Prevention-focused processing produces reactive, constraint-responsive creativity distinct from promotion-focused output. Primary empirical source for the "reactive creativity" mechanism in 伤官 TG profile (cited in DES_02 as Forster & Higgins 1996).
 
 **Patterson, F., Kerrin, M., & Gatto-Roissard, G. (2009).** *Characteristics and behaviours of innovative people in organisations*. NESTA Research Report.
 > Innovation personality profiles in organizational contexts. Used in 伤官 TG profile.
@@ -1131,7 +1131,7 @@ For verification against engine's hidden-stem scoring. Standard convention: Main
 | 戌 | 戊 Earth | 辛 Metal | 丁 Fire |
 | 亥 | 壬 Water | 甲 Wood | — |
 
-Cross-reference with DOC1 hidden-stem weights. If the engine uses different percentages, the DOC1 values are authoritative — this table is for spot-checking branch parsing logic.
+Cross-reference with DEV_01 hidden-stem weights. If the engine uses different percentages, the DEV_01 values are authoritative — this table is for spot-checking branch parsing logic.
 
 ---
 
@@ -1149,7 +1149,7 @@ Cross-reference with DOC1 hidden-stem weights. If the engine uses different perc
 
 | Layer | Context | Chinese Characters | BaZi Terminology | Rule |
 |---|---|---|---|---|
-| **Internal / verification** | DOC3 source entries, elementNatureData.js / dominantEnergyTgData.js constants, CLASSICAL_STEM_ANCHORS, CLASSICAL_TG_ANCHORS | ✓ Permitted | ✓ Permitted | For human + AI proof-reading and source verification only |
+| **Internal / verification** | DES_02 source entries, elementNatureData.js / dominantEnergyTgData.js constants, CLASSICAL_STEM_ANCHORS, CLASSICAL_TG_ANCHORS | ✓ Permitted | ✓ Permitted | For human + AI proof-reading and source verification only |
 | **Generation prompts** | batchGenerate.js prompt strings sent to LLM | ✓ Permitted as reference labels only, always English-paired | ✓ Permitted as structural labels | Prompts may reference BaZi terms when orienting the model; the model’s OUTPUT must be clean |
 | **User-facing output** | All reading text, UI card content, static labels, exported reading fields | ✗ Zero Chinese characters | ✗ Zero BaZi jargon | Absolute. No fallthrough from prompt layer. |
 

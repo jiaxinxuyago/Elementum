@@ -59,7 +59,7 @@
 - Faces (post-fix): wood now correctly leads **正财 The Steward** (was polarity-blind 偏财 The Horizon).
 
 **Findings:**
-- **F1 (now SUPERSEDED by B6 — do NOT remove):** `chart.tenGods.*Branch` = "—" (passes a branch to `getTenGod`, which only takes stems). It is unused *today*, but the **宫位 positional axis (B6, DOC6 §1)** will read a per-pillar Ten God at the branch positions — so the fix is to **derive each `*Branch` from the branch's main hidden stem** (`getTenGod(dayStem, HIDDEN_STEMS[branch][0].s)`), not delete the field. Folded into the engine Phase-2 / positional-surface work. Until then it's a harmless "—".
+- **F1 (now SUPERSEDED by B6 — do NOT remove):** `chart.tenGods.*Branch` = "—" (passes a branch to `getTenGod`, which only takes stems). It is unused *today*, but the **宫位 positional axis (B6, DES_05 §1)** will read a per-pillar Ten God at the branch positions — so the fix is to **derive each `*Branch` from the branch's main hidden stem** (`getTenGod(dayStem, HIDDEN_STEMS[branch][0].s)`), not delete the field. Folded into the engine Phase-2 / positional-surface work. Until then it's a harmless "—".
 
 **External cross-check — BaZi Lab (`bazi-lab.com`), via owner screenshot (Chrome MCP blocks the domain for nav/read/screenshot):**
 - **Tier-A: ✅ EXACT MATCH, zero discrepancies.** Pillars 乙亥·庚辰·庚寅·乙酉 and stem Ten Gods 正财·比肩·日主·正财 match exactly (BaZi Lab run used 18:45→True Solar 18:31, still 酉 hour → identical pillars). Hidden stems (壬甲/戊乙癸/甲丙戊/辛) match → Elementum's element-scoring inputs are correct. BaZi Lab also displays branch-deity Ten Gods (per hidden stem) which Elementum intentionally omits (confirms F1 is scope, not error).
@@ -85,7 +85,7 @@
 
 ## 7 · Run — 2026-06-25 (post 合而不化 + adjacency + relative-冲 fix)
 
-**What shipped** (`calculator.js`, per DOC1 §3.7 / §3.7b / §3.8):
+**What shipped** (`calculator.js`, per DEV_01 §3.7 / §3.7b / §3.8):
 - **Site 1 — `applyBondModifiers`:** 合 now **binds by default (合而不化)** and touches no numbers unless the **真化 gate** passes (adjacency + 月令 commands the result + month branch not 冲破). Full 三合 bureau self-sufficient (gate = no 冲破); 六合/半合/天干合 need 月令. Retires the presence-only, always-transform behaviour that caused QA-F2.
 - **Site 2 — `computeDMStrength` 得地:** a DM root on the **weaker side of a present 六冲** is uprooted and no longer anchors the DM (滴天髓 旺者冲衰衰者拔; strength ≈ position weight, 月令 strongest).
 - **No change:** 刑/害/破 stay reading-only (`detectPatterns`); polarity faces unchanged (read raw pillars).

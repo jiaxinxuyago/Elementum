@@ -1,9 +1,9 @@
-# AUTOMATION_RUNBOOK — Elementum agent routines & guards
+# PM_01_Automation_Runbook — Elementum agent routines & guards
 
 **What this is:** the single inventory of every automated routine, guard, and
 delivery channel protecting Elementum — what runs when, where each piece lives,
 and how to rebuild the machine-local half on a new workstation. Built
-2026-07-07; review standard = `CODE_REVIEW_STANDARDS.md`.
+2026-07-07; review standard = `DEV_03_Code_Review_Standards.md`.
 
 **The design in one line:** deterministic scripts detect (zero tokens) →
 scheduled agents triage and narrate (tokens only when something's red) →
@@ -21,13 +21,13 @@ in the loop. Agents find; humans+sessions fix.
 | 3 | **Live sync + deploy smoke check** | Every Claude-session Stop | Stop hook → script | `tools/sync-live.ps1` (fingerprint-gated build+deploy+smoke; failure sentinel `DEPLOY_SMOKE_FAILED.md`) | Hook JSON in `.claude/settings.local.json` (§3.2) |
 | 4 | **Daily QA detector** | 1:57 PM daily (PC on) | Windows Task Scheduler → script | `tools/daily-qa-routine.ps1` (engine regression + route sweep + live health + git hygiene; sentinel `DAILY_QA_FAILED.md`; emails on failure) | schtasks registration (§3.3) |
 | 5 | **Daily QA triage agent** | ~2:32 PM daily (Claude app open; catches up on launch) | Scheduled Claude agent | Prompt copy: `tools/routines/daily-qa-triage.prompt.md` | Live task: `~/.claude/scheduled-tasks/elementum-daily-qa-triage/` |
-| 6 | **Daily code-review agent** | ~3:14 PM daily (same) | Scheduled Claude agent | Prompt copy: `tools/routines/daily-code-review.prompt.md`; standard: `Documents/Designengineering/CODE_REVIEW_STANDARDS.md`; state: `tools/qa-output/code-review/last-reviewed.txt` (gitignored) | Live task: `~/.claude/scheduled-tasks/elementum-daily-code-review/` |
+| 6 | **Daily code-review agent** | ~3:14 PM daily (same) | Scheduled Claude agent | Prompt copy: `tools/routines/daily-code-review.prompt.md`; standard: `Documents/Development/DEV_03_Code_Review_Standards.md`; state: `tools/qa-output/code-review/last-reviewed.txt` (gitignored) | Live task: `~/.claude/scheduled-tasks/elementum-daily-code-review/` |
 | 7 | **Email report channel** | Called by #4/#5/#6/#8 | Worker endpoint | `workers/push/index.js` `POST /report` (secret-gated, sends `qa@elementum.life` → owner only; free verified-destination path) | `ELEMENTUM_REPORT_KEY` user env var (§3.4) |
 | 8 | **Fix-dispatch manager + bug-lifecycle ledger** | ~4:01 PM daily (closure pass runs even on clean days) | Scheduled Claude agent → parallel fixer subagents | Prompt copy: `tools/routines/fix-dispatch.prompt.md`; lifecycle ledger `tools/qa-output/fix-dispatch/journal.md` (gitignored; finding ↔ branch ↔ OPEN/FIX-READY/CLOSED/REOPENED/REPORT-ONLY) | Live task: `~/.claude/scheduled-tasks/elementum-fix-dispatch/` |
 
 Related but product infra, not QA automation: the push worker's **hourly cron**
 (daily reminders; doubles as the Supabase free-tier keep-alive) and the
-**stripe-webhook** / **llm** workers (DOC10 §4.2/§4.3).
+**stripe-webhook** / **llm** workers (INF_01 §4.2/§4.3).
 
 ## §2 A normal day
 
@@ -39,7 +39,7 @@ Related but product infra, not QA automation: the push worker's **hourly cron**
   screenshots, writes + emails the plain-English digest
   (`tools/qa-output/daily-routine/digest.md`, newest-first journal).
 - **~3:14 PM** — code-review agent reviews `lastSHA..origin/main` against
-  CODE_REVIEW_STANDARDS (depth scales with diff size; findings must cite
+  DEV_03_Code_Review_Standards (depth scales with diff size; findings must cite
   §-codes), journals to `tools/qa-output/code-review/journal.md`, emails the
   verdict, advances the SHA marker.
 - **~4:01 PM** — fix-dispatch manager. FIRST the **closure pass** (every day):
@@ -114,7 +114,7 @@ Integration (all executed 2026-07-09):
    count on first occurrence). ✔
 3. Triage-agent digest wording covers journeys (live task + repo prompt
    copy). ✔
-4. CODE_REVIEW_STANDARDS **§2-C7**: interaction-affecting changes must keep
+4. DEV_03_Code_Review_Standards **§2-C7**: interaction-affecting changes must keep
    the journey suite green. ✔
 5. **Deliberately excluded:** the deploy smoke check does NOT gate on
    journeys — availability-only. Gesture tests must prove a flake-free week
@@ -157,7 +157,7 @@ Register-ScheduledTask -TaskName "Elementum Daily QA" -Action $action -Trigger $
 "run whether logged on or not" needs elevation — not used.)
 Health check: `schtasks /Query /TN "Elementum Daily QA" /FO LIST /V` —
 `Last Result` must be 0; instant-return failures → read `%TEMP%\dq-task.log`.
-⚠ `.ps1` files must be UTF-8 WITH BOM (CODE_REVIEW_STANDARDS §4-A9) — PS 5.1
+⚠ `.ps1` files must be UTF-8 WITH BOM (DEV_03_Code_Review_Standards §4-A9) — PS 5.1
 misreads BOM-less UTF-8 as ANSI. ⚠ **Sandbox overlay:** dev-session installs
 of system-path binaries (Playwright browsers) land in a virtualized overlay
 INVISIBLE to OS-scheduled processes — the routine therefore installs its own
@@ -195,5 +195,5 @@ copy is the durable source.
   console invites a human to close it mid-run.
 - This runbook is the inventory of record: adding/retiring a routine, changing
   a schedule, or changing the email suite edits this file in the same
-  change-set (CODE_REVIEW_STANDARDS §4-A10 pairing rule). Routine prompts are
+  change-set (DEV_03_Code_Review_Standards §4-A10 pairing rule). Routine prompts are
   dual-homed: live task + `tools/routines/*.prompt.md` — edits update both.

@@ -12,7 +12,7 @@
 
 ## 0 · Where the reading data lives (architecture audit)
 
-The reading **data is pure** (no engine/React deps — every file below is Node-importable), but it is **not yet a single library** — it is split between `src/content/` and `src/components/d13/`, and `d13ReadingResolve.js` mixes data maps with resolve logic. Consolidating into one `content/reading/` library with barrels is **Phase 4 of `ARCH_CLEANUP_AUDIT.md` — deferred, pending your approval** (strictly behavior-preserving). So: the separation you expected is **not done yet**; the data is clean and extractable, just scattered.
+The reading **data is pure** (no engine/React deps — every file below is Node-importable), but it is **not yet a single library** — it is split between `src/content/` and `src/components/d13/`, and `d13ReadingResolve.js` mixes data maps with resolve logic. Consolidating into one `content/reading/` library with barrels is **Phase 4 of `DEV_05_Arch_Cleanup_Audit.md` — deferred, pending your approval** (strictly behavior-preserving). So: the separation you expected is **not done yet**; the data is clean and extractable, just scattered.
 
 | File | Exports (reading data) | Keyed by | Pure? |
 |---|---|---|---|

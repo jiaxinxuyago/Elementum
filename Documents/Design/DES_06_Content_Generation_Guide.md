@@ -1,14 +1,14 @@
-# DOC7 — Content Generation Guide
+# DES_06 — Content Generation Guide
 
-> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** **Four** new authoring sections are required: (1) a **per-face persona prompt** (each Ten-God persona authored in its element context, both polarity faces); (2) a **register-variation prompt** — how a persona reads as `dominant` (full, bespoke) vs `absent` (cultivation, bespoke), with `present` derived; (3) a **ruling-domain prompt** — the DM-relative life-area line ("your wealth & desire"-style, ×50); (4) a **positional-reading prompt (宫位 × 十神, B6)** — compose the persona's canon mechanism into each pillar's palace life-domain (年 origins / 月 career-parents / **日支 partner-夫妻宫** / 时 children-legacy) × polarity; author the **~7 `PALACE_FRAMES`**, the per-pillar reading itself is composed (DOC3 §2.7b, DOC6 §3–4). The `Persona_Construction_Prompt_Formula` runs **per persona** and must additionally emit the ruling-domain line. (Parts 1–4 below describe the legacy per-`TG_CARD_DATA` prompts — retarget them to K2 `ENERGY_CARD_DATA` in the generation pass.)
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `DES_09_Reading_V2.1_Reconciliation_Audit.md`).** **Four** new authoring sections are required: (1) a **per-face persona prompt** (each Ten-God persona authored in its element context, both polarity faces); (2) a **register-variation prompt** — how a persona reads as `dominant` (full, bespoke) vs `absent` (cultivation, bespoke), with `present` derived; (3) a **ruling-domain prompt** — the DM-relative life-area line ("your wealth & desire"-style, ×50); (4) a **positional-reading prompt (宫位 × 十神, B6)** — compose the persona's canon mechanism into each pillar's palace life-domain (年 origins / 月 career-parents / **日支 partner-夫妻宫** / 时 children-legacy) × polarity; author the **~7 `PALACE_FRAMES`**, the per-pillar reading itself is composed (DES_02 §2.7b, DES_05 §3–4). The `Persona_Construction_Prompt_Formula` runs **per persona** and must additionally emit the ruling-domain line. (Parts 1–4 below describe the legacy per-`TG_CARD_DATA` prompts — retarget them to K2 `ENERGY_CARD_DATA` in the generation pass.)
 
 **Version:** 1.0 · April 2026  
 **Purpose:** Prompt templates and quality standards for authoring Elementum content fields.  
 Written against the live schema in `archetypeSource.js` — field names and data shapes are exact.
 
-> **Cross-reference (added with DOC9).**
-> The *shape* of every field (type, tier, word caps, `varyBy` cardinality) is declared canonically in [`Elementum_App/src/content/archetypeSchema.js`](../../Elementum_App/src/content/archetypeSchema.js). The UI-surface companion is [DOC9 — Archetype Fields](./DOC9_Archetype_Fields.md).
-> DOC7 tells you **how to write each field** (prompt templates, voice, classical grounding, quality gates). The schema tells you **what to write and how many variants are needed**.
+> **Cross-reference (added with DES_07).**
+> The *shape* of every field (type, tier, word caps, `varyBy` cardinality) is declared canonically in [`Elementum_App/src/content/archetypeSchema.js`](../../Elementum_App/src/content/archetypeSchema.js). The UI-surface companion is [DES_07 — Archetype Fields](./DES_07_Archetype_Fields.md).
+> DES_06 tells you **how to write each field** (prompt templates, voice, classical grounding, quality gates). The schema tells you **what to write and how many variants are needed**.
 > When this doc describes a field shape that conflicts with the schema, the schema wins — update this doc.
 
 ---

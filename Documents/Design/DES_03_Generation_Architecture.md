@@ -1,16 +1,16 @@
 # Elementum · Doc 4 — Generation Architecture & Reading Content Guide
 
-> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** Deltas for this doc: (1) retarget the 50 compound cards (`DomEnergyTg_Data.js`, Pipeline A2) to **`ENERGY_CARD_DATA[${element}_${god}]`** with the v2.1 shape — a **FACES prologue** (abstract · punchline · chips · `rulingDomain`) plus the **reading authored per presence-frame register**: `dominant` and `absent` **bespoke**, `present` **derived** (compressed from dominant). (2) **§9 exception (decision C5):** the rule "TG content does not vary by band" is overridden **for the energy-card layer** — a persona reads differently as dominant vs present vs absent (cultivation). (3) Add a **`rulingDomain`** field, authored **per persona (×50), DM-relative**. (4) Generation must produce the **two polarity faces** per direction (persona-per-god), not one collapsed god.
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `DES_09_Reading_V2.1_Reconciliation_Audit.md`).** Deltas for this doc: (1) retarget the 50 compound cards (`DomEnergyTg_Data.js`, Pipeline A2) to **`ENERGY_CARD_DATA[${element}_${god}]`** with the v2.1 shape — a **FACES prologue** (abstract · punchline · chips · `rulingDomain`) plus the **reading authored per presence-frame register**: `dominant` and `absent` **bespoke**, `present` **derived** (compressed from dominant). (2) **§9 exception (decision C5):** the rule "TG content does not vary by band" is overridden **for the energy-card layer** — a persona reads differently as dominant vs present vs absent (cultivation). (3) Add a **`rulingDomain`** field, authored **per persona (×50), DM-relative**. (4) Generation must produce the **two polarity faces** per direction (persona-per-god), not one collapsed god.
 
 > **Version 4.3 · April 2026**
 > This document replaces all prior generation architecture. The old three-pass pipeline (portrait prewrite → persona card → reading schema) is retired. `archetypeSource.js` is the single source of truth for all field names, reading templates, and knowledge-pool content. Two pre-generated serving files exist: `STEM_CARD_DATA.js` (150 configuration-specific entries) and `DomEnergyTg_Data.js` (50 compound archetype cards). Generated content beyond those files is limited to the self-report synthesis pass (on purchase).
 
-> **Cross-reference (added with DOC9).**
+> **Cross-reference (added with DES_07).**
 > Field shapes, tier gating per field, and `varyBy` cardinality now live in the canonical schema: [`Elementum_App/src/content/archetypeSchema.js`](../../Elementum_App/src/content/archetypeSchema.js).
-> Designer-facing companion grouped by UI surface: [DOC9 — Archetype Fields](./DOC9_Archetype_Fields.md).
-> The full tag library (stem, tg, element, band, tgPattern, branch, season, gender, lifeDomain, lifeStage, lifePeriod, annualPillar) is documented in DOC9 → "VaryBy Tag Library". Use it to classify any new field without colliding with existing archetype universes.
+> Designer-facing companion grouped by UI surface: [DES_07 — Archetype Fields](./DES_07_Archetype_Fields.md).
+> The full tag library (stem, tg, element, band, tgPattern, branch, season, gender, lifeDomain, lifeStage, lifePeriod, annualPillar) is documented in DES_07 → "VaryBy Tag Library". Use it to classify any new field without colliding with existing archetype universes.
 > The DevBar `Schema` tab visualizes coverage and cardinality against this schema for the active stem.
-> **When this doc and the schema disagree, the schema wins.** DOC4 focuses on orchestration, delivery, rendering rules, and synthesis contracts — the *how*, not the *what*.
+> **When this doc and the schema disagree, the schema wins.** DES_03 focuses on orchestration, delivery, rendering rules, and synthesis contracts — the *how*, not the *what*.
 
 ---
 
@@ -77,7 +77,7 @@ Elementum_Project/
                                    engine imports from the Code/ files instead.
 ```
 
-> **Vite migration:** See `Documents/Designengineering/DOC8_Code_Architecture_and_Migration.md` for the complete guide
+> **Vite migration:** See `Documents/Development/DEV_02_Code_Architecture_and_Migration.md` for the complete guide
 > to migrating from single-file artifact to a structured Vite + React project,
 > including the full import map, component extraction order, and data loading wiring.
 
@@ -100,7 +100,7 @@ The 150 `stem_band_tgPattern` keys are the permanent structural foundation of th
 
 | Section | Content | Source |
 |---|---|---|
-| Identity Card | Archetype name, element, identity icon SVG, manifesto (two lines) | `archetypeSource.js` — archetype table (DOC2); `ARCHETYPE_MANIFESTO[stem]` in `Elementum_Engine.jsx` |
+| Identity Card | Archetype name, element, identity icon SVG, manifesto (two lines) | `archetypeSource.js` — archetype table (DES_01); `ARCHETYPE_MANIFESTO[stem]` in `Elementum_Engine.jsx` |
 | Elemental Nature Card | Energy condition diagnosis: band paragraph (concentrated / balanced / open) | `archetypeSource.js` → `STEM_CARD_DATA[stem].manual[band]` |
 | DM Energy Intro *(open/balanced DM only)* | Introduces the Day Master’s elemental nature when it is not the dominant energy | `archetypeSource.js` → `STEM_CARD_DATA[stem].energy.*` |
 | Dominant Energy Cards (top 2) | Visual hierarchy — proportional card weight. TG layer: title, ruling realm (`rulingRealm`), behavioral chips, outputs (`outputs[]`), frictions (`frictions[]`) | `archetypeSource.js` → `TG_CARD_DATA[tg].*` free-tier fields |
@@ -148,7 +148,7 @@ Example for 庚: `"Precision before intention · An edge is never given — it i
 
 All 10 stem manifesto strings must follow this `Line 1 · Line 2` format. A string with no ` · ` separator displays as a single line (fallback).
 
-**Identity icon** — Each stem has a dedicated SVG identity illustration rendered in `DayMasterHero`. 庚 uses the `BladeJian` component (straight sword). All other stems currently fall back to the `ArchetypeSeal` abstract geometric seal. The identity icon is approximately 175px tall and is the visual center of the card. See DOC5 §20 for the full asset library.
+**Identity icon** — Each stem has a dedicated SVG identity illustration rendered in `DayMasterHero`. 庚 uses the `BladeJian` component (straight sword). All other stems currently fall back to the `ArchetypeSeal` abstract geometric seal. The identity icon is approximately 175px tall and is the visual center of the card. See DES_04 §20 for the full asset library.
 
 **Badge tiles** — Three interactive tiles below the archetype name: Element (tapping opens Five Elements education panel), Stem (tapping opens 10-stem Day Master panel), Polarity (tapping opens taichi Yin/Yang panel). These tiles read from `chart.dayMaster.element`, `chart.dayMaster.stem`, and `chart.dayMaster.polarity`.
 
@@ -172,7 +172,7 @@ All 10 stem manifesto strings must follow this `Line 1 · Line 2` format. A stri
 
 The first thing the user reads on this page. UI eyebrow: **"THE ELEMENT"**. Rendered before any personalised content. Sources from `archetypeSource.js` → `identity.elementIntro`. Two sentences: a declarative codex-register definition of the elemental force (`punch`), and an adjective-rich vibe description of someone carrying it (`expand`). Third-person throughout — no "you". SVG illustration of the stem’s archetype symbol rendered alongside the text.
 
-See DOC7 §3 for full authoring spec and prompt guidance for all 10 stems.
+See DES_06 §3 for full authoring spec and prompt guidance for all 10 stems.
 
 #### Layer 1–4 — Energy condition reading
 
@@ -234,9 +234,9 @@ Every TG card is governed by a **locked reading angle** — a single lens that a
 
 ## §4 — Data Architecture & Field Reference
 
-> **⚠ Partial overlap with the schema (DOC9 / archetypeSchema.js).**
-> The field names, types, and tier tables in this section duplicate what is now canonically declared in [`archetypeSchema.js`](../../Elementum_App/src/content/archetypeSchema.js) and documented by UI surface in [DOC9](./DOC9_Archetype_Fields.md).
-> This section is retained for historical continuity and to keep DOC4's orchestration/rendering discussion self-contained. When field specifics diverge between this section and the schema, the schema wins. Candidate for consolidation to a pointer once DOC9 matures.
+> **⚠ Partial overlap with the schema (DES_07 / archetypeSchema.js).**
+> The field names, types, and tier tables in this section duplicate what is now canonically declared in [`archetypeSchema.js`](../../Elementum_App/src/content/archetypeSchema.js) and documented by UI surface in [DES_07](./DES_07_Archetype_Fields.md).
+> This section is retained for historical continuity and to keep DES_03's orchestration/rendering discussion self-contained. When field specifics diverge between this section and the schema, the schema wins. Candidate for consolidation to a pointer once DES_07 matures.
 
 ### Source of truth: `archetypeSource.js`
 
@@ -259,7 +259,7 @@ One entry per stem (10 total).
 
 #### `identity.elementIntro.*` — "The Element" block (Layer 0 of the Elemental Nature page)
 
-World-building intro block. UI eyebrow label: **"THE ELEMENT"**. Rendered before any personal reading content. Third-person, no "you". One entry per stem, hand-authored — not generated. See DOC7 §3 for authoring spec and prompt guidance.
+World-building intro block. UI eyebrow label: **"THE ELEMENT"**. Rendered before any personal reading content. Third-person, no "you". One entry per stem, hand-authored — not generated. See DES_06 §3 for authoring spec and prompt guidance.
 
 | Field | Type | Description | Tier |
 |---|---|---|---|
@@ -471,7 +471,7 @@ Universal catalyst/remedy framing. Used as synthesis pass context.
 
 #### PILLAR_STAGE
 
-VERIFY-ONLY. Conditional use in readings when chart concentration justifies it. See DOC3 §2.7.
+VERIFY-ONLY. Conditional use in readings when chart concentration justifies it. See DES_02 §2.7.
 
 ---
 
@@ -479,9 +479,9 @@ VERIFY-ONLY. Conditional use in readings when chart concentration justifies it. 
 
 ### The jargon-free principle
 
-All BaZi technical terms are engine inputs only. They never appear in user-facing text. For the full translation protocol, see DOC3 PART 8 (§8.1–§8.11).
+All BaZi technical terms are engine inputs only. They never appear in user-facing text. For the full translation protocol, see DES_02 PART 8 (§8.1–§8.11).
 
-**Permanently banned from all user-facing output (complete list in DOC3 §8.9):**
+**Permanently banned from all user-facing output (complete list in DES_02 §8.9):**
 Day Master, Ten Gods, Food God, Hurt Officer, Seven Killings, Direct Officer, Parallel Self, Rob Wealth, Direct Wealth, Indirect Wealth, Direct Seal, Indirect Seal, Pure, Rooted, Flowing, Forging, Tested, Bazi, Ba Zi, Four Pillars, the universe, cosmic, destiny, fate, zodiac, spiritual, tapestry, empowered, genuinely, fundamentally, at your core, in essence
 
 ### Translation table (technical → reading language)
@@ -495,7 +495,7 @@ Day Master, Ten Gods, Food God, Hurt Officer, Seven Killings, Direct Officer, Pa
 | Unmediated authority pressure | “Something external will press on you and ask: is the edge real? Is the work real?” |
 | Framework-mediated recognition | “The possibility of genuine recognition — not performance-based praise, but the kind that arrives when someone with standing encounters the real quality of what you’ve built.” |
 
-For the complete vocabulary lock and idiom bridges, see DOC3 §8.
+For the complete vocabulary lock and idiom bridges, see DES_02 §8.
 
 ### Voice specifications
 
@@ -549,7 +549,7 @@ Cross-check before proceeding: read the first sentence back. Does it feel like i
 
 ---
 
-**① Archetype identity** — `yourNature.phrase` is the named archetype: the single most distilled characterological statement for this stem (examples: *The Structural Assessor*, *The Ascending Vine*). **[AUDIT 2026-06] INTERNAL — authoring anchor only, NOT rendered in the UI.** Per DOC9 §3 and the live app (which marks it `[INTERNAL — not rendered]` and renders `yourNature.desc` as the portrait), this field is a synthesis/authoring anchor. The earlier "displayed prominently as the visual anchor" framing is superseded.
+**① Archetype identity** — `yourNature.phrase` is the named archetype: the single most distilled characterological statement for this stem (examples: *The Structural Assessor*, *The Ascending Vine*). **[AUDIT 2026-06] INTERNAL — authoring anchor only, NOT rendered in the UI.** Per DES_07 §3 and the live app (which marks it `[INTERNAL — not rendered]` and renders `yourNature.desc` as the portrait), this field is a synthesis/authoring anchor. The earlier "displayed prominently as the visual anchor" framing is superseded.
 
 ---
 
@@ -743,9 +743,9 @@ Generates all 150 `stem_band_tgPattern` entries. Each config is an independent g
 **Generation inputs per call:**
 1. Target config key: `stem`, `band`, `tgPattern`
 2. Stem grounding from `archetypeSource.js`: the full `STEM_CARD_DATA[stem]` entry — `blocks[]`, `manual.*`, `energy.*` — as characterological reference
-3. Band meaning: what `concentrated` / `balanced` / `open` means for DM energy level (from DOC4 §9 Rule 3)
-4. tgPattern meaning: what dominant force family is operating and its implication for the DM (from DOC4 §9 Rule 4)
-5. Voice register: the elemental register for this stem (Metal / Wood / Fire / Earth / Water — from DOC4 §5)
+3. Band meaning: what `concentrated` / `balanced` / `open` means for DM energy level (from DES_03 §9 Rule 3)
+4. tgPattern meaning: what dominant force family is operating and its implication for the DM (from DES_03 §9 Rule 4)
+5. Voice register: the elemental register for this stem (Metal / Wood / Fire / Earth / Water — from DES_03 §5)
 6. `BINGYI_FRAMING` writing constraints (from `archetypeSource.js`)
 
 ```
@@ -772,7 +772,7 @@ Generates all 50 `domEl_specificTenGod` compound archetype cards. Output stored 
 1. Target config key: `domEl`, `specificTenGod` (which implies the DM element)
 2. DM stem grounding: `STEM_CARD_DATA[impliedDmStem]` from `archetypeSource.js`
 3. TG grounding: `TG_CARD_DATA[specificTenGod]` from `archetypeSource.js`
-4. Interaction description: the structural interaction narrative from DOC2 §3 (50-key taxonomy)
+4. Interaction description: the structural interaction narrative from DES_01 §3 (50-key taxonomy)
 5. Voice register: the DM element's elemental register
 6. `CLASSICAL_STEM_ANCHORS`, `CLASSICAL_TG_ANCHORS`, `BINGYI_FRAMING` from `archetypeSource.js`
 
@@ -835,7 +835,7 @@ CONSTRAINTS:
 - The base nature is the foundation — the force interactions build on it, not alongside it
 - Output must follow the 13-field self-report schema exactly
 - 2AM thought integrated organically, not as a labelled field
-- All translation protocol rules apply (DOC3 §8)
+- All translation protocol rules apply (DES_02 §8)
 - Voice register: [element] throughout — single register, no switching
 - Never reproduce source field text verbatim — synthesise, compress, and voice
 
@@ -869,7 +869,7 @@ Ten God content differentiation happens at the compound card layer (`DomEnergyTg
 
 **Authoring units and frames:**
 
-> **[AUDIT 2026-06] The field names in the table below are LEGACY (pre-v3.5).** The current `TG_CARD_DATA` schema (see §3/§4 and the live `archetypeSource.js`) uses: `rulingRealm{phrase,desc}`, `chips[]`, `outputs[]`, `frictions[]`, `gifts[]`, `shadows[]`, `hiddenDynamic`, `domainSignatures.{career,relationships,wealth,health}`, `sixRelations`, `liunianSignatures`. **Removed:** `personalityParagraph`, `decisionStyle`, `communicationStyle`, `hiddenTrait` (the last three replaced by `hiddenDynamic` — mechanism, not person). Map: `realmPhrase/realmDesc → rulingRealm.{phrase,desc}`, `gift/shadow → gifts/shadows` (+ structured `outputs/frictions`), `domains → domainSignatures`, `people → sixRelations`, `liunian/liunianLabel → liunianSignatures`. Treat the table and the "Context-layered convention" note below as historical. *(The 4 `domainSignatures` here — career/relationships/wealth/health — are the force-domain model; the Energy Manual's 5 domains (DOC5 §12, adds Purpose) are a separate, intentional UI model.)*
+> **[AUDIT 2026-06] The field names in the table below are LEGACY (pre-v3.5).** The current `TG_CARD_DATA` schema (see §3/§4 and the live `archetypeSource.js`) uses: `rulingRealm{phrase,desc}`, `chips[]`, `outputs[]`, `frictions[]`, `gifts[]`, `shadows[]`, `hiddenDynamic`, `domainSignatures.{career,relationships,wealth,health}`, `sixRelations`, `liunianSignatures`. **Removed:** `personalityParagraph`, `decisionStyle`, `communicationStyle`, `hiddenTrait` (the last three replaced by `hiddenDynamic` — mechanism, not person). Map: `realmPhrase/realmDesc → rulingRealm.{phrase,desc}`, `gift/shadow → gifts/shadows` (+ structured `outputs/frictions`), `domains → domainSignatures`, `people → sixRelations`, `liunian/liunianLabel → liunianSignatures`. Treat the table and the "Context-layered convention" note below as historical. *(The 4 `domainSignatures` here — career/relationships/wealth/health — are the force-domain model; the Energy Manual's 5 domains (DES_04 §12, adds Purpose) are a separate, intentional UI model.)*
 
 | Field group | Fields | Authoring frame |
 |---|---|---|
@@ -1326,7 +1326,7 @@ The `rooted` pattern (resource/seal energy dominant, Earth supporting Metal) has
 
 The profile data fields documented in §4 must be enriched and re-categorised before Pro tier launch. The source of truth (`archetypeSource.js` and its HTML twin) will be edited directly, and downstream archetype data files updated to match. Current `TG_CARD_DATA` fields in `archetypeSource.js` were written at an earlier stage of the project and need to be:
 
-1. **Audited** against the translation protocol (DOC3 §8) — any Chinese characters or BaZi jargon in user-facing fields flagged and rewritten
+1. **Audited** against the translation protocol (DES_02 §8) — any Chinese characters or BaZi jargon in user-facing fields flagged and rewritten
 2. **Enriched** — the PRO-tier TG fields (`hiddenDynamic`, `domainSignatures`, `sixRelations`, `liunianSignatures`, plus the structured `outputs`/`frictions`) deepened to Pro-tier quality. *([AUDIT 2026-06] The legacy names `personalityParagraph` / `decisionStyle` / `communicationStyle` / `hiddenTrait` were removed — see §3/§4 and the "Authoring units and frames" note.)*
 3. **Banded** — stem energy content eventually scaled to concentrated / balanced / open variants (currently one version per stem)
 4. **Field-categorised** — each field explicitly tagged with its tier (Free / Pro / Internal) in the data structure for clean API filtering
@@ -1337,7 +1337,7 @@ This work is tracked separately and does not block the compound card generation 
 
 ## §10 — Compound Coverage Protocol
 
-> **⚠ v2.1 reconciliation (B5 + B6 · 2026-06-24).** This protocol predates the **2-layer model**. **Rule A still holds** — Identity (Layer 1) vs Ten-God cards are distinct angles (who-you-are vs what-a-force-does). **Rule B (Layer 2 vs Layer 3 primary/secondary territory) is SUPERSEDED:** there is no dominant-vs-secondary coordination — **every present energy gets its own card**, differentiated instead by (a) **presence-frame register** (dominant/present/absent — B1) and (b) **polarity face**. Cross-card non-overlap is handled per-card by register, not by allocating "territory" between two TGs. **New orthogonal axis — positional reading (宫位 × 十神, B6):** composes `PALACE_FRAMES[position] × chart.tenGods[position] × polarity` into per-pillar cards (schema §3, DOC3 §2.7b). The full Pipeline A2 / §10 rewrite to this model is part of the generation/code pass.
+> **⚠ v2.1 reconciliation (B5 + B6 · 2026-06-24).** This protocol predates the **2-layer model**. **Rule A still holds** — Identity (Layer 1) vs Ten-God cards are distinct angles (who-you-are vs what-a-force-does). **Rule B (Layer 2 vs Layer 3 primary/secondary territory) is SUPERSEDED:** there is no dominant-vs-secondary coordination — **every present energy gets its own card**, differentiated instead by (a) **presence-frame register** (dominant/present/absent — B1) and (b) **polarity face**. Cross-card non-overlap is handled per-card by register, not by allocating "territory" between two TGs. **New orthogonal axis — positional reading (宫位 × 十神, B6):** composes `PALACE_FRAMES[position] × chart.tenGods[position] × polarity` into per-pillar cards (schema §3, DES_02 §2.7b). The full Pipeline A2 / §10 rewrite to this model is part of the generation/code pass.
 
 ### What this section is
 

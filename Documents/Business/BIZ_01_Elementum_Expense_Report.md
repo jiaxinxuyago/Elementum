@@ -1,7 +1,7 @@
 # Elementum — Expense Report & Cost Projection
 
 **As of:** 2026-07-07 · **Prepared before the §4.3 LLM investment decision** (the one recurring cost not yet committed)
-**Companion docs:** `DOC10_Backend_Architecture.md` (§4.3 cost gates, §4.2a Phase-B costs) · infra ownership map (memory)
+**Companion docs:** `INF_01_Backend_Architecture.md` (§4.3 cost gates, §4.2a Phase-B costs) · infra ownership map (memory)
 **Convention:** 🟢 live cost · ⚪ free today · 🟡 committed-future (trigger defined) · 🔵 pending owner approval
 
 ---
@@ -53,16 +53,16 @@
 
 > Perspective: the entire §4.3 LLM debate (Sonnet vs open, ~$25–200/mo at scale) plays out INSIDE the shadow of the Claude Max line. Development tooling — not runtime infrastructure — is where this business spends money today.
 
-**Phase B (native app, whenever):** + Apple Developer **$99/yr** (~$8/mo) + Apple/Google take **15–30% of in-app revenue** (vs Stripe's ~3%; 15% at our size via the Small Business Program) — the single biggest cost event on the roadmap; tracked in DOC10 §4.2a. **Enrollment STARTED 2026-07:** Organization under Lantern Digital (owner-locked); free D-U-N-S request is the current step; the $99 is deliberately deferred until Phase B is scheduled (membership year starts at purchase).
+**Phase B (native app, whenever):** + Apple Developer **$99/yr** (~$8/mo) + Apple/Google take **15–30% of in-app revenue** (vs Stripe's ~3%; 15% at our size via the Small Business Program) — the single biggest cost event on the roadmap; tracked in INF_01 §4.2a. **Enrollment STARTED 2026-07:** Organization under Lantern Digital (owner-locked); free D-U-N-S request is the current step; the $99 is deliberately deferred until Phase B is scheduled (membership year starts at purchase).
 
-**Post-beta compliance (at real revenue):** Merchant-of-Record option (Paddle/Lemon Squeezy) trades ~+2–5% per sale for offloading global VAT/sales-tax — decision parked in DOC10 §9.
+**Post-beta compliance (at real revenue):** Merchant-of-Record option (Paddle/Lemon Squeezy) trades ~+2–5% per sale for offloading global VAT/sales-tax — decision parked in INF_01 §9.
 
 ---
 
 ## 4 · Committed cost triggers (rules already on record)
 
 1. **Supabase Free → Pro ($25/mo):** before beta *marketing* begins. (Idle-pause risk is already mitigated by the push cron's hourly traffic; Pro is a capacity/SLA decision.)
-2. **LLM model switch (Sonnet → open):** when monthly LLM spend exceeds **~$50** OR **~20% of that month's revenue** — env-var flip on the worker, no rebuild. (DOC10 §4.3.)
+2. **LLM model switch (Sonnet → open):** when monthly LLM spend exceeds **~$50** OR **~20% of that month's revenue** — env-var flip on the worker, no rebuild. (INF_01 §4.3.)
 3. **LLM outer wall:** Anthropic console monthly spend limit set at account creation (~$25 recommended) — hard stop regardless of bugs or abuse.
 4. **Per-user cap:** 30 consultant messages/day → bounds the worst single user at ~$7/mo (Sonnet cached).
 5. **Stripe price changes** must ship with a webhook `PRODUCTS` update in the same deploy (routing is amount-based).
@@ -82,7 +82,7 @@ Net revenue per sale after Stripe: **Founding $8.44** · **Self-Report $6.49**.
 
 > **The honest read:** covering the all-in number with one-time $9 passes means ~25–35 *new* buyers every month indefinitely — not a plan. The realistic paths to all-in break-even are (a) post-beta **subscriptions** ($9.99/$19.99 recurring: ~20–25 Seeker subs covers everything), and/or (b) treating Claude Max as a bounded **investment phase** that downshifts once the build stabilizes. Runtime-only break-even, by contrast, is nearly free — the product itself is cheap to keep alive.
 
-> **Structural note (from DOC10 §4.3):** the Founding Pass is one-time revenue against forever inference cost — a typical consultant user consumes their $9 in ~a year, a heavy user in ~3 months. At Phase-3 scale the LLM must be funded by **recurring** revenue: that is the standing business case for launching the Seeker/Advisor subscriptions post-beta, and the reason the open-model switch trigger exists.
+> **Structural note (from INF_01 §4.3):** the Founding Pass is one-time revenue against forever inference cost — a typical consultant user consumes their $9 in ~a year, a heavy user in ~3 months. At Phase-3 scale the LLM must be funded by **recurring** revenue: that is the standing business case for launching the Seeker/Advisor subscriptions post-beta, and the reason the open-model switch trigger exists.
 
 ---
 
@@ -93,6 +93,6 @@ Net revenue per sale after Stripe: **Founding $8.44** · **Self-Report $6.49**.
 - [x] ~~Decide the 🔵 LLM line~~ — **decided + live 2026-07-07: §4.3 Phase 0 shipped (Sonnet, $50/mo kill-switch); actuals accrue in `llm_usage`**
 - [ ] Apple Developer: complete the Lantern Digital D-U-N-S request; pay the $99 only when Phase B is scheduled, then add the line to §1/§2 (~$8.25/mo amortized)
 - [ ] Periodically revisit whether the Max plan tier still matches the build phase (heavy build vs maintenance)
-- [ ] Revisit this report at each phase gate (it is referenced from DOC10)
+- [ ] Revisit this report at each phase gate (it is referenced from INF_01)
 
-*Maintained by hand — update alongside DOC10 when a cost trigger fires.*
+*Maintained by hand — update alongside INF_01 when a cost trigger fires.*

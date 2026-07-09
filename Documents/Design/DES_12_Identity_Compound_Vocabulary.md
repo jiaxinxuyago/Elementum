@@ -1,10 +1,10 @@
 # Elementum · Identity Compound Vocabulary (Layer-3 Keywords)
 
 > **Status: OWNER-LOCKED vocabulary (2026-07-02) · design record for the identity-card / Five Energies redesign.**
-> Branch: `feat/identity-card-design`. Companion to DOC2 §3 (the 50-key taxonomy) — this doc records the
+> Branch: `feat/identity-card-design`. Companion to DES_01 §3 (the 50-key taxonomy) — this doc records the
 > plain-English *meaning layer* decisions made 2026-07-01 → 2026-07-02 and the reasoning chain behind them.
-> ⚠ DOC2 amendment pending: the "Shareable code / MBTI resonance" future fields in DOC2 §2 are being realized
-> by this work; DOC2 itself is LOCKED and untouched until the owner folds this in.
+> ⚠ DES_01 amendment pending: the "Shareable code / MBTI resonance" future fields in DES_01 §2 are being realized
+> by this work; DES_01 itself is LOCKED and untouched until the owner folds this in.
 
 ---
 
@@ -36,11 +36,11 @@ ten-god relation, in plain English (e.g. "your Earth is 33% with 偏印 dominant
   Same Metal = "The Twin" on the faces page and "The Magistrate" on the element Read card → contradiction
   fatal to the MBTI-clarity promise.
 
-**Resolution (owner, 2026-07-02): both systems compound — neither wins.** Per DOC2 §3, the meaning unit
+**Resolution (owner, 2026-07-02): both systems compound — neither wins.** Per DES_01 §3, the meaning unit
 is the 50-key `[element]_[tenGod]` compound: the **element is the substance/flavor**, the **ten-god is
 the relation to the core**. `ENERGY_CONTENT` (element-only) and `FACE_CARD` (god-only) were both
-half-implementations of DOC2's compound; they merge into the 50 cells rather than fight over the slot.
-The Day Master is the core noun; the five elements are its relations. **A‑12345 = DOC2's Layer 1
+half-implementations of DES_01's compound; they merge into the 50 cells rather than fight over the slot.
+The Day Master is the core noun; the five elements are its relations. **A‑12345 = DES_01's Layer 1
 (core, `stem_band_pattern`) + Layer 2 (the five `element_tenGod` relations).**
 
 ---
@@ -126,20 +126,20 @@ Owner-locked 2026-07-02 (Wood: **Vital** chosen over Growing — gerund reads as
 Nurture** · 水食神 = **Deep Fluency** · 火七杀 = **Ardent Force** · 金比肩 = **Sharp Independence** ·
 木正财 = **Vital Prudence**. The full 50 = {Sharp, Vital, Ardent, Grounded, Deep} × {Independence,
 Rivalry, Fluency, Brilliance, Enterprise, Prudence, Force, Order, Insight, Nurture} — each cell's valid
-DM implied per DOC2 §3's 50-key table.
+DM implied per DES_01 §3's 50-key table.
 
 **Reference reading of a compound (土偏印, the worked example):** 印 = the force that backs and feeds
 you; 偏 = the indirect face — self-generated, intuitive, unorthodox support (The Alchemist; classically
 can "steal the food" 梟印奪食); 土 = stable, grounding, patient. Compound: *a self-made, grounded,
 intuitive footing — you hold yourself up.* Role flips the verdict: at `needed` = "a precious inner
 footing — lean in"; at `friction` 33% on a strong self = "over-grounded; the comfort that stalls the
-blade" (the reference Blade's actual case, DOC2 §3 reference chart).
+blade" (the reference Blade's actual case, DES_01 §3 reference chart).
 
 ---
 
 ## §6 — Worked compounds (A‑12345 examples)
 
-**庚 The Blade (reference chart, DOC2 §3):** Metal 23% 金比肩 **Sharp Independence** (self) · Wood 33%
+**庚 The Blade (reference chart, DES_01 §3):** Metal 23% 金比肩 **Sharp Independence** (self) · Wood 33%
 木正财 **Vital Prudence** (drive, catalyst) · Earth 33% 土偏印 **Grounded Insight** (ground, friction) ·
 Water 6% 水食神 **Deep Fluency** (voice) · Fire 5% 火七杀 **Ardent Force** (forge, needed 用神).
 
@@ -160,14 +160,14 @@ the whole system.
 
 | Item | Status |
 |---|---|
-| Deeper per-cell readings (translate DOC2 §3's 50 semi-jargon "structural interactions" to plain English, role-aware) | NEXT — not started |
+| Deeper per-cell readings (translate DES_01 §3's 50 semi-jargon "structural interactions" to plain English, role-aware) | NEXT — not started |
 | Layer-2 diagnosis card design (function + role + yin/yang face bar) | after 50 cells |
 | Surface valence framing (collapse 5 engine roles → 3 readable states: fuels / balanced / overloads-or-lacking?) | proposed, not locked |
 | Code ordering (function-ordered code vs dominance-ordered reading — two views) | proposed, not locked |
 | Speakable headline ("Core + defining relation", e.g. "a Blade, Alchemist-heavy") | proposed, not locked |
 | Legacy `ENERGY_CONTENT` merge/retire into the 50 cells | required by §2, not implemented |
 | Remaining archetype worked examples (乙 Vine · 丁 Candle · 己 Field · 辛 Jewel · 癸 Rain) | not drafted |
-| DOC2 §2 amendment (Shareable code / MBTI resonance realized by this system) | owner to fold in |
+| DES_01 §2 amendment (Shareable code / MBTI resonance realized by this system) | owner to fold in |
 
 **Do-not-break:** `DominanceWheel` consumes only `{el,presence,roles,major}` — the compound layer never
 touches it. `EnergyShelf` catalogue anatomy (hook/pol/role) is the user-facing contract; the compound
@@ -184,4 +184,4 @@ enriches tiles, never replaces the catalogue.
 | **Status** | §4 + §5 vocabulary OWNER-LOCKED · §7 items open |
 | **Audience** | Owner, engineers, content generation |
 | **Purpose** | Record of the compound (core + five relations) identity decisions: the two-system clash resolution, the three-layer architecture, the locked 10 face keywords + 5 element modifiers, and the 50-cell glance-label formula |
-| **Companion to** | DOC2 §3 (50-key taxonomy) · READING_V2.1_RECONCILIATION_AUDIT.md · DOC6 |
+| **Companion to** | DES_01 §3 (50-key taxonomy) · DES_09_Reading_V2.1_Reconciliation_Audit.md · DES_05 |

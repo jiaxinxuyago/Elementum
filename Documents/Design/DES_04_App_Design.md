@@ -1,6 +1,6 @@
 # Elementum · Doc 5 — App Design Document
 
-> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** Design deltas: (1) a new **FACES prologue** is inserted *inside* the reading layer (between the catalogue and the text-heavy reading) — it is **not a new IA node**, so the §AM.1 locked table (`catalogue → reading`) **stays intact**. The face card shows, per persona: dominant-energy abstract + punchline + keywords + **ruling domain**. *(Component spec: the "Energy Faces screen" subsection in §11.)* (2) The reading unit (§11) is now **persona-scoped** (one Ten-God persona), read at a depth set by its **presence frame** (dominant/present/scarce/absent). (3) An element shows **1–2 faces strictly by calculation**; full-element absence is the ghost/cultivation read. (4) **Energy-level polarity surfaces as the two FACES** (personas), not as a per-energy yin/yang label. NB the **DM identity "Polarity chip"** (§9 — the Yang/Yin badge tile) **stays**: "Yin/Yang" is permitted as the stem register per the vocabulary law (only the term "polarity" is internal). *[Corrects the first-pass banner, which over-flagged this chip as a jargon violation.]* (5) The §AM.8/D3 **six-row → five-element** catalogue reconciliation is tracked separately as **D14 (extends D13)** in `DESIGN_AUDIT_BACKLOG.md`, not forced by v2.1. (6) **NEW positional axis (宫位, B6):** add a per-pillar **positional reading** surface (年 / 月 / 日支-夫妻宫 / 时 × Ten God × polarity); the engine already computes per-pillar TGs, composed via `PALACE_FRAMES × chart.tenGods` (DOC6 §1–§4, DOC3 §2.7b).
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `DES_09_Reading_V2.1_Reconciliation_Audit.md`).** Design deltas: (1) a new **FACES prologue** is inserted *inside* the reading layer (between the catalogue and the text-heavy reading) — it is **not a new IA node**, so the §AM.1 locked table (`catalogue → reading`) **stays intact**. The face card shows, per persona: dominant-energy abstract + punchline + keywords + **ruling domain**. *(Component spec: the "Energy Faces screen" subsection in §11.)* (2) The reading unit (§11) is now **persona-scoped** (one Ten-God persona), read at a depth set by its **presence frame** (dominant/present/scarce/absent). (3) An element shows **1–2 faces strictly by calculation**; full-element absence is the ghost/cultivation read. (4) **Energy-level polarity surfaces as the two FACES** (personas), not as a per-energy yin/yang label. NB the **DM identity "Polarity chip"** (§9 — the Yang/Yin badge tile) **stays**: "Yin/Yang" is permitted as the stem register per the vocabulary law (only the term "polarity" is internal). *[Corrects the first-pass banner, which over-flagged this chip as a jargon violation.]* (5) The §AM.8/D3 **six-row → five-element** catalogue reconciliation is tracked separately as **D14 (extends D13)** in `DES_13_Design_Audit_Backlog.md`, not forced by v2.1. (6) **NEW positional axis (宫位, B6):** add a per-pillar **positional reading** surface (年 / 月 / 日支-夫妻宫 / 时 × Ten God × polarity); the engine already computes per-pillar TGs, composed via `PALACE_FRAMES × chart.tenGods` (DES_05 §1–§4, DES_02 §2.7b).
 
 This document is the primary reference for all UI and interaction design work in Elementum. It is the contract between the design vision, the frontend implementation, and the data contracts defined in Doc 2. Designers use it to understand intent. Engineers use it to understand what to build and what data powers each component.
 
@@ -55,7 +55,7 @@ Design the reading structure and construct the reading content so that Elementum
 
 ### What this governs
 
-- The **reading-structure redesign** (D12): section composition, per-section jobs, field formats, and word budgets (evidence base: `READING_FORMAT_AUDIT.md` — budgets serve the voice, not vice versa).
+- The **reading-structure redesign** (D12): section composition, per-section jobs, field formats, and word budgets (evidence base: `DES_10_Reading_Format_Audit.md` — budgets serve the voice, not vice versa).
 - The **content reconstruction** that follows the new schema, and the 150-key batch behind it (gated on the new schema freeze).
 - The **journey design** of Reveal → catalogue → detail pagers: progressive concept disclosure, not flat presentation.
 
@@ -71,7 +71,7 @@ Design the reading structure and construct the reading content so that Elementum
 | B — Resonance | ≥7/10 cold readers report self-recognition on their own reading; returning-user rate on Today screen demonstrates the daily pull. |
 | **Payoff latency (D13)** | A personal claim ("that's me") is on screen **within the first Reveal viewport, zero taps**; every catalogue card face carries a conclusion, not a category label. |
 
-**Related:** §1 (the ancient-seriousness ↔ daily-accessibility tension this charter operationalizes) · DOC4 (voice + generation rules) · `DESIGN_AUDIT_BACKLOG.md` D12 · `READING_FORMAT_AUDIT.md` (format evidence).
+**Related:** §1 (the ancient-seriousness ↔ daily-accessibility tension this charter operationalizes) · DES_03 (voice + generation rules) · `DES_13_Design_Audit_Backlog.md` D12 · `DES_10_Reading_Format_Audit.md` (format evidence).
 
 ---
 
@@ -209,7 +209,7 @@ These primitives are extracted from `Design/northstar-anchor.html` — the self-
 
 **See also:** `Design/legend-primitives.html` — the rendered design legend that visually documents every rule in this section (color palette, type specimen, eyebrow library, radius scale, spacing scale, card surfaces, component primitives, italic gallery, border palette, anti-patterns, page templates, drift log). When in doubt about how a rule looks rendered, open the legend. The companion `Design/legend-patterns.html` covers screen-level assemblies (welcome, onboarding, loading, tab nav, modals, forms, status, page header).
 
-**Authority:** The anchor is the source of truth. When DOC5 and the anchor disagree, fix DOC5 to match the anchor (not the other way around). When app code drifts from the anchor, fix the app code. New patterns require a doc patch *before* implementation.
+**Authority:** The anchor is the source of truth. When DES_04 and the anchor disagree, fix DES_04 to match the anchor (not the other way around). When app code drifts from the anchor, fix the app code. New patterns require a doc patch *before* implementation.
 
 ### §3.5.A — Pigment alpha ladder
 
@@ -861,7 +861,7 @@ The browser-default `<select>` elements in V006 are mismatched to the aesthetic.
 
 **Progress dots:** 5 dots, one per element. They fill left to right over 2.5 seconds using their element colors. This communicates that five distinct calculations are happening.
 
-**Transition out — the ceremonial handoff to Reveal (DOC5 §9 v1.7):**
+**Transition out — the ceremonial handoff to Reveal (DES_04 §9 v1.7):**
 
 The hand-off from Loading → Reveal is the most emotionally loaded transition in the product. The user has spent 60–90 seconds answering birth questions and 2.5 seconds watching elements pulse. A hard cut here would break the meditative state. Instead, a three-phase ceremonial sequence is performed:
 
@@ -970,7 +970,7 @@ Total entrance window: ~2700 ms from Reveal mount. Combined with the 850 ms load
 
 Tile background: flat `rgba(248,241,225,0.92)` silk fill (the same tone as `deckleCard` surfaces — Energy Blueprint card, etc.). NO gradient, NO inset highlight, NO inner ring. One hairline border in `PAPER_HAIR` that warms to `${elementPigment}55` on hover; one subtle 1px shadow that becomes a soft `${elementPigment}22` glow on hover. The tiles are sibling silk pieces with the cards below — the painted hero mark above carries the visual weight; the chips are quiet identifiers.
 
-**Why three chips, not one pill?** A pill ran the three identifiers together as a string (`庚 · Yang Metal · Blade`), which made the stem character compete with the archetype name. The three-chip layout separates the *element family*, the *stem letter*, and the *polarity* into discrete tap targets — each will open its own knowledge popup in Phase 2 (DOC5 §17 popup data contracts: `ELEMENT_KNOWLEDGE`, `STEM_KNOWLEDGE`, `POLARITY_KNOWLEDGE`).
+**Why three chips, not one pill?** A pill ran the three identifiers together as a string (`庚 · Yang Metal · Blade`), which made the stem character compete with the archetype name. The three-chip layout separates the *element family*, the *stem letter*, and the *polarity* into discrete tap targets — each will open its own knowledge popup in Phase 2 (DES_04 §17 popup data contracts: `ELEMENT_KNOWLEDGE`, `STEM_KNOWLEDGE`, `POLARITY_KNOWLEDGE`).
 
 **Section composition:** The section uses `padding: '90px 32px 120px'` and `justifyContent: 'flex-start'`. The `HeroStemMark` is the first child with `marginTop: -40` so the blade tip rises into the mountain band; everything else follows in document flow. Mountains paint at `zIndex: 1` (absolute, top: 20, height: 260, masked-fade at the bottom); section content lives at `zIndex: 10`, so the painted mark renders ABOVE the mountain wash.
 
@@ -1149,7 +1149,7 @@ Three stacked cards:
 
 ---
 
-> **[AUDIT 2026-06 · S5/S6/S2/S3 — CANONICAL] The shipped Reading layer differs from the v1.7/v1.8 blocks below; those are historical.** Tabs are **Today · Guidance · Reading · Compat · Profile** (icons-only, §AM.2 — not "Energy Map / Friends", and the table below's labels are stale). The catalogue is the **6-row set** (Identity Card + Elemental Nature · Dominant Energies · Forces in Motion · [Seasonal Calibration — conditional] · Life Chapters · Daily Reading · Pillar Patterns) per §AM.8 D3 — Seasonal is a conditional catalogue row (S2/S3). The detail **pager** is `getReadingSections()` (`reading-detail/sections.js`), listing the same reading rows (Identity Card = stop 1; Daily Reading is a tab-jump, not a pager stop). The old **8-section `getSections` with `dom_0`/`dom_1` Primary/Secondary Force pages is retired** (S6): Dominant Energies is one page (`read-tengods`) rendering `TG_CARD_DATA` + the TG ring, and the schema's `dominantEnergy` / `seasonalCalibration` / `liunianSignatures` groups are **internal-only — no live consumer** (S1). See DESIGN_AUDIT_BACKLOG.md §4 (S-series).
+> **[AUDIT 2026-06 · S5/S6/S2/S3 — CANONICAL] The shipped Reading layer differs from the v1.7/v1.8 blocks below; those are historical.** Tabs are **Today · Guidance · Reading · Compat · Profile** (icons-only, §AM.2 — not "Energy Map / Friends", and the table below's labels are stale). The catalogue is the **6-row set** (Identity Card + Elemental Nature · Dominant Energies · Forces in Motion · [Seasonal Calibration — conditional] · Life Chapters · Daily Reading · Pillar Patterns) per §AM.8 D3 — Seasonal is a conditional catalogue row (S2/S3). The detail **pager** is `getReadingSections()` (`reading-detail/sections.js`), listing the same reading rows (Identity Card = stop 1; Daily Reading is a tab-jump, not a pager stop). The old **8-section `getSections` with `dom_0`/`dom_1` Primary/Secondary Force pages is retired** (S6): Dominant Energies is one page (`read-tengods`) rendering `TG_CARD_DATA` + the TG ring, and the schema's `dominantEnergy` / `seasonalCalibration` / `liunianSignatures` groups are **internal-only — no live consumer** (S1). See DES_13_Design_Audit_Backlog.md §4 (S-series).
 
 ### Energy Faces screen (v2.1 · the polar Ten-God display) — decisions A2 · B4 · B5 · 2026-06-24
 
@@ -1173,13 +1173,13 @@ Three stacked cards:
 - **Read affordance** (→).
 - **Hierarchy:** the lead (dominant-weight) card is larger / accented (`{element}` border + faint fill); the undertone card is lighter (hairline `PAPER_HAIR`, reduced weight). Single-face charts show one centered card at lead emphasis.
 
-**Tap a face card → the persona's reading.** The prologue content (abstract / punchline / chips / ruling domain) already lives on the card; the destination is the text-heavy read — `R · X · gate · seeker` in **presence-frame registers** (DOC6 §3–§4).
+**Tap a face card → the persona's reading.** The prologue content (abstract / punchline / chips / ruling domain) already lives on the card; the destination is the text-heavy read — `R · X · gate · seeker` in **presence-frame registers** (DES_05 §3–§4).
 
 **Surface tokens:** silk card fills (`rgba(248,241,225,0.92)`), hairline `PAPER_HAIR` borders warming to `{element}55` on press; `Cormorant` for persona/title, `EB Garamond` for body, `JetBrains Mono` for eyebrows/markers; **no italic (§AM.10)**, no gradients (§AM surfaces).
 
-**Data contract:** engine emits per element `{ presentFaces: [{god, weight}], absentGod }` (polarity-aware — DOC1). Each card binds to `ENERGY_CARD_DATA[\`${element}_${god}\`]` (prologue fields); art keyed to the god's Council concept × element. Card count is the present-face count — never padded.
+**Data contract:** engine emits per element `{ presentFaces: [{god, weight}], absentGod }` (polarity-aware — DEV_01). Each card binds to `ENERGY_CARD_DATA[\`${element}_${god}\`]` (prologue fields); art keyed to the god's Council concept × element. Card count is the present-face count — never padded.
 
-**Relationship to the positional axis (B6):** this screen is the **element-dominance** view. The **positional reading (宫位 × 十神)** is a *separate* per-pillar surface (年/月/日支-夫妻宫/时) reusing the same persona content framed by palace — not part of this screen. See DOC6 §3 + DOC3 §2.7b.
+**Relationship to the positional axis (B6):** this screen is the **element-dominance** view. The **positional reading (宫位 × 十神)** is a *separate* per-pillar surface (年/月/日支-夫妻宫/时) reusing the same persona content framed by palace — not part of this screen. See DES_05 §3 + DES_02 §2.7b.
 
 ### Bottom tab nav (Dashboard chrome)
 
@@ -1396,7 +1396,7 @@ The engine maps each TG group to its element relative to the DM internally — t
 Pattern descriptor        ← 7px, #f0ece4, opacity 0.5, italic
 ```
 
-> **[AUDIT 2026-06 · D2 — CANONICAL] tgPattern is internal-only; it is NOT surfaced in the UI.** The five-pattern system (Pure / Rooted / Flowing / Forging / Tested) is retained as a **content-variant key** (it drives `archetypeKey = ${stem}_${band}_${tgPattern}` and block resolution per DOC4), but the user-facing "PATTERN NAME + descriptor" label above is **not rendered** in the shipped app. Treat the label spec as deprecated for UI; keep tgPattern as a behind-the-scenes generation dimension. (Decision: keep internal-only.)
+> **[AUDIT 2026-06 · D2 — CANONICAL] tgPattern is internal-only; it is NOT surfaced in the UI.** The five-pattern system (Pure / Rooted / Flowing / Forging / Tested) is retained as a **content-variant key** (it drives `archetypeKey = ${stem}_${band}_${tgPattern}` and block resolution per DES_03), but the user-facing "PATTERN NAME + descriptor" label above is **not rendered** in the shipped app. Treat the label spec as deprecated for UI; keep tgPattern as a behind-the-scenes generation dimension. (Decision: keep internal-only.)
 
 **Ring animation:** On first mount, segments sweep in from the top (12 o'clock) clockwise. Duration 800ms, stagger 30ms per segment, spring easing. On subsequent mounts: no animation, static render.
 
@@ -1926,7 +1926,7 @@ Opens AI Consultant pre-seeded with the domain chapter as context.
 
 > **[SHIPPED 2026-07 — v1 REPORT: the intake now DRAWS A DOCUMENT.]** The spec above described intake with an aspirational payoff ("recalibrated") that nothing rendered. The owner's call (2026-07-07): *the buyer must see a report — rudimentary is fine, but there must be content.* Reasoning chain, in order:
 > 1. **Audit finding:** the saved context fed only the scripted consultant; no reading surface consumed it → charging $6.99 for the intake alone would sell an unkept promise.
-> 2. **LLM considered and rejected for v1:** no LLM exists in the stack (§4.3 DOC10, parked); adding one requires an API key + per-token cost, **and** sending chart+context off-device — which contradicts the published privacy contract (`/legal`: "birth data never transmitted"; DOC10 §3). Not a casual add.
+> 2. **LLM considered and rejected for v1:** no LLM exists in the stack (§4.3 INF_01, parked); adding one requires an API key + per-token cost, **and** sending chart+context off-device — which contradicts the published privacy contract (`/legal`: "birth data never transmitted"; INF_01 §3). Not a casual add.
 > 3. **Chosen: on-device COMPOSITION** — the same authored-fragment engine every reading already uses. New content module `src/content/selfReportContent.js` (exported via the content barrel as `composeSelfReport(chart, sr)`): 55 authored fragments — `CHAPTER_ELEMENT` (5 chapters × 5 elements), `DOMAIN_ELEMENT` (5 domains × 5 elements), `CATALYST_CLOSE` (5) — plus reuse of `STEM_CARD_DATA.identity` for the head.
 > 4. **The document contract** (rendered by `ReportDoc` in `SelfReportScreen`): head (archetype label + manifesto + drawn-date) → ① WHO YOU ARE (identity + band + catalyst) → ② WHERE YOU ARE (chapter × element) → ③ YOUR LIVE DOMAINS (each chosen domain × element) → ④ IN YOUR WORDS (their context echoed as a quote) → ⑤ ONE INSTRUCTION (catalyst-keyed close). Save CTA is now **"Draw my report"** / "Redraw my report"; the old "recalibrated" toast is retired.
 > 5. **Upgrade path:** when §4.3 (LLM proxy) lands, this structure is the prompt scaffold — the LLM enriches ③–⑤ inside the same contract, with the privacy disclosure updated first.
@@ -2934,7 +2934,7 @@ Each Blueprint entry is structured around the user's `liunianSignatures` field (
 - `liunianSignatures` field in `archetypeSource.js` for all 10 stems — structured by life domain (career, relationships, wealth, health) with timing notes and classical source attribution
 - Computed pillar overlay logic in `Elementum_Engine.jsx` — current year/month/day stem and branch extraction
 - Blueprint generation function: takes natal chart + current period → produces structured guidance entry
-- Pre-generated annual / monthly entries (offline pipeline, same architecture as Pipeline A in DOC4)
+- Pre-generated annual / monthly entries (offline pipeline, same architecture as Pipeline A in DES_03)
 - Daily entries may require lightweight LLM synthesis at generation time or a pre-generated table of 60 day-stem-branch permutations
 
 **Tier assignment (proposed):**
@@ -3262,7 +3262,7 @@ Italic was reserved for **two contexts only** (v2, now revoked):
 - `Design/legend-screens.html` — patch deferred to v4 (covered in v4 polish brief)
 - `Elementum_App/src/components/shared/EnergyBlueprint.jsx` — patch needed (BlueprintRow `.name` italic, empty-state message italic)
 - `Elementum_App/src/components/shared/IdentityRibbon.jsx` — patch needed (element-name italic, saturation reading paragraph italic)
-- DOC5 §3.5.E — annotated as superseded (this commit)
+- DES_04 §3.5.E — annotated as superseded (this commit)
 
 **Audit checklist for new code.** Before shipping any text element with `fontStyle: 'italic'` or CSS `font-style: italic`, verify it answers YES to one of:
 1. Is this a sub-headline (Cormorant 19/italic on a hero card)?

@@ -1,4 +1,4 @@
-# CODE_REVIEW_STANDARDS — Elementum
+# DEV_03_Code_Review_Standards — Elementum
 
 **Status:** binding for every code review — the daily automated reviewer, on-demand
 `/code-review` runs, and human review alike. A finding is valid only if it names the
@@ -6,10 +6,10 @@ criterion here that it violates. A review is complete only if every section belo
 consciously applied or ruled out.
 
 **Scope:** all code under `Elementum_App/` (app + workers + tools). Docs and design
-artifacts are out of scope (see DOC5/DESIGN_AUDIT_BACKLOG for those).
+artifacts are out of scope (see DES_04/DES_13_Design_Audit_Backlog for those).
 
-Companion docs: DOC8 (architecture & module boundaries) · DOC10 (backend/workers) ·
-ENGINE_ACCURACY_QA.md (engine verification protocol) · this file governs *review*.
+Companion docs: DEV_02 (architecture & module boundaries) · INF_01 (backend/workers) ·
+DEV_04_Engine_Accuracy_QA.md (engine verification protocol) · this file governs *review*.
 
 ---
 
@@ -49,9 +49,9 @@ Checklist (apply to every changed function/component):
 - **C4 — Engine determinism.** Engine code (src/engine/) is pure: same input → same
   output, no Date.now()/locale/DOM/network access inside. Any engine diff REQUIRES
   `node tools/qa-engine-regression.mjs` exit 0, or an owner-approved `--update` with the
-  manual protocol re-run (ENGINE_ACCURACY_QA.md). Tier A mismatch = HIGH, always.
+  manual protocol re-run (DEV_04_Engine_Accuracy_QA.md). Tier A mismatch = HIGH, always.
 - **C5 — Contract fidelity.** Fields read by consumers exist in `contract/archetypeSchema.js`;
-  content realizes what the schema declares (the DOC9 cascade). A consumer reading a
+  content realizes what the schema declares (the DES_07 cascade). A consumer reading a
   retired/renamed field renders silently wrong — that is HIGH, not LOW.
 - **C6 — Reversibility of user actions.** Purchases, subscriptions, and notification
   opt-ins must handle abandon/retry/refresh mid-flow without stranding (the §4.2b
@@ -94,7 +94,7 @@ Invariants (each one violated = finding at the stated severity):
   unauthenticated endpoint that writes or spends: CRITICAL.
 - **S6 — CORS and origin.** Worker CORS stays allowlisted to `https://elementum.life`
   + localhost dev. Wildcarding an authenticated route: HIGH.
-- **S7 — PII minimization.** Birth data stays on-device (DOC10 §3 split). New
+- **S7 — PII minimization.** Birth data stays on-device (INF_01 §3 split). New
   server-bound payloads carry zero birth/chart data unless the owner explicitly
   approved the expansion. Violation: HIGH.
 
@@ -102,7 +102,7 @@ Invariants (each one violated = finding at the stated severity):
 
 ## §4 Architecture and structural clarity
 
-These encode the four cleanup rules + DOC8 boundaries as reviewable criteria. The test
+These encode the four cleanup rules + DEV_02 boundaries as reviewable criteria. The test
 for clarity is concrete: *could a new engineer find, name, and safely change this code
 without reading git history?*
 
@@ -139,7 +139,7 @@ without reading git history?*
   - **Section dividers** — long files use `// ── Name ──────` rules, not blank-line
     soup.
   - **Decision citations** — behavior that exists because of a spec or owner decision
-    cites it inline (`DOC10 §4.4`, `DOC5 §AM.2`, `D13`) so the next reader can find
+    cites it inline (`INF_01 §4.4`, `DES_04 §AM.2`, `D13`) so the next reader can find
     the ruling. A workaround or intentional oddity without its *why*: MEDIUM.
   - **Banned comment types** — narrating the next line, restating the diff, selling
     the change ("improved", "now correctly"), commented-out code (that's A3 dead
@@ -147,7 +147,7 @@ without reading git history?*
   - **Stale comments** contradicting the code they describe: MEDIUM (they actively
     mislead — worse than no comment).
   - **Bilingual terms** — domain terms keep their hanzi at first use in a file
-    (八字, 合而不化, 用神) matching the docs' convention, so code and DOC1–DOC10
+    (八字, 合而不化, 用神) matching the docs' convention, so code and DEV_01–INF_01
     stay greppable by the same vocabulary.
 - **A7 — Reuse before new.** A new helper/component that duplicates ≥70% of an existing
   one is a finding (MEDIUM); extend or extract instead. Check `components/shared/`,
@@ -191,7 +191,7 @@ without reading git history?*
     ships separately (the 2026-07 six-PR restructure is the precedent). Mixed:
     MEDIUM.
   - **Coupled artifacts move together** — the same-change-set pairs are mandatory:
-    price ⇄ webhook PRODUCTS map (S3) · schema ⇄ content/DOC9 (K3) · lazy() list ⇄
+    price ⇄ webhook PRODUCTS map (S3) · schema ⇄ content/DES_07 (K3) · lazy() list ⇄
     prefetch list (P3) · engine behavior ⇄ golden re-bless + protocol run (C4) ·
     canonical `Design/` file ⇄ `public/` mirror. Half a pair: severity per the
     paired rule.
@@ -201,7 +201,7 @@ without reading git history?*
     crossings: MEDIUM.
   - **No orphan scope** — everything a commit introduces is reachable: a new
     component is routed/imported, a new tool is documented in its own header, a
-    new endpoint appears in DOC10. Introduced-but-unwired code is A3 dead code at
+    new endpoint appears in INF_01. Introduced-but-unwired code is A3 dead code at
     birth: MEDIUM.
 
 ---
@@ -248,18 +248,18 @@ Budgets are measured against `npm run build` output. Baselines (2026-07-07):
 
 - **K1 — Token scales (code-checkable design law).** Colors via tokens; pigment alpha
   only from the ladder `10/1A/40/CC` (`withAlpha()`); border-radius only from
-  `1/10/12/16/22/999`; spacing only from the DOC5 scale. Raw hex or off-scale values in
-  new code: MEDIUM. (Full design law: DOC5 §AMENDMENT — visual/IA judgment stays with
+  `1/10/12/16/22/999`; spacing only from the DES_04 scale. Raw hex or off-scale values in
+  new code: MEDIUM. (Full design law: DES_04 §AMENDMENT — visual/IA judgment stays with
   the owner, but scale violations are mechanical and reviewable.)
 - **K2 — Icons via sprite.** `<use href="/icons.svg#id">` / ReadingSprite — no new
   inline SVG paths for icons that exist in the library. LOW.
 - **K3 — Doc cascade.** A change to `archetypeSchema.js` without the matching
-  archetypeSource/DOC9 update (or an explicit note deferring it): MEDIUM. Engine
-  methodology changes must not contradict DOC1/DOC3 without doc updates in the same
+  archetypeSource/DES_07 update (or an explicit note deferring it): MEDIUM. Engine
+  methodology changes must not contradict DEV_01/DES_02 without doc updates in the same
   change-set: MEDIUM.
 - **K4 — Config single-sourcing.** Public URLs/keys come from `site.config.json`;
-  worker names/routes documented in DOC10. New magic URLs: MEDIUM.
-- **K5 — Infrastructure conventions** (architecture itself lives in DOC10; these are
+  worker names/routes documented in INF_01. New magic URLs: MEDIUM.
+- **K5 — Infrastructure conventions** (architecture itself lives in INF_01; these are
   the reviewable habits):
   - **Worker layout** — one directory per worker under `Elementum_App/workers/<name>/`
     containing exactly `index.js` + `wrangler.jsonc`; the config header documents

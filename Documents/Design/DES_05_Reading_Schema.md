@@ -1,13 +1,13 @@
 # Doc 6 — Reading Schema (v2.1) — the content model for the Five Energies surface
 
-**Official doc since 2026-06-24** (promoted from `READING_SCHEMA_V2.md`; took the Doc 6 slot vacated by the retired Manual). The Reading Schema is the **design source of truth for the reading content model** — it dictates the fields that DOC9 (archetype fields) and DOC4/DOC7 (generation) implement, and so logically precedes them.
+**Official doc since 2026-06-24** (promoted from `READING_SCHEMA_V2.md`; took the Doc 6 slot vacated by the retired Manual). The Reading Schema is the **design source of truth for the reading content model** — it dictates the fields that DES_07 (archetype fields) and DES_03/DES_06 (generation) implement, and so logically precedes them.
 
-> **⏳ PROVISIONAL — revisit pending.** This schema is **not final**. A reconciliation pass is required after **(a)** the full v2.1 doc review completes and **(b)** the engine code fix runs — both will surface concrete realities (recomputed 庚 faces, real per-element polarity splits, register + positional-data feasibility) that finalize the reading content design (FACES, registers, `rulingDomain`, 宫位 positional reads). Do not author corpus against this spec until that pass. Tracked in `READING_V2.1_RECONCILIATION_AUDIT.md` §5.
+> **⏳ PROVISIONAL — revisit pending.** This schema is **not final**. A reconciliation pass is required after **(a)** the full v2.1 doc review completes and **(b)** the engine code fix runs — both will surface concrete realities (recomputed 庚 faces, real per-element polarity splits, register + positional-data feasibility) that finalize the reading content design (FACES, registers, `rulingDomain`, 宫位 positional reads). Do not author corpus against this spec until that pass. Tracked in `DES_09_Reading_V2.1_Reconciliation_Audit.md` §5.
 **D12 Step 3 · v2 base 2026-06-10 · v2.1 polarity amendment 2026-06-24**
-**Derives from:** D13 wireframe v5 (`Design/Wireframes/d13-five-energies-journey.html` — word budgets are LAW) · `READING_CONCEPT_INVENTORY.md` Parts 1–3 · DOC2 (archetype structure) · the Profile Database (`Data/elementum_profile_database.html`).
+**Derives from:** D13 wireframe v5 (`Design/Wireframes/d13-five-energies-journey.html` — word budgets are LAW) · `DES_08_Reading_Concept_Inventory.md` Parts 1–3 · DES_01 (archetype structure) · the Profile Database (`Data/elementum_profile_database.html`).
 **Replaces when frozen:** the open-ended 150-key Layer-1 batch plan (Pipeline A1 retargets to this spec).
 
-> **⚠ v2.1 POLARITY AMENDMENT (2026-06-24 · owner-locked).** Each element resolves to one Ten-God *direction* vs the Day Master; **polarity splits that direction into up to two personas/faces**. A chart surfaces, strictly by calculation, **one face if one polarity is present, two if both are**, via a new **FACES prologue** (a persona index card: dominant-energy abstract + punchline + keywords + **ruling domain**) that sits *inside* the reading before the text-heavy R/X read. Full absence is read at the element (ghost) level — there are no manufactured latent face cards. Persona content varies by **presence frame** (dominant/present/scarce/absent). Decision record: `READING_V2.1_RECONCILIATION_AUDIT.md`.
+> **⚠ v2.1 POLARITY AMENDMENT (2026-06-24 · owner-locked).** Each element resolves to one Ten-God *direction* vs the Day Master; **polarity splits that direction into up to two personas/faces**. A chart surfaces, strictly by calculation, **one face if one polarity is present, two if both are**, via a new **FACES prologue** (a persona index card: dominant-energy abstract + punchline + keywords + **ruling domain**) that sits *inside* the reading before the text-heavy R/X read. Full absence is read at the element (ghost) level — there are no manufactured latent face cards. Persona content varies by **presence frame** (dominant/present/scarce/absent). Decision record: `DES_09_Reading_V2.1_Reconciliation_Audit.md`.
 
 ---
 
@@ -27,12 +27,12 @@ The engine resolves any element in any chart to its Ten-God **direction** vs the
 
 **v2.1 — Identity and Ten-God cards are separate sections (decision B5).** The **Identity card reads the Day-Master stem specifically** (the elemental-self: e.g. 庚 = The Blade) — its own reading section. The **Ten-God energy cards** (the dominant energies below the energy wheel) carry the persona readings — **including the self element's two faces, The Twin (比肩) and The Rival (劫财)**, surfaced by the same two-face / by-math rule. These are **two totally separate reading sections**: Mirror/Rival are neither folded into the identity card nor dropped. All 5 elements (self included) resolve faces, so all 50 K2 keys can render.
 
-**v2.1 — two reading axes (decision B6).** Beyond the **FACES axis** (element-dominance × polarity — which personas lead *overall*), the reading adds a **POSITION axis (宫位)**: each Ten God reads differently by the *pillar* it occupies. The engine already emits a Ten God at all 7 non-DM positions (`chart.tenGods` — polarity-correct). A positional reading **composes** the (canon-sourced) Ten-God mechanism with a **palace life-domain frame** and its polarity register — see DOC3 §2.7b. The two relational palaces — **日支 (partner / 夫妻宫)** and **时柱 (children / legacy)** — are the highest-value reads. **Authoring is cheap:** the Ten-God content is reused from K2; only the ~7 palace frames are new.
+**v2.1 — two reading axes (decision B6).** Beyond the **FACES axis** (element-dominance × polarity — which personas lead *overall*), the reading adds a **POSITION axis (宫位)**: each Ten God reads differently by the *pillar* it occupies. The engine already emits a Ten God at all 7 non-DM positions (`chart.tenGods` — polarity-correct). A positional reading **composes** the (canon-sourced) Ten-God mechanism with a **palace life-domain frame** and its polarity register — see DES_02 §2.7b. The two relational palaces — **日支 (partner / 夫妻宫)** and **时柱 (children / legacy)** — are the highest-value reads. **Authoring is cheap:** the Ten-God content is reused from K2; only the ~7 palace frames are new.
 
 **v2.1 — the dominance → reading contract (2026-06-25).** Dominance does **not rewrite** a persona's words — it decides *which* personas surface, in *what order*, and at *what intensity register*. The persona content is keyed and authored once (K2); dominance is the assembly logic that selects and pitches it. Precisely:
 
 - **Dominance = substance rank (旺衰), and it governs three things only:** (1) *which* faces are present (a face surfaces only if its element carries that polarity); (2) the *deck order* (self → presence desc); (3) the *presence frame / register* a present persona reads in — **dominant** energies get the full bespoke read, **present** energies a derived shorter read, **scarce/absent** the cultivation read. A more-dominant Wood does **not** swap in different Wood-persona claims — it raises that persona to the **dominant** register, so the same authored mechanism lands with more weight and length. (This is the answer to "does Wood dominance give the Wood ten-god more characteristics?" — *yes, via register and prominence, not via different content.*)
-- **Substance vs function — what dominance is NOT allowed to read from.** Dominance tracks **五行 substance** only (positional 旺衰 + 真化 + relative 冲 — DOC1 §3). **合-binding and 刑/害/破 are function/relationship texture** — they color a persona's reading (e.g. a bound energy "feels constrained," a clashed palace "destabilizes") but **must never reorder the deck or change a presence frame.** They modulate *within* a rank, never *across* ranks. A reading may name a bond/clash on a card; the engine must not let it promote or demote that card.
+- **Substance vs function — what dominance is NOT allowed to read from.** Dominance tracks **五行 substance** only (positional 旺衰 + 真化 + relative 冲 — DEV_01 §3). **合-binding and 刑/害/破 are function/relationship texture** — they color a persona's reading (e.g. a bound energy "feels constrained," a clashed palace "destabilizes") but **must never reorder the deck or change a presence frame.** They modulate *within* a rank, never *across* ranks. A reading may name a bond/clash on a card; the engine must not let it promote or demote that card.
 - **Valence ≠ intensity.** Dominance/presence-frame is the **intensity** register (how loud); the 用神 / 喜忌 layer is the **valence** register (gift vs friction, surfaced as the ↑/↓ role badges). The two are orthogonal: a scarce energy can be a high-valence gift; a dominant energy can be friction. Authoring must keep them separable — never collapse "dominant" into "good."
 
 ## 2 · The key system
@@ -44,7 +44,7 @@ The engine resolves any element in any chart to its Ten-God **direction** vs the
 | **K2 — element × god** | `火_七杀` | **50** | The persona unit. **Face card (prologue):** abstract · punchline · chips · `rulingDomain`. **Reading:** R, X, gate, seeker depth — authored in presence-frame registers (dominant + absent bespoke; present derived) |
 | **T — templated globals** | presence frames ×4 · cycle lines ×20 · rx-ribbon fragments ×10 · **palace frames ×7 (宫位, B6)** | ~41 | Assembly glue, slot-filled |
 
-Why 50 is exact: per DM element, each of the 5 elements resolves to one god *pair* (2 polarity registers) → 10 pairs per DM element × 5 DM elements = 50 valid (element, god) combinations. This is DOC2's Layer-2 taxonomy, unchanged — **the D13 surface finally gives Layer 2 its native home.**
+Why 50 is exact: per DM element, each of the 5 elements resolves to one god *pair* (2 polarity registers) → 10 pairs per DM element × 5 DM elements = 50 valid (element, god) combinations. This is DES_01's Layer-2 taxonomy, unchanged — **the D13 surface finally gives Layer 2 its native home.**
 
 > **v2.1 — the 50 stays 50, all render.** The 50 keys are *all* valid (element, god) pairs across all Day Masters (10 per DM, non-overlapping). For one chart only that DM's 10 keys are ever in play, surfaced as faces by weight (up to two per element). The self element's faces (比肩 The Twin / 劫财 The Rival) render as **dominant-energy Ten-God cards in a section separate from the Identity card** — which reads the Day-Master stem specifically (decision B5). **No new keys.** Corpus growth comes from the **presence-frame registers** (below), not key count.
 
@@ -73,7 +73,7 @@ Why 50 is exact: per DM element, each of the 5 elements resolves to one god *pai
 
 ## 4 · Schema v2.1 field spec
 
-> **Implementation chain.** This field spec is the **design source of truth** for the reading content model. `archetypeSchema.js` (code) implements it — types, copy caps, tiers, `varyBy` cardinality — and **DOC9** mirrors that for designers, grouped by UI surface. Order: freeze this spec → rewrite `archetypeSchema.js` to it (code pass) → regenerate DOC9. Until then, `archetypeSchema.js` + DOC9 still describe the legacy v0.x model.
+> **Implementation chain.** This field spec is the **design source of truth** for the reading content model. `archetypeSchema.js` (code) implements it — types, copy caps, tiers, `varyBy` cardinality — and **DES_07** mirrors that for designers, grouped by UI surface. Order: freeze this spec → rewrite `archetypeSchema.js` to it (code pass) → regenerate DES_07. Until then, `archetypeSchema.js` + DES_07 still describe the legacy v0.x model.
 
 ```js
 // K1 — extend existing STEM_CARD_DATA.identity
@@ -140,7 +140,7 @@ v2.1 reuse reality: TG_CARD_DATA (10 gods) seeds at most the **`dominant` regist
 
 ## 7 · Decisions
 
-### Decided — v2.1 (2026-06-24, owner-locked · record: `READING_V2.1_RECONCILIATION_AUDIT.md`)
+### Decided — v2.1 (2026-06-24, owner-locked · record: `DES_09_Reading_V2.1_Reconciliation_Audit.md`)
 1. **K2 polarity — RESOLVED → full 50.** Each polarity face is its own persona; no 25-family collapse. (Was open decision #1.)
 - **A1** Faces = a reading **prologue**, not a new IA node (§AM.1 intact).
 - **A2** Faces shown **strictly by math** (1 or 2 present); no manufactured latent face cards; whole-element absence read at the ghost level.
@@ -150,7 +150,7 @@ v2.1 reuse reality: TG_CARD_DATA (10 gods) seeds at most the **`dominant` regist
 - **B3** Persona names = 2026-06-10 locked set; other sets are non-surfacing aliases.
 - **B4** Art = 10 Inner-Council character concepts, recolored per element.
 - **B5** **Identity card and Ten-God cards are separate reading sections.** The Identity card reads the Day-Master stem specifically (元-self, e.g. 庚 = The Blade). The self element's faces — **The Twin (比肩) / The Rival (劫财)** — render as **dominant-energy Ten-God cards below the energy wheel**, NOT folded into identity and NOT dropped. All 5 elements resolve faces; all 50 K2 keys can render. (Resolves former open #2.)
-- **B6** **Position (宫位) is a first-class reading axis** (alongside the FACES dominance×polarity axis). Each Ten God reads by the pillar it occupies; a positional reading = **canon Ten-God mechanism × palace life-domain × polarity** (DOC3 §2.7b). Composes from K2 + ~7 new `PALACE_FRAMES`; per-pillar TG data already in `chart.tenGods`. **日支 (spouse/夫妻宫)** and **时柱 (children/legacy)** are the highest-value reads. Elevates 宫位 from VERIFY-ONLY (DOC3) to a behavioral driver — methodology now blends 子平 (格局) + 宫位论法.
+- **B6** **Position (宫位) is a first-class reading axis** (alongside the FACES dominance×polarity axis). Each Ten God reads by the pillar it occupies; a positional reading = **canon Ten-God mechanism × palace life-domain × polarity** (DES_02 §2.7b). Composes from K2 + ~7 new `PALACE_FRAMES`; per-pillar TG data already in `chart.tenGods`. **日支 (spouse/夫妻宫)** and **时柱 (children/legacy)** are the highest-value reads. Elevates 宫位 from VERIFY-ONLY (DES_02) to a behavioral driver — methodology now blends 子平 (格局) + 宫位论法.
 
 ### Still open
 3. **Seeker depth block set:** shadow/work/bonds/season proposed (from TG_CARD_DATA's existing dimensions). Confirm or re-pick (e.g., add `sixRelations` material as a "people" block).
@@ -158,4 +158,4 @@ v2.1 reuse reality: TG_CARD_DATA (10 gods) seeds at most the **`dominant` regist
 
 ---
 
-*Next: finish the v2.1 doc reconciliation (DOC1–10, DOC5/manifest/briefs) → engine rewire + recompute the 庚 reference chart → retarget Pipeline A2 to K2 (per-persona prologue + dominant/absent registers + rulingDomain) → approve-then-scale with the 庚 chart's recomputed faces.*
+*Next: finish the v2.1 doc reconciliation (DEV_01–10, DES_04/manifest/briefs) → engine rewire + recompute the 庚 reference chart → retarget Pipeline A2 to K2 (per-persona prologue + dominant/absent registers + rulingDomain) → approve-then-scale with the 庚 chart's recomputed faces.*

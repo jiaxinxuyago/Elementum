@@ -1,6 +1,6 @@
 # Elementum · Doc 1 — Calculation Engine Specification
 
-> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** Engine deltas: (1) the reading surface needs a first-class **per-element resolution output** `{ element: { presentFaces: [{god, weight}], absentGod } }` — which 1–2 polarity faces are present, by weight. (2) Add **`getElementPolaritySplit()`** returning `{yangW, yinW}` per element — the data already exists inside `getDominantElementPolarity` (it accumulates both then discards the split; return both accumulators). (3) **Accuracy defect to fix:** the live reading resolver `tenGodForEnergy` (`d13ReadingResolve.js`) is polarity-blind — hard-locked to the same-polarity (偏) register, so it can never surface the 正 half; retire it for the polarity-aware path. (4) **Recompute the 庚 reference chart's faces** with the polarity-aware resolver before it seeds any authoring (the old `金_比肩 · 土_偏印 · 水_食神 · 木_偏财 · 火_七杀` set is the polarity-blind output). Pillar-level Ten Gods (`getTenGod`, §2.7) are already correct and unchanged.
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `DES_09_Reading_V2.1_Reconciliation_Audit.md`).** Engine deltas: (1) the reading surface needs a first-class **per-element resolution output** `{ element: { presentFaces: [{god, weight}], absentGod } }` — which 1–2 polarity faces are present, by weight. (2) Add **`getElementPolaritySplit()`** returning `{yangW, yinW}` per element — the data already exists inside `getDominantElementPolarity` (it accumulates both then discards the split; return both accumulators). (3) **Accuracy defect to fix:** the live reading resolver `tenGodForEnergy` (`d13ReadingResolve.js`) is polarity-blind — hard-locked to the same-polarity (偏) register, so it can never surface the 正 half; retire it for the polarity-aware path. (4) **Recompute the 庚 reference chart's faces** with the polarity-aware resolver before it seeds any authoring (the old `金_比肩 · 土_偏印 · 水_食神 · 木_偏财 · 火_七杀` set is the polarity-blind output). Pillar-level Ten Gods (`getTenGod`, §2.7) are already correct and unchanged.
 >
 > **🔒 Accuracy guarantee (verified against code 2026-06-24).** The v2.1 polarity work touches ONLY (a) one **additive, read-only** accessor — `getElementPolaritySplit`, exposing the `yangW`/`yinW` accumulators `getDominantElementPolarity` (`calculator.js:285`) already computes and discards — and (b) the reading-**display** layer (`d13ReadingResolve.js`, never part of the canonical calc). The calculation engine is **unchanged**: `calculateBaziChart`, element scores/weights, day-master strength, `getTenGod` (`:33`, already polarity-aware via `STEM_YIN`), `getDominantTenGod` (`:341`), and `detectPatterns` all produce the **identical Canonical JSON**. The fix only makes the energy-card *display* agree with the polarity the engine already resolves correctly — so reading accuracy can only **improve**, never regress.
 
@@ -221,7 +221,7 @@ This replaces the old raw character count, which was arbitrary and inaccurate.
 > - **真化** (gated transformation — §3.7), and
 > - **relative 冲** (root-uprooting — §3.7b).
 >
-> **合-binding** (合而不化) and **刑/害/破** change *function/relationship*, NOT substance — they live in the **格局/用神/reading layer, never in the number** (classical sourcing + 刑害破 placement: DOC3; dominance-to-reading contract: DOC6). Day-Master **strength** is the qualitative **得令/得地/得势 gate** (§3.8, Method A), 月令-primary-but-not-sole. *Doc leads code: §3.7–§3.8 describe the committed target; the engine fix lands it (backlog task "Implement engine fix").*
+> **合-binding** (合而不化) and **刑/害/破** change *function/relationship*, NOT substance — they live in the **格局/用神/reading layer, never in the number** (classical sourcing + 刑害破 placement: DES_02; dominance-to-reading contract: DES_05). Day-Master **strength** is the qualitative **得令/得地/得势 gate** (§3.8, Method A), 月令-primary-but-not-sole. *Doc leads code: §3.7–§3.8 describe the committed target; the engine fix lands it (backlog task "Implement engine fix").*
 
 ---
 
@@ -329,7 +329,7 @@ Count:      count[E] = round(pct[E] × 10)   → 0–10 for UI display
 3. **no 冲破** breaks the combination;
 4. **adjacency** — the combining stems/branches are adjacent (合 requires adjacency; never fire on mere presence).
 
-When the gate is unmet → **合而不化**: no shift, no 得势 support. The combination's *functional* effect (合去 a 用神, binding a god) is a 格局 success/break factor handled qualitatively (DOC2 / DOC6) — **not** a number.
+When the gate is unmet → **合而不化**: no shift, no 得势 support. The combination's *functional* effect (合去 a 用神, binding a god) is a 格局 success/break factor handled qualitatively (DES_01 / DES_05) — **not** a number.
 
 - The DM stem itself is never converted (identity is fixed).
 - *(Deviation note: the prior engine auto-transformed on mere presence — the 得势-inflation that produced the QA-F2 "extremely strong / wrong dominance" artifact. This 真化 gate retires that.)*

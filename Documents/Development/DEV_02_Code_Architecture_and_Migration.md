@@ -1,12 +1,12 @@
-# DOC8 — Code Architecture & Migration Guide
+# DEV_02 — Code Architecture & Migration Guide
 ## Single-file artifact → Vite + React production project
 
 **Version:** 3.2 · April 2026
 **Source engine:** `archive/legacy-monolith/Elementum_Engine.jsx` (~6,900 lines)
-**Related docs:** DOC4 (generation architecture) · DOC5 §9 (Reveal) · DOC5 §11 (dashboard component specs) · DOC5 §20 (Asset Library) · DOC7 (content authoring)
-**Status:** Phase 1 migration **executed** — Vite project scaffolded, content files live, pre-dashboard flow (Welcome → Reveal) running. The **Reveal screen** has had its Section 1 (Identity) composition refined per DOC5 §9 v1.6 — see "Phase 1 component additions" below. Phase 2 dashboard component extraction is **pending** — use this guide for that work.
+**Related docs:** DES_03 (generation architecture) · DES_04 §9 (Reveal) · DES_04 §11 (dashboard component specs) · DES_04 §20 (Asset Library) · DES_06 (content authoring)
+**Status:** Phase 1 migration **executed** — Vite project scaffolded, content files live, pre-dashboard flow (Welcome → Reveal) running. The **Reveal screen** has had its Section 1 (Identity) composition refined per DES_04 §9 v1.6 — see "Phase 1 component additions" below. Phase 2 dashboard component extraction is **pending** — use this guide for that work.
 
-> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `READING_V2.1_RECONCILIATION_AUDIT.md`).** Migration deltas: (1) the reading data target is **`ENERGY_CARD_DATA[${element}_${god}]` ×50** with the v2.1 shape (FACES prologue + presence-frame `registers` + `rulingDomain`) — not the flat `DomEnergyTg_Data.js`/`dominantTGs[]` model described below. (2) The reading resolver is the **polarity-aware path** (`getDominantTenGod` + `getElementPolaritySplit`), emitting per-element `{presentFaces, absentGod}`; **retire `tenGodForEnergy`** (`d13ReadingResolve.js`). (3) `buildEnergyChart` attaches the resolved face set + weights per energy. (4) New surface components: `FacesScreen` (prologue) + `PersonaCard` (presence-frame variants). (5) **Positional axis (B6):** `chart.tenGods` already provides per-pillar Ten Gods (no new resolver); add `PALACE_FRAMES` + a `PositionalCard` component; the positional reading composes `PALACE_FRAMES × chart.tenGods × polarity`.
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `DES_09_Reading_V2.1_Reconciliation_Audit.md`).** Migration deltas: (1) the reading data target is **`ENERGY_CARD_DATA[${element}_${god}]` ×50** with the v2.1 shape (FACES prologue + presence-frame `registers` + `rulingDomain`) — not the flat `DomEnergyTg_Data.js`/`dominantTGs[]` model described below. (2) The reading resolver is the **polarity-aware path** (`getDominantTenGod` + `getElementPolaritySplit`), emitting per-element `{presentFaces, absentGod}`; **retire `tenGodForEnergy`** (`d13ReadingResolve.js`). (3) `buildEnergyChart` attaches the resolved face set + weights per energy. (4) New surface components: `FacesScreen` (prologue) + `PersonaCard` (presence-frame variants). (5) **Positional axis (B6):** `chart.tenGods` already provides per-pillar Ten Gods (no new resolver); add `PALACE_FRAMES` + a `PositionalCard` component; the positional reading composes `PALACE_FRAMES × chart.tenGods × polarity`.
 
 ---
 
@@ -53,14 +53,14 @@ Elementum_Project/
 ├── Design/                              ← Phase 1/2A design source (tokens, flow JSX, ink PNGs).
 │
 ├── Documents/Designengineering/
-│   ├── DOC1 … DOC8
+│   ├── DEV_01 … DEV_02
 │   ├── DOC_HANDOFF_ClaudeCode.md
 │   └── ClaudeCode_Prompt_Phase1.md
 │
 └── .claude/launch.json                  ← Preview server config (points at Elementum_App).
 ```
 
-**Retired locations (for readers of earlier DOC8 versions):**
+**Retired locations (for readers of earlier DEV_02 versions):**
 - `Code/` — deleted. `archetypeSource.js` and `STEM_CARD_DATA.js` moved to `Elementum_App/src/content/`. `batchGenerate.js` → `Elementum_App/tools/`. `Elementum_Engine.jsx` → `archive/legacy-monolith/` (2026-07; was briefly in `Reference/`).
 - `Others/` — deleted. Single file folded into `tokenCostCalculator.html`.
 - `Scripts/` — removed 2026-07. `batchGenerate.js` and `tokenCostCalculator.html` relocated to `Elementum_App/tools/` (Rule 1: all code in the app folder).
@@ -602,13 +602,13 @@ const [hasSelfReport, set
 
 ---
 
-## Phase 1 component additions (post-DOC8 v3.1)
+## Phase 1 component additions (post-DEV_02 v3.1)
 
 These components exist **only in the live Vite app** (`Elementum_App/src/components/`) and were authored fresh — they are not present in `archive/legacy-monolith/Elementum_Engine.jsx`. Phase 2 extraction does not need to look for them in the engine.
 
 ### `RevealScreen.jsx` — Identity Section composition
 
-The Reveal screen's Section 1 was redesigned in DOC5 §9 v1.6. The component graph for the Identity area:
+The Reveal screen's Section 1 was redesigned in DES_04 §9 v1.6. The component graph for the Identity area:
 
 ```
 RevealScreen
@@ -631,7 +631,7 @@ RevealScreen
 
 **Key authoring rules (do NOT regress in future edits):**
 
-1. **No ring around the hero stem mark.** The `ArchetypeSeal` component (brushed circle) was removed from `RevealScreen.jsx`. Phase 2's `DayMasterHero` (DOC5 §11) is a separate decision — it may still render an ArchetypeSeal per its own spec, but the Reveal Identity composition is now ring-less.
+1. **No ring around the hero stem mark.** The `ArchetypeSeal` component (brushed circle) was removed from `RevealScreen.jsx`. Phase 2's `DayMasterHero` (DES_04 §11) is a separate decision — it may still render an ArchetypeSeal per its own spec, but the Reveal Identity composition is now ring-less.
 2. **HeroStemMark uses `marginTop: -40`** so the painted icon's tip pierces ABOVE the mountain peaks. Section padding-top must remain at `90px` to keep the negative-margin geometry right.
 3. **StemSign renders in `INK`**, not element pigment. Element pigment is reserved for the chip strip (`BadgeTile.color`), the seal-ring tint (if/when reintroduced elsewhere), and the BrushUnderline.
 4. **BadgeTile is flat silk** (`rgba(248,241,225,0.92)` fill, single hairline border in `PAPER_HAIR`, single 1px shadow). NO diagonal gradient, NO inset highlight, NO inner ring.
@@ -647,7 +647,7 @@ When you add the painted SVG for another stem (e.g. `OakArchetype` for 甲 / The
 2. Add a case to the StemSign switch:
      case '甲': return <OakArchetype size={size} color={color || INK} />;
 3. Verify chip-scale (size=28) and hero-scale (size=280) both render acceptably.
-4. Update DOC5 §20 status column from "NEEDED" → "INLINE SVG".
+4. Update DES_04 §20 status column from "NEEDED" → "INLINE SVG".
 ```
 
 The `<StemSign>` dispatcher's fallback to `<ElementSign>` means the hero slot stays filled — for users on stems without painted art, the seal of the element family (crescent, tree, triangle, square, waves) renders at hero scale, in INK, with the same negative-margin geometry. This is acceptable as an interim state while the remaining nine painted SVGs are authored.
@@ -666,4 +666,4 @@ The `<StemSign>` dispatcher's fallback to `<ElementSign>` means the hero slot st
 |---|---|---|
 | 3.0 | April 2026 | Initial migration guide drafted. |
 | 3.1 | April 2026 | Migration executed; `Code/` retired; paths updated to `Elementum_App/src/content/`; Reference/Scripts split documented. |
-| 3.2 | 2026-04-24 | Added "Phase 1 component additions" section documenting the RevealScreen Identity composition (HeroStemMark, StemSign, BrushJian, flat BadgeTile) per DOC5 §9 v1.6. Added authoring rules + per-stem extension path so the composition does not regress in future edits. |
+| 3.2 | 2026-04-24 | Added "Phase 1 component additions" section documenting the RevealScreen Identity composition (HeroStemMark, StemSign, BrushJian, flat BadgeTile) per DES_04 §9 v1.6. Added authoring rules + per-stem extension path so the composition does not regress in future edits. |
