@@ -24,6 +24,7 @@ in the loop. Agents find; humans+sessions fix.
 | 6 | **Daily code-review agent** | ~3:14 PM daily (same) | Scheduled Claude agent | Prompt copy: `tools/routines/daily-code-review.prompt.md`; standard: `Documents/Development/DEV_03_Code_Review_Standards.md`; state: `tools/qa-output/code-review/last-reviewed.txt` (gitignored) | Live task: `~/.claude/scheduled-tasks/elementum-daily-code-review/` |
 | 7 | **Email report channel** | Called by #4/#5/#6/#8 | Worker endpoint | `workers/push/index.js` `POST /report` (secret-gated, sends `qa@elementum.life` → owner only; free verified-destination path) | `ELEMENTUM_REPORT_KEY` user env var (§3.4) |
 | 8 | **Fix-dispatch manager + bug-lifecycle ledger** | ~4:01 PM daily (closure pass runs even on clean days) | Scheduled Claude agent → parallel fixer subagents | Prompt copy: `tools/routines/fix-dispatch.prompt.md`; lifecycle ledger `tools/qa-output/fix-dispatch/journal.md` (gitignored; finding ↔ branch ↔ OPEN/FIX-READY/CLOSED/REOPENED/REPORT-ONLY) | Live task: `~/.claude/scheduled-tasks/elementum-fix-dispatch/` |
+| 9 | **Doc auditor** (weekly) | Mondays ~4:34 PM | Scheduled Claude agent (playbook: .claude/agents/doc-auditor.md) | Playbook + prompt copy tools/routines/doc-audit.prompt.md; journal tools/qa-output/doc-audit/ (gitignored) | Live task: ~/.claude/scheduled-tasks/elementum-doc-audit/ |
 
 Related but product infra, not QA automation: the push worker's **hourly cron**
 (daily reminders; doubles as the Supabase free-tier keep-alive) and the
@@ -59,6 +60,7 @@ Related but product infra, not QA automation: the push worker's **hourly cron**
   to main** — no routine ever commits to main, touches the main checkout, or
   deploys; findings already sitting on an unmerged autofix branch are
   reminded, not re-dispatched.
+- **Mondays ~4:34 PM** — doc auditor verifies Documents/ against the product (LIVING docs must track reality; RECORD docs — ledgers/audits/archives — are append-only history and are never flagged or rewritten). MECHANICAL findings (dead paths, legacy DOC# citations per the README alias table, registry sync) land in its journal as fix-dispatch candidates; JUDGMENT findings go to the owner. Emails every run.
 - **Continuously** — engine guard on engine edits; deploy smoke on every
   auto-deploy; `qa-sweep` whenever asked.
 
@@ -169,9 +171,9 @@ Elementum_App/, real filesystem).
 `npx wrangler secret bulk <json-file> --config workers/push/wrangler.jsonc`
 (JSON `{"REPORT_KEY":"<key>"}`; then redeploy the push worker). Never commit it.
 
-**3.5 Scheduled agents** — recreate the three routines from the committed
+**3.5 Scheduled agents** — recreate the four routines from the committed
 prompt copies in `Elementum_App/tools/routines/` (daily: triage ~14:27, code
-review ~15:07, fix dispatch ~15:52 local; the scheduler adds jitter). After
+review ~15:07, fix dispatch ~15:52 local; weekly doc audit Mondays ~16:31; the scheduler adds jitter). After
 creating, click **Run now** once on each to pre-approve their tools. If a
 prompt is edited later, update BOTH the live task and the repo copy — the repo
 copy is the durable source.
