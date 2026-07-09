@@ -1,7 +1,7 @@
 # Engine Accuracy QA — mandatory after any engine code change
 
 **Status: STANDING WORKFLOW / QA HYGIENE (instituted 2026-06-24).**
-**Rule:** after **any** change to the calculation/resolution engine (`calculator.js`, `buildEnergyChart.js`, `d13ReadingResolve.js`, `energyRoles.js`, `dominanceWheel.js`), run this accuracy QA **before** the change is considered done. No engine change ships unverified.
+**Rule:** after **any** change to the calculation/resolution engine (`calculator.js`, `buildEnergyChart.js`, `readingResolve.js`, `energyRoles.js`, `dominanceWheel.js`), run this accuracy QA **before** the change is considered done. No engine change ships unverified.
 
 ---
 

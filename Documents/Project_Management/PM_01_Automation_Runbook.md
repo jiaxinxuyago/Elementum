@@ -12,7 +12,7 @@ in the loop. Agents find; humans+sessions fix.
 
 ---
 
-## §1 Inventory (7 pieces)
+## §1 Inventory (9 pieces)
 
 | # | Routine | Trigger | Kind | Committed half | Machine-local half |
 |---|---------|---------|------|----------------|--------------------|

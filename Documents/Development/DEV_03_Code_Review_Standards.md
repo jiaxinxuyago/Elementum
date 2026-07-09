@@ -81,7 +81,7 @@ Invariants (each one violated = finding at the stated severity):
 - **S2 — Webhook signature.** `elementum-stripe-webhook` verifies the Stripe signature
   before ANY state change; timing-safe comparison; no logging of raw secrets. Violation:
   CRITICAL.
-- **S3 — Amount routing coupling.** The webhook routes products BY `amount_total`
+- **S3 — Amount routing coupling.** The webhook routes products BY `amount_subtotal` (pre-discount; `amount_total` fallback — 100%-off promo codes)
   (900/699 → PRODUCTS map). Any diff touching a Stripe price, a Payment Link, or the
   PRODUCTS map must change both sides in the same change-set. One-sided change: HIGH.
 - **S4 — Secrets hygiene.** No key, token, or password in the repo — worker secrets via

@@ -66,6 +66,7 @@
 | ID | Title | Purpose |
 |---|---|---|
 | PM_01 | Automation_Runbook | Inventory of record for the 8 automation routines + machine-local rebuild list |
+| PM_02 | Day_Log | THE daily project record — Done / Pending / Pivots per day; append-only; written daily by the doc-audit routine |
 
 ## DOC# alias table (legacy citations)
 
