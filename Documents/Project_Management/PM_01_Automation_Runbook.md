@@ -78,6 +78,10 @@ subject lines are designed to be read without opening):
 | Bug lifecycle | ~4:01 PM, whenever the ledger has activity | `Elementum bugs — X closed · Y fix-ready · Z awaiting merge` (sections: ✅ Closed · ⚠ Reopened · 🆕 Fix-ready w/ merge commands · ⏳ Awaiting merge w/ age · 📋 Report-only) |
 
 Volume: two emails on a quiet day (QA digest + docs & day log); up to five on the worst day.
+Voice (owner directive 2026-07-09): every email reads as an assistant reporting
+to the boss — first person, direct address, leads with whether anything needs
+the owner; technical facts sit under the human summary. Subject-line dashboard
+convention is functional and unchanged.
 Push notifications fire only for: HIGH/CRITICAL confirmed findings, a fixer
 stuck on its gates, or a REOPENED bug. Sentinel files at the project root
 (`DAILY_QA_FAILED.md`, `DEPLOY_SMOKE_FAILED.md`) surface in every session's

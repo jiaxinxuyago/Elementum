@@ -151,7 +151,8 @@ function Send-QaEmail($subject, $bodyText) {
 }
 
 if ($findings) {
-    Send-QaEmail "Elementum daily QA - $verdict" (Get-Content $reportPath -Raw)
+    $intro = "Boss - the 1:57 automated check just flagged a problem. I'm the deterministic detector (no judgment, just measurements) - the triage agent investigates within the hour and will email you a proper read. Raw findings below so you have them first.`n`n"
+    Send-QaEmail "Elementum daily QA - $verdict" ($intro + (Get-Content $reportPath -Raw))
     @"
 # DAILY QA ROUTINE FOUND PROBLEMS
 
