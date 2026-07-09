@@ -52,7 +52,11 @@
       "PowerShell($errs = $null; $tokens = $null; [System.Management.Automation.Language.Parser]::ParseFile\\(\"D:\\\\Elementum\\\\Elementum_Project\\\\*)",
       "PowerShell(schtasks /Query *)",
       "PowerShell(Get-ScheduledTask *)",
-      "PowerShell(Get-ScheduledTaskInfo *)"
+      "PowerShell(Get-ScheduledTaskInfo *)",
+      "Edit(Documents/Project_Management/PM_02_Day_Log.md)",
+      "Write(Documents/Project_Management/PM_02_Day_Log.md)",
+      "Bash(git log --follow *)",
+      "Bash(git blame *)"
     ]
   }
 }
