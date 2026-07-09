@@ -11,7 +11,7 @@
 // landing here. This component stays for "scheduled but not yet built"
 // destinations.
 //
-// Spec: DOC5 §AM.5 dashed-border affordance for scaffold states.
+// Spec: DES_04 §AM.5 dashed-border affordance for scaffold states.
 // ===================================================================
 
 import DetailShell from './DetailShell.jsx';

@@ -1,5 +1,5 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// ELEMENTUM · service-worker push handlers (DOC10 §4.4)
+// ELEMENTUM · service-worker push handlers (INF_01 §4.4)
 // ─────────────────────────────────────────────────────────────────────────────
 // Imported into the vite-plugin-pwa generated SW via workbox.importScripts.
 // Sends are PAYLOAD-LESS: the push event carries no data; we fetch today's

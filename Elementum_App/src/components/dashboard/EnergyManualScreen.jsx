@@ -1,5 +1,5 @@
 // ===================================================================
-// ELEMENTUM · EnergyManualScreen  (DOC5 §12 Card 2 — Energy Manual)
+// ELEMENTUM · EnergyManualScreen  (DES_04 §12 Card 2 — Energy Manual)
 // ===================================================================
 // Seeker living document across 5 life domains. First use shows a short
 // setup (domains + focus → Generate); after that, domain tabs each show

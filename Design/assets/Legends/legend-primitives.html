@@ -10,7 +10,7 @@
 <style>
   /* =========================================================
      Tokens — sourced from northstar-anchor.html `T` object
-     and DOC5 §2/§3/§3.5. No invented values.
+     and DES_04 §2/§3/§3.5. No invented values.
      ========================================================= */
   :root {
     --cream: #F8F6F0;
@@ -1032,7 +1032,7 @@
   <div class="section-head">
     <span class="num">§1</span>
     <h2>Color palette</h2>
-    <div class="rule">Every hex, traced to <span class="cite">northstar-anchor.html · T object · lines 71–117</span> and DOC5 §2.</div>
+    <div class="rule">Every hex, traced to <span class="cite">northstar-anchor.html · T object · lines 71–117</span> and DES_04 §2.</div>
   </div>
 
   <h3 class="eyebrow bronze" style="margin-bottom:18px">Paper &amp; ink</h3>
@@ -1156,7 +1156,7 @@
   <div class="section-head">
     <span class="num">§2</span>
     <h2>Type specimen</h2>
-    <div class="rule">Four families; eleven sizes; one locked headline pair. <span class="cite">DOC5 §3</span></div>
+    <div class="rule">Four families; eleven sizes; one locked headline pair. <span class="cite">DES_04 §3</span></div>
   </div>
 
   <p class="section-intro">Cormorant Garamond carries display weight; EB Garamond holds body and labels; Cinzel marks architectural caps (CTAs, pillar labels); Noto Serif SC speaks Chinese as glyph. Italic is the secondary serif voice — see §8 for its locked contexts.</p>
@@ -1184,12 +1184,12 @@
     <div class="type-row">
       <div class="meta-l">Cormorant<br>32 · 500</div>
       <div class="sample" style="font-family:'Cormorant Garamond',serif; font-weight:500; font-size:32px; line-height:1.3">Screen section title</div>
-      <div class="desc">DOC5 §3 — screen-level headers</div>
+      <div class="desc">DES_04 §3 — screen-level headers</div>
     </div>
     <div class="type-row">
       <div class="meta-l">Cormorant<br>24 · 600</div>
       <div class="sample" style="font-family:'Cormorant Garamond',serif; font-weight:600; font-size:24px; line-height:1.4">Card header / sub-title</div>
-      <div class="desc">DOC5 §3</div>
+      <div class="desc">DES_04 §3</div>
     </div>
     <div class="type-row">
       <div class="meta-l">Cormorant<br>18 · 600</div>
@@ -1214,7 +1214,7 @@
     <div class="type-row">
       <div class="meta-l">EB Garamond<br>13 · 400</div>
       <div class="sample" style="font-family:'EB Garamond',serif; font-weight:400; font-size:13px; line-height:1.5">Counts, timestamps, helper text</div>
-      <div class="desc">DOC5 §3 — helper text scale</div>
+      <div class="desc">DES_04 §3 — helper text scale</div>
     </div>
     <div class="type-row">
       <div class="meta-l">EB Garamond<br>11 · 500</div>
@@ -1262,7 +1262,7 @@
   <div class="section-head">
     <span class="num">§3</span>
     <h2>Eyebrow library</h2>
-    <div class="rule">EB Garamond · 10px · 2.5px tracking · weight 500 · uppercase · element @ 80%. <span class="cite">DOC5 §3 reading-page label standard</span></div>
+    <div class="rule">EB Garamond · 10px · 2.5px tracking · weight 500 · uppercase · element @ 80%. <span class="cite">DES_04 §3 reading-page label standard</span></div>
   </div>
 
   <div class="eyebrow-grid">
@@ -2072,7 +2072,7 @@
 
   <div class="drift-item">
     <div class="q">Token divergence — <code>Elementum_App/src/styles/tokens.jsx</code></div>
-    <div class="body">Anchor uses opaque <code>paperHair #CDBE9E</code>, <code>borderLight #E5DFD1</code>, <code>borderStd #D5CDBD</code>. App tokens currently define <code>BORDER_LIGHT</code> and <code>BORDER_STD</code> as <code>rgba(139,115,85,*)</code> — a translucent bronze, materially different. <strong>Resolution:</strong> patch <code>tokens.jsx</code> to the anchor's opaque palette. Anchor wins. <span class="cite">DOC5 §3.5 application notes</span></div>
+    <div class="body">Anchor uses opaque <code>paperHair #CDBE9E</code>, <code>borderLight #E5DFD1</code>, <code>borderStd #D5CDBD</code>. App tokens currently define <code>BORDER_LIGHT</code> and <code>BORDER_STD</code> as <code>rgba(139,115,85,*)</code> — a translucent bronze, materially different. <strong>Resolution:</strong> patch <code>tokens.jsx</code> to the anchor's opaque palette. Anchor wins. <span class="cite">DES_04 §3.5 application notes</span></div>
   </div>
 
   <div class="drift-item">
@@ -2081,7 +2081,7 @@
   </div>
 
   <div class="drift-item">
-    <div class="q">Spacing values used in anchor that DOC5 §3.5.C does not call out specifically</div>
+    <div class="q">Spacing values used in anchor that DES_04 §3.5.C does not call out specifically</div>
     <div class="body">Anchor line 18 uses <code>gap: 5</code>; the 5/6/8/10 small range is allowed by §3.5.C, but the doc could be clearer that <code>5</code> and <code>6</code> are intentional (not rounding errors). Same for <code>22</code> and <code>26</code>. <strong>Resolution:</strong> minor doc-clarification patch — values stay; rationale is added.</div>
   </div>
 
@@ -2097,13 +2097,13 @@
 
   <div class="drift-item">
     <div class="q">Open: <code>BORDER_FOCUS</code> usage in V1</div>
-    <div class="body">The token exists in both anchor and DOC5 but is unused in V1 reading pages. Confirm with engineering whether onboarding form inputs (Step 1–7) already use it. If yes, document the focus-ring spec; if no, decide whether to apply or leave reserved.</div>
+    <div class="body">The token exists in both anchor and DES_04 but is unused in V1 reading pages. Confirm with engineering whether onboarding form inputs (Step 1–7) already use it. If yes, document the focus-ring spec; if no, decide whether to apply or leave reserved.</div>
   </div>
 </section>
 
 <footer>
   <span>elementum-design-legend.html · sealed against <span class="seal-mark">●</span> northstar-anchor</span>
-  <span>v1 · DOC5 §2 · §3 · §3.5</span>
+  <span>v1 · DES_04 §2 · §3 · §3.5</span>
 </footer>
 
 </div>

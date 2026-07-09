@@ -3,7 +3,7 @@
 // ===================================================================
 // Full-bleed painted background layer. Sits behind page content at a
 // low opacity so the silk/cream base + the artwork read together
-// without competing with foreground UI (DOC5 §20 opacity ladder).
+// without competing with foreground UI (DES_04 §20 opacity ladder).
 //
 // Usage — render as the FIRST child of a position:relative container,
 // and give the content a higher stacking context:

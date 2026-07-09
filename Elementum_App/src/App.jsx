@@ -192,7 +192,7 @@ import ErrorBoundary from './components/ErrorBoundary.jsx';
 // viewports the DevBar hides so the phone frame fills the screen.
 const IS_DEV = typeof import.meta !== 'undefined' && import.meta.env?.DEV;
 
-// Phone-frame wrapper — DOC5 §6 specifies 390×844 viewport context.
+// Phone-frame wrapper — DES_04 §6 specifies 390×844 viewport context.
 // On desktop we center a phone-shaped frame; on mobile it fills the viewport.
 function PhoneFrame({ children }) {
   return (
@@ -253,7 +253,7 @@ function Shell({ children }) {
 // Conditionals (4A, 6A, 7A) are handled via per-step `onX` callbacks.
 //
 // Post-Reveal screens live under the `app/*` namespace and render inside the
-// 5-tab dashboard shell (DOC5 §AM.2).
+// 5-tab dashboard shell (DES_04 §AM.2).
 const FLOW = [
   'welcome',
   'step1',
@@ -268,7 +268,7 @@ const FLOW = [
   'step7a',   // conditional — only via Change time
   'loading',
   'reveal',
-  // Dashboard tabs (DOC5 §10–§14) — entered from Reveal's "Enter Your Readings" CTA.
+  // Dashboard tabs (DES_04 §10–§14) — entered from Reveal's "Enter Your Readings" CTA.
   'app-today',
   // Today-hub drill-downs (Direction 2 — wireframes/Elementum - Screens.html)
   'app-day',
@@ -276,11 +276,11 @@ const FLOW = [
   'app-year',
   'app-decade',
   'app-guidance',
-  'app-reading',     // catalogue (DOC5 §11)
+  'app-reading',     // catalogue (DES_04 §11)
   'app-daymaster',   // D13 P4 — Day Master card (wheel-centre seal)
   'app-pillars',     // D13 P5 — 八字 Pillar Chart (from the Day Master)
   'app-energy',      // energy reading — polarity faces (tap a node/spine; the swipe carousel was retired with ReadingFacesScreen)
-  'app-energymap',   // Energy Map destination (DOC5 §AM.1 — same as Reveal, no first-time CTA)
+  'app-energymap',   // Energy Map destination (DES_04 §AM.1 — same as Reveal, no first-time CTA)
   'app-codex',       // BaZi Codex (Guidance §12 Card 5)
   'app-draw',        // Elemental Draw (Guidance §12 Card 1)
   'app-manual',      // Energy Manual (Guidance §12 Card 2)
@@ -289,7 +289,7 @@ const FLOW = [
   'app-compat',
   'compat-friends',  // full-frame "their birth" friend onboarding flow (no tab bar)
   'app-profile',
-  // Reading detail destinations (DOC5 §11 drill-downs)
+  // Reading detail destinations (DES_04 §11 drill-downs)
   'read-elemental',  // Elemental Nature (built fully)
   'read-daymaster',  // Day Master (built fully)
   'read-tengods',    // Ten Gods (built fully)
@@ -330,7 +330,7 @@ function readHash() {
 }
 
 // Stripe's Payment Link success URLs return here as `<origin>/?founding=ok`
-// or `<origin>/?selfreport=ok`. Unlocks are SERVER-TRUTH (DOC10 §4.2): the
+// or `<origin>/?selfreport=ok`. Unlocks are SERVER-TRUTH (INF_01 §4.2): the
 // Stripe webhook writes the entitlement to the buyer's account; this handler
 // only polls until the write lands (it can lag the redirect by a few seconds)
 // and then plays the product's arrival moment. Forged URLs unlock nothing.
@@ -534,7 +534,7 @@ export default function App() {
       break;
 
     // ────────────────────────────────────────────────────────────────
-    // Dashboard tabs (DOC5 §10–§14) — all wrapped in DashboardShell; the
+    // Dashboard tabs (DES_04 §10–§14) — all wrapped in DashboardShell; the
     // persistent icons-only ReadingTabBar is rendered once by App (below),
     // outside the per-screen tree, and routes via routeTab.
     // ────────────────────────────────────────────────────────────────
@@ -663,7 +663,7 @@ export default function App() {
     // Reading-detail destinations + Energy Map (Phase 2).
     // Detail pages share DetailShell (back button + section header).
     // All render OUTSIDE DashboardShell — they push over the tab bar
-    // like a page in a stack, per DOC5 §11 v1.7 "DetailShell wrapper"
+    // like a page in a stack, per DES_04 §11 v1.7 "DetailShell wrapper"
     // (carried forward by §AM.1 as authoritative).
     // ────────────────────────────────────────────────────────────────
     case 'app-energymap':
@@ -738,7 +738,7 @@ export default function App() {
                 swappable page, so it never re-mounts or shifts between tabs.
                 Hidden on welcome/onboarding/reveal + stacked detail pages. */}
             {DASHBOARD_TAB[screen] && <ReadingTabBar active={DASHBOARD_TAB[screen]} onTab={routeTab} />}
-            {/* Upgrade modal overlays only the phone frame (DOC5 §21) */}
+            {/* Upgrade modal overlays only the phone frame (DES_04 §21) */}
             <UpgradeModalHost />
           </PhoneFrame>
         </Shell>
@@ -755,7 +755,7 @@ export default function App() {
 //
 // Stem-date math: the calculator computes `dayStem = HS[daysElapsed%10]`
 // (calculator.js:372). So shifting the date by ±N days shifts the stem
-// by N positions in HS (甲乙丙丁戊己庚辛壬癸). The DOC1 reference date
+// by N positions in HS (甲乙丙丁戊己庚辛壬癸). The DEV_01 reference date
 // 1995-04-29 lands on 庚 (index 6); each subsequent day advances by 1.
 function DevHelpers() {
   const { updateBirthData, setChart, setTier, setHasSelfReport, purchaseSelfReport } = useChart();
@@ -799,7 +799,7 @@ function DevHelpers() {
       };
       // Backwards-compat alias names.
       const ALIASES = { blade: 'geng', rain: 'gui' };
-      // Ordered cycle (DOC1 / DOC2 canonical order: 甲乙丙丁戊己庚辛壬癸).
+      // Ordered cycle (DEV_01 / DES_01 canonical order: 甲乙丙丁戊己庚辛壬癸).
       const CYCLE_ORDER = ['jia','yi','bing','ding','wu','ji','geng','xin','ren','gui'];
 
       window.__seedData = (preset = 'geng') => {

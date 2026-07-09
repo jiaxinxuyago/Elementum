@@ -3,7 +3,7 @@
 // ===================================================================
 // Single source for screen → painted-background assignment. Mirrors the
 // authority table in Design/assets/Library/backgrounds-library.html
-// (line ~1212) and DOC5 §20 Asset Library.
+// (line ~1212) and DES_04 §20 Asset Library.
 //
 // PNGs live in Elementum_App/public/backgrounds/ (mirrored from
 // Design/backgrounds/). Reference them by bare filename — PageBg

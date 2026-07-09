@@ -7,7 +7,7 @@
 // Run with the dev server already up on :5173:
 //   node capture-replicas.mjs
 //
-// Output → Documents/Designengineering/app-replicas/{screens/*.png,index.html}
+// Output → Documents/Design/app-replicas/{screens/*.png,index.html}
 // Seeds the canonical 庚 ("The Blade") chart so every screen has data.
 // ===================================================================
 
@@ -16,7 +16,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const BASE = 'http://localhost:5173/';
-const OUT_ROOT = 'D:/Elementum/Elementum_Project/Documents/Designengineering/app-replicas';
+const OUT_ROOT = 'D:/Elementum/Elementum_Project/Documents/Design/app-replicas';
 const OUT = path.join(OUT_ROOT, 'screens');
 fs.mkdirSync(OUT, { recursive: true });
 

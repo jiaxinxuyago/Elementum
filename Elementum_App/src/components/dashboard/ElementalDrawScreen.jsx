@@ -1,6 +1,6 @@
 import { ELEMENT_TO_PIGMENT } from '../../styles/elementPigments.js';
 // ===================================================================
-// ELEMENTUM · ElementalDrawScreen  (DOC5 §12 Card 1 — Elemental Draw)
+// ELEMENTUM · ElementalDrawScreen  (DES_04 §12 Card 1 — Elemental Draw)
 // ===================================================================
 // Daily question ritual. The deck is keyed to the day's element (same
 // element governing the Today tab). Free draws today's deck; Seeker/
@@ -23,7 +23,7 @@ import {
 const ELEMENT_HANZI = { Metal: '金', Wood: '木', Fire: '火', Earth: '土', Water: '水' };
 const ELEMENTS = ['Wood', 'Fire', 'Earth', 'Metal', 'Water'];
 
-// Deck name + question pool per element (DOC5 deck-name mapping).
+// Deck name + question pool per element (DES_04 deck-name mapping).
 const DECKS = {
   Wood:  { name: 'Growth & Vision', questions: [
     { q: 'What are you ready to begin that you have only been imagining?', a: 'Wood days favour the first move. The thing you keep picturing is asking to be started, not perfected. Begin it small and visible today — momentum is the only proof Wood respects.' },

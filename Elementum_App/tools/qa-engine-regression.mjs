@@ -3,7 +3,7 @@
 // ===================================================================
 // Recomputes every QA chart (tools/qa-cases.mjs) and diffs the result
 // against the committed golden fixture — the last output verified by
-// the manual cross-site protocol (ENGINE_ACCURACY_QA.md).
+// the manual cross-site protocol (DEV_04_Engine_Accuracy_QA.md).
 //
 //   node tools/qa-engine-regression.mjs            # check (CI/hook mode)
 //   node tools/qa-engine-regression.mjs --update   # bless current output
@@ -67,7 +67,7 @@ if (process.argv.includes('--update')) {
   fs.mkdirSync(path.dirname(GOLDEN), { recursive: true });
   fs.writeFileSync(GOLDEN, JSON.stringify({ blessedAt: new Date().toISOString(), cases: current }, null, 2));
   console.log(`golden blessed → ${GOLDEN} (${current.length} case${current.length === 1 ? '' : 's'})`);
-  console.log('Remember: bless ONLY output verified per ENGINE_ACCURACY_QA.md.');
+  console.log('Remember: bless ONLY output verified per DEV_04_Engine_Accuracy_QA.md.');
   process.exit(0);
 }
 
@@ -105,7 +105,7 @@ if (tierAFail.length) {
   tierAFail.forEach((d) => console.error('   ' + d));
 }
 if (tierBDrift.length) {
-  console.error(`⚠ Tier B drift (${tierBDrift.length}) — not necessarily wrong; re-verify per ENGINE_ACCURACY_QA.md, then --update:`);
+  console.error(`⚠ Tier B drift (${tierBDrift.length}) — not necessarily wrong; re-verify per DEV_04_Engine_Accuracy_QA.md, then --update:`);
   tierBDrift.forEach((d) => console.error('   ' + d));
 }
 if (!tierAFail.length && !tierBDrift.length) {

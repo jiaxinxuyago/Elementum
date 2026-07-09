@@ -1,5 +1,5 @@
 -- ─────────────────────────────────────────────────────────────────────────────
--- 0003_llm_usage.sql — AI Consultant usage counters (DOC10 §4.3)
+-- 0003_llm_usage.sql — AI Consultant usage counters (INF_01 §4.3)
 -- ─────────────────────────────────────────────────────────────────────────────
 -- One row per user per day: message count + token totals. Powers the 30/day
 -- per-user cap and the monthly budget kill-switch in the elementum-llm Worker.

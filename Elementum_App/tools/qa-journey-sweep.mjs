@@ -61,7 +61,7 @@ const MAX_ROWS_PER_DRAG = 6;    // keeps every gesture inside the frame
 const SETTLE_POLL_MS = 120;     // wheel-snap settle poll interval
 const HASH_TIMEOUT = 15000;     // route waits (loading dwell is ~2.5s + bloom)
 
-// Golden 庚 reference — 1995-04-29 · 18:00 · Beijing · male (DOC1).
+// Golden 庚 reference — 1995-04-29 · 18:00 · Beijing · male (DEV_01).
 const GOLDEN = {
   year: { stem: '乙', branch: '亥' },
   month: { stem: '庚', branch: '辰' },

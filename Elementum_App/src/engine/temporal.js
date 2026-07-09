@@ -2,12 +2,12 @@
 // ELEMENTUM · engine/temporal.js
 // ===================================================================
 // Temporal energy projection for the Today screen's MONTH and YEAR tabs
-// (DOC5 §10). Pure computation — no content strings, no LLM.
+// (DES_04 §10). Pure computation — no content strings, no LLM.
 //
 // "All energy scores — daily, monthly, annual — are computed by
 //  engine/temporal.js. The scoring function weights each periodic
 //  element positively for elements matching the user's catalysts and
-//  negatively for elements matching resistances." (DOC5 §10)
+//  negatively for elements matching resistances." (DES_04 §10)
 //
 // Day-stem math replicates calculator.js exactly: anchor 1900-01-01,
 // dayStem = HS[daysElapsed % 10]. We reuse the calculator's exported
@@ -83,7 +83,7 @@ export function flowLevel(score) {
 // Month calendar grid. Returns { weeks } where weeks is an array of
 // 7-slot rows (null = leading/trailing pad), each cell:
 //   { day, date, element, score, level, isToday }
-// Week starts Monday (DOC5 §10 calendar header is Mon–Sun).
+// Week starts Monday (DES_04 §10 calendar header is Mon–Sun).
 // ───────────────────────────────────────────────────────────────────
 export function monthGrid(year, monthIdx, chart) {
   const ctx = energyContext(chart);
@@ -114,7 +114,7 @@ export function monthGrid(year, monthIdx, chart) {
 
 // ───────────────────────────────────────────────────────────────────
 // Flow windows for the current month — contiguous runs of high / low days,
-// summarised as date ranges (DOC5 §10 "High Flow / Clash Windows card").
+// summarised as date ranges (DES_04 §10 "High Flow / Clash Windows card").
 // ───────────────────────────────────────────────────────────────────
 export function flowWindows(year, monthIdx, chart) {
   const ctx = energyContext(chart);
@@ -140,7 +140,7 @@ export function flowWindows(year, monthIdx, chart) {
 
 // ───────────────────────────────────────────────────────────────────
 // Year energy series — 12 months scored by their solar-month branch
-// element (DOC5 §10 Year timeline). Returns array of
+// element (DES_04 §10 Year timeline). Returns array of
 //   { monthIdx, label, element, score, level }
 // ───────────────────────────────────────────────────────────────────
 const MONTH_LABELS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];

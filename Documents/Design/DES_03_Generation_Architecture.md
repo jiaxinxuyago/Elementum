@@ -1,5 +1,7 @@
 # Elementum · Doc 4 — Generation Architecture & Reading Content Guide
 
+> **Formerly DOC4** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC4" refer to this file (registry: Documents/README.md).
+
 > **⚠ v2.1 RECONCILIATION (2026-06-24 · see `DES_09_Reading_V2.1_Reconciliation_Audit.md`).** Deltas for this doc: (1) retarget the 50 compound cards (`DomEnergyTg_Data.js`, Pipeline A2) to **`ENERGY_CARD_DATA[${element}_${god}]`** with the v2.1 shape — a **FACES prologue** (abstract · punchline · chips · `rulingDomain`) plus the **reading authored per presence-frame register**: `dominant` and `absent` **bespoke**, `present` **derived** (compressed from dominant). (2) **§9 exception (decision C5):** the rule "TG content does not vary by band" is overridden **for the energy-card layer** — a persona reads differently as dominant vs present vs absent (cultivation). (3) Add a **`rulingDomain`** field, authored **per persona (×50), DM-relative**. (4) Generation must produce the **two polarity faces** per direction (persona-per-god), not one collapsed god.
 
 > **Version 4.3 · April 2026**

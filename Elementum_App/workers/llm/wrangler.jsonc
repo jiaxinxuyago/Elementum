@@ -1,5 +1,5 @@
 {
-  // AI Consultant proxy (DOC10 §4.3) — holds the LLM key, verifies the caller's
+  // AI Consultant proxy (INF_01 §4.3) — holds the LLM key, verifies the caller's
   // Supabase session + Advisor entitlement, enforces caps + the monthly budget
   // kill-switch, assembles the prompt (voice charter + chart payload), and
   // streams the model's reply back as SSE.
@@ -16,7 +16,7 @@
   "workers_dev": true,
   "vars": {
     "SUPABASE_URL": "https://nbactbfxqslzehzbgetp.supabase.co",
-    // The model switch (DOC10 §4.3): Sonnet for beta; flip to the open arm
+    // The model switch (INF_01 §4.3): Sonnet for beta; flip to the open arm
     // (model id prefixed "workersai/") when the cost trigger fires.
     "MODEL": "claude-sonnet-5",
     "DAILY_CAP": "30",

@@ -1,7 +1,7 @@
 // ===================================================================
-// ELEMENTUM · AIConsultantScreen  (DOC5 §12 Card 4 — AI Consultant)
+// ELEMENTUM · AIConsultantScreen  (DES_04 §12 Card 4 — AI Consultant)
 // ===================================================================
-// Advisor chat, REAL LLM (DOC10 §4.3): messages stream from the
+// Advisor chat, REAL LLM (INF_01 §4.3): messages stream from the
 // elementum-llm Worker (Sonnet behind a model switch), which verifies
 // the session + Advisor entitlement and enforces caps server-side.
 // The chart context payload (v2.1 spec) is composed on-device and sent
@@ -26,7 +26,7 @@ const LLM_URL = siteConfig.llmWorkerUrl;
 const CONSENT_KEY = 'elementum_consultant_consent_v1';
 const readConsent = () => { try { return localStorage.getItem(CONSENT_KEY) === '1'; } catch { return false; } };
 
-// Conversations are ON-DEVICE ONLY (DOC10 §4.3 owner decision — the server
+// Conversations are ON-DEVICE ONLY (INF_01 §4.3 owner decision — the server
 // stores zero chat content). Per-account key so shared devices don't leak
 // threads across sign-ins; capped so storage can't grow unbounded.
 const CHAT_KEY = (uid) => `elementum_consultant_chat_v1:${uid}`;
@@ -151,7 +151,7 @@ export default function AIConsultantScreen({ onBack }) {
     if (bodyRef.current) bodyRef.current.scrollTop = bodyRef.current.scrollHeight;
   }, [messages, streaming]);
 
-  // Real send (DOC10 §4.3): session token + chart payload + rolling history →
+  // Real send (INF_01 §4.3): session token + chart payload + rolling history →
   // the LLM worker → SSE deltas rendered into the existing streaming UI.
   const send = async () => {
     const text = input.trim();

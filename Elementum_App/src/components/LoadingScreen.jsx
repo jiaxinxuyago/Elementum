@@ -1,5 +1,5 @@
 // ===================================================================
-// SCREEN 9 — LOADING (DOC5 §8)
+// SCREEN 9 — LOADING (DES_04 §8)
 // The five energies turn through a 3D spotlight carousel — each element
 // icon rotates to the front and ignites in its pigment, one by one —
 // while "Calculating your chart…" runs. On mount we kick
@@ -30,7 +30,7 @@ import {
 } from '../store/chartContext.jsx';
 import { calculateBaziChart } from '../engine/index.js';
 
-// Ceremonial handoff timing — DOC5 §8 → §9
+// Ceremonial handoff timing — DES_04 §8 → §9
 const SPOT_MS = 820;          // each energy's moment in the front spotlight
 const CONTENT_FADE_MS = 420;  // loading content recedes beneath the flash
 const FLASH_BLOOM_MS = 620;   // white floods the frame — the revelation flash
@@ -85,7 +85,7 @@ export default function LoadingScreen({ onComplete }) {
       } catch (err) {
         console.error('calculateBaziChart failed:', err);
       }
-      // Intentional minimum dwell per DOC5 §8 (2.5–3s). Override via ?hold=N.
+      // Intentional minimum dwell per DES_04 §8 (2.5–3s). Override via ?hold=N.
       const hold = (() => {
         const m = typeof location !== 'undefined' && /[?&]hold=(\d+)/.exec(location.search);
         return m ? parseInt(m[1], 10) : 2500;

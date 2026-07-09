@@ -4,8 +4,8 @@
 > redesign). One brief = one screen. This screen is **already built and
 > function-complete** in the app (`#/app-energy` → `D13FacesScreen`); this brief
 > asks for the **bespoke visual elevation** of the existing composition, not a
-> new structure. Spec: DOC5 §11 (Energy Faces) · v2.1 audit
-> `Documents/Designengineering/READING_V2.1_RECONCILIATION_AUDIT.md` (B5/B7).
+> new structure. Spec: DES_04 §11 (Energy Faces) · v2.1 audit
+> `Documents/Design/DES_09_Reading_V2.1_Reconciliation_Audit.md` (B5/B7).
 
 ## Screen(s) in scope
 - Route: `#/app-energy` (reached from the catalogue: tap an energy's dot/READ).

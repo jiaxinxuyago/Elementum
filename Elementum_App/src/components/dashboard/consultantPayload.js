@@ -3,7 +3,7 @@
 // ===================================================================
 // Serializes the chart + Self-Report into the payload the consultant
 // proxy injects into the system prompt. Shape follows the v2.1-locked
-// spec (DOC10 reconciliation note): per-element polarity resolution
+// spec (INF_01 reconciliation note): per-element polarity resolution
 // ({presentFaces, absentGod}) + the positional tenGods axis — so the
 // consultant sees the same faces the readings surface.
 //
@@ -18,7 +18,7 @@ import { PERSONA_READING, DM_READING } from '../../content/reading/index.js';
 
 const ELEMENTS = ['Wood', 'Fire', 'Earth', 'Metal', 'Water'];
 
-// Vocabulary law (READING_CONCEPT_INVENTORY §1–2): the engine's translated
+// Vocabulary law (DES_08_Reading_Concept_Inventory §1–2): the engine's translated
 // god names ("Seven Killings", "Direct Seal"…) are banished aliases — the
 // model must only ever SEE the canonical persona register, so it can only
 // ever SPEAK it. Chinese glyphs stay out of every ten-god field for the

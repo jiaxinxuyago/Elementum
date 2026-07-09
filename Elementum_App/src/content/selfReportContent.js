@@ -1,10 +1,10 @@
 // ═══════════════════════════════════════════════════════════════════
-// ELEMENTUM · Self-Report — composed personal report (v1, DOC5 §12 Card 3)
+// ELEMENTUM · Self-Report — composed personal report (v1, DES_04 §12 Card 3)
 // ═══════════════════════════════════════════════════════════════════
 // The paid Self-Report deliverable: a one-shot personal document COMPOSED
 // on-device from (chart × the user's own intake). No LLM — deliberate:
 // (a) the privacy contract (birth data never leaves the device, /legal +
-// DOC10 §3) forbids shipping chart+context to a model without new
+// INF_01 §3) forbids shipping chart+context to a model without new
 // disclosure; (b) the app's whole reading corpus is authored composition,
 // and this report speaks in the same voice; (c) zero marginal cost.
 // When §4.3 (LLM proxy) lands, this structure becomes the prompt scaffold

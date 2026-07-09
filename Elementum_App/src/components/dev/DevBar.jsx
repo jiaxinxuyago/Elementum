@@ -19,7 +19,7 @@ import { TIERS, TIER_LABELS, TIER_PRICES } from '../../infra/index.js';
 import { STEM_CARD_DATA, coverageFor } from '../../content/index.js';
 import { SCHEMA_VERSION, ARCHETYPE_SCHEMA } from '../../contract/index.js';
 
-// Tier → pigment. Matches the pricing card gradients in DOC5 §19.
+// Tier → pigment. Matches the pricing card gradients in DES_04 §19.
 const TIER_ACCENT = {
   free:    '#8D9C7A', // wood — free is natural, ambient
   seeker:  '#B59A6B', // earth — seeker is grounded, established
@@ -45,9 +45,9 @@ const FLOW_SCREENS = [
   'step6', 'step6a',
   'step7', 'step7a',
   'loading', 'reveal',
-  // Dashboard tabs (DOC5 §10–§14)
+  // Dashboard tabs (DES_04 §10–§14)
   'app-today', 'app-guidance', 'app-reading', 'app-compat', 'app-profile',
-  // Reading-detail destinations (DOC5 §11)
+  // Reading-detail destinations (DES_04 §11)
   'read-elemental', 'read-daymaster', 'read-tengods', 'read-locked',
 ];
 

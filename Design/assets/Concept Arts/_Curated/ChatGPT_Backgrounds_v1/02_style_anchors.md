@@ -1,6 +1,6 @@
 # Style Anchors — visual law for every generation
 
-These constraints carry from the Elementum design system (DOC5 §AMENDMENT) and the master ChatGPT design brief. **Every background must honour all of them.**
+These constraints carry from the Elementum design system (DES_04 §AMENDMENT) and the master ChatGPT design brief. **Every background must honour all of them.**
 
 ---
 

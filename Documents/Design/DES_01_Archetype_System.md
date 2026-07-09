@@ -1,5 +1,7 @@
 # Elementum · Doc 2 — Archetype System
 
+> **Formerly DOC2** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC2" refer to this file (registry: Documents/README.md).
+
 > **⚠ v2.1 RECONCILIATION (2026-06-24 · see `DES_09_Reading_V2.1_Reconciliation_Audit.md`).** Deltas for this doc: (1) the 50-key Layer-2 taxonomy is **persona-per-god — all 10 Ten Gods are distinct personas** (比肩 The Twin ≠ 劫财 The Rival); never collapse to 5 families. (2) The reading **navigates DM-relative**: each of the user's 5 elements = one Ten-God *direction* vs their Day Master, and **polarity splits it into up to two faces** surfaced by math (see schema v2.1 §1–§2). (3) Persona names follow the **2026-06-30 FACES-handoff register** (`d13/IMPLEMENTATION_README §4`): The Twin · The Rival · The Sage · The Alchemist · The Artisan · The Virtuoso · The Steward · The Horizon · The General · The Magistrate — this revised **4** from the 2026-06-10 set (Mirror→Twin, Muse→Artisan, Edge→Virtuoso, Arbiter→Magistrate). The Profile-DB names (Flow/Trial/Root) and the Inner-Council concept-art names are **non-surfacing aliases**. (4) Disambiguate vocabulary: the **ten stem archetypes** (Oak…Rain — identity) are a different "ten" from the **ten Ten-God personas** (the faces). (5) The persona layer is promoted from `planned` to the primary reading surface.
 
 ---

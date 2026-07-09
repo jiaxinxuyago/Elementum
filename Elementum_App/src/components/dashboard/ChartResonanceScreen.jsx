@@ -1,5 +1,5 @@
 // ===================================================================
-// ELEMENTUM · ChartResonanceScreen  (DOC5 §11/§22 — hour discovery)
+// ELEMENTUM · ChartResonanceScreen  (DES_04 §11/§22 — hour discovery)
 // ===================================================================
 // A short portrait-matching exercise that narrows the likely 时辰 from
 // 12 → a top candidate by tag-resonance, then applies it to the chart

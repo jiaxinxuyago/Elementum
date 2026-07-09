@@ -21,7 +21,7 @@ portfolio thumbnails/gallery for the Elementum project page on
    ```
    node capture-replicas.mjs
    ```
-   → writes `Documents/Designengineering/app-replicas/screens/*.png`.
+   → writes `Documents/Design/app-replicas/screens/*.png`.
 
 2. Copy the screens + concept art you want into `showcase/src/` with the clean
    names referenced in `framer.html` (e.g. `s03-reveal.png`, `art-landscape.png`).

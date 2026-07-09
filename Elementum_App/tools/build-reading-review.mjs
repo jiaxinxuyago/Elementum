@@ -2,8 +2,8 @@
 // ELEMENTUM · reading-content review + journey replicant generator
 // ===================================================================
 // Reads the *actual* reading-data modules and emits two review artifacts:
-//   1. Documents/Designengineering/READING_CONTENT_REVIEW.md   (owner review)
-//   2. Documents/Designengineering/reading-replicant.html      (journey mockup)
+//   1. Documents/Design/DES_11_Reading_Content_Review.md   (owner review)
+//   2. Documents/Design/reading-replicant.html      (journey mockup)
 // Both are GENERATED — never hand-edit them. Edit the source data files
 // (d13FacesContent.js, tgNames.js) and re-run:  node tools/build-reading-review.mjs
 //
@@ -23,7 +23,7 @@ import {
 } from '../src/components/d13/d13FacesContent.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const OUT_DIR = resolve(__dirname, '../../Documents/Designengineering');
+const OUT_DIR = resolve(__dirname, '../../Documents/Design');
 // Live art base, single-sourced from site.config.json — so the replicant shows real portraits when online.
 const ART_BASE = JSON.parse(readFileSync(new URL('../site.config.json', import.meta.url), 'utf8')).liveUrl;
 
@@ -106,7 +106,7 @@ function buildMarkdown() {
   L.push('');
   L.push('## 0 · Where the reading data lives (architecture audit)');
   L.push('');
-  L.push('The reading **data is pure** (no engine/React deps — every file below is Node-importable), but it is **not yet a single library** — it is split between `src/content/` and `src/components/d13/`, and `d13ReadingResolve.js` mixes data maps with resolve logic. Consolidating into one `content/reading/` library with barrels is **Phase 4 of `ARCH_CLEANUP_AUDIT.md` — deferred, pending your approval** (strictly behavior-preserving). So: the separation you expected is **not done yet**; the data is clean and extractable, just scattered.');
+  L.push('The reading **data is pure** (no engine/React deps — every file below is Node-importable), but it is **not yet a single library** — it is split between `src/content/` and `src/components/d13/`, and `d13ReadingResolve.js` mixes data maps with resolve logic. Consolidating into one `content/reading/` library with barrels is **Phase 4 of `DEV_05_Arch_Cleanup_Audit.md` — deferred, pending your approval** (strictly behavior-preserving). So: the separation you expected is **not done yet**; the data is clean and extractable, just scattered.');
   L.push('');
   L.push('| File | Exports (reading data) | Keyed by | Pure? |');
   L.push('|---|---|---|---|');
@@ -334,7 +334,7 @@ function buildHtml() {
 
 // ============================ EMIT ============================
 mkdirSync(OUT_DIR, { recursive: true });
-const mdPath = resolve(OUT_DIR, 'READING_CONTENT_REVIEW.md');
+const mdPath = resolve(OUT_DIR, 'DES_11_Reading_Content_Review.md');
 const htmlPath = resolve(OUT_DIR, 'reading-replicant.html');
 writeFileSync(mdPath, buildMarkdown(), 'utf8');
 writeFileSync(htmlPath, buildHtml(), 'utf8');

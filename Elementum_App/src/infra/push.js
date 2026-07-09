@@ -1,11 +1,11 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// INFRA · Web Push client (DOC10 §4.4)
+// INFRA · Web Push client (INF_01 §4.4)
 // ─────────────────────────────────────────────────────────────────────────────
 // enablePush(): permission → pushManager.subscribe(VAPID) → register with the
 // push worker (stores endpoint + preferred UTC send hour; user id if signed in).
 // disablePush(): unsubscribe locally + delete the server row.
 // All functions no-op gracefully where Web Push is unsupported (e.g. iOS Safari
-// in the browser tab — install-to-home-screen is required there, DOC10 §4.4).
+// in the browser tab — install-to-home-screen is required there, INF_01 §4.4).
 // ─────────────────────────────────────────────────────────────────────────────
 import siteConfig from '../../site.config.json';
 

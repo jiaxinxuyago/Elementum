@@ -38,12 +38,12 @@ const INITIAL_BIRTH_DATA = {
 // Pricing tiers/labels/prices are commercial config → src/infra/pricing.js.
 // This store manages only the active `tier` STATE (set via setTier).
 
-// Self-Report — a one-time purchase (DOC5 §19), tracked SEPARATELY from the
+// Self-Report — a one-time purchase (DES_04 §19), tracked SEPARATELY from the
 // subscription tier. SERVER-TRUTH like tier (webhook writes has_self_report);
 // the localStorage key below is only the IS_DEV demo flip's persistence.
 const SELF_REPORT_KEY = 'elementum_hasselfreport_v1';
 
-// Tier entitlement — SERVER-TRUTH (DOC10 §4.2). For signed-in users the tier
+// Tier entitlement — SERVER-TRUTH (INF_01 §4.2). For signed-in users the tier
 // comes from the Supabase `entitlements` row, written only by the Stripe
 // webhook (service-role). The old localStorage honor-system grant is retired —
 // the client can no longer grant itself a paid tier. A small per-user cache
@@ -179,7 +179,7 @@ export function ChartProvider({ children }) {
     return () => { active = false; };
   }, [user, refreshEntitlements]);
 
-  // Entitlements re-sync whenever the app regains focus (DOC10 §4.2b):
+  // Entitlements re-sync whenever the app regains focus (INF_01 §4.2b):
   // the buyer pays in a separate checkout tab, switches back, and the app
   // unlocks without any redirect — also keeps a second device fresh after a
   // purchase elsewhere. Throttled: at most one row-read per 10s of refocus.
@@ -287,7 +287,7 @@ export function resolveGenderForCalc(birthData) {
 // Resolve the hour to pass into calculateBaziChart():
 // - Exact hour (0–23): returned as-is
 // - Approximate window: use the midpoint of the selected 4-hour window
-// - Unknown: default to 12 (midday) — DOC5 §22 documents a 3-pillar path
+// - Unknown: default to 12 (midday) — DES_04 §22 documents a 3-pillar path
 //   for unknown hour, but the v1 calculator expects an hour value;
 //   callers can read birthData.hourUnknown to suppress hour-pillar display.
 const WINDOW_MIDPOINTS = {
@@ -305,7 +305,7 @@ export function resolveHourForCalc(birthData) {
 }
 
 // ── LOCATION → longitude resolution ───────────────────────────────────────
-// DOC5 §7 Step 5 + §22: if the user picked a geocoded suggestion we get an
+// DES_04 §7 Step 5 + §22: if the user picked a geocoded suggestion we get an
 // exact longitude. If they typed something freeform we try a small
 // well-known-city lookup; anything unrecognised falls back silently to
 // Beijing longitude (120°E, the traditional BaZi standard).

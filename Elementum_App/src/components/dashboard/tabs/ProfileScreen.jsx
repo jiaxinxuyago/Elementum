@@ -34,7 +34,7 @@ export default function ProfileScreen() {
   const { openUpgrade } = useUpgrade();
   const { user, signOut } = useAuth();
   const [authOpen, setAuthOpen] = useState(false);
-  // Real Web Push (DOC10 §4.4): '' | 'denied' | 'unsupported' | 'error'
+  // Real Web Push (INF_01 §4.4): '' | 'denied' | 'unsupported' | 'error'
   const [pushMsg, setPushMsg] = useState('');
   // The toggle reflects the ACTUAL subscription on this device — not the
   // birthData preference (which onboarding records even where push can't run).

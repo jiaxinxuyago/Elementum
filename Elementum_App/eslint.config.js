@@ -24,7 +24,7 @@ export default defineConfig([
       // single-source-of-truth files — an accepted cost. allowConstantExport
       // covers the constant cases; allowExportNames can't enumerate ~60
       // mixed exports, so the rule is a warning (visible, non-blocking)
-      // rather than an error. CODE_REVIEW_STANDARDS §4-A1's hard 0-errors
+      // rather than an error. DEV_03_Code_Review_Standards §4-A1's hard 0-errors
       // gate is carried by everything else, above all no-restricted-imports.
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
     },

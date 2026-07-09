@@ -1,5 +1,5 @@
 -- ─────────────────────────────────────────────────────────────────────────────
--- 0002_push_subscriptions.sql — Web Push subscriptions (DOC10 §4.4)
+-- 0002_push_subscriptions.sql — Web Push subscriptions (INF_01 §4.4)
 -- ─────────────────────────────────────────────────────────────────────────────
 -- One row per subscribed device. Deliberately minimal + privacy-preserving:
 -- a push endpoint, its crypto keys, and the preferred send hour. NO birth data,

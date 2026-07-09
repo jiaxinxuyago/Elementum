@@ -31,6 +31,6 @@ try {
   console.error('ENGINE REGRESSION GUARD — the edit to ' + filePath + ' changed verified engine output:');
   console.error(String(e.stdout || ''));
   console.error(String(e.stderr || ''));
-  console.error('If intentional: re-verify per ENGINE_ACCURACY_QA.md, then `node tools/qa-engine-regression.mjs --update`.');
+  console.error('If intentional: re-verify per DEV_04_Engine_Accuracy_QA.md, then `node tools/qa-engine-regression.mjs --update`.');
   process.exit(2);
 }

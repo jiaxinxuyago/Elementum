@@ -1,4 +1,6 @@
 # DEV_02 — Code Architecture & Migration Guide
+
+> **Formerly DOC8** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC8" refer to this file (registry: Documents/README.md).
 ## Single-file artifact → Vite + React production project
 
 **Version:** 3.2 · April 2026
@@ -52,7 +54,7 @@ Elementum_Project/
 │
 ├── Design/                              ← Phase 1/2A design source (tokens, flow JSX, ink PNGs).
 │
-├── Documents/Designengineering/
+├── Documents/ (Design · Development · Infrastructure · Business · Legal_Admin · Project_Management)
 │   ├── DEV_01 … DEV_02
 │   ├── DOC_HANDOFF_ClaudeCode.md
 │   └── ClaudeCode_Prompt_Phase1.md

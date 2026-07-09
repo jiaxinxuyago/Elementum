@@ -1,5 +1,5 @@
 // ===================================================================
-// SCREEN 9 — LOADING  (DOC5 §8)
+// SCREEN 9 — LOADING  (DES_04 §8)
 // Pulses 5 element signs, "Calculating your chart...", 5 element dots
 // filling L→R over 2.5s. A single distant ridge holds the composition.
 // ===================================================================

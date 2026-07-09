@@ -79,7 +79,7 @@ export default defineConfig({
         ],
       },
       workbox: {
-        // Web Push handlers (DOC10 §4.4) ride into the generated SW.
+        // Web Push handlers (INF_01 §4.4) ride into the generated SW.
         importScripts: ['push-sw.js'],
         // Precache the app shell only (code + vector assets). The painted
         // art library is far too large to precache — it runtime-caches below.

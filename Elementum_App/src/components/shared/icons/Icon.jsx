@@ -78,7 +78,7 @@ export const ICON_IDS = Object.freeze({
   //   Yin  (yi, ding, ji, xin, gui)   — v4 line placeholders pending brushwork.
   dayMasters: ['dm-jia', 'dm-yi', 'dm-bing', 'dm-ding', 'dm-wu',
                'dm-ji',  'dm-geng', 'dm-xin', 'dm-ren', 'dm-gui'],
-  // Bottom tab nav (DOC5 §AM.2 — icons-only, Reading in centre)
+  // Bottom tab nav (DES_04 §AM.2 — icons-only, Reading in centre)
   tabs: ['tab-today', 'tab-guidance', 'tab-reading', 'tab-compat', 'tab-profile'],
   // Reading-section catalogue — PLACEHOLDER per amendment §A6
   readings: ['read-elemental', 'read-dominant', 'read-forces',

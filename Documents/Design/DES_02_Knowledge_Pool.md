@@ -1,5 +1,7 @@
 # Elementum · Doc 3 — Knowledge Pool
 
+> **Formerly DOC3** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC3" refer to this file (registry: Documents/README.md).
+
 > **⚠ v2.1 RECONCILIATION (2026-06-24 · see `DES_09_Reading_V2.1_Reconciliation_Audit.md`).** Deltas for this doc: (1) the §3.5 Ten-God profiles now need **presence-frame register** variants (dominant = full read · present = derived shorter · scarce/absent = cultivation); extend §8.3's 2-band element model to the 3-band persona model. (2) §3.4 elemental-processing fields are the **source for the new `rulingDomain`** (DM-relative life-area line) — convert each element-field into a plain-English domain line per (element × Day Master). (3) §8.6 translation contract and §8.9 jargon ban **stay canonical** (no 比肩/正财, no yin/yang/"polarity" surfaced). (4) Tier-3 resonance bridges (e.g. Archetype_Reference's 5-family grouping) must **never** seed the persona taxonomy — personas are per-god, all 10 distinct (decision C3).
 
 This document is a **library, not a protocol.** It provides materials; Doc 4 provides generation instructions. Reading Doc 3 tells you what sources exist and how they are tiered. Reading Doc 4 tells you which ones to use for a given key, in what order, with what ceilings.

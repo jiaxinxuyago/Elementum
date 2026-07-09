@@ -1,5 +1,5 @@
 // ===================================================================
-// ELEMENTUM · SelfReportScreen  (DOC5 §12 Card 3 — Self-Report)
+// ELEMENTUM · SelfReportScreen  (DES_04 §12 Card 3 — Self-Report)
 // ===================================================================
 // Seeker life-context intake that (conceptually) enriches all readings.
 // Fields: Life chapter (single) · Key domains (multi) · Open context
@@ -38,7 +38,7 @@ export default function SelfReportScreen({ onBack }) {
   const [payState, setPayState] = useState('idle');
   const saved = read();
 
-  // Real purchase (DOC10 §4.2): account required so the payment carries the
+  // Real purchase (INF_01 §4.2): account required so the payment carries the
   // buyer's id — the webhook then writes has_self_report server-side.
   // §4.2b: checkout opens in a NEW tab (the app never navigates away);
   // popup-blocked → same-tab fallback.
@@ -80,7 +80,7 @@ export default function SelfReportScreen({ onBack }) {
   const [domains, setDomains] = useState(saved?.domains || []);
   const [context, setContext] = useState(saved?.context || '');
   const [savedAt, setSavedAt] = useState(saved?.at || null);
-  // 'form' | 'report' — saving DRAWS the report (the paid deliverable, DOC5
+  // 'form' | 'report' — saving DRAWS the report (the paid deliverable, DES_04
   // §12 Card 3 v1: composed on-device, no LLM); "Edit" returns to the form.
   const [view, setView] = useState('form');
 
@@ -196,7 +196,7 @@ export default function SelfReportScreen({ onBack }) {
 
 // ───────────────────────────────────────────────────────────────────
 // ReportDoc — the composed personal report, rendered as a keepable
-// document (DOC5 §12 Card 3 v1). Pure presentation of composeSelfReport().
+// document (DES_04 §12 Card 3 v1). Pure presentation of composeSelfReport().
 // ───────────────────────────────────────────────────────────────────
 function ReportDoc({ report, onEdit }) {
   const [thesis, edge] = (report.manifesto || '').split(' · ');
@@ -283,7 +283,7 @@ function Bullet({ children }) {
   );
 }
 
-// One-time purchase gate (DOC5 §19). Shown until the Self-Report add-on is
+// One-time purchase gate (DES_04 §19). Shown until the Self-Report add-on is
 // owned. Seekers get the $6.99 one-time buy; Free users are routed to upgrade
 // first (Self-Report is a Seeker add-on).
 function PurchaseGate({ tier, onBuy, onUpgrade }) {

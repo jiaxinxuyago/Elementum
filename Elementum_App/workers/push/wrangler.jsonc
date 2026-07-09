@@ -1,5 +1,5 @@
 {
-  // Web Push service (DOC10 §4.4) — subscribe/unsubscribe API + hourly cron
+  // Web Push service (INF_01 §4.4) — subscribe/unsubscribe API + hourly cron
   // that sends the daily date-based reading reminder to matching subscriptions.
   // Deploy:  npx wrangler deploy --config workers/push/wrangler.jsonc
   //

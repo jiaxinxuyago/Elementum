@@ -15,7 +15,7 @@
 #
 # The hidden prompt keeps the key out of chat transcripts, shell history, and
 # files -- the failure mode this script exists to prevent.
-# Ops doctrine (DOC10 section 4.3): rotation is EVENT-driven (exposure /
+# Ops doctrine (INF_01 section 4.3): rotation is EVENT-driven (exposure /
 # offboarding / annual hygiene), not scheduled -- the $50/mo kill-switch
 # bounds idle risk. This file is deliberately ASCII-only: PowerShell 5.1
 # misreads BOM-less UTF-8 and turns fancy characters into mojibake.

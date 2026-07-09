@@ -1,5 +1,5 @@
 // ===================================================================
-// SCREEN 1 — WELCOME (DOC5 §6, Ink & Pigment v2)
+// SCREEN 1 — WELCOME (DES_04 §6, Ink & Pigment v2)
 // Ported verbatim from Design/flow/welcome.jsx in the v2 bundle.
 // Aged silk ground with two keyed ink-wash layers (distant ridges above,
 // island cluster below). No central glyph or masthead — the Reveal mark
@@ -20,7 +20,7 @@ export default function WelcomeScreen({ onContinue, onEnterApp }) {
   const [authOpen, setAuthOpen] = useState(false);
 
   // Post-sign-in routing: the account restores unlocks, but birth data lives
-  // on-device (DOC10 §3) — so a chart here means "welcome home", and a fresh
+  // on-device (INF_01 §3) — so a chart here means "welcome home", and a fresh
   // device means the chart is redrawn through onboarding (unlocks intact).
   const proceedSignedIn = () => (chart ? (onEnterApp || onContinue) : onContinue)();
 

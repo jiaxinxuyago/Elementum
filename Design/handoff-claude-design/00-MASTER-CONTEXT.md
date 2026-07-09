@@ -6,7 +6,7 @@ information architecture, the current state of each screen, and the global
 consistency rules every per-page brief inherits. Then run ONE focused per-page
 brief at a time (see `/briefs`).
 
-> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `Documents/Designengineering/READING_V2.1_RECONCILIATION_AUDIT.md`).** IA-map update: the reading drills **element → FACES prologue → persona reading** (Faces = a prologue inside the reading, 1–2 persona cards by calculation, each with abstract + punchline + keywords + **ruling domain**). The reading is **persona-scoped**, read at a **presence-frame** depth. Insert a Faces route between `app-reading`/`app-energy` and the persona reading; add the ruling-domain line to the IA map. **Positional axis (宫位, B6):** also add a *separate* per-pillar reading surface (年/月/日支-夫妻宫/时 × Ten God) to the IA map, reusing persona content framed by palace.
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `Documents/Design/DES_09_Reading_V2.1_Reconciliation_Audit.md`).** IA-map update: the reading drills **element → FACES prologue → persona reading** (Faces = a prologue inside the reading, 1–2 persona cards by calculation, each with abstract + punchline + keywords + **ruling domain**). The reading is **persona-scoped**, read at a **presence-frame** depth. Insert a Faces route between `app-reading`/`app-energy` and the persona reading; add the ruling-domain line to the IA map. **Positional axis (宫位, B6):** also add a *separate* per-pillar reading surface (年/月/日支-夫妻宫/时 × Ten God) to the IA map, reusing persona content framed by palace.
 
 > **How Claude Design consumes this:** the canvas is sandboxed — no web fetch,
 > no filesystem, no raster painting. You cannot open the live app. You work from
@@ -88,7 +88,7 @@ Key values:
 - Architectural caps / ceremony: **Cinzel**
 - Data / numerals / codes: **JetBrains Mono**
 - Chinese glyphs: **Noto Serif SC / TC**, brush accents **Ma Shan Zheng**
-- **NO ITALICS anywhere** (locked rule DOC5 §AM.10). Use weight/letterspacing for emphasis.
+- **NO ITALICS anywhere** (locked rule DES_04 §AM.10). Use weight/letterspacing for emphasis.
 
 **Texture & motifs**
 - Ink-wash (shuǐmò) painterly backgrounds, low-opacity, behind a quiet cream

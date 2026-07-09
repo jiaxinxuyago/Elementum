@@ -26,7 +26,7 @@ import {
   pigments, withAlpha,
 } from '../../../styles/tokens';
 
-// Ten God family → element role color (per DOC5 §11 dialect)
+// Ten God family → element role color (per DES_04 §11 dialect)
 const TG_FAMILY_PIGMENT = {
   self:      'metal',  // 比肩/劫财 — companion energy
   output:    'water',  // 食神/伤官 — expression
@@ -78,7 +78,7 @@ export default function TenGodsDetail({ onBack }) {
         subtitle: primaryEntry ? `Primary force · ${tgPersona(primaryEntry.zh)} ${primaryEntry.zh}` : undefined,
       }}
     >
-      {/* ── TG RING — weighted role donut (DOC5 §11 identity visual) ── */}
+      {/* ── TG RING — weighted role donut (DES_04 §11 identity visual) ── */}
       <section style={{
         background: cardstockBg, border: `1px solid ${paperHair}`,
         borderRadius: 16, padding: '20px 16px 18px', marginBottom: 14,

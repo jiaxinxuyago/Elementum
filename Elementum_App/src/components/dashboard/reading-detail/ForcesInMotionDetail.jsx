@@ -1,6 +1,6 @@
 import { ELEMENT_TO_PIGMENT } from '../../../styles/elementPigments.js';
 // ===================================================================
-// ELEMENTUM · ForcesInMotionDetail  (DOC5 §11 Catalyst + Resistance)
+// ELEMENTUM · ForcesInMotionDetail  (DES_04 §11 Catalyst + Resistance)
 // ===================================================================
 // The "Forces in Motion" reading — what lifts you (Catalyst, ↑) and what
 // wears you down (Resistance, ↓). Composes:

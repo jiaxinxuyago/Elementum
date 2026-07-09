@@ -17,7 +17,7 @@
  * TG_CARD_DATA   — 10 Ten Gods. Full card data per Ten God (ruling realm,
  *                  personality, life domains, people, 流年大运 signatures)
  *
- * See DOC4 §4 for the complete field reference and tier assignments.
+ * See DES_03 §4 for the complete field reference and tier assignments.
  */
 
 
@@ -30,7 +30,7 @@
 // blocks[]    → Base energy reading blocks. Uses the VARIANT SCHEMA:
 //               { label, bands[], patterns[], priority{}, text{} }
 //               Fallback: band_pattern → band → pattern → default
-//               See DOC4 §9 for the full authoring rules.
+//               See DES_03 §9 for the full authoring rules.
 //               This variant schema is specific to blocks[] ONLY — all other
 //               fields in STEM_CARD_DATA and all TG_CARD_DATA fields are flat.
 // ═══════════════════════════════════════════════════════════════════════════
@@ -961,7 +961,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
     ],
 
     // ⚠ DEPRECATED — lifeDomains at stem level is being removed.
-    // Domain content belongs in TG_CARD_DATA[tg].domains (see DOC4 §4).
+    // Domain content belongs in TG_CARD_DATA[tg].domains (see DES_03 §4).
     // The 11 blocks[] above already carry characterological domain content
     // implicitly. Standalone stem lifeDomains is redundant with them.
     // Retained here temporarily for reference during the migration to TG-level
@@ -1472,7 +1472,7 @@ There's also a pattern of caring for others at the level you wish you were cared
 // not the DM configuration. DM-specific differentiation happens at the
 // compound card layer (DomEnergyTg_Data.js, keyed by domEl_specificTenGod).
 //
-// Fields (9-section schema — DOC4 §4):
+// Fields (9-section schema — DES_03 §4):
 //   name, sub              → display title
 //   rulingRealm            → { phrase, desc } — psychological territory [FREE]
 //   chips[]                → 5 TG-specific behavioral tags [FREE]
@@ -1482,7 +1482,7 @@ There's also a pattern of caring for others at the level you wish you were cared
 //   hiddenDynamic          → one paragraph — inner mechanism beneath surface [PRO]
 //   domainSignatures       → { career, relationships, wealth, health }
 //     each: {
-//       sig: int,            // 1–5 significance weight (DOC4 §4 sig table)
+//       sig: int,            // 1–5 significance weight (DES_03 §4 sig table)
 //       sig_female: int|null,  // override for female users (六亲 relationship stars)
 //       sig_male:   int|null,  // override for male users
 //       mechanism: string,   // section title — evocative phrase naming TG's territory here
@@ -1492,7 +1492,7 @@ There's also a pattern of caring for others at the level you wish you were cared
 //     Rendering: sig ≥ 4 → included at full depth. sig ≤ 3 → excluded entirely.
 //     Gender overrides used when user gender is known.
 //     Classical 六亲 basis: 官杀 = husband star (female); 财 = wife star (male).
-//     See DOC4 §4 qualifying domains table (15 combinations).
+//     See DES_03 §4 qualifying domains table (15 combinations).
 //   sixRelations           → 六亲 description paragraph [PRO]
 //   liunianSignatures      → 流年大运 event signatures paragraph [PRO]
 // ═══════════════════════════════════════════════════════════════════════════
@@ -2114,14 +2114,14 @@ export const TG_CARD_DATA = {
 // ═══════════════════════════════════════════════════════════════════════════
 // CLASSICAL_STEM_ANCHORS
 // Classical source principles for all 10 Day Master stems.
-// Source: 穷通宝鉴, 三命通会, 子平真诠, 滴天髓 — see DOC3 §2 for derivations.
+// Source: 穷通宝鉴, 三命通会, 子平真诠, 滴天髓 — see DES_02 §2 for derivations.
 //
 // Usage: Inject into buildPersonaPrompt() and buildReadingPrompt() in
 //   batchGenerate.js. Extends and replaces the partial STEM_CLASSICAL
 //   constant in that file (庚, 辛, 甲, 戊, 壬 are already there; 乙, 丙, 丁,
 //   己, 癸 are new).
 //
-// Hard ceiling per DOC3: max 3 behavioral claims per stem-specific entry.
+// Hard ceiling per DES_02: max 3 behavioral claims per stem-specific entry.
 //   Each 'derivation' field should yield no more than 3 reading claims.
 // ═══════════════════════════════════════════════════════════════════════════
 

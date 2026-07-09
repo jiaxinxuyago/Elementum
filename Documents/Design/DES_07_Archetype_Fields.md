@@ -1,5 +1,7 @@
 # DES_07 · Archetype Fields (Design Companion)
 
+> **Formerly DOC9** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC9" refer to this file (registry: Documents/README.md).
+
 > **What this is.** A designer-facing companion to [`archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js). When you're scoping a new screen, block, card, or infographic — this tells you *which fields are available* for that surface, *what the copy cap is*, and *what assets feed it*. Grouped by UI surface, not by data shape.
 >
 > **Source of truth.** `archetypeSchema.js` — if this doc and the schema disagree, the schema wins. Bump the version in the schema when you change a field.

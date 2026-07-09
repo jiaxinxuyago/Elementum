@@ -1,7 +1,7 @@
 // ===================================================================
 // ELEMENTUM · AuthContext — Supabase auth (accounts + session)
 // ===================================================================
-// Sign-in is OPTIONAL (DOC10): the app runs anonymously by default; auth is
+// Sign-in is OPTIONAL (INF_01): the app runs anonymously by default; auth is
 // required only to purchase (attribute payment) and to restore entitlements on
 // a new device. Birth data stays on-device — auth never gates the free reading.
 // Entitlements (tier) are read separately (chartContext) once a session exists.

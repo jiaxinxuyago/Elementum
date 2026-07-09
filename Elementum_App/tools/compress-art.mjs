@@ -8,7 +8,7 @@
 //   node tools/compress-art.mjs <dir> [quality 1-100, default 80]
 //   e.g. node tools/compress-art.mjs public/concept-arts/library
 //
-// Prints per-file + total savings. Budget check: CODE_REVIEW_STANDARDS
+// Prints per-file + total savings. Budget check: DEV_03_Code_Review_Standards
 // §5-P6 caps shipped assets at 300 KB each — rerun with lower quality
 // for files still over.
 // ===================================================================

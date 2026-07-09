@@ -429,7 +429,7 @@ export function Step4A_HourWindow({ onBack, onContinue, onUnknown }) {
 // -----------------------------------------------------------
 // STEP 5 — LOCATION (with Open-Meteo autocomplete)
 // Debounced city search via src/services/geocoding.js.
-// Per DOC5 §22: any failure (no match, network error) keeps the
+// Per DES_04 §22: any failure (no match, network error) keeps the
 // typed text and falls back silently to Beijing longitude at calc time.
 // -----------------------------------------------------------
 export function Step5_Location({ onBack, onContinue }) {
@@ -963,7 +963,7 @@ export function Step7_Notify({ onBack, onContinue, onChangeTime }) {
       onBack={onBack}
       onContinue={() => {
         updateBirthData({ notifyOn: on });
-        // Real Web Push subscribe (DOC10 §4.4) — fire-and-forget so onboarding
+        // Real Web Push subscribe (INF_01 §4.4) — fire-and-forget so onboarding
         // never blocks; the permission prompt overlays the loading screen.
         // Where unsupported (e.g. iOS Safari tab), it no-ops; the Profile
         // toggle reflects true subscription state + guidance later.

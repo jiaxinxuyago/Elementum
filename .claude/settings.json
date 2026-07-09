@@ -1,5 +1,5 @@
 {
-  "_comment": "Project allowlist for the agent routines (AUTOMATION_RUNBOOK §2b) + high-frequency dev tools. Curated 2026-07-08 from a 50-transcript scan; extended 2026-07-09 for the fix-dispatch manager's unattended daily run (read-only git, the /report email POST, journal writes under qa-output/). Deliberately STILL NOT allowlisted (owner-approved boundary, do not add): merge to main, wrangler/deploy, rm, secret rotation, blanket curl/interpreter patterns. Fixer-agent worktree mutations (git commit/push to autofix/*) are granted in the personal settings.local.json, not here; only the owner merges to main. Full bypassPermissions is intentionally NOT set so the permission wall stays as the backstop that enforces this agent's never-merge/never-deploy charter.",
+  "_comment": "Project allowlist for the agent routines (AUTOMATION_RUNBOOK §2b) + high-frequency dev tools. Curated 2026-07-08 from a 50-transcript scan; extended 2026-07-09 for the fix-dispatch manager's unattended daily run (read-only git, the /report email POST, journal writes under qa-output/). Extended again 2026-07-09 (pass 2) to close the daily-QA-triage agent's remaining unattended gaps: root-relative node tool paths (the Bash tool runs from the project root, not Elementum_App), read-only host-pinned curl re-probes of our OWN three live endpoints (elementum.life / push / stripe-webhook), the 'git -C <root> log' culprit lookup, and the PushNotification tool for the surviving-finding alert. The email digest goes through node tools/send-report.mjs (a fixed-endpoint, owner-only wrapper) NOT hand-composed curl, per the 2026-07-09 lesson that variable command shapes can't match a prefix rule. Deliberately STILL NOT allowlisted (owner-approved boundary, do not add): merge to main, wrangler/deploy, rm, secret rotation, blanket (non-host-pinned) curl/interpreter patterns (incl. node -e). Fixer-agent worktree mutations (git commit/push to autofix/*) are granted in the personal settings.local.json, not here; only the owner merges to main. Full bypassPermissions is intentionally NOT set so the permission wall stays as the backstop that enforces this agent's never-merge/never-deploy charter. Extended again 2026-07-09 (pass 3, user-directed clearance audit for the daily code-review routine): added the §A9 PowerShell parse-check as a repo-root-scoped wildcard ([Parser]::ParseFile(\"D:\\Elementum\\Elementum_Project\\*) so the reviewer/triage agents can syntax-check ANY new or edited .ps1 in a diff unattended — this generalizes the two per-file ParseFile grants in settings.local.json. It is read-only static analysis pinned to the ParseFile API (cannot execute a script), with the wildcard confined to the file-path argument under the repo root — deliberately NOT a broadened PowerShell surface. The /report email must stay on 'node tools/send-report.mjs' (never hand-composed Invoke-RestMethod/curl — variable shapes can't match a prefix rule, 2026-07-09 lesson); journal + last-reviewed.txt writes use the Write/Edit tool under qa-output/** (not shell redirects like printf>).",
   "permissions": {
     "allow": [
       "mcp__Claude_Preview__preview_eval",
@@ -26,6 +26,8 @@
       "Bash(node tools/qa-route-sweep.mjs)",
       "Bash(node tools/qa-journey-sweep.mjs)",
       "Bash(node tools/send-report.mjs *)",
+      "Bash(node Elementum_App/tools/send-report.mjs *)",
+      "Bash(node Elementum_App/tools/qa-journey-sweep.mjs)",
       "Bash(node tools/qa-accuracy-dump.mjs)",
       "Bash(node tools/qa-strength-diagnostic.mjs)",
       "Bash(node tools/reading-format-audit.mjs)",
@@ -34,9 +36,16 @@
       "Bash(npx playwright install chromium)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/)",
       "Bash(curl -s -X POST \"https://elementum-push.jiaxinxuyago.workers.dev/report\"*)",
+      "Bash(curl -s https://elementum.life/*)",
+      "Bash(curl -s https://elementum-push.jiaxinxuyago.workers.dev/*)",
+      "Bash(curl -s -X POST https://elementum-stripe-webhook.jiaxinxuyago.workers.dev/*)",
+      "Bash(git -C * log *)",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File D:\\Elementum\\Elementum_Project\\Elementum_App\\tools\\daily-qa-routine.ps1*)",
+      "PushNotification",
       "Edit(Elementum_App/tools/qa-output/**)",
       "Write(Elementum_App/tools/qa-output/**)",
       "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File D:\\Elementum\\Elementum_Project\\Elementum_App\\tools\\daily-qa-routine.ps1*)",
+      "PowerShell($errs = $null; $tokens = $null; [System.Management.Automation.Language.Parser]::ParseFile\\(\"D:\\\\Elementum\\\\Elementum_Project\\\\*)",
       "PowerShell(schtasks /Query *)",
       "PowerShell(Get-ScheduledTask *)",
       "PowerShell(Get-ScheduledTaskInfo *)"

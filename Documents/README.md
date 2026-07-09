@@ -1,0 +1,78 @@
+# Documents — ID Registry & Naming Convention
+
+**Reorganized 2026-07-09** (owner directive). Six category folders, uniform naming convention. This README is the registry of record — consult it before creating or citing any document.
+
+## The naming convention
+
+```
+[CATEGORY PREFIX]_[NN]_[Doc_Name].md
+```
+
+- **Prefix:** `DES` Design · `DEV` Development · `INF` Infrastructure · `BIZ` Business · `LEG` Legal & Admin · `PM` Project Management
+- **Number:** two digits, assigned by accession. **Append-only — never renumber, never reuse.** The number is an ID, not a ranking.
+- **Doc_Name:** Title_Case_With_Underscores, noun phrase, ≤5 words. No dates in living docs (git is the timeline). No status words (`FINAL`, `v2` — version control's job).
+- **Exempt from numbering:** archives (`_ARCHIVE_` prefix — sorted last, non-living), dated snapshots (`*_YYYY-MM-DD.*` — immutable records; the date IS their ID), and non-document reference artifacts (e.g. `.html` replicas).
+- **The DOC series (DOC1–DOC10) is CLOSED.** It was the legacy canon numbering; every DOC was converted 2026-07-09 (alias table below). New canon-grade docs are born with category prefixes.
+
+## Registry
+
+### Design/ — concept system, reading corpus, arts
+| ID | Title | Purpose | Formerly |
+|---|---|---|---|
+| DES_01 | Archetype_System | The archetype/persona concept system | DOC2 |
+| DES_02 | Knowledge_Pool | BaZi knowledge corpus | DOC3 |
+| DES_03 | Generation_Architecture | How reading content is generated from the schema | DOC4 |
+| DES_04 | App_Design | App design + §AM locked design rules | DOC5 |
+| DES_05 | Reading_Schema | Reading schema (v2 draft; §7 pending decisions) | DOC6 |
+| DES_06 | Content_Generation_Guide | Authoring rules for reading content | DOC7 |
+| DES_07 | Archetype_Fields | Archetype field schema reference | DOC9 |
+| DES_08 | Reading_Concept_Inventory | Vocabulary law + concept registry + ladder | — |
+| DES_09 | Reading_V2.1_Reconciliation_Audit | v2.1 polarity-faces locked decisions record | — |
+| DES_10 | Reading_Format_Audit | Word-budget walker audit (evidence for redesign) | — |
+| DES_11 | Reading_Content_Review | Reading content review | — |
+| DES_12 | Identity_Compound_Vocabulary | Identity compound vocabulary | — |
+| DES_13 | Design_Audit_Backlog | THE DECISION LEDGER (D-series / S-series rulings) | — |
+| DES_14 | Asset_Map_Concept_Arts | Concept-art asset map | — |
+| — | _ARCHIVE_Manual_RETIRED | Retired Manual (archive, exempt) | — |
+| — | reading-replicant.html | Reference artifact (exempt) | — |
+
+### Development/ — engine spec, code architecture, engineering protocols
+| ID | Title | Purpose | Formerly |
+|---|---|---|---|
+| DEV_01 | Calculation_Engine | BaZi calculation methodology (engine spec) | DOC1 |
+| DEV_02 | Code_Architecture_and_Migration | Code architecture + migration record | DOC8 |
+| DEV_03 | Code_Review_Standards | Review standards (cited by the nightly review routine) | — |
+| DEV_04 | Engine_Accuracy_QA | MANDATORY protocol after engine changes | — |
+| DEV_05 | Arch_Cleanup_Audit | 2026-07 restructuring audit (executed) | — |
+| DEV_06 | Screens_V2_Implementation_Edits | screens-v2 integration record (landed) | — |
+
+### Infrastructure/ — backend, workers, external services, store enrollment
+| ID | Title | Purpose | Formerly |
+|---|---|---|---|
+| INF_01 | Backend_Architecture | Workers, Stripe, Supabase, push, LLM, §4.2a store runbooks | DOC10 |
+
+### Business/ — strategy, financials
+| ID | Title | Purpose |
+|---|---|---|
+| BIZ_01 | Elementum_Expense_Report | Monthly costs + phase projections + cost triggers |
+| BIZ_02 | Elementum_Validation_Sprint | Beta validation strategy |
+
+### Legal_Admin/ — legal records, entity paperwork
+| File | Purpose |
+|---|---|
+| Elementum_Legal_Terms_Snapshot_YYYY-MM-DD.html | Dated snapshots of the live /legal page (immutable; re-snapshot on material change). Canonical source: `Elementum_App/public/legal.html` |
+
+### Project_Management/ — automation, routines, QA operations
+| ID | Title | Purpose |
+|---|---|---|
+| PM_01 | Automation_Runbook | Inventory of record for the 8 automation routines + machine-local rebuild list |
+
+## DOC# alias table (legacy citations)
+
+DOC1→DEV_01 · DOC2→DES_01 · DOC3→DES_02 · DOC4→DES_03 · DOC5→DES_04 · DOC6→DES_05 · DOC7→DES_06 · DOC8→DEV_02 · DOC9→DES_07 · DOC10→INF_01
+
+Old commit messages and external artifacts may still cite DOC#; each converted file carries a "Formerly DOC#" breadcrumb in its header, so a search for the old name always lands on the right file.
+
+## Note on the two "Design" folders
+
+`Documents/Design/` (this tree — design *documents*) is distinct from the repo-root `Design/` (design *assets*: legends, tokens, libraries, handoff packages). Cite with enough path to disambiguate.

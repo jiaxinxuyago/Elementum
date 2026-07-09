@@ -12,11 +12,11 @@
   Sealed against:
     Design/Legends/legend-primitives.html      (v1 tokens · the floor)
     Design/Legends/legend-patterns.html        (v2 patterns · authority for screens)
-    Documents/Designengineering/DOC5_App_Design.md §AMENDMENT  (italic v2, IA reframe)
+    Documents/Design/DES_04_App_Design.md §AMENDMENT  (italic v2, IA reframe)
     Design/tokens.css                          (canonical CSS-variable file)
     Design/assets/icons.svg                    (canonical icon source — inlined below)
 
-  Authority cascade: anchor > Legends > DOC5 > canvas refs.
+  Authority cascade: anchor > Legends > DES_04 > canvas refs.
 
   12 sections + drift log:
     §1  Foundations recap                  §8  Thumbnails / tiles
@@ -68,7 +68,7 @@
     --quiet-bg:#EBE5D6; --quiet-border:#DCD3C0;
     --cardstock-bg:rgba(248,241,225,0.92);
     --tabbar-bg:rgba(253,253,252,0.85);
-    /* Radius scale (locked DOC5 §AM + v1 §4) */
+    /* Radius scale (locked DES_04 §AM + v1 §4) */
     --r-1:1px; --r-8:8px; --r-10:10px; --r-12:12px; --r-14:14px; --r-16:16px;
     --r-22:22px; --r-pill:999px;
     /* Shadows */
@@ -219,7 +219,7 @@
     color:var(--bronzeDark); margin:26px 0 14px; display:block;
   }
 
-  /* Eyebrows — locked DOC5 §3 */
+  /* Eyebrows — locked DES_04 §3 */
   .eyebrow {
     font-family:'EB Garamond', serif; font-weight:500;
     font-size:10px; letter-spacing:2.5px; text-transform:uppercase;
@@ -679,7 +679,7 @@
     color:var(--bronzeDark); font-style:normal; font-weight:500;
     letter-spacing:0.3px; margin-left:6px;
   }
-  /* Tier 4 · text-tertiary (italic + dashed underline · DOC5 §AM v2) */
+  /* Tier 4 · text-tertiary (italic + dashed underline · DES_04 §AM v2) */
   .text-tertiary {
     background:transparent; border:0; padding:0;
     font-family:'EB Garamond', serif; font-size:13px; font-style:italic;
@@ -1747,7 +1747,7 @@
   <div class="meta">
     <div class="cinzel">Sealed against <span class="seal-mark">●</span> File A &amp; File B</div>
     <div>Authority cascade</div>
-    <div>anchor &gt; Legends &gt; DOC5 &gt; canvas refs</div>
+    <div>anchor &gt; Legends &gt; DES_04 &gt; canvas refs</div>
     <div style="margin-top:8px">7 hard conflicts settled in build brief</div>
   </div>
 </header>
@@ -1781,7 +1781,7 @@
   </div>
   <div class="reso-grid">
     <div class="reso-card"><div class="tag">H1 · names</div><div class="body">File A's "secondary" → <strong>btn-outline-pill</strong>. File B's "secondary" → <strong>pill-signin</strong>. Both appear in §4 as distinct tiers. No more name collisions.</div></div>
-    <div class="reso-card"><div class="tag">H2 · italic</div><div class="body">Tertiary text-link is <strong>italic EB Garamond + dashed underline</strong> (DOC5 §AM v2 italic rule). Overrides File A's prior "no italic" drift fix.</div></div>
+    <div class="reso-card"><div class="tag">H2 · italic</div><div class="body">Tertiary text-link is <strong>italic EB Garamond + dashed underline</strong> (DES_04 §AM v2 italic rule). Overrides File A's prior "no italic" drift fix.</div></div>
     <div class="reso-card"><div class="tag">H3 · outline</div><div class="body">File A's bordered uppercase pill = <code>btn-outline-pill</code> (Cinzel caps · paperHair border). File B's <code>ghost</code> stays as the inline borderless link.</div></div>
     <div class="reso-card"><div class="tag">H4 · toggle</div><div class="body">Default: <strong>44 × 26 / knob 20 / 200ms cubic-bezier</strong>. The 48 × 28 / knob 24 onboarding variant is a documented sub-spec, not a separate component.</div></div>
     <div class="reso-card"><div class="tag">H5 · radio</div><div class="body">Custom <strong>18 × 18 ring + 9 × 9 ink dot</strong> pseudo-element. Native <code>&lt;input type="radio"&gt;</code> not used.</div></div>
@@ -1841,7 +1841,7 @@
   </div>
 
   <div class="rule-banner" style="margin-top:26px">
-    <span class="seal-tag">Locked · DOC5 §AM v2</span>
+    <span class="seal-tag">Locked · DES_04 §AM v2</span>
     <div class="body">
       <strong>Italic rule:</strong> italic EB Garamond is reserved for <em>poetic / advisory voice</em> (taglines, subtitles, helpers, captions). It is <strong>permitted</strong> on the tertiary text-link (dashed underline below). UI labels, button captions, spec keys, footer colophons, status text and form labels are <strong>regular</strong>. Supersedes File A's prior "no italic on tertiary buttons" resolution and the older §3.5.E "italic where it feels right" phrasing.
     </div>
@@ -1991,7 +1991,7 @@
         <li>Tagline → CTA gap: <strong>120</strong> (CTA at <code>bottom: 80</code>)</li>
         <li>Wordmark Cinzel 22 / ls 10 · tagline italic 17</li>
       </ul>
-      <span class="cite">Welcome hero · DOC5 §6</span>
+      <span class="cite">Welcome hero · DES_04 §6</span>
     </div>
   </div>
 
@@ -2173,7 +2173,7 @@
     <div class="icon-cell placeholder"><svg class="ico"><use href="#read-pillars"/></svg><div class="nm">Pillar Patterns</div><div class="tk">#read-pillars</div><span class="ph-flag">ph</span></div>
   </div>
 
-  <h3 class="subhead">3e · Tab icons · five (sealed v1 §4 · DOC5 §AM IA reframe)</h3>
+  <h3 class="subhead">3e · Tab icons · five (sealed v1 §4 · DES_04 §AM IA reframe)</h3>
   <div class="icon-grid grid-5">
     <div class="icon-cell"><svg class="ico"><use href="#tab-today"/></svg><div class="nm">Today</div><div class="tk">#tab-today</div></div>
     <div class="icon-cell"><svg class="ico"><use href="#tab-guidance"/></svg><div class="nm">Guidance</div><div class="tk">#tab-guidance</div></div>
@@ -2209,11 +2209,11 @@
   <div class="section-head">
     <span class="num">§4</span>
     <h2>Buttons · six tiers × three states</h2>
-    <div class="rule">18 cells. Tier names renamed to remove ambiguity (see H1/H2/H3). Italic tertiary link is canonical (H2). <span class="cite">DOC5 §AM · build-brief H1–H3</span></div>
+    <div class="rule">18 cells. Tier names renamed to remove ambiguity (see H1/H2/H3). Italic tertiary link is canonical (H2). <span class="cite">DES_04 §AM · build-brief H1–H3</span></div>
   </div>
 
   <p class="section-intro">
-    Six tiers cover the full button vocabulary. Each renders in three states (default / pressed / disabled). Tier 4 — the tertiary text-link — is <em>deliberately italic</em>, with a dashed underline (DOC5 §AM v2 italic rule, H2 lock). The onboarding back/continue pair is a flow-specific variant: it composes from these tiers but ships with onboarding-specific geometry; it's documented separately at the bottom of this section, not on the matrix.
+    Six tiers cover the full button vocabulary. Each renders in three states (default / pressed / disabled). Tier 4 — the tertiary text-link — is <em>deliberately italic</em>, with a dashed underline (DES_04 §AM v2 italic rule, H2 lock). The onboarding back/continue pair is a flow-specific variant: it composes from these tiers but ships with onboarding-specific geometry; it's documented separately at the bottom of this section, not on the matrix.
   </p>
 
   <div class="btn-matrix">
@@ -2621,7 +2621,7 @@
   </div>
 
   <p class="section-intro">
-    The tab bar is the only persistent UI across <code>/dashboard/*</code> — Welcome, Onboarding, Loading, Reveal, and Chart-Reveal render <em>without</em> it. Energy Map (the centre tab) is the only place the <code>--seal</code> pigment surfaces in app chrome, as a 4 px dot below the icon when active. Per DOC5 §AM, tabs are <strong>icon-only</strong> — no labels.
+    The tab bar is the only persistent UI across <code>/dashboard/*</code> — Welcome, Onboarding, Loading, Reveal, and Chart-Reveal render <em>without</em> it. Energy Map (the centre tab) is the only place the <code>--seal</code> pigment surfaces in app chrome, as a 4 px dot below the icon when active. Per DES_04 §AM, tabs are <strong>icon-only</strong> — no labels.
   </p>
 
   <h3 class="subhead">Three states</h3>
@@ -2842,7 +2842,7 @@
   <div class="section-head">
     <span class="num">§11</span>
     <h2>Status &amp; feedback</h2>
-    <div class="rule">Toast · banner · inline error / success · empty state. All from File B §7. <span class="cite">DOC5 §22</span></div>
+    <div class="rule">Toast · banner · inline error / success · empty state. All from File B §7. <span class="cite">DES_04 §22</span></div>
   </div>
 
   <p class="section-intro">

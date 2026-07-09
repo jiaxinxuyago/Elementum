@@ -1,10 +1,10 @@
 import { ELEMENT_TO_PIGMENT } from '../../../styles/elementPigments.js';
 // ===================================================================
-// ELEMENTUM · ChartPatternsDetail  (DOC5 §11 Chart Patterns / 合冲刑害)
+// ELEMENTUM · ChartPatternsDetail  (DES_04 §11 Chart Patterns / 合冲刑害)
 // ===================================================================
 // Renders chart.patterns (detected by calculator.detectPatterns) as
 // pattern cards. Each pattern type carries a pigment + templated reading.
-// Tier (DOC5 §11): Free → count badge + names, readings locked; Seeker →
+// Tier (DES_04 §11): Free → count badge + names, readings locked; Seeker →
 // full readings.
 // ===================================================================
 
@@ -16,7 +16,7 @@ import { elementArt } from '../../../styles/backgrounds.js';
 import { ink, inkSoft, inkLight, bronzeDark, gold, paperHair, cardstockBg, pigments, withAlpha } from '../../../styles/tokens';
 
 
-// Pattern type → pigment + name + templated meaning (DOC5 §11 styling:
+// Pattern type → pigment + name + templated meaning (DES_04 §11 styling:
 // Combination 合=Wood, Clash 冲=Fire, Penalty 刑=Metal, Harm 害=Water).
 const PATTERN_META = {
   combination: {

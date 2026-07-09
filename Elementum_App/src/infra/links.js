@@ -7,7 +7,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
 
 // Stripe checkout / payment links, per pricing tier.
-// TODO(beta): populate when Stripe is wired (see DOC10 backend architecture).
+// TODO(beta): populate when Stripe is wired (see INF_01 backend architecture).
 export const PAYMENT = {
   seekerCheckout: null,
   advisorCheckout: null,

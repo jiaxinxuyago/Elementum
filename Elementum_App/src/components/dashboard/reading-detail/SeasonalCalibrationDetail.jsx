@@ -1,6 +1,6 @@
 import { ELEMENT_TO_PIGMENT } from '../../../styles/elementPigments.js';
 // ===================================================================
-// ELEMENTUM · SeasonalCalibrationDetail  (DOC5 §11 Seasonal Calibration)
+// ELEMENTUM · SeasonalCalibrationDetail  (DES_04 §11 Seasonal Calibration)
 // ===================================================================
 // Conditional reading (only when chart.missingElements is non-empty).
 // For each absent element, a prescription: what that element would bring

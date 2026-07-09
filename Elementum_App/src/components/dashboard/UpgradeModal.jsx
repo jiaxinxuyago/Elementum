@@ -1,5 +1,5 @@
 // ===================================================================
-// ELEMENTUM · UpgradeModal + provider  (DOC5 §21)
+// ELEMENTUM · UpgradeModal + provider  (DES_04 §21)
 // ===================================================================
 // Cross-cutting upgrade flow. Any screen can trigger it:
 //
@@ -76,7 +76,7 @@ export function UpgradeModalProvider({ children }) {
   );
 }
 
-// Tier feature lists (DOC5 §21 modal copy).
+// Tier feature lists (DES_04 §21 modal copy).
 const SEEKER_FEATURES = [
   'Your Energy Manual — 5-domain living document',
   'Full Energy Map readings',
@@ -123,7 +123,7 @@ export function UpgradeModalHost() {
     if (!feature && payState !== 'idle') queueMicrotask(() => setPayState('idle'));
   }, [feature, payState]);
 
-  // Purchase requires an account (DOC10 §4.2): the payment must carry the
+  // Purchase requires an account (INF_01 §4.2): the payment must carry the
   // buyer's user id (client_reference_id) so the Stripe webhook can write
   // their entitlement server-side — that's what makes the pass restorable.
   // §4.2b: checkout opens in a NEW tab so the app never navigates away —
@@ -196,7 +196,7 @@ export function UpgradeModalHost() {
   // The old demo `upgrade()` free-flip (setTier on tap) is removed — it let
   // anyone claim Seeker/Advisor without paying. Seeker/Advisor cards render
   // as a disabled preview ("Available after beta") until real subscription
-  // checkout lands (DOC10 §4.2 webhook -> DB entitlements).
+  // checkout lands (INF_01 §4.2 webhook -> DB entitlements).
 
   // Returning-user "Welcome to Seeker" (§21 Step B) — highest priority overlay.
   if (welcomeBack) {

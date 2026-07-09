@@ -1,5 +1,5 @@
 // ===================================================================
-// ELEMENTUM · CodexScreen  (DOC5 §12 Card 5 — BaZi Codex)
+// ELEMENTUM · CodexScreen  (DES_04 §12 Card 5 — BaZi Codex)
 // ===================================================================
 // The educational layer. Accordion of concept entries, each:
 //   · Definition          — 1–2 sentences (always shown)

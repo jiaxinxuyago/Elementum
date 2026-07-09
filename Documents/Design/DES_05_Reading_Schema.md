@@ -1,5 +1,7 @@
 # Doc 6 — Reading Schema (v2.1) — the content model for the Five Energies surface
 
+> **Formerly DOC6** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC6" refer to this file (registry: Documents/README.md).
+
 **Official doc since 2026-06-24** (promoted from `READING_SCHEMA_V2.md`; took the Doc 6 slot vacated by the retired Manual). The Reading Schema is the **design source of truth for the reading content model** — it dictates the fields that DES_07 (archetype fields) and DES_03/DES_06 (generation) implement, and so logically precedes them.
 
 > **⏳ PROVISIONAL — revisit pending.** This schema is **not final**. A reconciliation pass is required after **(a)** the full v2.1 doc review completes and **(b)** the engine code fix runs — both will surface concrete realities (recomputed 庚 faces, real per-element polarity splits, register + positional-data feasibility) that finalize the reading content design (FACES, registers, `rulingDomain`, 宫位 positional reads). Do not author corpus against this spec until that pass. Tracked in `DES_09_Reading_V2.1_Reconciliation_Audit.md` §5.

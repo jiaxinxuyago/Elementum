@@ -1,10 +1,10 @@
 // ===================================================================
-// ELEMENTUM · reading-detail section sequence  (DOC5 §11 getSections)
+// ELEMENTUM · reading-detail section sequence  (DES_04 §11 getSections)
 // ===================================================================
 // The ordered reading sequence used by DetailShell's prev/next strip +
-// "X of N" counter. Mirrors DOC5 §11 getSections() but maps to the
+// "X of N" counter. Mirrors DES_04 §11 getSections() but maps to the
 // routes that actually exist. Seasonal Calibration is conditional on
-// the chart having missing elements (DOC5 §11) — included once R7 lands.
+// the chart having missing elements (DES_04 §11) — included once R7 lands.
 //
 //   key   — FLOW route hash (without leading #/)
 //   tag   — short label for the prev/next strip

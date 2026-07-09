@@ -1,12 +1,12 @@
 // ===================================================================
-// ELEMENTUM · TGRing  (DOC5 §11 element-colored Ten God ring)
+// ELEMENTUM · TGRing  (DES_04 §11 element-colored Ten God ring)
 // ===================================================================
 // Radial donut encoding two dimensions at once:
 //   · segment SIZE  = weight of each Ten God role across the 4 pillars
 //   · segment COLOR = the element-ROLE that group plays, from the DM's
 //     perspective (fixed mapping — a Fire-red ring always = Authority).
 //
-// Role → color (DOC5 §11):
+// Role → color (DES_04 §11):
 //   Authority 官杀 = Fire red · Resource 印 = Earth gold ·
 //   Wealth 财 = Wood green · Output 食伤 = Water blue ·
 //   Companion 比劫 = Metal silver
@@ -17,7 +17,7 @@
 
 import { inkLight, inkSoft } from '../../styles/tokens';
 
-// Calculator family → role meta (label + DOC5 role color).
+// Calculator family → role meta (label + DES_04 role color).
 const ROLE = {
   officer:  { key: 'authority', label: 'Authority', color: '#c85a3c' },
   wealth:   { key: 'wealth',    label: 'Wealth',    color: '#4a9a5c' },

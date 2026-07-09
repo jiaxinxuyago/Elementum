@@ -1,6 +1,6 @@
 import { ELEMENT_TO_PIGMENT } from '../../../styles/elementPigments.js';
 // ===================================================================
-// ELEMENTUM · LifeChaptersDetail  (DOC5 §11 Life Chapters / 大运)
+// ELEMENTUM · LifeChaptersDetail  (DES_04 §11 Life Chapters / 大运)
 // ===================================================================
 // Decade luck-cycle timeline. Renders chart.luckPillars as a horizontal
 // strip of decade cards (current / past / future-locked states), plus a
@@ -8,7 +8,7 @@ import { ELEMENT_TO_PIGMENT } from '../../../styles/elementPigments.js';
 // deterministically from the decade element's relation to the Day Master
 // (no authored per-decade content exists yet).
 //
-// Tier (DOC5 §11): Free → current decade name + element; Seeker → full
+// Tier (DES_04 §11): Free → current decade name + element; Seeker → full
 // current decade + full timeline; we render the current-decade reading
 // for all and mark future decades Seeker-locked at Free tier.
 // ===================================================================

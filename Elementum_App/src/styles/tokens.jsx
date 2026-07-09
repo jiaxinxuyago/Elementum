@@ -51,7 +51,7 @@ export const BORDER_LIGHT  = t.borderLight;
 export const BORDER_FOCUS  = t.borderFocus; // NEW — input focus rings
 export const DM_BORDER     = t.dmBorder;
 
-// Five-element pigments + *Deep companions (DOC5 §3.5.A pigment alpha ladder)
+// Five-element pigments + *Deep companions (DES_04 §3.5.A pigment alpha ladder)
 export const PIG_METAL  = t.metal;   export const PIG_METAL_DEEP = t.metalDeep;
 export const PIG_WOOD   = t.wood;    export const PIG_WOOD_DEEP  = t.woodDeep;
 export const PIG_WATER  = t.water;   export const PIG_WATER_DEEP = t.waterDeep;
@@ -60,7 +60,7 @@ export const PIG_EARTH  = t.earth;   export const PIG_EARTH_DEEP = t.earthDeep;
 export const PIG_SEAL   = t.seal;
 export const ADVISOR    = t.advisor; // NEW — premium tier accent
 
-// Surface fills (DOC5 §3.5.D card surface taxonomy)
+// Surface fills (DES_04 §3.5.D card surface taxonomy)
 export const QUIET_BG       = t.quietBg;       // NEW
 export const QUIET_BORDER   = t.quietBorder;   // NEW
 export const CARDSTOCK_BG   = t.cardstockBg;   // NEW
@@ -76,7 +76,7 @@ export const DURATION = t.duration; // NEW — animation durations
 // Helper · pigment alpha ladder
 export const withAlpha = t.withAlpha;
 
-// Reference user (DOC2): Yang Metal · The Blade · The General (七杀)
+// Reference user (DES_01): Yang Metal · The Blade · The General (七杀)
 export const USER = {
   stem: '庚',
   stemName: 'Yang Metal',

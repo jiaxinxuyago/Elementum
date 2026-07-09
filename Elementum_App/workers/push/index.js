@@ -1,5 +1,5 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// ELEMENTUM · Web Push service (DOC10 §4.4)
+// ELEMENTUM · Web Push service (INF_01 §4.4)
 // ─────────────────────────────────────────────────────────────────────────────
 // Three jobs:
 //   POST /subscribe    {subscription, utcHour, userId?} → upsert push_subscriptions

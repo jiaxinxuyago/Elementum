@@ -1,5 +1,5 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// ELEMENTUM · Stripe webhook → Supabase entitlements (DOC10 §4.2)
+// ELEMENTUM · Stripe webhook → Supabase entitlements (INF_01 §4.2)
 // ─────────────────────────────────────────────────────────────────────────────
 // Stripe POSTs events here. On a verified checkout.session.completed carrying
 // a client_reference_id (the buyer's Supabase user id — attached by the app's

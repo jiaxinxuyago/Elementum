@@ -4,7 +4,7 @@
 // structured city results with longitude/latitude/country/population.
 // https://open-meteo.com/en/docs/geocoding-api
 //
-// Per DOC5 §22: on any failure (network, no match, API error) the
+// Per DES_04 §22: on any failure (network, no match, API error) the
 // caller falls back silently to Beijing longitude (120°E). This
 // module returns an empty array on failure; it never throws.
 // ===================================================================
@@ -51,7 +51,7 @@ export async function searchCities(query, opts = {}) {
   } catch (err) {
     // Network failure, abort, CORS error, whatever — return empty.
     // Step5_Location will keep whatever the user typed and the calc
-    // will silently use Beijing longitude at chart time (DOC5 §22).
+    // will silently use Beijing longitude at chart time (DES_04 §22).
     if (err?.name !== 'AbortError') {
       console.warn('[geocoding] searchCities failed:', err?.message || err);
     }

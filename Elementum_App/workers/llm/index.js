@@ -1,5 +1,5 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// ELEMENTUM · AI Consultant proxy (DOC10 §4.3)
+// ELEMENTUM · AI Consultant proxy (INF_01 §4.3)
 // ─────────────────────────────────────────────────────────────────────────────
 // POST /chat  { context: <string — the chart payload>, messages: [{role, content}…] }
 //   1. Verify the Supabase JWT (Authorization: Bearer <token>)

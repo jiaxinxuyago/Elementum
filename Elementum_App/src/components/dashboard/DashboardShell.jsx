@@ -6,7 +6,7 @@
 // outside the per-screen tree) so content doesn't slide under it.
 //
 // Spec:
-//   · Tab bar is the only persistent chrome inside /dashboard/* (DOC5 §AM.2).
+//   · Tab bar is the only persistent chrome inside /dashboard/* (DES_04 §AM.2).
 //   · Welcome, Onboarding, Loading, Reveal render WITHOUT the tab bar.
 //   · Reading drill-downs (read-elemental, read-daymaster, read-tengods,
 //     read-locked) render WITHOUT the tab bar — they push over the tabs

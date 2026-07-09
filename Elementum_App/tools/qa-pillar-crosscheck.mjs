@@ -97,5 +97,5 @@ for (const c of CASES) {
   console.log(`   independent: ${ind.pillars.join(' ')} · gods ${ind.gods.join('/')}${ind.pat.length ? ' · ' + ind.pat.join(' ') : ''}`);
   if (!pOk || !gOk) { fails += 1; console.log(`   ENGINE:      ${eng.pillars.join(' ')} · gods ${eng.gods.join('/')}`); }
 }
-console.log(fails ? `\n✗ ${fails} case(s) DISAGREE — do not bless; investigate per ENGINE_ACCURACY_QA.md` : '\n✓ engine agrees with the independent derivation on all cases');
+console.log(fails ? `\n✗ ${fails} case(s) DISAGREE — do not bless; investigate per DEV_04_Engine_Accuracy_QA.md` : '\n✓ engine agrees with the independent derivation on all cases');
 process.exitCode = fails ? 1 : 0;

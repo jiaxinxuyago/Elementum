@@ -1,7 +1,7 @@
 // ===================================================================
 // ELEMENTUM · AuthModal — email/password sign-in / create-account sheet
 // ===================================================================
-// Bottom-sheet (mirrors UpgradeModal). Sign-in is optional (DOC10): the copy
+// Bottom-sheet (mirrors UpgradeModal). Sign-in is optional (INF_01): the copy
 // makes clear birth data stays on-device and an account only keeps unlocks +
 // restores them across devices. Google button is added with the Google OAuth
 // setup (follow-on); email/password works today.
