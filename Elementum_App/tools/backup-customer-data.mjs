@@ -27,7 +27,8 @@ const PROJECT_ROOT = resolve(__dirname, '../..');
 const SUPABASE_URL = 'https://nbactbfxqslzehzbgetp.supabase.co';
 const KEY = process.env.ELEMENTUM_SUPABASE_SERVICE_KEY;
 const LOCAL_DIR = 'D:/Elementum/Backups/customer-data';
-const ONEDRIVE_DIR = 'C:/Users/NOBOD/OneDrive/Desktop/LanternDigital/Backups/customer-data';
+// OneDrive/Desktop/Elementum = product files; LanternDigital = company admin/legal ONLY (owner rule 2026-07-09)
+const ONEDRIVE_DIR = 'C:/Users/NOBOD/OneDrive/Desktop/Elementum/Backups/customer-data';
 const KEEP = 30;
 const SENTINEL = resolve(PROJECT_ROOT, 'BACKUP_FAILED.md');
 
