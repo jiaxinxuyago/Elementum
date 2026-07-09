@@ -111,3 +111,14 @@
 ### QA-F3 (NEW, 2026-06-25) — two residual items the de-inflation exposed
 1. **wood/earth near-tie + sort inconsistency.** On the REF chart wood (.333) edges earth (.324) — both round to 33%. `computeTgPattern` ranks by raw **score** → wood-led → **forging** (correct). But `buildEnergyChart.energies` ranks by rounded **%** with an `EL_ORDER` tie-break (metal→earth→water→wood→fire) → shows **earth first** on the wheel. So the wheel's lead energy and the archetype pattern can disagree on a near-tie. **Recommended fix:** make the wheel's tie-break fall through to raw score (one line in `buildEnergyChart`), so wheel order and archetype agree. Affects every chart's tie-break → an app-reconciliation (Phase 2) decision, not shipped here.
 2. **Earth still inflated vs YCA** (ours 33 vs YCA 5.5) — driven by `POS_WEIGHTS.monthBranch = 0.40` (here 辰=Earth), the *secondary lever* flagged in QA-F2, **not** the 合 handling. Left unchanged deliberately (separate knob). If Earth is lowered, wood becomes the *clear* dominant and `forging` stops being knife-edge. Owner calibration call.
+
+---
+
+## Run log addendum — 2026-07-09 · ENGINE v3 (two Tier-A fixes)
+
+Found by `tools/qa-pillar-crosscheck.mjs` (independent sexagenary derivation, anchored on the verified 庚寅 golden day) on its first run over the expanded case pool; owner-approved same day.
+
+1. **真太阳时 sign inversion** (`calculator.js` trueSolarHour): corrected to clock **+** 4min×(经度−120°). Guard case: `庚 Ürümqi solar-time` (87.6°E, 18:00 → 申时 甲申; all other pillars = golden).
+2. **五虎遁 wrap-month stem** (小寒→立春 births): 丑 month offset from 寅 is +11, not −1. Guard case: `庚 pre-立春 year boundary` (1997-01-28 → 丙子年 **辛丑**月).
+
+Verification: crosscheck **6/6 agreement** · goldens re-blessed at 6 cases · all previously verified charts byte-identical (golden 乙亥 庚辰 庚寅 乙酉 unchanged) · journey suite 16/16 through the UI · ENGINE_VERSION 2→3 (cached charts recompute on next open). Cross-site spot-check of the two new guard cases per the §-protocol remains a recommended owner errand (independent-derivation verification applied in its place).

@@ -1,5 +1,5 @@
 {
-  "blessedAt": "2026-07-09T19:38:55.729Z",
+  "blessedAt": "2026-07-09T20:50:34.486Z",
   "cases": [
     {
       "label": "REFERENCE 庚 (strong)",
@@ -366,6 +366,189 @@
             ],
             "leadGod": "七杀",
             "faces": []
+          }
+        ]
+      }
+    },
+    {
+      "label": "庚 pre-立春 year boundary",
+      "tierA": {
+        "pillars": [
+          "丙子",
+          "辛丑",
+          "庚午",
+          "壬午"
+        ],
+        "stemTenGods": [
+          "七杀(Seven Killings)",
+          "劫财(Rob Wealth)",
+          "食神(Food God)"
+        ],
+        "dayMaster": "庚 Metal yang",
+        "tgPattern": "rooted",
+        "patterns": [
+          "六合(子丑)",
+          "六冲(子午)",
+          "六害(丑午)",
+          "自刑(午午)"
+        ]
+      },
+      "tierB": {
+        "strength": "strong",
+        "strengthScore": 0.72,
+        "band": "concentrated",
+        "catalyst": "Fire",
+        "energies": [
+          {
+            "el": "earth",
+            "presence": 54,
+            "score": 0.542,
+            "roles": [
+              "friction"
+            ],
+            "leadGod": "正印",
+            "faces": [
+              "正印/yin"
+            ]
+          },
+          {
+            "el": "metal",
+            "presence": 20,
+            "score": 0.195,
+            "roles": [
+              "core",
+              "friction"
+            ],
+            "leadGod": "劫财",
+            "faces": [
+              "劫财/yin"
+            ]
+          },
+          {
+            "el": "water",
+            "presence": 13,
+            "score": 0.129,
+            "roles": [
+              "catalyst"
+            ],
+            "leadGod": "伤官",
+            "faces": [
+              "伤官/yin",
+              "食神/yang"
+            ]
+          },
+          {
+            "el": "fire",
+            "presence": 13,
+            "score": 0.134,
+            "roles": [
+              "catalyst"
+            ],
+            "leadGod": "正官",
+            "faces": [
+              "正官/yin",
+              "七杀/yang"
+            ]
+          },
+          {
+            "el": "wood",
+            "presence": 0,
+            "score": 0,
+            "roles": [
+              "missing",
+              "catalyst"
+            ],
+            "leadGod": "偏财",
+            "faces": []
+          }
+        ]
+      }
+    },
+    {
+      "label": "庚 Ürümqi solar-time",
+      "tierA": {
+        "pillars": [
+          "乙亥",
+          "庚辰",
+          "庚寅",
+          "甲申"
+        ],
+        "stemTenGods": [
+          "正财(Direct Wealth)",
+          "比肩(Parallel Self)",
+          "偏财(Indirect Wealth)"
+        ],
+        "dayMaster": "庚 Metal yang",
+        "tgPattern": "forging",
+        "patterns": [
+          "六合(寅亥)",
+          "六冲(寅申)",
+          "六害(申亥)"
+        ]
+      },
+      "tierB": {
+        "strength": "moderate",
+        "strengthScore": 0.5,
+        "band": "balanced",
+        "catalyst": "Fire",
+        "energies": [
+          {
+            "el": "wood",
+            "presence": 34,
+            "score": 0.334,
+            "roles": [],
+            "leadGod": "偏财",
+            "faces": [
+              "偏财/yang",
+              "正财/yin"
+            ]
+          },
+          {
+            "el": "earth",
+            "presence": 33,
+            "score": 0.331,
+            "roles": [
+              "catalyst"
+            ],
+            "leadGod": "偏印",
+            "faces": [
+              "偏印/yang"
+            ]
+          },
+          {
+            "el": "metal",
+            "presence": 21,
+            "score": 0.214,
+            "roles": [
+              "core"
+            ],
+            "leadGod": "比肩",
+            "faces": [
+              "比肩/yang"
+            ]
+          },
+          {
+            "el": "water",
+            "presence": 7,
+            "score": 0.069,
+            "roles": [],
+            "leadGod": "食神",
+            "faces": [
+              "食神/yang",
+              "伤官/yin"
+            ]
+          },
+          {
+            "el": "fire",
+            "presence": 5,
+            "score": 0.052,
+            "roles": [
+              "catalyst"
+            ],
+            "leadGod": "七杀",
+            "faces": [
+              "七杀/yang"
+            ]
           }
         ]
       }

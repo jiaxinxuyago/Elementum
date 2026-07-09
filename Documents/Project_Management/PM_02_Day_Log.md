@@ -14,6 +14,7 @@ sessions must know).
 ## 2026-07-09
 
 **Done**
+- **(evening) BOTH ENGINE BUGS FIXED — ENGINE v3** (owner-approved): solar-time sign + January 五虎遁 wrap; crosscheck 6/6, goldens re-blessed at 6 cases, journey 16/16, verified charts unchanged; cached charts auto-recompute via version bump.
 - Journey-QA layer shipped (runbook §2c): `qa-journey-sweep.mjs` — 16 real-interaction steps (onboarding wheel-drags → golden-pillar assertion; reveal dissolve, energy cycling, tabs, drill-downs), wired as detector check #2b, DEV_03 §2-C7 criterion added; verified through the real scheduled path.
 - Engine QA diversity: qa-cases 1→4 blessed cases (yin-winter-female, weak-wood-autumn, late-子 rollover) + `qa-pillar-crosscheck.mjs` (independent sexagenary derivation) — which **found 2 latent Tier-A engine bugs** (solar-time sign inversion; pre-立春 January month stem). Bug-exposing cases committed disabled.
 - Documents/ reorganized (owner directive): six category folders, `XXX_NN_Name` IDs, DOC series closed, registry in README; 146-file reference sweep; live automation repointed.
@@ -23,7 +24,7 @@ sessions must know).
 - First fully-unattended daily cycle ran (detector → triage → review → dispatch); day-1 report: 26-commit code review CLEAN; dispatch correctly declined a design-adjacent finding.
 
 **Pending**
-- **Owner ruling: 2 engine bugs** (solar-time sign, January month stem) — fixes staged, cases disabled until approved.
+- ~~Owner ruling: 2 engine bugs~~ — **RESOLVED same evening** (see Done); the two guard cases re-enabled and blessed.
 - Awaiting-merge: none (no autofix branches).
 - D15 design-system rulings (radius scale, InkTile alphas, FLOOD_COLOR, un-tokenized grays) — folds into design-library rebuild.
 - Report-only from dispatch: 3 over-budget PNGs outside library/ (`compress-art.mjs` ready, owner-run).

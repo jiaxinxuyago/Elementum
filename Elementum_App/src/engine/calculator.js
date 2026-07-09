@@ -13,7 +13,10 @@
 // from birthData on load (see chartContext.jsx), so engine fixes propagate to
 // every returning user instead of being masked by a stale localStorage chart.
 // v1 = pre-合而不化 · v2 = polarity-aware faces + 合而不化/relative-冲 (commit 975122a).
-export const ENGINE_VERSION = 2;
+// v3 (2026-07-09): solar-time sign fix + January 五虎遁 wrap fix — bumping
+// forces cached charts to recompute on next open (affects non-120°E
+// birthplaces and 小寒–立春 births; all previously-verified charts unchanged).
+export const ENGINE_VERSION = 3;
 
 // ---------- Heavenly Stems / Earthly Branches / element maps ----------
 export const HS = ["甲","乙","丙","丁","戊","己","庚","辛","壬","癸"];
@@ -496,7 +499,10 @@ export function calculateBaziChart(input) {
     typeof longitude === 'number' && !Number.isNaN(longitude)
       ? longitude
       : (cityLongitudes[location?.toLowerCase?.()] ?? 120);
-  const trueSolarHour = (((hour - (lon - 120) / 15) % 24) + 24) % 24;
+  // 真太阳时 = clock + 4min × (经度 − 120°): east of the meridian the sun is
+  // AHEAD of the clock, west it lags. (Sign was inverted until 2026-07-09 —
+  // found by tools/qa-pillar-crosscheck.mjs; invisible near 120°E.)
+  const trueSolarHour = (((hour + (lon - 120) / 15) % 24) + 24) % 24;
   const dateForDay = new Date(year, month-1, day, trueSolarHour);
   if (trueSolarHour >= 23) dateForDay.setDate(dateForDay.getDate() + 1);
 
@@ -506,7 +512,12 @@ export function calculateBaziChart(input) {
   const yearStem = HS[ysi], yearBranch = EB[ybi];
   const monthBranchIdx = (solarMonthIdx+1)%12;
   const monthBranch = EB[monthBranchIdx];
-  const msi = (((ysi%5)*2+2)%10 + solarMonthIdx - 1 + 10) % 10;
+  // 五虎遁: the year stem fixes the 寅-month stem; stems run in order through
+  // the 12 solar months ending at 丑. SOLAR_TERMS[0] is 小寒 (the 丑 month) —
+  // its offset from 寅 is +11, not −1 (wrap bug until 2026-07-09: January
+  // births got a stem inconsistent with their own year pillar).
+  const monthOffsetFromYin = (solarMonthIdx + 11) % 12;
+  const msi = (((ysi%5)*2+2)%10 + monthOffsetFromYin) % 10;
   const monthStem = HS[msi];
   const anchor = new Date(1900,0,1);
   const daysElapsed = Math.floor((dateForDay - anchor) / 86400000);

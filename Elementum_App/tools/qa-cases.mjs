@@ -25,13 +25,13 @@ export const CASES = [
   // Same calendar day as the golden but born 23:00 (late 子时) — pins
   // the engine's day-rollover convention against a verified anchor.
   { label: '庚-anchor late-子 rollover', year: 1995, month: 4, day: 29, hour: 23, location: 'Beijing', gender: 'male' },
-  // ⚠ TWO CASES DISABLED PENDING ENGINE FIXES (found by qa-pillar-crosscheck
-  // 2026-07-09 — do NOT bless goldens that encode the buggy values):
-  // 1. Pre-立春 January: engine month stem 己丑, classical (五虎遁 from the
-  //    engine's own 丙子 year) says 辛丑 — wrap-month stem misindex.
-  //    { label: '庚 pre-立春 year boundary', year: 1997, month: 1, day: 28, hour: 12, location: 'Beijing', gender: 'male' },
-  // 2. Ürümqi 87.6°E: calculator.js trueSolarHour SUBTRACTS (lon-120)/15 —
-  //    sign inverted (真太阳时 = clock + 4min×(经度−120°)); 18:00 must be
-  //    申 (15:50), engine says 戌 (20:10). Invisible near 120°E.
-  //    { label: '庚 Ürümqi solar-time', year: 1995, month: 4, day: 29, hour: 18, location: 'Ürümqi', longitude: 87.6, gender: 'male' },
+  // Late January: after 小寒 but BEFORE 立春 — year pillar stays the previous
+  // solar year's (丙子) and 五虎遁 gives the 丑 month 辛丑. (Guarded the
+  // January month-stem wrap bug fixed 2026-07-09.)
+  { label: '庚 pre-立春 year boundary', year: 1997, month: 1, day: 28, hour: 12, location: 'Beijing', gender: 'male' },
+  // Identical to the golden except birthplace Ürümqi (87.6°E): the −2h09m
+  // solar-time correction moves the hour pillar 酉→申 while every other
+  // pillar stays the golden's. (Guarded the solar-time sign bug fixed
+  // 2026-07-09.)
+  { label: '庚 Ürümqi solar-time', year: 1995, month: 4, day: 29, hour: 18, location: 'Ürümqi', longitude: 87.6, gender: 'male' },
 ];
