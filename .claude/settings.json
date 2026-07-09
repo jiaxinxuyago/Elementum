@@ -1,5 +1,5 @@
 {
-  "_comment": "Project allowlist for the agent routines (AUTOMATION_RUNBOOK §2b) + high-frequency dev tools. Curated 2026-07-08 from a 50-transcript scan. Deliberately NOT allowlisted: git push/commit/merge, wrangler, rm, blanket interpreter/npx patterns — fixer-agent mutations stay prompted-once-then-stored per task, and only the owner merges to main.",
+  "_comment": "Project allowlist for the agent routines (AUTOMATION_RUNBOOK §2b) + high-frequency dev tools. Curated 2026-07-08 from a 50-transcript scan; extended 2026-07-09 for the fix-dispatch manager's unattended daily run (read-only git, the /report email POST, journal writes under qa-output/). Deliberately STILL NOT allowlisted (owner-approved boundary, do not add): merge to main, wrangler/deploy, rm, secret rotation, blanket curl/interpreter patterns. Fixer-agent worktree mutations (git commit/push to autofix/*) are granted in the personal settings.local.json, not here; only the owner merges to main. Full bypassPermissions is intentionally NOT set so the permission wall stays as the backstop that enforces this agent's never-merge/never-deploy charter.",
   "permissions": {
     "allow": [
       "mcp__Claude_Preview__preview_eval",
@@ -15,6 +15,13 @@
       "Bash(git fetch *)",
       "Bash(git ls-remote *)",
       "Bash(git merge-base *)",
+      "Bash(git status *)",
+      "Bash(git log *)",
+      "Bash(git branch *)",
+      "Bash(git diff *)",
+      "Bash(git show *)",
+      "Bash(git rev-parse *)",
+      "Bash(git remote -v)",
       "Bash(node tools/qa-engine-regression.mjs)",
       "Bash(node tools/qa-route-sweep.mjs)",
       "Bash(node tools/qa-accuracy-dump.mjs)",
@@ -24,6 +31,9 @@
       "Bash(npm run build)",
       "Bash(npx playwright install chromium)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/)",
+      "Bash(curl -s -X POST \"https://elementum-push.jiaxinxuyago.workers.dev/report\"*)",
+      "Edit(Elementum_App/tools/qa-output/**)",
+      "Write(Elementum_App/tools/qa-output/**)",
       "PowerShell(schtasks /Query *)",
       "PowerShell(Get-ScheduledTask *)",
       "PowerShell(Get-ScheduledTaskInfo *)"

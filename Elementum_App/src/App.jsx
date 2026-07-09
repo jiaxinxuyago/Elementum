@@ -279,7 +279,7 @@ const FLOW = [
   'app-reading',     // catalogue (DOC5 §11)
   'app-daymaster',   // D13 P4 — Day Master card (wheel-centre seal)
   'app-pillars',     // D13 P5 — 八字 Pillar Chart (from the Day Master)
-  'app-energy',      // D13 P6/P7 — energy reading card (tap a node, swipe ⟷)
+  'app-energy',      // energy reading — polarity faces (tap a node/spine; the swipe carousel was retired with ReadingFacesScreen)
   'app-energymap',   // Energy Map destination (DOC5 §AM.1 — same as Reveal, no first-time CTA)
   'app-codex',       // BaZi Codex (Guidance §12 Card 5)
   'app-draw',        // Elemental Draw (Guidance §12 Card 1)

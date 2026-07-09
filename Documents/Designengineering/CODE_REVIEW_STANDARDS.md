@@ -56,6 +56,14 @@ Checklist (apply to every changed function/component):
 - **C6 — Reversibility of user actions.** Purchases, subscriptions, and notification
   opt-ins must handle abandon/retry/refresh mid-flow without stranding (the §4.2b
   standard: new-tab checkout + focus refresh is the reference pattern).
+- **C7 — Journey integrity.** Changes touching interaction surfaces
+  (onboarding steps/wheels, reveal dissolve, reading navigation, tab bar,
+  drill-downs) must keep the journey suite green:
+  `node tools/qa-journey-sweep.mjs` → exit 0 (16 steps; golden-pillar
+  assertion included). One retry allowed for gesture steps (flake profile);
+  assertion-step failures are real on first occurrence. Suite added
+  2026-07-09 (runbook §2c); a diff that changes an exercised interaction
+  without the suite passing: HIGH.
 
 ---
 

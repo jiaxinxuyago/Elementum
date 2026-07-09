@@ -73,9 +73,23 @@ if ($serverOk) {
             $sections += '## 2 - Route sweep: clean (all flag categories 0)'
         }
     }
+
+    # -- 2b. Journey sweep (REAL user interactions - runbook 2c) ------
+    # Onboarding wheel-drags through to the golden-pillar assertion +
+    # the reading journeys (dissolve, energy cycling, tabs, drill-downs).
+    $jOut = cmd /c "node tools\qa-journey-sweep.mjs 2>&1"
+    $jExit = $LASTEXITCODE
+    if ($jExit -ne 0) {
+        $findings += "Journey sweep failed (exit $jExit)"
+        $sections += "## 2b - Journey sweep FAILED (exit $jExit)`n``````text`n$(($jOut | Select-Object -Last 20) -join "`n")`n``````"
+    } else {
+        $jSummary = ($jOut | Select-String 'SUMMARY' | Select-Object -Last 1)
+        $sections += "## 2b - Journey sweep: clean ($jSummary)"
+    }
 } else {
     $findings += 'Route sweep skipped: could not reach or start a dev server'
     $sections += '## 2 - Route sweep SKIPPED (no dev server)'
+    $sections += '## 2b - Journey sweep SKIPPED (no dev server)'
 }
 if ($started) { cmd /c "taskkill /PID $($started.Id) /T /F >nul 2>&1" }
 

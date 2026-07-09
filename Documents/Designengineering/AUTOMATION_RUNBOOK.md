@@ -93,27 +93,29 @@ branch-hygiene preflight as the catch-all.
    site deploys from the local working tree**, so nothing ships until a local
    session pulls.
 
-## §2c Journey QA — the interaction layer (IN FLIGHT, owner-approved 2026-07-09)
+## §2c Journey QA — the interaction layer (DEPLOYED 2026-07-09)
 
 The route sweep renders destination states; it performs NO user interactions.
-The journey layer closes that gap: `tools/qa-journey-sweep.mjs` (being built)
-drives the app like a user — Scenario A: full first-run onboarding via real
+The journey layer closes that gap: `tools/qa-journey-sweep.mjs` (16 steps,
+~25 s, verified 5 consecutive green runs at deployment; wheel drags use
+small-step pointer moves with a ~160 ms zero-velocity pause before release so
+framer-motion's snap lands deterministically) drives the app like a user — Scenario A: full first-run onboarding via real
 momentum-wheel drags (1995-04-29 18:00 Beijing male) asserting the persisted
 chart equals the golden pillars 乙亥/庚辰/庚寅/乙酉 (cross-validates the
 engine fixtures through the UI); Scenario B: reveal swipe-dissolve →
 catalogue → energy-card carousel swipes (active card must change per swipe) →
 Day Master → Pillar Chart → all 5 tabs → all 4 Today drill-downs.
 
-Integration plan (execute when the suite has 3-consecutive-run stability):
+Integration (all executed 2026-07-09):
 1. Daily detector check **#2b** — same report/sentinel/email as the render
-   sweep; "ALL CLEAN" then means renders AND journeys.
-2. `qa-sweep` agent playbook — runs+triages both sweeps; journey findings get
-   their own noise rules (one retry before a gesture failure counts — flake
-   profile differs from render checks).
-3. Triage-agent digest wording covers journeys (update live task + repo
-   prompt copy — dual-home rule).
-4. CODE_REVIEW_STANDARDS §2 gains the criterion: interaction-affecting
-   changes must keep the journey suite green.
+   sweep; "ALL CLEAN" now means renders AND journeys. ✔
+2. `qa-sweep` agent playbook — runs+triages both sweeps; journey gesture
+   failures get one full-suite retry before counting (assertion failures
+   count on first occurrence). ✔
+3. Triage-agent digest wording covers journeys (live task + repo prompt
+   copy). ✔
+4. CODE_REVIEW_STANDARDS **§2-C7**: interaction-affecting changes must keep
+   the journey suite green. ✔
 5. **Deliberately excluded:** the deploy smoke check does NOT gate on
    journeys — availability-only. Gesture tests must prove a flake-free week
    in production before any deploy-gating is reconsidered (green must stay

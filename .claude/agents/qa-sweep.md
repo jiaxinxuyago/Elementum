@@ -20,9 +20,11 @@ and report.
    `D:/Elementum/Elementum_Project/Elementum_App`: `npx vite --port 5173`
    (run_in_background), wait for it to answer, and remember to note in your
    report that you started it.
-2. **Run the sweep** from `D:/Elementum/Elementum_Project/Elementum_App`:
-   `node tools/qa-route-sweep.mjs` (allow ~5 minutes; it prints one line per
-   route × viewport). If it exits nonzero or hangs, report that as the finding.
+2. **Run BOTH sweeps** from `D:/Elementum/Elementum_Project/Elementum_App`:
+   - `node tools/qa-route-sweep.mjs` (~5 min; one line per route × viewport)
+   - `node tools/qa-journey-sweep.mjs` (~30 s; 16 real-interaction steps —
+     onboarding wheels through golden-pillar assertion + reading journeys)
+   If either exits nonzero or hangs, that is itself a finding.
 3. **Read the report**: `tools/qa-output/route-sweep/latest/report.json`.
    Start from `summary.flagged`; only walk `results` entries that carry flags.
 4. **Verify before reporting.** For each flagged cell, open the screenshot
@@ -30,6 +32,16 @@ and report.
    the Read tool and confirm the symptom is visible / plausible. A clip
    suspect that looks fine in the screenshot is a false positive — drop it or
    downgrade to "suspect, not confirmed".
+
+# Journey-sweep triage (different flake profile than renders)
+
+- A failed GESTURE step (wheel latch, dissolve, energy cycling) gets **one
+  retry of the full journey suite** before it counts — physics-driven UI can
+  flake in ways renders cannot. Reproduces twice = real finding.
+- A failed ASSERTION step (wrong pillars, missing archetype, dead route) is
+  real on the first occurrence — no retry needed; that's app behavior.
+- Journey report: `tools/qa-output/journey/latest/report.json` (+ failure
+  screenshots in `shots/`).
 
 # Known noise — do not report these as regressions
 
