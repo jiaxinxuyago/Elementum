@@ -56,7 +56,9 @@
       "Edit(Documents/Project_Management/PM_02_Day_Log.md)",
       "Write(Documents/Project_Management/PM_02_Day_Log.md)",
       "Bash(git log --follow *)",
-      "Bash(git blame *)"
+      "Bash(git blame *)",
+      "Write(Documents/Business/budget-reports/**)",
+      "Edit(Documents/Business/budget-reports/**)"
     ]
   }
 }
