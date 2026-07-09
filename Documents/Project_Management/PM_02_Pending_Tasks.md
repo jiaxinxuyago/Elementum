@@ -44,7 +44,7 @@
 
 | ID | Task |
 |---|---|
-| HK-1 | **Entitlements backup**: periodic export of the `entitlements` table (the only server data representing money; free-tier backup guarantees are thin) — candidate for an automation routine |
+| HK-1 | **⚠ ELEVATED 2026-07-09 (agent-manager checkpoint concurrence): NEXT INFRA SESSION'S FIRST TASK — customer-data backup routine.** Nightly machine-local scheduled routine (service key) exporting THREE tables as JSON snapshots: `entitlements` + the `auth.users` (id,email) map (without it, entitlement UUIDs orphan on project loss — Stripe's `client_reference_id` can then re-link) + `push_subscriptions`. Destination: local disk + OneDrive copy, OFF-git (customer emails = PII; keep out of version history even in a private repo), rotate last ~30. Context: free-tier Supabase has no PITR; Stripe is an independent partial ledger but reconstruction without the id↔email map is manual and lossy. |
 | HK-2 | Account hygiene: add company email to Supabase org + Google Cloud IAM (per the ownership map's dual-identity pattern) |
 | HK-3 | Anthropic console: workspace spend limit for the elementum-llm key (console-enforced cap independent of the worker kill-switch) |
 | HK-4 | One-time check: elementum.life auto-renew enabled in Cloudflare Registrar |
