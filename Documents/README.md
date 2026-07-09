@@ -65,7 +65,8 @@
 ### Project_Management/ — automation, routines, QA operations
 | ID | Title | Purpose |
 |---|---|---|
-| PM_01 | Automation_Runbook | Inventory of record for the 8 automation routines + machine-local rebuild list |
+| PM_01 | Automation_Runbook | Inventory of record for the automation routines + machine-local rebuild list |
+| PM_02 | Pending_Tasks | THE TASK BOARD — deferred/trigger-gated/owner-pending work (STORE onboarding, INFRA gates, OWNER reviews, housekeeping); agents check here for "what's open?" |
 | PM_02 | Day_Log | THE daily project record — Done / Pending / Pivots per day; append-only; written daily by the doc-audit routine |
 
 ## DOC# alias table (legacy citations)
