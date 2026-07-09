@@ -64,10 +64,31 @@ classify, and report.
    JUDGMENT (anything requiring product knowledge to rewrite). Mechanical
    findings are fix-dispatch candidates; judgment ones are owner/session
    work. A rewrite that would touch RECORD content is never mechanical.
-6. Report: verdict line ("DOCS CLEAN — N docs verified" or counts by
-   class), findings each with doc:line · class · MECHANICAL/JUDGMENT ·
-   evidence · proposed correction (for mechanical ones, exact old→new).
-   End with the docs you could NOT fully verify and why.
+6. PENDING-ITEM MINING (reading records as task sources is allowed — it is
+   not rewriting them): sweep all docs for explicit open-work markers —
+   PENDING / parked / deferred / TODO / "next up" / "awaiting" / "owner
+   decision" / "NOT yet" / D-series rows without a ✅ — and capture each
+   with its doc:line, the date it carries (or the git blame date of the
+   line if none), and one plain-English line of what it is. Then split:
+   - **NEXT-UP** — active and actionable now (recent marker, or explicitly
+     sequenced as the next step).
+   - **LONG-OVERDUE** — the marker is ≥30 days old, OR the docs themselves
+     show it superseded/blocked with no updated status. Include age in
+     days. Do not editorialize about whether it SHOULD be done — deferrals
+     are often deliberate (note when a doc says so).
+7. Report in this exact structure (it is also the email format):
+   - **Status summary** — one short paragraph: docs verified, overall
+     health, anything structural (registry, reorg debt).
+   - **§1 Discrepancies & inconsistencies** — the step-4 findings: version
+     /content drift, contradictions between docs, dead paths, legacy
+     citations; each with doc:line · class · MECHANICAL/JUDGMENT ·
+     evidence · exact old→new for mechanical.
+   - **§2 Next-up pending items** — the NEXT-UP list, ordered by how
+     clearly the docs sequence them.
+   - **§3 Long-overdue backlog** — the LONG-OVERDUE list, oldest first,
+     each with age and where it's recorded; deliberate deferrals marked
+     as such.
+   - **Could not verify** — docs/claims you couldn't check and why.
 
 Scale: full audit = fan out per category folder (Design/ Development/
 Infrastructure/ Business/ Legal_Admin/ Project_Management/) if you have the
