@@ -37,6 +37,7 @@ sessions must know).
 - **Workers Paid ($5/mo) — DEFERRED WITH TRIGGER (owner, 2026-07-09): buy ~4 weeks before first external users (early August for the Sept ship, or earlier if the validation-sprint tester wave comes first).** Unlocks the analytics pipeline (WAE) + customer email (support@). Analytics framework + 14-event taxonomy already designed this day; build-and-test session planned for purchase day; analyst agent = automation piece #10, goes live with ~2 weeks of tester data.
 
 **Pivots**
+- **🏁 AUTOMATION MILESTONE CLOSED (owner, end of day):** the 11-piece agent stack is complete (10 live + analyst hibernating) — infra/agents work wraps; **the active workstream returns to DESIGN & DEV** (D12/D13 reading redesign, design-library rebuild w/ D15 rulings folded in, Reading v2.1 engine rewire pending go-ahead, LLM voice-polish session).
 - **Docs convention pivot**: DOC1–10 series CLOSED → categorical `XXX_NN` registry; append-only numbering; `Documents/Design/` (docs) ≠ root `Design/` (assets).
 - **Doc-audit cadence set to DAILY** (owner: sprints run on days, not weeks) + this Day Log created as the PM anchor file.
 - Deploy smoke stays availability-only until journeys prove a flake-free week (owner decision).
