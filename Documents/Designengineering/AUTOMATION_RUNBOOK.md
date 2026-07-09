@@ -93,6 +93,37 @@ branch-hygiene preflight as the catch-all.
    site deploys from the local working tree**, so nothing ships until a local
    session pulls.
 
+## §2c Journey QA — the interaction layer (IN FLIGHT, owner-approved 2026-07-09)
+
+The route sweep renders destination states; it performs NO user interactions.
+The journey layer closes that gap: `tools/qa-journey-sweep.mjs` (being built)
+drives the app like a user — Scenario A: full first-run onboarding via real
+momentum-wheel drags (1995-04-29 18:00 Beijing male) asserting the persisted
+chart equals the golden pillars 乙亥/庚辰/庚寅/乙酉 (cross-validates the
+engine fixtures through the UI); Scenario B: reveal swipe-dissolve →
+catalogue → energy-card carousel swipes (active card must change per swipe) →
+Day Master → Pillar Chart → all 5 tabs → all 4 Today drill-downs.
+
+Integration plan (execute when the suite has 3-consecutive-run stability):
+1. Daily detector check **#2b** — same report/sentinel/email as the render
+   sweep; "ALL CLEAN" then means renders AND journeys.
+2. `qa-sweep` agent playbook — runs+triages both sweeps; journey findings get
+   their own noise rules (one retry before a gesture failure counts — flake
+   profile differs from render checks).
+3. Triage-agent digest wording covers journeys (update live task + repo
+   prompt copy — dual-home rule).
+4. CODE_REVIEW_STANDARDS §2 gains the criterion: interaction-affecting
+   changes must keep the journey suite green.
+5. **Deliberately excluded:** the deploy smoke check does NOT gate on
+   journeys — availability-only. Gesture tests must prove a flake-free week
+   in production before any deploy-gating is reconsidered (green must stay
+   trustworthy). Owner decision 2026-07-09.
+
+Coverage pyramid after integration: engine (golden fixtures) → renders
+(route sweep) → journeys (this layer) → live health (probes) — with the
+purchase-flow smoke test remaining the known gap (parked; build when
+payments are next touched).
+
 ## §3 New-machine rebuild (the machine-local half)
 
 Everything committed arrives with `git clone`. Recreate these five:
