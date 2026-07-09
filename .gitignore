@@ -15,3 +15,5 @@ Reference/
 # wrangler CLI cache (created by running wrangler from the repo root)
 .wrangler/
 !.claude/settings.json
+
+Documents/Business/statements/

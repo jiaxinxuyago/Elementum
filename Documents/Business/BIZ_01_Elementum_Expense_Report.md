@@ -96,3 +96,15 @@ Net revenue per sale after Stripe: **Founding $8.44** · **Self-Report $6.49**.
 - [ ] Revisit this report at each phase gate (it is referenced from INF_01)
 
 *Maintained by hand — update alongside INF_01 when a cost trigger fires.*
+
+---
+
+## Deferred spending backlog (triggers, not dates) — est. 2026-07-09
+
+| Item | Cost | Trigger | Unlocks |
+|---|---|---|---|
+| Cloudflare Workers Paid | $5/mo | ~4 wks before first external users (early Aug for Sept ship, or validation-sprint wave) | Analytics pipeline (WAE) + customer email (support@) |
+| Supabase Pro | ~$25/mo | Before beta marketing (idle-pause already mitigated by push cron) | Capacity/SLA |
+| Apple Developer (Lantern Digital org) | $99/yr | Phase B scheduled (D-U-N-S in progress) | App Store distribution |
+
+Monthly budget report (automation piece #10, 1st of month) tracks this table + actuals; statement reconciliation is owner-fed CSV drops into `Documents/Business/statements/` (gitignored) — agents NEVER hold bank/financial credentials (standing rule).
