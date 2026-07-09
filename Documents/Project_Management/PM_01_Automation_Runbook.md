@@ -81,7 +81,10 @@ Volume: two emails on a quiet day (QA digest + docs & day log); up to five on th
 Voice (owner directive 2026-07-09): every email reads as an assistant reporting
 to the boss — first person, direct address, leads with whether anything needs
 the owner; technical facts sit under the human summary. Subject-line dashboard
-convention is functional and unchanged.
+convention is functional and unchanged — now prefixed with ONE severity emoji
+(🚨 critical/reopened · ⚠️ needs a decision · 🟡 worth reading · ✅ clean), so
+the inbox itself is a triage view; body emojis follow the fixed vocabulary
+(🔧 fix-ready · ⏳ aging · 📋 FYI), one per line max, signal not decoration.
 Push notifications fire only for: HIGH/CRITICAL confirmed findings, a fixer
 stuck on its gates, or a REOPENED bug. Sentinel files at the project root
 (`DAILY_QA_FAILED.md`, `DEPLOY_SMOKE_FAILED.md`) surface in every session's

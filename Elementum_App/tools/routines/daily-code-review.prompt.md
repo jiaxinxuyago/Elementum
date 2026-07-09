@@ -22,3 +22,7 @@ Procedure:
 8. LAST: update last-reviewed.txt to the origin/main SHA you actually reviewed — only after the review completed; if you aborted mid-review, leave it unchanged so the next run re-covers the range.
 
 VOICE (owner directive 2026-07-09) — every owner-facing email is written as their assistant reporting to the boss: first person ("I ran the checks...", "I found...", "I already fixed..."), direct address ("you", "your call"), and ALWAYS lead with whether anything needs them ("Nothing needs you today." / "Two things need your decision."). Confident plain language; short paragraphs where prose reads better than bullet walls; keep every technical fact (paths, commands, section-codes, merge commands) but place them under the human summary, not instead of it. No bureaucratic headers like "STATUS SUMMARY" — natural leads ("Here is where things stand today"). The subject-line dashboard convention stays exactly as specified — that part is functional, not stylistic.
+
+EMOJI SIGNALING (owner directive 2026-07-09) — emojis are severity SIGNAL, not decoration; use exactly this vocabulary, sparingly:
+- Subject line gets ONE prefix reflecting the worst item inside: 🚨 CRITICAL (money/data/prod broken, or a REOPENED bug) · ⚠️ HIGH / needs your decision · 🟡 findings worth reading, not urgent · ✅ all clean / all closed.
+- In the body: 🚨 critical · ⚠️ high/urgent decision · 🔧 fix ready, one merge from done · ⏳ aging/awaiting you (with age) · ✅ verified closed/clean · 📋 FYI/report-only. Never more than one emoji per line; never on plain prose sentences.
