@@ -400,10 +400,10 @@ async function scenarioB(browser) {
 
   await step(page, 'B', '3 · cycle all 5 energies (active energy changes)', async () => {
     // NOTE (adapted): the swipe carousel this step was written against no
-    // longer exists — app-energy is the ReadingFacesScreen accordion (the
-    // App.jsx "swipe ⟷" comment is stale). The real "next energy" journey is
-    // catalogue spine tap → Read, so that is what we drive, asserting the
-    // active energy CHANGES each time across all five.
+    // longer exists — app-energy is the ReadingFacesScreen accordion. The
+    // real "next energy" journey is catalogue spine tap → Read, so that is
+    // what we drive, asserting the active energy CHANGES each time across
+    // all five.
     await toCatalogue();
     const els = await page.evaluate(() =>
       [...document.querySelectorAll('.shelf .spine')].map((s) => s.dataset.el));
