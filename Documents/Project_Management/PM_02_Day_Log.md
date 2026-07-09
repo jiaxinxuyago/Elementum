@@ -22,6 +22,7 @@ sessions must know).
 - Permission autopilot completed: `send-report.mjs` fixed-shape email helper; routines' full daily command surface allowlisted.
 - Anthropic LLM key rotated properly; wrangler OAuth on owner PowerShell.
 - First fully-unattended daily cycle ran (detector → triage → review → dispatch); day-1 report: 26-commit code review CLEAN; dispatch correctly declined a design-adjacent finding.
+- Daily doc-audit ran on its new daily cadence (~4:41 PM): automation trio re-verified against code — both baseline HIGH fixes confirmed landed (DEV_03 `amount_subtotal`; DEV_04 `readingResolve.js` → `src/components/reading/readingResolve.js`), PM_01's committed-half paths + push `/report` endpoint all resolve. Same-day fix-dispatch closed out: `autofix/2026-07-09-stale-comment` (§4-A6) merged & CLOSED; code-review pass-4 autopilot hardening (`3f2396c`) committed.
 
 **Pending**
 - ~~Owner ruling: 2 engine bugs~~ — **RESOLVED same evening** (see Done); the two guard cases re-enabled and blessed.
@@ -30,7 +31,10 @@ sessions must know).
 - Report-only from dispatch: 3 over-budget PNGs outside library/ (`compress-art.mjs` ready, owner-run).
 - Owner skims: 55 self-report fragments + /legal (aging since 07-07).
 - Baseline doc audit report — in flight at day end.
+- **PM_01 cadence drift (STALE, in the automation trio):** doc auditor listed as *weekly / Mondays ~4:34 PM* at §1-row9 (:27), §2 (:63), §3.5 (:176) — actual cadence is **daily ~4:41 PM** (Mondays = wider full-registry audit). Today's daily-cadence pivot updated PM_02's header + the Pivot line but not PM_01 (a DEV_03 §4-A10 pairing miss). Needs a session reword preserving the Monday-widening; also `tools/routines/doc-audit.prompt.md:3` frontmatter + `.claude/agents/doc-auditor.md` description still say "weekly". Not push-worthy — the real schedule lives in the scheduled task, so automation runs correctly regardless.
+- 11 baseline doc-audit MECHANICAL findings (schema path content/→contract/, 3 legend paths, ~16 "Doc N" citations, 6 in-body self-titles, 1 export pointer) are queued for **tomorrow's** fix-dispatch — today's 4:01 PM dispatch predated the 16:25 audit output ("no output directory yet → nothing to collect").
 - LLM Phase 1 (flip OWNER_IDS="") — owner wants a voice-polish session first.
+- **Workers Paid ($5/mo) — DEFERRED WITH TRIGGER (owner, 2026-07-09): buy ~4 weeks before first external users (early August for the Sept ship, or earlier if the validation-sprint tester wave comes first).** Unlocks the analytics pipeline (WAE) + customer email (support@). Analytics framework + 14-event taxonomy already designed this day; build-and-test session planned for purchase day; analyst agent = automation piece #10, goes live with ~2 weeks of tester data.
 
 **Pivots**
 - **Docs convention pivot**: DOC1–10 series CLOSED → categorical `XXX_NN` registry; append-only numbering; `Documents/Design/` (docs) ≠ root `Design/` (assets).
