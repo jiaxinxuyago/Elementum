@@ -12,7 +12,7 @@ in the loop. Agents find; humans+sessions fix.
 
 ---
 
-## §1 Inventory (9 pieces)
+## §1 Inventory (12 pieces)
 
 | # | Routine | Trigger | Kind | Committed half | Machine-local half |
 |---|---------|---------|------|----------------|--------------------|
@@ -24,9 +24,10 @@ in the loop. Agents find; humans+sessions fix.
 | 6 | **Daily code-review agent** | ~3:14 PM daily (same) | Scheduled Claude agent | Prompt copy: `tools/routines/daily-code-review.prompt.md`; standard: `Documents/Development/DEV_03_Code_Review_Standards.md`; state: `tools/qa-output/code-review/last-reviewed.txt` (gitignored) | Live task: `~/.claude/scheduled-tasks/elementum-daily-code-review/` |
 | 7 | **Email report channel** | Called by #4/#5/#6/#8 | Worker endpoint | `workers/push/index.js` `POST /report` (secret-gated, sends `qa@elementum.life` → owner only; free verified-destination path) | `ELEMENTUM_REPORT_KEY` user env var (§3.4) |
 | 8 | **Fix-dispatch manager + bug-lifecycle ledger** | ~4:01 PM daily (closure pass runs even on clean days) | Scheduled Claude agent → parallel fixer subagents | Prompt copy: `tools/routines/fix-dispatch.prompt.md`; lifecycle ledger `tools/qa-output/fix-dispatch/journal.md` (gitignored; finding ↔ branch ↔ OPEN/FIX-READY/CLOSED/REOPENED/REPORT-ONLY) | Live task: `~/.claude/scheduled-tasks/elementum-fix-dispatch/` |
-| 9 | **Project Manager** (docs audit + Day Log + task report; daily, Mondays = full registry sweep) | ~4:41 PM daily | Scheduled Claude agent (playbook: .claude/agents/doc-auditor.md) | Playbook + prompt copy tools/routines/project-manager.prompt.md; journal tools/qa-output/doc-audit/ (gitignored); sanctioned write: Documents/Project_Management/PM_02_Day_Log.md (append-only) | Live task: ~/.claude/scheduled-tasks/elementum-project-manager/ |
+| 9 | **Project Manager** (docs audit + Day Log + task report; daily, Mondays = full registry sweep) | ~4:41 PM daily | Scheduled Claude agent (playbook: .claude/agents/doc-auditor.md) | Playbook + prompt copy tools/routines/project-manager.prompt.md; journal tools/qa-output/doc-audit/ (gitignored); sanctioned write: Documents/Project_Management/PM_03_Day_Log.md (append-only) | Live task: ~/.claude/scheduled-tasks/elementum-project-manager/ |
 | 10 | **Budget & spend report** (monthly) | 1st of month ~10:17 AM | Scheduled Claude agent | Prompt copy tools/routines/budget-report.prompt.md; sources: BIZ_01 backlog table; saves monthly report to Documents/Business/budget-reports/ (sanctioned write); statement reconciliation = owner-uploaded in interactive sessions (Agent-Ops brief nudges monthly) | Live task: ~/.claude/scheduled-tasks/elementum-budget-report/ |
 | 11 | **Data analyst** (weekly, ⏸ HIBERNATING until post-beta) | Tuesdays ~11:14 AM — task DISABLED; wake = enable after WAE instrumentation ships (Workers Paid trigger, early Aug) | Scheduled Claude agent | Prompt copy tools/routines/analytics-report.prompt.md (locked metric definitions inside); reports to qa-output/analytics/ | Live task: ~/.claude/scheduled-tasks/elementum-analytics-report/ (enabled:false) |
+| 12 | **Customer-data backup** (the money tables — PM_02 HK-1, DEPLOYED 2026-07-09) | 2:45 AM daily (PC on) | Windows Task Scheduler → windowless VBS shim → node | `tools/backup-customer-data.mjs` (exports `entitlements` + `auth.users` id↔email map + `push_subscriptions` → `D:/Elementum/Backups/` + OneDrive `Desktop/Elementum/Backups/`, rotate 30; GCS third copy auto-activates when its key file exists; failure sentinel `BACKUP_FAILED.md`, success clears it) + `tools/run-customer-backup.vbs` + `tools/setup-backup-key.ps1` | schtasks "Elementum Customer Data Backup" + `ELEMENTUM_SUPABASE_SERVICE_KEY` user env var + optional GCS key file (§3.6); log `%TEMP%\customer-backup.log` |
 
 Related but product infra, not QA automation: the push worker's **hourly cron**
 (daily reminders; doubles as the Supabase free-tier keep-alive) and the
@@ -62,7 +63,7 @@ Related but product infra, not QA automation: the push worker's **hourly cron**
   to main** — no routine ever commits to main, touches the main checkout, or
   deploys; findings already sitting on an unmerged autofix branch are
   reminded, not re-dispatched.
-- **~4:41 PM daily** (Mondays widen to the FULL registry sweep) — doc auditor verifies Documents/ against the product (daily scope: 48h-changed docs + the automation-critical trio DEV_03/PM_01/INF_01), mines pending items with ages, and writes TODAY's entry to PM_02_Day_Log.md (Done / Pending / Pivots — its one sanctioned Documents/ write, append-only). Emails the structured report daily (status + day log + discrepancies + next-up + long-overdue). Charter unchanged: (LIVING docs must track reality; RECORD docs — ledgers/audits/archives — are append-only history and are never flagged or rewritten). MECHANICAL findings (dead paths, legacy DOC# citations per the README alias table, registry sync) land in its journal as fix-dispatch candidates; JUDGMENT findings go to the owner. Emails every run.
+- **~4:41 PM daily** (Mondays widen to the FULL registry sweep) — doc auditor verifies Documents/ against the product (daily scope: 48h-changed docs + the automation-critical trio DEV_03/PM_01/INF_01), mines pending items with ages, and writes TODAY's entry to PM_03_Day_Log.md (Done / Pending / Pivots — its one sanctioned Documents/ write, append-only). Emails the structured report daily (status + day log + discrepancies + next-up + long-overdue). Charter unchanged: (LIVING docs must track reality; RECORD docs — ledgers/audits/archives — are append-only history and are never flagged or rewritten). MECHANICAL findings (dead paths, legacy DOC# citations per the README alias table, registry sync) land in its journal as fix-dispatch candidates; JUDGMENT findings go to the owner. Emails every run.
 - **Continuously** — engine guard on engine edits; deploy smoke on every
   auto-deploy; `qa-sweep` whenever asked.
 
@@ -187,6 +188,29 @@ review ~15:07, fix dispatch ~15:52 local; daily doc audit ~16:41 (Mondays full s
 creating, click **Run now** once on each to pre-approve their tools. If a
 prompt is edited later, update BOTH the live task and the repo copy — the repo
 copy is the durable source.
+
+**3.6 Customer-data backup** (routine #12) — three pieces:
+- **Supabase key:** dashboard → API Keys → New secret key named
+  `customer_backup` (dedicated key per consumer — never reuse
+  `stripe_webhook`/`default`; REVEAL with the eye icon before copying), then
+  `powershell -ExecutionPolicy Bypass -File tools/setup-backup-key.ps1`
+  (hidden prompt → validates → saves the `ELEMENTUM_SUPABASE_SERVICE_KEY` user
+  env var). ⚠ Supabase **401s secret keys sent by browser-looking clients** —
+  any script touching sb_secret keys must send a non-Mozilla `User-Agent`
+  (both backup tools do; PowerShell's default UA is Mozilla/5.0).
+- **Schedule:** `schtasks /Create /TN "Elementum Customer Data Backup" /TR
+  'wscript.exe "<abs>\Elementum_App\tools\run-customer-backup.vbs"' /SC DAILY /ST 02:45`
+  (windowless shim per §3.3; log `%TEMP%\customer-backup.log`).
+- **GCS third copy (optional; ~10 min of console):** GCP project
+  `elementum-backups` (SEPARATE project — the OAuth project stays
+  billing-free by design, BIZ_01) + billing + **$1 budget alert** → bucket
+  `elementum-backups-141939711` (us-east1, Standard, uniform access,
+  public-access prevention ON) + Lifecycle rule "Delete, age 30+ days" →
+  service account `backup-writer` with **Storage Object Creator on the bucket
+  only** (create-only: a leaked key can add snapshots, never read/delete) →
+  JSON key saved to `C:/Users/NOBOD/.elementum/gcs-backup-key.json`. The
+  script auto-activates the third copy when that file appears. Cost: $0.00
+  (always-free tier; usage ≈1% of every limit).
 
 ## §4 Standing rules
 

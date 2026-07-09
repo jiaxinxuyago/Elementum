@@ -44,7 +44,8 @@
 
 | ID | Task |
 |---|---|
-| HK-1 | **⚠ ELEVATED 2026-07-09 (agent-manager checkpoint concurrence): NEXT INFRA SESSION'S FIRST TASK — customer-data backup routine.** Nightly machine-local scheduled routine (service key) exporting THREE tables as JSON snapshots: `entitlements` + the `auth.users` (id,email) map (without it, entitlement UUIDs orphan on project loss — Stripe's `client_reference_id` can then re-link) + `push_subscriptions`. Destination: local disk + OneDrive copy, OFF-git (customer emails = PII; keep out of version history even in a private repo), rotate last ~30. Context: free-tier Supabase has no PITR; Stripe is an independent partial ledger but reconstruction without the id↔email map is manual and lossy. |
+| HK-1 | ✅ **DONE 2026-07-09** — see completed log; residual = HK-9 (GCS third copy, owner console steps) |
+| HK-9 | **GCS third copy — owner console steps (~10 min, optional):** activate destination 3 of the backup. Runbook with exact clicks: `PM_01` §3.6 (GCP project `elementum-backups` + billing + $1 alert → bucket `elementum-backups-141939711` us-east1 + 30-day lifecycle → `backup-writer` SA, Object-Creator-on-bucket-only → JSON key to `~/.elementum/gcs-backup-key.json`). The script auto-activates when the key file appears — zero code changes. Cost $0.00 (always-free tier). |
 | HK-2 | Account hygiene: add company email to Supabase org + Google Cloud IAM (per the ownership map's dual-identity pattern) |
 | HK-3 | Anthropic console: workspace spend limit for the elementum-llm key (console-enforced cap independent of the worker kill-switch) |
 | HK-4 | One-time check: elementum.life auto-renew enabled in Cloudflare Registrar |
@@ -59,6 +60,7 @@
 
 | Date | Task |
 |---|---|
+| 2026-07-09 | **HK-1 customer-data backup DEPLOYED + first snapshot verified** (3 entitlements / 3 users / 4 push subs, owner's real Founding purchase confirmed in the export): nightly 02:45 schtasks → `tools/backup-customer-data.mjs` → `D:/Elementum/Backups/` + OneDrive `Desktop/Elementum/Backups/`, rotate 30, sentinel on failure; routine #12 in `PM_01` (§3.6 rebuild). Lessons: Supabase 401s sb_secret keys from Mozilla-UA clients; dedicated `customer_backup` key per one-key-per-consumer rule. GCS third copy = HK-9 |
 | 2026-07-09 | D-U-N-S number secured (14-193-9711, same-day D&B verification) — unblocked STORE-1/STORE-2 |
 | 2026-07-08 | Anthropic API key rotated clean (`tools/rotate-llm-key.ps1` created); wrangler OAuth fixed on owner's PowerShell |
 | 2026-07-08 | §4.3 Phase-1 gates closed: /legal AI amendment + on-device chat persistence |
