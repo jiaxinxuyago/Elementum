@@ -73,7 +73,9 @@ async function gcsUpload(objectName, json) {
   if (!res.ok) throw new Error(`GCS upload: HTTP ${res.status} ${(await res.text()).slice(0, 160)}`);
 }
 
-const headers = { apikey: KEY, Authorization: `Bearer ${KEY}` };
+// Non-browser User-Agent REQUIRED: Supabase 401s secret keys from browser-like
+// clients (Mozilla/* UA) so they can't be shipped client-side.
+const headers = { apikey: KEY, Authorization: `Bearer ${KEY}`, 'User-Agent': 'elementum-customer-backup' };
 
 async function rest(table) {
   const res = await fetch(`${SUPABASE_URL}/rest/v1/${table}?select=*`, { headers });

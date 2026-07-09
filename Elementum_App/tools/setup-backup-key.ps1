@@ -24,13 +24,39 @@ if (-not $key.StartsWith('sb_secret_')) {
   $peek = $key.Substring(0, [Math]::Min(10, $key.Length))
   throw "Received $($key.Length) chars starting '$peek...' - expected an sb_secret_... key. Re-copy from the Supabase dashboard."
 }
+if ($key -match '[^\x21-\x7E]') {
+  throw 'The pasted value contains masked/non-ASCII characters (the dashboard placeholder bullets). In Supabase: click the EYE icon on the key to REVEAL it first, then copy the revealed value (or use the copy button AFTER revealing).'
+}
+
+$peek = $key.Substring(0, [Math]::Min(14, $key.Length))
+Write-Host ("    received {0} chars, starting '{1}...'" -f $key.Length, $peek)
 
 Write-Host '1/2 validating against the entitlements table...'
+$uri = 'https://nbactbfxqslzehzbgetp.supabase.co/rest/v1/entitlements?select=user_id&limit=1'
+$ok = $false
+# IMPORTANT: Supabase REJECTS secret keys from browser-looking clients (401) so
+# they can't be shipped client-side. PowerShell's default User-Agent starts with
+# Mozilla/5.0 -- so every request must declare a non-browser agent.
+$UA = 'elementum-backup-setup'
+# Variant A: apikey header only (new sb_secret_ keys are NOT JWTs).
 try {
-  $r = Invoke-RestMethod -Uri 'https://nbactbfxqslzehzbgetp.supabase.co/rest/v1/entitlements?select=user_id&limit=1' `
-    -Headers @{ apikey = $key; Authorization = "Bearer $key" }
-} catch { throw "Key FAILED validation - nothing was saved. ($($_.Exception.Message))" }
-Write-Host '    valid (entitlements table reachable).'
+  Invoke-RestMethod -Uri $uri -UserAgent $UA -Headers @{ apikey = $key } | Out-Null
+  $ok = $true; Write-Host '    valid (apikey-only variant).'
+} catch {
+  $codeA = try { [int]$_.Exception.Response.StatusCode } catch { '?' }
+  Write-Host ("    variant A (apikey only): HTTP {0}" -f $codeA)
+}
+# Variant B: apikey + Bearer (the shape the workers use).
+if (-not $ok) {
+  try {
+    Invoke-RestMethod -Uri $uri -UserAgent $UA -Headers @{ apikey = $key; Authorization = "Bearer $key" } | Out-Null
+    $ok = $true; Write-Host '    valid (apikey+Bearer variant).'
+  } catch {
+    $codeB = try { [int]$_.Exception.Response.StatusCode } catch { '?' }
+    Write-Host ("    variant B (apikey+Bearer): HTTP {0}" -f $codeB)
+  }
+}
+if (-not $ok) { throw 'Key FAILED validation on both variants - nothing was saved. Report the two HTTP codes + char count above.' }
 
 Write-Host '2/2 saving as user environment variable...'
 [Environment]::SetEnvironmentVariable('ELEMENTUM_SUPABASE_SERVICE_KEY', $key, 'User')
