@@ -37,7 +37,7 @@ const ONEDRIVE_DIR = 'C:/Users/NOBOD/OneDrive/Desktop/Elementum/Backups/customer
 // Soft-skips with a note until the key file exists, so destinations 1+2 never
 // wait on Google. Key = service-account JSON at a fixed machine-local path.
 const GCS_KEY_FILE = 'C:/Users/NOBOD/.elementum/gcs-backup-key.json';
-const GCS_BUCKET = 'elementum-backups-141939711';
+const GCS_BUCKET = 'elementum-userbackups-07092026'; // suffix = bucket creation date (owner-picked), NOT the contents' date — it holds the rolling last-30-nights
 const KEEP = 30;
 const SENTINEL = resolve(PROJECT_ROOT, 'BACKUP_FAILED.md');
 
@@ -131,8 +131,12 @@ try {
   // a GCS failure raises the sentinel but never undoes destinations 1+2.
   let gcsNote = 'GCS: not configured (key file absent) — local+OneDrive only';
   if (existsSync(GCS_KEY_FILE)) {
-    await gcsUpload(name, json);
-    gcsNote = `GCS: uploaded gs://${GCS_BUCKET}/${name}`;
+    // Time-stamped object name: the create-only key cannot overwrite, so every
+    // run (incl. same-day manual re-runs) must be a unique object. Lifecycle
+    // rule (age 30d) is the janitor — the key can't delete either.
+    const gcsName = `customer-data_${new Date().toISOString().slice(0, 16).replace(/:/g, '')}.json`;
+    await gcsUpload(gcsName, json);
+    gcsNote = `GCS: uploaded gs://${GCS_BUCKET}/${gcsName}`;
   }
 
   // A good run clears any stale failure sentinel.

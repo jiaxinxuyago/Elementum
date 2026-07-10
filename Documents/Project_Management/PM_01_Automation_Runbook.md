@@ -201,10 +201,10 @@ copy is the durable source.
 - **Schedule:** `schtasks /Create /TN "Elementum Customer Data Backup" /TR
   'wscript.exe "<abs>\Elementum_App\tools\run-customer-backup.vbs"' /SC DAILY /ST 02:45`
   (windowless shim per §3.3; log `%TEMP%\customer-backup.log`).
-- **GCS third copy (optional; ~10 min of console):** GCP project
+- **GCS third copy (⏸ DEFERRED 2026-07-09 — blocked by the org's secure-by-default policy at credential issuance; bucket+SA built and parked free; unblock recipe in PM_02 HK-9):** GCP project
   `elementum-backups` (SEPARATE project — the OAuth project stays
   billing-free by design, BIZ_01) + billing + **$1 budget alert** → bucket
-  `elementum-backups-141939711` (us-east1, Standard, uniform access,
+  `elementum-userbackups-07092026` (us-east1, Standard, uniform access,
   public-access prevention ON) + Lifecycle rule "Delete, age 30+ days" →
   service account `backup-writer` with **Storage Object Creator on the bucket
   only** (create-only: a leaked key can add snapshots, never read/delete) →
