@@ -1,7 +1,73 @@
-# Elementum · Answer-First Catalogue (design export · Mockup B-02)
+# Elementum · Answer-First Catalogue (design export)
 
-Self-contained design mockup for the redesigned Reading-tab catalogue.
-Open `index.html` in any modern browser — no install, no server, no setup.
+Self-contained design mockups for the redesigned Reading-tab catalogue.
+Open in any modern browser — no install, no server, no setup.
+
+```
+index.html    — Mockup B-02: the approved base direction (prescription
+                inscribed into the identity plate; CSS-approximated art)
+variants.html — Mockups C · D · E: three polished variants of the locked
+                direction, built with PRODUCTION PNG ASSETS inlined
+                (ink-wash dots, 庚 seal, element paintings, painted grounds,
+                catalyst/friction brush arrows) and production copy verbatim.
+                Variant E is live-interactive: tap wheel nodes / chips.
+```
+
+## The locked direction (C·D·E)
+
+**Catalyst and Friction are the core handles** by which the user grasps and
+navigates their energy blueprint, phrased plainly as "the energy you need /
+the energy you don't." Each variant leads with a different one of the three
+questions — and answers all three:
+
+1. **Meaning** — what do these energies mean to me? (representation and
+   spirit, via painted art + the locked experiential lines)
+2. **Verdict** — which is good/bad for me? (Catalyst vs Friction)
+3. **Depth** — the deeper message (the face inside each element, with its
+   representation word, strengths, and flaws)
+
+- **C · The Two Gates** (verdict-led) — the catalogue opens as two painted
+  doors; the catalyst gate carries the library's only full-color painting,
+  friction sits ink-quiet: color itself is the verdict. Wheel demoted to
+  evidence below.
+- **D · The Scroll of Meaning** (meaning-led) — B-02's inscribed plate, the
+  wheel, then five painted scripture bands ordered by prescription
+  (catalyst → friction → core → rest), each: experiential meaning line →
+  verdict sentence → "says about you" faces line → deeper-message descent.
+- **E · The Compass** (navigation-led, interactive) — the wheel as an
+  instrument: a seal-red thread (the one permitted chop-red accent) runs
+  from the Day Master seal to the catalyst node; a readout card answers
+  all three questions for the selected energy. Fits one viewport (the
+  locked no-scroll catalogue rule survives).
+
+## The second layer — faces as representations (NEEDS OWNER SIGN-OFF)
+
+Per the earlier identity-card session, each Ten-God face carries a plain
+one-word representation (confirmed example: **The Horizon = Enterprise**).
+The other nine words below are DERIVED from the locked FACE_CARD keyword
+sets (`src/content/reading/facesContent.js`) and must be confirmed or
+replaced with the original session's list:
+
+| Face | Representation | Keywords (locked) |
+| --- | --- | --- |
+| 比肩 The Twin | Selfhood | independent, resolute, self-made |
+| 劫财 The Rival | Drive | driven, competitive, bold |
+| 食神 The Artisan | Craft | fluent, generous, easeful |
+| 伤官 The Virtuoso | Brilliance | brilliant, unruly, daring |
+| 正财 The Steward | Security | steady, accruing, enduring |
+| 偏财 The Horizon | **Enterprise** (confirmed) | expansive, sensing, distant |
+| 七杀 The General | Challenge | forging, relentless, decisive |
+| 正官 The Magistrate | Discipline | principled, measured, ordered |
+| 偏印 The Alchemist | Intuition | intuitive, unorthodox, transmuting |
+| 正印 The Sage | Wisdom | grounding, nurturing, patient |
+
+This lexicon renders identically on the reading catalogue (the "says about
+you" line per element) and the Day Master identity card.
+
+---
+
+## Mockup B-02 (`index.html`) — the base direction
+
 No external assets: element marks are inlined SVG, the wheel nodes and stem
 seal are CSS/typographic approximations of the painted art (see "Fidelity
 notes" below).
