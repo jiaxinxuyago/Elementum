@@ -11,6 +11,14 @@ variants.html — Mockups C · D · E: three polished variants of the locked
                 (ink-wash dots, 庚 seal, element paintings, painted grounds,
                 catalyst/friction brush arrows) and production copy verbatim.
                 Variant E is live-interactive: tap wheel nodes / chips.
+variants-2.html — Mockups F · G · H: the EQUAL-LOAD pivot. C–E led with the
+                prescription; these rebalance to two equal chapters —
+                identity (Day Master + core, strong keywords) FIRST, then
+                prescription (need / don't). F evolves E (ship candidate),
+                G evolves C (identity gate first), H states the thesis
+                purest (four-line placard + twin Day Master/Prescription
+                cards). F is live-interactive. Core keywords (Precision ·
+                Standard · Edge) are placeholders pending the finessing pass.
 ```
 
 ## The locked direction (C·D·E)
