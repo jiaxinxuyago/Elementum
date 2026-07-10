@@ -348,7 +348,7 @@
   .phone .eltint { position: absolute; inset: 0; z-index: 0; pointer-events: none;
     background: radial-gradient(150% 80% at 50% -8%, rgba(139,163,184,0.10), transparent 55%); }
   .phone .scr2 { position: absolute; inset: 8px; border-radius: 40px; overflow: hidden; display: flex; flex-direction: column; background: var(--silk); }
-  .phone .scr2 > * { position: relative; z-index: 1; }
+  .phone .scr2 > *:not(.plateimg):not(.eltint) { position: relative; z-index: 1; }
   .phone .status2 { height: 48px; flex-shrink: 0; display: flex; align-items: flex-end; justify-content: space-between; padding: 0 30px 4px;
     font-size: 13px; font-weight: 600; color: var(--ink); z-index: 40; }
   .phone .status2 .dots { font-size: 11px; letter-spacing: 1px; color: var(--inkSoft); }
@@ -462,15 +462,16 @@
     box-shadow: 0 12px 30px rgba(40,30,20,0.16); flex-shrink: 0; width: 100%; text-align: left; cursor: pointer; padding: 0; background: var(--silk); }
   .hero2:focus-visible { outline: 2px solid var(--bronzeDark); outline-offset: 2px; }
   .hero2 .art { position: absolute; inset: 0; background-position: center; background-size: cover; }
-  .hero2 .scrim { position: absolute; inset: 0; background: linear-gradient(to top, rgba(20,17,13,0.90) 0%, rgba(20,17,13,0.48) 30%, rgba(20,17,13,0.06) 58%, transparent 76%); }
+  .hero2 .scrim { position: absolute; inset: 0; background: linear-gradient(to top, rgba(20,17,13,0.92) 0%, rgba(20,17,13,0.58) 36%, rgba(20,17,13,0.14) 66%, transparent 84%); }
+  .hero2 .reye, .hero2 .htitle, .hero2 .hsub { text-shadow: 0 1px 3px rgba(20,17,13,0.55); }
   .hero2 .hair { position: absolute; left: 0; right: 0; top: 0; height: 3px; background: var(--metal); opacity: 0.9; }
   .hero2 .bighz { position: absolute; top: 12px; right: 16px; font-family: 'Noto Serif TC', 'Songti SC', serif; font-weight: 300; color: rgba(255,255,255,0.22); line-height: 0.8; z-index: 2; font-size: 64px; }
   .hero2 .seal-medal { position: absolute; left: 16px; bottom: 14px; width: 60px; height: 60px; z-index: 3; }
   .hero2 .hcontent { position: absolute; left: 90px; right: 18px; bottom: 15px; z-index: 3; }
   .hero2 .reye { font-family: 'EB Garamond', Georgia, serif; font-weight: 500; font-size: 9.5px; letter-spacing: 2.2px; text-transform: uppercase; color: #e9d9b8; display: flex; align-items: center; gap: 7px; }
   .hero2 .reye svg { width: 14px; height: 14px; fill: #e9d9b8; }
-  .hero2 .htitle { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 28px; color: #f6f1e6; line-height: 1.02; margin-top: 6px; }
-  .hero2 .hsub { font-family: 'EB Garamond', Georgia, serif; font-style: italic; color: #dccfb6; margin-top: 4px; font-size: 12.5px; }
+  .hero2 .htitle { display: block; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 28px; color: #f6f1e6; line-height: 1.02; margin-top: 6px; }
+  .hero2 .hsub { display: block; font-family: 'EB Garamond', Georgia, serif; font-style: italic; color: #dccfb6; margin-top: 4px; font-size: 12.5px; }
 
   /* emmark rx cards (Library "Your Catalyst" pattern) */
   .rxcard { display: flex; gap: 12px; align-items: flex-start; width: 100%; text-align: left; cursor: pointer; transition: transform 160ms var(--ease-out); }
