@@ -19,7 +19,22 @@ variants-2.html — Mockups F · G · H: the EQUAL-LOAD pivot. C–E led with th
                 purest (four-line placard + twin Day Master/Prescription
                 cards). F is live-interactive. Core keywords (Precision ·
                 Standard · Edge) are placeholders pending the finessing pass.
-hanging-scroll.html — Mockup H-ART: H rebuilt as an ink-wash art piece.
+h-library.html — Mockups K · L (CURRENT DIRECTION): H re-clothed in the
+                established rendered-screens-v2 Library aesthetic. Same H
+                information + hierarchy (identity → four lines → wheel →
+                prescription → depth); dominance wheel + 庚 seal ring
+                locked/untouched, H's ↑/↓ pips + catalyst thread kept on
+                top. K RICE-PAPER BLEED: rice-paper plate, idmini Day
+                Master card, kv four-line summary, bleed-list element rows
+                that unfold their depth in place (accordion; wheel nodes
+                open their row). L PAINTERLY DESTINATION: corner-quartet
+                plate, blade-painting hero with 庚 hanzi + ring medallion,
+                Library's "Your Catalyst" cardstock pattern + Friction
+                twin, Feed/Ease checklists, live tap-the-wheel readout.
+                Both scrollable, both fully interactive. Recommendation:
+                K as the catalogue; L's hero + rx pair into the Day Master
+                card redesign.
+hanging-scroll.html — Mockup H-ART (SET ASIDE by owner): H rebuilt as an ink-wash art piece.
                 The phone-as-hanging-scroll (立軸) insight: the wheel is the
                 painting's subject; H's four summary lines become colophon
                 (題跋) inscriptions in the negative space; the red chop seal
