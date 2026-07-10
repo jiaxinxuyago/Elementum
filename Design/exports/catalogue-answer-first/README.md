@@ -19,6 +19,22 @@ variants-2.html — Mockups F · G · H: the EQUAL-LOAD pivot. C–E led with th
                 purest (four-line placard + twin Day Master/Prescription
                 cards). F is live-interactive. Core keywords (Precision ·
                 Standard · Edge) are placeholders pending the finessing pass.
+hanging-scroll.html — Mockup H-ART: H rebuilt as an ink-wash art piece.
+                The phone-as-hanging-scroll (立軸) insight: the wheel is the
+                painting's subject; H's four summary lines become colophon
+                (題跋) inscriptions in the negative space; the red chop seal
+                用 stamps the prescription and the thread flows from stamp
+                to catalyst; the missing element appears as a vision in the
+                mist register. Real brush-sample paper/mist/gesture art +
+                production dot/seal/element art. Wheel rule preserved
+                exactly (size ∝ presence, seats by rank). Two directions:
+                I · The Cover (frontispiece + "Open your catalogue" descent,
+                entrance ceremony) and II · The Living Scroll (the catalogue
+                embedded — a reading slip rewrites per tapped energy; fully
+                interactive). Includes the three-composition exploration
+                (colophon scroll CHOSEN vs full-bleed landscape vs enso
+                orbit) with rationale. Recommendation: one design, two
+                states — Cover at rest, slip on first node-tap.
 ```
 
 ## The locked direction (C·D·E)
