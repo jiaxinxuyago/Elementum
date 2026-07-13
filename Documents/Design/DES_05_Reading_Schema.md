@@ -1,4 +1,4 @@
-# Doc 6 — Reading Schema (v2.1) — the content model for the Five Energies surface
+# DES_05 — Reading Schema (v2.1) — the content model for the Five Energies surface
 
 > **Formerly DOC6** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC6" refer to this file (registry: Documents/README.md).
 
