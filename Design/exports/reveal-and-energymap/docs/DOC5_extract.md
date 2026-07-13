@@ -1,6 +1,6 @@
 # DOC5 Extract — Reveal + Energy Map (for design iteration)
 
-_This is a focused extract from `Documents/Designengineering/DOC5_App_Design.md` containing the sections directly relevant to the Reveal and Energy Map screens. Section numbers preserved for cross-reference._
+_This is a focused extract from `Documents/Design/DES_04_App_Design.md` containing the sections directly relevant to the Reveal and Energy Map screens. Section numbers preserved for cross-reference._
 
 _Original full DOC5 lives in the parent project. If you need adjacent context (Welcome §6, Loading §8, Today §10, etc.), pull from there._
 
