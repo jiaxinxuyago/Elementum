@@ -19,6 +19,17 @@ variants-2.html — Mockups F · G · H: the EQUAL-LOAD pivot. C–E led with th
                 purest (four-line placard + twin Day Master/Prescription
                 cards). F is live-interactive. Core keywords (Precision ·
                 Standard · Edge) are placeholders pending the finessing pass.
+journey.html  — PROTOTYPE J-01 (CURRENT): the full reading journey as a
+                CLICKABLE prototype — one phone, real navigation. Composes
+                the four locked components: C1 the four-line summary,
+                C2 the untouched dominance wheel (pips + thread overlay),
+                C3 the shareable identity card (idmini -> Day Master page
+                -> the built ShareCardOverlay, mirrored), C4 energy tiles
+                (catalyst featured wide, all five descend to element
+                reading pages with verdict / meaning / what-it-says-about-
+                you layers, FACE_CARD teasers verbatim). Journey map on
+                the sheet stays in sync with the phone and is itself
+                clickable. Screenshot-verified across all screens.
 h-library.html — Mockups K · L (CURRENT DIRECTION): H re-clothed in the
                 established rendered-screens-v2 Library aesthetic. Same H
                 information + hierarchy (identity → four lines → wheel →
