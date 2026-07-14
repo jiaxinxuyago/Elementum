@@ -25,3 +25,4 @@ dist-ssr
 
 # Automated QA artifacts (tools/qa-route-sweep.mjs) — regenerated every run
 tools/qa-output/
+dist-artifact
