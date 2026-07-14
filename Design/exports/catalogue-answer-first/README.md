@@ -1,131 +1,189 @@
-# Elementum · Answer-First Catalogue (design export)
+# Elementum · Reading Catalogue & Identity Card Redesign
+## Design Handoff — Answer-First Catalogue Exploration
 
-Self-contained design mockups for the redesigned Reading-tab catalogue.
-Open in any modern browser — no install, no server, no setup.
+**Status:** active exploration · current candidate **P-01** (`p1-consolidated.html`)
+**Branch:** `claude/cloud-github-edits-1s7h92` · repo `jiaxinxuyago/Elementum`
+**Reference chart used throughout:** 庚 Yang Metal · The Blade · concentrated ·
+Metal 40 / Earth 30 / Wood 20 / Water 10 / **Fire 0 (missing)** — chosen because it
+is the hardest honest case: the dominant element is the friction, and the missing
+element is the major catalyst.
 
-```
-index.html    — Mockup B-02: the approved base direction (prescription
-                inscribed into the identity plate; CSS-approximated art)
-variants.html — Mockups C · D · E: three polished variants of the locked
-                direction, built with PRODUCTION PNG ASSETS inlined
-                (ink-wash dots, 庚 seal, element paintings, painted grounds,
-                catalyst/friction brush arrows) and production copy verbatim.
-                Variant E is live-interactive: tap wheel nodes / chips.
-variants-2.html — Mockups F · G · H: the EQUAL-LOAD pivot. C–E led with the
-                prescription; these rebalance to two equal chapters —
-                identity (Day Master + core, strong keywords) FIRST, then
-                prescription (need / don't). F evolves E (ship candidate),
-                G evolves C (identity gate first), H states the thesis
-                purest (four-line placard + twin Day Master/Prescription
-                cards). F is live-interactive. Core keywords (Precision ·
-                Standard · Edge) are placeholders pending the finessing pass.
-p1-consolidated.html — P-01 (CURRENT): the consolidation. M's cleared-desk
-                structure with (1) the RICH IDENTITY CARD everywhere — the
-                floating window and share export both carry seal, walnut
-                archetype, Cinzel pinyin, manifesto, five-element chart
-                (dashed ghost segment), Core/Catalyst/Friction chips, and
-                keyword chips; (2) the FOUR LINES as ONE card with three
-                switchable text layouts — Couplet (identity faces
-                prescription across a pip spine), Ledger (engraved key
-                column), Cascade (staggered sentence) — live switcher on
-                the sheet; (3) TYPE AUDITED against primitives-library +
-                screen gallery, corrections applied: pinyin/foundry mono ->
-                Cinzel, display names 600 -> 500, section labels mono ->
-                EB Garamond (locked eyebrow spec), archetype walnut. Full
-                font ledger on the sheet. Clickable throughout.
-layouts.html  — LAYOUTS M · N · O (CURRENT): the four locked components in
-                three arrangements, unified against primitives-library.html
-                (walnut archetype names, Cinzel pill-CTA, element eyebrows
-                at the 80%-alpha step, italics as microcopy only) and the
-                current-screens gallery. All clickable, all scrollable.
-                M THE CLEARED DESK: identity leaves the scroll — a head
-                pill / the seal / the "You are" stone open the shareable
-                card as a FLOATING WINDOW (Share/Save/Copy); four lines as
-                a 2x2 stones grid; tiles as a horizontal snap carousel.
-                N THE ANCHOR WHEEL: wheel takes the hero slot; four lines
-                as dd-card deed rows; identity as a blade bleed-banner;
-                catalyst-spanning tile grid. O THE LEDGER: the four lines
-                as a poster-scale engraved placard (best four-lines
-                treatment); identity as a strip; energies as quiet rows.
-                Recommendation: M structure + O placard, N as test control.
-journey.html  — PROTOTYPE J-01 (CURRENT): the full reading journey as a
-                CLICKABLE prototype — one phone, real navigation. Composes
-                the four locked components: C1 the four-line summary,
-                C2 the untouched dominance wheel (pips + thread overlay),
-                C3 the shareable identity card (idmini -> Day Master page
-                -> the built ShareCardOverlay, mirrored), C4 energy tiles
-                (catalyst featured wide, all five descend to element
-                reading pages with verdict / meaning / what-it-says-about-
-                you layers, FACE_CARD teasers verbatim). Journey map on
-                the sheet stays in sync with the phone and is itself
-                clickable. Screenshot-verified across all screens.
-h-library.html — Mockups K · L (CURRENT DIRECTION): H re-clothed in the
-                established rendered-screens-v2 Library aesthetic. Same H
-                information + hierarchy (identity → four lines → wheel →
-                prescription → depth); dominance wheel + 庚 seal ring
-                locked/untouched, H's ↑/↓ pips + catalyst thread kept on
-                top. K RICE-PAPER BLEED: rice-paper plate, idmini Day
-                Master card, kv four-line summary, bleed-list element rows
-                that unfold their depth in place (accordion; wheel nodes
-                open their row). L PAINTERLY DESTINATION: corner-quartet
-                plate, blade-painting hero with 庚 hanzi + ring medallion,
-                Library's "Your Catalyst" cardstock pattern + Friction
-                twin, Feed/Ease checklists, live tap-the-wheel readout.
-                Both scrollable, both fully interactive. Recommendation:
-                K as the catalogue; L's hero + rx pair into the Day Master
-                card redesign.
-hanging-scroll.html — Mockup H-ART (SET ASIDE by owner): H rebuilt as an ink-wash art piece.
-                The phone-as-hanging-scroll (立軸) insight: the wheel is the
-                painting's subject; H's four summary lines become colophon
-                (題跋) inscriptions in the negative space; the red chop seal
-                用 stamps the prescription and the thread flows from stamp
-                to catalyst; the missing element appears as a vision in the
-                mist register. Real brush-sample paper/mist/gesture art +
-                production dot/seal/element art. Wheel rule preserved
-                exactly (size ∝ presence, seats by rank). Two directions:
-                I · The Cover (frontispiece + "Open your catalogue" descent,
-                entrance ceremony) and II · The Living Scroll (the catalogue
-                embedded — a reading slip rewrites per tapped energy; fully
-                interactive). Includes the three-composition exploration
-                (colophon scroll CHOSEN vs full-bleed landscape vs enso
-                orbit) with rationale. Recommendation: one design, two
-                states — Cover at rest, slip on first node-tap.
-```
+Every file here is a **self-contained HTML mockup** (all art base64-inlined).
+Double-click to open in any browser — no server, no install. Files marked
+*clickable* are working prototypes: taps navigate, modals open, content swaps.
 
-## The locked direction (C·D·E)
+---
 
-**Catalyst and Friction are the core handles** by which the user grasps and
-navigates their energy blueprint, phrased plainly as "the energy you need /
-the energy you don't." Each variant leads with a different one of the three
-questions — and answers all three:
+## 1 · Purpose
 
-1. **Meaning** — what do these energies mean to me? (representation and
-   spirit, via painted art + the locked experiential lines)
-2. **Verdict** — which is good/bad for me? (Catalyst vs Friction)
-3. **Depth** — the deeper message (the face inside each element, with its
-   representation word, strengths, and flaws)
+**The user-test finding that started this work:** users landing on the Reading
+tab did not know where to start reading, and did not know who they are (Day
+Master + energy dominance). The most-asked question, verbatim:
 
-- **C · The Two Gates** (verdict-led) — the catalogue opens as two painted
-  doors; the catalyst gate carries the library's only full-color painting,
-  friction sits ink-quiet: color itself is the verdict. Wheel demoted to
-  evidence below.
-- **D · The Scroll of Meaning** (meaning-led) — B-02's inscribed plate, the
-  wheel, then five painted scripture bands ordered by prescription
-  (catalyst → friction → core → rest), each: experiential meaning line →
-  verdict sentence → "says about you" faces line → deeper-message descent.
-- **E · The Compass** (navigation-led, interactive) — the wheel as an
-  instrument: a seal-red thread (the one permitted chop-red accent) runs
-  from the Day Master seal to the catalyst node; a readout card answers
-  all three questions for the selected energy. Fits one viewport (the
-  locked no-scroll catalogue rule survives).
+> "So what energy is good for me? I need to know the energy I need."
 
-## The second layer — faces as representations (NEEDS OWNER SIGN-OFF)
+The shipped catalogue answers a different question — *"what are you made of"*
+(a presence-ranked wheel + shelf). This exploration redesigns the catalogue and
+the identity card so the surface answers, in order:
 
-Per the earlier identity-card session, each Ten-God face carries a plain
-one-word representation (confirmed example: **The Horizon = Enterprise**).
-The other nine words below are DERIVED from the locked FACE_CARD keyword
-sets (`src/content/reading/facesContent.js`) and must be confirmed or
-replaced with the original session's list:
+1. **Who am I?** — Day Master + core energy, with strong keywords
+2. **Which energy is good / bad for me?** — Catalyst vs Friction, phrased
+   plainly as **"the energy you need / the energy you don't"**
+3. **What do these energies mean, and what do they say about me?** —
+   representation, personality, strengths, flaws
+4. **What's the deeper message?** — descent into the full readings
+
+## 2 · Locked decisions (do not relitigate)
+
+| Decision | Detail |
+| --- | --- |
+| **Vocabulary** | `Catalyst` / `Friction`, verbatim. Plain framing "the energy you need / the energy you don't". Never surface 用神/忌神, "useful god", internal relation names (self/resource/output/wealth/officer), or banned terms ("Dominant Energies", "Forces in Motion", "Ten Gods", "Seven Killings", "Luck Cycle", "Seasonal Calibration"). |
+| **Reading flow** | Identity first (Day Master + core, keywords), then prescription (need / don't), then depth. Equal cognitive load between identity and prescription — "a patient who doesn't know their symptoms can't trust the cure." |
+| **Dominance wheel** | LOCKED. Size ∝ presence (D_MIN 40 → D_MAX 64), seats by rank (dominant at 12 o'clock, clockwise descending), ink-dot node art, 庚 enso seal ring at center. H's ↑/↓ valence pips + the seal-red catalyst thread are approved overlays ON the wheel — the wheel itself is never restyled. Engine source: `Elementum_App/src/engine/dominanceWheel.js` + `Design/exports/DOMINANCE_WHEEL_RULES.md`. |
+| **Day master seal ring** | LOCKED design element (`concept-arts/stems/geng.png` family). The continuity object across plate → wheel center → identity card. |
+| **Aesthetic** | The Library system, no new visual vocabulary. Sources of truth: `Design/assets/Library/primitives-library.html` (tokens, type, iconography, surfaces) and `Design/assets/Library/Elementum Screen Gallery_CurrentScreens.html` (screen aesthetics). Hanging-scroll art direction was explored and SET ASIDE by owner. |
+| **No italics as display** | v2 rule: italic restricted to sub-headlines + microcopy only. |
+| **Chop-red** | `--seal #A04030` maximum once per screen (the catalyst thread is that one use). |
+
+## 3 · The four locked components
+
+Everything from `journey.html` onward composes these four. Preserve them in any
+future iteration:
+
+- **C1 · The Four Lines** — the reading summary. Four verdicts of equal weight:
+  *You are (The Blade) · Your core (Metal, concentrated) · You need (Fire) ·
+  You ease (Earth)*. One card, never four separate cards (owner direction).
+  Three approved text treatments exist (Couplet / Ledger / Cascade — see P-01);
+  Couplet is studio-recommended, owner pick pending.
+- **C2 · The Dominance Wheel** — the signature visual. Locked geometry + art;
+  carries ↑/↓ pips per node and the seal-red thread from center seal to the
+  major catalyst node. Nodes, seal, and (in list contexts) rows are all live
+  navigation — "three doors, one room."
+- **C3 · The Shareable Identity Card** — one design everywhere (owner call:
+  "full card everywhere"): seal · mono eyebrow (`YOUR DAY MASTER · 庚 YANG
+  METAL`) · archetype name in **walnut** · Cinzel pinyin · manifesto (always
+  kept) · five-element distribution strip (dashed ghost segment for missing
+  elements) · Core / ↑ Catalyst / ↓ Friction chips · keyword chips · Cinzel
+  foundry mark. Opens as a **floating window** from a page-head pill, the wheel
+  seal, or the "You are" line; carries Share / Save image / Copy link (mirrors
+  the built `ShareCardOverlay` + `ShareIdentityCard`, 540×960 export).
+- **C4 · The Energy Tiles** — five painted tiles/cards, prescription-ordered
+  (feed first: Fire · Water · Wood, then ease: Earth · Metal), each descending
+  to that element's detailed reading page (hero + verdict + meaning +
+  "what it says about you").
+
+## 4 · Design language quick reference
+
+Extracted verbatim from the two Library sources (full ledger rendered inside
+`p1-consolidated.html`):
+
+| Role | Spec | Source |
+| --- | --- | --- |
+| Archetype display | Cormorant Garamond 38/400/ls0.5 · **walnut `#5a4430`** | primitives `.headline-pair .blade` |
+| Card/hero names | Cormorant Garamond 22–26 / **500** | gallery `.fd-name`, `.htitle` |
+| Manifesto | Cormorant Garamond *italic* 19/500 (scaled in-card) | primitives `.tagline` |
+| Eyebrow (locked DOC5 §3) | EB Garamond 10/500/ls2.5 uppercase | primitives `.eyebrow` |
+| Kicker keys ("YOU ARE") | Cinzel 10/400/ls2 uppercase | primitives `.kicker` |
+| Pinyin | Cinzel 11/ls3 | gallery `.d13 .pinyin` |
+| Foundry mark | Cinzel 10.5/ls2 + 8.5/ls3.5 | gallery `.foundry` |
+| Body | EB Garamond 13.5 / 1.55 | both |
+| Data / % | JetBrains Mono (700 nodes; 500/ls1 labels) | gallery `.node .pc` |
+| CJK | Noto Serif TC/SC | both |
+| CTA | Cinzel 12/ls4 on bronzeDark pill | primitives `.btn.pill-cta` |
+
+Pigments, alpha ladder (10/1A/40/CC/100), spacing + radius scales, and the
+3-surface taxonomy (cardstock / tinted×5 / quiet): see `primitives-library.html`.
+Element pigments: metal `#8BA3B8/#6A849A` · wood `#7A9E6E/#587A4D` · fire
+`#C4745A/#9E5540` · earth `#B89A6A/#927750` · water `#5A7FA8/#3E5F85` ·
+up `#4a7a52` · down `#a85c48`.
+
+**Copy is production copy, verbatim, wherever it exists.** Headlines ("The
+forge you borrow, never own."), poetic tags ("Radiance · the rising heat"),
+experiential meaning lines ("the room is different before you speak"), the
+manifesto, the three claims, FACE_CARD keywords + teasers, foundry mark.
+Sources: `Elementum_App/src/content/reading/*.js`, DOC2/DOC3.
+**Core keywords (Precision · Standard · Edge) are PLACEHOLDERS** pending the
+owner's finessing pass.
+
+## 5 · Iteration history (oldest → newest)
+
+Each file is a complete, openable snapshot of its stage. Read in this order to
+understand why the current design looks the way it does.
+
+### `index.html` — B-02 · "The Answer-First Catalogue" *(origin)*
+Prescription promoted from a buried ribbon to the surface's opening statement,
+inscribed into the identity plate (not boxed cards). Established: catalyst/
+friction as first-viewport content, wheel valence layer (pips), "size is how
+much you carry" hint. CSS-approximated art (pre-production-assets).
+**Learned:** the inscribed-plate idea carried forward; the pure
+prescription-first order later proved too prescriptive (see F–H).
+
+### `variants.html` — C · D · E · three navigations *(clickable: E)*
+First production-asset build (ink dots, 庚 seal, element paintings, painted
+grounds, catalyst/friction brush arrows). Three leads: **C Two Gates**
+(verdict-led painted doors), **D Scroll of Meaning** (meaning-led scripture
+bands), **E Compass** (interactive wheel + readout). Introduced the
+face-representation second layer (§7). **Owner:** leaned E, then C — but
+diagnosed the whole batch as "prescription without symptoms."
+
+### `variants-2.html` — F · G · H · the equal-load pivot *(clickable: F)*
+Identity restored to equal weight; flow becomes *who you are + core first,
+then prescription*. **F Anchored Compass** (E + first-class identity card),
+**G Three Gates** (identity gate first), **H The Placard** (four equal lines +
+twin cards). **Owner: picked H** — "prescriptive, self-explanatory,
+hierarchically informative" — but demanded a real art direction on top of it.
+
+### `hanging-scroll.html` — H-ART · the ink-wash colophon *(SET ASIDE)*
+H recomposed as a hanging-scroll painting (colophon inscriptions, chop-seal 用
+thread, mist vision of the missing element). Owner rejected the direction:
+too far from the app's established aesthetic. **Kept for the record** — the
+three-composition exploration and its rationale are documented inside.
+
+### `h-library.html` — K · L · H in the house style *(clickable, scrollable)*
+The corrective: H's exact hierarchy re-clothed in the **rendered-screens-v2
+Library aesthetic** (plates, idmini card, painterly heroes, cardstock, bleed
+rows). **K Rice-Paper Bleed** (catalogue-native, unfold-in-place rows) and
+**L Painterly Destination** (blade-painting hero, "Your Catalyst" cardstock).
+The idmini identity card from K is the card the owner later locked (screenshot
+approval). First build with headless-browser screenshot verification.
+
+### `journey.html` — J-01 · the full journey *(clickable prototype)*
+The four components named and locked; built as one navigable phone:
+Catalogue → Day Master page → share sheet (mirroring the built
+`ShareCardOverlay`) → element reading pages ×5 (verdict / meaning / says-about-
+you with FACE_CARD teasers verbatim). Journey map on the sheet syncs with and
+drives the phone. This file defines the **target IA**.
+
+### `layouts.html` — M · N · O · layout variations *(clickable)*
+Same components, three arrangements, primitives-unified. **M Cleared Desk**
+(identity leaves the scroll → floating card window; stones grid; tile
+carousel), **N Anchor Wheel** (wheel-first), **O The Ledger** (four lines as a
+poster placard). Studio call: M's structure + O's placard.
+
+### `p1-consolidated.html` — **P-01 · CURRENT CANDIDATE** *(clickable)*
+The consolidation: M's structure · the rich identity card (owner's screenshot)
+as ONE design in-app and in-export · the four lines as ONE card with **three
+switchable layouts** (Couplet 對聯 / Ledger / Cascade — live switcher on the
+sheet, owner pick pending) · full font audit applied and documented.
+
+## 6 · Implementation mapping (for the build agent)
+
+| Mockup element | Production component |
+| --- | --- |
+| Catalogue surface | `Elementum_App/src/components/reading/EnergyCatalogue.jsx` |
+| Wheel + pips/thread overlay | `DominanceWheel.jsx` (overlay only; `engine/dominanceWheel.js` untouched) |
+| Four-lines card | new component; data from `buildEnergyChart.js` + `energyRoles.js` |
+| Identity card / floating share | `ShareCardOverlay.jsx` + `ShareIdentityCard.jsx` (extend with chart + chips), entry pill in catalogue header |
+| Energy tiles | `EnergyShelf.jsx` successor; art keys from `content/reading/surfaceContent.js` `ENERGY_TILE` |
+| Element reading pages | `ReadingFacesScreen.jsx` (verdict/meaning/says layers) |
+| Day Master page | `ReadingDayMasterScreen.jsx` (L's blade hero + claims + prescription pair) |
+| Roles/verdicts | ALL computed by `engine/energyRoles.js` — nothing new is calculated |
+
+## 7 · The second layer — face representations (NEEDS OWNER SIGN-OFF)
+
+Each Ten-God face carries a one-word representation (owner-confirmed example:
+**The Horizon = Enterprise**). The other nine are DERIVED from locked FACE_CARD
+keywords and must be confirmed or replaced with the owner's original list:
 
 | Face | Representation | Keywords (locked) |
 | --- | --- | --- |
@@ -140,107 +198,45 @@ replaced with the original session's list:
 | 偏印 The Alchemist | Intuition | intuitive, unorthodox, transmuting |
 | 正印 The Sage | Wisdom | grounding, nurturing, patient |
 
-This lexicon renders identically on the reading catalogue (the "says about
-you" line per element) and the Day Master identity card.
+Renders as the "Says about you: **The General** · CHALLENGE — forging,
+relentless, decisive" line on element readings and (future) the Day Master card.
 
----
+## 8 · Open questions
 
-## Mockup B-02 (`index.html`) — the base direction
+1. **Four-lines layout pick** — Couplet vs Ledger vs Cascade (P-01 switcher).
+2. **Representation lexicon sign-off** — §7.
+3. **Core keywords** — Precision · Standard · Edge are placeholders.
+4. **Balanced band register** — `energyRoles.js` gives balanced charts no
+   friction set; the need/don't pair requires gentler copy ("lean toward /
+   lean away") for that band.
+5. **Catalyst-not-missing case** — when the major catalyst is present in the
+   chart, the MISSING chip drops; verify the need-line still lands.
+6. **Navigate-to-depth vs unfold-in-place** — J-01/P-01's page descents vs K's
+   accordion rows; user-test question.
+7. **Reveal handoff** — the onboarding ceremony should land on this catalogue;
+   the plate-dissolve beat ("You are The Blade. What you need is Fire.") is
+   proposed, unmocked.
 
-No external assets: element marks are inlined SVG, the wheel nodes and stem
-seal are CSS/typographic approximations of the painted art (see "Fidelity
-notes" below).
+## 9 · Asset & method notes
 
-## Why this redesign
+- Painted assets inlined from production: `Elementum_App/public/concept-arts/`
+  (dots, stems, library tiles), `public/backgrounds/` (plates), Library
+  `rendered-screens-v2/art/` (blade painting `metal-geng.png`, forces arrows
+  `cat-forces.png`). Tiles/plates are downscaled JPEG-on-silk (~20–50 KB each);
+  dots and the seal keep PNG alpha.
+- Google Fonts are linked in each file's head; offline they fall back to
+  Georgia — open online once for true typography.
+- Every clickable build since K/L was **verified with headless-Chromium
+  screenshots** (all screens + interaction states) before delivery. Keep that
+  bar: don't hand off unrendered HTML.
+- The wheel node coordinates in the mockups are the real rule at scale 0.92:
+  diameters 59/53/48/42/37, seats −90°/−18°/54°/126°/198°, container 320×292.
 
-User-test finding: users don't know where to start reading, and don't know
-who they are (Day Master + dominance). The most-asked question is
-**"what energy is good for me? I need to know the energy I need."**
+## 10 · Provenance
 
-The current catalogue answers "what are you made of" (presence-ranked wheel
-+ shelf). This redesign inverts the reading order to **prescription →
-evidence → elaboration**, keeping the vocabulary **Catalyst / Friction**
-verbatim (concept-inventory canonical) and framing them plainly as
-*"the energy you need"* / *"the energy you don't."*
-
-## What the mockup shows
-
-Two 390×844 phone states of the same surface, plus a design-notes rail and
-a Kept / Changed / Open ledger. Reference chart: 庚 Yang Metal · The Blade
-· concentrated (M40 · E30 · W20 · A10 · F0 — Fire missing *and* major
-catalyst; Metal dominant *and* friction: the hardest honest case).
-
-**Phone A — first viewport, zero taps**
-1. Eyebrow: `YOUR READING`
-2. **Identity plate, inscribed** (new — replaces boxed cards from B-01):
-   name → pinyin line → an inscription band between hairlines (the reveal
-   plate's own grammar) carrying the two verdicts:
-   - ↑ **Fire** is your catalyst — **the energy you need**
-   - ↓ **Earth** is your friction — **the energy you don't**
-   Each line taps into that element's reading (`app-energy`); the name taps
-   into the Day Master card (`app-daymaster`).
-3. **Dominance wheel — geometry preserved** (size ∝ presence, seat = rank,
-   per `DOMINANCE_WHEEL_RULES.md`), with a new **valence layer**: ↑/↓ pips
-   on every node, lit rings on catalysts, friction a shade quieter, and
-   the missing-major-catalyst node rendered dashed-hollow with the
-   strongest halo.
-4. Hint line: *"Size is how much you carry — ↑ and ↓ are what it does for you."*
-5. The catalyst band header crops at the fold to invite the scroll.
-
-**Phone B — scrolled**
-The accordion spine shelf becomes **role-grouped row cards**:
-`CATALYST — FEED THESE` (Fire ·Major·Missing·, Water, Wood) then
-`FRICTION — EASE OFF` (Earth, Metal ·Your core·). Presence survives as
-gauge + %; spine cap/pigment DNA carries over; hooks are rewritten from
-the catalyst/friction angle.
-
-## Structural decisions
-
-- **DayMasterCta absorbed.** Identity moved above the wheel and became the
-  prescription's frame. Its route survives twice: plate name + wheel
-  center seal both open the Day Master card. Only one seal remains on the
-  surface, so the reveal ceremony's gliding seal keeps a single landing spot.
-- **Three doors, one room.** Prescription line, shelf row, and wheel node
-  all resolve to the same element reading.
-- **Nothing new computed.** All roles come from `engine/energyRoles.js`
-  (`core/catalyst/friction/missing/ally`, `major`); the redesign only
-  re-surfaces them.
-
-## Surface area for implementation
-
-| Mockup zone | Component(s) |
-| --- | --- |
-| Identity plate + inscription | new component; absorbs `DayMasterCta.jsx`; copy per stem × band |
-| Wheel valence layer | `DominanceWheel.jsx` (+`reading.css`) — pips/halos only; `engine/dominanceWheel.js` untouched |
-| Role-grouped shelf | `EnergyShelf.jsx` rework; `ENERGY_TILE` hooks re-angled in `content/reading/surfaceContent.js` |
-| Surface assembly | `EnergyCatalogue.jsx`; reveal handoff in `RevealDissolve.jsx` |
-
-## Open questions (carried in the ledger)
-
-- **Balanced band** has no friction set (`energyRoles.js BAND_FAVOR`) —
-  the pair needs a gentler register ("lean toward / lean away").
-- **Catalyst not missing** — when the major catalyst is present, the
-  Missing chip drops; verify the need-line still lands.
-- **Word budgets** — all hooks/lines are filler-grade; production copy is
-  per stem × band.
-- **Reveal handoff** — the ceremony's plate should dissolve *into* this
-  header (name + inscription persist while the seal glides to the wheel
-  center); needs a motion pass.
-
-## Fidelity notes
-
-- Wheel nodes are CSS ink-wash approximations of the painted dot PNGs
-  (`/concept-arts/dots/dotf-*.png`); production keeps the art.
-- The stem seal is a typeset 庚 + drawn enso, standing in for
-  `/concept-arts/stems/geng.png`.
-- Fonts fall back to Georgia (no webfont fetch); production keeps
-  EB Garamond / Cormorant Garamond.
-- Node diameters/positions are computed from the real rule
-  (`D_MIN 40 · D_MAX 64 · seats −90/−18/54/126/198 at scale 0.92`) — safe
-  to measure against.
-
-## Provenance
-
-Authored 2026-07-05 from the design-iteration session on the
-answer-first catalogue (option B, iteration 2 — prescription integrated
-into the identity plate rather than boxed cards).
+Built July 2026 in the "Identity Card Re-design · Catalyst vs Friction
+Direction" working session, from the owner's user-test findings, on branch
+`claude/cloud-github-edits-1s7h92`. Companion design docs:
+`Documents/Designengineering/DOC1–DOC10`, `READING_CONCEPT_INVENTORY.md`,
+`Design/Wireframes/CLAUDE_DESIGN_BRIEF_d13-journey.md`,
+`Design/handoff-claude-design/00-MASTER-CONTEXT.md`.
