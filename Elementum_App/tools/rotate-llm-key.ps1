@@ -1,4 +1,4 @@
-# -----------------------------------------------------------------------------
+﻿# -----------------------------------------------------------------------------
 # rotate-llm-key.ps1 -- rotate the elementum-llm worker's ANTHROPIC_API_KEY
 # -----------------------------------------------------------------------------
 # Automates every rotation step that CAN be automated (key creation/revocation
