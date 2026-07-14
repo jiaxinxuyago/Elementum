@@ -19,6 +19,20 @@ variants-2.html — Mockups F · G · H: the EQUAL-LOAD pivot. C–E led with th
                 purest (four-line placard + twin Day Master/Prescription
                 cards). F is live-interactive. Core keywords (Precision ·
                 Standard · Edge) are placeholders pending the finessing pass.
+p1-consolidated.html — P-01 (CURRENT): the consolidation. M's cleared-desk
+                structure with (1) the RICH IDENTITY CARD everywhere — the
+                floating window and share export both carry seal, walnut
+                archetype, Cinzel pinyin, manifesto, five-element chart
+                (dashed ghost segment), Core/Catalyst/Friction chips, and
+                keyword chips; (2) the FOUR LINES as ONE card with three
+                switchable text layouts — Couplet (identity faces
+                prescription across a pip spine), Ledger (engraved key
+                column), Cascade (staggered sentence) — live switcher on
+                the sheet; (3) TYPE AUDITED against primitives-library +
+                screen gallery, corrections applied: pinyin/foundry mono ->
+                Cinzel, display names 600 -> 500, section labels mono ->
+                EB Garamond (locked eyebrow spec), archetype walnut. Full
+                font ledger on the sheet. Clickable throughout.
 layouts.html  — LAYOUTS M · N · O (CURRENT): the four locked components in
                 three arrangements, unified against primitives-library.html
                 (walnut archetype names, Cinzel pill-CTA, element eyebrows
