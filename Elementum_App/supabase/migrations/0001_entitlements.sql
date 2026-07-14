@@ -1,7 +1,7 @@
 -- ─────────────────────────────────────────────────────────────────────────────
 -- 0001_entitlements.sql — server-side source of truth for what a user unlocked.
 -- ─────────────────────────────────────────────────────────────────────────────
--- Birth data stays on-device (localStorage, DOC10 §3). This table holds ONLY
+-- Birth data stays on-device (localStorage, INF_01 §3). This table holds ONLY
 -- the entitlement + billing linkage — no astrology PII. Run once in the Supabase
 -- SQL editor (or via `supabase db push`).
 -- ─────────────────────────────────────────────────────────────────────────────

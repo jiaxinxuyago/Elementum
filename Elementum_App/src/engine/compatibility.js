@@ -1,5 +1,5 @@
 // ===================================================================
-// ELEMENTUM · engine/compatibility.js  (DOC5 §13 Friends V2)
+// ELEMENTUM · engine/compatibility.js  (DES_04 §13 Friends V2)
 // ===================================================================
 // Pure-JS elemental compatibility between two charts. Computes a score,
 // a relationship archetype, a headline category, and a reading from the

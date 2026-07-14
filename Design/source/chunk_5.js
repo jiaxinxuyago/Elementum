@@ -1,7 +1,7 @@
 // ===================================================================
 // ONBOARDING · Steps 1–7
 // All 7 steps share <OnboardingShell>. Each step only owns its input zone.
-// Copy and behavior per DOC5 §7.
+// Copy and behavior per DES_04 §7.
 // ===================================================================
 
 // -----------------------------------------------------------

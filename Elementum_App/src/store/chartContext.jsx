@@ -8,7 +8,8 @@
 
 import { createContext, useContext, useState, useEffect, useMemo, useCallback } from 'react';
 import { calculateBaziChart, ENGINE_VERSION } from '../engine/index.js';
-import { FOUNDING_GRANTS_TIER } from '../infra/pricing.js';
+import { supabase } from '../infra/supabase.js';
+import { useAuth } from './authContext.jsx';
 
 const ChartContext = createContext(null);
 
@@ -37,22 +38,25 @@ const INITIAL_BIRTH_DATA = {
 // Pricing tiers/labels/prices are commercial config → src/infra/pricing.js.
 // This store manages only the active `tier` STATE (set via setTier).
 
-// Self-Report — a one-time purchase (DOC5 §19), tracked SEPARATELY from the
-// subscription tier (a Seeker still buys it as a one-time add-on). Persisted
-// so the entitlement survives reloads. The demo has no payment backend, so
-// `purchaseSelfReport()` flips the entitlement locally — mirroring how the
-// tier upgrade flow flips tier state in UpgradeModal.
+// Self-Report — a one-time purchase (DES_04 §19), tracked SEPARATELY from the
+// subscription tier. SERVER-TRUTH like tier (webhook writes has_self_report);
+// the localStorage key below is only the IS_DEV demo flip's persistence.
 const SELF_REPORT_KEY = 'elementum_hasselfreport_v1';
-function readSelfReportOwned() {
-  try { return localStorage.getItem(SELF_REPORT_KEY) === '1'; } catch { return false; }
-}
 
-// Founding pass — one-time beta offer that grants lasting FOUNDING_GRANTS_TIER
-// access. Same shape as the Self-Report entitlement: persisted so it survives
-// reloads, flipped locally (honor-system) since there is no payment backend yet.
-const FOUNDING_KEY = 'elementum_founding_v1';
-function readFoundingOwned() {
-  try { return localStorage.getItem(FOUNDING_KEY) === '1'; } catch { return false; }
+// Tier entitlement — SERVER-TRUTH (INF_01 §4.2). For signed-in users the tier
+// comes from the Supabase `entitlements` row, written only by the Stripe
+// webhook (service-role). The old localStorage honor-system grant is retired —
+// the client can no longer grant itself a paid tier. A small per-user cache
+// avoids flashing locked state on boot before the fetch lands.
+const TIER_CACHE_KEY = 'elementum_tiercache_v1';
+function readTierCache(userId) {
+  try {
+    const c = JSON.parse(localStorage.getItem(TIER_CACHE_KEY) || 'null');
+    return c && c.userId === userId ? c : null;
+  } catch { return null; }
+}
+function writeTierCache(userId, tier, hasFounding, hasSelfReport) {
+  try { localStorage.setItem(TIER_CACHE_KEY, JSON.stringify({ userId, tier, hasFounding, hasSelfReport })); } catch { /* ignore */ }
 }
 
 // Session persistence (B-4) — birthData + the computed chart survive a refresh
@@ -87,23 +91,35 @@ function computeChart(b) {
   }
 }
 // Returns the chart to seed state with: the cached chart if its engine version
-// matches; otherwise a fresh recompute from birthData (or null if no birth data).
+// matches AND it was computed today; otherwise a fresh recompute from birthData
+// (or null if no birth data). The date check matters because the calculator
+// bakes "today" into the chart (currentFlowDay/Month/Year, luckPillars
+// isCurrent/isPast, currentAge) — a cached chart served on a later day shows
+// yesterday's daily guidance next to today's date.
 function loadInitialChart() {
   const stored = readJSON(CHART_KEY);
-  if (stored && stored.engineVersion === ENGINE_VERSION && stored.chart) {
+  if (
+    stored && stored.engineVersion === ENGINE_VERSION && stored.chart &&
+    stored.computedOn === new Date().toDateString()
+  ) {
     return stored.chart;
   }
   const birth = readJSON(BIRTH_KEY) || INITIAL_BIRTH_DATA;
-  return isCompleteBirthData(birth) ? computeChart(birth) : null;
+  if (isCompleteBirthData(birth)) return computeChart(birth);
+  // Stale-dated cache with no recomputable birth data (shouldn't happen —
+  // birthData persists alongside the chart): better than serving a wrong today.
+  return stored?.chart ?? null;
 }
 
 export function ChartProvider({ children }) {
+  const { user } = useAuth();
   const [birthData, setBirthData] = useState(() => readJSON(BIRTH_KEY) || INITIAL_BIRTH_DATA);
   const [chart, setChart] = useState(loadInitialChart);
-  // A prior Founding purchase (persisted) starts the user at the granted tier.
-  const [tier, setTier] = useState(() => (readFoundingOwned() ? FOUNDING_GRANTS_TIER : 'free'));
-  const [hasSelfReport, setHasSelfReportState] = useState(readSelfReportOwned);
-  const [hasFounding, setHasFoundingState] = useState(readFoundingOwned);
+  // Boot from the per-user cache (last server-confirmed tier); the entitlement
+  // fetch below refreshes it as soon as the session is known.
+  const [tier, setTier] = useState(() => readTierCache(user?.id)?.tier || 'free');
+  const [hasSelfReport, setHasSelfReportState] = useState(() => !!readTierCache(user?.id)?.hasSelfReport);
+  const [hasFounding, setHasFoundingState] = useState(() => !!readTierCache(user?.id)?.hasFounding);
   // Compatibility result — set by the friend flow, read by CompatScreen.
   // Session-only (not persisted): a relationship reading is a transient
   // comparison, not part of the user's own saved chart.
@@ -119,13 +135,93 @@ export function ChartProvider({ children }) {
     try { localStorage.setItem(SELF_REPORT_KEY, v ? '1' : '0'); } catch { /* storage unavailable (private mode) — ignore */ }
     setHasSelfReportState(!!v);
   }, []);
-  // Founding purchase (honor-system): persist the entitlement + jump to the
-  // granted tier. Called on the Stripe success redirect (see App FoundingRedirect).
-  const grantFounding = useCallback(() => {
-    try { localStorage.setItem(FOUNDING_KEY, '1'); } catch { /* storage unavailable (private mode) — ignore */ }
-    setHasFoundingState(true);
-    setTier(FOUNDING_GRANTS_TIER);
-  }, []);
+  // Fetch the server entitlement (RLS: the user reads only their own row) and
+  // sync state + cache. Returns the flags so callers can poll — the Stripe
+  // redirect can land a few seconds before the webhook write.
+  const refreshEntitlements = useCallback(async () => {
+    if (!supabase || !user) return null;
+    const { data, error } = await supabase
+      .from('entitlements')
+      .select('tier, has_founding, has_self_report')
+      .eq('user_id', user.id)
+      .maybeSingle();
+    if (error || !data) return null;
+    setTier(data.tier);
+    setHasFoundingState(!!data.has_founding);
+    setHasSelfReportState(!!data.has_self_report);
+    writeTierCache(user.id, data.tier, !!data.has_founding, !!data.has_self_report);
+    return { tier: data.tier, hasFounding: !!data.has_founding, hasSelfReport: !!data.has_self_report };
+  }, [user]);
+
+  // Entitlement follows the session: fetch on sign-in / account switch; a
+  // signed-out visitor is free tier (the account owns the unlock, not the
+  // device). Async so state updates happen in the callback, not the effect body.
+  useEffect(() => {
+    let active = true;
+    (async () => {
+      await Promise.resolve(); // yield — no synchronous setState in the effect
+      if (!active) return;
+      if (!user) {
+        setTier('free');
+        setHasFoundingState(false);
+        setHasSelfReportState(false);
+        try { localStorage.removeItem(TIER_CACHE_KEY); } catch { /* ignore */ }
+        return;
+      }
+      const cached = readTierCache(user.id);
+      if (cached) {
+        setTier(cached.tier);
+        setHasFoundingState(!!cached.hasFounding);
+        setHasSelfReportState(!!cached.hasSelfReport);
+      }
+      refreshEntitlements();
+    })();
+    return () => { active = false; };
+  }, [user, refreshEntitlements]);
+
+  // Entitlements re-sync whenever the app regains focus (INF_01 §4.2b):
+  // the buyer pays in a separate checkout tab, switches back, and the app
+  // unlocks without any redirect — also keeps a second device fresh after a
+  // purchase elsewhere. Throttled: at most one row-read per 10s of refocus.
+  useEffect(() => {
+    if (!user || typeof window === 'undefined') return;
+    let last = 0;
+    const onWake = () => {
+      if (typeof document !== 'undefined' && document.visibilityState !== 'visible') return;
+      const now = Date.now();
+      if (now - last < 10_000) return;
+      last = now;
+      refreshEntitlements();
+    };
+    window.addEventListener('focus', onWake);
+    document.addEventListener('visibilitychange', onWake);
+    return () => {
+      window.removeEventListener('focus', onWake);
+      document.removeEventListener('visibilitychange', onWake);
+    };
+  }, [user, refreshEntitlements]);
+
+  // Day rollover: the calculator bakes "today" into the chart, so a PWA left
+  // open past midnight (no reload → loadInitialChart never re-runs) would keep
+  // serving yesterday's flow day. Recompute on the same wake triggers as the
+  // entitlement refresh whenever the calendar date has changed.
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    let computedDay = new Date().toDateString();
+    const onWake = () => {
+      if (typeof document !== 'undefined' && document.visibilityState !== 'visible') return;
+      const today = new Date().toDateString();
+      if (today === computedDay) return;
+      computedDay = today;
+      if (chart && isCompleteBirthData(birthData)) setChart(computeChart(birthData));
+    };
+    window.addEventListener('focus', onWake);
+    document.addEventListener('visibilitychange', onWake);
+    return () => {
+      window.removeEventListener('focus', onWake);
+      document.removeEventListener('visibilitychange', onWake);
+    };
+  }, [chart, birthData]);
 
   // Merge partial updates, e.g. updateBirthData({ year: 1991 })
   const updateBirthData = useCallback((patch) => {
@@ -138,7 +234,7 @@ export function ChartProvider({ children }) {
   }, [birthData]);
   useEffect(() => {
     try {
-      if (chart) localStorage.setItem(CHART_KEY, JSON.stringify({ engineVersion: ENGINE_VERSION, chart }));
+      if (chart) localStorage.setItem(CHART_KEY, JSON.stringify({ engineVersion: ENGINE_VERSION, computedOn: new Date().toDateString(), chart }));
       else localStorage.removeItem(CHART_KEY);
     } catch { /* storage unavailable (private mode) — ignore */ }
   }, [chart]);
@@ -155,11 +251,11 @@ export function ChartProvider({ children }) {
       chart, setChart,
       tier, setTier,
       hasSelfReport, purchaseSelfReport, setHasSelfReport,
-      hasFounding, grantFounding,
+      hasFounding, refreshEntitlements,
       compatResult, setCompatResult,
       resetFlow,
     }),
-    [birthData, chart, tier, hasSelfReport, hasFounding, grantFounding, compatResult, purchaseSelfReport, setHasSelfReport, updateBirthData, resetFlow]
+    [birthData, chart, tier, hasSelfReport, hasFounding, refreshEntitlements, compatResult, purchaseSelfReport, setHasSelfReport, updateBirthData, resetFlow]
   );
 
   return <ChartContext.Provider value={value}>{children}</ChartContext.Provider>;
@@ -191,7 +287,7 @@ export function resolveGenderForCalc(birthData) {
 // Resolve the hour to pass into calculateBaziChart():
 // - Exact hour (0–23): returned as-is
 // - Approximate window: use the midpoint of the selected 4-hour window
-// - Unknown: default to 12 (midday) — DOC5 §22 documents a 3-pillar path
+// - Unknown: default to 12 (midday) — DES_04 §22 documents a 3-pillar path
 //   for unknown hour, but the v1 calculator expects an hour value;
 //   callers can read birthData.hourUnknown to suppress hour-pillar display.
 const WINDOW_MIDPOINTS = {
@@ -209,7 +305,7 @@ export function resolveHourForCalc(birthData) {
 }
 
 // ── LOCATION → longitude resolution ───────────────────────────────────────
-// DOC5 §7 Step 5 + §22: if the user picked a geocoded suggestion we get an
+// DES_04 §7 Step 5 + §22: if the user picked a geocoded suggestion we get an
 // exact longitude. If they typed something freeform we try a small
 // well-known-city lookup; anything unrecognised falls back silently to
 // Beijing longitude (120°E, the traditional BaZi standard).

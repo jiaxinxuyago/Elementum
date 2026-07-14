@@ -1,7 +1,7 @@
 // ===================================================================
 // ELEMENTUM · AuthContext — Supabase auth (accounts + session)
 // ===================================================================
-// Sign-in is OPTIONAL (DOC10): the app runs anonymously by default; auth is
+// Sign-in is OPTIONAL (INF_01): the app runs anonymously by default; auth is
 // required only to purchase (attribute payment) and to restore entitlements on
 // a new device. Birth data stays on-device — auth never gates the free reading.
 // Entitlements (tier) are read separately (chartContext) once a session exists.
@@ -10,6 +10,8 @@ import { createContext, useContext, useEffect, useState, useCallback } from 'rea
 import { supabase, hasAuth } from '../infra/supabase.js';
 
 const AuthContext = createContext(null);
+// Resolved by every auth method when supabase is null (config-absent build).
+const NO_AUTH = { data: null, error: { message: 'Sign-in is not configured in this build.' } };
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
@@ -29,16 +31,22 @@ export function AuthProvider({ children }) {
     return () => { active = false; sub.subscription.unsubscribe(); };
   }, []);
 
-  const signUp = useCallback((email, password) => supabase.auth.signUp({ email, password }), []);
-  const signIn = useCallback((email, password) => supabase.auth.signInWithPassword({ email, password }), []);
+  // Config-absent builds export supabase = null (infra/supabase.js) — resolve
+  // to supabase-js's { error } shape instead of throwing, so callers' error
+  // paths render normally and submit buttons never strand on their busy state.
+
+  const signUp = useCallback((email, password) => (supabase ? supabase.auth.signUp({ email, password }) : Promise.resolve(NO_AUTH)), []);
+  const signIn = useCallback((email, password) => (supabase ? supabase.auth.signInWithPassword({ email, password }) : Promise.resolve(NO_AUTH)), []);
   const signInWithGoogle = useCallback(
-    () => supabase.auth.signInWithOAuth({
-      provider: 'google',
-      options: { redirectTo: typeof window !== 'undefined' ? window.location.origin : undefined },
-    }),
+    () => (supabase
+      ? supabase.auth.signInWithOAuth({
+        provider: 'google',
+        options: { redirectTo: typeof window !== 'undefined' ? window.location.origin : undefined },
+      })
+      : Promise.resolve(NO_AUTH)),
     []
   );
-  const signOut = useCallback(async () => { await supabase.auth.signOut(); }, []);
+  const signOut = useCallback(async () => { if (supabase) await supabase.auth.signOut(); }, []);
 
   return (
     <AuthContext.Provider value={{ user, ready, hasAuth, signUp, signIn, signInWithGoogle, signOut }}>

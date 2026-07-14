@@ -975,9 +975,9 @@
     </h1>
   </div>
   <div class="meta">
-    <div class="cinzel">Sealed against <span class="seal-mark">●</span> v1 + v2 + v3 amendment + DOC5 §AM</div>
+    <div class="cinzel">Sealed against <span class="seal-mark">●</span> v1 + v2 + v3 amendment + DES_04 §AM</div>
     <div>Polish-only · no IA changes · no new primitives</div>
-    <div>anchor &gt; v1 &gt; v2 &gt; <strong>v3 amendment</strong> &gt; v3 &gt; DOC5 &gt; refs</div>
+    <div>anchor &gt; v1 &gt; v2 &gt; <strong>v3 amendment</strong> &gt; v3 &gt; DES_04 &gt; refs</div>
     <div>Drop-in: 17 new <code>&lt;symbol&gt;</code>s for icons.svg</div>
   </div>
 </header>
@@ -1400,7 +1400,7 @@
   </summary>
   <div class="body">
     <p class="section-intro">
-      The brief asks for either an animated loop or an intermediate-state frame between collapsed and expanded. <strong>v4 ships both.</strong> Below: a 3-state filmstrip (collapsed → mid-transit @ ~110ms → expanded), then a continuously cycling phone-frame so the rhythm and chev rotation read as a single gesture. Card-expand is now formally a motion primitive — DOC5 §AM.4 covers it; DA.5 in the amendment is resolved.
+      The brief asks for either an animated loop or an intermediate-state frame between collapsed and expanded. <strong>v4 ships both.</strong> Below: a 3-state filmstrip (collapsed → mid-transit @ ~110ms → expanded), then a continuously cycling phone-frame so the rhythm and chev rotation read as a single gesture. Card-expand is now formally a motion primitive — DES_04 §AM.4 covers it; DA.5 in the amendment is resolved.
     </p>
 
     <!-- 3-state filmstrip -->
@@ -1499,13 +1499,13 @@
         <h4>Card-expand motion primitive</h4>
         <ul>
           <li><span class="k">Property</span><span><code>max-height</code> 90px → 340px</span></li>
-          <li><span class="k">Duration</span><span>220ms (DOC5 <code>--d-medium</code>)</span></li>
-          <li><span class="k">Easing</span><span><code>cubic-bezier(0.22, 1, 0.36, 1)</code> (DOC5 <code>--ease-out</code>) — same curve as screen entrances</span></li>
+          <li><span class="k">Duration</span><span>220ms (DES_04 <code>--d-medium</code>)</span></li>
+          <li><span class="k">Easing</span><span><code>cubic-bezier(0.22, 1, 0.36, 1)</code> (DES_04 <code>--ease-out</code>) — same curve as screen entrances</span></li>
           <li><span class="k">Companion</span><span>chev rotates 0° → 135° on the same curve / duration · body fades 0 → 1 over the trailing 100ms</span></li>
           <li><span class="k">Reverse</span><span>Same curve, same duration · chev returns to 0° · body fades to 0 first, then height collapses</span></li>
           <li><span class="k">Trigger</span><span>Tap card row · entire <code>.head</code> is the hit target · 44px min-height already satisfies WCAG</span></li>
           <li><span class="k">Reduced motion</span><span><code>@media (prefers-reduced-motion)</code> → <code>transition:none</code> · instant snap, chev still rotates (state cue, not motion)</span></li>
-          <li><span class="k">Drift resolved</span><span>amendment DA.5 closed · DOC5 §AM.4 documents this primitive · no new tokens</span></li>
+          <li><span class="k">Drift resolved</span><span>amendment DA.5 closed · DES_04 §AM.4 documents this primitive · no new tokens</span></li>
         </ul>
       </div>
     </div>
@@ -1523,7 +1523,7 @@
   </summary>
   <div class="body">
     <p class="section-intro">
-      DOC5 §11 (line 1105) specifies the bottom tab-bar fades in 400ms after the dashboard content settles. v4 illustrates this as a 3-frame sequence — and a continuously animating Reading frame at the right so the timing reads as a single gesture rather than three stills.
+      DES_04 §11 (line 1105) specifies the bottom tab-bar fades in 400ms after the dashboard content settles. v4 illustrates this as a 3-frame sequence — and a continuously animating Reading frame at the right so the timing reads as a single gesture rather than three stills.
     </p>
 
     <div class="frame-grid" style="grid-template-columns:repeat(3,1fr); gap:24px">
@@ -1608,9 +1608,9 @@
       <h4>Sequence specification</h4>
       <ul>
         <li><span class="k">Trigger</span><span>"Enter Your Readings" CTA → route to <code>/dashboard/reading</code></span></li>
-        <li><span class="k">Page transition</span><span>Reading content fades in 200ms ease-out (DOC5 §4 entrance)</span></li>
+        <li><span class="k">Page transition</span><span>Reading content fades in 200ms ease-out (DES_04 §4 entrance)</span></li>
         <li><span class="k">Settle latency</span><span>~50ms after content finishes its entrance · gives the eye one beat to land</span></li>
-        <li><span class="k">Tab-bar fade-in</span><span>opacity 0 → 1 · 400ms · ease-out (<code>cubic-bezier(0.22, 1, 0.36, 1)</code>) · DOC5 <code>--d-slow</code></span></li>
+        <li><span class="k">Tab-bar fade-in</span><span>opacity 0 → 1 · 400ms · ease-out (<code>cubic-bezier(0.22, 1, 0.36, 1)</code>) · DES_04 <code>--d-slow</code></span></li>
         <li><span class="k">Why staged</span><span>Hides the chrome until the user has had a moment with the content. The bar arriving second reads as <em>"now the app is yours"</em>, not as part of the page.</span></li>
         <li><span class="k">Persistence</span><span>Bar stays visible across all <code>/dashboard/*</code> routes after first appearance · only un-mounts when leaving the dashboard tree</span></li>
         <li><span class="k">Reduced motion</span><span><code>@media (prefers-reduced-motion)</code> → bar appears at full opacity, no fade · all other timing preserved</span></li>
@@ -1637,7 +1637,7 @@
       </p>
       <ul>
         <li><span class="k">Source</span><span>User's <code>primaryElement</code> from the energy-map computation (one of <code>metal</code> · <code>wood</code> · <code>fire</code> · <code>earth</code> · <code>water</code>)</span></li>
-        <li><span class="k">Pigment</span><span><code>var(--{primaryElement})</code> at the <code>10</code> alpha (background) and <code>40</code> alpha (border) per DOC5 §3.5.A · same ladder as the dominant cards on Reveal</span></li>
+        <li><span class="k">Pigment</span><span><code>var(--{primaryElement})</code> at the <code>10</code> alpha (background) and <code>40</code> alpha (border) per DES_04 §3.5.A · same ladder as the dominant cards on Reveal</span></li>
         <li><span class="k">Icon backdrop</span><span><code>var(--{primaryElement})</code> at <code>1A</code> alpha — keeps the glyph readable on the tinted card</span></li>
         <li><span class="k">Glyph colour</span><span><code>var(--{primaryElement}Deep)</code> — element pigment companion for foreground icon</span></li>
         <li><span class="k">Where</span><span>One card per catalogue marked "Featured" — typically the section the user has just unlocked or hasn't read in 14 days. Empty state if no eligible card.</span></li>
@@ -1677,8 +1677,8 @@
         <li><span class="k">1 · icons.svg</span><span>Replace 10 <code>dm-*</code> + 5 <code>read-*</code> + <code>ico-sunrise</code> + <code>ico-empty</code> symbol bodies with v4's. IDs unchanged · viewBox unchanged · stroke convention layered (core + bleed).</span></li>
         <li><span class="k">2 · manifest.md §6</span><span>Strike items 7 (DM ink-wash) and 8 (Reading-section icons) from the open primitive gaps list.</span></li>
         <li><span class="k">3 · amendment §A7</span><span>Mark DA.2 + DA.5 + DA.8 + DA.9 as <em>resolved</em> (link to v4 sections).</span></li>
-        <li><span class="k">4 · DOC5 §AM.4</span><span>Add the <code>card-expand</code> motion primitive line if not already present (220ms · ease-out · max-height 90→340).</span></li>
-        <li><span class="k">5 · DOC5 §AM.9</span><span>Mark commission queue items "DM ink-wash" + "reading-section glyphs" closed.</span></li>
+        <li><span class="k">4 · DES_04 §AM.4</span><span>Add the <code>card-expand</code> motion primitive line if not already present (220ms · ease-out · max-height 90→340).</span></li>
+        <li><span class="k">5 · DES_04 §AM.9</span><span>Mark commission queue items "DM ink-wash" + "reading-section glyphs" closed.</span></li>
         <li><span class="k">6 · RevealScreen.jsx</span><span>Refactor against amendment §A1 + §V3 spacing (hero pad 6, eyebrow→surface 10, block→block 18) · swap placeholder DM mark for <code>icons.svg#dm-{stem}</code>.</span></li>
         <li><span class="k">7 · ReadingScreen.jsx</span><span>Implement v3 amendment §A2 catalogue with refined glyphs from this file · wire featured pigment to <code>user.primaryElement</code>.</span></li>
         <li><span class="k">8 · BottomTabNav.jsx</span><span>Implement opacity-fade-in transition: 400ms ease-out, 50ms after content settles · <code>prefers-reduced-motion</code> path skips fade.</span></li>
@@ -1717,7 +1717,7 @@
     <div class="drift-item empty">
       <div class="q">No primitive drift</div>
       <div class="body">
-        v4 introduced <strong>no</strong> new colors, fonts, radii, spacing values, surface variants, easing curves, or duration tokens. Every value above traces to <code>tokens.css</code>, <code>icons.svg</code>, v1 §3.5, v2 §5/§7/§13, v3 amendment §A1/§A2/§A4, or DOC5 §AM. <span style="color:var(--woodDeep); font-style:italic">— Hard constraint satisfied.</span>
+        v4 introduced <strong>no</strong> new colors, fonts, radii, spacing values, surface variants, easing curves, or duration tokens. Every value above traces to <code>tokens.css</code>, <code>icons.svg</code>, v1 §3.5, v2 §5/§7/§13, v3 amendment §A1/§A2/§A4, or DES_04 §AM. <span style="color:var(--woodDeep); font-style:italic">— Hard constraint satisfied.</span>
       </div>
     </div>
   </div>

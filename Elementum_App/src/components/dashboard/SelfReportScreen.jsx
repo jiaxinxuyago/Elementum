@@ -1,5 +1,5 @@
 // ===================================================================
-// ELEMENTUM · SelfReportScreen  (DOC5 §12 Card 3 — Self-Report)
+// ELEMENTUM · SelfReportScreen  (DES_04 §12 Card 3 — Self-Report)
 // ===================================================================
 // Seeker life-context intake that (conceptually) enriches all readings.
 // Fields: Life chapter (single) · Key domains (multi) · Open context
@@ -7,11 +7,14 @@
 // recalibrated." Persists in localStorage.
 // ===================================================================
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { useChart } from '../../store/chartContext.jsx';
-import { SELF_REPORT_PRICE } from '../../infra/index.js';
+import { useAuth } from '../../store/authContext.jsx';
+import { SELF_REPORT_PRICE, PAYMENT } from '../../infra/index.js';
+import { composeSelfReport } from '../../content/index.js';
 import { useUpgrade } from './UpgradeModal.jsx';
+import AuthModal, { PURCHASE_INTENT_KEY } from './AuthModal.jsx';
 import HorizonHeader from '../guidance/HorizonHeader.jsx';
 import {
   ink, inkSoft, inkLight, bronzeDark, gold, silk,
@@ -25,22 +28,72 @@ const DOMAINS = ['Career', 'Relationships', 'Wealth', 'Health', 'Purpose'];
 function read() { try { return JSON.parse(localStorage.getItem(KEY) || 'null'); } catch { return null; } }
 
 export default function SelfReportScreen({ onBack }) {
-  const { tier, hasSelfReport, purchaseSelfReport } = useChart();
+  const { tier, hasSelfReport, chart, refreshEntitlements } = useChart();
+  const { user } = useAuth();
   const { openUpgrade } = useUpgrade();
+  const [authOpen, setAuthOpen] = useState(false);
+  // §4.2b purchase journey: 'idle' | 'resume' (back from Google, one tap to
+  // checkout) | 'waiting' (checkout open in another tab; the gate unlocks
+  // automatically when the focus-refresh confirms has_self_report).
+  const [payState, setPayState] = useState('idle');
   const saved = read();
+
+  // Real purchase (INF_01 §4.2): account required so the payment carries the
+  // buyer's id — the webhook then writes has_self_report server-side.
+  // §4.2b: checkout opens in a NEW tab (the app never navigates away);
+  // popup-blocked → same-tab fallback.
+  const goToStripe = (u) => {
+    if (typeof window === 'undefined' || !PAYMENT.selfReportCheckout) return;
+    const url = new URL(PAYMENT.selfReportCheckout);
+    if (u?.id) url.searchParams.set('client_reference_id', u.id);
+    if (u?.email) url.searchParams.set('prefilled_email', u.email);
+    // NOTE: 'noopener' in the features string makes open() return null even on
+    // success — sever the opener manually so blocked-detection stays reliable.
+    const tab = window.open(url.toString(), '_blank');
+    if (tab) {
+      try { tab.opener = null; } catch { /* cross-origin — already severed */ }
+      setPayState('waiting');
+    } else {
+      window.location.href = url.toString(); // popup blocked — same-tab fallback
+    }
+  };
+  const buySelfReport = () => (user ? goToStripe(user) : setAuthOpen(true));
+
+  // Google OAuth return trip mid-purchase (intent stored by AuthModal): a new
+  // tab can't open from an effect (popup blockers demand a gesture), so show
+  // the one-tap 'resume' card instead. Intent cleared so nothing auto-replays.
+  useEffect(() => {
+    if (!user || typeof window === 'undefined') return;
+    // Clear the intent UNCONDITIONALLY once signed in (mirrors the founding
+    // twin in UpgradeModal): an already-entitled buyer must not keep a live
+    // intent that PurchaseRedirect replays on every token refresh.
+    let intent = null;
+    try {
+      intent = sessionStorage.getItem(PURCHASE_INTENT_KEY);
+      if (intent === 'selfreport') sessionStorage.removeItem(PURCHASE_INTENT_KEY);
+    } catch { /* storage unavailable — nothing to resume */ }
+    // yield — no synchronous setState in the effect body
+    if (intent === 'selfreport' && !hasSelfReport) queueMicrotask(() => setPayState('resume'));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [user]);
   const [chapter, setChapter] = useState(saved?.chapter || null);
   const [domains, setDomains] = useState(saved?.domains || []);
   const [context, setContext] = useState(saved?.context || '');
   const [savedAt, setSavedAt] = useState(saved?.at || null);
-  const [justSaved, setJustSaved] = useState(false);
+  // 'form' | 'report' — saving DRAWS the report (the paid deliverable, DES_04
+  // §12 Card 3 v1: composed on-device, no LLM); "Edit" returns to the form.
+  const [view, setView] = useState('form');
 
   const save = () => {
     const at = new Date().toISOString().slice(0, 10);
     try { localStorage.setItem(KEY, JSON.stringify({ chapter, domains, context, at })); } catch { /* storage unavailable — ignore */ }
     setSavedAt(at);
-    setJustSaved(true);
-    setTimeout(() => setJustSaved(false), 2600);
+    setView('report');
   };
+
+  const report = view === 'report'
+    ? composeSelfReport(chart, { chapter, domains, context, at: savedAt })
+    : null;
 
   return (
     <main style={{ minHeight: '100%', padding: '54px 20px 24px' }}>
@@ -55,13 +108,37 @@ export default function SelfReportScreen({ onBack }) {
         onBack={onBack}
       />
       <div style={{ height: 14 }} />
-      {!hasSelfReport ? (
-        <PurchaseGate tier={tier} onBuy={purchaseSelfReport} onUpgrade={() => openUpgrade('Self-Report')} />
+      {!hasSelfReport && payState === 'waiting' ? (
+        <PayJourneyCard
+          headline="Complete your purchase in the page that just opened — this screen unlocks automatically."
+          ctaLabel="I've paid — check now"
+          onCta={() => refreshEntitlements()}
+          footLabel="Checkout didn't open? Reopen it →"
+          onFoot={() => goToStripe(user)}
+        />
+      ) : !hasSelfReport && payState === 'resume' && user ? (
+        <PayJourneyCard
+          headline={`Signed in as ${user.email} ✓`}
+          ctaLabel={`Continue to checkout — ${SELF_REPORT_PRICE}`}
+          onCta={() => goToStripe(user)}
+        />
+      ) : !hasSelfReport ? (
+        <PurchaseGate tier={tier} onBuy={buySelfReport} onUpgrade={() => openUpgrade('Self-Report')} />
+      ) : view === 'report' && report ? (
+        <ReportDoc report={report} onEdit={() => setView('form')} />
       ) : (
       <>
       <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14, lineHeight: 1.6, color: inkSoft, margin: '0 0 22px' }}>
-        Your Self-Report is active — the more you share, the more precisely your readings and your consultant speak to where you actually are.
+        Tell your report where you actually are — it is drawn from your chart <em style={{ fontStyle: 'normal' }}>and</em> your answers, and redrawn every time you update them.
       </p>
+
+      {savedAt && (
+        <button type="button" onClick={() => setView('report')} style={{
+          appearance: 'none', background: 'transparent', border: 'none', padding: 0,
+          marginBottom: 20, cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: 5,
+          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13.5, color: bronzeDark,
+        }}>View your report →</button>
+      )}
 
       {/* Life chapter — single select */}
       <FieldLabel>Where are you in life right now?</FieldLabel>
@@ -101,18 +178,92 @@ export default function SelfReportScreen({ onBack }) {
         appearance: 'none', width: '100%', padding: '14px', borderRadius: 12, border: 'none',
         background: bronzeDark, color: silk, cursor: 'pointer',
         fontFamily: "'EB Garamond', Georgia, serif", fontSize: 15, fontWeight: 500, letterSpacing: 0.5,
-      }}>Update my context</button>
-
-      {justSaved && (
-        <div style={{
-          marginTop: 14, padding: '12px 16px', borderRadius: 12, textAlign: 'center',
-          background: withAlpha(gold, '10'), border: `1px solid ${withAlpha(gold, '40')}`,
-          fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 17, color: bronzeDark,
-        }}>Saved — your readings and consultant now read from this.</div>
-      )}
+      }}>{savedAt ? 'Redraw my report' : 'Draw my report'}</button>
       </>
       )}
+
+      {/* Purchase-gated account sheet — buyer continues to Stripe on success. */}
+      <AuthModal
+        open={authOpen}
+        purchase
+        intent="selfreport"
+        onClose={() => setAuthOpen(false)}
+        onSuccess={(u) => goToStripe(u)}
+      />
     </main>
+  );
+}
+
+// ───────────────────────────────────────────────────────────────────
+// ReportDoc — the composed personal report, rendered as a keepable
+// document (DES_04 §12 Card 3 v1). Pure presentation of composeSelfReport().
+// ───────────────────────────────────────────────────────────────────
+function ReportDoc({ report, onEdit }) {
+  const [thesis, edge] = (report.manifesto || '').split(' · ');
+  return (
+    <article style={{
+      background: cardstockBg, border: `1px solid ${paperHair}`, borderRadius: 16,
+      padding: '26px 22px 24px',
+    }}>
+      {/* Document head */}
+      <div style={{ textAlign: 'center', paddingBottom: 18, borderBottom: `1px solid ${paperHair}`, marginBottom: 6 }}>
+        <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10, letterSpacing: 2.5, textTransform: 'uppercase', color: bronzeDark, fontWeight: 500 }}>
+          Your Self-Report
+        </div>
+        <div style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 26, color: ink, margin: '8px 0 2px' }}>
+          {report.archetypeLabel}
+        </div>
+        {thesis && (
+          <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13.5, color: inkSoft }}>
+            {thesis}{edge ? ` — ${edge}` : ''}
+          </div>
+        )}
+        <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 11, color: inkLight, marginTop: 8 }}>
+          Drawn {report.date}
+        </div>
+      </div>
+
+      {report.sections.map((s) => (
+        <section key={s.key} style={{ padding: '18px 0 4px', borderBottom: `1px solid ${withAlpha(gold, '40')}` }}>
+          <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 10, letterSpacing: 2, textTransform: 'uppercase', color: bronzeDark, fontWeight: 500 }}>
+            {s.eyebrow}
+          </div>
+          <h3 style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 19, fontWeight: 500, color: ink, margin: '5px 0 8px' }}>
+            {s.title}
+          </h3>
+          {s.quote && (
+            <blockquote style={{
+              margin: '0 0 10px', padding: '10px 14px', borderLeft: `2px solid ${withAlpha(gold, '40')}`,
+              background: withAlpha(gold, '10'), borderRadius: '0 10px 10px 0',
+              fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: 15.5, color: inkSoft, lineHeight: 1.55,
+            }}>
+              “{s.quote}”
+            </blockquote>
+          )}
+          {(s.body || []).map((p, i) => (
+            <p key={i} style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14.5, lineHeight: 1.65, color: inkSoft, margin: '0 0 12px' }}>
+              {p}
+            </p>
+          ))}
+          {(s.items || []).map((it) => (
+            <div key={it.name} style={{ margin: '0 0 12px' }}>
+              <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12, letterSpacing: 1.2, textTransform: 'uppercase', color: pigments.water.deep, fontWeight: 600, marginBottom: 3 }}>
+                {it.name}
+              </div>
+              <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14.5, lineHeight: 1.65, color: inkSoft, margin: 0 }}>
+                {it.text}
+              </p>
+            </div>
+          ))}
+        </section>
+      ))}
+
+      <button type="button" onClick={onEdit} style={{
+        appearance: 'none', display: 'block', margin: '18px auto 0', background: 'transparent',
+        border: 'none', cursor: 'pointer',
+        fontFamily: "'EB Garamond', Georgia, serif", fontSize: 13.5, color: bronzeDark,
+      }}>Edit my answers →</button>
+    </article>
   );
 }
 
@@ -132,7 +283,7 @@ function Bullet({ children }) {
   );
 }
 
-// One-time purchase gate (DOC5 §19). Shown until the Self-Report add-on is
+// One-time purchase gate (DES_04 §19). Shown until the Self-Report add-on is
 // owned. Seekers get the $6.99 one-time buy; Free users are routed to upgrade
 // first (Self-Report is a Seeker add-on).
 function PurchaseGate({ tier, onBuy, onUpgrade }) {
@@ -192,6 +343,37 @@ function PurchaseGate({ tier, onBuy, onUpgrade }) {
             fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14, fontWeight: 500, letterSpacing: 0.4,
           }}>Become a Seeker to unlock</button>
         </div>
+      )}
+    </div>
+  );
+}
+
+// §4.2b waiting / resume card — shown in place of the purchase gate while a
+// checkout tab is open (or after the Google-OAuth return, one tap remaining).
+function PayJourneyCard({ headline, ctaLabel, onCta, footLabel, onFoot }) {
+  return (
+    <div style={{
+      background: withAlpha(pigments.water.base, '10'),
+      border: `1px solid ${withAlpha(pigments.water.base, '40')}`,
+      borderRadius: 14, padding: '18px 18px 16px', textAlign: 'center',
+    }}>
+      <div style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12, letterSpacing: 2, textTransform: 'uppercase', color: bronzeDark, fontWeight: 500, marginBottom: 10 }}>
+        Self-Report · {SELF_REPORT_PRICE}
+      </div>
+      <p style={{ fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14.5, lineHeight: 1.6, color: inkSoft, margin: '0 0 14px' }}>
+        {headline}
+      </p>
+      <button type="button" onClick={onCta} style={{
+        appearance: 'none', width: '100%', padding: '13px', borderRadius: 12, border: 'none',
+        background: bronzeDark, color: silk, cursor: 'pointer',
+        fontFamily: "'EB Garamond', Georgia, serif", fontSize: 14.5, fontWeight: 500, letterSpacing: 0.4,
+      }}>{ctaLabel}</button>
+      {footLabel && (
+        <button type="button" onClick={onFoot} style={{
+          appearance: 'none', display: 'block', margin: '12px auto 0', background: 'transparent',
+          border: 'none', color: inkLight, cursor: 'pointer',
+          fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12.5,
+        }}>{footLabel}</button>
       )}
     </div>
   );

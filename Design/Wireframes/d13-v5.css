@@ -185,7 +185,7 @@ body {
 .screen-pad > *, .plate-col > * { flex-shrink: 0; }
 .screen-pad.no-tab { padding-bottom: 30px; }
 
-/* eyebrow — locked DOC5 §3 */
+/* eyebrow — locked DES_04 §3 */
 .eyebrow {
   font-family: 'EB Garamond', serif; font-size: 10px; font-weight: 500;
   letter-spacing: 2.5px; text-transform: uppercase; color: var(--inkLight); display: block;

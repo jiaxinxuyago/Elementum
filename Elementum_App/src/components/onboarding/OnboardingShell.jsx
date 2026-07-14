@@ -1,5 +1,5 @@
 // ===================================================================
-// ELEMENTUM · OnboardingShell + ScrollPicker (DOC5 §7)
+// ELEMENTUM · OnboardingShell + ScrollPicker (DES_04 §7)
 // Ported from Design/flow/primitives.jsx (OnboardingShell) and
 // Design/flow/onboarding.jsx (ScrollPicker). The shell provides the
 // 3px bronze progress bar, step counter, bronze question, italic

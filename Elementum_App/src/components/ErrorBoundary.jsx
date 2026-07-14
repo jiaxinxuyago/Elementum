@@ -1,5 +1,5 @@
 // ===================================================================
-// ELEMENTUM · ErrorBoundary  (DOC5 §22 unrecoverable error)
+// ELEMENTUM · ErrorBoundary  (DES_04 §22 unrecoverable error)
 // ===================================================================
 // Catches render/calculation errors so the user never sees a blank
 // screen or a raw stack trace. Shows a gentle prompt with a soft path

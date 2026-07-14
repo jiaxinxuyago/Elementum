@@ -59,7 +59,7 @@
 <script type="text/babel" data-presets="env,react">
 // =====================================================
 // Elementum · Ink & Pigment — design tokens
-// Locked from DOC5 §2 + Direction D refinement.
+// Locked from DES_04 §2 + Direction D refinement.
 // =====================================================
 
 const T = {
@@ -404,7 +404,7 @@ function StatusBarSilk({ tint }) {
   );
 }
 
-// ---------------- Eyebrow / section label (DOC5 §3 standard) ----------------
+// ---------------- Eyebrow / section label (DES_04 §3 standard) ----------------
 function Eyebrow({ children, color, style, mb = 14 }) {
   return (
     <div style={{
@@ -416,7 +416,7 @@ function Eyebrow({ children, color, style, mb = 14 }) {
   );
 }
 
-// ---------------- Bottom tab nav (5 tabs, DOC5 §11) ----------------
+// ---------------- Bottom tab nav (5 tabs, DES_04 §11) ----------------
 function NavGlyph({ name, size = 22, color, active }) {
   const c = color || (active ? T.ink : T.inkLight);
   const sw = 1.6;

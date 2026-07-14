@@ -7,7 +7,7 @@
 // re-mounts or shifts as the user moves between tabs — the icons stay
 // pixel-aligned regardless of which page is on screen.
 //
-// Design: icons-only, no seal-dot (DOC5 §AM.2). Active tab = ink; the
+// Design: icons-only, no seal-dot (DES_04 §AM.2). Active tab = ink; the
 // rest = inkLight — the cold-state affordance. Same markup + .tabbar CSS
 // the reveal dissolve resolves onto, so the handoff is seamless.
 //
@@ -18,7 +18,7 @@
 
 import './reading.css';
 
-// Locked order — DOC5 §AM.2. The keys are the routeTab() tab keys.
+// Locked order — DES_04 §AM.2. The keys are the routeTab() tab keys.
 const TABS = ['today', 'guidance', 'reading', 'compat', 'profile'];
 
 export default function ReadingTabBar({ active, onTab }) {

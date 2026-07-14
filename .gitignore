@@ -1,5 +1,7 @@
-# Claude worktrees and session artifacts
-.claude/
+# Claude worktrees and session artifacts (any depth) — but root
+# .claude/agents/ holds versioned automation infrastructure.
+**/.claude/*
+!.claude/agents/
 Elementum/
 
 # Editor/backup cruft
@@ -9,3 +11,9 @@ Elementum/
 
 # Large reference bundle (downloaded export — not for version control)
 Reference/
+
+# wrangler CLI cache (created by running wrangler from the repo root)
+.wrangler/
+!.claude/settings.json
+
+Documents/Business/statements/

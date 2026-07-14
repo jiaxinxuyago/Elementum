@@ -14,7 +14,7 @@
 //
 // Drift between this file and Design/tokens.css is a doc-patch trigger.
 //
-// Ranges (DOC5 §3.5):
+// Ranges (DES_04 §3.5):
 //   §3.5.A — pigment alpha ladder (10/1A/40/CC/full)
 //   §3.5.B — radius scale (1, 10, 12, 16, 22, 999) — 6 tiers ONLY
 //   §3.5.C — spacing scale (1, 3, 4, 5, 6, 8, 10, 12, 14, 16, 18, 20, 22,
@@ -51,7 +51,7 @@ export const borderFocus = '#8b7355';
 export const dmBorder    = '#584A3E'; // Day-master pillar highlight only — never elsewhere
 
 // ───── Five-element pigments + *Deep companions ─────
-// Pigment alpha ladder (DOC5 §3.5.A — only these alphas allowed):
+// Pigment alpha ladder (DES_04 §3.5.A — only these alphas allowed):
 //   ${pigment}10 → ~6%  · soft fill (card bg)
 //   ${pigment}1A → ~10% · tint fill (icon bg)
 //   ${pigment}40 → ~25% · border / chip outline
@@ -67,13 +67,13 @@ export const water     = '#5a7fa8';  export const waterDeep = '#3e5f85';
 export const seal      = '#A04030'; // MAX ONCE PER SCREEN — chop mark only
 export const advisor   = '#7a5e9a'; // Premium tier accent
 
-// ───── Surface fills (DOC5 §3.5.D) ─────
+// ───── Surface fills (DES_04 §3.5.D) ─────
 export const quietBg      = '#EBE5D6';
 export const quietBorder  = '#DCD3C0';
 export const cardstockBg  = 'rgba(248, 241, 225, 0.92)';
 export const tabbarBg     = 'rgba(253, 253, 252, 0.85)'; // pair with backdrop-filter: blur(12px)
 
-// ───── Spacing scale (DOC5 §3.5.C — only these values allowed) ─────
+// ───── Spacing scale (DES_04 §3.5.C — only these values allowed) ─────
 // Forbidden: 7, 9, 11, 13, 15, 17, 19, 21, 24, 30, 32, 40, 48, 64
 export const sp = {
   1: 1, 3: 3, 4: 4, 5: 5, 6: 6, 8: 8, 10: 10,
@@ -87,7 +87,7 @@ export const sp12 = 12, sp14 = 14, sp16 = 16, sp18 = 18;
 export const sp20 = 20, sp22 = 22, sp26 = 26, sp28 = 28;
 export const sp36 = 36, sp44 = 44, sp56 = 56;
 
-// ───── Border-radius scale (DOC5 §3.5.B) ─────
+// ───── Border-radius scale (DES_04 §3.5.B) ─────
 // Forbidden: 4, 6, 8, 14, 18, 20, 28
 // Reserved (phone-frame only): 47, 56
 export const r = {
@@ -111,7 +111,7 @@ export const shadow = {
     'inset 0 0 0 9px rgba(80, 72, 60, 0.4)',
 };
 
-// ───── Easing curves (DOC5 §4) ─────
+// ───── Easing curves (DES_04 §4) ─────
 export const ease = {
   out:    'cubic-bezier(0.22, 1, 0.36, 1)', // most screen entrances
   inOut:  'ease-in-out',                    // progress bars
@@ -147,7 +147,7 @@ export const pigments = {
   water: { base: water, deep: waterDeep },
 };
 
-// Pigment alpha ladder helper (DOC5 §3.5.A) — appends the canonical
+// Pigment alpha ladder helper (DES_04 §3.5.A) — appends the canonical
 // hex alpha suffix to a 6-char hex color. Use only with the locked
 // alphas: '10', '1A', '40', 'CC'.
 //
@@ -162,7 +162,7 @@ export const withAlpha = (hex, suffix) => {
   if (!['10', '1A', '40', 'CC'].includes(suffix)) {
     // dev-time guard — silent in production (Vite replaces import.meta.env.DEV)
     if (import.meta.env.DEV) {
-      console.warn(`[tokens] Off-ladder alpha "${suffix}" — DOC5 §3.5.A only allows 10/1A/40/CC.`);
+      console.warn(`[tokens] Off-ladder alpha "${suffix}" — DES_04 §3.5.A only allows 10/1A/40/CC.`);
     }
   }
   return hex + suffix;

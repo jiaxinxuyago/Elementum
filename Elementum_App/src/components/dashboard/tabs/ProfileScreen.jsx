@@ -15,11 +15,11 @@
 // "The chart is the profile" — intentionally minimal.
 // ===================================================================
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useChart } from '../../../store/chartContext.jsx';
 import { useAuth } from '../../../store/authContext.jsx';
 import AuthModal from '../AuthModal.jsx';
-import { TIER_LABELS, TIER_PRICES } from '../../../infra/index.js';
+import { TIER_LABELS, TIER_PRICES, enablePush, disablePush, getPushSubscription, sendPreview } from '../../../infra/index.js';
 import { useUpgrade } from '../UpgradeModal.jsx';
 import { Icon } from '../../shared/icons';
 import {
@@ -34,6 +34,17 @@ export default function ProfileScreen() {
   const { openUpgrade } = useUpgrade();
   const { user, signOut } = useAuth();
   const [authOpen, setAuthOpen] = useState(false);
+  // Real Web Push (INF_01 §4.4): '' | 'denied' | 'unsupported' | 'error'
+  const [pushMsg, setPushMsg] = useState('');
+  // The toggle reflects the ACTUAL subscription on this device — not the
+  // birthData preference (which onboarding records even where push can't run).
+  const [pushOn, setPushOn] = useState(false);
+  const [previewState, setPreviewState] = useState(''); // '' | 'sending' | 'sent' | 'failed'
+  useEffect(() => {
+    let active = true;
+    getPushSubscription().then((sub) => { if (active) setPushOn(!!sub); });
+    return () => { active = false; };
+  }, []);
 
   // ── Resolved display values ────────────────────────────────────
   const locName = birthData?.location && typeof birthData.location === 'object'
@@ -62,7 +73,6 @@ export default function ProfileScreen() {
     tstStr = `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`;
   }
 
-  const notifyOn = birthData?.notifyOn ?? false;
   const notifyTime = birthData?.notifyHour != null
     ? `${birthData.notifyHour}:${String(birthData.notifyMinute ?? 0).padStart(2, '0')} ${birthData.notifyMeridiem || 'AM'}`
     : '—';
@@ -156,11 +166,62 @@ export default function ProfileScreen() {
               fontSize: 11, letterSpacing: 1.4, textTransform: 'uppercase',
               color: inkLight, fontWeight: 500, marginTop: 3,
             }}>
-              {notifyOn ? `Delivered at ${notifyTime}` : 'Off'}
+              {pushOn ? `Delivered at ${notifyTime}` : 'Off'}
             </div>
           </div>
-          <Toggle on={notifyOn} onToggle={() => updateBirthData({ notifyOn: !notifyOn })} />
+          <Toggle
+            on={pushOn}
+            onToggle={async () => {
+              setPushMsg(''); setPreviewState('');
+              if (pushOn) {
+                // OFF: reflect immediately, tear down in the background.
+                setPushOn(false);
+                updateBirthData({ notifyOn: false });
+                disablePush();
+                return;
+              }
+              // ON: subscribe for real — the toggle flips only if push lands.
+              const h12 = birthData?.notifyHour ?? 8;
+              const localHour = (h12 % 12) + ((birthData?.notifyMeridiem || 'AM') === 'PM' ? 12 : 0);
+              const result = await enablePush(localHour, user?.id || null);
+              if (result === 'enabled') { setPushOn(true); updateBirthData({ notifyOn: true }); }
+              else setPushMsg(result);
+            }}
+          />
         </Row>
+        {pushOn && (
+          <div style={{ padding: '8px 0 2px' }}>
+            <button
+              type="button"
+              disabled={previewState === 'sending'}
+              onClick={async () => {
+                setPreviewState('sending');
+                setPreviewState((await sendPreview()) ? 'sent' : 'failed');
+              }}
+              style={{
+                appearance: 'none', background: 'transparent', border: 'none',
+                padding: 0, cursor: 'pointer',
+                fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12.5,
+                color: bronzeDark, letterSpacing: 0.3,
+              }}
+            >
+              {previewState === 'sending' ? 'Sending…'
+                : previewState === 'sent' ? 'Sent — check your notifications ✓'
+                : previewState === 'failed' ? 'Couldn’t send — try again →'
+                : 'Send me a preview →'}
+            </button>
+          </div>
+        )}
+        {pushMsg && (
+          <div style={{
+            fontFamily: "'EB Garamond', Georgia, serif", fontSize: 12,
+            color: inkLight, padding: '8px 0 2px', lineHeight: 1.45,
+          }}>
+            {pushMsg === 'denied' && 'Notifications are blocked for this site — allow them in your browser settings, then try again.'}
+            {pushMsg === 'unsupported' && 'This browser can’t receive notifications. On iPhone: add Elementum to your Home Screen first, then enable here.'}
+            {pushMsg === 'error' && 'Couldn’t enable notifications just now — please try again.'}
+          </div>
+        )}
         {/* Row 2 — Current plan + tier pill */}
         <Row onClick={() => openUpgrade('your full reading')}>
           <div style={{ flex: 1 }}>
@@ -230,6 +291,20 @@ export default function ProfileScreen() {
           Dev · Reset &amp; Start Over
         </button>
       )}
+
+      {/* Legal footer */}
+      <div style={{
+        marginTop: 18, textAlign: 'center',
+        fontFamily: "'EB Garamond', Georgia, serif", fontSize: 11.5, color: inkLight,
+      }}>
+        <a href="/legal#terms" target="_blank" rel="noopener" style={{ color: 'inherit' }}>Terms</a>
+        <span style={{ margin: '0 6px' }}>·</span>
+        <a href="/legal#privacy" target="_blank" rel="noopener" style={{ color: 'inherit' }}>Privacy</a>
+        <span style={{ margin: '0 6px' }}>·</span>
+        <a href="/legal#refunds" target="_blank" rel="noopener" style={{ color: 'inherit' }}>Refunds</a>
+        <span style={{ margin: '0 6px' }}>·</span>
+        <a href="/legal#about" target="_blank" rel="noopener" style={{ color: 'inherit' }}>Contact</a>
+      </div>
 
       <AuthModal open={authOpen} onClose={() => setAuthOpen(false)} />
     </main>

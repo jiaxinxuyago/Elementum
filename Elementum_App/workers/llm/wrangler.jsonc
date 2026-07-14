@@ -1,0 +1,28 @@
+{
+  // AI Consultant proxy (INF_01 §4.3) — holds the LLM key, verifies the caller's
+  // Supabase session + Advisor entitlement, enforces caps + the monthly budget
+  // kill-switch, assembles the prompt (voice charter + chart payload), and
+  // streams the model's reply back as SSE.
+  // Deploy:  npx wrangler deploy --config workers/llm/wrangler.jsonc
+  //
+  // Secrets (wrangler secret put <NAME> --config <this file>):
+  //   ANTHROPIC_API_KEY         — the model
+  //   SUPABASE_SERVICE_ROLE_KEY — entitlement checks + usage writes
+  "name": "elementum-llm",
+  "main": "index.js",
+  "compatibility_date": "2025-11-01",
+  // Public .workers.dev URL is REQUIRED: the browser calls /chat directly
+  // (AIConsultantScreen); access is enforced in-worker (JWT + entitlement).
+  "workers_dev": true,
+  "vars": {
+    "SUPABASE_URL": "https://nbactbfxqslzehzbgetp.supabase.co",
+    // The model switch (INF_01 §4.3): Sonnet for beta; flip to the open arm
+    // (model id prefixed "workersai/") when the cost trigger fires.
+    "MODEL": "claude-sonnet-5",
+    "DAILY_CAP": "30",
+    "MONTHLY_BUDGET_USD": "50",
+    // Phase 0: owner-only. Comma-separated user ids; set to "" to open to all
+    // Advisor users (Phase 1) — REQUIRES the /legal privacy amendment first.
+    "OWNER_IDS": "ca4bbe43-c36e-4441-97ae-83e63781fbad"
+  }
+}

@@ -16,7 +16,6 @@ export default function ReadingEnergyCard({
   reyeText, heroTitle, lede, pull, domains,
 }) {
   const Element = CAP[el] || el;
-  const dots = Array.from({ length: total }, (_, i) => (i <= idx ? '●' : '○')).join(' ');
 
   return (
     <div className="reading-fill">
@@ -96,7 +95,6 @@ export default function ReadingEnergyCard({
           {expander}
         </div>
         <div className="codex-link">Deeper in the Codex →</div>
-        {total > 1 && <div className="swipe-dots">{dots}</div>}
       </div>
     </div>
   );

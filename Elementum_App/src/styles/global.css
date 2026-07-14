@@ -1,5 +1,5 @@
 /* ===================================================================
-   ELEMENTUM · global accessibility styles  (DOC5 §16)
+   ELEMENTUM · global accessibility styles  (DES_04 §16)
    =================================================================== */
 
 /* Screen-reader-only text. Use to pair an English label with a
@@ -18,7 +18,7 @@
 
 /* ── Mobile fullscreen (real devices / installed PWA) ──────────────
    On desktop the app renders inside a centered 390×844 phone frame
-   (App.jsx PhoneFrame — DOC5 §6). On a real phone or when installed to
+   (App.jsx PhoneFrame — DES_04 §6). On a real phone or when installed to
    the home screen, the frame must dissolve: edge-to-edge fill, no
    card chrome, and safe-area padding so content clears the notch.
    `!important` is required — PhoneFrame/Shell use inline styles. */
@@ -77,7 +77,7 @@
   animation: el-screen-enter 260ms ease-out;
 }
 
-/* Respect prefers-reduced-motion (DOC5 §16): neutralise all animation +
+/* Respect prefers-reduced-motion (DES_04 §16): neutralise all animation +
    transition motion app-wide. Covers the ceremony, welcome-back, card
    draw flip, advisor glow, tab presses, and every CSS transition. */
 @media (prefers-reduced-motion: reduce) {

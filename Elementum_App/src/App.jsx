@@ -7,7 +7,7 @@ import {
   resolveLongitudeForCalc,
   resolveLocationName,
 } from './store/chartContext.jsx';
-import { AuthProvider } from './store/authContext.jsx';
+import { AuthProvider, useAuth } from './store/authContext.jsx';
 import { calculateBaziChart } from './engine/index.js';
 import WelcomeScreen from './components/onboarding/WelcomeScreen.jsx';
 import {
@@ -26,6 +26,7 @@ import LoadingScreen from './components/LoadingScreen.jsx';
 // Eager — cross-cutting providers + the dashboard shell (layout/nav wrapper).
 import DashboardShell from './components/dashboard/DashboardShell.jsx';
 import { UpgradeModalProvider, UpgradeModalHost, useUpgrade } from './components/dashboard/UpgradeModal.jsx';
+import { PURCHASE_INTENT_KEY } from './components/dashboard/AuthModal.jsx';
 // Eager — the persistent dashboard chrome: the static D13 tab bar + the
 // shared SVG sprite that supplies every D13 glyph (tabs, element marks, …).
 import ReadingTabBar from './components/reading/ReadingTabBar.jsx';
@@ -106,6 +107,7 @@ function prefetchScreens() {
       import('./components/reading/ReadingDayMasterScreen.jsx'),
       import('./components/reading/ReadingPillarChartScreen.jsx'),
       import('./components/reading/ReadingFacesScreen.jsx'),
+      import('./components/dashboard/CompatFriendFlow.jsx'),
     ]).catch(() => {});
   };
   if ('requestIdleCallback' in window) window.requestIdleCallback(run, { timeout: 2000 });
@@ -190,7 +192,7 @@ import ErrorBoundary from './components/ErrorBoundary.jsx';
 // viewports the DevBar hides so the phone frame fills the screen.
 const IS_DEV = typeof import.meta !== 'undefined' && import.meta.env?.DEV;
 
-// Phone-frame wrapper — DOC5 §6 specifies 390×844 viewport context.
+// Phone-frame wrapper — DES_04 §6 specifies 390×844 viewport context.
 // On desktop we center a phone-shaped frame; on mobile it fills the viewport.
 function PhoneFrame({ children }) {
   return (
@@ -251,7 +253,7 @@ function Shell({ children }) {
 // Conditionals (4A, 6A, 7A) are handled via per-step `onX` callbacks.
 //
 // Post-Reveal screens live under the `app/*` namespace and render inside the
-// 5-tab dashboard shell (DOC5 §AM.2).
+// 5-tab dashboard shell (DES_04 §AM.2).
 const FLOW = [
   'welcome',
   'step1',
@@ -266,7 +268,7 @@ const FLOW = [
   'step7a',   // conditional — only via Change time
   'loading',
   'reveal',
-  // Dashboard tabs (DOC5 §10–§14) — entered from Reveal's "Enter Your Readings" CTA.
+  // Dashboard tabs (DES_04 §10–§14) — entered from Reveal's "Enter Your Readings" CTA.
   'app-today',
   // Today-hub drill-downs (Direction 2 — wireframes/Elementum - Screens.html)
   'app-day',
@@ -274,11 +276,11 @@ const FLOW = [
   'app-year',
   'app-decade',
   'app-guidance',
-  'app-reading',     // catalogue (DOC5 §11)
+  'app-reading',     // catalogue (DES_04 §11)
   'app-daymaster',   // D13 P4 — Day Master card (wheel-centre seal)
   'app-pillars',     // D13 P5 — 八字 Pillar Chart (from the Day Master)
-  'app-energy',      // D13 P6/P7 — energy reading card (tap a node, swipe ⟷)
-  'app-energymap',   // Energy Map destination (DOC5 §AM.1 — same as Reveal, no first-time CTA)
+  'app-energy',      // energy reading — polarity faces (tap a node/spine; the swipe carousel was retired with ReadingFacesScreen)
+  'app-energymap',   // Energy Map destination (DES_04 §AM.1 — same as Reveal, no first-time CTA)
   'app-codex',       // BaZi Codex (Guidance §12 Card 5)
   'app-draw',        // Elemental Draw (Guidance §12 Card 1)
   'app-manual',      // Energy Manual (Guidance §12 Card 2)
@@ -287,7 +289,7 @@ const FLOW = [
   'app-compat',
   'compat-friends',  // full-frame "their birth" friend onboarding flow (no tab bar)
   'app-profile',
-  // Reading detail destinations (DOC5 §11 drill-downs)
+  // Reading detail destinations (DES_04 §11 drill-downs)
   'read-elemental',  // Elemental Nature (built fully)
   'read-daymaster',  // Day Master (built fully)
   'read-tengods',    // Ten Gods (built fully)
@@ -298,7 +300,9 @@ const FLOW = [
   'chart-reveal',    // Birth Chart Raw Data — four-pillar grid
   'chart-resonance', // Chart Resonance — hour-discovery flow (§11/§22)
   'read-locked',     // generic locked-card for not-yet-built sections
-  'd13preview',      // dev-only D13 component render harness (#/d13preview)
+  // Dev-only reading-component render harness (#/d13preview) — excluded from
+  // FLOW in prod builds so readHash() rejects the route for real users.
+  ...(IS_DEV ? ['d13preview'] : []),
 ];
 
 // Which dashboard tab is "active" for a given screen — drives the single
@@ -325,21 +329,56 @@ function readHash() {
   return FLOW.includes(h) ? h : 'welcome';
 }
 
-// Honor-system unlock: Stripe's Payment Link success URL returns here as
-// `<origin>/?founding=ok`. Grant the (persisted) Founding entitlement, strip the
-// param so a refresh can't replay it, and play the unlock ceremony. No payment
-// backend yet, so this trusts the redirect — acceptable for the beta founding run.
-function FoundingRedirect() {
-  const { grantFounding, hasFounding } = useChart();
+// Stripe's Payment Link success URLs return here as `<origin>/?founding=ok`
+// or `<origin>/?selfreport=ok`. Unlocks are SERVER-TRUTH (INF_01 §4.2): the
+// Stripe webhook writes the entitlement to the buyer's account; this handler
+// only polls until the write lands (it can lag the redirect by a few seconds)
+// and then plays the product's arrival moment. Forged URLs unlock nothing.
+// (§4.2b note: the primary journey is now new-tab checkout + focus-refresh —
+// these ?ok paths remain as the fallback for same-tab/legacy flows.)
+function PurchaseRedirect() {
+  const { refreshEntitlements, hasFounding } = useChart();
   const { playCeremony } = useUpgrade();
+
+  // §4.2b: a Self-Report buyer returning from Google OAuth lands on Welcome,
+  // but their one-tap resume card lives on the Self-Report screen — route them
+  // there. Intent is NOT cleared here; the screen's consumer clears it and
+  // shows the resume card. (The founding intent needs no routing —
+  // UpgradeModalHost is globally mounted and re-opens the paywall itself.)
+  const { user } = useAuth();
+  useEffect(() => {
+    if (!user || typeof window === 'undefined') return;
+    try {
+      if (sessionStorage.getItem(PURCHASE_INTENT_KEY) === 'selfreport') {
+        window.location.hash = '#/app-selfreport';
+      }
+    } catch { /* storage unavailable — user can navigate manually */ }
+  }, [user]);
+
   useEffect(() => {
     if (typeof window === 'undefined') return;
     const params = new URLSearchParams(window.location.search);
-    if (params.get('founding') !== 'ok') return;
-    if (!hasFounding) { grantFounding(); playCeremony(); }
-    params.delete('founding');
+    const founding = params.get('founding') === 'ok';
+    const selfreport = params.get('selfreport') === 'ok';
+    if (!founding && !selfreport) return;
+    // Strip the params so refresh/back can't replay the arrival.
+    params.delete('founding'); params.delete('selfreport');
     const qs = params.toString();
     window.history.replaceState(null, '', window.location.pathname + (qs ? `?${qs}` : '') + window.location.hash);
+    if (founding && hasFounding) return; // already a known founder — nothing to confirm
+    // Poll for the webhook write (~1.5s × 14 ≈ 21s window). Arrival moments play
+    // only once the SERVER confirms the entitlement — a forged URL shows nothing.
+    let tries = 0;
+    const timer = setInterval(async () => {
+      tries += 1;
+      const ent = await refreshEntitlements();
+      if (founding && ent?.tier === 'advisor') { clearInterval(timer); playCeremony(); }
+      else if (selfreport && ent?.hasSelfReport) {
+        clearInterval(timer);
+        window.location.hash = '#/app-selfreport'; // land in the new purchase
+      } else if (tries >= 14) clearInterval(timer);
+    }, 1500);
+    return () => clearInterval(timer);
     // Run once on mount.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -383,13 +422,16 @@ export default function App() {
         if (FLOW.includes(name)) setScreen(name);
         else console.warn('Unknown screen:', name, '; valid:', FLOW);
       };
+      // Route inventory for automated QA (tools/qa-route-sweep.mjs) — the
+      // sweep enumerates screens from the running app, never a copied list.
+      window.__screens = [...FLOW];
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const goto = (name) => () => setScreen(name);
 
-  // Maps a BottomTabNav key ('today', 'guidance', 'reading', 'compat',
+  // Maps a ReadingTabBar key ('today', 'guidance', 'reading', 'compat',
   // 'profile') to the corresponding FLOW screen ('app-*'). Used as the
   // `onTabChange` callback by every DashboardShell render.
   const routeTab = (tabKey) => setScreen(`app-${tabKey}`);
@@ -425,7 +467,7 @@ export default function App() {
   let rendered;
   switch (screen) {
     case 'welcome':
-      rendered = <WelcomeScreen onContinue={goto('step1')} />;
+      rendered = <WelcomeScreen onContinue={goto('step1')} onEnterApp={goto('app-today')} />;
       break;
     case 'step1':
       rendered = <Step1_Year onBack={back} onContinue={goto('step2')} />;
@@ -492,9 +534,9 @@ export default function App() {
       break;
 
     // ────────────────────────────────────────────────────────────────
-    // Dashboard tabs (DOC5 §10–§14) — all wrapped in DashboardShell so
-    // BottomTabNav is persistent across them. The tab→screen mapping
-    // mirrors `TAB_KEYS` exported from BottomTabNav.
+    // Dashboard tabs (DES_04 §10–§14) — all wrapped in DashboardShell; the
+    // persistent icons-only ReadingTabBar is rendered once by App (below),
+    // outside the per-screen tree, and routes via routeTab.
     // ────────────────────────────────────────────────────────────────
     case 'app-today':
       rendered = (
@@ -621,7 +663,7 @@ export default function App() {
     // Reading-detail destinations + Energy Map (Phase 2).
     // Detail pages share DetailShell (back button + section header).
     // All render OUTSIDE DashboardShell — they push over the tab bar
-    // like a page in a stack, per DOC5 §11 v1.7 "DetailShell wrapper"
+    // like a page in a stack, per DES_04 §11 v1.7 "DetailShell wrapper"
     // (carried forward by §AM.1 as authoritative).
     // ────────────────────────────────────────────────────────────────
     case 'app-energymap':
@@ -675,7 +717,7 @@ export default function App() {
     <ChartProvider>
       <UpgradeModalProvider>
         {/* Stripe founding-pass success redirect → grant access + ceremony (once). */}
-        <FoundingRedirect />
+        <PurchaseRedirect />
         {/* Dev/test hooks (window.__seedData/__setTier/__buySelfReport/etc.) —
             gated to dev builds so they never ship as a console backdoor. */}
         {IS_DEV && <DevHelpers />}
@@ -696,7 +738,7 @@ export default function App() {
                 swappable page, so it never re-mounts or shifts between tabs.
                 Hidden on welcome/onboarding/reveal + stacked detail pages. */}
             {DASHBOARD_TAB[screen] && <ReadingTabBar active={DASHBOARD_TAB[screen]} onTab={routeTab} />}
-            {/* Upgrade modal overlays only the phone frame (DOC5 §21) */}
+            {/* Upgrade modal overlays only the phone frame (DES_04 §21) */}
             <UpgradeModalHost />
           </PhoneFrame>
         </Shell>
@@ -713,7 +755,7 @@ export default function App() {
 //
 // Stem-date math: the calculator computes `dayStem = HS[daysElapsed%10]`
 // (calculator.js:372). So shifting the date by ±N days shifts the stem
-// by N positions in HS (甲乙丙丁戊己庚辛壬癸). The DOC1 reference date
+// by N positions in HS (甲乙丙丁戊己庚辛壬癸). The DEV_01 reference date
 // 1995-04-29 lands on 庚 (index 6); each subsequent day advances by 1.
 function DevHelpers() {
   const { updateBirthData, setChart, setTier, setHasSelfReport, purchaseSelfReport } = useChart();
@@ -757,7 +799,7 @@ function DevHelpers() {
       };
       // Backwards-compat alias names.
       const ALIASES = { blade: 'geng', rain: 'gui' };
-      // Ordered cycle (DOC1 / DOC2 canonical order: 甲乙丙丁戊己庚辛壬癸).
+      // Ordered cycle (DEV_01 / DES_01 canonical order: 甲乙丙丁戊己庚辛壬癸).
       const CYCLE_ORDER = ['jia','yi','bing','ding','wu','ji','geng','xin','ren','gui'];
 
       window.__seedData = (preset = 'geng') => {

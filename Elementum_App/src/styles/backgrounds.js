@@ -3,7 +3,7 @@
 // ===================================================================
 // Single source for screen → painted-background assignment. Mirrors the
 // authority table in Design/assets/Library/backgrounds-library.html
-// (line ~1212) and DOC5 §20 Asset Library.
+// (line ~1212) and DES_04 §20 Asset Library.
 //
 // PNGs live in Elementum_App/public/backgrounds/ (mirrored from
 // Design/backgrounds/). Reference them by bare filename — PageBg
@@ -73,10 +73,12 @@ export function readingDetailBg() {
 // ───────────────────────────────────────────────────────────────────
 // THUMBNAIL CARD LIBRARY · "Inkstone" Card Art System (v2)
 // ───────────────────────────────────────────────────────────────────
-// Production asset library from Claude Design's Thumbnail Card Library.
-// 102 themed tiles (5 elements × 6–8 motif variants × 3 shapes —
-// landscape `_w`, square `_s`, portrait `_p`) + 40 generic art assets
-// (10 scene-heroes, 10 premium banners, 20 generic cards).
+// Production asset library from Claude Design's Thumbnail Card Library,
+// pruned 2026-07-07 to the reachable set (§5-P6): all landscape tiles
+// (`t_<el>_<n>_w`), portrait variants 1–2 (`_p`, yang/yin stem pair),
+// the five catalogue energy squares (`_s`, named in surfaceContent's
+// ENERGY_TILE), and the 10 scene heroes. Full pool remains in git and
+// the design bundle.
 //
 // Assets live in /concept-arts/library/ (mirrored from the bundle).
 // Each painting carries the same shuǐmò treatment so themed and generic
@@ -126,14 +128,6 @@ export function tileArt(element, n = 1) {
   return `${LIBRARY_DIR}/t_${el}_${idx}_w.png`;
 }
 
-// Square 1:1 themed feature tile (guidance grid, elemental-draw deck).
-export function sqArt(element, n = 1) {
-  if (!element) return null;
-  const el = lowerEl(element);
-  const idx = clampN(element, n);
-  return `${LIBRARY_DIR}/t_${el}_${idx}_s.png`;
-}
-
 // 3:4 portrait card-face — for day-master hero, compat person cards,
 // reading-detail hero. The stem's variant index keeps Yin stems on
 // their own painting so 辛 the jewel reads differently from 庚 the blade.
@@ -147,44 +141,15 @@ export function portArt(element, nOrStem) {
   return `${LIBRARY_DIR}/t_${el}_${idx}_p.png`;
 }
 
-// Catalogue function-card crop (Rendered Screens v2) — bespoke painterly
-// art per reading row, each carrying its function motif. These dissolve
-// in from the right of each list row. cat-<name>.png in /library/cat/.
-const CAT_CARDS = ['nature', 'dominant', 'forces', 'chapters', 'daily', 'pillars'];
-export function catArt(name) {
-  return CAT_CARDS.includes(name) ? `${LIBRARY_DIR}/cat/cat-${name}.png` : null;
-}
-
 // ── Generic asset resolvers ────────────────────────────────────────
 // Scene-hero band — neutral landscape (10 variants).
+// (The library's banner / generic-card / catalogue-crop pools and their
+// resolvers were retired 2026-07-07: zero consumers, ~62 MB shipped dead
+// weight — the review's §5-P6 finding. Restore from git if a redesign
+// slot wants them, and re-add the PNGs from the design bundle.)
 export function heroArt(n = 1) {
   const idx = ((n - 1) % 10 + 10) % 10 + 1;
   return `${LIBRARY_DIR}/g_hero_${idx}.png`;
-}
-
-// Premium banner — panoramic with left-anchored scrim (10 variants).
-export function bannerArt(n = 1) {
-  const idx = ((n - 1) % 10 + 10) % 10 + 1;
-  return `${LIBRARY_DIR}/g_banner_${idx}.png`;
-}
-
-// Generic card — 1-8 square, 9-14 portrait, 15-20 wide (20 variants).
-export function genericCardArt(n = 1) {
-  const idx = ((n - 1) % 20 + 20) % 20 + 1;
-  return `${LIBRARY_DIR}/g_card_${idx}.png`;
-}
-
-// Picks a deterministic generic-card index from a string key (e.g. a
-// stem-branch or seed). Keeps the same chart showing the same painting
-// every time without manually wiring a mapping.
-export function genericCardArtFor(key, range = [1, 20]) {
-  const [lo, hi] = range;
-  let h = 0;
-  const s = String(key || '');
-  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0;
-  const span = hi - lo + 1;
-  const idx = lo + (((h % span) + span) % span);
-  return genericCardArt(idx);
 }
 
 // ── Backward-compatible legacy resolvers ───────────────────────────
@@ -205,16 +170,6 @@ export function elementArt(element, stem) {
   return tileArt(element, n);
 }
 
-// ── Generic constants — back-compat aliases ────────────────────────
-// The old moodboard's composite / landscape / enso are mapped to the
-// new generic cards. The old generic-card consumers (Pillar Patterns,
-// Life Chapters) now reach into the richer 20-card pool.
-export const ART_LANDSCAPE = heroArt(1);
-export const ART_COMPOSITE = genericCardArt(1);
-export const ART_ENSO      = genericCardArt(14);
-export const ART_METAL_BLADE = portArt('Metal', 1);
-export const ELEMENT_ART_COMPOSITE = ART_COMPOSITE;
-
 // ───────────────────────────────────────────────────────────────────
 // DESIGN RULE · No two thumbnails on the same page show the same painting.
 // ───────────────────────────────────────────────────────────────────
@@ -225,8 +180,8 @@ export const ELEMENT_ART_COMPOSITE = ART_COMPOSITE;
 // for that element; generic → next card index in the shape range).
 //
 // Slot shape:
-//   { key:'string', kind:'tile'|'sq'|'port', element:'Metal'|…, n?:1, stem?:'庚' }
-//   { key:'string', kind:'hero'|'banner'|'card', n?:1, range?:[lo, hi] }
+//   { key:'string', kind:'tile'|'port', element:'Metal'|…, n?:1, stem?:'庚' }
+//   { key:'string', kind:'hero', n?:1, range?:[lo, hi] }
 //
 // Usage in a screen:
 //   const arts = useMemo(() => dedupeArt([
@@ -241,21 +196,16 @@ export const ELEMENT_ART_COMPOSITE = ART_COMPOSITE;
 // Order your slots by visual prominence (hero / featured first).
 const SLOT_RESOLVERS = {
   tile:   (s, n) => tileArt(s.element, n),
-  sq:     (s, n) => sqArt(s.element, n),
   port:   (s, n) => portArt(s.element, n),
   hero:   (_, n) => heroArt(n),
-  banner: (_, n) => bannerArt(n),
-  card:   (_, n) => genericCardArt(n),
 };
 const SLOT_RANGE = {
   // Themed slots — max variant index per element.
   tile: (s) => [1, ELEMENT_VARIANT_COUNT[s.element] || 6],
-  sq:   (s) => [1, ELEMENT_VARIANT_COUNT[s.element] || 6],
-  port: (s) => [1, ELEMENT_VARIANT_COUNT[s.element] || 6],
+  // Portraits ship variants 1–2 only (yang/yin stem pair; see portArt).
+  port: () => [1, 2],
   // Generic slots — overrideable via slot.range.
   hero:   (s) => s.range || [1, 10],
-  banner: (s) => s.range || [1, 10],
-  card:   (s) => s.range || [1, 20],
 };
 
 export function dedupeArt(slots) {

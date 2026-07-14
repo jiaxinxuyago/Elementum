@@ -6,7 +6,7 @@
 // redesign sets budgets from evidence instead of fixing copy to fit
 // budgets that are about to change.
 // Run: node tools/reading-format-audit.mjs   (from Elementum_App/)
-// Output: Documents/Designengineering/READING_FORMAT_AUDIT.md
+// Output: Documents/Design/DES_10_Reading_Format_Audit.md
 import fs from 'node:fs';
 import path from 'node:path';
 import { ARCHETYPE_SCHEMA } from '../src/content/archetypeSchema.js';
@@ -14,7 +14,7 @@ import { walkSchema } from '../src/content/archetypeCoverage.js';
 import { STEM_CARD_DATA } from '../src/content/archetypeSource.js';
 
 const STEMS = ['甲', '乙', '丙', '丁', '戊', '己', '庚', '辛', '壬', '癸'];
-const OUT = path.resolve(import.meta.dirname, '../../Documents/Designengineering/READING_FORMAT_AUDIT.md');
+const OUT = path.resolve(import.meta.dirname, '../../Documents/Design/DES_10_Reading_Format_Audit.md');
 
 const words = (s) => typeof s === 'string' ? s.trim().split(/\s+/).filter(Boolean).length : 0;
 

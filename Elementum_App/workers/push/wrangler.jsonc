@@ -1,0 +1,32 @@
+{
+  // Web Push service (INF_01 §4.4) — subscribe/unsubscribe API + hourly cron
+  // that sends the daily date-based reading reminder to matching subscriptions.
+  // Deploy:  npx wrangler deploy --config workers/push/wrangler.jsonc
+  //
+  // Secrets (wrangler secret put <NAME> --config <this file>):
+  //   SUPABASE_SERVICE_ROLE_KEY — reads/writes push_subscriptions
+  //   VAPID_PRIVATE_JWK         — ES256 private key (JWK JSON) for VAPID auth
+  //   REPORT_KEY                — shared key gating POST /report (QA emails);
+  //                               same value lives in the ELEMENTUM_REPORT_KEY
+  //                               user env var on the dev machine
+  "name": "elementum-push",
+  "main": "index.js",
+  "compatibility_date": "2025-11-01",
+  // Public .workers.dev URL is REQUIRED: the browser calls subscribe/report
+  // endpoints directly (infra/push.js) and the service worker fetches the
+  // daily message from it (public/push-sw.js).
+  "workers_dev": true,
+  "triggers": {
+    "crons": ["0 * * * *"]
+  },
+  // Email Sending binding (Cloudflare Email Service) — /report emails the
+  // daily QA report from qa@elementum.life; the domain is onboarded under
+  // dashboard → Compute → Email Service → Email Sending.
+  "send_email": [{ "name": "EMAIL" }],
+  "vars": {
+    "SUPABASE_URL": "https://nbactbfxqslzehzbgetp.supabase.co",
+    "VAPID_PUBLIC": "BLuEarHJvtRInQUcLSWdzjK2PxXwKWxNBuNd7kBEwVju0Or-ORY80QpQ_KpQZiAraVG9wUua23BQG1uan67AJ9Y",
+    "VAPID_SUBJECT": "mailto:jiaxinxuyago@gmail.com",
+    "REPORT_TO": "lanterndigitalhodl@gmail.com"
+  }
+}

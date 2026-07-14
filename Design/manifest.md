@@ -9,7 +9,7 @@ The bridge between design legend (`Design/legend-*.html`) and React app (`Elemen
 - **States** — variants the component must support
 - **Status** — `BUILT` / `PARTIAL` / `PLANNED` / `MOCKUP-ONLY`
 
-> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `Documents/Designengineering/READING_V2.1_RECONCILIATION_AUDIT.md`).** New/changed components to add: **`FacesScreen`** (the reading prologue — 1–2 persona index cards by math), **`PersonaCard`** (with presence-frame variants: dominant/present/scarce/absent), a **ruling-domain** line atom, and **persona art = 10 Inner-Council character concepts recolored per element**. Reading cards are re-keyed **element → persona**. *Energy-level* polarity is the two faces — but the DM *identity* Yang/Yin chip **stays** and face cards carry a **subtle Yin/Yang marker** (B7, not a "retire"). Add a **`PositionalCard`** (宫位 × 十神 per-pillar, B6). The Energy Faces screen is specced in DOC5 §11.
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `Documents/Design/DES_09_Reading_V2.1_Reconciliation_Audit.md`).** New/changed components to add: **`FacesScreen`** (the reading prologue — 1–2 persona index cards by math), **`PersonaCard`** (with presence-frame variants: dominant/present/scarce/absent), a **ruling-domain** line atom, and **persona art = 10 Inner-Council character concepts recolored per element**. Reading cards are re-keyed **element → persona**. *Energy-level* polarity is the two faces — but the DM *identity* Yang/Yin chip **stays** and face cards carry a **subtle Yin/Yang marker** (B7, not a "retire"). Add a **`PositionalCard`** (宫位 × 十神 per-pillar, B6). The Energy Faces screen is specced in DES_04 §11.
 - **Notes** — open questions, drift items, polish needs
 
 Rule: when a legend section is sealed, the row here is the **single source of truth** for engineering. If app code drifts from the manifest, fix the app. If the manifest drifts from the legend, fix the manifest. The legend never updates silently.
@@ -53,7 +53,7 @@ Rule: when a legend section is sealed, the row here is the **single source of tr
 
 ---
 
-## §3 — Buttons + form controls (DOC5 §7 + amendment Tier C)
+## §3 — Buttons + form controls (DES_04 §7 + amendment Tier C)
 
 | Component | Source | App file | Tokens | Icons | States | Status | Notes |
 |---|---|---|---|---|---|---|---|
@@ -94,7 +94,7 @@ Rule: when a legend section is sealed, the row here is the **single source of tr
 
 ## §6 — Open primitive gaps
 
-> **2026-05-06 update — italic usage v2 cascade:** v1 §3.5.E originally allowed italic across 5 contexts. The new locked rule (DOC5 §AM.10 + `legend-primitives.html` §8 v2) restricts italic to **two**: sub-headline + microcopy. Element-name labels, composition row names, and descriptive paragraphs revert to regular. **Resolved:** DOC5 §3.5.E annotated superseded · `legend-screens-amendment.html` CSS classes patched (`.ribbon .elname`, `.read-card .body .d`, `.read-card.daily .body .t`, `.dm-icon-cell .meta-l`, `.inline-card .pre`) · `EnergyBlueprint.jsx` BlueprintRow + empty-state · `IdentityRibbon.jsx` element-name + saturation paragraph. **Open (deferred to v4 polish):** `legend-patterns.html` and `legend-screens.html` still contain pre-v2 italic uses — flagged in v4 brief.
+> **2026-05-06 update — italic usage v2 cascade:** v1 §3.5.E originally allowed italic across 5 contexts. The new locked rule (DES_04 §AM.10 + `legend-primitives.html` §8 v2) restricts italic to **two**: sub-headline + microcopy. Element-name labels, composition row names, and descriptive paragraphs revert to regular. **Resolved:** DES_04 §3.5.E annotated superseded · `legend-screens-amendment.html` CSS classes patched (`.ribbon .elname`, `.read-card .body .d`, `.read-card.daily .body .t`, `.dm-icon-cell .meta-l`, `.inline-card .pre`) · `EnergyBlueprint.jsx` BlueprintRow + empty-state · `IdentityRibbon.jsx` element-name + saturation paragraph. **Open (deferred to v4 polish):** `legend-patterns.html` and `legend-screens.html` still contain pre-v2 italic uses — flagged in v4 brief.
 
 These need addressing in v1 / v2 doc patches before the manifest is fully stable:
 

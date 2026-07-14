@@ -128,7 +128,7 @@ const SCREENS = [
     anno: {
       title: 'Reveal (scroll to explore)',
       body: [
-        'Design decision — following DOC5 §9 continuous scroll, not the Phase 1 tab system. Rationale: §9 is explicit ("the user is meant to spend 60–90 seconds here, not 10"); Ink & Pigment\'s whole thesis is a contemplative unfolding like a 山水 handscroll; tabs fight that metaphor. Phase 1 used tabs because the Reveal was a static preview frame — the real product flow honors the spec.',
+        'Design decision — following DES_04 §9 continuous scroll, not the Phase 1 tab system. Rationale: §9 is explicit ("the user is meant to spend 60–90 seconds here, not 10"); Ink & Pigment\'s whole thesis is a contemplative unfolding like a 山水 handscroll; tabs fight that metaphor. Phase 1 used tabs because the Reveal was a static preview frame — the real product flow honors the spec.',
         'Four sections: (1) Identity — archetype seal, "You are…", THE BLADE in Cormorant 44, subtitle, 庚·Yang Metal·Blade pill, essence paragraph. (2) Energy Blueprint — five rows sorted high→low with animated bars and a missing-Fire callout. (3) Balance Prescription — activated because Fire=0; "Cultivate Fire" card with Environment/Colors/Timing categories. (4) CTA — solid ink "Enter Your Dashboard →" into /dashboard/energy-map.',
       ],
       motion: 'Section 1 enters on mount: seal springs in (scale 0.5→1, bounce 0.5), then staggered fade at 0/200/400/600/800ms. Sections 2–3 trigger on scroll-into-view: blueprint bars fill 0→(count/8)×100% over 800ms ease-out. "Enter Your Dashboard" transitions to the Today tab of the Energy Map on first session.',
@@ -164,7 +164,7 @@ function FlowApp() {
         <div className="v-eyebrow">ELEMENTUM · PHASE 2A · PRE-DASHBOARD FLOW</div>
         <h1 className="v-title">Ink &amp; Pigment — Welcome → Reveal</h1>
         <div className="v-sub">
-          10-screen sequential flow per DOC5 §§6–9. Reference user: <strong style={{color:'#d8d2c2'}}>Yang Metal (庚) · The Blade</strong> · dominant Inner Council force = <strong style={{color:'#d8d2c2'}}>The General (七杀)</strong>. Use ← / → arrow keys or the buttons to step through.
+          10-screen sequential flow per DES_04 §§6–9. Reference user: <strong style={{color:'#d8d2c2'}}>Yang Metal (庚) · The Blade</strong> · dominant Inner Council force = <strong style={{color:'#d8d2c2'}}>The General (七杀)</strong>. Use ← / → arrow keys or the buttons to step through.
         </div>
       </div>
 

@@ -1,0 +1,557 @@
+{
+  "blessedAt": "2026-07-09T20:50:34.486Z",
+  "cases": [
+    {
+      "label": "REFERENCE 庚 (strong)",
+      "tierA": {
+        "pillars": [
+          "乙亥",
+          "庚辰",
+          "庚寅",
+          "乙酉"
+        ],
+        "stemTenGods": [
+          "正财(Direct Wealth)",
+          "比肩(Parallel Self)",
+          "正财(Direct Wealth)"
+        ],
+        "dayMaster": "庚 Metal yang",
+        "tgPattern": "forging",
+        "patterns": [
+          "六合(寅亥)",
+          "六合(辰酉)"
+        ]
+      },
+      "tierB": {
+        "strength": "strong",
+        "strengthScore": 0.72,
+        "band": "concentrated",
+        "catalyst": "Fire",
+        "energies": [
+          {
+            "el": "earth",
+            "presence": 33,
+            "score": 0.324,
+            "roles": [
+              "friction"
+            ],
+            "leadGod": "偏印",
+            "faces": [
+              "偏印/yang"
+            ]
+          },
+          {
+            "el": "wood",
+            "presence": 33,
+            "score": 0.333,
+            "roles": [
+              "catalyst"
+            ],
+            "leadGod": "正财",
+            "faces": [
+              "正财/yin",
+              "偏财/yang"
+            ]
+          },
+          {
+            "el": "metal",
+            "presence": 23,
+            "score": 0.234,
+            "roles": [
+              "core",
+              "friction"
+            ],
+            "leadGod": "比肩",
+            "faces": [
+              "比肩/yang",
+              "劫财/yin"
+            ]
+          },
+          {
+            "el": "water",
+            "presence": 6,
+            "score": 0.057,
+            "roles": [
+              "catalyst"
+            ],
+            "leadGod": "食神",
+            "faces": [
+              "食神/yang",
+              "伤官/yin"
+            ]
+          },
+          {
+            "el": "fire",
+            "presence": 5,
+            "score": 0.052,
+            "roles": [
+              "catalyst"
+            ],
+            "leadGod": "七杀",
+            "faces": [
+              "七杀/yang"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "丁 yin-fire winter female",
+      "tierA": {
+        "pillars": [
+          "戊辰",
+          "甲子",
+          "丁未",
+          "甲辰"
+        ],
+        "stemTenGods": [
+          "伤官(Hurt Officer)",
+          "正印(Direct Seal)",
+          "正印(Direct Seal)"
+        ],
+        "dayMaster": "丁 Fire yin",
+        "tgPattern": "tested",
+        "patterns": [
+          "六害(子未)",
+          "自刑(辰辰)"
+        ]
+      },
+      "tierB": {
+        "strength": "strong",
+        "strengthScore": 0.72,
+        "band": "concentrated",
+        "catalyst": "Water",
+        "energies": [
+          {
+            "el": "water",
+            "presence": 49,
+            "score": 0.491,
+            "roles": [
+              "catalyst"
+            ],
+            "leadGod": "七杀",
+            "faces": [
+              "七杀/yin"
+            ]
+          },
+          {
+            "el": "wood",
+            "presence": 34,
+            "score": 0.336,
+            "roles": [
+              "friction"
+            ],
+            "leadGod": "正印",
+            "faces": [
+              "正印/yang",
+              "偏印/yin"
+            ]
+          },
+          {
+            "el": "earth",
+            "presence": 14,
+            "score": 0.142,
+            "roles": [
+              "catalyst"
+            ],
+            "leadGod": "伤官",
+            "faces": [
+              "伤官/yang",
+              "食神/yin"
+            ]
+          },
+          {
+            "el": "fire",
+            "presence": 3,
+            "score": 0.032,
+            "roles": [
+              "core",
+              "friction"
+            ],
+            "leadGod": "比肩",
+            "faces": [
+              "比肩/yin"
+            ]
+          },
+          {
+            "el": "metal",
+            "presence": 0,
+            "score": 0,
+            "roles": [
+              "missing",
+              "catalyst"
+            ],
+            "leadGod": "偏财",
+            "faces": []
+          }
+        ]
+      }
+    },
+    {
+      "label": "乙 weak-wood autumn",
+      "tierA": {
+        "pillars": [
+          "庚午",
+          "乙酉",
+          "乙酉",
+          "己卯"
+        ],
+        "stemTenGods": [
+          "正官(Direct Officer)",
+          "比肩(Parallel Self)",
+          "偏财(Indirect Wealth)"
+        ],
+        "dayMaster": "乙 Wood yin",
+        "tgPattern": "tested",
+        "patterns": [
+          "六冲(卯酉)",
+          "自刑(酉酉)"
+        ]
+      },
+      "tierB": {
+        "strength": "extremely_weak",
+        "strengthScore": 0.12,
+        "band": "open",
+        "catalyst": "Water",
+        "energies": [
+          {
+            "el": "metal",
+            "presence": 76,
+            "score": 0.757,
+            "roles": [
+              "friction"
+            ],
+            "leadGod": "七杀",
+            "faces": [
+              "七杀/yin",
+              "正官/yang"
+            ]
+          },
+          {
+            "el": "wood",
+            "presence": 12,
+            "score": 0.118,
+            "roles": [
+              "core",
+              "catalyst"
+            ],
+            "leadGod": "比肩",
+            "faces": [
+              "比肩/yin"
+            ]
+          },
+          {
+            "el": "earth",
+            "presence": 10,
+            "score": 0.104,
+            "roles": [
+              "friction"
+            ],
+            "leadGod": "偏财",
+            "faces": [
+              "偏财/yin"
+            ]
+          },
+          {
+            "el": "fire",
+            "presence": 2,
+            "score": 0.022,
+            "roles": [
+              "friction"
+            ],
+            "leadGod": "食神",
+            "faces": [
+              "食神/yin"
+            ]
+          },
+          {
+            "el": "water",
+            "presence": 0,
+            "score": 0,
+            "roles": [
+              "missing",
+              "catalyst"
+            ],
+            "leadGod": "偏印",
+            "faces": []
+          }
+        ]
+      }
+    },
+    {
+      "label": "庚-anchor late-子 rollover",
+      "tierA": {
+        "pillars": [
+          "乙亥",
+          "庚辰",
+          "辛卯",
+          "戊子"
+        ],
+        "stemTenGods": [
+          "偏财(Indirect Wealth)",
+          "劫财(Rob Wealth)",
+          "正印(Direct Seal)"
+        ],
+        "dayMaster": "辛 Metal yin",
+        "tgPattern": "rooted",
+        "patterns": [
+          "六害(卯辰)",
+          "相刑(子卯)"
+        ]
+      },
+      "tierB": {
+        "strength": "strong",
+        "strengthScore": 0.72,
+        "band": "concentrated",
+        "catalyst": "Fire",
+        "energies": [
+          {
+            "el": "earth",
+            "presence": 45,
+            "score": 0.452,
+            "roles": [
+              "friction"
+            ],
+            "leadGod": "正印",
+            "faces": [
+              "正印/yang"
+            ]
+          },
+          {
+            "el": "wood",
+            "presence": 31,
+            "score": 0.313,
+            "roles": [
+              "catalyst"
+            ],
+            "leadGod": "偏财",
+            "faces": [
+              "偏财/yin",
+              "正财/yang"
+            ]
+          },
+          {
+            "el": "metal",
+            "presence": 14,
+            "score": 0.137,
+            "roles": [
+              "core",
+              "friction"
+            ],
+            "leadGod": "劫财",
+            "faces": [
+              "劫财/yang"
+            ]
+          },
+          {
+            "el": "water",
+            "presence": 10,
+            "score": 0.098,
+            "roles": [
+              "catalyst"
+            ],
+            "leadGod": "食神",
+            "faces": [
+              "食神/yin",
+              "伤官/yang"
+            ]
+          },
+          {
+            "el": "fire",
+            "presence": 0,
+            "score": 0,
+            "roles": [
+              "missing",
+              "catalyst"
+            ],
+            "leadGod": "七杀",
+            "faces": []
+          }
+        ]
+      }
+    },
+    {
+      "label": "庚 pre-立春 year boundary",
+      "tierA": {
+        "pillars": [
+          "丙子",
+          "辛丑",
+          "庚午",
+          "壬午"
+        ],
+        "stemTenGods": [
+          "七杀(Seven Killings)",
+          "劫财(Rob Wealth)",
+          "食神(Food God)"
+        ],
+        "dayMaster": "庚 Metal yang",
+        "tgPattern": "rooted",
+        "patterns": [
+          "六合(子丑)",
+          "六冲(子午)",
+          "六害(丑午)",
+          "自刑(午午)"
+        ]
+      },
+      "tierB": {
+        "strength": "strong",
+        "strengthScore": 0.72,
+        "band": "concentrated",
+        "catalyst": "Fire",
+        "energies": [
+          {
+            "el": "earth",
+            "presence": 54,
+            "score": 0.542,
+            "roles": [
+              "friction"
+            ],
+            "leadGod": "正印",
+            "faces": [
+              "正印/yin"
+            ]
+          },
+          {
+            "el": "metal",
+            "presence": 20,
+            "score": 0.195,
+            "roles": [
+              "core",
+              "friction"
+            ],
+            "leadGod": "劫财",
+            "faces": [
+              "劫财/yin"
+            ]
+          },
+          {
+            "el": "water",
+            "presence": 13,
+            "score": 0.129,
+            "roles": [
+              "catalyst"
+            ],
+            "leadGod": "伤官",
+            "faces": [
+              "伤官/yin",
+              "食神/yang"
+            ]
+          },
+          {
+            "el": "fire",
+            "presence": 13,
+            "score": 0.134,
+            "roles": [
+              "catalyst"
+            ],
+            "leadGod": "正官",
+            "faces": [
+              "正官/yin",
+              "七杀/yang"
+            ]
+          },
+          {
+            "el": "wood",
+            "presence": 0,
+            "score": 0,
+            "roles": [
+              "missing",
+              "catalyst"
+            ],
+            "leadGod": "偏财",
+            "faces": []
+          }
+        ]
+      }
+    },
+    {
+      "label": "庚 Ürümqi solar-time",
+      "tierA": {
+        "pillars": [
+          "乙亥",
+          "庚辰",
+          "庚寅",
+          "甲申"
+        ],
+        "stemTenGods": [
+          "正财(Direct Wealth)",
+          "比肩(Parallel Self)",
+          "偏财(Indirect Wealth)"
+        ],
+        "dayMaster": "庚 Metal yang",
+        "tgPattern": "forging",
+        "patterns": [
+          "六合(寅亥)",
+          "六冲(寅申)",
+          "六害(申亥)"
+        ]
+      },
+      "tierB": {
+        "strength": "moderate",
+        "strengthScore": 0.5,
+        "band": "balanced",
+        "catalyst": "Fire",
+        "energies": [
+          {
+            "el": "wood",
+            "presence": 34,
+            "score": 0.334,
+            "roles": [],
+            "leadGod": "偏财",
+            "faces": [
+              "偏财/yang",
+              "正财/yin"
+            ]
+          },
+          {
+            "el": "earth",
+            "presence": 33,
+            "score": 0.331,
+            "roles": [
+              "catalyst"
+            ],
+            "leadGod": "偏印",
+            "faces": [
+              "偏印/yang"
+            ]
+          },
+          {
+            "el": "metal",
+            "presence": 21,
+            "score": 0.214,
+            "roles": [
+              "core"
+            ],
+            "leadGod": "比肩",
+            "faces": [
+              "比肩/yang"
+            ]
+          },
+          {
+            "el": "water",
+            "presence": 7,
+            "score": 0.069,
+            "roles": [],
+            "leadGod": "食神",
+            "faces": [
+              "食神/yang",
+              "伤官/yin"
+            ]
+          },
+          {
+            "el": "fire",
+            "presence": 5,
+            "score": 0.052,
+            "roles": [
+              "catalyst"
+            ],
+            "leadGod": "七杀",
+            "faces": [
+              "七杀/yang"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

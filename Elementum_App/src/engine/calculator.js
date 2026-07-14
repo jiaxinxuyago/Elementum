@@ -3,7 +3,7 @@
 // Extracted verbatim from Code/Elementum_Engine.jsx (lines 1585–2103
 // + getEnergyBand at 4084). Pure JavaScript — no React dependencies.
 // Input: { year, month, day, hour, gender, location }
-// Output: Canonical JSON chart per DOC1 §4.
+// Output: Canonical JSON chart per DEV_01 §4.
 // ===================================================================
 
 // ---------- Engine version (chart-cache invalidation) ----------
@@ -13,7 +13,10 @@
 // from birthData on load (see chartContext.jsx), so engine fixes propagate to
 // every returning user instead of being masked by a stale localStorage chart.
 // v1 = pre-合而不化 · v2 = polarity-aware faces + 合而不化/relative-冲 (commit 975122a).
-export const ENGINE_VERSION = 2;
+// v3 (2026-07-09): solar-time sign fix + January 五虎遁 wrap fix — bumping
+// forces cached charts to recompute on next open (affects non-120°E
+// birthplaces and 小寒–立春 births; all previously-verified charts unchanged).
+export const ENGINE_VERSION = 3;
 
 // ---------- Heavenly Stems / Earthly Branches / element maps ----------
 export const HS = ["甲","乙","丙","丁","戊","己","庚","辛","壬","癸"];
@@ -53,7 +56,7 @@ export function getTenGod(dmStem, targetStem) {
 }
 
 // ── BRANCH-RELATIONSHIP PATTERN DETECTION (合冲刑害) ─────────────────────────
-// DOC5 §11 Chart Patterns. Detects classical 地支 relationships across the
+// DES_04 §11 Chart Patterns. Detects classical 地支 relationships across the
 // chart's pillars: Six Combinations 六合, Six Clashes 六冲, Six Harms 六害,
 // Three Penalties 三刑 (+ self-penalty 自刑). Pure structural detection.
 const SIX_COMBO = [['子','丑'],['寅','亥'],['卯','戌'],['辰','酉'],['巳','申'],['午','未']];
@@ -87,7 +90,7 @@ export function detectPatterns(pillars) {
 }
 
 // ── HYBRID ELEMENT CALCULATION — Method C + D with Method B modifier ─────────
-// Documented in DOC1 §3. Sources: 子平真诠 · 黄景泓打分法 · 藏干理论 · 穷通宝鉴.
+// Documented in DEV_01 §3. Sources: 子平真诠 · 黄景泓打分法 · 藏干理论 · 穷通宝鉴.
 
 // Method D — 藏干 Hidden Stems
 export const HIDDEN_STEMS = {
@@ -173,7 +176,7 @@ export function computeElementComposition(pillars) {
 }
 
 // v2.1 — 合而不化 by default; a combination TRANSFORMS only when the 真化 gate
-// passes (DOC1 §3.7). Previously every present 合 transformed (and counted as
+// passes (DEV_01 §3.7). Previously every present 合 transformed (and counted as
 // DM-support), with no adjacency and no 化 conditions — which inflated both the
 // dominant element and the DM strength (QA-F2). Now: a 合 binds for the reading
 // layer (recorded by detectPatterns) but touches NO numbers unless 真化 fires.
@@ -296,7 +299,7 @@ export function computeDMStrength(pillars, dmStem, bondedDMStems = new Set()) {
 
   // 得地 (鸣根) with relative 冲 (滴天髓 旺者冲衰衰者拔): a DM root sitting on the
   // WEAKER side of a present 六冲 is uprooted and no longer anchors the DM. Strength
-  // is approximated by position weight (月令 strongest), per DOC1 §3.7b / §3.8.
+  // is approximated by position weight (月令 strongest), per DEV_01 §3.7b / §3.8.
   const BPOS = {year:0.05, month:0.40, day:0.20, hour:0.05};
   const branchAt = {year:pillars.year.branch, month:pillars.month.branch, day:pillars.day.branch, hour:pillars.hour.branch};
   const uprooted = pos => {
@@ -488,7 +491,7 @@ export const TG_PATTERN_LABELS = {
 //   location?: string,       // legacy string fallback (well-known cities)
 // }
 // If neither longitude nor a recognised location string is provided,
-// the calc falls back silently to Beijing longitude (120°E) per DOC5 §22.
+// the calc falls back silently to Beijing longitude (120°E) per DES_04 §22.
 export function calculateBaziChart(input) {
   const { year, month, day, hour, gender, longitude, location } = input;
   const cityLongitudes = { beijing: 120, shanghai: 121, guangzhou: 113, chengdu: 104, newyork: -74, london: 0, tokyo: 139, paris: 2, sydney: 151 };
@@ -496,7 +499,10 @@ export function calculateBaziChart(input) {
     typeof longitude === 'number' && !Number.isNaN(longitude)
       ? longitude
       : (cityLongitudes[location?.toLowerCase?.()] ?? 120);
-  const trueSolarHour = (((hour - (lon - 120) / 15) % 24) + 24) % 24;
+  // 真太阳时 = clock + 4min × (经度 − 120°): east of the meridian the sun is
+  // AHEAD of the clock, west it lags. (Sign was inverted until 2026-07-09 —
+  // found by tools/qa-pillar-crosscheck.mjs; invisible near 120°E.)
+  const trueSolarHour = (((hour + (lon - 120) / 15) % 24) + 24) % 24;
   const dateForDay = new Date(year, month-1, day, trueSolarHour);
   if (trueSolarHour >= 23) dateForDay.setDate(dateForDay.getDate() + 1);
 
@@ -506,7 +512,12 @@ export function calculateBaziChart(input) {
   const yearStem = HS[ysi], yearBranch = EB[ybi];
   const monthBranchIdx = (solarMonthIdx+1)%12;
   const monthBranch = EB[monthBranchIdx];
-  const msi = (((ysi%5)*2+2)%10 + solarMonthIdx - 1 + 10) % 10;
+  // 五虎遁: the year stem fixes the 寅-month stem; stems run in order through
+  // the 12 solar months ending at 丑. SOLAR_TERMS[0] is 小寒 (the 丑 month) —
+  // its offset from 寅 is +11, not −1 (wrap bug until 2026-07-09: January
+  // births got a stem inconsistent with their own year pillar).
+  const monthOffsetFromYin = (solarMonthIdx + 11) % 12;
+  const msi = (((ysi%5)*2+2)%10 + monthOffsetFromYin) % 10;
   const monthStem = HS[msi];
   const anchor = new Date(1900,0,1);
   const daysElapsed = Math.floor((dateForDay - anchor) / 86400000);
@@ -610,4 +621,4 @@ export function calculateBaziChart(input) {
 //     manual, etc.) → src/content/archetypeSource.js (STEM_CARD_DATA[stem].identity)
 //   • Element pigment hexes (PIG_METAL / PIG_WOOD / PIG_WATER / PIG_FIRE /
 //     PIG_EARTH) → src/styles/tokens.jsx
-// DOC1 §1 mandates the calculator be pure computation with no content strings.
+// DEV_01 §1 mandates the calculator be pure computation with no content strings.

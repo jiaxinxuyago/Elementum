@@ -1,7 +1,7 @@
 // ===================================================================
 // ELEMENTUM · dailyGuidance.js
 // ===================================================================
-// Deterministic daily-guidance generator. DOC5 §10 specifies a
+// Deterministic daily-guidance generator. DES_04 §10 specifies a
 // `getDailyGuidance(chart, todayElement)` that personalizes the day's
 // message to the user's Day Master. The Free tier uses pre-authored
 // templates per `DM × day element`; the Pro tier streams from Claude.

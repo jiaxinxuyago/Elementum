@@ -55,6 +55,9 @@ function pruneDevAssets() {
 export default defineConfig({
   // Override for subpath hosting (e.g. GitHub Pages): ELEMENTUM_BASE=/Elementum/
   base: process.env.ELEMENTUM_BASE || '/',
+  // Honor a harness-assigned dev port (launch.json autoPort sets PORT); Vite
+  // ignores the PORT env var by default. No PORT → Vite's usual 5173+.
+  server: { port: Number(process.env.PORT) || undefined },
   plugins: [
     react(),
     pruneDevAssets(),
@@ -76,6 +79,8 @@ export default defineConfig({
         ],
       },
       workbox: {
+        // Web Push handlers (INF_01 §4.4) ride into the generated SW.
+        importScripts: ['push-sw.js'],
         // Precache the app shell only (code + vector assets). The painted
         // art library is far too large to precache — it runtime-caches below.
         globPatterns: ['**/*.{js,css,html,svg}'],

@@ -1,8 +1,8 @@
 // ===================================================================
 // ELEMENTUM · Engine Accuracy QA — full chart dump for cross-checking
 // ===================================================================
-// Run AFTER ANY engine code change (see Documents/Designengineering/
-// ENGINE_ACCURACY_QA.md). Prints every dimension a reference BaZi site
+// Run AFTER ANY engine code change (see Documents/Development/
+// DEV_04_Engine_Accuracy_QA.md). Prints every dimension a reference BaZi site
 // exposes, so each can be compared by eye:
 //   Four Pillars · stem Ten Gods · Day Master strength/band/pattern ·
 //   element scores + dominance % · catalyst · 合冲刑害 patterns.
@@ -11,14 +11,9 @@
 import { calculateBaziChart, getEnergyBand } from '../src/engine/calculator.js';
 import { buildEnergyChart } from '../src/engine/buildEnergyChart.js';
 
-const tg = g => g ? `${g.zh}(${g.en})` : '—';
+import { CASES } from './qa-cases.mjs';
 
-// Test charts. Beijing-born (treated as the 120°E standard meridian) so cross-
-// site solar-time differences don't muddy the comparison. Add cases covering:
-// a yin Day Master, a weak DM, and a near-hour-boundary time, over time.
-const CASES = [
-  { label: 'REFERENCE 庚 (strong)', year:1995, month:4, day:29, hour:18, location:'Beijing', gender:'male' },
-];
+const tg = g => g ? `${g.zh}(${g.en})` : '—';
 
 for (const c of CASES) {
   const chart = calculateBaziChart(c);

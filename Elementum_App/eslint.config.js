@@ -17,6 +17,23 @@ export default defineConfig([
       globals: globals.browser,
       parserOptions: { ecmaFeatures: { jsx: true } },
     },
+    rules: {
+      // House pattern: token/context/icon modules deliberately export
+      // components alongside constants and hooks (tokens.jsx, chartContext,
+      // Icon.jsx, …). That trades per-file fast-refresh purity for
+      // single-source-of-truth files — an accepted cost. allowConstantExport
+      // covers the constant cases; allowExportNames can't enumerate ~60
+      // mixed exports, so the rule is a warning (visible, non-blocking)
+      // rather than an error. DEV_03_Code_Review_Standards §4-A1's hard 0-errors
+      // gate is carried by everything else, above all no-restricted-imports.
+      'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
+    },
+  },
+  // Node-side files (vite config, dev/QA tooling, workers) run outside the
+  // browser — give them node globals so `process` etc. lint cleanly.
+  {
+    files: ['vite.config.js', 'tools/**/*.{js,mjs}', 'workers/**/*.js', 'showcase/**/*.mjs', '*.mjs'],
+    languageOptions: { globals: { ...globals.node, ...globals.browser } },
   },
   // ───────────────────────────────────────────────────────────────────────────
   // Module-boundary enforcement (architecture restructuring, 2026-07).

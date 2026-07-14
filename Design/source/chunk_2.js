@@ -1,5 +1,5 @@
 // ===================================================================
-// SCREEN 10 — REVEAL  (DOC5 §9 — CONTINUOUS SCROLL)
+// SCREEN 10 — REVEAL  (DES_04 §9 — CONTINUOUS SCROLL)
 // Decision: follow §9's continuous scroll (not Phase 1 tabs).
 // Rationale logged in the annotation panel.
 //

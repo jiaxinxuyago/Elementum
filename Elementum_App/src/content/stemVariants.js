@@ -9,7 +9,7 @@
 //   shadows[]          — { phrase, desc } × 3 (varies by band × tgPattern)
 //
 // Source of truth: archetypeSource.js (stem baseline data)
-// Generation guidance: DOC7 §4 (yourNature.desc), DOC7 §2 (gifts/shadows variants)
+// Generation guidance: DES_06 §4 (yourNature.desc), DES_06 §2 (gifts/shadows variants)
 // Generation pipeline: batchGenerate.js — Pipeline A (offline, quality-checked)
 //
 // Phase 1 — hand-authored: 庚 yourNature.desc × 15 configs
@@ -21,7 +21,7 @@ export const STEM_VARIANTS = {
   // ══════════════════════════════════════════════════════════════════════════
   // 庚 — The Imperial Executioner (Yang Metal · The Blade)
   // Phase 1: yourNature.desc hand-authored × 15 configs
-  // Structure: person-first, paradox in S1, mechanism-through-people in S2 (DOC7 §4)
+  // Structure: person-first, paradox in S1, mechanism-through-people in S2 (DES_06 §4)
   // Baseline copy: archetypeSource.js → STEM_CARD_DATA["庚"].yourNature.desc
   // ══════════════════════════════════════════════════════════════════════════
 
@@ -113,7 +113,7 @@ export const STEM_VARIANTS = {
   // 甲乙丙丁戊己辛壬癸 — band + tested variants (Group C)
   // Resolved via the band -> pattern fallback in resolveVariant.js: a chart hits
   // `${stem}_${band}` (concentrated / open) first, else `${stem}_tested`, else the
-  // archetypeSource.js baseline (the balanced reading). 2nd person, DOC7 §4 voice.
+  // archetypeSource.js baseline (the balanced reading). 2nd person, DES_06 §4 voice.
   // ══════════════════════════════════════════════════════════════════════════
 
   // ── 甲 The Oak ──

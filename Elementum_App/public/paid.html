@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elementum · Payment received</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <style>
+    :root {
+      --silk: #F1E9D6; --ink: #2B2722; --ink-soft: #4A443C; --ink-light: #857D72;
+      --bronze: #6B5339; --hair: rgba(120,100,70,0.22);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--silk); color: var(--ink);
+      font-family: 'EB Garamond', Georgia, serif; line-height: 1.6; font-size: 17px;
+      min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      text-align: center; padding: 24px;
+    }
+    .card { max-width: 420px; }
+    .wordmark {
+      font-family: Georgia, serif; letter-spacing: 7px; font-size: 13px; font-weight: 600;
+      color: var(--ink-light); margin-bottom: 34px;
+    }
+    .seal {
+      width: 74px; height: 74px; border-radius: 999px; margin: 0 auto 22px;
+      background: radial-gradient(circle at 50% 38%, #faf6ec, #ebe2cf);
+      border: 1px solid rgba(212,175,55,0.55);
+      box-shadow: 0 8px 26px rgba(60,40,20,0.16);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 30px; color: var(--bronze);
+    }
+    h1 { font-weight: 500; font-size: 27px; margin: 0 0 10px; }
+    p { color: var(--ink-soft); margin: 0 0 26px; }
+    .cta {
+      display: inline-block; padding: 14px 34px; border-radius: 999px;
+      background: var(--ink); color: var(--silk); text-decoration: none;
+      font-size: 13px; letter-spacing: 3px; text-transform: uppercase;
+    }
+    .hint { margin-top: 20px; font-size: 13.5px; color: var(--ink-light); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="wordmark">E L E M E N T U M</div>
+    <div class="seal">✓</div>
+    <h1>Payment received</h1>
+    <p>Your purchase is attached to your account.<br />
+    Return to the Elementum page you left open — it unlocks automatically.</p>
+    <!-- Primary action = CLOSE, not open: the buyer's app is already running in
+         the tab/app they started from (§4.2b new-tab checkout). An "open" CTA
+         here spawns a duplicate app instance at the Welcome screen. This tab
+         was script-opened by the app, so window.close() is permitted. -->
+    <button class="cta" id="closeBtn" type="button">Close this page</button>
+    <p class="hint" id="hint">…then switch back to Elementum.</p>
+    <p class="hint" style="margin-top:14px">
+      Lost the app page? <a href="/" style="color:var(--bronze)">Open Elementum here →</a>
+    </p>
+  </div>
+  <script>
+    document.getElementById('closeBtn').addEventListener('click', function () {
+      window.close();
+      // If the browser refused (rare — e.g. user navigated here directly),
+      // tell them how to leave instead of a dead button.
+      setTimeout(function () {
+        document.getElementById('hint').textContent =
+          'This tab won’t close itself — close it manually, then switch back to Elementum.';
+      }, 400);
+    });
+  </script>
+</body>
+</html>

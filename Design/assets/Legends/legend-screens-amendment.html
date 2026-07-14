@@ -333,7 +333,7 @@
     display:flex; align-items:center; gap:10px; flex-wrap:wrap;
   }
   .ribbon .elname {
-    /* DOC5 §AM.10 — element-name label is regular (was italic 15 under v1 §3.5.E) */
+    /* DES_04 §AM.10 — element-name label is regular (was italic 15 under v1 §3.5.E) */
     font-family:'EB Garamond', serif;
     font-size:15px;
     color:var(--ink); font-weight:500;
@@ -520,7 +520,7 @@
     color:var(--bronzeDark); font-weight:500;
   }
   .dm-icon-cell .meta-l {
-    /* DOC5 §AM.10 — caption-style label is regular (was italic 11 — not microcopy chip) */
+    /* DES_04 §AM.10 — caption-style label is regular (was italic 11 — not microcopy chip) */
     font-family:'EB Garamond', serif;
     font-size:11px; color:var(--inkLight);
   }
@@ -548,7 +548,7 @@
     font-weight:500; color:var(--ink); line-height:1.2;
   }
   .read-card .body .d {
-    /* DOC5 §AM.10 — descriptive paragraph is regular (was italic 12.5 under v1 §3.5.E) */
+    /* DES_04 §AM.10 — descriptive paragraph is regular (was italic 12.5 under v1 §3.5.E) */
     font-family:'EB Garamond', serif;
     font-size:12.5px; color:var(--inkSoft); margin-top:2px;
     line-height:1.4;
@@ -567,7 +567,7 @@
     padding:10px 14px;
   }
   .read-card.daily .body .t {
-    /* DOC5 §AM.10 — daily card title is regular (was italic 14 under v1 §3.5.E — title is not microcopy) */
+    /* DES_04 §AM.10 — daily card title is regular (was italic 14 under v1 §3.5.E — title is not microcopy) */
     font-size:14px;
     font-family:'EB Garamond', serif; color:var(--ink); font-weight:500;
   }
@@ -707,7 +707,7 @@
     transform:rotate(135deg);
   }
   .inline-card .pre {
-    /* DOC5 §AM.10 — descriptive paragraph is regular (was italic 13 under v1 §3.5.E) */
+    /* DES_04 §AM.10 — descriptive paragraph is regular (was italic 13 under v1 §3.5.E) */
     font-family:'EB Garamond', serif;
     font-size:13px; color:var(--inkSoft); line-height:1.55;
     margin-top:6px;
@@ -1347,10 +1347,10 @@
           <li><span class="k">β dismiss</span><span class="v">"‹ Reading" eyebrow top-left (EB caps 12 / <code>--bronzeDark</code>) · also iPhone left-swipe</span></li>
           <li><span class="k">β use</span><span class="v">Long readings (Elemental Nature, Life Chapters) · scrollable · footers route to next reading</span></li>
           <li><span class="k">γ surface</span><span class="v">v1 §3.5.D cardstock at radius 14 · sits inline on Today (no overlay, no shadow)</span></li>
-          <li><span class="k">γ transition</span><span class="v"><code>max-height</code> 90 → 340 over 220ms · chev rotates 0 → 135° · ease-out (DOC5 §4)</span></li>
+          <li><span class="k">γ transition</span><span class="v"><code>max-height</code> 90 → 340 over 220ms · chev rotates 0 → 135° · ease-out (DES_04 §4)</span></li>
           <li><span class="k">γ use</span><span class="v">Daily snippet on Today only · taps stay on the surface, no nav change</span></li>
         </ul>
-        <div class="cite-row">Composes: v1 §3.5.D cardstock · v1 §7 chev-right primitive · v2 §5 sheet shadows · DOC5 §4 motion specs.</div>
+        <div class="cite-row">Composes: v1 §3.5.D cardstock · v1 §7 chev-right primitive · v2 §5 sheet shadows · DES_04 §4 motion specs.</div>
       </div>
     </div>
   </div>
@@ -1463,7 +1463,7 @@
           <li><span class="k">Open state (B)</span><span class="v">chev rotates from 45° (collapsed = right-pointing) to 135° (open = down-pointing) · <code>display:none → block</code> on body · no animation transition (instant; tap-to-toggle is the action, not a reveal)</span></li>
           <li><span class="k">Default open</span><span class="v">First sub-section · so the page never lands on a fully-collapsed view</span></li>
         </ul>
-        <div class="cite-row">Composes: v1 §3 eyebrow + §3.5.D cardstock + chev-right · DOC5 §4 ease-out for chev rotation only.</div>
+        <div class="cite-row">Composes: v1 §3 eyebrow + §3.5.D cardstock + chev-right · DES_04 §4 ease-out for chev rotation only.</div>
       </div>
     </div>
   </div>
@@ -1574,7 +1574,7 @@
     <div class="drift-item">
       <div class="q">DA.1 — IA divergence with v3 §0</div>
       <div class="body">
-        v3 §0 retires the catalogue and lifts readings inline onto Energy Map (a flat dashboard). The user's locked direction is the layered Reveal → Reading-catalogue model (this amendment). <strong>Resolution:</strong> the amendment is canonical for Reveal / Reading / Energy Map; v3's flat-dashboard framing is superseded for these three surfaces. v3's other sections (§2, §4–§8, §10–§12) carry over unchanged. DOC5 §11 needs a doc patch reflecting the layered IA.
+        v3 §0 retires the catalogue and lifts readings inline onto Energy Map (a flat dashboard). The user's locked direction is the layered Reveal → Reading-catalogue model (this amendment). <strong>Resolution:</strong> the amendment is canonical for Reveal / Reading / Energy Map; v3's flat-dashboard framing is superseded for these three surfaces. v3's other sections (§2, §4–§8, §10–§12) carry over unchanged. DES_04 §11 needs a doc patch reflecting the layered IA.
       </div>
     </div>
 
@@ -1602,7 +1602,7 @@
     <div class="drift-item">
       <div class="q">DA.5 — γ inline-expansion needs a height-transition primitive</div>
       <div class="body">
-        DOC5 §4 covers ease curves for screen entrances, list reveals, and tab transitions, but not <code>max-height</code> animations. §A4 γ uses <code>max-height: 90 → 340 / 220ms / ease-out</code>. <strong>Resolution:</strong> document this as a "card-expand" motion in DOC5 §4 alongside chev rotation. No new primitive — same ease curve as scroll-triggered reveals.
+        DES_04 §4 covers ease curves for screen entrances, list reveals, and tab transitions, but not <code>max-height</code> animations. §A4 γ uses <code>max-height: 90 → 340 / 220ms / ease-out</code>. <strong>Resolution:</strong> document this as a "card-expand" motion in DES_04 §4 alongside chev rotation. No new primitive — same ease curve as scroll-triggered reveals.
       </div>
     </div>
 
@@ -1649,9 +1649,9 @@
     </div>
 
     <div class="drift-item">
-      <div class="q">DA.11 — Italic usage v2 cascaded (DOC5 §AM.10)</div>
+      <div class="q">DA.11 — Italic usage v2 cascaded (DES_04 §AM.10)</div>
       <div class="body">
-        v1 §3.5.E originally allowed italic across 5 contexts (sub-headline, element-name label, composition row name, descriptive paragraph, microcopy). The new rule (sealed in <code>legend-primitives.html</code> §8 v2 + DOC5 §AM.10, dated 2026-05-06) restricts italic to <strong>two contexts only</strong>: sub-headline and microcopy. <strong>Resolved in this amendment:</strong> CSS rules for <code>.ribbon .elname</code>, <code>.read-card .body .d</code>, <code>.read-card.daily .body .t</code>, <code>.dm-icon-cell .meta-l</code>, <code>.inline-card .pre</code>, plus inline reading copy in §A4 α &amp; β — all reverted from italic to regular. The "Precision before intention" sub-headline on Reveal (§A1) and the microcopy chips remain italic per the v2 rule. <strong>Open:</strong> the v2 patterns legend (<code>legend-patterns.html</code>) and v3 screens legend (<code>legend-screens.html</code>) still contain italic uses on now-forbidden contexts — those are flagged for v4 polish.
+        v1 §3.5.E originally allowed italic across 5 contexts (sub-headline, element-name label, composition row name, descriptive paragraph, microcopy). The new rule (sealed in <code>legend-primitives.html</code> §8 v2 + DES_04 §AM.10, dated 2026-05-06) restricts italic to <strong>two contexts only</strong>: sub-headline and microcopy. <strong>Resolved in this amendment:</strong> CSS rules for <code>.ribbon .elname</code>, <code>.read-card .body .d</code>, <code>.read-card.daily .body .t</code>, <code>.dm-icon-cell .meta-l</code>, <code>.inline-card .pre</code>, plus inline reading copy in §A4 α &amp; β — all reverted from italic to regular. The "Precision before intention" sub-headline on Reveal (§A1) and the microcopy chips remain italic per the v2 rule. <strong>Open:</strong> the v2 patterns legend (<code>legend-patterns.html</code>) and v3 screens legend (<code>legend-screens.html</code>) still contain italic uses on now-forbidden contexts — those are flagged for v4 polish.
       </div>
     </div>
 
@@ -1751,7 +1751,7 @@
         <li><strong>Reading-section + tab + state icons</strong> — refine the 8-icon set introduced by this amendment (Elemental Nature, Dominant Energies, Forces in Motion, Life Chapters, Pillar Patterns, Daily compact, Reading tab, Empty placeholder). Current line-mark vocabulary is domain-grounded (wu-xing pentagram, ↑↓ arrows, decade timeline, etc.) but still geometric — Claude Design pass for either ink-wash treatment matching the day-master icons, or refined illustration in v1's stroke vocabulary. Drop-in targets: <code class="token">.icbox svg</code> (cards), <code class="token">.tab .ico</code> (tab). Tracks DA.9. <span class="fidelity-badge fid-polish">priority 1.5</span></li>
         <li><strong>Reveal page vertical rhythm</strong> — §A1 fits everything but feels tight at 844px. Claude Design pass on padding / breathing-room / margin-collapse. <span class="fidelity-badge fid-mid">priority 2</span></li>
         <li><strong>γ inline-expansion motion plate</strong> — §A4 shows static before/after; an animated loop (or a third intermediate-state phone) would communicate the transition's feel. <span class="fidelity-badge fid-mid">priority 3</span></li>
-        <li><strong>Tab-bar fade-in moment</strong> — first appearance of the tabbar (transition from Reveal to Reading) deserves its own §, possibly under v3's animation specs (DOC5 §4). <span class="fidelity-badge fid-mid">priority 3</span></li>
+        <li><strong>Tab-bar fade-in moment</strong> — first appearance of the tabbar (transition from Reveal to Reading) deserves its own §, possibly under v3's animation specs (DES_04 §4). <span class="fidelity-badge fid-mid">priority 3</span></li>
         <li><strong>Featured card pigment data-flow</strong> — §A6 Featured uses Metal as the example. Wire the pigment to the user's primary dominant element so the catalogue's "next read" cue picks up the user's chart. Implementation note for engineering, not Claude Design. <span class="fidelity-badge fid-mid">priority 4</span></li>
       </ol>
     </div>
@@ -1841,7 +1841,7 @@
 
     <h3 class="eyebrow bronze" style="margin:32px 0 14px">What's not here that probably should be eventually</h3>
     <ul style="font-family:'EB Garamond',serif; font-size:13.5px; color:var(--inkSoft); line-height:1.7">
-      <li>A dedicated Chart-Reveal page (4 pillars layout) — DOC5 §9 specs it textually; v3 references it in the nav map but doesn't render. Worth a §A9 in a future amendment.</li>
+      <li>A dedicated Chart-Reveal page (4 pillars layout) — DES_04 §9 specs it textually; v3 references it in the nav map but doesn't render. Worth a §A9 in a future amendment.</li>
       <li>Reading "footer" pattern — what closes a long reading? Suggested next-read? Bookmark? "Continue with Pillar Patterns →"? Not addressed.</li>
       <li>Reading-list filter / sort — if the catalogue grows past 6 cards, search/filter affordance becomes necessary. Out of scope for amendment.</li>
       <li>Onboarding integration — when a user first arrives at Reading, the catalogue shouldn't all read as "new". Some onboarding affordance (badges, glow, ordering) for unread sections.</li>
@@ -1851,7 +1851,7 @@
 
 <footer>
   <span>elementum-design-legend-v3-screens-amendment.html · sealed against <span class="seal-mark">●</span> v1 · v2 · v3</span>
-  <span>amendment · DOC5 §11 IA reframe · 8 sections · 8 drift items</span>
+  <span>amendment · DES_04 §11 IA reframe · 8 sections · 8 drift items</span>
 </footer>
 
 </div>
