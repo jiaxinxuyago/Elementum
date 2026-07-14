@@ -19,6 +19,21 @@ variants-2.html — Mockups F · G · H: the EQUAL-LOAD pivot. C–E led with th
                 purest (four-line placard + twin Day Master/Prescription
                 cards). F is live-interactive. Core keywords (Precision ·
                 Standard · Edge) are placeholders pending the finessing pass.
+layouts.html  — LAYOUTS M · N · O (CURRENT): the four locked components in
+                three arrangements, unified against primitives-library.html
+                (walnut archetype names, Cinzel pill-CTA, element eyebrows
+                at the 80%-alpha step, italics as microcopy only) and the
+                current-screens gallery. All clickable, all scrollable.
+                M THE CLEARED DESK: identity leaves the scroll — a head
+                pill / the seal / the "You are" stone open the shareable
+                card as a FLOATING WINDOW (Share/Save/Copy); four lines as
+                a 2x2 stones grid; tiles as a horizontal snap carousel.
+                N THE ANCHOR WHEEL: wheel takes the hero slot; four lines
+                as dd-card deed rows; identity as a blade bleed-banner;
+                catalyst-spanning tile grid. O THE LEDGER: the four lines
+                as a poster-scale engraved placard (best four-lines
+                treatment); identity as a strip; energies as quiet rows.
+                Recommendation: M structure + O placard, N as test control.
 journey.html  — PROTOTYPE J-01 (CURRENT): the full reading journey as a
                 CLICKABLE prototype — one phone, real navigation. Composes
                 the four locked components: C1 the four-line summary,
