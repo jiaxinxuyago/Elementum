@@ -1,12 +1,12 @@
-# Elementum · Doc 5 — App Design Document
+# Elementum · DES_04 — App Design Document
 
 > **Formerly DOC5** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC5" refer to this file (registry: Documents/README.md).
 
 > **⚠ v2.1 RECONCILIATION (2026-06-24 · see `DES_09_Reading_V2.1_Reconciliation_Audit.md`).** Design deltas: (1) a new **FACES prologue** is inserted *inside* the reading layer (between the catalogue and the text-heavy reading) — it is **not a new IA node**, so the §AM.1 locked table (`catalogue → reading`) **stays intact**. The face card shows, per persona: dominant-energy abstract + punchline + keywords + **ruling domain**. *(Component spec: the "Energy Faces screen" subsection in §11.)* (2) The reading unit (§11) is now **persona-scoped** (one Ten-God persona), read at a depth set by its **presence frame** (dominant/present/scarce/absent). (3) An element shows **1–2 faces strictly by calculation**; full-element absence is the ghost/cultivation read. (4) **Energy-level polarity surfaces as the two FACES** (personas), not as a per-energy yin/yang label. NB the **DM identity "Polarity chip"** (§9 — the Yang/Yin badge tile) **stays**: "Yin/Yang" is permitted as the stem register per the vocabulary law (only the term "polarity" is internal). *[Corrects the first-pass banner, which over-flagged this chip as a jargon violation.]* (5) The §AM.8/D3 **six-row → five-element** catalogue reconciliation is tracked separately as **D14 (extends D13)** in `DES_13_Design_Audit_Backlog.md`, not forced by v2.1. (6) **NEW positional axis (宫位, B6):** add a per-pillar **positional reading** surface (年 / 月 / 日支-夫妻宫 / 时 × Ten God × polarity); the engine already computes per-pillar TGs, composed via `PALACE_FRAMES × chart.tenGods` (DES_05 §1–§4, DES_02 §2.7b).
 
-This document is the primary reference for all UI and interaction design work in Elementum. It is the contract between the design vision, the frontend implementation, and the data contracts defined in Doc 2. Designers use it to understand intent. Engineers use it to understand what to build and what data powers each component.
+This document is the primary reference for all UI and interaction design work in Elementum. It is the contract between the design vision, the frontend implementation, and the data contracts defined in DES_01. Designers use it to understand intent. Engineers use it to understand what to build and what data powers each component.
 
-**Reading order:** Read Doc 2 §2 and §6–8 before this document. Doc 5 describes how to render the data; Doc 2 describes what the data is.
+**Reading order:** Read DES_01 §2 and §6–8 before this document. DES_04 describes how to render the data; DES_01 describes what the data is.
 
 ---
 
@@ -124,7 +124,7 @@ The default state of every screen shows you the most personally relevant content
 | Accent deepest | Walnut | `#5a4430` | Hover states, pressed CTAs |
 | Gold highlight | Gold | `#D4AF37` | Navigation active indicator, special moments |
 
-**Element colors (LOCKED — from Doc 2 §2):**
+**Element colors (LOCKED — from DES_01 §2):**
 
 | Element | Display | Hex | Deep variant | Deep hex |
 |---|---|---|---|---|
@@ -207,9 +207,9 @@ All section label headings within the Elemental Nature reading page (and any fut
 
 ## §3.5 — Locked Component Primitives (anchor-derived)
 
-These primitives are extracted from `Design/northstar-anchor.html` — the self-contained extract of the V1 Reveal + Energy Map prototype. Together with §2 (color) and §3 (typography), they form the visual contract every screen, card, and component must obey.
+These primitives are extracted from `Design/assets/Legends/northstar-anchor.html` — the self-contained extract of the V1 Reveal + Energy Map prototype. Together with §2 (color) and §3 (typography), they form the visual contract every screen, card, and component must obey.
 
-**See also:** `Design/legend-primitives.html` — the rendered design legend that visually documents every rule in this section (color palette, type specimen, eyebrow library, radius scale, spacing scale, card surfaces, component primitives, italic gallery, border palette, anti-patterns, page templates, drift log). When in doubt about how a rule looks rendered, open the legend. The companion `Design/legend-patterns.html` covers screen-level assemblies (welcome, onboarding, loading, tab nav, modals, forms, status, page header).
+**See also:** `Design/assets/Legends/legend-primitives.html` — the rendered design legend that visually documents every rule in this section (color palette, type specimen, eyebrow library, radius scale, spacing scale, card surfaces, component primitives, italic gallery, border palette, anti-patterns, page templates, drift log). When in doubt about how a rule looks rendered, open the legend. The companion `Design/assets/Legends/legend-patterns.html` covers screen-level assemblies (welcome, onboarding, loading, tab nav, modals, forms, status, page header).
 
 **Authority:** The anchor is the source of truth. When DES_04 and the anchor disagree, fix DES_04 to match the anchor (not the other way around). When app code drifts from the anchor, fix the app code. New patterns require a doc patch *before* implementation.
 
@@ -2344,7 +2344,7 @@ Pip dimensions: 16px × 6px, gap 2px, border-radius 3px.
 
 SVG seal per stem (10 seals). Props: `stem`, `color`, `size` (default 72px). Each seal is a geometric composition using 1.5px strokes.
 
-See Doc 2 §2 for each stem's concept:
+See DES_01 §2 for each stem's concept:
 甲 → branching tree · 乙 → spiral vine · 丙 → radiating sun · 丁 → upward flame · 戊 → layered peak · 己 → cultivation grid · 庚 → bisected hexagon · 辛 → faceted diamond · 壬 → depth rings · 癸 → wave arcs
 
 ---

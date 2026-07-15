@@ -1,4 +1,4 @@
-# Elementum · Doc 4 — Generation Architecture & Reading Content Guide
+# Elementum · DES_03 — Generation Architecture & Reading Content Guide
 
 > **Formerly DOC4** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC4" refer to this file (registry: Documents/README.md).
 
@@ -8,7 +8,7 @@
 > This document replaces all prior generation architecture. The old three-pass pipeline (portrait prewrite → persona card → reading schema) is retired. `archetypeSource.js` is the single source of truth for all field names, reading templates, and knowledge-pool content. Two pre-generated serving files exist: `STEM_CARD_DATA.js` (150 configuration-specific entries) and `DomEnergyTg_Data.js` (50 compound archetype cards). Generated content beyond those files is limited to the self-report synthesis pass (on purchase).
 
 > **Cross-reference (added with DES_07).**
-> Field shapes, tier gating per field, and `varyBy` cardinality now live in the canonical schema: [`Elementum_App/src/content/archetypeSchema.js`](../../Elementum_App/src/content/archetypeSchema.js).
+> Field shapes, tier gating per field, and `varyBy` cardinality now live in the canonical schema: [`Elementum_App/src/contract/archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js).
 > Designer-facing companion grouped by UI surface: [DES_07 — Archetype Fields](./DES_07_Archetype_Fields.md).
 > The full tag library (stem, tg, element, band, tgPattern, branch, season, gender, lifeDomain, lifeStage, lifePeriod, annualPillar) is documented in DES_07 → "VaryBy Tag Library". Use it to classify any new field without colliding with existing archetype universes.
 > The DevBar `Schema` tab visualizes coverage and cardinality against this schema for the active stem.
@@ -237,7 +237,7 @@ Every TG card is governed by a **locked reading angle** — a single lens that a
 ## §4 — Data Architecture & Field Reference
 
 > **⚠ Partial overlap with the schema (DES_07 / archetypeSchema.js).**
-> The field names, types, and tier tables in this section duplicate what is now canonically declared in [`archetypeSchema.js`](../../Elementum_App/src/content/archetypeSchema.js) and documented by UI surface in [DES_07](./DES_07_Archetype_Fields.md).
+> The field names, types, and tier tables in this section duplicate what is now canonically declared in [`archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js) and documented by UI surface in [DES_07](./DES_07_Archetype_Fields.md).
 > This section is retained for historical continuity and to keep DES_03's orchestration/rendering discussion self-contained. When field specifics diverge between this section and the schema, the schema wins. Candidate for consolidation to a pointer once DES_07 matures.
 
 ### Source of truth: `archetypeSource.js`
