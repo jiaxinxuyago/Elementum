@@ -1,4 +1,4 @@
-# -----------------------------------------------------------------------------
+﻿# -----------------------------------------------------------------------------
 # setup-backup-key.ps1 -- one-time setup for the customer-data backup routine
 # -----------------------------------------------------------------------------
 # Stores the Supabase service key as the ELEMENTUM_SUPABASE_SERVICE_KEY user
