@@ -1,4 +1,4 @@
-# Elementum · Doc 2 — Archetype System
+# Elementum · DES_01 — Archetype System
 
 > **Formerly DOC2** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC2" refer to this file (registry: Documents/README.md).
 
@@ -28,9 +28,9 @@ So when a reading says a bound or clashed energy "feels constrained," that is th
 | Tier 1 | User-facing identity — the anchor, the recognition moment | The user | Identity card |
 | Tier 2 | Internal reading derivation — what drives the layered content | The engine | Three computed layer keys |
 
-### The cardinal rule from Doc 1
+### The cardinal rule from DEV_01
 
-The calculation engine (Doc 1) outputs a Canonical JSON object. This document operates entirely from that JSON — never from raw birth data, never from LLM calculation. The calculation engine is the only place where numbers are computed.
+The calculation engine (DEV_01) outputs a Canonical JSON object. This document operates entirely from that JSON — never from raw birth data, never from LLM calculation. The calculation engine is the only place where numbers are computed.
 
 ---
 
@@ -164,7 +164,7 @@ Example: 庚_concentrated_pure
 
 **Note on 5 vs 7 tgPattern values:** The yin/yang polarity split within Output (食神/伤官) and Authority (正官/七杀) is resolved at Layer 2 via the specific Ten God. tgPattern at Layer 1 describes the structural family only.
 
-**One key is hand-authored as the reference standard:** `庚_concentrated_pure` — see Doc 4 §11 for the full reference reading.
+**One key is hand-authored as the reference standard:** `庚_concentrated_pure` — see DES_03 §11 for the full reference reading.
 
 ### Layer 2 key (element × specific Ten God)
 
@@ -302,7 +302,7 @@ Chart: 乙亥 庚辰 庚寅 乙酉 · DM: 庚 Metal · **strong (0.72) · concen
 | **Version** | 1.1  ·  April 2026 |
 | **Status** | LOCKED — archetypes, taxonomy, and key formulas are structural definitions |
 | **Audience** | Engineers, product, generation system |
-| **Purpose** | Single source of truth for the archetype identity system and layer key taxonomy. What each archetype is, how keys are computed, and the full 50-key interaction map. Nothing about reading content, deliverable layout, or generation — those live in Doc 4. |
+| **Purpose** | Single source of truth for the archetype identity system and layer key taxonomy. What each archetype is, how keys are computed, and the full 50-key interaction map. Nothing about reading content, deliverable layout, or generation — those live in DES_03. |
 | **Stability** | HIGH — the taxonomy is the contract. Changes require updating batchGenerate.js and Elementum_Engine.jsx |
-| **Used by** | Elementum_Engine.jsx · batchGenerate.js · Doc 4 · Doc 5 |
-| **Compatible with** | Doc 1 v1.0  *(Doc 6 was the Manual — retired; Doc 6 now = Reading Schema)* |
+| **Used by** | Elementum_Engine.jsx · batchGenerate.js · DES_03 · DES_04 |
+| **Compatible with** | DEV_01 v1.0  *(Doc 6 was the Manual — retired; Doc 6 now = Reading Schema)* |
