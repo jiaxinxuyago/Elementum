@@ -1,4 +1,4 @@
-# PM_02 · Day Log
+# PM_03 · Day Log
 
 **THE one file for daily project state.** Newest day on top; entries are
 APPEND-ONLY (this is a RECORD doc — never rewrite past days). Written daily

@@ -1,4 +1,4 @@
-# Elementum · Doc 1 — Calculation Engine Specification
+# Elementum · DEV_01 — Calculation Engine Specification
 
 > **Formerly DOC1** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC1" refer to this file (registry: Documents/README.md).
 
@@ -22,7 +22,7 @@ LAYER 1: JavaScript Calculation Engine          ← THIS DOCUMENT
 LAYER 2: Static Content Layer
   Input:  Canonical JSON
   Output: Pre-written readings by key lookup
-  See:    Doc 2 — Archetype System
+  See:    DES_01 — Archetype System
 
 LAYER 3: LLM Reading Generator [FUTURE]
   Input:  Canonical JSON
@@ -599,5 +599,5 @@ Run these against any new implementation before going to production:
 | **Purpose** | Single source of truth for all BaZi math. The deterministic input → Canonical JSON pipeline. No content, no LLM, no design. |
 | **Stability** | HIGH — changes only when calculation logic changes |
 | **Used by** | Elementum_Engine.jsx · batchGenerate.js (via JSON output) |
-| **Compatible with** | Doc2 v1.0 · Doc6 v1.0 |
+| **Compatible with** | DES_01 v1.0 · DES_05 v1.0 |
 | **Verified against** | 穷通宝鉴 · 子平真诠 · shen88.cn · ebaicha.cn · junzige.com |
