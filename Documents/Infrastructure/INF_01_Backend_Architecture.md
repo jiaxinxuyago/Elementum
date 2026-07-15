@@ -4,8 +4,8 @@
 
 ## Accounts · Payments · LLM · Push — a server-free, managed-backend plan
 
-**Version:** 0.1 · June 2026 (draft — pre-implementation)
-**Related docs:** DEV_02 (code architecture) · DES_04 §19 (pricing & content tiers) · DEV_01 (calculation engine — client-side) · DES_06 / D7 (Self-Report)
+**Version:** 0.5 · July 2026
+**Related docs:** DEV_02 (code architecture) · DES_04 §19 (pricing & content tiers) · DEV_01 (calculation engine — client-side) · DES_13 §D7 (Self-Report)
 **Status:** **Planning.** No *server* backend exists yet. The app runs **fully client-side** with deliberate demo stubs placed at clean integration seams (tier, entitlement, consultant, notifications). This document is the spec + sequencing for the eventual build, and the rationale for **deferring it to a pre-beta phase**.
 > **Update (2026-07):** §4.1 Auth and §4.2 Payments are **SHIPPED** — Supabase accounts (purchase-gated sign-in) + the Founding Pass with a **server-verified entitlement pipeline** (Stripe webhook → entitlements DB; see §4.2). §4.3 LLM and §4.4 Push remain client-side stubs.
 
@@ -82,7 +82,7 @@ Each item lists: **what**, the **server piece**, the **client seam it replaces**
 - **Decision:** full auth vs. a lightweight "email + magic-link at purchase" model. Full auth is needed for cross-device + per-user LLM limits.
 
 ### §4.2 Payments — Seeker subscription + Self-Report one-time
-- **What:** real money for the Seeker tier ($9.99/mo, DES_04 §19) and the Self-Report add-on ($6.99 one-time, D7).
+- **What:** real money for the Seeker tier ($9.99/mo, DES_04 §19) and the Self-Report add-on ($6.99 one-time, DES_13 §D7).
 - **Server piece:** Stripe hosts the payment UI (PCI-compliant) + **one** serverless webhook that writes entitlements to the DB on `checkout.session.completed` / subscription events.
 - **Client seam:** today `UpgradeModal` flips `tier` in memory and `purchaseSelfReport()` flips `hasSelfReport` in `localStorage` (demo). Replace: the upgrade/purchase CTAs open Stripe Checkout; `useChart().tier` / `hasSelfReport` read from the server (DB) instead of `localStorage`. **Delete the `window.__setTier` / `__buySelfReport` dev backdoor's authority** (already IS_DEV-gated).
 - **Workload:** medium (days code) + non-code: Stripe account, products/prices, **tax** (consider a Merchant-of-Record to offload VAT).
@@ -144,7 +144,7 @@ Apple Pay / Google Pay are **not a separate integration** — their availability
 ### §4.3 AI Consultant — real LLM
 - **What:** replace scripted replies with a real model that has the user's chart + Energy Manual + Self-Report.
 - **Server piece:** a serverless **proxy** holding the API key, injecting context into a system prompt, streaming the response back; enforces rate-limits + a per-user cost cap.
-- **Client seam:** `AIConsultantScreen.jsx` already **simulates token streaming**; `buildReplies(chart, selfReport)` returns scripted text. Swap `buildReplies`/`send()` to `fetch` the proxy (SSE/stream). The streaming UI, context bar, and Self-Report wiring already exist (D7).
+- **Client seam:** `AIConsultantScreen.jsx` already **simulates token streaming**; `buildReplies(chart, selfReport)` returns scripted text. Swap `buildReplies`/`send()` to `fetch` the proxy (SSE/stream). The streaming UI, context bar, and Self-Report wiring already exist (DES_13 §D7).
 - **Workload:** medium basic / **ongoing for quality**. Hard parts: prompt design, cost caps + rate-limiting (per-token spend), guardrails/abuse, latency.
 - **Depends on:** §4.1 (per-user limits). **Highest product uncertainty + ongoing cost of the four** — the scripted version is an acceptable demo placeholder.
 
