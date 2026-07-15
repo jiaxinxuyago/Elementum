@@ -39,7 +39,7 @@ scenario is.
 Checklist (apply to every changed function/component):
 
 - **C1 — Edge inputs.** Null/undefined props, empty arrays, missing chart/profile data
-  (the app must run anonymously and pre-onboarding — `supabase.js` null-safety is the
+  (the app must run anonymously and pre-onboarding — `infra/supabase.js` null-safety is the
   model), absent localStorage keys, malformed JSON from network.
 - **C2 — Async discipline.** Every `await` that can reject is handled or deliberately
   allowed to propagate to an ErrorBoundary; no floating promises in workers
@@ -183,7 +183,7 @@ without reading git history?*
     strings and silently breaks parsing (precedent: the 2026-07-08 daily-QA
     task failure). New/edited `.ps1` must keep the BOM; non-ASCII characters
     stay out of code strings. Any `.ps1` edit must be followed by a parse
-    check (`[Language.Parser]::ParseFile`) or a real run. MEDIUM.
+    check (`[System.Management.Automation.Language.Parser]::ParseFile`) or a real run. MEDIUM.
 - **A10 — Change-set scope discipline.** A change-set (commit or small commit train)
   is reviewable only if its blast radius is legible:
   - **One concern per commit** — a feature commit does not smuggle unrelated
