@@ -182,9 +182,9 @@ Elementum_App/, real filesystem).
 `npx wrangler secret bulk <json-file> --config workers/push/wrangler.jsonc`
 (JSON `{"REPORT_KEY":"<key>"}`; then redeploy the push worker). Never commit it.
 
-**3.5 Scheduled agents** — recreate the four routines from the committed
+**3.5 Scheduled agents** — recreate the six routines from the committed
 prompt copies in `Elementum_App/tools/routines/` (daily: triage ~14:27, code
-review ~15:07, fix dispatch ~15:52 local; project manager ~16:41 (Mondays full sweep); the scheduler adds jitter). After
+review ~15:07, fix dispatch ~15:52 local; project manager ~16:41 (Mondays full sweep); budget report ~10:17 on the 1st (cron 17 10 1 * *); data analyst Tuesdays ~11:07 (cron 7 11 * * 2, hibernating); the scheduler adds jitter). After
 creating, click **Run now** once on each to pre-approve their tools. If a
 prompt is edited later, update BOTH the live task and the repo copy — the repo
 copy is the durable source.
