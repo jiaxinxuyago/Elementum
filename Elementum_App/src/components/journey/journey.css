@@ -1165,3 +1165,7 @@
 .jny .vdf-codex{align-self:flex-start;appearance:none;background:none;border:none;padding:0;font-family:'EB Garamond',Georgia,serif;font-size:12.5px;color:var(--bronzeDark);text-decoration:underline;text-underline-offset:2px;cursor:pointer}
 /* footnote float must clear every in-screen layer (dock z70, pills, hero) */
 .jny .vdfloat{z-index:130 !important}
+/* pull the footnote register up over the merged dock's reserved strip (60px)
+   so it closes ranks with the shelf hint; when the dock re-summons the footer
+   is far below the viewport, so the overlap never shows. */
+.jny .fn-notes{margin-top:-52px}
