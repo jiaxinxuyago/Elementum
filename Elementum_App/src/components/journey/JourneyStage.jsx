@@ -23,7 +23,7 @@ import { useChart } from '../../store/chartContext.jsx';
 import { useReading } from '../reading/useReading.js';
 import { STEM_CARD_DATA } from '../../content/index.js';
 import ShareCardOverlay from '../share/ShareCardOverlay.jsx';
-import { buildJourneyModel, buildElementScreen, buildDmCards } from './journeyData.js';
+import { buildJourneyModel, buildElementScreen, buildDmCards, buildFootnotes } from './journeyData.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
 
@@ -49,7 +49,7 @@ const Disc = () => (
   <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor" /></svg>
 );
 
-export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onOpenDayMaster }) {
+export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onOpenDayMaster, onOpenCodex }) {
   const { birthData } = useChart();
   const { chart, ec, identity } = useReading();
   const [screen, setScreen] = useState('catalogue');
@@ -57,6 +57,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   const [openPill, setOpenPill] = useState(null);  // shelf accordion
   const [showShare, setShowShare] = useState(false);
   const [insOpen, setInsOpen] = useState(null);    // inscription line unfold
+  const [fnOpen, setFnOpen] = useState(null);      // footnote float (cond|cat|fric)
   const [folioOpen, setFolioOpen] = useState(false);
   const [toast, setToast] = useState(null);
 
@@ -325,6 +326,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
 
   const elScreen = elOpen ? buildElementScreen(m, elOpen) : null;
   const dmCards = buildDmCards(m);
+  const footnotes = buildFootnotes(m);
+  const condIcon = m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged';
+  const fnNote = fnOpen ? footnotes[fnOpen] : null;
 
   return (
     <div className="jny jphone" data-css="phoneP" data-grand="v1" data-ca="dock" data-journey="compass" data-art="bloom">
@@ -361,6 +365,21 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
             <div className="pagetint2" />
             <div className="eltint" />
             <div className="pghead"><span className="pg-eyebrow">YOUR READING</span></div>
+            {fnNote && (
+              <div className="vdfloat" onClick={(e) => { if (e.target === e.currentTarget) setFnOpen(null); }}>
+                <div className="vdf-card" role="dialog" aria-label={fnNote.title}>
+                  <button className="vdf-x" aria-label="Close" onClick={() => setFnOpen(null)}>
+                    <svg viewBox="0 0 24 24" style={{ width: 10, height: 10 }}><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" fill="none" /></svg>
+                  </button>
+                  <div className="vdf-b">
+                    <h6>{fnNote.title}</h6>
+                    <span className="cor-v">{fnNote.body}</span>
+                    {fnNote.forYou && <span className="cor-v" style={{ color: 'var(--bronzeDark)' }}>{fnNote.forYou}</span>}
+                    <button className="vdf-codex" onClick={() => { setFnOpen(null); if (onOpenCodex) onOpenCodex(); }}>Deeper in the Codex →</button>
+                  </div>
+                </div>
+              </div>
+            )}
             <div className="scrollwrap" ref={swRef}>
               <div className="padv2" ref={padRef}>
 
@@ -408,9 +427,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                       <span className="ik-chip"><Use id={`el-${m.core.el}`} className="elmark" /><span className={`ik-plate a-${m.core.el}`} /></span>
                       <span className="fold-t">
                         <span className="fl1">Your Core Energy is <b>{m.core.name}</b></span>
-                        <span className="fl2">It runs <span className="role-pill cond"><Use id={m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged'} />{m.condition}</span> — {m.foldVerdict}</span>
+                        <span className="fl2">It runs <span className="role-pill cond" role="button" tabIndex={0} onClick={(e) => { e.stopPropagation(); setFnOpen('cond'); }}><Use id={condIcon} />{m.condition}</span> — {m.foldVerdict}</span>
                       </span>
-                      <button className="ins-q" aria-label="Open the Codex — the deeper reading of these terms" onClick={(e) => { e.stopPropagation(); flash('The Codex — deeper knowledge, coming with the Codex page'); }}>?</button>
+                      <button className="ins-q" aria-label="Open the Codex — the deeper reading of these terms" onClick={(e) => { e.stopPropagation(); if (onOpenCodex) onOpenCodex(); else flash('The Codex — deeper knowledge'); }}>?</button>
                     </div>
                     <div className="ins-para">
                       <button className="ins-line" aria-expanded={insOpen === 'core'} onClick={() => insToggle('core')}>
@@ -458,7 +477,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                     <div className="rxvars" data-rx="columns">
                       <div className="vx-pair" data-rxpane="columns">
                         <div className="vx-box">
-                          <div className="vx-ey"><span>SEEK THESE</span><span className="role-pill cat"><Use id="ar-up" />Catalyst</span></div>
+                          <div className="vx-ey"><span>SEEK THESE</span><span className="role-pill cat" role="button" tabIndex={0} onClick={() => setFnOpen('cat')}><Use id="ar-up" />Catalyst</span></div>
                           {m.seek.map((r) => (
                             <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => expandPill(r.el)}>
                               <span className={`ik-chip${r.missing ? ' ghosted' : ''}`}><Use id={`el-${r.el}`} className="elmark" /><span className={`ik-plate a-${r.el}`} /></span>
@@ -467,7 +486,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                           ))}
                         </div>
                         <div className="vx-box">
-                          <div className="vx-ey"><span>SKIP THESE</span><span className="role-pill fric"><Use id="ar-down" />Friction</span></div>
+                          <div className="vx-ey"><span>SKIP THESE</span><span className="role-pill fric" role="button" tabIndex={0} onClick={() => setFnOpen('fric')}><Use id="ar-down" />Friction</span></div>
                           {m.skip.map((r) => (
                             <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => expandPill(r.el)}>
                               <span className="ik-chip"><Use id={`el-${r.el}`} className="elmark" /><span className={`ik-plate a-${r.el}`} /></span>
@@ -521,6 +540,16 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                     ))}
                   </div>
                   <div className="shelf-hint"><span className="uico"><Use id="ico-arrow-r" /></span>Tap any pill to unfold it — the dark circle inside opens its full reading</div>
+
+                  {/* footnotes — the taught terms, each a door to its definition + the Codex */}
+                  <div className="fn-notes" aria-label="What these words mean">
+                    <span className="fn-ey">THE WORDS ON THIS PAGE · TAP ONE</span>
+                    <div className="fn-chips">
+                      <button className="role-pill cond" onClick={() => setFnOpen('cond')}><Use id={condIcon} />{footnotes.cond.chip}</button>
+                      <button className="role-pill cat" onClick={() => setFnOpen('cat')}><Use id="ar-up" />{footnotes.cat.chip}</button>
+                      <button className="role-pill fric" onClick={() => setFnOpen('fric')}><Use id="ar-down" />{footnotes.fric.chip}</button>
+                    </div>
+                  </div>
                 </div>
 
                 <div className="ca-dock" aria-label="Your readings — open any energy">

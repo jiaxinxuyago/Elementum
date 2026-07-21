@@ -304,6 +304,38 @@ export function buildElementScreen(model, el) {
   };
 }
 
+// ── footnotes — the jargon chips below the shelf (owner 2026-07-17) ─
+// Brief in-place explanations for the three taught terms; each floats a
+// definition card and doors into the Codex. Condition/approach lines are
+// the §5c LOCKED definitions; Catalyst/Friction are the role definition
+// lines (DES_12 §5c panel doctrine register — owner wordsmith pending).
+export function buildFootnotes(model) {
+  const seekNames = model.seek.map((r) => r.name);
+  const skipNames = model.skip.map((r) => r.name);
+  return {
+    cond: {
+      chip: model.condition,
+      title: `It runs ${model.condition}`,
+      body: DEFLINE[model.condition],
+      forYou: model.apprLine
+        ? `So ${model.apprLine.verb} it — ${model.apprLine.tail}`
+        : 'Nothing to force; keep the mix.',
+    },
+    cat: {
+      chip: 'Catalyst',
+      title: 'Catalyst — the energy you seek',
+      body: 'The energy your chart asks for — more of it moves you. Seek it on purpose: places, work, people, seasons that carry it.',
+      forYou: seekNames.length ? `For you: ${seekNames.join(' · ')}.` : null,
+    },
+    fric: {
+      chip: 'Friction',
+      title: 'Friction — the energy you skip',
+      body: 'Your own strength overgrown — more of it costs you. Nothing to fix; just stop adding what you already hold.',
+      forYou: skipNames.length ? `For you: ${skipNames.join(' · ')}.` : null,
+    },
+  };
+}
+
 // Day-master screen prescription cards (element-generic interim copy)
 export function buildDmCards(model) {
   const need = model.seek[0];

@@ -537,6 +537,7 @@ export default function App() {
           onDone={() => setScreen('app-reading')}
           onOpenEnergy={openEnergy}
           onOpenDayMaster={goto('app-daymaster')}
+          onOpenCodex={goto('app-codex')}
         />
       );
       break;
@@ -632,7 +633,7 @@ export default function App() {
     case 'app-reading':
       // P6 journey catalogue (answer-first): hero → wheel + Folio → SEEK/SKIP
       // → towers + seal dock. Endpoints route into the existing reading pages.
-      rendered = <JourneyStage onOpenEnergy={openEnergy} onOpenDayMaster={goto('app-daymaster')} />;
+      rendered = <JourneyStage onOpenEnergy={openEnergy} onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} />;
       break;
     case 'app-daymaster':
       // D13 P4 — the Day Master reference card; "Birth Chart" → P5.

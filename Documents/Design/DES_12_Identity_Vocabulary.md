@@ -382,6 +382,19 @@ rows keep their relation-noun subtitles ("your Core", "your Root") precisely so 
 "already yours" rather than "not for you"; if testing shows the Core row still stings, the approved
 mitigation is a one-line footnote on the friction panel: *"Already strong in you — no need to add."*
 
+### Footnote doctrine (owner 2026-07-17 — jargon chips → float → Codex)
+
+The space below the five tiles is the **footnote register**: a dotted-rule footer ("THE WORDS ON THIS
+PAGE · TAP ONE") carrying the page's taught-term chips — the user's condition (Overfueled/Balanced/
+Underfueled), Catalyst, Friction. Tapping a chip (or any in-context occurrence: the Folio's condition
+pill, the SEEK/SKIP header pills) floats a definition card (the prototype's vdfloat chrome): term title
+→ its LOCKED definition line → a personalized "For you: …" line (the chart's actual element lists) →
+**"Deeper in the Codex →"** which routes to the existing Codex page (app-codex). The Folio's ?-circle
+routes straight to the Codex (P-09i). Role definition lines shipped with this surface (owner wordsmith
+pending): *Catalyst — "The energy your chart asks for — more of it moves you. Seek it on purpose:
+places, work, people, seasons that carry it."* · *Friction — "Your own strength overgrown — more of it
+costs you. Nothing to fix; just stop adding what you already hold."*
+
 ### Reconciliation & required fixes
 - **Internal band keys untouched:** `concentrated/balanced/open` remain the code/content keys (150-key
   system); Charged/Balanced/Receptive are DISPLAY terms — same key-vs-label split as personas. DES_08

@@ -1155,3 +1155,11 @@
 .jny .scr2{inset:0;border-radius:0}
 .jny .notch,.jny .tabbar2{display:none}
 .jny .gseal.gimg{background-size:contain;background-repeat:no-repeat}
+
+/* ═══ footnotes — the jargon chips below the shelf (owner 2026-07-17) ═══ */
+.jny .fn-notes{margin:12px 2px 0;padding-top:10px;border-top:1px dotted rgba(139,115,85,0.28);display:flex;flex-direction:column;gap:8px}
+.jny .fn-ey{font-family:'EB Garamond',Georgia,serif;font-size:8.5px;font-weight:500;letter-spacing:2.2px;color:var(--inkLight)}
+.jny .fn-chips{display:flex;gap:8px;flex-wrap:wrap}
+.jny .fn-chips button.role-pill{appearance:none;border:none;cursor:pointer;font:inherit}
+.jny .role-pill[role="button"]{cursor:pointer}
+.jny .vdf-codex{align-self:flex-start;appearance:none;background:none;border:none;padding:0;font-family:'EB Garamond',Georgia,serif;font-size:12.5px;color:var(--bronzeDark);text-decoration:underline;text-underline-offset:2px;cursor:pointer}
