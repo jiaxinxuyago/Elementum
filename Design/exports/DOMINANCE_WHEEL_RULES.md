@@ -76,6 +76,25 @@ RING_ANGLES = [ −90°, −18°, 54°, 126°, 198° ]
 
 So with the demo chart: Metal (top) → Earth → Water → Wood → Fire, clockwise.
 
+### ⚠ AMENDMENT (owner ruling 2026-07-16 · journey-handoff integration) — condition-dependent seating
+
+Seating now depends on the chart's §5c condition (DES_12):
+
+| Condition | Seating law |
+|---|---|
+| **Overfueled** or **Balanced** | The **Core element always crowns the wheel** (top, −90°); the remaining four order **high → low counter-clockwise** starting from the slot at the Core's right (handoff `template-data.json` wheel_placement_law). |
+| **Underfueled** | **Dominance order, counter-clockwise**: the most dominant element at top, remaining elements CCW in descending presence (the mirror of the old clockwise rule). The core sits wherever its presence ranks. |
+
+Interpretation note: the owner's ruling verbatim — "if the day master is overfueled/balanced, the
+core must stay on top; if it is underfueled, make the dominance order counterclockwise." The
+Underfueled row above reads that as presence-led seating (core NOT pinned to top) in CCW direction —
+if the core should stay top for Underfueled charts too, only the direction differs; correct this row.
+The old always-clockwise presence mode below is RETIRED for the catalogue wheel (kept for reference).
+Disk-size, geometry, art, and tie-break rules are unchanged. Implementation: `engine/dominanceWheel.js`
+`applyDominanceRules()` gains the condition parameter.
+
+### Presence mode (RETIRED for the catalogue — pre-2026-07-16 rule, kept for reference)
+
 ### Cycle mode (alternative seating)
 
 Seats are fixed to the **generation cycle** (相生): `metal → water → wood → fire

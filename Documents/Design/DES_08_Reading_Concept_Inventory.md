@@ -16,7 +16,7 @@
 1. **One concept, one canonical user-facing name.** Every UI surface, reading sentence, share asset, and doc uses the canonical name. A synonym on a user-facing surface is a defect.
 2. **Chinese glosses are texture, not vocabulary.** The 汉字 may appear beside the canonical name (ancient-seriousness register) but content must never *require* it.
 3. **Internal names never surface.** Engine/schema terms (`tgPattern`, "Seven Killings", "Indirect Seal", `band`) are code/docs only.
-4. **[OWNER RULING 2026-06-10] Ten Gods use the mythic-persona register** (The Twin … The Sage — the council, already live in `TG_CARD_DATA`). Because persona names don't self-explain, **every surface that introduces a god MUST carry its structural definition line** (the Profile DB's mechanic phrasing, e.g. The General — "pressure that doesn't grant permission"). Persona name teaches *who*; definition line teaches *how it works*. The Profile DB's own names (The Flow, The Trial, The Root…) are hereby **aliases — do not surface.**
+4. **[OWNER RULING 2026-06-10] Ten Gods use the mythic-persona register** (The Twin … The Sage — the council, already live in `TG_CARD_DATA`). Because persona names don't self-explain, **every surface that introduces a god MUST carry its structural definition line** (the Profile DB's mechanic phrasing, e.g. The General — "pressure that doesn't grant permission"). Persona name teaches *who*; definition line teaches *how it works*. The Profile DB's own names (The Flow, The Trial, The Root…) are hereby **aliases — do not surface *as persona names*.** *[SCOPED by owner ruling 2026-07-16: this ban applies to the PERSONA-NAME slot only — the words flow/trial/harvest/root are free in other vocabulary slots; e.g. the locked relation noun **Root** (印 family) and keyword **Flow** (食神) are legal.]*
 5. **A concept may not be *used* before it is *taught***: no screen presumes a rung the journey hasn't placed (enforced by the Ladder, Part 2).
 
 ---
@@ -66,6 +66,30 @@
 | 调候 | **Seasonal Calibration** | climate adjustment |
 | 合冲刑害 | **Pillar Patterns** | combinations/clashes (definition lines ok) |
 | concentrated/balanced/open | **energy band** values (keep) | bands renamed elsewhere |
+
+> **✔ REGISTERED (DES_12 compound vocabulary — LOCKED 2026-07-16, canonical here per law #1):**
+> - **Face keywords (10, v3 final):** 比肩 **Independence** · 劫财 **Rivalry** · 食神 **Flow** ·
+>   伤官 **Brilliance** · 偏财 **Reach** · 正财 **Caution** · 七杀 **Force** · 正官 **Order** ·
+>   偏印 **Insight** · 正印 **Care**. The keyword doubles as the face's "representation" word on
+>   reading surfaces ("The General · FORCE") — the journey handoff's separate representation
+>   lexicon (Selfhood/Craft/Challenge…) is REJECTED (owner 2026-07-16).
+> - **Relation nouns (5):** Self→**Core** · Output→**Voice** · Wealth→**Drive** · Authority→**Duty**
+>   · Resource→**Root**.
+> - **Identity-hero chips:** the top-3 keyword code (three loudest elements' lead-face keywords,
+>   dominance-ordered) — never authored, always derived.
+> - Element **modifiers** RETIRED from glance labels (2026-07-15 — one punchy keyword per label).
+> - Pole nouns + chips: §4b (drafted, v3-revised); full detail in DES_12.
+> **LOCKED 2026-07-16 (DES_12 §5c, re-lock): DM-strength display terms 身强/中和/身弱 = Overfueled /
+> Balanced / Underfueled; remedy verbs 克泄耗/生助 = Channel / Refill.** (Supersedes the 2026-07-15
+> Charged/Receptive+Fuel set — non-symptomatic.) Need-panel headers are UNIVERSAL (state-invariant,
+> locked 2026-07-16): **SEEK THESE ↑ CATALYST / SKIP THESE ↓ FRICTION**; Balanced charts collapse
+> both panels to one "keep the mix" line. These supersede raw "strong/weak" on every surface (CodexScreen.jsx:46-52 currently
+> violates — fix pending); internal band keys concentrated/balanced/open unchanged as code/content keys. On full lock, all names register HERE as
+> canonical user-facing vocabulary (law #1); until then DES_12 is the working draft — do not source
+> names from anywhere else.
+> ⚠ Interaction with law #4: the relation-noun draft proposes **Root** (and possibly **Trial**), which
+> law #4 currently bans from surfacing as Profile-DB persona aliases. Locking §5b must either scope
+> law #4 to persona-name slots only, or pick non-alias nouns. Owner to resolve.
 
 ---
 
