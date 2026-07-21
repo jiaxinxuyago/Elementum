@@ -1163,3 +1163,5 @@
 .jny .fn-chips button.role-pill{appearance:none;border:none;cursor:pointer;font:inherit}
 .jny .role-pill[role="button"]{cursor:pointer}
 .jny .vdf-codex{align-self:flex-start;appearance:none;background:none;border:none;padding:0;font-family:'EB Garamond',Georgia,serif;font-size:12.5px;color:var(--bronzeDark);text-decoration:underline;text-underline-offset:2px;cursor:pointer}
+/* footnote float must clear every in-screen layer (dock z70, pills, hero) */
+.jny .vdfloat{z-index:130 !important}
