@@ -540,16 +540,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                     ))}
                   </div>
                   <div className="shelf-hint"><span className="uico"><Use id="ico-arrow-r" /></span>Tap any pill to unfold it — the dark circle inside opens its full reading</div>
-
-                  {/* footnotes — the taught terms, each a door to its definition + the Codex */}
-                  <div className="fn-notes" aria-label="What these words mean">
-                    <span className="fn-ey">THE WORDS ON THIS PAGE · TAP ONE</span>
-                    <div className="fn-chips">
-                      <button className="role-pill cond" onClick={() => setFnOpen('cond')}><Use id={condIcon} />{footnotes.cond.chip}</button>
-                      <button className="role-pill cat" onClick={() => setFnOpen('cat')}><Use id="ar-up" />{footnotes.cat.chip}</button>
-                      <button className="role-pill fric" onClick={() => setFnOpen('fric')}><Use id="ar-down" />{footnotes.fric.chip}</button>
-                    </div>
-                  </div>
                 </div>
 
                 <div className="ca-dock" aria-label="Your readings — open any energy">
@@ -560,6 +550,16 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                       <span className="ca-kw">{r.name}</span>
                     </button>
                   ))}
+                </div>
+
+                {/* footnotes — the page's foot, in the clearance band above the tab bar */}
+                <div className="fn-notes" aria-label="What these words mean">
+                  <span className="fn-ey">THE WORDS ON THIS PAGE · TAP ONE</span>
+                  <div className="fn-chips">
+                    <button className="role-pill cond" onClick={() => setFnOpen('cond')}><Use id={condIcon} />{footnotes.cond.chip}</button>
+                    <button className="role-pill cat" onClick={() => setFnOpen('cat')}><Use id="ar-up" />{footnotes.cat.chip}</button>
+                    <button className="role-pill fric" onClick={() => setFnOpen('fric')}><Use id="ar-down" />{footnotes.fric.chip}</button>
+                  </div>
                 </div>
               </div>
             </div>
