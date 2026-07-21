@@ -167,23 +167,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
     return () => io.disconnect();
   }, [model, screen]);
 
-  useEffect(() => {
-    if (!model || screen !== 'catalogue') return undefined;
-    const fit = () => {
-      const sw = swRef.current; const insc = inscRef.current; const b4 = beat4Ref.current;
-      if (!sw || !insc || !b4) return;
-      b4.style.minHeight = '';
-      const folioTop = insc.getBoundingClientRect().top - sw.getBoundingClientRect().top + sw.scrollTop;
-      const below = sw.scrollHeight - folioTop;
-      const delta = (sw.clientHeight - 12) - below;
-      const nat = b4.offsetHeight;
-      b4.style.minHeight = `${Math.max(nat, nat + delta)}px`;
-    };
-    const t = setTimeout(fit, 60);
-    window.addEventListener('resize', fit);
-    if (document.fonts?.ready) document.fonts.ready.then(() => setTimeout(fit, 30));
-    return () => { clearTimeout(t); window.removeEventListener('resize', fit); };
-  }, [model, screen]);
+  // (The prototype's fitLastBeat stretch — anchoring the Folio at scroll-end —
+  // was retired when the footnote register became the page's foot: the added
+  // min-height read as a dead band between the shelf hint and the footnotes.)
 
   // ── the Naming + Dissolve ────────────────────────────────────────
   useEffect(() => {
@@ -532,7 +518,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                             </span>
                             <span className="sp-hook">{r.keyword} — your {r.relation}</span>
                             <span className="sp-verdict">{r.verdict.connector} <b>{r.verdict.pole}</b> · {r.verdict.verb}</span>
-                            <span className="sp-flavor">{r.hook}</span>
+                            {r.hook ? <span className="sp-flavor">{r.hook}</span> : null}
                           </span>
                           <button className="sp-read" aria-label={`Open ${r.el} reading`} onClick={() => goElement(r.el)}><Use id="ico-arrow-r" /></button>
                         </span>

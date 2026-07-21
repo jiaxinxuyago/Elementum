@@ -130,6 +130,12 @@ export function buildJourneyModel({ chart, ec, identity, card, birthData }) {
   const condition = CONDITION[band] || 'Balanced';
   const approach = APPROACH[band] || null;
 
+  // The ENERGY_TILE hooks are authored FOR THE BLADE ("What your blade is
+  // for", "Your core — precision before intention") — on any other day master
+  // they mislead (DES_12 §6b item 6). Gate them to 庚 until the 50-cell /
+  // DM-neutral authoring pass lands; other charts fall back to glance labels.
+  const isBlade = ec.dayMaster === 'geng';
+
   const rankSorted = [...ec.energies].sort((a, b) => b.presence - a.presence);
   const rankOf = {}; rankSorted.forEach((e, i) => { rankOf[e.el] = i; });
 
@@ -162,7 +168,7 @@ export function buildJourneyModel({ chart, ec, identity, card, birthData }) {
       catalystPole: POLE_CATALYST[god] || '', frictionPole: POLE_FRICTION[god] || '',
       faceKw: (FACE_CARD[god]?.kw || []).join(' · ').toLowerCase(),
       teaser: FACE_CARD[god]?.teaser || '',
-      hook: tile.hook || '', tag: tile.pol || '',
+      hook: isBlade ? (tile.hook || '') : '', tag: tile.pol || '',
     };
   });
   const byEl = {}; els.forEach((r) => { byEl[r.el] = r; });
@@ -297,7 +303,7 @@ export function buildElementScreen(model, el) {
     el, name: r.name.toUpperCase(), hz: r.hz, cls: `a-${el}`,
     pig: `var(--${el})`, deep: `var(--${el}Deep)`,
     reye, roleTx, roleKind,
-    title: r.hook, tag: r.tag,
+    title: r.hook || `${r.keyword} — your ${r.relation}`, tag: r.tag,
     verdLab, verdict, mean: MEAN[el] || '',
     face: `${r.persona} · ${r.keyword.toUpperCase()}`,
     kw: r.faceKw, teaser: r.teaser,
