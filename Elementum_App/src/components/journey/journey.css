@@ -1168,4 +1168,4 @@
 /* pull the footnote register up over the merged dock's reserved strip (60px)
    so it closes ranks with the shelf hint; when the dock re-summons the footer
    is far below the viewport, so the overlap never shows. */
-.jny .fn-notes{margin-top:-70px}
+.jny .fn-notes{margin-top:-70px;margin-bottom:calc(22px + env(safe-area-inset-bottom, 0px))}
