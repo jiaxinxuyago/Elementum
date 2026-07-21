@@ -30,9 +30,11 @@ import './journey.css';
 const FIRSTRUN_KEY = 'elementum_journey_v1_done';
 const CEREMONY_MS = 2800;
 
-function firstRunDone() {
-  try { return localStorage.getItem(FIRSTRUN_KEY) === '1'; } catch { return false; }
-}
+// The prototype gated the Naming on a localStorage first-run flag because it
+// was a single page; in-app the routing already does that job — the 'reveal'
+// route is only reached after onboarding (returning users land straight on
+// app-reading), so the ceremony always plays here. The flag is still written
+// on completion for future use (e.g. the accounts profile flag).
 function markFirstRun() {
   try { localStorage.setItem(FIRSTRUN_KEY, '1'); } catch { /* private mode */ }
 }
@@ -64,7 +66,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
     return buildJourneyModel({ chart, ec, identity, card, birthData });
   }, [chart, ec, identity, birthData]);
 
-  const playingReveal = reveal && !firstRunDone();
+  const playingReveal = reveal;
 
   const stageRef = useRef(null);
   const rvlRef = useRef(null);
