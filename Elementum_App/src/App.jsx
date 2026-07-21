@@ -39,7 +39,7 @@ import ReadingSprite from './components/reading/ReadingSprite.jsx';
 // blink"). These pull in the reading content (archetypeSource) which the reveal
 // needs the moment it plays anyway; the long onboarding flow gives the bundle
 // plenty of time to arrive before first paint of any of them.
-import ReadingRevealScreen from './components/reading/ReadingRevealScreen.jsx';
+import JourneyStage from './components/journey/JourneyStage.jsx';
 import ReadingScreen from './components/reading/ReadingScreen.jsx';
 import TodayScreen from './components/dashboard/tabs/TodayScreen.jsx';
 import GuidanceScreen from './components/dashboard/tabs/GuidanceScreen.jsx';
@@ -528,9 +528,17 @@ export default function App() {
       rendered = <LoadingScreen onComplete={goto('reveal')} />;
       break;
     case 'reveal':
-      // D13: the reveal is the ceremonial plate that scroll-dissolves into the
-      // energy catalogue; the tab bar fades in live at the end (Reading active).
-      rendered = <ReadingRevealScreen onTab={routeTab} onDone={() => setScreen('app-reading')} />;
+      // P6 journey: the Naming ceremony ink-dissolves, the seal descends into
+      // the wheel (the Dissolve), and the catalogue settles; onDone hands off
+      // to app-reading where the same catalogue renders with the tab bar.
+      rendered = (
+        <JourneyStage
+          reveal
+          onDone={() => setScreen('app-reading')}
+          onOpenEnergy={openEnergy}
+          onOpenDayMaster={goto('app-daymaster')}
+        />
+      );
       break;
 
     // ────────────────────────────────────────────────────────────────
@@ -622,9 +630,9 @@ export default function App() {
       );
       break;
     case 'app-reading':
-      // D13: the at-rest energy catalogue. Tapping the wheel-centre seal
-      // descends into the Day Master card (P4).
-      rendered = <ReadingScreen onTab={routeTab} onDayMaster={goto('app-daymaster')} onOpenEnergy={openEnergy} />;
+      // P6 journey catalogue (answer-first): hero → wheel + Folio → SEEK/SKIP
+      // → towers + seal dock. Endpoints route into the existing reading pages.
+      rendered = <JourneyStage onOpenEnergy={openEnergy} onOpenDayMaster={goto('app-daymaster')} />;
       break;
     case 'app-daymaster':
       // D13 P4 — the Day Master reference card; "Birth Chart" → P5.
