@@ -2654,6 +2654,13 @@
    band (z:-1 within its stacking context) and over the page, so no raw page
    or color seam shows at the dock's flanks or beneath it. */
 .jny[data-ca="dock"] .ca-dock::before{top:-38px;bottom:calc(-1 * (76px + env(safe-area-inset-bottom, 0px)));height:auto;left:-26px;right:-26px;z-index:-1;background:linear-gradient(to bottom,rgba(242,235,220,0) 0%,rgba(242,235,220,0.82) 30%,rgba(243,236,222,0.97) 58%,rgba(243,236,222,0.98) 100%)}
+/* merged dock releases its layout slot (owner 2026-07-23): once the dock
+   fades into the shelf it kept reserving 60px of flow height — a dead silk
+   band above the tab bar at the page foot. Collapse it (and drop its taps). */
+.jny.dock-merge .ca-dock{height:0;min-height:0;margin:0;padding:0;border:none;overflow:hidden;pointer-events:none}
+/* …and the page foot then clears the REAL tab bar itself: 76px bar (+ device
+   inset) + the 18px design breath, instead of borrowing the dock's dead slot */
+.jny.dock-merge[data-ca="dock"] .padv2{padding-bottom:calc(94px + env(safe-area-inset-bottom, 0px))}
 /* SEEK/SKIP rows (round 3) — "Fire is your Duty" phrase, column-aligned */
 .jny .ik-phrase{display:grid;grid-template-columns:38px max-content 1fr;column-gap:4px;align-items:baseline;white-space:nowrap}
 .jny .ik-el{font-family:'Cormorant Garamond',Georgia,serif;font-size:14.5px;font-weight:600;color:var(--pigDeep,var(--walnut));line-height:1.05}
