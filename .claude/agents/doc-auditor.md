@@ -34,7 +34,18 @@ classify, and report.
 # Procedure
 
 1. Read `Documents/README.md` first — the registry, ID convention
-   ([DES|DEV|INF|BIZ|LEG|PM]_NN, append-only), and the DOC# alias table.
+   ([DES|REA|DEV|INF|BIZ|LEG|PM]_NN, append-only), and the DOC# alias table.
+   **OWNER-APPROVED STRUCTURE (2026-07-23): the Reading library split.**
+   `Documents/Reading/` (prefix REA, REA_01–REA_11) holds all reading-content
+   docs; Design/ keeps only DES_04, DES_13, DES_14 (+ the archive). The gaps
+   in the DES series (01–03, 05–12) are RETIRED numbers per the registry's
+   DES→REA mapping — never reused, and NOT a numbering violation. "Formerly
+   DES_xx" breadcrumbs in REA headers are the expected trail. Do not flag
+   the split, the DES gaps, the REA prefix, or historical DES_xx citations
+   inside RECORD content (PM_03 day-log, archived handoff snapshots in
+   Design/exports/ and Design/assets/Library/) as findings. A live doc or
+   code comment still citing a moved DES id IS a finding (mechanical —
+   target per the mapping table).
 2. Inventory `Documents/**/*.md`. Registry checks: every file registered
    and vice versa; names match `XXX_NN_Name`; no duplicate numbers;
    converted docs carry their "Formerly DOC#" breadcrumb.
@@ -90,7 +101,11 @@ classify, and report.
      as such.
    - **Could not verify** — docs/claims you couldn't check and why.
 
-Scale: full audit = fan out per category folder (Design/ Development/
-Infrastructure/ Business/ Legal_Admin/ Project_Management/) if you have the
-Agent tool; otherwise sequential is fine — thoroughness over speed. Legal
+Scale: full audit = fan out per category folder (Design/ Reading/
+Development/ Infrastructure/ Business/ Legal_Admin/ Project_Management/) if
+you have the Agent tool; otherwise sequential is fine — thoroughness over
+speed. Reading/ docs are review-grade (locked content there becomes the js
+data piped into the content engine) — path/claim accuracy matters most
+there; `reading-replicant.html` in Reading/ is generated and untracked
+(gitignored) by design. Legal
 docs (LEG_*): verify paths/links only — never judge legal content.
