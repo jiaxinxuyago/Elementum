@@ -2642,3 +2642,7 @@
    glossary sheet above every layer */
 .jny .wheel .center-seal.ms{background-position:center;background-size:contain;background-repeat:no-repeat;background-color:transparent;border:none;box-shadow:none;border-radius:50%}
 .jny .wordpop{z-index:210 !important}
+/* device alignment: the app tab bar grows by the safe-area inset (home
+   indicator); the dock docks above the REAL bar height, matching the
+   prototype's flush 76px rhythm on every device */
+.jny[data-ca="dock"] .ca-dock{bottom:calc(76px + env(safe-area-inset-bottom, 0px)) !important}
