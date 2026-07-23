@@ -22,8 +22,9 @@ import { useEffect, useMemo, useRef, useState, useCallback } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { useReading } from '../reading/useReading.js';
 import { STEM_CARD_DATA } from '../../content/index.js';
-import ShareCardOverlay from '../share/ShareCardOverlay.jsx';
-import { buildJourneyModel, buildElementScreen, buildDmCards, buildFootnotes } from './journeyData.js';
+import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
+import { APP_URL } from '../../infra/index.js';
+import { buildJourneyModel, buildElementScreen, buildDmCards, buildGlossary } from './journeyData.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
 
@@ -56,6 +57,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   const [elOpen, setElOpen] = useState(null);      // element screen target
   const [openPill, setOpenPill] = useState(null);  // shelf accordion
   const [showShare, setShowShare] = useState(false);
+  const [cardStatus, setCardStatus] = useState(null);
+  const cardRef = useRef(null);
+  const cardStatusT = useRef(null);
   const [insOpen, setInsOpen] = useState(null);    // inscription line unfold
   const [fnOpen, setFnOpen] = useState(null);      // footnote float (cond|cat|fric)
   const [folioOpen, setFolioOpen] = useState(false);
@@ -84,6 +88,26 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
     clearTimeout(toastT.current);
     toastT.current = setTimeout(() => setToast(null), 1800);
   }, []);
+
+  // A1 share-rail actions — real export via the built cardExport lib
+  const flashCard = useCallback((msg) => {
+    setCardStatus(msg);
+    clearTimeout(cardStatusT.current);
+    cardStatusT.current = setTimeout(() => setCardStatus(null), 2200);
+  }, []);
+  const doShare = async (platform) => {
+    flashCard('Rendering your card…');
+    const r = await shareCard(cardRef.current, { filename: 'elementum-identity.png', title: 'Elementum', text: 'My identity on Elementum' });
+    flashCard(r === 'shared' ? `Shared — finish in ${platform}` : r === 'downloaded' ? 'Image saved — post it anywhere' : r === 'cancelled' ? null : 'Could not share');
+  };
+  const doSave = async () => {
+    const ok = await downloadCardPng(cardRef.current, 'elementum-identity.png');
+    flashCard(ok ? 'Clean image saved' : 'Could not save');
+  };
+  const doCopy = async () => {
+    const ok = await copyText(APP_URL);
+    flashCard(ok ? 'Link copied' : 'Could not copy');
+  };
 
   const swTo = useCallback((elm, off = 60) => {
     const sw = swRef.current; if (!sw || !elm) return;
@@ -302,19 +326,12 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
     </span>
   );
 
-  const rolePill = (r) => (
-    r.isCore
-      ? <span className="rl rl-core"><Disc />Core</span>
-      : r.role === 'friction'
-        ? <span className="rl rl-res"><Use id="ar-down" />Friction</span>
-        : <span className="rl rl-cat"><Use id="ar-up" />Catalyst</span>
-  );
 
   const elScreen = elOpen ? buildElementScreen(m, elOpen) : null;
   const dmCards = buildDmCards(m);
-  const footnotes = buildFootnotes(m);
+  const glossary = buildGlossary(m);
   const condIcon = m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged';
-  const fnNote = fnOpen ? footnotes[fnOpen] : null;
+  const fnNote = fnOpen ? glossary[fnOpen] : null;
 
   return (
     <div className="jny jphone" data-css="phoneP" data-grand="v1" data-ca="dock" data-journey="compass" data-art="bloom">
@@ -352,16 +369,29 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
             <div className="eltint" />
             <div className="pghead"><span className="pg-eyebrow">YOUR READING</span></div>
             {fnNote && (
-              <div className="vdfloat" onClick={(e) => { if (e.target === e.currentTarget) setFnOpen(null); }}>
-                <div className="vdf-card" role="dialog" aria-label={fnNote.title}>
-                  <button className="vdf-x" aria-label="Close" onClick={() => setFnOpen(null)}>
-                    <svg viewBox="0 0 24 24" style={{ width: 10, height: 10 }}><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" fill="none" /></svg>
-                  </button>
-                  <div className="vdf-b">
-                    <h6>{fnNote.title}</h6>
-                    <span className="cor-v">{fnNote.body}</span>
-                    {fnNote.forYou && <span className="cor-v" style={{ color: 'var(--bronzeDark)' }}>{fnNote.forYou}</span>}
-                    <button className="vdf-codex" onClick={() => { setFnOpen(null); if (onOpenCodex) onOpenCodex(); }}>Deeper in the Codex →</button>
+              <div className="wordpop open" role="presentation">
+                <div className="wp-scrim" onClick={() => setFnOpen(null)} />
+                <div className={`wp-sheet ${fnNote.tint}`} role="dialog" aria-label="What this word means">
+                  <div className="wp-band">
+                    <span className="wp-wm">{fnNote.icon === 'cond' ? <Use id={condIcon} /> : fnNote.icon ? <Use id={fnNote.icon} /> : <Use id={`el-${m.core.el}`} />}</span>
+                    <button className="wp-x" aria-label="Close" onClick={() => setFnOpen(null)}><Use id="ico-close" /></button>
+                    <span className="wp-ey">In your reading</span>
+                    <div className="wp-chipwrap">
+                      <span className={`role-pill ${fnNote.pill}`}>
+                        {fnNote.icon === 'cond' && <Use id={condIcon} />}
+                        {fnNote.icon === 'ar-up' && <Use id="ar-up" />}
+                        {fnNote.icon === 'ar-down' && <Use id="ar-down" />}
+                        {fnNote.label}
+                      </span>
+                    </div>
+                  </div>
+                  <div className="wp-inner">
+                    <p className="wp-body">{fnNote.body}</p>
+                    <button className="wp-codex" onClick={() => { setFnOpen(null); if (onOpenCodex) onOpenCodex(); }}>
+                      <span className="wp-cx-ic"><Use id="ic-codex" /></span>
+                      <span className="wp-cx-tx"><b>Deeper in the Codex</b><small>the full reading of this word</small></span>
+                      <span className="wp-cx-go"><Use id="ico-arrow-r" /></span>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -499,26 +529,22 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                         <span className="sp-col"><span className="sp-noun">{r.name}</span><span className="sp-kw">{r.relation}</span><span className="sp-mk"><Use id={`el-${r.el}`} className="elmark" /></span><span className="sp-pc">{r.presence}%</span><span className="sp-hint-ic" aria-hidden="true"><Use id="ico-chev-r" /></span></span>
                         <span className="sp-open">
                           <span className={`sp-art a-${r.el}`}><span className="bfade" /></span>
-                          <span className="sp-corner">
-                            {r.isCore
-                              ? <span className="sp-rg k-core" title="Core"><Disc /></span>
-                              : r.role === 'friction'
-                                ? <span className="sp-rg k-res" title="Friction"><Use id="ar-down" /></span>
-                                : <span className={`sp-rg k-cat${r.major ? ' major' : ''}`} title={r.major ? 'Major catalyst' : 'Catalyst'}><Use id="ar-up" /></span>}
-                          </span>
                           <span className="sp-txt">
-                            <span className="sp-seal"><Use id={`el-${r.el}`} className="elmark" /></span>
-                            <span className="sp-ey">{r.name.toUpperCase()} · {r.presence}%{r.isCore ? ' · CORE' : r.role === 'friction' ? ' · ↓ FRICTION' : r.major ? ' · ↑ MAJOR' : ' · ↑ CATALYST'}{r.missing ? ' · MISSING' : ''}</span>
-                            <span className="sp-stack">
-                              {track(r.el)}
-                              <span className="sp-roles">
-                                {rolePill(r)}
-                                {r.missing && <><span className="rl-sep">·</span><span className="rl rl-miss">Missing</span></>}
+                            <span className="sp-erow"><span className="sp-seal"><Use id={`el-${r.el}`} className="elmark" /></span><span className="sp-ey">{r.name.toUpperCase()}{r.missing ? <i className="sp-miss"> · Missing</i> : null}</span></span>
+                            <span className="sp-barrow">{track(r.el)}<span className="sp-pct">{r.presence}%</span></span>
+                            <span className="sp-title">{r.title}</span>
+                            <span className="sp-diag">{r.familyLine}</span>
+                            <span className="sp-diagnosis">
+                              <span className="sp-dx">Your {r.name} is <b className="cond">{r.dx.condition}</b>{r.dx.remedy ? <> — <b className="appr">{r.dx.remedy}</b> it.</> : ' — keep the mix.'}</span>
+                              <span className="sp-chips">
+                                {r.chips.map((c) => (
+                                  <span key={c.k} className={`role-pill ${c.k}${c.major ? ' major' : ''}`}>
+                                    {c.k === 'cat' && <Use id="ar-up" />}{c.k === 'fric' && <Use id="ar-down" />}{c.label}
+                                  </span>
+                                ))}
                               </span>
                             </span>
-                            <span className="sp-hook">{r.keyword} — your {r.relation}</span>
-                            <span className="sp-verdict">{r.verdict.connector} <b>{r.verdict.pole}</b> · {r.verdict.verb}</span>
-                            {r.hook ? <span className="sp-flavor">{r.hook}</span> : null}
+                            <span className={`sp-adj ${r.adjPole}`}>{r.adj.map((a) => <i key={a}>{a}</i>)}</span>
                           </span>
                           <button className="sp-read" aria-label={`Open ${r.el} reading`} onClick={() => goElement(r.el)}><Use id="ico-arrow-r" /></button>
                         </span>
@@ -538,13 +564,14 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                   ))}
                 </div>
 
-                {/* footnotes — the page's foot, in the clearance band above the tab bar */}
-                <div className="fn-notes" aria-label="What these words mean">
-                  <span className="fn-ey">THE WORDS ON THIS PAGE · TAP ONE</span>
-                  <div className="fn-chips">
-                    <button className="role-pill cond" onClick={() => setFnOpen('cond')}><Use id={condIcon} />{footnotes.cond.chip}</button>
-                    <button className="role-pill cat" onClick={() => setFnOpen('cat')}><Use id="ar-up" />{footnotes.cat.chip}</button>
-                    <button className="role-pill fric" onClick={() => setFnOpen('fric')}><Use id="ar-down" />{footnotes.fric.chip}</button>
+                {/* wordsnote (A2) — the taught words close the page; each opens the glossary sheet */}
+                <div className="wordsnote" aria-label="What these words mean">
+                  <span className="wn-ey">The words on this page · tap one</span>
+                  <div className="wn-chips">
+                    <button className="role-pill core" onClick={() => setFnOpen('core')}>Core</button>
+                    <button className="role-pill cond" onClick={() => setFnOpen('cond')}><Use id={condIcon} />{m.condition}</button>
+                    <button className="role-pill cat" onClick={() => setFnOpen('cat')}><Use id="ar-up" />Catalyst</button>
+                    <button className="role-pill fric" onClick={() => setFnOpen('fric')}><Use id="ar-down" />Friction</button>
                   </div>
                 </div>
               </div>
@@ -611,7 +638,94 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
         </div>
         <div className={`wip${toast ? ' show' : ''}`}>{toast || ''}</div>
       </div>
-      {showShare && <ShareCardOverlay identity={identity} dayMaster={m.stemId} onClose={() => setShowShare(false)} />}
+      {/* A1 · the locked Tiles identity card + share rail */}
+      {showShare && (
+        <div className="scov open" role="dialog" aria-modal="true" aria-label="Your identity card">
+          <div className="scrim2" onClick={() => setShowShare(false)} />
+          <div className="scbody">
+            <span className="sc-hint">Your identity card</span>
+            <button className="scclose" aria-label="Close" onClick={() => setShowShare(false)}><Use id="ico-close" /></button>
+            <div className="share-card" data-var="tiles" ref={cardRef}>
+              <div className="scv" />
+              <div className="scin">
+                <div className="scey">ELEMENTUM · YOUR IDENTITY</div>
+                <div className="scwheel">
+                  <div className="wheel">
+                    <span className="center-seal ms" style={{ backgroundImage: `url('${paintSrc}')` }} aria-hidden="true" />
+                    {m.els.map((r) => (
+                      <span key={r.el} className={`node n-${r.el}`} style={{ width: r.size, height: r.size, left: r.seat.left, top: r.seat.top }} aria-hidden="true">
+                        <Use id={`el-${r.el}`} className="elmark" />
+                        <span className="pc">{r.presence}%</span>
+                        {r.isCore ? <span className="pip who"><Disc /></span> : r.role === 'friction' ? <span className="pip down"><Use id="ar-down" /></span> : <span className={`pip up${r.major ? ' major' : ''}`}><Use id="ar-up" /></span>}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div className="scarch">{m.archetype}</div>
+                <div className="scman">{m.manifesto}</div>
+                <div className="sckws">{m.chips.map((k) => <span className="sckw" key={k}>{k}</span>)}</div>
+                <div className="scbp">
+                  <div className="sc-coreline">
+                    <span className="sc-mk" style={{ color: `var(--${m.core.el}Deep)` }}><svg viewBox="0 0 24 24" fill="currentColor"><use href={U(`el-${m.core.el}`)} /></svg></span>
+                    <span className="sc-ct"><b>{m.core.name}</b><small>is your Core</small></span>
+                    <span className="sc-pill core">{m.condition}</span>
+                  </div>
+                  <div className="tl-cols">
+                    <div className="tl-col">
+                      <div className="tl-h seek"><Use id="ar-up" /><span>Catalyst</span></div>
+                      <div className="vrow">
+                        {m.seek.map((r) => (
+                          <div className="vcol" key={r.el}>
+                            <span className="v-pc">{r.presence}%</span>
+                            <span className="v-bar"><i style={{ height: `${Math.round((r.presence / pMax) * 100)}%`, background: `var(--${r.el}Deep)` }} /></span>
+                            <span className="v-mk" style={{ color: `var(--${r.el}Deep)` }}><svg viewBox="0 0 24 24" fill="currentColor"><use href={U(`el-${r.el}`)} /></svg></span>
+                            <span className="v-el">{r.name}</span>
+                            <span className="v-noun">{r.relation}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    <div className="tl-col">
+                      <div className="tl-h skip"><Use id="ar-down" /><span>Friction</span></div>
+                      <div className="vrow">
+                        {m.skip.map((r) => (
+                          <div className="vcol" key={r.el}>
+                            <span className="v-pc">{r.presence}%</span>
+                            <span className="v-bar"><i style={{ height: `${Math.round((r.presence / pMax) * 100)}%`, background: `var(--${r.el}Deep)` }} /></span>
+                            <span className="v-mk" style={{ color: `var(--${r.el}Deep)` }}><svg viewBox="0 0 24 24" fill="currentColor"><use href={U(`el-${r.el}`)} /></svg></span>
+                            <span className="v-el">{r.name}</span>
+                            <span className="v-noun">{r.relation}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="sctray">
+              <button className="scp ig" aria-label="Share to Instagram" onClick={() => doShare('Instagram')}><span className="ico"><IgGlyph /></span><span className="lbl">Instagram</span></button>
+              <button className="scp tt" aria-label="Share to TikTok" onClick={() => doShare('TikTok')}><span className="ico"><TtGlyph /></span><span className="lbl">TikTok</span></button>
+              <button className="scp xx" aria-label="Share to X" onClick={() => doShare('X')}><span className="ico"><XGlyph /></span><span className="lbl">X</span></button>
+              <span className="st-div" />
+              <button className="scp util" aria-label="Save image" onClick={doSave}><span className="ico"><Use id="ic-save" /></span></button>
+              <button className="scp util" aria-label="Copy link" onClick={doCopy}><span className="ico"><Use id="ic-link" /></span></button>
+            </div>
+            <div className="scstatus" aria-live="polite">{cardStatus || ' '}</div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
+
+// ── share-rail platform glyphs (share-flow verbatim) ────────────────
+const IgGlyph = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="1.9"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5.2" /><circle cx="12" cy="12" r="4.1" /><circle cx="17.3" cy="6.7" r="1.2" fill="#fff" stroke="none" /></svg>
+);
+const TtGlyph = () => (
+  <svg viewBox="0 0 24 24" fill="#fff"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" /></svg>
+);
+const XGlyph = () => (
+  <svg viewBox="0 0 24 24" fill="#fff"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.153h7.594l5.243 6.932L18.901 1.153Zm-1.293 19.494h2.039L6.486 3.24H4.298L17.608 20.647Z" /></svg>
+);

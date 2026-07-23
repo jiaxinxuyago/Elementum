@@ -74,6 +74,51 @@ export const DEFLINE = {
   Refill: 'Take in what feeds you — intake isn’t a crutch, it’s your engine. The two lists below are where it comes from.',
 };
 
+// ── Round 2 (2026-07-23) ───────────────────────────────────────────
+// Family one-liners for the pill definition block (locked, share-flow verbatim)
+export const FAMILY_LINE = {
+  self: 'This energy is you — your identity and your footing among equals.',
+  resource: 'What feeds and backs you — the support and learning you run on.',
+  wealth: 'What you reach for and hold — your reward, ambition, and desire.',
+  output: 'What you put out — your expression, talent, and voice.',
+  officer: 'What tests and shapes you — the pressure and duty you answer to.',
+};
+
+// §4b adjective chips (v3 register), role-conditioned: catalyst-pole for
+// catalyst-side elements, friction-pole for friction-side (incl. core excess).
+export const ADJ_CATALYST = {
+  '比肩': ['Self-reliant', 'Steady', 'Unshakeable'], '劫财': ['Bold', 'Fired-up', 'Fearless'],
+  '食神': ['Effortless', 'Warm', 'Generous'], '伤官': ['Dazzling', 'Unruly', 'Rule-breaking'],
+  '偏财': ['Resourceful', 'Venturing', 'Magnetic'], '正财': ['Reliable', 'Compounding', 'Loyal'],
+  '七杀': ['Decisive', 'Cool-headed', 'Battle-ready'], '正官': ['Principled', 'Trusted', 'Fair'],
+  '偏印': ['Intuitive', 'Penetrating', 'Inventive'], '正印': ['Patient', 'Sheltering', 'Recharging'],
+};
+export const ADJ_FRICTION = {
+  '比肩': ['Walled-off', 'Solitary', 'Immovable'], '劫财': ['Combative', 'Envious', 'Reckless'],
+  '食神': ['Coasting', 'Indulgent', 'Unchallenged'], '伤官': ['Rebellious', 'Over-exposed', 'Biting'],
+  '偏财': ['Restless', 'Overextended', 'Ungrounded'], '正财': ['Clenched', 'Risk-averse', 'Unyielding'],
+  '七杀': ['Punishing', 'Domineering', 'Burned-out'], '正官': ['Conforming', 'Over-dutiful', 'Unbending'],
+  '偏印': ['Aloof', 'Overthinking', 'Shut-off'], '正印': ['Passive', 'Over-protected', 'Inert'],
+};
+
+// Glossary sheet definitions (A2 — locked W map, verbatim; cond varies by chart)
+const W_CORE = 'The energy you were cast with — your day master, the fixed center every other energy is read against. It doesn’t change; it’s the you the whole chart orbits.';
+const W_CAT = 'The energy your chart runs short on. Feed it and the whole system moves easier — these are the energies to seek.';
+const W_FRIC = 'The energy already carrying weight. Add more and it jams the works — these are the energies to ease off.';
+const W_COND = {
+  Overfueled: 'More fuel comes in than your core burns — the surplus wants somewhere to go. Built into your chart, not today’s mood. So channel it: aim the surplus, don’t add to it.',
+  Underfueled: 'Your core burns more than it takes in — the right intake is what your chart asks for. Built in, not a mood. So refill it: take in what feeds you.',
+  Balanced: 'Intake and burn hold each other — the condition the other two work toward. Nothing to force; keep the mix.',
+};
+export function buildGlossary(model) {
+  return {
+    core: { label: 'Core', tint: 't-core', pill: 'core', icon: null, body: W_CORE },
+    cond: { label: model.condition, tint: 't-cond', pill: 'cond', icon: 'cond', body: W_COND[model.condition] },
+    cat: { label: 'Catalyst', tint: 't-cat', pill: 'cat', icon: 'ar-up', body: W_CAT },
+    fric: { label: 'Friction', tint: 't-fric', pill: 'fric', icon: 'ar-down', body: W_FRIC },
+  };
+}
+
 // §5c collapsed-tile verdict set (approach-implying, LOCKED)
 export const FOLD_VERDICT = {
   Overfueled: 'channel the surplus.',
@@ -191,6 +236,29 @@ export function buildJourneyModel({ chart, ec, identity, card, birthData }) {
         : (presentCats[0] && presentCats[0].el === r.el) ? 'feed it' : 'keep it close';
       r.verdict = { connector: 'rising toward', pole: r.catalystPole, verb };
     }
+  });
+
+  // Round 2 (A3): per-element diagnosis — ROLE-DRIVEN mapping, owner-ratified
+  // 2026-07-23 (DES_12 §5c extension): friction-side → Overfueled·Channel;
+  // catalyst-side (incl. missing) → Underfueled·Refill; balanced charts →
+  // Balanced. Plus the pill definition/family lines and role-conditioned
+  // §4b adjective chips.
+  els.forEach((r) => {
+    r.title = `${r.name} is Your ${r.relation}`;
+    r.familyLine = FAMILY_LINE[r.family] || '';
+    const frictionSide = r.role === 'friction' || r.coreExcess;
+    const catalystSide = !frictionSide && (r.role === 'catalyst' || r.role === 'ally' || r.missing || r.coreCatalyst);
+    if (condition === 'Balanced') r.dx = { condition: 'Balanced', remedy: null };
+    else if (frictionSide) r.dx = { condition: 'Overfueled', remedy: 'Channel' };
+    else if (catalystSide) r.dx = { condition: 'Underfueled', remedy: 'Refill' };
+    else r.dx = { condition: 'Balanced', remedy: null };
+    r.adj = (frictionSide ? ADJ_FRICTION[r.god] : ADJ_CATALYST[r.god]) || [];
+    r.adjPole = frictionSide ? 'fric' : 'cat';
+    r.chips = [];
+    if (r.isCore) r.chips.push({ k: 'core', label: 'Core' });
+    if (r.role === 'friction' || r.coreExcess) r.chips.push({ k: 'fric', label: 'Friction' });
+    if ((r.role === 'catalyst' || r.role === 'ally' || r.coreCatalyst) && !r.isCore) r.chips.push({ k: 'cat', label: 'Catalyst', major: r.major });
+    if (r.isCore && r.coreCatalyst) r.chips.push({ k: 'cat', label: 'Catalyst', major: false });
   });
 
   // SEEK / SKIP panels (§5c LOCKED headers; Balanced collapses both)

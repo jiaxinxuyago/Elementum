@@ -501,6 +501,34 @@ Reading implementation bundle; source of truth `catalogue-answer-first/p6-journe
 
 ---
 
+## §6c — Round-2 handoff rulings (owner · 2026-07-23)
+
+Rulings during the round-2 implementation (`share-flow.html` bundle — Tiles identity card, wordsnote +
+glossary sheet, redesigned pills):
+
+1. **Per-element condition/remedy RATIFIED (role-driven) — §5c vocabulary EXTENDED to elements:**
+   every energy now carries its own diagnosis line ("Your Metal is **Overfueled** — **Channel** it."):
+   friction-side elements (incl. core excess) → Overfueled·Channel; catalyst-side (incl. missing) →
+   Underfueled·Refill; Balanced charts → Balanced·keep the mix. The chart-level condition and the
+   element-level conditions coexist (an Underfueled chart's friction element still reads Overfueled —
+   the element itself is the chart's overloaded one).
+2. **Seal dock KEPT** (owner override of share-flow, which hides it) — the wordsnote shares the scroll
+   end with the dock via the round-1 overlap arrangement.
+3. **The Tiles identity card is THE card** (locked, share-flow): eyebrow → mini dominance wheel
+   (painting center, live dots/pips) → archetype → manifesto → top-3 keyword chips (§6b ruling carries
+   over; the prototype's Precision/Standard/Edge remain placeholders) → core line + condition pill →
+   Catalyst|Friction twin tiles with vertical bars. No personal name. Supersedes the round-1 silk card
+   within the journey (the silk card remains on the legacy Day-Master route). Share rail: IG/TikTok/X →
+   OS share sheet with the rendered PNG; Save; Copy link (per-user URL pending backend — APP_URL interim).
+4. **Glossary W-lines shipped verbatim** (share-flow locked copy): Core / Catalyst / Friction one-liners
+   + condition line per chart state (Overfueled verbatim; Underfueled/Balanced derived from the §5c
+   definition pattern). Pill family one-liners (FAMILY_LINE) shipped verbatim from share-flow.
+   Codex rows route to the existing Codex page pending the future codex/:word surface (better than the
+   README's stub-toast; retarget when the route exists).
+5. **Removed from pills per A3:** corner role ring, glance-label hook, pole-noun verdict line, flavor
+   line. The §4b pole nouns remain locked vocabulary (glossary/deep-reading use); the §4b adjective
+   chips now render role-conditioned on every pill.
+
 ## §7 — Open decisions & pending work
 
 | Item | Status |
