@@ -374,7 +374,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
             <div className="eltint" />
             <div className="scrollwrap" ref={swRef}>
               <div className="padv2" ref={padRef}>
-                <div className="pghead"><span className="pg-eyebrow">YOUR IDENTITY</span></div>
 
                 <div className="beat" data-beat="1">
                   <div className="idhero" data-hero="chop" data-css="idheroP">
