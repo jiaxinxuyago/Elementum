@@ -385,6 +385,14 @@
   .wip.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 
   @media (max-width: 430px) { .sheet { padding: 28px 12px 48px; } .phone { transform: scale(0.9); transform-origin: top center; margin-bottom: -84px; } }
+
+
+/* SEEK/SKIP rows — "Fire is your Duty" phrase, column-aligned */
+.ik-phrase{display:grid;grid-template-columns:38px max-content 1fr;column-gap:4px;align-items:baseline;white-space:nowrap}
+.ik-el{font-family:'Cormorant Garamond',Georgia,serif;font-size:14.5px;font-weight:600;color:var(--pigDeep,var(--walnut));line-height:1.05}
+.ik-is{font-family:'EB Garamond',Georgia,serif;font-size:9.5px;color:var(--inkLight);letter-spacing:0.2px}
+.ik-rel{font-family:'Cormorant Garamond',Georgia,serif;font-size:14.5px;font-weight:600;color:var(--ink);line-height:1.05}
+.vx-box .crmain .ik-pct{font-size:8.5px;color:var(--inkLight);margin-top:2px}
 </style>
 </head>
 <body>
@@ -479,6 +487,7 @@
   .stemw .wheel.gmini{transform:scale(.4);transform-origin:top left;width:320px;height:300px;margin:0;pointer-events:none}
   .stemw .wheel.gmini .node{cursor:default}
   .gmini .ms{background-position:center;background-size:contain;background-repeat:no-repeat}
+  .gmini .ms::before{content:'';position:absolute;inset:5.5%;border-radius:50%;border:9px solid rgba(88,92,80,0.30);filter:blur(5px)}
   .st-pin{font-family:Cinzel,Georgia,serif;font-size:9.5px;letter-spacing:2.2px;color:var(--pg-ink,#2B2722)}
   .st-sub{font-family:'JetBrains Mono',Consolas,monospace;font-size:7px;letter-spacing:1.4px;color:var(--pg-mut,#8a8073)}
   .stemw.isyou .st-pin{color:var(--fireDeep)}
@@ -1016,9 +1025,7 @@
   .vdf-card h6{font-family:'Cormorant Garamond',Georgia,serif;font-size:16px;font-weight:600;margin:0;color:var(--ink)}
   .vdf-x{position:absolute;top:8px;right:8px;width:24px;height:24px;border-radius:50%;border:1px solid rgba(43,39,34,0.35);background:none;color:var(--inkSoft);cursor:pointer;display:flex;align-items:center;justify-content:center}
   /* footer notes — the words on this page (codex glossary) */
-  [data-css~="phoneP"] .ca-dock{display:none}
-  [data-css~="phoneP"] .jscreen[data-screen="catalogue"] .padv2{min-height:100%}
-  .wordsnote{margin-top:auto;padding:16px 4px 2px;border-top:1px solid var(--paperHair);display:flex;flex-direction:column;gap:10px}
+  .wordsnote{padding:14px 4px 2px;border-top:1px solid var(--paperHair);display:flex;flex-direction:column;gap:10px}
   .wordsnote .wn-ey{font-family:'EB Garamond',Georgia,serif;font-size:10px;font-weight:500;letter-spacing:2.5px;text-transform:uppercase;color:var(--inkLight)}
   .wordsnote .wn-chips{display:flex;gap:8px;flex-wrap:wrap}
   .wordsnote .wn-chips .role-pill{cursor:pointer;border:0;box-shadow:0 1px 3px rgba(40,30,20,0.22),inset 0 0 0 1px rgba(255,255,255,0.22);transition:transform .14s,box-shadow .14s}
@@ -1206,7 +1213,7 @@
   .ca-chip.ghost{border-style:dashed}
   .ca-chip.ghost .elmark{opacity:.65}
   .ca-chip:focus-visible{outline:2px solid var(--bronzeDark);outline-offset:2px}
-  [data-css~="phoneP"][data-ca="dock"] .padv2{padding-bottom:72px}
+  [data-css~="phoneP"][data-ca="dock"] .padv2{padding-bottom:18px}
   /* last beat fills the final screenful — towers stretch, scroll clips at the dock (minHeight set by fitLastBeat JS) */
   [data-css~="phoneP"][data-ca="dock"] .jscreen[data-screen="catalogue"] .beat[data-beat="4"]{display:flex;flex-direction:column}
   [data-css~="phoneP"][data-ca="dock"] .beat[data-beat="4"] .shelf{flex:1 1 auto;height:auto;min-height:286px}
@@ -1341,7 +1348,7 @@
   </header>
 
   <div class="variant" style="border-top:none">
-    <div class="phone jphone" id="phoneP" data-css="phoneP" data-grand="v1" data-ca="rail" data-journey="compass" data-art="bloom">
+    <div class="phone jphone" id="phoneP" data-css="phoneP" data-grand="v1" data-ca="dock" data-journey="compass" data-art="bloom">
       <div class="notch"></div>
       <div class="scr2">
         <div class="status2"><span>9:41</span><span class="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
@@ -1462,26 +1469,26 @@
                       <div class="vx-ey"><span>SEEK THESE</span><span class="role-pill cat"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg>Catalyst</span></div>
                     <button class="ik-crow pv-fire" data-el-go="fire" aria-label="Fire — open its reading">
                       <span class="ik-chip ghosted"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-fire"></use></svg><span class="ik-plate a-fire"></span></span>
-                      <span class="crmain"><span class="crline"><span class="ik-nm">Fire</span><span class="ik-pct">0%</span></span><span class="ik-kw">your Duty</span></span>
+                      <span class="crmain"><span class="ik-phrase"><b class="ik-el">Fire</b><span class="ik-is">is your</span><b class="ik-rel">Duty</b></span><span class="ik-pct">0%</span></span>
                     </button>
                     <button class="ik-crow pv-wood" data-el-go="wood" aria-label="Wood — open its reading">
                       <span class="ik-chip"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-wood"></use></svg><span class="ik-plate a-wood"></span></span>
-                      <span class="crmain"><span class="crline"><span class="ik-nm">Wood</span><span class="ik-pct">20%</span></span><span class="ik-kw">your Drive</span></span>
+                      <span class="crmain"><span class="ik-phrase"><b class="ik-el">Wood</b><span class="ik-is">is your</span><b class="ik-rel">Drive</b></span><span class="ik-pct">20%</span></span>
                     </button>
                     <button class="ik-crow pv-water" data-el-go="water" aria-label="Water — open its reading">
                       <span class="ik-chip"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-water"></use></svg><span class="ik-plate a-water"></span></span>
-                      <span class="crmain"><span class="crline"><span class="ik-nm">Water</span><span class="ik-pct">10%</span></span><span class="ik-kw">your Voice</span></span>
+                      <span class="crmain"><span class="ik-phrase"><b class="ik-el">Water</b><span class="ik-is">is your</span><b class="ik-rel">Voice</b></span><span class="ik-pct">10%</span></span>
                     </button>
                     </div>
                     <div class="vx-box">
                       <div class="vx-ey"><span>SKIP THESE</span><span class="role-pill fric"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg>Friction</span></div>
                     <button class="ik-crow pv-metal" data-el-go="metal" aria-label="Metal — open its reading">
                       <span class="ik-chip"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-metal"></use></svg><span class="ik-plate a-metal"></span></span>
-                      <span class="crmain"><span class="crline"><span class="ik-nm">Metal</span><span class="ik-pct">40%</span></span><span class="ik-kw">your Core</span></span>
+                      <span class="crmain"><span class="ik-phrase"><b class="ik-el">Metal</b><span class="ik-is">is your</span><b class="ik-rel">Core</b></span><span class="ik-pct">40%</span></span>
                     </button>
                     <button class="ik-crow pv-earth" data-el-go="earth" aria-label="Earth — open its reading">
                       <span class="ik-chip"><svg class="elmark" viewBox="0 0 24 24"><use href="#el-earth"></use></svg><span class="ik-plate a-earth"></span></span>
-                      <span class="crmain"><span class="crline"><span class="ik-nm">Earth</span><span class="ik-pct">30%</span></span><span class="ik-kw">your Root</span></span>
+                      <span class="crmain"><span class="ik-phrase"><b class="ik-el">Earth</b><span class="ik-is">is your</span><b class="ik-rel">Root</b></span><span class="ik-pct">30%</span></span>
                     </button>
                     </div>
                   </div>
@@ -1580,8 +1587,8 @@
                 
                 </div>
 
-                <div class="ca-dock" aria-label="Your readings — open any energy"><button class="ca-chip dk-metal" data-el-go="metal" aria-label="Metal — your Core, 40%; unfolds its pill"><span class="ca-fill" style="height:84%"></span><svg class="elmark" viewBox="0 0 24 24"><use href="#el-metal"></use></svg><span class="ca-kw">Metal</span></button><button class="ca-chip dk-earth" data-el-go="earth" aria-label="Earth — your Root, 30%; unfolds its pill"><span class="ca-fill" style="height:63%"></span><svg class="elmark" viewBox="0 0 24 24"><use href="#el-earth"></use></svg><span class="ca-kw">Earth</span></button><button class="ca-chip dk-wood" data-el-go="wood" aria-label="Wood — your Drive, 20%; unfolds its pill"><span class="ca-fill" style="height:42%"></span><svg class="elmark" viewBox="0 0 24 24"><use href="#el-wood"></use></svg><span class="ca-kw">Wood</span></button><button class="ca-chip dk-water" data-el-go="water" aria-label="Water — your Voice, 10%; unfolds its pill"><span class="ca-fill" style="height:21%"></span><svg class="elmark" viewBox="0 0 24 24"><use href="#el-water"></use></svg><span class="ca-kw">Water</span></button><button class="ca-chip dk-fire ghost" data-el-go="fire" aria-label="Fire — your Duty, 0%; unfolds its pill"><span class="ca-fill" style="height:0%"></span><svg class="elmark" viewBox="0 0 24 24"><use href="#el-fire"></use></svg><span class="ca-kw">Fire</span></button></div>
                 <div class="wordsnote"><span class="wn-ey">The words on this page · tap one</span><div class="wn-chips"><button class="role-pill core" data-word="core">Core</button><button class="role-pill cond" data-word="cond"><svg viewBox="0 0 24 24"><use href="#ic-charged"></use></svg>Overfueled</button><button class="role-pill cat" data-word="cat"><svg viewBox="0 0 24 24"><use href="#ar-up"></use></svg>Catalyst</button><button class="role-pill fric" data-word="fric"><svg viewBox="0 0 24 24"><use href="#ar-down"></use></svg>Friction</button></div></div>
+                <div class="ca-dock" aria-label="Your readings — open any energy"><button class="ca-chip dk-metal" data-el-go="metal" aria-label="Metal — your Core, 40%; unfolds its pill"><span class="ca-fill" style="height:84%"></span><svg class="elmark" viewBox="0 0 24 24"><use href="#el-metal"></use></svg><span class="ca-kw">Metal</span></button><button class="ca-chip dk-earth" data-el-go="earth" aria-label="Earth — your Root, 30%; unfolds its pill"><span class="ca-fill" style="height:63%"></span><svg class="elmark" viewBox="0 0 24 24"><use href="#el-earth"></use></svg><span class="ca-kw">Earth</span></button><button class="ca-chip dk-wood" data-el-go="wood" aria-label="Wood — your Drive, 20%; unfolds its pill"><span class="ca-fill" style="height:42%"></span><svg class="elmark" viewBox="0 0 24 24"><use href="#el-wood"></use></svg><span class="ca-kw">Wood</span></button><button class="ca-chip dk-water" data-el-go="water" aria-label="Water — your Voice, 10%; unfolds its pill"><span class="ca-fill" style="height:21%"></span><svg class="elmark" viewBox="0 0 24 24"><use href="#el-water"></use></svg><span class="ca-kw">Water</span></button><button class="ca-chip dk-fire ghost" data-el-go="fire" aria-label="Fire — your Duty, 0%; unfolds its pill"><span class="ca-fill" style="height:0%"></span><svg class="elmark" viewBox="0 0 24 24"><use href="#el-fire"></use></svg><span class="ca-kw">Fire</span></button></div>
               </div>
             </div>
           </div>
@@ -1907,8 +1914,8 @@
     '<div class="scbp">'+
       '<div class="sc-coreline"><span class="sc-mk" style="color:var(--metalDeep)"><svg viewBox="0 0 24 24" fill="currentColor"><use href="#el-metal"/></svg></span><span class="sc-ct"><b>Metal</b><small>is your Core</small></span><span class="sc-pill core">Overfueled</span></div>'+
       '<div class="tl-cols">'+
-        '<div class="tl-col"><div class="tl-h seek"><svg viewBox="0 0 24 24"><use href="#ar-up"/></svg><span>Catalyst</span></div><div class="vrow">'+vcol('fire','Duty',0)+vcol('wood','Drive',20)+vcol('water','Voice',10)+'</div></div>'+
-        '<div class="tl-col"><div class="tl-h skip"><svg viewBox="0 0 24 24"><use href="#ar-down"/></svg><span>Friction</span></div><div class="vrow">'+vcol('metal','Core',40)+vcol('earth','Root',30)+'</div></div>'+
+        '<div class="tl-col"><div class="tl-h seek"><span>Seek</span><span class="sc-pill cat"><svg viewBox="0 0 24 24"><use href="#ar-up"/></svg>Catalyst</span></div><div class="vrow">'+vcol('fire','Duty',0)+vcol('wood','Drive',20)+vcol('water','Voice',10)+'</div></div>'+
+        '<div class="tl-col"><div class="tl-h skip"><span>Skip</span><span class="sc-pill fric"><svg viewBox="0 0 24 24"><use href="#ar-down"/></svg>Friction</span></div><div class="vrow">'+vcol('metal','Core',40)+vcol('earth','Root',30)+'</div></div>'+
       '</div>'+
     '</div>';
   function cardInner(v){return '<div class="scv"></div><div class="scin">'+(v==='tiles'?TILES_HTML:v==='wheel'?WHEEL_HTML:BLUEPRINT_HTML)+'</div>';}
@@ -2429,7 +2436,9 @@
 .share-card[data-var="tiles"] .scbp{gap:10px;margin-top:12px}
 .tl-cols{display:grid;grid-template-columns:1fr 1fr;gap:8px;align-items:stretch}
 .tl-col{border:1px solid var(--paperHair);border-radius:12px;background:rgba(248,244,236,0.42);padding:8px 8px 9px}
-.tl-h{display:flex;align-items:center;gap:5px;font-family:'JetBrains Mono',Consolas,monospace;font-size:9px;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-bottom:9px}
+.tl-h{display:flex;align-items:center;justify-content:space-between;gap:5px;font-family:'JetBrains Mono',Consolas,monospace;font-size:8px;font-weight:600;letter-spacing:0.7px;text-transform:uppercase;margin-bottom:9px;white-space:nowrap}
+.tl-h .sc-pill svg{width:8px;height:8px}
+.tl-h>span:first-child{font-family:'EB Garamond',Georgia,serif;font-size:10px;font-weight:600;letter-spacing:2px}
 .tl-h svg{width:11px;height:11px;flex:none}
 .tl-h.seek{color:var(--up)}.tl-h.skip{color:var(--down)}
 .vrow{display:flex;justify-content:space-around;gap:6px;align-items:flex-end}

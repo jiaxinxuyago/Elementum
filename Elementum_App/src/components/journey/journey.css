@@ -1038,7 +1038,7 @@
 .jny .ca-chip.ghost{border-style:dashed}
 .jny .ca-chip.ghost .elmark{opacity:.65}
 .jny .ca-chip:focus-visible{outline:2px solid var(--bronzeDark);outline-offset:2px}
-.jny[data-ca="dock"] .padv2{padding-bottom:72px}
+.jny[data-ca="dock"] .padv2{padding-bottom:18px}
 .jny[data-ca="dock"] .jscreen[data-screen="catalogue"] .beat[data-beat="4"]{display:flex;flex-direction:column}
 .jny[data-ca="dock"] .beat[data-beat="4"] .shelf{flex:1 1 auto;height:auto;min-height:286px}
 .jny[data-ca="dock"] .beat[data-beat="4"] .sec-eyebrow,.jny[data-ca="dock"] .beat[data-beat="4"] .shelf-hint{flex:none}
@@ -2077,9 +2077,7 @@
 .jny .vdf-card{background:var(--silk);border:1px solid var(--paperHair);border-radius:16px;padding:16px 16px 14px;max-width:272px;box-shadow:0 18px 44px rgba(40,30,20,0.35);display:flex;flex-direction:column;gap:10px;position:relative}
 .jny .vdf-card h6{font-family:'Cormorant Garamond',Georgia,serif;font-size:16px;font-weight:600;margin:0;color:var(--ink)}
 .jny .vdf-x{position:absolute;top:8px;right:8px;width:24px;height:24px;border-radius:50%;border:1px solid rgba(43,39,34,0.35);background:none;color:var(--inkSoft);cursor:pointer;display:flex;align-items:center;justify-content:center}
-.jny .ca-dock{display:none}
-.jny .jscreen[data-screen="catalogue"] .padv2{min-height:100%}
-.jny .wordsnote{margin-top:auto;padding:16px 4px 2px;border-top:1px solid var(--paperHair);display:flex;flex-direction:column;gap:10px}
+.jny .wordsnote{padding:14px 4px 2px;border-top:1px solid var(--paperHair);display:flex;flex-direction:column;gap:10px}
 .jny .wordsnote .wn-ey{font-family:'EB Garamond',Georgia,serif;font-size:10px;font-weight:500;letter-spacing:2.5px;text-transform:uppercase;color:var(--inkLight)}
 .jny .wordsnote .wn-chips{display:flex;gap:8px;flex-wrap:wrap}
 .jny .wordsnote .wn-chips .role-pill{cursor:pointer;border:0;box-shadow:0 1px 3px rgba(40,30,20,0.22),inset 0 0 0 1px rgba(255,255,255,0.22);transition:transform .14s,box-shadow .14s}
@@ -2278,7 +2276,7 @@
 .jny .ca-chip.ghost{border-style:dashed}
 .jny .ca-chip.ghost .elmark{opacity:.65}
 .jny .ca-chip:focus-visible{outline:2px solid var(--bronzeDark);outline-offset:2px}
-.jny[data-ca="dock"] .padv2{padding-bottom:72px}
+.jny[data-ca="dock"] .padv2{padding-bottom:18px}
 .jny[data-ca="dock"] .jscreen[data-screen="catalogue"] .beat[data-beat="4"]{display:flex;flex-direction:column}
 .jny[data-ca="dock"] .beat[data-beat="4"] .shelf{flex:1 1 auto;height:auto;min-height:286px}
 .jny[data-ca="dock"] .beat[data-beat="4"] .sec-eyebrow,.jny[data-ca="dock"] .beat[data-beat="4"] .shelf-hint{flex:none}
@@ -2543,7 +2541,9 @@
 .jny .share-card[data-var="tiles"] .scbp{gap:10px;margin-top:12px}
 .jny .tl-cols{display:grid;grid-template-columns:1fr 1fr;gap:8px;align-items:stretch}
 .jny .tl-col{border:1px solid var(--paperHair);border-radius:12px;background:rgba(248,244,236,0.42);padding:8px 8px 9px}
-.jny .tl-h{display:flex;align-items:center;gap:5px;font-family:'JetBrains Mono',Consolas,monospace;font-size:9px;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-bottom:9px}
+.jny .tl-h{display:flex;align-items:center;justify-content:space-between;gap:5px;font-family:'JetBrains Mono',Consolas,monospace;font-size:8px;font-weight:600;letter-spacing:0.7px;text-transform:uppercase;margin-bottom:9px;white-space:nowrap}
+.jny .tl-h .sc-pill svg{width:8px;height:8px}
+.jny .tl-h>span:first-child{font-family:'EB Garamond',Georgia,serif;font-size:10px;font-weight:600;letter-spacing:2px}
 .jny .tl-h svg{width:11px;height:11px;flex:none}
 .jny .tl-h.seek{color:var(--up)}
 .jny .tl-h.skip{color:var(--down)}
@@ -2634,7 +2634,6 @@
 .jny .scr2{inset:0;border-radius:0}
 .jny .notch,.jny .tabbar2{display:none}
 .jny .gseal.gimg{background-size:contain;background-repeat:no-repeat}
-.jny .wordsnote{margin-top:-70px;margin-bottom:calc(22px + env(safe-area-inset-bottom,0px))}
 .jny .wordpop{position:absolute;inset:0;z-index:120;display:flex;align-items:center;justify-content:center;padding:26px}
 .jny .wordpop[hidden]{display:none}
 /* round-2 fixes: painting-mode center seal on live wheels (non-庚 stems use
@@ -2655,18 +2654,9 @@
    band (z:-1 within its stacking context) and over the page, so no raw page
    or color seam shows at the dock's flanks or beneath it. */
 .jny[data-ca="dock"] .ca-dock::before{top:-38px;bottom:calc(-1 * (76px + env(safe-area-inset-bottom, 0px)));height:auto;left:-26px;right:-26px;z-index:-1;background:linear-gradient(to bottom,rgba(242,235,220,0) 0%,rgba(242,235,220,0.82) 30%,rgba(243,236,222,0.97) 58%,rgba(243,236,222,0.98) 100%)}
-/* SEEK/SKIP row format (owner 2026-07-23): "{Element} is your {Relation}"
-   inline — pigment name · muted connective · ink relation — with the mono
-   presence % beneath. Matches the supplied design crop. */
-.jny .ik-crow{padding:10px 0}
-.jny .ik-crow .cr-line{display:flex;align-items:baseline;gap:7px;flex-wrap:wrap}
-.jny .cr-el{font-family:'Cormorant Garamond',Georgia,serif;font-size:17px;font-weight:600;line-height:1.1}
-.jny .cr-isyour{font-family:'EB Garamond',Georgia,serif;font-size:10.5px;letter-spacing:0.6px;color:var(--inkLight)}
-.jny .cr-rel{font-family:'Cormorant Garamond',Georgia,serif;font-size:17px;font-weight:600;color:var(--ink);line-height:1.1}
-.jny .cr-pct{display:block;font-family:'JetBrains Mono',Consolas,monospace;font-size:10px;letter-spacing:1px;color:var(--inkSoft);margin-top:3px}
-/* crop-true scale (measured against the 8.5px role-pill in the supplied
-   design): single-line rows in the 390px two-column layout */
-.jny .ik-crow .cr-line{gap:5px;flex-wrap:nowrap;white-space:nowrap}
-.jny .cr-el{font-size:15px}
-.jny .cr-rel{font-size:15px}
-.jny .cr-isyour{font-size:9.5px;letter-spacing:0.4px}
+/* SEEK/SKIP rows (round 3) — "Fire is your Duty" phrase, column-aligned */
+.jny .ik-phrase{display:grid;grid-template-columns:38px max-content 1fr;column-gap:4px;align-items:baseline;white-space:nowrap}
+.jny .ik-el{font-family:'Cormorant Garamond',Georgia,serif;font-size:14.5px;font-weight:600;color:var(--pigDeep,var(--walnut));line-height:1.05}
+.jny .ik-is{font-family:'EB Garamond',Georgia,serif;font-size:9.5px;color:var(--inkLight);letter-spacing:0.2px}
+.jny .ik-rel{font-family:'Cormorant Garamond',Georgia,serif;font-size:14.5px;font-weight:600;color:var(--ink);line-height:1.05}
+.jny .vx-box .crmain .ik-pct{font-size:8.5px;color:var(--inkLight);margin-top:2px}

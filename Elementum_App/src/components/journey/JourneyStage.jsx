@@ -474,7 +474,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                           {m.seek.map((r) => (
                             <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => expandPill(r.el)}>
                               <span className={`ik-chip${r.missing ? ' ghosted' : ''}`}><Use id={`el-${r.el}`} className="elmark" /><span className={`ik-plate a-${r.el}`} /></span>
-                              <span className="crmain"><span className="cr-line"><span className="cr-el" style={{ color: `var(--${r.el}Deep)` }}>{r.name}</span><span className="cr-isyour">is your</span><span className="cr-rel">{r.relation}</span></span><span className="cr-pct">{r.presence}%</span></span>
+                              <span className="crmain"><span className="ik-phrase"><b className="ik-el">{r.name}</b><span className="ik-is">is your</span><b className="ik-rel">{r.relation}</b></span><span className="ik-pct">{r.presence}%</span></span>
                             </button>
                           ))}
                         </div>
@@ -482,8 +482,8 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                           <div className="vx-ey"><span>SKIP THESE</span><span className="role-pill fric" role="button" tabIndex={0} onClick={() => setFnOpen('fric')}><Use id="ar-down" />Friction</span></div>
                           {m.skip.map((r) => (
                             <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => expandPill(r.el)}>
-                              <span className="ik-chip"><Use id={`el-${r.el}`} className="elmark" /><span className={`ik-plate a-${r.el}`} /></span>
-                              <span className="crmain"><span className="cr-line"><span className="cr-el" style={{ color: `var(--${r.el}Deep)` }}>{r.name}</span><span className="cr-isyour">is your</span><span className="cr-rel">{r.relation}</span></span><span className="cr-pct">{r.presence}%</span></span>
+                              <span className={`ik-chip${r.missing ? ' ghosted' : ''}`}><Use id={`el-${r.el}`} className="elmark" /><span className={`ik-plate a-${r.el}`} /></span>
+                              <span className="crmain"><span className="ik-phrase"><b className="ik-el">{r.name}</b><span className="ik-is">is your</span><b className="ik-rel">{r.relation}</b></span><span className="ik-pct">{r.presence}%</span></span>
                             </button>
                           ))}
                         </div>
@@ -531,17 +531,8 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                   <div className="shelf-hint"><span className="uico"><Use id="ico-arrow-r" /></span>Tap any pill to unfold it — the dark circle inside opens its full reading</div>
                 </div>
 
-                <div className="ca-dock" aria-label="Your readings — open any energy">
-                  {towers.map((r) => (
-                    <button key={r.el} className={`ca-chip dk-${r.el}${r.missing ? ' ghost' : ''}`} aria-label={`${r.name} — your ${r.relation}, ${r.presence}%; unfolds its pill`} onClick={() => expandPill(r.el)}>
-                      <span className="ca-fill" style={{ height: `${Math.round((r.presence / pMax) * 84)}%` }} />
-                      <Use id={`el-${r.el}`} className="elmark" />
-                      <span className="ca-kw">{r.name}</span>
-                    </button>
-                  ))}
-                </div>
-
-                {/* wordsnote (A2) — the taught words close the page; each opens the glossary sheet */}
+                {/* wordsnote (A2, round-3 order) — seated directly under the shelf hint;
+                    the dock's layout slot stays last */}
                 <div className="wordsnote" aria-label="What these words mean">
                   <span className="wn-ey">The words on this page · tap one</span>
                   <div className="wn-chips">
@@ -550,6 +541,16 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                     <button className="role-pill cat" onClick={() => setFnOpen('cat')}><Use id="ar-up" />Catalyst</button>
                     <button className="role-pill fric" onClick={() => setFnOpen('fric')}><Use id="ar-down" />Friction</button>
                   </div>
+                </div>
+
+                <div className="ca-dock" aria-label="Your readings — open any energy">
+                  {towers.map((r) => (
+                    <button key={r.el} className={`ca-chip dk-${r.el}${r.missing ? ' ghost' : ''}`} aria-label={`${r.name} — your ${r.relation}, ${r.presence}%; unfolds its pill`} onClick={() => expandPill(r.el)}>
+                      <span className="ca-fill" style={{ height: `${Math.round((r.presence / pMax) * 84)}%` }} />
+                      <Use id={`el-${r.el}`} className="elmark" />
+                      <span className="ca-kw">{r.name}</span>
+                    </button>
+                  ))}
                 </div>
               </div>
             </div>
@@ -679,7 +680,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                   </div>
                   <div className="tl-cols">
                     <div className="tl-col">
-                      <div className="tl-h seek"><Use id="ar-up" /><span>Catalyst</span></div>
+                      <div className="tl-h seek"><span>Seek</span><span className="sc-pill cat"><Use id="ar-up" />Catalyst</span></div>
                       <div className="vrow">
                         {m.seek.map((r) => (
                           <div className="vcol" key={r.el}>
@@ -693,7 +694,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                       </div>
                     </div>
                     <div className="tl-col">
-                      <div className="tl-h skip"><Use id="ar-down" /><span>Friction</span></div>
+                      <div className="tl-h skip"><span>Skip</span><span className="sc-pill fric"><Use id="ar-down" />Friction</span></div>
                       <div className="vrow">
                         {m.skip.map((r) => (
                           <div className="vcol" key={r.el}>
