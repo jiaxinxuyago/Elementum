@@ -372,7 +372,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
             <img className="ground-img2 bg-energy2" src="/backgrounds/bg-energymap-01-top-band.png" alt="" />
             <div className="pagetint2" />
             <div className="eltint" />
-            <div className="pghead"><span className="pg-eyebrow">YOUR READING</span></div>
             <div className="scrollwrap" ref={swRef}>
               <div className="padv2" ref={padRef}>
 
