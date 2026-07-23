@@ -20,12 +20,14 @@
 //
 //   B · READING JOURNEYS (independent: seeded via window.__seedData
 //       ('geng') + __setTier('advisor') dev hooks, then interaction-
-//       driven): reveal swipe-up dissolve → catalogue; node tap →
-//       energy card; all five energies cycled by real taps (the June
-//       2026 swipe carousel no longer exists — app-energy is now the
-//       faces accordion, so "next energy" is catalogue spine + Read);
-//       Day Master card → Birth Chart pillar glyphs; all 5 tab-bar
-//       taps; Today-hub day/month/year/decade drill-downs.
+//       driven, against the July 2026 JourneyStage (P6 journey)):
+//       reveal swipe-up (the Naming ceremony's .rvl-overlay) → the
+//       catalogue; wheel-node tap → compass cue → pill unfolds →
+//       element panel → "Full reading" → app-energy faces page; all
+//       five energies cycled that way (spine tap → Read → Full
+//       reading); Day Master panel → full DM reading → Birth Chart
+//       pillar glyphs; all 5 tab-bar taps; Today-hub
+//       day/month/year/decade drill-downs.
 //
 // What empirically drives the physics UI (found by probing):
 //   · ScrollPicker (framer-motion drag strip, ROW_H 44): a pointer
@@ -34,8 +36,10 @@
 //     The native wheel handler steps ±1 row per tick (|deltaY|≥30,
 //     90ms lock), used as a deterministic corrector. The centered
 //     value is read via elementFromPoint at the listbox center.
-//   · RevealDissolve: ANY pointer move >6px on .dissolve-scroll plays
-//     the full 1.2s reveal once, then routes to app-reading.
+//   · JourneyStage reveal (.rvl-overlay): a pointer drag UP sets the
+//     dissolve progress ((dy−6)/360); releasing past 0.3 finishes the
+//     ceremony (seal descends into the wheel), and onDone routes to
+//     app-reading ~3.5s later. Tapping .rvl-swipe finishes too.
 //
 // Output → tools/qa-output/journey/latest/ (report.json + failure
 // screenshots in shots/). Exit 0 = every step passed, 1 = failures.
@@ -289,10 +293,10 @@ async function scenarioA(browser) {
   await run('loading → reveal (identity plate renders)', async () => {
     await waitForHash(page, 'reveal', 20000); // ~2.5s ceremonial dwell + bloom
     await page.waitForFunction(() => {
-      const n = document.querySelector('.arch-name');
+      const n = document.querySelector('.rvl-name');
       return n && (n.textContent || '').trim().length > 0;
     }, { timeout: 10000 });
-    const archetype = await page.evaluate(() => document.querySelector('.arch-name').textContent.trim());
+    const archetype = await page.evaluate(() => document.querySelector('.rvl-name').textContent.trim());
     return `archetype "${archetype}"`;
   });
 
@@ -334,7 +338,7 @@ async function scenarioB(browser) {
   await page.evaluate(() => window.__seedData('geng'));
   await page.evaluate(() => window.__setTier && window.__setTier('advisor'));
   await page.evaluate(() => window.__goto('reveal'));
-  await page.waitForSelector('.dissolve-scroll', { timeout: 10000 });
+  await page.waitForSelector('.scrollwrap', { timeout: 10000 });
 
   // If a step strands us off the catalogue, recover through the real tab bar
   // when it's on screen; only fall back to the dev hook as a last resort.
@@ -351,9 +355,13 @@ async function scenarioB(browser) {
   // Read arrow → app-energy faces page for that element.
   const openEnergyFor = async (el) => {
     await toCatalogue();
+    // Open the element's shelf pill, then its Read arrow → the catalogue's
+    // in-stage element reading (JourneyStage screen='element'; hash stays
+    // app-reading). The "Full reading" CTA there bridges to the app energy page.
     await page.click(`.shelf .spine[data-el="${el}"]`);
     await page.waitForSelector(`.shelf .spine[data-el="${el}"].open .sp-read`, { timeout: 5000 });
     await page.click(`.shelf .spine[data-el="${el}"].open .sp-read`);
+    await page.click('.jscreen[data-screen="element"].active .pill-cta', { timeout: 5000 });
     await waitForHash(page, 'app-energy');
     await page.waitForFunction(() => {
       const n = document.querySelector('.fd-name');
@@ -363,7 +371,7 @@ async function scenarioB(browser) {
   };
 
   await step(page, 'B', '1 · reveal swipe-up → dissolve → catalogue', async () => {
-    const sc = await page.waitForSelector('.dissolve-scroll', { timeout: 8000 });
+    const sc = await page.waitForSelector('.scrollwrap', { timeout: 8000 });
     const box = await sc.boundingBox();
     const cx = box.x + box.width / 2;
     // swipe UP from lower third — any >6px pointer move plays the dissolve
@@ -376,18 +384,23 @@ async function scenarioB(browser) {
     await page.mouse.up();
     await waitForHash(page, 'app-reading', 10000); // 1.2s ceremony → handoff
     await page.waitForSelector('.shelf .spine', { timeout: 8000 });
-    const nodes = await page.locator('.mini-wheel .node').count();
+    const nodes = await page.locator('.wheel .node').count();
     if (nodes !== 5) throw new Error(`catalogue wheel has ${nodes} nodes, expected 5`);
     return 'dissolve played → catalogue (5 nodes + shelf)';
   });
 
-  await step(page, 'B', '2 · tap wheel node → energy card opens', async () => {
+  await step(page, 'B', '2 · tap wheel node → pill unfolds → energy card', async () => {
     await toCatalogue();
-    const el = await page.evaluate(() => document.querySelector('.mini-wheel .node')?.dataset.el);
+    const el = await page.evaluate(() => document.querySelector('.wheel .node')?.dataset.el);
     if (!el) throw new Error('no wheel node found');
-    await page.click(`.mini-wheel .node[data-el="${el}"]`); // node tap = select
-    await page.waitForSelector(`.shelf .spine[data-el="${el}"].open .sp-read`, { timeout: 5000 });
+    // A node tap runs the compass: it cues the prescription row, then unfolds
+    // that element's shelf pill (JourneyStage.compassGo → expandPill).
+    await page.click(`.wheel .node[data-el="${el}"]`);
+    await page.waitForSelector(`.shelf .spine[data-el="${el}"].open`, { timeout: 6000 });
+    // The unfolded pill's Read arrow → in-stage element screen → "Full reading"
+    // CTA → the app energy page (the polarity faces reading).
     await page.click(`.shelf .spine[data-el="${el}"].open .sp-read`);
+    await page.click('.jscreen[data-screen="element"].active .pill-cta', { timeout: 5000 });
     await waitForHash(page, 'app-energy');
     await page.waitForFunction(() => {
       const n = document.querySelector('.fd-name');
@@ -395,7 +408,7 @@ async function scenarioB(browser) {
     }, { timeout: 8000 });
     const name = await page.evaluate(() => document.querySelector('.fd-name')?.textContent.trim());
     if (!name || !name.toLowerCase().includes(el)) throw new Error(`energy card shows "${name}" for node "${el}"`);
-    return `node "${el}" → card "${name}"`;
+    return `node "${el}" → pill → card "${name}"`;
   });
 
   await step(page, 'B', '3 · cycle all 5 energies (active energy changes)', async () => {
@@ -423,7 +436,12 @@ async function scenarioB(browser) {
 
   await step(page, 'B', '4 · Day Master card → Pillar Chart glyphs', async () => {
     await toCatalogue();
+    // The hero "Read your Day Master" arrow opens the catalogue's in-stage Day
+    // Master card (JourneyStage screen='daymaster'); "The full Day Master
+    // reading" CTA there bridges to the app Day Master page (app-daymaster).
     await page.click('button[aria-label="Read your Day Master"]');
+    await page.waitForSelector('.jscreen[data-screen="daymaster"].active .pill-cta', { timeout: 5000 });
+    await page.click('.jscreen[data-screen="daymaster"].active .pill-cta');
     await waitForHash(page, 'app-daymaster');
     await page.click('button.birth-chart-btn');
     await waitForHash(page, 'app-pillars');
