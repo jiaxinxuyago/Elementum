@@ -2637,3 +2637,8 @@
 .jny .wordsnote{margin-top:-70px;margin-bottom:calc(22px + env(safe-area-inset-bottom,0px))}
 .jny .wordpop{position:absolute;inset:0;z-index:120;display:flex;align-items:center;justify-content:center;padding:26px}
 .jny .wordpop[hidden]{display:none}
+/* round-2 fixes: painting-mode center seal on live wheels (non-庚 stems use
+   the proc medallions — raw stem pngs are full paintings, not seal chips);
+   glossary sheet above every layer */
+.jny .wheel .center-seal.ms{background-position:center;background-size:contain;background-repeat:no-repeat;background-color:transparent;border:none;box-shadow:none;border-radius:50%}
+.jny .wordpop{z-index:210 !important}

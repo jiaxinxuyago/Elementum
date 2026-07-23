@@ -311,6 +311,11 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   const pMax = towers[0]?.presence || 1;
   const sealSrc = `/concept-arts/stems/${m.stemId}.png`;
   const paintSrc = `/concept-arts/stems/proc/${m.stemId}-${m.core.el}.png`;
+  // Only 庚 has true seal-chip art; the other stems' raw pngs are full
+  // paintings — wheel centers use the proc medallions for them instead.
+  const isBladeArt = m.stemId === 'geng';
+  const centerCls = isBladeArt ? 'center-seal a-seal' : 'center-seal ms';
+  const centerSrc = isBladeArt ? sealSrc : paintSrc;
 
   const track = (cur) => (
     <span className="sp-track">
@@ -368,34 +373,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
             <div className="pagetint2" />
             <div className="eltint" />
             <div className="pghead"><span className="pg-eyebrow">YOUR READING</span></div>
-            {fnNote && (
-              <div className="wordpop open" role="presentation">
-                <div className="wp-scrim" onClick={() => setFnOpen(null)} />
-                <div className={`wp-sheet ${fnNote.tint}`} role="dialog" aria-label="What this word means">
-                  <div className="wp-band">
-                    <span className="wp-wm">{fnNote.icon === 'cond' ? <Use id={condIcon} /> : fnNote.icon ? <Use id={fnNote.icon} /> : <Use id={`el-${m.core.el}`} />}</span>
-                    <button className="wp-x" aria-label="Close" onClick={() => setFnOpen(null)}><Use id="ico-close" /></button>
-                    <span className="wp-ey">In your reading</span>
-                    <div className="wp-chipwrap">
-                      <span className={`role-pill ${fnNote.pill}`}>
-                        {fnNote.icon === 'cond' && <Use id={condIcon} />}
-                        {fnNote.icon === 'ar-up' && <Use id="ar-up" />}
-                        {fnNote.icon === 'ar-down' && <Use id="ar-down" />}
-                        {fnNote.label}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="wp-inner">
-                    <p className="wp-body">{fnNote.body}</p>
-                    <button className="wp-codex" onClick={() => { setFnOpen(null); if (onOpenCodex) onOpenCodex(); }}>
-                      <span className="wp-cx-ic"><Use id="ic-codex" /></span>
-                      <span className="wp-cx-tx"><b>Deeper in the Codex</b><small>the full reading of this word</small></span>
-                      <span className="wp-cx-go"><Use id="ico-arrow-r" /></span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            )}
             <div className="scrollwrap" ref={swRef}>
               <div className="padv2" ref={padRef}>
 
@@ -420,7 +397,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                 <div className="beat" data-beat="2">
                   <span className="sec-eyebrow">YOUR FIVE ENERGIES</span>
                   <div className="wheel" ref={wheelRef} aria-label="Dominance wheel — tap any energy to open its reading">
-                    <button className="center-seal a-seal" style={{ backgroundImage: `url('${sealSrc}')` }} aria-label="The Day Master seal — open your identity card" onClick={() => setShowShare(true)} />
+                    <button className={centerCls} style={{ backgroundImage: `url('${centerSrc}')` }} aria-label="The Day Master seal — open your identity card" onClick={() => setShowShare(true)} />
                     {m.els.map((r) => (
                       <button key={r.el} data-el={r.el}
                         className={`node n-${r.el}${r.isCore ? ' is-core' : ''}`}
@@ -638,6 +615,36 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
         </div>
         <div className={`wip${toast ? ' show' : ''}`}>{toast || ''}</div>
       </div>
+      {/* A2 · glossary sheet — root-level so it tops every screen layer */}
+      {fnNote && (
+        <div className="wordpop open" role="presentation">
+          <div className="wp-scrim" onClick={() => setFnOpen(null)} />
+          <div className={`wp-sheet ${fnNote.tint}`} role="dialog" aria-label="What this word means">
+            <div className="wp-band">
+              <span className="wp-wm">{fnNote.icon === 'cond' ? <Use id={condIcon} /> : fnNote.icon ? <Use id={fnNote.icon} /> : <Use id={`el-${m.core.el}`} />}</span>
+              <button className="wp-x" aria-label="Close" onClick={() => setFnOpen(null)}><Use id="ico-close" /></button>
+              <span className="wp-ey">In your reading</span>
+              <div className="wp-chipwrap">
+                <span className={`role-pill ${fnNote.pill}`}>
+                  {fnNote.icon === 'cond' && <Use id={condIcon} />}
+                  {fnNote.icon === 'ar-up' && <Use id="ar-up" />}
+                  {fnNote.icon === 'ar-down' && <Use id="ar-down" />}
+                  {fnNote.label}
+                </span>
+              </div>
+            </div>
+            <div className="wp-inner">
+              <p className="wp-body">{fnNote.body}</p>
+              <button className="wp-codex" onClick={() => { setFnOpen(null); if (onOpenCodex) onOpenCodex(); }}>
+                <span className="wp-cx-ic"><Use id="ic-codex" /></span>
+                <span className="wp-cx-tx"><b>Deeper in the Codex</b><small>the full reading of this word</small></span>
+                <span className="wp-cx-go"><Use id="ico-arrow-r" /></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* A1 · the locked Tiles identity card + share rail */}
       {showShare && (
         <div className="scov open" role="dialog" aria-modal="true" aria-label="Your identity card">
@@ -651,7 +658,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                 <div className="scey">ELEMENTUM · YOUR IDENTITY</div>
                 <div className="scwheel">
                   <div className="wheel">
-                    <span className="center-seal ms" style={{ backgroundImage: `url('${paintSrc}')` }} aria-hidden="true" />
+                    <span className={centerCls} style={{ backgroundImage: `url('${centerSrc}')` }} aria-hidden="true" />
                     {m.els.map((r) => (
                       <span key={r.el} className={`node n-${r.el}`} style={{ width: r.size, height: r.size, left: r.seat.left, top: r.seat.top }} aria-hidden="true">
                         <Use id={`el-${r.el}`} className="elmark" />
