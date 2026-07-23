@@ -2655,3 +2655,18 @@
    band (z:-1 within its stacking context) and over the page, so no raw page
    or color seam shows at the dock's flanks or beneath it. */
 .jny[data-ca="dock"] .ca-dock::before{top:-38px;bottom:calc(-1 * (76px + env(safe-area-inset-bottom, 0px)));height:auto;left:-26px;right:-26px;z-index:-1;background:linear-gradient(to bottom,rgba(242,235,220,0) 0%,rgba(242,235,220,0.82) 30%,rgba(243,236,222,0.97) 58%,rgba(243,236,222,0.98) 100%)}
+/* SEEK/SKIP row format (owner 2026-07-23): "{Element} is your {Relation}"
+   inline — pigment name · muted connective · ink relation — with the mono
+   presence % beneath. Matches the supplied design crop. */
+.jny .ik-crow{padding:10px 0}
+.jny .ik-crow .cr-line{display:flex;align-items:baseline;gap:7px;flex-wrap:wrap}
+.jny .cr-el{font-family:'Cormorant Garamond',Georgia,serif;font-size:17px;font-weight:600;line-height:1.1}
+.jny .cr-isyour{font-family:'EB Garamond',Georgia,serif;font-size:10.5px;letter-spacing:0.6px;color:var(--inkLight)}
+.jny .cr-rel{font-family:'Cormorant Garamond',Georgia,serif;font-size:17px;font-weight:600;color:var(--ink);line-height:1.1}
+.jny .cr-pct{display:block;font-family:'JetBrains Mono',Consolas,monospace;font-size:10px;letter-spacing:1px;color:var(--inkSoft);margin-top:3px}
+/* crop-true scale (measured against the 8.5px role-pill in the supplied
+   design): single-line rows in the 390px two-column layout */
+.jny .ik-crow .cr-line{gap:5px;flex-wrap:nowrap;white-space:nowrap}
+.jny .cr-el{font-size:15px}
+.jny .cr-rel{font-size:15px}
+.jny .cr-isyour{font-size:9.5px;letter-spacing:0.4px}

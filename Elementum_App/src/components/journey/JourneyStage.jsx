@@ -474,7 +474,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                           {m.seek.map((r) => (
                             <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => expandPill(r.el)}>
                               <span className={`ik-chip${r.missing ? ' ghosted' : ''}`}><Use id={`el-${r.el}`} className="elmark" /><span className={`ik-plate a-${r.el}`} /></span>
-                              <span className="crmain"><span className="crline"><span className="ik-nm">{r.name}</span><span className="ik-pct">{r.presence}%</span></span><span className="ik-kw">your {r.relation}</span></span>
+                              <span className="crmain"><span className="cr-line"><span className="cr-el" style={{ color: `var(--${r.el}Deep)` }}>{r.name}</span><span className="cr-isyour">is your</span><span className="cr-rel">{r.relation}</span></span><span className="cr-pct">{r.presence}%</span></span>
                             </button>
                           ))}
                         </div>
@@ -483,7 +483,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                           {m.skip.map((r) => (
                             <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => expandPill(r.el)}>
                               <span className="ik-chip"><Use id={`el-${r.el}`} className="elmark" /><span className={`ik-plate a-${r.el}`} /></span>
-                              <span className="crmain"><span className="crline"><span className="ik-nm">{r.name}</span><span className="ik-pct">{r.presence}%</span></span><span className="ik-kw">your {r.relation}</span></span>
+                              <span className="crmain"><span className="cr-line"><span className="cr-el" style={{ color: `var(--${r.el}Deep)` }}>{r.name}</span><span className="cr-isyour">is your</span><span className="cr-rel">{r.relation}</span></span><span className="cr-pct">{r.presence}%</span></span>
                             </button>
                           ))}
                         </div>
