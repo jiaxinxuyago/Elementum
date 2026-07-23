@@ -1,0 +1,83 @@
+{
+  "$comment": "Elementum · Reveal → Reading journey — the archetype template contract. Three field classes: (A) VOCABULARY — app-wide constants locked by DES_12/DES_08, identical for every user; (B) ARCHETYPE — locked per day-master stem (10 variants), identical for every user of that stem; (C) USER_CHART — computed per user by engine/energyRoles.js, never hand-authored. Every component in p6-journey.html binds only to these fields. Never invent vocabulary: any null archetype field is filled from DES_12's persona table, not improvised.",
+
+  "vocabulary": {
+    "relation_nouns": { "$comment": "Ten-god family relative to the user's core element → surface noun. One concept, one name (DES_08).",
+      "self": "Core", "resource": "Root", "wealth": "Drive", "output": "Voice", "officer": "Duty" },
+    "relation_keywords": { "$comment": "Draft noun shown on the closed pill + open card glance label ('Independence — your Core').",
+      "Core": "Independence", "Root": "Insight", "Drive": "Caution", "Voice": "Flow", "Duty": "Force" },
+    "condition_verdicts": ["Overfueled", "Balanced", "Underfueled"],
+    "approaches": ["Channel", "Refill"],
+    "$condition_note": "DES_12 §5c RE-LOCK 2026-07-16: Overfueled/Balanced/Underfueled + Channel/Refill supersede Charged/Receptive/Fuel. Never surface engine terms (strong/weak, band, tgPattern).",
+    "panel_headers": { "catalyst": "SEEK THESE · CATALYST", "friction": "SKIP THESE · FRICTION" },
+    "role_labels": { "core": "YOUR CORE", "catalyst": "CATALYST", "catalyst_major": "MAJOR CATALYST", "friction": "FRICTION", "missing": "MISSING" },
+    "chinese_glyphs": "decorative only, never information-carrying (火 on the element hero is ornament; all meaning is in English labels)",
+    "reading_level": "grade 6–7; labels 1–2 syllable common words"
+  },
+
+  "archetype_fields": {
+    "$comment": "Locked per stem. arch_name/manifesto/keywords/who_you_are for the nine non-Gēng stems MUST come from DES_12's persona table — placeholders here are nulls, not suggestions.",
+    "schema": ["stem_id", "pinyin_display", "polarity", "element", "arch_name", "manifesto", "keywords[3]", "who_you_are", "painting_asset"],
+    "stems": [
+      { "stem_id": "jia",  "pinyin_display": "JIǍ",  "polarity": "YANG", "element": "wood",  "arch_name": null, "painting_asset": "art/stems/proc/jia-wood.png" },
+      { "stem_id": "yi",   "pinyin_display": "YǏ",   "polarity": "YIN",  "element": "wood",  "arch_name": null, "painting_asset": "art/stems/proc/yi-wood.png" },
+      { "stem_id": "bing", "pinyin_display": "BǏNG", "polarity": "YANG", "element": "fire",  "arch_name": null, "painting_asset": "art/stems/proc/bing-fire.png" },
+      { "stem_id": "ding", "pinyin_display": "DĪNG", "polarity": "YIN",  "element": "fire",  "arch_name": null, "painting_asset": "art/stems/proc/ding-fire.png" },
+      { "stem_id": "wu",   "pinyin_display": "WÙ",   "polarity": "YANG", "element": "earth", "arch_name": null, "painting_asset": "art/stems/proc/wu-earth.png" },
+      { "stem_id": "ji",   "pinyin_display": "JǏ",   "polarity": "YIN",  "element": "earth", "arch_name": null, "painting_asset": "art/stems/proc/ji-earth.png" },
+      { "stem_id": "geng", "pinyin_display": "GĒNG", "polarity": "YANG", "element": "metal",
+        "arch_name": "The Blade",
+        "manifesto": "Precision before intention — an edge is never given; it is forged.",
+        "keywords": ["Precision", "Standard", "Edge"],
+        "who_you_are": "The verdict arrives before the conversation — evaluative precision, the standard that runs first. You trust your own counsel, begin without permission, and finish without rescue.",
+        "painting_asset": "art/stems/proc/geng-metal.png" },
+      { "stem_id": "xin",  "pinyin_display": "XĪN",  "polarity": "YIN",  "element": "metal", "arch_name": null, "painting_asset": "art/stems/proc/xin-metal.png" },
+      { "stem_id": "ren",  "pinyin_display": "RÉN",  "polarity": "YANG", "element": "water", "arch_name": null, "painting_asset": "art/stems/proc/ren-water.png" },
+      { "stem_id": "gui",  "pinyin_display": "GUǏ",  "polarity": "YIN",  "element": "water", "arch_name": null, "painting_asset": "art/stems/proc/gui-water.png" }
+    ]
+  },
+
+  "user_chart_fields": {
+    "$comment": "ALL computed by engine/energyRoles.js — the design never calculates. The reference chart below is the demo user baked into p6-journey.html (swap wholesale when binding real users).",
+    "schema": {
+      "stem_id": "one of the ten stems above",
+      "percents": "element → 0–100, sum 100",
+      "roles": "element → core | catalyst | friction (core can ALSO carry surplus friction, as Metal does here)",
+      "major": "elements flagged for the emphasis ring (largest need)",
+      "missing": "elements at 0% (dashed sliver on the wheel; MISSING label)",
+      "condition": "one of vocabulary.condition_verdicts",
+      "approach": "one of vocabulary.approaches",
+      "cast_line": "CAST FROM {year} · {month} {day} · {hour-range} {tz-abbr} — tz abbr from the birth city entered at onboarding (city → IANA zone)"
+    },
+    "reference_chart_geng": {
+      "stem_id": "geng",
+      "percents": { "metal": 40, "earth": 30, "wood": 20, "water": 10, "fire": 0 },
+      "roles": { "metal": "core", "earth": "friction", "wood": "catalyst", "water": "catalyst", "fire": "catalyst" },
+      "core_excess_friction": ["metal"],
+      "major": ["fire"], "missing": ["fire"],
+      "condition": "Overfueled", "approach": "Channel",
+      "cast_line": "CAST FROM 1995 · APRIL 29 · 17–19 CST"
+    },
+    "wheel_placement_law": "Core element always holds the TOP slot; the remaining four order high → low counter-clockwise starting from the slot at the Core's right. Node diameters 59/53/48/42/37 at seats −90°/−18°/54°/126°/198°, container 320×292."
+  },
+
+  "element_screen_copy": {
+    "$comment": "Per-element reading-screen fields as built (source of truth: var ELD in p6-journey.html). face/kw pairs are the LAYER-2 face vocabulary — §7 of the design history README: NEEDS OWNER SIGN-OFF before production copy is locked. Copy below is the Gēng demo user's; per-user role/verdict lines re-bind from user_chart_fields.",
+    "fields": ["name", "hz (decorative)", "art class", "pigment vars", "reye (eyebrow: ELEMENT · % · ROLE)", "role chip", "title", "tag", "verdLab", "verdict", "mean", "face", "kw", "teaser"],
+    "example_fire": {
+      "reye": "FIRE · 0% · MISSING", "role_chip": "CATALYST",
+      "title": "The forge you borrow, never own.", "tag": "Radiance · the rising heat",
+      "verdict": "Cast with none — borrow it daily · with Water & Wood.",
+      "mean": "The room is different before you speak — warmth as climate, light that changes what it touches.",
+      "face": "The General · CHALLENGE", "kw": "forging · relentless · decisive"
+    },
+    "all_five": "read var ELD (p6-journey.html, ~line 1688) — verbatim strings for fire/water/wood/earth/metal"
+  },
+
+  "routes": {
+    "$comment": "Integration points — these buttons exist in the prototype with data-route attributes; wire to the app's existing pages.",
+    "reading/energy/:element": "element screen → 'Full reading' pill-cta. Destination: the existing per-energy reading pages (design reference: reference/elementum-d13-part2-readings.html)",
+    "reading/daymaster": "day-master screen → 'The full Day Master reading' pill-cta. Destination: the existing Day Master reading page",
+    "in_prototype": "identity-card float → 'Read the full Day Master →' navigates to the daymaster screen (data-go-float)"
+  }
+}
