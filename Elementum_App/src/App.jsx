@@ -808,7 +808,7 @@ function DevHelpers() {
       };
       // Backwards-compat alias names.
       const ALIASES = { blade: 'geng', rain: 'gui' };
-      // Ordered cycle (DEV_01 / DES_01 canonical order: 甲乙丙丁戊己庚辛壬癸).
+      // Ordered cycle (DEV_01 / REA_01 canonical order: 甲乙丙丁戊己庚辛壬癸).
       const CYCLE_ORDER = ['jia','yi','bing','ding','wu','ji','geng','xin','ren','gui'];
 
       window.__seedData = (preset = 'geng') => {

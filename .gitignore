@@ -17,3 +17,6 @@ Reference/
 !.claude/settings.json
 
 Documents/Business/statements/
+
+# Generated companion of REA_10 (rerun tools/build-reading-review.mjs to recreate)
+Documents/Reading/reading-replicant.html

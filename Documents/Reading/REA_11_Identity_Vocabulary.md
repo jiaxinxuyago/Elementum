@@ -1,10 +1,12 @@
-# Elementum · Identity Vocabulary
+# Elementum · REA_11 — Identity Vocabulary
+
+> **Formerly DES_12** — moved to the Reading library in the 2026-07-23 design/reading doc separation; historical citations of "DES_12" (and the pre-rename "DES_12_Identity_Compound_Vocabulary") refer to this file (registry: Documents/README.md).
 
 > **Status: OWNER-LOCKED vocabulary (2026-07-02) · design record for the identity-card / Five Energies redesign.**
-> Branch: `feat/identity-card-design`. Companion to DES_01 §3 (the 50-key taxonomy) — this doc records the
+> Branch: `feat/identity-card-design`. Companion to REA_01 §3 (the 50-key taxonomy) — this doc records the
 > plain-English *meaning layer* decisions made 2026-07-01 → 2026-07-02 and the reasoning chain behind them.
-> ⚠ DES_01 amendment pending: the "Shareable code / MBTI resonance" future fields in DES_01 §2 are being realized
-> by this work; DES_01 itself is LOCKED and untouched until the owner folds this in.
+> ⚠ REA_01 amendment pending: the "Shareable code / MBTI resonance" future fields in REA_01 §2 are being realized
+> by this work; REA_01 itself is LOCKED and untouched until the owner folds this in.
 
 ---
 
@@ -36,11 +38,11 @@ ten-god relation, in plain English (e.g. "your Earth is 33% with 偏印 dominant
   Same Metal = "The Twin" on the faces page and "The Magistrate" on the element Read card → contradiction
   fatal to the MBTI-clarity promise.
 
-**Resolution (owner, 2026-07-02): both systems compound — neither wins.** Per DES_01 §3, the meaning unit
+**Resolution (owner, 2026-07-02): both systems compound — neither wins.** Per REA_01 §3, the meaning unit
 is the 50-key `[element]_[tenGod]` compound: the **element is the substance/flavor**, the **ten-god is
 the relation to the core**. `ENERGY_CONTENT` (element-only) and `FACE_CARD` (god-only) were both
-half-implementations of DES_01's compound; they merge into the 50 cells rather than fight over the slot.
-The Day Master is the core noun; the five elements are its relations. **A‑12345 = DES_01's Layer 1
+half-implementations of REA_01's compound; they merge into the 50 cells rather than fight over the slot.
+The Day Master is the core noun; the five elements are its relations. **A‑12345 = REA_01's Layer 1
 (core, `stem_band_pattern`) + Layer 2 (the five `element_tenGod` relations).**
 
 ---
@@ -115,7 +117,7 @@ Gift/shadow poles per face (draft register, to refine during 50-cell authoring):
 
 ## §4b — Per-god MASTER LIST (v2 · pole nouns + adjectives DRAFT 2026-07-14)
 
-Everything orbiting each ten-god. Persona + identity lines are canonical (DES_08 §2); keyword + charge
+Everything orbiting each ten-god. Persona + identity lines are canonical (REA_07 §2); keyword + charge
 locked (§4); relation nouns iterating (§5b). **NEW axis (v2): pole nouns** — each keyword's intrinsic
 spectrum gets a named catalyst pole and friction pole (1 noun + 3 adjectives each). Rationale: pole
 nouns are Layer-3 INTRINSIC vocabulary (naming the spectrum's ends, fixed per god), NOT per-chart slot
@@ -123,7 +125,7 @@ renaming — slot stability preserved; the chart role only picks which pole ligh
 *"[Keyword], fueled, becomes [Catalyst noun]; overloaded, it curdles into [Friction noun]."*
 The pole noun is the diagnosis-layer headline; the 3 adjectives are its supporting chips (v2
 de-duplicated each chip set against its own pole noun). Italic English god names are the classical
-translations — internal/docs-only per DES_08 law #3, listed for completeness.
+translations — internal/docs-only per REA_07 law #3, listed for completeness.
 
 | Family → rel. noun (§5b) | God | Persona | Keyword · charge | Catalyst ⬆ noun — adjectives | Friction ⬇ noun — adjectives |
 |---|---|---|---|---|---|
@@ -138,10 +140,10 @@ translations — internal/docs-only per DES_08 law #3, listed for completeness.
 | Resource 印 → **Root**⚠ | 偏印 *Indirect Seal* | The Alchemist | Insight · fierce | **Vision** — Intuitive · Penetrating · Inventive | **Detachment** — Aloof · Overthinking · Self-denying |
 | | 正印 *Direct Seal* | The Sage | Nurture · gentle | **Wisdom** — Patient · Sheltering · Replenishing | **Dependence** — Passive · Over-protected · Inert |
 
-(Identity/definition lines omitted from the table for width — canonical in DES_08 §2, one per god,
+(Identity/definition lines omitted from the table for width — canonical in REA_07 §2, one per god,
 mandatory on first surfacing.)
 
-⚠ = relation-noun candidate is a DES_08 law-#4 banned alias (The Root · The Trial · **The Harvest** —
+⚠ = relation-noun candidate is a REA_07 law-#4 banned alias (The Root · The Trial · **The Harvest** —
 the 正财 alias caught 2026-07-14, joining Root/Trial in the scoping decision). Resolve at §5b lock:
 scope law #4 to persona-name slots, or choose non-alias nouns.
 
@@ -188,7 +190,7 @@ Consistent with the existing functional definition ("Western, Chinese-illiterate
   penalty → low end). No winning app in this market writes above grade 9.
 - **Label vocabulary: words a 12-year-old knows, ideally 1–2 syllables.**
 - Occasional poetic one-liners allowed as seasoning (Co-Star pattern), never the base register.
-- DES_06's locked voice (game-lore declarative, no hedging, not-self-help) is COMPATIBLE: plain ≠ soft.
+- REA_05's locked voice (game-lore declarative, no hedging, not-self-help) is COMPATIBLE: plain ≠ soft.
   Simple words + blunt sentences IS the Co-Star trick.
 
 ### Register ruling (two-tier, confirmed from three directions)
@@ -197,7 +199,7 @@ are the market-winning "The [Noun]" convention (16P The Architect, Enneagram The
 UNCHANGED. Working vocabulary (keywords, pole nouns, chips) drops to concrete/physical-metaphor
 register ("Turbulent" not "Neuroticism"). Anti-pattern: CliftonStrengths' latinate nouns (Ideation,
 Intellection) — corporate-assessment register, non-viral. Convergent precedents: our own law
-("Chinese as art, English as information"), Cece's two-register split (DES_09 "copyable pattern"),
+("Chinese as art, English as information"), Cece's two-register split (REA_08 "copyable pattern"),
 16P's mythic types + plain traits. Bonus: Five-Element language is natively concrete (wood, fire,
 root, forge) — physical-metaphor words are MORE on-brand than virtue-nouns.
 
@@ -239,7 +241,7 @@ and law-#4 alias scoping remain open as before — register research does not af
 > **Why this costs nothing:** the element is already on the tile/wheel node (element name, %, pigment,
 > icon) — the modifier double-encoded it ("EARTH · 33% — *Grounded* Insight" says Earth twice).
 > **Consequences:** the `[modifier]+[keyword]` 50-glance-label formula below is RETIRED; the glance
-> vocabulary is the 10 keywords alone. The 50 `element_tenGod` cells (DES_01 §3) remain the CONTENT
+> vocabulary is the 10 keywords alone. The 50 `element_tenGod` cells (REA_01 §3) remain the CONTENT
 > unit — element flavor lives inside each cell's deep reading as prose, not in the label. The five
 > modifiers below are kept as authoring palette for that prose (and possible future non-label uses);
 > they are no longer vocabulary-law surface units, so the §4c Ardent→Fiery proposal becomes moot for
@@ -261,14 +263,14 @@ chosen over Growing — gerund reads as quantity, not flavor.)
 
 ~~**The 50 glance-labels (formula-derived).**~~ **RETIRED 2026-07-15 per the directive above** — labels
 are the 10 keywords alone; the 50 cells stay as content keys only. (Historical formula: {Sharp, Vital,
-Ardent, Grounded, Deep} × the 10 keywords, each cell's valid DM implied per DES_01 §3's 50-key table.)
+Ardent, Grounded, Deep} × the 10 keywords, each cell's valid DM implied per REA_01 §3's 50-key table.)
 
 **Reference reading of a compound (土偏印, the worked example):** 印 = the force that backs and feeds
 you; 偏 = the indirect face — self-generated, intuitive, unorthodox support (The Alchemist; classically
 can "steal the food" 梟印奪食); 土 = stable, grounding, patient. Compound: *a self-made, grounded,
 intuitive footing — you hold yourself up.* Role flips the verdict: at `needed` = "a precious inner
 footing — lean in"; at `friction` 33% on a strong self = "over-grounded; the comfort that stalls the
-blade" (the reference Blade's actual case, DES_01 §3 reference chart).
+blade" (the reference Blade's actual case, REA_01 §3 reference chart).
 
 ---
 
@@ -397,7 +399,7 @@ costs you. Nothing to fix; just stop adding what you already hold."*
 
 ### Reconciliation & required fixes
 - **Internal band keys untouched:** `concentrated/balanced/open` remain the code/content keys (150-key
-  system); Charged/Balanced/Receptive are DISPLAY terms — same key-vs-label split as personas. DES_08
+  system); Charged/Balanced/Receptive are DISPLAY terms — same key-vs-label split as personas. REA_07
   registry row "energy band" needs updating on lock-registration (canonical user terms = these three).
 - **⚠ LIVE VOCAB VIOLATION to fix:** `CodexScreen.jsx:46-52` surfaces the RAW engine string
   ("Yours is 庚 — Yang Metal, strong." — can even show "extremely weak"). Replace with the locked
@@ -414,7 +416,7 @@ costs you. Nothing to fix; just stop adding what you already hold."*
 
 > **LOCKED 2026-07-16 (journey-handoff integration ruling): Core (Self 比劫) · Voice (Output 食伤) ·
 > Drive (Wealth 财) · Duty (Authority 官杀) · Root (Resource 印).** Forks resolved: Drive over
-> Harvest, Duty over Trial. **DES_08 law #4 is scoped to PERSONA-NAME slots only** (owner ruling,
+> Harvest, Duty over Trial. **REA_07 law #4 is scoped to PERSONA-NAME slots only** (owner ruling,
 > same date) — "The Root / The Trial / The Harvest" remain banned as persona names, but Root (and
 > the words trial/harvest) are free in other slots; the relation noun Root is legal. Draft record
 > below kept for history.
@@ -425,7 +427,7 @@ costs you. Nothing to fix; just stop adding what you already hold."*
 > Master — the family/function slot. Completes the glance grammar — since the 2026-07-15 directive
 > (§5), two beats: **`[keyword] — your [relation]`** (e.g. Earth 33% → "Insight — your Root").
 > Replaces the app's two-word family labels ("your support & nourishment") for first-glance surfaces.
-> Note: the Profile-DB already carries non-surfacing one-word aliases (Flow / Trial / Root) — DES_01
+> Note: the Profile-DB already carries non-surfacing one-word aliases (Flow / Trial / Root) — REA_01
 > v2.1 note — so the codebase gestured at this list without locking it.
 
 | Family | What it is to you | Draft noun | Alternates | Status |
@@ -454,7 +456,7 @@ costs you. Nothing to fix; just stop adding what you already hold."*
 
 ## §6 — Worked compounds (A‑12345 examples)
 
-**庚 The Blade (reference chart, DES_01 §3):** Metal 23% 金比肩 **Sharp Independence** (self) · Wood 33%
+**庚 The Blade (reference chart, REA_01 §3):** Metal 23% 金比肩 **Sharp Independence** (self) · Wood 33%
 木正财 **Vital Prudence** (drive, catalyst) · Earth 33% 土偏印 **Grounded Insight** (ground, friction) ·
 Water 6% 水食神 **Deep Fluency** (voice) · Fire 5% 火七杀 **Ardent Force** (forge, needed 用神).
 
@@ -536,16 +538,16 @@ glossary sheet, redesigned pills):
 | **Implement the journey handoff** (reveal→catalogue→element screens per §6b rulings) | IN PROGRESS 2026-07-16 |
 | **Element-screen verdict formulas + DM-neutral hooks** (§6b item 6) | NEXT content work |
 | **Fix CodexScreen.jsx:46-52** — raw `dm.strength` string surfaces to users; replace with §5c locked terms | REQUIRED (found 2026-07-15) |
-| **Register locked vocabulary in DES_08** — keywords v3, relation nouns, §5c terms; law-#4 scoping edit | REQUIRED now (locks closed) |
+| **Register locked vocabulary in REA_07** — keywords v3, relation nouns, §5c terms; law-#4 scoping edit | REQUIRED now (locks closed) |
 | ~~Relation nouns (§5b)~~ | ✔ LOCKED 2026-07-16 |
-| Deeper per-cell readings (translate DES_01 §3's 50 semi-jargon "structural interactions" to plain English, role-aware) | NEXT — not started |
+| Deeper per-cell readings (translate REA_01 §3's 50 semi-jargon "structural interactions" to plain English, role-aware) | NEXT — not started |
 | Layer-2 diagnosis card design (function + role + yin/yang face bar) | after 50 cells |
 | Surface valence framing (collapse 5 engine roles → 3 readable states: fuels / balanced / overloads-or-lacking?) | proposed, not locked |
 | Code ordering (function-ordered code vs dominance-ordered reading — two views) | proposed, not locked |
 | Speakable headline ("Core + defining relation", e.g. "a Blade, Alchemist-heavy") | proposed, not locked |
 | Legacy `ENERGY_CONTENT` merge/retire into the 50 cells | required by §2, not implemented |
 | Remaining archetype worked examples (乙 Vine · 丁 Candle · 己 Field · 辛 Jewel · 癸 Rain) | not drafted |
-| DES_01 §2 amendment (Shareable code / MBTI resonance realized by this system) | owner to fold in |
+| REA_01 §2 amendment (Shareable code / MBTI resonance realized by this system) | owner to fold in |
 
 **Do-not-break:** `DominanceWheel` consumes only `{el,presence,roles,major}` — the compound layer never
 touches it. `EnergyShelf` catalogue anatomy (hook/pol/role) is the user-facing contract; the compound
@@ -562,4 +564,4 @@ enriches tiles, never replaces the catalogue.
 | **Status** | §4 keywords LOCKED (v3 final) · §5 modifiers RETIRED from labels · §5b relation nouns LOCKED · §5c strength+remedy LOCKED · §4b pole nouns/chips drafted · §6b journey rulings recorded · §7 items open |
 | **Audience** | Owner, engineers, content generation |
 | **Purpose** | Record of the compound (core + five relations) identity decisions: the two-system clash resolution, the three-layer architecture, the locked 10 face keywords + 5 element modifiers, and the 50-cell glance-label formula |
-| **Companion to** | DES_01 §3 (50-key taxonomy) · DES_09_Reading_V2.1_Reconciliation_Audit.md · DES_05 |
+| **Companion to** | REA_01 §3 (50-key taxonomy) · REA_08_Reading_V2.1_Reconciliation_Audit.md · REA_04 |

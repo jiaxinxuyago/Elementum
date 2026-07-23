@@ -1,11 +1,11 @@
 // ===================================================================
-// ELEMENTUM · resolveVariant — archetype generation layer (DES_03 §9)
+// ELEMENTUM · resolveVariant — archetype generation layer (REA_03 §9)
 // ===================================================================
 // Selects the band × tgPattern-specific reading for a chart, instead of
 // always falling back to the generic `default`. Two surfaces:
 //
 //   1. blocks[].text  — variant object keyed {default | band | pattern |
-//      band_pattern}. Fallback order (DES_03 §9):
+//      band_pattern}. Fallback order (REA_03 §9):
 //        band_pattern → band → pattern → default
 //
 //   2. yourNature / gifts / shadows — pre-generated per chart in

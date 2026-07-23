@@ -29,7 +29,7 @@ const PIG_FIRE  = '#B4755E';
 const PIG_EARTH = '#B59A6B';
 const PIG_SEAL  = '#A04030';
 
-// Reference user (DES_01): Yang Metal · The Blade · The General (七杀)
+// Reference user (REA_01): Yang Metal · The Blade · The General (七杀)
 const USER = {
   stem: '庚',
   stemName: 'Yang Metal',

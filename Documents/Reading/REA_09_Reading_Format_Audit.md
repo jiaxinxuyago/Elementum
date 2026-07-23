@@ -1,4 +1,6 @@
-# Reading-Format Audit — evidence base for the reading-schema redesign
+# REA_09 — Reading-Format Audit — evidence base for the reading-schema redesign
+
+> **Formerly DES_10** — moved to the Reading library in the 2026-07-23 design/reading doc separation (registry: Documents/README.md).
 
 Generated 2026-06-10 by `Elementum_App/tools/reading-format-audit.mjs` (read-only).
 Source: `STEM_CARD_DATA` (all 10 stems) walked against `ARCHETYPE_SCHEMA`.

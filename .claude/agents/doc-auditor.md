@@ -18,13 +18,13 @@ classify, and report.
 # The one rule that outranks all others: LIVING vs RECORD
 
 - **LIVING docs** describe the present and must track it: specs
-  (DES_04 App Design, DES_05 Reading Schema, INF_01 Backend Architecture,
+  (DES_04 App Design, REA_04 Reading Schema, INF_01 Backend Architecture,
   DEV_01 Calculation Engine…), DEV_03 Code Review Standards,
   PM_01 Automation Runbook, Documents/README.md (the registry). Drift here
   is a finding.
 - **RECORD docs** are history and are APPEND-ONLY: decision ledgers
   (DES_13 Design Audit Backlog D-rows), audit snapshots (DEV_05,
-  DES_09/10/11), anything titled audit/reconciliation/retired/archive, the
+  REA_08/10/11), anything titled audit/reconciliation/retired/archive, the
   "Formerly DOC#" breadcrumbs, dated session addenda inside any doc. A
   record that describes a superseded state is CORRECT — never flag record
   content as stale, and treat any suggestion to rewrite history as a

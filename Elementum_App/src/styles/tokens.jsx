@@ -76,7 +76,7 @@ export const DURATION = t.duration; // NEW — animation durations
 // Helper · pigment alpha ladder
 export const withAlpha = t.withAlpha;
 
-// Reference user (DES_01): Yang Metal · The Blade · The General (七杀)
+// Reference user (REA_01): Yang Metal · The Blade · The General (七杀)
 export const USER = {
   stem: '庚',
   stemName: 'Yang Metal',

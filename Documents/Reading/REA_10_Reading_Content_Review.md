@@ -1,7 +1,8 @@
-# Reading Content — Owner Review
+# REA_10 — Reading Content — Owner Review
 
+> **Formerly DES_11** — moved to the Reading library in the 2026-07-23 design/reading doc separation (registry: Documents/README.md).
 > **Generated** by `Elementum_App/tools/build-reading-review.mjs` — do **not** hand-edit.
-> Edit the source data (`d13FacesContent.js`, `tgNames.js`) and re-run the script.
+> Edit the source data (`content/reading/facesContent.js`, `tgNames.js`) and re-run the script.
 > Companion visual: [`reading-replicant.html`](reading-replicant.html) (open in a browser).
 
 **Legend** — ✅ persona **reading** (R/X + lede + pull) is verbatim from the deliverable · ✍️ Claude-authored, **needs your review**.
@@ -12,17 +13,17 @@
 
 ## 0 · Where the reading data lives (architecture audit)
 
-The reading **data is pure** (no engine/React deps — every file below is Node-importable), but it is **not yet a single library** — it is split between `src/content/` and `src/components/d13/`, and `d13ReadingResolve.js` mixes data maps with resolve logic. Consolidating into one `content/reading/` library with barrels is **Phase 4 of `DEV_05_Arch_Cleanup_Audit.md` — deferred, pending your approval** (strictly behavior-preserving). So: the separation you expected is **not done yet**; the data is clean and extractable, just scattered.
+The reading **data is pure** (no engine/React deps — every file below is Node-importable) and now lives in the consolidated `src/content/reading/` library (barrel: `content/reading/index.js`). One residue: `components/reading/readingResolve.js` still holds inline data maps (`PERSONA_COPY`, `FACE_ABSTRACT`, `DOMAIN_BY_GOD`) beside its resolve logic — the last Phase-4 item from `DEV_05_Arch_Cleanup_Audit.md`.
 
 | File | Exports (reading data) | Keyed by | Pure? |
 |---|---|---|---|
-| `components/d13/d13FacesContent.js` | `FACE_CARD`, `PERSONA_READING`, `PERSONA_DOMAINS`, `FAMILY_BRIEF`, `FAMILY_CLAUSE`, `FAMILY_ELEMENT` | Ten-God 汉字 / family | ✅ pure |
+| `content/reading/facesContent.js` | `FACE_CARD`, `PERSONA_READING`, `PERSONA_DOMAINS`, `FAMILY_BRIEF`, `FAMILY_CLAUSE`, `FAMILY_ELEMENT` | Ten-God 汉字 / family | ✅ pure |
 | `content/tgNames.js` | `TG_PERSONA` (persona display names) | Ten-God 汉字 | ✅ pure |
-| `components/d13/d13ReadingContent.js` | `ENERGY_CONTENT` (per-element fallback) | element | ✅ pure |
-| `components/d13/d13ReadingResolve.js` | `PERSONA_COPY`, `FACE_ABSTRACT`, `DOMAIN_BY_GOD` + `resolve*()` | Ten-God 汉字 | ⚠ data+logic (imports engine) |
+| `content/reading/readingContent.js` | `ENERGY_CONTENT` (per-element fallback) | element | ✅ pure |
+| `components/reading/readingResolve.js` | `PERSONA_COPY`, `FACE_ABSTRACT`, `DOMAIN_BY_GOD` + `resolve*()` | Ten-God 汉字 | ⚠ data+logic (imports engine) |
 | `content/archetypeSource.js` | `STEM_CARD_DATA`, `TG_CARD_DATA` (base corpus) | stem / Ten-God | ✅ pure |
 
-This document + replicant cover the **FACES reading layer** (`d13FacesContent.js` + `tgNames.js`) — the copy enriched in this pass. The Day-Master (stem) corpus in `archetypeSource.js` is a separate review.
+This document + replicant cover the **FACES reading layer** (`content/reading/facesContent.js` + `tgNames.js`) — the copy enriched in this pass. The Day-Master (stem) corpus in `archetypeSource.js` is a separate review.
 
 ---
 

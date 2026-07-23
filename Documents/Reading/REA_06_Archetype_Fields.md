@@ -1,18 +1,18 @@
-# DES_07 · Archetype Fields (Design Companion)
+# REA_06 · Archetype Fields (Design Companion)
 
-> **Formerly DOC9** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC9" refer to this file (registry: Documents/README.md).
+> **Formerly DES_07** (moved to the Reading library in the 2026-07-23 design/reading doc separation) **and before that DOC9** (2026-07-09 reorganization). Historical citations of "DES_07" or "DOC9" refer to this file (registry: Documents/README.md).
 
 > **What this is.** A designer-facing companion to [`archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js). When you're scoping a new screen, block, card, or infographic — this tells you *which fields are available* for that surface, *what the copy cap is*, and *what assets feed it*. Grouped by UI surface, not by data shape.
 >
 > **Source of truth.** `archetypeSchema.js` — if this doc and the schema disagree, the schema wins. Bump the version in the schema when you change a field.
 >
-> **v2.1 precedence (2026-06-24).** For the **reading content model** (keys, fields, surfaces, registers, axes), **`DES_05_Reading_Schema.md` (v2.1) is the design source of truth.** `archetypeSchema.js` is its *implementation* and must be rewritten to conform during the code pass; this companion is then **re-mirrored** from the rewritten schema. Chain: **`DES_05_Reading_Schema` → `archetypeSchema.js` → DES_07.** The v2.1 banner below lists the deltas still pending that alignment — treat them as interim until the code schema is rebuilt.
+> **v2.1 precedence (2026-06-24).** For the **reading content model** (keys, fields, surfaces, registers, axes), **`REA_04_Reading_Schema.md` (v2.1) is the design source of truth.** `archetypeSchema.js` is its *implementation* and must be rewritten to conform during the code pass; this companion is then **re-mirrored** from the rewritten schema. Chain: **`REA_04_Reading_Schema` → `archetypeSchema.js` → REA_06.** The v2.1 banner below lists the deltas still pending that alignment — treat them as interim until the code schema is rebuilt.
 >
 > **Status.** Schema v0.1.0-draft. Nothing is set in stone. Fields can be added, renamed, or deprecated as the app is built.
 >
 > **Reference archetype.** All examples come from 庚 (Yang Metal — The Blade), the completed golden reference. When you scale a new block to another stem, 庚 shows what "complete" looks like.
 >
-> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `DES_09_Reading_V2.1_Reconciliation_Audit.md`).** Deltas for this doc: (1) re-scope `dominantEnergy.characterDesc` from **element-scoped** to **persona-scoped** (the energy reading resolves to a specific Ten-God persona `element_god`, not the bare element); (2) add a new **`rulingDomain`** axis (×50, **DM-relative**) — the "what is this about" life-area line — *distinct from* the Western `lifeDomain` buckets (career/relationships/wealth/health), which stay only for PRO liunian; (3) the `tg` persona layer is promoted from `planned` to the primary surface; (4) energy-card reading copy now varies by **presence frame** (dominant/present/scarce/absent) — see schema v2.1 §4 `registers`. (5) **Positional axis (宫位, B6):** a new `PALACE_FRAMES[position]` global (×7) — positional readings compose `PALACE_FRAMES × chart.tenGods × polarity` (per-pillar TG data already in the engine, `calculator.js:492`). NB the whole `dominantEnergy.*` group below is **superseded by K2 `ENERGY_CARD_DATA[element_god]`** (schema §5) — migrate its content into the per-persona energy card; do not author new `dominantEnergy.*`.
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `REA_08_Reading_V2.1_Reconciliation_Audit.md`).** Deltas for this doc: (1) re-scope `dominantEnergy.characterDesc` from **element-scoped** to **persona-scoped** (the energy reading resolves to a specific Ten-God persona `element_god`, not the bare element); (2) add a new **`rulingDomain`** axis (×50, **DM-relative**) — the "what is this about" life-area line — *distinct from* the Western `lifeDomain` buckets (career/relationships/wealth/health), which stay only for PRO liunian; (3) the `tg` persona layer is promoted from `planned` to the primary surface; (4) energy-card reading copy now varies by **presence frame** (dominant/present/scarce/absent) — see schema v2.1 §4 `registers`. (5) **Positional axis (宫位, B6):** a new `PALACE_FRAMES[position]` global (×7) — positional readings compose `PALACE_FRAMES × chart.tenGods × polarity` (per-pillar TG data already in the engine, `calculator.js:492`). NB the whole `dominantEnergy.*` group below is **superseded by K2 `ENERGY_CARD_DATA[element_god]`** (schema §5) — migrate its content into the per-persona energy card; do not author new `dominantEnergy.*`.
 
 ---
 
@@ -128,7 +128,7 @@ Every field in the schema declares a `varyBy` tag that tells the generation pipe
 
 ## 4 · Detail Page · Blocks Grid
 
-**Shape.** `blocks[]` — 5–11 blocks **authored** per archetype (the candidate pool). Each block carries default text plus overrides keyed by band, pattern, or `band_pattern`. At render time, exactly **5 blocks** are selected for any given chart (the 4 narrative slots, DES_03 §11): so "5–11" is the authored pool and "5" is what actually renders. *(Note: the live ElementalNatureDetail currently surfaces the first 2 blocks; the 5-block selection is the generation-layer target.)*
+**Shape.** `blocks[]` — 5–11 blocks **authored** per archetype (the candidate pool). Each block carries default text plus overrides keyed by band, pattern, or `band_pattern`. At render time, exactly **5 blocks** are selected for any given chart (the 4 narrative slots, REA_03 §11): so "5–11" is the authored pool and "5" is what actually renders. *(Note: the live ElementalNatureDetail currently surfaces the first 2 blocks; the 5-block selection is the generation-layer target.)*
 
 **Renderer rule.** Walk from most specific to least: `concentrated_pure` → `concentrated` → `pure` → `default`. First match wins.
 

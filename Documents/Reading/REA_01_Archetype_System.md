@@ -1,8 +1,8 @@
-# Elementum · DES_01 — Archetype System
+# Elementum · REA_01 — Archetype System
 
-> **Formerly DOC2** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC2" refer to this file (registry: Documents/README.md).
+> **Formerly DES_01** (moved to the Reading library in the 2026-07-23 design/reading doc separation) **and before that DOC2** (2026-07-09 reorganization). Historical citations of "DES_01" or "DOC2" refer to this file (registry: Documents/README.md).
 
-> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `DES_09_Reading_V2.1_Reconciliation_Audit.md`).** Deltas for this doc: (1) the 50-key Layer-2 taxonomy is **persona-per-god — all 10 Ten Gods are distinct personas** (比肩 The Twin ≠ 劫财 The Rival); never collapse to 5 families. (2) The reading **navigates DM-relative**: each of the user's 5 elements = one Ten-God *direction* vs their Day Master, and **polarity splits it into up to two faces** surfaced by math (see schema v2.1 §1–§2). (3) Persona names follow the **2026-06-30 FACES-handoff register** (`d13/IMPLEMENTATION_README §4`): The Twin · The Rival · The Sage · The Alchemist · The Artisan · The Virtuoso · The Steward · The Horizon · The General · The Magistrate — this revised **4** from the 2026-06-10 set (Mirror→Twin, Muse→Artisan, Edge→Virtuoso, Arbiter→Magistrate). The Profile-DB names (Flow/Trial/Root) and the Inner-Council concept-art names are **non-surfacing aliases**. (4) Disambiguate vocabulary: the **ten stem archetypes** (Oak…Rain — identity) are a different "ten" from the **ten Ten-God personas** (the faces). (5) The persona layer is promoted from `planned` to the primary reading surface.
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `REA_08_Reading_V2.1_Reconciliation_Audit.md`).** Deltas for this doc: (1) the 50-key Layer-2 taxonomy is **persona-per-god — all 10 Ten Gods are distinct personas** (比肩 The Twin ≠ 劫财 The Rival); never collapse to 5 families. (2) The reading **navigates DM-relative**: each of the user's 5 elements = one Ten-God *direction* vs their Day Master, and **polarity splits it into up to two faces** surfaced by math (see schema v2.1 §1–§2). (3) Persona names follow the **2026-06-30 FACES-handoff register** (`d13/IMPLEMENTATION_README §4`): The Twin · The Rival · The Sage · The Alchemist · The Artisan · The Virtuoso · The Steward · The Horizon · The General · The Magistrate — this revised **4** from the 2026-06-10 set (Mirror→Twin, Muse→Artisan, Edge→Virtuoso, Arbiter→Magistrate). The Profile-DB names (Flow/Trial/Root) and the Inner-Council concept-art names are **non-surfacing aliases**. (4) Disambiguate vocabulary: the **ten stem archetypes** (Oak…Rain — identity) are a different "ten" from the **ten Ten-God personas** (the faces). (5) The persona layer is promoted from `planned` to the primary reading surface.
 
 ---
 
@@ -14,7 +14,7 @@ The Elementum archetype system is a **layered cocktail model** — a dynamic sta
 
 **The foundational insight from classical BaZi:** The same Day Master element living under different dominant energies is a categorically different person. The Ten God relationship — how the dominant energy relates to the Day Master — determines the psychological mechanism, not just the elemental content. This is what 子平真诠 actually describes. This system implements it.
 
-**Lineage and the substance-vs-function principle (2026-06-25).** Elementum's calculation commits to a **子平真诠 (structure-core) + 滴天髓 (relative-clash)** synthesis (rules in DEV_01 §3; sourcing in DES_02 PART 2). The archetype system consumes that engine's output through one load-bearing distinction:
+**Lineage and the substance-vs-function principle (2026-06-25).** Elementum's calculation commits to a **子平真诠 (structure-core) + 滴天髓 (relative-clash)** synthesis (rules in DEV_01 §3; sourcing in REA_02 PART 2). The archetype system consumes that engine's output through one load-bearing distinction:
 
 - **Dominance ranking = 五行 substance (旺衰).** Which energies lead a chart — and therefore which Ten-God personas surface and in what order — is decided by elemental *substance*, modified only by positional 旺衰, true transformation (真化), and relative 冲. This is what picks the archetype key and the card order.
 - **合-binding and 刑/害/破 = function, not substance.** A combination that binds without transforming, or a 刑/害/破, changes how an energy *behaves and relates* — it is reading/event-layer texture, never a numeric re-rank of the dominance. It colors a persona's content; it does not promote or demote it.
@@ -164,7 +164,7 @@ Example: 庚_concentrated_pure
 
 **Note on 5 vs 7 tgPattern values:** The yin/yang polarity split within Output (食神/伤官) and Authority (正官/七杀) is resolved at Layer 2 via the specific Ten God. tgPattern at Layer 1 describes the structural family only.
 
-**One key is hand-authored as the reference standard:** `庚_concentrated_pure` — see DES_03 §11 for the full reference reading.
+**One key is hand-authored as the reference standard:** `庚_concentrated_pure` — see REA_03 §11 for the full reference reading.
 
 ### Layer 2 key (element × specific Ten God)
 
@@ -302,7 +302,7 @@ Chart: 乙亥 庚辰 庚寅 乙酉 · DM: 庚 Metal · **strong (0.72) · concen
 | **Version** | 1.1  ·  April 2026 |
 | **Status** | LOCKED — archetypes, taxonomy, and key formulas are structural definitions |
 | **Audience** | Engineers, product, generation system |
-| **Purpose** | Single source of truth for the archetype identity system and layer key taxonomy. What each archetype is, how keys are computed, and the full 50-key interaction map. Nothing about reading content, deliverable layout, or generation — those live in DES_03. |
+| **Purpose** | Single source of truth for the archetype identity system and layer key taxonomy. What each archetype is, how keys are computed, and the full 50-key interaction map. Nothing about reading content, deliverable layout, or generation — those live in REA_03. |
 | **Stability** | HIGH — the taxonomy is the contract. Changes require updating batchGenerate.js and Elementum_Engine.jsx |
-| **Used by** | Elementum_Engine.jsx · batchGenerate.js · DES_03 · DES_04 |
+| **Used by** | Elementum_Engine.jsx · batchGenerate.js · REA_03 · DES_04 |
 | **Compatible with** | DEV_01 v1.0  *(Doc 6 was the Manual — retired; Doc 6 now = Reading Schema)* |

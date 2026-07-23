@@ -2,10 +2,10 @@
 // ELEMENTUM · reading-content review + journey replicant generator
 // ===================================================================
 // Reads the *actual* reading-data modules and emits two review artifacts:
-//   1. Documents/Design/DES_11_Reading_Content_Review.md   (owner review)
-//   2. Documents/Design/reading-replicant.html      (journey mockup)
+//   1. Documents/Reading/REA_10_Reading_Content_Review.md   (owner review)
+//   2. Documents/Reading/reading-replicant.html     (journey mockup)
 // Both are GENERATED — never hand-edit them. Edit the source data files
-// (d13FacesContent.js, tgNames.js) and re-run:  node tools/build-reading-review.mjs
+// (content/reading/facesContent.js, tgNames.js) and re-run:  node tools/build-reading-review.mjs
 //
 // The persona/card/brief copy is read verbatim from the data, so the review
 // and the replicant can never drift from what the app ships. The element-page
@@ -20,10 +20,10 @@ import { TG_PERSONA } from '../src/content/tgNames.js';
 import {
   FACE_CARD, PERSONA_READING, PERSONA_DOMAINS,
   FAMILY_BRIEF, FAMILY_CLAUSE, FAMILY_ELEMENT,
-} from '../src/components/d13/d13FacesContent.js';
+} from '../src/content/reading/facesContent.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const OUT_DIR = resolve(__dirname, '../../Documents/Design');
+const OUT_DIR = resolve(__dirname, '../../Documents/Reading');
 // Live art base, single-sourced from site.config.json — so the replicant shows real portraits when online.
 const ART_BASE = JSON.parse(readFileSync(new URL('../site.config.json', import.meta.url), 'utf8')).liveUrl;
 
@@ -92,10 +92,11 @@ function composeElement(el, leadGod, role, presence) {
 // ============================ MARKDOWN ============================
 function buildMarkdown() {
   const L = [];
-  L.push('# Reading Content — Owner Review');
+  L.push('# REA_10 — Reading Content — Owner Review');
   L.push('');
+  L.push('> **Formerly DES_11** — moved to the Reading library in the 2026-07-23 design/reading doc separation (registry: Documents/README.md).');
   L.push('> **Generated** by `Elementum_App/tools/build-reading-review.mjs` — do **not** hand-edit.');
-  L.push('> Edit the source data (`d13FacesContent.js`, `tgNames.js`) and re-run the script.');
+  L.push('> Edit the source data (`content/reading/facesContent.js`, `tgNames.js`) and re-run the script.');
   L.push('> Companion visual: [`reading-replicant.html`](reading-replicant.html) (open in a browser).');
   L.push('');
   L.push('**Legend** — ✅ persona **reading** (R/X + lede + pull) is verbatim from the deliverable · ✍️ Claude-authored, **needs your review**.');
@@ -106,17 +107,17 @@ function buildMarkdown() {
   L.push('');
   L.push('## 0 · Where the reading data lives (architecture audit)');
   L.push('');
-  L.push('The reading **data is pure** (no engine/React deps — every file below is Node-importable), but it is **not yet a single library** — it is split between `src/content/` and `src/components/d13/`, and `d13ReadingResolve.js` mixes data maps with resolve logic. Consolidating into one `content/reading/` library with barrels is **Phase 4 of `DEV_05_Arch_Cleanup_Audit.md` — deferred, pending your approval** (strictly behavior-preserving). So: the separation you expected is **not done yet**; the data is clean and extractable, just scattered.');
+  L.push('The reading **data is pure** (no engine/React deps — every file below is Node-importable) and now lives in the consolidated `src/content/reading/` library (barrel: `content/reading/index.js`). One residue: `components/reading/readingResolve.js` still holds inline data maps (`PERSONA_COPY`, `FACE_ABSTRACT`, `DOMAIN_BY_GOD`) beside its resolve logic — the last Phase-4 item from `DEV_05_Arch_Cleanup_Audit.md`.');
   L.push('');
   L.push('| File | Exports (reading data) | Keyed by | Pure? |');
   L.push('|---|---|---|---|');
-  L.push('| `components/d13/d13FacesContent.js` | `FACE_CARD`, `PERSONA_READING`, `PERSONA_DOMAINS`, `FAMILY_BRIEF`, `FAMILY_CLAUSE`, `FAMILY_ELEMENT` | Ten-God 汉字 / family | ✅ pure |');
+  L.push('| `content/reading/facesContent.js` | `FACE_CARD`, `PERSONA_READING`, `PERSONA_DOMAINS`, `FAMILY_BRIEF`, `FAMILY_CLAUSE`, `FAMILY_ELEMENT` | Ten-God 汉字 / family | ✅ pure |');
   L.push('| `content/tgNames.js` | `TG_PERSONA` (persona display names) | Ten-God 汉字 | ✅ pure |');
-  L.push('| `components/d13/d13ReadingContent.js` | `ENERGY_CONTENT` (per-element fallback) | element | ✅ pure |');
-  L.push('| `components/d13/d13ReadingResolve.js` | `PERSONA_COPY`, `FACE_ABSTRACT`, `DOMAIN_BY_GOD` + `resolve*()` | Ten-God 汉字 | ⚠ data+logic (imports engine) |');
+  L.push('| `content/reading/readingContent.js` | `ENERGY_CONTENT` (per-element fallback) | element | ✅ pure |');
+  L.push('| `components/reading/readingResolve.js` | `PERSONA_COPY`, `FACE_ABSTRACT`, `DOMAIN_BY_GOD` + `resolve*()` | Ten-God 汉字 | ⚠ data+logic (imports engine) |');
   L.push('| `content/archetypeSource.js` | `STEM_CARD_DATA`, `TG_CARD_DATA` (base corpus) | stem / Ten-God | ✅ pure |');
   L.push('');
-  L.push('This document + replicant cover the **FACES reading layer** (`d13FacesContent.js` + `tgNames.js`) — the copy enriched in this pass. The Day-Master (stem) corpus in `archetypeSource.js` is a separate review.');
+  L.push('This document + replicant cover the **FACES reading layer** (`content/reading/facesContent.js` + `tgNames.js`) — the copy enriched in this pass. The Day-Master (stem) corpus in `archetypeSource.js` is a separate review.');
   L.push('');
   L.push('---');
   L.push('');
@@ -334,7 +335,7 @@ function buildHtml() {
 
 // ============================ EMIT ============================
 mkdirSync(OUT_DIR, { recursive: true });
-const mdPath = resolve(OUT_DIR, 'DES_11_Reading_Content_Review.md');
+const mdPath = resolve(OUT_DIR, 'REA_10_Reading_Content_Review.md');
 const htmlPath = resolve(OUT_DIR, 'reading-replicant.html');
 writeFileSync(mdPath, buildMarkdown(), 'utf8');
 writeFileSync(htmlPath, buildHtml(), 'utf8');

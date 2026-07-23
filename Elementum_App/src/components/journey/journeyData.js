@@ -3,12 +3,12 @@
 // ===================================================================
 // Implements the design handoff's template contract
 // (Design/exports/design_handoff_reveal_reading_journey/template-data.json)
-// against the live engine + the DES_12 locked vocabulary (v1.6):
+// against the live engine + the REA_11 locked vocabulary (v1.6):
 //   · §4  keywords (v3 final)          · §5b relation nouns
 //   · §5c condition/approach + panels  · §4b pole nouns + role verbs
 //   · §6b journey rulings (keyword = representation; top-3 chips)
 // The engine owns every number (buildEnergyChart / energyRoles); this file
-// only translates engine output into locked display vocabulary. Per DES_12
+// only translates engine output into locked display vocabulary. Per REA_11
 // §6b item 6, element hook/tag/mean lines are element-generic interim copy
 // pending the 50-cell authoring pass.
 // ===================================================================
@@ -36,7 +36,7 @@ export function familyOf(X, D) {
   return 'self';
 }
 
-// ── DES_12 locked vocabulary ───────────────────────────────────────
+// ── REA_11 locked vocabulary ───────────────────────────────────────
 // §5b relation nouns (LOCKED 2026-07-16)
 export const RELATION_NOUN = { self: 'Core', resource: 'Root', wealth: 'Drive', output: 'Voice', officer: 'Duty' };
 
@@ -177,7 +177,7 @@ export function buildJourneyModel({ chart, ec, identity, card, birthData }) {
 
   // The ENERGY_TILE hooks are authored FOR THE BLADE ("What your blade is
   // for", "Your core — precision before intention") — on any other day master
-  // they mislead (DES_12 §6b item 6). Gate them to 庚 until the 50-cell /
+  // they mislead (REA_11 §6b item 6). Gate them to 庚 until the 50-cell /
   // DM-neutral authoring pass lands; other charts fall back to glance labels.
   const isBlade = ec.dayMaster === 'geng';
 
@@ -239,7 +239,7 @@ export function buildJourneyModel({ chart, ec, identity, card, birthData }) {
   });
 
   // Round 2 (A3): per-element diagnosis — ROLE-DRIVEN mapping, owner-ratified
-  // 2026-07-23 (DES_12 §5c extension): friction-side → Overfueled·Channel;
+  // 2026-07-23 (REA_11 §5c extension): friction-side → Overfueled·Channel;
   // catalyst-side (incl. missing) → Underfueled·Refill; balanced charts →
   // Balanced. Plus the pill definition/family lines and role-conditioned
   // §4b adjective chips.
@@ -375,38 +375,6 @@ export function buildElementScreen(model, el) {
     verdLab, verdict, mean: MEAN[el] || '',
     face: `${r.persona} · ${r.keyword.toUpperCase()}`,
     kw: r.faceKw, teaser: r.teaser,
-  };
-}
-
-// ── footnotes — the jargon chips below the shelf (owner 2026-07-17) ─
-// Brief in-place explanations for the three taught terms; each floats a
-// definition card and doors into the Codex. Condition/approach lines are
-// the §5c LOCKED definitions; Catalyst/Friction are the role definition
-// lines (DES_12 §5c panel doctrine register — owner wordsmith pending).
-export function buildFootnotes(model) {
-  const seekNames = model.seek.map((r) => r.name);
-  const skipNames = model.skip.map((r) => r.name);
-  return {
-    cond: {
-      chip: model.condition,
-      title: `It runs ${model.condition}`,
-      body: DEFLINE[model.condition],
-      forYou: model.apprLine
-        ? `So ${model.apprLine.verb} it — ${model.apprLine.tail}`
-        : 'Nothing to force; keep the mix.',
-    },
-    cat: {
-      chip: 'Catalyst',
-      title: 'Catalyst — the energy you seek',
-      body: 'The energy your chart asks for — more of it moves you. Seek it on purpose: places, work, people, seasons that carry it.',
-      forYou: seekNames.length ? `For you: ${seekNames.join(' · ')}.` : null,
-    },
-    fric: {
-      chip: 'Friction',
-      title: 'Friction — the energy you skip',
-      body: 'Your own strength overgrown — more of it costs you. Nothing to fix; just stop adding what you already hold.',
-      forYou: skipNames.length ? `For you: ${skipNames.join(' · ')}.` : null,
-    },
   };
 }
 

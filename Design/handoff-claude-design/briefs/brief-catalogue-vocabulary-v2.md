@@ -2,8 +2,8 @@
 
 SOURCE OF TRUTH (attached as excerpts; paths for provenance — do not invent words
 not present in these two files):
-1. Documents/Design/DES_12_Identity_Vocabulary.md — the vocabulary system
-2. Documents/Design/DES_08_Reading_Concept_Inventory.md — naming law + registry
+1. Documents/Reading/REA_11_Identity_Vocabulary.md — the vocabulary system
+2. Documents/Reading/REA_07_Reading_Concept_Inventory.md — naming law + registry
 
 USE THE VOCABULARY BY SURFACE:
 
@@ -18,12 +18,12 @@ Identity card (header zone):
   "It runs UNDERFUELED — refill the tank." Never explain the condition on
   the collapsed tile — the tail implies the approach; the expanded state
   explains.
-- Persona names (The Twin … The Sage) + mandatory definition lines: DES_08 §2 table.
+- Persona names (The Twin … The Sage) + mandatory definition lines: REA_07 §2 table.
 
-Reading catalogue (per-energy tile), anatomy per DES_12 §4b/§4c:
-- Line 1: ELEMENT · presence % + role badge (Catalyst / Friction — DES_08
+Reading catalogue (per-energy tile), anatomy per REA_11 §4b/§4c:
+- Line 1: ELEMENT · presence % + role badge (Catalyst / Friction — REA_07
   canonical; never "favorable/unfavorable").
-- Line 2 (glance label): [Keyword] — your [Relation]. Keywords = DES_12 §4
+- Line 2 (glance label): [Keyword] — your [Relation]. Keywords = REA_11 §4
   (10 nouns; if the excerpt marks §4c v3 variants adopted, use those). Relation
   nouns = §5b (Core / Voice / Drive / Duty / Root — draft status noted inline).
   ⚠ §5 directive: NO element-modifier compounds — never "Grounded Insight";
@@ -32,7 +32,7 @@ Reading catalogue (per-energy tile), anatomy per DES_12 §4b/§4c:
   list (e.g. "leaning into Detachment · loosen it").
 - Chips: exactly 3 adjectives, from the role-matching pole ONLY (§4b).
 
-HARD RULES (DES_08 vocabulary law):
+HARD RULES (REA_07 vocabulary law):
 - One concept, one canonical name — no synonyms on any surface.
 - Chinese characters are decorative glyphs only; never information-carrying.
 - Never surface: banned aliases (The Root/Trial/Harvest as PERSONA names),
@@ -87,7 +87,7 @@ R3. HEADER CHIPS MUST BE TRACEABLE — replace the invented
   directly above them); no freelance vocabulary anywhere.
 
 DELIVERABLE: revised p3-catalogue mock applying R1–R3, reference Blade data
-(DES_12 §6).
+(REA_11 §6).
 ACCEPTANCE: every word traceable to a named section; the closed shelf shows all
 five keywords; the friction panel contains no negation of the user's Core; zero
 invented vocabulary; both §5c definition lines appear exactly once.

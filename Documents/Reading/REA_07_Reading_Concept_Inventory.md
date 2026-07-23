@@ -1,13 +1,15 @@
-# Reading Concept Inventory & Ladder — vocabulary law, concept registry, journey ordering
+# REA_07 — Reading Concept Inventory & Ladder — vocabulary law, concept registry, journey ordering
+
+> **Formerly DES_08** — moved to the Reading library in the 2026-07-23 design/reading doc separation; historical citations of "DES_08" refer to this file (registry: Documents/README.md).
 
 **D12 Step 1** — Part 1 (§1–§5): inventory + vocabulary law · **Part 2 (§6–§9): the Concept Ladder** · Part 3: Section Charters (pending)
 **Serves:** DES_04 §0 (Beta core goal) Axis A — introduce BaZi step by step, without cognitive overload.
-**Sources:** `Data/elementum_profile_database.html` (the Profile Database — canonical behavioral content for stems + Ten Gods) · DES_01 (archetype system) · DES_02 (knowledge pool) · the Manual (now **retired** → `_ARCHIVE_Manual_RETIRED.md`) · the live app (audited 2026-06-10).
+**Sources:** `Data/elementum_profile_database.html` (the Profile Database — canonical behavioral content for stems + Ten Gods) · REA_01 (archetype system) · REA_02 (knowledge pool) · the Manual (now **retired** → `_ARCHIVE_Manual_RETIRED.md`) · the live app (audited 2026-06-10).
 >
-> **NB (resolved 2026-06-26):** the Source-column "DES_05" tags (which meant the **retired Manual**, not the new **DES_05 = Reading Schema**) have been re-pointed to **"Manual (retired)"** to remove the collision. If a concept needs a *live* canonical source for the content pass, re-point it to DES_02 / DEV_01 then (the Manual is archived at `_ARCHIVE_Manual_RETIRED.md`).
+> **NB (resolved 2026-06-26):** the Source-column "REA_04" tags (which meant the **retired Manual**, not the new **REA_04 = Reading Schema**) have been re-pointed to **"Manual (retired)"** to remove the collision. If a concept needs a *live* canonical source for the content pass, re-point it to REA_02 / DEV_01 then (the Manual is archived at `_ARCHIVE_Manual_RETIRED.md`).
 **Status:** DRAFT for owner markup · 2026-06-10
 
-> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `DES_09_Reading_V2.1_Reconciliation_Audit.md`).** Deltas: (1) **2-layer model** — Identity card (Day Master) + Ten-God cards (every present energy); no dominant/secondary *layers* (those are derived role badges). (2) **Polarity faces (B5)** — each energy resolves 1–2 Ten-God personas by polarity; the self element's faces (The Twin / The Rival) render as Ten-God cards, **separate from the Identity card**. (3) **NEW positional axis (宫位, B6)** — each Ten God *also* reads by pillar position (日支 = partner, 时柱 = children/legacy); see concept **2.6** below. (4) §2 persona names remain the **canonical source** (already correct). The "non-self" / "other element" qualifiers in 2.2/2.3 and the §10 charters are loosened accordingly.
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `REA_08_Reading_V2.1_Reconciliation_Audit.md`).** Deltas: (1) **2-layer model** — Identity card (Day Master) + Ten-God cards (every present energy); no dominant/secondary *layers* (those are derived role badges). (2) **Polarity faces (B5)** — each energy resolves 1–2 Ten-God personas by polarity; the self element's faces (The Twin / The Rival) render as Ten-God cards, **separate from the Identity card**. (3) **NEW positional axis (宫位, B6)** — each Ten God *also* reads by pillar position (日支 = partner, 时柱 = children/legacy); see concept **2.6** below. (4) §2 persona names remain the **canonical source** (already correct). The "non-self" / "other element" qualifiers in 2.2/2.3 and the §10 charters are loosened accordingly.
 
 ---
 
@@ -67,7 +69,7 @@
 | 合冲刑害 | **Pillar Patterns** | combinations/clashes (definition lines ok) |
 | concentrated/balanced/open | **energy band** values (keep) | bands renamed elsewhere |
 
-> **✔ REGISTERED (DES_12 compound vocabulary — LOCKED 2026-07-16, canonical here per law #1):**
+> **✔ REGISTERED (REA_11 compound vocabulary — LOCKED 2026-07-16, canonical here per law #1):**
 > - **Face keywords (10, v3 final):** 比肩 **Independence** · 劫财 **Rivalry** · 食神 **Flow** ·
 >   伤官 **Brilliance** · 偏财 **Reach** · 正财 **Caution** · 七杀 **Force** · 正官 **Order** ·
 >   偏印 **Insight** · 正印 **Care**. The keyword doubles as the face's "representation" word on
@@ -78,14 +80,14 @@
 > - **Identity-hero chips:** the top-3 keyword code (three loudest elements' lead-face keywords,
 >   dominance-ordered) — never authored, always derived.
 > - Element **modifiers** RETIRED from glance labels (2026-07-15 — one punchy keyword per label).
-> - Pole nouns + chips: §4b (drafted, v3-revised); full detail in DES_12.
-> **LOCKED 2026-07-16 (DES_12 §5c, re-lock): DM-strength display terms 身强/中和/身弱 = Overfueled /
+> - Pole nouns + chips: §4b (drafted, v3-revised); full detail in REA_11.
+> **LOCKED 2026-07-16 (REA_11 §5c, re-lock): DM-strength display terms 身强/中和/身弱 = Overfueled /
 > Balanced / Underfueled; remedy verbs 克泄耗/生助 = Channel / Refill.** (Supersedes the 2026-07-15
 > Charged/Receptive+Fuel set — non-symptomatic.) Need-panel headers are UNIVERSAL (state-invariant,
 > locked 2026-07-16): **SEEK THESE ↑ CATALYST / SKIP THESE ↓ FRICTION**; Balanced charts collapse
 > both panels to one "keep the mix" line. These supersede raw "strong/weak" on every surface (CodexScreen.jsx:46-52 currently
 > violates — fix pending); internal band keys concentrated/balanced/open unchanged as code/content keys. On full lock, all names register HERE as
-> canonical user-facing vocabulary (law #1); until then DES_12 is the working draft — do not source
+> canonical user-facing vocabulary (law #1); until then REA_11 is the working draft — do not source
 > names from anywhere else.
 > ⚠ Interaction with law #4: the relation-noun draft proposes **Root** (and possibly **Trial**), which
 > law #4 currently bans from surfacing as Profile-DB persona aliases. Locking §5b must either scope
@@ -102,29 +104,29 @@ Status legend: ✅ taught (introduced before/where used) · ⚠ used-untaught (s
 
 | ID | Concept | Definition | Needs | Source | Appears today | Status |
 |---|---|---|---|---|---|---|
-| 0.1 | **The five elements** | Five qualities of energy — Wood, Fire, Earth, Metal, Water — the alphabet everything else is written in. | — | DES_02 §1; Codex | Loading screen glyphs; Reveal blueprint bars; everywhere | ⚠ shown constantly, defined only in Codex (a side library) |
-| 0.2 | **Yin / Yang** | Each element comes in two registers — expansive (Yang) and concentrated (Yin). | 0.1 | DES_02 | Onboarding Step 6 asks polarity; archetype labels ("Yang Metal") | ◐ asked before it's explained |
+| 0.1 | **The five elements** | Five qualities of energy — Wood, Fire, Earth, Metal, Water — the alphabet everything else is written in. | — | REA_02 §1; Codex | Loading screen glyphs; Reveal blueprint bars; everywhere | ⚠ shown constantly, defined only in Codex (a side library) |
+| 0.2 | **Yin / Yang** | Each element comes in two registers — expansive (Yang) and concentrated (Yin). | 0.1 | REA_02 | Onboarding Step 6 asks polarity; archetype labels ("Yang Metal") | ◐ asked before it's explained |
 | 0.3 | **Your chart (Four Pillars)** | Your birth moment written as four pairs of characters — year, month, day, hour — the data behind every reading. | — | DEV_01; Manual (retired) | Reveal §1 grid; `chart-reveal` raw page | ✅ closest to properly taught |
 
 ### Family 1 — Identity (the Elemental-Nature axis · Layer 1)
 
 | ID | Concept | Definition | Needs | Source | Appears today | Status |
 |---|---|---|---|---|---|---|
-| 1.1 | **Day Master** | The element-of-self: the day pillar's stem, the lens every other energy is read through. | 0.1, 0.2 | DES_01 §2; Profile DB I | Reveal §2; Identity Card | ◐ named & used instantly, mechanism unexplained |
+| 1.1 | **Day Master** | The element-of-self: the day pillar's stem, the lens every other energy is read through. | 0.1, 0.2 | REA_01 §2; Profile DB I | Reveal §2; Identity Card | ◐ named & used instantly, mechanism unexplained |
 | 1.2 | **The ten stem archetypes** | The Day Master as a person: Oak, Vine, Sun … Rain — ten signatures of selfhood. | 1.1 | **Profile DB Part One** (canonical); `STEM_CARD_DATA` | Identity Card; Day Master detail | ✅ the app's strongest concept |
-| 1.3 | **Elemental composition** | Your personal ratio of the five elements — what you're made of, in proportions. | 0.1, 0.3 | DES_01 §6 | Reveal §3 bars; Elemental Nature detail | ◐ the bars *show* it; nothing says what a proportion *means* |
-| 1.4 | **Energy band** | How concentrated your self-element is: concentrated · balanced · open. | 1.3 | DES_01 §7 | archetypeLabel; Elemental Nature detail | ⚠ band words appear with no definition anywhere live |
+| 1.3 | **Elemental composition** | Your personal ratio of the five elements — what you're made of, in proportions. | 0.1, 0.3 | REA_01 §6 | Reveal §3 bars; Elemental Nature detail | ◐ the bars *show* it; nothing says what a proportion *means* |
+| 1.4 | **Energy band** | How concentrated your self-element is: concentrated · balanced · open. | 1.3 | REA_01 §7 | archetypeLabel; Elemental Nature detail | ⚠ band words appear with no definition anywhere live |
 
 ### Family 2 — Relation (the Dominant-Energy axis · Layer 2)
 
 | ID | Concept | Definition | Needs | Source | Appears today | Status |
 |---|---|---|---|---|---|---|
-| **2.1** | **Elements act on each other** | Every element feeds one and checks another (生/克) — why another energy can be your fuel or your grindstone. | 0.1 | DES_02 §2; Manual (retired) | **NOWHERE in the journey** (Energy Manual mentions; Codex describes) | **⚠⚠ the load-bearing untaught rung** |
+| **2.1** | **Elements act on each other** | Every element feeds one and checks another (生/克) — why another energy can be your fuel or your grindstone. | 0.1 | REA_02 §2; Manual (retired) | **NOWHERE in the journey** (Energy Manual mentions; Codex describes) | **⚠⚠ the load-bearing untaught rung** |
 | 2.2 | **The council (Ten Gods)** | Each element — **including your own** — read through its relationship to your Day Master, becomes a figure: Mirror, Rival, Muse … Sage. | 1.1, 2.1, 0.2 | **Profile DB Part Two** (canonical defs); `TG_CARD_DATA` | Ten Gods detail (council); raw-chart per-pillar tags | ◐ rich content, but presumes 2.1; raw chart leaks engine names |
-| 2.3 | **Dominant & secondary energy** | Which council figures speak loudest in *your* chart — **every present energy gets a card**; "dominant"/"secondary" are derived role badges (the self element's Mirror/Rival included — B5). | 1.3, 2.2 | DES_01 §3 | Dominant Energies row + detail | ◐ |
-| 2.4 | **Catalyst / Friction** | The element that lifts your nature, and the one that grinds it — your chart's prescription. | 2.1, 1.3 | DES_01; Manual (retired) | Reveal §4; Forces in Motion | ⚠ presented as fact; *why* unexplained without 2.1 |
+| 2.3 | **Dominant & secondary energy** | Which council figures speak loudest in *your* chart — **every present energy gets a card**; "dominant"/"secondary" are derived role badges (the self element's Mirror/Rival included — B5). | 1.3, 2.2 | REA_01 §3 | Dominant Energies row + detail | ◐ |
+| 2.4 | **Catalyst / Friction** | The element that lifts your nature, and the one that grinds it — your chart's prescription. | 2.1, 1.3 | REA_01; Manual (retired) | Reveal §4; Forces in Motion | ⚠ presented as fact; *why* unexplained without 2.1 |
 | 2.5 | **The absent element** | A quality your chart barely carries — not a flaw; a place where life asks you to borrow. | 1.3 | Manual (retired) | Reveal §4; Seasonal row trigger | ◐ |
-| **2.6** | **Pillar position (宫位)** | The *same* Ten God reads differently by which pillar it sits in — 年 = origins, 月 = career/parents, **日支 = partner (夫妻宫)**, 时 = children/legacy. | 2.2, 0.3 | DES_02 §2.7b | engine computes per-pillar TGs (`chart.tenGods`); reading surface NEW | **NEW (B6)** — first-class positional axis |
+| **2.6** | **Pillar position (宫位)** | The *same* Ten God reads differently by which pillar it sits in — 年 = origins, 月 = career/parents, **日支 = partner (夫妻宫)**, 时 = children/legacy. | 2.2, 0.3 | REA_02 §2.7b | engine computes per-pillar TGs (`chart.tenGods`); reading surface NEW | **NEW (B6)** — first-class positional axis |
 
 ### Family 3 — Time
 
@@ -138,7 +140,7 @@ Status legend: ✅ taught (introduced before/where used) · ⚠ used-untaught (s
 
 | ID | Concept | Definition | Needs | Source | Appears today | Status |
 |---|---|---|---|---|---|---|
-| 4.1 | **Pillar Patterns** | Pillars can harmonize or collide (合/冲) — friction and fusion *inside* the chart. | 0.3, 2.1 | DES_02 | Chart Patterns detail | ⚠ steepest content, least scaffolding |
+| 4.1 | **Pillar Patterns** | Pillars can harmonize or collide (合/冲) — friction and fusion *inside* the chart. | 0.3, 2.1 | REA_02 | Chart Patterns detail | ⚠ steepest content, least scaffolding |
 | 4.2 | **Hour discovery** | Unknown birth hour → the app helps you *recognize* your hour by resonance. | 1.2 | §22 | Chart Resonance flow | ✅ self-contained |
 
 ---
@@ -219,7 +221,7 @@ Status legend: ✅ taught (introduced before/where used) · ⚠ used-untaught (s
 
 # PART 3 — Section Charters (the D13 structure)
 
-**Added 2026-06-10.** Per reading surface: the contract that Part 1's vocabulary, Part 2's ladder (inverted), and the schema v2 all serve. Structure per D13: **Identity · Five Energy Cards · Time · Patterns.** Word budgets derive from `DES_10_Reading_Format_Audit.md` (budgets serve the voice: punch 10–14w, expand 18–24w, conclusion lines ≤14w, chips ≤4w).
+**Added 2026-06-10.** Per reading surface: the contract that Part 1's vocabulary, Part 2's ladder (inverted), and the schema v2 all serve. Structure per D13: **Identity · Five Energy Cards · Time · Patterns.** Word budgets derive from `REA_09_Reading_Format_Audit.md` (budgets serve the voice: punch 10–14w, expand 18–24w, conclusion lines ≤14w, chips ≤4w).
 
 **Claim types** (the Resonance Spec, Step 2, will define acceptance tests per type):
 - **R — Recognition:** a specific, falsifiable-enough self-description ("that's me").
@@ -253,7 +255,7 @@ Status legend: ✅ taught (introduced before/where used) · ⚠ used-untaught (s
 
 ## 12 · What this means for schema v2 (Step 3 preview)
 
-> **v2.1 update (2026-06-24).** The central unit became **K2 `ENERGY_CARD_DATA[element_god]`** (per-**persona**, not per-element) — FACES prologue (face · persona · chips · `rulingDomain`) + presence-frame `registers` (dominant/absent bespoke, present derived) — **plus** the orthogonal **positional axis** (`PALACE_FRAMES × chart.tenGods`, B6). See `DES_05_Reading_Schema.md` (v2.1). The bullets below describe the v2 per-element precursor.
+> **v2.1 update (2026-06-24).** The central unit became **K2 `ENERGY_CARD_DATA[element_god]`** (per-**persona**, not per-element) — FACES prologue (face · persona · chips · `rulingDomain`) + presence-frame `registers` (dominant/absent bespoke, present derived) — **plus** the orthogonal **positional axis** (`PALACE_FRAMES × chart.tenGods`, B6). See `REA_04_Reading_Schema.md` (v2.1). The bullets below describe the v2 per-element precursor.
 
 - The per-element card becomes the schema's central unit: `energyCard[element]` with `face.conclusion` (≤14w), `claims[]` (2–3 × punch register), `roleBadges[]`, `depth` blocks per claim type, `cultivation` (absent-element only).
 - `elementIntro` punch/expand survive as the Self card's face + first depth block — budgets corrected to the audit's evidence (punch 10–14w, expand 18–24w).

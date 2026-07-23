@@ -28,7 +28,7 @@ export default function ElementalNatureDetail({ onBack }) {
   const stem = chart?.dayMaster?.stem || '庚';
   const element = chart?.dayMaster?.element || 'Metal';
   const baseline = STEM_CARD_DATA[stem] || STEM_CARD_DATA['庚'];
-  // Generation layer (DES_03 §9): merge the band×pattern variant over the
+  // Generation layer (REA_03 §9): merge the band×pattern variant over the
   // stem baseline so yourNature/gifts/shadows match THIS chart, not the
   // generic default.
   const data = resolveArchetype(stem, baseline, chart);
