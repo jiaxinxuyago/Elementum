@@ -9,7 +9,7 @@
 // Output: DevLog_Docs/Reading/REA_09_Reading_Format_Audit.md
 import fs from 'node:fs';
 import path from 'node:path';
-import { ARCHETYPE_SCHEMA } from '../src/content/archetypeSchema.js';
+import { ARCHETYPE_SCHEMA } from '../src/contract/archetypeSchema.js';
 import { walkSchema } from '../src/content/archetypeCoverage.js';
 import { STEM_CARD_DATA } from '../src/content/archetypeSource.js';
 
@@ -72,7 +72,9 @@ const stats = (ns) => {
   return { min: sorted[0], med: mid, max: sorted[sorted.length - 1] };
 };
 
-let md = `# Reading-Format Audit — evidence base for the reading-schema redesign
+let md = `# REA_09 — Reading-Format Audit — evidence base for the reading-schema redesign
+
+> **Formerly DES_10** — moved to the Reading library in the 2026-07-23 design/reading doc separation (registry: DevLog_Docs/README.md).
 
 Generated ${new Date().toISOString().slice(0, 10)} by \`Elementum_App/tools/reading-format-audit.mjs\` (read-only).
 Source: \`STEM_CARD_DATA\` (all 10 stems) walked against \`ARCHETYPE_SCHEMA\`.
