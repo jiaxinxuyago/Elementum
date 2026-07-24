@@ -462,7 +462,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                       <div className="vx-pair" data-rxpane="columns">
                         <div className="vx-box" style={{ flex: 1 }}>
                           <div className="vx-ey"><span>BALANCED</span><span className="role-pill cond"><Use id="ic-balanced" />Balanced</span></div>
-                          <p className="body2" style={{ margin: '4px 2px 6px' }}>Balanced — nothing to force; keep the mix.</p>
+                          <p className="body2" style={{ margin: '4px 2px 6px' }}>Balanced — nothing to force; {m.foldVerdict}</p>
                         </div>
                       </div>
                     </div>
@@ -512,7 +512,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                             <span className="sp-title">{r.title}</span>
                             <span className="sp-diag">{r.familyLine}</span>
                             <span className="sp-diagnosis">
-                              <span className="sp-dx">Your {r.name} is <b className="cond">{r.dx.condition}</b>{r.dx.remedy ? <> — <b className="appr">{r.dx.remedy}</b> it.</> : ' — keep the mix.'}</span>
+                              <span className="sp-dx">Your {r.name} is <b className="cond">{r.dx.condition}</b>{r.dx.remedy ? <> — <b className="appr">{r.dx.remedy}</b> it.</> : <> — {m.foldVerdict}</>}</span>
                               <span className="sp-chips">
                                 {r.chips.map((c) => (
                                   <span key={c.k} className={`role-pill ${c.k}${c.major ? ' major' : ''}`}>
@@ -570,7 +570,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                 <span className="chip-core">Core · {m.core.presence}%</span>
                 <p className="dm-man">{m.manifesto}</p>
               </div>
-              <div className="cardstock"><span className="laylab">WHO YOU ARE</span><p className="serifline" style={{ margin: 0 }}>{STEM_CARD_DATA[m.stem]?.identity?.yourNature?.desc || m.inscription}</p></div>
+              <div className="cardstock"><span className="laylab">WHO YOU ARE</span><p className="serifline" style={{ margin: 0 }}>{STEM_CARD_DATA[m.stem]?.yourNature?.desc || m.inscription}</p></div>
               {dmCards.map((c) => (
                 <div key={c.lab} className="cardstock" style={{ borderLeft: `3px solid var(--${c.kind})` }}>
                   <span className="laylab" style={{ color: `var(--${c.kind})` }}>{c.lab}</span>

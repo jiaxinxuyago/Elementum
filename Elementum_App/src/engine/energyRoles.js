@@ -18,7 +18,9 @@ const GEN = { Wood: 'Fire', Fire: 'Earth', Earth: 'Metal', Metal: 'Water', Water
 const CTL = { Wood: 'Earth', Earth: 'Water', Water: 'Fire', Fire: 'Metal', Metal: 'Wood' };
 
 // Relation of element X to the Day Master element D (internal names).
-function relationOf(X, D) {
+// Exported for reuse by UI vocabulary layers (journeyData) so the family
+// classification lives in exactly one place — capitalized element keys.
+export function relationOf(X, D) {
   if (X === D) return 'self';
   if (GEN[X] === D) return 'resource';  // X generates D
   if (GEN[D] === X) return 'output';     // D generates X

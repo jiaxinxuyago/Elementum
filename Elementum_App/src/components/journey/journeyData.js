@@ -13,28 +13,15 @@
 // pending the 50-cell authoring pass.
 // ===================================================================
 
-import { getEnergyBand } from '../../engine/index.js';
+import { getEnergyBand, relationOf } from '../../engine/index.js';
 import { TG_PERSONA } from '../../content/index.js';
 import { FACE_CARD, ENERGY_TILE } from '../../content/reading/index.js';
 
 // ── element basics ─────────────────────────────────────────────────
-export const EL_LIST = ['metal', 'earth', 'wood', 'water', 'fire'];
+// Ten-god family of an element relative to the day master is the engine's
+// relationOf (energyRoles.js) — reused here, not reimplemented.
 export const EL_NAME = { metal: 'Metal', earth: 'Earth', wood: 'Wood', water: 'Water', fire: 'Fire' };
 export const EL_HZ = { metal: '金', earth: '土', wood: '木', water: '水', fire: '火' };
-const EL_CAP = { metal: 'Metal', earth: 'Earth', wood: 'Wood', water: 'Water', fire: 'Fire' };
-
-const GEN = { Wood: 'Fire', Fire: 'Earth', Earth: 'Metal', Metal: 'Water', Water: 'Wood' };
-const CTL = { Wood: 'Earth', Fire: 'Metal', Earth: 'Water', Metal: 'Wood', Water: 'Fire' };
-
-// Ten-god family of element X relative to the day-master element D.
-export function familyOf(X, D) {
-  if (X === D) return 'self';
-  if (GEN[X] === D) return 'resource';
-  if (GEN[D] === X) return 'output';
-  if (CTL[D] === X) return 'wealth';
-  if (CTL[X] === D) return 'officer';
-  return 'self';
-}
 
 // ── REA_11 locked vocabulary ───────────────────────────────────────
 // §5b relation nouns (LOCKED 2026-07-16)
@@ -105,15 +92,21 @@ export const ADJ_FRICTION = {
 const W_CORE = 'The energy you were cast with — your day master, the fixed center every other energy is read against. It doesn’t change; it’s the you the whole chart orbits.';
 const W_CAT = 'The energy your chart runs short on. Feed it and the whole system moves easier — these are the energies to seek.';
 const W_FRIC = 'The energy already carrying weight. Add more and it jams the works — these are the energies to ease off.';
-const W_COND = {
-  Overfueled: 'More fuel comes in than your core burns — the surplus wants somewhere to go. Built into your chart, not today’s mood. So channel it: aim the surplus, don’t add to it.',
-  Underfueled: 'Your core burns more than it takes in — the right intake is what your chart asks for. Built in, not a mood. So refill it: take in what feeds you.',
-  Balanced: 'Intake and burn hold each other — the condition the other two work toward. Nothing to force; keep the mix.',
-};
+// Condition glossary body = the §5c definition (DEFLINE) + its remedy clause,
+// composed from the canonical sources so no line is restated: Channel/Refill
+// from APPR_LINE, the balanced verdict from FOLD_VERDICT.
+function condGlossaryBody(cond) {
+  const remedy = cond === 'Overfueled'
+    ? `So ${APPR_LINE.Channel.verb.toLowerCase()} it: ${APPR_LINE.Channel.tail}`
+    : cond === 'Underfueled'
+      ? `So ${APPR_LINE.Refill.verb.toLowerCase()} it: ${APPR_LINE.Refill.tail}`
+      : `Nothing to force; ${FOLD_VERDICT.Balanced}`;
+  return `${DEFLINE[cond]} ${remedy}`;
+}
 export function buildGlossary(model) {
   return {
     core: { label: 'Core', tint: 't-core', pill: 'core', icon: null, body: W_CORE },
-    cond: { label: model.condition, tint: 't-cond', pill: 'cond', icon: 'cond', body: W_COND[model.condition] },
+    cond: { label: model.condition, tint: 't-cond', pill: 'cond', icon: 'cond', body: condGlossaryBody(model.condition) },
     cat: { label: 'Catalyst', tint: 't-cat', pill: 'cat', icon: 'ar-up', body: W_CAT },
     fric: { label: 'Friction', tint: 't-fric', pill: 'fric', icon: 'ar-down', body: W_FRIC },
   };
@@ -199,7 +192,7 @@ export function buildJourneyModel({ chart, ec, identity, card, birthData }) {
     const coreExcess = isCore && roles.includes('friction');
     const coreCatalyst = isCore && roles.includes('catalyst');
 
-    const family = familyOf(EL_CAP[e.el], EL_CAP[coreEl]);
+    const family = relationOf(EL_NAME[e.el], EL_NAME[coreEl]);
     const relation = RELATION_NOUN[family];
     const god = e.leadGod;
     const keyword = KEYWORD[god] || '';
@@ -356,7 +349,7 @@ export function buildElementScreen(model, el) {
       ? `${model.condition} — honor it, don’t feed it further.`
       : model.condition === 'Underfueled'
         ? `${model.condition} — it burns more than it takes in; refill it.`
-        : 'Balanced — nothing to force; keep the mix.';
+        : `Balanced — nothing to force; ${FOLD_VERDICT.Balanced}`;
   } else if (r.role === 'friction') {
     verdLab = 'YOUR FRICTION — SKIP THIS';
     verdict = 'Already rich in you — more of it weighs the core; stop adding.';
