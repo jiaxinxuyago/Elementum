@@ -11,8 +11,8 @@
 // Deviations, per the integration rulings (REA_11 §6b):
 //   · No prototype tab bar — the app's persistent ReadingTabBar renders
 //     underneath (76px slot, same height the dock docks above).
-//   · The identity-card float wires to the BUILT ShareCardOverlay
-//     (the handoff stubs it and says to wire the app's share sheet).
+//   · The identity-card float uses a share overlay written inline below —
+//     it duplicates components/share/ShareCardOverlay.jsx, it does not reuse it.
 //   · Element "Full reading" + DM CTA route to the existing app pages.
 //   · First-run flag: localStorage for guests (profile flag when the
 //     accounts stack lands — INF backlog).
@@ -79,7 +79,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   const padRef = useRef(null);
   const wheelRef = useRef(null);
   const shelfRef = useRef(null);
-  const inscRef = useRef(null);
   const beat4Ref = useRef(null);
   const toastT = useRef(null);
 
@@ -190,10 +189,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
     io.observe(shelf);
     return () => io.disconnect();
   }, [model, screen]);
-
-  // (The prototype's fitLastBeat stretch — anchoring the Folio at scroll-end —
-  // was retired when the footnote register became the page's foot: the added
-  // min-height read as a dead band between the shelf hint and the footnotes.)
 
   // ── the Naming + Dissolve ────────────────────────────────────────
   useEffect(() => {
@@ -415,7 +410,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                     ))}
                   </div>
 
-                  <div className={`insc${folioOpen ? ' folio-open' : ''}`} ref={inscRef} data-ins="folio" data-css="inscP">
+                  <div className={`insc${folioOpen ? ' folio-open' : ''}`} data-ins="folio" data-css="inscP">
                     <div className="ins-fold" role="button" aria-expanded={folioOpen} onClick={() => { setFolioOpen((v) => { if (v) setInsOpen(null); return !v; }); }}>
                       <span className="ik-chip"><Use id={`el-${m.core.el}`} className="elmark" /><span className={`ik-plate a-${m.core.el}`} /></span>
                       <span className="fold-t">
