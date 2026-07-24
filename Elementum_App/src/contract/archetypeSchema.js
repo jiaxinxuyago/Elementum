@@ -122,7 +122,7 @@ export const VARY_LIBRARY = {
   branch:       { status: 'available', category: 'modifier',  description: 'Earthly Branch. Use when content varies by branch (e.g. seasonal calibration specifics).' },
   season:       { status: 'available', category: 'modifier',  description: 'Derivable from birth month; use when content is season-keyed.' },
   gender:       { status: 'available', category: 'modifier',  description: 'Only if copy must differ by gender.' },
-  lifeDomain:   { status: 'in-use',    category: 'slot',      description: 'career/relationships/wealth/health. Used in liunianSignatures.' },
+  lifeDomain:   { status: 'in-use',    category: 'slot',      description: 'career/relationships/wealth/health. Used in TG_CARD_DATA[tg].domainSignatures.' },
   lifeStage:    { status: 'available', category: 'slot',      description: 'Reader life phase. Not currently used.' },
   lifePeriod:   { status: 'available', category: 'slot',      description: '大运 decade. Dynamic reading material.' },
   annualPillar: { status: 'available', category: 'slot',      description: '流年 annual pillar (60-year cycle).' },
@@ -136,8 +136,7 @@ export const VARY_COMPOUND_EXAMPLES = [
   { tag: ['element', 'tg'],                cardinality:  50, note: 'Compound archetype (DomEnergyTg_Data.js planned)' },
   { tag: ['band', 'tgPattern'],            cardinality:  15, note: 'Variant signature — inside a single stem' },
   { tag: ['stem', 'band', 'tgPattern'],    cardinality: 150, note: 'Full variant surface (STEM_CARD_DATA.js)' },
-  { tag: ['stem', 'lifeDomain'],           cardinality:  40, note: 'Per-stem per-domain — e.g. liunianSignatures' },
-  { tag: ['tg', 'lifeDomain'],             cardinality:  40, note: 'Per-TG per-domain' },
+  { tag: ['tg', 'lifeDomain'],             cardinality:  40, note: 'Per-TG per-domain (TG_CARD_DATA domainSignatures)' },
 ];
 
 export function cardinalityOf(varyBy) {
@@ -306,35 +305,6 @@ export const ARCHETYPE_SCHEMA = {
   },
 
   // ─────────────────────────────────────────────────────────────
-  lifeDomains: {
-    _meta: {
-      tier: 'internal',
-      status: 'deprecated',
-      note: 'Stem-level lifeDomains is being migrated to TG_CARD_DATA[tg].domains. ' +
-            'Do NOT author new stem-level entries. Retained for reference only.',
-    },
-  },
-
-  // ─────────────────────────────────────────────────────────────
-  dominantEnergy: {
-    _meta: { tier: 'internal', status: 'internal', varyBy: ['stem'], section: 'Section 2 · The Force (Dominant Energy layer)',
-             note: 'NOT rendered by any live surface — TenGodsDetail uses TG_CARD_DATA instead. Retained as Self-Report synthesis context. See Reading-Structure Audit S1 (2026-06).' },
-    label: {
-      type: 'string', wordCap: 3, tier: 'free', required: true,
-      note: 'User-facing element-specific label. e.g. "The Force" for Metal.',
-      example: 'The Force',
-    },
-    teaser: {
-      type: 'string', sentenceMin: 2, sentenceMax: 3, tier: 'free', required: true,
-      note: 'Recognition moment + door-opener for the element-dominant quality.',
-    },
-    characterDesc: {
-      type: 'string', paragraphMin: 3, paragraphMax: 5, tier: 'pro', required: true,
-      note: 'Full characterological description of the element-dominant quality.',
-    },
-  },
-
-  // ─────────────────────────────────────────────────────────────
   // (energy block retired 2026-07-24 — never rendered; the keyword row it
   // aliased lives on as the top-level `chips` field. Reference research on
   // stem energy lives in the REA library, not in code.)
@@ -348,55 +318,6 @@ export const ARCHETYPE_SCHEMA = {
                     note: 'How to activate it. FREE teaser + PRO full analysis share the field — paywall splits at a natural paragraph break.' },
     resistance:   { type: 'string', tier: 'pro', required: true,
                     note: 'How to work with it when it is creating friction.' },
-  },
-
-  // ─────────────────────────────────────────────────────────────
-  seasonalCalibration: {
-    _meta: {
-      tier: 'internal',
-      status: 'internal',
-      varyBy: ['stem'],
-      section: 'The Forging Season (PRO detail page) · 调候用神 system',
-      note: 'NOT rendered — SeasonalCalibrationDetail uses templated prescription() from chart.missingElements. ' +
-            'Retained as Self-Report synthesis context. See Reading-Structure Audit S1 (2026-06). Source: 穷通宝鉴.',
-    },
-    label:   { type: 'string', wordCap: 3, tier: 'free', required: true,
-               note: 'User-facing element-specific label. e.g. "The Forging Season" for Metal.' },
-    element: { type: 'Element', valid: ELEMENTS, tier: 'free', required: true,
-               note: 'The calibrating element this stem responds to seasonally.' },
-    teaser:  { type: 'string', sentenceMin: 2, sentenceMax: 3, tier: 'free', required: true },
-    desc:    { type: 'string', paragraphMin: 4, paragraphMax: 6, tier: 'pro', required: true,
-               note: 'Full seasonal calibration reading. Includes classical source anchors.' },
-  },
-
-  // ─────────────────────────────────────────────────────────────
-  liunianSignatures: {
-    _meta: {
-      tier: 'internal',
-      status: 'internal',
-      varyBy: ['stem'],
-      section: 'Dynamic Energy Blueprint (foundation)',
-      note: 'NOT rendered — LifeChaptersDetail uses templated decadeReading() from chart.luckPillars. ' +
-            'Retained as Self-Report synthesis context. See Reading-Structure Audit S1 (2026-06). Each entry uses the LiunianEntry shape.',
-    },
-    career:        { type: 'object', required: true, itemShape: SHAPES.LiunianEntry },
-    relationships: { type: 'object', required: true, itemShape: SHAPES.LiunianEntry },
-    wealth:        { type: 'object', required: true, itemShape: SHAPES.LiunianEntry },
-    health:        { type: 'object', required: true, itemShape: SHAPES.LiunianEntry },
-  },
-
-  // ─────────────────────────────────────────────────────────────
-  psych: {
-    _meta: { tier: 'internal', varyBy: ['stem'], section: 'Synthesis pass context — never rendered', status: 'stable' },
-    bigFive:    { type: 'string', required: true, note: 'Big Five / HEXACO signature.' },
-    jungian:    { type: 'string', required: true, note: 'Dominant function + cognitive pattern.' },
-    attachment: { type: 'string', required: true, note: 'Attachment style + texture.' },
-    shadow:     { type: 'string', required: true, note: 'Core wound / defense mechanism.' },
-  },
-
-  archetypes: {
-    type: 'string[]', tier: 'internal', varyBy: ['stem'], required: false,
-    note: 'External framework mappings (MBTI, Jungian, Enneagram, etc.). Author reference only.',
   },
 
 };
@@ -455,27 +376,10 @@ export const UI_SURFACES = {
     'blocks[].label',
     'blocks[].text.{default|band|pattern|band_pattern}',
   ],
-  'Section 2 · The Force': [
-    'dominantEnergy.label',
-    'dominantEnergy.teaser',
-    'dominantEnergy.characterDesc  [PRO]',
-  ],
   'Usage Manual': [
     'manual.concentrated',
     'manual.open',
     'manual.catalyst',
     'manual.resistance  [PRO]',
-  ],
-  'The Forging Season (PRO detail)': [
-    'seasonalCalibration.label',
-    'seasonalCalibration.element',
-    'seasonalCalibration.teaser',
-    'seasonalCalibration.desc  [PRO]',
-  ],
-  'Dynamic Energy Blueprint (PRO)': [
-    'liunianSignatures.career',
-    'liunianSignatures.relationships',
-    'liunianSignatures.wealth',
-    'liunianSignatures.health',
   ],
 };

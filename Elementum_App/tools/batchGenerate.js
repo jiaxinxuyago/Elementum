@@ -3,9 +3,8 @@
 // Uses Anthropic batch API for offline generation and on-demand synthesis.
 //
 // Field names follow archetypeSource.js (source of truth).
-// Internal constants (CLASSICAL_STEM_ANCHORS, CLASSICAL_TG_ANCHORS,
-// BINGYI_FRAMING, PILLAR_STAGE) are imported from archetypeSource.js at
-// synthesis time.
+// Classical-source scaffolding for the synthesis prompts lives inline in this
+// file (STEM_CLASSICAL below) — this pipeline is self-contained.
 //
 // ── CURRENT PIPELINES ──────────────────────────────────────────────────
 //

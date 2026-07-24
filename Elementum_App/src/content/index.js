@@ -15,7 +15,6 @@
 export {
   STEM_CARD_DATA,
   TG_CARD_DATA,
-  CLASSICAL_STEM_ANCHORS,
 } from './archetypeSource.js';
 
 // Chart → archetype resolution

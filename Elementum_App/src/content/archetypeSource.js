@@ -138,13 +138,6 @@ There's also a specific interpersonal cost: people who care about you often feel
         text: { default: `That you often don't know what you're building toward — only that you're building. The momentum is real. The destination is often genuinely unclear even to you, which is part of why the reaching can go in so many directions before finding the thing that's actually worth the full force.` },
       },
     ],
-    psych: {
-      bigFive: `High Openness/Intellect · High Assertiveness · variable Industriousness (challenge is consolidation, not initiation)`,
-      jungian: `Extraverted Intuition (Ne) + Extraverted Thinking (Te) — generates possibilities and reaches toward them before consolidating`,
-      attachment: `Secure-leaning with over-extension risk — commits deeply then outgrows before fully rooting`,
-      shadow: `Integrity vs. Rigidity — would rather break than bend. Authority is tolerated only if the vision is genuinely shared, not merely imposed`,
-    },
-    archetypes: ["ENTP / ENTJ (MBTI)", "The Pioneer (Brand)", "The Hero (Jungian)", "The Magician (Campbell)", "Type 7 / Type 3 (Enneagram)", "Aries / Sagittarius (Western)", "Manifesting Generator (HD)"],
     manual: {
       concentrated: `New ideas launch before old ones land. Commitments pile up faster than they can be honored. The chart or period is saturated with initiating energy — ambitious, restless, and difficult to anchor. The classical principle warns of "growth without harvest": energy expanding without converting into completed form. Restlessness is constant. Stillness feels impossible. The specific trap: more beginnings accumulate than can ever be finished, and the backlog slowly becomes its own weight.`,  // [FREE · Elemental Nature card]
       open: `Initiative is genuinely harder to find. The environment or person waits for external permission before moving. Starting things feels risky rather than natural. Leadership and forward visibility feel inaccessible — not from lack of capability but from lack of the upward-push energy that makes initiating feel worth the cost. Projects that need a champion stall at the beginning. Ambition may exist internally but stays unexpressed.`,  // [FREE · Elemental Nature card]
@@ -251,13 +244,6 @@ There's also a specific interpersonal cost: people who care about you often feel
         text: { default: `How much of what looks like flexibility is actually a form of self-protection — a way of staying mobile enough that no single failure can fully land on you. The adaptability is genuine intelligence. It's also, sometimes, a way of not having to find out what happens if you commit completely and it doesn't work.` },
       },
     ],
-    psych: {
-      bigFive: `High Enthusiasm (Extraversion facet) · High Compassion/Agreeableness · moderate Neuroticism (accumulation cost of structural warmth)`,
-      jungian: `Extraverted Feeling (Fe) — shapes the emotional climate of any space occupied, as a property of presence rather than performance`,
-      attachment: `Secure with abandonment sensitivity — the giving is genuine; the depletion is real when unrecognised by others`,
-      shadow: `The Authenticity Burden — performing "light" for others while sitting in one's own shadow; deep exhaustion invisible behind consistent radiance`,
-    },
-    archetypes: ["ENFJ / ESFJ (MBTI)", "The Hero (Brand)", "The Great Mother / Anima (Jungian)", "Type 2 / Type 7 (Enneagram)", "Leo / Aries (Western)", "Manifestor (HD)", "The Lover (Campbell)"],
     manual: {
       concentrated: `Everything accommodates, nothing commits. The chart or period is saturated with relational intelligence — socially exhausting because the room-reading never stops. The classical trap: 柔弱 (too yielding) — the vine that never finds a surface firm enough to actually climb, and so keeps reaching in all directions simultaneously. Chronic over-adaptation gradually erodes position: you become expert at arriving where others wanted, and lose track of where you intended to go. Commitment feels like a trap because there are always other paths.`,  // [FREE · Elemental Nature card]
       open: `Relational intelligence gaps appear. The environment can only approach things directly — and direct force fails in complex political or relational terrain. Opportunities that require connection rather than competence get missed. Diplomacy becomes unavailable when it's most needed. Life becomes more transactional and confrontational, even when a side door was available and far easier. The texture of relationships turns blunt.`,  // [FREE · Elemental Nature card]
@@ -364,13 +350,6 @@ There's also a specific interpersonal cost: people who care about you often feel
         text: { default: `That you sometimes don't know whether the warmth is something you're choosing or something that just runs regardless. The giving can feel less like a gift and more like a structural fact — which makes it genuinely difficult to protect, because it's hard to guard something that operates before you've decided to give it.` },
       },
     ],
-    psych: {
-      bigFive: `High Conscientiousness across both facets · Low Neuroticism · moderate Extraversion — structural reliability rather than effortful discipline`,
-      jungian: `Introverted Sensation (Si) in its most stable expression — maintains the internal framework of what works, what has proven stable, what can be depended on`,
-      attachment: `Secure provider with stagnation risk — the stability that holds everything can hold itself in place past the point of serving anyone`,
-      shadow: `Internal Stagnation — "who holds the rock?" The heaviness that makes this person irreplaceable is also what prevents them from moving toward what they need`,
-    },
-    archetypes: ["ISTJ / ESTJ (MBTI)", "The Ruler (Brand)", "The Self / Great Father (Jungian)", "Type 9 / Type 1 (Enneagram)", "Taurus / Capricorn (Western)", "Manifestor / Generator (HD)", "The Guardian (Campbell)"],
     manual: {
       concentrated: `Everything is lit up — and nothing remains private. Social momentum and recognition are high. But excess 丙 is literal overexposure: work that wasn't ready gets seen, private things become public, and being "on" continuously becomes genuinely depleting. The classical warning: 火炎土燥 (fire blazes, earth scorches) — when Fire becomes excessive, the ground beneath it dries and cracks. The environment becomes brilliant but unstable, high-energy but exhausting. Reputation risk increases alongside recognition opportunity.`,  // [FREE · Elemental Nature card]
       open: `Visibility is genuinely harder to access. Quality work exists but doesn't surface. The person or environment struggles to be noticed despite having real substance. Social connections feel effortful rather than natural. The classical image: a lantern inside a jar — the flame is real but the light doesn't reach others. Career recognition requires ten times more effort than it should because the radiance that would carry the work outward is simply not present.`,  // [FREE · Elemental Nature card]
@@ -479,13 +458,6 @@ There's also an investment asymmetry that accumulates: you give the full quality
         text: { default: `That when the full flame arrives at full force in a context that wasn't ready for it, you often don't understand why it didn't land the way it should have. The quality was real. The care was genuine. What you don't always account for is that not every moment wants to be fully illuminated.` },
       },
     ],
-    psych: {
-      bigFive: `High Conscientiousness/Industriousness · Low Agreeableness/Politeness · lower Neuroticism — evaluation as structural default, not as active choice`,
-      jungian: `Introverted Thinking (Ti) — the evaluation operates through an internal logical framework that cannot be switched off; runs before social or emotional consideration`,
-      attachment: `Dismissive-avoidant — self-sufficient, low dependency; the evaluative default reads as distance but the care is real, arriving through the same precision channel as everything else`,
-      shadow: `The Justice Wound — sees the world in Right/Wrong; the bluntness is a defense mechanism for a very soft interior; the blade in the tongue is protecting something that rarely gets shown`,
-    },
-    archetypes: ["INTJ / ENTJ (MBTI)", "The Outlaw / Maverick (Brand)", "The Hero / Warrior (Jungian)", "Type 1 / Type 8 (Enneagram)", "Aries / Scorpio (Western)", "Manifestor (HD)", "The Warrior (Campbell)"],
     manual: {
       concentrated: `The examining quality becomes exhaustive. Every detail gets scrutinized, every relationship gets held to a standard of depth it may not be designed for, every piece of work gets refined past the point of value. The classical problem: excess 丁 burns away what it examines — the candle that runs out of its own fuel. Anxiety emerges from examining everything and finding it insufficient. The environment becomes demanding and intense rather than illuminating. The precision becomes punishing rather than refining.`,  // [FREE · Elemental Nature card]
       open: `Things stay at surface level. Work is produced but not polished. Relationships remain pleasant but never reach real depth. The "notice what others miss" quality is not accessible. There may be energy — perhaps broad warmth from 丙 — but no concentrated, directional light. The specific deficit: work gets started and finished, but the layer beneath the surface — where the genuine quality lives — remains undeveloped.`,  // [FREE · Elemental Nature card]
@@ -594,13 +566,6 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
         text: { default: `That you need things too — specific things, from specific people — and have spent so long not needing anything visibly that you've almost stopped knowing how to name what those things are. You're so reliably there for everyone else that the question of what you need has largely stopped being asked. Which means it's also largely stopped being answered.` },
       },
     ],
-    psych: {
-      bigFive: `High Openness/Intellect · lower Extraversion Enthusiasm · High Industriousness · variable Neuroticism — competence and autonomy needs extremely high`,
-      jungian: `Introverted Thinking (Ti) at vast scale + Introverted Intuition (Ni) — processes comprehensively, holding multiple frameworks simultaneously, generating systemic insight`,
-      attachment: `Dismissive-avoidant — the depth that perceives everything can produce emotional distance; holding more internally than gets shown is constitutional, not a choice`,
-      shadow: `Emotional Scale — thinks in "waves"; massive ambition but lack of natural limits tends to flood rooms or disappear entirely; the translation gap between depth and surface is persistent`,
-    },
-    archetypes: ["INTP / INTJ (MBTI)", "The Sage (Brand)", "The Wise Old Man / Self (Jungian)", "Type 5 / Type 7 (Enneagram)", "Scorpio / Aquarius (Western)", "Reflector / Projector (HD)", "The Threshold Guardian (Campbell)"],
     manual: {
       concentrated: `The grounding quality becomes literal heaviness. Things that should move don't. Decisions that should be made get postponed. Weight accumulates without being processed. Classical texts warn 土重则滞 (excess Earth creates stagnation) — when the Mountain grows too dense, nothing moves across it. Opportunities pass because the inertia of consolidation prevents engagement with what's new. The environment becomes utterly reliable but genuinely stuck. Stability, which was the gift, becomes the trap when it refuses to distinguish between what should be held and what should be released.`,  // [FREE · Elemental Nature card]
       open: `Foundational stability is hard to access. Things don't land or hold. Projects start but don't root — growth happens above ground, but there's no foundation for it to anchor into. Financial and physical accumulation is more difficult. The environment feels unstable or mobile in ways that are exhausting rather than exciting. Others can't build on what you offer because the surface keeps shifting before they get a chance to establish themselves on it.`,  // [FREE · Elemental Nature card]
@@ -707,13 +672,6 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
         text: { default: `That you keep score, quietly — and that the accounting is often worse than anyone around you knows. You don't say this because saying it feels contrary to what care is supposed to be. But the gap between what's given and what returns is real, and it accumulates in you even when it isn't visible to anyone else.` },
       },
     ],
-    psych: {
-      bigFive: `High Agreeableness (both Compassion and Politeness facets) · moderate Conscientiousness · variable Extraversion — parental investment theory, not simple agreeableness`,
-      jungian: `Introverted Feeling (Fi) in its most relational expression — cares specifically, not broadly; nourishment directed at what the specific person or situation actually needs`,
-      attachment: `Anxious-preoccupied — high caregiving activation; when unreciprocated over time, depletes invisibly without anyone noticing the accumulation`,
-      shadow: `Nurturing / Suffocation Balance — can be "farmed" by others for kindness; a fertile mind that can grow anything, but often grows weeds from overthinking what was planted`,
-    },
-    archetypes: ["ISFJ / INFJ (MBTI)", "The Caregiver (Brand)", "The Great Mother / Nurturing Anima (Jungian)", "Type 2 / Type 9 (Enneagram)", "Cancer / Virgo (Western)", "Generator (HD)"],
     manual: {
       concentrated: `The receptive and nurturing quality becomes absorptive without filtration. The environment or person pulls in difficulties as readily as it nourishes growth. Classical texts describe 己土混浊 (己 Earth becomes muddy) — when the fertile soil absorbs too much without drainage, it loses its cultivating quality entirely and becomes mud. Overthinking, rumination, and carrying others' emotional weight characterizes the excess state. The Field grows weeds as readily as it grows crops when there's no selectivity about what gets tended.`,  // [FREE · Elemental Nature card]
       open: `The patient-development quality is absent. Growth happens but nothing is tended. People and projects are initiated but not cultivated. The environment lacks the quiet, sustained presence that allows things to develop at their natural pace — which means the depth of development that slow nourishment produces simply never arrives. Quick results get prioritized over lasting ones, and nothing reaches the quality it could have reached with genuine care.`,  // [FREE · Elemental Nature card]
@@ -930,24 +888,6 @@ The verdict also becomes load-bearing: once formed, it requires new information 
     // implicitly. Standalone stem lifeDomains is redundant with them.
     // Retained here temporarily for reference during the migration to TG-level
     // domain content. Do not author new stem-level lifeDomains entries.
-    lifeDomains: {
-      career: {
-        name: `The Precision Economy`,
-        desc: `You build things that last because you literally cannot build them any other way. Environments that require genuine quality — where the standard is real and the stakes for getting it wrong are visible — are where you produce at your full range. The career challenge is finding work where the precision is the point, not a liability: where being the most rigorous person in the room is valued rather than experienced as difficult. You are most effective when you have a target worthy of the edge.`,
-      },
-      relationships: {
-        name: `The Honest Mirror`,
-        desc: `You are more useful than you are easy. The people who receive your honest assessment when they needed it — the ones who weren't coddled but were told something true — often recognize, later, that your care was real even when it arrived through the wrong door. Relationships deepen when the other person can hold your directness without collapsing, and when you can develop warmth delivery alongside accuracy. The capacity for genuine closeness is there. The channel for it requires deliberate building.`,
-      },
-      wealth: {
-        name: `The Long Game`,
-        desc: `You build toward quality, not toward speed. Financial patterns reward patience, structure, and the willingness to make clear decisions rather than keep options open — your natural mode, when not pressured into false urgency. The risk: the evaluative rigidity that protects long-term quality can also delay exits past optimal, hold positions past expiry, and mistake comfort with a previous assessment for genuine evidence. The wealth pattern is strong when the decisiveness is active; it stalls when the precision turns defensive.`,
-      },
-      health: {
-        name: `The Structural Body`,
-        desc: `The body responds to the same patterns as the mind: precision-heavy, tends toward rigidity under sustained pressure, benefits from intentional softening. Chronic tension lives in the jaw, the shoulders, and the places the evaluation never rests. The health signal to watch: when the assessment is running on the body itself — when the standard that applies to everything else gets applied to how the body performs, looks, or functions. High standards are structural; they don't take days off. The counterbalance is movement that doesn't evaluate, rest that isn't optimized, warmth in the physical sense.`,
-      },
-    },
 
     // ═══════════════════════════════════════════════════════════════════
     // SECTION 2: THE FORCE  (user-facing label for Metal: "The Force")
@@ -956,21 +896,6 @@ The verdict also becomes load-bearing: once formed, it requires new information 
     // to any Ten God expression. App layer combines with TG at runtime.
     // ═══════════════════════════════════════════════════════════════════
 
-    dominantEnergy: {
-      label: `The Force`,  // user-facing label (Metal-specific)
-
-      // FREE TEASER — recognition moment + door-opener
-      teaser: `When Metal is the dominant force in your chart, precision isn't something you reach for — it's the default state. The assessment runs first. Everything else follows.`,  // [FREE]
-
-      // PRO — full characterological description of Metal dominant quality
-      characterDesc: `When Metal is dominant in your chart, precision is not just your nature — it is the atmosphere you operate in. Everything you encounter gets evaluated through a standard that doesn't bend to convenience. This is not a choice you made. The Metal dominant quality is structural: it was already running before preference had a chance to form.
-
-The gift is reliability. When you assess something, the assessment is accurate. When you commit to something, the commitment holds. What you build carries the mark of this quality in ways that outlast the moment it was made.
-
-The cost is also structural. The same quality that produces reliability produces friction: environments, relationships, and opportunities that can't hold the standard experience you as difficult before they experience you as valuable. The precision doesn't modulate for readiness. It arrives at full force.
-
-The productive question is not "how do I soften this" — it's "what is this precision currently aimed at, and does that target actually deserve it?"`,  // [PRO]
-    },
 
     // ═══════════════════════════════════════════════════════════════════
     // SECTION 3: THE EDGE IN MOTION
@@ -991,67 +916,16 @@ The productive question is not "how do I soften this" — it's "what is this pre
     // Internal field name: seasonalCalibration
     // Source system: 调候用神 from 穷通宝鉴 (distinct from 病药用神 / catalyst system)
     // User-facing label for Metal: "The Forging Season"
-    seasonalCalibration: {
-      label: `The Forging Season`,   // user-facing label (Metal-specific)
-      element: `Fire`,
-
-      // FREE TEASER — 2–3 sentences
-      teaser: `There is a specific kind of period that doesn't arrive often but changes everything when it does: the encounter that specifies what the precision is actually for. The capability was always real. What fire reveals is the direction — not the capability, which was already there.`,  // [FREE]
-
-      // PRO — full seasonal calibration reading
-      desc: `The seasonal pattern for 庚: Metal is most fully expressed when Fire is present and engaged. Not because Fire adds anything to the structure — the capability was complete before Fire arrived — but because Fire specifies what the structure is an instrument for.
-
-The classical principle from 穷通宝鉴: 金逢火炼方成器 — raw metal becomes a shaped instrument through contact with fire. The transition is from 素材 (formed, capable, unspecified raw material) to 成器 (an instrument defined for a specific purpose). The capability doesn't change. What changes is the direction.
-
-In practice: periods when Fire energy is strong — summer months, Fire-dominant years, relationships or career contexts that carry genuine warmth, urgency, or a target worthy of the edge — bring the specific challenge, person, or context that specifies where the precision should land. Without this contact, the evaluative apparatus remains formed but unspecified: accurate, capable, and running on whatever is available rather than on what it was built for.
-
-Note: 庚 Metal prefers 丁 Fire (the contained flame — the forge, the purposeful heat) over 丙 Fire (the open blaze, the burning sun). The forge shapes. The wildfire consumes. When Fire contact arrives through genuine purpose and directed warmth, the Forging Season is productive. When it arrives through excessive pressure or uncontrolled intensity, the metal loses temper rather than gains it.
-
-The 2 AM version: "I know what I am. I still don't know what I'm for." The Forging Season is when that question gets answered — not once, but each time Fire provides a worthy target.`,  // [PRO]
-    },
 
     // LIUNIAN SIGNATURES  [PRO — Internal sourcing; foundation for Dynamic Energy Blueprint]
     // Structured by life domain. Each entry: what triggers it, what it produces,
     // timing guidance, and classical source for internal verification.
-    liunianSignatures: {
-      career: {
-        trigger: `Fire or Metal year/month bringing competitive pressure or restructuring (庚午, 庚寅, 丙庚 configurations)`,
-        event: `Promotion, restructuring, or career-defining decision point. The precision finds an institutional target. Environments that have been unclear about what they want from you define themselves — often through competitive pressure or organizational change that requires someone to make a call. You are the person who makes the call.`,
-        timing: `Activates most directly in 庚 and 丁 years; also activated in summer months (巳午未) when Fire energy peaks and provides the Forging Season condition`,
-        source: `子平真诠 — 七杀制伏得宜，反为权贵 (Seven Killings properly contained becomes authority); 三命通会 — 庚金得地得势，刀锋所指皆有成`,
-      },
-      relationships: {
-        trigger: `Water or Wood year/month providing contrast element; or a person whose chart brings significant Fire (specificity, warmth, directional pressure)`,
-        event: `Relationship dynamic clarification — long-held ambiguities get resolved. A connection that was sustainable but undefined gets defined, sometimes against your preference. A person enters who can receive your directness without deflecting from it. The relationship either deepens structurally or ends with precision. Both outcomes are better than sustained ambiguity.`,
-        timing: `Activates most strongly in 癸 (Yin Water) years — depth and sensitivity as complement to the precision; also activated in 甲乙 (Wood) years through the wealth/relationship dynamic`,
-        source: `三命通会 — 庚金孤刚，得水而情生 (Rigid Yang Metal, softened by Water, produces feeling); 滴天髓 — 刚柔相推，而生变化`,
-      },
-      wealth: {
-        trigger: `Wood year/month (wealth element for Metal Day Master — Metal controls Wood in the classical 五行 productive cycle)`,
-        event: `Income expansion through precision work. A project or commitment that required genuine quality produces measurable return. The evaluation that was invested in building correctly begins paying back. Not windfall wealth — the kind that accumulates from having built something that holds up over time and under examination.`,
-        timing: `甲乙 (Wood) years and 寅卯 (Wood branch) months activate the wealth dynamic; productive configurations require balanced Metal strength — excess Metal cutting Wood produces loss rather than gain`,
-        source: `子平真诠 — 庚金逢木，才现而有用 (Yang Metal meets Wood — wealth appears and becomes useful); 穷通宝鉴 — Metal-Wood interaction chapters`,
-      },
-      health: {
-        trigger: `Fire dominant periods (巳午未 branch months, 丙丁 stem years) — productive in balance, pressing in excess`,
-        event: `Physical energy peaks in aligned Forging Season conditions. In over-Fire configurations, watch for inflammatory pressure or cardiovascular stress (热症 — heat conditions, classical Metal-Fire excess). In balanced Fire contact, the result is purposeful physical energy rather than the chronic muscular tension that accumulates when the assessment has nowhere productive to go.`,
-        timing: `Summer months and Fire years — generative when 庚 has adequate Water or Earth grounding; pressing when Fire is excessive and no tempering element is present`,
-        source: `穷通宝鉴 — 庚金喜丁火锻炼方成大器，不喜丙火烈焰过旺 (庚 Metal welcomes 丁 Fire's forging; does not welcome 丙 Fire's excess blaze); 五行医学 — 金主肺，过旺则肺气郁结 (Metal governs the lung system; excess produces respiratory tension and suppressed qi)`,
-      },
-    },
 
     // ═══════════════════════════════════════════════════════════════════
     // SECTION 4: INTERNAL REFERENCE
     // Not served to users. Synthesis pass context only.
     // ═══════════════════════════════════════════════════════════════════
 
-    psych: {
-      bigFive: `High Conscientiousness/Industriousness · Low Agreeableness/Politeness · lower Neuroticism — evaluation as structural default, not as active choice`,
-      jungian: `Introverted Thinking (Ti) — the evaluation operates through an internal logical framework that cannot be switched off; runs before social or emotional consideration`,
-      attachment: `Dismissive-avoidant — self-sufficient, low dependency; the evaluative default reads as distance but the care is real, arriving through the same precision channel as everything else`,
-      shadow: `The Justice Wound — sees the world in Right/Wrong; the bluntness is a defense mechanism for a very soft interior; the blade in the tongue is protecting something that rarely gets shown`,
-    },
-    archetypes: ["INTJ / ENTJ (MBTI)", "The Outlaw / Maverick (Brand)", "The Hero / Warrior (Jungian)", "Type 1 / Type 8 (Enneagram)", "Aries / Scorpio (Western)", "Manifestor (HD)", "The Warrior (Campbell)"],
   },
 
   "辛": {
@@ -1152,13 +1026,6 @@ The 2 AM version: "I know what I am. I still don't know what I'm for." The Forgi
         text: { default: `That the standard you apply to everything, you apply to yourself — and that this is often the hardest part. The gap between what you can perceive as possible in yourself and what you currently are is always visible to you. Which means you're almost never quite satisfied with who you are right now, regardless of what you've achieved.` },
       },
     ],
-    psych: {
-      bigFive: `High Openness/Aesthetics (quality-seeking, not truth-seeking) · High Conscientiousness/Orderliness · moderate-low Extraversion — healthy vs. maladaptive perfectionism axis`,
-      jungian: `Introverted Sensation (Si) + Introverted Feeling (Fi) for aesthetic valuation — discernment is both perceptual (registers quality as temperature) and evaluative (assigns internal value)`,
-      attachment: `Fearful-avoidant — deep relational capacity with high threshold; the discernment that identifies excellence also identifies what doesn't meet it`,
-      shadow: `The Value/Perfectionism Trap — the need to be "polished" and special; brilliance as a way to keep people at a distance so they don't see the flaws perceived underneath`,
-    },
-    archetypes: ["ISFJ / INFP (MBTI)", "The Creator (Brand)", "The Aesthetic Anima / Puer (Jungian)", "Type 4 / Type 1 (Enneagram)", "Libra / Virgo (Western)", "Projector (HD)"],
     manual: {
       concentrated: `The evaluative standard is applied to everything simultaneously with no relief. The environment produces either remarkable quality or paralysis — the discernment that should enable excellence instead prevents completion. Relationships and situations that don't meet the implicit standard become genuinely difficult to engage with. Classical texts note that excess 辛 Metal produces rigidity of aesthetic judgment — the jeweler so committed to perfection that no gem ever leaves the workshop. Self-criticism intensifies. The standard keeps moving just past wherever the work has arrived.`,  // [FREE · Elemental Nature card]
       open: `Discernment and quality-sensing are reduced. Things are produced without adequate evaluation. Work looks fine on the surface but doesn't hold up over time or under close examination. The environment loses its ability to distinguish what is genuinely excellent from what merely appears excellent. Recognition of real quality becomes unreliable — people accept substitutes they would have rejected had the discernment been present to notice the difference.`,  // [FREE · Elemental Nature card]
@@ -1267,13 +1134,6 @@ Most exchanges happen at a shallower level than where you operate. This produces
         text: { default: `How often you're lonely in this specific way: surrounded by capable, intelligent people and still operating in a depth no one in the room is quite reaching. Not because the people are insufficient. Because the depth is structural — it was always going to be this particular width and this particular distance down, regardless of who was in the room.` },
       },
     ],
-    psych: {
-      bigFive: `High Openness/Intellect · lower Extraversion Enthusiasm · High Industriousness · variable Neuroticism — competence and autonomy needs extremely high`,
-      jungian: `Introverted Thinking (Ti) at vast scale + Introverted Intuition (Ni) — processes comprehensively, holding multiple frameworks simultaneously, generating systemic insight`,
-      attachment: `Dismissive-avoidant — the depth that perceives everything can produce emotional distance; holding more internally than gets shown is constitutional, not a choice`,
-      shadow: `Emotional Scale — thinks in "waves"; massive ambition but lack of natural limits tends to flood rooms or disappear entirely into the deep; the translation gap between depth and surface is persistent`,
-    },
-    archetypes: ["INTP / INTJ (MBTI)", "The Sage (Brand)", "The Wise Old Man / Self (Jungian)", "Type 5 / Type 7 (Enneagram)", "Scorpio / Aquarius (Western)", "Reflector / Projector (HD)", "The Threshold Guardian (Campbell)"],
     manual: {
       concentrated: `Everything flows at once — career mobility, intellectual expansion, ambition, opportunity. High energy. But excess 壬 without structure disperses: the intelligence ranges without landing, the ambition floods available structure, the movement goes in too many directions simultaneously. Classical texts warn 壬水泛滥 (Yang Water flooding) — when the Ocean overflows its banks, it doesn't irrigate the field; it destroys the crop. The environment becomes intellectually stimulating but practically unproductive. Too many currents pull in too many directions and nothing actually advances.`,  // [FREE · Elemental Nature card]
       open: `Systemic intelligence and movement are reduced. Career positions that should be mobile become fixed. Intellectual curiosity narrows. The depth of understanding that comes from holding many frameworks simultaneously — the quality of perceiving the whole system at once — is less accessible. Decisions get made with less information than is available because the capacity to perceive depth is not fully engaged. Life becomes more local, more predictable, and more limited in range than the chart's actual capacity warrants.`,  // [FREE · Elemental Nature card]
@@ -1382,13 +1242,6 @@ There's also a pattern of caring for others at the level you wish you were cared
         text: { default: `That you absorb far more than you show — and that the accumulation is real and has weight. Over time, in environments that don't return what's given, this becomes something between exhaustion and a kind of grief: the specific sadness of giving something real that doesn't arrive back at the same depth.` },
       },
     ],
-    psych: {
-      bigFive: `High Neuroticism/Withdrawal (perceptual, not anxious) · High Agreeableness/Compassion · lower Extraversion — Aron's Highly Sensitive Person (HSP) framework is the most precise analog`,
-      jungian: `Introverted Intuition (Ni) + Introverted Feeling (Fi) — perceives at depth and cares specifically; the intuition is immediate and uncanny, the care goes where most needed`,
-      attachment: `Anxious-preoccupied — permeability means proximity to others is not emotionally neutral; absorbs the emotional state of those around it as a structural fact`,
-      shadow: `Psychic Permeability — absorbs the moods of everyone around them; feels lost in their own fog; the most intuitive stem and the most at risk of losing themselves in what they perceive`,
-    },
-    archetypes: ["INFJ / INFP (MBTI)", "The Innocent / Mystic (Brand)", "The Anima / Sibyl (Jungian)", "Type 2 / Type 4 (Enneagram)", "Pisces / Cancer (Western)", "Reflector (HD)", "The Shape-Shifter (Campbell)"],
     manual: {
       concentrated: `Everything is perceived, everything is felt, everything is known at a level that exceeds what can be processed. The environment or person absorbs more than it can hold without losing its own shape. Classical texts describe 癸水多则迷 (excess 癸 Water creates confusion) — when the Rain becomes a flood of perception, the person can no longer distinguish their own knowing from what they have absorbed from others. Emotional and perceptual exhaustion. The intuition that was extraordinarily accurate becomes overwhelming noise, and the sensitivity that was a gift becomes genuinely difficult to live inside.`,  // [FREE · Elemental Nature card]
       open: `Perceptual intelligence that reads what is actually true in a room — beneath the surface of what people are saying — becomes harder to access. Things are taken at face value. Hidden information doesn't surface. The body's signals are missed. The slow-penetrating quality that reveals what careful reflection produces — the "soaks through to the real layer" quality — is reduced. What is ending doesn't get recognized as ending until it has already ended. Intuitive accuracy is replaced by logical analysis, which is slower and misses the layer below.`,  // [FREE · Elemental Nature card]
@@ -1444,10 +1297,6 @@ export const TG_CARD_DATA = {
     // The Twin — Same nature, same register
     name: "The Twin",  // [INTERNAL · display label]
     sub: "Same nature, same register",  // [INTERNAL · display label]
-    epithet: `The Mirror-Twin · Keeper of the Inner Standard`,  // [INTERNAL · reveal moment label]
-    councilRole: `The Internal Compass`,  // [INTERNAL · council function]
-    prop: `The Bronze Mirror of Sincerity`,  // [INTERNAL · illustration prop]
-    councilVoice: `We don't need their approval. We already know who we are.`,  // [INTERNAL · character voice]
     rulingRealm: {
       phrase: `Inner Validation — the ego's private standard`,  // [FREE]
       desc: `The part of a person that measures everything against their own internal benchmark before anything else. Not comparison with others — comparison with the self. Self-sufficiency is not a strategy here; it is the default operating mode.`,  // [FREE]
@@ -1496,18 +1345,12 @@ export const TG_CARD_DATA = {
         text: `Tends not to recognize depletion because the self-monitoring system is calibrated to output. Runs on conviction past the point where the body signals readiness to stop. Rest has to be decided, not felt.`,
       },
     },
-    sixRelations: `比肩 classically represents siblings and same-status peers — people who share your nature and move in your territory. In the broader life: close friends who genuinely get it without explanation, the rare equals who don't defer. In less healthy expressions: the peers whose similarity makes them competitors for the same recognition.`,  // [PRO]
-    liunianSignatures: `A 比肩 year or period brings increased peer competition, resource contention with those most similar, and pressure on the established identity. For charts that benefit: confidence, clarity of self, decisive independent action. For charts where 比肩 is resistance: conflict with equals, loss through competition, an identity challenge that forces honest self-examination.`,  // [PRO]
   },
 
   "劫财": {
     // The Rival — Same nature, different register
     name: "The Rival",  // [INTERNAL · display label]
     sub: "Same nature, different register",  // [INTERNAL · display label]
-    epithet: `The Silver Rival · Edge of the Comparison`,  // [INTERNAL · reveal moment label]
-    councilRole: `The Social Engine`,  // [INTERNAL · council function]
-    prop: `The Hook of Comparison`,  // [INTERNAL · illustration prop]
-    councilVoice: `Look at what they have. Now take it.`,  // [INTERNAL · character voice]
     rulingRealm: {
       phrase: `Social Performance — the ego measured against its nearest competition`,  // [FREE]
       desc: `The part of a person that measures itself against others occupying the same territory. Not the internal standard of 比肩 but the comparative ego — what am I relative to the people most like me? The reference point is always lateral.`,  // [FREE]
@@ -1556,18 +1399,12 @@ export const TG_CARD_DATA = {
         text: `Competitive orientation produces overperformance relative to the body's actual capacity — pushing past physical limits to match or exceed a rival. The self-monitoring calibrates to the external reference rather than internal signals.`,
       },
     },
-    sixRelations: `劫财 classically represents brothers and sisters of a different nature, rivals, and those who share resources. In modern life: business partners who become competitors, colleagues in the same domain, the sibling whose achievements are the reference point.`,  // [PRO]
-    liunianSignatures: `A 劫财 year or period intensifies competition from peers, brings resource loss risks through rivalry, and activates the comparative drive. For charts that benefit: the competition produces genuine performance — this can be a defining year. For charts where 劫财 is resistance: betrayal by those most similar, loss of shared resources.`,  // [PRO]
   },
 
   "食神": {
     // The Artisan — Same-polarity output — giving that feels like being
     name: "The Artisan",  // [INTERNAL · display label]
     sub: "Same-polarity output — giving that feels like being",  // [INTERNAL · display label]
-    epithet: `The Celestial Muse · Bearer of the Jade Ladle`,  // [INTERNAL · reveal moment label]
-    councilRole: `The Creative Flow`,  // [INTERNAL · council function]
-    prop: `The Jade Ladle of Abundance`,  // [INTERNAL · illustration prop]
-    councilVoice: `Relax. The inspiration comes when the tea is ready.`,  // [INTERNAL · character voice]
     rulingRealm: {
       phrase: `Authentic Expression — output that happens before strategy`,  // [FREE]
       desc: `食神吐秀 (the Food God expresses elegance): refined Qi moving outward without announcement. What flows out when the self is fully itself — not the assertion of 伤官, not the pressure of 七杀, just the natural emergence of what the DM generates when nothing is in the way.`,  // [FREE]
@@ -1616,18 +1453,12 @@ export const TG_CARD_DATA = {
         text: `食神过旺 produces genuine physical depletion that arrives without warning because the cost was invisible at every intermediate stage. Restoration requires genuine rest, not just reduced output.`,
       },
     },
-    sixRelations: `食神 classically represents children (especially for female DMs) and the people who receive the natural output. In modern life: mentees nourished without effort, creative collaborators who receive what flows naturally. Also: the physical pleasures of life — food, art, rest, anything that produces without asserting.`,  // [PRO]
-    liunianSignatures: `A 食神 year or period brings creative flourishing, ease, genuine pleasure, and opportunities for authentic expression. For aligned charts: a genuinely good period — one of the few kinds of years where things feel right. For excess 食神: over-extension, depletion, difficulty stopping.`,  // [PRO]
   },
 
   "伤官": {
     // The Virtuoso — Cross-polarity output — brilliance made of what it meets
     name: "The Virtuoso",  // [INTERNAL · display label]
     sub: "Cross-polarity output — brilliance made of what it meets",  // [INTERNAL · display label]
-    epithet: `The Rebel Edge · Wielder of the Thunder-String`,  // [INTERNAL · reveal moment label]
-    councilRole: `The Disruptive Genius`,  // [INTERNAL · council function]
-    prop: `The Thunder-String Pipa`,  // [INTERNAL · illustration prop]
-    councilVoice: `The rules are for people who aren't as smart as us.`,  // [INTERNAL · character voice]
     rulingRealm: {
       phrase: `Rebellion Logic — output that structurally exceeds its container`,  // [FREE]
       desc: `伤官者，聪明秀气太过: "Hurting Officer people are excessively brilliant and refined." The excess is structural, not attitudinal — the intelligence genuinely exceeds the frameworks available to receive it, so it pushes against them as a side effect of expressing itself.`,  // [FREE]
@@ -1676,18 +1507,12 @@ export const TG_CARD_DATA = {
         text: `When the output has nowhere to land, the friction turns inward. The body bears the cost of sustained structural tension between what is produced and what the environment can receive.`,
       },
     },
-    sixRelations: `伤官 classically represents children with challenging or expressive natures, creative collaborators who push the work further through friction, and the authority figures who constitute the structural resistance. Also: the person whose work the institution can't quite fit into existing categories.`,  // [PRO]
-    liunianSignatures: `A 伤官 year or period brings creative breakthroughs, authority conflicts, and moments of genuine originality. For aligned charts: a significant output year — the defining work of a period often emerges during 伤官 activations. For charts where it creates friction: things said publicly that can't be unsaid.`,  // [PRO]
   },
 
   "偏财": {
     // The Horizon — Same-polarity wealth — wide-ranging engagement
     name: "The Horizon",  // [INTERNAL · display label]
     sub: "Same-polarity wealth — wide-ranging engagement",  // [INTERNAL · display label]
-    epithet: `The Wind-Chaser · Bearer of the Star-Map`,  // [INTERNAL · reveal moment label]
-    councilRole: `The Visionary`,  // [INTERNAL · council function]
-    prop: `The Wind-Chasing Banner`,  // [INTERNAL · illustration prop]
-    councilVoice: `Why count grains of rice when we could own the field?`,  // [INTERNAL · character voice]
     rulingRealm: {
       phrase: `Risk/Opportunistic Vision — seeing potential before others recognize it`,  // [FREE]
       desc: `The part of a person that sees potential in everything and moves toward it broadly. Not the focused accumulation of 正财 but the ranging appetite that touches many things and activates what others walked past.`,  // [FREE]
@@ -1738,18 +1563,12 @@ export const TG_CARD_DATA = {
         text: `Involvement in so many things makes genuine rest genuinely rare. The body's signals for slowing down tend to be treated as opportunities for new engagement. Classically relates to the father and paternal lineage in health pattern transmission.`,
       },
     },
-    sixRelations: `偏财 classically represents the father (for male DMs), indirect wealth sources, and casual romantic relationships. In modern life: the broader social field — many people are activated by the 偏财 person's presence, fewer are deeply held. Also: business contacts who bring opportunity without lasting partnership.`,  // [PRO]
-    liunianSignatures: `A 偏财 year or period brings unexpected financial opportunities, father-related events, expanded social networks, and activation of the opportunity field. For aligned charts: genuine windfalls, new income streams. For charts where 偏财 is friction: scattered resources, father health issues, overcommitment.`,  // [PRO]
   },
 
   "正财": {
     // The Steward — Cross-polarity wealth — methodical, directed acquisition
     name: "The Steward",  // [INTERNAL · display label]
     sub: "Cross-polarity wealth — methodical, directed acquisition",  // [INTERNAL · display label]
-    epithet: `The Golden Steward · Keeper of the Infinite Abacus`,  // [INTERNAL · reveal moment label]
-    councilRole: `The Pragmatist`,  // [INTERNAL · council function]
-    prop: `The Infinite Abacus`,  // [INTERNAL · illustration prop]
-    councilVoice: `Hard work is the only math that never lies.`,  // [INTERNAL · character voice]
     rulingRealm: {
       phrase: `Wealth/Security Anxiety — the standard applied to what is held`,  // [FREE]
       desc: `The part of a person that evaluates what it has built and whether it is worthy of the standard applied in building it. Not greed — a specific relationship to security in which the evaluating apparatus that produced the quality also asks whether the quality is sufficient.`,  // [FREE]
@@ -1800,18 +1619,12 @@ export const TG_CARD_DATA = {
         text: `Tends to apply the same disciplined control to the body as to external resources. Excess 正财 produces bodily rigidity — the body is managed rather than listened to.`,
       },
     },
-    sixRelations: `正财 classically represents the spouse (for male DMs) and the primary committed relationship. Also: direct income sources, reliable employers and providers, the institutions that pay fairly for demonstrated work.`,  // [PRO]
-    liunianSignatures: `A 正财 year or period brings financial consolidation, committed relationship events (marriage, formal partnership), and opportunities to harvest what was methodically built. For aligned charts: genuine stability and tangible reward. For charts where 正财 creates friction: over-control of resources, relationship strain from applying the evaluating standard too strictly.`,  // [PRO]
   },
 
   "七杀": {
     // The General — Same-polarity authority — pressure that doesn't grant permission
     name: "The General",  // [INTERNAL · display label]
     sub: "Same-polarity authority — pressure that doesn't grant permission",  // [INTERNAL · display label]
-    epithet: `The Scourged General · Wielder of the Seven-Star Halberd`,  // [INTERNAL · reveal moment label]
-    councilRole: `The Protector`,  // [INTERNAL · council function]
-    prop: `The Seven-Star Halberd`,  // [INTERNAL · illustration prop]
-    councilVoice: `The pressure isn't here to break you. It's here to forge the blade.`,  // [INTERNAL · character voice]
     rulingRealm: {
       phrase: `Survival Instinct / Trauma / Resilience — forged, not developed`,  // [FREE]
       desc: `七杀制伏得宜，反为权贵: "When Seven Killings are properly channeled, they produce genuine authority." The force that presses against the DM without moderation, without asking whether it is ready. What gets produced — when resources are adequate — is character that could only have come from that specific pressure.`,  // [FREE]
@@ -1862,18 +1675,12 @@ export const TG_CARD_DATA = {
         text: `The body bears the cost of sustained adversarial operation. Even when external pressure subsides, the internal system calibrated for it doesn't easily downregulate.`,
       },
     },
-    sixRelations: `七杀 classically for female DMs represents husband and romantic partners. More broadly: bosses who don't grant permission, adversaries, challenging authority figures who test without validating, the people who shaped you through pressure rather than warmth.`,  // [PRO]
-    liunianSignatures: `A 七杀 year or period brings adversarial pressure, significant challenges, potential crises — and, when resources are adequate, genuine breakthroughs and real authority. For aligned charts with adequate resources: the forge produces something remarkable. For depleted charts: breakdown, burnout, forced confrontations that leave lasting damage.`,  // [PRO]
   },
 
   "正官": {
     // The Magistrate — Cross-polarity authority — framework-mediated pressure
     name: "The Magistrate",  // [INTERNAL · display label]
     sub: "Cross-polarity authority — framework-mediated pressure",  // [INTERNAL · display label]
-    epithet: `The Iron Arbiter · Holder of the Seal of Mandate`,  // [INTERNAL · reveal moment label]
-    councilRole: `The Conscience`,  // [INTERNAL · council function]
-    prop: `The Seal of Mandate`,  // [INTERNAL · illustration prop]
-    councilVoice: `What will the world think of us if we fail our duty?`,  // [INTERNAL · character voice]
     rulingRealm: {
       phrase: `Social Armor / Good Student Complex — character shaped by chosen structure`,  // [FREE]
       desc: `正官端正，主人沉稳，名声好，规则意识强: "Direct Officer upright — the person is calm and settled, with good reputation and strong rule-consciousness." The part of a person that operates within frameworks it has chosen to endorse — not because it has to, but because it has decided the framework is legitimate.`,  // [FREE]
@@ -1924,18 +1731,12 @@ export const TG_CARD_DATA = {
         text: `Follows established health frameworks — respected medical guidance, conventional approaches. The shadow: difficulty trusting signals that fall outside the endorsed framework.`,
       },
     },
-    sixRelations: `正官 classically for female DMs represents the legitimate husband and primary partnership. More broadly: official mentors, respected authorities who grant genuine recognition, institutional endorsers. The teachers who noticed you. The managers who advocated for you within the system.`,  // [PRO]
-    liunianSignatures: `A 正官 year or period brings recognition from institutions, career appointments, public reputation events, marriage or formal partnership opportunities. For aligned charts: a period of genuine advancement within chosen frameworks. For charts where 正官 is unfavorable: over-regulation, the framework becoming a constraint.`,  // [PRO]
   },
 
   "偏印": {
     // The Alchemist — Same-polarity resource — nourishment that deepens without redirecting
     name: "The Alchemist",  // [INTERNAL · display label]
     sub: "Same-polarity resource — nourishment that deepens without redirecting",  // [INTERNAL · display label]
-    epithet: `The Moonlit Alchemist · Keeper of the Flask of Transmutation`,  // [INTERNAL · reveal moment label]
-    councilRole: `The Intuition`,  // [INTERNAL · council function]
-    prop: `The Flask of Transmutation`,  // [INTERNAL · illustration prop]
-    councilVoice: `The truth is hidden in the dark. Don't be afraid to go there alone.`,  // [INTERNAL · character voice]
     rulingRealm: {
       phrase: `Niche/Occult Intelligence — depth in what others don't access`,  // [FREE]
       desc: `滋生有源 (nourishment with a continuous source). The part of a person that draws from a deep, unconventional source that others don't have access to or even know exists. The backing that sustains and deepens without redirecting.`,  // [FREE]
@@ -1984,18 +1785,12 @@ export const TG_CARD_DATA = {
         text: `偏印 produces deep restoration specifically when the DM's element is replenished through its own nature. The health pattern: extremely effective specific recovery practices that aren't easily transferred or replaced.`,
       },
     },
-    sixRelations: `偏印 classically represents step-parent or unconventional mentor; older figures who provide support without conventional relationship structure. In modern life: alternative teachers, mentors from unusual traditions, esoteric knowledge communities.`,  // [PRO]
-    liunianSignatures: `A 偏印 year or period brings deep learning, withdrawal from mainstream activity, sustained engagement with unconventional knowledge, and strong support from unusual sources. For aligned charts: a genuinely nourishing and deepening period. For charts where 偏印 creates friction: over-reliance on past patterns, blocked output.`,  // [PRO]
   },
 
   "正印": {
     // The Sage — Cross-polarity resource — nourishment that sustains and opens
     name: "The Sage",  // [INTERNAL · display label]
     sub: "Cross-polarity resource — nourishment that sustains and opens",  // [INTERNAL · display label]
-    epithet: `The Grand Sage · Bearer of the Brush of Life`,  // [INTERNAL · reveal moment label]
-    councilRole: `The Nurturer`,  // [INTERNAL · council function]
-    prop: `The Brush of Life`,  // [INTERNAL · illustration prop]
-    councilVoice: `Rest now. The ancestors have already paved the road for you.`,  // [INTERNAL · character voice]
     rulingRealm: {
       phrase: `Support System / Mother Wound — backed and pointed`,  // [FREE]
       desc: `Bowlby's secure base in its most developmental form: the base that enables exploration by providing both support and direction simultaneously. The part of a person shaped by backing that came with a destination — not just sustained, but sustained AND pointed toward something.`,  // [FREE]
@@ -2044,122 +1839,10 @@ export const TG_CARD_DATA = {
         text: `The health approach tends to follow the mentors and support structures that formed the person. Classically related to the mother and maternal lineage in health pattern transmission.`,
       },
     },
-    sixRelations: `正印 classically represents mother and maternal figures, formal mentors, and legitimate institutional backers. More broadly: the teachers who believed in you AND told you where to go with it; the institutions that accepted you and shaped your direction.`,  // [PRO]
-    liunianSignatures: `A 正印 year or period brings mentorship opportunities, institutional recognition, educational advancement, and periods of genuine backing. Also: mother-related events, significant shifts in the primary support structure. For aligned charts: a period of genuine development within supported, directional growth. For charts where 正印 creates friction: direction given with the backing becoming a constraint.`,  // [PRO]
   },
 
 };
 
-
-// ═══════════════════════════════════════════════════════════════════════════
-// CLASSICAL_STEM_ANCHORS
-// Classical source principles for all 10 Day Master stems.
-// Source: 穷通宝鉴, 三命通会, 子平真诠, 滴天髓 — see REA_02 §2 for derivations.
-//
-// Usage: Inject into buildPersonaPrompt() and buildReadingPrompt() in
-//   batchGenerate.js. Extends and replaces the partial STEM_CLASSICAL
-//   constant in that file (庚, 辛, 甲, 戊, 壬 are already there; 乙, 丙, 丁,
-//   己, 癸 are new).
-//
-// Hard ceiling per REA_02: max 3 behavioral claims per stem-specific entry.
-//   Each 'derivation' field should yield no more than 3 reading claims.
-// ═══════════════════════════════════════════════════════════════════════════
-
-// [INTERNAL · verification only — never served to users]
-// [INTERNAL · verification only — never served to users]
-export const CLASSICAL_STEM_ANCHORS = {
-
-  // ── Yang Wood ────────────────────────────────────────────────────────────
-  "甲": {
-    principle:   "甲木喜庚金克制，方能成材",
-    translation: "Yang Wood welcomes the shaping force of 庚 Metal — then it becomes timber with form and purpose.",
-    source:      "穷通宝鉴 / 三命通会 十干体象",
-    derivation:  "原木 (raw growth) vs. 成材 (timber with defined form). The shaping force does not stop the growth — it defines what the growth consolidates into. Without it, 甲 growth spreads rather than holds: genuine reach without the force that converts reaching into something with form. The twoAM: 'I have been growing toward something real for a long time. I haven't yet found the force that defines what it becomes.'",
-    ceiling:     3,
-  },
-
-  // ── Yin Wood ─────────────────────────────────────────────────────────────
-  "乙": {
-    principle:   "乙木至柔，逢难则屈，遇机则伸",
-    translation: "乙 Wood is supremely yielding — it bends under difficulty and extends when opportunity opens.",
-    source:      "三命通会 十干体象",
-    derivation:  "The flexibility is strategic, not passive. 乙 always knows the destination; it is the route that adapts. The classical image: the vine that reaches every gap the oak cannot reach — neither less capable nor less directional, but operating by a different mechanism entirely. Shadow: the vine that bends to every surface eventually has no fixed position of its own. The navigation that survives everything can lose the sense of what it was navigating toward.",
-    ceiling:     2,
-  },
-
-  // ── Yang Fire ────────────────────────────────────────────────────────────
-  "丙": {
-    principle:   "丙火乃太阳之火，普照万物，无所偏私",
-    translation: "Yang Fire is the fire of the great sun — it illuminates ten thousand things without choosing which ones.",
-    source:      "三命通会 十干体象 / 穷通宝鉴",
-    derivation:  "The warmth is not directed — it is structural. 丙 does not choose what to illuminate; the illumination is what it does. Everything in its field becomes visible, including things people would prefer to leave in the dark. Classical texts note 丙火之明 (the illuminating clarity of Yang Fire): the light reveals rather than evaluates, which is both its gift (no pretense survives it) and its shadow (no privacy survives it either). The twoAM: 'I light up every room I'm in. I don't know why that isn't enough for anyone to stay.'",
-    ceiling:     3,
-  },
-
-  // ── Yin Fire ─────────────────────────────────────────────────────────────
-  "丁": {
-    principle:   "丁火柔中，内性昭融",
-    translation: "Yin Fire is gentle on the surface — its inner nature bright and complete, lighting whatever it is turned toward all the way to the floor.",
-    source:      "三命通会 十干体象",
-    derivation:  "The candle, not the blaze: 丁 illuminates completely what it is pointed at, and almost nothing outside that beam. The focus is total; the cost is everyone and everything left in the dark while it burns. The twoAM: 'When I turn toward you, you are the only thing in the world. I never notice who I left in the dark to do it.'",
-    ceiling:     3,
-  },
-
-  // ── Yang Earth ───────────────────────────────────────────────────────────
-  "戊": {
-    principle:   "戊土固重，既中且正",
-    translation: "Yang Earth is solid and weighted — centered and upright, the ground others build on without asking what holds it up.",
-    source:      "三命通会 十干体象",
-    derivation:  "The mountain receives without moving: people orient by 戊 and stand on it, rarely naming the source. The density that makes it unshakeable makes it slow to move — and the weight it carries but never shows keeps accumulating where no one thinks to look. The twoAM: 'Everyone leans on me. No one has ever once asked what I lean on.'",
-    ceiling:     3,
-  },
-
-  // ── Yin Earth ────────────────────────────────────────────────────────────
-  "己": {
-    principle:   "己土卑湿，中正蓄藏",
-    translation: "Yin Earth lies low and moist — centered, storing, growing things within itself without claiming what it grows.",
-    source:      "三命通会 十干体象",
-    derivation:  "Fertile, absorbing, patient: 己 creates the conditions for growth in others and announces none of it. Soil this active absorbs as readily as it feeds — it takes on everyone's difficulty along with their potential, and the deficit accumulates unseen. The twoAM: 'I make everything around me grow. I cannot remember the last time anything grew in me.'",
-    ceiling:     3,
-  },
-
-  // ── Yang Metal ───────────────────────────────────────────────────────────
-  "庚": {
-    principle:   "庚金带煞，刚健为最",
-    translation: "Yang Metal carries the austere cutting force — supremely firm, the 肃杀 edge of autumn that clarifies by force.",
-    source:      "三命通会 十干体象 / 穷通宝鉴",
-    derivation:  "The blade cuts, defines, restructures: the assessment runs before social or emotional processing begins. What clarifies can also wound — precision arrives before warmth does, and people lean on the edge and rarely find what is behind it. The twoAM: 'I see what is real before anyone else in the room. I am usually the most alone person in it.'",
-    ceiling:     3,
-  },
-
-  // ── Yin Metal ────────────────────────────────────────────────────────────
-  "辛": {
-    principle:   "辛金软弱，温润而清",
-    translation: "Yin Metal is yielding and clear — warm, polished, the refined surface that registers a flaw before the eye has found it.",
-    source:      "三命通会 十干体象",
-    derivation:  "Precision over power: 辛 registers quality the way others register temperature, before the question is asked. The bar sits just above wherever reality has arrived, so the world reads as a near-continuous catalog of what falls short — the self included. The twoAM: 'I can feel the flaw in everything before I can say why. I have never been able to turn it off.'",
-    ceiling:     3,
-  },
-
-  // ── Yang Water ───────────────────────────────────────────────────────────
-  "壬": {
-    principle:   "壬水通河，能泄金气",
-    translation: "Yang Water runs to the open sea — vast and accumulating, draining even Metal's force, carrying more beneath the surface than it ever shows.",
-    source:      "三命通会 十干体象 / 穷通宝鉴",
-    derivation:  "Systemic depth: 壬 holds more beneath the surface than it shows, and the intelligence is structural rather than accumulated. Water this high without banks disperses — the thinking ranges so wide it stops landing anywhere usable, and the distance between what it perceives and what it can convey becomes its own isolation. The twoAM: 'I see the whole system at once. I have never found the words that bring anyone down to where I am standing.'",
-    ceiling:     3,
-  },
-
-  // ── Yin Water ────────────────────────────────────────────────────────────
-  "癸": {
-    principle:   "癸水至弱，达于天津",
-    translation: "Yin Water is the most yielding — condensed and clarifying, the dew that reaches everywhere and distils abundance into the essential.",
-    source:      "三命通会 十干体象",
-    derivation:  "Attunement is the default: 癸 senses what is true before it is spoken and nourishes without announcing it. Water this permeable floods — it takes in more than it can hold without losing its own shape, until it can no longer tell its own knowing from what it absorbed from the room. The twoAM: 'I feel what everyone around me feels. I cannot always tell which feelings began as mine.'",
-    ceiling:     3,
-  },
-
-};
 
 // ── Archetype variant data (stem_band_tgPattern keys) lives in STEM_CARD_DATA.js ──
 // See Code/STEM_CARD_DATA.js — 150 entries keyed by stem_band_tgPattern.
