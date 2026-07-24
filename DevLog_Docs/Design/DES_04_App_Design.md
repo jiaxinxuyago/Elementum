@@ -3142,8 +3142,8 @@ All five fields are now authored in `archetypeSource.js → TG_CARD_DATA[tg]`.
 ## §AMENDMENT — v3 IA Reframe + v3 Amendment Polish Patches
 
 This section consolidates the doc-patch obligations surfaced by:
-- `Design/legend-screens-amendment.html` §A7 drift log (DA.1 – DA.10)
-- `Design/legend-screens.html` §14 drift log (D14.1 – D14.6)
+- `Design/assets/Legends/legend-screens-amendment.html` §A7 drift log (DA.1 – DA.10)
+- `Design/assets/Legends/legend-screens.html` §14 drift log (D14.1 – D14.6)
 
 Each row supersedes the originally-cited section. When the original section disagrees with this amendment, this amendment wins.
 
@@ -3258,10 +3258,10 @@ Italic was reserved for **two contexts only** (v2, now revoked):
 **Rationale.** Italic was overused — under v1 §3.5.E it covered five contexts and was bleeding into long-form reading copy at 12.5px, blurring the distinction between "voice" and "default body." Restricting italic to sub-headline (display) and microcopy (chip-scale only) preserves italic as a *deliberate* tonal cue rather than ambient texture.
 
 **Cascade.** Updating this rule cascades to:
-- `Design/legend-primitives.html` §8 — already updated (canonical source of v2 rule)
-- `Design/legend-patterns.html` §8 — patch needed (italic gallery shows old 5-context table)
-- `Design/legend-screens-amendment.html` — patch needed (descriptive paragraphs in §A1 / §A4 / §A5 / §A6, daily card title)
-- `Design/legend-screens.html` — patch deferred to v4 (covered in v4 polish brief)
+- `Design/assets/Legends/legend-primitives.html` §8 — already updated (canonical source of v2 rule)
+- `Design/assets/Legends/legend-patterns.html` §8 — patch needed (italic gallery shows old 5-context table)
+- `Design/assets/Legends/legend-screens-amendment.html` — patch needed (descriptive paragraphs in §A1 / §A4 / §A5 / §A6, daily card title)
+- `Design/assets/Legends/legend-screens.html` — patch deferred to v4 (covered in v4 polish brief)
 - `Elementum_App/src/components/shared/EnergyBlueprint.jsx` — patch needed (BlueprintRow `.name` italic, empty-state message italic)
 - `Elementum_App/src/components/shared/IdentityRibbon.jsx` — patch needed (element-name italic, saturation reading paragraph italic)
 - DES_04 §3.5.E — annotated as superseded (this commit)
