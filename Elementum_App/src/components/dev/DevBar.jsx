@@ -57,7 +57,7 @@ const STEM_CYCLE = [
   { key: 'jia',  hanzi: '甲', label: 'Oak'   },
   { key: 'yi',   hanzi: '乙', label: 'Vine'  },
   { key: 'bing', hanzi: '丙', label: 'Sun'   },
-  { key: 'ding', hanzi: '丁', label: 'Ember' },
+  { key: 'ding', hanzi: '丁', label: 'Candle' },
   { key: 'wu',   hanzi: '戊', label: 'Mountain' },
   { key: 'ji',   hanzi: '己', label: 'Field' },
   { key: 'geng', hanzi: '庚', label: 'Blade' },

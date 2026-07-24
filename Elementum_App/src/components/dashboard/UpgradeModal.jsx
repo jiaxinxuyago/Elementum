@@ -28,7 +28,7 @@ import { ELEMENT_TO_PIGMENT } from '../../styles/elementPigments.js';
 // (Group E — keeps that content out of the eager initial bundle; it rides with
 // the lazy reading screens instead).
 const ARCHETYPE_NAMES = {
-  '甲': 'The Oak', '乙': 'The Vine', '丙': 'The Sun', '丁': 'The Ember', '戊': 'The Mountain',
+  '甲': 'The Oak', '乙': 'The Vine', '丙': 'The Sun', '丁': 'The Candle', '戊': 'The Mountain',
   '己': 'The Field', '庚': 'The Blade', '辛': 'The Jewel', '壬': 'The Ocean', '癸': 'The Rain',
 };
 import { Icon } from '../shared/icons';

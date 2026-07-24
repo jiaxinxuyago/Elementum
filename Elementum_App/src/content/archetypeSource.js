@@ -404,14 +404,14 @@ There's also a specific interpersonal cost: people who care about you often feel
     // ═══════════════════════════════════════════════════════════════════
 
     identity: {
-      archetypeName:  `The Ember`,
-      archetypeLabel: `Yin Fire — The Ember`,
+      archetypeName:  `The Candle`,
+      archetypeLabel: `Yin Fire — The Candle`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Intimacy over range · A candle doesn't reach far — it reaches true.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
-        punch:  `The Ember is Yin Fire — the single flame that illuminates one thing completely.`,
+        punch:  `The Candle is Yin Fire — the single flame that illuminates one thing completely.`,
         expand: `Precise and intimate, it gives whatever it attends the rare experience of being fully seen, and leaves all else in shadow.`,
       },
       // manifesto renders as two lines, split on the ` · ` separator:
