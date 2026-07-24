@@ -162,7 +162,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
     setInsOpen((cur) => (cur === k ? null : k));
   }, []);
 
-  // ── effects: ink-in observer + dock merge + fitLastBeat ──────────
+  // ── effects: ink-in observer + dock merge/pill refold ────────────
   useEffect(() => {
     if (!model || screen !== 'catalogue') return undefined;
     const sw = swRef.current; const root = stageRef.current;
