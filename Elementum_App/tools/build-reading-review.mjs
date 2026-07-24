@@ -2,8 +2,8 @@
 // ELEMENTUM · reading-content review + journey replicant generator
 // ===================================================================
 // Reads the *actual* reading-data modules and emits two review artifacts:
-//   1. Documents/Reading/REA_10_Reading_Content_Review.md   (owner review)
-//   2. Documents/Reading/reading-replicant.html     (journey mockup)
+//   1. DevLog_Docs/Reading/REA_10_Reading_Content_Review.md   (owner review)
+//   2. DevLog_Docs/Reading/reading-replicant.html     (journey mockup)
 // Both are GENERATED — never hand-edit them. Edit the source data files
 // (content/reading/facesContent.js, tgNames.js) and re-run:  node tools/build-reading-review.mjs
 //
@@ -23,7 +23,7 @@ import {
 } from '../src/content/reading/facesContent.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const OUT_DIR = resolve(__dirname, '../../Documents/Reading');
+const OUT_DIR = resolve(__dirname, '../../DevLog_Docs/Reading');
 // Live art base, single-sourced from site.config.json — so the replicant shows real portraits when online.
 const ART_BASE = JSON.parse(readFileSync(new URL('../site.config.json', import.meta.url), 'utf8')).liveUrl;
 
@@ -94,7 +94,7 @@ function buildMarkdown() {
   const L = [];
   L.push('# REA_10 — Reading Content — Owner Review');
   L.push('');
-  L.push('> **Formerly DES_11** — moved to the Reading library in the 2026-07-23 design/reading doc separation (registry: Documents/README.md).');
+  L.push('> **Formerly DES_11** — moved to the Reading library in the 2026-07-23 design/reading doc separation (registry: DevLog_Docs/README.md).');
   L.push('> **Generated** by `Elementum_App/tools/build-reading-review.mjs` — do **not** hand-edit.');
   L.push('> Edit the source data (`content/reading/facesContent.js`, `tgNames.js`) and re-run the script.');
   L.push('> Companion visual: [`reading-replicant.html`](reading-replicant.html) (open in a browser).');

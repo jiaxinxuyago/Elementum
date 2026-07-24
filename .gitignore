@@ -16,7 +16,7 @@ Reference/
 .wrangler/
 !.claude/settings.json
 
-Documents/Business/statements/
+DevLog_Docs/Business/statements/
 
 # Generated companion of REA_10 (rerun tools/build-reading-review.mjs to recreate)
-Documents/Reading/reading-replicant.html
+DevLog_Docs/Reading/reading-replicant.html
