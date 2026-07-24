@@ -335,23 +335,9 @@ export const ARCHETYPE_SCHEMA = {
   },
 
   // ─────────────────────────────────────────────────────────────
-  energy: {
-    _meta: { tier: 'mixed', varyBy: ['stem'], section: 'Section 3 · The Edge in Motion (environmental/operational)' },
-    keywords: {
-      type: 'string[]', arrayLen: 5, itemWordCap: 3, tier: 'free', required: true,
-      aliases: ['chips'],
-      note: 'Canonical name: `keywords`. Older entries may use `chips`. Normalize on read.',
-      example: ['Defining', 'Cutting', 'Structural clarity', 'Forced decision', 'Precision force'],
-    },
-    what:       { type: 'string', tier: 'free', required: true,
-                  note: 'Classical description of the stem energy. Used by DM intro + absent-energy card.' },
-    represents: { type: 'string', tier: 'free', required: true,
-                  note: 'What this energy represents when present in the environment.' },
-    liunian:    { type: 'string', tier: 'pro', required: true,
-                  note: 'What happens when this energy enters the luck cycle or annual pillar.' },
-  },
-
-  // ─────────────────────────────────────────────────────────────
+  // (energy block retired 2026-07-24 — never rendered; the keyword row it
+  // aliased lives on as the top-level `chips` field. Reference research on
+  // stem energy lives in the REA library, not in code.)
   manual: {
     _meta: { tier: 'mixed', varyBy: ['stem'], section: 'Elemental Nature · Usage Manual' },
     concentrated: { type: 'string', tier: 'free', required: true,
@@ -473,12 +459,6 @@ export const UI_SURFACES = {
     'dominantEnergy.label',
     'dominantEnergy.teaser',
     'dominantEnergy.characterDesc  [PRO]',
-  ],
-  'Section 3 · The Edge in Motion': [
-    'energy.keywords',
-    'energy.what',
-    'energy.represents',
-    'energy.liunian  [PRO]',
   ],
   'Usage Manual': [
     'manual.concentrated',
