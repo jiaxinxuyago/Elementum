@@ -2,8 +2,8 @@
 // ELEMENTUM · reading-content review + journey replicant generator
 // ===================================================================
 // Reads the *actual* reading-data modules and emits two review artifacts:
-//   1. DevLog_Docs/Reading/REA_10_Reading_Content_Review.md   (owner review)
-//   2. DevLog_Docs/Reading/reading-replicant.html     (journey mockup)
+//   1. Reading/Documents/REA_10_Reading_Content_Review.md   (owner review)
+//   2. Reading/Database/reading-replicant.html     (journey mockup)
 // Both are GENERATED — never hand-edit them. Edit the source data files
 // (content/reading/facesContent.js, tgNames.js) and re-run:  node tools/build-reading-review.mjs
 //
@@ -23,7 +23,8 @@ import {
 } from '../src/content/reading/facesContent.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const OUT_DIR = resolve(__dirname, '../../DevLog_Docs/Reading');
+const DOC_DIR = resolve(__dirname, '../../Reading/Documents');
+const DB_DIR = resolve(__dirname, '../../Reading/Database');
 // Live art base, single-sourced from site.config.json — so the replicant shows real portraits when online.
 const ART_BASE = JSON.parse(readFileSync(new URL('../site.config.json', import.meta.url), 'utf8')).liveUrl;
 
@@ -97,7 +98,7 @@ function buildMarkdown() {
   L.push('> **Formerly DES_11** — moved to the Reading library in the 2026-07-23 design/reading doc separation (registry: DevLog_Docs/README.md).');
   L.push('> **Generated** by `Elementum_App/tools/build-reading-review.mjs` — do **not** hand-edit.');
   L.push('> Edit the source data (`content/reading/facesContent.js`, `tgNames.js`) and re-run the script.');
-  L.push('> Companion visual: [`reading-replicant.html`](reading-replicant.html) (open in a browser).');
+  L.push('> Companion visual: [`reading-replicant.html`](../Database/reading-replicant.html) (open in a browser).');
   L.push('');
   L.push('**Legend** — ✅ persona **reading** (R/X + lede + pull) is verbatim from the deliverable · ✍️ Claude-authored, **needs your review**.');
   L.push('');
@@ -334,9 +335,10 @@ function buildHtml() {
 }
 
 // ============================ EMIT ============================
-mkdirSync(OUT_DIR, { recursive: true });
-const mdPath = resolve(OUT_DIR, 'REA_10_Reading_Content_Review.md');
-const htmlPath = resolve(OUT_DIR, 'reading-replicant.html');
+mkdirSync(DOC_DIR, { recursive: true });
+mkdirSync(DB_DIR, { recursive: true });
+const mdPath = resolve(DOC_DIR, 'REA_10_Reading_Content_Review.md');
+const htmlPath = resolve(DB_DIR, 'reading-replicant.html');
 writeFileSync(mdPath, buildMarkdown(), 'utf8');
 writeFileSync(htmlPath, buildHtml(), 'utf8');
 console.log('✓ wrote', mdPath);
