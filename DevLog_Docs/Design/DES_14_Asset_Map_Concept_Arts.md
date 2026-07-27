@@ -5,7 +5,7 @@
 **Three reference systems govern the look** (attach alongside this map):
 - **Aesthetic language** → `Design/assets/Moodboards/mood-foundation.html` + `atmospheric-depth/` (3-/5-layer depth) + `brush-samples/` (stroke vocabulary).
 - **Card / hero archetypes** (where art is allowed to sit, crop ratios, ink-wash treatment) → `Design/assets/Legends/legend-v6-card-archetypes.html` + `legend-v7-ink-wash.html`.
-- **Marks / primitives** (the SVG element seals, not raster) → `Design/assets/Library/element-marks-e3.html` + `primitives-library.html` + `icons.svg`.
+- **Marks / primitives** (the SVG element seals, not raster) → `Elementum_App/public/Library/element-marks-e3.html` + `Design/assets/Library/primitives-library.html` + `icons.svg`.
 
 > **Pipeline note.** The app only reaches assets that have been **mirrored into `Elementum_App/public/`**. Today that is a *thin* slice (see §5). The Concept Arts source folder is large; this map names the *source* asset so curation/mirroring is a lookup, not a hunt.
 
