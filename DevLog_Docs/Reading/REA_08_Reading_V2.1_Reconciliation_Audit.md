@@ -1,6 +1,6 @@
 # REA_08 — Reading v2.1 — Reconciliation Audit & Decision Log
 
-> **Formerly DES_09** — moved to the Reading library in the 2026-07-23 design/reading doc separation; historical citations of "DES_09" refer to this file (registry: Documents/README.md).
+> **Formerly DES_09** — moved to the Reading library in the 2026-07-23 design/reading doc separation; historical citations of "DES_09" refer to this file (registry: DevLog_Docs/README.md).
 
 **Created 2026-06-24 · status: DECISIONS LOCKED · ✅ DOC REVIEW COMPLETE (all docs reconciled to v2.1, A1–C5 + B5/B6/B7) · ▶ engine/code pass PENDING owner approval.**
 > **⏸ SEQUENCING RULING (owner, 2026-07-23): the engine pass stays parked until the READING JOURNEY is locked.** The new reading catalogue (journey redesign, merged to main 2026-07-23) dictates the full reading experience, and that design will probably profoundly reshape the two-faces reading model recorded here. Do not push the accuracy rewire or author corpus while the reading content design is not set in stone — journey lock first, then revisit v2.1 (possibly amended), then engine + corpus.

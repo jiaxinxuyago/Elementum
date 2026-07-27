@@ -1,6 +1,6 @@
 # INF_01 — Backend Architecture & Pre-Launch Services
 
-> **Formerly DOC10** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC10" refer to this file (registry: Documents/README.md).
+> **Formerly DOC10** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC10" refer to this file (registry: DevLog_Docs/README.md).
 
 ## Accounts · Payments · LLM · Push — a server-free, managed-backend plan
 

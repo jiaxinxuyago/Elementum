@@ -1,6 +1,6 @@
 # DEV_02 — Code Architecture & Migration Guide
 
-> **Formerly DOC8** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC8" refer to this file (registry: Documents/README.md).
+> **Formerly DOC8** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC8" refer to this file (registry: DevLog_Docs/README.md).
 ## Single-file artifact → Vite + React production project
 
 **Version:** 3.2 · April 2026
@@ -31,7 +31,7 @@ Elementum_Project/
 │   │   ├── archetypeSource.js           ← SINGLE SOURCE OF TRUTH. Hand-authored.
 │   │   │                                   10 stem entries + 10 TG entries +
 │   │   │                                   internal constants for generation.
-│   │   ├── STEM_CARD_DATA.js            ← 150 variant entries (stem_band_tgPattern).
+│   │   ├── stemVariants.js              ← 150 variant entries (stem_band_tgPattern).
 │   │   │                                   Phase 1: 15 庚 entries authored.
 │   │   │                                   Remaining 135: batchGenerate.js output.
 │   │   └── [DomEnergyTg_Data.js]        ← 50 compound archetype cards (TBD, Pipeline A2).
@@ -54,10 +54,8 @@ Elementum_Project/
 │
 ├── Design/                              ← Phase 1/2A design source (tokens, flow JSX, ink PNGs).
 │
-├── Documents/ (Design · Development · Infrastructure · Business · Legal_Admin · Project_Management)
-│   ├── DEV_01 … DEV_02
-│   ├── DOC_HANDOFF_ClaudeCode.md
-│   └── ClaudeCode_Prompt_Phase1.md
+├── DevLog_Docs/ (Design · Development · Infrastructure · Business · Legal_Admin · Project_Management)
+│   └── DEV_01 … DEV_02
 │
 └── .claude/launch.json                  ← Preview server config (points at Elementum_App).
 ```
@@ -76,8 +74,8 @@ Elementum_Project/
 |---|---|---|
 | `Elementum_App/src/content/archetypeSource.js` | `Reading/elementum_profile_database.html` | Every field change must be applied to both. |
 | `Elementum_App/src/content/archetypeSource.js` | `archive/legacy-monolith/Elementum_Engine.jsx` inlined `STEM_CARD_DATA` (lines 4–979) and `TG_CARD_DATA` (lines 980–1558) | When a field is authored in archetypeSource.js, sync to the engine's inlined copy **only if** you intend to open the engine in legacy browser-preview mode. The live Vite app reads from the content file directly and does not require engine sync. |
-| `Elementum_App/src/content/STEM_CARD_DATA.js` | `archive/legacy-monolith/Elementum_Engine.jsx` inlined variant entries | Same conditional — sync only for legacy preview; Vite app is already authoritative. |
-| `Elementum_App/tools/batchGenerate.js` | `Elementum_App/src/content/STEM_CARD_DATA.js`, `DomEnergyTg_Data.js` | Do not hand-edit generated entries — re-run the pipeline. The script reads the content files from the app folder. |
+| `Elementum_App/src/content/stemVariants.js` | `archive/legacy-monolith/Elementum_Engine.jsx` inlined variant entries | Same conditional — sync only for legacy preview; Vite app is already authoritative. |
+| `Elementum_App/tools/batchGenerate.js` | `Elementum_App/src/content/stemVariants.js`, `DomEnergyTg_Data.js` | Do not hand-edit generated entries — re-run the pipeline. The script reads the content files from the app folder. |
 
 **Key rule:** `archetypeSource.js` defines all field names. Any new field must be named there first (in `Elementum_App/src/content/archetypeSource.js`). All downstream files follow. Never rename a field in a downstream file independently.
 

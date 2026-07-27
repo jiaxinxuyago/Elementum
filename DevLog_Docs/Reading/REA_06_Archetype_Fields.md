@@ -1,6 +1,6 @@
 # REA_06 · Archetype Fields (Design Companion)
 
-> **Formerly DES_07** (moved to the Reading library in the 2026-07-23 design/reading doc separation) **and before that DOC9** (2026-07-09 reorganization). Historical citations of "DES_07" or "DOC9" refer to this file (registry: Documents/README.md).
+> **Formerly DES_07** (moved to the Reading library in the 2026-07-23 design/reading doc separation) **and before that DOC9** (2026-07-09 reorganization). Historical citations of "DES_07" or "DOC9" refer to this file (registry: DevLog_Docs/README.md).
 
 > **What this is.** A designer-facing companion to [`archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js). When you're scoping a new screen, block, card, or infographic — this tells you *which fields are available* for that surface, *what the copy cap is*, and *what assets feed it*. Grouped by UI surface, not by data shape.
 >
@@ -72,7 +72,7 @@ Every field in the schema declares a `varyBy` tag that tells the generation pipe
 | `element×5` | 5 | Element-level (yang/yin share) |
 | `element·tg×50` | 50 | Compound archetype (`DomEnergyTg_Data.js`, planned) |
 | `band·tgPattern×15` | 15 | Variant signature inside one stem (used in `blocks[].text` key namespace) |
-| `stem·band·tgPattern×150` | 150 | Full variant surface (`STEM_CARD_DATA.js` — 庚 complete, others TODO) |
+| `stem·band·tgPattern×150` | 150 | Full variant surface (`stemVariants.js` — 庚 complete, others TODO) |
 | `stem·lifeDomain×40` | 40 | Per-stem × per-domain (e.g. `liunianSignatures.*` when authored at this grain) |
 | `tg·lifeDomain×40` | 40 | Per-TG × per-domain |
 
@@ -120,7 +120,7 @@ Every field in the schema declares a `varyBy` tag that tells the generation pipe
 | `subtitle` | string, split on ` · ` | — | Right half names the impulse (Yin/Yang). | *Evaluation runs before engagement begins · The Definition Impulse (Yang)* |
 | `chips` | string[] | exactly **5 items**, each ≤ 3 words | Single word or hyphenated compound. | *[Evaluative, Uncompromising, Precision-first, Self-sufficient, Justice-oriented]* |
 | `yourNature.phrase` | string | ≤ 4 words | **INTERNAL** — authoring anchor, not rendered. | *The Imperial Executioner* |
-| `yourNature.desc` | string | 2–3 sentences | Varies by band×pattern — variants live in `STEM_CARD_DATA.js`, keyed `{stem}_{band}_{pattern}`. | *The most honest person in any room, often the most alone in it. Precision arrives before warmth does…* |
+| `yourNature.desc` | string | 2–3 sentences | Varies by band×pattern — variants live in `stemVariants.js`, keyed `{stem}_{band}_{pattern}`. | *The most honest person in any room, often the most alone in it. Precision arrives before warmth does…* |
 | `gifts[]` | object[3] | `phrase` ≤ 5 words · `desc` 1–2 sentences | Three cards. Each a distinct angle. | `{ phrase: "The Structural Read", desc: "You don't choose to assess — the read finishes before you've decided to begin it." }` |
 | `shadows[]` | object[3] | same as gifts | | `{ phrase: "The Finished Too Early", desc: "You tend to call things complete before they've fully arrived…" }` |
 

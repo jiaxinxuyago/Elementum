@@ -1,6 +1,6 @@
-# Documents — ID Registry & Naming Convention
+# DevLog_Docs — ID Registry & Naming Convention
 
-**Reorganized 2026-07-09** (owner directive). Six category folders, uniform naming convention. This README is the registry of record — consult it before creating or citing any document.
+**Reorganized 2026-07-09** (owner directive). Seven category folders, uniform naming convention. This README is the registry of record — consult it before creating or citing any document.
 
 ## The naming convention
 
@@ -75,7 +75,7 @@
 |---|---|---|
 | PM_01 | Automation_Runbook | Inventory of record for the automation routines + machine-local rebuild list |
 | PM_02 | Pending_Tasks | THE TASK BOARD — deferred/trigger-gated/owner-pending work (STORE onboarding, INFRA gates, OWNER reviews, housekeeping); agents check here for "what's open?" |
-| PM_03 | Day_Log | THE daily project record — Done / Pending / Pivots per day; append-only; written daily by the doc-audit routine |
+| PM_03 | Day_Log | THE daily project record — Done / Pending / Pivots per day; append-only; written daily by the project-manager routine |
 
 ## DOC# alias table (legacy citations)
 

@@ -11,7 +11,7 @@
 | Service | Account owner | Plan today | Cost today | Role |
 |---|---|---|---|---|
 | **Cloudflare Registrar** (elementum.life) | personal | annual registration | 🟢 **~$25–30/yr ≈ $2.50/mo** *(at-cost; CONFIRM actual from receipt)* | the domain |
-| **Cloudflare Workers** ×3 (`elementum`, `elementum-stripe-webhook`, `elementum-push`) | personal | Free plan | ⚪ $0 (well under 100k req/day; cron free) | hosting, payments webhook, push |
+| **Cloudflare Workers** ×4 (`elementum`, `elementum-stripe-webhook`, `elementum-push`, `elementum-llm`) | personal | Free plan | ⚪ $0 (well under 100k req/day; cron free) | hosting, payments webhook, push, AI consultant |
 | **Cloudflare Email Routing** | personal | — not set up | ⚪ $0 (free when enabled) | future `support@elementum.life` |
 | **Supabase** (`nbactbfxqslzehzbgetp`) | personal | Free tier | ⚪ $0 | accounts, entitlements, push subscriptions |
 | **Stripe** | company (Lantern Digital) | pay-per-transaction | ⚪ $0 fixed · **2.9% + 30¢ per sale** (variable) | both payment links |
@@ -53,7 +53,7 @@
 
 > Perspective: the entire §4.3 LLM debate (Sonnet vs open, ~$25–200/mo at scale) plays out INSIDE the shadow of the Claude Max line. Development tooling — not runtime infrastructure — is where this business spends money today.
 
-**Phase B (native app, whenever):** + Apple Developer **$99/yr** (~$8/mo) + Apple/Google take **15–30% of in-app revenue** (vs Stripe's ~3%; 15% at our size via the Small Business Program) — the single biggest cost event on the roadmap; tracked in INF_01 §4.2a. **Enrollment STARTED 2026-07:** Organization under Lantern Digital (owner-locked); free D-U-N-S request is the current step; the $99 is deliberately deferred until Phase B is scheduled (membership year starts at purchase).
+**Phase B (native app, whenever):** + Apple Developer **$99/yr** (~$8/mo) + Apple/Google take **15–30% of in-app revenue** (vs Stripe's ~3%; 15% at our size via the Small Business Program) — the single biggest cost event on the roadmap; tracked in INF_01 §4.2a. **Enrollment STARTED 2026-07:** Organization under Lantern Digital (owner-locked); the free D-U-N-S was secured 2026-07-09 (**14-193-9711**); the $99 remains deliberately deferred until Phase B is scheduled (membership year starts at purchase).
 
 **Post-beta compliance (at real revenue):** Merchant-of-Record option (Paddle/Lemon Squeezy) trades ~+2–5% per sale for offloading global VAT/sales-tax — decision parked in INF_01 §9.
 
@@ -91,7 +91,7 @@ Net revenue per sale after Stripe: **Founding $8.44** · **Self-Report $6.49**.
 - [ ] Confirm actual elementum.life registration price (Cloudflare dashboard → Billing) and correct §1/§2
 - [x] ~~Add AI dev-tooling cost~~ — **Claude Max $200/mo added (the №1 line)**
 - [x] ~~Decide the 🔵 LLM line~~ — **decided + live 2026-07-07: §4.3 Phase 0 shipped (Sonnet, $50/mo kill-switch); actuals accrue in `llm_usage`**
-- [ ] Apple Developer: complete the Lantern Digital D-U-N-S request; pay the $99 only when Phase B is scheduled, then add the line to §1/§2 (~$8.25/mo amortized)
+- [ ] Apple Developer: pay the $99 only when Phase B is scheduled, then add the line to §1/§2 (~$8.25/mo amortized) — the Lantern Digital D-U-N-S is already secured (14-193-9711, 2026-07-09)
 - [ ] Periodically revisit whether the Max plan tier still matches the build phase (heavy build vs maintenance)
 - [ ] Revisit this report at each phase gate (it is referenced from INF_01)
 
@@ -105,6 +105,6 @@ Net revenue per sale after Stripe: **Founding $8.44** · **Self-Report $6.49**.
 |---|---|---|---|
 | Cloudflare Workers Paid | $5/mo | ~4 wks before first external users (early Aug for Sept ship, or validation-sprint wave) | Analytics pipeline (WAE) + customer email (support@) |
 | Supabase Pro | ~$25/mo | Before beta marketing (idle-pause already mitigated by push cron) | Capacity/SLA |
-| Apple Developer (Lantern Digital org) | $99/yr | Phase B scheduled (D-U-N-S in progress) | App Store distribution |
+| Apple Developer (Lantern Digital org) | $99/yr | Phase B scheduled (D-U-N-S secured) | App Store distribution |
 
-Monthly budget report (automation piece #10, 1st of month) tracks this table + actuals; statement reconciliation is owner-fed CSV drops into `Documents/Business/statements/` (gitignored) — agents NEVER hold bank/financial credentials (standing rule).
+Monthly budget report (automation piece #10, 1st of month) tracks this table + actuals; statement reconciliation is owner-fed CSV drops into `DevLog_Docs/Business/statements/` (gitignored) — agents NEVER hold bank/financial credentials (standing rule).
