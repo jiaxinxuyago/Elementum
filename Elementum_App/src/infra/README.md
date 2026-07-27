@@ -24,4 +24,4 @@ here and import it. `null` link = "not yet available" → hide/disable the UI.
 - **Server / Worker code** (user data, Stripe webhooks, auth) does not exist
   yet. When it lands it belongs in a dedicated `worker/` tree (outside `src/`,
   since it is not part of the React bundle), with its own entry and bindings.
-  See `DevLog_Docs/Infrastructure/INF_01_Backend_Architecture.md`.
+  See `Operations/Infrastructure/INF_01_Backend_Architecture.md`.

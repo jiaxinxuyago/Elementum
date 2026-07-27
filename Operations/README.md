@@ -1,6 +1,6 @@
 # Elementum Docs — ID Registry & Naming Convention
 
-**Reorganized 2026-07-09** (owner directive). Seven categories, uniform naming convention. **Restructured 2026-07-27** (owner directive): the Design and Reading libraries moved out to their discipline folders — `Design/Documents/` and `Reading/Documents/` — ahead of the reading design/dev phase. This README remains the ONE registry of record for ALL locations — consult it before creating or citing any document.
+**Reorganized 2026-07-09** (owner directive). Seven categories, uniform naming convention. **Restructured 2026-07-27** (owner directive): the Design and Reading libraries moved out to their discipline folders — `Design/Documents/` and `Reading/Documents/` — ahead of the reading design/dev phase, and later the same day this general tree was **renamed `DevLog_Docs/` → `Operations/`** (historical citations of either `Documents/` or `DevLog_Docs/` resolve here). This README remains the ONE registry of record for ALL locations — consult it before creating or citing any document.
 
 ## The naming convention
 
@@ -89,6 +89,6 @@ Old commit messages and external artifacts may still cite DOC#; each converted f
 
 - `Design/Documents/` — the DES docs (formerly `DevLog_Docs/Design/`); the rest of `Design/` is design assets (legends, tokens, libraries, handoff packages).
 - `Reading/Documents/` — the REA reading library (formerly `DevLog_Docs/Reading/`), review-grade; `Reading/Database/` is the reading-data home (`elementum_profile_database.html` — the HTML twin of `archetypeSource.js` — the generated `reading-replicant.html`, and future data exports). The app's runtime content stays in `Elementum_App/src/content/` (live code lives in the app — cleanup rule #1).
-- `DevLog_Docs/` — everything else: Development, Infrastructure, Business, Legal_Admin, Project_Management, and this registry.
+- `Operations/` — everything else: Development, Infrastructure, Business, Legal_Admin, Project_Management, and this registry.
 
 Cite with enough path to disambiguate.

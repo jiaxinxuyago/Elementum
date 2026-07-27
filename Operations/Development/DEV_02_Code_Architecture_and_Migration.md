@@ -1,6 +1,6 @@
 # DEV_02 — Code Architecture & Migration Guide
 
-> **Formerly DOC8** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC8" refer to this file (registry: DevLog_Docs/README.md).
+> **Formerly DOC8** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC8" refer to this file (registry: Operations/README.md).
 ## Single-file artifact → Vite + React production project
 
 **Version:** 3.2 · April 2026
@@ -57,7 +57,7 @@ Elementum_Project/
 ├── Design/                              ← Design discipline home: assets (tokens, legends, ink PNGs)
 │   └── Documents/                       ← DES_04 · DES_13 · DES_14 (formerly DevLog_Docs/Design/).
 │
-├── DevLog_Docs/ (Development · Infrastructure · Business · Legal_Admin · Project_Management + registry)
+├── Operations/ (Development · Infrastructure · Business · Legal_Admin · Project_Management + registry)
 │   └── DEV_01 … DEV_05, INF_01, BIZ, LEG, PM
 │
 └── .claude/launch.json                  ← Preview server config (points at Elementum_App).

@@ -1,6 +1,6 @@
 # REA_04 — Reading Schema (v2.1) — the content model for the Five Energies surface
 
-> **Formerly DES_05** (moved to the Reading library in the 2026-07-23 design/reading doc separation) **and before that DOC6** (2026-07-09 reorganization). Historical citations of "DES_05" or "DOC6" refer to this file (registry: DevLog_Docs/README.md).
+> **Formerly DES_05** (moved to the Reading library in the 2026-07-23 design/reading doc separation) **and before that DOC6** (2026-07-09 reorganization). Historical citations of "DES_05" or "DOC6" refer to this file (registry: Operations/README.md).
 
 **Official doc since 2026-06-24** (promoted from `READING_SCHEMA_V2.md`; took the Doc 6 slot vacated by the retired Manual). The Reading Schema is the **design source of truth for the reading content model** — it dictates the fields that REA_06 (archetype fields) and REA_03/REA_05 (generation) implement, and so logically precedes them.
 

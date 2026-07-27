@@ -2,9 +2,9 @@
 
 **THE one file for daily project state.** Newest day on top; entries are
 APPEND-ONLY (this is a RECORD doc — never rewrite past days). Written daily
-by the doc-audit routine (~4:41 PM, after the QA/review/dispatch cycle) — the
-ONE sanctioned automation write inside Documents/ — and by any session the
-owner asks. Each entry: **Done** (what shipped/landed, from git + the QA
+by the project-manager routine (~4:41 PM, after the QA/review/dispatch cycle)
+— the ONE sanctioned automation write inside Operations/ — and by any session
+the owner asks. Each entry: **Done** (what shipped/landed, from git + the QA
 journals) · **Pending** (open items: awaiting-merge branches, owner rulings,
 mined doc markers) · **Pivots** (decisions/direction changes that future
 sessions must know).

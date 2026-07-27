@@ -74,7 +74,7 @@ const stats = (ns) => {
 
 let md = `# REA_09 — Reading-Format Audit — evidence base for the reading-schema redesign
 
-> **Formerly DES_10** — moved to the Reading library in the 2026-07-23 design/reading doc separation (registry: DevLog_Docs/README.md).
+> **Formerly DES_10** — moved to the Reading library in the 2026-07-23 design/reading doc separation (registry: Operations/README.md).
 
 Generated ${new Date().toISOString().slice(0, 10)} by \`Elementum_App/tools/reading-format-audit.mjs\` (read-only).
 Source: \`STEM_CARD_DATA\` (all 10 stems) walked against \`ARCHETYPE_SCHEMA\`.

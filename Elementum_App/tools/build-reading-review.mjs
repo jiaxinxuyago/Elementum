@@ -95,7 +95,7 @@ function buildMarkdown() {
   const L = [];
   L.push('# REA_10 — Reading Content — Owner Review');
   L.push('');
-  L.push('> **Formerly DES_11** — moved to the Reading library in the 2026-07-23 design/reading doc separation (registry: DevLog_Docs/README.md).');
+  L.push('> **Formerly DES_11** — moved to the Reading library in the 2026-07-23 design/reading doc separation (registry: Operations/README.md).');
   L.push('> **Generated** by `Elementum_App/tools/build-reading-review.mjs` — do **not** hand-edit.');
   L.push('> Edit the source data (`content/reading/facesContent.js`, `tgNames.js`) and re-run the script.');
   L.push('> Companion visual: [`reading-replicant.html`](../Database/reading-replicant.html) (open in a browser).');

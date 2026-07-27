@@ -1,6 +1,6 @@
 # REA_10 — Reading Content — Owner Review
 
-> **Formerly DES_11** — moved to the Reading library in the 2026-07-23 design/reading doc separation (registry: DevLog_Docs/README.md).
+> **Formerly DES_11** — moved to the Reading library in the 2026-07-23 design/reading doc separation (registry: Operations/README.md).
 > **Generated** by `Elementum_App/tools/build-reading-review.mjs` — do **not** hand-edit.
 > Edit the source data (`content/reading/facesContent.js`, `tgNames.js`) and re-run the script.
 > Companion visual: [`reading-replicant.html`](../Database/reading-replicant.html) (open in a browser).

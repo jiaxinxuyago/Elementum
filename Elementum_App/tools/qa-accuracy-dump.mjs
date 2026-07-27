@@ -1,7 +1,7 @@
 // ===================================================================
 // ELEMENTUM · Engine Accuracy QA — full chart dump for cross-checking
 // ===================================================================
-// Run AFTER ANY engine code change (see DevLog_Docs/Development/
+// Run AFTER ANY engine code change (see Operations/Development/
 // DEV_04_Engine_Accuracy_QA.md). Prints every dimension a reference BaZi site
 // exposes, so each can be compared by eye:
 //   Four Pillars · stem Ten Gods · Day Master strength/band/pattern ·
