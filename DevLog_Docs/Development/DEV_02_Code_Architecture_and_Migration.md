@@ -40,9 +40,11 @@ Elementum_Project/
 │   ├── src/store/, src/styles/, src/components/  ← Other extracted / fresh modules.
 │   └── package.json, vite.config.js, index.html, etc.
 │
-├── Reading/                             ← Reading data artifacts (2026-07: was Data/)
-│   └── elementum_profile_database.html  ← HTML twin of archetypeSource.js.
-│                                           Must stay in sync at all times.
+├── Reading/                             ← Reading discipline home (2026-07-27 restructuring)
+│   ├── Documents/                       ← REA_01–REA_11 (formerly DevLog_Docs/Reading/).
+│   └── Database/                        ← Reading data artifacts (was root Reading/, earlier Data/):
+│       └── elementum_profile_database.html  ← HTML twin of archetypeSource.js.
+│                                               Must stay in sync at all times.
 │
 ├── archive/legacy-monolith/            ← Archived 2026-07. Historical reference only.
 │   ├── Elementum_Engine.jsx             ← Original prototype. Dashboard was REBUILT, not
@@ -52,10 +54,11 @@ Elementum_Project/
 │   (Scripts/ removed 2026-07 — batchGenerate.js + tokenCostCalculator.html
 │    relocated to Elementum_App/tools/.)
 │
-├── Design/                              ← Phase 1/2A design source (tokens, flow JSX, ink PNGs).
+├── Design/                              ← Design discipline home: assets (tokens, legends, ink PNGs)
+│   └── Documents/                       ← DES_04 · DES_13 · DES_14 (formerly DevLog_Docs/Design/).
 │
-├── DevLog_Docs/ (Design · Development · Infrastructure · Business · Legal_Admin · Project_Management)
-│   └── DEV_01 … DEV_02
+├── DevLog_Docs/ (Development · Infrastructure · Business · Legal_Admin · Project_Management + registry)
+│   └── DEV_01 … DEV_05, INF_01, BIZ, LEG, PM
 │
 └── .claude/launch.json                  ← Preview server config (points at Elementum_App).
 ```
@@ -72,7 +75,7 @@ Elementum_Project/
 
 | File | Paired with | Rule |
 |---|---|---|
-| `Elementum_App/src/content/archetypeSource.js` | `Reading/elementum_profile_database.html` | Every field change must be applied to both. |
+| `Elementum_App/src/content/archetypeSource.js` | `Reading/Database/elementum_profile_database.html` | Every field change must be applied to both. |
 | `Elementum_App/src/content/archetypeSource.js` | `archive/legacy-monolith/Elementum_Engine.jsx` inlined `STEM_CARD_DATA` (lines 4–979) and `TG_CARD_DATA` (lines 980–1558) | When a field is authored in archetypeSource.js, sync to the engine's inlined copy **only if** you intend to open the engine in legacy browser-preview mode. The live Vite app reads from the content file directly and does not require engine sync. |
 | `Elementum_App/src/content/stemVariants.js` | `archive/legacy-monolith/Elementum_Engine.jsx` inlined variant entries | Same conditional — sync only for legacy preview; Vite app is already authoritative. |
 | `Elementum_App/tools/batchGenerate.js` | `Elementum_App/src/content/stemVariants.js`, `DomEnergyTg_Data.js` | Do not hand-edit generated entries — re-run the pipeline. The script reads the content files from the app folder. |

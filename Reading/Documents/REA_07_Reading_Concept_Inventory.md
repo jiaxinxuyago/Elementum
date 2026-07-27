@@ -4,7 +4,7 @@
 
 **D12 Step 1** — Part 1 (§1–§5): inventory + vocabulary law · **Part 2 (§6–§9): the Concept Ladder** · Part 3: Section Charters (pending)
 **Serves:** DES_04 §0 (Beta core goal) Axis A — introduce BaZi step by step, without cognitive overload.
-**Sources:** `Reading/elementum_profile_database.html` (the Profile Database — canonical behavioral content for stems + Ten Gods) · REA_01 (archetype system) · REA_02 (knowledge pool) · the Manual (now **retired** → `_ARCHIVE_Manual_RETIRED.md`) · the live app (audited 2026-06-10).
+**Sources:** `Reading/Database/elementum_profile_database.html` (the Profile Database — canonical behavioral content for stems + Ten Gods) · REA_01 (archetype system) · REA_02 (knowledge pool) · the Manual (now **retired** → `_ARCHIVE_Manual_RETIRED.md`) · the live app (audited 2026-06-10).
 >
 > **NB (resolved 2026-06-26):** the Source-column "REA_04" tags (which meant the **retired Manual**, not the new **REA_04 = Reading Schema**) have been re-pointed to **"Manual (retired)"** to remove the collision. If a concept needs a *live* canonical source for the content pass, re-point it to REA_02 / DEV_01 then (the Manual is archived at `_ARCHIVE_Manual_RETIRED.md`).
 **Status:** DRAFT for owner markup · 2026-06-10
@@ -152,9 +152,9 @@ Status legend: ✅ taught (introduced before/where used) · ⚠ used-untaught (s
 | V1 | **CONFIRMED:** engine translations ("Seven Killings", "Hurt Officer"…) render on the raw-chart per-pillar tags — the same energy the reading calls "The General" | `RawChartPage.jsx:277` ← `calculator.js` `en:` names | Map to persona names + 汉字 gloss at render |
 | V2 | "Ten Gods" vs "Dominant Energies" vs "the council" used interchangeably | TenGodsDetail copy, docs | Canonical: **Dominant Energies** (concept) / **the council** (collective metaphor, allowed); "Ten Gods" → gloss-only |
 | V3 | DevBar stem shorthand "Lamp", "Mtn", "River" | `DevBar.jsx` cycle pad | Dev-only; align labels (Ember, Mountain, Ocean) — low priority |
-| V4 | Profile DB god names (Flow/Trial/Root…) contradict the canonical persona set | `Reading/elementum_profile_database.html` | Annotate the DB header: names superseded per this registry; definitions remain canonical |
+| V4 | Profile DB god names (Flow/Trial/Root…) contradict the canonical persona set | `Reading/Database/elementum_profile_database.html` | Annotate the DB header: names superseded per this registry; definitions remain canonical |
 | V5 | Band values appear with zero live definition (1.4) | archetypeLabel, ElementalNatureDetail | Charter a definition moment (Part 3) |
-| V6 | 正印 card missing from Profile DB body | `Reading/elementum_profile_database.html` | Backfill The Sage's profile before content reconstruction |
+| V6 | 正印 card missing from Profile DB body | `Reading/Database/elementum_profile_database.html` | Backfill The Sage's profile before content reconstruction |
 
 ---
 
