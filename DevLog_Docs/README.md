@@ -83,6 +83,11 @@ DOC1→DEV_01 · DOC2→DES_01→REA_01 · DOC3→DES_02→REA_02 · DOC4→DES_
 
 Old commit messages and external artifacts may still cite DOC#; each converted file carries a "Formerly DOC#" breadcrumb in its header, so a search for the old name always lands on the right file.
 
-## Note on the two "Design" folders
+## Note on the doubled folder names ("Design", "Reading")
 
-`DevLog_Docs/Design/` (this tree — design *documents*) is distinct from the repo-root `Design/` (design *assets*: legends, tokens, libraries, handoff packages). Cite with enough path to disambiguate.
+Two category names exist at both levels, on the same pattern — documents in this tree, artifacts at repo root:
+
+- `DevLog_Docs/Design/` (design *documents*) vs repo-root `Design/` (design *assets*: legends, tokens, libraries, handoff packages).
+- `DevLog_Docs/Reading/` (the REA reading *documents*, review-grade) vs repo-root `Reading/` (reading *data artifacts*: `elementum_profile_database.html` — the HTML twin of `archetypeSource.js` — and future data exports; owner-approved home 2026-07-27, formerly `Data/`).
+
+Cite with enough path to disambiguate.

@@ -68,7 +68,7 @@ Elementum_Project/
 │                                  synthesis on purchase). Imports internal constants from
 │                                  archetypeSource.js. NOT bundled with the app.
 │
-├── Data/
+├── Reading/                             ← Reading data artifacts (2026-07: was Data/)
 │   └── elementum_profile_database.html  ← HTML twin of archetypeSource.js.
 │                                           Parallel editing surface — must stay in sync.
 │
