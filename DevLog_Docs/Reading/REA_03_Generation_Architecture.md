@@ -5,7 +5,7 @@
 > **⚠ v2.1 RECONCILIATION (2026-06-24 · see `REA_08_Reading_V2.1_Reconciliation_Audit.md`).** Deltas for this doc: (1) retarget the 50 compound cards (`DomEnergyTg_Data.js`, Pipeline A2) to **`ENERGY_CARD_DATA[${element}_${god}]`** with the v2.1 shape — a **FACES prologue** (abstract · punchline · chips · `rulingDomain`) plus the **reading authored per presence-frame register**: `dominant` and `absent` **bespoke**, `present` **derived** (compressed from dominant). (2) **§9 exception (decision C5):** the rule "TG content does not vary by band" is overridden **for the energy-card layer** — a persona reads differently as dominant vs present vs absent (cultivation). (3) Add a **`rulingDomain`** field, authored **per persona (×50), DM-relative**. (4) Generation must produce the **two polarity faces** per direction (persona-per-god), not one collapsed god.
 
 > **Version 4.3 · April 2026**
-> This document replaces all prior generation architecture. The old three-pass pipeline (portrait prewrite → persona card → reading schema) is retired. `archetypeSource.js` is the single source of truth for all field names, reading templates, and knowledge-pool content. Two pre-generated serving files exist: `STEM_CARD_DATA.js` (150 configuration-specific entries) and `DomEnergyTg_Data.js` (50 compound archetype cards). Generated content beyond those files is limited to the self-report synthesis pass (on purchase).
+> This document replaces all prior generation architecture. The old three-pass pipeline (portrait prewrite → persona card → reading schema) is retired. `archetypeSource.js` is the single source of truth for all field names, reading templates, and knowledge-pool content. Two pre-generated serving files exist: `stemVariants.js` (150 configuration-specific entries) and `DomEnergyTg_Data.js` (50 compound archetype cards). Generated content beyond those files is limited to the self-report synthesis pass (on purchase).
 
 > **Cross-reference (added with REA_06).**
 > Field shapes, tier gating per field, and `varyBy` cardinality now live in the canonical schema: [`Elementum_App/src/contract/archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js).
@@ -32,12 +32,12 @@
 
 Two pre-generated serving files derive their content from `archetypeSource.js`:
 
-- **`STEM_CARD_DATA.js`** — 150 entries keyed by `stem_band_tgPattern` (e.g. `庚_concentrated_pure`). Contains configuration-specific `yourNature` (phrase + desc) and `gifts[]` / `shadows[]` (phrase + desc) for each of the 150 archetype configurations. Generated offline via Pipeline A. These fields vary meaningfully by band and tgPattern and are LLM-generated with `archetypeSource.js` as grounding context.
+- **`stemVariants.js`** — 150 entries keyed by `stem_band_tgPattern` (e.g. `庚_concentrated_pure`). Contains configuration-specific `yourNature` (phrase + desc) and `gifts[]` / `shadows[]` (phrase + desc) for each of the 150 archetype configurations. Generated offline via Pipeline A. These fields vary meaningfully by band and tgPattern and are LLM-generated with `archetypeSource.js` as grounding context.
 - **`DomEnergyTg_Data.js`** — 50 compound archetype cards keyed by `domEl_specificTenGod`. The deepest content layer — source for Pro compound teasers and self-report synthesis. Generated offline via Pipeline A.
 
-`archetypeSource.js` serves hand-authored content directly: `blocks[]` (variant schema, runtime-resolved), `manual.*`, `energy.*`, and all `TG_CARD_DATA` fields. `STEM_CARD_DATA.js` and `DomEnergyTg_Data.js` are the pre-generated layers on top.
+`archetypeSource.js` serves hand-authored content directly: `blocks[]` (variant schema, runtime-resolved), `manual.*`, `energy.*`, and all `TG_CARD_DATA` fields. `stemVariants.js` and `DomEnergyTg_Data.js` are the pre-generated layers on top.
 
-No LLM calls are made at serve time for Free or Pro content. Every field served at those tiers is a static read from `archetypeSource.js`, `STEM_CARD_DATA.js`, or `DomEnergyTg_Data.js`. The only runtime generation is:
+No LLM calls are made at serve time for Free or Pro content. Every field served at those tiers is a static read from `archetypeSource.js`, `stemVariants.js`, or `DomEnergyTg_Data.js`. The only runtime generation is:
 
 1. **On purchase** — Self-report synthesis pass via `batchGenerate.js`: takes the user’s relevant compound cards from `DomEnergyTg_Data.js` + chart context, produces a 13-field narrative in ~20–30 seconds
 
@@ -55,7 +55,7 @@ Elementum_Project/
 │   │                              Internal constants (CLASSICAL_STEM_ANCHORS,
 │   │                              CLASSICAL_TG_ANCHORS, BINGYI_FRAMING, PILLAR_STAGE)
 │   │                              used by batchGenerate.js at synthesis time.
-│   ├── STEM_CARD_DATA.js       ← 150 stem_band_tgPattern variant entries. Keyed by
+│   ├── stemVariants.js         ← 150 stem_band_tgPattern variant entries. Keyed by
 │   │                              stem_band_tgPattern (e.g. "庚_balanced_pure").
 │   │                              Phase 1: 15 庚 yourNature.desc entries hand-authored.
 │   │                              Remaining 135 + gifts/shadows: Pipeline A output.
@@ -74,7 +74,7 @@ Elementum_Project/
 │
 └── Elementum/
     └── Elementum_Engine.jsx    ← Single-file dev artifact. Inlines archetypeSource.js
-                                   data and STEM_CARD_DATA.js variant entries for
+                                   data and stemVariants.js variant entries for
                                    artifact preview mode. In production (Vite), the
                                    engine imports from the Code/ files instead.
 ```
@@ -736,9 +736,9 @@ Pipeline A covers two generation jobs, both run offline before launch. Total: **
 
 ---
 
-#### Pipeline A1 — Base energy configurations (`STEM_CARD_DATA.js`)
+#### Pipeline A1 — Base energy configurations (`stemVariants.js`)
 
-Generates all 150 `stem_band_tgPattern` entries. Each config is an independent generation target — no collapsing band and pattern axes. Output stored in `STEM_CARD_DATA.js`.
+Generates all 150 `stem_band_tgPattern` entries. Each config is an independent generation target — no collapsing band and pattern axes. Output stored in `stemVariants.js`.
 
 **Fields generated per entry:** `yourNature` (phrase + desc), `gifts[]` (phrase + desc × 3), `shadows[]` (phrase + desc × 3).
 
@@ -757,7 +757,7 @@ node batchGenerate.js retrieve-stem-configs [id]
 ↓
 node batchGenerate.js check-stem-configs     ← runs qualityCheckStemConfig() on all 150
 ↓
-node batchGenerate.js merge-stem-configs     ← writes to STEM_CARD_DATA.js
+node batchGenerate.js merge-stem-configs     ← writes to stemVariants.js
 ```
 
 **Quality gate:** `yourNature.phrase` is evocative and configuration-specific (not derivable from stem alone). `yourNature.desc` is second person, present tense, ≤3 sentences. Each gift/shadow phrase is distinct (no two from the same underlying trait). All six gifts/shadows cover independent dimensions. FORBIDDEN terms absent. No Chinese characters in output.
@@ -798,7 +798,7 @@ This is the primary ongoing function of `batchGenerate.js`. Triggered when a use
 
 **Inputs:**
 1. User’s computed chart summary (stem, band, tgPattern, dominant elements, dominant TGs, element scores)
-2. Layer 1 base energy entry from `STEM_CARD_DATA.js` — the user’s `stem_band_tgPattern` config: `yourNature`, `gifts[]`, `shadows[]`. Grounds the synthesis in who this person fundamentally is at this configuration.
+2. Layer 1 base energy entry from `stemVariants.js` — the user’s `stem_band_tgPattern` config: `yourNature`, `gifts[]`, `shadows[]`. Grounds the synthesis in who this person fundamentally is at this configuration.
 3. Relevant compound archetype cards from `DomEnergyTg_Data.js` (1–2 cards matching the user’s dominant energies). Contains the interaction-specific content: what happens when this DM nature meets these dominant forces.
 4. Internal grounding context from `archetypeSource.js`: `CLASSICAL_STEM_ANCHORS` and `CLASSICAL_TG_ANCHORS` — inform accuracy but never appear in output
 5. Internal writing constraints from `archetypeSource.js`: `BINGYI_FRAMING` rules as system-level framing
