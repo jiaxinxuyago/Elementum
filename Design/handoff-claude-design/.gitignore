@@ -1,8 +1,0 @@
-# Large/regenerable binaries stay local — the text deliverables + capture script
-# are the committable artifacts. Regenerate screens with:
-#   (Elementum_App) node design-handoff-capture.mjs   (dev server on :5173)
-# Reference art is curated copies of files already in Design/assets & Design/reference.
-screens/
-reference-art/*.png
-index.html
-manifest.json
