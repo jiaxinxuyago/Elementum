@@ -67,7 +67,7 @@ Per DES_04 §6 the runtime viewport is 390×844 (iPhone 14 Pro). On desktop, `Ap
 
 ## Phase 2 — what's still to come
 
-The dashboard layer (Today / Energy Map / Guidance / Connect / Me) lives entirely inside `Reference/Elementum_Engine.jsx` and needs to be lifted into `src/components/`. The full extraction roadmap is in `../Reference/README.md` and DEV_02 "Step-by-step extraction" (Steps 3–17). Don't add dashboard surfaces to this app without consulting that guide first — extraction order matters because of import dependencies.
+The dashboard layer (Today / Energy Map / Guidance / Connect / Me) was REBUILT natively in `src/components/dashboard/` — the old extraction plan from the legacy monolith is superseded (see `../archive/legacy-monolith/README.md` and DEV_02 for the history). The prototype `Elementum_Engine.jsx` is archived there for reference only; nothing remains to extract from it.
 
 ## Deploying elementum.life
 
