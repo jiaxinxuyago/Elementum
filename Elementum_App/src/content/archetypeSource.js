@@ -11,11 +11,10 @@
  * Usage:
  *   import { STEM_CARD_DATA, TG_CARD_DATA } from './archetypeSource.js';
  *
- * STEM_CARD_DATA — 10 stems. External energy force + energy manual per stem.
- *                  Fields: energy.* (element as environmental force),
- *                  manual.* (catalyst, resistance, band paragraphs)
+ * STEM_CARD_DATA — 10 stems. Energy manual per stem.
+ *                  Fields: manual.* (catalyst, resistance, band paragraphs)
  * TG_CARD_DATA   — 10 Ten Gods. Full card data per Ten God (ruling realm,
- *                  personality, life domains, people, 流年大运 signatures)
+ *                  personality, life domains)
  *
  * See REA_03 §4 for the complete field reference and tier assignments.
  */
@@ -23,8 +22,7 @@
 
 // ═══════════════════════════════════════════════════════════════════════════
 // STEM_CARD_DATA
-// External energy + energy manual for each of the 10 Heavenly Stems.
-// energy.*    → "As an External Energy" card (keywords, what, represents, liunian)
+// Energy manual for each of the 10 Heavenly Stems.
 // manual.*    → "Energy Manual" card (concentrated, open, catalyst, resistance)
 //
 // blocks[]    → Base energy reading blocks. Uses the VARIANT SCHEMA:
@@ -882,44 +880,12 @@ The verdict also becomes load-bearing: once formed, it requires new information 
 
     ],
 
-    // ⚠ DEPRECATED — lifeDomains at stem level is being removed.
-    // Domain content belongs in TG_CARD_DATA[tg].domains (see REA_03 §4).
-    // The 11 blocks[] above already carry characterological domain content
-    // implicitly. Standalone stem lifeDomains is redundant with them.
-    // Retained here temporarily for reference during the migration to TG-level
-    // domain content. Do not author new stem-level lifeDomains entries.
-
-    // ═══════════════════════════════════════════════════════════════════
-    // SECTION 2: THE FORCE  (user-facing label for Metal: "The Force")
-    // Internal label: "Dominant Energy"
-    // Characterological layer — what Metal-dominant quality brings
-    // to any Ten God expression. App layer combines with TG at runtime.
-    // ═══════════════════════════════════════════════════════════════════
-
-
-    // ═══════════════════════════════════════════════════════════════════
-    // SECTION 3: THE EDGE IN MOTION
-    // Internal label: "How This Energy Moves"
-    // Environmental / operational layer — catalysts, resistance,
-    // seasonal calibration, liunian signatures.
-    // ═══════════════════════════════════════════════════════════════════
-
-
     manual: {
       concentrated: `The evaluating and cutting force is relentless. Everything gets assessed; everything gets cut to shape. Highly productive for those who benefit from defined edges and clear decisions. Damaging for those who needed more time or more flexibility — the cutting happens regardless of readiness. Classical texts warn 金旺伤木 (strong Metal injures Wood) — when Metal is excessive, it cuts down what was still growing, including what should have been given more time. The danger is cutting too early, deciding too harshly, and removing things that needed more development before they were ready to be shaped.`,  // [FREE · Elemental Nature card]
       open: `The ability to make definitive decisions, set clear limits, and close what is finished becomes genuinely harder. Things that are complete don't get properly ended. Ambiguity lingers past the point where it serves anyone. Relationships and projects that should close continue because there is no cutting force available to bring them to a clean conclusion. The environment feels gentler but more cluttered — less decisive, more unresolved, more drained by the energy required to maintain what should have ended.`,  // [FREE · Elemental Nature card]
       catalyst: `Activate it by making the decision you have been deferring. This energy specifically rewards categorical commitment: the contract signed, the option closed, the position stated clearly, the boundary set. Don't hedge — the productive use of this energy is definitiveness. One clear decision is worth ten careful ones that stay provisional. Outcome: clarity replaces ambiguity and frees up the energy that was being spent maintaining the unresolved situation. What was clouded becomes specific. Direction becomes actionable.`,  // [FREE · teaser  /  PRO · full analysis]
       resistance: `When 庚 energy is creating friction — the cutting force is removing what the chart needed to preserve, or pressing on growth energy in a way that damages rather than shapes it. The corrective is to redirect the precision toward what is actually finished rather than what is merely inconvenient or imperfect. Use the Fire quality (clarity of purpose, warmth of direction) to identify what the precision is actually for — so the blade knows what to spare. Outcome: the force becomes surgical rather than indiscriminate, and what was damaging becomes defining.`,  // [PRO]
     },
-
-    // SEASONAL CALIBRATION  [PRO]
-    // Internal field name: seasonalCalibration
-    // Source system: 调候用神 from 穷通宝鉴 (distinct from 病药用神 / catalyst system)
-    // User-facing label for Metal: "The Forging Season"
-
-    // LIUNIAN SIGNATURES  [PRO — Internal sourcing; foundation for Dynamic Energy Blueprint]
-    // Structured by life domain. Each entry: what triggers it, what it produces,
-    // timing guidance, and classical source for internal verification.
 
     // ═══════════════════════════════════════════════════════════════════
     // SECTION 4: INTERNAL REFERENCE
@@ -1286,8 +1252,6 @@ There's also a pattern of caring for others at the level you wish you were cared
 //     Gender overrides used when user gender is known.
 //     Classical 六亲 basis: 官杀 = husband star (female); 财 = wife star (male).
 //     See REA_03 §4 qualifying domains table (15 combinations).
-//   sixRelations           → 六亲 description paragraph [PRO]
-//   liunianSignatures      → 流年大运 event signatures paragraph [PRO]
 // ═══════════════════════════════════════════════════════════════════════════
 
 // SOURCE: Free + Pro tier · Ten God personality and domain fields

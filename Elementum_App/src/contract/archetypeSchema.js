@@ -145,7 +145,7 @@ export function cardinalityOf(varyBy) {
 }
 
 // -------------------------------------------------------------------
-// Shared shapes (referenced by itemShape: 'LiunianEntry' etc.)
+// Shared shapes (referenced by itemShape: SHAPES.PhraseDesc etc.)
 // -------------------------------------------------------------------
 
 export const SHAPES = {
@@ -154,16 +154,6 @@ export const SHAPES = {
               note: 'Short identifying label.' },
     desc:   { type: 'string', sentenceMin: 1, sentenceMax: 2, required: true,
               note: 'One sharp sentence with a distinct angle.' },
-  },
-  LiunianEntry: {
-    trigger: { type: 'string', required: true,
-               note: 'Year/month/pillar configuration that activates this signature.' },
-    event:   { type: 'string', required: true,
-               note: 'What the user experiences when it activates.' },
-    timing:  { type: 'string', required: true,
-               note: 'Concrete years/branches when it peaks.' },
-    source:  { type: 'string', required: true,
-               note: 'Classical source citation (for internal verification — not rendered).' },
   },
 };
 

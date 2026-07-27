@@ -18,8 +18,6 @@ import { TG_PERSONA } from '../../content/index.js';
 import { FACE_CARD, ENERGY_TILE } from '../../content/reading/index.js';
 
 // ── element basics ─────────────────────────────────────────────────
-// Ten-god family of an element relative to the day master is the engine's
-// relationOf (energyRoles.js) — reused here, not reimplemented.
 export const EL_NAME = { metal: 'Metal', earth: 'Earth', wood: 'Wood', water: 'Water', fire: 'Fire' };
 export const EL_HZ = { metal: '金', earth: '土', wood: '木', water: '水', fire: '火' };
 
@@ -192,6 +190,8 @@ export function buildJourneyModel({ chart, ec, identity, card, birthData }) {
     const coreExcess = isCore && roles.includes('friction');
     const coreCatalyst = isCore && roles.includes('catalyst');
 
+    // Ten-god family of an element relative to the day master is the engine's
+    // relationOf (energyRoles.js) — reused here, not reimplemented.
     const family = relationOf(EL_NAME[e.el], EL_NAME[coreEl]);
     const relation = RELATION_NOUN[family];
     const god = e.leadGod;
