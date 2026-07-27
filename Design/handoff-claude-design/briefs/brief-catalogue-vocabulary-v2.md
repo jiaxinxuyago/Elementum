@@ -2,8 +2,8 @@
 
 SOURCE OF TRUTH (attached as excerpts; paths for provenance — do not invent words
 not present in these two files):
-1. Documents/Reading/REA_11_Identity_Vocabulary.md — the vocabulary system
-2. Documents/Reading/REA_07_Reading_Concept_Inventory.md — naming law + registry
+1. DevLog_Docs/Reading/REA_11_Identity_Vocabulary.md — the vocabulary system
+2. DevLog_Docs/Reading/REA_07_Reading_Concept_Inventory.md — naming law + registry
 
 USE THE VOCABULARY BY SURFACE:
 

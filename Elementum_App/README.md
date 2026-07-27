@@ -2,7 +2,7 @@
 
 The production app for **Elementum**, a personal-energy reading product built on the BaZi (八字 / Four Pillars) tradition. This folder is the **runtime source of truth** — anything shipped to a user runs from here.
 
-For the design rationale, content authoring rules, and the Phase 2 extraction roadmap, read the docs in `../Documents/` (especially Design/REA_03, Design/DES_04, Development/DEV_02) and the migration progress notes in `../Reference/README.md`.
+For the design rationale, content authoring rules, and the Phase 2 extraction roadmap, read the docs in `../DevLog_Docs/` (especially Reading/REA_03, Design/DES_04, Development/DEV_02) and the migration progress notes in `../Reference/README.md`.
 
 ## What's in here
 
