@@ -106,7 +106,7 @@ These encode the four cleanup rules + DEV_02 boundaries as reviewable criteria. 
 for clarity is concrete: *could a new engineer find, name, and safely change this code
 without reading git history?*
 
-- **A1 — Module boundaries (lint-backed, zero tolerance).** Four chunks — engine /
+- **A1 — Module boundaries (lint-backed, zero tolerance).** Five chunks — engine /
   content / UI / infra / contract — imported only via their barrels
   (`engine/index.js`, `content/index.js`, `content/reading/index.js`,
   `contract/index.js`, `infra/index.js`). `npx eslint .` must report **0 errors**;
