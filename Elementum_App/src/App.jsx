@@ -676,8 +676,9 @@ export default function App() {
     // (carried forward by §AM.1 as authoritative).
     // ────────────────────────────────────────────────────────────────
     case 'app-energymap':
-      // Retired standalone Energy Map — the energy overview is the catalogue
-      // (and folds into P5). Alias to the D13 catalogue.
+      // The standalone Energy Map is retired; this is now the last route that
+      // reaches ReadingScreen (the pre-journey reading surface) — `app-reading`
+      // renders JourneyStage.
       rendered = <ReadingScreen onTab={routeTab} onDayMaster={goto('app-daymaster')} onOpenEnergy={openEnergy} />;
       break;
     case 'read-elemental':
