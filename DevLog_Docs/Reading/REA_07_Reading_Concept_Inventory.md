@@ -1,6 +1,6 @@
 # REA_07 — Reading Concept Inventory & Ladder — vocabulary law, concept registry, journey ordering
 
-> **Formerly DES_08** — moved to the Reading library in the 2026-07-23 design/reading doc separation; historical citations of "DES_08" refer to this file (registry: Documents/README.md).
+> **Formerly DES_08** — moved to the Reading library in the 2026-07-23 design/reading doc separation; historical citations of "DES_08" refer to this file (registry: DevLog_Docs/README.md).
 
 **D12 Step 1** — Part 1 (§1–§5): inventory + vocabulary law · **Part 2 (§6–§9): the Concept Ladder** · Part 3: Section Charters (pending)
 **Serves:** DES_04 §0 (Beta core goal) Axis A — introduce BaZi step by step, without cognitive overload.
@@ -32,7 +32,7 @@
 | 甲 | The Oak (Yang Wood) | | 己 | The Field (Yin Earth) |
 | 乙 | The Vine (Yin Wood) | | 庚 | The Blade (Yang Metal) |
 | 丙 | The Sun (Yang Fire) | | 辛 | The Jewel (Yin Metal) |
-| 丁 | The Ember (Yin Fire) | | 壬 | The Ocean (Yang Water) |
+| 丁 | The Candle (Yin Fire) | | 壬 | The Ocean (Yang Water) |
 | 戊 | The Mountain (Yang Earth) | | 癸 | The Rain (Yin Water) |
 
 ### Ten Gods (persona canonical + mandatory definition line)

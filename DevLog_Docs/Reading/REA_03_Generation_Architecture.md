@@ -1,6 +1,6 @@
 # Elementum · REA_03 — Generation Architecture & Reading Content Guide
 
-> **Formerly DES_03** (moved to the Reading library in the 2026-07-23 design/reading doc separation) **and before that DOC4** (2026-07-09 reorganization). Historical citations of "DES_03" or "DOC4" refer to this file (registry: Documents/README.md).
+> **Formerly DES_03** (moved to the Reading library in the 2026-07-23 design/reading doc separation) **and before that DOC4** (2026-07-09 reorganization). Historical citations of "DES_03" or "DOC4" refer to this file (registry: DevLog_Docs/README.md).
 
 > **⚠ v2.1 RECONCILIATION (2026-06-24 · see `REA_08_Reading_V2.1_Reconciliation_Audit.md`).** Deltas for this doc: (1) retarget the 50 compound cards (`DomEnergyTg_Data.js`, Pipeline A2) to **`ENERGY_CARD_DATA[${element}_${god}]`** with the v2.1 shape — a **FACES prologue** (abstract · punchline · chips · `rulingDomain`) plus the **reading authored per presence-frame register**: `dominant` and `absent` **bespoke**, `present` **derived** (compressed from dominant). (2) **§9 exception (decision C5):** the rule "TG content does not vary by band" is overridden **for the energy-card layer** — a persona reads differently as dominant vs present vs absent (cultivation). (3) Add a **`rulingDomain`** field, authored **per persona (×50), DM-relative**. (4) Generation must produce the **two polarity faces** per direction (persona-per-god), not one collapsed god.
 
@@ -79,7 +79,7 @@ Elementum_Project/
                                    engine imports from the Code/ files instead.
 ```
 
-> **Vite migration:** See `Documents/Development/DEV_02_Code_Architecture_and_Migration.md` for the complete guide
+> **Vite migration:** See `DevLog_Docs/Development/DEV_02_Code_Architecture_and_Migration.md` for the complete guide
 > to migrating from single-file artifact to a structured Vite + React project,
 > including the full import map, component extraction order, and data loading wiring.
 

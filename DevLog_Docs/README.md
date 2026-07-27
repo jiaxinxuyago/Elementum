@@ -85,4 +85,4 @@ Old commit messages and external artifacts may still cite DOC#; each converted f
 
 ## Note on the two "Design" folders
 
-`Documents/Design/` (this tree — design *documents*) is distinct from the repo-root `Design/` (design *assets*: legends, tokens, libraries, handoff packages). Cite with enough path to disambiguate.
+`DevLog_Docs/Design/` (this tree — design *documents*) is distinct from the repo-root `Design/` (design *assets*: legends, tokens, libraries, handoff packages). Cite with enough path to disambiguate.

@@ -107,4 +107,4 @@ Net revenue per sale after Stripe: **Founding $8.44** · **Self-Report $6.49**.
 | Supabase Pro | ~$25/mo | Before beta marketing (idle-pause already mitigated by push cron) | Capacity/SLA |
 | Apple Developer (Lantern Digital org) | $99/yr | Phase B scheduled (D-U-N-S in progress) | App Store distribution |
 
-Monthly budget report (automation piece #10, 1st of month) tracks this table + actuals; statement reconciliation is owner-fed CSV drops into `Documents/Business/statements/` (gitignored) — agents NEVER hold bank/financial credentials (standing rule).
+Monthly budget report (automation piece #10, 1st of month) tracks this table + actuals; statement reconciliation is owner-fed CSV drops into `DevLog_Docs/Business/statements/` (gitignored) — agents NEVER hold bank/financial credentials (standing rule).

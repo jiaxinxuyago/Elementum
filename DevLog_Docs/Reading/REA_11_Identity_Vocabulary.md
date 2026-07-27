@@ -1,6 +1,6 @@
 # Elementum · REA_11 — Identity Vocabulary
 
-> **Formerly DES_12** — moved to the Reading library in the 2026-07-23 design/reading doc separation; historical citations of "DES_12" (and the pre-rename "DES_12_Identity_Compound_Vocabulary") refer to this file (registry: Documents/README.md).
+> **Formerly DES_12** — moved to the Reading library in the 2026-07-23 design/reading doc separation; historical citations of "DES_12" (and the pre-rename "DES_12_Identity_Compound_Vocabulary") refer to this file (registry: DevLog_Docs/README.md).
 
 > **Status: OWNER-LOCKED vocabulary (2026-07-02) · design record for the identity-card / Five Energies redesign.**
 > Branch: `feat/identity-card-design`. Companion to REA_01 §3 (the 50-key taxonomy) — this doc records the
