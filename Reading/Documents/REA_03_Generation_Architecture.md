@@ -9,7 +9,7 @@
 
 > **Cross-reference (added with REA_06).**
 > Field shapes, tier gating per field, and `varyBy` cardinality now live in the canonical schema: [`Elementum_App/src/contract/archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js).
-> Designer-facing companion grouped by UI surface: [REA_06 — Archetype Fields](../Reading/REA_06_Archetype_Fields.md).
+> Designer-facing companion grouped by UI surface: [REA_06 — Archetype Fields](REA_06_Archetype_Fields.md).
 > The full tag library (stem, tg, element, band, tgPattern, branch, season, gender, lifeDomain, lifeStage, lifePeriod, annualPillar) is documented in REA_06 → "VaryBy Tag Library". Use it to classify any new field without colliding with existing archetype universes.
 > The DevBar `Schema` tab visualizes coverage and cardinality against this schema for the active stem.
 > **When this doc and the schema disagree, the schema wins.** REA_03 focuses on orchestration, delivery, rendering rules, and synthesis contracts — the *how*, not the *what*.
@@ -237,7 +237,7 @@ Every TG card is governed by a **locked reading angle** — a single lens that a
 ## §4 — Data Architecture & Field Reference
 
 > **⚠ Partial overlap with the schema (REA_06 / archetypeSchema.js).**
-> The field names, types, and tier tables in this section duplicate what is now canonically declared in [`archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js) and documented by UI surface in [REA_06](../Reading/REA_06_Archetype_Fields.md).
+> The field names, types, and tier tables in this section duplicate what is now canonically declared in [`archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js) and documented by UI surface in [REA_06](REA_06_Archetype_Fields.md).
 > This section is retained for historical continuity and to keep REA_03's orchestration/rendering discussion self-contained. When field specifics diverge between this section and the schema, the schema wins. Candidate for consolidation to a pointer once REA_06 matures.
 
 ### Source of truth: `archetypeSource.js`

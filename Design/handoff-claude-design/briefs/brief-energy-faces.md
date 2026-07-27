@@ -5,7 +5,7 @@
 > function-complete** in the app (`#/app-energy` → `D13FacesScreen`); this brief
 > asks for the **bespoke visual elevation** of the existing composition, not a
 > new structure. Spec: DES_04 §11 (Energy Faces) · v2.1 audit
-> `DevLog_Docs/Reading/REA_08_Reading_V2.1_Reconciliation_Audit.md` (B5/B7).
+> `Reading/Documents/REA_08_Reading_V2.1_Reconciliation_Audit.md` (B5/B7).
 
 ## Screen(s) in scope
 - Route: `#/app-energy` (reached from the catalogue: tap an energy's dot/READ).

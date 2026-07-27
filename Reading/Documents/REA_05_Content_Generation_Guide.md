@@ -9,7 +9,7 @@
 Written against the live schema in `archetypeSource.js` — field names and data shapes are exact.
 
 > **Cross-reference (added with REA_06).**
-> The *shape* of every field (type, tier, word caps, `varyBy` cardinality) is declared canonically in [`Elementum_App/src/contract/archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js). The UI-surface companion is [REA_06 — Archetype Fields](../Reading/REA_06_Archetype_Fields.md).
+> The *shape* of every field (type, tier, word caps, `varyBy` cardinality) is declared canonically in [`Elementum_App/src/contract/archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js). The UI-surface companion is [REA_06 — Archetype Fields](REA_06_Archetype_Fields.md).
 > REA_05 tells you **how to write each field** (prompt templates, voice, classical grounding, quality gates). The schema tells you **what to write and how many variants are needed**.
 > When this doc describes a field shape that conflicts with the schema, the schema wins — update this doc.
 
