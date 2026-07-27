@@ -127,12 +127,10 @@ Design/
 │   ├── legend-v6-card-archetypes.html ← v6 (element/pillar tile · section hero · halftone duotone register · modal-from-card · tab-strip-inside-card)
 │   └── legend-v7-ink-wash.html      ← v7 (ink-wash polish using uploaded ref paintings · 4 archetypes: tile, section hero, modal hero, compact strip)
 ├── assets/                          ← painted backgrounds (16 PNGs) + ink references
-├── reference/                       ← visual references
-│   ├── AppPages/                    ← Pattern + Nebula screenshots (10 PNGs)
-│   ├── CardReference/               ← Apps + Games card-design references
-│   ├── InkWash/FromClaude/          ← 6 public-domain Chinese ink-wash paintings (38 MB · Fan Kuan, Ma Yuan ×3, Bada Shanren, Shi Tao)
-│   └── Five Element Icons/
 └── exports/reveal-and-energymap/    ← original V1 prototype seed bundle
+
+*(reference/ — downloaded visual references — was purged 2026-07-27 (95fa94d);
+recover individual images from git history pre-95fa94d if ever needed.)*
 
 Elementum_App/src/components/
 ├── onboarding/
