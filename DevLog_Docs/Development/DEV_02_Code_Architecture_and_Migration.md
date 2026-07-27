@@ -40,7 +40,7 @@ Elementum_Project/
 │   ├── src/store/, src/styles/, src/components/  ← Other extracted / fresh modules.
 │   └── package.json, vite.config.js, index.html, etc.
 │
-├── Data/
+├── Reading/                             ← Reading data artifacts (2026-07: was Data/)
 │   └── elementum_profile_database.html  ← HTML twin of archetypeSource.js.
 │                                           Must stay in sync at all times.
 │
@@ -74,7 +74,7 @@ Elementum_Project/
 
 | File | Paired with | Rule |
 |---|---|---|
-| `Elementum_App/src/content/archetypeSource.js` | `Data/elementum_profile_database.html` | Every field change must be applied to both. |
+| `Elementum_App/src/content/archetypeSource.js` | `Reading/elementum_profile_database.html` | Every field change must be applied to both. |
 | `Elementum_App/src/content/archetypeSource.js` | `archive/legacy-monolith/Elementum_Engine.jsx` inlined `STEM_CARD_DATA` (lines 4–979) and `TG_CARD_DATA` (lines 980–1558) | When a field is authored in archetypeSource.js, sync to the engine's inlined copy **only if** you intend to open the engine in legacy browser-preview mode. The live Vite app reads from the content file directly and does not require engine sync. |
 | `Elementum_App/src/content/STEM_CARD_DATA.js` | `archive/legacy-monolith/Elementum_Engine.jsx` inlined variant entries | Same conditional — sync only for legacy preview; Vite app is already authoritative. |
 | `Elementum_App/tools/batchGenerate.js` | `Elementum_App/src/content/STEM_CARD_DATA.js`, `DomEnergyTg_Data.js` | Do not hand-edit generated entries — re-run the pipeline. The script reads the content files from the app folder. |
