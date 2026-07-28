@@ -620,7 +620,7 @@ When a non-DM element dominates the chart, it is not just a symbolic presence �
 
 ### §3.5 — Ten God Psychological Profiles (Layer 2: Specific TG Mechanisms)
 
-Each profile gives the specific psychological mechanism that illuminates this TG relationship. These are the Tier 1 inputs for `buildAnglesPrompt()`. The polarity pair distinction must drive structural differences in generated content.
+Each profile gives the specific psychological mechanism that illuminates this TG relationship. These are the Tier 1 inputs for `buildAnglePrompt()`. The polarity pair distinction must drive structural differences in generated content.
 
 #### 比肩 — The Twin (same-polarity companion)
 
