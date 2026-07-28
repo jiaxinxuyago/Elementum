@@ -42,7 +42,7 @@ const SECTION_FONT = { name: 'Arial', size: 11, bold: true, color: { argb: 'FF58
 // Sheet 1 — the unified field map (sections A..M share the 7-col schema)
 const fieldSections = sections.filter((s) => /^[A-M] /.test(s.title));
 const ws = wb.addWorksheet('Field Map', { views: [{ state: 'frozen', ySplit: 2 }] });
-const COLS = ['Section', 'ID', 'Field', 'Type', 'Varies by', 'Measured (words · chars)', 'Budget', 'Source of truth / notes', 'Status'];
+const COLS = ['Section', 'ID', 'Field', 'Type', 'Varies by', 'Measured (words · chars)', 'Budget', '庚 example (1995-04-29 · 18:00)', 'Source of truth / notes', 'Status'];
 ws.addRow(['REA_12 — Reading Data Field Map · generated from Reading/Documents/REA_12_Reading_Data_Field_Map.md — the markdown is canonical; do not hand-edit this file']);
 ws.mergeCells(1, 1, 1, COLS.length);
 ws.getRow(1).font = { ...FONT, italic: true, size: 9 };
@@ -54,19 +54,17 @@ for (const s of fieldSections) {
   const status = /LOCKED/.test(s.title) ? 'LOCKED' : 'WIP';
   const sectionName = s.title.replace(/ — .*/, '');
   for (const r of s.rows) {
-    // section tables vary: 7-col (with Measured) or 6-col (WIP: Budget/Notes)
-    let row;
-    if (s.header.length >= 7) row = [sectionName, r[0], r[1], r[2], r[3], r[4], r[5], r[6] || '', status];
-    else row = [sectionName, r[0], r[1], r[2], r[3], '', r[4], r[5] || '', status];
+    // uniform 8-col section tables: # | Field | Type | Varies by | Measured | Budget | Example | Source/notes
+    const row = [sectionName, r[0], r[1], r[2], r[3], r[4], r[5], r[6] || '', r[7] || '', status];
     const added = ws.addRow(row);
     added.font = FONT;
     added.alignment = { vertical: 'top', wrapText: true };
-    if (/⚠/.test(row.join(' '))) added.getCell(8).font = { ...FONT, color: { argb: 'FF9B2C2C' }, bold: true };
-    if (status === 'WIP') added.getCell(9).font = { ...FONT, color: { argb: 'FF8A6D3B' }, bold: true };
-    else added.getCell(9).font = { ...FONT, color: { argb: 'FF2F6F4F' }, bold: true };
+    if (/⚠/.test(row.join(' '))) added.getCell(7).font = { ...FONT, color: { argb: 'FF9B2C2C' }, bold: true };
+    if (status === 'WIP') added.getCell(10).font = { ...FONT, color: { argb: 'FF8A6D3B' }, bold: true };
+    else added.getCell(10).font = { ...FONT, color: { argb: 'FF2F6F4F' }, bold: true };
   }
 }
-const widths = [16, 6, 34, 16, 22, 20, 26, 48, 9];
+const widths = [16, 6, 30, 15, 20, 18, 24, 52, 40, 9];
 widths.forEach((w, i) => { ws.getColumn(i + 1).width = w; });
 ws.autoFilter = { from: { row: 2, column: 1 }, to: { row: ws.rowCount, column: COLS.length } };
 
