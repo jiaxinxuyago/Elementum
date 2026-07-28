@@ -1,6 +1,6 @@
 # Elementum · Design → Implementation Manifest
 
-The bridge between design legend (`Design/legend-*.html`) and React app (`Elementum_App/src/components/`). For every component, this file lists:
+The bridge between design legend (`Design/assets/Legends/legend-*.html`) and React app (`Elementum_App/src/components/`). For every component, this file lists:
 
 - **Source** — which legend section is canonical
 - **App file** — the JSX/component file in the app (existing or planned)
@@ -117,16 +117,16 @@ Design/
 ├── tokens.css                       ← canonical CSS variables
 ├── icons.svg                        ← canonical icon library (33 symbols)
 ├── manifest.md                      ← THIS FILE (component → app mapping)
-├── Legends/                         ← canonical legend HTMLs (in version order)
-│   ├── northstar-anchor.html        ← V1 prototype DNA
-│   ├── legend-primitives.html       ← v1 (color · type · primitives · italic gallery v2)
-│   ├── legend-patterns.html         ← v2 (welcome · onboarding · loading · tab nav · modals · forms · status · page header)
-│   ├── legend-screens.html          ← v3 (Today · Energy Map · Guidance · Friends · Profile · DetailShell · Calendar · Backgrounds · Tier-locks · Modal taxonomy · Nav map · ICONS-ONLY tab bar)
-│   ├── legend-screens-amendment.html ← IA reframe (Reveal → Reading-catalogue → Energy Map · 10 DM placeholder icons · Reading containers α/β/γ · 5 reading card variants · drift log DA.1–DA.11)
-│   ├── legend-v4-polish.html        ← v4 (refined DM ink-wash icons · 7 reading-section icons · Reveal rhythm · γ inline-expansion motion · tab-bar fade-in)
-│   ├── legend-v6-card-archetypes.html ← v6 (element/pillar tile · section hero · halftone duotone register · modal-from-card · tab-strip-inside-card)
-│   └── legend-v7-ink-wash.html      ← v7 (ink-wash polish using uploaded ref paintings · 4 archetypes: tile, section hero, modal hero, compact strip)
 ├── assets/                          ← painted backgrounds (16 PNGs) + ink references
+│   └── Legends/                     ← canonical legend HTMLs (in version order)
+│       ├── northstar-anchor.html    ← V1 prototype DNA
+│       ├── legend-primitives.html   ← v1 (color · type · primitives · italic gallery v2)
+│       ├── legend-patterns.html     ← v2 (welcome · onboarding · loading · tab nav · modals · forms · status · page header)
+│       ├── legend-screens.html      ← v3 (Today · Energy Map · Guidance · Friends · Profile · DetailShell · Calendar · Backgrounds · Tier-locks · Modal taxonomy · Nav map · ICONS-ONLY tab bar)
+│       ├── legend-screens-amendment.html ← IA reframe (Reveal → Reading-catalogue → Energy Map · 10 DM placeholder icons · Reading containers α/β/γ · 5 reading card variants · drift log DA.1–DA.11)
+│       ├── legend-v4-polish.html    ← v4 (refined DM ink-wash icons · 7 reading-section icons · Reveal rhythm · γ inline-expansion motion · tab-bar fade-in)
+│       ├── legend-v6-card-archetypes.html ← v6 (element/pillar tile · section hero · halftone duotone register · modal-from-card · tab-strip-inside-card)
+│       └── legend-v7-ink-wash.html  ← v7 (ink-wash polish using uploaded ref paintings · 4 archetypes: tile, section hero, modal hero, compact strip)
 └── exports/reveal-and-energymap/    ← original V1 prototype seed bundle
 
 *(reference/ — downloaded visual references — was purged 2026-07-27 (95fa94d);

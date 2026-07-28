@@ -3161,7 +3161,7 @@ Originally §11 specified the Energy Map as a flat dashboard tab with an 8-card 
 
 ### §AM.2 — Tab nav is icons-only (supersedes §11 + v2 §4)
 
-Tab labels (calendar / book / etc) carry meaning on their own — no underline text. Bottom tab nav renders icons only; the active tab is marked purely by ink-color weight (the "COLD" style) — **no seal-dot**. *(Audit S4, 2026-06: the WARM seal-dot state was dropped per product direction; this rule is aligned to the shipped `BottomTabNav.jsx`.)* First-time onboarding may include one-time tooltips per tab for discoverability.
+Tab labels (calendar / book / etc) carry meaning on their own — no underline text. Bottom tab nav renders icons only; the active tab is marked purely by ink-color weight (the "COLD" style) — **no seal-dot**. *(Audit S4, 2026-06: the WARM seal-dot state was dropped per product direction; this rule is aligned to the shipped `components/reading/ReadingTabBar.jsx`.)* First-time onboarding may include one-time tooltips per tab for discoverability.
 
 ### §AM.3 — Cormorant title weight at hero vs mini scale (supersedes §3)
 
