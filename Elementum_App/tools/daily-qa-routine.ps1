@@ -1,8 +1,14 @@
 ﻿# ===================================================================
-# ELEMENTUM - daily QA routine (Windows Task Scheduler, ~09:00 daily)
+# ELEMENTUM - QA FALLBACK detector (Task Scheduler, 10:30 Mon-Fri)
 # ===================================================================
-# Runs the full automated QA stack with zero token cost and reports
-# only when something is wrong:
+# Since the 2026-07-27 workflow revision the 9:00 AM scheduled agent
+# (elementum-daily-qa) runs the sweeps and sends THE one QA email of
+# the day. This script is the dead-man switch behind it: it checks
+# whether the agent journaled today; if yes it exits SILENTLY (no
+# email - the one-email-per-day law). Only when the agent never ran
+# (Claude app closed, task missed) does it run the full deterministic
+# stack itself and email the result - clean or not - as the day's QA
+# email:
 #   1. Engine golden-fixture regression   (tools/qa-engine-regression.mjs)
 #   2. Route sweep, all screens x 3 sizes (tools/qa-route-sweep.mjs;
 #      reuses a live dev server on :5173, else starts its own on :5199)
@@ -29,6 +35,16 @@ $reportPath = Join-Path $outDir 'latest.md'
 $sentinel   = Join-Path $root 'DAILY_QA_FAILED.md'
 $findings = @()
 $sections = @()
+
+# -- 0. Dead-man check: did the 9:00 AM QA agent already run today? ---
+# The agent prepends "## yyyy-MM-dd" to its digest on every run. Fresh
+# entry = it owns today's QA email; this fallback stays silent.
+$digest = Join-Path $outDir 'digest.md'
+$today = Get-Date -Format 'yyyy-MM-dd'
+if ((Test-Path $digest) -and ((Get-Content $digest -Raw) -match [regex]::Escape("## $today"))) {
+    Write-Output "daily QA fallback: agent already ran today ($today) - exiting silently"
+    exit 0
+}
 Set-Location $app
 
 # -- 1. Engine regression -------------------------------------------
@@ -150,11 +166,14 @@ function Send-QaEmail($subject, $bodyText) {
     } catch {}
 }
 
+# Fallback mode always emails - the agent did not run, so this IS the
+# day's one QA email (subject carries the weekday per the email law).
+$weekday = Get-Date -Format 'dddd MM-dd'
 if ($findings) {
     # Alert emoji built from the codepoint so this file stays ASCII (A9).
     $siren = [char]::ConvertFromUtf32(0x1F6A8)
-    $intro = "Boss - the 1:57 automated check just flagged a problem. I'm the deterministic detector (no judgment, just measurements) - the triage agent investigates within the hour and will email you a proper read. Raw findings below so you have them first.`n`n"
-    Send-QaEmail "$siren Elementum daily QA - $verdict" ($intro + (Get-Content $reportPath -Raw))
+    $intro = "Boss - the 9:00 QA agent did not run today (app closed?), so the fallback detector ran the checks instead - and flagged a problem. No judgment layer here, just measurements; open a session and say 'agent status' for triage. Raw findings below.`n`n"
+    Send-QaEmail "$siren Elementum QA - $weekday - $verdict (fallback run)" ($intro + (Get-Content $reportPath -Raw))
     @"
 # DAILY QA ROUTINE FOUND PROBLEMS
 
@@ -177,5 +196,8 @@ Written by tools/daily-qa-routine.ps1.
     } catch {}
 } else {
     Remove-Item $sentinel -Force -ErrorAction SilentlyContinue
+    $check = [char]::ConvertFromUtf32(0x2705)
+    $intro = "Boss - the 9:00 QA agent did not run today (app closed?), so the fallback detector ran the full check itself: everything is clean. Screens, journeys, engine, live site, workers - all passing. Nothing needs you.`n`n"
+    Send-QaEmail "$check Elementum QA - $weekday - CLEAN (fallback run)" ($intro + (Get-Content $reportPath -Raw))
 }
-Write-Output "daily QA: $verdict -> $reportPath"
+Write-Output "daily QA fallback: $verdict -> $reportPath"

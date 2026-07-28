@@ -5,10 +5,12 @@ delivery channel protecting Elementum — what runs when, where each piece lives
 and how to rebuild the machine-local half on a new workstation. Built
 2026-07-07; review standard = `DEV_03_Code_Review_Standards.md`.
 
-**The design in one line:** deterministic scripts detect (zero tokens) →
-scheduled agents triage and narrate (tokens only when something's red) →
-findings reach the owner by email/push/sentinel → fixes happen with the owner
-in the loop. Agents find; humans+sessions fix.
+**The design in one line (REVISED 2026-07-27, owner-directed):** one morning
+QA pipeline finds, dispatches, and lands fixes autonomously (merges gated by
+`tools/merge-fix-branches.mjs` — the ONE audited path to main) → EOD reviewers
+run ONLY when there were edits → the owner gets at most one email per
+discipline per day, weekdays only, zero permission prompts. Agents find AND
+fix; the owner reads email and rules on judgment calls.
 
 ---
 
@@ -19,51 +21,54 @@ in the loop. Agents find; humans+sessions fix.
 | 1 | **Route-sweep QA agent** (`qa-sweep`) | On demand: "run the QA sweep" | Claude subagent | `.claude/agents/qa-sweep.md` + `Elementum_App/tools/qa-route-sweep.mjs` | — |
 | 2 | **Engine regression guard** | Every Edit/Write under `src/engine/` | PostToolUse hook | `tools/hook-engine-guard.mjs`, `tools/qa-engine-regression.mjs`, golden `tools/qa-golden/engine-accuracy.json`, shared cases `tools/qa-cases.mjs` | Hook JSON in `.claude/settings.local.json` (§3.2) |
 | 3 | **Live sync + deploy smoke check** | Every Claude-session Stop | Stop hook → script | `tools/sync-live.ps1` (fingerprint-gated build+deploy+smoke; failure sentinel `DEPLOY_SMOKE_FAILED.md`) | Hook JSON in `.claude/settings.local.json` (§3.2) |
-| 4 | **Daily QA detector** | 1:57 PM daily (PC on) | Windows Task Scheduler → script | `tools/daily-qa-routine.ps1` (engine regression + route sweep + live health + git hygiene; sentinel `DAILY_QA_FAILED.md`; emails on failure) | schtasks registration (§3.3) |
-| 5 | **Daily QA triage agent** | ~2:32 PM daily (Claude app open; catches up on launch) | Scheduled Claude agent | Prompt copy: `tools/routines/daily-qa-triage.prompt.md` | Live task: `~/.claude/scheduled-tasks/elementum-daily-qa-triage/` |
-| 6 | **Daily code-review agent** | ~3:14 PM daily (same) | Scheduled Claude agent | Prompt copy: `tools/routines/daily-code-review.prompt.md`; standard: `Operations/Development/DEV_03_Code_Review_Standards.md`; state: `tools/qa-output/code-review/last-reviewed.txt` (gitignored) | Live task: `~/.claude/scheduled-tasks/elementum-daily-code-review/` |
+| 4 | **QA fallback detector** | 10:30 AM Mon–Fri (PC on) | Windows Task Scheduler → script | `tools/daily-qa-routine.ps1` — dead-man switch: exits SILENTLY when #5 journaled today; otherwise runs the full deterministic stack itself and sends the day's QA email (clean or not) | schtasks registration (§3.3) |
+| 5 | **Morning QA pipeline** (`elementum-daily-qa`) | ~9:00 AM Mon–Fri (Claude app open; catches up on launch) | Scheduled Claude agent → fixer subagents → guarded merge | Prompt copy: `tools/routines/daily-qa.prompt.md`; merge gate `tools/merge-fix-branches.mjs`; digest `tools/qa-output/daily-routine/digest.md`; ledger `tools/qa-output/fix-dispatch/journal.md` | Live task: `~/.claude/scheduled-tasks/elementum-daily-qa/` |
+| 6 | **EOD code-review agent** | ~11:30 PM Mon–Fri, ONLY on days with code commits | Scheduled Claude agent → fixer subagents → guarded merge | Prompt copy: `tools/routines/daily-code-review.prompt.md`; standard: `Operations/Development/DEV_03_Code_Review_Standards.md` | Live task: `~/.claude/scheduled-tasks/elementum-daily-code-review/` |
 | 7 | **Email report channel** | Called by #4/#5/#6/#8/#9/#10/#11 | Worker endpoint | `workers/push/index.js` `POST /report` (secret-gated, sends `qa@elementum.life` → company inbox lanterndigitalhodl@gmail.com (switched 2026-07-13; personal gmail = verified fallback) only; free verified-destination path) | `ELEMENTUM_REPORT_KEY` user env var (§3.4) |
-| 8 | **Fix-dispatch manager + bug-lifecycle ledger** | ~4:01 PM daily (closure pass runs even on clean days) | Scheduled Claude agent → parallel fixer subagents | Prompt copy: `tools/routines/fix-dispatch.prompt.md`; lifecycle ledger `tools/qa-output/fix-dispatch/journal.md` (gitignored; finding ↔ branch ↔ OPEN/FIX-READY/CLOSED/REOPENED/REPORT-ONLY) | Live task: `~/.claude/scheduled-tasks/elementum-fix-dispatch/` |
-| 9 | **Project Manager** (docs audit + Day Log + task report; daily, Mondays = full registry sweep) | ~4:45 PM daily | Scheduled Claude agent (playbook: .claude/agents/doc-auditor.md) | Playbook + prompt copy tools/routines/project-manager.prompt.md; journal tools/qa-output/doc-audit/ (gitignored); sanctioned write: Operations/Project_Management/PM_03_Day_Log.md (append-only) | Live task: ~/.claude/scheduled-tasks/elementum-project-manager/ |
+| 8 | **Guarded merge gate** (retired the 4:01 fix-dispatch routine 2026-07-27 — dispatch now lives inside #5/#6/#9) | Invoked by #5/#6/#9 after fixers pass gates | Node script (the ONE path to main) | `tools/merge-fix-branches.mjs` — autofix/*-only, clean+synced-main precondition, conflict abort, re-gates (eslint + engine regression + build), hard rollback on failure, push (auto-deploys via GitHub Actions), branch retirement. Ledger stays `tools/qa-output/fix-dispatch/journal.md` (Name/Priority/Description/Category; OPEN→FIX-READY→CLOSED/REOPENED/BACKLOG/REPORT-ONLY) | — |
+| 9 | **EOD Project Manager** (Day Log always on landed days; docs audit + email ONLY on doc-edit days, incl. Reading data; Mondays = full registry sweep) | ~11:45 PM Mon–Fri | Scheduled Claude agent (playbook: .claude/agents/doc-auditor.md) | Playbook + prompt copy tools/routines/project-manager.prompt.md; journal tools/qa-output/doc-audit/ (gitignored); sanctioned write: Operations/Project_Management/PM_03_Day_Log.md (append-only) | Live task: ~/.claude/scheduled-tasks/elementum-project-manager/ |
 | 10 | **Budget & spend report** (monthly) | 1st of month ~10:17 AM | Scheduled Claude agent | Prompt copy tools/routines/budget-report.prompt.md; sources: BIZ_01 backlog table; saves monthly report to Operations/Business/budget-reports/ (sanctioned write); statement reconciliation = owner-uploaded in interactive sessions (Agent-Ops brief nudges monthly) | Live task: ~/.claude/scheduled-tasks/elementum-budget-report/ |
 | 11 | **Data analyst** (weekly, ⏸ HIBERNATING until post-beta) | Tuesdays ~11:14 AM — task DISABLED; wake = enable after WAE instrumentation ships (Workers Paid trigger, early Aug) | Scheduled Claude agent | Prompt copy tools/routines/analytics-report.prompt.md (locked metric definitions inside); reports to qa-output/analytics/ | Live task: ~/.claude/scheduled-tasks/elementum-analytics-report/ (enabled:false) |
-| 12 | **Customer-data backup** (the money tables — PM_02 HK-1, DEPLOYED 2026-07-09) | 2:45 AM daily (PC on) | Windows Task Scheduler → windowless VBS shim → node | `tools/backup-customer-data.mjs` (exports `entitlements` + `auth.users` id↔email map + `push_subscriptions` → `D:/Elementum/Backups/customer-data/` + OneDrive `Desktop/Elementum/Backups/customer-data/`, rotate 30; GCS third copy auto-activates when its key file exists; failure sentinel `BACKUP_FAILED.md`, success clears it) + `tools/run-customer-backup.vbs` + `tools/setup-backup-key.ps1` | schtasks "Elementum Customer Data Backup" + `ELEMENTUM_SUPABASE_SERVICE_KEY` user env var + optional GCS key file (§3.6); log `%TEMP%\customer-backup.log` |
+| 12 | **Customer-data backup** (the money tables — PM_02 HK-1; ⏸ **DISABLED 2026-07-27, owner directive: re-enable at customer onboarding via `schtasks /Change /TN "Elementum Customer Data Backup" /ENABLE`**) | was 2:45 AM daily (PC on) | Windows Task Scheduler → windowless VBS shim → node | `tools/backup-customer-data.mjs` (exports `entitlements` + `auth.users` id↔email map + `push_subscriptions` → `D:/Elementum/Backups/customer-data/` + OneDrive `Desktop/Elementum/Backups/customer-data/`, rotate 30; GCS third copy auto-activates when its key file exists; failure sentinel `BACKUP_FAILED.md`, success clears it) + `tools/run-customer-backup.vbs` + `tools/setup-backup-key.ps1` | schtasks "Elementum Customer Data Backup" + `ELEMENTUM_SUPABASE_SERVICE_KEY` user env var + optional GCS key file (§3.6); log `%TEMP%\customer-backup.log` |
 
 Related but product infra, not QA automation: the push worker's **hourly cron**
 (daily reminders; doubles as the Supabase free-tier keep-alive) and the
 **stripe-webhook** / **llm** workers (INF_01 §4.2/§4.3).
 
-## §2 A normal day
+## §2 A normal day (REVISED 2026-07-27 — weekdays only, no weekend routines)
 
-- **1:57 PM** — detector runs all four check groups. Clean: report file only
-  (`tools/qa-output/daily-routine/latest.md`). Findings: email + desktop
-  balloon + `DAILY_QA_FAILED.md` sentinel (any sentinel at the project root
-  surfaces in the next session's branch-hygiene preflight).
-- **~2:32 PM** — triage agent reads the report, verifies suspects against
-  screenshots, writes + emails the plain-English digest
-  (`tools/qa-output/daily-routine/digest.md`, newest-first journal).
-- **~3:14 PM** — code-review agent reviews `lastSHA..origin/main` against
-  DEV_03_Code_Review_Standards (depth scales with diff size; findings must cite
-  §-codes), journals to `tools/qa-output/code-review/journal.md`, emails the
-  verdict, advances the SHA marker.
-- **~4:01 PM** — fix-dispatch manager. FIRST the **closure pass** (every day):
-  FIX-READY ledger entries whose `autofix/*` branch the owner merged are
-  checked against today's runs — no recurrence → **CLOSED** (emailed as
-  "✅ … task closed"); recurrence → **REOPENED** (email + push). Merge is not
-  closure; *verified-gone* is closure. THEN new findings: filters to the
-  DISPATCHABLE class (mechanical +
-  CONFIRMED only — dead code, stale comments, canonical-constant dedup, lint,
-  lazy/prefetch pairing, unambiguous token snaps, doc-path drift, auth-model
-  comments; NEVER webhook/entitlement/auth logic, engine behavior, prices,
-  golden re-blessing, or design-judgment/D15 items), groups them into
-  **file-disjoint batches** (max 3/day), and launches parallel fixer agents in
-  **isolated worktrees**. Each fixer must pass lint + engine regression +
-  build, then pushes `autofix/<date>-<topic>` to origin. The manager verifies
-  the branches and emails per-branch merge commands. **Only the owner merges
-  to main** — no routine ever commits to main, touches the main checkout, or
-  deploys; findings already sitting on an unmerged autofix branch are
-  reminded, not re-dispatched.
-- **~4:45 PM daily** (Mondays widen to the FULL registry sweep) — doc auditor verifies Operations/ against the product (daily scope: 48h-changed docs + the automation-critical trio DEV_03/PM_01/INF_01), mines pending items with ages, and writes TODAY's entry to PM_03_Day_Log.md (Done / Pending / Pivots — its one sanctioned Operations/ write, append-only). Emails the structured report daily (status + day log + discrepancies + next-up + long-overdue). Charter unchanged: (LIVING docs must track reality; RECORD docs — ledgers/audits/archives — are append-only history and are never flagged or rewritten). MECHANICAL findings (dead paths, legacy DOC# citations per the README alias table, registry sync) land in its journal as fix-dispatch candidates; JUDGMENT findings go to the owner. Emails every run.
+- **~9:00 AM — the morning QA pipeline** (`elementum-daily-qa`, autopilot, no
+  permission prompts by law). Runs the full stack itself (engine regression,
+  route sweep, journey sweep, live health), triages against screenshots,
+  journals to `digest.md` (which silences the 10:30 fallback), and maintains
+  the bug ledger (Name `BUG-YYYYMMDD-n` · Priority ON-FIRE/HIGH/MID/LOW ·
+  Description · Category app/backend/agent-routine/server/docs). Then:
+  - **Email ① — THE daily QA report, always** (clean or bug list).
+  - ON-FIRE/HIGH bugs → dispatch fixers immediately. **Hard rule: parallel
+    only when file sets are fully disjoint; overlapping fixes queue
+    sequentially** by priority then chain of impact (engine → store →
+    components → content → docs). Fixers work worktree-isolated on
+    `autofix/<date>-<slug>`, pass gates, push. MID/LOW → BACKLOG (listed with
+    ages in every morning email; no dispatch).
+  - **Email ② `[Fixed Bug List — <Weekday>]`** — only if fixers ran.
+  - Merge via `node tools/merge-fix-branches.mjs autofix/...` — the ONE path
+    to main (gates + rollback + push, which auto-deploys elementum.life).
+  - **Email ③ `[Fix Branches Merged — <Weekday>]`** — only if a merge pushed;
+    carries the commit range (the changelist) and bugs CLOSED.
+- **10:30 AM — fallback detector** (Windows task): if the 9:00 agent journaled
+  today → exits silently. If not (app was closed) → runs the deterministic
+  stack itself and sends the day's QA email, clean or not, subject-tagged
+  "(fallback run)".
+- **~11:30 PM — EOD code review**, ONLY if code commits landed today (zero
+  commits = zero email, one journal line). Reviews the whole day as one
+  change-set against DEV_03, auto-fixes must-fix findings through the same
+  fixer + guarded-merge pipeline, proposes judgment calls to the owner.
+  **One email, only on edit days.**
+- **~11:45 PM — EOD project manager**: writes the PM_03 day-log entry whenever
+  anything landed today; runs the doc audit + email ONLY when docs (including
+  Reading/ data) were edited (Mondays widen to the full registry sweep).
+  LIVING/RECORD charter unchanged; MECHANICAL doc findings may be auto-fixed
+  through the same pipeline, JUDGMENT goes to the owner.
 - **Continuously** — engine guard on engine edits; deploy smoke on every
   auto-deploy; `qa-sweep` whenever asked.
 
@@ -74,13 +79,16 @@ subject lines are designed to be read without opening):
 
 | Email | When | Subject convention |
 |---|---|---|
-| Daily digest | ~2:32 PM every day | `Elementum daily QA — CLEAN` / `— N FINDINGS` (3–6 plain sentences, technical report below a separator) |
-| Instant technical alert | 1:57 PM, failure only | `Elementum daily QA — FINDINGS (N)` (raw detector report) |
-| Code-review verdict | ~3:14 PM, commit-days only | `Elementum code review — CLEAN \| N findings (M commits)` (§-coded findings + ruled-out list) |
-| Docs & day log | ~4:45 PM every day | `Elementum docs & day log — <CLEAN | N findings>` (status + PM_03 day entry + §1 discrepancies + §2 next-up + §3 long-overdue w/ ages) |
-| Bug lifecycle | ~4:01 PM, whenever the ledger has activity | `Elementum bugs — X closed · Y fix-ready · Z awaiting merge` (sections: ✅ Closed · ⚠ Reopened · 🆕 Fix-ready w/ merge commands · ⏳ Awaiting merge w/ age · 📋 Report-only) |
+| Daily QA report | ~9:00 AM Mon–Fri, ALWAYS (the one guaranteed email) | `<emoji> Elementum QA — <Weekday MM-dd> — CLEAN \| N bugs` (bug list w/ Name·Priority·Description·Category + backlog w/ ages) |
+| Fixed-bug list | bug days only, after fixers finish | `✅ [Fixed Bug List — <Weekday MM-dd>] <names>` |
+| Merge confirmation | bug days only, after the guarded merge pushes | `🔧 [Fix Branches Merged — <Weekday MM-dd>] <sha..sha>` (bugs CLOSED + changelist range) |
+| Code review | ~11:30 PM, ONLY days with code commits | `<emoji> Elementum code review — <Weekday MM-dd> — CLEAN \| N findings` |
+| Docs report | ~11:45 PM, ONLY days with doc edits (incl. Reading data) | `<emoji> Elementum docs — <Weekday MM-dd> — CLEAN \| N findings` (+ PM_03 day entry verbatim) |
+| Fallback QA | 10:30 AM, ONLY when the 9:00 agent never ran | `<emoji> Elementum QA — <Weekday MM-dd> — ... (fallback run)` — replaces, never duplicates, the daily QA report |
 
-Volume: two emails on a quiet day (QA digest + docs & day log); up to five on the worst day.
+Volume law (owner directive 2026-07-27): ONE email per discipline per day.
+Quiet day = exactly one (the QA report). Busy day = QA + fixed list + merged +
+review + docs = five, each sent once, no repeats, no nagging re-sends.
 Voice (owner directive 2026-07-09): every email reads as an assistant reporting
 to the boss — first person, direct address, leads with whether anything needs
 the owner; technical facts sit under the human summary. Subject-line dashboard
@@ -93,18 +101,14 @@ stuck on its gates, or a REOPENED bug. Sentinel files at the project root
 (`DAILY_QA_FAILED.md`, `DEPLOY_SMOKE_FAILED.md`) surface in every session's
 branch-hygiene preflight as the catch-all.
 
-**Action frontend (in preference order):**
-1. **A Claude session in this project** (desktop, or phone via claude.ai
-   remote with the PC on) — "merge today's autofix branches" does
-   verify → merge → push → Stop-hook deploy + smoke in one motion. Also the
-   surface for "run the QA sweep", D15 rulings, and triage questions.
-2. **Raw git** — every lifecycle email carries exact
-   `git merge origin/autofix/...` commands; finish with a session (or manual
-   `sync-live.ps1`) so the deploy fires.
-3. **GitHub web** — fine for reviewing branch diffs from any device.
-   ⚠ A GitHub-only merge updates origin but NOT the local tree — **the live
-   site deploys from the local working tree**, so nothing ships until a local
-   session pulls.
+**Action frontend:** merges no longer need the owner (guarded auto-merge,
+2026-07-27). What still lands on the owner's desk: ⚠️-flagged judgment
+findings, gate-failure rollbacks (exit 2 from the merge tool — branches left
+for a human), REOPENED bugs, MID/LOW backlog pruning, and owner rulings
+(D-series, golden re-blessing). Surface of choice: a Claude session in this
+project ("agent status" → triage → decisions). Deploys ride BOTH GitHub
+Actions (on every push to main touching the app) and the local Stop-hook
+(`sync-live.ps1`) — a GitHub-side merge now DOES ship without a local pull.
 
 ## §2c Journey QA — the interaction layer (DEPLOYED 2026-07-09)
 
@@ -162,11 +166,11 @@ runs the same command with window style 0 and keeps the interactive session
 (`%TEMP%\dq-task.log`) that diagnosed the incident.
 ```powershell
 $action   = New-ScheduledTaskAction -Execute 'wscript.exe' -Argument '"<abs>\Elementum_App\tools\run-daily-qa.vbs"'
-$trigger  = New-ScheduledTaskTrigger -Daily -At '13:57'
+$trigger  = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -At '10:30'
 $settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Minutes 30)
 Register-ScheduledTask -TaskName "Elementum Daily QA" -Action $action -Trigger $trigger -Settings $settings
 ```
-(`StartWhenAvailable` back-fills a missed 1:57 when the PC comes on. S4U /
+(`StartWhenAvailable` back-fills a missed 10:30 when the PC comes on. S4U /
 "run whether logged on or not" needs elevation — not used.)
 Health check: `schtasks /Query /TN "Elementum Daily QA" /FO LIST /V` —
 `Last Result` must be 0; instant-return failures → read `%TEMP%\dq-task.log`.
@@ -182,14 +186,18 @@ Elementum_App/, real filesystem).
 `npx wrangler secret bulk <json-file> --config workers/push/wrangler.jsonc`
 (JSON `{"REPORT_KEY":"<key>"}`; then redeploy the push worker). Never commit it.
 
-**3.5 Scheduled agents** — recreate the six routines from the committed
-prompt copies in `Elementum_App/tools/routines/` (daily: triage ~14:27, code
-review ~15:07, fix dispatch ~15:52 local; project manager ~16:41 (Mondays full sweep); budget report ~10:17 on the 1st (cron 17 10 1 * *); data analyst Tuesdays ~11:07 (cron 7 11 * * 2, hibernating); the scheduler adds jitter). After
-creating, click **Run now** once on each to pre-approve their tools. If a
-prompt is edited later, update BOTH the live task and the repo copy — the repo
-copy is the durable source.
+**3.5 Scheduled agents** — recreate the five routines from the committed
+prompt copies in `Elementum_App/tools/routines/` (morning QA `0 9 * * 1-5`;
+EOD code review `30 23 * * 1-5`; EOD project manager `45 23 * * 1-5` (Mondays
+full sweep); budget report `17 10 1 * *`; data analyst `7 11 * * 2`,
+hibernating; the scheduler adds jitter). Autopilot rests on the COMMITTED
+allowlist (.claude/settings.json), not per-task approvals — those reset on
+every prompt edit. If a prompt is edited later, update BOTH the live task and
+the repo copy — the repo copy is the durable source.
 
-**3.6 Customer-data backup** (routine #12) — three pieces:
+**3.6 Customer-data backup** (routine #12 — ⏸ task DISABLED 2026-07-27 per
+owner; re-enable at customer onboarding with
+`schtasks /Change /TN "Elementum Customer Data Backup" /ENABLE`) — three pieces:
 - **Supabase key:** dashboard → API Keys → New secret key named
   `customer_backup` (dedicated key per consumer — never reuse
   `stripe_webhook`/`default`; REVEAL with the eye icon before copying), then
@@ -212,17 +220,28 @@ copy is the durable source.
   script auto-activates the third copy when that file appears. Cost: $0.00
   (always-free tier; usage ≈1% of every limit).
 
-## §4 Standing rules
+## §4 Standing rules (REVISED 2026-07-27)
 
-- Every agent routine is **read-only** toward app code. Writable exceptions are
-  named per routine (QA output dirs, the two journals, the review SHA marker).
+- **Weekday law:** all routines run Mon–Fri only. Weekends are silent.
+- **Autopilot law:** routines NEVER prompt the owner for permission — the
+  committed allowlist covers their entire surface; a step that would prompt is
+  skipped and disclosed in the email.
+- **One-email law:** at most one email per discipline per day (QA report /
+  fixed list / merged confirmation / code review / docs). No re-sends, no
+  nagging, no duplicate coverage of a standing item within the same day.
+- **Merge law:** the ONLY way any agent lands anything on main is
+  `tools/merge-fix-branches.mjs` (autofix/*-only, gates, rollback, push =
+  auto-deploy). Raw `git merge` / `git push origin main` remain outside every
+  allowlist rule. Gate failure (exit 2) = rolled back, owner's desk.
+- **File-disjoint law:** parallel fixers only on fully disjoint file sets;
+  overlaps queue sequentially by priority then chain of impact
+  (engine → store → components → content → docs).
 - Golden re-blessing (`qa-engine-regression.mjs --update`) and radius/token
   rulings are owner-only actions — no routine may perform them.
-- "Silence is green": no email/notification on clean runs except the daily
-  digest; sentinels are self-describing and deleted after triage.
 - Bug-lifecycle law: a finding is CLOSED only when its merged fix is verified
-  absent in a subsequent full run — the dispatch manager is the sole authority
-  over the ledger, and a REOPENED finding outranks new work.
+  absent in a subsequent full run; a REOPENED finding outranks new work.
+  MID/LOW bugs live in BACKLOG with ages, surfaced every morning, dispatched
+  only on owner word or promotion to HIGH.
 - Scheduled jobs never depend on anything installed from an interactive
   session: dev-session sandboxes virtualize system-path writes into an
   overlay the scheduler can't see (2026-07-08 incident). A routine installs
