@@ -16,16 +16,16 @@ component list (2026-06-24, `Reading/Documents/_ARCHIVE_Reading_V2.1_Reconciliat
 variants, ruling-domain atom, `PositionalCard` (宫位 × 十神) — track build
 status in DES_13.
 
-## The six roots
+## The five roots + the external vault
 
 | Root | Holds | Authority |
 |---|---|---|
 | `Documents/` | DES_04 App Design (+ §AMENDMENT locked rules) · DES_13 Audit Backlog · DES_14 Asset Map · DOMINANCE_WHEEL_RULES.md · HANDOFF_PART1.md (engine specs) | written design law |
 | `Library/` | the north star — see below | visual design authority |
-| `Assets/` | Backgrounds/ (24 plates + Concepts + originals backup) · Concept Arts/ · Moodboards/ (art) · Components/{DominanceWheel, TenStems, Thumbnails, cat, generic-icons, icons, iconography} · AppIcon.png | art reference database |
+| `Assets/` | Backgrounds/ (the 24 canonical plates) · AppIcon.png — the art bulk moved to the external vault `D:\Elementum\Art_Library\` (Phase 5, 2026-07-29) | canonical plates only |
 | `Wireframes/` | the d13 set (word budgets cited as LAW by the Reading docs) | historical spec, still cited |
 | `Source/` | tokens.css (canonical CSS variables) · icons.svg (canonical icon sprite) · this manifest | code-facing sources |
-| `Archive/` | superseded iterations + pre-JourneyCatalogue handoff bundles — README-indexed | history, NEVER authority |
+| (external) `D:\Elementum\Art_Library\` | Archive (superseded iterations + handoff bundles) · Concept Arts · Components · Moodboards · Backgrounds-Source · ThumbnailCards — README-indexed | reference database, NEVER authority or runtime |
 
 ## The Library (north star)
 
@@ -36,7 +36,7 @@ status in DES_13.
 | `Library_Components.html` | every recurring component, in the frozen-registry language (C1–C7, energy pills, floating windows) | live-code specs + rendered demos |
 | `Library_Backgrounds.html` | screen→ground authority table (mirrored by src/styles/backgrounds.js) + all 24 plates + opacity law | live-code authority, plates embedded |
 | `Library_Screens/` | per-surface capture galleries (Reading_Journey.html first) | Playwright captures of the running app (tools/capture-reading-screens.mjs) |
-| `Library_ThumbnailCards.html` (+ folder) | the thumbnail-card art pool (155 paintings) | reference gallery |
+| (moved) ThumbnailCards | gallery + 155-painting pool now at `D:\Elementum\Art_Library\ThumbnailCards\` (self-contained unit) | reference gallery, external |
 | `Elementum Design Handoff_JourneyCatalogue/` | THE benchmark — the frozen component registry and locked reading-journey design | owner-locked handoff |
 
 ## Source files

@@ -9,7 +9,7 @@
 //   3. a faint advisor-purple radial wash in the top-right corner
 // Requires the consuming screen's scroll area / <main> to be transparent
 // so the veil shows through. Markup is a verbatim port of the draw /
-// guidance hub headers in Design/Archive/exports-handoffs/Elementum_ScreenHandoff/screens-v2.
+// guidance hub headers in Art_Library/Archive/exports-handoffs/Elementum_ScreenHandoff/screens-v2 (external vault).
 // ===================================================================
 
 export default function CloudVeilBackground() {

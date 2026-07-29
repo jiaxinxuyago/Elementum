@@ -1,5 +1,0 @@
-Elementum D13 · Part 1 — live preview (visual reference only; expires ~10 min after generation, fetch-capped).
-Regenerate on request. Source of truth = the files in d13/.
-Generated 2026-06-18, valid until ~22:46 UTC.
-
-https://c7fd0ae6-a76f-4dce-b7ad-2c7859ed5866.claudeusercontent.com/v1/design/projects/c7fd0ae6-a76f-4dce-b7ad-2c7859ed5866/serve/.bundles/b6fdd44f-f923-4615-be71-edd6d1149463.html?t=3c5b13fb926fd399c93fe7ca932d8affeda322bb02b00ba33ecc06da98b89d98.f8c46e6d-7f99-497c-96af-22fd1daa1192.ff4bdc97-40d1-4df6-ad6b-795e79cc4dfc.1781822791.3.7182ca32c198e0d1&direct=1&raw=1

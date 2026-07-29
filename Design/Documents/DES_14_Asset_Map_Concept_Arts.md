@@ -1,13 +1,15 @@
 # ASSET MAP · Concept Arts → screen slots
 
+> **Phase 5 (2026-07-29):** the art sources this map names live in the external vault **`D:\Elementum\Art_Library\`** (`Concept Arts/`, `Components/`, `Moodboards/`, `Backgrounds-Source/`, `ThumbnailCards/`, `Archive/`) — reference-never-runtime; the repo keeps only the 24 canonical plates + what `public/` mirrors. Folder names below resolve against the vault.
+
 **Companion to** `PROMPT_claude_design_wireframes.md`. The wireframe brief decides *structure* (where a hero / tile / band sits). **This map decides which painterly asset skins that slot** once the structure is chosen, and which slots are still un-sourced.
 
 **Three reference systems govern the look** (attach alongside this map):
-- **Aesthetic language** → `Design/Library/Library_Primitives.html` (mood-foundation absorbed; original in `Design/Archive/`) + `Design/Assets/Moodboards/atmospheric-depth/` (3-/5-layer depth) + `brush-samples/` (stroke vocabulary).
+- **Aesthetic language** → `Design/Library/Library_Primitives.html` (mood-foundation absorbed; original in `Art_Library/Archive/`) + `Art_Library/Moodboards/atmospheric-depth/` (3-/5-layer depth) + `brush-samples/` (stroke vocabulary).
 - **Card / hero archetypes** (where art is allowed to sit, crop ratios, ink-wash treatment) → `Design/Library/Library_Components.html` (S4 Inkstone) + `Library_Backgrounds.html` (S4-S5 ink-wash law; legends v6/v7 retired 2026-07-29).
 - **Marks / primitives** (the SVG element seals, not raster) → `Design/Library/Library_Iconography.html` (S1, Set E3 restored) + `Design/Source/icons.svg`.
 
-> **Pipeline note.** The app only reaches assets that have been **mirrored into `Elementum_App/public/`**. Today that is a *thin* slice (see §5). The Concept Arts source folder is large; this map names the *source* asset so curation/mirroring is a lookup, not a hunt.
+> **Pipeline note.** The app only reaches assets that have been **mirrored into `Elementum_App/public/`**. Today that is a *thin* slice (see §5). The Concept Arts source folder is large (external vault, see header); this map names the *source* asset so curation/mirroring is a lookup, not a hunt.
 
 ---
 
