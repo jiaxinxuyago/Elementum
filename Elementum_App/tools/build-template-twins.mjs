@@ -1,8 +1,8 @@
 // ===================================================================
 // ELEMENTUM · template MD-twin generator
 // ===================================================================
-// Renders a review-grade Markdown twin beside every JSON in
-// Reading/Database/templates/. Twins are GENERATED — never hand-edit
+// Renders a review-grade Markdown twin (templates/md/) for every JSON
+// in Reading/Database/templates/json/. Twins are GENERATED — never hand-edit
 // them; edit the JSON (or request the change) and re-run:
 //   node tools/build-template-twins.mjs
 // Spec: REA_05 §1–§3.
@@ -13,7 +13,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DIR = path.resolve(__dirname, '../../Reading/Database/templates');
+const JSON_DIR = path.resolve(__dirname, '../../Reading/Database/templates/json');
+const MD_DIR = path.resolve(__dirname, '../../Reading/Database/templates/md');
 
 const esc = (s) => String(s).replace(/\|/g, '\\|').replace(/\n/g, ' ');
 const cell = (v) => {
@@ -23,9 +24,10 @@ const cell = (v) => {
   return esc(v);
 };
 
-const files = fs.readdirSync(DIR).filter((f) => f.endsWith('.json'));
+fs.mkdirSync(MD_DIR, { recursive: true });
+const files = fs.readdirSync(JSON_DIR).filter((f) => f.endsWith('.json'));
 for (const f of files) {
-  const t = JSON.parse(fs.readFileSync(path.join(DIR, f), 'utf8'));
+  const t = JSON.parse(fs.readFileSync(path.join(JSON_DIR, f), 'utf8'));
   const L = [];
   L.push(`# ${t.$template} — template twin`);
   L.push('');
@@ -76,6 +78,6 @@ for (const f of files) {
     }
     L.push('');
   }
-  fs.writeFileSync(path.join(DIR, f.replace('.json', '.md')), L.join('\n'), 'utf8');
+  fs.writeFileSync(path.join(MD_DIR, f.replace('.json', '.md')), L.join('\n'), 'utf8');
 }
-console.log(`✓ ${files.length} twins regenerated in ${DIR}`);
+console.log(`✓ ${files.length} twins regenerated in ${MD_DIR}`);

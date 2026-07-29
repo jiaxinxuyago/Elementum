@@ -11,8 +11,8 @@
 ## §1 · The storage model (three stations, one direction)
 
 ```
-Reading/Database/templates/*.json     AUTHORING SOURCE OF TRUTH (one file per template)
-        │  (generated twins: *.md — review-grade, never hand-edited)
+Reading/Database/templates/json/*.json   AUTHORING SOURCE OF TRUTH (one file per template)
+        │  (generated twins: templates/md/*.md — review-grade, never hand-edited)
         ▼   owner review → lock
 Elementum_App/src/content/*           RUNTIME TRUTH (js modules the app ships)
         │
@@ -20,8 +20,8 @@ Elementum_App/src/content/*           RUNTIME TRUTH (js modules the app ships)
 engine/journey/consumers              buildJourneyModel · Self-Report · Consultant payload
 ```
 
-1. **`Reading/Database/templates/`** — one **JSON file per data template** (per REA_03 variable): the authoring and review station. Seeded from the live corpus for LIVE/INTERIM variables; stubbed (keys enumerated, values null) for PLANNED ones. Each JSON carries a header block (`$template`, class, axis, status, budget, source_of_truth) so a file is self-describing.
-2. **Markdown twins** (`templates/*.md`) — GENERATED from the JSONs by `tools/build-template-twins.mjs`; clean tables for manual content review. **Never hand-edit a twin** — mark it up / request changes, the JSON updates, twins regenerate. Banner on every twin says so.
+1. **`Reading/Database/templates/json/`** — one **JSON file per data template** (per REA_03 variable): the authoring and review station. Seeded from the live corpus for LIVE/INTERIM variables; stubbed (keys enumerated, values null) for PLANNED ones. Each JSON carries a header block (`$template`, class, axis, status, budget, source_of_truth) so a file is self-describing.
+2. **Markdown twins** (`templates/md/*.md`) — GENERATED from the JSONs by `tools/build-template-twins.mjs`; clean tables for manual content review. **Never hand-edit a twin** — mark it up / request changes, the JSON updates, twins regenerate. Banner on every twin says so.
 3. **`Elementum_App/src/content/`** — the runtime modules (cleanup rule #1: live code lives in the app). Locked template data is **transcribed deliberately** from the JSON station into the content modules — there is **no automatic Reading→app pipeline** (standing owner rule; an auto-pipeline would be a separate owner-scoped project). The JSON station is where content is *decided*; `src/content` is where it *ships*.
 
 **Sync law:** on any locked change, the order is JSON → twin (regen) → `src/content` transcription → app. A divergence between a LIVE variable's JSON and its `src/content` value is a defect (auditable mechanically — the seeder doubles as a diff tool).
@@ -29,7 +29,7 @@ engine/journey/consumers              buildJourneyModel · Self-Report · Consul
 ## §2 · File anatomy
 
 ```jsonc
-// Reading/Database/templates/archetype_name.json
+// Reading/Database/templates/json/archetype_name.json
 {
   "$template": "archetype_name",
   "class": "A",                      // A archetype-varying · T template pattern
@@ -50,7 +50,7 @@ engine/journey/consumers              buildJourneyModel · Self-Report · Consul
 
 | Tool | Job |
 |---|---|
-| `Elementum_App/tools/export-reading-templates.mjs` | Seeds/refreshes the JSON station **from the live corpus** for LIVE/INTERIM variables (initial seed 2026-07-29); with `--check` it becomes the **drift audit** — reports JSON↔`src/content` divergence instead of overwriting. |
+| `Elementum_App/tools/export-reading-templates.mjs` | Seeds/refreshes the JSON station (`templates/json/`) **from the live corpus** for LIVE/INTERIM variables (initial seed 2026-07-29); with `--check` it becomes the **drift audit** — reports JSON↔`src/content` divergence instead of overwriting. |
 | `Elementum_App/tools/build-template-twins.mjs` | Regenerates every `templates/*.md` twin from its JSON. Run after any JSON edit. |
 | `Elementum_App/tools/build-field-map-xlsx.mjs` | Regenerates the REA_03 xlsx twin from the schema markdown (the variable-registry view). |
 

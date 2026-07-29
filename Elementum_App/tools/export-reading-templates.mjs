@@ -1,7 +1,7 @@
 // ===================================================================
 // ELEMENTUM · reading-template exporter / drift audit
 // ===================================================================
-// Seeds Reading/Database/templates/*.json (one file per REA_03 variable)
+// Seeds Reading/Database/templates/json/*.json (one file per REA_03 variable)
 // from the LIVE corpus (src/content + journeyData), and stubs the PLANNED
 // set. With --check it reports JSON↔src/content drift instead of writing.
 // Spec: REA_05 §1–§3. After changes run tools/build-template-twins.mjs.
@@ -13,7 +13,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const OUT = path.resolve(__dirname, '../../Reading/Database/templates');
+const OUT = path.resolve(__dirname, '../../Reading/Database/templates/json');
 const CHECK = process.argv.includes('--check');
 
 const { calculateBaziChart } = await import('../src/engine/calculator.js').catch(() => import('../src/engine/index.js'));
