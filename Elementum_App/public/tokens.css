@@ -106,11 +106,11 @@
 
   /* ───── Shadows ───── */
   --shadow-card:    0 1px 0 rgba(43, 39, 34, 0.04);     /* cardstock lift line */
+  --shadow-tile:    0 1px 0 rgba(43, 39, 34, 0.04), 0 8px 18px rgba(60, 46, 28, 0.07); /* guidance/feature tile lift */
   --shadow-cta:     0 6px 18px rgba(40, 30, 20, 0.18);  /* primary pill */
   --shadow-cta-alt: 0 8px 22px rgba(43, 39, 34, 0.35);  /* CTA over imagery */
   --shadow-sheet:   0 -8px 40px rgba(0, 0, 0, 0.12);    /* bottom-sheet upward */
   --shadow-bronze:  0 4px 12px rgba(107, 83, 57, 0.20); /* bronze pill */
-  --shadow-tile:    0 1px 0 rgba(43, 39, 34, 0.04), 0 8px 18px rgba(60, 46, 28, 0.07); /* guidance/feature tile lift */
   --shadow-phone:
     0 30px 60px rgba(40, 30, 20, 0.18),
     0 8px 18px rgba(40, 30, 20, 0.10),
@@ -125,3 +125,30 @@
   --d-slow:     400ms;
   --d-ceremony: 600ms;
 }
+
+/* =============================================================
+   SCOPED TOKEN SETS — live in component scopes, NOT :root.
+   Recorded here so this file stays the complete token census.
+   Rendered reference: Library_Primitives.html §1 (scoped sets).
+
+   .reading accents (Elementum_App/src/components/reading/reading.css —
+   D13 reading surfaces; sealed by the JourneyCatalogue handoff):
+     --ghost: #B8B0A2   · absent-element mark
+     --up:    #4a7a52   · catalyst / supporting flow
+     --down:  #a85c48   · resistance / draining flow
+     --bud:   #4A7090   · budding-phase accent
+     --ally:  #4A7090   · ally accent (same value as bud by design)
+     --frame: #FBF7EC   · phone-frame surround (preview only)
+     (also aliases --seal-red = --seal, --cardstock = --cardstock-bg)
+
+   .jny journey-page theme (src/components/journey/journey.css —
+   light AND dark ramps; the only dark-theme surface in the app):
+     light: --pg-bg #EDE7D9 · --pg-bg2 #E6DECC · --pg-ink #2B2722
+            --pg-mut #7C7263 · --pg-hair rgba(43,39,34,.16)
+            --pg-card rgba(251,247,236,.75) · --pg-acc #8B7355
+            --pg-acc-deep #6B5339 · --pg-up #4A7A52 · --pg-down #A85C48
+     dark:  --pg-bg #211D17 · --pg-bg2 #1A1712 · --pg-ink #E9E1CD
+            --pg-mut #A69B85 · --pg-hair rgba(233,225,205,.17)
+            --pg-card rgba(45,40,32,.62) · --pg-acc #B29471
+            --pg-acc-deep #C9AC86 · --pg-up #7FAE87 · --pg-down #C98B77
+   ============================================================= */
