@@ -55,7 +55,7 @@ classify, and report.
    "Formerly DES_xx" breadcrumbs in REA headers are the expected trail. Do
    not flag the split, the restructuring, the DES gaps, the REA prefix, or
    historical paths/DES_xx citations inside RECORD content (PM_03 day-log,
-   archived handoff snapshots in Design/exports/ and Design/assets/Library/)
+   archived handoff snapshots in Design/Archive/)
    as findings. A live doc or code comment still citing a moved DES id OR a
    pre-07-27 doc path (DevLog_Docs/Design/…, DevLog_Docs/Reading/…, or ANY
    DevLog_Docs path — the tree was renamed Operations/ on 2026-07-27) IS a

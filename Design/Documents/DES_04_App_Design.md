@@ -207,9 +207,9 @@ All section label headings within the Elemental Nature reading page (and any fut
 
 ## §3.5 — Locked Component Primitives (anchor-derived)
 
-These primitives are extracted from `Design/assets/Legends/northstar-anchor.html` — the self-contained extract of the V1 Reveal + Energy Map prototype. Together with §2 (color) and §3 (typography), they form the visual contract every screen, card, and component must obey.
+These primitives are extracted from the retired `northstar-anchor.html` (git history; tokens sealed in `Design/Source/tokens.css`) — the self-contained extract of the V1 Reveal + Energy Map prototype. Together with §2 (color) and §3 (typography), they form the visual contract every screen, card, and component must obey.
 
-**See also:** `Design/assets/Legends/legend-primitives.html` — the rendered design legend that visually documents every rule in this section (color palette, type specimen, eyebrow library, radius scale, spacing scale, card surfaces, component primitives, italic gallery, border palette, anti-patterns, page templates, drift log). When in doubt about how a rule looks rendered, open the legend. The companion `Design/assets/Legends/legend-patterns.html` covers screen-level assemblies (welcome, onboarding, loading, tab nav, modals, forms, status, page header).
+**See also:** `Design/Library/Library_Primitives.html` — the rendered design library that visually documents every rule in this section (color palette, type specimen, eyebrow library, radius scale, spacing scale, card surfaces, component primitives, italic gallery, border palette, anti-patterns, page templates, drift log). When in doubt about how a rule looks rendered, open the library. Screen-level assemblies live in `Design/Library/Library_Components.html` + `Library_Screens/` (the legend-patterns companion was retired 2026-07-29).
 
 **Authority:** The anchor is the source of truth. When DES_04 and the anchor disagree, fix DES_04 to match the anchor (not the other way around). When app code drifts from the anchor, fix the app code. New patterns require a doc patch *before* implementation.
 
@@ -3142,8 +3142,8 @@ All five fields are now authored in `archetypeSource.js → TG_CARD_DATA[tg]`.
 ## §AMENDMENT — v3 IA Reframe + v3 Amendment Polish Patches
 
 This section consolidates the doc-patch obligations surfaced by:
-- `Design/assets/Legends/legend-screens-amendment.html` §A7 drift log (DA.1 – DA.10)
-- `Design/assets/Legends/legend-screens.html` §14 drift log (D14.1 – D14.6)
+- `legend-screens-amendment.html` §A7 drift log (DA.1 – DA.10) — retired 2026-07-29, git history
+- `legend-screens.html` §14 drift log (D14.1 – D14.6) — retired 2026-07-29, git history
 
 Each row supersedes the originally-cited section. When the original section disagrees with this amendment, this amendment wins.
 
@@ -3208,7 +3208,7 @@ For Today's decade-pillar card (gold rim marking the active 大运 decade), defi
 
 ### §AM.8 — Reading-section icon library (new asset family)
 
-Adds 5 reading-section icons + 1 empty-state icon to the canonical icon library at `Design/icons.svg`:
+Adds 5 reading-section icons + 1 empty-state icon to the canonical icon library at `Design/Source/icons.svg`:
 
 | ID | Use | Status |
 |---|---|---|
@@ -3232,7 +3232,7 @@ Items requiring hand-drawn / AI-image-generated brushwork before they can ship a
 1. **10 day-master ink-wash marks** (`dm-*` in `icons.svg`) — sumi-e influence, monochrome ink, tied to motif map (甲=tree, 乙=vine, 丙=sun, 丁=candle, 戊=mountain, 己=field, 庚=blade, 辛=jewel, 壬=river, 癸=mist)
 2. **5 reading-section glyphs** (`read-*`) — domain-specific brushed icons or refined illustration
 
-Drop-in target: replace each `<symbol>` body in `Design/icons.svg`. Every consumer (legend HTML + React app) auto-updates.
+Drop-in target: replace each `<symbol>` body in `Design/Source/icons.svg`. Every consumer (Library HTML + React app) auto-updates.
 
 ### §AM.10 — Italic usage v2 (supersedes §3.5.E) — *superseded by v3 below*
 
@@ -3258,10 +3258,10 @@ Italic was reserved for **two contexts only** (v2, now revoked):
 **Rationale.** Italic was overused — under v1 §3.5.E it covered five contexts and was bleeding into long-form reading copy at 12.5px, blurring the distinction between "voice" and "default body." Restricting italic to sub-headline (display) and microcopy (chip-scale only) preserves italic as a *deliberate* tonal cue rather than ambient texture.
 
 **Cascade.** Updating this rule cascades to:
-- `Design/assets/Legends/legend-primitives.html` §8 — already updated (canonical source of v2 rule)
-- `Design/assets/Legends/legend-patterns.html` §8 — patch needed (italic gallery shows old 5-context table)
-- `Design/assets/Legends/legend-screens-amendment.html` — patch needed (descriptive paragraphs in §A1 / §A4 / §A5 / §A6, daily card title)
-- `Design/assets/Legends/legend-screens.html` — patch deferred to v4 (covered in v4 polish brief)
+- `Design/Library/Library_Primitives.html` §2 — canonical rendered home of the v2 italic rule
+- `legend-patterns.html` — retired 2026-07-29 (patch moot)
+- `legend-screens-amendment.html` — retired 2026-07-29 (patch moot; §AM rules remain in this document)
+- `legend-screens.html` — retired 2026-07-29 (patch moot)
 - `Elementum_App/src/components/shared/EnergyBlueprint.jsx` — patch needed (BlueprintRow `.name` italic, empty-state message italic)
 - `Elementum_App/src/components/shared/IdentityRibbon.jsx` — patch needed (element-name italic, saturation reading paragraph italic)
 - DES_04 §3.5.E — annotated as superseded (this commit)

@@ -15,7 +15,7 @@ Source: full audit of the live Elementum app against **DES_04** (incl. §AMENDME
 **Complete**
 - **Content** — all 10 day-masters render on every live surface (庚 reference + the D9 sprint + S7's 7 classical anchors → `CLASSICAL_STEM_ANCHORS` 10/10). The earlier "99 missing fields" were vestigial `status:'internal'` schema with no live consumer (S1) — not authoring debt.
 - **Reading IA** — settled per the S-series: Reveal → Reading catalogue (Identity Card + 6 rows + conditional Seasonal) → detail pager (`getReadingSections`) → Energy Map; 5-tab nav icons-only. Schema ↔ UI ↔ docs agree. **⚠ D12 (2026-06-10): the reading schema/structure is RE-OPENED for redesign** — see the D12 row and `the retired format audit (git)`; the navigation IA above remains live until the redesign lands.
-- **Design system** — canonical (`Design/assets/Legends/` + `tokens.css` + `icons.svg` + `manifest.md`); StemSeal PNGs are the identity visual.
+- **Design system** — canonical (`Design/Library/` Library_*.html + JourneyCatalogue benchmark, plus `Design/Source/{tokens.css, icons.svg, manifest.md}`); StemSeal PNGs are the identity visual.
 - **App** — QA'd bug-free alpha; code-split; demo entitlement stubs (`tier` / `hasSelfReport` / scripted consultant) at clean seams.
 - **Docs** — DEV_01–INF_01 current; this ledger holds the D-series (D1–D11) + S-series (S1–S8) decisions; folder decluttered to core docs only (2026-06-10).
 - **Backend** — scoped + deferred to pre-beta (INF_01): managed BaaS + ~3 serverless functions, no dedicated server.

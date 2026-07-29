@@ -2,7 +2,7 @@
 // ELEMENTUM · JourneyStage — Reveal → Dissolve → Catalogue → Readings
 // ===================================================================
 // Pixel-verbatim implementation of the design handoff
-// (Design/exports/design_handoff_reveal_reading_journey/, source of truth
+// (Design/Library/Elementum Design Handoff_JourneyCatalogue/, source of truth
 // p6-journey.html #phoneP). Class names and DOM structure mirror the
 // prototype so journey.css (the transplanted, .jny-scoped stylesheet)
 // applies unchanged. All data binds through journeyData.js (the template

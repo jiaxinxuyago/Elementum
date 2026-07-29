@@ -8,7 +8,13 @@
 //
 // Run with the dev server up on :5173:
 //   node export-screens-html.mjs
-// Output → Design/handoff-claude-design/current-screens.html
+// Output → tools/qa-output/screen-gallery/current-screens.html (gitignored)
+//
+// NOTE (design cleanup 2026-07-29): the committed gallery this tool used to
+// write into Design/ was retired — the design library's screen record is now
+// Design/Library/Library_Screens/ (live captures via
+// tools/capture-reading-screens.mjs). This exporter remains for ad-hoc
+// DOM-handoff runs; its output is scratch, never design authority.
 //
 // Asset URLs (/backgrounds, /assets, /concept-arts, /icons) are rewritten to
 // the live origin so images load when the file is opened in a real browser.
@@ -25,7 +31,8 @@ const BASE = 'http://localhost:5173/';
 // Live origin, single-sourced from site.config.json (no hard-coded URLs).
 const LIVE = JSON.parse(fs.readFileSync(new URL('./site.config.json', import.meta.url), 'utf8')).liveUrl;
 const APP = 'D:/Elementum/Elementum_Project/Elementum_App';
-const OUT = 'D:/Elementum/Elementum_Project/Design/assets/Library/Elementum Screen Gallery_CurrentScreens.html';
+const OUT = path.join(APP, 'tools/qa-output/screen-gallery/current-screens.html');
+fs.mkdirSync(path.dirname(OUT), { recursive: true });
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const read = (p) => { try { return fs.readFileSync(path.join(APP, p), 'utf8'); } catch { return ''; } };

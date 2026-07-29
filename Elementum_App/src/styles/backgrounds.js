@@ -2,11 +2,11 @@
 // ELEMENTUM · Screen background map
 // ===================================================================
 // Single source for screen → painted-background assignment. Mirrors the
-// authority table in Design/assets/Library/backgrounds-library.html
+// authority table in Design/Library/Library_Backgrounds.html (S1)
 // (line ~1212) and DES_04 §20 Asset Library.
 //
 // PNGs live in Elementum_App/public/backgrounds/ (mirrored from
-// Design/backgrounds/). Reference them by bare filename — PageBg
+// Design/Assets/Backgrounds/). Reference them by bare filename — PageBg
 // resolves the /backgrounds/ path.
 //
 // [Group D — RESOLVED] The notes below are HISTORICAL. Every screen now maps to

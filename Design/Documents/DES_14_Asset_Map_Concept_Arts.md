@@ -3,9 +3,9 @@
 **Companion to** `PROMPT_claude_design_wireframes.md`. The wireframe brief decides *structure* (where a hero / tile / band sits). **This map decides which painterly asset skins that slot** once the structure is chosen, and which slots are still un-sourced.
 
 **Three reference systems govern the look** (attach alongside this map):
-- **Aesthetic language** → `Design/assets/Moodboards/mood-foundation.html` + `atmospheric-depth/` (3-/5-layer depth) + `brush-samples/` (stroke vocabulary).
-- **Card / hero archetypes** (where art is allowed to sit, crop ratios, ink-wash treatment) → `Design/assets/Legends/legend-v6-card-archetypes.html` + `legend-v7-ink-wash.html`.
-- **Marks / primitives** (the SVG element seals, not raster) → `Elementum_App/public/Library/element-marks-e3.html` + `Design/assets/Library/primitives-library.html` + `icons.svg`.
+- **Aesthetic language** → `Design/Library/Library_Primitives.html` (mood-foundation absorbed; original in `Design/Archive/`) + `Design/Assets/Moodboards/atmospheric-depth/` (3-/5-layer depth) + `brush-samples/` (stroke vocabulary).
+- **Card / hero archetypes** (where art is allowed to sit, crop ratios, ink-wash treatment) → `Design/Library/Library_Components.html` (S4 Inkstone) + `Library_Backgrounds.html` (S4-S5 ink-wash law; legends v6/v7 retired 2026-07-29).
+- **Marks / primitives** (the SVG element seals, not raster) → `Design/Library/Library_Iconography.html` (S1, Set E3 restored) + `Design/Source/icons.svg`.
 
 > **Pipeline note.** The app only reaches assets that have been **mirrored into `Elementum_App/public/`**. Today that is a *thin* slice (see §5). The Concept Arts source folder is large; this map names the *source* asset so curation/mirroring is a lookup, not a hunt.
 
@@ -21,10 +21,10 @@ Every painted/drawn asset in the app fills exactly one of these. Wireframes labe
 | **SCENE-HERO** | The picture band at the top of a reading-detail / Energy Map hero | Five Elements per-element studies (Burn/Blade/Water/Wood/Field) | ~390×260 band, top-crop | `elementArt(element)` → `SceneHero` |
 | **TILE** | Catalogue thumbnail (Reading tab mosaic, Guidance cards) | per-element studies (small crop) + Patterns as fallback | square/4:3 | `VisualTile artSrc` |
 | **STEM-THUMB** | The one *finished*, per-stem signature portrait (e.g. 庚 = The Blade) | Stem Thumbnail/ (1 of 10 done) | square | `/Stem Thumbnail/…` (Day Master hero) |
-| **MARK** | The element seal / icon — **SVG, not raster** | `element-marks-e3.html`, `icons.svg` | inline | `<Icon>` / element-mark `<use>` |
+| **MARK** | The element seal / icon — **SVG, not raster** | `Library_Iconography.html` S1, `Source/icons.svg` | inline | `<Icon>` / element-mark `<use>` |
 | **TEXTURE** | Paper grain, mist band, enso — neutral, element-agnostic | brush-samples · Patterns · scenes/pattern-enso | tiling/bleed | `scenes/` + reading rice-paper bg |
 
-Rule of thumb from `legend-v7-ink-wash.html`: **one raster focal point per screen.** A SCENE-HERO *or* a strong PAGE-BG, not both at full strength. Everything else is MARK (SVG) + TEXTURE (≤0.12 opacity).
+Rule of thumb from the ink-wash law (`Design/Library/Library_Backgrounds.html` S5): **one raster focal point per screen.** A SCENE-HERO *or* a strong PAGE-BG, not both at full strength. Everything else is MARK (SVG) + TEXTURE (≤0.12 opacity).
 
 ---
 
@@ -106,7 +106,7 @@ Read top-to-bottom as "when the wireframe for this screen is chosen, fill its sl
 
 ## 4 · Marks & icons (SVG — never raster)
 
-The "_Icon", "_Icons", "_icons", "Jewel_Icons", "Blade_Icon" PNG sets inside each element folder are **icon-design references**, not ship assets. The shipping element seals are the **SVG marks** in `Library/element-marks-e3.html` + `icons.svg`. When a wireframe box says "icon/mark," it resolves to SVG `<use href>`, tinted by pigment — *not* to a PNG from Concept Arts. Keep these PNG icon sets as design-reference for refining the SVG marks only.
+The "_Icon", "_Icons", "_icons", "Jewel_Icons", "Blade_Icon" PNG sets inside each element folder are **icon-design references**, not ship assets. The shipping element seals are the **SVG marks** in `Design/Source/icons.svg` (rendered census: `Design/Library/Library_Iconography.html` S1). When a wireframe box says "icon/mark," it resolves to SVG `<use href>`, tinted by pigment — *not* to a PNG from Concept Arts. Keep these PNG icon sets as design-reference for refining the SVG marks only.
 
 ---
 

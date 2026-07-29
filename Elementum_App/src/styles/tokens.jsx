@@ -3,12 +3,12 @@
 // Ink & Pigment (设色) — legacy SCREAMING_SNAKE constants + React
 // component primitives (StatusBar, SilkPaper, ElementSign, etc.).
 //
-// CANONICAL SOURCE: Design/tokens.css → tokens.js (camelCase mirror).
+// CANONICAL SOURCE: Design/Source/tokens.css → tokens.js (camelCase mirror).
 // This file imports from tokens.js for token values, then re-exports
 // them as SCREAMING_SNAKE aliases for the existing app components
 // that already use them. New code should import from tokens.js.
 //
-// Alignment status (vs Design/tokens.css):
+// Alignment status (vs Design/Source/tokens.css):
 //   ✓ ink, inkSoft, inkLight, inkMist, inkDeep
 //   ✓ silk, silkDeep, silkFold, paperHair, parchment, vellum, cream
 //   ✓ bronzeLight, bronze, bronzeDark, walnut, gold

@@ -76,7 +76,7 @@ The reading is organized **element-first** (the 5 elements = the navigable skin)
 
 ### App design / journey
 - **DES_04**: document **Faces as the reading prologue** (do NOT amend the §AM.1 IA table — it stays); §11 reading unit → persona-scoped with presence-frame depth; add ruling domain; **replace the surfaced Yin/Yang chip with the two-faces model** (also closes a pre-existing locked-rule jargon violation). Note §AM.8/D3 6-row reconciliation is a separate D13 item.
-- **`Design/manifest.md`**: add `FacesScreen`, `PersonaCard` (presence-frame variants), ruling-domain atom, persona art (10 × element variants).
+- **`Design/Source/manifest.md`**: add `FacesScreen`, `PersonaCard` (presence-frame variants), ruling-domain atom, persona art (10 × element variants).
 - **`brief-reading-tab.md`**: add the Faces prologue, ruling domain, persona-scoped reading, by-math faces, acceptance criteria.
 - **`00-MASTER-CONTEXT.md`**: add Faces prologue + ruling domain to the IA map/route map.
 - **`DES_13_Design_Audit_Backlog.md`**: log v2.1 as **D14, extending D13**.

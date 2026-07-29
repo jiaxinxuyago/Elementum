@@ -1,10 +1,10 @@
 // ===================================================================
 // ELEMENTUM · Design Tokens (canonical)
 // ===================================================================
-// Mirror of D:/Elementum/Elementum_Project/Design/tokens.css.
+// Mirror of D:/Elementum/Elementum_Project/Design/Source/tokens.css.
 //
 // EDIT POLICY:
-//   1. Edit Design/tokens.css FIRST.
+//   1. Edit Design/Source/tokens.css FIRST.
 //   2. Re-generate this file from it (manual mirror — no build step yet).
 //   3. tokens.jsx imports from here for the SCREAMING_SNAKE legacy aliases
 //      that older app components expect.
@@ -12,7 +12,7 @@
 // New code should import the camelCase exports from this file directly:
 //   import { ink, paperHair, metal, sp16, r12 } from '../styles/tokens';
 //
-// Drift between this file and Design/tokens.css is a doc-patch trigger.
+// Drift between this file and Design/Source/tokens.css is a doc-patch trigger.
 //
 // Ranges (DES_04 §3.5):
 //   §3.5.A — pigment alpha ladder (10/1A/40/CC/full)

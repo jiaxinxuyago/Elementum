@@ -5,24 +5,13 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 // ── Deploy-only prune ───────────────────────────────────────────────
-// public/ carries the mirrored design system (legend HTMLs, brush samples,
-// reference art ≈ 55 MB) for the dev preview — none of it is referenced by
-// the app at runtime (see src/styles/backgrounds.js for the runtime set).
-// Strip it from dist/ so the deployable build ships only live assets.
+// public/ carries the mirrored design system (Design/Library previews,
+// brush samples, reference art) for the dev preview — none of it is
+// referenced by the app at runtime (see src/styles/backgrounds.js for
+// the runtime set). Strip it from dist/ so the deployable build ships
+// only live assets. (Legend/moodboard mirrors retired 2026-07-29 —
+// design cleanup Phase 2; the Library/ entry covers the new mirrors.)
 const DEV_ONLY_PUBLIC = [
-  '_d13-preview.html',
-  'd13-five-energies-journey.html',
-  'd13-reading-example-19950429.html',
-  'component-library.html',
-  'legend-patterns.html',
-  'legend-primitives.html',
-  'legend-screens.html',
-  'legend-screens-amendment.html',
-  'legend-v4-polish.html',
-  'legend-v6-card-archetypes.html',
-  'legend-v7-ink-wash.html',
-  'mood-foundation.html',
-  'northstar-anchor.html',
   'tokens.css',
   'brush-samples',
   'ChatGPT_Backgrounds_v1',

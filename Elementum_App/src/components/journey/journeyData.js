@@ -2,7 +2,7 @@
 // ELEMENTUM · journeyData — view-model for the Reveal → Catalogue journey
 // ===================================================================
 // Implements the design handoff's template contract
-// (Design/exports/design_handoff_reveal_reading_journey/template-data.json)
+// (Design/Library/Elementum Design Handoff_JourneyCatalogue/template-data.json)
 // against the live engine + the REA_02 locked vocabulary (v1.6):
 //   · §4  keywords (v3 final)          · §5b relation nouns
 //   · §5c condition/approach + panels  · §4b pole nouns + role verbs
