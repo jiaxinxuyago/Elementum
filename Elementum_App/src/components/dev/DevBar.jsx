@@ -172,7 +172,7 @@ export default function DevBar() {
           regenerate={regenerate}
         />
       ) : (
-        <SchemaView chart={chart} birthData={birthData} />
+        <SchemaView chart={chart} birthData={birthData} currentScreen={currentScreen} />
       )}
     </div>
   );
@@ -379,7 +379,30 @@ function ChartView({ birthData, chart, tier, setTier, currentScreen, goto, seed,
 // budgets, and rulings target.
 // ═══════════════════════════════════════════════════════════════════
 
-function SchemaView({ chart, birthData }) {
+// Which variable surfaces are ON SCREEN per app screen. Journey sub-screens
+// (catalogue / daymaster / element inside JourneyStage) arrive via the
+// dev-only 'journey-screen' event since they are not hash routes.
+const SURFACE = {
+  identity: 'Identity · Reveal + Hero + Share card',
+  catalogue: 'Catalogue · Folio + Panels + Pills',
+  daymaster: 'Day-Master screen',
+  element: 'Element screens (interim → K2)',
+  deep: 'Deep pages (PLANNED — the K2 corpus)',
+};
+function surfacesFor(screen, journeyScreen) {
+  if (screen === 'reveal') return [SURFACE.identity];
+  if (screen === 'app-reading' || screen === 'app-energymap') {
+    if (journeyScreen === 'daymaster') return [SURFACE.daymaster];
+    if (journeyScreen === 'element') return [SURFACE.element];
+    return [SURFACE.identity, SURFACE.catalogue];
+  }
+  if (screen === 'app-daymaster') return [SURFACE.daymaster];
+  if (screen === 'app-energy') return [SURFACE.element, SURFACE.deep];
+  if (screen === 'app-pillars') return [SURFACE.deep];
+  return []; // screen carries no reading variables
+}
+
+function SchemaView({ chart, birthData, currentScreen }) {
   const model = useMemo(() => {
     if (!chart) return null;
     try {
@@ -392,7 +415,21 @@ function SchemaView({ chart, birthData }) {
     }
   }, [chart, birthData]);
 
-  const groups = useMemo(() => buildVariableGroups(model), [model]);
+  // Track JourneyStage's internal sub-screen (catalogue/daymaster/element).
+  const [journeyScreen, setJourneyScreen] = useState(
+    typeof window !== 'undefined' ? window.__journeyScreen : undefined
+  );
+  useEffect(() => {
+    if (typeof window === 'undefined') return undefined;
+    const onJourney = (e) => setJourneyScreen(e.detail);
+    window.addEventListener('journey-screen', onJourney);
+    return () => window.removeEventListener('journey-screen', onJourney);
+  }, []);
+
+  const allGroups = useMemo(() => buildVariableGroups(model), [model]);
+  const [showAll, setShowAll] = useState(false);
+  const onScreen = surfacesFor(currentScreen, journeyScreen);
+  const groups = showAll ? allGroups : allGroups.filter((g) => onScreen.includes(g.surface));
   const [collapsed, setCollapsed] = useState({});
   const toggle = (k) => setCollapsed((s) => ({ ...s, [k]: !s[k] }));
 
@@ -401,8 +438,23 @@ function SchemaView({ chart, birthData }) {
       <div style={{ fontSize: 11, color: '#8a8378', marginBottom: 10, lineHeight: 1.5 }}>
         Reading data variables (REA_03) resolved for{' '}
         <span style={{ color: '#e0d6c3' }}>{model ? `${model.stem} ${model.archetype}` : 'no chart'}</span>.
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: 4 }}>
+          <span style={{ fontSize: 10, color: '#6c655a' }}>
+            on{' '}
+            <span style={{ fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace', color: '#9d968a' }}>
+              {currentScreen}{journeyScreen && (currentScreen === 'app-reading' || currentScreen === 'app-energymap') ? ` · ${journeyScreen}` : ''}
+            </span>
+          </span>
+          <TabBtn active={showAll} onClick={() => setShowAll((v) => !v)}>all</TabBtn>
+        </div>
         <div style={{ fontSize: 10, color: '#6c655a', marginTop: 2 }}>{VARIABLE_REGISTRY_NOTE}</div>
       </div>
+
+      {!showAll && groups.length === 0 && (
+        <div style={{ fontSize: 11, color: '#7d766b', padding: '8px 2px', lineHeight: 1.5 }}>
+          No reading data variables on this screen. Toggle <em>all</em> to see the full registry.
+        </div>
+      )}
 
       {groups.map((g) => {
         const isCollapsed = collapsed[g.surface] ?? false;

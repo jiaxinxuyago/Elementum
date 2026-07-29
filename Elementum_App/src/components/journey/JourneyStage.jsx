@@ -130,12 +130,19 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   const goElement = useCallback((el) => { setElOpen(el); setScreen('element'); }, []);
 
   // Dev-only: expose the in-journey element screen to the DevBar
-  // (it is internal state, not a hash route).
+  // (it is internal state, not a hash route), and broadcast the current
+  // internal sub-screen so the DevBar Schema tab can track it.
   useEffect(() => {
     if (!import.meta.env.DEV || typeof window === 'undefined') return undefined;
     window.__journeyElement = goElement;
     return () => { if (window.__journeyElement === goElement) delete window.__journeyElement; };
   }, [goElement]);
+  useEffect(() => {
+    if (!import.meta.env.DEV || typeof window === 'undefined') return undefined;
+    window.__journeyScreen = screen;
+    window.dispatchEvent(new CustomEvent('journey-screen', { detail: screen }));
+    return () => { delete window.__journeyScreen; };
+  }, [screen]);
   const goScreen = useCallback((name) => {
     setScreen(name);
     requestAnimationFrame(() => {
