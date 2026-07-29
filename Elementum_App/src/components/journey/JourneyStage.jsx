@@ -8,7 +8,7 @@
 // applies unchanged. All data binds through journeyData.js (the template
 // contract); the engine owns every number.
 //
-// Deviations, per the integration rulings (REA_13 §6b):
+// Deviations, per the integration rulings (REA_03 §6b):
 //   · No prototype tab bar — the app's persistent ReadingTabBar renders
 //     underneath (76px slot, same height the dock docks above).
 //   · The identity-card float uses a share overlay written inline below —

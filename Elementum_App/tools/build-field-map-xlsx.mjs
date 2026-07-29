@@ -1,8 +1,8 @@
 // ===================================================================
 // ELEMENTUM · generation-schema xlsx generator
 // ===================================================================
-// Parses Reading/Documents/REA_14_Reading_Generation_Schema.md (canonical)
-// and emits Reading/Database/REA_14_generation_schema.xlsx (the sortable twin).
+// Parses Reading/Documents/REA_04_Reading_Generation_Schema.md (canonical)
+// and emits Reading/Database/REA_04_generation_schema.xlsx (the sortable twin).
 // Sheets: Variables (§3 K1 + §4 K2 + §5 T) · Backlog (§8) · UI Slot Index (§9)
 // · Variant Axes (§1) · Rules (§10) · Rulings (§11).
 // Edit the markdown, then re-run:  node tools/build-field-map-xlsx.mjs
@@ -14,8 +14,8 @@ import { fileURLToPath } from 'node:url';
 import ExcelJS from 'exceljs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const MD = path.resolve(__dirname, '../../Reading/Documents/REA_14_Reading_Generation_Schema.md');
-const OUT = path.resolve(__dirname, '../../Reading/Database/REA_14_generation_schema.xlsx');
+const MD = path.resolve(__dirname, '../../Reading/Documents/REA_04_Reading_Generation_Schema.md');
+const OUT = path.resolve(__dirname, '../../Reading/Database/REA_04_generation_schema.xlsx');
 
 const md = fs.readFileSync(MD, 'utf8');
 const clean = (c) => c.trim().replace(/\*\*/g, '').replace(/`/g, '');
@@ -35,7 +35,7 @@ const tableOf = (chunk, nth = 0) => {
 const section = (re) => { const m = md.match(re); return m ? m[0] : ''; };
 
 const wb = new ExcelJS.Workbook();
-wb.creator = 'build-field-map-xlsx.mjs (generated from REA_14 markdown — the markdown is canonical)';
+wb.creator = 'build-field-map-xlsx.mjs (generated from REA_04 markdown — the markdown is canonical)';
 const FONT = { name: 'Arial', size: 10 };
 const HEAD_FONT = { name: 'Arial', size: 10, bold: true, color: { argb: 'FFF4EFE6' } };
 const HEAD_FILL = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FF584A3E' } };
@@ -48,7 +48,7 @@ const addTable = (ws, header, rows, widths) => {
 
 // ── Sheet 1: Variables ────────────────────────────────────────────
 const ws = wb.addWorksheet('Variables', { views: [{ state: 'frozen', ySplit: 2 }] });
-ws.addRow(['REA_14 — Reading Generation Schema · generated from Reading/Documents/REA_14_Reading_Generation_Schema.md — markdown is canonical, do not hand-edit']);
+ws.addRow(['REA_04 — Reading Generation Schema · generated from Reading/Documents/REA_04_Reading_Generation_Schema.md — markdown is canonical, do not hand-edit']);
 ws.mergeCells(1, 1, 1, 9);
 ws.getRow(1).font = { ...FONT, italic: true, size: 9 };
 const COLS = ['Part', 'Variable', 'Type / Pattern', 'Axis', 'Measured', 'Budget', 'Example (庚 1995-04-29 · 18:00 / handoff demo)', 'UI slots', 'Status'];
@@ -87,7 +87,7 @@ addTable(ws1, t1.header, t1.rows, [20, 8, 64, 22]);
 
 // ── Sheet 5: Rules (§10) ──────────────────────────────────────────
 const ws10 = wb.addWorksheet('Rules');
-ws10.addRow(['Standing rules for template generation (REA_14 §10 — see the markdown for full text)']).font = { ...FONT, bold: true, size: 11 };
+ws10.addRow(['Standing rules for template generation (REA_04 §10 — see the markdown for full text)']).font = { ...FONT, bold: true, size: 11 };
 for (const l of section(/## §10[\s\S]*?(?=## §11)/).split('\n').filter((x) => /^\d+\./.test(x.trim()))) {
   const a = ws10.addRow([clean(l)]); a.font = FONT; a.alignment = { vertical: 'top', wrapText: true };
 }

@@ -51,7 +51,7 @@ Checklist (apply to every changed function/component):
   `node tools/qa-engine-regression.mjs` exit 0, or an owner-approved `--update` with the
   manual protocol re-run (DEV_04_Engine_Accuracy_QA.md). Tier A mismatch = HIGH, always.
 - **C5 — Contract fidelity.** Fields read by consumers exist in `contract/archetypeSchema.js`;
-  content realizes what the schema declares (the REA_14 cascade). A consumer reading a
+  content realizes what the schema declares (the REA_04 cascade). A consumer reading a
   retired/renamed field renders silently wrong — that is HIGH, not LOW.
 - **C6 — Reversibility of user actions.** Purchases, subscriptions, and notification
   opt-ins must handle abandon/retry/refresh mid-flow without stranding (the §4.2b
@@ -191,7 +191,7 @@ without reading git history?*
     ships separately (the 2026-07 six-PR restructure is the precedent). Mixed:
     MEDIUM.
   - **Coupled artifacts move together** — the same-change-set pairs are mandatory:
-    price ⇄ webhook PRODUCTS map (S3) · schema ⇄ content/REA_14 (K3) · lazy() list ⇄
+    price ⇄ webhook PRODUCTS map (S3) · schema ⇄ content/REA_04 (K3) · lazy() list ⇄
     prefetch list (P3) · engine behavior ⇄ golden re-bless + protocol run (C4) ·
     canonical `Design/` file ⇄ `public/` mirror. Half a pair: severity per the
     paired rule.
@@ -254,7 +254,7 @@ Budgets are measured against `npm run build` output. Baselines (2026-07-07):
 - **K2 — Icons via sprite.** `<use href="/icons.svg#id">` / ReadingSprite — no new
   inline SVG paths for icons that exist in the library. LOW.
 - **K3 — Doc cascade.** A change to `archetypeSchema.js` without the matching
-  archetypeSource/REA_14 update (or an explicit note deferring it): MEDIUM. Engine
+  archetypeSource/REA_04 update (or an explicit note deferring it): MEDIUM. Engine
   methodology changes must not contradict DEV_01/REA_02 without doc updates in the same
   change-set: MEDIUM.
 - **K4 — Config single-sourcing.** Public URLs/keys come from `site.config.json`;

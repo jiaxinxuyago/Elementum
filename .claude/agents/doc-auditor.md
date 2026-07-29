@@ -20,7 +20,7 @@ classify, and report.
 # The one rule that outranks all others: LIVING vs RECORD
 
 - **LIVING docs** describe the present and must track it: specs
-  (DES_04 App Design, REA_14 Reading Generation Schema, INF_01 Backend Architecture,
+  (DES_04 App Design, REA_04 Reading Generation Schema, INF_01 Backend Architecture,
   DEV_01 Calculation Engine…), DEV_03 Code Review Standards,
   PM_01 Automation Runbook, Operations/README.md (the registry). Drift here
   is a finding.
@@ -39,7 +39,13 @@ classify, and report.
    ([DES|REA|DEV|INF|BIZ|LEG|PM]_NN, append-only), and the DOC# alias table.
    **OWNER-APPROVED STRUCTURE (2026-07-23 split; 2026-07-27 restructuring):**
    docs live in THREE roots, one registry. `Reading/Documents/` (prefix REA,
-   REA_01–REA_15; the gaps 04/06/07/11/12 are RETIRED numbers from the 2026-07-28 V/A consolidation into REA_13 Dictionary + REA_14 Generation Schema + REA_15 Ladder) holds all reading-content docs and `Reading/Database/` the
+   REA_01–REA_10, compact — renumbered 2026-07-28 into pipeline order after
+   the V/A consolidation: REA_03 Concept_Dictionary · REA_04
+   Reading_Generation_Schema · REA_07 Concept_Ladder are the consolidated
+   books; ids REA_11–REA_15 are RETIRED transition ids, never reused; any
+   pre-07-28 REA citation resolves via the registry's RENUMBER TABLE — never
+   flag the renumbering, the retired ids, or era-mismatched citations inside
+   RECORD content) holds all reading-content docs and `Reading/Database/` the
    reading-data artifacts; `Design/Documents/` holds DES_04, DES_13, DES_14
    (+ the archive); `Operations/` keeps DEV/INF/BIZ/LEG/PM + the registry.
    The gaps in the DES series (01–03, 05–12) are RETIRED numbers per the

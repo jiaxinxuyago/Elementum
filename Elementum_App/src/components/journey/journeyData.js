@@ -3,12 +3,12 @@
 // ===================================================================
 // Implements the design handoff's template contract
 // (Design/exports/design_handoff_reveal_reading_journey/template-data.json)
-// against the live engine + the REA_13 locked vocabulary (v1.6):
+// against the live engine + the REA_03 locked vocabulary (v1.6):
 //   · §4  keywords (v3 final)          · §5b relation nouns
 //   · §5c condition/approach + panels  · §4b pole nouns + role verbs
 //   · §6b journey rulings (keyword = representation; top-3 chips)
 // The engine owns every number (buildEnergyChart / energyRoles); this file
-// only translates engine output into locked display vocabulary. Per REA_13
+// only translates engine output into locked display vocabulary. Per REA_03
 // §6b item 6, element hook/tag/mean lines are element-generic interim copy
 // pending the 50-cell authoring pass.
 // ===================================================================
@@ -21,7 +21,7 @@ import { FACE_CARD, ENERGY_TILE } from '../../content/reading/index.js';
 export const EL_NAME = { metal: 'Metal', earth: 'Earth', wood: 'Wood', water: 'Water', fire: 'Fire' };
 export const EL_HZ = { metal: '金', earth: '土', wood: '木', water: '水', fire: '火' };
 
-// ── REA_13 locked vocabulary ───────────────────────────────────────
+// ── REA_03 locked vocabulary ───────────────────────────────────────
 // §5b relation nouns (LOCKED 2026-07-16)
 export const RELATION_NOUN = { self: 'Core', resource: 'Root', wealth: 'Drive', output: 'Voice', officer: 'Duty' };
 
@@ -168,7 +168,7 @@ export function buildJourneyModel({ chart, ec, identity, card, birthData }) {
 
   // The ENERGY_TILE hooks are authored FOR THE BLADE ("What your blade is
   // for", "Your core — precision before intention") — on any other day master
-  // they mislead (REA_13 §6b item 6). Gate them to 庚 until the 50-cell /
+  // they mislead (REA_03 §6b item 6). Gate them to 庚 until the 50-cell /
   // DM-neutral authoring pass lands; other charts fall back to glance labels.
   const isBlade = ec.dayMaster === 'geng';
 
@@ -232,7 +232,7 @@ export function buildJourneyModel({ chart, ec, identity, card, birthData }) {
   });
 
   // Round 2 (A3): per-element diagnosis — ROLE-DRIVEN mapping, owner-ratified
-  // 2026-07-23 (REA_13 §5c extension): friction-side → Overfueled·Channel;
+  // 2026-07-23 (REA_03 §5c extension): friction-side → Overfueled·Channel;
   // catalyst-side (incl. missing) → Underfueled·Refill; balanced charts →
   // Balanced. Plus the pill definition/family lines and role-conditioned
   // §4b adjective chips.

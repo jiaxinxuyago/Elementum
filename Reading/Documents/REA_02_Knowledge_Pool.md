@@ -4,7 +4,7 @@
 
 > **⚠ v2.1 RECONCILIATION (2026-06-24 · see `REA_08_Reading_V2.1_Reconciliation_Audit.md`).** Deltas for this doc: (1) the §3.5 Ten-God profiles now need **presence-frame register** variants (dominant = full read · present = derived shorter · scarce/absent = cultivation); extend §8.3's 2-band element model to the 3-band persona model. (2) §3.4 elemental-processing fields are the **source for the new `rulingDomain`** (DM-relative life-area line) — convert each element-field into a plain-English domain line per (element × Day Master). (3) §8.6 translation contract and §8.9 jargon ban **stay canonical** (no 比肩/正财, no yin/yang/"polarity" surfaced). (4) Tier-3 resonance bridges (e.g. Archetype_Reference's 5-family grouping) must **never** seed the persona taxonomy — personas are per-god, all 10 distinct (decision C3).
 
-This document is a **library, not a protocol.** It provides materials; REA_03 provides generation instructions. Reading REA_02 tells you what sources exist and how they are tiered. Reading REA_03 tells you which ones to use for a given key, in what order, with what ceilings.
+This document is a **library, not a protocol.** It provides materials; REA_05 provides generation instructions. Reading REA_02 tells you what sources exist and how they are tiered. Reading REA_05 tells you which ones to use for a given key, in what order, with what ceilings.
 
 **Source hierarchy:**
 
@@ -1391,9 +1391,9 @@ Before any reading content is finalized, run this checklist:
 | **Version** | 1.2  ·  April 2026 |
 | **Status** | LIVING — grows additively; existing entries rarely change once verified |
 | **Audience** | Content creators, generation system (as reference library) |
-| **Purpose** | Complete source library for all Elementum archetype content. Classical BaZi texts, modern psychological frameworks, and resonance bridges. REA_03 tells you which sources to use for a given key; this document tells you what they are and what each produces. |
+| **Purpose** | Complete source library for all Elementum archetype content. Classical BaZi texts, modern psychological frameworks, and resonance bridges. REA_05 tells you which sources to use for a given key; this document tells you what they are and what each produces. |
 | **Stability** | LOW for additions (grows frequently) · HIGH for existing entries (rarely changed) |
-| **Used by** | REA_03 (generation architecture imports from here) · batchGenerate.js (PSYCH_PROFILES and CLASSICAL_SOURCES constants) |
+| **Used by** | REA_05 (generation architecture imports from here) · batchGenerate.js (PSYCH_PROFILES and CLASSICAL_SOURCES constants) |
 | **Compatible with** | Doc2 v1.1 · Doc4 v2.0 · Doc6 v1.1 |
 
 ## Version History

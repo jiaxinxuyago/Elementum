@@ -1,6 +1,6 @@
-# REA_14 — Reading Generation Schema — the archetype-varying data & templates
+# REA_04 — Reading Generation Schema — the archetype-varying data & templates
 
-> **THE A BOOK — every varying reading data variable, the templates that assemble them, and the model that selects them.** Consolidated 2026-07-28 (owner-directed) from **REA_04 Reading_Schema** (the v2.1 content model — its §7 decision log is carried verbatim as §7 HERE), **REA_12 Reading_Data_Variables** (the variable registry), and the still-true content of **REA_06 Archetype_Fields** (varyBy library; legacy field tables → §8 backlog). Vocabulary constants live in **REA_13 (the Dictionary)** — this doc only *consumes* them. Pedagogy: REA_15. Historical citations of "REA_04 §7" refer to §7 here.
+> **THE A BOOK — every varying reading data variable, the templates that assemble them, and the model that selects them.** Consolidated 2026-07-28 (owner-directed) from **REA_04 Reading_Schema** (the v2.1 content model — its §7 decision log is carried verbatim as §7 HERE), the retired **Reading_Data_Variables** (the variable registry), and the still-true content of the retired **Archetype_Fields** (varyBy library; legacy field tables → §8 backlog). Vocabulary constants live in **REA_03 (the Dictionary)** — this doc only *consumes* them. Pedagogy: REA_07. Historical citations of "Reading_Schema §7" / "REA_04 §7" (any era) refer to §7 here; this doc was transition id REA_14 on 2026-07-28 before the same-day renumbering.
 
 **Status: DRAFT → freeze per variable.** ⏸ Standing sequencing ruling (owner 2026-07-23, REA_08): the engine pass and corpus authoring stay parked until the READING JOURNEY is locked; this schema is the instrument of that lock.
 
@@ -9,8 +9,8 @@
 1. **UI Field** — a *slot* in the journey layout where reading data stands. Slots lay out the UI and help categorize variables; they are not data (§9 index).
 2. **Reading Data Variable** — the *actual data* the templates / archetype generation produce, varying on its variant-axis. **One variable, one row, one ruling** — however many slots it fills, or none (backlog).
 
-**Field classes:** **A** = archetype-varying authored content (THIS doc's generation targets) · **T** = template patterns (authored once, slot-filled) · **D** = derived engine inputs (never authored — named here only as slot signatures) · **V** = vocabulary constants (REA_13 — never a generation target). **Measured** = real min–max across all authored variants (2026-07-27 run). **庚 example** = live render of the golden chart **1995-04-29 · 18:00 · Beijing → 庚 The Blade** (乙亥/庚辰/庚寅/乙酉 · Overfueled · Earth 33/Wood 33/Metal 23/Water 6/Fire 5); *handoff demo* = wireframe demo copy on unbuilt surfaces.
-**Twin:** `Reading/Database/REA_14_generation_schema.xlsx` — regenerate via `node Elementum_App/tools/build-field-map-xlsx.mjs`.
+**Field classes:** **A** = archetype-varying authored content (THIS doc's generation targets) · **T** = template patterns (authored once, slot-filled) · **D** = derived engine inputs (never authored — named here only as slot signatures) · **V** = vocabulary constants (REA_03 — never a generation target). **Measured** = real min–max across all authored variants (2026-07-27 run). **庚 example** = live render of the golden chart **1995-04-29 · 18:00 · Beijing → 庚 The Blade** (乙亥/庚辰/庚寅/乙酉 · Overfueled · Earth 33/Wood 33/Metal 23/Water 6/Fire 5); *handoff demo* = wireframe demo copy on unbuilt surfaces.
+**Twin:** `Reading/Database/REA_04_generation_schema.xlsx` — regenerate via `node Elementum_App/tools/build-field-map-xlsx.mjs`.
 
 ---
 
@@ -24,8 +24,8 @@
 | **ELEMENT** | ×5 | Varies by the five elements | Yes |
 | **GOD** | ×10 | Varies by Ten God (persona layer) | Yes |
 | **ELEMENT·GOD** | ×50 | The K2 persona unit (the two-faces corpus) — THE generation pass | Planned |
-| **CONDITION** | ×3 (+2) | Overfueled/Balanced/Underfueled (+ Channel/Refill) — vocabulary axis (REA_13 §5c) | Locked (V) |
-| **FAMILY** | ×5 | Ten-god family — vocabulary axis (REA_13 §5b) | Locked (V) |
+| **CONDITION** | ×3 (+2) | Overfueled/Balanced/Underfueled (+ Channel/Refill) — vocabulary axis (REA_03 §5c) | Locked (V) |
+| **FAMILY** | ×5 | Ten-god family — vocabulary axis (REA_03 §5b) | Locked (V) |
 | **POSITION** | ×7 | Pillar palace (宫位, B6) | Planned |
 | **TEMPLATED** | — | Fixed sentence pattern; slots fill from V + D; pattern authored once | Pattern only |
 | **DERIVED** | — | Engine-computed, never authored; hard-coding one is a defect | Never |
@@ -80,7 +80,7 @@ K1 extensions (claims + mechanism) 10 × ~62w ≈ 620w · K1b self cards 30 × ~
 
 ### 2.6 Implementation chain
 
-**This schema (design truth) → `archetypeSchema.js` (code implements: types, caps, tiers, varyBy) → a regenerated designer mirror (tool artifact, if wanted).** When doc and code disagree during the transition, THIS doc wins for the target model; the code schema still describes legacy v0.x until its rewrite. (REA_06's hand-maintained mirror is retired; the field cascade becomes: REA_14 → archetypeSchema.js → 庚 in archetypeSource.js → consumer.)
+**This schema (design truth) → `archetypeSchema.js` (code implements: types, caps, tiers, varyBy) → a regenerated designer mirror (tool artifact, if wanted).** When doc and code disagree during the transition, THIS doc wins for the target model; the code schema still describes legacy v0.x until its rewrite. (REA_06's hand-maintained mirror is retired; the field cascade becomes: REA_04 → archetypeSchema.js → 庚 in archetypeSource.js → consumer.)
 
 ---
 
@@ -119,9 +119,9 @@ energyCard: {
 | Var | Type | Axis | Measured | Budget | Example | UI slots | Status |
 |---|---|---|---|---|---|---|---|
 | `k2_face` (abstract/conclusion) | template-line + inscription | ELEMENT·GOD | — | **≤8w headline · conclusion sentence ≤20w** | *handoff demo:* Earth in you is The Alchemist — nourishment that transmutes. It's the ground your edge is forged on. | L3 faces prologue | PLANNED |
-| `k2_persona_punchline` | descriptor | ELEMENT·GOD | — | **≤20w** (persona name + REA_13 §2 definition line + personal turn) | — | L3 | PLANNED |
+| `k2_persona_punchline` | descriptor | ELEMENT·GOD | — | **≤20w** (persona name + REA_03 §2 definition line + personal turn) | — | L3 | PLANNED |
 | `k2_chips` | keyword-chip | ELEMENT·GOD | — | 5 × ≤4w | — | faces prologue | PLANNED |
-| `k2_ruling_domain` | descriptor | ELEMENT·GOD (DM-relative) | — | **≤14w** | *(worked example REA_13 §5: 土偏印 = "a self-made, grounded, intuitive footing")* | faces prologue | PLANNED |
+| `k2_ruling_domain` | descriptor | ELEMENT·GOD (DM-relative) | — | **≤14w** | *(worked example REA_03 §5: 土偏印 = "a self-made, grounded, intuitive footing")* | faces prologue | PLANNED |
 | `k2_R` / `k2_X` | paragraph | ELEMENT·GOD × registers | — | **≤30w each**; dominant+absent bespoke | *handoff demo R:* You steady people without meaning to. When plans wobble, yours is the version everyone quietly adopts. | L4 L5 | PLANNED — the corpus pass |
 | `k2_gate_teaser` | paragraph | ELEMENT·GOD | — | **≤25w** — depth-hunger, not denial (D7) | *handoff demo:* Where this nourishment turns to over-protection · how it shapes your work and bonds · the season it peaks. | L6 | PLANNED ⚠ interacts with R5 |
 | `k2_seeker_depth` (shadow/work/bonds/season) | paragraph ×4 | ELEMENT·GOD | — | **≤40/30/30/30w** — block set awaits §7 open #3 | source: TG_CARD_DATA shadows/outputs/frictions/domainSignatures/sixRelations | Seeker gate | PLANNED |
@@ -141,7 +141,7 @@ energyCard: {
 | `tpl_core_seal_explainer` | The seal at the wheel's center is {El}'s sign — the day master you were cast with; its share leads the wheel. | *(as pattern)* | C5 | LIVE |
 | `tpl_relation_row` | {El} is your {Relation} | Fire is your Duty | E2 | LIVE |
 | `tpl_pill_title` | {El} is Your {Relation} | Metal is Your Core | F2 | LIVE |
-| `tpl_dx_line` | Your {El} is {Cond} — {Remedy} it. (role-driven mapping, ratified 2026-07-23 — REA_13 §5c) | Your Metal is Overfueled — Channel it. | F4 | LIVE |
+| `tpl_dx_line` | Your {El} is {Cond} — {Remedy} it. (role-driven mapping, ratified 2026-07-23 — REA_03 §5c) | Your Metal is Overfueled — Channel it. | F4 | LIVE |
 | `tpl_verdict_line` | {connector} {pole} · {verb} — connectors curdling into / rising toward / holding / reaching for; verbs role-driven | curdling into Isolation · channel it (Metal core-excess) | F8 | LIVE |
 | `tpl_share_coreline` | {El} is your Core — {Cond} | Metal is your Core — Overfueled | I3 | LIVE |
 | `tpl_dm_prescription` | SEEK THIS · {EL} / SKIP THIS · {EL} + body | SEEK THIS · FIRE — Fire is the energy your chart asks for — thin in you and worth feeding. | J5 | INTERIM (pending K2) |
@@ -182,7 +182,7 @@ From `archetypeSource.js` / `STEM_CARD_DATA.js` unless noted. **Rule: nothing he
 | `elementIntro.punch/expand` | STEM ×10 | measured 9–14w / 20–22w vs budgets 9–12/16–20 — the walker-conflict evidence (⚠ R7); v2.1 fate: re-budget into DM-claim register + self-card presence |
 | `subtitle` · `chips` (×5) · `yourNature.phrase` (internal) | STEM ×10 | legacy identity surface fields |
 | `gifts[]` / `shadows[]` (phrase+desc ×3) | STEM ×10 + GOD ×10 | prime K2 seeker ore |
-| `blocks[]` (5–11 authored; band/pattern overrides; 4-slot selection v2) | STEM ×10 (× band·pattern) | the §7 #4 subject; selection architecture recorded in REA_03 §11 |
+| `blocks[]` (5–11 authored; band/pattern overrides; 4-slot selection v2) | STEM ×10 (× band·pattern) | the §7 #4 subject; selection architecture recorded in REA_05 §11 |
 | `TG_CARD_DATA`: `rulingRealm` · `chips` · `hiddenDynamic` · `domainSignatures` · `outputs[]`/`frictions[]` · `sixRelations` · `liunianSignatures` | GOD ×10 | THE K2 generation source (kept per §2.4); liunian retired concept (D6 refit) |
 | `manual.*` (concentrated/open/catalyst/resistance) | STEM ×10 | legacy usage-manual surface |
 | `energy.*` (what/represents/liunian) | STEM ×10 | legacy Edge-in-Motion surface |
@@ -211,12 +211,12 @@ From `archetypeSource.js` / `STEM_CARD_DATA.js` unless noted. **Rule: nothing he
 
 ## §10 · Standing rules for template generation
 
-1. **Three field classes, never blended:** VOCABULARY (V — REA_13, locked) · ARCHETYPE (A — authored per axis) · USER_CHART (D — derived). Templates (T) are patterns over V+D. Every new variable declares class + axis here before authoring.
+1. **Three field classes, never blended:** VOCABULARY (V — REA_03, locked) · ARCHETYPE (A — authored per axis) · USER_CHART (D — derived). Templates (T) are patterns over V+D. Every new variable declares class + axis here before authoring.
 2. **Derived is sacred.** Authored copy embedding a number, role, or ordering is a defect.
-3. **Templates slot-fill only from REA_13 vocabulary + derived values.** No free text inside slots.
-4. **Definition lines mandatory on first surfacing** of any taught term (REA_13 law #4/#5; REA_15 orders teaching).
-5. **One concept, one name** (REA_13 law #1); internal terms never surface.
-6. **Reading level: grade 6–7; labels 1–2 syllables** (REA_13 §4c).
+3. **Templates slot-fill only from REA_03 vocabulary + derived values.** No free text inside slots.
+4. **Definition lines mandatory on first surfacing** of any taught term (REA_03 law #4/#5; REA_07 orders teaching).
+5. **One concept, one name** (REA_03 law #1); internal terms never surface.
+6. **Reading level: grade 6–7; labels 1–2 syllables** (REA_03 §4c).
 7. **Presence-frame registers, not per-chart authoring:** dominant bespoke · present derived · scarce/absent cultivation. Dominance selects and pitches; never rewrites (§2.2).
 8. **Depth-gating law (D7):** free reads complete; only Seeker depth gates; never hide or truncate.
 9. **Chinese glyphs are decorative texture, never information-carrying.**
@@ -229,7 +229,7 @@ From `archetypeSource.js` / `STEM_CARD_DATA.js` unless noted. **Rule: nothing he
 |---|---|---|
 | R1 | `tpl_cast_line` | Format: numeric + hour-label ("1995 · 4 · 29 · YǑU HOUR 17–19 CST") vs handoff month-name ("1995 · APRIL 29 · 17–19 CST") |
 | R2 | `inscription` | Confirm budget ≤17w / ≤85c (+ the `zh` 4–6字 target shape) |
-| R3 | `glossary_body` vs `defline` (V — REA_13 §5c) | ✔ RESOLVED IN CODE (pre-2026-07-28): `journeyData.condGlossaryBody()` composes the condition bodies from `DEFLINE` + `APPR_LINE`/`FOLD_VERDICT` — one source, no second locked copy. Dictionary notes updated. |
+| R3 | `glossary_body` vs `defline` (V — REA_03 §5c) | ✔ RESOLVED IN CODE (pre-2026-07-28): `journeyData.condGlossaryBody()` composes the condition bodies from `DEFLINE` + `APPR_LINE`/`FOLD_VERDICT` — one source, no second locked copy. Dictionary notes updated. |
 | R4 | `yourNature_desc` | Authored ×10 but not surfacing (J4 falls back to `inscription`) — surface, or retire baseline in favor of the claims model? Cap ≤46w? |
 | R5 | `face_teaser` | 45–50w vs gate-teaser law ≤25w — is it the L6 gate teaser (over budget ×2) or the K-screen read (then `k2_gate_teaser` is separate, as mapped)? |
 | R6 | `glossary_body` budget (V) | Confirm ≤35w / ≤175c |
@@ -243,8 +243,8 @@ From `archetypeSource.js` / `STEM_CARD_DATA.js` unless noted. **Rule: nothing he
 
 | | |
 |---|---|
-| **Document** | REA_14 — Reading Generation Schema (the A book) |
-| **Version** | 1.0 · 2026-07-28 (consolidation of REA_04 + REA_12 + REA_06 still-true content) |
+| **Document** | REA_04 — Reading Generation Schema (the A book) |
+| **Version** | 1.0 · 2026-07-28 (consolidation of the retired Reading_Schema + Reading_Data_Variables + Archetype_Fields; renumbered REA_14→REA_04 same day) |
 | **Status** | DRAFT — freeze per variable; corpus authoring parked until journey lock (REA_08 sequencing ruling) |
 | **Consumers** | archetypeSchema.js (implements) · the K2 authoring pass · journey UI / Self-Report / Consultant (via the content modules) |
-| **Companions** | REA_13 (Dictionary — all V slots) · REA_15 (Ladder) · REA_01 (taxonomy) · REA_02 (knowledge sources) · REA_03 (generation pipelines) · REA_05 (authoring prompts) · REA_08 (v2.1 record) |
+| **Companions** | REA_03 (Dictionary — all V slots) · REA_07 (Ladder) · REA_01 (taxonomy) · REA_02 (knowledge sources) · REA_05 (generation pipelines) · REA_06 (authoring prompts) · REA_08 (v2.1 record) |

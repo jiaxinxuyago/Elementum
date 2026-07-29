@@ -2,7 +2,7 @@
 
 > **Formerly DOC5** — renamed in the 2026-07-09 documentation reorganization; historical citations of "DOC5" refer to this file (registry: Operations/README.md).
 
-> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `REA_08_Reading_V2.1_Reconciliation_Audit.md`).** Design deltas: (1) a new **FACES prologue** is inserted *inside* the reading layer (between the catalogue and the text-heavy reading) — it is **not a new IA node**, so the §AM.1 locked table (`catalogue → reading`) **stays intact**. The face card shows, per persona: dominant-energy abstract + punchline + keywords + **ruling domain**. *(Component spec: the "Energy Faces screen" subsection in §11.)* (2) The reading unit (§11) is now **persona-scoped** (one Ten-God persona), read at a depth set by its **presence frame** (dominant/present/scarce/absent). (3) An element shows **1–2 faces strictly by calculation**; full-element absence is the ghost/cultivation read. (4) **Energy-level polarity surfaces as the two FACES** (personas), not as a per-energy yin/yang label. NB the **DM identity "Polarity chip"** (§9 — the Yang/Yin badge tile) **stays**: "Yin/Yang" is permitted as the stem register per the vocabulary law (only the term "polarity" is internal). *[Corrects the first-pass banner, which over-flagged this chip as a jargon violation.]* (5) The §AM.8/D3 **six-row → five-element** catalogue reconciliation is tracked separately as **D14 (extends D13)** in `DES_13_Design_Audit_Backlog.md`, not forced by v2.1. (6) **NEW positional axis (宫位, B6):** add a per-pillar **positional reading** surface (年 / 月 / 日支-夫妻宫 / 时 × Ten God × polarity); the engine already computes per-pillar TGs, composed via `PALACE_FRAMES × chart.tenGods` (REA_14 §1–§4, REA_02 §2.7b).
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `REA_08_Reading_V2.1_Reconciliation_Audit.md`).** Design deltas: (1) a new **FACES prologue** is inserted *inside* the reading layer (between the catalogue and the text-heavy reading) — it is **not a new IA node**, so the §AM.1 locked table (`catalogue → reading`) **stays intact**. The face card shows, per persona: dominant-energy abstract + punchline + keywords + **ruling domain**. *(Component spec: the "Energy Faces screen" subsection in §11.)* (2) The reading unit (§11) is now **persona-scoped** (one Ten-God persona), read at a depth set by its **presence frame** (dominant/present/scarce/absent). (3) An element shows **1–2 faces strictly by calculation**; full-element absence is the ghost/cultivation read. (4) **Energy-level polarity surfaces as the two FACES** (personas), not as a per-energy yin/yang label. NB the **DM identity "Polarity chip"** (§9 — the Yang/Yin badge tile) **stays**: "Yin/Yang" is permitted as the stem register per the vocabulary law (only the term "polarity" is internal). *[Corrects the first-pass banner, which over-flagged this chip as a jargon violation.]* (5) The §AM.8/D3 **six-row → five-element** catalogue reconciliation is tracked separately as **D14 (extends D13)** in `DES_13_Design_Audit_Backlog.md`, not forced by v2.1. (6) **NEW positional axis (宫位, B6):** add a per-pillar **positional reading** surface (年 / 月 / 日支-夫妻宫 / 时 × Ten God × polarity); the engine already computes per-pillar TGs, composed via `PALACE_FRAMES × chart.tenGods` (REA_04 §1–§4, REA_02 §2.7b).
 
 This document is the primary reference for all UI and interaction design work in Elementum. It is the contract between the design vision, the frontend implementation, and the data contracts defined in REA_01. Designers use it to understand intent. Engineers use it to understand what to build and what data powers each component.
 
@@ -73,7 +73,7 @@ Design the reading structure and construct the reading content so that Elementum
 | B — Resonance | ≥7/10 cold readers report self-recognition on their own reading; returning-user rate on Today screen demonstrates the daily pull. |
 | **Payoff latency (D13)** | A personal claim ("that's me") is on screen **within the first Reveal viewport, zero taps**; every catalogue card face carries a conclusion, not a category label. |
 
-**Related:** §1 (the ancient-seriousness ↔ daily-accessibility tension this charter operationalizes) · REA_03 (voice + generation rules) · `DES_13_Design_Audit_Backlog.md` D12 · `REA_09_Reading_Format_Audit.md` (format evidence).
+**Related:** §1 (the ancient-seriousness ↔ daily-accessibility tension this charter operationalizes) · REA_05 (voice + generation rules) · `DES_13_Design_Audit_Backlog.md` D12 · `REA_09_Reading_Format_Audit.md` (format evidence).
 
 ---
 
@@ -1175,13 +1175,13 @@ Three stacked cards:
 - **Read affordance** (→).
 - **Hierarchy:** the lead (dominant-weight) card is larger / accented (`{element}` border + faint fill); the undertone card is lighter (hairline `PAPER_HAIR`, reduced weight). Single-face charts show one centered card at lead emphasis.
 
-**Tap a face card → the persona's reading.** The prologue content (abstract / punchline / chips / ruling domain) already lives on the card; the destination is the text-heavy read — `R · X · gate · seeker` in **presence-frame registers** (REA_14 §3–§4).
+**Tap a face card → the persona's reading.** The prologue content (abstract / punchline / chips / ruling domain) already lives on the card; the destination is the text-heavy read — `R · X · gate · seeker` in **presence-frame registers** (REA_04 §3–§4).
 
 **Surface tokens:** silk card fills (`rgba(248,241,225,0.92)`), hairline `PAPER_HAIR` borders warming to `{element}55` on press; `Cormorant` for persona/title, `EB Garamond` for body, `JetBrains Mono` for eyebrows/markers; **no italic (§AM.10)**, no gradients (§AM surfaces).
 
 **Data contract:** engine emits per element `{ presentFaces: [{god, weight}], absentGod }` (polarity-aware — DEV_01). Each card binds to `ENERGY_CARD_DATA[\`${element}_${god}\`]` (prologue fields); art keyed to the god's Council concept × element. Card count is the present-face count — never padded.
 
-**Relationship to the positional axis (B6):** this screen is the **element-dominance** view. The **positional reading (宫位 × 十神)** is a *separate* per-pillar surface (年/月/日支-夫妻宫/时) reusing the same persona content framed by palace — not part of this screen. See REA_14 §3 + REA_02 §2.7b.
+**Relationship to the positional axis (B6):** this screen is the **element-dominance** view. The **positional reading (宫位 × 十神)** is a *separate* per-pillar surface (年/月/日支-夫妻宫/时) reusing the same persona content framed by palace — not part of this screen. See REA_04 §3 + REA_02 §2.7b.
 
 ### Bottom tab nav (Dashboard chrome)
 
@@ -1398,7 +1398,7 @@ The engine maps each TG group to its element relative to the DM internally — t
 Pattern descriptor        ← 7px, #f0ece4, opacity 0.5, italic
 ```
 
-> **[AUDIT 2026-06 · D2 — CANONICAL] tgPattern is internal-only; it is NOT surfaced in the UI.** The five-pattern system (Pure / Rooted / Flowing / Forging / Tested) is retained as a **content-variant key** (it drives `archetypeKey = ${stem}_${band}_${tgPattern}` and block resolution per REA_03), but the user-facing "PATTERN NAME + descriptor" label above is **not rendered** in the shipped app. Treat the label spec as deprecated for UI; keep tgPattern as a behind-the-scenes generation dimension. (Decision: keep internal-only.)
+> **[AUDIT 2026-06 · D2 — CANONICAL] tgPattern is internal-only; it is NOT surfaced in the UI.** The five-pattern system (Pure / Rooted / Flowing / Forging / Tested) is retained as a **content-variant key** (it drives `archetypeKey = ${stem}_${band}_${tgPattern}` and block resolution per REA_05), but the user-facing "PATTERN NAME + descriptor" label above is **not rendered** in the shipped app. Treat the label spec as deprecated for UI; keep tgPattern as a behind-the-scenes generation dimension. (Decision: keep internal-only.)
 
 **Ring animation:** On first mount, segments sweep in from the top (12 o'clock) clockwise. Duration 800ms, stagger 30ms per segment, spring easing. On subsequent mounts: no animation, static render.
 
@@ -2936,7 +2936,7 @@ Each Blueprint entry is structured around the user's `liunianSignatures` field (
 - `liunianSignatures` field in `archetypeSource.js` for all 10 stems — structured by life domain (career, relationships, wealth, health) with timing notes and classical source attribution
 - Computed pillar overlay logic in `Elementum_Engine.jsx` — current year/month/day stem and branch extraction
 - Blueprint generation function: takes natal chart + current period → produces structured guidance entry
-- Pre-generated annual / monthly entries (offline pipeline, same architecture as Pipeline A in REA_03)
+- Pre-generated annual / monthly entries (offline pipeline, same architecture as Pipeline A in REA_05)
 - Daily entries may require lightweight LLM synthesis at generation time or a pre-generated table of 60 day-stem-branch permutations
 
 **Tier assignment (proposed):**

@@ -18,7 +18,7 @@ import { PERSONA_READING, DM_READING } from '../../content/reading/index.js';
 
 const ELEMENTS = ['Wood', 'Fire', 'Earth', 'Metal', 'Water'];
 
-// Vocabulary law (REA_13_Concept_Dictionary §1–2): the engine's translated
+// Vocabulary law (REA_03_Concept_Dictionary §1–2): the engine's translated
 // god names ("Seven Killings", "Direct Seal"…) are banished aliases — the
 // model must only ever SEE the canonical persona register, so it can only
 // ever SPEAK it. Chinese glyphs stay out of every ten-god field for the

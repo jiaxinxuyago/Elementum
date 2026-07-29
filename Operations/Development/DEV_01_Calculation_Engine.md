@@ -223,7 +223,7 @@ This replaces the old raw character count, which was arbitrary and inaccurate.
 > - **真化** (gated transformation — §3.7), and
 > - **relative 冲** (root-uprooting — §3.7b).
 >
-> **合-binding** (合而不化) and **刑/害/破** change *function/relationship*, NOT substance — they live in the **格局/用神/reading layer, never in the number** (classical sourcing + 刑害破 placement: REA_02; dominance-to-reading contract: REA_14). Day-Master **strength** is the qualitative **得令/得地/得势 gate** (§3.8, Method A), 月令-primary-but-not-sole. *Doc leads code: §3.7–§3.8 describe the committed target; the engine fix lands it (backlog task "Implement engine fix").*
+> **合-binding** (合而不化) and **刑/害/破** change *function/relationship*, NOT substance — they live in the **格局/用神/reading layer, never in the number** (classical sourcing + 刑害破 placement: REA_02; dominance-to-reading contract: REA_04). Day-Master **strength** is the qualitative **得令/得地/得势 gate** (§3.8, Method A), 月令-primary-but-not-sole. *Doc leads code: §3.7–§3.8 describe the committed target; the engine fix lands it (backlog task "Implement engine fix").*
 
 ---
 
@@ -331,7 +331,7 @@ Count:      count[E] = round(pct[E] × 10)   → 0–10 for UI display
 3. **no 冲破** breaks the combination;
 4. **adjacency** — the combining stems/branches are adjacent (合 requires adjacency; never fire on mere presence).
 
-When the gate is unmet → **合而不化**: no shift, no 得势 support. The combination's *functional* effect (合去 a 用神, binding a god) is a 格局 success/break factor handled qualitatively (REA_01 / REA_14) — **not** a number.
+When the gate is unmet → **合而不化**: no shift, no 得势 support. The combination's *functional* effect (合去 a 用神, binding a god) is a 格局 success/break factor handled qualitatively (REA_01 / REA_04) — **not** a number.
 
 - The DM stem itself is never converted (identity is fixed).
 - *(Deviation note: the prior engine auto-transformed on mere presence — the 得势-inflation that produced the QA-F2 "extremely strong / wrong dominance" artifact. This 真化 gate retires that.)*
@@ -599,5 +599,5 @@ Run these against any new implementation before going to production:
 | **Purpose** | Single source of truth for all BaZi math. The deterministic input → Canonical JSON pipeline. No content, no LLM, no design. |
 | **Stability** | HIGH — changes only when calculation logic changes |
 | **Used by** | Elementum_Engine.jsx · batchGenerate.js (via JSON output) |
-| **Compatible with** | REA_01 v1.0 · REA_14 v1.0 |
+| **Compatible with** | REA_01 v1.0 · REA_04 v1.0 |
 | **Verified against** | 穷通宝鉴 · 子平真诠 · shen88.cn · ebaicha.cn · junzige.com |

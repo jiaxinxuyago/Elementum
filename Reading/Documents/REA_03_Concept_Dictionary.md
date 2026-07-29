@@ -1,8 +1,8 @@
-# REA_13 — Concept Dictionary — BaZi concepts, vocabulary law, locked terms
+# REA_03 — Concept Dictionary — BaZi concepts, vocabulary law, locked terms
 
-> **THE V BOOK — the definition file for every concept and constant vocabulary family.** Consolidated 2026-07-28 (owner-directed) from **REA_07 Part 1** (§1 law · §2 naming registry · §3 concept inventory) and **REA_11** (§4–§6 locked identity vocabulary) plus the constant surface-copy blocks. Historical citations of "REA_07 §1–§3" and "REA_11 §4/§4b/§4c/§5/§5b/§5c/§6/§6b/§6c" refer to the same-numbered sections HERE. The Concept **Ladder** (teaching order) lives in REA_15; the generative schema in REA_14. Decision histories: git (`REA_07`/`REA_11`, retired 2026-07-28) + `REA_08` (v2.1 audit record).
+> **THE V BOOK — the definition file for every concept and constant vocabulary family.** Consolidated 2026-07-28 (owner-directed) from the retired **Reading_Concept_Inventory** Part 1 (§1 law · §2 naming registry · §3 concept inventory) and the retired **Identity_Vocabulary** (§4–§6 locked terms) plus the constant surface-copy blocks; renumbered same day (transition id REA_13 → REA_03, pipeline order). Historical citations of the old Concept_Inventory §1–§3 and old Identity_Vocabulary §4/§4b/§4c/§5/§5b/§5c/§6/§6b/§6c refer to the same-numbered sections HERE (renumber table: the registry). The Concept **Ladder** (teaching order) lives in REA_07; the generative schema in REA_04. Decision histories: git (`REA_07`/`REA_11`, retired 2026-07-28) + `REA_08` (v2.1 audit record).
 
-**This doc defines terminology — it is never a generation target.** Templates and archetype generation *consume* these terms (REA_14 rule #3); nothing here varies per chart. One concept, one name, one place.
+**This doc defines terminology — it is never a generation target.** Templates and archetype generation *consume* these terms (REA_04 rule #3); nothing here varies per chart. One concept, one name, one place.
 
 **Sources of the locks:** owner rulings 2026-06-10 → 2026-07-23 (dates on each table) · `Reading/Database/elementum_profile_database.html` (Profile DB — canonical behavioral definitions) · REA_01 (archetype system) · REA_02 (knowledge pool; **PART 8 = the translation & forbidden-terms law**, canonical there — see §8).
 
@@ -14,7 +14,7 @@
 2. **Chinese glosses are texture, not vocabulary.** The 汉字 may appear beside the canonical name (ancient-seriousness register) but content must never *require* it.
 3. **Internal names never surface.** Engine/schema terms (`tgPattern`, "Seven Killings", "Indirect Seal", `band`) are code/docs only.
 4. **Ten Gods use the mythic-persona register** (owner 2026-06-10). Because persona names don't self-explain, **every surface that introduces a god MUST carry its structural definition line** (§2). Persona name teaches *who*; definition line teaches *how it works*. The Profile DB's own names (The Flow, The Trial, The Root…) are **aliases — never surfaced as persona names**. *(Scoped 2026-07-16: the ban applies to the PERSONA-NAME slot only — the words flow/trial/harvest/root are free in other slots; the relation noun **Root** and keyword **Flow** are legal.)*
-5. **A concept may not be *used* before it is *taught*** — no screen presumes a rung the journey hasn't placed (enforced by the Ladder, REA_15).
+5. **A concept may not be *used* before it is *taught*** — no screen presumes a rung the journey hasn't placed (enforced by the Ladder, REA_07).
 
 ## 2 · Naming registry — fixed names
 
@@ -63,11 +63,11 @@
 | 身强/中和/身弱 display | **Overfueled / Balanced / Underfueled** (§5c) | strong/weak, Charged/Receptive (superseded), band words |
 | concentrated/balanced/open | internal **energy band** keys (code/content only — display = §5c terms) | — |
 
-**Registration status:** the compound-vocabulary locks (§4 keywords v3, §5b relation nouns, §5c strength terms) are REGISTERED here as canonical user-facing vocabulary per law #1 — this consolidation completes the "register in REA_07" item from REA_11 §7.
+**Registration status:** the compound-vocabulary locks (§4 keywords v3, §5b relation nouns, §5c strength terms) are REGISTERED here as canonical user-facing vocabulary per law #1 — this consolidation completes the "register in the concept inventory" item from the retired Identity_Vocabulary §7.
 
 ## 3 · The BaZi concept inventory (five families)
 
-Per concept: **ID · canonical name · definition (civilian one-liner) · prerequisites · canonical content source.** (The *teaching status* columns and journey audit live with the Ladder, REA_15 — this table is the concept dictionary.)
+Per concept: **ID · canonical name · definition (civilian one-liner) · prerequisites · canonical content source.** (The *teaching status* columns and journey audit live with the Ladder, REA_07 — this table is the concept dictionary.)
 
 ### Family 0 — Foundations
 
@@ -103,7 +103,7 @@ Per concept: **ID · canonical name · definition (civilian one-liner) · prereq
 |---|---|---|---|---|
 | 3.1 | **Life Chapters** | Your timeline in ten-year chapters, each carrying its own element pair. | 0.3 | DEV_01 §9 |
 | 3.2 | **Today's energy** | Each day/year carries an element that interacts with your chart — the basis of daily guidance. | 2.1 | `dailyGuidance.js` |
-| 3.3 | **Seasonal Calibration** | Charts missing an element get a cultivation practice — borrowing what the season can lend. | 2.5, 1.1 | (absorbed into K2 absent-register — REA_14) |
+| 3.3 | **Seasonal Calibration** | Charts missing an element get a cultivation practice — borrowing what the season can lend. | 2.5, 1.1 | (absorbed into K2 absent-register — REA_04) |
 
 ### Family 4 — Pattern (advanced)
 
@@ -154,7 +154,7 @@ One sharp trait-noun per ten-god face; the two faces of each family are delibera
 | Resource 印 → **Root** | 偏印 | The Alchemist | Insight · fierce | **Vision** — Intuitive · Penetrating · Inventive | **Distance** — Aloof · Overthinking · Shut-off |
 | | 正印 | The Sage | Care · gentle | **Wisdom** — Patient · Sheltering · Recharging | **Comfort** — Passive · Over-protected · Inert |
 
-**Design rules:** the friction noun is the SAME trait overgrown, never an unrelated vice (Integrity→Rigidity ✓); friction nouns are directions, not diagnoses. Verbs role-driven at the surface (see REA_14 `tpl_verdict_line`). *(This table is the live shipped state — `journeyData.js` POLE_*/ADJ_* — v3 register merged; pre-v3 drafts in git history.)*
+**Design rules:** the friction noun is the SAME trait overgrown, never an unrelated vice (Integrity→Rigidity ✓); friction nouns are directions, not diagnoses. Verbs role-driven at the surface (see REA_04 `tpl_verdict_line`). *(This table is the live shipped state — `journeyData.js` POLE_*/ADJ_* — v3 register merged; pre-v3 drafts in git history.)*
 
 ## 4c · Register calibration (adopted 2026-07-16)
 
@@ -164,7 +164,7 @@ One sharp trait-noun per ten-god face; the two faces of each family are delibera
 
 ## 5 · Element modifiers — RETIRED FROM GLANCE LABELS (owner 2026-07-15)
 
-Glance labels are ONE punchy keyword ("Insight — your Root"), never `[modifier]+[keyword]` — the element is already on the tile (name, %, pigment, icon). The five modifiers survive only as **authoring palette** for deep-reading prose: Metal **Sharp** · Wood **Vital** · Fire **Ardent** · Earth **Grounded** · Water **Deep**. The 50 formula-derived glance labels are retired; the 50 `element_god` cells remain the CONTENT unit (REA_14).
+Glance labels are ONE punchy keyword ("Insight — your Root"), never `[modifier]+[keyword]` — the element is already on the tile (name, %, pigment, icon). The five modifiers survive only as **authoring palette** for deep-reading prose: Metal **Sharp** · Wood **Vital** · Fire **Ardent** · Earth **Grounded** · Water **Deep**. The 50 formula-derived glance labels are retired; the 50 `element_god` cells remain the CONTENT unit (REA_04).
 
 ## 5b · LOCKED — the five relation nouns (owner 2026-07-16)
 
@@ -200,7 +200,7 @@ Forks resolved: Drive over Harvest, Duty over Trial; law #4 scoped to persona-na
 
 **Copy templates:** *"Your core runs **Overfueled** — more comes in than it burns. So **Channel** it — aim the surplus, don't add to it."* (mirror for Underfueled/Refill; Balanced: *"intake and burn hold each other; protect the equilibrium."*) **Identity suffix:** "The Blade · Overfueled" (identity header, share card, compat).
 **Collapsed-tile verdicts (approach-implying):** *"It runs OVERFUELED — channel the surplus." · "BALANCED — keep the mix." · "UNDERFUELED — refill the tank."*
-**Rationale (compressed):** terms must be SYMPTOMATIC so diagnosis→remedy self-connects (supersedes Charged/Receptive — state words, chain didn't connect). Channel over Release: the surplus is an asset aimed at a target, not waste vented. Strong/Weak banned on surfaces (~80% of charts read "weak" — judgment register). Full candidate history: git (REA_11 §5c decision record).
+**Rationale (compressed):** terms must be SYMPTOMATIC so diagnosis→remedy self-connects (supersedes Charged/Receptive — state words, chain didn't connect). Channel over Release: the surplus is an asset aimed at a target, not waste vented. Strong/Weak banned on surfaces (~80% of charts read "weak" — judgment register). Full candidate history: git (the retired Identity_Vocabulary §5c decision record).
 **Internal keys unchanged:** `concentrated/balanced/open` remain code/content keys; these are DISPLAY terms.
 
 **Panel-header doctrine (locked, state-invariant):** Catalyst panel = **SEEK THESE ↑ CATALYST** · Friction panel = **SKIP THESE ↓ FRICTION** · Balanced charts collapse both to *"Balanced — nothing to force; keep the mix."* The directive is universal; the state explains *why* (Channel/Refill), the panels say *which*. Core-row guardrail: friction copy always reads "strength overgrown," never rejection.
@@ -224,14 +224,14 @@ Forks resolved: Drive over Harvest, Duty over Trial; law #4 scoped to persona-na
 
 ## 6 · Worked compounds (the A-12345 teaching examples)
 
-**庚 The Blade (reference chart):** Metal 金比肩 Independence (self) · Wood 木正财 Caution (drive) · Earth 土偏印 Insight (root) · Water 水食神 Flow (voice) · Fire 火七杀 Force (duty/forge). **Why the compound is the unit — the "Metal rotation":** the same Metal reads Independence (Blade, self) · Order (Oak, pressure) · Reach (Sun, drive) · Brilliance (Mountain, voice) · Insight (Ocean, support). Element alone could never say this; **element × ten-god is the engine of the whole system** (REA_01 §3's 50 keys; operationalized in REA_14 K2).
+**庚 The Blade (reference chart):** Metal 金比肩 Independence (self) · Wood 木正财 Caution (drive) · Earth 土偏印 Insight (root) · Water 水食神 Flow (voice) · Fire 火七杀 Force (duty/forge). **Why the compound is the unit — the "Metal rotation":** the same Metal reads Independence (Blade, self) · Order (Oak, pressure) · Reach (Sun, drive) · Brilliance (Mountain, voice) · Insight (Ocean, support). Element alone could never say this; **element × ten-god is the engine of the whole system** (REA_01 §3's 50 keys; operationalized in REA_04 K2).
 
 ## 6b · Journey-handoff integration rulings (owner 2026-07-16 — current law)
 
 1. The handoff's separate "face representation" lexicon is **REJECTED** — the representation word IS the §4 keyword ("The General · FORCE"). One lexicon everywhere.
 2. **Identity-hero chips = the top-3 keyword code** — the chart's three loudest elements' lead-face keywords, dominance-ordered. System-derived for all ten stems; never authored.
 3. Wheel seating law recorded canonically in `Design/exports/DOMINANCE_WHEEL_RULES.md` §2 AMENDMENT.
-4. **Templatization gap (open):** element-screen hook/tag lines are Blade-demo-tuned — DM-neutral rewrites or per-cell authoring pending the 50-cell pass (REA_14).
+4. **Templatization gap (open):** element-screen hook/tag lines are Blade-demo-tuned — DM-neutral rewrites or per-cell authoring pending the 50-cell pass (REA_04).
 
 ## 6c · Round-2 rulings (owner 2026-07-23 — current law)
 
@@ -239,7 +239,7 @@ Per-element diagnosis ratified (→ §5c above) · seal dock KEPT · the Tiles i
 
 ## 7 · Fixed surface copy (constant UI labels)
 
-YOU ARE (reveal eyebrow) · YOUR READING (catalogue eyebrow) · YOUR FIVE ENERGIES · THE FIVE ENERGIES · TAP A PILL TO OPEN · SEEK THESE · CATALYST / SKIP THESE · FRICTION (§5c) · The words on this page · tap one · Deeper in the Codex — the full reading of this word · ELEMENTUM · YOUR IDENTITY (share card) · What's a Day Master — and why the day? (≤8w Codex label) · Cast without your hour — close, not exact. Discover it → *(complete slot map: REA_14 §9.)*
+YOU ARE (reveal eyebrow) · YOUR READING (catalogue eyebrow) · YOUR FIVE ENERGIES · THE FIVE ENERGIES · TAP A PILL TO OPEN · SEEK THESE · CATALYST / SKIP THESE · FRICTION (§5c) · The words on this page · tap one · Deeper in the Codex — the full reading of this word · ELEMENTUM · YOUR IDENTITY (share card) · What's a Day Master — and why the day? (≤8w Codex label) · Cast without your hour — close, not exact. Discover it → *(complete slot map: REA_04 §9.)*
 
 ## 8 · Translation & forbidden-terms law
 
@@ -251,8 +251,8 @@ YOU ARE (reveal eyebrow) · YOUR READING (catalogue eyebrow) · YOUR FIVE ENERGI
 
 | | |
 |---|---|
-| **Document** | REA_13 — Concept Dictionary (the V book) |
-| **Version** | 1.0 · 2026-07-28 (consolidation of REA_07 Part 1 + REA_11 §4–§6 + constant surface copy) |
-| **Status** | §2 registry + §4/§4b keywords/poles + §5b relation nouns + §5c strength/remedy/panels/glossary = OWNER-LOCKED · §3 inventory + §4c register = adopted guidance · open items: 正印 Profile-DB backfill · R3/R6 glossary rulings (queue: REA_14 §11) |
-| **Consumers** | REA_14 (generation schema — every V slot) · REA_15 (ladder) · `journeyData.js` vocabulary tables · consultant charter · all reading surfaces |
+| **Document** | REA_03 — Concept Dictionary (the V book) |
+| **Version** | 1.0 · 2026-07-28 (consolidation of the retired Reading_Concept_Inventory Part 1 + Identity_Vocabulary §4–§6 + constant surface copy; renumbered REA_13→REA_03 same day) |
+| **Status** | §2 registry + §4/§4b keywords/poles + §5b relation nouns + §5c strength/remedy/panels/glossary = OWNER-LOCKED · §3 inventory + §4c register = adopted guidance · open items: 正印 Profile-DB backfill · R3/R6 glossary rulings (queue: REA_04 §11) |
+| **Consumers** | REA_04 (generation schema — every V slot) · REA_07 (ladder) · `journeyData.js` vocabulary tables · consultant charter · all reading surfaces |
 | **Rule** | This doc defines terms; it never varies per chart and is never a generation target. One concept, one name (law #1). |

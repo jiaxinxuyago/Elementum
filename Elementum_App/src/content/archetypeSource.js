@@ -16,7 +16,7 @@
  * TG_CARD_DATA   — 10 Ten Gods. Full card data per Ten God (ruling realm,
  *                  personality, life domains)
  *
- * See REA_03 §4 for the complete field reference and tier assignments.
+ * See REA_05 §4 for the complete field reference and tier assignments.
  */
 
 
@@ -28,7 +28,7 @@
 // blocks[]    → Base energy reading blocks. Uses the VARIANT SCHEMA:
 //               { label, bands[], patterns[], priority{}, text{} }
 //               Fallback: band_pattern → band → pattern → default
-//               See REA_03 §9 for the full authoring rules.
+//               See REA_05 §9 for the full authoring rules.
 //               This variant schema is specific to blocks[] ONLY — all other
 //               fields in STEM_CARD_DATA and all TG_CARD_DATA fields are flat.
 // ═══════════════════════════════════════════════════════════════════════════
@@ -1231,7 +1231,7 @@ There's also a pattern of caring for others at the level you wish you were cared
 // not the DM configuration. DM-specific differentiation happens at the
 // compound card layer (DomEnergyTg_Data.js, keyed by domEl_specificTenGod).
 //
-// Fields (9-section schema — REA_03 §4):
+// Fields (9-section schema — REA_05 §4):
 //   name, sub              → display title
 //   rulingRealm            → { phrase, desc } — psychological territory [FREE]
 //   chips[]                → 5 TG-specific behavioral tags [FREE]
@@ -1241,7 +1241,7 @@ There's also a pattern of caring for others at the level you wish you were cared
 //   hiddenDynamic          → one paragraph — inner mechanism beneath surface [PRO]
 //   domainSignatures       → { career, relationships, wealth, health }
 //     each: {
-//       sig: int,            // 1–5 significance weight (REA_03 §4 sig table)
+//       sig: int,            // 1–5 significance weight (REA_05 §4 sig table)
 //       sig_female: int|null,  // override for female users (六亲 relationship stars)
 //       sig_male:   int|null,  // override for male users
 //       mechanism: string,   // section title — evocative phrase naming TG's territory here
@@ -1251,7 +1251,7 @@ There's also a pattern of caring for others at the level you wish you were cared
 //     Rendering: sig ≥ 4 → included at full depth. sig ≤ 3 → excluded entirely.
 //     Gender overrides used when user gender is known.
 //     Classical 六亲 basis: 官杀 = husband star (female); 财 = wife star (male).
-//     See REA_03 §4 qualifying domains table (15 combinations).
+//     See REA_05 §4 qualifying domains table (15 combinations).
 // ═══════════════════════════════════════════════════════════════════════════
 
 // SOURCE: Free + Pro tier · Ten God personality and domain fields

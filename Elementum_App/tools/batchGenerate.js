@@ -24,7 +24,7 @@
 //   Schema TBD — will be defined when archetypeSource.js content authoring is complete.
 //
 //   PIPELINE B — Self-report synthesis (on purchase, per user)         [NOT YET BUILT]
-//   See REA_03 §7 for synthesis prompt structure.
+//   See REA_05 §7 for synthesis prompt structure.
 //   Takes user chart + compound cards from DomEnergyTg_Data.js →
 //   produces 13-field synthesized narrative in ~20–30 seconds.
 //
@@ -637,7 +637,7 @@ function buildAngleMerge(angles) {
 // ─── PIPELINE C: COMPOUND ARCHETYPE CARDS ─────────────────────────────────────
 // 50 entries: domEl_specificTenGod — same 50 keys as Pipeline B.
 // 13 fields per card: user-facing content for Seeker tier compound reading
-// and the one-time self-report. See REA_03 §9 for schema.
+// and the one-time self-report. See REA_05 §9 for schema.
 //
 // node batchGenerate.js generate-compound            → batch submit
 // node batchGenerate.js retrieve-compound [id]       → collect → compound.json

@@ -1,6 +1,6 @@
-# REA_15 — Concept Ladder — journey teaching order & section charters
+# REA_07 — Concept Ladder — journey teaching order & section charters
 
-> **Extracted 2026-07-28** from REA_07 (Parts 2–3 + the teaching-status audit), in the V/A consolidation: the **Dictionary** (concept definitions + vocabulary law) is REA_13; the **generation schema** is REA_14; THIS doc owns *pedagogy* — what order the journey teaches BaZi concepts, and each reading surface's charter. Historical citations of "REA_07 §6–§12" (the Ladder and charters) refer to the same-numbered sections here. Concept IDs (0.1 … 4.2) resolve against REA_13 §3.
+> **Extracted 2026-07-28** from the retired **Reading_Concept_Inventory** (Parts 2–3 + the teaching-status audit), in the V/A consolidation (transition id REA_15 → REA_07 in the same-day renumbering): the **Dictionary** (concept definitions + vocabulary law) is REA_03; the **generation schema** is REA_04; THIS doc owns *pedagogy* — what order the journey teaches BaZi concepts, and each reading surface's charter. Historical citations of the old Concept_Inventory §6–§12 (the Ladder and charters) refer to the same-numbered sections here — the id came full circle. Concept IDs (0.1 … 4.2) resolve against REA_03 §3.
 
 **Serves:** DES_04 §0 (Beta core goal) Axis A — introduce BaZi step by step, without cognitive overload; the owner's standing design goal (2026-07-23): *an easier, clearer reading journey with minimal cognitive load and clear BaZi system knowledge for first-time learners.*
 **Status:** DRAFT for owner markup (2026-06-10 base; inversion amendment applied) — the journey-moment mapping (L1–L15) predates the 2026-07 JourneyStage redesign and needs a re-walk against the shipped reveal→catalogue journey during content design.
@@ -11,7 +11,7 @@
 
 ## Teaching-status audit (from the inventory — where each concept stands today)
 
-Status: ✅ taught · ⚠ used-untaught · ◐ partial. *(Concept definitions: REA_13 §3. This audit predates the JourneyStage redesign — re-verify during the content-design re-walk.)*
+Status: ✅ taught · ⚠ used-untaught · ◐ partial. *(Concept definitions: REA_03 §3. This audit predates the JourneyStage redesign — re-verify during the content-design re-walk.)*
 
 | Concept | Status | Note |
 |---|---|---|
@@ -30,7 +30,7 @@ Status: ✅ taught · ⚠ used-untaught · ◐ partial. *(Concept definitions: R
 | 2.6 宫位 position | NEW | B6 axis; surface not yet designed |
 | 3.1 Life Chapters | ◐ | — |
 | 3.2 today's energy | ⚠ | presumes 2.1 |
-| 3.3 Seasonal Calibration | ◐ | absorbed into K2 absent-register (REA_14) |
+| 3.3 Seasonal Calibration | ◐ | absorbed into K2 absent-register (REA_04) |
 | 4.1 Pillar Patterns | ⚠ | steepest content, least scaffolding |
 | 4.2 hour discovery | ✅ | self-contained |
 
@@ -87,7 +87,7 @@ Status: ✅ taught · ⚠ used-untaught · ◐ partial. *(Concept definitions: R
 
 **Claim types** (the Resonance Spec will define acceptance tests per type): **R** Recognition ("that's me") · **E** Explanation (mechanism — always on-demand) · **P** Prediction (behavior under conditions) · **X** Prescription (what to do).
 
-> **v2.1 note (B5/B6).** Each energy card resolves **1–2 polarity faces** via the FACES prologue; the self element's Twin/Rival render as Ten-God cards separate from the Identity card. Depth layers vary by **presence-frame register** (dominant full · present shorter · absent cultivation). Positional reading (宫位 × 十神) is a charter row of its own. Field spec: REA_14.
+> **v2.1 note (B5/B6).** Each energy card resolves **1–2 polarity faces** via the FACES prologue; the self element's Twin/Rival render as Ten-God cards separate from the Identity card. Depth layers vary by **presence-frame register** (dominant full · present shorter · absent cultivation). Positional reading (宫位 × 十神) is a charter row of its own. Field spec: REA_04.
 
 ## 10 · Charter table
 
@@ -117,10 +117,10 @@ Status: ✅ taught · ⚠ used-untaught · ◐ partial. *(Concept definitions: R
 |---|---|---|---|
 | V1 | Engine translations ("Seven Killings"…) render on raw-chart per-pillar tags | `RawChartPage.jsx` ← `calculator.js` `en:` names | Map to persona names + 汉字 gloss at render |
 | V3 | DevBar stem shorthand ("Lamp", "Mtn", "River") | `DevBar.jsx` | Dev-only; align (Candle, Mountain, Ocean) — low priority |
-| V4 | Profile DB god names (Flow/Trial/Root…) contradict the persona set | `Reading/Database/elementum_profile_database.html` | Annotate DB header: names superseded per REA_13 §2; definitions remain canonical |
+| V4 | Profile DB god names (Flow/Trial/Root…) contradict the persona set | `Reading/Database/elementum_profile_database.html` | Annotate DB header: names superseded per REA_03 §2; definitions remain canonical |
 | V5 | Condition terms surfaced without definition | re-audit post-journey (folio deflines may have resolved) | Charter a definition moment if still live |
 | V6 | 正印 card missing from Profile DB body | `Reading/Database/elementum_profile_database.html` | Backfill The Sage before content reconstruction |
-| V7 | `CodexScreen.jsx:46-52` surfaces raw `dm.strength` ("Yang Metal, strong.") | carried from REA_11 §7 | Replace with §5c locked terms + definition lines |
+| V7 | `CodexScreen.jsx:46-52` surfaces raw `dm.strength` ("Yang Metal, strong.") | carried from the retired Identity_Vocabulary §7 | Replace with §5c locked terms + definition lines |
 
 ---
 

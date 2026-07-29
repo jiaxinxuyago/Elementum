@@ -164,7 +164,7 @@ Example: 庚_concentrated_pure
 
 **Note on 5 vs 7 tgPattern values:** The yin/yang polarity split within Output (食神/伤官) and Authority (正官/七杀) is resolved at Layer 2 via the specific Ten God. tgPattern at Layer 1 describes the structural family only.
 
-**One key is hand-authored as the reference standard:** `庚_concentrated_pure` — see REA_03 §11 for the full reference reading.
+**One key is hand-authored as the reference standard:** `庚_concentrated_pure` — see REA_05 §11 for the full reference reading.
 
 ### Layer 2 key (element × specific Ten God)
 
@@ -302,7 +302,7 @@ Chart: 乙亥 庚辰 庚寅 乙酉 · DM: 庚 Metal · **strong (0.72) · concen
 | **Version** | 1.1  ·  April 2026 |
 | **Status** | LOCKED — archetypes, taxonomy, and key formulas are structural definitions |
 | **Audience** | Engineers, product, generation system |
-| **Purpose** | Single source of truth for the archetype identity system and layer key taxonomy. What each archetype is, how keys are computed, and the full 50-key interaction map. Nothing about reading content, deliverable layout, or generation — those live in REA_03. |
+| **Purpose** | Single source of truth for the archetype identity system and layer key taxonomy. What each archetype is, how keys are computed, and the full 50-key interaction map. Nothing about reading content, deliverable layout, or generation — those live in REA_05. |
 | **Stability** | HIGH — the taxonomy is the contract. Changes require updating batchGenerate.js and Elementum_Engine.jsx |
-| **Used by** | Elementum_Engine.jsx · batchGenerate.js · REA_03 · DES_04 |
+| **Used by** | Elementum_Engine.jsx · batchGenerate.js · REA_05 · DES_04 |
 | **Compatible with** | DEV_01 v1.0  *(Doc 6 was the Manual — retired; Doc 6 now = Reading Schema)* |

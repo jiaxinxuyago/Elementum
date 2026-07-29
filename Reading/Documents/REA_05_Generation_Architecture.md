@@ -1,4 +1,4 @@
-# Elementum · REA_03 — Generation Architecture & Reading Content Guide
+# Elementum · REA_05 — Generation Architecture & Reading Content Guide
 
 > **Formerly DES_03** (moved to the Reading library in the 2026-07-23 design/reading doc separation) **and before that DOC4** (2026-07-09 reorganization). Historical citations of "DES_03" or "DOC4" refer to this file (registry: Operations/README.md).
 
@@ -7,12 +7,12 @@
 > **Version 4.3 · April 2026**
 > This document replaces all prior generation architecture. The old three-pass pipeline (portrait prewrite → persona card → reading schema) is retired. `archetypeSource.js` is the single source of truth for all field names, reading templates, and knowledge-pool content. Two pre-generated serving files exist: `stemVariants.js` (150 configuration-specific entries) and `DomEnergyTg_Data.js` (50 compound archetype cards). Generated content beyond those files is limited to the self-report synthesis pass (on purchase).
 
-> **Cross-reference (added with REA_14).**
+> **Cross-reference (added with REA_04).**
 > Field shapes, tier gating per field, and `varyBy` cardinality now live in the canonical schema: [`Elementum_App/src/contract/archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js).
-> Designer-facing companion grouped by UI surface: [REA_14 — Reading Generation Schema](REA_14_Reading_Generation_Schema.md).
-> The full tag library (stem, tg, element, band, tgPattern, branch, season, gender, lifeDomain, lifeStage, lifePeriod, annualPillar) is documented in REA_14 → "VaryBy Tag Library". Use it to classify any new field without colliding with existing archetype universes.
+> Designer-facing companion grouped by UI surface: [REA_04 — Reading Generation Schema](REA_04_Reading_Generation_Schema.md).
+> The full tag library (stem, tg, element, band, tgPattern, branch, season, gender, lifeDomain, lifeStage, lifePeriod, annualPillar) is documented in REA_04 → "VaryBy Tag Library". Use it to classify any new field without colliding with existing archetype universes.
 > The DevBar `Schema` tab visualizes coverage and cardinality against this schema for the active stem.
-> **When this doc and the schema disagree, the schema wins.** REA_03 focuses on orchestration, delivery, rendering rules, and synthesis contracts — the *how*, not the *what*.
+> **When this doc and the schema disagree, the schema wins.** REA_05 focuses on orchestration, delivery, rendering rules, and synthesis contracts — the *how*, not the *what*.
 
 ---
 
@@ -175,7 +175,7 @@ All 10 stem manifesto strings must follow this `Line 1 · Line 2` format. A stri
 
 The first thing the user reads on this page. UI eyebrow: **"THE ELEMENT"**. Rendered before any personalised content. Sources from `archetypeSource.js` → `identity.elementIntro`. Two sentences: a declarative codex-register definition of the elemental force (`punch`), and an adjective-rich vibe description of someone carrying it (`expand`). Third-person throughout — no "you". SVG illustration of the stem’s archetype symbol rendered alongside the text.
 
-See REA_05 §3 for full authoring spec and prompt guidance for all 10 stems.
+See REA_06 §3 for full authoring spec and prompt guidance for all 10 stems.
 
 #### Layer 1–4 — Energy condition reading
 
@@ -237,9 +237,9 @@ Every TG card is governed by a **locked reading angle** — a single lens that a
 
 ## §4 — Data Architecture & Field Reference
 
-> **⚠ Partial overlap with the schema (REA_14 / archetypeSchema.js).**
-> The field names, types, and tier tables in this section duplicate what is now canonically declared in [`archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js) and documented by UI surface in [REA_14](REA_14_Reading_Generation_Schema.md).
-> This section is retained for historical continuity and to keep REA_03's orchestration/rendering discussion self-contained. When field specifics diverge between this section and the schema, the schema wins. Candidate for consolidation to a pointer once REA_14 matures.
+> **⚠ Partial overlap with the schema (REA_04 / archetypeSchema.js).**
+> The field names, types, and tier tables in this section duplicate what is now canonically declared in [`archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js) and documented by UI surface in [REA_04](REA_04_Reading_Generation_Schema.md).
+> This section is retained for historical continuity and to keep REA_05's orchestration/rendering discussion self-contained. When field specifics diverge between this section and the schema, the schema wins. Candidate for consolidation to a pointer once REA_04 matures.
 
 ### Source of truth: `archetypeSource.js`
 
@@ -262,7 +262,7 @@ One entry per stem (10 total).
 
 #### `identity.elementIntro.*` — "The Element" block (Layer 0 of the Elemental Nature page)
 
-World-building intro block. UI eyebrow label: **"THE ELEMENT"**. Rendered before any personal reading content. Third-person, no "you". One entry per stem, hand-authored — not generated. See REA_05 §3 for authoring spec and prompt guidance.
+World-building intro block. UI eyebrow label: **"THE ELEMENT"**. Rendered before any personal reading content. Third-person, no "you". One entry per stem, hand-authored — not generated. See REA_06 §3 for authoring spec and prompt guidance.
 
 | Field | Type | Description | Tier |
 |---|---|---|---|
@@ -552,7 +552,7 @@ Cross-check before proceeding: read the first sentence back. Does it feel like i
 
 ---
 
-**① Archetype identity** — `yourNature.phrase` is the named archetype: the single most distilled characterological statement for this stem (examples: *The Structural Assessor*, *The Ascending Vine*). **[AUDIT 2026-06] INTERNAL — authoring anchor only, NOT rendered in the UI.** Per REA_14 §3 and the live app (which marks it `[INTERNAL — not rendered]` and renders `yourNature.desc` as the portrait), this field is a synthesis/authoring anchor. The earlier "displayed prominently as the visual anchor" framing is superseded.
+**① Archetype identity** — `yourNature.phrase` is the named archetype: the single most distilled characterological statement for this stem (examples: *The Structural Assessor*, *The Ascending Vine*). **[AUDIT 2026-06] INTERNAL — authoring anchor only, NOT rendered in the UI.** Per REA_04 §3 and the live app (which marks it `[INTERNAL — not rendered]` and renders `yourNature.desc` as the portrait), this field is a synthesis/authoring anchor. The earlier "displayed prominently as the visual anchor" framing is superseded.
 
 ---
 
@@ -746,9 +746,9 @@ Generates all 150 `stem_band_tgPattern` entries. Each config is an independent g
 **Generation inputs per call:**
 1. Target config key: `stem`, `band`, `tgPattern`
 2. Stem grounding from `archetypeSource.js`: the full `STEM_CARD_DATA[stem]` entry — `blocks[]`, `manual.*`, `energy.*` — as characterological reference
-3. Band meaning: what `concentrated` / `balanced` / `open` means for DM energy level (from REA_03 §9 Rule 3)
-4. tgPattern meaning: what dominant force family is operating and its implication for the DM (from REA_03 §9 Rule 4)
-5. Voice register: the elemental register for this stem (Metal / Wood / Fire / Earth / Water — from REA_03 §5)
+3. Band meaning: what `concentrated` / `balanced` / `open` means for DM energy level (from REA_05 §9 Rule 3)
+4. tgPattern meaning: what dominant force family is operating and its implication for the DM (from REA_05 §9 Rule 4)
+5. Voice register: the elemental register for this stem (Metal / Wood / Fire / Earth / Water — from REA_05 §5)
 6. `BINGYI_FRAMING` writing constraints (from `archetypeSource.js`)
 
 ```
