@@ -4,10 +4,10 @@
 //
 // Two views (tab-switched):
 //   Chart  — tier switcher, chart + birthData summary, seed presets,
-//            jump-to, reset  (original content)
-//   Schema — field coverage for the active stem's archetype record,
-//            walked against ARCHETYPE_SCHEMA. Shows present / missing /
-//            constraint violations, per field, grouped by section.
+//            jump-to (the CURRENT journey's screens only), reset
+//   Schema — the REA_03 reading data variables, grouped by journey
+//            surface, resolved LIVE against the active chart (axis +
+//            status + value). Mirrors devVariables.js ← REA_03.
 //
 // Only renders in development (import.meta.env.DEV) and only on viewports
 // wide enough to have space beside the 390px phone frame. Never shipped.
@@ -16,8 +16,11 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useChart } from '../../store/chartContext.jsx';
 import { TIERS, TIER_LABELS, TIER_PRICES } from '../../infra/index.js';
-import { STEM_CARD_DATA, coverageFor } from '../../content/index.js';
-import { SCHEMA_VERSION, ARCHETYPE_SCHEMA } from '../../contract/index.js';
+import { STEM_CARD_DATA } from '../../content/index.js';
+import { buildEnergyChart } from '../../engine/index.js';
+import { buildIdentity } from '../reading/identity.js';
+import { buildJourneyModel } from '../journey/journeyData.js';
+import { buildVariableGroups, VARIABLE_REGISTRY_NOTE } from './devVariables.js';
 
 // Tier → pigment. Matches the pricing card gradients in DES_04 §19.
 const TIER_ACCENT = {
@@ -26,29 +29,24 @@ const TIER_ACCENT = {
   advisor: '#B4755E', // fire — advisor is premium, animated
 };
 
-// Schema-status → pigment.
+// Variable-status → pigment.
 const STATUS_ACCENT = {
-  present:         '#8D9C7A',  // wood — healthy
-  missing:         '#B4755E',  // fire — needs attention
-  'optional-missing': '#6c655a',
-  violates:        '#c79b4a',  // amber — constraint violation
-  placeholder:     '#B59A6B',  // earth — accepted generic fallback, flagged
-  deprecated:      '#8a8378',  // grey — retired
-  default:         '#7d766b',
+  LIVE:    '#8D9C7A',  // wood — shipping
+  INTERIM: '#c79b4a',  // amber — placeholder/gated copy
+  PLANNED: '#9a7a8a',  // dusty rose — awaiting the K2 pass
+  default: '#7d766b',
 };
 
-const FLOW_SCREENS = [
-  'welcome',
-  'step1', 'step2', 'step3',
-  'step4', 'step4a',
-  'step5',
-  'step6', 'step6a',
-  'step7', 'step7a',
-  'loading', 'reveal',
-  // Dashboard tabs (DES_04 §10–§14)
-  'app-today', 'app-guidance', 'app-reading', 'app-compat', 'app-profile',
-  // Reading-detail destinations (DES_04 §11)
-  'read-elemental', 'read-daymaster', 'read-tengods', 'read-locked',
+// The CURRENT user journey's screens, grouped for scannability.
+// Source of truth: App.jsx FLOW — the legacy read-* detail stack is
+// orphaned (nothing navigates to it) and deliberately NOT listed.
+const SCREEN_GROUPS = [
+  { label: 'Onboarding', screens: ['welcome', 'step1', 'step2', 'step3', 'step4', 'step4a', 'step5', 'step6', 'step6a', 'step7', 'step7a', 'loading', 'reveal'] },
+  { label: 'Tabs', screens: ['app-today', 'app-guidance', 'app-reading', 'app-compat', 'app-profile'] },
+  { label: 'Today drill-downs', screens: ['app-day', 'app-month', 'app-year', 'app-decade'] },
+  { label: 'Reading journey', screens: ['app-daymaster', 'app-pillars', 'app-energy', 'app-energymap', 'app-codex'] },
+  { label: 'Guidance cards', screens: ['app-draw', 'app-manual', 'app-selfreport', 'app-consultant'] },
+  { label: 'Compat + chart', screens: ['compat-friends', 'chart-reveal', 'chart-resonance'] },
 ];
 
 // 10 day-master stems in canonical 甲乙丙丁戊己庚辛壬癸 order.
@@ -155,7 +153,7 @@ export default function DevBar() {
           regenerate={regenerate}
         />
       ) : (
-        <SchemaView chart={chart} />
+        <SchemaView chart={chart} birthData={birthData} />
       )}
     </div>
   );
@@ -274,30 +272,37 @@ function ChartView({ birthData, chart, tier, setTier, currentScreen, goto, seed,
       </DevSection>
 
       <DevSection label="Jump to Screen">
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
-          {FLOW_SCREENS.map((s) => {
-            const active = currentScreen === s;
-            return (
-              <button
-                key={s}
-                onClick={goto(s)}
-                style={{
-                  padding: '4px 8px',
-                  borderRadius: 4,
-                  border: `1px solid ${active ? '#8b7355' : '#3a342d'}`,
-                  background: active ? 'rgba(139,115,85,0.22)' : '#2a2621',
-                  color: active ? '#e0d6c3' : '#9d968a',
-                  cursor: 'pointer',
-                  fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace',
-                  fontSize: 10,
-                  letterSpacing: 0.2,
-                }}
-              >
-                {s}
-              </button>
-            );
-          })}
-        </div>
+        {SCREEN_GROUPS.map((g) => (
+          <div key={g.label} style={{ marginBottom: 8 }}>
+            <div style={{ fontSize: 9, letterSpacing: 1.4, textTransform: 'uppercase', color: '#6c655a', marginBottom: 4 }}>
+              {g.label}
+            </div>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
+              {g.screens.map((s) => {
+                const active = currentScreen === s;
+                return (
+                  <button
+                    key={s}
+                    onClick={goto(s)}
+                    style={{
+                      padding: '4px 8px',
+                      borderRadius: 4,
+                      border: `1px solid ${active ? '#8b7355' : '#3a342d'}`,
+                      background: active ? 'rgba(139,115,85,0.22)' : '#2a2621',
+                      color: active ? '#e0d6c3' : '#9d968a',
+                      cursor: 'pointer',
+                      fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace',
+                      fontSize: 10,
+                      letterSpacing: 0.2,
+                    }}
+                  >
+                    {s}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        ))}
       </DevSection>
 
       <DevSection label="Actions">
@@ -325,64 +330,43 @@ function ChartView({ birthData, chart, tier, setTier, currentScreen, goto, seed,
 }
 
 // ═══════════════════════════════════════════════════════════════════
-// SCHEMA VIEW
-// Walks the active stem's archetype record against ARCHETYPE_SCHEMA and
-// renders a field-by-field coverage report. The "universal vocabulary"
-// panel — tells the designer/writer what every field is and whether
-// the current stem fills it.
+// SCHEMA VIEW — the reading data variables (REA_03), by surface,
+// resolved live for the active chart. Slot IDs are not shown: the slots
+// are already visible on the screens; variables are what authoring,
+// budgets, and rulings target.
 // ═══════════════════════════════════════════════════════════════════
 
-function SchemaView({ chart }) {
-  const activeStem = chart?.dayMaster?.stem || '庚';
-  const record = STEM_CARD_DATA?.[activeStem];
-  const { rows, summary } = useMemo(
-    () => coverageFor(record),
-    [record]
-  );
-  const [collapsed, setCollapsed] = useState({});
-
-  const toggle = (key) => setCollapsed((s) => ({ ...s, [key]: !s[key] }));
-
-  // Group the flat row list by top-level key for collapsible sections.
-  const grouped = useMemo(() => {
-    const m = new Map();
-    for (const r of rows) {
-      const top = r.path.split('.')[0];
-      if (!m.has(top)) m.set(top, []);
-      m.get(top).push(r);
+function SchemaView({ chart, birthData }) {
+  const model = useMemo(() => {
+    if (!chart) return null;
+    try {
+      const card = STEM_CARD_DATA[chart.dayMaster.stem];
+      const ec = buildEnergyChart(chart);
+      const identity = buildIdentity(chart, card, !!(birthData?.hourUnknown || birthData?.hourWindow));
+      return buildJourneyModel({ chart, ec, identity, card, birthData });
+    } catch {
+      return null;
     }
-    return m;
-  }, [rows]);
+  }, [chart, birthData]);
+
+  const groups = useMemo(() => buildVariableGroups(model), [model]);
+  const [collapsed, setCollapsed] = useState({});
+  const toggle = (k) => setCollapsed((s) => ({ ...s, [k]: !s[k] }));
 
   return (
     <>
-      <DevSection label="Schema Coverage">
-        <div style={{ fontSize: 11, color: '#8a8378', marginBottom: 8 }}>
-          Stem <span style={{ color: '#e0d6c3' }}>{activeStem}</span>
-          {' '}· schema v{SCHEMA_VERSION}
-        </div>
-        <CoverageBar summary={summary} />
-        <div style={{ fontSize: 11, color: '#8a8378', marginTop: 6, lineHeight: 1.6 }}>
-          <StatDot color={STATUS_ACCENT.present}   label={`${summary.present} present`}   />
-          <StatDot color={STATUS_ACCENT.missing}   label={`${summary.missing} missing`}   />
-          <StatDot color={STATUS_ACCENT.violates}  label={`${summary.violates} violates`} />
-          {summary.placeholder > 0 &&
-            <StatDot color={STATUS_ACCENT.placeholder} label={`${summary.placeholder} placeholder`} />}
-          {summary.optionalMissing > 0 &&
-            <StatDot color={STATUS_ACCENT['optional-missing']} label={`${summary.optionalMissing} optional`} />}
-        </div>
-      </DevSection>
+      <div style={{ fontSize: 11, color: '#8a8378', marginBottom: 10, lineHeight: 1.5 }}>
+        Reading data variables (REA_03) resolved for{' '}
+        <span style={{ color: '#e0d6c3' }}>{model ? `${model.stem} ${model.archetype}` : 'no chart'}</span>.
+        <div style={{ fontSize: 10, color: '#6c655a', marginTop: 2 }}>{VARIABLE_REGISTRY_NOTE}</div>
+      </div>
 
-      {[...grouped.entries()].map(([topKey, groupRows]) => {
-        const meta = ARCHETYPE_SCHEMA[topKey]?._meta;
-        const firstRow = groupRows[0];
-        const isDeprecated = firstRow?.status === 'deprecated';
-        const isCollapsed = collapsed[topKey] ?? (topKey === 'blocks' || isDeprecated); // collapse heavy/dead groups by default
-
+      {groups.map((g) => {
+        const isCollapsed = collapsed[g.surface] ?? false;
         return (
-          <div key={topKey} style={{ marginBottom: 10 }}>
+          <div key={g.surface} style={{ marginBottom: 10 }}>
             <button
-              onClick={() => toggle(topKey)}
+              onClick={() => toggle(g.surface)}
               style={{
                 width: '100%',
                 display: 'flex',
@@ -392,7 +376,7 @@ function SchemaView({ chart }) {
                 borderRadius: 6,
                 border: '1px solid #3a342d',
                 background: '#2a2621',
-                color: isDeprecated ? '#8a8378' : '#d8d2c2',
+                color: '#d8d2c2',
                 cursor: 'pointer',
                 fontFamily: 'inherit',
                 fontSize: 12,
@@ -402,33 +386,14 @@ function SchemaView({ chart }) {
               <span>
                 <span style={{ fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace', fontSize: 11 }}>
                   {isCollapsed ? '▸' : '▾'}
-                </span>
-                {' '}
-                <strong>{topKey}</strong>
-                {meta?.tier && <TierChip tier={meta.tier} />}
-                <VaryChip varyBy={firstRow?.varyBy} cardinality={firstRow?.cardinality} />
-                {isDeprecated && <span style={{ marginLeft: 6, fontSize: 10, color: '#c79b4a' }}>deprecated</span>}
+                </span>{' '}
+                <strong>{g.surface}</strong>
               </span>
-              <span style={{ fontSize: 10, color: '#7d766b' }}>
-                {countBy(groupRows, (r) => r.kind === 'leaf' && r.status === 'present')}
-                /
-                {countBy(groupRows, (r) => r.kind === 'leaf' && r.status !== 'deprecated')}
-              </span>
+              <span style={{ fontSize: 10, color: '#7d766b' }}>{g.vars.length}</span>
             </button>
             {!isCollapsed && (
-              <div style={{ paddingLeft: 8, paddingTop: 6 }}>
-                {meta?.section && (
-                  <div style={{ fontSize: 10, color: '#7d766b', marginBottom: 4 }}>
-                    {meta.section}
-                  </div>
-                )}
-                {/* If the top-level schema entry is a leaf (e.g. subtitle, chips),
-                    groupRows[0] IS the leaf — render it. Otherwise skip the
-                    synthetic group row walkSchema inserted at index 0. */}
-                {(firstRow?.kind === 'leaf' ? groupRows : groupRows.slice(1))
-                  .map((r) => (
-                    <SchemaRow key={r.path} row={r} />
-                  ))}
+              <div style={{ paddingLeft: 4, paddingTop: 6 }}>
+                {g.vars.map((v) => <VariableRow key={v.name} v={v} />)}
               </div>
             )}
           </div>
@@ -438,87 +403,51 @@ function SchemaView({ chart }) {
   );
 }
 
-function SchemaRow({ row }) {
-  if (row.kind !== 'leaf') {
-    return (
-      <div style={{ fontSize: 11, color: '#9d968a', padding: '3px 0' }}>
-        <span style={{ fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace' }}>
-          {row.path.split('.').slice(1).join('.')}
-        </span>
-        {row.section && <span style={{ color: '#7d766b', fontSize: 10, marginLeft: 6 }}>({row.section})</span>}
-      </div>
-    );
-  }
-
-  const statusKey =
-    row.status?.startsWith('violates')    ? 'violates' :
-    row.status?.startsWith('placeholder') ? 'placeholder' :
-    row.status;
-  const color = STATUS_ACCENT[statusKey] || STATUS_ACCENT.default;
-  const subPath = row.path.split('.').slice(1).join('.');
-  const preview = previewValue(row.value);
-
+function VariableRow({ v }) {
+  const statusKey = v.status?.startsWith('LIVE') ? 'LIVE' : v.status?.startsWith('INTERIM') ? 'INTERIM' : v.status?.startsWith('PLANNED') ? 'PLANNED' : 'default';
+  const color = STATUS_ACCENT[statusKey];
+  const flagged = v.status?.includes('⚠');
   return (
-    <div
-      style={{
-        display: 'grid',
-        gridTemplateColumns: '10px 1fr auto',
-        gap: 6,
-        padding: '2px 0',
-        alignItems: 'start',
-        fontSize: 11,
-      }}
-    >
-      <div style={{
-        width: 6, height: 6, borderRadius: 6, background: color,
-        marginTop: 6,
-      }} />
+    <div style={{ display: 'grid', gridTemplateColumns: '10px 1fr', gap: 6, padding: '3px 0', alignItems: 'start', fontSize: 11 }}>
+      <div style={{ width: 6, height: 6, borderRadius: 6, background: color, marginTop: 5 }} />
       <div style={{ minWidth: 0 }}>
         <div style={{ fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace', color: '#c7bfb0' }}>
-          {subPath}
-          <span style={{ color: '#7d766b', fontSize: 10, marginLeft: 6 }}>{row.type}</span>
-          {row.tier && row.tier !== '—' && <TierChip tier={row.tier} />}
-          <VaryChip varyBy={row.varyBy} cardinality={row.cardinality} />
+          {v.name}
+          <AxisChip axis={v.axis} />
+          <span style={{ marginLeft: 5, fontSize: 9, letterSpacing: 0.6, color: flagged ? '#c79b4a' : color, textTransform: 'uppercase' }}>
+            {v.status}
+          </span>
         </div>
-        {preview && (
-          <div style={{ color: '#8a8378', fontSize: 10, lineHeight: 1.4, marginTop: 2, wordBreak: 'break-word' }}>
-            {preview}
-          </div>
-        )}
-        {row.status?.startsWith('violates') && (
-          <div style={{ color: '#c79b4a', fontSize: 10, marginTop: 2 }}>
-            ⚠ {row.status.replace(/^violates:/, '')}
-          </div>
-        )}
-        {row.status?.startsWith('placeholder') && (
-          <div style={{ color: STATUS_ACCENT.placeholder, fontSize: 10, marginTop: 2 }}>
-            ◐ placeholder — replace with per-stem value
-          </div>
-        )}
-      </div>
-      <div style={{ fontSize: 9, color, letterSpacing: 0.6, textTransform: 'uppercase', textAlign: 'right' }}>
-        {statusLabel(row.status)}
+        <div style={{ color: v.value ? '#8a8378' : '#5d574e', fontSize: 10, lineHeight: 1.4, marginTop: 1, wordBreak: 'break-word' }}>
+          {preview(v.value)}
+        </div>
       </div>
     </div>
   );
 }
 
-function CoverageBar({ summary }) {
-  const total = Math.max(1, summary.present + summary.missing + summary.violates + summary.placeholder);
-  const seg = (n, c) => n > 0
-    ? <div style={{ flexBasis: `${(n/total)*100}%`, background: c }} />
-    : null;
+function AxisChip({ axis }) {
+  if (!axis) return null;
+  const color =
+    axis.startsWith('STEM') ? '#7a8a9a' :
+    axis.startsWith('GOD') ? '#9a7a8a' :
+    axis.startsWith('ELEMENT') ? '#8fa88f' :
+    axis.startsWith('CONDITION') || axis.startsWith('FAMILY') ? '#8a7a9a' :
+    axis.startsWith('DERIVED') ? '#7d766b' :
+    axis.startsWith('T') ? '#a8908a' : '#7d766b';
   return (
-    <div style={{
-      display: 'flex', height: 6, borderRadius: 3, overflow: 'hidden',
-      background: '#2a2621', border: '1px solid #3a342d',
-    }}>
-      {seg(summary.present, STATUS_ACCENT.present)}
-      {seg(summary.placeholder, STATUS_ACCENT.placeholder)}
-      {seg(summary.violates, STATUS_ACCENT.violates)}
-      {seg(summary.missing, STATUS_ACCENT.missing)}
-    </div>
+    <span style={{
+      marginLeft: 5, fontSize: 9, letterSpacing: 0.3, padding: '1px 5px', borderRadius: 3,
+      border: `1px solid ${color}55`, color, background: `${color}15`,
+      fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace',
+    }}>{axis}</span>
   );
+}
+
+function preview(v) {
+  if (v === undefined || v === null || v === '') return '(unauthored)';
+  const s = String(v);
+  return s.length > 160 ? s.slice(0, 157) + '…' : s;
 }
 
 // ── helpers ───────────────────────────────────────────────────
@@ -587,103 +516,6 @@ function TabBtn({ active, onClick, children }) {
       {children}
     </button>
   );
-}
-
-function VaryChip({ varyBy, cardinality }) {
-  // Static fields and defaults don't need a chip.
-  if (!varyBy || !varyBy.length) return null;
-
-  // Pigment by primary dimension so stem / tg / element sets are visually distinct.
-  // Multi-dim fields inherit from amber (high generation cost) regardless of primary.
-  const PRIMARY_COLOR = {
-    stem:    '#7a8a9a',  // slate — the baseline stem set
-    tg:      '#9a7a8a',  // dusty rose — the ten god set
-    element: '#8fa88f',  // sage — the element set (yang/yin shared)
-    band:    '#8a7a9a',
-    tgPattern: '#a8908a',
-  };
-  const color = varyBy.length > 1 ? '#c79b4a' : (PRIMARY_COLOR[varyBy[0]] || '#7d766b');
-
-  // Always show dimension + count so "stem ×10" and "tg ×10" never look the same.
-  const label = `${varyBy.join('·')}×${cardinality}`;
-
-  return (
-    <span
-      title={`varyBy: [${varyBy.join(', ')}] — ${cardinality} authored variants`}
-      style={{
-        marginLeft: 5,
-        fontSize: 9,
-        letterSpacing: 0.3,
-        padding: '1px 5px',
-        borderRadius: 3,
-        border: `1px solid ${color}55`,
-        color,
-        background: `${color}15`,
-        fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace',
-      }}
-    >{label}</span>
-  );
-}
-
-function TierChip({ tier }) {
-  const label = String(tier).toUpperCase();
-  const color = {
-    free:     '#8D9C7A',
-    pro:      '#B4755E',
-    internal: '#7d766b',
-    mixed:    '#B59A6B',
-  }[tier] || '#7d766b';
-  return (
-    <span style={{
-      marginLeft: 6,
-      fontSize: 9,
-      letterSpacing: 0.8,
-      padding: '1px 5px',
-      borderRadius: 3,
-      border: `1px solid ${color}55`,
-      color,
-      background: `${color}15`,
-      fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace',
-    }}>{label}</span>
-  );
-}
-
-function StatDot({ color, label }) {
-  return (
-    <span style={{ display: 'inline-flex', alignItems: 'center', marginRight: 10 }}>
-      <span style={{ width: 6, height: 6, borderRadius: 6, background: color, display: 'inline-block', marginRight: 5 }} />
-      {label}
-    </span>
-  );
-}
-
-function statusLabel(status) {
-  if (!status) return '';
-  if (status.startsWith('violates'))    return '⚠';
-  if (status.startsWith('placeholder')) return '◐';
-  if (status === 'present')             return '✓';
-  if (status === 'missing')             return '—';
-  if (status === 'optional-missing')    return '·';
-  if (status === 'deprecated')          return 'dep';
-  return status;
-}
-
-function previewValue(v) {
-  if (v === undefined || v === null) return '';
-  if (typeof v === 'string') return v.length > 80 ? v.slice(0, 77) + '…' : v;
-  if (Array.isArray(v)) {
-    if (v.length === 0) return '[]';
-    if (typeof v[0] === 'string') return `[${v.map(s => `"${s.length > 20 ? s.slice(0,18)+'…' : s}"`).join(', ').slice(0, 80)}${v.join(', ').length > 80 ? '…' : ''}]`;
-    return `[${v.length} items]`;
-  }
-  if (typeof v === 'object') return '{…}';
-  return String(v);
-}
-
-function countBy(rows, pred) {
-  let n = 0;
-  for (const r of rows) if (pred(r)) n++;
-  return n;
 }
 
 const miniBtn = {
