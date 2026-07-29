@@ -7,10 +7,10 @@
 > **Version 4.3 · April 2026**
 > This document replaces all prior generation architecture. The old three-pass pipeline (portrait prewrite → persona card → reading schema) is retired. `archetypeSource.js` is the single source of truth for all field names, reading templates, and knowledge-pool content. Two pre-generated serving files exist: `stemVariants.js` (150 configuration-specific entries) and `DomEnergyTg_Data.js` (50 compound archetype cards). Generated content beyond those files is limited to the self-report synthesis pass (on purchase).
 
-> **Cross-reference (added with REA_06).**
+> **Cross-reference (added with REA_14).**
 > Field shapes, tier gating per field, and `varyBy` cardinality now live in the canonical schema: [`Elementum_App/src/contract/archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js).
-> Designer-facing companion grouped by UI surface: [REA_06 — Archetype Fields](REA_06_Archetype_Fields.md).
-> The full tag library (stem, tg, element, band, tgPattern, branch, season, gender, lifeDomain, lifeStage, lifePeriod, annualPillar) is documented in REA_06 → "VaryBy Tag Library". Use it to classify any new field without colliding with existing archetype universes.
+> Designer-facing companion grouped by UI surface: [REA_14 — Reading Generation Schema](REA_14_Reading_Generation_Schema.md).
+> The full tag library (stem, tg, element, band, tgPattern, branch, season, gender, lifeDomain, lifeStage, lifePeriod, annualPillar) is documented in REA_14 → "VaryBy Tag Library". Use it to classify any new field without colliding with existing archetype universes.
 > The DevBar `Schema` tab visualizes coverage and cardinality against this schema for the active stem.
 > **When this doc and the schema disagree, the schema wins.** REA_03 focuses on orchestration, delivery, rendering rules, and synthesis contracts — the *how*, not the *what*.
 
@@ -237,9 +237,9 @@ Every TG card is governed by a **locked reading angle** — a single lens that a
 
 ## §4 — Data Architecture & Field Reference
 
-> **⚠ Partial overlap with the schema (REA_06 / archetypeSchema.js).**
-> The field names, types, and tier tables in this section duplicate what is now canonically declared in [`archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js) and documented by UI surface in [REA_06](REA_06_Archetype_Fields.md).
-> This section is retained for historical continuity and to keep REA_03's orchestration/rendering discussion self-contained. When field specifics diverge between this section and the schema, the schema wins. Candidate for consolidation to a pointer once REA_06 matures.
+> **⚠ Partial overlap with the schema (REA_14 / archetypeSchema.js).**
+> The field names, types, and tier tables in this section duplicate what is now canonically declared in [`archetypeSchema.js`](../../Elementum_App/src/contract/archetypeSchema.js) and documented by UI surface in [REA_14](REA_14_Reading_Generation_Schema.md).
+> This section is retained for historical continuity and to keep REA_03's orchestration/rendering discussion self-contained. When field specifics diverge between this section and the schema, the schema wins. Candidate for consolidation to a pointer once REA_14 matures.
 
 ### Source of truth: `archetypeSource.js`
 
@@ -552,7 +552,7 @@ Cross-check before proceeding: read the first sentence back. Does it feel like i
 
 ---
 
-**① Archetype identity** — `yourNature.phrase` is the named archetype: the single most distilled characterological statement for this stem (examples: *The Structural Assessor*, *The Ascending Vine*). **[AUDIT 2026-06] INTERNAL — authoring anchor only, NOT rendered in the UI.** Per REA_06 §3 and the live app (which marks it `[INTERNAL — not rendered]` and renders `yourNature.desc` as the portrait), this field is a synthesis/authoring anchor. The earlier "displayed prominently as the visual anchor" framing is superseded.
+**① Archetype identity** — `yourNature.phrase` is the named archetype: the single most distilled characterological statement for this stem (examples: *The Structural Assessor*, *The Ascending Vine*). **[AUDIT 2026-06] INTERNAL — authoring anchor only, NOT rendered in the UI.** Per REA_14 §3 and the live app (which marks it `[INTERNAL — not rendered]` and renders `yourNature.desc` as the portrait), this field is a synthesis/authoring anchor. The earlier "displayed prominently as the visual anchor" framing is superseded.
 
 ---
 
