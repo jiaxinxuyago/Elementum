@@ -229,7 +229,7 @@ From `archetypeSource.js` / `STEM_CARD_DATA.js` unless noted. **Rule: nothing he
 |---|---|---|
 | R1 | `tpl_cast_line` | Format: numeric + hour-label ("1995 · 4 · 29 · YǑU HOUR 17–19 CST") vs handoff month-name ("1995 · APRIL 29 · 17–19 CST") |
 | R2 | `inscription` | Confirm budget ≤17w / ≤85c (+ the `zh` 4–6字 target shape) |
-| R3 | `glossary_body` vs `defline` (V — REA_13 §5c) | Condition glossary bodies re-compose defline+appr_tail — one source (derive) or two locked copies? |
+| R3 | `glossary_body` vs `defline` (V — REA_13 §5c) | ✔ RESOLVED IN CODE (pre-2026-07-28): `journeyData.condGlossaryBody()` composes the condition bodies from `DEFLINE` + `APPR_LINE`/`FOLD_VERDICT` — one source, no second locked copy. Dictionary notes updated. |
 | R4 | `yourNature_desc` | Authored ×10 but not surfacing (J4 falls back to `inscription`) — surface, or retire baseline in favor of the claims model? Cap ≤46w? |
 | R5 | `face_teaser` | 45–50w vs gate-teaser law ≤25w — is it the L6 gate teaser (over budget ×2) or the K-screen read (then `k2_gate_teaser` is separate, as mapped)? |
 | R6 | `glossary_body` budget (V) | Confirm ≤35w / ≤175c |

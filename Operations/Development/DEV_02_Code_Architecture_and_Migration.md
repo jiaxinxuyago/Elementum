@@ -41,7 +41,7 @@ Elementum_Project/
 │   └── package.json, vite.config.js, index.html, etc.
 │
 ├── Reading/                             ← Reading discipline home (2026-07-27 restructuring)
-│   ├── Documents/                       ← REA_01–REA_11 (formerly DevLog_Docs/Reading/).
+│   ├── Documents/                       ← REA_01–REA_13 (formerly DevLog_Docs/Reading/).
 │   └── Database/                        ← Reading data artifacts (was root Reading/, earlier Data/):
 │       └── elementum_profile_database.html  ← HTML twin of archetypeSource.js.
 │                                               Must stay in sync at all times.

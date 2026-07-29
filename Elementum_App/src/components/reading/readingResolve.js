@@ -68,7 +68,7 @@ const PERSONA_COPY = {
 };
 
 // ≤8w face-card abstract per persona — the prologue conclusion line. Sourced
-// from REA_07_Reading_Concept_Inventory §2 (the canonical definition lines' payoff
+// from REA_13_Concept_Dictionary §2 (the canonical definition lines' payoff
 // clause). Placeholder-grade authored copy until the K2 corpus lands.
 export const FACE_ABSTRACT = {
   '比肩': 'The standard you hold yourself to',

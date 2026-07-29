@@ -220,7 +220,7 @@ Forks resolved: Drive over Harvest, Duty over Trial; law #4 scoped to persona-na
 | Underfueled | *(= §5c definition line + "So refill it: take in what feeds you.")* |
 | Balanced | *(= §5c definition line + "Nothing to force; keep the mix.")* |
 
-⚠ Open ruling (REA_14 §11 R3): the condition glossary bodies re-compose the §5c definition + remedy tail — consolidate to one source or keep two locked copies.
+✔ One-source rule (R3, resolved in code): the condition glossary bodies are COMPOSED at runtime from the §5c definition lines + remedy tails (journeyData.condGlossaryBody()) — never authored as a second copy.
 
 ## 6 · Worked compounds (the A-12345 teaching examples)
 
