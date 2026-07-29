@@ -2,7 +2,7 @@ import { ELEMENT_TO_PIGMENT } from '../../styles/elementPigments.js';
 // ===================================================================
 // ELEMENTUM · VisualTile + SceneHero
 // ===================================================================
-// "Inkstone" Card Art System from the Thumbnail Card Moodboard.
+// "Inkstone" Card Art System from the Inkstone system (record: Design/Library/Library_Components.html S4).
 //
 // One ink-wash treatment applied across every card surface in Elementum.
 // The painting carries the imagery; element identity enters through a

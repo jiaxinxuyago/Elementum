@@ -489,7 +489,7 @@ Reading implementation bundle; source of truth `catalogue-answer-first/p6-journe
 3. **Vocabulary locks closed** (see §4 v3-adopted note + §5b lock): everything the handoff ships
    is now legal vocabulary.
 4. **Wheel seating law (condition-dependent)** — recorded canonically in
-   `Design/exports/DOMINANCE_WHEEL_RULES.md` §2 AMENDMENT: Overfueled/Balanced → Core crowns the
+   `Design/Documents/DOMINANCE_WHEEL_RULES.md` §2 AMENDMENT: Overfueled/Balanced → Core crowns the
    wheel, others CCW high→low; Underfueled → dominance order CCW (interpretation note flagged there).
 5. **Build-level normalizations** (no ruling needed, recorded for the implementer): corrupted
    verdLab strings normalize to the SEEK/SKIP register; first-run flag = localStorage for guests +

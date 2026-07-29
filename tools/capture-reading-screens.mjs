@@ -23,7 +23,7 @@ const arg = (name, dflt) => {
 const APP = arg('--app');
 if (!APP) { console.error('--app <Elementum_App dir> is required (playwright resolution)'); process.exit(2); }
 const BASE = arg('--base', 'http://localhost:5173/');
-const OUT = path.resolve(arg('--out', 'Design/assets/Library/Library_Screens/_shots'));
+const OUT = path.resolve(arg('--out', 'Design/Library/Library_Screens/_shots'));
 
 const require = createRequire(path.join(path.resolve(APP), 'tools', 'x.mjs'));
 const { chromium } = require('playwright');

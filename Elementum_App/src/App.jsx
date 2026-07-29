@@ -270,7 +270,7 @@ const FLOW = [
   'reveal',
   // Dashboard tabs (DES_04 §10–§14) — entered from Reveal's "Enter Your Readings" CTA.
   'app-today',
-  // Today-hub drill-downs (Direction 2 — wireframes/Elementum - Screens.html)
+  // Today-hub drill-downs (Direction 2 — design record: Design/Library/Library_Components.html S4/S7)
   'app-day',
   'app-month',
   'app-year',

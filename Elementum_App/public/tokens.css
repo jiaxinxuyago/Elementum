@@ -1,22 +1,23 @@
 /* =============================================================
    Elementum · Design Tokens (canonical source-of-truth)
+   Location: Design/Source/tokens.css (moved 2026-07-29, cleanup Phase 3)
    =============================================================
    This file is the single canonical CSS-variable source for:
-     · legend-primitives.html
-     · legend-patterns.html
-     · legend-screens.html
-     · legend-screens-amendment.html
-     · any future legend or prototype HTML
+     · Design/Library/Library_*.html (the north-star design library)
+     · any future library or prototype HTML
 
    The same values are mirrored to:
-     · Elementum_App/src/styles/tokens.jsx (JS-named exports)
+     · Elementum_App/src/styles/tokens.js + tokens.jsx (JS exports)
+     · Elementum_App/public/tokens.css (dev-preview mirror)
 
-   When editing: update this file FIRST, then sync tokens.jsx.
-   Drift between the two is a doc-patch trigger.
+   When editing: update this file FIRST, then sync the mirrors.
+   Drift between them is a doc-patch trigger.
 
    Sealed against:
-     · northstar-anchor.html (T object, lines 67–104)
      · DES_04 §2 + §3 + §3.5 + §3.5.A pigment alpha ladder
+   NOTE (2026-07-28 reality audit, Library_Primitives §0): the app
+   never loads this file at runtime — it is spec, not delivery; the
+   live scoped sets are re-declared in reading.css / journey.css.
    ============================================================= */
 
 :root {

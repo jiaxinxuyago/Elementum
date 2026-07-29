@@ -4,7 +4,7 @@
 // The single rule that governs every Five-Energies wheel: disk SIZE
 // encodes how dominant an energy is, disk POSITION encodes its rank.
 // Both derive from one input per energy — its presence % (0–100).
-// Spec: reading/DOMINANCE_WHEEL_RULES.md. Ported verbatim from reading-v5.js
+// Spec: Design/Documents/DOMINANCE_WHEEL_RULES.md. Ported verbatim from reading-v5.js
 // so the wheel, the P2 dissolve end-state, and any future surface
 // share one implementation.
 // ===================================================================

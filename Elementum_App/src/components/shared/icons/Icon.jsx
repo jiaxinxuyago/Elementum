@@ -2,7 +2,7 @@
 // ELEMENTUM · Icon (single-source <use href> pattern)
 // ===================================================================
 // Generic SVG icon component that resolves IDs from the canonical
-// shared library at /icons.svg (mirrors Design/icons.svg).
+// shared library at /icons.svg (mirrors Design/Source/icons.svg).
 //
 // Usage:
 //   <Icon id="el-metal" size={22} color={metalDeep} />
@@ -10,7 +10,7 @@
 //   <Icon id="dm-geng" size={84} color={metalDeep} />
 //
 // Why <use href> instead of inline <svg>:
-//   · Single source of truth — paths live in Design/icons.svg only
+//   · Single source of truth — paths live in Design/Source/icons.svg only
 //   · No transcription drift between legend HTMLs and React components
 //   · Browser caches /icons.svg once; multiple <use>s share one fetch
 //   · CSS `color` propagates to icon strokes via `currentColor`
@@ -66,7 +66,7 @@ export default function Icon({
 
 // ===================================================================
 // ICON_IDS — the canonical list of valid icon IDs.
-// Mirrors the <symbol id="…"> entries in Design/icons.svg.
+// Mirrors the <symbol id="…"> entries in Design/Source/icons.svg.
 // Use as the source-of-truth when you need to validate or enumerate
 // available icons (e.g. for a story / catalogue / dev panel).
 // ===================================================================
