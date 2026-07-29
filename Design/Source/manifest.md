@@ -11,7 +11,7 @@ updating the affected Library file is part of any UI change's definition of
 done.
 
 **Carried forward from the old manifest (still open):** the v2.1 reconciliation
-component list (2026-06-24, `Reading/Documents/REA_08_Reading_V2.1_Reconciliation_Audit.md`)
+component list (2026-06-24, `Reading/Documents/_ARCHIVE_Reading_V2.1_Reconciliation_Audit.md`)
 — `FacesScreen` (shipped as ReadingFacesScreen), `PersonaCard` presence-frame
 variants, ruling-domain atom, `PositionalCard` (宫位 × 十神) — track build
 status in DES_13.

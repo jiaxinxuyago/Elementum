@@ -230,7 +230,7 @@ Forks resolved: Drive over Harvest, Duty over Trial; law #4 scoped to persona-na
 
 1. The handoff's separate "face representation" lexicon is **REJECTED** — the representation word IS the §4 keyword ("The General · FORCE"). One lexicon everywhere.
 2. **Identity-hero chips = the top-3 keyword code** — the chart's three loudest elements' lead-face keywords, dominance-ordered. System-derived for all ten stems; never authored.
-3. Wheel seating law recorded canonically in `Design/exports/DOMINANCE_WHEEL_RULES.md` §2 AMENDMENT.
+3. Wheel seating law recorded canonically in `Design/Documents/DOMINANCE_WHEEL_RULES.md` §2 AMENDMENT.
 4. **Templatization gap (open):** element-screen hook/tag lines are Blade-demo-tuned — DM-neutral rewrites or per-cell authoring pending the 50-cell pass (REA_03).
 
 ## 6c · Round-2 rulings (owner 2026-07-23 — current law)
