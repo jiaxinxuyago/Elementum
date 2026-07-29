@@ -180,7 +180,7 @@ body{font-family:'EB Garamond',Georgia,serif;color:var(--ink);background:#EFE5CC
   </section>
 
   <div class="foot-note">
-    ELEMENTUM · THUMBNAIL CARD LIBRARY — themed art cropped from HiRes thumbnail mockups + Concept Arts element studies; generic art from Concept Arts Landscapes / Mountains / Patterns. All shuǐmò-treated. Hi-res crops in <b>library/art/</b>.
+    ELEMENTUM · THUMBNAIL CARD LIBRARY — themed art cropped from HiRes thumbnail mockups + Concept Arts element studies; generic art from Concept Arts Landscapes / Mountains / Patterns. All shuǐmò-treated. Hi-res crops in <b>Library/Library_ThumbnailCards/</b>.
   </div>
 </div>
 
@@ -202,7 +202,7 @@ const WORDS={
 };
 function pv(el){const e=EL[el];return `--pig:${e.pig};--pigDeep:${e.deep};--pigBd:${e.bd};`;}
 function mark(el){return `<span class="seal-mark" style="color:${EL[el].deep}"><svg><use href="#el-${el}"/></svg></span>`;}
-function art(src){return `<div class="art" style="background-image:url('art/${src}.png')"></div>`;}
+function art(src){return `<div class="art" style="background-image:url('Library_ThumbnailCards/${src}.png')"></div>`;}
 
 /* themed strips */
 function elStrip(el,count,inner){const e=EL[el];
