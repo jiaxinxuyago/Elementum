@@ -211,8 +211,8 @@
   </div>
   <div class="meta">
     <div class="cinzel">Library</div>
-    <div>v3 · components</div>
-    <div>live-app audit · 2026-07-28</div>
+    <div>v4 · components</div>
+    <div>live-app audit + JourneyCatalogue benchmark pass · 2026-07-28</div>
     <div><span class="seal-mark">●</span> tracks the app · hard rule</div>
   </div>
 </header>
@@ -224,10 +224,10 @@
   <a href="#s2"><span class="num">§2</span><span>Chips, badges, pills — the real (sprawling) family</span></a>
   <a href="#s3"><span class="num">§3</span><span>Cards — layers, rows, briefs, tiles, tiers</span></a>
   <a href="#s4"><span class="num">§4</span><span>The Inkstone art system (MoodboardArt · HubTile · SceneHero)</span></a>
-  <a href="#s5"><span class="num">§5</span><span>Shelves &amp; accordions — two live specs</span></a>
-  <a href="#s6"><span class="num">§6</span><span>Wheels &amp; data-viz</span></a>
+  <a href="#s5"><span class="num">§5</span><span>Energy pills — the Towers (C5) + seal dock (C6)</span></a>
+  <a href="#s6"><span class="num">§6</span><span>The energy wheel (C2) &amp; data-viz</span></a>
   <a href="#s7"><span class="num">§7</span><span>Headers, nav chrome &amp; transitions</span></a>
-  <a href="#s8"><span class="num">§8</span><span>Sheets, overlays, toasts &amp; ceremonies</span></a>
+  <a href="#s8"><span class="num">§8</span><span>Floating windows, sheets, toasts &amp; ceremonies</span></a>
   <a href="#s9"><span class="num">§9</span><span>Forms &amp; onboarding controls</span></a>
   <a href="#s10"><span class="num">§10</span><span>Dead &amp; drift census</span></a>
 </nav>
@@ -248,6 +248,36 @@
       D13 <code>.reading</code> scope (reading.css). They carry <em>different</em> specs for the same ideas (shelf, wheel, chips) —
       documented side-by-side here, never merged. Also: roughly <strong>half of journey.css is dead prototype panes</strong>
       (variant blocks gated on data-attributes the app never sets; live set = <code>data-ca="dock" data-journey="compass" data-art="bloom" data-ins="folio"</code>).
+    </div>
+  </div>
+
+  <span class="subhead">The frozen registry — JourneyCatalogue benchmark crosswalk</span>
+  <p class="section-intro" style="margin-bottom:14px">
+    The handoff boards freeze every component's NAME (p6-breakdown-boards "The Naming"). This library now speaks that language.
+    Catalogue registry <strong>C1–C7</strong> plus the reveal's ten named parts and four floating windows:
+  </p>
+  <table class="srcmap">
+    <tr><th>Frozen name</th><th>Class</th><th>Here</th><th>Note</th></tr>
+    <tr><td>C1 · identity hero</td><td>.idhero[data-hero="chop"]</td><td>§3</td><td>hero seal 46 · kicker · walnut arch · seal-red rule + manifesto · kw chips · share + read circle</td></tr>
+    <tr><td>C2 · dominance wheel</td><td>.wheel</td><td>§6</td><td>locked geometry + seating law + role pips (the ONE approved overlay)</td></tr>
+    <tr><td>C3 · the Folio</td><td>.insc[data-ins="folio"]</td><td>§3</td><td>three frozen states: folded → .folio-open → definition open</td></tr>
+    <tr><td>C4 · catalyst | friction</td><td>.vx-pair</td><td>§3</td><td>SEEK THESE / SKIP THESE sentence rows + ink-stroke cue</td></tr>
+    <tr><td>C5 · the Towers (energy pills)</td><td>.shelf[data-shelf="towers"] › .spine</td><td>§5</td><td>the "energy tile" — collapsed pill + expanded card, 9 locked fields</td></tr>
+    <tr><td>C6 · seal dock</td><td>.ca-dock › .ca-chip</td><td>§5</td><td>sticky dock seals; dissolve/hand-off to the pills</td></tr>
+    <tr><td>C7 · footer notes (WordsNote)</td><td>.wordsnote › .wn-chips</td><td>§2</td><td>taught-word chips → glossary pop-up</td></tr>
+    <tr><td>Reveal · ten named parts</td><td>.rvl-*</td><td>§8</td><td>ceremonial grounds ×2 · fog band · eyebrow · the painting · the name · kicker · manifesto · cast line · swipe affordance</td></tr>
+    <tr><td>Floating windows ×4</td><td>.scov · .wp-sheet · .vdf-card · .igc</td><td>§8</td><td>identity card float · glossary pop-up · "Read plainly" float · Instagram Story composer</td></tr>
+    <tr><td>Shareable identity card — Tiles</td><td>.share-card[data-var="tiles"]</td><td>§3/§8</td><td><strong>LOCKED — ship Tiles only</strong>; Wheel &amp; Blueprint dormant for rollback</td></tr>
+  </table>
+
+  <div class="warn-banner" style="margin-top:18px">
+    <div class="seal-tag">Corrections vs v3 draft</div>
+    <div class="body">
+      Benchmark pass fixed four stale claims: identity card float is <strong>300×520 CSS (540×960 export)</strong>, not 256×456 (that was a
+      narrow-breakpoint rule) · glossary-sheet watermark is <strong>the word's ICON</strong>, never a hanzi (chinese glyphs are decorative-only, locked) ·
+      manifesto is <strong>regular weight — no italics</strong> on the card · chip grammar: <strong>the arrow lives INSIDE the chip — never a bare
+      leading arrow</strong> (R3-4). Open discrepancy for the owner: wheel container is 320×300 on board 07 but 320×292 in template-data.json +
+      design-history — both claim locked.
     </div>
   </div>
 
@@ -352,6 +382,31 @@
     <span class="d-tierpill" style="border:1px solid var(--borderStd);background:var(--cardstock)"><span style="color:var(--inkLight)">◦</span> Free</span>
     <span style="display:inline-flex;gap:5px;align-items:center;background:var(--dmBorder);color:#F6F1E5;font-size:8.5px;font-weight:700;letter-spacing:1.1px;text-transform:uppercase;padding:4px 9px 4px 7px;border-radius:999px"><span style="width:5px;height:5px;border-radius:50%;background:#F6F1E5"></span> Core self</span>
     <span class="d-hourchip">Hour unknown — <span style="color:var(--bronzeDark)">add it in Profile</span></span>
+    <span class="d-role-pill" style="background:var(--up);box-shadow:0 0 0 3px color-mix(in srgb,var(--up) 22%,transparent)">▲ Major catalyst</span>
+    <span class="d-role-pill" style="background:var(--bronzeDark)">Channel it</span>
+    <span style="display:inline-flex;align-items:center;gap:4px;font-size:8.5px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--up);border:1.4px dashed var(--up);border-radius:999px;padding:3px 9px">Lean toward</span>
+    <span style="display:inline-flex;align-items:center;gap:4px;font-size:8.5px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--down);border:1.4px dashed var(--down);border-radius:999px;padding:3px 9px">Lean away</span>
+  </div>
+
+  <span class="subhead">C7 · WordsNote — the taught-word footer (frozen)</span>
+  <div class="stage narrow">
+    <div style="padding:14px 4px 2px;border-top:1px solid var(--paperHair);display:flex;flex-direction:column;gap:10px">
+      <span style="font-size:10px;font-weight:500;letter-spacing:2.5px;text-transform:uppercase;color:var(--inkLight)">The words on this page · tap one</span>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <button class="d-role-pill" style="background:#8f8a82;border:0;cursor:pointer;box-shadow:0 1px 3px rgba(40,30,20,.22), inset 0 0 0 1px rgba(255,255,255,.22)">Core</button>
+        <button class="d-role-pill" style="background:var(--bronzeDark);border:0;cursor:pointer;box-shadow:0 1px 3px rgba(40,30,20,.22), inset 0 0 0 1px rgba(255,255,255,.22)">Overfueled</button>
+        <button class="d-role-pill" style="background:var(--up);border:0;cursor:pointer;box-shadow:0 1px 3px rgba(40,30,20,.22), inset 0 0 0 1px rgba(255,255,255,.22)">▲ Catalyst</button>
+        <button class="d-role-pill" style="background:var(--down);border:0;cursor:pointer;box-shadow:0 1px 3px rgba(40,30,20,.22), inset 0 0 0 1px rgba(255,255,255,.22)">▼ Friction</button>
+      </div>
+    </div>
+    <div class="spec">.wordsnote › .wn-ey ("THE WORDS ON THIS PAGE · TAP ONE") + .wn-chips › button.role-pill[data-word] — the same pills used in the reading, hover −1px; tap opens the glossary pop-up (§8). Ends the catalogue: towers → shelf hint → word chips (12px beat gap) → dock slot last (R3-1 order law — never re-add spacer padding).</div>
+  </div>
+
+  <div class="warn-banner" style="margin-top:14px">
+    <div class="seal-tag">Chip grammar — frozen (R3-4)</div>
+    <div class="body"><strong>The arrow lives INSIDE the chip</strong> — `↑ Catalyst` / `↓ Friction` are filled pills carrying their own arrow;
+    a bare leading arrow next to a label violates the grammar everywhere it appears. Remedy chip `.role-pill.rem` is bronze, sits IN the pill's
+    diagnosis line. Balanced band uses dashed <strong>Lean toward / Lean away</strong> marks. The ringed ▲ marks the <strong>major (missing) catalyst</strong> only.</div>
   </div>
 
   <span class="subhead">Verdict-dot family — six near-duplicates (flag)</span>
@@ -424,8 +479,9 @@
         <tr><td>Codex accordion card</td><td>cardstock r14 · hanzi 18 bronzeDark + Cormorant 19 title + ◆ tier tag · chev rotates 90° 180ms · blur-lock body: blur(4px) opacity .55 + gold pill · "in your chart" callout: bronzeDark 10% + 2px left rule</td><td>CodexScreen.jsx:160-246</td></tr>
         <tr><td>TierCard ×3</td><td>Founding #FBF3E4→#F3E4C8 + 1.5px #D4AF37 ⟡ · Seeker #FAF8F5→#F0EBE1 + gold ◆ · Advisor #F8F4FF→#F0E8FF + #C9B8E8 ✦ · CTA pill Cinzel 11 ls2</td><td>UpgradeModal.jsx:637</td></tr>
         <tr><td>PersonCell + RiteRow</td><td>cell: r16 pig-40 border + Inkstone art @.5 + StemSeal 64 + hanzi 24 · rite: 34px circle bronze-35% + SC glyph 16</td><td>CompatScreen.jsx:185,152</td></tr>
-        <tr><td>insc folio</td><td>cardstock r14 pad 1/13 · 30px ik-chip rows · Cormorant 15.5 fold titles · open prose 15.5/1.62 over dotted rule · staggered ink-in 80/340/600ms</td><td>journey.css:843-893</td></tr>
-        <tr><td>vx-box / ik-crow</td><td>Seek/Skip pair grid · cardstock r16 · 30/1fr crows over dotted rules · bloom halo: pig 17% ellipse at left (live, data-art="bloom")</td><td>journey.css:584,719-729</td></tr>
+        <tr><td>C3 · the Folio</td><td>cardstock r14 pad 1/13 · <strong>three frozen states</strong>: folded (chip + "Your Core Energy is Metal" + verdict + chevron) → .folio-open (three inscription lines, icon-first, staggered ink-in 80/340/600ms) → definition open (locked definition under its line, .ins-more revealed) · fold 240ms, chevron 180° · ?-circle (.ins-q) routes to Codex</td><td>journey.css:843-893 · boards "Motion states"</td></tr>
+        <tr><td>C4 · catalyst | friction</td><td>SEEK THESE / SKIP THESE .vx-box pair · header = label + filled role chip right-aligned, space-between nowrap · sentence rows: "<b>Fire</b> <i>is your</i> <b>Duty</b>" on the <strong>locked 38px|max-content|1fr grid (4px gaps — keep the grid, don't switch to natural flow)</strong> · % beneath mono 8.5 · bloom halo pig-17% · <strong>.ik-crow.cue ink-stroke</strong>: brush wash left→right on wheel-dot arrival, blur 1.5, 1800ms clip-wipe</td><td>journey.css:584,719-729,956 · R3-3</td></tr>
+        <tr><td>Core line + Catalyst|Friction tiles (card)</td><td>.sc-coreline: metal-tinted plate (pig 14% + inset 30% ring) · mark 20 + "Metal is your Core" + OVERFUELED pill · .tl-cols twin: SEEK/SKIP headers (EB 10/600 ls2, green/red) + .sc-pill chips · .vcol columns: mono % · 9×38 v-bar · mark 16 · Cormorant 12 noun · <strong>Fire empty at 0%</strong></td><td>share-flow.html · R3-4</td></tr>
       </table>
     </div>
   </div>
@@ -493,10 +549,46 @@
 <section id="s5">
   <div class="section-head">
     <div class="num">§5</div>
-    <div><h2>Shelves &amp; accordions — two live specs</h2>
-    <div class="rule">The same idea ships twice with incompatible anatomy. Documented side-by-side; do not merge without an owner ruling.</div></div>
+    <div><h2>Energy pills — the Towers (C5)</h2>
+    <div class="rule">Frozen names: "energy pill" / "the energy tile" / "the Towers" (.spine). The closed shelf reads as the relation string — the closed A-12345 string.</div></div>
   </div>
 
+  <span class="subhead">Locked anatomy — collapsed pill (6 fields) → expanded card (9 fields)</span>
+  <table class="srcmap">
+    <tr><th>#</th><th>Frozen field</th><th>Locked content</th></tr>
+    <tr><td>P1</td><td>Element name (.sp-noun)</td><td>Metal / Earth / Wood / Water / Fire</td></tr>
+    <tr><td>P2</td><td>Relation noun (.sp-kw)</td><td><strong>Core / Root / Drive / Voice / Duty</strong> — the closed shelf reads as the relation string</td></tr>
+    <tr><td>P3</td><td>Element mark (.sp-mk)</td><td>standard five-element icon, pigment color</td></tr>
+    <tr><td>P4</td><td>Dominance column (.sp-fill)</td><td>height = %, soft gradient bleed at top edge (p/pMax × 84%)</td></tr>
+    <tr><td>P5</td><td>Percent (.sp-pc)</td><td>40 / 30 / 20 / 10 / 0 — mono</td></tr>
+    <tr><td>P6</td><td>Unfold hint (.sp-hint-ic)</td><td>outlined chevron — tap affordance</td></tr>
+    <tr><td>E1</td><td>Art wash (.sp-art)</td><td>element painting ground, bottom-anchored, silk fade</td></tr>
+    <tr><td>E2</td><td>Element sign + name (.sp-erow)</td><td>seal chip + METAL eyebrow (adds "· Missing" on Fire)</td></tr>
+    <tr><td>E3</td><td>Dominance bar + % (.sp-barrow)</td><td>five segments, own element solid with white inset; <strong>hatched ghost sliver for missing</strong> (i.cur.gh @2%)</td></tr>
+    <tr><td>E4</td><td>Definition line (.sp-title)</td><td>"Metal is Your Core" — element is your relation</td></tr>
+    <tr><td>E5</td><td>Explanation (.sp-diag)</td><td>one plain line — what the relation means</td></tr>
+    <tr><td>E6</td><td>Diagnosis (.sp-dx)</td><td>"Your X is Overfueled / Underfueled — Channel / Refill it"</td></tr>
+    <tr><td>E7</td><td>Role chips (.sp-chips)</td><td>Core / ▲ Catalyst / ▼ Friction — filled pills; <strong>major ring on Fire</strong></td></tr>
+    <tr><td>E8</td><td>Keyword chips (.sp-adj)</td><td>three adjectives, pole-tinted (catalyst green / friction red)</td></tr>
+    <tr><td>E9</td><td>Read circle (.sp-read)</td><td>unified black-arrow — opens the element reading</td></tr>
+  </table>
+
+  <p class="section-intro" style="margin-top:14px;font-size:13px">
+    <strong>States (complete):</strong> .spine (tower) · .open (one at a time; .shelf.has-open) · .ghosted (missing — Fire 0%, "· Missing" tag, ghost bar) ·
+    <strong>.open.beckon</strong> (arrival pulse from wheel dot / dock seal — one-shot 1100ms, class drops) · refold-on-scroll-up (returns to the closed string) ·
+    reduced-motion (settled). Motion: open/close <strong>240ms opacity, 300ms flex</strong>.
+    Per-element locked strings: Metal 40% Core "Overfueled — Channel it" · Earth 30% Root "Overfueled — Channel it" · Wood 20% Drive "Underfueled — Refill it" ·
+    Water 10% Voice "Underfueled — Refill it" · Fire 0% Duty MISSING "Underfueled — Refill it" (major ▲).
+  </p>
+
+  <div class="warn-banner">
+    <div class="seal-tag">Do not port (frozen)</div>
+    <div class="body">The benchmark <strong>retires</strong> the corner role ring (.sp-rg), the .sp-hook glance label, the pole-noun verdict, and the flavor line —
+    "<strong>Do not port them.</strong>" The .reading routes (app-energymap etc.) still render these retired parts — live-but-superseded, pending port to the locked tile.
+    The stale pill-open-*.png boards in exports are explicitly marked "⚠ stale — use the live frames".</div>
+  </div>
+
+  <span class="subhead">App reality — the two implementations today</span>
   <table class="srcmap">
     <tr><th>Property</th><th>.reading spine (EnergyShelf)</th><th>.jny spine (JourneyStage)</th></tr>
     <tr><td>shelf</td><td>flex gap 5 · height 222 · margin-top 6</td><td>flex gap 5 · min-height 286 (dock mode: flex 1 1 auto)</td></tr>
@@ -527,7 +619,7 @@
     <tr><th>Component</th><th>Spec</th><th>Source</th></tr>
     <tr><td>.gal-card face column</td><td>collapsed 88px · lead 1.5px pig-55% border + 0 14 30 shadow · open flex 1 1 auto · flex-basis .32s cubic-bezier(.22,1,.36,1) · tab: bg art @.34 multiply masked, 26px mark plate, Cormorant 15/600 name, 8.5 domain</td><td>reading.css:420-433</td></tr>
     <tr><td>expanded body</td><td>art 104px pig-12% bed · leads/present/dormant badges · Cormorant 20 name · 5px dom track · yy chip (quiet) · keyword chips r6 · ruling-domain zone over borderLight rule · Cormorant 13 teaser 3-line clamp · 30px arrow (muted bronze variant for dormant)</td><td>reading.css:436-462</td></tr>
-    <tr><td>.ca-dock element rail</td><td>sticky bottom 76 · silk gradient + blur(9px) · r18/18/0/0 · chips flex-1 r14 with mark 14 + kw 7px + presence fill · ghost = dashed · dock-merge: fades out, chips −14px stagger 40ms/child when shelf scrolls in</td><td>journey.css:1026-1055</td></tr>
+    <tr><td>C6 · seal dock (.ca-dock)</td><td>sticky bottom 76 · silk gradient + blur(9px) · r18/18/0/0 · <strong>dock-seal chip fields</strong>: dominance wash (.ca-fill height=%) + element mark + rank noun (Core/Root/Drive/Voice/Duty) · missing renders ghosted (dashed) · <strong>hand-off loop</strong>: dissolves when the towers rise past it (opacity/transform 360ms, chips −14px stagger 40ms/child, delay 600ms), re-summons on scroll-up · "Dock seal — jumps to its pill" · keeps its layout slot while dissolved (never re-add spacer padding, R3-1)</td><td>journey.css:1026-1055 · boards "seal dock"</td></tr>
     <tr><td>Codex accordion</td><td>in-place expansion (pad 0/16/16 body reveal) · chev rotate 90° · see §3 card row</td><td>CodexScreen.jsx:160</td></tr>
   </table>
 </section>
@@ -536,8 +628,23 @@
 <section id="s6">
   <div class="section-head">
     <div class="num">§6</div>
-    <div><h2>Wheels &amp; data-viz</h2>
-    <div class="rule">Two wheel deployments share the enso/dot-plate model; two donut techniques coexist (flag).</div></div>
+    <div><h2>The energy wheel (C2) &amp; data-viz</h2>
+    <div class="rule">The signature visual, LOCKED. Source of truth: DOMINANCE_WHEEL_RULES.md + d13-v5.js.</div></div>
+  </div>
+
+  <div class="warn-banner">
+    <div class="seal-tag">Locked wheel law</div>
+    <div class="body">
+      <strong>Geometry:</strong> disk rule <code>d(p) = 40 + 24·(p/pMax)</code> at scale 0.92 → ⌀ <strong>59/53/48/42/37</strong> · node content fixed
+      (17px element mark + JetBrains Mono 10/700 %) · ensō center seal <strong>276px at (18.4, 9.2)</strong> · plate art bleeds −22% · hover 1.05, 140ms.
+      <strong>Seating law:</strong> the Core element <strong>always crowns 12 o'clock</strong> (Overfueled &amp; Balanced charts); remaining four seat
+      counter-clockwise from the Core's right, high → low dominance (ties break by the productive cycle); <strong>Underfueled charts seat pure dominance order</strong>.
+      Seats −90°/−18°/54°/126°/198°. <strong>Role pips are the ONE approved overlay</strong> (● Core · ▲ Catalyst · ▼ Friction · ringed ▲ major) —
+      "nothing else is ever drawn on the wheel; halos, threads, dashed contours all removed in the P-03c restore."
+      <strong>Intro:</strong> dots ink in as pure brush fades — opacity + wet blur, Core first then clockwise, 380ms stagger — no scale pops, no rings.
+      Center seal = the SAME object that descends from the reveal plate and stamps the identity card; tap opens the card ("three doors, one room").
+      <strong>Open discrepancy:</strong> container 320×300 (board 07) vs 320×292 (template-data.json + design-history) — owner to adjudicate.
+    </div>
   </div>
 
   <table class="srcmap">
@@ -581,8 +688,8 @@
 <section id="s8">
   <div class="section-head">
     <div class="num">§8</div>
-    <div><h2>Sheets, overlays, toasts &amp; ceremonies</h2>
-    <div class="rule">One bottom-sheet anatomy (live ×2) · three centre-modal anatomies (flag) · two toasts · three full-screen motion systems.</div></div>
+    <div><h2>Floating windows, sheets, toasts &amp; ceremonies</h2>
+    <div class="rule">"Floating window" is the benchmark's own word. Four are frozen: the identity card float · the glossary pop-up · the "Read plainly" float · the Instagram Story composer. Plus one bottom-sheet anatomy (live ×2), two toasts, three ceremonies.</div></div>
   </div>
 
   <div class="demo-pair">
@@ -603,11 +710,14 @@
       <table class="srcmap">
         <tr><th>Overlay</th><th>Spec</th><th>Source</th></tr>
         <tr><td>bottom sheet (Upgrade/Auth)</td><td>scrim rgba(0,0,0,.4) · cream sheet r24/24/0/0 · pad 28/22/34-36 · shadow 0 −8 40 .12 · sheetUp 350ms cubic-bezier(.22,1,.36,1) · 32px close chip</td><td>UpgradeModal.jsx:230 · AuthModal.jsx:61</td></tr>
-        <tr><td>wordpop glossary sheet</td><td>scrim ink .44 · cream sheet max-w 300 r20 · 112px tint band + 124px hanzi watermark @.15 rot −9° · role chip scaled 1.16 · codex row · enter scale .94→1 + 10px rise, .28/.32s</td><td>journey.css:2086-2124</td></tr>
-        <tr><td>share overlay (.scov)</td><td>scrim rgba(26,22,17,.62) + blur(3) · 256×456 silk card (inset hairline ring) · brand rail: 38px circles (IG gradient #F9CE34/#EE2A7B/#6228D7 · #050505 · util white-9%) hover −3px</td><td>journey.css:314-344,2502</td></tr>
+        <tr><td>FLOAT 1 · identity card float (.scov)</td><td>role=dialog · scrim rgba(26,22,17,.62) + blur(3) · .sc-hint "Your identity card" (mono 9 ls1.6, top −38) · 34px close chip · card <strong>300×520 CSS · 540×960 export · archetype-only, no personal name</strong> · opens from hero share button OR wheel seal · <strong>Tiles design LOCKED; Wheel &amp; Blueprint dormant for rollback — ship Tiles only</strong></td><td>share-flow.html:1923 (FLOAT_TPL) · boards 04</td></tr>
+        <tr><td>· Share rail (.sctray)</td><td>five slots frozen: <strong>Instagram (Story composer hand-off) · TikTok · X · divider · Save image · Copy link</strong> · 38px circles (IG gradient #F9CE34/#EE2A7B/#6228D7 · #050505 · util white-9% + inset ring) · hover −3px · mono 8px labels · status line under</td><td>journey.css:2502 · marks legend</td></tr>
+        <tr><td>FLOAT 2 · glossary pop-up (.wp-sheet)</td><td>from a taught-word chip (C7) · scrim rgba(43,39,34,.44) · cream sheet 300px r20 · spring-in 320ms (scale .94→1 + 10px rise) · 112px role-tinted band (t-core ink-gray · t-cond bronze · t-cat green · t-fric red) · <strong>watermark = the word's ICON @ .15 rot −9° (never a hanzi — glyphs are decorative-only, locked)</strong> · the tapped chip at 1.16 scale · <strong>locked grade-6/7 definitions — copy verbatim, never paraphrase</strong> · Codex hand-off row · scrim tap or × dismisses</td><td>share-flow.html:1037-1072,2571</td></tr>
+        <tr><td>FLOAT 3 · "Read plainly" float (.vdf-card)</td><td>from the Folio's plain-reading affordance · scrim rgba(43,39,34,.32) · centered card · three bodies: "Your core is Metal" / "It runs Overfueled" / "So Channel it", each with a plain-language paragraph; core body carries a .readcirc.sm · <strong>was missing from this library entirely</strong></td><td>share-flow.html:1383-1390</td></tr>
+        <tr><td>FLOAT 4 · Instagram Story composer (.igc)</td><td>full-screen z-90 · radial #2a2340→#0d0b12→#050408 · .4s fade · top: back + Aa/Sticker/Music/More tools · canvas: "Instagram · Your Story" badge + <strong>cloned share-card at scale(.8) rotate(−1.5°)</strong> + 0 20 50 shadow · bottom: Close Friends · Your Story avatar · "Send to ›" · send → closes both + toast "Posted to your Instagram Story ✓"</td><td>share-flow.html:2409,2526</td></tr>
         <tr><td>export overlay (.sc-overlay)</td><td>540×960 card JS-scaled to fit · r16 frame + 0 24 60 .42 shadow · <strong>live bug: r/sp/shadow vars undefined at runtime (chipped)</strong></td><td>share.css:150-242</td></tr>
-        <tr><td>toasts ×2</td><td>.reading-wip: keyframe fade 1800ms · .jny .wip: class-driven 240ms rise — same pill anatomy (ink .92, silk text, r999)</td><td>reading.css:41 · journey.css:345</td></tr>
-        <tr><td>ceremonies ×3</td><td>LoadingScreen: perspective 820 carousel 72°/seat, 607ms snap, white-bloom exit 620ms · rvl-overlay: 8-stage dissolve cascade 1800→2590ms, chop stamp 320ms overshoot · UpgradeModal ceremony: element flood @.92, spring seal, 24 particles</td><td>LoadingScreen.jsx · journey.css:427-497 · UpgradeModal.jsx:464</td></tr>
+        <tr><td>toasts ×2 (.wip)</td><td>.reading-wip keyframe fade 1800ms · .jny .wip class-driven 240ms rise, 2000ms auto-dismiss — pill anatomy (ink .92, silk text, r999) · <strong>copy strings are locked</strong>: "Clean image saved to camera roll" · "Link copied · elementum.life/g/blade" · "→ Opening the Codex — the deeper reading" · "Posted to your Instagram Story ✓" …</td><td>reading.css:41 · journey.css:345</td></tr>
+        <tr><td>ceremonies ×3</td><td>LoadingScreen: perspective 820 carousel 72°/seat, 607ms snap, white-bloom exit 620ms · <strong>the Reveal</strong> (ten frozen parts: ceremonial grounds peaks/island · fog band ("pure CSS gradient, blur 20 — reference verbatim") · eyebrow YOU ARE · the painting (ink-dissolve 1.3s, wash ghost first, tap skips) · the name · kicker · manifesto (≤30 words, seal-red rule above) · cast line (date · hour range · birth-city tz) · swipe affordance (drag follows thumb) — ≈2.6s cascade, first-run only) · UpgradeModal ceremony: element flood @.92, spring seal, 24 particles</td><td>LoadingScreen.jsx · journey.css:427-497 · boards 01</td></tr>
       </table>
     </div>
   </div>
@@ -695,7 +805,7 @@
 </section>
 
 <footer style="border-top:1px solid var(--paperHair);padding-top:22px;margin-top:56px;display:flex;justify-content:space-between;align-items:baseline;font-size:12px;color:var(--inkLight)">
-  <span>Elementum · Library · Components v3</span>
+  <span>Elementum · Library · Components v4 · benchmarked vs Elementum Design Handoff_JourneyCatalogue</span>
   <span><span style="color:var(--seal);font-weight:600">●</span> live-app audit 2026-07-28 · hard rule: this file tracks what the app renders</span>
 </footer>
 
