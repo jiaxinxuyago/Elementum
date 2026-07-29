@@ -20,6 +20,10 @@ const DEV_ONLY_PUBLIC = [
   'Stem Thumbnail',
   'concept-arts/five-elements',
   'concept-arts/scenes',
+  // Guard entries: UNTRACKED local artifacts some machines carry in public/
+  // (never committed, so absent from fresh clones/worktrees — keep pruning
+  // them or the 20MB preview bundle breaks the PWA precache; 2026-07-29).
+  '_d13-preview.html',
 ];
 
 function pruneDevAssets() {
