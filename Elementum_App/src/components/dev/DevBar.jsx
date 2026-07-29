@@ -49,6 +49,25 @@ const SCREEN_GROUPS = [
   { label: 'Compat + chart', screens: ['compat-friends', 'chart-reveal', 'chart-resonance'] },
 ];
 
+// Per-element energy reading pages. The in-journey element screen is
+// JourneyStage internal state (not a hash route) — reached via the dev
+// hook __journeyElement, polled briefly while JourneyStage mounts.
+const ENERGY_ELS = [
+  { el: 'metal', hz: '金' }, { el: 'earth', hz: '土' }, { el: 'wood', hz: '木' },
+  { el: 'water', hz: '水' }, { el: 'fire', hz: '火' },
+];
+const openJourneyElement = (el) => () => {
+  window.__goto?.('app-reading');
+  let tries = 0;
+  const t = setInterval(() => {
+    if (window.__journeyElement || tries++ > 20) {
+      clearInterval(t);
+      window.__journeyElement?.(el);
+    }
+  }, 100);
+};
+const openEnergyReading = (el) => () => window.__openEnergy?.(el);
+
 // 10 day-master stems in canonical 甲乙丙丁戊己庚辛壬癸 order.
 // Each maps to a __seedData preset that produces that day-master.
 const STEM_CYCLE = [
@@ -303,6 +322,30 @@ function ChartView({ birthData, chart, tier, setTier, currentScreen, goto, seed,
             </div>
           </div>
         ))}
+        <div style={{ marginBottom: 8 }}>
+          <div style={{ fontSize: 9, letterSpacing: 1.4, textTransform: 'uppercase', color: '#6c655a', marginBottom: 4 }}>
+            Energy readings · journey screen
+          </div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
+            {ENERGY_ELS.map(({ el, hz }) => (
+              <button key={el} onClick={openJourneyElement(el)} title={`app-reading → ${el} element screen`} style={elBtn}>
+                {hz} {el}
+              </button>
+            ))}
+          </div>
+        </div>
+        <div style={{ marginBottom: 8 }}>
+          <div style={{ fontSize: 9, letterSpacing: 1.4, textTransform: 'uppercase', color: '#6c655a', marginBottom: 4 }}>
+            Energy readings · full (app-energy)
+          </div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
+            {ENERGY_ELS.map(({ el, hz }) => (
+              <button key={el} onClick={openEnergyReading(el)} title={`app-energy · ${el}`} style={elBtn}>
+                {hz} {el}
+              </button>
+            ))}
+          </div>
+        </div>
       </DevSection>
 
       <DevSection label="Actions">
@@ -517,6 +560,18 @@ function TabBtn({ active, onClick, children }) {
     </button>
   );
 }
+
+const elBtn = {
+  padding: '4px 8px',
+  borderRadius: 4,
+  border: '1px solid #3a342d',
+  background: '#2a2621',
+  color: '#9d968a',
+  cursor: 'pointer',
+  fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace',
+  fontSize: 10,
+  letterSpacing: 0.2,
+};
 
 const miniBtn = {
   flex: 1,

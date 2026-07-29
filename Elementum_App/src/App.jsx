@@ -425,6 +425,8 @@ export default function App() {
       // Route inventory for automated QA (tools/qa-route-sweep.mjs) — the
       // sweep enumerates screens from the running app, never a copied list.
       window.__screens = [...FLOW];
+      // Per-element full energy reading (app-energy) — DevBar element buttons.
+      window.__openEnergy = (el) => { setEnergyEl(el); setScreen('app-energy'); };
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

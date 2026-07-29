@@ -128,6 +128,14 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   }, [swTo]);
 
   const goElement = useCallback((el) => { setElOpen(el); setScreen('element'); }, []);
+
+  // Dev-only: expose the in-journey element screen to the DevBar
+  // (it is internal state, not a hash route).
+  useEffect(() => {
+    if (!import.meta.env.DEV || typeof window === 'undefined') return undefined;
+    window.__journeyElement = goElement;
+    return () => { if (window.__journeyElement === goElement) delete window.__journeyElement; };
+  }, [goElement]);
   const goScreen = useCallback((name) => {
     setScreen(name);
     requestAnimationFrame(() => {
