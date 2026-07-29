@@ -77,8 +77,9 @@
   .srcmap td:first-child{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--bronzeDark);white-space:nowrap}
   .srcmap tr:last-child td{border-bottom:0}
   .bg-card{background:var(--cardstock);border:1px solid var(--paperHair);border-radius:12px;overflow:hidden}
-  .bg-card img{display:block;width:100%;aspect-ratio:390/280;object-fit:cover;object-position:top;border-bottom:1px solid var(--paperHair)}
-  .bg-card.tall img{aspect-ratio:390/420}
+  /* Full plates, never cropped — every 390×844 composition shown whole
+     (bottom-weighted scenery matters: boats, islands, horizons). */
+  .bg-card img{display:block;width:100%;aspect-ratio:390/844;object-fit:cover;border-bottom:1px solid var(--paperHair)}
   .bg-card .m{padding:10px 12px 12px}
   .bg-card .nm{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--bronzeDark)}
   .bg-card .use{font-size:12px;font-style:italic;color:var(--inkSoft);margin-top:4px;line-height:1.4}
