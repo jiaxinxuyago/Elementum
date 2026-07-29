@@ -81,10 +81,10 @@ Per concept: **ID · canonical name · definition (civilian one-liner) · prereq
 
 | ID | Concept | Definition | Needs | Source |
 |---|---|---|---|---|
-| 1.1 | **Day Master** | The element-of-self: the day pillar's stem, the lens every other energy is read through. | 0.1, 0.2 | REA_01 §2; Profile DB I |
+| 1.1 | **Day Master** | The element-of-self: the day pillar's stem, the lens every other energy is read through. | 0.1, 0.2 | REA_04 §2; Profile DB I |
 | 1.2 | **The ten stem archetypes** | The Day Master as a person: Oak, Vine, Sun … Rain — ten signatures of selfhood. | 1.1 | **Profile DB Part One** (canonical); `STEM_CARD_DATA` |
-| 1.3 | **Elemental composition** | Your personal ratio of the five elements — what you're made of, in proportions. | 0.1, 0.3 | REA_01 §6 |
-| 1.4 | **Energy band / condition** | How concentrated your self-element is — displayed via the §5c terms (Overfueled/Balanced/Underfueled). | 1.3 | REA_01 §7 + §5c |
+| 1.3 | **Elemental composition** | Your personal ratio of the five elements — what you're made of, in proportions. | 0.1, 0.3 | DEV_01 §3 (engine-derived) |
+| 1.4 | **Energy band / condition** | How concentrated your self-element is — displayed via the §5c terms (Overfueled/Balanced/Underfueled). | 1.3 | §5c + DEV_01 §3.9 |
 
 ### Family 2 — Relation (the Dominant-Energy axis · Layer 2)
 
@@ -92,8 +92,8 @@ Per concept: **ID · canonical name · definition (civilian one-liner) · prereq
 |---|---|---|---|---|
 | 2.1 | **Elements act on each other** | Every element feeds one and checks another (生/克) — why another energy can be your fuel or your grindstone. | 0.1 | REA_02 §2 |
 | 2.2 | **The council (Ten Gods)** | Each element — **including your own** — read through its relationship to your Day Master, becomes a figure: Twin, Rival, Artisan … Sage. | 1.1, 2.1, 0.2 | **Profile DB Part Two** (canonical defs); `TG_CARD_DATA` |
-| 2.3 | **Dominant & secondary energy** | Which council figures speak loudest in *your* chart — every present energy gets a card; "dominant"/"secondary" are derived role badges (the self element's Twin/Rival included — B5). | 1.3, 2.2 | REA_01 §3 |
-| 2.4 | **Catalyst / Friction** | The element that lifts your nature, and the one that grinds it — your chart's prescription. | 2.1, 1.3 | REA_01 |
+| 2.3 | **Dominant & secondary energy** | Which council figures speak loudest in *your* chart — every present energy gets a card; "dominant"/"secondary" are derived role badges (the self element's Twin/Rival included — B5). | 1.3, 2.2 | REA_04 §2 |
+| 2.4 | **Catalyst / Friction** | The element that lifts your nature, and the one that grinds it — your chart's prescription. | 2.1, 1.3 | REA_04 §2 + §5c |
 | 2.5 | **The absent element** | A quality your chart barely carries — not a flaw; a place where life asks you to borrow. | 1.3 | (Manual, retired) |
 | 2.6 | **Pillar position (宫位)** | The *same* Ten God reads differently by which pillar it sits in — 年 = origins, 月 = career/parents, **日支 = partner (夫妻宫)**, 时 = children/legacy. | 2.2, 0.3 | REA_02 §2.7b (B6) |
 
@@ -224,7 +224,7 @@ Forks resolved: Drive over Harvest, Duty over Trial; law #4 scoped to persona-na
 
 ## 6 · Worked compounds (the A-12345 teaching examples)
 
-**庚 The Blade (reference chart):** Metal 金比肩 Independence (self) · Wood 木正财 Caution (drive) · Earth 土偏印 Insight (root) · Water 水食神 Flow (voice) · Fire 火七杀 Force (duty/forge). **Why the compound is the unit — the "Metal rotation":** the same Metal reads Independence (Blade, self) · Order (Oak, pressure) · Reach (Sun, drive) · Brilliance (Mountain, voice) · Insight (Ocean, support). Element alone could never say this; **element × ten-god is the engine of the whole system** (REA_01 §3's 50 keys; operationalized in REA_04 K2).
+**庚 The Blade (reference chart):** Metal 金比肩 Independence (self) · Wood 木正财 Caution (drive) · Earth 土偏印 Insight (root) · Water 水食神 Flow (voice) · Fire 火七杀 Force (duty/forge). **Why the compound is the unit — the "Metal rotation":** the same Metal reads Independence (Blade, self) · Order (Oak, pressure) · Reach (Sun, drive) · Brilliance (Mountain, voice) · Insight (Ocean, support). Element alone could never say this; **element × ten-god is the engine of the whole system** (the 50-key pool — REA_04 §4b).
 
 ## 6b · Journey-handoff integration rulings (owner 2026-07-16 — current law)
 

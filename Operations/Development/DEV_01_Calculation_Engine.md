@@ -599,5 +599,5 @@ Run these against any new implementation before going to production:
 | **Purpose** | Single source of truth for all BaZi math. The deterministic input → Canonical JSON pipeline. No content, no LLM, no design. |
 | **Stability** | HIGH — changes only when calculation logic changes |
 | **Used by** | Elementum_Engine.jsx · batchGenerate.js (via JSON output) |
-| **Compatible with** | REA_01 v1.0 · REA_04 v1.0 |
+| **Compatible with** | REA_01 v2.0 (overview) · REA_04 v1.0 |
 | **Verified against** | 穷通宝鉴 · 子平真诠 · shen88.cn · ebaicha.cn · junzige.com |

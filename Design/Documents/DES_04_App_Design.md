@@ -6,7 +6,7 @@
 
 This document is the primary reference for all UI and interaction design work in Elementum. It is the contract between the design vision, the frontend implementation, and the data contracts defined in REA_01. Designers use it to understand intent. Engineers use it to understand what to build and what data powers each component.
 
-**Reading order:** Read REA_01 §2 and §6–8 before this document. DES_04 describes how to render the data; REA_01 describes what the data is.
+**Reading order:** Read REA_01 (the compound-system overview), then REA_03 §2 (names) and REA_04 §3–§4 (the data variables) before this document. DES_04 describes how to render the data; the Reading library describes what the data is.
 
 ---
 
@@ -124,7 +124,7 @@ The default state of every screen shows you the most personally relevant content
 | Accent deepest | Walnut | `#5a4430` | Hover states, pressed CTAs |
 | Gold highlight | Gold | `#D4AF37` | Navigation active indicator, special moments |
 
-**Element colors (LOCKED — from REA_01 §2):**
+**Element colors (LOCKED — canonical: Design/tokens.css; historical source: the old Archetype_System):**
 
 | Element | Display | Hex | Deep variant | Deep hex |
 |---|---|---|---|---|
@@ -2344,7 +2344,7 @@ Pip dimensions: 16px × 6px, gap 2px, border-radius 3px.
 
 SVG seal per stem (10 seals). Props: `stem`, `color`, `size` (default 72px). Each seal is a geometric composition using 1.5px strokes.
 
-See REA_01 §2 for each stem's concept:
+See REA_01 (the ten-archetype roster) for each stem's concept:
 甲 → branching tree · 乙 → spiral vine · 丙 → radiating sun · 丁 → upward flame · 戊 → layered peak · 己 → cultivation grid · 庚 → bisected hexagon · 辛 → faceted diamond · 壬 → depth rings · 癸 → wave arcs
 
 ---

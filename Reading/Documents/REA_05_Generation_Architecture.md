@@ -775,7 +775,7 @@ Generates all 50 `domEl_specificTenGod` compound archetype cards. Output stored 
 1. Target config key: `domEl`, `specificTenGod` (which implies the DM element)
 2. DM stem grounding: `STEM_CARD_DATA[impliedDmStem]` from `archetypeSource.js`
 3. TG grounding: `TG_CARD_DATA[specificTenGod]` from `archetypeSource.js`
-4. Interaction description: the structural interaction narrative from REA_01 §3 (50-key taxonomy)
+4. Interaction description: the structural interaction narrative from REA_04 §4b (the 50-key taxonomy)
 5. Voice register: the DM element's elemental register
 6. `CLASSICAL_STEM_ANCHORS`, `CLASSICAL_TG_ANCHORS`, `BINGYI_FRAMING` from `archetypeSource.js`
 

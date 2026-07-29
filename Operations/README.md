@@ -29,7 +29,7 @@
 
 | ID | Title | Purpose | Lineage |
 |---|---|---|---|
-| REA_01 | Archetype_System | The archetype/persona concept system + 50-key taxonomy | DES_01 ← DOC2 |
+| REA_01 | Archetype_System | THE FRONT DOOR — the compound archetype system, explained axis-by-axis (orientation only, v2.0 rewrite 2026-07-28; the 50-key taxonomy now lives in REA_04 §4b, the reference derivation in REA_04 Appendix A) | DES_01 ← DOC2 |
 | REA_02 | Knowledge_Pool | BaZi knowledge corpus + translation protocol (vocabulary law) | DES_02 ← DOC3 |
 | REA_03 | Concept_Dictionary | THE V BOOK — vocabulary law + naming registry + BaZi concept families + ALL locked terms (never a generation target) | consolidation of old Reading_Concept_Inventory Pt 1 + old Identity_Vocabulary |
 | REA_04 | Reading_Generation_Schema | THE A BOOK — archetype-varying data variables + templates + assembly model + §7 decision log (xlsx twin: `Reading/Database/REA_04_generation_schema.xlsx`, regen via `Elementum_App/tools/build-field-map-xlsx.mjs`) | consolidation of old Reading_Schema + old Reading_Data_Variables + old Archetype_Fields |
