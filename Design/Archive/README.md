@@ -9,3 +9,13 @@ the Elementum Design Handoff_JourneyCatalogue folder).
 - Elementum -The Reveal Journey and Reading Catalogue.html — reveal/catalogue iteration
 - elementum-d13-part2-readings.html — d13 part-2 readings snapshot (canonical copy
   also lives in the JourneyCatalogue handoff folder)
+
+## exports-handoffs/ (owner ruling, same gate: "hold and archive")
+
+The pre-JourneyCatalogue handoff bundles — iteration history, never authority:
+catalogue-answer-first/ · app-singlefile/ · reveal-and-energymap/ ·
+Elementum_ScreenHandoff/ · energy-faces-current.html + prompt ·
+DISPATCH_PART1.md · CONNECTOR_LINK.txt.
+(The exports twin of the JourneyCatalogue itself was DELETED — the canonical
+copy lives in the Library. The two live engine specs, DOMINANCE_WHEEL_RULES.md
+and HANDOFF_PART1.md, moved to Design/Documents/.)
