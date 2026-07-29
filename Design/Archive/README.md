@@ -12,6 +12,8 @@ the Elementum Design Handoff_JourneyCatalogue folder).
 
 - rendered-screens-v2/ — the v2 rendered-screens board (html + its render2/screens2
   JS + art/bg assets, all intact as a unit; owner-archived 2026-07-29)
+- mood-foundation.html — the M1–M3 mood foundation board (its content was absorbed
+  into the primitives consolidation in May 2026; owner-archived 2026-07-29)
 
 ## exports-handoffs/ (owner ruling, same gate: "hold and archive")
 

@@ -1,0 +1,1253 @@
+<!--
+  ELEMENTUM · DESIGN RESOURCE POOL · TIER 1
+  File: mood-foundation.html
+  Purpose: Foundation mood board for palette, type, surfaces, brush dynamics, atmospheric depth, and voice.
+  Sources composed from: tokens.css, DES_04 App Design, northstar-anchor.html, legend-primitives.html, legend-v4/v6/v7 design legends, Art-direction.txt.
+  Ink-wash study anchors: Fan Kuan, Ma Yuan, Mi Fu / Mi Youren, Bada Shanren, Shi Tao, Ni Zan, Wen Tong, Zheng Banqiao.
+  Constraint: self-contained HTML, Google Fonts only, no build step.
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=1280"/>
+<title>Elementum · Mood Foundation · Tier 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+:root {
+  --cream: #F8F6F0;
+  --silk: #F1E9D6;
+  --silkDeep: #ECE2C9;
+  --silkFold: #DDD1B3;
+  --parchment: #EAE5DF;
+  --vellum: #DDD8CC;
+  --paperHair: #CDBE9E;
+  --ink: #2B2722;
+  --inkSoft: #4A433B;
+  --inkLight: #857D72;
+  --inkMist: #B8AFA1;
+  --inkDeep: #1a1815;
+  --bronzeLight: #9d8468;
+  --bronze: #8b7355;
+  --bronzeDark: #6b5339;
+  --walnut: #5a4430;
+  --gold: #D4AF37;
+  --borderStd: #D5CDBD;
+  --borderLight: #E5DFD1;
+  --borderFocus: #8b7355;
+  --dmBorder: #584A3E;
+  --metal: #8ba3b8;
+  --metalDeep: #6a849a;
+  --wood: #7a9e6e;
+  --woodDeep: #587a4d;
+  --fire: #c4745a;
+  --fireDeep: #9e5540;
+  --earth: #b89a6a;
+  --earthDeep: #927750;
+  --water: #5a7fa8;
+  --waterDeep: #3e5f85;
+  --seal: #A04030;
+  --advisor: #7a5e9a;
+  --quiet-bg: #EBE5D6;
+  --quiet-border: #DCD3C0;
+  --cardstock-bg: rgba(248, 241, 225, 0.92);
+  --tabbar-bg: rgba(253, 253, 252, 0.85);
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-style: normal;
+  color: var(--ink);
+  background: #EFE5CC;
+  background-image:
+    radial-gradient(1100px 700px at 12% -10%, rgba(248,241,225,0.7), transparent 60%),
+    radial-gradient(900px 600px at 90% 8%, rgba(241,233,214,0.6), transparent 60%);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 48px 56px 96px;
+}
+.doc-header {
+  border-bottom: 1px solid var(--paperHair);
+  padding-bottom: 28px;
+  margin-bottom: 48px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: end;
+  gap: 32px;
+}
+.doc-header .cn {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--ink);
+  letter-spacing: 8px;
+  margin-bottom: 8px;
+}
+.doc-header h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 44px;
+  line-height: 1.05;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+.doc-header .subline {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 19px;
+  line-height: 1.3;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--inkSoft);
+  margin-top: 10px;
+}
+.doc-header .meta {
+  text-align: right;
+  font-size: 12px;
+  color: var(--inkLight);
+  letter-spacing: 0.5px;
+  line-height: 1.7;
+}
+.doc-header .meta .cinzel {
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: var(--bronzeDark);
+  text-transform: uppercase;
+}
+.seal-mark {
+  color: var(--seal);
+}
+.toc {
+  background: var(--cardstock-bg);
+  border: 1px solid var(--paperHair);
+  border-radius: 22px;
+  padding: 24px 28px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px 32px;
+  margin-bottom: 48px;
+}
+.toc h3 {
+  grid-column: 1 / -1;
+  font-family: 'EB Garamond', serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--bronzeDark);
+  margin: 0 0 10px;
+}
+.toc a {
+  display: flex;
+  gap: 14px;
+  align-items: baseline;
+  font-size: 14.5px;
+  color: var(--inkSoft);
+  text-decoration: none;
+  padding: 6px 0;
+  border-bottom: 1px dotted rgba(139,115,85,0.18);
+}
+.toc a .num {
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--bronze);
+  flex: 0 0 50px;
+}
+section {
+  margin-bottom: 72px;
+  scroll-margin-top: 24px;
+}
+.section-head {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 18px;
+  align-items: end;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--paperHair);
+  padding-bottom: 14px;
+}
+.section-head .num {
+  font-family: 'Cinzel', serif;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: var(--bronzeDark);
+  align-self: start;
+  padding-top: 8px;
+}
+.section-head h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0;
+  letter-spacing: 0.4px;
+}
+.section-head .rule {
+  grid-column: 2;
+  font-family: 'EB Garamond', serif;
+  font-size: 14px;
+  color: var(--inkLight);
+}
+.section-intro {
+  font-family: 'EB Garamond', serif;
+  font-size: 15px;
+  color: var(--inkSoft);
+  line-height: 1.7;
+  max-width: 820px;
+  margin: 0 0 22px;
+}
+.eyebrow {
+  display: block;
+  font-family: 'EB Garamond', serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--bronze);
+  margin-bottom: 14px;
+}
+.eyebrow.metal {
+  color: rgba(139,163,184,0.8);
+}
+.cardstock {
+  background: var(--cardstock-bg);
+  border: 1px solid var(--paperHair);
+  border-radius: 16px;
+  box-shadow: 0 1px 0 rgba(43,39,34,0.04);
+}
+.quiet {
+  background: var(--quiet-bg);
+  border: 1px solid var(--quiet-border);
+  border-radius: 16px;
+}
+.tinted-metal {
+  background: #8ba3b810;
+  border: 1px solid #8ba3b840;
+  border-radius: 16px;
+}
+.elevated {
+  background: var(--silk);
+  border: 1px solid var(--paperHair);
+  border-radius: 16px;
+  box-shadow: 0 -8px 40px rgba(0,0,0,0.12);
+}
+.active-cardstock {
+  background: var(--cardstock-bg);
+  border: 1px solid rgba(212,175,55,0.45);
+  border-radius: 16px;
+  box-shadow: 0 1px 0 rgba(43,39,34,0.04);
+}
+.grid {
+  display: grid;
+  gap: 14px;
+}
+.grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.grid-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.grid-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.swatch {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--paperHair);
+  background: var(--cardstock-bg);
+}
+.swatch .chip {
+  height: 84px;
+  border-bottom: 1px solid var(--paperHair);
+}
+.swatch .meta {
+  padding: 10px 12px 12px;
+}
+.swatch .name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--ink);
+  letter-spacing: 0.2px;
+  margin-bottom: 2px;
+}
+.swatch .hex,
+.token,
+.code {
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  font-size: 11px;
+  letter-spacing: 0.2px;
+  color: var(--inkLight);
+}
+.swatch .use {
+  font-family: 'EB Garamond', serif;
+  font-size: 12px;
+  color: var(--inkSoft);
+  margin-top: 4px;
+  line-height: 1.4;
+}
+.alpha-table {
+  display: grid;
+  grid-template-columns: 120px repeat(5, 1fr);
+  gap: 6px;
+  align-items: stretch;
+}
+.alpha-cell,
+.alpha-head,
+.alpha-name {
+  border: 1px solid var(--paperHair);
+  border-radius: 10px;
+  background: var(--cardstock-bg);
+  padding: 10px;
+}
+.alpha-head {
+  font-family: 'EB Garamond', serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--bronzeDark);
+}
+.alpha-name {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.alpha-cell .mini {
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid var(--paperHair);
+  margin-bottom: 8px;
+}
+.type-grid {
+  display: grid;
+  gap: 10px;
+}
+.type-row {
+  background: var(--cardstock-bg);
+  border: 1px solid var(--paperHair);
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 18px;
+  align-items: baseline;
+}
+.type-row .spec {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--inkLight);
+}
+.cormorant {
+  font-family: 'Cormorant Garamond', serif;
+}
+.eb {
+  font-family: 'EB Garamond', serif;
+}
+.cinzel {
+  font-family: 'Cinzel', serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.hanzi {
+  font-family: 'Noto Serif SC', serif;
+  letter-spacing: 6px;
+}
+.italic-sample {
+  font-style: italic;
+}
+.headline-pair {
+  padding: 28px;
+  margin-top: 22px;
+}
+.headline-pair .blade {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 38px;
+  line-height: 1.1;
+  font-weight: 400;
+  color: var(--ink);
+}
+.headline-pair .tagline {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 19px;
+  line-height: 1.3;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--inkSoft);
+}
+.surface-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 14px;
+}
+.surface-card {
+  padding: 18px;
+  min-height: 178px;
+}
+.surface-card h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: var(--ink);
+  margin: 0 0 10px;
+}
+.surface-card p {
+  font-family: 'EB Garamond', serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--inkSoft);
+  margin: 0;
+}
+.brush-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+.brush-card {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 16px;
+  padding: 16px;
+  background: var(--cardstock-bg);
+  border: 1px solid var(--paperHair);
+  border-radius: 16px;
+}
+.stroke-stage {
+  width: 200px;
+  height: 200px;
+  border-radius: 16px;
+  background: var(--silk);
+  border: 1px solid var(--paperHair);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stroke-svg {
+  width: 200px;
+  height: 200px;
+  color: var(--ink);
+}
+.stroke-stage img {
+  width: 100%;
+  max-width: 200px;
+  aspect-ratio: 1;
+  object-fit: contain;
+  display: block;
+  border-radius: 14px;
+}
+.depth-card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 12px;
+  background: var(--silk);
+  border: 1px solid var(--paperHair);
+  display: block;
+}
+.brush-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--ink);
+  margin: 0 0 8px;
+}
+.brush-ref {
+  font-family: 'EB Garamond', serif;
+  font-size: 12px;
+  color: var(--bronzeDark);
+  letter-spacing: 0.4px;
+  margin-bottom: 10px;
+}
+pre {
+  margin: 0;
+  max-height: 154px;
+  overflow: auto;
+  background: rgba(139,115,85,0.08);
+  border: 1px solid var(--paperHair);
+  border-radius: 10px;
+  padding: 10px;
+  color: var(--inkSoft);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  line-height: 1.45;
+}
+.depth-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+.depth-card {
+  background: var(--cardstock-bg);
+  border: 1px solid var(--paperHair);
+  border-radius: 16px;
+  padding: 18px;
+}
+.depth-card h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--ink);
+  margin: 0 0 12px;
+}
+.depth-svg {
+  width: 600px;
+  height: 400px;
+  max-width: 100%;
+  border-radius: 12px;
+  background: var(--silk);
+  border: 1px solid var(--paperHair);
+  color: var(--ink);
+}
+.voice-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+.voice-card {
+  padding: 20px 22px;
+}
+.voice-subheadline {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 19px;
+  line-height: 1.3;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--inkSoft);
+}
+.voice-body {
+  font-family: 'EB Garamond', serif;
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+  color: var(--inkSoft);
+}
+.microchips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.microchip {
+  font-family: 'EB Garamond', serif;
+  font-size: 11.5px;
+  line-height: 1.4;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--inkLight);
+  background: rgba(139,115,85,0.08);
+  border: 1px solid var(--paperHair);
+  border-radius: 999px;
+  padding: 6px 12px;
+}
+.log-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--cardstock-bg);
+  border: 1px solid var(--paperHair);
+  border-radius: 16px;
+  overflow: hidden;
+}
+.log-table th,
+.log-table td {
+  border-bottom: 1px solid var(--paperHair);
+  padding: 12px 14px;
+  text-align: left;
+  font-family: 'EB Garamond', serif;
+  font-size: 13.5px;
+  color: var(--inkSoft);
+}
+.log-table th {
+  font-size: 10px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--bronzeDark);
+  font-weight: 500;
+}
+.log-table tr:last-child td {
+  border-bottom: 0;
+}
+</style>
+</head>
+<body>
+<main class="page">
+<header class="doc-header">
+<div>
+<div class="cn">元素 氣象 墨法</div>
+<h1>Elementum · Mood Foundation</h1>
+<div class="subline">Tier 1 visual resource pool · foundation mood board</div>
+</div>
+<div class="meta">
+<div class="cinzel">Resource Pool</div>
+<div>Tier 1 / 5</div>
+<div><span class="seal-mark">●</span> tokens.css aligned</div>
+</div>
+</header>
+<nav class="toc" aria-label="Table of contents">
+<h3>Contents</h3>
+<a href="#M1"><span class="num">§M1</span><span>Color palette + alpha ladder</span></a>
+<a href="#M2"><span class="num">§M2</span><span>Typography specimens</span></a>
+<a href="#M3"><span class="num">§M3</span><span>Surface taxonomy</span></a>
+<a href="#M4"><span class="num">§M4</span><span>Brush dynamics study</span></a>
+<a href="#M5"><span class="num">§M5</span><span>Atmospheric depth examples</span></a>
+<a href="#M6"><span class="num">§M6</span><span>Voice samples</span></a>
+<a href="#M7"><span class="num">§M7</span><span>Drift log</span></a>
+</nav>
+<section id="M1">
+<div class="section-head"><div class="num">§M1</div><div><h2>Color palette + alpha ladder</h2><div class="rule">Paper, silk, ink, bronze, five pigments, and reserved accents.</div></div></div>
+<p class="section-intro">The Tier 1 palette is a restraint system: most fields remain paper and ink; element pigment is applied only as measured signal.</p>
+<div class="grid grid-4">
+<div class="swatch">
+<div class="chip" style="background:#F8F6F0"></div>
+<div class="meta">
+<div class="name">cream</div>
+<div class="hex">#F8F6F0</div>
+<div class="use">Primary screen background</div>
+</div>
+</div>
+<div class="swatch">
+<div class="chip" style="background:#F1E9D6"></div>
+<div class="meta">
+<div class="name">silk</div>
+<div class="hex">#F1E9D6</div>
+<div class="use">Hero silk and elevated surface</div>
+</div>
+</div>
+<div class="swatch">
+<div class="chip" style="background:#ECE2C9"></div>
+<div class="meta">
+<div class="name">silkDeep</div>
+<div class="hex">#ECE2C9</div>
+<div class="use">Deep silk fold</div>
+</div>
+</div>
+<div class="swatch">
+<div class="chip" style="background:#EAE5DF"></div>
+<div class="meta">
+<div class="name">parchment</div>
+<div class="hex">#EAE5DF</div>
+<div class="use">Card/elevated base</div>
+</div>
+</div>
+<div class="swatch">
+<div class="chip" style="background:#DDD8CC"></div>
+<div class="meta">
+<div class="name">vellum</div>
+<div class="hex">#DDD8CC</div>
+<div class="use">Header/deep paper</div>
+</div>
+</div>
+<div class="swatch">
+<div class="chip" style="background:#2B2722"></div>
+<div class="meta">
+<div class="name">ink</div>
+<div class="hex">#2B2722</div>
+<div class="use">Primary text</div>
+</div>
+</div>
+<div class="swatch">
+<div class="chip" style="background:#4A433B"></div>
+<div class="meta">
+<div class="name">inkSoft</div>
+<div class="hex">#4A433B</div>
+<div class="use">Reading body</div>
+</div>
+</div>
+<div class="swatch">
+<div class="chip" style="background:#857D72"></div>
+<div class="meta">
+<div class="name">inkLight</div>
+<div class="hex">#857D72</div>
+<div class="use">Microcopy and secondary text</div>
+</div>
+</div>
+</div>
+<div style="height:22px"></div>
+<div class="grid grid-5">
+<div class="swatch">
+<div class="chip" style="background:#9d8468"></div>
+<div class="meta">
+<div class="name">bronzeLight</div>
+<div class="hex">#9d8468</div>
+</div>
+</div>
+<div class="swatch">
+<div class="chip" style="background:#8b7355"></div>
+<div class="meta">
+<div class="name">bronze</div>
+<div class="hex">#8b7355</div>
+</div>
+</div>
+<div class="swatch">
+<div class="chip" style="background:#6b5339"></div>
+<div class="meta">
+<div class="name">bronzeDark</div>
+<div class="hex">#6b5339</div>
+</div>
+</div>
+<div class="swatch">
+<div class="chip" style="background:#5a4430"></div>
+<div class="meta">
+<div class="name">walnut</div>
+<div class="hex">#5a4430</div>
+</div>
+</div>
+<div class="swatch">
+<div class="chip" style="background:#D4AF37"></div>
+<div class="meta">
+<div class="name">gold</div>
+<div class="hex">#D4AF37</div>
+</div>
+</div>
+</div>
+<div style="height:22px"></div>
+<div class="alpha-table">
+<div class="alpha-head">Element</div>
+<div class="alpha-head">10<br/><span class="token">soft fill</span></div>
+<div class="alpha-head">1A<br/><span class="token">tint fill</span></div>
+<div class="alpha-head">40<br/><span class="token">border/chip</span></div>
+<div class="alpha-head">CC<br/><span class="token">eyebrow</span></div>
+<div class="alpha-head">100<br/><span class="token">glyph</span></div>
+<div class="alpha-name">金 <span class="token">Metal</span></div>
+<div class="alpha-cell">
+<div class="mini" style="background:#8ba3b810"></div>
+<div class="token">#8ba3b810</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#8ba3b81A"></div>
+<div class="token">#8ba3b81A</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#8ba3b840"></div>
+<div class="token">#8ba3b840</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#8ba3b8CC"></div>
+<div class="token">#8ba3b8CC</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#8ba3b8"></div>
+<div class="token">#8ba3b8</div>
+</div>
+<div class="alpha-name">木 <span class="token">Wood</span></div>
+<div class="alpha-cell">
+<div class="mini" style="background:#7a9e6e10"></div>
+<div class="token">#7a9e6e10</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#7a9e6e1A"></div>
+<div class="token">#7a9e6e1A</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#7a9e6e40"></div>
+<div class="token">#7a9e6e40</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#7a9e6eCC"></div>
+<div class="token">#7a9e6eCC</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#7a9e6e"></div>
+<div class="token">#7a9e6e</div>
+</div>
+<div class="alpha-name">火 <span class="token">Fire</span></div>
+<div class="alpha-cell">
+<div class="mini" style="background:#c4745a10"></div>
+<div class="token">#c4745a10</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#c4745a1A"></div>
+<div class="token">#c4745a1A</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#c4745a40"></div>
+<div class="token">#c4745a40</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#c4745aCC"></div>
+<div class="token">#c4745aCC</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#c4745a"></div>
+<div class="token">#c4745a</div>
+</div>
+<div class="alpha-name">土 <span class="token">Earth</span></div>
+<div class="alpha-cell">
+<div class="mini" style="background:#b89a6a10"></div>
+<div class="token">#b89a6a10</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#b89a6a1A"></div>
+<div class="token">#b89a6a1A</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#b89a6a40"></div>
+<div class="token">#b89a6a40</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#b89a6aCC"></div>
+<div class="token">#b89a6aCC</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#b89a6a"></div>
+<div class="token">#b89a6a</div>
+</div>
+<div class="alpha-name">水 <span class="token">Water</span></div>
+<div class="alpha-cell">
+<div class="mini" style="background:#5a7fa810"></div>
+<div class="token">#5a7fa810</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#5a7fa81A"></div>
+<div class="token">#5a7fa81A</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#5a7fa840"></div>
+<div class="token">#5a7fa840</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#5a7fa8CC"></div>
+<div class="token">#5a7fa8CC</div>
+</div>
+<div class="alpha-cell">
+<div class="mini" style="background:#5a7fa8"></div>
+<div class="token">#5a7fa8</div>
+</div>
+</div>
+<div style="height:22px"></div>
+<div class="grid grid-3">
+<div class="swatch">
+<div class="chip" style="background:#A04030"></div>
+<div class="meta">
+<div class="name">seal</div>
+<div class="hex">#A04030</div>
+<div class="use">Chop mark; once per screen maximum</div>
+</div>
+</div>
+<div class="swatch">
+<div class="chip" style="background:#584A3E"></div>
+<div class="meta">
+<div class="name">dmBorder</div>
+<div class="hex">#584A3E</div>
+<div class="use">Day-master pillar highlight only</div>
+</div>
+</div>
+<div class="swatch">
+<div class="chip" style="background:#D4AF37"></div>
+<div class="meta">
+<div class="name">gold</div>
+<div class="hex">#D4AF37</div>
+<div class="use">Navigation active indicator and special rim</div>
+</div>
+</div>
+</div>
+</section>
+<section id="M2">
+<div class="section-head"><div class="num">§M2</div><div><h2>Typography specimens</h2><div class="rule">The app speaks in warm serif hierarchy, with Chinese used as glyphic atmosphere.</div></div></div>
+<p class="section-intro">Italic appears only in explicitly permitted specimens here, the locked headline pair, and §M6 voice chips.</p>
+<span class="eyebrow">Cormorant Garamond</span>
+<div class="type-grid">
+<div class="type-row">
+<div class="spec">38px / 400</div>
+<div class="cormorant" style="font-size:38px;font-weight:400;line-height:1.3">The Blade reads before the room decides.</div>
+</div>
+<div class="type-row">
+<div class="spec">38px / 500</div>
+<div class="cormorant" style="font-size:38px;font-weight:500;line-height:1.3">The Blade reads before the room decides.</div>
+</div>
+<div class="type-row">
+<div class="spec">38px / 600</div>
+<div class="cormorant" style="font-size:38px;font-weight:600;line-height:1.3">The Blade reads before the room decides.</div>
+</div>
+<div class="type-row">
+<div class="spec">32px / 400</div>
+<div class="cormorant" style="font-size:32px;font-weight:400;line-height:1.3">The Blade reads before the room decides.</div>
+</div>
+<div class="type-row">
+<div class="spec">32px / 500</div>
+<div class="cormorant" style="font-size:32px;font-weight:500;line-height:1.3">The Blade reads before the room decides.</div>
+</div>
+<div class="type-row">
+<div class="spec">32px / 600</div>
+<div class="cormorant" style="font-size:32px;font-weight:600;line-height:1.3">The Blade reads before the room decides.</div>
+</div>
+<div class="type-row">
+<div class="spec">24px / 400</div>
+<div class="cormorant" style="font-size:24px;font-weight:400;line-height:1.3">The Blade reads before the room decides.</div>
+</div>
+<div class="type-row">
+<div class="spec">24px / 500</div>
+<div class="cormorant" style="font-size:24px;font-weight:500;line-height:1.3">The Blade reads before the room decides.</div>
+</div>
+<div class="type-row">
+<div class="spec">24px / 600</div>
+<div class="cormorant" style="font-size:24px;font-weight:600;line-height:1.3">The Blade reads before the room decides.</div>
+</div>
+<div class="type-row">
+<div class="spec">18px / 400</div>
+<div class="cormorant" style="font-size:18px;font-weight:400;line-height:1.3">The Blade reads before the room decides.</div>
+</div>
+<div class="type-row">
+<div class="spec">18px / 500</div>
+<div class="cormorant" style="font-size:18px;font-weight:500;line-height:1.3">The Blade reads before the room decides.</div>
+</div>
+<div class="type-row">
+<div class="spec">18px / 600</div>
+<div class="cormorant" style="font-size:18px;font-weight:600;line-height:1.3">The Blade reads before the room decides.</div>
+</div>
+<div class="type-row">
+<div class="spec">16px / 400</div>
+<div class="cormorant" style="font-size:16px;font-weight:400;line-height:1.3">The Blade reads before the room decides.</div>
+</div>
+<div class="type-row">
+<div class="spec">16px / 500</div>
+<div class="cormorant" style="font-size:16px;font-weight:500;line-height:1.3">The Blade reads before the room decides.</div>
+</div>
+<div class="type-row">
+<div class="spec">16px / 600</div>
+<div class="cormorant" style="font-size:16px;font-weight:600;line-height:1.3">The Blade reads before the room decides.</div>
+</div>
+<div class="type-row">
+<div class="spec">14px / 400</div>
+<div class="cormorant" style="font-size:14px;font-weight:400;line-height:1.3">The Blade reads before the room decides.</div>
+</div>
+<div class="type-row">
+<div class="spec">14px / 500</div>
+<div class="cormorant" style="font-size:14px;font-weight:500;line-height:1.3">The Blade reads before the room decides.</div>
+</div>
+<div class="type-row">
+<div class="spec">14px / 600</div>
+<div class="cormorant" style="font-size:14px;font-weight:600;line-height:1.3">The Blade reads before the room decides.</div>
+</div>
+</div>
+<div style="height:14px"></div>
+<span class="eyebrow">EB Garamond</span>
+<div class="type-grid">
+<div class="type-row">
+<div class="spec">16px / 400</div>
+<div class="eb" style="font-size:16px;font-weight:400;line-height:1.3">Precision arrives as a quiet sentence, not a performance.</div>
+</div>
+<div class="type-row">
+<div class="spec">16px / 500</div>
+<div class="eb" style="font-size:16px;font-weight:500;line-height:1.3">Precision arrives as a quiet sentence, not a performance.</div>
+</div>
+<div class="type-row">
+<div class="spec">16px / 600</div>
+<div class="eb" style="font-size:16px;font-weight:600;line-height:1.3">Precision arrives as a quiet sentence, not a performance.</div>
+</div>
+<div class="type-row">
+<div class="spec">15px / 400</div>
+<div class="eb" style="font-size:15px;font-weight:400;line-height:1.3">Precision arrives as a quiet sentence, not a performance.</div>
+</div>
+<div class="type-row">
+<div class="spec">15px / 500</div>
+<div class="eb" style="font-size:15px;font-weight:500;line-height:1.3">Precision arrives as a quiet sentence, not a performance.</div>
+</div>
+<div class="type-row">
+<div class="spec">15px / 600</div>
+<div class="eb" style="font-size:15px;font-weight:600;line-height:1.3">Precision arrives as a quiet sentence, not a performance.</div>
+</div>
+<div class="type-row">
+<div class="spec">14px / 400</div>
+<div class="eb" style="font-size:14px;font-weight:400;line-height:1.3">Precision arrives as a quiet sentence, not a performance.</div>
+</div>
+<div class="type-row">
+<div class="spec">14px / 500</div>
+<div class="eb" style="font-size:14px;font-weight:500;line-height:1.3">Precision arrives as a quiet sentence, not a performance.</div>
+</div>
+<div class="type-row">
+<div class="spec">14px / 600</div>
+<div class="eb" style="font-size:14px;font-weight:600;line-height:1.3">Precision arrives as a quiet sentence, not a performance.</div>
+</div>
+<div class="type-row">
+<div class="spec">11.5px / 400</div>
+<div class="eb" style="font-size:11.5px;font-weight:400;line-height:1.3">Precision arrives as a quiet sentence, not a performance.</div>
+</div>
+<div class="type-row">
+<div class="spec">11.5px / 500</div>
+<div class="eb" style="font-size:11.5px;font-weight:500;line-height:1.3">Precision arrives as a quiet sentence, not a performance.</div>
+</div>
+<div class="type-row">
+<div class="spec">11.5px / 600</div>
+<div class="eb" style="font-size:11.5px;font-weight:600;line-height:1.3">Precision arrives as a quiet sentence, not a performance.</div>
+</div>
+</div>
+<div style="height:14px"></div>
+<div class="type-row">
+<div class="spec">Cormorant italic 19 / 500</div>
+<div class="cormorant italic-sample" style="font-size:19px;font-weight:500;line-height:1.3;color:var(--inkSoft)">Precision before intention</div>
+</div>
+<div style="height:14px"></div>
+<div class="type-row">
+<div class="spec">EB italic 11.5 / 400</div>
+<div class="eb italic-sample" style="font-size:11.5px;font-weight:400;line-height:1.4;color:var(--inkLight)">Pressure is the forge.</div>
+</div>
+<div style="height:22px"></div>
+<span class="eyebrow">Cinzel tracked caps</span>
+<div class="type-grid">
+<div class="type-row">
+<div class="spec">Cinzel 13px / tracked</div>
+<div class="cinzel" style="font-size:13px;font-weight:500;line-height:1.4">Year · Month · Day · Hour</div>
+</div>
+<div class="type-row">
+<div class="spec">Cinzel 11px / tracked</div>
+<div class="cinzel" style="font-size:11px;font-weight:500;line-height:1.4">Year · Month · Day · Hour</div>
+</div>
+<div class="type-row">
+<div class="spec">Cinzel 10px / tracked</div>
+<div class="cinzel" style="font-size:10px;font-weight:500;line-height:1.4">Year · Month · Day · Hour</div>
+</div>
+</div>
+<div style="height:22px"></div>
+<span class="eyebrow">Noto Serif SC</span>
+<div class="type-grid">
+<div class="type-row">
+<div class="spec">Noto Serif SC 40px</div>
+<div class="hanzi" style="font-size:40px;font-weight:500;line-height:1.2">元素</div>
+</div>
+<div class="type-row">
+<div class="spec">Noto Serif SC 28px</div>
+<div class="hanzi" style="font-size:28px;font-weight:500;line-height:1.2">庚</div>
+</div>
+<div class="type-row">
+<div class="spec">Noto Serif SC 24px</div>
+<div class="hanzi" style="font-size:24px;font-weight:500;line-height:1.2">五行</div>
+</div>
+</div>
+<div class="headline-pair cardstock">
+<div class="eyebrow metal">Locked headline pair</div>
+<div class="blade">The Blade</div>
+<div class="tagline">Precision before intention</div>
+</div>
+</section>
+<section id="M3">
+<div class="section-head"><div class="num">§M3</div><div><h2>Surface taxonomy</h2><div class="rule">Five surfaces used as app material, not decoration.</div></div></div>
+<div class="surface-row">
+<article class="surface-card cardstock">
+<span class="eyebrow">rgba(248,241,225,0.92) + paperHair</span>
+<h3>Cream-cardstock</h3>
+<p>The default reading object: warm, archival, quiet.</p>
+</article>
+<article class="surface-card tinted-metal">
+<span class="eyebrow">metal10 + metal40 border</span>
+<h3>Tinted Metal</h3>
+<p>Element signal appears as a controlled atmosphere.</p>
+</article>
+<article class="surface-card quiet">
+<span class="eyebrow">#EBE5D6 + #DCD3C0</span>
+<h3>Quiet secondary</h3>
+<p>Secondary material for low-emphasis rows and locked states.</p>
+</article>
+<article class="surface-card elevated">
+<span class="eyebrow">--silk + shadow</span>
+<h3>Elevated</h3>
+<p>A lifted layer for overlays and tray moments.</p>
+</article>
+<article class="surface-card active-cardstock">
+<span class="eyebrow">cream + gold rim</span>
+<h3>Cardstock-active</h3>
+<p>A selection state with ceremonial restraint.</p>
+</article>
+</div>
+</section>
+<section id="M4">
+<div class="section-head"><div class="num">§M4</div><div><h2>Brush dynamics study</h2><div class="rule">Ten raster ink-wash samples for texture, absorption, edge irregularity, and pressure variation.</div></div></div>
+<p class="section-intro">These are now PNG studies rather than SVG primitives: bristle texture, wet pooling, dry-brush gaps, mist-dot density, ridge absorption, branch eccentricity, and negative-space composition preserved as raster image assets.</p>
+<div class="brush-grid">
+<article class="brush-card">
+<div class="stroke-stage">
+  <img src="brush-samples/01-bold-stroke.png" alt="Single bold brush stroke" style="width:100%; max-width:200px; aspect-ratio:1; object-fit:contain;">
+</div>
+<div>
+<h3 class="brush-title">1. Single bold brush stroke</h3>
+<div class="brush-ref">Style memory: Calligraphic literati tradition · raster from GPT-image</div>
+</div>
+</article>
+<article class="brush-card">
+<div class="stroke-stage">
+  <img src="brush-samples/02-ink-pool.png" alt="End-of-stroke ink pool" style="width:100%; max-width:200px; aspect-ratio:1; object-fit:contain;">
+</div>
+<div>
+<h3 class="brush-title">2. End-of-stroke ink pool</h3>
+<div class="brush-ref">Style memory: Calligraphic wet-to-pool stroke · raster from GPT-image</div>
+</div>
+</article>
+<article class="brush-card">
+<div class="stroke-stage">
+  <img src="brush-samples/03-dry-brush-trails.png" alt="Dry-brush trailing strokes" style="width:100%; max-width:200px; aspect-ratio:1; object-fit:contain;">
+</div>
+<div>
+<h3 class="brush-title">3. Dry-brush trailing strokes</h3>
+<div class="brush-ref">Style memory: Cursive grass-script energy · raster from GPT-image</div>
+</div>
+</article>
+<article class="brush-card">
+<div class="stroke-stage">
+  <img src="brush-samples/04-splash-dots.png" alt="Splash ink dot cluster" style="width:100%; max-width:200px; aspect-ratio:1; object-fit:contain;">
+</div>
+<div>
+<h3 class="brush-title">4. Splash ink dot cluster</h3>
+<div class="brush-ref">Style memory: Shi Tao splash-ink landscapes · raster from GPT-image</div>
+</div>
+</article>
+<article class="brush-card">
+<div class="stroke-stage">
+  <img src="brush-samples/05-mist-band.png" alt="Mist band" style="width:100%; max-width:200px; aspect-ratio:1; object-fit:contain;">
+</div>
+<div>
+<h3 class="brush-title">5. Mist band</h3>
+<div class="brush-ref">Style memory: Mi Fu / Mi Youren mist-dot mountains · raster from GPT-image</div>
+</div>
+</article>
+<article class="brush-card">
+<div class="stroke-stage">
+  <img src="brush-samples/06-layered-ridges.png" alt="Layered ridge silhouettes" style="width:100%; max-width:200px; aspect-ratio:1; object-fit:contain;">
+</div>
+<div>
+<h3 class="brush-title">6. Layered ridge silhouettes</h3>
+<div class="brush-ref">Style memory: Fan Kuan atmospheric ridges · raster from GPT-image</div>
+</div>
+</article>
+<article class="brush-card">
+<div class="stroke-stage">
+  <img src="brush-samples/07-asymmetric-branch.png" alt="Asymmetric branch" style="width:100%; max-width:200px; aspect-ratio:1; object-fit:contain;">
+</div>
+<div>
+<h3 class="brush-title">7. Asymmetric branch</h3>
+<div class="brush-ref">Style memory: Bada Shanren eccentric line · raster from GPT-image</div>
+</div>
+</article>
+<article class="brush-card">
+<div class="stroke-stage">
+  <img src="brush-samples/08-calligraphic-line.png" alt="Calligraphic line with weight variance" style="width:100%; max-width:200px; aspect-ratio:1; object-fit:contain;">
+</div>
+<div>
+<h3 class="brush-title">8. Calligraphic line with weight variance</h3>
+<div class="brush-ref">Style memory: Calligraphy: pressure-release stroke · raster from GPT-image</div>
+</div>
+</article>
+<article class="brush-card">
+<div class="stroke-stage">
+  <img src="brush-samples/09-wash-gradient.png" alt="Wash gradient" style="width:100%; max-width:200px; aspect-ratio:1; object-fit:contain;">
+</div>
+<div>
+<h3 class="brush-title">9. Wash gradient</h3>
+<div class="brush-ref">Style memory: Ni Zan sparse landscape washes · raster from GPT-image</div>
+</div>
+</article>
+<article class="brush-card">
+<div class="stroke-stage">
+  <img src="brush-samples/10-negative-space.png" alt="Negative-space composition" style="width:100%; max-width:200px; aspect-ratio:1; object-fit:contain;">
+</div>
+<div>
+<h3 class="brush-title">10. Negative-space composition</h3>
+<div class="brush-ref">Style memory: Bada Shanren / Ni Zan restraint · raster from GPT-image</div>
+</div>
+</article>
+</div>
+</section>
+<section id="M5">
+<div class="section-head"><div class="num">§M5</div><div><h2>Atmospheric depth examples</h2><div class="rule">Raster atmospheric plates; opacity hierarchy becomes painterly distance rather than vector layering.</div></div></div>
+<p class="section-intro">Study memory: Fan Kuan for ridge mass and atmospheric layering; Ma Yuan water/mist tradition for void as substance.</p>
+<div class="depth-grid">
+<article class="depth-card">
+<h3>3-layer ridge composition</h3>
+<div class="token">Foreground 100% · Midground 60% · Distant 30%</div>
+<img src="atmospheric-depth/atmospheric-3-layer.png" alt="Three layered ink-wash ridge composition">
+<div class="brush-ref">Style memory: Fan Kuan · raster from GPT-image</div>
+</article>
+<article class="depth-card">
+<h3>5-layer ridge composition</h3>
+<div class="token">100% · 70% · 40% · 25% · 15%</div>
+<img src="atmospheric-depth/atmospheric-5-layer.png" alt="Five layered ink-wash ridge composition">
+<div class="brush-ref">Style memory: Literati landscape · raster from GPT-image</div>
+</article>
+</div>
+</section>
+<section id="M6">
+<div class="section-head"><div class="num">§M6</div><div><h2>Voice samples</h2><div class="rule">Tone calibration for the foundation system.</div></div></div>
+<div class="voice-grid">
+<article class="voice-card cardstock">
+<span class="eyebrow">Sub-headline</span>
+<div class="voice-subheadline">Precision before intention</div>
+</article>
+<article class="voice-card cardstock">
+<span class="eyebrow">Body</span>
+<div class="voice-body">The reading is a recognition event, not an information delivery. The user should feel that the system sees the shape before it explains the parts.</div>
+</article>
+<article class="voice-card cardstock">
+<span class="eyebrow metal">YOUR ELEMENTAL NATURE</span>
+<div class="voice-body">Eyebrow specimen: EB Garamond, 10px, tracked 2.5px, metal at 80% opacity.</div>
+</article>
+<article class="voice-card cardstock">
+<span class="eyebrow">Microcopy chips</span>
+<div class="microchips">
+<span class="microchip">Pressure is the forge.</span>
+<span class="microchip">Order is the inheritance.</span>
+<span class="microchip">The edge was already real.</span>
+</div>
+</article>
+</div>
+</section>
+<section id="M7">
+<div class="section-head"><div class="num">§M7</div><div><h2>Drift log · Tier 1</h2><div class="rule">Track every introduced primitive and reference source.</div></div></div>
+<table class="log-table">
+<thead><tr><th>Category</th><th>Status</th><th>Notes</th></tr></thead>
+<tbody>
+<tr>
+<td>New color tokens</td>
+<td>None</td>
+<td>All palette values are sourced from tokens.css / DES_04. Opacity values are required for the alpha ladder and atmospheric studies.</td>
+</tr>
+<tr>
+<td>New fonts</td>
+<td>None</td>
+<td>Google Fonts only: Cormorant Garamond, EB Garamond, Cinzel, Noto Serif SC, JetBrains Mono for code annotation.</td>
+</tr>
+<tr>
+<td>New radii / spacing</td>
+<td>None intended</td>
+<td>Radii use the locked scale. Spec-required SVG dimensions and atmospheric canvases use requested 200×200 and 600×400 artboards.</td>
+</tr>
+<tr>
+<td>Local references available in this session</td>
+<td>Partial</td>
+<td>Found: 01-fan-kuan-travelers.jpg, 02-ma-yuan-spring-path.jpg, 03-ma-yuan-dancing-singing.jpg, 05-bada-shanren-two-birds.jpg. Missing locally: 04-ma-yuan-angler-wintry-lake.jpg, 06-shitao-master-planting-pines.jpg.</td>
+</tr>
+<tr>
+<td>Web-fetched references consulted</td>
+<td>Used for study notes</td>
+<td>Met: Mi Youren, Cloudy Mountains; Smithsonian/National Museum of Asian Art: Pavilion of Rising Clouds and Mi-style landscape entries; Cleveland Museum of Art: Mi Youren, Cloudy Mountains; Wikimedia Commons: MET Cloudy Mountains CC0 record.</td>
+</tr>
+<tr>
+<td>Tier discipline</td>
+<td>Kept</td>
+<td>No Tier 2–5 previews, app screens, or production icons are introduced here.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</main>
+</body>
+</html>
