@@ -10,6 +10,9 @@ the Elementum Design Handoff_JourneyCatalogue folder).
 - elementum-d13-part2-readings.html — d13 part-2 readings snapshot (canonical copy
   also lives in the JourneyCatalogue handoff folder)
 
+- rendered-screens-v2/ — the v2 rendered-screens board (html + its render2/screens2
+  JS + art/bg assets, all intact as a unit; owner-archived 2026-07-29)
+
 ## exports-handoffs/ (owner ruling, same gate: "hold and archive")
 
 The pre-JourneyCatalogue handoff bundles — iteration history, never authority:
