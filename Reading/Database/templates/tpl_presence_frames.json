@@ -1,0 +1,15 @@
+{
+  "$template": "tpl_presence_frames",
+  "class": "T",
+  "axis": "TEMPLATED",
+  "status": "PLANNED",
+  "budget": "≤20w patterns ×4",
+  "source_of_truth": "Elementum_App/src/components/journey (patterns) · REA_03 §5",
+  "pattern": null,
+  "clauses": {
+    "dominant": null,
+    "present": null,
+    "scarce": null,
+    "absent": null
+  }
+}

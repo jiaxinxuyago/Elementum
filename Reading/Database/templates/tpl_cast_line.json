@@ -1,0 +1,10 @@
+{
+  "$template": "tpl_cast_line",
+  "class": "T",
+  "axis": "TEMPLATED",
+  "status": "LIVE ⚠ R1",
+  "budget": "one line",
+  "source_of_truth": "Elementum_App/src/components/journey (patterns) · REA_03 §5",
+  "pattern": "CAST FROM {y} · {m} · {d} · {hour-label} {tz}",
+  "open_ruling": "R1 — numeric vs handoff month-name format"
+}

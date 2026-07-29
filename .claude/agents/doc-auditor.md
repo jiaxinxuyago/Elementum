@@ -20,13 +20,13 @@ classify, and report.
 # The one rule that outranks all others: LIVING vs RECORD
 
 - **LIVING docs** describe the present and must track it: specs
-  (DES_04 App Design, REA_04 Reading Generation Schema, INF_01 Backend Architecture,
+  (DES_04 App Design, REA_03 Reading Generation Schema, INF_01 Backend Architecture,
   DEV_01 Calculation Engine…), DEV_03 Code Review Standards,
   PM_01 Automation Runbook, Operations/README.md (the registry). Drift here
   is a finding.
 - **RECORD docs** are history and are APPEND-ONLY: decision ledgers
   (DES_13 Design Audit Backlog D-rows), audit snapshots (DEV_05,
-  REA_08/09/10), anything titled audit/reconciliation/retired/archive, the
+  _ARCHIVE_Reading_V2.1_Reconciliation_Audit), anything titled audit/reconciliation/retired/archive, the
   "Formerly DOC#" breadcrumbs, dated session addenda inside any doc. A
   record that describes a superseded state is CORRECT — never flag record
   content as stale, and treat any suggestion to rewrite history as a
@@ -39,13 +39,15 @@ classify, and report.
    ([DES|REA|DEV|INF|BIZ|LEG|PM]_NN, append-only), and the DOC# alias table.
    **OWNER-APPROVED STRUCTURE (2026-07-23 split; 2026-07-27 restructuring):**
    docs live in THREE roots, one registry. `Reading/Documents/` (prefix REA,
-   REA_01–REA_10, compact — renumbered 2026-07-28 into pipeline order after
-   the V/A consolidation: REA_03 Concept_Dictionary · REA_04
-   Reading_Generation_Schema · REA_07 Concept_Ladder are the consolidated
-   books; ids REA_11–REA_15 are RETIRED transition ids, never reused; any
-   pre-07-28 REA citation resolves via the registry's RENUMBER TABLE — never
-   flag the renumbering, the retired ids, or era-mismatched citations inside
-   RECORD content) holds all reading-content docs and `Reading/Database/` the
+   REA_01–REA_06 + one _ARCHIVE_ file — FINAL ORDER set 2026-07-29:
+   01 Archetype_System (front door) · 02 Concept_Dictionary (V) · 03
+   Reading_Generation_Schema (A) · 04 Knowledge_Pool (sources) · 05
+   Generation_Architecture (storage/piping) · 06 Concept_Ladder; the old
+   Content_Generation_Guide + the two generated audits + their tools are
+   RETIRED (git); ids REA_07–REA_15 are RETIRED era ids, never reused; any
+   earlier-era REA citation resolves via the registry's RENUMBER TABLE —
+   never flag the renumberings, the retired ids, or era-mismatched
+   citations inside RECORD content) holds all reading-content docs and `Reading/Database/` the
    reading-data artifacts; `Design/Documents/` holds DES_04, DES_13, DES_14
    (+ the archive); `Operations/` keeps DEV/INF/BIZ/LEG/PM + the registry.
    The gaps in the DES series (01–03, 05–12) are RETIRED numbers per the

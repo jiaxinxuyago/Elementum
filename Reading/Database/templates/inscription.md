@@ -1,0 +1,26 @@
+# inscription — template twin
+
+> **GENERATED from the JSON — do not hand-edit.** Mark up or request changes; the JSON updates; twins regenerate (`node tools/build-template-twins.mjs`).
+
+| | |
+|---|---|
+| **class** | A |
+| **axis** | STEM |
+| **status** | LIVE |
+| **budget** | propose ≤17w / ≤85c (R2) |
+| **source_of_truth** | Elementum_App/src/content/archetypeSource.js (via buildIdentity) |
+
+## Values
+
+| Key | Value |
+|---|---|
+| **甲** | You grow toward the light you believe in — even where nothing shelters you. |
+| **乙** | You bend where others break — and call it nothing, though it is everything. |
+| **丙** | You warm every room you enter — and rarely ask who warms you. |
+| **丁** | You keep a small fire no storm has found — others read by its light. |
+| **戊** | You hold what others set down — so long, they forget the weight was theirs. |
+| **己** | Everything you tend grows — you are the last to call it your harvest. |
+| **庚** | You say what others soften — and pay, quietly, for being the one who did. |
+| **辛** | You were polished by what pressed you — brilliance is the part that survived. |
+| **壬** | You hold more than anyone thinks to ask about — depth was never meant to be seen. |
+| **癸** | You change things slowly, softly, completely — and let the credit fall elsewhere. |

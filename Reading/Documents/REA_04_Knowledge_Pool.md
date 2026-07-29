@@ -1,10 +1,10 @@
-# Elementum · REA_02 — Knowledge Pool
+# Elementum · REA_04 — Knowledge Pool
 
 > **Formerly DES_02** (moved to the Reading library in the 2026-07-23 design/reading doc separation) **and before that DOC3** (2026-07-09 reorganization). Historical citations of "DES_02" or "DOC3" refer to this file (registry: Operations/README.md).
 
-> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `REA_08_Reading_V2.1_Reconciliation_Audit.md`).** Deltas for this doc: (1) the §3.5 Ten-God profiles now need **presence-frame register** variants (dominant = full read · present = derived shorter · scarce/absent = cultivation); extend §8.3's 2-band element model to the 3-band persona model. (2) §3.4 elemental-processing fields are the **source for the new `rulingDomain`** (DM-relative life-area line) — convert each element-field into a plain-English domain line per (element × Day Master). (3) §8.6 translation contract and §8.9 jargon ban **stay canonical** (no 比肩/正财, no yin/yang/"polarity" surfaced). (4) Tier-3 resonance bridges (e.g. Archetype_Reference's 5-family grouping) must **never** seed the persona taxonomy — personas are per-god, all 10 distinct (decision C3).
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `_ARCHIVE_Reading_V2.1_Reconciliation_Audit.md`).** Deltas for this doc: (1) the §3.5 Ten-God profiles now need **presence-frame register** variants (dominant = full read · present = derived shorter · scarce/absent = cultivation); extend §8.3's 2-band element model to the 3-band persona model. (2) §3.4 elemental-processing fields are the **source for the new `rulingDomain`** (DM-relative life-area line) — convert each element-field into a plain-English domain line per (element × Day Master). (3) §8.6 translation contract and §8.9 jargon ban **stay canonical** (no 比肩/正财, no yin/yang/"polarity" surfaced). (4) Tier-3 resonance bridges (e.g. Archetype_Reference's 5-family grouping) must **never** seed the persona taxonomy — personas are per-god, all 10 distinct (decision C3).
 
-This document is a **library, not a protocol.** It provides materials; REA_05 provides generation instructions. Reading REA_02 tells you what sources exist and how they are tiered. Reading REA_05 tells you which ones to use for a given key, in what order, with what ceilings.
+This document is a **library, not a protocol.** It provides materials; REA_05 provides generation instructions. Reading REA_04 tells you what sources exist and how they are tiered. Reading REA_05 tells you which ones to use for a given key, in what order, with what ceilings.
 
 **Source hierarchy:**
 
@@ -962,7 +962,7 @@ All citations formatted APA 7th edition. Where a concept appears under multiple 
 #### Creativity and Innovation
 
 **Friedman, R. S., & Förster, J. (2001).** The effects of promotion and prevention cues on creativity. *Journal of Personality and Social Psychology, 81*(6), 1001–1013. https://doi.org/10.1037/0022-3514.81.6.1001
-> Prevention-focused processing produces reactive, constraint-responsive creativity distinct from promotion-focused output. Primary empirical source for the "reactive creativity" mechanism in 伤官 TG profile (cited in REA_02 as Forster & Higgins 1996).
+> Prevention-focused processing produces reactive, constraint-responsive creativity distinct from promotion-focused output. Primary empirical source for the "reactive creativity" mechanism in 伤官 TG profile (cited in REA_04 as Forster & Higgins 1996).
 
 **Patterson, F., Kerrin, M., & Gatto-Roissard, G. (2009).** *Characteristics and behaviours of innovative people in organisations*. NESTA Research Report.
 > Innovation personality profiles in organizational contexts. Used in 伤官 TG profile.
@@ -1151,7 +1151,7 @@ Cross-reference with DEV_01 hidden-stem weights. If the engine uses different pe
 
 | Layer | Context | Chinese Characters | BaZi Terminology | Rule |
 |---|---|---|---|---|
-| **Internal / verification** | REA_02 source entries, elementNatureData.js / dominantEnergyTgData.js constants, CLASSICAL_STEM_ANCHORS, CLASSICAL_TG_ANCHORS | ✓ Permitted | ✓ Permitted | For human + AI proof-reading and source verification only |
+| **Internal / verification** | REA_04 source entries, elementNatureData.js / dominantEnergyTgData.js constants, CLASSICAL_STEM_ANCHORS, CLASSICAL_TG_ANCHORS | ✓ Permitted | ✓ Permitted | For human + AI proof-reading and source verification only |
 | **Generation prompts** | batchGenerate.js prompt strings sent to LLM | ✓ Permitted as reference labels only, always English-paired | ✓ Permitted as structural labels | Prompts may reference BaZi terms when orienting the model; the model’s OUTPUT must be clean |
 | **User-facing output** | All reading text, UI card content, static labels, exported reading fields | ✗ Zero Chinese characters | ✗ Zero BaZi jargon | Absolute. No fallthrough from prompt layer. |
 

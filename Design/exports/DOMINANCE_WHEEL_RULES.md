@@ -78,7 +78,7 @@ So with the demo chart: Metal (top) → Earth → Water → Wood → Fire, clock
 
 ### ⚠ AMENDMENT (owner ruling 2026-07-16 · journey-handoff integration) — condition-dependent seating
 
-Seating now depends on the chart's §5c condition (REA_03):
+Seating now depends on the chart's §5c condition (REA_02):
 
 | Condition | Seating law |
 |---|---|

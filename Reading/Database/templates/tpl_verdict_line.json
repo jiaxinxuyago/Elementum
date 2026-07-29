@@ -1,0 +1,27 @@
+{
+  "$template": "tpl_verdict_line",
+  "class": "T",
+  "axis": "TEMPLATED",
+  "status": "LIVE",
+  "budget": "one line",
+  "source_of_truth": "Elementum_App/src/components/journey (patterns) · REA_03 §5",
+  "pattern": "{connector} {pole} · {verb}",
+  "clauses": {
+    "connectors": {
+      "core_overfueled": "curdling into",
+      "core_underfueled": "reaching for",
+      "core_balanced": "holding",
+      "friction": "curdling into",
+      "catalyst": "rising toward"
+    },
+    "verbs": {
+      "core_overfueled": "channel it",
+      "core_underfueled": "refill it",
+      "core_balanced": "trust it",
+      "friction": "loosen it",
+      "catalyst_missing": "borrow it",
+      "catalyst_lead": "feed it",
+      "catalyst_other": "keep it close"
+    }
+  }
+}

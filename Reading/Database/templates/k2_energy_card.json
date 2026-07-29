@@ -1,0 +1,1510 @@
+{
+  "$template": "k2_energy_card",
+  "class": "A",
+  "axis": "ELEMENT·GOD",
+  "status": "PLANNED",
+  "budget": "REA_03 §4 spec (face ≤8w · persona ≤20w · chips 5×≤4w · rulingDomain ≤14w · r/x ≤30w · gate ≤25w · seeker 40/30/30/30w)",
+  "source_of_truth": "REA_03 §4 + §4b (the 50-key reference)",
+  "values": {
+    "金_比肩": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "金_劫财": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "金_食神": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "金_伤官": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "金_偏财": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "金_正财": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "金_七杀": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "金_正官": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "金_偏印": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "金_正印": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "土_比肩": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "土_劫财": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "土_食神": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "土_伤官": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "土_偏财": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "土_正财": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "土_七杀": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "土_正官": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "土_偏印": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "土_正印": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "木_比肩": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "木_劫财": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "木_食神": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "木_伤官": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "木_偏财": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "木_正财": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "木_七杀": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "木_正官": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "木_偏印": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "木_正印": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "水_比肩": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "水_劫财": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "水_食神": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "水_伤官": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "水_偏财": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "水_正财": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "水_七杀": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "水_正官": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "水_偏印": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "水_正印": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "火_比肩": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "火_劫财": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "火_食神": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "火_伤官": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "火_偏财": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "火_正财": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "火_七杀": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "火_正官": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "火_偏印": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    },
+    "火_正印": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    }
+  }
+}

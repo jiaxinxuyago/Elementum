@@ -1,7 +1,7 @@
 // ===================================================================
 // ELEMENTUM · Canonical Ten-God user-facing names
 // ===================================================================
-// Registry: Reading/Documents/REA_03_Concept_Dictionary.md §2
+// Registry: Reading/Documents/REA_02_Concept_Dictionary.md §2
 // (D12a ruling — mythic-persona register). The engine's literal
 // translations ("Seven Killings", "Rob Wealth", …) are INTERNAL ONLY
 // and must never render. Import from here wherever a Ten God is named

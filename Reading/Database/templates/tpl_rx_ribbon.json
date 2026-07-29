@@ -1,0 +1,10 @@
+{
+  "$template": "tpl_rx_ribbon",
+  "class": "T",
+  "axis": "TEMPLATED",
+  "status": "PLANNED",
+  "budget": "ribbon ≤14w + 10 fragments",
+  "source_of_truth": "Elementum_App/src/components/journey (patterns) · REA_03 §5",
+  "pattern": null,
+  "clauses": null
+}

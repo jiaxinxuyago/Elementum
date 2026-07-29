@@ -8,7 +8,7 @@
 **Related docs:** REA_05 (generation architecture) · DES_04 §9 (Reveal) · DES_04 §11 (dashboard component specs) · DES_04 §20 (Asset Library) · REA_06 (content authoring)
 **Status:** Phase 1 migration **executed** — Vite project scaffolded, content files live, pre-dashboard flow (Welcome → Reveal) running. The **Reveal screen** has had its Section 1 (Identity) composition refined per DES_04 §9 v1.6 — see "Phase 1 component additions" below. Phase 2 dashboard component extraction is **pending** — use this guide for that work.
 
-> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `REA_08_Reading_V2.1_Reconciliation_Audit.md`).** Migration deltas: (1) the reading data target is **`ENERGY_CARD_DATA[${element}_${god}]` ×50** with the v2.1 shape (FACES prologue + presence-frame `registers` + `rulingDomain`) — not the flat `DomEnergyTg_Data.js`/`dominantTGs[]` model described below. (2) The reading resolver is the **polarity-aware path** (`getDominantTenGod` + `getElementPolaritySplit`), emitting per-element `{presentFaces, absentGod}`; **retire `tenGodForEnergy`** (`d13ReadingResolve.js`). (3) `buildEnergyChart` attaches the resolved face set + weights per energy. (4) New surface components: `FacesScreen` (prologue) + `PersonaCard` (presence-frame variants). (5) **Positional axis (B6):** `chart.tenGods` already provides per-pillar Ten Gods (no new resolver); add `PALACE_FRAMES` + a `PositionalCard` component; the positional reading composes `PALACE_FRAMES × chart.tenGods × polarity`.
+> **⚠ v2.1 RECONCILIATION (2026-06-24 · see `_ARCHIVE_Reading_V2.1_Reconciliation_Audit.md`).** Migration deltas: (1) the reading data target is **`ENERGY_CARD_DATA[${element}_${god}]` ×50** with the v2.1 shape (FACES prologue + presence-frame `registers` + `rulingDomain`) — not the flat `DomEnergyTg_Data.js`/`dominantTGs[]` model described below. (2) The reading resolver is the **polarity-aware path** (`getDominantTenGod` + `getElementPolaritySplit`), emitting per-element `{presentFaces, absentGod}`; **retire `tenGodForEnergy`** (`d13ReadingResolve.js`). (3) `buildEnergyChart` attaches the resolved face set + weights per energy. (4) New surface components: `FacesScreen` (prologue) + `PersonaCard` (presence-frame variants). (5) **Positional axis (B6):** `chart.tenGods` already provides per-pillar Ten Gods (no new resolver); add `PALACE_FRAMES` + a `PositionalCard` component; the positional reading composes `PALACE_FRAMES × chart.tenGods × polarity`.
 
 ---
 
@@ -41,7 +41,7 @@ Elementum_Project/
 │   └── package.json, vite.config.js, index.html, etc.
 │
 ├── Reading/                             ← Reading discipline home (2026-07-27 restructuring)
-│   ├── Documents/                       ← REA_01–REA_03 (formerly DevLog_Docs/Reading/).
+│   ├── Documents/                       ← REA_01–REA_02 (formerly DevLog_Docs/Reading/).
 │   └── Database/                        ← Reading data artifacts (was root Reading/, earlier Data/):
 │       └── elementum_profile_database.html  ← HTML twin of archetypeSource.js.
 │                                               Must stay in sync at all times.

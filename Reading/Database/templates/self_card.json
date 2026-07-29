@@ -1,0 +1,130 @@
+{
+  "$template": "self_card",
+  "class": "A",
+  "axis": "STEM·BAND",
+  "status": "PLANNED",
+  "budget": "face ≤8w · presence ≤30w",
+  "source_of_truth": "REA_03 §3 (K1b)",
+  "values": {
+    "甲_concentrated": {
+      "face": null,
+      "presence": null
+    },
+    "甲_balanced": {
+      "face": null,
+      "presence": null
+    },
+    "甲_open": {
+      "face": null,
+      "presence": null
+    },
+    "乙_concentrated": {
+      "face": null,
+      "presence": null
+    },
+    "乙_balanced": {
+      "face": null,
+      "presence": null
+    },
+    "乙_open": {
+      "face": null,
+      "presence": null
+    },
+    "丙_concentrated": {
+      "face": null,
+      "presence": null
+    },
+    "丙_balanced": {
+      "face": null,
+      "presence": null
+    },
+    "丙_open": {
+      "face": null,
+      "presence": null
+    },
+    "丁_concentrated": {
+      "face": null,
+      "presence": null
+    },
+    "丁_balanced": {
+      "face": null,
+      "presence": null
+    },
+    "丁_open": {
+      "face": null,
+      "presence": null
+    },
+    "戊_concentrated": {
+      "face": null,
+      "presence": null
+    },
+    "戊_balanced": {
+      "face": null,
+      "presence": null
+    },
+    "戊_open": {
+      "face": null,
+      "presence": null
+    },
+    "己_concentrated": {
+      "face": null,
+      "presence": null
+    },
+    "己_balanced": {
+      "face": null,
+      "presence": null
+    },
+    "己_open": {
+      "face": null,
+      "presence": null
+    },
+    "庚_concentrated": {
+      "face": null,
+      "presence": null
+    },
+    "庚_balanced": {
+      "face": null,
+      "presence": null
+    },
+    "庚_open": {
+      "face": null,
+      "presence": null
+    },
+    "辛_concentrated": {
+      "face": null,
+      "presence": null
+    },
+    "辛_balanced": {
+      "face": null,
+      "presence": null
+    },
+    "辛_open": {
+      "face": null,
+      "presence": null
+    },
+    "壬_concentrated": {
+      "face": null,
+      "presence": null
+    },
+    "壬_balanced": {
+      "face": null,
+      "presence": null
+    },
+    "壬_open": {
+      "face": null,
+      "presence": null
+    },
+    "癸_concentrated": {
+      "face": null,
+      "presence": null
+    },
+    "癸_balanced": {
+      "face": null,
+      "presence": null
+    },
+    "癸_open": {
+      "face": null,
+      "presence": null
+    }
+  }
+}

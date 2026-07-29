@@ -1,0 +1,9 @@
+{
+  "$template": "tpl_core_own_element",
+  "class": "T",
+  "axis": "TEMPLATED",
+  "status": "LIVE",
+  "budget": "one line",
+  "source_of_truth": "Elementum_App/src/components/journey (patterns) · REA_03 §5",
+  "pattern": "Your core is {El} — the {Arch}'s own element."
+}
