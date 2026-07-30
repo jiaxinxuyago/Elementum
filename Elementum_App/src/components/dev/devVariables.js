@@ -8,9 +8,8 @@
 // registry changes, update this mirror.
 // ===================================================================
 
-import { STEM_CARD_DATA } from '../../content/index.js';
+import { STEM_CARD_DATA, TG_PERSONA } from '../../content/index.js';
 import { FACE_CARD } from '../../content/reading/index.js';
-import { TG_PERSONA } from '../../content/tgNames.js';
 
 const join = (xs) => xs.filter(Boolean).join(' · ');
 

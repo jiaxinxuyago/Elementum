@@ -414,6 +414,12 @@ export default function App() {
   // are instant (no Suspense "white blink"). Runs once; first paint unaffected.
   useEffect(() => { prefetchScreens(); prefetchBackgrounds(); }, []);
 
+  // Which energy the reading card opens on (set when a node/tile is tapped).
+  // Declared above the dev-hook effect below, which publishes openEnergy on
+  // window — the effect body must not reference it before its declaration.
+  const [energyEl, setEnergyEl] = useState(null);
+  const openEnergy = (el) => { setEnergyEl(el); setScreen('app-energy'); };
+
   // Dev-only helper: window.__goto('step3') to jump to any screen for testing.
   // Gated to dev builds (IS_DEV) so the navigation/test hook never ships to users.
   useEffect(() => {
@@ -426,7 +432,9 @@ export default function App() {
       // sweep enumerates screens from the running app, never a copied list.
       window.__screens = [...FLOW];
       // Per-element full energy reading (app-energy) — DevBar element buttons.
-      window.__openEnergy = (el) => { setEnergyEl(el); setScreen('app-energy'); };
+      // Same handler the in-app tiles use; setEnergyEl/setScreen are stable,
+      // so the mount-time closure stays correct for the app's lifetime.
+      window.__openEnergy = openEnergy;
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -437,9 +445,6 @@ export default function App() {
   // 'profile') to the corresponding FLOW screen ('app-*'). Used as the
   // `onTabChange` callback by every DashboardShell render.
   const routeTab = (tabKey) => setScreen(`app-${tabKey}`);
-  // Which energy the reading card opens on (set when a node/tile is tapped).
-  const [energyEl, setEnergyEl] = useState(null);
-  const openEnergy = (el) => { setEnergyEl(el); setScreen('app-energy'); };
 
   // Back handler: previous in the linear sequence, respecting conditionals
   // (so that a user on step5 who came through step4a returns to step4a).
