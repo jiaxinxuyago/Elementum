@@ -18,6 +18,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.resolve(__dirname, '../../Reading/Database/templates/json');
+const CHECK = process.argv.includes('--check');
 const REA03 = path.resolve(__dirname, '../../Reading/Documents/REA_03_Reading_Generation_Schema.md');
 
 const { calculateBaziChart } = await import('../src/engine/calculator.js').catch(() => import('../src/engine/index.js'));
@@ -101,11 +102,20 @@ const interactionOf = {};
 // ── file writer ────────────────────────────────────────────────────
 const CANDIDATE_NOTE = 'All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.';
 let count = 0;
+let drift = 0;
 function write(axis, name, body) {
   const dir = path.join(OUT, axis);
-  fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, `${name}.json`), JSON.stringify(body, null, 2) + '\n', 'utf8');
+  const fp = path.join(dir, `${name}.json`);
+  const next = JSON.stringify(body, null, 2) + '\n';
   count++;
+  if (CHECK) {
+    // drift audit (REA_05 sync law): compare harvested state vs the on-disk station.
+    if (!fs.existsSync(fp)) { console.log(`MISSING  ${axis}/${name}.json`); drift++; }
+    else if (fs.readFileSync(fp, 'utf8') !== next) { console.log(`DRIFT    ${axis}/${name}.json`); drift++; }
+    return;
+  }
+  fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(fp, next, 'utf8');
 }
 const file = (axis, name, key, canonical, candidates, sources, extra = {}) => write(axis, name, {
   $archetype: name, axis, key, canonical_name: canonical ?? null,
@@ -113,8 +123,8 @@ const file = (axis, name, key, canonical, candidates, sources, extra = {}) => wr
   sources, ...extra, candidates,
 });
 
-// fresh tree
-fs.rmSync(OUT, { recursive: true, force: true });
+// fresh tree (build mode only)
+if (!CHECK) fs.rmSync(OUT, { recursive: true, force: true });
 
 // ── STEM ×10 ──
 for (const s of STEMS) {
@@ -148,7 +158,7 @@ for (const s of STEMS) for (const b of BANDS) {
 }
 
 // ── STEM_BAND_PATTERN — HELD ──
-{
+if (!CHECK) {
   const dir = path.join(OUT, 'STEM_BAND_PATTERN');
   fs.mkdirSync(dir, { recursive: true });
   fs.writeFileSync(path.join(dir, 'README.md'),
@@ -248,4 +258,9 @@ T('tpl_cycle_line', 'PLANNED', 'label ≤10w + line ≤20w · ×20', { pattern: 
 T('tpl_rx_ribbon', 'PLANNED', 'ribbon ≤14w + 10 fragments', { pattern: null, clauses: null });
 T('tpl_pattern_conclusion', 'PLANNED', '≤25w · per pattern type (~6)', { pattern: null, clauses: null });
 
-console.log(`✓ axis station: ${count} archetype templates in ${OUT}`);
+if (CHECK) {
+  if (drift) { console.log(`✗ ${drift}/${count} templates drifted from the harvested corpus + locks`); process.exit(1); }
+  console.log(`✓ station in sync: ${count}/${count} templates match the live corpus + REA_02 locks + REA_03 §4b exactly`);
+} else {
+  console.log(`✓ axis station: ${count} archetype templates in ${OUT}`);
+}

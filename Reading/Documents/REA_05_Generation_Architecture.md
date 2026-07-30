@@ -51,7 +51,7 @@ engine/journey/consumers              buildJourneyModel · Self-Report · Consul
 
 | Tool | Job |
 |---|---|
-| `Elementum_App/tools/export-reading-templates.mjs` | Builds/reseeds the AXIS STATION (`templates/json/<AXIS>/`) from the live corpus + REA_02 locks + the REA_03 §4b table (rebuild 2026-07-30; note: a reseed OVERWRITES — once owner rulings edit the JSONs, they become the source and the seeder retires or learns to merge). |
+| `Elementum_App/tools/export-reading-templates.mjs` | Builds/reseeds the AXIS STATION (`templates/json/<AXIS>/`) from the live corpus + REA_02 locks + the REA_03 §4b table (rebuild 2026-07-30; note: a reseed OVERWRITES — once owner rulings edit the JSONs, they become the source and the seeder retires or learns to merge). **`--check` mode (added 2026-07-30, the §1 sync-law audit): harvests the same state but writes nothing — diffs every template against the on-disk station byte-for-byte, prints `DRIFT`/`MISSING` per file, exit 1 on any drift.** Verified both directions at station closure: 138/138 in sync; a planted mutation is caught and named. |
 | `Elementum_App/tools/build-template-twins.mjs` | Regenerates every `templates/*.md` twin from its JSON. Run after any JSON edit. |
 | `Elementum_App/tools/build-field-map-xlsx.mjs` | Regenerates the REA_03 xlsx twin from the schema markdown (the variable-registry view). |
 
