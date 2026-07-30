@@ -1,0 +1,16 @@
+{
+  "$archetype": "drive",
+  "axis": "FAMILY",
+  "key": "财",
+  "canonical_name": "Drive",
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "REA_02 §5b locks (via journeyData vocabulary tables)"
+  ],
+  "candidates": {
+    "relation_noun": "Drive",
+    "family_line": "What you reach for and hold — your reward, ambition, and desire.",
+    "family_key": "wealth"
+  }
+}

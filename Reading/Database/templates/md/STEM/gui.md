@@ -1,0 +1,93 @@
+# 癸 — The Rain  ·  STEM archetype
+
+> **GENERATED from the JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
+>
+> All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.
+
+| | |
+|---|---|
+| **axis** | STEM |
+| **key** | 癸 |
+| **canonical name** | The Rain |
+| **construct** | TBD — ruled per-axis with the owner |
+| **sources** | Elementum_App/src/content/archetypeSource.js · src/content/reading/readingContent.js (DM_READING) · buildIdentity |
+
+## Candidate variables
+
+| Variable | Value |
+|---|---|
+| `archetype_name` | The Rain |
+| `manifesto` | Felt before spoken · What enters water becomes water. |
+| `inscription` | You change things slowly, softly, completely — and let the credit fall elsewhere. |
+| `pinyin_display` | GUǏ · YIN WATER |
+| `dm_claims` | You read the room a beat before it reveals itself. · You reach people through the small, quiet door, not the loud one. |
+| `dm_mechanism` | Yin Water that finds every opening — perception that travels where pressure cannot. |
+| `yourNature_desc` | You know what's true in a room before anyone says it out loud — the feeling arrives before the reasoning does. The difficult part is that you absorb what everyone around you is feeling, and it can be hard to tell what's yours and what isn't. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+*legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)*
+
+| Field | Value |
+|---|---|
+| `subtitle` | Knows what is true before it is spoken · The Intelligence Impulse (Yin) |
+| `chips` | Attuned · Psychically permeable · Absorbing · Specifically nourishing · Lost in own fog |
+| `yourNature_phrase` | The Court Oracle |
+| `gifts[0].phrase` | The Felt Truth |
+| `gifts[0].desc` | You know what's real in a room before anyone says it — the knowing arrives as a felt sense, ahead of any reasoning. |
+| `gifts[1].phrase` | The Calibrated Care |
+| `gifts[1].desc` | You nourish people in the specific way each one actually needs, which makes them feel genuinely known rather than simply seen. |
+| `gifts[2].phrase` | The Almost-True Named |
+| `gifts[2].desc` | You find the exact words for the thing someone half-knew, and they realize it was there in them all along. |
+| `shadows[0].phrase` | The Borrowed Feeling |
+| `shadows[0].desc` | You absorb the emotional reality around you so completely that the line between what's yours and what isn't can dissolve before you notice. |
+| `shadows[1].phrase` | The Carried Home |
+| `shadows[1].desc` | In charged environments you don't just witness the difficulty — you take it with you, and the accumulation has real weight. |
+| `shadows[2].phrase` | The Care That Outpaces Return |
+| `shadows[2].desc` | You care for others at the depth you wish you were cared for, so the giving quietly runs ahead of what comes back. |
+| `elementIntro.punch` | The Rain is Yin Water — pervasive moisture that seeps into everything. |
+| `elementIntro.expand` | Permeable and quietly knowing, it senses what is true before it is spoken, absorbing the emotional weather of whatever it falls through. |
+| `manual.concentrated` | Everything is perceived, everything is felt, everything is known at a level that exceeds what can be processed. The environment or person absorbs more than it can hold without losing its own shape. Classical texts describe 癸水多则迷 (excess 癸 Water creates confusion) — when the Rain becomes a flood of perception, the person can no longer distinguish their own knowing from what they have absorbed from others. Emotional and perceptual exhaustion. The intuition that was extraordinarily accurate becomes overwhelming noise, and the sensitivity that was a gift becomes genuinely difficult to live inside. |
+| `manual.open` | Perceptual intelligence that reads what is actually true in a room — beneath the surface of what people are saying — becomes harder to access. Things are taken at face value. Hidden information doesn't surface. The body's signals are missed. The slow-penetrating quality that reveals what careful reflection produces — the "soaks through to the real layer" quality — is reduced. What is ending doesn't get recognized as ending until it has already ended. Intuitive accuracy is replaced by logical analysis, which is slower and misses the layer below. |
+| `manual.catalyst` | Activate it by creating conditions for genuine perception: quiet, reduced stimulation, time for reflection without agenda. This energy does not respond to force — it responds to receptivity. The insight arrives when you stop trying to produce it and create the space where it can surface naturally. Sit with the question longer than feels productive. The answer arrives at the edge of sleep, in the transition between conversations, in the moment after the analysis stops. Outcome: what was obscure becomes clear. The right answer to a long-standing question arrives not from analysis but from having been genuinely still with it long enough for the perception to form. |
+| `manual.resistance` | When 癸 energy is creating friction — the permeability is absorbing what it should be allowing to pass through. The chart needs more definition (Metal) or more grounding (Earth) to give the perception a stable surface to land on. Channel it by deliberately separating what is perceived from what is chosen: use the intuition as information rather than as reality, and check what is sensed against what is actually observable before acting on it. Create physical or relational structure that filters what enters rather than remaining fully permeable to everything in the environment. Outcome: sensitivity becomes a tool rather than a burden, and what was overwhelm converts into accurate, actionable reading of the actual situation. |
+| `energy` | *(unauthored)* |
+| `psych` | *(unauthored)* |
+| `archetypes` | *(unauthored)* |
+| `blocks[0].label` | How you experience the world |
+| `blocks[0].bands` | concentrated · balanced · open |
+| `blocks[0].patterns` | pure · rooted · flowing · forging · tested |
+| `blocks[0].priority.default` | 5 |
+| `blocks[0].text.default` | You sense what's true in a room before anyone says the thing. Not through observation and analysis — the knowing arrives as a felt sense, directly, before any reasoning catches up. You know when something is off, when someone is hurting, when the thing that was said isn't the thing that's actually true. This happens continuously and without your choosing it. Proximity to others is never emotionally neutral for you — you absorb the emotional reality of your environment the way rain absorbs the ground's temperature when it falls. |
+| `blocks[0].text.concentrated` | When the sensing force is this saturated, you perceive everything — every mood, every undercurrent, every unspoken thing — all at once and without filter. The attunement is uncanny. The structural cost is that water this permeable floods: you absorb more than you can hold without losing your own shape, until you can no longer tell your knowing from what you've taken on from the room. At full strength your perception is extraordinary and your boundary nearly gone. |
+| `blocks[0].text.open` | The attunement is real but harder to access. You still feel what's true beneath the surface — the sensitivity is genuine — but the perception that normally arrives unbidden comes muffled, and you find yourself taking things at face value that you'd usually have felt straight through. The knowing is there; what's harder to reach is its immediacy, the felt sense that used to land before the reasoning. The instrument is intact, just less finely tuned. |
+| `blocks[0].text.tested` | What you're sensing senses you, and your perception takes its shape from the pressure. When authority energy presses on the Rain, your attunement runs while a standard runs on you in parallel — you're reading the room and being read inside it at once. If the standard is legitimate, it gives the diffuse sensitivity a structure to land on and turns feeling into usable judgment. If it isn't, you absorb the scrutiny along with everything else, and the permeability that's your gift becomes a way of taking on a pressure that isn't yours. |
+| `blocks[0].text.pure` | With no dominant force directing what the sensitivity serves, your perception runs as its essential self — not turned to a particular use, not anchored to a base, not pressed by a role. What arrives is pure attunement: you feel what's true directly, and what deserves that perception is genuinely yours to choose. The world is a field of felt truths, and for once nothing has pre-decided which to take in. This is the unconstrained Rain — free to sense what actually matters rather than everything at once. |
+| `blocks[0].text.rooted` | Resource energy backing the Water means your sensitivity falls from a deep source rather than soaking in everywhere. The perception steadies here — less flood, more deliberate — and it commits: you attune deeply to a few people and stay with them rather than absorbing every room equally. The friction mirrors the gift: the same groundedness that gives your sensitivity a filter can make you slower to open to genuinely new emotional terrain, preferring the depths you already know. |
+| `blocks[0].text.flowing` | Output energy gives your sensitivity somewhere to go. The perception no longer just absorbs — it produces: the felt knowing becomes words for what someone couldn't name, care calibrated exactly to what's needed, the thing made that says what others only felt. You experience your attunement as generative rather than merely receptive. At your most expressive this is the Rain at its best — the water that doesn't just soak the ground but brings something up out of it. |
+| `blocks[1].label` | What you're genuinely good at |
+| `blocks[1].bands` | concentrated · balanced · open |
+| `blocks[1].patterns` | pure · rooted · flowing · forging · tested |
+| `blocks[1].priority.default` | 5 |
+| `blocks[1].text.default` | Nourishing what you touch in ways specific to what that particular person or situation actually needs — not generic care, but calibrated care. Making people feel genuinely known rather than simply seen. Perceiving the thing that's almost true but not quite, and finding the exact words for it that make the person realize it was there all along. Sustaining this across time — your care doesn't diminish when circumstances change. It's structural. |
+| `blocks[1].text.concentrated` | Sensing exactly what's needed — almost too much of it. With the attuning force this saturated, you perceive what every person around you is carrying and find precisely the care that meets it. The calibration is uncanny. The catch is that feeling everyone's need this acutely makes it nearly impossible not to respond, so you pour calibrated care in every direction and absorb the weight of all of it — until you can't tell whose feeling you're actually carrying. At full strength you're extraordinary at care and saturated by it. |
+| `blocks[1].text.open` | The gift is real but harder to reach into. You still sense what people need and still want to meet it — the attunement doesn't vanish — but the calibrated care it produces takes more from you than it does when the current is strong. The knowing lives slightly out of reach: you can feel the need without quite finding the exact thing it asks for. What you're good at is genuine; it just needs replenishment beneath it to sustain. |
+| `blocks[1].text.tested` | Calibrated care under scrutiny — meeting real need while a standard watches. When legitimate authority sets the terms, your gift sharpens from "feel everyone" to "give the precise care the situation actually requires," and the constraint turns diffuse sensitivity into genuine skill. You're good at perception that holds up under examination — naming the true thing accurately enough that it lands and helps, not just soothes. |
+| `blocks[1].text.pure` | Pure attunement — the gift in its least mediated form. With no dominant force directing the care, what you're good at is the knowing-and-meeting itself: sensing what someone actually needs and giving exactly that, because that's what you do. You're at your best where the value is in the calibration rather than what it earns you — where a person needs to feel genuinely known. Whom you attune to is yours to choose. |
+| `blocks[1].text.rooted` | Care that genuinely lasts, because the sensitivity flows from a deep source. With resource energy backing you, your gift comes with constancy — you don't just meet a need once, you stay attuned across the long arc, which is exactly why people feel safe with you. What you're good at is the rare pairing of perception and endurance: the care that's still calibrated years in. The trade is breadth; you attune deeply to a few rather than absorbing every room. |
+| `blocks[1].text.flowing` | Turning attunement into words and works. With expression energy in play, your gift isn't only sensing what's true — it's giving it form: the felt knowing becomes the exact sentence, the made thing, the care that arrives as something a person can actually hold. You're good at the whole arc from perception to expression, where a purely receptive configuration would stop at "I can feel it." The sensitivity bears fruit. |
+| `blocks[2].label` | Where you consistently get stuck |
+| `blocks[2].bands` | concentrated · balanced · open |
+| `blocks[2].patterns` | pure · rooted · flowing · forging · tested |
+| `blocks[2].priority.default` | 5 |
+| `blocks[2].text.default` | The permeability that makes you so perceptive makes it genuinely hard to know whose feeling is whose. You absorb what you encounter — not from weakness but from how the sensitivity is wired. In difficult or charged environments, you don't just observe the difficulty; you carry it home. The boundary between what you're sensing in others and what you're experiencing yourself can dissolve quietly, often before you've noticed it's happened.  There's also a pattern of caring for others at the level you wish you were cared for — which means the care you give is often more than what returns. Because the giving felt natural, the gap takes a long time to become visible. |
+| `blocks[3].label` | What changes when conditions are right |
+| `blocks[3].bands` | concentrated · balanced · open |
+| `blocks[3].patterns` | pure · rooted · flowing · forging · tested |
+| `blocks[3].priority.default` | 5 |
+| `blocks[3].text.default` | In genuinely reciprocal conditions — where your sensitivity is met with sensitivity, where the nourishment returns at something close to the rate it goes out — what you produce is among the most valuable things available in close relationship. The perception is extraordinary. The care is specific. The knowing is real. Protecting these conditions isn't selfishness. It's maintenance of the instrument. |
+| `blocks[4].label` | What you rarely admit |
+| `blocks[4].bands` | concentrated · balanced · open |
+| `blocks[4].patterns` | pure · rooted · flowing · forging · tested |
+| `blocks[4].priority.default` | 5 |
+| `blocks[4].text.default` | That you absorb far more than you show — and that the accumulation is real and has weight. Over time, in environments that don't return what's given, this becomes something between exhaustion and a kind of grief: the specific sadness of giving something real that doesn't arrive back at the same depth. |

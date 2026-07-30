@@ -1,0 +1,17 @@
+{
+  "$archetype": "tpl_rx_ribbon",
+  "axis": "TEMPLATED",
+  "key": "tpl_rx_ribbon",
+  "canonical_name": null,
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "REA_03 §5 (patterns)"
+  ],
+  "status_note": "PLANNED",
+  "budget": "ribbon ≤14w + 10 fragments",
+  "candidates": {
+    "pattern": null,
+    "clauses": null
+  }
+}

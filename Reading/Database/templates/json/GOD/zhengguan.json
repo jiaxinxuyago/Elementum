@@ -1,0 +1,123 @@
+{
+  "$archetype": "zhengguan",
+  "axis": "GOD",
+  "key": "正官",
+  "canonical_name": "The Magistrate",
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "REA_02 §2/§4/§4b locks",
+    "src/content/tgNames.js",
+    "src/components/journey/journeyData.js",
+    "src/content/reading/facesContent.js",
+    "src/content/archetypeSource.js (TG_CARD_DATA)"
+  ],
+  "candidates": {
+    "persona_name": "The Magistrate",
+    "definition_line": "Framework-mediated pressure — the standard that legitimizes",
+    "keyword": "Order",
+    "charge": "gentle",
+    "pole_catalyst": "Integrity",
+    "pole_friction": "Rigidity",
+    "adj_catalyst": [
+      "Principled",
+      "Trusted",
+      "Fair"
+    ],
+    "adj_friction": [
+      "Conforming",
+      "Over-dutiful",
+      "Unbending"
+    ],
+    "face_kw": [
+      "Principled",
+      "Measured",
+      "Ordered"
+    ],
+    "face_teaser": "A discipline to grow into: measured authority that holds the line without forcing it. People trust you with responsibility because you carry it evenly. You’d rather be fair than feared, and it shows. The caution is rigidity — keeping the rule after it has outlived its reason.",
+    "family_brief": "your authority & structure",
+    "family_clause": "the structure you answer to and grow into",
+    "family_element": {
+      "appetite": "order, duty, and the structure worth answering to",
+      "notAlone": "not control alone, but everything that tests you and steadies you"
+    },
+    "__ore": {
+      "note": "TG corpus — the K2 generation source (kept per REA_03 §2.4)",
+      "rulingRealm": {
+        "phrase": "Social Armor / Good Student Complex — character shaped by chosen structure",
+        "desc": "正官端正，主人沉稳，名声好，规则意识强: \"Direct Officer upright — the person is calm and settled, with good reputation and strong rule-consciousness.\" The part of a person that operates within frameworks it has chosen to endorse — not because it has to, but because it has decided the framework is legitimate."
+      },
+      "chips": [
+        "Principled",
+        "Framework-guided",
+        "Reputation-conscious",
+        "Structured",
+        "Institutional"
+      ],
+      "gifts": [
+        "Character shaped by legitimate structure has a specific reliability and orientation — it knows what it's building toward and the framework tells it when it's arrived",
+        "Recognition from institutions carries genuine weight because it was granted by something the person actually respected",
+        "Operates with unusual integrity within chosen frameworks — the rules are real, and so is the character that builds within them"
+      ],
+      "shadows": [
+        "官轻则贵，官重则压: light structure enables, heavy structure suppresses — when the framework becomes excessive, character shaped by endorsed structure becomes shaped by obligation",
+        "When the framework reveals itself as unworthy, the disorientation is larger than the situation warrants from outside",
+        "The \"good student\" who did everything right and discovered that institutions don't always work the way their stated rules suggest"
+      ],
+      "hiddenDynamic": "The specific interior vulnerability: the person who genuinely followed the rules, who invested years in becoming excellent within the framework, who believed the institution would recognize this — and then discovered that what was stated and what was practiced were not the same thing.",
+      "outputs": [
+        {
+          "phrase": "Oriented Reliability",
+          "desc": "Shaped by legitimate structure, you know what you're building toward and the framework tells you when you've arrived."
+        },
+        {
+          "phrase": "Weighted Recognition",
+          "desc": "Institutional recognition means something to you because it was granted by something you actually respected."
+        },
+        {
+          "phrase": "Integrity Within the Frame",
+          "desc": "You operate with unusual integrity inside chosen frameworks — the rules are real, and so is the character built within them."
+        }
+      ],
+      "frictions": [
+        {
+          "phrase": "When Structure Suppresses",
+          "desc": "Light structure enables you; heavy structure suppresses, turning character shaped by endorsement into character shaped by obligation."
+        },
+        {
+          "phrase": "The Unworthy Framework",
+          "desc": "When a framework reveals itself as unworthy, your disorientation runs larger than the situation looks from outside."
+        },
+        {
+          "phrase": "The Good Student's Discovery",
+          "desc": "You did everything right, then discovered institutions don't always work the way their stated rules suggest."
+        }
+      ],
+      "domainSignatures": {
+        "career": {
+          "sig": 5,
+          "mechanism": "正官 → legitimate institutional advancement, meritocratic recognition",
+          "text": "Excels within legitimate institutional structures — established professions, government, corporate ladders where the rules are genuinely real. The failure mode: institutional environments that operate by stated rules and hidden rules simultaneously."
+        },
+        "relationships": {
+          "sig": 4,
+          "sig_female": 5,
+          "sig_male": null,
+          "mechanism": "正官 → commitment-oriented, framework-defined, endorsement-seeking",
+          "text": "Commitment-oriented, takes the agreed terms of a relationship seriously, reliable across time. The shadow: applies the institutional framework to relationships — there are implicit rules about what the relationship is, and deviation requires renegotiation."
+        },
+        "wealth": {
+          "sig": 3,
+          "mechanism": "正官 → legitimate channels, meritocratic earning, stable accumulation",
+          "text": "Earns through legitimate, endorsed paths. Conservative and reliable. The risk: wealth opportunities that exist outside conventional legitimacy are difficult to engage because they don't fit the endorsable framework."
+        },
+        "health": {
+          "sig": 2,
+          "mechanism": "正官 → institutional health approaches, suppression of DM expression",
+          "text": "Follows established health frameworks — respected medical guidance, conventional approaches. The shadow: difficulty trusting signals that fall outside the endorsed framework."
+        }
+      },
+      "sixRelations": null
+    }
+  }
+}

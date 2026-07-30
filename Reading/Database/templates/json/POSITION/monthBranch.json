@@ -1,0 +1,17 @@
+{
+  "$archetype": "monthBranch",
+  "axis": "POSITION",
+  "key": "monthBranch",
+  "canonical_name": null,
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "(unauthored — REA_03 §4 B6)"
+  ],
+  "candidates": {
+    "palace_frame": {
+      "domain": null,
+      "relationalReframe": null
+    }
+  }
+}

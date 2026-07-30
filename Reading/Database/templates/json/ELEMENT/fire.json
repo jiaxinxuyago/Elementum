@@ -1,0 +1,18 @@
+{
+  "$archetype": "fire",
+  "axis": "ELEMENT",
+  "key": "火",
+  "canonical_name": null,
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "src/content/reading/surfaceContent.js (ENERGY_TILE — interim, 庚-voiced)",
+    "src/components/journey/journeyData.js (MEAN)"
+  ],
+  "status_note": "interim copy — target grain is ELEMENT_GOD per the K2 pass",
+  "candidates": {
+    "energy_tile_hook": "The forge you borrow, never own.",
+    "energy_tile_tag": "Radiance · the rising heat",
+    "mean_line": "The room is different before you speak — warmth as climate, light that changes what it touches."
+  }
+}

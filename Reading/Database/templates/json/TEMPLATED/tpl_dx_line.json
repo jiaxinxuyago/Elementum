@@ -1,0 +1,19 @@
+{
+  "$archetype": "tpl_dx_line",
+  "axis": "TEMPLATED",
+  "key": "tpl_dx_line",
+  "canonical_name": null,
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "REA_03 §5 (patterns)"
+  ],
+  "status_note": "LIVE",
+  "budget": "one line",
+  "candidates": {
+    "pattern": "Your {El} is {Cond} — {Remedy} it.",
+    "clauses": {
+      "mapping": "role-driven (owner-ratified 2026-07-23): friction-side incl. core excess → Overfueled·Channel · catalyst-side incl. missing → Underfueled·Refill · Balanced chart → Balanced·keep the mix"
+    }
+  }
+}

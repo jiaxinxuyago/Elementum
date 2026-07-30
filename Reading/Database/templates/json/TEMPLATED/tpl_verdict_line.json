@@ -1,0 +1,34 @@
+{
+  "$archetype": "tpl_verdict_line",
+  "axis": "TEMPLATED",
+  "key": "tpl_verdict_line",
+  "canonical_name": null,
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "REA_03 §5 (patterns)"
+  ],
+  "status_note": "LIVE",
+  "budget": "one line",
+  "candidates": {
+    "pattern": "{connector} {pole} · {verb}",
+    "clauses": {
+      "connectors": {
+        "core_overfueled": "curdling into",
+        "core_underfueled": "reaching for",
+        "core_balanced": "holding",
+        "friction": "curdling into",
+        "catalyst": "rising toward"
+      },
+      "verbs": {
+        "core_overfueled": "channel it",
+        "core_underfueled": "refill it",
+        "core_balanced": "trust it",
+        "friction": "loosen it",
+        "catalyst_missing": "borrow it",
+        "catalyst_lead": "feed it",
+        "catalyst_other": "keep it close"
+      }
+    }
+  }
+}

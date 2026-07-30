@@ -1,0 +1,12 @@
+{
+  "$archetype": "xin_open",
+  "axis": "STEM_BAND",
+  "key": "辛_open",
+  "canonical_name": null,
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "(no authored data — construct TBD; K1b self-card target)"
+  ],
+  "candidates": {}
+}

@@ -1,0 +1,18 @@
+{
+  "$archetype": "channel",
+  "axis": "CONDITION",
+  "key": "克泄耗",
+  "canonical_name": "Channel",
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "REA_02 §5c locks (via journeyData vocabulary tables)"
+  ],
+  "candidates": {
+    "term": "Channel",
+    "zh": "克泄耗",
+    "defline": "Give your extra force a place to go — aim it, don’t store it. The two lists below are where it goes.",
+    "appr_tail": "aim the surplus, don’t add to it.",
+    "kind": "remedy verb"
+  }
+}

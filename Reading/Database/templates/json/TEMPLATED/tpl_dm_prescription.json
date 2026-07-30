@@ -1,0 +1,21 @@
+{
+  "$archetype": "tpl_dm_prescription",
+  "axis": "TEMPLATED",
+  "key": "tpl_dm_prescription",
+  "canonical_name": null,
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "REA_03 §5 (patterns)"
+  ],
+  "status_note": "INTERIM (pending K2)",
+  "budget": "1–2 sentences",
+  "candidates": {
+    "pattern": "SEEK THIS · {EL} / SKIP THIS · {EL} + body",
+    "clauses": {
+      "seek_present": "{El} is the energy your chart asks for — thin in you and worth feeding. Seek it on purpose.",
+      "seek_missing": "{El} is the energy you don't carry — the one your chart asks for most. Borrow it daily{, through …}.",
+      "skip": "{El} is already rich in you — more of it weighs the core. Stop adding; let what you have ease."
+    }
+  }
+}

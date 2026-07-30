@@ -1,0 +1,18 @@
+{
+  "$archetype": "wood",
+  "axis": "ELEMENT",
+  "key": "木",
+  "canonical_name": null,
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "src/content/reading/surfaceContent.js (ENERGY_TILE — interim, 庚-voiced)",
+    "src/components/journey/journeyData.js (MEAN)"
+  ],
+  "status_note": "interim copy — target grain is ELEMENT_GOD per the K2 pass",
+  "candidates": {
+    "energy_tile_hook": "What your blade is for.",
+    "energy_tile_tag": "Growth · the upward push",
+    "mean_line": "Building before knowing what it will become — growth as architecture."
+  }
+}

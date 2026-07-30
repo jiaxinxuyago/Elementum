@@ -11,7 +11,8 @@
 ## §1 · The storage model (three stations, one direction)
 
 ```
-Reading/Database/templates/json/*.json   AUTHORING SOURCE OF TRUTH (one file per template)
+Reading/Database/templates/json/<AXIS>/  AUTHORING SOURCE OF TRUTH (one folder per axis,
+                                         one template per ARCHETYPE of that axis — REA_01 taxonomy)
         │  (generated twins: templates/md/*.md — review-grade, never hand-edited)
         ▼   owner review → lock
 Elementum_App/src/content/*           RUNTIME TRUTH (js modules the app ships)
@@ -29,19 +30,19 @@ engine/journey/consumers              buildJourneyModel · Self-Report · Consul
 ## §2 · File anatomy
 
 ```jsonc
-// Reading/Database/templates/json/archetype_name.json
+// Reading/Database/templates/json/STEM/geng.json
 {
-  "$template": "archetype_name",
-  "class": "A",                      // A archetype-varying · T template pattern
-  "axis": "STEM",                    // per REA_03 §1
-  "status": "LIVE",                  // LIVE · INTERIM · PLANNED
-  "budget": "≤3w",
-  "source_of_truth": "Elementum_App/src/content/archetypeSource.js",
-  "values": { "甲": "The Oak", "乙": "The Vine", "…": "…" }
+  "$archetype": "geng",
+  "axis": "STEM",                      // per the REA_01 normative taxonomy
+  "key": "庚",
+  "canonical_name": "The Blade",
+  "construct": "TBD — ruled per-axis with the owner",
+  "sources": ["…"],
+  "candidates": { "archetype_name": "The Blade", "manifesto": "…", "__ore": { "…": "…" } }
 }
 ```
 
-- **A-class files:** `values` keyed by the axis key — 汉字 stem (×10), `element_god` (×50, e.g. `火_七杀`), position (×7). K2 register structures nest inside each key per the REA_03 §4 spec (`face`, `persona`, `chips`, `rulingDomain`, `registers.dominant/absent`).
+- **Archetype files:** `` + `axis` + `key` + `canonical_name` + `construct` (TBD marker) + `candidates` (+ `__ore`). The per-axis variable CONSTRUCT is decided in the owner-supervised data rulings; until then every value is a candidate.
 - **T-class files:** `pattern` (the slot-filled sentence) + `clauses` maps (role/condition-keyed variants).
 - **V-class is NOT stored here** — vocabulary constants live in REA_02 (doc law) and `src/content`/`journeyData` (code); templates only *reference* them by slot name (REA_03 rule #3).
 - Keys are canonical code keys (汉字 stems, `element_god` compounds) so transcription is mechanical.
@@ -50,10 +51,9 @@ engine/journey/consumers              buildJourneyModel · Self-Report · Consul
 
 | Tool | Job |
 |---|---|
-| `Elementum_App/tools/export-reading-templates.mjs` | Seeds/refreshes the JSON station (`templates/json/`) **from the live corpus** for LIVE/INTERIM variables (initial seed 2026-07-29); with `--check` it becomes the **drift audit** — reports JSON↔`src/content` divergence instead of overwriting. |
+| `Elementum_App/tools/export-reading-templates.mjs` | Builds/reseeds the AXIS STATION (`templates/json/<AXIS>/`) from the live corpus + REA_02 locks + the REA_03 §4b table (rebuild 2026-07-30; note: a reseed OVERWRITES — once owner rulings edit the JSONs, they become the source and the seeder retires or learns to merge). |
 | `Elementum_App/tools/build-template-twins.mjs` | Regenerates every `templates/*.md` twin from its JSON. Run after any JSON edit. |
 | `Elementum_App/tools/build-field-map-xlsx.mjs` | Regenerates the REA_03 xlsx twin from the schema markdown (the variable-registry view). |
-| `Elementum_App/tools/build-archetype-profiles.mjs` | Pivots the station into **archetype-major profiles** — `Reading/Database/profiles/{json,md}/` , one file per stem resolving every involved variable (K1 identity + band variants + its DM-relative K2 key pool ×10 + patterns). GENERATED views; re-run after any template change. |
 
 ## §4 · Consumption map (who reads what at runtime)
 
@@ -67,7 +67,7 @@ engine/journey/consumers              buildJourneyModel · Self-Report · Consul
 
 ## §5 · Future stations (declared, not built)
 
-- ~~Compiled per-stem profiles~~ **BUILT 2026-07-30** → `Reading/Database/profiles/` (see §3) — the persistent single-user content template, archetype-major; fills in as the station fills.
+- **Compiled per-stem profiles — RETIRED 2026-07-30 with the flat variable-major station** (both superseded by the axis station; a joined reading view can be regenerated later if wanted).
 - **`archetypeSchema.js` rewrite** — the code schema conforms to REA_03 (types, caps, varyBy); afterwards a code-mirror doc can be regenerated as a tool artifact.
 - **Validation gate** — budget/axis checks of every JSON against REA_03 (word caps, key completeness, register shape) as a pre-transcription step; extends the seeder.
 

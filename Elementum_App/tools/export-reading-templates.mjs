@@ -1,11 +1,15 @@
 // ===================================================================
-// ELEMENTUM · reading-template exporter / drift audit
+// ELEMENTUM · axis-station seeder (the archetype classification method)
 // ===================================================================
-// Seeds Reading/Database/templates/json/*.json (one file per REA_03 variable)
-// from the LIVE corpus (src/content + journeyData), and stubs the PLANNED
-// set. With --check it reports JSON↔src/content drift instead of writing.
-// Spec: REA_05 §1–§3. After changes run tools/build-template-twins.mjs.
-//   node tools/export-reading-templates.mjs [--check]
+// Builds Reading/Database/templates/json/<AXIS>/<archetype>.json — one
+// folder per axis of the taxonomy (REA_01, normative), one placeholder
+// template per archetype of that axis. Each file carries the archetype's
+// identity + CANDIDATE variables harvested from the live corpus and the
+// REA_02 locks — all pending the owner's per-axis construct ruling.
+// STEM_BAND_PATTERN is HELD (owner 2026-07-30) — folder README only.
+// After changes run tools/build-template-twins.mjs.
+//   node tools/export-reading-templates.mjs
+// Spec: REA_05 §1–§3.
 // ===================================================================
 
 import fs from 'node:fs';
@@ -14,24 +18,63 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.resolve(__dirname, '../../Reading/Database/templates/json');
-const CHECK = process.argv.includes('--check');
+const REA03 = path.resolve(__dirname, '../../Reading/Documents/REA_03_Reading_Generation_Schema.md');
 
 const { calculateBaziChart } = await import('../src/engine/calculator.js').catch(() => import('../src/engine/index.js'));
 const engine = await import('../src/engine/index.js');
 const calc = calculateBaziChart || engine.calculateBaziChart;
-const { STEM_CARD_DATA } = await import('../src/content/index.js');
+const { STEM_CARD_DATA, TG_CARD_DATA } = await import('../src/content/archetypeSource.js');
 const { buildIdentity } = await import('../src/components/reading/identity.js');
-const { FACE_CARD, ENERGY_TILE } = await import('../src/content/reading/index.js');
+const { FACE_CARD, FAMILY_BRIEF, FAMILY_CLAUSE, FAMILY_ELEMENT, ENERGY_TILE } = await import('../src/content/reading/index.js');
+const { DM_READING } = await import('../src/content/reading/readingContent.js');
+const { TG_PERSONA } = await import('../src/content/tgNames.js');
 const jd = await import('../src/components/journey/journeyData.js');
 
-const STEMS = ['甲', '乙', '丙', '丁', '戊', '己', '庚', '辛', '壬', '癸'];
-const GODS = ['比肩', '劫财', '食神', '伤官', '偏财', '正财', '七杀', '正官', '偏印', '正印'];
+// ── taxonomy keys ──────────────────────────────────────────────────
+const STEMS = [
+  { hz: '甲', id: 'jia' }, { hz: '乙', id: 'yi' }, { hz: '丙', id: 'bing' }, { hz: '丁', id: 'ding' }, { hz: '戊', id: 'wu' },
+  { hz: '己', id: 'ji' }, { hz: '庚', id: 'geng' }, { hz: '辛', id: 'xin' }, { hz: '壬', id: 'ren' }, { hz: '癸', id: 'gui' },
+];
+const GODS = [
+  { hz: '比肩', id: 'bijian' }, { hz: '劫财', id: 'jiecai' }, { hz: '食神', id: 'shishen' }, { hz: '伤官', id: 'shangguan' },
+  { hz: '偏财', id: 'piancai' }, { hz: '正财', id: 'zhengcai' }, { hz: '七杀', id: 'qisha' }, { hz: '正官', id: 'zhengguan' },
+  { hz: '偏印', id: 'pianyin' }, { hz: '正印', id: 'zhengyin' },
+];
 const ELS = ['metal', 'earth', 'wood', 'water', 'fire'];
 const EL_HZ = { metal: '金', earth: '土', wood: '木', water: '水', fire: '火' };
 const BANDS = ['concentrated', 'balanced', 'open'];
+const FAMILIES = [
+  { id: 'core', family: 'self', zh: '比劫' }, { id: 'root', family: 'resource', zh: '印' },
+  { id: 'drive', family: 'wealth', zh: '财' }, { id: 'voice', family: 'output', zh: '食伤' },
+  { id: 'duty', family: 'officer', zh: '官杀' },
+];
 const POSITIONS = ['yearStem', 'yearBranch', 'monthStem', 'monthBranch', 'dayBranch', 'hourStem', 'hourBranch'];
 
-// identity fields that need the real builder → derive per stem via seed charts
+// GOD-axis locks that live only in REA_02 (transcribed; source noted per file).
+const GOD_DEFLINE = {
+  '比肩': 'Same nature, same register — the standard you hold yourself to',
+  '劫财': 'Same nature, different register — the edge of comparison',
+  '食神': 'Output that flows from you — giving that feels like being',
+  '伤官': 'Cross-current output — brilliance made of what it meets',
+  '偏财': 'Wide-ranging engagement — opportunity sensed at a distance',
+  '正财': 'Methodical, directed acquisition — value built and kept',
+  '七杀': "Pressure that doesn't grant permission — the trial that forges",
+  '正官': 'Framework-mediated pressure — the standard that legitimizes',
+  '偏印': 'Unconventional nourishment — insight that transmutes',
+  '正印': 'Nourishment that deepens without redirecting — the root that holds',
+};
+const GOD_CHARGE = { '比肩': 'steady', '劫财': 'fierce', '食神': 'gentle', '伤官': 'fierce', '偏财': 'dynamic', '正财': 'gentle', '七杀': 'fierce', '正官': 'gentle', '偏印': 'fierce', '正印': 'gentle' };
+
+// CONDITION-axis locks (REA_02 §5c).
+const CONDITIONS = {
+  overfueled: { term: 'Overfueled', zh: '身强', defline: jd.DEFLINE.Overfueled, cond_tail: jd.COND_TAIL.Overfueled, fold_verdict: jd.FOLD_VERDICT.Overfueled, remedy: 'Channel' },
+  balanced: { term: 'Balanced', zh: '中和', defline: jd.DEFLINE.Balanced, cond_tail: jd.COND_TAIL.Balanced, fold_verdict: jd.FOLD_VERDICT.Balanced, remedy: null },
+  underfueled: { term: 'Underfueled', zh: '身弱', defline: jd.DEFLINE.Underfueled, cond_tail: jd.COND_TAIL.Underfueled, fold_verdict: jd.FOLD_VERDICT.Underfueled, remedy: 'Refill' },
+  channel: { term: 'Channel', zh: '克泄耗', defline: jd.DEFLINE.Channel, appr_tail: jd.APPR_LINE.Channel.tail, kind: 'remedy verb' },
+  refill: { term: 'Refill', zh: '生助', defline: jd.DEFLINE.Refill, appr_tail: jd.APPR_LINE.Refill.tail, kind: 'remedy verb' },
+};
+
+// identity fields via the real builder → per-stem seed charts
 const SEED_DATES = { 甲: [5, 3], 乙: [5, 4], 丙: [5, 5], 丁: [5, 6], 戊: [5, 7], 己: [5, 8], 庚: [4, 29], 辛: [4, 30], 壬: [5, 1], 癸: [5, 2] };
 const identities = {};
 for (const [stem, [mo, da]] of Object.entries(SEED_DATES)) {
@@ -43,79 +86,166 @@ const gChart = calc({ year: 1995, month: 4, day: 29, hour: 18, gender: 'male', l
 const gEc = engine.buildEnergyChart(gChart);
 const gId = buildIdentity(gChart, STEM_CARD_DATA[gChart.dayMaster.stem], false);
 const gModel = jd.buildJourneyModel({ chart: gChart, ec: gEc, identity: gId, card: STEM_CARD_DATA[gChart.dayMaster.stem], birthData: {} });
-const meanOf = {}; const hookOf = {}; const tagOf = {};
-for (const el of ELS) {
-  const s = jd.buildElementScreen(gModel, el);
-  meanOf[el] = s.mean;
-  hookOf[el] = ENERGY_TILE[el]?.hook ?? null;
-  tagOf[el] = ENERGY_TILE[el]?.pol ?? null;
+const meanOf = {};
+for (const el of ELS) meanOf[el] = jd.buildElementScreen(gModel, el).mean;
+
+// ELEMENT·GOD structural-interaction lines — parsed from REA_03 §4b (doc = source).
+const interactionOf = {};
+{
+  const md = fs.readFileSync(REA03, 'utf8');
+  for (const m of md.matchAll(/^\| ([金木水火土]_[一-鿿]{2}) \| ([^|]+) \| ([^|]+) \| ([^|]+) \|$/gm)) {
+    interactionOf[m[1].trim()] = { persona: m[2].trim(), dm_element: m[3].trim(), interaction: m[4].trim() };
+  }
 }
 
-const byStem = (f) => Object.fromEntries(STEMS.map((s) => [s, f(s) ?? null]));
-const byGod = (f) => Object.fromEntries(GODS.map((g) => [g, f(g) ?? null]));
-const byEl = (f) => Object.fromEntries(ELS.map((e) => [e, f(e) ?? null]));
-const nullBy = (keys, shape = null) => Object.fromEntries(keys.map((k) => [k, typeof shape === 'function' ? shape() : shape]));
-const k2Keys = ELS.flatMap((e) => GODS.map((g) => `${EL_HZ[e]}_${g}`));
-const k2Stub = () => ({
-  face: null, persona: null, chips: null, rulingDomain: null,
-  registers: {
-    dominant: { r: null, x: null, gate: null, seeker: { shadow: null, work: null, bonds: null, season: null } },
-    absent: { r: null, x: null, gate: null, seeker: { shadow: null, work: null, bonds: null, season: null } },
-  },
+// ── file writer ────────────────────────────────────────────────────
+const CANDIDATE_NOTE = 'All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.';
+let count = 0;
+function write(axis, name, body) {
+  const dir = path.join(OUT, axis);
+  fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(path.join(dir, `${name}.json`), JSON.stringify(body, null, 2) + '\n', 'utf8');
+  count++;
+}
+const file = (axis, name, key, canonical, candidates, sources, extra = {}) => write(axis, name, {
+  $archetype: name, axis, key, canonical_name: canonical ?? null,
+  construct: 'TBD — ruled per-axis with the owner', candidate_note: CANDIDATE_NOTE,
+  sources, ...extra, candidates,
 });
 
-const T = (name, extra) => ({ $template: name, class: 'T', axis: 'TEMPLATED', status: extra.status ?? 'LIVE', budget: extra.budget ?? 'one line', source_of_truth: extra.source ?? 'Elementum_App/src/components/journey (patterns) · REA_03 §5', ...extra.body });
+// fresh tree
+fs.rmSync(OUT, { recursive: true, force: true });
 
-const TEMPLATES = [
-  // ── A · identity (K1) ──
-  { $template: 'archetype_name', class: 'A', axis: 'STEM', status: 'LIVE', budget: '≤3w', source_of_truth: 'Elementum_App/src/content/archetypeSource.js', values: byStem((s) => STEM_CARD_DATA[s]?.identity?.archetypeName) },
-  { $template: 'manifesto', class: 'A', axis: 'STEM', status: 'LIVE', budget: '≤14w · split " · "', source_of_truth: 'Elementum_App/src/content/archetypeSource.js', values: byStem((s) => STEM_CARD_DATA[s]?.identity?.manifesto) },
-  { $template: 'inscription', class: 'A', axis: 'STEM', status: 'LIVE', budget: 'propose ≤17w / ≤85c (R2)', source_of_truth: 'Elementum_App/src/content/archetypeSource.js (via buildIdentity)', values: byStem((s) => identities[s]?.inscription) },
-  { $template: 'pinyin_display', class: 'A', axis: 'STEM', status: 'LIVE', budget: 'one line', source_of_truth: 'buildIdentity', values: byStem((s) => identities[s]?.pinyin) },
-  { $template: 'yourNature_desc', class: 'A', axis: 'STEM', status: 'LIVE', budget: 'propose ≤46w (R4 — not surfacing)', source_of_truth: 'Elementum_App/src/content/archetypeSource.js', values: byStem((s) => STEM_CARD_DATA[s]?.yourNature?.desc) },
-  { $template: 'dm_claims', class: 'A', axis: 'STEM', status: 'PLANNED', budget: '10–16w each · claim 1 ≡ inscription', source_of_truth: 'REA_03 §3 (part-2 P4)', values: byStem(() => null) },
-  { $template: 'dm_mechanism', class: 'A', axis: 'STEM', status: 'PLANNED', budget: '≤30w', source_of_truth: 'REA_03 §3 (part-2 P4)', values: byStem(() => null) },
-  { $template: 'self_card', class: 'A', axis: 'STEM·BAND', status: 'PLANNED', budget: 'face ≤8w · presence ≤30w', source_of_truth: 'REA_03 §3 (K1b)', values: nullBy(STEMS.flatMap((s) => BANDS.map((b) => `${s}_${b}`)), () => ({ face: null, presence: null })) },
-  // ── A · reading (K2 + persona layer) ──
-  { $template: 'face_kw', class: 'A', axis: 'GOD', status: 'LIVE', budget: '3 chips lowercase', source_of_truth: 'Elementum_App/src/content/reading/facesContent.js', values: byGod((g) => FACE_CARD[g]?.kw) },
-  { $template: 'face_teaser', class: 'A', axis: 'GOD', status: 'LIVE', budget: '⚠ R5: measured 45–50w vs gate-teaser law ≤25w', source_of_truth: 'Elementum_App/src/content/reading/facesContent.js', values: byGod((g) => FACE_CARD[g]?.teaser) },
-  { $template: 'energy_tile_hook', class: 'A', axis: 'ELEMENT (target ELEMENT·GOD)', status: 'INTERIM', budget: '~1 line · 庚-gated', source_of_truth: 'Elementum_App/src/content/reading/surfaceContent.js', values: byEl((e) => hookOf[e]) },
-  { $template: 'energy_tile_tag', class: 'A', axis: 'ELEMENT (target ELEMENT·GOD)', status: 'INTERIM', budget: '~6 words', source_of_truth: 'Elementum_App/src/content/reading/surfaceContent.js', values: byEl((e) => tagOf[e]) },
-  { $template: 'mean_line', class: 'A', axis: 'ELEMENT (target ELEMENT·GOD)', status: 'INTERIM', budget: '1 sentence', source_of_truth: 'Elementum_App/src/components/journey/journeyData.js (MEAN)', values: byEl((e) => meanOf[e]) },
-  { $template: 'k2_energy_card', class: 'A', axis: 'ELEMENT·GOD', status: 'PLANNED', budget: 'REA_03 §4 spec (face ≤8w · persona ≤20w · chips 5×≤4w · rulingDomain ≤14w · r/x ≤30w · gate ≤25w · seeker 40/30/30/30w)', source_of_truth: 'REA_03 §4 + §4b (the 50-key reference)', values: nullBy(k2Keys, k2Stub) },
-  { $template: 'palace_frames', class: 'A', axis: 'POSITION', status: 'PLANNED', budget: 'domain ≤14w + relational reframe', source_of_truth: 'REA_03 §4 (B6)', values: nullBy(POSITIONS, () => ({ domain: null, relationalReframe: null })) },
-  // ── T · template patterns ──
-  T('tpl_cast_line', { status: 'LIVE ⚠ R1', budget: 'one line', body: { pattern: 'CAST FROM {y} · {m} · {d} · {hour-label} {tz}', open_ruling: 'R1 — numeric vs handoff month-name format' } }),
-  T('tpl_core_energy_line', { body: { pattern: 'Your Core Energy is {El}' } }),
-  T('tpl_core_own_element', { body: { pattern: "Your core is {El} — the {Arch}'s own element." } }),
-  T('tpl_core_seal_explainer', { budget: '1–2 sentences', body: { pattern: "The seal at the wheel's center is {El}'s sign — the day master you were cast with; its share leads the wheel." } }),
-  T('tpl_relation_row', { body: { pattern: '{El} is your {Relation}' } }),
-  T('tpl_pill_title', { body: { pattern: '{El} is Your {Relation}' } }),
-  T('tpl_dx_line', { body: { pattern: 'Your {El} is {Cond} — {Remedy} it.', clauses: { mapping: 'role-driven (owner-ratified 2026-07-23): friction-side incl. core excess → Overfueled·Channel · catalyst-side incl. missing → Underfueled·Refill · Balanced chart → Balanced·keep the mix' } } }),
-  T('tpl_verdict_line', { body: { pattern: '{connector} {pole} · {verb}', clauses: { connectors: { core_overfueled: 'curdling into', core_underfueled: 'reaching for', core_balanced: 'holding', friction: 'curdling into', catalyst: 'rising toward' }, verbs: { core_overfueled: 'channel it', core_underfueled: 'refill it', core_balanced: 'trust it', friction: 'loosen it', catalyst_missing: 'borrow it', catalyst_lead: 'feed it', catalyst_other: 'keep it close' } } } }),
-  T('tpl_share_coreline', { body: { pattern: '{El} is your Core — {Cond}' } }),
-  T('tpl_dm_prescription', { status: 'INTERIM', budget: '1–2 sentences · pending K2', body: { pattern: 'SEEK THIS · {EL} / SKIP THIS · {EL} + body', clauses: { seek_present: '{El} is the energy your chart asks for — thin in you and worth feeding. Seek it on purpose.', seek_missing: "{El} is the energy you don't carry — the one your chart asks for most. Borrow it daily{, through …}.", skip: '{El} is already rich in you — more of it weighs the core. Stop adding; let what you have ease.' } } }),
-  T('tpl_element_verdict', { budget: '1 sentence', body: { clauses: { core: 'Balanced — nothing to force; keep the mix. / Underfueled — it burns more than it takes in; refill it.', core_excess: "Overfueled — honor it, don't feed it further.", friction: 'Already rich in you — more of it weighs the core; stop adding.', catalyst_missing: 'Cast with none — borrow it daily · with {others}.', catalyst_thin: 'Thin in you — worth feeding.', catalyst: 'Give it more to shape.' } } }),
-  T('tpl_hour_chip', { budget: '≤12w', body: { pattern: 'Cast without your hour — close, not exact. Discover it →' } }),
-  T('tpl_presence_frames', { status: 'PLANNED', budget: '≤20w patterns ×4', body: { pattern: null, clauses: { dominant: null, present: null, scarce: null, absent: null } } }),
-  T('tpl_cycle_line', { status: 'PLANNED', budget: 'label ≤10w + line ≤20w · ×20', body: { pattern: 'Why {ElA} {feeds/tests} {ElB} — the cycle, in your chart', clauses: null } }),
-  T('tpl_rx_ribbon', { status: 'PLANNED', budget: 'ribbon ≤14w + 10 fragments', body: { pattern: null, clauses: null } }),
-  T('tpl_pattern_conclusion', { status: 'PLANNED', budget: '≤25w · per pattern type (~6)', body: { pattern: null, clauses: null } }),
-];
-
-fs.mkdirSync(OUT, { recursive: true });
-let drift = 0;
-for (const t of TEMPLATES) {
-  const p = path.join(OUT, `${t.$template}.json`);
-  const next = JSON.stringify(t, null, 2) + '\n';
-  if (CHECK && fs.existsSync(p)) {
-    const cur = fs.readFileSync(p, 'utf8');
-    if (cur !== next && t.status?.startsWith('LIVE')) { console.log(`DRIFT: ${t.$template}`); drift++; }
-    continue;
-  }
-  if (CHECK) { console.log(`MISSING: ${t.$template}`); drift++; continue; }
-  fs.writeFileSync(p, next, 'utf8');
-  console.log(`wrote ${t.$template}.json (${t.class} · ${t.status})`);
+// ── STEM ×10 ──
+for (const s of STEMS) {
+  const card = STEM_CARD_DATA[s.hz] || {};
+  const idn = identities[s.hz] || {};
+  const dm = DM_READING[s.hz] || {};
+  file('STEM', s.id, s.hz, card.identity?.archetypeName ?? null, {
+    archetype_name: card.identity?.archetypeName ?? null,
+    manifesto: card.identity?.manifesto ?? null,
+    inscription: idn.inscription ?? null,
+    pinyin_display: idn.pinyin ?? null,
+    dm_claims: dm.claims ?? null,
+    dm_mechanism: dm.edge ?? null,
+    yourNature_desc: card.yourNature?.desc ?? null,
+    __ore: {
+      note: 'legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)',
+      subtitle: card.subtitle ?? null, chips: card.chips ?? null,
+      yourNature_phrase: card.yourNature?.phrase ?? null,
+      gifts: card.gifts ?? null, shadows: card.shadows ?? null,
+      elementIntro: card.identity?.elementIntro ?? null,
+      manual: card.manual ?? null, energy: card.energy ?? null,
+      psych: card.psych ?? null, archetypes: card.archetypes ?? null,
+      blocks: card.blocks ?? null,
+    },
+  }, ['Elementum_App/src/content/archetypeSource.js', 'src/content/reading/readingContent.js (DM_READING)', 'buildIdentity']);
 }
-if (CHECK) console.log(drift ? `${drift} drift/missing` : 'station in sync with live corpus');
-else console.log(`✓ ${TEMPLATES.length} template files in ${OUT}`);
+
+// ── STEM_BAND ×30 ──
+for (const s of STEMS) for (const b of BANDS) {
+  file('STEM_BAND', `${s.id}_${b}`, `${s.hz}_${b}`, null, {}, ['(no authored data — construct TBD; K1b self-card target)']);
+}
+
+// ── STEM_BAND_PATTERN — HELD ──
+{
+  const dir = path.join(OUT, 'STEM_BAND_PATTERN');
+  fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(path.join(dir, 'README.md'),
+    '# STEM_BAND_PATTERN ×150 — HELD (owner 2026-07-30)\n\nThis axis is parked until its data ruling. Existing data at this grain: 15 hand-authored `yourNature.desc` variants (庚 only) in `Elementum_App/src/content/stemVariants.js` — they enter as candidates when the axis is ruled.\n', 'utf8');
+}
+
+// ── ELEMENT ×5 ──
+for (const el of ELS) {
+  file('ELEMENT', el, EL_HZ[el], null, {
+    energy_tile_hook: ENERGY_TILE[el]?.hook ?? null,
+    energy_tile_tag: ENERGY_TILE[el]?.pol ?? null,
+    mean_line: meanOf[el] ?? null,
+  }, ['src/content/reading/surfaceContent.js (ENERGY_TILE — interim, 庚-voiced)', 'src/components/journey/journeyData.js (MEAN)'],
+  { status_note: 'interim copy — target grain is ELEMENT_GOD per the K2 pass' });
+}
+
+// ── GOD ×10 ──
+for (const g of GODS) {
+  const tg = TG_CARD_DATA[g.hz] || {};
+  file('GOD', g.id, g.hz, TG_PERSONA[g.hz] ?? null, {
+    persona_name: TG_PERSONA[g.hz] ?? null,
+    definition_line: GOD_DEFLINE[g.hz] ?? null,
+    keyword: jd.KEYWORD[g.hz] ?? null,
+    charge: GOD_CHARGE[g.hz] ?? null,
+    pole_catalyst: jd.POLE_CATALYST[g.hz] ?? null,
+    pole_friction: jd.POLE_FRICTION[g.hz] ?? null,
+    adj_catalyst: jd.ADJ_CATALYST[g.hz] ?? null,
+    adj_friction: jd.ADJ_FRICTION[g.hz] ?? null,
+    face_kw: FACE_CARD[g.hz]?.kw ?? null,
+    face_teaser: FACE_CARD[g.hz]?.teaser ?? null,
+    family_brief: FAMILY_BRIEF?.[g.hz] ?? null,
+    family_clause: FAMILY_CLAUSE?.[g.hz] ?? null,
+    family_element: FAMILY_ELEMENT?.[g.hz] ?? null,
+    __ore: {
+      note: 'TG corpus — the K2 generation source (kept per REA_03 §2.4)',
+      rulingRealm: tg.rulingRealm ?? null, chips: tg.chips ?? null,
+      gifts: tg.gifts ?? null, shadows: tg.shadows ?? null,
+      hiddenDynamic: tg.hiddenDynamic ?? null,
+      outputs: tg.outputs ?? null, frictions: tg.frictions ?? null,
+      domainSignatures: tg.domainSignatures ?? null, sixRelations: tg.sixRelations ?? null,
+    },
+  }, ['REA_02 §2/§4/§4b locks', 'src/content/tgNames.js', 'src/components/journey/journeyData.js', 'src/content/reading/facesContent.js', 'src/content/archetypeSource.js (TG_CARD_DATA)']);
+}
+
+// ── ELEMENT_GOD ×50 ──
+for (const el of ELS) for (const g of GODS) {
+  const key = `${EL_HZ[el]}_${g.hz}`;
+  const info = interactionOf[key] || {};
+  file('ELEMENT_GOD', key, key, info.persona ?? TG_PERSONA[g.hz] ?? null, {
+    structural_interaction: info.interaction ?? null,
+    dm_element: info.dm_element ?? null,
+    k2_card: {
+      face: null, persona: null, chips: null, rulingDomain: null,
+      registers: {
+        dominant: { r: null, x: null, gate: null, seeker: { shadow: null, work: null, bonds: null, season: null } },
+        absent: { r: null, x: null, gate: null, seeker: { shadow: null, work: null, bonds: null, season: null } },
+      },
+    },
+  }, ['REA_03 §4b (interaction seeds — parsed from the doc)', 'k2 construct: REA_03 §4 spec (unauthored)']);
+}
+
+// ── CONDITION ×3+2 ──
+for (const [id, c] of Object.entries(CONDITIONS)) {
+  file('CONDITION', id, c.zh, c.term, { ...c }, ['REA_02 §5c locks (via journeyData vocabulary tables)']);
+}
+
+// ── FAMILY ×5 ──
+for (const f of FAMILIES) {
+  file('FAMILY', f.id, f.zh, jd.RELATION_NOUN[f.family] ?? null, {
+    relation_noun: jd.RELATION_NOUN[f.family] ?? null,
+    family_line: jd.FAMILY_LINE[f.family] ?? null,
+    family_key: f.family,
+  }, ['REA_02 §5b locks (via journeyData vocabulary tables)']);
+}
+
+// ── POSITION ×7 ──
+for (const p of POSITIONS) {
+  file('POSITION', p, p, null, { palace_frame: { domain: null, relationalReframe: null } }, ['(unauthored — REA_03 §4 B6)']);
+}
+
+// ── TEMPLATED ×16 (the sentence patterns) ──
+const T = (name, status, budget, body) => file('TEMPLATED', name, name, null, body, ['REA_03 §5 (patterns)'], { status_note: status, budget });
+T('tpl_cast_line', 'LIVE ⚠ R1 (provisional hybrid ruling on file)', 'one line', { pattern: 'CAST FROM {y} · {m} · {d} · {hour-label} {tz}' });
+T('tpl_core_energy_line', 'LIVE', 'one line', { pattern: 'Your Core Energy is {El}' });
+T('tpl_core_own_element', 'LIVE', 'one line', { pattern: "Your core is {El} — the {Arch}'s own element." });
+T('tpl_core_seal_explainer', 'LIVE', '1–2 sentences', { pattern: "The seal at the wheel's center is {El}'s sign — the day master you were cast with; its share leads the wheel." });
+T('tpl_relation_row', 'LIVE', 'one line', { pattern: '{El} is your {Relation}' });
+T('tpl_pill_title', 'LIVE', 'one line', { pattern: '{El} is Your {Relation}' });
+T('tpl_dx_line', 'LIVE', 'one line', { pattern: 'Your {El} is {Cond} — {Remedy} it.', clauses: { mapping: 'role-driven (owner-ratified 2026-07-23): friction-side incl. core excess → Overfueled·Channel · catalyst-side incl. missing → Underfueled·Refill · Balanced chart → Balanced·keep the mix' } });
+T('tpl_verdict_line', 'LIVE', 'one line', { pattern: '{connector} {pole} · {verb}', clauses: { connectors: { core_overfueled: 'curdling into', core_underfueled: 'reaching for', core_balanced: 'holding', friction: 'curdling into', catalyst: 'rising toward' }, verbs: { core_overfueled: 'channel it', core_underfueled: 'refill it', core_balanced: 'trust it', friction: 'loosen it', catalyst_missing: 'borrow it', catalyst_lead: 'feed it', catalyst_other: 'keep it close' } } });
+T('tpl_share_coreline', 'LIVE', 'one line', { pattern: '{El} is your Core — {Cond}' });
+T('tpl_dm_prescription', 'INTERIM (pending K2)', '1–2 sentences', { pattern: 'SEEK THIS · {EL} / SKIP THIS · {EL} + body', clauses: { seek_present: '{El} is the energy your chart asks for — thin in you and worth feeding. Seek it on purpose.', seek_missing: "{El} is the energy you don't carry — the one your chart asks for most. Borrow it daily{, through …}.", skip: '{El} is already rich in you — more of it weighs the core. Stop adding; let what you have ease.' } });
+T('tpl_element_verdict', 'LIVE', '1 sentence', { clauses: { core: 'Balanced — nothing to force; keep the mix. / Underfueled — it burns more than it takes in; refill it.', core_excess: "Overfueled — honor it, don't feed it further.", friction: 'Already rich in you — more of it weighs the core; stop adding.', catalyst_missing: 'Cast with none — borrow it daily · with {others}.', catalyst_thin: 'Thin in you — worth feeding.', catalyst: 'Give it more to shape.' } });
+T('tpl_hour_chip', 'LIVE', '≤12w', { pattern: 'Cast without your hour — close, not exact. Discover it →' });
+T('tpl_presence_frames', 'PLANNED', '≤20w ×4', { pattern: null, clauses: { dominant: null, present: null, scarce: null, absent: null } });
+T('tpl_cycle_line', 'PLANNED', 'label ≤10w + line ≤20w · ×20', { pattern: 'Why {ElA} {feeds/tests} {ElB} — the cycle, in your chart', clauses: null });
+T('tpl_rx_ribbon', 'PLANNED', 'ribbon ≤14w + 10 fragments', { pattern: null, clauses: null });
+T('tpl_pattern_conclusion', 'PLANNED', '≤25w · per pattern type (~6)', { pattern: null, clauses: null });
+
+console.log(`✓ axis station: ${count} archetype templates in ${OUT}`);

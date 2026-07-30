@@ -1,0 +1,22 @@
+{
+  "$archetype": "tpl_presence_frames",
+  "axis": "TEMPLATED",
+  "key": "tpl_presence_frames",
+  "canonical_name": null,
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "REA_03 §5 (patterns)"
+  ],
+  "status_note": "PLANNED",
+  "budget": "≤20w ×4",
+  "candidates": {
+    "pattern": null,
+    "clauses": {
+      "dominant": null,
+      "present": null,
+      "scarce": null,
+      "absent": null
+    }
+  }
+}

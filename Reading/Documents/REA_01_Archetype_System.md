@@ -10,7 +10,7 @@
 
 ## The compound, axis by axis
 
-A user's archetype is the composition of five archetype dimensions — each one a variant axis of the taxonomy (REA_03 §1), each with its own locked vocabulary (REA_02) and its own authored data (REA_03):
+A user's archetype is the composition of archetype dimensions — each one an axis of the NORMATIVE taxonomy below, each with its own locked vocabulary (REA_02) and its own authored data (REA_03):
 
 1. **The STEM core (×10)** — who you are. The day pillar's stem names one of ten archetypes (roster below): name, manifesto, inscription, claims. The identity card reads this and only this.
 2. **The CONDITION (×3)** — how your core runs. Overfueled / Balanced / Underfueled, with its remedy verb (Channel / Refill). Locked terms + definition lines: REA_02 §5c.
@@ -19,6 +19,24 @@ A user's archetype is the composition of five archetype dimensions — each one 
 5. **The POSITION axis (宫位, ×7)** — where a god sits changes what it speaks to: 日支 = partner, 时柱 = children/legacy, 年 = origins, 月 = career. Composed from the same 50-key pool × palace frames; nothing new authored per cell.
 
 Around the compound sit the two non-archetype classes: **derived values** (percentages, roles, ordering, presence frames — engine-owned, never authored) select and pitch the compound per chart; **vocabulary constants** (REA_02) name every part of it identically for every user. Dominance never rewrites a persona's words — it decides *which* faces surface, in *what order*, at *what register* (REA_03 §2).
+
+## The taxonomy (NORMATIVE — the archetype classification method)
+
+> **Owner-finalized 2026-07-30.** This table is the system's classification authority: each axis is a CLASS OF ARCHETYPES; the count dictates how many archetypes that class contains; and each class carries its own **construct of data variables** — decided per axis, owner-supervised (the data-ruling task). The data station mirrors this table one-to-one: `Reading/Database/templates/json/<AXIS>/` holds one template per archetype. REA_03 applies this taxonomy to the variables; when they disagree, THIS table wins.
+
+| Axis (archetype class) | Count | What its archetypes are | Station folder | Construct |
+|---|---|---|---|---|
+| **STEM** | ×10 | The day-master identities (甲…癸 → The Oak…The Rain) | `STEM/` | TBD (candidates seeded) |
+| **STEM·BAND** | ×30 | Stem × energy band (the K1b self-card grain) | `STEM_BAND/` | TBD (empty) |
+| **STEM·BAND·PATTERN** | ×150 | The legacy Layer-1 grain | `STEM_BAND_PATTERN/` | **HELD** — circle back at its data ruling (15 庚 entries exist in `stemVariants.js`) |
+| **ELEMENT** | ×5 | The five elements as reading surfaces | `ELEMENT/` | TBD (interim candidates) |
+| **GOD** | ×10 | The Ten-God personas (The Twin…The Sage) | `GOD/` | TBD (locked vocabulary + corpus as candidates) |
+| **ELEMENT·GOD** | ×50 | The K2 persona units (the two-faces corpus) | `ELEMENT_GOD/` | TBD (interaction seeds; K2 card stub) |
+| **CONDITION** | ×3 (+2) | Overfueled · Balanced · Underfueled (+ Channel · Refill) | `CONDITION/` | TBD (locked terms as candidates) |
+| **FAMILY** | ×5 | The five relations (Core · Root · Drive · Voice · Duty) | `FAMILY/` | TBD (locked nouns/lines as candidates) |
+| **POSITION** | ×7 | The pillar palaces (宫位) | `POSITION/` | TBD (empty) |
+| **TEMPLATED** | ×16 | The sentence patterns (each pattern is its own template, authored once) | `TEMPLATED/` | patterns seeded |
+| **DERIVED** | — | Engine-computed selection values — never authored, no station folder | — | n/a |
 
 ## The ten archetypes (the system's public face)
 
@@ -58,6 +76,6 @@ Born 1995-04-29 at 18:00 in Beijing → pillars 乙亥 / 庚辰 / 庚寅 / 乙�
 | | |
 |---|---|
 | **Document** | REA_01 — The Compound Archetype System (overview / front door) |
-| **Version** | 2.0 · 2026-07-28 (full rewrite; supersedes the April-2026 2-layer key-system body — old body in git) |
-| **Status** | Orientation only — defines nothing normatively; canonical homes cited per section |
+| **Version** | 2.1 · 2026-07-30 (taxonomy finalized as the normative archetype classification) |
+| **Status** | OWNS the axis taxonomy normatively (owner-finalized 2026-07-30); the prose sections are orientation |
 | **Audience** | Anyone entering the reading library cold |

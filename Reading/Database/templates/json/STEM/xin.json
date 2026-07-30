@@ -1,0 +1,197 @@
+{
+  "$archetype": "xin",
+  "axis": "STEM",
+  "key": "辛",
+  "canonical_name": "The Jewel",
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "Elementum_App/src/content/archetypeSource.js",
+    "src/content/reading/readingContent.js (DM_READING)",
+    "buildIdentity"
+  ],
+  "candidates": {
+    "archetype_name": "The Jewel",
+    "manifesto": "Refinement over output · The flaw is felt before the eye finds it.",
+    "inscription": "You were polished by what pressed you — brilliance is the part that survived.",
+    "pinyin_display": "XĪN · YIN METAL",
+    "dm_claims": [
+      "You notice the flaw everyone else has agreed to overlook.",
+      "Precision is how you show care — even when it reads as cool."
+    ],
+    "dm_mechanism": "Yin Metal refined under pressure — an edge made keen by polishing, not by force.",
+    "yourNature_desc": "You sense whether something is genuinely excellent the way others sense whether a room is cold — automatically, before thinking about it. You produce work of real quality, but the same standard that makes you exceptional never quite lets you feel done.",
+    "__ore": {
+      "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
+      "subtitle": "Quality perceived as temperature — before the question forms · The Definition Impulse (Yin)",
+      "chips": [
+        "Discerning",
+        "Aesthetically precise",
+        "Perfectionist",
+        "Exacting",
+        "Distance through refinement"
+      ],
+      "yourNature_phrase": "The Jade Appraiser",
+      "gifts": [
+        {
+          "phrase": "The Quality Sense",
+          "desc": "You register whether something is genuinely excellent automatically, before the question forms — the way others register temperature."
+        },
+        {
+          "phrase": "The Standard Kept",
+          "desc": "You cannot bring yourself to release work you don't believe in, so what you do produce holds up under examination and over time."
+        },
+        {
+          "phrase": "The Early Flaw",
+          "desc": "You've already seen the flaw that becomes a problem three months from now, even if you haven't said it out loud yet."
+        }
+      ],
+      "shadows": [
+        {
+          "phrase": "The Never Finished",
+          "desc": "The faculty that produces excellence keeps refining past completion, delaying what's ready and exhausting precision on what doesn't need it."
+        },
+        {
+          "phrase": "The Standing Dissatisfaction",
+          "desc": "The gap between what you can perceive as possible and what the world offers stays open, and in lesser conditions it turns chronic."
+        },
+        {
+          "phrase": "The Standard Turned Inward",
+          "desc": "The measure you hold everything to, you hold yourself to hardest, so you're rarely quite satisfied with who you are right now."
+        }
+      ],
+      "elementIntro": {
+        "punch": "The Jewel is Yin Metal — the refined edge that reveals true worth.",
+        "expand": "Exacting and aesthetically certain, it senses quality the way others sense cold, and is never quite satisfied with what merely passes."
+      },
+      "manual": {
+        "concentrated": "The evaluative standard is applied to everything simultaneously with no relief. The environment produces either remarkable quality or paralysis — the discernment that should enable excellence instead prevents completion. Relationships and situations that don't meet the implicit standard become genuinely difficult to engage with. Classical texts note that excess 辛 Metal produces rigidity of aesthetic judgment — the jeweler so committed to perfection that no gem ever leaves the workshop. Self-criticism intensifies. The standard keeps moving just past wherever the work has arrived.",
+        "open": "Discernment and quality-sensing are reduced. Things are produced without adequate evaluation. Work looks fine on the surface but doesn't hold up over time or under close examination. The environment loses its ability to distinguish what is genuinely excellent from what merely appears excellent. Recognition of real quality becomes unreliable — people accept substitutes they would have rejected had the discernment been present to notice the difference.",
+        "catalyst": "Activate it by intentionally raising the standard of what you produce and what you accept. This is the period for genuine refinement: the revision that makes the work actually excellent rather than merely presentable, the relationship investment that makes the connection actually deep rather than merely consistent, the decision that reflects what you actually value rather than what is most convenient. Outcome: what is produced in this period carries lasting quality and remains recognizable as excellent well past the moment it was created. Recognition arrives for the refinement specifically.",
+        "resistance": "When 辛 energy is creating friction — the discernment is running at a level that prevents output. The evaluating quality is being used to disqualify rather than develop. The corrective: set the completion criterion before beginning, not during. Decide in advance what \"excellent enough to release\" looks like, so the discernment has a defined finish line rather than an open-ended mandate to keep refining. Use Water energy (flow, depth, forward movement) to give the precision somewhere to go beyond itself. Outcome: evaluation produces completion rather than endless refinement, and the standard becomes generative rather than paralyzing."
+      },
+      "energy": null,
+      "psych": null,
+      "archetypes": null,
+      "blocks": [
+        {
+          "label": "How you experience the world",
+          "bands": [
+            "concentrated",
+            "balanced",
+            "open"
+          ],
+          "patterns": [
+            "pure",
+            "rooted",
+            "flowing",
+            "forging",
+            "tested"
+          ],
+          "priority": {
+            "default": 5
+          },
+          "text": {
+            "default": "You perceive quality the way others perceive temperature — automatically, before thinking about it. Not \"is this good?\" as a question you ask, but an immediate, pre-verbal sense that something is or isn't genuinely excellent. This applies to work, to ideas, to environments, to people, to the way something was made. The standard is always running. It's not a habit you developed — it's a perceptual structure you were born with, as natural and involuntary as the ability to see color.",
+            "concentrated": "When the discerning faculty is this saturated, the standard runs at maximum on everything at once — every object, every idea, every person measured the instant you encounter it, with no relief. The perception is exquisite. The structural cost is that nothing fully passes: the bar sits just above wherever reality has arrived, so the world presents as a near-continuous catalog of what falls short. At full strength your eye is extraordinary and your peace is rare.",
+            "open": "The quality-sense is real but harder to bring to bear. You can still tell genuine excellence from the merely adequate — that perception doesn't vanish — but the fine discrimination that normally runs without effort arrives blunted, and things slip past that you'd ordinarily catch. The eye is intact; what's harder to access is the effortless precision that made the standard feel automatic. The instrument is there, just not fully calibrated.",
+            "tested": "What you're judging judges back, and your discernment takes its shape from the scrutiny. When authority energy presses on the Jewel, your evaluation runs while a standard runs on you in parallel — you're appraising and being appraised at once. If the standard is legitimate, it gives your precision an external benchmark and sharpens it into genuine authority. If it isn't, the discernment turns defensive and hypercritical, guarding against a verdict rather than seeking the truth of the thing.",
+            "pure": "With no dominant force directing what the discernment serves, your quality-sense runs as its essential self — not deployed to win, not anchored to a base, not pressed by a role. What arrives is pure appraisal: you perceive worth directly, and what deserves the full standard is genuinely yours to choose. The world is a field of things that could be evaluated to the floor, and for once nothing has pre-decided which. This is the unconstrained Jewel — free to refine what actually warrants it.",
+            "rooted": "Resource energy backing the Metal means your discernment draws from a deep base. The eye steadies here — less restless fault-finding, more patient appraisal — and it commits: you bring the full standard to a few things and develop them properly rather than scanning everything for flaws. The friction mirrors the gift: the same depth that makes your judgment trustworthy can make you slow to release work even after it has genuinely met the bar.",
+            "flowing": "Output energy gives your discernment somewhere to go. The standard no longer just evaluates — it produces: the eye that catches the flaw becomes the hand that makes the thing without it, work whose excellence is felt the instant someone encounters it. You experience discernment as generative rather than merely critical. At your most expressive this is the Jewel at its best — the judgment that doesn't just identify quality but creates it."
+          }
+        },
+        {
+          "label": "What you're genuinely good at",
+          "bands": [
+            "concentrated",
+            "balanced",
+            "open"
+          ],
+          "patterns": [
+            "pure",
+            "rooted",
+            "flowing",
+            "forging",
+            "tested"
+          ],
+          "priority": {
+            "default": 5
+          },
+          "text": {
+            "default": "Producing things of genuine distinction because you literally cannot bring yourself to output something you don't fully believe in. Identifying what's genuinely excellent when others would settle for adequate. Building things where the quality is lasting — not impressive on the surface but actually good in the way that holds up over time and under examination. You're also the one who has already noticed the flaw that will become a problem three months from now. You often don't say it immediately. But you've already seen it.",
+            "concentrated": "Distinguishing excellence — almost too finely. With the discerning force this saturated, you catch gradations of quality no one else registers, and you cannot in good conscience release something that falls short of what you can see. The result is genuine distinction. The catch is that the standard keeps moving just past wherever the work arrives, so finishing becomes the hardest part: you refine past completion, polishing what's already done while a deadline passes. At full strength you produce excellence and struggle to call it finished.",
+            "open": "The gift is real but harder to bring to bear. You can still tell excellent from adequate and still want to produce distinction — the standard doesn't vanish — but the precise execution it demands takes more from you than it does when the metal is strong. The quality lives slightly out of reach: you can perceive the bar without quite being able to meet it. What you're good at is genuine; it just needs better conditions, or a worthier subject, to reach full refinement.",
+            "tested": "Producing to a standard while a standard watches — excellence under genuine examination. When legitimate authority sets the terms, your gift sharpens from \"perfect everything\" to \"meet the real bar on the thing that matters,\" and the external benchmark gives the discernment a finish line it otherwise lacks. You're good at work that holds up under the closest scrutiny — the kind where being slightly off is caught, named, and corrected. The test is where your precision becomes authority.",
+            "pure": "Pure discernment — the gift in its least mediated form. With no dominant force directing the standard, what you're good at is the appraisal itself: knowing genuine quality directly and producing only what meets it. You're at your best where the value is in the refinement rather than what it's traded for — where something needs to be made genuinely, lastingly right. What you bring the full standard to is yours to choose.",
+            "rooted": "Building things whose quality genuinely lasts, because the standard rests on a deep base. With resource energy backing you, your gift comes with endurance — you don't just refine once, you develop work to a fineness that survives years and examination. What you're good at is the rare pairing of discernment and patience: the quality that was built to hold, not to impress. The trade is speed; you're built for the lasting thing, less for the quick turnaround.",
+            "flowing": "Turning discernment into made things. With expression energy in play, your gift isn't only identifying excellence — it's producing it: the critical eye becomes craft, the flaw you'd have flagged in someone else's work simply never appears in yours. You're good at the whole arc from perceiving quality to embodying it, where a purely evaluative configuration would stop at the verdict. The standard bears fruit."
+          }
+        },
+        {
+          "label": "Where you consistently get stuck",
+          "bands": [
+            "concentrated",
+            "balanced",
+            "open"
+          ],
+          "patterns": [
+            "pure",
+            "rooted",
+            "flowing",
+            "forging",
+            "tested"
+          ],
+          "priority": {
+            "default": 5
+          },
+          "text": {
+            "default": "The refining doesn't know when to stop. The same faculty that produces your excellent work keeps working past the point of completion — improving things that are done, delaying delivery of things that are ready, exhausting the precision on what doesn't need it. There's also a persistent gap between what you can perceive as possible and what the world tends to offer, creating a background friction that doesn't switch off. In environments that can't meet the standard, this becomes chronic dissatisfaction."
+          }
+        },
+        {
+          "label": "What changes when conditions are right",
+          "bands": [
+            "concentrated",
+            "balanced",
+            "open"
+          ],
+          "patterns": [
+            "pure",
+            "rooted",
+            "flowing",
+            "forging",
+            "tested"
+          ],
+          "priority": {
+            "default": 5
+          },
+          "text": {
+            "default": "Your quality is most fully expressed in settings that can actually receive what you produce. In conditions that genuinely warrant the discernment, what you produce is something most other approaches simply cannot generate. The practice is protecting access to those conditions rather than applying the full standard uniformly to everything."
+          }
+        },
+        {
+          "label": "What you rarely admit",
+          "bands": [
+            "concentrated",
+            "balanced",
+            "open"
+          ],
+          "patterns": [
+            "pure",
+            "rooted",
+            "flowing",
+            "forging",
+            "tested"
+          ],
+          "priority": {
+            "default": 5
+          },
+          "text": {
+            "default": "That the standard you apply to everything, you apply to yourself — and that this is often the hardest part. The gap between what you can perceive as possible in yourself and what you currently are is always visible to you. Which means you're almost never quite satisfied with who you are right now, regardless of what you've achieved."
+          }
+        }
+      ]
+    }
+  }
+}

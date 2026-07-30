@@ -1,0 +1,21 @@
+# 火  ·  ELEMENT archetype
+
+> **GENERATED from the JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
+>
+> All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.
+
+| | |
+|---|---|
+| **axis** | ELEMENT |
+| **key** | 火 |
+| **construct** | TBD — ruled per-axis with the owner |
+| **status** | interim copy — target grain is ELEMENT_GOD per the K2 pass |
+| **sources** | src/content/reading/surfaceContent.js (ENERGY_TILE — interim, 庚-voiced) · src/components/journey/journeyData.js (MEAN) |
+
+## Candidate variables
+
+| Variable | Value |
+|---|---|
+| `energy_tile_hook` | The forge you borrow, never own. |
+| `energy_tile_tag` | Radiance · the rising heat |
+| `mean_line` | The room is different before you speak — warmth as climate, light that changes what it touches. |

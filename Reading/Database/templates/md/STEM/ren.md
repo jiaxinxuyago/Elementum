@@ -1,0 +1,93 @@
+# 壬 — The Ocean  ·  STEM archetype
+
+> **GENERATED from the JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
+>
+> All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.
+
+| | |
+|---|---|
+| **axis** | STEM |
+| **key** | 壬 |
+| **canonical name** | The Ocean |
+| **construct** | TBD — ruled per-axis with the owner |
+| **sources** | Elementum_App/src/content/archetypeSource.js · src/content/reading/readingContent.js (DM_READING) · buildIdentity |
+
+## Candidate variables
+
+| Variable | Value |
+|---|---|
+| `archetype_name` | The Ocean |
+| `manifesto` | Depth before disclosure · Oceans don't announce their depth. |
+| `inscription` | You hold more than anyone thinks to ask about — depth was never meant to be seen. |
+| `pinyin_display` | RÉN · YANG WATER |
+| `dm_claims` | You see the whole current while others watch the wave. · You move around obstacles rather than through them, and still arrive first. |
+| `dm_mechanism` | Yang Water that carves by patience — force that wins by not insisting. |
+| `yourNature_desc` | You process things at a depth most people in the room aren't reaching, and you carry more beneath the surface than you ever show. The hard part is the gap between how deep you actually think and what you can get the room to understand. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+*legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)*
+
+| Field | Value |
+|---|---|
+| `subtitle` | More beneath the surface than is ever shown · The Intelligence Impulse (Yang) |
+| `chips` | Expansive · Systemic · Depth-witholding · Untranslatable · Ambition without edges |
+| `yourNature_phrase` | The River Cartographer |
+| `gifts[0].phrase` | The Deeper Process |
+| `gifts[0].desc` | You hold more variables and implications at once than a situation seems to warrant, and others sense it as intelligence before they can name it. |
+| `gifts[1].phrase` | The Structural Depth |
+| `gifts[1].desc` | Your depth was there before anything was added to it — not accumulated through study but the shape of how you're made. |
+| `gifts[2].phrase` | The Wide System |
+| `gifts[2].desc` | You see how the whole thing connects while others are still examining the parts, and you move by the map rather than the moment. |
+| `shadows[0].phrase` | The Translation Gap |
+| `shadows[0].desc` | The distance between how deep you actually think and what you can get a room to understand is the friction you live inside. |
+| `shadows[1].phrase` | The Withheld Depth |
+| `shadows[1].desc` | You disclose so little of what's beneath the surface that even people close to you work from a fraction of you. |
+| `shadows[2].phrase` | The Edgeless Reach |
+| `shadows[2].desc` | Your ambition has no natural limit, so without banks to define it the current can flood every direction at once and arrive nowhere. |
+| `elementIntro.punch` | The Ocean is Yang Water — vast deep that holds more than it shows. |
+| `elementIntro.expand` | Expansive and unannounced, it processes at a depth most rooms cannot follow, moving currents of intelligence beneath an unremarkable surface. |
+| `manual.concentrated` | Everything flows at once — career mobility, intellectual expansion, ambition, opportunity. High energy. But excess 壬 without structure disperses: the intelligence ranges without landing, the ambition floods available structure, the movement goes in too many directions simultaneously. Classical texts warn 壬水泛滥 (Yang Water flooding) — when the Ocean overflows its banks, it doesn't irrigate the field; it destroys the crop. The environment becomes intellectually stimulating but practically unproductive. Too many currents pull in too many directions and nothing actually advances. |
+| `manual.open` | Systemic intelligence and movement are reduced. Career positions that should be mobile become fixed. Intellectual curiosity narrows. The depth of understanding that comes from holding many frameworks simultaneously — the quality of perceiving the whole system at once — is less accessible. Decisions get made with less information than is available because the capacity to perceive depth is not fully engaged. Life becomes more local, more predictable, and more limited in range than the chart's actual capacity warrants. |
+| `manual.catalyst` | Activate it by entering movement: change the environment, take the trip, begin the intellectual pursuit that has been deferred, apply for the position that requires relocation or expansion. This energy rewards those who enter the current rather than waiting on the bank. Don't try to control the direction — learn to read where the flow is going and position yourself there. Outcome: career mobility arrives naturally when you stop resisting movement. Opportunities flow from directions that stationary positioning would never have reached, often arriving faster than effort-based strategies would have produced. |
+| `manual.resistance` | When 壬 energy is creating friction — flow is running against the chart's structure rather than through it. Too much movement has dispersed what needed to concentrate. The corrective is to introduce Earth energy (consolidation, containment, banks) — not to stop the Water but to give it shape. Identify specifically where the intelligence and energy should land, and build enough structure to allow accumulation rather than flooding. Outcome: movement becomes purposeful flow rather than dispersal, and what was scatter becomes a current going somewhere specific. |
+| `energy` | *(unauthored)* |
+| `psych` | *(unauthored)* |
+| `archetypes` | *(unauthored)* |
+| `blocks[0].label` | How you experience the world |
+| `blocks[0].bands` | concentrated · balanced · open |
+| `blocks[0].patterns` | pure · rooted · flowing · forging · tested |
+| `blocks[0].priority.default` | 5 |
+| `blocks[0].text.default` | You hold more beneath the surface than you show. In any exchange, you're processing at a depth most people in the conversation can't quite follow — holding more variables, more layers, more implications at once than the situation might seem to warrant. Others sense this as intelligence before they can name what they're sensing. The depth is structural, not accumulated through study or experience. It was there before anything else was added to it. |
+| `blocks[0].text.concentrated` | When the depth-force is this saturated, the processing runs at full flood — every exchange opening into more variables, more layers, more implications than anyone around you is tracking. The intelligence is vast. The structural cost is that water this high without banks disperses: the thinking ranges so widely it stops landing anywhere usable, and the gap between what you perceive and what you can convey grows until the depth becomes isolating. At full strength you see everything and can ground almost none of it. |
+| `blocks[0].text.open` | The depth is real but harder to reach into. You still process beneath the surface — that capacity doesn't vanish — but the current that normally carries you down arrives weaker, and you find yourself working with less of the picture than you know is available. The systemic view narrows toward the local and immediate. The depth is there; what's harder to access is the full reach of it, the part that used to perceive the whole system at once. |
+| `blocks[0].text.tested` | The deep is being sounded, and your processing takes its shape from the pressure. When authority energy presses on the Ocean, your depth runs while a standard runs on you in parallel — you're perceiving the whole system and being measured inside it at once. If the standard is legitimate, it gives the ranging intelligence banks and a target, and the depth becomes genuinely directed. If it isn't, you withdraw further into the deep rather than translate, and the distance between you and the surface widens. |
+| `blocks[0].text.pure` | With no dominant force directing what the depth serves, your processing runs as its essential self — not aimed at a particular gain, not anchored to a base, not pressed by a role. What arrives is pure perception: you understand how things actually work at the level they actually operate, and what deserves the full depth is genuinely yours to choose. The world is an ocean of systems that could be understood completely, and for once nothing has pre-decided which. This is the unconstrained form — free to sound what actually warrants it. |
+| `blocks[0].text.rooted` | Resource energy backing the Water means your depth flows from a deep source rather than ranging loose. The current steadies here — less flood, more channel — and it commits: you take a few systems all the way down and stay with them rather than touching everything once. The friction mirrors the gift: the same groundedness that gives your depth banks can make you slower to move into genuinely new water, preferring the channels you've already sounded. |
+| `blocks[0].text.flowing` | Output energy gives your depth somewhere to go. The processing no longer just perceives — it produces: the systemic understanding becomes things made, models built, the deep insight finally translated into a form the surface can use. You experience your depth as generative rather than merely vast. At your most expressive this is the Ocean at its best — the current that doesn't just hold the whole system but carries something real to shore. |
+| `blocks[1].label` | What you're genuinely good at |
+| `blocks[1].bands` | concentrated · balanced · open |
+| `blocks[1].patterns` | pure · rooted · flowing · forging · tested |
+| `blocks[1].priority.default` | 5 |
+| `blocks[1].text.default` | Understanding how things actually work at the level where they actually operate — not the surface dynamics everyone can see but the real dynamics beneath them. Producing insights that emerge from holding many things at once rather than following a single logical thread, reaching conclusions by routes you can't always fully explain. Going further into complex or difficult territory than most people are willing to go, and returning with something genuinely useful. |
+| `blocks[1].text.concentrated` | Going deep — almost past the point of return. With the depth-force this saturated, you can take a problem or a system further down than anyone around you, holding a staggering number of variables at once. The reach is formidable. The catch is that the deeper you go, the harder it is to bring anything back: insights form at a level the surface can't receive, and you can spend the whole dive in water no one else can follow. At full strength you're extraordinary at depth and strained at translation. |
+| `blocks[1].text.open` | The gift is real but harder to reach into. You still understand things at the level they actually work — that perception doesn't vanish — but mustering the full depth takes more from you than it does when the current is strong. The systemic view lives slightly out of reach: you can tell the depth is available without quite descending all the way. What you're good at is genuine; it just needs better conditions, or a worthy problem, to reach full draw. |
+| `blocks[1].text.tested` | Sounding the depths under pressure — bringing real understanding to bear while a standard watches. When legitimate authority sets the terms, your gift sharpens from "perceive everything" to "resolve the deep thing that actually matters here," and the constraint gives the ranging intelligence a target and a shore. You're good at going further than others will into genuinely hard territory and returning with something that holds up — depth that was tested, not just claimed. |
+| `blocks[1].text.pure` | Pure depth — the gift in its least mediated form. With no dominant force directing the perception, what you're good at is the understanding itself: descending to the level where things really operate and grasping how they actually work. You're at your best where the value is in the depth rather than what it's put to — where a problem needs someone willing to go all the way down. What you sound is yours to choose. |
+| `blocks[1].text.rooted` | Understanding that genuinely lasts, because the depth runs from a deep source. With resource energy backing you, your gift comes with staying power — you don't just perceive a system once, you live with it until the understanding becomes durable and complete. What you're good at is the rare pairing of depth and constancy: the comprehension that's still true years later. The trade is range; you sound a few systems completely rather than skimming many. |
+| `blocks[1].text.flowing` | Turning depth into something usable. With expression energy in play, your gift isn't only understanding how things work — it's producing from that understanding: the systemic insight becomes models, writing, work that carries the deep view to people who couldn't reach it themselves. You're good at the whole arc from perception to product, where a purely contemplative configuration would stop at "I understand this." The depth bears fruit. |
+| `blocks[2].label` | Where you consistently get stuck |
+| `blocks[2].bands` | concentrated · balanced · open |
+| `blocks[2].patterns` | pure · rooted · flowing · forging · tested |
+| `blocks[2].priority.default` | 5 |
+| `blocks[2].text.default` | The depth needs banks or it disperses. Without a specific channel — a specific form, a specific person who can engage at the level where you're actually operating — the intelligence ranges widely without landing anywhere productive. The translation problem is real: bringing what you perceive at depth into forms people at the surface can receive is a constant, effortful process that never quite finishes.  Most exchanges happen at a shallower level than where you operate. This produces a persistent sense of being encountered at the surface — of having depth no one is quite reaching. The response is often to withdraw further rather than simplify, which deepens the problem without resolving it. |
+| `blocks[3].label` | What changes when conditions are right |
+| `blocks[3].bands` | concentrated · balanced · open |
+| `blocks[3].patterns` | pure · rooted · flowing · forging · tested |
+| `blocks[3].priority.default` | 5 |
+| `blocks[3].text.default` | In conditions of genuine exchange — where someone meets you at the level you're operating and gives something back at that level — you produce things you cannot produce alone. The depth that was ranging without form finds a channel. The intelligence that was present but not landing becomes genuinely useful. These conditions are rare, which is why you learn to recognize them quickly and protect them once found. |
+| `blocks[4].label` | What you rarely admit |
+| `blocks[4].bands` | concentrated · balanced · open |
+| `blocks[4].patterns` | pure · rooted · flowing · forging · tested |
+| `blocks[4].priority.default` | 5 |
+| `blocks[4].text.default` | How often you're lonely in this specific way: surrounded by capable, intelligent people and still operating in a depth no one in the room is quite reaching. Not because the people are insufficient. Because the depth is structural — it was always going to be this particular width and this particular distance down, regardless of who was in the room. |

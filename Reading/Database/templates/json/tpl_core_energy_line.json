@@ -1,9 +1,0 @@
-{
-  "$template": "tpl_core_energy_line",
-  "class": "T",
-  "axis": "TEMPLATED",
-  "status": "LIVE",
-  "budget": "one line",
-  "source_of_truth": "Elementum_App/src/components/journey (patterns) · REA_03 §5",
-  "pattern": "Your Core Energy is {El}"
-}

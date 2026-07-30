@@ -16,6 +16,8 @@
 
 ## §1 · The variant-axis taxonomy
 
+> **The taxonomy is OWNED normatively by REA_01** (owner-finalized 2026-07-30 — each axis is a class of archetypes; counts dictate how many; per-axis variable constructs are ruled owner-supervised). This section APPLIES it to the variables; on any disagreement REA_01 wins.
+
 | Axis | Count | Meaning | Authored? |
 |---|---|---|---|
 | **STEM** | ×10 | Varies by day-master stem (the archetype identity — K1) | Yes |

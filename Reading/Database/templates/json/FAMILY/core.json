@@ -1,0 +1,16 @@
+{
+  "$archetype": "core",
+  "axis": "FAMILY",
+  "key": "比劫",
+  "canonical_name": "Core",
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "REA_02 §5b locks (via journeyData vocabulary tables)"
+  ],
+  "candidates": {
+    "relation_noun": "Core",
+    "family_line": "This energy is you — your identity and your footing among equals.",
+    "family_key": "self"
+  }
+}

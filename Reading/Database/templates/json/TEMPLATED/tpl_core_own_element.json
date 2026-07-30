@@ -1,0 +1,16 @@
+{
+  "$archetype": "tpl_core_own_element",
+  "axis": "TEMPLATED",
+  "key": "tpl_core_own_element",
+  "canonical_name": null,
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "REA_03 §5 (patterns)"
+  ],
+  "status_note": "LIVE",
+  "budget": "one line",
+  "candidates": {
+    "pattern": "Your core is {El} — the {Arch}'s own element."
+  }
+}

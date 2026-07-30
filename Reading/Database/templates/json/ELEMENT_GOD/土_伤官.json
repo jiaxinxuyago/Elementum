@@ -1,0 +1,46 @@
+{
+  "$archetype": "土_伤官",
+  "axis": "ELEMENT_GOD",
+  "key": "土_伤官",
+  "canonical_name": "The Virtuoso",
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "REA_03 §4b (interaction seeds — parsed from the doc)",
+    "k2 construct: REA_03 §4 spec (unauthored)"
+  ],
+  "candidates": {
+    "structural_interaction": "Fire generating Earth cross-polarity — warmth building structure beyond expectation",
+    "dm_element": "Fire",
+    "k2_card": {
+      "face": null,
+      "persona": null,
+      "chips": null,
+      "rulingDomain": null,
+      "registers": {
+        "dominant": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        },
+        "absent": {
+          "r": null,
+          "x": null,
+          "gate": null,
+          "seeker": {
+            "shadow": null,
+            "work": null,
+            "bonds": null,
+            "season": null
+          }
+        }
+      }
+    }
+  }
+}
