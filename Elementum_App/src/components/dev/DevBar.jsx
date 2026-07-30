@@ -419,14 +419,21 @@ function SchemaView({ chart, birthData, currentScreen }) {
   const [journeyScreen, setJourneyScreen] = useState(
     typeof window !== 'undefined' ? window.__journeyScreen : undefined
   );
+  const [journeyEl, setJourneyEl] = useState(
+    typeof window !== 'undefined' ? window.__journeyElOpen : null
+  );
   useEffect(() => {
     if (typeof window === 'undefined') return undefined;
-    const onJourney = (e) => setJourneyScreen(e.detail);
+    const onJourney = (e) => { setJourneyScreen(e.detail); setJourneyEl(window.__journeyElOpen ?? null); };
     window.addEventListener('journey-screen', onJourney);
     return () => window.removeEventListener('journey-screen', onJourney);
   }, []);
 
-  const allGroups = useMemo(() => buildVariableGroups(model), [model]);
+  // The element in focus: journey element sub-screen, or the app-energy page.
+  const activeEl = currentScreen === 'app-energy'
+    ? (typeof window !== 'undefined' ? window.__energyEl : null)
+    : (journeyScreen === 'element' ? journeyEl : null);
+  const allGroups = useMemo(() => buildVariableGroups(model, activeEl), [model, activeEl]);
   const [showAll, setShowAll] = useState(false);
   const onScreen = surfacesFor(currentScreen, journeyScreen);
   const groups = showAll ? allGroups : allGroups.filter((g) => onScreen.includes(g.surface));
@@ -442,7 +449,7 @@ function SchemaView({ chart, birthData, currentScreen }) {
           <span style={{ fontSize: 10, color: '#6c655a' }}>
             on{' '}
             <span style={{ fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace', color: '#9d968a' }}>
-              {currentScreen}{journeyScreen && (currentScreen === 'app-reading' || currentScreen === 'app-energymap') ? ` · ${journeyScreen}` : ''}
+              {currentScreen}{journeyScreen && (currentScreen === 'app-reading' || currentScreen === 'app-energymap') ? ` · ${journeyScreen}` : ''}{activeEl ? ` · ${activeEl}` : ''}
             </span>
           </span>
           <TabBtn active={showAll} onClick={() => setShowAll((v) => !v)}>all</TabBtn>

@@ -440,6 +440,11 @@ export default function App() {
   // Which energy the reading card opens on (set when a node/tile is tapped).
   const [energyEl, setEnergyEl] = useState(null);
   const openEnergy = (el) => { setEnergyEl(el); setScreen('app-energy'); };
+  // Dev-only: expose the active energy element so the DevBar Schema tab can
+  // resolve element-scoped variables for the element actually on screen.
+  useEffect(() => {
+    if (import.meta.env.DEV && typeof window !== 'undefined') window.__energyEl = energyEl;
+  }, [energyEl]);
 
   // Back handler: previous in the linear sequence, respecting conditionals
   // (so that a user on step5 who came through step4a returns to step4a).

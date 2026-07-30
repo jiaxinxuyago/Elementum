@@ -140,9 +140,10 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   useEffect(() => {
     if (!import.meta.env.DEV || typeof window === 'undefined') return undefined;
     window.__journeyScreen = screen;
+    window.__journeyElOpen = screen === 'element' ? elOpen : null;
     window.dispatchEvent(new CustomEvent('journey-screen', { detail: screen }));
-    return () => { delete window.__journeyScreen; };
-  }, [screen]);
+    return () => { delete window.__journeyScreen; delete window.__journeyElOpen; };
+  }, [screen, elOpen]);
   const goScreen = useCallback((name) => {
     setScreen(name);
     requestAnimationFrame(() => {

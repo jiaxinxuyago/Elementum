@@ -20,7 +20,9 @@ const GOD_ID = { 比肩: 'bijian', 劫财: 'jiecai', 食神: 'shishen', 伤官: 
 const EL_HZ = { Metal: '金', Wood: '木', Water: '水', Fire: '火', Earth: '土' };
 
 // model = buildJourneyModel output for the active chart (null-safe).
-export function buildVariableGroups(model) {
+// activeEl = the element in focus (journey element sub-screen / app-energy
+// page) — element-scoped rows resolve for it instead of the core.
+export function buildVariableGroups(model, activeEl) {
   const m = model;
   const stem = m?.stem;
   const card = stem ? STEM_CARD_DATA[stem] : null;
@@ -35,6 +37,13 @@ export function buildVariableGroups(model) {
   const godsArch = m ? join(towers.map((r) => r.god)) : null;
   const coreGodArch = m?.core?.god ? `${m.core.god} ${GOD_ID[m.core.god] ?? ''}`.trim() : null;
   const elGodArch = m ? join(towers.map((r) => `${EL_HZ[r.name] ?? r.name}_${r.god}`)) : null;
+
+  // Focused element (element sub-screen / app-energy): face rows resolve for
+  // the element on screen; without focus they fall back to the core.
+  const focus = (activeEl && m?.byEl?.[activeEl]) || null;
+  const focusGod = focus?.god ?? m?.core?.god ?? null;
+  const focusGodArch = focusGod ? `${focusGod} ${GOD_ID[focusGod] ?? ''}`.trim() : null;
+  const focusElGodArch = focus ? `${EL_HZ[focus.name] ?? focus.name}_${focus.god}` : elGodArch;
 
   return [
     {
@@ -76,17 +85,17 @@ export function buildVariableGroups(model) {
     {
       surface: 'Element screens (interim → K2)',
       vars: [
-        { name: 'persona_name (V)', axis: 'GOD×10', arch: godsArch, status: 'LIVE', value: perEl((r) => TG_PERSONA[r.god]) },
-        { name: 'face_kw', axis: 'GOD×10', arch: coreGodArch, status: 'LIVE', value: m?.core?.god ? (FACE_CARD[m.core.god]?.kw || []).join(' · ') : null },
-        { name: 'face_teaser', axis: 'GOD×10', arch: coreGodArch, status: 'LIVE ⚠R5 scope', value: m?.core?.god ? FACE_CARD[m.core.god]?.teaser : null },
-        { name: 'energy_tile_hook / tag', axis: '→ EL·GOD×50', arch: elGodArch, status: 'INTERIM 庚-gated', value: perEl((r) => r.hook || '(fallback)') },
+        { name: 'persona_name (V)', axis: 'GOD×10', arch: focus ? focusGodArch : godsArch, status: 'LIVE', value: focus ? TG_PERSONA[focus.god] : perEl((r) => TG_PERSONA[r.god]) },
+        { name: 'face_kw', axis: 'GOD×10', arch: focusGodArch, status: 'LIVE', value: focusGod ? (FACE_CARD[focusGod]?.kw || []).join(' · ') : null },
+        { name: 'face_teaser', axis: 'GOD×10', arch: focusGodArch, status: 'LIVE ⚠R5 scope', value: focusGod ? FACE_CARD[focusGod]?.teaser : null },
+        { name: 'energy_tile_hook / tag', axis: '→ EL·GOD×50', arch: focusElGodArch, status: 'INTERIM 庚-gated', value: focus ? (focus.hook || '(fallback)') : perEl((r) => r.hook || '(fallback)') },
         { name: 'mean_line', axis: 'ELEMENT×5 interim', arch: 'all ×5', status: 'INTERIM', value: 'element-generic pending 50-cell pass' },
       ],
     },
     {
       surface: 'Deep pages (PLANNED — the K2 corpus)',
       vars: [
-        { name: 'k2_energy_card ×50', axis: 'ELEMENT·GOD ×registers', arch: elGodArch, status: 'PLANNED 0/50', value: 'face · persona · chips · rulingDomain · registers{dominant,absent}' },
+        { name: 'k2_energy_card ×50', axis: 'ELEMENT·GOD ×registers', arch: focusElGodArch, status: 'PLANNED 0/50', value: 'face · persona · chips · rulingDomain · registers{dominant,absent}' },
         { name: 'palace_frames ×7', axis: 'POSITION', arch: 'all ×7', status: 'PLANNED', value: null },
         { name: 'tpl_presence_frames / cycle_line / rx_ribbon / pattern_conclusion', axis: 'T', status: 'PLANNED', value: null },
       ],
