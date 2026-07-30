@@ -509,6 +509,7 @@ function VariableRow({ v }) {
         <div style={{ fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace', color: '#c7bfb0' }}>
           {v.name}
           <AxisChip axis={v.axis} />
+          <ArchChip arch={v.arch} />
           <span style={{ marginLeft: 5, fontSize: 9, letterSpacing: 0.6, color: flagged ? '#c79b4a' : color, textTransform: 'uppercase' }}>
             {v.status}
           </span>
@@ -536,6 +537,19 @@ function AxisChip({ axis }) {
       border: `1px solid ${color}55`, color, background: `${color}15`,
       fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace',
     }}>{axis}</span>
+  );
+}
+
+// The resolved archetype of the row's axis — names the station file
+// (Reading/Database/templates/json/<AXIS>/<arch>.json) this chart selects.
+function ArchChip({ arch }) {
+  if (!arch) return null;
+  return (
+    <span style={{
+      marginLeft: 5, fontSize: 9, letterSpacing: 0.3, padding: '1px 5px', borderRadius: 3,
+      border: '1px dashed #b09b5e66', color: '#b09b5e', background: '#b09b5e10',
+      fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace',
+    }}>{arch}</span>
   );
 }
 
