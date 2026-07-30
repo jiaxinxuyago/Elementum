@@ -53,6 +53,7 @@ engine/journey/consumers              buildJourneyModel · Self-Report · Consul
 | `Elementum_App/tools/export-reading-templates.mjs` | Seeds/refreshes the JSON station (`templates/json/`) **from the live corpus** for LIVE/INTERIM variables (initial seed 2026-07-29); with `--check` it becomes the **drift audit** — reports JSON↔`src/content` divergence instead of overwriting. |
 | `Elementum_App/tools/build-template-twins.mjs` | Regenerates every `templates/*.md` twin from its JSON. Run after any JSON edit. |
 | `Elementum_App/tools/build-field-map-xlsx.mjs` | Regenerates the REA_03 xlsx twin from the schema markdown (the variable-registry view). |
+| `Elementum_App/tools/build-archetype-profiles.mjs` | Pivots the station into **archetype-major profiles** — `Reading/Database/profiles/{json,md}/` , one file per stem resolving every involved variable (K1 identity + band variants + its DM-relative K2 key pool ×10 + patterns). GENERATED views; re-run after any template change. |
 
 ## §4 · Consumption map (who reads what at runtime)
 
@@ -66,7 +67,7 @@ engine/journey/consumers              buildJourneyModel · Self-Report · Consul
 
 ## §5 · Future stations (declared, not built)
 
-- **Compiled per-stem profiles** — "the whole 庚 book": a generated review view resolving every variable for one stem (K1 values + its 10 shared K2 keys + patterns). The persistent single-user content template; generator written when the K2 station has content.
+- ~~Compiled per-stem profiles~~ **BUILT 2026-07-30** → `Reading/Database/profiles/` (see §3) — the persistent single-user content template, archetype-major; fills in as the station fills.
 - **`archetypeSchema.js` rewrite** — the code schema conforms to REA_03 (types, caps, varyBy); afterwards a code-mirror doc can be regenerated as a tool artifact.
 - **Validation gate** — budget/axis checks of every JSON against REA_03 (word caps, key completeness, register shape) as a pre-transcription step; extends the seeder.
 
