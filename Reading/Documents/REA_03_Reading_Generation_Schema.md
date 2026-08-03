@@ -92,7 +92,7 @@ K1 extensions (claims + mechanism) 10 × ~62w ≈ 620w · K1b self cards 30 × ~
 |---|---|---|---|---|---|---|---|
 | `archetype_name` | archetype-name | STEM | 2w · 7–12c | ≤3w ✓ | The Blade | A2 B1 I2 J1 | LIVE |
 | `manifesto` | manifesto | STEM | 9–13w · 53–70c | ≤14w ✓ (split " · ") | Precision before intention — an edge is never given; it is forged. *(reveal kick = first-half split, not a second variable)* | B2 I2 J3 → A3 | LIVE |
-| `inscription` | inscription | STEM | 13–17w · 61–81c | **propose ≤17w / ≤85c** (R2); target shape adds `zh` 4–6字 | You say what others soften — and pay, quietly, for being the one who did. | A4 · DM claim 1 · J4 fallback | LIVE |
+| `inscription` | inscription | STEM | 12–16w · 61–81c | **≤17w / ≤85c — R2 owner-ruled 2026-08-03**; target shape adds `zh` 4–6字 (aphorism register, not a translation) | You say what others soften — and pay, quietly, for being the one who did. | A4 · DM claim 1 · J4 fallback | LIVE |
 | `dm_claims` ×2–3 | inscription | STEM | — | **10–16w each** (claim 1 ≡ `inscription`) | *handoff demo:* Being vague feels worse to you than being wrong. | part-2 P4 | PLANNED |
 | `dm_mechanism` | descriptor | STEM (chart-aware R+E) | — | **≤30w** | *handoff demo:* Yang Metal tempered by spring wood — strength that grew against resistance, not in its absence. | part-2 P4 | PLANNED |
 | `pinyin_display` | label | STEM | 4w · 13–17c | one line | GĒNG · YANG METAL | J1 | LIVE |
@@ -290,7 +290,7 @@ From `archetypeSource.js` / `STEM_CARD_DATA.js` unless noted. **Rule: nothing he
 | # | Variable | Ruling needed |
 |---|---|---|
 | R1 | `tpl_cast_line` | ✔ RULED (owner, 2026-08-03): month-name format — "CAST FROM 1995 · APRIL 29 · 17–19 CST". Branch-hour pinyin label (YǑU) dropped from the cast line; hour-unknown keeps the `HOUR UNSET` tail. |
-| R2 | `inscription` | Confirm budget ≤17w / ≤85c (+ the `zh` 4–6字 target shape) |
+| R2 | `inscription` | ✔ RULED (owner, 2026-08-03): budget ≤17w / ≤85c CONFIRMED; `zh` target shape 4–6字 CONFIRMED (aphorism register, not a translation of the English line). Corpus audited same day: all ×10 pass (12–16w · 61–81c). |
 | R3 | `glossary_body` vs `defline` (V — REA_02 §5c) | ✔ RESOLVED IN CODE (pre-2026-07-28): `journeyData.condGlossaryBody()` composes the condition bodies from `DEFLINE` + `APPR_LINE`/`FOLD_VERDICT` — one source, no second locked copy. Dictionary notes updated. |
 | R4 | `yourNature_desc` | Authored ×10 but not surfacing (J4 falls back to `inscription`) — surface, or retire baseline in favor of the claims model? Cap ≤46w? |
 | R5 | `face_teaser` | 45–50w vs gate-teaser law ≤25w — is it the L6 gate teaser (over budget ×2) or the K-screen read (then `k2_gate_teaser` is separate, as mapped)? |
