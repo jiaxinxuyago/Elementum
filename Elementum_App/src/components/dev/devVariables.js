@@ -54,7 +54,7 @@ export function buildVariableGroups(model, activeEl) {
         { name: 'inscription', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: m?.inscription },
         { name: 'pinyin_display', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: m?.pinyin },
         { name: 'top3_keyword_selection', axis: 'DERIVED', status: 'LIVE', value: m?.chips?.join(' · ') },
-        { name: 'tpl_cast_line', axis: 'T · derived slots', arch: 'tpl_cast_line', status: 'LIVE ⚠R1', value: m?.cast },
+        { name: 'tpl_cast_line', axis: 'T · derived slots', arch: 'tpl_cast_line', status: 'LIVE', value: m?.cast },
       ],
     },
     {

@@ -9,7 +9,7 @@
 | **axis** | TEMPLATED |
 | **key** | tpl_cast_line |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | LIVE ⚠ R1 (provisional hybrid ruling on file) |
+| **status** | LIVE · R1 RULED (owner-locked 2026-08-03): month-name format |
 | **budget** | one line |
 | **sources** | REA_03 §5 (patterns) |
 
@@ -17,4 +17,6 @@
 
 | Variable | Value |
 |---|---|
-| `pattern` | CAST FROM {y} · {m} · {d} · {hour-label} {tz} |
+| `pattern` | CAST FROM {y} · {MONTH-NAME} {d} · {hour-range} {tz} |
+| `example` | CAST FROM 1995 · APRIL 29 · 17–19 CST |
+| `hour_unknown_fallback` | CAST FROM {y} · {MONTH-NAME} {d} · HOUR UNSET |

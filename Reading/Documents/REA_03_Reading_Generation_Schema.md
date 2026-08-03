@@ -194,7 +194,7 @@ energyCard: {
 
 | Var | Pattern | 庚 example | UI slots | Status |
 |---|---|---|---|---|
-| `tpl_cast_line` | CAST FROM {y} · {m} · {d} · {hour-label} {tz} | CAST FROM 1995 · 4 · 29 · YǑU HOUR 17–19 ⚠ **R1 format ruling** (handoff: "1995 · APRIL 29 · 17–19 CST") | A5 | LIVE ⚠ |
+| `tpl_cast_line` | CAST FROM {y} · {MONTH-NAME} {d} · {hour-range} {tz} | CAST FROM 1995 · APRIL 29 · 17–19 CST (hour unknown → `… · HOUR UNSET`) — **R1 owner-ruled 2026-08-03** | A5 | LIVE |
 | `tpl_core_energy_line` | Your Core Energy is {El} | Your Core Energy is Metal | C1 | LIVE |
 | `tpl_core_own_element` | Your core is {El} — the {Arch}'s own element. | Your core is Metal — the Blade's own element. | C4 | LIVE |
 | `tpl_core_seal_explainer` | The seal at the wheel's center is {El}'s sign — the day master you were cast with; its share leads the wheel. | *(as pattern)* | C5 | LIVE |
@@ -257,7 +257,7 @@ From `archetypeSource.js` / `STEM_CARD_DATA.js` unless noted. **Rule: nothing he
 
 | Slot | Surface | Variable(s) | Status |
 |---|---|---|---|
-| A1–A6 | Reveal | `ui_labels`(V) · `archetype_name` · `manifesto`(split) · `inscription` · `tpl_cast_line` · `stem_painting` | LOCKED ⚠R1 |
+| A1–A6 | Reveal | `ui_labels`(V) · `archetype_name` · `manifesto`(split) · `inscription` · `tpl_cast_line` · `stem_painting` | LOCKED (R1 ruled 2026-08-03) |
 | B1–B4 | Hero | `archetype_name` · `manifesto` · top3→`keyword`(V) · `stem_seal` | LOCKED |
 | C1–C8 | Folio | `tpl_core_energy_line` · `condition_term`(V) · `fold_verdict`(V) · `tpl_core_own_element` · `tpl_core_seal_explainer` · `cond_tail`(V) · `approach_verb`+`appr_tail`(V) · `defline`(V) | LOCKED |
 | D1–D4 | Wheel | derived (presence/seats/roles) · `stem_painting` | LOCKED |
@@ -289,7 +289,7 @@ From `archetypeSource.js` / `STEM_CARD_DATA.js` unless noted. **Rule: nothing he
 
 | # | Variable | Ruling needed |
 |---|---|---|
-| R1 | `tpl_cast_line` | Format: numeric + hour-label ("1995 · 4 · 29 · YǑU HOUR 17–19 CST") vs handoff month-name ("1995 · APRIL 29 · 17–19 CST") |
+| R1 | `tpl_cast_line` | ✔ RULED (owner, 2026-08-03): month-name format — "CAST FROM 1995 · APRIL 29 · 17–19 CST". Branch-hour pinyin label (YǑU) dropped from the cast line; hour-unknown keeps the `HOUR UNSET` tail. |
 | R2 | `inscription` | Confirm budget ≤17w / ≤85c (+ the `zh` 4–6字 target shape) |
 | R3 | `glossary_body` vs `defline` (V — REA_02 §5c) | ✔ RESOLVED IN CODE (pre-2026-07-28): `journeyData.condGlossaryBody()` composes the condition bodies from `DEFLINE` + `APPR_LINE`/`FOLD_VERDICT` — one source, no second locked copy. Dictionary notes updated. |
 | R4 | `yourNature_desc` | Authored ×10 but not surfacing (J4 falls back to `inscription`) — surface, or retire baseline in favor of the claims model? Cap ≤46w? |

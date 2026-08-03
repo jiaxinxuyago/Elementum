@@ -23,12 +23,16 @@ const STEM_INSCRIPTION = {
   '癸': 'You change things slowly, softly, completely — and let the credit fall elsewhere.',
 };
 
-// Earthly-branch hour → romanization + clock range (for the foundry mark).
+// Earthly-branch hour → clock range (for the foundry mark).
 const BRANCH_HOUR = {
-  '子': ['ZǏ', '23–1'], '丑': ['CHǑU', '1–3'], '寅': ['YÍN', '3–5'], '卯': ['MǍO', '5–7'],
-  '辰': ['CHÉN', '7–9'], '巳': ['SÌ', '9–11'], '午': ['WǓ', '11–13'], '未': ['WÈI', '13–15'],
-  '申': ['SHĒN', '15–17'], '酉': ['YǑU', '17–19'], '戌': ['XŪ', '19–21'], '亥': ['HÀI', '21–23'],
+  '子': '23–1', '丑': '1–3', '寅': '3–5', '卯': '5–7',
+  '辰': '7–9', '巳': '9–11', '午': '11–13', '未': '13–15',
+  '申': '15–17', '酉': '17–19', '戌': '19–21', '亥': '21–23',
 };
+
+// Cast-line month names (R1 owner ruling 2026-08-03: month-name format).
+const MONTH_NAME = ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE',
+  'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'];
 
 export const stemId = (stem) => STEM_ID[stem] || 'geng';
 
@@ -42,11 +46,8 @@ export function buildIdentity(chart, card, hourUnknown) {
   const [y, m, d] = (chart.meta?.birthDate || '').split('-').map((n) => parseInt(n, 10));
   const hourBranch = chart.pillars?.hour?.branch;
   let hourSeg = 'HOUR UNSET';
-  if (!hourUnknown && BRANCH_HOUR[hourBranch]) {
-    const [pin, range] = BRANCH_HOUR[hourBranch];
-    hourSeg = `${pin} HOUR ${range}`;
-  }
-  const cast = `CAST FROM ${y} · ${m} · ${d} · ${hourSeg}`;
+  if (!hourUnknown && BRANCH_HOUR[hourBranch]) hourSeg = BRANCH_HOUR[hourBranch];
+  const cast = `CAST FROM ${y} · ${MONTH_NAME[m - 1] || m} ${d} · ${hourSeg}`;
 
   return {
     dayMaster: STEM_ID[stem] || 'geng',

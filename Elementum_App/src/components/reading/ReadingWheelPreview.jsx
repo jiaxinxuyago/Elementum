@@ -14,7 +14,7 @@ const BLADE_IDENTITY = {
   pinyin: 'GĒNG · YANG METAL',
   manifesto: 'Precision before intention',
   inscription: 'You say what others soften — and pay, quietly, for being the one who did.',
-  cast: 'CAST FROM 1995 · 4 · 29 · YǑU HOUR 17–19',
+  cast: 'CAST FROM 1995 · APRIL 29 · 17–19',
 };
 
 export default function ReadingWheelPreview() {
