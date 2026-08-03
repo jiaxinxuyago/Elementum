@@ -20,3 +20,4 @@
 | `pattern` | CAST FROM {y} · {MONTH-NAME} {d} · {hour-range} {tz} |
 | `example` | CAST FROM 1995 · APRIL 29 · 17–19 CST |
 | `hour_unknown_fallback` | CAST FROM {y} · {MONTH-NAME} {d} · HOUR UNSET |
+| `tz_derivation` | birth-place IANA zone → Intl short abbr at the birth date (DST-aware); zones whose short form is a raw GMT offset fall back to the long name initials (Asia/Shanghai → CST); omitted only when no zone is stored (buildIdentity, identity.js) |

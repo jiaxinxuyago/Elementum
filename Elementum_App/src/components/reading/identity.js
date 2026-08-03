@@ -36,7 +36,27 @@ const MONTH_NAME = ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE',
 
 export const stemId = (stem) => STEM_ID[stem] || 'geng';
 
-export function buildIdentity(chart, card, hourUnknown) {
+// Timezone abbreviation at the birth date — DST-aware, derived from the
+// birth place's stored IANA zone. Zones whose short form is only a raw
+// GMT offset (Asia/Shanghai → "GMT+8") fall back to the long name's
+// initials (China Standard Time → CST) so a located birth always
+// carries its zone on the cast line.
+function tzAbbr(birthData) {
+  const tz = birthData?.location?.timezone;
+  if (!tz || !birthData?.year) return '';
+  try {
+    const d = new Date(Date.UTC(birthData.year, (birthData.month || 1) - 1, birthData.day || 1, 12));
+    const part = (style) => new Intl.DateTimeFormat('en-US', { timeZone: tz, timeZoneName: style })
+      .formatToParts(d).find((p) => p.type === 'timeZoneName')?.value || '';
+    const short = part('short');
+    if (short && !/GMT[+-]/.test(short)) return short;
+    const initials = part('long').split(' ').map((w) => w[0]).join('');
+    return /^[A-Z]{2,5}$/.test(initials) ? initials : short;
+  } catch { return ''; }
+}
+
+export function buildIdentity(chart, card, birthData) {
+  const hourUnknown = !!(birthData?.hourUnknown || birthData?.hourWindow);
   const stem = chart.dayMaster.stem;
   const element = chart.dayMaster.element;
   const polarity = chart.dayMaster.polarity === 'yin' ? 'YIN' : 'YANG';
@@ -47,7 +67,8 @@ export function buildIdentity(chart, card, hourUnknown) {
   const hourBranch = chart.pillars?.hour?.branch;
   let hourSeg = 'HOUR UNSET';
   if (!hourUnknown && BRANCH_HOUR[hourBranch]) hourSeg = BRANCH_HOUR[hourBranch];
-  const cast = `CAST FROM ${y} · ${MONTH_NAME[m - 1] || m} ${d} · ${hourSeg}`;
+  const abbr = tzAbbr(birthData);
+  const cast = `CAST FROM ${y} · ${MONTH_NAME[m - 1] || m} ${d} · ${hourSeg}${abbr ? ` ${abbr}` : ''}`;
 
   return {
     dayMaster: STEM_ID[stem] || 'geng',

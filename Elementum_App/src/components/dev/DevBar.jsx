@@ -408,8 +408,8 @@ function SchemaView({ chart, birthData, currentScreen }) {
     try {
       const card = STEM_CARD_DATA[chart.dayMaster.stem];
       const ec = buildEnergyChart(chart);
-      const identity = buildIdentity(chart, card, !!(birthData?.hourUnknown || birthData?.hourWindow));
-      return buildJourneyModel({ chart, ec, identity, card, birthData });
+      const identity = buildIdentity(chart, card, birthData);
+      return buildJourneyModel({ chart, ec, identity, card });
     } catch {
       return null;
     }

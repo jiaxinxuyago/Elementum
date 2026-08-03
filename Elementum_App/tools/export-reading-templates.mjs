@@ -241,7 +241,7 @@ for (const p of POSITIONS) {
 
 // ── TEMPLATED ×16 (the sentence patterns) ──
 const T = (name, status, budget, body) => file('TEMPLATED', name, name, null, body, ['REA_03 §5 (patterns)'], { status_note: status, budget });
-T('tpl_cast_line', 'LIVE · R1 RULED (owner-locked 2026-08-03): month-name format', 'one line', { pattern: 'CAST FROM {y} · {MONTH-NAME} {d} · {hour-range} {tz}', example: 'CAST FROM 1995 · APRIL 29 · 17–19 CST', hour_unknown_fallback: 'CAST FROM {y} · {MONTH-NAME} {d} · HOUR UNSET' });
+T('tpl_cast_line', 'LIVE · R1 RULED (owner-locked 2026-08-03): month-name format', 'one line', { pattern: 'CAST FROM {y} · {MONTH-NAME} {d} · {hour-range} {tz}', example: 'CAST FROM 1995 · APRIL 29 · 17–19 CST', hour_unknown_fallback: 'CAST FROM {y} · {MONTH-NAME} {d} · HOUR UNSET', tz_derivation: 'birth-place IANA zone → Intl short abbr at the birth date (DST-aware); zones whose short form is a raw GMT offset fall back to the long name initials (Asia/Shanghai → CST); omitted only when no zone is stored (buildIdentity, identity.js)' });
 T('tpl_core_energy_line', 'LIVE', 'one line', { pattern: 'Your Core Energy is {El}' });
 T('tpl_core_own_element', 'LIVE', 'one line', { pattern: "Your core is {El} — the {Arch}'s own element." });
 T('tpl_core_seal_explainer', 'LIVE', '1–2 sentences', { pattern: "The seal at the wheel's center is {El}'s sign — the day master you were cast with; its share leads the wheel." });

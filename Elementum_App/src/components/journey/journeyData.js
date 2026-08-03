@@ -159,8 +159,8 @@ function seatElements(elements, coreEl, condition) {
 
 // ── the model ──────────────────────────────────────────────────────
 // chart: engine chart · ec: buildEnergyChart(chart) · identity: buildIdentity(...)
-// card: STEM_CARD_DATA[stem] · birthData: chartContext birthData
-export function buildJourneyModel({ chart, ec, identity, card, birthData }) {
+// card: STEM_CARD_DATA[stem]
+export function buildJourneyModel({ chart, ec, identity, card }) {
   const coreEl = coreElOf(ec);
   const band = getEnergyBand(chart.dayMaster.strength);
   const condition = CONDITION[band] || 'Balanced';
@@ -270,7 +270,7 @@ export function buildJourneyModel({ chart, ec, identity, card, birthData }) {
   // identity hero
   const manifesto = fullManifesto(card);
   const chips = rankSorted.slice(0, 3).map((e) => byEl[e.el].keyword).filter(Boolean); // §6b: top-3 keyword code
-  const cast = castLine(identity, birthData);
+  const cast = identity.cast;
 
   const core = byEl[coreEl];
   return {
@@ -301,22 +301,6 @@ function fullManifesto(card) {
   let tail = parts[1].charAt(0).toLowerCase() + parts[1].slice(1);
   tail = tail.replace(/ — /g, '; ');
   return `${parts[0]} — ${tail}`;
-}
-
-// Cast line + birth-city timezone abbreviation (handoff engine flag: derive
-// the abbr from the stored IANA zone at the birth date, DST-aware via Intl).
-function castLine(identity, birthData) {
-  let cast = identity?.cast || '';
-  const tz = birthData?.location?.timezone;
-  if (tz && birthData?.year) {
-    try {
-      const d = new Date(Date.UTC(birthData.year, (birthData.month || 1) - 1, birthData.day || 1, 12));
-      const parts = new Intl.DateTimeFormat('en-US', { timeZone: tz, timeZoneName: 'short' }).formatToParts(d);
-      const abbr = parts.find((p) => p.type === 'timeZoneName')?.value;
-      if (abbr && !/GMT[+-]/.test(abbr)) cast = `${cast} ${abbr}`;
-    } catch { /* zone unavailable — cast line stands without the abbr */ }
-  }
-  return cast;
 }
 
 // ── element reading screen data (ELD equivalent, templatized) ──────

@@ -12,8 +12,8 @@ export function useReading() {
   const hourUnknown = !!(birthData?.hourUnknown || birthData?.hourWindow);
   const ec = useMemo(() => (chart ? buildEnergyChart(chart) : null), [chart]);
   const identity = useMemo(
-    () => (chart ? buildIdentity(chart, STEM_CARD_DATA[chart.dayMaster.stem], hourUnknown) : null),
-    [chart, hourUnknown]
+    () => (chart ? buildIdentity(chart, STEM_CARD_DATA[chart.dayMaster.stem], birthData) : null),
+    [chart, birthData]
   );
   // Selected energy. Null until the user picks one; the returned `sel` below
   // falls back to the first energy, so no init-effect is needed.

@@ -19,7 +19,6 @@
 // ===================================================================
 
 import { useEffect, useMemo, useRef, useState, useCallback } from 'react';
-import { useChart } from '../../store/chartContext.jsx';
 import { useReading } from '../reading/useReading.js';
 import { STEM_CARD_DATA } from '../../content/index.js';
 import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
@@ -51,7 +50,6 @@ const Disc = () => (
 );
 
 export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onOpenDayMaster, onOpenCodex }) {
-  const { birthData } = useChart();
   const { chart, ec, identity } = useReading();
   const [screen, setScreen] = useState('catalogue');
   const [elOpen, setElOpen] = useState(null);      // element screen target
@@ -68,8 +66,8 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   const model = useMemo(() => {
     if (!chart || !ec || !identity) return null;
     const card = STEM_CARD_DATA[chart.dayMaster.stem];
-    return buildJourneyModel({ chart, ec, identity, card, birthData });
-  }, [chart, ec, identity, birthData]);
+    return buildJourneyModel({ chart, ec, identity, card });
+  }, [chart, ec, identity]);
 
   const playingReveal = reveal;
 
