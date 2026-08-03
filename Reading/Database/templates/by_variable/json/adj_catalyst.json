@@ -1,0 +1,108 @@
+{
+  "$variable": "adj_catalyst",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "GOD": [
+      {
+        "id": "bijian",
+        "key": "比肩",
+        "canonical_name": "The Twin",
+        "value": [
+          "Self-reliant",
+          "Steady",
+          "Unshakeable"
+        ]
+      },
+      {
+        "id": "jiecai",
+        "key": "劫财",
+        "canonical_name": "The Rival",
+        "value": [
+          "Bold",
+          "Fired-up",
+          "Fearless"
+        ]
+      },
+      {
+        "id": "shishen",
+        "key": "食神",
+        "canonical_name": "The Artisan",
+        "value": [
+          "Effortless",
+          "Warm",
+          "Generous"
+        ]
+      },
+      {
+        "id": "shangguan",
+        "key": "伤官",
+        "canonical_name": "The Virtuoso",
+        "value": [
+          "Dazzling",
+          "Unruly",
+          "Rule-breaking"
+        ]
+      },
+      {
+        "id": "piancai",
+        "key": "偏财",
+        "canonical_name": "The Horizon",
+        "value": [
+          "Resourceful",
+          "Venturing",
+          "Magnetic"
+        ]
+      },
+      {
+        "id": "zhengcai",
+        "key": "正财",
+        "canonical_name": "The Steward",
+        "value": [
+          "Reliable",
+          "Compounding",
+          "Loyal"
+        ]
+      },
+      {
+        "id": "qisha",
+        "key": "七杀",
+        "canonical_name": "The General",
+        "value": [
+          "Decisive",
+          "Cool-headed",
+          "Battle-ready"
+        ]
+      },
+      {
+        "id": "zhengguan",
+        "key": "正官",
+        "canonical_name": "The Magistrate",
+        "value": [
+          "Principled",
+          "Trusted",
+          "Fair"
+        ]
+      },
+      {
+        "id": "pianyin",
+        "key": "偏印",
+        "canonical_name": "The Alchemist",
+        "value": [
+          "Intuitive",
+          "Penetrating",
+          "Inventive"
+        ]
+      },
+      {
+        "id": "zhengyin",
+        "key": "正印",
+        "canonical_name": "The Sage",
+        "value": [
+          "Patient",
+          "Sheltering",
+          "Recharging"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "$variable": "definition_line",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "GOD": [
+      {
+        "id": "bijian",
+        "key": "比肩",
+        "canonical_name": "The Twin",
+        "value": "Same nature, same register — the standard you hold yourself to"
+      },
+      {
+        "id": "jiecai",
+        "key": "劫财",
+        "canonical_name": "The Rival",
+        "value": "Same nature, different register — the edge of comparison"
+      },
+      {
+        "id": "shishen",
+        "key": "食神",
+        "canonical_name": "The Artisan",
+        "value": "Output that flows from you — giving that feels like being"
+      },
+      {
+        "id": "shangguan",
+        "key": "伤官",
+        "canonical_name": "The Virtuoso",
+        "value": "Cross-current output — brilliance made of what it meets"
+      },
+      {
+        "id": "piancai",
+        "key": "偏财",
+        "canonical_name": "The Horizon",
+        "value": "Wide-ranging engagement — opportunity sensed at a distance"
+      },
+      {
+        "id": "zhengcai",
+        "key": "正财",
+        "canonical_name": "The Steward",
+        "value": "Methodical, directed acquisition — value built and kept"
+      },
+      {
+        "id": "qisha",
+        "key": "七杀",
+        "canonical_name": "The General",
+        "value": "Pressure that doesn't grant permission — the trial that forges"
+      },
+      {
+        "id": "zhengguan",
+        "key": "正官",
+        "canonical_name": "The Magistrate",
+        "value": "Framework-mediated pressure — the standard that legitimizes"
+      },
+      {
+        "id": "pianyin",
+        "key": "偏印",
+        "canonical_name": "The Alchemist",
+        "value": "Unconventional nourishment — insight that transmutes"
+      },
+      {
+        "id": "zhengyin",
+        "key": "正印",
+        "canonical_name": "The Sage",
+        "value": "Nourishment that deepens without redirecting — the root that holds"
+      }
+    ]
+  }
+}

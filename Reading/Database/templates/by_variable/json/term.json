@@ -1,0 +1,38 @@
+{
+  "$variable": "term",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "CONDITION": [
+      {
+        "id": "overfueled",
+        "key": "身强",
+        "canonical_name": "Overfueled",
+        "value": "Overfueled"
+      },
+      {
+        "id": "balanced",
+        "key": "中和",
+        "canonical_name": "Balanced",
+        "value": "Balanced"
+      },
+      {
+        "id": "underfueled",
+        "key": "身弱",
+        "canonical_name": "Underfueled",
+        "value": "Underfueled"
+      },
+      {
+        "id": "channel",
+        "key": "克泄耗",
+        "canonical_name": "Channel",
+        "value": "Channel"
+      },
+      {
+        "id": "refill",
+        "key": "生助",
+        "canonical_name": "Refill",
+        "value": "Refill"
+      }
+    ]
+  }
+}

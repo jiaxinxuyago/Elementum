@@ -1,0 +1,68 @@
+{
+  "$variable": "manifesto",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "STEM": [
+      {
+        "id": "jia",
+        "key": "甲",
+        "canonical_name": "The Oak",
+        "value": "Motion before readiness · The oak does not negotiate its direction."
+      },
+      {
+        "id": "yi",
+        "key": "乙",
+        "canonical_name": "The Vine",
+        "value": "Route bends. Destination holds. · The vine finds every wall a ladder."
+      },
+      {
+        "id": "bing",
+        "key": "丙",
+        "canonical_name": "The Sun",
+        "value": "Warmth without permission · The sun does not choose who it reaches."
+      },
+      {
+        "id": "ding",
+        "key": "丁",
+        "canonical_name": "The Candle",
+        "value": "Intimacy over range · A candle doesn't reach far — it reaches true."
+      },
+      {
+        "id": "wu",
+        "key": "戊",
+        "canonical_name": "The Mountain",
+        "value": "Immovable by design · Others find their bearings and never name why."
+      },
+      {
+        "id": "ji",
+        "key": "己",
+        "canonical_name": "The Field",
+        "value": "Nourish without credit · The soil feeds everything and claims nothing."
+      },
+      {
+        "id": "geng",
+        "key": "庚",
+        "canonical_name": "The Blade",
+        "value": "Precision before intention · An edge is never given — it is forged."
+      },
+      {
+        "id": "xin",
+        "key": "辛",
+        "canonical_name": "The Jewel",
+        "value": "Refinement over output · The flaw is felt before the eye finds it."
+      },
+      {
+        "id": "ren",
+        "key": "壬",
+        "canonical_name": "The Ocean",
+        "value": "Depth before disclosure · Oceans don't announce their depth."
+      },
+      {
+        "id": "gui",
+        "key": "癸",
+        "canonical_name": "The Rain",
+        "value": "Felt before spoken · What enters water becomes water."
+      }
+    ]
+  }
+}

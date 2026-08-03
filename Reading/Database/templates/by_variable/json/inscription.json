@@ -1,0 +1,68 @@
+{
+  "$variable": "inscription",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "STEM": [
+      {
+        "id": "jia",
+        "key": "甲",
+        "canonical_name": "The Oak",
+        "value": "You grow toward the light you believe in — even where nothing shelters you."
+      },
+      {
+        "id": "yi",
+        "key": "乙",
+        "canonical_name": "The Vine",
+        "value": "You bend where others break — and call it nothing, though it is everything."
+      },
+      {
+        "id": "bing",
+        "key": "丙",
+        "canonical_name": "The Sun",
+        "value": "You warm every room you enter — and rarely ask who warms you."
+      },
+      {
+        "id": "ding",
+        "key": "丁",
+        "canonical_name": "The Candle",
+        "value": "You keep a small fire no storm has found — others read by its light."
+      },
+      {
+        "id": "wu",
+        "key": "戊",
+        "canonical_name": "The Mountain",
+        "value": "You hold what others set down — so long, they forget the weight was theirs."
+      },
+      {
+        "id": "ji",
+        "key": "己",
+        "canonical_name": "The Field",
+        "value": "Everything you tend grows — you are the last to call it your harvest."
+      },
+      {
+        "id": "geng",
+        "key": "庚",
+        "canonical_name": "The Blade",
+        "value": "You say what others soften — and pay, quietly, for being the one who did."
+      },
+      {
+        "id": "xin",
+        "key": "辛",
+        "canonical_name": "The Jewel",
+        "value": "You were polished by what pressed you — brilliance is the part that survived."
+      },
+      {
+        "id": "ren",
+        "key": "壬",
+        "canonical_name": "The Ocean",
+        "value": "You hold more than anyone thinks to ask about — depth was never meant to be seen."
+      },
+      {
+        "id": "gui",
+        "key": "癸",
+        "canonical_name": "The Rain",
+        "value": "You change things slowly, softly, completely — and let the credit fall elsewhere."
+      }
+    ]
+  }
+}

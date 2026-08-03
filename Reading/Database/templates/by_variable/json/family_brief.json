@@ -1,0 +1,68 @@
+{
+  "$variable": "family_brief",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "GOD": [
+      {
+        "id": "bijian",
+        "key": "比肩",
+        "canonical_name": "The Twin",
+        "value": "you"
+      },
+      {
+        "id": "jiecai",
+        "key": "劫财",
+        "canonical_name": "The Rival",
+        "value": "you"
+      },
+      {
+        "id": "shishen",
+        "key": "食神",
+        "canonical_name": "The Artisan",
+        "value": "your output & expression"
+      },
+      {
+        "id": "shangguan",
+        "key": "伤官",
+        "canonical_name": "The Virtuoso",
+        "value": "your output & expression"
+      },
+      {
+        "id": "piancai",
+        "key": "偏财",
+        "canonical_name": "The Horizon",
+        "value": "your wealth & desire"
+      },
+      {
+        "id": "zhengcai",
+        "key": "正财",
+        "canonical_name": "The Steward",
+        "value": "your wealth & desire"
+      },
+      {
+        "id": "qisha",
+        "key": "七杀",
+        "canonical_name": "The General",
+        "value": "your authority & structure"
+      },
+      {
+        "id": "zhengguan",
+        "key": "正官",
+        "canonical_name": "The Magistrate",
+        "value": "your authority & structure"
+      },
+      {
+        "id": "pianyin",
+        "key": "偏印",
+        "canonical_name": "The Alchemist",
+        "value": "your support & nourishment"
+      },
+      {
+        "id": "zhengyin",
+        "key": "正印",
+        "canonical_name": "The Sage",
+        "value": "your support & nourishment"
+      }
+    ]
+  }
+}

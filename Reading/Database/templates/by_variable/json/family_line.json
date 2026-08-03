@@ -1,0 +1,38 @@
+{
+  "$variable": "family_line",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "FAMILY": [
+      {
+        "id": "core",
+        "key": "比劫",
+        "canonical_name": "Core",
+        "value": "This energy is you — your identity and your footing among equals."
+      },
+      {
+        "id": "root",
+        "key": "印",
+        "canonical_name": "Root",
+        "value": "What feeds and backs you — the support and learning you run on."
+      },
+      {
+        "id": "drive",
+        "key": "财",
+        "canonical_name": "Drive",
+        "value": "What you reach for and hold — your reward, ambition, and desire."
+      },
+      {
+        "id": "voice",
+        "key": "食伤",
+        "canonical_name": "Voice",
+        "value": "What you put out — your expression, talent, and voice."
+      },
+      {
+        "id": "duty",
+        "key": "官杀",
+        "canonical_name": "Duty",
+        "value": "What tests and shapes you — the pressure and duty you answer to."
+      }
+    ]
+  }
+}

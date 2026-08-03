@@ -1,0 +1,38 @@
+{
+  "$variable": "energy_tile_tag",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "ELEMENT": [
+      {
+        "id": "metal",
+        "key": "金",
+        "canonical_name": null,
+        "value": "Refinement · the edge"
+      },
+      {
+        "id": "earth",
+        "key": "土",
+        "canonical_name": null,
+        "value": "Stability · the centre"
+      },
+      {
+        "id": "wood",
+        "key": "木",
+        "canonical_name": null,
+        "value": "Growth · the upward push"
+      },
+      {
+        "id": "water",
+        "key": "水",
+        "canonical_name": null,
+        "value": "Flow · the descent"
+      },
+      {
+        "id": "fire",
+        "key": "火",
+        "canonical_name": null,
+        "value": "Radiance · the rising heat"
+      }
+    ]
+  }
+}

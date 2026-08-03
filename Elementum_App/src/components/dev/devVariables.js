@@ -104,4 +104,4 @@ export function buildVariableGroups(model, activeEl) {
 }
 
 export const VARIABLE_REGISTRY_NOTE =
-  'Data station: Reading/Database/templates/json (source) + /md (review twins) · registry: REA_03 · vocabulary: REA_02';
+  'Data station: Reading/Database/templates/by_axis/json (source) + /md (twins) + by_variable (pivot) · registry: REA_03 · vocabulary: REA_02';

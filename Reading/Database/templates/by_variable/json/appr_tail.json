@@ -1,0 +1,20 @@
+{
+  "$variable": "appr_tail",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "CONDITION": [
+      {
+        "id": "channel",
+        "key": "克泄耗",
+        "canonical_name": "Channel",
+        "value": "aim the surplus, don’t add to it."
+      },
+      {
+        "id": "refill",
+        "key": "生助",
+        "canonical_name": "Refill",
+        "value": "take in what feeds you."
+      }
+    ]
+  }
+}

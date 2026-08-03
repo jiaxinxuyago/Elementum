@@ -1,0 +1,108 @@
+{
+  "$variable": "face_kw",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "GOD": [
+      {
+        "id": "bijian",
+        "key": "比肩",
+        "canonical_name": "The Twin",
+        "value": [
+          "Independent",
+          "Resolute",
+          "Self-made"
+        ]
+      },
+      {
+        "id": "jiecai",
+        "key": "劫财",
+        "canonical_name": "The Rival",
+        "value": [
+          "Driven",
+          "Competitive",
+          "Bold"
+        ]
+      },
+      {
+        "id": "shishen",
+        "key": "食神",
+        "canonical_name": "The Artisan",
+        "value": [
+          "Fluent",
+          "Generous",
+          "Easeful"
+        ]
+      },
+      {
+        "id": "shangguan",
+        "key": "伤官",
+        "canonical_name": "The Virtuoso",
+        "value": [
+          "Brilliant",
+          "Unruly",
+          "Daring"
+        ]
+      },
+      {
+        "id": "piancai",
+        "key": "偏财",
+        "canonical_name": "The Horizon",
+        "value": [
+          "Expansive",
+          "Sensing",
+          "Distant"
+        ]
+      },
+      {
+        "id": "zhengcai",
+        "key": "正财",
+        "canonical_name": "The Steward",
+        "value": [
+          "Steady",
+          "Accruing",
+          "Enduring"
+        ]
+      },
+      {
+        "id": "qisha",
+        "key": "七杀",
+        "canonical_name": "The General",
+        "value": [
+          "Forging",
+          "Relentless",
+          "Decisive"
+        ]
+      },
+      {
+        "id": "zhengguan",
+        "key": "正官",
+        "canonical_name": "The Magistrate",
+        "value": [
+          "Principled",
+          "Measured",
+          "Ordered"
+        ]
+      },
+      {
+        "id": "pianyin",
+        "key": "偏印",
+        "canonical_name": "The Alchemist",
+        "value": [
+          "Intuitive",
+          "Unorthodox",
+          "Transmuting"
+        ]
+      },
+      {
+        "id": "zhengyin",
+        "key": "正印",
+        "canonical_name": "The Sage",
+        "value": [
+          "Grounding",
+          "Nurturing",
+          "Patient"
+        ]
+      }
+    ]
+  }
+}

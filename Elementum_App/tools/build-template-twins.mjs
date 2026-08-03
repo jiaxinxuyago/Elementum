@@ -1,9 +1,17 @@
 // ===================================================================
-// ELEMENTUM · template MD-twin generator (axis station)
+// ELEMENTUM · station view generator (axis twins + by_variable pivot)
 // ===================================================================
-// Renders a review-grade Markdown twin (templates/md/<AXIS>/...) for
-// every JSON in templates/json/<AXIS>/. Twins are GENERATED — never
-// hand-edit them; edit the JSON (or request the change) and re-run:
+// The axis station's SOURCE OF TRUTH is templates/by_axis/json/<AXIS>/.
+// This tool renders every GENERATED view of it:
+//   1. templates/by_axis/md/<AXIS>/*.md — review-grade twin per JSON.
+//   2. templates/by_variable/{json,md}/<variable>.* — the comparative
+//      pivot (owner-ruled 2026-08-03): one file per registry variable
+//      holding ALL archetype variants in taxonomy order (_ORDER.json),
+//      for line-by-line comparison across archetypes. Registry fields
+//      only — __ore never pivots. TEMPLATED is excluded: each of its
+//      by_axis files already IS a single-variable view.
+// Views are GENERATED — never hand-edit; edit the by_axis JSON (or
+// request the change) and re-run:
 //   node tools/build-template-twins.mjs
 // Spec: REA_05 §1–§3.
 // ===================================================================
@@ -13,8 +21,13 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const JSON_DIR = path.resolve(__dirname, '../../Reading/Database/templates/json');
-const MD_DIR = path.resolve(__dirname, '../../Reading/Database/templates/md');
+const STATION = path.resolve(__dirname, '../../Reading/Database/templates');
+const JSON_DIR = path.join(STATION, 'by_axis', 'json');
+const MD_DIR = path.join(STATION, 'by_axis', 'md');
+const VAR_JSON_DIR = path.join(STATION, 'by_variable', 'json');
+const VAR_MD_DIR = path.join(STATION, 'by_variable', 'md');
+
+const GENERATED_BANNER = '> **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.';
 
 const esc = (s) => String(s).replace(/\|/g, '\\|').replace(/\n/g, ' ');
 const cell = (v) => {
@@ -33,6 +46,7 @@ const flat = (obj, prefix = '') => Object.entries(obj).flatMap(([k, v]) => {
   return [[key, v]];
 });
 
+// ── 1 · axis md twins ──────────────────────────────────────────────
 fs.rmSync(MD_DIR, { recursive: true, force: true });
 let n = 0;
 for (const axis of fs.readdirSync(JSON_DIR)) {
@@ -47,7 +61,7 @@ for (const axis of fs.readdirSync(JSON_DIR)) {
     const L = [];
     L.push(`# ${t.key || t.$archetype}${t.canonical_name ? ` — ${t.canonical_name}` : ''}  ·  ${axis} archetype`);
     L.push('');
-    L.push('> **GENERATED from the JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.');
+    L.push(GENERATED_BANNER);
     L.push('>');
     L.push(`> ${esc(t.candidate_note || '')}`);
     L.push('');
@@ -87,4 +101,72 @@ for (const axis of fs.readdirSync(JSON_DIR)) {
     n++;
   }
 }
-console.log(`✓ ${n} twins regenerated in ${MD_DIR}`);
+
+// ── 2 · by_variable pivot (comparative view) ───────────────────────
+// _ORDER.json (written by the seeder) fixes the taxonomy order of the
+// archetypes inside every axis; without it we refuse to guess.
+const order = JSON.parse(fs.readFileSync(path.join(JSON_DIR, '_ORDER.json'), 'utf8'));
+const PIVOT_SKIP = new Set(['TEMPLATED']);
+
+const pivot = {}; // varName -> { axes: { AXIS: [ {id, key, canonical_name, value} ] } }
+for (const [axis, names] of Object.entries(order)) {
+  if (PIVOT_SKIP.has(axis)) continue;
+  for (const name of names) {
+    const fp = path.join(JSON_DIR, axis, `${name}.json`);
+    if (!fs.existsSync(fp)) continue;
+    const t = JSON.parse(fs.readFileSync(fp, 'utf8'));
+    const { __ore, ...vars } = t.candidates || {};
+    for (const [varName, value] of Object.entries(vars)) {
+      const p = (pivot[varName] ||= { axes: {} });
+      (p.axes[axis] ||= []).push({ id: name, key: t.key ?? null, canonical_name: t.canonical_name ?? null, value });
+    }
+  }
+}
+
+fs.rmSync(VAR_JSON_DIR, { recursive: true, force: true });
+fs.rmSync(VAR_MD_DIR, { recursive: true, force: true });
+fs.mkdirSync(VAR_JSON_DIR, { recursive: true });
+fs.mkdirSync(VAR_MD_DIR, { recursive: true });
+
+const PIVOT_NOTE = 'GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.';
+let m = 0;
+for (const [varName, p] of Object.entries(pivot)) {
+  fs.writeFileSync(path.join(VAR_JSON_DIR, `${varName}.json`),
+    JSON.stringify({ $variable: varName, generated_note: PIVOT_NOTE, axes: p.axes }, null, 2) + '\n', 'utf8');
+
+  const L = [];
+  const axesNames = Object.keys(p.axes);
+  L.push(`# \`${varName}\`  ·  by-variable comparison`);
+  L.push('');
+  L.push(GENERATED_BANNER);
+  L.push('>');
+  L.push(`> ${PIVOT_NOTE}`);
+  L.push('');
+  for (const axis of axesNames) {
+    const variants = p.axes[axis];
+    L.push(`## ${axis} (×${variants.length})`);
+    L.push('');
+    const simple = variants.every((v) => cell(v.value) !== null);
+    if (simple) {
+      L.push('| Archetype | Key | Value |');
+      L.push('|---|---|---|');
+      for (const v of variants) L.push(`| **${esc(v.canonical_name || v.id)}** | ${esc(v.key ?? v.id)} | ${cell(v.value)} |`);
+      L.push('');
+    } else {
+      for (const v of variants) {
+        L.push(`### ${esc(v.canonical_name || v.id)} · ${esc(v.key ?? v.id)}`);
+        L.push('');
+        L.push('| Field | Value |');
+        L.push('|---|---|');
+        const rows = (v.value && typeof v.value === 'object') ? flat(v.value) : [['value', v.value]];
+        for (const [k, val] of rows) L.push(`| \`${esc(k)}\` | ${cell(val) ?? esc(JSON.stringify(val))} |`);
+        L.push('');
+      }
+    }
+  }
+  fs.writeFileSync(path.join(VAR_MD_DIR, `${varName}.md`), L.join('\n'), 'utf8');
+  m++;
+}
+
+console.log(`✓ ${n} axis twins in ${MD_DIR}`);
+console.log(`✓ ${m} variable pivots (json + md) in ${path.join(STATION, 'by_variable')}`);

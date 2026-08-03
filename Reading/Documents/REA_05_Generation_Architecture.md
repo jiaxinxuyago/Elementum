@@ -11,9 +11,11 @@
 ## §1 · The storage model (three stations, one direction)
 
 ```
-Reading/Database/templates/json/<AXIS>/  AUTHORING SOURCE OF TRUTH (one folder per axis,
-                                         one template per ARCHETYPE of that axis — REA_01 taxonomy)
-        │  (generated twins: templates/md/*.md — review-grade, never hand-edited)
+Reading/Database/templates/by_axis/json/<AXIS>/  AUTHORING SOURCE OF TRUTH (one folder per
+                                         axis, one template per ARCHETYPE — REA_01 taxonomy)
+        │  (generated views, never hand-edited:
+        │     by_axis/md/<AXIS>/*.md        — review twin per archetype file
+        │     by_variable/{json,md}/<var>.* — comparative pivot per registry variable)
         ▼   owner review → lock
 Elementum_App/src/content/*           RUNTIME TRUTH (js modules the app ships)
         │
@@ -21,8 +23,12 @@ Elementum_App/src/content/*           RUNTIME TRUTH (js modules the app ships)
 engine/journey/consumers              buildJourneyModel · Self-Report · Consultant payload
 ```
 
-1. **`Reading/Database/templates/json/`** — one **JSON file per data template** (per REA_03 variable): the authoring and review station. Seeded from the live corpus for LIVE/INTERIM variables; stubbed (keys enumerated, values null) for PLANNED ones. Each JSON carries a header block (`$template`, class, axis, status, budget, source_of_truth) so a file is self-describing.
-2. **Markdown twins** (`templates/md/*.md`) — GENERATED from the JSONs by `tools/build-template-twins.mjs`; clean tables for manual content review. **Never hand-edit a twin** — mark it up / request changes, the JSON updates, twins regenerate. Banner on every twin says so.
+The station has **two parent views** (owner-ruled 2026-08-03): **`by_axis/`** — the axis-major truth, "show me everything about 庚" — and **`by_variable/`** — the generated variable-major pivot, "show me `inscription` across all ten stems," built for comparative line-by-line content iteration.
+
+1. **`Reading/Database/templates/by_axis/json/`** — one **JSON file per data template** (per REA_03 variable): the authoring and review station and the ONLY editing surface. Seeded from the live corpus for LIVE/INTERIM variables; stubbed (keys enumerated, values null) for PLANNED ones. Each JSON carries a header block (`$template`, class, axis, status, budget, source_of_truth) so a file is self-describing. The seeder also emits `_ORDER.json` — the canonical archetype order per axis, which fixes variant order in the pivot.
+2. **Generated views** — rebuilt together by `tools/build-template-twins.mjs`; **never hand-edit either** (banner on every file says so):
+   - **Axis md twins** (`by_axis/md/<AXIS>/*.md`) — clean per-archetype tables for manual review.
+   - **By-variable pivot** (`by_variable/json/<var>.json` + `by_variable/md/<var>.md`) — one file per registry variable holding ALL its archetype variants in taxonomy order. Registry fields only: `__ore` never pivots, and TEMPLATED is excluded (each of its by_axis files already is a single-variable view). This revives the retired variable-major view (§5) as a projection, not a second truth.
 3. **`Elementum_App/src/content/`** — the runtime modules (cleanup rule #1: live code lives in the app). Locked template data is **transcribed deliberately** from the JSON station into the content modules — there is **no automatic Reading→app pipeline** (standing owner rule; an auto-pipeline would be a separate owner-scoped project). The JSON station is where content is *decided*; `src/content` is where it *ships*.
 
 **Sync law:** on any locked change, the order is JSON → twin (regen) → `src/content` transcription → app. A divergence between a LIVE variable's JSON and its `src/content` value is a defect (auditable mechanically — the seeder doubles as a diff tool).
@@ -30,7 +36,7 @@ engine/journey/consumers              buildJourneyModel · Self-Report · Consul
 ## §2 · File anatomy
 
 ```jsonc
-// Reading/Database/templates/json/STEM/geng.json
+// Reading/Database/templates/by_axis/json/STEM/geng.json
 {
   "$archetype": "geng",
   "axis": "STEM",                      // per the REA_01 normative taxonomy
@@ -51,8 +57,8 @@ engine/journey/consumers              buildJourneyModel · Self-Report · Consul
 
 | Tool | Job |
 |---|---|
-| `Elementum_App/tools/export-reading-templates.mjs` | Builds/reseeds the AXIS STATION (`templates/json/<AXIS>/`) from the live corpus + REA_02 locks + the REA_03 §4b table (rebuild 2026-07-30; note: a reseed OVERWRITES — once owner rulings edit the JSONs, they become the source and the seeder retires or learns to merge). **`--check` mode (added 2026-07-30, the §1 sync-law audit): harvests the same state but writes nothing — diffs every template against the on-disk station byte-for-byte, prints `DRIFT`/`MISSING` per file, exit 1 on any drift.** Verified both directions at station closure: 138/138 in sync; a planted mutation is caught and named. |
-| `Elementum_App/tools/build-template-twins.mjs` | Regenerates every `templates/*.md` twin from its JSON. Run after any JSON edit. |
+| `Elementum_App/tools/export-reading-templates.mjs` | Builds/reseeds the AXIS STATION (`templates/by_axis/json/<AXIS>/` + `_ORDER.json`) from the live corpus + REA_02 locks + the REA_03 §4b table (rebuild 2026-07-30; note: a reseed OVERWRITES — once owner rulings edit the JSONs, they become the source and the seeder retires or learns to merge). **`--check` mode (added 2026-07-30, the §1 sync-law audit): harvests the same state but writes nothing — diffs every template (and `_ORDER.json`) against the on-disk station byte-for-byte, prints `DRIFT`/`MISSING` per file, exit 1 on any drift.** Verified both directions at station closure: 138/138 in sync; a planted mutation is caught and named. |
+| `Elementum_App/tools/build-template-twins.mjs` | Regenerates every generated view from the by_axis JSONs: the `by_axis/md` twins AND the `by_variable/{json,md}` pivot. Run after any JSON edit. |
 | `Elementum_App/tools/build-field-map-xlsx.mjs` | Regenerates the REA_03 xlsx twin from the schema markdown (the variable-registry view). |
 
 ## §4 · Consumption map (who reads what at runtime)
@@ -67,7 +73,7 @@ engine/journey/consumers              buildJourneyModel · Self-Report · Consul
 
 ## §5 · Future stations (declared, not built)
 
-- **Compiled per-stem profiles — RETIRED 2026-07-30 with the flat variable-major station** (both superseded by the axis station; a joined reading view can be regenerated later if wanted).
+- **Compiled per-stem profiles — RETIRED 2026-07-30 with the flat variable-major station** (both superseded by the axis station; a joined reading view can be regenerated later if wanted). *Update 2026-08-03: the variable-major view IS now regenerated — as the `by_variable/` pivot (§1), a generated projection of the by_axis truth, not a second station.*
 - **`archetypeSchema.js` rewrite** — the code schema conforms to REA_03 (types, caps, varyBy); afterwards a code-mirror doc can be regenerated as a tool artifact.
 - **Validation gate** — budget/axis checks of every JSON against REA_03 (word caps, key completeness, register shape) as a pre-transcription step; extends the seeder.
 

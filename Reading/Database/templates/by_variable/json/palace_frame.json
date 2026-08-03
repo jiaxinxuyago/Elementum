@@ -1,0 +1,71 @@
+{
+  "$variable": "palace_frame",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "POSITION": [
+      {
+        "id": "yearStem",
+        "key": "yearStem",
+        "canonical_name": null,
+        "value": {
+          "domain": null,
+          "relationalReframe": null
+        }
+      },
+      {
+        "id": "yearBranch",
+        "key": "yearBranch",
+        "canonical_name": null,
+        "value": {
+          "domain": null,
+          "relationalReframe": null
+        }
+      },
+      {
+        "id": "monthStem",
+        "key": "monthStem",
+        "canonical_name": null,
+        "value": {
+          "domain": null,
+          "relationalReframe": null
+        }
+      },
+      {
+        "id": "monthBranch",
+        "key": "monthBranch",
+        "canonical_name": null,
+        "value": {
+          "domain": null,
+          "relationalReframe": null
+        }
+      },
+      {
+        "id": "dayBranch",
+        "key": "dayBranch",
+        "canonical_name": null,
+        "value": {
+          "domain": null,
+          "relationalReframe": null
+        }
+      },
+      {
+        "id": "hourStem",
+        "key": "hourStem",
+        "canonical_name": null,
+        "value": {
+          "domain": null,
+          "relationalReframe": null
+        }
+      },
+      {
+        "id": "hourBranch",
+        "key": "hourBranch",
+        "canonical_name": null,
+        "value": {
+          "domain": null,
+          "relationalReframe": null
+        }
+      }
+    ]
+  }
+}

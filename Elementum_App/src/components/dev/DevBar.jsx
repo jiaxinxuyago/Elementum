@@ -548,7 +548,7 @@ function AxisChip({ axis }) {
 }
 
 // The resolved archetype of the row's axis — names the station file
-// (Reading/Database/templates/json/<AXIS>/<arch>.json) this chart selects.
+// (Reading/Database/templates/by_axis/json/<AXIS>/<arch>.json) this chart selects.
 function ArchChip({ arch }) {
   if (!arch) return null;
   return (

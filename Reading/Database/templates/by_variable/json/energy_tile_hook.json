@@ -1,0 +1,38 @@
+{
+  "$variable": "energy_tile_hook",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "ELEMENT": [
+      {
+        "id": "metal",
+        "key": "金",
+        "canonical_name": null,
+        "value": "Your core — precision before intention."
+      },
+      {
+        "id": "earth",
+        "key": "土",
+        "canonical_name": null,
+        "value": "The ground that feeds your edge."
+      },
+      {
+        "id": "wood",
+        "key": "木",
+        "canonical_name": null,
+        "value": "What your blade is for."
+      },
+      {
+        "id": "water",
+        "key": "水",
+        "canonical_name": null,
+        "value": "Where your edge learns to flow."
+      },
+      {
+        "id": "fire",
+        "key": "火",
+        "canonical_name": null,
+        "value": "The forge you borrow, never own."
+      }
+    ]
+  }
+}

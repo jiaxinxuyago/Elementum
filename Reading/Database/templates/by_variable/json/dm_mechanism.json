@@ -1,0 +1,68 @@
+{
+  "$variable": "dm_mechanism",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "STEM": [
+      {
+        "id": "jia",
+        "key": "甲",
+        "canonical_name": "The Oak",
+        "value": "Yang Wood grown toward light — a spine that rose by reaching, season over season."
+      },
+      {
+        "id": "yi",
+        "key": "乙",
+        "canonical_name": "The Vine",
+        "value": "Yin Wood that wins by yielding — resilience dressed as softness."
+      },
+      {
+        "id": "bing",
+        "key": "丙",
+        "canonical_name": "The Sun",
+        "value": "Yang Fire that gives without dimming — radiance steadied by what it warms."
+      },
+      {
+        "id": "ding",
+        "key": "丁",
+        "canonical_name": "The Candle",
+        "value": "Yin Fire kept close — a focused heat that endures by staying contained."
+      },
+      {
+        "id": "wu",
+        "key": "戊",
+        "canonical_name": "The Mountain",
+        "value": "Yang Earth that holds its shape — weight that becomes shelter under load."
+      },
+      {
+        "id": "ji",
+        "key": "己",
+        "canonical_name": "The Field",
+        "value": "Yin Earth that nourishes quietly — fertile ground that asks for no credit."
+      },
+      {
+        "id": "geng",
+        "key": "庚",
+        "canonical_name": "The Blade",
+        "value": "Yang Metal tempered by spring wood — strength that grew against resistance, not in its absence."
+      },
+      {
+        "id": "xin",
+        "key": "辛",
+        "canonical_name": "The Jewel",
+        "value": "Yin Metal refined under pressure — an edge made keen by polishing, not by force."
+      },
+      {
+        "id": "ren",
+        "key": "壬",
+        "canonical_name": "The Ocean",
+        "value": "Yang Water that carves by patience — force that wins by not insisting."
+      },
+      {
+        "id": "gui",
+        "key": "癸",
+        "canonical_name": "The Rain",
+        "value": "Yin Water that finds every opening — perception that travels where pressure cannot."
+      }
+    ]
+  }
+}

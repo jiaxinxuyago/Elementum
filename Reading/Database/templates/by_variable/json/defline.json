@@ -1,0 +1,38 @@
+{
+  "$variable": "defline",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "CONDITION": [
+      {
+        "id": "overfueled",
+        "key": "身强",
+        "canonical_name": "Overfueled",
+        "value": "More fuel comes in than your core burns — the surplus wants somewhere to go. Built into your chart, not today’s mood."
+      },
+      {
+        "id": "balanced",
+        "key": "中和",
+        "canonical_name": "Balanced",
+        "value": "Intake and burn hold each other — the condition the other two work toward."
+      },
+      {
+        "id": "underfueled",
+        "key": "身弱",
+        "canonical_name": "Underfueled",
+        "value": "Your core burns more than it takes in — the right intake is what your chart asks for. Built in, not a mood."
+      },
+      {
+        "id": "channel",
+        "key": "克泄耗",
+        "canonical_name": "Channel",
+        "value": "Give your extra force a place to go — aim it, don’t store it. The two lists below are where it goes."
+      },
+      {
+        "id": "refill",
+        "key": "生助",
+        "canonical_name": "Refill",
+        "value": "Take in what feeds you — intake isn’t a crutch, it’s your engine. The two lists below are where it comes from."
+      }
+    ]
+  }
+}

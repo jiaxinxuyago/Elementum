@@ -1,0 +1,38 @@
+{
+  "$variable": "mean_line",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "ELEMENT": [
+      {
+        "id": "metal",
+        "key": "金",
+        "canonical_name": null,
+        "value": "The verdict arrives before the conversation — evaluative precision, the standard that runs first."
+      },
+      {
+        "id": "earth",
+        "key": "土",
+        "canonical_name": null,
+        "value": "Load-bearing without announcement — the ground others build on."
+      },
+      {
+        "id": "wood",
+        "key": "木",
+        "canonical_name": null,
+        "value": "Building before knowing what it will become — growth as architecture."
+      },
+      {
+        "id": "water",
+        "key": "水",
+        "canonical_name": null,
+        "value": "Reads before being told — knows before the question is complete."
+      },
+      {
+        "id": "fire",
+        "key": "火",
+        "canonical_name": null,
+        "value": "The room is different before you speak — warmth as climate, light that changes what it touches."
+      }
+    ]
+  }
+}

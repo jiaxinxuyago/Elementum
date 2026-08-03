@@ -22,7 +22,7 @@ Around the compound sit the two non-archetype classes: **derived values** (perce
 
 ## The taxonomy (NORMATIVE — the archetype classification method)
 
-> **Owner-finalized 2026-07-30.** This table is the system's classification authority: each axis is a CLASS OF ARCHETYPES; the count dictates how many archetypes that class contains; and each class carries its own **construct of data variables** — decided per axis, owner-supervised (the data-ruling task). The data station mirrors this table one-to-one: `Reading/Database/templates/json/<AXIS>/` holds one template per archetype. REA_03 applies this taxonomy to the variables; when they disagree, THIS table wins.
+> **Owner-finalized 2026-07-30.** This table is the system's classification authority: each axis is a CLASS OF ARCHETYPES; the count dictates how many archetypes that class contains; and each class carries its own **construct of data variables** — decided per axis, owner-supervised (the data-ruling task). The data station mirrors this table one-to-one: `Reading/Database/templates/by_axis/json/<AXIS>/` holds one template per archetype (a generated comparative pivot lives beside it in `templates/by_variable/` — REA_05 §1). REA_03 applies this taxonomy to the variables; when they disagree, THIS table wins.
 
 | Axis (archetype class) | Count | What its archetypes are | Station folder | Construct |
 |---|---|---|---|---|
