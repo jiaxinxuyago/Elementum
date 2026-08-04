@@ -414,6 +414,16 @@ export default function App() {
   // are instant (no Suspense "white blink"). Runs once; first paint unaffected.
   useEffect(() => { prefetchScreens(); prefetchBackgrounds(); }, []);
 
+  // Which energy the reading card opens on (set when a node/tile is tapped).
+  // Declared above the dev-hook effect below, which publishes `openEnergy`.
+  const [energyEl, setEnergyEl] = useState(null);
+  const openEnergy = (el) => { setEnergyEl(el); setScreen('app-energy'); };
+  // Dev-only: expose the active energy element so the DevBar Schema tab can
+  // resolve element-scoped variables for the element actually on screen.
+  useEffect(() => {
+    if (IS_DEV && typeof window !== 'undefined') window.__energyEl = energyEl;
+  }, [energyEl]);
+
   // Dev-only helper: window.__goto('step3') to jump to any screen for testing.
   // Gated to dev builds (IS_DEV) so the navigation/test hook never ships to users.
   useEffect(() => {
@@ -426,7 +436,7 @@ export default function App() {
       // sweep enumerates screens from the running app, never a copied list.
       window.__screens = [...FLOW];
       // Per-element full energy reading (app-energy) — DevBar element buttons.
-      window.__openEnergy = (el) => { setEnergyEl(el); setScreen('app-energy'); };
+      window.__openEnergy = openEnergy;
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -437,14 +447,6 @@ export default function App() {
   // 'profile') to the corresponding FLOW screen ('app-*'). Used as the
   // `onTabChange` callback by every DashboardShell render.
   const routeTab = (tabKey) => setScreen(`app-${tabKey}`);
-  // Which energy the reading card opens on (set when a node/tile is tapped).
-  const [energyEl, setEnergyEl] = useState(null);
-  const openEnergy = (el) => { setEnergyEl(el); setScreen('app-energy'); };
-  // Dev-only: expose the active energy element so the DevBar Schema tab can
-  // resolve element-scoped variables for the element actually on screen.
-  useEffect(() => {
-    if (import.meta.env.DEV && typeof window !== 'undefined') window.__energyEl = energyEl;
-  }, [energyEl]);
 
   // Back handler: previous in the linear sequence, respecting conditionals
   // (so that a user on step5 who came through step4a returns to step4a).
