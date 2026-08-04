@@ -410,7 +410,7 @@ function ChartView({ birthData, chart, tier, setTier, currentScreen, goto, seed,
 // (catalogue / daymaster / element inside JourneyStage) arrive via the
 // dev-only 'journey-screen' event since they are not hash routes.
 const SURFACE = {
-  identity: 'Identity · Reveal + Hero + Share card',
+  identity: 'Identity · Reveal plate + Share card',
   catalogue: 'Catalogue · Folio + Panels + Pills',
   daymaster: 'Day-Master screen',
   element: 'Element screens (interim → K2)',

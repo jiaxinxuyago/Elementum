@@ -46,19 +46,18 @@ export function buildVariableGroups(model, activeEl) {
 
   return [
     {
-      surface: 'Identity · Reveal + Hero + Share card',
+      surface: 'Identity · Reveal plate + Share card',
       vars: [
         { name: 'archetype_name', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: m?.archetype },
         { name: 'manifesto', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: m?.manifesto },
         { name: 'inscription', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: m?.inscription },
-        { name: 'pinyin_display', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: m?.pinyin },
-        { name: 'top3_keyword_selection', axis: 'DERIVED', status: 'LIVE', value: m?.chips?.join(' · ') },
         { name: 'tpl_cast_line', axis: 'T · derived slots', arch: 'tpl_cast_line', status: 'LIVE', value: m?.cast },
       ],
     },
     {
       surface: 'Catalogue · Folio + Panels + Pills',
       vars: [
+        { name: 'top3_keyword_selection (hero chips)', axis: 'DERIVED', status: 'LIVE', value: m?.chips?.join(' · ') },
         { name: 'condition / approach', axis: 'DERIVED→V', arch: condRemedyArch, status: 'LIVE', value: m ? `${m.condition}${m.approach ? ` → ${m.approach}` : ''}` : null },
         { name: 'fold_verdict (V)', axis: 'CONDITION×3', arch: condArch, status: 'LIVE', value: m?.foldVerdict },
         { name: 'lead_god_per_element', axis: 'DERIVED', status: 'LIVE', value: perEl((r) => r.god) },
@@ -74,6 +73,7 @@ export function buildVariableGroups(model, activeEl) {
     {
       surface: 'Day-Master screen',
       vars: [
+        { name: 'pinyin_display (dm-hero + share card)', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: m?.pinyin },
         { name: 'yourNature_desc', axis: 'STEM×10', arch: stemArch, status: 'LIVE ⚠R4 not surfacing', value: card?.yourNature?.desc },
         { name: 'dm_claims', axis: 'STEM×10', arch: stemArch, status: 'PLANNED', value: null },
         { name: 'dm_mechanism', axis: 'STEM×10', arch: stemArch, status: 'PLANNED', value: null },
