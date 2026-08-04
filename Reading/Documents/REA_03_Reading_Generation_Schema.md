@@ -84,6 +84,8 @@ K1 extensions (claims + mechanism) 10 × ~62w ≈ 620w · K1b self cards 30 × ~
 
 **This schema (design truth) → `archetypeSchema.js` (code implements: types, caps, tiers, varyBy) → a regenerated designer mirror (tool artifact, if wanted).** When doc and code disagree during the transition, THIS doc wins for the target model; the code schema still describes legacy v0.x until its rewrite. (REA_06's hand-maintained mirror is retired; the field cascade becomes: REA_03 → archetypeSchema.js → 庚 in archetypeSource.js → consumer.)
 
+**Content-value chain (editing-surface flip, owner-ruled 2026-08-04 · Option B):** for the VALUES of content variables the station is the editing surface — `by_axis/json` edit → twins/pivot regen → deliberate `src/content` transcription → `node tools/export-reading-templates.mjs` green (default mode = the field-level transcription audit; `OWED` = a transcription is pending). `--harvest` is a destructive bootstrap-only rebuild of the station from code.
+
 ---
 
 ## §3 · Part I — Identity variables (K1 grain, stem-keyed)
