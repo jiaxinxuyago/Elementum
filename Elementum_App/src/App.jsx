@@ -816,6 +816,22 @@ function DevHelpers() {
         ren:  { ...base, year: 1995, month: 5, day: 1,  __stem: '壬' },
         gui:  { ...base, year: 1995, month: 5, day: 2,  __stem: '癸' },
       };
+      // The golden reference chart (REA_03 Appendix A): 庚 · 1995-04-29 ·
+      // 18:00 · Beijing. Unlike the stem presets, it carries the full
+      // onboarding-shaped location object (IANA zone included) so the cast
+      // line renders its timezone, and it replays the REAL loading→reveal
+      // ceremony instead of hot-swapping the chart in place.
+      window.__seedExemplar = () => {
+        updateBirthData({
+          ...base, year: 1995, month: 4, day: 29,
+          location: {
+            name: 'Beijing', admin1: 'Beijing', country: 'China', countryCode: 'CN',
+            latitude: 39.9042, longitude: 116.4074, timezone: 'Asia/Shanghai',
+          },
+        });
+        window.__goto?.('loading');
+      };
+
       // Backwards-compat alias names.
       const ALIASES = { blade: 'geng', rain: 'gui' };
       // Ordered cycle (DEV_01 / REA_01 canonical order: 甲乙丙丁戊己庚辛壬癸).

@@ -248,6 +248,33 @@ function ChartView({ birthData, chart, tier, setTier, currentScreen, goto, seed,
         </div>
       </DevSection>
 
+      <DevSection label="Exemplar chart">
+        {/* The golden reference chart (REA_03 Appendix A) through the real
+            loading→reveal ceremony — full location object, so the cast
+            line carries its timezone. */}
+        <button
+          onClick={() => window.__seedExemplar?.()}
+          style={{
+            width: '100%',
+            padding: '10px 12px',
+            borderRadius: 8,
+            border: '1px solid #8b7355',
+            background: 'rgba(139,115,85,0.18)',
+            color: '#e8dec8',
+            cursor: 'pointer',
+            fontFamily: 'inherit',
+            fontSize: 13,
+            textAlign: 'left',
+            lineHeight: 1.4,
+          }}
+        >
+          庚 The Blade · 1995-04-29 · 18:00 CST
+          <div style={{ fontSize: 10, color: '#bfb7a8', letterSpacing: 0.4 }}>
+            Beijing · replay loading → reveal
+          </div>
+        </button>
+      </DevSection>
+
       <DevSection label={`Day-master cycle  ·  ${chart?.dayMaster?.stem || '—'}`}>
         {/* 10-stem grid — clicking seeds that stem in place.
             Keyboard shortcuts: [ ] cycles prev/next stem (see useEffect). */}
