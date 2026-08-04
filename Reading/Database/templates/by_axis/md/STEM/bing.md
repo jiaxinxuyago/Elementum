@@ -10,6 +10,7 @@
 | **key** | 丙 |
 | **canonical name** | The Sun |
 | **construct** | TBD — ruled per-axis with the owner |
+| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) |
 | **sources** | Elementum_App/src/content/archetypeSource.js · src/content/reading/readingContent.js (DM_READING) · buildIdentity |
 
 ## Candidate variables

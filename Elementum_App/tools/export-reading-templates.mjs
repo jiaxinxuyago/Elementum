@@ -157,7 +157,8 @@ for (const s of STEMS) {
       psych: card.psych ?? null, archetypes: card.archetypes ?? null,
       blocks: card.blocks ?? null,
     },
-  }, ['Elementum_App/src/content/archetypeSource.js', 'src/content/reading/readingContent.js (DM_READING)', 'buildIdentity']);
+  }, ['Elementum_App/src/content/archetypeSource.js', 'src/content/reading/readingContent.js (DM_READING)', 'buildIdentity'],
+  { status_note: 'manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4)' });
 }
 
 // ── STEM_BAND ×30 ──
