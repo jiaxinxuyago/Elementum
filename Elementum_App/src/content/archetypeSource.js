@@ -47,6 +47,7 @@ export const STEM_CARD_DATA = {
       archetypeLabel: `Yang Wood — The Oak`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Motion before readiness · The oak does not negotiate its direction.`,
+      inscription:    `You grow toward the light you believe in — even where nothing shelters you.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -155,6 +156,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       archetypeLabel: `Yin Wood — The Vine`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Route bends. Destination holds. · The vine finds every wall a ladder.`,
+      inscription:    `You bend where others break — and call it nothing, though it is everything.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -261,6 +263,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       archetypeLabel: `Yang Fire — The Sun`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Warmth without permission · The sun does not choose who it reaches.`,
+      inscription:    `You warm every room you enter — and rarely ask who warms you.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -367,6 +370,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       archetypeLabel: `Yin Fire — The Candle`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Intimacy over range · A candle doesn't reach far — it reaches true.`,
+      inscription:    `You keep a small fire no storm has found — others read by its light.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -475,6 +479,7 @@ There's also an investment asymmetry that accumulates: you give the full quality
       archetypeLabel: `Yang Earth — The Mountain`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Immovable by design · Others find their bearings and never name why.`,
+      inscription:    `You hold what others set down — so long, they forget the weight was theirs.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -583,6 +588,7 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
       archetypeLabel: `Yin Earth — The Field`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Nourish without credit · The soil feeds everything and claims nothing.`,
+      inscription:    `Everything you tend grows — you are the last to call it your harvest.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -691,6 +697,7 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
       archetypeLabel: `Yang Metal — The Blade`,      // full label used in pills, headers, share cards
       identityIcon:   `BladeJian`,                   // component key in Engine — 庚-specific sword SVG
       manifesto:      `Precision before intention · An edge is never given — it is forged.`,
+      inscription:    `You say what others soften — and pay, quietly, for being the one who did.`,
       // manifesto renders as two lines, split on the ` · ` separator:
       //   Line 1 (bold thesis)  → "Precision before intention"
       //   Line 2 (poetic edge)  → "An edge is never given — it is forged."
@@ -905,6 +912,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
       archetypeLabel: `Yin Metal — The Jewel`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Refinement over output · The flaw is felt before the eye finds it.`,
+      inscription:    `You were polished by what pressed you — brilliance is the part that survived.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -1011,6 +1019,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
       archetypeLabel: `Yang Water — The Ocean`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Depth before disclosure · Oceans don't announce their depth.`,
+      inscription:    `You hold more than anyone thinks to ask about — depth was never meant to be seen.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -1119,6 +1128,7 @@ Most exchanges happen at a shallower level than where you operate. This produces
       archetypeLabel: `Yin Water — The Rain`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Felt before spoken · What enters water becomes water.`,
+      inscription:    `You change things slowly, softly, completely — and let the credit fall elsewhere.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
