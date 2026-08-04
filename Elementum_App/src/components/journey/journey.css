@@ -446,6 +446,7 @@
 @keyframes rvlStamp{to{opacity:1;transform:none}}
 .jny .rvl-pin{font-family:Cinzel,Georgia,serif;font-size:10.5px;letter-spacing:3px;color:var(--bronzeDark);opacity:0}
 .jny .rvl-kick{font-family:'Cormorant Garamond',Georgia,serif;font-size:16.5px;font-weight:500;color:var(--ink);opacity:0;margin-top:4px}
+.jny .rvl-edge{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:13.5px;color:var(--inkSoft);line-height:1.45;max-width:252px;margin-top:2px;opacity:0}
 .jny .rvl-rule{width:150px;height:1px;background:rgba(139,115,85,0.35);margin:7px 0 3px;opacity:0}
 .jny .rvl-ring{position:absolute;left:50%;bottom:-176px;transform:translateX(-50%);width:300px;height:300px;border-radius:50%;border:1.5px dashed rgba(146,119,80,0.55);opacity:0;pointer-events:none}
 .jny .rvl-name{font-family:'Cormorant Garamond',Georgia,serif;font-size:34px;font-weight:600;color:var(--ink);line-height:1;opacity:0}
@@ -463,6 +464,7 @@
 .jny .rvl-overlay.play .rvl-name{animation:rvlUp 520ms ease 1800ms both}
 .jny .rvl-overlay.play .rvl-pin{animation:rvlUp 520ms ease 1950ms both}
 .jny .rvl-overlay.play .rvl-kick{animation:rvlUp 520ms ease 1950ms both}
+.jny .rvl-overlay.play .rvl-edge{animation:rvlUp 520ms ease 2040ms both}
 .jny .rvl-overlay.play .rvl-rule{animation:rvlUp 520ms ease 2040ms both}
 .jny .rvl-overlay.play .rvl-mani{animation:rvlUp 520ms ease 2130ms both}
 .jny .rvl-overlay.play .rvl-cast{animation:rvlUp 520ms ease 2300ms both}
@@ -471,7 +473,7 @@
 .jny .rvl-overlay.done .rvl-wash{animation:none;opacity:.13}
 .jny .rvl-overlay.done .rvl-img{animation:none!important;opacity:1!important;filter:none!important}
 .jny .rvl-overlay.done .rvl-seal{animation:none;opacity:1;transform:none}
-.jny .rvl-overlay.done .rvl-pin,.jny .rvl-overlay.done .rvl-name,.jny .rvl-overlay.done .rvl-kick,.jny .rvl-overlay.done .rvl-rule,.jny .rvl-overlay.done .rvl-mani,.jny .rvl-overlay.done .rvl-cast,.jny .rvl-overlay.done .rvl-swipe,.jny .rvl-overlay.done .rvl-ring{animation:none;opacity:1;transform:none}
+.jny .rvl-overlay.done .rvl-pin,.jny .rvl-overlay.done .rvl-name,.jny .rvl-overlay.done .rvl-kick,.jny .rvl-overlay.done .rvl-edge,.jny .rvl-overlay.done .rvl-rule,.jny .rvl-overlay.done .rvl-mani,.jny .rvl-overlay.done .rvl-cast,.jny .rvl-overlay.done .rvl-swipe,.jny .rvl-overlay.done .rvl-ring{animation:none;opacity:1;transform:none}
 .jny .rvl-overlay.leaving{transition:none}
 .jny .gseal{position:absolute;z-index:95;width:44px;height:44px;border-radius:50%;background-size:cover;box-shadow:0 3px 10px rgba(60,46,28,0.25);pointer-events:none}
 .jny .gseal.gimg{background-image:url('/concept-arts/stems/proc/geng-metal.png');background-size:contain;background-repeat:no-repeat;border-radius:0;box-shadow:none}
@@ -489,7 +491,7 @@
 .jny .padv2.pgin>.beat[data-beat="4"]{transition-delay:440ms}
 .jny .padv2.pgin>.ca-dock{transition-delay:600ms}
 @media (prefers-reduced-motion: reduce){
-.jny .rvl-wash,.jny .rvl-img,.jny .rvl-seal,.jny .rvl-pin,.jny .rvl-name,.jny .rvl-kick,.jny .rvl-rule,.jny .rvl-mani,.jny .rvl-cast,.jny .rvl-swipe,.jny .rvl-ring{animation:none!important;opacity:1!important;transform:none!important}
+.jny .rvl-wash,.jny .rvl-img,.jny .rvl-seal,.jny .rvl-pin,.jny .rvl-name,.jny .rvl-kick,.jny .rvl-edge,.jny .rvl-rule,.jny .rvl-mani,.jny .rvl-cast,.jny .rvl-swipe,.jny .rvl-ring{animation:none!important;opacity:1!important;transform:none!important}
 .jny .rvl-wash{opacity:.13!important}
 .jny .rvl-swipe svg{animation:none}
 .jny .wheel.wintro .node{animation:none;opacity:1}
@@ -1591,6 +1593,7 @@
 @keyframes rvlStamp{to{opacity:1;transform:none}}
 .jny .rvl-pin{font-family:Cinzel,Georgia,serif;font-size:10.5px;letter-spacing:3px;color:var(--bronzeDark);opacity:0}
 .jny .rvl-kick{font-family:'Cormorant Garamond',Georgia,serif;font-size:16.5px;font-weight:500;color:var(--ink);opacity:0;margin-top:4px}
+.jny .rvl-edge{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:13.5px;color:var(--inkSoft);line-height:1.45;max-width:252px;margin-top:2px;opacity:0}
 .jny .rvl-rule{width:150px;height:1px;background:rgba(139,115,85,0.35);margin:7px 0 3px;opacity:0}
 .jny .rvl-ring{position:absolute;left:50%;bottom:-176px;transform:translateX(-50%);width:300px;height:300px;border-radius:50%;border:1.5px dashed rgba(146,119,80,0.55);opacity:0;pointer-events:none}
 .jny .rvl-name{font-family:'Cormorant Garamond',Georgia,serif;font-size:34px;font-weight:600;color:var(--ink);line-height:1;opacity:0}
@@ -1608,6 +1611,7 @@
 .jny .rvl-overlay.play .rvl-name{animation:rvlUp 520ms ease 1800ms both}
 .jny .rvl-overlay.play .rvl-pin{animation:rvlUp 520ms ease 1950ms both}
 .jny .rvl-overlay.play .rvl-kick{animation:rvlUp 520ms ease 1950ms both}
+.jny .rvl-overlay.play .rvl-edge{animation:rvlUp 520ms ease 2040ms both}
 .jny .rvl-overlay.play .rvl-rule{animation:rvlUp 520ms ease 2040ms both}
 .jny .rvl-overlay.play .rvl-mani{animation:rvlUp 520ms ease 2130ms both}
 .jny .rvl-overlay.play .rvl-cast{animation:rvlUp 520ms ease 2300ms both}
@@ -1616,7 +1620,7 @@
 .jny .rvl-overlay.done .rvl-wash{animation:none;opacity:.13}
 .jny .rvl-overlay.done .rvl-img{animation:none!important;opacity:1!important;filter:none!important}
 .jny .rvl-overlay.done .rvl-seal{animation:none;opacity:1;transform:none}
-.jny .rvl-overlay.done .rvl-pin,.jny .rvl-overlay.done .rvl-name,.jny .rvl-overlay.done .rvl-kick,.jny .rvl-overlay.done .rvl-rule,.jny .rvl-overlay.done .rvl-mani,.jny .rvl-overlay.done .rvl-cast,.jny .rvl-overlay.done .rvl-swipe,.jny .rvl-overlay.done .rvl-ring{animation:none;opacity:1;transform:none}
+.jny .rvl-overlay.done .rvl-pin,.jny .rvl-overlay.done .rvl-name,.jny .rvl-overlay.done .rvl-kick,.jny .rvl-overlay.done .rvl-edge,.jny .rvl-overlay.done .rvl-rule,.jny .rvl-overlay.done .rvl-mani,.jny .rvl-overlay.done .rvl-cast,.jny .rvl-overlay.done .rvl-swipe,.jny .rvl-overlay.done .rvl-ring{animation:none;opacity:1;transform:none}
 .jny .rvl-overlay.leaving{transition:none}
 .jny .gseal{position:absolute;z-index:95;width:44px;height:44px;border-radius:50%;background-size:cover;box-shadow:0 3px 10px rgba(60,46,28,0.25);pointer-events:none}
 .jny .gseal.gimg{background-image:url('/concept-arts/stems/proc/geng-metal.png');background-size:contain;background-repeat:no-repeat;border-radius:0;box-shadow:none}
@@ -1634,7 +1638,7 @@
 .jny .padv2.pgin>.beat[data-beat="4"]{transition-delay:440ms}
 .jny .padv2.pgin>.ca-dock{transition-delay:600ms}
 @media (prefers-reduced-motion: reduce){
-.jny .rvl-wash,.jny .rvl-img,.jny .rvl-seal,.jny .rvl-pin,.jny .rvl-name,.jny .rvl-kick,.jny .rvl-rule,.jny .rvl-mani,.jny .rvl-cast,.jny .rvl-swipe,.jny .rvl-ring{animation:none!important;opacity:1!important;transform:none!important}
+.jny .rvl-wash,.jny .rvl-img,.jny .rvl-seal,.jny .rvl-pin,.jny .rvl-name,.jny .rvl-kick,.jny .rvl-edge,.jny .rvl-rule,.jny .rvl-mani,.jny .rvl-cast,.jny .rvl-swipe,.jny .rvl-ring{animation:none!important;opacity:1!important;transform:none!important}
 .jny .rvl-wash{opacity:.13!important}
 .jny .rvl-swipe svg{animation:none}
 .jny .wheel.wintro .node{animation:none;opacity:1}

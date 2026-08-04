@@ -84,6 +84,14 @@
   margin-top: 22px;
   max-width: 420px;
 }
+.share-card .sc-edge {
+  font-style: italic;
+  font-size: 21px;
+  line-height: 1.45;
+  color: var(--inkSoft);
+  margin-top: 8px;
+  max-width: 420px;
+}
 .share-card .sc-inscription {
   margin-top: 34px;
   padding: 26px 24px;

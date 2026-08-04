@@ -276,7 +276,8 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
   return {
     stemId: ec.dayMaster, stem: ec.stem,
     archetype: identity.archetype, pinyin: identity.pinyin,
-    manifesto, inscription: identity.inscription, chips, cast,
+    manifesto, maniThesis: identity.manifesto, maniEdge: identity.manifestoEdge,
+    inscription: identity.inscription, chips, cast,
     condition, approach, band,
     foldVerdict: FOLD_VERDICT[condition],
     condTail: COND_TAIL[condition],

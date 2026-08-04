@@ -170,6 +170,7 @@ export default function RevealDissolve({ identity, energies, dayMaster, glyph, s
                 <div className="arch-name" style={{ fontSize: 36, marginTop: 14 }}>{identity.archetype}</div>
                 <div className="pinyin" style={{ marginTop: 6 }}>{identity.pinyin}</div>
                 <div className="manifesto" style={{ fontSize: 17, marginTop: 12 }}>{identity.manifesto}</div>
+                <div className="manifesto-edge">{identity.manifestoEdge}</div>
                 <div className="inscription"><div className="en">{identity.inscription}</div></div>
               </div>
               <div ref={textBottom} className="ds-plate-text" style={{ position: 'absolute', left: 24, right: 24, bottom: 54 }}>

@@ -367,7 +367,8 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                   <span className="rvl-img" style={{ backgroundImage: `url('${paintSrc}')` }} />
                 </div>
                 <h2 className="rvl-name">{m.archetype}</h2>
-                <p className="rvl-kick">{m.manifesto.split(' — ')[0]}</p>
+                <p className="rvl-kick">{m.maniThesis}</p>
+                <p className="rvl-edge">{m.maniEdge}</p>
                 <span className="rvl-rule" />
                 <p className="rvl-mani">{m.inscription}</p>
                 <div className="rvl-cast">{m.cast}<span>— ELEMENTUM —</span></div>

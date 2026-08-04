@@ -47,7 +47,10 @@ export function buildIdentity(chart, card, birthData) {
   const element = chart.dayMaster.element;
   const polarity = chart.dayMaster.polarity === 'yin' ? 'YIN' : 'YANG';
   const archetype = card?.identity?.archetypeName || 'The Day Master';
-  const manifesto = (card?.identity?.manifesto || '').split(' · ')[0] || '';
+  // Manifesto couplet (owner-ruled 2026-08-04): the ' · ' separator splits
+  // L1 (bold thesis) from L2 (poetic edge). Reveal + share card render the
+  // stacked couplet; the catalogue hero joins them into one sentence.
+  const [maniThesis = '', maniEdge = ''] = (card?.identity?.manifesto || '').split(' · ');
 
   const [y, m, d] = (chart.meta?.birthDate || '').split('-').map((n) => parseInt(n, 10));
   const hourBranch = chart.pillars?.hour?.branch;
@@ -62,7 +65,8 @@ export function buildIdentity(chart, card, birthData) {
     // Lowercased element key (metal/wood/fire/earth/water) for pigment lookup.
     element: (element || '').toLowerCase(),
     pinyin: `${STEM_PINYIN[stem] || ''} · ${polarity} ${element.toUpperCase()}`,
-    manifesto,
+    manifesto: maniThesis,
+    manifestoEdge: maniEdge,
     inscription: card?.identity?.inscription || '',
     cast,
   };

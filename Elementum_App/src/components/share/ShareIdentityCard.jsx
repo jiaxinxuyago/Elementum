@@ -36,6 +36,7 @@ const ShareIdentityCard = forwardRef(function ShareIdentityCard({ identity, dayM
         <div className="sc-arch">{identity.archetype}</div>
         <div className="sc-pinyin">{identity.pinyin}</div>
         <div className="sc-manifesto">{identity.manifesto}</div>
+        <div className="sc-edge">{identity.manifestoEdge}</div>
         <div className="sc-inscription">{identity.inscription}</div>
         <div className="sc-spacer" />
         <div className="sc-foundry">
