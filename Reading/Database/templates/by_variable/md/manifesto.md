@@ -13,8 +13,8 @@
 | **The Sun** | 丙 | Warmth without permission · The sun does not choose who it reaches. |
 | **The Candle** | 丁 | Intimacy over range · A candle doesn't reach far — it reaches true. |
 | **The Mountain** | 戊 | Immovable by design · Others find their bearings and never name why. |
-| **The Field** | 己 | Nourish without credit · The soil feeds everything and claims nothing. |
+| **The Field** | 己 | Nourish without credit · The soil turns whatever it's given into growth. |
 | **The Blade** | 庚 | Precision before intention · An edge is never given — it is forged. |
 | **The Jewel** | 辛 | Refinement over output · The flaw is felt before the eye finds it. |
-| **The Ocean** | 壬 | Depth before disclosure · Oceans don't announce their depth. |
+| **The Ocean** | 壬 | Depth before disclosure · The surface stays calm; the current decides. |
 | **The Rain** | 癸 | Felt before spoken · What enters water becomes water. |

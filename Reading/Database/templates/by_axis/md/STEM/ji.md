@@ -18,7 +18,7 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Field |
-| `manifesto` | Nourish without credit · The soil feeds everything and claims nothing. |
+| `manifesto` | Nourish without credit · The soil turns whatever it's given into growth. |
 | `inscription` | Everything you tend grows — you are the last to call it your harvest. |
 | `pinyin_display` | JǏ · YIN EARTH |
 | `dm_claims` | You make things grow by tending, not by forcing. · People feel steadier after time with you and cannot say why. |

@@ -18,7 +18,7 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Ocean |
-| `manifesto` | Depth before disclosure · Oceans don't announce their depth. |
+| `manifesto` | Depth before disclosure · The surface stays calm; the current decides. |
 | `inscription` | You hold more than anyone thinks to ask about — depth was never meant to be seen. |
 | `pinyin_display` | RÉN · YANG WATER |
 | `dm_claims` | You see the whole current while others watch the wave. · You move around obstacles rather than through them, and still arrive first. |

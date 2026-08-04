@@ -587,7 +587,7 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
       archetypeName:  `The Field`,
       archetypeLabel: `Yin Earth — The Field`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Nourish without credit · The soil feeds everything and claims nothing.`,
+      manifesto:      `Nourish without credit · The soil turns whatever it's given into growth.`,
       inscription:    `Everything you tend grows — you are the last to call it your harvest.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
@@ -597,7 +597,7 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
       },
       // manifesto renders as two lines, split on the ` · ` separator:
       //   Line 1 (bold thesis)  → "Nourish without credit"
-      //   Line 2 (poetic edge)  → "The soil feeds everything and claims nothing."
+      //   Line 2 (poetic edge)  → "The soil turns whatever it's given into growth."
       //
       // Badge tile data (resolved from chart at runtime, listed here for reference):
       //   Element badge  → dm.element  = "Earth"          → taps open element popup
@@ -1018,7 +1018,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
       archetypeName:  `The Ocean`,
       archetypeLabel: `Yang Water — The Ocean`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Depth before disclosure · Oceans don't announce their depth.`,
+      manifesto:      `Depth before disclosure · The surface stays calm; the current decides.`,
       inscription:    `You hold more than anyone thinks to ask about — depth was never meant to be seen.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
@@ -1028,7 +1028,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
       },
       // manifesto renders as two lines, split on the ` · ` separator:
       //   Line 1 (bold thesis)  → "Depth before disclosure"
-      //   Line 2 (poetic edge)  → "Oceans don't announce their depth."
+      //   Line 2 (poetic edge)  → "The surface stays calm; the current decides."
       //
       // Badge tile data (resolved from chart at runtime, listed here for reference):
       //   Element badge  → dm.element  = "Water"          → taps open element popup

@@ -91,7 +91,7 @@ K1 extensions (claims + mechanism) 10 × ~62w ≈ 620w · K1b self cards 30 × ~
 | Var | Type | Axis | Measured | Budget | 庚 example | UI slots | Status |
 |---|---|---|---|---|---|---|---|
 | `archetype_name` | archetype-name | STEM | 2w · 7–12c | ≤3w ✓ | The Blade | A2 B1 I2 J1 | LIVE |
-| `manifesto` | manifesto | STEM **(axis LOCKED ×10 — owner 2026-08-03: identity-seal construct, invariant under band/pattern; band nuance is owned by `yourNature_desc`)** | 9–13w · 53–70c | ≤14w ✓ (split " · ") | Precision before intention — an edge is never given; it is forged. *(reveal kick = first-half split, not a second variable)* | B2 I2 J3 → A3 | LIVE |
+| `manifesto` | manifesto | STEM **(axis LOCKED ×10 — owner 2026-08-03: identity-seal construct, invariant under band/pattern; band nuance is owned by `yourNature_desc`)** | 8–12w · 53–72c (re-measured 2026-08-04) | ≤14w ✓ (split " · ") | Precision before intention — an edge is never given; it is forged. *(reveal kick = first-half split, not a second variable)* | B2 I2 J3 → A3 | LIVE |
 | `inscription` | inscription | STEM **(axis LOCKED ×10 — owner 2026-08-03, same identity-seal ruling as `manifesto`)** | 12–16w · 61–81c | **≤17w / ≤85c — R2 owner-ruled 2026-08-03**; target shape adds `zh` 4–6字 (aphorism register, not a translation) | You say what others soften — and pay, quietly, for being the one who did. | A4 · DM claim 1 · J4 fallback | LIVE |
 | `dm_claims` ×2–3 | inscription | STEM | — | **10–16w each** (claim 1 ≡ `inscription`) | *handoff demo:* Being vague feels worse to you than being wrong. | part-2 P4 | PLANNED |
 | `dm_mechanism` | descriptor | STEM (chart-aware R+E) | — | **≤30w** | *handoff demo:* Yang Metal tempered by spring wood — strength that grew against resistance, not in its absence. | part-2 P4 | PLANNED |
@@ -230,6 +230,7 @@ Lens: Cece = reading-angles/content benchmark only; design goal = minimal cognit
 
 ### Ruled — identity-seal axis lock (owner, 2026-08-03)
 **`manifesto` + `inscription` construct-lock to STEM ×10** (first per-variable construct rulings of the data-var finalization pass). They are the identity SEAL — the reveal plate + share card engraving — invariant under band/pattern: the share card's social comparability and the reveal's mythic register both require two same-stem users to hold identical lines. Band-conditioned identity voice is a different layer and is owned by `yourNature_desc` (STEM→BAND variants in `stemVariants.js`; surfacing = R4). Revisit only if, after R4 ships, open-band users demonstrably misread the seal.
+**Polish pass 1 (owner-applied 2026-08-04):** 己 manifesto L2 → "The soil turns whatever it's given into growth." · 壬 manifesto L2 → "The surface stays calm; the current decides." (both fixed a triple-redundancy between the pair's lines; the other eight pairs ruled clean).
 
 ### Standing sequencing ruling (owner 2026-07-23 — carried live from the archived v2.1 audit)
 **The engine pass and corpus authoring stay parked until the READING JOURNEY is locked.** The journey dictates the reading experience and may reshape the two-faces model; journey lock first, then revisit v2.1 (possibly amended), then engine rewire + corpus. This schema is the instrument of that lock.
