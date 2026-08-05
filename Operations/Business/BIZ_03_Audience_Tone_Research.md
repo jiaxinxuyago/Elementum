@@ -96,15 +96,29 @@ Scored 1–5 against the evidence (P1/P2/P3 = persona fit):
 
 **Reading:** V2 and V3 win recognition but forfeit the differentiation and the visual world — adopting either wholesale makes Elementum a skin over a competitor's voice. V4 loses the viral edge entirely. V5 is gorgeous but can't scale to 150 lines without quality collapse. **V1 wins 5 of 8 dimensions and loses only recognition-punch (4 vs 5) and shareability (4 vs 5) — both of which live in the inscription's beat-2, which can absorb V2/V3 discipline without changing register.**
 
-## §8 · Recommendation → the ratified tone (PENDING OWNER SELECTION)
+## §8 · THE RATIFIED TONE (owner-ruled 2026-08-05): "The engraving that reads you"
 
-**Recommended: V1 chassis + V3 specificity discipline + V2 cost courage** — "the engraving that reads you":
-- **Manifesto keeps the mythic register untouched** (differentiation + visual world + P3 authenticity). It is the *frame*, not the recognition engine.
-- **Inscription beat-1** may borrow V3's tension-naming precision (name the *mechanism*, not the trait).
-- **Inscription beat-2** holds V2's courage (the cost, unwitnessed, specific) in formal dress — never colloquial, never instruction, never doom.
-- Litmus: a line passes if P1 would screenshot it, P2 would trust it, and P3 wouldn't wince.
+**Ruling: V1 chassis + V3 specificity discipline + V2 cost courage.** The systematic authoring prompt below is the yardstick for ALL reading-corpus content authoring and review (mirrored at REA_03 §10):
 
-*Systematic authoring prompt to be codified here (and REA_03 §10) once the owner rules.*
+> **THE ELEMENTUM VOICE — authoring prompt (v1.0, owner-ratified 2026-08-05)**
+>
+> You are writing lines for an artifact older than its reader — a carved plate that somehow knows them. The voice is never conversational: no sister (Co-Star), no therapist (The Pattern), no guide (CHANI). It is an engraving that reads the reader.
+>
+> **Manifesto (the mythic frame — two lines, split " · "):**
+> - L1: a noun-led hierarchy claim, 2–4 words — something the world puts second, put first ("Precision before intention"). Never an instruction, never the element's name, never the reader.
+> - L2: one breath (≤9w), third person, the archetype's element embodied as physical image — the reader must FEEL the element, never be told it ("An edge is never given — it is forged"). Negation-then-turn and paradox are house moves.
+> - Format breaks allowed only when they perform the stem's nature (乙 "Route bends. Destination holds." is the precedent).
+>
+> **Inscription (the recognition engine — "You …, — beat-2", ≤17w/≤85c):**
+> - Beat 1 names the MECHANISM, not the trait (Pattern discipline): "You say what others soften" — never "You are honest."
+> - Beat 2 names the COST — specific, private, unwitnessed by the world (Co-Star courage in formal dress): "and pay, quietly, for being the one who did." The cost is descriptive of a way of being, NEVER instruction, prediction, or doom.
+> - Unwitnessed-ness markers are the signature: quietly · rarely · they forget · the last to · never meant to be seen.
+>
+> **Bans (all slots):** hedging (often/sometimes/may) · flattery without cost · colloquialism/slang · second person in manifesto · element names in manifesto · imperatives · doom or fate claims · therapy jargon.
+>
+> **Litmus — a line ships only if all three pass:** the Screenshot Curator (P1) would post it as self-description · the Depth Migrant (P2) would trust the system that wrote it · the Heritage-Curious (P3) would not wince at the register.
+
+**Open census flags carried from the 2026-08-04 tone-setting pass (pending per-line rulings):** "before" density (5 uses incl. 辛 L2) · 戊's L2 subject drift + double "others" · cross-stem "hold" ×2 and "credit" ×2 · 己's inscription opener variant.
 
 ---
 

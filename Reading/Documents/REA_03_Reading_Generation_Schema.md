@@ -290,6 +290,7 @@ From `archetypeSource.js` / `STEM_CARD_DATA.js` unless noted. **Rule: nothing he
 9. **Chinese glyphs are decorative texture, never information-carrying.**
 10. **One variable, one ruling:** every slot inherits it; two slots needing different copy = two variables, declared here first.
 11. **One schema, all consumers:** journey UI, Self-Report composer, and Consultant payload consume THIS registry — no per-feature schemas.
+12. **THE VOICE (owner-ratified 2026-08-05, "the engraving that reads you" — full authoring prompt: BIZ_03 §8):** never conversational — an artifact older than the reader. Manifesto = mythic frame (L1 noun-led hierarchy claim 2–4w; L2 ≤9w third-person element-as-image, element never named; format breaks only in-character). Inscription = recognition engine (beat-1 names the MECHANISM not the trait; beat-2 names the specific, private, unwitnessed COST — descriptive, never instruction/prediction/doom). Bans: hedging, flattery-without-cost, colloquialism, imperatives, therapy jargon. Litmus ×3: screenshotable as self-description · trusted as a system · no wince from the heritage reader.
 
 ## §11 · Pending rulings (the ⚠ queue)
 
