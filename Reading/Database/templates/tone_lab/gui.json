@@ -1,0 +1,38 @@
+{
+  "$tone_lab": "gui",
+  "stem": "癸",
+  "name": "The Rain",
+  "workshop_note": "TONE LAB — disposable comparison workshop (owner tone fine-tune, 2026-08-05). NOT part of the by_axis truth; never audited by the transcription checker; nothing here ships. Ruled winners land in by_axis JSON → OWED → deliberate src/content transcription.",
+  "voice": "BIZ_03 §8 · THE VOICE v1.0 — the engraving that reads you",
+  "dials": {
+    "A": "cost+1 — the unwitnessed cost sharpened (Co-Star courage, formal dress)",
+    "B": "mechanism+1 — the psychological mechanism named more precisely (Pattern discipline)",
+    "C": "image+1 — element imagery densified (the myth layer leaning in)"
+  },
+  "variables": {
+    "manifesto_l1": {
+      "current": "Felt before spoken",
+      "A": "Change before credit",
+      "B": "Patience before force",
+      "C": "Rain before thunder"
+    },
+    "manifesto_l2": {
+      "current": "What enters water becomes water.",
+      "A": "The rain is gone before the green arrives.",
+      "B": "Stone loses to rain by years, not blows.",
+      "C": "Every river began as rain that kept going."
+    },
+    "inscription": {
+      "current": "You change things slowly, softly, completely — and let the credit fall elsewhere.",
+      "A": "You change things slowly, softly, completely — and the change forgets your name.",
+      "B": "You work by accumulation, not force — so no one ever sees a cause.",
+      "C": "You soak in unseen — by the time change shows, it looks like nature."
+    },
+    "yourNature_desc": {
+      "current": "You know what's true in a room before anyone says it out loud — the feeling arrives before the reasoning does. The difficult part is that you absorb what everyone around you is feeling, and it can be hard to tell what's yours and what isn't.",
+      "A": "You know a room's truth before it's spoken — the feeling arrives ahead of the reasoning. And because you work the way rain works, everything you change credits the season, never the water.",
+      "B": "Nothing you change is pushed — it's soaked, shifted a degree at a time until the new shape looks inevitable. The mechanism is absorption: you take in what the room feels, and it comes back altered.",
+      "C": "You move through people the way rain moves through ground — invisibly, and toward the roots. What grows afterward stands in the field with no memory of weather; only the green knows."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "$tone_lab": "geng",
+  "stem": "庚",
+  "name": "The Blade",
+  "workshop_note": "TONE LAB — disposable comparison workshop (owner tone fine-tune, 2026-08-05). NOT part of the by_axis truth; never audited by the transcription checker; nothing here ships. Ruled winners land in by_axis JSON → OWED → deliberate src/content transcription.",
+  "voice": "BIZ_03 §8 · THE VOICE v1.0 — the engraving that reads you",
+  "dials": {
+    "A": "cost+1 — the unwitnessed cost sharpened (Co-Star courage, formal dress)",
+    "B": "mechanism+1 — the psychological mechanism named more precisely (Pattern discipline)",
+    "C": "image+1 — element imagery densified (the myth layer leaning in)"
+  },
+  "variables": {
+    "manifesto_l1": {
+      "current": "Precision before intention",
+      "A": "Precision before peace",
+      "B": "Verdict before question",
+      "C": "Forged before wanted"
+    },
+    "manifesto_l2": {
+      "current": "An edge is never given — it is forged.",
+      "A": "Every edge is paid for — first by the metal.",
+      "B": "The edge decides before the hand does.",
+      "C": "What the whetstone takes, the edge keeps."
+    },
+    "inscription": {
+      "current": "You say what others soften — and pay, quietly, for being the one who did.",
+      "A": "You say what others soften — and carry alone what the saying costs.",
+      "B": "You finish reading a room before entering it — and are never quite inside.",
+      "C": "You cut clean where others tear — and the clean cut is remembered as cold."
+    },
+    "yourNature_desc": {
+      "current": "The most honest person in any room, often the most alone in it. Precision arrives before warmth does — people lean on the edge and rarely find what's behind it.",
+      "A": "The most honest person in any room, often the most alone in it. Every truth you deliver is paid for privately — the room keeps the clarity, and you keep the bill.",
+      "B": "You evaluate before you engage — the read completes before the conversation starts. What the room feels as edge is a verdict arriving early; what you feel is the distance it builds.",
+      "C": "A blade in a room of cloth — everything near you falls into before and after. People borrow the edge for their knots, then flinch at it; the steel never gets to be soft."
+    }
+  }
+}

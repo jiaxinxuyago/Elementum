@@ -1,0 +1,38 @@
+{
+  "$tone_lab": "bing",
+  "stem": "丙",
+  "name": "The Sun",
+  "workshop_note": "TONE LAB — disposable comparison workshop (owner tone fine-tune, 2026-08-05). NOT part of the by_axis truth; never audited by the transcription checker; nothing here ships. Ruled winners land in by_axis JSON → OWED → deliberate src/content transcription.",
+  "voice": "BIZ_03 §8 · THE VOICE v1.0 — the engraving that reads you",
+  "dials": {
+    "A": "cost+1 — the unwitnessed cost sharpened (Co-Star courage, formal dress)",
+    "B": "mechanism+1 — the psychological mechanism named more precisely (Pattern discipline)",
+    "C": "image+1 — element imagery densified (the myth layer leaning in)"
+  },
+  "variables": {
+    "manifesto_l1": {
+      "current": "Warmth without permission",
+      "A": "Light before fuel",
+      "B": "Radiance before choice",
+      "C": "Daylight without doors"
+    },
+    "manifesto_l2": {
+      "current": "The sun does not choose who it reaches.",
+      "A": "The sun spends itself on every room equally.",
+      "B": "The sun cannot aim — it can only rise.",
+      "C": "Every window in the city faces the same sun."
+    },
+    "inscription": {
+      "current": "You warm every room you enter — and rarely ask who warms you.",
+      "A": "You warm every room you enter — and run on warmth nobody returns.",
+      "B": "You lift rooms before deciding to — and cannot switch it off to rest.",
+      "C": "You are the weather of every room — and weather is never thanked."
+    },
+    "yourNature_desc": {
+      "current": "You walk into a room and people feel more at ease, more energized, more capable — without you trying to make that happen. The cost is that you give it constantly and almost never get asked if you're okay.",
+      "A": "You walk in and the room lifts — easier, braver, more possible — without your trying. The light runs on you: given constantly, metered never, and no one thinks to ask what it burns.",
+      "B": "The lifting isn't a decision — you enter, and the room's temperature changes before you've spoken. What can't be done is aiming it, or turning it off: the warmth broadcasts, even on empty.",
+      "C": "Rooms turn toward you the way fields turn toward morning — nothing decided, everything warmed. And like the sun, you are looked at only in eclipse: the day itself goes unthanked."
+    }
+  }
+}
