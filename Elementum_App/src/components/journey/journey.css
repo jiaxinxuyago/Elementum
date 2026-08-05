@@ -1644,6 +1644,31 @@
 .jny .wheel.wintro .node{animation:none;opacity:1}
 .jny .padv2.pgin>*,.jny .padv2.pgin>.beat[data-beat="2"]>*{transition:none}
 }
+/* ═══════════ reveal plate · short-viewport rhythm (BUG-20260805-1) ═══════════
+   The reveal column is overflow:hidden and NOT scrollable, so anything the
+   stack pushes past the fold is unreachable. Since the manifesto became an
+   owner-ruled two-line couplet (.rvl-kick thesis + .rvl-edge, 2026-08-04) the
+   natural stack runs ~76px taller than an iPhone SE (375x667) can hold, and
+   the "Swipe up" affordance fell off the bottom.
+   Both couplet lines stay whole; the plate instead reclaims ~106px of vertical
+   rhythm on SHORT viewports only, so taller phones keep the approved
+   composition byte-for-byte:
+     - inner padding-top 26->12, gap 7->5                     (28px)
+     - .rvl-name's inherited UA <h2> margin (0.83em ~= 28.2px a side)
+       pinned to an explicit, halved 14px                     (28px)
+     - painting 206->186 square, margin-bottom 10->6          (24px)
+     - swipe padding 10/42 -> 8/24                            (20px)
+     - eyebrow + cast leading trimmed 4px each                 (8px)
+   NOTE: journey.css carries the reveal rules TWICE (~line 427 and ~line 1574).
+   This block must stay AFTER both copies or it is silently overridden. */
+@media (max-height: 700px){
+.jny .rvl-inner{gap:5px;padding-top:12px}
+.jny .rvl-ey{margin-bottom:6px}
+.jny .rvl-plate{width:186px;height:186px;margin-bottom:6px}
+.jny .rvl-name{margin:14px 0}
+.jny .rvl-cast{margin-top:8px}
+.jny .rvl-swipe{padding:8px 0 24px}
+}
 .jny .idhero{position:relative;padding:2px 2px 13px;margin-bottom:0;border-bottom:1px solid var(--paperHair)}
 .jny .idhero .kick{font-family:Cinzel,Georgia,serif;font-size:9px;font-weight:400;letter-spacing:2.5px;color:var(--bronzeDark);text-transform:uppercase;display:block}
 .jny .idhero .mani{font-family:'Cormorant Garamond',Georgia,serif;font-style:normal;font-weight:500;color:var(--inkSoft);margin:0}
