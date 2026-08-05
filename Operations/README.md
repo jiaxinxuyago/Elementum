@@ -76,6 +76,7 @@ Legacy **section** citations resolve at the same § numbers in the current books
 |---|---|---|
 | BIZ_01 | Elementum_Expense_Report | Monthly costs + phase projections + cost triggers |
 | BIZ_02 | Elementum_Validation_Sprint | Beta validation strategy |
+| BIZ_03 | Audience_Tone_Research | Target-audience demographics + competitor voice matrix + tone-of-voice variants for the Reading corpus (2026-08-05; §8 tone prompt pending owner ruling) |
 
 ### Legal_Admin/ — legal records, entity paperwork
 | File | Purpose |
