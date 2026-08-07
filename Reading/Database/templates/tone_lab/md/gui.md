@@ -31,6 +31,12 @@
 - **B · mechanism+1** — You work by accumulation, not force — so no one ever sees a cause.
 - **C · image+1** — You soak in unseen — by the time change shows, it looks like nature.
 
+## dm_overview · the analyst’s ledger (P4 — NEW variable, no live line)
+
+- **A · cost+1** — Yin Water works by absorption and permeation: signal arrives as feeling before reasoning, influence accumulates rather than pushes, and the boundary between self and room runs thin. The ledger is quiet — real agency, invisible attribution; the change is kept, the changer is not. ▸ Decides: by saturation — certainty arrives as atmosphere. ▸ Relates: attunes first, absorbs most, is asked last. ▸ Under pressure: yields shape, keeps direction.
+- **B · mechanism+1** — Yin Water works by absorption and permeation: signal arrives as feeling before reasoning, influence accumulates rather than pushes, and boundaries between self and room run thin. Change is produced gradually and attributed elsewhere — the agency is real; the visibility is not. ▸ Decides: slowly, by saturation — then completely. ▸ Relates: attunes before it evaluates; carries what the room sets down. ▸ Under pressure: yields shape, keeps direction.
+- **C · image+1** — Yin Water is the weather of slow places: rain that files no claim, ground that answers in seasons. The profile is hydrological — everything downstream is shaped by it, and nothing downstream remembers rain. ▸ Decides: the way water levels — quietly, everywhere at once. ▸ Relates: soaks in; is noticed as climate, not as cause. ▸ Under pressure: takes the vessel's shape and outlasts the vessel.
+
 ## yourNature_desc · the identity paragraph (J4/P4)
 
 - **CURRENT** — You know what's true in a room before anyone says it out loud — the feeling arrives before the reasoning does. The difficult part is that you absorb what everyone around you is feeling, and it can be hard to tell what's yours and what isn't.

@@ -31,6 +31,12 @@
 - **B · mechanism+1** — You lift rooms before deciding to — and cannot switch it off to rest.
 - **C · image+1** — You are the weather of every room — and weather is never thanked.
 
+## dm_overview · the analyst’s ledger (P4 — NEW variable, no live line)
+
+- **A · cost+1** — Yang Fire operates as broadcast: presence radiates without selection, and rooms are energized before intent has formed. The ledger runs one direction — output constant and unmetered, reception the undeveloped channel; the reserve is spent in public and refilled in private, when it is refilled at all. ▸ Decides: by ignition — commitment follows what lights up. ▸ Relates: generous first, audited never. ▸ Under pressure: burns brighter before it burns down.
+- **B · mechanism+1** — Yang Fire operates as broadcast: presence radiates without selection, energizing rooms before intent forms. Motivation tracks visibility — what is seen grows, what is hidden dims — and output runs constant while reception stays the undeveloped channel. ▸ Decides: by ignition — commitment follows what lights up. ▸ Relates: leads with warmth; sustains only if received. ▸ Under pressure: intensifies first, depletes late and suddenly.
+- **C · image+1** — Yang Fire is the sky's economy: one sun, every field, no invoices. The profile is solar — rising is the whole strategy, and the light does not learn to aim. ▸ Decides: as dawn does — arrival before deliberation. ▸ Relates: every window faces it; it faces none. ▸ Under pressure: noon has no shade to hide in.
+
 ## yourNature_desc · the identity paragraph (J4/P4)
 
 - **CURRENT** — You walk into a room and people feel more at ease, more energized, more capable — without you trying to make that happen. The cost is that you give it constantly and almost never get asked if you're okay.

@@ -21,7 +21,10 @@ const VAR_LABEL = {
   manifesto_l1: 'Manifesto L1 · the carved law',
   manifesto_l2: 'Manifesto L2 · the poetic edge',
   inscription: 'Inscription · the recognition engine',
+  dm_overview: 'dm_overview · the analyst’s ledger (P4 — NEW variable, no live line)',
   yourNature_desc: 'yourNature_desc · the identity paragraph (J4/P4)',
+  output_day_narrative: 'Output day · "a day to express" (template, {today}/{dm} slots)',
+  officer_day_narrative: 'Officer day · "a day that presses" (template, {today}/{dm} slots)',
 };
 const KEYS = ['current', 'A', 'B', 'C'];
 
