@@ -250,7 +250,7 @@ export const ARCHETYPE_SCHEMA = {
       type: 'string', sentenceMin: 2, sentenceMax: 3, tier: 'free', required: true,
       varyBy: ['stem', 'band', 'tgPattern'],
       note: '2nd-person portrait. Overridden per band×pattern via STEM_CARD_DATA.js (150 variants).',
-      example: "The most honest person in any room, often the most alone in it. Precision arrives before warmth does — people lean on the edge and rarely find what's behind it.",
+      example: "You put the truth ahead of your own comfort, and usually ahead of your own company. People keep the clarity you hand them and stay careful around the edge it came from. The cost never comes up. You've never once shown anyone the bill.",
     },
   },
 

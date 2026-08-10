@@ -99,8 +99,9 @@ Mechanical enforcement: **`node tools/voice-audit.mjs`** (added 2026-08-05 — d
 
 Ruled corpus exemplars and current lab bests — grows as the owner rules. **Lab lines are candidates, not law.**
 
-**Carved (ratified corpus):**
-- 庚 inscription — "You say what others soften — and pay, quietly, for being the one who did."
+**Carved (LOCKED corpus, 2026-08-05):**
+- 庚 inscription — "You say what others soften, then quietly pay for being the one who did."
+- 辛 inscription — "You hold your work to a standard nobody set, and it never says finished." *(the no-audience angle)*
 - 乙 manifesto — "Route bends. Destination holds. · The vine finds every wall a ladder." *(the licensed format break)*
 
 **Portrait (lab candidate, humanized + angle-mapped):**
@@ -127,6 +128,7 @@ Ruled corpus exemplars and current lab bests — grows as the owner rules. **Lab
 | 2026-08-05 | Humanization benchmark = prerequisite; scope = paragraphs (seal stays carved, tell bans apply); em-dash law (1/para max, inscription dash exempt); `dm_overview` re-ruled pure paragraph 60–80w |
 | 2026-08-05 | REA_16 born as the voice canon; BIZ_03 §8 demoted to research record |
 | 2026-08-05 | **Owner item-by-item lab ruling:** manifesto = CURRENT locked · inscription = cost+1, DASHLESS (comma/period join; dash exemption revoked) · dm_overview = mechanism dial, ENERGY as subject (name → what it is → how it works), analytical license · yourNature = You-opener law, old-friend-less-casual register, current-to-cost+1 intensity |
+| 2026-08-05 | **CORPUS LOCKED ×10 (owner):** refined versions are THE versions — inscriptions (dashless cost+1), yourNature baselines (You-opener, angle-mapped), dm_overview founding corpus. Priors RETIRED everywhere (24 stale copies swept from design HTMLs, wireframes, mocks, contract examples; archive + BIZ_03 research record excepted as history). Tone-lab stem files retired; the by_variable pivot is the corpus reading view. Lab remains only for the unruled daily dials. |
 | 2026-08-05 | **Angle Map ratified (§2b):** per-stem cost dimensions + native arenas; unwitnessed-martyr default REVOKED (owner diagnosed the monotony: one resonance angle + "the room" as universal stage); cross-stem lexical law added; prompt → v1.2 |
 
 ---
