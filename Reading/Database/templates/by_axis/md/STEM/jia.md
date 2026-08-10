@@ -19,11 +19,12 @@
 |---|---|
 | `archetype_name` | The Oak |
 | `manifesto` | Motion before readiness · The oak does not negotiate its direction. |
-| `inscription` | You grow toward the light you believe in — even where nothing shelters you. |
+| `inscription` | You grow toward a light you can't prove yet, and never stop to rest under it. |
 | `pinyin_display` | JIǍ · YANG WOOD |
 | `dm_claims` | You would rather stand alone upright than bend to belong. · People lean on the structure you build without noticing it is yours. |
 | `dm_mechanism` | Yang Wood grown toward light — a spine that rose by reaching, season over season. |
-| `yourNature_desc` | You're always the first to see where something could go — and you start moving toward it before anyone else has decided whether to begin. You build things that outlast you, but you're usually already thinking about the next thing before the current one is done. |
+| `yourNature_desc` | You see where things could go before most people see that they could go anywhere, and you're moving while they're still deciding. What you build tends to outlast you. You're just rarely there to see it, because halfway through every ending you've already started the next thing. |
+| `dm_overview` | The Oak is Yang Wood, growth in its straightest form. It works by heading upward: direction gets chosen early, sometimes before the ground has agreed, and the climb starts without waiting for permission or shelter. Setbacks slow it about as much as weather slows a tree. What this nature does badly is pause. Arriving, resting, finishing, all the standing-still skills, stay unlearned. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

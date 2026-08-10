@@ -8,13 +8,13 @@
 
 | Archetype | Key | Value |
 |---|---|---|
-| **The Oak** | 甲 | You grow toward the light you believe in — even where nothing shelters you. |
-| **The Vine** | 乙 | You bend where others break — and call it nothing, though it is everything. |
+| **The Oak** | 甲 | You grow toward a light you can't prove yet, and never stop to rest under it. |
+| **The Vine** | 乙 | You find a way around what stops other people, and they call it luck. |
 | **The Sun** | 丙 | You warm whoever stands near you, and run on warmth nobody returns. |
-| **The Candle** | 丁 | You keep a small fire no storm has found — others read by its light. |
-| **The Mountain** | 戊 | You hold what others set down — so long, they forget the weight was theirs. |
-| **The Field** | 己 | Everything you tend grows — you are the last to call it your harvest. |
+| **The Candle** | 丁 | What you turn toward gets all of you, and everything else waits in the dark. |
+| **The Mountain** | 戊 | You hold what others set down, and nothing has ever offered to hold you. |
+| **The Field** | 己 | Everything you tend grows, and the harvest goes home in other people's hands. |
 | **The Blade** | 庚 | You say what others soften, then quietly pay for being the one who did. |
-| **The Jewel** | 辛 | You were polished by what pressed you — brilliance is the part that survived. |
-| **The Ocean** | 壬 | You hold more than anyone thinks to ask about — depth was never meant to be seen. |
+| **The Jewel** | 辛 | You hold your work to a standard nobody set, and it never says finished. |
+| **The Ocean** | 壬 | You understand more than you can explain, and live with the distance that leaves. |
 | **The Rain** | 癸 | You soak up what everyone around you feels, then wonder which of it is yours. |

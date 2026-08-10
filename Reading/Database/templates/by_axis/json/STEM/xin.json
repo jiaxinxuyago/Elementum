@@ -14,14 +14,15 @@
   "candidates": {
     "archetype_name": "The Jewel",
     "manifesto": "Refinement over output · The flaw is felt before the eye finds it.",
-    "inscription": "You were polished by what pressed you — brilliance is the part that survived.",
+    "inscription": "You hold your work to a standard nobody set, and it never says finished.",
     "pinyin_display": "XĪN · YIN METAL",
     "dm_claims": [
       "You notice the flaw everyone else has agreed to overlook.",
       "Precision is how you show care — even when it reads as cool."
     ],
     "dm_mechanism": "Yin Metal refined under pressure — an edge made keen by polishing, not by force.",
-    "yourNature_desc": "You sense whether something is genuinely excellent the way others sense whether a room is cold — automatically, before thinking about it. You produce work of real quality, but the same standard that makes you exceptional never quite lets you feel done.",
+    "yourNature_desc": "You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required.",
+    "dm_overview": "The Jewel is Yin Metal, the refined form of the element. It works by discernment: flaws register instantly and precision is applied at close range, to small surfaces, over long hours. The finest judgment in the set turns inward by default. That's the tax of this nature. The same eye that makes the work excellent keeps reopening the verdict on its maker, and no outside praise closes the case.",
     "__ore": {
       "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
       "subtitle": "Quality perceived as temperature — before the question forms · The Definition Impulse (Yin)",

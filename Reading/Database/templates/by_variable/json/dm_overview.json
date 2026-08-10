@@ -4,16 +4,58 @@
   "axes": {
     "STEM": [
       {
+        "id": "jia",
+        "key": "甲",
+        "canonical_name": "The Oak",
+        "value": "The Oak is Yang Wood, growth in its straightest form. It works by heading upward: direction gets chosen early, sometimes before the ground has agreed, and the climb starts without waiting for permission or shelter. Setbacks slow it about as much as weather slows a tree. What this nature does badly is pause. Arriving, resting, finishing, all the standing-still skills, stay unlearned."
+      },
+      {
+        "id": "yi",
+        "key": "乙",
+        "canonical_name": "The Vine",
+        "value": "The Vine is Yin Wood, growth that works sideways. It works by adapting: where the straight path is blocked it finds the gap, the wall becomes a ladder, and the long way around still ends at the same destination. Nothing about it is fragile. The bending that looks like weakness is the exact mechanism of its strength, which is why this nature gets underestimated by almost everyone, usually once."
+      },
+      {
         "id": "bing",
         "key": "丙",
         "canonical_name": "The Sun",
         "value": "The Sun is Yang Fire, the broadcasting half of flame. It works like daylight: warmth goes out whether or not anyone meant to send it, and it reaches whoever happens to be under it. Commitment follows what lights up and cools on what doesn't. Receiving never gets practiced, because giving always came first. The output runs constant. The fuel is the part nobody checks, least of all the sun."
       },
       {
+        "id": "ding",
+        "key": "丁",
+        "canonical_name": "The Candle",
+        "value": "The Candle is Yin Fire, flame at its most concentrated. It works by focus: light lands on one thing at a time, fully, and understanding goes deeper there than daylight ever reaches. The warmth is close-range and steady, made for one face rather than a crowd. What this nature pays is the edge of the circle. Whatever isn't chosen sits in the dark, and it notices."
+      },
+      {
+        "id": "wu",
+        "key": "戊",
+        "canonical_name": "The Mountain",
+        "value": "The Mountain is Yang Earth, the load-bearing form of ground. It works by holding: weight gets taken on steadily and set down almost never, and everything nearby learns to lean. Storms change it by inches over decades. The strength runs one direction, though. This nature carries and doesn't get carried, and it can mistake being needed for being known."
+      },
+      {
+        "id": "ji",
+        "key": "己",
+        "canonical_name": "The Field",
+        "value": "The Field is Yin Earth, the cultivated form of ground. It works by providing: conditions get made, nutrients get given, and other things grow because the soil quietly spent itself on them. Patience is structural here, measured in seasons rather than days. The ledger of this nature runs generous and slow. It gives first, counts later, and the counting usually arrives after the harvest has already left."
+      },
+      {
         "id": "geng",
         "key": "庚",
         "canonical_name": "The Blade",
         "value": "The Blade is Yang Metal, the finished edge of the five elements. It works by evaluation: the read begins on contact and is usually over before anyone else has formed a first impression. Verdicts come early and don't move easily, and the same standard turns inward, usually harder. That's what makes this nature accurate, and what makes it trusted, though rarely in a way that feels like closeness."
+      },
+      {
+        "id": "xin",
+        "key": "辛",
+        "canonical_name": "The Jewel",
+        "value": "The Jewel is Yin Metal, the refined form of the element. It works by discernment: flaws register instantly and precision is applied at close range, to small surfaces, over long hours. The finest judgment in the set turns inward by default. That's the tax of this nature. The same eye that makes the work excellent keeps reopening the verdict on its maker, and no outside praise closes the case."
+      },
+      {
+        "id": "ren",
+        "key": "壬",
+        "canonical_name": "The Ocean",
+        "value": "The Ocean is Yang Water, the deep and moving form of the element. It works by currents: thought runs far below the surface, covers distances no one watches, and comes up only where it chooses. Capacity is the defining trait, and it's mostly invisible. What this nature manages, permanently, is the gap between how much is held and how much can ever be shown."
       },
       {
         "id": "gui",

@@ -14,14 +14,15 @@
   "candidates": {
     "archetype_name": "The Vine",
     "manifesto": "Route bends. Destination holds. · The vine finds every wall a ladder.",
-    "inscription": "You bend where others break — and call it nothing, though it is everything.",
+    "inscription": "You find a way around what stops other people, and they call it luck.",
     "pinyin_display": "YǏ · YIN WOOD",
     "dm_claims": [
       "You bend where others break, and arrive intact.",
       "You find the one opening in a wall and grow through it."
     ],
     "dm_mechanism": "Yin Wood that wins by yielding — resilience dressed as softness.",
-    "yourNature_desc": "You always find a way through — not by pushing harder, but by reading the room and finding the opening no one else noticed. Your destination never changes; only the path you take to get there.",
+    "yourNature_desc": "You get where you were going, one way or another, and you make it look easy enough that people miss how hard it was. The route changes constantly. The destination never has. Being flexible gets read as being soft, and you stopped correcting that a long time ago. It's useful.",
+    "dm_overview": "The Vine is Yin Wood, growth that works sideways. It works by adapting: where the straight path is blocked it finds the gap, the wall becomes a ladder, and the long way around still ends at the same destination. Nothing about it is fragile. The bending that looks like weakness is the exact mechanism of its strength, which is why this nature gets underestimated by almost everyone, usually once.",
     "__ore": {
       "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
       "subtitle": "Navigation as intelligence, not accommodation · The Growth Impulse (Yin)",

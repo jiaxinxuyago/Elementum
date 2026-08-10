@@ -14,14 +14,15 @@
   "candidates": {
     "archetype_name": "The Candle",
     "manifesto": "Intimacy over range · A candle doesn't reach far — it reaches true.",
-    "inscription": "You keep a small fire no storm has found — others read by its light.",
+    "inscription": "What you turn toward gets all of you, and everything else waits in the dark.",
     "pinyin_display": "DĪNG · YIN FIRE",
     "dm_claims": [
       "You keep a small, exact flame the wind has never found.",
       "You would rather light one person truly than a crowd dimly."
     ],
     "dm_mechanism": "Yin Fire kept close — a focused heat that endures by staying contained.",
-    "yourNature_desc": "When your attention is fully on someone, they feel completely seen — understood at a level they rarely experience. But you can only truly light up one thing at a time, and everything else goes dark.",
+    "yourNature_desc": "You give whatever you turn toward all of you, and people who've felt that never quite forget it. It's the closest thing to being truly seen most of them get. One flame, one circle, and a lot of patient darkness just outside it.",
+    "dm_overview": "The Candle is Yin Fire, flame at its most concentrated. It works by focus: light lands on one thing at a time, fully, and understanding goes deeper there than daylight ever reaches. The warmth is close-range and steady, made for one face rather than a crowd. What this nature pays is the edge of the circle. Whatever isn't chosen sits in the dark, and it notices.",
     "__ore": {
       "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
       "subtitle": "Complete illumination of exactly what it's pointed at · The Visibility Impulse (Yin)",

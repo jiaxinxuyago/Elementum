@@ -19,11 +19,12 @@
 |---|---|
 | `archetype_name` | The Mountain |
 | `manifesto` | Immovable by design · Others find their bearings and never name why. |
-| `inscription` | You hold what others set down — so long, they forget the weight was theirs. |
+| `inscription` | You hold what others set down, and nothing has ever offered to hold you. |
 | `pinyin_display` | WÙ · YANG EARTH |
 | `dm_claims` | You become the ground others stand on without being asked. · When plans wobble, yours is the version everyone quietly adopts. |
 | `dm_mechanism` | Yang Earth that holds its shape — weight that becomes shelter under load. |
-| `yourNature_desc` | You're the person everyone builds their plans around — steady, reliable, there when things shake. The part no one sees is how much you're actually holding, because you never let it show. |
+| `yourNature_desc` | You're the one everyone builds their plans on, the way people build on ground they trust without thinking about the ground. Things shake, and you don't. What that takes stays out of sight, because you keep it there, and because nobody ever asks a mountain how much it's carrying. |
+| `dm_overview` | The Mountain is Yang Earth, the load-bearing form of ground. It works by holding: weight gets taken on steadily and set down almost never, and everything nearby learns to lean. Storms change it by inches over decades. The strength runs one direction, though. This nature carries and doesn't get carried, and it can mistake being needed for being known. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

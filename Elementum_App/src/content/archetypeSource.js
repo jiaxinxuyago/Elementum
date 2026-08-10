@@ -47,7 +47,7 @@ export const STEM_CARD_DATA = {
       archetypeLabel: `Yang Wood — The Oak`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Motion before readiness · The oak does not negotiate its direction.`,
-      inscription:    `You grow toward the light you believe in — even where nothing shelters you.`,
+      inscription:    `You grow toward a light you can't prove yet, and never stop to rest under it.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -68,7 +68,7 @@ export const STEM_CARD_DATA = {
     chips: ["Visionary", "Initiating", "Growth-driven", "Integrity-bound", "Consolidation-resistant"],
     yourNature: {
       phrase: `The Vanguard General`,  // [INTERNAL — not rendered in UI]
-      desc: `You're always the first to see where something could go — and you start moving toward it before anyone else has decided whether to begin. You build things that outlast you, but you're usually already thinking about the next thing before the current one is done.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
+      desc: `You see where things could go before most people see that they could go anywhere, and you're moving while they're still deciding. What you build tends to outlast you. You're just rarely there to see it, because halfway through every ending you've already started the next thing.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
 
     // GIFTS & SHADOWS — phrase [FREE] · desc [FREE · one sharp 2nd-person sentence, distinct angle]
@@ -156,7 +156,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       archetypeLabel: `Yin Wood — The Vine`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Route bends. Destination holds. · The vine finds every wall a ladder.`,
-      inscription:    `You bend where others break — and call it nothing, though it is everything.`,
+      inscription:    `You find a way around what stops other people, and they call it luck.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -177,7 +177,7 @@ There's also a specific interpersonal cost: people who care about you often feel
     chips: ["Adaptive", "Strategically perceptive", "Resilient", "Destination-fixed", "Coiling intelligence"],
     yourNature: {
       phrase: `The Shadow Diplomat`,  // [INTERNAL — not rendered in UI]
-      desc: `You always find a way through — not by pushing harder, but by reading the room and finding the opening no one else noticed. Your destination never changes; only the path you take to get there.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
+      desc: `You get where you were going, one way or another, and you make it look easy enough that people miss how hard it was. The route changes constantly. The destination never has. Being flexible gets read as being soft, and you stopped correcting that a long time ago. It's useful.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
 
     // GIFTS & SHADOWS — phrase [FREE] · desc [FREE · one sharp 2nd-person sentence, distinct angle]
@@ -370,7 +370,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       archetypeLabel: `Yin Fire — The Candle`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Intimacy over range · A candle doesn't reach far — it reaches true.`,
-      inscription:    `You keep a small fire no storm has found — others read by its light.`,
+      inscription:    `What you turn toward gets all of you, and everything else waits in the dark.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -391,7 +391,7 @@ There's also a specific interpersonal cost: people who care about you often feel
     chips: ["Precise", "Intimate", "Selectively warm", "Detail-sensitive", "Flickering under depletion"],
     yourNature: {
       phrase: `The Imperial Examiner`,  // [INTERNAL — not rendered in UI]
-      desc: `When your attention is fully on someone, they feel completely seen — understood at a level they rarely experience. But you can only truly light up one thing at a time, and everything else goes dark.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
+      desc: `You give whatever you turn toward all of you, and people who've felt that never quite forget it. It's the closest thing to being truly seen most of them get. One flame, one circle, and a lot of patient darkness just outside it.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
 
     // GIFTS & SHADOWS — phrase [FREE] · desc [FREE · one sharp 2nd-person sentence, distinct angle]
@@ -479,7 +479,7 @@ There's also an investment asymmetry that accumulates: you give the full quality
       archetypeLabel: `Yang Earth — The Mountain`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Immovable by design · Others find their bearings and never name why.`,
-      inscription:    `You hold what others set down — so long, they forget the weight was theirs.`,
+      inscription:    `You hold what others set down, and nothing has ever offered to hold you.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -500,7 +500,7 @@ There's also an investment asymmetry that accumulates: you give the full quality
     chips: ["Grounding", "Load-bearing", "Change-resistant", "Silently accumulating", "Orientation-providing"],
     yourNature: {
       phrase: `The Mountain Warden`,  // [INTERNAL — not rendered in UI]
-      desc: `You're the person everyone builds their plans around — steady, reliable, there when things shake. The part no one sees is how much you're actually holding, because you never let it show.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
+      desc: `You're the one everyone builds their plans on, the way people build on ground they trust without thinking about the ground. Things shake, and you don't. What that takes stays out of sight, because you keep it there, and because nobody ever asks a mountain how much it's carrying.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
 
     // GIFTS & SHADOWS — phrase [FREE] · desc [FREE · one sharp 2nd-person sentence, distinct angle]
@@ -588,7 +588,7 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
       archetypeLabel: `Yin Earth — The Field`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Nourish without credit · The soil turns whatever it's given into growth.`,
-      inscription:    `Everything you tend grows — you are the last to call it your harvest.`,
+      inscription:    `Everything you tend grows, and the harvest goes home in other people's hands.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -609,7 +609,7 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
     chips: ["Nurturing", "Developmentally attuned", "Invisibly depleting", "Overcultivating", "Responsive"],
     yourNature: {
       phrase: `The Palace Gardener`,  // [INTERNAL — not rendered in UI]
-      desc: `You help others grow without making a thing out of it — quietly creating the conditions for people to become better versions of themselves. The problem is you give more than you get back, and it takes longer than it should to notice.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
+      desc: `You make the people around you better, mostly by giving them somewhere good to grow. Nobody performs it less than you do. Season after season the same trade repeats, your ground for their growing, and you notice what it's costing you about a season too late.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
 
     // GIFTS & SHADOWS — phrase [FREE] · desc [FREE · one sharp 2nd-person sentence, distinct angle]
@@ -912,7 +912,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
       archetypeLabel: `Yin Metal — The Jewel`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Refinement over output · The flaw is felt before the eye finds it.`,
-      inscription:    `You were polished by what pressed you — brilliance is the part that survived.`,
+      inscription:    `You hold your work to a standard nobody set, and it never says finished.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -933,7 +933,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
     chips: ["Discerning", "Aesthetically precise", "Perfectionist", "Exacting", "Distance through refinement"],
     yourNature: {
       phrase: `The Jade Appraiser`,  // [INTERNAL — not rendered in UI]
-      desc: `You sense whether something is genuinely excellent the way others sense whether a room is cold — automatically, before thinking about it. You produce work of real quality, but the same standard that makes you exceptional never quite lets you feel done.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
+      desc: `You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
 
     // GIFTS & SHADOWS — phrase [FREE] · desc [FREE · one sharp 2nd-person sentence, distinct angle]
@@ -1019,7 +1019,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
       archetypeLabel: `Yang Water — The Ocean`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Depth before disclosure · The surface stays calm; the current decides.`,
-      inscription:    `You hold more than anyone thinks to ask about — depth was never meant to be seen.`,
+      inscription:    `You understand more than you can explain, and live with the distance that leaves.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -1040,7 +1040,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
     chips: ["Expansive", "Systemic", "Depth-witholding", "Untranslatable", "Ambition without edges"],
     yourNature: {
       phrase: `The River Cartographer`,  // [INTERNAL — not rendered in UI]
-      desc: `You process things at a depth most people in the room aren't reaching, and you carry more beneath the surface than you ever show. The hard part is the gap between how deep you actually think and what you can get the room to understand.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
+      desc: `You think in fathoms while most conversation happens at the shoreline. What you show is a fraction of what's moving, and most of it simply doesn't travel well in words. The distance isn't loneliness exactly. It's just how far down you actually live.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
 
     // GIFTS & SHADOWS — phrase [FREE] · desc [FREE · one sharp 2nd-person sentence, distinct angle]

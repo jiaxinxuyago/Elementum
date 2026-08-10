@@ -19,11 +19,12 @@
 |---|---|
 | `archetype_name` | The Field |
 | `manifesto` | Nourish without credit · The soil turns whatever it's given into growth. |
-| `inscription` | Everything you tend grows — you are the last to call it your harvest. |
+| `inscription` | Everything you tend grows, and the harvest goes home in other people's hands. |
 | `pinyin_display` | JǏ · YIN EARTH |
 | `dm_claims` | You make things grow by tending, not by forcing. · People feel steadier after time with you and cannot say why. |
 | `dm_mechanism` | Yin Earth that nourishes quietly — fertile ground that asks for no credit. |
-| `yourNature_desc` | You help others grow without making a thing out of it — quietly creating the conditions for people to become better versions of themselves. The problem is you give more than you get back, and it takes longer than it should to notice. |
+| `yourNature_desc` | You make the people around you better, mostly by giving them somewhere good to grow. Nobody performs it less than you do. Season after season the same trade repeats, your ground for their growing, and you notice what it's costing you about a season too late. |
+| `dm_overview` | The Field is Yin Earth, the cultivated form of ground. It works by providing: conditions get made, nutrients get given, and other things grow because the soil quietly spent itself on them. Patience is structural here, measured in seasons rather than days. The ledger of this nature runs generous and slow. It gives first, counts later, and the counting usually arrives after the harvest has already left. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

@@ -86,7 +86,7 @@ Three registers under one voice (ruled 2026-08-05). Shared bans everywhere: hedg
 
 ## §4 · The humanization gate (prerequisite, owner-ruled 2026-08-05)
 
-Enforcement lives in the project skill **`.claude/skills/humanized-prose/SKILL.md`** (distilled from Wikipedia *Signs of AI writing*, Aboudjem/humanizer-skill, lguz/humanize-writing-skill, jooray/humanizer + house tells). Every paragraph-scale line passes its 3-pass process and this gate before entering the station:
+Mechanical enforcement: **`node tools/voice-audit.mjs`** (added 2026-08-05 — dashes, semicolons, parallelisms, banned words, budgets, opener laws, cross-stem scaffold repeats; exit 1 on violation; run after every content landing). Authoring-time enforcement lives in the project skill **`.claude/skills/humanized-prose/SKILL.md`** (distilled from Wikipedia *Signs of AI writing*, Aboudjem/humanizer-skill, lguz/humanize-writing-skill, jooray/humanizer + house tells). Every paragraph-scale line passes its 3-pass process and this gate before entering the station:
 
 - reading content targets ZERO em-dashes (owner-hardened 2026-08-05: the inscription's former dash exemption is revoked; the ratified manifesto L2 dashes stand as carved corpus until re-ruled)
 - zero semicolon mirrors · zero negative parallelism ("not X but Y") · zero tricolons-by-default

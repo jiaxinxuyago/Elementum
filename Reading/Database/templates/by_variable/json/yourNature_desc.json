@@ -7,13 +7,13 @@
         "id": "jia",
         "key": "甲",
         "canonical_name": "The Oak",
-        "value": "You're always the first to see where something could go — and you start moving toward it before anyone else has decided whether to begin. You build things that outlast you, but you're usually already thinking about the next thing before the current one is done."
+        "value": "You see where things could go before most people see that they could go anywhere, and you're moving while they're still deciding. What you build tends to outlast you. You're just rarely there to see it, because halfway through every ending you've already started the next thing."
       },
       {
         "id": "yi",
         "key": "乙",
         "canonical_name": "The Vine",
-        "value": "You always find a way through — not by pushing harder, but by reading the room and finding the opening no one else noticed. Your destination never changes; only the path you take to get there."
+        "value": "You get where you were going, one way or another, and you make it look easy enough that people miss how hard it was. The route changes constantly. The destination never has. Being flexible gets read as being soft, and you stopped correcting that a long time ago. It's useful."
       },
       {
         "id": "bing",
@@ -25,19 +25,19 @@
         "id": "ding",
         "key": "丁",
         "canonical_name": "The Candle",
-        "value": "When your attention is fully on someone, they feel completely seen — understood at a level they rarely experience. But you can only truly light up one thing at a time, and everything else goes dark."
+        "value": "You give whatever you turn toward all of you, and people who've felt that never quite forget it. It's the closest thing to being truly seen most of them get. One flame, one circle, and a lot of patient darkness just outside it."
       },
       {
         "id": "wu",
         "key": "戊",
         "canonical_name": "The Mountain",
-        "value": "You're the person everyone builds their plans around — steady, reliable, there when things shake. The part no one sees is how much you're actually holding, because you never let it show."
+        "value": "You're the one everyone builds their plans on, the way people build on ground they trust without thinking about the ground. Things shake, and you don't. What that takes stays out of sight, because you keep it there, and because nobody ever asks a mountain how much it's carrying."
       },
       {
         "id": "ji",
         "key": "己",
         "canonical_name": "The Field",
-        "value": "You help others grow without making a thing out of it — quietly creating the conditions for people to become better versions of themselves. The problem is you give more than you get back, and it takes longer than it should to notice."
+        "value": "You make the people around you better, mostly by giving them somewhere good to grow. Nobody performs it less than you do. Season after season the same trade repeats, your ground for their growing, and you notice what it's costing you about a season too late."
       },
       {
         "id": "geng",
@@ -49,13 +49,13 @@
         "id": "xin",
         "key": "辛",
         "canonical_name": "The Jewel",
-        "value": "You sense whether something is genuinely excellent the way others sense whether a room is cold — automatically, before thinking about it. You produce work of real quality, but the same standard that makes you exceptional never quite lets you feel done."
+        "value": "You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required."
       },
       {
         "id": "ren",
         "key": "壬",
         "canonical_name": "The Ocean",
-        "value": "You process things at a depth most people in the room aren't reaching, and you carry more beneath the surface than you ever show. The hard part is the gap between how deep you actually think and what you can get the room to understand."
+        "value": "You think in fathoms while most conversation happens at the shoreline. What you show is a fraction of what's moving, and most of it simply doesn't travel well in words. The distance isn't loneliness exactly. It's just how far down you actually live."
       },
       {
         "id": "gui",

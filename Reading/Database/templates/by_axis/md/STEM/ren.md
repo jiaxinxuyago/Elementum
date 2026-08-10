@@ -19,11 +19,12 @@
 |---|---|
 | `archetype_name` | The Ocean |
 | `manifesto` | Depth before disclosure · The surface stays calm; the current decides. |
-| `inscription` | You hold more than anyone thinks to ask about — depth was never meant to be seen. |
+| `inscription` | You understand more than you can explain, and live with the distance that leaves. |
 | `pinyin_display` | RÉN · YANG WATER |
 | `dm_claims` | You see the whole current while others watch the wave. · You move around obstacles rather than through them, and still arrive first. |
 | `dm_mechanism` | Yang Water that carves by patience — force that wins by not insisting. |
-| `yourNature_desc` | You process things at a depth most people in the room aren't reaching, and you carry more beneath the surface than you ever show. The hard part is the gap between how deep you actually think and what you can get the room to understand. |
+| `yourNature_desc` | You think in fathoms while most conversation happens at the shoreline. What you show is a fraction of what's moving, and most of it simply doesn't travel well in words. The distance isn't loneliness exactly. It's just how far down you actually live. |
+| `dm_overview` | The Ocean is Yang Water, the deep and moving form of the element. It works by currents: thought runs far below the surface, covers distances no one watches, and comes up only where it chooses. Capacity is the defining trait, and it's mostly invisible. What this nature manages, permanently, is the gap between how much is held and how much can ever be shown. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
