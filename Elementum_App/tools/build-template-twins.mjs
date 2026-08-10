@@ -168,5 +168,50 @@ for (const [varName, p] of Object.entries(pivot)) {
   m++;
 }
 
+// ── 3 · corpus_review.html (the silk reading view of the LOCKED corpus) ──
+// One section per stem in taxonomy order; angle lines parsed live from
+// REA_16 §2b (the Angle Map is doc-law — never duplicated here).
+const REA16 = path.resolve(__dirname, '../../Reading/Documents/REA_16_The_Voice.md');
+const angleOf = {};
+try {
+  const md16 = fs.readFileSync(REA16, 'utf8');
+  for (const mm of md16.matchAll(/^\| ([甲乙丙丁戊己庚辛壬癸]) [^|]+ \| \*\*([^*]+)\*\*([^|]*)\| ([^|]+) \|$/gm)) {
+    angleOf[mm[1]] = `${mm[2].trim()} · arena: ${mm[4].trim()}`;
+  }
+} catch { /* REA_16 unavailable — sections render without angle lines */ }
+
+const escH = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;');
+const C = [];
+C.push(`<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Elementum · The Locked Corpus</title><style>
+  :root{--paper:#F7F1E3;--ink:#2C2825;--inkSoft:#5C554D;--inkLight:#8a8378;--hair:#CDBE9E;--bronze:#8b7355}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'EB Garamond',Georgia,serif}
+  .wrap{max-width:840px;margin:0 auto;padding:34px 22px 80px}
+  h1{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:30px;margin:0 0 4px}
+  .sub{color:var(--inkLight);font-size:13px;letter-spacing:.4px;margin-bottom:26px}
+  h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:26px;font-weight:600;border-bottom:1px solid var(--hair);padding-bottom:6px;margin:40px 0 2px}
+  .angle{font-size:12px;color:var(--inkLight);margin:4px 0 14px}
+  .lab{font-family:Cinzel,Georgia,serif;font-size:10px;letter-spacing:2.2px;text-transform:uppercase;color:var(--bronze);margin:16px 0 4px}
+  .mani{font-family:'Cormorant Garamond',Georgia,serif;font-size:18px;color:var(--ink)}
+  .mani .l2{display:block;font-size:15px;color:var(--inkSoft)}
+  .line{font-size:15.5px;line-height:1.6;color:var(--inkSoft);max-width:64ch}
+</style></head><body><div class="wrap">
+<h1>The Locked Corpus</h1>
+<div class="sub">GENERATED from by_axis/json/STEM — the station is the truth; re-run node tools/build-template-twins.mjs after edits. Voice: REA_16 (locked 2026-08-05).</div>`);
+for (const name of (order.STEM || [])) {
+  const t = JSON.parse(fs.readFileSync(path.join(JSON_DIR, 'STEM', `${name}.json`), 'utf8'));
+  const c = t.candidates || {};
+  const [l1 = '', l2 = ''] = (c.manifesto || '').split(' · ');
+  C.push(`<h2>${escH(t.key)} ${escH(t.canonical_name)}</h2>`);
+  if (angleOf[t.key]) C.push(`<div class="angle">Angle: ${escH(angleOf[t.key])}</div>`);
+  C.push(`<div class="lab">Manifesto</div><div class="mani">${escH(l1)}<span class="l2">${escH(l2)}</span></div>`);
+  C.push(`<div class="lab">Inscription</div><div class="line">${escH(c.inscription)}</div>`);
+  C.push(`<div class="lab">Your Nature</div><div class="line">${escH(c.yourNature_desc)}</div>`);
+  if (c.dm_overview) C.push(`<div class="lab">Day Master Overview (P4 pending)</div><div class="line">${escH(c.dm_overview)}</div>`);
+}
+C.push('</div></body></html>');
+fs.writeFileSync(path.join(STATION, 'corpus_review.html'), C.join('\n'), 'utf8');
+
 console.log(`✓ ${n} axis twins in ${MD_DIR}`);
 console.log(`✓ ${m} variable pivots (json + md) in ${path.join(STATION, 'by_variable')}`);
+console.log(`✓ corpus_review.html (${(order.STEM || []).length} stems) in ${STATION}`);
