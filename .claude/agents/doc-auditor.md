@@ -39,10 +39,12 @@ classify, and report.
    ([DES|REA|DEV|INF|BIZ|LEG|PM]_NN, append-only), and the DOC# alias table.
    **OWNER-APPROVED STRUCTURE (2026-07-23 split; 2026-07-27 restructuring):**
    docs live in THREE roots, one registry. `Reading/Documents/` (prefix REA,
-   REA_01–REA_06 + one _ARCHIVE_ file — FINAL ORDER set 2026-07-29:
+   REA_01–REA_06 + REA_16 + one _ARCHIVE_ file — order set 2026-07-29,
+   amended 2026-08-05 (owner): REA_16 The_Voice born per the append-only law:
    01 Archetype_System (front door) · 02 Concept_Dictionary (V) · 03
    Reading_Generation_Schema (A) · 04 Knowledge_Pool (sources) · 05
-   Generation_Architecture (storage/piping) · 06 Concept_Ladder; the old
+   Generation_Architecture (storage/piping) · 06 Concept_Ladder · 16 The_Voice
+   (tone canon); the old
    Content_Generation_Guide + the two generated audits + their tools are
    RETIRED (git); ids REA_07–REA_15 are RETIRED era ids, never reused; any
    earlier-era REA citation resolves via the registry's RENUMBER TABLE —

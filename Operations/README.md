@@ -35,6 +35,7 @@
 | REA_04 | Knowledge_Pool | THE SOURCES — classical/psychological corpus + translation protocol; supports the reasoning, perspective, and depth behind every field's reading | DES_02 ← DOC3 |
 | REA_05 | Generation_Architecture | THE PIPING — how each data template is stored (Reading/Database/templates/) and piped into code/engine (v2.0 rewrite 2026-07-29; legacy pipelines body in git) | DES_03 ← DOC4 |
 | REA_06 | Concept_Ladder | Teaching order (ladder L1–L15) + section charters + teaching-status audit | old Reading_Concept_Inventory Pts 2–3 |
+| REA_16 | The_Voice | Tone canon: register scope map + THE VOICE authoring prompt + humanization gate + exemplar gallery + tone ruling log (born 2026-08-05 per append-only law — ids 07–15 retired) | *(new)* |
 | — | _ARCHIVE_Reading_V2.1_Reconciliation_Audit | v2.1 polarity-faces decision record + the standing journey-lock sequencing ruling (archived 2026-07-29; ruling restated live in REA_03 §7) | was REA_08 ← DES_09 |
 
 **Retired in the 2026-07-29 final ordering (owner-approved; recoverable from git):** `Content_Generation_Guide` (the legacy prompt cookbook — fresh prompts get written against REA_03 when generation starts) · `Reading_Format_Audit` + `Reading_Content_Review` + their generator tools (`reading-format-audit.mjs`, `build-reading-review.mjs`, `reading-replicant.html`) — they audited fields the new schema supersedes.

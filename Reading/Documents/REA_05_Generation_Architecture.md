@@ -4,7 +4,7 @@
 
 > **REWRITTEN 2026-07-29 (owner-directed, v2.0):** the old body (the April-2026 three-pass generation pipelines, `batchGenerate` orchestration, blocks-v2 selection) documented the legacy corpus model and is superseded — old body in git. This doc now owns one job: **how each data template is stored, reviewed, and piped into code and the engine.**
 
-**Position in the library:** REA_01 explains the compound system · REA_02 finalizes the concepts · REA_03 dictates the templates and data fields · REA_04 sources the reasoning/depth · **REA_05 (this) says where the data lives and how it flows** · REA_06 orders the teaching.
+**Position in the library:** REA_01 explains the compound system · REA_02 finalizes the concepts · REA_03 dictates the templates and data fields · REA_04 sources the reasoning/depth · **REA_05 (this) says where the data lives and how it flows** · REA_06 orders the teaching · REA_16 sets the voice.
 
 ---
 

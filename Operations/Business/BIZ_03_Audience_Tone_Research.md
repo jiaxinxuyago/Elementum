@@ -98,6 +98,8 @@ Scored 1–5 against the evidence (P1/P2/P3 = persona fit):
 
 ## §8 · THE RATIFIED TONE (owner-ruled 2026-08-05): "The engraving that reads you"
 
+> **CANON MOVED (2026-08-05):** the operating law now lives at **REA_16 — The Voice** (registers, scope map, prompt v1.1, humanization gate, ruling log). §8/§8b/§8c below stand as the research-era record; where they diverge from REA_16, REA_16 wins.
+
 **Ruling: V1 chassis + V3 specificity discipline + V2 cost courage.** The systematic authoring prompt below is the yardstick for ALL reading-corpus content authoring and review (mirrored at REA_03 §10):
 
 > **THE ELEMENTUM VOICE — authoring prompt (v1.0, owner-ratified 2026-08-05)**
