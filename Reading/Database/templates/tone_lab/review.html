@@ -11,6 +11,8 @@
   .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
   .tcard{border:1px solid var(--hair);background:rgba(255,252,244,.75);padding:12px 14px;display:flex;flex-direction:column;gap:8px}
   .tcard.cur{border-color:var(--bronze);background:rgba(139,115,85,.08)}
+  .tcard.ref{border-color:#5C6E58;background:rgba(92,110,88,.08)}
+  .tcard.ref .tag{color:#5C6E58}
   .tag{font-family:'JetBrains Mono',Consolas,monospace;font-size:9px;letter-spacing:1.6px;color:var(--inkLight)}
   .tcard.cur .tag{color:var(--bronze)}
   .tcard p{margin:0;font-size:15px;line-height:1.55;color:var(--inkSoft)}
@@ -22,32 +24,20 @@
 <h2>丙 The Sun</h2>
 <h3>Manifesto L1 · the carved law</h3><div class="row">
 <div class="tcard cur"><span class="tag">CURRENT</span><p>Warmth without permission</p></div>
-<div class="tcard "><span class="tag">A · cost+1</span><p>Light before fuel</p></div>
-<div class="tcard "><span class="tag">B · mechanism+1</span><p>Radiance before choice</p></div>
-<div class="tcard "><span class="tag">C · image+1</span><p>Daylight without doors</p></div>
 </div>
 <h3>Manifesto L2 · the poetic edge</h3><div class="row">
 <div class="tcard cur"><span class="tag">CURRENT</span><p>The sun does not choose who it reaches.</p></div>
-<div class="tcard "><span class="tag">A · cost+1</span><p>The sun spends itself on every room equally.</p></div>
-<div class="tcard "><span class="tag">B · mechanism+1</span><p>The sun cannot aim — it can only rise.</p></div>
-<div class="tcard "><span class="tag">C · image+1</span><p>Every window in the city faces the same sun.</p></div>
 </div>
 <h3>Inscription · the recognition engine</h3><div class="row">
 <div class="tcard cur"><span class="tag">CURRENT</span><p>You warm every room you enter — and rarely ask who warms you.</p></div>
-<div class="tcard "><span class="tag">A · cost+1</span><p>You warm every room you enter — and run on warmth nobody returns.</p></div>
-<div class="tcard "><span class="tag">B · mechanism+1</span><p>You lift rooms before deciding to — and cannot switch it off to rest.</p></div>
-<div class="tcard "><span class="tag">C · image+1</span><p>You are the weather of every room — and weather is never thanked.</p></div>
+<div class="tcard ref"><span class="tag">REFINED</span><p>You warm every room you enter, and run on warmth nobody returns.</p></div>
 </div>
 <h3>dm_overview · the analyst’s ledger (P4 — NEW variable, no live line)</h3><div class="row">
-<div class="tcard "><span class="tag">A · cost+1</span><p>Yang Fire gives off warmth the way a fire does, without checking who's nearby or what it costs to burn. Rooms pick up when you arrive. You make people feel more capable than they were an hour ago. What you don't do is refuel in public, and almost nobody thinks to ask.</p></div>
-<div class="tcard "><span class="tag">B · mechanism+1</span><p>Yang Fire works like a broadcast. The warmth transmits whether or not you meant to send it, and it reaches whoever happens to be in range. You commit to what lights you up and cool on what doesn't. Receiving is the skill that never got practiced, because giving always came first.</p></div>
-<div class="tcard "><span class="tag">C · image+1</span><p>Yang Fire is the sun's kind of fire, the kind that rises whether anyone's watching. Every window in the building faces you. That's the gift and the whole problem. A sun doesn't get to pick its rooms, and nobody thanks the daylight.</p></div>
+<div class="tcard ref"><span class="tag">REFINED</span><p>The Sun is Yang Fire, the broadcasting half of flame. It works like a transmitter: warmth goes out whether or not anyone meant to send it, and it reaches whoever happens to be in range. Commitment follows what lights up and cools on what doesn't. Receiving never gets practiced, because giving always came first. The output runs constant. The fuel line is the part nobody checks.</p></div>
 </div>
 <h3>yourNature_desc · the identity paragraph (J4/P4)</h3><div class="row">
 <div class="tcard cur"><span class="tag">CURRENT</span><p>You walk into a room and people feel more at ease, more energized, more capable — without you trying to make that happen. The cost is that you give it constantly and almost never get asked if you're okay.</p></div>
-<div class="tcard "><span class="tag">A · cost+1</span><p>You walk in and the room gets easier, braver, a little more possible. None of it is on purpose. The light just runs, all day, on you as fuel, and it says something that no one has ever thought to ask what it burns.</p></div>
-<div class="tcard "><span class="tag">B · mechanism+1</span><p>The room changes temperature before you've said a word, and that's not a decision, it's a property. You can't aim it and you can't switch it off. So you warm whoever's there, on whatever you've got left, even on the days there's nothing.</p></div>
-<div class="tcard "><span class="tag">C · image+1</span><p>Rooms turn toward you the way fields turn toward morning. Nobody decides to, it's just what happens when the sun comes up. And like the sun, you only get looked at during an eclipse. Ordinary daylight never gets a thank-you.</p></div>
+<div class="tcard ref"><span class="tag">REFINED</span><p>You walk in and the room gets easier, braver, a little more possible. None of it is on purpose. The light just runs, all day, on you as fuel. And it says something that in all this time, almost no one has thought to ask what it burns.</p></div>
 </div>
 <h2>历 Daily Guidance · the almanac register</h2>
 <h3>Output day · "a day to express" (template, {today}/{dm} slots)</h3><div class="row">
@@ -65,61 +55,37 @@
 <h2>庚 The Blade</h2>
 <h3>Manifesto L1 · the carved law</h3><div class="row">
 <div class="tcard cur"><span class="tag">CURRENT</span><p>Precision before intention</p></div>
-<div class="tcard "><span class="tag">A · cost+1</span><p>Precision before peace</p></div>
-<div class="tcard "><span class="tag">B · mechanism+1</span><p>Verdict before question</p></div>
-<div class="tcard "><span class="tag">C · image+1</span><p>Forged before wanted</p></div>
 </div>
 <h3>Manifesto L2 · the poetic edge</h3><div class="row">
 <div class="tcard cur"><span class="tag">CURRENT</span><p>An edge is never given — it is forged.</p></div>
-<div class="tcard "><span class="tag">A · cost+1</span><p>Every edge is paid for — first by the metal.</p></div>
-<div class="tcard "><span class="tag">B · mechanism+1</span><p>The edge decides before the hand does.</p></div>
-<div class="tcard "><span class="tag">C · image+1</span><p>What the whetstone takes, the edge keeps.</p></div>
 </div>
 <h3>Inscription · the recognition engine</h3><div class="row">
 <div class="tcard cur"><span class="tag">CURRENT</span><p>You say what others soften — and pay, quietly, for being the one who did.</p></div>
-<div class="tcard "><span class="tag">A · cost+1</span><p>You say what others soften — and carry alone what the saying costs.</p></div>
-<div class="tcard "><span class="tag">B · mechanism+1</span><p>You finish reading a room before entering it — and are never quite inside.</p></div>
-<div class="tcard "><span class="tag">C · image+1</span><p>You cut clean where others tear — and the clean cut is remembered as cold.</p></div>
+<div class="tcard ref"><span class="tag">REFINED</span><p>You say what others soften, then quietly pay for being the one who did.</p></div>
 </div>
 <h3>dm_overview · the analyst’s ledger (P4 — NEW variable, no live line)</h3><div class="row">
-<div class="tcard "><span class="tag">A · cost+1</span><p>Yang Metal minds run on evaluation. You size things up before you decide to, and once a verdict lands it takes real evidence to move it. People trust your read more than almost anyone's, and they're a little careful around it too. The clarity goes to the room. The distance stays with you.</p></div>
-<div class="tcard "><span class="tag">B · mechanism+1</span><p>Yang Metal minds run on evaluation. The read starts the moment you walk in, finishes before most people have said hello, and doesn't much like being revised. You hold yourself to the same standard, usually harder. It makes you accurate, and it makes you trusted, though rarely in a way that feels like closeness.</p></div>
-<div class="tcard "><span class="tag">C · image+1</span><p>Yang Metal is the metal that's been through the fire once already. There's a finished quality to how you judge things, an edge that got its shape from whatever resisted it. People bring you their knots because you cut clean. They just don't always stay to watch.</p></div>
+<div class="tcard ref"><span class="tag">REFINED</span><p>The Blade is Yang Metal, the finished edge of the five elements. It works by evaluation: the read starts the moment it enters a room and finishes before most people have said hello. Verdicts come early and don't move easily, and the same standard turns inward, usually harder. That's what makes this nature accurate, and what makes it trusted, though rarely in a way that feels like closeness.</p></div>
 </div>
 <h3>yourNature_desc · the identity paragraph (J4/P4)</h3><div class="row">
 <div class="tcard cur"><span class="tag">CURRENT</span><p>The most honest person in any room, often the most alone in it. Precision arrives before warmth does — people lean on the edge and rarely find what's behind it.</p></div>
-<div class="tcard "><span class="tag">A · cost+1</span><p>The most honest person in any room, often the most alone in it. People keep the clarity you give them. The cost of saying it stays with you, and nobody thinks of it as a cost, because you never show them the bill.</p></div>
-<div class="tcard "><span class="tag">B · mechanism+1</span><p>You've usually finished reading a room before you're three steps into it. What people call your edge is just a verdict that arrived early. They feel judged before you've said a word, and the strange part is they're not wrong, and neither are you.</p></div>
-<div class="tcard "><span class="tag">C · image+1</span><p>A blade in a room full of cloth. Everything you touch gets a before and an after. People borrow your edge when their knots won't give, then wince when it's turned toward them, and the steel never does get to be soft.</p></div>
+<div class="tcard ref"><span class="tag">REFINED</span><p>You're the most honest person in most rooms, and often the most alone in them. People keep the clarity you hand them. The cost of saying it stays with you, and no one counts it as a cost, because you never show anyone the bill.</p></div>
 </div>
 <h2>癸 The Rain</h2>
 <h3>Manifesto L1 · the carved law</h3><div class="row">
 <div class="tcard cur"><span class="tag">CURRENT</span><p>Felt before spoken</p></div>
-<div class="tcard "><span class="tag">A · cost+1</span><p>Change before credit</p></div>
-<div class="tcard "><span class="tag">B · mechanism+1</span><p>Patience before force</p></div>
-<div class="tcard "><span class="tag">C · image+1</span><p>Rain before thunder</p></div>
 </div>
 <h3>Manifesto L2 · the poetic edge</h3><div class="row">
 <div class="tcard cur"><span class="tag">CURRENT</span><p>What enters water becomes water.</p></div>
-<div class="tcard "><span class="tag">A · cost+1</span><p>The rain is gone before the green arrives.</p></div>
-<div class="tcard "><span class="tag">B · mechanism+1</span><p>Stone loses to rain by years, not blows.</p></div>
-<div class="tcard "><span class="tag">C · image+1</span><p>Every river began as rain that kept going.</p></div>
 </div>
 <h3>Inscription · the recognition engine</h3><div class="row">
 <div class="tcard cur"><span class="tag">CURRENT</span><p>You change things slowly, softly, completely — and let the credit fall elsewhere.</p></div>
-<div class="tcard "><span class="tag">A · cost+1</span><p>You change things slowly, softly, completely — and the change forgets your name.</p></div>
-<div class="tcard "><span class="tag">B · mechanism+1</span><p>You work by accumulation, not force — so no one ever sees a cause.</p></div>
-<div class="tcard "><span class="tag">C · image+1</span><p>You soak in unseen — by the time change shows, it looks like nature.</p></div>
+<div class="tcard ref"><span class="tag">REFINED</span><p>You change things slowly, softly, completely. The change forgets your name.</p></div>
 </div>
 <h3>dm_overview · the analyst’s ledger (P4 — NEW variable, no live line)</h3><div class="row">
-<div class="tcard "><span class="tag">A · cost+1</span><p>Yin Water changes things the way rain does, slowly and from below. You feel a room before you understand it, and you shift people by degrees they don't notice. The work is real. The credit almost never finds its way back, because by the time anything shows, you've already moved on.</p></div>
-<div class="tcard "><span class="tag">B · mechanism+1</span><p>Yin Water works by soaking in. Feelings arrive before reasons, other people's moods come through the walls, and your influence builds up quietly until one day the change looks like it happened on its own. You don't push. You accumulate. Telling your own feelings apart from the room's is the hard part.</p></div>
-<div class="tcard "><span class="tag">C · image+1</span><p>Yin Water is the rain that raised every river. Nothing about you announces itself, and everything downstream of you is different because you passed through. The green comes up after you've gone. Only the ground remembers the weather, and the ground doesn't talk.</p></div>
+<div class="tcard ref"><span class="tag">REFINED</span><p>The Rain is Yin Water, the softest instrument in the set. It works by soaking in: feelings arrive before reasons, the room's moods come through the walls, and influence builds quietly until change looks like it happened on its own. Nothing gets pushed. Everything accumulates. The one hard problem this nature carries is telling its own feelings apart from everyone else's.</p></div>
 </div>
 <h3>yourNature_desc · the identity paragraph (J4/P4)</h3><div class="row">
 <div class="tcard cur"><span class="tag">CURRENT</span><p>You know what's true in a room before anyone says it out loud — the feeling arrives before the reasoning does. The difficult part is that you absorb what everyone around you is feeling, and it can be hard to tell what's yours and what isn't.</p></div>
-<div class="tcard "><span class="tag">A · cost+1</span><p>You know what's true in a room before anyone's said it out loud. Then you go to work on it, so gently that the change gets credited to time, to luck, to the season. Never to the rain. You let that happen, and it costs more than you say.</p></div>
-<div class="tcard "><span class="tag">B · mechanism+1</span><p>Feelings reach you before reasons do, yours and everyone else's, which is the gift and the tax in one. You change people by soaking in, not by pushing. The hard part is standing in a full room and knowing which of the feelings is actually yours.</p></div>
-<div class="tcard "><span class="tag">C · image+1</span><p>You move through people the way rain moves through ground, invisibly and toward the roots. Whatever grows afterward stands there like it grew itself. Only the ground knows about the weather, and the ground isn't telling.</p></div>
+<div class="tcard ref"><span class="tag">REFINED</span><p>You know what's true in a room before anyone says it out loud. Then you go to work on it, so gently that the change gets credited to time, or luck, or the season. Never to the rain. You let that happen. It costs more than you say.</p></div>
 </div>
 </div></body></html>

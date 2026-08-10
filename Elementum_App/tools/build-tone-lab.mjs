@@ -26,7 +26,7 @@ const VAR_LABEL = {
   output_day_narrative: 'Output day · "a day to express" (template, {today}/{dm} slots)',
   officer_day_narrative: 'Officer day · "a day that presses" (template, {today}/{dm} slots)',
 };
-const KEYS = ['current', 'A', 'B', 'C'];
+const KEYS = ['current', 'refined', 'A', 'B', 'C'];
 
 const labs = fs.readdirSync(LAB).filter((f) => f.endsWith('.json'))
   .map((f) => JSON.parse(fs.readFileSync(path.join(LAB, f), 'utf8')));
@@ -52,7 +52,7 @@ for (const lab of labs) {
     L.push('');
     for (const k of KEYS) {
       if (variants[k] == null) continue;
-      L.push(`- **${k === 'current' ? 'CURRENT' : `${k} · ${lab.dials[k]?.split(' — ')[0]}`}** — ${variants[k]}`);
+      L.push(`- **${k === 'current' ? 'CURRENT' : k === 'refined' ? 'REFINED (per the 2026-08-05 item-by-item ruling)' : `${k} · ${lab.dials[k]?.split(' — ')[0]}`}** — ${variants[k]}`);
     }
     L.push('');
   }
@@ -76,6 +76,8 @@ H.push(`<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" c
   .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
   .tcard{border:1px solid var(--hair);background:rgba(255,252,244,.75);padding:12px 14px;display:flex;flex-direction:column;gap:8px}
   .tcard.cur{border-color:var(--bronze);background:rgba(139,115,85,.08)}
+  .tcard.ref{border-color:#5C6E58;background:rgba(92,110,88,.08)}
+  .tcard.ref .tag{color:#5C6E58}
   .tag{font-family:'JetBrains Mono',Consolas,monospace;font-size:9px;letter-spacing:1.6px;color:var(--inkLight)}
   .tcard.cur .tag{color:var(--bronze)}
   .tcard p{margin:0;font-size:15px;line-height:1.55;color:var(--inkSoft)}
@@ -90,7 +92,7 @@ for (const lab of labs) {
     H.push(`<h3>${esc(VAR_LABEL[key] || key)}</h3><div class="row">`);
     for (const k of KEYS) {
       if (variants[k] == null) continue;
-      H.push(card(k === 'current' ? 'CURRENT' : `${k} · ${esc(lab.dials[k]?.split(' — ')[0] || k)}`, variants[k], k === 'current' ? 'cur' : ''));
+      H.push(card(k === 'current' ? 'CURRENT' : k === 'refined' ? 'REFINED' : `${k} · ${esc(lab.dials[k]?.split(' — ')[0] || k)}`, variants[k], k === 'current' ? 'cur' : k === 'refined' ? 'ref' : ''));
     }
     H.push('</div>');
   }

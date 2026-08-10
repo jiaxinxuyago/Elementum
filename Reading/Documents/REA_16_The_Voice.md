@@ -53,11 +53,11 @@ Three registers under one voice (ruled 2026-08-05). Shared bans everywhere: hedg
 >
 > **Manifesto (carved couplet, split " · "):** L1 a noun-led hierarchy claim, 2–4 words — something the world puts second, put first. Never an instruction, never the element's name, never the reader. L2 one breath (≤9w), third person, the element embodied as physical image — the reader must FEEL the element, never be told it. Negation-then-turn and paradox are house moves. Format breaks only when they perform the stem's nature (乙 is the precedent).
 >
-> **Inscription (carved two-beat, ≤17w/≤85c):** beat 1 names the MECHANISM, not the trait ("You say what others soften" — never "You are honest"). Beat 2 names the COST — specific, private, unwitnessed ("and pay, quietly, for being the one who did"). Descriptive of a way of being; never instruction, prediction, or doom. Unwitnessed-ness markers are the signature: quietly · rarely · they forget · the last to · never meant to be seen.
+> **Inscription (carved two-beat, ≤17w/≤85c — DASHLESS, owner-ruled 2026-08-05):** beat 1 names the MECHANISM, not the trait ("You say what others soften" — never "You are honest"). Beat 2 names the COST — specific, private, unwitnessed — at cost+1 intensity (the ruled dial). The beats join with a comma or a period, never a dash. Descriptive of a way of being; never instruction, prediction, or doom. Unwitnessed-ness markers are the signature: quietly · rarely · they forget · the last to · never meant to be seen.
 >
-> **Portrait prose (yourNature, K2 bodies):** second person, humanized (§4). Name the mechanism, then let the cost arrive as a plain fact. One ordinary sentence per paragraph. Contractions welcome.
+> **Portrait prose (yourNature, K2 bodies — owner-ruled register 2026-08-05):** ALWAYS opens on "You" — the perspective starts from the person, never the energy. The most emotionally resonant, mildly compelling register in the corpus: a letter from a perceptive old friend, minus the casualness. Humanized (§4), cost carried at current-to-cost+1 intensity, arriving as plain fact. One ordinary sentence per paragraph. Contractions welcome.
 >
-> **Ledger prose (dm_overview, chart analytics):** formal but natural assessment — "a master's chart notes." Mechanism-forward, element named freely (this register teaches), second person permitted, contractions sparing.
+> **Ledger prose (dm_overview, chart analytics — owner-ruled shape 2026-08-05):** the ENERGY is the subject — open with the archetype name, then what it is, then how it works ("The Blade is Yang Metal, the finished edge of the five elements. It works by evaluation: …"). Mechanism dial is the ruled setting; descriptive and analytical license is granted here. Formal but natural; element named freely (this register teaches); contractions sparing.
 >
 > **Almanac prose (dailies):** instructive allowed — that is its job. Mechanism-named, cost-aware, warm but unhedged.
 >
@@ -69,7 +69,7 @@ Three registers under one voice (ruled 2026-08-05). Shared bans everywhere: hedg
 
 Enforcement lives in the project skill **`.claude/skills/humanized-prose/SKILL.md`** (distilled from Wikipedia *Signs of AI writing*, Aboudjem/humanizer-skill, lguz/humanize-writing-skill, jooray/humanizer + house tells). Every paragraph-scale line passes its 3-pass process and this gate before entering the station:
 
-- ≤1 em-dash per paragraph (0 is better); the inscription's structural dash is exempt
+- reading content targets ZERO em-dashes (owner-hardened 2026-08-05: the inscription's former dash exemption is revoked; the ratified manifesto L2 dashes stand as carved corpus until re-ruled)
 - zero semicolon mirrors · zero negative parallelism ("not X but Y") · zero tricolons-by-default
 - zero AI-cluster vocabulary (delve, tapestry, testament, pivotal, robust, seamless, foster, underscore, leverage, boasts, vibrant…)
 - sentence lengths span ≥3× range; one ordinary, unquotable sentence per paragraph
@@ -107,6 +107,7 @@ Ruled corpus exemplars and current lab bests — grows as the owner rules. **Lab
 | 2026-08-05 | Register spectrum: ENGRAVING · LEDGER · ALMANAC; `dm_overview` commissioned (ledger, P4) |
 | 2026-08-05 | Humanization benchmark = prerequisite; scope = paragraphs (seal stays carved, tell bans apply); em-dash law (1/para max, inscription dash exempt); `dm_overview` re-ruled pure paragraph 60–80w |
 | 2026-08-05 | REA_16 born as the voice canon; BIZ_03 §8 demoted to research record |
+| 2026-08-05 | **Owner item-by-item lab ruling:** manifesto = CURRENT locked · inscription = cost+1, DASHLESS (comma/period join; dash exemption revoked) · dm_overview = mechanism dial, ENERGY as subject (name → what it is → how it works), analytical license · yourNature = You-opener law, old-friend-less-casual register, current-to-cost+1 intensity |
 
 ---
 

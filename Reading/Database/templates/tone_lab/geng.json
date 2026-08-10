@@ -11,34 +11,22 @@
   },
   "variables": {
     "manifesto_l1": {
-      "current": "Precision before intention",
-      "A": "Precision before peace",
-      "B": "Verdict before question",
-      "C": "Forged before wanted"
+      "current": "Precision before intention"
     },
     "manifesto_l2": {
-      "current": "An edge is never given — it is forged.",
-      "A": "Every edge is paid for — first by the metal.",
-      "B": "The edge decides before the hand does.",
-      "C": "What the whetstone takes, the edge keeps."
+      "current": "An edge is never given — it is forged."
     },
     "inscription": {
       "current": "You say what others soften — and pay, quietly, for being the one who did.",
-      "A": "You say what others soften — and carry alone what the saying costs.",
-      "B": "You finish reading a room before entering it — and are never quite inside.",
-      "C": "You cut clean where others tear — and the clean cut is remembered as cold."
+      "refined": "You say what others soften, then quietly pay for being the one who did."
     },
     "dm_overview": {
       "current": null,
-      "A": "Yang Metal minds run on evaluation. You size things up before you decide to, and once a verdict lands it takes real evidence to move it. People trust your read more than almost anyone's, and they're a little careful around it too. The clarity goes to the room. The distance stays with you.",
-      "B": "Yang Metal minds run on evaluation. The read starts the moment you walk in, finishes before most people have said hello, and doesn't much like being revised. You hold yourself to the same standard, usually harder. It makes you accurate, and it makes you trusted, though rarely in a way that feels like closeness.",
-      "C": "Yang Metal is the metal that's been through the fire once already. There's a finished quality to how you judge things, an edge that got its shape from whatever resisted it. People bring you their knots because you cut clean. They just don't always stay to watch."
+      "refined": "The Blade is Yang Metal, the finished edge of the five elements. It works by evaluation: the read starts the moment it enters a room and finishes before most people have said hello. Verdicts come early and don't move easily, and the same standard turns inward, usually harder. That's what makes this nature accurate, and what makes it trusted, though rarely in a way that feels like closeness."
     },
     "yourNature_desc": {
       "current": "The most honest person in any room, often the most alone in it. Precision arrives before warmth does — people lean on the edge and rarely find what's behind it.",
-      "A": "The most honest person in any room, often the most alone in it. People keep the clarity you give them. The cost of saying it stays with you, and nobody thinks of it as a cost, because you never show them the bill.",
-      "B": "You've usually finished reading a room before you're three steps into it. What people call your edge is just a verdict that arrived early. They feel judged before you've said a word, and the strange part is they're not wrong, and neither are you.",
-      "C": "A blade in a room full of cloth. Everything you touch gets a before and an after. People borrow your edge when their knots won't give, then wince when it's turned toward them, and the steel never does get to be soft."
+      "refined": "You're the most honest person in most rooms, and often the most alone in them. People keep the clarity you hand them. The cost of saying it stays with you, and no one counts it as a cost, because you never show anyone the bill."
     }
   }
 }

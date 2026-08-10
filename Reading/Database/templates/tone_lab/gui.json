@@ -11,34 +11,22 @@
   },
   "variables": {
     "manifesto_l1": {
-      "current": "Felt before spoken",
-      "A": "Change before credit",
-      "B": "Patience before force",
-      "C": "Rain before thunder"
+      "current": "Felt before spoken"
     },
     "manifesto_l2": {
-      "current": "What enters water becomes water.",
-      "A": "The rain is gone before the green arrives.",
-      "B": "Stone loses to rain by years, not blows.",
-      "C": "Every river began as rain that kept going."
+      "current": "What enters water becomes water."
     },
     "inscription": {
       "current": "You change things slowly, softly, completely — and let the credit fall elsewhere.",
-      "A": "You change things slowly, softly, completely — and the change forgets your name.",
-      "B": "You work by accumulation, not force — so no one ever sees a cause.",
-      "C": "You soak in unseen — by the time change shows, it looks like nature."
+      "refined": "You change things slowly, softly, completely. The change forgets your name."
     },
     "dm_overview": {
       "current": null,
-      "A": "Yin Water changes things the way rain does, slowly and from below. You feel a room before you understand it, and you shift people by degrees they don't notice. The work is real. The credit almost never finds its way back, because by the time anything shows, you've already moved on.",
-      "B": "Yin Water works by soaking in. Feelings arrive before reasons, other people's moods come through the walls, and your influence builds up quietly until one day the change looks like it happened on its own. You don't push. You accumulate. Telling your own feelings apart from the room's is the hard part.",
-      "C": "Yin Water is the rain that raised every river. Nothing about you announces itself, and everything downstream of you is different because you passed through. The green comes up after you've gone. Only the ground remembers the weather, and the ground doesn't talk."
+      "refined": "The Rain is Yin Water, the softest instrument in the set. It works by soaking in: feelings arrive before reasons, the room's moods come through the walls, and influence builds quietly until change looks like it happened on its own. Nothing gets pushed. Everything accumulates. The one hard problem this nature carries is telling its own feelings apart from everyone else's."
     },
     "yourNature_desc": {
       "current": "You know what's true in a room before anyone says it out loud — the feeling arrives before the reasoning does. The difficult part is that you absorb what everyone around you is feeling, and it can be hard to tell what's yours and what isn't.",
-      "A": "You know what's true in a room before anyone's said it out loud. Then you go to work on it, so gently that the change gets credited to time, to luck, to the season. Never to the rain. You let that happen, and it costs more than you say.",
-      "B": "Feelings reach you before reasons do, yours and everyone else's, which is the gift and the tax in one. You change people by soaking in, not by pushing. The hard part is standing in a full room and knowing which of the feelings is actually yours.",
-      "C": "You move through people the way rain moves through ground, invisibly and toward the roots. Whatever grows afterward stands there like it grew itself. Only the ground knows about the weather, and the ground isn't telling."
+      "refined": "You know what's true in a room before anyone says it out loud. Then you go to work on it, so gently that the change gets credited to time, or luck, or the season. Never to the rain. You let that happen. It costs more than you say."
     }
   }
 }
