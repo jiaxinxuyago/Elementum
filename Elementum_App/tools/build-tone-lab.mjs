@@ -88,6 +88,7 @@ H.push(`<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" c
 <div class="banner">WORKSHOP — generated from tone_lab/*.json. Nothing here ships; ruled winners land in by_axis → OWED → transcription. Dials: <b>A</b> cost+1 · <b>B</b> mechanism+1 · <b>C</b> image+1. Bronze card = current live line.</div>`);
 for (const lab of labs) {
   H.push(`<h2>${lab.stem} ${esc(lab.name)}</h2>`);
+  if (lab.angle) H.push(`<div class="dials">Angle: ${esc(lab.angle)}</div>`);
   for (const [key, variants] of Object.entries(lab.variables)) {
     H.push(`<h3>${esc(VAR_LABEL[key] || key)}</h3><div class="row">`);
     for (const k of KEYS) {

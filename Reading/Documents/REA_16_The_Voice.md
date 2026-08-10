@@ -47,15 +47,34 @@ Three registers under one voice (ruled 2026-08-05). Shared bans everywhere: hedg
 | Self-Report composer shell | **OPEN** | — | — |
 | Web Push copy | *PROPOSED: almanac* | — | **OPEN** |
 
-## §3 · THE VOICE — canonical authoring prompt (v1.1)
+## §2b · The Angle Map (owner-ratified 2026-08-05)
+
+**The anti-monotony law.** Each stem owns ONE cost dimension (its beat-2 / portrait territory) and ONE native arena (its imagery vocabulary). The unwitnessed-martyr angle ("you give and nobody sees it") is NOT the house angle — it was 庚's, over-generalized in v1.1 and revoked as a default; only 丙/己/庚 may stand near the recognition axis, each differently.
+
+| Stem | Cost dimension | Native arena |
+|---|---|---|
+| 甲 Oak | **Momentum** — moving before ready, gone before the finish; never gets to arrive | open ground, weather, seasons, height |
+| 乙 Vine | **Underestimation** — resilience read as ease or luck; the effort invisible by design | walls, wind, gardens, the long way around |
+| 丙 Sun | **Depletion** — output constant, refueling unlearned | light, day, sky — not rooms |
+| 丁 Candle | **Narrowness** — one thing lit completely, everything else dark; a flame held through the night | night, close distance, small light |
+| 戊 Mountain | **Weight** — holding what others set down; the immovable never get carried | ground, load, weather-bearing |
+| 己 Field | **Season-giving** — soil spent on other people's growth; patience taxed harvest after harvest | soil, seasons, harvest |
+| 庚 Blade | **Isolation through honesty** *(the original angle, returned home)* | edge, cut, verdict, forge |
+| 辛 Jewel | **The inward standard** — never feeling finished; a private tax needing no audience | pressure, polish, the flaw, light through stone |
+| 壬 Ocean | **Containment** — carrying more than can be surfaced; depth as solitude, not neglect | depth, current, tide, distance |
+| 癸 Rain | **Porousness** — absorbing everything, losing the border of self; whose feelings are whose | weather, ground, seep |
+
+**Cross-stem lexical law:** each stem's imagery draws from its own arena; "the room" is rationed corpus-wide (no stem currently owns it); no scaffold phrase may repeat across stems ("the X in the room," "you walk in and…"); shared function words are fine — shared *stagings* are not.
+
+## §3 · THE VOICE — canonical authoring prompt (v1.2)
 
 > You are writing lines for an artifact older than its reader — a carved plate that somehow knows them. The voice is never conversational: no sister, no therapist, no guide. It is an engraving that reads the reader.
 >
 > **Manifesto (carved couplet, split " · "):** L1 a noun-led hierarchy claim, 2–4 words — something the world puts second, put first. Never an instruction, never the element's name, never the reader. L2 one breath (≤9w), third person, the element embodied as physical image — the reader must FEEL the element, never be told it. Negation-then-turn and paradox are house moves. Format breaks only when they perform the stem's nature (乙 is the precedent).
 >
-> **Inscription (carved two-beat, ≤17w/≤85c — DASHLESS, owner-ruled 2026-08-05):** beat 1 names the MECHANISM, not the trait ("You say what others soften" — never "You are honest"). Beat 2 names the COST — specific, private, unwitnessed — at cost+1 intensity (the ruled dial). The beats join with a comma or a period, never a dash. Descriptive of a way of being; never instruction, prediction, or doom. Unwitnessed-ness markers are the signature: quietly · rarely · they forget · the last to · never meant to be seen.
+> **Inscription (carved two-beat, ≤17w/≤85c — DASHLESS, owner-ruled 2026-08-05):** beat 1 names the MECHANISM, not the trait ("You say what others soften" — never "You are honest"). Beat 2 names the COST at cost+1 intensity — specific, private, and drawn from the stem's OWN cost dimension per the Angle Map (§2b): momentum for 甲, the inward standard for 辛, porousness for 癸… Never default to unrecognized-giving; that axis belongs to 丙/己/庚 alone, each differently. The beats join with a comma or a period, never a dash. Descriptive of a way of being; never instruction, prediction, or doom.
 >
-> **Portrait prose (yourNature, K2 bodies — owner-ruled register 2026-08-05):** ALWAYS opens on "You" — the perspective starts from the person, never the energy. The most emotionally resonant, mildly compelling register in the corpus: a letter from a perceptive old friend, minus the casualness. Humanized (§4), cost carried at current-to-cost+1 intensity, arriving as plain fact. One ordinary sentence per paragraph. Contractions welcome.
+> **Portrait prose (yourNature, K2 bodies — owner-ruled register 2026-08-05):** ALWAYS opens on "You" — the perspective starts from the person, never the energy. The most emotionally resonant, mildly compelling register in the corpus: a letter from a perceptive old friend, minus the casualness. Staged in the stem's native arena (§2b), never the generic social room. Humanized (§4), cost carried at current-to-cost+1 intensity from the stem's own dimension, arriving as plain fact. One ordinary sentence per paragraph. Contractions welcome.
 >
 > **Ledger prose (dm_overview, chart analytics — owner-ruled shape 2026-08-05):** the ENERGY is the subject — open with the archetype name, then what it is, then how it works ("The Blade is Yang Metal, the finished edge of the five elements. It works by evaluation: …"). Mechanism dial is the ruled setting; descriptive and analytical license is granted here. Formal but natural; element named freely (this register teaches); contractions sparing.
 >
@@ -84,11 +103,11 @@ Ruled corpus exemplars and current lab bests — grows as the owner rules. **Lab
 - 庚 inscription — "You say what others soften — and pay, quietly, for being the one who did."
 - 乙 manifesto — "Route bends. Destination holds. · The vine finds every wall a ladder." *(the licensed format break)*
 
-**Portrait (lab candidate, humanized):**
-- 丙 · "You walk in and the room gets easier, braver, a little more possible. None of it is on purpose. The light just runs, all day, on you as fuel, and it says something that no one has ever thought to ask what it burns."
+**Portrait (lab candidate, humanized + angle-mapped):**
+- 丙 · "You brighten the day of whoever's near you, and none of it is on purpose. The light just runs, morning to night, on you as fuel. People plan around your warmth the way they plan around daylight, and asking what it costs occurs to no one. You included."
 
-**Ledger (lab candidate, humanized):**
-- 癸 · "Yin Water works by soaking in. Feelings arrive before reasons, other people's moods come through the walls, and your influence builds up quietly until one day the change looks like it happened on its own. You don't push. You accumulate. Telling your own feelings apart from the room's is the hard part."
+**Ledger (lab candidate, humanized + angle-mapped):**
+- 癸 · "The Rain is Yin Water, the softest instrument in the set. It works by taking things in: feelings arrive before reasons, moods soak through whatever's between you, and every change it makes starts from inside whoever it reached. Nothing gets pushed. Everything gets absorbed. The open question this nature lives with is where the water ends and the ground begins."
 
 **Almanac (lab candidate, humanized):**
 - officer day · "Today's {today} energy presses on your {dm} nature. Pressure like this sharpens you when the standard behind it is genuine, and just spends you when it isn't. Learn the difference early. You'll pay the toll either way, but only one of them buys anything."
@@ -108,6 +127,7 @@ Ruled corpus exemplars and current lab bests — grows as the owner rules. **Lab
 | 2026-08-05 | Humanization benchmark = prerequisite; scope = paragraphs (seal stays carved, tell bans apply); em-dash law (1/para max, inscription dash exempt); `dm_overview` re-ruled pure paragraph 60–80w |
 | 2026-08-05 | REA_16 born as the voice canon; BIZ_03 §8 demoted to research record |
 | 2026-08-05 | **Owner item-by-item lab ruling:** manifesto = CURRENT locked · inscription = cost+1, DASHLESS (comma/period join; dash exemption revoked) · dm_overview = mechanism dial, ENERGY as subject (name → what it is → how it works), analytical license · yourNature = You-opener law, old-friend-less-casual register, current-to-cost+1 intensity |
+| 2026-08-05 | **Angle Map ratified (§2b):** per-stem cost dimensions + native arenas; unwitnessed-martyr default REVOKED (owner diagnosed the monotony: one resonance angle + "the room" as universal stage); cross-stem lexical law added; prompt → v1.2 |
 
 ---
 
