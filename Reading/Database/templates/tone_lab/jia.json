@@ -1,0 +1,28 @@
+{
+  "$tone_lab": "jia",
+  "stem": "甲",
+  "name": "The Oak",
+  "workshop_note": "TONE LAB — disposable comparison workshop. Ruled winners land in by_axis JSON → OWED → deliberate src/content transcription.",
+  "voice": "REA_16 · THE VOICE v1.2 — the engraving that reads you",
+  "angle": "Momentum · arena: open ground, weather, seasons, height (REA_16 §2b)",
+  "variables": {
+    "manifesto_l1": {
+      "current": "Motion before readiness"
+    },
+    "manifesto_l2": {
+      "current": "The oak does not negotiate its direction."
+    },
+    "inscription": {
+      "current": "You grow toward the light you believe in — even where nothing shelters you.",
+      "refined": "You grow toward a light you can't prove yet, and never stop to rest under it."
+    },
+    "dm_overview": {
+      "current": null,
+      "refined": "The Oak is Yang Wood, growth in its straightest form. It works by heading upward: direction gets chosen early, sometimes before the ground has agreed, and the climb starts without waiting for permission or shelter. Setbacks slow it about as much as weather slows a tree. What this nature does badly is pause. Arriving, resting, finishing, all the standing-still skills, stay unlearned."
+    },
+    "yourNature_desc": {
+      "current": "You're always the first to see where something could go — and you start moving toward it before anyone else has decided whether to begin. You build things that outlast you, but you're usually already thinking about the next thing before the current one is done.",
+      "refined": "You see where things could go before most people see that they could go anywhere, and you're moving while they're still deciding. What you build tends to outlast you. You're just rarely there to see it, because halfway through every ending you've already started the next thing."
+    }
+  }
+}

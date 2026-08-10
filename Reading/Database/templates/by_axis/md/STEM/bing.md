@@ -19,11 +19,12 @@
 |---|---|
 | `archetype_name` | The Sun |
 | `manifesto` | Warmth without permission · The sun does not choose who it reaches. |
-| `inscription` | You warm every room you enter — and rarely ask who warms you. |
+| `inscription` | You warm whoever stands near you, and run on warmth nobody returns. |
 | `pinyin_display` | BǏNG · YANG FIRE |
 | `dm_claims` | You give warmth before you are asked, and rarely count the cost. · A room reads its mood from you before you say a word. |
 | `dm_mechanism` | Yang Fire that gives without dimming — radiance steadied by what it warms. |
-| `yourNature_desc` | You walk into a room and people feel more at ease, more energized, more capable — without you trying to make that happen. The cost is that you give it constantly and almost never get asked if you're okay. |
+| `yourNature_desc` | You brighten the day of whoever's near you, and none of it is on purpose. The light just runs, morning to night, on you as fuel. People plan around your warmth the way they plan around daylight, and asking what it costs occurs to no one. You included. |
+| `dm_overview` | The Sun is Yang Fire, the broadcasting half of flame. It works like daylight: warmth goes out whether or not anyone meant to send it, and it reaches whoever happens to be under it. Commitment follows what lights up and cools on what doesn't. Receiving never gets practiced, because giving always came first. The output runs constant. The fuel is the part nobody checks, least of all the sun. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

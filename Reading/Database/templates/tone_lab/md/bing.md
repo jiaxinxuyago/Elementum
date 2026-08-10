@@ -4,6 +4,8 @@
 >
 > Voice: REA_16 · THE VOICE v1.2 — the engraving that reads you
 
+**Angle:** Depletion · arena: light, day, sky — not rooms (REA_16 §2b)
+
 | Dial | Meaning |
 |---|---|
 | **A** | cost+1 — the unwitnessed cost sharpened (Co-Star courage, formal dress) |

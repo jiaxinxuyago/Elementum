@@ -4,6 +4,8 @@
 >
 > Voice: REA_16 · THE VOICE v1.2 — the engraving that reads you
 
+**Angle:** Porousness · arena: weather, ground, seep (REA_16 §2b — the credit angle retired to 己)
+
 | Dial | Meaning |
 |---|---|
 | **A** | cost+1 — the unwitnessed cost sharpened (Co-Star courage, formal dress) |

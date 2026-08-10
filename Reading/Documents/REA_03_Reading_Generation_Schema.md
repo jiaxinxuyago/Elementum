@@ -300,7 +300,7 @@ From `archetypeSource.js` / `STEM_CARD_DATA.js` unless noted. **Rule: nothing he
 | R1 | `tpl_cast_line` | ✔ RULED (owner, 2026-08-03): month-name format — "CAST FROM 1995 · APRIL 29 · 17–19 CST". Branch-hour pinyin label (YǑU) dropped from the cast line; hour-unknown keeps the `HOUR UNSET` tail. |
 | R2 | `inscription` | ✔ RULED (owner, 2026-08-03): budget ≤17w / ≤85c CONFIRMED; `zh` target shape 4–6字 CONFIRMED (aphorism register, not a translation of the English line). Corpus audited same day: all ×10 pass (12–16w · 61–81c). |
 | R3 | `glossary_body` vs `defline` (V — REA_02 §5c) | ✔ RESOLVED IN CODE (pre-2026-07-28): `journeyData.condGlossaryBody()` composes the condition bodies from `DEFLINE` + `APPR_LINE`/`FOLD_VERDICT` — one source, no second locked copy. Dictionary notes updated. |
-| R4 | `yourNature_desc` | Authored ×10 but not surfacing (J4 falls back to `inscription`) — surface, or retire baseline in favor of the claims model? Cap ≤46w? |
+| R4 | `yourNature_desc` | Authored ×10 but not surfacing (J4 falls back to `inscription`) — surface, or retire baseline in favor of the claims model? Cap ≤46w? **⚠ addendum 2026-08-05: baselines 庚丙癸 re-landed under REA_16 (Angle Map + humanized); the 庚 ×15 band variants in `stemVariants.js` are now TONE-STALE vs the new baseline — re-author under REA_16 when R4 is ruled.** |
 | R5 | `face_teaser` | 45–50w vs gate-teaser law ≤25w — is it the L6 gate teaser (over budget ×2) or the K-screen read (then `k2_gate_teaser` is separate, as mapped)? |
 | R6 | `glossary_body` budget (V) | Confirm ≤35w / ≤175c |
 | R7 | `elementIntro.punch/expand` | Walker conflict (voice vs budget) — re-budget per v2.1 fate (§2.4) or retire with §7 #4? |

@@ -1,0 +1,28 @@
+{
+  "$tone_lab": "xin",
+  "stem": "辛",
+  "name": "The Jewel",
+  "workshop_note": "TONE LAB — disposable comparison workshop. Ruled winners land in by_axis JSON → OWED → deliberate src/content transcription.",
+  "voice": "REA_16 · THE VOICE v1.2 — the engraving that reads you",
+  "angle": "The inward standard · arena: pressure, polish, the flaw, light through stone (REA_16 §2b — no audience required)",
+  "variables": {
+    "manifesto_l1": {
+      "current": "Refinement over output"
+    },
+    "manifesto_l2": {
+      "current": "The flaw is felt before the eye finds it."
+    },
+    "inscription": {
+      "current": "You were polished by what pressed you — brilliance is the part that survived.",
+      "refined": "You hold your work to a standard nobody set, and it never says finished."
+    },
+    "dm_overview": {
+      "current": null,
+      "refined": "The Jewel is Yin Metal, the refined form of the element. It works by discernment: flaws register instantly and precision is applied at close range, to small surfaces, over long hours. The finest judgment in the set turns inward by default. That's the tax of this nature. The same eye that makes the work excellent keeps reopening the verdict on its maker, and no outside praise closes the case."
+    },
+    "yourNature_desc": {
+      "current": "You sense whether something is genuinely excellent the way others sense whether a room is cold — automatically, before thinking about it. You produce work of real quality, but the same standard that makes you exceptional never quite lets you feel done.",
+      "refined": "You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required."
+    }
+  }
+}

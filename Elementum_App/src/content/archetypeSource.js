@@ -263,7 +263,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       archetypeLabel: `Yang Fire — The Sun`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Warmth without permission · The sun does not choose who it reaches.`,
-      inscription:    `You warm every room you enter — and rarely ask who warms you.`,
+      inscription:    `You warm whoever stands near you, and run on warmth nobody returns.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -284,7 +284,7 @@ There's also a specific interpersonal cost: people who care about you often feel
     chips: ["Radiant", "Generative", "Involuntarily warm", "Invisibly depleting", "Trust-creating"],
     yourNature: {
       phrase: `The Court Herald`,  // [INTERNAL — not rendered in UI]
-      desc: `You walk into a room and people feel more at ease, more energized, more capable — without you trying to make that happen. The cost is that you give it constantly and almost never get asked if you're okay.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
+      desc: `You brighten the day of whoever's near you, and none of it is on purpose. The light just runs, morning to night, on you as fuel. People plan around your warmth the way they plan around daylight, and asking what it costs occurs to no one. You included.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
 
     // GIFTS & SHADOWS — phrase [FREE] · desc [FREE · one sharp 2nd-person sentence, distinct angle]
@@ -697,7 +697,7 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
       archetypeLabel: `Yang Metal — The Blade`,      // full label used in pills, headers, share cards
       identityIcon:   `BladeJian`,                   // component key in Engine — 庚-specific sword SVG
       manifesto:      `Precision before intention · An edge is never given — it is forged.`,
-      inscription:    `You say what others soften — and pay, quietly, for being the one who did.`,
+      inscription:    `You say what others soften, then quietly pay for being the one who did.`,
       // manifesto renders as two lines, split on the ` · ` separator:
       //   Line 1 (bold thesis)  → "Precision before intention"
       //   Line 2 (poetic edge)  → "An edge is never given — it is forged."
@@ -728,7 +728,7 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
     // PSYCHCORE — phrase = archetype identity; desc = 2nd person portrait (2–3 sentences, displayed FREE)
     yourNature: {
       phrase: `The Imperial Executioner`,  // [INTERNAL — not rendered in UI]
-      desc: `The most honest person in any room, often the most alone in it. Precision arrives before warmth does — people lean on the edge and rarely find what's behind it.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
+      desc: `You put the truth ahead of your own comfort, and usually ahead of your own company. People keep the clarity you hand them and stay careful around the edge it came from. The cost never comes up. You've never once shown anyone the bill.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
 
     // GIFTS & SHADOWS — phrase [FREE] · desc [FREE · one sharp sentence, distinct angle]
@@ -1128,7 +1128,7 @@ Most exchanges happen at a shallower level than where you operate. This produces
       archetypeLabel: `Yin Water — The Rain`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
       manifesto:      `Felt before spoken · What enters water becomes water.`,
-      inscription:    `You change things slowly, softly, completely — and let the credit fall elsewhere.`,
+      inscription:    `You soak up what everyone around you feels, then wonder which of it is yours.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -1149,7 +1149,7 @@ Most exchanges happen at a shallower level than where you operate. This produces
     chips: ["Attuned", "Psychically permeable", "Absorbing", "Specifically nourishing", "Lost in own fog"],
     yourNature: {
       phrase: `The Court Oracle`,  // [INTERNAL — not rendered in UI]
-      desc: `You know what's true in a room before anyone says it out loud — the feeling arrives before the reasoning does. The difficult part is that you absorb what everyone around you is feeling, and it can be hard to tell what's yours and what isn't.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
+      desc: `You feel what a day is carrying before anyone says so, and you take it in the way ground takes rain. Most of it grows something. Some of it was never yours to hold, and telling the difference is the quiet work of your life.`,  // [FREE · Your Nature block — Archetype Variants: varies by STEM_Band_tgPattern]
     },
 
     // GIFTS & SHADOWS — phrase [FREE] · desc [FREE · one sharp 2nd-person sentence, distinct angle]

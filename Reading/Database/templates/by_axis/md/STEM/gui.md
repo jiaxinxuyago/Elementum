@@ -19,11 +19,12 @@
 |---|---|
 | `archetype_name` | The Rain |
 | `manifesto` | Felt before spoken · What enters water becomes water. |
-| `inscription` | You change things slowly, softly, completely — and let the credit fall elsewhere. |
+| `inscription` | You soak up what everyone around you feels, then wonder which of it is yours. |
 | `pinyin_display` | GUǏ · YIN WATER |
 | `dm_claims` | You read the room a beat before it reveals itself. · You reach people through the small, quiet door, not the loud one. |
 | `dm_mechanism` | Yin Water that finds every opening — perception that travels where pressure cannot. |
-| `yourNature_desc` | You know what's true in a room before anyone says it out loud — the feeling arrives before the reasoning does. The difficult part is that you absorb what everyone around you is feeling, and it can be hard to tell what's yours and what isn't. |
+| `yourNature_desc` | You feel what a day is carrying before anyone says so, and you take it in the way ground takes rain. Most of it grows something. Some of it was never yours to hold, and telling the difference is the quiet work of your life. |
+| `dm_overview` | The Rain is Yin Water, the softest instrument in the set. It works by taking things in: feelings arrive before reasons, moods soak through whatever's between you, and every change it makes starts from inside whoever it reached. Nothing gets pushed. Everything gets absorbed. The open question this nature lives with is where the water ends and the ground begins. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

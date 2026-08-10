@@ -19,7 +19,7 @@
         "id": "bing",
         "key": "丙",
         "canonical_name": "The Sun",
-        "value": "You warm every room you enter — and rarely ask who warms you."
+        "value": "You warm whoever stands near you, and run on warmth nobody returns."
       },
       {
         "id": "ding",
@@ -43,7 +43,7 @@
         "id": "geng",
         "key": "庚",
         "canonical_name": "The Blade",
-        "value": "You say what others soften — and pay, quietly, for being the one who did."
+        "value": "You say what others soften, then quietly pay for being the one who did."
       },
       {
         "id": "xin",
@@ -61,7 +61,7 @@
         "id": "gui",
         "key": "癸",
         "canonical_name": "The Rain",
-        "value": "You change things slowly, softly, completely — and let the credit fall elsewhere."
+        "value": "You soak up what everyone around you feels, then wonder which of it is yours."
       }
     ]
   }

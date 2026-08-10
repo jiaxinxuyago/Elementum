@@ -43,16 +43,19 @@ for (const lab of labs) {
   L.push('>');
   L.push(`> Voice: ${lab.voice}`);
   L.push('');
-  L.push('| Dial | Meaning |');
-  L.push('|---|---|');
-  for (const [k, v] of Object.entries(lab.dials)) L.push(`| **${k}** | ${v} |`);
-  L.push('');
+  if (lab.angle) { L.push(`**Angle:** ${lab.angle}`); L.push(''); }
+  if (lab.dials) {
+    L.push('| Dial | Meaning |');
+    L.push('|---|---|');
+    for (const [k, v] of Object.entries(lab.dials)) L.push(`| **${k}** | ${v} |`);
+    L.push('');
+  }
   for (const [key, variants] of Object.entries(lab.variables)) {
     L.push(`## ${VAR_LABEL[key] || key}`);
     L.push('');
     for (const k of KEYS) {
       if (variants[k] == null) continue;
-      L.push(`- **${k === 'current' ? 'CURRENT' : k === 'refined' ? 'REFINED (per the 2026-08-05 item-by-item ruling)' : `${k} · ${lab.dials[k]?.split(' — ')[0]}`}** — ${variants[k]}`);
+      L.push(`- **${k === 'current' ? 'CURRENT' : k === 'refined' ? 'REFINED (per the 2026-08-05 item-by-item ruling)' : `${k} · ${lab.dials?.[k]?.split(' — ')[0] ?? k}`}** — ${variants[k]}`);
     }
     L.push('');
   }
@@ -93,7 +96,7 @@ for (const lab of labs) {
     H.push(`<h3>${esc(VAR_LABEL[key] || key)}</h3><div class="row">`);
     for (const k of KEYS) {
       if (variants[k] == null) continue;
-      H.push(card(k === 'current' ? 'CURRENT' : k === 'refined' ? 'REFINED' : `${k} · ${esc(lab.dials[k]?.split(' — ')[0] || k)}`, variants[k], k === 'current' ? 'cur' : k === 'refined' ? 'ref' : ''));
+      H.push(card(k === 'current' ? 'CURRENT' : k === 'refined' ? 'REFINED' : `${k} · ${esc(lab.dials?.[k]?.split(' — ')[0] || k)}`, variants[k], k === 'current' ? 'cur' : k === 'refined' ? 'ref' : ''));
     }
     H.push('</div>');
   }
