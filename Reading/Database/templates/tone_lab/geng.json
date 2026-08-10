@@ -30,15 +30,15 @@
     },
     "dm_overview": {
       "current": null,
-      "A": "Yang Metal runs evaluation as the first act of cognition: the read completes before engagement begins, and verdicts form early. The ledger is fixed — the room receives the clarity; the assessor retains the distance. ▸ Decides: early and whole — revision is the expensive operation. ▸ Relates: trusted structurally, approached carefully. ▸ Under pressure: performs best, and pays afterward.",
-      "B": "Yang Metal runs evaluation as the first act of cognition: the read completes before engagement begins, verdicts form early and revise slowly, and the hardest standard is applied inward. Care is expressed as accuracy; comfort is not the deliverable. ▸ Decides: conclusions arrive whole — deliberation happened before the conversation. ▸ Relates: reliability over ease; honesty offered as intimacy. ▸ Under pressure: sharpens — resistance gives the edge a use.",
-      "C": "Yang Metal is ore that remembers the forge: cutting cognition, edged by whatever resisted it. The profile is a blade's — one clean line through material others saw as whole. ▸ Decides: one stroke; the cut is placed before it is made. ▸ Relates: a blade is held, not held close. ▸ Under pressure: fire is not the enemy of metal — it is the making of it."
+      "A": "Yang Metal minds run on evaluation. You size things up before you decide to, and once a verdict lands it takes real evidence to move it. People trust your read more than almost anyone's, and they're a little careful around it too. The clarity goes to the room. The distance stays with you.",
+      "B": "Yang Metal minds run on evaluation. The read starts the moment you walk in, finishes before most people have said hello, and doesn't much like being revised. You hold yourself to the same standard, usually harder. It makes you accurate, and it makes you trusted, though rarely in a way that feels like closeness.",
+      "C": "Yang Metal is the metal that's been through the fire once already. There's a finished quality to how you judge things, an edge that got its shape from whatever resisted it. People bring you their knots because you cut clean. They just don't always stay to watch."
     },
     "yourNature_desc": {
       "current": "The most honest person in any room, often the most alone in it. Precision arrives before warmth does — people lean on the edge and rarely find what's behind it.",
-      "A": "The most honest person in any room, often the most alone in it. Every truth you deliver is paid for privately — the room keeps the clarity, and you keep the bill.",
-      "B": "You evaluate before you engage — the read completes before the conversation starts. What the room feels as edge is a verdict arriving early; what you feel is the distance it builds.",
-      "C": "A blade in a room of cloth — everything near you falls into before and after. People borrow the edge for their knots, then flinch at it; the steel never gets to be soft."
+      "A": "The most honest person in any room, often the most alone in it. People keep the clarity you give them. The cost of saying it stays with you, and nobody thinks of it as a cost, because you never show them the bill.",
+      "B": "You've usually finished reading a room before you're three steps into it. What people call your edge is just a verdict that arrived early. They feel judged before you've said a word, and the strange part is they're not wrong, and neither are you.",
+      "C": "A blade in a room full of cloth. Everything you touch gets a before and an after. People borrow your edge when their knots won't give, then wince when it's turned toward them, and the steel never does get to be soft."
     }
   }
 }

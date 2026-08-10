@@ -123,6 +123,8 @@ Scored 1–5 against the evidence (P1/P2/P3 = persona fit):
 2. **THE ANALYST'S LEDGER** (chart-analysis surfaces: `dm_overview` on P4, future chart analytics) — formal assessment prose, mechanism-forward, trait-structured ("verdicts form early and revise slowly"); reads as a master's chart notes; may be near-clinical but never casual; second person avoided in the paragraph, permitted in trait rows.
 3. **THE ALMANAC** (daily/temporal guidance: Today narratives, DO/AVOID) — instructive by nature (the imperative ban is SCOPED OUT here); mechanism-named, cost-aware, warm but unhedged.
 
+**§8c · The humanization benchmark (owner-commissioned 2026-08-05 — PREREQUISITE for all content finalization):** every paragraph-scale line must pass the `humanized-prose` skill (`.claude/skills/humanized-prose/SKILL.md`) — the distilled tell catalog (em-dash rationing owner-ruled at max 1/paragraph with the inscription's structural dash exempt; semicolon mirrors, negative parallelisms, tricolons, fragment stacks, AI-cluster vocabulary, uniform sentence length all banned) plus texture requirements (burstiness, plain verbs, contractions per register, one ordinary sentence per paragraph, one idea left unresolved). Sources: Wikipedia *Signs of AI writing*, Aboudjem/humanizer-skill (53 patterns), lguz/humanize-writing-skill (3-pass), jooray/humanizer. Seal lines stay carved but obey the tell bans. `dm_overview` re-ruled to pure paragraph (60–80w, trait rows dropped).
+
 **Open census flags carried from the 2026-08-04 tone-setting pass (pending per-line rulings):** "before" density (5 uses incl. 辛 L2) · 戊's L2 subject drift + double "others" · cross-stem "hold" ×2 and "credit" ×2 · 己's inscription opener variant.
 
 ---
