@@ -17,7 +17,7 @@
 | Variable | Value |
 |---|---|
 | `persona_name` | The Magistrate |
-| `definition_line` | Framework-mediated pressure — the standard that legitimizes |
+| `definition_line` | Framework-mediated pressure — the standard that steadies |
 | `keyword` | Order |
 | `charge` | gentle |
 | `pole_catalyst` | Integrity |

@@ -39,7 +39,7 @@
 | 偏财 | **The Horizon** | Wide-ranging engagement — opportunity sensed at a distance | The Field (god) · Indirect Wealth |
 | 正财 | **The Steward** | Methodical, directed acquisition — value built and kept | The Harvest · Direct Wealth |
 | 七杀 | **The General** | Pressure that doesn't grant permission — the trial that forges | The Trial · Seven Killings |
-| 正官 | **The Magistrate** | Framework-mediated pressure — the standard that legitimizes | The Standard · Direct Officer |
+| 正官 | **The Magistrate** | Framework-mediated pressure — the standard that steadies *(amended 2026-08-05: "legitimizes" fell to the REA_16 courtroom-register ban)* | The Standard · Direct Officer |
 | 偏印 | **The Alchemist** | Unconventional nourishment — insight that transmutes | The Well · Indirect Seal |
 | 正印 | **The Sage** | Nourishment that deepens without redirecting — the root that holds | The Root · Direct Seal |
 

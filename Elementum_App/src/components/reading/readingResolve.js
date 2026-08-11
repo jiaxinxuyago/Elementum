@@ -78,7 +78,7 @@ export const FACE_ABSTRACT = {
   '偏财': 'Opportunity sensed at a distance',
   '正财': 'Value built and kept',
   '七杀': 'The trial that forges',
-  '正官': 'The standard that legitimizes',
+  '正官': 'The standard that steadies',
   '偏印': 'Insight that transmutes',
   '正印': 'The root that holds',
 };
@@ -93,7 +93,7 @@ const DOMAIN_BY_GOD = {
   '偏财': 'your wealth & desire — the world read as opportunity',
   '正财': 'your wealth & desire — value built and kept',
   '七杀': 'the pressure that shapes you — the trial you answer to',
-  '正官': 'the order that legitimizes you — the standard you keep',
+  '正官': 'the order that steadies you, the standard you keep',
   '偏印': 'your support & nourishment — the ground your edge is forged on',
   '正印': 'your support & nourishment — the root that holds you',
 };

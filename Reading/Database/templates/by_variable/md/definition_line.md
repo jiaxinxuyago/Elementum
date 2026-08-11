@@ -15,6 +15,6 @@
 | **The Horizon** | 偏财 | Wide-ranging engagement — opportunity sensed at a distance |
 | **The Steward** | 正财 | Methodical, directed acquisition — value built and kept |
 | **The General** | 七杀 | Pressure that doesn't grant permission — the trial that forges |
-| **The Magistrate** | 正官 | Framework-mediated pressure — the standard that legitimizes |
+| **The Magistrate** | 正官 | Framework-mediated pressure — the standard that steadies |
 | **The Alchemist** | 偏印 | Unconventional nourishment — insight that transmutes |
 | **The Sage** | 正印 | Nourishment that deepens without redirecting — the root that holds |

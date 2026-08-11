@@ -72,7 +72,7 @@ const GOD_DEFLINE = {
   '偏财': 'Wide-ranging engagement — opportunity sensed at a distance',
   '正财': 'Methodical, directed acquisition — value built and kept',
   '七杀': "Pressure that doesn't grant permission — the trial that forges",
-  '正官': 'Framework-mediated pressure — the standard that legitimizes',
+  '正官': 'Framework-mediated pressure — the standard that steadies',
   '偏印': 'Unconventional nourishment — insight that transmutes',
   '正印': 'Nourishment that deepens without redirecting — the root that holds',
 };

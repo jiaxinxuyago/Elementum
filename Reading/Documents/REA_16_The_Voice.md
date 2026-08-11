@@ -99,9 +99,9 @@ Each row is that archetype's **branch register**: its cost dimension (what beat-
 | 壬 Ocean | **Containment** — carrying more than can be surfaced; depth as solitude, not neglect | depth, current, tide, shoreline, fathoms, distance | long submerged clauses surfacing rarely, wide spans between periods |
 | 癸 Rain | **Porousness** — absorbing everything, losing the border of self; whose feelings are whose | weather, rain, ground, seep, roots, the green after | soft accumulating clauses, gentle repetitions, edges dissolving |
 
-### §2b-G · GOD-axis branch registers (PROPOSED — pending the owner's God Angle Map ruling; prerequisite for all K2 authoring)
+### §2b-G · GOD-axis branch registers (RULED — owner approved wholesale 2026-08-05; the K2 authoring frame is OPEN)
 
-Same construct as the stems: cost dimension + arena, bounded by the master. DRAFTS for ruling, one per persona:
+Same construct as the stems: cost dimension + arena, bounded by the master. One per persona:
 
 | Persona (god) | Proposed cost dimension | Proposed arena word-field |
 |---|---|---|
@@ -219,6 +219,7 @@ Ruled corpus exemplars and current lab bests — grows as the owner rules. **Lab
 | 2026-08-05 | Register spectrum: ENGRAVING · LEDGER · ALMANAC; `dm_overview` commissioned (ledger, P4) |
 | 2026-08-05 | Humanization benchmark = prerequisite; scope = paragraphs (seal stays carved, tell bans apply); em-dash law (1/para max, inscription dash exempt); `dm_overview` re-ruled pure paragraph 60–80w |
 | 2026-08-05 | REA_16 born as the voice canon; BIZ_03 §8 demoted to research record |
+| 2026-08-05 | **GOD branch registers RULED (wholesale) — the God Angle Map is law; K2 authoring unblocked.** Same ruling amended the 正官 defline (REA_02): "the standard that legitimizes" → "the standard that steadies" (courtroom ban), carried through seeder truth, station, and both live `readingResolve` speech lines (the second de-dashed in passing). Defline dash question for the other nine stays open. |
 | 2026-08-05 | **THE ELEMENTUM REGISTER established (§1b, owner-commissioned):** master lexicon (canonical vocabulary + replacement table + consolidated bans + image-field law) and master syntax (punctuation, shapes, person, verbs) unified in one place; §2b branch registers enriched with arena word-fields + rhythm temperaments per stem; §2b-G GOD branch registers DRAFTED (pending owner ruling — the K2 prerequisite); ELEMENT_GOD registers = derived cross products; prompt → v1.3 (four-layer assembly rule). Locked corpus ironed to the replacement table (evaluation→sizing up, discernment→noticing) |
 | 2026-08-05 | **Owner language review (post-corpus):** ① courtroom register banned (verdict, legitimate, legitimacy, institutional — everyday spiritual-guidance words only; locked 庚/辛 dm_overview lines rewritten) ② TOTAL dash purge — carved exemption revoked: manifesto L2s re-ruled to period breaks, the J3 join changed from " — " to ". ", 21 design-file holdouts swept ③ audit coverage extended to ALL live content modules (archetypeSource, stemVariants, DM_READING, faces/tiles) as pending-tier registry rows |
 | 2026-08-05 | **Daily dial ruled: B (mechanism+1) ×5** — all five relationship narratives rewritten under it (dashless, humanized, the live chart relationship named each day); registry rows → live; **TONE LAB CLOSED** (folder + generator retired — every workshop question is now ruled; future tone work opens fresh labs per need) |
