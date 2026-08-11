@@ -266,14 +266,14 @@ From `archetypeSource.js` / `STEM_CARD_DATA.js` unless noted. **Rule: nothing he
 | Slot | Surface | Variable(s) | Status |
 |---|---|---|---|
 | A1–A6 | Reveal | `ui_labels`(V) · `archetype_name` · `manifesto`(couplet: L1 + identity-formula L2) · `stem_keywords`(chips, replaced `inscription` 2026-08-05) · `tpl_cast_line` · `stem_painting` | LOCKED (R1 ruled 2026-08-03; A4 re-ruled 08-05) |
-| B1–B4 | Hero | `archetype_name` · `manifesto` · top3→`keyword`(V) · `stem_seal` | LOCKED |
+| B1–B4 | Hero | `archetype_name` · `manifesto` · `stem_keywords` *(replaced the derived top3 chips 2026-08-05 — one identity, same three words as the plate)* · `stem_seal` | LOCKED (B3 re-ruled 08-05) |
 | C1–C8 | Folio | `tpl_core_energy_line` · `condition_term`(V) · `fold_verdict`(V) · `tpl_core_own_element` · `tpl_core_seal_explainer` · `cond_tail`(V) · `approach_verb`+`appr_tail`(V) · `defline`(V) | LOCKED |
 | D1–D4 | Wheel | derived (presence/seats/roles) · `stem_painting` | LOCKED |
 | E1–E5 | Seek/Skip | `ui_labels`(V) · `tpl_relation_row` ← `relation_noun`(V) + presence | LOCKED |
 | F1–F9 | Shelf pills | `tpl_pill_title` · `family_line`(V) · `tpl_dx_line` · roles · `adj_*`(V) · `keyword`(V) · `tpl_verdict_line` ← `pole_*`(V) · presence | LOCKED |
 | G1–G4 | Words-note + glossary | `ui_labels`(V) · `condition_term`(V) · `glossary_body`(V) | LOCKED |
 | H1 | Dock | `relation_noun`(V) + presence + roles | LOCKED |
-| I1–I4 | Share card | `ui_labels`(V) · `archetype_name` · `manifesto` · top3 · `tpl_share_coreline` · composites | LOCKED |
+| I1–I4 | Share card | `ui_labels`(V) · `archetype_name` · `manifesto` · `stem_keywords` *(was top3; re-ruled 08-05)* · `tpl_share_coreline` · composites | LOCKED |
 | J1–J8 | Day-Master screen | `archetype_name` · `pinyin_display` · `manifesto` · `yourNature_desc` ⚠R4 · `tpl_dm_prescription` · `dm_claims` · `dm_mechanism` · `ui_labels`(V) | shell LOCKED · content INTERIM/PLANNED |
 | K1–K8 | Element mini-screen | derived eyebrow · `energy_tile_hook/tag` · `tpl_element_verdict` · `mean_line` · `persona_name`(V)+`keyword`(V) · `face_kw` · `face_teaser` ⚠R5 | WIP |
 | L1–L7 | Deep energy pages | derived hero · `k2_face` · `k2_R` · `k2_X` · `k2_gate_teaser` · `tpl_cycle_line` | PLANNED |

@@ -396,7 +396,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                       </div>
                       <div className="hc-man"><span className="redrule" /><p className="mani">{m.manifesto}</p></div>
                       <div className="hc-foot">
-                        <div className="kws">{m.chips.map((k) => <span className="kw" key={k}>{k}</span>)}</div>
+                        <div className="kws">{(m.stemKeywords || []).map((k) => <span className="kw" key={k}>{k}</span>)}</div>
                         <button className="readcirc" aria-label="Read your Day Master" onClick={() => goScreen('daymaster')}><Use id="ico-arrow-r" /></button>
                       </div>
                     </div>
@@ -681,7 +681,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                 </div>
                 <div className="scarch">{m.archetype}</div>
                 <div className="scman">{m.manifesto}</div>
-                <div className="sckws">{m.chips.map((k) => <span className="sckw" key={k}>{k}</span>)}</div>
+                <div className="sckws">{(m.stemKeywords || []).map((k) => <span className="sckw" key={k}>{k}</span>)}</div>
                 <div className="scbp">
                   <div className="sc-coreline">
                     <span className="sc-mk" style={{ color: `var(--${m.core.el}Deep)` }}><svg viewBox="0 0 24 24" fill="currentColor"><use href={U(`el-${m.core.el}`)} /></svg></span>

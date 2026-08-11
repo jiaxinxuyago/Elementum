@@ -183,6 +183,7 @@ const CODE_SOURCES = {
   'code:readingContent#DM_READING': async () => (await import('../src/content/reading/readingContent.js')).DM_READING,
   'code:reading#FACE_CARD': async () => (await import('../src/content/reading/index.js')).FACE_CARD,
   'code:reading#ENERGY_TILE': async () => (await import('../src/content/reading/index.js')).ENERGY_TILE,
+  'code:readingResolve#PERSONA_COPY': async () => (await import('../src/components/reading/readingResolve.js')).PERSONA_COPY,
 };
 for (const row of registry) {
   const load = CODE_SOURCES[row.key];

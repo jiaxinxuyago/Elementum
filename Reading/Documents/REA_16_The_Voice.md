@@ -155,6 +155,7 @@ Key forms: `station:<AXIS>.<field>` (exact) · `station:<AXIS>.*` (axis wildcard
 | `code:readingContent#DM_READING` | portrait | — | pending | P4 claims + edge layer |
 | `code:reading#FACE_CARD` | portrait | — | pending | face teasers (R5 scope open) |
 | `code:reading#ENERGY_TILE` | portrait | — | pending | energy hooks/tags (K2 interim) |
+| `code:readingResolve#PERSONA_COPY` | portrait | — | pending | P6 persona tails + R/X copy (K2 predecessor) — registered 2026-08-05 closing the catalogue coverage trace |
 
 ## §3 · THE VOICE — canonical authoring prompt (v1.3)
 

@@ -24,7 +24,8 @@ const CTL = { wood: 'earth', earth: 'water', water: 'fire', fire: 'metal', metal
 // design exemplars exactly). Keyed by the internal Ten-God; the tails are
 // presence-neutral (the ghost register already signals absence) and the
 // teasers follow the design's three-part "·" shape. No internal vocabulary.
-const PERSONA_COPY = {
+// Exported for the REA_16 voice audit (registry: code:readingResolve#PERSONA_COPY).
+export const PERSONA_COPY = {
   '比肩': { // The Twin
     tail: 'the inner standard you measure by before any other.',
     teaser: 'Where this conviction turns to a closed door · how it shapes your work and bonds · the season it stands alone.',

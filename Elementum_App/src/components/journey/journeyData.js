@@ -267,9 +267,10 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
   });
   const introOrder = CW_FROM_TOP.map((slot) => els.find((r) => seats[r.el] === slot)?.el).filter(Boolean);
 
-  // identity hero
+  // identity hero — chips are the AUTHORED stem_keywords (owner 2026-08-05:
+  // one identity, same three words on reveal, catalogue hero, and share
+  // surfaces; the old derived top-3 god-keyword chips are retired).
   const manifesto = fullManifesto(card);
-  const chips = rankSorted.slice(0, 3).map((e) => byEl[e.el].keyword).filter(Boolean); // §6b: top-3 keyword code
   const cast = identity.cast;
 
   const core = byEl[coreEl];
@@ -277,7 +278,7 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
     stemId: ec.dayMaster, stem: ec.stem,
     archetype: identity.archetype, pinyin: identity.pinyin,
     manifesto, maniThesis: identity.manifesto, maniEdge: identity.manifestoEdge,
-    inscription: identity.inscription, stemKeywords: identity.keywords, chips, cast,
+    inscription: identity.inscription, stemKeywords: identity.keywords, cast,
     condition, approach, band,
     foldVerdict: FOLD_VERDICT[condition],
     condTail: COND_TAIL[condition],

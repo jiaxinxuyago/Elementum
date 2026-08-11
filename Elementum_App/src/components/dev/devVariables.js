@@ -57,7 +57,6 @@ export function buildVariableGroups(model, activeEl) {
     {
       surface: 'Catalogue · Folio + Panels + Pills',
       vars: [
-        { name: 'top3_keyword_selection (hero chips)', axis: 'DERIVED', status: 'LIVE', value: m?.chips?.join(' · ') },
         { name: 'condition / approach', axis: 'DERIVED→V', arch: condRemedyArch, status: 'LIVE', value: m ? `${m.condition}${m.approach ? ` → ${m.approach}` : ''}` : null },
         { name: 'fold_verdict (V)', axis: 'CONDITION×3', arch: condArch, status: 'LIVE', value: m?.foldVerdict },
         { name: 'lead_god_per_element', axis: 'DERIVED', status: 'LIVE', value: perEl((r) => r.god) },
