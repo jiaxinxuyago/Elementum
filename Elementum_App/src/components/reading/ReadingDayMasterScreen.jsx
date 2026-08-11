@@ -8,6 +8,7 @@
 
 import './reading.css';
 import ReadingDayMasterCard from './ReadingDayMasterCard.jsx';
+import { STEM_CARD_DATA } from '../../content/index.js';
 import { DM_READING, DM_READING_FALLBACK } from '../../content/reading/index.js';
 import { resolveDayMasterReading } from './readingResolve.js';
 import { useReading } from './useReading.js';
@@ -16,8 +17,8 @@ export default function ReadingDayMasterScreen({ onBack, onBirthChart }) {
   const { chart, ec, identity, wip } = useReading();
   if (!ec || !identity) return null;
   const stem = chart && chart.dayMaster && chart.dayMaster.stem;
-  // band-resolved authored reading (the 10×3 stem-band content); falls back
-  // to the templated filler if the stem has no authored entry.
+  const card = STEM_CARD_DATA[stem];
+  // Claims 2–3 from the authored reading; claim 1 is the inscription.
   const reading = resolveDayMasterReading(stem, chart) || DM_READING[stem] || DM_READING_FALLBACK;
   const claims = [identity.inscription, ...(reading.claims || [])].slice(0, 3);
   return (
@@ -27,7 +28,8 @@ export default function ReadingDayMasterScreen({ onBack, onBirthChart }) {
         archetype={identity.archetype}
         manifesto={identity.manifesto}
         claims={claims}
-        edge={reading.edge}
+        overview={card?.identity?.overview}
+        nature={card?.yourNature?.desc}
         onBack={onBack}
         onBirthChart={onBirthChart}
       />

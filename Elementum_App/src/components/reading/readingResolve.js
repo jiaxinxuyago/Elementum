@@ -125,17 +125,17 @@ export function tenGodForEnergy(dmEl, el) {
   return '比肩';
 }
 
-// P4 — band-resolved Day Master reading. claim 1 (the inscription) is added
-// by the screen; here we return the authored gift + shadow as claims 2–3 and
-// the band-characteristic nature as the edge layer.
+// P4 — claims 2–3 from the band-resolved authored reading (gift + shadow).
+// Claim 1 (the inscription) is added by the screen. The nature paragraph on
+// P4 renders the LOCKED baseline directly (2026-08-05 wiring); band-resolved
+// yourNature returns here when R4 re-authors the variants under REA_16.
 export function resolveDayMasterReading(stem, chart) {
   const baseline = STEM_CARD_DATA[stem];
   if (!baseline) return null;
   const a = resolveArchetype(stem, baseline, chart);
   const gift = (a.gifts && a.gifts[0] && a.gifts[0].desc) || '';
   const shadow = (a.shadows && a.shadows[0] && a.shadows[0].desc) || '';
-  const nature = (a.yourNature && a.yourNature.desc) || '';
-  return { claims: [gift, shadow].filter(Boolean), edge: nature };
+  return { claims: [gift, shadow].filter(Boolean) };
 }
 
 // P6/P7 — energy reading from the dominant Ten-God archetype card.

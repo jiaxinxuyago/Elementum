@@ -167,6 +167,7 @@ for (const s of STEMS) {
     dm_claims: dm.claims ?? null,
     dm_mechanism: dm.edge ?? null,
     yourNature_desc: card.yourNature?.desc ?? null,
+    dm_overview: card.identity?.overview ?? null,
     __ore: {
       note: 'legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)',
       subtitle: card.subtitle ?? null, chips: card.chips ?? null,

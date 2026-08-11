@@ -49,6 +49,7 @@ export const STEM_CARD_DATA = {
       manifesto:      `Motion before readiness · You are the Wood that rises before the path is clear.`,
       inscription:    `You grow toward a light you can't prove yet, and never stop to rest under it.`,
       keywords:       [`Driven`, `Upright`, `Pioneering`],
+      overview:       `The Oak is Yang Wood, growth in its straightest form. It works by heading upward: direction gets chosen early, sometimes before the ground has agreed, and the climb starts without waiting for permission or shelter. Setbacks slow it about as much as weather slows a tree. What this nature does badly is pause. Arriving, resting, finishing, all the standing-still skills, stay unlearned.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -159,6 +160,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       manifesto:      `Route bends. Destination holds. · You are the Wood that gets there anyway.`,
       inscription:    `You find a way around what stops other people, and they call it luck.`,
       keywords:       [`Adaptable`, `Persistent`, `Resourceful`],
+      overview:       `The Vine is Yin Wood, growth that works sideways. It works by adapting: where the straight path is blocked it finds the gap, the wall becomes a ladder, and the long way around still ends at the same destination. Nothing about it is fragile. The bending that looks like weakness is the exact mechanism of its strength, which is why this nature gets underestimated by almost everyone, usually once.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -267,6 +269,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       manifesto:      `Warmth without permission · You are the Fire that gives light before anyone asks.`,
       inscription:    `You warm whoever stands near you, and run on warmth nobody returns.`,
       keywords:       [`Warm`, `Radiant`, `Unreserved`],
+      overview:       `The Sun is Yang Fire, the broadcasting half of flame. It works like daylight: warmth goes out whether or not anyone meant to send it, and it reaches whoever happens to be under it. Commitment follows what lights up and cools on what doesn't. Receiving never gets practiced, because giving always came first. The output runs constant. The fuel is the part nobody checks, least of all the sun.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -375,6 +378,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       manifesto:      `Intimacy over range · You are the Fire that burns closest, not widest.`,
       inscription:    `What you turn toward gets all of you, and everything else waits in the dark.`,
       keywords:       [`Focused`, `Devoted`, `Perceptive`],
+      overview:       `The Candle is Yin Fire, flame at its most concentrated. It works by focus: light lands on one thing at a time, fully, and understanding goes deeper there than daylight ever reaches. The warmth is close-range and steady, made for one face rather than a crowd. What this nature pays is the edge of the circle. Whatever isn't chosen sits in the dark, and it notices.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -485,6 +489,7 @@ There's also an investment asymmetry that accumulates: you give the full quality
       manifesto:      `Immovable by design · You are the Earth others use to find their footing.`,
       inscription:    `You hold what others set down, and nothing has ever offered to hold you.`,
       keywords:       [`Steady`, `Centered`, `Dependable`],
+      overview:       `The Mountain is Yang Earth, the load-bearing form of ground. It works by holding: weight gets taken on steadily and set down almost never, and everything nearby learns to lean. Storms change it by inches over decades. The strength runs one direction, though. This nature carries and doesn't get carried, and it can mistake being needed for being known.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -595,6 +600,7 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
       manifesto:      `Nourish without credit · You are the Earth that turns what it holds into growth.`,
       inscription:    `Everything you tend grows, and the harvest goes home in other people's hands.`,
       keywords:       [`Nurturing`, `Patient`, `Receptive`],
+      overview:       `The Field is Yin Earth, the cultivated form of ground. It works by providing: conditions get made, nutrients get given, and other things grow because the soil quietly spent itself on them. Patience is structural here, measured in seasons rather than days. The ledger of this nature runs generous and slow. It gives first, counts later, and the counting usually arrives after the harvest has already left.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -705,6 +711,7 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
       manifesto:      `Precision before intention · You are the Metal that cuts things clean.`,
       inscription:    `You say what others soften, then quietly pay for being the one who did.`,
       keywords:       [`Direct`, `Decisive`, `Sharp`],
+      overview:       `The Blade is Yang Metal, the finished edge of the five elements. It works by sizing up: the read begins on contact and is usually over before anyone else has formed a first impression. Conclusions come early and don't move easily, and the same standard turns inward, usually harder. That's what makes this nature accurate, and what makes it trusted, though rarely in a way that feels like closeness.`,
       // manifesto renders as two lines, split on the ` · ` separator:
       //   Line 1 (bold thesis)  → "Precision before intention"
       //   Line 2 (poetic edge)  → "An edge is never given — it is forged."
@@ -921,6 +928,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
       manifesto:      `Refinement over output · You are the Metal that refines until nothing extra remains.`,
       inscription:    `You hold your work to a standard nobody set, and it never says finished.`,
       keywords:       [`Refined`, `Discerning`, `Exacting`],
+      overview:       `The Jewel is Yin Metal, the refined form of the element. It works by noticing: a flaw shows itself to you instantly, and precision is applied at close range, to small surfaces, over long hours. The finest judgment in the set turns inward by default. That's the tax of this nature. The same eye that makes the work excellent keeps turning back on its maker, and no outside praise ever settles it.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -1029,6 +1037,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
       manifesto:      `Depth before disclosure · You are the Water that keeps moving without losing its depth.`,
       inscription:    `You understand more than you can explain, and live with the distance that leaves.`,
       keywords:       [`Expansive`, `Fluid`, `Deep`],
+      overview:       `The Ocean is Yang Water, the deep and moving form of the element. It works by currents: thought runs far below the surface, covers distances no one watches, and comes up only where it chooses. Capacity is the defining trait, and it's mostly invisible. What this nature manages, permanently, is the gap between how much is held and how much can ever be shown.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -1139,6 +1148,7 @@ Most exchanges happen at a shallower level than where you operate. This produces
       manifesto:      `Felt before spoken · You are the Water that quietly changes whatever it touches.`,
       inscription:    `You soak up what everyone around you feels, then wonder which of it is yours.`,
       keywords:       [`Intuitive`, `Subtle`, `Attuned`],
+      overview:       `The Rain is Yin Water, the softest instrument in the set. It works by taking things in: feelings arrive before reasons, moods soak through whatever's between you, and every change it makes starts from inside whoever it reached. Nothing gets pushed. Everything gets absorbed. The open question this nature lives with is where the water ends and the ground begins.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {

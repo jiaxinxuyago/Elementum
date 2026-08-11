@@ -1,15 +1,15 @@
 // ===================================================================
 // ELEMENTUM · ReadingDayMasterCard  (P4 — the Day Master reference card)
 // ===================================================================
-// Reached by tapping the wheel-centre seal. The reference (not the
+// Reached from the catalogue hero arrow. The reference (not the
 // ceremony): seal + archetype + manifesto, the motivated "Birth Chart"
-// route into the 八字 chart, a cardstock claims list (claim 1 = the
-// identity inscription), and the "how your edge is built · R+E" layer.
-// Fills the app frame; the global tab bar sits over it. No gate here —
-// identity is the free hook.
+// route into the 八字 chart, the Day Master overview (ledger register),
+// a cardstock claims list (claim 1 = the identity inscription), and the
+// Your Nature portrait. Fills the app frame; the global tab bar sits
+// over it. No gate here — identity is the free hook.
 // ===================================================================
 
-export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, claims, edge, onBack, onBirthChart, onShare }) {
+export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, claims, overview, nature, onBack, onBirthChart, onShare }) {
   return (
     <div className="reading-fill">
       <img className="ground-img" src="/backgrounds/bg-reading-03-watermark-low.png" alt="" />
@@ -42,14 +42,23 @@ export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, 
           ) : null}
         </div>
 
-        <div className="claims-card" style={{ marginTop: 18 }}>
+        {overview ? (
+          <div className="layer" style={{ marginTop: 18 }}>
+            <div className="layer-label">Day Master overview</div>
+            <p>{overview}</p>
+          </div>
+        ) : null}
+
+        <div className="claims-card" style={{ marginTop: 12 }}>
           {claims.map((c, i) => <div className="claim" key={i}>{c}</div>)}
         </div>
 
-        <div className="layer" style={{ marginTop: 12 }}>
-          <div className="layer-label">How your edge is built · R+E</div>
-          <p>{edge}</p>
-        </div>
+        {nature ? (
+          <div className="layer" style={{ marginTop: 12 }}>
+            <div className="layer-label">Your nature</div>
+            <p>{nature}</p>
+          </div>
+        ) : null}
 
         <div className="expander">
           <span className="uico"><svg viewBox="0 0 24 24"><use href="#ico-chev-r" /></svg></span>
