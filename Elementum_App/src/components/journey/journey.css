@@ -492,6 +492,11 @@
 .jny .padv2.pgin>.ca-dock{transition-delay:600ms}
 @media (prefers-reduced-motion: reduce){
 .jny .rvl-wash,.jny .rvl-img,.jny .rvl-seal,.jny .rvl-pin,.jny .rvl-name,.jny .rvl-kick,.jny .rvl-edge,.jny .rvl-rule,.jny .rvl-mani,.jny .rvl-cast,.jny .rvl-swipe,.jny .rvl-ring{animation:none!important;opacity:1!important;transform:none!important}
+/* The un-blur lives in the rvlImg animation; killing animations above leaves
+   the base .rvl-img filter:blur(10px) applied at opacity:1, so reduced-motion
+   users saw the reveal artwork permanently blurred (BUG-20260805-2). The
+   .done state already clears it — this makes the pre-.done state agree. */
+.jny .rvl-img{filter:none!important}
 .jny .rvl-wash{opacity:.13!important}
 .jny .rvl-swipe svg{animation:none}
 .jny .wheel.wintro .node{animation:none;opacity:1}
@@ -1639,6 +1644,11 @@
 .jny .padv2.pgin>.ca-dock{transition-delay:600ms}
 @media (prefers-reduced-motion: reduce){
 .jny .rvl-wash,.jny .rvl-img,.jny .rvl-seal,.jny .rvl-pin,.jny .rvl-name,.jny .rvl-kick,.jny .rvl-edge,.jny .rvl-rule,.jny .rvl-mani,.jny .rvl-cast,.jny .rvl-swipe,.jny .rvl-ring{animation:none!important;opacity:1!important;transform:none!important}
+/* The un-blur lives in the rvlImg animation; killing animations above leaves
+   the base .rvl-img filter:blur(10px) applied at opacity:1, so reduced-motion
+   users saw the reveal artwork permanently blurred (BUG-20260805-2). The
+   .done state already clears it — this makes the pre-.done state agree. */
+.jny .rvl-img{filter:none!important}
 .jny .rvl-wash{opacity:.13!important}
 .jny .rvl-swipe svg{animation:none}
 .jny .wheel.wintro .node{animation:none;opacity:1}
