@@ -18,8 +18,9 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Sun |
-| `manifesto` | Warmth without permission · The sun does not choose who it reaches. |
+| `manifesto` | Warmth without permission · You are the Fire that gives light before anyone asks. |
 | `inscription` | You warm whoever stands near you, and run on warmth nobody returns. |
+| `stem_keywords` | Warm · Radiant · Unreserved |
 | `pinyin_display` | BǏNG · YANG FIRE |
 | `dm_claims` | You give warmth before you are asked, and rarely count the cost. · A room reads its mood from you before you say a word. |
 | `dm_mechanism` | Yang Fire that gives without dimming — radiance steadied by what it warms. |

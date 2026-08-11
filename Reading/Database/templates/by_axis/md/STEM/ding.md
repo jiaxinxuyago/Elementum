@@ -18,8 +18,9 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Candle |
-| `manifesto` | Intimacy over range · A candle doesn't reach far. It reaches true. |
+| `manifesto` | Intimacy over range · You are the Fire that burns closest, not widest. |
 | `inscription` | What you turn toward gets all of you, and everything else waits in the dark. |
+| `stem_keywords` | Focused · Devoted · Perceptive |
 | `pinyin_display` | DĪNG · YIN FIRE |
 | `dm_claims` | You keep a small, exact flame the wind has never found. · You would rather light one person truly than a crowd dimly. |
 | `dm_mechanism` | Yin Fire kept close — a focused heat that endures by staying contained. |

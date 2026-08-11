@@ -13,8 +13,13 @@
   "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4)",
   "candidates": {
     "archetype_name": "The Field",
-    "manifesto": "Nourish without credit · The soil turns whatever it's given into growth.",
+    "manifesto": "Nourish without credit · You are the Earth that turns what it holds into growth.",
     "inscription": "Everything you tend grows, and the harvest goes home in other people's hands.",
+    "stem_keywords": [
+      "Nurturing",
+      "Patient",
+      "Receptive"
+    ],
     "pinyin_display": "JǏ · YIN EARTH",
     "dm_claims": [
       "You make things grow by tending, not by forcing.",

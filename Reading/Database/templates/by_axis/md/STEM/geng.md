@@ -18,8 +18,9 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Blade |
-| `manifesto` | Precision before intention · An edge is never given. It is forged. |
+| `manifesto` | Precision before intention · You are the Metal that cuts things clean. |
 | `inscription` | You say what others soften, then quietly pay for being the one who did. |
+| `stem_keywords` | Direct · Decisive · Sharp |
 | `pinyin_display` | GĒNG · YANG METAL |
 | `dm_claims` | Being vague feels worse to you than being wrong. · People come to you when they need the unsoftened truth. |
 | `dm_mechanism` | Yang Metal tempered by spring wood — strength that grew against resistance, not in its absence. |

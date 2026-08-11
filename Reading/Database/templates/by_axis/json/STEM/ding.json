@@ -13,8 +13,13 @@
   "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4)",
   "candidates": {
     "archetype_name": "The Candle",
-    "manifesto": "Intimacy over range · A candle doesn't reach far. It reaches true.",
+    "manifesto": "Intimacy over range · You are the Fire that burns closest, not widest.",
     "inscription": "What you turn toward gets all of you, and everything else waits in the dark.",
+    "stem_keywords": [
+      "Focused",
+      "Devoted",
+      "Perceptive"
+    ],
     "pinyin_display": "DĪNG · YIN FIRE",
     "dm_claims": [
       "You keep a small, exact flame the wind has never found.",

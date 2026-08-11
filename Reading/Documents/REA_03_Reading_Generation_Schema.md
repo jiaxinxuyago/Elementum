@@ -93,8 +93,9 @@ K1 extensions (claims + mechanism) 10 × ~62w ≈ 620w · K1b self cards 30 × ~
 | Var | Type | Axis | Measured | Budget | 庚 example | UI slots | Status |
 |---|---|---|---|---|---|---|---|
 | `archetype_name` | archetype-name | STEM | 2w · 7–12c | ≤3w ✓ | The Blade | A2 B1 I2 J1 | LIVE |
-| `manifesto` | manifesto | STEM **(axis LOCKED ×10 — owner 2026-08-03: identity-seal construct, invariant under band/pattern; band nuance is owned by `yourNature_desc`)** | 8–12w · 53–72c (re-measured 2026-08-04) | ≤14w ✓ (split " · ") | Precision before intention. An edge is never given. It is forged. *(render law, owner-ruled 2026-08-04, punctuation re-ruled 08-05: A3 reveal + share card = the STACKED COUPLET; J3 catalogue hero = the joined form, period join — one variable, two typesettings, zero dashes)* | B2 I2 J3 → A3 | LIVE |
-| `inscription` | inscription | STEM **(axis LOCKED ×10 — owner 2026-08-03, same identity-seal ruling as `manifesto`)** | 12–16w · 67–81c (locked corpus) | **≤17w / ≤85c — R2 owner-ruled 2026-08-03**; DASHLESS two-beat (REA_16); target shape adds `zh` 4–6字 (aphorism register, not a translation) | You say what others soften, then quietly pay for being the one who did. | A4 · DM claim 1 · J4 fallback | **LOCKED ×10 (owner 2026-08-05, REA_16 corpus — priors retired)** |
+| `manifesto` | manifesto | STEM **(axis LOCKED ×10 — owner 2026-08-03: identity-seal construct, invariant under band/pattern; band nuance is owned by `yourNature_desc`)** | — | ≤14w ✓ (split " · ") · **L2 = the identity formula "You are the [Element] that…" (owner redesign 2026-08-05, REA_16 §3)** | Precision before intention. You are the Metal that cuts things clean. *(A3 + share = stacked couplet; J3 = period-joined — one variable, two typesettings, zero dashes)* | B2 I2 J3 → A3 | LIVE · redesigned ×10 2026-08-05 |
+| `stem_keywords` ×3 | labels | STEM | 1w each | 3 chips — 3-dimension rule, no virtues, no absolutes, no cross-stem duplicates (REA_16 §3) | Direct · Decisive · Sharp | A4 (replaces `inscription` on the plate) + share card | **LIVE · born + locked ×10 2026-08-05** |
+| `inscription` | inscription | STEM **(axis LOCKED ×10 — owner 2026-08-03, same identity-seal ruling as `manifesto`)** | 12–16w · 67–81c (locked corpus) | **≤17w / ≤85c — R2 owner-ruled 2026-08-03**; DASHLESS two-beat (REA_16); target shape adds `zh` 4–6字 (aphorism register, not a translation) | You say what others soften, then quietly pay for being the one who did. | DM claim 1 · J4 fallback *(off the plate since 2026-08-05 — displaced by `stem_keywords`)* | **LOCKED ×10 (owner 2026-08-05, REA_16 corpus — priors retired)** |
 | `dm_claims` ×2–3 | inscription | STEM | — | **10–16w each** (claim 1 ≡ `inscription`) | *handoff demo:* Being vague feels worse to you than being wrong. | part-2 P4 | PLANNED |
 | `dm_mechanism` | descriptor | STEM (chart-aware R+E) | — | **≤30w** | *handoff demo:* Yang Metal tempered by spring wood — strength that grew against resistance, not in its absence. | part-2 P4 | PLANNED |
 | `pinyin_display` | label | STEM | 4w · 13–17c | one line | GĒNG · YANG METAL | J1 | LIVE |
@@ -264,7 +265,7 @@ From `archetypeSource.js` / `STEM_CARD_DATA.js` unless noted. **Rule: nothing he
 
 | Slot | Surface | Variable(s) | Status |
 |---|---|---|---|
-| A1–A6 | Reveal | `ui_labels`(V) · `archetype_name` · `manifesto`(couplet: L1+L2 stacked, ruled 2026-08-04) · `inscription` · `tpl_cast_line` · `stem_painting` | LOCKED (R1 ruled 2026-08-03) |
+| A1–A6 | Reveal | `ui_labels`(V) · `archetype_name` · `manifesto`(couplet: L1 + identity-formula L2) · `stem_keywords`(chips, replaced `inscription` 2026-08-05) · `tpl_cast_line` · `stem_painting` | LOCKED (R1 ruled 2026-08-03; A4 re-ruled 08-05) |
 | B1–B4 | Hero | `archetype_name` · `manifesto` · top3→`keyword`(V) · `stem_seal` | LOCKED |
 | C1–C8 | Folio | `tpl_core_energy_line` · `condition_term`(V) · `fold_verdict`(V) · `tpl_core_own_element` · `tpl_core_seal_explainer` · `cond_tail`(V) · `approach_verb`+`appr_tail`(V) · `defline`(V) | LOCKED |
 | D1–D4 | Wheel | derived (presence/seats/roles) · `stem_painting` | LOCKED |

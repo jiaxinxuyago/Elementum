@@ -18,8 +18,9 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Mountain |
-| `manifesto` | Immovable by design · Others find their bearings and never name why. |
+| `manifesto` | Immovable by design · You are the Earth others use to find their footing. |
 | `inscription` | You hold what others set down, and nothing has ever offered to hold you. |
+| `stem_keywords` | Steady · Centered · Dependable |
 | `pinyin_display` | WÙ · YANG EARTH |
 | `dm_claims` | You become the ground others stand on without being asked. · When plans wobble, yours is the version everyone quietly adopts. |
 | `dm_mechanism` | Yang Earth that holds its shape — weight that becomes shelter under load. |

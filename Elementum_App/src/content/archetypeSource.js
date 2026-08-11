@@ -46,8 +46,9 @@ export const STEM_CARD_DATA = {
       archetypeName:  `The Oak`,
       archetypeLabel: `Yang Wood — The Oak`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Motion before readiness · The oak does not negotiate its direction.`,
+      manifesto:      `Motion before readiness · You are the Wood that rises before the path is clear.`,
       inscription:    `You grow toward a light you can't prove yet, and never stop to rest under it.`,
+      keywords:       [`Driven`, `Upright`, `Pioneering`],
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -155,8 +156,9 @@ There's also a specific interpersonal cost: people who care about you often feel
       archetypeName:  `The Vine`,
       archetypeLabel: `Yin Wood — The Vine`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Route bends. Destination holds. · The vine finds every wall a ladder.`,
+      manifesto:      `Route bends. Destination holds. · You are the Wood that gets there anyway.`,
       inscription:    `You find a way around what stops other people, and they call it luck.`,
+      keywords:       [`Adaptable`, `Persistent`, `Resourceful`],
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -262,8 +264,9 @@ There's also a specific interpersonal cost: people who care about you often feel
       archetypeName:  `The Sun`,
       archetypeLabel: `Yang Fire — The Sun`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Warmth without permission · The sun does not choose who it reaches.`,
+      manifesto:      `Warmth without permission · You are the Fire that gives light before anyone asks.`,
       inscription:    `You warm whoever stands near you, and run on warmth nobody returns.`,
+      keywords:       [`Warm`, `Radiant`, `Unreserved`],
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -369,8 +372,9 @@ There's also a specific interpersonal cost: people who care about you often feel
       archetypeName:  `The Candle`,
       archetypeLabel: `Yin Fire — The Candle`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Intimacy over range · A candle doesn't reach far. It reaches true.`,
+      manifesto:      `Intimacy over range · You are the Fire that burns closest, not widest.`,
       inscription:    `What you turn toward gets all of you, and everything else waits in the dark.`,
+      keywords:       [`Focused`, `Devoted`, `Perceptive`],
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -478,8 +482,9 @@ There's also an investment asymmetry that accumulates: you give the full quality
       archetypeName:  `The Mountain`,
       archetypeLabel: `Yang Earth — The Mountain`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Immovable by design · Others find their bearings and never name why.`,
+      manifesto:      `Immovable by design · You are the Earth others use to find their footing.`,
       inscription:    `You hold what others set down, and nothing has ever offered to hold you.`,
+      keywords:       [`Steady`, `Centered`, `Dependable`],
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -587,8 +592,9 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
       archetypeName:  `The Field`,
       archetypeLabel: `Yin Earth — The Field`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Nourish without credit · The soil turns whatever it's given into growth.`,
+      manifesto:      `Nourish without credit · You are the Earth that turns what it holds into growth.`,
       inscription:    `Everything you tend grows, and the harvest goes home in other people's hands.`,
+      keywords:       [`Nurturing`, `Patient`, `Receptive`],
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -696,8 +702,9 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
       archetypeName:  `The Blade`,
       archetypeLabel: `Yang Metal — The Blade`,      // full label used in pills, headers, share cards
       identityIcon:   `BladeJian`,                   // component key in Engine — 庚-specific sword SVG
-      manifesto:      `Precision before intention · An edge is never given. It is forged.`,
+      manifesto:      `Precision before intention · You are the Metal that cuts things clean.`,
       inscription:    `You say what others soften, then quietly pay for being the one who did.`,
+      keywords:       [`Direct`, `Decisive`, `Sharp`],
       // manifesto renders as two lines, split on the ` · ` separator:
       //   Line 1 (bold thesis)  → "Precision before intention"
       //   Line 2 (poetic edge)  → "An edge is never given — it is forged."
@@ -911,8 +918,9 @@ The verdict also becomes load-bearing: once formed, it requires new information 
       archetypeName:  `The Jewel`,
       archetypeLabel: `Yin Metal — The Jewel`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Refinement over output · The flaw is felt before the eye finds it.`,
+      manifesto:      `Refinement over output · You are the Metal that refines until nothing extra remains.`,
       inscription:    `You hold your work to a standard nobody set, and it never says finished.`,
+      keywords:       [`Refined`, `Discerning`, `Exacting`],
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -1018,8 +1026,9 @@ The verdict also becomes load-bearing: once formed, it requires new information 
       archetypeName:  `The Ocean`,
       archetypeLabel: `Yang Water — The Ocean`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Depth before disclosure · The surface stays calm. The current decides.`,
+      manifesto:      `Depth before disclosure · You are the Water that keeps moving without losing its depth.`,
       inscription:    `You understand more than you can explain, and live with the distance that leaves.`,
+      keywords:       [`Expansive`, `Fluid`, `Deep`],
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -1127,8 +1136,9 @@ Most exchanges happen at a shallower level than where you operate. This produces
       archetypeName:  `The Rain`,
       archetypeLabel: `Yin Water — The Rain`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Felt before spoken · What enters water becomes water.`,
+      manifesto:      `Felt before spoken · You are the Water that quietly changes whatever it touches.`,
       inscription:    `You soak up what everyone around you feels, then wonder which of it is yours.`,
+      keywords:       [`Intuitive`, `Subtle`, `Attuned`],
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {

@@ -18,8 +18,9 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Vine |
-| `manifesto` | Route bends. Destination holds. · The vine finds every wall a ladder. |
+| `manifesto` | Route bends. Destination holds. · You are the Wood that gets there anyway. |
 | `inscription` | You find a way around what stops other people, and they call it luck. |
+| `stem_keywords` | Adaptable · Persistent · Resourceful |
 | `pinyin_display` | YǏ · YIN WOOD |
 | `dm_claims` | You bend where others break, and arrive intact. · You find the one opening in a wall and grow through it. |
 | `dm_mechanism` | Yin Wood that wins by yielding — resilience dressed as softness. |

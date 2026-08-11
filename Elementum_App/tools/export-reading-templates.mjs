@@ -162,6 +162,7 @@ for (const s of STEMS) {
     archetype_name: card.identity?.archetypeName ?? null,
     manifesto: card.identity?.manifesto ?? null,
     inscription: idn.inscription ?? null,
+    stem_keywords: card.identity?.keywords ?? null,
     pinyin_display: idn.pinyin ?? null,
     dm_claims: dm.claims ?? null,
     dm_mechanism: dm.edge ?? null,

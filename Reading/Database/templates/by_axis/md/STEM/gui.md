@@ -18,8 +18,9 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Rain |
-| `manifesto` | Felt before spoken · What enters water becomes water. |
+| `manifesto` | Felt before spoken · You are the Water that quietly changes whatever it touches. |
 | `inscription` | You soak up what everyone around you feels, then wonder which of it is yours. |
+| `stem_keywords` | Intuitive · Subtle · Attuned |
 | `pinyin_display` | GUǏ · YIN WATER |
 | `dm_claims` | You read the room a beat before it reveals itself. · You reach people through the small, quiet door, not the loud one. |
 | `dm_mechanism` | Yin Water that finds every opening — perception that travels where pressure cannot. |

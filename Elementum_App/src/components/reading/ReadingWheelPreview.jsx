@@ -15,6 +15,7 @@ const BLADE_IDENTITY = {
   manifesto: 'Precision before intention',
   manifestoEdge: 'An edge is never given. It is forged.',
   inscription: 'You say what others soften, then quietly pay for being the one who did.',
+  keywords: ['Direct', 'Decisive', 'Sharp'],
   cast: 'CAST FROM 1995 · APRIL 29 · 17–19',
 };
 

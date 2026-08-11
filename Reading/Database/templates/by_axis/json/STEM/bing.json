@@ -13,8 +13,13 @@
   "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4)",
   "candidates": {
     "archetype_name": "The Sun",
-    "manifesto": "Warmth without permission · The sun does not choose who it reaches.",
+    "manifesto": "Warmth without permission · You are the Fire that gives light before anyone asks.",
     "inscription": "You warm whoever stands near you, and run on warmth nobody returns.",
+    "stem_keywords": [
+      "Warm",
+      "Radiant",
+      "Unreserved"
+    ],
     "pinyin_display": "BǏNG · YANG FIRE",
     "dm_claims": [
       "You give warmth before you are asked, and rarely count the cost.",

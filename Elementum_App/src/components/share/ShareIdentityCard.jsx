@@ -37,7 +37,7 @@ const ShareIdentityCard = forwardRef(function ShareIdentityCard({ identity, dayM
         <div className="sc-pinyin">{identity.pinyin}</div>
         <div className="sc-manifesto">{identity.manifesto}</div>
         <div className="sc-edge">{identity.manifestoEdge}</div>
-        <div className="sc-inscription">{identity.inscription}</div>
+        <div className="sc-kw">{(identity.keywords || []).map((w) => <span key={w}>{w}</span>)}</div>
         <div className="sc-spacer" />
         <div className="sc-foundry">
           <div className="sc-cast">{identity.cast}</div>

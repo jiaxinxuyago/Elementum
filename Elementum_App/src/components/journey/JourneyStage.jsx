@@ -370,7 +370,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                 <p className="rvl-kick">{m.maniThesis}</p>
                 <p className="rvl-edge">{m.maniEdge}</p>
                 <span className="rvl-rule" />
-                <p className="rvl-mani">{m.inscription}</p>
+                <div className="rvl-kw">{(m.stemKeywords || []).map((w) => <span key={w}>{w}</span>)}</div>
                 <div className="rvl-cast">{m.cast}<span>— ELEMENTUM —</span></div>
               </div>
               <button className="rvl-swipe" aria-label="Continue to your energies — swipe up or tap"><Use id="ico-chev-r" /><span>Swipe up</span></button>

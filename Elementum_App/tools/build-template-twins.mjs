@@ -205,7 +205,8 @@ for (const name of (order.STEM || [])) {
   C.push(`<h2>${escH(t.key)} ${escH(t.canonical_name)}</h2>`);
   if (angleOf[t.key]) C.push(`<div class="angle">Angle: ${escH(angleOf[t.key])}</div>`);
   C.push(`<div class="lab">Manifesto</div><div class="mani">${escH(l1)}<span class="l2">${escH(l2)}</span></div>`);
-  C.push(`<div class="lab">Inscription</div><div class="line">${escH(c.inscription)}</div>`);
+  if (c.stem_keywords) C.push(`<div class="lab">Keywords</div><div class="line">${c.stem_keywords.map(escH).join(' · ')}</div>`);
+  C.push(`<div class="lab">Inscription (DM claim 1)</div><div class="line">${escH(c.inscription)}</div>`);
   C.push(`<div class="lab">Your Nature</div><div class="line">${escH(c.yourNature_desc)}</div>`);
   if (c.dm_overview) C.push(`<div class="lab">Day Master Overview (P4 pending)</div><div class="line">${escH(c.dm_overview)}</div>`);
 }

@@ -1,0 +1,108 @@
+{
+  "$variable": "stem_keywords",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "STEM": [
+      {
+        "id": "jia",
+        "key": "甲",
+        "canonical_name": "The Oak",
+        "value": [
+          "Driven",
+          "Upright",
+          "Pioneering"
+        ]
+      },
+      {
+        "id": "yi",
+        "key": "乙",
+        "canonical_name": "The Vine",
+        "value": [
+          "Adaptable",
+          "Persistent",
+          "Resourceful"
+        ]
+      },
+      {
+        "id": "bing",
+        "key": "丙",
+        "canonical_name": "The Sun",
+        "value": [
+          "Warm",
+          "Radiant",
+          "Unreserved"
+        ]
+      },
+      {
+        "id": "ding",
+        "key": "丁",
+        "canonical_name": "The Candle",
+        "value": [
+          "Focused",
+          "Devoted",
+          "Perceptive"
+        ]
+      },
+      {
+        "id": "wu",
+        "key": "戊",
+        "canonical_name": "The Mountain",
+        "value": [
+          "Steady",
+          "Centered",
+          "Dependable"
+        ]
+      },
+      {
+        "id": "ji",
+        "key": "己",
+        "canonical_name": "The Field",
+        "value": [
+          "Nurturing",
+          "Patient",
+          "Receptive"
+        ]
+      },
+      {
+        "id": "geng",
+        "key": "庚",
+        "canonical_name": "The Blade",
+        "value": [
+          "Direct",
+          "Decisive",
+          "Sharp"
+        ]
+      },
+      {
+        "id": "xin",
+        "key": "辛",
+        "canonical_name": "The Jewel",
+        "value": [
+          "Refined",
+          "Discerning",
+          "Exacting"
+        ]
+      },
+      {
+        "id": "ren",
+        "key": "壬",
+        "canonical_name": "The Ocean",
+        "value": [
+          "Expansive",
+          "Fluid",
+          "Deep"
+        ]
+      },
+      {
+        "id": "gui",
+        "key": "癸",
+        "canonical_name": "The Rain",
+        "value": [
+          "Intuitive",
+          "Subtle",
+          "Attuned"
+        ]
+      }
+    ]
+  }
+}

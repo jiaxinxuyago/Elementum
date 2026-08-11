@@ -50,7 +50,7 @@ export function buildVariableGroups(model, activeEl) {
       vars: [
         { name: 'archetype_name', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: m?.archetype },
         { name: 'manifesto', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: m?.manifesto },
-        { name: 'inscription', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: m?.inscription },
+        { name: 'stem_keywords', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: m?.stemKeywords?.join(' · ') },
         { name: 'tpl_cast_line', axis: 'T · derived slots', arch: 'tpl_cast_line', status: 'LIVE', value: m?.cast },
       ],
     },
@@ -74,6 +74,7 @@ export function buildVariableGroups(model, activeEl) {
       surface: 'Day-Master screen',
       vars: [
         { name: 'pinyin_display (dm-hero + share card)', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: m?.pinyin },
+        { name: 'inscription (DM claim 1 + J4 fallback — off the plate since 2026-08-05)', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: m?.inscription },
         { name: 'yourNature_desc', axis: 'STEM×10', arch: stemArch, status: 'LIVE ⚠R4 not surfacing', value: card?.yourNature?.desc },
         { name: 'dm_claims', axis: 'STEM×10', arch: stemArch, status: 'PLANNED', value: null },
         { name: 'dm_mechanism', axis: 'STEM×10', arch: stemArch, status: 'PLANNED', value: null },

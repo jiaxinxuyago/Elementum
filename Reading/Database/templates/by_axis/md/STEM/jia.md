@@ -18,8 +18,9 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Oak |
-| `manifesto` | Motion before readiness · The oak does not negotiate its direction. |
+| `manifesto` | Motion before readiness · You are the Wood that rises before the path is clear. |
 | `inscription` | You grow toward a light you can't prove yet, and never stop to rest under it. |
+| `stem_keywords` | Driven · Upright · Pioneering |
 | `pinyin_display` | JIǍ · YANG WOOD |
 | `dm_claims` | You would rather stand alone upright than bend to belong. · People lean on the structure you build without noticing it is yours. |
 | `dm_mechanism` | Yang Wood grown toward light — a spine that rose by reaching, season over season. |

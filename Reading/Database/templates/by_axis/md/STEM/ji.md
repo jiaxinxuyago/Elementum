@@ -18,8 +18,9 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Field |
-| `manifesto` | Nourish without credit · The soil turns whatever it's given into growth. |
+| `manifesto` | Nourish without credit · You are the Earth that turns what it holds into growth. |
 | `inscription` | Everything you tend grows, and the harvest goes home in other people's hands. |
+| `stem_keywords` | Nurturing · Patient · Receptive |
 | `pinyin_display` | JǏ · YIN EARTH |
 | `dm_claims` | You make things grow by tending, not by forcing. · People feel steadier after time with you and cannot say why. |
 | `dm_mechanism` | Yin Earth that nourishes quietly — fertile ground that asks for no credit. |

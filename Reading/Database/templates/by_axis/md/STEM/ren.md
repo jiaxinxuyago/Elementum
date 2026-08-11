@@ -18,8 +18,9 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Ocean |
-| `manifesto` | Depth before disclosure · The surface stays calm. The current decides. |
+| `manifesto` | Depth before disclosure · You are the Water that keeps moving without losing its depth. |
 | `inscription` | You understand more than you can explain, and live with the distance that leaves. |
+| `stem_keywords` | Expansive · Fluid · Deep |
 | `pinyin_display` | RÉN · YANG WATER |
 | `dm_claims` | You see the whole current while others watch the wave. · You move around obstacles rather than through them, and still arrive first. |
 | `dm_mechanism` | Yang Water that carves by patience — force that wins by not insisting. |

@@ -68,6 +68,9 @@ export function buildIdentity(chart, card, birthData) {
     manifesto: maniThesis,
     manifestoEdge: maniEdge,
     inscription: card?.identity?.inscription || '',
+    // The three authored identity keywords (owner redesign 2026-08-05):
+    // they replace the inscription on the reveal plate + share card.
+    keywords: card?.identity?.keywords || [],
     cast,
   };
 }

@@ -18,8 +18,9 @@
 | Variable | Value |
 |---|---|
 | `archetype_name` | The Jewel |
-| `manifesto` | Refinement over output · The flaw is felt before the eye finds it. |
+| `manifesto` | Refinement over output · You are the Metal that refines until nothing extra remains. |
 | `inscription` | You hold your work to a standard nobody set, and it never says finished. |
+| `stem_keywords` | Refined · Discerning · Exacting |
 | `pinyin_display` | XĪN · YIN METAL |
 | `dm_claims` | You notice the flaw everyone else has agreed to overlook. · Precision is how you show care — even when it reads as cool. |
 | `dm_mechanism` | Yin Metal refined under pressure — an edge made keen by polishing, not by force. |

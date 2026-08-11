@@ -13,8 +13,13 @@
   "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4)",
   "candidates": {
     "archetype_name": "The Mountain",
-    "manifesto": "Immovable by design · Others find their bearings and never name why.",
+    "manifesto": "Immovable by design · You are the Earth others use to find their footing.",
     "inscription": "You hold what others set down, and nothing has ever offered to hold you.",
+    "stem_keywords": [
+      "Steady",
+      "Centered",
+      "Dependable"
+    ],
     "pinyin_display": "WÙ · YANG EARTH",
     "dm_claims": [
       "You become the ground others stand on without being asked.",
