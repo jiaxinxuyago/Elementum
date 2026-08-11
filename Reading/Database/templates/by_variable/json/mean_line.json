@@ -7,31 +7,31 @@
         "id": "metal",
         "key": "金",
         "canonical_name": null,
-        "value": "The verdict arrives before the conversation — evaluative precision, the standard that runs first."
+        "value": "The conclusion arrives before the conversation. The standard runs first."
       },
       {
         "id": "earth",
         "key": "土",
         "canonical_name": null,
-        "value": "Load-bearing without announcement — the ground others build on."
+        "value": "Load-bearing without announcement. The ground others build on."
       },
       {
         "id": "wood",
         "key": "木",
         "canonical_name": null,
-        "value": "Building before knowing what it will become — growth as architecture."
+        "value": "Building before knowing what it will become. Growth as architecture."
       },
       {
         "id": "water",
         "key": "水",
         "canonical_name": null,
-        "value": "Reads before being told — knows before the question is complete."
+        "value": "Reads before being told. Knows before the question is complete."
       },
       {
         "id": "fire",
         "key": "火",
         "canonical_name": null,
-        "value": "The room is different before you speak — warmth as climate, light that changes what it touches."
+        "value": "The room is different before you speak. Warmth as climate, light that changes what it touches."
       }
     ]
   }

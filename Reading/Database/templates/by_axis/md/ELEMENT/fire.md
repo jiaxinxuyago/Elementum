@@ -18,4 +18,4 @@
 |---|---|
 | `energy_tile_hook` | The forge you borrow, never own. |
 | `energy_tile_tag` | Radiance · the rising heat |
-| `mean_line` | The room is different before you speak — warmth as climate, light that changes what it touches. |
+| `mean_line` | The room is different before you speak. Warmth as climate, light that changes what it touches. |

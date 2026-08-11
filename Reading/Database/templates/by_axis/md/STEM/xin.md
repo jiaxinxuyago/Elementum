@@ -24,7 +24,7 @@
 | `dm_claims` | You notice the flaw everyone else has agreed to overlook. · Precision is how you show care — even when it reads as cool. |
 | `dm_mechanism` | Yin Metal refined under pressure — an edge made keen by polishing, not by force. |
 | `yourNature_desc` | You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required. |
-| `dm_overview` | The Jewel is Yin Metal, the refined form of the element. It works by discernment: flaws register instantly and precision is applied at close range, to small surfaces, over long hours. The finest judgment in the set turns inward by default. That's the tax of this nature. The same eye that makes the work excellent keeps reopening the verdict on its maker, and no outside praise closes the case. |
+| `dm_overview` | The Jewel is Yin Metal, the refined form of the element. It works by discernment: flaws register instantly and precision is applied at close range, to small surfaces, over long hours. The finest judgment in the set turns inward by default. That's the tax of this nature. The same eye that makes the work excellent keeps turning back on its maker, and no outside praise ever settles it. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

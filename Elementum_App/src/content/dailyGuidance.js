@@ -108,8 +108,8 @@ export const RELATIONS = {
       'Let the pressure refine the work, not rush it',
     ],
     avoid: [
-      'Pushing your verdict through a system that has not granted standing',
-      'Reading legitimate pressure as a personal attack',
+      'Pushing your conclusion through a system that has not made room for it',
+      'Reading genuine pressure as a personal attack',
       'Committing under stress to something reversible later',
     ],
   },

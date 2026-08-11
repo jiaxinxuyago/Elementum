@@ -42,6 +42,8 @@ const BANNED_WORDS = [
   'seamless', 'foster', 'fostering', 'underscore', 'underscores', 'showcase',
   'showcasing', 'leverage', 'leveraged', 'boasts', 'vibrant', 'nestled',
   'profound', 'realm', 'unlock', 'elevate', 'resonate', 'resonance',
+  // courtroom/institutional register (owner 2026-08-05 — everyday words only)
+  'verdict', 'verdicts', 'legitimate', 'legitimacy', 'institutional',
 ];
 const PARALLELISM = [
   /\bnot (?:just |only )?[\w' ]{1,30}?\bbut\b/i,
@@ -51,10 +53,15 @@ const PARALLELISM = [
 const words = (s) => s.split(/\s+/).filter((w) => /[a-zA-Z']/.test(w));
 
 let fail = 0, pend = 0;
+const pendByKey = new Map(); // registry key -> { n, examples }
 function flag(rule, where, msg) {
   const blocking = rule.status === 'locked' || rule.status === 'live';
-  console.log(`${blocking ? 'VOICE' : 'PEND '}  ${where} :: ${msg}`);
-  blocking ? fail++ : pend++;
+  if (blocking) { console.log(`VOICE  ${where} :: ${msg}`); fail++; return; }
+  pend++;
+  if (!pendByKey.has(rule.key)) pendByKey.set(rule.key, { n: 0, examples: [] });
+  const e = pendByKey.get(rule.key);
+  e.n++;
+  if (e.examples.length < 2) e.examples.push(`${where} :: ${msg}`);
 }
 
 // budget forms: "≤17w ≤85c" · "30-55w" · "≤14w" · "—"
@@ -146,7 +153,7 @@ if (charterRow) {
     if (!c.includes('ANGLE FIDELITY')) flag(charterRow, where, 'ANGLE FIDELITY instruction missing');
     if (!/em-dash/i.test(c)) flag(charterRow, where, 'em-dash rule missing');
     const cl = c.toLowerCase();
-    for (const w of ['delve', 'tapestry', 'testament', 'pivotal', 'crucial', 'intricate', 'robust', 'seamless', 'foster', 'underscore', 'showcase', 'leverage', 'boasts', 'vibrant', 'nestled', 'profound', 'realm', 'unlock', 'elevate', 'resonate']) {
+    for (const w of ['delve', 'tapestry', 'testament', 'pivotal', 'crucial', 'intricate', 'robust', 'seamless', 'foster', 'underscore', 'showcase', 'leverage', 'boasts', 'vibrant', 'nestled', 'profound', 'realm', 'unlock', 'elevate', 'resonate', 'verdict', 'legitimate', 'institutional']) {
       if (!cl.includes(w)) flag(charterRow, where, `banned word "${w}" not named in the charter's ban list`);
     }
     const exemplars = c.split('EXEMPLARS')[1] || '';
@@ -166,5 +173,32 @@ for (const row of registry.filter((r) => r.key.startsWith('code:dailyGuidance#RE
   }
 }
 
-if (fail) { console.log(`✗ ${fail} blocking voice violation(s)${pend ? ` (+${pend} pending-corpus notes)` : ''} — REA_16 §2c`); process.exit(1); }
-console.log(`✓ voice audit clean: ${registry.length} registry rows enforced across the station + declared code content${pend ? ` · ${pend} PEND note(s) on unruled corpus (non-blocking)` : ''}`);
+// Full live-module coverage (owner 2026-08-05: "every word in the app").
+// Each module is a pending-tier registry row until its content is ruled;
+// flatStrings walks every string it exports (functions skipped).
+const CODE_SOURCES = {
+  'code:archetypeSource#STEM_CARD_DATA': async () => (await import('../src/content/archetypeSource.js')).STEM_CARD_DATA,
+  'code:archetypeSource#TG_CARD_DATA': async () => (await import('../src/content/archetypeSource.js')).TG_CARD_DATA,
+  'code:stemVariants#STEM_VARIANTS': async () => (await import('../src/content/stemVariants.js')).STEM_VARIANTS,
+  'code:readingContent#DM_READING': async () => (await import('../src/content/reading/readingContent.js')).DM_READING,
+  'code:reading#FACE_CARD': async () => (await import('../src/content/reading/index.js')).FACE_CARD,
+  'code:reading#ENERGY_TILE': async () => (await import('../src/content/reading/index.js')).ENERGY_TILE,
+};
+for (const row of registry) {
+  const load = CODE_SOURCES[row.key];
+  if (!load) continue;
+  const obj = await load().catch(() => null);
+  if (!obj) { flag(row, row.key, 'module import failed'); continue; }
+  for (const [sub, text] of flatStrings(obj)) {
+    if (typeof text === 'string' && text.trim()) checkText(row, `${row.key.split('#')[1]}.${sub}`, text);
+  }
+}
+
+if (pend) {
+  console.log('— pending-tier inventory (unruled corpus, non-blocking; the remediation map) —');
+  for (const [k, e] of [...pendByKey].sort((a, b) => b[1].n - a[1].n)) {
+    console.log(`PEND   ${k} :: ${e.n} finding(s)   e.g. ${e.examples[0]}`);
+  }
+}
+if (fail) { console.log(`✗ ${fail} blocking voice violation(s)${pend ? ` (+${pend} pending findings across ${pendByKey.size} unruled surfaces)` : ''} — REA_16 §2c`); process.exit(1); }
+console.log(`✓ voice audit clean: ${registry.length} registry rows enforced${pend ? ` · ${pend} pending findings across ${pendByKey.size} unruled surfaces (non-blocking inventory above)` : ''}`);

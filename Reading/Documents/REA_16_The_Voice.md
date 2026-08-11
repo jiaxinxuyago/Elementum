@@ -75,7 +75,7 @@ Key forms: `station:<AXIS>.<field>` (exact) · `station:<AXIS>.*` (axis wildcard
 | Key | Register | Budget | Status | Notes |
 |---|---|---|---|---|
 | `station:STEM.archetype_name` | carved | ≤3w | locked | label |
-| `station:STEM.manifesto` | carved | ≤14w | locked | punct-exempt · split " · " |
+| `station:STEM.manifesto` | carved | ≤14w | locked | split " · " (punct exemption revoked 2026-08-05) |
 | `station:STEM.inscription` | carved | ≤17w ≤85c | locked | you-open3 · swap-gram |
 | `station:STEM.pinyin_display` | functional | — | locked | label |
 | `station:STEM.yourNature_desc` | portrait | 30-55w | locked | you-open · swap-gram |
@@ -94,12 +94,18 @@ Key forms: `station:<AXIS>.<field>` (exact) · `station:<AXIS>.*` (axis wildcard
 | `code:dailyGuidance#RELATIONS.doThis` | functional | — | live | guidance list items |
 | `code:dailyGuidance#RELATIONS.avoid` | functional | — | live | guidance list items |
 | `code:workers/llm#VOICE_CHARTER` | consultant | — | live | canon-sync — the runtime-generation guarantee (charter must carry the HOW YOU WRITE block, the full banned list, angle fidelity; exemplars dashless) |
+| `code:archetypeSource#STEM_CARD_DATA` | portrait | — | pending | ore-era live modules (subtitle/gifts/shadows/manual/blocks…) — fates §7 #4 / R4; inventory via PEND |
+| `code:archetypeSource#TG_CARD_DATA` | portrait | — | pending | ten-god cards (K2 predecessor corpus) |
+| `code:stemVariants#STEM_VARIANTS` | portrait | — | pending | 庚 ×15 band variants — tone-stale, re-author at R4 |
+| `code:readingContent#DM_READING` | portrait | — | pending | P4 claims + edge layer |
+| `code:reading#FACE_CARD` | portrait | — | pending | face teasers (R5 scope open) |
+| `code:reading#ENERGY_TILE` | portrait | — | pending | energy hooks/tags (K2 interim) |
 
 ## §3 · THE VOICE — canonical authoring prompt (v1.2)
 
 > You are writing lines for an artifact older than its reader — a carved plate that somehow knows them. The voice is never conversational: no sister, no therapist, no guide. It is an engraving that reads the reader.
 >
-> **Manifesto (carved couplet, split " · "):** L1 a noun-led hierarchy claim, 2–4 words — something the world puts second, put first. Never an instruction, never the element's name, never the reader. L2 one breath (≤9w), third person, the element embodied as physical image — the reader must FEEL the element, never be told it. Negation-then-turn and paradox are house moves. Format breaks only when they perform the stem's nature (乙 is the precedent).
+> **Manifesto (carved couplet, split " · "):** L1 a noun-led hierarchy claim, 2–4 words — something the world puts second, put first. Never an instruction, never the element's name, never the reader. L2 one breath (≤9w), third person, the element embodied as physical image — the reader must FEEL the element, never be told it. Negation-then-turn and paradox are house moves. Format breaks only when they perform the stem's nature (乙 is the precedent). **Punctuation (owner re-ruled 2026-08-05): the carved exemption is REVOKED — no dashes or semicolons anywhere, L2 breaks into short sentences instead ("An edge is never given. It is forged."). The J3 joined form joins the halves with a PERIOD, L2 keeping its authored capitalization.**
 >
 > **Inscription (carved two-beat, ≤17w/≤85c — DASHLESS, owner-ruled 2026-08-05):** beat 1 names the MECHANISM, not the trait ("You say what others soften" — never "You are honest"). Beat 2 names the COST at cost+1 intensity — specific, private, and drawn from the stem's OWN cost dimension per the Angle Map (§2b): momentum for 甲, the inward standard for 辛, porousness for 癸… Never default to unrecognized-giving; that axis belongs to 丙/己/庚 alone, each differently. The beats join with a comma or a period, never a dash. Descriptive of a way of being; never instruction, prediction, or doom.
 >
@@ -117,7 +123,8 @@ Key forms: `station:<AXIS>.<field>` (exact) · `station:<AXIS>.*` (axis wildcard
 
 Mechanical enforcement: **`node tools/voice-audit.mjs`** (v2, 2026-08-05 — registry-driven: parses §2c live and enforces per-register rules over every declared surface; `locked`/`live` rows block, `pending` rows report `PEND` notes, unregistered authored fields are violations; run after every content landing). Authoring-time enforcement lives in the project skill **`.claude/skills/humanized-prose/SKILL.md`** (distilled from Wikipedia *Signs of AI writing*, Aboudjem/humanizer-skill, lguz/humanize-writing-skill, jooray/humanizer + house tells). Every paragraph-scale line passes its 3-pass process and this gate before entering the station:
 
-- reading content targets ZERO em-dashes (owner-hardened 2026-08-05: the inscription's former dash exemption is revoked; the ratified manifesto L2 dashes stand as carved corpus until re-ruled)
+- reading content carries ZERO em-dashes and zero semicolons — no exemptions anywhere (owner completed the purge 2026-08-05: the last carved holdouts, manifesto L2s and the joined form, were re-ruled to period breaks)
+- **register vocabulary (owner 2026-08-05): everyday spiritual-guidance language only** — courtroom/institutional words are banned in all reading prose: verdict(s), legitimate, legitimacy, institutional (the list grows as the owner flags words; the audit enforces it)
 - zero semicolon mirrors · zero negative parallelism ("not X but Y") · zero tricolons-by-default
 - zero AI-cluster vocabulary (delve, tapestry, testament, pivotal, robust, seamless, foster, underscore, leverage, boasts, vibrant…)
 - sentence lengths span ≥3× range; one ordinary, unquotable sentence per paragraph
@@ -156,6 +163,7 @@ Ruled corpus exemplars and current lab bests — grows as the owner rules. **Lab
 | 2026-08-05 | Register spectrum: ENGRAVING · LEDGER · ALMANAC; `dm_overview` commissioned (ledger, P4) |
 | 2026-08-05 | Humanization benchmark = prerequisite; scope = paragraphs (seal stays carved, tell bans apply); em-dash law (1/para max, inscription dash exempt); `dm_overview` re-ruled pure paragraph 60–80w |
 | 2026-08-05 | REA_16 born as the voice canon; BIZ_03 §8 demoted to research record |
+| 2026-08-05 | **Owner language review (post-corpus):** ① courtroom register banned (verdict, legitimate, legitimacy, institutional — everyday spiritual-guidance words only; locked 庚/辛 dm_overview lines rewritten) ② TOTAL dash purge — carved exemption revoked: manifesto L2s re-ruled to period breaks, the J3 join changed from " — " to ". ", 21 design-file holdouts swept ③ audit coverage extended to ALL live content modules (archetypeSource, stemVariants, DM_READING, faces/tiles) as pending-tier registry rows |
 | 2026-08-05 | **Daily dial ruled: B (mechanism+1) ×5** — all five relationship narratives rewritten under it (dashless, humanized, the live chart relationship named each day); registry rows → live; **TONE LAB CLOSED** (folder + generator retired — every workshop question is now ruled; future tone work opens fresh labs per need) |
 | 2026-08-05 | **Consultant charter aligned (round 6):** CONSULTANT register defined (conversational confidant, canon-bound); charter gains HOW YOU WRITE + banned list + angle fidelity; exemplars de-dashed; `code:workers/llm#VOICE_CHARTER` registered with canon-sync audit — the runtime-generation guarantee |
 | 2026-08-05 | **Owner item-by-item lab ruling:** manifesto = CURRENT locked · inscription = cost+1, DASHLESS (comma/period join; dash exemption revoked) · dm_overview = mechanism dial, ENERGY as subject (name → what it is → how it works), analytical license · yourNature = You-opener law, old-friend-less-casual register, current-to-cost+1 intensity |

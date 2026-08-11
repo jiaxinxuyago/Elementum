@@ -18,4 +18,4 @@
 |---|---|
 | `energy_tile_hook` | Where your edge learns to flow. |
 | `energy_tile_tag` | Flow · the descent |
-| `mean_line` | Reads before being told — knows before the question is complete. |
+| `mean_line` | Reads before being told. Knows before the question is complete. |

@@ -293,15 +293,15 @@ function coreElOf(ec) {
   return core ? core.el : ec.energies[0].el;
 }
 
-// The hero shows the FULL manifesto (both halves) — identity.manifesto is the
-// split first half, so rebuild from the card source (' · ' → ' — ').
+// The hero shows the FULL manifesto (both halves) — identity.manifesto is
+// the split first half, so rebuild from the card source. Join law
+// (owner re-ruled 2026-08-05, REA_16): the halves join with a period,
+// L2 keeps its authored capitalization — no dash anywhere in the corpus.
 function fullManifesto(card) {
   const m = card?.identity?.manifesto || '';
   const parts = m.split(' · ');
   if (parts.length < 2) return m;
-  let tail = parts[1].charAt(0).toLowerCase() + parts[1].slice(1);
-  tail = tail.replace(/ — /g, '; ');
-  return `${parts[0]} — ${tail}`;
+  return `${parts[0]}. ${parts[1]}`;
 }
 
 // ── element reading screen data (ELD equivalent, templatized) ──────
@@ -309,11 +309,11 @@ function fullManifesto(card) {
 // verdLab/verdict normalized to the SEEK/SKIP register; mean/hook/tag are
 // element-generic interim lines pending the 50-cell pass (§6b item 6).
 const MEAN = {
-  fire: 'The room is different before you speak — warmth as climate, light that changes what it touches.',
-  water: 'Reads before being told — knows before the question is complete.',
-  wood: 'Building before knowing what it will become — growth as architecture.',
-  earth: 'Load-bearing without announcement — the ground others build on.',
-  metal: 'The verdict arrives before the conversation — evaluative precision, the standard that runs first.',
+  fire: 'The room is different before you speak. Warmth as climate, light that changes what it touches.',
+  water: 'Reads before being told. Knows before the question is complete.',
+  wood: 'Building before knowing what it will become. Growth as architecture.',
+  earth: 'Load-bearing without announcement. The ground others build on.',
+  metal: 'The conclusion arrives before the conversation. The standard runs first.',
 };
 
 export function buildElementScreen(model, el) {

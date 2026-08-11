@@ -8,8 +8,8 @@
 
 | Archetype | Key | Value |
 |---|---|---|
-| **metal** | 金 | The verdict arrives before the conversation — evaluative precision, the standard that runs first. |
-| **earth** | 土 | Load-bearing without announcement — the ground others build on. |
-| **wood** | 木 | Building before knowing what it will become — growth as architecture. |
-| **water** | 水 | Reads before being told — knows before the question is complete. |
-| **fire** | 火 | The room is different before you speak — warmth as climate, light that changes what it touches. |
+| **metal** | 金 | The conclusion arrives before the conversation. The standard runs first. |
+| **earth** | 土 | Load-bearing without announcement. The ground others build on. |
+| **wood** | 木 | Building before knowing what it will become. Growth as architecture. |
+| **water** | 水 | Reads before being told. Knows before the question is complete. |
+| **fire** | 火 | The room is different before you speak. Warmth as climate, light that changes what it touches. |

@@ -27,7 +27,7 @@
       { "stem_id": "ji",   "pinyin_display": "JǏ",   "polarity": "YIN",  "element": "earth", "arch_name": null, "painting_asset": "art/stems/proc/ji-earth.png" },
       { "stem_id": "geng", "pinyin_display": "GĒNG", "polarity": "YANG", "element": "metal",
         "arch_name": "The Blade",
-        "manifesto": "Precision before intention — an edge is never given; it is forged.",
+        "manifesto": "Precision before intention. An edge is never given. It is forged.",
         "keywords": ["Precision", "Standard", "Edge"],
         "who_you_are": "The verdict arrives before the conversation — evaluative precision, the standard that runs first. You trust your own counsel, begin without permission, and finish without rescue.",
         "painting_asset": "art/stems/proc/geng-metal.png" },

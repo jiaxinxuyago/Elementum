@@ -369,7 +369,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       archetypeName:  `The Candle`,
       archetypeLabel: `Yin Fire — The Candle`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Intimacy over range · A candle doesn't reach far — it reaches true.`,
+      manifesto:      `Intimacy over range · A candle doesn't reach far. It reaches true.`,
       inscription:    `What you turn toward gets all of you, and everything else waits in the dark.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
@@ -696,7 +696,7 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
       archetypeName:  `The Blade`,
       archetypeLabel: `Yang Metal — The Blade`,      // full label used in pills, headers, share cards
       identityIcon:   `BladeJian`,                   // component key in Engine — 庚-specific sword SVG
-      manifesto:      `Precision before intention · An edge is never given — it is forged.`,
+      manifesto:      `Precision before intention · An edge is never given. It is forged.`,
       inscription:    `You say what others soften, then quietly pay for being the one who did.`,
       // manifesto renders as two lines, split on the ` · ` separator:
       //   Line 1 (bold thesis)  → "Precision before intention"
@@ -1018,7 +1018,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
       archetypeName:  `The Ocean`,
       archetypeLabel: `Yang Water — The Ocean`,
       identityIcon:   `ArchetypeSeal`,   // placeholder — dedicated SVG TBD
-      manifesto:      `Depth before disclosure · The surface stays calm; the current decides.`,
+      manifesto:      `Depth before disclosure · The surface stays calm. The current decides.`,
       inscription:    `You understand more than you can explain, and live with the distance that leaves.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
