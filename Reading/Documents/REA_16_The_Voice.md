@@ -37,7 +37,7 @@ Three registers under one voice (ruled 2026-08-05). Shared bans everywhere: hedg
 | `face_teaser` | portrait | R5 open | LIVE ⚠ |
 | `gifts` / `shadows` (ore) | portrait if mined (§7 #4) | — | ore |
 | `elementIntro` punch/expand | *PROPOSED: carved-world (3rd person)* | R7 open | **OPEN — owner to confirm** |
-| daily narratives ×5 + DO/AVOID | almanac | narrative 2–4 sentences | tone-lab tuning |
+| daily narratives ×5 + DO/AVOID | almanac | narrative 2–4 sentences | **LOCKED dial B ×5 (owner 2026-08-05)** |
 | day/month/year/decade cycle copy | *PROPOSED: almanac* | — | **OPEN — inventory needed** |
 | `tpl_dm_prescription` seek/skip | *PROPOSED: almanac* | 1–2 sentences | **OPEN** |
 | `palace_frames` ×7 · `tpl_pattern_conclusion` | *PROPOSED: ledger* | — | **OPEN** |
@@ -90,9 +90,9 @@ Key forms: `station:<AXIS>.<field>` (exact) · `station:<AXIS>.*` (axis wildcard
 | `station:FAMILY.*` | functional | — | live | |
 | `station:POSITION.*` | portrait | — | pending | palace frames (B6) |
 | `station:TEMPLATED.*` | functional | — | live | slots |
-| `code:dailyGuidance#RELATIONS.narrative` | almanac | — | pending | slots · dial ruling open |
-| `code:dailyGuidance#RELATIONS.doThis` | functional | — | pending | guidance list items |
-| `code:dailyGuidance#RELATIONS.avoid` | functional | — | pending | guidance list items |
+| `code:dailyGuidance#RELATIONS.narrative` | almanac | — | live | slots · dial B ruled ×5 (owner 2026-08-05) |
+| `code:dailyGuidance#RELATIONS.doThis` | functional | — | live | guidance list items |
+| `code:dailyGuidance#RELATIONS.avoid` | functional | — | live | guidance list items |
 | `code:workers/llm#VOICE_CHARTER` | consultant | — | live | canon-sync — the runtime-generation guarantee (charter must carry the HOW YOU WRITE block, the full banned list, angle fidelity; exemplars dashless) |
 
 ## §3 · THE VOICE — canonical authoring prompt (v1.2)
@@ -139,8 +139,8 @@ Ruled corpus exemplars and current lab bests — grows as the owner rules. **Lab
 **Ledger (lab candidate, humanized + angle-mapped):**
 - 癸 · "The Rain is Yin Water, the softest instrument in the set. It works by taking things in: feelings arrive before reasons, moods soak through whatever's between you, and every change it makes starts from inside whoever it reached. Nothing gets pushed. Everything gets absorbed. The open question this nature lives with is where the water ends and the ground begins."
 
-**Almanac (lab candidate, humanized):**
-- officer day · "Today's {today} energy presses on your {dm} nature. Pressure like this sharpens you when the standard behind it is genuine, and just spends you when it isn't. Learn the difference early. You'll pay the toll either way, but only one of them buys anything."
+**Almanac (LOCKED, dial B — 2026-08-05):**
+- officer day · "Today's {today} energy is the one that disciplines your chart, and it's live. The pressure isn't personal, it's structural. It selects for what holds. Work on the thing that's being measured, and leave the unmeasured for a softer day."
 
 **Anti-exemplar (what the gate exists to stop — from our own lab v2):**
 - "…influence accumulates rather than pushes, and boundaries between self and room run thin. Change is produced gradually and attributed elsewhere — the agency is real; the visibility is not. ▸ Decides: slowly, by saturation — then completely."
@@ -156,6 +156,7 @@ Ruled corpus exemplars and current lab bests — grows as the owner rules. **Lab
 | 2026-08-05 | Register spectrum: ENGRAVING · LEDGER · ALMANAC; `dm_overview` commissioned (ledger, P4) |
 | 2026-08-05 | Humanization benchmark = prerequisite; scope = paragraphs (seal stays carved, tell bans apply); em-dash law (1/para max, inscription dash exempt); `dm_overview` re-ruled pure paragraph 60–80w |
 | 2026-08-05 | REA_16 born as the voice canon; BIZ_03 §8 demoted to research record |
+| 2026-08-05 | **Daily dial ruled: B (mechanism+1) ×5** — all five relationship narratives rewritten under it (dashless, humanized, the live chart relationship named each day); registry rows → live; **TONE LAB CLOSED** (folder + generator retired — every workshop question is now ruled; future tone work opens fresh labs per need) |
 | 2026-08-05 | **Consultant charter aligned (round 6):** CONSULTANT register defined (conversational confidant, canon-bound); charter gains HOW YOU WRITE + banned list + angle fidelity; exemplars de-dashed; `code:workers/llm#VOICE_CHARTER` registered with canon-sync audit — the runtime-generation guarantee |
 | 2026-08-05 | **Owner item-by-item lab ruling:** manifesto = CURRENT locked · inscription = cost+1, DASHLESS (comma/period join; dash exemption revoked) · dm_overview = mechanism dial, ENERGY as subject (name → what it is → how it works), analytical license · yourNature = You-opener law, old-friend-less-casual register, current-to-cost+1 intensity |
 | 2026-08-05 | **CORPUS LOCKED ×10 (owner):** refined versions are THE versions — inscriptions (dashless cost+1), yourNature baselines (You-opener, angle-mapped), dm_overview founding corpus. Priors RETIRED everywhere (24 stale copies swept from design HTMLs, wireframes, mocks, contract examples; archive + BIZ_03 research record excepted as history). Tone-lab stem files retired; the by_variable pivot is the corpus reading view. Lab remains only for the unruled daily dials. |

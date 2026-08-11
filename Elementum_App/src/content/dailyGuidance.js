@@ -44,10 +44,10 @@ export const RELATIONS = {
     label: 'A day that mirrors you',
     tone: 'companion',
     narrative: (dm, today) =>
-      `Today carries ${today} energy — the same current that runs through you. ` +
-      `Your ${dm} nature isn't pressed or pulled; it's reflected. The day asks little ` +
-      `of you that you don't already know how to give, which makes it a good one for ` +
-      `acting on your own terms rather than reacting to someone else's.`,
+      `Today carries ${today} energy, the same current that runs through your ${dm} nature. ` +
+      `The day doesn't press you and doesn't feed you. It matches you. Days like this are ` +
+      `quietly free: whatever you start runs on your own terms, because the weather isn't ` +
+      `pushing either way.`,
     doThis: [
       'Act on your own initiative — the day backs your instinct',
       'Spend time with peers who genuinely match your level',
@@ -63,9 +63,9 @@ export const RELATIONS = {
     label: 'A day to express',
     tone: 'expression',
     narrative: (dm, today) =>
-      `Today's ${today} energy is what your ${dm} nature produces when it flows outward. ` +
-      `This is a making day — the part of you that builds, articulates, and ships is favored. ` +
-      `What you create now carries your standard into its execution, not just its judgment.`,
+      `Today runs on ${today}, the channel your ${dm} nature empties through. ` +
+      `Days like this favor finishing over judging. The standard you usually hold over ` +
+      `other people's work wants to go into your own hands today. Make first. Assess later.`,
     doThis: [
       'Make the thing — ship work that has been waiting',
       'Say the sentence you have been rehearsing',
@@ -81,9 +81,9 @@ export const RELATIONS = {
     label: 'A day to act',
     tone: 'acquisition',
     narrative: (dm, today) =>
-      `Today's ${today} energy is territory your ${dm} nature can move on. ` +
-      `This is an action day — the world is offering something to be reached for, ` +
-      `negotiated, or claimed. The read is already done; today rewards the move that follows it.`,
+      `Today's ${today} energy is the one your ${dm} nature directs, the material your ` +
+      `chart likes to work. Days like this reward the move more than the plan. The read ` +
+      `is already done, so make the ask, close the open thing, and let the follow-through carry it.`,
     doThis: [
       'Make the ask — the timing favors a direct approach',
       'Close something that has been left open',
@@ -99,10 +99,9 @@ export const RELATIONS = {
     label: 'A day that presses',
     tone: 'pressure',
     narrative: (dm, today) =>
-      `Today's ${today} energy presses on ${dm} — the force that shapes you is active. ` +
-      `If the standard you are measured against today is genuine, this sharpens rather ` +
-      `than compresses. Use the pressure: it is not friction, it is the forge. ` +
-      `What you have been evaluating comes into its sharpest focus under this energy.`,
+      `Today's ${today} energy is the one that disciplines your chart, and it's live. ` +
+      `The pressure isn't personal, it's structural. It selects for what holds. ` +
+      `Work on the thing that's being measured, and leave the unmeasured for a softer day.`,
     doThis: [
       'Meet the standard head-on — structure rewards it today',
       'Bring discipline to the thing you have been avoiding',
@@ -118,10 +117,9 @@ export const RELATIONS = {
     label: 'A day that supports you',
     tone: 'nourishment',
     narrative: (dm, today) =>
-      `Today's ${today} energy feeds ${dm} — the day nourishes rather than demands. ` +
-      `This is a restoring day: the structural support that steadies you is present, ` +
-      `and conclusions formed now land with weight. A good day to learn, consolidate, ` +
-      `and let something settle before you act on it.`,
+      `Today's ${today} energy is the one that feeds your ${dm} nature, the current your ` +
+      `chart draws strength from. Days like this restore more than they demand. Learn, ` +
+      `consolidate, let a decision settle before you act on it. What takes root today tends to hold.`,
     doThis: [
       'Learn something that deepens what you already do',
       'Consolidate — close loops rather than open new ones',
