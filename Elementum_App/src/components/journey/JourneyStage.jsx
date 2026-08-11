@@ -397,7 +397,10 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                       <div className="hc-man"><span className="redrule" /><p className="mani">{m.manifesto}</p></div>
                       <div className="hc-foot">
                         <div className="kws">{(m.stemKeywords || []).map((k) => <span className="kw" key={k}>{k}</span>)}</div>
-                        <button className="readcirc" aria-label="Read your Day Master" onClick={() => goScreen('daymaster')}><Use id="ico-arrow-r" /></button>
+                        {/* Owner ruling 2026-08-05: the hero arrow goes STRAIGHT to the
+                            full Day Master page (P4, app-daymaster) — the journey's
+                            internal daymaster sub-screen is bypassed (fate folds into R4). */}
+                        <button className="readcirc" aria-label="Read your Day Master" onClick={() => onOpenDayMaster && onOpenDayMaster()}><Use id="ico-arrow-r" /></button>
                       </div>
                     </div>
                   </div>
