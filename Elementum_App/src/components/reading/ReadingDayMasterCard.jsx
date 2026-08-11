@@ -4,12 +4,12 @@
 // Reached from the catalogue hero arrow. The reference (not the
 // ceremony): seal + archetype + manifesto, the motivated "Birth Chart"
 // route into the 八字 chart, the Day Master overview (ledger register),
-// a cardstock claims list (claim 1 = the identity inscription), and the
-// Your Nature portrait. Fills the app frame; the global tab bar sits
-// over it. No gate here — identity is the free hook.
+// the Your Nature portrait, and the Gifts & Shadows panel (owner order
+// 2026-08-05). Fills the app frame; the global tab bar sits over it.
+// No gate here — identity is the free hook.
 // ===================================================================
 
-export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, claims, overview, nature, onBack, onBirthChart, onShare }) {
+export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, overview, nature, gifts, shadows, onBack, onBirthChart, onShare }) {
   return (
     <div className="reading-fill">
       <img className="ground-img" src="/backgrounds/bg-reading-03-watermark-low.png" alt="" />
@@ -49,14 +49,19 @@ export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, 
           </div>
         ) : null}
 
-        <div className="claims-card" style={{ marginTop: 12 }}>
-          {claims.map((c, i) => <div className="claim" key={i}>{c}</div>)}
-        </div>
-
         {nature ? (
           <div className="layer" style={{ marginTop: 12 }}>
             <div className="layer-label">Your nature</div>
             <p>{nature}</p>
+          </div>
+        ) : null}
+
+        {(gifts?.length || shadows?.length) ? (
+          <div className="claims-card" style={{ marginTop: 12 }}>
+            {gifts?.length ? <div className="layer-label" style={{ padding: '2px 0 4px' }}>Gifts</div> : null}
+            {(gifts || []).map((g) => <div className="claim" key={g.phrase}><b>{g.phrase}.</b> {g.desc}</div>)}
+            {shadows?.length ? <div className="layer-label" style={{ padding: '10px 0 4px' }}>Shadows</div> : null}
+            {(shadows || []).map((s) => <div className="claim" key={s.phrase}><b>{s.phrase}.</b> {s.desc}</div>)}
           </div>
         ) : null}
 

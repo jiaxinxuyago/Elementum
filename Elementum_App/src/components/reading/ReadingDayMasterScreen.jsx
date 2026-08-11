@@ -9,7 +9,6 @@
 import './reading.css';
 import ReadingDayMasterCard from './ReadingDayMasterCard.jsx';
 import { STEM_CARD_DATA } from '../../content/index.js';
-import { DM_READING, DM_READING_FALLBACK } from '../../content/reading/index.js';
 import { resolveDayMasterReading } from './readingResolve.js';
 import { useReading } from './useReading.js';
 
@@ -18,18 +17,18 @@ export default function ReadingDayMasterScreen({ onBack, onBirthChart }) {
   if (!ec || !identity) return null;
   const stem = chart && chart.dayMaster && chart.dayMaster.stem;
   const card = STEM_CARD_DATA[stem];
-  // Claims 2–3 from the authored reading; claim 1 is the inscription.
-  const reading = resolveDayMasterReading(stem, chart) || DM_READING[stem] || DM_READING_FALLBACK;
-  const claims = [identity.inscription, ...(reading.claims || [])].slice(0, 3);
+  // Band-resolved gifts & shadows for the panel (owner layout 2026-08-05).
+  const reading = resolveDayMasterReading(stem, chart) || {};
   return (
     <div className="reading" style={{ position: 'absolute', inset: 0 }}>
       <ReadingDayMasterCard
         dayMaster={ec.dayMaster}
         archetype={identity.archetype}
         manifesto={identity.manifesto}
-        claims={claims}
         overview={card?.identity?.overview}
         nature={card?.yourNature?.desc}
+        gifts={reading.gifts}
+        shadows={reading.shadows}
         onBack={onBack}
         onBirthChart={onBirthChart}
       />
