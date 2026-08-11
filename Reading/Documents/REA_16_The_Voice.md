@@ -66,6 +66,34 @@ Three registers under one voice (ruled 2026-08-05). Shared bans everywhere: hedg
 
 **Cross-stem lexical law:** each stem's imagery draws from its own arena; "the room" is rationed corpus-wide (no stem currently owns it); no scaffold phrase may repeat across stems ("the X in the room," "you walk in and…"); shared function words are fine — shared *stagings* are not.
 
+## §2c · The audit registry (machine law — parsed live by `tools/voice-audit.mjs`)
+
+**The expansion contract:** every content-bearing field must have a row here BEFORE authoring (the audit flags authored-but-unregistered station fields as violations). Rows with status `pending` report violations informationally (`PEND` lines, no failure) — the ~80% of variables still awaiting design/authoring live here and graduate to `locked`/`live` when the owner rules them, at which point the same rules become blocking. No tool edit is ever needed to cover a new variable: add the row, author the content, the audit follows.
+
+Key forms: `station:<AXIS>.<field>` (exact) · `station:<AXIS>.*` (axis wildcard, functional bulk) · `code:<module>#<export>` (code-resident content). Note tokens: `punct-exempt` (ratified carved punctuation stands) · `you-open` (opens on "You") · `you-open3` ("you" within first 3 words) · `the-open` (opens with the archetype name) · `swap-gram` (cross-stem 4-gram uniqueness) · `slots` (`{…}` slot-fill allowed).
+
+| Key | Register | Budget | Status | Notes |
+|---|---|---|---|---|
+| `station:STEM.archetype_name` | carved | ≤3w | locked | label |
+| `station:STEM.manifesto` | carved | ≤14w | locked | punct-exempt · split " · " |
+| `station:STEM.inscription` | carved | ≤17w ≤85c | locked | you-open3 · swap-gram |
+| `station:STEM.pinyin_display` | functional | — | locked | label |
+| `station:STEM.yourNature_desc` | portrait | 30-55w | locked | you-open · swap-gram |
+| `station:STEM.dm_overview` | ledger | 55-85w | locked | the-open |
+| `station:STEM.dm_claims` | carved | 10-16w | pending | claims model TBD (R4-adjacent) |
+| `station:STEM.dm_mechanism` | portrait | ≤30w | pending | |
+| `station:STEM_BAND.*` | portrait | — | pending | K1b self_card target |
+| `station:ELEMENT.*` | functional | — | live | mean lines (interim) |
+| `station:ELEMENT_GOD.*` | portrait | — | pending | K2 corpus ×50 — needs GOD Angle Map first |
+| `station:GOD.*` | functional | — | live | V-class locks (REA_02 law) |
+| `station:CONDITION.*` | functional | — | live | V-class locks (REA_02 law) |
+| `station:FAMILY.*` | functional | — | live | |
+| `station:POSITION.*` | portrait | — | pending | palace frames (B6) |
+| `station:TEMPLATED.*` | functional | — | live | slots |
+| `code:dailyGuidance#RELATIONS.narrative` | almanac | — | pending | slots · dial ruling open |
+| `code:dailyGuidance#RELATIONS.doThis` | functional | — | pending | guidance list items |
+| `code:dailyGuidance#RELATIONS.avoid` | functional | — | pending | guidance list items |
+
 ## §3 · THE VOICE — canonical authoring prompt (v1.2)
 
 > You are writing lines for an artifact older than its reader — a carved plate that somehow knows them. The voice is never conversational: no sister, no therapist, no guide. It is an engraving that reads the reader.
@@ -86,7 +114,7 @@ Three registers under one voice (ruled 2026-08-05). Shared bans everywhere: hedg
 
 ## §4 · The humanization gate (prerequisite, owner-ruled 2026-08-05)
 
-Mechanical enforcement: **`node tools/voice-audit.mjs`** (added 2026-08-05 — dashes, semicolons, parallelisms, banned words, budgets, opener laws, cross-stem scaffold repeats; exit 1 on violation; run after every content landing). Authoring-time enforcement lives in the project skill **`.claude/skills/humanized-prose/SKILL.md`** (distilled from Wikipedia *Signs of AI writing*, Aboudjem/humanizer-skill, lguz/humanize-writing-skill, jooray/humanizer + house tells). Every paragraph-scale line passes its 3-pass process and this gate before entering the station:
+Mechanical enforcement: **`node tools/voice-audit.mjs`** (v2, 2026-08-05 — registry-driven: parses §2c live and enforces per-register rules over every declared surface; `locked`/`live` rows block, `pending` rows report `PEND` notes, unregistered authored fields are violations; run after every content landing). Authoring-time enforcement lives in the project skill **`.claude/skills/humanized-prose/SKILL.md`** (distilled from Wikipedia *Signs of AI writing*, Aboudjem/humanizer-skill, lguz/humanize-writing-skill, jooray/humanizer + house tells). Every paragraph-scale line passes its 3-pass process and this gate before entering the station:
 
 - reading content targets ZERO em-dashes (owner-hardened 2026-08-05: the inscription's former dash exemption is revoked; the ratified manifesto L2 dashes stand as carved corpus until re-ruled)
 - zero semicolon mirrors · zero negative parallelism ("not X but Y") · zero tricolons-by-default

@@ -37,7 +37,9 @@ const FAMILY_TO_RELATION = {
   none:    'self',       // branch-only fallback; stems never return 'none'
 };
 
-const RELATIONS = {
+// Exported for the REA_16 voice audit (tools/voice-audit.mjs) — the audit
+// renders each narrative with {dm}/{today} placeholder tokens.
+export const RELATIONS = {
   self: {
     label: 'A day that mirrors you',
     tone: 'companion',
