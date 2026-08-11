@@ -24,7 +24,7 @@
 | `dm_claims` | Being vague feels worse to you than being wrong. · People come to you when they need the unsoftened truth. |
 | `dm_mechanism` | Yang Metal tempered by spring wood — strength that grew against resistance, not in its absence. |
 | `yourNature_desc` | You put the truth ahead of your own comfort, and usually ahead of your own company. People keep the clarity you hand them and stay careful around the edge it came from. The cost never comes up. You've never once shown anyone the bill. |
-| `dm_overview` | The Blade is Yang Metal, the finished edge of the five elements. It works by evaluation: the read begins on contact and is usually over before anyone else has formed a first impression. Conclusions come early and don't move easily, and the same standard turns inward, usually harder. That's what makes this nature accurate, and what makes it trusted, though rarely in a way that feels like closeness. |
+| `dm_overview` | The Blade is Yang Metal, the finished edge of the five elements. It works by sizing up: the read begins on contact and is usually over before anyone else has formed a first impression. Conclusions come early and don't move easily, and the same standard turns inward, usually harder. That's what makes this nature accurate, and what makes it trusted, though rarely in a way that feels like closeness. |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 

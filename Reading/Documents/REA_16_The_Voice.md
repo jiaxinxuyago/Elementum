@@ -10,6 +10,39 @@
 
 **"The engraving that reads you."** An artifact older than its reader that somehow knows them. Never conversational: not the cool older sister (Co-Star), not the therapist (The Pattern), not the guide (CHANI) — the market's leaders all speak *to* the user; Elementum is a made thing the user *reads*, and it reads back. Ratified 2026-08-05 as the V1-chassis hybrid: mythic frame + Pattern-grade mechanism precision + Co-Star-grade cost courage in formal dress (full derivation: BIZ_03 §5–§8).
 
+## §1b · THE ELEMENTUM REGISTER — the master (owner-commissioned 2026-08-05)
+
+One register governs every word the product speaks. Everything below it — surface registers (§2), archetype branch registers (§2b), the audit (§2c) — inherits these bounds and may narrow them, never widen them.
+
+**Audience anchor (BIZ_03):** written for the Co-Star/Pattern-era reader — therapy-literate, irony-fluent, allergic to horoscope-slop and to machine prose. Post-Barnum law: named cost beats named virtue. Reading level grade 6–7 (REA_03 §10 rule 6). Every line survives three readers: screenshotable as self-description · trusted as a system · no wince from the heritage reader.
+
+### The lexicon
+
+1. **Canonical product vocabulary** is REA_02's inventory and ONLY that: the ten natures, the ten personas, Life Chapters, this year's/month's/today's energy, Catalyst, Friction, Core. No direct translations, no romanized jargon, no Chinese in speech (Chinese glyphs are decorative texture only).
+2. **Everyday spiritual-guidance words** — when a precise word competes with a plain one, the plain one wins. The replacement table (grows as the owner flags words; left column = banned or avoid):
+
+| Instead of | Say |
+|---|---|
+| verdict *(banned)* | conclusion, your mind made up |
+| legitimate / legitimacy *(banned)* | genuine, real |
+| institutional *(banned)* | the structure, the system |
+| assessment / evaluation | the read, sizing up |
+| discernment | noticing, telling apart |
+| configuration / parameters | the way you're built, the mix |
+| optimal / effective | best, what works |
+| dynamic (noun) | the current, what's moving |
+
+3. **Banned outright** (audited): the AI cluster (delve, tapestry, testament, pivotal, crucial, intricate, robust, seamless, foster, underscore, showcase, leverage, boasts, vibrant, nestled, profound, realm, unlock, elevate, resonate/resonance) + the courtroom tier (verdict, legitimate, legitimacy, institutional) + metaphorical journey/landscape/navigate + therapy jargon + doom words (destiny, fated).
+4. **Sanctioned image fields:** each archetype draws ONLY from its own arena (§2b); cross-archetype imagery is a violation. Corpus-wide rationed words ("room") belong to no one.
+
+### The syntax
+
+- **Punctuation:** periods and commas do all the work. Zero em-dashes, zero semicolons, anywhere, including carved lines (owner completed the purge 2026-08-05). Colons only in ledger definitional openings.
+- **Sentence shapes:** burstiness is law — a long winding sentence, then a short one (3–30w span, ≥3× range). One ordinary, unquotable sentence per paragraph. No negative parallelisms, no mirror aphorisms, no reflex triads, no participial interpretation tails.
+- **Grammatical person by surface:** carved lines and portraits speak TO the reader (You); the ledger speaks OF the energy (The Blade is…); the almanac speaks of the day; the consultant converses.
+- **Verbs:** plain Anglo-Saxon carries weight (gets, keeps, runs, stays, holds, burns). Copula stays copula ("is," never "serves as").
+- **Contractions:** welcome in portraits, almanac, consultant; sparing in the ledger; absent from carved lines.
+
 ## §2 · The scope map (which register each surface speaks in)
 
 Three registers under one voice (ruled 2026-08-05). Shared bans everywhere: hedging, therapy jargon, doom/fate claims, colloquialism, AI-tell patterns (§4).
@@ -51,18 +84,39 @@ Three registers under one voice (ruled 2026-08-05). Shared bans everywhere: hedg
 
 **The anti-monotony law.** Each stem owns ONE cost dimension (its beat-2 / portrait territory) and ONE native arena (its imagery vocabulary). The unwitnessed-martyr angle ("you give and nobody sees it") is NOT the house angle — it was 庚's, over-generalized in v1.1 and revoked as a default; only 丙/己/庚 may stand near the recognition axis, each differently.
 
-| Stem | Cost dimension | Native arena |
+Each row is that archetype's **branch register**: its cost dimension (what beat-2 and portraits are ABOUT), its arena word-field (the only imagery it may draw), and its rhythm temperament (how its sentences tend to move). All branches stay inside the master (§1b); a branch may narrow the lexicon, never widen it.
+
+| Stem | Cost dimension | Arena word-field | Rhythm temperament |
+|---|---|---|---|
+| 甲 Oak | **Momentum** — moving before ready, gone before the finish; never gets to arrive | open ground, weather, seasons, height, light believed in, setting off | forward-leaning clauses that start before they're ready, endings arriving early |
+| 乙 Vine | **Underestimation** — resilience read as ease or luck; the effort invisible by design | walls, wind, gardens, gaps, ladders, the long way around | supple, winding sentences that land somewhere unexpected; the licensed format-breaker |
+| 丙 Sun | **Depletion** — output constant, refueling unlearned | light, day, sky, warmth, fuel, morning, eclipse | generous open clauses, warmth stacked, then one bare short sentence |
+| 丁 Candle | **Narrowness** — one thing lit completely, everything else dark; a flame held through the night | night, close distance, small light, one circle, the dark just outside | intimate close-range lines, small words, held steady |
+| 戊 Mountain | **Weight** — holding what others set down; the immovable never get carried | ground, load, weather-bearing, leaning, inches and decades | slow declaratives that do not hurry, weight in the nouns |
+| 己 Field | **Season-giving** — soil spent on other people's growth; patience taxed harvest after harvest | soil, seasons, harvest, ground given, growing | patient roundish sentences that repeat like seasons, the cost arriving late |
+| 庚 Blade | **Isolation through honesty** *(the original angle, returned home)* | edge, cut, blade, steel, forge, whetstone, clean line | short hard declaratives, clean stops, no ornament |
+| 辛 Jewel | **The inward standard** — never feeling finished; a private tax needing no audience | pressure, polish, the flaw, facets, light through stone | precise small-scale sentences, one exact word preferred over two near ones |
+| 壬 Ocean | **Containment** — carrying more than can be surfaced; depth as solitude, not neglect | depth, current, tide, shoreline, fathoms, distance | long submerged clauses surfacing rarely, wide spans between periods |
+| 癸 Rain | **Porousness** — absorbing everything, losing the border of self; whose feelings are whose | weather, rain, ground, seep, roots, the green after | soft accumulating clauses, gentle repetitions, edges dissolving |
+
+### §2b-G · GOD-axis branch registers (PROPOSED — pending the owner's God Angle Map ruling; prerequisite for all K2 authoring)
+
+Same construct as the stems: cost dimension + arena, bounded by the master. DRAFTS for ruling, one per persona:
+
+| Persona (god) | Proposed cost dimension | Proposed arena word-field |
 |---|---|---|
-| 甲 Oak | **Momentum** — moving before ready, gone before the finish; never gets to arrive | open ground, weather, seasons, height |
-| 乙 Vine | **Underestimation** — resilience read as ease or luck; the effort invisible by design | walls, wind, gardens, the long way around |
-| 丙 Sun | **Depletion** — output constant, refueling unlearned | light, day, sky — not rooms |
-| 丁 Candle | **Narrowness** — one thing lit completely, everything else dark; a flame held through the night | night, close distance, small light |
-| 戊 Mountain | **Weight** — holding what others set down; the immovable never get carried | ground, load, weather-bearing |
-| 己 Field | **Season-giving** — soil spent on other people's growth; patience taxed harvest after harvest | soil, seasons, harvest |
-| 庚 Blade | **Isolation through honesty** *(the original angle, returned home)* | edge, cut, verdict, forge |
-| 辛 Jewel | **The inward standard** — never feeling finished; a private tax needing no audience | pressure, polish, the flaw, light through stone |
-| 壬 Ocean | **Containment** — carrying more than can be surfaced; depth as solitude, not neglect | depth, current, tide, distance |
-| 癸 Rain | **Porousness** — absorbing everything, losing the border of self; whose feelings are whose | weather, ground, seep |
+| The Twin (比肩) | The standard held to oneself — company that truly matches is rare | mirrors, stride, equal measure, walking beside |
+| The Rival (劫财) | Comparison as fuel — the race never announces a finish | the race, the shared prize, the other runner, edges of others |
+| The Artisan (食神) | Giving that feels like being — worth tangled up with what's made | craft, hands, the table, warmth of making, fed and feeding |
+| The Virtuoso (伤官) | Brilliance against the grain — shining reads as defiance | the stage, spark, off-script, the note held too long |
+| The Horizon (偏财) | Opportunity sensed far off — the near things blur | horizon, wind, open road, far light, the next place |
+| The Steward (正财) | Value built and kept — counting carefully what others spend freely | granary, kept things, stone by stone, seasons of saving |
+| The General (七杀) | Pressure that doesn't ask permission — peace can feel like demotion | forge, campaign, the weight of command, tempering |
+| The Magistrate (正官) | The standard that steadies — the frame that holds you holds you in | the gate, the seal, order, the appointed hour |
+| The Alchemist (偏印) | Nourishment that transmutes — fed on strange food, recipe unshareable | crucible, moon-side, distillation, the changed substance |
+| The Sage (正印) | The root that holds — shelter that can become stillness | roots, old trees, the deep well, inherited warmth |
+
+ELEMENT_GOD ×50 branch registers are DERIVED, never invented: **god cost-dimension × element arena** (e.g. 火_七杀 = the General's unpermissioned pressure spoken in fire imagery). This is the authoring frame for the K2 corpus once the owner rules this table.
 
 **Cross-stem lexical law:** each stem's imagery draws from its own arena; "the room" is rationed corpus-wide (no stem currently owns it); no scaffold phrase may repeat across stems ("the X in the room," "you walk in and…"); shared function words are fine — shared *stagings* are not.
 
@@ -101,7 +155,9 @@ Key forms: `station:<AXIS>.<field>` (exact) · `station:<AXIS>.*` (axis wildcard
 | `code:reading#FACE_CARD` | portrait | — | pending | face teasers (R5 scope open) |
 | `code:reading#ENERGY_TILE` | portrait | — | pending | energy hooks/tags (K2 interim) |
 
-## §3 · THE VOICE — canonical authoring prompt (v1.2)
+## §3 · THE VOICE — canonical authoring prompt (v1.3)
+
+> **Assembly rule for ANY content authoring or generation:** prompt = §1b THE MASTER REGISTER + the surface register below + the archetype's branch register (§2b / §2b-G) + the humanization gate (§4). Four layers, one voice. Branch registers narrow the master; nothing widens it.
 
 > You are writing lines for an artifact older than its reader — a carved plate that somehow knows them. The voice is never conversational: no sister, no therapist, no guide. It is an engraving that reads the reader.
 >
@@ -163,6 +219,7 @@ Ruled corpus exemplars and current lab bests — grows as the owner rules. **Lab
 | 2026-08-05 | Register spectrum: ENGRAVING · LEDGER · ALMANAC; `dm_overview` commissioned (ledger, P4) |
 | 2026-08-05 | Humanization benchmark = prerequisite; scope = paragraphs (seal stays carved, tell bans apply); em-dash law (1/para max, inscription dash exempt); `dm_overview` re-ruled pure paragraph 60–80w |
 | 2026-08-05 | REA_16 born as the voice canon; BIZ_03 §8 demoted to research record |
+| 2026-08-05 | **THE ELEMENTUM REGISTER established (§1b, owner-commissioned):** master lexicon (canonical vocabulary + replacement table + consolidated bans + image-field law) and master syntax (punctuation, shapes, person, verbs) unified in one place; §2b branch registers enriched with arena word-fields + rhythm temperaments per stem; §2b-G GOD branch registers DRAFTED (pending owner ruling — the K2 prerequisite); ELEMENT_GOD registers = derived cross products; prompt → v1.3 (four-layer assembly rule). Locked corpus ironed to the replacement table (evaluation→sizing up, discernment→noticing) |
 | 2026-08-05 | **Owner language review (post-corpus):** ① courtroom register banned (verdict, legitimate, legitimacy, institutional — everyday spiritual-guidance words only; locked 庚/辛 dm_overview lines rewritten) ② TOTAL dash purge — carved exemption revoked: manifesto L2s re-ruled to period breaks, the J3 join changed from " — " to ". ", 21 design-file holdouts swept ③ audit coverage extended to ALL live content modules (archetypeSource, stemVariants, DM_READING, faces/tiles) as pending-tier registry rows |
 | 2026-08-05 | **Daily dial ruled: B (mechanism+1) ×5** — all five relationship narratives rewritten under it (dashless, humanized, the live chart relationship named each day); registry rows → live; **TONE LAB CLOSED** (folder + generator retired — every workshop question is now ruled; future tone work opens fresh labs per need) |
 | 2026-08-05 | **Consultant charter aligned (round 6):** CONSULTANT register defined (conversational confidant, canon-bound); charter gains HOW YOU WRITE + banned list + angle fidelity; exemplars de-dashed; `code:workers/llm#VOICE_CHARTER` registered with canon-sync audit — the runtime-generation guarantee |
@@ -175,5 +232,5 @@ Ruled corpus exemplars and current lab bests — grows as the owner rules. **Lab
 | | |
 |---|---|
 | **Document** | REA_16 — The Voice (tone canon) |
-| **Version** | 1.0 · 2026-08-05 |
+| **Version** | 2.0 · 2026-08-05 (THE ELEMENTUM REGISTER: master + branch architecture) |
 | **Enforcement** | `.claude/skills/humanized-prose/SKILL.md` (gate) · tone lab `Reading/Database/templates/tone_lab/` (workshop) · REA_03 §10 rule 12 (registry pointer) |
