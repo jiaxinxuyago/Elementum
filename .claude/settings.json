@@ -25,6 +25,7 @@
       "Bash(node tools/qa-engine-regression.mjs)",
       "Bash(node tools/qa-route-sweep.mjs)",
       "Bash(node tools/qa-journey-sweep.mjs)",
+      "Bash(node tools/voice-audit.mjs)",
       "Bash(node tools/send-report.mjs *)",
       "Bash(node Elementum_App/tools/send-report.mjs *)",
       "Bash(node Elementum_App/tools/qa-journey-sweep.mjs)",

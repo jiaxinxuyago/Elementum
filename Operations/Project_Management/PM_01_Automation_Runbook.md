@@ -138,6 +138,19 @@ Integration (all executed 2026-07-09):
    in production before any deploy-gating is reconsidered (green must stay
    trustworthy). Owner decision 2026-07-09.
 
+## §2d Voice audit in the 9AM pipeline — REPORT-ONLY phase (wired 2026-08-05)
+
+`tools/voice-audit.mjs` (the REA_16 mechanical tone audit, registry-driven
+via REA_16 §2c) runs in the 9AM sweep alongside the QA suites. **Report-only
+by owner design:** content/tone is owner-ruled, so blocking `VOICE` lines are
+NEVER dispatched to fixers — they enter the bug ledger as Category `content`,
+status REPORT-ONLY, and are quoted verbatim in the daily QA email's 📋
+section. `PEND` lines are expected signal from the unruled ~80% of the
+corpus: the email reports the count only, never the list. The email's sweep
+stats line always carries `voice: clean (N PEND)` or `voice: M VOICE`.
+Promotion to a blocking gate (merge-tool / deploy) is deliberately deferred
+until the audit proves quiet in production — same trust doctrine as §2c #5.
+
 Coverage pyramid after integration: engine (golden fixtures) → renders
 (route sweep) → journeys (this layer) → live health (probes) — with the
 purchase-flow smoke test remaining the known gap (parked; build when
