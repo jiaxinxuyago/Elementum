@@ -31,6 +31,19 @@
 | INFRA-4 | Open-model arm (Workers AI) in elementum-llm — NOT yet implemented | LLM spend nears $50/mo or 20% of revenue | `INF_01` §4.3 cost gates |
 | INFRA-5 | Subscriptions + tax/merchant-of-record | Post-beta | `BIZ_01` structural note |
 
+## BAND — the band-tier content campaign (scoped 2026-08-05 · construct ratified, REA_16 §6 / REA_03 §3)
+
+Principle (law): *what you are* = band-invariant · *how it's running* = band-varying. All blocks author under REA_16 v2.0 (four-layer prompt), land station-first, and gate on both audits + the swap test + an open-band read-through (every line must be true for the underfueled reader). Owner rules each corpus per the variable-review law.
+
+### BAND-B · Gifts & Shadows tagged pools — FIRST (fixes the most visible old-tone text, now promoted on P4)
+~5 gifts + ~5 shadows per stem (≈100 items), each `{phrase, desc, bands}`; band-robust wording on all-band items; band-specific items only where expression genuinely differs. Resolver: band-aware ×3 selection (band-tagged first, all-band fill). Station home: `STEM/*.json` `gifts`/`shadows` candidates (ore copies retire — this IS the §7 #4 fate execution for these two fields). Chain: station → registry rows → transcription → resolver → P4 → design HTMLs.
+
+### BAND-A · yourNature ×30 (closes R4)
+Full band variants (stem × concentrated/balanced/open) under branch register × band; replaces the tone-stale 庚 ×15 (pattern grain retired for now — resolver falls band → baseline). Station home: `STEM_BAND/*.json`. Wire: band resolution returns to P4's "Your nature" section. R4 rider decisions for the owner at this block: the dead J4 sub-screen's fate + the unsurfaced `inscription`'s fate (dm_claims home vs retire).
+
+### BAND-C · self_card ×30 (the underfueled bridge)
+face ≤8w + presence ≤30w per stem×band; fresh authoring (the `IDENTITY_SATURATION_READING` predecessor never existed in code). Owner rules the slot at authoring: catalogue hero (under keywords) vs P4 vs the self energy card — multi-slot allowed. Station home: `STEM_BAND/*.json` `self_card`.
+
 ## OWNER — review & decisions (no deadline)
 
 | ID | Task |
