@@ -43,7 +43,7 @@ Three registers under one voice (ruled 2026-08-05). Shared bans everywhere: hedg
 | `palace_frames` ×7 · `tpl_pattern_conclusion` | *PROPOSED: ledger* | — | **OPEN** |
 | T-class slot templates (dx/verdict/pill/cast/hour…) | functional | per REA_03 §5 | LIVE |
 | V-class vocabulary, deflines, glossary | functional (REA_02 law) | per REA_02 | LIVE |
-| Consultant chat (INF_01 §4.3 charter) | **OPEN — charter alignment is an owner decision** | — | own charter |
+| Consultant chat (INF_01 §4.3 charter) | **CONSULTANT (canon-aligned 2026-08-05)** — conversational confidant register bound to the canon: HOW YOU WRITE humanization block, shared bans, vocabulary law, angle fidelity via authoredVoice | 40–120w/turn | charter round 6 · audit-synced |
 | Self-Report composer shell | **OPEN** | — | — |
 | Web Push copy | *PROPOSED: almanac* | — | **OPEN** |
 
@@ -93,6 +93,7 @@ Key forms: `station:<AXIS>.<field>` (exact) · `station:<AXIS>.*` (axis wildcard
 | `code:dailyGuidance#RELATIONS.narrative` | almanac | — | pending | slots · dial ruling open |
 | `code:dailyGuidance#RELATIONS.doThis` | functional | — | pending | guidance list items |
 | `code:dailyGuidance#RELATIONS.avoid` | functional | — | pending | guidance list items |
+| `code:workers/llm#VOICE_CHARTER` | consultant | — | live | canon-sync — the runtime-generation guarantee (charter must carry the HOW YOU WRITE block, the full banned list, angle fidelity; exemplars dashless) |
 
 ## §3 · THE VOICE — canonical authoring prompt (v1.2)
 
@@ -155,6 +156,7 @@ Ruled corpus exemplars and current lab bests — grows as the owner rules. **Lab
 | 2026-08-05 | Register spectrum: ENGRAVING · LEDGER · ALMANAC; `dm_overview` commissioned (ledger, P4) |
 | 2026-08-05 | Humanization benchmark = prerequisite; scope = paragraphs (seal stays carved, tell bans apply); em-dash law (1/para max, inscription dash exempt); `dm_overview` re-ruled pure paragraph 60–80w |
 | 2026-08-05 | REA_16 born as the voice canon; BIZ_03 §8 demoted to research record |
+| 2026-08-05 | **Consultant charter aligned (round 6):** CONSULTANT register defined (conversational confidant, canon-bound); charter gains HOW YOU WRITE + banned list + angle fidelity; exemplars de-dashed; `code:workers/llm#VOICE_CHARTER` registered with canon-sync audit — the runtime-generation guarantee |
 | 2026-08-05 | **Owner item-by-item lab ruling:** manifesto = CURRENT locked · inscription = cost+1, DASHLESS (comma/period join; dash exemption revoked) · dm_overview = mechanism dial, ENERGY as subject (name → what it is → how it works), analytical license · yourNature = You-opener law, old-friend-less-casual register, current-to-cost+1 intensity |
 | 2026-08-05 | **CORPUS LOCKED ×10 (owner):** refined versions are THE versions — inscriptions (dashless cost+1), yourNature baselines (You-opener, angle-mapped), dm_overview founding corpus. Priors RETIRED everywhere (24 stale copies swept from design HTMLs, wireframes, mocks, contract examples; archive + BIZ_03 research record excepted as history). Tone-lab stem files retired; the by_variable pivot is the corpus reading view. Lab remains only for the unruled daily dials. |
 | 2026-08-05 | **Angle Map ratified (§2b):** per-stem cost dimensions + native arenas; unwitnessed-martyr default REVOKED (owner diagnosed the monotony: one resonance angle + "the room" as universal stage); cross-stem lexical law added; prompt → v1.2 |

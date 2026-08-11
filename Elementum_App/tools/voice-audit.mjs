@@ -128,6 +128,32 @@ for (const [id, files] of gramSeen) {
   }
 }
 
+// ── consultant charter canon-sync (the runtime-generation guarantee) ──
+// The charter can't be audited after the fact (it GENERATES language live),
+// so the guarantee is prompt-side: verify the worker's VOICE_CHARTER still
+// carries the canon — the HOW YOU WRITE block, every banned word named in
+// its ban list, angle fidelity, and dashless exemplars.
+const charterRow = registry.find((r) => r.key === 'code:workers/llm#VOICE_CHARTER');
+if (charterRow) {
+  const where = 'workers/llm/index.js :: VOICE_CHARTER';
+  const src = fs.readFileSync(path.resolve(__dirname, '../workers/llm/index.js'), 'utf8');
+  const cm = src.match(/const VOICE_CHARTER = `([\s\S]*?)`;/);
+  if (!cm) flag(charterRow, where, 'VOICE_CHARTER block not found');
+  else {
+    const c = cm[1];
+    if (!c.includes('HOW YOU WRITE')) flag(charterRow, where, 'HOW YOU WRITE humanization block missing (canon drift)');
+    if (!/REA_16/.test(c)) flag(charterRow, where, 'canon marker "REA_16" missing');
+    if (!c.includes('ANGLE FIDELITY')) flag(charterRow, where, 'ANGLE FIDELITY instruction missing');
+    if (!/em-dash/i.test(c)) flag(charterRow, where, 'em-dash rule missing');
+    const cl = c.toLowerCase();
+    for (const w of ['delve', 'tapestry', 'testament', 'pivotal', 'crucial', 'intricate', 'robust', 'seamless', 'foster', 'underscore', 'showcase', 'leverage', 'boasts', 'vibrant', 'nestled', 'profound', 'realm', 'unlock', 'elevate', 'resonate']) {
+      if (!cl.includes(w)) flag(charterRow, where, `banned word "${w}" not named in the charter's ban list`);
+    }
+    const exemplars = c.split('EXEMPLARS')[1] || '';
+    if (exemplars.includes('—')) flag(charterRow, where, 'em-dash inside an exemplar (the charter teaches the tell it bans)');
+  }
+}
+
 // ── code-resident content (declared via code: keys) ────────────────
 const { RELATIONS } = await import('../src/content/dailyGuidance.js');
 for (const row of registry.filter((r) => r.key.startsWith('code:dailyGuidance#RELATIONS.'))) {
