@@ -434,14 +434,13 @@ async function scenarioB(browser) {
     return `cycled: ${seen.join(' → ')}`;
   });
 
-  await step(page, 'B', '4 · Day Master card → Pillar Chart glyphs', async () => {
+  await step(page, 'B', '4 · Day Master hero arrow → full Day Master page → Pillar Chart glyphs', async () => {
     await toCatalogue();
-    // The hero "Read your Day Master" arrow opens the catalogue's in-stage Day
-    // Master card (JourneyStage screen='daymaster'); "The full Day Master
-    // reading" CTA there bridges to the app Day Master page (app-daymaster).
+    // NOTE (adapted): the in-stage Day Master card this step used to hop
+    // through no longer exists — 092d8a5 wired the hero "Read your Day Master"
+    // arrow STRAIGHT to the app Day Master page (app-daymaster), leaving the
+    // JourneyStage screen='daymaster' sub-screen unreachable. One hop now.
     await page.click('button[aria-label="Read your Day Master"]');
-    await page.waitForSelector('.jscreen[data-screen="daymaster"].active .pill-cta', { timeout: 5000 });
-    await page.click('.jscreen[data-screen="daymaster"].active .pill-cta');
     await waitForHash(page, 'app-daymaster');
     await page.click('button.birth-chart-btn');
     await waitForHash(page, 'app-pillars');
