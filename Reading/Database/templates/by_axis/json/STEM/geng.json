@@ -28,6 +28,21 @@
     "dm_mechanism": "Yang Metal tempered by spring wood — strength that grew against resistance, not in its absence.",
     "yourNature_desc": "You put the truth ahead of your own comfort, and usually ahead of your own company. People keep the clarity you hand them and stay careful around the edge it came from. The cost never comes up. You've never once shown anyone the bill.",
     "dm_overview": "The Blade is Yang Metal, the finished edge of the five elements. It works by sizing up: the read begins on contact and is usually over before anyone else has formed a first impression. Conclusions come early and don't move easily, and the same standard turns inward, usually harder. That's what makes this nature accurate, and what makes it trusted, though rarely in a way that feels like closeness.",
+    "gifts": [
+      { "phrase": "The Early Read", "desc": "You don't choose to size people up. The read finishes before you've decided to start it, and it's usually right.", "bands": "all" },
+      { "phrase": "The Care Beneath the Edge", "desc": "The edge everyone sees is covering a depth of care that almost no one earns access to. The few who do never doubt it again.", "bands": "all" },
+      { "phrase": "The Unsoftened Truth", "desc": "People come to you when they've had enough comfort. You tell them what's real, plainly, and they leave knowing where they stand.", "bands": "all" },
+      { "phrase": "The Held Line", "desc": "When everyone else shifts to keep the peace, you don't. People depend on that more than they ever say.", "bands": ["concentrated", "balanced"] },
+      { "phrase": "The Crisis Edge", "desc": "When everything is falling apart, you get sharper. What others force out with effort, you produce in surplus under pressure.", "bands": ["concentrated"] },
+      { "phrase": "The Considered Cut", "desc": "Your read takes longer to close, and that's its strength. When you finally call something finished, it stays finished.", "bands": ["open"] }
+    ],
+    "shadows": [
+      { "phrase": "The Standard Turned Inward", "desc": "The read you turn outward runs inward too. It holds you to a standard that never quite says done.", "bands": "all" },
+      { "phrase": "The Clarity Gap", "desc": "You often know something before anyone is ready to hear it. The distance between those two moments is a lonely place, and it's hard to name.", "bands": "all" },
+      { "phrase": "The Cold Read", "desc": "People feel sized up around you even when you've said nothing. It isn't coldness, but it reads as coldness, and you're tired of explaining the difference.", "bands": "all" },
+      { "phrase": "The Finished Too Early", "desc": "You call things complete before they've fully arrived. The clarity that recognizes finished work can misread what's still becoming.", "bands": ["concentrated", "balanced"] },
+      { "phrase": "The Unclosed Loop", "desc": "Your read circles without landing. You reach something true, find a reason to look again, and end up back where you started, still unsure it counts.", "bands": ["open"] }
+    ],
     "__ore": {
       "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
       "subtitle": "Evaluation runs before engagement begins · The Definition Impulse (Yang)",
@@ -39,34 +54,7 @@
         "Justice-oriented"
       ],
       "yourNature_phrase": "The Imperial Executioner",
-      "gifts": [
-        {
-          "phrase": "The Structural Read",
-          "desc": "You don't choose to assess — the read finishes before you've decided to begin it."
-        },
-        {
-          "phrase": "The Core Beneath the Edge",
-          "desc": "What people experience as your edge is covering a depth of care that almost no one earns access to."
-        },
-        {
-          "phrase": "The Held Position",
-          "desc": "When everyone else has adjusted their position to manage the room, yours is unchanged — and people depend on that more than they say."
-        }
-      ],
-      "shadows": [
-        {
-          "phrase": "The Finished Too Early",
-          "desc": "You tend to call things complete before they've fully arrived — the clarity that recognizes finished things can misread what's still becoming."
-        },
-        {
-          "phrase": "The Internal Standard",
-          "desc": "The assessment you turn outward runs inward too — and it holds you to a standard that never fully declares you done."
-        },
-        {
-          "phrase": "The Clarity Gap",
-          "desc": "You often know something before the room is ready to hear it, and the distance between those two moments creates a loneliness that's hard to name."
-        }
-      ],
+      "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
       "elementIntro": {
         "punch": "The Blade is the ancient cutting force of Metal.",
         "expand": "Sharp without announcement, cold without cruelty — it carries in a person the stillness of something that has already decided."

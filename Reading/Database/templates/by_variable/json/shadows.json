@@ -1,0 +1,45 @@
+{
+  "$variable": "shadows",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "STEM": [
+      {
+        "id": "geng",
+        "key": "庚",
+        "canonical_name": "The Blade",
+        "value": [
+          {
+            "phrase": "The Standard Turned Inward",
+            "desc": "The read you turn outward runs inward too. It holds you to a standard that never quite says done.",
+            "bands": "all"
+          },
+          {
+            "phrase": "The Clarity Gap",
+            "desc": "You often know something before anyone is ready to hear it. The distance between those two moments is a lonely place, and it's hard to name.",
+            "bands": "all"
+          },
+          {
+            "phrase": "The Cold Read",
+            "desc": "People feel sized up around you even when you've said nothing. It isn't coldness, but it reads as coldness, and you're tired of explaining the difference.",
+            "bands": "all"
+          },
+          {
+            "phrase": "The Finished Too Early",
+            "desc": "You call things complete before they've fully arrived. The clarity that recognizes finished work can misread what's still becoming.",
+            "bands": [
+              "concentrated",
+              "balanced"
+            ]
+          },
+          {
+            "phrase": "The Unclosed Loop",
+            "desc": "Your read circles without landing. You reach something true, find a reason to look again, and end up back where you started, still unsure it counts.",
+            "bands": [
+              "open"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

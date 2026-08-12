@@ -26,6 +26,39 @@
 | `dm_mechanism` | Yang Metal tempered by spring wood — strength that grew against resistance, not in its absence. |
 | `yourNature_desc` | You put the truth ahead of your own comfort, and usually ahead of your own company. People keep the clarity you hand them and stay careful around the edge it came from. The cost never comes up. You've never once shown anyone the bill. |
 | `dm_overview` | The Blade is Yang Metal, the finished edge of the five elements. It works by sizing up: the read begins on contact and is usually over before anyone else has formed a first impression. Conclusions come early and don't move easily, and the same standard turns inward, usually harder. That's what makes this nature accurate, and what makes it trusted, though rarely in a way that feels like closeness. |
+| `gifts[0].phrase` | The Early Read |
+| `gifts[0].desc` | You don't choose to size people up. The read finishes before you've decided to start it, and it's usually right. |
+| `gifts[0].bands` | all |
+| `gifts[1].phrase` | The Care Beneath the Edge |
+| `gifts[1].desc` | The edge everyone sees is covering a depth of care that almost no one earns access to. The few who do never doubt it again. |
+| `gifts[1].bands` | all |
+| `gifts[2].phrase` | The Unsoftened Truth |
+| `gifts[2].desc` | People come to you when they've had enough comfort. You tell them what's real, plainly, and they leave knowing where they stand. |
+| `gifts[2].bands` | all |
+| `gifts[3].phrase` | The Held Line |
+| `gifts[3].desc` | When everyone else shifts to keep the peace, you don't. People depend on that more than they ever say. |
+| `gifts[3].bands` | concentrated · balanced |
+| `gifts[4].phrase` | The Crisis Edge |
+| `gifts[4].desc` | When everything is falling apart, you get sharper. What others force out with effort, you produce in surplus under pressure. |
+| `gifts[4].bands` | concentrated |
+| `gifts[5].phrase` | The Considered Cut |
+| `gifts[5].desc` | Your read takes longer to close, and that's its strength. When you finally call something finished, it stays finished. |
+| `gifts[5].bands` | open |
+| `shadows[0].phrase` | The Standard Turned Inward |
+| `shadows[0].desc` | The read you turn outward runs inward too. It holds you to a standard that never quite says done. |
+| `shadows[0].bands` | all |
+| `shadows[1].phrase` | The Clarity Gap |
+| `shadows[1].desc` | You often know something before anyone is ready to hear it. The distance between those two moments is a lonely place, and it's hard to name. |
+| `shadows[1].bands` | all |
+| `shadows[2].phrase` | The Cold Read |
+| `shadows[2].desc` | People feel sized up around you even when you've said nothing. It isn't coldness, but it reads as coldness, and you're tired of explaining the difference. |
+| `shadows[2].bands` | all |
+| `shadows[3].phrase` | The Finished Too Early |
+| `shadows[3].desc` | You call things complete before they've fully arrived. The clarity that recognizes finished work can misread what's still becoming. |
+| `shadows[3].bands` | concentrated · balanced |
+| `shadows[4].phrase` | The Unclosed Loop |
+| `shadows[4].desc` | Your read circles without landing. You reach something true, find a reason to look again, and end up back where you started, still unsure it counts. |
+| `shadows[4].bands` | open |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -36,18 +69,7 @@
 | `subtitle` | Evaluation runs before engagement begins · The Definition Impulse (Yang) |
 | `chips` | Evaluative · Uncompromising · Precision-first · Self-sufficient · Justice-oriented |
 | `yourNature_phrase` | The Imperial Executioner |
-| `gifts[0].phrase` | The Structural Read |
-| `gifts[0].desc` | You don't choose to assess — the read finishes before you've decided to begin it. |
-| `gifts[1].phrase` | The Core Beneath the Edge |
-| `gifts[1].desc` | What people experience as your edge is covering a depth of care that almost no one earns access to. |
-| `gifts[2].phrase` | The Held Position |
-| `gifts[2].desc` | When everyone else has adjusted their position to manage the room, yours is unchanged — and people depend on that more than they say. |
-| `shadows[0].phrase` | The Finished Too Early |
-| `shadows[0].desc` | You tend to call things complete before they've fully arrived — the clarity that recognizes finished things can misread what's still becoming. |
-| `shadows[1].phrase` | The Internal Standard |
-| `shadows[1].desc` | The assessment you turn outward runs inward too — and it holds you to a standard that never fully declares you done. |
-| `shadows[2].phrase` | The Clarity Gap |
-| `shadows[2].desc` | You often know something before the room is ready to hear it, and the distance between those two moments creates a loneliness that's hard to name. |
+| `ore_gifts_shadows_note` | MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git. |
 | `elementIntro.punch` | The Blade is the ancient cutting force of Metal. |
 | `elementIntro.expand` | Sharp without announcement, cold without cruelty — it carries in a person the stillness of something that has already decided. |
 | `manual.concentrated` | The evaluating and cutting force is relentless. Everything gets assessed; everything gets cut to shape. Highly productive for those who benefit from defined edges and clear decisions. Damaging for those who needed more time or more flexibility — the cutting happens regardless of readiness. Classical texts warn 金旺伤木 (strong Metal injures Wood) — when Metal is excessive, it cuts down what was still growing, including what should have been given more time. The danger is cutting too early, deciding too harshly, and removing things that needed more development before they were ready to be shaped. |

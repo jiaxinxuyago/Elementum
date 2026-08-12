@@ -136,6 +136,8 @@ Key forms: `station:<AXIS>.<field>` (exact) · `station:<AXIS>.*` (axis wildcard
 | `station:STEM.yourNature_desc` | portrait | 30-55w | locked | you-open · swap-gram |
 | `station:STEM.dm_overview` | ledger | 55-85w | locked | the-open |
 | `station:STEM.dm_claims` | carved | 10-16w | pending | claims model TBD (R4-adjacent) |
+| `station:STEM.gifts` | portrait | — | pending | tagged pool ~5–6 (band-tier block B; 庚 authored 2026-08-05, awaiting owner lock) |
+| `station:STEM.shadows` | portrait | — | pending | tagged pool ~5 (symmetric with gifts) |
 | `station:STEM.dm_mechanism` | portrait | ≤30w | pending | |
 | `station:STEM_BAND.*` | portrait | — | pending | K1b self_card target |
 | `station:ELEMENT.*` | functional | — | live | mean lines (interim) |
