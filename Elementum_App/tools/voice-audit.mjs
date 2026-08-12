@@ -139,7 +139,8 @@ for (const [id, files] of gramSeen) {
 // The charter can't be audited after the fact (it GENERATES language live),
 // so the guarantee is prompt-side: verify the worker's VOICE_CHARTER still
 // carries the canon — the HOW YOU WRITE block, every banned word named in
-// its ban list, angle fidelity, and dashless exemplars.
+// its ban list, angle fidelity, and exemplars that neither dash nor
+// demonstrate a banned word.
 const charterRow = registry.find((r) => r.key === 'code:workers/llm#VOICE_CHARTER');
 if (charterRow) {
   const where = 'workers/llm/index.js :: VOICE_CHARTER';
@@ -153,11 +154,18 @@ if (charterRow) {
     if (!c.includes('ANGLE FIDELITY')) flag(charterRow, where, 'ANGLE FIDELITY instruction missing');
     if (!/em-dash/i.test(c)) flag(charterRow, where, 'em-dash rule missing');
     const cl = c.toLowerCase();
-    for (const w of ['delve', 'tapestry', 'testament', 'pivotal', 'crucial', 'intricate', 'robust', 'seamless', 'foster', 'underscore', 'showcase', 'leverage', 'boasts', 'vibrant', 'nestled', 'profound', 'realm', 'unlock', 'elevate', 'resonate', 'verdict', 'legitimate', 'institutional']) {
+    const BANNED = ['delve', 'tapestry', 'testament', 'pivotal', 'crucial', 'intricate', 'robust', 'seamless', 'foster', 'underscore', 'showcase', 'leverage', 'boasts', 'vibrant', 'nestled', 'profound', 'realm', 'unlock', 'elevate', 'resonate', 'verdict', 'legitimate', 'institutional'];
+    for (const w of BANNED) {
       if (!cl.includes(w)) flag(charterRow, where, `banned word "${w}" not named in the charter's ban list`);
     }
     const exemplars = c.split('EXEMPLARS')[1] || '';
     if (exemplars.includes('—')) flag(charterRow, where, 'em-dash inside an exemplar (the charter teaches the tell it bans)');
+    // Naming a word in the ban list is not enough: an exemplar that USES it
+    // teaches the register by demonstration, and few-shot form outweighs an
+    // instruction line (precedent: "verdict" survived the 08-11 courtroom
+    // purge inside the quit-your-job exemplar).
+    const usedBanned = BANNED.filter((w) => new RegExp(`\\b${w}`, 'i').test(exemplars));
+    if (usedBanned.length) flag(charterRow, where, `banned word(s) "${usedBanned.join('", "')}" USED inside an exemplar (the charter demonstrates the register it bans)`);
   }
 }
 
