@@ -37,6 +37,7 @@ const { calculateBaziChart } = await import('../src/engine/calculator.js').catch
 const engine = await import('../src/engine/index.js');
 const calc = calculateBaziChart || engine.calculateBaziChart;
 const { STEM_CARD_DATA, TG_CARD_DATA } = await import('../src/content/archetypeSource.js');
+const { STEM_VARIANTS } = await import('../src/content/stemVariants.js');
 const { buildIdentity } = await import('../src/components/reading/identity.js');
 const { FACE_CARD, FAMILY_BRIEF, FAMILY_CLAUSE, FAMILY_ELEMENT, ENERGY_TILE } = await import('../src/content/reading/index.js');
 const { DM_READING } = await import('../src/content/reading/readingContent.js');
@@ -190,7 +191,10 @@ for (const s of STEMS) {
 
 // ── STEM_BAND ×30 ──
 for (const s of STEMS) for (const b of BANDS) {
-  file('STEM_BAND', `${s.id}_${b}`, `${s.hz}_${b}`, null, {}, ['(no authored data — construct TBD; K1b self-card target)']);
+  file('STEM_BAND', `${s.id}_${b}`, `${s.hz}_${b}`, null, {
+    yourNature_desc: STEM_VARIANTS[`${s.hz}_${b}`]?.yourNature?.desc ?? null,
+  }, ['Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys)'],
+  { status_note: 'yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline)' });
 }
 
 // ── STEM_BAND_PATTERN — HELD ──

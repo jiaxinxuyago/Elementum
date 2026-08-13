@@ -6,7 +6,10 @@
   "construct": "TBD — ruled per-axis with the owner",
   "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
   "sources": [
-    "(no authored data — construct TBD; K1b self-card target)"
+    "Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys)"
   ],
-  "candidates": {}
+  "candidates": {
+    "yourNature_desc": "You still notice what everyone needs. Acting on all of it is what you've had to ration, and the rationing sits uneasily with you. What you tend now, you tend deeply. The garden got smaller and somehow the growing got better."
+  },
+  "status_note": "yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline)"
 }

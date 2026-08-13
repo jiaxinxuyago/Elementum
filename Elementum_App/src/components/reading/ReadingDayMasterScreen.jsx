@@ -17,7 +17,8 @@ export default function ReadingDayMasterScreen({ onBack, onBirthChart }) {
   if (!ec || !identity) return null;
   const stem = chart && chart.dayMaster && chart.dayMaster.stem;
   const card = STEM_CARD_DATA[stem];
-  // Band-resolved gifts & shadows for the panel (owner layout 2026-08-05).
+  // Band-resolved nature + gifts & shadows (owner layout 2026-08-05; BAND-A
+  // band variants 2026-08-13 — falls back to the locked baseline cleanly).
   const reading = resolveDayMasterReading(stem, chart) || {};
   return (
     <div className="reading" style={{ position: 'absolute', inset: 0 }}>
@@ -26,7 +27,7 @@ export default function ReadingDayMasterScreen({ onBack, onBirthChart }) {
         archetype={identity.archetype}
         manifesto={identity.manifesto}
         overview={card?.identity?.overview}
-        nature={card?.yourNature?.desc}
+        nature={reading.nature || card?.yourNature?.desc}
         gifts={reading.gifts}
         shadows={reading.shadows}
         onBack={onBack}

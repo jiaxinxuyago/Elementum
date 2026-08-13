@@ -76,7 +76,7 @@ export function buildVariableGroups(model, activeEl) {
         { name: 'inscription (locked corpus — UNSURFACED since the P4 Gifts & Shadows panel; fate = R4/dm_claims)', axis: 'STEM×10', arch: stemArch, status: 'LOCKED · unsurfaced', value: m?.inscription },
         { name: 'gifts + shadows (band-tagged pools ×5 → chart ×3; owner-locked 2026-08-13)', axis: 'STEM×10 · band-selected', arch: stemArch, status: 'LIVE', value: card?.gifts?.map((g) => g.phrase).join(' · ') },
         { name: 'dm_overview (P4 opening section)', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: card?.identity?.overview },
-        { name: 'yourNature_desc (P4 "Your nature" — baseline; band variants = R4)', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: card?.yourNature?.desc },
+        { name: 'yourNature_desc (P4 "Your nature" — band variant ×30, BAND-A 2026-08-13; baseline = fallback)', axis: 'STEM·BAND×30', arch: bandArch, status: 'LIVE', value: card?.yourNature?.desc },
         { name: 'dm_claims', axis: 'STEM×10', arch: stemArch, status: 'PLANNED', value: null },
         { name: 'dm_mechanism', axis: 'STEM×10', arch: stemArch, status: 'PLANNED', value: null },
         { name: 'self_card (K1b)', axis: 'STEM·BAND×30', arch: bandArch, status: 'PLANNED', value: null },

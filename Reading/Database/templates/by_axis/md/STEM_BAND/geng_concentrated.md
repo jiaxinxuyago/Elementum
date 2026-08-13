@@ -9,6 +9,11 @@
 | **axis** | STEM_BAND |
 | **key** | 庚_concentrated |
 | **construct** | TBD — ruled per-axis with the owner |
-| **sources** | (no authored data — construct TBD; K1b self-card target) |
+| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
-*(no candidates — empty placeholder; construct TBD)*
+## Candidate variables
+
+| Variable | Value |
+|---|---|
+| `yourNature_desc` | You cut to the truth of things before anyone has finished dressing it up, every time, in every setting. The edge never rests, including on you. People bring you the questions no one else will answer straight, then flinch at exactly what they came for. |

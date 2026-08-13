@@ -38,8 +38,8 @@ Principle (law): *what you are* = band-invariant · *how it's running* = band-va
 ### BAND-B · Gifts & Shadows tagged pools — ✅ COMPLETE (owner-locked 2026-08-13)
 100 items live (5+5 × 10 stems), station `{phrase, dim, desc, bands}` → code `{phrase, desc, bands}` → `selectPoolByBand` ×3 → P4 panel + d12 detail; ore ×3 retired all stems; registry rows locked; both audits green; band selection browser-verified (庚/癸 concentrated). Ruling record: REA_16 §6 2026-08-13.
 
-### BAND-A · yourNature ×30 (closes R4)
-Full band variants (stem × concentrated/balanced/open) under branch register × band; replaces the tone-stale 庚 ×15 (pattern grain retired for now — resolver falls band → baseline). Station home: `STEM_BAND/*.json`. Wire: band resolution returns to P4's "Your nature" section. R4 rider decisions for the owner at this block: the dead J4 sub-screen's fate + the unsurfaced `inscription`'s fate (dm_claims home vs retire).
+### BAND-A · yourNature ×30 — ✅ COMPLETE (owner-locked 2026-08-13; R4 core closed)
+×30 band variants live end-to-end: station `STEM_BAND/*.json` `yourNature_desc` → `stemVariants.js` band keys (庚 ×15 compounds retired) → `resolveDayMasterReading.nature` band-resolves on P4 (baseline = fallback); registry rows locked (31 enforced); both audits green; 庚 concentrated verified in browser + all three bands in node. **R4 riders STILL OPEN (owner):** dead J4 sub-screen fate + unsurfaced `inscription` fate (dm_claims home vs retire).
 
 ### BAND-C · self_card ×30 (the underfueled bridge)
 face ≤8w + presence ≤30w per stem×band; fresh authoring (the `IDENTITY_SATURATION_READING` predecessor never existed in code). Owner rules the slot at authoring: catalogue hero (under keywords) vs P4 vs the self energy card — multi-slot allowed. Station home: `STEM_BAND/*.json` `self_card`.

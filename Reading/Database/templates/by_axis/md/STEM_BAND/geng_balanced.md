@@ -9,6 +9,11 @@
 | **axis** | STEM_BAND |
 | **key** | 庚_balanced |
 | **construct** | TBD — ruled per-axis with the owner |
-| **sources** | (no authored data — construct TBD; K1b self-card target) |
+| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
-*(no candidates — empty placeholder; construct TBD)*
+## Candidate variables
+
+| Variable | Value |
+|---|---|
+| `yourNature_desc` | You say the true thing when it needs saying and hold it when it doesn't, and knowing the difference is half your value. The edge is there, sheathed until useful. People trust you more because they've seen you choose not to cut. |

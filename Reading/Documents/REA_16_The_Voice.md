@@ -139,6 +139,7 @@ Key forms: `station:<AXIS>.<field>` (exact) · `station:<AXIS>.*` (axis wildcard
 | `station:STEM.gifts` | portrait | — | locked | tagged pool ×5 all stems (band-tier block B; owner-locked 2026-08-13) |
 | `station:STEM.shadows` | portrait | — | locked | tagged pool ×5 (symmetric with gifts; owner-locked 2026-08-13) |
 | `station:STEM.dm_mechanism` | portrait | ≤30w | pending | |
+| `station:STEM_BAND.yourNature_desc` | portrait | 30-55w | locked | you-open · swap-gram (BAND-A corpus, owner-locked 2026-08-13) |
 | `station:STEM_BAND.*` | portrait | — | pending | K1b self_card target |
 | `station:ELEMENT.*` | functional | — | live | mean lines (interim) |
 | `station:ELEMENT_GOD.*` | portrait | — | pending | K2 corpus ×50 — needs GOD Angle Map first |
@@ -153,7 +154,7 @@ Key forms: `station:<AXIS>.<field>` (exact) · `station:<AXIS>.*` (axis wildcard
 | `code:workers/llm#VOICE_CHARTER` | consultant | — | live | canon-sync — the runtime-generation guarantee (charter must carry the HOW YOU WRITE block, the full banned list, angle fidelity; exemplars dashless) |
 | `code:archetypeSource#STEM_CARD_DATA` | portrait | — | pending | ore-era live modules (subtitle/gifts/shadows/manual/blocks…) — fates §7 #4 / R4; inventory via PEND |
 | `code:archetypeSource#TG_CARD_DATA` | portrait | — | pending | ten-god cards (K2 predecessor corpus) |
-| `code:stemVariants#STEM_VARIANTS` | portrait | — | pending | 庚 ×15 band variants — tone-stale, re-author at R4 |
+| `code:stemVariants#STEM_VARIANTS` | portrait | 30-55w | locked | ×30 band grain (BAND-A 2026-08-13; the 庚 ×15 pattern compounds retired) |
 | `code:readingContent#DM_READING` | portrait | — | pending | P4 claims + edge layer |
 | `code:reading#FACE_CARD` | portrait | — | pending | face teasers (R5 scope open) |
 | `code:reading#ENERGY_TILE` | portrait | — | pending | energy hooks/tags (K2 interim) |
@@ -248,6 +249,7 @@ Ruled corpus exemplars and current lab bests — grows as the owner rules. **Lab
 | 2026-08-05 | **Owner item-by-item lab ruling:** manifesto = CURRENT locked · inscription = cost+1, DASHLESS (comma/period join; dash exemption revoked) · dm_overview = mechanism dial, ENERGY as subject (name → what it is → how it works), analytical license · yourNature = You-opener law, old-friend-less-casual register, current-to-cost+1 intensity |
 | 2026-08-05 | **CORPUS LOCKED ×10 (owner):** refined versions are THE versions — inscriptions (dashless cost+1), yourNature baselines (You-opener, angle-mapped), dm_overview founding corpus. Priors RETIRED everywhere (24 stale copies swept from design HTMLs, wireframes, mocks, contract examples; archive + BIZ_03 research record excepted as history). Tone-lab stem files retired; the by_variable pivot is the corpus reading view. Lab remains only for the unruled daily dials. |
 | 2026-08-05 | **Angle Map ratified (§2b):** per-stem cost dimensions + native arenas; unwitnessed-martyr default REVOKED (owner diagnosed the monotony: one resonance angle + "the room" as universal stage); cross-stem lexical law added; prompt → v1.2 |
+| 2026-08-13 | **yourNature BAND VARIANTS LOCKED ×30 (owner) — BAND-A complete, R4 core closed.** Band grain only (concentrated saturated · balanced proportioned · open muted with dignity), You-opener law, 30–55w, swap-gram enforced (one 乙/丙 scaffold collision caught and re-worded pre-lock). Station `STEM_BAND.yourNature_desc` + `code:stemVariants#STEM_VARIANTS` rows → locked; the 庚 ×15 pattern-compound corpus retired (77 PEND findings gone). P4 band-resolves with baseline fallback. R4 riders (J4 sub-screen fate · inscription fate) remain owner-open. |
 | 2026-08-13 | **ANGLE FORK LAW RATIFIED (owner) — dimension law v2.** Owner diagnosed same-trait restaging inside pools (癸's four boundary items). New law: `dim` = the item's 3-word trait reduction (unique per pool, audit-enforced); one-trait ceiling (headline trait ≤2 items); five fork tools (miscalibration / tolerance / counter-trait / tempo / reception); band-contradiction check. Ten items re-forked corpus-wide under it (癸 ×4, 丙 ×2, 甲/乙/丁/戊/己/辛/壬 ×1 each); all dims rewritten reduction-style. This is the standing angle-finding method for ALL future pool-style corpora. |
 | 2026-08-13 | **GIFTS & SHADOWS POOLS LOCKED ×10 (owner) — band-tier block B complete.** The 庚 template pool (re-authored under the §3 pool laws: trait-phrase / dimension-spread / real-life-image desc) locked, the other nine stems batch-authored to it and locked wholesale. 100 items live: station `{phrase, dim, desc, bands}` → code `{phrase, desc, bands}` (`dim` stays station-side; seeder compare strips it) → `selectPoolByBand` ×3 (band-tagged first, all-tagged in pool order) → P4 panel + d12 detail. Registry rows `station:STEM.gifts/shadows` → locked. Ore ×3 retired all stems. |
 

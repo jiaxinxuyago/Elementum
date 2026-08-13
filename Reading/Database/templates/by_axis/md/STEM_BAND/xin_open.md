@@ -9,6 +9,11 @@
 | **axis** | STEM_BAND |
 | **key** | 辛_open |
 | **construct** | TBD — ruled per-axis with the owner |
-| **sources** | (no authored data — construct TBD; K1b self-card target) |
+| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
-*(no candidates — empty placeholder; construct TBD)*
+## Candidate variables
+
+| Variable | Value |
+|---|---|
+| `yourNature_desc` | You still see every flaw in the work, especially yours. What's softer now is the belief that anyone's waiting to see it shine, so some of your best sits in drawers. The eye never dulled. It's the showing that wants coaxing. |

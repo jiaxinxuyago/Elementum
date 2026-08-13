@@ -6,7 +6,10 @@
   "construct": "TBD — ruled per-axis with the owner",
   "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
   "sources": [
-    "(no authored data — construct TBD; K1b self-card target)"
+    "Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys)"
   ],
-  "candidates": {}
+  "candidates": {
+    "yourNature_desc": "You feed everything around you before the question of your own hunger comes up, if it comes up at all. Whatever lands near you gets grown. It's the kind of generosity that looks bottomless right up until the season it isn't."
+  },
+  "status_note": "yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline)"
 }

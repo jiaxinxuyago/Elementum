@@ -9,6 +9,11 @@
 | **axis** | STEM_BAND |
 | **key** | 丙_concentrated |
 | **construct** | TBD — ruled per-axis with the owner |
-| **sources** | (no authored data — construct TBD; K1b self-card target) |
+| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
-*(no candidates — empty placeholder; construct TBD)*
+## Candidate variables
+
+| Variable | Value |
+|---|---|
+| `yourNature_desc` | You run at full brightness wherever you land, because dimming was never really one of your settings. People warm up, plans grow, afternoons improve. The fuel line runs straight from you, and you refill it in private, if at all. |

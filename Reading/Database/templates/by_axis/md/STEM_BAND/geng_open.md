@@ -9,6 +9,11 @@
 | **axis** | STEM_BAND |
 | **key** | 庚_open |
 | **construct** | TBD — ruled per-axis with the owner |
-| **sources** | (no authored data — construct TBD; K1b self-card target) |
+| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
-*(no candidates — empty placeholder; construct TBD)*
+## Candidate variables
+
+| Variable | Value |
+|---|---|
+| `yourNature_desc` | You see through things instantly. It's the saying out loud that comes and goes, and some truths wait in you for days before they speak. When they do, people listen harder than they would have on day one. The wait sharpens it. |

@@ -9,6 +9,11 @@
 | **axis** | STEM_BAND |
 | **key** | 戊_open |
 | **construct** | TBD — ruled per-axis with the owner |
-| **sources** | (no authored data — construct TBD; K1b self-card target) |
+| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
-*(no candidates — empty placeholder; construct TBD)*
+## Candidate variables
+
+| Variable | Value |
+|---|---|
+| `yourNature_desc` | You're still the one people call solid, and most days the word fits. Some days it's a costume that stands up on its own. The ground holds because you decide it holds, one morning at a time, and nobody sees the deciding. |

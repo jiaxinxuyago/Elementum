@@ -9,6 +9,11 @@
 | **axis** | STEM_BAND |
 | **key** | 癸_balanced |
 | **construct** | TBD — ruled per-axis with the owner |
-| **sources** | (no authored data — construct TBD; K1b self-card target) |
+| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
-*(no candidates — empty placeholder; construct TBD)*
+## Candidate variables
+
+| Variable | Value |
+|---|---|
+| `yourNature_desc` | You take in what the day is carrying and let most of it drain the way it should. What needs your attention gets it. What doesn't passes through, watering things on the way out instead of pooling. |

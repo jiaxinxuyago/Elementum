@@ -9,6 +9,11 @@
 | **axis** | STEM_BAND |
 | **key** | 乙_open |
 | **construct** | TBD — ruled per-axis with the owner |
-| **sources** | (no authored data — construct TBD; K1b self-card target) |
+| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
-*(no candidates — empty placeholder; construct TBD)*
+## Candidate variables
+
+| Variable | Value |
+|---|---|
+| `yourNature_desc` | You know the way around most walls. Lately the winding takes more out of you than it used to, and sometimes you wonder what a straight line would feel like. The reach is still there. It just picks its walls more carefully now. |

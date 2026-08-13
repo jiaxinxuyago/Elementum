@@ -9,6 +9,11 @@
 | **axis** | STEM_BAND |
 | **key** | 癸_concentrated |
 | **construct** | TBD — ruled per-axis with the owner |
-| **sources** | (no authored data — construct TBD; K1b self-card target) |
+| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
-*(no candidates — empty placeholder; construct TBD)*
+## Candidate variables
+
+| Variable | Value |
+|---|---|
+| `yourNature_desc` | You feel everything in the vicinity as if it were weather, yours and everyone else's at once. Nothing announces itself and nothing has to. The saturation is constant, mostly invisible, and the sorting of whose feeling is whose never fully clocks out. |

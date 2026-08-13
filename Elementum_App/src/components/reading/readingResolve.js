@@ -125,15 +125,14 @@ export function tenGodForEnergy(dmEl, el) {
   return '比肩';
 }
 
-// P4 — the band-resolved Gifts & Shadows panel (owner layout 2026-08-05:
-// full ×3 + ×3 with phrases, replacing the old claims stack). The nature
-// paragraph on P4 renders the LOCKED baseline directly; band-resolved
-// yourNature returns when R4 re-authors the variants under REA_16.
+// P4 — the band-resolved reading: Gifts & Shadows trios (owner layout
+// 2026-08-05) plus the yourNature band variant (BAND-A corpus 2026-08-13;
+// resolveArchetype merges `${stem}_${band}` over the locked baseline).
 export function resolveDayMasterReading(stem, chart) {
   const baseline = STEM_CARD_DATA[stem];
   if (!baseline) return null;
   const a = resolveArchetype(stem, baseline, chart);
-  return { gifts: a.gifts || [], shadows: a.shadows || [] };
+  return { nature: a.yourNature?.desc || '', gifts: a.gifts || [], shadows: a.shadows || [] };
 }
 
 // P6/P7 — energy reading from the dominant Ten-God archetype card.

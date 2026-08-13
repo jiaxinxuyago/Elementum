@@ -1,164 +1,186 @@
 // ═══════════════════════════════════════════════════════════════════════════
-// stemVariants.js — Pre-generated archetype variant data (STEM_VARIANTS)
-// 150 entries keyed by stem_band_tgPattern (e.g. "庚_concentrated_pure")
+// stemVariants.js — pre-generated archetype BAND variants (STEM_VARIANTS)
+// 30 entries keyed `${stem}_${band}` (band = concentrated | balanced | open).
 //
-// Fields per entry (Pipeline A output):
-//   yourNature.phrase  — archetype name variant (if different from stem baseline)
-//   yourNature.desc    — 2nd person portrait, varies by band × tgPattern
-//   gifts[]            — { phrase, desc } × 3 (varies by band × tgPattern)
-//   shadows[]          — { phrase, desc } × 3 (varies by band × tgPattern)
-//
-// Source of truth: archetypeSource.js (stem baseline data)
-// Generation guidance: REA_06 §4 (yourNature.desc), REA_06 §2 (gifts/shadows variants)
-// Generation pipeline: batchGenerate.js — Pipeline A (offline, quality-checked)
-//
-// Phase 1 — hand-authored: 庚 yourNature.desc × 15 configs
-// Phase 2 — Pipeline A: remaining 135 yourNature.desc + all gifts/shadows variants
+// BAND-A corpus (owner-locked 2026-08-13, REA_16 §6): yourNature.desc per
+// stem × band — "how it's running" (concentrated saturated · balanced in
+// proportion · open muted but real). Pattern grain retired: resolveArchetype
+// falls `${stem}_${band}_${pattern}` → `${stem}_${band}` → baseline, so band
+// keys serve every pattern. Station truth: by_axis/json/STEM_BAND/*.json
+// (yourNature_desc); this file is the deliberate transcription (REA_05).
+// gifts/shadows band variation lives in the archetypeSource tagged pools,
+// not here.
 // ═══════════════════════════════════════════════════════════════════════════
 
 export const STEM_VARIANTS = {
 
-  // ══════════════════════════════════════════════════════════════════════════
-  // 庚 — The Imperial Executioner (Yang Metal · The Blade)
-  // Phase 1: yourNature.desc hand-authored × 15 configs
-  // Structure: person-first, paradox in S1, mechanism-through-people in S2 (REA_06 §4)
-  // Baseline copy: archetypeSource.js → STEM_CARD_DATA["庚"].yourNature.desc
-  // ══════════════════════════════════════════════════════════════════════════
-
-  // ── balanced ─────────────────────────────────────────────────────────────
-
-  "庚_balanced_pure": {
+  // ── 甲 ──
+  '甲_concentrated': {
     yourNature: {
-      desc: `The most honest person in any room, often the most alone in it. Precision arrives before warmth does — people lean on the edge and rarely find what's behind it.`,
+      desc: `You live three moves ahead of your own life, and the present rarely gets a full visit. Everything you touch grows fast, then waits for a finishing that has already moved on. The next summit was visible from halfway up this one. It always is.`,
     },
   },
-  "庚_balanced_rooted": {
+  '甲_balanced': {
     yourNature: {
-      desc: `The most credible read in any room, and the one hardest to argue with — the assessment lands with the weight of everything already tested and proven. People trust it structurally. The closeness it keeps is structural, too.`,
+      desc: `You reach for the next thing without dropping the thing in your hands, which is rarer than it sounds. Growth happens at a pace the people around you can actually join. When you start something now, you tend to be there for the end of it too.`,
     },
   },
-  "庚_balanced_flowing": {
+  '甲_open': {
     yourNature: {
-      desc: `The most generous read in any room, given before anyone has had to ask for it — what is seen gets said, what is assessed gets delivered, and people leave with something useful. The warmth it sends out is real. What rarely comes back with it is warmth in return.`,
-    },
-  },
-  "庚_balanced_forging": {
-    yourNature: {
-      desc: `The most reliable person in a crisis, occasionally the most exhausting without one. The precision sharpens when there is something worth cutting — people get the full blade when the stakes are real, and something considerably quieter when they are not.`,
-    },
-  },
-  "庚_balanced_tested": {
-    yourNature: {
-      desc: `The most reliable presence inside any structure, and the one for whom the external standard was already the lower bar — the internal one was higher before the evaluation arrived. People sense the quality of what is being assessed. They also sense, correctly, that they are part of it.`,
+      desc: `You still see where everything could go. What comes and goes is the push to get there, and some seasons the vision just sits in you, waiting for weather. When the growing does start, it runs slower than you'd like and more solid than you expect.`,
     },
   },
 
-  // ── concentrated ─────────────────────────────────────────────────────────
-
-  "庚_concentrated_pure": {
+  // ── 乙 ──
+  '乙_concentrated': {
     yourNature: {
-      desc: `The fastest read in any room, and the one that finishes before anyone notices it has started — the verdict is already in, already right, by the time the conversation begins. People trust it completely. They also never fully stop feeling like one was passed on them.`,
+      desc: `You're already around the obstacle while others are still describing it, and you've stopped announcing the detours. Every problem has a side door. You've used so many that almost no one knows the real distance you've traveled, which is how you like it, mostly.`,
     },
   },
-  "庚_concentrated_rooted": {
+  '乙_balanced': {
     yourNature: {
-      desc: `The most authoritative read in any room, and the one that does not move once it is settled — the assessment is backed by everything already lived and proven, and it arrives with that weight. The reliability is total. The distance that comes with it is total, too.`,
+      desc: `You bend where bending works and hold where it doesn't, and the mix is usually right. People who watch closely see method where others see luck. The route stays negotiable. What you're actually after has never once been up for discussion.`,
     },
   },
-  "庚_concentrated_flowing": {
+  '乙_open': {
     yourNature: {
-      desc: `The most prolific source of clarity in any room, and the one that does not pace itself — assessments flow outward faster than anyone can use them, without waiting for the room to catch up. People find the current and follow. It does not stop to receive them.`,
-    },
-  },
-  "庚_concentrated_forging": {
-    yourNature: {
-      desc: `The sharpest person in any room when the room is falling apart, and the one most likely to leave marks after — what others produce with effort, this produces in surplus under pressure. The friction is where it belongs. The cost comes proportionally after.`,
-    },
-  },
-  "庚_concentrated_tested": {
-    yourNature: {
-      desc: `The most formidable person under scrutiny, and the one for whom evaluation is a formality — the internal standard already exceeded the external one before it arrived. What the room sees is the gap between what was required and what was produced. It is always visible.`,
+      desc: `You know the way around most walls. Lately the winding takes more out of you than it used to, and sometimes you wonder what a straight line would feel like. The reach is still there. It just picks its walls more carefully now.`,
     },
   },
 
-  // ── open ─────────────────────────────────────────────────────────────────
-
-  "庚_open_pure": {
+  // ── 丙 ──
+  '丙_concentrated': {
     yourNature: {
-      desc: `The clearest read in the right room, and the quietest in the wrong one — the precision is fully there, but it does not lead everywhere. When it arrives it lands cleanly. When it steps back, people feel the difference before they can name it.`,
+      desc: `You run at full brightness wherever you land, because dimming was never really one of your settings. People warm up, plans grow, afternoons improve. The fuel line runs straight from you, and you refill it in private, if at all.`,
     },
   },
-  "庚_open_rooted": {
+  '丙_balanced': {
     yourNature: {
-      desc: `The most reliable read when the right foundations are in place, and the quietest when they are not — what is available when the conditions are there is backed, settled, and clear. People rely on it when it comes. They learn not to expect it at a constant rate.`,
+      desc: `You give light the way weather gives it, generously and with mornings off. The warmth reaches whoever needs it without burning through you to do it. People get the real version, and the real version gets to rest.`,
     },
   },
-  "庚_open_flowing": {
+  '丙_open': {
     yourNature: {
-      desc: `The most accessible read in any room, and the one least likely to leave a mark — clarity moves outward easily and people find it useful rather than uncomfortable. What they rarely encounter is the actual edge. It is there. It mostly travels toward useful.`,
-    },
-  },
-  "庚_open_forging": {
-    yourNature: {
-      desc: `The most surprising person under pressure, and the quietest presence without it — the precision is fully intact, but it waits for something worth cutting. When the stakes are real, what arrives is the full blade. The rest of the time, the room does not see it.`,
-    },
-  },
-  "庚_open_tested": {
-    yourNature: {
-      desc: `The sharpest person inside any structure, and the most directionless outside one — give this precision something to measure against and it exceeds it; remove the standard and the force disperses. The edge is real. The right conditions make it visible.`,
+      desc: `You still light up the people you love. The shining just runs on a budget now, so you've started choosing your mornings. The ones who get the full warmth receive something rarer than before. Sunlight that knows exactly what it's spending.`,
     },
   },
 
-  // ══════════════════════════════════════════════════════════════════════════
-  // 甲乙丙丁戊己辛壬癸 — band + tested variants (Group C)
-  // Resolved via the band -> pattern fallback in resolveVariant.js: a chart hits
-  // `${stem}_${band}` (concentrated / open) first, else `${stem}_tested`, else the
-  // archetypeSource.js baseline (the balanced reading). 2nd person, REA_06 §4 voice.
-  // ══════════════════════════════════════════════════════════════════════════
+  // ── 丁 ──
+  '丁_concentrated': {
+    yourNature: {
+      desc: `You burn for one thing at a time with everything you have, and the rest of the world politely ceases to exist. Whoever stands in your light right now would tell you it's unforgettable. Whoever just left it could tell you something too.`,
+    },
+  },
+  '丁_balanced': {
+    yourNature: {
+      desc: `You give your full attention to what deserves it and a workable amount to everything else, which took years to learn. The flame holds steady without consuming you. People close to you get warmth that lasts the whole conversation, and the one after that.`,
+    },
+  },
+  '丁_open': {
+    yourNature: {
+      desc: `You carry a smaller flame these days, and you guard it well. It lights less at once, but what it lights, it lights completely. The few who've sat close say the warmth was worth the finding. Most never think to look.`,
+    },
+  },
 
-  // ── 甲 The Oak ──
-  "甲_concentrated": { yourNature: { desc: `You don't just see where something could go — you're already three moves into building it before the room has agreed there's anything to build. The momentum is undeniable and almost impossible to bank: you start more than you can finish, and the unfinished things pile up behind you faster than you notice.` } },
-  "甲_open":         { yourNature: { desc: `You still see where things could go — the vision doesn't dim — but the push that turns seeing into starting comes quieter, and you wait for a reason to move that a stronger version of you wouldn't have needed. The reach is real; it just needs the right ground, or someone's nudge, to leave the gate.` } },
-  "甲_tested":       { yourNature: { desc: `You see where something could go, and almost as fast you feel the structure that says which way it's allowed to grow. When the constraint is fair, it's the best thing that happens to you — the reaching finally narrows into one thing that holds. When it isn't, you press against a wall you can't yet name, growing sideways instead of up.` } },
+  // ── 戊 ──
+  '戊_concentrated': {
+    yourNature: {
+      desc: `You hold up more than anyone knows, and you'd sooner add weight than mention it. Nothing moves you visibly. The people who lean hardest have stopped asking whether you feel the load, mostly because you've never once answered.`,
+    },
+  },
+  '戊_balanced': {
+    yourNature: {
+      desc: `You carry what's yours and stand near what isn't, and people can tell the difference by watching you. The steadiness is real without being a wall. Things still reach you. They just don't knock you over on the way in.`,
+    },
+  },
+  '戊_open': {
+    yourNature: {
+      desc: `You're still the one people call solid, and most days the word fits. Some days it's a costume that stands up on its own. The ground holds because you decide it holds, one morning at a time, and nobody sees the deciding.`,
+    },
+  },
 
-  // ── 乙 The Vine ──
-  "乙_concentrated": { yourNature: { desc: `You find the way through so reliably that you keep finding ways long after you've arrived — every surface looks navigable, every route worth taking, and the reading never quite stops. The intelligence is formidable; the risk is motion for its own sake, adapting around obstacles that no longer require it.` } },
-  "乙_open":         { yourNature: { desc: `You can still read the room and sense the opening — that perception is intact — but the nerve to commit to the route comes harder, and you wait for the way to be obvious to everyone before you take it. The navigation works; it just needs terrain worth the climb to fully engage.` } },
-  "乙_tested":       { yourNature: { desc: `You read the room and feel, in the same moment, the rules you have to move within. A legitimate structure sharpens you — the route you find is the genuine opening, not the workaround that breaks something. An illegitimate one bends you a degree at a time, until you've accommodated your way off your own path without noticing when.` } },
+  // ── 己 ──
+  '己_concentrated': {
+    yourNature: {
+      desc: `You feed everything around you before the question of your own hunger comes up, if it comes up at all. Whatever lands near you gets grown. It's the kind of generosity that looks bottomless right up until the season it isn't.`,
+    },
+  },
+  '己_balanced': {
+    yourNature: {
+      desc: `You give real care and keep real ground, and those around you get the better deal without bankrupting you. Things grow near you at their own pace. Yours grow too, in the plot you finally learned to keep.`,
+    },
+  },
+  '己_open': {
+    yourNature: {
+      desc: `You still notice what everyone needs. Acting on all of it is what you've had to ration, and the rationing sits uneasily with you. What you tend now, you tend deeply. The garden got smaller and somehow the growing got better.`,
+    },
+  },
 
-  // ── 丙 The Sun ──
-  "丙_concentrated": { yourNature: { desc: `You don't enter a room so much as change its temperature — people lift, relax, believe more is possible, and you couldn't switch it off if you tried. The warmth pours out in every direction at the same cost as focused warmth, so the depletion runs underneath, invisible, while everyone assumes you're inexhaustible.` } },
-  "丙_open":         { yourNature: { desc: `The warmth is real and people still feel it near you — but emitting it takes more than it should, and you can be fully present without the room quite catching the light. What's harder to reach isn't the caring; it's the broadcast, the part that used to warm people without you spending anything to do it.` } },
-  "丙_tested":       { yourNature: { desc: `Your warmth meets a standard now — you're lighting the room and being measured inside it at once. When the standard is genuine, it gives the warmth somewhere real to land and a reason to be more than pleasant. When it isn't, the light presses against a scrutiny that won't be warmed, and the giving starts costing more than it returns.` } },
+  // ── 庚 ──
+  '庚_concentrated': {
+    yourNature: {
+      desc: `You cut to the truth of things before anyone has finished dressing it up, every time, in every setting. The edge never rests, including on you. People bring you the questions no one else will answer straight, then flinch at exactly what they came for.`,
+    },
+  },
+  '庚_balanced': {
+    yourNature: {
+      desc: `You say the true thing when it needs saying and hold it when it doesn't, and knowing the difference is half your value. The edge is there, sheathed until useful. People trust you more because they've seen you choose not to cut.`,
+    },
+  },
+  '庚_open': {
+    yourNature: {
+      desc: `You see through things instantly. It's the saying out loud that comes and goes, and some truths wait in you for days before they speak. When they do, people listen harder than they would have on day one. The wait sharpens it.`,
+    },
+  },
 
-  // ── 丁 The Candle ──
-  "丁_concentrated": { yourNature: { desc: `When your focus lands, it lands all the way — whatever you're attending is lit to the floor, seen more completely than most people are ever seen. The brighter that beam, the darker everything outside it: more of your life waits in shadow than you realize, and the people there feel the absence sharply.` } },
-  "丁_open":         { yourNature: { desc: `You can still attend completely — that depth doesn't vanish — but kindling the beam takes more than it should, and your attention drifts diffuse when you most want it precise. The quality is there in potential; what's harder is the act of fully pointing it.` } },
-  "丁_tested":       { yourNature: { desc: `What you illuminate looks back — you examine, and a standard examines you at the same time. A real one sharpens the focus and gives it something worth resolving. A false one tightens the beam defensively, and the rare intimacy of your attention narrows into a kind of guarded scanning.` } },
+  // ── 辛 ──
+  '辛_concentrated': {
+    yourNature: {
+      desc: `You measure everything against a standard nothing quite meets, including yourself, especially yourself. What you release is flawless because releasing is the hard part. The polish never really stops. It just changes what it's working on when you run out of objects.`,
+    },
+  },
+  '辛_balanced': {
+    yourNature: {
+      desc: `You hold a high bar and know when it applies, which spares everyone including you. Quality gets your full attention. The merely fine gets to stay fine. What you finish leaves on time and still shines longer than anyone expected.`,
+    },
+  },
+  '辛_open': {
+    yourNature: {
+      desc: `You still see every flaw in the work, especially yours. What's softer now is the belief that anyone's waiting to see it shine, so some of your best sits in drawers. The eye never dulled. It's the showing that wants coaxing.`,
+    },
+  },
 
-  // ── 戊 The Mountain ──
-  "戊_concentrated": { yourNature: { desc: `You're not just steady — you're immovable, the fixed point a whole group quietly arranges itself around. The same density that makes you unshakeable makes moving genuinely hard: you hold things long past the point of holding, and the weight you never show keeps accumulating where no one thinks to look.` } },
-  "戊_open":         { yourNature: { desc: `You still want to be the steady one and the reliability is genuine — but the solidity that used to hold without effort comes thinner, and you feel the ground shifting under people when it should be firm. Being depended on takes work now that used to be simply structural.` } },
-  "戊_tested":       { yourNature: { desc: `The ground itself is under test — you're holding the weight and being weighed at once. A legitimate pressure turns load-bearing into real authority and gives your steadiness a direction. An illegitimate one has you holding a position that costs more than it should, because holding is what you're for.` } },
+  // ── 壬 ──
+  '壬_concentrated': {
+    yourNature: {
+      desc: `You hold more in your head at once than most people cycle through in a month, and the surface shows almost none of it. Conversations feel like harbors you visit briefly. The real cargo stays offshore, waiting for water deep enough to bring it in.`,
+    },
+  },
+  '壬_balanced': {
+    yourNature: {
+      desc: `You go deep when depth is called for and float easily when it isn't, and people relax around that. What you share arrives in usable sizes. The rest stays down where you keep it, not hidden, just not urgent.`,
+    },
+  },
+  '壬_open': {
+    yourNature: {
+      desc: `You still think past the horizon everyone else stops at. Bringing it back for people takes wind you don't always have, so whole continents of you go unreported. The few who've sailed far enough out know. They tend to keep the secret badly.`,
+    },
+  },
 
-  // ── 己 The Field ──
-  "己_concentrated": { yourNature: { desc: `You cultivate everything in reach — sensing what each person needs and supplying it before they ask, in every direction at once. Soil this active absorbs as readily as it feeds: you take on everyone's difficulty along with their potential, and the deficit accumulates for months before it's visible to you.` } },
-  "己_open":         { yourNature: { desc: `You still read what people need and the attunement is genuine — but the sustained tending comes harder, and growth that should root around you stays shallow. The care is there; what's thinner is the effortless provision others quietly built their lives on.` } },
-  "己_tested":       { yourNature: { desc: `What you're growing is being graded — you tend, and a standard asks whether it's good enough. A fair one turns soft nurturing into real development, care that produces something demonstrably better. An unfair one has you over-tending to prove the care is real, supplying more than the situation ever needed.` } },
-
-  // ── 辛 The Jewel ──
-  "辛_concentrated": { yourNature: { desc: `You register quality the way others register temperature, except the dial is turned all the way up — every object, idea, and person measured the instant you meet it, with no relief. Nothing quite passes: the bar sits just above wherever reality has arrived, so the world reads as a near-continuous catalog of what falls short, including you.` } },
-  "辛_open":         { yourNature: { desc: `You can still tell genuine excellence from the merely adequate — that perception doesn't leave — but the fine discrimination that used to run on its own comes blunted, and things slip past that you'd normally have caught. The instrument is intact; it's just not fully calibrated.` } },
-  "辛_tested":       { yourNature: { desc: `What you're judging judges back — you appraise, and a standard appraises you at the same time. A legitimate benchmark sharpens your discernment into genuine authority and finally gives it a finish line. A false one turns it hypercritical, guarding against a verdict instead of seeking the truth of the thing.` } },
-
-  // ── 壬 The Ocean ──
-  "壬_concentrated": { yourNature: { desc: `You process at full flood — every exchange opening into more variables and layers than anyone around you is tracking. Water this high without banks disperses: the thinking ranges so wide it stops landing anywhere usable, and the gap between what you perceive and what you can convey widens until the depth itself becomes isolating.` } },
-  "壬_open":         { yourNature: { desc: `You still reach beneath the surface — that capacity doesn't vanish — but the current that carries you down comes weaker, and you work with less of the picture than you know is there. The depth is present; what's harder to access is the full reach of it.` } },
-  "壬_tested":       { yourNature: { desc: `The deep is being sounded — you perceive the whole system and are measured inside it at once. A real standard gives the ranging intelligence banks and a target, and the depth becomes genuinely directed. A false one has you withdrawing further into the deep instead of translating, and the distance to the surface only grows.` } },
-
-  // ── 癸 The Rain ──
-  "癸_concentrated": { yourNature: { desc: `You perceive everything at once — every mood, every undercurrent, every unspoken thing — without a filter to slow it down. Water this permeable floods: you take in more than you can hold without losing your own shape, until you genuinely can't tell your knowing from what you've absorbed from the room.` } },
-  "癸_open":         { yourNature: { desc: `You still feel what's true beneath the surface and the sensitivity is genuine — but the perception that used to arrive unbidden comes muffled, and you catch yourself taking things at face value you'd normally have felt straight through. The knowing is intact; what's harder to reach is its immediacy.` } },
-  "癸_tested":       { yourNature: { desc: `What you're sensing senses you — you read the room and are read inside it at once. A legitimate structure gives the diffuse sensitivity something to land on and turns feeling into usable judgment. A false one has you absorbing the scrutiny along with everything else, until the permeability that's your gift becomes a way of carrying a pressure that was never yours.` } },
-
+  // ── 癸 ──
+  '癸_concentrated': {
+    yourNature: {
+      desc: `You feel everything in the vicinity as if it were weather, yours and everyone else's at once. Nothing announces itself and nothing has to. The saturation is constant, mostly invisible, and the sorting of whose feeling is whose never fully clocks out.`,
+    },
+  },
+  '癸_balanced': {
+    yourNature: {
+      desc: `You take in what the day is carrying and let most of it drain the way it should. What needs your attention gets it. What doesn't passes through, watering things on the way out instead of pooling.`,
+    },
+  },
+  '癸_open': {
+    yourNature: {
+      desc: `You still catch the undercurrent before anyone names it. Trusting the catch is the newer work, and some days you'd rather have the evidence first. The signal was never broken. You're just learning again to read it without asking permission.`,
+    },
+  },
 };

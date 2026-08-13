@@ -6,7 +6,10 @@
   "construct": "TBD — ruled per-axis with the owner",
   "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
   "sources": [
-    "(no authored data — construct TBD; K1b self-card target)"
+    "Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys)"
   ],
-  "candidates": {}
+  "candidates": {
+    "yourNature_desc": "You see through things instantly. It's the saying out loud that comes and goes, and some truths wait in you for days before they speak. When they do, people listen harder than they would have on day one. The wait sharpens it."
+  },
+  "status_note": "yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline)"
 }

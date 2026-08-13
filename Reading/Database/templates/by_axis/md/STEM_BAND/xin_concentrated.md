@@ -9,6 +9,11 @@
 | **axis** | STEM_BAND |
 | **key** | 辛_concentrated |
 | **construct** | TBD — ruled per-axis with the owner |
-| **sources** | (no authored data — construct TBD; K1b self-card target) |
+| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
-*(no candidates — empty placeholder; construct TBD)*
+## Candidate variables
+
+| Variable | Value |
+|---|---|
+| `yourNature_desc` | You measure everything against a standard nothing quite meets, including yourself, especially yourself. What you release is flawless because releasing is the hard part. The polish never really stops. It just changes what it's working on when you run out of objects. |
