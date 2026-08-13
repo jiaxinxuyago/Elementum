@@ -9,38 +9,38 @@
         "canonical_name": "The Blade",
         "value": [
           {
-            "phrase": "The Early Read",
-            "desc": "You don't choose to size people up. The read finishes before you've decided to start it, and it's usually right.",
+            "phrase": "Instant character read",
+            "dim": "mind",
+            "desc": "Ten minutes into meeting someone, you already know who they are. Months later, everyone else catches up to what you saw in the first handshake.",
             "bands": "all"
           },
           {
-            "phrase": "The Care Beneath the Edge",
-            "desc": "The edge everyone sees is covering a depth of care that almost no one earns access to. The few who do never doubt it again.",
+            "phrase": "Straight talker",
+            "dim": "communication",
+            "desc": "When everyone at the table is talking around the problem, you're the one who names it. People save their hardest questions for you because you won't dress up the answer.",
             "bands": "all"
           },
           {
-            "phrase": "The Unsoftened Truth",
-            "desc": "People come to you when they've had enough comfort. You tell them what's real, plainly, and they leave knowing where they stand.",
-            "bands": "all"
-          },
-          {
-            "phrase": "The Held Line",
-            "desc": "When everyone else shifts to keep the peace, you don't. People depend on that more than they ever say.",
-            "bands": [
-              "concentrated",
-              "balanced"
-            ]
-          },
-          {
-            "phrase": "The Crisis Edge",
-            "desc": "When everything is falling apart, you get sharper. What others force out with effort, you produce in surplus under pressure.",
+            "phrase": "Crisis performer",
+            "dim": "pressure",
+            "desc": "The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved.",
             "bands": [
               "concentrated"
             ]
           },
           {
-            "phrase": "The Considered Cut",
-            "desc": "Your read takes longer to close, and that's its strength. When you finally call something finished, it stays finished.",
+            "phrase": "Quiet loyalty",
+            "dim": "bonds",
+            "desc": "Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time.",
+            "bands": [
+              "balanced",
+              "open"
+            ]
+          },
+          {
+            "phrase": "Careful finisher",
+            "dim": "work",
+            "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing.",
             "bands": [
               "open"
             ]

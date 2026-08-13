@@ -10,21 +10,23 @@
 
 | Field | Value |
 |---|---|
-| `0.phrase` | The Early Read |
-| `0.desc` | You don't choose to size people up. The read finishes before you've decided to start it, and it's usually right. |
+| `0.phrase` | Instant character read |
+| `0.dim` | mind |
+| `0.desc` | Ten minutes into meeting someone, you already know who they are. Months later, everyone else catches up to what you saw in the first handshake. |
 | `0.bands` | all |
-| `1.phrase` | The Care Beneath the Edge |
-| `1.desc` | The edge everyone sees is covering a depth of care that almost no one earns access to. The few who do never doubt it again. |
+| `1.phrase` | Straight talker |
+| `1.dim` | communication |
+| `1.desc` | When everyone at the table is talking around the problem, you're the one who names it. People save their hardest questions for you because you won't dress up the answer. |
 | `1.bands` | all |
-| `2.phrase` | The Unsoftened Truth |
-| `2.desc` | People come to you when they've had enough comfort. You tell them what's real, plainly, and they leave knowing where they stand. |
-| `2.bands` | all |
-| `3.phrase` | The Held Line |
-| `3.desc` | When everyone else shifts to keep the peace, you don't. People depend on that more than they ever say. |
-| `3.bands` | concentrated · balanced |
-| `4.phrase` | The Crisis Edge |
-| `4.desc` | When everything is falling apart, you get sharper. What others force out with effort, you produce in surplus under pressure. |
-| `4.bands` | concentrated |
-| `5.phrase` | The Considered Cut |
-| `5.desc` | Your read takes longer to close, and that's its strength. When you finally call something finished, it stays finished. |
-| `5.bands` | open |
+| `2.phrase` | Crisis performer |
+| `2.dim` | pressure |
+| `2.desc` | The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved. |
+| `2.bands` | concentrated |
+| `3.phrase` | Quiet loyalty |
+| `3.dim` | bonds |
+| `3.desc` | Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time. |
+| `3.bands` | balanced · open |
+| `4.phrase` | Careful finisher |
+| `4.dim` | work |
+| `4.desc` | You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing. |
+| `4.bands` | open |

@@ -10,18 +10,23 @@
 
 | Field | Value |
 |---|---|
-| `0.phrase` | The Standard Turned Inward |
-| `0.desc` | The read you turn outward runs inward too. It holds you to a standard that never quite says done. |
+| `0.phrase` | Own harshest critic |
+| `0.dim` | self |
+| `0.desc` | The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days for you. |
 | `0.bands` | all |
-| `1.phrase` | The Clarity Gap |
-| `1.desc` | You often know something before anyone is ready to hear it. The distance between those two moments is a lonely place, and it's hard to name. |
+| `1.phrase` | Mistaken for cold |
+| `1.dim` | people |
+| `1.desc` | New people often think you're judging them. You usually are, but not the way they fear, and by the time they learn that, some have already kept their distance. |
 | `1.bands` | all |
-| `2.phrase` | The Cold Read |
-| `2.desc` | People feel sized up around you even when you've said nothing. It isn't coldness, but it reads as coldness, and you're tired of explaining the difference. |
+| `2.phrase` | Right too early |
+| `2.dim` | timing |
+| `2.desc` | You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone. |
 | `2.bands` | all |
-| `3.phrase` | The Finished Too Early |
-| `3.desc` | You call things complete before they've fully arrived. The clarity that recognizes finished work can misread what's still becoming. |
-| `3.bands` | concentrated · balanced |
-| `4.phrase` | The Unclosed Loop |
-| `4.desc` | Your read circles without landing. You reach something true, find a reason to look again, and end up back where you started, still unsure it counts. |
+| `3.phrase` | Quick to conclude |
+| `3.dim` | judgment |
+| `3.desc` | Once you've decided what something is, it stays decided. The person who grew, the plan that improved, the second chance that was earned, they all arrive to a door already shut. |
+| `3.bands` | concentrated |
+| `4.phrase` | Endless second-guessing |
+| `4.dim` | judgment |
+| `4.desc` | You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished. |
 | `4.bands` | open |

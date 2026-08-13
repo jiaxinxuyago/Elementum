@@ -26,38 +26,45 @@
 | `dm_mechanism` | Yang Metal tempered by spring wood — strength that grew against resistance, not in its absence. |
 | `yourNature_desc` | You put the truth ahead of your own comfort, and usually ahead of your own company. People keep the clarity you hand them and stay careful around the edge it came from. The cost never comes up. You've never once shown anyone the bill. |
 | `dm_overview` | The Blade is Yang Metal, the finished edge of the five elements. It works by sizing up: the read begins on contact and is usually over before anyone else has formed a first impression. Conclusions come early and don't move easily, and the same standard turns inward, usually harder. That's what makes this nature accurate, and what makes it trusted, though rarely in a way that feels like closeness. |
-| `gifts[0].phrase` | The Early Read |
-| `gifts[0].desc` | You don't choose to size people up. The read finishes before you've decided to start it, and it's usually right. |
+| `gifts[0].phrase` | Instant character read |
+| `gifts[0].dim` | mind |
+| `gifts[0].desc` | Ten minutes into meeting someone, you already know who they are. Months later, everyone else catches up to what you saw in the first handshake. |
 | `gifts[0].bands` | all |
-| `gifts[1].phrase` | The Care Beneath the Edge |
-| `gifts[1].desc` | The edge everyone sees is covering a depth of care that almost no one earns access to. The few who do never doubt it again. |
+| `gifts[1].phrase` | Straight talker |
+| `gifts[1].dim` | communication |
+| `gifts[1].desc` | When everyone at the table is talking around the problem, you're the one who names it. People save their hardest questions for you because you won't dress up the answer. |
 | `gifts[1].bands` | all |
-| `gifts[2].phrase` | The Unsoftened Truth |
-| `gifts[2].desc` | People come to you when they've had enough comfort. You tell them what's real, plainly, and they leave knowing where they stand. |
-| `gifts[2].bands` | all |
-| `gifts[3].phrase` | The Held Line |
-| `gifts[3].desc` | When everyone else shifts to keep the peace, you don't. People depend on that more than they ever say. |
-| `gifts[3].bands` | concentrated · balanced |
-| `gifts[4].phrase` | The Crisis Edge |
-| `gifts[4].desc` | When everything is falling apart, you get sharper. What others force out with effort, you produce in surplus under pressure. |
-| `gifts[4].bands` | concentrated |
-| `gifts[5].phrase` | The Considered Cut |
-| `gifts[5].desc` | Your read takes longer to close, and that's its strength. When you finally call something finished, it stays finished. |
-| `gifts[5].bands` | open |
-| `shadows[0].phrase` | The Standard Turned Inward |
-| `shadows[0].desc` | The read you turn outward runs inward too. It holds you to a standard that never quite says done. |
+| `gifts[2].phrase` | Crisis performer |
+| `gifts[2].dim` | pressure |
+| `gifts[2].desc` | The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved. |
+| `gifts[2].bands` | concentrated |
+| `gifts[3].phrase` | Quiet loyalty |
+| `gifts[3].dim` | bonds |
+| `gifts[3].desc` | Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time. |
+| `gifts[3].bands` | balanced · open |
+| `gifts[4].phrase` | Careful finisher |
+| `gifts[4].dim` | work |
+| `gifts[4].desc` | You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing. |
+| `gifts[4].bands` | open |
+| `shadows[0].phrase` | Own harshest critic |
+| `shadows[0].dim` | self |
+| `shadows[0].desc` | The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days for you. |
 | `shadows[0].bands` | all |
-| `shadows[1].phrase` | The Clarity Gap |
-| `shadows[1].desc` | You often know something before anyone is ready to hear it. The distance between those two moments is a lonely place, and it's hard to name. |
+| `shadows[1].phrase` | Mistaken for cold |
+| `shadows[1].dim` | people |
+| `shadows[1].desc` | New people often think you're judging them. You usually are, but not the way they fear, and by the time they learn that, some have already kept their distance. |
 | `shadows[1].bands` | all |
-| `shadows[2].phrase` | The Cold Read |
-| `shadows[2].desc` | People feel sized up around you even when you've said nothing. It isn't coldness, but it reads as coldness, and you're tired of explaining the difference. |
+| `shadows[2].phrase` | Right too early |
+| `shadows[2].dim` | timing |
+| `shadows[2].desc` | You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone. |
 | `shadows[2].bands` | all |
-| `shadows[3].phrase` | The Finished Too Early |
-| `shadows[3].desc` | You call things complete before they've fully arrived. The clarity that recognizes finished work can misread what's still becoming. |
-| `shadows[3].bands` | concentrated · balanced |
-| `shadows[4].phrase` | The Unclosed Loop |
-| `shadows[4].desc` | Your read circles without landing. You reach something true, find a reason to look again, and end up back where you started, still unsure it counts. |
+| `shadows[3].phrase` | Quick to conclude |
+| `shadows[3].dim` | judgment |
+| `shadows[3].desc` | Once you've decided what something is, it stays decided. The person who grew, the plan that improved, the second chance that was earned, they all arrive to a door already shut. |
+| `shadows[3].bands` | concentrated |
+| `shadows[4].phrase` | Endless second-guessing |
+| `shadows[4].dim` | judgment |
+| `shadows[4].desc` | You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished. |
 | `shadows[4].bands` | open |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
