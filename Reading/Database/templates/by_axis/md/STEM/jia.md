@@ -26,6 +26,46 @@
 | `dm_mechanism` | Yang Wood grown toward light — a spine that rose by reaching, season over season. |
 | `yourNature_desc` | You see where things could go before most people see that they could go anywhere, and you're moving while they're still deciding. What you build tends to outlast you. You're just rarely there to see it, because halfway through every ending you've already started the next thing. |
 | `dm_overview` | The Oak is Yang Wood, growth in its straightest form. It works by heading upward: direction gets chosen early, sometimes before the ground has agreed, and the climb starts without waiting for permission or shelter. Setbacks slow it about as much as weather slows a tree. What this nature does badly is pause. Arriving, resting, finishing, all the standing-still skills, stay unlearned. |
+| `gifts[0].phrase` | First to move |
+| `gifts[0].dim` | initiative |
+| `gifts[0].desc` | While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up. |
+| `gifts[0].bands` | all |
+| `gifts[1].phrase` | Raises everyone's game |
+| `gifts[1].dim` | influence |
+| `gifts[1].desc` | People around you end up aiming higher than they meant to. Your reach quietly becomes the new ceiling, and nobody remembers deciding that. |
+| `gifts[1].bands` | all |
+| `gifts[2].phrase` | Builds to last |
+| `gifts[2].dim` | work |
+| `gifts[2].desc` | You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down. |
+| `gifts[2].bands` | concentrated |
+| `gifts[3].phrase` | Keeps the faith |
+| `gifts[3].dim` | self |
+| `gifts[3].desc` | You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter. |
+| `gifts[3].bands` | balanced · open |
+| `gifts[4].phrase` | Unhurried growth |
+| `gifts[4].dim` | tempo |
+| `gifts[4].desc` | Your progress doesn't look dramatic day to day. Then people look up and the sapling they remember is somehow taller than the fence. |
+| `gifts[4].bands` | open |
+| `shadows[0].phrase` | Outpaces people |
+| `shadows[0].dim` | bonds |
+| `shadows[0].desc` | The people who love you often feel a step behind. The reaching never slows quite enough to let them catch up. |
+| `shadows[0].bands` | all |
+| `shadows[1].phrase` | Can't sit still |
+| `shadows[1].dim` | self |
+| `shadows[1].desc` | Rest reads as losing ground. Even on the beach you're mapping the next climb, and stillness starts to itch within the hour. |
+| `shadows[1].bands` | all |
+| `shadows[2].phrase` | Leaves things unfinished |
+| `shadows[2].dim` | work |
+| `shadows[2].desc` | You commit hard, build fast, then spot the next mountain before this one is settled. Someone else ends up pouring the foundation you sketched. |
+| `shadows[2].bands` | all |
+| `shadows[3].phrase` | Charges ahead |
+| `shadows[3].dim` | judgment |
+| `shadows[3].desc` | When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff. |
+| `shadows[3].bands` | concentrated |
+| `shadows[4].phrase` | Slow to launch |
+| `shadows[4].dim` | tempo |
+| `shadows[4].desc` | The direction is clear and the wanting is real, but the first step keeps waiting for a readier day. The path doesn't mind. The calendar does. |
+| `shadows[4].bands` | open |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -33,21 +73,10 @@
 
 | Field | Value |
 |---|---|
+| `ore_gifts_shadows_note` | MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git. |
 | `subtitle` | Forward motion as structure, not ambition · The Growth Impulse (Yang) |
 | `chips` | Visionary · Initiating · Growth-driven · Integrity-bound · Consolidation-resistant |
 | `yourNature_phrase` | The Vanguard General |
-| `gifts[0].phrase` | The First Mover |
-| `gifts[0].desc` | You start before the room has finished deciding whether to begin, and your motion becomes the permission everyone else was waiting for. |
-| `gifts[1].phrase` | The Forward Pull |
-| `gifts[1].desc` | People around you end up thinking bigger than they did before, usually without noticing that your reach is what raised the ceiling. |
-| `gifts[2].phrase` | The Built to Last |
-| `gifts[2].desc` | What you make tends to still be standing years later, because you genuinely cannot put your full force behind something disposable. |
-| `shadows[0].phrase` | The Outrun Roots |
-| `shadows[0].desc` | You commit to things deeply and then outgrow them before they've been properly established, leaving real work for someone else to finish. |
-| `shadows[1].phrase` | The Unnamed Destination |
-| `shadows[1].desc` | You're often moving at full force without knowing what you're building toward — only that staying still is unbearable. |
-| `shadows[2].phrase` | The Perpetual Catch-Up |
-| `shadows[2].desc` | The people who care about you can feel a step behind, because the reaching never slows down enough to let them arrive. |
 | `elementIntro.punch` | The Oak is the first upward break of Yang Wood through frozen ground. |
 | `elementIntro.expand` | Forceful and unhurried by doubt, it carries the restless certainty of something already growing toward a light it cannot yet name. |
 | `manual.concentrated` | New ideas launch before old ones land. Commitments pile up faster than they can be honored. The chart or period is saturated with initiating energy — ambitious, restless, and difficult to anchor. The classical principle warns of "growth without harvest": energy expanding without converting into completed form. Restlessness is constant. Stillness feels impossible. The specific trap: more beginnings accumulate than can ever be finished, and the backlog slowly becomes its own weight. |

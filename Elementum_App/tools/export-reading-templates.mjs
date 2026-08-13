@@ -132,9 +132,14 @@ function write(axis, name, body) {
     const disk = JSON.parse(fs.readFileSync(fp, 'utf8'));
     const { __ore: _codeOre, ...codeVars } = body.candidates || {};
     const stationVars = disk.candidates || {};
+    // `dim` is authoring metadata on tagged-pool items (REA_16 §3) — it lives
+    // station-side only and is stripped before comparing against code.
+    const stripDim = (v) => Array.isArray(v)
+      ? v.map((it) => { if (it && typeof it === 'object' && 'dim' in it) { const { dim, ...keep } = it; return keep; } return it; })
+      : v;
     for (const [k, v] of Object.entries(codeVars)) {
       if (!(k in stationVars)) { console.log(`OWED     ${axis}/${name}.json :: ${k} (live-code field missing from station)`); drift++; }
-      else if (JSON.stringify(stationVars[k]) !== JSON.stringify(v)) { console.log(`OWED     ${axis}/${name}.json :: ${k}`); drift++; }
+      else if (JSON.stringify(stripDim(stationVars[k])) !== JSON.stringify(v)) { console.log(`OWED     ${axis}/${name}.json :: ${k}`); drift++; }
     }
     return;
   }
@@ -168,11 +173,12 @@ for (const s of STEMS) {
     dm_mechanism: dm.edge ?? null,
     yourNature_desc: card.yourNature?.desc ?? null,
     dm_overview: card.identity?.overview ?? null,
+    gifts: card.gifts ?? null,
+    shadows: card.shadows ?? null,
     __ore: {
       note: 'legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)',
       subtitle: card.subtitle ?? null, chips: card.chips ?? null,
       yourNature_phrase: card.yourNature?.phrase ?? null,
-      gifts: card.gifts ?? null, shadows: card.shadows ?? null,
       elementIntro: card.identity?.elementIntro ?? null,
       manual: card.manual ?? null, energy: card.energy ?? null,
       psych: card.psych ?? null, archetypes: card.archetypes ?? null,

@@ -28,8 +28,84 @@
     "dm_mechanism": "Yin Fire kept close — a focused heat that endures by staying contained.",
     "yourNature_desc": "You give whatever you turn toward all of you, and people who've felt that never quite forget it. It's the closest thing to being truly seen most of them get. One flame, one circle, and a lot of patient darkness just outside it.",
     "dm_overview": "The Candle is Yin Fire, flame at its most concentrated. It works by focus: light lands on one thing at a time, fully, and understanding goes deeper there than daylight ever reaches. The warmth is close-range and steady, made for one face rather than a crowd. What this nature pays is the edge of the circle. Whatever isn't chosen sits in the dark, and it notices.",
+    "gifts": [
+      {
+        "phrase": "Deeply present",
+        "dim": "bonds",
+        "desc": "When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Misses nothing",
+        "dim": "mind",
+        "desc": "The small tell, the changed tone, the detail everyone walked past. You caught it, and three months later it turned out to be the whole story.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Fully committed",
+        "dim": "depth",
+        "desc": "What you choose gets everything you have. The people and work inside your circle never have to wonder where they stand.",
+        "bands": [
+          "concentrated"
+        ]
+      },
+      {
+        "phrase": "Unforgettable listener",
+        "dim": "people",
+        "desc": "People come back years later still talking about a conversation you barely remember. Being truly heard by you left a mark.",
+        "bands": [
+          "balanced",
+          "open"
+        ]
+      },
+      {
+        "phrase": "Keeps the flame",
+        "dim": "self",
+        "desc": "The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night.",
+        "bands": [
+          "open"
+        ]
+      }
+    ],
+    "shadows": [
+      {
+        "phrase": "Plays favorites",
+        "dim": "people",
+        "desc": "Whoever holds your focus gets daylight. Everyone else gets dusk. The people at the edge of your attention feel the difference, and some of them mind.",
+        "bands": "all"
+      },
+      {
+        "phrase": "One-track mind",
+        "dim": "work",
+        "desc": "You genuinely cannot split the flame. The second project, the waiting text, the simmering pot. They all wait in the dark until you turn.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Takes it personally",
+        "dim": "self",
+        "desc": "What you're devoted to has no separation from you. A criticism of the work lands as a criticism of your soul, every time.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Comes on strong",
+        "dim": "force",
+        "desc": "The full beam of your attention can arrive harder than the moment asked for. Some things needed gentle warmth and got the blowtorch.",
+        "bands": [
+          "concentrated"
+        ]
+      },
+      {
+        "phrase": "Hides the light",
+        "dim": "reach",
+        "desc": "The people who'd treasure your attention rarely get offered it first. The flame stays behind cupped hands, and whole years of warmth go unseen.",
+        "bands": [
+          "open"
+        ]
+      }
+    ],
     "__ore": {
       "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
+      "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
       "subtitle": "Complete illumination of exactly what it's pointed at · The Visibility Impulse (Yin)",
       "chips": [
         "Precise",
@@ -39,34 +115,6 @@
         "Flickering under depletion"
       ],
       "yourNature_phrase": "The Imperial Examiner",
-      "gifts": [
-        {
-          "phrase": "The Total Attention",
-          "desc": "When your focus lands fully on someone, they feel understood at a depth they rarely encounter anywhere else."
-        },
-        {
-          "phrase": "The Caught Detail",
-          "desc": "You notice the one thing everyone else walked past — the flaw, the tell, the small truth that turns out to matter most."
-        },
-        {
-          "phrase": "The Remembered Quality",
-          "desc": "The precision of your attention is something people return to, because being truly seen by you is not easy to find elsewhere."
-        }
-      ],
-      "shadows": [
-        {
-          "phrase": "The Flame Too Strong",
-          "desc": "The full force of your focus can arrive harder than the moment asked for, scorching what only needed gentle warmth."
-        },
-        {
-          "phrase": "The Dark Around the Light",
-          "desc": "Whatever falls outside your current focus receives almost nothing, and the people in that dark feel the absence sharply."
-        },
-        {
-          "phrase": "The One at a Time",
-          "desc": "You can truly light only one thing at once, so the rest waits in the dark until your attention turns to it."
-        }
-      ],
       "elementIntro": {
         "punch": "The Candle is Yin Fire — the single flame that illuminates one thing completely.",
         "expand": "Precise and intimate, it gives whatever it attends the rare experience of being fully seen, and leaves all else in shadow."

@@ -26,6 +26,46 @@
 | `dm_mechanism` | Yin Fire kept close — a focused heat that endures by staying contained. |
 | `yourNature_desc` | You give whatever you turn toward all of you, and people who've felt that never quite forget it. It's the closest thing to being truly seen most of them get. One flame, one circle, and a lot of patient darkness just outside it. |
 | `dm_overview` | The Candle is Yin Fire, flame at its most concentrated. It works by focus: light lands on one thing at a time, fully, and understanding goes deeper there than daylight ever reaches. The warmth is close-range and steady, made for one face rather than a crowd. What this nature pays is the edge of the circle. Whatever isn't chosen sits in the dark, and it notices. |
+| `gifts[0].phrase` | Deeply present |
+| `gifts[0].dim` | bonds |
+| `gifts[0].desc` | When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find. |
+| `gifts[0].bands` | all |
+| `gifts[1].phrase` | Misses nothing |
+| `gifts[1].dim` | mind |
+| `gifts[1].desc` | The small tell, the changed tone, the detail everyone walked past. You caught it, and three months later it turned out to be the whole story. |
+| `gifts[1].bands` | all |
+| `gifts[2].phrase` | Fully committed |
+| `gifts[2].dim` | depth |
+| `gifts[2].desc` | What you choose gets everything you have. The people and work inside your circle never have to wonder where they stand. |
+| `gifts[2].bands` | concentrated |
+| `gifts[3].phrase` | Unforgettable listener |
+| `gifts[3].dim` | people |
+| `gifts[3].desc` | People come back years later still talking about a conversation you barely remember. Being truly heard by you left a mark. |
+| `gifts[3].bands` | balanced · open |
+| `gifts[4].phrase` | Keeps the flame |
+| `gifts[4].dim` | self |
+| `gifts[4].desc` | The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night. |
+| `gifts[4].bands` | open |
+| `shadows[0].phrase` | Plays favorites |
+| `shadows[0].dim` | people |
+| `shadows[0].desc` | Whoever holds your focus gets daylight. Everyone else gets dusk. The people at the edge of your attention feel the difference, and some of them mind. |
+| `shadows[0].bands` | all |
+| `shadows[1].phrase` | One-track mind |
+| `shadows[1].dim` | work |
+| `shadows[1].desc` | You genuinely cannot split the flame. The second project, the waiting text, the simmering pot. They all wait in the dark until you turn. |
+| `shadows[1].bands` | all |
+| `shadows[2].phrase` | Takes it personally |
+| `shadows[2].dim` | self |
+| `shadows[2].desc` | What you're devoted to has no separation from you. A criticism of the work lands as a criticism of your soul, every time. |
+| `shadows[2].bands` | all |
+| `shadows[3].phrase` | Comes on strong |
+| `shadows[3].dim` | force |
+| `shadows[3].desc` | The full beam of your attention can arrive harder than the moment asked for. Some things needed gentle warmth and got the blowtorch. |
+| `shadows[3].bands` | concentrated |
+| `shadows[4].phrase` | Hides the light |
+| `shadows[4].dim` | reach |
+| `shadows[4].desc` | The people who'd treasure your attention rarely get offered it first. The flame stays behind cupped hands, and whole years of warmth go unseen. |
+| `shadows[4].bands` | open |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -33,21 +73,10 @@
 
 | Field | Value |
 |---|---|
+| `ore_gifts_shadows_note` | MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git. |
 | `subtitle` | Complete illumination of exactly what it's pointed at · The Visibility Impulse (Yin) |
 | `chips` | Precise · Intimate · Selectively warm · Detail-sensitive · Flickering under depletion |
 | `yourNature_phrase` | The Imperial Examiner |
-| `gifts[0].phrase` | The Total Attention |
-| `gifts[0].desc` | When your focus lands fully on someone, they feel understood at a depth they rarely encounter anywhere else. |
-| `gifts[1].phrase` | The Caught Detail |
-| `gifts[1].desc` | You notice the one thing everyone else walked past — the flaw, the tell, the small truth that turns out to matter most. |
-| `gifts[2].phrase` | The Remembered Quality |
-| `gifts[2].desc` | The precision of your attention is something people return to, because being truly seen by you is not easy to find elsewhere. |
-| `shadows[0].phrase` | The Flame Too Strong |
-| `shadows[0].desc` | The full force of your focus can arrive harder than the moment asked for, scorching what only needed gentle warmth. |
-| `shadows[1].phrase` | The Dark Around the Light |
-| `shadows[1].desc` | Whatever falls outside your current focus receives almost nothing, and the people in that dark feel the absence sharply. |
-| `shadows[2].phrase` | The One at a Time |
-| `shadows[2].desc` | You can truly light only one thing at once, so the rest waits in the dark until your attention turns to it. |
 | `elementIntro.punch` | The Candle is Yin Fire — the single flame that illuminates one thing completely. |
 | `elementIntro.expand` | Precise and intimate, it gives whatever it attends the rare experience of being fully seen, and leaves all else in shadow. |
 | `manual.concentrated` | The examining quality becomes exhaustive. Every detail gets scrutinized, every relationship gets held to a standard of depth it may not be designed for, every piece of work gets refined past the point of value. The classical problem: excess 丁 burns away what it examines — the candle that runs out of its own fuel. Anxiety emerges from examining everything and finding it insufficient. The environment becomes demanding and intense rather than illuminating. The precision becomes punishing rather than refining. |

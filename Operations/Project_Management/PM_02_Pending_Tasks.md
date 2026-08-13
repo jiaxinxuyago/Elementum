@@ -35,8 +35,8 @@
 
 Principle (law): *what you are* = band-invariant · *how it's running* = band-varying. All blocks author under REA_16 v2.0 (four-layer prompt), land station-first, and gate on both audits + the swap test + an open-band read-through (every line must be true for the underfueled reader). Owner rules each corpus per the variable-review law.
 
-### BAND-B · Gifts & Shadows tagged pools — FIRST (fixes the most visible old-tone text, now promoted on P4)
-~5 gifts + ~5 shadows per stem (≈100 items), each `{phrase, desc, bands}`; band-robust wording on all-band items; band-specific items only where expression genuinely differs. Resolver: band-aware ×3 selection (band-tagged first, all-band fill). Station home: `STEM/*.json` `gifts`/`shadows` candidates (ore copies retire — this IS the §7 #4 fate execution for these two fields). Chain: station → registry rows → transcription → resolver → P4 → design HTMLs.
+### BAND-B · Gifts & Shadows tagged pools — ✅ COMPLETE (owner-locked 2026-08-13)
+100 items live (5+5 × 10 stems), station `{phrase, dim, desc, bands}` → code `{phrase, desc, bands}` → `selectPoolByBand` ×3 → P4 panel + d12 detail; ore ×3 retired all stems; registry rows locked; both audits green; band selection browser-verified (庚/癸 concentrated). Ruling record: REA_16 §6 2026-08-13.
 
 ### BAND-A · yourNature ×30 (closes R4)
 Full band variants (stem × concentrated/balanced/open) under branch register × band; replaces the tone-stale 庚 ×15 (pattern grain retired for now — resolver falls band → baseline). Station home: `STEM_BAND/*.json`. Wire: band resolution returns to P4's "Your nature" section. R4 rider decisions for the owner at this block: the dead J4 sub-screen's fate + the unsurfaced `inscription`'s fate (dm_claims home vs retire).

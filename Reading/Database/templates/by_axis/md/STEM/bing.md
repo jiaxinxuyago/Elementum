@@ -26,6 +26,46 @@
 | `dm_mechanism` | Yang Fire that gives without dimming — radiance steadied by what it warms. |
 | `yourNature_desc` | You brighten the day of whoever's near you, and none of it is on purpose. The light just runs, morning to night, on you as fuel. People plan around your warmth the way they plan around daylight, and asking what it costs occurs to no one. You included. |
 | `dm_overview` | The Sun is Yang Fire, the broadcasting half of flame. It works like daylight: warmth goes out whether or not anyone meant to send it, and it reaches whoever happens to be under it. Commitment follows what lights up and cools on what doesn't. Receiving never gets practiced, because giving always came first. The output runs constant. The fuel is the part nobody checks, least of all the sun. |
+| `gifts[0].phrase` | Instantly likable |
+| `gifts[0].dim` | people |
+| `gifts[0].desc` | Strangers relax around you before you've said much of anything. Guards drop, small talk turns real, and nobody can quite explain why. |
+| `gifts[0].bands` | all |
+| `gifts[1].phrase` | Lifts the mood |
+| `gifts[1].dim` | influence |
+| `gifts[1].desc` | A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did. |
+| `gifts[1].bands` | all |
+| `gifts[2].phrase` | No hidden agenda |
+| `gifts[2].dim` | character |
+| `gifts[2].desc` | Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out. |
+| `gifts[2].bands` | concentrated |
+| `gifts[3].phrase` | First to celebrate |
+| `gifts[3].dim` | bonds |
+| `gifts[3].desc` | Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it. |
+| `gifts[3].bands` | balanced · open |
+| `gifts[4].phrase` | Warms who matters |
+| `gifts[4].dim` | depth |
+| `gifts[4].desc` | The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully. |
+| `gifts[4].bands` | open |
+| `shadows[0].phrase` | Runs on empty |
+| `shadows[0].dim` | self |
+| `shadows[0].desc` | You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks. |
+| `shadows[0].bands` | all |
+| `shadows[1].phrase` | Rarely checked on |
+| `shadows[1].dim` | people |
+| `shadows[1].desc` | You make sure everyone's okay, every time. The same question comes back your way so rarely that you've stopped noticing it's missing. |
+| `shadows[1].bands` | all |
+| `shadows[2].phrase` | Taken for granted |
+| `shadows[2].dim` | recognition |
+| `shadows[2].desc` | Your brightness is treated like the sun. Always there, nobody's job to maintain. The one day it dims, people ask what's wrong with you, not what it cost. |
+| `shadows[2].bands` | all |
+| `shadows[3].phrase` | Fills every silence |
+| `shadows[3].dim` | boundaries |
+| `shadows[3].desc` | Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade. |
+| `shadows[3].bands` | concentrated |
+| `shadows[4].phrase` | Dimmed lately |
+| `shadows[4].dim` | self |
+| `shadows[4].desc` | The glow everyone remembers takes real effort now. You can still shine when it matters, but you feel the fuel spending in a way you never used to. |
+| `shadows[4].bands` | open |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -33,21 +73,10 @@
 
 | Field | Value |
 |---|---|
+| `ore_gifts_shadows_note` | MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git. |
 | `subtitle` | Warmth as structural property, not personality trait · The Visibility Impulse (Yang) |
 | `chips` | Radiant · Generative · Involuntarily warm · Invisibly depleting · Trust-creating |
 | `yourNature_phrase` | The Court Herald |
-| `gifts[0].phrase` | The Instant Trust |
-| `gifts[0].desc` | People relax and feel more capable in your presence before you've done anything to earn it, simply because warmth is your default. |
-| `gifts[1].phrase` | The Real on Hard Days |
-| `gifts[1].desc` | Your warmth is believed precisely because it was still there on the difficult days, when a performed version would have flickered. |
-| `gifts[2].phrase` | The Raised Ceiling |
-| `gifts[2].desc` | Ideas get bigger and people braver around you, the way a surface warms under sunlight that never chose that particular spot. |
-| `shadows[0].phrase` | The Invisible Tank |
-| `shadows[0].desc` | You give warmth so effortlessly that the depletion accumulates unnoticed, and you don't register how low you are until you're very low. |
-| `shadows[1].phrase` | The Assumed Inexhaustible |
-| `shadows[1].desc` | Everyone treats your warmth as infinite, so the moment it dims they read it as a problem rather than a cost you were always paying. |
-| `shadows[2].phrase` | The Unasked Question |
-| `shadows[2].desc` | You make sure everyone in the room is okay and almost never get asked the same question in return. |
 | `elementIntro.punch` | The Sun is Yang Fire — the broadcasting blaze that lights everything at once. |
 | `elementIntro.expand` | Radiant and indiscriminate, it warms whatever it reaches, making the world around a person feel briefly more possible than before. |
 | `manual.concentrated` | Everything is lit up — and nothing remains private. Social momentum and recognition are high. But excess 丙 is literal overexposure: work that wasn't ready gets seen, private things become public, and being "on" continuously becomes genuinely depleting. The classical warning: 火炎土燥 (fire blazes, earth scorches) — when Fire becomes excessive, the ground beneath it dries and cracks. The environment becomes brilliant but unstable, high-energy but exhausting. Reputation risk increases alongside recognition opportunity. |

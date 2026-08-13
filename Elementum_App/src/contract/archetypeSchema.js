@@ -155,6 +155,14 @@ export const SHAPES = {
     desc:   { type: 'string', sentenceMin: 1, sentenceMax: 2, required: true,
               note: 'One sharp sentence with a distinct angle.' },
   },
+  TaggedPoolItem: {
+    phrase: { type: 'string', wordCap: 3, required: true,
+              note: 'Everyday trait phrase, 2–3 words (REA_16 §3 phrase law — no "The + metaphor-noun").' },
+    desc:   { type: 'string', sentenceMin: 1, sentenceMax: 3, required: true,
+              note: 'Concrete real-life image of the trait (REA_16 §3 desc law).' },
+    bands:  { type: "string[] | 'all'", required: true,
+              note: "Band tags driving selection: 'all' = every band's pool; array = only those bands." },
+  },
 };
 
 // -------------------------------------------------------------------
@@ -256,17 +264,19 @@ export const ARCHETYPE_SCHEMA = {
 
   // ─────────────────────────────────────────────────────────────
   gifts: {
-    _meta: { tier: 'free', varyBy: ['stem'], section: 'Gifts row (3 cards)', itemShape: 'PhraseDesc' },
-    type: 'object[]', arrayLen: 3, required: true,
-    itemShape: SHAPES.PhraseDesc,
-    example: [{ phrase: 'The Structural Read', desc: "You don't choose to assess — the read finishes before you've decided to begin it." }],
+    _meta: { tier: 'free', varyBy: ['stem', 'band'], section: 'Gifts row (band-tagged pool ×5 → chart sees ×3)', itemShape: 'TaggedPoolItem' },
+    type: 'object[]', arrayLen: 5, required: true,
+    itemShape: SHAPES.TaggedPoolItem,
+    note: 'Band-tagged pool (REA_16 §3 pool laws). selectPoolByBand picks the chart\'s trio: band-tagged items first, then all-tagged in pool order. Authored station-first; `dim` (angle tag) stays station-side.',
+    example: [{ phrase: 'Crisis performer', desc: "The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved.", bands: ['concentrated'] }],
   },
 
   shadows: {
-    _meta: { tier: 'free', varyBy: ['stem'], section: 'Shadows row (3 cards)', itemShape: 'PhraseDesc' },
-    type: 'object[]', arrayLen: 3, required: true,
-    itemShape: SHAPES.PhraseDesc,
-    example: [{ phrase: 'The Finished Too Early', desc: "You tend to call things complete before they've fully arrived — the clarity that recognizes finished things can misread what's still becoming." }],
+    _meta: { tier: 'free', varyBy: ['stem', 'band'], section: 'Shadows row (band-tagged pool ×5 → chart sees ×3)', itemShape: 'TaggedPoolItem' },
+    type: 'object[]', arrayLen: 5, required: true,
+    itemShape: SHAPES.TaggedPoolItem,
+    note: 'Symmetric with gifts — same pool construct and selection law.',
+    example: [{ phrase: 'Endless second-guessing', desc: "You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished.", bands: ['open'] }],
   },
 
   // ─────────────────────────────────────────────────────────────

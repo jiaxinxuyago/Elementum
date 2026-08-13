@@ -28,8 +28,84 @@
     "dm_mechanism": "Yang Earth that holds its shape — weight that becomes shelter under load.",
     "yourNature_desc": "You're the one everyone builds their plans on, the way people build on ground they trust without thinking about the ground. Things shake, and you don't. What that takes stays out of sight, because you keep it there, and because nobody ever asks a mountain how much it's carrying.",
     "dm_overview": "The Mountain is Yang Earth, the load-bearing form of ground. It works by holding: weight gets taken on steadily and set down almost never, and everything nearby learns to lean. Storms change it by inches over decades. The strength runs one direction, though. This nature carries and doesn't get carried, and it can mistake being needed for being known.",
+    "gifts": [
+      {
+        "phrase": "Everyone's rock",
+        "dim": "people",
+        "desc": "Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Shows up regardless",
+        "dim": "reliability",
+        "desc": "Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Unflappable",
+        "dim": "pressure",
+        "desc": "The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be.",
+        "bands": [
+          "concentrated"
+        ]
+      },
+      {
+        "phrase": "Safe harbor",
+        "dim": "bonds",
+        "desc": "People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning.",
+        "bands": [
+          "balanced",
+          "open"
+        ]
+      },
+      {
+        "phrase": "Slow and sure",
+        "dim": "tempo",
+        "desc": "You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely.",
+        "bands": [
+          "open"
+        ]
+      }
+    ],
+    "shadows": [
+      {
+        "phrase": "Bottles it up",
+        "dim": "self",
+        "desc": "The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Forgets own needs",
+        "dim": "people",
+        "desc": "You've been the reliable one so long that nobody asks what you need anymore. Somewhere along the way, you stopped asking too.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Can't let go",
+        "dim": "change",
+        "desc": "Jobs, grudges, houses, roles that ended years ago. Letting go feels like betraying everyone who leaned on the holding, so the grip stays closed.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Set in stone",
+        "dim": "flexibility",
+        "desc": "Once your footing is chosen, argument becomes erosion. It works on you in centuries, not conversations. People eventually stop bringing the map.",
+        "bands": [
+          "concentrated"
+        ]
+      },
+      {
+        "phrase": "Quietly overwhelmed",
+        "dim": "self",
+        "desc": "The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost.",
+        "bands": [
+          "open"
+        ]
+      }
+    ],
     "__ore": {
       "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
+      "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
       "subtitle": "The ground others orient by without naming · The Stability Impulse (Yang)",
       "chips": [
         "Grounding",
@@ -39,34 +115,6 @@
         "Orientation-providing"
       ],
       "yourNature_phrase": "The Mountain Warden",
-      "gifts": [
-        {
-          "phrase": "The Ground Others Stand On",
-          "desc": "People plan their lives around your steadiness, often deciding what to do based on what you think before they've even asked."
-        },
-        {
-          "phrase": "The Unshown Cost",
-          "desc": "You carry weight, stress, and uncertainty without letting it show in a way that would make anyone else feel responsible for it."
-        },
-        {
-          "phrase": "The Still There",
-          "desc": "When the dramatic options have run out, you're the one still present, and what you build genuinely could not be made any other way."
-        }
-      ],
-      "shadows": [
-        {
-          "phrase": "The Held Too Long",
-          "desc": "The stability everyone relies on makes letting go feel like betrayal, so you hold things in place past the point that called for release."
-        },
-        {
-          "phrase": "The Silent Accumulation",
-          "desc": "You absorb a great deal without naming it, and the weight no one sees builds precisely because you never showed it."
-        },
-        {
-          "phrase": "The Forgotten Need",
-          "desc": "You've been reliably there for everyone so long that the question of what you need has quietly stopped being asked — including by you."
-        }
-      ],
       "elementIntro": {
         "punch": "The Mountain is Yang Earth — the settled, load-bearing ground that does not move.",
         "expand": "Solid and orienting, it is the reference point others find their position by, holding far more than it ever lets show."

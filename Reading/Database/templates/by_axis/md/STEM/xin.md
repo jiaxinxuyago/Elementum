@@ -26,6 +26,46 @@
 | `dm_mechanism` | Yin Metal refined under pressure — an edge made keen by polishing, not by force. |
 | `yourNature_desc` | You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required. |
 | `dm_overview` | The Jewel is Yin Metal, the refined form of the element. It works by noticing: a flaw shows itself to you instantly, and precision is applied at close range, to small surfaces, over long hours. The finest judgment in the set turns inward by default. That's the tax of this nature. The same eye that makes the work excellent keeps turning back on its maker, and no outside praise ever settles it. |
+| `gifts[0].phrase` | Impeccable taste |
+| `gifts[0].dim` | mind |
+| `gifts[0].desc` | You know the good one from the almost-good one at a glance, the way some people can tell a note is flat. Friends borrow your eye before they buy. |
+| `gifts[0].bands` | all |
+| `gifts[1].phrase` | Quality guaranteed |
+| `gifts[1].dim` | work |
+| `gifts[1].desc` | Nothing leaves your hands that you don't believe in. Years later your work is the one still holding up under inspection. |
+| `gifts[1].bands` | all |
+| `gifts[2].phrase` | Spots the crack |
+| `gifts[2].dim` | foresight |
+| `gifts[2].desc` | You saw the flaw three months before it became the problem. You usually say it out loud exactly once, and then wait. |
+| `gifts[2].bands` | concentrated |
+| `gifts[3].phrase` | Notices the effort |
+| `gifts[3].dim` | bonds |
+| `gifts[3].desc` | The detail someone worked hardest on, the one everyone else missed, is the first thing you praise. Being appreciated by you means something because you actually looked. |
+| `gifts[3].bands` | balanced · open |
+| `gifts[4].phrase` | Understated excellence |
+| `gifts[4].dim` | self |
+| `gifts[4].desc` | You don't advertise, compete, or explain. The work speaks quietly, the taste shows in small choices, and the people who know, know. |
+| `gifts[4].bands` | open |
+| `shadows[0].phrase` | Never satisfied |
+| `shadows[0].dim` | self |
+| `shadows[0].desc` | The finish line moves the moment you approach it. Done exists for other people’s work. Yours is only ever paused. |
+| `shadows[0].bands` | all |
+| `shadows[1].phrase` | Hard to impress |
+| `shadows[1].dim` | people |
+| `shadows[1].desc` | People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it. |
+| `shadows[1].bands` | all |
+| `shadows[2].phrase` | Chronically disappointed |
+| `shadows[2].dim` | outlook |
+| `shadows[2].desc` | You can always see the better version that doesn’t exist. The gap between possible and actual never quite closes, and living in it wears. |
+| `shadows[2].bands` | all |
+| `shadows[3].phrase` | Polishes forever |
+| `shadows[3].dim` | work |
+| `shadows[3].desc` | The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive. |
+| `shadows[3].bands` | concentrated |
+| `shadows[4].phrase` | Sells self short |
+| `shadows[4].dim` | self |
+| `shadows[4].desc` | The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly. |
+| `shadows[4].bands` | open |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -33,21 +73,10 @@
 
 | Field | Value |
 |---|---|
+| `ore_gifts_shadows_note` | MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git. |
 | `subtitle` | Quality perceived as temperature — before the question forms · The Definition Impulse (Yin) |
 | `chips` | Discerning · Aesthetically precise · Perfectionist · Exacting · Distance through refinement |
 | `yourNature_phrase` | The Jade Appraiser |
-| `gifts[0].phrase` | The Quality Sense |
-| `gifts[0].desc` | You register whether something is genuinely excellent automatically, before the question forms — the way others register temperature. |
-| `gifts[1].phrase` | The Standard Kept |
-| `gifts[1].desc` | You cannot bring yourself to release work you don't believe in, so what you do produce holds up under examination and over time. |
-| `gifts[2].phrase` | The Early Flaw |
-| `gifts[2].desc` | You've already seen the flaw that becomes a problem three months from now, even if you haven't said it out loud yet. |
-| `shadows[0].phrase` | The Never Finished |
-| `shadows[0].desc` | The faculty that produces excellence keeps refining past completion, delaying what's ready and exhausting precision on what doesn't need it. |
-| `shadows[1].phrase` | The Standing Dissatisfaction |
-| `shadows[1].desc` | The gap between what you can perceive as possible and what the world offers stays open, and in lesser conditions it turns chronic. |
-| `shadows[2].phrase` | The Standard Turned Inward |
-| `shadows[2].desc` | The measure you hold everything to, you hold yourself to hardest, so you're rarely quite satisfied with who you are right now. |
 | `elementIntro.punch` | The Jewel is Yin Metal — the refined edge that reveals true worth. |
 | `elementIntro.expand` | Exacting and aesthetically certain, it senses quality the way others sense cold, and is never quite satisfied with what merely passes. |
 | `manual.concentrated` | The evaluative standard is applied to everything simultaneously with no relief. The environment produces either remarkable quality or paralysis — the discernment that should enable excellence instead prevents completion. Relationships and situations that don't meet the implicit standard become genuinely difficult to engage with. Classical texts note that excess 辛 Metal produces rigidity of aesthetic judgment — the jeweler so committed to perfection that no gem ever leaves the workshop. Self-criticism intensifies. The standard keeps moving just past wherever the work has arrived. |

@@ -28,8 +28,84 @@
     "dm_mechanism": "Yin Earth that nourishes quietly — fertile ground that asks for no credit.",
     "yourNature_desc": "You make the people around you better, mostly by giving them somewhere good to grow. Nobody performs it less than you do. Season after season the same trade repeats, your ground for their growing, and you notice what it's costing you about a season too late.",
     "dm_overview": "The Field is Yin Earth, the cultivated form of ground. It works by providing: conditions get made, nutrients get given, and other things grow because the soil quietly spent itself on them. Patience is structural here, measured in seasons rather than days. The ledger of this nature runs generous and slow. It gives first, counts later, and the counting usually arrives after the harvest has already left.",
+    "gifts": [
+      {
+        "phrase": "Anticipates needs",
+        "dim": "people",
+        "desc": "The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Grows people",
+        "dim": "influence",
+        "desc": "People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Keeps every promise",
+        "dim": "reliability",
+        "desc": "Your care doesn't have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that.",
+        "bands": [
+          "concentrated"
+        ]
+      },
+      {
+        "phrase": "Restful company",
+        "dim": "bonds",
+        "desc": "Nobody performs around you. Friends unclench, say the true version, and stay an hour longer than they planned. Your presence works like fallow ground.",
+        "bands": [
+          "balanced",
+          "open"
+        ]
+      },
+      {
+        "phrase": "Quietly essential",
+        "dim": "self",
+        "desc": "Nothing about you announces itself. But when you step back for a while, everything wilts a little, and everyone finally notices who was watering.",
+        "bands": [
+          "open"
+        ]
+      }
+    ],
+    "shadows": [
+      {
+        "phrase": "Always the giver",
+        "dim": "self",
+        "desc": "The ledger with everyone you love runs lopsided, and you noticed years later than you should have. Giving never felt like spending until the account ran low.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Neglects own growth",
+        "dim": "growth",
+        "desc": "Everyone else's garden is thriving under your care. Yours is the one with the weeds, waiting for a season you never schedule.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Can't say no",
+        "dim": "boundaries",
+        "desc": "The request lands and the yes is out before you've checked the calendar or the tank. Refusing feels like frost, so you never learned it.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Smothers a little",
+        "dim": "care",
+        "desc": "Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed.",
+        "bands": [
+          "concentrated"
+        ]
+      },
+      {
+        "phrase": "Worn thin",
+        "dim": "self",
+        "desc": "Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field.",
+        "bands": [
+          "open"
+        ]
+      }
+    ],
     "__ore": {
       "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
+      "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
       "subtitle": "Growing things in others without announcing it · The Stability Impulse (Yin)",
       "chips": [
         "Nurturing",
@@ -39,34 +115,6 @@
         "Responsive"
       ],
       "yourNature_phrase": "The Palace Gardener",
-      "gifts": [
-        {
-          "phrase": "The Unasked Provision",
-          "desc": "You notice what a person actually needs and provide it before they've requested it, the way soil answers a seed."
-        },
-        {
-          "phrase": "The Quiet Development",
-          "desc": "People become better versions of themselves around you and credit only themselves, never seeing the conditions you built."
-        },
-        {
-          "phrase": "The Kept Word",
-          "desc": "Your care holds steady across time rather than appearing only when convenient, so people learn to build their lives on it."
-        }
-      ],
-      "shadows": [
-        {
-          "phrase": "The Uneven Exchange",
-          "desc": "You give more than comes back and take a long time to notice, because the giving felt too natural to register as a cost."
-        },
-        {
-          "phrase": "The Overcultivation",
-          "desc": "You can tend a person past the point of help, supplying growth they needed to find on their own."
-        },
-        {
-          "phrase": "The Unclaimed Ground",
-          "desc": "You grow everything in others and rarely turn the same patient attention to what you're trying to grow in yourself."
-        }
-      ],
       "elementIntro": {
         "punch": "The Field is Yin Earth — soil that grows whatever it is given.",
         "expand": "Receptive and quietly generous, it creates the conditions for others to grow into themselves, and asks no credit for the growth."

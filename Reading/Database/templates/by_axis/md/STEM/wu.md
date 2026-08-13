@@ -26,6 +26,46 @@
 | `dm_mechanism` | Yang Earth that holds its shape — weight that becomes shelter under load. |
 | `yourNature_desc` | You're the one everyone builds their plans on, the way people build on ground they trust without thinking about the ground. Things shake, and you don't. What that takes stays out of sight, because you keep it there, and because nobody ever asks a mountain how much it's carrying. |
 | `dm_overview` | The Mountain is Yang Earth, the load-bearing form of ground. It works by holding: weight gets taken on steadily and set down almost never, and everything nearby learns to lean. Storms change it by inches over decades. The strength runs one direction, though. This nature carries and doesn't get carried, and it can mistake being needed for being known. |
+| `gifts[0].phrase` | Everyone's rock |
+| `gifts[0].dim` | people |
+| `gifts[0].desc` | Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling. |
+| `gifts[0].bands` | all |
+| `gifts[1].phrase` | Shows up regardless |
+| `gifts[1].dim` | reliability |
+| `gifts[1].desc` | Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six. |
+| `gifts[1].bands` | all |
+| `gifts[2].phrase` | Unflappable |
+| `gifts[2].dim` | pressure |
+| `gifts[2].desc` | The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be. |
+| `gifts[2].bands` | concentrated |
+| `gifts[3].phrase` | Safe harbor |
+| `gifts[3].dim` | bonds |
+| `gifts[3].desc` | People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning. |
+| `gifts[3].bands` | balanced · open |
+| `gifts[4].phrase` | Slow and sure |
+| `gifts[4].dim` | tempo |
+| `gifts[4].desc` | You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely. |
+| `gifts[4].bands` | open |
+| `shadows[0].phrase` | Bottles it up |
+| `shadows[0].dim` | self |
+| `shadows[0].desc` | The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked. |
+| `shadows[0].bands` | all |
+| `shadows[1].phrase` | Forgets own needs |
+| `shadows[1].dim` | people |
+| `shadows[1].desc` | You've been the reliable one so long that nobody asks what you need anymore. Somewhere along the way, you stopped asking too. |
+| `shadows[1].bands` | all |
+| `shadows[2].phrase` | Can't let go |
+| `shadows[2].dim` | change |
+| `shadows[2].desc` | Jobs, grudges, houses, roles that ended years ago. Letting go feels like betraying everyone who leaned on the holding, so the grip stays closed. |
+| `shadows[2].bands` | all |
+| `shadows[3].phrase` | Set in stone |
+| `shadows[3].dim` | flexibility |
+| `shadows[3].desc` | Once your footing is chosen, argument becomes erosion. It works on you in centuries, not conversations. People eventually stop bringing the map. |
+| `shadows[3].bands` | concentrated |
+| `shadows[4].phrase` | Quietly overwhelmed |
+| `shadows[4].dim` | self |
+| `shadows[4].desc` | The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost. |
+| `shadows[4].bands` | open |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -33,21 +73,10 @@
 
 | Field | Value |
 |---|---|
+| `ore_gifts_shadows_note` | MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git. |
 | `subtitle` | The ground others orient by without naming · The Stability Impulse (Yang) |
 | `chips` | Grounding · Load-bearing · Change-resistant · Silently accumulating · Orientation-providing |
 | `yourNature_phrase` | The Mountain Warden |
-| `gifts[0].phrase` | The Ground Others Stand On |
-| `gifts[0].desc` | People plan their lives around your steadiness, often deciding what to do based on what you think before they've even asked. |
-| `gifts[1].phrase` | The Unshown Cost |
-| `gifts[1].desc` | You carry weight, stress, and uncertainty without letting it show in a way that would make anyone else feel responsible for it. |
-| `gifts[2].phrase` | The Still There |
-| `gifts[2].desc` | When the dramatic options have run out, you're the one still present, and what you build genuinely could not be made any other way. |
-| `shadows[0].phrase` | The Held Too Long |
-| `shadows[0].desc` | The stability everyone relies on makes letting go feel like betrayal, so you hold things in place past the point that called for release. |
-| `shadows[1].phrase` | The Silent Accumulation |
-| `shadows[1].desc` | You absorb a great deal without naming it, and the weight no one sees builds precisely because you never showed it. |
-| `shadows[2].phrase` | The Forgotten Need |
-| `shadows[2].desc` | You've been reliably there for everyone so long that the question of what you need has quietly stopped being asked — including by you. |
 | `elementIntro.punch` | The Mountain is Yang Earth — the settled, load-bearing ground that does not move. |
 | `elementIntro.expand` | Solid and orienting, it is the reference point others find their position by, holding far more than it ever lets show. |
 | `manual.concentrated` | The grounding quality becomes literal heaviness. Things that should move don't. Decisions that should be made get postponed. Weight accumulates without being processed. Classical texts warn 土重则滞 (excess Earth creates stagnation) — when the Mountain grows too dense, nothing moves across it. Opportunities pass because the inertia of consolidation prevents engagement with what's new. The environment becomes utterly reliable but genuinely stuck. Stability, which was the gift, becomes the trap when it refuses to distinguish between what should be held and what should be released. |

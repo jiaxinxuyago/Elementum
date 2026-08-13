@@ -26,6 +26,46 @@
 | `dm_mechanism` | Yin Earth that nourishes quietly — fertile ground that asks for no credit. |
 | `yourNature_desc` | You make the people around you better, mostly by giving them somewhere good to grow. Nobody performs it less than you do. Season after season the same trade repeats, your ground for their growing, and you notice what it's costing you about a season too late. |
 | `dm_overview` | The Field is Yin Earth, the cultivated form of ground. It works by providing: conditions get made, nutrients get given, and other things grow because the soil quietly spent itself on them. Patience is structural here, measured in seasons rather than days. The ledger of this nature runs generous and slow. It gives first, counts later, and the counting usually arrives after the harvest has already left. |
+| `gifts[0].phrase` | Anticipates needs |
+| `gifts[0].dim` | people |
+| `gifts[0].desc` | The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did. |
+| `gifts[0].bands` | all |
+| `gifts[1].phrase` | Grows people |
+| `gifts[1].dim` | influence |
+| `gifts[1].desc` | People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly. |
+| `gifts[1].bands` | all |
+| `gifts[2].phrase` | Keeps every promise |
+| `gifts[2].dim` | reliability |
+| `gifts[2].desc` | Your care doesn't have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that. |
+| `gifts[2].bands` | concentrated |
+| `gifts[3].phrase` | Restful company |
+| `gifts[3].dim` | bonds |
+| `gifts[3].desc` | Nobody performs around you. Friends unclench, say the true version, and stay an hour longer than they planned. Your presence works like fallow ground. |
+| `gifts[3].bands` | balanced · open |
+| `gifts[4].phrase` | Quietly essential |
+| `gifts[4].dim` | self |
+| `gifts[4].desc` | Nothing about you announces itself. But when you step back for a while, everything wilts a little, and everyone finally notices who was watering. |
+| `gifts[4].bands` | open |
+| `shadows[0].phrase` | Always the giver |
+| `shadows[0].dim` | self |
+| `shadows[0].desc` | The ledger with everyone you love runs lopsided, and you noticed years later than you should have. Giving never felt like spending until the account ran low. |
+| `shadows[0].bands` | all |
+| `shadows[1].phrase` | Neglects own growth |
+| `shadows[1].dim` | growth |
+| `shadows[1].desc` | Everyone else's garden is thriving under your care. Yours is the one with the weeds, waiting for a season you never schedule. |
+| `shadows[1].bands` | all |
+| `shadows[2].phrase` | Can't say no |
+| `shadows[2].dim` | boundaries |
+| `shadows[2].desc` | The request lands and the yes is out before you've checked the calendar or the tank. Refusing feels like frost, so you never learned it. |
+| `shadows[2].bands` | all |
+| `shadows[3].phrase` | Smothers a little |
+| `shadows[3].dim` | care |
+| `shadows[3].desc` | Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed. |
+| `shadows[3].bands` | concentrated |
+| `shadows[4].phrase` | Worn thin |
+| `shadows[4].dim` | self |
+| `shadows[4].desc` | Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field. |
+| `shadows[4].bands` | open |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -33,21 +73,10 @@
 
 | Field | Value |
 |---|---|
+| `ore_gifts_shadows_note` | MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git. |
 | `subtitle` | Growing things in others without announcing it · The Stability Impulse (Yin) |
 | `chips` | Nurturing · Developmentally attuned · Invisibly depleting · Overcultivating · Responsive |
 | `yourNature_phrase` | The Palace Gardener |
-| `gifts[0].phrase` | The Unasked Provision |
-| `gifts[0].desc` | You notice what a person actually needs and provide it before they've requested it, the way soil answers a seed. |
-| `gifts[1].phrase` | The Quiet Development |
-| `gifts[1].desc` | People become better versions of themselves around you and credit only themselves, never seeing the conditions you built. |
-| `gifts[2].phrase` | The Kept Word |
-| `gifts[2].desc` | Your care holds steady across time rather than appearing only when convenient, so people learn to build their lives on it. |
-| `shadows[0].phrase` | The Uneven Exchange |
-| `shadows[0].desc` | You give more than comes back and take a long time to notice, because the giving felt too natural to register as a cost. |
-| `shadows[1].phrase` | The Overcultivation |
-| `shadows[1].desc` | You can tend a person past the point of help, supplying growth they needed to find on their own. |
-| `shadows[2].phrase` | The Unclaimed Ground |
-| `shadows[2].desc` | You grow everything in others and rarely turn the same patient attention to what you're trying to grow in yourself. |
 | `elementIntro.punch` | The Field is Yin Earth — soil that grows whatever it is given. |
 | `elementIntro.expand` | Receptive and quietly generous, it creates the conditions for others to grow into themselves, and asks no credit for the growth. |
 | `manual.concentrated` | The receptive and nurturing quality becomes absorptive without filtration. The environment or person pulls in difficulties as readily as it nourishes growth. Classical texts describe 己土混浊 (己 Earth becomes muddy) — when the fertile soil absorbs too much without drainage, it loses its cultivating quality entirely and becomes mud. Overthinking, rumination, and carrying others' emotional weight characterizes the excess state. The Field grows weeds as readily as it grows crops when there's no selectivity about what gets tended. |

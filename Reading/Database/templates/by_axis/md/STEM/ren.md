@@ -26,6 +26,46 @@
 | `dm_mechanism` | Yang Water that carves by patience — force that wins by not insisting. |
 | `yourNature_desc` | You think in fathoms while most conversation happens at the shoreline. What you show is a fraction of what's moving, and most of it simply doesn't travel well in words. The distance isn't loneliness exactly. It's just how far down you actually live. |
 | `dm_overview` | The Ocean is Yang Water, the deep and moving form of the element. It works by currents: thought runs far below the surface, covers distances no one watches, and comes up only where it chooses. Capacity is the defining trait, and it's mostly invisible. What this nature manages, permanently, is the gap between how much is held and how much can ever be shown. |
+| `gifts[0].phrase` | Big picture thinker |
+| `gifts[0].dim` | mind |
+| `gifts[0].desc` | While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out. |
+| `gifts[0].bands` | all |
+| `gifts[1].phrase` | Thinks in layers |
+| `gifts[1].dim` | depth |
+| `gifts[1].desc` | Your first answer already considered the five objections nobody's raised yet. People sense the depth before they can name it. |
+| `gifts[1].bands` | all |
+| `gifts[2].phrase` | Thinks big |
+| `gifts[2].dim` | scope |
+| `gifts[2].desc` | Small plans bore you on arrival. You're drawn to the far shore, the decade plan, the version of the idea that scares the committee. |
+| `gifts[2].bands` | concentrated |
+| `gifts[3].phrase` | Even keel |
+| `gifts[3].dim` | temperament |
+| `gifts[3].desc` | Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours. |
+| `gifts[3].bands` | balanced · open |
+| `gifts[4].phrase` | Full of surprises |
+| `gifts[4].dim` | self |
+| `gifts[4].desc` | Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned. |
+| `gifts[4].bands` | open |
+| `shadows[0].phrase` | Lost in translation |
+| `shadows[0].dim` | communication |
+| `shadows[0].desc` | What you actually think arrives at about a tenth of its size when spoken. The best of you doesn’t travel well in words, and meetings never see it. |
+| `shadows[0].bands` | all |
+| `shadows[1].phrase` | Hard to know |
+| `shadows[1].dim` | bonds |
+| `shadows[1].desc` | Even the people closest to you work from a fraction. Whole regions of you stay unmapped, not hidden exactly, just never offered. |
+| `shadows[1].bands` | all |
+| `shadows[2].phrase` | Spread too thin |
+| `shadows[2].dim` | direction |
+| `shadows[2].desc` | Everything interests you and nothing contains you, so the current runs in six directions at once. Vast motion, and some seasons, no arrival. |
+| `shadows[2].bands` | all |
+| `shadows[3].phrase` | Sweeps people along |
+| `shadows[3].dim` | force |
+| `shadows[3].desc` | The plan was already moving before anyone agreed to it. Your current is strong enough that consent sometimes arrives after departure. |
+| `shadows[3].bands` | concentrated |
+| `shadows[4].phrase` | Drifts away |
+| `shadows[4].dim` | presence |
+| `shadows[4].desc` | Mid-conversation, mid-project, mid-year, part of you quietly leaves for open water. People feel the tide go out before you've noticed you left. |
+| `shadows[4].bands` | open |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -33,21 +73,10 @@
 
 | Field | Value |
 |---|---|
+| `ore_gifts_shadows_note` | MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git. |
 | `subtitle` | More beneath the surface than is ever shown · The Intelligence Impulse (Yang) |
 | `chips` | Expansive · Systemic · Depth-witholding · Untranslatable · Ambition without edges |
 | `yourNature_phrase` | The River Cartographer |
-| `gifts[0].phrase` | The Deeper Process |
-| `gifts[0].desc` | You hold more variables and implications at once than a situation seems to warrant, and others sense it as intelligence before they can name it. |
-| `gifts[1].phrase` | The Structural Depth |
-| `gifts[1].desc` | Your depth was there before anything was added to it — not accumulated through study but the shape of how you're made. |
-| `gifts[2].phrase` | The Wide System |
-| `gifts[2].desc` | You see how the whole thing connects while others are still examining the parts, and you move by the map rather than the moment. |
-| `shadows[0].phrase` | The Translation Gap |
-| `shadows[0].desc` | The distance between how deep you actually think and what you can get a room to understand is the friction you live inside. |
-| `shadows[1].phrase` | The Withheld Depth |
-| `shadows[1].desc` | You disclose so little of what's beneath the surface that even people close to you work from a fraction of you. |
-| `shadows[2].phrase` | The Edgeless Reach |
-| `shadows[2].desc` | Your ambition has no natural limit, so without banks to define it the current can flood every direction at once and arrive nowhere. |
 | `elementIntro.punch` | The Ocean is Yang Water — vast deep that holds more than it shows. |
 | `elementIntro.expand` | Expansive and unannounced, it processes at a depth most rooms cannot follow, moving currents of intelligence beneath an unremarkable surface. |
 | `manual.concentrated` | Everything flows at once — career mobility, intellectual expansion, ambition, opportunity. High energy. But excess 壬 without structure disperses: the intelligence ranges without landing, the ambition floods available structure, the movement goes in too many directions simultaneously. Classical texts warn 壬水泛滥 (Yang Water flooding) — when the Ocean overflows its banks, it doesn't irrigate the field; it destroys the crop. The environment becomes intellectually stimulating but practically unproductive. Too many currents pull in too many directions and nothing actually advances. |

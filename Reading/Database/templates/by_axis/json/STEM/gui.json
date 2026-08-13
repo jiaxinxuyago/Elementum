@@ -28,8 +28,84 @@
     "dm_mechanism": "Yin Water that finds every opening — perception that travels where pressure cannot.",
     "yourNature_desc": "You feel what a day is carrying before anyone says so, and you take it in the way ground takes rain. Most of it grows something. Some of it was never yours to hold, and telling the difference is the quiet work of your life.",
     "dm_overview": "The Rain is Yin Water, the softest instrument in the set. It works by taking things in: feelings arrive before reasons, moods soak through whatever's between you, and every change it makes starts from inside whoever it reached. Nothing gets pushed. Everything gets absorbed. The open question this nature lives with is where the water ends and the ground begins.",
+    "gifts": [
+      {
+        "phrase": "Feels the undercurrent",
+        "dim": "mind",
+        "desc": "You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Finds the words",
+        "dim": "communication",
+        "desc": "Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Knows what helps",
+        "dim": "care",
+        "desc": "Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It’s why your comfort actually lands.",
+        "bands": [
+          "concentrated"
+        ]
+      },
+      {
+        "phrase": "Gentle confidant",
+        "dim": "bonds",
+        "desc": "People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you’ve never broken it.",
+        "bands": [
+          "balanced",
+          "open"
+        ]
+      },
+      {
+        "phrase": "Changes minds softly",
+        "dim": "influence",
+        "desc": "Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did.",
+        "bands": [
+          "open"
+        ]
+      }
+    ],
+    "shadows": [
+      {
+        "phrase": "Absorbs everything",
+        "dim": "self",
+        "desc": "You walk in fine and leave carrying the argument two strangers had near you. Other people’s weather soaks straight through your coat.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Blurred boundaries",
+        "dim": "boundaries",
+        "desc": "Halfway through comforting someone, the sadness stops being theirs and starts being yours. Whose feeling this was gets genuinely hard to say.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Cares too much",
+        "dim": "bonds",
+        "desc": "You tend everyone at the depth you wish someone would tend you. The wish part goes quietly unfilled, year after year.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Takes it home",
+        "dim": "saturation",
+        "desc": "The hospital shift, the friend's divorce, the stranger's bad day. It all comes home in you and sits at your table through dinner.",
+        "bands": [
+          "concentrated"
+        ]
+      },
+      {
+        "phrase": "Washed out",
+        "dim": "self",
+        "desc": "Too many storms absorbed, not enough drained. The sensitivity that makes you extraordinary has been running without a dry season in years.",
+        "bands": [
+          "open"
+        ]
+      }
+    ],
     "__ore": {
       "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
+      "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
       "subtitle": "Knows what is true before it is spoken · The Intelligence Impulse (Yin)",
       "chips": [
         "Attuned",
@@ -39,34 +115,6 @@
         "Lost in own fog"
       ],
       "yourNature_phrase": "The Court Oracle",
-      "gifts": [
-        {
-          "phrase": "The Felt Truth",
-          "desc": "You know what's real in a room before anyone says it — the knowing arrives as a felt sense, ahead of any reasoning."
-        },
-        {
-          "phrase": "The Calibrated Care",
-          "desc": "You nourish people in the specific way each one actually needs, which makes them feel genuinely known rather than simply seen."
-        },
-        {
-          "phrase": "The Almost-True Named",
-          "desc": "You find the exact words for the thing someone half-knew, and they realize it was there in them all along."
-        }
-      ],
-      "shadows": [
-        {
-          "phrase": "The Borrowed Feeling",
-          "desc": "You absorb the emotional reality around you so completely that the line between what's yours and what isn't can dissolve before you notice."
-        },
-        {
-          "phrase": "The Carried Home",
-          "desc": "In charged environments you don't just witness the difficulty — you take it with you, and the accumulation has real weight."
-        },
-        {
-          "phrase": "The Care That Outpaces Return",
-          "desc": "You care for others at the depth you wish you were cared for, so the giving quietly runs ahead of what comes back."
-        }
-      ],
       "elementIntro": {
         "punch": "The Rain is Yin Water — pervasive moisture that seeps into everything.",
         "expand": "Permeable and quietly knowing, it senses what is true before it is spoken, absorbing the emotional weather of whatever it falls through."

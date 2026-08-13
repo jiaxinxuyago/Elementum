@@ -49,8 +49,19 @@ export function archetypeKeyFor(stem, chart) {
     || `${stem}_${getEnergyBand(chart?.dayMaster?.strength || 'moderate')}_${chart?.tgPattern || 'pure'}`;
 }
 
+// Select a chart's ×3 from a band-tagged pool (REA_16 §3 selection law):
+// items tagged with this band first, then all-tagged items in pool order.
+// Untagged items count as all-tagged, so legacy ×3 arrays pass through intact.
+export function selectPoolByBand(pool, band) {
+  if (!Array.isArray(pool)) return [];
+  const tagged = pool.filter((it) => Array.isArray(it.bands) && it.bands.includes(band));
+  const alls = pool.filter((it) => !Array.isArray(it.bands));
+  return [...tagged, ...alls].slice(0, 3);
+}
+
 // Merge the pre-generated archetypeKey variant (yourNature / gifts / shadows)
 // over the stem baseline. Returns a baseline-shaped object, variant-enriched.
+// gifts/shadows come back band-selected ×3 (winning pool → selectPoolByBand).
 export function resolveArchetype(stem, baseline, chart) {
   if (!baseline) return baseline;
   // Variant lookup with a fallback chain (Group C) so a stem can ship concise
@@ -66,7 +77,7 @@ export function resolveArchetype(stem, baseline, chart) {
   return {
     ...baseline,
     yourNature: { ...(baseline.yourNature || {}), ...(v.yourNature || {}) },
-    gifts: (v.gifts && v.gifts.length) ? v.gifts : baseline.gifts,
-    shadows: (v.shadows && v.shadows.length) ? v.shadows : baseline.shadows,
+    gifts: selectPoolByBand((v.gifts && v.gifts.length) ? v.gifts : baseline.gifts, band),
+    shadows: selectPoolByBand((v.shadows && v.shadows.length) ? v.shadows : baseline.shadows, band),
   };
 }

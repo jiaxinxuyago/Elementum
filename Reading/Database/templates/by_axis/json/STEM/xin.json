@@ -28,8 +28,84 @@
     "dm_mechanism": "Yin Metal refined under pressure — an edge made keen by polishing, not by force.",
     "yourNature_desc": "You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required.",
     "dm_overview": "The Jewel is Yin Metal, the refined form of the element. It works by noticing: a flaw shows itself to you instantly, and precision is applied at close range, to small surfaces, over long hours. The finest judgment in the set turns inward by default. That's the tax of this nature. The same eye that makes the work excellent keeps turning back on its maker, and no outside praise ever settles it.",
+    "gifts": [
+      {
+        "phrase": "Impeccable taste",
+        "dim": "mind",
+        "desc": "You know the good one from the almost-good one at a glance, the way some people can tell a note is flat. Friends borrow your eye before they buy.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Quality guaranteed",
+        "dim": "work",
+        "desc": "Nothing leaves your hands that you don't believe in. Years later your work is the one still holding up under inspection.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Spots the crack",
+        "dim": "foresight",
+        "desc": "You saw the flaw three months before it became the problem. You usually say it out loud exactly once, and then wait.",
+        "bands": [
+          "concentrated"
+        ]
+      },
+      {
+        "phrase": "Notices the effort",
+        "dim": "bonds",
+        "desc": "The detail someone worked hardest on, the one everyone else missed, is the first thing you praise. Being appreciated by you means something because you actually looked.",
+        "bands": [
+          "balanced",
+          "open"
+        ]
+      },
+      {
+        "phrase": "Understated excellence",
+        "dim": "self",
+        "desc": "You don't advertise, compete, or explain. The work speaks quietly, the taste shows in small choices, and the people who know, know.",
+        "bands": [
+          "open"
+        ]
+      }
+    ],
+    "shadows": [
+      {
+        "phrase": "Never satisfied",
+        "dim": "self",
+        "desc": "The finish line moves the moment you approach it. Done exists for other people’s work. Yours is only ever paused.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Hard to impress",
+        "dim": "people",
+        "desc": "People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Chronically disappointed",
+        "dim": "outlook",
+        "desc": "You can always see the better version that doesn’t exist. The gap between possible and actual never quite closes, and living in it wears.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Polishes forever",
+        "dim": "work",
+        "desc": "The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive.",
+        "bands": [
+          "concentrated"
+        ]
+      },
+      {
+        "phrase": "Sells self short",
+        "dim": "self",
+        "desc": "The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly.",
+        "bands": [
+          "open"
+        ]
+      }
+    ],
     "__ore": {
       "note": "legacy corpus carried as mining material (fates pending rulings incl. §7 #4 / provisional R4)",
+      "ore_gifts_shadows_note": "MINED 2026-08-05 — the ore gifts/shadows were rewritten into the candidates-level tagged pools above (band-tier campaign block B); priors in git.",
       "subtitle": "Quality perceived as temperature — before the question forms · The Definition Impulse (Yin)",
       "chips": [
         "Discerning",
@@ -39,34 +115,6 @@
         "Distance through refinement"
       ],
       "yourNature_phrase": "The Jade Appraiser",
-      "gifts": [
-        {
-          "phrase": "The Quality Sense",
-          "desc": "You register whether something is genuinely excellent automatically, before the question forms — the way others register temperature."
-        },
-        {
-          "phrase": "The Standard Kept",
-          "desc": "You cannot bring yourself to release work you don't believe in, so what you do produce holds up under examination and over time."
-        },
-        {
-          "phrase": "The Early Flaw",
-          "desc": "You've already seen the flaw that becomes a problem three months from now, even if you haven't said it out loud yet."
-        }
-      ],
-      "shadows": [
-        {
-          "phrase": "The Never Finished",
-          "desc": "The faculty that produces excellence keeps refining past completion, delaying what's ready and exhausting precision on what doesn't need it."
-        },
-        {
-          "phrase": "The Standing Dissatisfaction",
-          "desc": "The gap between what you can perceive as possible and what the world offers stays open, and in lesser conditions it turns chronic."
-        },
-        {
-          "phrase": "The Standard Turned Inward",
-          "desc": "The measure you hold everything to, you hold yourself to hardest, so you're rarely quite satisfied with who you are right now."
-        }
-      ],
       "elementIntro": {
         "punch": "The Jewel is Yin Metal — the refined edge that reveals true worth.",
         "expand": "Exacting and aesthetically certain, it senses quality the way others sense cold, and is never quite satisfied with what merely passes."
