@@ -407,8 +407,9 @@ function ChartView({ birthData, chart, tier, setTier, currentScreen, goto, seed,
 // ═══════════════════════════════════════════════════════════════════
 
 // Which variable surfaces are ON SCREEN per app screen. Journey sub-screens
-// (catalogue / daymaster / element inside JourneyStage) arrive via the
-// dev-only 'journey-screen' event since they are not hash routes.
+// (catalogue / element inside JourneyStage; the daymaster sub-screen retired
+// 2026-08-13) arrive via the dev-only 'journey-screen' event since they are
+// not hash routes.
 const SURFACE = {
   identity: 'Identity · Reveal plate + Share card',
   catalogue: 'Catalogue · Folio + Panels + Pills',
@@ -419,7 +420,6 @@ const SURFACE = {
 function surfacesFor(screen, journeyScreen) {
   if (screen === 'reveal') return [SURFACE.identity];
   if (screen === 'app-reading' || screen === 'app-energymap') {
-    if (journeyScreen === 'daymaster') return [SURFACE.daymaster];
     if (journeyScreen === 'element') return [SURFACE.element];
     return [SURFACE.identity, SURFACE.catalogue];
   }

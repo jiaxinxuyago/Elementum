@@ -357,26 +357,3 @@ export function buildElementScreen(model, el) {
   };
 }
 
-// Day-master screen prescription cards (element-generic interim copy)
-export function buildDmCards(model) {
-  const need = model.seek[0];
-  const ease = model.skip.find((r) => !r.isCore) || model.skip[0];
-  const cards = [];
-  if (need) {
-    cards.push({
-      kind: 'up',
-      lab: `SEEK THIS · ${need.name.toUpperCase()}`,
-      body: need.missing
-        ? `${need.name} is the energy you don’t carry — the one your chart asks for most. Borrow it daily${model.seek.filter((c) => !c.missing && c.el !== need.el).length ? `, through ${model.seek.filter((c) => !c.missing && c.el !== need.el).map((c) => c.name).join(' and ')}` : ''}.`
-        : `${need.name} is the energy your chart asks for — thin in you and worth feeding. Seek it on purpose.`,
-    });
-  }
-  if (ease) {
-    cards.push({
-      kind: 'down',
-      lab: `SKIP THIS · ${ease.name.toUpperCase()}`,
-      body: `${ease.name} is already rich in you — more of it weighs the core. Stop adding; let what you have ease.`,
-    });
-  }
-  return cards;
-}

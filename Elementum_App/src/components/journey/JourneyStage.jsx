@@ -23,7 +23,7 @@ import { useReading } from '../reading/useReading.js';
 import { STEM_CARD_DATA } from '../../content/index.js';
 import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
 import { APP_URL } from '../../infra/index.js';
-import { buildJourneyModel, buildElementScreen, buildDmCards, buildGlossary } from './journeyData.js';
+import { buildJourneyModel, buildElementScreen, buildGlossary } from './journeyData.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
 
@@ -342,7 +342,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
 
 
   const elScreen = elOpen ? buildElementScreen(m, elOpen) : null;
-  const dmCards = buildDmCards(m);
   const glossary = buildGlossary(m);
   const condIcon = m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged';
   const fnNote = fnOpen ? glossary[fnOpen] : null;
@@ -399,7 +398,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                         <div className="kws">{(m.stemKeywords || []).map((k) => <span className="kw" key={k}>{k}</span>)}</div>
                         {/* Owner ruling 2026-08-05: the hero arrow goes STRAIGHT to the
                             full Day Master page (P4, app-daymaster) — the journey's
-                            internal daymaster sub-screen is bypassed (fate folds into R4). */}
+                            internal daymaster sub-screen was retired (owner, 2026-08-13). */}
                         <button className="readcirc" aria-label="Read your Day Master" onClick={() => onOpenDayMaster && onOpenDayMaster()}><Use id="ico-arrow-r" /></button>
                       </div>
                     </div>
@@ -567,31 +566,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                 </div>
               </div>
             </div>
-          </div>
-
-          {/* ── day master ── */}
-          <div className={`jscreen${screen === 'daymaster' ? ' active' : ''}`} data-screen="daymaster">
-            <div className="plateimg a-plate-rice" />
-            <div className="eltint" />
-            <button className="backrow" aria-label="Back to Readings" onClick={() => goScreen('catalogue')}><span className="bico"><Use id="ico-chev-l" /></span><span className="bl">YOUR READING · DAY MASTER</span></button>
-            <div className="scrollwrap"><div className="padv2">
-              <div className="dm-hero">
-                <span className="dm-seal"><img src={sealSrc} alt={`${m.stem} ${m.archetype}`} /></span>
-                <span className="kick" style={{ fontFamily: 'Cinzel,Georgia,serif', fontSize: 9, letterSpacing: '2.5px', color: 'var(--bronzeDark)', textTransform: 'uppercase' }}>Your day master</span>
-                <span className="dm-arch">{m.archetype}</span>
-                <span className="dm-pin">{m.pinyin}</span>
-                <span className="chip-core">Core · {m.core.presence}%</span>
-                <p className="dm-man">{m.manifesto}</p>
-              </div>
-              <div className="cardstock"><span className="laylab">WHO YOU ARE</span><p className="serifline" style={{ margin: 0 }}>{STEM_CARD_DATA[m.stem]?.yourNature?.desc || m.inscription}</p></div>
-              {dmCards.map((c) => (
-                <div key={c.lab} className="cardstock" style={{ borderLeft: `3px solid var(--${c.kind})` }}>
-                  <span className="laylab" style={{ color: `var(--${c.kind})` }}>{c.lab}</span>
-                  <p className="body2" style={{ margin: 0 }}>{c.body}</p>
-                </div>
-              ))}
-              <button className="pill-cta" style={{ marginTop: 2 }} onClick={() => onOpenDayMaster && onOpenDayMaster()}>The full Day Master reading <Use id="ico-arrow-r" /></button>
-            </div></div>
           </div>
 
           {/* ── element reading ── */}
