@@ -27,43 +27,43 @@
 | `yourNature_desc` | You make the people around you better, mostly by giving them somewhere good to grow. Nobody performs it less than you do. Season after season the same trade repeats, your ground for their growing, and you notice what it's costing you about a season too late. |
 | `dm_overview` | The Field is Yin Earth, the cultivated form of ground. It works by providing: conditions get made, nutrients get given, and other things grow because the soil quietly spent itself on them. Patience is structural here, measured in seasons rather than days. The ledger of this nature runs generous and slow. It gives first, counts later, and the counting usually arrives after the harvest has already left. |
 | `gifts[0].phrase` | Anticipates needs |
-| `gifts[0].dim` | people |
+| `gifts[0].dim` | preempts needs |
 | `gifts[0].desc` | The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did. |
 | `gifts[0].bands` | all |
 | `gifts[1].phrase` | Grows people |
-| `gifts[1].dim` | influence |
+| `gifts[1].dim` | others flourish |
 | `gifts[1].desc` | People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly. |
 | `gifts[1].bands` | all |
 | `gifts[2].phrase` | Keeps every promise |
-| `gifts[2].dim` | reliability |
+| `gifts[2].dim` | word holds |
 | `gifts[2].desc` | Your care doesn't have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that. |
 | `gifts[2].bands` | concentrated |
 | `gifts[3].phrase` | Restful company |
-| `gifts[3].dim` | bonds |
+| `gifts[3].dim` | puts at ease |
 | `gifts[3].desc` | Nobody performs around you. Friends unclench, say the true version, and stay an hour longer than they planned. Your presence works like fallow ground. |
 | `gifts[3].bands` | balanced · open |
 | `gifts[4].phrase` | Quietly essential |
-| `gifts[4].dim` | self |
+| `gifts[4].dim` | missed when gone |
 | `gifts[4].desc` | Nothing about you announces itself. But when you step back for a while, everything wilts a little, and everyone finally notices who was watering. |
 | `gifts[4].bands` | open |
-| `shadows[0].phrase` | Always the giver |
-| `shadows[0].dim` | self |
-| `shadows[0].desc` | The ledger with everyone you love runs lopsided, and you noticed years later than you should have. Giving never felt like spending until the account ran low. |
+| `shadows[0].phrase` | Too agreeable |
+| `shadows[0].dim` | wants unvoiced |
+| `shadows[0].desc` | The group picks the plan and you say it's fine. It usually is. Somewhere under all the years of fine sits a list of things you actually wanted that nobody has ever heard. |
 | `shadows[0].bands` | all |
 | `shadows[1].phrase` | Neglects own growth |
-| `shadows[1].dim` | growth |
+| `shadows[1].dim` | self unattended |
 | `shadows[1].desc` | Everyone else's garden is thriving under your care. Yours is the one with the weeds, waiting for a season you never schedule. |
 | `shadows[1].bands` | all |
 | `shadows[2].phrase` | Can't say no |
-| `shadows[2].dim` | boundaries |
+| `shadows[2].dim` | reflex yes |
 | `shadows[2].desc` | The request lands and the yes is out before you've checked the calendar or the tank. Refusing feels like frost, so you never learned it. |
 | `shadows[2].bands` | all |
 | `shadows[3].phrase` | Smothers a little |
-| `shadows[3].dim` | care |
+| `shadows[3].dim` | over-tends |
 | `shadows[3].desc` | Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed. |
 | `shadows[3].bands` | concentrated |
 | `shadows[4].phrase` | Worn thin |
-| `shadows[4].dim` | self |
+| `shadows[4].dim` | soil exhausted |
 | `shadows[4].desc` | Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field. |
 | `shadows[4].bands` | open |
 

@@ -31,19 +31,19 @@
     "gifts": [
       {
         "phrase": "First to move",
-        "dim": "initiative",
+        "dim": "starts first",
         "desc": "While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up.",
         "bands": "all"
       },
       {
         "phrase": "Raises everyone's game",
-        "dim": "influence",
+        "dim": "raises ambitions",
         "desc": "People around you end up aiming higher than they meant to. Your reach quietly becomes the new ceiling, and nobody remembers deciding that.",
         "bands": "all"
       },
       {
         "phrase": "Builds to last",
-        "dim": "work",
+        "dim": "durable building",
         "desc": "You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down.",
         "bands": [
           "concentrated"
@@ -51,7 +51,7 @@
       },
       {
         "phrase": "Keeps the faith",
-        "dim": "self",
+        "dim": "keeps believing",
         "desc": "You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter.",
         "bands": [
           "balanced",
@@ -60,7 +60,7 @@
       },
       {
         "phrase": "Unhurried growth",
-        "dim": "tempo",
+        "dim": "quiet compounding",
         "desc": "Your progress doesn't look dramatic day to day. Then people look up and the sapling they remember is somehow taller than the fence.",
         "bands": [
           "open"
@@ -70,25 +70,25 @@
     "shadows": [
       {
         "phrase": "Outpaces people",
-        "dim": "bonds",
+        "dim": "leaves people behind",
         "desc": "The people who love you often feel a step behind. The reaching never slows quite enough to let them catch up.",
         "bands": "all"
       },
       {
-        "phrase": "Can't sit still",
-        "dim": "self",
-        "desc": "Rest reads as losing ground. Even on the beach you're mapping the next climb, and stillness starts to itch within the hour.",
+        "phrase": "Asks for nothing",
+        "dim": "pride blocks asking",
+        "desc": "Help is right there and you know it. You'd still rather struggle in private than let anyone watch you need something. Asking feels like shrinking an inch you can't get back.",
         "bands": "all"
       },
       {
         "phrase": "Leaves things unfinished",
-        "dim": "work",
+        "dim": "abandons foundations",
         "desc": "You commit hard, build fast, then spot the next mountain before this one is settled. Someone else ends up pouring the foundation you sketched.",
         "bands": "all"
       },
       {
         "phrase": "Charges ahead",
-        "dim": "judgment",
+        "dim": "ignores warnings",
         "desc": "When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff.",
         "bands": [
           "concentrated"
@@ -96,7 +96,7 @@
       },
       {
         "phrase": "Slow to launch",
-        "dim": "tempo",
+        "dim": "delayed first step",
         "desc": "The direction is clear and the wanting is real, but the first step keeps waiting for a readier day. The path doesn't mind. The calendar does.",
         "bands": [
           "open"

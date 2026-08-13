@@ -27,43 +27,43 @@
 | `yourNature_desc` | You get where you were going, one way or another, and you make it look easy enough that people miss how hard it was. The route changes constantly. The destination never has. Being flexible gets read as being soft, and you stopped correcting that a long time ago. It's useful. |
 | `dm_overview` | The Vine is Yin Wood, growth that works sideways. It works by adapting: where the straight path is blocked it finds the gap, the wall becomes a ladder, and the long way around still ends at the same destination. Nothing about it is fragile. The bending that looks like weakness is the exact mechanism of its strength, which is why this nature gets underestimated by almost everyone, usually once. |
 | `gifts[0].phrase` | Nobody's fool |
-| `gifts[0].dim` | mind |
+| `gifts[0].dim` | sees through fronts |
 | `gifts[0].desc` | You clock the difference between what's said and what's meant almost instantly. People stopped managing you long ago. It never worked. |
 | `gifts[0].bands` | all |
 | `gifts[1].phrase` | Finds another way |
-| `gifts[1].dim` | method |
+| `gifts[1].dim` | routes around obstacles |
 | `gifts[1].desc` | Where others push the locked door harder, you're already around the back. You arrive where you meant to, by a path nobody predicted. |
 | `gifts[1].bands` | all |
 | `gifts[2].phrase` | Wins people over |
-| `gifts[2].dim` | people |
+| `gifts[2].dim` | slow-earned trust |
 | `gifts[2].desc` | Not loudly, and not fast. But give it a season and the skeptics are asking your opinion first. Trust built your way tends to hold. |
 | `gifts[2].bands` | concentrated |
 | `gifts[3].phrase` | Attentive friend |
-| `gifts[3].dim` | bonds |
+| `gifts[3].dim` | tracks unspoken needs |
 | `gifts[3].desc` | You track what the people around you need without being told. The birthday, the hard week, the thing they mentioned once in passing. You caught it. |
 | `gifts[3].bands` | balanced · open |
 | `gifts[4].phrase` | Quiet survivor |
-| `gifts[4].dim` | self |
+| `gifts[4].dim` | outlasts storms |
 | `gifts[4].desc` | The storms that snapped stronger-looking people somehow didn't end you. You bent, waited, and grew back. It's a longer game than anyone realizes. |
 | `gifts[4].bands` | open |
 | `shadows[0].phrase` | Swallows own needs |
-| `shadows[0].dim` | self |
+| `shadows[0].dim` | needs unspoken |
 | `shadows[0].desc` | You know what everyone else needs before they say it. Yours stay unspoken, and people learn there's no need to check on you. There is. |
 | `shadows[0].bands` | all |
 | `shadows[1].phrase` | Easily underestimated |
-| `shadows[1].dim` | people |
+| `shadows[1].dim` | work invisible |
 | `shadows[1].desc` | The work you do bends around obstacles so smoothly that nobody sees the work. They see luck, or ease. You know it was neither. |
 | `shadows[1].bands` | all |
 | `shadows[2].phrase` | Bends too far |
-| `shadows[2].dim` | limits |
+| `shadows[2].dim` | shape lost |
 | `shadows[2].desc` | You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you're holding stops being yours. |
 | `shadows[2].bands` | all |
-| `shadows[3].phrase` | Overly roundabout |
-| `shadows[3].dim` | method |
-| `shadows[3].desc` | Sometimes the direct sentence would have taken ten seconds. You spent three weeks routing around a conversation that, it turns out, would have gone fine. |
+| `shadows[3].phrase` | Suspects an angle |
+| `shadows[3].dim` | over-reads motives |
+| `shadows[3].desc` | You can't quite take kindness at face value. Somewhere in you a quiet analyst asks what this person is really after. Sometimes the answer was nothing, and the wondering showed. |
 | `shadows[3].bands` | concentrated |
 | `shadows[4].phrase` | Loses the thread |
-| `shadows[4].dim` | direction |
+| `shadows[4].dim` | destination drifts |
 | `shadows[4].desc` | With no wall to climb, the winding can forget where it was going. You're flexible about the route, and lately, quietly, about the destination too. |
 | `shadows[4].bands` | open |
 

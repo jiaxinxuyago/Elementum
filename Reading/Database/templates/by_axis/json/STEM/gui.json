@@ -31,19 +31,19 @@
     "gifts": [
       {
         "phrase": "Feels the undercurrent",
-        "dim": "mind",
+        "dim": "reads the unsaid",
         "desc": "You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence.",
         "bands": "all"
       },
       {
         "phrase": "Finds the words",
-        "dim": "communication",
+        "dim": "names feelings",
         "desc": "Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it.",
         "bands": "all"
       },
       {
         "phrase": "Knows what helps",
-        "dim": "care",
+        "dim": "calibrated remedy",
         "desc": "Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It’s why your comfort actually lands.",
         "bands": [
           "concentrated"
@@ -51,7 +51,7 @@
       },
       {
         "phrase": "Gentle confidant",
-        "dim": "bonds",
+        "dim": "trusted with fragile",
         "desc": "People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you’ve never broken it.",
         "bands": [
           "balanced",
@@ -60,7 +60,7 @@
       },
       {
         "phrase": "Changes minds softly",
-        "dim": "influence",
+        "dim": "gradual influence",
         "desc": "Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did.",
         "bands": [
           "open"
@@ -70,34 +70,34 @@
     "shadows": [
       {
         "phrase": "Absorbs everything",
-        "dim": "self",
+        "dim": "soaks others weather",
         "desc": "You walk in fine and leave carrying the argument two strangers had near you. Other people’s weather soaks straight through your coat.",
         "bands": "all"
       },
       {
-        "phrase": "Blurred boundaries",
-        "dim": "boundaries",
-        "desc": "Halfway through comforting someone, the sadness stops being theirs and starts being yours. Whose feeling this was gets genuinely hard to say.",
-        "bands": "all"
-      },
-      {
-        "phrase": "Cares too much",
-        "dim": "bonds",
-        "desc": "You tend everyone at the depth you wish someone would tend you. The wish part goes quietly unfilled, year after year.",
-        "bands": "all"
-      },
-      {
-        "phrase": "Takes it home",
-        "dim": "saturation",
-        "desc": "The hospital shift, the friend's divorce, the stranger's bad day. It all comes home in you and sits at your table through dinner.",
+        "phrase": "Feelings as facts",
+        "dim": "hunch overtrusted",
+        "desc": "When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one.",
         "bands": [
           "concentrated"
         ]
       },
       {
-        "phrase": "Washed out",
-        "dim": "self",
-        "desc": "Too many storms absorbed, not enough drained. The sensitivity that makes you extraordinary has been running without a dry season in years.",
+        "phrase": "Avoids the fight",
+        "dim": "goes around conflict",
+        "desc": "You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Marinates in it",
+        "dim": "feelings steep",
+        "desc": "The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep.",
+        "bands": "all"
+      },
+      {
+        "phrase": "Doubts the signal",
+        "dim": "hunch overruled",
+        "desc": "The hunch was right, and you overruled it anyway because three people sounded surer than you felt. You've learned to poll before trusting the one instrument that was working.",
         "bands": [
           "open"
         ]

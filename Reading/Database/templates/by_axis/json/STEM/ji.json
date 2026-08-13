@@ -31,19 +31,19 @@
     "gifts": [
       {
         "phrase": "Anticipates needs",
-        "dim": "people",
+        "dim": "preempts needs",
         "desc": "The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did.",
         "bands": "all"
       },
       {
         "phrase": "Grows people",
-        "dim": "influence",
+        "dim": "others flourish",
         "desc": "People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly.",
         "bands": "all"
       },
       {
         "phrase": "Keeps every promise",
-        "dim": "reliability",
+        "dim": "word holds",
         "desc": "Your care doesn't have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that.",
         "bands": [
           "concentrated"
@@ -51,7 +51,7 @@
       },
       {
         "phrase": "Restful company",
-        "dim": "bonds",
+        "dim": "puts at ease",
         "desc": "Nobody performs around you. Friends unclench, say the true version, and stay an hour longer than they planned. Your presence works like fallow ground.",
         "bands": [
           "balanced",
@@ -60,7 +60,7 @@
       },
       {
         "phrase": "Quietly essential",
-        "dim": "self",
+        "dim": "missed when gone",
         "desc": "Nothing about you announces itself. But when you step back for a while, everything wilts a little, and everyone finally notices who was watering.",
         "bands": [
           "open"
@@ -69,26 +69,26 @@
     ],
     "shadows": [
       {
-        "phrase": "Always the giver",
-        "dim": "self",
-        "desc": "The ledger with everyone you love runs lopsided, and you noticed years later than you should have. Giving never felt like spending until the account ran low.",
+        "phrase": "Too agreeable",
+        "dim": "wants unvoiced",
+        "desc": "The group picks the plan and you say it's fine. It usually is. Somewhere under all the years of fine sits a list of things you actually wanted that nobody has ever heard.",
         "bands": "all"
       },
       {
         "phrase": "Neglects own growth",
-        "dim": "growth",
+        "dim": "self unattended",
         "desc": "Everyone else's garden is thriving under your care. Yours is the one with the weeds, waiting for a season you never schedule.",
         "bands": "all"
       },
       {
         "phrase": "Can't say no",
-        "dim": "boundaries",
+        "dim": "reflex yes",
         "desc": "The request lands and the yes is out before you've checked the calendar or the tank. Refusing feels like frost, so you never learned it.",
         "bands": "all"
       },
       {
         "phrase": "Smothers a little",
-        "dim": "care",
+        "dim": "over-tends",
         "desc": "Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed.",
         "bands": [
           "concentrated"
@@ -96,7 +96,7 @@
       },
       {
         "phrase": "Worn thin",
-        "dim": "self",
+        "dim": "soil exhausted",
         "desc": "Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field.",
         "bands": [
           "open"

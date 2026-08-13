@@ -27,44 +27,44 @@
 | `yourNature_desc` | You feel what a day is carrying before anyone says so, and you take it in the way ground takes rain. Most of it grows something. Some of it was never yours to hold, and telling the difference is the quiet work of your life. |
 | `dm_overview` | The Rain is Yin Water, the softest instrument in the set. It works by taking things in: feelings arrive before reasons, moods soak through whatever's between you, and every change it makes starts from inside whoever it reached. Nothing gets pushed. Everything gets absorbed. The open question this nature lives with is where the water ends and the ground begins. |
 | `gifts[0].phrase` | Feels the undercurrent |
-| `gifts[0].dim` | mind |
+| `gifts[0].dim` | reads the unsaid |
 | `gifts[0].desc` | You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence. |
 | `gifts[0].bands` | all |
 | `gifts[1].phrase` | Finds the words |
-| `gifts[1].dim` | communication |
+| `gifts[1].dim` | names feelings |
 | `gifts[1].desc` | Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it. |
 | `gifts[1].bands` | all |
 | `gifts[2].phrase` | Knows what helps |
-| `gifts[2].dim` | care |
+| `gifts[2].dim` | calibrated remedy |
 | `gifts[2].desc` | Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It’s why your comfort actually lands. |
 | `gifts[2].bands` | concentrated |
 | `gifts[3].phrase` | Gentle confidant |
-| `gifts[3].dim` | bonds |
+| `gifts[3].dim` | trusted with fragile |
 | `gifts[3].desc` | People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you’ve never broken it. |
 | `gifts[3].bands` | balanced · open |
 | `gifts[4].phrase` | Changes minds softly |
-| `gifts[4].dim` | influence |
+| `gifts[4].dim` | gradual influence |
 | `gifts[4].desc` | Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did. |
 | `gifts[4].bands` | open |
 | `shadows[0].phrase` | Absorbs everything |
-| `shadows[0].dim` | self |
+| `shadows[0].dim` | soaks others weather |
 | `shadows[0].desc` | You walk in fine and leave carrying the argument two strangers had near you. Other people’s weather soaks straight through your coat. |
 | `shadows[0].bands` | all |
-| `shadows[1].phrase` | Blurred boundaries |
-| `shadows[1].dim` | boundaries |
-| `shadows[1].desc` | Halfway through comforting someone, the sadness stops being theirs and starts being yours. Whose feeling this was gets genuinely hard to say. |
-| `shadows[1].bands` | all |
-| `shadows[2].phrase` | Cares too much |
-| `shadows[2].dim` | bonds |
-| `shadows[2].desc` | You tend everyone at the depth you wish someone would tend you. The wish part goes quietly unfilled, year after year. |
+| `shadows[1].phrase` | Feelings as facts |
+| `shadows[1].dim` | hunch overtrusted |
+| `shadows[1].desc` | When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one. |
+| `shadows[1].bands` | concentrated |
+| `shadows[2].phrase` | Avoids the fight |
+| `shadows[2].dim` | goes around conflict |
+| `shadows[2].desc` | You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years. |
 | `shadows[2].bands` | all |
-| `shadows[3].phrase` | Takes it home |
-| `shadows[3].dim` | saturation |
-| `shadows[3].desc` | The hospital shift, the friend's divorce, the stranger's bad day. It all comes home in you and sits at your table through dinner. |
-| `shadows[3].bands` | concentrated |
-| `shadows[4].phrase` | Washed out |
-| `shadows[4].dim` | self |
-| `shadows[4].desc` | Too many storms absorbed, not enough drained. The sensitivity that makes you extraordinary has been running without a dry season in years. |
+| `shadows[3].phrase` | Marinates in it |
+| `shadows[3].dim` | feelings steep |
+| `shadows[3].desc` | The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep. |
+| `shadows[3].bands` | all |
+| `shadows[4].phrase` | Doubts the signal |
+| `shadows[4].dim` | hunch overruled |
+| `shadows[4].desc` | The hunch was right, and you overruled it anyway because three people sounded surer than you felt. You've learned to poll before trusting the one instrument that was working. |
 | `shadows[4].bands` | open |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)

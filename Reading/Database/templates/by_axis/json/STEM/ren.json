@@ -31,19 +31,19 @@
     "gifts": [
       {
         "phrase": "Big picture thinker",
-        "dim": "mind",
+        "dim": "sees whole system",
         "desc": "While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out.",
         "bands": "all"
       },
       {
-        "phrase": "Thinks in layers",
-        "dim": "depth",
-        "desc": "Your first answer already considered the five objections nobody's raised yet. People sense the depth before they can name it.",
+        "phrase": "Endlessly curious",
+        "dim": "omnivorous appetite",
+        "desc": "Every field, every stranger, every rabbit hole. Dinner with you can cross four centuries and never feel like a lecture. The appetite doesn't switch off.",
         "bands": "all"
       },
       {
         "phrase": "Thinks big",
-        "dim": "scope",
+        "dim": "drawn to scale",
         "desc": "Small plans bore you on arrival. You're drawn to the far shore, the decade plan, the version of the idea that scares the committee.",
         "bands": [
           "concentrated"
@@ -51,7 +51,7 @@
       },
       {
         "phrase": "Even keel",
-        "dim": "temperament",
+        "dim": "depth calm",
         "desc": "Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours.",
         "bands": [
           "balanced",
@@ -60,7 +60,7 @@
       },
       {
         "phrase": "Full of surprises",
-        "dim": "self",
+        "dim": "unmapped regions",
         "desc": "Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned.",
         "bands": [
           "open"
@@ -70,25 +70,25 @@
     "shadows": [
       {
         "phrase": "Lost in translation",
-        "dim": "communication",
+        "dim": "depth shrinks spoken",
         "desc": "What you actually think arrives at about a tenth of its size when spoken. The best of you doesn’t travel well in words, and meetings never see it.",
         "bands": "all"
       },
       {
         "phrase": "Hard to know",
-        "dim": "bonds",
+        "dim": "kept at fraction",
         "desc": "Even the people closest to you work from a fraction. Whole regions of you stay unmapped, not hidden exactly, just never offered.",
         "bands": "all"
       },
       {
         "phrase": "Spread too thin",
-        "dim": "direction",
+        "dim": "scattered current",
         "desc": "Everything interests you and nothing contains you, so the current runs in six directions at once. Vast motion, and some seasons, no arrival.",
         "bands": "all"
       },
       {
         "phrase": "Sweeps people along",
-        "dim": "force",
+        "dim": "consent lags force",
         "desc": "The plan was already moving before anyone agreed to it. Your current is strong enough that consent sometimes arrives after departure.",
         "bands": [
           "concentrated"
@@ -96,7 +96,7 @@
       },
       {
         "phrase": "Drifts away",
-        "dim": "presence",
+        "dim": "tide goes out",
         "desc": "Mid-conversation, mid-project, mid-year, part of you quietly leaves for open water. People feel the tide go out before you've noticed you left.",
         "bands": [
           "open"

@@ -83,7 +83,7 @@ export const STEM_CARD_DATA = {
     ],
     shadows: [
       { phrase: `Outpaces people`, desc: `The people who love you often feel a step behind. The reaching never slows quite enough to let them catch up.`, bands: 'all' },
-      { phrase: `Can't sit still`, desc: `Rest reads as losing ground. Even on the beach you're mapping the next climb, and stillness starts to itch within the hour.`, bands: 'all' },
+      { phrase: `Asks for nothing`, desc: `Help is right there and you know it. You'd still rather struggle in private than let anyone watch you need something. Asking feels like shrinking an inch you can't get back.`, bands: 'all' },
       { phrase: `Leaves things unfinished`, desc: `You commit hard, build fast, then spot the next mountain before this one is settled. Someone else ends up pouring the foundation you sketched.`, bands: 'all' },
       { phrase: `Charges ahead`, desc: `When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff.`, bands: ['concentrated'] },
       { phrase: `Slow to launch`, desc: `The direction is clear and the wanting is real, but the first step keeps waiting for a readier day. The path doesn't mind. The calendar does.`, bands: ['open'] },
@@ -200,7 +200,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       { phrase: `Swallows own needs`, desc: `You know what everyone else needs before they say it. Yours stay unspoken, and people learn there's no need to check on you. There is.`, bands: 'all' },
       { phrase: `Easily underestimated`, desc: `The work you do bends around obstacles so smoothly that nobody sees the work. They see luck, or ease. You know it was neither.`, bands: 'all' },
       { phrase: `Bends too far`, desc: `You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you're holding stops being yours.`, bands: 'all' },
-      { phrase: `Overly roundabout`, desc: `Sometimes the direct sentence would have taken ten seconds. You spent three weeks routing around a conversation that, it turns out, would have gone fine.`, bands: ['concentrated'] },
+      { phrase: `Suspects an angle`, desc: `You can't quite take kindness at face value. Somewhere in you a quiet analyst asks what this person is really after. Sometimes the answer was nothing, and the wondering showed.`, bands: ['concentrated'] },
       { phrase: `Loses the thread`, desc: `With no wall to climb, the winding can forget where it was going. You're flexible about the route, and lately, quietly, about the destination too.`, bands: ['open'] },
     ],
     blocks: [
@@ -311,10 +311,10 @@ There's also a specific interpersonal cost: people who care about you often feel
     ],
     shadows: [
       { phrase: `Runs on empty`, desc: `You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks.`, bands: 'all' },
-      { phrase: `Rarely checked on`, desc: `You make sure everyone's okay, every time. The same question comes back your way so rarely that you've stopped noticing it's missing.`, bands: 'all' },
+      { phrase: `Allergic to gloom`, desc: `A sad silence starts and you're already reaching for the joke, the fix, the bright side. Some feelings needed to sit a while longer. People learn to take their heavy things elsewhere.`, bands: 'all' },
       { phrase: `Taken for granted`, desc: `Your brightness is treated like the sun. Always there, nobody's job to maintain. The one day it dims, people ask what's wrong with you, not what it cost.`, bands: 'all' },
       { phrase: `Fills every silence`, desc: `Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade.`, bands: ['concentrated'] },
-      { phrase: `Dimmed lately`, desc: `The glow everyone remembers takes real effort now. You can still shine when it matters, but you feel the fuel spending in a way you never used to.`, bands: ['open'] },
+      { phrase: `Smiles on schedule`, desc: `The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed.`, bands: ['open'] },
     ],
     blocks: [
       {
@@ -419,7 +419,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       { phrase: `Deeply present`, desc: `When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find.`, bands: 'all' },
       { phrase: `Misses nothing`, desc: `The small tell, the changed tone, the detail everyone walked past. You caught it, and three months later it turned out to be the whole story.`, bands: 'all' },
       { phrase: `Fully committed`, desc: `What you choose gets everything you have. The people and work inside your circle never have to wonder where they stand.`, bands: ['concentrated'] },
-      { phrase: `Unforgettable listener`, desc: `People come back years later still talking about a conversation you barely remember. Being truly heard by you left a mark.`, bands: ['balanced', 'open'] },
+      { phrase: `Rekindles people`, desc: `Your belief in someone works at close range. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again.`, bands: ['balanced', 'open'] },
       { phrase: `Keeps the flame`, desc: `The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night.`, bands: ['open'] },
     ],
     shadows: [
@@ -539,7 +539,7 @@ There's also an investment asymmetry that accumulates: you give the full quality
     ],
     shadows: [
       { phrase: `Bottles it up`, desc: `The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked.`, bands: 'all' },
-      { phrase: `Forgets own needs`, desc: `You've been the reliable one so long that nobody asks what you need anymore. Somewhere along the way, you stopped asking too.`, bands: 'all' },
+      { phrase: `Waits too long`, desc: `Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it.`, bands: 'all' },
       { phrase: `Can't let go`, desc: `Jobs, grudges, houses, roles that ended years ago. Letting go feels like betraying everyone who leaned on the holding, so the grip stays closed.`, bands: 'all' },
       { phrase: `Set in stone`, desc: `Once your footing is chosen, argument becomes erosion. It works on you in centuries, not conversations. People eventually stop bringing the map.`, bands: ['concentrated'] },
       { phrase: `Quietly overwhelmed`, desc: `The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost.`, bands: ['open'] },
@@ -653,7 +653,7 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
       { phrase: `Quietly essential`, desc: `Nothing about you announces itself. But when you step back for a while, everything wilts a little, and everyone finally notices who was watering.`, bands: ['open'] },
     ],
     shadows: [
-      { phrase: `Always the giver`, desc: `The ledger with everyone you love runs lopsided, and you noticed years later than you should have. Giving never felt like spending until the account ran low.`, bands: 'all' },
+      { phrase: `Too agreeable`, desc: `The group picks the plan and you say it's fine. It usually is. Somewhere under all the years of fine sits a list of things you actually wanted that nobody has ever heard.`, bands: 'all' },
       { phrase: `Neglects own growth`, desc: `Everyone else's garden is thriving under your care. Yours is the one with the weeds, waiting for a season you never schedule.`, bands: 'all' },
       { phrase: `Can't say no`, desc: `The request lands and the yes is out before you've checked the calendar or the tank. Refusing feels like frost, so you never learned it.`, bands: 'all' },
       { phrase: `Smothers a little`, desc: `Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed.`, bands: ['concentrated'] },
@@ -989,7 +989,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
       { phrase: `Understated excellence`, desc: `You don't advertise, compete, or explain. The work speaks quietly, the taste shows in small choices, and the people who know, know.`, bands: ['open'] },
     ],
     shadows: [
-      { phrase: `Never satisfied`, desc: `The finish line moves the moment you approach it. Done exists for other people’s work. Yours is only ever paused.`, bands: 'all' },
+      { phrase: `Bruises easily`, desc: `The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep.`, bands: 'all' },
       { phrase: `Hard to impress`, desc: `People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it.`, bands: 'all' },
       { phrase: `Chronically disappointed`, desc: `You can always see the better version that doesn’t exist. The gap between possible and actual never quite closes, and living in it wears.`, bands: 'all' },
       { phrase: `Polishes forever`, desc: `The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive.`, bands: ['concentrated'] },
@@ -1096,7 +1096,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
     // GIFTS & SHADOWS — band-tagged pools ×5 (REA_16 §3 pool laws); resolveArchetype selects the chart's ×3
     gifts: [
       { phrase: `Big picture thinker`, desc: `While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out.`, bands: 'all' },
-      { phrase: `Thinks in layers`, desc: `Your first answer already considered the five objections nobody's raised yet. People sense the depth before they can name it.`, bands: 'all' },
+      { phrase: `Endlessly curious`, desc: `Every field, every stranger, every rabbit hole. Dinner with you can cross four centuries and never feel like a lecture. The appetite doesn't switch off.`, bands: 'all' },
       { phrase: `Thinks big`, desc: `Small plans bore you on arrival. You're drawn to the far shore, the decade plan, the version of the idea that scares the committee.`, bands: ['concentrated'] },
       { phrase: `Even keel`, desc: `Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours.`, bands: ['balanced', 'open'] },
       { phrase: `Full of surprises`, desc: `Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned.`, bands: ['open'] },
@@ -1218,10 +1218,10 @@ Most exchanges happen at a shallower level than where you operate. This produces
     ],
     shadows: [
       { phrase: `Absorbs everything`, desc: `You walk in fine and leave carrying the argument two strangers had near you. Other people’s weather soaks straight through your coat.`, bands: 'all' },
-      { phrase: `Blurred boundaries`, desc: `Halfway through comforting someone, the sadness stops being theirs and starts being yours. Whose feeling this was gets genuinely hard to say.`, bands: 'all' },
-      { phrase: `Cares too much`, desc: `You tend everyone at the depth you wish someone would tend you. The wish part goes quietly unfilled, year after year.`, bands: 'all' },
-      { phrase: `Takes it home`, desc: `The hospital shift, the friend's divorce, the stranger's bad day. It all comes home in you and sits at your table through dinner.`, bands: ['concentrated'] },
-      { phrase: `Washed out`, desc: `Too many storms absorbed, not enough drained. The sensitivity that makes you extraordinary has been running without a dry season in years.`, bands: ['open'] },
+      { phrase: `Feelings as facts`, desc: `When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one.`, bands: ['concentrated'] },
+      { phrase: `Avoids the fight`, desc: `You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years.`, bands: 'all' },
+      { phrase: `Marinates in it`, desc: `The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep.`, bands: 'all' },
+      { phrase: `Doubts the signal`, desc: `The hunch was right, and you overruled it anyway because three people sounded surer than you felt. You've learned to poll before trusting the one instrument that was working.`, bands: ['open'] },
     ],
     blocks: [
       {

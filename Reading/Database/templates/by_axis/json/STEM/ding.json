@@ -31,28 +31,28 @@
     "gifts": [
       {
         "phrase": "Deeply present",
-        "dim": "bonds",
+        "dim": "total attention",
         "desc": "When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find.",
         "bands": "all"
       },
       {
         "phrase": "Misses nothing",
-        "dim": "mind",
+        "dim": "catches details",
         "desc": "The small tell, the changed tone, the detail everyone walked past. You caught it, and three months later it turned out to be the whole story.",
         "bands": "all"
       },
       {
         "phrase": "Fully committed",
-        "dim": "depth",
+        "dim": "all in",
         "desc": "What you choose gets everything you have. The people and work inside your circle never have to wonder where they stand.",
         "bands": [
           "concentrated"
         ]
       },
       {
-        "phrase": "Unforgettable listener",
-        "dim": "people",
-        "desc": "People come back years later still talking about a conversation you barely remember. Being truly heard by you left a mark.",
+        "phrase": "Rekindles people",
+        "dim": "restores belief",
+        "desc": "Your belief in someone works at close range. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again.",
         "bands": [
           "balanced",
           "open"
@@ -60,7 +60,7 @@
       },
       {
         "phrase": "Keeps the flame",
-        "dim": "self",
+        "dim": "burns through dark",
         "desc": "The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night.",
         "bands": [
           "open"
@@ -70,25 +70,25 @@
     "shadows": [
       {
         "phrase": "Plays favorites",
-        "dim": "people",
+        "dim": "uneven light",
         "desc": "Whoever holds your focus gets daylight. Everyone else gets dusk. The people at the edge of your attention feel the difference, and some of them mind.",
         "bands": "all"
       },
       {
         "phrase": "One-track mind",
-        "dim": "work",
+        "dim": "single focus",
         "desc": "You genuinely cannot split the flame. The second project, the waiting text, the simmering pot. They all wait in the dark until you turn.",
         "bands": "all"
       },
       {
         "phrase": "Takes it personally",
-        "dim": "self",
+        "dim": "fused with work",
         "desc": "What you're devoted to has no separation from you. A criticism of the work lands as a criticism of your soul, every time.",
         "bands": "all"
       },
       {
         "phrase": "Comes on strong",
-        "dim": "force",
+        "dim": "too intense",
         "desc": "The full beam of your attention can arrive harder than the moment asked for. Some things needed gentle warmth and got the blowtorch.",
         "bands": [
           "concentrated"
@@ -96,7 +96,7 @@
       },
       {
         "phrase": "Hides the light",
-        "dim": "reach",
+        "dim": "withheld warmth",
         "desc": "The people who'd treasure your attention rarely get offered it first. The flame stays behind cupped hands, and whole years of warmth go unseen.",
         "bands": [
           "open"

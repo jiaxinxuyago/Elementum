@@ -31,19 +31,19 @@
     "gifts": [
       {
         "phrase": "Nobody's fool",
-        "dim": "mind",
+        "dim": "sees through fronts",
         "desc": "You clock the difference between what's said and what's meant almost instantly. People stopped managing you long ago. It never worked.",
         "bands": "all"
       },
       {
         "phrase": "Finds another way",
-        "dim": "method",
+        "dim": "routes around obstacles",
         "desc": "Where others push the locked door harder, you're already around the back. You arrive where you meant to, by a path nobody predicted.",
         "bands": "all"
       },
       {
         "phrase": "Wins people over",
-        "dim": "people",
+        "dim": "slow-earned trust",
         "desc": "Not loudly, and not fast. But give it a season and the skeptics are asking your opinion first. Trust built your way tends to hold.",
         "bands": [
           "concentrated"
@@ -51,7 +51,7 @@
       },
       {
         "phrase": "Attentive friend",
-        "dim": "bonds",
+        "dim": "tracks unspoken needs",
         "desc": "You track what the people around you need without being told. The birthday, the hard week, the thing they mentioned once in passing. You caught it.",
         "bands": [
           "balanced",
@@ -60,7 +60,7 @@
       },
       {
         "phrase": "Quiet survivor",
-        "dim": "self",
+        "dim": "outlasts storms",
         "desc": "The storms that snapped stronger-looking people somehow didn't end you. You bent, waited, and grew back. It's a longer game than anyone realizes.",
         "bands": [
           "open"
@@ -70,33 +70,33 @@
     "shadows": [
       {
         "phrase": "Swallows own needs",
-        "dim": "self",
+        "dim": "needs unspoken",
         "desc": "You know what everyone else needs before they say it. Yours stay unspoken, and people learn there's no need to check on you. There is.",
         "bands": "all"
       },
       {
         "phrase": "Easily underestimated",
-        "dim": "people",
+        "dim": "work invisible",
         "desc": "The work you do bends around obstacles so smoothly that nobody sees the work. They see luck, or ease. You know it was neither.",
         "bands": "all"
       },
       {
         "phrase": "Bends too far",
-        "dim": "limits",
+        "dim": "shape lost",
         "desc": "You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you're holding stops being yours.",
         "bands": "all"
       },
       {
-        "phrase": "Overly roundabout",
-        "dim": "method",
-        "desc": "Sometimes the direct sentence would have taken ten seconds. You spent three weeks routing around a conversation that, it turns out, would have gone fine.",
+        "phrase": "Suspects an angle",
+        "dim": "over-reads motives",
+        "desc": "You can't quite take kindness at face value. Somewhere in you a quiet analyst asks what this person is really after. Sometimes the answer was nothing, and the wondering showed.",
         "bands": [
           "concentrated"
         ]
       },
       {
         "phrase": "Loses the thread",
-        "dim": "direction",
+        "dim": "destination drifts",
         "desc": "With no wall to climb, the winding can forget where it was going. You're flexible about the route, and lately, quietly, about the destination too.",
         "bands": [
           "open"

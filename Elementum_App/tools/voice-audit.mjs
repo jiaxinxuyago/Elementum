@@ -102,6 +102,7 @@ const flatStrings = (v, prefix = '') => {
 };
 
 const gramSeen = new Map(); // `${key}|${gram}` -> Set(file)
+const poolPhraseSeen = new Map(); // `${axis}.${field}|${phrase}` -> Set(file)
 for (const axis of fs.readdirSync(STATION)) {
   const dir = path.join(STATION, axis);
   if (!fs.statSync(dir).isDirectory()) continue;
@@ -113,6 +114,24 @@ for (const axis of fs.readdirSync(STATION)) {
       const rule = ruleFor(axis, field);
       const where = `${axis}/${f} :: ${field}`;
       if (!rule) { console.log(`VOICE  ${where} :: UNREGISTERED — authored field has no REA_16 §2c row (register it before authoring)`); fail++; continue; }
+      // Tagged pools (REA_16 §3 Angle Fork law): `dim` holds each item's
+      // 3-word trait reduction — reductions and phrases must be unique
+      // within the pool, or two items are the same angle restaged.
+      if (Array.isArray(value) && value.length && value.every((it) => it && typeof it === 'object' && it.phrase && it.dim)) {
+        for (const k of ['dim', 'phrase']) {
+          const seen = new Map();
+          for (const it of value) {
+            const norm = String(it[k]).toLowerCase().trim();
+            if (seen.has(norm)) { console.log(`VOICE  ${where} :: duplicate pool ${k} "${it[k]}" (Angle Fork law — refork one item)`); fail++; }
+            seen.set(norm, true);
+          }
+        }
+        for (const it of value) {
+          const id = `${axis}.${field}|${String(it.phrase).toLowerCase().trim()}`;
+          if (!poolPhraseSeen.has(id)) poolPhraseSeen.set(id, new Set());
+          poolPhraseSeen.get(id).add(f);
+        }
+      }
       for (const [sub, text] of flatStrings(value)) {
         if (!text.trim()) continue;
         checkText(rule, sub ? `${where}.${sub}` : where, text);
@@ -132,6 +151,12 @@ for (const [id, files] of gramSeen) {
   if (files.size > 1) {
     const [key, gram] = id.split('|');
     console.log(`VOICE  scaffold repeat across stems (${key}): "${gram}" in ${[...files].join(' + ')}`); fail++;
+  }
+}
+for (const [id, files] of poolPhraseSeen) {
+  if (files.size > 1) {
+    const [key, phrase] = id.split('|');
+    console.log(`VOICE  pool phrase repeated across archetypes (${key}): "${phrase}" in ${[...files].join(' + ')}`); fail++;
   }
 }
 

@@ -31,19 +31,19 @@
     "gifts": [
       {
         "phrase": "Everyone's rock",
-        "dim": "people",
+        "dim": "others build on you",
         "desc": "Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling.",
         "bands": "all"
       },
       {
         "phrase": "Shows up regardless",
-        "dim": "reliability",
+        "dim": "stays present",
         "desc": "Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six.",
         "bands": "all"
       },
       {
         "phrase": "Unflappable",
-        "dim": "pressure",
+        "dim": "crisis calm",
         "desc": "The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be.",
         "bands": [
           "concentrated"
@@ -51,7 +51,7 @@
       },
       {
         "phrase": "Safe harbor",
-        "dim": "bonds",
+        "dim": "keeps confidences",
         "desc": "People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning.",
         "bands": [
           "balanced",
@@ -60,7 +60,7 @@
       },
       {
         "phrase": "Slow and sure",
-        "dim": "tempo",
+        "dim": "thorough tempo",
         "desc": "You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely.",
         "bands": [
           "open"
@@ -70,25 +70,25 @@
     "shadows": [
       {
         "phrase": "Bottles it up",
-        "dim": "self",
+        "dim": "silent burden",
         "desc": "The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked.",
         "bands": "all"
       },
       {
-        "phrase": "Forgets own needs",
-        "dim": "people",
-        "desc": "You've been the reliable one so long that nobody asks what you need anymore. Somewhere along the way, you stopped asking too.",
+        "phrase": "Waits too long",
+        "dim": "endures not acts",
+        "desc": "Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it.",
         "bands": "all"
       },
       {
         "phrase": "Can't let go",
-        "dim": "change",
+        "dim": "holds ended things",
         "desc": "Jobs, grudges, houses, roles that ended years ago. Letting go feels like betraying everyone who leaned on the holding, so the grip stays closed.",
         "bands": "all"
       },
       {
         "phrase": "Set in stone",
-        "dim": "flexibility",
+        "dim": "opinion rigid",
         "desc": "Once your footing is chosen, argument becomes erosion. It works on you in centuries, not conversations. People eventually stop bringing the map.",
         "bands": [
           "concentrated"
@@ -96,7 +96,7 @@
       },
       {
         "phrase": "Quietly overwhelmed",
-        "dim": "self",
+        "dim": "capacity straining",
         "desc": "The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost.",
         "bands": [
           "open"

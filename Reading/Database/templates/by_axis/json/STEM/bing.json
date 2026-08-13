@@ -31,19 +31,19 @@
     "gifts": [
       {
         "phrase": "Instantly likable",
-        "dim": "people",
+        "dim": "instant trust",
         "desc": "Strangers relax around you before you've said much of anything. Guards drop, small talk turns real, and nobody can quite explain why.",
         "bands": "all"
       },
       {
         "phrase": "Lifts the mood",
-        "dim": "influence",
+        "dim": "raises energy",
         "desc": "A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did.",
         "bands": "all"
       },
       {
         "phrase": "No hidden agenda",
-        "dim": "character",
+        "dim": "warmth believed",
         "desc": "Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out.",
         "bands": [
           "concentrated"
@@ -51,7 +51,7 @@
       },
       {
         "phrase": "First to celebrate",
-        "dim": "bonds",
+        "dim": "unenvious joy",
         "desc": "Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it.",
         "bands": [
           "balanced",
@@ -60,7 +60,7 @@
       },
       {
         "phrase": "Warms who matters",
-        "dim": "depth",
+        "dim": "focused warmth",
         "desc": "The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully.",
         "bands": [
           "open"
@@ -70,34 +70,34 @@
     "shadows": [
       {
         "phrase": "Runs on empty",
-        "dim": "self",
+        "dim": "gives past empty",
         "desc": "You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks.",
         "bands": "all"
       },
       {
-        "phrase": "Rarely checked on",
-        "dim": "people",
-        "desc": "You make sure everyone's okay, every time. The same question comes back your way so rarely that you've stopped noticing it's missing.",
+        "phrase": "Allergic to gloom",
+        "dim": "cannot sit sadness",
+        "desc": "A sad silence starts and you're already reaching for the joke, the fix, the bright side. Some feelings needed to sit a while longer. People learn to take their heavy things elsewhere.",
         "bands": "all"
       },
       {
         "phrase": "Taken for granted",
-        "dim": "recognition",
+        "dim": "cost invisible",
         "desc": "Your brightness is treated like the sun. Always there, nobody's job to maintain. The one day it dims, people ask what's wrong with you, not what it cost.",
         "bands": "all"
       },
       {
         "phrase": "Fills every silence",
-        "dim": "boundaries",
+        "dim": "overrides quiet",
         "desc": "Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade.",
         "bands": [
           "concentrated"
         ]
       },
       {
-        "phrase": "Dimmed lately",
-        "dim": "self",
-        "desc": "The glow everyone remembers takes real effort now. You can still shine when it matters, but you feel the fuel spending in a way you never used to.",
+        "phrase": "Smiles on schedule",
+        "dim": "performed warmth",
+        "desc": "The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed.",
         "bands": [
           "open"
         ]
