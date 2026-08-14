@@ -25,7 +25,7 @@
 | `dm_claims` | You read the room a beat before it reveals itself. · You reach people through the small, quiet door, not the loud one. |
 | `dm_mechanism` | Yin Water that finds every opening — perception that travels where pressure cannot. |
 | `yourNature_desc` | You feel what a day is carrying before anyone says so, and you take it in the way ground takes rain. Most of it grows something. Some of it was never yours to hold, and telling the difference is the quiet work of your life. |
-| `dm_overview` | The Rain is Yin Water, the softest instrument in the set. It works by taking things in: feelings arrive before reasons, moods soak through whatever's between you, and every change it makes starts from inside whoever it reached. Nothing gets pushed. Everything gets absorbed. The open question this nature lives with is where the water ends and the ground begins. |
+| `dm_overview` | The Rain is Yin Water, water at its gentlest phase: rain, dew, and mist, moisture that arrives everywhere and forces nothing. It closes the cycle of the ten stems, the water that returns so things can begin again. Its image is a night rain over planted fields, too soft to hear and impossible to keep out, gone by morning with everything quietly changed. |
 | `gifts[0].phrase` | Feels the undercurrent |
 | `gifts[0].dim` | unspoken feelings |
 | `gifts[0].desc` | You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence. |

@@ -25,7 +25,7 @@
 | `dm_claims` | You see the whole current while others watch the wave. · You move around obstacles rather than through them, and still arrive first. |
 | `dm_mechanism` | Yang Water that carves by patience — force that wins by not insisting. |
 | `yourNature_desc` | You think in fathoms while most conversation happens at the shoreline. What you show is a fraction of what's moving, and most of it simply doesn't travel well in words. The distance isn't loneliness exactly. It's just how far down you actually live. |
-| `dm_overview` | The Ocean is Yang Water, the deep and moving form of the element. It works by currents: thought runs far below the surface, covers distances no one watches, and comes up only where it chooses. Capacity is the defining trait, and it's mostly invisible. What this nature manages, permanently, is the gap between how much is held and how much can ever be shown. |
+| `dm_overview` | The Ocean is Yang Water, water at its greatest volume: the open sea and the long river, current that crosses distances the eye gives up on. It stands for winter's first depth, movement that continues under a still surface. Its image is the sea beyond the harbor mouth, holding storms and trade routes and whole unlit worlds, offering the shore only its edge. |
 | `gifts[0].phrase` | Big picture thinker |
 | `gifts[0].dim` | connections |
 | `gifts[0].desc` | While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out. |

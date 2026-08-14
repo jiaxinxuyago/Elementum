@@ -25,7 +25,7 @@
 | `dm_claims` | You bend where others break, and arrive intact. · You find the one opening in a wall and grow through it. |
 | `dm_mechanism` | Yin Wood that wins by yielding — resilience dressed as softness. |
 | `yourNature_desc` | You get where you were going, one way or another, and you make it look easy enough that people miss how hard it was. The route changes constantly. The destination never has. Being flexible gets read as being soft, and you stopped correcting that a long time ago. It's useful. |
-| `dm_overview` | The Vine is Yin Wood, growth that works sideways. It works by adapting: where the straight path is blocked it finds the gap, the wall becomes a ladder, and the long way around still ends at the same destination. Nothing about it is fragile. The bending that looks like weakness is the exact mechanism of its strength, which is why this nature gets underestimated by almost everyone, usually once. |
+| `dm_overview` | The Vine is Yin Wood, the living green of the system: the climbing plant rather than the trunk, grass and tendril, growth that keeps its softness. It belongs to spring's second month, when everything bends toward light by whatever route is open. Its image is the wisteria on an old wall, delicate to look at, strong enough over time to move the stones it climbs. |
 | `gifts[0].phrase` | Nobody's fool |
 | `gifts[0].dim` | reading people |
 | `gifts[0].desc` | You clock the difference between what's said and what's meant almost instantly. People stopped managing you long ago. It never worked. |

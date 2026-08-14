@@ -25,7 +25,7 @@
 | `dm_claims` | You keep a small, exact flame the wind has never found. · You would rather light one person truly than a crowd dimly. |
 | `dm_mechanism` | Yin Fire kept close — a focused heat that endures by staying contained. |
 | `yourNature_desc` | You give whatever you turn toward all of you, and people who've felt that never quite forget it. It's the closest thing to being truly seen most of them get. One flame, one circle, and a lot of patient darkness just outside it. |
-| `dm_overview` | The Candle is Yin Fire, flame at its most concentrated. It works by focus: light lands on one thing at a time, fully, and understanding goes deeper there than daylight ever reaches. The warmth is close-range and steady, made for one face rather than a crowd. What this nature pays is the edge of the circle. Whatever isn't chosen sits in the dark, and it notices. |
+| `dm_overview` | The Candle is Yin Fire, fire at the human scale: the flame you can sit beside, lamp light and hearth light, heat that has chosen its object. It stands for fire after dark, the hour when light stops being public and becomes personal. Its image is a single candle in a night window, small against the dark and completely in charge of the table it lights. |
 | `gifts[0].phrase` | Deeply present |
 | `gifts[0].dim` | one-on-one |
 | `gifts[0].desc` | When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find. |
