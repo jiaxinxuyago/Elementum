@@ -8,7 +8,7 @@
 // registry changes, update this mirror.
 // ===================================================================
 
-import { STEM_CARD_DATA, TG_PERSONA } from '../../content/index.js';
+import { STEM_CARD_DATA, TG_PERSONA, resolveArchetype } from '../../content/index.js';
 import { FACE_CARD } from '../../content/reading/index.js';
 
 const join = (xs) => xs.filter(Boolean).join(' · ');
@@ -21,10 +21,15 @@ const EL_HZ = { Metal: '金', Wood: '木', Water: '水', Fire: '火', Earth: '�
 // model = buildJourneyModel output for the active chart (null-safe).
 // activeEl = the element in focus (journey element sub-screen / app-energy
 // page) — element-scoped rows resolve for it instead of the core.
-export function buildVariableGroups(model, activeEl) {
+// chart = the active chart (null-safe: pre-onboarding there is none). Card
+// rows resolve through resolveArchetype exactly as the app's P4 does, so the
+// band variant (yourNature) and the band-selected ×3 (gifts/shadows) print
+// what is on screen; without a chart the raw stem baseline is the fallback.
+export function buildVariableGroups(model, activeEl, chart) {
   const m = model;
   const stem = m?.stem;
-  const card = stem ? STEM_CARD_DATA[stem] : null;
+  const baseline = stem ? STEM_CARD_DATA[stem] : null;
+  const card = baseline && chart ? resolveArchetype(stem, baseline, chart) : baseline;
   const towers = m ? [...m.els].sort((a, b) => b.presence - a.presence) : [];
   const perEl = (f) => join(towers.map((r) => `${r.name}:${f(r) ?? '—'}`));
 
