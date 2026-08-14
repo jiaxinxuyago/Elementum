@@ -30,19 +30,19 @@
     "dm_overview": "The Mountain is Yang Earth, the load-bearing form of ground. It works by holding: weight gets taken on steadily and set down almost never, and everything nearby learns to lean. Storms change it by inches over decades. The strength runs one direction, though. This nature carries and doesn't get carried, and it can mistake being needed for being known.",
     "gifts": [
       {
-        "phrase": "Grounding",
+        "phrase": "Everyone's rock",
         "dim": "being leaned on",
         "desc": "Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling.",
         "bands": "all"
       },
       {
-        "phrase": "Constant",
+        "phrase": "Shows up regardless",
         "dim": "showing up",
         "desc": "Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six.",
         "bands": "all"
       },
       {
-        "phrase": "Unflappable",
+        "phrase": "Calm under fire",
         "dim": "crisis",
         "desc": "The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be.",
         "bands": [
@@ -50,7 +50,7 @@
         ]
       },
       {
-        "phrase": "Trustworthy",
+        "phrase": "Safe harbor",
         "dim": "secrets",
         "desc": "People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning.",
         "bands": [
@@ -59,7 +59,7 @@
         ]
       },
       {
-        "phrase": "Thorough",
+        "phrase": "Slow and sure",
         "dim": "pace",
         "desc": "You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely.",
         "bands": [
@@ -69,25 +69,25 @@
     ],
     "shadows": [
       {
-        "phrase": "Bottled-up",
+        "phrase": "Bottles it up",
         "dim": "sharing the load",
         "desc": "The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked.",
         "bands": "all"
       },
       {
-        "phrase": "Passive",
+        "phrase": "Waits too long",
         "dim": "fixable problems",
         "desc": "Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it.",
         "bands": "all"
       },
       {
-        "phrase": "Holding on",
+        "phrase": "Can't let go",
         "dim": "endings",
         "desc": "Jobs, grudges, houses, roles that ended years ago. Letting go feels like betraying everyone who leaned on the holding, so the grip stays closed.",
         "bands": "all"
       },
       {
-        "phrase": "Stubborn",
+        "phrase": "Set in stone",
         "dim": "changing course",
         "desc": "Once your footing is chosen, argument becomes erosion. It works on you in centuries, not conversations. People eventually stop bringing the map.",
         "bands": [
@@ -95,7 +95,7 @@
         ]
       },
       {
-        "phrase": "Overloaded",
+        "phrase": "Quietly overwhelmed",
         "dim": "capacity",
         "desc": "The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost.",
         "bands": [

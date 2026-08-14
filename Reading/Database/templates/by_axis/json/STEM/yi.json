@@ -30,19 +30,19 @@
     "dm_overview": "The Vine is Yin Wood, growth that works sideways. It works by adapting: where the straight path is blocked it finds the gap, the wall becomes a ladder, and the long way around still ends at the same destination. Nothing about it is fragile. The bending that looks like weakness is the exact mechanism of its strength, which is why this nature gets underestimated by almost everyone, usually once.",
     "gifts": [
       {
-        "phrase": "Shrewd",
+        "phrase": "Nobody's fool",
         "dim": "reading people",
         "desc": "You clock the difference between what's said and what's meant almost instantly. People stopped managing you long ago. It never worked.",
         "bands": "all"
       },
       {
-        "phrase": "Inventive",
+        "phrase": "Finds another way",
         "dim": "obstacles",
         "desc": "Where others push the locked door harder, you're already around the back. You arrive where you meant to, by a path nobody predicted.",
         "bands": "all"
       },
       {
-        "phrase": "Disarming",
+        "phrase": "Wins people over",
         "dim": "trust",
         "desc": "Not loudly, and not fast. But give it a season and the skeptics are asking your opinion first. Trust built your way tends to hold.",
         "bands": [
@@ -50,7 +50,7 @@
         ]
       },
       {
-        "phrase": "Thoughtful",
+        "phrase": "Attentive friend",
         "dim": "close bonds",
         "desc": "You track what the people around you need without being told. The birthday, the hard week, the thing they mentioned once in passing. You caught it.",
         "bands": [
@@ -59,7 +59,7 @@
         ]
       },
       {
-        "phrase": "Resilient",
+        "phrase": "Quiet survivor",
         "dim": "hard seasons",
         "desc": "The storms that snapped stronger-looking people somehow didn't end you. You bent, waited, and grew back. It's a longer game than anyone realizes.",
         "bands": [
@@ -69,25 +69,25 @@
     ],
     "shadows": [
       {
-        "phrase": "Self-effacing",
+        "phrase": "Swallows own needs",
         "dim": "own needs",
         "desc": "You know what everyone else needs before they say it. Yours stay unspoken, and people learn there's no need to check on you. There is.",
         "bands": "all"
       },
       {
-        "phrase": "Underestimated",
+        "phrase": "Easily underestimated",
         "dim": "how others read you",
         "desc": "The work you do bends around obstacles so smoothly that nobody sees the work. They see luck, or ease. You know it was neither.",
         "bands": "all"
       },
       {
-        "phrase": "Yielding",
+        "phrase": "Bends too far",
         "dim": "boundaries",
         "desc": "You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you're holding stops being yours.",
         "bands": "all"
       },
       {
-        "phrase": "Distrustful",
+        "phrase": "Suspects an angle",
         "dim": "face value",
         "desc": "You can't quite take kindness at face value. Somewhere in you a quiet analyst asks what this person is really after. Sometimes the answer was nothing, and the wondering showed.",
         "bands": [
@@ -95,7 +95,7 @@
         ]
       },
       {
-        "phrase": "Adrift",
+        "phrase": "Loses the thread",
         "dim": "direction",
         "desc": "With no wall to climb, the winding can forget where it was going. You're flexible about the route, and lately, quietly, about the destination too.",
         "bands": [

@@ -30,19 +30,19 @@
     "dm_overview": "The Ocean is Yang Water, the deep and moving form of the element. It works by currents: thought runs far below the surface, covers distances no one watches, and comes up only where it chooses. Capacity is the defining trait, and it's mostly invisible. What this nature manages, permanently, is the gap between how much is held and how much can ever be shown.",
     "gifts": [
       {
-        "phrase": "Big-picture",
+        "phrase": "Big picture thinker",
         "dim": "connections",
         "desc": "While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out.",
         "bands": "all"
       },
       {
-        "phrase": "Curious",
+        "phrase": "Endlessly curious",
         "dim": "learning",
         "desc": "Every field, every stranger, every rabbit hole. Dinner with you can cross four centuries and never feel like a lecture. The appetite doesn't switch off.",
         "bands": "all"
       },
       {
-        "phrase": "Ambitious",
+        "phrase": "Thinks big",
         "dim": "horizons",
         "desc": "Small plans bore you on arrival. You're drawn to the far shore, the decade plan, the version of the idea that scares the committee.",
         "bands": [
@@ -50,7 +50,7 @@
         ]
       },
       {
-        "phrase": "Even-keeled",
+        "phrase": "Even keel",
         "dim": "under pressure",
         "desc": "Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours.",
         "bands": [
@@ -59,7 +59,7 @@
         ]
       },
       {
-        "phrase": "Layered",
+        "phrase": "Full of surprises",
         "dim": "being known",
         "desc": "Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned.",
         "bands": [
@@ -69,25 +69,25 @@
     ],
     "shadows": [
       {
-        "phrase": "Misunderstood",
+        "phrase": "Lost in translation",
         "dim": "communication",
         "desc": "What you actually think arrives at about a tenth of its size when spoken. The best of you doesn't travel well in words, and meetings never see it.",
         "bands": "all"
       },
       {
-        "phrase": "Private",
+        "phrase": "Hard to know",
         "dim": "close bonds",
         "desc": "Even the people closest to you work from a fraction. Whole regions of you stay unmapped, not hidden exactly, just never offered.",
         "bands": "all"
       },
       {
-        "phrase": "Scattered",
+        "phrase": "Spread too thin",
         "dim": "focus",
         "desc": "Everything interests you and nothing contains you, so the current runs in six directions at once. Vast motion, and some seasons, no arrival.",
         "bands": "all"
       },
       {
-        "phrase": "Forceful",
+        "phrase": "Sweeps people along",
         "dim": "momentum",
         "desc": "The plan was already moving before anyone agreed to it. Your current is strong enough that consent sometimes arrives after departure.",
         "bands": [
@@ -95,7 +95,7 @@
         ]
       },
       {
-        "phrase": "Absent",
+        "phrase": "Drifts away",
         "dim": "presence",
         "desc": "Mid-conversation, mid-project, mid-year, part of you quietly leaves for open water. People feel the tide go out before you've noticed you left.",
         "bands": [

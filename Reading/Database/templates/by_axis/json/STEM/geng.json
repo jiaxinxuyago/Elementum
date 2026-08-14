@@ -30,19 +30,19 @@
     "dm_overview": "The Blade is Yang Metal, the finished edge of the five elements. It works by sizing up: the read begins on contact and is usually over before anyone else has formed a first impression. Conclusions come early and don't move easily, and the same standard turns inward, usually harder. That's what makes this nature accurate, and what makes it trusted, though rarely in a way that feels like closeness.",
     "gifts": [
       {
-        "phrase": "Clear-eyed",
+        "phrase": "Instant character read",
         "dim": "first impressions",
         "desc": "Ten minutes into meeting someone, you already know who they are. Months later, everyone else catches up to what you saw in the first handshake.",
         "bands": "all"
       },
       {
-        "phrase": "Candid",
+        "phrase": "Straight talker",
         "dim": "communication",
         "desc": "When everyone at the table is talking around the problem, you're the one who names it. People save their hardest questions for you because you won't dress up the answer.",
         "bands": "all"
       },
       {
-        "phrase": "Composed",
+        "phrase": "Crisis performer",
         "dim": "under pressure",
         "desc": "The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved.",
         "bands": [
@@ -50,7 +50,7 @@
         ]
       },
       {
-        "phrase": "Loyal",
+        "phrase": "Quiet loyalty",
         "dim": "close bonds",
         "desc": "Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time.",
         "bands": [
@@ -59,7 +59,7 @@
         ]
       },
       {
-        "phrase": "Meticulous",
+        "phrase": "Careful finisher",
         "dim": "at work",
         "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing.",
         "bands": [
@@ -69,25 +69,25 @@
     ],
     "shadows": [
       {
-        "phrase": "Self-critical",
+        "phrase": "Own harshest critic",
         "dim": "self-worth",
         "desc": "The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days for you.",
         "bands": "all"
       },
       {
-        "phrase": "Intimidating",
+        "phrase": "Mistaken for cold",
         "dim": "how others read you",
         "desc": "New people often think you're judging them. You usually are, but not the way they fear, and by the time they learn that, some have already kept their distance.",
         "bands": "all"
       },
       {
-        "phrase": "Far-sighted",
+        "phrase": "Right too early",
         "dim": "the long view",
         "desc": "You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone.",
         "bands": "all"
       },
       {
-        "phrase": "Judgmental",
+        "phrase": "Quick to conclude",
         "dim": "second chances",
         "desc": "Once you've decided what something is, it stays decided. The person who grew, the plan that improved, the second chance that was earned, they all arrive to a door already shut.",
         "bands": [
@@ -95,7 +95,7 @@
         ]
       },
       {
-        "phrase": "Indecisive",
+        "phrase": "Endless second-guessing",
         "dim": "decision-making",
         "desc": "You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished.",
         "bands": [

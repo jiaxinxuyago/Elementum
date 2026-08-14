@@ -114,22 +114,29 @@ for (const axis of fs.readdirSync(STATION)) {
       const rule = ruleFor(axis, field);
       const where = `${axis}/${f} :: ${field}`;
       if (!rule) { console.log(`VOICE  ${where} :: UNREGISTERED — authored field has no REA_16 §2c row (register it before authoring)`); fail++; continue; }
-      // Tagged pools (REA_16 §3 dimension law v3): `phrase` = the trait
-      // (1–2 common personality words), `dim` = solely the ANGLE (the
+      // Tagged pools (REA_16 §3 pool laws): REGISTER SPLIT (v4) — keywords own
+      // the label register; pool `phrase` = the situational register (2–3
+      // everyday words, scene-in-miniature); `dim` = solely the ANGLE (the
       // life-facet lens) — never a phrase restatement. Dims and phrases
-      // must be unique within the pool, and phrase must not equal dim.
+      // unique within the pool; phrase ≠ dim; no word-root shared with the
+      // archetype's own keyword chips (catches Decisive/Indecisive collisions).
       if (Array.isArray(value) && value.length && value.every((it) => it && typeof it === 'object' && it.phrase && it.dim)) {
         for (const k of ['dim', 'phrase']) {
           const seen = new Map();
           for (const it of value) {
             const norm = String(it[k]).toLowerCase().trim();
-            if (seen.has(norm)) { console.log(`VOICE  ${where} :: duplicate pool ${k} "${it[k]}" (dimension law v3 — refork one item)`); fail++; }
+            if (seen.has(norm)) { console.log(`VOICE  ${where} :: duplicate pool ${k} "${it[k]}" (Angle law — refork one item)`); fail++; }
             seen.set(norm, true);
           }
         }
+        const kwStrip = (w) => String(w).toLowerCase().replace(/[^a-z]/g, '').replace(/^(un|in|non|dis|over|self)/, '');
+        const kws = (vars.stem_keywords || []).map(kwStrip).filter((k) => k.length >= 4);
         for (const it of value) {
           if (String(it.phrase).toLowerCase().trim() === String(it.dim).toLowerCase().trim()) { console.log(`VOICE  ${where} :: phrase equals dim ("${it.phrase}") — dim is the angle, not the trait`); fail++; }
-          if (String(it.phrase).split(/\s+/).length > 2) { console.log(`VOICE  ${where} :: phrase "${it.phrase}" over 2 words (dimension law v3)`); fail++; }
+          if (String(it.phrase).split(/\s+/).length > 3) { console.log(`VOICE  ${where} :: phrase "${it.phrase}" over 3 words (phrase law v4)`); fail++; }
+          for (const w of String(it.phrase).split(/\s+/).map(kwStrip).filter((x) => x.length >= 4)) {
+            for (const k of kws) if (w.includes(k) || k.includes(w)) { console.log(`VOICE  ${where} :: phrase "${it.phrase}" shares a root with keyword chip (${w} ~ ${k}) — register split (REA_16 §3 v4)`); fail++; }
+          }
         }
         for (const it of value) {
           const id = `${axis}.${field}|${String(it.phrase).toLowerCase().trim()}`;

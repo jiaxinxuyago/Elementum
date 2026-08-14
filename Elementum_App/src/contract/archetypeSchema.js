@@ -156,8 +156,8 @@ export const SHAPES = {
               note: 'One sharp sentence with a distinct angle.' },
   },
   TaggedPoolItem: {
-    phrase: { type: 'string', wordCap: 2, required: true,
-              note: 'The TRAIT: 1–2 common personality words (REA_16 §3 phrase law v3 — "Loyal", "Perfectionist"; no metaphor-noun titles).' },
+    phrase: { type: 'string', wordCap: 3, required: true,
+              note: 'The trait STAGED: 2–3 everyday words anchored by a noun/verb ("Straight talker", "Runs on empty") — situational register, never bare adjectives (those belong to stem_keywords; REA_16 §3 register split + phrase law v4).' },
     desc:   { type: 'string', sentenceMin: 1, sentenceMax: 3, required: true,
               note: 'The trait seen through the item\'s angle — a concrete real-life image (REA_16 §3 desc law).' },
     bands:  { type: "string[] | 'all'", required: true,
@@ -268,7 +268,7 @@ export const ARCHETYPE_SCHEMA = {
     type: 'object[]', arrayLen: 5, required: true,
     itemShape: SHAPES.TaggedPoolItem,
     note: 'Band-tagged pool (REA_16 §3 pool laws v3). selectPoolByBand picks the chart\'s trio: band-tagged items first, then all-tagged in pool order. Authored station-first; `dim` (the ANGLE — the life-facet lens, e.g. "under pressure") stays station-side.',
-    example: [{ phrase: 'Composed', desc: "The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved.", bands: ['concentrated'] }],
+    example: [{ phrase: 'Crisis performer', desc: "The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved.", bands: ['concentrated'] }],
   },
 
   shadows: {
@@ -276,7 +276,7 @@ export const ARCHETYPE_SCHEMA = {
     type: 'object[]', arrayLen: 5, required: true,
     itemShape: SHAPES.TaggedPoolItem,
     note: 'Symmetric with gifts — same pool construct and selection law.',
-    example: [{ phrase: 'Indecisive', desc: "You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished.", bands: ['open'] }],
+    example: [{ phrase: 'Endless second-guessing', desc: "You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished.", bands: ['open'] }],
   },
 
   // ─────────────────────────────────────────────────────────────

@@ -9,7 +9,7 @@
         "canonical_name": "The Oak",
         "value": [
           {
-            "phrase": "Self-starter",
+            "phrase": "First to move",
             "dim": "beginnings",
             "desc": "While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up.",
             "bands": [
@@ -18,13 +18,13 @@
             ]
           },
           {
-            "phrase": "Inspiring",
+            "phrase": "Raises everyone's game",
             "dim": "influence on others",
             "desc": "People around you end up aiming higher than they meant to. Your reach quietly becomes the new ceiling, and nobody remembers deciding that.",
             "bands": "all"
           },
           {
-            "phrase": "Builder",
+            "phrase": "Builds to last",
             "dim": "at work",
             "desc": "You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down.",
             "bands": [
@@ -32,7 +32,7 @@
             ]
           },
           {
-            "phrase": "Hopeful",
+            "phrase": "Keeps the faith",
             "dim": "inner life",
             "desc": "You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter.",
             "bands": [
@@ -56,19 +56,19 @@
         "canonical_name": "The Vine",
         "value": [
           {
-            "phrase": "Shrewd",
+            "phrase": "Nobody's fool",
             "dim": "reading people",
             "desc": "You clock the difference between what's said and what's meant almost instantly. People stopped managing you long ago. It never worked.",
             "bands": "all"
           },
           {
-            "phrase": "Inventive",
+            "phrase": "Finds another way",
             "dim": "obstacles",
             "desc": "Where others push the locked door harder, you're already around the back. You arrive where you meant to, by a path nobody predicted.",
             "bands": "all"
           },
           {
-            "phrase": "Disarming",
+            "phrase": "Wins people over",
             "dim": "trust",
             "desc": "Not loudly, and not fast. But give it a season and the skeptics are asking your opinion first. Trust built your way tends to hold.",
             "bands": [
@@ -76,7 +76,7 @@
             ]
           },
           {
-            "phrase": "Thoughtful",
+            "phrase": "Attentive friend",
             "dim": "close bonds",
             "desc": "You track what the people around you need without being told. The birthday, the hard week, the thing they mentioned once in passing. You caught it.",
             "bands": [
@@ -85,7 +85,7 @@
             ]
           },
           {
-            "phrase": "Resilient",
+            "phrase": "Quiet survivor",
             "dim": "hard seasons",
             "desc": "The storms that snapped stronger-looking people somehow didn't end you. You bent, waited, and grew back. It's a longer game than anyone realizes.",
             "bands": [
@@ -100,19 +100,19 @@
         "canonical_name": "The Sun",
         "value": [
           {
-            "phrase": "Magnetic",
+            "phrase": "Instantly likable",
             "dim": "first impressions",
             "desc": "Strangers relax around you before you've said much of anything. Guards drop, small talk turns real, and nobody can quite explain why.",
             "bands": "all"
           },
           {
-            "phrase": "Uplifting",
+            "phrase": "Lifts the mood",
             "dim": "atmosphere",
             "desc": "A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did.",
             "bands": "all"
           },
           {
-            "phrase": "Genuine",
+            "phrase": "No hidden agenda",
             "dim": "hard days",
             "desc": "Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out.",
             "bands": [
@@ -120,7 +120,7 @@
             ]
           },
           {
-            "phrase": "Supportive",
+            "phrase": "First to celebrate",
             "dim": "others' wins",
             "desc": "Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it.",
             "bands": [
@@ -129,7 +129,7 @@
             ]
           },
           {
-            "phrase": "Selective",
+            "phrase": "Keeps it close",
             "dim": "close bonds",
             "desc": "The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully.",
             "bands": [
@@ -144,19 +144,19 @@
         "canonical_name": "The Candle",
         "value": [
           {
-            "phrase": "Present",
+            "phrase": "Deeply present",
             "dim": "one-on-one",
             "desc": "When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find.",
             "bands": "all"
           },
           {
-            "phrase": "Observant",
+            "phrase": "Misses nothing",
             "dim": "details",
             "desc": "The small tell, the changed tone, the detail everyone walked past. You caught it, and three months later it turned out to be the whole story.",
             "bands": "all"
           },
           {
-            "phrase": "All-in",
+            "phrase": "Fully committed",
             "dim": "the inner circle",
             "desc": "What you choose gets everything you have. The people and work inside your circle never have to wonder where they stand.",
             "bands": [
@@ -164,7 +164,7 @@
             ]
           },
           {
-            "phrase": "Encouraging",
+            "phrase": "Rekindles people",
             "dim": "influence on others",
             "desc": "Your belief in someone works at close range. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again.",
             "bands": [
@@ -173,7 +173,7 @@
             ]
           },
           {
-            "phrase": "Enduring",
+            "phrase": "Keeps the flame",
             "dim": "hard seasons",
             "desc": "The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night.",
             "bands": [
@@ -188,19 +188,19 @@
         "canonical_name": "The Mountain",
         "value": [
           {
-            "phrase": "Grounding",
+            "phrase": "Everyone's rock",
             "dim": "being leaned on",
             "desc": "Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling.",
             "bands": "all"
           },
           {
-            "phrase": "Constant",
+            "phrase": "Shows up regardless",
             "dim": "showing up",
             "desc": "Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six.",
             "bands": "all"
           },
           {
-            "phrase": "Unflappable",
+            "phrase": "Calm under fire",
             "dim": "crisis",
             "desc": "The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be.",
             "bands": [
@@ -208,7 +208,7 @@
             ]
           },
           {
-            "phrase": "Trustworthy",
+            "phrase": "Safe harbor",
             "dim": "secrets",
             "desc": "People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning.",
             "bands": [
@@ -217,7 +217,7 @@
             ]
           },
           {
-            "phrase": "Thorough",
+            "phrase": "Slow and sure",
             "dim": "pace",
             "desc": "You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely.",
             "bands": [
@@ -232,19 +232,19 @@
         "canonical_name": "The Field",
         "value": [
           {
-            "phrase": "Attentive",
+            "phrase": "Anticipates needs",
             "dim": "unspoken needs",
             "desc": "The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did.",
             "bands": "all"
           },
           {
-            "phrase": "Enriching",
+            "phrase": "Grows people",
             "dim": "others' growth",
             "desc": "People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly.",
             "bands": "all"
           },
           {
-            "phrase": "Reliable",
+            "phrase": "Keeps every promise",
             "dim": "promises",
             "desc": "Your care doesn't have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that.",
             "bands": [
@@ -252,7 +252,7 @@
             ]
           },
           {
-            "phrase": "Easygoing",
+            "phrase": "Restful company",
             "dim": "comfort",
             "desc": "Nobody performs around you. Friends unclench, say the true version, and stay an hour longer than they planned. Your presence works like fallow ground.",
             "bands": [
@@ -261,7 +261,7 @@
             ]
           },
           {
-            "phrase": "Indispensable",
+            "phrase": "Quietly essential",
             "dim": "being noticed",
             "desc": "Nothing about you announces itself. But when you step back for a while, everything wilts a little, and everyone finally notices who was watering.",
             "bands": [
@@ -276,19 +276,19 @@
         "canonical_name": "The Blade",
         "value": [
           {
-            "phrase": "Clear-eyed",
+            "phrase": "Instant character read",
             "dim": "first impressions",
             "desc": "Ten minutes into meeting someone, you already know who they are. Months later, everyone else catches up to what you saw in the first handshake.",
             "bands": "all"
           },
           {
-            "phrase": "Candid",
+            "phrase": "Straight talker",
             "dim": "communication",
             "desc": "When everyone at the table is talking around the problem, you're the one who names it. People save their hardest questions for you because you won't dress up the answer.",
             "bands": "all"
           },
           {
-            "phrase": "Composed",
+            "phrase": "Crisis performer",
             "dim": "under pressure",
             "desc": "The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved.",
             "bands": [
@@ -296,7 +296,7 @@
             ]
           },
           {
-            "phrase": "Loyal",
+            "phrase": "Quiet loyalty",
             "dim": "close bonds",
             "desc": "Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time.",
             "bands": [
@@ -305,7 +305,7 @@
             ]
           },
           {
-            "phrase": "Meticulous",
+            "phrase": "Careful finisher",
             "dim": "at work",
             "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing.",
             "bands": [
@@ -320,19 +320,19 @@
         "canonical_name": "The Jewel",
         "value": [
           {
-            "phrase": "Tasteful",
+            "phrase": "Impeccable taste",
             "dim": "quality",
             "desc": "You know the good one from the almost-good one at a glance, the way some people can tell a note is flat. Friends borrow your eye before they buy.",
             "bands": "all"
           },
           {
-            "phrase": "Uncompromising",
+            "phrase": "Quality guaranteed",
             "dim": "at work",
             "desc": "Nothing leaves your hands that you don't believe in. Years later your work is the one still holding up under inspection.",
             "bands": "all"
           },
           {
-            "phrase": "Sharp-eyed",
+            "phrase": "Spots the crack",
             "dim": "early warnings",
             "desc": "You saw the flaw three months before it became the problem. You usually say it out loud exactly once, and then wait.",
             "bands": [
@@ -340,7 +340,7 @@
             ]
           },
           {
-            "phrase": "Appreciative",
+            "phrase": "Notices the effort",
             "dim": "others' work",
             "desc": "The detail someone worked hardest on, the one everyone else missed, is the first thing you praise. Being appreciated by you means something because you actually looked.",
             "bands": [
@@ -349,7 +349,7 @@
             ]
           },
           {
-            "phrase": "Understated",
+            "phrase": "Understated excellence",
             "dim": "self-presentation",
             "desc": "You don't advertise, compete, or explain. The work speaks quietly, the taste shows in small choices, and the people who know, know.",
             "bands": [
@@ -364,19 +364,19 @@
         "canonical_name": "The Ocean",
         "value": [
           {
-            "phrase": "Big-picture",
+            "phrase": "Big picture thinker",
             "dim": "connections",
             "desc": "While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out.",
             "bands": "all"
           },
           {
-            "phrase": "Curious",
+            "phrase": "Endlessly curious",
             "dim": "learning",
             "desc": "Every field, every stranger, every rabbit hole. Dinner with you can cross four centuries and never feel like a lecture. The appetite doesn't switch off.",
             "bands": "all"
           },
           {
-            "phrase": "Ambitious",
+            "phrase": "Thinks big",
             "dim": "horizons",
             "desc": "Small plans bore you on arrival. You're drawn to the far shore, the decade plan, the version of the idea that scares the committee.",
             "bands": [
@@ -384,7 +384,7 @@
             ]
           },
           {
-            "phrase": "Even-keeled",
+            "phrase": "Even keel",
             "dim": "under pressure",
             "desc": "Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours.",
             "bands": [
@@ -393,7 +393,7 @@
             ]
           },
           {
-            "phrase": "Layered",
+            "phrase": "Full of surprises",
             "dim": "being known",
             "desc": "Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned.",
             "bands": [
@@ -408,19 +408,19 @@
         "canonical_name": "The Rain",
         "value": [
           {
-            "phrase": "Empathetic",
+            "phrase": "Feels the undercurrent",
             "dim": "unspoken feelings",
             "desc": "You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence.",
             "bands": "all"
           },
           {
-            "phrase": "Articulate",
+            "phrase": "Finds the words",
             "dim": "naming feelings",
             "desc": "Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it.",
             "bands": "all"
           },
           {
-            "phrase": "Comforting",
+            "phrase": "Knows what helps",
             "dim": "caregiving",
             "desc": "Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands.",
             "bands": [
@@ -428,7 +428,7 @@
             ]
           },
           {
-            "phrase": "Gentle",
+            "phrase": "Gentle confidant",
             "dim": "secrets",
             "desc": "People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it.",
             "bands": [
@@ -437,7 +437,7 @@
             ]
           },
           {
-            "phrase": "Persuasive",
+            "phrase": "Changes minds softly",
             "dim": "influence on others",
             "desc": "Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did.",
             "bands": [

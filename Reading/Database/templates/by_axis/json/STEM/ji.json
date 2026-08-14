@@ -30,19 +30,19 @@
     "dm_overview": "The Field is Yin Earth, the cultivated form of ground. It works by providing: conditions get made, nutrients get given, and other things grow because the soil quietly spent itself on them. Patience is structural here, measured in seasons rather than days. The ledger of this nature runs generous and slow. It gives first, counts later, and the counting usually arrives after the harvest has already left.",
     "gifts": [
       {
-        "phrase": "Attentive",
+        "phrase": "Anticipates needs",
         "dim": "unspoken needs",
         "desc": "The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did.",
         "bands": "all"
       },
       {
-        "phrase": "Enriching",
+        "phrase": "Grows people",
         "dim": "others' growth",
         "desc": "People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly.",
         "bands": "all"
       },
       {
-        "phrase": "Reliable",
+        "phrase": "Keeps every promise",
         "dim": "promises",
         "desc": "Your care doesn't have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that.",
         "bands": [
@@ -50,7 +50,7 @@
         ]
       },
       {
-        "phrase": "Easygoing",
+        "phrase": "Restful company",
         "dim": "comfort",
         "desc": "Nobody performs around you. Friends unclench, say the true version, and stay an hour longer than they planned. Your presence works like fallow ground.",
         "bands": [
@@ -59,7 +59,7 @@
         ]
       },
       {
-        "phrase": "Indispensable",
+        "phrase": "Quietly essential",
         "dim": "being noticed",
         "desc": "Nothing about you announces itself. But when you step back for a while, everything wilts a little, and everyone finally notices who was watering.",
         "bands": [
@@ -75,19 +75,19 @@
         "bands": "all"
       },
       {
-        "phrase": "Self-neglecting",
+        "phrase": "Neglects own growth",
         "dim": "own growth",
         "desc": "Everyone else's garden is thriving under your care. Yours is the one with the weeds, waiting for a season you never schedule.",
         "bands": "all"
       },
       {
-        "phrase": "Overcommitted",
+        "phrase": "Can't say no",
         "dim": "saying no",
         "desc": "The request lands and the yes is out before you've checked the calendar or the tank. Refusing feels like frost, so you never learned it.",
         "bands": "all"
       },
       {
-        "phrase": "Overprotective",
+        "phrase": "Smothers a little",
         "dim": "hard lessons",
         "desc": "Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed.",
         "bands": [
@@ -95,7 +95,7 @@
         ]
       },
       {
-        "phrase": "Depleted",
+        "phrase": "Worn thin",
         "dim": "personal reserves",
         "desc": "Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field.",
         "bands": [

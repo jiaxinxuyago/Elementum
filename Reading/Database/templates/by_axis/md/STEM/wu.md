@@ -26,43 +26,43 @@
 | `dm_mechanism` | Yang Earth that holds its shape — weight that becomes shelter under load. |
 | `yourNature_desc` | You're the one everyone builds their plans on, the way people build on ground they trust without thinking about the ground. Things shake, and you don't. What that takes stays out of sight, because you keep it there, and because nobody ever asks a mountain how much it's carrying. |
 | `dm_overview` | The Mountain is Yang Earth, the load-bearing form of ground. It works by holding: weight gets taken on steadily and set down almost never, and everything nearby learns to lean. Storms change it by inches over decades. The strength runs one direction, though. This nature carries and doesn't get carried, and it can mistake being needed for being known. |
-| `gifts[0].phrase` | Grounding |
+| `gifts[0].phrase` | Everyone's rock |
 | `gifts[0].dim` | being leaned on |
 | `gifts[0].desc` | Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling. |
 | `gifts[0].bands` | all |
-| `gifts[1].phrase` | Constant |
+| `gifts[1].phrase` | Shows up regardless |
 | `gifts[1].dim` | showing up |
 | `gifts[1].desc` | Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six. |
 | `gifts[1].bands` | all |
-| `gifts[2].phrase` | Unflappable |
+| `gifts[2].phrase` | Calm under fire |
 | `gifts[2].dim` | crisis |
 | `gifts[2].desc` | The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be. |
 | `gifts[2].bands` | concentrated |
-| `gifts[3].phrase` | Trustworthy |
+| `gifts[3].phrase` | Safe harbor |
 | `gifts[3].dim` | secrets |
 | `gifts[3].desc` | People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning. |
 | `gifts[3].bands` | balanced · open |
-| `gifts[4].phrase` | Thorough |
+| `gifts[4].phrase` | Slow and sure |
 | `gifts[4].dim` | pace |
 | `gifts[4].desc` | You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely. |
 | `gifts[4].bands` | open |
-| `shadows[0].phrase` | Bottled-up |
+| `shadows[0].phrase` | Bottles it up |
 | `shadows[0].dim` | sharing the load |
 | `shadows[0].desc` | The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked. |
 | `shadows[0].bands` | all |
-| `shadows[1].phrase` | Passive |
+| `shadows[1].phrase` | Waits too long |
 | `shadows[1].dim` | fixable problems |
 | `shadows[1].desc` | Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it. |
 | `shadows[1].bands` | all |
-| `shadows[2].phrase` | Holding on |
+| `shadows[2].phrase` | Can't let go |
 | `shadows[2].dim` | endings |
 | `shadows[2].desc` | Jobs, grudges, houses, roles that ended years ago. Letting go feels like betraying everyone who leaned on the holding, so the grip stays closed. |
 | `shadows[2].bands` | all |
-| `shadows[3].phrase` | Stubborn |
+| `shadows[3].phrase` | Set in stone |
 | `shadows[3].dim` | changing course |
 | `shadows[3].desc` | Once your footing is chosen, argument becomes erosion. It works on you in centuries, not conversations. People eventually stop bringing the map. |
 | `shadows[3].bands` | concentrated |
-| `shadows[4].phrase` | Overloaded |
+| `shadows[4].phrase` | Quietly overwhelmed |
 | `shadows[4].dim` | capacity |
 | `shadows[4].desc` | The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost. |
 | `shadows[4].bands` | open |

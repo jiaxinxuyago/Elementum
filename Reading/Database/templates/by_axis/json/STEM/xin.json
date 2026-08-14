@@ -30,19 +30,19 @@
     "dm_overview": "The Jewel is Yin Metal, the refined form of the element. It works by noticing: a flaw shows itself to you instantly, and precision is applied at close range, to small surfaces, over long hours. The finest judgment in the set turns inward by default. That's the tax of this nature. The same eye that makes the work excellent keeps turning back on its maker, and no outside praise ever settles it.",
     "gifts": [
       {
-        "phrase": "Tasteful",
+        "phrase": "Impeccable taste",
         "dim": "quality",
         "desc": "You know the good one from the almost-good one at a glance, the way some people can tell a note is flat. Friends borrow your eye before they buy.",
         "bands": "all"
       },
       {
-        "phrase": "Uncompromising",
+        "phrase": "Quality guaranteed",
         "dim": "at work",
         "desc": "Nothing leaves your hands that you don't believe in. Years later your work is the one still holding up under inspection.",
         "bands": "all"
       },
       {
-        "phrase": "Sharp-eyed",
+        "phrase": "Spots the crack",
         "dim": "early warnings",
         "desc": "You saw the flaw three months before it became the problem. You usually say it out loud exactly once, and then wait.",
         "bands": [
@@ -50,7 +50,7 @@
         ]
       },
       {
-        "phrase": "Appreciative",
+        "phrase": "Notices the effort",
         "dim": "others' work",
         "desc": "The detail someone worked hardest on, the one everyone else missed, is the first thing you praise. Being appreciated by you means something because you actually looked.",
         "bands": [
@@ -59,7 +59,7 @@
         ]
       },
       {
-        "phrase": "Understated",
+        "phrase": "Understated excellence",
         "dim": "self-presentation",
         "desc": "You don't advertise, compete, or explain. The work speaks quietly, the taste shows in small choices, and the people who know, know.",
         "bands": [
@@ -69,25 +69,25 @@
     ],
     "shadows": [
       {
-        "phrase": "Thin-skinned",
+        "phrase": "Bruises easily",
         "dim": "criticism",
         "desc": "The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep.",
         "bands": "all"
       },
       {
-        "phrase": "Critical",
+        "phrase": "Hard to impress",
         "dim": "praise",
         "desc": "People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it.",
         "bands": "all"
       },
       {
-        "phrase": "Idealistic",
+        "phrase": "Chronically disappointed",
         "dim": "expectations",
         "desc": "You can always see the better version that doesn't exist. The gap between possible and actual never quite closes, and living in it wears.",
         "bands": "all"
       },
       {
-        "phrase": "Perfectionist",
+        "phrase": "Polishes forever",
         "dim": "finishing",
         "desc": "The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive.",
         "bands": [
@@ -95,7 +95,7 @@
         ]
       },
       {
-        "phrase": "Self-deprecating",
+        "phrase": "Sells self short",
         "dim": "self-worth",
         "desc": "The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly.",
         "bands": [

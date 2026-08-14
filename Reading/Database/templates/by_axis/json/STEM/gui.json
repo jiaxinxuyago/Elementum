@@ -30,19 +30,19 @@
     "dm_overview": "The Rain is Yin Water, the softest instrument in the set. It works by taking things in: feelings arrive before reasons, moods soak through whatever's between you, and every change it makes starts from inside whoever it reached. Nothing gets pushed. Everything gets absorbed. The open question this nature lives with is where the water ends and the ground begins.",
     "gifts": [
       {
-        "phrase": "Empathetic",
+        "phrase": "Feels the undercurrent",
         "dim": "unspoken feelings",
         "desc": "You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence.",
         "bands": "all"
       },
       {
-        "phrase": "Articulate",
+        "phrase": "Finds the words",
         "dim": "naming feelings",
         "desc": "Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it.",
         "bands": "all"
       },
       {
-        "phrase": "Comforting",
+        "phrase": "Knows what helps",
         "dim": "caregiving",
         "desc": "Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands.",
         "bands": [
@@ -50,7 +50,7 @@
         ]
       },
       {
-        "phrase": "Gentle",
+        "phrase": "Gentle confidant",
         "dim": "secrets",
         "desc": "People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it.",
         "bands": [
@@ -59,7 +59,7 @@
         ]
       },
       {
-        "phrase": "Persuasive",
+        "phrase": "Changes minds softly",
         "dim": "influence on others",
         "desc": "Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did.",
         "bands": [
@@ -69,25 +69,25 @@
     ],
     "shadows": [
       {
-        "phrase": "Porous",
+        "phrase": "Absorbs everything",
         "dim": "others' emotions",
         "desc": "You walk in fine and leave carrying the argument two strangers had near you. Other people's weather soaks straight through your coat.",
         "bands": "all"
       },
       {
-        "phrase": "Conflict-averse",
+        "phrase": "Avoids the fight",
         "dim": "hard conversations",
         "desc": "You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years.",
         "bands": "all"
       },
       {
-        "phrase": "Brooding",
+        "phrase": "Marinates in it",
         "dim": "moving on",
         "desc": "The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep.",
         "bands": "all"
       },
       {
-        "phrase": "Unpersuadable",
+        "phrase": "Feelings as facts",
         "dim": "evidence",
         "desc": "When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one.",
         "bands": [
@@ -95,7 +95,7 @@
         ]
       },
       {
-        "phrase": "Self-doubting",
+        "phrase": "Doubts the signal",
         "dim": "trusting yourself",
         "desc": "The hunch was right, and you overruled it anyway because three people sounded surer than you felt. You've learned to poll before trusting the one instrument that was working.",
         "bands": [
