@@ -25,7 +25,7 @@
 | `dm_claims` | You make things grow by tending, not by forcing. · People feel steadier after time with you and cannot say why. |
 | `dm_mechanism` | Yin Earth that nourishes quietly — fertile ground that asks for no credit. |
 | `yourNature_desc` | You make the people around you better, mostly by giving them somewhere good to grow. Nobody performs it less than you do. Season after season the same trade repeats, your ground for their growing, and you notice what it's costing you about a season too late. |
-| `dm_overview` | The Field is Yin Earth, earth at the garden's scale: tilled soil rather than mountain rock, dark, worked, and open. It stands for late summer, the season that ripens what the year has planted. Its image is the farm plot that feeds a household, quiet ground that turns whatever it receives, seed, rain, even ash, into something that can be harvested. |
+| `dm_overview` | The Field is Yin Earth, the ground that lets itself be opened. The old stories give it late summer, when the year's work ripens and the soil shows what it has been quietly doing all along. It is the tilled dark earth of the family plot, the ground that takes seed, rain, even ash, and answers with harvest. The ancients said all things return to it, and it turns none of them away. |
 | `gifts[0].phrase` | Anticipates needs |
 | `gifts[0].dim` | unspoken needs |
 | `gifts[0].desc` | The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did. |

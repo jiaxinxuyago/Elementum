@@ -25,7 +25,7 @@
 | `dm_claims` | Being vague feels worse to you than being wrong. · People come to you when they need the unsoftened truth. |
 | `dm_mechanism` | Yang Metal tempered by spring wood — strength that grew against resistance, not in its absence. |
 | `yourNature_desc` | You put the truth ahead of your own comfort, and usually ahead of your own company. People keep the clarity you hand them and stay careful around the edge it came from. The cost never comes up. You've never once shown anyone the bill. |
-| `dm_overview` | The Blade is Yang Metal, the hard metal of the system: ore taken from the mountain, put through fire, and finished into an edge. It stands for autumn, the season that ends what summer started, and for order made by subtraction. Its image is the general's sword kept plain and sharp, an instrument that exists for the one honest stroke and stays quiet between uses. |
+| `dm_overview` | The Blade is Yang Metal, the metal that has already been through fire. The old stories give it autumn, the season that ends what summer started, when the harvest knife decides what was worth growing. They pictured it as a general's sword, kept plain, kept sharp, drawn once and only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech. |
 | `gifts[0].phrase` | Instant character read |
 | `gifts[0].dim` | first impressions |
 | `gifts[0].desc` | Ten minutes into meeting someone, you already know who they are. Months later, everyone else catches up to what you saw in the first handshake. |

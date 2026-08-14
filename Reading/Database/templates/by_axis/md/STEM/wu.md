@@ -25,7 +25,7 @@
 | `dm_claims` | You become the ground others stand on without being asked. · When plans wobble, yours is the version everyone quietly adopts. |
 | `dm_mechanism` | Yang Earth that holds its shape — weight that becomes shelter under load. |
 | `yourNature_desc` | You're the one everyone builds their plans on, the way people build on ground they trust without thinking about the ground. Things shake, and you don't. What that takes stays out of sight, because you keep it there, and because nobody ever asks a mountain how much it's carrying. |
-| `dm_overview` | The Mountain is Yang Earth, earth at its full mass: the high ground itself, rock and ridge, the landscape's load-bearing wall. In the system it is the earth that contains rivers and breaks weather, stillness as a form of strength. Its image is the peak that travelers navigate by, unmoved by seasons that redraw everything around it, carrying snow it never mentions. |
+| `dm_overview` | The Mountain is Yang Earth, the ground raised up until it touches weather. In the old telling it was here before the roads and will be here after them, the wall that rivers learn to walk around. Travelers set their course by it and never ask how it is doing. The ancients drew it with snow on its shoulders, carrying the sky's own weight and calling the arrangement fair. |
 | `gifts[0].phrase` | Everyone's rock |
 | `gifts[0].dim` | being leaned on |
 | `gifts[0].desc` | Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling. |
