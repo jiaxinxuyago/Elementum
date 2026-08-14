@@ -460,7 +460,7 @@ function SchemaView({ chart, birthData, currentScreen }) {
   const activeEl = currentScreen === 'app-energy'
     ? (typeof window !== 'undefined' ? window.__energyEl : null)
     : (journeyScreen === 'element' ? journeyEl : null);
-  const allGroups = useMemo(() => buildVariableGroups(model, activeEl), [model, activeEl]);
+  const allGroups = useMemo(() => buildVariableGroups(model, activeEl, chart), [model, activeEl, chart]);
   const [showAll, setShowAll] = useState(false);
   const onScreen = surfacesFor(currentScreen, journeyScreen);
   const groups = showAll ? allGroups : allGroups.filter((g) => onScreen.includes(g.surface));
