@@ -26,44 +26,44 @@
 | `dm_mechanism` | Yang Water that carves by patience — force that wins by not insisting. |
 | `yourNature_desc` | You think in fathoms while most conversation happens at the shoreline. What you show is a fraction of what's moving, and most of it simply doesn't travel well in words. The distance isn't loneliness exactly. It's just how far down you actually live. |
 | `dm_overview` | The Ocean is Yang Water, the deep and moving form of the element. It works by currents: thought runs far below the surface, covers distances no one watches, and comes up only where it chooses. Capacity is the defining trait, and it's mostly invisible. What this nature manages, permanently, is the gap between how much is held and how much can ever be shown. |
-| `gifts[0].phrase` | Big picture thinker |
-| `gifts[0].dim` | sees whole system |
+| `gifts[0].phrase` | Big-picture |
+| `gifts[0].dim` | connections |
 | `gifts[0].desc` | While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out. |
 | `gifts[0].bands` | all |
-| `gifts[1].phrase` | Endlessly curious |
-| `gifts[1].dim` | omnivorous appetite |
+| `gifts[1].phrase` | Curious |
+| `gifts[1].dim` | learning |
 | `gifts[1].desc` | Every field, every stranger, every rabbit hole. Dinner with you can cross four centuries and never feel like a lecture. The appetite doesn't switch off. |
 | `gifts[1].bands` | all |
-| `gifts[2].phrase` | Thinks big |
-| `gifts[2].dim` | drawn to scale |
+| `gifts[2].phrase` | Ambitious |
+| `gifts[2].dim` | horizons |
 | `gifts[2].desc` | Small plans bore you on arrival. You're drawn to the far shore, the decade plan, the version of the idea that scares the committee. |
 | `gifts[2].bands` | concentrated |
-| `gifts[3].phrase` | Even keel |
-| `gifts[3].dim` | depth calm |
+| `gifts[3].phrase` | Even-keeled |
+| `gifts[3].dim` | under pressure |
 | `gifts[3].desc` | Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours. |
 | `gifts[3].bands` | balanced · open |
-| `gifts[4].phrase` | Full of surprises |
-| `gifts[4].dim` | unmapped regions |
+| `gifts[4].phrase` | Layered |
+| `gifts[4].dim` | being known |
 | `gifts[4].desc` | Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned. |
 | `gifts[4].bands` | open |
-| `shadows[0].phrase` | Lost in translation |
-| `shadows[0].dim` | depth shrinks spoken |
-| `shadows[0].desc` | What you actually think arrives at about a tenth of its size when spoken. The best of you doesn’t travel well in words, and meetings never see it. |
+| `shadows[0].phrase` | Misunderstood |
+| `shadows[0].dim` | communication |
+| `shadows[0].desc` | What you actually think arrives at about a tenth of its size when spoken. The best of you doesn't travel well in words, and meetings never see it. |
 | `shadows[0].bands` | all |
-| `shadows[1].phrase` | Hard to know |
-| `shadows[1].dim` | kept at fraction |
+| `shadows[1].phrase` | Private |
+| `shadows[1].dim` | close bonds |
 | `shadows[1].desc` | Even the people closest to you work from a fraction. Whole regions of you stay unmapped, not hidden exactly, just never offered. |
 | `shadows[1].bands` | all |
-| `shadows[2].phrase` | Spread too thin |
-| `shadows[2].dim` | scattered current |
+| `shadows[2].phrase` | Scattered |
+| `shadows[2].dim` | focus |
 | `shadows[2].desc` | Everything interests you and nothing contains you, so the current runs in six directions at once. Vast motion, and some seasons, no arrival. |
 | `shadows[2].bands` | all |
-| `shadows[3].phrase` | Sweeps people along |
-| `shadows[3].dim` | consent lags force |
+| `shadows[3].phrase` | Forceful |
+| `shadows[3].dim` | momentum |
 | `shadows[3].desc` | The plan was already moving before anyone agreed to it. Your current is strong enough that consent sometimes arrives after departure. |
 | `shadows[3].bands` | concentrated |
-| `shadows[4].phrase` | Drifts away |
-| `shadows[4].dim` | tide goes out |
+| `shadows[4].phrase` | Absent |
+| `shadows[4].dim` | presence |
 | `shadows[4].desc` | Mid-conversation, mid-project, mid-year, part of you quietly leaves for open water. People feel the tide go out before you've noticed you left. |
 | `shadows[4].bands` | open |
 

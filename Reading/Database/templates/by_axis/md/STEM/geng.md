@@ -26,44 +26,44 @@
 | `dm_mechanism` | Yang Metal tempered by spring wood — strength that grew against resistance, not in its absence. |
 | `yourNature_desc` | You put the truth ahead of your own comfort, and usually ahead of your own company. People keep the clarity you hand them and stay careful around the edge it came from. The cost never comes up. You've never once shown anyone the bill. |
 | `dm_overview` | The Blade is Yang Metal, the finished edge of the five elements. It works by sizing up: the read begins on contact and is usually over before anyone else has formed a first impression. Conclusions come early and don't move easily, and the same standard turns inward, usually harder. That's what makes this nature accurate, and what makes it trusted, though rarely in a way that feels like closeness. |
-| `gifts[0].phrase` | Instant character read |
-| `gifts[0].dim` | instant read |
+| `gifts[0].phrase` | Clear-eyed |
+| `gifts[0].dim` | first impressions |
 | `gifts[0].desc` | Ten minutes into meeting someone, you already know who they are. Months later, everyone else catches up to what you saw in the first handshake. |
 | `gifts[0].bands` | all |
-| `gifts[1].phrase` | Straight talker |
-| `gifts[1].dim` | names it plainly |
+| `gifts[1].phrase` | Candid |
+| `gifts[1].dim` | communication |
 | `gifts[1].desc` | When everyone at the table is talking around the problem, you're the one who names it. People save their hardest questions for you because you won't dress up the answer. |
 | `gifts[1].bands` | all |
-| `gifts[2].phrase` | Crisis performer |
-| `gifts[2].dim` | calm under break |
+| `gifts[2].phrase` | Composed |
+| `gifts[2].dim` | under pressure |
 | `gifts[2].desc` | The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved. |
 | `gifts[2].bands` | concentrated |
-| `gifts[3].phrase` | Quiet loyalty |
-| `gifts[3].dim` | guarded devotion |
+| `gifts[3].phrase` | Loyal |
+| `gifts[3].dim` | close bonds |
 | `gifts[3].desc` | Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time. |
 | `gifts[3].bands` | balanced · open |
-| `gifts[4].phrase` | Careful finisher |
-| `gifts[4].dim` | done means done |
+| `gifts[4].phrase` | Meticulous |
+| `gifts[4].dim` | at work |
 | `gifts[4].desc` | You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing. |
 | `gifts[4].bands` | open |
-| `shadows[0].phrase` | Own harshest critic |
-| `shadows[0].dim` | blade turned inward |
+| `shadows[0].phrase` | Self-critical |
+| `shadows[0].dim` | self-worth |
 | `shadows[0].desc` | The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days for you. |
 | `shadows[0].bands` | all |
-| `shadows[1].phrase` | Mistaken for cold |
-| `shadows[1].dim` | misread as cold |
+| `shadows[1].phrase` | Intimidating |
+| `shadows[1].dim` | how others read you |
 | `shadows[1].desc` | New people often think you're judging them. You usually are, but not the way they fear, and by the time they learn that, some have already kept their distance. |
 | `shadows[1].bands` | all |
-| `shadows[2].phrase` | Right too early |
-| `shadows[2].dim` | alone in foresight |
+| `shadows[2].phrase` | Far-sighted |
+| `shadows[2].dim` | the long view |
 | `shadows[2].desc` | You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone. |
 | `shadows[2].bands` | all |
-| `shadows[3].phrase` | Quick to conclude |
-| `shadows[3].dim` | locked conclusions |
+| `shadows[3].phrase` | Judgmental |
+| `shadows[3].dim` | second chances |
 | `shadows[3].desc` | Once you've decided what something is, it stays decided. The person who grew, the plan that improved, the second chance that was earned, they all arrive to a door already shut. |
 | `shadows[3].bands` | concentrated |
-| `shadows[4].phrase` | Endless second-guessing |
-| `shadows[4].dim` | reopens decisions |
+| `shadows[4].phrase` | Indecisive |
+| `shadows[4].dim` | decision-making |
 | `shadows[4].desc` | You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished. |
 | `shadows[4].bands` | open |
 

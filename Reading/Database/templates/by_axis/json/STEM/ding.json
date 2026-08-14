@@ -30,28 +30,28 @@
     "dm_overview": "The Candle is Yin Fire, flame at its most concentrated. It works by focus: light lands on one thing at a time, fully, and understanding goes deeper there than daylight ever reaches. The warmth is close-range and steady, made for one face rather than a crowd. What this nature pays is the edge of the circle. Whatever isn't chosen sits in the dark, and it notices.",
     "gifts": [
       {
-        "phrase": "Deeply present",
-        "dim": "total attention",
+        "phrase": "Present",
+        "dim": "one-on-one",
         "desc": "When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find.",
         "bands": "all"
       },
       {
-        "phrase": "Misses nothing",
-        "dim": "catches details",
+        "phrase": "Observant",
+        "dim": "details",
         "desc": "The small tell, the changed tone, the detail everyone walked past. You caught it, and three months later it turned out to be the whole story.",
         "bands": "all"
       },
       {
-        "phrase": "Fully committed",
-        "dim": "all in",
+        "phrase": "All-in",
+        "dim": "the inner circle",
         "desc": "What you choose gets everything you have. The people and work inside your circle never have to wonder where they stand.",
         "bands": [
           "concentrated"
         ]
       },
       {
-        "phrase": "Rekindles people",
-        "dim": "restores belief",
+        "phrase": "Encouraging",
+        "dim": "influence on others",
         "desc": "Your belief in someone works at close range. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again.",
         "bands": [
           "balanced",
@@ -59,8 +59,8 @@
         ]
       },
       {
-        "phrase": "Keeps the flame",
-        "dim": "burns through dark",
+        "phrase": "Enduring",
+        "dim": "hard seasons",
         "desc": "The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night.",
         "bands": [
           "open"
@@ -69,34 +69,34 @@
     ],
     "shadows": [
       {
-        "phrase": "Plays favorites",
-        "dim": "uneven light",
+        "phrase": "Neglectful",
+        "dim": "the periphery",
         "desc": "Whoever holds your focus gets daylight. Everyone else gets dusk. The people at the edge of your attention feel the difference, and some of them mind.",
         "bands": "all"
       },
       {
-        "phrase": "One-track mind",
-        "dim": "single focus",
+        "phrase": "Single-minded",
+        "dim": "multitasking",
         "desc": "You genuinely cannot split the flame. The second project, the waiting text, the simmering pot. They all wait in the dark until you turn.",
         "bands": "all"
       },
       {
-        "phrase": "Takes it personally",
-        "dim": "fused with work",
+        "phrase": "Defensive",
+        "dim": "criticism",
         "desc": "What you're devoted to has no separation from you. A criticism of the work lands as a criticism of your soul, every time.",
         "bands": "all"
       },
       {
-        "phrase": "Comes on strong",
-        "dim": "too intense",
+        "phrase": "Intense",
+        "dim": "presence",
         "desc": "The full beam of your attention can arrive harder than the moment asked for. Some things needed gentle warmth and got the blowtorch.",
         "bands": [
           "concentrated"
         ]
       },
       {
-        "phrase": "Hides the light",
-        "dim": "withheld warmth",
+        "phrase": "Withdrawn",
+        "dim": "reaching out",
         "desc": "The people who'd treasure your attention rarely get offered it first. The flame stays behind cupped hands, and whole years of warmth go unseen.",
         "bands": [
           "open"

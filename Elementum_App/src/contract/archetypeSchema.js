@@ -156,10 +156,10 @@ export const SHAPES = {
               note: 'One sharp sentence with a distinct angle.' },
   },
   TaggedPoolItem: {
-    phrase: { type: 'string', wordCap: 3, required: true,
-              note: 'Everyday trait phrase, 2–3 words (REA_16 §3 phrase law — no "The + metaphor-noun").' },
+    phrase: { type: 'string', wordCap: 2, required: true,
+              note: 'The TRAIT: 1–2 common personality words (REA_16 §3 phrase law v3 — "Loyal", "Perfectionist"; no metaphor-noun titles).' },
     desc:   { type: 'string', sentenceMin: 1, sentenceMax: 3, required: true,
-              note: 'Concrete real-life image of the trait (REA_16 §3 desc law).' },
+              note: 'The trait seen through the item\'s angle — a concrete real-life image (REA_16 §3 desc law).' },
     bands:  { type: "string[] | 'all'", required: true,
               note: "Band tags driving selection: 'all' = every band's pool; array = only those bands." },
   },
@@ -267,8 +267,8 @@ export const ARCHETYPE_SCHEMA = {
     _meta: { tier: 'free', varyBy: ['stem', 'band'], section: 'Gifts row (band-tagged pool ×5 → chart sees ×3)', itemShape: 'TaggedPoolItem' },
     type: 'object[]', arrayLen: 5, required: true,
     itemShape: SHAPES.TaggedPoolItem,
-    note: 'Band-tagged pool (REA_16 §3 pool laws). selectPoolByBand picks the chart\'s trio: band-tagged items first, then all-tagged in pool order. Authored station-first; `dim` (angle tag) stays station-side.',
-    example: [{ phrase: 'Crisis performer', desc: "The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved.", bands: ['concentrated'] }],
+    note: 'Band-tagged pool (REA_16 §3 pool laws v3). selectPoolByBand picks the chart\'s trio: band-tagged items first, then all-tagged in pool order. Authored station-first; `dim` (the ANGLE — the life-facet lens, e.g. "under pressure") stays station-side.',
+    example: [{ phrase: 'Composed', desc: "The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved.", bands: ['concentrated'] }],
   },
 
   shadows: {
@@ -276,7 +276,7 @@ export const ARCHETYPE_SCHEMA = {
     type: 'object[]', arrayLen: 5, required: true,
     itemShape: SHAPES.TaggedPoolItem,
     note: 'Symmetric with gifts — same pool construct and selection law.',
-    example: [{ phrase: 'Endless second-guessing', desc: "You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished.", bands: ['open'] }],
+    example: [{ phrase: 'Indecisive', desc: "You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished.", bands: ['open'] }],
   },
 
   // ─────────────────────────────────────────────────────────────

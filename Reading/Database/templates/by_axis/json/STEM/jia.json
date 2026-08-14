@@ -30,28 +30,31 @@
     "dm_overview": "The Oak is Yang Wood, growth in its straightest form. It works by heading upward: direction gets chosen early, sometimes before the ground has agreed, and the climb starts without waiting for permission or shelter. Setbacks slow it about as much as weather slows a tree. What this nature does badly is pause. Arriving, resting, finishing, all the standing-still skills, stay unlearned.",
     "gifts": [
       {
-        "phrase": "First to move",
-        "dim": "starts first",
+        "phrase": "Self-starter",
+        "dim": "beginnings",
         "desc": "While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up.",
-        "bands": "all"
+        "bands": [
+          "concentrated",
+          "balanced"
+        ]
       },
       {
-        "phrase": "Raises everyone's game",
-        "dim": "raises ambitions",
+        "phrase": "Inspiring",
+        "dim": "influence on others",
         "desc": "People around you end up aiming higher than they meant to. Your reach quietly becomes the new ceiling, and nobody remembers deciding that.",
         "bands": "all"
       },
       {
-        "phrase": "Builds to last",
-        "dim": "durable building",
+        "phrase": "Builder",
+        "dim": "at work",
         "desc": "You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down.",
         "bands": [
           "concentrated"
         ]
       },
       {
-        "phrase": "Keeps the faith",
-        "dim": "keeps believing",
+        "phrase": "Hopeful",
+        "dim": "inner life",
         "desc": "You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter.",
         "bands": [
           "balanced",
@@ -59,8 +62,8 @@
         ]
       },
       {
-        "phrase": "Unhurried growth",
-        "dim": "quiet compounding",
+        "phrase": "Late bloomer",
+        "dim": "over the years",
         "desc": "Your progress doesn't look dramatic day to day. Then people look up and the sapling they remember is somehow taller than the fence.",
         "bands": [
           "open"
@@ -69,34 +72,34 @@
     ],
     "shadows": [
       {
-        "phrase": "Outpaces people",
-        "dim": "leaves people behind",
+        "phrase": "Relentless",
+        "dim": "close bonds",
         "desc": "The people who love you often feel a step behind. The reaching never slows quite enough to let them catch up.",
         "bands": "all"
       },
       {
-        "phrase": "Asks for nothing",
-        "dim": "pride blocks asking",
+        "phrase": "Proud",
+        "dim": "asking for help",
         "desc": "Help is right there and you know it. You'd still rather struggle in private than let anyone watch you need something. Asking feels like shrinking an inch you can't get back.",
         "bands": "all"
       },
       {
-        "phrase": "Leaves things unfinished",
-        "dim": "abandons foundations",
+        "phrase": "Restless",
+        "dim": "follow-through",
         "desc": "You commit hard, build fast, then spot the next mountain before this one is settled. Someone else ends up pouring the foundation you sketched.",
         "bands": "all"
       },
       {
-        "phrase": "Charges ahead",
-        "dim": "ignores warnings",
+        "phrase": "Headstrong",
+        "dim": "warnings",
         "desc": "When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff.",
         "bands": [
           "concentrated"
         ]
       },
       {
-        "phrase": "Slow to launch",
-        "dim": "delayed first step",
+        "phrase": "Hesitant",
+        "dim": "beginnings",
         "desc": "The direction is clear and the wanting is real, but the first step keeps waiting for a readier day. The path doesn't mind. The calendar does.",
         "bands": [
           "open"

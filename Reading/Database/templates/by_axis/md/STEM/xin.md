@@ -26,44 +26,44 @@
 | `dm_mechanism` | Yin Metal refined under pressure — an edge made keen by polishing, not by force. |
 | `yourNature_desc` | You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required. |
 | `dm_overview` | The Jewel is Yin Metal, the refined form of the element. It works by noticing: a flaw shows itself to you instantly, and precision is applied at close range, to small surfaces, over long hours. The finest judgment in the set turns inward by default. That's the tax of this nature. The same eye that makes the work excellent keeps turning back on its maker, and no outside praise ever settles it. |
-| `gifts[0].phrase` | Impeccable taste |
-| `gifts[0].dim` | instant quality sense |
+| `gifts[0].phrase` | Tasteful |
+| `gifts[0].dim` | quality |
 | `gifts[0].desc` | You know the good one from the almost-good one at a glance, the way some people can tell a note is flat. Friends borrow your eye before they buy. |
 | `gifts[0].bands` | all |
-| `gifts[1].phrase` | Quality guaranteed |
-| `gifts[1].dim` | work holds up |
+| `gifts[1].phrase` | Uncompromising |
+| `gifts[1].dim` | at work |
 | `gifts[1].desc` | Nothing leaves your hands that you don't believe in. Years later your work is the one still holding up under inspection. |
 | `gifts[1].bands` | all |
-| `gifts[2].phrase` | Spots the crack |
-| `gifts[2].dim` | sees flaws early |
+| `gifts[2].phrase` | Sharp-eyed |
+| `gifts[2].dim` | early warnings |
 | `gifts[2].desc` | You saw the flaw three months before it became the problem. You usually say it out loud exactly once, and then wait. |
 | `gifts[2].bands` | concentrated |
-| `gifts[3].phrase` | Notices the effort |
-| `gifts[3].dim` | praises the detail |
+| `gifts[3].phrase` | Appreciative |
+| `gifts[3].dim` | others' work |
 | `gifts[3].desc` | The detail someone worked hardest on, the one everyone else missed, is the first thing you praise. Being appreciated by you means something because you actually looked. |
 | `gifts[3].bands` | balanced · open |
-| `gifts[4].phrase` | Understated excellence |
-| `gifts[4].dim` | unadvertised quality |
+| `gifts[4].phrase` | Understated |
+| `gifts[4].dim` | self-presentation |
 | `gifts[4].desc` | You don't advertise, compete, or explain. The work speaks quietly, the taste shows in small choices, and the people who know, know. |
 | `gifts[4].bands` | open |
-| `shadows[0].phrase` | Bruises easily |
-| `shadows[0].dim` | criticism lodges |
+| `shadows[0].phrase` | Thin-skinned |
+| `shadows[0].dim` | criticism |
 | `shadows[0].desc` | The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep. |
 | `shadows[0].bands` | all |
-| `shadows[1].phrase` | Hard to impress |
-| `shadows[1].dim` | praise withheld |
+| `shadows[1].phrase` | Critical |
+| `shadows[1].dim` | praise |
 | `shadows[1].desc` | People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it. |
 | `shadows[1].bands` | all |
-| `shadows[2].phrase` | Chronically disappointed |
-| `shadows[2].dim` | gap with possible |
-| `shadows[2].desc` | You can always see the better version that doesn’t exist. The gap between possible and actual never quite closes, and living in it wears. |
+| `shadows[2].phrase` | Idealistic |
+| `shadows[2].dim` | expectations |
+| `shadows[2].desc` | You can always see the better version that doesn't exist. The gap between possible and actual never quite closes, and living in it wears. |
 | `shadows[2].bands` | all |
-| `shadows[3].phrase` | Polishes forever |
-| `shadows[3].dim` | refines past done |
+| `shadows[3].phrase` | Perfectionist |
+| `shadows[3].dim` | finishing |
 | `shadows[3].desc` | The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive. |
 | `shadows[3].bands` | concentrated |
-| `shadows[4].phrase` | Sells self short |
-| `shadows[4].dim` | underprices self |
+| `shadows[4].phrase` | Self-deprecating |
+| `shadows[4].dim` | self-worth |
 | `shadows[4].desc` | The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly. |
 | `shadows[4].bands` | open |
 

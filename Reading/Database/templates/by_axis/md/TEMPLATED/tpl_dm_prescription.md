@@ -9,7 +9,7 @@
 | **axis** | TEMPLATED |
 | **key** | tpl_dm_prescription |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | INTERIM (pending K2) |
+| **status** | INTERIM (pending K2) — UNSURFACED since the J4 sub-screen retired (owner 2026-08-13); P4 renders no prescription cards |
 | **budget** | 1–2 sentences |
 | **sources** | REA_03 §5 (patterns) |
 

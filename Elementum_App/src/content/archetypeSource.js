@@ -75,18 +75,18 @@ export const STEM_CARD_DATA = {
 
     // GIFTS & SHADOWS — band-tagged pools ×5 (REA_16 §3 pool laws); resolveArchetype selects the chart's ×3
     gifts: [
-      { phrase: `First to move`, desc: `While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up.`, bands: 'all' },
-      { phrase: `Raises everyone's game`, desc: `People around you end up aiming higher than they meant to. Your reach quietly becomes the new ceiling, and nobody remembers deciding that.`, bands: 'all' },
-      { phrase: `Builds to last`, desc: `You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down.`, bands: ['concentrated'] },
-      { phrase: `Keeps the faith`, desc: `You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter.`, bands: ['balanced', 'open'] },
-      { phrase: `Unhurried growth`, desc: `Your progress doesn't look dramatic day to day. Then people look up and the sapling they remember is somehow taller than the fence.`, bands: ['open'] },
+      { phrase: `Self-starter`, desc: `While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up.`, bands: ['concentrated', 'balanced'] },
+      { phrase: `Inspiring`, desc: `People around you end up aiming higher than they meant to. Your reach quietly becomes the new ceiling, and nobody remembers deciding that.`, bands: 'all' },
+      { phrase: `Builder`, desc: `You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down.`, bands: ['concentrated'] },
+      { phrase: `Hopeful`, desc: `You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter.`, bands: ['balanced', 'open'] },
+      { phrase: `Late bloomer`, desc: `Your progress doesn't look dramatic day to day. Then people look up and the sapling they remember is somehow taller than the fence.`, bands: ['open'] },
     ],
     shadows: [
-      { phrase: `Outpaces people`, desc: `The people who love you often feel a step behind. The reaching never slows quite enough to let them catch up.`, bands: 'all' },
-      { phrase: `Asks for nothing`, desc: `Help is right there and you know it. You'd still rather struggle in private than let anyone watch you need something. Asking feels like shrinking an inch you can't get back.`, bands: 'all' },
-      { phrase: `Leaves things unfinished`, desc: `You commit hard, build fast, then spot the next mountain before this one is settled. Someone else ends up pouring the foundation you sketched.`, bands: 'all' },
-      { phrase: `Charges ahead`, desc: `When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff.`, bands: ['concentrated'] },
-      { phrase: `Slow to launch`, desc: `The direction is clear and the wanting is real, but the first step keeps waiting for a readier day. The path doesn't mind. The calendar does.`, bands: ['open'] },
+      { phrase: `Relentless`, desc: `The people who love you often feel a step behind. The reaching never slows quite enough to let them catch up.`, bands: 'all' },
+      { phrase: `Proud`, desc: `Help is right there and you know it. You'd still rather struggle in private than let anyone watch you need something. Asking feels like shrinking an inch you can't get back.`, bands: 'all' },
+      { phrase: `Restless`, desc: `You commit hard, build fast, then spot the next mountain before this one is settled. Someone else ends up pouring the foundation you sketched.`, bands: 'all' },
+      { phrase: `Headstrong`, desc: `When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff.`, bands: ['concentrated'] },
+      { phrase: `Hesitant`, desc: `The direction is clear and the wanting is real, but the first step keeps waiting for a readier day. The path doesn't mind. The calendar does.`, bands: ['open'] },
     ],
     blocks: [
       {
@@ -190,18 +190,18 @@ There's also a specific interpersonal cost: people who care about you often feel
 
     // GIFTS & SHADOWS — band-tagged pools ×5 (REA_16 §3 pool laws); resolveArchetype selects the chart's ×3
     gifts: [
-      { phrase: `Nobody's fool`, desc: `You clock the difference between what's said and what's meant almost instantly. People stopped managing you long ago. It never worked.`, bands: 'all' },
-      { phrase: `Finds another way`, desc: `Where others push the locked door harder, you're already around the back. You arrive where you meant to, by a path nobody predicted.`, bands: 'all' },
-      { phrase: `Wins people over`, desc: `Not loudly, and not fast. But give it a season and the skeptics are asking your opinion first. Trust built your way tends to hold.`, bands: ['concentrated'] },
-      { phrase: `Attentive friend`, desc: `You track what the people around you need without being told. The birthday, the hard week, the thing they mentioned once in passing. You caught it.`, bands: ['balanced', 'open'] },
-      { phrase: `Quiet survivor`, desc: `The storms that snapped stronger-looking people somehow didn't end you. You bent, waited, and grew back. It's a longer game than anyone realizes.`, bands: ['open'] },
+      { phrase: `Shrewd`, desc: `You clock the difference between what's said and what's meant almost instantly. People stopped managing you long ago. It never worked.`, bands: 'all' },
+      { phrase: `Inventive`, desc: `Where others push the locked door harder, you're already around the back. You arrive where you meant to, by a path nobody predicted.`, bands: 'all' },
+      { phrase: `Disarming`, desc: `Not loudly, and not fast. But give it a season and the skeptics are asking your opinion first. Trust built your way tends to hold.`, bands: ['concentrated'] },
+      { phrase: `Thoughtful`, desc: `You track what the people around you need without being told. The birthday, the hard week, the thing they mentioned once in passing. You caught it.`, bands: ['balanced', 'open'] },
+      { phrase: `Resilient`, desc: `The storms that snapped stronger-looking people somehow didn't end you. You bent, waited, and grew back. It's a longer game than anyone realizes.`, bands: ['open'] },
     ],
     shadows: [
-      { phrase: `Swallows own needs`, desc: `You know what everyone else needs before they say it. Yours stay unspoken, and people learn there's no need to check on you. There is.`, bands: 'all' },
-      { phrase: `Easily underestimated`, desc: `The work you do bends around obstacles so smoothly that nobody sees the work. They see luck, or ease. You know it was neither.`, bands: 'all' },
-      { phrase: `Bends too far`, desc: `You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you're holding stops being yours.`, bands: 'all' },
-      { phrase: `Suspects an angle`, desc: `You can't quite take kindness at face value. Somewhere in you a quiet analyst asks what this person is really after. Sometimes the answer was nothing, and the wondering showed.`, bands: ['concentrated'] },
-      { phrase: `Loses the thread`, desc: `With no wall to climb, the winding can forget where it was going. You're flexible about the route, and lately, quietly, about the destination too.`, bands: ['open'] },
+      { phrase: `Self-effacing`, desc: `You know what everyone else needs before they say it. Yours stay unspoken, and people learn there's no need to check on you. There is.`, bands: 'all' },
+      { phrase: `Underestimated`, desc: `The work you do bends around obstacles so smoothly that nobody sees the work. They see luck, or ease. You know it was neither.`, bands: 'all' },
+      { phrase: `Yielding`, desc: `You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you're holding stops being yours.`, bands: 'all' },
+      { phrase: `Distrustful`, desc: `You can't quite take kindness at face value. Somewhere in you a quiet analyst asks what this person is really after. Sometimes the answer was nothing, and the wondering showed.`, bands: ['concentrated'] },
+      { phrase: `Adrift`, desc: `With no wall to climb, the winding can forget where it was going. You're flexible about the route, and lately, quietly, about the destination too.`, bands: ['open'] },
     ],
     blocks: [
       {
@@ -303,18 +303,18 @@ There's also a specific interpersonal cost: people who care about you often feel
 
     // GIFTS & SHADOWS — band-tagged pools ×5 (REA_16 §3 pool laws); resolveArchetype selects the chart's ×3
     gifts: [
-      { phrase: `Instantly likable`, desc: `Strangers relax around you before you've said much of anything. Guards drop, small talk turns real, and nobody can quite explain why.`, bands: 'all' },
-      { phrase: `Lifts the mood`, desc: `A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did.`, bands: 'all' },
-      { phrase: `No hidden agenda`, desc: `Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out.`, bands: ['concentrated'] },
-      { phrase: `First to celebrate`, desc: `Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it.`, bands: ['balanced', 'open'] },
-      { phrase: `Warms who matters`, desc: `The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully.`, bands: ['open'] },
+      { phrase: `Magnetic`, desc: `Strangers relax around you before you've said much of anything. Guards drop, small talk turns real, and nobody can quite explain why.`, bands: 'all' },
+      { phrase: `Uplifting`, desc: `A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did.`, bands: 'all' },
+      { phrase: `Genuine`, desc: `Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out.`, bands: ['concentrated'] },
+      { phrase: `Supportive`, desc: `Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it.`, bands: ['balanced', 'open'] },
+      { phrase: `Selective`, desc: `The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully.`, bands: ['open'] },
     ],
     shadows: [
-      { phrase: `Runs on empty`, desc: `You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks.`, bands: 'all' },
-      { phrase: `Allergic to gloom`, desc: `A sad silence starts and you're already reaching for the joke, the fix, the bright side. Some feelings needed to sit a while longer. People learn to take their heavy things elsewhere.`, bands: 'all' },
-      { phrase: `Taken for granted`, desc: `Your brightness is treated like the sun. Always there, nobody's job to maintain. The one day it dims, people ask what's wrong with you, not what it cost.`, bands: 'all' },
-      { phrase: `Fills every silence`, desc: `Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade.`, bands: ['concentrated'] },
-      { phrase: `Smiles on schedule`, desc: `The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed.`, bands: ['open'] },
+      { phrase: `Overextended`, desc: `You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks.`, bands: 'all' },
+      { phrase: `Deflecting`, desc: `A sad silence starts and you're already reaching for the joke, the fix, the bright side. Some feelings needed to sit a while longer. People learn to take their heavy things elsewhere.`, bands: 'all' },
+      { phrase: `Undervalued`, desc: `Your brightness is treated like the sun. Always there, nobody's job to maintain. The one day it dims, people ask what's wrong with you, not what it cost.`, bands: 'all' },
+      { phrase: `Overbearing`, desc: `Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade.`, bands: ['concentrated'] },
+      { phrase: `Performing`, desc: `The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed.`, bands: ['open'] },
     ],
     blocks: [
       {
@@ -416,18 +416,18 @@ There's also a specific interpersonal cost: people who care about you often feel
 
     // GIFTS & SHADOWS — band-tagged pools ×5 (REA_16 §3 pool laws); resolveArchetype selects the chart's ×3
     gifts: [
-      { phrase: `Deeply present`, desc: `When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find.`, bands: 'all' },
-      { phrase: `Misses nothing`, desc: `The small tell, the changed tone, the detail everyone walked past. You caught it, and three months later it turned out to be the whole story.`, bands: 'all' },
-      { phrase: `Fully committed`, desc: `What you choose gets everything you have. The people and work inside your circle never have to wonder where they stand.`, bands: ['concentrated'] },
-      { phrase: `Rekindles people`, desc: `Your belief in someone works at close range. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again.`, bands: ['balanced', 'open'] },
-      { phrase: `Keeps the flame`, desc: `The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night.`, bands: ['open'] },
+      { phrase: `Present`, desc: `When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find.`, bands: 'all' },
+      { phrase: `Observant`, desc: `The small tell, the changed tone, the detail everyone walked past. You caught it, and three months later it turned out to be the whole story.`, bands: 'all' },
+      { phrase: `All-in`, desc: `What you choose gets everything you have. The people and work inside your circle never have to wonder where they stand.`, bands: ['concentrated'] },
+      { phrase: `Encouraging`, desc: `Your belief in someone works at close range. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again.`, bands: ['balanced', 'open'] },
+      { phrase: `Enduring`, desc: `The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night.`, bands: ['open'] },
     ],
     shadows: [
-      { phrase: `Plays favorites`, desc: `Whoever holds your focus gets daylight. Everyone else gets dusk. The people at the edge of your attention feel the difference, and some of them mind.`, bands: 'all' },
-      { phrase: `One-track mind`, desc: `You genuinely cannot split the flame. The second project, the waiting text, the simmering pot. They all wait in the dark until you turn.`, bands: 'all' },
-      { phrase: `Takes it personally`, desc: `What you're devoted to has no separation from you. A criticism of the work lands as a criticism of your soul, every time.`, bands: 'all' },
-      { phrase: `Comes on strong`, desc: `The full beam of your attention can arrive harder than the moment asked for. Some things needed gentle warmth and got the blowtorch.`, bands: ['concentrated'] },
-      { phrase: `Hides the light`, desc: `The people who'd treasure your attention rarely get offered it first. The flame stays behind cupped hands, and whole years of warmth go unseen.`, bands: ['open'] },
+      { phrase: `Neglectful`, desc: `Whoever holds your focus gets daylight. Everyone else gets dusk. The people at the edge of your attention feel the difference, and some of them mind.`, bands: 'all' },
+      { phrase: `Single-minded`, desc: `You genuinely cannot split the flame. The second project, the waiting text, the simmering pot. They all wait in the dark until you turn.`, bands: 'all' },
+      { phrase: `Defensive`, desc: `What you're devoted to has no separation from you. A criticism of the work lands as a criticism of your soul, every time.`, bands: 'all' },
+      { phrase: `Intense`, desc: `The full beam of your attention can arrive harder than the moment asked for. Some things needed gentle warmth and got the blowtorch.`, bands: ['concentrated'] },
+      { phrase: `Withdrawn`, desc: `The people who'd treasure your attention rarely get offered it first. The flame stays behind cupped hands, and whole years of warmth go unseen.`, bands: ['open'] },
     ],
     blocks: [
       {
@@ -531,18 +531,18 @@ There's also an investment asymmetry that accumulates: you give the full quality
 
     // GIFTS & SHADOWS — band-tagged pools ×5 (REA_16 §3 pool laws); resolveArchetype selects the chart's ×3
     gifts: [
-      { phrase: `Everyone's rock`, desc: `Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling.`, bands: 'all' },
-      { phrase: `Shows up regardless`, desc: `Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six.`, bands: 'all' },
+      { phrase: `Grounding`, desc: `Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling.`, bands: 'all' },
+      { phrase: `Constant`, desc: `Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six.`, bands: 'all' },
       { phrase: `Unflappable`, desc: `The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be.`, bands: ['concentrated'] },
-      { phrase: `Safe harbor`, desc: `People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning.`, bands: ['balanced', 'open'] },
-      { phrase: `Slow and sure`, desc: `You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely.`, bands: ['open'] },
+      { phrase: `Trustworthy`, desc: `People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning.`, bands: ['balanced', 'open'] },
+      { phrase: `Thorough`, desc: `You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely.`, bands: ['open'] },
     ],
     shadows: [
-      { phrase: `Bottles it up`, desc: `The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked.`, bands: 'all' },
-      { phrase: `Waits too long`, desc: `Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it.`, bands: 'all' },
-      { phrase: `Can't let go`, desc: `Jobs, grudges, houses, roles that ended years ago. Letting go feels like betraying everyone who leaned on the holding, so the grip stays closed.`, bands: 'all' },
-      { phrase: `Set in stone`, desc: `Once your footing is chosen, argument becomes erosion. It works on you in centuries, not conversations. People eventually stop bringing the map.`, bands: ['concentrated'] },
-      { phrase: `Quietly overwhelmed`, desc: `The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost.`, bands: ['open'] },
+      { phrase: `Bottled-up`, desc: `The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked.`, bands: 'all' },
+      { phrase: `Passive`, desc: `Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it.`, bands: 'all' },
+      { phrase: `Holding on`, desc: `Jobs, grudges, houses, roles that ended years ago. Letting go feels like betraying everyone who leaned on the holding, so the grip stays closed.`, bands: 'all' },
+      { phrase: `Stubborn`, desc: `Once your footing is chosen, argument becomes erosion. It works on you in centuries, not conversations. People eventually stop bringing the map.`, bands: ['concentrated'] },
+      { phrase: `Overloaded`, desc: `The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost.`, bands: ['open'] },
     ],
     blocks: [
       {
@@ -646,18 +646,18 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
 
     // GIFTS & SHADOWS — band-tagged pools ×5 (REA_16 §3 pool laws); resolveArchetype selects the chart's ×3
     gifts: [
-      { phrase: `Anticipates needs`, desc: `The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did.`, bands: 'all' },
-      { phrase: `Grows people`, desc: `People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly.`, bands: 'all' },
-      { phrase: `Keeps every promise`, desc: `Your care doesn't have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that.`, bands: ['concentrated'] },
-      { phrase: `Restful company`, desc: `Nobody performs around you. Friends unclench, say the true version, and stay an hour longer than they planned. Your presence works like fallow ground.`, bands: ['balanced', 'open'] },
-      { phrase: `Quietly essential`, desc: `Nothing about you announces itself. But when you step back for a while, everything wilts a little, and everyone finally notices who was watering.`, bands: ['open'] },
+      { phrase: `Attentive`, desc: `The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did.`, bands: 'all' },
+      { phrase: `Enriching`, desc: `People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly.`, bands: 'all' },
+      { phrase: `Reliable`, desc: `Your care doesn't have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that.`, bands: ['concentrated'] },
+      { phrase: `Easygoing`, desc: `Nobody performs around you. Friends unclench, say the true version, and stay an hour longer than they planned. Your presence works like fallow ground.`, bands: ['balanced', 'open'] },
+      { phrase: `Indispensable`, desc: `Nothing about you announces itself. But when you step back for a while, everything wilts a little, and everyone finally notices who was watering.`, bands: ['open'] },
     ],
     shadows: [
       { phrase: `Too agreeable`, desc: `The group picks the plan and you say it's fine. It usually is. Somewhere under all the years of fine sits a list of things you actually wanted that nobody has ever heard.`, bands: 'all' },
-      { phrase: `Neglects own growth`, desc: `Everyone else's garden is thriving under your care. Yours is the one with the weeds, waiting for a season you never schedule.`, bands: 'all' },
-      { phrase: `Can't say no`, desc: `The request lands and the yes is out before you've checked the calendar or the tank. Refusing feels like frost, so you never learned it.`, bands: 'all' },
-      { phrase: `Smothers a little`, desc: `Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed.`, bands: ['concentrated'] },
-      { phrase: `Worn thin`, desc: `Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field.`, bands: ['open'] },
+      { phrase: `Self-neglecting`, desc: `Everyone else's garden is thriving under your care. Yours is the one with the weeds, waiting for a season you never schedule.`, bands: 'all' },
+      { phrase: `Overcommitted`, desc: `The request lands and the yes is out before you've checked the calendar or the tank. Refusing feels like frost, so you never learned it.`, bands: 'all' },
+      { phrase: `Overprotective`, desc: `Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed.`, bands: ['concentrated'] },
+      { phrase: `Depleted`, desc: `Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field.`, bands: ['open'] },
     ],
     blocks: [
       {
@@ -771,18 +771,18 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
 
     // GIFTS & SHADOWS — phrase [FREE] · desc [FREE · one sharp sentence, distinct angle]
     gifts: [
-      { phrase: `Instant character read`, desc: `Ten minutes into meeting someone, you already know who they are. Months later, everyone else catches up to what you saw in the first handshake.`, bands: 'all' },
-      { phrase: `Straight talker`, desc: `When everyone at the table is talking around the problem, you're the one who names it. People save their hardest questions for you because you won't dress up the answer.`, bands: 'all' },
-      { phrase: `Crisis performer`, desc: `The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved.`, bands: ['concentrated'] },
-      { phrase: `Quiet loyalty`, desc: `Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time.`, bands: ['balanced', 'open'] },
-      { phrase: `Careful finisher`, desc: `You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing.`, bands: ['open'] },
+      { phrase: `Clear-eyed`, desc: `Ten minutes into meeting someone, you already know who they are. Months later, everyone else catches up to what you saw in the first handshake.`, bands: 'all' },
+      { phrase: `Candid`, desc: `When everyone at the table is talking around the problem, you're the one who names it. People save their hardest questions for you because you won't dress up the answer.`, bands: 'all' },
+      { phrase: `Composed`, desc: `The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved.`, bands: ['concentrated'] },
+      { phrase: `Loyal`, desc: `Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time.`, bands: ['balanced', 'open'] },
+      { phrase: `Meticulous`, desc: `You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing.`, bands: ['open'] },
     ],
     shadows: [
-      { phrase: `Own harshest critic`, desc: `The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days for you.`, bands: 'all' },
-      { phrase: `Mistaken for cold`, desc: `New people often think you're judging them. You usually are, but not the way they fear, and by the time they learn that, some have already kept their distance.`, bands: 'all' },
-      { phrase: `Right too early`, desc: `You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone.`, bands: 'all' },
-      { phrase: `Quick to conclude`, desc: `Once you've decided what something is, it stays decided. The person who grew, the plan that improved, the second chance that was earned, they all arrive to a door already shut.`, bands: ['concentrated'] },
-      { phrase: `Endless second-guessing`, desc: `You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished.`, bands: ['open'] },
+      { phrase: `Self-critical`, desc: `The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days for you.`, bands: 'all' },
+      { phrase: `Intimidating`, desc: `New people often think you're judging them. You usually are, but not the way they fear, and by the time they learn that, some have already kept their distance.`, bands: 'all' },
+      { phrase: `Far-sighted`, desc: `You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone.`, bands: 'all' },
+      { phrase: `Judgmental`, desc: `Once you've decided what something is, it stays decided. The person who grew, the plan that improved, the second chance that was earned, they all arrive to a door already shut.`, bands: ['concentrated'] },
+      { phrase: `Indecisive`, desc: `You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished.`, bands: ['open'] },
     ],
 
     blocks: [
@@ -982,18 +982,18 @@ The verdict also becomes load-bearing: once formed, it requires new information 
 
     // GIFTS & SHADOWS — band-tagged pools ×5 (REA_16 §3 pool laws); resolveArchetype selects the chart's ×3
     gifts: [
-      { phrase: `Impeccable taste`, desc: `You know the good one from the almost-good one at a glance, the way some people can tell a note is flat. Friends borrow your eye before they buy.`, bands: 'all' },
-      { phrase: `Quality guaranteed`, desc: `Nothing leaves your hands that you don't believe in. Years later your work is the one still holding up under inspection.`, bands: 'all' },
-      { phrase: `Spots the crack`, desc: `You saw the flaw three months before it became the problem. You usually say it out loud exactly once, and then wait.`, bands: ['concentrated'] },
-      { phrase: `Notices the effort`, desc: `The detail someone worked hardest on, the one everyone else missed, is the first thing you praise. Being appreciated by you means something because you actually looked.`, bands: ['balanced', 'open'] },
-      { phrase: `Understated excellence`, desc: `You don't advertise, compete, or explain. The work speaks quietly, the taste shows in small choices, and the people who know, know.`, bands: ['open'] },
+      { phrase: `Tasteful`, desc: `You know the good one from the almost-good one at a glance, the way some people can tell a note is flat. Friends borrow your eye before they buy.`, bands: 'all' },
+      { phrase: `Uncompromising`, desc: `Nothing leaves your hands that you don't believe in. Years later your work is the one still holding up under inspection.`, bands: 'all' },
+      { phrase: `Sharp-eyed`, desc: `You saw the flaw three months before it became the problem. You usually say it out loud exactly once, and then wait.`, bands: ['concentrated'] },
+      { phrase: `Appreciative`, desc: `The detail someone worked hardest on, the one everyone else missed, is the first thing you praise. Being appreciated by you means something because you actually looked.`, bands: ['balanced', 'open'] },
+      { phrase: `Understated`, desc: `You don't advertise, compete, or explain. The work speaks quietly, the taste shows in small choices, and the people who know, know.`, bands: ['open'] },
     ],
     shadows: [
-      { phrase: `Bruises easily`, desc: `The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep.`, bands: 'all' },
-      { phrase: `Hard to impress`, desc: `People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it.`, bands: 'all' },
-      { phrase: `Chronically disappointed`, desc: `You can always see the better version that doesn’t exist. The gap between possible and actual never quite closes, and living in it wears.`, bands: 'all' },
-      { phrase: `Polishes forever`, desc: `The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive.`, bands: ['concentrated'] },
-      { phrase: `Sells self short`, desc: `The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly.`, bands: ['open'] },
+      { phrase: `Thin-skinned`, desc: `The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep.`, bands: 'all' },
+      { phrase: `Critical`, desc: `People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it.`, bands: 'all' },
+      { phrase: `Idealistic`, desc: `You can always see the better version that doesn't exist. The gap between possible and actual never quite closes, and living in it wears.`, bands: 'all' },
+      { phrase: `Perfectionist`, desc: `The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive.`, bands: ['concentrated'] },
+      { phrase: `Self-deprecating`, desc: `The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly.`, bands: ['open'] },
     ],
     blocks: [
       {
@@ -1095,18 +1095,18 @@ The verdict also becomes load-bearing: once formed, it requires new information 
 
     // GIFTS & SHADOWS — band-tagged pools ×5 (REA_16 §3 pool laws); resolveArchetype selects the chart's ×3
     gifts: [
-      { phrase: `Big picture thinker`, desc: `While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out.`, bands: 'all' },
-      { phrase: `Endlessly curious`, desc: `Every field, every stranger, every rabbit hole. Dinner with you can cross four centuries and never feel like a lecture. The appetite doesn't switch off.`, bands: 'all' },
-      { phrase: `Thinks big`, desc: `Small plans bore you on arrival. You're drawn to the far shore, the decade plan, the version of the idea that scares the committee.`, bands: ['concentrated'] },
-      { phrase: `Even keel`, desc: `Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours.`, bands: ['balanced', 'open'] },
-      { phrase: `Full of surprises`, desc: `Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned.`, bands: ['open'] },
+      { phrase: `Big-picture`, desc: `While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out.`, bands: 'all' },
+      { phrase: `Curious`, desc: `Every field, every stranger, every rabbit hole. Dinner with you can cross four centuries and never feel like a lecture. The appetite doesn't switch off.`, bands: 'all' },
+      { phrase: `Ambitious`, desc: `Small plans bore you on arrival. You're drawn to the far shore, the decade plan, the version of the idea that scares the committee.`, bands: ['concentrated'] },
+      { phrase: `Even-keeled`, desc: `Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours.`, bands: ['balanced', 'open'] },
+      { phrase: `Layered`, desc: `Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned.`, bands: ['open'] },
     ],
     shadows: [
-      { phrase: `Lost in translation`, desc: `What you actually think arrives at about a tenth of its size when spoken. The best of you doesn’t travel well in words, and meetings never see it.`, bands: 'all' },
-      { phrase: `Hard to know`, desc: `Even the people closest to you work from a fraction. Whole regions of you stay unmapped, not hidden exactly, just never offered.`, bands: 'all' },
-      { phrase: `Spread too thin`, desc: `Everything interests you and nothing contains you, so the current runs in six directions at once. Vast motion, and some seasons, no arrival.`, bands: 'all' },
-      { phrase: `Sweeps people along`, desc: `The plan was already moving before anyone agreed to it. Your current is strong enough that consent sometimes arrives after departure.`, bands: ['concentrated'] },
-      { phrase: `Drifts away`, desc: `Mid-conversation, mid-project, mid-year, part of you quietly leaves for open water. People feel the tide go out before you've noticed you left.`, bands: ['open'] },
+      { phrase: `Misunderstood`, desc: `What you actually think arrives at about a tenth of its size when spoken. The best of you doesn't travel well in words, and meetings never see it.`, bands: 'all' },
+      { phrase: `Private`, desc: `Even the people closest to you work from a fraction. Whole regions of you stay unmapped, not hidden exactly, just never offered.`, bands: 'all' },
+      { phrase: `Scattered`, desc: `Everything interests you and nothing contains you, so the current runs in six directions at once. Vast motion, and some seasons, no arrival.`, bands: 'all' },
+      { phrase: `Forceful`, desc: `The plan was already moving before anyone agreed to it. Your current is strong enough that consent sometimes arrives after departure.`, bands: ['concentrated'] },
+      { phrase: `Absent`, desc: `Mid-conversation, mid-project, mid-year, part of you quietly leaves for open water. People feel the tide go out before you've noticed you left.`, bands: ['open'] },
     ],
     blocks: [
       {
@@ -1210,18 +1210,18 @@ Most exchanges happen at a shallower level than where you operate. This produces
 
     // GIFTS & SHADOWS — band-tagged pools ×5 (REA_16 §3 pool laws); resolveArchetype selects the chart's ×3
     gifts: [
-      { phrase: `Feels the undercurrent`, desc: `You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence.`, bands: 'all' },
-      { phrase: `Finds the words`, desc: `Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it.`, bands: 'all' },
-      { phrase: `Knows what helps`, desc: `Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It’s why your comfort actually lands.`, bands: ['concentrated'] },
-      { phrase: `Gentle confidant`, desc: `People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you’ve never broken it.`, bands: ['balanced', 'open'] },
-      { phrase: `Changes minds softly`, desc: `Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did.`, bands: ['open'] },
+      { phrase: `Empathetic`, desc: `You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence.`, bands: 'all' },
+      { phrase: `Articulate`, desc: `Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it.`, bands: 'all' },
+      { phrase: `Comforting`, desc: `Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands.`, bands: ['concentrated'] },
+      { phrase: `Gentle`, desc: `People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it.`, bands: ['balanced', 'open'] },
+      { phrase: `Persuasive`, desc: `Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did.`, bands: ['open'] },
     ],
     shadows: [
-      { phrase: `Absorbs everything`, desc: `You walk in fine and leave carrying the argument two strangers had near you. Other people’s weather soaks straight through your coat.`, bands: 'all' },
-      { phrase: `Feelings as facts`, desc: `When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one.`, bands: ['concentrated'] },
-      { phrase: `Avoids the fight`, desc: `You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years.`, bands: 'all' },
-      { phrase: `Marinates in it`, desc: `The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep.`, bands: 'all' },
-      { phrase: `Doubts the signal`, desc: `The hunch was right, and you overruled it anyway because three people sounded surer than you felt. You've learned to poll before trusting the one instrument that was working.`, bands: ['open'] },
+      { phrase: `Porous`, desc: `You walk in fine and leave carrying the argument two strangers had near you. Other people's weather soaks straight through your coat.`, bands: 'all' },
+      { phrase: `Conflict-averse`, desc: `You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years.`, bands: 'all' },
+      { phrase: `Brooding`, desc: `The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep.`, bands: 'all' },
+      { phrase: `Unpersuadable`, desc: `When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one.`, bands: ['concentrated'] },
+      { phrase: `Self-doubting`, desc: `The hunch was right, and you overruled it anyway because three people sounded surer than you felt. You've learned to poll before trusting the one instrument that was working.`, bands: ['open'] },
     ],
     blocks: [
       {

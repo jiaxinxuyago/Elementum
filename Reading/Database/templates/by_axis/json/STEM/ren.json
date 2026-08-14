@@ -30,28 +30,28 @@
     "dm_overview": "The Ocean is Yang Water, the deep and moving form of the element. It works by currents: thought runs far below the surface, covers distances no one watches, and comes up only where it chooses. Capacity is the defining trait, and it's mostly invisible. What this nature manages, permanently, is the gap between how much is held and how much can ever be shown.",
     "gifts": [
       {
-        "phrase": "Big picture thinker",
-        "dim": "sees whole system",
+        "phrase": "Big-picture",
+        "dim": "connections",
         "desc": "While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out.",
         "bands": "all"
       },
       {
-        "phrase": "Endlessly curious",
-        "dim": "omnivorous appetite",
+        "phrase": "Curious",
+        "dim": "learning",
         "desc": "Every field, every stranger, every rabbit hole. Dinner with you can cross four centuries and never feel like a lecture. The appetite doesn't switch off.",
         "bands": "all"
       },
       {
-        "phrase": "Thinks big",
-        "dim": "drawn to scale",
+        "phrase": "Ambitious",
+        "dim": "horizons",
         "desc": "Small plans bore you on arrival. You're drawn to the far shore, the decade plan, the version of the idea that scares the committee.",
         "bands": [
           "concentrated"
         ]
       },
       {
-        "phrase": "Even keel",
-        "dim": "depth calm",
+        "phrase": "Even-keeled",
+        "dim": "under pressure",
         "desc": "Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours.",
         "bands": [
           "balanced",
@@ -59,8 +59,8 @@
         ]
       },
       {
-        "phrase": "Full of surprises",
-        "dim": "unmapped regions",
+        "phrase": "Layered",
+        "dim": "being known",
         "desc": "Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned.",
         "bands": [
           "open"
@@ -69,34 +69,34 @@
     ],
     "shadows": [
       {
-        "phrase": "Lost in translation",
-        "dim": "depth shrinks spoken",
-        "desc": "What you actually think arrives at about a tenth of its size when spoken. The best of you doesn’t travel well in words, and meetings never see it.",
+        "phrase": "Misunderstood",
+        "dim": "communication",
+        "desc": "What you actually think arrives at about a tenth of its size when spoken. The best of you doesn't travel well in words, and meetings never see it.",
         "bands": "all"
       },
       {
-        "phrase": "Hard to know",
-        "dim": "kept at fraction",
+        "phrase": "Private",
+        "dim": "close bonds",
         "desc": "Even the people closest to you work from a fraction. Whole regions of you stay unmapped, not hidden exactly, just never offered.",
         "bands": "all"
       },
       {
-        "phrase": "Spread too thin",
-        "dim": "scattered current",
+        "phrase": "Scattered",
+        "dim": "focus",
         "desc": "Everything interests you and nothing contains you, so the current runs in six directions at once. Vast motion, and some seasons, no arrival.",
         "bands": "all"
       },
       {
-        "phrase": "Sweeps people along",
-        "dim": "consent lags force",
+        "phrase": "Forceful",
+        "dim": "momentum",
         "desc": "The plan was already moving before anyone agreed to it. Your current is strong enough that consent sometimes arrives after departure.",
         "bands": [
           "concentrated"
         ]
       },
       {
-        "phrase": "Drifts away",
-        "dim": "tide goes out",
+        "phrase": "Absent",
+        "dim": "presence",
         "desc": "Mid-conversation, mid-project, mid-year, part of you quietly leaves for open water. People feel the tide go out before you've noticed you left.",
         "bands": [
           "open"

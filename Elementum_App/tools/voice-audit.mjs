@@ -114,17 +114,22 @@ for (const axis of fs.readdirSync(STATION)) {
       const rule = ruleFor(axis, field);
       const where = `${axis}/${f} :: ${field}`;
       if (!rule) { console.log(`VOICE  ${where} :: UNREGISTERED — authored field has no REA_16 §2c row (register it before authoring)`); fail++; continue; }
-      // Tagged pools (REA_16 §3 Angle Fork law): `dim` holds each item's
-      // 3-word trait reduction — reductions and phrases must be unique
-      // within the pool, or two items are the same angle restaged.
+      // Tagged pools (REA_16 §3 dimension law v3): `phrase` = the trait
+      // (1–2 common personality words), `dim` = solely the ANGLE (the
+      // life-facet lens) — never a phrase restatement. Dims and phrases
+      // must be unique within the pool, and phrase must not equal dim.
       if (Array.isArray(value) && value.length && value.every((it) => it && typeof it === 'object' && it.phrase && it.dim)) {
         for (const k of ['dim', 'phrase']) {
           const seen = new Map();
           for (const it of value) {
             const norm = String(it[k]).toLowerCase().trim();
-            if (seen.has(norm)) { console.log(`VOICE  ${where} :: duplicate pool ${k} "${it[k]}" (Angle Fork law — refork one item)`); fail++; }
+            if (seen.has(norm)) { console.log(`VOICE  ${where} :: duplicate pool ${k} "${it[k]}" (dimension law v3 — refork one item)`); fail++; }
             seen.set(norm, true);
           }
+        }
+        for (const it of value) {
+          if (String(it.phrase).toLowerCase().trim() === String(it.dim).toLowerCase().trim()) { console.log(`VOICE  ${where} :: phrase equals dim ("${it.phrase}") — dim is the angle, not the trait`); fail++; }
+          if (String(it.phrase).split(/\s+/).length > 2) { console.log(`VOICE  ${where} :: phrase "${it.phrase}" over 2 words (dimension law v3)`); fail++; }
         }
         for (const it of value) {
           const id = `${axis}.${field}|${String(it.phrase).toLowerCase().trim()}`;

@@ -30,28 +30,28 @@
     "dm_overview": "The Sun is Yang Fire, the broadcasting half of flame. It works like daylight: warmth goes out whether or not anyone meant to send it, and it reaches whoever happens to be under it. Commitment follows what lights up and cools on what doesn't. Receiving never gets practiced, because giving always came first. The output runs constant. The fuel is the part nobody checks, least of all the sun.",
     "gifts": [
       {
-        "phrase": "Instantly likable",
-        "dim": "instant trust",
+        "phrase": "Magnetic",
+        "dim": "first impressions",
         "desc": "Strangers relax around you before you've said much of anything. Guards drop, small talk turns real, and nobody can quite explain why.",
         "bands": "all"
       },
       {
-        "phrase": "Lifts the mood",
-        "dim": "raises energy",
+        "phrase": "Uplifting",
+        "dim": "atmosphere",
         "desc": "A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did.",
         "bands": "all"
       },
       {
-        "phrase": "No hidden agenda",
-        "dim": "warmth believed",
+        "phrase": "Genuine",
+        "dim": "hard days",
         "desc": "Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out.",
         "bands": [
           "concentrated"
         ]
       },
       {
-        "phrase": "First to celebrate",
-        "dim": "unenvious joy",
+        "phrase": "Supportive",
+        "dim": "others' wins",
         "desc": "Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it.",
         "bands": [
           "balanced",
@@ -59,8 +59,8 @@
         ]
       },
       {
-        "phrase": "Warms who matters",
-        "dim": "focused warmth",
+        "phrase": "Selective",
+        "dim": "close bonds",
         "desc": "The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully.",
         "bands": [
           "open"
@@ -69,34 +69,34 @@
     ],
     "shadows": [
       {
-        "phrase": "Runs on empty",
-        "dim": "gives past empty",
+        "phrase": "Overextended",
+        "dim": "personal reserves",
         "desc": "You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks.",
         "bands": "all"
       },
       {
-        "phrase": "Allergic to gloom",
-        "dim": "cannot sit sadness",
+        "phrase": "Deflecting",
+        "dim": "heavy feelings",
         "desc": "A sad silence starts and you're already reaching for the joke, the fix, the bright side. Some feelings needed to sit a while longer. People learn to take their heavy things elsewhere.",
         "bands": "all"
       },
       {
-        "phrase": "Taken for granted",
-        "dim": "cost invisible",
+        "phrase": "Undervalued",
+        "dim": "recognition",
         "desc": "Your brightness is treated like the sun. Always there, nobody's job to maintain. The one day it dims, people ask what's wrong with you, not what it cost.",
         "bands": "all"
       },
       {
-        "phrase": "Fills every silence",
-        "dim": "overrides quiet",
+        "phrase": "Overbearing",
+        "dim": "quiet moments",
         "desc": "Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade.",
         "bands": [
           "concentrated"
         ]
       },
       {
-        "phrase": "Smiles on schedule",
-        "dim": "performed warmth",
+        "phrase": "Performing",
+        "dim": "authenticity",
         "desc": "The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed.",
         "bands": [
           "open"

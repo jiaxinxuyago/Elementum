@@ -26,44 +26,44 @@
 | `dm_mechanism` | Yang Wood grown toward light — a spine that rose by reaching, season over season. |
 | `yourNature_desc` | You see where things could go before most people see that they could go anywhere, and you're moving while they're still deciding. What you build tends to outlast you. You're just rarely there to see it, because halfway through every ending you've already started the next thing. |
 | `dm_overview` | The Oak is Yang Wood, growth in its straightest form. It works by heading upward: direction gets chosen early, sometimes before the ground has agreed, and the climb starts without waiting for permission or shelter. Setbacks slow it about as much as weather slows a tree. What this nature does badly is pause. Arriving, resting, finishing, all the standing-still skills, stay unlearned. |
-| `gifts[0].phrase` | First to move |
-| `gifts[0].dim` | starts first |
+| `gifts[0].phrase` | Self-starter |
+| `gifts[0].dim` | beginnings |
 | `gifts[0].desc` | While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up. |
-| `gifts[0].bands` | all |
-| `gifts[1].phrase` | Raises everyone's game |
-| `gifts[1].dim` | raises ambitions |
+| `gifts[0].bands` | concentrated · balanced |
+| `gifts[1].phrase` | Inspiring |
+| `gifts[1].dim` | influence on others |
 | `gifts[1].desc` | People around you end up aiming higher than they meant to. Your reach quietly becomes the new ceiling, and nobody remembers deciding that. |
 | `gifts[1].bands` | all |
-| `gifts[2].phrase` | Builds to last |
-| `gifts[2].dim` | durable building |
+| `gifts[2].phrase` | Builder |
+| `gifts[2].dim` | at work |
 | `gifts[2].desc` | You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down. |
 | `gifts[2].bands` | concentrated |
-| `gifts[3].phrase` | Keeps the faith |
-| `gifts[3].dim` | keeps believing |
+| `gifts[3].phrase` | Hopeful |
+| `gifts[3].dim` | inner life |
 | `gifts[3].desc` | You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter. |
 | `gifts[3].bands` | balanced · open |
-| `gifts[4].phrase` | Unhurried growth |
-| `gifts[4].dim` | quiet compounding |
+| `gifts[4].phrase` | Late bloomer |
+| `gifts[4].dim` | over the years |
 | `gifts[4].desc` | Your progress doesn't look dramatic day to day. Then people look up and the sapling they remember is somehow taller than the fence. |
 | `gifts[4].bands` | open |
-| `shadows[0].phrase` | Outpaces people |
-| `shadows[0].dim` | leaves people behind |
+| `shadows[0].phrase` | Relentless |
+| `shadows[0].dim` | close bonds |
 | `shadows[0].desc` | The people who love you often feel a step behind. The reaching never slows quite enough to let them catch up. |
 | `shadows[0].bands` | all |
-| `shadows[1].phrase` | Asks for nothing |
-| `shadows[1].dim` | pride blocks asking |
+| `shadows[1].phrase` | Proud |
+| `shadows[1].dim` | asking for help |
 | `shadows[1].desc` | Help is right there and you know it. You'd still rather struggle in private than let anyone watch you need something. Asking feels like shrinking an inch you can't get back. |
 | `shadows[1].bands` | all |
-| `shadows[2].phrase` | Leaves things unfinished |
-| `shadows[2].dim` | abandons foundations |
+| `shadows[2].phrase` | Restless |
+| `shadows[2].dim` | follow-through |
 | `shadows[2].desc` | You commit hard, build fast, then spot the next mountain before this one is settled. Someone else ends up pouring the foundation you sketched. |
 | `shadows[2].bands` | all |
-| `shadows[3].phrase` | Charges ahead |
-| `shadows[3].dim` | ignores warnings |
+| `shadows[3].phrase` | Headstrong |
+| `shadows[3].dim` | warnings |
 | `shadows[3].desc` | When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff. |
 | `shadows[3].bands` | concentrated |
-| `shadows[4].phrase` | Slow to launch |
-| `shadows[4].dim` | delayed first step |
+| `shadows[4].phrase` | Hesitant |
+| `shadows[4].dim` | beginnings |
 | `shadows[4].desc` | The direction is clear and the wanting is real, but the first step keeps waiting for a readier day. The path doesn't mind. The calendar does. |
 | `shadows[4].bands` | open |
 
