@@ -51,11 +51,18 @@ export function archetypeKeyFor(stem, chart) {
 
 // Select a chart's ×3 from a band-tagged pool (REA_16 §3 selection law):
 // items tagged with this band first, then all-tagged items in pool order.
-// Untagged items count as all-tagged, so legacy ×3 arrays pass through intact.
+// An item is all-tagged when `bands` is the literal 'all' in EITHER spelling the
+// schema's `string[] | 'all'` type allows — the bare string `bands: 'all'` or an
+// array containing it (`['all']`, or a mixed array) — or when `bands` is missing,
+// so legacy untagged ×3 arrays pass through intact.
+const isAllTagged = (bands) => (Array.isArray(bands) ? bands.includes('all') : true);
+
 export function selectPoolByBand(pool, band) {
   if (!Array.isArray(pool)) return [];
-  const tagged = pool.filter((it) => Array.isArray(it.bands) && it.bands.includes(band));
-  const alls = pool.filter((it) => !Array.isArray(it.bands));
+  const tagged = pool.filter(
+    (it) => Array.isArray(it.bands) && it.bands.includes(band) && !it.bands.includes('all'),
+  );
+  const alls = pool.filter((it) => isAllTagged(it.bands));
   return [...tagged, ...alls].slice(0, 3);
 }
 
