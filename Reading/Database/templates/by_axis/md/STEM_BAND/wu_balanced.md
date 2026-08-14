@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You carry what's yours and stand near what isn't, and people can tell the difference by watching you. The steadiness is real without being a wall. Things still reach you. They just don't knock you over on the way in. |
+| `self_card.face` | Ground carrying only its share |
+| `self_card.presence` | You hold what's yours without hoarding the load. Things rest on you and get up again. The steadiness serves the day instead of owning it. |

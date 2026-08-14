@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You run at full brightness wherever you land, because dimming was never really one of your settings. People warm up, plans grow, afternoons improve. The fuel line runs straight from you, and you refill it in private, if at all. |
+| `self_card.face` | Light running at full noon |
+| `self_card.presence` | The brightness doesn't ask before it spends. Everyone near you gets summer, all day, and the bill for it arrives quietly, always addressed to you. |

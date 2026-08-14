@@ -9,7 +9,11 @@
     "Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys)"
   ],
   "candidates": {
-    "yourNature_desc": "You give light the way weather gives it, generously and with mornings off. The warmth reaches whoever needs it without burning through you to do it. People get the real version, and the real version gets to rest."
+    "yourNature_desc": "You give light the way weather gives it, generously and with mornings off. The warmth reaches whoever needs it without burning through you to do it. People get the real version, and the real version gets to rest.",
+    "self_card": {
+      "face": "Light with its own mornings",
+      "presence": "The warmth comes out when it means it and rests when it needs to. People trust your sunshine more because it has a night."
+    }
   },
   "status_note": "yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline)"
 }

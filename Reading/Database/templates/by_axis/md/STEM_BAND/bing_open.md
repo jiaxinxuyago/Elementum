@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You still light up the people you love. The shining just runs on a budget now, so you've started choosing your mornings. The ones who get the full warmth receive something rarer than before. Sunlight that knows exactly what it's spending. |
+| `self_card.face` | Light held close and low |
+| `self_card.presence` | You don't broadcast the way you used to, and that's not a fault. Late sun warms deeper than noon, and the ones in it know. |

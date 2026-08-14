@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You bend where bending works and hold where it doesn't, and the mix is usually right. People who watch closely see method where others see luck. The route stays negotiable. What you're actually after has never once been up for discussion. |
+| `self_card.face` | The winding knows its walls |
+| `self_card.presence` | You adapt when the wall is real and hold your line when it isn't. The route bends. The destination has stopped negotiating. |

@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You still think past the horizon everyone else stops at. Bringing it back for people takes wind you don't always have, so whole continents of you go unreported. The few who've sailed far enough out know. They tend to keep the secret badly. |
+| `self_card.face` | Current waiting on the wind |
+| `self_card.presence` | The water is as deep as it ever was. What varies is the crossing, not the water. No one measures an ocean by its calm days. |

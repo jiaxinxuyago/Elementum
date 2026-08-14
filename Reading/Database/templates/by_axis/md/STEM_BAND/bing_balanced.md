@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You give light the way weather gives it, generously and with mornings off. The warmth reaches whoever needs it without burning through you to do it. People get the real version, and the real version gets to rest. |
+| `self_card.face` | Light with its own mornings |
+| `self_card.presence` | The warmth comes out when it means it and rests when it needs to. People trust your sunshine more because it has a night. |

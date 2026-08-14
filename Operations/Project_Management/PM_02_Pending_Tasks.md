@@ -41,8 +41,8 @@ Principle (law): *what you are* = band-invariant · *how it's running* = band-va
 ### BAND-A · yourNature ×30 — ✅ COMPLETE (owner-locked 2026-08-13; R4 core closed)
 ×30 band variants live end-to-end: station `STEM_BAND/*.json` `yourNature_desc` → `stemVariants.js` band keys (庚 ×15 compounds retired) → `resolveDayMasterReading.nature` band-resolves on P4 (baseline = fallback); registry rows locked (31 enforced); both audits green; 庚 concentrated verified in browser + all three bands in node. **R4 riders RULED same day (owner):** J4 sub-screen DELETED (dead code + `buildDmCards`; `tpl_dm_prescription` template kept station-side, unsurfaced) · `inscription` home = `dm_claims` claim 1 (locked corpus surfaces when the dm_claims block ships).
 
-### BAND-C · self_card ×30 (the underfueled bridge)
-face ≤8w + presence ≤30w per stem×band; fresh authoring (the `IDENTITY_SATURATION_READING` predecessor never existed in code). Owner rules the slot at authoring: catalogue hero (under keywords) vs P4 vs the self energy card — multi-slot allowed. Station home: `STEM_BAND/*.json` `self_card`.
+### BAND-C · self_card ×30 — ✅ COMPLETE (owner-locked 2026-08-14) · **BAND CAMPAIGN CLOSED (B+A+C all shipped)**
+Slot RULED = the self energy card: renders ONLY on the core element's screen (`buildElementScreen` `isCore` → `STEM_VARIANTS[stem_band].selfCard`), between the core-state card and "What it means". ×30 authored fresh (face = the state named in the element arena · presence = being that state, open band dignified), station `STEM_BAND/*.json` `self_card` → `stemVariants.js` `selfCard` → journey element screen; registry row locked (32 enforced); audits green; verified in browser (庚 concentrated Metal shows the card, wood does not).
 
 ## OWNER — review & decisions (no deadline)
 

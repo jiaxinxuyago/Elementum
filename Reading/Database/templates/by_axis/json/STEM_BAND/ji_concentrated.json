@@ -9,7 +9,11 @@
     "Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys)"
   ],
   "candidates": {
-    "yourNature_desc": "You feed everything around you before the question of your own hunger comes up, if it comes up at all. Whatever lands near you gets grown. It's the kind of generosity that looks bottomless right up until the season it isn't."
+    "yourNature_desc": "You feed everything around you before the question of your own hunger comes up, if it comes up at all. Whatever lands near you gets grown. It's the kind of generosity that looks bottomless right up until the season it isn't.",
+    "self_card": {
+      "face": "Soil that feeds every seed",
+      "presence": "Anything planted near you grows, invited or not. The season never closes, and the field forgets that even good ground needs to lie fallow."
+    }
   },
   "status_note": "yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline)"
 }

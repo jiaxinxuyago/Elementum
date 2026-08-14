@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You're still the one people call solid, and most days the word fits. Some days it's a costume that stands up on its own. The ground holds because you decide it holds, one morning at a time, and nobody sees the deciding. |
+| `self_card.face` | Ground resting under fallow sky |
+| `self_card.presence` | The holding takes more than it shows these days. You're still the solid one. You've just started choosing which weights deserve the mountain. |

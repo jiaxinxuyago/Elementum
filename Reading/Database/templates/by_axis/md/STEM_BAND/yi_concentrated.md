@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You're already around the obstacle while others are still describing it, and you've stopped announcing the detours. Every problem has a side door. You've used so many that almost no one knows the real distance you've traveled, which is how you like it, mostly. |
+| `self_card.face` | The winding never pauses |
+| `self_card.presence` | Every wall is already being solved. Your mind routes around things by reflex now, even the ones that would have opened if you'd knocked. |

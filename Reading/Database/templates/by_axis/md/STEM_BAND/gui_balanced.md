@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You take in what the day is carrying and let most of it drain the way it should. What needs your attention gets it. What doesn't passes through, watering things on the way out instead of pooling. |
+| `self_card.face` | Rain in its right season |
+| `self_card.presence` | What falls on you soaks in or drains off, mostly in the right amounts. The sensitivity serves you now more than it spends you. |

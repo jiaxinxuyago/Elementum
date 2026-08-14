@@ -193,8 +193,9 @@ for (const s of STEMS) {
 for (const s of STEMS) for (const b of BANDS) {
   file('STEM_BAND', `${s.id}_${b}`, `${s.hz}_${b}`, null, {
     yourNature_desc: STEM_VARIANTS[`${s.hz}_${b}`]?.yourNature?.desc ?? null,
+    self_card: STEM_VARIANTS[`${s.hz}_${b}`]?.selfCard ?? null,
   }, ['Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys)'],
-  { status_note: 'yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline)' });
+  { status_note: 'yourNature band variant (BAND-A) + self_card core-element band mirror (BAND-C; slot = core element screen) — band grain only; resolver falls band → STEM baseline' });
 }
 
 // ── STEM_BAND_PATTERN — HELD ──

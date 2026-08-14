@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You hold up more than anyone knows, and you'd sooner add weight than mention it. Nothing moves you visibly. The people who lean hardest have stopped asking whether you feel the load, mostly because you've never once answered. |
+| `self_card.face` | Ground that holds everything |
+| `self_card.presence` | Weight finds you the way water finds low ground. You can carry what arrives, and you do. Setting something down still feels like a foreign language. |

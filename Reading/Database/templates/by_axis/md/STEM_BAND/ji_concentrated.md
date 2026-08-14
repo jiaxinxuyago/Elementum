@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You feed everything around you before the question of your own hunger comes up, if it comes up at all. Whatever lands near you gets grown. It's the kind of generosity that looks bottomless right up until the season it isn't. |
+| `self_card.face` | Soil that feeds every seed |
+| `self_card.presence` | Anything planted near you grows, invited or not. The season never closes, and the field forgets that even good ground needs to lie fallow. |

@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You reach for the next thing without dropping the thing in your hands, which is rarer than it sounds. Growth happens at a pace the people around you can actually join. When you start something now, you tend to be there for the end of it too. |
+| `self_card.face` | Growth on a steady trellis |
+| `self_card.presence` | The reach is there when you call it and quiet when you don't. Things get started, and things get finished, in that order more often than not. |

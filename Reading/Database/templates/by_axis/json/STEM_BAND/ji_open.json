@@ -9,7 +9,11 @@
     "Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys)"
   ],
   "candidates": {
-    "yourNature_desc": "You still notice what everyone needs. Acting on all of it is what you've had to ration, and the rationing sits uneasily with you. What you tend now, you tend deeply. The garden got smaller and somehow the growing got better."
+    "yourNature_desc": "You still notice what everyone needs. Acting on all of it is what you've had to ration, and the rationing sits uneasily with you. What you tend now, you tend deeply. The garden got smaller and somehow the growing got better.",
+    "self_card": {
+      "face": "Soil saving its season",
+      "presence": "The giving is smaller now and better aimed. What you still tend, you tend to the root. Nothing about a resting field is empty."
+    }
   },
   "status_note": "yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline)"
 }

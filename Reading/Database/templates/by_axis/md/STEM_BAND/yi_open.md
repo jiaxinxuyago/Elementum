@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You know the way around most walls. Lately the winding takes more out of you than it used to, and sometimes you wonder what a straight line would feel like. The reach is still there. It just picks its walls more carefully now. |
+| `self_card.face` | The winding rests between walls |
+| `self_card.presence` | You still find the way around, just not every day. Some walls get climbed next month, and the vine loses nothing by waiting. |

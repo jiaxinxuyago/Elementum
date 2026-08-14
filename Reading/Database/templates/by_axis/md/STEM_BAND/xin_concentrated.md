@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You measure everything against a standard nothing quite meets, including yourself, especially yourself. What you release is flawless because releasing is the hard part. The polish never really stops. It just changes what it's working on when you run out of objects. |
+| `self_card.face` | Polish that never clocks out |
+| `self_card.presence` | The eye grades everything, all day, itself included. Refinement this constant produces beautiful work and a person who rarely gets to just look. |

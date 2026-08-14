@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You cut to the truth of things before anyone has finished dressing it up, every time, in every setting. The edge never rests, including on you. People bring you the questions no one else will answer straight, then flinch at exactly what they came for. |
+| `self_card.face` | The edge, never sheathed |
+| `self_card.presence` | The cut is always available and mostly used. Clarity this constant is a climate, and the people near you dress for it. |

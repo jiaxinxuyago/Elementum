@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You still catch the undercurrent before anyone names it. Trusting the catch is the newer work, and some days you'd rather have the evidence first. The signal was never broken. You're just learning again to read it without asking permission. |
+| `self_card.face` | Rain held in low clouds |
+| `self_card.presence` | The feeling still gathers. It just releases more carefully now, and what does fall lands where it's actually needed. Drizzle grows more than storms do. |

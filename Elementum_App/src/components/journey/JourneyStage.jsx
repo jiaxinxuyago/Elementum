@@ -590,6 +590,14 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                   <span className="laylab el-verdlab" style={{ fontWeight: 600, color: `var(--${elScreen.el}Deep)` }}>{elScreen.verdLab}</span>
                   <p className="body2 el-verdict" style={{ margin: 0 }}>{elScreen.verdict}</p>
                 </div>
+                {/* BAND-C self_card — only the CORE element carries the band mirror */}
+                {elScreen.selfCard && (
+                  <div className="cardstock el-selfcard">
+                    <span className="laylab">HOW YOUR CORE IS RUNNING</span>
+                    <p className="serifline el-selfface" style={{ margin: '0 0 5px', fontSize: 14.5 }}>{elScreen.selfCard.face}</p>
+                    <p className="body2 el-selfpresence" style={{ margin: 0 }}>{elScreen.selfCard.presence}</p>
+                  </div>
+                )}
                 <div className="cardstock"><span className="laylab">WHAT IT MEANS</span><p className="serifline el-mean" style={{ margin: 0 }}>{elScreen.mean}</p></div>
                 <div className="cardstock"><span className="laylab">WHAT IT SAYS ABOUT YOU</span>
                   <p className="serifline el-face" style={{ margin: '0 0 5px', fontSize: 14.5 }}>{elScreen.face}</p>

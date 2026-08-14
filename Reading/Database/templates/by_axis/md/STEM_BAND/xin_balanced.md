@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You hold a high bar and know when it applies, which spares everyone including you. Quality gets your full attention. The merely fine gets to stay fine. What you finish leaves on time and still shines longer than anyone expected. |
+| `self_card.face` | Polish with a finish line |
+| `self_card.presence` | The standard shows up for what deserves it and lets the rest be ordinary. Done exists again, and the shine survives it. |

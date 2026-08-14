@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You go deep when depth is called for and float easily when it isn't, and people relax around that. What you share arrives in usable sizes. The rest stays down where you keep it, not hidden, just not urgent. |
+| `self_card.face` | Current with a harbor |
+| `self_card.presence` | The depth is there when the day calls for it, and the surface stays friendly when it doesn't. You range far and still come home. |

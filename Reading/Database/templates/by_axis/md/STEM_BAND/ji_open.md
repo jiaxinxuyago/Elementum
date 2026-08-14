@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You still notice what everyone needs. Acting on all of it is what you've had to ration, and the rationing sits uneasily with you. What you tend now, you tend deeply. The garden got smaller and somehow the growing got better. |
+| `self_card.face` | Soil saving its season |
+| `self_card.presence` | The giving is smaller now and better aimed. What you still tend, you tend to the root. Nothing about a resting field is empty. |

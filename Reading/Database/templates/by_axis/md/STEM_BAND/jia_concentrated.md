@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You live three moves ahead of your own life, and the present rarely gets a full visit. Everything you touch grows fast, then waits for a finishing that has already moved on. The next summit was visible from halfway up this one. It always is. |
+| `self_card.face` | Growth with no off switch |
+| `self_card.presence` | Reaching is your resting state. Every day wants to be a bigger one, and the part of you that could coast never gets the vote. |

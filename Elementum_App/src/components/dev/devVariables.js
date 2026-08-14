@@ -84,13 +84,13 @@ export function buildVariableGroups(model, activeEl, chart) {
         { name: 'yourNature_desc (P4 "Your nature" — band variant ×30, BAND-A 2026-08-13; baseline = fallback)', axis: 'STEM·BAND×30', arch: bandArch, status: 'LIVE', value: card?.yourNature?.desc },
         { name: 'dm_claims', axis: 'STEM×10', arch: stemArch, status: 'PLANNED', value: null },
         { name: 'dm_mechanism', axis: 'STEM×10', arch: stemArch, status: 'PLANNED', value: null },
-        { name: 'self_card (K1b)', axis: 'STEM·BAND×30', arch: bandArch, status: 'PLANNED', value: null },
         { name: 'tpl_dm_prescription', axis: 'T · interim', arch: 'tpl_dm_prescription', status: 'INTERIM', value: 'element-generic pending K2' },
       ],
     },
     {
       surface: 'Element screens (interim → K2)',
       vars: [
+        { name: 'self_card (face+presence — CORE element only, band mirror; BAND-C 2026-08-14)', axis: 'STEM·BAND×30', arch: bandArch, status: 'LIVE', value: null },
         { name: 'persona_name (V)', axis: 'GOD×10', arch: focus ? focusGodArch : godsArch, status: 'LIVE', value: focus ? TG_PERSONA[focus.god] : perEl((r) => TG_PERSONA[r.god]) },
         { name: 'face_kw', axis: 'GOD×10', arch: focusGodArch, status: 'LIVE', value: focusGod ? (FACE_CARD[focusGod]?.kw || []).join(' · ') : null },
         { name: 'face_teaser', axis: 'GOD×10', arch: focusGodArch, status: 'LIVE ⚠R5 scope', value: focusGod ? FACE_CARD[focusGod]?.teaser : null },

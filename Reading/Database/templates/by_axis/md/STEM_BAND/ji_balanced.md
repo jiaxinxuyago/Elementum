@@ -17,3 +17,5 @@
 | Variable | Value |
 |---|---|
 | `yourNature_desc` | You give real care and keep real ground, and those around you get the better deal without bankrupting you. Things grow near you at their own pace. Yours grow too, in the plot you finally learned to keep. |
+| `self_card.face` | Soil in honest rotation |
+| `self_card.presence` | You grow what you choose to grow and rest the rest. The care is real and so is the fence around your own plot. |
