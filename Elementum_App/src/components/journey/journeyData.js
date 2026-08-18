@@ -14,8 +14,7 @@
 // ===================================================================
 
 import { getEnergyBand, relationOf } from '../../engine/index.js';
-import { TG_PERSONA } from '../../content/index.js';
-import { STEM_VARIANTS } from '../../content/stemVariants.js';
+import { TG_PERSONA, selfCardFor } from '../../content/index.js';
 import { FACE_CARD, ENERGY_TILE } from '../../content/reading/index.js';
 
 // ── element basics ─────────────────────────────────────────────────
@@ -350,9 +349,7 @@ export function buildElementScreen(model, el) {
   // BAND-C self_card (owner slot ruling 2026-08-14): the core element's
   // screen carries the band mirror — how YOUR core is running. Other
   // elements' screens don't (selfCard stays null there).
-  const selfCard = r.isCore
-    ? (STEM_VARIANTS[`${model.stem}_${model.band}`]?.selfCard ?? null)
-    : null;
+  const selfCard = r.isCore ? selfCardFor(model.stem, model.band) : null;
 
   return {
     el, name: r.name.toUpperCase(), hz: r.hz, cls: `a-${el}`,
