@@ -9,13 +9,13 @@
 | **axis** | STEM_BAND |
 | **key** | 庚_open |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **status** | yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline |
 | **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
 ## Candidate variables
 
 | Variable | Value |
 |---|---|
-| `yourNature_desc` | You see through things instantly. It's the saying out loud that comes and goes, and some truths wait in you for days before they speak. When they do, people listen harder than they would have on day one. The wait sharpens it. |
+| `yourNature_desc` | You keep the edge the stories promise, under cloth and out of view. Seeing through things is instant for you. Saying so out loud is the part that comes and goes, and some truths wait in you for days before they speak. When they finally do, people listen hard. The blade that waited was never dull. It was choosing. |
 | `self_card.face` | The edge, kept under cloth |
 | `self_card.presence` | The sharpness is intact. What changed is the drawing, slower now, more chosen. A blade that waits is not a blade that dulled. |

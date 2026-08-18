@@ -9,11 +9,11 @@
     "Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys)"
   ],
   "candidates": {
-    "yourNature_desc": "You hold up more than anyone knows, and you'd sooner add weight than mention it. Nothing moves you visibly. The people who lean hardest have stopped asking whether you feel the load, mostly because you've never once answered.",
+    "yourNature_desc": "You are the mountain the old maps warn rivers about. Everything heavy finds you, the way water finds low ground, and you take it on without ever posting a limit. Nothing moves you visibly. The people leaning hardest stopped asking how you're doing, mostly because you've never once answered. The snow on your shoulders has years in it. You call the arrangement fair.",
     "self_card": {
       "face": "Ground that holds everything",
       "presence": "Weight finds you the way water finds low ground. You can carry what arrives, and you do. Setting something down still feels like a foreign language."
     }
   },
-  "status_note": "yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline)"
+  "status_note": "yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline"
 }

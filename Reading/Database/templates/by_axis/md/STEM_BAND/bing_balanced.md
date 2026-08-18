@@ -9,13 +9,13 @@
 | **axis** | STEM_BAND |
 | **key** | 丙_balanced |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **status** | yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline |
 | **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
 ## Candidate variables
 
 | Variable | Value |
 |---|---|
-| `yourNature_desc` | You give light the way weather gives it, generously and with mornings off. The warmth reaches whoever needs it without burning through you to do it. People get the real version, and the real version gets to rest. |
+| `yourNature_desc` | You shine the way the sky's fire was meant to work, generously and with a night to every day. The warmth goes out real and comes home rested. People trust your light because it doesn't perform, and the mornings you keep for yourself are exactly what makes the afternoons believable. |
 | `self_card.face` | Light with its own mornings |
 | `self_card.presence` | The warmth comes out when it means it and rests when it needs to. People trust your sunshine more because it has a night. |

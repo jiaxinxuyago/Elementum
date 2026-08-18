@@ -9,13 +9,13 @@
 | **axis** | STEM_BAND |
 | **key** | 丙_open |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **status** | yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline |
 | **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
 ## Candidate variables
 
 | Variable | Value |
 |---|---|
-| `yourNature_desc` | You still light up the people you love. The shining just runs on a budget now, so you've started choosing your mornings. The ones who get the full warmth receive something rarer than before. Sunlight that knows exactly what it's spending. |
+| `yourNature_desc` | You carry the great light on a closer setting now. The broadcast that once reached every stranger has narrowed to the faces at your table, and they get sunlight with nothing watered down. The ones who know you never doubt the fire. They just know where it chooses to land now. |
 | `self_card.face` | Light held close and low |
 | `self_card.presence` | You don't broadcast the way you used to, and that's not a fault. Late sun warms deeper than noon, and the ones in it know. |

@@ -9,13 +9,13 @@
 | **axis** | STEM_BAND |
 | **key** | 庚_concentrated |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **status** | yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline |
 | **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
 ## Candidate variables
 
 | Variable | Value |
 |---|---|
-| `yourNature_desc` | You cut to the truth of things before anyone has finished dressing it up, every time, in every setting. The edge never rests, including on you. People bring you the questions no one else will answer straight, then flinch at exactly what they came for. |
+| `yourNature_desc` | You are what the sword is like when it wakes up as a person. The cut is always ready and mostly used. You put the truth ahead of comfort, yours and everyone's, every day, in every setting. People bring you the questions nobody else will answer straight, then flinch at exactly what they asked for. The edge never rests. That includes the nights, and it includes you. |
 | `self_card.face` | The edge, never sheathed |
 | `self_card.presence` | The cut is always available and mostly used. Clarity this constant is a climate, and the people near you dress for it. |

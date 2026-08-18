@@ -9,13 +9,13 @@
 | **axis** | STEM_BAND |
 | **key** | 丁_balanced |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **status** | yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline |
 | **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
 ## Candidate variables
 
 | Variable | Value |
 |---|---|
-| `yourNature_desc` | You give your full attention to what deserves it and a workable amount to everything else, which took years to learn. The flame holds steady without consuming you. People close to you get warmth that lasts the whole conversation, and the one after that. |
+| `yourNature_desc` | You hold the small flame the way it was meant to be held, steady, trimmed, and pointed at what deserves it. Full attention lands where it's needed and lifts when it's done. What you light stays lit without you standing guard all night. One face, one page, one task at a time, and each one fully. |
 | `self_card.face` | One flame, trimmed and steady |
 | `self_card.presence` | The focus lands where it's needed and lifts when it's done. What you light stays lit without you standing over it all night. |

@@ -9,13 +9,13 @@
 | **axis** | STEM_BAND |
 | **key** | 丙_concentrated |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **status** | yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline |
 | **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
 ## Candidate variables
 
 | Variable | Value |
 |---|---|
-| `yourNature_desc` | You run at full brightness wherever you land, because dimming was never really one of your settings. People warm up, plans grow, afternoons improve. The fuel line runs straight from you, and you refill it in private, if at all. |
+| `yourNature_desc` | You are the light the village plans its day around. Warmth leaves you the way heat leaves the sun, constantly, without a meter, whether or not anyone asked. People bloom in it and forget it costs. You refill in private, if at all, and the sky you hold up would genuinely surprise the people living under it. |
 | `self_card.face` | Light running at full noon |
 | `self_card.presence` | The brightness doesn't ask before it spends. Everyone near you gets summer, all day, and the bill for it arrives quietly, always addressed to you. |

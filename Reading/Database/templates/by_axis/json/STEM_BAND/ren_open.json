@@ -9,11 +9,11 @@
     "Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys)"
   ],
   "candidates": {
-    "yourNature_desc": "You still think past the horizon everyone else stops at. Bringing it back for people takes wind you don't always have, so whole continents of you go unreported. The few who've sailed far enough out know. They tend to keep the secret badly.",
+    "yourNature_desc": "You still think past the horizon everyone else stops at. Bringing it back for people takes wind you don't always have, so whole coastlines of you go unreported. The sea does not shrink between crossings, whatever the calm looks like from shore. The few who've sailed far out with you know exactly what's out there.",
     "self_card": {
       "face": "Current waiting on the wind",
       "presence": "The water is as deep as it ever was. What varies is the crossing, not the water. No one measures an ocean by its calm days."
     }
   },
-  "status_note": "yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline)"
+  "status_note": "yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline"
 }

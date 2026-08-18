@@ -9,13 +9,13 @@
 | **axis** | STEM_BAND |
 | **key** | 己_open |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **status** | yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline |
 | **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
 ## Candidate variables
 
 | Variable | Value |
 |---|---|
-| `yourNature_desc` | You still notice what everyone needs. Acting on all of it is what you've had to ration, and the rationing sits uneasily with you. What you tend now, you tend deeply. The garden got smaller and somehow the growing got better. |
+| `yourNature_desc` | You tend a smaller field now and tend it to the root. The giving that once went everywhere is better aimed, and what you still take on actually gets your whole season. A resting field is not an empty one. Everything you've ever grown is still out there, walking around, proving the ground was good. |
 | `self_card.face` | Soil saving its season |
 | `self_card.presence` | The giving is smaller now and better aimed. What you still tend, you tend to the root. Nothing about a resting field is empty. |

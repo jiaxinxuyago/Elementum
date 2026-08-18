@@ -9,13 +9,13 @@
 | **axis** | STEM_BAND |
 | **key** | 戊_balanced |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **status** | yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline |
 | **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
 ## Candidate variables
 
 | Variable | Value |
 |---|---|
-| `yourNature_desc` | You carry what's yours and stand near what isn't, and people can tell the difference by watching you. The steadiness is real without being a wall. Things still reach you. They just don't knock you over on the way in. |
+| `yourNature_desc` | You stand the way high ground stands, solid where it matters and breathing everywhere else. What's yours to carry gets carried. What isn't gets a place to rest and a fair farewell. Things still reach you, weather still writes on you, and none of it knocks you over. Steadiness that admits the wind is the kind that lasts. |
 | `self_card.face` | Ground carrying only its share |
 | `self_card.presence` | You hold what's yours without hoarding the load. Things rest on you and get up again. The steadiness serves the day instead of owning it. |

@@ -9,13 +9,13 @@
 | **axis** | STEM_BAND |
 | **key** | 壬_balanced |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **status** | yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline |
 | **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
 ## Candidate variables
 
 | Variable | Value |
 |---|---|
-| `yourNature_desc` | You go deep when depth is called for and float easily when it isn't, and people relax around that. What you share arrives in usable sizes. The rest stays down where you keep it, not hidden, just not urgent. |
+| `yourNature_desc` | You range the way the long river ranges, far out and reliably home. Depth arrives when the day calls for it and the surface stays friendly when it doesn't, so people get you in sizes they can actually carry. The distance never leaves your eyes entirely. It just learned where the harbor is. |
 | `self_card.face` | Current with a harbor |
 | `self_card.presence` | The depth is there when the day calls for it, and the surface stays friendly when it doesn't. You range far and still come home. |

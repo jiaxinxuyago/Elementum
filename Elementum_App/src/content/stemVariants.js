@@ -3,9 +3,10 @@
 // 30 entries keyed `${stem}_${band}` (band = concentrated | balanced | open).
 //
 // Per entry:
-//   yourNature.desc — BAND-A corpus (owner-locked 2026-08-13): "how it's
-//     running" (concentrated saturated · balanced in proportion · open muted
-//     but real). resolveArchetype falls band_pattern → band → baseline.
+//   yourNature.desc — v2 BRIDGE corpus (owner 2026-08-14): opens by receiving
+//     the dm_overview myth's image onto the reader (the third→second person
+//     baton pass), then the band portrait, then lands on the person. 50–75w.
+//     resolveArchetype falls band_pattern → band → baseline.
 //   selfCard {face, presence} — BAND-C corpus (owner-locked 2026-08-14):
 //     the core-element band mirror; renders on the OWN-element screen only
 //     (buildElementScreen → isCore). face ≤8w · presence ≤30w.
@@ -20,7 +21,7 @@ export const STEM_VARIANTS = {
   // ── 甲 ──
   '甲_concentrated': {
     yourNature: {
-      desc: `You live three moves ahead of your own life, and the present rarely gets a full visit. Everything you touch grows fast, then waits for a finishing that has already moved on. The next summit was visible from halfway up this one. It always is.`,
+      desc: `You are the seed that argued with the ground and never stopped arguing. Every day wants to be bigger than the last one, and the present rarely gets a full visit from you. What you build outgrows you, then waits for a finishing that has already moved on. The next summit was visible from halfway up this one. It always is.`,
     },
     selfCard: {
       face: `Growth with no off switch`,
@@ -29,7 +30,7 @@ export const STEM_VARIANTS = {
   },
   '甲_balanced': {
     yourNature: {
-      desc: `You reach for the next thing without dropping the thing in your hands, which is rarer than it sounds. Growth happens at a pace the people around you can actually join. When you start something now, you tend to be there for the end of it too.`,
+      desc: `You grow the way the old tree grows, upward without hurry and without doubt. The reach comes when called and rests when it isn't needed, so what you start, you tend to finish. People join your climb because the pace leaves them able to. Rings get added either way. That is the part most people miss about you.`,
     },
     selfCard: {
       face: `Growth on a steady trellis`,
@@ -38,7 +39,7 @@ export const STEM_VARIANTS = {
   },
   '甲_open': {
     yourNature: {
-      desc: `You still see where everything could go. What comes and goes is the push to get there, and some seasons the vision just sits in you, waiting for weather. When the growing does start, it runs slower than you'd like and more solid than you expect.`,
+      desc: `You hold the tall tree's patience more than its hunger. The push comes in seasons now, and between them the vision just sits in you, waiting for weather. When the growing starts it runs slower than you'd like and truer than you expect. Spring has never once missed a year. Yours simply keeps its own calendar.`,
     },
     selfCard: {
       face: `Growth in a quiet season`,
@@ -49,7 +50,7 @@ export const STEM_VARIANTS = {
   // ── 乙 ──
   '乙_concentrated': {
     yourNature: {
-      desc: `You're already around the obstacle while others are still describing it, and you've stopped announcing the detours. Every problem has a side door. You've used so many that almost no one knows the real distance you've traveled, which is how you like it, mostly.`,
+      desc: `You are the vine at full reach, solving walls it hasn't met yet. Every obstacle is already half routed around by the time others name it, and almost no one sees the work. They see luck, or ease. You know the real distance traveled. The stones you've moved would tell it straight, and they aren't talking.`,
     },
     selfCard: {
       face: `The winding never pauses`,
@@ -58,7 +59,7 @@ export const STEM_VARIANTS = {
   },
   '乙_balanced': {
     yourNature: {
-      desc: `You bend where bending works and hold where it doesn't, and the mix is usually right. People who watch closely see method where others see luck. The route stays negotiable. What you're actually after has never once been up for discussion.`,
+      desc: `You climb the way the wisteria climbs, bending all day without forgetting where it was going. You adapt where the wall is real and hold your line where it isn't, and the mix lands right more often than not. The route stays negotiable. The destination stopped being negotiable years ago, and that quiet fact is your spine.`,
     },
     selfCard: {
       face: `The winding knows its walls`,
@@ -67,7 +68,7 @@ export const STEM_VARIANTS = {
   },
   '乙_open': {
     yourNature: {
-      desc: `You know the way around most walls. Lately the winding takes more out of you than it used to, and sometimes you wonder what a straight line would feel like. The reach is still there. It just picks its walls more carefully now.`,
+      desc: `You keep the vine's gift of finding windows, even in seasons when you knock on fewer doors. The winding takes more out of you than it used to, so you pick your walls with care now. Nothing about that is retreat. A climber who chooses the wall is simply done wasting green on stone that won't hold it.`,
     },
     selfCard: {
       face: `The winding rests between walls`,
@@ -78,7 +79,7 @@ export const STEM_VARIANTS = {
   // ── 丙 ──
   '丙_concentrated': {
     yourNature: {
-      desc: `You run at full brightness wherever you land, because dimming was never really one of your settings. People warm up, plans grow, afternoons improve. The fuel line runs straight from you, and you refill it in private, if at all.`,
+      desc: `You are the light the village plans its day around. Warmth leaves you the way heat leaves the sun, constantly, without a meter, whether or not anyone asked. People bloom in it and forget it costs. You refill in private, if at all, and the sky you hold up would genuinely surprise the people living under it.`,
     },
     selfCard: {
       face: `Light running at full noon`,
@@ -87,7 +88,7 @@ export const STEM_VARIANTS = {
   },
   '丙_balanced': {
     yourNature: {
-      desc: `You give light the way weather gives it, generously and with mornings off. The warmth reaches whoever needs it without burning through you to do it. People get the real version, and the real version gets to rest.`,
+      desc: `You shine the way the sky's fire was meant to work, generously and with a night to every day. The warmth goes out real and comes home rested. People trust your light because it doesn't perform, and the mornings you keep for yourself are exactly what makes the afternoons believable.`,
     },
     selfCard: {
       face: `Light with its own mornings`,
@@ -96,7 +97,7 @@ export const STEM_VARIANTS = {
   },
   '丙_open': {
     yourNature: {
-      desc: `You still light up the people you love. The shining just runs on a budget now, so you've started choosing your mornings. The ones who get the full warmth receive something rarer than before. Sunlight that knows exactly what it's spending.`,
+      desc: `You carry the great light on a closer setting now. The broadcast that once reached every stranger has narrowed to the faces at your table, and they get sunlight with nothing watered down. The ones who know you never doubt the fire. They just know where it chooses to land now.`,
     },
     selfCard: {
       face: `Light held close and low`,
@@ -107,7 +108,7 @@ export const STEM_VARIANTS = {
   // ── 丁 ──
   '丁_concentrated': {
     yourNature: {
-      desc: `You burn for one thing at a time with everything you have, and the rest of the world politely ceases to exist. Whoever stands in your light right now would tell you it's unforgettable. Whoever just left it could tell you something too.`,
+      desc: `You are the candle burning with a bonfire's ambition, one thing at a time, all of it. Whatever holds your focus holds everything you have, and the rest of the world politely stops existing. The ones inside your light call it unforgettable. The ones just outside it could file a different report. The flame does not do halves. Neither do you.`,
     },
     selfCard: {
       face: `One flame, burning all night`,
@@ -116,7 +117,7 @@ export const STEM_VARIANTS = {
   },
   '丁_balanced': {
     yourNature: {
-      desc: `You give your full attention to what deserves it and a workable amount to everything else, which took years to learn. The flame holds steady without consuming you. People close to you get warmth that lasts the whole conversation, and the one after that.`,
+      desc: `You hold the small flame the way it was meant to be held, steady, trimmed, and pointed at what deserves it. Full attention lands where it's needed and lifts when it's done. What you light stays lit without you standing guard all night. One face, one page, one task at a time, and each one fully.`,
     },
     selfCard: {
       face: `One flame, trimmed and steady`,
@@ -125,7 +126,7 @@ export const STEM_VARIANTS = {
   },
   '丁_open': {
     yourNature: {
-      desc: `You carry a smaller flame these days, and you guard it well. It lights less at once, but what it lights, it lights completely. The few who've sat close say the warmth was worth the finding. Most never think to look.`,
+      desc: `You guard a smaller flame these days, cupped against wind, and you've learned what the guarding is worth. It lights less at once. What it lights, it lights completely, down to the grain of the wood. Most people never think to look for a fire this size. The few who sit close never quite recover from the warmth.`,
     },
     selfCard: {
       face: `One flame, guarded from wind`,
@@ -136,7 +137,7 @@ export const STEM_VARIANTS = {
   // ── 戊 ──
   '戊_concentrated': {
     yourNature: {
-      desc: `You hold up more than anyone knows, and you'd sooner add weight than mention it. Nothing moves you visibly. The people who lean hardest have stopped asking whether you feel the load, mostly because you've never once answered.`,
+      desc: `You are the mountain the old maps warn rivers about. Everything heavy finds you, the way water finds low ground, and you take it on without ever posting a limit. Nothing moves you visibly. The people leaning hardest stopped asking how you're doing, mostly because you've never once answered. The snow on your shoulders has years in it. You call the arrangement fair.`,
     },
     selfCard: {
       face: `Ground that holds everything`,
@@ -145,7 +146,7 @@ export const STEM_VARIANTS = {
   },
   '戊_balanced': {
     yourNature: {
-      desc: `You carry what's yours and stand near what isn't, and people can tell the difference by watching you. The steadiness is real without being a wall. Things still reach you. They just don't knock you over on the way in.`,
+      desc: `You stand the way high ground stands, solid where it matters and breathing everywhere else. What's yours to carry gets carried. What isn't gets a place to rest and a fair farewell. Things still reach you, weather still writes on you, and none of it knocks you over. Steadiness that admits the wind is the kind that lasts.`,
     },
     selfCard: {
       face: `Ground carrying only its share`,
@@ -154,7 +155,7 @@ export const STEM_VARIANTS = {
   },
   '戊_open': {
     yourNature: {
-      desc: `You're still the one people call solid, and most days the word fits. Some days it's a costume that stands up on its own. The ground holds because you decide it holds, one morning at a time, and nobody sees the deciding.`,
+      desc: `You hold the mountain's post in a lean season. Most days the old solidity fits like it always did. Some days it's a costume that stands up on its own, and only you can tell the difference. The ground holds because you decide it holds, one morning at a time. Nobody sees the deciding. That part was always the summit.`,
     },
     selfCard: {
       face: `Ground resting under fallow sky`,
@@ -165,7 +166,7 @@ export const STEM_VARIANTS = {
   // ── 己 ──
   '己_concentrated': {
     yourNature: {
-      desc: `You feed everything around you before the question of your own hunger comes up, if it comes up at all. Whatever lands near you gets grown. It's the kind of generosity that looks bottomless right up until the season it isn't.`,
+      desc: `You are the field that never closes for the season. Whatever lands near you gets grown, invited or not, and the ledger with everyone you feed runs quietly lopsided. It's the kind of generosity that looks bottomless right up to the season it isn't. Even good ground needs to lie fallow. Yours is the last to hear it.`,
     },
     selfCard: {
       face: `Soil that feeds every seed`,
@@ -174,7 +175,7 @@ export const STEM_VARIANTS = {
   },
   '己_balanced': {
     yourNature: {
-      desc: `You give real care and keep real ground, and those around you get the better deal without bankrupting you. Things grow near you at their own pace. Yours grow too, in the plot you finally learned to keep.`,
+      desc: `You work the way the family plot works, open ground with a fence where it counts. Real care goes out and real ground stays yours, so the people around you get the better harvest without bankrupting the farm. Things grow near you at their own pace. Yours grow too, in the row you finally learned to keep.`,
     },
     selfCard: {
       face: `Soil in honest rotation`,
@@ -183,7 +184,7 @@ export const STEM_VARIANTS = {
   },
   '己_open': {
     yourNature: {
-      desc: `You still notice what everyone needs. Acting on all of it is what you've had to ration, and the rationing sits uneasily with you. What you tend now, you tend deeply. The garden got smaller and somehow the growing got better.`,
+      desc: `You tend a smaller field now and tend it to the root. The giving that once went everywhere is better aimed, and what you still take on actually gets your whole season. A resting field is not an empty one. Everything you've ever grown is still out there, walking around, proving the ground was good.`,
     },
     selfCard: {
       face: `Soil saving its season`,
@@ -194,7 +195,7 @@ export const STEM_VARIANTS = {
   // ── 庚 ──
   '庚_concentrated': {
     yourNature: {
-      desc: `You cut to the truth of things before anyone has finished dressing it up, every time, in every setting. The edge never rests, including on you. People bring you the questions no one else will answer straight, then flinch at exactly what they came for.`,
+      desc: `You are what the sword is like when it wakes up as a person. The cut is always ready and mostly used. You put the truth ahead of comfort, yours and everyone's, every day, in every setting. People bring you the questions nobody else will answer straight, then flinch at exactly what they asked for. The edge never rests. That includes the nights, and it includes you.`,
     },
     selfCard: {
       face: `The edge, never sheathed`,
@@ -203,7 +204,7 @@ export const STEM_VARIANTS = {
   },
   '庚_balanced': {
     yourNature: {
-      desc: `You say the true thing when it needs saying and hold it when it doesn't, and knowing the difference is half your value. The edge is there, sheathed until useful. People trust you more because they've seen you choose not to cut.`,
+      desc: `You carry the blade the old stories describe, and you carry it sheathed. The true thing gets said when it needs saying and held when it doesn't, and knowing the difference is half your worth. People trust your judgment because they've watched you choose not to cut. An edge that picks its moments stays believed, and stays welcome at the table.`,
     },
     selfCard: {
       face: `The edge, drawn when it matters`,
@@ -212,7 +213,7 @@ export const STEM_VARIANTS = {
   },
   '庚_open': {
     yourNature: {
-      desc: `You see through things instantly. It's the saying out loud that comes and goes, and some truths wait in you for days before they speak. When they do, people listen harder than they would have on day one. The wait sharpens it.`,
+      desc: `You keep the edge the stories promise, under cloth and out of view. Seeing through things is instant for you. Saying so out loud is the part that comes and goes, and some truths wait in you for days before they speak. When they finally do, people listen hard. The blade that waited was never dull. It was choosing.`,
     },
     selfCard: {
       face: `The edge, kept under cloth`,
@@ -223,7 +224,7 @@ export const STEM_VARIANTS = {
   // ── 辛 ──
   '辛_concentrated': {
     yourNature: {
-      desc: `You measure everything against a standard nothing quite meets, including yourself, especially yourself. What you release is flawless because releasing is the hard part. The polish never really stops. It just changes what it's working on when you run out of objects.`,
+      desc: `You are the gem still under the wheel, and the hand that holds it, and the eye that isn't satisfied. The standard grades everything all day, itself included. What you release is flawless because releasing is the hard part. The polish never really stops. It just changes what it's working on when the desk finally clears.`,
     },
     selfCard: {
       face: `Polish that never clocks out`,
@@ -232,7 +233,7 @@ export const STEM_VARIANTS = {
   },
   '辛_balanced': {
     yourNature: {
-      desc: `You hold a high bar and know when it applies, which spares everyone including you. Quality gets your full attention. The merely fine gets to stay fine. What you finish leaves on time and still shines longer than anyone expected.`,
+      desc: `You hold the jeweler's eye without living under it. Quality gets your full attention where quality matters, and the merely fine gets to stay fine. Done exists again in your workshop, and what leaves it on time still shines years past anyone's expecting. That balance took you longer to cut than any stone. It shows.`,
     },
     selfCard: {
       face: `Polish with a finish line`,
@@ -241,7 +242,7 @@ export const STEM_VARIANTS = {
   },
   '辛_open': {
     yourNature: {
-      desc: `You still see every flaw in the work, especially yours. What's softer now is the belief that anyone's waiting to see it shine, so some of your best sits in drawers. The eye never dulled. It's the showing that wants coaxing.`,
+      desc: `You keep the cutting eye. What softened is the belief that anyone is waiting to see the work shine, so some of your best sits in drawers, catching light for no one. The eye never dulled. The hands just ration it now, and what they still finish holds more care per inch than the busy years ever managed.`,
     },
     selfCard: {
       face: `Polish saved for small things`,
@@ -252,7 +253,7 @@ export const STEM_VARIANTS = {
   // ── 壬 ──
   '壬_concentrated': {
     yourNature: {
-      desc: `You hold more in your head at once than most people cycle through in a month, and the surface shows almost none of it. Conversations feel like harbors you visit briefly. The real cargo stays offshore, waiting for water deep enough to bring it in.`,
+      desc: `You are the water past the harbor mouth, the part that keeps its own maps. More moves through your head in a day than most people ship in a month, and the surface shows almost none of it. Conversations feel like ports you visit briefly. The real cargo stays offshore, waiting for water deep enough to bring it in.`,
     },
     selfCard: {
       face: `Current running every direction`,
@@ -261,7 +262,7 @@ export const STEM_VARIANTS = {
   },
   '壬_balanced': {
     yourNature: {
-      desc: `You go deep when depth is called for and float easily when it isn't, and people relax around that. What you share arrives in usable sizes. The rest stays down where you keep it, not hidden, just not urgent.`,
+      desc: `You range the way the long river ranges, far out and reliably home. Depth arrives when the day calls for it and the surface stays friendly when it doesn't, so people get you in sizes they can actually carry. The distance never leaves your eyes entirely. It just learned where the harbor is.`,
     },
     selfCard: {
       face: `Current with a harbor`,
@@ -270,7 +271,7 @@ export const STEM_VARIANTS = {
   },
   '壬_open': {
     yourNature: {
-      desc: `You still think past the horizon everyone else stops at. Bringing it back for people takes wind you don't always have, so whole continents of you go unreported. The few who've sailed far enough out know. They tend to keep the secret badly.`,
+      desc: `You still think past the horizon everyone else stops at. Bringing it back for people takes wind you don't always have, so whole coastlines of you go unreported. The sea does not shrink between crossings, whatever the calm looks like from shore. The few who've sailed far out with you know exactly what's out there.`,
     },
     selfCard: {
       face: `Current waiting on the wind`,
@@ -281,7 +282,7 @@ export const STEM_VARIANTS = {
   // ── 癸 ──
   '癸_concentrated': {
     yourNature: {
-      desc: `You feel everything in the vicinity as if it were weather, yours and everyone else's at once. Nothing announces itself and nothing has to. The saturation is constant, mostly invisible, and the sorting of whose feeling is whose never fully clocks out.`,
+      desc: `You are the night rain that never quite finds a roof. Everything reaches you at full strength, yours and everyone else's, all day, and the sorting of whose feeling is whose never fully clocks out. Most of what soaks in grows something. Some of it was never yours to hold. Telling the difference is the quiet work of your life.`,
     },
     selfCard: {
       face: `Rain falling without a roof`,
@@ -290,7 +291,7 @@ export const STEM_VARIANTS = {
   },
   '癸_balanced': {
     yourNature: {
-      desc: `You take in what the day is carrying and let most of it drain the way it should. What needs your attention gets it. What doesn't passes through, watering things on the way out instead of pooling.`,
+      desc: `You fall the way rain falls in its right season, everywhere it's needed and nowhere it isn't. What lands on you soaks in or drains off in roughly the right amounts, and what you give returns often enough to keep the ground honest. The softness is doing real work. Nothing about a gentle rain is weak.`,
     },
     selfCard: {
       face: `Rain in its right season`,
@@ -299,7 +300,7 @@ export const STEM_VARIANTS = {
   },
   '癸_open': {
     yourNature: {
-      desc: `You still catch the undercurrent before anyone names it. Trusting the catch is the newer work, and some days you'd rather have the evidence first. The signal was never broken. You're just learning again to read it without asking permission.`,
+      desc: `You gather like low clouds now, and release with care. The feeling still arrives ahead of everyone's words. Trusting it is the newer work, and some days you'd rather hold the evidence first. The signal was never broken. By morning, the things your quiet rain has touched keep turning out to have grown.`,
     },
     selfCard: {
       face: `Rain held in low clouds`,

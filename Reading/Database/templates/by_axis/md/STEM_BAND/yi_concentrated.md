@@ -9,13 +9,13 @@
 | **axis** | STEM_BAND |
 | **key** | 乙_concentrated |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | yourNature band variant (BAND-A, band grain only — pattern grain retired; resolver falls band → STEM baseline) |
+| **status** | yourNature v2 (BRIDGE structure: myth received → band portrait → person landing; 50–75w) + self_card core-element band mirror — band grain only; resolver falls band → STEM baseline |
 | **sources** | Elementum_App/src/content/stemVariants.js (STEM_VARIANTS band keys) |
 
 ## Candidate variables
 
 | Variable | Value |
 |---|---|
-| `yourNature_desc` | You're already around the obstacle while others are still describing it, and you've stopped announcing the detours. Every problem has a side door. You've used so many that almost no one knows the real distance you've traveled, which is how you like it, mostly. |
+| `yourNature_desc` | You are the vine at full reach, solving walls it hasn't met yet. Every obstacle is already half routed around by the time others name it, and almost no one sees the work. They see luck, or ease. You know the real distance traveled. The stones you've moved would tell it straight, and they aren't talking. |
 | `self_card.face` | The winding never pauses |
 | `self_card.presence` | Every wall is already being solved. Your mind routes around things by reflex now, even the ones that would have opened if you'd knocked. |
