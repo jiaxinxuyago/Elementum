@@ -17,5 +17,6 @@
 | Variable | Value |
 |---|---|
 | `relation_noun` | Duty |
+| `shadow_noun` | Weight |
 | `family_line` | What tests and shapes you — the pressure and duty you answer to. |
 | `family_key` | officer |

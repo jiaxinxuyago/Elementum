@@ -17,5 +17,6 @@
 | Variable | Value |
 |---|---|
 | `relation_noun` | Core |
+| `shadow_noun` | Bubble |
 | `family_line` | This energy is you — your identity and your footing among equals. |
 | `family_key` | self |

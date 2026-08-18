@@ -17,5 +17,6 @@
 | Variable | Value |
 |---|---|
 | `relation_noun` | Drive |
+| `shadow_noun` | Grind |
 | `family_line` | What you reach for and hold — your reward, ambition, and desire. |
 | `family_key` | wealth |

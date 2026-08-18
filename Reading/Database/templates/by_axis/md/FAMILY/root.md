@@ -17,5 +17,6 @@
 | Variable | Value |
 |---|---|
 | `relation_noun` | Root |
+| `shadow_noun` | Cage |
 | `family_line` | What feeds and backs you — the support and learning you run on. |
 | `family_key` | resource |

@@ -17,5 +17,6 @@
 | Variable | Value |
 |---|---|
 | `relation_noun` | Voice |
+| `shadow_noun` | Echo |
 | `family_line` | What you put out — your expression, talent, and voice. |
 | `family_key` | output |

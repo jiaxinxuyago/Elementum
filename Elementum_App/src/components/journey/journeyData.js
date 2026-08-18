@@ -25,6 +25,12 @@ export const EL_HZ = { metal: '金', earth: '土', wood: '木', water: '水', fi
 // §5b relation nouns (LOCKED 2026-07-16)
 export const RELATION_NOUN = { self: 'Core', resource: 'Root', wealth: 'Drive', output: 'Voice', officer: 'Duty' };
 
+// §5b-ii shadow nouns (LOCKED 2026-08-14) — the same force in excess. The
+// relation noun is the CATALYST-form vocabulary; FRICTION advice surfaces
+// speak through the shadow twin instead ("Earth is your Cage"), so the
+// anatomy is never the thing the reading tells you to skip.
+export const SHADOW_NOUN = { self: 'Bubble', resource: 'Cage', wealth: 'Grind', output: 'Echo', officer: 'Weight' };
+
 // §4 keywords — v3 FINAL (adopted 2026-07-16)
 export const KEYWORD = {
   '比肩': 'Independence', '劫财': 'Rivalry',
@@ -194,6 +200,7 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
     // relationOf (energyRoles.js) — reused here, not reimplemented.
     const family = relationOf(EL_NAME[e.el], EL_NAME[coreEl]);
     const relation = RELATION_NOUN[family];
+    const shadow = SHADOW_NOUN[family];
     const god = e.leadGod;
     const keyword = KEYWORD[god] || '';
     const tile = ENERGY_TILE[e.el] || {};
@@ -201,7 +208,7 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
       el: e.el, name: EL_NAME[e.el], hz: EL_HZ[e.el],
       presence: e.presence, rank: rankOf[e.el], size: SIZES[rankOf[e.el]],
       role, isCore, missing, major, coreExcess, coreCatalyst,
-      family, relation, god, keyword,
+      family, relation, shadow, god, keyword,
       persona: TG_PERSONA[god] || '',
       catalystPole: POLE_CATALYST[god] || '', frictionPole: POLE_FRICTION[god] || '',
       faceKw: (FACE_CARD[god]?.kw || []).join(' · ').toLowerCase(),
@@ -332,13 +339,13 @@ export function buildElementScreen(model, el) {
   if (r.isCore) {
     verdLab = r.coreExcess ? 'YOUR CORE — ALSO YOUR EXCESS' : 'YOUR CORE';
     verdict = r.coreExcess
-      ? `${model.condition} — honor it, don’t feed it further.`
+      ? `${model.condition}. Your Core is running as your ${r.shadow} right now. Honor it, don’t feed it further.`
       : model.condition === 'Underfueled'
         ? `${model.condition} — it burns more than it takes in; refill it.`
         : `Balanced — nothing to force; ${FOLD_VERDICT.Balanced}`;
   } else if (r.role === 'friction') {
     verdLab = 'YOUR FRICTION — SKIP THIS';
-    verdict = 'Already rich in you — more of it weighs the core; stop adding.';
+    verdict = `Your ${r.relation} is running as your ${r.shadow} right now. Already rich in you, and more of it weighs the core. Stop adding.`;
   } else {
     verdLab = 'YOUR CATALYST — SEEK THIS';
     verdict = r.missing

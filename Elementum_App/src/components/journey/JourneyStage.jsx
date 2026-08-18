@@ -495,7 +495,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                           {m.skip.map((r) => (
                             <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => expandPill(r.el)}>
                               <span className={`ik-chip${r.missing ? ' ghosted' : ''}`}><Use id={`el-${r.el}`} className="elmark" /><span className={`ik-plate a-${r.el}`} /></span>
-                              <span className="crmain"><span className="ik-phrase"><b className="ik-el">{r.name}</b><span className="ik-is">is your</span><b className="ik-rel">{r.relation}</b></span><span className="ik-pct">{r.presence}%</span></span>
+                              {/* Friction rows speak the SHADOW noun (REA_02 §5b-ii) — the anatomy
+                                  noun is never the thing the reading says to skip. */}
+                              <span className="crmain"><span className="ik-phrase"><b className="ik-el">{r.name}</b><span className="ik-is">is your</span><b className="ik-rel">{r.shadow}</b></span><span className="ik-pct">{r.presence}%</span></span>
                             </button>
                           ))}
                         </div>

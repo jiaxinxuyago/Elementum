@@ -178,6 +178,16 @@ Glance labels are ONE punchy keyword ("Insight — your Root"), never `[modifier
 
 Forks resolved: Drive over Harvest, Duty over Trial; law #4 scoped to persona-name slots so Root is legal. Glance grammar: **`[Keyword] — your [Relation]`**.
 
+**5b-ii · LOCKED — the five SHADOW nouns (owner 2026-08-14).** The relation nouns double as the CATALYST-form vocabulary; each has a shadow twin — the same force in excess — that FRICTION advice surfaces speak through instead. This resolves the "skip your Root" contradiction: anatomy is never insulted; the friction verdict lands on the shadow noun (skip-row glance grammar: `[Element] is your [Shadow]`). Anatomy nouns remain the teaching layer everywhere else (wheel, pill unfolds, FAMILY_LINE, element heroes).
+
+| Family | Catalyst form (= relation noun) | **Shadow form (friction)** | The turn |
+|---|---|---|---|
+| Self 比劫 | Core | **Bubble** | the self sealed off — identity that stopped letting the world in |
+| Resource 印 | Root | **Cage** | support overgrown into confinement — fed, sheltered, stuck |
+| Output 食伤 | Voice | **Echo** | expression circling back on itself instead of reaching anyone |
+| Wealth 财 | Drive | **Grind** | pursuit gone joyless — motion that stopped arriving |
+| Authority 官杀 | Duty | **Weight** | the obligation that stopped shaping and started pressing |
+
 **Family definition lines (`FAMILY_LINE`, locked round-2 2026-07-23 — the pill definition block):**
 
 | Family | Line |

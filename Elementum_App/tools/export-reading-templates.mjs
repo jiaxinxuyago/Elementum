@@ -270,6 +270,7 @@ for (const [id, c] of Object.entries(CONDITIONS)) {
 for (const f of FAMILIES) {
   file('FAMILY', f.id, f.zh, jd.RELATION_NOUN[f.family] ?? null, {
     relation_noun: jd.RELATION_NOUN[f.family] ?? null,
+    shadow_noun: jd.SHADOW_NOUN[f.family] ?? null,
     family_line: jd.FAMILY_LINE[f.family] ?? null,
     family_key: f.family,
   }, ['REA_02 §5b locks (via journeyData vocabulary tables)']);

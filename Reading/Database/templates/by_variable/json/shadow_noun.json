@@ -1,0 +1,38 @@
+{
+  "$variable": "shadow_noun",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "FAMILY": [
+      {
+        "id": "core",
+        "key": "比劫",
+        "canonical_name": "Core",
+        "value": "Bubble"
+      },
+      {
+        "id": "root",
+        "key": "印",
+        "canonical_name": "Root",
+        "value": "Cage"
+      },
+      {
+        "id": "drive",
+        "key": "财",
+        "canonical_name": "Drive",
+        "value": "Grind"
+      },
+      {
+        "id": "voice",
+        "key": "食伤",
+        "canonical_name": "Voice",
+        "value": "Echo"
+      },
+      {
+        "id": "duty",
+        "key": "官杀",
+        "canonical_name": "Duty",
+        "value": "Weight"
+      }
+    ]
+  }
+}
