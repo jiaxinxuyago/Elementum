@@ -49,7 +49,7 @@ export const STEM_CARD_DATA = {
       manifesto:      `Motion before readiness · You are the Wood that rises before the path is clear.`,
       inscription:    `You grow toward a light you can't prove yet, and never stop to rest under it.`,
       keywords:       [`Driven`, `Upright`, `Pioneering`],
-      overview:       `The Oak is Yang Wood, the first sign in the old count of days. When the ancients needed a picture for beginning itself, they chose the tall tree: the seed that argues with the ground and wins, the trunk that spends a hundred years walking toward the sky. Spring belongs to it, and every road that is still mostly promise. Wherever something refuses to stay small, the old maps mark it with this sign.`,
+      overview:       `The Oak is Yang Wood, the first sign in the count of days, the oldest picture of beginning itself. It is the seed that argues with the ground and wins, the trunk that spends a hundred years walking toward the sky. Spring belongs to it, and so does every road that is still mostly promise. Whatever refuses to stay small grows under this sign.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -164,7 +164,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       manifesto:      `Route bends. Destination holds. · You are the Wood that gets there anyway.`,
       inscription:    `You find a way around what stops other people, and they call it luck.`,
       keywords:       [`Adaptable`, `Persistent`, `Resourceful`],
-      overview:       `The Vine is Yin Wood, the green that came second and learned from it. The old stories hand it the grass and the climbing plant, life that cannot force a door and so finds every window. Late spring is its season, when growth stops charging and starts weaving. The ancients drew it as wisteria on a stone wall, soft enough to bend all day, patient enough to move the stones by year's end.`,
+      overview:       `The Vine is Yin Wood, the green that came second and learned from it. It is the grass and the climbing plant, life that cannot force a door and so finds every window. Late spring is its season, when growth stops charging and starts weaving. On an old stone wall it looks delicate all day, and by year's end the stones have quietly moved.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -277,7 +277,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       manifesto:      `Warmth without permission · You are the Fire that gives light before anyone asks.`,
       inscription:    `You warm whoever stands near you, and run on warmth nobody returns.`,
       keywords:       [`Warm`, `Radiant`, `Unreserved`],
-      overview:       `The Sun is Yang Fire, the fire that no one lit and no one owns. In the old telling it is high summer at full noon, the light that opens every market and warms every back without asking a single name. The ancients gave it the sky itself for a lantern. Everything that grows turns toward it, and on the day it goes behind clouds, the whole village looks up and wonders.`,
+      overview:       `The Sun is Yang Fire, the fire that no one lit and no one owns. It keeps high summer and full noon, opening every market and warming every back without asking a single name. The sky itself is its lantern. Everything that grows turns toward it, and on the day it slips behind clouds, the whole village looks up and wonders.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -390,7 +390,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       manifesto:      `Intimacy over range · You are the Fire that burns closest, not widest.`,
       inscription:    `What you turn toward gets all of you, and everything else waits in the dark.`,
       keywords:       [`Focused`, `Devoted`, `Perceptive`],
-      overview:       `The Candle is Yin Fire, the fire that agreed to be small. The old stories set it after dark, when the great light has gone home and warmth becomes a personal matter. It is lamp light and hearth light, the flame a hand can shelter. The ancients pictured a single candle in a night window, holding one table, one page, one face, while the dark politely keeps its distance.`,
+      overview:       `The Candle is Yin Fire, the fire that agreed to be small. It keeps the hours after dark, when the great light has gone home and warmth becomes a personal matter. Lamp light, hearth light, the flame a hand can shelter. In a night window it holds one table, one page, one face, while the dark politely keeps its distance.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -505,7 +505,7 @@ There's also an investment asymmetry that accumulates: you give the full quality
       manifesto:      `Immovable by design · You are the Earth others use to find their footing.`,
       inscription:    `You hold what others set down, and nothing has ever offered to hold you.`,
       keywords:       [`Steady`, `Centered`, `Dependable`],
-      overview:       `The Mountain is Yang Earth, the ground raised up until it touches weather. In the old telling it was here before the roads and will be here after them, the wall that rivers learn to walk around. Travelers set their course by it and never ask how it is doing. The ancients drew it with snow on its shoulders, carrying the sky's own weight and calling the arrangement fair.`,
+      overview:       `The Mountain is Yang Earth, the ground raised up until it touches weather. It was here before the roads and will be here after them, the wall that rivers learn to walk around. Travelers set their course by it and never ask how it is doing. It carries snow on its shoulders and the sky's own weight, and it calls the arrangement fair.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -620,7 +620,7 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
       manifesto:      `Nourish without credit · You are the Earth that turns what it holds into growth.`,
       inscription:    `Everything you tend grows, and the harvest goes home in other people's hands.`,
       keywords:       [`Nurturing`, `Patient`, `Receptive`],
-      overview:       `The Field is Yin Earth, the ground that lets itself be opened. The old stories give it late summer, when the year's work ripens and the soil shows what it has been quietly doing all along. It is the tilled dark earth of the family plot, the ground that takes seed, rain, even ash, and answers with harvest. The ancients said all things return to it, and it turns none of them away.`,
+      overview:       `The Field is Yin Earth, the ground that lets itself be opened. It keeps late summer, when the year's work ripens and the soil shows what it has been quietly doing all along. It is the tilled dark earth of the family plot, taking seed, rain, even ash, and answering with harvest. All things return to it, and it turns none of them away.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -735,7 +735,7 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
       manifesto:      `Precision before intention · You are the Metal that cuts things clean.`,
       inscription:    `You say what others soften, then quietly pay for being the one who did.`,
       keywords:       [`Direct`, `Decisive`, `Sharp`],
-      overview:       `The Blade is Yang Metal, the metal that has already been through fire. The old stories give it autumn, the season that ends what summer started, when the harvest knife decides what was worth growing. They pictured it as a general's sword, kept plain, kept sharp, drawn once and only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech.`,
+      overview:       `The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech.`,
       // manifesto renders as two lines, split on the ` · ` separator:
       //   Line 1 (bold thesis)  → "Precision before intention"
       //   Line 2 (poetic edge)  → "An edge is never given — it is forged."
@@ -956,7 +956,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
       manifesto:      `Refinement over output · You are the Metal that refines until nothing extra remains.`,
       inscription:    `You hold your work to a standard nobody set, and it never says finished.`,
       keywords:       [`Refined`, `Discerning`, `Exacting`],
-      overview:       `The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. In the old telling it is the last of autumn, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. The ancients pictured a gem under a patient hand, cut small and exact, holding more light than its size should allow and refusing to call the work done early.`,
+      overview:       `The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. The last of autumn belongs to it, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. Under a patient hand it is cut small and exact, holding more light than its size should allow, and it refuses to call the work done early.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -1069,7 +1069,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
       manifesto:      `Depth before disclosure · You are the Water that keeps moving without losing its depth.`,
       inscription:    `You understand more than you can explain, and live with the distance that leaves.`,
       keywords:       [`Expansive`, `Fluid`, `Deep`],
-      overview:       `The Ocean is Yang Water, the water that never learned the meaning of far. The old stories set it in early winter, the season that pulls everything down into depth and keeps it moving under a still surface. It is the open sea and the long river, the current that crosses what the eye gives up on. The ancients drew a harbor mouth and wrote that the water beyond it keeps its own maps.`,
+      overview:       `The Ocean is Yang Water, the water that never learned the meaning of far. Early winter is its season, pulling everything down into depth and moving on under a still surface. It is the open sea and the long river, the current that crosses what the eye gives up on. Past the harbor mouth it keeps its own maps.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {
@@ -1184,7 +1184,7 @@ Most exchanges happen at a shallower level than where you operate. This produces
       manifesto:      `Felt before spoken · You are the Water that quietly changes whatever it touches.`,
       inscription:    `You soak up what everyone around you feels, then wonder which of it is yours.`,
       keywords:       [`Intuitive`, `Subtle`, `Attuned`],
-      overview:       `The Rain is Yin Water, the last sign in the old count, the water that closes the circle so it can begin again. It is rain, dew, and mist, the moisture that arrives everywhere and forces nothing. The old telling sets it at winter's end, falling softly on planted fields through the night. By morning it is gone, and everything it touched has quietly agreed to grow.`,
+      overview:       `The Rain is Yin Water, the last sign in the count, the water that closes the circle so it can begin again. It is rain, dew, and mist, the moisture that arrives everywhere and forces nothing. At winter's end it falls softly on planted fields through the night. By morning it is gone, and everything it touched has quietly agreed to grow.`,
 
       // elementIntro — Layer 0 of Elemental Nature page. World-building, third-person (no "you").
       elementIntro: {

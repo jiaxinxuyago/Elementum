@@ -25,7 +25,7 @@
 | `dm_claims` | You would rather stand alone upright than bend to belong. · People lean on the structure you build without noticing it is yours. |
 | `dm_mechanism` | Yang Wood grown toward light — a spine that rose by reaching, season over season. |
 | `yourNature_desc` | You see where things could go before most people see that they could go anywhere, and you're moving while they're still deciding. What you build tends to outlast you. You're just rarely there to see it, because halfway through every ending you've already started the next thing. |
-| `dm_overview` | The Oak is Yang Wood, the first sign in the old count of days. When the ancients needed a picture for beginning itself, they chose the tall tree: the seed that argues with the ground and wins, the trunk that spends a hundred years walking toward the sky. Spring belongs to it, and every road that is still mostly promise. Wherever something refuses to stay small, the old maps mark it with this sign. |
+| `dm_overview` | The Oak is Yang Wood, the first sign in the count of days, the oldest picture of beginning itself. It is the seed that argues with the ground and wins, the trunk that spends a hundred years walking toward the sky. Spring belongs to it, and so does every road that is still mostly promise. Whatever refuses to stay small grows under this sign. |
 | `gifts[0].phrase` | First to move |
 | `gifts[0].dim` | beginnings |
 | `gifts[0].desc` | While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up. |

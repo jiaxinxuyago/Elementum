@@ -25,7 +25,7 @@
 | `dm_claims` | You give warmth before you are asked, and rarely count the cost. · A room reads its mood from you before you say a word. |
 | `dm_mechanism` | Yang Fire that gives without dimming — radiance steadied by what it warms. |
 | `yourNature_desc` | You brighten the day of whoever's near you, and none of it is on purpose. The light just runs, morning to night, on you as fuel. People plan around your warmth the way they plan around daylight, and asking what it costs occurs to no one. You included. |
-| `dm_overview` | The Sun is Yang Fire, the fire that no one lit and no one owns. In the old telling it is high summer at full noon, the light that opens every market and warms every back without asking a single name. The ancients gave it the sky itself for a lantern. Everything that grows turns toward it, and on the day it goes behind clouds, the whole village looks up and wonders. |
+| `dm_overview` | The Sun is Yang Fire, the fire that no one lit and no one owns. It keeps high summer and full noon, opening every market and warming every back without asking a single name. The sky itself is its lantern. Everything that grows turns toward it, and on the day it slips behind clouds, the whole village looks up and wonders. |
 | `gifts[0].phrase` | Instantly likable |
 | `gifts[0].dim` | first impressions |
 | `gifts[0].desc` | Strangers relax around you before you've said much of anything. Guards drop, small talk turns real, and nobody can quite explain why. |

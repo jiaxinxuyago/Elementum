@@ -16,6 +16,6 @@
 
 | Variable | Value |
 |---|---|
-| `yourNature_desc` | You keep the edge the stories promise, under cloth and out of view. Seeing through things is instant for you. Saying so out loud is the part that comes and goes, and some truths wait in you for days before they speak. When they finally do, people listen hard. The blade that waited was never dull. It was choosing. |
+| `yourNature_desc` | You keep that edge, under cloth and out of view. Seeing through things is instant for you. Saying so out loud is the part that comes and goes, and some truths wait in you for days before they speak. When they finally do, people listen hard. The blade that waited was never dull. It was choosing. |
 | `self_card.face` | The edge, kept under cloth |
 | `self_card.presence` | The sharpness is intact. What changed is the drawing, slower now, more chosen. A blade that waits is not a blade that dulled. |

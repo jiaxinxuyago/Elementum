@@ -25,7 +25,7 @@
 | `dm_claims` | You notice the flaw everyone else has agreed to overlook. · Precision is how you show care — even when it reads as cool. |
 | `dm_mechanism` | Yin Metal refined under pressure — an edge made keen by polishing, not by force. |
 | `yourNature_desc` | You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required. |
-| `dm_overview` | The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. In the old telling it is the last of autumn, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. The ancients pictured a gem under a patient hand, cut small and exact, holding more light than its size should allow and refusing to call the work done early. |
+| `dm_overview` | The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. The last of autumn belongs to it, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. Under a patient hand it is cut small and exact, holding more light than its size should allow, and it refuses to call the work done early. |
 | `gifts[0].phrase` | Impeccable taste |
 | `gifts[0].dim` | quality |
 | `gifts[0].desc` | You know the good one from the almost-good one at a glance, the way some people can tell a note is flat. Friends borrow your eye before they buy. |

@@ -204,7 +204,7 @@ export const STEM_VARIANTS = {
   },
   '庚_balanced': {
     yourNature: {
-      desc: `You carry the blade the old stories describe, and you carry it sheathed. The true thing gets said when it needs saying and held when it doesn't, and knowing the difference is half your worth. People trust your judgment because they've watched you choose not to cut. An edge that picks its moments stays believed, and stays welcome at the table.`,
+      desc: `You carry that same blade, and you carry it sheathed. The true thing gets said when it needs saying and held when it doesn't, and knowing the difference is half your worth. People trust your judgment because they've watched you choose not to cut. An edge that picks its moments stays believed, and stays welcome at the table.`,
     },
     selfCard: {
       face: `The edge, drawn when it matters`,
@@ -213,7 +213,7 @@ export const STEM_VARIANTS = {
   },
   '庚_open': {
     yourNature: {
-      desc: `You keep the edge the stories promise, under cloth and out of view. Seeing through things is instant for you. Saying so out loud is the part that comes and goes, and some truths wait in you for days before they speak. When they finally do, people listen hard. The blade that waited was never dull. It was choosing.`,
+      desc: `You keep that edge, under cloth and out of view. Seeing through things is instant for you. Saying so out loud is the part that comes and goes, and some truths wait in you for days before they speak. When they finally do, people listen hard. The blade that waited was never dull. It was choosing.`,
     },
     selfCard: {
       face: `The edge, kept under cloth`,
