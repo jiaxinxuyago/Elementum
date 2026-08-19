@@ -643,6 +643,10 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
           <div className="wp-scrim" onClick={() => setDotOpen(null)} />
           <div className={`wp-sheet wp-dotcard ${dot.tint}`} role="dialog" aria-label={`${dot.r.name} — its reading and its relation with your core`}>
             <div className="wp-band">
+              {/* the element's ink art — the card previews its destination
+                  (the element screen opens on this same wash) */}
+              <span className={`wd-bandart a-${dot.r.el}`} aria-hidden="true" />
+              <span className="wd-bandscrim" aria-hidden="true" />
               <span className="wp-wm"><Use id={`el-${dot.r.el}`} /></span>
               <button className="wp-x" aria-label="Close" onClick={() => setDotOpen(null)}><Use id="ico-close" /></button>
               <span className="wp-ey">{dot.verb === 'core' ? 'Your day master' : 'The cycle of energies'}</span>
