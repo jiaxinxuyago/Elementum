@@ -54,7 +54,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   const { chart, ec, identity } = useReading();
   const [screen, setScreen] = useState('catalogue');
   const [elOpen, setElOpen] = useState(null);      // element screen target
-  const [openPill, setOpenPill] = useState(null);  // shelf accordion
   const [showShare, setShowShare] = useState(false);
   const [cardStatus, setCardStatus] = useState(null);
   const cardRef = useRef(null);
@@ -78,8 +77,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   const swRef = useRef(null);       // catalogue scrollwrap
   const padRef = useRef(null);
   const wheelRef = useRef(null);
-  const shelfRef = useRef(null);
-  const beat4Ref = useRef(null);
   const toastT = useRef(null);
 
   const flash = useCallback((msg) => {
@@ -114,18 +111,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
     sw.scrollTo({ top, behavior: 'smooth' });
   }, []);
 
-  const expandPill = useCallback((el, scroll = true) => {
-    setOpenPill(el);
-    const shelf = shelfRef.current; if (!shelf) return;
-    if (scroll) swTo(shelf, 120);
-    const target = shelf.querySelector(`.spine[data-el="${el}"]`);
-    if (target) {
-      target.classList.remove('beckon');
-      void target.offsetWidth;
-      target.classList.add('beckon');
-      setTimeout(() => target.classList.remove('beckon'), 1200);
-    }
-  }, [swTo]);
 
   const goElement = useCallback((el) => { setElOpen(el); setScreen('element'); }, []);
 
@@ -152,20 +137,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
     });
   }, []);
 
-  // compass: wheel dot → cue the prescription row, then unfold the pill
-  const guiding = useRef(false);
-  const compassGo = useCallback((el) => {
-    const root = stageRef.current; if (!root || guiding.current) return;
-    const row = root.querySelector(`.ik-crow.pv-${el}`);
-    root.querySelectorAll('.cue').forEach((c) => c.classList.remove('cue'));
-    if (row) {
-      guiding.current = true;
-      row.classList.add('cue'); swTo(row, 130);
-      setTimeout(() => expandPill(el), 950);
-      setTimeout(() => { row.classList.remove('cue'); guiding.current = false; }, 2100);
-    } else expandPill(el);
-  }, [expandPill, swTo]);
-
   // inscription line toggle (folio carriage)
   const insToggle = useCallback((k) => {
     if (k === 'core') {
@@ -187,22 +158,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
       es.forEach((en) => { if (en.isIntersecting) en.target.classList.add('ink-on'); });
     }, { root: sw, threshold: 0.12 });
     root.querySelectorAll('.beat').forEach((b) => io.observe(b));
-    return () => io.disconnect();
-  }, [model, screen]);
-
-  useEffect(() => {
-    if (!model || screen !== 'catalogue') return undefined;
-    const sw = swRef.current; const shelf = shelfRef.current; const ph = stageRef.current?.closest('.jny');
-    if (!sw || !shelf || !ph || !('IntersectionObserver' in window)) return undefined;
-    const io = new IntersectionObserver((es) => {
-      es.forEach((en) => {
-        ph.classList.toggle('dock-merge', en.isIntersecting);
-        if (!en.isIntersecting && en.boundingClientRect.top > (en.rootBounds ? en.rootBounds.bottom : 0)) {
-          setOpenPill(null); // scrolled up above the tiles: refold
-        }
-      });
-    }, { root: sw, rootMargin: '0px 0px -134px 0px', threshold: 0 });
-    io.observe(shelf);
     return () => io.disconnect();
   }, [model, screen]);
 
@@ -511,7 +466,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                         <div className="vx-box">
                           <div className="vx-ey"><span>SEEK THESE</span><span className="role-pill cat" role="button" tabIndex={0} onClick={() => setFnOpen('cat')}><Use id="ar-up" />Catalyst</span></div>
                           {m.seek.map((r) => (
-                            <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => expandPill(r.el)}>
+                            <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => setDotOpen(r.el)}>
                               <span className={`ik-chip${r.missing ? ' ghosted' : ''}`}><Use id={`el-${r.el}`} className="elmark" /><span className={`ik-plate a-${r.el}`} /></span>
                               <span className="crmain"><span className="ik-phrase"><b className="ik-el">{r.name}</b><span className="ik-is">is your</span><b className="ik-rel">{r.relation}</b></span><span className="ik-pct">{r.presence}%</span></span>
                             </button>
@@ -520,7 +475,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                         <div className="vx-box">
                           <div className="vx-ey"><span>SKIP THESE</span><span className="role-pill fric" role="button" tabIndex={0} onClick={() => setFnOpen('fric')}><Use id="ar-down" />Friction</span></div>
                           {m.skip.map((r) => (
-                            <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => expandPill(r.el)}>
+                            <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => setDotOpen(r.el)}>
                               <span className={`ik-chip${r.missing ? ' ghosted' : ''}`}><Use id={`el-${r.el}`} className="elmark" /><span className={`ik-plate a-${r.el}`} /></span>
                               {/* Friction rows speak the SHADOW noun (REA_02 §5b-ii) — the anatomy
                                   noun is never the thing the reading says to skip. */}
@@ -531,49 +486,12 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                       </div>
                     </div>
                   )}
-                  <button className="jbridge" onClick={() => swTo(beat4Ref.current, 56)}><span>Read what each energy says</span><Use id="ar-down" /></button>
                 </div>
 
-                <div className="beat" data-beat="4" ref={beat4Ref}>
-                  <span className="sec-eyebrow">THE FIVE ENERGIES · TAP A PILL TO OPEN</span>
-                  <div className={`shelf${openPill ? ' has-open' : ''}`} data-shelf="towers" ref={shelfRef} aria-label="Five energies — dominance pills">
-                    {towers.map((r) => (
-                      <div key={r.el} data-el={r.el} role="button" tabIndex={0}
-                        className={`spine dk-${r.el}${r.missing ? ' ghosted' : ''}${openPill === r.el ? ' open' : ''}`}
-                        aria-label={`${r.name.toUpperCase()} · ${r.presence}% · ${r.isCore ? 'CORE' : r.role.toUpperCase()} · ${r.keyword}`}
-                        onClick={(e) => { if (e.target.closest('.sp-read')) return; setOpenPill(r.el); }}
-                        onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setOpenPill(r.el); } }}>
-                        <span className="sp-fill" style={{ height: `${Math.round((r.presence / pMax) * 84)}%`, '--pw': `${r.presence}%` }} /><span className="sp-notch" />
-                        <span className="sp-col"><span className="sp-noun">{r.name}</span><span className="sp-kw">{r.relation}</span><span className="sp-mk"><Use id={`el-${r.el}`} className="elmark" /></span><span className="sp-pc">{r.presence}%</span><span className="sp-hint-ic" aria-hidden="true"><Use id="ico-chev-r" /></span></span>
-                        <span className="sp-open">
-                          <span className={`sp-art a-${r.el}`}><span className="bfade" /></span>
-                          <span className="sp-txt">
-                            <span className="sp-erow"><span className="sp-seal"><Use id={`el-${r.el}`} className="elmark" /></span><span className="sp-ey">{r.name.toUpperCase()}{r.missing ? <i className="sp-miss"> · Missing</i> : null}</span></span>
-                            <span className="sp-barrow">{track(r.el)}<span className="sp-pct">{r.presence}%</span></span>
-                            <span className="sp-title">{r.title}</span>
-                            <span className="sp-diag">{r.familyLine}</span>
-                            <span className="sp-diagnosis">
-                              <span className="sp-dx">Your {r.name} is <b className="cond">{r.dx.condition}</b>{r.dx.remedy ? <> — <b className="appr">{r.dx.remedy}</b> it.</> : <> — {m.foldVerdict}</>}</span>
-                              <span className="sp-chips">
-                                {r.chips.map((c) => (
-                                  <span key={c.k} className={`role-pill ${c.k}${c.major ? ' major' : ''}`}>
-                                    {c.k === 'cat' && <Use id="ar-up" />}{c.k === 'fric' && <Use id="ar-down" />}{c.label}
-                                  </span>
-                                ))}
-                              </span>
-                            </span>
-                            <span className={`sp-adj ${r.adjPole}`}>{r.adj.map((a) => <i key={a}>{a}</i>)}</span>
-                          </span>
-                          <button className="sp-read" aria-label={`Open ${r.el} reading`} onClick={() => goElement(r.el)}><Use id="ico-arrow-r" /></button>
-                        </span>
-                      </div>
-                    ))}
-                  </div>
-                  <div className="shelf-hint"><span className="uico"><Use id="ico-arrow-r" /></span>Tap any pill to unfold it — the dark circle inside opens its full reading</div>
-                </div>
-
-                {/* wordsnote (A2, round-3 order) — seated directly under the shelf hint;
-                    the dock's layout slot stays last */}
+                {/* wordsnote (A2, round-3 order). The energy-tile shelf (beat 4)
+                    and the sticky ca-dock were RETIRED (owner 2026-08-19): the
+                    wheel-dot entry cards are the one entry to energy readings —
+                    wheel dots and seek/skip rows both open them. */}
                 <div className="wordsnote" aria-label="What these words mean">
                   <span className="wn-ey">The words on this page · tap one</span>
                   <div className="wn-chips">
@@ -584,15 +502,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                   </div>
                 </div>
 
-                <div className="ca-dock" aria-label="Your readings — open any energy">
-                  {towers.map((r) => (
-                    <button key={r.el} className={`ca-chip dk-${r.el}${r.missing ? ' ghost' : ''}`} aria-label={`${r.name} — your ${r.relation}, ${r.presence}%; unfolds its pill`} onClick={() => expandPill(r.el)}>
-                      <span className="ca-fill" style={{ height: `${Math.round((r.presence / pMax) * 84)}%` }} />
-                      <Use id={`el-${r.el}`} className="elmark" />
-                      <span className="ca-kw">{r.name}</span>
-                    </button>
-                  ))}
-                </div>
               </div>
             </div>
           </div>
