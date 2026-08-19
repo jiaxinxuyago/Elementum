@@ -9,6 +9,7 @@
 import './reading.css';
 import ReadingPillarChartCard from './ReadingPillarChartCard.jsx';
 import { buildPillars } from './pillars.js';
+import { resolvePositions } from './positionsResolve.js';
 import { useReading } from './useReading.js';
 
 // Templated filler — real combination-pattern detection lands later; the
@@ -19,11 +20,14 @@ export default function ReadingPillarChartScreen({ onBack, onDiscoverHour }) {
   const { chart, ec, hourUnknown } = useReading();
   if (!ec || !chart) return null;
   const pillars = buildPillars(chart, hourUnknown);
+  // The chart's named positions (REA_02 §5e) — engine-resolved god × slot.
+  const positions = resolvePositions(chart);
   return (
     <div className="reading" style={{ position: 'absolute', inset: 0 }}>
       <ReadingPillarChartCard
         pillars={pillars}
         energies={ec.energies}
+        positions={positions}
         patterns={PATTERNS_FILLER}
         hourUnknown={hourUnknown}
         onBack={onBack}

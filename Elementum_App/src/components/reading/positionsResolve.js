@@ -1,0 +1,51 @@
+// ===================================================================
+// ELEMENTUM · positionsResolve — the chart's named positions (P5)
+// ===================================================================
+// Resolves which of the 70 POSITION configurations (REA_02 §5e) a chart
+// actually holds: for each of the seven slots (day stem excluded — it IS
+// the Day Master), the slot's stem (branches via their 藏干 main qi)
+// takes its ten-god against the DM, and the god × slot names the event:
+// "The Alchemist inside the Career Gate · 偏印在月支".
+// ===================================================================
+
+import { getTenGod, HIDDEN_STEMS } from '../../engine/index.js';
+import { TG_PERSONA } from '../../content/tgNames.js';
+import { SLOTS, GATES, positionTerm, positionZh, POSITION_READINGS } from '../../content/positions.js';
+
+const GOD_ID = {
+  '比肩': 'bijian', '劫财': 'jiecai', '食神': 'shishen', '伤官': 'shangguan',
+  '偏财': 'piancai', '正财': 'zhengcai', '七杀': 'qisha', '正官': 'zhengguan',
+  '偏印': 'pianyin', '正印': 'zhengyin',
+};
+
+export function resolvePositions(chart) {
+  const p = chart?.pillars || {};
+  const dm = p.day?.stem;
+  if (!dm) return [];
+  const out = [];
+  for (const slot of SLOTS) {
+    const pi = p[slot.gate];
+    if (!pi) continue;
+    let stem = null;
+    if (slot.kind === 'stem') stem = pi.stem || null;
+    else {
+      const hs = HIDDEN_STEMS[pi.branch];
+      stem = hs && hs[0] ? hs[0].s : null;   // 藏干 main qi carries the branch
+    }
+    if (!stem) continue;
+    const god = getTenGod(dm, stem)?.zh;
+    const id = GOD_ID[god] ? `${GOD_ID[god]}_${slot.id}` : null;
+    const r = id ? POSITION_READINGS[id] : null;
+    if (!r) continue;
+    const persona = TG_PERSONA[god] || god;
+    out.push({
+      id, god, persona,
+      slot: slot.id, slotZh: slot.zh, kind: slot.kind,
+      gate: GATES[slot.gate], gateKey: slot.gate,
+      term: positionTerm(persona, slot),
+      termZh: positionZh(god, slot),
+      domains: r.domains, defline: r.defline, reading: r.reading,
+    });
+  }
+  return out;
+}

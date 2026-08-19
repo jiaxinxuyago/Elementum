@@ -8,6 +8,30 @@
 // CJK glyphs are intended here (the character chart Part 1 deferred).
 // ===================================================================
 
+import { useState } from 'react';
+
+// A named position row (REA_02 §5e) — term + 汉字, unfolds to the declared
+// domains, defline, and reading.
+function PositionRow({ pos }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className={`pos-row${open ? ' open' : ''}`}>
+      <button className="pos-head" aria-expanded={open} onClick={() => setOpen((v) => !v)}>
+        <span className="pos-gatezh">{pos.slotZh}</span>
+        <span className="pos-term">{pos.term}<span className="pos-zh">{pos.termZh}</span></span>
+        <svg className="pos-chev" viewBox="0 0 24 24"><use href="#ico-chev-r" /></svg>
+      </button>
+      {open && (
+        <div className="pos-body">
+          <div className="pos-doms">{pos.domains.map((d) => <span key={d} className="pos-dom">{d}</span>)}</div>
+          <p className="pos-defline">{pos.defline}</p>
+          <p className="pos-reading">{pos.reading}</p>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function Pillar({ col }) {
   return (
     <div className={`bz-col${col.self ? ' self' : ''}${col.unset ? ' unset' : ''}`}>
@@ -45,7 +69,7 @@ function Pillar({ col }) {
   );
 }
 
-export default function ReadingPillarChartCard({ pillars, energies, patterns, hourUnknown, onBack, onDiscoverHour }) {
+export default function ReadingPillarChartCard({ pillars, energies, positions = [], patterns, hourUnknown, onBack, onDiscoverHour }) {
   return (
     <div className="reading-fill">
       <img className="ground-img" src="/backgrounds/bg-reading-01-side-margins.png" alt="" />
@@ -63,6 +87,16 @@ export default function ReadingPillarChartCard({ pillars, energies, patterns, ho
         <div style={{ textAlign: 'center', margin: '7px 0 12px', fontSize: 11, lineHeight: 1.5, color: 'var(--inkLight)', fontFamily: "'EB Garamond', serif" }}>
           Each of the eight characters pairs with its element. The day stem is your Day Master; the Hour pillar completes once your birth time is set.
         </div>
+
+        {positions.length > 0 && (
+          <div className="layer">
+            <div className="layer-label">Your positions · who sits in each seat</div>
+            <p className="pos-intro">Each seat of your chart is held by an energy, and each pairing has a name. Tap one to read what it rules.</p>
+            <div className="pos-list">
+              {positions.map((pos) => <PositionRow key={pos.id} pos={pos} />)}
+            </div>
+          </div>
+        )}
 
         <div className="layer">
           <div className="layer-label">Patterns · where the chart argues with itself</div>
