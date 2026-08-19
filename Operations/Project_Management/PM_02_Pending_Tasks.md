@@ -44,6 +44,15 @@ Principle (law): *what you are* = band-invariant · *how it's running* = band-va
 ### BAND-C · self_card ×30 — ✅ COMPLETE (owner-locked 2026-08-14) · **BAND CAMPAIGN CLOSED (B+A+C all shipped)**
 Slot RULED = the self energy card: renders ONLY on the core element's screen (`buildElementScreen` `isCore` → `STEM_VARIANTS[stem_band].selfCard`), between the core-state card and "What it means". ×30 authored fresh (face = the state named in the element arena · presence = being that state, open band dignified), station `STEM_BAND/*.json` `self_card` → `stemVariants.js` `selfCard` → journey element screen; registry row locked (32 enforced); audits green; verified in browser (庚 concentrated Metal shows the card, wood does not).
 
+## K2 — the ELEMENT_GOD depth campaign (construct ruled 2026-08-19; REA_16 §6)
+
+Cell = `k2_overview` (45–70w) + `k2_functional` ×5 (Mind/Expression/Bonds/Action/Body, ≤22w) + `k2_domain_readings` (per `GOD.domains`, 30–55w, Seeker-gated). Grain ELEMENT_GOD ×50; K2 register (god cost × element arena); station-first; gates = both audits + humanize + owner review per the variable law.
+
+### K2-A · Template cell — 土_偏印 LIVE on the exemplar's Earth page, awaiting owner lock (iterate language there first)
+### K2-B · Batch ×49 after the template locks (+ retire the interim `mean_line` fully once all 50 render)
+### K2-C · The palace layer — owner rules the palace nouns (year/month/day/hour), then the engine-derived placement line joins "Its ruling domains"
+### K2-D · Two-tier homes — app-energy (faces page) becomes the K2 full reading home; journey sub-screen keeps the excerpt tiers
+
 ## OWNER — review & decisions (no deadline)
 
 | ID | Task |

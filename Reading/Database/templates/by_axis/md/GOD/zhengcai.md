@@ -17,6 +17,7 @@
 | Variable | Value |
 |---|---|
 | `persona_name` | The Steward |
+| `domains` | Wealth · Savings · Steady love |
 | `definition_line` | Methodical, directed acquisition — value built and kept |
 | `keyword` | Caution |
 | `charge` | gentle |

@@ -17,6 +17,7 @@
 | Variable | Value |
 |---|---|
 | `persona_name` | The Twin |
+| `domains` | Peers · Independence · Self-reliance |
 | `definition_line` | Same nature, same register — the standard you hold yourself to |
 | `keyword` | Independence |
 | `charge` | steady |

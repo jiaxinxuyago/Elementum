@@ -17,6 +17,7 @@
 | Variable | Value |
 |---|---|
 | `persona_name` | The Virtuoso |
+| `domains` | Talent · Performance · Defiance |
 | `definition_line` | Cross-current output — brilliance made of what it meets |
 | `keyword` | Brilliance |
 | `charge` | fierce |

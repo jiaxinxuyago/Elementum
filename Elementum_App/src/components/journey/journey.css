@@ -2811,3 +2811,10 @@
 .jny .el-adjchip{ font-size: 11px; letter-spacing: 0.6px; padding: 3px 9px; border-radius: 999px;
     background: rgba(76,122,79,0.10); border: 1px solid rgba(76,122,79,0.28); color: #3f6342; }
 .jny .el-adjchip.down{ background: rgba(163,84,62,0.09); border-color: rgba(163,84,62,0.26); color: #8a4632; }
+
+/* ── K2 depth blocks on the element page (owner construct 2026-08-19) ── */
+.jny .el-funclab{ font-family: 'Cinzel', Georgia, serif; font-size: 10px; letter-spacing: 1.6px; text-transform: uppercase; color: var(--bronzeDark); margin-right: 3px; }
+.jny .el-domchip{ font-size: 11px; letter-spacing: 0.6px; padding: 3px 10px; border-radius: 999px;
+    background: rgba(248,244,236,0.9); border: 1px solid rgba(160,138,100,0.4); color: var(--bronzeDark); }
+.jny .el-domlock{ color: #8a8278; font-size: 12px; }
+.jny .el-domreads b{ color: var(--inkDeep, #2b2722); }

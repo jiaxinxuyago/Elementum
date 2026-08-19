@@ -20,6 +20,7 @@
 
 import { useEffect, useMemo, useRef, useState, useCallback } from 'react';
 import { useReading } from '../reading/useReading.js';
+import { useChart } from '../../store/chartContext.jsx';
 import { STEM_CARD_DATA } from '../../content/index.js';
 import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
 import { APP_URL } from '../../infra/index.js';
@@ -52,6 +53,7 @@ const Disc = () => (
 
 export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onOpenDayMaster, onOpenCodex }) {
   const { chart, ec, identity } = useReading();
+  const { tier } = useChart();   // K2 domain readings are Seeker-gated
   const [screen, setScreen] = useState('catalogue');
   const [elOpen, setElOpen] = useState(null);      // element screen target
   const [showShare, setShowShare] = useState(false);
@@ -544,9 +546,8 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                     <p className="body2 el-selfpresence" style={{ margin: 0 }}>{elScreen.selfCard.presence}</p>
                   </div>
                 )}
-                <div className="cardstock"><span className="laylab">WHAT IT MEANS</span><p className="serifline el-mean" style={{ margin: 0 }}>{elScreen.mean}</p></div>
                 {/* persona bridge (owner wiring 2026-08-19): the element MOVES
-                    AS its lead god — the connective line the god blocks lacked */}
+                    AS its lead god — introduced before the depth reads through it */}
                 <div className="cardstock"><span className="laylab">HOW IT MOVES IN YOU</span>
                   <p className="serifline el-face" style={{ margin: '0 0 5px', fontSize: 14.5 }}>In you, {elScreen.elName} moves as <b>{elScreen.persona}</b> · {elScreen.keyword.toUpperCase()}</p>
                   {elScreen.adj.length ? (
@@ -554,6 +555,31 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                   ) : null}
                   <p className="body2 el-teaser" style={{ margin: '7px 0 0', fontSize: 12.5 }}>{elScreen.teaser}</p>
                 </div>
+                {/* K2 depth (owner construct 2026-08-19): overview → functions
+                    ×5 → ruling domains (map free · readings Seeker-gated). */}
+                <div className="cardstock"><span className="laylab">WHAT IT MEANS</span><p className="serifline el-mean" style={{ margin: 0 }}>{elScreen.k2?.overview || elScreen.mean}</p></div>
+                {elScreen.k2?.functional && (
+                  <div className="cardstock"><span className="laylab">HOW IT RUNS YOUR FUNCTIONS</span>
+                    {elScreen.functionsDef.map((f) => elScreen.k2.functional[f.key] ? (
+                      <p className="body2 el-funcrow" key={f.key} style={{ margin: '0 0 7px' }}><b className="el-funclab">{f.label}.</b> {elScreen.k2.functional[f.key]}</p>
+                    ) : null)}
+                  </div>
+                )}
+                {elScreen.domains.length ? (
+                  <div className="cardstock"><span className="laylab">ITS RULING DOMAINS</span>
+                    <p className="body2" style={{ margin: '0 0 6px' }}>Through <b>{elScreen.persona}</b>, this energy rules these grounds of your life.</p>
+                    <div className="el-adj">{elScreen.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
+                    {elScreen.k2?.domain_readings && (tier !== 'free' ? (
+                      <div className="el-domreads">
+                        {Object.entries(elScreen.k2.domain_readings).map(([d, txt]) => (
+                          <p className="body2" key={d} style={{ margin: '9px 0 0' }}><b>{d}.</b> {txt}</p>
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="body2 el-domlock" style={{ margin: '9px 0 0' }}>The full readings of each domain open with Seeker.</p>
+                    ))}
+                  </div>
+                ) : null}
                 <button className="pill-cta" style={{ marginTop: 2 }} onClick={() => onOpenEnergy && onOpenEnergy(elOpen)}>Full reading <Use id="ico-arrow-r" /></button>
               </div></div>
             </div>

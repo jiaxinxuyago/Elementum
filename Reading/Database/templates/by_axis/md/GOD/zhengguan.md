@@ -17,6 +17,7 @@
 | Variable | Value |
 |---|---|
 | `persona_name` | The Magistrate |
+| `domains` | Career · Status · Order |
 | `definition_line` | Framework-mediated pressure — the standard that steadies |
 | `keyword` | Order |
 | `charge` | gentle |

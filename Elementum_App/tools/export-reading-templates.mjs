@@ -43,6 +43,7 @@ const { FACE_CARD, FAMILY_BRIEF, FAMILY_CLAUSE, FAMILY_ELEMENT, ENERGY_TILE } = 
 const { DM_READING } = await import('../src/content/reading/readingContent.js');
 const { TG_PERSONA } = await import('../src/content/tgNames.js');
 const cyc = await import('../src/content/cycles.js');
+const k2 = await import('../src/content/k2.js');
 const jd = await import('../src/components/journey/journeyData.js');
 
 // ── taxonomy keys ──────────────────────────────────────────────────
@@ -222,6 +223,7 @@ for (const g of GODS) {
   const tg = TG_CARD_DATA[g.hz] || {};
   file('GOD', g.id, g.hz, TG_PERSONA[g.hz] ?? null, {
     persona_name: TG_PERSONA[g.hz] ?? null,
+    domains: k2.GOD_DOMAINS[g.hz] ?? null,
     definition_line: GOD_DEFLINE[g.hz] ?? null,
     keyword: jd.KEYWORD[g.hz] ?? null,
     charge: GOD_CHARGE[g.hz] ?? null,
@@ -252,6 +254,9 @@ for (const el of ELS) for (const g of GODS) {
   file('ELEMENT_GOD', key, key, info.persona ?? TG_PERSONA[g.hz] ?? null, {
     structural_interaction: info.interaction ?? null,
     dm_element: info.dm_element ?? null,
+    k2_overview: k2.K2_CELLS[key]?.overview ?? null,
+    k2_functional: k2.K2_CELLS[key]?.functional ?? null,
+    k2_domain_readings: k2.K2_CELLS[key]?.domain_readings ?? null,
     k2_card: {
       face: null, persona: null, chips: null, rulingDomain: null,
       registers: {

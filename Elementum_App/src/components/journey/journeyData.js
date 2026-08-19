@@ -16,6 +16,7 @@
 import { getEnergyBand, relationOf } from '../../engine/index.js';
 import { TG_PERSONA, selfCardFor } from '../../content/index.js';
 import { FEEDS, TAMES, CYCLE_LINE } from '../../content/cycles.js';
+import { K2_CELLS, K2_FUNCTIONS, GOD_DOMAINS } from '../../content/k2.js';
 import { FACE_CARD, ENERGY_TILE } from '../../content/reading/index.js';
 
 // ── element basics ─────────────────────────────────────────────────
@@ -390,6 +391,12 @@ export function buildElementScreen(model, el) {
     // persona bridge (owner wiring 2026-08-19): the element moves AS the god
     elName: r.name, persona: r.persona, keyword: r.keyword,
     adj: r.adj || [], adjDown: r.role === 'friction' || r.coreExcess,
+    // K2 depth (owner construct 2026-08-19): overview + functional ×5 +
+    // domain readings at ELEMENT_GOD grain; the god's inherent ruling
+    // domains render free, the readings are Seeker-gated in the view.
+    k2: K2_CELLS[`${r.hz}_${r.god}`] || null,
+    domains: GOD_DOMAINS[r.god] || [],
+    functionsDef: K2_FUNCTIONS,
   };
 }
 

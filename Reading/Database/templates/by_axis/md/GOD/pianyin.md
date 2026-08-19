@@ -17,6 +17,7 @@
 | Variable | Value |
 |---|---|
 | `persona_name` | The Alchemist |
+| `domains` | Learning · Intuition · Solitude |
 | `definition_line` | Unconventional nourishment — insight that transmutes |
 | `keyword` | Insight |
 | `charge` | fierce |

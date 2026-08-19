@@ -17,6 +17,7 @@
 | Variable | Value |
 |---|---|
 | `persona_name` | The Horizon |
+| `domains` | Opportunity · Ventures · Father |
 | `definition_line` | Wide-ranging engagement — opportunity sensed at a distance |
 | `keyword` | Reach |
 | `charge` | dynamic |

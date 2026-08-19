@@ -17,6 +17,7 @@
 | Variable | Value |
 |---|---|
 | `persona_name` | The Sage |
+| `domains` | Knowledge · Shelter · Mother |
 | `definition_line` | Nourishment that deepens without redirecting — the root that holds |
 | `keyword` | Care |
 | `charge` | gentle |

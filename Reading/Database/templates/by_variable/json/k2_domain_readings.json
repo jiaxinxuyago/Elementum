@@ -1,0 +1,312 @@
+{
+  "$variable": "k2_domain_readings",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "ELEMENT_GOD": [
+      {
+        "id": "金_比肩",
+        "key": "金_比肩",
+        "canonical_name": "The Twin",
+        "value": null
+      },
+      {
+        "id": "金_劫财",
+        "key": "金_劫财",
+        "canonical_name": "The Rival",
+        "value": null
+      },
+      {
+        "id": "金_食神",
+        "key": "金_食神",
+        "canonical_name": "The Artisan",
+        "value": null
+      },
+      {
+        "id": "金_伤官",
+        "key": "金_伤官",
+        "canonical_name": "The Virtuoso",
+        "value": null
+      },
+      {
+        "id": "金_偏财",
+        "key": "金_偏财",
+        "canonical_name": "The Horizon",
+        "value": null
+      },
+      {
+        "id": "金_正财",
+        "key": "金_正财",
+        "canonical_name": "The Steward",
+        "value": null
+      },
+      {
+        "id": "金_七杀",
+        "key": "金_七杀",
+        "canonical_name": "The General",
+        "value": null
+      },
+      {
+        "id": "金_正官",
+        "key": "金_正官",
+        "canonical_name": "The Magistrate",
+        "value": null
+      },
+      {
+        "id": "金_偏印",
+        "key": "金_偏印",
+        "canonical_name": "The Alchemist",
+        "value": null
+      },
+      {
+        "id": "金_正印",
+        "key": "金_正印",
+        "canonical_name": "The Sage",
+        "value": null
+      },
+      {
+        "id": "土_比肩",
+        "key": "土_比肩",
+        "canonical_name": "The Twin",
+        "value": null
+      },
+      {
+        "id": "土_劫财",
+        "key": "土_劫财",
+        "canonical_name": "The Rival",
+        "value": null
+      },
+      {
+        "id": "土_食神",
+        "key": "土_食神",
+        "canonical_name": "The Artisan",
+        "value": null
+      },
+      {
+        "id": "土_伤官",
+        "key": "土_伤官",
+        "canonical_name": "The Virtuoso",
+        "value": null
+      },
+      {
+        "id": "土_偏财",
+        "key": "土_偏财",
+        "canonical_name": "The Horizon",
+        "value": null
+      },
+      {
+        "id": "土_正财",
+        "key": "土_正财",
+        "canonical_name": "The Steward",
+        "value": null
+      },
+      {
+        "id": "土_七杀",
+        "key": "土_七杀",
+        "canonical_name": "The General",
+        "value": null
+      },
+      {
+        "id": "土_正官",
+        "key": "土_正官",
+        "canonical_name": "The Magistrate",
+        "value": null
+      },
+      {
+        "id": "土_偏印",
+        "key": "土_偏印",
+        "canonical_name": "The Alchemist",
+        "value": {
+          "Learning": "Learning is where this Earth feeds you best. Not the classroom kind so much as the deep private kind: the obsession studied at midnight, the field entered through the side door. Give it one strange subject at a time and it will quietly out-earn every credential in the house.",
+          "Intuition": "The hunch arrives before the reason does, and for you it is usually load-bearing. Treat the sudden knowing as a first draft: trust it enough to write it down, doubt it enough to check the math by morning.",
+          "Solitude": "Time alone is this energy’s rent, and it collects whether you schedule it or not. Taken on purpose, solitude turns into your best material. Taken by accident, it curdles into distance from the people who were waiting outside the study."
+        }
+      },
+      {
+        "id": "土_正印",
+        "key": "土_正印",
+        "canonical_name": "The Sage",
+        "value": null
+      },
+      {
+        "id": "木_比肩",
+        "key": "木_比肩",
+        "canonical_name": "The Twin",
+        "value": null
+      },
+      {
+        "id": "木_劫财",
+        "key": "木_劫财",
+        "canonical_name": "The Rival",
+        "value": null
+      },
+      {
+        "id": "木_食神",
+        "key": "木_食神",
+        "canonical_name": "The Artisan",
+        "value": null
+      },
+      {
+        "id": "木_伤官",
+        "key": "木_伤官",
+        "canonical_name": "The Virtuoso",
+        "value": null
+      },
+      {
+        "id": "木_偏财",
+        "key": "木_偏财",
+        "canonical_name": "The Horizon",
+        "value": null
+      },
+      {
+        "id": "木_正财",
+        "key": "木_正财",
+        "canonical_name": "The Steward",
+        "value": null
+      },
+      {
+        "id": "木_七杀",
+        "key": "木_七杀",
+        "canonical_name": "The General",
+        "value": null
+      },
+      {
+        "id": "木_正官",
+        "key": "木_正官",
+        "canonical_name": "The Magistrate",
+        "value": null
+      },
+      {
+        "id": "木_偏印",
+        "key": "木_偏印",
+        "canonical_name": "The Alchemist",
+        "value": null
+      },
+      {
+        "id": "木_正印",
+        "key": "木_正印",
+        "canonical_name": "The Sage",
+        "value": null
+      },
+      {
+        "id": "水_比肩",
+        "key": "水_比肩",
+        "canonical_name": "The Twin",
+        "value": null
+      },
+      {
+        "id": "水_劫财",
+        "key": "水_劫财",
+        "canonical_name": "The Rival",
+        "value": null
+      },
+      {
+        "id": "水_食神",
+        "key": "水_食神",
+        "canonical_name": "The Artisan",
+        "value": null
+      },
+      {
+        "id": "水_伤官",
+        "key": "水_伤官",
+        "canonical_name": "The Virtuoso",
+        "value": null
+      },
+      {
+        "id": "水_偏财",
+        "key": "水_偏财",
+        "canonical_name": "The Horizon",
+        "value": null
+      },
+      {
+        "id": "水_正财",
+        "key": "水_正财",
+        "canonical_name": "The Steward",
+        "value": null
+      },
+      {
+        "id": "水_七杀",
+        "key": "水_七杀",
+        "canonical_name": "The General",
+        "value": null
+      },
+      {
+        "id": "水_正官",
+        "key": "水_正官",
+        "canonical_name": "The Magistrate",
+        "value": null
+      },
+      {
+        "id": "水_偏印",
+        "key": "水_偏印",
+        "canonical_name": "The Alchemist",
+        "value": null
+      },
+      {
+        "id": "水_正印",
+        "key": "水_正印",
+        "canonical_name": "The Sage",
+        "value": null
+      },
+      {
+        "id": "火_比肩",
+        "key": "火_比肩",
+        "canonical_name": "The Twin",
+        "value": null
+      },
+      {
+        "id": "火_劫财",
+        "key": "火_劫财",
+        "canonical_name": "The Rival",
+        "value": null
+      },
+      {
+        "id": "火_食神",
+        "key": "火_食神",
+        "canonical_name": "The Artisan",
+        "value": null
+      },
+      {
+        "id": "火_伤官",
+        "key": "火_伤官",
+        "canonical_name": "The Virtuoso",
+        "value": null
+      },
+      {
+        "id": "火_偏财",
+        "key": "火_偏财",
+        "canonical_name": "The Horizon",
+        "value": null
+      },
+      {
+        "id": "火_正财",
+        "key": "火_正财",
+        "canonical_name": "The Steward",
+        "value": null
+      },
+      {
+        "id": "火_七杀",
+        "key": "火_七杀",
+        "canonical_name": "The General",
+        "value": null
+      },
+      {
+        "id": "火_正官",
+        "key": "火_正官",
+        "canonical_name": "The Magistrate",
+        "value": null
+      },
+      {
+        "id": "火_偏印",
+        "key": "火_偏印",
+        "canonical_name": "The Alchemist",
+        "value": null
+      },
+      {
+        "id": "火_正印",
+        "key": "火_正印",
+        "canonical_name": "The Sage",
+        "value": null
+      }
+    ]
+  }
+}

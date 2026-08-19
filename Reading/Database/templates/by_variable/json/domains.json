@@ -1,0 +1,108 @@
+{
+  "$variable": "domains",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "GOD": [
+      {
+        "id": "bijian",
+        "key": "比肩",
+        "canonical_name": "The Twin",
+        "value": [
+          "Peers",
+          "Independence",
+          "Self-reliance"
+        ]
+      },
+      {
+        "id": "jiecai",
+        "key": "劫财",
+        "canonical_name": "The Rival",
+        "value": [
+          "Rivalry",
+          "Shared stakes",
+          "Boldness"
+        ]
+      },
+      {
+        "id": "shishen",
+        "key": "食神",
+        "canonical_name": "The Artisan",
+        "value": [
+          "Expression",
+          "Enjoyment",
+          "Children"
+        ]
+      },
+      {
+        "id": "shangguan",
+        "key": "伤官",
+        "canonical_name": "The Virtuoso",
+        "value": [
+          "Talent",
+          "Performance",
+          "Defiance"
+        ]
+      },
+      {
+        "id": "piancai",
+        "key": "偏财",
+        "canonical_name": "The Horizon",
+        "value": [
+          "Opportunity",
+          "Ventures",
+          "Father"
+        ]
+      },
+      {
+        "id": "zhengcai",
+        "key": "正财",
+        "canonical_name": "The Steward",
+        "value": [
+          "Wealth",
+          "Savings",
+          "Steady love"
+        ]
+      },
+      {
+        "id": "qisha",
+        "key": "七杀",
+        "canonical_name": "The General",
+        "value": [
+          "Pressure",
+          "Command",
+          "Crisis"
+        ]
+      },
+      {
+        "id": "zhengguan",
+        "key": "正官",
+        "canonical_name": "The Magistrate",
+        "value": [
+          "Career",
+          "Status",
+          "Order"
+        ]
+      },
+      {
+        "id": "pianyin",
+        "key": "偏印",
+        "canonical_name": "The Alchemist",
+        "value": [
+          "Learning",
+          "Intuition",
+          "Solitude"
+        ]
+      },
+      {
+        "id": "zhengyin",
+        "key": "正印",
+        "canonical_name": "The Sage",
+        "value": [
+          "Knowledge",
+          "Shelter",
+          "Mother"
+        ]
+      }
+    ]
+  }
+}

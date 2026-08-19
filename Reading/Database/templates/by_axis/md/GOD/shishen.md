@@ -17,6 +17,7 @@
 | Variable | Value |
 |---|---|
 | `persona_name` | The Artisan |
+| `domains` | Expression · Enjoyment · Children |
 | `definition_line` | Output that flows from you — giving that feels like being |
 | `keyword` | Flow |
 | `charge` | gentle |

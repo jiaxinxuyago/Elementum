@@ -17,6 +17,7 @@
 | Variable | Value |
 |---|---|
 | `persona_name` | The General |
+| `domains` | Pressure · Command · Crisis |
 | `definition_line` | Pressure that doesn't grant permission — the trial that forges |
 | `keyword` | Force |
 | `charge` | fierce |

@@ -17,6 +17,7 @@
 | Variable | Value |
 |---|---|
 | `persona_name` | The Rival |
+| `domains` | Rivalry · Shared stakes · Boldness |
 | `definition_line` | Same nature, different register — the edge of comparison |
 | `keyword` | Rivalry |
 | `charge` | fierce |
