@@ -12,9 +12,19 @@
   "candidates": {
     "structural_interaction": "Metal directing Wood broadly — precision ranging across living material",
     "dm_element": "Metal",
-    "k2_overview": null,
-    "k2_functional": null,
-    "k2_domain_readings": null,
+    "k2_overview": "Your Wood moves as the Horizon: growth that reaches for distant light. Opportunity, for you, is territory: new markets, new cities, branches extended where no one from home has grown. You expand naturally and prune reluctantly. Fortune arrives through the reaching. Roots decide how much of it you keep.",
+    "k2_functional": {
+      "mind": "You think expansively: the next territory, the wider canopy, the branch worth risking.",
+      "expression": "You speak in possibilities that make people pack their bags.",
+      "bonds": "You network like a forest: connections spreading underground, favors flowering seasons later.",
+      "action": "You grow toward opportunity steadily, extending reach every season without retreating.",
+      "body": "Your energy expands with novelty and travel, and wilts in cramped pots."
+    },
+    "k2_domain_readings": {
+      "Opportunity": "Opportunities appear to you as open land: markets unplanted, niches unclaimed. You see fertile ground others call wilderness. Scout it, but check the soil before transplanting everything.",
+      "Ventures": "Your ventures grow in groves: several trunks sharing a root system of skills and contacts. Let each mature before seeding the next. Orchards fail from planting fever, not planting.",
+      "Father": "The father-thread runs green and rangy: a paternal figure of journeys, enterprises, or restlessness. His pattern of reaching shaped yours. Keep the reach, and plant the roots he may have skipped."
+    },
     "k2_card": {
       "face": null,
       "persona": null,

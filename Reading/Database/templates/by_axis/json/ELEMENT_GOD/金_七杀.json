@@ -12,9 +12,19 @@
   "candidates": {
     "structural_interaction": "Metal pressing Wood same-polarity — the cutting force that doesn't grant permission",
     "dm_element": "Wood",
-    "k2_overview": null,
-    "k2_functional": null,
-    "k2_domain_readings": null,
+    "k2_overview": "Your Metal moves as the General: edge given rank. Pressure organizes you, crisis promotes you, and your will cuts through what committees cannot. This is the sword in its born office, decisive, disciplined, feared a little and needed often. Command the campaigns worth blood. Sheathe everywhere else.",
+    "k2_functional": {
+      "mind": "You think in objectives: what falls first, what follows, what gets deliberately spared.",
+      "expression": "You issue orders that sound like conclusions. People execute before questioning.",
+      "bonds": "You respect chains of trust: loyalty earned in pressure, kept for life.",
+      "action": "You strike decisively where others deliberate. Hesitation is not among your defects.",
+      "body": "Your energy is martial: strengthened by training, corroded by idle tension."
+    },
+    "k2_domain_readings": {
+      "Pressure": "Pressure is your forge: you harden correctly under loads that crack others. Seek arenas with real stakes. Comfort dulls you faster than any enemy could.",
+      "Command": "Command fits you like a sword fits its grip: natural, tested, dangerous if idle. Take charge where the mission deserves it, and practice the harder art, releasing command without losing edge.",
+      "Crisis": "In crisis you become simple and effective: triage, decision, stroke. People will remember your calm longer than the emergency. Keep one habit for after: cleaning the blade, debriefing the heart."
+    },
     "k2_card": {
       "face": null,
       "persona": null,

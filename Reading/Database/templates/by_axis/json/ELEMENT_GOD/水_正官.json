@@ -12,9 +12,19 @@
   "candidates": {
     "structural_interaction": "Water setting standard for Fire cross-polarity — depth asking whether warmth is sustainable",
     "dm_element": "Fire",
-    "k2_overview": null,
-    "k2_functional": null,
-    "k2_domain_readings": null,
+    "k2_overview": "Your Water moves as the Magistrate: navigable law, order that flows. You govern the way good rivers govern valleys, setting course without shouting, adjusting to terrain while staying a river. Your rules bend around cases and still arrive at the sea. It is the subtlest authority, and people obey it thinking they chose to.",
+    "k2_functional": {
+      "mind": "You think in channels and cases: where the rule should flow, where it should pool.",
+      "expression": "You direct fluently: guidance that reads as conversation and lands as policy.",
+      "bonds": "You keep relations in smooth passage: friction eased, protocol invisible.",
+      "action": "You administer adaptively: process that reroutes around obstacles without losing the sea.",
+      "body": "Your health is regulated flow: steady rhythms, flexible plans, stagnation as the only enemy."
+    },
+    "k2_domain_readings": {
+      "Career": "Your career advances by navigation: reading currents, timing passages, arriving at rank without visible strain. Diplomacy, coordination, the harbor-master roles. Your course is quiet and it compounds.",
+      "Status": "Your standing spreads like watershed reputation: carried by word of mouth into places you have never been. Tend the source. Everything downstream tastes of it.",
+      "Order": "Your order is current-shaped: rules that adapt to terrain yet keep direction. People experience your governance as ease. Document the channel, or it evaporates when you do."
+    },
     "k2_card": {
       "face": null,
       "persona": null,

@@ -12,9 +12,19 @@
   "candidates": {
     "structural_interaction": "Metal generating Water cross-polarity — precision nourishing and opening intelligence",
     "dm_element": "Water",
-    "k2_overview": null,
-    "k2_functional": null,
-    "k2_domain_readings": null,
+    "k2_overview": "Your Metal moves as the Sage: tempered care, nurture with a fine edge of standards. You were shaped by teachings that held you to something, and you shelter others the same way, protection that also sharpens. Knowledge in your keeping stays true. Let some care through unpolished. Warmth needs no proofing.",
+    "k2_functional": {
+      "mind": "You think in tested doctrine: knowledge kept because it held under strikes.",
+      "expression": "You teach in exact kindness: correction and care in the same clean line.",
+      "bonds": "You protect by strengthening: your people leave your care harder to break.",
+      "action": "You act as trained: disciplined kindness, standards kept even while comforting.",
+      "body": "Your body responds to disciplined rest: real recovery scheduled like practice."
+    },
+    "k2_domain_readings": {
+      "Knowledge": "Your knowledge is armory-grade: fewer books, deeply proofed, instantly deployable. You trust what survived testing. Curate hard, and reread the masters yearly. Your edge is depth.",
+      "Shelter": "Your shelter is a forge-side bench: people come to you and leave straightened. You protect by tempering. Remember some visitors need only warmth. Not everything cracked wants rework.",
+      "Mother": "The mother-thread runs steel-true: a nurturing figure of standards, or the ache where that discipline should have been. Her exactness lives in your caring. Keep the precision, soften the grading."
+    },
     "k2_card": {
       "face": null,
       "persona": null,

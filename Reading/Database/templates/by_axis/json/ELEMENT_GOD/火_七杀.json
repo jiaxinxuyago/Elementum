@@ -12,9 +12,19 @@
   "candidates": {
     "structural_interaction": "Fire pressing Metal same-polarity — the forge that doesn't moderate itself",
     "dm_element": "Metal",
-    "k2_overview": null,
-    "k2_functional": null,
-    "k2_domain_readings": null,
+    "k2_overview": "Your Fire moves as the General: heat weaponized into will. You command like a charge, blazing conviction that armies of ordinary people find themselves following. Crisis makes you luminous. Peacetime makes you dangerous to furniture. Aim the cannon, always. Unaimed, this much fire tests every relationship it warms.",
+    "k2_functional": {
+      "mind": "You think in offensives: the bold stroke, the morale, the moment to charge.",
+      "expression": "You speak fire into formations: rally, order, charge, all in one breath.",
+      "bonds": "You bond in campaigns: comrade warmth, tested and total.",
+      "action": "You attack problems frontally at full heat, and mostly the problems lose.",
+      "body": "Your energy is artillery: devastating volleys, mandatory cooldowns, maintenance between engagements."
+    },
+    "k2_domain_readings": {
+      "Pressure": "Pressure ignites you: stakes convert your heat into focus. Without real battles you invent them, so keep a worthy campaign running at all times, professional or physical.",
+      "Command": "You command by fire: vision hot enough to melt objections. Troops follow the light. Mind the scorch radius, and let cooler officers handle the discipline your heat would burn.",
+      "Crisis": "Crisis is your parade ground: you charge while others count. Victory loves you. Afterward, check who got trampled in the charge, including you."
+    },
     "k2_card": {
       "face": null,
       "persona": null,

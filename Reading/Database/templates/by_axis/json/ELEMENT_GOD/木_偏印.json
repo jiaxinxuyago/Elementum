@@ -12,9 +12,19 @@
   "candidates": {
     "structural_interaction": "Wood generating Fire same-polarity — reach as fuel sustaining warmth",
     "dm_element": "Fire",
-    "k2_overview": null,
-    "k2_functional": null,
-    "k2_domain_readings": null,
+    "k2_overview": "Your Wood moves as the Alchemist: knowledge grown rather than gathered. Understanding grafts onto you slowly and lives, ideas cross-pollinating in ways textbooks never planned. Your learning is a garden with strange hybrids. Tend it privately as you must, then let people taste the fruit. It is stranger and better than you think.",
+    "k2_functional": {
+      "mind": "You think by grafting: splicing distant ideas until something new takes root.",
+      "expression": "You explain in organic metaphors: knowledge with soil still on it.",
+      "bonds": "You connect through shared curiosity: fellow gardeners of odd ideas.",
+      "action": "You act on grown conviction: slow to sprout, deep-rooted once moving.",
+      "body": "Your body learns like a plant: gradual conditioning, sunlight and quiet, no forced seasons."
+    },
+    "k2_domain_readings": {
+      "Learning": "You learn like an ecosystem: slowly, laterally, everything connecting to everything. Formal courses feel like pots. Give yourself wild ground, mixed sources, and the hybrids will astonish.",
+      "Intuition": "Your intuition grows on the underside of awareness: a slow mycelium that suddenly fruits an answer. Give questions dormancy. What you cannot force overnight arrives by spring.",
+      "Solitude": "Your solitude is a greenhouse: ideas need protected warmth before weather. Take the seclusion without guilt. Just transplant finished thoughts outdoors. Gardens are meant to be walked in."
+    },
     "k2_card": {
       "face": null,
       "persona": null,

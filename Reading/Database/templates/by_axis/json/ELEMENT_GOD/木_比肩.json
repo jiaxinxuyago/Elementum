@@ -12,9 +12,19 @@
   "candidates": {
     "structural_interaction": "Reach amplifying reach — developmental instinct without definition or counterforce",
     "dm_element": "Wood",
-    "k2_overview": null,
-    "k2_functional": null,
-    "k2_domain_readings": null,
+    "k2_overview": "Your Wood moves as the Twin: growth that stands beside others without leaning on them. You rise the way two trees share a hillside, close enough to shelter each other, rooted enough to stand alone. Ambition, for you, is upward and personal. You measure yourself against your own last season, and quietly against the tree beside you.",
+    "k2_functional": {
+      "mind": "You think in growth lines: where you were, where you are, what the next height requires.",
+      "expression": "You speak plainly and upward, more comfortable stating goals than confessing doubts.",
+      "bonds": "You grow alongside people rather than around them: parallel lives, mutual respect, roots politely separate.",
+      "action": "You start on your own signal and keep your own pace. Seasons of effort suit you better than sprints.",
+      "body": "Your stamina is vegetal: quiet, continuous, renewed by daylight and outdoor air."
+    },
+    "k2_domain_readings": {
+      "Peers": "Your peers are the grove: people growing the same direction at their own speeds. Comparison is your fertilizer and your poison, so use the grove for shade and shelter, and race only your own rings.",
+      "Independence": "Wood independence is having your own soil: your plot, your craft, your income no one else waters. Secure it early. You bend badly when planted in someone else’s garden.",
+      "Self-reliance": "You hold yourself up through storms that flatten louder people, and you rarely mention the wind afterward. Let someone stake you when you are newly transplanted. It is not dependence. It is horticulture."
+    },
     "k2_card": {
       "face": null,
       "persona": null,

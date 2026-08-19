@@ -46,11 +46,11 @@ Slot RULED = the self energy card: renders ONLY on the core element's screen (`b
 
 ## K2 — the ELEMENT_GOD depth campaign (construct ruled 2026-08-19; REA_16 §6)
 
-Cell = `k2_overview` (45–70w) + `k2_functional` ×5 (Mind/Expression/Bonds/Action/Body, ≤22w) + `k2_domain_readings` (per `GOD.domains`, 30–55w, Seeker-gated). Grain ELEMENT_GOD ×50; K2 register (god cost × element arena); station-first; gates = both audits + humanize + owner review per the variable law.
+Cell = `k2_overview` (40–70w) + `k2_functional` ×5 (Mind/Expression/Bonds/Action/Body, ≤22w) + `k2_domain_readings` (per `GOD.domains`, 18–55w, Seeker-gated). Grain ELEMENT_GOD ×50; K2 register (god cost × element arena); station-first; gates = both audits + humanize + owner review per the variable law.
 
-### K2-A · Template cell — 土_偏印 LIVE on the exemplar's Earth page, awaiting owner lock (iterate language there first)
-### K2-B · Batch ×49 after the template locks (+ retire the interim `mean_line` fully once all 50 render)
-### K2-C · The POSITION axis — CONSTRUCT + VOCABULARY RULED 2026-08-19 (REA_02 §5e): named configurations (persona-led + 汉字, "The Alchemist inside the Career Gate · 偏印在月支"), 8-slot grain (7 usable × 10 gods = ×70 station axis, live, supersedes the palace-frame B6 stubs), gates Origin/Career/Partner/Legacy, canonical domain taxonomy ×8 (Wealth·Health·Career·Love·Family·Social·Mind·Growth — every reading DECLARES its domains first). **CORPUS LOCKED ×70 (owner 2026-08-19: template approved → batch authored, audits green).** Remaining: engine-resolved SURFACING — resolve each chart's actual positions (pillar gods per slot) and render the named events (term + 汉字 + defline + declared domains + reading) on the element pages and/or P5 pillar chart; slot ruling owner-led at wiring
+### K2-A · Template cell — ✅ 土_偏印 authored + locked (the corpus template)
+### K2-B · Batch ×49 — ✅ COMPLETE (2026-08-19): all 50 cells station-authored → `k2.js` K2_CELLS regenerated from station; persona-led throughout (TG_PERSONA canonical: 伤官 Virtuoso · 正官 Magistrate · 正印 Sage now named in-body); registry rows locked at 40–70w / ≤22w / 18–55w; both audits green (5 voice tells caught + fixed pre-lock); interim `mean_line` RETIRED; verified on the exemplar's five element pages incl. Seeker gating
+### K2-C · The POSITION axis — ✅ COMPLETE: corpus LOCKED ×70 + gates re-ruled LITERAL (Year/Month/Day/Hour Gate) + engine surfacing live (`resolvePositions`; FULL readings = energy-card seats accordion, P5 = index only)
 ### K2-D · Two-tier homes — app-energy (faces page) becomes the K2 full reading home; journey sub-screen keeps the excerpt tiers
 
 ## OWNER — review & decisions (no deadline)

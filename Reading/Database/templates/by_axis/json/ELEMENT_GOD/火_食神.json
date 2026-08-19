@@ -12,9 +12,19 @@
   "candidates": {
     "structural_interaction": "Wood generating Fire same-polarity — reach as natural source of warmth and expression",
     "dm_element": "Wood",
-    "k2_overview": null,
-    "k2_functional": null,
-    "k2_domain_readings": null,
+    "k2_overview": "Your Fire moves as the Artisan: warmth that cooks instead of burns. You turn heat into hospitality, talent into entertainment, an ordinary evening into something people retell for years. Pleasure is your medium and generosity your technique. The feast only fails when the cook forgets to eat.",
+    "k2_functional": {
+      "mind": "You think in delight: what would make this warmer, tastier, more alive for everyone present.",
+      "expression": "You express in performances of warmth: stories, meals, toasts that leave everyone lit.",
+      "bonds": "You gather people around your glow and feed them till they shine back.",
+      "action": "You work best hosting the work: projects with an audience and a payoff people can enjoy.",
+      "body": "Your energy loves festivity and pays for excess. Alternate feast days with hearth days."
+    },
+    "k2_domain_readings": {
+      "Expression": "Your expression is the lit table: cooking, performing, hosting, celebrating. It is real art, so treat it as one. The gatherings you make are the memories a whole circle keeps.",
+      "Enjoyment": "You enjoy loudly and generously, and your appetite blesses whatever it touches. The discipline is savoring over consuming: fewer, better feasts. The flame tastes more when it eats slower.",
+      "Children": "With the young you are the warm hearth: fun, feeding, festival. They will remember your kitchen as childhood itself. Add one steady ritual to the sparkle, so the warmth has a schedule they can lean on."
+    },
     "k2_card": {
       "face": null,
       "persona": null,

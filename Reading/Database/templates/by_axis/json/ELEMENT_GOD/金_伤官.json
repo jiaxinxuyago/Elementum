@@ -12,9 +12,19 @@
   "candidates": {
     "structural_interaction": "Earth generating Metal cross-polarity — precision that structurally exceeds its container",
     "dm_element": "Earth",
-    "k2_overview": null,
-    "k2_functional": null,
-    "k2_domain_readings": null,
+    "k2_overview": "Your Metal moves as the Virtuoso: an edge that performs. You cut with style, argue like a fencing match, and produce work so sharp it draws blood and applause in the same stroke. Standards bore you unless you set them. Authority irritates you unless it earned itself. The world calls it attitude. It is precision refusing dullness.",
+    "k2_functional": {
+      "mind": "You think in critiques: instantly seeing the flaw, the fix, and the better version nobody ordered.",
+      "expression": "Your wit cuts clean and quotable. People fear your reviews and collect them.",
+      "bonds": "You bond through sharpened banter. Those who can parry stay. Those who bleed easily should not spar.",
+      "action": "You execute with flourish, better than asked and different than specified.",
+      "body": "Your energy runs keen and high-strung: honed by challenge, notched by tedium."
+    },
+    "k2_domain_readings": {
+      "Talent": "Your talent is the brilliant edge: work with finish other people cannot reach. Sign it, show it, price it properly. Metal brilliance that stays sheathed reads as arrogance without the receipts.",
+      "Performance": "You perform with precision: the flawless delivery, the duel won in public. Choose stages where exactness shines, competitions, critiques, crafts. Applause for sharpness is the kind you can actually live on.",
+      "Defiance": "Your defiance is the refusal to dull: standards no supervisor can lower, corners you will not round. Aim it at shoddiness rather than at every hand holding a clipboard. Rebellion with a portfolio wins."
+    },
     "k2_card": {
       "face": null,
       "persona": null,

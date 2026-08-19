@@ -12,9 +12,19 @@
   "candidates": {
     "structural_interaction": "Wood directing Earth broadly — reach ranging across stable material",
     "dm_element": "Wood",
-    "k2_overview": null,
-    "k2_functional": null,
-    "k2_domain_readings": null,
+    "k2_overview": "Your Earth moves as the Horizon: ground that acquires. You accumulate opportunity the way land accumulates value, steadily, tangibly, with paperwork. Your ventures have foundations, your windfalls become holdings, and your generosity comes deeded. Fortune trusts you because you give it somewhere to live.",
+    "k2_functional": {
+      "mind": "You think in holdings: what appreciates, what depreciates, what the land under it is worth.",
+      "expression": "You make offers people can stand on: concrete terms, real collateral.",
+      "bonds": "Your network is landed: durable relationships with assets and addresses.",
+      "action": "You acquire deliberately: surveyed chances, patient closings, ownership that sticks.",
+      "body": "Your energy is estate-like: unhurried, substantial, maintained by routine and good meals."
+    },
+    "k2_domain_readings": {
+      "Opportunity": "Your opportunities are tangible: property, inventory, businesses with floors and keys. You distrust vapor correctly. Walk the ground before buying it, and buy ground more often than promises.",
+      "Ventures": "Your ventures should hold weight: real assets, real product, margins you can stack. Compound patiently. In your hands, boring holdings quietly outperform everyone’s exciting stories.",
+      "Father": "The father-thread is foundational: a paternal figure tied to property, provision, or their weighty absence. What he built or failed to build shaped your acquiring. Build yours on your own survey."
+    },
     "k2_card": {
       "face": null,
       "persona": null,

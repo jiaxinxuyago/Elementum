@@ -12,9 +12,19 @@
   "candidates": {
     "structural_interaction": "Fire generating Earth same-polarity — warmth as activation source for stability",
     "dm_element": "Earth",
-    "k2_overview": null,
-    "k2_functional": null,
-    "k2_domain_readings": null,
+    "k2_overview": "Your Fire moves as the Alchemist: illumination in a closed vessel. Your insight comes in flashes, sudden clarity that lights a whole cavern, then dims while you sketch what you saw. You understand things sideways, by vision rather than proof. Keep notebooks. The flashes are real, and unrecorded lightning teaches no one.",
+    "k2_functional": {
+      "mind": "You think in flashes: whole answers arriving lit, proofs assembled after.",
+      "expression": "You explain in images that ignite: one metaphor doing an hour’s lecturing.",
+      "bonds": "You connect in intense sparks: rare kindred minds, instantly recognized.",
+      "action": "You act on illumination: bursts of inspired work between contemplative dark.",
+      "body": "Your energy strobes: brilliant hours, ash hours, restored by solitude and low light."
+    },
+    "k2_domain_readings": {
+      "Learning": "You learn by ignition: nothing for weeks, then a spark takes and you consume a field in days. Honor the cycle. Keep fuel stacked for when the flash comes.",
+      "Intuition": "Your intuition arrives as vision: sudden, whole, and correct more often than you can justify. Note it immediately. The flash fades faster than the truth it showed.",
+      "Solitude": "Your solitude is the dark that makes flashes visible: crowds wash out your signal. Reserve real darkness, evenings unplugged, questions held alone. Then carry the light out."
+    },
     "k2_card": {
       "face": null,
       "persona": null,

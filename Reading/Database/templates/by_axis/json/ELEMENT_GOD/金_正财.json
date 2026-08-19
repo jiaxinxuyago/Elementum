@@ -12,9 +12,19 @@
   "candidates": {
     "structural_interaction": "Fire directing Metal cross-polarity — focused warmth shaping the edge with discipline",
     "dm_element": "Fire",
-    "k2_overview": null,
-    "k2_functional": null,
-    "k2_domain_readings": null,
+    "k2_overview": "Your Metal moves as the Steward: an edge in service of what it keeps. You maintain value with a craftsman’s discipline, tools oiled, accounts true, promises weighed before signing. Nothing gaudy, everything durable. What passes through your hands leaves better organized, and what stays becomes quietly excellent.",
+    "k2_functional": {
+      "mind": "You think in maintenance schedules: what needs truing before it breaks.",
+      "expression": "You speak in accurate commitments: dates kept, numbers exact, words engraved.",
+      "bonds": "You keep people the way you keep good tools: carefully, long, with respect.",
+      "action": "You execute with clean precision: zero waste, nothing reworked, every screw accounted for.",
+      "body": "Your health runs on maintenance: tuned habits, regular checks, quality inputs."
+    },
+    "k2_domain_readings": {
+      "Wealth": "Your wealth is machined: earned exactly, kept polished, compounded without drama. You will never be flashy and never be broke. Invest in quality that holds its edge, including your own skills.",
+      "Savings": "You save like an armorer: reserves as protection, kept bright and counted. The vault serves the life, so define what it defends, and spend without guilt inside those lines.",
+      "Steady love": "You love in maintained condition: reliability, kept promises, care with no rust on it. Choose someone who values upkeep, then schedule delight as faithfully as inspections."
+    },
     "k2_card": {
       "face": null,
       "persona": null,

@@ -8,53 +8,53 @@
 
 | Archetype | Key | Value |
 |---|---|---|
-| **The Twin** | 金_比肩 | *(unauthored)* |
-| **The Rival** | 金_劫财 | *(unauthored)* |
-| **The Artisan** | 金_食神 | *(unauthored)* |
-| **The Virtuoso** | 金_伤官 | *(unauthored)* |
-| **The Horizon** | 金_偏财 | *(unauthored)* |
-| **The Steward** | 金_正财 | *(unauthored)* |
-| **The General** | 金_七杀 | *(unauthored)* |
-| **The Magistrate** | 金_正官 | *(unauthored)* |
-| **The Alchemist** | 金_偏印 | *(unauthored)* |
-| **The Sage** | 金_正印 | *(unauthored)* |
-| **The Twin** | 土_比肩 | *(unauthored)* |
-| **The Rival** | 土_劫财 | *(unauthored)* |
-| **The Artisan** | 土_食神 | *(unauthored)* |
-| **The Virtuoso** | 土_伤官 | *(unauthored)* |
-| **The Horizon** | 土_偏财 | *(unauthored)* |
-| **The Steward** | 土_正财 | *(unauthored)* |
-| **The General** | 土_七杀 | *(unauthored)* |
-| **The Magistrate** | 土_正官 | *(unauthored)* |
+| **The Twin** | 金_比肩 | Your Metal moves as the Twin: a standing force that meets the world edge-first and equal. Nothing about you waits for permission. You hold your line the way a blade holds its shape, and you respect exactly the people who hold theirs. Company, for you, is two swords in one sheath: close, parallel, never fused. |
+| **The Rival** | 金_劫财 | Your Metal moves as the Rival: an edge that sharpens against other edges. Competition wakes you up, stakes clarify you, and you cut boldest when something real is on the table. Money and metal both change hands fast around you. The trick of your life is dueling without wounding, and betting without handing over the sword. |
+| **The Artisan** | 金_食神 | Your Metal moves as the Artisan: an edge that makes beautiful, useful things instead of wounds. Craft flows out of you calmly, finished on the first pass more often than seems fair. You feed people with precision, the perfectly chosen gift, the exact right word, and your pleasure runs quiet and specific. |
+| **The Virtuoso** | 金_伤官 | Your Metal moves as the Virtuoso: an edge that performs. You cut with style, argue like a fencing match, and produce work so sharp it draws blood and applause in the same stroke. Standards bore you unless you set them. Authority irritates you unless it earned itself. The world calls it attitude. It is precision refusing dullness. |
+| **The Horizon** | 金_偏财 | Your Metal moves as the Horizon: an edge pointed outward. You mint opportunity, spotting value with an assayer’s eye and striking while metal is hot. Deals sharpen you, markets read like open books, and money is a tool you handle without trembling. Fortune favors your precision. Fence one treasury it cannot touch. |
+| **The Steward** | 金_正财 | Your Metal moves as the Steward: an edge in service of what it keeps. You maintain value with a craftsman’s discipline, tools oiled, accounts true, promises weighed before signing. Nothing gaudy, everything durable. What passes through your hands leaves better organized, and what stays becomes quietly excellent. |
+| **The General** | 金_七杀 | Your Metal moves as the General: edge given rank. Pressure organizes you, crisis promotes you, and your will cuts through what committees cannot. This is the sword in its born office, decisive, disciplined, feared a little and needed often. Command the campaigns worth blood. Sheathe everywhere else. |
+| **The Magistrate** | 金_正官 | Your Metal moves as the Magistrate: the law in its own element. Rules read to you like well-machined parts, and you keep them because precision deserves keeping. Rank finds you early, trust follows, and your signature means something. The discipline is real steel. Just check, yearly, that the code you enforce is still one you believe. |
+| **The Alchemist** | 金_偏印 | Your Metal moves as the Alchemist: a mind that refines. You take raw knowledge and smelt it, testing claims, discarding slag, keeping only what rings true when struck. Your insight is assay-grade and arrives in solitude. Share the refined ingots. The lonely part of the craft is the furnace, not the life. |
+| **The Sage** | 金_正印 | Your Metal moves as the Sage: tempered care, nurture with a fine edge of standards. You were shaped by teachings that held you to something, and you shelter others the same way, protection that also sharpens. Knowledge in your keeping stays true. Let some care through unpolished. Warmth needs no proofing. |
+| **The Twin** | 土_比肩 | Your Earth moves as the Twin: ground that holds its own plot beside everyone else’s. You are the neighbor with the straight fence, generous across it, immovable about where it runs. Belonging matters to you, but merger does not. You stand with people the way hills stand in a range: together, and entirely yourselves. |
+| **The Rival** | 土_劫财 | Your Earth moves as the Rival: ground that expands by wager. You bet acreage where others bet coins, patient about the campaign, bold about the claim. Shared land, family stakes, and joint holdings follow you through life. You win them by daring and keep them by the paperwork you almost skipped. |
+| **The Artisan** | 土_食神 | Your Earth moves as the Artisan: ground that sets a table. Nourishment is your native act, the meal made, the household provisioned, the comfort arranged before anyone asked. You produce abundance the way fields do, reliably and without spectacle. People leave your care fed in ways they cannot fully name. |
+| **The Virtuoso** | 土_伤官 | Your Earth moves as the Virtuoso: ground that refuses to stay flat. You produce solid, startling things, the building nobody zoned, the old order reimagined from bedrock. Your rebellion wears work boots. It shows up early, builds the alternative, and lets the results argue. Slow genius, permanent output. |
+| **The Horizon** | 土_偏财 | Your Earth moves as the Horizon: ground that acquires. You accumulate opportunity the way land accumulates value, steadily, tangibly, with paperwork. Your ventures have foundations, your windfalls become holdings, and your generosity comes deeded. Fortune trusts you because you give it somewhere to live. |
+| **The Steward** | 土_正财 | Your Earth moves as the Steward: ground that keeps. This is stewardship in its home element, doubled: holdings maintained, households provisioned, value settled into soil. What enters your care appreciates. The risk is weight for its own sake. Keep the estate serving the family, not the family serving the estate. |
+| **The General** | 土_七杀 | Your Earth moves as the General: mass mobilized. Your authority is siege-grade, patient, inevitable, built of logistics and will. You do not charge. You surround, supply, and wait, and what you press eventually yields. People obey your stillness more than others’ shouting. Use that gravity on real fortresses. |
+| **The Magistrate** | 土_正官 | Your Earth moves as the Magistrate: bedrock law, order with geological patience. You hold standards the way mountains hold borders, unmoved, unhurried, outlasting every argument. Institutions rest on people like you. The honor is real and so is the load. Survey what you carry, and set down the duties that were never yours. |
 | **The Alchemist** | 土_偏印 | Your Earth carries the Alchemist’s current: nourishment that arrives as understanding rather than comfort. This is ground that reads before it feeds, soil that turns experience over slowly until it becomes insight. It shelters you the way a library shelters, quiet, stocked, slightly apart, and it asks one rent: time alone to do the turning. |
-| **The Sage** | 土_正印 | *(unauthored)* |
-| **The Twin** | 木_比肩 | *(unauthored)* |
-| **The Rival** | 木_劫财 | *(unauthored)* |
-| **The Artisan** | 木_食神 | *(unauthored)* |
-| **The Virtuoso** | 木_伤官 | *(unauthored)* |
-| **The Horizon** | 木_偏财 | *(unauthored)* |
-| **The Steward** | 木_正财 | *(unauthored)* |
-| **The General** | 木_七杀 | *(unauthored)* |
-| **The Magistrate** | 木_正官 | *(unauthored)* |
-| **The Alchemist** | 木_偏印 | *(unauthored)* |
-| **The Sage** | 木_正印 | *(unauthored)* |
-| **The Twin** | 水_比肩 | *(unauthored)* |
-| **The Rival** | 水_劫财 | *(unauthored)* |
-| **The Artisan** | 水_食神 | *(unauthored)* |
-| **The Virtuoso** | 水_伤官 | *(unauthored)* |
-| **The Horizon** | 水_偏财 | *(unauthored)* |
-| **The Steward** | 水_正财 | *(unauthored)* |
-| **The General** | 水_七杀 | *(unauthored)* |
-| **The Magistrate** | 水_正官 | *(unauthored)* |
-| **The Alchemist** | 水_偏印 | *(unauthored)* |
-| **The Sage** | 水_正印 | *(unauthored)* |
-| **The Twin** | 火_比肩 | *(unauthored)* |
-| **The Rival** | 火_劫财 | *(unauthored)* |
-| **The Artisan** | 火_食神 | *(unauthored)* |
-| **The Virtuoso** | 火_伤官 | *(unauthored)* |
-| **The Horizon** | 火_偏财 | *(unauthored)* |
-| **The Steward** | 火_正财 | *(unauthored)* |
-| **The General** | 火_七杀 | *(unauthored)* |
-| **The Magistrate** | 火_正官 | *(unauthored)* |
-| **The Alchemist** | 火_偏印 | *(unauthored)* |
-| **The Sage** | 火_正印 | *(unauthored)* |
+| **The Sage** | 土_正印 | Your Earth moves as the Sage: mother ground, nurture in its home element, doubled. You hold people the way land holds houses, unconditionally, for generations, without once mentioning the load. Wisdom settles in you and stays. The whole village builds on your patience. Somewhere in the acreage, keep a field that feeds only you. |
+| **The Twin** | 木_比肩 | Your Wood moves as the Twin: growth that stands beside others without leaning on them. You rise the way two trees share a hillside, close enough to shelter each other, rooted enough to stand alone. Ambition, for you, is upward and personal. You measure yourself against your own last season, and quietly against the tree beside you. |
+| **The Rival** | 木_劫财 | Your Wood moves as the Rival: growth that races the grove. Another’s success reads to you as proof of reachable height, and it pulls you upward faster than any plan. You share ground generously and compete on it constantly. Handled well, that doubles every harvest. Handled loosely, the roots start strangling. |
+| **The Artisan** | 木_食神 | Your Wood moves as the Artisan: growth that fruits. Everything you tend produces, gardens, projects, people, and the producing feels less like work than like season. You nourish by cultivating: patient feeding, honest pruning, harvests shared at the fence. Your gift ripens on its own schedule. Respect the schedule. |
+| **The Virtuoso** | 木_伤官 | Your Wood moves as the Virtuoso: growth that will not stay trellised. You branch where the plan said hedge, flower out of season, and produce originality the way forests produce spring, excessively and without apology. Every constraint reads as a suggestion. Your best work grows exactly where they told you nothing could. |
+| **The Horizon** | 木_偏财 | Your Wood moves as the Horizon: growth that reaches for distant light. Opportunity, for you, is territory: new markets, new cities, branches extended where no one from home has grown. You expand naturally and prune reluctantly. Fortune arrives through the reaching. Roots decide how much of it you keep. |
+| **The Steward** | 木_正财 | Your Wood moves as the Steward: growth banked in rings. You build worth the way orchards do, planted early, tended patiently, harvested honestly, replanted always. Assets in your care grow. So do people. Your fortune is cumulative and alive, and it rewards the seasons you refuse to rush. |
+| **The General** | 木_七杀 | Your Wood moves as the General: growth under discipline. Your ambition climbs like bamboo, fast, segmented, unstoppable, turning pressure into height. You command by growing first, taking the arrows meant for everyone behind you. Just remember trees also bend. The rigid campaign is the one that snaps. |
+| **The Magistrate** | 木_正官 | Your Wood moves as the Magistrate: living order that grows. You build careers and codes like trellises, principled frames that help everything on them climb. Authority suits you when it nurtures. People accept your rules because your rules have leaves. Prune the dead ones each season and the frame stays believed in. |
+| **The Alchemist** | 木_偏印 | Your Wood moves as the Alchemist: knowledge grown rather than gathered. Understanding grafts onto you slowly and lives, ideas cross-pollinating in ways textbooks never planned. Your learning is a garden with strange hybrids. Tend it privately as you must, then let people taste the fruit. It is stranger and better than you think. |
+| **The Sage** | 木_正印 | Your Wood moves as the Sage: living shelter, the teaching tree. Care in you grows canopies, patience wide enough for slow learners, roots that hold ground for whole families. What you know, you plant in people. It is the gentlest power in the system. Just keep one sunny patch that grows things purely for you. |
+| **The Twin** | 水_比肩 | Your Water moves as the Twin: a current that keeps its own channel while running beside others. You match people without merging into them, fluent in company, private in depth. Two rivers to the same sea is your model of friendship: shared direction, separate water, and no argument about whose current is whose. |
+| **The Rival** | 水_劫财 | Your Water moves as the Rival: current that races current. You compete the way tides do, quietly, continuously, gaining by inches that look like accidents. Shared flows suit you: pooled funds, joint journeys, split winnings. Just remember that merged water is hard to unmix. Mark what is yours before the confluence. |
+| **The Artisan** | 水_食神 | Your Water moves as the Artisan: a spring that feeds everything downstream. Your output flows, words, ideas, comfort, care, without visible effort, and people drink from it more than you notice. You nourish by permeating: the right thing said gently, the mood eased, the story that waters a dry week. |
+| **The Virtuoso** | 水_伤官 | Your Water moves as the Virtuoso: a current too clever for its banks. You express in floods of insight, subversive, fluid, impossible to police, the writer between the lines, the wit that erodes pomposity by morning. Nothing contains you long. The art is choosing what your torrent carves next. |
+| **The Horizon** | 水_偏财 | Your Water moves as the Horizon: current that finds every sea. Opportunity reaches you through flow, conversations, crossings, currents of information arriving before the news does. Your fortune is distributive: many streams, wide deltas, wealth that moves. Dam a portion. Deltas are rich and hard to hold. |
+| **The Steward** | 水_正财 | Your Water moves as the Steward: current disciplined into irrigation. You manage flows, income streams, schedules, family logistics, with the calm of a well-run canal. Nothing floods, nothing dries. It is unglamorous mastery, and every life around you runs smoother because your channels hold. |
+| **The General** | 水_七杀 | Your Water moves as the General: force that arrives as tide. You command indirectly, positioning, timing, the pressure of inevitability, and opponents find themselves outflanked by someone who never raised a voice. Strategy is your sword arm. The deep game, played patiently, with the current doing the marching. |
+| **The Magistrate** | 水_正官 | Your Water moves as the Magistrate: navigable law, order that flows. You govern the way good rivers govern valleys, setting course without shouting, adjusting to terrain while staying a river. Your rules bend around cases and still arrive at the sea. It is the subtlest authority, and people obey it thinking they chose to. |
+| **The Alchemist** | 水_偏印 | Your Water moves as the Alchemist: depth studying itself. Knowledge does not sit in you, it dissolves, becoming a dark solution where fields merge and strange clarities precipitate. You understand what people have not said yet. The depth is real and isolating. Surface on a schedule, carrying one crystal at a time. |
+| **The Sage** | 水_正印 | Your Water moves as the Sage: the source spring, nourishment that never announces itself. Care flows from you the way aquifers feed valleys, invisibly, constantly, taken for granted precisely because it never fails. You absorb others’ storms and hand back calm. Watch your own water table. Springs fail silently first. |
+| **The Twin** | 火_比肩 | Your Fire moves as the Twin: a flame that burns on its own fuel and stands level with every other light. You warm a gathering without needing to lead it, and you bristle when anyone tries to carry you. Two torches burn brighter side by side. That is your theory of company, and mostly it works. |
+| **The Rival** | 火_劫财 | Your Fire moves as the Rival: flame that leaps between torches. You catch ambition from the people around you and pass yours back doubled, the most contagious energy in any gathering. Stakes make you luminous. The same draft that spreads your fire can spread it thin, so choose which blazes are actually yours. |
+| **The Artisan** | 火_食神 | Your Fire moves as the Artisan: warmth that cooks instead of burns. You turn heat into hospitality, talent into entertainment, an ordinary evening into something people retell for years. Pleasure is your medium and generosity your technique. The feast only fails when the cook forgets to eat. |
+| **The Virtuoso** | 火_伤官 | Your Fire moves as the Virtuoso: light that must be seen. You are the flare, the show, the opinion that ignites the whole street, talent with a spotlight built in. Attention comes to you like oxygen and behaves like it too. Managed, you illuminate everything. Unmanaged, you are magnificent arson. |
+| **The Horizon** | 火_偏财 | Your Fire moves as the Horizon: light that spends itself gladly. Opportunity finds you at gatherings, luck likes your laugh, and money arrives in blazes and leaves by the same door. You are fortune’s favorite dinner guest. Learn to pocket the bread, and the feast never really ends. |
+| **The Steward** | 火_正财 | Your Fire moves as the Steward: a hearth, not a bonfire. You keep warmth the way households keep flame, fed regularly, banked at night, never wasted on show. Your providing glows: steady income, warm table, festivals on schedule. It is the rarest fire, the kind that lasts. |
+| **The General** | 火_七杀 | Your Fire moves as the General: heat weaponized into will. You command like a charge, blazing conviction that armies of ordinary people find themselves following. Crisis makes you luminous. Peacetime makes you dangerous to furniture. Aim the cannon, always. Unaimed, this much fire tests every relationship it warms. |
+| **The Magistrate** | 火_正官 | Your Fire moves as the Magistrate: civic light, authority that illuminates. You carry rules the way lighthouses carry flame, visibly, warmly, for everyone’s navigation. People follow your lead because it brightens rather than binds. Office becomes you. Keep the light public and tended, and rank will keep arriving on its own. |
+| **The Alchemist** | 火_偏印 | Your Fire moves as the Alchemist: illumination in a closed vessel. Your insight comes in flashes, sudden clarity that lights a whole cavern, then dims while you sketch what you saw. You understand things sideways, by vision rather than proof. Keep notebooks. The flashes are real, and unrecorded lightning teaches no one. |
+| **The Sage** | 火_正印 | Your Fire moves as the Sage: hearth-wisdom, knowledge kept warm for others. You learned at somebody’s fireside, or built the fireside you never had, and now people gather at yours, fed soup and stories and courage. Your teaching glows rather than lectures. Keep logs aside for your own cold nights too. |

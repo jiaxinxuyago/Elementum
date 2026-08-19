@@ -316,15 +316,9 @@ function fullManifesto(card) {
 
 // ── element reading screen data (ELD equivalent, templatized) ──────
 // §6b rulings: representation word = the §4 keyword ("The General · FORCE");
-// verdLab/verdict normalized to the SEEK/SKIP register; mean/hook/tag are
-// element-generic interim lines pending the 50-cell pass (§6b item 6).
-const MEAN = {
-  fire: 'The room is different before you speak. Warmth as climate, light that changes what it touches.',
-  water: 'Reads before being told. Knows before the question is complete.',
-  wood: 'Building before knowing what it will become. Growth as architecture.',
-  earth: 'Load-bearing without announcement. The ground others build on.',
-  metal: 'The conclusion arrives before the conversation. The standard runs first.',
-};
+// verdLab/verdict normalized to the SEEK/SKIP register; hook/tag remain
+// element-generic interim lines (§6b item 6). The interim mean line is
+// RETIRED (2026-08-19): the K2 overview owns the slot, corpus ×50.
 
 export function buildElementScreen(model, el) {
   const r = model.byEl[el];
@@ -384,7 +378,7 @@ export function buildElementScreen(model, el) {
     pig: `var(--${el})`, deep: `var(--${el}Deep)`,
     reye, roleTx, roleKind,
     title: r.hook || `${r.keyword} — your ${r.relation}`, tag: r.tag,
-    verdLab, verdict, mean: MEAN[el] || '',
+    verdLab, verdict,
     face: `${r.persona} · ${r.keyword.toUpperCase()}`,
     kw: r.faceKw, teaser: r.teaser,
     selfCard, law,

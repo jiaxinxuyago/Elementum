@@ -12,9 +12,19 @@
   "candidates": {
     "structural_interaction": "Warmth meeting warmth cross-polarity — presence competing with presence",
     "dm_element": "Fire",
-    "k2_overview": null,
-    "k2_functional": null,
-    "k2_domain_readings": null,
+    "k2_overview": "Your Fire moves as the Rival: flame that leaps between torches. You catch ambition from the people around you and pass yours back doubled, the most contagious energy in any gathering. Stakes make you luminous. The same draft that spreads your fire can spread it thin, so choose which blazes are actually yours.",
+    "k2_functional": {
+      "mind": "You think in surges: ideas arrive lit, borrowed sparks included, and sorting comes later.",
+      "expression": "You talk people into things, including yourself. Enthusiasm is your native tongue.",
+      "bonds": "Your friendships run hot and competitive: shared adventures, traded dares, occasional burns.",
+      "action": "You move fastest in a pack with a prize. Solo marathons dim you.",
+      "body": "Your energy flares with company and stakes, then needs true dark to recover."
+    },
+    "k2_domain_readings": {
+      "Rivalry": "Your rivals are accelerants: nothing focuses your flame like a nearby blaze. Keep rivalry ritual, races and games and friendly scoreboards, so the heat builds camaraderie instead of ash.",
+      "Shared stakes": "You fund and join easily, splitting bills and risks in the same warm gesture. Enthusiasm signs faster than judgment reads. Let every shared blaze get one cold morning review before you pour fuel.",
+      "Boldness": "Your boldness ignites others, which multiplies its consequences. Lead the charges worth leading. A spark that picks its tinder builds bonfires. One that does not builds regrets."
+    },
     "k2_card": {
       "face": null,
       "persona": null,

@@ -12,9 +12,19 @@
   "candidates": {
     "structural_interaction": "Water generating Wood same-polarity — depth as nourishing source of reach",
     "dm_element": "Wood",
-    "k2_overview": null,
-    "k2_functional": null,
-    "k2_domain_readings": null,
+    "k2_overview": "Your Water moves as the Alchemist: depth studying itself. Knowledge does not sit in you, it dissolves, becoming a dark solution where fields merge and strange clarities precipitate. You understand what people have not said yet. The depth is real and isolating. Surface on a schedule, carrying one crystal at a time.",
+    "k2_functional": {
+      "mind": "You think in solution: everything dissolved together until the pattern precipitates.",
+      "expression": "You surface rarely with words: distilled, unsettling, accurate.",
+      "bonds": "You know people at depth: their undercurrents legible, your own kept dark.",
+      "action": "You act from the deep read: moves that seem sudden and were years in solution.",
+      "body": "Your body is tidal: rhythms of immersion and surfacing, drained by shallow noise."
+    },
+    "k2_domain_readings": {
+      "Learning": "You learn by immersion: total absorption until a field saturates and understanding crystallizes whole. Interrupted immersion loses everything, so defend the deep dives. Come up between them.",
+      "Intuition": "Your intuition is sonar: reading what moves beneath speech, sensing the shape of the unsaid. It is uncannily accurate about people. Verify before acting. Sonar shows shape, never color.",
+      "Solitude": "Your solitude is the deep itself: home pressure, true thinking depth. The danger is forgetting the surface has weather worth feeling. Schedule the ascent. Bring someone a pearl."
+    },
     "k2_card": {
       "face": null,
       "persona": null,

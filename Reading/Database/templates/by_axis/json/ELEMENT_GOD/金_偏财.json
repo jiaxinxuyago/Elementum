@@ -12,9 +12,19 @@
   "candidates": {
     "structural_interaction": "Fire directing Metal broadly — warmth applied to precision as distributed material",
     "dm_element": "Fire",
-    "k2_overview": null,
-    "k2_functional": null,
-    "k2_domain_readings": null,
+    "k2_overview": "Your Metal moves as the Horizon: an edge pointed outward. You mint opportunity, spotting value with an assayer’s eye and striking while metal is hot. Deals sharpen you, markets read like open books, and money is a tool you handle without trembling. Fortune favors your precision. Fence one treasury it cannot touch.",
+    "k2_functional": {
+      "mind": "You think in valuations: what this is worth, to whom, and when the price moves.",
+      "expression": "You pitch cleanly: terms polished, numbers ready, a handshake worth filing.",
+      "bonds": "Your circle is a mint of contacts: precise relationships, mutual value, genuine respect.",
+      "action": "You strike opportunities with timing others envy: measured approach, decisive cut.",
+      "body": "Your energy is transactional and crisp: peaks in negotiations, restored by order."
+    },
+    "k2_domain_readings": {
+      "Opportunity": "You see openings as clearly as flaws in ore: the undervalued asset, the mispriced moment. Trust the eye and audit the appetite. Two ventures cut deep beat ten scratched shallow.",
+      "Ventures": "Your ventures favor precision plays: quality arbitrage, timing trades, craft turned to commerce. Structure each like a blade, defined edge, clean handle, known length, and your record stays enviable.",
+      "Father": "The father-thread in your chart carries metal: a paternal figure of standards, trade, or discipline whose mark shows in how you value things. Settle those accounts. Honor or forgiveness both count as payment."
+    },
     "k2_card": {
       "face": null,
       "persona": null,

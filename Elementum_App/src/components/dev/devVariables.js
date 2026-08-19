@@ -96,15 +96,15 @@ export function buildVariableGroups(model, activeEl, chart) {
         { name: 'face_kw', axis: 'GOD×10', arch: focusGodArch, status: 'LIVE', value: focusGod ? (FACE_CARD[focusGod]?.kw || []).join(' · ') : null },
         { name: 'face_teaser', axis: 'GOD×10', arch: focusGodArch, status: 'LIVE ⚠R5 scope', value: focusGod ? FACE_CARD[focusGod]?.teaser : null },
         { name: 'energy_tile_hook / tag', axis: '→ EL·GOD×50', arch: focusElGodArch, status: 'INTERIM 庚-gated', value: focus ? (focus.hook || '(fallback)') : perEl((r) => r.hook || '(fallback)') },
-        { name: 'mean_line', axis: 'ELEMENT×5 interim', arch: 'all ×5', status: 'INTERIM · UNSURFACED (consolidated into How-it-moves 2026-08-19; K2 overview owns the slot)', value: 'element-generic — no longer rendered' },
       ],
     },
     {
-      surface: 'Deep pages (PLANNED — the K2 corpus)',
+      surface: 'Deep pages (the element-god depth corpus)',
       vars: [
-        { name: 'k2_energy_card ×50', axis: 'ELEMENT·GOD ×registers', arch: focusElGodArch, status: 'PLANNED 0/50', value: 'face · persona · chips · rulingDomain · registers{dominant,absent}' },
-        { name: 'palace_frames ×7', axis: 'POSITION', arch: 'all ×7', status: 'PLANNED', value: null },
-        { name: 'tpl_presence_frames / cycle_line / rx_ribbon / pattern_conclusion', axis: 'T', status: 'PLANNED', value: null },
+        { name: 'k2_overview + k2_functional ×5 + k2_domain_readings', axis: 'ELEMENT·GOD ×50', arch: focusElGodArch, status: 'LOCKED ×50 (2026-08-19; readings Seeker-gated)', value: 'overview 40–70w · Mind/Expression/Bonds/Action/Body ≤22w · per-domain 18–55w' },
+        { name: 'position term + defline + reading', axis: 'POSITION ×70 (god×slot)', arch: 'god × gate·slot', status: 'LOCKED ×70 (energy-card seats accordion; P5 = index)', value: null },
+        { name: 'k2_energy_card registers (v2.1 faces)', axis: 'ELEMENT·GOD ×registers', arch: focusElGodArch, status: 'PLANNED', value: 'face · persona · chips · rulingDomain · registers{dominant,absent}' },
+        { name: 'tpl_presence_frames / rx_ribbon / pattern_conclusion', axis: 'T', status: 'PLANNED', value: null },
       ],
     },
   ];

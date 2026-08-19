@@ -12,9 +12,19 @@
   "candidates": {
     "structural_interaction": "Wood directing Earth cross-polarity — reach shaping stability into structured cultivation",
     "dm_element": "Wood",
-    "k2_overview": null,
-    "k2_functional": null,
-    "k2_domain_readings": null,
+    "k2_overview": "Your Earth moves as the Steward: ground that keeps. This is stewardship in its home element, doubled: holdings maintained, households provisioned, value settled into soil. What enters your care appreciates. The risk is weight for its own sake. Keep the estate serving the family, not the family serving the estate.",
+    "k2_functional": {
+      "mind": "You think in inventory and upkeep: what is held, what it needs, what it is for.",
+      "expression": "You commit in cornerstones: few words, permanent.",
+      "bonds": "You hold people with land-deep loyalty: slow to accept, never letting go.",
+      "action": "You maintain relentlessly: the fixed fence, the paid tax, the kept schedule.",
+      "body": "Your health is a homestead: solid while kept up, creaky when routine slips."
+    },
+    "k2_domain_readings": {
+      "Wealth": "Your wealth is literal ground: property, durables, enterprises with deeds. In your element, holdings hold. Diversify just enough that one bad season cannot take the whole farm.",
+      "Savings": "You save geologically: layers on layers, bedrock reserves. The craft is knowing enough. Set the number, then let the surplus fund life above ground.",
+      "Steady love": "You love in permanence: home built, name shared, decades assumed. It is the marrying ground itself. Bring the assumption out loud sometimes. Even bedrock likes being chosen again."
+    },
     "k2_card": {
       "face": null,
       "persona": null,

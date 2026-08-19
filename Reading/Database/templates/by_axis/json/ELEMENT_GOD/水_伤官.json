@@ -12,9 +12,19 @@
   "candidates": {
     "structural_interaction": "Metal generating Water cross-polarity — precision producing depth that exceeds its container",
     "dm_element": "Metal",
-    "k2_overview": null,
-    "k2_functional": null,
-    "k2_domain_readings": null,
+    "k2_overview": "Your Water moves as the Virtuoso: a current too clever for its banks. You express in floods of insight, subversive, fluid, impossible to police, the writer between the lines, the wit that erodes pomposity by morning. Nothing contains you long. The art is choosing what your torrent carves next.",
+    "k2_functional": {
+      "mind": "You think around things: under rules, past assumptions, arriving where logic swims later.",
+      "expression": "Your expression flows subversive and quotable, satire and insight braided into one current.",
+      "bonds": "You charm in ripples and test with depths. Minds that swim keep you.",
+      "action": "You erode obstacles rather than storming them: patient, fluid, suddenly through.",
+      "body": "Your energy is tidal and cerebral: brilliant tides, murky lows, cleared by moving water."
+    },
+    "k2_domain_readings": {
+      "Talent": "Your talent is fluid genius: writing, strategy, humor, any craft where thought must flow around form. It resists containers and needs them. Choose loose ones, essays, seasons, series, and pour.",
+      "Performance": "You perform by currents: the essay that spreads, the remark that travels. Your stage is wherever words flow. Publish more, polish less. Rivers are judged by movement, not by stillness.",
+      "Defiance": "Your defiance dissolves things: authority mocked into smallness, rules outlived rather than fought. It is elegant and it accumulates enemies slowly. Now and then, defend something openly. It sweetens the water."
+    },
     "k2_card": {
       "face": null,
       "persona": null,

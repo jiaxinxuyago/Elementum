@@ -12,9 +12,19 @@
   "candidates": {
     "structural_interaction": "Earth setting standard for Water cross-polarity — containment asking whether depth has form",
     "dm_element": "Water",
-    "k2_overview": null,
-    "k2_functional": null,
-    "k2_domain_readings": null,
+    "k2_overview": "Your Earth moves as the Magistrate: bedrock law, order with geological patience. You hold standards the way mountains hold borders, unmoved, unhurried, outlasting every argument. Institutions rest on people like you. The honor is real and so is the load. Survey what you carry, and set down the duties that were never yours.",
+    "k2_functional": {
+      "mind": "You think in precedent and foundation: what has held, what will keep holding.",
+      "expression": "You rule in plain stone: few words, level, final.",
+      "bonds": "You anchor your people: the steady one every crisis phones first.",
+      "action": "You keep order by bearing it: reliable weight, terms served fully.",
+      "body": "Your health is load-bearing: strong under routine, needing the pack taken off some days."
+    },
+    "k2_domain_readings": {
+      "Career": "Your career is foundation work: operations, governance, the roles that hold everything up. Advancement comes as accumulated trust. Claim the title when it is due. Bedrock underasks.",
+      "Status": "Your standing is landmark-grade: slow to build, nearly impossible to erode. People locate themselves by you. Accept the monument quietly and stay reachable at ground level.",
+      "Order": "Your order is settled ground: rules that feel less like commands than terrain. Things stay where you put them. Walk the fences yearly. Even terrain shifts, and you shift last."
+    },
     "k2_card": {
       "face": null,
       "persona": null,
