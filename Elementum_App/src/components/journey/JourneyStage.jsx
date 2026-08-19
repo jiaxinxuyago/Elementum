@@ -24,7 +24,6 @@ import { STEM_CARD_DATA } from '../../content/index.js';
 import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
 import { APP_URL } from '../../infra/index.js';
 import { buildJourneyModel, buildElementScreen, buildGlossary } from './journeyData.js';
-import { FEEDS, TAMES, CYCLE_LINE } from '../../content/cycles.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
 
@@ -61,7 +60,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   const cardStatusT = useRef(null);
   const [insOpen, setInsOpen] = useState(null);    // inscription line unfold
   const [fnOpen, setFnOpen] = useState(null);      // footnote float (cond|cat|fric)
-  const [cycOpen, setCycOpen] = useState(null);    // cycle edge pop {a, b, verb}
   const [folioOpen, setFolioOpen] = useState(false);
   const [toast, setToast] = useState(null);
 
@@ -348,42 +346,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   const condIcon = m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged';
   const fnNote = fnOpen ? glossary[fnOpen] : null;
 
-  // ── the cycle layer (REA_02 §5d) — 生 rim arrows + 克 pentagram chords.
-  // Seats are cycle-ordered (journeyData FAMILY_SEAT), so feeds-edges are
-  // always adjacent seats and tames-edges are always the star chords.
-  const cycC = { x: 156.4, y: 146 };
-  const cycPos = {};
-  m.els.forEach((r) => { cycPos[r.el] = { x: r.seat.left + r.size / 2, y: r.seat.top + r.size / 2, rr: r.size / 2 }; });
-  const cycEdge = (a, b, verb) => {
-    const A = cycPos[a]; const B = cycPos[b];
-    const dx = B.x - A.x; const dy = B.y - A.y; const L = Math.hypot(dx, dy) || 1;
-    const ax = A.x + (dx / L) * (A.rr + 8); const ay = A.y + (dy / L) * (A.rr + 8);
-    const bx = B.x - (dx / L) * (B.rr + 12); const by = B.y - (dy / L) * (B.rr + 12);
-    let d;
-    if (verb === 'feeds') {
-      const mx = (ax + bx) / 2; const my = (ay + by) / 2;
-      let ox = mx - cycC.x; let oy = my - cycC.y;
-      const ol = Math.hypot(ox, oy) || 1; ox /= ol; oy /= ol;
-      d = `M ${ax.toFixed(1)} ${ay.toFixed(1)} Q ${(mx + ox * 30).toFixed(1)} ${(my + oy * 30).toFixed(1)} ${bx.toFixed(1)} ${by.toFixed(1)}`;
-    } else {
-      d = `M ${ax.toFixed(1)} ${ay.toFixed(1)} L ${bx.toFixed(1)} ${by.toFixed(1)}`;
-    }
-    return { a, b, verb, d };
-  };
-  const cycEdges = [
-    ...Object.entries(TAMES).map(([a, b]) => cycEdge(a, b, 'tames')),
-    ...Object.entries(FEEDS).map(([a, b]) => cycEdge(a, b, 'feeds')),
-  ];
-  // pop content: equation + image line + (core edge) the seat derivation
-  const cyc = cycOpen ? (() => {
-    const { a, b, verb } = cycOpen;
-    const An = m.byEl[a].name; const Bn = m.byEl[b].name;
-    const img = CYCLE_LINE[`${a}>${b}`] || '';
-    const other = a === m.core.el ? b : b === m.core.el ? a : null;
-    const deriv = other ? `In your chart, that is why ${m.byEl[other].name} is your ${m.byEl[other].relation}.` : null;
-    return { a, An, Bn, verb, img: img ? img.charAt(0).toUpperCase() + img.slice(1) : '', deriv };
-  })() : null;
-
   return (
     <div className="jny jphone" data-css="phoneP" data-grand="v1" data-ca="dock" data-journey="compass" data-art="bloom">
       <span style={{ display: 'none' }} dangerouslySetInnerHTML={{ __html: `<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>${JOURNEY_DEFS}</defs></svg>` }} />
@@ -446,27 +408,8 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
 
                 <div className="beat" data-beat="2">
                   <span className="sec-eyebrow">YOUR FIVE ENERGIES</span>
-                  <div className="wheel" ref={wheelRef} aria-label="The cycle wheel — tap any energy to open its reading, or an arrow to learn the relation">
+                  <div className="wheel" ref={wheelRef} aria-label="Dominance wheel — tap any energy to open its reading">
                     <button className={centerCls} style={{ backgroundImage: `url('${centerSrc}')` }} aria-label="The Day Master seal — open your identity card" onClick={() => setShowShare(true)} />
-                    {/* the cycle layer: 生 rim arrows (solid bronze) + 克 chords (dashed ink) */}
-                    <svg className="cyc-svg" viewBox="0 0 320 300" aria-hidden="true">
-                      <defs>
-                        <marker id="cyc-ah-feed" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-                          <path d="M 0.6 0.8 L 7 4 L 0.6 7.2 Z" fill="var(--bronzeDark)" />
-                        </marker>
-                        <marker id="cyc-ah-tame" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-                          <path d="M 0.6 0.8 L 7 4 L 0.6 7.2 Z" fill="#6d675c" />
-                        </marker>
-                      </defs>
-                      {cycEdges.map((e) => (
-                        <path key={`${e.a}-${e.b}`} className={e.verb === 'feeds' ? 'cyc-feed' : 'cyc-tame'} d={e.d} markerEnd={`url(#cyc-ah-${e.verb === 'feeds' ? 'feed' : 'tame'})`} />
-                      ))}
-                      {cycEdges.map((e) => (
-                        <path key={`hit-${e.a}-${e.b}`} className="cyc-hit" d={e.d} role="button" tabIndex={0}
-                          aria-label={`${m.byEl[e.a].name} ${e.verb} ${m.byEl[e.b].name} — learn this relation`}
-                          onClick={() => setCycOpen({ a: e.a, b: e.b, verb: e.verb })} />
-                      ))}
-                    </svg>
                     {m.els.map((r) => (
                       <button key={r.el} data-el={r.el}
                         className={`node n-${r.el}${r.isCore ? ' is-core' : ''}`}
@@ -670,34 +613,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
         </div>
         <div className={`wip${toast ? ' show' : ''}`}>{toast || ''}</div>
       </div>
-      {/* the cycle-edge sheet — equation + image line + seat derivation */}
-      {cyc && (
-        <div className="wordpop open" role="presentation">
-          <div className="wp-scrim" onClick={() => setCycOpen(null)} />
-          <div className="wp-sheet" role="dialog" aria-label="The cycle of energies">
-            <div className="wp-band">
-              <span className="wp-wm"><Use id={`el-${cyc.a}`} /></span>
-              <button className="wp-x" aria-label="Close" onClick={() => setCycOpen(null)}><Use id="ico-close" /></button>
-              <span className="wp-ey">The cycle of energies</span>
-              <div className="wp-chipwrap">
-                <span className={`role-pill ${cyc.verb === 'feeds' ? 'cat' : 'fric'}`}>
-                  {cyc.verb === 'feeds' ? <Use id="ar-up" /> : <Use id="ar-down" />}
-                  {cyc.An} {cyc.verb} {cyc.Bn}
-                </span>
-              </div>
-            </div>
-            <div className="wp-inner">
-              <p className="wp-body">{cyc.img}.{cyc.deriv ? ` ${cyc.deriv}` : ''}</p>
-              <button className="wp-codex" onClick={() => { setCycOpen(null); if (onOpenCodex) onOpenCodex(); }}>
-                <span className="wp-cx-ic"><Use id="ic-codex" /></span>
-                <span className="wp-cx-tx"><b>Deeper in the Codex</b><small>the full cycle of the five energies</small></span>
-                <span className="wp-cx-go"><Use id="ico-arrow-r" /></span>
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
       {/* A2 · glossary sheet — root-level so it tops every screen layer */}
       {fnNote && (
         <div className="wordpop open" role="presentation">
