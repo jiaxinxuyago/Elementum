@@ -2774,3 +2774,7 @@
 .jny .wp-dotcard .wp-band .wp-ey{ position: relative; z-index: 1; }
 .jny .wp-dotcard .wp-band .wp-wm{ z-index: 1; }
 .jny .wp-dotcard .wp-band .wp-x{ z-index: 2; }
+
+/* core diagnosis folio now LEADS beat 2 (owner 2026-08-19) — spacing for
+   the eyebrow -> folio -> wheel order; the wheel keeps its own top margin. */
+.jny .beat[data-beat="2"] .sec-eyebrow + .insc{ margin-top: 10px; }

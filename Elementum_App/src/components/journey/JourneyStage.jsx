@@ -432,25 +432,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
 
                 <div className="beat" data-beat="2">
                   <span className="sec-eyebrow">YOUR FIVE ENERGIES</span>
-                  <div className="wheel" ref={wheelRef} aria-label="Dominance wheel — tap any energy to open its reading">
-                    <button className={centerCls} style={{ backgroundImage: `url('${centerSrc}')` }} aria-label="The Day Master seal — open your identity card" onClick={() => setShowShare(true)} />
-                    {m.els.map((r) => (
-                      <button key={r.el} data-el={r.el}
-                        className={`node n-${r.el}${r.isCore ? ' is-core' : ''}`}
-                        style={{ width: r.size, height: r.size, left: r.seat.left, top: r.seat.top }}
-                        aria-label={`${r.name}, ${r.presence} percent — ${r.isCore ? 'your core' : r.role}; its relation with your core`}
-                        onClick={() => setDotOpen(r.el)}>
-                        <Use id={`el-${r.el}`} className="elmark" />
-                        <span className="pc">{r.presence}%</span>
-                        {r.isCore
-                          ? <span className="pip who"><Disc /></span>
-                          : r.role === 'friction'
-                            ? <span className="pip down"><Use id="ar-down" /></span>
-                            : <span className={`pip up${r.major ? ' major' : ''}`}><Use id="ar-up" /></span>}
-                      </button>
-                    ))}
-                  </div>
-
+                  {/* Core diagnosis leads the section (owner 2026-08-19): the
+                      core's condition is revealed BEFORE the field of five
+                      and its catalyst/friction pips. */}
                   <div className={`insc${folioOpen ? ' folio-open' : ''}`} data-ins="folio" data-css="inscP">
                     <div className="ins-fold" role="button" aria-expanded={folioOpen} onClick={() => { setFolioOpen((v) => { if (v) setInsOpen(null); return !v; }); }}>
                       <span className="ik-chip"><Use id={`el-${m.core.el}`} className="elmark" /><span className={`ik-plate a-${m.core.el}`} /></span>
@@ -487,6 +471,25 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                         </>
                       )}
                     </div>
+                  </div>
+
+                  <div className="wheel" ref={wheelRef} aria-label="Dominance wheel — tap any energy to open its reading">
+                    <button className={centerCls} style={{ backgroundImage: `url('${centerSrc}')` }} aria-label="The Day Master seal — open your identity card" onClick={() => setShowShare(true)} />
+                    {m.els.map((r) => (
+                      <button key={r.el} data-el={r.el}
+                        className={`node n-${r.el}${r.isCore ? ' is-core' : ''}`}
+                        style={{ width: r.size, height: r.size, left: r.seat.left, top: r.seat.top }}
+                        aria-label={`${r.name}, ${r.presence} percent — ${r.isCore ? 'your core' : r.role}; its relation with your core`}
+                        onClick={() => setDotOpen(r.el)}>
+                        <Use id={`el-${r.el}`} className="elmark" />
+                        <span className="pc">{r.presence}%</span>
+                        {r.isCore
+                          ? <span className="pip who"><Disc /></span>
+                          : r.role === 'friction'
+                            ? <span className="pip down"><Use id="ar-down" /></span>
+                            : <span className={`pip up${r.major ? ' major' : ''}`}><Use id="ar-up" /></span>}
+                      </button>
+                    ))}
                   </div>
 
                   <button className="jbridge" onClick={() => swTo(stageRef.current?.querySelector('.beat[data-beat="3"]'), 56)}><span>So what do you need — and what don&rsquo;t you?</span><Use id="ar-down" /></button>
