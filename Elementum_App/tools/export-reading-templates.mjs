@@ -42,6 +42,7 @@ const { buildIdentity } = await import('../src/components/reading/identity.js');
 const { FACE_CARD, FAMILY_BRIEF, FAMILY_CLAUSE, FAMILY_ELEMENT, ENERGY_TILE } = await import('../src/content/reading/index.js');
 const { DM_READING } = await import('../src/content/reading/readingContent.js');
 const { TG_PERSONA } = await import('../src/content/tgNames.js');
+const cyc = await import('../src/content/cycles.js');
 const jd = await import('../src/components/journey/journeyData.js');
 
 // ── taxonomy keys ──────────────────────────────────────────────────
@@ -296,7 +297,11 @@ T('tpl_dm_prescription', 'INTERIM (pending K2) — UNSURFACED since the J4 sub-s
 T('tpl_element_verdict', 'LIVE', '1 sentence', { clauses: { core: 'Balanced — nothing to force; keep the mix. / Underfueled — it burns more than it takes in; refill it.', core_excess: "Overfueled — honor it, don't feed it further.", friction: 'Already rich in you — more of it weighs the core; stop adding.', catalyst_missing: 'Cast with none — borrow it daily · with {others}.', catalyst_thin: 'Thin in you — worth feeding.', catalyst: 'Give it more to shape.' } });
 T('tpl_hour_chip', 'LIVE', '≤12w', { pattern: 'Cast without your hour — close, not exact. Discover it →' });
 T('tpl_presence_frames', 'PLANNED', '≤20w ×4', { pattern: null, clauses: { dominant: null, present: null, scarce: null, absent: null } });
-T('tpl_cycle_line', 'PLANNED', 'label ≤10w + line ≤20w · ×20', { pattern: 'Why {ElA} {feeds/tests} {ElB} — the cycle, in your chart', clauses: null });
+T('tpl_cycle_line', 'VOCABULARY LOCKED (REA_02 §5d, owner 2026-08-14) — the 生/克 cognition floor; surfaces pending (wheel arrows · seat derivations · team sentence · Codex chapter)', 'law verb + image line ≤8w · ×10', {
+  pattern: '{ElA} {feeds|tames} {ElB} — {image line}',
+  law_verbs: cyc.LAW_VERB, feeds: cyc.FEEDS, tames: cyc.TAMES,
+  image_lines: cyc.CYCLE_LINE, team_nouns: cyc.TEAM_NOUN, family_teams: cyc.FAMILY_TEAM,
+});
 T('tpl_rx_ribbon', 'PLANNED', 'ribbon ≤14w + 10 fragments', { pattern: null, clauses: null });
 T('tpl_pattern_conclusion', 'PLANNED', '≤25w · per pattern type (~6)', { pattern: null, clauses: null });
 

@@ -198,6 +198,41 @@ Forks resolved: Drive over Harvest, Duty over Trial; law #4 scoped to persona-na
 | Voice | What you put out — your expression, talent, and voice. |
 | Duty | What tests and shapes you — the pressure and duty you answer to. |
 
+## 5d · LOCKED — the cycle vocabulary: 生/克 law verbs + the ten equations (owner 2026-08-14)
+
+The cognition floor under the whole interpretation stack (owner insight 2026-08-14): before seats, verdicts, and personas, the user meets the CHEMISTRY — the two cycles among the five energies. Everything above derives from these ten equations.
+
+**Law verbs (the equation grammar — uniform, templatable):**
+
+| 汉字 | **Verb** | Why |
+|---|---|---|
+| 生 | **feeds** | everyday, directional, one metaphor family with Overfueled/Underfueled/Refill |
+| 克 | **tames** | relational, not domination — the tamed keeps its power and gains a shape (the classical meaning; why Duty is no insult) |
+
+**The ten equations + image lines (first-surfacing mnemonics, myth-decoder cadence):**
+
+| 汉字 | Law | Image line |
+|---|---|---|
+| 木生火 | Wood feeds Fire | dry branches make the flame |
+| 火生土 | Fire feeds Earth | ash becomes soil |
+| 土生金 | Earth feeds Metal | ore grows in the mountain |
+| 金生水 | Metal feeds Water | dew beads on the cold blade |
+| 水生木 | Water feeds Wood | rain raises the forest |
+| 木克土 | Wood tames Earth | roots hold the hillside |
+| 土克水 | Earth tames Water | banks give the river its path |
+| 水克火 | Water tames Fire | rain ends the blaze |
+| 火克金 | Fire tames Metal | the forge softens the blade |
+| 金克木 | Metal tames Wood | the knife prunes the branch |
+
+**The two teams (生助 vs 克泄耗, relative to the day master):**
+
+| 汉字 | **Team noun** | Members (seats) |
+|---|---|---|
+| 生助 | **Inflow** | Root (feeds you) + Core (stands with you) |
+| 克泄耗 | **Outflow** | Voice (you feed it) + Drive (you tame it) + Duty (it tames you) |
+
+**Derivation grammar (the sentences the layer teaches):** seat derivation — `[A] feeds/tames [B], so [A] is your [Seat]` ("Earth feeds Metal, so Earth is your Root"). Team sentence — `Your core runs [band], so the energies that [spend/fill] it are your catalysts` (the sentence that makes seek/skip a consequence instead of a decree). Cognition ladder: L1 cycles → L2 seats (§5b) → L3 verdict (bands §5c + shadow nouns §5b-ii) → L4 interpretation.
+
 ## 5c · LOCKED — Day-Master strength terms + remedy verbs (re-locked 2026-07-16)
 
 | Concept | 汉字 | **Term** | Definition line (mandatory on first surfacing) |

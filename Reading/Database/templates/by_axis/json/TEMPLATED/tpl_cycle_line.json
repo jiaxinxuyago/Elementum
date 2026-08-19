@@ -8,10 +8,50 @@
   "sources": [
     "REA_03 §5 (patterns)"
   ],
-  "status_note": "PLANNED",
-  "budget": "label ≤10w + line ≤20w · ×20",
+  "status_note": "VOCABULARY LOCKED (REA_02 §5d, owner 2026-08-14) — the 生/克 cognition floor; surfaces pending (wheel arrows · seat derivations · team sentence · Codex chapter)",
+  "budget": "law verb + image line ≤8w · ×10",
   "candidates": {
-    "pattern": "Why {ElA} {feeds/tests} {ElB} — the cycle, in your chart",
-    "clauses": null
+    "pattern": "{ElA} {feeds|tames} {ElB} — {image line}",
+    "law_verbs": {
+      "feeds": "feeds",
+      "tames": "tames"
+    },
+    "feeds": {
+      "wood": "fire",
+      "fire": "earth",
+      "earth": "metal",
+      "metal": "water",
+      "water": "wood"
+    },
+    "tames": {
+      "wood": "earth",
+      "earth": "water",
+      "water": "fire",
+      "fire": "metal",
+      "metal": "wood"
+    },
+    "image_lines": {
+      "wood>fire": "dry branches make the flame",
+      "fire>earth": "ash becomes soil",
+      "earth>metal": "ore grows in the mountain",
+      "metal>water": "dew beads on the cold blade",
+      "water>wood": "rain raises the forest",
+      "wood>earth": "roots hold the hillside",
+      "earth>water": "banks give the river its path",
+      "water>fire": "rain ends the blaze",
+      "fire>metal": "the forge softens the blade",
+      "metal>wood": "the knife prunes the branch"
+    },
+    "team_nouns": {
+      "inflow": "Inflow",
+      "outflow": "Outflow"
+    },
+    "family_teams": {
+      "resource": "inflow",
+      "self": "inflow",
+      "output": "outflow",
+      "wealth": "outflow",
+      "officer": "outflow"
+    }
   }
 }
