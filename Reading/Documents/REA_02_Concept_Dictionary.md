@@ -233,6 +233,25 @@ The cognition floor under the whole interpretation stack (owner insight 2026-08-
 
 **Derivation grammar (the sentences the layer teaches):** seat derivation — `[A] feeds/tames [B], so [A] is your [Seat]` ("Earth feeds Metal, so Earth is your Root"). Team sentence — `Your core runs [band], so the energies that [spend/fill] it are your catalysts` (the sentence that makes seek/skip a consequence instead of a decree). Cognition ladder: L1 cycles → L2 seats (§5b) → L3 verdict (bands §5c + shadow nouns §5b-ii) → L4 interpretation.
 
+## 5e · LOCKED — the POSITION vocabulary: named configurations (owner 2026-08-19)
+
+The Nebula principle: a configuration is a NAMED EVENT, and the reading starts from its name (偏印在月支 the way astrology says "Mercury retrograde"). Grain: **8 slots** — stem + branch per pillar are distinct positions; the day stem is the Day Master itself and takes no god → **7 slots × 10 gods = the POSITION axis ×70**.
+
+**The four gates (palace nouns — closes the palace ruling):**
+
+| Pillar | 汉字 | **Gate** | Ground |
+|---|---|---|---|
+| Year 年柱 | 年 | **Origin Gate** | roots, ancestry, the early world |
+| Month 月柱 | 月 | **Career Gate** | work, parents, the chart's frame |
+| Day 日柱 | 日 | **Partner Gate** | the self's seat and the spouse palace |
+| Hour 时柱 | 时 | **Legacy Gate** | children, output, late life |
+
+**Slot prepositions:** stem slots read **"at the {Gate}"** (the shown face); branch slots read **"inside the {Gate}"** (the root).
+
+**Term template (persona-led + 汉字):** `{Persona} {at|inside} the {Gate}` · `{god}在{slot}` — e.g. **The Alchemist inside the Career Gate · 偏印在月支**. Definition line mandatory on first surfacing (§5c law).
+
+**The canonical domain taxonomy ×8 (every position reading DECLARES its ruled domains from this set before interpreting):** **Wealth · Health · Career · Love · Family · Social · Mind · Growth**. The god-flavored domain nouns (§ GOD.domains: Learning/Intuition/Solitude…) are expressions *inside* these categories, not a parallel category layer.
+
 ## 5c · LOCKED — Day-Master strength terms + remedy verbs (re-locked 2026-07-16)
 
 | Concept | 汉字 | **Term** | Definition line (mandatory on first surfacing) |

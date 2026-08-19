@@ -1,0 +1,428 @@
+{
+  "$variable": "slot_zh",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "POSITION": [
+      {
+        "id": "bijian_year_stem",
+        "key": "比肩在年干",
+        "canonical_name": "The Twin at the Origin Gate",
+        "value": "年干"
+      },
+      {
+        "id": "bijian_year_branch",
+        "key": "比肩在年支",
+        "canonical_name": "The Twin inside the Origin Gate",
+        "value": "年支"
+      },
+      {
+        "id": "bijian_month_stem",
+        "key": "比肩在月干",
+        "canonical_name": "The Twin at the Career Gate",
+        "value": "月干"
+      },
+      {
+        "id": "bijian_month_branch",
+        "key": "比肩在月支",
+        "canonical_name": "The Twin inside the Career Gate",
+        "value": "月支"
+      },
+      {
+        "id": "bijian_day_branch",
+        "key": "比肩在日支",
+        "canonical_name": "The Twin inside the Partner Gate",
+        "value": "日支"
+      },
+      {
+        "id": "bijian_hour_stem",
+        "key": "比肩在时干",
+        "canonical_name": "The Twin at the Legacy Gate",
+        "value": "时干"
+      },
+      {
+        "id": "bijian_hour_branch",
+        "key": "比肩在时支",
+        "canonical_name": "The Twin inside the Legacy Gate",
+        "value": "时支"
+      },
+      {
+        "id": "jiecai_year_stem",
+        "key": "劫财在年干",
+        "canonical_name": "The Rival at the Origin Gate",
+        "value": "年干"
+      },
+      {
+        "id": "jiecai_year_branch",
+        "key": "劫财在年支",
+        "canonical_name": "The Rival inside the Origin Gate",
+        "value": "年支"
+      },
+      {
+        "id": "jiecai_month_stem",
+        "key": "劫财在月干",
+        "canonical_name": "The Rival at the Career Gate",
+        "value": "月干"
+      },
+      {
+        "id": "jiecai_month_branch",
+        "key": "劫财在月支",
+        "canonical_name": "The Rival inside the Career Gate",
+        "value": "月支"
+      },
+      {
+        "id": "jiecai_day_branch",
+        "key": "劫财在日支",
+        "canonical_name": "The Rival inside the Partner Gate",
+        "value": "日支"
+      },
+      {
+        "id": "jiecai_hour_stem",
+        "key": "劫财在时干",
+        "canonical_name": "The Rival at the Legacy Gate",
+        "value": "时干"
+      },
+      {
+        "id": "jiecai_hour_branch",
+        "key": "劫财在时支",
+        "canonical_name": "The Rival inside the Legacy Gate",
+        "value": "时支"
+      },
+      {
+        "id": "shishen_year_stem",
+        "key": "食神在年干",
+        "canonical_name": "The Artisan at the Origin Gate",
+        "value": "年干"
+      },
+      {
+        "id": "shishen_year_branch",
+        "key": "食神在年支",
+        "canonical_name": "The Artisan inside the Origin Gate",
+        "value": "年支"
+      },
+      {
+        "id": "shishen_month_stem",
+        "key": "食神在月干",
+        "canonical_name": "The Artisan at the Career Gate",
+        "value": "月干"
+      },
+      {
+        "id": "shishen_month_branch",
+        "key": "食神在月支",
+        "canonical_name": "The Artisan inside the Career Gate",
+        "value": "月支"
+      },
+      {
+        "id": "shishen_day_branch",
+        "key": "食神在日支",
+        "canonical_name": "The Artisan inside the Partner Gate",
+        "value": "日支"
+      },
+      {
+        "id": "shishen_hour_stem",
+        "key": "食神在时干",
+        "canonical_name": "The Artisan at the Legacy Gate",
+        "value": "时干"
+      },
+      {
+        "id": "shishen_hour_branch",
+        "key": "食神在时支",
+        "canonical_name": "The Artisan inside the Legacy Gate",
+        "value": "时支"
+      },
+      {
+        "id": "shangguan_year_stem",
+        "key": "伤官在年干",
+        "canonical_name": "The Virtuoso at the Origin Gate",
+        "value": "年干"
+      },
+      {
+        "id": "shangguan_year_branch",
+        "key": "伤官在年支",
+        "canonical_name": "The Virtuoso inside the Origin Gate",
+        "value": "年支"
+      },
+      {
+        "id": "shangguan_month_stem",
+        "key": "伤官在月干",
+        "canonical_name": "The Virtuoso at the Career Gate",
+        "value": "月干"
+      },
+      {
+        "id": "shangguan_month_branch",
+        "key": "伤官在月支",
+        "canonical_name": "The Virtuoso inside the Career Gate",
+        "value": "月支"
+      },
+      {
+        "id": "shangguan_day_branch",
+        "key": "伤官在日支",
+        "canonical_name": "The Virtuoso inside the Partner Gate",
+        "value": "日支"
+      },
+      {
+        "id": "shangguan_hour_stem",
+        "key": "伤官在时干",
+        "canonical_name": "The Virtuoso at the Legacy Gate",
+        "value": "时干"
+      },
+      {
+        "id": "shangguan_hour_branch",
+        "key": "伤官在时支",
+        "canonical_name": "The Virtuoso inside the Legacy Gate",
+        "value": "时支"
+      },
+      {
+        "id": "piancai_year_stem",
+        "key": "偏财在年干",
+        "canonical_name": "The Horizon at the Origin Gate",
+        "value": "年干"
+      },
+      {
+        "id": "piancai_year_branch",
+        "key": "偏财在年支",
+        "canonical_name": "The Horizon inside the Origin Gate",
+        "value": "年支"
+      },
+      {
+        "id": "piancai_month_stem",
+        "key": "偏财在月干",
+        "canonical_name": "The Horizon at the Career Gate",
+        "value": "月干"
+      },
+      {
+        "id": "piancai_month_branch",
+        "key": "偏财在月支",
+        "canonical_name": "The Horizon inside the Career Gate",
+        "value": "月支"
+      },
+      {
+        "id": "piancai_day_branch",
+        "key": "偏财在日支",
+        "canonical_name": "The Horizon inside the Partner Gate",
+        "value": "日支"
+      },
+      {
+        "id": "piancai_hour_stem",
+        "key": "偏财在时干",
+        "canonical_name": "The Horizon at the Legacy Gate",
+        "value": "时干"
+      },
+      {
+        "id": "piancai_hour_branch",
+        "key": "偏财在时支",
+        "canonical_name": "The Horizon inside the Legacy Gate",
+        "value": "时支"
+      },
+      {
+        "id": "zhengcai_year_stem",
+        "key": "正财在年干",
+        "canonical_name": "The Steward at the Origin Gate",
+        "value": "年干"
+      },
+      {
+        "id": "zhengcai_year_branch",
+        "key": "正财在年支",
+        "canonical_name": "The Steward inside the Origin Gate",
+        "value": "年支"
+      },
+      {
+        "id": "zhengcai_month_stem",
+        "key": "正财在月干",
+        "canonical_name": "The Steward at the Career Gate",
+        "value": "月干"
+      },
+      {
+        "id": "zhengcai_month_branch",
+        "key": "正财在月支",
+        "canonical_name": "The Steward inside the Career Gate",
+        "value": "月支"
+      },
+      {
+        "id": "zhengcai_day_branch",
+        "key": "正财在日支",
+        "canonical_name": "The Steward inside the Partner Gate",
+        "value": "日支"
+      },
+      {
+        "id": "zhengcai_hour_stem",
+        "key": "正财在时干",
+        "canonical_name": "The Steward at the Legacy Gate",
+        "value": "时干"
+      },
+      {
+        "id": "zhengcai_hour_branch",
+        "key": "正财在时支",
+        "canonical_name": "The Steward inside the Legacy Gate",
+        "value": "时支"
+      },
+      {
+        "id": "qisha_year_stem",
+        "key": "七杀在年干",
+        "canonical_name": "The General at the Origin Gate",
+        "value": "年干"
+      },
+      {
+        "id": "qisha_year_branch",
+        "key": "七杀在年支",
+        "canonical_name": "The General inside the Origin Gate",
+        "value": "年支"
+      },
+      {
+        "id": "qisha_month_stem",
+        "key": "七杀在月干",
+        "canonical_name": "The General at the Career Gate",
+        "value": "月干"
+      },
+      {
+        "id": "qisha_month_branch",
+        "key": "七杀在月支",
+        "canonical_name": "The General inside the Career Gate",
+        "value": "月支"
+      },
+      {
+        "id": "qisha_day_branch",
+        "key": "七杀在日支",
+        "canonical_name": "The General inside the Partner Gate",
+        "value": "日支"
+      },
+      {
+        "id": "qisha_hour_stem",
+        "key": "七杀在时干",
+        "canonical_name": "The General at the Legacy Gate",
+        "value": "时干"
+      },
+      {
+        "id": "qisha_hour_branch",
+        "key": "七杀在时支",
+        "canonical_name": "The General inside the Legacy Gate",
+        "value": "时支"
+      },
+      {
+        "id": "zhengguan_year_stem",
+        "key": "正官在年干",
+        "canonical_name": "The Magistrate at the Origin Gate",
+        "value": "年干"
+      },
+      {
+        "id": "zhengguan_year_branch",
+        "key": "正官在年支",
+        "canonical_name": "The Magistrate inside the Origin Gate",
+        "value": "年支"
+      },
+      {
+        "id": "zhengguan_month_stem",
+        "key": "正官在月干",
+        "canonical_name": "The Magistrate at the Career Gate",
+        "value": "月干"
+      },
+      {
+        "id": "zhengguan_month_branch",
+        "key": "正官在月支",
+        "canonical_name": "The Magistrate inside the Career Gate",
+        "value": "月支"
+      },
+      {
+        "id": "zhengguan_day_branch",
+        "key": "正官在日支",
+        "canonical_name": "The Magistrate inside the Partner Gate",
+        "value": "日支"
+      },
+      {
+        "id": "zhengguan_hour_stem",
+        "key": "正官在时干",
+        "canonical_name": "The Magistrate at the Legacy Gate",
+        "value": "时干"
+      },
+      {
+        "id": "zhengguan_hour_branch",
+        "key": "正官在时支",
+        "canonical_name": "The Magistrate inside the Legacy Gate",
+        "value": "时支"
+      },
+      {
+        "id": "pianyin_year_stem",
+        "key": "偏印在年干",
+        "canonical_name": "The Alchemist at the Origin Gate",
+        "value": "年干"
+      },
+      {
+        "id": "pianyin_year_branch",
+        "key": "偏印在年支",
+        "canonical_name": "The Alchemist inside the Origin Gate",
+        "value": "年支"
+      },
+      {
+        "id": "pianyin_month_stem",
+        "key": "偏印在月干",
+        "canonical_name": "The Alchemist at the Career Gate",
+        "value": "月干"
+      },
+      {
+        "id": "pianyin_month_branch",
+        "key": "偏印在月支",
+        "canonical_name": "The Alchemist inside the Career Gate",
+        "value": "月支"
+      },
+      {
+        "id": "pianyin_day_branch",
+        "key": "偏印在日支",
+        "canonical_name": "The Alchemist inside the Partner Gate",
+        "value": "日支"
+      },
+      {
+        "id": "pianyin_hour_stem",
+        "key": "偏印在时干",
+        "canonical_name": "The Alchemist at the Legacy Gate",
+        "value": "时干"
+      },
+      {
+        "id": "pianyin_hour_branch",
+        "key": "偏印在时支",
+        "canonical_name": "The Alchemist inside the Legacy Gate",
+        "value": "时支"
+      },
+      {
+        "id": "zhengyin_year_stem",
+        "key": "正印在年干",
+        "canonical_name": "The Sage at the Origin Gate",
+        "value": "年干"
+      },
+      {
+        "id": "zhengyin_year_branch",
+        "key": "正印在年支",
+        "canonical_name": "The Sage inside the Origin Gate",
+        "value": "年支"
+      },
+      {
+        "id": "zhengyin_month_stem",
+        "key": "正印在月干",
+        "canonical_name": "The Sage at the Career Gate",
+        "value": "月干"
+      },
+      {
+        "id": "zhengyin_month_branch",
+        "key": "正印在月支",
+        "canonical_name": "The Sage inside the Career Gate",
+        "value": "月支"
+      },
+      {
+        "id": "zhengyin_day_branch",
+        "key": "正印在日支",
+        "canonical_name": "The Sage inside the Partner Gate",
+        "value": "日支"
+      },
+      {
+        "id": "zhengyin_hour_stem",
+        "key": "正印在时干",
+        "canonical_name": "The Sage at the Legacy Gate",
+        "value": "时干"
+      },
+      {
+        "id": "zhengyin_hour_branch",
+        "key": "正印在时支",
+        "canonical_name": "The Sage inside the Legacy Gate",
+        "value": "时支"
+      }
+    ]
+  }
+}

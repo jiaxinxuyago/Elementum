@@ -1,0 +1,22 @@
+{
+  "$archetype": "shangguan_year_stem",
+  "axis": "POSITION",
+  "key": "伤官在年干",
+  "canonical_name": "The Virtuoso at the Origin Gate",
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "REA_02 §5e (position vocabulary) · engine pillar gods"
+  ],
+  "status_note": "POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock",
+  "candidates": {
+    "term": "The Virtuoso at the Origin Gate",
+    "term_zh": "伤官在年干",
+    "gate": "Origin Gate",
+    "slot_zh": "年干",
+    "slot_kind": "stem",
+    "domains": null,
+    "defline": null,
+    "reading": null
+  }
+}

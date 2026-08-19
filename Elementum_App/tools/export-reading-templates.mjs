@@ -44,6 +44,7 @@ const { DM_READING } = await import('../src/content/reading/readingContent.js');
 const { TG_PERSONA } = await import('../src/content/tgNames.js');
 const cyc = await import('../src/content/cycles.js');
 const k2 = await import('../src/content/k2.js');
+const pos = await import('../src/content/positions.js');
 const jd = await import('../src/components/journey/journeyData.js');
 
 // ── taxonomy keys ──────────────────────────────────────────────────
@@ -64,7 +65,8 @@ const FAMILIES = [
   { id: 'drive', family: 'wealth', zh: '财' }, { id: 'voice', family: 'output', zh: '食伤' },
   { id: 'duty', family: 'officer', zh: '官杀' },
 ];
-const POSITIONS = ['yearStem', 'yearBranch', 'monthStem', 'monthBranch', 'dayBranch', 'hourStem', 'hourBranch'];
+// (the old POSITIONS ×7 palace_frame stub axis was superseded by the
+// god×slot POSITION construct, owner 2026-08-19 — see src/content/positions.js)
 
 // GOD-axis locks that live only in REA_02 (transcribed; source noted per file).
 const GOD_DEFLINE = {
@@ -267,6 +269,26 @@ for (const el of ELS) for (const g of GODS) {
   }, ['REA_03 §4b (interaction seeds — parsed from the doc)', 'k2 construct: REA_03 §4 spec (unauthored)']);
 }
 
+// ── POSITION ×70 (10 gods × 7 slots — owner construct 2026-08-19) ──
+// Named configurations ("The Alchemist inside the Career Gate · 偏印在月支");
+// term/汉字/gate derive from the REA_02 §5e vocabulary; domains/defline/
+// reading are authored per position (template = pianyin_month_branch).
+for (const g of GODS) for (const s of pos.SLOTS) {
+  const id = `${g.id}_${s.id}`;
+  const auth = pos.POSITION_READINGS[id] || {};
+  file('POSITION', id, pos.positionZh(g.hz, s), pos.positionTerm(TG_PERSONA[g.hz] ?? g.hz, s), {
+    term: pos.positionTerm(TG_PERSONA[g.hz] ?? g.hz, s),
+    term_zh: pos.positionZh(g.hz, s),
+    gate: pos.GATES[s.gate],
+    slot_zh: s.zh,
+    slot_kind: s.kind,
+    domains: auth.domains ?? null,
+    defline: auth.defline ?? null,
+    reading: auth.reading ?? null,
+  }, ['REA_02 §5e (position vocabulary) · engine pillar gods'],
+  { status_note: 'POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock' });
+}
+
 // ── CONDITION ×3+2 ──
 for (const [id, c] of Object.entries(CONDITIONS)) {
   file('CONDITION', id, c.zh, c.term, { ...c }, ['REA_02 §5c locks (via journeyData vocabulary tables)']);
@@ -282,10 +304,6 @@ for (const f of FAMILIES) {
   }, ['REA_02 §5b locks (via journeyData vocabulary tables)']);
 }
 
-// ── POSITION ×7 ──
-for (const p of POSITIONS) {
-  file('POSITION', p, p, null, { palace_frame: { domain: null, relationalReframe: null } }, ['(unauthored — REA_03 §4 B6)']);
-}
 
 // ── TEMPLATED ×16 (the sentence patterns) ──
 const T = (name, status, budget, body) => file('TEMPLATED', name, name, null, body, ['REA_03 §5 (patterns)'], { status_note: status, budget });

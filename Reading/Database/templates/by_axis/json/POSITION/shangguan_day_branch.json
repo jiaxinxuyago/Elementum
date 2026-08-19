@@ -1,0 +1,22 @@
+{
+  "$archetype": "shangguan_day_branch",
+  "axis": "POSITION",
+  "key": "伤官在日支",
+  "canonical_name": "The Virtuoso inside the Partner Gate",
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "REA_02 §5e (position vocabulary) · engine pillar gods"
+  ],
+  "status_note": "POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock",
+  "candidates": {
+    "term": "The Virtuoso inside the Partner Gate",
+    "term_zh": "伤官在日支",
+    "gate": "Partner Gate",
+    "slot_zh": "日支",
+    "slot_kind": "branch",
+    "domains": null,
+    "defline": null,
+    "reading": null
+  }
+}
