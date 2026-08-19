@@ -2784,3 +2784,20 @@
    it above that rule, joined by a light inner divider: seal -> manifesto ->
    keywords -> state, one object. */
 .jny .idhero .insc.id-fused{ max-width: none; margin: 8px 2px 0; padding-top: 2px; border-top: 1px solid var(--paperHair, #e2dbcc); }
+
+/* ── organic core diagnosis (owner 2026-08-19): a hero-native sentence,
+   not a tile — no box, no chip furniture, no divider; the condition pill
+   is the only chip (the hero already speaks chip language via keywords). */
+.jny .idhero .insc.id-diag{ max-width: none; margin: 9px 2px 0; border: none; padding: 0; }
+.jny .idg-line{ display: flex; align-items: baseline; gap: 7px; width: 100%; background: none; border: none;
+    padding: 2px 2px 0; cursor: pointer; text-align: left; font-family: 'EB Garamond', Georgia, serif; }
+.jny .idg-el{ width: 13px; height: 13px; align-self: center; flex: none; color: var(--bronzeDark); opacity: 0.85; }
+.jny .idg-t{ font-size: 13.5px; line-height: 1.6; color: var(--ink, #4a4540); letter-spacing: 0.1px; }
+.jny .idg-t b{ font-weight: 600; color: var(--inkDeep, #2b2722); }
+.jny .idg-t .role-pill{ vertical-align: 1px; }
+.jny .idg-chev{ width: 12px; height: 12px; align-self: center; flex: none; color: var(--bronzeDark); opacity: 0.7;
+    transform: rotate(90deg); transition: transform 200ms ease; }
+.jny .insc.id-diag.folio-open .idg-chev{ transform: rotate(-90deg); }
+/* organic override: inside the idhero the folio sheds its cardstock box
+   entirely (the [data-css inscP][data-ins folio] rule paints it) */
+.jny .idhero [data-css~="inscP"][data-ins="folio"].id-diag{ background: none; border: none; border-radius: 0; padding: 0; box-shadow: none; }

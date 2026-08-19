@@ -381,18 +381,16 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                         <button className="readcirc" aria-label="Read your Day Master" onClick={() => onOpenDayMaster && onOpenDayMaster()}><Use id="ico-arrow-r" /></button>
                       </div>
                     </div>
-                  {/* Core diagnosis fused into the identity card (owner
-                      2026-08-19): the seal says WHAT YOU ARE, the base strip
-                      says HOW IT'S RUNNING — one object, read top-down. */}
-                  <div className={`insc id-fused${folioOpen ? ' folio-open' : ''}`} data-ins="folio" data-css="inscP">
-                    <div className="ins-fold" role="button" aria-expanded={folioOpen} onClick={() => { setFolioOpen((v) => { if (v) setInsOpen(null); return !v; }); }}>
-                      <span className="ik-chip"><Use id={`el-${m.core.el}`} className="elmark" /><span className={`ik-plate a-${m.core.el}`} /></span>
-                      <span className="fold-t">
-                        <span className="fl1">Your Core Energy is <b>{m.core.name}</b></span>
-                        <span className="fl2">It runs <span className="role-pill cond" role="button" tabIndex={0} onClick={(e) => { e.stopPropagation(); setFnOpen('cond'); }}><Use id={condIcon} />{m.condition}</span> — {m.foldVerdict}</span>
-                      </span>
-                      <button className="ins-q" aria-label="Open the Codex — the deeper reading of these terms" onClick={(e) => { e.stopPropagation(); if (onOpenCodex) onOpenCodex(); else flash('The Codex — deeper knowledge'); }}>?</button>
-                    </div>
+                  {/* Core diagnosis, organic (owner 2026-08-19): not a tile —
+                      a sentence in the hero's own typography. Seal says WHAT
+                      YOU ARE; this line says HOW IT'S RUNNING; the fold still
+                      opens the three teaching lines. */}
+                  <div className={`insc id-diag${folioOpen ? ' folio-open' : ''}`} data-ins="folio" data-css="inscP">
+                    <button className="idg-line" aria-expanded={folioOpen} onClick={() => { setFolioOpen((v) => { if (v) setInsOpen(null); return !v; }); }}>
+                      <Use id={`el-${m.core.el}`} className="idg-el" />
+                      <span className="idg-t">Your Core Energy is <b>{m.core.name}</b> · it runs <span className="role-pill cond" role="button" tabIndex={0} onClick={(e) => { e.stopPropagation(); setFnOpen('cond'); }}><Use id={condIcon} />{m.condition}</span> — {m.foldVerdict}</span>
+                      <Use id="ico-chev-r" className="idg-chev" />
+                    </button>
                     <div className="ins-para">
                       <button className="ins-line" aria-expanded={insOpen === 'core'} onClick={() => insToggle('core')}>
                         <span className="ins-lead"><svg viewBox="0 0 24 24" className="core"><use href={U(`el-${m.core.el}`)} /></svg></span>
