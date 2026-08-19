@@ -24,6 +24,7 @@ import { STEM_CARD_DATA } from '../../content/index.js';
 import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
 import { APP_URL } from '../../infra/index.js';
 import { buildJourneyModel, buildElementScreen, buildGlossary } from './journeyData.js';
+import { FEEDS, TAMES, CYCLE_LINE } from '../../content/cycles.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
 
@@ -60,6 +61,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   const cardStatusT = useRef(null);
   const [insOpen, setInsOpen] = useState(null);    // inscription line unfold
   const [fnOpen, setFnOpen] = useState(null);      // footnote float (cond|cat|fric)
+  const [dotOpen, setDotOpen] = useState(null);    // wheel-dot float — the element's relation with the core
   const [folioOpen, setFolioOpen] = useState(false);
   const [toast, setToast] = useState(null);
 
@@ -346,6 +348,24 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   const condIcon = m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged';
   const fnNote = fnOpen ? glossary[fnOpen] : null;
 
+  // Wheel-dot float (REA_02 §5d): each dot explains its relation with the
+  // core — the cycle equation, its image line, and the seat derivation.
+  const dot = dotOpen ? (() => {
+    const r = m.byEl[dotOpen];
+    if (!r) return null;
+    if (r.isCore) {
+      return { el: r.el, pill: `${r.name} is your Core`, verb: 'core', body: glossary.core.body };
+    }
+    const core = m.core.el;
+    const edge = FEEDS[r.el] === core ? { a: r.el, b: core, verb: 'feeds' }
+      : FEEDS[core] === r.el ? { a: core, b: r.el, verb: 'feeds' }
+      : TAMES[r.el] === core ? { a: r.el, b: core, verb: 'tames' }
+      : { a: core, b: r.el, verb: 'tames' };
+    const img = CYCLE_LINE[`${edge.a}>${edge.b}`] || '';
+    const body = `${img ? img.charAt(0).toUpperCase() + img.slice(1) + '. ' : ''}That is why ${r.name} is your ${r.relation}.`;
+    return { el: r.el, pill: `${m.byEl[edge.a].name} ${edge.verb} ${m.byEl[edge.b].name}`, verb: edge.verb, body };
+  })() : null;
+
   return (
     <div className="jny jphone" data-css="phoneP" data-grand="v1" data-ca="dock" data-journey="compass" data-art="bloom">
       <span style={{ display: 'none' }} dangerouslySetInnerHTML={{ __html: `<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>${JOURNEY_DEFS}</defs></svg>` }} />
@@ -414,8 +434,8 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                       <button key={r.el} data-el={r.el}
                         className={`node n-${r.el}${r.isCore ? ' is-core' : ''}`}
                         style={{ width: r.size, height: r.size, left: r.seat.left, top: r.seat.top }}
-                        aria-label={`${r.name}, ${r.presence} percent — ${r.isCore ? 'your core' : r.role}`}
-                        onClick={() => compassGo(r.el)}>
+                        aria-label={`${r.name}, ${r.presence} percent — ${r.isCore ? 'your core' : r.role}; its relation with your core`}
+                        onClick={() => setDotOpen(r.el)}>
                         <Use id={`el-${r.el}`} className="elmark" />
                         <span className="pc">{r.presence}%</span>
                         {r.isCore
@@ -613,6 +633,36 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
         </div>
         <div className={`wip${toast ? ' show' : ''}`}>{toast || ''}</div>
       </div>
+      {/* wheel-dot float — the element's relation with the core (REA_02 §5d) */}
+      {dot && (
+        <div className="wordpop open" role="presentation">
+          <div className="wp-scrim" onClick={() => setDotOpen(null)} />
+          <div className="wp-sheet" role="dialog" aria-label={`${m.byEl[dot.el].name} — its relation with your core`}>
+            <div className="wp-band">
+              <span className="wp-wm"><Use id={`el-${dot.el}`} /></span>
+              <button className="wp-x" aria-label="Close" onClick={() => setDotOpen(null)}><Use id="ico-close" /></button>
+              <span className="wp-ey">{dot.verb === 'core' ? 'Your day master' : 'The cycle of energies'}</span>
+              <div className="wp-chipwrap">
+                <span className={`role-pill ${dot.verb === 'feeds' ? 'cat' : dot.verb === 'tames' ? 'fric' : 'core'}`}>
+                  {dot.verb === 'feeds' && <Use id="ar-up" />}
+                  {dot.verb === 'tames' && <Use id="ar-down" />}
+                  {dot.verb === 'core' && <Disc />}
+                  {dot.pill}
+                </span>
+              </div>
+            </div>
+            <div className="wp-inner">
+              <p className="wp-body">{dot.body}</p>
+              <button className="wp-codex" onClick={() => { setDotOpen(null); compassGo(dot.el); }}>
+                <span className="wp-cx-ic"><Use id={`el-${dot.el}`} /></span>
+                <span className="wp-cx-tx"><b>Open {m.byEl[dot.el].name}&rsquo;s reading</b><small>where it sits in your chart</small></span>
+                <span className="wp-cx-go"><Use id="ico-arrow-r" /></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* A2 · glossary sheet — root-level so it tops every screen layer */}
       {fnNote && (
         <div className="wordpop open" role="presentation">
