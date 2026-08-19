@@ -521,6 +521,17 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                     <span className="htitle el-title">{elScreen.title}</span><span className="hsub el-tag">{elScreen.tag}</span>
                   </span>
                 </div>
+                {/* the law line (REA_02 §5d) — why this element holds its seat */}
+                {elScreen.law && (
+                  <div className="cardstock el-lawcard">
+                    <span className="laylab">{elScreen.law.label.toUpperCase()}</span>
+                    <p className="serifline el-laweq" style={{ margin: '0 0 3px' }}>
+                      <b>{elScreen.law.eq}</b>
+                      <i className={`el-lawhz ${elScreen.law.verb}`} aria-hidden="true">{elScreen.law.verb === 'feeds' ? '生' : '克'}</i>
+                    </p>
+                    <p className="body2" style={{ margin: 0 }}>{elScreen.law.body}</p>
+                  </div>
+                )}
                 <div className="cardstock el-verdcard" style={{ borderLeft: `3px solid ${elScreen.deep.startsWith('var') ? `var(--${elScreen.el}Deep)` : elScreen.deep}` }}>
                   <span className="laylab el-verdlab" style={{ fontWeight: 600, color: `var(--${elScreen.el}Deep)` }}>{elScreen.verdLab}</span>
                   <p className="body2 el-verdict" style={{ margin: 0 }}>{elScreen.verdict}</p>
@@ -534,9 +545,13 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                   </div>
                 )}
                 <div className="cardstock"><span className="laylab">WHAT IT MEANS</span><p className="serifline el-mean" style={{ margin: 0 }}>{elScreen.mean}</p></div>
-                <div className="cardstock"><span className="laylab">WHAT IT SAYS ABOUT YOU</span>
-                  <p className="serifline el-face" style={{ margin: '0 0 5px', fontSize: 14.5 }}>{elScreen.face}</p>
-                  <span className="saysline el-kw">{elScreen.kw}</span>
+                {/* persona bridge (owner wiring 2026-08-19): the element MOVES
+                    AS its lead god — the connective line the god blocks lacked */}
+                <div className="cardstock"><span className="laylab">HOW IT MOVES IN YOU</span>
+                  <p className="serifline el-face" style={{ margin: '0 0 5px', fontSize: 14.5 }}>In you, {elScreen.elName} moves as <b>{elScreen.persona}</b> · {elScreen.keyword.toUpperCase()}</p>
+                  {elScreen.adj.length ? (
+                    <div className="el-adj">{elScreen.adj.map((a) => <span key={a} className={`el-adjchip${elScreen.adjDown ? ' down' : ''}`}>{a}</span>)}</div>
+                  ) : null}
                   <p className="body2 el-teaser" style={{ margin: '7px 0 0', fontSize: 12.5 }}>{elScreen.teaser}</p>
                 </div>
                 <button className="pill-cta" style={{ marginTop: 2 }} onClick={() => onOpenEnergy && onOpenEnergy(elOpen)}>Full reading <Use id="ico-arrow-r" /></button>

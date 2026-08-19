@@ -15,6 +15,7 @@
 
 import { getEnergyBand, relationOf } from '../../engine/index.js';
 import { TG_PERSONA, selfCardFor } from '../../content/index.js';
+import { FEEDS, TAMES, CYCLE_LINE } from '../../content/cycles.js';
 import { FACE_CARD, ENERGY_TILE } from '../../content/reading/index.js';
 
 // ── element basics ─────────────────────────────────────────────────
@@ -358,6 +359,25 @@ export function buildElementScreen(model, el) {
   // elements' screens don't (selfCard stays null there).
   const selfCard = r.isCore ? selfCardFor(model.stem, model.band) : null;
 
+  // The law line (REA_02 §5d, owner wiring 2026-08-19): the cycle equation
+  // that PUT this element in its seat — the page's permanent derivation.
+  // The core element needs none (self_card + the core verdict carry it).
+  let law = null;
+  if (!r.isCore) {
+    const core = model.core.el;
+    const edge = FEEDS[r.el] === core ? { a: r.el, b: core, verb: 'feeds' }
+      : FEEDS[core] === r.el ? { a: core, b: r.el, verb: 'feeds' }
+      : TAMES[r.el] === core ? { a: r.el, b: core, verb: 'tames' }
+      : { a: core, b: r.el, verb: 'tames' };
+    const img = CYCLE_LINE[`${edge.a}>${edge.b}`] || '';
+    law = {
+      label: `Why ${r.name} is your ${r.relation}`,
+      eq: `${model.byEl[edge.a].name} ${edge.verb} ${model.byEl[edge.b].name}`,
+      verb: edge.verb,
+      body: img ? `${img.charAt(0).toUpperCase()}${img.slice(1)}.` : '',
+    };
+  }
+
   return {
     el, name: r.name.toUpperCase(), hz: r.hz, cls: `a-${el}`,
     pig: `var(--${el})`, deep: `var(--${el}Deep)`,
@@ -366,7 +386,10 @@ export function buildElementScreen(model, el) {
     verdLab, verdict, mean: MEAN[el] || '',
     face: `${r.persona} · ${r.keyword.toUpperCase()}`,
     kw: r.faceKw, teaser: r.teaser,
-    selfCard,
+    selfCard, law,
+    // persona bridge (owner wiring 2026-08-19): the element moves AS the god
+    elName: r.name, persona: r.persona, keyword: r.keyword,
+    adj: r.adj || [], adjDown: r.role === 'friction' || r.coreExcess,
   };
 }
 

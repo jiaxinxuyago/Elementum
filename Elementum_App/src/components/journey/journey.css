@@ -2801,3 +2801,13 @@
 /* organic override: inside the idhero the folio sheds its cardstock box
    entirely (the [data-css inscP][data-ins folio] rule paints it) */
 .jny .idhero [data-css~="inscP"][data-ins="folio"].id-diag{ background: none; border: none; border-radius: 0; padding: 0; box-shadow: none; }
+
+/* ── element page: law card + persona-bridge chips (owner 2026-08-19) ── */
+.jny .el-laweq b{ font-weight: 600; color: var(--inkDeep, #2b2722); }
+.jny .el-lawhz{ font-style: normal; font-family: 'Noto Serif SC', serif; font-size: 13px; font-weight: 600; margin-left: 7px; }
+.jny .el-lawhz.feeds{ color: #4c7a4f; }
+.jny .el-lawhz.tames{ color: #a3543e; }
+.jny .el-adj{ display: flex; flex-wrap: wrap; gap: 6px; margin: 2px 0 0; }
+.jny .el-adjchip{ font-size: 11px; letter-spacing: 0.6px; padding: 3px 9px; border-radius: 999px;
+    background: rgba(76,122,79,0.10); border: 1px solid rgba(76,122,79,0.28); color: #3f6342; }
+.jny .el-adjchip.down{ background: rgba(163,84,62,0.09); border-color: rgba(163,84,62,0.26); color: #8a4632; }
