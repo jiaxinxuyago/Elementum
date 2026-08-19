@@ -2829,3 +2829,12 @@
 .jny .elpos-zh{ font-family: 'Noto Serif SC', serif; font-size: 9.5px; letter-spacing: 1.4px; color: #8a8278; }
 .jny .elpos-note{ margin: 6px 0 0; font-size: 11px; color: #8a8278; }
 .jny .elpos-none{ margin: 9px 0 0; padding-top: 8px; border-top: 1px dotted rgba(139,115,85,0.26); font-size: 12px; line-height: 1.55; color: #6d675c; }
+
+/* element-page position accordion — the FULL readings' home (owner 2026-08-19) */
+.jny .elpos-row.acc{ background: rgba(248,244,236,0.7); border: 1px solid rgba(160,138,100,0.28); border-radius: 11px; margin: 4px 0; overflow: hidden; padding: 0; display: block; }
+.jny .elpos-head{ display: flex; align-items: center; gap: 8px; width: 100%; padding: 8px 10px; background: none; border: none; cursor: pointer; text-align: left; }
+.jny .elpos-chev{ width: 12px; height: 12px; margin-left: auto; flex: none; color: var(--bronzeDark); opacity: 0.7; transition: transform 180ms ease; }
+.jny .elpos-row.acc.open .elpos-chev{ transform: rotate(90deg); }
+.jny .elpos-body{ padding: 0 11px 10px; }
+.jny .elpos-defline{ font-family: 'Cormorant Garamond', Georgia, serif; font-size: 13.5px; line-height: 1.5; color: var(--inkDeep, #2b2722); margin: 7px 0 5px; }
+.jny .elpos-reading{ font-family: 'EB Garamond', Georgia, serif; font-size: 12.5px; line-height: 1.62; color: #4a4540; margin: 0; }

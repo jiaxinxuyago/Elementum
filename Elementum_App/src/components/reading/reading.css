@@ -552,3 +552,6 @@
     background: rgba(248,244,236,0.9); border: 1px solid rgba(160,138,100,0.4); color: var(--bronzeDark, #7a653e); }
 .reading .pos-defline{ font-family: 'Cormorant Garamond', Georgia, serif; font-size: 13.5px; line-height: 1.5; color: var(--ink, #2b2722); margin: 0 0 6px; }
 .reading .pos-reading{ font-family: 'EB Garamond', Georgia, serif; font-size: 12.5px; line-height: 1.62; color: var(--inkSoft, #4a4540); margin: 0; }
+/* P5 positions = index form (full readings live on the energy pages) */
+.reading .pos-head{ cursor: default; flex-wrap: wrap; }
+.reading .pos-doms.idx{ width: 100%; margin: 5px 0 0 0; padding-left: 2px; display: flex; gap: 5px; }

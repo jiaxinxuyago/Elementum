@@ -8,26 +8,17 @@
 // CJK glyphs are intended here (the character chart Part 1 deferred).
 // ===================================================================
 
-import { useState } from 'react';
-
-// A named position row (REA_02 §5e) — term + 汉字, unfolds to the declared
-// domains, defline, and reading.
+// A named position row (REA_02 §5e) — the INDEX form: term + 汉字 + the
+// declared domains. The full readings live on each energy's reading page
+// (owner 2026-08-19), so nothing unfolds here.
 function PositionRow({ pos }) {
-  const [open, setOpen] = useState(false);
   return (
-    <div className={`pos-row${open ? ' open' : ''}`}>
-      <button className="pos-head" aria-expanded={open} onClick={() => setOpen((v) => !v)}>
+    <div className="pos-row">
+      <div className="pos-head">
         <span className="pos-gatezh">{pos.slotZh}</span>
         <span className="pos-term">{pos.term}<span className="pos-zh">{pos.termZh}</span></span>
-        <svg className="pos-chev" viewBox="0 0 24 24"><use href="#ico-chev-r" /></svg>
-      </button>
-      {open && (
-        <div className="pos-body">
-          <div className="pos-doms">{pos.domains.map((d) => <span key={d} className="pos-dom">{d}</span>)}</div>
-          <p className="pos-defline">{pos.defline}</p>
-          <p className="pos-reading">{pos.reading}</p>
-        </div>
-      )}
+        <span className="pos-doms idx">{pos.domains.map((d) => <span key={d} className="pos-dom">{d}</span>)}</span>
+      </div>
     </div>
   );
 }
@@ -91,7 +82,7 @@ export default function ReadingPillarChartCard({ pillars, energies, positions = 
         {positions.length > 0 && (
           <div className="layer">
             <div className="layer-label">Your positions · who sits in each seat</div>
-            <p className="pos-intro">Each seat of your chart is held by an energy, and each pairing has a name. Tap one to read what it rules.</p>
+            <p className="pos-intro">Each seat of your chart is held by an energy, and each pairing has a name. Read each one in full on its energy&rsquo;s page.</p>
             <div className="pos-list">
               {positions.map((pos) => <PositionRow key={pos.id} pos={pos} />)}
             </div>

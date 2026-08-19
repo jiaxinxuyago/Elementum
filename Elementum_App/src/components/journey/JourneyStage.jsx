@@ -64,6 +64,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   const [insOpen, setInsOpen] = useState(null);    // inscription line unfold
   const [fnOpen, setFnOpen] = useState(null);      // footnote float (cond|cat|fric)
   const [dotOpen, setDotOpen] = useState(null);    // wheel-dot float — the element's relation with the core
+  const [posOpen, setPosOpen] = useState(null);    // element-page position accordion (position id)
   const [folioOpen, setFolioOpen] = useState(false);
   const [toast, setToast] = useState(null);
 
@@ -571,17 +572,28 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                   <div className="cardstock"><span className="laylab">ITS RULING DOMAINS</span>
                     <p className="body2" style={{ margin: '0 0 6px' }}>Through <b>{elScreen.persona}</b>, this energy rules these grounds of your life.</p>
                     <div className="el-adj">{elScreen.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
-                    {/* the element's seats — its named positions (REA_02 §5e) */}
+                    {/* the element's seats — its named positions, READ IN FULL
+                        here (owner 2026-08-19: the energy card is the position
+                        readings' home; the Pillar Chart only indexes them). */}
                     {elPositions.length ? (
                       <div className="elpos">
                         <span className="elpos-lead">In your chart, it holds {elPositions.length === 1 ? 'this seat' : 'these seats'}:</span>
                         {elPositions.map((p) => (
-                          <div className="elpos-row" key={p.id}>
-                            <span className="elpos-slot">{p.slotZh}</span>
-                            <span className="elpos-term">{p.term}<span className="elpos-zh">{p.termZh}</span></span>
+                          <div className={`elpos-row acc${posOpen === p.id ? ' open' : ''}`} key={p.id}>
+                            <button className="elpos-head" aria-expanded={posOpen === p.id} onClick={() => setPosOpen((v) => (v === p.id ? null : p.id))}>
+                              <span className="elpos-slot">{p.slotZh}</span>
+                              <span className="elpos-term">{p.term}<span className="elpos-zh">{p.termZh}</span></span>
+                              <Use id="ico-chev-r" className="elpos-chev" />
+                            </button>
+                            {posOpen === p.id && (
+                              <div className="elpos-body">
+                                <div className="el-adj">{p.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
+                                <p className="elpos-defline">{p.defline}</p>
+                                <p className="elpos-reading">{p.reading}</p>
+                              </div>
+                            )}
                           </div>
                         ))}
-                        <p className="elpos-note">The full position readings live on your Pillar Chart.</p>
                       </div>
                     ) : (
                       <p className="elpos-none">This energy holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.</p>
