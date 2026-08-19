@@ -134,8 +134,13 @@ export const APPR_LINE = {
   Refill: { verb: 'Refill', tail: 'take in what feeds you.' },
 };
 
-// ── wheel seating (DOMINANCE_WHEEL_RULES §2 AMENDMENT, owner 2026-07-16) ──
-// Slot centers in the 320×292 container; sizes by presence rank.
+// ── wheel seating (CYCLE SEATING, owner 2026-08-19 — supersedes the
+// dominance seating of 2026-07-16): seats are FIXED BY FAMILY so the wheel
+// IS the generating cycle. Core crowns the top, then clockwise each seat
+// feeds the next: Core → Voice → Drive → Duty → Root → Core (比生食 ·
+// 食生财 · 财生官 · 官生印 · 印生比). The five 克 relations are exactly the
+// pentagram chords. Dominance stays readable via node size + presence %.
+// Same layout for every chart — the seat map becomes learnable anatomy.
 const SLOT = {
   top: [156.4, 25.8], right: [271.9, 109.7], left: [40.9, 109.7],
   lowerLeft: [85.0, 245.4], lowerRight: [227.8, 245.4],
@@ -143,23 +148,12 @@ const SLOT = {
 const SIZES = [59, 53, 48, 42, 37];
 // clockwise seat order from the top (for the dot-ink intro)
 const CW_FROM_TOP = ['top', 'right', 'lowerRight', 'lowerLeft', 'left'];
+const FAMILY_SEAT = { self: 'top', output: 'right', wealth: 'lowerRight', officer: 'lowerLeft', resource: 'left' };
 
-function seatElements(elements, coreEl, condition) {
-  // returns { el → slotName }
-  const byPresence = [...elements].sort((a, b) => b.presence - a.presence);
+function seatElements(elements) {
+  // returns { el → slotName } — fixed by ten-god family (cycle order)
   const seats = {};
-  if (condition === 'Underfueled') {
-    // dominance order, counter-clockwise from the top; core sits by rank
-    const ccw = ['top', 'left', 'lowerLeft', 'lowerRight', 'right'];
-    byPresence.forEach((e, i) => { seats[e.el] = ccw[i]; });
-  } else {
-    // Overfueled / Balanced: the Core crowns the wheel; the remaining four
-    // order high → low counter-clockwise starting from the Core's right.
-    seats[coreEl] = 'top';
-    const rest = byPresence.filter((e) => e.el !== coreEl);
-    const order = ['right', 'left', 'lowerLeft', 'lowerRight'];
-    rest.forEach((e, i) => { seats[e.el] = order[i]; });
-  }
+  elements.forEach((e) => { seats[e.el] = FAMILY_SEAT[e.family]; });
   return seats;
 }
 
@@ -267,7 +261,7 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
     .concat(els.filter((r) => r.role === 'friction' && !r.isCore).sort((a, b) => b.presence - a.presence));
 
   // wheel seating + clockwise intro order
-  const seats = seatElements(els, coreEl, condition);
+  const seats = seatElements(els);
   els.forEach((r) => {
     const [cx, cy] = SLOT[seats[r.el]];
     r.seat = { left: +(cx - r.size / 2).toFixed(1), top: +(cy - r.size / 2).toFixed(1) };

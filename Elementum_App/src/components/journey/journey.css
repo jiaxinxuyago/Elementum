@@ -2708,3 +2708,16 @@
 .jny .ik-is{font-family:'EB Garamond',Georgia,serif;font-size:9.5px;color:var(--inkLight);letter-spacing:0.2px}
 .jny .ik-rel{font-family:'Cormorant Garamond',Georgia,serif;font-size:14.5px;font-weight:600;color:var(--ink);line-height:1.05}
 .jny .vx-box .crmain .ik-pct{font-size:8.5px;color:var(--inkLight);margin-top:2px}
+
+/* ─── the cycle layer (REA_02 s5d, owner 2026-08-19) ───────────────────
+   The wheel doubles as the classical cycle diagram: seats are fixed in
+   generating order (journeyData FAMILY_SEAT), so the solid bronze rim
+   arrows are the five feeds-relations and the dashed ink chords are the
+   five tames-relations (the pentagram). Tap an arrow for its equation. */
+.jny .cyc-svg{ position: absolute; inset: 0; width: 100%; height: 100%; z-index: 2; overflow: visible;
+    transition: opacity 700ms ease; }
+.jny .wheel.wpre .cyc-svg{ opacity: 0; }
+.jny .cyc-svg .cyc-feed{ fill: none; stroke: var(--bronzeDark); stroke-width: 1.5; opacity: 0.52; }
+.jny .cyc-svg .cyc-tame{ fill: none; stroke: #6d675c; stroke-width: 1.05; stroke-dasharray: 3 5; opacity: 0.34; }
+.jny .cyc-svg .cyc-hit{ fill: none; stroke: transparent; stroke-width: 24; pointer-events: stroke; cursor: pointer; }
+.jny .cyc-svg .cyc-hit:focus-visible{ stroke: rgba(122,101,62,0.18); outline: none; }
