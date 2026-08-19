@@ -546,18 +546,17 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                     <p className="body2 el-selfpresence" style={{ margin: 0 }}>{elScreen.selfCard.presence}</p>
                   </div>
                 )}
-                {/* persona bridge (owner wiring 2026-08-19): the element MOVES
-                    AS its lead god — introduced before the depth reads through it */}
+                {/* HOW IT MOVES IN YOU — consolidated (owner 2026-08-19):
+                    bridge → chips → K2 overview as the body ("What it means"
+                    retired with the interim mean line; unauthored cells fall
+                    back to the god's face teaser). */}
                 <div className="cardstock"><span className="laylab">HOW IT MOVES IN YOU</span>
                   <p className="serifline el-face" style={{ margin: '0 0 5px', fontSize: 14.5 }}>In you, {elScreen.elName} moves as <b>{elScreen.persona}</b> · {elScreen.keyword.toUpperCase()}</p>
                   {elScreen.adj.length ? (
                     <div className="el-adj">{elScreen.adj.map((a) => <span key={a} className={`el-adjchip${elScreen.adjDown ? ' down' : ''}`}>{a}</span>)}</div>
                   ) : null}
-                  <p className="body2 el-teaser" style={{ margin: '7px 0 0', fontSize: 12.5 }}>{elScreen.teaser}</p>
+                  <p className="serifline el-mean" style={{ margin: '8px 0 0' }}>{elScreen.k2?.overview || elScreen.teaser}</p>
                 </div>
-                {/* K2 depth (owner construct 2026-08-19): overview → functions
-                    ×5 → ruling domains (map free · readings Seeker-gated). */}
-                <div className="cardstock"><span className="laylab">WHAT IT MEANS</span><p className="serifline el-mean" style={{ margin: 0 }}>{elScreen.k2?.overview || elScreen.mean}</p></div>
                 {elScreen.k2?.functional && (
                   <div className="cardstock"><span className="laylab">HOW IT RUNS YOUR FUNCTIONS</span>
                     {elScreen.functionsDef.map((f) => elScreen.k2.functional[f.key] ? (

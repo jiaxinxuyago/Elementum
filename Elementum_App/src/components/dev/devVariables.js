@@ -96,7 +96,7 @@ export function buildVariableGroups(model, activeEl, chart) {
         { name: 'face_kw', axis: 'GOD×10', arch: focusGodArch, status: 'LIVE', value: focusGod ? (FACE_CARD[focusGod]?.kw || []).join(' · ') : null },
         { name: 'face_teaser', axis: 'GOD×10', arch: focusGodArch, status: 'LIVE ⚠R5 scope', value: focusGod ? FACE_CARD[focusGod]?.teaser : null },
         { name: 'energy_tile_hook / tag', axis: '→ EL·GOD×50', arch: focusElGodArch, status: 'INTERIM 庚-gated', value: focus ? (focus.hook || '(fallback)') : perEl((r) => r.hook || '(fallback)') },
-        { name: 'mean_line', axis: 'ELEMENT×5 interim', arch: 'all ×5', status: 'INTERIM', value: 'element-generic pending 50-cell pass' },
+        { name: 'mean_line', axis: 'ELEMENT×5 interim', arch: 'all ×5', status: 'INTERIM · UNSURFACED (consolidated into How-it-moves 2026-08-19; K2 overview owns the slot)', value: 'element-generic — no longer rendered' },
       ],
     },
     {
