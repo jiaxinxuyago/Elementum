@@ -1,4 +1,4 @@
-# 偏财在年支 — The Horizon inside the Origin Gate  ·  POSITION archetype
+# 偏财在年支 — The Horizon inside the Year Gate  ·  POSITION archetype
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
@@ -8,7 +8,7 @@
 |---|---|
 | **axis** | POSITION |
 | **key** | 偏财在年支 |
-| **canonical name** | The Horizon inside the Origin Gate |
+| **canonical name** | The Horizon inside the Year Gate |
 | **construct** | TBD — ruled per-axis with the owner |
 | **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
@@ -17,11 +17,11 @@
 
 | Variable | Value |
 |---|---|
-| `term` | The Horizon inside the Origin Gate |
+| `term` | The Horizon inside the Year Gate |
 | `term_zh` | 偏财在年支 |
-| `gate` | Origin Gate |
+| `gate` | Year Gate |
 | `slot_zh` | 年支 |
 | `slot_kind` | branch |
 | `domains` | Family · Wealth |
-| `defline` | Opportunity lives inside your Origin Gate: your root memory of providing runs wide, not deep. |
+| `defline` | Opportunity lives inside your Year Gate: your root memory of providing runs wide, not deep. |
 | `reading` | This position rules Family and Wealth. The root of your beginnings is the wide table: resources that arrived irregularly and were shared instantly, a family that feasted and tightened by turns. It built your ease with flux and your instinct to provide. As an adult you fund people quietly, and the ledger of it lives in your head. Write some of it down. Wide generosity lasts longest when it has edges. |

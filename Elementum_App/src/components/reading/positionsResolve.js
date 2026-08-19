@@ -8,7 +8,8 @@
 // "The Alchemist inside the Career Gate · 偏印在月支".
 // ===================================================================
 
-import { getTenGod, HIDDEN_STEMS } from '../../engine/index.js';
+import { getTenGod, HIDDEN_STEMS, STEM_ELEM } from '../../engine/index.js';
+import { ELEMENT_TO_PIGMENT } from '../../styles/elementPigments.js';
 import { TG_PERSONA } from '../../content/tgNames.js';
 import { SLOTS, GATES, positionTerm, positionZh, POSITION_READINGS } from '../../content/positions.js';
 
@@ -42,6 +43,8 @@ export function resolvePositions(chart) {
       id, god, persona,
       slot: slot.id, slotZh: slot.zh, kind: slot.kind,
       gate: GATES[slot.gate], gateKey: slot.gate,
+      // the occupying energy — lets the element pages echo their own seats
+      el: ELEMENT_TO_PIGMENT[STEM_ELEM[stem]] || null,
       term: positionTerm(persona, slot),
       termZh: positionZh(god, slot),
       domains: r.domains, defline: r.defline, reading: r.reading,

@@ -1,4 +1,4 @@
-# 正财在月干 — The Steward at the Career Gate  ·  POSITION archetype
+# 正财在月干 — The Steward at the Month Gate  ·  POSITION archetype
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
@@ -8,7 +8,7 @@
 |---|---|
 | **axis** | POSITION |
 | **key** | 正财在月干 |
-| **canonical name** | The Steward at the Career Gate |
+| **canonical name** | The Steward at the Month Gate |
 | **construct** | TBD — ruled per-axis with the owner |
 | **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
@@ -17,11 +17,11 @@
 
 | Variable | Value |
 |---|---|
-| `term` | The Steward at the Career Gate |
+| `term` | The Steward at the Month Gate |
 | `term_zh` | 正财在月干 |
-| `gate` | Career Gate |
+| `gate` | Month Gate |
 | `slot_zh` | 月干 |
 | `slot_kind` | stem |
 | `domains` | Career · Wealth |
-| `defline` | The Steward stands at your Career Gate: the working world sees the safe pair of hands. |
+| `defline` | The Steward stands at your Month Gate: the working world sees the safe pair of hands. |
 | `reading` | This position rules Career and Wealth. Professionally you are trusted with things: budgets, operations, other people’s assets, the keys. Your reputation compounds slowly and never crashes, which in a long career beats brilliance. Fields of custody suit you, finance, management, land, law. You will be underestimated by flashier colleagues and outlast every one of them. Ask for the title you have already been doing. Stewards are promoted late mainly because they never demand it. |

@@ -1,4 +1,4 @@
-# 比肩在年干 — The Twin at the Origin Gate  ·  POSITION archetype
+# 比肩在年干 — The Twin at the Year Gate  ·  POSITION archetype
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
@@ -8,7 +8,7 @@
 |---|---|
 | **axis** | POSITION |
 | **key** | 比肩在年干 |
-| **canonical name** | The Twin at the Origin Gate |
+| **canonical name** | The Twin at the Year Gate |
 | **construct** | TBD — ruled per-axis with the owner |
 | **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
@@ -17,11 +17,11 @@
 
 | Variable | Value |
 |---|---|
-| `term` | The Twin at the Origin Gate |
+| `term` | The Twin at the Year Gate |
 | `term_zh` | 比肩在年干 |
-| `gate` | Origin Gate |
+| `gate` | Year Gate |
 | `slot_zh` | 年干 |
 | `slot_kind` | stem |
 | `domains` | Social · Family |
-| `defline` | The Twin stands at your Origin Gate: independence is the first thing your story shows, inherited and worn openly. |
+| `defline` | The Twin stands at your Year Gate: independence is the first thing your story shows, inherited and worn openly. |
 | `reading` | This position rules Social and Family. Your line carries self-made people, and it shows: from early on you read as someone who stands on their own feet. Support from home came as example more than shelter, and you learned to treat help as optional. Peers matter to you the way siblings do, chosen and equal. Let some of them in past the handshake. Standing alone began as heritage. It does not have to be a habit. |

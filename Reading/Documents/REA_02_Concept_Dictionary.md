@@ -237,14 +237,14 @@ The cognition floor under the whole interpretation stack (owner insight 2026-08-
 
 The Nebula principle: a configuration is a NAMED EVENT, and the reading starts from its name (偏印在月支 the way astrology says "Mercury retrograde"). Grain: **8 slots** — stem + branch per pillar are distinct positions; the day stem is the Day Master itself and takes no god → **7 slots × 10 gods = the POSITION axis ×70**.
 
-**The four gates (palace nouns — closes the palace ruling):**
+**The four gates (palace nouns — re-ruled LITERAL, owner 2026-08-19; the first set Origin/Career/Partner/Legacy pre-declared domains, but domain declaration is the reading's own explicit act — the gate names the PLACE, not the ruling ground):**
 
-| Pillar | 汉字 | **Gate** | Ground |
+| Pillar | 汉字 | **Gate** | Ground (taught in deflines/Codex, not in the name) |
 |---|---|---|---|
-| Year 年柱 | 年 | **Origin Gate** | roots, ancestry, the early world |
-| Month 月柱 | 月 | **Career Gate** | work, parents, the chart's frame |
-| Day 日柱 | 日 | **Partner Gate** | the self's seat and the spouse palace |
-| Hour 时柱 | 时 | **Legacy Gate** | children, output, late life |
+| Year 年柱 | 年 | **Year Gate** | roots, ancestry, the early world |
+| Month 月柱 | 月 | **Month Gate** | work, parents, the chart's frame |
+| Day 日柱 | 日 | **Day Gate** | the self's seat and the spouse palace |
+| Hour 时柱 | 时 | **Hour Gate** | children, output, late life |
 
 **Slot prepositions:** stem slots read **"at the {Gate}"** (the shown face); branch slots read **"inside the {Gate}"** (the root).
 

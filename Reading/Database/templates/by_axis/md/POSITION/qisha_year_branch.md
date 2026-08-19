@@ -1,4 +1,4 @@
-# 七杀在年支 — The General inside the Origin Gate  ·  POSITION archetype
+# 七杀在年支 — The General inside the Year Gate  ·  POSITION archetype
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
@@ -8,7 +8,7 @@
 |---|---|
 | **axis** | POSITION |
 | **key** | 七杀在年支 |
-| **canonical name** | The General inside the Origin Gate |
+| **canonical name** | The General inside the Year Gate |
 | **construct** | TBD — ruled per-axis with the owner |
 | **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
@@ -17,11 +17,11 @@
 
 | Variable | Value |
 |---|---|
-| `term` | The General inside the Origin Gate |
+| `term` | The General inside the Year Gate |
 | `term_zh` | 七杀在年支 |
-| `gate` | Origin Gate |
+| `gate` | Year Gate |
 | `slot_zh` | 年支 |
 | `slot_kind` | branch |
 | `domains` | Family · Growth · Health |
-| `defline` | The General lives inside your Origin Gate: your root was forged, not furnished. |
+| `defline` | The General lives inside your Year Gate: your root was forged, not furnished. |
 | `reading` | This position rules Family and Growth, and it marks Health. The root of your story holds pressure: a demanding house, an early responsibility, a childhood that skipped some childhood. It built load-bearing character and a nervous system that treats peace as suspicious. As an adult, you seek battles partly to feel at home. Honor the forging, it made you formidable. Then teach your body the drill it never learned. Standing down is also a discipline. |

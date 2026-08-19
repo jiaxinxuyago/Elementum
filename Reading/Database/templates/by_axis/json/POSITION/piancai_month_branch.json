@@ -2,7 +2,7 @@
   "$archetype": "piancai_month_branch",
   "axis": "POSITION",
   "key": "偏财在月支",
-  "canonical_name": "The Horizon inside the Career Gate",
+  "canonical_name": "The Horizon inside the Month Gate",
   "construct": "TBD — ruled per-axis with the owner",
   "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
   "sources": [
@@ -10,9 +10,9 @@
   ],
   "status_note": "POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it",
   "candidates": {
-    "term": "The Horizon inside the Career Gate",
+    "term": "The Horizon inside the Month Gate",
     "term_zh": "偏财在月支",
-    "gate": "Career Gate",
+    "gate": "Month Gate",
     "slot_zh": "月支",
     "slot_kind": "branch",
     "domains": [

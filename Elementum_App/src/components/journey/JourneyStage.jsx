@@ -25,6 +25,7 @@ import { STEM_CARD_DATA } from '../../content/index.js';
 import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
 import { APP_URL } from '../../infra/index.js';
 import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_LINE, EL_HZ } from './journeyData.js';
+import { resolvePositions } from '../reading/positionsResolve.js';
 import { FEEDS, TAMES, CYCLE_LINE } from '../../content/cycles.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
@@ -301,6 +302,8 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
 
 
   const elScreen = elOpen ? buildElementScreen(m, elOpen) : null;
+  // The element's seats (REA_02 §5e echo): the positions this energy holds.
+  const elPositions = elScreen ? resolvePositions(chart).filter((p) => p.el === elScreen.el) : [];
   const glossary = buildGlossary(m);
   const condIcon = m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged';
   const fnNote = fnOpen ? glossary[fnOpen] : null;
@@ -568,6 +571,21 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                   <div className="cardstock"><span className="laylab">ITS RULING DOMAINS</span>
                     <p className="body2" style={{ margin: '0 0 6px' }}>Through <b>{elScreen.persona}</b>, this energy rules these grounds of your life.</p>
                     <div className="el-adj">{elScreen.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
+                    {/* the element's seats — its named positions (REA_02 §5e) */}
+                    {elPositions.length ? (
+                      <div className="elpos">
+                        <span className="elpos-lead">In your chart, it holds {elPositions.length === 1 ? 'this seat' : 'these seats'}:</span>
+                        {elPositions.map((p) => (
+                          <div className="elpos-row" key={p.id}>
+                            <span className="elpos-slot">{p.slotZh}</span>
+                            <span className="elpos-term">{p.term}<span className="elpos-zh">{p.termZh}</span></span>
+                          </div>
+                        ))}
+                        <p className="elpos-note">The full position readings live on your Pillar Chart.</p>
+                      </div>
+                    ) : (
+                      <p className="elpos-none">This energy holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.</p>
+                    )}
                     {elScreen.k2?.domain_readings && (tier !== 'free' ? (
                       <div className="el-domreads">
                         {Object.entries(elScreen.k2.domain_readings).map(([d, txt]) => (

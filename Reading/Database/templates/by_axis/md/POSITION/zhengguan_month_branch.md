@@ -1,4 +1,4 @@
-# 正官在月支 — The Magistrate inside the Career Gate  ·  POSITION archetype
+# 正官在月支 — The Magistrate inside the Month Gate  ·  POSITION archetype
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
@@ -8,7 +8,7 @@
 |---|---|
 | **axis** | POSITION |
 | **key** | 正官在月支 |
-| **canonical name** | The Magistrate inside the Career Gate |
+| **canonical name** | The Magistrate inside the Month Gate |
 | **construct** | TBD — ruled per-axis with the owner |
 | **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
@@ -17,9 +17,9 @@
 
 | Variable | Value |
 |---|---|
-| `term` | The Magistrate inside the Career Gate |
+| `term` | The Magistrate inside the Month Gate |
 | `term_zh` | 正官在月支 |
-| `gate` | Career Gate |
+| `gate` | Month Gate |
 | `slot_zh` | 月支 |
 | `slot_kind` | branch |
 | `domains` | Career · Growth · Social |

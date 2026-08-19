@@ -1,4 +1,4 @@
-# 七杀在年干 — The General at the Origin Gate  ·  POSITION archetype
+# 七杀在年干 — The General at the Year Gate  ·  POSITION archetype
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
@@ -8,7 +8,7 @@
 |---|---|
 | **axis** | POSITION |
 | **key** | 七杀在年干 |
-| **canonical name** | The General at the Origin Gate |
+| **canonical name** | The General at the Year Gate |
 | **construct** | TBD — ruled per-axis with the owner |
 | **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
@@ -17,11 +17,11 @@
 
 | Variable | Value |
 |---|---|
-| `term` | The General at the Origin Gate |
+| `term` | The General at the Year Gate |
 | `term_zh` | 七杀在年干 |
-| `gate` | Origin Gate |
+| `gate` | Year Gate |
 | `slot_zh` | 年干 |
 | `slot_kind` | stem |
 | `domains` | Social · Career |
-| `defline` | The General stands at your Origin Gate: the world’s first read of you is force. |
+| `defline` | The General stands at your Year Gate: the world’s first read of you is force. |
 | `reading` | This position rules Social and Career. You broadcast intensity before you speak: strangers sit straighter around you and assume you are in charge, which becomes true suspiciously often. An early life with real pressure in it forged the bearing. Command is your resting state, so choose consciously when to holster it. The presence that wins you authority costs you ease. Off duty, show your hands. People follow longer when they stop bracing. |

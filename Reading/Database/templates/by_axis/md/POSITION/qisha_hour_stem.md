@@ -1,4 +1,4 @@
-# 七杀在时干 — The General at the Legacy Gate  ·  POSITION archetype
+# 七杀在时干 — The General at the Hour Gate  ·  POSITION archetype
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
@@ -8,7 +8,7 @@
 |---|---|
 | **axis** | POSITION |
 | **key** | 七杀在时干 |
-| **canonical name** | The General at the Legacy Gate |
+| **canonical name** | The General at the Hour Gate |
 | **construct** | TBD — ruled per-axis with the owner |
 | **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
@@ -17,11 +17,11 @@
 
 | Variable | Value |
 |---|---|
-| `term` | The General at the Legacy Gate |
+| `term` | The General at the Hour Gate |
 | `term_zh` | 七杀在时干 |
-| `gate` | Legacy Gate |
+| `gate` | Hour Gate |
 | `slot_zh` | 时干 |
 | `slot_kind` | stem |
 | `domains` | Career · Growth · Family |
-| `defline` | The General stands at your Legacy Gate: your later years keep rank, and the young feel it. |
+| `defline` | The General stands at your Hour Gate: your later years keep rank, and the young feel it. |
 | `reading` | This position rules Career and Growth in their late forms, and it shapes Family. You do not disarm with age: the closing decades hold your largest commands, institutions steered, standards enforced, successors drilled. The young inherit your discipline and fear your judgment in equal measure. Soften the delivery, never the standard. A last campaign led warmly is the difference between being obeyed to the end and being loved past it. |

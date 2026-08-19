@@ -1,4 +1,4 @@
-# 偏财在时支 — The Horizon inside the Legacy Gate  ·  POSITION archetype
+# 偏财在时支 — The Horizon inside the Hour Gate  ·  POSITION archetype
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
@@ -8,7 +8,7 @@
 |---|---|
 | **axis** | POSITION |
 | **key** | 偏财在时支 |
-| **canonical name** | The Horizon inside the Legacy Gate |
+| **canonical name** | The Horizon inside the Hour Gate |
 | **construct** | TBD — ruled per-axis with the owner |
 | **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
@@ -17,11 +17,11 @@
 
 | Variable | Value |
 |---|---|
-| `term` | The Horizon inside the Legacy Gate |
+| `term` | The Horizon inside the Hour Gate |
 | `term_zh` | 偏财在时支 |
-| `gate` | Legacy Gate |
+| `gate` | Hour Gate |
 | `slot_zh` | 时支 |
 | `slot_kind` | branch |
 | `domains` | Family · Wealth |
-| `defline` | Opportunity lives inside your Legacy Gate: your harvest arrives from many fields, some you forgot planting. |
+| `defline` | Opportunity lives inside your Hour Gate: your harvest arrives from many fields, some you forgot planting. |
 | `reading` | This position rules Family and Wealth at the root of late life. Your endings gather widely: far-flung children, scattered investments, kindnesses returning decades late from people you barely remember helping. It makes for a rich, slightly unmappable harvest. Consolidate gently in your fifties, name things, gather papers, tell the stories that explain the assets. A wide life ends warmest when someone can find all of it. |

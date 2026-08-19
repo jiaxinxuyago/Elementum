@@ -1,4 +1,4 @@
-# 正财在时干 — The Steward at the Legacy Gate  ·  POSITION archetype
+# 正财在时干 — The Steward at the Hour Gate  ·  POSITION archetype
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
@@ -8,7 +8,7 @@
 |---|---|
 | **axis** | POSITION |
 | **key** | 正财在时干 |
-| **canonical name** | The Steward at the Legacy Gate |
+| **canonical name** | The Steward at the Hour Gate |
 | **construct** | TBD — ruled per-axis with the owner |
 | **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
@@ -17,11 +17,11 @@
 
 | Variable | Value |
 |---|---|
-| `term` | The Steward at the Legacy Gate |
+| `term` | The Steward at the Hour Gate |
 | `term_zh` | 正财在时干 |
-| `gate` | Legacy Gate |
+| `gate` | Hour Gate |
 | `slot_zh` | 时干 |
 | `slot_kind` | stem |
 | `domains` | Wealth · Family |
-| `defline` | The Steward stands at your Legacy Gate: what you show the future is order, provided for. |
+| `defline` | The Steward stands at your Hour Gate: what you show the future is order, provided for. |
 | `reading` | This position rules Wealth and Family in their closing forms. You will finish organized: the will written, the roof sound, the accounts explicable to a tired executor. It is a genuine kindness, the last chore done for people you love. Pass on the craft along with the capital, and teach the young maintenance before they inherit machines. And leave one line item for delight. Even a perfect ledger should end on a gift. |

@@ -1,4 +1,4 @@
-# 食神在月支 — The Artisan inside the Career Gate  ·  POSITION archetype
+# 食神在月支 — The Artisan inside the Month Gate  ·  POSITION archetype
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
@@ -8,7 +8,7 @@
 |---|---|
 | **axis** | POSITION |
 | **key** | 食神在月支 |
-| **canonical name** | The Artisan inside the Career Gate |
+| **canonical name** | The Artisan inside the Month Gate |
 | **construct** | TBD — ruled per-axis with the owner |
 | **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
@@ -17,9 +17,9 @@
 
 | Variable | Value |
 |---|---|
-| `term` | The Artisan inside the Career Gate |
+| `term` | The Artisan inside the Month Gate |
 | `term_zh` | 食神在月支 |
-| `gate` | Career Gate |
+| `gate` | Month Gate |
 | `slot_zh` | 月支 |
 | `slot_kind` | branch |
 | `domains` | Career · Health |

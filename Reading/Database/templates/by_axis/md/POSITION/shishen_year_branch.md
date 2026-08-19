@@ -1,4 +1,4 @@
-# 食神在年支 — The Artisan inside the Origin Gate  ·  POSITION archetype
+# 食神在年支 — The Artisan inside the Year Gate  ·  POSITION archetype
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
@@ -8,7 +8,7 @@
 |---|---|
 | **axis** | POSITION |
 | **key** | 食神在年支 |
-| **canonical name** | The Artisan inside the Origin Gate |
+| **canonical name** | The Artisan inside the Year Gate |
 | **construct** | TBD — ruled per-axis with the owner |
 | **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
@@ -17,11 +17,11 @@
 
 | Variable | Value |
 |---|---|
-| `term` | The Artisan inside the Origin Gate |
+| `term` | The Artisan inside the Year Gate |
 | `term_zh` | 食神在年支 |
-| `gate` | Origin Gate |
+| `gate` | Year Gate |
 | `slot_zh` | 年支 |
 | `slot_kind` | branch |
 | `domains` | Family · Health |
-| `defline` | The Artisan lives inside your Origin Gate: the root of your early world was nourishment, given and remembered. |
+| `defline` | The Artisan lives inside your Year Gate: the root of your early world was nourishment, given and remembered. |
 | `reading` | This position rules Family and Health. Somewhere early, someone fed you well, in meals or in patience, and the root took: you carry an instinct for care that feels ancestral. Your body keeps score gently but honestly, thriving on rhythm, rest, and pleasure taken without guilt. Recreate the nourishing house you came from, or the one you wish you had. For you, wellbeing is not maintenance. It is lineage. |

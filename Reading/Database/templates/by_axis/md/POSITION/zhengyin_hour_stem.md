@@ -1,4 +1,4 @@
-# 正印在时干 — The Sage at the Legacy Gate  ·  POSITION archetype
+# 正印在时干 — The Sage at the Hour Gate  ·  POSITION archetype
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
@@ -8,7 +8,7 @@
 |---|---|
 | **axis** | POSITION |
 | **key** | 正印在时干 |
-| **canonical name** | The Sage at the Legacy Gate |
+| **canonical name** | The Sage at the Hour Gate |
 | **construct** | TBD — ruled per-axis with the owner |
 | **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
@@ -17,11 +17,11 @@
 
 | Variable | Value |
 |---|---|
-| `term` | The Sage at the Legacy Gate |
+| `term` | The Sage at the Hour Gate |
 | `term_zh` | 正印在时干 |
-| `gate` | Legacy Gate |
+| `gate` | Hour Gate |
 | `slot_zh` | 时干 |
 | `slot_kind` | stem |
 | `domains` | Family · Growth · Mind |
-| `defline` | Care stands at your Legacy Gate: what you show the future is teaching, given freely. |
+| `defline` | Care stands at your Hour Gate: what you show the future is teaching, given freely. |
 | `reading` | This position rules Family and Growth in their closing forms. Your later years turn maternal regardless of gender: students gathered, grandchildren tutored, juniors shielded while they find their feet. Knowledge is your bequest and you will give it away with both hands, correctly. Guard against rescuing the young from their necessary storms. The last lesson a great teacher gives is stepping back. Shelter that knows when to open is the kind that gets remembered. |

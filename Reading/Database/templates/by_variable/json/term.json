@@ -6,422 +6,422 @@
       {
         "id": "bijian_year_stem",
         "key": "比肩在年干",
-        "canonical_name": "The Twin at the Origin Gate",
-        "value": "The Twin at the Origin Gate"
+        "canonical_name": "The Twin at the Year Gate",
+        "value": "The Twin at the Year Gate"
       },
       {
         "id": "bijian_year_branch",
         "key": "比肩在年支",
-        "canonical_name": "The Twin inside the Origin Gate",
-        "value": "The Twin inside the Origin Gate"
+        "canonical_name": "The Twin inside the Year Gate",
+        "value": "The Twin inside the Year Gate"
       },
       {
         "id": "bijian_month_stem",
         "key": "比肩在月干",
-        "canonical_name": "The Twin at the Career Gate",
-        "value": "The Twin at the Career Gate"
+        "canonical_name": "The Twin at the Month Gate",
+        "value": "The Twin at the Month Gate"
       },
       {
         "id": "bijian_month_branch",
         "key": "比肩在月支",
-        "canonical_name": "The Twin inside the Career Gate",
-        "value": "The Twin inside the Career Gate"
+        "canonical_name": "The Twin inside the Month Gate",
+        "value": "The Twin inside the Month Gate"
       },
       {
         "id": "bijian_day_branch",
         "key": "比肩在日支",
-        "canonical_name": "The Twin inside the Partner Gate",
-        "value": "The Twin inside the Partner Gate"
+        "canonical_name": "The Twin inside the Day Gate",
+        "value": "The Twin inside the Day Gate"
       },
       {
         "id": "bijian_hour_stem",
         "key": "比肩在时干",
-        "canonical_name": "The Twin at the Legacy Gate",
-        "value": "The Twin at the Legacy Gate"
+        "canonical_name": "The Twin at the Hour Gate",
+        "value": "The Twin at the Hour Gate"
       },
       {
         "id": "bijian_hour_branch",
         "key": "比肩在时支",
-        "canonical_name": "The Twin inside the Legacy Gate",
-        "value": "The Twin inside the Legacy Gate"
+        "canonical_name": "The Twin inside the Hour Gate",
+        "value": "The Twin inside the Hour Gate"
       },
       {
         "id": "jiecai_year_stem",
         "key": "劫财在年干",
-        "canonical_name": "The Rival at the Origin Gate",
-        "value": "The Rival at the Origin Gate"
+        "canonical_name": "The Rival at the Year Gate",
+        "value": "The Rival at the Year Gate"
       },
       {
         "id": "jiecai_year_branch",
         "key": "劫财在年支",
-        "canonical_name": "The Rival inside the Origin Gate",
-        "value": "The Rival inside the Origin Gate"
+        "canonical_name": "The Rival inside the Year Gate",
+        "value": "The Rival inside the Year Gate"
       },
       {
         "id": "jiecai_month_stem",
         "key": "劫财在月干",
-        "canonical_name": "The Rival at the Career Gate",
-        "value": "The Rival at the Career Gate"
+        "canonical_name": "The Rival at the Month Gate",
+        "value": "The Rival at the Month Gate"
       },
       {
         "id": "jiecai_month_branch",
         "key": "劫财在月支",
-        "canonical_name": "The Rival inside the Career Gate",
-        "value": "The Rival inside the Career Gate"
+        "canonical_name": "The Rival inside the Month Gate",
+        "value": "The Rival inside the Month Gate"
       },
       {
         "id": "jiecai_day_branch",
         "key": "劫财在日支",
-        "canonical_name": "The Rival inside the Partner Gate",
-        "value": "The Rival inside the Partner Gate"
+        "canonical_name": "The Rival inside the Day Gate",
+        "value": "The Rival inside the Day Gate"
       },
       {
         "id": "jiecai_hour_stem",
         "key": "劫财在时干",
-        "canonical_name": "The Rival at the Legacy Gate",
-        "value": "The Rival at the Legacy Gate"
+        "canonical_name": "The Rival at the Hour Gate",
+        "value": "The Rival at the Hour Gate"
       },
       {
         "id": "jiecai_hour_branch",
         "key": "劫财在时支",
-        "canonical_name": "The Rival inside the Legacy Gate",
-        "value": "The Rival inside the Legacy Gate"
+        "canonical_name": "The Rival inside the Hour Gate",
+        "value": "The Rival inside the Hour Gate"
       },
       {
         "id": "shishen_year_stem",
         "key": "食神在年干",
-        "canonical_name": "The Artisan at the Origin Gate",
-        "value": "The Artisan at the Origin Gate"
+        "canonical_name": "The Artisan at the Year Gate",
+        "value": "The Artisan at the Year Gate"
       },
       {
         "id": "shishen_year_branch",
         "key": "食神在年支",
-        "canonical_name": "The Artisan inside the Origin Gate",
-        "value": "The Artisan inside the Origin Gate"
+        "canonical_name": "The Artisan inside the Year Gate",
+        "value": "The Artisan inside the Year Gate"
       },
       {
         "id": "shishen_month_stem",
         "key": "食神在月干",
-        "canonical_name": "The Artisan at the Career Gate",
-        "value": "The Artisan at the Career Gate"
+        "canonical_name": "The Artisan at the Month Gate",
+        "value": "The Artisan at the Month Gate"
       },
       {
         "id": "shishen_month_branch",
         "key": "食神在月支",
-        "canonical_name": "The Artisan inside the Career Gate",
-        "value": "The Artisan inside the Career Gate"
+        "canonical_name": "The Artisan inside the Month Gate",
+        "value": "The Artisan inside the Month Gate"
       },
       {
         "id": "shishen_day_branch",
         "key": "食神在日支",
-        "canonical_name": "The Artisan inside the Partner Gate",
-        "value": "The Artisan inside the Partner Gate"
+        "canonical_name": "The Artisan inside the Day Gate",
+        "value": "The Artisan inside the Day Gate"
       },
       {
         "id": "shishen_hour_stem",
         "key": "食神在时干",
-        "canonical_name": "The Artisan at the Legacy Gate",
-        "value": "The Artisan at the Legacy Gate"
+        "canonical_name": "The Artisan at the Hour Gate",
+        "value": "The Artisan at the Hour Gate"
       },
       {
         "id": "shishen_hour_branch",
         "key": "食神在时支",
-        "canonical_name": "The Artisan inside the Legacy Gate",
-        "value": "The Artisan inside the Legacy Gate"
+        "canonical_name": "The Artisan inside the Hour Gate",
+        "value": "The Artisan inside the Hour Gate"
       },
       {
         "id": "shangguan_year_stem",
         "key": "伤官在年干",
-        "canonical_name": "The Virtuoso at the Origin Gate",
-        "value": "The Virtuoso at the Origin Gate"
+        "canonical_name": "The Virtuoso at the Year Gate",
+        "value": "The Virtuoso at the Year Gate"
       },
       {
         "id": "shangguan_year_branch",
         "key": "伤官在年支",
-        "canonical_name": "The Virtuoso inside the Origin Gate",
-        "value": "The Virtuoso inside the Origin Gate"
+        "canonical_name": "The Virtuoso inside the Year Gate",
+        "value": "The Virtuoso inside the Year Gate"
       },
       {
         "id": "shangguan_month_stem",
         "key": "伤官在月干",
-        "canonical_name": "The Virtuoso at the Career Gate",
-        "value": "The Virtuoso at the Career Gate"
+        "canonical_name": "The Virtuoso at the Month Gate",
+        "value": "The Virtuoso at the Month Gate"
       },
       {
         "id": "shangguan_month_branch",
         "key": "伤官在月支",
-        "canonical_name": "The Virtuoso inside the Career Gate",
-        "value": "The Virtuoso inside the Career Gate"
+        "canonical_name": "The Virtuoso inside the Month Gate",
+        "value": "The Virtuoso inside the Month Gate"
       },
       {
         "id": "shangguan_day_branch",
         "key": "伤官在日支",
-        "canonical_name": "The Virtuoso inside the Partner Gate",
-        "value": "The Virtuoso inside the Partner Gate"
+        "canonical_name": "The Virtuoso inside the Day Gate",
+        "value": "The Virtuoso inside the Day Gate"
       },
       {
         "id": "shangguan_hour_stem",
         "key": "伤官在时干",
-        "canonical_name": "The Virtuoso at the Legacy Gate",
-        "value": "The Virtuoso at the Legacy Gate"
+        "canonical_name": "The Virtuoso at the Hour Gate",
+        "value": "The Virtuoso at the Hour Gate"
       },
       {
         "id": "shangguan_hour_branch",
         "key": "伤官在时支",
-        "canonical_name": "The Virtuoso inside the Legacy Gate",
-        "value": "The Virtuoso inside the Legacy Gate"
+        "canonical_name": "The Virtuoso inside the Hour Gate",
+        "value": "The Virtuoso inside the Hour Gate"
       },
       {
         "id": "piancai_year_stem",
         "key": "偏财在年干",
-        "canonical_name": "The Horizon at the Origin Gate",
-        "value": "The Horizon at the Origin Gate"
+        "canonical_name": "The Horizon at the Year Gate",
+        "value": "The Horizon at the Year Gate"
       },
       {
         "id": "piancai_year_branch",
         "key": "偏财在年支",
-        "canonical_name": "The Horizon inside the Origin Gate",
-        "value": "The Horizon inside the Origin Gate"
+        "canonical_name": "The Horizon inside the Year Gate",
+        "value": "The Horizon inside the Year Gate"
       },
       {
         "id": "piancai_month_stem",
         "key": "偏财在月干",
-        "canonical_name": "The Horizon at the Career Gate",
-        "value": "The Horizon at the Career Gate"
+        "canonical_name": "The Horizon at the Month Gate",
+        "value": "The Horizon at the Month Gate"
       },
       {
         "id": "piancai_month_branch",
         "key": "偏财在月支",
-        "canonical_name": "The Horizon inside the Career Gate",
-        "value": "The Horizon inside the Career Gate"
+        "canonical_name": "The Horizon inside the Month Gate",
+        "value": "The Horizon inside the Month Gate"
       },
       {
         "id": "piancai_day_branch",
         "key": "偏财在日支",
-        "canonical_name": "The Horizon inside the Partner Gate",
-        "value": "The Horizon inside the Partner Gate"
+        "canonical_name": "The Horizon inside the Day Gate",
+        "value": "The Horizon inside the Day Gate"
       },
       {
         "id": "piancai_hour_stem",
         "key": "偏财在时干",
-        "canonical_name": "The Horizon at the Legacy Gate",
-        "value": "The Horizon at the Legacy Gate"
+        "canonical_name": "The Horizon at the Hour Gate",
+        "value": "The Horizon at the Hour Gate"
       },
       {
         "id": "piancai_hour_branch",
         "key": "偏财在时支",
-        "canonical_name": "The Horizon inside the Legacy Gate",
-        "value": "The Horizon inside the Legacy Gate"
+        "canonical_name": "The Horizon inside the Hour Gate",
+        "value": "The Horizon inside the Hour Gate"
       },
       {
         "id": "zhengcai_year_stem",
         "key": "正财在年干",
-        "canonical_name": "The Steward at the Origin Gate",
-        "value": "The Steward at the Origin Gate"
+        "canonical_name": "The Steward at the Year Gate",
+        "value": "The Steward at the Year Gate"
       },
       {
         "id": "zhengcai_year_branch",
         "key": "正财在年支",
-        "canonical_name": "The Steward inside the Origin Gate",
-        "value": "The Steward inside the Origin Gate"
+        "canonical_name": "The Steward inside the Year Gate",
+        "value": "The Steward inside the Year Gate"
       },
       {
         "id": "zhengcai_month_stem",
         "key": "正财在月干",
-        "canonical_name": "The Steward at the Career Gate",
-        "value": "The Steward at the Career Gate"
+        "canonical_name": "The Steward at the Month Gate",
+        "value": "The Steward at the Month Gate"
       },
       {
         "id": "zhengcai_month_branch",
         "key": "正财在月支",
-        "canonical_name": "The Steward inside the Career Gate",
-        "value": "The Steward inside the Career Gate"
+        "canonical_name": "The Steward inside the Month Gate",
+        "value": "The Steward inside the Month Gate"
       },
       {
         "id": "zhengcai_day_branch",
         "key": "正财在日支",
-        "canonical_name": "The Steward inside the Partner Gate",
-        "value": "The Steward inside the Partner Gate"
+        "canonical_name": "The Steward inside the Day Gate",
+        "value": "The Steward inside the Day Gate"
       },
       {
         "id": "zhengcai_hour_stem",
         "key": "正财在时干",
-        "canonical_name": "The Steward at the Legacy Gate",
-        "value": "The Steward at the Legacy Gate"
+        "canonical_name": "The Steward at the Hour Gate",
+        "value": "The Steward at the Hour Gate"
       },
       {
         "id": "zhengcai_hour_branch",
         "key": "正财在时支",
-        "canonical_name": "The Steward inside the Legacy Gate",
-        "value": "The Steward inside the Legacy Gate"
+        "canonical_name": "The Steward inside the Hour Gate",
+        "value": "The Steward inside the Hour Gate"
       },
       {
         "id": "qisha_year_stem",
         "key": "七杀在年干",
-        "canonical_name": "The General at the Origin Gate",
-        "value": "The General at the Origin Gate"
+        "canonical_name": "The General at the Year Gate",
+        "value": "The General at the Year Gate"
       },
       {
         "id": "qisha_year_branch",
         "key": "七杀在年支",
-        "canonical_name": "The General inside the Origin Gate",
-        "value": "The General inside the Origin Gate"
+        "canonical_name": "The General inside the Year Gate",
+        "value": "The General inside the Year Gate"
       },
       {
         "id": "qisha_month_stem",
         "key": "七杀在月干",
-        "canonical_name": "The General at the Career Gate",
-        "value": "The General at the Career Gate"
+        "canonical_name": "The General at the Month Gate",
+        "value": "The General at the Month Gate"
       },
       {
         "id": "qisha_month_branch",
         "key": "七杀在月支",
-        "canonical_name": "The General inside the Career Gate",
-        "value": "The General inside the Career Gate"
+        "canonical_name": "The General inside the Month Gate",
+        "value": "The General inside the Month Gate"
       },
       {
         "id": "qisha_day_branch",
         "key": "七杀在日支",
-        "canonical_name": "The General inside the Partner Gate",
-        "value": "The General inside the Partner Gate"
+        "canonical_name": "The General inside the Day Gate",
+        "value": "The General inside the Day Gate"
       },
       {
         "id": "qisha_hour_stem",
         "key": "七杀在时干",
-        "canonical_name": "The General at the Legacy Gate",
-        "value": "The General at the Legacy Gate"
+        "canonical_name": "The General at the Hour Gate",
+        "value": "The General at the Hour Gate"
       },
       {
         "id": "qisha_hour_branch",
         "key": "七杀在时支",
-        "canonical_name": "The General inside the Legacy Gate",
-        "value": "The General inside the Legacy Gate"
+        "canonical_name": "The General inside the Hour Gate",
+        "value": "The General inside the Hour Gate"
       },
       {
         "id": "zhengguan_year_stem",
         "key": "正官在年干",
-        "canonical_name": "The Magistrate at the Origin Gate",
-        "value": "The Magistrate at the Origin Gate"
+        "canonical_name": "The Magistrate at the Year Gate",
+        "value": "The Magistrate at the Year Gate"
       },
       {
         "id": "zhengguan_year_branch",
         "key": "正官在年支",
-        "canonical_name": "The Magistrate inside the Origin Gate",
-        "value": "The Magistrate inside the Origin Gate"
+        "canonical_name": "The Magistrate inside the Year Gate",
+        "value": "The Magistrate inside the Year Gate"
       },
       {
         "id": "zhengguan_month_stem",
         "key": "正官在月干",
-        "canonical_name": "The Magistrate at the Career Gate",
-        "value": "The Magistrate at the Career Gate"
+        "canonical_name": "The Magistrate at the Month Gate",
+        "value": "The Magistrate at the Month Gate"
       },
       {
         "id": "zhengguan_month_branch",
         "key": "正官在月支",
-        "canonical_name": "The Magistrate inside the Career Gate",
-        "value": "The Magistrate inside the Career Gate"
+        "canonical_name": "The Magistrate inside the Month Gate",
+        "value": "The Magistrate inside the Month Gate"
       },
       {
         "id": "zhengguan_day_branch",
         "key": "正官在日支",
-        "canonical_name": "The Magistrate inside the Partner Gate",
-        "value": "The Magistrate inside the Partner Gate"
+        "canonical_name": "The Magistrate inside the Day Gate",
+        "value": "The Magistrate inside the Day Gate"
       },
       {
         "id": "zhengguan_hour_stem",
         "key": "正官在时干",
-        "canonical_name": "The Magistrate at the Legacy Gate",
-        "value": "The Magistrate at the Legacy Gate"
+        "canonical_name": "The Magistrate at the Hour Gate",
+        "value": "The Magistrate at the Hour Gate"
       },
       {
         "id": "zhengguan_hour_branch",
         "key": "正官在时支",
-        "canonical_name": "The Magistrate inside the Legacy Gate",
-        "value": "The Magistrate inside the Legacy Gate"
+        "canonical_name": "The Magistrate inside the Hour Gate",
+        "value": "The Magistrate inside the Hour Gate"
       },
       {
         "id": "pianyin_year_stem",
         "key": "偏印在年干",
-        "canonical_name": "The Alchemist at the Origin Gate",
-        "value": "The Alchemist at the Origin Gate"
+        "canonical_name": "The Alchemist at the Year Gate",
+        "value": "The Alchemist at the Year Gate"
       },
       {
         "id": "pianyin_year_branch",
         "key": "偏印在年支",
-        "canonical_name": "The Alchemist inside the Origin Gate",
-        "value": "The Alchemist inside the Origin Gate"
+        "canonical_name": "The Alchemist inside the Year Gate",
+        "value": "The Alchemist inside the Year Gate"
       },
       {
         "id": "pianyin_month_stem",
         "key": "偏印在月干",
-        "canonical_name": "The Alchemist at the Career Gate",
-        "value": "The Alchemist at the Career Gate"
+        "canonical_name": "The Alchemist at the Month Gate",
+        "value": "The Alchemist at the Month Gate"
       },
       {
         "id": "pianyin_month_branch",
         "key": "偏印在月支",
-        "canonical_name": "The Alchemist inside the Career Gate",
-        "value": "The Alchemist inside the Career Gate"
+        "canonical_name": "The Alchemist inside the Month Gate",
+        "value": "The Alchemist inside the Month Gate"
       },
       {
         "id": "pianyin_day_branch",
         "key": "偏印在日支",
-        "canonical_name": "The Alchemist inside the Partner Gate",
-        "value": "The Alchemist inside the Partner Gate"
+        "canonical_name": "The Alchemist inside the Day Gate",
+        "value": "The Alchemist inside the Day Gate"
       },
       {
         "id": "pianyin_hour_stem",
         "key": "偏印在时干",
-        "canonical_name": "The Alchemist at the Legacy Gate",
-        "value": "The Alchemist at the Legacy Gate"
+        "canonical_name": "The Alchemist at the Hour Gate",
+        "value": "The Alchemist at the Hour Gate"
       },
       {
         "id": "pianyin_hour_branch",
         "key": "偏印在时支",
-        "canonical_name": "The Alchemist inside the Legacy Gate",
-        "value": "The Alchemist inside the Legacy Gate"
+        "canonical_name": "The Alchemist inside the Hour Gate",
+        "value": "The Alchemist inside the Hour Gate"
       },
       {
         "id": "zhengyin_year_stem",
         "key": "正印在年干",
-        "canonical_name": "The Sage at the Origin Gate",
-        "value": "The Sage at the Origin Gate"
+        "canonical_name": "The Sage at the Year Gate",
+        "value": "The Sage at the Year Gate"
       },
       {
         "id": "zhengyin_year_branch",
         "key": "正印在年支",
-        "canonical_name": "The Sage inside the Origin Gate",
-        "value": "The Sage inside the Origin Gate"
+        "canonical_name": "The Sage inside the Year Gate",
+        "value": "The Sage inside the Year Gate"
       },
       {
         "id": "zhengyin_month_stem",
         "key": "正印在月干",
-        "canonical_name": "The Sage at the Career Gate",
-        "value": "The Sage at the Career Gate"
+        "canonical_name": "The Sage at the Month Gate",
+        "value": "The Sage at the Month Gate"
       },
       {
         "id": "zhengyin_month_branch",
         "key": "正印在月支",
-        "canonical_name": "The Sage inside the Career Gate",
-        "value": "The Sage inside the Career Gate"
+        "canonical_name": "The Sage inside the Month Gate",
+        "value": "The Sage inside the Month Gate"
       },
       {
         "id": "zhengyin_day_branch",
         "key": "正印在日支",
-        "canonical_name": "The Sage inside the Partner Gate",
-        "value": "The Sage inside the Partner Gate"
+        "canonical_name": "The Sage inside the Day Gate",
+        "value": "The Sage inside the Day Gate"
       },
       {
         "id": "zhengyin_hour_stem",
         "key": "正印在时干",
-        "canonical_name": "The Sage at the Legacy Gate",
-        "value": "The Sage at the Legacy Gate"
+        "canonical_name": "The Sage at the Hour Gate",
+        "value": "The Sage at the Hour Gate"
       },
       {
         "id": "zhengyin_hour_branch",
         "key": "正印在时支",
-        "canonical_name": "The Sage inside the Legacy Gate",
-        "value": "The Sage inside the Legacy Gate"
+        "canonical_name": "The Sage inside the Hour Gate",
+        "value": "The Sage inside the Hour Gate"
       }
     ],
     "CONDITION": [

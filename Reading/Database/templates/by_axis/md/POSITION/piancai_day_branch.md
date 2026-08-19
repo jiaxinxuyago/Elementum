@@ -1,4 +1,4 @@
-# 偏财在日支 — The Horizon inside the Partner Gate  ·  POSITION archetype
+# 偏财在日支 — The Horizon inside the Day Gate  ·  POSITION archetype
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
@@ -8,7 +8,7 @@
 |---|---|
 | **axis** | POSITION |
 | **key** | 偏财在日支 |
-| **canonical name** | The Horizon inside the Partner Gate |
+| **canonical name** | The Horizon inside the Day Gate |
 | **construct** | TBD — ruled per-axis with the owner |
 | **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
@@ -17,9 +17,9 @@
 
 | Variable | Value |
 |---|---|
-| `term` | The Horizon inside the Partner Gate |
+| `term` | The Horizon inside the Day Gate |
 | `term_zh` | 偏财在日支 |
-| `gate` | Partner Gate |
+| `gate` | Day Gate |
 | `slot_zh` | 日支 |
 | `slot_kind` | branch |
 | `domains` | Love · Social · Wealth |

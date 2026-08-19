@@ -1,4 +1,4 @@
-# 偏财在年干 — The Horizon at the Origin Gate  ·  POSITION archetype
+# 偏财在年干 — The Horizon at the Year Gate  ·  POSITION archetype
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
@@ -8,7 +8,7 @@
 |---|---|
 | **axis** | POSITION |
 | **key** | 偏财在年干 |
-| **canonical name** | The Horizon at the Origin Gate |
+| **canonical name** | The Horizon at the Year Gate |
 | **construct** | TBD — ruled per-axis with the owner |
 | **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
@@ -17,11 +17,11 @@
 
 | Variable | Value |
 |---|---|
-| `term` | The Horizon at the Origin Gate |
+| `term` | The Horizon at the Year Gate |
 | `term_zh` | 偏财在年干 |
-| `gate` | Origin Gate |
+| `gate` | Year Gate |
 | `slot_zh` | 年干 |
 | `slot_kind` | stem |
 | `domains` | Wealth · Family |
-| `defline` | Opportunity stands at your Origin Gate: fortune’s door was visible from your first address. |
+| `defline` | Opportunity stands at your Year Gate: fortune’s door was visible from your first address. |
 | `reading` | This position rules Wealth and Family. Money entered your story early as movement, a father or elder whose fortunes rose and traveled, a household that understood luck as something you go meet. You read openings the way others read menus, and generosity comes easily because you trust more will come. It usually does. Just distinguish the opportunities from the exits. A start this fluid teaches leaving too well. |
