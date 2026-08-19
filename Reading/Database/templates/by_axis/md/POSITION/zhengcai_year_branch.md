@@ -10,7 +10,7 @@
 | **key** | 正财在年支 |
 | **canonical name** | The Steward inside the Origin Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Origin Gate |
 | `slot_zh` | 年支 |
 | `slot_kind` | branch |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Family · Wealth |
+| `defline` | The Steward lives inside your Origin Gate: your root is a kept house, and it keeps you still. |
+| `reading` | This position rules Family and Wealth. The root of your beginnings is maintenance as love: someone paid the bills quietly, fixed things before they broke, and taught you that care looks like continuity. Security, for you, is a foundation stone rather than a preference. Build it early and honestly, then relax inside it. The risk of this root is confusing the vault with the life. The house was kept so living could happen. |

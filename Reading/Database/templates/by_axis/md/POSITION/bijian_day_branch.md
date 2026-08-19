@@ -10,7 +10,7 @@
 | **key** | 比肩在日支 |
 | **canonical name** | The Twin inside the Partner Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Partner Gate |
 | `slot_zh` | 日支 |
 | `slot_kind` | branch |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Love · Social |
+| `defline` | The Twin sits in your spouse palace: you partner as an equal, and only as an equal. |
+| `reading` | This position rules Love and Social. In close relationships you need a peer, someone whose spine matches yours, and romance built on leaning does not hold you. The home you make has two captains, which is its strength and its argument. Competition can slip into the kitchen: score-keeping, parallel lives, love as a quiet contest. Choose a partner you admire, then practice the one move the Twin resists. Letting them carry you sometimes. |

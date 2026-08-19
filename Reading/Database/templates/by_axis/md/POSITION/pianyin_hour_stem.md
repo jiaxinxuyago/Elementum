@@ -10,7 +10,7 @@
 | **key** | 偏印在时干 |
 | **canonical name** | The Alchemist at the Legacy Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Legacy Gate |
 | `slot_zh` | 时干 |
 | `slot_kind` | stem |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Mind · Growth · Career |
+| `defline` | The Alchemist stands at your Legacy Gate: your later output turns inward, and finer. |
+| `reading` | This position rules Mind and Growth in their late forms. Your closing decades are your deepest: the reading finally done, the framework finished, wisdom distilled past cleverness. Late study, for you, is a metamorphosis rather than a hobby, so expect a genuine second mind after sixty. Publish it, teach it, or at minimum write it down. The young will need your strange map exactly one generation after you stop being able to draw it. |

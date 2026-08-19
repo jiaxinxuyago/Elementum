@@ -10,7 +10,7 @@
 | **key** | 食神在月支 |
 | **canonical name** | The Artisan inside the Career Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Career Gate |
 | `slot_zh` | 月支 |
 | `slot_kind` | branch |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Career · Health |
+| `defline` | The Artisan holds your chart’s strongest seat: your prime runs on craft, flow, and sustainable pleasure. |
+| `reading` | This position rules Career and Health from the deepest seat there is. Your working prime is built for the long, warm road: mastery over grind, flow over force, a career shaped like a craft practiced daily until it feeds you. Burnout is your one real enemy, because it attacks the exact spring your success flows from. Choose work you could love for twenty years. In this chart, enjoyment is not a bonus. It is the engine. |

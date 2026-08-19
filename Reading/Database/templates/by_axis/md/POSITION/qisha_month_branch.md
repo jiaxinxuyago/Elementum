@@ -10,7 +10,7 @@
 | **key** | 七杀在月支 |
 | **canonical name** | The General inside the Career Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Career Gate |
 | `slot_zh` | 月支 |
 | `slot_kind` | branch |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Career · Health |
+| `defline` | The General holds your chart’s strongest seat: your prime is a campaign, won by discipline. |
+| `reading` | This position rules Career and Health from the chart’s deepest seat. Your prime years run at wartime spec: ambition with teeth, capacity that grows under load, a career of positions taken and held. You can carry what breaks colleagues, which is exactly why your body keeps the ledger your mind refuses. Sleep, train, and decompress on schedule, like logistics, because they are. Campaigns are lost two ways. Weak enemies never. Neglected supply lines, always. |

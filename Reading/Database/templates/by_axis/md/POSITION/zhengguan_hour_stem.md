@@ -10,7 +10,7 @@
 | **key** | 正官在时干 |
 | **canonical name** | The Magistrate at the Legacy Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Legacy Gate |
 | `slot_zh` | 时干 |
 | `slot_kind` | stem |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Family · Social · Career |
+| `defline` | Order stands at your Legacy Gate: what you show the future is standards, upheld to the end. |
+| `reading` | This position rules Family and Social in their closing forms, with Career’s last chapter inside them. You will finish as the standard-bearer: the elder whose approval means something, the name attached to endowments, rules, and doors. Heirs inherit your correctness, so demonstrate mercy alongside it, or they will inherit the cage too. Endorse the young loudly while you are alive to do it. A blessing given late is worth ten written into wills. |

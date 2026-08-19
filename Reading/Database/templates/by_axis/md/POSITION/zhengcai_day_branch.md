@@ -10,7 +10,7 @@
 | **key** | 正财在日支 |
 | **canonical name** | The Steward inside the Partner Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Partner Gate |
 | `slot_zh` | 日支 |
 | `slot_kind` | branch |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Love · Family |
+| `defline` | The Steward sits in your spouse palace: you love in deposits, steadily, for keeps. |
+| `reading` | This position rules Love and Family. Intimacy, for you, is a long account: loyalty paid in daily, promises kept until they are furniture, a partner chosen once and tended for decades. It is the marrying position, and it rewards you richly for choosing well, which means slowly. Beware love as maintenance only. Devotion needs occasional extravagance the way houses need windows. Waste something on them regularly. That, too, is keeping. |

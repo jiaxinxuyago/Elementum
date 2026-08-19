@@ -10,7 +10,7 @@
 | **key** | 劫财在月支 |
 | **canonical name** | The Rival inside the Career Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Career Gate |
 | `slot_zh` | 月支 |
 | `slot_kind` | branch |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Career · Wealth · Social |
+| `defline` | Inside your Career Gate runs the gambler’s current: your prime years are built for bold, shared ventures. |
+| `reading` | This position rules Career and Wealth, with Social close behind. The strongest seat of your chart runs on shared risk: partnerships, ventures, teams that bet together. Alone you are quick. Allied you are formidable, and the money follows the alliances. The same current drains carelessly: split equity, loose loans, friends who become expenses. Structure is not the enemy of your boldness. It is what lets you afford the next bet. |

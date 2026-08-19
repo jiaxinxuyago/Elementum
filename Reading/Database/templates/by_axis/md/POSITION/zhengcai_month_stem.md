@@ -10,7 +10,7 @@
 | **key** | 正财在月干 |
 | **canonical name** | The Steward at the Career Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Career Gate |
 | `slot_zh` | 月干 |
 | `slot_kind` | stem |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Career · Wealth |
+| `defline` | The Steward stands at your Career Gate: the working world sees the safe pair of hands. |
+| `reading` | This position rules Career and Wealth. Professionally you are trusted with things: budgets, operations, other people’s assets, the keys. Your reputation compounds slowly and never crashes, which in a long career beats brilliance. Fields of custody suit you, finance, management, land, law. You will be underestimated by flashier colleagues and outlast every one of them. Ask for the title you have already been doing. Stewards are promoted late mainly because they never demand it. |

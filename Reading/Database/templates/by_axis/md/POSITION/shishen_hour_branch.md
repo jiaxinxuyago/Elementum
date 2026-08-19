@@ -10,7 +10,7 @@
 | **key** | 食神在时支 |
 | **canonical name** | The Artisan inside the Legacy Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Legacy Gate |
 | `slot_zh` | 时支 |
 | `slot_kind` | branch |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Family · Health |
+| `defline` | The Artisan lives inside your Legacy Gate: your harvest is children, comfort, and a well-fed old age. |
+| `reading` | This position rules Family and Health at the root of late life. This is a blessed seat: children who stay warm toward you, appetites that survive age, an ending with flavor in it. It rewards early tending, the health kept now, the young fed patiently, the pleasures practiced rather than postponed. Build the orchard in your forties. This root intends you to sit in its shade, tasting what you planted. |

@@ -10,7 +10,7 @@
 | **key** | 比肩在月干 |
 | **canonical name** | The Twin at the Career Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Career Gate |
 | `slot_zh` | 月干 |
 | `slot_kind` | stem |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Career · Social |
+| `defline` | The Twin stands at your Career Gate: the working world sees a colleague who carries their own weight, visibly. |
+| `reading` | This position rules Career and Social. At work you read as the equal, never the subordinate: someone who takes a task and owns it whole. Colleagues trust you and rarely manage you, because managing you visibly fails. You rise on competence and independence rather than alliance. The cost sits close by: partnerships halve your speed, and you feel it. Learn to share the wheel on the long trips. The short ones are yours. |

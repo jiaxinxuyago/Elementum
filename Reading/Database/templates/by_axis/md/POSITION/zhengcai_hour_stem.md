@@ -10,7 +10,7 @@
 | **key** | 正财在时干 |
 | **canonical name** | The Steward at the Legacy Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Legacy Gate |
 | `slot_zh` | 时干 |
 | `slot_kind` | stem |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Wealth · Family |
+| `defline` | The Steward stands at your Legacy Gate: what you show the future is order, provided for. |
+| `reading` | This position rules Wealth and Family in their closing forms. You will finish organized: the will written, the roof sound, the accounts explicable to a tired executor. It is a genuine kindness, the last chore done for people you love. Pass on the craft along with the capital, and teach the young maintenance before they inherit machines. And leave one line item for delight. Even a perfect ledger should end on a gift. |

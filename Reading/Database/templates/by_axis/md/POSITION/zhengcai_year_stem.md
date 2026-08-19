@@ -10,7 +10,7 @@
 | **key** | 正财在年干 |
 | **canonical name** | The Steward at the Origin Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Origin Gate |
 | `slot_zh` | 年干 |
 | `slot_kind` | stem |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Wealth · Family |
+| `defline` | The Steward stands at your Origin Gate: prudence is the family trait your story shows first. |
+| `reading` | This position rules Wealth and Family. You come from keeping: a line that saved, maintained, and handed things down in working order. It shows in your visible reliability, people lend to you instinctively and are right to. Money is a craft you learned at the kitchen table. The inheritance to watch is fear dressed as thrift. Spend properly on what compounds, education, tools, health. The Steward’s art is not keeping everything. It is keeping what matters. |

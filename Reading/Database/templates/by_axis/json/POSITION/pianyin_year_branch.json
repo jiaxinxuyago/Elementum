@@ -8,15 +8,19 @@
   "sources": [
     "REA_02 §5e (position vocabulary) · engine pillar gods"
   ],
-  "status_note": "POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock",
+  "status_note": "POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it",
   "candidates": {
     "term": "The Alchemist inside the Origin Gate",
     "term_zh": "偏印在年支",
     "gate": "Origin Gate",
     "slot_zh": "年支",
     "slot_kind": "branch",
-    "domains": null,
-    "defline": null,
-    "reading": null
+    "domains": [
+      "Family",
+      "Mind",
+      "Growth"
+    ],
+    "defline": "The Alchemist lives inside your Origin Gate: your root drinks from an odd, deep well.",
+    "reading": "This position rules Family and Mind. The root of your story is unconventional nourishment: a lineage with a mystic, a scholar, or a beautiful crank in it, a childhood fed on books, silence, or secrets. You metabolize experience into meaning by inheritance. The same root can carry old loneliness forward. Study it like everything else you study. The family strangeness is your material, not your sentence."
   }
 }

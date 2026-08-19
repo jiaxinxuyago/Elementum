@@ -10,7 +10,7 @@
 | **key** | 比肩在月支 |
 | **canonical name** | The Twin inside the Career Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Career Gate |
 | `slot_zh` | 月支 |
 | `slot_kind` | branch |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Career · Growth |
+| `defline` | The Twin holds your chart’s strongest seat: your prime runs on self-reliance, built into the frame itself. |
+| `reading` | This position rules Career and Growth, from the deepest seat a chart has. The engine of your working life is your own two hands: you build careers you can hold alone, and you flourish where autonomy is real. Bosses either learn this or lose you. Money made with partners tends to blur, so keep the accounts clean and the equity written down. Your prime is self-propelled. Fuel it with skill, not just stubbornness. |

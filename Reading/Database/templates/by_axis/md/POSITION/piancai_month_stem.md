@@ -10,7 +10,7 @@
 | **key** | 偏财在月干 |
 | **canonical name** | The Horizon at the Career Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Career Gate |
 | `slot_zh` | 月干 |
 | `slot_kind` | stem |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Career · Wealth · Social |
+| `defline` | Opportunity stands at your Career Gate: the working world sees the dealmaker, already reaching. |
+| `reading` | This position rules Career and Wealth. Professionally you are the door-opener: territories, markets, introductions, the number that gets a first meeting. Careers with horizons suit you, trade, expansion, brokerage, anything where reach is rewarded. Desks kill you slowly. Your income will arrive in weathers rather than salaries, so build your life to metabolize a variable feast. The reach is the gift. The follow-through you must hire, marry, or become. |

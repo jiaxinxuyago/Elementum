@@ -10,7 +10,7 @@
 | **key** | 七杀在时干 |
 | **canonical name** | The General at the Legacy Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Legacy Gate |
 | `slot_zh` | 时干 |
 | `slot_kind` | stem |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Career · Growth · Family |
+| `defline` | The General stands at your Legacy Gate: your later years keep rank, and the young feel it. |
+| `reading` | This position rules Career and Growth in their late forms, and it shapes Family. You do not disarm with age: the closing decades hold your largest commands, institutions steered, standards enforced, successors drilled. The young inherit your discipline and fear your judgment in equal measure. Soften the delivery, never the standard. A last campaign led warmly is the difference between being obeyed to the end and being loved past it. |

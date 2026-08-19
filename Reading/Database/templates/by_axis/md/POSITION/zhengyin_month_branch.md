@@ -10,7 +10,7 @@
 | **key** | 正印在月支 |
 | **canonical name** | The Sage inside the Career Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Career Gate |
 | `slot_zh` | 月支 |
 | `slot_kind` | branch |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Mind · Career · Growth |
+| `defline` | Care holds your chart’s strongest seat: your prime is built on learning that never stops arriving. |
+| `reading` | This position rules Mind and Career from the deepest seat a chart has. Your prime runs on absorbed knowledge: you learn faster than your field produces, and your career compounds through understanding rather than positioning. Reputation arrives as trust, students, patients, readers, referrals. The hazard is passivity, knowing so much that doing feels optional. Ship something every season. In this chart, wisdom unapplied does not store. It sours. |

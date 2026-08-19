@@ -10,7 +10,7 @@
 | **key** | 劫财在时支 |
 | **canonical name** | The Rival inside the Legacy Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Legacy Gate |
 | `slot_zh` | 时支 |
 | `slot_kind` | branch |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Family · Wealth |
+| `defline` | Inside your Legacy Gate sits the shared harvest: what you build late in life is built with others. |
+| `reading` | This position rules Family and Wealth. Your harvest wants company: children, proteges, partners who hold a piece of what you made. Handled well, this is the warmest ending a chart can write, a table of people invested in each other. Handled loosely, it is an estate dispute. Decide early what is shared and what is sealed, and say it out loud while everyone still laughs easily. Generosity plans best before it is needed. |

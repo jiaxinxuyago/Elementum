@@ -10,7 +10,7 @@
 | **key** | 正官在月干 |
 | **canonical name** | The Magistrate at the Career Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Career Gate |
 | `slot_zh` | 月干 |
 | `slot_kind` | stem |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Career · Social |
+| `defline` | Order stands at your Career Gate: the working world sees an officer, promotable on sight. |
+| `reading` | This position rules Career and Social. You are built for institutions: rank reads on you, procedure obeys you, and ladders feel like home terrain. Government, law, corporations, any structured hierarchy will recognize and raise you. Your word is your collateral, so never spend it. The risk is the ladder itself, climbing well past the floor you wanted. Every few years, check the building. A perfect ascent in the wrong tower is still the wrong tower. |

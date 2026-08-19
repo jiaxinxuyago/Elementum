@@ -10,7 +10,7 @@
 | **key** | 正官在年干 |
 | **canonical name** | The Magistrate at the Origin Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Origin Gate |
 | `slot_zh` | 年干 |
 | `slot_kind` | stem |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Social · Family |
+| `defline` | Order stands at your Origin Gate: respectability is the first thing your story shows. |
+| `reading` | This position rules Social and Family. You were raised visible: a family with standards, a name to maintain, conduct watched and graded early. It gave you effortless propriety, people trust you on sight and put you on committees. The inheritance runs deep enough that shame is your sharpest pain. Keep the honor, drop the audience. A reputation is worth keeping only while it stays lighter than the person carrying it. |

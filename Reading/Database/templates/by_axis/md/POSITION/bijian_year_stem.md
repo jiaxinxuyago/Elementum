@@ -10,7 +10,7 @@
 | **key** | 比肩在年干 |
 | **canonical name** | The Twin at the Origin Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Origin Gate |
 | `slot_zh` | 年干 |
 | `slot_kind` | stem |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Social · Family |
+| `defline` | The Twin stands at your Origin Gate: independence is the first thing your story shows, inherited and worn openly. |
+| `reading` | This position rules Social and Family. Your line carries self-made people, and it shows: from early on you read as someone who stands on their own feet. Support from home came as example more than shelter, and you learned to treat help as optional. Peers matter to you the way siblings do, chosen and equal. Let some of them in past the handshake. Standing alone began as heritage. It does not have to be a habit. |

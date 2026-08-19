@@ -10,7 +10,7 @@
 | **key** | 劫财在年干 |
 | **canonical name** | The Rival at the Origin Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Origin Gate |
 | `slot_zh` | 年干 |
 | `slot_kind` | stem |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Wealth · Social |
+| `defline` | This bold companion stands at your Origin Gate: daring runs in the visible bloodline. |
+| `reading` | This position rules Wealth and Social. The world met you early as the fearless one, and some of that nerve was inherited: a family line of risk-takers, sharers, spenders, or all three. Money moved fast around your beginnings, in and out. You learned that fortune is a current, not a vault. Keep the boldness, it opens doors that patience cannot. Just notice who always seems to be holding your wallet when the music stops. |

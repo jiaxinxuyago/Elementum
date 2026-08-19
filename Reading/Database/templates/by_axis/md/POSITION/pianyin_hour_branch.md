@@ -10,7 +10,7 @@
 | **key** | 偏印在时支 |
 | **canonical name** | The Alchemist inside the Legacy Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Legacy Gate |
 | `slot_zh` | 时支 |
 | `slot_kind` | branch |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Family · Mind · Growth |
+| `defline` | The Alchemist lives inside your Legacy Gate: the root of your harvest is understanding, finally ripe. |
+| `reading` | This position rules Mind and Family at the root of late life. Your old age keeps a lit study: the elder others visit for the real conversation, the grandparent who explains what parents cannot. Solitude remains your medicine, so build a household that honors the closed door without fearing it. What you hand down is comprehension. Wrap it warmly. Understanding is the one inheritance that cannot be taxed, only ignored. |

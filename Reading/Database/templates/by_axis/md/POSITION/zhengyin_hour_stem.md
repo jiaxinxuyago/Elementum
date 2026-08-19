@@ -10,7 +10,7 @@
 | **key** | 正印在时干 |
 | **canonical name** | The Sage at the Legacy Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Legacy Gate |
 | `slot_zh` | 时干 |
 | `slot_kind` | stem |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Family · Growth · Mind |
+| `defline` | Care stands at your Legacy Gate: what you show the future is teaching, given freely. |
+| `reading` | This position rules Family and Growth in their closing forms. Your later years turn maternal regardless of gender: students gathered, grandchildren tutored, juniors shielded while they find their feet. Knowledge is your bequest and you will give it away with both hands, correctly. Guard against rescuing the young from their necessary storms. The last lesson a great teacher gives is stepping back. Shelter that knows when to open is the kind that gets remembered. |

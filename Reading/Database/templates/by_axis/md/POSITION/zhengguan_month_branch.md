@@ -10,7 +10,7 @@
 | **key** | 正官在月支 |
 | **canonical name** | The Magistrate inside the Career Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Career Gate |
 | `slot_zh` | 月支 |
 | `slot_kind` | branch |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Career · Growth · Social |
+| `defline` | Order holds your chart’s strongest seat: your prime is an office held with honor. |
+| `reading` | This position rules Career and Growth from the strongest seat there is. Your prime years belong to institutions: responsibility arrives early, titles fit, and your name becomes a small standard others measure by. You succeed by being dependable at scale. The hazard is calcification, order kept for its own sake while the mission quietly leaves. Re-read the mission yearly. You were made an officer to serve something. Keep remembering what. |

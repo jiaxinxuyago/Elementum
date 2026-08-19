@@ -10,7 +10,7 @@
 | **key** | 伤官在年干 |
 | **canonical name** | The Virtuoso at the Origin Gate |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock |
+| **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 
 ## Candidate variables
@@ -22,6 +22,6 @@
 | `gate` | Origin Gate |
 | `slot_zh` | 年干 |
 | `slot_kind` | stem |
-| `domains` | *(unauthored)* |
-| `defline` | *(unauthored)* |
-| `reading` | *(unauthored)* |
+| `domains` | Social · Mind |
+| `defline` | Brilliance stands at your Origin Gate: the first thing your story shows is a spark that refuses dimming. |
+| `reading` | This position rules Social and Mind. You were the noticeable child: quick-tongued, gifted, allergic to being underestimated. Early audiences shaped you, applause or the fight for it, and your public self still carries that shine and that chip. People remember meeting you. Some remember being scorched. The talent is genuine currency, so spend it on stages worth the light, and let small slights pass unanswered. Not every spark owes the world a fire. |

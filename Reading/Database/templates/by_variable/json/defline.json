@@ -7,355 +7,355 @@
         "id": "bijian_year_stem",
         "key": "比肩在年干",
         "canonical_name": "The Twin at the Origin Gate",
-        "value": null
+        "value": "The Twin stands at your Origin Gate: independence is the first thing your story shows, inherited and worn openly."
       },
       {
         "id": "bijian_year_branch",
         "key": "比肩在年支",
         "canonical_name": "The Twin inside the Origin Gate",
-        "value": null
+        "value": "The Twin lives inside your Origin Gate: the root of your early world was learning to hold your own."
       },
       {
         "id": "bijian_month_stem",
         "key": "比肩在月干",
         "canonical_name": "The Twin at the Career Gate",
-        "value": null
+        "value": "The Twin stands at your Career Gate: the working world sees a colleague who carries their own weight, visibly."
       },
       {
         "id": "bijian_month_branch",
         "key": "比肩在月支",
         "canonical_name": "The Twin inside the Career Gate",
-        "value": null
+        "value": "The Twin holds your chart’s strongest seat: your prime runs on self-reliance, built into the frame itself."
       },
       {
         "id": "bijian_day_branch",
         "key": "比肩在日支",
         "canonical_name": "The Twin inside the Partner Gate",
-        "value": null
+        "value": "The Twin sits in your spouse palace: you partner as an equal, and only as an equal."
       },
       {
         "id": "bijian_hour_stem",
         "key": "比肩在时干",
         "canonical_name": "The Twin at the Legacy Gate",
-        "value": null
+        "value": "The Twin stands at your Legacy Gate: what you show the future is independence, taught by demonstration."
       },
       {
         "id": "bijian_hour_branch",
         "key": "比肩在时支",
         "canonical_name": "The Twin inside the Legacy Gate",
-        "value": null
+        "value": "The Twin lives inside your Legacy Gate: the root of your late life is company of equals, kept small and true."
       },
       {
         "id": "jiecai_year_stem",
         "key": "劫财在年干",
         "canonical_name": "The Rival at the Origin Gate",
-        "value": null
+        "value": "This bold companion stands at your Origin Gate: daring runs in the visible bloodline."
       },
       {
         "id": "jiecai_year_branch",
         "key": "劫财在年支",
         "canonical_name": "The Rival inside the Origin Gate",
-        "value": null
+        "value": "Inside your Origin Gate sits the shared purse: early life taught you that what is yours is rarely only yours."
       },
       {
         "id": "jiecai_month_stem",
         "key": "劫财在月干",
         "canonical_name": "The Rival at the Career Gate",
-        "value": null
+        "value": "At your Career Gate stands the daring colleague: the working world sees your nerve first."
       },
       {
         "id": "jiecai_month_branch",
         "key": "劫财在月支",
         "canonical_name": "The Rival inside the Career Gate",
-        "value": null
+        "value": "Inside your Career Gate runs the gambler’s current: your prime years are built for bold, shared ventures."
       },
       {
         "id": "jiecai_day_branch",
         "key": "劫财在日支",
         "canonical_name": "The Rival inside the Partner Gate",
-        "value": null
+        "value": "In your spouse palace lives the fellow gambler: love, for you, is a joint venture with real stakes."
       },
       {
         "id": "jiecai_hour_stem",
         "key": "劫财在时干",
         "canonical_name": "The Rival at the Legacy Gate",
-        "value": null
+        "value": "At your Legacy Gate stands the risk-taker: your later ambitions stay bold, and visibly so."
       },
       {
         "id": "jiecai_hour_branch",
         "key": "劫财在时支",
         "canonical_name": "The Rival inside the Legacy Gate",
-        "value": null
+        "value": "Inside your Legacy Gate sits the shared harvest: what you build late in life is built with others."
       },
       {
         "id": "shishen_year_stem",
         "key": "食神在年干",
         "canonical_name": "The Artisan at the Origin Gate",
-        "value": null
+        "value": "The Artisan stands at your Origin Gate: ease and charm are the first things your story shows."
       },
       {
         "id": "shishen_year_branch",
         "key": "食神在年支",
         "canonical_name": "The Artisan inside the Origin Gate",
-        "value": null
+        "value": "The Artisan lives inside your Origin Gate: the root of your early world was nourishment, given and remembered."
       },
       {
         "id": "shishen_month_stem",
         "key": "食神在月干",
         "canonical_name": "The Artisan at the Career Gate",
-        "value": null
+        "value": "The Artisan stands at your Career Gate: the working world sees the maker, gracious and unhurried."
       },
       {
         "id": "shishen_month_branch",
         "key": "食神在月支",
         "canonical_name": "The Artisan inside the Career Gate",
-        "value": null
+        "value": "The Artisan holds your chart’s strongest seat: your prime runs on craft, flow, and sustainable pleasure."
       },
       {
         "id": "shishen_day_branch",
         "key": "食神在日支",
         "canonical_name": "The Artisan inside the Partner Gate",
-        "value": null
+        "value": "The Artisan sits in your spouse palace: home, for you, is where life gets savored."
       },
       {
         "id": "shishen_hour_stem",
         "key": "食神在时干",
         "canonical_name": "The Artisan at the Legacy Gate",
-        "value": null
+        "value": "The Artisan stands at your Legacy Gate: what you show the future is the joy of making."
       },
       {
         "id": "shishen_hour_branch",
         "key": "食神在时支",
         "canonical_name": "The Artisan inside the Legacy Gate",
-        "value": null
+        "value": "The Artisan lives inside your Legacy Gate: your harvest is children, comfort, and a well-fed old age."
       },
       {
         "id": "shangguan_year_stem",
         "key": "伤官在年干",
         "canonical_name": "The Virtuoso at the Origin Gate",
-        "value": null
+        "value": "Brilliance stands at your Origin Gate: the first thing your story shows is a spark that refuses dimming."
       },
       {
         "id": "shangguan_year_branch",
         "key": "伤官在年支",
         "canonical_name": "The Virtuoso inside the Origin Gate",
-        "value": null
+        "value": "Brilliance lives inside your Origin Gate: you were rooted in a house that talent had to outgrow."
       },
       {
         "id": "shangguan_month_stem",
         "key": "伤官在月干",
         "canonical_name": "The Virtuoso at the Career Gate",
-        "value": null
+        "value": "Brilliance stands at your Career Gate: the working world sees the performer, dazzling and hard to manage."
       },
       {
         "id": "shangguan_month_branch",
         "key": "伤官在月支",
         "canonical_name": "The Virtuoso inside the Career Gate",
-        "value": null
+        "value": "Brilliance holds your chart’s strongest seat: your prime is built to break forms and sign the result."
       },
       {
         "id": "shangguan_day_branch",
         "key": "伤官在日支",
         "canonical_name": "The Virtuoso inside the Partner Gate",
-        "value": null
+        "value": "Brilliance sits in your spouse palace: intimacy, for you, is vivid, verbal, and never beige."
       },
       {
         "id": "shangguan_hour_stem",
         "key": "伤官在时干",
         "canonical_name": "The Virtuoso at the Legacy Gate",
-        "value": null
+        "value": "Brilliance stands at your Legacy Gate: your later years intend to be seen, and heard."
       },
       {
         "id": "shangguan_hour_branch",
         "key": "伤官在时支",
         "canonical_name": "The Virtuoso inside the Legacy Gate",
-        "value": null
+        "value": "Brilliance lives inside your Legacy Gate: the root of your harvest is a mind that never retires."
       },
       {
         "id": "piancai_year_stem",
         "key": "偏财在年干",
         "canonical_name": "The Horizon at the Origin Gate",
-        "value": null
+        "value": "Opportunity stands at your Origin Gate: fortune’s door was visible from your first address."
       },
       {
         "id": "piancai_year_branch",
         "key": "偏财在年支",
         "canonical_name": "The Horizon inside the Origin Gate",
-        "value": null
+        "value": "Opportunity lives inside your Origin Gate: your root memory of providing runs wide, not deep."
       },
       {
         "id": "piancai_month_stem",
         "key": "偏财在月干",
         "canonical_name": "The Horizon at the Career Gate",
-        "value": null
+        "value": "Opportunity stands at your Career Gate: the working world sees the dealmaker, already reaching."
       },
       {
         "id": "piancai_month_branch",
         "key": "偏财在月支",
         "canonical_name": "The Horizon inside the Career Gate",
-        "value": null
+        "value": "Opportunity holds your chart’s strongest seat: your prime is a marketplace, and you own a stall."
       },
       {
         "id": "piancai_day_branch",
         "key": "偏财在日支",
         "canonical_name": "The Horizon inside the Partner Gate",
-        "value": null
+        "value": "Opportunity sits in your spouse palace: your intimate life keeps a horizon in it."
       },
       {
         "id": "piancai_hour_stem",
         "key": "偏财在时干",
         "canonical_name": "The Horizon at the Legacy Gate",
-        "value": null
+        "value": "Opportunity stands at your Legacy Gate: your later years keep a venture warm and a bag half packed."
       },
       {
         "id": "piancai_hour_branch",
         "key": "偏财在时支",
         "canonical_name": "The Horizon inside the Legacy Gate",
-        "value": null
+        "value": "Opportunity lives inside your Legacy Gate: your harvest arrives from many fields, some you forgot planting."
       },
       {
         "id": "zhengcai_year_stem",
         "key": "正财在年干",
         "canonical_name": "The Steward at the Origin Gate",
-        "value": null
+        "value": "The Steward stands at your Origin Gate: prudence is the family trait your story shows first."
       },
       {
         "id": "zhengcai_year_branch",
         "key": "正财在年支",
         "canonical_name": "The Steward inside the Origin Gate",
-        "value": null
+        "value": "The Steward lives inside your Origin Gate: your root is a kept house, and it keeps you still."
       },
       {
         "id": "zhengcai_month_stem",
         "key": "正财在月干",
         "canonical_name": "The Steward at the Career Gate",
-        "value": null
+        "value": "The Steward stands at your Career Gate: the working world sees the safe pair of hands."
       },
       {
         "id": "zhengcai_month_branch",
         "key": "正财在月支",
         "canonical_name": "The Steward inside the Career Gate",
-        "value": null
+        "value": "The Steward holds your chart’s strongest seat: your prime compounds, brick by deliberate brick."
       },
       {
         "id": "zhengcai_day_branch",
         "key": "正财在日支",
         "canonical_name": "The Steward inside the Partner Gate",
-        "value": null
+        "value": "The Steward sits in your spouse palace: you love in deposits, steadily, for keeps."
       },
       {
         "id": "zhengcai_hour_stem",
         "key": "正财在时干",
         "canonical_name": "The Steward at the Legacy Gate",
-        "value": null
+        "value": "The Steward stands at your Legacy Gate: what you show the future is order, provided for."
       },
       {
         "id": "zhengcai_hour_branch",
         "key": "正财在时支",
         "canonical_name": "The Steward inside the Legacy Gate",
-        "value": null
+        "value": "The Steward lives inside your Legacy Gate: your harvest is everything you maintained, still standing."
       },
       {
         "id": "qisha_year_stem",
         "key": "七杀在年干",
         "canonical_name": "The General at the Origin Gate",
-        "value": null
+        "value": "The General stands at your Origin Gate: the world’s first read of you is force."
       },
       {
         "id": "qisha_year_branch",
         "key": "七杀在年支",
         "canonical_name": "The General inside the Origin Gate",
-        "value": null
+        "value": "The General lives inside your Origin Gate: your root was forged, not furnished."
       },
       {
         "id": "qisha_month_stem",
         "key": "七杀在月干",
         "canonical_name": "The General at the Career Gate",
-        "value": null
+        "value": "The General stands at your Career Gate: the working world sees command presence and expects orders."
       },
       {
         "id": "qisha_month_branch",
         "key": "七杀在月支",
         "canonical_name": "The General inside the Career Gate",
-        "value": null
+        "value": "The General holds your chart’s strongest seat: your prime is a campaign, won by discipline."
       },
       {
         "id": "qisha_day_branch",
         "key": "七杀在日支",
         "canonical_name": "The General inside the Partner Gate",
-        "value": null
+        "value": "The General sits in your spouse palace: love, for you, has a chain of command to dismantle."
       },
       {
         "id": "qisha_hour_stem",
         "key": "七杀在时干",
         "canonical_name": "The General at the Legacy Gate",
-        "value": null
+        "value": "The General stands at your Legacy Gate: your later years keep rank, and the young feel it."
       },
       {
         "id": "qisha_hour_branch",
         "key": "七杀在时支",
         "canonical_name": "The General inside the Legacy Gate",
-        "value": null
+        "value": "The General lives inside your Legacy Gate: the root of your harvest is strength, held to the last."
       },
       {
         "id": "zhengguan_year_stem",
         "key": "正官在年干",
         "canonical_name": "The Magistrate at the Origin Gate",
-        "value": null
+        "value": "Order stands at your Origin Gate: respectability is the first thing your story shows."
       },
       {
         "id": "zhengguan_year_branch",
         "key": "正官在年支",
         "canonical_name": "The Magistrate inside the Origin Gate",
-        "value": null
+        "value": "Order lives inside your Origin Gate: your root is a rulebook, learned before you could read it."
       },
       {
         "id": "zhengguan_month_stem",
         "key": "正官在月干",
         "canonical_name": "The Magistrate at the Career Gate",
-        "value": null
+        "value": "Order stands at your Career Gate: the working world sees an officer, promotable on sight."
       },
       {
         "id": "zhengguan_month_branch",
         "key": "正官在月支",
         "canonical_name": "The Magistrate inside the Career Gate",
-        "value": null
+        "value": "Order holds your chart’s strongest seat: your prime is an office held with honor."
       },
       {
         "id": "zhengguan_day_branch",
         "key": "正官在日支",
         "canonical_name": "The Magistrate inside the Partner Gate",
-        "value": null
+        "value": "Order sits in your spouse palace: you love formally, faithfully, and for the record."
       },
       {
         "id": "zhengguan_hour_stem",
         "key": "正官在时干",
         "canonical_name": "The Magistrate at the Legacy Gate",
-        "value": null
+        "value": "Order stands at your Legacy Gate: what you show the future is standards, upheld to the end."
       },
       {
         "id": "zhengguan_hour_branch",
         "key": "正官在时支",
         "canonical_name": "The Magistrate inside the Legacy Gate",
-        "value": null
+        "value": "Order lives inside your Legacy Gate: the root of your harvest is a life that kept its word."
       },
       {
         "id": "pianyin_year_stem",
         "key": "偏印在年干",
         "canonical_name": "The Alchemist at the Origin Gate",
-        "value": null
+        "value": "The Alchemist stands at your Origin Gate: the world’s first read of you is depth, slightly apart."
       },
       {
         "id": "pianyin_year_branch",
         "key": "偏印在年支",
         "canonical_name": "The Alchemist inside the Origin Gate",
-        "value": null
+        "value": "The Alchemist lives inside your Origin Gate: your root drinks from an odd, deep well."
       },
       {
         "id": "pianyin_month_stem",
         "key": "偏印在月干",
         "canonical_name": "The Alchemist at the Career Gate",
-        "value": null
+        "value": "The Alchemist stands at your Career Gate: the working world sees the specialist it does not quite understand."
       },
       {
         "id": "pianyin_month_branch",
@@ -367,61 +367,61 @@
         "id": "pianyin_day_branch",
         "key": "偏印在日支",
         "canonical_name": "The Alchemist inside the Partner Gate",
-        "value": null
+        "value": "The Alchemist sits in your spouse palace: intimacy, for you, begins where small talk dies."
       },
       {
         "id": "pianyin_hour_stem",
         "key": "偏印在时干",
         "canonical_name": "The Alchemist at the Legacy Gate",
-        "value": null
+        "value": "The Alchemist stands at your Legacy Gate: your later output turns inward, and finer."
       },
       {
         "id": "pianyin_hour_branch",
         "key": "偏印在时支",
         "canonical_name": "The Alchemist inside the Legacy Gate",
-        "value": null
+        "value": "The Alchemist lives inside your Legacy Gate: the root of your harvest is understanding, finally ripe."
       },
       {
         "id": "zhengyin_year_stem",
         "key": "正印在年干",
         "canonical_name": "The Sage at the Origin Gate",
-        "value": null
+        "value": "Care stands at your Origin Gate: the first thing your story shows is that you were well held."
       },
       {
         "id": "zhengyin_year_branch",
         "key": "正印在年支",
         "canonical_name": "The Sage inside the Origin Gate",
-        "value": null
+        "value": "Care lives inside your Origin Gate: your root is shelter itself, deep and possibly too warm."
       },
       {
         "id": "zhengyin_month_stem",
         "key": "正印在月干",
         "canonical_name": "The Sage at the Career Gate",
-        "value": null
+        "value": "Care stands at your Career Gate: the working world sees the teacher, and brings it students."
       },
       {
         "id": "zhengyin_month_branch",
         "key": "正印在月支",
         "canonical_name": "The Sage inside the Career Gate",
-        "value": null
+        "value": "Care holds your chart’s strongest seat: your prime is built on learning that never stops arriving."
       },
       {
         "id": "zhengyin_day_branch",
         "key": "正印在日支",
         "canonical_name": "The Sage inside the Partner Gate",
-        "value": null
+        "value": "Care sits in your spouse palace: home, for you, must be a harbor before it is anything else."
       },
       {
         "id": "zhengyin_hour_stem",
         "key": "正印在时干",
         "canonical_name": "The Sage at the Legacy Gate",
-        "value": null
+        "value": "Care stands at your Legacy Gate: what you show the future is teaching, given freely."
       },
       {
         "id": "zhengyin_hour_branch",
         "key": "正印在时支",
         "canonical_name": "The Sage inside the Legacy Gate",
-        "value": null
+        "value": "Care lives inside your Legacy Gate: the root of your harvest is peace, tended into permanence."
       }
     ],
     "CONDITION": [
