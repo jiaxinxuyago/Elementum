@@ -2778,3 +2778,9 @@
 /* core diagnosis folio now LEADS beat 2 (owner 2026-08-19) — spacing for
    the eyebrow -> folio -> wheel order; the wheel keeps its own top margin. */
 .jny .beat[data-beat="2"] .sec-eyebrow + .insc{ margin-top: 10px; }
+
+/* ── core diagnosis fused into the identity card (owner 2026-08-19) ──
+   The idhero closes with its own hairline; the diagnosis strip sits inside
+   it above that rule, joined by a light inner divider: seal -> manifesto ->
+   keywords -> state, one object. */
+.jny .idhero .insc.id-fused{ max-width: none; margin: 8px 2px 0; padding-top: 2px; border-top: 1px solid var(--paperHair, #e2dbcc); }

@@ -381,16 +381,10 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                         <button className="readcirc" aria-label="Read your Day Master" onClick={() => onOpenDayMaster && onOpenDayMaster()}><Use id="ico-arrow-r" /></button>
                       </div>
                     </div>
-                  </div>
-                  <button className="jbridge" onClick={() => swTo(stageRef.current?.querySelector('.beat[data-beat="2"]'), 56)}><span>What does your energy look like?</span><Use id="ar-down" /></button>
-                </div>
-
-                <div className="beat" data-beat="2">
-                  <span className="sec-eyebrow">YOUR FIVE ENERGIES</span>
-                  {/* Core diagnosis leads the section (owner 2026-08-19): the
-                      core's condition is revealed BEFORE the field of five
-                      and its catalyst/friction pips. */}
-                  <div className={`insc${folioOpen ? ' folio-open' : ''}`} data-ins="folio" data-css="inscP">
+                  {/* Core diagnosis fused into the identity card (owner
+                      2026-08-19): the seal says WHAT YOU ARE, the base strip
+                      says HOW IT'S RUNNING — one object, read top-down. */}
+                  <div className={`insc id-fused${folioOpen ? ' folio-open' : ''}`} data-ins="folio" data-css="inscP">
                     <div className="ins-fold" role="button" aria-expanded={folioOpen} onClick={() => { setFolioOpen((v) => { if (v) setInsOpen(null); return !v; }); }}>
                       <span className="ik-chip"><Use id={`el-${m.core.el}`} className="elmark" /><span className={`ik-plate a-${m.core.el}`} /></span>
                       <span className="fold-t">
@@ -427,7 +421,12 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                       )}
                     </div>
                   </div>
+                  </div>
+                  <button className="jbridge" onClick={() => swTo(stageRef.current?.querySelector('.beat[data-beat="2"]'), 56)}><span>What does your energy look like?</span><Use id="ar-down" /></button>
+                </div>
 
+                <div className="beat" data-beat="2">
+                  <span className="sec-eyebrow">YOUR FIVE ENERGIES</span>
                   <div className="wheel" ref={wheelRef} aria-label="Dominance wheel — tap any energy to open its reading">
                     <button className={centerCls} style={{ backgroundImage: `url('${centerSrc}')` }} aria-label="The Day Master seal — open your identity card" onClick={() => setShowShare(true)} />
                     {m.els.map((r) => (
