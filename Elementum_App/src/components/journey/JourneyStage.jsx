@@ -655,24 +655,40 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                   {dot.r.isCore ? 'Core' : dot.r.role === 'friction' ? 'Friction' : 'Catalyst'}
                 </span>
               </div>
-              {/* the 生/克 relation strip — iconographic equation */}
-              {dot.verb === 'core' ? (
-                <div className="wd-rel">
-                  <span className={`wd-chip pv-${dot.r.el}`}><Use id={`el-${dot.r.el}`} /><b>{dot.r.hz}</b></span>
-                  <span className="wd-link core"><i className="wd-lawhz">主</i><span className="wd-lawtx">day master</span></span>
-                  <span className={`wd-chip pv-${dot.r.el}`}><Disc /></span>
-                </div>
-              ) : (
-                <div className="wd-rel">
-                  <span className={`wd-chip pv-${dot.a}`}><Use id={`el-${dot.a}`} /><b>{EL_HZ[dot.a]}</b></span>
-                  <span className={`wd-link ${dot.verb}`}>
-                    <i className="wd-lawhz">{dot.verb === 'feeds' ? '生' : '克'}</i>
-                    <svg className="wd-arrow" viewBox="0 0 44 10" aria-hidden="true"><path d="M2 5 H36 M36 5 l-6 -3.6 M36 5 l-6 3.6" /></svg>
-                    <span className="wd-lawtx">{dot.verb}</span>
-                  </span>
-                  <span className={`wd-chip pv-${dot.b}`}><Use id={`el-${dot.b}`} /><b>{EL_HZ[dot.b]}</b></span>
-                </div>
-              )}
+              {/* the 生/克 relation strip — capsule thumbnails (the dock's
+                  design DNA: npig pigment + bottom-up presence fill) joined
+                  by the law glyph; the core card pairs capsule with seal. */}
+              {(() => {
+                const capThumb = (el) => {
+                  const rr = m.byEl[el];
+                  return (
+                    <span className={`wd-cap dk-${el}`}>
+                      <span className="wd-capfill" style={{ height: `${Math.round((rr.presence / pMax) * 84)}%` }} />
+                      <span className="wd-caplab">{rr.name}</span>
+                      <Use id={`el-${el}`} className="elmark" />
+                      <b className="wd-caphz">{rr.hz}</b>
+                      <span className="wd-cappct">{rr.presence}%</span>
+                    </span>
+                  );
+                };
+                return dot.verb === 'core' ? (
+                  <div className="wd-rel">
+                    {capThumb(dot.r.el)}
+                    <span className="wd-link core"><i className="wd-lawhz">主</i><span className="wd-lawtx">day master</span></span>
+                    <span className="wd-capseal" style={{ backgroundImage: `url('${centerSrc}')` }} aria-hidden="true" />
+                  </div>
+                ) : (
+                  <div className="wd-rel">
+                    {capThumb(dot.a)}
+                    <span className={`wd-link ${dot.verb}`}>
+                      <i className="wd-lawhz">{dot.verb === 'feeds' ? '生' : '克'}</i>
+                      <svg className="wd-arrow" viewBox="0 0 44 10" aria-hidden="true"><path d="M2 5 H36 M36 5 l-6 -3.6 M36 5 l-6 3.6" /></svg>
+                      <span className="wd-lawtx">{dot.verb}</span>
+                    </span>
+                    {capThumb(dot.b)}
+                  </div>
+                );
+              })()}
               <span className="wd-eq">{dot.eq}</span>
               <p className="wp-body">{dot.body}</p>
               <p className="wd-fam">{FAMILY_LINE[dot.r.family]}</p>
