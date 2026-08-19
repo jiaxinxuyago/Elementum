@@ -23,7 +23,7 @@ import { useReading } from '../reading/useReading.js';
 import { STEM_CARD_DATA } from '../../content/index.js';
 import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
 import { APP_URL } from '../../infra/index.js';
-import { buildJourneyModel, buildElementScreen, buildGlossary } from './journeyData.js';
+import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_LINE, EL_HZ } from './journeyData.js';
 import { FEEDS, TAMES, CYCLE_LINE } from '../../content/cycles.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
@@ -348,13 +348,14 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   const condIcon = m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged';
   const fnNote = fnOpen ? glossary[fnOpen] : null;
 
-  // Wheel-dot float (REA_02 §5d): each dot explains its relation with the
-  // core — the cycle equation, its image line, and the seat derivation.
+  // Wheel-dot float (REA_02 §5d) — the energy-reading entry card: identity
+  // row, the 生/克 relation strip (iconographic), seat derivation + family
+  // line, state verdict, role adjectives, presence track, full-reading CTA.
   const dot = dotOpen ? (() => {
     const r = m.byEl[dotOpen];
     if (!r) return null;
     if (r.isCore) {
-      return { el: r.el, pill: `${r.name} is your Core`, verb: 'core', body: glossary.core.body };
+      return { r, verb: 'core', tint: 't-core', eq: `${r.name} is your Core`, body: glossary.core.body };
     }
     const core = m.core.el;
     const edge = FEEDS[r.el] === core ? { a: r.el, b: core, verb: 'feeds' }
@@ -362,8 +363,11 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
       : TAMES[r.el] === core ? { a: r.el, b: core, verb: 'tames' }
       : { a: core, b: r.el, verb: 'tames' };
     const img = CYCLE_LINE[`${edge.a}>${edge.b}`] || '';
-    const body = `${img ? img.charAt(0).toUpperCase() + img.slice(1) + '. ' : ''}That is why ${r.name} is your ${r.relation}.`;
-    return { el: r.el, pill: `${m.byEl[edge.a].name} ${edge.verb} ${m.byEl[edge.b].name}`, verb: edge.verb, body };
+    return {
+      r, ...edge, tint: r.role === 'friction' ? 't-fric' : 't-cat',
+      eq: `${m.byEl[edge.a].name} ${edge.verb} ${m.byEl[edge.b].name}`,
+      body: `${img ? img.charAt(0).toUpperCase() + img.slice(1) + '. ' : ''}That is why ${r.name} is your ${r.relation}.`,
+    };
   })() : null;
 
   return (
@@ -633,29 +637,53 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
         </div>
         <div className={`wip${toast ? ' show' : ''}`}>{toast || ''}</div>
       </div>
-      {/* wheel-dot float — the element's relation with the core (REA_02 §5d) */}
+      {/* wheel-dot float — the energy-reading entry card (REA_02 §5d) */}
       {dot && (
         <div className="wordpop open" role="presentation">
           <div className="wp-scrim" onClick={() => setDotOpen(null)} />
-          <div className="wp-sheet" role="dialog" aria-label={`${m.byEl[dot.el].name} — its relation with your core`}>
+          <div className={`wp-sheet wp-dotcard ${dot.tint}`} role="dialog" aria-label={`${dot.r.name} — its reading and its relation with your core`}>
             <div className="wp-band">
-              <span className="wp-wm"><Use id={`el-${dot.el}`} /></span>
+              <span className="wp-wm"><Use id={`el-${dot.r.el}`} /></span>
               <button className="wp-x" aria-label="Close" onClick={() => setDotOpen(null)}><Use id="ico-close" /></button>
               <span className="wp-ey">{dot.verb === 'core' ? 'Your day master' : 'The cycle of energies'}</span>
-              <div className="wp-chipwrap">
-                <span className={`role-pill ${dot.verb === 'feeds' ? 'cat' : dot.verb === 'tames' ? 'fric' : 'core'}`}>
-                  {dot.verb === 'feeds' && <Use id="ar-up" />}
-                  {dot.verb === 'tames' && <Use id="ar-down" />}
-                  {dot.verb === 'core' && <Disc />}
-                  {dot.pill}
-                </span>
-              </div>
             </div>
             <div className="wp-inner">
+              <div className="wd-id">
+                <span className="wd-name"><Use id={`el-${dot.r.el}`} className="wd-elic" />{dot.r.name}<b className="wd-hz">{dot.r.hz}</b><span className="wd-pct">{dot.r.presence}%</span></span>
+                <span className={`role-pill ${dot.r.isCore ? 'core' : dot.r.role === 'friction' ? 'fric' : 'cat'}`}>
+                  {dot.r.isCore ? <Disc /> : dot.r.role === 'friction' ? <Use id="ar-down" /> : <Use id="ar-up" />}
+                  {dot.r.isCore ? 'Core' : dot.r.role === 'friction' ? 'Friction' : 'Catalyst'}
+                </span>
+              </div>
+              {/* the 生/克 relation strip — iconographic equation */}
+              {dot.verb === 'core' ? (
+                <div className="wd-rel">
+                  <span className={`wd-chip pv-${dot.r.el}`}><Use id={`el-${dot.r.el}`} /><b>{dot.r.hz}</b></span>
+                  <span className="wd-link core"><i className="wd-lawhz">主</i><span className="wd-lawtx">day master</span></span>
+                  <span className={`wd-chip pv-${dot.r.el}`}><Disc /></span>
+                </div>
+              ) : (
+                <div className="wd-rel">
+                  <span className={`wd-chip pv-${dot.a}`}><Use id={`el-${dot.a}`} /><b>{EL_HZ[dot.a]}</b></span>
+                  <span className={`wd-link ${dot.verb}`}>
+                    <i className="wd-lawhz">{dot.verb === 'feeds' ? '生' : '克'}</i>
+                    <svg className="wd-arrow" viewBox="0 0 44 10" aria-hidden="true"><path d="M2 5 H36 M36 5 l-6 -3.6 M36 5 l-6 3.6" /></svg>
+                    <span className="wd-lawtx">{dot.verb}</span>
+                  </span>
+                  <span className={`wd-chip pv-${dot.b}`}><Use id={`el-${dot.b}`} /><b>{EL_HZ[dot.b]}</b></span>
+                </div>
+              )}
+              <span className="wd-eq">{dot.eq}</span>
               <p className="wp-body">{dot.body}</p>
-              <button className="wp-codex" onClick={() => { setDotOpen(null); compassGo(dot.el); }}>
-                <span className="wp-cx-ic"><Use id={`el-${dot.el}`} /></span>
-                <span className="wp-cx-tx"><b>Open {m.byEl[dot.el].name}&rsquo;s reading</b><small>where it sits in your chart</small></span>
+              <p className="wd-fam">{FAMILY_LINE[dot.r.family]}</p>
+              <p className="wd-dx">Your {dot.r.name} is <b className="cond">{dot.r.dx.condition}</b>{dot.r.dx.remedy ? <> — <b className="appr">{dot.r.dx.remedy}</b> it.</> : <> — {m.foldVerdict}</>}</p>
+              {dot.r.adj?.length ? (
+                <div className="wd-adj">{dot.r.adj.map((a) => <span key={a} className={`wd-adjchip${(dot.r.role === 'friction' || dot.r.coreExcess) ? ' down' : ''}`}>{a}</span>)}</div>
+              ) : null}
+              {track(dot.r.el)}
+              <button className="wp-codex" onClick={() => { setDotOpen(null); goElement(dot.r.el); }}>
+                <span className="wp-cx-ic"><Use id={`el-${dot.r.el}`} /></span>
+                <span className="wp-cx-tx"><b>Open the full {dot.r.name} reading</b><small>{dot.verb === 'core' ? 'the energy that is you' : `your ${dot.r.relation}, read in full`}</small></span>
                 <span className="wp-cx-go"><Use id="ico-arrow-r" /></span>
               </button>
             </div>
