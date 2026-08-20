@@ -70,7 +70,6 @@ const DevBar = lazy(() => import('./components/dev/DevBar.jsx'));
 const ReadingWheelPreview = lazy(() => import('./components/reading/ReadingWheelPreview.jsx'));
 const ReadingDayMasterScreen = lazy(() => import('./components/reading/ReadingDayMasterScreen.jsx'));
 const ReadingPillarChartScreen = lazy(() => import('./components/reading/ReadingPillarChartScreen.jsx'));
-const ReadingFacesScreen = lazy(() => import('./components/reading/ReadingFacesScreen.jsx'));
 const CompatFriendFlow = lazy(() => import('./components/dashboard/CompatFriendFlow.jsx'));
 
 // Warm every on-demand screen chunk during idle time so navigation never
@@ -106,7 +105,6 @@ function prefetchScreens() {
       import('./components/dashboard/reading-detail/LockedDetail.jsx'),
       import('./components/reading/ReadingDayMasterScreen.jsx'),
       import('./components/reading/ReadingPillarChartScreen.jsx'),
-      import('./components/reading/ReadingFacesScreen.jsx'),
       import('./components/dashboard/CompatFriendFlow.jsx'),
     ]).catch(() => {});
   };
@@ -279,7 +277,6 @@ const FLOW = [
   'app-reading',     // catalogue (DES_04 §11)
   'app-daymaster',   // D13 P4 — Day Master card (wheel-centre seal)
   'app-pillars',     // D13 P5 — 八字 Pillar Chart (from the Day Master)
-  'app-energy',      // energy reading — polarity faces (tap a node/spine; the swipe carousel was retired with ReadingFacesScreen)
   'app-energymap',   // Energy Map destination (DES_04 §AM.1 — same as Reveal, no first-time CTA)
   'app-codex',       // BaZi Codex (Guidance §12 Card 5)
   'app-draw',        // Elemental Draw (Guidance §12 Card 1)
@@ -314,7 +311,7 @@ const DASHBOARD_TAB = {
   'app-today': 'today', 'app-day': 'today', 'app-month': 'today', 'app-year': 'today', 'app-decade': 'today',
   'app-guidance': 'guidance', 'app-codex': 'guidance', 'app-draw': 'guidance', 'app-manual': 'guidance',
   'app-selfreport': 'guidance', 'app-consultant': 'guidance',
-  'app-reading': 'reading', 'app-daymaster': 'reading', 'app-pillars': 'reading', 'app-energy': 'reading',
+  'app-reading': 'reading', 'app-daymaster': 'reading', 'app-pillars': 'reading',
   // retired routes aliased to the D13 screens above
   'read-daymaster': 'reading', 'chart-reveal': 'reading', 'app-energymap': 'reading',
   'app-compat': 'compat',
@@ -414,16 +411,6 @@ export default function App() {
   // are instant (no Suspense "white blink"). Runs once; first paint unaffected.
   useEffect(() => { prefetchScreens(); prefetchBackgrounds(); }, []);
 
-  // Which energy the reading card opens on (set when a node/tile is tapped).
-  // Declared above the dev-hook effect below, which publishes `openEnergy`.
-  const [energyEl, setEnergyEl] = useState(null);
-  const openEnergy = (el) => { setEnergyEl(el); setScreen('app-energy'); };
-  // Dev-only: expose the active energy element so the DevBar Schema tab can
-  // resolve element-scoped variables for the element actually on screen.
-  useEffect(() => {
-    if (IS_DEV && typeof window !== 'undefined') window.__energyEl = energyEl;
-  }, [energyEl]);
-
   // Dev-only helper: window.__goto('step3') to jump to any screen for testing.
   // Gated to dev builds (IS_DEV) so the navigation/test hook never ships to users.
   useEffect(() => {
@@ -435,8 +422,6 @@ export default function App() {
       // Route inventory for automated QA (tools/qa-route-sweep.mjs) — the
       // sweep enumerates screens from the running app, never a copied list.
       window.__screens = [...FLOW];
-      // Per-element full energy reading (app-energy) — DevBar element buttons.
-      window.__openEnergy = openEnergy;
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -544,7 +529,6 @@ export default function App() {
         <JourneyStage
           reveal
           onDone={() => setScreen('app-reading')}
-          onOpenEnergy={openEnergy}
           onOpenDayMaster={goto('app-daymaster')}
           onOpenCodex={goto('app-codex')}
         />
@@ -642,7 +626,7 @@ export default function App() {
     case 'app-reading':
       // P6 journey catalogue (answer-first): hero → wheel + Folio → SEEK/SKIP
       // → towers + seal dock. Endpoints route into the existing reading pages.
-      rendered = <JourneyStage onOpenEnergy={openEnergy} onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} />;
+      rendered = <JourneyStage onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} />;
       break;
     case 'app-daymaster':
       // D13 P4 — the Day Master reference card; "Birth Chart" → P5.
@@ -651,11 +635,6 @@ export default function App() {
     case 'app-pillars':
       // D13 P5 — the 八字 Four-Pillars data page; "Discover it" → hour flow.
       rendered = <ReadingPillarChartScreen onBack={goto('app-daymaster')} onDiscoverHour={goto('chart-resonance')} />;
-      break;
-    case 'app-energy':
-      // D13 P6b — the polarity faces page: dominant-energy briefing + the
-      // energy's 1–2 Ten-God faces, each a door to its reading.
-      rendered = <ReadingFacesScreen initialEl={energyEl} onBack={goto('app-reading')} />;
       break;
     case 'app-compat':
       rendered = (
@@ -687,8 +666,9 @@ export default function App() {
     case 'app-energymap':
       // The standalone Energy Map is retired; this is now the last route that
       // reaches ReadingScreen (the pre-journey reading surface) — `app-reading`
-      // renders JourneyStage.
-      rendered = <ReadingScreen onTab={routeTab} onDayMaster={goto('app-daymaster')} onOpenEnergy={openEnergy} />;
+      // renders JourneyStage. Energy taps route to the catalogue (merge-and-
+      // retire 2026-08-19: the faces page is gone; the dot card is THE entry).
+      rendered = <ReadingScreen onTab={routeTab} onDayMaster={goto('app-daymaster')} onOpenEnergy={goto('app-reading')} />;
       break;
     case 'read-elemental':
       rendered = <ElementalNatureDetail onBack={goto('app-reading')} />;

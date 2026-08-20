@@ -342,32 +342,35 @@ async function scenarioB(browser) {
 
   // If a step strands us off the catalogue, recover through the real tab bar
   // when it's on screen; only fall back to the dev hook as a last resort.
+  // The hash stays app-reading on the in-stage element sub-screen, so also
+  // back out of it (its .backrow) before asserting the catalogue.
   const toCatalogue = async () => {
-    if ((await currentHash(page)) === 'app-reading') return;
-    const tab = page.locator('.reading-tabhost .tab[aria-label="reading"]');
-    if (await tab.count()) await tab.click();
-    else await page.evaluate(() => window.__goto('app-reading')); // recovery-only teleport
-    await waitForHash(page, 'app-reading');
-    await page.waitForSelector('.shelf .spine', { timeout: 8000 });
+    if ((await currentHash(page)) !== 'app-reading') {
+      const tab = page.locator('.reading-tabhost .tab[aria-label="reading"]');
+      if (await tab.count()) await tab.click();
+      else await page.evaluate(() => window.__goto('app-reading')); // recovery-only teleport
+      await waitForHash(page, 'app-reading');
+    }
+    const back = page.locator('.jscreen[data-screen="element"].active .backrow');
+    if (await back.count()) await back.click();
+    await page.waitForSelector('.jscreen[data-screen="catalogue"].active .wheel .node', { timeout: 8000 });
   };
 
-  // Real-interaction "next energy": select the spine (opens it), then its
-  // Read arrow → app-energy faces page for that element.
+  // Real-interaction "open energy" (adapted 2026-08-19, merge-and-retire):
+  // the wheel dot opens the dot card — THE single entry — and its "Open the
+  // full reading" CTA lands on the in-stage element screen, which IS the full
+  // depth home now (the app-energy faces page is retired; hash stays
+  // app-reading throughout). Returns the persona bridge line for assertions.
   const openEnergyFor = async (el) => {
     await toCatalogue();
-    // Open the element's shelf pill, then its Read arrow → the catalogue's
-    // in-stage element reading (JourneyStage screen='element'; hash stays
-    // app-reading). The "Full reading" CTA there bridges to the app energy page.
-    await page.click(`.shelf .spine[data-el="${el}"]`);
-    await page.waitForSelector(`.shelf .spine[data-el="${el}"].open .sp-read`, { timeout: 5000 });
-    await page.click(`.shelf .spine[data-el="${el}"].open .sp-read`);
-    await page.click('.jscreen[data-screen="element"].active .pill-cta', { timeout: 5000 });
-    await waitForHash(page, 'app-energy');
+    await page.click(`.wheel .node[data-el="${el}"]`);
+    await page.waitForSelector('.wp-sheet.wp-dotcard .wp-codex', { timeout: 5000 });
+    await page.click('.wp-sheet.wp-dotcard .wp-codex');
     await page.waitForFunction(() => {
-      const n = document.querySelector('.fd-name');
-      return n && (n.textContent || '').trim().length > 0;
+      const f = document.querySelector('.jscreen[data-screen="element"].active .el-face');
+      return f && (f.textContent || '').trim().length > 0;
     }, { timeout: 8000 });
-    return page.evaluate(() => document.querySelector('.fd-name').textContent.trim());
+    return page.evaluate(() => document.querySelector('.jscreen[data-screen="element"].active .el-face').textContent.trim());
   };
 
   await step(page, 'B', '1 · reveal swipe-up → dissolve → catalogue', async () => {
@@ -383,53 +386,36 @@ async function scenarioB(browser) {
     }
     await page.mouse.up();
     await waitForHash(page, 'app-reading', 10000); // 1.2s ceremony → handoff
-    await page.waitForSelector('.shelf .spine', { timeout: 8000 });
     const nodes = await page.locator('.wheel .node').count();
     if (nodes !== 5) throw new Error(`catalogue wheel has ${nodes} nodes, expected 5`);
-    return 'dissolve played → catalogue (5 nodes + shelf)';
+    return 'dissolve played → catalogue (5 wheel nodes)';
   });
 
-  await step(page, 'B', '2 · tap wheel node → pill unfolds → energy card', async () => {
+  await step(page, 'B', '2 · tap wheel node → dot card → element reading', async () => {
     await toCatalogue();
     const el = await page.evaluate(() => document.querySelector('.wheel .node')?.dataset.el);
     if (!el) throw new Error('no wheel node found');
-    // A node tap runs the compass: it cues the prescription row, then unfolds
-    // that element's shelf pill (JourneyStage.compassGo → expandPill).
-    await page.click(`.wheel .node[data-el="${el}"]`);
-    await page.waitForSelector(`.shelf .spine[data-el="${el}"].open`, { timeout: 6000 });
-    // The unfolded pill's Read arrow → in-stage element screen → "Full reading"
-    // CTA → the app energy page (the polarity faces reading).
-    await page.click(`.shelf .spine[data-el="${el}"].open .sp-read`);
-    await page.click('.jscreen[data-screen="element"].active .pill-cta', { timeout: 5000 });
-    await waitForHash(page, 'app-energy');
-    await page.waitForFunction(() => {
-      const n = document.querySelector('.fd-name');
-      return n && (n.textContent || '').trim().length > 0;
-    }, { timeout: 8000 });
-    const name = await page.evaluate(() => document.querySelector('.fd-name')?.textContent.trim());
-    if (!name || !name.toLowerCase().includes(el)) throw new Error(`energy card shows "${name}" for node "${el}"`);
-    return `node "${el}" → pill → card "${name}"`;
+    const face = await openEnergyFor(el);
+    const expected = CAP[el] || el;
+    if (!face.includes(expected)) throw new Error(`element screen shows "${face}" for node "${el}"`);
+    return `node "${el}" → dot card → "${face}"`;
   });
 
   await step(page, 'B', '3 · cycle all 5 energies (active energy changes)', async () => {
-    // NOTE (adapted): the swipe carousel this step was written against no
-    // longer exists — app-energy is the ReadingFacesScreen accordion. The
-    // real "next energy" journey is catalogue spine tap → Read, so that is
-    // what we drive, asserting the active energy CHANGES each time across
-    // all five.
+    // NOTE (adapted 2026-08-19, merge-and-retire): the app-energy faces page
+    // is retired — the per-energy journey is wheel dot → dot card → in-stage
+    // element screen; openEnergyFor's toCatalogue backs out via .backrow.
     await toCatalogue();
     const els = await page.evaluate(() =>
-      [...document.querySelectorAll('.shelf .spine')].map((s) => s.dataset.el));
-    if (els.length !== 5) throw new Error(`shelf has ${els.length} spines, expected 5`);
+      [...document.querySelectorAll('.wheel .node')].map((n) => n.dataset.el));
+    if (els.length !== 5) throw new Error(`wheel has ${els.length} nodes, expected 5`);
     const seen = [];
     for (const el of els) {
-      const name = await openEnergyFor(el);
+      const face = await openEnergyFor(el);
       const expected = CAP[el] || el;
-      if (!name.includes(expected)) throw new Error(`card for "${el}" shows "${name}"`);
-      if (seen.includes(name)) throw new Error(`active energy did not change — "${name}" repeated`);
-      seen.push(name);
-      await page.click('.back-row'); // faces → catalogue (real back affordance)
-      await waitForHash(page, 'app-reading');
+      if (!face.includes(expected)) throw new Error(`element screen for "${el}" shows "${face}"`);
+      if (seen.includes(face)) throw new Error(`active energy did not change — "${face}" repeated`);
+      seen.push(face);
     }
     return `cycled: ${seen.join(' → ')}`;
   });
@@ -517,7 +503,7 @@ async function scenarioB(browser) {
     driverNotes: [
       'ScrollPicker: at-rest pointer drags (pause before release) move exact rows; wheel ticks (|dY|>=30, >90ms apart) step +/-1 as corrector; centered value read via elementFromPoint.',
       'RevealDissolve: any >6px pointer drag plays the full 1.2s dissolve once, then routes to app-reading.',
-      'Energy cycling adapted: the old swipe carousel is gone (app-energy = faces accordion); catalogue spine tap + Read is the real per-energy journey.',
+      'Energy cycling adapted 2026-08-19 (merge-and-retire): the app-energy faces page is retired; wheel dot → dot card → in-stage element screen is the per-energy journey.',
     ],
   };
   fs.writeFileSync(path.join(OUT_ROOT, 'report.json'), JSON.stringify({ summary, results }, null, 2));

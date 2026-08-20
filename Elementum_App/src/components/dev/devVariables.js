@@ -19,8 +19,8 @@ const GOD_ID = { 比肩: 'bijian', 劫财: 'jiecai', 食神: 'shishen', 伤官: 
 const EL_HZ = { Metal: '金', Wood: '木', Water: '水', Fire: '火', Earth: '土' };
 
 // model = buildJourneyModel output for the active chart (null-safe).
-// activeEl = the element in focus (journey element sub-screen / app-energy
-// page) — element-scoped rows resolve for it instead of the core.
+// activeEl = the element in focus (the journey element sub-screen, the one
+// depth home) — element-scoped rows resolve for it instead of the core.
 // chart = the active chart (null-safe: pre-onboarding there is none). Card
 // rows resolve through resolveArchetype exactly as the app's P4 does, so the
 // band variant (yourNature) and the band-selected ×3 (gifts/shadows) print

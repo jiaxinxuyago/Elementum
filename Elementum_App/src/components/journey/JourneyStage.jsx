@@ -24,7 +24,7 @@ import { useChart } from '../../store/chartContext.jsx';
 import { STEM_CARD_DATA } from '../../content/index.js';
 import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
 import { APP_URL } from '../../infra/index.js';
-import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_LINE, EL_HZ } from './journeyData.js';
+import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_LINE } from './journeyData.js';
 import { resolvePositions } from '../reading/positionsResolve.js';
 import { FEEDS, TAMES, CYCLE_LINE } from '../../content/cycles.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
@@ -52,7 +52,7 @@ const Disc = () => (
   <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor" /></svg>
 );
 
-export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onOpenDayMaster, onOpenCodex }) {
+export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, onOpenCodex }) {
   const { chart, ec, identity } = useReading();
   const { tier } = useChart();   // K2 domain readings are Seeker-gated
   const [screen, setScreen] = useState('catalogue');
@@ -65,8 +65,8 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   const [fnOpen, setFnOpen] = useState(null);      // footnote float (cond|cat|fric)
   const [dotOpen, setDotOpen] = useState(null);    // wheel-dot float — the element's relation with the core
   const [posOpen, setPosOpen] = useState(null);    // element-page position accordion (position id)
+  const [faceIdx, setFaceIdx] = useState(0);       // element-page polarity face (0 = dominant)
   const [folioOpen, setFolioOpen] = useState(false);
-  const [toast, setToast] = useState(null);
 
   const model = useMemo(() => {
     if (!chart || !ec || !identity) return null;
@@ -81,13 +81,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   const swRef = useRef(null);       // catalogue scrollwrap
   const padRef = useRef(null);
   const wheelRef = useRef(null);
-  const toastT = useRef(null);
-
-  const flash = useCallback((msg) => {
-    setToast(msg);
-    clearTimeout(toastT.current);
-    toastT.current = setTimeout(() => setToast(null), 1800);
-  }, []);
 
   // A1 share-rail actions — real export via the built cardExport lib
   const flashCard = useCallback((msg) => {
@@ -116,7 +109,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
   }, []);
 
 
-  const goElement = useCallback((el) => { setElOpen(el); setScreen('element'); }, []);
+  const goElement = useCallback((el) => { setElOpen(el); setFaceIdx(0); setPosOpen(null); setScreen('element'); }, []);
 
   // Dev-only: expose the in-journey element screen to the DevBar
   // (it is internal state, not a hash route), and broadcast the current
@@ -303,6 +296,10 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
 
 
   const elScreen = elOpen ? buildElementScreen(m, elOpen) : null;
+  // Polarity faces (1–2, dominant-led); clamp survives stale faceIdx on remount.
+  const elFaces = elScreen?.faces?.length ? elScreen.faces : [];
+  const elFaceIdx = Math.min(faceIdx, Math.max(elFaces.length - 1, 0));
+  const elFace = elFaces[elFaceIdx] || elScreen;
   // The element's seats (REA_02 §5e echo): the positions this energy holds.
   const elPositions = elScreen ? resolvePositions(chart).filter((p) => p.el === elScreen.el) : [];
   const glossary = buildGlossary(m);
@@ -551,27 +548,41 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                   </div>
                 )}
                 {/* HOW IT MOVES IN YOU — consolidated (owner 2026-08-19):
-                    bridge → chips → K2 overview as the body ("What it means"
-                    retired with the interim mean line; unauthored cells fall
-                    back to the god's face teaser). */}
+                    bridge → chips → K2 overview as the body. Merge-and-retire
+                    (owner 2026-08-19): the polarity faces page folded in here —
+                    when both polarities are present the section carries a face
+                    switcher, and every god-derived block below reads the
+                    active face's own depth cell. */}
                 <div className="cardstock"><span className="laylab">HOW IT MOVES IN YOU</span>
-                  <p className="serifline el-face" style={{ margin: '0 0 5px', fontSize: 14.5 }}>In you, {elScreen.elName} moves as <b>{elScreen.persona}</b> · {elScreen.keyword.toUpperCase()}</p>
-                  {elScreen.adj.length ? (
-                    <div className="el-adj">{elScreen.adj.map((a) => <span key={a} className={`el-adjchip${elScreen.adjDown ? ' down' : ''}`}>{a}</span>)}</div>
+                  {elFaces.length > 1 && (
+                    <>
+                      <p className="body2 el-facelead" style={{ margin: '0 0 7px' }}>This energy wears two faces in you. {elFaces[0].persona} leads, {elFaces[1].persona} runs underneath.</p>
+                      <div className="el-facesw" role="tablist">
+                        {elFaces.map((f, i) => (
+                          <button key={f.god} role="tab" aria-selected={i === elFaceIdx} className={`el-faceswbtn${i === elFaceIdx ? ' on' : ''}`} onClick={() => setFaceIdx(i)}>
+                            {f.persona}<span className="el-faceswsub">{f.share}%</span>
+                          </button>
+                        ))}
+                      </div>
+                    </>
+                  )}
+                  <p className="serifline el-face" style={{ margin: '0 0 5px', fontSize: 14.5 }}>In you, {elScreen.elName} moves as <b>{elFace.persona}</b> · {elFace.keyword.toUpperCase()}</p>
+                  {elFace.adj.length ? (
+                    <div className="el-adj">{elFace.adj.map((a) => <span key={a} className={`el-adjchip${elScreen.adjDown ? ' down' : ''}`}>{a}</span>)}</div>
                   ) : null}
-                  <p className="serifline el-mean" style={{ margin: '8px 0 0' }}>{elScreen.k2?.overview || elScreen.teaser}</p>
+                  <p className="serifline el-mean" style={{ margin: '8px 0 0' }}>{elFace.k2?.overview || elFace.teaser}</p>
                 </div>
-                {elScreen.k2?.functional && (
+                {elFace.k2?.functional && (
                   <div className="cardstock"><span className="laylab">HOW IT RUNS YOUR FUNCTIONS</span>
-                    {elScreen.functionsDef.map((f) => elScreen.k2.functional[f.key] ? (
-                      <p className="body2 el-funcrow" key={f.key} style={{ margin: '0 0 7px' }}><b className="el-funclab">{f.label}.</b> {elScreen.k2.functional[f.key]}</p>
+                    {elScreen.functionsDef.map((f) => elFace.k2.functional[f.key] ? (
+                      <p className="body2 el-funcrow" key={f.key} style={{ margin: '0 0 7px' }}><b className="el-funclab">{f.label}.</b> {elFace.k2.functional[f.key]}</p>
                     ) : null)}
                   </div>
                 )}
-                {elScreen.domains.length ? (
+                {elFace.domains.length ? (
                   <div className="cardstock"><span className="laylab">ITS RULING DOMAINS</span>
-                    <p className="body2" style={{ margin: '0 0 6px' }}>Through <b>{elScreen.persona}</b>, this energy rules these grounds of your life.</p>
-                    <div className="el-adj">{elScreen.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
+                    <p className="body2" style={{ margin: '0 0 6px' }}>Through <b>{elFace.persona}</b>, this energy rules these grounds of your life.</p>
+                    <div className="el-adj">{elFace.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
                     {/* the element's seats — its named positions, READ IN FULL
                         here (owner 2026-08-19: the energy card is the position
                         readings' home; the Pillar Chart only indexes them). */}
@@ -598,9 +609,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                     ) : (
                       <p className="elpos-none">This energy holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.</p>
                     )}
-                    {elScreen.k2?.domain_readings && (tier !== 'free' ? (
+                    {elFace.k2?.domain_readings && (tier !== 'free' ? (
                       <div className="el-domreads">
-                        {Object.entries(elScreen.k2.domain_readings).map(([d, txt]) => (
+                        {Object.entries(elFace.k2.domain_readings).map(([d, txt]) => (
                           <p className="body2" key={d} style={{ margin: '9px 0 0' }}><b>{d}.</b> {txt}</p>
                         ))}
                       </div>
@@ -609,12 +620,10 @@ export default function JourneyStage({ reveal = false, onDone, onOpenEnergy, onO
                     ))}
                   </div>
                 ) : null}
-                <button className="pill-cta" style={{ marginTop: 2 }} onClick={() => onOpenEnergy && onOpenEnergy(elOpen)}>Full reading <Use id="ico-arrow-r" /></button>
               </div></div>
             </div>
           )}
         </div>
-        <div className={`wip${toast ? ' show' : ''}`}>{toast || ''}</div>
       </div>
       {/* wheel-dot float — the energy-reading entry card (REA_02 §5d) */}
       {dot && (

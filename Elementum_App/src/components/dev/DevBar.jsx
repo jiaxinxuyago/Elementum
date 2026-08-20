@@ -44,7 +44,7 @@ const SCREEN_GROUPS = [
   { label: 'Onboarding', screens: ['welcome', 'step1', 'step2', 'step3', 'step4', 'step4a', 'step5', 'step6', 'step6a', 'step7', 'step7a', 'loading', 'reveal'] },
   { label: 'Tabs', screens: ['app-today', 'app-guidance', 'app-reading', 'app-compat', 'app-profile'] },
   { label: 'Today drill-downs', screens: ['app-day', 'app-month', 'app-year', 'app-decade'] },
-  { label: 'Reading journey', screens: ['app-daymaster', 'app-pillars', 'app-energy', 'app-energymap', 'app-codex'] },
+  { label: 'Reading journey', screens: ['app-daymaster', 'app-pillars', 'app-energymap', 'app-codex'] },
   { label: 'Guidance cards', screens: ['app-draw', 'app-manual', 'app-selfreport', 'app-consultant'] },
   { label: 'Compat + chart', screens: ['compat-friends', 'chart-reveal', 'chart-resonance'] },
 ];
@@ -66,7 +66,6 @@ const openJourneyElement = (el) => () => {
     }
   }, 100);
 };
-const openEnergyReading = (el) => () => window.__openEnergy?.(el);
 
 // 10 day-master stems in canonical 甲乙丙丁戊己庚辛壬癸 order.
 // Each maps to a __seedData preset that produces that day-master.
@@ -361,18 +360,6 @@ function ChartView({ birthData, chart, tier, setTier, currentScreen, goto, seed,
             ))}
           </div>
         </div>
-        <div style={{ marginBottom: 8 }}>
-          <div style={{ fontSize: 9, letterSpacing: 1.4, textTransform: 'uppercase', color: '#6c655a', marginBottom: 4 }}>
-            Energy readings · full (app-energy)
-          </div>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
-            {ENERGY_ELS.map(({ el, hz }) => (
-              <button key={el} onClick={openEnergyReading(el)} title={`app-energy · ${el}`} style={elBtn}>
-                {hz} {el}
-              </button>
-            ))}
-          </div>
-        </div>
       </DevSection>
 
       <DevSection label="Actions">
@@ -414,8 +401,8 @@ const SURFACE = {
   identity: 'Identity · Reveal plate + Share card',
   catalogue: 'Catalogue · Folio + Panels + Pills',
   daymaster: 'Day-Master screen',
-  element: 'Element screens (interim → K2)',
-  deep: 'Deep pages (PLANNED — the K2 corpus)',
+  element: 'Element screens (the depth home: faces + corpus ×50)',
+  deep: 'Deep pages (the element-god depth corpus)',
 };
 function surfacesFor(screen, journeyScreen) {
   if (screen === 'reveal') return [SURFACE.identity];
@@ -424,7 +411,6 @@ function surfacesFor(screen, journeyScreen) {
     return [SURFACE.identity, SURFACE.catalogue];
   }
   if (screen === 'app-daymaster') return [SURFACE.daymaster];
-  if (screen === 'app-energy') return [SURFACE.element, SURFACE.deep];
   if (screen === 'app-pillars') return [SURFACE.deep];
   return []; // screen carries no reading variables
 }
@@ -456,10 +442,8 @@ function SchemaView({ chart, birthData, currentScreen }) {
     return () => window.removeEventListener('journey-screen', onJourney);
   }, []);
 
-  // The element in focus: journey element sub-screen, or the app-energy page.
-  const activeEl = currentScreen === 'app-energy'
-    ? (typeof window !== 'undefined' ? window.__energyEl : null)
-    : (journeyScreen === 'element' ? journeyEl : null);
+  // The element in focus: the journey element sub-screen (the one depth home).
+  const activeEl = journeyScreen === 'element' ? journeyEl : null;
   const allGroups = useMemo(() => buildVariableGroups(model, activeEl, chart), [model, activeEl, chart]);
   const [showAll, setShowAll] = useState(false);
   const onScreen = surfacesFor(currentScreen, journeyScreen);

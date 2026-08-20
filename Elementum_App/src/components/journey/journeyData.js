@@ -216,6 +216,7 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
       faceKw: (FACE_CARD[god]?.kw || []).join(' · ').toLowerCase(),
       teaser: FACE_CARD[god]?.teaser || '',
       hook: isBlade ? (tile.hook || '') : '', tag: tile.pol || '',
+      facesRaw: e.faces || [],   // v2.1 polarity faces [{god, weight, polarity}], dominant-led
     };
   });
   const byEl = {}; els.forEach((r) => { byEl[r.el] = r; });
@@ -256,6 +257,19 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
     else r.dx = { condition: 'Balanced', remedy: null };
     r.adj = (frictionSide ? ADJ_FRICTION[r.god] : ADJ_CATALYST[r.god]) || [];
     r.adjPole = frictionSide ? 'fric' : 'cat';
+    // v2.1 polarity faces, persona-enriched (owner merge-and-retire ruling
+    // 2026-08-19: the element screen absorbs the faces page's polarity split).
+    // Ghost elements have no present face — the leadGod fallback keeps one.
+    const rawFaces = r.facesRaw.length ? r.facesRaw : [{ god: r.god, weight: 1, polarity: null }];
+    const sumW = rawFaces.reduce((s, f) => s + (f.weight || 0), 0) || 1;
+    r.faces = rawFaces.map((f) => ({
+      god: f.god, polarity: f.polarity,
+      share: Math.round(((f.weight || 0) / sumW) * 100),
+      persona: TG_PERSONA[f.god] || '',
+      keyword: KEYWORD[f.god] || '',
+      adj: (frictionSide ? ADJ_FRICTION[f.god] : ADJ_CATALYST[f.god]) || [],
+      teaser: FACE_CARD[f.god]?.teaser || '',
+    }));
     r.chips = [];
     if (r.isCore) r.chips.push({ k: 'core', label: 'Core' });
     if (r.role === 'friction' || r.coreExcess) r.chips.push({ k: 'fric', label: 'Friction' });
@@ -391,6 +405,13 @@ export function buildElementScreen(model, el) {
     k2: K2_CELLS[`${r.hz}_${r.god}`] || null,
     domains: GOD_DOMAINS[r.god] || [],
     functionsDef: K2_FUNCTIONS,
+    // Polarity faces (1–2, dominant-led) — each carries its own depth cell;
+    // the view renders a face switcher when both polarities are present.
+    faces: (r.faces || []).map((f) => ({
+      ...f,
+      k2: K2_CELLS[`${r.hz}_${f.god}`] || null,
+      domains: GOD_DOMAINS[f.god] || [],
+    })),
   };
 }
 

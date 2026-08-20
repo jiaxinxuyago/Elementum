@@ -2814,6 +2814,15 @@
 
 /* ── K2 depth blocks on the element page (owner construct 2026-08-19) ── */
 .jny .el-funclab{ font-family: 'Cinzel', Georgia, serif; font-size: 10px; letter-spacing: 1.6px; text-transform: uppercase; color: var(--bronzeDark); margin-right: 3px; }
+/* polarity face switcher (merge-and-retire, owner 2026-08-19): 1–2 faces,
+   dominant-led; the whole depth stack below reads the active face */
+.jny .el-facelead{ color: #6f6759; }
+.jny .el-facesw{ display: flex; gap: 7px; margin: 0 0 9px; }
+.jny .el-faceswbtn{ flex: 1; font-family: 'Cinzel', Georgia, serif; font-size: 11px; letter-spacing: 1.1px;
+    padding: 6px 10px; border-radius: 999px; cursor: pointer;
+    background: rgba(248,244,236,0.85); border: 1px solid rgba(160,138,100,0.38); color: #8a8278; }
+.jny .el-faceswbtn.on{ background: rgba(160,138,100,0.14); border-color: var(--bronzeDark); color: var(--bronzeDark); font-weight: 600; }
+.jny .el-faceswsub{ margin-left: 6px; font-family: Georgia, serif; font-size: 10px; letter-spacing: 0.4px; opacity: 0.75; }
 .jny .el-domchip{ font-size: 11px; letter-spacing: 0.6px; padding: 3px 10px; border-radius: 999px;
     background: rgba(248,244,236,0.9); border: 1px solid rgba(160,138,100,0.4); color: var(--bronzeDark); }
 .jny .el-domlock{ color: #8a8278; font-size: 12px; }

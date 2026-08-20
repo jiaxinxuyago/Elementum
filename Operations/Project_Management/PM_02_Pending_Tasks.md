@@ -51,7 +51,7 @@ Cell = `k2_overview` (40–70w) + `k2_functional` ×5 (Mind/Expression/Bonds/Act
 ### K2-A · Template cell — ✅ 土_偏印 authored + locked (the corpus template)
 ### K2-B · Batch ×49 — ✅ COMPLETE (2026-08-19): all 50 cells station-authored → `k2.js` K2_CELLS regenerated from station; persona-led throughout (TG_PERSONA canonical: 伤官 Virtuoso · 正官 Magistrate · 正印 Sage now named in-body); registry rows locked at 40–70w / ≤22w / 18–55w; both audits green (5 voice tells caught + fixed pre-lock); interim `mean_line` RETIRED; verified on the exemplar's five element pages incl. Seeker gating
 ### K2-C · The POSITION axis — ✅ COMPLETE: corpus LOCKED ×70 + gates re-ruled LITERAL (Year/Month/Day/Hour Gate) + engine surfacing live (`resolvePositions`; FULL readings = energy-card seats accordion, P5 = index only)
-### K2-D · Two-tier homes — app-energy (faces page) becomes the K2 full reading home; journey sub-screen keeps the excerpt tiers
+### K2-D · Two-tier homes — ✅ RE-RULED + COMPLETE (owner "merge and retire", 2026-08-19): the journey element sub-screen IS the one full home; the app-energy faces page RETIRED (ReadingFacesScreen + ReadingEnergyCard deleted, route/DevBar/dev-hooks swept, "Full reading" CTA removed — the depth gradient no longer inverts into stale v2.1 content). Its polarity split folded in: 1–2 engine faces per element render as a face switcher in "How it moves in you", each face reading its own depth cell (verified: exemplar Metal = Twin 67% / Rival 33%, whole stack switches; Seeker gating per face). PERSONA_READING module KEPT (consultant payload source). qa-journey-sweep rewritten to the dot-card journey (16/16)
 
 ## OWNER — review & decisions (no deadline)
 
