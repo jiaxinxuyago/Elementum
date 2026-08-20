@@ -53,7 +53,7 @@ const Disc = () => (
 );
 
 export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, onOpenCodex }) {
-  const { chart, ec, identity } = useReading();
+  const { chart, ec, identity, hourUnknown } = useReading();
   const { tier } = useChart();   // K2 domain readings are Seeker-gated
   const [screen, setScreen] = useState('catalogue');
   const [elOpen, setElOpen] = useState(null);      // element screen target
@@ -301,7 +301,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const elFaceIdx = Math.min(faceIdx, Math.max(elFaces.length - 1, 0));
   const elFace = elFaces[elFaceIdx] || elScreen;
   // The element's seats (REA_02 §5e echo): the positions this energy holds.
-  const elPositions = elScreen ? resolvePositions(chart).filter((p) => p.el === elScreen.el) : [];
+  const elPositions = elScreen ? resolvePositions(chart, hourUnknown).filter((p) => p.el === elScreen.el) : [];
   const glossary = buildGlossary(m);
   const condIcon = m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged';
   const fnNote = fnOpen ? glossary[fnOpen] : null;
@@ -788,7 +788,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                             <span className="v-bar"><i style={{ height: `${Math.round((r.presence / pMax) * 100)}%`, background: `var(--${r.el}Deep)` }} /></span>
                             <span className="v-mk" style={{ color: `var(--${r.el}Deep)` }}><svg viewBox="0 0 24 24" fill="currentColor"><use href={U(`el-${r.el}`)} /></svg></span>
                             <span className="v-el">{r.name}</span>
-                            <span className="v-noun">{r.relation}</span>
+                            {/* Skip side speaks the SHADOW noun (REA_02 §5b-ii) — the
+                                anatomy noun is never what the reading says to skip. */}
+                            <span className="v-noun">{r.shadow}</span>
                           </div>
                         ))}
                       </div>

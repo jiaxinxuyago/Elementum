@@ -6,6 +6,13 @@
 // the Day Master), the slot's stem (branches via their 藏干 main qi)
 // takes its ten-god against the DM, and the god × slot names the event:
 // "The Alchemist inside the Career Gate · 偏印在月支".
+//
+// hourUnknown suppresses both hour slots: when the birth time is unknown
+// or approximate, chartContext.resolveHourForCalc() DEFAULTS the hour (12,
+// or the window midpoint), so an hour pillar exists but is not a chart
+// fact. buildPillars() already hides the hour column for this reason
+// (DES_04 §22, 3-pillar path); positions follow the same rule rather than
+// naming seats the chart does not hold.
 // ===================================================================
 
 import { getTenGod, HIDDEN_STEMS, STEM_ELEM } from '../../engine/index.js';
@@ -19,12 +26,13 @@ const GOD_ID = {
   '偏印': 'pianyin', '正印': 'zhengyin',
 };
 
-export function resolvePositions(chart) {
+export function resolvePositions(chart, hourUnknown = false) {
   const p = chart?.pillars || {};
   const dm = p.day?.stem;
   if (!dm) return [];
   const out = [];
   for (const slot of SLOTS) {
+    if (hourUnknown && slot.gate === 'hour') continue;
     const pi = p[slot.gate];
     if (!pi) continue;
     let stem;
