@@ -10,7 +10,7 @@
 
 import { getTenGod, HIDDEN_STEMS, STEM_ELEM } from '../../engine/index.js';
 import { ELEMENT_TO_PIGMENT } from '../../styles/elementPigments.js';
-import { TG_PERSONA } from '../../content/tgNames.js';
+import { TG_PERSONA } from '../../content/index.js';
 import { SLOTS, GATES, positionTerm, positionZh, POSITION_READINGS } from '../../content/positions.js';
 
 const GOD_ID = {
@@ -27,7 +27,7 @@ export function resolvePositions(chart) {
   for (const slot of SLOTS) {
     const pi = p[slot.gate];
     if (!pi) continue;
-    let stem = null;
+    let stem;
     if (slot.kind === 'stem') stem = pi.stem || null;
     else {
       const hs = HIDDEN_STEMS[pi.branch];
