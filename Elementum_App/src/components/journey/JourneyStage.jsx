@@ -328,8 +328,11 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
     };
   })() : null;
 
+  // data-ca="dock" removed with the dock retirement (2026-08-19): its stale
+  // padv2 padding-bottom:18px override was clipping every screen's tail under
+  // the tab bar (the dock used to provide that clearance).
   return (
-    <div className="jny jphone" data-css="phoneP" data-grand="v1" data-ca="dock" data-journey="compass" data-art="bloom">
+    <div className="jny jphone" data-css="phoneP" data-grand="v1" data-journey="compass" data-art="bloom">
       <span style={{ display: 'none' }} dangerouslySetInnerHTML={{ __html: `<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>${JOURNEY_DEFS}</defs></svg>` }} />
       <div className="scr2">
         <div className="status2"><span>9:41</span><span className="dots">●●● &nbsp;⌃ &nbsp;▮</span></div>
