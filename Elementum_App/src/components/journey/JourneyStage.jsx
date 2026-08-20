@@ -53,7 +53,7 @@ const Disc = () => (
 );
 
 export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, onOpenCodex }) {
-  const { chart, ec, identity } = useReading();
+  const { chart, ec, identity, hourUnknown } = useReading();
   const { tier } = useChart();   // K2 domain readings are Seeker-gated
   const [screen, setScreen] = useState('catalogue');
   const [elOpen, setElOpen] = useState(null);      // element screen target
@@ -301,7 +301,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const elFaceIdx = Math.min(faceIdx, Math.max(elFaces.length - 1, 0));
   const elFace = elFaces[elFaceIdx] || elScreen;
   // The element's seats (REA_02 §5e echo): the positions this energy holds.
-  const elPositions = elScreen ? resolvePositions(chart).filter((p) => p.el === elScreen.el) : [];
+  const elPositions = elScreen ? resolvePositions(chart, hourUnknown).filter((p) => p.el === elScreen.el) : [];
   const glossary = buildGlossary(m);
   const condIcon = m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged';
   const fnNote = fnOpen ? glossary[fnOpen] : null;

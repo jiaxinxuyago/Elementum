@@ -21,7 +21,10 @@ export default function ReadingPillarChartScreen({ onBack, onDiscoverHour }) {
   if (!ec || !chart) return null;
   const pillars = buildPillars(chart, hourUnknown);
   // The chart's named positions (REA_02 §5e) — engine-resolved god × slot.
-  const positions = resolvePositions(chart);
+  // hourUnknown passed for the same reason buildPillars gets it: a defaulted
+  // hour must not name seats (the card's own copy says the Hour pillar
+  // completes once the birth time is set).
+  const positions = resolvePositions(chart, hourUnknown);
   return (
     <div className="reading" style={{ position: 'absolute', inset: 0 }}>
       <ReadingPillarChartCard
