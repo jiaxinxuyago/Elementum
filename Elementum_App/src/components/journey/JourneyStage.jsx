@@ -788,7 +788,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                             <span className="v-bar"><i style={{ height: `${Math.round((r.presence / pMax) * 100)}%`, background: `var(--${r.el}Deep)` }} /></span>
                             <span className="v-mk" style={{ color: `var(--${r.el}Deep)` }}><svg viewBox="0 0 24 24" fill="currentColor"><use href={U(`el-${r.el}`)} /></svg></span>
                             <span className="v-el">{r.name}</span>
-                            <span className="v-noun">{r.relation}</span>
+                            {/* Skip side speaks the SHADOW noun (REA_02 §5b-ii) — the
+                                anatomy noun is never what the reading says to skip. */}
+                            <span className="v-noun">{r.shadow}</span>
                           </div>
                         ))}
                       </div>
