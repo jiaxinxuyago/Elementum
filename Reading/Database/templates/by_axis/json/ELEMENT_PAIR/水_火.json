@@ -1,0 +1,26 @@
+{
+  "$archetype": "水_火",
+  "axis": "ELEMENT_PAIR",
+  "key": "水_火",
+  "canonical_name": "Water core × Fire — the Drive",
+  "construct": "Batched to the locked 金_水 template (owner 2026-08-19) — see that cell for the full construct note.",
+  "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
+  "sources": [
+    "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
+    "owner rulings 2026-08-19 (element-page restructure)"
+  ],
+  "candidates": {
+    "mechanism": {
+      "base": "Your core is Water, and Water tames Fire: rain ends the blaze. Fire is the bright, urgent, valuable heat your depth exists to govern: opportunity, attention, markets mid-blaze. That is why it is your Drive, the seat of what you build and claim. You do not outshine the fire. You decide where it burns, and what survives it.",
+      "catalyst_turn": "Run thin, nothing bright is governed: depth with no stake in the blaze, wisdom watching value burn past. Your chart asks you to claim heat. Step toward the bright loud thing.",
+      "friction_turn": "Run heavy, the Drive turns Grind: every flame managed, every bright thing dampened into strategy, no fire left just for warmth. Let one blaze run wild and enjoy it."
+    },
+    "function": {
+      "primary": "action",
+      "body": "The Drive is your action function: what you go get, build, and hold. With Fire running it, action in you is climate control over bright things: you move on opportunity coolly, price urgency without feeling it, and win by staying liquid while everyone else overheats. Claim the flashy asset calmly. Your calm is the negotiating position.",
+      "dips": {
+        "bonds": "You provide by steadying: the heated people you cool become yours for life."
+      }
+    }
+  }
+}

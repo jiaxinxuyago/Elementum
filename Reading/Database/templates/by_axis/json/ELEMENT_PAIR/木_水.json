@@ -1,0 +1,26 @@
+{
+  "$archetype": "木_水",
+  "axis": "ELEMENT_PAIR",
+  "key": "木_水",
+  "canonical_name": "Wood core × Water — the Root",
+  "construct": "Batched to the locked 金_水 template (owner 2026-08-19) — see that cell for the full construct note.",
+  "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
+  "sources": [
+    "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
+    "owner rulings 2026-08-19 (element-page restructure)"
+  ],
+  "candidates": {
+    "mechanism": {
+      "base": "Your core is Wood, and Water feeds Wood: rain raises the forest. Everything that soaks in quietly, sleep, reading, long conversations, time near water and depth, is what your growth actually drinks. That is why Water is your Root, the seat that restores what growing spends. A forest is not raised by effort. It is raised by weather.",
+      "catalyst_turn": "Run thin, the canopy outpaces the rain: ambition still reaching while the soil dries. Your chart asks you to feed the water table. Rest, read, go quiet and refill.",
+      "friction_turn": "Run heavy, the Root turns Cage: flooded ground, roots soaked past drinking, growth postponed for one more season of preparation. Drain a little. Trees also need sun."
+    },
+    "function": {
+      "primary": "body",
+      "body": "The Root is your intake function: what feeds, shelters, and repairs you. With Water running it, restoration in you arrives as immersion: deep sleep, deep baths, deep books, grief and joy fully felt. You do not recover in fragments. You refill like a water table, invisibly and all at once, and the growth that follows looks sudden to everyone but you.",
+      "dips": {
+        "mind": "Understanding seeps into you overnight: sleep on a question and it answers by morning."
+      }
+    }
+  }
+}

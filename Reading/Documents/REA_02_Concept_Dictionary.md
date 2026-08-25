@@ -252,7 +252,7 @@ The Nebula principle: a configuration is a NAMED EVENT, and the reading starts f
 
 **The canonical domain taxonomy ×8 (every position reading DECLARES its ruled domains from this set before interpreting):** **Wealth · Health · Career · Love · Family · Social · Mind · Growth**. The god-flavored domain nouns (§ GOD.domains: Learning/Intuition/Solitude…) are expressions *inside* these categories, not a parallel category layer.
 
-## 5f · PROPOSED — the seat functions (element-page restructure, owner construct 2026-08-19; mapping awaiting owner lock at the ELEMENT_PAIR template review)
+## 5f · LOCKED — the seat functions (element-page restructure; mapping locked with the ELEMENT_PAIR template, owner 2026-08-19)
 
 The owner's ruling: on the energy page, "How it runs your functions" speaks the SEAT NOUN as a function of the reader's system — energy-level, no god split (the gods live in Ruling Domains). Each seat owns ONE primary function from the five (Mind · Expression · Bonds · Action · Body) and may dip into 1–2 others.
 

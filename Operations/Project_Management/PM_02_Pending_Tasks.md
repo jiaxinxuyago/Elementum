@@ -57,8 +57,8 @@ Cell = `k2_overview` (40–70w) + `k2_functional` ×5 (Mind/Expression/Bonds/Act
 
 Owner's diagnosis: the yin/yang face split introduced complexity at arrival. New ladder: **1 Mechanism** (law + verdict + bridge consolidated — the 生/克 reaction, visual-first) → **2 Function** (seat noun as system function, REA_02 §5f map, no god split) → **3 Ruling Domains** (the gods' home + seats + Seeker readings; THE most important section). Content first, UI after.
 
-### EP-A · ELEMENT_PAIR template cell — 金_水 AUTHORED, awaiting owner review (+ §5f seat→function mapping awaiting lock at the same review)
-### EP-B · Batch ×24 after the template locks (incl. the 5 core self-pairs — core variant structure ruled at batch)
+### EP-A · ELEMENT_PAIR template cell — ✅ 金_水 approved + locked (owner 2026-08-19); §5f seat→function map LOCKED with it
+### EP-B · Batch ×24 — ✅ COMPLETE (2026-08-19): all 25 pairs station-authored to the template (20 relation pairs w/ exact §5d equations + image lines; 5 core self-pairs = reinforcement mechanism w/ core-catalyst/core-excess turns); guards held budgets, seat nouns, image lines, shadow nouns, §5f primary/dip keys; registry rows locked ceiling-only (single-range cell law), audits green
 ### EP-C · Section 3 content restructure — per-god sub-blocks in Ruling Domains (persona + domains + Seeker readings; god overviews/functionals leave the page, kept as ore)
 ### EP-D · UI pass — visual-first mechanism section (cycle diagram from cycles.js anchors), function section, domains re-order; face switcher retires from arrival
 

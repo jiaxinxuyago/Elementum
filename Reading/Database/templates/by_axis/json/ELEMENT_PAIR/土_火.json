@@ -1,0 +1,26 @@
+{
+  "$archetype": "土_火",
+  "axis": "ELEMENT_PAIR",
+  "key": "土_火",
+  "canonical_name": "Earth core × Fire — the Root",
+  "construct": "Batched to the locked 金_水 template (owner 2026-08-19) — see that cell for the full construct note.",
+  "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
+  "sources": [
+    "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
+    "owner rulings 2026-08-19 (element-page restructure)"
+  ],
+  "candidates": {
+    "mechanism": {
+      "base": "Your core is Earth, and Fire feeds Earth: ash becomes soil. Everything warm that visits you, affection, praise, festivity, sunlight on the field, breaks down into the ground you grow from. That is why Fire is your Root, the seat that restores what holding spends. Soil is not made by stone alone. It is made by everything that once burned.",
+      "catalyst_turn": "Run thin, the field goes gray: duties held on cold ground, nothing warm coming in. Your chart asks you to feed the fire that feeds you. Accept warmth. Attend the feast.",
+      "friction_turn": "Run heavy, the Root turns Cage: so much warmth the ground never firms, comfort layered until standing feels unnecessary. Walk off the hearth and bear some weather."
+    },
+    "function": {
+      "primary": "body",
+      "body": "The Root is your intake function: what feeds, shelters, and repairs you. With Fire running it, restoration in you is warmth taken in: sun, celebration, affection given openly, kitchens with people in them. You recover socially and brightly, and solitude repairs you far less than a good long table does. Schedule the gatherings. For you they are agriculture rather than leisure.",
+      "dips": {
+        "mind": "Encouragement literally teaches you: you absorb best from people who warm the material first."
+      }
+    }
+  }
+}

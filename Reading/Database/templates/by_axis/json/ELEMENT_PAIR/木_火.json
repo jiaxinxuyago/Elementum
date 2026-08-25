@@ -1,0 +1,27 @@
+{
+  "$archetype": "木_火",
+  "axis": "ELEMENT_PAIR",
+  "key": "木_火",
+  "canonical_name": "Wood core × Fire — the Voice",
+  "construct": "Batched to the locked 金_水 template (owner 2026-08-19) — see that cell for the full construct note.",
+  "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
+  "sources": [
+    "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
+    "owner rulings 2026-08-19 (element-page restructure)"
+  ],
+  "candidates": {
+    "mechanism": {
+      "base": "Your core is Wood, and Wood feeds Fire: dry branches make the flame. Whatever your growth pours itself into becomes your Voice, the channel where what you have grown turns to light and heat for others. Every talk given, every gathering warmed, every idea that catches is your years of quiet branching, finally burning visible.",
+      "catalyst_turn": "Run thin, the wood stays green: years of growth and nothing kindled, reach without light. Your chart asks you to burn a little. Show the work, tell the story, let it catch.",
+      "friction_turn": "Run heavy, the Voice turns Echo: everything burned the moment it grows, no branch left on the tree. The flame eats its own forest. Bank the fire and let some growth stand."
+    },
+    "function": {
+      "primary": "expression",
+      "body": "The Voice is your expression function: the gate where inner growth becomes outer light. With Fire running it, expression in you performs: it warms, it dazzles, it spreads by catching. You are at your clearest in front of people, mid-flame, thinking aloud. Feed it seasoned material, work that has dried long enough to burn clean, and your reach turns luminous.",
+      "dips": {
+        "mind": "You discover what you think by saying it while it burns.",
+        "bonds": "People gather to your warmth first and your reasons second."
+      }
+    }
+  }
+}

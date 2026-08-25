@@ -1,0 +1,27 @@
+{
+  "$archetype": "土_金",
+  "axis": "ELEMENT_PAIR",
+  "key": "土_金",
+  "canonical_name": "Earth core × Metal — the Voice",
+  "construct": "Batched to the locked 金_水 template (owner 2026-08-19) — see that cell for the full construct note.",
+  "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
+  "sources": [
+    "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
+    "owner rulings 2026-08-19 (element-page restructure)"
+  ],
+  "candidates": {
+    "mechanism": {
+      "base": "Your core is Earth, and Earth feeds Metal: ore grows in the mountain. Whatever your ground pours itself into becomes your Voice, the channel where your patience turns to something refined and exact. Every precise word, every finished piece, every standard you quietly set is your years of holding, surfacing as edge. Mountains speak rarely. What they say is ore.",
+      "catalyst_turn": "Run thin, the ore stays buried: depth with no expression, patience that never mints anything. Your chart asks you to bring metal up. Finish a piece, publish the standard.",
+      "friction_turn": "Run heavy, the Voice turns Echo: everything mined and minted, the mountain hollowed for output. Leave some ore in the ground. Your silence is part of the deposit."
+    },
+    "function": {
+      "primary": "expression",
+      "body": "The Voice is your expression function: the gate where inner ground becomes outer fact. With Metal running it, expression in you is smelted: few words, long formed, hard to argue with. You express by finishing, and your outputs carry an heirloom weight that louder voices never manage. Let things out before they are perfect. Ore refines in the open too.",
+      "dips": {
+        "mind": "Writing sharpens your slow thinking: the sentence is where your ground finds its edge.",
+        "bonds": "People keep what you make: your rare words get quoted back years later."
+      }
+    }
+  }
+}

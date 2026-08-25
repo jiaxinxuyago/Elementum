@@ -1,0 +1,27 @@
+{
+  "$archetype": "火_土",
+  "axis": "ELEMENT_PAIR",
+  "key": "火_土",
+  "canonical_name": "Fire core × Earth — the Voice",
+  "construct": "Batched to the locked 金_水 template (owner 2026-08-19) — see that cell for the full construct note.",
+  "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
+  "sources": [
+    "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
+    "owner rulings 2026-08-19 (element-page restructure)"
+  ],
+  "candidates": {
+    "mechanism": {
+      "base": "Your core is Fire, and Fire feeds Earth: ash becomes soil. Whatever your heat pours itself into becomes your Voice, the channel where your burning turns to ground others stand on. Every lesson taught, every custom kept warm, every gathering hosted is your flame settling into something lasting. Light shows. Soil stays.",
+      "catalyst_turn": "Run thin, the fire leaves no ash: heat and light, nothing banked, nothing built from the burning. Your chart asks you to settle some flame. Teach it, write it, found it.",
+      "friction_turn": "Run heavy, the Voice turns Echo: every spark pressed into a monument, output hardening faster than it can live. Let some fires just be fires. Not every flame must found something."
+    },
+    "function": {
+      "primary": "expression",
+      "body": "The Voice is your expression function: the gate where inner heat becomes outer fact. With Earth running it, expression in you builds rather than dazzles: lessons, systems, homes, traditions warm to the touch. You speak in things that outlast the saying. Feed it steadily and your warmth becomes infrastructure, the kind of expression people live inside for years.",
+      "dips": {
+        "mind": "Teaching is how your thinking settles: explain it once and you own it.",
+        "bonds": "People inhabit what you express: your warmth reaches them as belonging."
+      }
+    }
+  }
+}

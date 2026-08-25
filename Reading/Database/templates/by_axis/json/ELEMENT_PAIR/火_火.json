@@ -1,0 +1,26 @@
+{
+  "$archetype": "火_火",
+  "axis": "ELEMENT_PAIR",
+  "key": "火_火",
+  "canonical_name": "Fire core × Fire — the Core",
+  "construct": "Batched to the locked 金_水 template (owner 2026-08-19) — see that cell for the full construct note.",
+  "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
+  "sources": [
+    "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
+    "owner rulings 2026-08-19 (element-page restructure)"
+  ],
+  "candidates": {
+    "mechanism": {
+      "base": "Your core is Fire, and here Fire stands with Fire: flame alongside flame, one blaze sharing a hearth. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. It is your Core, the seat of identity itself: your warmth, your visibility, your refusal to be dim. The other energies act on you. This one is the light itself.",
+      "catalyst_turn": "Run thin, the flame apologizes for shining: warmth dialed down, light waiting to be invited. Your chart asks you to feed the self. Take the stage you keep declining.",
+      "friction_turn": "Run heavy, the Core turns Bubble: so much light nothing else is visible, warmth that outshines the people it warms. Dim deliberately sometimes. Stars are seen at night."
+    },
+    "function": {
+      "primary": "mind",
+      "body": "The Core is your judgment function: the seat where conviction is lit and carried. With Fire doubled here, your mind thinks in illumination: it decides by what suddenly makes sense, whole pictures catching at once. Your certainty is warm and contagious, which is power and responsibility in one. Check the flash against daylight before you rally anyone to it.",
+      "dips": {
+        "action": "Conviction moves you instantly: the moment you see it, you are already lit."
+      }
+    }
+  }
+}

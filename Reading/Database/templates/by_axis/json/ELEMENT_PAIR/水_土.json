@@ -1,0 +1,26 @@
+{
+  "$archetype": "水_土",
+  "axis": "ELEMENT_PAIR",
+  "key": "水_土",
+  "canonical_name": "Water core × Earth — the Duty",
+  "construct": "Batched to the locked 金_水 template (owner 2026-08-19) — see that cell for the full construct note.",
+  "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
+  "sources": [
+    "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
+    "owner rulings 2026-08-19 (element-page restructure)"
+  ],
+  "candidates": {
+    "mechanism": {
+      "base": "Your core is Water, and Earth tames Water: banks give the river its path. Earth is the structure that contains you, schedules, roles, walls that will not move for feeling, and contained water is what a river is. That is why it is your Duty, the seat of the discipline that shapes you. Unbanked, depth spreads into marsh. Banked, it becomes current.",
+      "catalyst_turn": "Run thin, nothing banks you: depth spreading wide and arriving nowhere, freedom without force. Your chart asks for structure. Accept the role, the rhythm, the walls that aim you.",
+      "friction_turn": "Run heavy, the Duty turns Weight: banks closing in, current squeezed into a schedule until the water forgets it moves. Widen the channel. Rivers are meant to breathe."
+    },
+    "function": {
+      "primary": "bonds",
+      "body": "The Duty is your accountability function: how order, obligation, and firm structure sit on you. With Earth running it, accountability in you is banked and patient: steady roles, long commitments, people whose expectations do not move with weather. You resent the walls and run truer inside them, and both facts belong in your planning. Choose banks that point somewhere worth arriving.",
+      "dips": {
+        "action": "Structure converts you to force: the same depth that idles in the open drives turbines in a channel."
+      }
+    }
+  }
+}

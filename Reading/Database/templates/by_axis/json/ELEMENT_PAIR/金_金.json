@@ -1,0 +1,26 @@
+{
+  "$archetype": "金_金",
+  "axis": "ELEMENT_PAIR",
+  "key": "金_金",
+  "canonical_name": "Metal core × Metal — the Core",
+  "construct": "Batched to the locked 金_水 template (owner 2026-08-19) — see that cell for the full construct note.",
+  "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
+  "sources": [
+    "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
+    "owner rulings 2026-08-19 (element-page restructure)"
+  ],
+  "candidates": {
+    "mechanism": {
+      "base": "Your core is Metal, and here Metal stands with Metal: edge alongside edge, the same ore twice refined. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. It is your Core, the seat of identity itself: your standards, your stance, your word. Where the other energies act on you, this one just holds the line.",
+      "catalyst_turn": "Run thin, the line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last. Your chart asks you to feed the self. Practice your craft alone until it rings.",
+      "friction_turn": "Run heavy, the Core turns Bubble: so much edge that nothing else gets in, certainty sealed against weather. Honor the standard, and let one trusted voice past it."
+    },
+    "function": {
+      "primary": "mind",
+      "body": "The Core is your judgment function: the seat where positions are taken and kept. With Metal doubled here, your mind works like an assay office: claims weighed, conclusions struck once and held. You think in standards, and your certainty is load-bearing for the people around you. The craft is re-testing your own conclusions on schedule: even a true edge needs truing.",
+      "dips": {
+        "action": "Decisions become motion fast in you: once judged, a thing is already being done."
+      }
+    }
+  }
+}

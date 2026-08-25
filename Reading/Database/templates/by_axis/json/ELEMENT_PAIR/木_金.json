@@ -1,0 +1,26 @@
+{
+  "$archetype": "木_金",
+  "axis": "ELEMENT_PAIR",
+  "key": "木_金",
+  "canonical_name": "Wood core × Metal — the Duty",
+  "construct": "Batched to the locked 金_水 template (owner 2026-08-19) — see that cell for the full construct note.",
+  "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
+  "sources": [
+    "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
+    "owner rulings 2026-08-19 (element-page restructure)"
+  ],
+  "candidates": {
+    "mechanism": {
+      "base": "Your core is Wood, and Metal tames Wood: the knife prunes the branch. Metal is the edge that comes for your growth, rules, reviews, hard standards, and pruning is precisely what turns wild reach into an orchard. That is why it is your Duty, the seat of the discipline that shapes you. Unpruned trees grow large. Pruned ones bear fruit.",
+      "catalyst_turn": "Run thin, nothing prunes you: growth in every direction and fruit in none. Your chart asks for the knife. Invite the standard, the editor, the coach with shears.",
+      "friction_turn": "Run heavy, the Duty turns Weight: cut after cut until growing feels like a fault. Too much knife leaves no tree. Step back from blades that prune for pruning’s sake."
+    },
+    "function": {
+      "primary": "bonds",
+      "body": "The Duty is your accountability function: how order, obligation, and other people’s standards sit on you. With Metal running it, accountability in you is exact: contracts, deadlines, people who measure. You grow best trellised, and you know it, which is why you keep choosing exacting company. Respect the shears that shape you, and refuse the ones that only wound.",
+      "dips": {
+        "action": "A hard rule concentrates you: given clean constraints, your growth goes vertical."
+      }
+    }
+  }
+}
