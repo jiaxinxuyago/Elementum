@@ -104,8 +104,6 @@ const gChart = calc({ year: 1995, month: 4, day: 29, hour: 18, gender: 'male', l
 const gEc = engine.buildEnergyChart(gChart);
 const gId = buildIdentity(gChart, STEM_CARD_DATA[gChart.dayMaster.stem], {});
 const gModel = jd.buildJourneyModel({ chart: gChart, ec: gEc, identity: gId, card: STEM_CARD_DATA[gChart.dayMaster.stem] });
-const meanOf = {};
-for (const el of ELS) meanOf[el] = jd.buildElementScreen(gModel, el).mean;
 
 // ELEMENT·GOD structural-interaction lines — parsed from REA_03 §4b (doc = source).
 const interactionOf = {};
@@ -212,11 +210,12 @@ if (!CHECK) {
 
 // ── ELEMENT ×5 ──
 for (const el of ELS) {
+  // mean_line RETIRED 2026-08-19 (the depth-corpus overview owns the slot;
+  // the MEAN table left journeyData with it).
   file('ELEMENT', el, EL_HZ[el], null, {
     energy_tile_hook: ENERGY_TILE[el]?.hook ?? null,
     energy_tile_tag: ENERGY_TILE[el]?.pol ?? null,
-    mean_line: meanOf[el] ?? null,
-  }, ['src/content/reading/surfaceContent.js (ENERGY_TILE — interim, 庚-voiced)', 'src/components/journey/journeyData.js (MEAN)'],
+  }, ['src/content/reading/surfaceContent.js (ENERGY_TILE — interim, 庚-voiced)'],
   { status_note: 'interim copy — target grain is ELEMENT_GOD per the K2 pass' });
 }
 

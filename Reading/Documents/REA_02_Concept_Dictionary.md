@@ -252,6 +252,20 @@ The Nebula principle: a configuration is a NAMED EVENT, and the reading starts f
 
 **The canonical domain taxonomy ×8 (every position reading DECLARES its ruled domains from this set before interpreting):** **Wealth · Health · Career · Love · Family · Social · Mind · Growth**. The god-flavored domain nouns (§ GOD.domains: Learning/Intuition/Solitude…) are expressions *inside* these categories, not a parallel category layer.
 
+## 5f · PROPOSED — the seat functions (element-page restructure, owner construct 2026-08-19; mapping awaiting owner lock at the ELEMENT_PAIR template review)
+
+The owner's ruling: on the energy page, "How it runs your functions" speaks the SEAT NOUN as a function of the reader's system — energy-level, no god split (the gods live in Ruling Domains). Each seat owns ONE primary function from the five (Mind · Expression · Bonds · Action · Body) and may dip into 1–2 others.
+
+| Seat (§5b) | Family | **Primary function** | Natural dips | The functional read |
+|---|---|---|---|---|
+| Core | 比劫 self | **Mind** | Action | identity, stance, judgment — the seat of the one deciding |
+| Root | 印 resource | **Body** | Mind | intake and restoration — what shelters, feeds, and re-teaches you |
+| Voice | 食伤 output | **Expression** | Mind · Bonds | the gate where inner work becomes outer fact |
+| Drive | 财 wealth | **Action** | Bonds | building and claiming — what you go get and provide |
+| Duty | 官杀 officer | **Bonds** | Action | order and accountability — how you hold rank among people |
+
+Shadow twins (§5b-ii) carry over: a seat in excess speaks its shadow in the friction turn (Voice→Echo etc.).
+
 ## 5c · LOCKED — Day-Master strength terms + remedy verbs (re-locked 2026-07-16)
 
 | Concept | 汉字 | **Term** | Definition line (mandatory on first surfacing) |

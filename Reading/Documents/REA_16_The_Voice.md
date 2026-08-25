@@ -142,11 +142,13 @@ Key forms: `station:<AXIS>.<field>` (exact) · `station:<AXIS>.*` (axis wildcard
 | `station:STEM_BAND.yourNature_desc` | portrait | 50-75w | locked | you-open · swap-gram (v2 BRIDGE corpus, owner 2026-08-14 — the decoding outweighs the myth) |
 | `station:STEM_BAND.self_card` | portrait | ≤30w | locked | swap-gram · face sub-field ≤8w (guarded at authoring) (BAND-C corpus, owner-locked 2026-08-14; slot = core element screen) |
 | `station:STEM_BAND.*` | portrait | — | pending | reserved for future STEM_BAND fields |
-| `station:ELEMENT.*` | functional | — | live | mean lines (interim) |
+| `station:ELEMENT.*` | functional | — | live | tile hook/tag (interim; mean_line RETIRED 2026-08-19 with the MEAN table) |
 | `station:ELEMENT_GOD.k2_overview` | portrait | 40-70w | locked | depth cell lead (corpus ×50 LOCKED 2026-08-19; 土_偏印 template + 49 batched) |
 | `station:ELEMENT_GOD.k2_functional` | portrait | ≤22w each ×5 | locked | Mind · Expression · Bonds · Action · Body (owner-ruled set) |
 | `station:ELEMENT_GOD.k2_domain_readings` | portrait | 18-55w each | locked | one per the god's ruled domains; Seeker-gated in the view |
 | `station:GOD.domains` | functional | — | locked | ruling-domain nouns ×3 (owner construct 2026-08-19; 六亲 roles kept where they teach) |
+| `station:ELEMENT_PAIR.mechanism` | portrait | 45-75w | pending | element-page restructure (owner 2026-08-19): base = the chemical reaction (DM el × energy el, why it seats as its noun); sub-fields catalyst_turn / friction_turn ≤35w each (friction speaks the shadow noun); consolidates law card + state verdict + bridge |
+| `station:ELEMENT_PAIR.function` | portrait | 40-70w | pending | the seat's PRIMARY function deep read (seat→function map REA_02 §5f); sub-field dips = 1-2 secondary-function lines ≤20w each; energy-level, no god split |
 | `station:ELEMENT_GOD.*` | portrait | — | pending | K2 corpus ×50 — GOD Angle Map ruled; cell construct ruled 2026-08-19 |
 | `station:GOD.*` | functional | — | live | V-class locks (REA_02 law) |
 | `station:CONDITION.*` | functional | — | live | V-class locks (REA_02 law) |

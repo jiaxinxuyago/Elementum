@@ -18,4 +18,3 @@
 |---|---|
 | `energy_tile_hook` | The ground that feeds your edge. |
 | `energy_tile_tag` | Stability · the centre |
-| `mean_line` | Load-bearing without announcement. The ground others build on. |

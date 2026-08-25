@@ -18,4 +18,3 @@
 |---|---|
 | `energy_tile_hook` | What your blade is for. |
 | `energy_tile_tag` | Growth · the upward push |
-| `mean_line` | Building before knowing what it will become. Growth as architecture. |

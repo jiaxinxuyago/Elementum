@@ -53,6 +53,15 @@ Cell = `k2_overview` (40–70w) + `k2_functional` ×5 (Mind/Expression/Bonds/Act
 ### K2-C · The POSITION axis — ✅ COMPLETE: corpus LOCKED ×70 + gates re-ruled LITERAL (Year/Month/Day/Hour Gate) + engine surfacing live (`resolvePositions`; FULL readings = energy-card seats accordion, P5 = index only)
 ### K2-D · Two-tier homes — ✅ RE-RULED + COMPLETE (owner "merge and retire", 2026-08-19): the journey element sub-screen IS the one full home; the app-energy faces page RETIRED (ReadingFacesScreen + ReadingEnergyCard deleted, route/DevBar/dev-hooks swept, "Full reading" CTA removed — the depth gradient no longer inverts into stale v2.1 content). Its polarity split folded in: 1–2 engine faces per element render as a face switcher in "How it moves in you", each face reading its own depth cell (verified: exemplar Metal = Twin 67% / Rival 33%, whole stack switches; Seeker gating per face). PERSONA_READING module KEPT (consultant payload source). qa-journey-sweep rewritten to the dot-card journey (16/16)
 
+## EP — the element-page restructure (owner feedback + rulings ×4, 2026-08-19; REA_03 ELEMENT_PAIR row)
+
+Owner's diagnosis: the yin/yang face split introduced complexity at arrival. New ladder: **1 Mechanism** (law + verdict + bridge consolidated — the 生/克 reaction, visual-first) → **2 Function** (seat noun as system function, REA_02 §5f map, no god split) → **3 Ruling Domains** (the gods' home + seats + Seeker readings; THE most important section). Content first, UI after.
+
+### EP-A · ELEMENT_PAIR template cell — 金_水 AUTHORED, awaiting owner review (+ §5f seat→function mapping awaiting lock at the same review)
+### EP-B · Batch ×24 after the template locks (incl. the 5 core self-pairs — core variant structure ruled at batch)
+### EP-C · Section 3 content restructure — per-god sub-blocks in Ruling Domains (persona + domains + Seeker readings; god overviews/functionals leave the page, kept as ore)
+### EP-D · UI pass — visual-first mechanism section (cycle diagram from cycles.js anchors), function section, domains re-order; face switcher retires from arrival
+
 ## OWNER — review & decisions (no deadline)
 
 | ID | Task |

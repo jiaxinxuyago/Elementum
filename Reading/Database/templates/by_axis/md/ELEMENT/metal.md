@@ -18,4 +18,3 @@
 |---|---|
 | `energy_tile_hook` | Your core — precision before intention. |
 | `energy_tile_tag` | Refinement · the edge |
-| `mean_line` | The conclusion arrives before the conversation. The standard runs first. |
