@@ -361,16 +361,19 @@ async function scenarioB(browser) {
   // full reading" CTA lands on the in-stage element screen, which IS the full
   // depth home now (the app-energy faces page is retired; hash stays
   // app-reading throughout). Returns the persona bridge line for assertions.
+  // The element screen's stable anchor is the mechanism equation line
+  // (.el-mecheq — "Metal feeds Water" / "Metal is your Core"), which always
+  // names the element (EP restructure 2026-08-19).
   const openEnergyFor = async (el) => {
     await toCatalogue();
     await page.click(`.wheel .node[data-el="${el}"]`);
     await page.waitForSelector('.wp-sheet.wp-dotcard .wp-codex', { timeout: 5000 });
     await page.click('.wp-sheet.wp-dotcard .wp-codex');
     await page.waitForFunction(() => {
-      const f = document.querySelector('.jscreen[data-screen="element"].active .el-face');
+      const f = document.querySelector('.jscreen[data-screen="element"].active .el-mecheq');
       return f && (f.textContent || '').trim().length > 0;
     }, { timeout: 8000 });
-    return page.evaluate(() => document.querySelector('.jscreen[data-screen="element"].active .el-face').textContent.trim());
+    return page.evaluate(() => document.querySelector('.jscreen[data-screen="element"].active .el-mecheq').textContent.trim());
   };
 
   await step(page, 'B', '1 · reveal swipe-up → dissolve → catalogue', async () => {

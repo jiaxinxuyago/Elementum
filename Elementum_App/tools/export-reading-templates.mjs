@@ -45,6 +45,7 @@ const { TG_PERSONA } = await import('../src/content/tgNames.js');
 const cyc = await import('../src/content/cycles.js');
 const k2 = await import('../src/content/k2.js');
 const pos = await import('../src/content/positions.js');
+const pairs = await import('../src/content/pairs.js');
 const jd = await import('../src/components/journey/journeyData.js');
 
 // ── taxonomy keys ──────────────────────────────────────────────────
@@ -303,6 +304,21 @@ for (const f of FAMILIES) {
   }, ['REA_02 §5b locks (via journeyData vocabulary tables)']);
 }
 
+
+// ── ELEMENT_PAIR ×25 (element-page restructure, owner 2026-08-19: the
+// mechanism + function corpus at DM-element × energy grain; LOCKED) ──
+const PAIR_ELS = ['木', '火', '土', '金', '水'];
+for (const dm of PAIR_ELS) {
+  for (const en of PAIR_ELS) {
+    const key = `${dm}_${en}`;
+    const cell = pairs.PAIR_CELLS[key];
+    file('ELEMENT_PAIR', key, key, null, {
+      mechanism: cell?.mechanism ?? null,
+      function: cell?.function ?? null,
+    }, ['src/content/pairs.js (PAIR_CELLS — regenerated wholesale from this station axis)'],
+    { status_note: 'LOCKED ×25 (owner 2026-08-19: 金_水 template approved → batch) — element page sections 1–2' });
+  }
+}
 
 // ── TEMPLATED ×16 (the sentence patterns) ──
 const T = (name, status, budget, body) => file('TEMPLATED', name, name, null, body, ['REA_03 §5 (patterns)'], { status_note: status, budget });

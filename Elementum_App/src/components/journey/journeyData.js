@@ -15,8 +15,9 @@
 
 import { getEnergyBand, relationOf } from '../../engine/index.js';
 import { TG_PERSONA, selfCardFor } from '../../content/index.js';
-import { FEEDS, TAMES, CYCLE_LINE } from '../../content/cycles.js';
+import { FEEDS, TAMES } from '../../content/cycles.js';
 import { K2_CELLS, K2_FUNCTIONS, GOD_DOMAINS } from '../../content/k2.js';
+import { PAIR_CELLS } from '../../content/pairs.js';
 import { FACE_CARD, ENERGY_TILE } from '../../content/reading/index.js';
 
 // ── element basics ─────────────────────────────────────────────────
@@ -337,7 +338,6 @@ function fullManifesto(card) {
 export function buildElementScreen(model, el) {
   const r = model.byEl[el];
   if (!r) return null;
-  const others = model.seek.filter((c) => c.el !== el && !c.missing).map((c) => c.name);
   let roleTx; let roleKind;
   if (r.isCore) { roleTx = 'YOUR CORE'; roleKind = 'who'; }
   else if (r.role === 'friction') { roleTx = 'FRICTION'; roleKind = 'down'; }
@@ -345,72 +345,56 @@ export function buildElementScreen(model, el) {
 
   const reye = `${r.name.toUpperCase()} · ${r.presence}%${r.missing ? ' · MISSING' : r.isCore ? ' · YOUR CORE' : ''}`;
 
-  let verdLab; let verdict;
-  if (r.isCore) {
-    verdLab = r.coreExcess ? 'YOUR CORE — ALSO YOUR EXCESS' : 'YOUR CORE';
-    verdict = r.coreExcess
-      ? `${model.condition}. Your Core is running as your ${r.shadow} right now. Honor it, don’t feed it further.`
-      : model.condition === 'Underfueled'
-        ? `${model.condition} — it burns more than it takes in; refill it.`
-        : `Balanced — nothing to force; ${FOLD_VERDICT.Balanced}`;
-  } else if (r.role === 'friction') {
-    verdLab = 'YOUR FRICTION — SKIP THIS';
-    verdict = `Your ${r.relation} is running as your ${r.shadow} right now. Already rich in you, and more of it weighs the core. Stop adding.`;
-  } else {
-    verdLab = 'YOUR CATALYST — SEEK THIS';
-    verdict = r.missing
-      ? `Cast with none — borrow it daily${others.length ? ` · with ${others.join(' & ')}` : ''}.`
-      : r.presence <= 12 ? 'Thin in you — worth feeding.' : 'Give it more to shape.';
-  }
+  // The turn label (SEEK/SKIP register) — heads the mechanism's state turn.
+  const turnLab = r.isCore
+    ? (r.coreExcess ? 'YOUR CORE — ALSO YOUR EXCESS' : r.coreCatalyst ? 'YOUR CORE — FEED IT' : 'YOUR CORE')
+    : r.role === 'friction' ? 'YOUR FRICTION — SKIP THIS' : 'YOUR CATALYST — SEEK THIS';
 
   // BAND-C self_card (owner slot ruling 2026-08-14): the core element's
   // screen carries the band mirror — how YOUR core is running. Other
   // elements' screens don't (selfCard stays null there).
   const selfCard = r.isCore ? selfCardFor(model.stem, model.band) : null;
 
-  // The law line (REA_02 §5d, owner wiring 2026-08-19): the cycle equation
-  // that PUT this element in its seat — the page's permanent derivation.
-  // The core element needs none (self_card + the core verdict carry it).
-  let law = null;
-  if (!r.isCore) {
-    const core = model.core.el;
-    const edge = FEEDS[r.el] === core ? { a: r.el, b: core, verb: 'feeds' }
-      : FEEDS[core] === r.el ? { a: core, b: r.el, verb: 'feeds' }
-      : TAMES[r.el] === core ? { a: r.el, b: core, verb: 'tames' }
-      : { a: core, b: r.el, verb: 'tames' };
-    const img = CYCLE_LINE[`${edge.a}>${edge.b}`] || '';
-    law = {
-      label: `Why ${r.name} is your ${r.relation}`,
-      eq: `${model.byEl[edge.a].name} ${edge.verb} ${model.byEl[edge.b].name}`,
-      verb: edge.verb,
-      body: img ? `${img.charAt(0).toUpperCase()}${img.slice(1)}.` : '',
-    };
-  }
+  // THE MECHANISM (element-page restructure, owner rulings 2026-08-19):
+  // the ELEMENT_PAIR cell (DM element × this energy) consolidates the old
+  // law card + state verdict + persona bridge. The edge powers the section's
+  // capsule graphic; base = the 生/克 reaction; the turn is role-resolved
+  // from dx (Overfueled → friction_turn w/ shadow noun · Underfueled →
+  // catalyst_turn · Balanced → none).
+  const core = model.core.el;
+  const coreHz = model.byEl[core].hz;
+  const pair = PAIR_CELLS[`${coreHz}_${r.hz}`] || null;
+  const edge = r.isCore ? { a: el, b: el, verb: 'core' }
+    : FEEDS[r.el] === core ? { a: r.el, b: core, verb: 'feeds' }
+    : FEEDS[core] === r.el ? { a: core, b: r.el, verb: 'feeds' }
+    : TAMES[r.el] === core ? { a: r.el, b: core, verb: 'tames' }
+    : { a: core, b: r.el, verb: 'tames' };
+  const mech = pair ? {
+    ...edge,
+    eq: r.isCore ? `${r.name} is your Core` : `${model.byEl[edge.a].name} ${edge.verb} ${model.byEl[edge.b].name}`,
+    base: pair.mechanism.base,
+    turn: r.dx?.condition === 'Overfueled' ? pair.mechanism.friction_turn
+      : r.dx?.condition === 'Underfueled' ? pair.mechanism.catalyst_turn : null,
+    turnLab,
+  } : null;
 
   return {
     el, name: r.name.toUpperCase(), hz: r.hz, cls: `a-${el}`,
     pig: `var(--${el})`, deep: `var(--${el}Deep)`,
     reye, roleTx, roleKind,
     title: r.hook || `${r.keyword} — your ${r.relation}`, tag: r.tag,
-    verdLab, verdict,
-    face: `${r.persona} · ${r.keyword.toUpperCase()}`,
-    kw: r.faceKw, teaser: r.teaser,
-    selfCard, law,
-    // persona bridge (owner wiring 2026-08-19): the element moves AS the god
-    elName: r.name, persona: r.persona, keyword: r.keyword,
-    adj: r.adj || [], adjDown: r.role === 'friction' || r.coreExcess,
-    // K2 depth (owner construct 2026-08-19): overview + functional ×5 +
-    // domain readings at ELEMENT_GOD grain; the god's inherent ruling
-    // domains render free, the readings are Seeker-gated in the view.
-    k2: K2_CELLS[`${r.hz}_${r.god}`] || null,
-    domains: GOD_DOMAINS[r.god] || [],
+    selfCard,
+    elName: r.name,
+    mech,
+    // THE FUNCTION (§5f): the seat's primary function read, energy-level.
+    fn: pair?.function || null,
     functionsDef: K2_FUNCTIONS,
-    // Polarity faces (1–2, dominant-led) — each carries its own depth cell;
-    // the view renders a face switcher when both polarities are present.
+    // RULING DOMAINS (EP-C): the gods' home — per present face, a sub-block
+    // of persona + domains + its seats + Seeker-gated domain readings.
     faces: (r.faces || []).map((f) => ({
       ...f,
-      k2: K2_CELLS[`${r.hz}_${f.god}`] || null,
       domains: GOD_DOMAINS[f.god] || [],
+      readings: K2_CELLS[`${r.hz}_${f.god}`]?.domain_readings || null,
     })),
   };
 }

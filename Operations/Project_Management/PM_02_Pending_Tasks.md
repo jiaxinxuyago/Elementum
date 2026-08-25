@@ -59,8 +59,8 @@ Owner's diagnosis: the yin/yang face split introduced complexity at arrival. New
 
 ### EP-A · ELEMENT_PAIR template cell — ✅ 金_水 approved + locked (owner 2026-08-19); §5f seat→function map LOCKED with it
 ### EP-B · Batch ×24 — ✅ COMPLETE (2026-08-19): all 25 pairs station-authored to the template (20 relation pairs w/ exact §5d equations + image lines; 5 core self-pairs = reinforcement mechanism w/ core-catalyst/core-excess turns); guards held budgets, seat nouns, image lines, shadow nouns, §5f primary/dip keys; registry rows locked ceiling-only (single-range cell law), audits green
-### EP-C · Section 3 content restructure — per-god sub-blocks in Ruling Domains (persona + domains + Seeker readings; god overviews/functionals leave the page, kept as ore)
-### EP-D · UI pass — visual-first mechanism section (cycle diagram from cycles.js anchors), function section, domains re-order; face switcher retires from arrival
+### EP-C · Section 3 restructure — ✅ COMPLETE (2026-08-19): Ruling Domains = the gods' home — per present face a sub-block (persona head + share % + domain chips + ITS OWN seats accordion + Seeker domain readings); god overviews/functionals off-page (kept in k2.js as ore); one gate line per card on free
+### EP-D · UI pass — ✅ COMPLETE (2026-08-19): the new ladder LIVE — section 1 mechanism (capsule equation graphic reusing the dot card's wd-* DNA via the wp-dotcard scope token: capsules + 生/克 link + eq caption; core = capsule + 主 + seal; base + role-resolved turn w/ colored label) · section 2 functions (five chips w/ §5f primary lit + body + dip rows) · section 3 domains; `pairs.js` station-regenerated + seeder ELEMENT_PAIR section + _ORDER patched (226 files in sync); face switcher retired from arrival; qa-journey-sweep re-anchored to .el-mecheq (16/16); verified all five exemplar pages free+Seeker at mobile, tail clears the bar
 
 ## OWNER — review & decisions (no deadline)
 

@@ -89,19 +89,22 @@ export function buildVariableGroups(model, activeEl, chart) {
       ],
     },
     {
-      surface: 'Element screens (interim → K2)',
+      surface: 'Element screens (the restructured ladder: mechanism → function → domains)',
       vars: [
+        { name: 'mechanism (base + role-resolved turn — section 1, EP restructure 2026-08-19)', axis: 'ELEMENT_PAIR×25', arch: focus ? `pair · DM×${focus.el}` : 'DM × each', status: 'LOCKED ×25', value: 'base 45–75w (§5d equation + image line + seat) · catalyst/friction turns ≤35w' },
+        { name: 'function (primary + body + dips — section 2, §5f seat map)', axis: 'ELEMENT_PAIR×25', arch: focus ? `pair · DM×${focus.el}` : 'DM × each', status: 'LOCKED ×25', value: 'Core→Mind · Root→Body · Voice→Expression · Drive→Action · Duty→Bonds' },
         { name: 'self_card (face+presence — CORE element only, band mirror; BAND-C 2026-08-14)', axis: 'STEM·BAND×30', arch: bandArch, status: 'LIVE', value: join([selfCard?.face, selfCard?.presence]) || null },
-        { name: 'persona_name (V)', axis: 'GOD×10', arch: focus ? focusGodArch : godsArch, status: 'LIVE', value: focus ? TG_PERSONA[focus.god] : perEl((r) => TG_PERSONA[r.god]) },
+        { name: 'persona_name (V — Ruling Domains god sub-blocks)', axis: 'GOD×10', arch: focus ? focusGodArch : godsArch, status: 'LIVE', value: focus ? TG_PERSONA[focus.god] : perEl((r) => TG_PERSONA[r.god]) },
         { name: 'face_kw', axis: 'GOD×10', arch: focusGodArch, status: 'LIVE', value: focusGod ? (FACE_CARD[focusGod]?.kw || []).join(' · ') : null },
-        { name: 'face_teaser', axis: 'GOD×10', arch: focusGodArch, status: 'LIVE ⚠R5 scope', value: focusGod ? FACE_CARD[focusGod]?.teaser : null },
+        { name: 'face_teaser', axis: 'GOD×10', arch: focusGodArch, status: 'OFF-PAGE (EP restructure) ⚠R5 scope', value: focusGod ? FACE_CARD[focusGod]?.teaser : null },
         { name: 'energy_tile_hook / tag', axis: '→ EL·GOD×50', arch: focusElGodArch, status: 'INTERIM 庚-gated', value: focus ? (focus.hook || '(fallback)') : perEl((r) => r.hook || '(fallback)') },
       ],
     },
     {
       surface: 'Deep pages (the element-god depth corpus)',
       vars: [
-        { name: 'k2_overview + k2_functional ×5 + k2_domain_readings', axis: 'ELEMENT·GOD ×50', arch: focusElGodArch, status: 'LOCKED ×50 (2026-08-19; readings Seeker-gated)', value: 'overview 40–70w · Mind/Expression/Bonds/Action/Body ≤22w · per-domain 18–55w' },
+        { name: 'k2_domain_readings (Ruling Domains god sub-blocks, Seeker-gated)', axis: 'ELEMENT·GOD ×50', arch: focusElGodArch, status: 'LOCKED ×50 (2026-08-19)', value: 'per-domain 18–55w' },
+        { name: 'k2_overview + k2_functional ×5 (OFF-PAGE since the EP restructure — generation ore)', axis: 'ELEMENT·GOD ×50', arch: focusElGodArch, status: 'LOCKED ×50 · ORE', value: 'overview 40–70w · function rows ≤22w' },
         { name: 'position term + defline + reading', axis: 'POSITION ×70 (god×slot)', arch: 'god × gate·slot', status: 'LOCKED ×70 (energy-card seats accordion; P5 = index)', value: null },
         { name: 'k2_energy_card registers (v2.1 faces)', axis: 'ELEMENT·GOD ×registers', arch: focusElGodArch, status: 'PLANNED', value: 'face · persona · chips · rulingDomain · registers{dominant,absent}' },
         { name: 'tpl_presence_frames / rx_ribbon / pattern_conclusion', axis: 'T', status: 'PLANNED', value: null },

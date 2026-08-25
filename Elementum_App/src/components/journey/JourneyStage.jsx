@@ -65,7 +65,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const [fnOpen, setFnOpen] = useState(null);      // footnote float (cond|cat|fric)
   const [dotOpen, setDotOpen] = useState(null);    // wheel-dot float — the element's relation with the core
   const [posOpen, setPosOpen] = useState(null);    // element-page position accordion (position id)
-  const [faceIdx, setFaceIdx] = useState(0);       // element-page polarity face (0 = dominant)
   const [folioOpen, setFolioOpen] = useState(false);
 
   const model = useMemo(() => {
@@ -109,7 +108,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   }, []);
 
 
-  const goElement = useCallback((el) => { setElOpen(el); setFaceIdx(0); setPosOpen(null); setScreen('element'); }, []);
+  const goElement = useCallback((el) => { setElOpen(el); setPosOpen(null); setScreen('element'); }, []);
 
   // Dev-only: expose the in-journey element screen to the DevBar
   // (it is internal state, not a hash route), and broadcast the current
@@ -296,10 +295,8 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
 
 
   const elScreen = elOpen ? buildElementScreen(m, elOpen) : null;
-  // Polarity faces (1–2, dominant-led); clamp survives stale faceIdx on remount.
+  // Polarity faces (1–2, dominant-led) — the Ruling Domains sub-blocks.
   const elFaces = elScreen?.faces?.length ? elScreen.faces : [];
-  const elFaceIdx = Math.min(faceIdx, Math.max(elFaces.length - 1, 0));
-  const elFace = elFaces[elFaceIdx] || elScreen;
   // The element's seats (REA_02 §5e echo): the positions this energy holds.
   const elPositions = elScreen ? resolvePositions(chart, hourUnknown).filter((p) => p.el === elScreen.el) : [];
   const glossary = buildGlossary(m);
@@ -527,21 +524,62 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     <span className="htitle el-title">{elScreen.title}</span><span className="hsub el-tag">{elScreen.tag}</span>
                   </span>
                 </div>
-                {/* the law line (REA_02 §5d) — why this element holds its seat */}
-                {elScreen.law && (
-                  <div className="cardstock el-lawcard">
-                    <span className="laylab">{elScreen.law.label.toUpperCase()}</span>
-                    <p className="serifline el-laweq" style={{ margin: '0 0 3px' }}>
-                      <b>{elScreen.law.eq}</b>
-                      <i className={`el-lawhz ${elScreen.law.verb}`} aria-hidden="true">{elScreen.law.verb === 'feeds' ? '生' : '克'}</i>
-                    </p>
-                    <p className="body2" style={{ margin: 0 }}>{elScreen.law.body}</p>
+                {/* 1 · THE MECHANISM (element-page restructure, owner rulings
+                    2026-08-19): law card + state verdict + bridge consolidated.
+                    Capsule graphic (dot-card DNA) → the ELEMENT_PAIR base →
+                    the role-resolved state turn. */}
+                {elScreen.mech && (
+                  <div className="cardstock el-mech">
+                    <span className="laylab">HOW IT WORKS ON YOUR CORE</span>
+                    {(() => {
+                      const mk = elScreen.mech;
+                      const capThumb = (cel) => {
+                        const rr = m.byEl[cel];
+                        return (
+                          <span className={`wd-cap dk-${cel}`}>
+                            <span className="wd-capfill" style={{ height: `${Math.round((rr.presence / pMax) * 84)}%` }} />
+                            <span className="wd-caplab">{rr.name}</span>
+                            <Use id={`el-${cel}`} className="elmark" />
+                            <b className="wd-caphz">{rr.hz}</b>
+                            <span className="wd-cappct">{rr.presence}%</span>
+                          </span>
+                        );
+                      };
+                      {/* wp-dotcard = a pure CSS scope token here: it lends the
+                          dot card's capsule/link/eq styles to the mechanism
+                          graphic (no bare .wp-dotcard box rule exists). */}
+                      return (
+                        <div className="wp-dotcard el-mechviz">
+                          {mk.verb === 'core' ? (
+                            <div className="wd-rel el-mechrel">
+                              {capThumb(mk.a)}
+                              <span className="wd-link core"><i className="wd-lawhz">主</i><span className="wd-lawtx">day master</span></span>
+                              <span className="wd-capseal" style={{ backgroundImage: `url('${centerSrc}')` }} aria-hidden="true" />
+                            </div>
+                          ) : (
+                            <div className="wd-rel el-mechrel">
+                              {capThumb(mk.a)}
+                              <span className={`wd-link ${mk.verb}`}>
+                                <i className="wd-lawhz">{mk.verb === 'feeds' ? '生' : '克'}</i>
+                                <svg className="wd-arrow" viewBox="0 0 44 10" aria-hidden="true"><path d="M2 5 H36 M36 5 l-6 -3.6 M36 5 l-6 3.6" /></svg>
+                                <span className="wd-lawtx">{mk.verb}</span>
+                              </span>
+                              {capThumb(mk.b)}
+                            </div>
+                          )}
+                          <span className="wd-eq el-mecheq">{elScreen.mech.eq}</span>
+                        </div>
+                      );
+                    })()}
+                    <p className="body2 el-mechbase" style={{ margin: '8px 0 0' }}>{elScreen.mech.base}</p>
+                    {elScreen.mech.turn && (
+                      <div className="el-mechturn" style={{ borderLeft: `3px solid var(--${elScreen.el}Deep)` }}>
+                        <span className="laylab el-verdlab" style={{ fontWeight: 600, color: `var(--${elScreen.el}Deep)` }}>{elScreen.mech.turnLab}</span>
+                        <p className="body2" style={{ margin: 0 }}>{elScreen.mech.turn}</p>
+                      </div>
+                    )}
                   </div>
                 )}
-                <div className="cardstock el-verdcard" style={{ borderLeft: `3px solid ${elScreen.deep.startsWith('var') ? `var(--${elScreen.el}Deep)` : elScreen.deep}` }}>
-                  <span className="laylab el-verdlab" style={{ fontWeight: 600, color: `var(--${elScreen.el}Deep)` }}>{elScreen.verdLab}</span>
-                  <p className="body2 el-verdict" style={{ margin: 0 }}>{elScreen.verdict}</p>
-                </div>
                 {/* BAND-C self_card — only the CORE element carries the band mirror */}
                 {elScreen.selfCard && (
                   <div className="cardstock el-selfcard">
@@ -550,77 +588,72 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     <p className="body2 el-selfpresence" style={{ margin: 0 }}>{elScreen.selfCard.presence}</p>
                   </div>
                 )}
-                {/* HOW IT MOVES IN YOU — consolidated (owner 2026-08-19):
-                    bridge → chips → K2 overview as the body. Merge-and-retire
-                    (owner 2026-08-19): the polarity faces page folded in here —
-                    when both polarities are present the section carries a face
-                    switcher, and every god-derived block below reads the
-                    active face's own depth cell. */}
-                <div className="cardstock"><span className="laylab">HOW IT MOVES IN YOU</span>
-                  {elFaces.length > 1 && (
-                    <>
-                      <p className="body2 el-facelead" style={{ margin: '0 0 7px' }}>This energy wears two faces in you. {elFaces[0].persona} leads, {elFaces[1].persona} runs underneath.</p>
-                      <div className="el-facesw" role="tablist">
-                        {elFaces.map((f, i) => (
-                          <button key={f.god} role="tab" aria-selected={i === elFaceIdx} className={`el-faceswbtn${i === elFaceIdx ? ' on' : ''}`} onClick={() => setFaceIdx(i)}>
-                            {f.persona}<span className="el-faceswsub">{f.share}%</span>
-                          </button>
-                        ))}
-                      </div>
-                    </>
-                  )}
-                  <p className="serifline el-face" style={{ margin: '0 0 5px', fontSize: 14.5 }}>In you, {elScreen.elName} moves as <b>{elFace.persona}</b> · {elFace.keyword.toUpperCase()}</p>
-                  {elFace.adj.length ? (
-                    <div className="el-adj">{elFace.adj.map((a) => <span key={a} className={`el-adjchip${elScreen.adjDown ? ' down' : ''}`}>{a}</span>)}</div>
-                  ) : null}
-                  <p className="serifline el-mean" style={{ margin: '8px 0 0' }}>{elFace.k2?.overview || elFace.teaser}</p>
-                </div>
-                {elFace.k2?.functional && (
-                  <div className="cardstock"><span className="laylab">HOW IT RUNS YOUR FUNCTIONS</span>
-                    {elScreen.functionsDef.map((f) => elFace.k2.functional[f.key] ? (
-                      <p className="body2 el-funcrow" key={f.key} style={{ margin: '0 0 7px' }}><b className="el-funclab">{f.label}.</b> {elFace.k2.functional[f.key]}</p>
-                    ) : null)}
+                {/* 2 · THE FUNCTION (§5f): the seat noun as a function of the
+                    reader's system — primary highlighted in the chip row,
+                    body deep on it, dips one line each. No god vocabulary. */}
+                {elScreen.fn && (
+                  <div className="cardstock el-fncard"><span className="laylab">HOW IT RUNS YOUR FUNCTIONS</span>
+                    <div className="el-fnrow" aria-label="The five functions — this energy's primary is highlighted">
+                      {elScreen.functionsDef.map((f) => (
+                        <span key={f.key} className={`el-fnchip${f.key === elScreen.fn.primary ? ' on' : ''}`}>{f.label}</span>
+                      ))}
+                    </div>
+                    <p className="body2 el-fnbody" style={{ margin: '8px 0 0' }}>{elScreen.fn.body}</p>
+                    {Object.entries(elScreen.fn.dips || {}).map(([k, txt]) => (
+                      <p className="body2 el-funcrow" key={k} style={{ margin: '7px 0 0' }}><b className="el-funclab">{(elScreen.functionsDef.find((f) => f.key === k) || { label: k }).label}.</b> {txt}</p>
+                    ))}
                   </div>
                 )}
-                {elFace.domains.length ? (
+                {/* 3 · ITS RULING DOMAINS (EP-C — the gods' home, THE deep
+                    section): per present face, a sub-block of persona +
+                    domain chips + its own seats (full position readings) +
+                    Seeker-gated domain readings. */}
+                {elFaces.length ? (
                   <div className="cardstock"><span className="laylab">ITS RULING DOMAINS</span>
-                    <p className="body2" style={{ margin: '0 0 6px' }}>Through <b>{elFace.persona}</b>, this energy rules these grounds of your life.</p>
-                    <div className="el-adj">{elFace.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
-                    {/* the element's seats — its named positions, READ IN FULL
-                        here (owner 2026-08-19: the energy card is the position
-                        readings' home; the Pillar Chart only indexes them). */}
-                    {elPositions.length ? (
-                      <div className="elpos">
-                        <span className="elpos-lead">In your chart, it holds {elPositions.length === 1 ? 'this seat' : 'these seats'}:</span>
-                        {elPositions.map((p) => (
-                          <div className={`elpos-row acc${posOpen === p.id ? ' open' : ''}`} key={p.id}>
-                            <button className="elpos-head" aria-expanded={posOpen === p.id} onClick={() => setPosOpen((v) => (v === p.id ? null : p.id))}>
-                              <span className="elpos-slot">{p.slotZh}</span>
-                              <span className="elpos-term">{p.term}<span className="elpos-zh">{p.termZh}</span></span>
-                              <Use id="ico-chev-r" className="elpos-chev" />
-                            </button>
-                            {posOpen === p.id && (
-                              <div className="elpos-body">
-                                <div className="el-adj">{p.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
-                                <p className="elpos-defline">{p.defline}</p>
-                                <p className="elpos-reading">{p.reading}</p>
-                              </div>
-                            )}
-                          </div>
-                        ))}
-                      </div>
-                    ) : (
+                    <p className="body2" style={{ margin: '0 0 4px' }}>What lives inside this energy, and the grounds of your life it rules.</p>
+                    {elFaces.map((f) => {
+                      const seats = elPositions.filter((p) => p.god === f.god);
+                      return (
+                        <div className="el-godblock" key={f.god}>
+                          <p className="serifline el-godhead"><b>{f.persona}</b> · {f.keyword.toUpperCase()}{elFaces.length > 1 ? <span className="el-godshare">{f.share}% of your {elScreen.elName}</span> : null}</p>
+                          <div className="el-adj">{f.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
+                          {seats.length ? (
+                            <div className="elpos">
+                              <span className="elpos-lead">{seats.length === 1 ? 'Its seat in your chart:' : 'Its seats in your chart:'}</span>
+                              {seats.map((p) => (
+                                <div className={`elpos-row acc${posOpen === p.id ? ' open' : ''}`} key={p.id}>
+                                  <button className="elpos-head" aria-expanded={posOpen === p.id} onClick={() => setPosOpen((v) => (v === p.id ? null : p.id))}>
+                                    <span className="elpos-slot">{p.slotZh}</span>
+                                    <span className="elpos-term">{p.term}<span className="elpos-zh">{p.termZh}</span></span>
+                                    <Use id="ico-chev-r" className="elpos-chev" />
+                                  </button>
+                                  {posOpen === p.id && (
+                                    <div className="elpos-body">
+                                      <div className="el-adj">{p.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
+                                      <p className="elpos-defline">{p.defline}</p>
+                                      <p className="elpos-reading">{p.reading}</p>
+                                    </div>
+                                  )}
+                                </div>
+                              ))}
+                            </div>
+                          ) : null}
+                          {f.readings && tier !== 'free' && (
+                            <div className="el-domreads">
+                              {Object.entries(f.readings).map(([d, txt]) => (
+                                <p className="body2" key={d} style={{ margin: '9px 0 0' }}><b>{d}.</b> {txt}</p>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
+                    {!elPositions.length && (
                       <p className="elpos-none">This energy holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.</p>
                     )}
-                    {elFace.k2?.domain_readings && (tier !== 'free' ? (
-                      <div className="el-domreads">
-                        {Object.entries(elFace.k2.domain_readings).map(([d, txt]) => (
-                          <p className="body2" key={d} style={{ margin: '9px 0 0' }}><b>{d}.</b> {txt}</p>
-                        ))}
-                      </div>
-                    ) : (
+                    {tier === 'free' && elFaces.some((f) => f.readings) && (
                       <p className="body2 el-domlock" style={{ margin: '9px 0 0' }}>The full readings of each domain open with Seeker.</p>
-                    ))}
+                    )}
                   </div>
                 ) : null}
               </div></div>
