@@ -380,7 +380,7 @@ export function buildElementScreen(model, el) {
 
   return {
     el, name: r.name.toUpperCase(), hz: r.hz, cls: `a-${el}`,
-    pig: `var(--${el})`, deep: `var(--${el}Deep)`,
+    pig: `var(--${el})`,
     reye, roleTx, roleKind,
     title: r.hook || `${r.keyword} — your ${r.relation}`, tag: r.tag,
     selfCard,
