@@ -360,7 +360,7 @@ async function scenarioB(browser) {
   // the wheel dot opens the dot card — THE single entry — and its "Open the
   // full reading" CTA lands on the in-stage element screen, which IS the full
   // depth home now (the app-energy faces page is retired; hash stays
-  // app-reading throughout). Returns the persona bridge line for assertions.
+  // app-reading throughout). Returns the mechanism equation line for assertions.
   // The element screen's stable anchor is the mechanism equation line
   // (.el-mecheq — "Metal feeds Water" / "Metal is your Core"), which always
   // names the element (EP restructure 2026-08-19).

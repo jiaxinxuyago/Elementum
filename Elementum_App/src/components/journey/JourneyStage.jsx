@@ -293,6 +293,22 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
     </span>
   );
 
+  // the dot card's capsule DNA (npig pigment + bottom-up presence fill) —
+  // shared by the dot card's 生/克 relation strip and the element page's
+  // mechanism graphic.
+  const capThumb = (el) => {
+    const rr = m.byEl[el];
+    return (
+      <span className={`wd-cap dk-${el}`}>
+        <span className="wd-capfill" style={{ height: `${Math.round((rr.presence / pMax) * 84)}%` }} />
+        <span className="wd-caplab">{rr.name}</span>
+        <Use id={`el-${el}`} className="elmark" />
+        <b className="wd-caphz">{rr.hz}</b>
+        <span className="wd-cappct">{rr.presence}%</span>
+      </span>
+    );
+  };
+
 
   const elScreen = elOpen ? buildElementScreen(m, elOpen) : null;
   // Polarity faces (1–2, dominant-led) — the Ruling Domains sub-blocks.
@@ -533,21 +549,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     <span className="laylab">HOW IT WORKS ON YOUR CORE</span>
                     {(() => {
                       const mk = elScreen.mech;
-                      const capThumb = (cel) => {
-                        const rr = m.byEl[cel];
-                        return (
-                          <span className={`wd-cap dk-${cel}`}>
-                            <span className="wd-capfill" style={{ height: `${Math.round((rr.presence / pMax) * 84)}%` }} />
-                            <span className="wd-caplab">{rr.name}</span>
-                            <Use id={`el-${cel}`} className="elmark" />
-                            <b className="wd-caphz">{rr.hz}</b>
-                            <span className="wd-cappct">{rr.presence}%</span>
-                          </span>
-                        );
-                      };
-                      {/* wp-dotcard = a pure CSS scope token here: it lends the
-                          dot card's capsule/link/eq styles to the mechanism
-                          graphic (no bare .wp-dotcard box rule exists). */}
+                      // wp-dotcard = a pure CSS scope token here: it lends the
+                      // dot card's capsule/link/eq styles to the mechanism
+                      // graphic (no bare .wp-dotcard box rule exists).
                       return (
                         <div className="wp-dotcard el-mechviz">
                           {mk.verb === 'core' ? (
@@ -687,18 +691,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   design DNA: npig pigment + bottom-up presence fill) joined
                   by the law glyph; the core card pairs capsule with seal. */}
               {(() => {
-                const capThumb = (el) => {
-                  const rr = m.byEl[el];
-                  return (
-                    <span className={`wd-cap dk-${el}`}>
-                      <span className="wd-capfill" style={{ height: `${Math.round((rr.presence / pMax) * 84)}%` }} />
-                      <span className="wd-caplab">{rr.name}</span>
-                      <Use id={`el-${el}`} className="elmark" />
-                      <b className="wd-caphz">{rr.hz}</b>
-                      <span className="wd-cappct">{rr.presence}%</span>
-                    </span>
-                  );
-                };
                 return dot.verb === 'core' ? (
                   <div className="wd-rel">
                     {capThumb(dot.r.el)}
