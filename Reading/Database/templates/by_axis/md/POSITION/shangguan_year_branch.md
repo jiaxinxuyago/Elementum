@@ -25,3 +25,4 @@
 | `domains` | Family · Growth |
 | `defline` | Brilliance lives inside your Year Gate: you were rooted in a house that talent had to outgrow. |
 | `reading` | This position rules Family and Growth. The root of your story holds friction with the given order: a family whose rules your gift pressed against, a lineage you honor best by exceeding. Rebellion here is a method rather than a phase, how you learned to think. As an adult, authority still smells like childhood to you. Choose your defiances the way you choose tools, deliberately. The ones you inherit run you. The ones you pick serve you. |
+| `teaser` | *(unauthored)* |

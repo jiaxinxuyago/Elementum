@@ -25,3 +25,4 @@
 | `domains` | Family · Mind |
 | `defline` | Care stands at your Year Gate: the first thing your story shows is that you were well held. |
 | `reading` | This position rules Family and Mind. You carry visible shelter: the manner of someone believed in early, likely by a mother or teacher whose faith still lines your voice. People sense you were loved competently and trust you accordingly. Learning comes to you as birthright, degrees, mentors, doors held open. Pass the holding on, it is the family business. Just remember that shelter received must eventually be built, or it stays borrowed. |
+| `teaser` | *(unauthored)* |

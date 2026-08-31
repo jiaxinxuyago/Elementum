@@ -343,17 +343,10 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   ) : null;
   // The element's seats (REA_02 §5e echo): the positions this energy holds.
   const elPositions = elScreen ? resolvePositions(chart, hourUnknown).filter((p) => p.el === elScreen.el) : [];
-  // Curation v6 (owner 2026-08-19): the domains teaser leads with the
-  // NAMED POSITIONS themselves (the Nebula principle — the configuration
-  // is the diagnosis), each with its ruled domains as a quiet second line;
-  // the one-line teaser quotes the lead seat's own defline verbatim.
-  const serial = (xs) => xs.length <= 2 ? xs.join(' and ') : `${xs.slice(0, -1).join(', ')}, and ${xs[xs.length - 1]}`;
-  const domTeaseLine = (() => {
-    const n = elPositions.length;
-    if (!n) return elScreen ? `${elScreen.elName} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.` : '';
-    const more = n > 1 ? ` And ${['', '', 'one more seat', 'two more seats', 'three more seats'][n] || `${n - 1} more seats`} besides.` : '';
-    return `${elPositions[0].defline}${more}`;
-  })();
+  // Curation v7 (owner 2026-08-19): each named position carries its OWN
+  // teaser row — term (no 汉字 on the card) + 1–2 domain chips + the
+  // authored position teaser (therapist-psychic register, REA_04 §9.4;
+  // defline is the fallback until the ×63 batch lands).
   const glossary = buildGlossary(m);
   const condIcon = m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged';
   const fnNote = fnOpen ? glossary[fnOpen] : null;
@@ -616,16 +609,18 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   <button className="cardstock el-tease" onClick={() => openSec('dom')}>
                     <span className="laylab">THE DOMAINS</span>
                     <span className="serifline el-teasetitle">{elScreen.domTitle}</span>
-                    {/* the named positions lead (curation v6, the Nebula
-                        principle): term + 汉字, ruled domains as the quiet
-                        second line — the configuration IS the diagnosis */}
+                    {/* the named positions lead (the Nebula principle): each
+                        seat = term + 1–2 domain chips + its own teaser line */}
                     {elPositions.map((p) => (
                       <span className="el-posrow" key={p.id}>
-                        <span className="el-posterm">{p.term}<i className="el-poszh">{p.termZh}</i></span>
-                        <span className="el-posdoms">rules {serial(p.domains)}</span>
+                        <span className="el-posterm">{p.term}</span>
+                        <span className="el-adj el-poschips">{p.domains.slice(0, 2).map((d) => <span key={d} className="el-domchip">{d}</span>)}</span>
+                        <span className="el-teasep el-posteaser">{p.teaser || p.defline}</span>
                       </span>
                     ))}
-                    <span className="el-teasep">{domTeaseLine}</span>
+                    {!elPositions.length && (
+                      <span className="el-teasep" style={{ marginTop: 0 }}>{elScreen.elName} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.</span>
+                    )}
                     <span className="el-teasego"><Use id="ico-chev-r" /></span>
                   </button>
                 ) : null}

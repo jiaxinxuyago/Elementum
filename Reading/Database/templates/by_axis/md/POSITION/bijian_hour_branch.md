@@ -25,3 +25,4 @@
 | `domains` | Family · Growth |
 | `defline` | The Twin lives inside your Hour Gate: the root of your late life is company of equals, kept small and true. |
 | `reading` | This position rules Family and Growth. Your harvest years run on a few chosen peers: the friends who became family, the children raised to stand level with you. The root here wants respect more than care, and it will trade comfort for dignity every time. Build the small circle now that you intend to grow old inside. Independence ages best with two or three people who never needed you weak to love you. |
+| `teaser` | *(unauthored)* |

@@ -25,3 +25,4 @@
 | `domains` | Career · Mind · Social |
 | `defline` | Care stands at your Month Gate: the working world sees the teacher, and brings it students. |
 | `reading` | This position rules Career and Mind. Professionally you are the credentialed shelter: the mentor, the editor, the physician, the one whose sign-off soothes. Institutions of knowledge and care fit you like made clothes, education, medicine, publishing, counsel. Your authority is soft and durable. Its risk is invisibility, the teacher eclipsed by the taught. Claim your name on your work without apology. Generosity with credit is a virtue. Anonymity is just a leak. |
+| `teaser` | *(unauthored)* |

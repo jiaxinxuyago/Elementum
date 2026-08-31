@@ -25,3 +25,4 @@
 | `domains` | Wealth · Family |
 | `defline` | The Steward stands at your Hour Gate: what you show the future is order, provided for. |
 | `reading` | This position rules Wealth and Family in their closing forms. You will finish organized: the will written, the roof sound, the accounts explicable to a tired executor. It is a genuine kindness, the last chore done for people you love. Pass on the craft along with the capital, and teach the young maintenance before they inherit machines. And leave one line item for delight. Even a perfect ledger should end on a gift. |
+| `teaser` | Whatever the middle years scatter, you end well provided for. What you save builds toward an old age that pays its own way, with something left to hand on. |

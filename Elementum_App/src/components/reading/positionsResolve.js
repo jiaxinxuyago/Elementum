@@ -55,7 +55,7 @@ export function resolvePositions(chart, hourUnknown = false) {
       el: ELEMENT_TO_PIGMENT[STEM_ELEM[stem]] || null,
       term: positionTerm(persona, slot),
       termZh: positionZh(god, slot),
-      domains: r.domains, defline: r.defline, reading: r.reading,
+      domains: r.domains, defline: r.defline, reading: r.reading, teaser: r.teaser || null,
     });
   }
   return out;

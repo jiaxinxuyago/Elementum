@@ -1382,6 +1382,49 @@ Before any reading content is finalized, run this checklist:
 
 ---
 
+## PART 9 — Expanding a Ten-God Positioning Reading (research 2026-08-19, for the POSITION teaser + reading campaigns)
+
+Commissioned by the owner with the POSITION teaser corpus ("do deep research about how to expand a ten-god positioning reading"). Synthesis of the classical tradition (三命通会 / 渊海子平 / 子平真诠 lineage) with modern 十神宫位 practice; web corroboration noted in §9.6.
+
+### 9.1 · The interpretive stack — what a positioning reading IS
+
+A positioning reading multiplies an ACTOR by a STAGE. The palace (宫位) contributes three registers simultaneously; the god contributes its agency; the reading is the god's nature *expressed through* all three palace registers:
+
+| Palace | Life ERA (限) | Relations (六亲宫) | Arena |
+|---|---|---|---|
+| Year 年柱 | childhood, origins (~0–16) | ancestors, grandparents, the family's name | roots, inheritance, the world one came from |
+| Month 月柱 | youth → prime (~16–35) | parents, siblings, colleagues | career field, social role, growth environment |
+| Day branch 日支 | adulthood (~35–48) | the spouse, the intimate self | marriage, home, the private life |
+| Hour 时柱 | late life (48+) | children, students, heirs | output, legacy, the final estate |
+
+The same god changes meaning wholesale by palace: 正官在年 = a respectable house and early discipline; 正官在时 = dutiful heirs and a dignified late standing. **The era register is what makes a positioning reading PREDICTIVE**: the palace names *when* in life the god's business concentrates, and the relations register names *through whom* it arrives.
+
+### 9.2 · Stem vs branch — the visibility axis
+
+干 (stem) = the shown face: public, expressed, event-like; personality others see; outcomes that manifest openly. 支 (branch) = the root: private, dispositional, relational; slower and deeper; often felt inside the family/marriage before it is visible outside. (Our gate prepositions already encode this: "at the Gate" / "inside the Gate.") Classical example: 年干正财 = visible ancestral provision; 日支正财 = a provisioning spouse, felt at home.
+
+### 9.3 · The modulation layers (the expansion levers, in order of power)
+
+1. **喜忌 (favorable/unfavorable)** — the SAME combination flips: 比肩在年 favorable = early self-reliance and peer support; unfavorable = early scarcity and father-friction. *Our system already computes this as the role layer (catalyst/friction) — every position reading can be band-resolved the way the mechanism turns are.*
+2. **强弱/得令/有根 (strength, season, rooting)** — how loud the actor is; a rooted god delivers its palace's promise, a floating one only gestures at it.
+3. **邻位生克 (neighbor interactions)** — who feeds or tames the god from adjacent positions; the classical set-pieces live here (食神制杀 "the Artisan tames the General": pressure converted to command; 枭神夺食 "the Alchemist starves the Artisan": overthinking eats ease; 伤官见官 conflict; 比劫夺财 peers claiming wealth).
+4. **大运引动 (luck-pillar activation)** — WHEN the seat fires: the palace's era plus the decade pillars passing over it. This is the classical basis for dated prediction and our future Calendar/大运 tie-in (D6).
+5. **断语 form (the blind-school verdict line, 盲派诀)** — the classical genre closest to our teaser: one terse, confident, era- and relation-bound claim ("年柱伤官，难承祖业" — Hurting Officer in the year: hard to inherit the estate). Our teaser register = this genre, humanized to the therapist/psychic voice and softened to tendency form per the owner's prediction law.
+
+### 9.4 · The teaser formula (owner-ruled register, 2026-08-19)
+
+`[personality truth: god-nature × palace-arena, in "you" language] + [ONE predictive beat: era/relations/domain of the palace, tendency-framed]` — one line (≤30w), natural spoken syntax, therapist/psychic to a friend, no ten-god jargon beyond the persona name the row already shows, dashless, humanize gate.
+
+### 9.5 · The full-reading expansion map (for the follow-up campaign)
+
+A 60–95w position reading expands along the stack in this order: declared domains (kept, §5e law) → the shown/hidden face (stem/branch) → the era claim (when this seat runs the show) → the relations claim (through whom) → the role turn (catalyst/friction — band-resolved, layer 1) → one neighbor set-piece IF present in the chart (layer 3) → the practical counsel line. Layers 1 and 3 are engine-derivable today; layer 4 waits on the 大运 surface.
+
+### 9.6 · Web corroboration (accessed 2026-08-19)
+
+Palace/era/relations table and "palace decides WHEN, god decides WHAT" framing corroborated via [知乎 — 十神在年、月、日、时中的真实意义](https://zhuanlan.zhihu.com/p/1896607402117280655) and [DeepOracle — 月柱比肩讀法](https://www.deeporacle.ai/zh-TW/bazi/glossary/bi-jian-yue-zhu) (which also stresses 透干/藏支 and 引动 before verdicts); 喜忌 flips and stem/branch division with per-god examples via [大易开运 — 十神在不同宫位时如何判断吉凶](https://www.dayikaiyun.com/sizhubazi/lqssxj.html); Ten-God profiling and luck-pillar modulation in English via [Sean Chan — Ten Gods profiling](https://www.masterseanchan.com/blog/ten-gods-bazi-profile-how-its-done/); lineage attribution (Xu Ziping 渊海子平 → 三命通会) via [Baguame — Four Pillars guide](https://baguame.com/kb/chinese-astrology/bazi-four-pillars-of-destiny/).
+
+---
+
 ## Document Metadata
 
 | | |

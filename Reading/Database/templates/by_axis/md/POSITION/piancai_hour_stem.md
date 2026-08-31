@@ -25,3 +25,4 @@
 | `domains` | Wealth · Growth |
 | `defline` | Opportunity stands at your Hour Gate: your later years keep a venture warm and a bag half packed. |
 | `reading` | This position rules Wealth and Growth late in life. Retirement, as commonly practiced, will not fit: your closing decades want projects, travel, and capital in play. Fortune stays kind to you when courted respectfully, later bets sized to later stakes. The young inherit your eye for openings, so teach it early. And park one asset where no opportunity can reach it. Even the luckiest sailor keeps a harbor. |
+| `teaser` | *(unauthored)* |

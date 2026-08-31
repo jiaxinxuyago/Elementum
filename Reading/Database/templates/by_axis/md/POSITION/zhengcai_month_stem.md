@@ -25,3 +25,4 @@
 | `domains` | Career · Wealth |
 | `defline` | The Steward stands at your Month Gate: the working world sees the safe pair of hands. |
 | `reading` | This position rules Career and Wealth. Professionally you are trusted with things: budgets, operations, other people’s assets, the keys. Your reputation compounds slowly and never crashes, which in a long career beats brilliance. Fields of custody suit you, finance, management, land, law. You will be underestimated by flashier colleagues and outlast every one of them. Ask for the title you have already been doing. Stewards are promoted late mainly because they never demand it. |
+| `teaser` | *(unauthored)* |

@@ -25,3 +25,4 @@
 | `domains` | Career · Growth |
 | `defline` | The Twin holds your chart’s strongest seat: your prime runs on self-reliance, built into the frame itself. |
 | `reading` | This position rules Career and Growth, from the deepest seat a chart has. The engine of your working life is your own two hands: you build careers you can hold alone, and you flourish where autonomy is real. Bosses either learn this or lose you. Money made with partners tends to blur, so keep the accounts clean and the equity written down. Your prime is self-propelled. Fuel it with skill, not just stubbornness. |
+| `teaser` | *(unauthored)* |

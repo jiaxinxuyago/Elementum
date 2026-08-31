@@ -44,6 +44,7 @@ export const POSITION_READINGS = {
     reading: 'This position rules Family and Growth. Somewhere in the first chapters, you became your own backup: a childhood that asked you to be sturdy early, among siblings, cousins, or a house that treated small people as capable ones. The root took. Self-reliance, for you, is a place you come from rather than a skill you learned. Watch one thing: roots this firm can quietly refuse replanting. Some help is worth accepting just to remember how.',
   },
   bijian_month_stem: {
+    teaser: 'You do your best work as nobody’s junior. Midlife rewards your independence, though shared money with friends will need clearer lines than friendship likes.',
     domains: ['Career', 'Social'],
     defline: 'The Twin stands at your Month Gate: the working world sees a colleague who carries their own weight, visibly.',
     reading: 'This position rules Career and Social. At work you read as the equal, never the subordinate: someone who takes a task and owns it whole. Colleagues trust you and rarely manage you, because managing you visibly fails. You rise on competence and independence rather than alliance. The cost sits close by: partnerships halve your speed, and you feel it. Learn to share the wheel on the long trips. The short ones are yours.',
@@ -99,6 +100,7 @@ export const POSITION_READINGS = {
     reading: 'This position rules Wealth and Growth. You do not intend to retire quietly: the later chapters keep a wager in them, a venture, a reinvention, a door bought open. The young see your nerve and borrow it, which is a genuine gift. Guard the principal, though. Late-life boldness pays best when the downside is fenced. Keep a portion untouchable, and let the rest play. That balance is the whole art of your finish.',
   },
   jiecai_hour_branch: {
+    teaser: 'The people who come after you will have your fire and their own ideas. Late in life, generosity is your grace and your leak: give on purpose, not on request.',
     domains: ['Family', 'Wealth'],
     defline: 'Inside your Hour Gate sits the shared harvest: what you build late in life is built with others.',
     reading: 'This position rules Family and Wealth. Your harvest wants company: children, proteges, partners who hold a piece of what you made. Handled well, this is the warmest ending a chart can write, a table of people invested in each other. Handled loosely, it is an estate dispute. Decide early what is shared and what is sealed, and say it out loud while everyone still laughs easily. Generosity plans best before it is needed.',
@@ -109,6 +111,7 @@ export const POSITION_READINGS = {
     reading: 'This position rules Social and Health. You arrived with a light touch: a childhood face that put people at ease, a family style that valued good food, good humor, or good craft. Wellbeing is your inheritance, and it shows in how naturally you host, soothe, and enjoy. The shadow is softness: a start this comfortable can under-build ambition. Keep the warmth, it is real wealth. Just give it something worth making.',
   },
   shishen_year_branch: {
+    teaser: 'Somewhere early, someone fed you well, in every sense. That ease still lives underneath you, and providing for others will keep quietly providing for you.',
     domains: ['Family', 'Health'],
     defline: 'The Artisan lives inside your Year Gate: the root of your early world was nourishment, given and remembered.',
     reading: 'This position rules Family and Health. Somewhere early, someone fed you well, in meals or in patience, and the root took: you carry an instinct for care that feels ancestral. Your body keeps score gently but honestly, thriving on rhythm, rest, and pleasure taken without guilt. Recreate the nourishing house you came from, or the one you wish you had. For you, wellbeing is not maintenance. It is lineage.',
@@ -194,6 +197,7 @@ export const POSITION_READINGS = {
     reading: 'This position rules Career and Wealth from the strongest seat there is. Your prime years are commercially alive: ventures find you, money multiplies when moving, and your best work happens in the open market rather than the org chart. The danger is dilution, six ventures at fifteen percent. Pick the two that compound. A prime like this does not need more doors. It needs the discipline to walk fully through one.',
   },
   piancai_day_branch: {
+    teaser: 'You are drawn to partners with range, people who open doors you would not find alone. Marriage, for you, is also where opportunity walks in.',
     domains: ['Love', 'Social', 'Wealth'],
     defline: 'Opportunity sits in your spouse palace: your intimate life keeps a horizon in it.',
     reading: 'This position rules Love and Social, with Wealth in the walls. Attraction, for you, wears novelty: charm, motion, people with their own passports. Settling reads as a risk rather than a relief, so partnership must be built as a shared expedition or it suffocates. Money flows around your love life, gifts, ventures, rescues. Choose a partner who loves the journey but audits the map. Romance survives adventure. It rarely survives vagueness.',
@@ -209,6 +213,7 @@ export const POSITION_READINGS = {
     reading: 'This position rules Family and Wealth at the root of late life. Your endings gather widely: far-flung children, scattered investments, kindnesses returning decades late from people you barely remember helping. It makes for a rich, slightly unmappable harvest. Consolidate gently in your fifties, name things, gather papers, tell the stories that explain the assets. A wide life ends warmest when someone can find all of it.',
   },
   zhengcai_year_stem: {
+    teaser: 'You learned early what things cost, and it shows in how carefully you build. Money grows for you the slow way, and it starts close to home.',
     domains: ['Wealth', 'Family'],
     defline: 'The Steward stands at your Year Gate: prudence is the family trait your story shows first.',
     reading: 'This position rules Wealth and Family. You come from keeping: a line that saved, maintained, and handed things down in working order. It shows in your visible reliability, people lend to you instinctively and are right to. Money is a craft you learned at the kitchen table. The inheritance to watch is fear dressed as thrift. Spend properly on what compounds, education, tools, health. The Steward’s art is not keeping everything. It is keeping what matters.',
@@ -234,6 +239,7 @@ export const POSITION_READINGS = {
     reading: 'This position rules Love and Family. Intimacy, for you, is a long account: loyalty paid in daily, promises kept until they are furniture, a partner chosen once and tended for decades. It is the marrying position, and it rewards you richly for choosing well, which means slowly. Beware love as maintenance only. Devotion needs occasional extravagance the way houses need windows. Waste something on them regularly. That, too, is keeping.',
   },
   zhengcai_hour_stem: {
+    teaser: 'Whatever the middle years scatter, you end well provided for. What you save builds toward an old age that pays its own way, with something left to hand on.',
     domains: ['Wealth', 'Family'],
     defline: 'The Steward stands at your Hour Gate: what you show the future is order, provided for.',
     reading: 'This position rules Wealth and Family in their closing forms. You will finish organized: the will written, the roof sound, the accounts explicable to a tired executor. It is a genuine kindness, the last chore done for people you love. Pass on the craft along with the capital, and teach the young maintenance before they inherit machines. And leave one line item for delight. Even a perfect ledger should end on a gift.',
@@ -329,6 +335,7 @@ export const POSITION_READINGS = {
     reading: 'This position rules Career and Mind. Professionally you are the deep one: the analyst, researcher, diagnostician, the person handed problems that have already defeated the confident. Your value is genuine and badly self-advertised, because visible thinking is not visible output. Fields of depth suit you, research, strategy, medicine, code, the hidden corners of any trade. Find one translator, a boss or partner who sells what you see. Depth plus a spokesman is a career with no ceiling.',
   },
   pianyin_month_branch: {
+    teaser: 'Your mind works in private, on things most people find strange, and that is exactly where your career luck lives. The niche will pay what the mainstream never will.',
     domains: ['Mind', 'Growth', 'Career'],
     defline: 'The Alchemist holds your chart’s strongest seat, the month branch, and does its thinking from the middle of your working life.',
     reading: 'This position rules Mind and Growth, and it rules them from the Month Gate. The month branch is the frame of a chart, the seat that colors your whole working life, and yours is held by the quiet scholar. Insight is not a hobby here. It is how you earn, decide, and climb. Careers that reward private depth suit you, and roles that punish slowness starve you. Guard the study hours the way others guard their salary, because for you they are the same thing.',

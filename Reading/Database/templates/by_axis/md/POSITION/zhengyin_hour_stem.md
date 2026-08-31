@@ -25,3 +25,4 @@
 | `domains` | Family · Growth · Mind |
 | `defline` | Care stands at your Hour Gate: what you show the future is teaching, given freely. |
 | `reading` | This position rules Family and Growth in their closing forms. Your later years turn maternal regardless of gender: students gathered, grandchildren tutored, juniors shielded while they find their feet. Knowledge is your bequest and you will give it away with both hands, correctly. Guard against rescuing the young from their necessary storms. The last lesson a great teacher gives is stepping back. Shelter that knows when to open is the kind that gets remembered. |
+| `teaser` | *(unauthored)* |

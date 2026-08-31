@@ -69,6 +69,14 @@ Owner's diagnosis: the yin/yang face split introduced complexity at arrival. New
 ### EP-F · Curation v2, teaser sentences — ✅ COMPLETE (owner rulings ×2, 2026-08-19): each card ends on 1–2 derived teaser sentences replacing the verdict stamp (mech: seat-consequence clause + the pair turn's opening quoted; fn: body first sentence + dips line; dom: counted gods lead above the intros); tpl_section_teasers (TEMPLATED) = the clause home (station + seeder + SEAT_TEASE in journeyData); ×15 verified on the exemplar, sweep 16/16
 ### EP-E · Curation pass — ✅ COMPLETE (owner rulings ×4, 2026-08-19): element page = TEASER INDEX (claim titles Set A + derived verdicts from locked vocabulary + section visuals) → each opens an elsec detail sub-screen; Domains teaser speaks the gods first (persona + 汉字 + §2 defline + chips, TG_DEFLINE rehomed to tgNames.js); GATING: mechanism + function free in full, Domains detail = the Seeker flagship (god intros/chips/seat names/deflines free; domain readings + full position readings gated). Sweep 16/16; audits green
 
+## POS-T — the position teaser corpus (owner rulings ×3, 2026-08-19; register REA_16 §2c `POSITION.teaser`, research REA_04 §9)
+
+Therapist/psychic register: analytical personality truth + ONE tendency-framed predictive beat, ≤30w, drawn from classical palace×god reasoning (REA_04 §9.4 formula).
+
+### POS-T-A · Template ×7 — ✅ AUTHORED (the exemplar's seats), LIVE on the domains cards, awaiting owner lock
+### POS-T-B · Batch ×63 after the template locks (registry row flips pending→locked at lock)
+### POS-T-C · Full-reading expansion campaign (60–95w readings re-authored along the REA_04 §9.5 map: era claim + relations claim + role turn + neighbor set-pieces) — opens after POS-T-B
+
 ## OWNER — review & decisions (no deadline)
 
 | ID | Task |

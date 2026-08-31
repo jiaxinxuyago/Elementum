@@ -275,6 +275,7 @@ for (const g of GODS) for (const s of pos.SLOTS) {
     domains: auth.domains ?? null,
     defline: auth.defline ?? null,
     reading: auth.reading ?? null,
+    teaser: auth.teaser ?? null,
   }, ['REA_02 §5e (position vocabulary) · engine pillar gods'],
   { status_note: 'POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock' });
 }

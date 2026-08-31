@@ -25,3 +25,4 @@
 | `domains` | Love · Family |
 | `defline` | Order sits in your spouse palace: you love formally, faithfully, and for the record. |
 | `reading` | This position rules Love and Family. Partnership, for you, is a vow before it is a feeling: you commit completely, honor the contract, and expect the same spine in return. It is the marriage position, stable, respectable, built to last decades. Its shadow is administration, a household run so correctly that romance files for neglect. Break your own protocol on purpose sometimes. The vow holds better when the two of you occasionally elope from it. |
+| `teaser` | *(unauthored)* |

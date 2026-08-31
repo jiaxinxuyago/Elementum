@@ -25,3 +25,4 @@
 | `domains` | Wealth · Social |
 | `defline` | This bold companion stands at your Year Gate: daring runs in the visible bloodline. |
 | `reading` | This position rules Wealth and Social. The world met you early as the fearless one, and some of that nerve was inherited: a family line of risk-takers, sharers, spenders, or all three. Money moved fast around your beginnings, in and out. You learned that fortune is a current, not a vault. Keep the boldness, it opens doors that patience cannot. Just notice who always seems to be holding your wallet when the music stops. |
+| `teaser` | *(unauthored)* |

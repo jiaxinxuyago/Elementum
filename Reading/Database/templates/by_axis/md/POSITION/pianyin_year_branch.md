@@ -25,3 +25,4 @@
 | `domains` | Family · Mind · Growth |
 | `defline` | The Alchemist lives inside your Year Gate: your root drinks from an odd, deep well. |
 | `reading` | This position rules Family and Mind. The root of your story is unconventional nourishment: a lineage with a mystic, a scholar, or a beautiful crank in it, a childhood fed on books, silence, or secrets. You metabolize experience into meaning by inheritance. The same root can carry old loneliness forward. Study it like everything else you study. The family strangeness is your material, not your sentence. |
+| `teaser` | *(unauthored)* |

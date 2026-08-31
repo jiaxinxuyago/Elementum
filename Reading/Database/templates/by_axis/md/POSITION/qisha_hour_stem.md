@@ -25,3 +25,4 @@
 | `domains` | Career · Growth · Family |
 | `defline` | The General stands at your Hour Gate: your later years keep rank, and the young feel it. |
 | `reading` | This position rules Career and Growth in their late forms, and it shapes Family. You do not disarm with age: the closing decades hold your largest commands, institutions steered, standards enforced, successors drilled. The young inherit your discipline and fear your judgment in equal measure. Soften the delivery, never the standard. A last campaign led warmly is the difference between being obeyed to the end and being loved past it. |
+| `teaser` | *(unauthored)* |

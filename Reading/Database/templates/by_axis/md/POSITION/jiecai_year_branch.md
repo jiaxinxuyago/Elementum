@@ -25,3 +25,4 @@
 | `domains` | Family · Wealth |
 | `defline` | Inside your Year Gate sits the shared purse: early life taught you that what is yours is rarely only yours. |
 | `reading` | This position rules Family and Wealth. The root of your story involves pooled resources: family money shared, contested, or carried together, siblings close enough to borrow without asking. It made you generous and it made you alert. As an adult you give easily and track quietly. Honor both instincts. Share on purpose rather than by leakage, and let written clarity protect the relationships that looseness would eventually cost you. |
+| `teaser` | *(unauthored)* |

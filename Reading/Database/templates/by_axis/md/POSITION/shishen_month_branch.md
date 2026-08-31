@@ -25,3 +25,4 @@
 | `domains` | Career · Health |
 | `defline` | The Artisan holds your chart’s strongest seat: your prime runs on craft, flow, and sustainable pleasure. |
 | `reading` | This position rules Career and Health from the deepest seat there is. Your working prime is built for the long, warm road: mastery over grind, flow over force, a career shaped like a craft practiced daily until it feeds you. Burnout is your one real enemy, because it attacks the exact spring your success flows from. Choose work you could love for twenty years. In this chart, enjoyment is not a bonus. It is the engine. |
+| `teaser` | *(unauthored)* |

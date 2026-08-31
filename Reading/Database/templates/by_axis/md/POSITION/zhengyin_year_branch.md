@@ -25,3 +25,4 @@
 | `domains` | Family · Growth · Health |
 | `defline` | Care lives inside your Year Gate: your root is shelter itself, deep and possibly too warm. |
 | `reading` | This position rules Family and Health. The root of your beginnings is protection: a childhood cushioned, a mother-force strong in the walls, safety as the house style. It gave you a nervous system that heals and a baseline trust most people lack. The shade side is late launching, shelter that lingered into softness. Whatever you were protected from, go meet a sized version of it yearly. Roots this kind must be outgrown gratefully, not obeyed. |
+| `teaser` | *(unauthored)* |

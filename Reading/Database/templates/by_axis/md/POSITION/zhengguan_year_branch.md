@@ -25,3 +25,4 @@
 | `domains` | Family · Growth |
 | `defline` | Order lives inside your Year Gate: your root is a rulebook, learned before you could read it. |
 | `reading` | This position rules Family and Growth. The root of your beginnings is structure: a household of expectations, duty modeled daily, right and wrong served with dinner. It built your spine and your ceiling both. As an adult you carry an inner magistrate whose approval you still seek. Retire him gradually. Keep the integrity he taught you, and quietly stop asking his permission. Grown correctness answers to conscience, not to childhood. |
+| `teaser` | *(unauthored)* |

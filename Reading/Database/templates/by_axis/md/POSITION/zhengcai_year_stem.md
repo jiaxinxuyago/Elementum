@@ -25,3 +25,4 @@
 | `domains` | Wealth · Family |
 | `defline` | The Steward stands at your Year Gate: prudence is the family trait your story shows first. |
 | `reading` | This position rules Wealth and Family. You come from keeping: a line that saved, maintained, and handed things down in working order. It shows in your visible reliability, people lend to you instinctively and are right to. Money is a craft you learned at the kitchen table. The inheritance to watch is fear dressed as thrift. Spend properly on what compounds, education, tools, health. The Steward’s art is not keeping everything. It is keeping what matters. |
+| `teaser` | You learned early what things cost, and it shows in how carefully you build. Money grows for you the slow way, and it starts close to home. |

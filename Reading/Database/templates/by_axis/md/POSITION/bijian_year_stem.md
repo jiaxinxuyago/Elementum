@@ -25,3 +25,4 @@
 | `domains` | Social · Family |
 | `defline` | The Twin stands at your Year Gate: independence is the first thing your story shows, inherited and worn openly. |
 | `reading` | This position rules Social and Family. Your line carries self-made people, and it shows: from early on you read as someone who stands on their own feet. Support from home came as example more than shelter, and you learned to treat help as optional. Peers matter to you the way siblings do, chosen and equal. Let some of them in past the handshake. Standing alone began as heritage. It does not have to be a habit. |
+| `teaser` | *(unauthored)* |

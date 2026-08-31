@@ -25,3 +25,4 @@
 | `domains` | Mind · Growth · Career |
 | `defline` | The Alchemist stands at your Hour Gate: your later output turns inward, and finer. |
 | `reading` | This position rules Mind and Growth in their late forms. Your closing decades are your deepest: the reading finally done, the framework finished, wisdom distilled past cleverness. Late study, for you, is a metamorphosis rather than a hobby, so expect a genuine second mind after sixty. Publish it, teach it, or at minimum write it down. The young will need your strange map exactly one generation after you stop being able to draw it. |
+| `teaser` | *(unauthored)* |

@@ -25,3 +25,4 @@
 | `domains` | Career · Wealth · Social |
 | `defline` | Opportunity stands at your Month Gate: the working world sees the dealmaker, already reaching. |
 | `reading` | This position rules Career and Wealth. Professionally you are the door-opener: territories, markets, introductions, the number that gets a first meeting. Careers with horizons suit you, trade, expansion, brokerage, anything where reach is rewarded. Desks kill you slowly. Your income will arrive in weathers rather than salaries, so build your life to metabolize a variable feast. The reach is the gift. The follow-through you must hire, marry, or become. |
+| `teaser` | *(unauthored)* |
