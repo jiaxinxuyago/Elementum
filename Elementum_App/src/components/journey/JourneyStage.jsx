@@ -26,7 +26,6 @@ import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
 import { APP_URL } from '../../infra/index.js';
 import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_LINE } from './journeyData.js';
 import { resolvePositions } from '../reading/positionsResolve.js';
-import { DOMAIN_DEF } from '../../content/positions.js';
 import { FEEDS, TAMES, CYCLE_LINE } from '../../content/cycles.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
@@ -345,9 +344,21 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   // The element's seats (REA_02 §5e echo): the positions this energy holds.
   const elPositions = elScreen ? resolvePositions(chart, hourUnknown).filter((p) => p.el === elScreen.el) : [];
   // The element's plain life-ground (owner 2026-08-19): the canonical
-  // domains (§5e taxonomy ×8) its seats DECLARE — the teaser's only
-  // domain vocabulary; god-flavored nouns wait inside the detail.
-  const elCanon = [...new Set(elPositions.flatMap((p) => p.domains))];
+  // domains (§5e taxonomy ×8) its seats DECLARE, each tagged with its
+  // source gate (curation v5 — the union no longer flattens which seat
+  // rules what). The teaser's only domain vocabulary; gods wait inside.
+  const elCanonRows = (() => {
+    const map = new Map();
+    for (const p of elPositions) for (const d of p.domains) {
+      if (!map.has(d)) map.set(d, []);
+      if (!map.get(d).includes(p.gate)) map.get(d).push(p.gate);
+    }
+    return [...map.entries()].map(([d, gates]) => {
+      const names = gates.map((g) => g.replace(' Gate', ''));
+      const joined = names.length <= 2 ? names.join(' and ') : `${names.slice(0, -1).join(', ')}, and ${names[names.length - 1]}`;
+      return { d, src: gates.length === 1 ? `from the ${gates[0]}` : `from the ${joined} Gates` };
+    });
+  })();
   const glossary = buildGlossary(m);
   const condIcon = m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged';
   const fnNote = fnOpen ? glossary[fnOpen] : null;
@@ -610,12 +621,12 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   <button className="cardstock el-tease" onClick={() => openSec('dom')}>
                     <span className="laylab">THE DOMAINS</span>
                     <span className="serifline el-teasetitle">{elScreen.domTitle}</span>
-                    {/* each canonical domain gets its own written row (owner
-                        2026-08-19: "each domain worth a teaser") — plain
-                        DOMAIN_DEF lines, no god vocabulary */}
-                    {elCanon.map((d) => (
-                      <span className="el-domrow" key={d}>
-                        <b className="el-domname">{d}.</b> {DOMAIN_DEF[d] || ''}
+                    {/* each canonical domain = one row, tagged with its source
+                        gate (owner 2026-08-19: no explanatory lines, the tag
+                        keeps which-seat-rules-what audible) */}
+                    {elCanonRows.map((r) => (
+                      <span className="el-domrow" key={r.d}>
+                        <b className="el-domname">{r.d}</b><span className="el-domgate">· {r.src}</span>
                       </span>
                     ))}
                     <span className="el-teasep">{(() => {
@@ -623,7 +634,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                       if (!n) return `${elScreen.elName} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.`;
                       const nWord = ['zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven'][n] || n;
                       return n === 1
-                        ? `One seat in your pillars decides how ${elScreen.elName} reaches ${elCanon.length === 1 ? 'it' : 'them'}. Open it to read the seat, and who holds it.`
+                        ? `One seat in your pillars decides how ${elScreen.elName} reaches ${elCanonRows.length === 1 ? 'it' : 'them'}. Open it to read the seat, and who holds it.`
                         : `${nWord} seats in your pillars decide how ${elScreen.elName} reaches them. Open them to read each seat, and who holds it.`;
                     })()}</span>
                     <span className="el-teasego"><Use id="ico-chev-r" /></span>
@@ -673,9 +684,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     {/* order re-ruled (owner 2026-08-19): plain life-domains →
                         THE SEATS (the Position axis does the talking) → the
                         gods last, as the supplementary "who runs it" layer. */}
-                    {elCanon.map((d) => (
-                      <span className="el-domrow" key={d}>
-                        <b className="el-domname">{d}.</b> {DOMAIN_DEF[d] || ''}
+                    {elCanonRows.map((r) => (
+                      <span className="el-domrow" key={r.d}>
+                        <b className="el-domname">{r.d}</b><span className="el-domgate">· {r.src}</span>
                       </span>
                     ))}
                     {elPositions.length ? (

@@ -332,10 +332,6 @@ T('tpl_cycle_line', 'VOCABULARY LOCKED (REA_02 §5d, owner 2026-08-14) — the �
 });
 T('tpl_rx_ribbon', 'PLANNED', 'ribbon ≤14w + 10 fragments', { pattern: null, clauses: null });
 T('tpl_pattern_conclusion', 'PLANNED', '≤25w · per pattern type (~6)', { pattern: null, clauses: null });
-T('tpl_domain_deflines', 'LIVE (curation v4, owner 2026-08-19: "each domain worth a teaser") — plain one-line teasers per canonical §5e domain, chart-invariant', '≤10w each ×8', {
-  pattern: '{Domain}. {defline}',
-  deflines: pos.DOMAIN_DEF,
-});
 T('tpl_section_teasers', 'LIVE (curation pass v2, owner 2026-08-19) — the element page teaser sentences, derived assembly (no authored corpus)', 'S1 clause + S2 = the pair turn\'s first sentence quoted', {
   pattern: 'mech: "This reaction makes {El} {seat_tease}. {turn first sentence}" · fn: "{body first sentence} It leads with {Fn} and reaches into your {dips}." · dom: "{One god lives|Two gods live} in your {El}: {personas}. {It rules|They rule} {domains ≤4, lowercase}, and {seat clause}."',
   seat_tease: jd.SEAT_TEASE,
