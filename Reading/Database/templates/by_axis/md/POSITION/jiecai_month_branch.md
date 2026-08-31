@@ -25,4 +25,4 @@
 | `domains` | Career · Wealth · Social |
 | `defline` | Inside your Month Gate runs the gambler’s current: your prime years are built for bold, shared ventures. |
 | `reading` | This position rules Career and Wealth, with Social close behind. The strongest seat of your chart runs on shared risk: partnerships, ventures, teams that bet together. Alone you are quick. Allied you are formidable, and the money follows the alliances. The same current drains carelessly: split equity, loose loans, friends who become expenses. Structure is not the enemy of your boldness. It is what lets you afford the next bet. |
-| `teaser` | *(unauthored)* |
+| `teaser` | Under your working life runs a gambler’s pulse: bold moves feel safer to you than waiting. Midlife pays your courage well once partners stop holding your purse. |

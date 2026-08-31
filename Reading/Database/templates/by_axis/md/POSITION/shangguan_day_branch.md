@@ -25,4 +25,4 @@
 | `domains` | Love · Mind |
 | `defline` | Brilliance sits in your spouse palace: intimacy, for you, is vivid, verbal, and never beige. |
 | `reading` | This position rules Love and Mind. You love with the volume up: wit, intensity, honesty past the comfortable line. A partner must be an audience and a sparring mate at once, quick enough to enjoy you, sturdy enough not to bruise. Dull peace reads to you as death, so you will test calm just to feel the current. Learn the difference between spark and damage. The right person wants your fire warm, not proven. |
-| `teaser` | *(unauthored)* |
+| `teaser` | You need a partner who applauds, and you notice when they do not. Marriage thrives once the two of you compete with the world instead of each other. |

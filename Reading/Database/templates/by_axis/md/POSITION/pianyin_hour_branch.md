@@ -25,4 +25,4 @@
 | `domains` | Family · Mind · Growth |
 | `defline` | The Alchemist lives inside your Hour Gate: the root of your harvest is understanding, finally ripe. |
 | `reading` | This position rules Mind and Family at the root of late life. Your old age keeps a lit study: the elder others visit for the real conversation, the grandparent who explains what parents cannot. Solitude remains your medicine, so build a household that honors the closed door without fearing it. What you hand down is comprehension. Wrap it warmly. Understanding is the one inheritance that cannot be taxed, only ignored. |
-| `teaser` | *(unauthored)* |
+| `teaser` | The root of your late years is the inner library: study, intuition, chosen quiet. Age will suit you, because depth is the one asset that only accrues. |

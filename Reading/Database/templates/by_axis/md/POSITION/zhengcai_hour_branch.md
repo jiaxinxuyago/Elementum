@@ -25,4 +25,4 @@
 | `domains` | Family · Health · Wealth |
 | `defline` | The Steward lives inside your Hour Gate: your harvest is everything you maintained, still standing. |
 | `reading` | This position rules Family and Health at the root of late life, with Wealth beneath both. Your old age is built from upkeep: the body serviced on schedule, the marriage resoled every decade, the house that outlasts its street. Continuity is your pension. Its quiet risk is smallness, a kept life that forgot to grow. Add one new thing each year, a skill, a place, a person. Preservation stays noble only while something is still being planted. |
-| `teaser` | *(unauthored)* |
+| `teaser` | Security deepens with age: the root of your late years is provision done right. Children learn thrift from you, and your estate lands where you intend it. |

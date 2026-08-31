@@ -25,4 +25,4 @@
 | `domains` | Love · Wealth |
 | `defline` | In your spouse palace lives the fellow gambler: love, for you, is a joint venture with real stakes. |
 | `reading` | This position rules Love and Wealth. Intimacy arrives as alliance: you fall for people with nerve, and your best partnerships feel like two players sharing one bankroll. It makes for a vivid home and an eventful ledger. Money and love will braid together, so braid them deliberately: shared goals, named accounts, honest stakes. The relationship thrives on adventure. It survives on the agreements you make before the adventure starts. |
-| `teaser` | *(unauthored)* |
+| `teaser` | You fall for bold ones, partners with fire and opinions. Home will never be dull, and it stays happy when the money keeps separate lanes. |

@@ -73,8 +73,8 @@ Owner's diagnosis: the yin/yang face split introduced complexity at arrival. New
 
 Therapist/psychic register: analytical personality truth + ONE tendency-framed predictive beat, ≤30w, drawn from classical palace×god reasoning (REA_04 §9.4 formula).
 
-### POS-T-A · Template ×7 — ✅ AUTHORED (the exemplar's seats), LIVE on the domains cards, awaiting owner lock
-### POS-T-B · Batch ×63 after the template locks (registry row flips pending→locked at lock)
+### POS-T-A · Template ×7 — ✅ APPROVED + LOCKED (owner 2026-08-19)
+### POS-T-B · Batch ×63 — ✅ COMPLETE (2026-08-19): corpus ×70 locked (positions.js + station synced ×70); registry row locked; enforcement negative-tested; verified on 庚 + 甲 charts; sweep 16/16
 ### POS-T-C · Full-reading expansion campaign (60–95w readings re-authored along the REA_04 §9.5 map: era claim + relations claim + role turn + neighbor set-pieces) — opens after POS-T-B
 
 ## OWNER — review & decisions (no deadline)

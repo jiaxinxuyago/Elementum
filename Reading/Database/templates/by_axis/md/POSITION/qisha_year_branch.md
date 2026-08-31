@@ -25,4 +25,4 @@
 | `domains` | Family · Growth · Health |
 | `defline` | The General lives inside your Year Gate: your root was forged, not furnished. |
 | `reading` | This position rules Family and Growth, and it marks Health. The root of your story holds pressure: a demanding house, an early responsibility, a childhood that skipped some childhood. It built load-bearing character and a nervous system that treats peace as suspicious. As an adult, you seek battles partly to feel at home. Honor the forging, it made you formidable. Then teach your body the drill it never learned. Standing down is also a discipline. |
-| `teaser` | *(unauthored)* |
+| `teaser` | Some early weight pressed on you where no one watched, and you turned it into spine. Crisis will always promote you: it is your native ladder. |

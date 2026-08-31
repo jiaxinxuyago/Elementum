@@ -25,4 +25,4 @@
 | `domains` | Growth · Family |
 | `defline` | The Twin stands at your Hour Gate: what you show the future is independence, taught by demonstration. |
 | `reading` | This position rules Growth and Family. The later chapters of your life keep their own keys: you intend to need nobody, and you will likely manage it. What you pass on, to children or the people who learn from you, is self-sufficiency shown rather than preached. Fine inheritance. Add warmth to it deliberately, because the young remember who stood alone, and they also remember who stood alone with the door open. |
-| `teaser` | *(unauthored)* |
+| `teaser` | You will age on your own terms and make it look easy. The young learn self-reliance from watching you, so leave the door open while you stand alone. |

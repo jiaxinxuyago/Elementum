@@ -7,13 +7,13 @@
         "id": "bijian_year_stem",
         "key": "比肩在年干",
         "canonical_name": "The Twin at the Year Gate",
-        "value": null
+        "value": "Independence was the family lesson, and you took it early. Expect a life where help arrives late and pride arrives first, and you manage anyway."
       },
       {
         "id": "bijian_year_branch",
         "key": "比肩在年支",
         "canonical_name": "The Twin inside the Year Gate",
-        "value": null
+        "value": "Some part of you grew up fast and private, learning to need very little. That toughness holds, though letting people in will always take deliberate effort."
       },
       {
         "id": "bijian_month_stem",
@@ -25,61 +25,61 @@
         "id": "bijian_month_branch",
         "key": "比肩在月支",
         "canonical_name": "The Twin inside the Month Gate",
-        "value": null
+        "value": "Your prime runs on your own engine: careers built alone hold, careers built on rescue stall. Equity and credit stay cleanest when they are written down early."
       },
       {
         "id": "bijian_day_branch",
         "key": "比肩在日支",
         "canonical_name": "The Twin inside the Day Gate",
-        "value": null
+        "value": "In love you need an equal, someone with a spine that matches yours. Marriage will feel like a partnership of captains, and it works when neither keeps score."
       },
       {
         "id": "bijian_hour_stem",
         "key": "比肩在时干",
         "canonical_name": "The Twin at the Hour Gate",
-        "value": null
+        "value": "You will age on your own terms and make it look easy. The young learn self-reliance from watching you, so leave the door open while you stand alone."
       },
       {
         "id": "bijian_hour_branch",
         "key": "比肩在时支",
         "canonical_name": "The Twin inside the Hour Gate",
-        "value": null
+        "value": "Your later years run on a few chosen equals, friends who became family. Invest in that small circle now: it is the pension no market touches."
       },
       {
         "id": "jiecai_year_stem",
         "key": "劫财在年干",
         "canonical_name": "The Rival at the Year Gate",
-        "value": null
+        "value": "Daring runs in your bloodline and shows early. Money moves fast around you, in and out, so your fortune favors nerve backed by a ledger someone honest keeps."
       },
       {
         "id": "jiecai_year_branch",
         "key": "劫财在年支",
         "canonical_name": "The Rival inside the Year Gate",
-        "value": null
+        "value": "You grew up where mine and yours blurred, and it made you generous and watchful at once. Keep sharing on purpose: looseness with money costs you relationships first."
       },
       {
         "id": "jiecai_month_stem",
         "key": "劫财在月干",
         "canonical_name": "The Rival at the Month Gate",
-        "value": null
+        "value": "At work you compete the way others breathe, and people feel it. Your career rises fastest in open contests, and slowest wherever the prize must be split."
       },
       {
         "id": "jiecai_month_branch",
         "key": "劫财在月支",
         "canonical_name": "The Rival inside the Month Gate",
-        "value": null
+        "value": "Under your working life runs a gambler’s pulse: bold moves feel safer to you than waiting. Midlife pays your courage well once partners stop holding your purse."
       },
       {
         "id": "jiecai_day_branch",
         "key": "劫财在日支",
         "canonical_name": "The Rival inside the Day Gate",
-        "value": null
+        "value": "You fall for bold ones, partners with fire and opinions. Home will never be dull, and it stays happy when the money keeps separate lanes."
       },
       {
         "id": "jiecai_hour_stem",
         "key": "劫财在时干",
         "canonical_name": "The Rival at the Hour Gate",
-        "value": null
+        "value": "You will show the future your nerve: heirs and juniors copy your boldness first. Budget for late generosity, because people will ask, and you will want to say yes."
       },
       {
         "id": "jiecai_hour_branch",
@@ -91,7 +91,7 @@
         "id": "shishen_year_stem",
         "key": "食神在年干",
         "canonical_name": "The Artisan at the Year Gate",
-        "value": null
+        "value": "Warmth was your first language, learned young and worn openly. Doors open for you through charm and good taste, and they keep opening as long as you keep giving."
       },
       {
         "id": "shishen_year_branch",
@@ -103,97 +103,97 @@
         "id": "shishen_month_stem",
         "key": "食神在月干",
         "canonical_name": "The Artisan at the Month Gate",
-        "value": null
+        "value": "The working world knows you for the ease of what you make. Your career grows by appetite rather than ambition, and the work you enjoy pays best."
       },
       {
         "id": "shishen_month_branch",
         "key": "食神在月支",
         "canonical_name": "The Artisan inside the Month Gate",
-        "value": null
+        "value": "Craft sits in your bones: your prime years produce steadily, without drama, and better than louder people. Guard your health and routine, they are your production line."
       },
       {
         "id": "shishen_day_branch",
         "key": "食神在日支",
         "canonical_name": "The Artisan inside the Day Gate",
-        "value": null
+        "value": "You are built for a warm table and a gentle partner. Marriage feeds you, literally and otherwise, and your best fortune gathers around the home you two keep."
       },
       {
         "id": "shishen_hour_stem",
         "key": "食神在时干",
         "canonical_name": "The Artisan at the Hour Gate",
-        "value": null
+        "value": "What you make late in life may outshine everything before it. Children and students take after your gifts, and your last chapters read sweeter than your first."
       },
       {
         "id": "shishen_hour_branch",
         "key": "食神在时支",
         "canonical_name": "The Artisan inside the Hour Gate",
-        "value": null
+        "value": "Ease deepens as you age: the root of your late years is comfort earned, kept, and shared. Expect a good table, good sleep, and company that stays."
       },
       {
         "id": "shangguan_year_stem",
         "key": "伤官在年干",
         "canonical_name": "The Virtuoso at the Year Gate",
-        "value": null
+        "value": "You were the bright one early, the child who outgrew the script. Authority and you started rough, and your luck improves every year you pick your own stage."
       },
       {
         "id": "shangguan_year_branch",
         "key": "伤官在年支",
         "canonical_name": "The Virtuoso inside the Year Gate",
-        "value": null
+        "value": "Underneath your story runs an early refusal: some rule at home never fit, and you knew it young. That edge becomes brilliance once it stops needing an audience."
       },
       {
         "id": "shangguan_month_stem",
         "key": "伤官在月干",
         "canonical_name": "The Virtuoso at the Month Gate",
-        "value": null
+        "value": "The working world sees your talent before your discipline, and both are real. Careers with a stage suit you, and bosses who need obedience will not keep you."
       },
       {
         "id": "shangguan_month_branch",
         "key": "伤官在月支",
         "canonical_name": "The Virtuoso inside the Month Gate",
-        "value": null
+        "value": "Your prime runs on performance: you outdo, outshine, and occasionally overstep. The money follows your gift wherever the format is loose and the spotlight honest."
       },
       {
         "id": "shangguan_day_branch",
         "key": "伤官在日支",
         "canonical_name": "The Virtuoso inside the Day Gate",
-        "value": null
+        "value": "You need a partner who applauds, and you notice when they do not. Marriage thrives once the two of you compete with the world instead of each other."
       },
       {
         "id": "shangguan_hour_stem",
         "key": "伤官在时干",
         "canonical_name": "The Virtuoso at the Hour Gate",
-        "value": null
+        "value": "Your late work will be your boldest, and the young will quote you. Expect gifted, headstrong heirs: they inherit the talent along with the allergy to instruction."
       },
       {
         "id": "shangguan_hour_branch",
         "key": "伤官在时支",
         "canonical_name": "The Virtuoso inside the Hour Gate",
-        "value": null
+        "value": "The root of your late years is expression that never retires. You will be making, correcting, and dazzling to the end, and it will keep you young."
       },
       {
         "id": "piancai_year_stem",
         "key": "偏财在年干",
         "canonical_name": "The Horizon at the Year Gate",
-        "value": null
+        "value": "Generosity was visible in your beginnings: a family that spent on people and chances. Money finds you through motion and strangers, rarely through sitting still."
       },
       {
         "id": "piancai_year_branch",
         "key": "偏财在年支",
         "canonical_name": "The Horizon inside the Year Gate",
-        "value": null
+        "value": "Somewhere in your roots sits a wanderer, and their restlessness lives in you. Your luck travels: opportunity favors you farther from home than comfort likes."
       },
       {
         "id": "piancai_month_stem",
         "key": "偏财在月干",
         "canonical_name": "The Horizon at the Month Gate",
-        "value": null
+        "value": "The working world reads you as the one who spots the opening. Your career pays in windfalls and timing, so keep a steady hand on the harvests."
       },
       {
         "id": "piancai_month_branch",
         "key": "偏财在月支",
         "canonical_name": "The Horizon inside the Month Gate",
-        "value": null
+        "value": "Under your prime runs a trader’s instinct: you sense value moving before it moves. Trust it in the field, and let someone patient mind the vault."
       },
       {
         "id": "piancai_day_branch",
@@ -205,13 +205,13 @@
         "id": "piancai_hour_stem",
         "key": "偏财在时干",
         "canonical_name": "The Horizon at the Hour Gate",
-        "value": null
+        "value": "You will stay opportunity’s friend to the end: late ventures, late windfalls, a wide door. Leave the estate mapped, because your generosity will outrun your paperwork."
       },
       {
         "id": "piancai_hour_branch",
         "key": "偏财在时支",
         "canonical_name": "The Horizon inside the Hour Gate",
-        "value": null
+        "value": "Your late years keep a wide horizon: travel, ventures, younger company. Fortune stays kind to you as long as something in your life stays in motion."
       },
       {
         "id": "zhengcai_year_stem",
@@ -223,25 +223,25 @@
         "id": "zhengcai_year_branch",
         "key": "正财在年支",
         "canonical_name": "The Steward inside the Year Gate",
-        "value": null
+        "value": "Thrift is in your roots: a home that counted carefully and wasted little. Your fortune compounds the same way, quietly, and earlier than anyone notices."
       },
       {
         "id": "zhengcai_month_stem",
         "key": "正财在月干",
         "canonical_name": "The Steward at the Month Gate",
-        "value": null
+        "value": "The working world trusts you with money and should. Your career rewards stewardship: steady roles, real budgets, value kept. Wealth arrives on schedule rather than by surprise."
       },
       {
         "id": "zhengcai_month_branch",
         "key": "正财在月支",
         "canonical_name": "The Steward inside the Month Gate",
-        "value": null
+        "value": "Your prime is built on earned ground: income you can explain, assets you maintain. It grows slower than you would like and further than you expect."
       },
       {
         "id": "zhengcai_day_branch",
         "key": "正财在日支",
         "canonical_name": "The Steward inside the Day Gate",
-        "value": null
+        "value": "You are made for steady love: a partner who keeps what you build and builds what you keep. Marriage becomes your most reliable asset, tended like one."
       },
       {
         "id": "zhengcai_hour_stem",
@@ -253,109 +253,109 @@
         "id": "zhengcai_hour_branch",
         "key": "正财在时支",
         "canonical_name": "The Steward inside the Hour Gate",
-        "value": null
+        "value": "Security deepens with age: the root of your late years is provision done right. Children learn thrift from you, and your estate lands where you intend it."
       },
       {
         "id": "qisha_year_stem",
         "key": "七杀在年干",
         "canonical_name": "The General at the Year Gate",
-        "value": null
+        "value": "Your beginnings carried real pressure, and everyone could see you carrying it. It forged you early. Expect authority to find you young and test you often."
       },
       {
         "id": "qisha_year_branch",
         "key": "七杀在年支",
         "canonical_name": "The General inside the Year Gate",
-        "value": null
+        "value": "Some early weight pressed on you where no one watched, and you turned it into spine. Crisis will always promote you: it is your native ladder."
       },
       {
         "id": "qisha_month_stem",
         "key": "七杀在月干",
         "canonical_name": "The General at the Month Gate",
-        "value": null
+        "value": "The working world reads command on you before you speak. Careers with stakes suit you, and your rank rises fastest where others crack."
       },
       {
         "id": "qisha_month_branch",
         "key": "七杀在月支",
         "canonical_name": "The General inside the Month Gate",
-        "value": null
+        "value": "Your prime runs under pressure by design: you choose hard arenas because ease bores you. Power arrives midlife, through the campaigns nobody else would take."
       },
       {
         "id": "qisha_day_branch",
         "key": "七杀在日支",
         "canonical_name": "The General inside the Day Gate",
-        "value": null
+        "value": "You are drawn to intensity at close range: a partner with force, a home with weather. Love holds when the two of you aim the pressure outward together."
       },
       {
         "id": "qisha_hour_stem",
         "key": "七杀在时干",
         "canonical_name": "The General at the Hour Gate",
-        "value": null
+        "value": "You will command to the end, and the young will both fear and follow you. Late authority is yours: soften the orders and the loyalty doubles."
       },
       {
         "id": "qisha_hour_branch",
         "key": "七杀在时支",
         "canonical_name": "The General inside the Hour Gate",
-        "value": null
+        "value": "The root of your late years is discipline that never quite retires. Expect standing, respect, and one more campaign than you planned. Keep a gate for rest."
       },
       {
         "id": "zhengguan_year_stem",
         "key": "正官在年干",
         "canonical_name": "The Magistrate at the Year Gate",
-        "value": null
+        "value": "You come from order worn openly: a respectable name, early rules, standards met. Reputation is your inheritance, and it keeps paying as long as you keep it clean."
       },
       {
         "id": "zhengguan_year_branch",
         "key": "正官在年支",
         "canonical_name": "The Magistrate inside the Year Gate",
-        "value": null
+        "value": "Discipline was the air of your early home, felt more than announced. It gave you a straight spine. Institutions will trust you early and promote you steadily."
       },
       {
         "id": "zhengguan_month_stem",
         "key": "正官在月干",
         "canonical_name": "The Magistrate at the Month Gate",
-        "value": null
+        "value": "The working world sees the officer in you: reliable, correct, promotable. Your career climbs by rank and record, and your name will matter more than your salary."
       },
       {
         "id": "zhengguan_month_branch",
         "key": "正官在月支",
         "canonical_name": "The Magistrate inside the Month Gate",
-        "value": null
+        "value": "Your prime is built for responsibility: the frame of your working life is duty done properly. Titles find you midlife, and they tend to stick."
       },
       {
         "id": "zhengguan_day_branch",
         "key": "正官在日支",
         "canonical_name": "The Magistrate inside the Day Gate",
-        "value": null
+        "value": "You are built for committed love: a principled partner, a household that runs on kept promises. Marriage steadies your whole chart, and it arrives with weight and stays."
       },
       {
         "id": "zhengguan_hour_stem",
         "key": "正官在时干",
         "canonical_name": "The Magistrate at the Hour Gate",
-        "value": null
+        "value": "Your standing grows with age: honors late, respect that outlives the job. Children measure themselves against your standards, so praise them before you correct them."
       },
       {
         "id": "zhengguan_hour_branch",
         "key": "正官在时支",
         "canonical_name": "The Magistrate inside the Hour Gate",
-        "value": null
+        "value": "Order is the root of your late years: affairs settled, duties completed, a name in good repair. Your legacy will be trusted, which is rarer than being missed."
       },
       {
         "id": "pianyin_year_stem",
         "key": "偏印在年干",
         "canonical_name": "The Alchemist at the Year Gate",
-        "value": null
+        "value": "You were the watchful child, visibly different in how you learned. Your path stays unconventional: the strange skills gathered early become the livelihood nobody predicted."
       },
       {
         "id": "pianyin_year_branch",
         "key": "偏印在年支",
         "canonical_name": "The Alchemist inside the Year Gate",
-        "value": null
+        "value": "Your roots hold an unusual nurture: care that came sideways, through books, silence, or an unconventional guardian. Solitude restores you, and always will."
       },
       {
         "id": "pianyin_month_stem",
         "key": "偏印在月干",
         "canonical_name": "The Alchemist at the Month Gate",
-        "value": null
+        "value": "The working world sees your odd angle first: the specialist, the diagnostician, the one who reads between. Career luck favors your niche over any ladder."
       },
       {
         "id": "pianyin_month_branch",
@@ -367,61 +367,61 @@
         "id": "pianyin_day_branch",
         "key": "偏印在日支",
         "canonical_name": "The Alchemist inside the Day Gate",
-        "value": null
+        "value": "You need a partner who respects your inner weather: closeness with breathing space built in. Marriage works as two studies with a shared door."
       },
       {
         "id": "pianyin_hour_stem",
         "key": "偏印在时干",
         "canonical_name": "The Alchemist at the Hour Gate",
-        "value": null
+        "value": "Late life sharpens your insight instead of dulling it. You will mentor the strange and gifted, and your best ideas may arrive after everyone expects them."
       },
       {
         "id": "pianyin_hour_branch",
         "key": "偏印在时支",
         "canonical_name": "The Alchemist inside the Hour Gate",
-        "value": null
+        "value": "The root of your late years is the inner library: study, intuition, chosen quiet. Age will suit you, because depth is the one asset that only accrues."
       },
       {
         "id": "zhengyin_year_stem",
         "key": "正印在年干",
         "canonical_name": "The Sage at the Year Gate",
-        "value": null
+        "value": "You were sheltered by someone principled, and it shows in your bearing. Learning is your inheritance: credentials, teachers, and timely protection keep appearing across your life."
       },
       {
         "id": "zhengyin_year_branch",
         "key": "正印在年支",
         "canonical_name": "The Sage inside the Year Gate",
-        "value": null
+        "value": "Deep in your roots is real nurture, a mother-warmth that took. You default to trust, and life keeps rewarding it with protectors you did not request."
       },
       {
         "id": "zhengyin_month_stem",
         "key": "正印在月干",
         "canonical_name": "The Sage at the Month Gate",
-        "value": null
+        "value": "The working world reads you as credible: the one with the knowledge and the calm. Your career advances through reputation and study, and elders open the doors."
       },
       {
         "id": "zhengyin_month_branch",
         "key": "正印在月支",
         "canonical_name": "The Sage inside the Month Gate",
-        "value": null
+        "value": "Your prime is carried by learning: the deeper the study, the steadier the rise. Expect your name to rest on what you know, and to age well."
       },
       {
         "id": "zhengyin_day_branch",
         "key": "正印在日支",
         "canonical_name": "The Sage inside the Day Gate",
-        "value": null
+        "value": "You are built to be cared for at close range, and to trust it. Marriage brings shelter: a partner whose steadiness becomes your second spine."
       },
       {
         "id": "zhengyin_hour_stem",
         "key": "正印在时干",
         "canonical_name": "The Sage at the Hour Gate",
-        "value": null
+        "value": "You will end as the elder people consult: knowledge kept warm and given away. Teach deliberately, because your protection of others is what history keeps."
       },
       {
         "id": "zhengyin_hour_branch",
         "key": "正印在时支",
         "canonical_name": "The Sage inside the Hour Gate",
-        "value": null
+        "value": "The root of your late years is quiet backing: pensions of goodwill, children who shelter you, sleep that comes easily. Kindness banked early pays your old age."
       }
     ]
   }

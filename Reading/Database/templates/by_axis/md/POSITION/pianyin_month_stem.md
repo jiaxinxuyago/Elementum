@@ -25,4 +25,4 @@
 | `domains` | Career · Mind |
 | `defline` | The Alchemist stands at your Month Gate: the working world sees the specialist it does not quite understand. |
 | `reading` | This position rules Career and Mind. Professionally you are the deep one: the analyst, researcher, diagnostician, the person handed problems that have already defeated the confident. Your value is genuine and badly self-advertised, because visible thinking is not visible output. Fields of depth suit you, research, strategy, medicine, code, the hidden corners of any trade. Find one translator, a boss or partner who sells what you see. Depth plus a spokesman is a career with no ceiling. |
-| `teaser` | *(unauthored)* |
+| `teaser` | The working world sees your odd angle first: the specialist, the diagnostician, the one who reads between. Career luck favors your niche over any ladder. |

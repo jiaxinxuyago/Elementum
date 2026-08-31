@@ -25,4 +25,4 @@
 | `domains` | Love · Mind |
 | `defline` | The Alchemist sits in your spouse palace: intimacy, for you, begins where small talk dies. |
 | `reading` | This position rules Love and Mind. You bond through the inner life: a partner must be interesting to your depths, not just kind to your days, and silence together must feel like company. You withdraw to process, which reads as distance to the unstudied. Teach your person your weather signs early. The love this position writes is rare and quiet and total. Its only enemy is going unexplained. |
-| `teaser` | *(unauthored)* |
+| `teaser` | You need a partner who respects your inner weather: closeness with breathing space built in. Marriage works as two studies with a shared door. |

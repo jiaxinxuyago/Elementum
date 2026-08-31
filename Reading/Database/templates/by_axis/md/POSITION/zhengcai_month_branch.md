@@ -25,4 +25,4 @@
 | `domains` | Career · Wealth |
 | `defline` | The Steward holds your chart’s strongest seat: your prime compounds, brick by deliberate brick. |
 | `reading` | This position rules Career and Wealth from the deepest seat a chart has. Your prime is an accumulation engine: skill gathered into position, position into assets, assets into quiet options. Nothing about it is dramatic and everything about it is durable. The single hazard is rigidity, holding a working formula two markets too long. Schedule reinvention every seventh year on purpose. Compounding is your gift. Refusing to re-pot it is the only way you lose. |
-| `teaser` | *(unauthored)* |
+| `teaser` | Your prime is built on earned ground: income you can explain, assets you maintain. It grows slower than you would like and further than you expect. |

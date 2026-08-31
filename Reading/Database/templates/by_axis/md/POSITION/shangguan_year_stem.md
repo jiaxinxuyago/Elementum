@@ -25,4 +25,4 @@
 | `domains` | Social · Mind |
 | `defline` | Brilliance stands at your Year Gate: the first thing your story shows is a spark that refuses dimming. |
 | `reading` | This position rules Social and Mind. You were the noticeable child: quick-tongued, gifted, allergic to being underestimated. Early audiences shaped you, applause or the fight for it, and your public self still carries that shine and that chip. People remember meeting you. Some remember being scorched. The talent is genuine currency, so spend it on stages worth the light, and let small slights pass unanswered. Not every spark owes the world a fire. |
-| `teaser` | *(unauthored)* |
+| `teaser` | You were the bright one early, the child who outgrew the script. Authority and you started rough, and your luck improves every year you pick your own stage. |

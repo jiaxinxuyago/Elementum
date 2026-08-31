@@ -25,4 +25,4 @@
 | `domains` | Career · Growth |
 | `defline` | Brilliance stands at your Hour Gate: your later years intend to be seen, and heard. |
 | `reading` | This position rules Career and Growth in their late forms. You will not fade politely: the closing chapters hold your loudest work, memoirs, movements, late masterpieces, opinions aged into edges. The young inherit your permission to speak, which is a real bequest, so keep giving it. But sign your last decades with craft, not just volume. What outlives a brilliant person is whatever they finished. |
-| `teaser` | *(unauthored)* |
+| `teaser` | Your late work will be your boldest, and the young will quote you. Expect gifted, headstrong heirs: they inherit the talent along with the allergy to instruction. |

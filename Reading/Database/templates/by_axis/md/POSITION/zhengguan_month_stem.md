@@ -25,4 +25,4 @@
 | `domains` | Career · Social |
 | `defline` | Order stands at your Month Gate: the working world sees an officer, promotable on sight. |
 | `reading` | This position rules Career and Social. You are built for institutions: rank reads on you, procedure obeys you, and ladders feel like home terrain. Government, law, corporations, any structured hierarchy will recognize and raise you. Your word is your collateral, so never spend it. The risk is the ladder itself, climbing well past the floor you wanted. Every few years, check the building. A perfect ascent in the wrong tower is still the wrong tower. |
-| `teaser` | *(unauthored)* |
+| `teaser` | The working world sees the officer in you: reliable, correct, promotable. Your career climbs by rank and record, and your name will matter more than your salary. |

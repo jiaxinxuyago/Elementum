@@ -25,4 +25,4 @@
 | `domains` | Career · Social |
 | `defline` | The Artisan stands at your Month Gate: the working world sees the maker, gracious and unhurried. |
 | `reading` | This position rules Career and Social. Professionally you read as the craftsman: the one whose work has finish, whose manner has warmth, who makes hard things look pleasant. Fields that reward taste suit you, teaching, food, design, care, and craft. Cutthroat arenas waste you. Your reputation compounds through work people enjoy receiving. Protect your pace, because your gift dies in a sweatshop and sings in a workshop. |
-| `teaser` | *(unauthored)* |
+| `teaser` | The working world knows you for the ease of what you make. Your career grows by appetite rather than ambition, and the work you enjoy pays best. |

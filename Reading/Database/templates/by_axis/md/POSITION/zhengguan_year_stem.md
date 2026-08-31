@@ -25,4 +25,4 @@
 | `domains` | Social · Family |
 | `defline` | Order stands at your Year Gate: respectability is the first thing your story shows. |
 | `reading` | This position rules Social and Family. You were raised visible: a family with standards, a name to maintain, conduct watched and graded early. It gave you effortless propriety, people trust you on sight and put you on committees. The inheritance runs deep enough that shame is your sharpest pain. Keep the honor, drop the audience. A reputation is worth keeping only while it stays lighter than the person carrying it. |
-| `teaser` | *(unauthored)* |
+| `teaser` | You come from order worn openly: a respectable name, early rules, standards met. Reputation is your inheritance, and it keeps paying as long as you keep it clean. |

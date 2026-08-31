@@ -25,4 +25,4 @@
 | `domains` | Love · Social |
 | `defline` | The Twin sits in your spouse palace: you partner as an equal, and only as an equal. |
 | `reading` | This position rules Love and Social. In close relationships you need a peer, someone whose spine matches yours, and romance built on leaning does not hold you. The home you make has two captains, which is its strength and its argument. Competition can slip into the kitchen: score-keeping, parallel lives, love as a quiet contest. Choose a partner you admire, then practice the one move the Twin resists. Letting them carry you sometimes. |
-| `teaser` | *(unauthored)* |
+| `teaser` | In love you need an equal, someone with a spine that matches yours. Marriage will feel like a partnership of captains, and it works when neither keeps score. |

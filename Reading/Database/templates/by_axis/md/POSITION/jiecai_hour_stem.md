@@ -25,4 +25,4 @@
 | `domains` | Wealth · Growth |
 | `defline` | At your Hour Gate stands the risk-taker: your later ambitions stay bold, and visibly so. |
 | `reading` | This position rules Wealth and Growth. You do not intend to retire quietly: the later chapters keep a wager in them, a venture, a reinvention, a door bought open. The young see your nerve and borrow it, which is a genuine gift. Guard the principal, though. Late-life boldness pays best when the downside is fenced. Keep a portion untouchable, and let the rest play. That balance is the whole art of your finish. |
-| `teaser` | *(unauthored)* |
+| `teaser` | You will show the future your nerve: heirs and juniors copy your boldness first. Budget for late generosity, because people will ask, and you will want to say yes. |

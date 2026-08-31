@@ -25,4 +25,4 @@
 | `domains` | Career · Wealth |
 | `defline` | Opportunity holds your chart’s strongest seat: your prime is a marketplace, and you own a stall. |
 | `reading` | This position rules Career and Wealth from the strongest seat there is. Your prime years are commercially alive: ventures find you, money multiplies when moving, and your best work happens in the open market rather than the org chart. The danger is dilution, six ventures at fifteen percent. Pick the two that compound. A prime like this does not need more doors. It needs the discipline to walk fully through one. |
-| `teaser` | *(unauthored)* |
+| `teaser` | Under your prime runs a trader’s instinct: you sense value moving before it moves. Trust it in the field, and let someone patient mind the vault. |
