@@ -586,7 +586,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     <span className="laylab">THE MECHANISM</span>
                     <span className="serifline el-teasetitle">{elScreen.mechTitle}</span>
                     {mechViz}
-                    <span className="el-teaseverdict">{elScreen.stateLine}</span>
+                    <span className="el-teasep">{elScreen.mechTeaser}</span>
                     <span className="el-teasego"><Use id="ico-chev-r" /></span>
                   </button>
                 )}
@@ -599,7 +599,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                         <span key={f.key} className={`el-fnchip${f.key === elScreen.fn.primary ? ' on' : ''}`}>{f.label}</span>
                       ))}
                     </span>
-                    <span className="el-teaseverdict">{elScreen.fnVerdict}</span>
+                    <span className="el-teasep">{elScreen.fnTeaser}</span>
                     <span className="el-teasego"><Use id="ico-chev-r" /></span>
                   </button>
                 )}
@@ -607,7 +607,21 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   <button className="cardstock el-tease" onClick={() => openSec('dom')}>
                     <span className="laylab">THE DOMAINS</span>
                     <span className="serifline el-teasetitle">{elScreen.domTitle}</span>
-                    {/* the gods first (owner point 3): who lives in the
+                    {/* lead teaser: gods counted + their ground + their seats
+                        (derived; needs the resolved positions, so built here) */}
+                    <span className="el-teasep" style={{ marginTop: 0 }}>{(() => {
+                      const list = elFaces.flatMap((f) => f.domains).slice(0, 4).map((d) => d.toLowerCase()).join(', ');
+                      const n = elPositions.length;
+                      const plural = elFaces.length > 1;
+                      const nWord = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven'][n] || n;
+                      const seatClause = n
+                        ? `${plural ? 'they hold' : 'it holds'} ${n === 1 ? 'one seat' : `${nWord} seats`} in your pillars`
+                        : `${plural ? 'they reach' : 'it reaches'} you through the hidden stems`;
+                      return plural
+                        ? `Two gods live in your ${elScreen.elName}: ${elFaces[0].persona} and ${elFaces[1].persona}. They rule ${list}, and ${seatClause}.`
+                        : `One god lives in your ${elScreen.elName}: ${elFaces[0].persona}. It rules ${list}, and ${seatClause}.`;
+                    })()}</span>
+                    {/* the gods themselves (owner point 3): who lives in the
                         energy and what it means, before any seating */}
                     {elFaces.map((f) => (
                       <span className="el-teasegod" key={f.god}>
@@ -616,7 +630,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                         <span className="el-adj">{f.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</span>
                       </span>
                     ))}
-                    <span className="el-teaseverdict">{elPositions.length ? `${elPositions.length} seat${elPositions.length === 1 ? '' : 's'} in your chart · full readings with Seeker` : 'Felt through the hidden stems · full readings with Seeker'}</span>
                     <span className="el-teasego"><Use id="ico-chev-r" /></span>
                   </button>
                 ) : null}

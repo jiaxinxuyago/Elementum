@@ -34,6 +34,16 @@ export const RELATION_NOUN = { self: 'Core', resource: 'Root', wealth: 'Drive', 
 // anatomy is never the thing the reading tells you to skip.
 export const SHADOW_NOUN = { self: 'Bubble', resource: 'Cage', wealth: 'Grind', output: 'Echo', officer: 'Weight' };
 
+// Seat-consequence teaser clauses (tpl_section_teasers, curation pass v2,
+// owner 2026-08-19) — sentence 1 of the mechanism teaser, keyed by seat noun;
+// the Core self-pair carries its own fixed line in buildElementScreen.
+export const SEAT_TEASE = {
+  Voice: 'the channel your inner life leaves through',
+  Root: 'the source everything in you draws on',
+  Drive: 'the material your will works on',
+  Duty: 'the pressure that shapes you',
+};
+
 // §4 keywords — v3 FINAL (adopted 2026-07-16)
 export const KEYWORD = {
   '比肩': 'Independence', '劫财': 'Rivalry',
@@ -380,14 +390,22 @@ export function buildElementScreen(model, el) {
 
   const fn = pair?.function || null;
   const fnLabel = (K2_FUNCTIONS.find((f) => f.key === fn?.primary) || {}).label || '';
-  // Curation pass (owner 2026-08-19): the page is a teaser index — each
-  // section card carries a claim TITLE (Set A) + a conclusive derived
-  // VERDICT, and opens its own detail sub-screen. All lines assemble from
-  // locked vocabulary (§5c remedies, §5d equations, §5f primaries, §2
-  // deflines) — no new corpus.
-  const stateLine = r.dx?.condition === 'Overfueled' ? 'Running heavy. Channel it.'
-    : r.dx?.condition === 'Underfueled' ? 'Running thin. Refill it.'
-    : 'Balanced. Keep the mix.';
+  const dipLabels = Object.keys(fn?.dips || {})
+    .map((k) => (K2_FUNCTIONS.find((f) => f.key === k) || { label: k }).label);
+  // Curation pass v2 (owner rulings 2026-08-19): each teaser card ends on
+  // 1–2 TEASER SENTENCES (no verdict stamp) — derived assembly: a
+  // seat-consequence clause (SEAT_TEASE ×5, tpl_section_teasers) + the
+  // pair's own state-turn opening quoted verbatim (an exact foretaste of
+  // the detail). The function teaser opens with its body's own first
+  // sentence; the domains teaser is built in the view (it needs the
+  // resolved seats).
+  const firstSentence = (s) => { const i = s.indexOf('.'); return i >= 0 ? s.slice(0, i + 1) : s; };
+  const mechTeaser = mech ? (r.isCore
+    ? `No reaction here: ${r.name} is the substance you are, doubled. ${mech.turn ? firstSentence(mech.turn) : 'In your chart it holds its measure.'}`
+    : `This reaction makes ${r.name} ${SEAT_TEASE[r.relation] || `your ${r.relation}`}. ${mech.turn ? firstSentence(mech.turn) : 'In your chart it runs balanced: nothing to force.'}`) : '';
+  const fnTeaser = fn
+    ? `${firstSentence(fn.body)} It leads with ${fnLabel}${dipLabels.length ? ` and reaches into your ${dipLabels.join(' and ')}` : ''}.`
+    : '';
 
   return {
     el, name: r.name.toUpperCase(), hz: r.hz, cls: `a-${el}`,
@@ -398,14 +416,12 @@ export function buildElementScreen(model, el) {
     elName: r.name, relation: r.relation,
     mech,
     mechTitle: r.isCore ? 'The energy that is you' : `Why ${r.name} is your ${r.relation}`,
-    stateLine,
+    mechTeaser,
     // THE FUNCTION (§5f): the seat's primary function read, energy-level.
     fn,
     fnLabel,
     fnTitle: `It runs your ${fnLabel}`,
-    // teaser verdict = the body's own opening claim ("The Voice is your
-    // expression function.") — conclusive by construction.
-    fnVerdict: fn?.body ? `${fn.body.split(':')[0]}.` : '',
+    fnTeaser,
     functionsDef: K2_FUNCTIONS,
     domTitle: 'What it rules in your life',
     // RULING DOMAINS (EP-C): the gods' home — per present face, a sub-block
