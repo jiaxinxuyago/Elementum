@@ -3,7 +3,7 @@
   "axis": "ELEMENT_PAIR",
   "key": "木_水",
   "canonical_name": "Wood core × Water — the Root",
-  "construct": "Batched to the locked 金_水 template (owner 2026-08-19) — see that cell for the full construct note.",
+  "construct": "Batched to the locked 金_水 template (owner 2026-08-19) — see that cell for the full construct note. §5f AMENDED (owner 2026-08-19): Root primary Body→Mind, restoration → the Body dip.",
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
@@ -16,10 +16,10 @@
       "friction_turn": "Run heavy, the Root turns Cage: flooded ground, roots soaked past drinking, growth postponed for one more season of preparation. Drain a little. Trees also need sun."
     },
     "function": {
-      "primary": "body",
-      "body": "The Root is your intake function: what feeds, shelters, and repairs you. With Water running it, restoration in you arrives as immersion: deep sleep, deep baths, deep books, grief and joy fully felt. You do not recover in fragments. You refill like a water table, invisibly and all at once, and the growth that follows looks sudden to everyone but you.",
+      "primary": "mind",
+      "body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Water running it, your mind absorbs by immersion: full depth or nothing, understanding arriving whole after the soak. You learn from atmospheres as much as pages, and a question left overnight answers itself by morning. Trust the seep. Forcing it only muddies the water.",
       "dips": {
-        "mind": "Understanding seeps into you overnight: sleep on a question and it answers by morning."
+        "body": "Deep sleep is your classroom too: the rest that soaks you is what growth drinks."
       }
     }
   }

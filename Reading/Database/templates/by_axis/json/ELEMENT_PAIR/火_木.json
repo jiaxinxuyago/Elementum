@@ -3,7 +3,7 @@
   "axis": "ELEMENT_PAIR",
   "key": "火_木",
   "canonical_name": "Fire core × Wood — the Root",
-  "construct": "Batched to the locked 金_水 template (owner 2026-08-19) — see that cell for the full construct note.",
+  "construct": "Batched to the locked 金_水 template (owner 2026-08-19) — see that cell for the full construct note. §5f AMENDED (owner 2026-08-19): Root primary Body→Mind, restoration → the Body dip.",
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
@@ -16,10 +16,10 @@
       "friction_turn": "Run heavy, the Root turns Cage: fuel hoarded past burning, preparation stacked so high the fire never gets lit. Pull a branch off the pile and strike."
     },
     "function": {
-      "primary": "body",
-      "body": "The Root is your intake function: what feeds, shelters, and repairs you. With Wood running it, restoration in you is organic: green places, growing things, people and projects with sap in them. You refuel by tending something alive, and rest that produces nothing still stacks your wood. Guard the growing season. Every hour in it comes back as light.",
+      "primary": "mind",
+      "body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Wood running it, your mind absorbs like a canopy: reaching for new material, grafting idea onto idea until strange hybrids fruit. You learn by gathering and by growing, and every book, mentor, and friendship becomes future firelight. Keep planting. Your brilliance burns what your curiosity stacked.",
       "dips": {
-        "mind": "You learn by gathering: every book and friendship is future firelight."
+        "body": "Green time restores the thinker: gardens, walks, and living things refill your fuel."
       }
     }
   }

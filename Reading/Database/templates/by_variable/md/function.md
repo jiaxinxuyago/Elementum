@@ -43,17 +43,17 @@
 
 | Field | Value |
 |---|---|
-| `primary` | body |
-| `body` | The Root is your intake function: what feeds, shelters, and repairs you. With Water running it, restoration in you arrives as immersion: deep sleep, deep baths, deep books, grief and joy fully felt. You do not recover in fragments. You refill like a water table, invisibly and all at once, and the growth that follows looks sudden to everyone but you. |
-| `dips.mind` | Understanding seeps into you overnight: sleep on a question and it answers by morning. |
+| `primary` | mind |
+| `body` | The Root is your learning function: the seat where the world soaks in and becomes yours. With Water running it, your mind absorbs by immersion: full depth or nothing, understanding arriving whole after the soak. You learn from atmospheres as much as pages, and a question left overnight answers itself by morning. Trust the seep. Forcing it only muddies the water. |
+| `dips.body` | Deep sleep is your classroom too: the rest that soaks you is what growth drinks. |
 
 ### Fire core × Wood — the Root · 火_木
 
 | Field | Value |
 |---|---|
-| `primary` | body |
-| `body` | The Root is your intake function: what feeds, shelters, and repairs you. With Wood running it, restoration in you is organic: green places, growing things, people and projects with sap in them. You refuel by tending something alive, and rest that produces nothing still stacks your wood. Guard the growing season. Every hour in it comes back as light. |
-| `dips.mind` | You learn by gathering: every book and friendship is future firelight. |
+| `primary` | mind |
+| `body` | The Root is your learning function: the seat where the world soaks in and becomes yours. With Wood running it, your mind absorbs like a canopy: reaching for new material, grafting idea onto idea until strange hybrids fruit. You learn by gathering and by growing, and every book, mentor, and friendship becomes future firelight. Keep planting. Your brilliance burns what your curiosity stacked. |
+| `dips.body` | Green time restores the thinker: gardens, walks, and living things refill your fuel. |
 
 ### Fire core × Fire — the Core · 火_火
 
@@ -100,9 +100,9 @@
 
 | Field | Value |
 |---|---|
-| `primary` | body |
-| `body` | The Root is your intake function: what feeds, shelters, and repairs you. With Fire running it, restoration in you is warmth taken in: sun, celebration, affection given openly, kitchens with people in them. You recover socially and brightly, and solitude repairs you far less than a good long table does. Schedule the gatherings. For you they are agriculture rather than leisure. |
-| `dips.mind` | Encouragement literally teaches you: you absorb best from people who warm the material first. |
+| `primary` | mind |
+| `body` | The Root is your learning function: the seat where the world soaks in and becomes yours. With Fire running it, your mind absorbs through warmth: stories told at tables, lessons carried by people you love, knowledge that arrives lit. You learn best in company and remember what was taught with feeling. Seek warm teachers. Cold material simply never composts into you. |
+| `dips.body` | Celebration is restoration: sun, feasts, and open affection literally rebuild your ground. |
 
 ### Earth core × Earth — the Core · 土_土
 
@@ -149,9 +149,9 @@
 
 | Field | Value |
 |---|---|
-| `primary` | body |
-| `body` | The Root is your intake function: what feeds, shelters, and repairs you. With Earth running it, restoration in you is literal ground: real sleep, real meals, one steady place, work seasons with fallow built in. You recover the way a mountain forms ore, slowly and completely. Skip the slow part and the next edge comes out brittle. |
-| `dips.mind` | Learning settles into you in layers: what you study slowly, you keep for good. |
+| `primary` | mind |
+| `body` | The Root is your learning function: the seat where the world soaks in and becomes yours. With Earth running it, your mind absorbs like sediment: slowly, in layers, keeping everything that settles. You are slow to learn and nearly impossible to unteach. Give ideas time underground. What forms there comes out ore-grade, load-bearing, and permanently yours. |
+| `dips.body` | Real rest is part of the studying: sleep and routine are where the layers set. |
 
 ### Metal core × Metal — the Core · 金_金
 
@@ -199,9 +199,9 @@
 
 | Field | Value |
 |---|---|
-| `primary` | body |
-| `body` | The Root is your intake function: what feeds, shelters, and repairs you. With Metal running it, restoration in you is distillation: clean inputs, ordered spaces, one precise craft practiced quietly. Clutter drains you the way silt chokes a spring. Keep the sources few and fine, and your depth refills clear enough to see the bottom. |
-| `dips.mind` | Precision teaches you fastest: one exact sentence refills you more than an hour of noise. |
+| `primary` | mind |
+| `body` | The Root is your learning function: the seat where the world soaks in and becomes yours. With Metal running it, your mind absorbs by distillation: exact teachers, clean sources, one precise sentence worth an hour of noise. What passes your filter condenses into permanent depth. Curate hard. Your intelligence is fed by quality, and clutter silts the spring. |
+| `dips.body` | Ordered spaces and clean inputs are how your body refills its depth. |
 
 ### Water core × Water — the Core · 水_水
 

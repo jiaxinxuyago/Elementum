@@ -3,7 +3,7 @@
   "axis": "ELEMENT_PAIR",
   "key": "金_土",
   "canonical_name": "Metal core × Earth — the Root",
-  "construct": "Batched to the locked 金_水 template (owner 2026-08-19) — see that cell for the full construct note.",
+  "construct": "Batched to the locked 金_水 template (owner 2026-08-19) — see that cell for the full construct note. §5f AMENDED (owner 2026-08-19): Root primary Body→Mind, restoration → the Body dip.",
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
@@ -16,10 +16,10 @@
       "friction_turn": "Run heavy, the Root turns Cage: so much shelter the blade never leaves the mine. Comfort and preparation begin to bury the edge they formed. Dig out and cut something real."
     },
     "function": {
-      "primary": "body",
-      "body": "The Root is your intake function: what feeds, shelters, and repairs you. With Earth running it, restoration in you is literal ground: real sleep, real meals, one steady place, work seasons with fallow built in. You recover the way a mountain forms ore, slowly and completely. Skip the slow part and the next edge comes out brittle.",
+      "primary": "mind",
+      "body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Earth running it, your mind absorbs like sediment: slowly, in layers, keeping everything that settles. You are slow to learn and nearly impossible to unteach. Give ideas time underground. What forms there comes out ore-grade, load-bearing, and permanently yours.",
       "dips": {
-        "mind": "Learning settles into you in layers: what you study slowly, you keep for good."
+        "body": "Real rest is part of the studying: sleep and routine are where the layers set."
       }
     }
   }

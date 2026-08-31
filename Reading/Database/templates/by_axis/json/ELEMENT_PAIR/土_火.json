@@ -3,7 +3,7 @@
   "axis": "ELEMENT_PAIR",
   "key": "土_火",
   "canonical_name": "Earth core × Fire — the Root",
-  "construct": "Batched to the locked 金_水 template (owner 2026-08-19) — see that cell for the full construct note.",
+  "construct": "Batched to the locked 金_水 template (owner 2026-08-19) — see that cell for the full construct note. §5f AMENDED (owner 2026-08-19): Root primary Body→Mind, restoration → the Body dip.",
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
@@ -16,10 +16,10 @@
       "friction_turn": "Run heavy, the Root turns Cage: so much warmth the ground never firms, comfort layered until standing feels unnecessary. Walk off the hearth and bear some weather."
     },
     "function": {
-      "primary": "body",
-      "body": "The Root is your intake function: what feeds, shelters, and repairs you. With Fire running it, restoration in you is warmth taken in: sun, celebration, affection given openly, kitchens with people in them. You recover socially and brightly, and solitude repairs you far less than a good long table does. Schedule the gatherings. For you they are agriculture rather than leisure.",
+      "primary": "mind",
+      "body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Fire running it, your mind absorbs through warmth: stories told at tables, lessons carried by people you love, knowledge that arrives lit. You learn best in company and remember what was taught with feeling. Seek warm teachers. Cold material simply never composts into you.",
       "dips": {
-        "mind": "Encouragement literally teaches you: you absorb best from people who warm the material first."
+        "body": "Celebration is restoration: sun, feasts, and open affection literally rebuild your ground."
       }
     }
   }
