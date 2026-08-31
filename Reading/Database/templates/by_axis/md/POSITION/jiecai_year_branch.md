@@ -26,3 +26,4 @@
 | `defline` | Inside your Year Gate sits the shared purse: early life taught you that what is yours is rarely only yours. |
 | `reading` | This position rules Family and Wealth, and it works from the root of your story. The Rival lives inside your Year Gate: you grew up where mine and yours blurred, pooled money, borrowed things, siblings or cousins close enough to claim. It made you generous and alert in the same breath. As an adult you give easily and count quietly, and both instincts are correct. Family will always have a hand near your pocket, mostly with love. Share on purpose, in writing where it matters. Clarity is how this root stays warm instead of expensive. |
 | `teaser` | You grew up where mine and yours blurred, and it made you generous and watchful at once. Keep sharing on purpose: looseness with money costs you relationships first. |
+| `domain_readings` | *(unauthored)* |

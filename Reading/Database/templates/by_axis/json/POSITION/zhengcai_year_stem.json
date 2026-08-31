@@ -21,6 +21,10 @@
     ],
     "defline": "The Steward stands at your Year Gate: prudence is the family trait your story shows first.",
     "reading": "This position rules Wealth and Family, and it rules them from your beginnings. The Steward stood openly at your Year Gate: a household that provided by planning, elders who counted carefully, a childhood where money had rules and the rules mostly held. The world still reads that face on you, dependable and early to save. Money learned young stays learned: your fortune keeps favoring the long way around. Through the family line come your steadiest assets, advice worth taking and sometimes property worth keeping. Honor the thrift you inherited, and spend on purpose now and then. Permission to enjoy it is part of the estate.",
-    "teaser": "You learned early what things cost, and it shows in how carefully you build. Money grows for you the slow way, and it starts close to home."
+    "teaser": "You learned early what things cost, and it shows in how carefully you build. Money grows for you the slow way, and it starts close to home.",
+    "domain_readings": {
+      "Wealth": "Money entered your life with rules attached, and the rules took. You save younger than most, spend with a list, and quietly compound while louder people perform wealth. The curve stays boring and rising. Trust it: your fortune is built like a wall, one considered brick at a time.",
+      "Family": "Family, for you, is a well-run estate more than a stage: obligations met, elders honored, help that arrives as groceries and paid bills rather than speeches. You may become the family treasurer early. Accept the role, set its limits in writing, and it becomes an honor rather than a tax."
+    }
   }
 }

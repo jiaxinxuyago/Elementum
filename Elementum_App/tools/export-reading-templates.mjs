@@ -46,6 +46,7 @@ const cyc = await import('../src/content/cycles.js');
 const k2 = await import('../src/content/k2.js');
 const pos = await import('../src/content/positions.js');
 const pairs = await import('../src/content/pairs.js');
+const tgp = await import('../src/content/tgPatterns.js');
 const jd = await import('../src/components/journey/journeyData.js');
 
 // ── taxonomy keys ──────────────────────────────────────────────────
@@ -276,6 +277,7 @@ for (const g of GODS) for (const s of pos.SLOTS) {
     defline: auth.defline ?? null,
     reading: auth.reading ?? null,
     teaser: auth.teaser ?? null,
+    domain_readings: auth.domain_readings ?? null,
   }, ['REA_02 §5e (position vocabulary) · engine pillar gods'],
   { status_note: 'POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock' });
 }
@@ -311,6 +313,20 @@ for (const dm of PAIR_ELS) {
   }
 }
 
+// ── TG_PATTERN ×9 (the ten-god relation patterns — the 精华; owner
+// directive 2026-08-19: conditionally triggered, first-class reading angle) ──
+for (const tp of tgp.TG_PATTERNS) {
+  file('TG_PATTERN', tp.key, tp.zh, tp.en, {
+    name_zh: tp.zh,
+    name_en: tp.en,
+    trigger_gods: tp.gods,
+    line: tp.line,
+    reading: tp.reading,
+    fused_line: tp.fused_line,
+  }, ['src/content/tgPatterns.js (TG_PATTERNS — classical pattern canon)'],
+  { status_note: 'TG_PATTERN axis (owner 2026-08-19): triggered when both god sides sit among the chart\'s resolved positions; FUSED tier when they share a pillar; priority = canon order; one per seat' });
+}
+
 // ── TEMPLATED ×16 (the sentence patterns) ──
 const T = (name, status, budget, body) => file('TEMPLATED', name, name, null, body, ['REA_03 §5 (patterns)'], { status_note: status, budget });
 T('tpl_cast_line', 'LIVE · R1 RULED (owner-locked 2026-08-03): month-name format', 'one line', { pattern: 'CAST FROM {y} · {MONTH-NAME} {d} · {hour-range} {tz}', example: 'CAST FROM 1995 · APRIL 29 · 17–19 CST', hour_unknown_fallback: 'CAST FROM {y} · {MONTH-NAME} {d} · HOUR UNSET', tz_derivation: 'birth-place IANA zone → Intl short abbr at the birth date (DST-aware); zones whose short form is a raw GMT offset fall back to the long name initials (Asia/Shanghai → CST); omitted only when no zone is stored (buildIdentity, identity.js)' });
@@ -333,10 +349,6 @@ T('tpl_cycle_line', 'VOCABULARY LOCKED (REA_02 §5d, owner 2026-08-14) — the �
 });
 T('tpl_rx_ribbon', 'PLANNED', 'ribbon ≤14w + 10 fragments', { pattern: null, clauses: null });
 T('tpl_pattern_conclusion', 'PLANNED', '≤25w · per pattern type (~6)', { pattern: null, clauses: null });
-T('tpl_set_pieces', 'LIVE (POS-T-C, owner 2026-08-19) — classical god-pair chemistry ×5, engine-detected across resolved positions, rendered in each participating seat (Seeker layer)', '≤40w each ×5', {
-  pattern: 'CHART CHEMISTRY · {汉字}. {line} — fires when both god sides are present among the chart\'s positions; priority = list order; one per seat',
-  pieces: Object.fromEntries(pos.SET_PIECES.map((s) => [s.key, { zh: s.zh, gods: s.gods, line: s.line }])),
-});
 T('tpl_section_teasers', 'LIVE (curation v6, owner 2026-08-19) — ONE conclusive quoted line per section card', 'one line each', {
   pattern: 'mech: "{state turn, first sentence}" · fn: "{function body, first sentence}" · dom: "{lead seat defline}[ And {n-1 word} more seat(s) besides.]" — position rows above the dom line: {term} · {汉字} / "rules {declared domains}"',
   balanced_lines: { core: 'In your chart it holds its measure.', other: 'In your chart it runs balanced: nothing to force.' },

@@ -26,3 +26,4 @@
 | `defline` | Opportunity stands at your Year Gate: fortune’s door was visible from your first address. |
 | `reading` | This position rules Wealth and Family, and it rules them from your beginnings. The Horizon stood openly at your Year Gate: generosity was visible in your early world, a family that spent on people and chances, often led by a father figure with range and appetite. Money entered your story as movement rather than storage. The inheritance is a nose for openings and a light grip on cash, both lifelong. Fortune finds you through motion, strangers, and distance from home. Keep one anchored account the family charm cannot reach. The rest can stay in play. |
 | `teaser` | Generosity was visible in your beginnings: a family that spent on people and chances. Money finds you through motion and strangers, rarely through sitting still. |
+| `domain_readings` | *(unauthored)* |

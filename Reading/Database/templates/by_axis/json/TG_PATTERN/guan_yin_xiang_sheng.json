@@ -1,0 +1,28 @@
+{
+  "$archetype": "guan_yin_xiang_sheng",
+  "axis": "TG_PATTERN",
+  "key": "官印相生",
+  "canonical_name": "Rank shelters the scholar",
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "src/content/tgPatterns.js (TG_PATTERNS — classical pattern canon)"
+  ],
+  "status_note": "TG_PATTERN axis (owner 2026-08-19): triggered when both god sides sit among the chart's resolved positions; FUSED tier when they share a pillar; priority = canon order; one per seat",
+  "candidates": {
+    "name_zh": "官印相生",
+    "name_en": "Rank shelters the scholar",
+    "trigger_gods": [
+      [
+        "正官"
+      ],
+      [
+        "正印",
+        "偏印"
+      ]
+    ],
+    "line": "Your officer star feeds your seal: structure flows into learning, position into protection. Institutions treat you kindly and mentors appear inside them. Steady ascent is the wiring.",
+    "reading": "The officer star feeds your seal, the old civil-service blessing: structure flowing into learning, position into protection. In you authority and wisdom cooperate rather than compete. Institutions treat you kindly, mentors appear inside hierarchies, and your name gathers weight without scandal. The classical reading marks the steadiest kind of ascent, unhurried and unbroken. Careers in administration, medicine, law, and teaching suit the wiring. The one hazard is over-shelter: comfort inside the frame can outlast the frame’s worth. Audit the institution every few years. Loyalty is your gift, aim it well.",
+    "fused_line": "Fused in one pillar, the blessing is concentrated: your rank and your learning rise as one column."
+  }
+}

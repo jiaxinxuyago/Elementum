@@ -26,3 +26,4 @@
 | `defline` | Order lives inside your Year Gate: your root is a rulebook, learned before you could read it. |
 | `reading` | This position rules Family and Growth, and it works from the root of your story. The Magistrate lives inside your Year Gate: discipline was the air of your early home, felt more than announced, and it gave you a straight spine before you knew you had one. Growth for you follows structure, courses finished, ranks earned, standards internalized young. Family expectations shaped you and mostly served you, and the residue is a conscience that files reports. Keep the spine, pension the guilt. Order held from love ages into dignity. Order held from fear just ages you. |
 | `teaser` | Discipline was the air of your early home, felt more than announced. It gave you a straight spine. Institutions will trust you early and promote you steadily. |
+| `domain_readings` | *(unauthored)* |

@@ -31,22 +31,10 @@ export const positionTerm = (persona, slot) =>
   `${persona} ${slot.kind === 'stem' ? 'at' : 'inside'} the ${GATES[slot.gate]}`;
 export const positionZh = (godHz, slot) => `${godHz}在${slot.zh}`;
 
-// The classical set-pieces (POS-T-C, owner 2026-08-19 — REA_04 §9.3 layer 3):
-// named god-pair chemistry, detected across the chart's resolved positions
-// and rendered inside each participating seat (Seeker layer). Priority =
-// array order; a seat carries at most one. Station home tpl_set_pieces.
-export const SET_PIECES = [
-  { key: 'shishen_zhi_sha', zh: '食神制杀', gods: [['食神'], ['七杀']],
-    line: 'Your chart holds a rare pairing: the Artisan’s ease stands guard over the General’s pressure. Stress that grinds other people becomes production in you, and your calmest work tends to happen close to the deadline.' },
-  { key: 'xiao_shen_duo_shi', zh: '枭神夺食', gods: [['偏印'], ['食神']],
-    line: 'The Alchemist and the Artisan share your chart, and they compete: too much theory starves your ease. When output stalls, the cure is one finished thing made with your hands, and fewer perfect plans.' },
-  { key: 'shang_guan_jian_guan', zh: '伤官见官', gods: [['伤官'], ['正官']],
-    line: 'Your chart carries the old collision of brilliance and rank: the Virtuoso chafes exactly where the Magistrate climbs. Careers run smoothest when your talent gets a stage inside the structure, under a title with some give in it.' },
-  { key: 'bi_jie_duo_cai', zh: '比劫夺财', gods: [['比肩', '劫财'], ['正财', '偏财']],
-    line: 'Self stars and wealth stars share your pillars, the classic contested purse. Money does best held plainly in your name: partnerships loosen it, lending blurs it, and generosity deserves its own budget line.' },
-  { key: 'sha_yin_xiang_sheng', zh: '杀印相生', gods: [['七杀'], ['偏印', '正印']],
-    line: 'Pressure and shelter feed each other in your chart: hard chapters keep converting into wisdom and rank. What tests you also promotes you, and the pattern strengthens with age.' },
-];
+// (the SET_PIECES ×5 one-liners were superseded 2026-08-19 by the
+// TG_PATTERN axis — src/content/tgPatterns.js — which carries each
+// pattern's full cell: line + reading + fused_line, owner directive:
+// the relation patterns are the 精华 and a first-class reading angle)
 
 // The locked corpus ×70, keyed `${godId}_${slotId}`.
 export const POSITION_READINGS = {
@@ -67,6 +55,10 @@ export const POSITION_READINGS = {
     domains: ['Career', 'Social'],
     defline: 'The Twin stands at your Month Gate: the working world sees a colleague who carries their own weight, visibly.',
     reading: 'This position rules Career and Social, and it runs the prime of your life. The Twin stands at your Month Gate in full view: the working world meets you as the equal, the colleague who owns whole tasks and quietly declines to be managed. From your twenties into your forties, rank comes to you through competence witnessed, and partnership taxes your speed. You feel both. Among peers and siblings the same law repeats: bonds hold best side by side, never one above the other. So keep money clean with friends, written down and unromantic. Choose the two or three long roads worth sharing the wheel for. The short ones were always yours.',
+    domain_readings: {
+      Career: 'Your working life is a solo instrument played in public: you rise on competence witnessed, own tasks whole, and stall wherever credit blurs. Choose roles with clean scoreboards. Promotion for you follows visibility of workmanship, so work where the work can be seen, and signed.',
+      Social: 'Your circle runs level: peers, never patrons, and friendship as a pact between equals. People trust you fast and lean on you rarely, because you signal so little need. Let two or three actually in. The Twin’s crowd is small on purpose, and it holds when chosen well.',
+    },
   },
   bijian_month_branch: {
     teaser: 'Your prime runs on your own engine: careers built alone hold, careers built on rescue stall. Equity and credit stay cleanest when they are written down early.',
@@ -133,6 +125,10 @@ export const POSITION_READINGS = {
     domains: ['Family', 'Wealth'],
     defline: 'Inside your Hour Gate sits the shared harvest: what you build late in life is built with others.',
     reading: 'This position rules Family and Wealth, and it works in the root of your late years. The Rival lives inside your Hour Gate: the generation after you carries your fire with its own steering, children and heirs who are charismatic, willful, and expensive in ways you will mostly forgive. Late life keeps a shared-purse quality: people close to you will reach for your resources, and your generosity will want to answer. Some of that is grace. Budget it anyway, on purpose, with numbers. Protect the retirement floor first and give from above it. Then the boldness you are leaving behind reads as legacy, and the leaks never get to write the ending.',
+    domain_readings: {
+      Family: 'Your late family life is vivid: heirs with your fire and their own compass, a household that debates because it cares. Do not mistake their independence for distance. The Rival’s children love by contending. Set the table anyway, referee lightly, and the noise turns out to be the warmth.',
+      Wealth: 'Late wealth needs a gatekeeper, and it should be you on your clearest day: claims will come dressed as family, opportunity, and honor. Fix your giving number annually, protect the floor beneath your own feet first. Generosity from a defended base reads as blessing. From an open vault it reads as weather.',
+    },
   },
   shishen_year_stem: {
     teaser: 'Warmth was your first language, learned young and worn openly. Doors open for you through charm and good taste, and they keep opening as long as you keep giving.',
@@ -145,6 +141,10 @@ export const POSITION_READINGS = {
     domains: ['Family', 'Health'],
     defline: 'The Artisan lives inside your Year Gate: the root of your early world was nourishment, given and remembered.',
     reading: 'This position rules Family and Health, and it works from the root of your story. The Artisan lives inside your Year Gate, the hidden face: nourishment was built into your early world, as food, ease, or someone’s quiet generosity, and your body still remembers it. You restore quickly, you digest life well, and comfort works on you as medicine rather than indulgence. Blessing in your line flows downhill through the older generation, often by way of the kitchen. Health stays your quiet inheritance so long as you keep the habits that honor it. Feed people in your turn. Your luck has always traveled with the table, and it still does.',
+    domain_readings: {
+      Family: 'Your family root carries sweetness: somewhere in the early line, nurture was generous, and it still reaches you as an instinct for kinship and comfort. You gather relatives the way hearths gather chairs. Keep the recipes and the rituals. They are the family’s actual inheritance, and you are their keeper.',
+      Health: 'Your constitution is fundamentally friendly: good digestion of food and of life, recovery that arrives with rest and a proper meal. The risks are indulgence-shaped rather than fragility-shaped. Keep pleasure rhythmic, feast and fast in gentle alternation, and this body will carry you further than most.',
+    },
   },
   shishen_month_stem: {
     teaser: 'The working world knows you for the ease of what you make. Your career grows by appetite rather than ambition, and the work you enjoy pays best.',
@@ -247,6 +247,11 @@ export const POSITION_READINGS = {
     domains: ['Love', 'Social', 'Wealth'],
     defline: 'Opportunity sits in your spouse palace: your intimate life keeps a horizon in it.',
     reading: 'This position rules Love, Social, and Wealth, and it works from your marriage palace. The Horizon lives inside your Day Gate: at close range you are drawn to people with reach, partners who know somebody everywhere and see openings you would walk past. The adult chapters of your life gain range through the one beside you: introductions, ventures, money that moves because the household is connected. Your home tends toward open doors and full calendars, and your fortune genuinely likes it that way. The watch-point is scatter. Choose a partner whose breadth comes with a center, and anchor the shared accounts somewhere steady. Then let the doors keep opening. They are your weather.',
+    domain_readings: {
+      Love: 'In love you are drawn to range: partners with reach, plans, and a suitcase half-packed. Romance for you needs a horizon in it, shared ventures, travel, the next thing planned at breakfast. Choose a partner whose breadth has a center, and the marriage stays an expedition rather than a drift.',
+      Social: 'Your social world enters through the household: the partner’s people become your people, dinner guests become collaborators, and the address book grows by marriage. Host on purpose. The connected home is one of your chart’s quiet engines, and it runs on invitations.',
+      Wealth: 'Money moves through your intimate life: opportunities arriving via the partner, ventures shared across the pillow, windfalls with two names on them. It prospers with clean structure, shared goals, separate accounts, written agreements even in love. Romance handles the dreaming. Paperwork keeps the dream funded.',
+    },
   },
   piancai_hour_stem: {
     teaser: 'You will stay opportunity’s friend to the end: late ventures, late windfalls, a wide door. Leave the estate mapped, because your generosity will outrun your paperwork.',
@@ -265,6 +270,10 @@ export const POSITION_READINGS = {
     domains: ['Wealth', 'Family'],
     defline: 'The Steward stands at your Year Gate: prudence is the family trait your story shows first.',
     reading: 'This position rules Wealth and Family, and it rules them from your beginnings. The Steward stood openly at your Year Gate: a household that provided by planning, elders who counted carefully, a childhood where money had rules and the rules mostly held. The world still reads that face on you, dependable and early to save. Money learned young stays learned: your fortune keeps favoring the long way around. Through the family line come your steadiest assets, advice worth taking and sometimes property worth keeping. Honor the thrift you inherited, and spend on purpose now and then. Permission to enjoy it is part of the estate.',
+    domain_readings: {
+      Wealth: 'Money entered your life with rules attached, and the rules took. You save younger than most, spend with a list, and quietly compound while louder people perform wealth. The curve stays boring and rising. Trust it: your fortune is built like a wall, one considered brick at a time.',
+      Family: 'Family, for you, is a well-run estate more than a stage: obligations met, elders honored, help that arrives as groceries and paid bills rather than speeches. You may become the family treasurer early. Accept the role, set its limits in writing, and it becomes an honor rather than a tax.',
+    },
   },
   zhengcai_year_branch: {
     teaser: 'Thrift is in your roots: a home that counted carefully and wasted little. Your fortune compounds the same way, quietly, and earlier than anyone notices.',
@@ -295,6 +304,10 @@ export const POSITION_READINGS = {
     domains: ['Wealth', 'Family'],
     defline: 'The Steward stands at your Hour Gate: what you show the future is order, provided for.',
     reading: 'This position rules Wealth and Family, and it governs how your story ends. The Steward stands at your Hour Gate, plainly visible in the last chapters: whatever the middle years scatter, your late life organizes, funds, and keeps. Provision is the shape your love takes as you age, and the people after you will feel it as safety. Children and juniors learn money from watching you, which is a better inheritance than the money. Expect your estate to land where you point it, because you will have pointed it carefully. Two counsels: retire the guilt about comfort, and give some of it away while your hands are still warm.',
+    domain_readings: {
+      Wealth: 'Your money story ends better than it middles: late-life finances organize, debts clear, and the estate takes shape exactly when others’ unravel. Compounding is loyal to you because you were loyal to it first. Keep the discipline light in the final decades. The wall is built. Live against it.',
+      Family: 'To the people after you, you are provision made visible: the one whose planning becomes their safety. Children and heirs learn money by watching you, so narrate a little, show the ledger, explain the choices. The lesson lands deeper than the inheritance, and it cannot be spent.',
+    },
   },
   zhengcai_hour_branch: {
     teaser: 'Security deepens with age: the root of your late years is provision done right. Children learn thrift from you, and your estate lands where you intend it.',
@@ -409,6 +422,11 @@ export const POSITION_READINGS = {
     domains: ['Mind', 'Growth', 'Career'],
     defline: 'The Alchemist holds your chart’s strongest seat, the month branch, and does its thinking from the middle of your working life.',
     reading: 'This position rules Mind, Growth, and Career, and it rules them from the deepest seat your chart has. The Alchemist lives inside your Month Gate, hidden in the engine of your prime: your working life runs on private study, sideways insight, and an appetite for what most people overlook. Colleagues see the results and rarely the method. Through your prime years the pattern holds: the specialist path outpays the general one, and your best openings arrive through knowledge nobody asked you to gather. Mentors matter, though the unconventional ones serve you best. Guard time alone the way others guard salary. For you it is the same thing, and midlife will prove it.',
+    domain_readings: {
+      Mind: 'Your mind is a private laboratory: it absorbs sideways, incubates in silence, and produces conclusions that look sudden to everyone who missed the years underneath. Trust the incubation. Your thinking cannot be rushed, only fed, and it repays every strange book and quiet hour with interest.',
+      Growth: 'You grow in leaps disguised as stillness: long plateaus of gathering, then a step-change nobody saw building. Do not measure yourself against steady climbers. Your curve is a staircase, and the landings are where the real work happens. Keep faith on the flat stretches.',
+      Career: 'Professionally you are the specialist, the one called when the usual answers fail. The niche will pay what the mainstream never will, and your reputation compounds through solved unsolvables. Name your specialty publicly and let the strange work find you. It is already looking.',
+    },
   },
   pianyin_day_branch: {
     teaser: 'You need a partner who respects your inner weather: closeness with breathing space built in. Marriage works as two studies with a shared door.',

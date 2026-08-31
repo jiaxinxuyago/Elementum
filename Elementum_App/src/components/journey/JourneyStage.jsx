@@ -683,14 +683,23 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                                 <div className="el-adj">{p.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
                                 <p className="elpos-defline">{p.defline}</p>
                                 {/* gating ruling 2026-08-19: seat NAMES +
-                                    deflines free; the full position reading
-                                    and the chart-chemistry line (POS-T-C
-                                    set-pieces) are the Seeker layer */}
+                                    deflines free; the Seeker layer = the
+                                    summary reading → per-domain paragraphs
+                                    (owner: each domain its own reading) →
+                                    the TG_PATTERN full reading (+ fused
+                                    line when both sides share a pillar) */}
                                 {tier !== 'free' ? (
                                   <>
                                     <p className="elpos-reading">{p.reading}</p>
-                                    {p.setPiece && (
-                                      <p className="elpos-setpiece"><b className="el-funclab">CHART CHEMISTRY · {p.setPieceZh}.</b> {p.setPiece}</p>
+                                    {p.domainReadings && Object.entries(p.domainReadings).map(([d, txt]) => (
+                                      <p className="elpos-domread" key={d}><b className="el-funclab">{d}.</b> {txt}</p>
+                                    ))}
+                                    {p.pattern && (
+                                      <div className="elpos-setpiece">
+                                        <b className="el-funclab">CHART CHEMISTRY · {p.pattern.zh} · {p.pattern.en}.</b>
+                                        <p className="elpos-patread">{p.pattern.reading}</p>
+                                        {p.pattern.fusedLine && <p className="elpos-patfused">{p.pattern.fusedLine}</p>}
+                                      </div>
                                     )}
                                   </>
                                 ) : (

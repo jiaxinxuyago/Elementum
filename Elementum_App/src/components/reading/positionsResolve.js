@@ -18,7 +18,8 @@
 import { getTenGod, HIDDEN_STEMS, STEM_ELEM } from '../../engine/index.js';
 import { ELEMENT_TO_PIGMENT } from '../../styles/elementPigments.js';
 import { TG_PERSONA } from '../../content/index.js';
-import { SLOTS, GATES, positionTerm, positionZh, POSITION_READINGS, SET_PIECES } from '../../content/positions.js';
+import { SLOTS, GATES, positionTerm, positionZh, POSITION_READINGS } from '../../content/positions.js';
+import { TG_PATTERNS } from '../../content/tgPatterns.js';
 
 const GOD_ID = {
   '比肩': 'bijian', '劫财': 'jiecai', '食神': 'shishen', '伤官': 'shangguan',
@@ -56,20 +57,26 @@ export function resolvePositions(chart, hourUnknown = false) {
       term: positionTerm(persona, slot),
       termZh: positionZh(god, slot),
       domains: r.domains, defline: r.defline, reading: r.reading, teaser: r.teaser || null,
+      domainReadings: r.domain_readings || null,
     });
   }
-  // Classical set-piece detection (POS-T-C, REA_04 §9.3 layer 3): when both
-  // sides of a named god-pair sit in the chart's positions, each involved
-  // seat carries the chemistry line (first match wins, per classical
-  // priority = SET_PIECES order).
+  // Ten-god relation patterns (TG_PATTERN axis, owner 2026-08-19 — the
+  // 精华): when both sides of a named pattern sit among the chart's
+  // positions, each involved seat carries the pattern (first match wins,
+  // classical priority = TG_PATTERNS order). FUSED tier: both sides
+  // sharing one pillar (the strongest classical trigger — 偏印+食神 in
+  // one pillar MUST reveal 印枭夺食) appends the fused line.
   const present = new Set(out.map((x) => x.god));
-  for (const sp of SET_PIECES) {
-    const [a, b] = sp.gods;
+  for (const tp of TG_PATTERNS) {
+    const [a, b] = tp.gods;
     if (a.some((g) => present.has(g)) && b.some((g) => present.has(g))) {
+      const fused = ['year', 'month', 'hour'].some((gk) => {
+        const atGate = out.filter((x) => x.gateKey === gk);
+        return atGate.some((x) => a.includes(x.god)) && atGate.some((x) => b.includes(x.god));
+      });
       for (const x of out) {
-        if (!x.setPiece && (a.includes(x.god) || b.includes(x.god))) {
-          x.setPiece = sp.line;
-          x.setPieceZh = sp.zh;
+        if (!x.pattern && (a.includes(x.god) || b.includes(x.god))) {
+          x.pattern = { zh: tp.zh, en: tp.en, line: tp.line, reading: tp.reading, fused, fusedLine: fused ? tp.fused_line : null };
         }
       }
     }

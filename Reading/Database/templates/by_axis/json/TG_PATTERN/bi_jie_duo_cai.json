@@ -1,0 +1,29 @@
+{
+  "$archetype": "bi_jie_duo_cai",
+  "axis": "TG_PATTERN",
+  "key": "比劫夺财",
+  "canonical_name": "The peers contest the purse",
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "src/content/tgPatterns.js (TG_PATTERNS — classical pattern canon)"
+  ],
+  "status_note": "TG_PATTERN axis (owner 2026-08-19): triggered when both god sides sit among the chart's resolved positions; FUSED tier when they share a pillar; priority = canon order; one per seat",
+  "candidates": {
+    "name_zh": "比劫夺财",
+    "name_en": "The peers contest the purse",
+    "trigger_gods": [
+      [
+        "比肩",
+        "劫财"
+      ],
+      [
+        "正财",
+        "偏财"
+      ]
+    ],
+    "line": "Self stars and wealth stars share your pillars, the classic contested purse. Money does best held plainly in your name: partnerships loosen it, lending blurs it, and generosity deserves its own budget line.",
+    "reading": "Self stars and wealth stars share your chart, the classic contested purse. The reading is practical: money in your life attracts company, friends with ventures, siblings with needs, partners with opinions, and it thins wherever ownership blurs. The strength inside the pattern is real: the same peers who reach for your wallet will carry you through droughts no bank would. So the counsel cuts both ways. Formalize every shared asset, price your generosity annually, and keep one account nobody knows the shape of. Then enjoy your people. They are your riskiest holding and your best one.",
+    "fused_line": "Sharing a pillar, purse and peers sit in one seat for you: write things down early and often."
+  }
+}

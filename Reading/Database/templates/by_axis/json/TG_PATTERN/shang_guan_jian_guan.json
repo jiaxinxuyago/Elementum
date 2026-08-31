@@ -1,0 +1,27 @@
+{
+  "$archetype": "shang_guan_jian_guan",
+  "axis": "TG_PATTERN",
+  "key": "伤官见官",
+  "canonical_name": "The Virtuoso confronts the Magistrate",
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "src/content/tgPatterns.js (TG_PATTERNS — classical pattern canon)"
+  ],
+  "status_note": "TG_PATTERN axis (owner 2026-08-19): triggered when both god sides sit among the chart's resolved positions; FUSED tier when they share a pillar; priority = canon order; one per seat",
+  "candidates": {
+    "name_zh": "伤官见官",
+    "name_en": "The Virtuoso confronts the Magistrate",
+    "trigger_gods": [
+      [
+        "伤官"
+      ],
+      [
+        "正官"
+      ]
+    ],
+    "line": "Your chart carries the old collision of brilliance and rank: the Virtuoso chafes exactly where the Magistrate climbs. Careers run smoothest when your talent gets a stage inside the structure, under a title with some give in it.",
+    "reading": "This is the classic collision: the Virtuoso’s brilliance meeting the Magistrate’s rank, talent that cannot help correcting the very authority it serves. In you it reads as a career of friction with bosses, rules, and titles, brightest exactly where you are least supervised. The old reading warns of clashes with officials. The modern one says: choose structures that license your candor, consulting, creating, running your own show. Under the wrong boss you are a lawsuit waiting politely. Under the right format you are the reform the structure needed. Pick formats, never fights.",
+    "fused_line": "They sit in one pillar in you, so the friction is native: build your own structure early."
+  }
+}

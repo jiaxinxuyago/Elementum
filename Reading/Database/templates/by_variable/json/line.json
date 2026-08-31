@@ -1,0 +1,62 @@
+{
+  "$variable": "line",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "TG_PATTERN": [
+      {
+        "id": "shishen_zhi_sha",
+        "key": "食神制杀",
+        "canonical_name": "The Artisan tames the General",
+        "value": "Your chart holds a rare pairing: the Artisan’s ease stands guard over the General’s pressure. Stress that grinds other people becomes production in you, and your calmest work tends to happen close to the deadline."
+      },
+      {
+        "id": "shang_guan_pei_yin",
+        "key": "伤官配印",
+        "canonical_name": "The Virtuoso harnessed by the Sage",
+        "value": "Your brilliance and your learning share the chart, and they harness each other: talent with a syllabus. Study before you dazzle, and the shine turns durable."
+      },
+      {
+        "id": "xiao_shen_duo_shi",
+        "key": "枭神夺食",
+        "canonical_name": "The Alchemist starves the Artisan",
+        "value": "The Alchemist and the Artisan share your chart, and they compete: too much theory starves your ease. When output stalls, the cure is one finished thing made with your hands, and fewer perfect plans."
+      },
+      {
+        "id": "shang_guan_jian_guan",
+        "key": "伤官见官",
+        "canonical_name": "The Virtuoso confronts the Magistrate",
+        "value": "Your chart carries the old collision of brilliance and rank: the Virtuoso chafes exactly where the Magistrate climbs. Careers run smoothest when your talent gets a stage inside the structure, under a title with some give in it."
+      },
+      {
+        "id": "sha_yin_xiang_sheng",
+        "key": "杀印相生",
+        "canonical_name": "Pressure feeds the Sage",
+        "value": "Pressure and shelter feed each other in your chart: hard chapters keep converting into wisdom and rank. What tests you also promotes you, and the pattern strengthens with age."
+      },
+      {
+        "id": "bi_jie_duo_cai",
+        "key": "比劫夺财",
+        "canonical_name": "The peers contest the purse",
+        "value": "Self stars and wealth stars share your pillars, the classic contested purse. Money does best held plainly in your name: partnerships loosen it, lending blurs it, and generosity deserves its own budget line."
+      },
+      {
+        "id": "shi_shang_sheng_cai",
+        "key": "食伤生财",
+        "canonical_name": "The maker’s economy",
+        "value": "Your output stars feed your wealth stars directly: what you make converts to money with rare ease. Build one channel where creating flows straight to earning, and keep it yours."
+      },
+      {
+        "id": "cai_guan_xiang_sheng",
+        "key": "财官相生",
+        "canonical_name": "Wealth underwrites rank",
+        "value": "Your wealth stars feed your officer star: diligence converts into title, resources into standing. You rise by being worth promoting. Negotiate rank as deliberately as you earn."
+      },
+      {
+        "id": "guan_yin_xiang_sheng",
+        "key": "官印相生",
+        "canonical_name": "Rank shelters the scholar",
+        "value": "Your officer star feeds your seal: structure flows into learning, position into protection. Institutions treat you kindly and mentors appear inside them. Steady ascent is the wiring."
+      }
+    ]
+  }
+}

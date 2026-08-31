@@ -1,0 +1,62 @@
+{
+  "$variable": "name_en",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "TG_PATTERN": [
+      {
+        "id": "shishen_zhi_sha",
+        "key": "食神制杀",
+        "canonical_name": "The Artisan tames the General",
+        "value": "The Artisan tames the General"
+      },
+      {
+        "id": "shang_guan_pei_yin",
+        "key": "伤官配印",
+        "canonical_name": "The Virtuoso harnessed by the Sage",
+        "value": "The Virtuoso harnessed by the Sage"
+      },
+      {
+        "id": "xiao_shen_duo_shi",
+        "key": "枭神夺食",
+        "canonical_name": "The Alchemist starves the Artisan",
+        "value": "The Alchemist starves the Artisan"
+      },
+      {
+        "id": "shang_guan_jian_guan",
+        "key": "伤官见官",
+        "canonical_name": "The Virtuoso confronts the Magistrate",
+        "value": "The Virtuoso confronts the Magistrate"
+      },
+      {
+        "id": "sha_yin_xiang_sheng",
+        "key": "杀印相生",
+        "canonical_name": "Pressure feeds the Sage",
+        "value": "Pressure feeds the Sage"
+      },
+      {
+        "id": "bi_jie_duo_cai",
+        "key": "比劫夺财",
+        "canonical_name": "The peers contest the purse",
+        "value": "The peers contest the purse"
+      },
+      {
+        "id": "shi_shang_sheng_cai",
+        "key": "食伤生财",
+        "canonical_name": "The maker’s economy",
+        "value": "The maker’s economy"
+      },
+      {
+        "id": "cai_guan_xiang_sheng",
+        "key": "财官相生",
+        "canonical_name": "Wealth underwrites rank",
+        "value": "Wealth underwrites rank"
+      },
+      {
+        "id": "guan_yin_xiang_sheng",
+        "key": "官印相生",
+        "canonical_name": "Rank shelters the scholar",
+        "value": "Rank shelters the scholar"
+      }
+    ]
+  }
+}

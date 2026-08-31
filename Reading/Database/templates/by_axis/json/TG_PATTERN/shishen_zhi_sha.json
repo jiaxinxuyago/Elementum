@@ -1,0 +1,27 @@
+{
+  "$archetype": "shishen_zhi_sha",
+  "axis": "TG_PATTERN",
+  "key": "食神制杀",
+  "canonical_name": "The Artisan tames the General",
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "src/content/tgPatterns.js (TG_PATTERNS — classical pattern canon)"
+  ],
+  "status_note": "TG_PATTERN axis (owner 2026-08-19): triggered when both god sides sit among the chart's resolved positions; FUSED tier when they share a pillar; priority = canon order; one per seat",
+  "candidates": {
+    "name_zh": "食神制杀",
+    "name_en": "The Artisan tames the General",
+    "trigger_gods": [
+      [
+        "食神"
+      ],
+      [
+        "七杀"
+      ]
+    ],
+    "line": "Your chart holds a rare pairing: the Artisan’s ease stands guard over the General’s pressure. Stress that grinds other people becomes production in you, and your calmest work tends to happen close to the deadline.",
+    "reading": "This is one of the luckiest arrangements a chart can carry: the Artisan’s ease standing between you and the General’s pressure. Where others meet stress raw, yours arrives pre-processed, turned into output, wit, and steady hands. People read you as unshakeable and wonder how. The pattern runs deepest in work: crisis assignments become your showcase, and authority tends to find you calm exactly when it is testing everyone. Keep the Artisan fed, rest, craft, pleasure, because your composure is not free. It is produced. Protect the producer and the General stays yours to command.",
+    "fused_line": "The two share one pillar in you, so this alchemy runs close to the bone: pressure converts almost instantly."
+  }
+}

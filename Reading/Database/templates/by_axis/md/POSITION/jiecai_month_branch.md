@@ -26,3 +26,4 @@
 | `defline` | Inside your Month Gate runs the gambler’s current: your prime years are built for bold, shared ventures. |
 | `reading` | This position rules Career, Wealth, and Social, and it holds the deep seat of your prime. The Rival lives inside your Month Gate: under your working life runs a gambler’s pulse, bold moves feeling safer than waiting ever does. Careers with stakes suit you, sales, ventures, anything scored in public. Money through your middle decades comes in surges and leaves through company, so the vault needs one patient keeper who is not you. Friends double as colleagues and sometimes as costs. Bet your courage, insure your floor, and your prime pays the brave version of you handsomely. |
 | `teaser` | Under your working life runs a gambler’s pulse: bold moves feel safer to you than waiting. Midlife pays your courage well once partners stop holding your purse. |
+| `domain_readings` | *(unauthored)* |

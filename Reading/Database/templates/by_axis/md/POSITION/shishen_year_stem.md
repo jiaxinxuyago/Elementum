@@ -26,3 +26,4 @@
 | `defline` | The Artisan stands at your Year Gate: ease and charm are the first things your story shows. |
 | `reading` | This position rules Social and Health, and it rules them from your beginnings. The Artisan stood openly at your Year Gate: warmth was your first language, learned young and worn where everyone could see it. People have fed you, hosted you, and forgiven you easily all your life, and your body has mostly returned the favor. Charm opens your doors, taste keeps them open. The constitution is genuinely good, and it stays good on rhythm rather than discipline. Keep the meals, the sleep, and the company regular. Your luck has manners, and it likes being fed. |
 | `teaser` | Warmth was your first language, learned young and worn openly. Doors open for you through charm and good taste, and they keep opening as long as you keep giving. |
+| `domain_readings` | *(unauthored)* |

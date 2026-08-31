@@ -423,6 +423,62 @@
         "canonical_name": "The Sage inside the Hour Gate",
         "value": "This position rules Family, Health, and Mind, and it works in the root of your late years. The Sage lives inside your Hour Gate: quiet backing is the ground of your last chapters, pensions of goodwill, children who shelter you, sleep that comes easily. Kindness banked early pays your old age, and you have been depositing all your life. The mind stays clear the way tended gardens stay green, with routine, reading, and company that is gentle by default. Accept the care when it comes. You taught everyone around you how, and they learned it watching you."
       }
+    ],
+    "TG_PATTERN": [
+      {
+        "id": "shishen_zhi_sha",
+        "key": "食神制杀",
+        "canonical_name": "The Artisan tames the General",
+        "value": "This is one of the luckiest arrangements a chart can carry: the Artisan’s ease standing between you and the General’s pressure. Where others meet stress raw, yours arrives pre-processed, turned into output, wit, and steady hands. People read you as unshakeable and wonder how. The pattern runs deepest in work: crisis assignments become your showcase, and authority tends to find you calm exactly when it is testing everyone. Keep the Artisan fed, rest, craft, pleasure, because your composure is not free. It is produced. Protect the producer and the General stays yours to command."
+      },
+      {
+        "id": "shang_guan_pei_yin",
+        "key": "伤官配印",
+        "canonical_name": "The Virtuoso harnessed by the Sage",
+        "value": "This is the scholar-performer’s pattern: the Virtuoso’s brilliance held by the Sage’s learning, talent given a syllabus. In you the rebel streak and the studious streak are the same engine viewed twice, and they mature each other. The reading is generous: your gift sharpens with every credential, and your learning stays alive because the performer keeps testing it in public. Careers in teaching, writing, and any stage with substance suit you unusually well. Honor both masters, study before you dazzle, and the pattern turns raw shine into a durable name."
+      },
+      {
+        "id": "xiao_shen_duo_shi",
+        "key": "枭神夺食",
+        "canonical_name": "The Alchemist starves the Artisan",
+        "value": "The old books call this the owl seizing the food: the Alchemist’s overthinking swooping on the Artisan’s ease. In you it plays as a talented mind that second-guesses its own output, projects polished in private until the moment passes, appetite dulled by analysis. The tell is a drawer of nearly finished things. The pattern softens with structure: deadlines you did not set, collaborators who ship, one craft practiced with the hands. Watch health during overthinking seasons, digestion and sleep first. Feed the maker in you before the theorist, and both stay brilliant."
+      },
+      {
+        "id": "shang_guan_jian_guan",
+        "key": "伤官见官",
+        "canonical_name": "The Virtuoso confronts the Magistrate",
+        "value": "This is the classic collision: the Virtuoso’s brilliance meeting the Magistrate’s rank, talent that cannot help correcting the very authority it serves. In you it reads as a career of friction with bosses, rules, and titles, brightest exactly where you are least supervised. The old reading warns of clashes with officials. The modern one says: choose structures that license your candor, consulting, creating, running your own show. Under the wrong boss you are a lawsuit waiting politely. Under the right format you are the reform the structure needed. Pick formats, never fights."
+      },
+      {
+        "id": "sha_yin_xiang_sheng",
+        "key": "杀印相生",
+        "canonical_name": "Pressure feeds the Sage",
+        "value": "This is the pattern of the tempered scholar: the General’s pressure flowing into the seal’s wisdom, hardship that keeps converting into rank and understanding. In you difficulty has never been only difficulty. Each hard chapter left you promoted, certified, or wiser, usually all three. The classical reading marks this for authority earned the honest way, through weight actually carried. Expect responsibility to keep finding you, and expect to keep growing under it. The one discipline: rest between campaigns. The converter needs cooling, and your wisdom deserves years enough to spend itself."
+      },
+      {
+        "id": "bi_jie_duo_cai",
+        "key": "比劫夺财",
+        "canonical_name": "The peers contest the purse",
+        "value": "Self stars and wealth stars share your chart, the classic contested purse. The reading is practical: money in your life attracts company, friends with ventures, siblings with needs, partners with opinions, and it thins wherever ownership blurs. The strength inside the pattern is real: the same peers who reach for your wallet will carry you through droughts no bank would. So the counsel cuts both ways. Formalize every shared asset, price your generosity annually, and keep one account nobody knows the shape of. Then enjoy your people. They are your riskiest holding and your best one."
+      },
+      {
+        "id": "shi_shang_sheng_cai",
+        "key": "食伤生财",
+        "canonical_name": "The maker’s economy",
+        "value": "This is the maker’s economy, the luckiest commercial wiring a chart can have: your output stars feed your wealth stars directly. What you create, express, or perform converts into money with unusually little friction, and the conversion improves with age. The reading favors livelihoods where the product is visibly yours, craft, content, cooking, counsel, code. Salary alone will always feel slightly wrong, like renting your own hands. Build at least one channel where making flows straight to earning. Then protect the upstream: your income is only ever as healthy as your appetite to create."
+      },
+      {
+        "id": "cai_guan_xiang_sheng",
+        "key": "财官相生",
+        "canonical_name": "Wealth underwrites rank",
+        "value": "Wealth stars feed your officer star, the executive’s pattern: resources flowing into standing, diligence converting into title. In you ambition is practical rather than loud. You rise by being worth promoting, budgets balanced, results banked, and the ladder responds. The classical reading promises position built on provision: property and career reinforce each other across your middle decades. The modern counsel: negotiate rank as deliberately as you earn, because this pattern under-asks by nature. Let the record speak, then make sure someone senior is in the audience when it does."
+      },
+      {
+        "id": "guan_yin_xiang_sheng",
+        "key": "官印相生",
+        "canonical_name": "Rank shelters the scholar",
+        "value": "The officer star feeds your seal, the old civil-service blessing: structure flowing into learning, position into protection. In you authority and wisdom cooperate rather than compete. Institutions treat you kindly, mentors appear inside hierarchies, and your name gathers weight without scandal. The classical reading marks the steadiest kind of ascent, unhurried and unbroken. Careers in administration, medicine, law, and teaching suit the wiring. The one hazard is over-shelter: comfort inside the frame can outlast the frame’s worth. Audit the institution every few years. Loyalty is your gift, aim it well."
+      }
     ]
   }
 }

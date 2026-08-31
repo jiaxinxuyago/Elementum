@@ -26,3 +26,4 @@
 | `defline` | Order holds your chart’s strongest seat: your prime is an office held with honor. |
 | `reading` | This position rules Career, Growth, and Social, and it holds the deep seat of your prime. The Magistrate lives inside your Month Gate: the frame of your working life is duty done properly, and your growth compounds inside institutions the way interest compounds inside banks. Midlife hands you titles, and the titles stay. People organize around your steadiness, which is influence dressed as reliability. The deep cost is elasticity: the frame can hold you as much as it holds you up. Renegotiate the role every few years on purpose. Structure serves best when it is reviewed. |
 | `teaser` | Your prime is built for responsibility: the frame of your working life is duty done properly. Titles find you midlife, and they tend to stick. |
+| `domain_readings` | *(unauthored)* |

@@ -22,6 +22,11 @@
     ],
     "defline": "The Alchemist holds your chart’s strongest seat, the month branch, and does its thinking from the middle of your working life.",
     "reading": "This position rules Mind, Growth, and Career, and it rules them from the deepest seat your chart has. The Alchemist lives inside your Month Gate, hidden in the engine of your prime: your working life runs on private study, sideways insight, and an appetite for what most people overlook. Colleagues see the results and rarely the method. Through your prime years the pattern holds: the specialist path outpays the general one, and your best openings arrive through knowledge nobody asked you to gather. Mentors matter, though the unconventional ones serve you best. Guard time alone the way others guard salary. For you it is the same thing, and midlife will prove it.",
-    "teaser": "Your mind works in private, on things most people find strange, and that is exactly where your career luck lives. The niche will pay what the mainstream never will."
+    "teaser": "Your mind works in private, on things most people find strange, and that is exactly where your career luck lives. The niche will pay what the mainstream never will.",
+    "domain_readings": {
+      "Mind": "Your mind is a private laboratory: it absorbs sideways, incubates in silence, and produces conclusions that look sudden to everyone who missed the years underneath. Trust the incubation. Your thinking cannot be rushed, only fed, and it repays every strange book and quiet hour with interest.",
+      "Growth": "You grow in leaps disguised as stillness: long plateaus of gathering, then a step-change nobody saw building. Do not measure yourself against steady climbers. Your curve is a staircase, and the landings are where the real work happens. Keep faith on the flat stretches.",
+      "Career": "Professionally you are the specialist, the one called when the usual answers fail. The niche will pay what the mainstream never will, and your reputation compounds through solved unsolvables. Name your specialty publicly and let the strange work find you. It is already looking."
+    }
   }
 }

@@ -1,0 +1,62 @@
+{
+  "$variable": "fused_line",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "TG_PATTERN": [
+      {
+        "id": "shishen_zhi_sha",
+        "key": "食神制杀",
+        "canonical_name": "The Artisan tames the General",
+        "value": "The two share one pillar in you, so this alchemy runs close to the bone: pressure converts almost instantly."
+      },
+      {
+        "id": "shang_guan_pei_yin",
+        "key": "伤官配印",
+        "canonical_name": "The Virtuoso harnessed by the Sage",
+        "value": "Sharing one pillar, the pairing is seamless in you: your talent and your training speak with one voice."
+      },
+      {
+        "id": "xiao_shen_duo_shi",
+        "key": "枭神夺食",
+        "canonical_name": "The Alchemist starves the Artisan",
+        "value": "In you they share a single pillar, so the tug is constant: guard your finishing rituals fiercely."
+      },
+      {
+        "id": "shang_guan_jian_guan",
+        "key": "伤官见官",
+        "canonical_name": "The Virtuoso confronts the Magistrate",
+        "value": "They sit in one pillar in you, so the friction is native: build your own structure early."
+      },
+      {
+        "id": "sha_yin_xiang_sheng",
+        "key": "杀印相生",
+        "canonical_name": "Pressure feeds the Sage",
+        "value": "Fused in one pillar, the conversion is immediate for you: pressure barely lands before it becomes lesson."
+      },
+      {
+        "id": "bi_jie_duo_cai",
+        "key": "比劫夺财",
+        "canonical_name": "The peers contest the purse",
+        "value": "Sharing a pillar, purse and peers sit in one seat for you: write things down early and often."
+      },
+      {
+        "id": "shi_shang_sheng_cai",
+        "key": "食伤生财",
+        "canonical_name": "The maker’s economy",
+        "value": "Fused in one pillar, the pipeline is short in you: the day you make is the day you earn."
+      },
+      {
+        "id": "cai_guan_xiang_sheng",
+        "key": "财官相生",
+        "canonical_name": "Wealth underwrites rank",
+        "value": "In one pillar together, earning and standing braid tightly for you: every gain quietly argues for your next title."
+      },
+      {
+        "id": "guan_yin_xiang_sheng",
+        "key": "官印相生",
+        "canonical_name": "Rank shelters the scholar",
+        "value": "Fused in one pillar, the blessing is concentrated: your rank and your learning rise as one column."
+      }
+    ]
+  }
+}

@@ -268,6 +268,24 @@ The owner's ruling: on the energy page, "How it runs your functions" speaks the 
 
 Shadow twins (§5b-ii) carry over: a seat in excess speaks its shadow in the friction turn (Voice→Echo etc.).
 
+## 5g · PROPOSED — the ten-god relation patterns (TG_PATTERN axis; owner directive 2026-08-19: the 精华, a first-class conditional reading angle; canon awaiting owner lock)
+
+The classical god-pair patterns are NAMED EVENTS (the Nebula principle extended): each has a 汉字 name + a persona-led English name, a trigger condition over the chart's resolved positions, and its own cell (line ≤40w · reading 70–100w · fused_line ≤25w). **Trigger law: both sides present among the positions → the pattern fires and reveals in EVERY participating seat's reading panel (one pattern per seat, priority = canon order). FUSED tier: both sides sharing one pillar (e.g. 偏印+食神 同柱) is the strongest classical trigger and appends the fused line.**
+
+| # | 汉字 | English (persona-led) | Trigger (sides) |
+|---|---|---|---|
+| 1 | 食神制杀 | The Artisan tames the General | 食神 × 七杀 |
+| 2 | 伤官配印 | The Virtuoso harnessed by the Sage | 伤官 × 正印 |
+| 3 | 枭神夺食 | The Alchemist starves the Artisan | 偏印 × 食神 |
+| 4 | 伤官见官 | The Virtuoso confronts the Magistrate | 伤官 × 正官 |
+| 5 | 杀印相生 | Pressure feeds the Sage | 七杀 × 印 (偏/正) |
+| 6 | 比劫夺财 | The peers contest the purse | 比劫 × 财 (正/偏) |
+| 7 | 食伤生财 | The maker's economy | 食伤 × 财 |
+| 8 | 财官相生 | Wealth underwrites rank | 财 × 正官 |
+| 9 | 官印相生 | Rank shelters the scholar | 正官 × 印 |
+
+Priority order = the table (resolutions before conflicts before productive chains; 伤官配印 outranks 伤官见官 because the seal classically resolves the collision). The canon is expandable by owner ruling (e.g. 财坏印, 财滋杀).
+
 ## 5c · LOCKED — Day-Master strength terms + remedy verbs (re-locked 2026-07-16)
 
 | Concept | 汉字 | **Term** | Definition line (mandatory on first surfacing) |

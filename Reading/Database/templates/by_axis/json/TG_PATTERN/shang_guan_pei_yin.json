@@ -1,0 +1,27 @@
+{
+  "$archetype": "shang_guan_pei_yin",
+  "axis": "TG_PATTERN",
+  "key": "伤官配印",
+  "canonical_name": "The Virtuoso harnessed by the Sage",
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "src/content/tgPatterns.js (TG_PATTERNS — classical pattern canon)"
+  ],
+  "status_note": "TG_PATTERN axis (owner 2026-08-19): triggered when both god sides sit among the chart's resolved positions; FUSED tier when they share a pillar; priority = canon order; one per seat",
+  "candidates": {
+    "name_zh": "伤官配印",
+    "name_en": "The Virtuoso harnessed by the Sage",
+    "trigger_gods": [
+      [
+        "伤官"
+      ],
+      [
+        "正印"
+      ]
+    ],
+    "line": "Your brilliance and your learning share the chart, and they harness each other: talent with a syllabus. Study before you dazzle, and the shine turns durable.",
+    "reading": "This is the scholar-performer’s pattern: the Virtuoso’s brilliance held by the Sage’s learning, talent given a syllabus. In you the rebel streak and the studious streak are the same engine viewed twice, and they mature each other. The reading is generous: your gift sharpens with every credential, and your learning stays alive because the performer keeps testing it in public. Careers in teaching, writing, and any stage with substance suit you unusually well. Honor both masters, study before you dazzle, and the pattern turns raw shine into a durable name.",
+    "fused_line": "Sharing one pillar, the pairing is seamless in you: your talent and your training speak with one voice."
+  }
+}

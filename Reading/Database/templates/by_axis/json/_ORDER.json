@@ -227,6 +227,17 @@
     "水_金",
     "水_水"
   ],
+  "TG_PATTERN": [
+    "shishen_zhi_sha",
+    "shang_guan_pei_yin",
+    "xiao_shen_duo_shi",
+    "shang_guan_jian_guan",
+    "sha_yin_xiang_sheng",
+    "bi_jie_duo_cai",
+    "shi_shang_sheng_cai",
+    "cai_guan_xiang_sheng",
+    "guan_yin_xiang_sheng"
+  ],
   "TEMPLATED": [
     "tpl_cast_line",
     "tpl_core_energy_line",
@@ -244,7 +255,6 @@
     "tpl_cycle_line",
     "tpl_rx_ribbon",
     "tpl_pattern_conclusion",
-    "tpl_set_pieces",
     "tpl_section_teasers"
   ]
 }

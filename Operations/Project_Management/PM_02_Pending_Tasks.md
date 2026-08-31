@@ -77,6 +77,12 @@ Therapist/psychic register: analytical personality truth + ONE tendency-framed p
 ### POS-T-B · Batch ×63 — ✅ COMPLETE (2026-08-19): corpus ×70 locked (positions.js + station synced ×70); registry row locked; enforcement negative-tested; verified on 庚 + 甲 charts; sweep 16/16
 ### POS-T-C · Full-reading expansion — ✅ COMPLETE (owner 2026-08-19: template approved → batch ×63): reading v2 corpus LOCKED ×70 (§9.5 ladder, 80–115w, registry locked) + SET-PIECES LIVE ×5 (chart-aware: 庚 fires 比劫夺财/枭神夺食, 甲 fires 杀印相生). **POS-T CLOSED END TO END.** Role turns deferred to the 大运 surface (REA_04 §9.5 note)
 
+## POS-D — per-domain paragraphs + the TG_PATTERN axis (owner feedback ×3, 2026-08-19; REA_02 §5g + REA_04 §9)
+
+### POS-D-A · Constructs LIVE (2026-08-19): POSITION.domain_readings (per declared domain, 35–60w, seat panel after the summary) + TG_PATTERN axis ×9 (line + full reading 70–100w + fused_line; conditional trigger over resolved positions, FUSED tier for same-pillar, one per seat by canon priority) — station + seeder + resolver + view wired
+### POS-D-B · TEMPLATE review — domain paragraphs ×16 (the exemplar's 7 seats) + the pattern canon ×9 AWAITING OWNER LOCK → then batch domain paragraphs ×63 seats (~156 ¶)
+### POS-D-C · Canon expansion candidates (owner-ruled later): 财坏印 · 财滋杀 · 群比争财 tiers · pattern surfacing beyond seat panels (P5? Codex chapter)
+
 ## OWNER — review & decisions (no deadline)
 
 | ID | Task |
