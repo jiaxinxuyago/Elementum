@@ -343,21 +343,16 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   ) : null;
   // The element's seats (REA_02 §5e echo): the positions this energy holds.
   const elPositions = elScreen ? resolvePositions(chart, hourUnknown).filter((p) => p.el === elScreen.el) : [];
-  // The element's plain life-ground (owner 2026-08-19): the canonical
-  // domains (§5e taxonomy ×8) its seats DECLARE, each tagged with its
-  // source gate (curation v5 — the union no longer flattens which seat
-  // rules what). The teaser's only domain vocabulary; gods wait inside.
-  const elCanonRows = (() => {
-    const map = new Map();
-    for (const p of elPositions) for (const d of p.domains) {
-      if (!map.has(d)) map.set(d, []);
-      if (!map.get(d).includes(p.gate)) map.get(d).push(p.gate);
-    }
-    return [...map.entries()].map(([d, gates]) => {
-      const names = gates.map((g) => g.replace(' Gate', ''));
-      const joined = names.length <= 2 ? names.join(' and ') : `${names.slice(0, -1).join(', ')}, and ${names[names.length - 1]}`;
-      return { d, src: gates.length === 1 ? `from the ${gates[0]}` : `from the ${joined} Gates` };
-    });
+  // Curation v6 (owner 2026-08-19): the domains teaser leads with the
+  // NAMED POSITIONS themselves (the Nebula principle — the configuration
+  // is the diagnosis), each with its ruled domains as a quiet second line;
+  // the one-line teaser quotes the lead seat's own defline verbatim.
+  const serial = (xs) => xs.length <= 2 ? xs.join(' and ') : `${xs.slice(0, -1).join(', ')}, and ${xs[xs.length - 1]}`;
+  const domTeaseLine = (() => {
+    const n = elPositions.length;
+    if (!n) return elScreen ? `${elScreen.elName} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.` : '';
+    const more = n > 1 ? ` And ${['', '', 'one more seat', 'two more seats', 'three more seats'][n] || `${n - 1} more seats`} besides.` : '';
+    return `${elPositions[0].defline}${more}`;
   })();
   const glossary = buildGlossary(m);
   const condIcon = m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged';
@@ -621,22 +616,16 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   <button className="cardstock el-tease" onClick={() => openSec('dom')}>
                     <span className="laylab">THE DOMAINS</span>
                     <span className="serifline el-teasetitle">{elScreen.domTitle}</span>
-                    {/* each canonical domain = one row, tagged with its source
-                        gate (owner 2026-08-19: no explanatory lines, the tag
-                        keeps which-seat-rules-what audible) */}
-                    {elCanonRows.map((r) => (
-                      <span className="el-domrow" key={r.d}>
-                        <b className="el-domname">{r.d}</b><span className="el-domgate">· {r.src}</span>
+                    {/* the named positions lead (curation v6, the Nebula
+                        principle): term + 汉字, ruled domains as the quiet
+                        second line — the configuration IS the diagnosis */}
+                    {elPositions.map((p) => (
+                      <span className="el-posrow" key={p.id}>
+                        <span className="el-posterm">{p.term}<i className="el-poszh">{p.termZh}</i></span>
+                        <span className="el-posdoms">rules {serial(p.domains)}</span>
                       </span>
                     ))}
-                    <span className="el-teasep">{(() => {
-                      const n = elPositions.length;
-                      if (!n) return `${elScreen.elName} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.`;
-                      const nWord = ['zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven'][n] || n;
-                      return n === 1
-                        ? `One seat in your pillars decides how ${elScreen.elName} reaches ${elCanonRows.length === 1 ? 'it' : 'them'}. Open it to read the seat, and who holds it.`
-                        : `${nWord} seats in your pillars decide how ${elScreen.elName} reaches them. Open them to read each seat, and who holds it.`;
-                    })()}</span>
+                    <span className="el-teasep">{domTeaseLine}</span>
                     <span className="el-teasego"><Use id="ico-chev-r" /></span>
                   </button>
                 ) : null}
@@ -681,14 +670,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   <div className="cardstock">
                     <span className="laylab">THE DOMAINS</span>
                     <span className="serifline el-teasetitle">{elScreen.domTitle}</span>
-                    {/* order re-ruled (owner 2026-08-19): plain life-domains →
-                        THE SEATS (the Position axis does the talking) → the
-                        gods last, as the supplementary "who runs it" layer. */}
-                    {elCanonRows.map((r) => (
-                      <span className="el-domrow" key={r.d}>
-                        <b className="el-domname">{r.d}</b><span className="el-domgate">· {r.src}</span>
-                      </span>
-                    ))}
+                    {/* order (owner 2026-08-19): THE SEATS first (the Position
+                        axis does the talking) → the gods last, as the
+                        supplementary "who runs it" layer. */}
                     {elPositions.length ? (
                       <div className="elpos">
                         <span className="elpos-lead">{elPositions.length === 1 ? 'Its seat in your pillars:' : 'Its seats in your pillars:'}</span>

@@ -34,15 +34,9 @@ export const RELATION_NOUN = { self: 'Core', resource: 'Root', wealth: 'Drive', 
 // anatomy is never the thing the reading tells you to skip.
 export const SHADOW_NOUN = { self: 'Bubble', resource: 'Cage', wealth: 'Grind', output: 'Echo', officer: 'Weight' };
 
-// Seat-consequence teaser clauses (tpl_section_teasers, curation pass v2,
-// owner 2026-08-19) — sentence 1 of the mechanism teaser, keyed by seat noun;
-// the Core self-pair carries its own fixed line in buildElementScreen.
-export const SEAT_TEASE = {
-  Voice: 'the channel your inner life leaves through',
-  Root: 'the source everything in you draws on',
-  Drive: 'the material your will works on',
-  Duty: 'the pressure that shapes you',
-};
+// (the SEAT_TEASE consequence clauses were retired by curation v6, owner
+// 2026-08-19 — every teaser is now ONE quoted corpus line; see
+// tpl_section_teasers for the live patterns)
 
 // §4 keywords — v3 FINAL (adopted 2026-07-16)
 export const KEYWORD = {
@@ -390,22 +384,17 @@ export function buildElementScreen(model, el) {
 
   const fn = pair?.function || null;
   const fnLabel = (K2_FUNCTIONS.find((f) => f.key === fn?.primary) || {}).label || '';
-  const dipLabels = Object.keys(fn?.dips || {})
-    .map((k) => (K2_FUNCTIONS.find((f) => f.key === k) || { label: k }).label);
-  // Curation pass v2 (owner rulings 2026-08-19): each teaser card ends on
-  // 1–2 TEASER SENTENCES (no verdict stamp) — derived assembly: a
-  // seat-consequence clause (SEAT_TEASE ×5, tpl_section_teasers) + the
-  // pair's own state-turn opening quoted verbatim (an exact foretaste of
-  // the detail). The function teaser opens with its body's own first
-  // sentence; the domains teaser is built in the view (it needs the
-  // resolved seats).
+  // Curation v6 (owner 2026-08-19): every teaser card carries exactly ONE
+  // conclusive line — the corpus's own opening quoted verbatim (an exact
+  // foretaste of the detail). Mechanism = the state turn's first sentence;
+  // function = the body's first sentence; domains = the lead seat's defline
+  // (built in the view, it needs the resolved positions).
   const firstSentence = (s) => { const i = s.indexOf('.'); return i >= 0 ? s.slice(0, i + 1) : s; };
-  const mechTeaser = mech ? (r.isCore
-    ? `No reaction here: ${r.name} is the substance you are, doubled. ${mech.turn ? firstSentence(mech.turn) : 'In your chart it holds its measure.'}`
-    : `This reaction makes ${r.name} ${SEAT_TEASE[r.relation] || `your ${r.relation}`}. ${mech.turn ? firstSentence(mech.turn) : 'In your chart it runs balanced: nothing to force.'}`) : '';
-  const fnTeaser = fn
-    ? `${firstSentence(fn.body)} It leads with ${fnLabel}${dipLabels.length ? ` and reaches into your ${dipLabels.join(' and ')}` : ''}.`
+  const mechTeaser = mech
+    ? (mech.turn ? firstSentence(mech.turn)
+      : r.isCore ? 'In your chart it holds its measure.' : 'In your chart it runs balanced: nothing to force.')
     : '';
+  const fnTeaser = fn ? firstSentence(fn.body) : '';
 
   return {
     el, name: r.name.toUpperCase(), hz: r.hz, cls: `a-${el}`,

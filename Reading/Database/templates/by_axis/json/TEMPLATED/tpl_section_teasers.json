@@ -8,24 +8,14 @@
   "sources": [
     "REA_03 §5 (patterns)"
   ],
-  "status_note": "LIVE (curation pass v2, owner 2026-08-19) — the element page teaser sentences, derived assembly (no authored corpus)",
-  "budget": "S1 clause + S2 = the pair turn's first sentence quoted",
+  "status_note": "LIVE (curation v6, owner 2026-08-19) — ONE conclusive quoted line per section card",
+  "budget": "one line each",
   "candidates": {
-    "pattern": "mech: \"This reaction makes {El} {seat_tease}. {turn first sentence}\" · fn: \"{body first sentence} It leads with {Fn} and reaches into your {dips}.\" · dom: \"{One god lives|Two gods live} in your {El}: {personas}. {It rules|They rule} {domains ≤4, lowercase}, and {seat clause}.\"",
-    "seat_tease": {
-      "Voice": "the channel your inner life leaves through",
-      "Root": "the source everything in you draws on",
-      "Drive": "the material your will works on",
-      "Duty": "the pressure that shapes you"
-    },
-    "core_line": "No reaction here: {El} is the substance you are, doubled.",
+    "pattern": "mech: \"{state turn, first sentence}\" · fn: \"{function body, first sentence}\" · dom: \"{lead seat defline}[ And {n-1 word} more seat(s) besides.]\" — position rows above the dom line: {term} · {汉字} / \"rules {declared domains}\"",
     "balanced_lines": {
       "core": "In your chart it holds its measure.",
       "other": "In your chart it runs balanced: nothing to force."
     },
-    "dom_seat_clauses": {
-      "seated": "{it holds|they hold} {n} seat(s) in your pillars",
-      "unseated": "{it reaches|they reach} you through the hidden stems"
-    }
+    "dom_unseated": "{El} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed."
   }
 }
