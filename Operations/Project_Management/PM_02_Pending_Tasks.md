@@ -75,7 +75,7 @@ Therapist/psychic register: analytical personality truth + ONE tendency-framed p
 
 ### POS-T-A · Template ×7 — ✅ APPROVED + LOCKED (owner 2026-08-19)
 ### POS-T-B · Batch ×63 — ✅ COMPLETE (2026-08-19): corpus ×70 locked (positions.js + station synced ×70); registry row locked; enforcement negative-tested; verified on 庚 + 甲 charts; sweep 16/16
-### POS-T-C · Full-reading expansion — OPENED 2026-08-19: template ×7 authored (v2 = §9.5 ladder, therapist-psychic, 80–115w, awaiting owner lock → batch ×63) + SET-PIECES LIVE ×5 (CHART CHEMISTRY: engine-detected god-pair lines in participating seats, Seeker layer; tpl_set_pieces + resolvePositions detector; verified 比劫夺财 + 枭神夺食 on the exemplar). Role turns deferred to the 大运 surface (REA_04 §9.5 note)
+### POS-T-C · Full-reading expansion — ✅ COMPLETE (owner 2026-08-19: template approved → batch ×63): reading v2 corpus LOCKED ×70 (§9.5 ladder, 80–115w, registry locked) + SET-PIECES LIVE ×5 (chart-aware: 庚 fires 比劫夺财/枭神夺食, 甲 fires 杀印相生). **POS-T CLOSED END TO END.** Role turns deferred to the 大运 surface (REA_04 §9.5 note)
 
 ## OWNER — review & decisions (no deadline)
 

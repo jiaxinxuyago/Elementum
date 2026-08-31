@@ -24,5 +24,5 @@
 | `slot_kind` | branch |
 | `domains` | Family · Growth |
 | `defline` | Order lives inside your Hour Gate: the root of your harvest is a life that kept its word. |
-| `reading` | This position rules Family and Growth at the root of late life. Your ending is orderly by construction: duties completed, relationships in their right standing, a conscience with clean books. That peace is real and earned. What remains is the one liberty correctness postponed, the trip, the art, the truth told loose. Take it while your knees permit. A kept word is a monument. A kept self is a life. |
+| `reading` | This position rules Family and Growth, and it works in the root of your late years. The Magistrate lives inside your Hour Gate: order is the ground your last chapters stand on, affairs settled, duties completed, a name kept in good repair. Family in late life organizes around your word, and your word stays good. Growth continues as refinement rather than reinvention, the same values held to higher polish. Do the estate work early and thoroughly, it is your love language anyway. Then let some evenings go unscheduled. Even a completed ledger deserves a sunset. |
 | `teaser` | Order is the root of your late years: affairs settled, duties completed, a name in good repair. Your legacy will be trusted, which is rarer than being missed. |

@@ -24,5 +24,5 @@
 | `slot_kind` | stem |
 | `domains` | Wealth · Growth |
 | `defline` | At your Hour Gate stands the risk-taker: your later ambitions stay bold, and visibly so. |
-| `reading` | This position rules Wealth and Growth. You do not intend to retire quietly: the later chapters keep a wager in them, a venture, a reinvention, a door bought open. The young see your nerve and borrow it, which is a genuine gift. Guard the principal, though. Late-life boldness pays best when the downside is fenced. Keep a portion untouchable, and let the rest play. That balance is the whole art of your finish. |
+| `reading` | This position rules Wealth and Growth, and it shapes how your story ends. The Rival stands at your Hour Gate, visible in the last chapters: heirs and juniors copy your nerve first, and people will keep asking you to back them late into life. Some of that backing is your genuine growth, the pleasure of funding the young and the bold. Some is leak wearing a warm face. Decide the number early, the amount your yes can afford each year, and give inside it freely. Boldness with a boundary reads as legacy. Without one it reads as lesson. |
 | `teaser` | You will show the future your nerve: heirs and juniors copy your boldness first. Budget for late generosity, because people will ask, and you will want to say yes. |

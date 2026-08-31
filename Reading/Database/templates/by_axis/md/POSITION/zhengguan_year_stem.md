@@ -24,5 +24,5 @@
 | `slot_kind` | stem |
 | `domains` | Social · Family |
 | `defline` | Order stands at your Year Gate: respectability is the first thing your story shows. |
-| `reading` | This position rules Social and Family. You were raised visible: a family with standards, a name to maintain, conduct watched and graded early. It gave you effortless propriety, people trust you on sight and put you on committees. The inheritance runs deep enough that shame is your sharpest pain. Keep the honor, drop the audience. A reputation is worth keeping only while it stays lighter than the person carrying it. |
+| `reading` | This position rules Social and Family, and it rules them from your beginnings. The Magistrate stood openly at your Year Gate: you come from order worn in public, a respectable name, early rules, standards met where neighbors could see them. Reputation is your inheritance, and it still opens doors before you knock. People extend you trust on sight, the way they trusted the house you came from. The estate has terms: it keeps paying while you keep it clean. Carry the name lightly, break the pointless rules privately, and the worthy ones will carry you. |
 | `teaser` | You come from order worn openly: a respectable name, early rules, standards met. Reputation is your inheritance, and it keeps paying as long as you keep it clean. |

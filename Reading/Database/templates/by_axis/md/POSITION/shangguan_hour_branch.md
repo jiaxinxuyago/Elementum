@@ -24,5 +24,5 @@
 | `slot_kind` | branch |
 | `domains` | Family · Mind |
 | `defline` | Brilliance lives inside your Hour Gate: the root of your harvest is a mind that never retires. |
-| `reading` | This position rules Family and Mind at the root of late life. Your old age keeps its claws and its wit: the elder who says the unsayable at dinner and is usually right. Children and students sharpen against you, which is a gift when it teaches and a wound when it cuts. Save the sharpest tongue for injustice. The people you love will remember your last decade’s words verbatim. Author them. |
+| `reading` | This position rules Family and Mind, and it works in the root of your late years. The Virtuoso lives inside your Hour Gate: expression never retires in you, and the last chapters stay full of making, correcting, and dazzling. The family of your late life includes minds you trained, and the house stays loud with ideas. Your own mind ages like a performer, hungry for material, allergic to idleness. Feed it projects, audiences, arguments worth having. Kept lit, this root makes old age your most honest decade, and honestly, your funniest. |
 | `teaser` | The root of your late years is expression that never retires. You will be making, correcting, and dazzling to the end, and it will keep you young. |

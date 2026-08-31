@@ -24,5 +24,5 @@
 | `slot_kind` | branch |
 | `domains` | Love · Social |
 | `defline` | The Twin sits in your spouse palace: you partner as an equal, and only as an equal. |
-| `reading` | This position rules Love and Social. In close relationships you need a peer, someone whose spine matches yours, and romance built on leaning does not hold you. The home you make has two captains, which is its strength and its argument. Competition can slip into the kitchen: score-keeping, parallel lives, love as a quiet contest. Choose a partner you admire, then practice the one move the Twin resists. Letting them carry you sometimes. |
+| `reading` | This position rules Love and Social, and it works from your marriage palace. The Twin lives inside your Day Gate: at close range you need an equal, a partner whose spine matches yours, and romance built on leaning never holds you long. Your adult chapters run as a two-captain household, strong, frank, occasionally a contest. Friends of the marriage tend to be shared and loyal. Watch for score-keeping in the kitchen, the quiet ledger of who did what. Choose someone you admire, then let them carry you now and then. That is the hard move, and the marriage-saving one. |
 | `teaser` | In love you need an equal, someone with a spine that matches yours. Marriage will feel like a partnership of captains, and it works when neither keeps score. |

@@ -24,5 +24,5 @@
 | `slot_kind` | stem |
 | `domains` | Career · Social |
 | `defline` | The Artisan stands at your Month Gate: the working world sees the maker, gracious and unhurried. |
-| `reading` | This position rules Career and Social. Professionally you read as the craftsman: the one whose work has finish, whose manner has warmth, who makes hard things look pleasant. Fields that reward taste suit you, teaching, food, design, care, and craft. Cutthroat arenas waste you. Your reputation compounds through work people enjoy receiving. Protect your pace, because your gift dies in a sweatshop and sings in a workshop. |
+| `reading` | This position rules Career and Social, and it runs the prime of your life. The Artisan stands at your Month Gate in view: the working world knows you by the ease of what you make, output that flows without visible strain. Your prime grows by appetite rather than ambition, and the work you enjoy quietly outearns the work you force. Colleagues relax around you, which is a career asset dressed as a personality. The watch is drift: when everything flows, coasting feels like working. Pick one craft to deepen on purpose. Ease plus depth is your whole fortune. |
 | `teaser` | The working world knows you for the ease of what you make. Your career grows by appetite rather than ambition, and the work you enjoy pays best. |

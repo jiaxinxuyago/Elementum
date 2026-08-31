@@ -24,5 +24,5 @@
 | `slot_kind` | branch |
 | `domains` | Love · Family · Health |
 | `defline` | The Artisan sits in your spouse palace: home, for you, is where life gets savored. |
-| `reading` | This position rules Love and Family, and it feeds Health. Intimacy arrives through the senses and the table: you love by cooking, hosting, easing, and you need a partner who can receive pleasure without suspicion. The home you build tends toward warmth, children, creatures, and comfort. Its risk is drift, sweetness with no spine. Keep one shared project alive with your partner. Delight deepens fastest when it is making something. |
+| `reading` | This position rules Love, Family, and Health, and it works from your marriage palace. The Artisan lives inside your Day Gate: you are built for a warm table and a gentle partner, and your best fortune gathers around the home you two keep. Love, for you, is fed daily rather than declared. The household tends toward comfort, good food, and soft evenings, and your health rises with the quality of your home life more than any regimen. Choose the person who makes ordinary days delicious. Guard the table together. Everything else in your chart eats from it. |
 | `teaser` | You are built for a warm table and a gentle partner. Marriage feeds you, literally and otherwise, and your best fortune gathers around the home you two keep. |

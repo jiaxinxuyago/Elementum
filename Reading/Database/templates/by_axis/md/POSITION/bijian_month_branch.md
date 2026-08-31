@@ -24,5 +24,5 @@
 | `slot_kind` | branch |
 | `domains` | Career · Growth |
 | `defline` | The Twin holds your chart’s strongest seat: your prime runs on self-reliance, built into the frame itself. |
-| `reading` | This position rules Career and Growth, from the deepest seat a chart has. The engine of your working life is your own two hands: you build careers you can hold alone, and you flourish where autonomy is real. Bosses either learn this or lose you. Money made with partners tends to blur, so keep the accounts clean and the equity written down. Your prime is self-propelled. Fuel it with skill, not just stubbornness. |
+| `reading` | This position rules Career and Growth, and it holds the deepest seat your chart has. The Twin lives inside your Month Gate: the engine of your prime is self-propulsion, careers built with your own hands and defended with your own name. Autonomy is oxygen through your working decades, and bosses either learn that or lose you. Growth compounds when the skill is yours outright. Money made with partners blurs, so write the equity down while everyone still likes each other. Your prime will carry you exactly as far as your own engine is maintained. Maintain it. |
 | `teaser` | Your prime runs on your own engine: careers built alone hold, careers built on rescue stall. Equity and credit stay cleanest when they are written down early. |

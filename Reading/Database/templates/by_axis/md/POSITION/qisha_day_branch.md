@@ -24,5 +24,5 @@
 | `slot_kind` | branch |
 | `domains` | Love · Health |
 | `defline` | The General sits in your spouse palace: love, for you, has a chain of command to dismantle. |
-| `reading` | This position rules Love and Health. Intimacy arrives armored: you protect fiercely, provoke instinctively, and test partners for spine before trusting them with softness. Passion runs high voltage here, and so do battles. The work of your romantic life is learning that home is not terrain. A partner is not a lieutenant, and surrender, occasionally, is not defeat. Choose someone unafraid of you. Then prove them right slowly. |
+| `reading` | This position rules Love and Health, and it works from your marriage palace. The General lives inside your Day Gate: you are drawn to intensity at close range, a partner with force, a home with weather. Mild love has never once held your attention. The adult chapters thrive when the two of you aim the pressure outward, shared missions, shared enemies, renovations, causes. Aimed inward, the same voltage becomes the argument that never ends, and your body scores every round. Pick a worthy co-commander. Then guard the peace at home like the strategic asset it is. |
 | `teaser` | You are drawn to intensity at close range: a partner with force, a home with weather. Love holds when the two of you aim the pressure outward together. |

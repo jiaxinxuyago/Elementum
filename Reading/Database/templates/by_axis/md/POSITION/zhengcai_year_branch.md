@@ -24,5 +24,5 @@
 | `slot_kind` | branch |
 | `domains` | Family · Wealth |
 | `defline` | The Steward lives inside your Year Gate: your root is a kept house, and it keeps you still. |
-| `reading` | This position rules Family and Wealth. The root of your beginnings is maintenance as love: someone paid the bills quietly, fixed things before they broke, and taught you that care looks like continuity. Security, for you, is a foundation stone rather than a preference. Build it early and honestly, then relax inside it. The risk of this root is confusing the vault with the life. The house was kept so living could happen. |
+| `reading` | This position rules Family and Wealth, and it works from the root of your story. The Steward lives inside your Year Gate: thrift is in your foundations, a home that counted carefully, wasted little, and kept its word about money. You absorbed it before you could name it. Your fortune compounds the same way, quietly, earlier than anyone notices, and mostly through patience the loud world mistakes for luck. Family remains your soundest network: help flows there reliably in both directions. Keep the ledgers kind and current. This root turns small discipline into generational ground. |
 | `teaser` | Thrift is in your roots: a home that counted carefully and wasted little. Your fortune compounds the same way, quietly, and earlier than anyone notices. |

@@ -24,5 +24,5 @@
 | `slot_kind` | branch |
 | `domains` | Health · Family · Growth |
 | `defline` | The General lives inside your Hour Gate: the root of your harvest is strength, held to the last. |
-| `reading` | This position rules Health and Family at the root of late life. You will be the strong old one, the elder others physically lean on, and your discipline will decide how long that stays true. Train like it matters, because it is your retirement plan. With children and heirs, loosen the grip one finger per decade. What you defended them from, they must eventually fight. The best generals leave soldiers, not dependents. |
+| `reading` | This position rules Health, Family, and Growth, and it works in the root of your late years. The General lives inside your Hour Gate: discipline never quite retires in you, and the last chapters keep a garrison quality, routines held, standards kept, one more campaign than you planned. Family feels your protection more than your softness, and they rely on both. The body in late life responds to training like an old soldier, gratefully and fast. March daily, rest like an order, and keep a gate open for visitors. Fortresses age best with gardens. |
 | `teaser` | The root of your late years is discipline that never quite retires. Expect standing, respect, and one more campaign than you planned. Keep a gate for rest. |

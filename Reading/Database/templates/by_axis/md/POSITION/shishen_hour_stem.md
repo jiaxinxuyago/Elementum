@@ -24,5 +24,5 @@
 | `slot_kind` | stem |
 | `domains` | Family · Career |
 | `defline` | The Artisan stands at your Hour Gate: what you show the future is the joy of making. |
-| `reading` | This position rules Family and Career in their late-season forms. Your output grows more personal with age: the craft becomes teaching, the work becomes gifts, and children or students inherit your hands as much as your words. You will likely make your best things after fifty, when taste has finished compounding. Plan a legacy you can touch, books, gardens, tables, students. Yours is the kind that must be made, not merely left. |
+| `reading` | This position rules Family and Career, and it shapes how your story ends. The Artisan stands at your Hour Gate, visible in the last chapters: what you make late in life may outshine everything before it, and the young inherit your gifts along with your recipes. Children and students take after you in the best ways, ease, kindness, appetite. Your late career leans toward mentoring, hosting, and finishing the beautiful projects the busy years postponed. Plan for a productive old age rather than a resting one. Your sweetness compounds, and the last chapters read like dessert. |
 | `teaser` | What you make late in life may outshine everything before it. Children and students take after your gifts, and your last chapters read sweeter than your first. |

@@ -24,5 +24,5 @@
 | `slot_kind` | branch |
 | `domains` | Family · Health |
 | `defline` | The Artisan lives inside your Hour Gate: your harvest is children, comfort, and a well-fed old age. |
-| `reading` | This position rules Family and Health at the root of late life. This is a blessed seat: children who stay warm toward you, appetites that survive age, an ending with flavor in it. It rewards early tending, the health kept now, the young fed patiently, the pleasures practiced rather than postponed. Build the orchard in your forties. This root intends you to sit in its shade, tasting what you planted. |
+| `reading` | This position rules Family and Health, and it works in the root of your late years. The Artisan lives inside your Hour Gate: ease deepens as you age, comfort earned, kept, and shared. Expect a good table, good sleep, and company that stays, with children or chosen family close to the kitchen. Your health in the last chapters answers to warmth: fed well and loved plainly, you last. The counsel is almost embarrassingly simple. Keep hosting. The people you feed become the people who tend you, and this root repays every meal with years. |
 | `teaser` | Ease deepens as you age: the root of your late years is comfort earned, kept, and shared. Expect a good table, good sleep, and company that stays. |

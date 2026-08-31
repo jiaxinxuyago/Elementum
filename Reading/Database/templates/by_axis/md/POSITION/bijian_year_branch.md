@@ -24,5 +24,5 @@
 | `slot_kind` | branch |
 | `domains` | Family · Growth |
 | `defline` | The Twin lives inside your Year Gate: the root of your early world was learning to hold your own. |
-| `reading` | This position rules Family and Growth. Somewhere in the first chapters, you became your own backup: a childhood that asked you to be sturdy early, among siblings, cousins, or a house that treated small people as capable ones. The root took. Self-reliance, for you, is a place you come from rather than a skill you learned. Watch one thing: roots this firm can quietly refuse replanting. Some help is worth accepting just to remember how. |
+| `reading` | This position rules Family and Growth, and it works from the root of your story. The Twin lives inside your Year Gate, the hidden face: somewhere early you became your own backup, in a house that treated small people as capable ones. The root took, and it still holds your weight. Growth for you starts from self-trust, and it always will. Family bonds run level, brothers and sisters in spirit if they were level too. The counsel is gentle: some help is worth accepting purely to stay in practice. Sturdiness that never leans eventually forgets how. |
 | `teaser` | Some part of you grew up fast and private, learning to need very little. That toughness holds, though letting people in will always take deliberate effort. |
