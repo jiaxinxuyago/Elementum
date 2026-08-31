@@ -27,3 +27,9 @@
 | `reading` | This position rules Family, Growth, and Health, and it works from the root of your story. The Sage lives inside your Year Gate: real nurture sits deep in your foundations, a mother-warmth that took, or a caretaker whose steadiness became your nervous system. You default to trust, and life keeps rewarding it with protectors you did not request. Your constitution is fundamentally kind to you, healing well, aging gently, provided you accept care instead of only providing it. Growth follows safety in your chart. Build the safe base first, every time. Everything you attempt from shelter succeeds sooner. |
 | `teaser` | Deep in your roots is real nurture, a mother-warmth that took. You default to trust, and life keeps rewarding it with protectors you did not request. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

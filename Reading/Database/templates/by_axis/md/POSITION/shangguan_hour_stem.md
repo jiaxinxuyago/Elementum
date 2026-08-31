@@ -27,3 +27,9 @@
 | `reading` | This position rules Career and Growth, and it shapes how your story ends. The Virtuoso stands at your Hour Gate, visible in the last chapters: your late work will be your boldest, and the young will quote you. Retirement in the resting sense is not really on your chart. Expect gifted, headstrong heirs and students, inheriting the talent with the allergy to instruction, and love them for it. Your growth keeps its edge to the end, provided the stage keeps changing. Say the true thing late in life. By then, your candor reads as wisdom. |
 | `teaser` | Your late work will be your boldest, and the young will quote you. Expect gifted, headstrong heirs: they inherit the talent along with the allergy to instruction. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

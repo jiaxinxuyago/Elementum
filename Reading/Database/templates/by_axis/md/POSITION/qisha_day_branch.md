@@ -27,3 +27,9 @@
 | `reading` | This position rules Love and Health, and it works from your marriage palace. The General lives inside your Day Gate: you are drawn to intensity at close range, a partner with force, a home with weather. Mild love has never once held your attention. The adult chapters thrive when the two of you aim the pressure outward, shared missions, shared enemies, renovations, causes. Aimed inward, the same voltage becomes the argument that never ends, and your body scores every round. Pick a worthy co-commander. Then guard the peace at home like the strategic asset it is. |
 | `teaser` | You are drawn to intensity at close range: a partner with force, a home with weather. Love holds when the two of you aim the pressure outward together. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

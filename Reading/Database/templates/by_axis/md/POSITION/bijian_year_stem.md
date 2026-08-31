@@ -27,3 +27,9 @@
 | `reading` | This position rules Social and Family, and it rules them from your beginnings. The Twin stood openly at your Year Gate: a self-made line, a family that praised standing on your own feet, a childhood where help was earned. The world still meets that face first, capable and unleaning. Friendships form the way siblings do for you, level or never. Expect early independence to keep paying: doors open because people trust you to carry your side. The inheritance has one gap, and you know it. Practice asking. The strong version of you can afford to. |
 | `teaser` | Independence was the family lesson, and you took it early. Expect a life where help arrives late and pride arrives first, and you manage anyway. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

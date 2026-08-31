@@ -27,3 +27,9 @@
 | `reading` | This position rules Career and Social, and it runs the prime of your life. The Artisan stands at your Month Gate in view: the working world knows you by the ease of what you make, output that flows without visible strain. Your prime grows by appetite rather than ambition, and the work you enjoy quietly outearns the work you force. Colleagues relax around you, which is a career asset dressed as a personality. The watch is drift: when everything flows, coasting feels like working. Pick one craft to deepen on purpose. Ease plus depth is your whole fortune. |
 | `teaser` | The working world knows you for the ease of what you make. Your career grows by appetite rather than ambition, and the work you enjoy pays best. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

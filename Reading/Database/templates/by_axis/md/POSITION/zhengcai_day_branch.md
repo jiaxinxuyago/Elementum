@@ -27,3 +27,9 @@
 | `reading` | This position rules Love and Family, and it works from your marriage palace. The Steward lives inside your Day Gate: you are made for steady love, a partner who keeps what you build and builds what you keep. Your adult chapters center on a provisioned home, bills paid, pantry full, promises honored on the ordinary days. Marriage becomes your most reliable asset, and like any asset it wants tending: schedule the delight, not just the duties. Choose someone who finds maintenance romantic. With that person, your household becomes the quiet fortune the rest of the chart banks on. |
 | `teaser` | You are made for steady love: a partner who keeps what you build and builds what you keep. Marriage becomes your most reliable asset, tended like one. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

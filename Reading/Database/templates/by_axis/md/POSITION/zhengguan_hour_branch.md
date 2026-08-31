@@ -27,3 +27,9 @@
 | `reading` | This position rules Family and Growth, and it works in the root of your late years. The Magistrate lives inside your Hour Gate: order is the ground your last chapters stand on, affairs settled, duties completed, a name kept in good repair. Family in late life organizes around your word, and your word stays good. Growth continues as refinement rather than reinvention, the same values held to higher polish. Do the estate work early and thoroughly, it is your love language anyway. Then let some evenings go unscheduled. Even a completed ledger deserves a sunset. |
 | `teaser` | Order is the root of your late years: affairs settled, duties completed, a name in good repair. Your legacy will be trusted, which is rarer than being missed. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

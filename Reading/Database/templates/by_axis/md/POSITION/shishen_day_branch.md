@@ -27,3 +27,9 @@
 | `reading` | This position rules Love, Family, and Health, and it works from your marriage palace. The Artisan lives inside your Day Gate: you are built for a warm table and a gentle partner, and your best fortune gathers around the home you two keep. Love, for you, is fed daily rather than declared. The household tends toward comfort, good food, and soft evenings, and your health rises with the quality of your home life more than any regimen. Choose the person who makes ordinary days delicious. Guard the table together. Everything else in your chart eats from it. |
 | `teaser` | You are built for a warm table and a gentle partner. Marriage feeds you, literally and otherwise, and your best fortune gathers around the home you two keep. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

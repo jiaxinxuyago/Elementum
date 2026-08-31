@@ -27,3 +27,9 @@
 | `reading` | This position rules Family, Mind, and Growth, and it works in the root of your late years. The Alchemist lives inside your Hour Gate: the inner library is where your last chapters live, study, intuition, chosen quiet, a household that respects a shut door. Age suits you, because depth is the one asset that only accrues. Family in late life includes the young minds you quietly shaped. Keep a practice that externalizes the thinking, notes, letters, one apprentice. The mind stays lit by being poured. Poured, this root makes your old age the family’s deep well. |
 | `teaser` | The root of your late years is the inner library: study, intuition, chosen quiet. Age will suit you, because depth is the one asset that only accrues. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

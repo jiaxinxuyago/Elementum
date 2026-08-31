@@ -27,3 +27,9 @@
 | `reading` | This position rules Family, Growth, and Mind, and it shapes how your story ends. The Sage stands at your Hour Gate, visible in the last chapters: you end as the elder people consult, knowledge kept warm and given away. Children and students carry your teaching further than your name, which is the better vehicle anyway. Late growth comes through giving the learning form, classes, letters, a shelf of notes that outlives you. Protect the young deliberately, the way someone once protected you. History keeps the shelter you build. It is the one estate that never probates. |
 | `teaser` | You will end as the elder people consult: knowledge kept warm and given away. Teach deliberately, because your protection of others is what history keeps. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

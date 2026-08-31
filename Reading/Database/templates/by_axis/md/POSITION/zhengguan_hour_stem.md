@@ -27,3 +27,9 @@
 | `reading` | This position rules Family, Social, and Career, and it shapes how your story ends. The Magistrate stands at your Hour Gate, visible in the last chapters: your standing grows with age, honors late, respect that outlives the job. Children and juniors measure themselves against your standards, quietly and for decades, so praise them before you correct them and the measuring becomes love. Your late career leans toward governance, boards, and the keeping of institutions you once merely served. The name you leave will be trusted, which is rarer than being missed. Endings are your specialty. Make yours exemplary. |
 | `teaser` | Your standing grows with age: honors late, respect that outlives the job. Children measure themselves against your standards, so praise them before you correct them. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

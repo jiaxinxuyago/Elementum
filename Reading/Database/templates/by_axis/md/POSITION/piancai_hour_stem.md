@@ -27,3 +27,9 @@
 | `reading` | This position rules Wealth and Growth, and it shapes how your story ends. The Horizon stands at your Hour Gate, visible in the last chapters: you stay opportunity’s friend to the end, late ventures, late windfalls, a door that never quite closes. Younger company keeps finding you, drawn to the range. Your growth in the last era comes from new fields entered late, and it keeps you vivid. The estate needs a map, because your generosity will outrun your paperwork by a decade. Write it down while it is easy. Then keep playing. You are built for a wide ending. |
 | `teaser` | You will stay opportunity’s friend to the end: late ventures, late windfalls, a wide door. Leave the estate mapped, because your generosity will outrun your paperwork. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

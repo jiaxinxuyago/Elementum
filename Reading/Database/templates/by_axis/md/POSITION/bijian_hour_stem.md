@@ -27,3 +27,9 @@
 | `reading` | This position rules Growth and Family, and it shapes how your story ends. The Twin stands at your Hour Gate, visible to the last: you will age on your own terms, keys kept, help declined politely. What you show children and juniors is self-reliance done with dignity, and they will copy it whether you narrate it or leave it silent. Late growth stays real for you, new skills after most people stop. One counsel from the old readings: stand alone with the door open. The young remember both, and they return to the second. |
 | `teaser` | You will age on your own terms and make it look easy. The young learn self-reliance from watching you, so leave the door open while you stand alone. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

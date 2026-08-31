@@ -27,3 +27,9 @@
 | `reading` | This position rules Career and Health, and it holds the deep seat of your prime. The Artisan lives inside your Month Gate: craft sits in your bones, and your working decades produce steadily, without drama, better than louder people manage. The engine is physical. Your output rises and falls with sleep, food, and routine, so the production line is literally your body. Careers in making, feeding, teaching, and tending pay you twice. Guard the habits the way others guard titles. Kept well, this seat gives you the rarest career arc: long, calm, and still improving at the end. |
 | `teaser` | Craft sits in your bones: your prime years produce steadily, without drama, and better than louder people. Guard your health and routine, they are your production line. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

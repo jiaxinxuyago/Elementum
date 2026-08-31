@@ -27,3 +27,9 @@
 | `reading` | This position rules Love and Wealth, and it works from your marriage palace. The Rival lives inside your Day Gate: you fall for bold ones, partners with fire, opinions, and their own way with money. Home will never be dull. Your adult chapters carry a contested-purse quality at close range, generous seasons and tight ones, and the marriage stays happiest when the accounts keep separate lanes with one shared road. Admire the fire, fund the household by rule, and let the passion argue about anything except the rent. That division keeps both love and money warm. |
 | `teaser` | You fall for bold ones, partners with fire and opinions. Home will never be dull, and it stays happy when the money keeps separate lanes. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

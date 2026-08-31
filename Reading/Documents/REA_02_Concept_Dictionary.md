@@ -252,6 +252,8 @@ The Nebula principle: a configuration is a NAMED EVENT, and the reading starts f
 
 **The canonical domain taxonomy ×8 (every position reading DECLARES its ruled domains from this set before interpreting):** **Wealth · Health · Career · Love · Family · Social · Mind · Growth**. The god-flavored domain nouns (§ GOD.domains: Learning/Intuition/Solitude…) are expressions *inside* these categories, not a parallel category layer.
 
+**The four life chapters (LOCKED with the POS-D anatomy, owner 2026-08-19 — each pillar's era as reading vocabulary; code `positions.js CHAPTERS`):** Year 年柱 = **the Early Chapter** (origins, ~0–16) · Month 月柱 = **the Rising Chapter** (~16–35) · Day 日柱 = **the Home Chapter** (adulthood, the marriage years) · Hour 时柱 = **the Late Chapter** (48+). Every position may carry a god-colored life-chapter paragraph labeled with its chapter name.
+
 **Domain definition lines ×8 (authored + RETIRED same day, owner 2026-08-19 — the domain rows tag their source gate instead, "extra unnecessary information"; wording preserved here for a future Codex domains chapter; code + station homes removed):** Wealth "What you earn, own, and grow." · Health "The body's reserves, and what restores them." · Career "Your work, your rank, your public standing." · Love "Partnership, and what two people build." · Family "The people you come from and the ones you raise." · Social "Your circles, your allies, your name among peers." · Mind "How you think, learn, and decide." · Growth "What you are becoming, and the road there."
 
 ## 5f · LOCKED — the seat functions (element-page restructure; mapping locked with the ELEMENT_PAIR template, owner 2026-08-19; **Root re-ruled → Mind, owner 2026-08-19**)
@@ -268,9 +270,9 @@ The owner's ruling: on the energy page, "How it runs your functions" speaks the 
 
 Shadow twins (§5b-ii) carry over: a seat in excess speaks its shadow in the friction turn (Voice→Echo etc.).
 
-## 5g · PROPOSED — the ten-god relation patterns (TG_PATTERN axis; owner directive 2026-08-19: the 精华, a first-class conditional reading angle; canon awaiting owner lock)
+## 5g · PROPOSED — the ten-god relation patterns (TG_PATTERN axis; owner directives 2026-08-19: the 精华, a first-class conditional reading angle; INVISIBLE IN-APP — canon awaiting owner lock)
 
-The classical god-pair patterns are NAMED EVENTS (the Nebula principle extended): each has a 汉字 name + a persona-led English name, a trigger condition over the chart's resolved positions, and its own cell (line ≤40w · reading 70–100w · fused_line ≤25w). **Trigger law: both sides present among the positions → the pattern fires and reveals in EVERY participating seat's reading panel (one pattern per seat, priority = canon order). FUSED tier: both sides sharing one pillar (e.g. 偏印+食神 同柱) is the strongest classical trigger and appends the fused line.**
+The classical god-pair patterns are conditional reading machinery: each has a 汉字 name + a persona-led English name (BOTH surface only in the future Codex chapter — owner re-ruling 2026-08-19: no classic quotes, no god-pair mechanics in the app reading), a trigger condition over the chart's resolved positions, and its own cell (line ≤40w, Codex ore · reading 45–70w, pure you-language · fused_line ≤25w · target_domains). **Trigger law: both sides present among the positions → the pattern's analysis WEAVES into the seat's matching domain paragraph (first declared domain in target_domains; unlabeled continuation fallback), one pattern per seat, priority = canon order. FUSED tier: both sides sharing one pillar (e.g. 偏印+食神 同柱) is the strongest classical trigger and appends the fused line.**
 
 | # | 汉字 | English (persona-led) | Trigger (sides) |
 |---|---|---|---|

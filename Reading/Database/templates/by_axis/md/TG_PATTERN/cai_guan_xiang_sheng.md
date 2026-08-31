@@ -22,6 +22,7 @@
 | `trigger_gods[0].0` | 正财 |
 | `trigger_gods[0].1` | 偏财 |
 | `trigger_gods[1].0` | 正官 |
+| `target_domains` | Career · Wealth |
 | `line` | Your wealth stars feed your officer star: diligence converts into title, resources into standing. You rise by being worth promoting. Negotiate rank as deliberately as you earn. |
-| `reading` | Wealth stars feed your officer star, the executive’s pattern: resources flowing into standing, diligence converting into title. In you ambition is practical rather than loud. You rise by being worth promoting, budgets balanced, results banked, and the ladder responds. The classical reading promises position built on provision: property and career reinforce each other across your middle decades. The modern counsel: negotiate rank as deliberately as you earn, because this pattern under-asks by nature. Let the record speak, then make sure someone senior is in the audience when it does. |
+| `reading` | A steady engine runs underneath: what you earn keeps converting into standing. Results banked become titles offered, and property and position reinforce each other through your middle decades. The one flaw is under-asking. Negotiate rank as deliberately as you earn it, and make sure someone senior sees the ledger. |
 | `fused_line` | In one pillar together, earning and standing braid tightly for you: every gain quietly argues for your next title. |

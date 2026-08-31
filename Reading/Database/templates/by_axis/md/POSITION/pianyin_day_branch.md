@@ -27,3 +27,9 @@
 | `reading` | This position rules Love and Mind, and it works from your marriage palace. The Alchemist lives inside your Day Gate: you need a partner who respects your inner weather, closeness with breathing space built in. Marriage for you works as two studies with a shared door, together deeply, alone regularly, both by design. Your adult chapters favor the cerebral bond, love as one long conversation. A partner who pathologizes your solitude will exhaust you, and one who guards it will keep you. Choose the guard. Then open your door on schedule. Intimacy, for you, is a practice more than an instinct. |
 | `teaser` | You need a partner who respects your inner weather: closeness with breathing space built in. Marriage works as two studies with a shared door. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

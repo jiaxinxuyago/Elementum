@@ -27,3 +27,9 @@
 | `reading` | This position rules Career, Growth, and Family, and it shapes how your story ends. The General stands at your Hour Gate, visible in the last chapters: you will command to the end, and the young will both fear and follow you. Late authority is your pattern, boards, councils, the call that still comes at midnight because you still answer. Heirs inherit your standards and flinch at your delivery, so soften the orders and the loyalty doubles. Keep one campaign running past retirement age. Purpose is your pension, and this gate pays it in rank. |
 | `teaser` | You will command to the end, and the young will both fear and follow you. Late authority is yours: soften the orders and the loyalty doubles. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

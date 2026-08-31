@@ -402,7 +402,7 @@ export function buildElementScreen(model, el) {
     reye, roleTx, roleKind,
     title: r.hook || `${r.keyword} — your ${r.relation}`, tag: r.tag,
     selfCard,
-    elName: r.name, relation: r.relation,
+    elName: r.name, relation: r.relation, dx: r.dx,
     mech,
     mechTitle: r.isCore ? 'The energy that is you' : `Why ${r.name} is your ${r.relation}`,
     mechTeaser,

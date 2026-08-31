@@ -27,3 +27,9 @@
 | `reading` | This position rules Career and Social, and it runs the prime of your life. The General stands at your Month Gate in view: the working world reads command on you before you speak. Careers with stakes suit your prime, operations, emergencies, leadership under weather, and your rank rises fastest exactly where others crack. Colleagues respect you first and warm to you second, in that order, always. The predictive line is simple: pressure keeps arriving because you keep converting it. Choose battles worth your metal, delegate the skirmishes, and midlife hands you real authority. |
 | `teaser` | The working world reads command on you before you speak. Careers with stakes suit you, and your rank rises fastest where others crack. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

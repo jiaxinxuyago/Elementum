@@ -27,3 +27,9 @@
 | `reading` | This position rules Family, Growth, and Health, and it works from the root of your story. The General lives inside your Year Gate: some early weight pressed where no one watched, and you turned it into spine. That hidden forge set your growth pattern for life, crisis promotes you, ease unsettles you. The body keeps the campaign records, so tension is your inheritance along with the strength. Family may never fully know what you carried. You do. Train the load on purpose now, rest like it is a discipline, and the root that pressured you becomes the root that powers you. |
 | `teaser` | Some early weight pressed on you where no one watched, and you turned it into spine. Crisis will always promote you: it is your native ladder. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

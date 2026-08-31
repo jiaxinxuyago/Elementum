@@ -27,3 +27,9 @@
 | `reading` | This position rules Career and Mind, and it runs the prime of your life. The Alchemist stands at your Month Gate in view: the working world sees your odd angle first, the specialist, the diagnostician, the one who reads between. Your prime pays for insight rather than hours, and the niche will always outpay the ladder. Colleagues bring you the unsolvable and remember you for it. The market for your mind widens through your thirties and forties as the strange becomes the sought. Name your specialty in public. Obscurity is the only tax on this gate. |
 | `teaser` | The working world sees your odd angle first: the specialist, the diagnostician, the one who reads between. Career luck favors your niche over any ladder. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

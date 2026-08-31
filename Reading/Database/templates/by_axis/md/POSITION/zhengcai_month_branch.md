@@ -27,3 +27,9 @@
 | `reading` | This position rules Career and Wealth, and it holds the deep seat of your prime. The Steward lives inside your Month Gate: your working life is built on earned ground, income you can explain, assets you maintain, promises you keep. The engine is patience with compounding, and it runs your middle decades with quiet power. Expect your wealth curve to be unfashionably smooth: slower than you want at first, further than you guessed by the end. Avoid ventures that require you to become someone else. Your fortune is character-shaped, and the character is the moat. |
 | `teaser` | Your prime is built on earned ground: income you can explain, assets you maintain. It grows slower than you would like and further than you expect. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

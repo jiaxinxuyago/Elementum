@@ -27,3 +27,9 @@
 | `reading` | This position rules Love and Social, and it works from your marriage palace. The Twin lives inside your Day Gate: at close range you need an equal, a partner whose spine matches yours, and romance built on leaning never holds you long. Your adult chapters run as a two-captain household, strong, frank, occasionally a contest. Friends of the marriage tend to be shared and loyal. Watch for score-keeping in the kitchen, the quiet ledger of who did what. Choose someone you admire, then let them carry you now and then. That is the hard move, and the marriage-saving one. |
 | `teaser` | In love you need an equal, someone with a spine that matches yours. Marriage will feel like a partnership of captains, and it works when neither keeps score. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

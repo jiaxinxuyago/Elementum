@@ -27,3 +27,9 @@
 | `reading` | This position rules Career and Mind, and it holds the deep seat of your prime. The Virtuoso lives inside your Month Gate: under your working life runs a current of critique, the mind that sees the better version of everything instantly. It makes you invaluable and occasionally exhausting, mostly to managers. Your prime pays best where improvement is the actual job, editing, design, strategy, reform. The private cost is restlessness, a mind that files the world under drafts. Give it one worthy revision at a time. Mastery calms what variety only feeds. |
 | `teaser` | Your prime runs on performance: you outdo, outshine, and occasionally overstep. The money follows your gift wherever the format is loose and the spotlight honest. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

@@ -278,6 +278,12 @@ for (const g of GODS) for (const s of pos.SLOTS) {
     reading: auth.reading ?? null,
     teaser: auth.teaser ?? null,
     domain_readings: auth.domain_readings ?? null,
+    life_chapter: auth.life_chapter ?? null,
+    relations: auth.relations ?? null,
+    turn_catalyst: auth.turn_catalyst ?? null,
+    turn_friction: auth.turn_friction ?? null,
+    shadow_line: auth.shadow_line ?? null,
+    health_line: auth.health_line ?? null,
   }, ['REA_02 §5e (position vocabulary) · engine pillar gods'],
   { status_note: 'POSITION axis (owner construct 2026-08-19): domains declared from the canonical taxonomy ×8; template = pianyin_month_branch, the other 69 batch after its lock' });
 }
@@ -320,6 +326,7 @@ for (const tp of tgp.TG_PATTERNS) {
     name_zh: tp.zh,
     name_en: tp.en,
     trigger_gods: tp.gods,
+    target_domains: tp.targets ?? null,
     line: tp.line,
     reading: tp.reading,
     fused_line: tp.fused_line,

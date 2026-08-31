@@ -27,3 +27,9 @@
 | `reading` | This position rules Family, Health, and Mind, and it works in the root of your late years. The Sage lives inside your Hour Gate: quiet backing is the ground of your last chapters, pensions of goodwill, children who shelter you, sleep that comes easily. Kindness banked early pays your old age, and you have been depositing all your life. The mind stays clear the way tended gardens stay green, with routine, reading, and company that is gentle by default. Accept the care when it comes. You taught everyone around you how, and they learned it watching you. |
 | `teaser` | The root of your late years is quiet backing: pensions of goodwill, children who shelter you, sleep that comes easily. Kindness banked early pays your old age. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

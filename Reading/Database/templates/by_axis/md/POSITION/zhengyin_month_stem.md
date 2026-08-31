@@ -27,3 +27,9 @@
 | `reading` | This position rules Career, Mind, and Social, and it runs the prime of your life. The Sage stands at your Month Gate in view: the working world reads you as credible, the one with the knowledge and the calm, and your career advances through reputation and study rather than push. Elders open your doors. Your prime years collect credentials, references, and the kind of trust that outlasts employers. Socially you become the counselor early, and the pattern deepens with rank. Keep learning in public: every course and every kindness compounds. Your name is your salary’s slow engine. |
 | `teaser` | The working world reads you as credible: the one with the knowledge and the calm. Your career advances through reputation and study, and elders open the doors. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

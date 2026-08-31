@@ -12,6 +12,14 @@
 export const GATES = { year: 'Year Gate', month: 'Month Gate', day: 'Day Gate', hour: 'Hour Gate' };
 export const GATE_ZH = { year: '年柱', month: '月柱', day: '日柱', hour: '时柱' };
 
+// The four life chapters (REA_02 §5e, LOCKED with the POS-D anatomy,
+// owner 2026-08-19): each pillar's era as reading vocabulary — the
+// life_chapter ¶ renders under its chapter name.
+export const CHAPTERS = {
+  year: 'The Early Chapter', month: 'The Rising Chapter',
+  day: 'The Home Chapter', hour: 'The Late Chapter',
+};
+
 export const DOMAIN_TAXONOMY = ['Wealth', 'Health', 'Career', 'Love', 'Family', 'Social', 'Mind', 'Growth'];
 // (the DOMAIN_DEF one-liners were retired the day they were authored —
 // owner 2026-08-19: domain rows tag their source gate instead; the wording
@@ -59,6 +67,12 @@ export const POSITION_READINGS = {
       Career: 'Your working life is a solo instrument played in public: you rise on competence witnessed, own tasks whole, and stall wherever credit blurs. Choose roles with clean scoreboards. Promotion for you follows visibility of workmanship, so work where the work can be seen, and signed.',
       Social: 'Your circle runs level: peers, never patrons, and friendship as a pact between equals. People trust you fast and lean on you rarely, because you signal so little need. Let two or three actually in. The Twin’s crowd is small on purpose, and it holds when chosen well.',
     },
+    life_chapter: 'Your rising chapter is the proving decades: from your late teens through your thirties, life keeps handing you solo assignments, and each one carried alone becomes reputation. The era rewards independence and punishes waiting for rescue. Build the name early. It compounds.',
+    relations: 'Siblings and peers are this seat’s people: brothers in fact or in function, colleagues who become chosen family. They mirror you, sharpen you, and occasionally bill you. Keep the bonds level and the loans documented, and these are lifelong allies.',
+    turn_catalyst: 'Run thin, the seat wants spine practice: take one task wholly yours this season and decline the co-pilot.',
+    turn_friction: 'Run heavy, self-reliance walls you in at work: delegation feels like defeat. Hand one wheel over on purpose.',
+    shadow_line: 'Overloaded, the equal becomes the rival everywhere: every meeting a quiet arm-wrestle.',
+    health_line: 'Breath and posture carry this seat: lungs, skin, the frame you hold upright. Exercise that opens the chest steadies the whole era.',
   },
   bijian_month_branch: {
     teaser: 'Your prime runs on your own engine: careers built alone hold, careers built on rescue stall. Equity and credit stay cleanest when they are written down early.',
@@ -129,6 +143,12 @@ export const POSITION_READINGS = {
       Family: 'Your late family life is vivid: heirs with your fire and their own compass, a household that debates because it cares. Do not mistake their independence for distance. The Rival’s children love by contending. Set the table anyway, referee lightly, and the noise turns out to be the warmth.',
       Wealth: 'Late wealth needs a gatekeeper, and it should be you on your clearest day: claims will come dressed as family, opportunity, and honor. Fix your giving number annually, protect the floor beneath your own feet first. Generosity from a defended base reads as blessing. From an open vault it reads as weather.',
     },
+    life_chapter: 'Your late chapter stays loud: heirs with opinions, ventures that refuse retirement, a household that debates at dinner. The last decades run warmer and riskier than most people’s, and they suit you. Keep the fire. Fence the fuel.',
+    relations: 'Children and the youngest circle are this seat’s people: strong-willed heirs, proteges with nerve, late friendships with the young and bold. They will contend with you and for you. Love them by matching them, and by keeping your own keys.',
+    turn_catalyst: 'Run thin, the seat wants company late: back one young bold thing a year, with a number on it.',
+    turn_friction: 'Run heavy, the shared purse leaks late: every request lands as family. Fix the yearly figure, then relax inside it.',
+    shadow_line: 'Overloaded, generosity becomes the last contest: giving as the final way to win.',
+    health_line: 'Late strength is real here, and so is late tension: shoulders and breath hold the guard duty. Put the armor down nightly.',
   },
   shishen_year_stem: {
     teaser: 'Warmth was your first language, learned young and worn openly. Doors open for you through charm and good taste, and they keep opening as long as you keep giving.',
@@ -145,6 +165,12 @@ export const POSITION_READINGS = {
       Family: 'Your family root carries sweetness: somewhere in the early line, nurture was generous, and it still reaches you as an instinct for kinship and comfort. You gather relatives the way hearths gather chairs. Keep the recipes and the rituals. They are the family’s actual inheritance, and you are their keeper.',
       Health: 'Your constitution is fundamentally friendly: good digestion of food and of life, recovery that arrives with rest and a proper meal. The risks are indulgence-shaped rather than fragility-shaped. Keep pleasure rhythmic, feast and fast in gentle alternation, and this body will carry you further than most.',
     },
+    life_chapter: 'The early chapter fed you: comfort somewhere in the first years that your nervous system still trusts. Even if the house was imperfect, something nourishing got through, and you have drawn on that deposit in every lean season since.',
+    relations: 'Grandparents and the older kitchen line are this seat’s people: blessing descends to you through whoever fed the family. Keep their recipes and their names alive. The care you inherited wants passing on, and it multiplies when you host.',
+    turn_catalyst: 'Run thin, the seat asks for appetite: eat well, rest properly, accept comfort. Your luck refills through the body first.',
+    turn_friction: 'Run heavy, ease becomes indulgence here: comfort eaten past nourishment. Keep the feasts, add the fasts.',
+    shadow_line: 'Overloaded, this root drifts: sweetness used as sedative, the couch quietly winning years.',
+    health_line: 'Your reserves live deep, kidney-and-sleep deep: hydration and true rest restore you faster than any regimen.',
   },
   shishen_month_stem: {
     teaser: 'The working world knows you for the ease of what you make. Your career grows by appetite rather than ambition, and the work you enjoy pays best.',
@@ -252,6 +278,12 @@ export const POSITION_READINGS = {
       Social: 'Your social world enters through the household: the partner’s people become your people, dinner guests become collaborators, and the address book grows by marriage. Host on purpose. The connected home is one of your chart’s quiet engines, and it runs on invitations.',
       Wealth: 'Money moves through your intimate life: opportunities arriving via the partner, ventures shared across the pillow, windfalls with two names on them. It prospers with clean structure, shared goals, separate accounts, written agreements even in love. Romance handles the dreaming. Paperwork keeps the dream funded.',
     },
+    life_chapter: 'Your home chapter, the marriage-and-household decades, is where range enters your life: the partner’s world widens yours, and adulthood keeps offering side doors. This era rewards saying yes to shared ventures, and the middle of your life will be its widest part.',
+    relations: 'The spouse and the father-line are this seat’s people: a partner with reach, and somewhere behind you a provider whose generosity or absence taught you about open hands. Expect in-laws with doors worth knocking on. Marry the network gladly. Audit it kindly.',
+    turn_catalyst: 'Run thin, the seat wants circulation: accept the invitations for one season and let the household fill.',
+    turn_friction: 'Run heavy, the open house drains: every guest a venture, every venture a guest. Close the doors one night a week.',
+    shadow_line: 'Overloaded, charm at close range turns transactional: affection priced without anyone naming it.',
+    health_line: 'Vitality here moves with novelty: stagnation stiffens you first in mood, then in the tendons. Keep the body traveling even when you stay.',
   },
   piancai_hour_stem: {
     teaser: 'You will stay opportunity’s friend to the end: late ventures, late windfalls, a wide door. Leave the estate mapped, because your generosity will outrun your paperwork.',
@@ -274,6 +306,12 @@ export const POSITION_READINGS = {
       Wealth: 'Money entered your life with rules attached, and the rules took. You save younger than most, spend with a list, and quietly compound while louder people perform wealth. The curve stays boring and rising. Trust it: your fortune is built like a wall, one considered brick at a time.',
       Family: 'Family, for you, is a well-run estate more than a stage: obligations met, elders honored, help that arrives as groceries and paid bills rather than speeches. You may become the family treasurer early. Accept the role, set its limits in writing, and it becomes an honor rather than a tax.',
     },
+    life_chapter: 'Your early chapter ran on order: money named, chores real, promises kept in front of you. Whatever else childhood held, it taught account-keeping early, and the habits you formed before sixteen remain the quiet architecture of every budget you have balanced since.',
+    relations: 'Elders are this seat’s people: a provident parent or grandparent whose carefulness reached you as safety. Honor arrives through them, and duty flows back. Expect to be the relative others trust with arrangements, and let that trust stay a role rather than a debt.',
+    turn_catalyst: 'With this energy thin in you, the seat asks for practice: budget something small monthly. Order grows the way savings do, by deposit.',
+    turn_friction: 'With this energy running heavy, the seat over-counts: generosity waits on spreadsheets. Loosen one ledger and let someone treat you.',
+    shadow_line: 'Overloaded, prudence turns miserly here: joy postponed for a rainy day that never gets invited.',
+    health_line: 'The body keeps this seat’s books in tendons and shoulders: flexibility is your fiscal health made visible. Stretch what you clench.',
   },
   zhengcai_year_branch: {
     teaser: 'Thrift is in your roots: a home that counted carefully and wasted little. Your fortune compounds the same way, quietly, and earlier than anyone notices.',
@@ -308,6 +346,12 @@ export const POSITION_READINGS = {
       Wealth: 'Your money story ends better than it middles: late-life finances organize, debts clear, and the estate takes shape exactly when others’ unravel. Compounding is loyal to you because you were loyal to it first. Keep the discipline light in the final decades. The wall is built. Live against it.',
       Family: 'To the people after you, you are provision made visible: the one whose planning becomes their safety. Children and heirs learn money by watching you, so narrate a little, show the ledger, explain the choices. The lesson lands deeper than the inheritance, and it cannot be spent.',
     },
+    life_chapter: 'Your late chapter is the well-kept one: the years past your prime organize instead of unravel, and what the busy decades scattered gets gathered, labeled, and funded. Expect your sixties onward to feel like harvest bookkeeping, calm, provisioned, and quietly generous.',
+    relations: 'Children and juniors are this seat’s people: heirs who learn money by watching your hands. Provision is how you say the important things to them. Say a few out loud as well. The ledger teaches, the words are what they keep.',
+    turn_catalyst: 'Run thin, start the late-life ledger now: one standing transfer, however small, builds the ending early.',
+    turn_friction: 'Run heavy, provision becomes control near the end: the purse as leash. Fund freely, untie the strings.',
+    shadow_line: 'Overloaded, the estate outranks the evenings: comfort deferred in the very years built for it.',
+    health_line: 'Late vitality tracks flexibility: tendons, gait, the willingness to bend. Walk daily and stretch. Your body prefers maintenance to repair.',
   },
   zhengcai_hour_branch: {
     teaser: 'Security deepens with age: the root of your late years is provision done right. Children learn thrift from you, and your estate lands where you intend it.',
@@ -427,6 +471,12 @@ export const POSITION_READINGS = {
       Growth: 'You grow in leaps disguised as stillness: long plateaus of gathering, then a step-change nobody saw building. Do not measure yourself against steady climbers. Your curve is a staircase, and the landings are where the real work happens. Keep faith on the flat stretches.',
       Career: 'Professionally you are the specialist, the one called when the usual answers fail. The niche will pay what the mainstream never will, and your reputation compounds through solved unsolvables. Name your specialty publicly and let the strange work find you. It is already looking.',
     },
+    life_chapter: 'Your rising chapter runs underground: the years from adolescence through your thirties look quiet from outside while the real construction happens within. Late blooming is the design, and the strange knowledge gathered in this era becomes the authority of the next.',
+    relations: 'An unconventional teacher or guardian marks this seat’s people: care that arrived as instruction, or a mentor found off the official path. Expect your important guides to be odd ones. Trust the strange teachers. They were sent for you, and eventually you become one.',
+    turn_catalyst: 'Run thin, the seat asks for study: claim one hour of deep reading daily and guard it like income.',
+    turn_friction: 'Run heavy, thought eats action here: research becomes the errand that never ends. Ship one thing before the next book.',
+    shadow_line: 'Overloaded, insight sours into suspicion: reading motives where there is only weather.',
+    health_line: 'This seat digests ideas and dinners with the same organ: stomach ease tracks mental ease. Feed both slowly, on schedule.',
   },
   pianyin_day_branch: {
     teaser: 'You need a partner who respects your inner weather: closeness with breathing space built in. Marriage works as two studies with a shared door.',

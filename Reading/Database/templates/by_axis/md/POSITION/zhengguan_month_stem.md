@@ -27,3 +27,9 @@
 | `reading` | This position rules Career and Social, and it runs the prime of your life. The Magistrate stands at your Month Gate in view: the working world sees the officer in you, reliable, correct, promotable, and it responds with rank. Your prime climbs by record: titles find you, and they tend to stick. Your name will matter more than your salary, and eventually decide it. Socially you are the one made responsible, the emergency contact of entire departments. Accept it, it is how your era pays. Just keep one lawless hobby. Even judges need a garden. |
 | `teaser` | The working world sees the officer in you: reliable, correct, promotable. Your career climbs by rank and record, and your name will matter more than your salary. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

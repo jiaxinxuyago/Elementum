@@ -27,3 +27,9 @@
 | `reading` | This position rules Family, Health, and Wealth, and it works in the root of your late years. The Steward lives inside your Hour Gate: provision done right is the quiet ground of your last chapters, reserves kept, care funded, children taught thrift by watching rather than lecture. Your health in late life benefits from the same stewardship, maintenance over heroics, checkups kept like appointments with yourself. Money finishes stable: the estate lands where you intend it, and the household never feels the weather. Spend some comfort on yourself deliberately. You will have earned it twice by then. |
 | `teaser` | Security deepens with age: the root of your late years is provision done right. Children learn thrift from you, and your estate lands where you intend it. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

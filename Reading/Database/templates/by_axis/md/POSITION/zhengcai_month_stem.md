@@ -27,3 +27,9 @@
 | `reading` | This position rules Career and Wealth, and it runs the prime of your life. The Steward stands at your Month Gate in view: the working world trusts you with money, and it should. Your prime climbs through stewardship, real budgets, steady roles, value kept and grown. Wealth arrives on schedule rather than by surprise, which suits you fine. Colleagues bring you their messes because your desk is where things become orderly. Charge properly for that. Reliability is a premium service, and your era rewards the people who price it like one. |
 | `teaser` | The working world trusts you with money and should. Your career rewards stewardship: steady roles, real budgets, value kept. Wealth arrives on schedule rather than by surprise. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

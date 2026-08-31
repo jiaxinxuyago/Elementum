@@ -27,3 +27,9 @@
 | `reading` | This position rules Career and Growth, and it holds the deepest seat your chart has. The Twin lives inside your Month Gate: the engine of your prime is self-propulsion, careers built with your own hands and defended with your own name. Autonomy is oxygen through your working decades, and bosses either learn that or lose you. Growth compounds when the skill is yours outright. Money made with partners blurs, so write the equity down while everyone still likes each other. Your prime will carry you exactly as far as your own engine is maintained. Maintain it. |
 | `teaser` | Your prime runs on your own engine: careers built alone hold, careers built on rescue stall. Equity and credit stay cleanest when they are written down early. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

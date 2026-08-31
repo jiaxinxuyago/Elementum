@@ -27,3 +27,9 @@
 | `reading` | This position rules Love and Family, and it works from your marriage palace. The Magistrate lives inside your Day Gate: you are built for committed love, a principled partner, a household that runs on kept promises. Marriage steadies your whole chart, and it tends to arrive with weight, formal, meant, durable. Your adult chapters favor the long vow over the wild season, and your fortune agrees: things settle for you once the ring does. Choose character first, chemistry a close second. Then honor the small ceremonies, anniversaries, rituals, the weekly table. This palace runs on kept form. |
 | `teaser` | You are built for committed love: a principled partner, a household that runs on kept promises. Marriage steadies your whole chart, and it arrives with weight and stays. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

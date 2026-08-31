@@ -18,7 +18,7 @@
 import { getTenGod, HIDDEN_STEMS, STEM_ELEM } from '../../engine/index.js';
 import { ELEMENT_TO_PIGMENT } from '../../styles/elementPigments.js';
 import { TG_PERSONA } from '../../content/index.js';
-import { SLOTS, GATES, positionTerm, positionZh, POSITION_READINGS } from '../../content/positions.js';
+import { SLOTS, GATES, CHAPTERS, positionTerm, positionZh, POSITION_READINGS } from '../../content/positions.js';
 import { TG_PATTERNS } from '../../content/tgPatterns.js';
 
 const GOD_ID = {
@@ -58,6 +58,10 @@ export function resolvePositions(chart, hourUnknown = false) {
       termZh: positionZh(god, slot),
       domains: r.domains, defline: r.defline, reading: r.reading, teaser: r.teaser || null,
       domainReadings: r.domain_readings || null,
+      lifeChapter: r.life_chapter || null, relations: r.relations || null,
+      turnCatalyst: r.turn_catalyst || null, turnFriction: r.turn_friction || null,
+      shadowLine: r.shadow_line || null, healthLine: r.health_line || null,
+      chapter: CHAPTERS[slot.gate],
     });
   }
   // Ten-god relation patterns (TG_PATTERN axis, owner 2026-08-19 — the
@@ -76,7 +80,9 @@ export function resolvePositions(chart, hourUnknown = false) {
       });
       for (const x of out) {
         if (!x.pattern && (a.includes(x.god) || b.includes(x.god))) {
-          x.pattern = { zh: tp.zh, en: tp.en, line: tp.line, reading: tp.reading, fused, fusedLine: fused ? tp.fused_line : null };
+          // invisible machinery (owner 2026-08-19): no names/mechanics reach
+          // the view — just the you-language analysis + its target domains
+          x.pattern = { targets: tp.targets || [], reading: tp.reading, fusedLine: fused ? tp.fused_line : null };
         }
       }
     }

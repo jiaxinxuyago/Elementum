@@ -27,3 +27,9 @@
 | `reading` | This position rules Career, Wealth, and Social, and it runs the prime of your life. The Horizon stands at your Month Gate in view: the working world reads you as the one who spots the opening, the colleague with the tip, the friend of the deal. Your prime pays in windfalls and timing rather than salary curves, and your network is genuinely an asset class. The pattern through your thirties and forties: money arrives through people and motion, and it leaves through generosity and drift. Harvest the windfalls into something boring. Then go find the next one. |
 | `teaser` | The working world reads you as the one who spots the opening. Your career pays in windfalls and timing, so keep a steady hand on the harvests. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

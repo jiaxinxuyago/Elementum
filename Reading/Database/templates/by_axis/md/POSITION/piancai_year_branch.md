@@ -27,3 +27,9 @@
 | `reading` | This position rules Family and Wealth, and it works from the root of your story. The Horizon lives inside your Year Gate: somewhere in your line sits a wanderer, and their restlessness lives on in you, quietly, underneath the settled surface. Your luck travels. Opportunity favors you farther from home than comfort likes, and family fortunes in your story tend to involve journeys, migrations, or the one relative who left. Honor the pattern: build a base, then range from it. The root gives you both the itch and the map. Use them in that order. |
 | `teaser` | Somewhere in your roots sits a wanderer, and their restlessness lives in you. Your luck travels: opportunity favors you farther from home than comfort likes. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

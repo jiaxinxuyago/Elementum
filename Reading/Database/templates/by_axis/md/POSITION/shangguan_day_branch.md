@@ -27,3 +27,9 @@
 | `reading` | This position rules Love and Mind, and it works from your marriage palace. The Virtuoso lives inside your Day Gate: at close range you need applause and honesty in the same person, a partner sharp enough to spar with and warm enough to clap. Your adult chapters run on wit at home, banter as affection, critique as intimacy. The hazard is precision aimed at the beloved. Turn the editing outward, compete with the world as a pair, and the marriage becomes a writers’ table. Praise first, polish second. The order matters more than the talent. |
 | `teaser` | You need a partner who applauds, and you notice when they do not. Marriage thrives once the two of you compete with the world instead of each other. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

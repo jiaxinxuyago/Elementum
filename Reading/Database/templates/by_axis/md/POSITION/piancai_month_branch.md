@@ -27,3 +27,9 @@
 | `reading` | This position rules Career and Wealth, and it holds the deep seat of your prime. The Horizon lives inside your Month Gate: under your working life runs a trader’s instinct, value sensed moving before it moves. Careers that reward reading the field suit you, markets, sourcing, scouting, anything with a horizon in it. Your middle decades earn best in cycles, and the skill is keeping harvest discipline inside the hunting spirit. Let someone patient mind the vault while you mind the weather. Paired that way, the instinct compounds into genuine wealth instead of great stories. |
 | `teaser` | Under your prime runs a trader’s instinct: you sense value moving before it moves. Trust it in the field, and let someone patient mind the vault. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

@@ -683,26 +683,48 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                                 <div className="el-adj">{p.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
                                 <p className="elpos-defline">{p.defline}</p>
                                 {/* gating ruling 2026-08-19: seat NAMES +
-                                    deflines free; the Seeker layer = the
-                                    summary reading → per-domain paragraphs
-                                    (owner: each domain its own reading) →
-                                    the TG_PATTERN full reading (+ fused
-                                    line when both sides share a pillar) */}
-                                {tier !== 'free' ? (
-                                  <>
-                                    <p className="elpos-reading">{p.reading}</p>
-                                    {p.domainReadings && Object.entries(p.domainReadings).map(([d, txt]) => (
-                                      <p className="elpos-domread" key={d}><b className="el-funclab">{d}.</b> {txt}</p>
-                                    ))}
-                                    {p.pattern && (
-                                      <div className="elpos-setpiece">
-                                        <b className="el-funclab">CHART CHEMISTRY · {p.pattern.zh} · {p.pattern.en}.</b>
-                                        <p className="elpos-patread">{p.pattern.reading}</p>
-                                        {p.pattern.fusedLine && <p className="elpos-patfused">{p.pattern.fusedLine}</p>}
-                                      </div>
-                                    )}
-                                  </>
-                                ) : (
+                                    deflines free. Seeker anatomy (POS-D):
+                                    summary → life chapter → domain ¶s (the
+                                    TG_PATTERN analysis WEAVES invisibly into
+                                    its first matching domain ¶, owner: no
+                                    names, no boxes) → relations → state turn
+                                    (band-resolved) → shadow → body. */}
+                                {tier !== 'free' ? (() => {
+                                  const pat = p.pattern;
+                                  const patText = pat ? `${pat.reading}${pat.fusedLine ? ` ${pat.fusedLine}` : ''}` : null;
+                                  const weaveDomain = pat && p.domainReadings
+                                    ? Object.keys(p.domainReadings).find((d) => pat.targets.includes(d)) || null
+                                    : null;
+                                  const turn = elScreen.dx?.condition === 'Overfueled' ? p.turnFriction
+                                    : elScreen.dx?.condition === 'Underfueled' ? p.turnCatalyst : null;
+                                  const turnLab = elScreen.dx?.condition === 'Overfueled' ? 'Running heavy' : 'Running thin';
+                                  return (
+                                    <>
+                                      <p className="elpos-reading">{p.reading}</p>
+                                      {p.lifeChapter && (
+                                        <p className="elpos-domread"><b className="el-funclab">{p.chapter}.</b> {p.lifeChapter}</p>
+                                      )}
+                                      {p.domainReadings && Object.entries(p.domainReadings).map(([d, txt]) => (
+                                        <p className="elpos-domread" key={d}><b className="el-funclab">{d}.</b> {txt}{weaveDomain === d ? ` ${patText}` : ''}</p>
+                                      ))}
+                                      {patText && !weaveDomain && (
+                                        <p className="elpos-domread">{patText}</p>
+                                      )}
+                                      {p.relations && (
+                                        <p className="elpos-domread"><b className="el-funclab">The people.</b> {p.relations}</p>
+                                      )}
+                                      {turn && (
+                                        <p className="elpos-domread"><b className="el-funclab">{turnLab}.</b> {turn}</p>
+                                      )}
+                                      {p.shadowLine && (
+                                        <p className="elpos-domread"><b className="el-funclab">The shadow.</b> {p.shadowLine}</p>
+                                      )}
+                                      {p.healthLine && (
+                                        <p className="elpos-domread"><b className="el-funclab">The body.</b> {p.healthLine}</p>
+                                      )}
+                                    </>
+                                  );
+                                })() : (
                                   <p className="body2 el-domlock" style={{ margin: '6px 0 0' }}>The full reading of this seat opens with Seeker.</p>
                                 )}
                               </div>

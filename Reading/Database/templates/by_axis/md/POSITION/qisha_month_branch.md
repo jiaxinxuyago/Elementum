@@ -27,3 +27,9 @@
 | `reading` | This position rules Career and Health, and it holds the deep seat of your prime. The General lives inside your Month Gate: your working decades run under pressure by design, hard arenas chosen because ease bores you. Power arrives midlife through the campaigns nobody else would take. The cost center is the body: this seat spends adrenaline like salary, and the invoice lands in your forties if unpaid earlier. So train, sleep, and decompress as professionally as you fight. Command with a maintained body is a long reign. Without one it is a short story. |
 | `teaser` | Your prime runs under pressure by design: you choose hard arenas because ease bores you. Power arrives midlife, through the campaigns nobody else would take. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

@@ -79,9 +79,9 @@ Therapist/psychic register: analytical personality truth + ONE tendency-framed p
 
 ## POS-D — per-domain paragraphs + the TG_PATTERN axis (owner feedback ×3, 2026-08-19; REA_02 §5g + REA_04 §9)
 
-### POS-D-A · Constructs LIVE (2026-08-19): POSITION.domain_readings (per declared domain, 35–60w, seat panel after the summary) + TG_PATTERN axis ×9 (line + full reading 70–100w + fused_line; conditional trigger over resolved positions, FUSED tier for same-pillar, one per seat by canon priority) — station + seeder + resolver + view wired
-### POS-D-B · TEMPLATE review — domain paragraphs ×16 (the exemplar's 7 seats) + the pattern canon ×9 AWAITING OWNER LOCK → then batch domain paragraphs ×63 seats (~156 ¶)
-### POS-D-C · Canon expansion candidates (owner-ruled later): 财坏印 · 财滋杀 · 群比争财 tiers · pattern surfacing beyond seat panels (P5? Codex chapter)
+### POS-D-A · Constructs LIVE v2 (2026-08-19): patterns INVISIBLE (you-language rewrite ×9, woven into the matching domain ¶ via target_domains; names/汉字 = Codex ore; box retired) + the FULL cell anatomy (domain_readings + life_chapter under the §5e chapter names + relations 六亲 + turn_catalyst/turn_friction band-resolved + shadow_line + health_line wellness-register)
+### POS-D-B · TEMPLATE review — the rewritten pattern canon ×9 + the full anatomy ×7 seats AWAITING OWNER LOCK → then ONE batch ×63 seats (domain ¶s + 6 anatomy fields each, ≈500 units)
+### POS-D-C · Later: canon expansion (财坏印 · 财滋杀) · the Codex patterns/domains/gates chapter (where the pattern names + classical translations finally teach)
 
 ## OWNER — review & decisions (no deadline)
 

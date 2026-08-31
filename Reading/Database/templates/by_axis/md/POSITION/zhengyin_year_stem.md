@@ -27,3 +27,9 @@
 | `reading` | This position rules Family and Mind, and it rules them from your beginnings. The Sage stood openly at your Year Gate: you were sheltered by someone principled, and it shows in your bearing to this day. Learning is your inheritance, credentials, teachers, timely protection that kept arriving just before you needed it. The family gave you a moral spine and a library card, in whatever form. Expect that pattern to continue: elders, mentors, and doors that open on reputation. Repay it forward rather than backward. Shelter given is how this inheritance stays alive. |
 | `teaser` | You were sheltered by someone principled, and it shows in your bearing. Learning is your inheritance: credentials, teachers, and timely protection keep appearing across your life. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

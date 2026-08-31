@@ -27,3 +27,9 @@
 | `reading` | This position rules Social and Mind, and it rules them from your beginnings. The Virtuoso stood openly at your Year Gate: you were the bright one early, the child who outgrew the script and said so. Your mind moves faster than the crowd expects, and people sort quickly into the delighted and the offended. Both follow you for life, and both are useful. Expect your name to travel on wit and candor, and to cost you a warden or two along the way. Aim the voltage at work worth lighting. The early friction was never a flaw. |
 | `teaser` | You were the bright one early, the child who outgrew the script. Authority and you started rough, and your luck improves every year you pick your own stage. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

@@ -27,3 +27,9 @@
 | `reading` | This position rules Mind, Career, and Growth, and it holds the deep seat of your prime. The Sage lives inside your Month Gate: your working life is carried by learning, the deeper the study, the steadier the rise. Your name comes to rest on what you know, and it ages well, the way references beat headlines. Expect midlife to convert knowledge into quiet authority, students into allies, reading into rank. The hazard is gentle: shelter can become a reason to wait. Publish, apply, teach, before you feel ready. Your readiness has always lagged your ability by years. |
 | `teaser` | Your prime is carried by learning: the deeper the study, the steadier the rise. Expect your name to rest on what you know, and to age well. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

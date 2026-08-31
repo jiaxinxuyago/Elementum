@@ -22,6 +22,7 @@
 | `trigger_gods[0].0` | 正官 |
 | `trigger_gods[1].0` | 正印 |
 | `trigger_gods[1].1` | 偏印 |
+| `target_domains` | Career · Mind |
 | `line` | Your officer star feeds your seal: structure flows into learning, position into protection. Institutions treat you kindly and mentors appear inside them. Steady ascent is the wiring. |
-| `reading` | The officer star feeds your seal, the old civil-service blessing: structure flowing into learning, position into protection. In you authority and wisdom cooperate rather than compete. Institutions treat you kindly, mentors appear inside hierarchies, and your name gathers weight without scandal. The classical reading marks the steadiest kind of ascent, unhurried and unbroken. Careers in administration, medicine, law, and teaching suit the wiring. The one hazard is over-shelter: comfort inside the frame can outlast the frame’s worth. Audit the institution every few years. Loyalty is your gift, aim it well. |
+| `reading` | A protected road runs underneath: structure keeps converting into learning for you, and position into shelter. Mentors appear inside hierarchies, promotions arrive without scandal, and your name gathers weight the slow, durable way. The only hazard is staying past a frame’s worth. Audit the ladder every few years, then climb on. |
 | `fused_line` | Fused in one pillar, the blessing is concentrated: your rank and your learning rise as one column. |

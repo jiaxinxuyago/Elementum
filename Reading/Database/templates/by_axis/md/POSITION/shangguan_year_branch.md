@@ -27,3 +27,9 @@
 | `reading` | This position rules Family and Growth, and it works from the root of your story. The Virtuoso lives inside your Year Gate: some rule at home never fit, and you knew it young, quietly or otherwise. That early refusal became your growth engine, the part of you that improves whatever it is handed by first doubting it. Family may still read your honesty as rebellion. Let the results argue for you. The edge turns to brilliance in every season you give it real material, and the childhood friction fades into origin story, which is where it belongs. |
 | `teaser` | Underneath your story runs an early refusal: some rule at home never fit, and you knew it young. That edge becomes brilliance once it stops needing an audience. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

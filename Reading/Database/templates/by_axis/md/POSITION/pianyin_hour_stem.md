@@ -27,3 +27,9 @@
 | `reading` | This position rules Mind, Growth, and Career, and it shapes how your story ends. The Alchemist stands at your Hour Gate, visible in the last chapters: age sharpens your insight instead of dulling it, and your best ideas may arrive after everyone expects them. Late career bends toward the advisory and the arcane, the consulted mind, the strange mentor. The gifted and unusual young will find you, and they are your true heirs whatever the bloodline says. Publish the method before the end, in any form. Minds like yours are libraries, and libraries are meant to lend. |
 | `teaser` | Late life sharpens your insight instead of dulling it. You will mentor the strange and gifted, and your best ideas may arrive after everyone expects them. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

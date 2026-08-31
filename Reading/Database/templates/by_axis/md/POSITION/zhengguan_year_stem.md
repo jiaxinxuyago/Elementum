@@ -27,3 +27,9 @@
 | `reading` | This position rules Social and Family, and it rules them from your beginnings. The Magistrate stood openly at your Year Gate: you come from order worn in public, a respectable name, early rules, standards met where neighbors could see them. Reputation is your inheritance, and it still opens doors before you knock. People extend you trust on sight, the way they trusted the house you came from. The estate has terms: it keeps paying while you keep it clean. Carry the name lightly, break the pointless rules privately, and the worthy ones will carry you. |
 | `teaser` | You come from order worn openly: a respectable name, early rules, standards met. Reputation is your inheritance, and it keeps paying as long as you keep it clean. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |

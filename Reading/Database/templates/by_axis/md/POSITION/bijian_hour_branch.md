@@ -27,3 +27,9 @@
 | `reading` | This position rules Family and Growth, and it works in the root of your late years. The Twin lives inside your Hour Gate: your harvest runs on a few chosen equals, friends who became family, children raised to stand level with you. The root wants respect more than care, and it will trade comfort for dignity every time it is asked. So build the small circle now that you intend to grow old inside. Two or three people who never needed you weak will keep your last chapters warm, and your independence honest. |
 | `teaser` | Your later years run on a few chosen equals, friends who became family. Invest in that small circle now: it is the pension no market touches. |
 | `domain_readings` | *(unauthored)* |
+| `life_chapter` | *(unauthored)* |
+| `relations` | *(unauthored)* |
+| `turn_catalyst` | *(unauthored)* |
+| `turn_friction` | *(unauthored)* |
+| `shadow_line` | *(unauthored)* |
+| `health_line` | *(unauthored)* |
