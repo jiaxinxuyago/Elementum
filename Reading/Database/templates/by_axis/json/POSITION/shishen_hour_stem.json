@@ -22,12 +22,15 @@
     "defline": "The Artisan stands at your Hour Gate: what you show the future is the joy of making.",
     "reading": "This position rules Family and Career, and it shapes how your story ends. The Artisan stands at your Hour Gate, visible in the last chapters: what you make late in life may outshine everything before it, and the young inherit your gifts along with your recipes. Children and students take after you in the best ways, ease, kindness, appetite. Your late career leans toward mentoring, hosting, and finishing the beautiful projects the busy years postponed. Plan for a productive old age rather than a resting one. Your sweetness compounds, and the last chapters read like dessert.",
     "teaser": "What you make late in life may outshine everything before it. Children and students take after your gifts, and your last chapters read sweeter than your first.",
-    "domain_readings": null,
-    "life_chapter": null,
-    "relations": null,
-    "turn_catalyst": null,
-    "turn_friction": null,
-    "shadow_line": null,
-    "health_line": null
+    "domain_readings": {
+      "Family": "The family’s sweetness concentrates in your later role: the elder who hosts, gifts, and remembers birthdays with actual presents. Children and grandchildren take after your gifts more than your advice. Cook with them. The recipes are the will they will actually read.",
+      "Career": "Your late career leans generous: mentoring, finishing beautiful postponed projects, work that feeds people literally or otherwise. What you make after sixty may outshine the busy decades. Plan a productive late era, not a resting one. Your gift matures late and sweetens the whole story."
+    },
+    "life_chapter": "Your late chapter reads like dessert: the sweetness of the whole life concentrates at the end, projects finished, tables full, gifts landing in the right hands. Expect your last productive decades to be your most beloved ones. Schedule them like the harvest they are.",
+    "relations": "Students and grandchildren are this seat’s people: the young who inherit your ease and your recipes. They arrive hungry for exactly what you have. Feed them without curriculum. The best of you transfers over meals, never over lectures.",
+    "turn_catalyst": "Run thin, the late gift waits politely: projects postponed into someday. Finish one beautiful thing this year. Someday is a place setting, not a date.",
+    "turn_friction": "Run heavy, the hosting never closes: generous to depletion. Let the guests wash up. They have been waiting to.",
+    "shadow_line": "Overloaded, the giver retires into the giving: presence replaced by presents.",
+    "health_line": "Your late body stays kind if fed kindly: appetite is the gauge to watch. When it dims, rest before worrying. It usually only wants sleep."
   }
 }

@@ -10,13 +10,15 @@
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Social` | Your social world sorts itself early and stays sorted: a few equals held close, a wide ring kept at handshake distance. People read you as complete, which draws the strong and quietly deters the needy. Curate on purpose. Your circle is small by design, so every chair matters. |
+| `Family` | Family taught you standing, and you honor it by standing: duties met without being asked, help given without being owed. You are the relative who never calls needing something. Call anyway sometimes. The family reads your silence as distance, and it was only ever self-sufficiency. |
 
 ### The Twin inside the Year Gate · 比肩在年支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | Your family root runs on quiet capability: a house where small people were treated as able ones, and you rose to it. As an adult you hold family the same way, present, level, unfussy. The tenderness is real underneath. Let it surface before occasions force it. |
+| `Growth` | You grow from self-trust outward: every skill you own began with deciding you could. That root makes you nearly unteachable by force and endlessly teachable by choice. Choose teachers on purpose. Growth accelerates the moment you allow someone alongside. |
 
 ### The Twin at the Month Gate · 比肩在月干
 
@@ -29,61 +31,72 @@
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | Your career engine is self-propulsion: work owned whole, standards self-set, results signed. You flourish exactly where autonomy is real and suffocate where it is decorative. Interview employers for freedom before salary. Your output doubles when nobody is holding the other handle. |
+| `Growth` | Your growth compounds through mastery held outright: skills nobody can reassign, a name nobody can dilute. The plateau danger is going it alone past the point of learning. Hire teachers the way you hire tools, deliberately, and your ceiling keeps moving. |
 
 ### The Twin inside the Day Gate · 比肩在日支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Love` | In love you need a spine that matches yours: romance built on leaning never holds you, and admiration is your real aphrodisiac. The marriage that works is two captains with one map. Practice being carried occasionally. It is the single hardest and most bonding move available to you. |
+| `Social` | Your social life routes through respect: friends earned as equals, kept as family, never collected. Couple-friendships suit you, allies of the household rather than audiences for it. Keep the circle small and the standards visible. People rise to them or rotate out, and both outcomes serve. |
 
 ### The Twin at the Hour Gate · 比肩在时干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Growth` | Your growth never files for retirement: new skills past sixty, standards that keep rising after the audience leaves. What you demonstrate late becomes the masterclass. Keep one apprenticeship running, with you as either party. The last decades are for finishing the self, and you will. |
+| `Family` | To family you become the standing example: the elder who needs nothing and notices everything. Children and juniors learn independence from your bearing before your words. Add the words anyway. Demonstrated strength teaches, but narrated strength comforts, and they will need both after you. |
 
 ### The Twin inside the Hour Gate · 比肩在时支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | Your late family is chosen as much as given: friends who became kin, children raised to stand level, a table where respect outranks ceremony. The root wants peers, so become one to your own descendants. The household that debates you as an equal is the one that keeps you young. |
+| `Growth` | Growth in the last era comes through the small circle: two or three equals who never needed you weak, sharpening you to the end. Invest in those bonds now like the pension they are. Solitary strength ages fine. Companioned strength ages well. |
 
 ### The Rival at the Year Gate · 劫财在年干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Wealth` | Money entered your story moving: a childhood where fortunes shifted, generosity flowed, and nothing stayed in the vault long. You inherited the nerve and the leak together. Windfalls will find you socially all your life. Bank a fixed share of every one before the celebrating starts. |
+| `Social` | You draw people the way bold things draw crowds: quickly, warmly, and in numbers. The charm is real currency, and it buys crowds of allies with a handful of anchors. Learn to tell the two apart early. Anchors hold when the weather turns. Crowds watch. |
 
 ### The Rival inside the Year Gate · 劫财在年支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | Your family root pooled everything: money, space, claims, love. It made you generous by reflex and watchful by experience, and both instincts are correct. As an adult, formalize what the childhood left loose. Written clarity is how this family stays warm instead of expensive. |
+| `Wealth` | Wealth in your story has always had company: shared accounts, borrowed sums, the relative whose need arrives before your surplus does. Your money grows best with boundaries it never had at home. One private account, one giving budget, and generosity becomes a joy again. |
 
 ### The Rival at the Month Gate · 劫财在月干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | Your career runs on open contest: rankings, commissions, arenas with scoreboards, and you visibly alive in them. Vague collectives dull you and clear stakes sharpen you. Choose fields where winning is measurable and yours. The nerve that unsettles quiet offices is exactly what podiums pay for. |
+| `Social` | Work fills your social ledger: allies made fast, rivals made faster, both rotated often. The respect you earn in competition outlasts the friendships it costs. Keep one rival close and honored. They are the only colleague who will always tell you the truth. |
 
 ### The Rival inside the Month Gate · 劫财在月支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | Your career pulse is a gambler’s: bold moves feel safer than waiting, and the deep engine of your prime runs on stakes. Sales, ventures, turnarounds, anything scored in public suits the wiring. Pair with one patient operator and your daring becomes a business instead of a story. |
+| `Wealth` | Money through your middle decades arrives in surges and leaves through company: the win, the round of celebration, the friend’s venture, the lighter wallet. The pattern is fixable at the vault, never at the table. Automate the skim on every surge. Live richly on the rest. |
+| `Social` | Your work circle doubles as your stake pool: friends become partners, partners become costs, and the warmth is real throughout. People trust your nerve with their hopes. Deserve it with structure. The written deal is how your boldness keeps its friends. |
 
 ### The Rival inside the Day Gate · 劫财在日支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Love` | You fall for fire: partners with opinions, appetites, and their own way with money. Mild love bores you within a season, and you know it. The marriage that lasts will be vivid, occasionally loud, and genuinely alive. Choose the flame that warms without needing to win. |
+| `Wealth` | Money at close range runs contested: two strong wills, one household, accounts that blur affectionately and sting later. The fix is architectural, separate lanes, one shared road, terms agreed in calm weather. Do it early and the vividness stays fun. Skip it and every argument finds the wallet. |
 
 ### The Rival at the Hour Gate · 劫财在时干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Wealth` | Late money keeps your signature moves: the backing of bold things, the open hand, the requests that arrive dressed as opportunity. The estate survives on one discipline, the yearly number your yes can afford. Set it, give inside it freely, and generosity finishes as legacy instead of leakage. |
+| `Growth` | Your growth late in life comes through the young and daring: their ventures, their nerve, your seasoned eye on their bets. Mentoring bold people keeps your own boldness fed. Choose proteges the way you once chose risks. Carefully, then completely. |
 
 ### The Rival inside the Hour Gate · 劫财在时支
 
@@ -96,7 +109,8 @@
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Social` | Warmth is your opening move and it has never failed you: people relax on meeting you and remember the feeling. Your social capital compounds through hosting, feeding, and easing. Spend it generously. The circles you warm keep returning the temperature, usually with interest. |
+| `Health` | Your constitution arrived friendly and stays friendly under rhythm: regular meals, honest sleep, pleasure taken without guilt. The risks in your chart are excess-shaped, never fragility-shaped. Alternate the feasts with quiet days and this body carries you smiling into old age. |
 
 ### The Artisan inside the Year Gate · 食神在年支
 
@@ -109,97 +123,115 @@
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | Your career grows by appetite: the work you enjoy visibly outperforms the work you force, and everyone can tell which is which. Build the livelihood around what you would half-do for free. Enjoyment is your productivity system, and it does not transfer to joyless work. |
+| `Social` | Colleagues relax around you, which is a career asset wearing a personality: tension leaves meetings when you enter, and deals close over meals you suggested. Use the gift on purpose. The host of the working world quietly ends up owning its address book. |
 
 ### The Artisan inside the Month Gate · 食神在月支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | Craft is your deep engine: your working decades produce steadily, without drama, better than louder people manage. Making, feeding, teaching, tending, any field where the hands know things suits the wiring. Guard the routine like the machinery it is. Your career runs exactly as well as your habits. |
+| `Health` | The production line is literally your body here: output rises with sleep, falls with skipped meals, and recovers with honest rest. Treat your health as a professional asset with a maintenance schedule. Kept well, this seat delivers the rarest arc, long, calm, and improving at the end. |
 
 ### The Artisan inside the Day Gate · 食神在日支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Love` | You love by feeding, in every sense: care arrives as meals, comfort, ease made daily. The partner who suits you receives gently and returns warmth without keeping score. Beware only the taker who mistakes your table for a service counter. Love should cook for you sometimes. |
+| `Family` | Your household becomes the family’s hearth: the gathering point, the good table, the place children and strays remember. Build it on purpose, comfort is your architecture. The home you keep becomes the family’s institution, and its warmth outlives every argument held inside it. |
+| `Health` | Your health rises with home life: fed well and loved plainly, your body simply works better. The kitchen is your pharmacy and the shared table your therapy. Guard the household rhythms through busy seasons. They are holding more than the schedule shows. |
 
 ### The Artisan at the Hour Gate · 食神在时干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | The family’s sweetness concentrates in your later role: the elder who hosts, gifts, and remembers birthdays with actual presents. Children and grandchildren take after your gifts more than your advice. Cook with them. The recipes are the will they will actually read. |
+| `Career` | Your late career leans generous: mentoring, finishing beautiful postponed projects, work that feeds people literally or otherwise. What you make after sixty may outshine the busy decades. Plan a productive late era, not a resting one. Your gift matures late and sweetens the whole story. |
 
 ### The Artisan inside the Hour Gate · 食神在时支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | Your late family gathers by scent: whoever you feed becomes kin, and the kitchen stays the family’s true address. Chosen family counts fully here. Keep hosting past the point that seems sensible. The people you feed become the people who tend you, at astonishing exchange rates. |
+| `Health` | Ease deepens into your bones with age: sleep improves, appetite steadies, comfort finally guiltless. Your late health asks mostly for rhythm and company. Eat with people whenever you can manage it. Solitary meals age you faster than birthdays do. |
 
 ### The Virtuoso at the Year Gate · 伤官在年干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Social` | You entered every gathering brightly and were remembered: the quick child, the sharp tongue, the one adults quoted. Your social life still sorts people into the delighted and the offended, and both camps stay full. Curate for the delighted. They were always your real audience. |
+| `Mind` | Your mind moves ahead of the crowd and always has: patterns seen early, scripts outgrown fast, boredom arriving before permission. Feed it stages and hard problems in equal measure. Left unfed, it critiques. Fed properly, it creates. The difference is only diet. |
 
 ### The Virtuoso inside the Year Gate · 伤官在年支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | Some rule at home never fit and you knew it young: the refusal underneath your story is old and honest. As an adult, your family relationships flourish exactly where honesty is allowed. Keep telling the truth kindly. The relatives who can hear it become your real ones. |
+| `Growth` | You grow by improving what you are handed: doubting first, testing second, upgrading third. It makes you allergic to received wisdom and brilliant at revision. Give the doubt real material, systems, drafts, broken things, and it turns from rebellion into engineering. |
 
 ### The Virtuoso at the Month Gate · 伤官在月干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | The working world sees your talent before your discipline, and hires the first while praying for the second: both are real, and stages suit you better than desks. Choose careers with performance in them, pitching, teaching, creating, leading from the front. Supervision is your kryptonite and spotlight your spinach. |
+| `Social` | Your professional circle divides on contact: champions and detractors, rarely neutrals. The champions carry you further than consensus ever would. Collect them deliberately, thank them loudly, and let the detractors keep each other company. Polarizing is a strategy when the poles are chosen. |
 
 ### The Virtuoso inside the Month Gate · 伤官在月支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | Improvement is your actual profession, whatever the title says: you see the better version instantly and cannot unsee it. Careers where revision is the job, editing, design, strategy, reform, pay you for what others endure in you. Aim the critique at systems. Systems thank you. People vary. |
+| `Mind` | Your mind files the world under drafts: everything improvable, nothing finished, including your own positions. It is exhausting and it is a gift. Give it one worthy revision at a time and it produces mastery. Give it everything at once and it produces insomnia. |
 
 ### The Virtuoso inside the Day Gate · 伤官在日支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Love` | You need applause and honesty from the same person: a partner sharp enough to spar with, warm enough to clap. Banter is your love language and critique your accidental one. Praise first, polish second, always in that order. The marriage becomes a writers’ table or a courtroom. You choose nightly. |
+| `Mind` | At close range your mind stays lit: the partner gets your best material and your roughest drafts. Intimacy for you is thinking aloud with someone unafraid. Protect the play in it. The moment home becomes another venue to win, the brilliance starts costing rent. |
 
 ### The Virtuoso at the Hour Gate · 伤官在时干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | Your late work will be your boldest: the filters thin with age and the craft peaks, a dangerous, wonderful combination. Retirement in the resting sense is not on your chart. Plan a late act worth quoting. The last stage is the one they remember. |
+| `Growth` | Growth keeps its edge to your final decades, provided the stage keeps changing: new formats, new audiences, new fights worth having. Sameness ages you faster than years do. Book the unfamiliar venue at every age. Your candor matures into wisdom exactly on schedule. |
 
 ### The Virtuoso inside the Hour Gate · 伤官在时支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | Your late family stays loud with ideas: minds you trained around the table, debate as the house dialect, affection delivered as banter. The young come back for the conversation. Keep hosting it. A family that thinks together stays entertained together, and yours will. |
+| `Mind` | Your mind refuses the rocking chair: expression, correction, and dazzle continue to the end, and they keep you young more reliably than any regimen. Feed it projects and worthy arguments. An unfed mind of this voltage does not idle. It sparks. |
 
 ### The Horizon at the Year Gate · 偏财在年干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Wealth` | Money entered your story as movement: a family that spent on people and chances, fortune arriving through doors rather than vaults. You inherited the nose for openings and the light grip. Keep one anchored account beyond charm’s reach. The rest genuinely belongs in play. |
+| `Family` | Your family line carries a generous gambler: a father figure or elder whose open hands taught you about range and its price. The family fortune moved, and so does yours. Honor the generosity by adding the one thing they skipped, the floor beneath it. |
 
 ### The Horizon inside the Year Gate · 偏财在年支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | A wanderer sits in your roots: the relative who left, the migration that made the family, the restlessness passed down as inheritance. Your bonds stretch across distances and hold. Keep the far ones fed with visits and calls. Your family was built by journeys, and it maintains by them. |
+| `Wealth` | Your fortune has a passport: opportunity favors you away from home, in unfamiliar markets, foreign tables, the places comfort avoids. Build the base camp, then range from it. Money made at distance banks best near home. Complete the circuit every time. |
 
 ### The Horizon at the Month Gate · 偏财在月干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | The working world reads you as the one who spots the opening: the tip, the timing, the door others walked past. Careers in deals, scouting, connecting, anything with a hunt in it, pay your instinct properly. Salaried stillness dulls you. Keep a hunt in the portfolio always. |
+| `Wealth` | Your money arrives in windfalls and timing, and leaves through generosity and drift: both flows are real and only one has a valve. Harvest every windfall into something boring before celebrating. The instinct finds the money. The discipline keeps enough to hunt again. |
+| `Social` | Your network is an asset class: contacts on every shelf, favors in circulation, introductions as your signature product. Tend it like the portfolio it is, deliberately, generously, with records. The person who connects everyone eventually holds the gathering’s real wealth. |
 
 ### The Horizon inside the Month Gate · 偏财在月支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | A trader’s instinct runs your deep engine: value sensed moving before it moves, fields read the way farmers read sky. Careers in markets, sourcing, and scouting suit the wiring outright. In any other field, be the one who sees around corners. That is the job under your job. |
+| `Wealth` | Your middle decades earn in cycles: surge, harvest, quiet, surge. The skill is keeping harvest discipline inside the hunting spirit, skimming every peak into something patient. Let a steady partner mind the vault. Paired that way, the cycles compound instead of merely repeating. |
 
 ### The Horizon inside the Day Gate · 偏财在日支
 
@@ -213,13 +245,15 @@
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Wealth` | Your money stays lively to the end: late ventures, late windfalls, a door that never fully closes. The estate needs a map early, because your generosity will outrun your paperwork by a decade. Write it down while it is easy. Then keep playing. You are built for a wide ending. |
+| `Growth` | Late growth arrives through new fields: ventures entered past the age of supposed settling, younger company keeping your range honest. The horizon habit is your youth serum. Enter one unfamiliar arena per era. Curiosity is the muscle, and yours refuses to atrophy. |
 
 ### The Horizon inside the Hour Gate · 偏财在时支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | Your late family scatters and gathers: children across distances, reunions in bursts, love maintained by journeys and full tables. Fund the gatherings without apology. They are the family’s true estate, and you were always going to be their patron. |
+| `Wealth` | Late money stays in motion here: ventures, travels, the family’s expansions all drawing on your width. The root asks one discipline, a floor that never travels. Set it, forget it, and let everything above it circulate the way your fortune always preferred. |
 
 ### The Steward at the Year Gate · 正财在年干
 
@@ -232,25 +266,29 @@
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | Your family root kept its word about money: a house that counted, saved, and never dramatized it. You inherited solvency as a temperament. Family remains your soundest network, help flowing reliably both ways. Keep the ledgers kind, and this root funds generations. |
+| `Wealth` | Your fortune compounds from underneath: early habits, quiet accounts, patience the loud world mistakes for luck. Wealth for you is sedimentary, layer on layer until it is ground. Never interrupt the compounding for spectacle. Boring is your edge, and it is winning. |
 
 ### The Steward at the Month Gate · 正财在月干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | The working world trusts you with the keys and should: budgets balance near you, chaos organizes, value stays kept. Stewardship roles pay you in rank and in reputation, and the reputation compounds longer. Charge properly for reliability. It is a premium service wearing modest clothes. |
+| `Wealth` | Your wealth arrives on schedule: salary banked, increments earned, the curve smooth where others spike and crash. The pattern rewards patience and punishes borrowed excitement. Stay in your own lane and the lane keeps rising. Predictability, in your case, is the fortune. |
 
 ### The Steward inside the Month Gate · 正财在月支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | Earned ground is your deep engine: income you can explain, skills you maintain, promises you keep. Careers reward you the way soil rewards farmers, seasonally, honestly, cumulatively. Avoid ventures requiring you to become someone else. Your character is the business model. |
+| `Wealth` | Your wealth curve is unfashionably smooth: slower than wanted at first, further than guessed by the end. The engine is patience with compounding, and it runs your middle decades with quiet power. Protect it from excitement. Every boring year is secretly a very good one. |
 
 ### The Steward inside the Day Gate · 正财在日支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Love` | You are made for steady love: a partner who keeps what you build and builds what you keep. Romance for you is reliability with warmth in it, promises kept on ordinary Tuesdays. Schedule the delight alongside the duties. Maintenance is your love language, and delight is its grammar. |
+| `Family` | Your household runs provisioned: bills paid, pantry full, small people secure without knowing why. The home you keep becomes the family’s steady point, and its calm outlasts every storm that visits. Build it thoroughly. Everyone you love will shelter there eventually. |
 
 ### The Steward at the Hour Gate · 正财在时干
 
@@ -263,109 +301,134 @@
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | Your late family rests on your provision: the root of the last decades is a household squared away, heirs taught thrift by demonstration, care funded before it is needed. Narrate the choices occasionally. The lesson outlasts the money, and it cannot be misspent. |
+| `Health` | Your late health answers to stewardship: maintenance over heroics, checkups kept like appointments with yourself, moderation without misery. The body rewards the ledger-keeper’s patience. Tend it the way you tend accounts, regularly, and it funds a long retirement. |
+| `Wealth` | Money finishes stable here: the estate lands where you point it, the household never feels the weather, and the floor holds. The discipline built it. Now spend some comfort on yourself deliberately. You will have earned it twice over by then. |
 
 ### The General at the Year Gate · 七杀在年干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Social` | Your social world sorts by respect: people either match your intensity or orbit it, and both arrangements work. You entered every group as a force and learned diplomacy later, if at all. Keep two peers who push back. Command without friction forgets its own weight. |
+| `Career` | Authority found you young, first as weight, then as rank: careers with stakes keep finding you, and you keep converting them. The early pressure became your qualification. Choose arenas worth the armor. You will wear it either way, so aim it. |
 
 ### The General inside the Year Gate · 七杀在年支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | Some early weight pressed where no one watched, and you turned it into spine: your family story holds a hidden forge. As an adult you protect the household the way you were never protected. Let them see the softness occasionally. Protection with warmth lands twice as deep. |
+| `Growth` | Crisis promotes you, ease unsettles you: the hidden pressure of your first years set the growth pattern for life. Choose difficulty on purpose now, training, hard projects, honest stakes, and the old reflex becomes an engine instead of a scar. |
+| `Health` | The body kept the campaign records: tension is your inheritance alongside the strength. Train the load deliberately and rest like it is a discipline, because for you it is. Managed, this constitution outlasts everyone. Unmanaged, it invoices in your forties. |
 
 ### The General at the Month Gate · 七杀在月干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | The working world reads command on you before you speak: careers with stakes suit your prime, operations, crises, leadership under weather. Your rank rises fastest exactly where others crack. Choose battles worth your metal and delegate the skirmishes. Midlife hands you real authority either way. |
+| `Social` | Colleagues respect you first and warm to you second, in that order, always: your professional circle is built of proven people. The intensity that deters the casual attracts the serious. Keep one irreverent friend on staff. Command needs a court jester it trusts. |
 
 ### The General inside the Month Gate · 七杀在月支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | Pressure by design runs your deep engine: hard arenas chosen because ease bores you, power arriving midlife through campaigns nobody else would take. The wiring is elite and expensive. Service the machine, sleep, training, decompression, and the reign runs long. |
+| `Health` | This seat spends the body like salary: adrenaline drawn daily, invoices deferred. The forties collect if the thirties never paid. Train hard, rest harder, and treat decompression as a professional skill. A maintained commander is a long reign. An unmaintained one is a short story. |
 
 ### The General inside the Day Gate · 七杀在日支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Love` | You are drawn to intensity at close range: a partner with force, a home with weather, love that has never once been mild. The marriage thrives when you two aim the pressure outward, shared missions, shared builds, shared adversaries. Inward, the same voltage becomes the argument without end. Aim it. |
+| `Health` | Your body scores every domestic round: contested seasons land in your sleep, your shoulders, your appetite. Peace at home is a physical program here. Make up before midnight as a health practice, and the constitution stays formidable. |
 
 ### The General at the Hour Gate · 七杀在时干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | You will command to the end: boards, councils, the midnight call that still comes because you still answer. Late authority is your pattern, and it deepens rather than fades. Keep one campaign running past every retirement age. Purpose is your pension, and this gate pays it in rank. |
+| `Growth` | Late growth arrives through command refined: the same force, better aimed, more economical, increasingly wise. The last decades teach you to win without spending soldiers. Mentor the fierce young. Teaching restraint is the final promotion. |
+| `Family` | Heirs inherit your standards and flinch at your delivery: the family feels your protection more than your softness, and relies on both. Soften the orders and the loyalty doubles. Praise before correcting, always. They have been measuring themselves against you for decades. |
 
 ### The General inside the Hour Gate · 七杀在时支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Health` | Your late body responds to training like an old soldier, gratefully and fast: strength returns on demand, stiffness arrives through pride. March daily, stretch nightly, rest like an order. Managed this way, the constitution outlasts every prediction made about it. |
+| `Family` | Your late family lives inside your protection: they feel the perimeter more than the embrace, and both are love. Let the walls show their doors. The household that knows it is guarded and knows it is cherished gives you the finest last years available. |
+| `Growth` | Discipline never quite retires in you, and late growth rides it: new practices, kept standards, one more campaign than planned. The root stays strong through use. Keep a gate open for rest and visitors. Fortresses age best with gardens. |
 
 ### The Magistrate at the Year Gate · 正官在年干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Social` | People extend you trust on sight: the respectable name you came from still walks ahead of you. Your social standing is inherited capital, and it compounds while you keep it clean. Spend it opening doors for others. Reputation grows fastest in escrow. |
+| `Family` | You come from order worn openly: a family of standards met where neighbors could see. The name carries expectations and privileges in equal weight. Carry it lightly, break the pointless rules privately, and hand it forward improved. That is the whole assignment. |
 
 ### The Magistrate inside the Year Gate · 正官在年支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | Discipline was the air of your early home, felt more than announced: it gave you a straight spine before you knew you had one. Family bonds run on kept expectations. Keep them from love, never from fear. The difference decides how the order ages in you. |
+| `Growth` | Your growth follows structure: courses finished, ranks earned, standards internalized young and upgraded ever since. You climb frameworks the way vines climb trellises. Choose worthy frames and audit them regularly. Your discipline deserves architecture that deserves it. |
 
 ### The Magistrate at the Month Gate · 正官在月干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | The working world sees the officer in you: reliable, correct, promotable, and it responds with rank. Titles find you and stick. Your name will matter more than your salary and eventually decide it. Keep the record clean and the climb takes care of itself. |
+| `Social` | You are the one made responsible: emergency contact of departments, keeper of the calendars, the colleague adults trust. It is how your circle pays respect. Accept the role and price it. Also keep one lawless hobby. Even judges need a garden. |
 
 ### The Magistrate inside the Month Gate · 正官在月支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | Duty done properly is the frame of your working life: your growth compounds inside institutions the way interest compounds inside banks. Midlife hands you titles that stay. The deep cost is elasticity. Renegotiate your role every few years on purpose. Structure serves best reviewed. |
+| `Growth` | You grow inside frameworks and outgrow them on schedule: each structure teaches, then confines, then hands you to the next. Honor the rhythm. The promotion beyond a frame is also a form of loyalty to it. Climb without guilt. |
+| `Social` | People organize around your steadiness: teams stabilize, committees function, chaos finds its filing system. Your influence wears reliability’s plain clothes. Know exactly what that is worth. The one who keeps things standing quietly decides what stands. |
 
 ### The Magistrate inside the Day Gate · 正官在日支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Love` | You are built for committed love: a principled partner, promises kept on ordinary days, romance that arrives with weight and stays. Things settle for you once the ring does. Choose character first, chemistry a close second, and honor the small ceremonies. This palace runs on kept form. |
+| `Family` | Your household runs on kept promises: standards visible, duties shared, a home other families point to. The order is real affection wearing its work clothes. Add the unscheduled tenderness. A correct house with warm corners is the full inheritance. |
 
 ### The Magistrate at the Hour Gate · 正官在时干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | Children and juniors measure themselves against your standards, quietly and for decades: praise them before you correct them and the measuring becomes love. Your late family holds you as its reference point. Be a warm one. The standard they inherit should include kindness to themselves. |
+| `Social` | Your standing grows with age: honors late, respect that outlives the job, a name consulted after the title expires. The community keeps electing you to things. Serve what deserves it. Late reputation is the purest kind, spend it on worthy causes. |
+| `Career` | Your late career leans toward governance: boards, councils, the keeping of institutions you once merely served. Endings are your specialty, so make yours exemplary. The trusted name is rarer than the missed one. You are building the first. |
 
 ### The Magistrate inside the Hour Gate · 正官在时支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | Order is the root of your late family: affairs settled, duties completed, a household that trusts your word because it never broke. Your legacy will be reliability itself. Add stories to the estate. The paperwork protects them, the telling makes them family. |
+| `Growth` | Late growth is refinement here: the same values held to higher polish, wisdom as quality control. You do not reinvent in the last decades, you perfect. Finish the character the way craftsmen finish wood, patiently, until it glows. |
 
 ### The Alchemist at the Year Gate · 偏印在年干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Mind` | Your mind was visibly different from the start: reading sideways, learning at strange angles, arriving at answers by unlisted roads. It remains your public signature, the odd lens people eventually pay for. Feed it strangeness on schedule. Ordinary inputs starve extraordinary instruments. |
+| `Social` | You run selective and always have: three real people over thirty acquaintances, depth over circulation. The watchful child became the adult others confide in precisely because you are not everywhere. Keep the ratio. Your social wealth was never meant to be liquid. |
 
 ### The Alchemist inside the Year Gate · 偏印在年支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | Nurture came to you sideways: through books, silence, an unconventional guardian, or a house where love spoke in ideas. The family remains slightly puzzled by you, lovingly. Translate yourself occasionally. They funded the library without reading it, and that too was love. |
+| `Mind` | Your mind feeds itself and always has: self-taught in the corners, curious past every curriculum. The root gives you intellectual self-sufficiency most people never develop. Trust it. What you teach yourself stays taught, and the syllabus was always yours. |
+| `Growth` | Growth arrives through the unusual door in every era of your life: the odd mentor, the sideways opportunity, the path nobody recommended. Keep walking through those. The conventional doors were never locked. They were just empty for someone built like you. |
 
 ### The Alchemist at the Month Gate · 偏印在月干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | The working world sees your odd angle first: the specialist, the diagnostician, the one who reads between. Your niche will always outpay the ladder, and your reputation compounds through solved unsolvables. Name the specialty publicly. Obscurity is the only tax on this gate. |
+| `Mind` | Insight is your professional instrument: you are paid for what you notice, and you notice what training cannot teach. Protect the conditions it needs, quiet, autonomy, strange inputs. The mind that reads between lines cannot work in constant company. |
 
 ### The Alchemist inside the Month Gate · 偏印在月支
 
@@ -379,58 +442,76 @@
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Love` | You need a partner who respects your inner weather: closeness with breathing space built in, marriage as two studies with a shared door. The one who pathologizes your solitude will exhaust you. The one who guards it will keep you. Choose the guard, then open your door on schedule. |
+| `Mind` | At close range your mind stays private even in love: processing alone, concluding aloud. The partner learns your silences carry work, never distance. Teach them the difference early. Intimacy for you is a practice with a rhythm, and the rhythm is learnable. |
 
 ### The Alchemist at the Hour Gate · 偏印在时干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Mind` | Age sharpens your insight instead of dulling it: the late mind grows stranger and more precise at once. Your best ideas may arrive after everyone expects them. Keep the instrument in daily use. Minds like yours are libraries, and libraries are meant to lend. |
+| `Growth` | Late growth bends toward the arcane: deeper study, rarer knowledge, mastery of what few pursue. The last decades reward your appetite for the overlooked. Publish the method in any form. What you refined alone deserves witnesses eventually. |
+| `Career` | Your late career turns advisory: the consulted mind, the strange mentor, the diagnostician emeritus. The gifted and unusual young will find you, whatever door you hide behind. Leave it ajar on purpose. They are your true heirs, whatever the bloodline says. |
 
 ### The Alchemist inside the Hour Gate · 偏印在时支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | Your late family includes the minds you shaped: apprentices as kin, kin as students, a household that respects a shut door. The bonds are quiet and permanent. Emerge for the meals. The family learns you by your returns, and the returns are what they keep. |
+| `Mind` | The inner library is where your last chapters live: study, intuition, chosen quiet, depth as the one asset that only accrues. Age suits this mind unusually well. Keep a practice that pours it outward, notes, letters, one late apprentice. Poured, it stays lit. |
+| `Growth` | Late growth is distillation: everything learned reducing to what was essential, wisdom by evaporation. The last era refines rather than accumulates. Trust the reduction. What remains at the bottom of the still is the inheritance. |
 
 ### The Sage at the Year Gate · 正印在年干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | You were sheltered by someone principled and it shows in your bearing: the protection of your early years installed a baseline trust most people have to construct. Family remains your first reference for safety. Repay the shelter forward. It was always meant to travel. |
+| `Mind` | Learning is your inheritance: credentials, teachers, timely knowledge arriving just before you needed it. Your mind was raised expecting to be taught, and it kept the posture. Stay a student in every decade. The inheritance pays out only while enrolled. |
 
 ### The Sage inside the Year Gate · 正印在年支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | Real nurture sits deep in your foundations: a mother-warmth that took, or a caretaker whose steadiness became your nervous system. You default to trust because trust was proven early. Guard the default. It is rarer than any talent and worth more. |
+| `Growth` | Growth follows safety in your chart: you attempt best from shelter, learn best when held. Build the secure base before every leap, deliberately. It is not timidity. It is your actual architecture, and everything you build from it succeeds sooner. |
+| `Health` | Your constitution is fundamentally kind: healing well, aging gently, forgiving much. It asks one thing, that you accept care instead of only providing it. Let yourself be tended through every illness. The body remembers who let it be loved. |
 
 ### The Sage at the Month Gate · 正印在月干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Career` | The working world reads you as credible: the one with the knowledge and the calm, promoted through reputation and study rather than push. Elders open your doors. Keep learning in public. Every course and kindness compounds into the name that becomes your salary’s engine. |
+| `Mind` | Your mind advances by absorption: study that becomes instinct, knowledge worn so naturally it reads as temperament. You learn continuously and forget to claim it. Claim it. Credentials are your native currency, and the mint is always open. |
+| `Social` | You become the counselor early: the colleague consulted, the friend who holds confidences, the calm one in every storm. The role deepens with rank. Set its hours. Even the counsel table needs closing time, and yours never learned one. |
 
 ### The Sage inside the Month Gate · 正印在月支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Mind` | Learning carries your working life: the deeper the study, the steadier the rise. Your name comes to rest on what you know, and it ages the way references beat headlines. Publish, apply, teach before you feel ready. Your readiness always lagged your ability by years. |
+| `Career` | Midlife converts your knowledge into quiet authority: students into allies, reading into rank. The career compounds through depth, never through noise. Trust the conversion. What you studied in obscurity gets promoted in daylight, reliably, on this seat’s schedule. |
+| `Growth` | The hazard of your growth is gentle: shelter can become a reason to wait. Comfortable competence delays the leap this seat was built for. Set launch dates and honor them. Growth here needs deadlines the way gardens need fences. |
 
 ### The Sage inside the Day Gate · 正印在日支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Love` | You are built to be cared for at close range, and to trust it: marriage brings shelter, a partner whose steadiness becomes your second spine. Choose the nurturer over the dazzler, and your chart means it. Then receive well. Being tended without auditing is the whole lesson. |
+| `Family` | Your household runs on kindness kept ordinary: care as climate, gentleness as policy. The home becomes everyone’s recovery ward eventually, and yours first. Protect its softness fiercely. In a hard world, a gentle house is a strategic asset. |
+| `Health` | Your health answers to your home: peace at the table shows up in your bloodwork. The body keeps score of domestic weather and pays dividends on calm. Invest in household peace as preventive medicine. It outperforms every supplement you will ever buy. |
 
 ### The Sage at the Hour Gate · 正印在时干
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | You end as the family’s consulted elder: knowledge kept warm and given away, protection extended to the third generation. Children and students carry your teaching further than your name. Teach deliberately in the last decades. History keeps the shelter you build. |
+| `Growth` | Late growth gives the learning form: classes, letters, a shelf of notes that outlives you. The last era converts wisdom into artifacts. Make them physical. What you write down becomes the estate that never probates. |
+| `Mind` | Your mind ages like a library in good hands: cataloged, warm, increasingly visited. Clarity holds because you keep lending it. Stay in circulation always, questions answered, letters returned promptly. The consulted mind is the preserved one. |
 
 ### The Sage inside the Hour Gate · 正印在时支
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `Family` | Quiet backing is your late family’s shape: children who shelter you, goodwill banked across decades paying out as care. You taught them how by example. Accept the tending when it comes. They learned it watching you, and refusing it ungrades the lesson. |
+| `Health` | Kindness banked early pays your old age: sleep that comes easily, a body tended by people who want to tend it. Your late health is communal property in the best sense. Keep the gentle routines and the gentle company. Both are prescription. |
+| `Mind` | The mind stays clear the way tended gardens stay green: routine, reading, company gentle by default. Late clarity is a maintained garden, never an accident. Keep the daily reading and the weekly conversations. They are the fence and the watering. |

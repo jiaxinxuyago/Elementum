@@ -22,12 +22,15 @@
     "defline": "Order stands at your Year Gate: respectability is the first thing your story shows.",
     "reading": "This position rules Social and Family, and it rules them from your beginnings. The Magistrate stood openly at your Year Gate: you come from order worn in public, a respectable name, early rules, standards met where neighbors could see them. Reputation is your inheritance, and it still opens doors before you knock. People extend you trust on sight, the way they trusted the house you came from. The estate has terms: it keeps paying while you keep it clean. Carry the name lightly, break the pointless rules privately, and the worthy ones will carry you.",
     "teaser": "You come from order worn openly: a respectable name, early rules, standards met. Reputation is your inheritance, and it keeps paying as long as you keep it clean.",
-    "domain_readings": null,
-    "life_chapter": null,
-    "relations": null,
-    "turn_catalyst": null,
-    "turn_friction": null,
-    "shadow_line": null,
-    "health_line": null
+    "domain_readings": {
+      "Social": "People extend you trust on sight: the respectable name you came from still walks ahead of you. Your social standing is inherited capital, and it compounds while you keep it clean. Spend it opening doors for others. Reputation grows fastest in escrow.",
+      "Family": "You come from order worn openly: a family of standards met where neighbors could see. The name carries expectations and privileges in equal weight. Carry it lightly, break the pointless rules privately, and hand it forward improved. That is the whole assignment."
+    },
+    "life_chapter": "Your early chapter wore a pressed collar: rules early, standards visible, a name that behaved in public. The order of those years gave you a bearing people still trust on sight. Expect doors to keep opening on reputation. Keep the hinges honest.",
+    "relations": "The upstanding elders are this seat’s people: parents or grandparents whose correctness was both shelter and script. You inherited their standing and their expectations together. Honor the first, renegotiate the second. Both acts are filial.",
+    "turn_catalyst": "Run thin, the name goes unused: standing inherited, doors unknocked. Trade on the reputation once this season. It was left to you for using.",
+    "turn_friction": "Run heavy, the collar tightens: propriety policing your every appearance. Be unremarkable somewhere weekly, deliberately.",
+    "shadow_line": "Overloaded, the name wears you: a life curated for an audience of ancestors.",
+    "health_line": "Your body holds itself correctly and pays in stiffness: posture perfect, shoulders carrying the family name. Slouch somewhere safe, regularly."
   }
 }

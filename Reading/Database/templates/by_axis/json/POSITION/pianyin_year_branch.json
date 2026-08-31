@@ -23,12 +23,16 @@
     "defline": "The Alchemist lives inside your Year Gate: your root drinks from an odd, deep well.",
     "reading": "This position rules Family, Mind, and Growth, and it works from the root of your story. The Alchemist lives inside your Year Gate: nurture came to you sideways, through books, silence, an unconventional guardian, or a house where love spoke in ideas. It built a mind that feeds itself. Solitude restores you, and always will, so treat it as nutrition rather than absence. Family may stay slightly puzzled by you, lovingly. Growth arrives through the unusual door in every era of your life. Keep walking through those. The conventional ones were never locked. They were just empty.",
     "teaser": "Your roots hold an unusual nurture: care that came sideways, through books, silence, or an unconventional guardian. Solitude restores you, and always will.",
-    "domain_readings": null,
-    "life_chapter": null,
-    "relations": null,
-    "turn_catalyst": null,
-    "turn_friction": null,
-    "shadow_line": null,
-    "health_line": null
+    "domain_readings": {
+      "Family": "Nurture came to you sideways: through books, silence, an unconventional guardian, or a house where love spoke in ideas. The family remains slightly puzzled by you, lovingly. Translate yourself occasionally. They funded the library without reading it, and that too was love.",
+      "Mind": "Your mind feeds itself and always has: self-taught in the corners, curious past every curriculum. The root gives you intellectual self-sufficiency most people never develop. Trust it. What you teach yourself stays taught, and the syllabus was always yours.",
+      "Growth": "Growth arrives through the unusual door in every era of your life: the odd mentor, the sideways opportunity, the path nobody recommended. Keep walking through those. The conventional doors were never locked. They were just empty for someone built like you."
+    },
+    "life_chapter": "Your early chapter grew in the margins: nourishment found sideways, wisdom gathered from unassigned shelves. Those quiet roots feed everything unusual and valuable about you now. Expect your beginnings to make sense only in retrospect, and gloriously.",
+    "relations": "The unconventional guardian is this seat’s person: whoever fed your mind when the standard channels missed you, a grandmother of odd wisdom, an absent parent’s bookshelf. The nurture was real and strangely shaped. Honor it by nurturing strangely too.",
+    "turn_catalyst": "Run thin, the margins go unread: the self-feeding mind on rations. Claim your hour of strange study daily. It is nourishment, literally.",
+    "turn_friction": "Run heavy, the sideways becomes the only direction: help refused unless unusual. Accept one ordinary kindness plainly.",
+    "shadow_line": "Overloaded, the root hides in its own depth: fed alone, known by none.",
+    "health_line": "Your constitution is quietly particular: it thrives on routines others find austere and sickens on excess others call fun. Trust your settings."
   }
 }

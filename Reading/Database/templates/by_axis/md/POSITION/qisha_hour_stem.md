@@ -26,10 +26,12 @@
 | `defline` | The General stands at your Hour Gate: your later years keep rank, and the young feel it. |
 | `reading` | This position rules Career, Growth, and Family, and it shapes how your story ends. The General stands at your Hour Gate, visible in the last chapters: you will command to the end, and the young will both fear and follow you. Late authority is your pattern, boards, councils, the call that still comes at midnight because you still answer. Heirs inherit your standards and flinch at your delivery, so soften the orders and the loyalty doubles. Keep one campaign running past retirement age. Purpose is your pension, and this gate pays it in rank. |
 | `teaser` | You will command to the end, and the young will both fear and follow you. Late authority is yours: soften the orders and the loyalty doubles. |
-| `domain_readings` | *(unauthored)* |
-| `life_chapter` | *(unauthored)* |
-| `relations` | *(unauthored)* |
-| `turn_catalyst` | *(unauthored)* |
-| `turn_friction` | *(unauthored)* |
-| `shadow_line` | *(unauthored)* |
-| `health_line` | *(unauthored)* |
+| `domain_readings.Career` | You will command to the end: boards, councils, the midnight call that still comes because you still answer. Late authority is your pattern, and it deepens rather than fades. Keep one campaign running past every retirement age. Purpose is your pension, and this gate pays it in rank. |
+| `domain_readings.Growth` | Late growth arrives through command refined: the same force, better aimed, more economical, increasingly wise. The last decades teach you to win without spending soldiers. Mentor the fierce young. Teaching restraint is the final promotion. |
+| `domain_readings.Family` | Heirs inherit your standards and flinch at your delivery: the family feels your protection more than your softness, and relies on both. Soften the orders and the loyalty doubles. Praise before correcting, always. They have been measuring themselves against you for decades. |
+| `life_chapter` | Your late chapter keeps the watch: the last decades carry authority that refuses to retire, and the young both fear and follow you. Expect to be consulted in every crisis until the end. Plan the softening deliberately. Late warmth from a commander lands like knighthood. |
+| `relations` | The heirs and lieutenants are this seat’s people: children and juniors formed by your standards, marked by your delivery. They will quote you at their own troops someday. Give them one tenderness for every ten instructions. That ratio becomes the memory. |
+| `turn_catalyst` | Run thin, the watch goes unmanned: authority ready, service declined. Answer the next call. The chapter honors those still answering. |
+| `turn_friction` | Run heavy, command outlives its wars: household run like a garrison. Decommission one rule per season. |
+| `shadow_line` | Overloaded, the general cannot demobilize: peace administered instead of enjoyed. |
+| `health_line` | Your late strength is real and it hoards tension: the guard duty never quite ends in the body. Put the armor down nightly, with ceremony if needed. |

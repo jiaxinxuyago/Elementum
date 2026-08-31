@@ -26,10 +26,11 @@
 | `defline` | The Artisan holds your chart’s strongest seat: your prime runs on craft, flow, and sustainable pleasure. |
 | `reading` | This position rules Career and Health, and it holds the deep seat of your prime. The Artisan lives inside your Month Gate: craft sits in your bones, and your working decades produce steadily, without drama, better than louder people manage. The engine is physical. Your output rises and falls with sleep, food, and routine, so the production line is literally your body. Careers in making, feeding, teaching, and tending pay you twice. Guard the habits the way others guard titles. Kept well, this seat gives you the rarest career arc: long, calm, and still improving at the end. |
 | `teaser` | Craft sits in your bones: your prime years produce steadily, without drama, and better than louder people. Guard your health and routine, they are your production line. |
-| `domain_readings` | *(unauthored)* |
-| `life_chapter` | *(unauthored)* |
-| `relations` | *(unauthored)* |
-| `turn_catalyst` | *(unauthored)* |
-| `turn_friction` | *(unauthored)* |
-| `shadow_line` | *(unauthored)* |
-| `health_line` | *(unauthored)* |
+| `domain_readings.Career` | Craft is your deep engine: your working decades produce steadily, without drama, better than louder people manage. Making, feeding, teaching, tending, any field where the hands know things suits the wiring. Guard the routine like the machinery it is. Your career runs exactly as well as your habits. |
+| `domain_readings.Health` | The production line is literally your body here: output rises with sleep, falls with skipped meals, and recovers with honest rest. Treat your health as a professional asset with a maintenance schedule. Kept well, this seat delivers the rarest arc, long, calm, and improving at the end. |
+| `life_chapter` | Your rising chapter is a workshop: the prime decades accumulate skill the way kilns accumulate heat, slowly, evenly, until everything you touch comes out finished. Expect mastery around forty that looks sudden to others. It was daily. Keep the bench hours sacred. |
+| `relations` | Fellow makers are this seat’s people: the colleagues who respect craft, the mentors who taught by hand, eventually the apprentices who watch yours. Family learns to find you in the workshop. Invite them in sometimes. The craft was always partly for them. |
+| `turn_catalyst` | Run thin, the bench sits idle: skill present, practice postponed. Return to daily making, however small. The engine restarts on routine. |
+| `turn_friction` | Run heavy, the workshop becomes the world: craft perfect, life unattended. Close the bench at a fixed hour. |
+| `shadow_line` | Overloaded, making becomes hiding: beautiful output, unvisited maker. |
+| `health_line` | Body and craft share one engine here: strain shows in the work before the mirror. When quality dips, prescribe sleep before practice. |

@@ -26,10 +26,11 @@
 | `defline` | Opportunity lives inside your Hour Gate: your harvest arrives from many fields, some you forgot planting. |
 | `reading` | This position rules Family and Wealth, and it works in the root of your late years. The Horizon lives inside your Hour Gate: your late chapters keep a wide door, travel, ventures, younger company, family scattered across distances and gathered in bursts. Money in the last era stays in motion, and so do you, which is precisely how your luck prefers it. Children and heirs inherit your range, and possibly your restlessness. Fund the gatherings: they are the family’s true estate. Stillness is the only real risk on this root. Keep one journey always half-planned. |
 | `teaser` | Your late years keep a wide horizon: travel, ventures, younger company. Fortune stays kind to you as long as something in your life stays in motion. |
-| `domain_readings` | *(unauthored)* |
-| `life_chapter` | *(unauthored)* |
-| `relations` | *(unauthored)* |
-| `turn_catalyst` | *(unauthored)* |
-| `turn_friction` | *(unauthored)* |
-| `shadow_line` | *(unauthored)* |
-| `health_line` | *(unauthored)* |
+| `domain_readings.Family` | Your late family scatters and gathers: children across distances, reunions in bursts, love maintained by journeys and full tables. Fund the gatherings without apology. They are the family’s true estate, and you were always going to be their patron. |
+| `domain_readings.Wealth` | Late money stays in motion here: ventures, travels, the family’s expansions all drawing on your width. The root asks one discipline, a floor that never travels. Set it, forget it, and let everything above it circulate the way your fortune always preferred. |
+| `life_chapter` | Your late chapter keeps a wide root: the last decades hold travel, ventures, scattered kin gathered in bursts, and a fortune that prefers motion to rest. Expect old age with a suitcase half-packed. The design suits you. Keep one journey always in planning. |
+| `relations` | The scattered heirs are this seat’s people: children and grandchildren across distances, inheriting your range and possibly your restlessness. You hold the web by moving along it. Visit in rotation, host in seasons. The family stays whole because you circulate. |
+| `turn_catalyst` | Run thin, the gatherings thin too: distances winning by default. Book the reunion. This root is maintained, never inherited. |
+| `turn_friction` | Run heavy, the motion scatters the center: everywhere visited, nowhere kept. Name a home base and defend its calendar. |
+| `shadow_line` | Overloaded, circulation replaces connection: many visits, few arrivals. |
+| `health_line` | Movement is your late medicine: the body stays young in transit and stiffens in storage. Walk far, fly occasionally, sit least. |

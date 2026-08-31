@@ -9,7 +9,7 @@
 | Archetype | Key | Value |
 |---|---|---|
 | **The Artisan tames the General** | 食神制杀 | The two share one pillar in you, so this alchemy runs close to the bone: pressure converts almost instantly. |
-| **The Virtuoso harnessed by the Sage** | 伤官配印 | Sharing one pillar, the pairing is seamless in you: your talent and your training speak with one voice. |
+| **The Virtuoso harnessed by the Sage** | 伤官配印 | Sharing one pillar, the pairing is native in you: your talent and your training speak with one voice. |
 | **The Alchemist starves the Artisan** | 枭神夺食 | In you they share a single pillar, so the tug is constant: guard your finishing rituals fiercely. |
 | **The Virtuoso confronts the Magistrate** | 伤官见官 | They sit in one pillar in you, so the friction is native: build your own structure early. |
 | **Pressure feeds the Sage** | 杀印相生 | Fused in one pillar, the conversion is immediate for you: pressure barely lands before it becomes lesson. |

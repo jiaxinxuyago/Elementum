@@ -26,10 +26,11 @@
 | `defline` | Opportunity stands at your Hour Gate: your later years keep a venture warm and a bag half packed. |
 | `reading` | This position rules Wealth and Growth, and it shapes how your story ends. The Horizon stands at your Hour Gate, visible in the last chapters: you stay opportunity’s friend to the end, late ventures, late windfalls, a door that never quite closes. Younger company keeps finding you, drawn to the range. Your growth in the last era comes from new fields entered late, and it keeps you vivid. The estate needs a map, because your generosity will outrun your paperwork by a decade. Write it down while it is easy. Then keep playing. You are built for a wide ending. |
 | `teaser` | You will stay opportunity’s friend to the end: late ventures, late windfalls, a wide door. Leave the estate mapped, because your generosity will outrun your paperwork. |
-| `domain_readings` | *(unauthored)* |
-| `life_chapter` | *(unauthored)* |
-| `relations` | *(unauthored)* |
-| `turn_catalyst` | *(unauthored)* |
-| `turn_friction` | *(unauthored)* |
-| `shadow_line` | *(unauthored)* |
-| `health_line` | *(unauthored)* |
+| `domain_readings.Wealth` | Your money stays lively to the end: late ventures, late windfalls, a door that never fully closes. The estate needs a map early, because your generosity will outrun your paperwork by a decade. Write it down while it is easy. Then keep playing. You are built for a wide ending. |
+| `domain_readings.Growth` | Late growth arrives through new fields: ventures entered past the age of supposed settling, younger company keeping your range honest. The horizon habit is your youth serum. Enter one unfamiliar arena per era. Curiosity is the muscle, and yours refuses to atrophy. |
+| `life_chapter` | Your late chapter keeps the door open: opportunity stays your friend past every retirement age, and the last decades run wide, peopled, and in motion. Expect to be the elder with the newest stories. Map the estate early, then spend the rest of the era collecting more. |
+| `relations` | The young and venturesome are this seat’s people: proteges with prospects, late friendships across generations, heirs who inherit your range. They keep your horizon honest and your calendar full. Back them with numbers attached. Patronage papered is patronage sustained. |
+| `turn_catalyst` | Run thin, the door drifts shut: range intact, ventures postponed. Open one this year, sized kindly. The chapter stays wide only in use. |
+| `turn_friction` | Run heavy, the openness leaks: every prospect funded, every trip taken. Map the estate first. Then wander freely. |
+| `shadow_line` | Overloaded, the horizon never lands: motion to the end, arrival never scheduled. |
+| `health_line` | Your late vitality feeds on novelty and company: new places, young voices, plans in the calendar. Stillness is the only ailment to dodge. |

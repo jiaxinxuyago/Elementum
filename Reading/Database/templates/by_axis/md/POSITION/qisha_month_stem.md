@@ -26,10 +26,11 @@
 | `defline` | The General stands at your Month Gate: the working world sees command presence and expects orders. |
 | `reading` | This position rules Career and Social, and it runs the prime of your life. The General stands at your Month Gate in view: the working world reads command on you before you speak. Careers with stakes suit your prime, operations, emergencies, leadership under weather, and your rank rises fastest exactly where others crack. Colleagues respect you first and warm to you second, in that order, always. The predictive line is simple: pressure keeps arriving because you keep converting it. Choose battles worth your metal, delegate the skirmishes, and midlife hands you real authority. |
 | `teaser` | The working world reads command on you before you speak. Careers with stakes suit you, and your rank rises fastest where others crack. |
-| `domain_readings` | *(unauthored)* |
-| `life_chapter` | *(unauthored)* |
-| `relations` | *(unauthored)* |
-| `turn_catalyst` | *(unauthored)* |
-| `turn_friction` | *(unauthored)* |
-| `shadow_line` | *(unauthored)* |
-| `health_line` | *(unauthored)* |
+| `domain_readings.Career` | The working world reads command on you before you speak: careers with stakes suit your prime, operations, crises, leadership under weather. Your rank rises fastest exactly where others crack. Choose battles worth your metal and delegate the skirmishes. Midlife hands you real authority either way. |
+| `domain_readings.Social` | Colleagues respect you first and warm to you second, in that order, always: your professional circle is built of proven people. The intensity that deters the casual attracts the serious. Keep one irreverent friend on staff. Command needs a court jester it trusts. |
+| `life_chapter` | Your rising chapter is a campaign: the prime decades hand you pressure and watch you convert it, promotion by crisis, rank by weather survived. Expect your reputation to be forged in the storms others avoided. The era pays commanders, and it is paying you. |
+| `relations` | The tested colleagues are this seat’s people: comrades from hard projects, loyal precisely because the loyalty was earned under fire. Parents may worry about the load these years. Show them the rank occasionally. It reads better than the schedule. |
+| `turn_catalyst` | Run thin, the command waits in reserve: capability visible, stakes unclaimed. Take point on one hard thing this quarter. The era notices. |
+| `turn_friction` | Run heavy, everything becomes an operation: meetings run, people managed, evenings scheduled. Stand down one day a week, fully. |
+| `shadow_line` | Overloaded, the commander cannot be off duty: relaxation experienced as dereliction. |
+| `health_line` | Adrenaline is your working fuel and its own tax: decompress as professionally as you perform. The body honors the discipline it is shown. |

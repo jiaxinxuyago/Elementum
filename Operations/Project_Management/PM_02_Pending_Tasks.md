@@ -80,7 +80,7 @@ Therapist/psychic register: analytical personality truth + ONE tendency-framed p
 ## POS-D — per-domain paragraphs + the TG_PATTERN axis (owner feedback ×3, 2026-08-19; REA_02 §5g + REA_04 §9)
 
 ### POS-D-A · Constructs LIVE v2 (2026-08-19): patterns INVISIBLE (you-language rewrite ×9, woven into the matching domain ¶ via target_domains; names/汉字 = Codex ore; box retired) + the FULL cell anatomy (domain_readings + life_chapter under the §5e chapter names + relations 六亲 + turn_catalyst/turn_friction band-resolved + shadow_line + health_line wellness-register)
-### POS-D-B · TEMPLATE review — the rewritten pattern canon ×9 + the full anatomy ×7 seats AWAITING OWNER LOCK → then ONE batch ×63 seats (domain ¶s + 6 anatomy fields each, ≈500 units)
+### POS-D-B · ✅ COMPLETE (owner lock 2026-08-19): anatomy corpus ×70 (522 batched units; turns = unlabeled tone-modifiers on the domain block per owner re-ruling; domains = declared-only, guard-validated; health lines god×palace-based after the chart-invariance accuracy fix); registry ×11 locked; sweep 16/16. **POS-D CLOSED.**
 ### POS-D-C · Later: canon expansion (财坏印 · 财滋杀) · the Codex patterns/domains/gates chapter (where the pattern names + classical translations finally teach)
 
 ## OWNER — review & decisions (no deadline)

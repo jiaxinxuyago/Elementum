@@ -26,10 +26,11 @@
 | `defline` | Order sits in your spouse palace: you love formally, faithfully, and for the record. |
 | `reading` | This position rules Love and Family, and it works from your marriage palace. The Magistrate lives inside your Day Gate: you are built for committed love, a principled partner, a household that runs on kept promises. Marriage steadies your whole chart, and it tends to arrive with weight, formal, meant, durable. Your adult chapters favor the long vow over the wild season, and your fortune agrees: things settle for you once the ring does. Choose character first, chemistry a close second. Then honor the small ceremonies, anniversaries, rituals, the weekly table. This palace runs on kept form. |
 | `teaser` | You are built for committed love: a principled partner, a household that runs on kept promises. Marriage steadies your whole chart, and it arrives with weight and stays. |
-| `domain_readings` | *(unauthored)* |
-| `life_chapter` | *(unauthored)* |
-| `relations` | *(unauthored)* |
-| `turn_catalyst` | *(unauthored)* |
-| `turn_friction` | *(unauthored)* |
-| `shadow_line` | *(unauthored)* |
-| `health_line` | *(unauthored)* |
+| `domain_readings.Love` | You are built for committed love: a principled partner, promises kept on ordinary days, romance that arrives with weight and stays. Things settle for you once the ring does. Choose character first, chemistry a close second, and honor the small ceremonies. This palace runs on kept form. |
+| `domain_readings.Family` | Your household runs on kept promises: standards visible, duties shared, a home other families point to. The order is real affection wearing its work clothes. Add the unscheduled tenderness. A correct house with warm corners is the full inheritance. |
+| `life_chapter` | Your home chapter formalizes beautifully: the adult decades favor the long vow, the stable household, love as kept structure. Expect marriage to steady your whole chart and to deepen by anniversary. The era honors form. Fill the form with warmth, deliberately, forever. |
+| `relations` | The principled partner is this seat’s person: someone whose word holds like yours, building a household on mutual reliability. In-laws respect the marriage almost immediately. Keep the courtship alive inside the contract. Vows are the walls. Romance is the heating. |
+| `turn_catalyst` | Run thin, the vow waits unspoken: commitment ready, formality postponed. Formalize something this year. Your love language is architecture. |
+| `turn_friction` | Run heavy, the marriage becomes administration: love filed correctly. Un-schedule one evening weekly and see what happens. |
+| `shadow_line` | Overloaded, the promise outweighs the person: duty attended, spouse assumed. |
+| `health_line` | Your body thrives inside domestic order: regular meals, shared routines, early nights. The household schedule is half your medicine. |

@@ -22,12 +22,15 @@
     "defline": "Opportunity lives inside your Year Gate: your root memory of providing runs wide, not deep.",
     "reading": "This position rules Family and Wealth, and it works from the root of your story. The Horizon lives inside your Year Gate: somewhere in your line sits a wanderer, and their restlessness lives on in you, quietly, underneath the settled surface. Your luck travels. Opportunity favors you farther from home than comfort likes, and family fortunes in your story tend to involve journeys, migrations, or the one relative who left. Honor the pattern: build a base, then range from it. The root gives you both the itch and the map. Use them in that order.",
     "teaser": "Somewhere in your roots sits a wanderer, and their restlessness lives in you. Your luck travels: opportunity favors you farther from home than comfort likes.",
-    "domain_readings": null,
-    "life_chapter": null,
-    "relations": null,
-    "turn_catalyst": null,
-    "turn_friction": null,
-    "shadow_line": null,
-    "health_line": null
+    "domain_readings": {
+      "Family": "A wanderer sits in your roots: the relative who left, the migration that made the family, the restlessness passed down as inheritance. Your bonds stretch across distances and hold. Keep the far ones fed with visits and calls. Your family was built by journeys, and it maintains by them.",
+      "Wealth": "Your fortune has a passport: opportunity favors you away from home, in unfamiliar markets, foreign tables, the places comfort avoids. Build the base camp, then range from it. Money made at distance banks best near home. Complete the circuit every time."
+    },
+    "life_chapter": "Your early chapter planted the itch: somewhere in the roots, movement was survival or salvation, and it lives in you as a quiet pull toward elsewhere. Expect your best luck at a distance and your best rest at home. The design wants both. Alternate deliberately.",
+    "relations": "The scattered kin are this seat’s people: family across cities or seas, bonds that survive distance because they were built by it. You are the connector between far points. Make the calls nobody else makes. The web holds because you do.",
+    "turn_catalyst": "Run thin, the itch goes unscratched: elsewhere calling, tickets unbought. Go somewhere this quarter. The root feeds on horizon.",
+    "turn_friction": "Run heavy, the wandering forgets the map home: motion as avoidance. Return deliberately, and bring the stories.",
+    "shadow_line": "Overloaded, restlessness impersonates purpose: always leaving, rarely arriving.",
+    "health_line": "Your body needs new air on a schedule: staleness sickens you faster than strain. Change the scenery before the scenery changes you."
   }
 }

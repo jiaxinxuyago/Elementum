@@ -23,12 +23,16 @@
     "defline": "The Alchemist lives inside your Hour Gate: the root of your harvest is understanding, finally ripe.",
     "reading": "This position rules Family, Mind, and Growth, and it works in the root of your late years. The Alchemist lives inside your Hour Gate: the inner library is where your last chapters live, study, intuition, chosen quiet, a household that respects a shut door. Age suits you, because depth is the one asset that only accrues. Family in late life includes the young minds you quietly shaped. Keep a practice that externalizes the thinking, notes, letters, one apprentice. The mind stays lit by being poured. Poured, this root makes your old age the family’s deep well.",
     "teaser": "The root of your late years is the inner library: study, intuition, chosen quiet. Age will suit you, because depth is the one asset that only accrues.",
-    "domain_readings": null,
-    "life_chapter": null,
-    "relations": null,
-    "turn_catalyst": null,
-    "turn_friction": null,
-    "shadow_line": null,
-    "health_line": null
+    "domain_readings": {
+      "Family": "Your late family includes the minds you shaped: apprentices as kin, kin as students, a household that respects a shut door. The bonds are quiet and permanent. Emerge for the meals. The family learns you by your returns, and the returns are what they keep.",
+      "Mind": "The inner library is where your last chapters live: study, intuition, chosen quiet, depth as the one asset that only accrues. Age suits this mind unusually well. Keep a practice that pours it outward, notes, letters, one late apprentice. Poured, it stays lit.",
+      "Growth": "Late growth is distillation: everything learned reducing to what was essential, wisdom by evaporation. The last era refines rather than accumulates. Trust the reduction. What remains at the bottom of the still is the inheritance."
+    },
+    "life_chapter": "Your late chapter deepens in place: the last decades live in the inner library, distilling a lifetime’s strange learning into essence. Expect old age to suit you better than youth did. Become the family’s deep well, and let them draw from it.",
+    "relations": "The quiet heirs are this seat’s people: the child or student who understands the silences, who will keep the notebooks. One or two, no more, exactly as designed. Name them early and teach them everything. The depth transfers by apprenticeship only.",
+    "turn_catalyst": "Run thin, the well seals over: depth present, drawing discouraged. Invite one person down this season. Wells exist to be drawn.",
+    "turn_friction": "Run heavy, the library locks: wisdom hoarded past lending hours. Leave the notebooks visible.",
+    "shadow_line": "Overloaded, the deep well forgets the bucket: unreachable exactly when needed.",
+    "health_line": "Your late health mirrors your stillness practice: meditative routine literally maintains you. Keep the quiet hours and the gentle walks. They are the regimen."
   }
 }

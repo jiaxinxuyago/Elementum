@@ -26,10 +26,11 @@
 | `defline` | Brilliance stands at your Hour Gate: your later years intend to be seen, and heard. |
 | `reading` | This position rules Career and Growth, and it shapes how your story ends. The Virtuoso stands at your Hour Gate, visible in the last chapters: your late work will be your boldest, and the young will quote you. Retirement in the resting sense is not really on your chart. Expect gifted, headstrong heirs and students, inheriting the talent with the allergy to instruction, and love them for it. Your growth keeps its edge to the end, provided the stage keeps changing. Say the true thing late in life. By then, your candor reads as wisdom. |
 | `teaser` | Your late work will be your boldest, and the young will quote you. Expect gifted, headstrong heirs: they inherit the talent along with the allergy to instruction. |
-| `domain_readings` | *(unauthored)* |
-| `life_chapter` | *(unauthored)* |
-| `relations` | *(unauthored)* |
-| `turn_catalyst` | *(unauthored)* |
-| `turn_friction` | *(unauthored)* |
-| `shadow_line` | *(unauthored)* |
-| `health_line` | *(unauthored)* |
+| `domain_readings.Career` | Your late work will be your boldest: the filters thin with age and the craft peaks, a dangerous, wonderful combination. Retirement in the resting sense is not on your chart. Plan a late act worth quoting. The last stage is the one they remember. |
+| `domain_readings.Growth` | Growth keeps its edge to your final decades, provided the stage keeps changing: new formats, new audiences, new fights worth having. Sameness ages you faster than years do. Book the unfamiliar venue at every age. Your candor matures into wisdom exactly on schedule. |
+| `life_chapter` | Your late chapter takes the mic: the last decades say the true things earlier eras only drafted, and the young write them down. Expect your influence to peak after the titles stop mattering. Legacy for you is quotation. Give them the material. |
+| `relations` | The gifted and headstrong young are this seat’s people: heirs and students who inherit your talent and its allergy to instruction. Teach by performing, never by curriculum. They will steal exactly what they need, which is how you learned too. |
+| `turn_catalyst` | Run thin, the late act waits in the wings: material ready, curtain unpulled. Speak the true thing at the next opportunity. It is riper than you think. |
+| `turn_friction` | Run heavy, the candor scorches: truth delivered at full wattage to dimming audiences. Add warmth to the spotlight. The message lands further. |
+| `shadow_line` | Overloaded, the last word becomes the only goal: right, ringing, and alone. |
+| `health_line` | Your energy stays performance-shaped to the end: it rallies for occasions and crashes after. Build recovery into every encore. |

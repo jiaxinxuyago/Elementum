@@ -2849,6 +2849,7 @@
    TG_PATTERN analysis woven invisibly · people · turn · shadow · body) */
 .jny .elpos-domread{ margin: 8px 0 0; font-family: 'EB Garamond', Georgia, serif;
     font-size: 13px; line-height: 1.55; color: var(--inkDeep, #2b2722); }
+.jny .elpos-turn{ font-style: italic; color: #5d564a; }
 .jny .el-domchip{ font-size: 11px; letter-spacing: 0.6px; padding: 3px 10px; border-radius: 999px;
     background: rgba(248,244,236,0.9); border: 1px solid rgba(160,138,100,0.4); color: var(--bronzeDark); }
 .jny .el-domlock{ color: #8a8278; font-size: 12px; }

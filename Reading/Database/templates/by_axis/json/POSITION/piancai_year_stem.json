@@ -22,12 +22,15 @@
     "defline": "Opportunity stands at your Year Gate: fortune’s door was visible from your first address.",
     "reading": "This position rules Wealth and Family, and it rules them from your beginnings. The Horizon stood openly at your Year Gate: generosity was visible in your early world, a family that spent on people and chances, often led by a father figure with range and appetite. Money entered your story as movement rather than storage. The inheritance is a nose for openings and a light grip on cash, both lifelong. Fortune finds you through motion, strangers, and distance from home. Keep one anchored account the family charm cannot reach. The rest can stay in play.",
     "teaser": "Generosity was visible in your beginnings: a family that spent on people and chances. Money finds you through motion and strangers, rarely through sitting still.",
-    "domain_readings": null,
-    "life_chapter": null,
-    "relations": null,
-    "turn_catalyst": null,
-    "turn_friction": null,
-    "shadow_line": null,
-    "health_line": null
+    "domain_readings": {
+      "Wealth": "Money entered your story as movement: a family that spent on people and chances, fortune arriving through doors rather than vaults. You inherited the nose for openings and the light grip. Keep one anchored account beyond charm’s reach. The rest genuinely belongs in play.",
+      "Family": "Your family line carries a generous gambler: a father figure or elder whose open hands taught you about range and its price. The family fortune moved, and so does yours. Honor the generosity by adding the one thing they skipped, the floor beneath it."
+    },
+    "life_chapter": "Your early chapter watched money move: generosity visible, fortunes fluid, opportunity treated as a family member. It gave you ease around risk that vault-raised people never learn. Expect openings to find you lifelong, and expect to need the anchor you were never handed.",
+    "relations": "The open-handed elder is this seat’s person: a father or patron whose generosity, or its costly absence, taught you what open hands do. You repay the lesson by giving with structure. Provide the way they meant to. Deliberately.",
+    "turn_catalyst": "Run thin, the doors stand unknocked: openings sensed, motion postponed. Travel somewhere on a hunch this season. Your luck commutes.",
+    "turn_friction": "Run heavy, everything circulates: money, favors, attention, none of it settling. Anchor one asset this year and let it bore you.",
+    "shadow_line": "Overloaded, generosity performs: giving seen becoming the point of giving.",
+    "health_line": "Your vitality is circulatory: it rises in motion and pools in stillness. Move daily, travel seasonally, and the engine self-maintains."
   }
 }

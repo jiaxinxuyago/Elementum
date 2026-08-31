@@ -34,4 +34,4 @@
 | `turn_catalyst` | Run thin, the seat asks for study: claim one hour of deep reading daily and guard it like income. |
 | `turn_friction` | Run heavy, thought eats action here: research becomes the errand that never ends. Ship one thing before the next book. |
 | `shadow_line` | Overloaded, insight sours into suspicion: reading motives where there is only weather. |
-| `health_line` | This seat digests ideas and dinners with the same organ: stomach ease tracks mental ease. Feed both slowly, on schedule. |
+| `health_line` | Thinking seasons tax the body here: appetite and sleep thin when the mind runs long. Anchor both with routine, and step outside between chapters. |

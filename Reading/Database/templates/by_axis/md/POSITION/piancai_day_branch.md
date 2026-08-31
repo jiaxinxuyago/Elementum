@@ -34,4 +34,4 @@
 | `turn_catalyst` | Run thin, the seat wants circulation: accept the invitations for one season and let the household fill. |
 | `turn_friction` | Run heavy, the open house drains: every guest a venture, every venture a guest. Close the doors one night a week. |
 | `shadow_line` | Overloaded, charm at close range turns transactional: affection priced without anyone naming it. |
-| `health_line` | Vitality here moves with novelty: stagnation stiffens you first in mood, then in the tendons. Keep the body traveling even when you stay. |
+| `health_line` | Vitality here moves with novelty: stagnation dulls you in mood first, then in the body. Keep moving, keep traveling, and the engine stays young. |

@@ -22,12 +22,15 @@
     "defline": "In your spouse palace lives the fellow gambler: love, for you, is a joint venture with real stakes.",
     "reading": "This position rules Love and Wealth, and it works from your marriage palace. The Rival lives inside your Day Gate: you fall for bold ones, partners with fire, opinions, and their own way with money. Home will never be dull. Your adult chapters carry a contested-purse quality at close range, generous seasons and tight ones, and the marriage stays happiest when the accounts keep separate lanes with one shared road. Admire the fire, fund the household by rule, and let the passion argue about anything except the rent. That division keeps both love and money warm.",
     "teaser": "You fall for bold ones, partners with fire and opinions. Home will never be dull, and it stays happy when the money keeps separate lanes.",
-    "domain_readings": null,
-    "life_chapter": null,
-    "relations": null,
-    "turn_catalyst": null,
-    "turn_friction": null,
-    "shadow_line": null,
-    "health_line": null
+    "domain_readings": {
+      "Love": "You fall for fire: partners with opinions, appetites, and their own way with money. Mild love bores you within a season, and you know it. The marriage that lasts will be vivid, occasionally loud, and genuinely alive. Choose the flame that warms without needing to win.",
+      "Wealth": "Money at close range runs contested: two strong wills, one household, accounts that blur affectionately and sting later. The fix is architectural, separate lanes, one shared road, terms agreed in calm weather. Do it early and the vividness stays fun. Skip it and every argument finds the wallet."
+    },
+    "life_chapter": "Your home chapter is a lively one: the adult decades build a household with weather in it, passion, debate, shared bets, real warmth. Expect the era to test ownership more than affection. The couples version of you thrives on declared terms and honest fire. Arrange both.",
+    "relations": "The spouse is this seat’s person: bold, opinionated, financially their own creature. You chose fire on purpose, so warm yourself instead of fighting it. In-laws and friends will have claims too. The household needs one treasurer and it should probably rotate.",
+    "turn_catalyst": "Run thin, the vividness dims to politeness: a fire tended down to embers. Argue about something honest this week. The marriage runs on live current.",
+    "turn_friction": "Run heavy, the contest moves into the kitchen: love scored, money weaponized. Return the scoreboard to the garage.",
+    "shadow_line": "Overloaded, passion becomes rivalry at home: winning arguments, losing evenings.",
+    "health_line": "Your body reads the household weather: vivid seasons energize, contested ones erode. Make peace physically, walks, meals, sleep, and the vitality returns."
   }
 }

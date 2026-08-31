@@ -23,12 +23,16 @@
     "defline": "The Artisan sits in your spouse palace: home, for you, is where life gets savored.",
     "reading": "This position rules Love, Family, and Health, and it works from your marriage palace. The Artisan lives inside your Day Gate: you are built for a warm table and a gentle partner, and your best fortune gathers around the home you two keep. Love, for you, is fed daily rather than declared. The household tends toward comfort, good food, and soft evenings, and your health rises with the quality of your home life more than any regimen. Choose the person who makes ordinary days delicious. Guard the table together. Everything else in your chart eats from it.",
     "teaser": "You are built for a warm table and a gentle partner. Marriage feeds you, literally and otherwise, and your best fortune gathers around the home you two keep.",
-    "domain_readings": null,
-    "life_chapter": null,
-    "relations": null,
-    "turn_catalyst": null,
-    "turn_friction": null,
-    "shadow_line": null,
-    "health_line": null
+    "domain_readings": {
+      "Love": "You love by feeding, in every sense: care arrives as meals, comfort, ease made daily. The partner who suits you receives gently and returns warmth without keeping score. Beware only the taker who mistakes your table for a service counter. Love should cook for you sometimes.",
+      "Family": "Your household becomes the family’s hearth: the gathering point, the good table, the place children and strays remember. Build it on purpose, comfort is your architecture. The home you keep becomes the family’s institution, and its warmth outlives every argument held inside it.",
+      "Health": "Your health rises with home life: fed well and loved plainly, your body simply works better. The kitchen is your pharmacy and the shared table your therapy. Guard the household rhythms through busy seasons. They are holding more than the schedule shows."
+    },
+    "life_chapter": "Your home chapter is the sweet one: the adult decades center on a household that feeds everyone who enters, you included. Expect marriage to soften you, home to anchor you, and comfort to be the era’s real project. Build the nest thoroughly. Everything else roosts in it.",
+    "relations": "The gentle partner is this seat’s person: someone who makes ordinary days delicious and receives your care without audit. Children, if they come, will remember the kitchen. Feed the marriage first though. The table serves best with two hosts.",
+    "turn_catalyst": "Run thin, the hearth burns low: care given on schedule, warmth running on reserve. Let someone cook for you this week. Receiving is also hosting.",
+    "turn_friction": "Run heavy, comfort overfills: sweetness past nourishment, ease past aliveness. Add one shared challenge to the household diet.",
+    "shadow_line": "Overloaded, the feeder disappears into the feeding: everyone full, host unfed.",
+    "health_line": "Your body eats what the household serves, mood included: tension at home lands in your digestion first. Keep the table peaceful and portions honest."
   }
 }

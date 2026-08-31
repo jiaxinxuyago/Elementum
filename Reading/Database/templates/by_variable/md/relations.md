@@ -8,73 +8,73 @@
 
 | Archetype | Key | Value |
 |---|---|---|
-| **The Twin at the Year Gate** | 比肩在年干 | *(unauthored)* |
-| **The Twin inside the Year Gate** | 比肩在年支 | *(unauthored)* |
+| **The Twin at the Year Gate** | 比肩在年干 | The father-line and early peers are this seat’s people: a self-made elder whose example outweighed his words, and childhood friends who competed you into shape. The bonds that last from that era are the level ones. Revisit them. They still hold. |
+| **The Twin inside the Year Gate** | 比肩在年支 | Siblings and the earliest household are this seat’s people: bonds forged level, loyalty without ceremony. Whoever stood beside you in the first chapters keeps a claim on you, and honoring it keeps you whole. Reach back sometimes. The root feeds both directions. |
 | **The Twin at the Month Gate** | 比肩在月干 | Siblings and peers are this seat’s people: brothers in fact or in function, colleagues who become chosen family. They mirror you, sharpen you, and occasionally bill you. Keep the bonds level and the loans documented, and these are lifelong allies. |
-| **The Twin inside the Month Gate** | 比肩在月支 | *(unauthored)* |
-| **The Twin inside the Day Gate** | 比肩在日支 | *(unauthored)* |
-| **The Twin at the Hour Gate** | 比肩在时干 | *(unauthored)* |
-| **The Twin inside the Hour Gate** | 比肩在时支 | *(unauthored)* |
-| **The Rival at the Year Gate** | 劫财在年干 | *(unauthored)* |
-| **The Rival inside the Year Gate** | 劫财在年支 | *(unauthored)* |
-| **The Rival at the Month Gate** | 劫财在月干 | *(unauthored)* |
-| **The Rival inside the Month Gate** | 劫财在月支 | *(unauthored)* |
-| **The Rival inside the Day Gate** | 劫财在日支 | *(unauthored)* |
-| **The Rival at the Hour Gate** | 劫财在时干 | *(unauthored)* |
+| **The Twin inside the Month Gate** | 比肩在月支 | Colleagues who became equals are this seat’s people: the working partnerships that survived because nobody was junior. Parents may read your independence as distance during these years. Translate for them occasionally. The engine was never a rejection. |
+| **The Twin inside the Day Gate** | 比肩在日支 | The spouse is this seat’s person, and they will be your match: strong-willed, capable, unimpressed by performance. In-laws and close friends read your household as a unit. Guard against score-keeping at close range. Equals keep ledgers by instinct, and love asks you to lose count. |
+| **The Twin at the Hour Gate** | 比肩在时干 | Children, juniors, and the young who watch you are this seat’s people: your independence is their inheritance, delivered by example. The relationships deepen when you occasionally need them. Schedule that vulnerability like an appointment. It is the one gift your strength withholds. |
+| **The Twin inside the Hour Gate** | 比肩在时支 | The chosen equals are this seat’s people: old friends with keys to your house, children who grew into peers, the late companions who knock without ceremony. Keep them close and keep them few. This root holds by depth, never by width. |
+| **The Rival at the Year Gate** | 劫财在年干 | The bold elders are this seat’s people: a father or uncle whose daring shaped the family weather, siblings close enough to share and to claim. You love them by matching their nerve. Protect yourself by writing things down anyway. Both are loyalty. |
+| **The Rival inside the Year Gate** | 劫财在年支 | Siblings and cousins are this seat’s people: the pack you shared everything with, and who still reach for you first. The claims are love wearing its work clothes. Answer them on purpose, within numbers you set annually, and the pack stays a blessing. |
+| **The Rival at the Month Gate** | 劫财在月干 | Rivals and running mates are this seat’s people: the peers you measure against, the partners whose bets you share. Parents watch these decades with held breath. The relationships thrive on declared terms. Ambiguity is the only opponent that reliably beats you. |
+| **The Rival inside the Month Gate** | 劫财在月支 | Partners and backers are this seat’s people: the ones in your bets, willingly or by marriage. They ride your surges and absorb your droughts, so declare the odds honestly. Family money and venture money want separate tables. Keep them seated apart. |
+| **The Rival inside the Day Gate** | 劫财在日支 | The spouse is this seat’s person: bold, opinionated, financially their own creature. You chose fire on purpose, so warm yourself instead of fighting it. In-laws and friends will have claims too. The household needs one treasurer and it should probably rotate. |
+| **The Rival at the Hour Gate** | 劫财在时干 | Heirs and proteges are this seat’s people: young, bold, and drawn to your backing. They copy your nerve before your caution, which is the correct order and an expensive one. Teach the bookkeeping alongside the daring. That pairing is the true inheritance. |
 | **The Rival inside the Hour Gate** | 劫财在时支 | Children and the youngest circle are this seat’s people: strong-willed heirs, proteges with nerve, late friendships with the young and bold. They will contend with you and for you. Love them by matching them, and by keeping your own keys. |
-| **The Artisan at the Year Gate** | 食神在年干 | *(unauthored)* |
+| **The Artisan at the Year Gate** | 食神在年干 | The warm elders are this seat’s people: whoever praised, fed, and enjoyed you early set your template for care. You repay them by becoming them. Host the family table when it passes to you. It will, and it should. |
 | **The Artisan inside the Year Gate** | 食神在年支 | Grandparents and the older kitchen line are this seat’s people: blessing descends to you through whoever fed the family. Keep their recipes and their names alive. The care you inherited wants passing on, and it multiplies when you host. |
-| **The Artisan at the Month Gate** | 食神在月干 | *(unauthored)* |
-| **The Artisan inside the Month Gate** | 食神在月支 | *(unauthored)* |
-| **The Artisan inside the Day Gate** | 食神在日支 | *(unauthored)* |
-| **The Artisan at the Hour Gate** | 食神在时干 | *(unauthored)* |
-| **The Artisan inside the Hour Gate** | 食神在时支 | *(unauthored)* |
-| **The Virtuoso at the Year Gate** | 伤官在年干 | *(unauthored)* |
-| **The Virtuoso inside the Year Gate** | 伤官在年支 | *(unauthored)* |
-| **The Virtuoso at the Month Gate** | 伤官在月干 | *(unauthored)* |
-| **The Virtuoso inside the Month Gate** | 伤官在月支 | *(unauthored)* |
-| **The Virtuoso inside the Day Gate** | 伤官在日支 | *(unauthored)* |
-| **The Virtuoso at the Hour Gate** | 伤官在时干 | *(unauthored)* |
-| **The Virtuoso inside the Hour Gate** | 伤官在时支 | *(unauthored)* |
-| **The Horizon at the Year Gate** | 偏财在年干 | *(unauthored)* |
-| **The Horizon inside the Year Gate** | 偏财在年支 | *(unauthored)* |
-| **The Horizon at the Month Gate** | 偏财在月干 | *(unauthored)* |
-| **The Horizon inside the Month Gate** | 偏财在月支 | *(unauthored)* |
+| **The Artisan at the Month Gate** | 食神在月干 | Colleagues and creative peers are this seat’s people: collaborators drawn by your ease, students drawn by your generosity. Parents may mistake the flow for lack of ambition during these years. Show them the finished work occasionally. Output is your rebuttal. |
+| **The Artisan inside the Month Gate** | 食神在月支 | Fellow makers are this seat’s people: the colleagues who respect craft, the mentors who taught by hand, eventually the apprentices who watch yours. Family learns to find you in the workshop. Invite them in sometimes. The craft was always partly for them. |
+| **The Artisan inside the Day Gate** | 食神在日支 | The gentle partner is this seat’s person: someone who makes ordinary days delicious and receives your care without audit. Children, if they come, will remember the kitchen. Feed the marriage first though. The table serves best with two hosts. |
+| **The Artisan at the Hour Gate** | 食神在时干 | Students and grandchildren are this seat’s people: the young who inherit your ease and your recipes. They arrive hungry for exactly what you have. Feed them without curriculum. The best of you transfers over meals, never over lectures. |
+| **The Artisan inside the Hour Gate** | 食神在时支 | The table’s regulars are this seat’s people: children, old friends, the neighbor who somehow always arrives at dinnertime. They are your late-life infrastructure wearing napkins. Keep the guest list warm and the door unlocked. This root feeds on footsteps. |
+| **The Virtuoso at the Year Gate** | 伤官在年干 | Teachers mark this seat’s people: the ones who saw the gift, the ones who fought it, both formative. Your family learned early that you would not be scripted. Forgive the ones who tried. Direction was their love language, even when it missed. |
+| **The Virtuoso inside the Year Gate** | 伤官在年支 | The household you outgrew is this seat’s people: family loved fiercely and argued with honestly, sometimes in the same sentence. The bond survives on truth with warmth. Deliver both together, always. Truth alone was the childhood. Warmth alone would be surrender. |
+| **The Virtuoso at the Month Gate** | 伤官在月干 | Champions and rivals are this seat’s people: the bosses who bet on you, the ones who tried to leash you, all of them stories now. Your professional loyalty is fierce and conditional on respect. State the condition upfront. It saves everyone a season. |
+| **The Virtuoso inside the Month Gate** | 伤官在月支 | The improvable are this seat’s people, which is everyone, and therein the lesson: colleagues who welcome your notes become allies for life, and the rest need your silence more than your insight. Learn the difference by thirty-five. It is the whole social curriculum. |
+| **The Virtuoso inside the Day Gate** | 伤官在日支 | The sparring partner is this seat’s person: quick, unintimidated, secretly your favorite audience. They married the show and the showrunner. Give them the warm cut of your wit and the world the sharp one. Confusing the two is the only real infidelity here. |
+| **The Virtuoso at the Hour Gate** | 伤官在时干 | The gifted and headstrong young are this seat’s people: heirs and students who inherit your talent and its allergy to instruction. Teach by performing, never by curriculum. They will steal exactly what they need, which is how you learned too. |
+| **The Virtuoso inside the Hour Gate** | 伤官在时支 | The trained minds are this seat’s people: children and students who argue like you taught them, which they will use against you, which is the point. Enjoy losing to them occasionally. It is the diploma you were actually issuing all along. |
+| **The Horizon at the Year Gate** | 偏财在年干 | The open-handed elder is this seat’s person: a father or patron whose generosity, or its costly absence, taught you what open hands do. You repay the lesson by giving with structure. Provide the way they meant to. Deliberately. |
+| **The Horizon inside the Year Gate** | 偏财在年支 | The scattered kin are this seat’s people: family across cities or seas, bonds that survive distance because they were built by it. You are the connector between far points. Make the calls nobody else makes. The web holds because you do. |
+| **The Horizon at the Month Gate** | 偏财在月干 | The network is this seat’s family: contacts who become friends, friends who become deals, a father-line lesson about provision running underneath it all. Keep the warm ones separate from the useful ones in your accounting. Both are real. Confusing them costs both. |
+| **The Horizon inside the Month Gate** | 偏财在月支 | Partners of opposite temperament are this seat’s people: the patient ones who hold what you catch. Choose them with the care you give to openings. The hunter-keeper pairing, in business and at home, is this seat’s whole formula for lasting wealth. |
 | **The Horizon inside the Day Gate** | 偏财在日支 | The spouse and the father-line are this seat’s people: a partner with reach, and somewhere behind you a provider whose generosity or absence taught you about open hands. Expect in-laws with doors worth knocking on. Marry the network gladly. Audit it kindly. |
-| **The Horizon at the Hour Gate** | 偏财在时干 | *(unauthored)* |
-| **The Horizon inside the Hour Gate** | 偏财在时支 | *(unauthored)* |
+| **The Horizon at the Hour Gate** | 偏财在时干 | The young and venturesome are this seat’s people: proteges with prospects, late friendships across generations, heirs who inherit your range. They keep your horizon honest and your calendar full. Back them with numbers attached. Patronage papered is patronage sustained. |
+| **The Horizon inside the Hour Gate** | 偏财在时支 | The scattered heirs are this seat’s people: children and grandchildren across distances, inheriting your range and possibly your restlessness. You hold the web by moving along it. Visit in rotation, host in seasons. The family stays whole because you circulate. |
 | **The Steward at the Year Gate** | 正财在年干 | Elders are this seat’s people: a provident parent or grandparent whose carefulness reached you as safety. Honor arrives through them, and duty flows back. Expect to be the relative others trust with arrangements, and let that trust stay a role rather than a debt. |
-| **The Steward inside the Year Gate** | 正财在年支 | *(unauthored)* |
-| **The Steward at the Month Gate** | 正财在月干 | *(unauthored)* |
-| **The Steward inside the Month Gate** | 正财在月支 | *(unauthored)* |
-| **The Steward inside the Day Gate** | 正财在日支 | *(unauthored)* |
+| **The Steward inside the Year Gate** | 正财在年支 | The careful keepers are this seat’s people: the parent or grandparent who saved without saying so, whose thrift was a love letter read decades later. You honor them by keeping the habit warm. Add the enjoying they postponed. Complete the lesson for them. |
+| **The Steward at the Month Gate** | 正财在月干 | Employers and dependents are this seat’s people: the bosses who hand you the books, the colleagues whose messes you quietly order. Being trusted is your social position. Invoice it occasionally, in raises, in titles, in first pick. Trust unpriced becomes furniture. |
+| **The Steward inside the Month Gate** | 正财在月支 | The long-haul colleagues are this seat’s people: working bonds measured in decades, references that read like family letters. You keep professional promises the way others keep photographs. The network never dazzles and never fails. Tend it annually, like the orchard it is. |
+| **The Steward inside the Day Gate** | 正财在日支 | The steady partner is this seat’s person: someone who finds maintenance romantic and returns it in kind. Together you become the couple others quietly rely on. Guard the courtship inside the partnership. Reliability wins the years, and romance keeps them warm. |
 | **The Steward at the Hour Gate** | 正财在时干 | Children and juniors are this seat’s people: heirs who learn money by watching your hands. Provision is how you say the important things to them. Say a few out loud as well. The ledger teaches, the words are what they keep. |
-| **The Steward inside the Hour Gate** | 正财在时支 | *(unauthored)* |
-| **The General at the Year Gate** | 七杀在年干 | *(unauthored)* |
-| **The General inside the Year Gate** | 七杀在年支 | *(unauthored)* |
-| **The General at the Month Gate** | 七杀在月干 | *(unauthored)* |
-| **The General inside the Month Gate** | 七杀在月支 | *(unauthored)* |
-| **The General inside the Day Gate** | 七杀在日支 | *(unauthored)* |
-| **The General at the Hour Gate** | 七杀在时干 | *(unauthored)* |
-| **The General inside the Hour Gate** | 七杀在时支 | *(unauthored)* |
-| **The Magistrate at the Year Gate** | 正官在年干 | *(unauthored)* |
-| **The Magistrate inside the Year Gate** | 正官在年支 | *(unauthored)* |
-| **The Magistrate at the Month Gate** | 正官在月干 | *(unauthored)* |
-| **The Magistrate inside the Month Gate** | 正官在月支 | *(unauthored)* |
-| **The Magistrate inside the Day Gate** | 正官在日支 | *(unauthored)* |
-| **The Magistrate at the Hour Gate** | 正官在时干 | *(unauthored)* |
-| **The Magistrate inside the Hour Gate** | 正官在时支 | *(unauthored)* |
-| **The Alchemist at the Year Gate** | 偏印在年干 | *(unauthored)* |
-| **The Alchemist inside the Year Gate** | 偏印在年支 | *(unauthored)* |
-| **The Alchemist at the Month Gate** | 偏印在月干 | *(unauthored)* |
+| **The Steward inside the Hour Gate** | 正财在时支 | The provided-for are this seat’s people: children, grandchildren, the household that rests on your quiet arrangements. They may never see the work, only the warmth. Show a little of the work. Gratitude needs a ledger to read. |
+| **The General at the Year Gate** | 七杀在年干 | The demanding elders are this seat’s people: whoever pressed you first, hardest, and, in their way, most formatively. The relationship softens once you outrank the memory. Visit it kindly. They forged what you now command, however rough the forge. |
+| **The General inside the Year Gate** | 七杀在年支 | The household that pressed you is this seat’s people: family bound by what was survived together, or what was survived alone in their house. The bonds are complicated and load-bearing. Honor what held, forgive what pressed, and keep the strength either way. |
+| **The General at the Month Gate** | 七杀在月干 | The tested colleagues are this seat’s people: comrades from hard projects, loyal precisely because the loyalty was earned under fire. Parents may worry about the load these years. Show them the rank occasionally. It reads better than the schedule. |
+| **The General inside the Month Gate** | 七杀在月支 | Fellow soldiers are this seat’s people: the colleagues who held the line beside you, bonded by campaigns the peaceful will never understand. The friendships are few, deep, and permanent. Reunite regularly. Nobody else speaks the dialect. |
+| **The General inside the Day Gate** | 七杀在日支 | The forceful partner is this seat’s person: someone with their own command, unimpressed by yours, magnetic for exactly that reason. You chose a co-commander, so share the theater. Divide the fronts, never the loyalty. The household runs beautifully on clear command structure. |
+| **The General at the Hour Gate** | 七杀在时干 | The heirs and lieutenants are this seat’s people: children and juniors formed by your standards, marked by your delivery. They will quote you at their own troops someday. Give them one tenderness for every ten instructions. That ratio becomes the memory. |
+| **The General inside the Hour Gate** | 七杀在时支 | The protected are this seat’s people: family and dependents living safely inside arrangements they rarely see. Your care is architectural. Show the blueprints occasionally, and the gratitude finds its address. Guarded love wants naming too. |
+| **The Magistrate at the Year Gate** | 正官在年干 | The upstanding elders are this seat’s people: parents or grandparents whose correctness was both shelter and script. You inherited their standing and their expectations together. Honor the first, renegotiate the second. Both acts are filial. |
+| **The Magistrate inside the Year Gate** | 正官在年支 | The expectant household is this seat’s people: family whose standards shaped you and whose approval still audits quietly. The residue is a conscience with their accent. Keep the values, pension the guilt. Order held from love ages into dignity. |
+| **The Magistrate at the Month Gate** | 正官在月干 | The promoting elders are this seat’s people: bosses who trusted early, mentors who wrote the letters, seniors who said your name in the right meetings. Repay them by becoming one. The ladder you climbed stays standing only if you hold it for the next. |
+| **The Magistrate inside the Month Gate** | 正官在月支 | The org chart neighbors are this seat’s people: reports who trust you, seniors who rely on you, the whole scaffolding of working bonds. They will define these decades’ friendships. Take two of them beyond the building. Colleagues age into brothers if invited. |
+| **The Magistrate inside the Day Gate** | 正官在日支 | The principled partner is this seat’s person: someone whose word holds like yours, building a household on mutual reliability. In-laws respect the marriage almost immediately. Keep the courtship alive inside the contract. Vows are the walls. Romance is the heating. |
+| **The Magistrate at the Hour Gate** | 正官在时干 | The measuring young are this seat’s people: children and juniors who calibrated on your standards and never quite stopped. Your approval is their quiet currency. Mint it freely late in life. The exchange rate only rises. |
+| **The Magistrate inside the Hour Gate** | 正官在时支 | The trusting household is this seat’s people: family organized around your word in the last decades, secure in arrangements that never wobble. They rest on your reliability. Rest on theirs occasionally. Trust flowing one way is duty. Both ways, it is home. |
+| **The Alchemist at the Year Gate** | 偏印在年干 | The puzzled adults are this seat’s people: family who loved you without quite decoding you, teachers who sensed more than they could grade. A few saw clearly, and you remember each one. Become that seer for another strange child. The debt transfers that way. |
+| **The Alchemist inside the Year Gate** | 偏印在年支 | The unconventional guardian is this seat’s person: whoever fed your mind when the standard channels missed you, a grandmother of odd wisdom, an absent parent’s bookshelf. The nurture was real and strangely shaped. Honor it by nurturing strangely too. |
+| **The Alchemist at the Month Gate** | 偏印在月干 | The consulting colleagues are this seat’s people: the ones who bring you the unsolvable and remember you for it. Your professional bonds form over hard problems, never small talk. Maintain them between crises. Gratitude has a short professional memory. |
 | **The Alchemist inside the Month Gate** | 偏印在月支 | An unconventional teacher or guardian marks this seat’s people: care that arrived as instruction, or a mentor found off the official path. Expect your important guides to be odd ones. Trust the strange teachers. They were sent for you, and eventually you become one. |
-| **The Alchemist inside the Day Gate** | 偏印在日支 | *(unauthored)* |
-| **The Alchemist at the Hour Gate** | 偏印在时干 | *(unauthored)* |
-| **The Alchemist inside the Hour Gate** | 偏印在时支 | *(unauthored)* |
-| **The Sage at the Year Gate** | 正印在年干 | *(unauthored)* |
-| **The Sage inside the Year Gate** | 正印在年支 | *(unauthored)* |
-| **The Sage at the Month Gate** | 正印在月干 | *(unauthored)* |
-| **The Sage inside the Month Gate** | 正印在月支 | *(unauthored)* |
-| **The Sage inside the Day Gate** | 正印在日支 | *(unauthored)* |
-| **The Sage at the Hour Gate** | 正印在时干 | *(unauthored)* |
-| **The Sage inside the Hour Gate** | 正印在时支 | *(unauthored)* |
+| **The Alchemist inside the Day Gate** | 偏印在日支 | The guarding partner is this seat’s person: someone who protects your solitude like a shared asset, because it is. They will explain you to bewildered relatives. Thank them specifically. Translation is an act of devotion, and they perform it weekly. |
+| **The Alchemist at the Hour Gate** | 偏印在时干 | The unusual young are this seat’s people: the odd, gifted seekers who find you late and learn what universities could not teach them. They inherit the method. Choose them slowly, teach them completely. One true apprentice outweighs a hundred readers. |
+| **The Alchemist inside the Hour Gate** | 偏印在时支 | The quiet heirs are this seat’s people: the child or student who understands the silences, who will keep the notebooks. One or two, no more, exactly as designed. Name them early and teach them everything. The depth transfers by apprenticeship only. |
+| **The Sage at the Year Gate** | 正印在年干 | The principled shelterer is this seat’s person: a mother, a mentor, an elder whose steadiness became your first floor. Their protection shaped your bearing. Shelter someone the same way, unasked, without invoice. That completes the circuit they opened. |
+| **The Sage inside the Year Gate** | 正印在年支 | The nurturing root is this seat’s person: the mother or mother-figure whose care became your baseline. The bond runs beneath language. Tend it while you can, and grieve it fully when you must. Either way, become what it taught. |
+| **The Sage at the Month Gate** | 正印在月干 | The door-opening elders are this seat’s people: mentors who sponsored, seniors who vouched, the lineage of teachers running through your career. You are the next link. Sponsor somebody before you feel senior enough. That is exactly when it counts. |
+| **The Sage inside the Month Gate** | 正印在月支 | Teachers and students are this seat’s people, and the roles alternate: mentors who deepened you, then learners who sharpen you by asking. Family may not follow the studies. They follow the calm the studies produce. Both are the inheritance. |
+| **The Sage inside the Day Gate** | 正印在日支 | The steady nurturer is this seat’s person: a partner whose care arrives as reliability, whose presence lowers your pulse on contact. They become your second spine. Tend them back deliberately, because natural receivers forget. Gratitude is the household’s rent. |
+| **The Sage at the Hour Gate** | 正印在时干 | The sheltered young are this seat’s people: children, students, and strays who found warmth at your door. They will carry the teaching past your name, which is the better vehicle. Protect them deliberately. Someone once did it for you, and it made everything. |
+| **The Sage inside the Hour Gate** | 正印在时支 | The tending circle is this seat’s people: children, old students, neighbors whose kindness you seeded years back. They arrive with soup and stay for stories. Let them. The circle you fed is feeding back, exactly as designed. |

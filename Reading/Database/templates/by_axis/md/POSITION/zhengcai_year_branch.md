@@ -26,10 +26,11 @@
 | `defline` | The Steward lives inside your Year Gate: your root is a kept house, and it keeps you still. |
 | `reading` | This position rules Family and Wealth, and it works from the root of your story. The Steward lives inside your Year Gate: thrift is in your foundations, a home that counted carefully, wasted little, and kept its word about money. You absorbed it before you could name it. Your fortune compounds the same way, quietly, earlier than anyone notices, and mostly through patience the loud world mistakes for luck. Family remains your soundest network: help flows there reliably in both directions. Keep the ledgers kind and current. This root turns small discipline into generational ground. |
 | `teaser` | Thrift is in your roots: a home that counted carefully and wasted little. Your fortune compounds the same way, quietly, and earlier than anyone notices. |
-| `domain_readings` | *(unauthored)* |
-| `life_chapter` | *(unauthored)* |
-| `relations` | *(unauthored)* |
-| `turn_catalyst` | *(unauthored)* |
-| `turn_friction` | *(unauthored)* |
-| `shadow_line` | *(unauthored)* |
-| `health_line` | *(unauthored)* |
+| `domain_readings.Family` | Your family root kept its word about money: a house that counted, saved, and never dramatized it. You inherited solvency as a temperament. Family remains your soundest network, help flowing reliably both ways. Keep the ledgers kind, and this root funds generations. |
+| `domain_readings.Wealth` | Your fortune compounds from underneath: early habits, quiet accounts, patience the loud world mistakes for luck. Wealth for you is sedimentary, layer on layer until it is ground. Never interrupt the compounding for spectacle. Boring is your edge, and it is winning. |
+| `life_chapter` | Your early chapter was quietly provisioned: a childhood of counted carefully and enough, where money had manners and promises held. The solvency you absorbed before understanding it remains your deepest asset. Expect stability to follow you the way it furnished those first years. |
+| `relations` | The careful keepers are this seat’s people: the parent or grandparent who saved without saying so, whose thrift was a love letter read decades later. You honor them by keeping the habit warm. Add the enjoying they postponed. Complete the lesson for them. |
+| `turn_catalyst` | Run thin, the root underclaims: stability inherited, never quite trusted. Start the smallest steady account this month and watch the temperament wake. |
+| `turn_friction` | Run heavy, the counting tightens: every joy invoiced against the future. Spend one planned sum on pure delight. |
+| `shadow_line` | Overloaded, thrift turns hereditary anxiety: saving as flinching, passed down intact. |
+| `health_line` | Your constitution is steady stock: it keeps well under routine and wears down only through neglect nobody notices. Notice on schedule. |

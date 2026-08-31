@@ -22,12 +22,15 @@
     "defline": "The Artisan stands at your Year Gate: ease and charm are the first things your story shows.",
     "reading": "This position rules Social and Health, and it rules them from your beginnings. The Artisan stood openly at your Year Gate: warmth was your first language, learned young and worn where everyone could see it. People have fed you, hosted you, and forgiven you easily all your life, and your body has mostly returned the favor. Charm opens your doors, taste keeps them open. The constitution is genuinely good, and it stays good on rhythm rather than discipline. Keep the meals, the sleep, and the company regular. Your luck has manners, and it likes being fed.",
     "teaser": "Warmth was your first language, learned young and worn openly. Doors open for you through charm and good taste, and they keep opening as long as you keep giving.",
-    "domain_readings": null,
-    "life_chapter": null,
-    "relations": null,
-    "turn_catalyst": null,
-    "turn_friction": null,
-    "shadow_line": null,
-    "health_line": null
+    "domain_readings": {
+      "Social": "Warmth is your opening move and it has never failed you: people relax on meeting you and remember the feeling. Your social capital compounds through hosting, feeding, and easing. Spend it generously. The circles you warm keep returning the temperature, usually with interest.",
+      "Health": "Your constitution arrived friendly and stays friendly under rhythm: regular meals, honest sleep, pleasure taken without guilt. The risks in your chart are excess-shaped, never fragility-shaped. Alternate the feasts with quiet days and this body carries you smiling into old age."
+    },
+    "life_chapter": "Your early chapter was visibly sweet: charm noticed young, ease worn openly, doors that opened because you were pleasant to have around. The generosity you learned in those years remains your best economics. Expect life to keep feeding whoever keeps feeding others. That was always the deal.",
+    "relations": "The warm elders are this seat’s people: whoever praised, fed, and enjoyed you early set your template for care. You repay them by becoming them. Host the family table when it passes to you. It will, and it should.",
+    "turn_catalyst": "Run thin, the warmth banks itself: charm intact, invitations declined. Accept three this month. Your luck circulates only when you do.",
+    "turn_friction": "Run heavy, the sweetness overpours: pleasing everyone, becoming furniture. Warm the deserving. Lukewarm is fine for the rest.",
+    "shadow_line": "Overloaded, charm becomes the whole job: liked everywhere, known nowhere.",
+    "health_line": "Your body forgives generously and remembers eventually: indulgence compounds quietly. Keep the pleasures rhythmic and the body stays your friend."
   }
 }

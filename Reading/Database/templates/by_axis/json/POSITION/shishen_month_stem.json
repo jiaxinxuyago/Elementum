@@ -22,12 +22,15 @@
     "defline": "The Artisan stands at your Month Gate: the working world sees the maker, gracious and unhurried.",
     "reading": "This position rules Career and Social, and it runs the prime of your life. The Artisan stands at your Month Gate in view: the working world knows you by the ease of what you make, output that flows without visible strain. Your prime grows by appetite rather than ambition, and the work you enjoy quietly outearns the work you force. Colleagues relax around you, which is a career asset dressed as a personality. The watch is drift: when everything flows, coasting feels like working. Pick one craft to deepen on purpose. Ease plus depth is your whole fortune.",
     "teaser": "The working world knows you for the ease of what you make. Your career grows by appetite rather than ambition, and the work you enjoy pays best.",
-    "domain_readings": null,
-    "life_chapter": null,
-    "relations": null,
-    "turn_catalyst": null,
-    "turn_friction": null,
-    "shadow_line": null,
-    "health_line": null
+    "domain_readings": {
+      "Career": "Your career grows by appetite: the work you enjoy visibly outperforms the work you force, and everyone can tell which is which. Build the livelihood around what you would half-do for free. Enjoyment is your productivity system, and it does not transfer to joyless work.",
+      "Social": "Colleagues relax around you, which is a career asset wearing a personality: tension leaves meetings when you enter, and deals close over meals you suggested. Use the gift on purpose. The host of the working world quietly ends up owning its address book."
+    },
+    "life_chapter": "Your rising chapter flows rather than climbs: the prime decades reward your ease with steady output and pleasant company, and the only tax is drift. Pick one craft to deepen deliberately through your thirties. Ease plus chosen depth is the whole formula for your era.",
+    "relations": "Colleagues and creative peers are this seat’s people: collaborators drawn by your ease, students drawn by your generosity. Parents may mistake the flow for lack of ambition during these years. Show them the finished work occasionally. Output is your rebuttal.",
+    "turn_catalyst": "Run thin, the flow narrows: enjoyment rationed, output following it down. Feed the appetite first, the career eats second. It always worked that way.",
+    "turn_friction": "Run heavy, the ease coasts: flowing everywhere, arriving nowhere. Choose one current and ride it to the sea.",
+    "shadow_line": "Overloaded, pleasantness replaces progress: beloved in every meeting, absent from every decision.",
+    "health_line": "Your working rhythm is your metabolism: output and appetite rise and fall together. Protect the meals and breaks. They are production infrastructure."
   }
 }

@@ -32,7 +32,7 @@ export const TG_PATTERNS = [
     targets: ['Career', 'Mind'],
     line: 'Your brilliance and your learning share the chart, and they harness each other: talent with a syllabus. Study before you dazzle, and the shine turns durable.',
     reading: 'Underneath runs a lucky pairing: your boldest ideas and your patience for study feed each other instead of fighting. Every credential sharpens the showmanship, every performance keeps the learning honest. Build the stage and the library in the same decade. Together they turn raw shine into a name that lasts.',
-    fused_line: 'Sharing one pillar, the pairing is seamless in you: your talent and your training speak with one voice.',
+    fused_line: 'Sharing one pillar, the pairing is native in you: your talent and your training speak with one voice.',
   },
   {
     key: 'xiao_shen_duo_shi', zh: '枭神夺食', en: 'The Alchemist starves the Artisan',

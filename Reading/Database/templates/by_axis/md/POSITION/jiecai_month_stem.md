@@ -26,10 +26,11 @@
 | `defline` | At your Month Gate stands the daring colleague: the working world sees your nerve first. |
 | `reading` | This position rules Career and Social, and it runs the prime of your life. The Rival stands at your Month Gate in full view: the working world reads your nerve first, the colleague who volunteers for the contest. Your prime rewards open competition, commissions, rankings, arenas with scoreboards, and it punishes vague partnerships. Allies come easily and rotate often. Through your thirties and forties, the wins are personal and the losses are usually shared bets. So compete in the open, split the prize before the race, and keep one rival you respect. They are your best coach. |
 | `teaser` | At work you compete the way others breathe, and people feel it. Your career rises fastest in open contests, and slowest wherever the prize must be split. |
-| `domain_readings` | *(unauthored)* |
-| `life_chapter` | *(unauthored)* |
-| `relations` | *(unauthored)* |
-| `turn_catalyst` | *(unauthored)* |
-| `turn_friction` | *(unauthored)* |
-| `shadow_line` | *(unauthored)* |
-| `health_line` | *(unauthored)* |
+| `domain_readings.Career` | Your career runs on open contest: rankings, commissions, arenas with scoreboards, and you visibly alive in them. Vague collectives dull you and clear stakes sharpen you. Choose fields where winning is measurable and yours. The nerve that unsettles quiet offices is exactly what podiums pay for. |
+| `domain_readings.Social` | Work fills your social ledger: allies made fast, rivals made faster, both rotated often. The respect you earn in competition outlasts the friendships it costs. Keep one rival close and honored. They are the only colleague who will always tell you the truth. |
+| `life_chapter` | Your rising chapter is a tournament: the prime decades hand you contests, and you convert them into rank while steadier people convert hours. Expect wins that arrive in public and losses that arrive through partners. Compete openly, split prizes beforehand, and the era pays your nerve well. |
+| `relations` | Rivals and running mates are this seat’s people: the peers you measure against, the partners whose bets you share. Parents watch these decades with held breath. The relationships thrive on declared terms. Ambiguity is the only opponent that reliably beats you. |
+| `turn_catalyst` | Run thin, the contests pass unentered: nerve present, number never taken. Sign up for one scored thing this quarter and let the era see you. |
+| `turn_friction` | Run heavy, everything becomes a heat: meetings, friendships, lunch. Save the competing for arenas that pay. |
+| `shadow_line` | Overloaded, the colleague becomes the mark: wins counted in someone else’s losses. |
+| `health_line` | Adrenaline is your work fuel and your work tax: the body scores every contest. Cool down as deliberately as you compete. |

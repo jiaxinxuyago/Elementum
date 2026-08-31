@@ -26,10 +26,11 @@
 | `defline` | The Artisan lives inside your Hour Gate: your harvest is children, comfort, and a well-fed old age. |
 | `reading` | This position rules Family and Health, and it works in the root of your late years. The Artisan lives inside your Hour Gate: ease deepens as you age, comfort earned, kept, and shared. Expect a good table, good sleep, and company that stays, with children or chosen family close to the kitchen. Your health in the last chapters answers to warmth: fed well and loved plainly, you last. The counsel is almost embarrassingly simple. Keep hosting. The people you feed become the people who tend you, and this root repays every meal with years. |
 | `teaser` | Ease deepens as you age: the root of your late years is comfort earned, kept, and shared. Expect a good table, good sleep, and company that stays. |
-| `domain_readings` | *(unauthored)* |
-| `life_chapter` | *(unauthored)* |
-| `relations` | *(unauthored)* |
-| `turn_catalyst` | *(unauthored)* |
-| `turn_friction` | *(unauthored)* |
-| `shadow_line` | *(unauthored)* |
-| `health_line` | *(unauthored)* |
+| `domain_readings.Family` | Your late family gathers by scent: whoever you feed becomes kin, and the kitchen stays the family’s true address. Chosen family counts fully here. Keep hosting past the point that seems sensible. The people you feed become the people who tend you, at astonishing exchange rates. |
+| `domain_readings.Health` | Ease deepens into your bones with age: sleep improves, appetite steadies, comfort finally guiltless. Your late health asks mostly for rhythm and company. Eat with people whenever you can manage it. Solitary meals age you faster than birthdays do. |
+| `life_chapter` | Your late chapter roots in earned comfort: the last decades keep a good table, deep sleep, and company that stays. The blessing is real and it is maintained, by hosting, by rhythm, by refusing to hurry. Expect old age to suit you unusually well. It was built for you. |
+| `relations` | The table’s regulars are this seat’s people: children, old friends, the neighbor who somehow always arrives at dinnertime. They are your late-life infrastructure wearing napkins. Keep the guest list warm and the door unlocked. This root feeds on footsteps. |
+| `turn_catalyst` | Run thin, the comfort waits unclaimed: ease deferred as if unearned. Take the nap, book the trip, set the nice table on a Tuesday. |
+| `turn_friction` | Run heavy, comfort settles too deep: the couch winning quiet years. Keep one standing engagement that requires shoes. |
+| `shadow_line` | Overloaded, ease becomes sediment: cozy, sweet, and slowly sinking. |
+| `health_line` | Your late constitution runs on warmth and routine: regular meals, gentle movement, people nearby. Loneliness is the only illness to actually fear. |

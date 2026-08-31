@@ -22,12 +22,15 @@
     "defline": "The Steward sits in your spouse palace: you love in deposits, steadily, for keeps.",
     "reading": "This position rules Love and Family, and it works from your marriage palace. The Steward lives inside your Day Gate: you are made for steady love, a partner who keeps what you build and builds what you keep. Your adult chapters center on a provisioned home, bills paid, pantry full, promises honored on the ordinary days. Marriage becomes your most reliable asset, and like any asset it wants tending: schedule the delight, not just the duties. Choose someone who finds maintenance romantic. With that person, your household becomes the quiet fortune the rest of the chart banks on.",
     "teaser": "You are made for steady love: a partner who keeps what you build and builds what you keep. Marriage becomes your most reliable asset, tended like one.",
-    "domain_readings": null,
-    "life_chapter": null,
-    "relations": null,
-    "turn_catalyst": null,
-    "turn_friction": null,
-    "shadow_line": null,
-    "health_line": null
+    "domain_readings": {
+      "Love": "You are made for steady love: a partner who keeps what you build and builds what you keep. Romance for you is reliability with warmth in it, promises kept on ordinary Tuesdays. Schedule the delight alongside the duties. Maintenance is your love language, and delight is its grammar.",
+      "Family": "Your household runs provisioned: bills paid, pantry full, small people secure without knowing why. The home you keep becomes the family’s steady point, and its calm outlasts every storm that visits. Build it thoroughly. Everyone you love will shelter there eventually."
+    },
+    "life_chapter": "Your home chapter is the well-kept one: the adult decades center on a household that works, love expressed as provision, stability as the family’s climate. Expect marriage to steady your whole chart. The era rewards tending, and you arrived with the tools.",
+    "relations": "The steady partner is this seat’s person: someone who finds maintenance romantic and returns it in kind. Together you become the couple others quietly rely on. Guard the courtship inside the partnership. Reliability wins the years, and romance keeps them warm.",
+    "turn_catalyst": "Run thin, the provision runs quiet: love expressed so practically it goes unheard. Say the warm thing out loud this week, unprompted.",
+    "turn_friction": "Run heavy, the household becomes procedure: everything kept, nothing kindled. Break one routine together, somewhere unscheduled.",
+    "shadow_line": "Overloaded, care calcifies into upkeep: the house perfect, the marriage furnished.",
+    "health_line": "Your body settles where the household settles: domestic peace is your baseline medicine. Guard the shared meals and the early nights."
   }
 }

@@ -22,12 +22,15 @@
     "defline": "Order stands at your Month Gate: the working world sees an officer, promotable on sight.",
     "reading": "This position rules Career and Social, and it runs the prime of your life. The Magistrate stands at your Month Gate in view: the working world sees the officer in you, reliable, correct, promotable, and it responds with rank. Your prime climbs by record: titles find you, and they tend to stick. Your name will matter more than your salary, and eventually decide it. Socially you are the one made responsible, the emergency contact of entire departments. Accept it, it is how your era pays. Just keep one lawless hobby. Even judges need a garden.",
     "teaser": "The working world sees the officer in you: reliable, correct, promotable. Your career climbs by rank and record, and your name will matter more than your salary.",
-    "domain_readings": null,
-    "life_chapter": null,
-    "relations": null,
-    "turn_catalyst": null,
-    "turn_friction": null,
-    "shadow_line": null,
-    "health_line": null
+    "domain_readings": {
+      "Career": "The working world sees the officer in you: reliable, correct, promotable, and it responds with rank. Titles find you and stick. Your name will matter more than your salary and eventually decide it. Keep the record clean and the climb takes care of itself.",
+      "Social": "You are the one made responsible: emergency contact of departments, keeper of the calendars, the colleague adults trust. It is how your circle pays respect. Accept the role and price it. Also keep one lawless hobby. Even judges need a garden."
+    },
+    "life_chapter": "Your rising chapter climbs by record: the prime decades stack titles, references, and a name that opens doors before you knock. Expect promotion by trust rather than campaign. The era rewards your correctness with rank, and rank with more correctness. Schedule some mischief.",
+    "relations": "The promoting elders are this seat’s people: bosses who trusted early, mentors who wrote the letters, seniors who said your name in the right meetings. Repay them by becoming one. The ladder you climbed stays standing only if you hold it for the next.",
+    "turn_catalyst": "Run thin, the record goes unread: correctness kept, candidacy never filed. Apply upward this quarter. The name is stronger than you price it.",
+    "turn_friction": "Run heavy, the office follows you home: rank worn at dinner. Leave the title at the door with the shoes.",
+    "shadow_line": "Overloaded, the position replaces the person: respected title, unvisited self.",
+    "health_line": "Your body performs its duties and postpones its complaints: symptoms filed under later. Open that file quarterly, with a professional."
   }
 }

@@ -7,421 +7,421 @@
         "id": "bijian_year_stem",
         "key": "比肩在年干",
         "canonical_name": "The Twin at the Year Gate",
-        "value": null
+        "value": "Your body carries its loads without announcing them: strong frame, quiet strain. Check what you carry before it checks you."
       },
       {
         "id": "bijian_year_branch",
         "key": "比肩在年支",
         "canonical_name": "The Twin inside the Year Gate",
-        "value": null
+        "value": "Your constitution is quietly durable: it endures more than it should before signaling. Build the habit of early rest, because your body will never demand it."
       },
       {
         "id": "bijian_month_stem",
         "key": "比肩在月干",
         "canonical_name": "The Twin at the Month Gate",
-        "value": "Breath and posture carry this seat: lungs, skin, the frame you hold upright. Exercise that opens the chest steadies the whole era."
+        "value": "Your body works like you do, alone and hard: it excels under self-set training and breaks quietly rather than complain. Schedule the checkups it will never request."
       },
       {
         "id": "bijian_month_branch",
         "key": "比肩在月支",
         "canonical_name": "The Twin inside the Month Gate",
-        "value": null
+        "value": "Your working body runs hot and silent: it performs until it stops. Put rest into the schedule as a task, because it will never volunteer."
       },
       {
         "id": "bijian_day_branch",
         "key": "比肩在日支",
         "canonical_name": "The Twin inside the Day Gate",
-        "value": null
+        "value": "Your body mirrors the household: it settles when home is level and knots when home contests. Peace at the table is physical medicine here."
       },
       {
         "id": "bijian_hour_stem",
         "key": "比肩在时干",
         "canonical_name": "The Twin at the Hour Gate",
-        "value": null
+        "value": "Your late body answers to use: strength kept by training, stiffness earned by pride. Keep lifting lightly and asking occasionally."
       },
       {
         "id": "bijian_hour_branch",
         "key": "比肩在时支",
         "canonical_name": "The Twin inside the Hour Gate",
-        "value": null
+        "value": "Late health tracks companionship here: the tended body follows the tended bond. Walk with someone, and both outlast the actuary."
       },
       {
         "id": "jiecai_year_stem",
         "key": "劫财在年干",
         "canonical_name": "The Rival at the Year Gate",
-        "value": null
+        "value": "Your energy spends in bursts and borrows from tomorrow: brilliant days, crashed weeks. Even out the fuel and the nerve stays sharp."
       },
       {
         "id": "jiecai_year_branch",
         "key": "劫财在年支",
         "canonical_name": "The Rival inside the Year Gate",
-        "value": null
+        "value": "Your reserves deplete socially: family seasons drain you below the line you notice. Schedule solitary recovery after every gathering."
       },
       {
         "id": "jiecai_month_stem",
         "key": "劫财在月干",
         "canonical_name": "The Rival at the Month Gate",
-        "value": null
+        "value": "Adrenaline is your work fuel and your work tax: the body scores every contest. Cool down as deliberately as you compete."
       },
       {
         "id": "jiecai_month_branch",
         "key": "劫财在月支",
         "canonical_name": "The Rival inside the Month Gate",
-        "value": null
+        "value": "Your system runs on stakes and pays in tension: the body holds every open bet. Close positions before bed, financially and otherwise."
       },
       {
         "id": "jiecai_day_branch",
         "key": "劫财在日支",
         "canonical_name": "The Rival inside the Day Gate",
-        "value": null
+        "value": "Your body reads the household weather: vivid seasons energize, contested ones erode. Make peace physically, walks, meals, sleep, and the vitality returns."
       },
       {
         "id": "jiecai_hour_stem",
         "key": "劫财在时干",
         "canonical_name": "The Rival at the Hour Gate",
-        "value": null
+        "value": "Your late energy loves the arena more than the armchair: activity sustains you, idleness corrodes. Keep a physical practice with stakes, however small."
       },
       {
         "id": "jiecai_hour_branch",
         "key": "劫财在时支",
         "canonical_name": "The Rival inside the Hour Gate",
-        "value": "Late strength is real here, and so is late tension: shoulders and breath hold the guard duty. Put the armor down nightly."
+        "value": "Late strength is real here, and so is late tension: the body holds guard duty long after the watch ends. Put the armor down nightly."
       },
       {
         "id": "shishen_year_stem",
         "key": "食神在年干",
         "canonical_name": "The Artisan at the Year Gate",
-        "value": null
+        "value": "Your body forgives generously and remembers eventually: indulgence compounds quietly. Keep the pleasures rhythmic and the body stays your friend."
       },
       {
         "id": "shishen_year_branch",
         "key": "食神在年支",
         "canonical_name": "The Artisan inside the Year Gate",
-        "value": "Your reserves live deep, kidney-and-sleep deep: hydration and true rest restore you faster than any regimen."
+        "value": "Your constitution runs on comfort honestly taken: regular meals, real rest, pleasure without guilt. Feed it on schedule and it forgives almost everything else."
       },
       {
         "id": "shishen_month_stem",
         "key": "食神在月干",
         "canonical_name": "The Artisan at the Month Gate",
-        "value": null
+        "value": "Your working rhythm is your metabolism: output and appetite rise and fall together. Protect the meals and breaks. They are production infrastructure."
       },
       {
         "id": "shishen_month_branch",
         "key": "食神在月支",
         "canonical_name": "The Artisan inside the Month Gate",
-        "value": null
+        "value": "Body and craft share one engine here: strain shows in the work before the mirror. When quality dips, prescribe sleep before practice."
       },
       {
         "id": "shishen_day_branch",
         "key": "食神在日支",
         "canonical_name": "The Artisan inside the Day Gate",
-        "value": null
+        "value": "Your body eats what the household serves, mood included: tension at home lands in your digestion first. Keep the table peaceful and portions honest."
       },
       {
         "id": "shishen_hour_stem",
         "key": "食神在时干",
         "canonical_name": "The Artisan at the Hour Gate",
-        "value": null
+        "value": "Your late body stays kind if fed kindly: appetite is the gauge to watch. When it dims, rest before worrying. It usually only wants sleep."
       },
       {
         "id": "shishen_hour_branch",
         "key": "食神在时支",
         "canonical_name": "The Artisan inside the Hour Gate",
-        "value": null
+        "value": "Your late constitution runs on warmth and routine: regular meals, gentle movement, people nearby. Loneliness is the only illness to actually fear."
       },
       {
         "id": "shangguan_year_stem",
         "key": "伤官在年干",
         "canonical_name": "The Virtuoso at the Year Gate",
-        "value": null
+        "value": "Your nerves run bright and close to the surface: stimulation is food until it is poison. Learn your dose, and take silence like a vitamin."
       },
       {
         "id": "shangguan_year_branch",
         "key": "伤官在年支",
         "canonical_name": "The Virtuoso inside the Year Gate",
-        "value": null
+        "value": "Old friction lives in the body as vigilance: jaw, shoulders, shallow breath. Unclench on schedule. The war ended, tell the troops."
       },
       {
         "id": "shangguan_month_stem",
         "key": "伤官在月干",
         "canonical_name": "The Virtuoso at the Month Gate",
-        "value": null
+        "value": "You metabolize attention like sugar: highs, crashes, cravings. Balance the performance diet with unwitnessed work, and the nerves steady."
       },
       {
         "id": "shangguan_month_branch",
         "key": "伤官在月支",
         "canonical_name": "The Virtuoso inside the Month Gate",
-        "value": null
+        "value": "The unfinished list lives in your body: sleep waits on solved problems. Write tomorrow’s revisions down tonight, and let the mind clock out."
       },
       {
         "id": "shangguan_day_branch",
         "key": "伤官在日支",
         "canonical_name": "The Virtuoso inside the Day Gate",
-        "value": null
+        "value": "Your rest depends on the last conversation of the day: end evenings in warmth rather than open debate, and the body sleeps like it won."
       },
       {
         "id": "shangguan_hour_stem",
         "key": "伤官在时干",
         "canonical_name": "The Virtuoso at the Hour Gate",
-        "value": null
+        "value": "Your energy stays performance-shaped to the end: it rallies for occasions and crashes after. Build recovery into every encore."
       },
       {
         "id": "shangguan_hour_branch",
         "key": "伤官在时支",
         "canonical_name": "The Virtuoso inside the Hour Gate",
-        "value": null
+        "value": "Mental fire keeps your late body warm: engagement is the medicine here. Protect the sleep it forgets to want, and it burns beautifully long."
       },
       {
         "id": "piancai_year_stem",
         "key": "偏财在年干",
         "canonical_name": "The Horizon at the Year Gate",
-        "value": null
+        "value": "Your vitality is circulatory: it rises in motion and pools in stillness. Move daily, travel seasonally, and the engine self-maintains."
       },
       {
         "id": "piancai_year_branch",
         "key": "偏财在年支",
         "canonical_name": "The Horizon inside the Year Gate",
-        "value": null
+        "value": "Your body needs new air on a schedule: staleness sickens you faster than strain. Change the scenery before the scenery changes you."
       },
       {
         "id": "piancai_month_stem",
         "key": "偏财在月干",
         "canonical_name": "The Horizon at the Month Gate",
-        "value": null
+        "value": "Your energy tracks the chase: vivid in pursuit, flat between hunts. Build ordinary-day vitality, meals, sleep, walks, so the engine survives the lulls."
       },
       {
         "id": "piancai_month_branch",
         "key": "偏财在月支",
         "canonical_name": "The Horizon inside the Month Gate",
-        "value": null
+        "value": "Your system cycles like your income: brilliant sprints, flat recoveries. Respect the fallow weeks. They are part of the yield."
       },
       {
         "id": "piancai_day_branch",
         "key": "偏财在日支",
         "canonical_name": "The Horizon inside the Day Gate",
-        "value": "Vitality here moves with novelty: stagnation stiffens you first in mood, then in the tendons. Keep the body traveling even when you stay."
+        "value": "Vitality here moves with novelty: stagnation dulls you in mood first, then in the body. Keep moving, keep traveling, and the engine stays young."
       },
       {
         "id": "piancai_hour_stem",
         "key": "偏财在时干",
         "canonical_name": "The Horizon at the Hour Gate",
-        "value": null
+        "value": "Your late vitality feeds on novelty and company: new places, young voices, plans in the calendar. Stillness is the only ailment to dodge."
       },
       {
         "id": "piancai_hour_branch",
         "key": "偏财在时支",
         "canonical_name": "The Horizon inside the Hour Gate",
-        "value": null
+        "value": "Movement is your late medicine: the body stays young in transit and stiffens in storage. Walk far, fly occasionally, sit least."
       },
       {
         "id": "zhengcai_year_stem",
         "key": "正财在年干",
         "canonical_name": "The Steward at the Year Gate",
-        "value": "The body keeps this seat’s books in tendons and shoulders: flexibility is your fiscal health made visible. Stretch what you clench."
+        "value": "The body budgets like you do: it thrives on regular hours and resents sudden splurges of effort. Keep the routines honest and it keeps the books balanced."
       },
       {
         "id": "zhengcai_year_branch",
         "key": "正财在年支",
         "canonical_name": "The Steward inside the Year Gate",
-        "value": null
+        "value": "Your constitution is steady stock: it keeps well under routine and wears down only through neglect nobody notices. Notice on schedule."
       },
       {
         "id": "zhengcai_month_stem",
         "key": "正财在月干",
         "canonical_name": "The Steward at the Month Gate",
-        "value": null
+        "value": "Your body runs on the same schedule as your money: steady deposits, rare withdrawals. Keep the sleep regular and it stays solvent."
       },
       {
         "id": "zhengcai_month_branch",
         "key": "正财在月支",
         "canonical_name": "The Steward inside the Month Gate",
-        "value": null
+        "value": "Your health is maintenance-shaped: it responds to routine like machinery to oil. Skip nothing small and nothing large will arrive."
       },
       {
         "id": "zhengcai_day_branch",
         "key": "正财在日支",
         "canonical_name": "The Steward inside the Day Gate",
-        "value": null
+        "value": "Your body settles where the household settles: domestic peace is your baseline medicine. Guard the shared meals and the early nights."
       },
       {
         "id": "zhengcai_hour_stem",
         "key": "正财在时干",
         "canonical_name": "The Steward at the Hour Gate",
-        "value": "Late vitality tracks flexibility: tendons, gait, the willingness to bend. Walk daily and stretch. Your body prefers maintenance to repair."
+        "value": "Late vitality tracks maintenance: steady walks, kept appointments, moderation without misery. Your body prefers upkeep to repair, and it rewards the ledger-keeper’s patience."
       },
       {
         "id": "zhengcai_hour_branch",
         "key": "正财在时支",
         "canonical_name": "The Steward inside the Hour Gate",
-        "value": null
+        "value": "Your late body keeps what you maintained: steady walks, kept appointments, honest portions. It ages like a well-serviced engine, gradually and without drama."
       },
       {
         "id": "qisha_year_stem",
         "key": "七杀在年干",
         "canonical_name": "The General at the Year Gate",
-        "value": null
+        "value": "Your body was trained by pressure and holds it loyally: tension is the old uniform. Take it off with real exercise, then real rest."
       },
       {
         "id": "qisha_year_branch",
         "key": "七杀在年支",
         "canonical_name": "The General inside the Year Gate",
-        "value": null
+        "value": "Your reserves are deep and privately spent: exhaustion arrives without warning signs you honor. Install the warning signs, then honor them."
       },
       {
         "id": "qisha_month_stem",
         "key": "七杀在月干",
         "canonical_name": "The General at the Month Gate",
-        "value": null
+        "value": "Adrenaline is your working fuel and its own tax: decompress as professionally as you perform. The body honors the discipline it is shown."
       },
       {
         "id": "qisha_month_branch",
         "key": "七杀在月支",
         "canonical_name": "The General inside the Month Gate",
-        "value": null
+        "value": "Your engine redlines silently: it performs through damage and reports late. Schedule the inspections your pride would cancel."
       },
       {
         "id": "qisha_day_branch",
         "key": "七杀在日支",
         "canonical_name": "The General inside the Day Gate",
-        "value": null
+        "value": "Your vitality tracks the household’s treaty status: peace restores you at double rate. Invest in it like the medicine it is."
       },
       {
         "id": "qisha_hour_stem",
         "key": "七杀在时干",
         "canonical_name": "The General at the Hour Gate",
-        "value": null
+        "value": "Your late strength is real and it hoards tension: the guard duty never quite ends in the body. Put the armor down nightly, with ceremony if needed."
       },
       {
         "id": "qisha_hour_branch",
         "key": "七杀在时支",
         "canonical_name": "The General inside the Hour Gate",
-        "value": null
+        "value": "Your late vitality is drill-shaped: it thrives on kept routines and erodes in formless days. Keep the morning ritual sacred, whatever it is."
       },
       {
         "id": "zhengguan_year_stem",
         "key": "正官在年干",
         "canonical_name": "The Magistrate at the Year Gate",
-        "value": null
+        "value": "Your body holds itself correctly and pays in stiffness: posture perfect, shoulders carrying the family name. Slouch somewhere safe, regularly."
       },
       {
         "id": "zhengguan_year_branch",
         "key": "正官在年支",
         "canonical_name": "The Magistrate inside the Year Gate",
-        "value": null
+        "value": "Your body obeys routine gratefully and rebels against chaos quietly: irregularity sickens you faster than strain. Keep the schedule and it keeps you."
       },
       {
         "id": "zhengguan_month_stem",
         "key": "正官在月干",
         "canonical_name": "The Magistrate at the Month Gate",
-        "value": null
+        "value": "Your body performs its duties and postpones its complaints: symptoms filed under later. Open that file quarterly, with a professional."
       },
       {
         "id": "zhengguan_month_branch",
         "key": "正官在月支",
         "canonical_name": "The Magistrate inside the Month Gate",
-        "value": null
+        "value": "Your health runs on office rhythm: regular hours suit you biologically. Guard the weekends from the weekdays, and both improve."
       },
       {
         "id": "zhengguan_day_branch",
         "key": "正官在日支",
         "canonical_name": "The Magistrate inside the Day Gate",
-        "value": null
+        "value": "Your body thrives inside domestic order: regular meals, shared routines, early nights. The household schedule is half your medicine."
       },
       {
         "id": "zhengguan_hour_stem",
         "key": "正官在时干",
         "canonical_name": "The Magistrate at the Hour Gate",
-        "value": null
+        "value": "Your late body keeps its appointments and its posture: dutiful to the end. Add the undutiful pleasures. They are medicine too."
       },
       {
         "id": "zhengguan_hour_branch",
         "key": "正官在时支",
         "canonical_name": "The Magistrate inside the Hour Gate",
-        "value": null
+        "value": "Your late constitution runs on completed rest: sleep improves as duties resolve. Settle the affairs and the body settles with them."
       },
       {
         "id": "pianyin_year_stem",
         "key": "偏印在年干",
         "canonical_name": "The Alchemist at the Year Gate",
-        "value": null
+        "value": "Your system runs sensitive and private: it registers what others miss and depletes from what others enjoy. Honor the early exits. They are maintenance."
       },
       {
         "id": "pianyin_year_branch",
         "key": "偏印在年支",
         "canonical_name": "The Alchemist inside the Year Gate",
-        "value": null
+        "value": "Your constitution is quietly particular: it thrives on routines others find austere and sickens on excess others call fun. Trust your settings."
       },
       {
         "id": "pianyin_month_stem",
         "key": "偏印在月干",
         "canonical_name": "The Alchemist at the Month Gate",
-        "value": null
+        "value": "Your working mind burns clean fuel or none: noise and interruption cost you double. Engineer the quiet, and the stamina appears."
       },
       {
         "id": "pianyin_month_branch",
         "key": "偏印在月支",
         "canonical_name": "The Alchemist inside the Month Gate",
-        "value": "This seat digests ideas and dinners with the same organ: stomach ease tracks mental ease. Feed both slowly, on schedule."
+        "value": "Thinking seasons tax the body here: appetite and sleep thin when the mind runs long. Anchor both with routine, and step outside between chapters."
       },
       {
         "id": "pianyin_day_branch",
         "key": "偏印在日支",
         "canonical_name": "The Alchemist inside the Day Gate",
-        "value": null
+        "value": "Your body recharges in solitude and depletes in crowds, even beloved ones: schedule the alone time as marital infrastructure. It keeps the shared time warm."
       },
       {
         "id": "pianyin_hour_stem",
         "key": "偏印在时干",
         "canonical_name": "The Alchemist at the Hour Gate",
-        "value": null
+        "value": "Your late vitality is candle-like: steady, quiet, needing protection from drafts. Keep the routines gentle and the sleep deep, and it burns long."
       },
       {
         "id": "pianyin_hour_branch",
         "key": "偏印在时支",
         "canonical_name": "The Alchemist inside the Hour Gate",
-        "value": null
+        "value": "Your late health mirrors your stillness practice: meditative routine literally maintains you. Keep the quiet hours and the gentle walks. They are the regimen."
       },
       {
         "id": "zhengyin_year_stem",
         "key": "正印在年干",
         "canonical_name": "The Sage at the Year Gate",
-        "value": null
+        "value": "Your constitution responds to care like a garden to rain: tended, it flourishes visibly. Accept the tending. Self-sufficiency is not the assignment here."
       },
       {
         "id": "zhengyin_year_branch",
         "key": "正印在年支",
         "canonical_name": "The Sage inside the Year Gate",
-        "value": null
+        "value": "Your body heals on trust and rest: recovery accelerates near people who love you. Convalesce accompanied whenever life allows."
       },
       {
         "id": "zhengyin_month_stem",
         "key": "正印在月干",
         "canonical_name": "The Sage at the Month Gate",
-        "value": null
+        "value": "Your steadiness spends real energy: holding the calm for others draws on your reserves. Refill in solitude and study, your original medicines."
       },
       {
         "id": "zhengyin_month_branch",
         "key": "正印在月支",
         "canonical_name": "The Sage inside the Month Gate",
-        "value": null
+        "value": "Your system thrives on scholarly rhythm: reading, walking, sleeping in order. Chaos taxes you doubly. Keep the days shaped, and the mind keeps the body."
       },
       {
         "id": "zhengyin_day_branch",
         "key": "正印在日支",
         "canonical_name": "The Sage inside the Day Gate",
-        "value": null
+        "value": "Your body is domestic: it flourishes on home cooking, shared beds, and peace. Guard the household calm and the checkups become formalities."
       },
       {
         "id": "zhengyin_hour_stem",
         "key": "正印在时干",
         "canonical_name": "The Sage at the Hour Gate",
-        "value": null
+        "value": "Your late vitality flows from usefulness and rest in equal measure: teach mornings, nap afternoons, and the constitution carries you far past the tables."
       },
       {
         "id": "zhengyin_hour_branch",
         "key": "正印在时支",
         "canonical_name": "The Sage inside the Hour Gate",
-        "value": null
+        "value": "Your late body runs on gentleness and rhythm: soft exercise, regular company, unhurried meals. Managed so, it outlives every prediction."
       }
     ]
   }

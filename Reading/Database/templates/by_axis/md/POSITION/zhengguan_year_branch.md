@@ -26,10 +26,11 @@
 | `defline` | Order lives inside your Year Gate: your root is a rulebook, learned before you could read it. |
 | `reading` | This position rules Family and Growth, and it works from the root of your story. The Magistrate lives inside your Year Gate: discipline was the air of your early home, felt more than announced, and it gave you a straight spine before you knew you had one. Growth for you follows structure, courses finished, ranks earned, standards internalized young. Family expectations shaped you and mostly served you, and the residue is a conscience that files reports. Keep the spine, pension the guilt. Order held from love ages into dignity. Order held from fear just ages you. |
 | `teaser` | Discipline was the air of your early home, felt more than announced. It gave you a straight spine. Institutions will trust you early and promote you steadily. |
-| `domain_readings` | *(unauthored)* |
-| `life_chapter` | *(unauthored)* |
-| `relations` | *(unauthored)* |
-| `turn_catalyst` | *(unauthored)* |
-| `turn_friction` | *(unauthored)* |
-| `shadow_line` | *(unauthored)* |
-| `health_line` | *(unauthored)* |
+| `domain_readings.Family` | Discipline was the air of your early home, felt more than announced: it gave you a straight spine before you knew you had one. Family bonds run on kept expectations. Keep them from love, never from fear. The difference decides how the order ages in you. |
+| `domain_readings.Growth` | Your growth follows structure: courses finished, ranks earned, standards internalized young and upgraded ever since. You climb frameworks the way vines climb trellises. Choose worthy frames and audit them regularly. Your discipline deserves architecture that deserves it. |
+| `life_chapter` | Your early chapter internalized the frame: discipline absorbed so young it feels like temperament. Those years installed a conscience that files reports and a spine that never slouches. Expect structure to remain your native climate. Renovate it whenever it stops fitting. |
+| `relations` | The expectant household is this seat’s people: family whose standards shaped you and whose approval still audits quietly. The residue is a conscience with their accent. Keep the values, pension the guilt. Order held from love ages into dignity. |
+| `turn_catalyst` | Run thin, the frame waits empty: discipline available, structure unchosen. Enroll in one worthy framework this year. The spine wants a ladder. |
+| `turn_friction` | Run heavy, the reports never stop filing: self-audited into exhaustion. Approve yourself once daily, without evidence. |
+| `shadow_line` | Overloaded, the conscience turns warden: correctness enforced from a cell of its own. |
+| `health_line` | Your body obeys routine gratefully and rebels against chaos quietly: irregularity sickens you faster than strain. Keep the schedule and it keeps you. |

@@ -33,4 +33,4 @@
 | `turn_catalyst` | Run thin, start the late-life ledger now: one standing transfer, however small, builds the ending early. |
 | `turn_friction` | Run heavy, provision becomes control near the end: the purse as leash. Fund freely, untie the strings. |
 | `shadow_line` | Overloaded, the estate outranks the evenings: comfort deferred in the very years built for it. |
-| `health_line` | Late vitality tracks flexibility: tendons, gait, the willingness to bend. Walk daily and stretch. Your body prefers maintenance to repair. |
+| `health_line` | Late vitality tracks maintenance: steady walks, kept appointments, moderation without misery. Your body prefers upkeep to repair, and it rewards the ledger-keeper’s patience. |

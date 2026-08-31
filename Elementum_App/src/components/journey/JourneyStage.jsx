@@ -697,7 +697,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                                     : null;
                                   const turn = elScreen.dx?.condition === 'Overfueled' ? p.turnFriction
                                     : elScreen.dx?.condition === 'Underfueled' ? p.turnCatalyst : null;
-                                  const turnLab = elScreen.dx?.condition === 'Overfueled' ? 'Running heavy' : 'Running thin';
                                   return (
                                     <>
                                       <p className="elpos-reading">{p.reading}</p>
@@ -710,11 +709,14 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                                       {patText && !weaveDomain && (
                                         <p className="elpos-domread">{patText}</p>
                                       )}
+                                      {/* the state turn = a TONE MODIFIER on the
+                                          domain block above (owner 2026-08-19),
+                                          not a section: unlabeled continuation */}
+                                      {turn && (
+                                        <p className="elpos-domread elpos-turn">{turn}</p>
+                                      )}
                                       {p.relations && (
                                         <p className="elpos-domread"><b className="el-funclab">The people.</b> {p.relations}</p>
-                                      )}
-                                      {turn && (
-                                        <p className="elpos-domread"><b className="el-funclab">{turnLab}.</b> {turn}</p>
                                       )}
                                       {p.shadowLine && (
                                         <p className="elpos-domread"><b className="el-funclab">The shadow.</b> {p.shadowLine}</p>

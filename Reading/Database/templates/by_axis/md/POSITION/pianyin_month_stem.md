@@ -26,10 +26,11 @@
 | `defline` | The Alchemist stands at your Month Gate: the working world sees the specialist it does not quite understand. |
 | `reading` | This position rules Career and Mind, and it runs the prime of your life. The Alchemist stands at your Month Gate in view: the working world sees your odd angle first, the specialist, the diagnostician, the one who reads between. Your prime pays for insight rather than hours, and the niche will always outpay the ladder. Colleagues bring you the unsolvable and remember you for it. The market for your mind widens through your thirties and forties as the strange becomes the sought. Name your specialty in public. Obscurity is the only tax on this gate. |
 | `teaser` | The working world sees your odd angle first: the specialist, the diagnostician, the one who reads between. Career luck favors your niche over any ladder. |
-| `domain_readings` | *(unauthored)* |
-| `life_chapter` | *(unauthored)* |
-| `relations` | *(unauthored)* |
-| `turn_catalyst` | *(unauthored)* |
-| `turn_friction` | *(unauthored)* |
-| `shadow_line` | *(unauthored)* |
-| `health_line` | *(unauthored)* |
+| `domain_readings.Career` | The working world sees your odd angle first: the specialist, the diagnostician, the one who reads between. Your niche will always outpay the ladder, and your reputation compounds through solved unsolvables. Name the specialty publicly. Obscurity is the only tax on this gate. |
+| `domain_readings.Mind` | Insight is your professional instrument: you are paid for what you notice, and you notice what training cannot teach. Protect the conditions it needs, quiet, autonomy, strange inputs. The mind that reads between lines cannot work in constant company. |
+| `life_chapter` | Your rising chapter specializes: the prime decades reward your odd angle with a niche that widens as the strange becomes the sought. Expect your authority to build through diagnoses others missed. The era pays insight by the insight. Keep the instrument calibrated. |
+| `relations` | The consulting colleagues are this seat’s people: the ones who bring you the unsolvable and remember you for it. Your professional bonds form over hard problems, never small talk. Maintain them between crises. Gratitude has a short professional memory. |
+| `turn_catalyst` | Run thin, the specialty stays unnamed: expertise real, shingle unhung. Declare the niche this quarter, in public, by name. |
+| `turn_friction` | Run heavy, the reading-between never stops: motives diagnosed at dinner. Take some evenings at face value. |
+| `shadow_line` | Overloaded, insight isolates: the one who sees through everyone, invited by no one. |
+| `health_line` | Your working mind burns clean fuel or none: noise and interruption cost you double. Engineer the quiet, and the stamina appears. |

@@ -26,10 +26,11 @@
 | `defline` | The Alchemist stands at your Year Gate: the world’s first read of you is depth, slightly apart. |
 | `reading` | This position rules Mind and Social, and it rules them from your beginnings. The Alchemist stood openly at your Year Gate: you were the watchful child, visibly different in how you learned, reading sideways while the class read forward. Adults found you old, peers found you strange, and both were early compliments. Your mind remains your public signature, the odd angle people eventually pay for. Socially you run selective and always will, three real people over thirty acquaintances. Expect the strange skills gathered early to become the livelihood nobody predicted. They were never a phase. They were the plan. |
 | `teaser` | You were the watchful child, visibly different in how you learned. Your path stays unconventional: the strange skills gathered early become the livelihood nobody predicted. |
-| `domain_readings` | *(unauthored)* |
-| `life_chapter` | *(unauthored)* |
-| `relations` | *(unauthored)* |
-| `turn_catalyst` | *(unauthored)* |
-| `turn_friction` | *(unauthored)* |
-| `shadow_line` | *(unauthored)* |
-| `health_line` | *(unauthored)* |
+| `domain_readings.Mind` | Your mind was visibly different from the start: reading sideways, learning at strange angles, arriving at answers by unlisted roads. It remains your public signature, the odd lens people eventually pay for. Feed it strangeness on schedule. Ordinary inputs starve extraordinary instruments. |
+| `domain_readings.Social` | You run selective and always have: three real people over thirty acquaintances, depth over circulation. The watchful child became the adult others confide in precisely because you are not everywhere. Keep the ratio. Your social wealth was never meant to be liquid. |
+| `life_chapter` | Your early chapter watched from the doorway: visibly different, quietly cataloguing, gathering the strange skills nobody assigned. Those years built the unusual instrument you became. Expect the oddness of your beginnings to keep converting into the authority of your middles. |
+| `relations` | The puzzled adults are this seat’s people: family who loved you without quite decoding you, teachers who sensed more than they could grade. A few saw clearly, and you remember each one. Become that seer for another strange child. The debt transfers that way. |
+| `turn_catalyst` | Run thin, the lens caps itself: perception rationed, oddness disguised. Show the strange skill openly this month. It was always the asset. |
+| `turn_friction` | Run heavy, the watching replaces the joining: life observed from the doorway. Enter one gathering fully, coat off. |
+| `shadow_line` | Overloaded, difference becomes the fortress: understood by few, approached by fewer. |
+| `health_line` | Your system runs sensitive and private: it registers what others miss and depletes from what others enjoy. Honor the early exits. They are maintenance. |

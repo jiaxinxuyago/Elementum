@@ -26,10 +26,12 @@
 | `defline` | Order holds your chart’s strongest seat: your prime is an office held with honor. |
 | `reading` | This position rules Career, Growth, and Social, and it holds the deep seat of your prime. The Magistrate lives inside your Month Gate: the frame of your working life is duty done properly, and your growth compounds inside institutions the way interest compounds inside banks. Midlife hands you titles, and the titles stay. People organize around your steadiness, which is influence dressed as reliability. The deep cost is elasticity: the frame can hold you as much as it holds you up. Renegotiate the role every few years on purpose. Structure serves best when it is reviewed. |
 | `teaser` | Your prime is built for responsibility: the frame of your working life is duty done properly. Titles find you midlife, and they tend to stick. |
-| `domain_readings` | *(unauthored)* |
-| `life_chapter` | *(unauthored)* |
-| `relations` | *(unauthored)* |
-| `turn_catalyst` | *(unauthored)* |
-| `turn_friction` | *(unauthored)* |
-| `shadow_line` | *(unauthored)* |
-| `health_line` | *(unauthored)* |
+| `domain_readings.Career` | Duty done properly is the frame of your working life: your growth compounds inside institutions the way interest compounds inside banks. Midlife hands you titles that stay. The deep cost is elasticity. Renegotiate your role every few years on purpose. Structure serves best reviewed. |
+| `domain_readings.Growth` | You grow inside frameworks and outgrow them on schedule: each structure teaches, then confines, then hands you to the next. Honor the rhythm. The promotion beyond a frame is also a form of loyalty to it. Climb without guilt. |
+| `domain_readings.Social` | People organize around your steadiness: teams stabilize, committees function, chaos finds its filing system. Your influence wears reliability’s plain clothes. Know exactly what that is worth. The one who keeps things standing quietly decides what stands. |
+| `life_chapter` | Your rising chapter builds inside great structures: the prime decades build inside structures, and the structures build you back, title by title. Expect your steadiness to become the department’s foundation. Review the building every few years. Foundations deserve architects, not just tenants. |
+| `relations` | The org chart neighbors are this seat’s people: reports who trust you, seniors who rely on you, the whole scaffolding of working bonds. They will define these decades’ friendships. Take two of them beyond the building. Colleagues age into brothers if invited. |
+| `turn_catalyst` | Run thin, the frame stays theoretical: capability unenrolled. Join the structure worth your decade this year. The engine needs a building. |
+| `turn_friction` | Run heavy, the institution becomes the identity: the badge outranking the man. Spend one weekend monthly as nobody’s title. |
+| `shadow_line` | Overloaded, the frame holds you more than up: security renamed confinement. |
+| `health_line` | Your health runs on office rhythm: regular hours suit you biologically. Guard the weekends from the weekdays, and both improve. |

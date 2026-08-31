@@ -22,12 +22,15 @@
     "defline": "Brilliance lives inside your Year Gate: you were rooted in a house that talent had to outgrow.",
     "reading": "This position rules Family and Growth, and it works from the root of your story. The Virtuoso lives inside your Year Gate: some rule at home never fit, and you knew it young, quietly or otherwise. That early refusal became your growth engine, the part of you that improves whatever it is handed by first doubting it. Family may still read your honesty as rebellion. Let the results argue for you. The edge turns to brilliance in every season you give it real material, and the childhood friction fades into origin story, which is where it belongs.",
     "teaser": "Underneath your story runs an early refusal: some rule at home never fit, and you knew it young. That edge becomes brilliance once it stops needing an audience.",
-    "domain_readings": null,
-    "life_chapter": null,
-    "relations": null,
-    "turn_catalyst": null,
-    "turn_friction": null,
-    "shadow_line": null,
-    "health_line": null
+    "domain_readings": {
+      "Family": "Some rule at home never fit and you knew it young: the refusal underneath your story is old and honest. As an adult, your family relationships flourish exactly where honesty is allowed. Keep telling the truth kindly. The relatives who can hear it become your real ones.",
+      "Growth": "You grow by improving what you are handed: doubting first, testing second, upgrading third. It makes you allergic to received wisdom and brilliant at revision. Give the doubt real material, systems, drafts, broken things, and it turns from rebellion into engineering."
+    },
+    "life_chapter": "Your early chapter carried a quiet refusal: something in the first house never fit, and the misfit became your engine. Expect the themes of those years, seeing through, speaking up, paying for it, to mature into your finest professional instincts. The friction was the curriculum.",
+    "relations": "The household you outgrew is this seat’s people: family loved fiercely and argued with honestly, sometimes in the same sentence. The bond survives on truth with warmth. Deliver both together, always. Truth alone was the childhood. Warmth alone would be surrender.",
+    "turn_catalyst": "Run thin, the refusal rusts inward: dissatisfaction without revision. Fix one thing you complain about this month. The engine wants work.",
+    "turn_friction": "Run heavy, everything reads as the old rule: bosses become parents, feedback becomes control. Sort the past from the present before replying.",
+    "shadow_line": "Overloaded, the rebel needs the cage: freedom feeling empty without something to refuse.",
+    "health_line": "Old friction lives in the body as vigilance: jaw, shoulders, shallow breath. Unclench on schedule. The war ended, tell the troops."
   }
 }

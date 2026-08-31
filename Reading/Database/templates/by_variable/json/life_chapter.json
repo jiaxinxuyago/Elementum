@@ -7,13 +7,13 @@
         "id": "bijian_year_stem",
         "key": "比肩在年干",
         "canonical_name": "The Twin at the Year Gate",
-        "value": null
+        "value": "Your early chapter made you sturdy in public: a childhood where capability was noticed and rewarded, and softness kept private. The self you built before sixteen is load-bearing still. Expect the themes of those years, earning your place, carrying your share, to keep returning as strengths."
       },
       {
         "id": "bijian_year_branch",
         "key": "比肩在年支",
         "canonical_name": "The Twin inside the Year Gate",
-        "value": null
+        "value": "Your early chapter built the keel: somewhere before the world was watching, you learned to hold your own, and it set the hull for everything after. The strengths of those hidden years surface all your life as steadiness others cannot explain. Expect to be the calm one in every storm."
       },
       {
         "id": "bijian_month_stem",
@@ -25,61 +25,61 @@
         "id": "bijian_month_branch",
         "key": "比肩在月支",
         "canonical_name": "The Twin inside the Month Gate",
-        "value": null
+        "value": "Your rising chapter runs on your own fuel: the prime decades reward every skill you own outright and tax every dependency. Expect the pattern to sharpen through your thirties, autonomy paying, waiting costing. Build the engine early and service it always. The era belongs to the self-propelled."
       },
       {
         "id": "bijian_day_branch",
         "key": "比肩在日支",
         "canonical_name": "The Twin inside the Day Gate",
-        "value": null
+        "value": "Your home chapter runs as a partnership of equals: the adult decades organize around a marriage or bond where neither leads by default. Expect the era’s lessons to be about yielding, not standing, you arrived already knowing how to stand. The households you build will be sturdy and frank."
       },
       {
         "id": "bijian_hour_stem",
         "key": "比肩在时干",
         "canonical_name": "The Twin at the Hour Gate",
-        "value": null
+        "value": "Your late chapter keeps its own keys: the last decades run on self-command, health self-managed, affairs self-kept, dignity non-negotiable. Expect to be the oldest capable person at every table and quietly proud of it. Plan the interdependence early, because your default plans none."
       },
       {
         "id": "bijian_hour_branch",
         "key": "比肩在时支",
         "canonical_name": "The Twin inside the Hour Gate",
-        "value": null
+        "value": "Your late chapter roots in chosen company: the harvest decades run on a few level bonds, tended long, trusted completely. Expect the final era to be sturdier than most people’s and smaller than most people’s, by design. The circle you build by fifty is the one that carries you after."
       },
       {
         "id": "jiecai_year_stem",
         "key": "劫财在年干",
         "canonical_name": "The Rival at the Year Gate",
-        "value": null
+        "value": "Your early chapter ran on nerve: a family line of risk and generosity, fortunes in motion, a child who learned that boldness gets fed first. The daring you inherited opens doors patience never finds. The bookkeeping you did not inherit is the one skill worth adding."
       },
       {
         "id": "jiecai_year_branch",
         "key": "劫财在年支",
         "canonical_name": "The Rival inside the Year Gate",
-        "value": null
+        "value": "Your early chapter blurred mine and yours: a household of pooled resources and open hands, where sharing was survival and boundaries were rude. It made you brave about money and loose about ownership. Expect both to echo lifelong. Keep the bravery. Upgrade the paperwork."
       },
       {
         "id": "jiecai_month_stem",
         "key": "劫财在月干",
         "canonical_name": "The Rival at the Month Gate",
-        "value": null
+        "value": "Your rising chapter is a tournament: the prime decades hand you contests, and you convert them into rank while steadier people convert hours. Expect wins that arrive in public and losses that arrive through partners. Compete openly, split prizes beforehand, and the era pays your nerve well."
       },
       {
         "id": "jiecai_month_branch",
         "key": "劫财在月支",
         "canonical_name": "The Rival inside the Month Gate",
-        "value": null
+        "value": "Your rising chapter runs on wagers: the prime decades keep offering stakes, and your instinct to take them is usually right and occasionally expensive. Expect surges, droughts, and a net curve that rewards the brave-with-bookkeeping. The era’s best bet is backing yourself, properly papered."
       },
       {
         "id": "jiecai_day_branch",
         "key": "劫财在日支",
         "canonical_name": "The Rival inside the Day Gate",
-        "value": null
+        "value": "Your home chapter is a lively one: the adult decades build a household with weather in it, passion, debate, shared bets, real warmth. Expect the era to test ownership more than affection. The couples version of you thrives on declared terms and honest fire. Arrange both."
       },
       {
         "id": "jiecai_hour_stem",
         "key": "劫财在时干",
         "canonical_name": "The Rival at the Hour Gate",
-        "value": null
+        "value": "Your late chapter stays in the game: backing ventures, funding nerve, refusing the spectator seat. The last decades run warmer and more generous than most, and the only threat is unbounded yes. Fence the giving, keep the fire, and the ending reads like a patron’s, not a lesson."
       },
       {
         "id": "jiecai_hour_branch",
@@ -91,7 +91,7 @@
         "id": "shishen_year_stem",
         "key": "食神在年干",
         "canonical_name": "The Artisan at the Year Gate",
-        "value": null
+        "value": "Your early chapter was visibly sweet: charm noticed young, ease worn openly, doors that opened because you were pleasant to have around. The generosity you learned in those years remains your best economics. Expect life to keep feeding whoever keeps feeding others. That was always the deal."
       },
       {
         "id": "shishen_year_branch",
@@ -103,97 +103,97 @@
         "id": "shishen_month_stem",
         "key": "食神在月干",
         "canonical_name": "The Artisan at the Month Gate",
-        "value": null
+        "value": "Your rising chapter flows rather than climbs: the prime decades reward your ease with steady output and pleasant company, and the only tax is drift. Pick one craft to deepen deliberately through your thirties. Ease plus chosen depth is the whole formula for your era."
       },
       {
         "id": "shishen_month_branch",
         "key": "食神在月支",
         "canonical_name": "The Artisan inside the Month Gate",
-        "value": null
+        "value": "Your rising chapter is a workshop: the prime decades accumulate skill the way kilns accumulate heat, slowly, evenly, until everything you touch comes out finished. Expect mastery around forty that looks sudden to others. It was daily. Keep the bench hours sacred."
       },
       {
         "id": "shishen_day_branch",
         "key": "食神在日支",
         "canonical_name": "The Artisan inside the Day Gate",
-        "value": null
+        "value": "Your home chapter is the sweet one: the adult decades center on a household that feeds everyone who enters, you included. Expect marriage to soften you, home to anchor you, and comfort to be the era’s real project. Build the nest thoroughly. Everything else roosts in it."
       },
       {
         "id": "shishen_hour_stem",
         "key": "食神在时干",
         "canonical_name": "The Artisan at the Hour Gate",
-        "value": null
+        "value": "Your late chapter reads like dessert: the sweetness of the whole life concentrates at the end, projects finished, tables full, gifts landing in the right hands. Expect your last productive decades to be your most beloved ones. Schedule them like the harvest they are."
       },
       {
         "id": "shishen_hour_branch",
         "key": "食神在时支",
         "canonical_name": "The Artisan inside the Hour Gate",
-        "value": null
+        "value": "Your late chapter roots in earned comfort: the last decades keep a good table, deep sleep, and company that stays. The blessing is real and it is maintained, by hosting, by rhythm, by refusing to hurry. Expect old age to suit you unusually well. It was built for you."
       },
       {
         "id": "shangguan_year_stem",
         "key": "伤官在年干",
         "canonical_name": "The Virtuoso at the Year Gate",
-        "value": null
+        "value": "Your early chapter sparkled and chafed: brilliance noticed young, authority questioned younger. The friction of those years was voltage finding a circuit. Expect your luck to improve every year you choose your own stage, and it started improving the day you left the assigned one."
       },
       {
         "id": "shangguan_year_branch",
         "key": "伤官在年支",
         "canonical_name": "The Virtuoso inside the Year Gate",
-        "value": null
+        "value": "Your early chapter carried a quiet refusal: something in the first house never fit, and the misfit became your engine. Expect the themes of those years, seeing through, speaking up, paying for it, to mature into your finest professional instincts. The friction was the curriculum."
       },
       {
         "id": "shangguan_month_stem",
         "key": "伤官在月干",
         "canonical_name": "The Virtuoso at the Month Gate",
-        "value": null
+        "value": "Your rising chapter performs: the prime decades run on visible wins, quotable work, and the occasional bridge burned with flair. Expect reputation to be your currency and finish to be your challenge. The era pays completed brilliance triple. Ship the encore, not just the opening night."
       },
       {
         "id": "shangguan_month_branch",
         "key": "伤官在月支",
         "canonical_name": "The Virtuoso inside the Month Gate",
-        "value": null
+        "value": "Your rising chapter revises: the prime decades hand you flawed systems and the compulsion to fix them, and your reputation builds on the upgrades. Expect restlessness as the era’s tax and mastery as its payout. One deep specialty calms what ten shallow ones inflame."
       },
       {
         "id": "shangguan_day_branch",
         "key": "伤官在日支",
         "canonical_name": "The Virtuoso inside the Day Gate",
-        "value": null
+        "value": "Your home chapter crackles: the adult decades build a household with wit in the walls, debate at dinner, and affection dressed as teasing. Expect a marriage that thinks. The era’s single discipline is aiming the sharpness outward, at the world, never across the table."
       },
       {
         "id": "shangguan_hour_stem",
         "key": "伤官在时干",
         "canonical_name": "The Virtuoso at the Hour Gate",
-        "value": null
+        "value": "Your late chapter takes the mic: the last decades say the true things earlier eras only drafted, and the young write them down. Expect your influence to peak after the titles stop mattering. Legacy for you is quotation. Give them the material."
       },
       {
         "id": "shangguan_hour_branch",
         "key": "伤官在时支",
         "canonical_name": "The Virtuoso inside the Hour Gate",
-        "value": null
+        "value": "Your late chapter never stops making: the root of your last decades is expression that refuses retirement, projects multiplying, opinions sharpening pleasantly. Expect your old age to be your most honest era and, genuinely, your funniest. The house lights stay on late here."
       },
       {
         "id": "piancai_year_stem",
         "key": "偏财在年干",
         "canonical_name": "The Horizon at the Year Gate",
-        "value": null
+        "value": "Your early chapter watched money move: generosity visible, fortunes fluid, opportunity treated as a family member. It gave you ease around risk that vault-raised people never learn. Expect openings to find you lifelong, and expect to need the anchor you were never handed."
       },
       {
         "id": "piancai_year_branch",
         "key": "偏财在年支",
         "canonical_name": "The Horizon inside the Year Gate",
-        "value": null
+        "value": "Your early chapter planted the itch: somewhere in the roots, movement was survival or salvation, and it lives in you as a quiet pull toward elsewhere. Expect your best luck at a distance and your best rest at home. The design wants both. Alternate deliberately."
       },
       {
         "id": "piancai_month_stem",
         "key": "偏财在月干",
         "canonical_name": "The Horizon at the Month Gate",
-        "value": null
+        "value": "Your rising chapter hunts: the prime decades run on openings spotted and seized, money in surges, reputation as the one who knows first. Expect timing to be your edge and drift to be your tax. Harvest discipline turns this era’s stories into this era’s estate."
       },
       {
         "id": "piancai_month_branch",
         "key": "偏财在月支",
         "canonical_name": "The Horizon inside the Month Gate",
-        "value": null
+        "value": "Your rising chapter reads the weather: the prime decades reward your feel for movement, in markets, in crowds, in moments. Expect income shaped like seasons and instincts that improve with use. The era’s fortune goes to the harvester you choose to become at every peak."
       },
       {
         "id": "piancai_day_branch",
@@ -205,13 +205,13 @@
         "id": "piancai_hour_stem",
         "key": "偏财在时干",
         "canonical_name": "The Horizon at the Hour Gate",
-        "value": null
+        "value": "Your late chapter keeps the door open: opportunity stays your friend past every retirement age, and the last decades run wide, peopled, and in motion. Expect to be the elder with the newest stories. Map the estate early, then spend the rest of the era collecting more."
       },
       {
         "id": "piancai_hour_branch",
         "key": "偏财在时支",
         "canonical_name": "The Horizon inside the Hour Gate",
-        "value": null
+        "value": "Your late chapter keeps a wide root: the last decades hold travel, ventures, scattered kin gathered in bursts, and a fortune that prefers motion to rest. Expect old age with a suitcase half-packed. The design suits you. Keep one journey always in planning."
       },
       {
         "id": "zhengcai_year_stem",
@@ -223,25 +223,25 @@
         "id": "zhengcai_year_branch",
         "key": "正财在年支",
         "canonical_name": "The Steward inside the Year Gate",
-        "value": null
+        "value": "Your early chapter was quietly provisioned: a childhood of counted carefully and enough, where money had manners and promises held. The solvency you absorbed before understanding it remains your deepest asset. Expect stability to follow you the way it furnished those first years."
       },
       {
         "id": "zhengcai_month_stem",
         "key": "正财在月干",
         "canonical_name": "The Steward at the Month Gate",
-        "value": null
+        "value": "Your rising chapter earns trust first and money second: the prime decades hand you stewardship, then keys, then titles, in that order. Expect advancement that looks slow yearly and remarkable by decade. The era pays your reliability compound interest. Collect it without apology."
       },
       {
         "id": "zhengcai_month_branch",
         "key": "正财在月支",
         "canonical_name": "The Steward inside the Month Gate",
-        "value": null
+        "value": "Your rising chapter builds on bedrock: the prime decades stack earned things, skills, savings, standing, layer by unspectacular layer. Expect to be underestimated at thirty and unbudgeable at fifty. The era’s whole trick is refusing to interrupt yourself. Keep laying courses."
       },
       {
         "id": "zhengcai_day_branch",
         "key": "正财在日支",
         "canonical_name": "The Steward inside the Day Gate",
-        "value": null
+        "value": "Your home chapter is the well-kept one: the adult decades center on a household that works, love expressed as provision, stability as the family’s climate. Expect marriage to steady your whole chart. The era rewards tending, and you arrived with the tools."
       },
       {
         "id": "zhengcai_hour_stem",
@@ -253,109 +253,109 @@
         "id": "zhengcai_hour_branch",
         "key": "正财在时支",
         "canonical_name": "The Steward inside the Hour Gate",
-        "value": null
+        "value": "Your late chapter is provisioned ground: the last decades run on reserves built early and kept honestly, a household that never feels the weather. Expect calm where others meet turbulence. The era’s one assignment is learning to enjoy what you secured."
       },
       {
         "id": "qisha_year_stem",
         "key": "七杀在年干",
         "canonical_name": "The General at the Year Gate",
-        "value": null
+        "value": "Your early chapter carried visible weight: a demanding house, a hard start, a name that needed defending, and everyone could see you carrying it. The carrying built you in public. Expect tests to keep arriving early in every new arena, and promotions to follow them."
       },
       {
         "id": "qisha_year_branch",
         "key": "七杀在年支",
         "canonical_name": "The General inside the Year Gate",
-        "value": null
+        "value": "Your early chapter forged in private: weight carried where no one watched, strength built without witnesses. Those hidden years made you the person crises trust. Expect your resilience to seem inexplicable to others. It has a history, even if you rarely tell it."
       },
       {
         "id": "qisha_month_stem",
         "key": "七杀在月干",
         "canonical_name": "The General at the Month Gate",
-        "value": null
+        "value": "Your rising chapter is a campaign: the prime decades hand you pressure and watch you convert it, promotion by crisis, rank by weather survived. Expect your reputation to be forged in the storms others avoided. The era pays commanders, and it is paying you."
       },
       {
         "id": "qisha_month_branch",
         "key": "七杀在月支",
         "canonical_name": "The General inside the Month Gate",
-        "value": null
+        "value": "Your rising chapter runs under chosen pressure: the prime decades seek out the hard arenas and are built by them. Expect power to arrive through what you survived on purpose. The era’s only real enemy is the maintenance you skip. Skip none of it."
       },
       {
         "id": "qisha_day_branch",
         "key": "七杀在日支",
         "canonical_name": "The General inside the Day Gate",
-        "value": null
+        "value": "Your home chapter has weather: the adult decades build a household with force in it, passion, campaigns, renovation in every sense. Expect a marriage that could run a company. The era’s discipline is keeping the war outside the walls, and it is learnable."
       },
       {
         "id": "qisha_hour_stem",
         "key": "七杀在时干",
         "canonical_name": "The General at the Hour Gate",
-        "value": null
+        "value": "Your late chapter keeps the watch: the last decades carry authority that refuses to retire, and the young both fear and follow you. Expect to be consulted in every crisis until the end. Plan the softening deliberately. Late warmth from a commander lands like knighthood."
       },
       {
         "id": "qisha_hour_branch",
         "key": "七杀在时支",
         "canonical_name": "The General inside the Hour Gate",
-        "value": null
+        "value": "Your late chapter holds the garrison: routines kept, standards held, protection running silently under everything. Expect stronger last decades than most, carried by discipline that forgot how to stop. Add the garden to the fortress. It is the one structure still missing."
       },
       {
         "id": "zhengguan_year_stem",
         "key": "正官在年干",
         "canonical_name": "The Magistrate at the Year Gate",
-        "value": null
+        "value": "Your early chapter wore a pressed collar: rules early, standards visible, a name that behaved in public. The order of those years gave you a bearing people still trust on sight. Expect doors to keep opening on reputation. Keep the hinges honest."
       },
       {
         "id": "zhengguan_year_branch",
         "key": "正官在年支",
         "canonical_name": "The Magistrate inside the Year Gate",
-        "value": null
+        "value": "Your early chapter internalized the frame: discipline absorbed so young it feels like temperament. Those years installed a conscience that files reports and a spine that never slouches. Expect structure to remain your native climate. Renovate it whenever it stops fitting."
       },
       {
         "id": "zhengguan_month_stem",
         "key": "正官在月干",
         "canonical_name": "The Magistrate at the Month Gate",
-        "value": null
+        "value": "Your rising chapter climbs by record: the prime decades stack titles, references, and a name that opens doors before you knock. Expect promotion by trust rather than campaign. The era rewards your correctness with rank, and rank with more correctness. Schedule some mischief."
       },
       {
         "id": "zhengguan_month_branch",
         "key": "正官在月支",
         "canonical_name": "The Magistrate inside the Month Gate",
-        "value": null
+        "value": "Your rising chapter builds inside great structures: the prime decades build inside structures, and the structures build you back, title by title. Expect your steadiness to become the department’s foundation. Review the building every few years. Foundations deserve architects, not just tenants."
       },
       {
         "id": "zhengguan_day_branch",
         "key": "正官在日支",
         "canonical_name": "The Magistrate inside the Day Gate",
-        "value": null
+        "value": "Your home chapter formalizes beautifully: the adult decades favor the long vow, the stable household, love as kept structure. Expect marriage to steady your whole chart and to deepen by anniversary. The era honors form. Fill the form with warmth, deliberately, forever."
       },
       {
         "id": "zhengguan_hour_stem",
         "key": "正官在时干",
         "canonical_name": "The Magistrate at the Hour Gate",
-        "value": null
+        "value": "Your late chapter collects the honors: the last decades bring respect that outlives every title, and a family calibrated by your example. Expect to matter more after retirement than during it. Praise generously in these years. It is the correction that teaches best."
       },
       {
         "id": "zhengguan_hour_branch",
         "key": "正官在时支",
         "canonical_name": "The Magistrate inside the Hour Gate",
-        "value": null
+        "value": "Your late chapter closes its books properly: affairs settled early, duties completed fully, a name kept in good repair to the end. Expect the calm that correctness purchases. Then spend some of it, unscheduled evenings, unplanned laughter, sunsets without agenda."
       },
       {
         "id": "pianyin_year_stem",
         "key": "偏印在年干",
         "canonical_name": "The Alchemist at the Year Gate",
-        "value": null
+        "value": "Your early chapter watched from the doorway: visibly different, quietly cataloguing, gathering the strange skills nobody assigned. Those years built the unusual instrument you became. Expect the oddness of your beginnings to keep converting into the authority of your middles."
       },
       {
         "id": "pianyin_year_branch",
         "key": "偏印在年支",
         "canonical_name": "The Alchemist inside the Year Gate",
-        "value": null
+        "value": "Your early chapter grew in the margins: nourishment found sideways, wisdom gathered from unassigned shelves. Those quiet roots feed everything unusual and valuable about you now. Expect your beginnings to make sense only in retrospect, and gloriously."
       },
       {
         "id": "pianyin_month_stem",
         "key": "偏印在月干",
         "canonical_name": "The Alchemist at the Month Gate",
-        "value": null
+        "value": "Your rising chapter specializes: the prime decades reward your odd angle with a niche that widens as the strange becomes the sought. Expect your authority to build through diagnoses others missed. The era pays insight by the insight. Keep the instrument calibrated."
       },
       {
         "id": "pianyin_month_branch",
@@ -367,61 +367,61 @@
         "id": "pianyin_day_branch",
         "key": "偏印在日支",
         "canonical_name": "The Alchemist inside the Day Gate",
-        "value": null
+        "value": "Your home chapter keeps a shut door and a shared one: the adult decades build a household with solitude in the floor plan. Expect love that deepens through respected space. The marriage that lasts will know when to knock, and you will love it for knocking."
       },
       {
         "id": "pianyin_hour_stem",
         "key": "偏印在时干",
         "canonical_name": "The Alchemist at the Hour Gate",
-        "value": null
+        "value": "Your late chapter is the sage’s study: insight compounding past every retirement, the strange knowledge finally fully priced. Expect your last decades to be your most consulted. Lend the library generously. Wisdom unread is just weight."
       },
       {
         "id": "pianyin_hour_branch",
         "key": "偏印在时支",
         "canonical_name": "The Alchemist inside the Hour Gate",
-        "value": null
+        "value": "Your late chapter deepens in place: the last decades live in the inner library, distilling a lifetime’s strange learning into essence. Expect old age to suit you better than youth did. Become the family’s deep well, and let them draw from it."
       },
       {
         "id": "zhengyin_year_stem",
         "key": "正印在年干",
         "canonical_name": "The Sage at the Year Gate",
-        "value": null
+        "value": "Your early chapter was gently guarded: a principled protector, a house with books, safety arriving before you knew to want it. Those years installed your deep settings, trust, learning, decency. Expect protectors to keep appearing lifelong. You were trained to deserve them."
       },
       {
         "id": "zhengyin_year_branch",
         "key": "正印在年支",
         "canonical_name": "The Sage inside the Year Gate",
-        "value": null
+        "value": "Your early chapter was held: nurture deep enough to become your nervous system, warmth that still steadies your pulse in hard seasons. Those roots are your lifelong advantage. Expect to trust first and be right about it more often than the guarded ever are."
       },
       {
         "id": "zhengyin_month_stem",
         "key": "正印在月干",
         "canonical_name": "The Sage at the Month Gate",
-        "value": null
+        "value": "Your rising chapter earns its reputation reading: the prime decades convert study into standing, references into rank, calm into authority. Expect elders to sponsor you and juniors to consult you, often in the same season. The era trusts you early. Deserve it on schedule."
       },
       {
         "id": "zhengyin_month_branch",
         "key": "正印在月支",
         "canonical_name": "The Sage inside the Month Gate",
-        "value": null
+        "value": "Your rising chapter studies its way upward: the prime decades bank knowledge and midlife pays it out as authority. Expect the slow compounding to look like luck by fifty. It was homework. Set deadlines through these years, because your depth never volunteers its own."
       },
       {
         "id": "zhengyin_day_branch",
         "key": "正印在日支",
         "canonical_name": "The Sage inside the Day Gate",
-        "value": null
+        "value": "Your home chapter is the sheltered one: the adult decades build a marriage that tends, a house that heals, safety as the family business. Expect love to steady everything it touches in these years. Receive it without auditing. That is your era’s single assignment."
       },
       {
         "id": "zhengyin_hour_stem",
         "key": "正印在时干",
         "canonical_name": "The Sage at the Hour Gate",
-        "value": null
+        "value": "Your late chapter is the teaching one: the last decades give away what the earlier ones gathered, and the giving is the glory. Expect to be consulted, quoted, and quietly beloved. Protect the young deliberately, the way someone once protected you. That is the estate."
       },
       {
         "id": "zhengyin_hour_branch",
         "key": "正印在时支",
         "canonical_name": "The Sage inside the Hour Gate",
-        "value": null
+        "value": "Your late chapter is quietly banked: decades of kindness paying out as shelter, sleep, and company that arrives unbidden. Expect the gentlest old age your line has seen. You built it deposit by deposit. Draw it down without guilt."
       }
     ]
   }

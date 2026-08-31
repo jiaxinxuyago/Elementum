@@ -33,4 +33,4 @@
 | `turn_catalyst` | Run thin, the seat wants company late: back one young bold thing a year, with a number on it. |
 | `turn_friction` | Run heavy, the shared purse leaks late: every request lands as family. Fix the yearly figure, then relax inside it. |
 | `shadow_line` | Overloaded, generosity becomes the last contest: giving as the final way to win. |
-| `health_line` | Late strength is real here, and so is late tension: shoulders and breath hold the guard duty. Put the armor down nightly. |
+| `health_line` | Late strength is real here, and so is late tension: the body holds guard duty long after the watch ends. Put the armor down nightly. |

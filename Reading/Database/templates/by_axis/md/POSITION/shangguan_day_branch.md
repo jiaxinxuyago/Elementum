@@ -26,10 +26,11 @@
 | `defline` | Brilliance sits in your spouse palace: intimacy, for you, is vivid, verbal, and never beige. |
 | `reading` | This position rules Love and Mind, and it works from your marriage palace. The Virtuoso lives inside your Day Gate: at close range you need applause and honesty in the same person, a partner sharp enough to spar with and warm enough to clap. Your adult chapters run on wit at home, banter as affection, critique as intimacy. The hazard is precision aimed at the beloved. Turn the editing outward, compete with the world as a pair, and the marriage becomes a writers’ table. Praise first, polish second. The order matters more than the talent. |
 | `teaser` | You need a partner who applauds, and you notice when they do not. Marriage thrives once the two of you compete with the world instead of each other. |
-| `domain_readings` | *(unauthored)* |
-| `life_chapter` | *(unauthored)* |
-| `relations` | *(unauthored)* |
-| `turn_catalyst` | *(unauthored)* |
-| `turn_friction` | *(unauthored)* |
-| `shadow_line` | *(unauthored)* |
-| `health_line` | *(unauthored)* |
+| `domain_readings.Love` | You need applause and honesty from the same person: a partner sharp enough to spar with, warm enough to clap. Banter is your love language and critique your accidental one. Praise first, polish second, always in that order. The marriage becomes a writers’ table or a courtroom. You choose nightly. |
+| `domain_readings.Mind` | At close range your mind stays lit: the partner gets your best material and your roughest drafts. Intimacy for you is thinking aloud with someone unafraid. Protect the play in it. The moment home becomes another venue to win, the brilliance starts costing rent. |
+| `life_chapter` | Your home chapter crackles: the adult decades build a household with wit in the walls, debate at dinner, and affection dressed as teasing. Expect a marriage that thinks. The era’s single discipline is aiming the sharpness outward, at the world, never across the table. |
+| `relations` | The sparring partner is this seat’s person: quick, unintimidated, secretly your favorite audience. They married the show and the showrunner. Give them the warm cut of your wit and the world the sharp one. Confusing the two is the only real infidelity here. |
+| `turn_catalyst` | Run thin, the table goes quiet: banter rationed, brilliance saved for strangers. Bring your best material home this week. They had first claim. |
+| `turn_friction` | Run heavy, the wit turns forensic: love cross-examined nightly. Adjourn. Affection needs no exhibits. |
+| `shadow_line` | Overloaded, the beloved becomes the reviewed: home as a stage with one harsh critic. |
+| `health_line` | Your rest depends on the last conversation of the day: end evenings in warmth rather than open debate, and the body sleeps like it won. |

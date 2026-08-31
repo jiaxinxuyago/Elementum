@@ -23,12 +23,16 @@
     "defline": "Care holds your chart’s strongest seat: your prime is built on learning that never stops arriving.",
     "reading": "This position rules Mind, Career, and Growth, and it holds the deep seat of your prime. The Sage lives inside your Month Gate: your working life is carried by learning, the deeper the study, the steadier the rise. Your name comes to rest on what you know, and it ages well, the way references beat headlines. Expect midlife to convert knowledge into quiet authority, students into allies, reading into rank. The hazard is gentle: shelter can become a reason to wait. Publish, apply, teach, before you feel ready. Your readiness has always lagged your ability by years.",
     "teaser": "Your prime is carried by learning: the deeper the study, the steadier the rise. Expect your name to rest on what you know, and to age well.",
-    "domain_readings": null,
-    "life_chapter": null,
-    "relations": null,
-    "turn_catalyst": null,
-    "turn_friction": null,
-    "shadow_line": null,
-    "health_line": null
+    "domain_readings": {
+      "Mind": "Learning carries your working life: the deeper the study, the steadier the rise. Your name comes to rest on what you know, and it ages the way references beat headlines. Publish, apply, teach before you feel ready. Your readiness always lagged your ability by years.",
+      "Career": "Midlife converts your knowledge into quiet authority: students into allies, reading into rank. The career compounds through depth, never through noise. Trust the conversion. What you studied in obscurity gets promoted in daylight, reliably, on this seat’s schedule.",
+      "Growth": "The hazard of your growth is gentle: shelter can become a reason to wait. Comfortable competence delays the leap this seat was built for. Set launch dates and honor them. Growth here needs deadlines the way gardens need fences."
+    },
+    "life_chapter": "Your rising chapter studies its way upward: the prime decades bank knowledge and midlife pays it out as authority. Expect the slow compounding to look like luck by fifty. It was homework. Set deadlines through these years, because your depth never volunteers its own.",
+    "relations": "Teachers and students are this seat’s people, and the roles alternate: mentors who deepened you, then learners who sharpen you by asking. Family may not follow the studies. They follow the calm the studies produce. Both are the inheritance.",
+    "turn_catalyst": "Run thin, the depth defers: knowledge banked, application postponed. Teach or apply one thing this quarter. Depth pays only when drawn.",
+    "turn_friction": "Run heavy, the study shelters too well: learning as delay. Book the leap with a date on it.",
+    "shadow_line": "Overloaded, preparation becomes the profession: forever nearly ready.",
+    "health_line": "Your system thrives on scholarly rhythm: reading, walking, sleeping in order. Chaos taxes you doubly. Keep the days shaped, and the mind keeps the body."
   }
 }

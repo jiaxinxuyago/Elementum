@@ -26,10 +26,11 @@
 | `defline` | Order lives inside your Hour Gate: the root of your harvest is a life that kept its word. |
 | `reading` | This position rules Family and Growth, and it works in the root of your late years. The Magistrate lives inside your Hour Gate: order is the ground your last chapters stand on, affairs settled, duties completed, a name kept in good repair. Family in late life organizes around your word, and your word stays good. Growth continues as refinement rather than reinvention, the same values held to higher polish. Do the estate work early and thoroughly, it is your love language anyway. Then let some evenings go unscheduled. Even a completed ledger deserves a sunset. |
 | `teaser` | Order is the root of your late years: affairs settled, duties completed, a name in good repair. Your legacy will be trusted, which is rarer than being missed. |
-| `domain_readings` | *(unauthored)* |
-| `life_chapter` | *(unauthored)* |
-| `relations` | *(unauthored)* |
-| `turn_catalyst` | *(unauthored)* |
-| `turn_friction` | *(unauthored)* |
-| `shadow_line` | *(unauthored)* |
-| `health_line` | *(unauthored)* |
+| `domain_readings.Family` | Order is the root of your late family: affairs settled, duties completed, a household that trusts your word because it never broke. Your legacy will be reliability itself. Add stories to the estate. The paperwork protects them, the telling makes them family. |
+| `domain_readings.Growth` | Late growth is refinement here: the same values held to higher polish, wisdom as quality control. You do not reinvent in the last decades, you perfect. Finish the character the way craftsmen finish wood, patiently, until it glows. |
+| `life_chapter` | Your late chapter closes its books properly: affairs settled early, duties completed fully, a name kept in good repair to the end. Expect the calm that correctness purchases. Then spend some of it, unscheduled evenings, unplanned laughter, sunsets without agenda. |
+| `relations` | The trusting household is this seat’s people: family organized around your word in the last decades, secure in arrangements that never wobble. They rest on your reliability. Rest on theirs occasionally. Trust flowing one way is duty. Both ways, it is home. |
+| `turn_catalyst` | Run thin, the settling gets postponed: order intended, papers unfiled. Do the estate work this season. It is your love language anyway. |
+| `turn_friction` | Run heavy, the completing never completes: perfection as the last deadline. Declare the ledger finished and go outside. |
+| `shadow_line` | Overloaded, good repair becomes the whole late life: maintained, correct, unlived. |
+| `health_line` | Your late constitution runs on completed rest: sleep improves as duties resolve. Settle the affairs and the body settles with them. |

@@ -22,12 +22,15 @@
     "defline": "The General sits in your spouse palace: love, for you, has a chain of command to dismantle.",
     "reading": "This position rules Love and Health, and it works from your marriage palace. The General lives inside your Day Gate: you are drawn to intensity at close range, a partner with force, a home with weather. Mild love has never once held your attention. The adult chapters thrive when the two of you aim the pressure outward, shared missions, shared enemies, renovations, causes. Aimed inward, the same voltage becomes the argument that never ends, and your body scores every round. Pick a worthy co-commander. Then guard the peace at home like the strategic asset it is.",
     "teaser": "You are drawn to intensity at close range: a partner with force, a home with weather. Love holds when the two of you aim the pressure outward together.",
-    "domain_readings": null,
-    "life_chapter": null,
-    "relations": null,
-    "turn_catalyst": null,
-    "turn_friction": null,
-    "shadow_line": null,
-    "health_line": null
+    "domain_readings": {
+      "Love": "You are drawn to intensity at close range: a partner with force, a home with weather, love that has never once been mild. The marriage thrives when you two aim the pressure outward, shared missions, shared builds, shared adversaries. Inward, the same voltage becomes the argument without end. Aim it.",
+      "Health": "Your body scores every domestic round: contested seasons land in your sleep, your shoulders, your appetite. Peace at home is a physical program here. Make up before midnight as a health practice, and the constitution stays formidable."
+    },
+    "life_chapter": "Your home chapter has weather: the adult decades build a household with force in it, passion, campaigns, renovation in every sense. Expect a marriage that could run a company. The era’s discipline is keeping the war outside the walls, and it is learnable.",
+    "relations": "The forceful partner is this seat’s person: someone with their own command, unimpressed by yours, magnetic for exactly that reason. You chose a co-commander, so share the theater. Divide the fronts, never the loyalty. The household runs beautifully on clear command structure.",
+    "turn_catalyst": "Run thin, the intensity banks itself: passion rationed into politeness. Start a shared campaign this season. The marriage runs on missions.",
+    "turn_friction": "Run heavy, the voltage arcs inward: love as siege. Surrender something small daily. It is the strongest move available.",
+    "shadow_line": "Overloaded, home becomes the last battlefield: victories counted, marriage losing.",
+    "health_line": "Your vitality tracks the household’s treaty status: peace restores you at double rate. Invest in it like the medicine it is."
   }
 }

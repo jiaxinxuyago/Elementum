@@ -8,73 +8,73 @@
 
 | Archetype | Key | Value |
 |---|---|---|
-| **The Twin at the Year Gate** | 比肩在年干 | *(unauthored)* |
-| **The Twin inside the Year Gate** | 比肩在年支 | *(unauthored)* |
+| **The Twin at the Year Gate** | 比肩在年干 | Run thin, all of this arrives quieter: the standing is real but underclaimed. Take one visible stand this season and let the early training show. |
+| **The Twin inside the Year Gate** | 比肩在年支 | Run thin, the root holds but the trunk doubts: self-trust flickers at exactly the wrong moments. Practice one small self-kept promise weekly. The keel remembers. |
 | **The Twin at the Month Gate** | 比肩在月干 | Run thin, the seat wants spine practice: take one task wholly yours this season and decline the co-pilot. |
-| **The Twin inside the Month Gate** | 比肩在月支 | *(unauthored)* |
-| **The Twin inside the Day Gate** | 比肩在日支 | *(unauthored)* |
-| **The Twin at the Hour Gate** | 比肩在时干 | *(unauthored)* |
-| **The Twin inside the Hour Gate** | 比肩在时支 | *(unauthored)* |
-| **The Rival at the Year Gate** | 劫财在年干 | *(unauthored)* |
-| **The Rival inside the Year Gate** | 劫财在年支 | *(unauthored)* |
-| **The Rival at the Month Gate** | 劫财在月干 | *(unauthored)* |
-| **The Rival inside the Month Gate** | 劫财在月支 | *(unauthored)* |
-| **The Rival inside the Day Gate** | 劫财在日支 | *(unauthored)* |
-| **The Rival at the Hour Gate** | 劫财在时干 | *(unauthored)* |
+| **The Twin inside the Month Gate** | 比肩在月支 | Run thin, the engine idles below its power: capable years spent waiting for permission nobody needs to give. Start the thing this month. |
+| **The Twin inside the Day Gate** | 比肩在日支 | Run thin, the equal bond underclaims: love held at arm’s length for safety. Close the distance first this season, on purpose. |
+| **The Twin at the Hour Gate** | 比肩在时干 | Run thin, the late engine starts cold: capability intact, initiative deferred. Begin the postponed project now. The chapter rewards starters at any age. |
+| **The Twin inside the Hour Gate** | 比肩在时支 | Run thin, the circle thins with it: harvest years spent respected and unaccompanied. Recruit one equal this year. It is not too late, and never was. |
+| **The Rival at the Year Gate** | 劫财在年干 | Run thin, the nerve idles: chances watched instead of taken. Bet something small and social this month. The inheritance activates on use. |
+| **The Rival inside the Year Gate** | 劫财在年支 | Run thin, the shared root underfeeds you: giving continues, receiving rusted shut. Ask the pack for one favor this season. They owe you plenty. |
+| **The Rival at the Month Gate** | 劫财在月干 | Run thin, the contests pass unentered: nerve present, number never taken. Sign up for one scored thing this quarter and let the era see you. |
+| **The Rival inside the Month Gate** | 劫财在月支 | Run thin, the pulse mutes: safe years that itch. Take one measured stake this year, sized to lose gracefully. The engine needs live current. |
+| **The Rival inside the Day Gate** | 劫财在日支 | Run thin, the vividness dims to politeness: a fire tended down to embers. Argue about something honest this week. The marriage runs on live current. |
+| **The Rival at the Hour Gate** | 劫财在时干 | Run thin, the patron stays retired: nerve intact, checkbook shy. Back one small bold thing this year. The chapter wants you in it. |
 | **The Rival inside the Hour Gate** | 劫财在时支 | Run thin, the seat wants company late: back one young bold thing a year, with a number on it. |
-| **The Artisan at the Year Gate** | 食神在年干 | *(unauthored)* |
+| **The Artisan at the Year Gate** | 食神在年干 | Run thin, the warmth banks itself: charm intact, invitations declined. Accept three this month. Your luck circulates only when you do. |
 | **The Artisan inside the Year Gate** | 食神在年支 | Run thin, the seat asks for appetite: eat well, rest properly, accept comfort. Your luck refills through the body first. |
-| **The Artisan at the Month Gate** | 食神在月干 | *(unauthored)* |
-| **The Artisan inside the Month Gate** | 食神在月支 | *(unauthored)* |
-| **The Artisan inside the Day Gate** | 食神在日支 | *(unauthored)* |
-| **The Artisan at the Hour Gate** | 食神在时干 | *(unauthored)* |
-| **The Artisan inside the Hour Gate** | 食神在时支 | *(unauthored)* |
-| **The Virtuoso at the Year Gate** | 伤官在年干 | *(unauthored)* |
-| **The Virtuoso inside the Year Gate** | 伤官在年支 | *(unauthored)* |
-| **The Virtuoso at the Month Gate** | 伤官在月干 | *(unauthored)* |
-| **The Virtuoso inside the Month Gate** | 伤官在月支 | *(unauthored)* |
-| **The Virtuoso inside the Day Gate** | 伤官在日支 | *(unauthored)* |
-| **The Virtuoso at the Hour Gate** | 伤官在时干 | *(unauthored)* |
-| **The Virtuoso inside the Hour Gate** | 伤官在时支 | *(unauthored)* |
-| **The Horizon at the Year Gate** | 偏财在年干 | *(unauthored)* |
-| **The Horizon inside the Year Gate** | 偏财在年支 | *(unauthored)* |
-| **The Horizon at the Month Gate** | 偏财在月干 | *(unauthored)* |
-| **The Horizon inside the Month Gate** | 偏财在月支 | *(unauthored)* |
+| **The Artisan at the Month Gate** | 食神在月干 | Run thin, the flow narrows: enjoyment rationed, output following it down. Feed the appetite first, the career eats second. It always worked that way. |
+| **The Artisan inside the Month Gate** | 食神在月支 | Run thin, the bench sits idle: skill present, practice postponed. Return to daily making, however small. The engine restarts on routine. |
+| **The Artisan inside the Day Gate** | 食神在日支 | Run thin, the hearth burns low: care given on schedule, warmth running on reserve. Let someone cook for you this week. Receiving is also hosting. |
+| **The Artisan at the Hour Gate** | 食神在时干 | Run thin, the late gift waits politely: projects postponed into someday. Finish one beautiful thing this year. Someday is a place setting, not a date. |
+| **The Artisan inside the Hour Gate** | 食神在时支 | Run thin, the comfort waits unclaimed: ease deferred as if unearned. Take the nap, book the trip, set the nice table on a Tuesday. |
+| **The Virtuoso at the Year Gate** | 伤官在年干 | Run thin, the brightness banks itself: wit rationed, stages declined. Say the clever true thing out loud this week. The world was waiting. |
+| **The Virtuoso inside the Year Gate** | 伤官在年支 | Run thin, the refusal rusts inward: dissatisfaction without revision. Fix one thing you complain about this month. The engine wants work. |
+| **The Virtuoso at the Month Gate** | 伤官在月干 | Run thin, the stage stays dark: talent rehearsing privately for no announced show. Book the venue. Any venue. The gift needs witnesses to grow. |
+| **The Virtuoso inside the Month Gate** | 伤官在月支 | Run thin, the critique swallows itself: improvements seen, unsaid, composting into frustration. Publish one fix this month, however small. |
+| **The Virtuoso inside the Day Gate** | 伤官在日支 | Run thin, the table goes quiet: banter rationed, brilliance saved for strangers. Bring your best material home this week. They had first claim. |
+| **The Virtuoso at the Hour Gate** | 伤官在时干 | Run thin, the late act waits in the wings: material ready, curtain unpulled. Speak the true thing at the next opportunity. It is riper than you think. |
+| **The Virtuoso inside the Hour Gate** | 伤官在时支 | Run thin, the workshop dims early: wit intact, output shelved. Start the late project now. The root feeds on making, at every age. |
+| **The Horizon at the Year Gate** | 偏财在年干 | Run thin, the doors stand unknocked: openings sensed, motion postponed. Travel somewhere on a hunch this season. Your luck commutes. |
+| **The Horizon inside the Year Gate** | 偏财在年支 | Run thin, the itch goes unscratched: elsewhere calling, tickets unbought. Go somewhere this quarter. The root feeds on horizon. |
+| **The Horizon at the Month Gate** | 偏财在月干 | Run thin, the nose goes unused: openings scented, doors unopened. Chase one lead to its end this month. The instinct sharpens on use. |
+| **The Horizon inside the Month Gate** | 偏财在月支 | Run thin, the weather goes unread: instincts idling in a salaried calm. Paper-trade something this season. The eye stays sharp only in use. |
 | **The Horizon inside the Day Gate** | 偏财在日支 | Run thin, the seat wants circulation: accept the invitations for one season and let the household fill. |
-| **The Horizon at the Hour Gate** | 偏财在时干 | *(unauthored)* |
-| **The Horizon inside the Hour Gate** | 偏财在时支 | *(unauthored)* |
+| **The Horizon at the Hour Gate** | 偏财在时干 | Run thin, the door drifts shut: range intact, ventures postponed. Open one this year, sized kindly. The chapter stays wide only in use. |
+| **The Horizon inside the Hour Gate** | 偏财在时支 | Run thin, the gatherings thin too: distances winning by default. Book the reunion. This root is maintained, never inherited. |
 | **The Steward at the Year Gate** | 正财在年干 | With this energy thin in you, the seat asks for practice: budget something small monthly. Order grows the way savings do, by deposit. |
-| **The Steward inside the Year Gate** | 正财在年支 | *(unauthored)* |
-| **The Steward at the Month Gate** | 正财在月干 | *(unauthored)* |
-| **The Steward inside the Month Gate** | 正财在月支 | *(unauthored)* |
-| **The Steward inside the Day Gate** | 正财在日支 | *(unauthored)* |
+| **The Steward inside the Year Gate** | 正财在年支 | Run thin, the root underclaims: stability inherited, never quite trusted. Start the smallest steady account this month and watch the temperament wake. |
+| **The Steward at the Month Gate** | 正财在月干 | Run thin, the trust goes unclaimed: reliable work, invisible reliability. Ask for the raise this quarter. The ledger supports the request. |
+| **The Steward inside the Month Gate** | 正财在月支 | Run thin, the bedrock waits unbuilt: patience present, first courses unlaid. Start the boring valuable thing now. Time is the other ingredient. |
+| **The Steward inside the Day Gate** | 正财在日支 | Run thin, the provision runs quiet: love expressed so practically it goes unheard. Say the warm thing out loud this week, unprompted. |
 | **The Steward at the Hour Gate** | 正财在时干 | Run thin, start the late-life ledger now: one standing transfer, however small, builds the ending early. |
-| **The Steward inside the Hour Gate** | 正财在时支 | *(unauthored)* |
-| **The General at the Year Gate** | 七杀在年干 | *(unauthored)* |
-| **The General inside the Year Gate** | 七杀在年支 | *(unauthored)* |
-| **The General at the Month Gate** | 七杀在月干 | *(unauthored)* |
-| **The General inside the Month Gate** | 七杀在月支 | *(unauthored)* |
-| **The General inside the Day Gate** | 七杀在日支 | *(unauthored)* |
-| **The General at the Hour Gate** | 七杀在时干 | *(unauthored)* |
-| **The General inside the Hour Gate** | 七杀在时支 | *(unauthored)* |
-| **The Magistrate at the Year Gate** | 正官在年干 | *(unauthored)* |
-| **The Magistrate inside the Year Gate** | 正官在年支 | *(unauthored)* |
-| **The Magistrate at the Month Gate** | 正官在月干 | *(unauthored)* |
-| **The Magistrate inside the Month Gate** | 正官在月支 | *(unauthored)* |
-| **The Magistrate inside the Day Gate** | 正官在日支 | *(unauthored)* |
-| **The Magistrate at the Hour Gate** | 正官在时干 | *(unauthored)* |
-| **The Magistrate inside the Hour Gate** | 正官在时支 | *(unauthored)* |
-| **The Alchemist at the Year Gate** | 偏印在年干 | *(unauthored)* |
-| **The Alchemist inside the Year Gate** | 偏印在年支 | *(unauthored)* |
-| **The Alchemist at the Month Gate** | 偏印在月干 | *(unauthored)* |
+| **The Steward inside the Hour Gate** | 正财在时支 | Run thin, the provisioning starts late: floors thinner than the plan. Begin the standing transfer today. Late compounding still compounds. |
+| **The General at the Year Gate** | 七杀在年干 | Run thin, the command idles: authority earned, arenas avoided. Take the demanding seat this season. The early training wants using. |
+| **The General inside the Year Gate** | 七杀在年支 | Run thin, the spine goes unused: resilience banked, challenges declined. Volunteer for one hard thing this season. The forge misses you. |
+| **The General at the Month Gate** | 七杀在月干 | Run thin, the command waits in reserve: capability visible, stakes unclaimed. Take point on one hard thing this quarter. The era notices. |
+| **The General inside the Month Gate** | 七杀在月支 | Run thin, the arena stands empty: capacity for pressure, calendar of ease. Enter one worthy fight this year. Boredom is your only real burnout. |
+| **The General inside the Day Gate** | 七杀在日支 | Run thin, the intensity banks itself: passion rationed into politeness. Start a shared campaign this season. The marriage runs on missions. |
+| **The General at the Hour Gate** | 七杀在时干 | Run thin, the watch goes unmanned: authority ready, service declined. Answer the next call. The chapter honors those still answering. |
+| **The General inside the Hour Gate** | 七杀在时支 | Run thin, the garrison understaffs: discipline available, structure unbuilt. Set the daily drill this month. The root grows on routine. |
+| **The Magistrate at the Year Gate** | 正官在年干 | Run thin, the name goes unused: standing inherited, doors unknocked. Trade on the reputation once this season. It was left to you for using. |
+| **The Magistrate inside the Year Gate** | 正官在年支 | Run thin, the frame waits empty: discipline available, structure unchosen. Enroll in one worthy framework this year. The spine wants a ladder. |
+| **The Magistrate at the Month Gate** | 正官在月干 | Run thin, the record goes unread: correctness kept, candidacy never filed. Apply upward this quarter. The name is stronger than you price it. |
+| **The Magistrate inside the Month Gate** | 正官在月支 | Run thin, the frame stays theoretical: capability unenrolled. Join the structure worth your decade this year. The engine needs a building. |
+| **The Magistrate inside the Day Gate** | 正官在日支 | Run thin, the vow waits unspoken: commitment ready, formality postponed. Formalize something this year. Your love language is architecture. |
+| **The Magistrate at the Hour Gate** | 正官在时干 | Run thin, the elder statesman defers: counsel ready, service declined. Accept the next board seat. The chapter wrote it for you. |
+| **The Magistrate inside the Hour Gate** | 正官在时支 | Run thin, the settling gets postponed: order intended, papers unfiled. Do the estate work this season. It is your love language anyway. |
+| **The Alchemist at the Year Gate** | 偏印在年干 | Run thin, the lens caps itself: perception rationed, oddness disguised. Show the strange skill openly this month. It was always the asset. |
+| **The Alchemist inside the Year Gate** | 偏印在年支 | Run thin, the margins go unread: the self-feeding mind on rations. Claim your hour of strange study daily. It is nourishment, literally. |
+| **The Alchemist at the Month Gate** | 偏印在月干 | Run thin, the specialty stays unnamed: expertise real, shingle unhung. Declare the niche this quarter, in public, by name. |
 | **The Alchemist inside the Month Gate** | 偏印在月支 | Run thin, the seat asks for study: claim one hour of deep reading daily and guard it like income. |
-| **The Alchemist inside the Day Gate** | 偏印在日支 | *(unauthored)* |
-| **The Alchemist at the Hour Gate** | 偏印在时干 | *(unauthored)* |
-| **The Alchemist inside the Hour Gate** | 偏印在时支 | *(unauthored)* |
-| **The Sage at the Year Gate** | 正印在年干 | *(unauthored)* |
-| **The Sage inside the Year Gate** | 正印在年支 | *(unauthored)* |
-| **The Sage at the Month Gate** | 正印在月干 | *(unauthored)* |
-| **The Sage inside the Month Gate** | 正印在月支 | *(unauthored)* |
-| **The Sage inside the Day Gate** | 正印在日支 | *(unauthored)* |
-| **The Sage at the Hour Gate** | 正印在时干 | *(unauthored)* |
-| **The Sage inside the Hour Gate** | 正印在时支 | *(unauthored)* |
+| **The Alchemist inside the Day Gate** | 偏印在日支 | Run thin, the shared door sticks: closeness deferred to the study. Emerge on schedule this week, carrying something to show. |
+| **The Alchemist at the Hour Gate** | 偏印在时干 | Run thin, the study door stays shut: wisdom stocked, lending suspended. Take one apprentice or one publication this year. The library wants circulation. |
+| **The Alchemist inside the Hour Gate** | 偏印在时支 | Run thin, the well seals over: depth present, drawing discouraged. Invite one person down this season. Wells exist to be drawn. |
+| **The Sage at the Year Gate** | 正印在年干 | Run thin, the shelter goes unclaimed: help nearby, requests unfiled. Ask a mentor for one thing this month. The inheritance activates on asking. |
+| **The Sage inside the Year Gate** | 正印在年支 | Run thin, the roots feel far: nurture remembered, not drawn on. Visit the sources, people or places, this season. The root refills by contact. |
+| **The Sage at the Month Gate** | 正印在月干 | Run thin, the credential waits unfinished: learning continuous, claiming postponed. Complete one public qualification this year. The name compounds on paper. |
+| **The Sage inside the Month Gate** | 正印在月支 | Run thin, the depth defers: knowledge banked, application postponed. Teach or apply one thing this quarter. Depth pays only when drawn. |
+| **The Sage inside the Day Gate** | 正印在日支 | Run thin, the shelter stands half-built: care available, receiving rusty. Let yourself be tended fully through the next small illness. Practice. |
+| **The Sage at the Hour Gate** | 正印在时干 | Run thin, the teaching stays oral: wisdom given, form ungiven. Write the notes this year. The shelf is the succession plan. |
+| **The Sage inside the Hour Gate** | 正印在时支 | Run thin, the bank goes undrawn: care accrued, withdrawals refused. Accept the next three offers of help outright. It is your money. |
