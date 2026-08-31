@@ -343,6 +343,10 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   ) : null;
   // The element's seats (REA_02 §5e echo): the positions this energy holds.
   const elPositions = elScreen ? resolvePositions(chart, hourUnknown).filter((p) => p.el === elScreen.el) : [];
+  // The element's plain life-ground (owner 2026-08-19): the canonical
+  // domains (§5e taxonomy ×8) its seats DECLARE — the teaser's only
+  // domain vocabulary; god-flavored nouns wait inside the detail.
+  const elCanon = [...new Set(elPositions.flatMap((p) => p.domains))];
   const glossary = buildGlossary(m);
   const condIcon = m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged';
   const fnNote = fnOpen ? glossary[fnOpen] : null;
@@ -594,9 +598,11 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   <button className="cardstock el-tease" onClick={() => openSec('fn')}>
                     <span className="laylab">THE FUNCTION</span>
                     <span className="serifline el-teasetitle">{elScreen.fnTitle}</span>
-                    <span className="el-fnrow" aria-hidden="true">
-                      {elScreen.functionsDef.map((f) => (
-                        <span key={f.key} className={`el-fnchip${f.key === elScreen.fn.primary ? ' on' : ''}`}>{f.label}</span>
+                    {/* one line, not tabs (owner 2026-08-19: the pill row read
+                        as switchable) — a fixed spectrum with the primary lit */}
+                    <span className="el-fnline" aria-hidden="true">
+                      {elScreen.functionsDef.map((f, i) => (
+                        <span key={f.key}>{i > 0 && <i className="el-fnsep">·</i>}<span className={`el-fnword${f.key === elScreen.fn.primary ? ' on' : ''}`}>{f.label}</span></span>
                       ))}
                     </span>
                     <span className="el-teasep">{elScreen.fnTeaser}</span>
@@ -607,29 +613,19 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   <button className="cardstock el-tease" onClick={() => openSec('dom')}>
                     <span className="laylab">THE DOMAINS</span>
                     <span className="serifline el-teasetitle">{elScreen.domTitle}</span>
-                    {/* lead teaser: gods counted + their ground + their seats
-                        (derived; needs the resolved positions, so built here) */}
-                    <span className="el-teasep" style={{ marginTop: 0 }}>{(() => {
-                      const list = elFaces.flatMap((f) => f.domains).slice(0, 4).map((d) => d.toLowerCase()).join(', ');
+                    {/* plain life-domains only (owner 2026-08-19: no god
+                        vocabulary on the teaser) — the canonical taxonomy the
+                        element's seats declare; gods wait inside the detail */}
+                    {elCanon.length ? (
+                      <span className="el-adj el-canonrow" aria-hidden="true">{elCanon.map((d) => <span key={d} className="el-domchip canon">{d}</span>)}</span>
+                    ) : null}
+                    <span className="el-teasep" style={{ marginTop: elCanon.length ? 8 : 0 }}>{(() => {
                       const n = elPositions.length;
-                      const plural = elFaces.length > 1;
+                      if (!n) return `${elScreen.elName} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.`;
                       const nWord = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven'][n] || n;
-                      const seatClause = n
-                        ? `${plural ? 'they hold' : 'it holds'} ${n === 1 ? 'one seat' : `${nWord} seats`} in your pillars`
-                        : `${plural ? 'they reach' : 'it reaches'} you through the hidden stems`;
-                      return plural
-                        ? `Two gods live in your ${elScreen.elName}: ${elFaces[0].persona} and ${elFaces[1].persona}. They rule ${list}, and ${seatClause}.`
-                        : `One god lives in your ${elScreen.elName}: ${elFaces[0].persona}. It rules ${list}, and ${seatClause}.`;
+                      const list = elCanon.join(elCanon.length === 2 ? ' and ' : ' · ');
+                      return `${n === 1 ? 'One seat' : `${nWord.charAt(0).toUpperCase()}${nWord.slice(1)} seats`} in your pillars ${n === 1 ? 'gives' : 'give'} ${elScreen.elName} its ground: ${list}. Open ${n === 1 ? 'it' : 'them'} to read where this runs, and who runs it.`;
                     })()}</span>
-                    {/* the gods themselves (owner point 3): who lives in the
-                        energy and what it means, before any seating */}
-                    {elFaces.map((f) => (
-                      <span className="el-teasegod" key={f.god}>
-                        <span className="el-teasegodhead"><b>{f.persona}</b> {f.god}{elFaces.length > 1 ? ` · ${f.share}%` : ''}</span>
-                        <span className="el-teasegoddef">{f.defline}</span>
-                        <span className="el-adj">{f.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</span>
-                      </span>
-                    ))}
                     <span className="el-teasego"><Use id="ico-chev-r" /></span>
                   </button>
                 ) : null}
@@ -664,11 +660,11 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   <div className="cardstock el-fncard">
                     <span className="laylab">THE FUNCTION</span>
                     <span className="serifline el-teasetitle">{elScreen.fnTitle}</span>
-                    <div className="el-fnrow" aria-label="The five functions — this energy's primary is highlighted">
-                      {elScreen.functionsDef.map((f) => (
-                        <span key={f.key} className={`el-fnchip${f.key === elScreen.fn.primary ? ' on' : ''}`}>{f.label}</span>
+                    <span className="el-fnline" aria-label="The five functions — this energy's primary is highlighted">
+                      {elScreen.functionsDef.map((f, i) => (
+                        <span key={f.key}>{i > 0 && <i className="el-fnsep">·</i>}<span className={`el-fnword${f.key === elScreen.fn.primary ? ' on' : ''}`}>{f.label}</span></span>
                       ))}
-                    </div>
+                    </span>
                     <p className="body2 el-fnbody" style={{ margin: '8px 0 0' }}>{elScreen.fn.body}</p>
                     {Object.entries(elScreen.fn.dips || {}).map(([k, txt]) => (
                       <p className="body2 el-funcrow" key={k} style={{ margin: '7px 0 0' }}><b className="el-funclab">{(elScreen.functionsDef.find((f) => f.key === k) || { label: k }).label}.</b> {txt}</p>
@@ -679,54 +675,59 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   <div className="cardstock">
                     <span className="laylab">THE DOMAINS</span>
                     <span className="serifline el-teasetitle">{elScreen.domTitle}</span>
-                    {elFaces.map((f) => {
-                      const seats = elPositions.filter((p) => p.god === f.god);
-                      return (
-                        <div className="el-godblock" key={f.god}>
-                          <p className="serifline el-godhead"><b>{f.persona}</b> {f.god} · {f.keyword.toUpperCase()}{elFaces.length > 1 ? <span className="el-godshare">{f.share}% of your {elScreen.elName}</span> : null}</p>
-                          <p className="el-teasegoddef" style={{ display: 'block', margin: '0 0 6px' }}>{f.defline}</p>
-                          <div className="el-adj">{f.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
-                          {seats.length ? (
-                            <div className="elpos">
-                              <span className="elpos-lead">{seats.length === 1 ? 'Its seat in your chart:' : 'Its seats in your chart:'}</span>
-                              {seats.map((p) => (
-                                <div className={`elpos-row acc${posOpen === p.id ? ' open' : ''}`} key={p.id}>
-                                  <button className="elpos-head" aria-expanded={posOpen === p.id} onClick={() => setPosOpen((v) => (v === p.id ? null : p.id))}>
-                                    <span className="elpos-slot">{p.slotZh}</span>
-                                    <span className="elpos-term">{p.term}<span className="elpos-zh">{p.termZh}</span></span>
-                                    <Use id="ico-chev-r" className="elpos-chev" />
-                                  </button>
-                                  {posOpen === p.id && (
-                                    <div className="elpos-body">
-                                      <div className="el-adj">{p.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
-                                      <p className="elpos-defline">{p.defline}</p>
-                                      {/* gating ruling 2026-08-19: seat NAMES +
-                                          deflines free; the full position
-                                          reading joined the Seeker layer */}
-                                      {tier !== 'free' ? (
-                                        <p className="elpos-reading">{p.reading}</p>
-                                      ) : (
-                                        <p className="body2 el-domlock" style={{ margin: '6px 0 0' }}>The full reading of this seat opens with Seeker.</p>
-                                      )}
-                                    </div>
-                                  )}
-                                </div>
-                              ))}
-                            </div>
-                          ) : null}
-                          {f.readings && tier !== 'free' && (
-                            <div className="el-domreads">
-                              {Object.entries(f.readings).map(([d, txt]) => (
-                                <p className="body2" key={d} style={{ margin: '9px 0 0' }}><b>{d}.</b> {txt}</p>
-                              ))}
-                            </div>
-                          )}
-                        </div>
-                      );
-                    })}
-                    {!elPositions.length && (
+                    {/* order re-ruled (owner 2026-08-19): plain life-domains →
+                        THE SEATS (the Position axis does the talking) → the
+                        gods last, as the supplementary "who runs it" layer. */}
+                    {elCanon.length ? (
+                      <div className="el-adj el-canonrow">{elCanon.map((d) => <span key={d} className="el-domchip canon">{d}</span>)}</div>
+                    ) : null}
+                    {elPositions.length ? (
+                      <div className="elpos">
+                        <span className="elpos-lead">{elPositions.length === 1 ? 'Its seat in your pillars:' : 'Its seats in your pillars:'}</span>
+                        {elPositions.map((p) => (
+                          <div className={`elpos-row acc${posOpen === p.id ? ' open' : ''}`} key={p.id}>
+                            <button className="elpos-head" aria-expanded={posOpen === p.id} onClick={() => setPosOpen((v) => (v === p.id ? null : p.id))}>
+                              <span className="elpos-slot">{p.slotZh}</span>
+                              <span className="elpos-term">{p.term}<span className="elpos-zh">{p.termZh}</span></span>
+                              <Use id="ico-chev-r" className="elpos-chev" />
+                            </button>
+                            {posOpen === p.id && (
+                              <div className="elpos-body">
+                                <div className="el-adj">{p.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
+                                <p className="elpos-defline">{p.defline}</p>
+                                {/* gating ruling 2026-08-19: seat NAMES +
+                                    deflines free; the full position reading
+                                    joined the Seeker layer */}
+                                {tier !== 'free' ? (
+                                  <p className="elpos-reading">{p.reading}</p>
+                                ) : (
+                                  <p className="body2 el-domlock" style={{ margin: '6px 0 0' }}>The full reading of this seat opens with Seeker.</p>
+                                )}
+                              </div>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
                       <p className="elpos-none">This energy holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.</p>
                     )}
+                    {/* the ten-god layer, introduced AFTER the positions
+                        (owner 2026-08-19): who runs the seats above */}
+                    <span className="laylab el-wholab">WHO RUNS IT</span>
+                    {elFaces.map((f) => (
+                      <div className="el-godblock" key={f.god}>
+                        <p className="serifline el-godhead"><b>{f.persona}</b> {f.god} · {f.keyword.toUpperCase()}{elFaces.length > 1 ? <span className="el-godshare">{f.share}% of your {elScreen.elName}</span> : null}</p>
+                        <p className="el-teasegoddef" style={{ display: 'block', margin: '0 0 6px' }}>{f.defline}</p>
+                        <div className="el-adj">{f.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
+                        {f.readings && tier !== 'free' && (
+                          <div className="el-domreads">
+                            {Object.entries(f.readings).map(([d, txt]) => (
+                              <p className="body2" key={d} style={{ margin: '9px 0 0' }}><b>{d}.</b> {txt}</p>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    ))}
                     {tier === 'free' && elFaces.some((f) => f.readings) && (
                       <p className="body2 el-domlock" style={{ margin: '9px 0 0' }}>The full readings of each domain open with Seeker.</p>
                     )}

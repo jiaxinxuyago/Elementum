@@ -2814,12 +2814,12 @@
 .jny .el-mech .el-mechrel{ margin: 4px auto 2px; justify-content: center; }
 .jny .el-mecheq{ display: block; text-align: center; margin-top: 2px; }
 .jny .el-mechturn{ margin-top: 10px; padding: 7px 0 2px 11px; }
-/* 2 · the function: five chips, primary lit */
-.jny .el-fnrow{ display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
-.jny .el-fnchip{ font-family: 'Cinzel', Georgia, serif; font-size: 10px; letter-spacing: 1.2px; text-transform: uppercase;
-    padding: 4px 10px; border-radius: 999px; background: rgba(248,244,236,0.7);
-    border: 1px solid rgba(160,138,100,0.28); color: #a39a8a; }
-.jny .el-fnchip.on{ background: rgba(160,138,100,0.16); border-color: var(--bronzeDark); color: var(--bronzeDark); font-weight: 700; }
+/* 2 · the function: a fixed textual spectrum, primary lit — deliberately
+   NOT pills (owner 2026-08-19: the chip row read as switchable tabs) */
+.jny .el-fnline{ display: block; margin-top: 2px; font-family: 'Cinzel', Georgia, serif; font-size: 10.5px;
+    letter-spacing: 1.4px; text-transform: uppercase; color: #b3a996; }
+.jny .el-fnsep{ font-style: normal; margin: 0 6px; opacity: 0.6; }
+.jny .el-fnword.on{ color: var(--bronzeDark); font-weight: 700; border-bottom: 2px solid var(--bronzeDark); padding-bottom: 1px; }
 /* 3 · ruling domains: per-god sub-blocks */
 .jny .el-godblock{ margin-top: 11px; padding-top: 10px; border-top: 1px dotted rgba(139,115,85,0.26); }
 .jny .el-godhead{ margin: 0 0 6px; font-size: 14px; }
@@ -2840,6 +2840,12 @@
 .jny .el-teasegoddef{ display: block; font-family: Georgia, serif; font-style: italic; font-size: 12.5px; color: #6f6759; margin: 0 0 6px; }
 .jny .el-tease .el-adj{ display: flex; flex-wrap: wrap; gap: 5px; }
 .jny .el-tease .el-mechviz{ pointer-events: none; }
+/* plain canonical life-domain chips (§5e taxonomy) — the domains card's
+   only vocabulary before the detail's Position layer */
+.jny .el-canonrow{ margin-top: 2px; }
+.jny .el-domchip.canon{ font-size: 12px; padding: 4px 12px; background: rgba(160,138,100,0.12);
+    border-color: rgba(160,138,100,0.5); color: var(--inkDeep, #2b2722); font-weight: 600; }
+.jny .el-wholab{ display: block; margin-top: 13px; padding-top: 11px; border-top: 1px dotted rgba(139,115,85,0.26); }
 .jny .el-domchip{ font-size: 11px; letter-spacing: 0.6px; padding: 3px 10px; border-radius: 999px;
     background: rgba(248,244,236,0.9); border: 1px solid rgba(160,138,100,0.4); color: var(--bronzeDark); }
 .jny .el-domlock{ color: #8a8278; font-size: 12px; }
