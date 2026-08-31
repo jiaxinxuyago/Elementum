@@ -28,7 +28,7 @@ export {
 } from './resolveVariant.js';
 
 // Ten-God personas
-export { TG_PERSONA, tgPersona } from './tgNames.js';
+export { TG_PERSONA, TG_DEFLINE, tgPersona } from './tgNames.js';
 
 // Daily guidance
 export { getDailyGuidance } from './dailyGuidance.js';

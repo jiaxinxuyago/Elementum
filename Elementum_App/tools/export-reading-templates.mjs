@@ -41,7 +41,7 @@ const { STEM_VARIANTS } = await import('../src/content/stemVariants.js');
 const { buildIdentity } = await import('../src/components/reading/identity.js');
 const { FACE_CARD, FAMILY_BRIEF, FAMILY_CLAUSE, FAMILY_ELEMENT, ENERGY_TILE } = await import('../src/content/reading/index.js');
 const { DM_READING } = await import('../src/content/reading/readingContent.js');
-const { TG_PERSONA } = await import('../src/content/tgNames.js');
+const { TG_PERSONA, TG_DEFLINE } = await import('../src/content/tgNames.js');
 const cyc = await import('../src/content/cycles.js');
 const k2 = await import('../src/content/k2.js');
 const pos = await import('../src/content/positions.js');
@@ -69,19 +69,9 @@ const FAMILIES = [
 // (the old POSITIONS ×7 palace_frame stub axis was superseded by the
 // god×slot POSITION construct, owner 2026-08-19 — see src/content/positions.js)
 
-// GOD-axis locks that live only in REA_02 (transcribed; source noted per file).
-const GOD_DEFLINE = {
-  '比肩': 'Same nature, same register — the standard you hold yourself to',
-  '劫财': 'Same nature, different register — the edge of comparison',
-  '食神': 'Output that flows from you — giving that feels like being',
-  '伤官': 'Cross-current output — brilliance made of what it meets',
-  '偏财': 'Wide-ranging engagement — opportunity sensed at a distance',
-  '正财': 'Methodical, directed acquisition — value built and kept',
-  '七杀': "Pressure that doesn't grant permission — the trial that forges",
-  '正官': 'Framework-mediated pressure — the standard that steadies',
-  '偏印': 'Unconventional nourishment — insight that transmutes',
-  '正印': 'Nourishment that deepens without redirecting — the root that holds',
-};
+// GOD definition lines now live in src/content/tgNames.js (TG_DEFLINE) —
+// rehomed 2026-08-19 when the Ruling Domains teaser began surfacing them.
+const GOD_DEFLINE = TG_DEFLINE;
 const GOD_CHARGE = { '比肩': 'steady', '劫财': 'fierce', '食神': 'gentle', '伤官': 'fierce', '偏财': 'dynamic', '正财': 'gentle', '七杀': 'fierce', '正官': 'gentle', '偏印': 'fierce', '正印': 'gentle' };
 
 // CONDITION-axis locks (REA_02 §5c).

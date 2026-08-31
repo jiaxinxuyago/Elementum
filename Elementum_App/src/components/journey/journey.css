@@ -2824,6 +2824,22 @@
 .jny .el-godblock{ margin-top: 11px; padding-top: 10px; border-top: 1px dotted rgba(139,115,85,0.26); }
 .jny .el-godhead{ margin: 0 0 6px; font-size: 14px; }
 .jny .el-godshare{ display: block; font-family: Georgia, serif; font-style: italic; font-size: 11.5px; color: #8a8278; margin-top: 1px; }
+/* teaser index (curation pass, owner 2026-08-19): claim title + derived
+   verdict + visual per section card; the whole card is the tap target */
+.jny .el-tease{ display: block; width: 100%; text-align: left; cursor: pointer; position: relative;
+    font: inherit; color: inherit; border: inherit; }
+.jny .el-tease:active{ transform: scale(0.988); }
+.jny .el-teasetitle{ display: block; font-size: 16.5px; margin: 0 0 7px; color: var(--inkDeep, #2b2722); }
+.jny .el-teaseverdict{ display: block; margin-top: 8px; font-family: 'Cinzel', Georgia, serif; font-size: 11px;
+    letter-spacing: 1.1px; text-transform: uppercase; font-weight: 700; color: var(--bronzeDark); }
+.jny .el-teasego{ position: absolute; right: 13px; top: 13px; width: 17px; height: 17px; color: #a89c86; }
+.jny .el-teasego svg{ width: 100%; height: 100%; }
+.jny .el-teasegod{ display: block; margin-top: 9px; }
+.jny .el-teasegod + .el-teasegod{ padding-top: 9px; border-top: 1px dotted rgba(139,115,85,0.22); }
+.jny .el-teasegodhead{ display: block; font-family: 'EB Garamond', Georgia, serif; font-size: 14px; margin-bottom: 2px; }
+.jny .el-teasegoddef{ display: block; font-family: Georgia, serif; font-style: italic; font-size: 12.5px; color: #6f6759; margin: 0 0 6px; }
+.jny .el-tease .el-adj{ display: flex; flex-wrap: wrap; gap: 5px; }
+.jny .el-tease .el-mechviz{ pointer-events: none; }
 .jny .el-domchip{ font-size: 11px; letter-spacing: 0.6px; padding: 3px 10px; border-radius: 999px;
     background: rgba(248,244,236,0.9); border: 1px solid rgba(160,138,100,0.4); color: var(--bronzeDark); }
 .jny .el-domlock{ color: #8a8278; font-size: 12px; }

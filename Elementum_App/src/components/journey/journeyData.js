@@ -14,7 +14,7 @@
 // ===================================================================
 
 import { getEnergyBand, relationOf } from '../../engine/index.js';
-import { TG_PERSONA, selfCardFor } from '../../content/index.js';
+import { TG_PERSONA, TG_DEFLINE, selfCardFor } from '../../content/index.js';
 import { FEEDS, TAMES } from '../../content/cycles.js';
 import { K2_CELLS, K2_FUNCTIONS, GOD_DOMAINS } from '../../content/k2.js';
 import { PAIR_CELLS } from '../../content/pairs.js';
@@ -378,21 +378,42 @@ export function buildElementScreen(model, el) {
     turnLab,
   } : null;
 
+  const fn = pair?.function || null;
+  const fnLabel = (K2_FUNCTIONS.find((f) => f.key === fn?.primary) || {}).label || '';
+  // Curation pass (owner 2026-08-19): the page is a teaser index — each
+  // section card carries a claim TITLE (Set A) + a conclusive derived
+  // VERDICT, and opens its own detail sub-screen. All lines assemble from
+  // locked vocabulary (§5c remedies, §5d equations, §5f primaries, §2
+  // deflines) — no new corpus.
+  const stateLine = r.dx?.condition === 'Overfueled' ? 'Running heavy. Channel it.'
+    : r.dx?.condition === 'Underfueled' ? 'Running thin. Refill it.'
+    : 'Balanced. Keep the mix.';
+
   return {
     el, name: r.name.toUpperCase(), hz: r.hz, cls: `a-${el}`,
     pig: `var(--${el})`,
     reye, roleTx, roleKind,
     title: r.hook || `${r.keyword} — your ${r.relation}`, tag: r.tag,
     selfCard,
-    elName: r.name,
+    elName: r.name, relation: r.relation,
     mech,
+    mechTitle: r.isCore ? 'The energy that is you' : `Why ${r.name} is your ${r.relation}`,
+    stateLine,
     // THE FUNCTION (§5f): the seat's primary function read, energy-level.
-    fn: pair?.function || null,
+    fn,
+    fnLabel,
+    fnTitle: `It runs your ${fnLabel}`,
+    // teaser verdict = the body's own opening claim ("The Voice is your
+    // expression function.") — conclusive by construction.
+    fnVerdict: fn?.body ? `${fn.body.split(':')[0]}.` : '',
     functionsDef: K2_FUNCTIONS,
+    domTitle: 'What it rules in your life',
     // RULING DOMAINS (EP-C): the gods' home — per present face, a sub-block
-    // of persona + domains + its seats + Seeker-gated domain readings.
+    // of persona + defline (§2, teaser-first per the curation ruling) +
+    // domains + its seats + Seeker-gated domain readings.
     faces: (r.faces || []).map((f) => ({
       ...f,
+      defline: TG_DEFLINE[f.god] || '',
       domains: GOD_DOMAINS[f.god] || [],
       readings: K2_CELLS[`${r.hz}_${f.god}`]?.domain_readings || null,
     })),

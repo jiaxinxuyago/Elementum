@@ -407,7 +407,7 @@ const SURFACE = {
 function surfacesFor(screen, journeyScreen) {
   if (screen === 'reveal') return [SURFACE.identity];
   if (screen === 'app-reading' || screen === 'app-energymap') {
-    if (journeyScreen === 'element') return [SURFACE.element];
+    if (journeyScreen === 'element' || journeyScreen === 'elsec') return [SURFACE.element, SURFACE.deep];
     return [SURFACE.identity, SURFACE.catalogue];
   }
   if (screen === 'app-daymaster') return [SURFACE.daymaster];
@@ -442,8 +442,8 @@ function SchemaView({ chart, birthData, currentScreen }) {
     return () => window.removeEventListener('journey-screen', onJourney);
   }, []);
 
-  // The element in focus: the journey element sub-screen (the one depth home).
-  const activeEl = journeyScreen === 'element' ? journeyEl : null;
+  // The element in focus: the journey element sub-screen or its section detail.
+  const activeEl = (journeyScreen === 'element' || journeyScreen === 'elsec') ? journeyEl : null;
   const allGroups = useMemo(() => buildVariableGroups(model, activeEl, chart), [model, activeEl, chart]);
   const [showAll, setShowAll] = useState(false);
   const onScreen = surfacesFor(currentScreen, journeyScreen);

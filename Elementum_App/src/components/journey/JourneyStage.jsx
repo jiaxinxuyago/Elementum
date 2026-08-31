@@ -65,6 +65,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const [fnOpen, setFnOpen] = useState(null);      // footnote float (cond|cat|fric)
   const [dotOpen, setDotOpen] = useState(null);    // wheel-dot float — the element's relation with the core
   const [posOpen, setPosOpen] = useState(null);    // element-page position accordion (position id)
+  const [elSec, setElSec] = useState(null);        // element section detail ('mech' | 'fn' | 'dom')
   const [folioOpen, setFolioOpen] = useState(false);
 
   const model = useMemo(() => {
@@ -121,7 +122,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   useEffect(() => {
     if (!import.meta.env.DEV || typeof window === 'undefined') return undefined;
     window.__journeyScreen = screen;
-    window.__journeyElOpen = screen === 'element' ? elOpen : null;
+    window.__journeyElOpen = (screen === 'element' || screen === 'elsec') ? elOpen : null;
     window.dispatchEvent(new CustomEvent('journey-screen', { detail: screen }));
     return () => { delete window.__journeyScreen; delete window.__journeyElOpen; };
   }, [screen, elOpen]);
@@ -313,6 +314,33 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const elScreen = elOpen ? buildElementScreen(m, elOpen) : null;
   // Polarity faces (1–2, dominant-led) — the Ruling Domains sub-blocks.
   const elFaces = elScreen?.faces?.length ? elScreen.faces : [];
+  // Curation pass (owner 2026-08-19): the element page is a teaser index;
+  // each section opens its own detail sub-screen (jscreen "elsec").
+  const openSec = (k) => { setElSec(k); setPosOpen(null); goScreen('elsec'); };
+  // The mechanism equation graphic (capsules + 生/克 link, wp-dotcard scope) —
+  // shared by the mechanism teaser card and its detail screen.
+  const mechViz = elScreen?.mech ? (
+    <div className="wp-dotcard el-mechviz">
+      {elScreen.mech.verb === 'core' ? (
+        <div className="wd-rel el-mechrel">
+          {capThumb(elScreen.mech.a)}
+          <span className="wd-link core"><i className="wd-lawhz">主</i><span className="wd-lawtx">day master</span></span>
+          <span className="wd-capseal" style={{ backgroundImage: `url('${centerSrc}')` }} aria-hidden="true" />
+        </div>
+      ) : (
+        <div className="wd-rel el-mechrel">
+          {capThumb(elScreen.mech.a)}
+          <span className={`wd-link ${elScreen.mech.verb}`}>
+            <i className="wd-lawhz">{elScreen.mech.verb === 'feeds' ? '生' : '克'}</i>
+            <svg className="wd-arrow" viewBox="0 0 44 10" aria-hidden="true"><path d="M2 5 H36 M36 5 l-6 -3.6 M36 5 l-6 3.6" /></svg>
+            <span className="wd-lawtx">{elScreen.mech.verb}</span>
+          </span>
+          {capThumb(elScreen.mech.b)}
+        </div>
+      )}
+      <span className="wd-eq el-mecheq">{elScreen.mech.eq}</span>
+    </div>
+  ) : null;
   // The element's seats (REA_02 §5e echo): the positions this energy holds.
   const elPositions = elScreen ? resolvePositions(chart, hourUnknown).filter((p) => p.el === elScreen.el) : [];
   const glossary = buildGlossary(m);
@@ -540,41 +568,76 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     <span className="htitle el-title">{elScreen.title}</span><span className="hsub el-tag">{elScreen.tag}</span>
                   </span>
                 </div>
-                {/* 1 · THE MECHANISM (element-page restructure, owner rulings
-                    2026-08-19): law card + state verdict + bridge consolidated.
-                    Capsule graphic (dot-card DNA) → the ELEMENT_PAIR base →
-                    the role-resolved state turn. */}
+                {/* BAND-C self_card — only the CORE element carries the band mirror */}
+                {elScreen.selfCard && (
+                  <div className="cardstock el-selfcard">
+                    <span className="laylab">HOW YOUR CORE IS RUNNING</span>
+                    <p className="serifline el-selfface" style={{ margin: '0 0 5px', fontSize: 14.5 }}>{elScreen.selfCard.face}</p>
+                    <p className="body2 el-selfpresence" style={{ margin: 0 }}>{elScreen.selfCard.presence}</p>
+                  </div>
+                )}
+                {/* Curation pass (owner rulings 2026-08-19): the page is a
+                    TEASER INDEX — three claim-titled cards (Set A), each a
+                    conclusive derived verdict + visual, opening its detail
+                    sub-screen. Gating: mechanism + function free in full;
+                    the domains detail's readings are Seeker. */}
                 {elScreen.mech && (
+                  <button className="cardstock el-tease" onClick={() => openSec('mech')}>
+                    <span className="laylab">THE MECHANISM</span>
+                    <span className="serifline el-teasetitle">{elScreen.mechTitle}</span>
+                    {mechViz}
+                    <span className="el-teaseverdict">{elScreen.stateLine}</span>
+                    <span className="el-teasego"><Use id="ico-chev-r" /></span>
+                  </button>
+                )}
+                {elScreen.fn && (
+                  <button className="cardstock el-tease" onClick={() => openSec('fn')}>
+                    <span className="laylab">THE FUNCTION</span>
+                    <span className="serifline el-teasetitle">{elScreen.fnTitle}</span>
+                    <span className="el-fnrow" aria-hidden="true">
+                      {elScreen.functionsDef.map((f) => (
+                        <span key={f.key} className={`el-fnchip${f.key === elScreen.fn.primary ? ' on' : ''}`}>{f.label}</span>
+                      ))}
+                    </span>
+                    <span className="el-teaseverdict">{elScreen.fnVerdict}</span>
+                    <span className="el-teasego"><Use id="ico-chev-r" /></span>
+                  </button>
+                )}
+                {elFaces.length ? (
+                  <button className="cardstock el-tease" onClick={() => openSec('dom')}>
+                    <span className="laylab">THE DOMAINS</span>
+                    <span className="serifline el-teasetitle">{elScreen.domTitle}</span>
+                    {/* the gods first (owner point 3): who lives in the
+                        energy and what it means, before any seating */}
+                    {elFaces.map((f) => (
+                      <span className="el-teasegod" key={f.god}>
+                        <span className="el-teasegodhead"><b>{f.persona}</b> {f.god}{elFaces.length > 1 ? ` · ${f.share}%` : ''}</span>
+                        <span className="el-teasegoddef">{f.defline}</span>
+                        <span className="el-adj">{f.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</span>
+                      </span>
+                    ))}
+                    <span className="el-teaseverdict">{elPositions.length ? `${elPositions.length} seat${elPositions.length === 1 ? '' : 's'} in your chart · full readings with Seeker` : 'Felt through the hidden stems · full readings with Seeker'}</span>
+                    <span className="el-teasego"><Use id="ico-chev-r" /></span>
+                  </button>
+                ) : null}
+              </div></div>
+            </div>
+          )}
+
+          {/* ── element section detail (the teaser cards' destination) ── */}
+          {elScreen && elSec && (
+            <div className={`jscreen${screen === 'elsec' ? ' active' : ''}`} data-screen="elsec">
+              <div className="plateimg a-plate-rice" /><div className="eltint" />
+              <button className="backrow" aria-label={`Back to ${elScreen.name}`} onClick={() => goScreen('element')}>
+                <span className="bico"><Use id="ico-chev-l" /></span>
+                <span className="bl el-back">{elScreen.name} · {elSec === 'mech' ? 'THE MECHANISM' : elSec === 'fn' ? 'THE FUNCTION' : 'THE DOMAINS'}</span>
+              </button>
+              <div className="scrollwrap"><div className="padv2">
+                {elSec === 'mech' && elScreen.mech && (
                   <div className="cardstock el-mech">
-                    <span className="laylab">HOW IT WORKS ON YOUR CORE</span>
-                    {(() => {
-                      const mk = elScreen.mech;
-                      // wp-dotcard = a pure CSS scope token here: it lends the
-                      // dot card's capsule/link/eq styles to the mechanism
-                      // graphic (no bare .wp-dotcard box rule exists).
-                      return (
-                        <div className="wp-dotcard el-mechviz">
-                          {mk.verb === 'core' ? (
-                            <div className="wd-rel el-mechrel">
-                              {capThumb(mk.a)}
-                              <span className="wd-link core"><i className="wd-lawhz">主</i><span className="wd-lawtx">day master</span></span>
-                              <span className="wd-capseal" style={{ backgroundImage: `url('${centerSrc}')` }} aria-hidden="true" />
-                            </div>
-                          ) : (
-                            <div className="wd-rel el-mechrel">
-                              {capThumb(mk.a)}
-                              <span className={`wd-link ${mk.verb}`}>
-                                <i className="wd-lawhz">{mk.verb === 'feeds' ? '生' : '克'}</i>
-                                <svg className="wd-arrow" viewBox="0 0 44 10" aria-hidden="true"><path d="M2 5 H36 M36 5 l-6 -3.6 M36 5 l-6 3.6" /></svg>
-                                <span className="wd-lawtx">{mk.verb}</span>
-                              </span>
-                              {capThumb(mk.b)}
-                            </div>
-                          )}
-                          <span className="wd-eq el-mecheq">{elScreen.mech.eq}</span>
-                        </div>
-                      );
-                    })()}
+                    <span className="laylab">THE MECHANISM</span>
+                    <span className="serifline el-teasetitle">{elScreen.mechTitle}</span>
+                    {mechViz}
                     <p className="body2 el-mechbase" style={{ margin: '8px 0 0' }}>{elScreen.mech.base}</p>
                     {elScreen.mech.turn && (
                       <div className="el-mechturn" style={{ borderLeft: `3px solid var(--${elScreen.el}Deep)` }}>
@@ -584,19 +647,10 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     )}
                   </div>
                 )}
-                {/* BAND-C self_card — only the CORE element carries the band mirror */}
-                {elScreen.selfCard && (
-                  <div className="cardstock el-selfcard">
-                    <span className="laylab">HOW YOUR CORE IS RUNNING</span>
-                    <p className="serifline el-selfface" style={{ margin: '0 0 5px', fontSize: 14.5 }}>{elScreen.selfCard.face}</p>
-                    <p className="body2 el-selfpresence" style={{ margin: 0 }}>{elScreen.selfCard.presence}</p>
-                  </div>
-                )}
-                {/* 2 · THE FUNCTION (§5f): the seat noun as a function of the
-                    reader's system — primary highlighted in the chip row,
-                    body deep on it, dips one line each. No god vocabulary. */}
-                {elScreen.fn && (
-                  <div className="cardstock el-fncard"><span className="laylab">HOW IT RUNS YOUR FUNCTIONS</span>
+                {elSec === 'fn' && elScreen.fn && (
+                  <div className="cardstock el-fncard">
+                    <span className="laylab">THE FUNCTION</span>
+                    <span className="serifline el-teasetitle">{elScreen.fnTitle}</span>
                     <div className="el-fnrow" aria-label="The five functions — this energy's primary is highlighted">
                       {elScreen.functionsDef.map((f) => (
                         <span key={f.key} className={`el-fnchip${f.key === elScreen.fn.primary ? ' on' : ''}`}>{f.label}</span>
@@ -608,18 +662,16 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     ))}
                   </div>
                 )}
-                {/* 3 · ITS RULING DOMAINS (EP-C — the gods' home, THE deep
-                    section): per present face, a sub-block of persona +
-                    domain chips + its own seats (full position readings) +
-                    Seeker-gated domain readings. */}
-                {elFaces.length ? (
-                  <div className="cardstock"><span className="laylab">ITS RULING DOMAINS</span>
-                    <p className="body2" style={{ margin: '0 0 4px' }}>What lives inside this energy, and the grounds of your life it rules.</p>
+                {elSec === 'dom' && elFaces.length ? (
+                  <div className="cardstock">
+                    <span className="laylab">THE DOMAINS</span>
+                    <span className="serifline el-teasetitle">{elScreen.domTitle}</span>
                     {elFaces.map((f) => {
                       const seats = elPositions.filter((p) => p.god === f.god);
                       return (
                         <div className="el-godblock" key={f.god}>
-                          <p className="serifline el-godhead"><b>{f.persona}</b> · {f.keyword.toUpperCase()}{elFaces.length > 1 ? <span className="el-godshare">{f.share}% of your {elScreen.elName}</span> : null}</p>
+                          <p className="serifline el-godhead"><b>{f.persona}</b> {f.god} · {f.keyword.toUpperCase()}{elFaces.length > 1 ? <span className="el-godshare">{f.share}% of your {elScreen.elName}</span> : null}</p>
+                          <p className="el-teasegoddef" style={{ display: 'block', margin: '0 0 6px' }}>{f.defline}</p>
                           <div className="el-adj">{f.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
                           {seats.length ? (
                             <div className="elpos">
@@ -635,7 +687,14 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                                     <div className="elpos-body">
                                       <div className="el-adj">{p.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
                                       <p className="elpos-defline">{p.defline}</p>
-                                      <p className="elpos-reading">{p.reading}</p>
+                                      {/* gating ruling 2026-08-19: seat NAMES +
+                                          deflines free; the full position
+                                          reading joined the Seeker layer */}
+                                      {tier !== 'free' ? (
+                                        <p className="elpos-reading">{p.reading}</p>
+                                      ) : (
+                                        <p className="body2 el-domlock" style={{ margin: '6px 0 0' }}>The full reading of this seat opens with Seeker.</p>
+                                      )}
                                     </div>
                                   )}
                                 </div>
