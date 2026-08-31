@@ -2845,6 +2845,10 @@
 .jny .el-poschips{ display: flex; flex-wrap: wrap; gap: 5px; }
 .jny .el-posrow .el-posteaser{ margin-top: 6px; }
 .jny .el-wholab{ display: block; margin-top: 13px; padding-top: 11px; border-top: 1px dotted rgba(139,115,85,0.26); }
+/* the seat's chart-chemistry line (POS-T-C set-pieces, Seeker layer) */
+.jny .elpos-setpiece{ margin: 8px 0 0; padding: 7px 10px; border-radius: 10px;
+    background: rgba(160,138,100,0.10); border: 1px solid rgba(160,138,100,0.3);
+    font-family: 'EB Garamond', Georgia, serif; font-size: 13px; line-height: 1.5; color: var(--inkDeep, #2b2722); }
 .jny .el-domchip{ font-size: 11px; letter-spacing: 0.6px; padding: 3px 10px; border-radius: 999px;
     background: rgba(248,244,236,0.9); border: 1px solid rgba(160,138,100,0.4); color: var(--bronzeDark); }
 .jny .el-domlock{ color: #8a8278; font-size: 12px; }

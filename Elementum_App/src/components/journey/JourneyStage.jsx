@@ -684,9 +684,15 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                                 <p className="elpos-defline">{p.defline}</p>
                                 {/* gating ruling 2026-08-19: seat NAMES +
                                     deflines free; the full position reading
-                                    joined the Seeker layer */}
+                                    and the chart-chemistry line (POS-T-C
+                                    set-pieces) are the Seeker layer */}
                                 {tier !== 'free' ? (
-                                  <p className="elpos-reading">{p.reading}</p>
+                                  <>
+                                    <p className="elpos-reading">{p.reading}</p>
+                                    {p.setPiece && (
+                                      <p className="elpos-setpiece"><b className="el-funclab">CHART CHEMISTRY · {p.setPieceZh}.</b> {p.setPiece}</p>
+                                    )}
+                                  </>
                                 ) : (
                                   <p className="body2 el-domlock" style={{ margin: '6px 0 0' }}>The full reading of this seat opens with Seeker.</p>
                                 )}

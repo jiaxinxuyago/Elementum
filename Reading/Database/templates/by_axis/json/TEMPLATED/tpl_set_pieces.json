@@ -1,0 +1,81 @@
+{
+  "$archetype": "tpl_set_pieces",
+  "axis": "TEMPLATED",
+  "key": "tpl_set_pieces",
+  "canonical_name": null,
+  "construct": "TBD — ruled per-axis with the owner",
+  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "sources": [
+    "REA_03 §5 (patterns)"
+  ],
+  "status_note": "LIVE (POS-T-C, owner 2026-08-19) — classical god-pair chemistry ×5, engine-detected across resolved positions, rendered in each participating seat (Seeker layer)",
+  "budget": "≤40w each ×5",
+  "candidates": {
+    "pattern": "CHART CHEMISTRY · {汉字}. {line} — fires when both god sides are present among the chart's positions; priority = list order; one per seat",
+    "pieces": {
+      "shishen_zhi_sha": {
+        "zh": "食神制杀",
+        "gods": [
+          [
+            "食神"
+          ],
+          [
+            "七杀"
+          ]
+        ],
+        "line": "Your chart holds a rare pairing: the Artisan’s ease stands guard over the General’s pressure. Stress that grinds other people becomes production in you, and your calmest work tends to happen close to the deadline."
+      },
+      "xiao_shen_duo_shi": {
+        "zh": "枭神夺食",
+        "gods": [
+          [
+            "偏印"
+          ],
+          [
+            "食神"
+          ]
+        ],
+        "line": "The Alchemist and the Artisan share your chart, and they compete: too much theory starves your ease. When output stalls, the cure is one finished thing made with your hands, and fewer perfect plans."
+      },
+      "shang_guan_jian_guan": {
+        "zh": "伤官见官",
+        "gods": [
+          [
+            "伤官"
+          ],
+          [
+            "正官"
+          ]
+        ],
+        "line": "Your chart carries the old collision of brilliance and rank: the Virtuoso chafes exactly where the Magistrate climbs. Careers run smoothest when your talent gets a stage inside the structure, under a title with some give in it."
+      },
+      "bi_jie_duo_cai": {
+        "zh": "比劫夺财",
+        "gods": [
+          [
+            "比肩",
+            "劫财"
+          ],
+          [
+            "正财",
+            "偏财"
+          ]
+        ],
+        "line": "Self stars and wealth stars share your pillars, the classic contested purse. Money does best held plainly in your name: partnerships loosen it, lending blurs it, and generosity deserves its own budget line."
+      },
+      "sha_yin_xiang_sheng": {
+        "zh": "杀印相生",
+        "gods": [
+          [
+            "七杀"
+          ],
+          [
+            "偏印",
+            "正印"
+          ]
+        ],
+        "line": "Pressure and shelter feed each other in your chart: hard chapters keep converting into wisdom and rank. What tests you also promotes you, and the pattern strengthens with age."
+      }
+    }
+  }
+}

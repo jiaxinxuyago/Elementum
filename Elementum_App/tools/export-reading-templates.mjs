@@ -333,6 +333,10 @@ T('tpl_cycle_line', 'VOCABULARY LOCKED (REA_02 §5d, owner 2026-08-14) — the �
 });
 T('tpl_rx_ribbon', 'PLANNED', 'ribbon ≤14w + 10 fragments', { pattern: null, clauses: null });
 T('tpl_pattern_conclusion', 'PLANNED', '≤25w · per pattern type (~6)', { pattern: null, clauses: null });
+T('tpl_set_pieces', 'LIVE (POS-T-C, owner 2026-08-19) — classical god-pair chemistry ×5, engine-detected across resolved positions, rendered in each participating seat (Seeker layer)', '≤40w each ×5', {
+  pattern: 'CHART CHEMISTRY · {汉字}. {line} — fires when both god sides are present among the chart\'s positions; priority = list order; one per seat',
+  pieces: Object.fromEntries(pos.SET_PIECES.map((s) => [s.key, { zh: s.zh, gods: s.gods, line: s.line }])),
+});
 T('tpl_section_teasers', 'LIVE (curation v6, owner 2026-08-19) — ONE conclusive quoted line per section card', 'one line each', {
   pattern: 'mech: "{state turn, first sentence}" · fn: "{function body, first sentence}" · dom: "{lead seat defline}[ And {n-1 word} more seat(s) besides.]" — position rows above the dom line: {term} · {汉字} / "rules {declared domains}"',
   balanced_lines: { core: 'In your chart it holds its measure.', other: 'In your chart it runs balanced: nothing to force.' },
