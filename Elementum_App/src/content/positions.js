@@ -14,6 +14,20 @@ export const GATE_ZH = { year: '年柱', month: '月柱', day: '日柱', hour: '
 
 export const DOMAIN_TAXONOMY = ['Wealth', 'Health', 'Career', 'Love', 'Family', 'Social', 'Mind', 'Growth'];
 
+// Plain one-line teasers per canonical domain (curation v4, owner 2026-08-19:
+// "each domain worth a teaser" — chart-invariant, everyday language, the
+// domains card's row copy; station home tpl_domain_deflines).
+export const DOMAIN_DEF = {
+  Wealth: 'What you earn, own, and grow.',
+  Health: 'The body’s reserves, and what restores them.',
+  Career: 'Your work, your rank, your public standing.',
+  Love: 'Partnership, and what two people build.',
+  Family: 'The people you come from and the ones you raise.',
+  Social: 'Your circles, your allies, your name among peers.',
+  Mind: 'How you think, learn, and decide.',
+  Growth: 'What you are becoming, and the road there.',
+};
+
 export const SLOTS = [
   { id: 'year_stem', gate: 'year', kind: 'stem', zh: '年干' },
   { id: 'year_branch', gate: 'year', kind: 'branch', zh: '年支' },

@@ -26,6 +26,7 @@ import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
 import { APP_URL } from '../../infra/index.js';
 import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_LINE } from './journeyData.js';
 import { resolvePositions } from '../reading/positionsResolve.js';
+import { DOMAIN_DEF } from '../../content/positions.js';
 import { FEEDS, TAMES, CYCLE_LINE } from '../../content/cycles.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
@@ -598,13 +599,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   <button className="cardstock el-tease" onClick={() => openSec('fn')}>
                     <span className="laylab">THE FUNCTION</span>
                     <span className="serifline el-teasetitle">{elScreen.fnTitle}</span>
-                    {/* one line, not tabs (owner 2026-08-19: the pill row read
-                        as switchable) — a fixed spectrum with the primary lit */}
-                    <span className="el-fnline" aria-hidden="true">
-                      {elScreen.functionsDef.map((f, i) => (
-                        <span key={f.key}>{i > 0 && <i className="el-fnsep">·</i>}<span className={`el-fnword${f.key === elScreen.fn.primary ? ' on' : ''}`}>{f.label}</span></span>
-                      ))}
-                    </span>
+                    {/* the primary ONLY (owner 2026-08-19: showing the other
+                        functions confuses first glance) — the title names it,
+                        the teaser explains it; nothing else renders */}
                     <span className="el-teasep">{elScreen.fnTeaser}</span>
                     <span className="el-teasego"><Use id="ico-chev-r" /></span>
                   </button>
@@ -613,18 +610,21 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   <button className="cardstock el-tease" onClick={() => openSec('dom')}>
                     <span className="laylab">THE DOMAINS</span>
                     <span className="serifline el-teasetitle">{elScreen.domTitle}</span>
-                    {/* plain life-domains only (owner 2026-08-19: no god
-                        vocabulary on the teaser) — the canonical taxonomy the
-                        element's seats declare; gods wait inside the detail */}
-                    {elCanon.length ? (
-                      <span className="el-adj el-canonrow" aria-hidden="true">{elCanon.map((d) => <span key={d} className="el-domchip canon">{d}</span>)}</span>
-                    ) : null}
-                    <span className="el-teasep" style={{ marginTop: elCanon.length ? 8 : 0 }}>{(() => {
+                    {/* each canonical domain gets its own written row (owner
+                        2026-08-19: "each domain worth a teaser") — plain
+                        DOMAIN_DEF lines, no god vocabulary */}
+                    {elCanon.map((d) => (
+                      <span className="el-domrow" key={d}>
+                        <b className="el-domname">{d}.</b> {DOMAIN_DEF[d] || ''}
+                      </span>
+                    ))}
+                    <span className="el-teasep">{(() => {
                       const n = elPositions.length;
                       if (!n) return `${elScreen.elName} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.`;
-                      const nWord = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven'][n] || n;
-                      const list = elCanon.join(elCanon.length === 2 ? ' and ' : ' · ');
-                      return `${n === 1 ? 'One seat' : `${nWord.charAt(0).toUpperCase()}${nWord.slice(1)} seats`} in your pillars ${n === 1 ? 'gives' : 'give'} ${elScreen.elName} its ground: ${list}. Open ${n === 1 ? 'it' : 'them'} to read where this runs, and who runs it.`;
+                      const nWord = ['zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven'][n] || n;
+                      return n === 1
+                        ? `One seat in your pillars decides how ${elScreen.elName} reaches ${elCanon.length === 1 ? 'it' : 'them'}. Open it to read the seat, and who holds it.`
+                        : `${nWord} seats in your pillars decide how ${elScreen.elName} reaches them. Open them to read each seat, and who holds it.`;
                     })()}</span>
                     <span className="el-teasego"><Use id="ico-chev-r" /></span>
                   </button>
@@ -660,11 +660,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   <div className="cardstock el-fncard">
                     <span className="laylab">THE FUNCTION</span>
                     <span className="serifline el-teasetitle">{elScreen.fnTitle}</span>
-                    <span className="el-fnline" aria-label="The five functions — this energy's primary is highlighted">
-                      {elScreen.functionsDef.map((f, i) => (
-                        <span key={f.key}>{i > 0 && <i className="el-fnsep">·</i>}<span className={`el-fnword${f.key === elScreen.fn.primary ? ' on' : ''}`}>{f.label}</span></span>
-                      ))}
-                    </span>
                     <p className="body2 el-fnbody" style={{ margin: '8px 0 0' }}>{elScreen.fn.body}</p>
                     {Object.entries(elScreen.fn.dips || {}).map(([k, txt]) => (
                       <p className="body2 el-funcrow" key={k} style={{ margin: '7px 0 0' }}><b className="el-funclab">{(elScreen.functionsDef.find((f) => f.key === k) || { label: k }).label}.</b> {txt}</p>
@@ -678,9 +673,11 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     {/* order re-ruled (owner 2026-08-19): plain life-domains →
                         THE SEATS (the Position axis does the talking) → the
                         gods last, as the supplementary "who runs it" layer. */}
-                    {elCanon.length ? (
-                      <div className="el-adj el-canonrow">{elCanon.map((d) => <span key={d} className="el-domchip canon">{d}</span>)}</div>
-                    ) : null}
+                    {elCanon.map((d) => (
+                      <span className="el-domrow" key={d}>
+                        <b className="el-domname">{d}.</b> {DOMAIN_DEF[d] || ''}
+                      </span>
+                    ))}
                     {elPositions.length ? (
                       <div className="elpos">
                         <span className="elpos-lead">{elPositions.length === 1 ? 'Its seat in your pillars:' : 'Its seats in your pillars:'}</span>
