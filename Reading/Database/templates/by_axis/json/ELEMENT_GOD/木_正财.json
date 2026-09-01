@@ -20,6 +20,18 @@
       "action": "You build annually: steady deposits of effort that quietly become an estate.",
       "body": "Your health compounds: small kept habits growing into late-life sturdiness."
     },
+    "adj_chips": {
+      "catalyst": [
+        "Cultivating",
+        "Compounding",
+        "Deep-rooted"
+      ],
+      "friction": [
+        "Root-bound",
+        "Risk-averse",
+        "Inflexible"
+      ]
+    },
     "k2_domain_readings": {
       "Wealth": "Your wealth is orchard-shaped: productive assets, patient growth, income in seasons. Buy things that grow, land, skills, dividends, and let time do the heaviest lifting. It intends to.",
       "Savings": "You save like a granary: harvests stored against winters. Rotate the stock, reinvest the surplus, and remember granaries exist so that planting can be brave.",

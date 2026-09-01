@@ -20,6 +20,18 @@
       "action": "You act alone by default and finish what you start. Shared handles slow your swing.",
       "body": "Your energy is tempered and even: slow to tire, slow to bend, restored by solitary work."
     },
+    "adj_chips": {
+      "catalyst": [
+        "Self-forged",
+        "Tempered",
+        "Unshakeable"
+      ],
+      "friction": [
+        "Sealed-off",
+        "Rigid",
+        "Solitary"
+      ]
+    },
     "k2_domain_readings": {
       "Peers": "Your peers are fellow blades: rivals you respect, colleagues you measure against, friends won through tested mettle. Keep two or three whose standards match yours. Iron sharpens iron is not a proverb to you. It is your social life.",
       "Independence": "Independence, in metal, is structural: you do not perform autonomy, you are made of it. Guard it without sealing it. A blade alone stays sharp but unused, and your edge exists for work that matters.",

@@ -261,7 +261,12 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
     else if (frictionSide) r.dx = { condition: 'Overfueled', remedy: 'Channel' };
     else if (catalystSide) r.dx = { condition: 'Underfueled', remedy: 'Refill' };
     else r.dx = { condition: 'Balanced', remedy: null };
-    r.adj = (frictionSide ? ADJ_FRICTION[r.god] : ADJ_CATALYST[r.god]) || [];
+    // Element-flavored chips (owner pass 2026-09-01): the ELEMENT_GOD cell's
+    // adj_chips speak the god trait in the element's texture; the god-grain
+    // §4b tables remain the fallback until the ×45 batch lands.
+    const pole = frictionSide ? 'friction' : 'catalyst';
+    const cellAdj = (g) => K2_CELLS[`${r.hz}_${g}`]?.adj?.[pole];
+    r.adj = cellAdj(r.god) || (frictionSide ? ADJ_FRICTION[r.god] : ADJ_CATALYST[r.god]) || [];
     r.adjPole = frictionSide ? 'fric' : 'cat';
     // v2.1 polarity faces, persona-enriched (owner merge-and-retire ruling
     // 2026-08-19: the element screen absorbs the faces page's polarity split).
@@ -273,7 +278,7 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
       share: Math.round(((f.weight || 0) / sumW) * 100),
       persona: TG_PERSONA[f.god] || '',
       keyword: KEYWORD[f.god] || '',
-      adj: (frictionSide ? ADJ_FRICTION[f.god] : ADJ_CATALYST[f.god]) || [],
+      adj: cellAdj(f.god) || (frictionSide ? ADJ_FRICTION[f.god] : ADJ_CATALYST[f.god]) || [],
       teaser: FACE_CARD[f.god]?.teaser || '',
     }));
     r.chips = [];

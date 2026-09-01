@@ -127,6 +127,7 @@ export const K2_CELLS = {
       action: 'You build annually: steady deposits of effort that quietly become an estate.',
       body: 'Your health compounds: small kept habits growing into late-life sturdiness.',
     },
+    adj: { catalyst: ['Cultivating', 'Compounding', 'Deep-rooted'], friction: ['Root-bound', 'Risk-averse', 'Inflexible'] },
     domain_readings: {
       Wealth: 'Your wealth is orchard-shaped: productive assets, patient growth, income in seasons. Buy things that grow, land, skills, dividends, and let time do the heaviest lifting. It intends to.',
       Savings: 'You save like a granary: harvests stored against winters. Rotate the stock, reinvest the surplus, and remember granaries exist so that planting can be brave.',
@@ -292,6 +293,7 @@ export const K2_CELLS = {
       action: 'You attack problems frontally at full heat, and mostly the problems lose.',
       body: 'Your energy is artillery: devastating volleys, mandatory cooldowns, maintenance between engagements.',
     },
+    adj: { catalyst: ['Swift', 'Daring', 'Crisis-ready'], friction: ['Scorching', 'Domineering', 'Burned-out'] },
     domain_readings: {
       Pressure: 'Pressure ignites you: stakes convert your heat into focus. Without real battles you invent them, so keep a worthy campaign running at all times, professional or physical.',
       Command: 'You command by fire: vision hot enough to melt objections. Troops follow the light. Mind the scorch radius, and let cooler officers handle the discipline your heat would burn.',
@@ -472,6 +474,7 @@ export const K2_CELLS = {
       action: 'You act once the inner map is drawn. Slow to start, hard to derail, allergic to being rushed through step one.',
       body: 'Your energy pools and releases. Long stillness, then focused bursts. Rest for you is genuinely productive, not avoidance.',
     },
+    adj: { catalyst: ['Deep-reading', 'Unhurried', 'Inventive'], friction: ['Withdrawn', 'Brooding', 'Shut-away'] },
     domain_readings: {
       Learning: 'Learning is where this Earth feeds you best. Not the classroom kind so much as the deep private kind: the obsession studied at midnight, the field entered through the side door. Give it one strange subject at a time and it will quietly out-earn every credential in the house.',
       Intuition: 'The hunch arrives before the reason does, and for you it is usually load-bearing. Treat the sudden knowing as a first draft: trust it enough to write it down, doubt it enough to check the math by morning.',
@@ -502,6 +505,7 @@ export const K2_CELLS = {
       action: 'You act alone by default and finish what you start. Shared handles slow your swing.',
       body: 'Your energy is tempered and even: slow to tire, slow to bend, restored by solitary work.',
     },
+    adj: { catalyst: ['Self-forged', 'Tempered', 'Unshakeable'], friction: ['Sealed-off', 'Rigid', 'Solitary'] },
     domain_readings: {
       Peers: 'Your peers are fellow blades: rivals you respect, colleagues you measure against, friends won through tested mettle. Keep two or three whose standards match yours. Iron sharpens iron is not a proverb to you. It is your social life.',
       Independence: 'Independence, in metal, is structural: you do not perform autonomy, you are made of it. Guard it without sealing it. A blade alone stays sharp but unused, and your edge exists for work that matters.',
@@ -682,6 +686,7 @@ export const K2_CELLS = {
       action: 'You produce continuously in small volumes, a stream that quietly out-carries the dramatic flood.',
       body: 'Your energy is a spring: generous when protected, muddied by overdraw. Guard the source.',
     },
+    adj: { catalyst: ['Fluent', 'Nourishing', 'Easygoing'], friction: ['Drifting', 'Indulgent', 'Unstirred'] },
     domain_readings: {
       Expression: 'Your expression is the stream itself: writing, conversation, comfort flowing daily. Volume is natural to you, so add channels: publish, record, send. Water that reaches others is what turns gift to harvest.',
       Enjoyment: 'You enjoy in gentle currents: long baths, slow music, conversation into the night. Honor these as necessities. A spring that is never let pool goes brackish.',

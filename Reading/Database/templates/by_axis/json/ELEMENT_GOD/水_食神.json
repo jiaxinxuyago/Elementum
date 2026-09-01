@@ -20,6 +20,18 @@
       "action": "You produce continuously in small volumes, a stream that quietly out-carries the dramatic flood.",
       "body": "Your energy is a spring: generous when protected, muddied by overdraw. Guard the source."
     },
+    "adj_chips": {
+      "catalyst": [
+        "Fluent",
+        "Nourishing",
+        "Easygoing"
+      ],
+      "friction": [
+        "Drifting",
+        "Indulgent",
+        "Unstirred"
+      ]
+    },
     "k2_domain_readings": {
       "Expression": "Your expression is the stream itself: writing, conversation, comfort flowing daily. Volume is natural to you, so add channels: publish, record, send. Water that reaches others is what turns gift to harvest.",
       "Enjoyment": "You enjoy in gentle currents: long baths, slow music, conversation into the night. Honor these as necessities. A spring that is never let pool goes brackish.",

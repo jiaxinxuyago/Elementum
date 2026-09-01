@@ -20,6 +20,18 @@
       "action": "You act once the inner map is drawn. Slow to start, hard to derail, allergic to being rushed through step one.",
       "body": "Your energy pools and releases. Long stillness, then focused bursts. Rest for you is genuinely productive, not avoidance."
     },
+    "adj_chips": {
+      "catalyst": [
+        "Deep-reading",
+        "Unhurried",
+        "Inventive"
+      ],
+      "friction": [
+        "Withdrawn",
+        "Brooding",
+        "Shut-away"
+      ]
+    },
     "k2_domain_readings": {
       "Learning": "Learning is where this Earth feeds you best. Not the classroom kind so much as the deep private kind: the obsession studied at midnight, the field entered through the side door. Give it one strange subject at a time and it will quietly out-earn every credential in the house.",
       "Intuition": "The hunch arrives before the reason does, and for you it is usually load-bearing. Treat the sudden knowing as a first draft: trust it enough to write it down, doubt it enough to check the math by morning.",
