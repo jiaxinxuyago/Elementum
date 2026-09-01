@@ -370,7 +370,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
     const fnLabel = (K2_FUNCTIONS.find((f) => f.key === pairCell?.function?.primary) || {}).label || '';
     const verdict = pairCell?.cta_verdict || '';
     if (r.isCore) {
-      return { r, verb: 'core', tint: 't-core', eq: `${r.name} is your Core`, fnLabel, verdict };
+      return { r, verb: 'core', tint: 't-core', fnLabel, verdict };
     }
     const core = m.core.el;
     const edge = FEEDS[r.el] === core ? { a: r.el, b: core, verb: 'feeds' }
@@ -379,12 +379,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
       : { a: core, b: r.el, verb: 'tames' };
     return {
       r, ...edge, tint: r.role === 'friction' ? 't-fric' : 't-cat',
-      eq: `${m.byEl[edge.a].name} ${edge.verb} ${m.byEl[edge.b].name}`,
       fnLabel, verdict,
     };
   })() : null;
-  // The card element's highest-ranked seat — the CTA subtext's destination.
-  const dotSeat = dot ? allPositions.filter((p) => p.el === dot.r.el).sort(bySeatRank)[0] || null : null;
 
   // data-ca="dock" removed with the dock retirement (2026-08-19): its stale
   // padv2 padding-bottom:18px override was clipping every screen's tail under
@@ -856,26 +853,25 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   </div>
                 );
               })()}
-              <span className="wd-eq">{dot.eq}</span>
-              {/* definition + verdict (owner formula 2026-09-01): the energy
-                  defined by its §5f function, then the teaser-register verdict
-                  explaining it; the role pill stays the only state signal */}
-              {dot.fnLabel && (
-                <p className="wd-def">{dot.r.name} is your <b>{dot.fnLabel}</b>{' '}
-                  <span className={`role-pill ${dot.r.isCore ? 'core' : dot.r.role === 'friction' ? 'fric' : 'cat'}`}>
-                    {dot.r.isCore ? <Disc /> : dot.r.role === 'friction' ? <Use id="ar-down" /> : <Use id="ar-up" />}
-                    {dot.r.isCore ? 'Core' : dot.r.role === 'friction' ? 'Friction' : 'Catalyst'}
-                  </span>
-                </p>
-              )}
+              {/* the role pill sits where the eq caption was (owner cleanup
+                  2026-09-01: the graphic already explains the relation) */}
+              <div className="wd-rolerow">
+                <span className={`role-pill ${dot.r.isCore ? 'core' : dot.r.role === 'friction' ? 'fric' : 'cat'}`}>
+                  {dot.r.isCore ? <Disc /> : dot.r.role === 'friction' ? <Use id="ar-down" /> : <Use id="ar-up" />}
+                  {dot.r.isCore ? 'Core' : dot.r.role === 'friction' ? 'Friction' : 'Catalyst'}
+                </span>
+              </div>
+              {/* definition + verdict (owner formula 2026-09-01) */}
+              {dot.fnLabel && <p className="wd-def">{dot.r.name} is your <b>{dot.fnLabel}</b></p>}
               {dot.verdict && <p className="wp-body wd-mean">{dot.verdict}</p>}
               {dot.r.adj?.length ? (
                 <div className="wd-adj">{dot.r.adj.map((a) => <span key={a} className={`wd-adjchip${(dot.r.role === 'friction' || dot.r.coreExcess) ? ' down' : ''}`}>{a}</span>)}</div>
               ) : null}
-              <button className="wp-codex" onClick={() => { setDotOpen(null); goElement(dot.r.el); }}>
-                <span className="wp-cx-ic"><Use id={`el-${dot.r.el}`} /></span>
-                <span className="wp-cx-tx"><b>Open the full {dot.r.name} reading</b><small>{dotSeat ? `starts at ${dotSeat.term}` : dot.verb === 'core' ? 'the energy that is you' : `your ${dot.r.relation}, read in full`}</small></span>
-                <span className="wp-cx-go"><Use id="ico-arrow-r" /></span>
+              {/* arrow-only entry (owner cleanup 2026-09-01: the readcirc
+                  language — consistent with every other reading-page entry) */}
+              <button className="wp-codex" aria-label={`Open the full ${dot.r.name} reading`}
+                onClick={() => { setDotOpen(null); goElement(dot.r.el); }}>
+                <Use id="ico-arrow-r" />
               </button>
             </div>
           </div>
