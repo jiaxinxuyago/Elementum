@@ -2819,7 +2819,7 @@
 /* 3 · ruling domains: per-god sub-blocks */
 .jny .el-godblock{ margin-top: 11px; padding-top: 10px; border-top: 1px dotted rgba(139,115,85,0.26); }
 .jny .el-godhead{ margin: 0 0 6px; font-size: 14px; }
-.jny .el-godshare{ display: block; font-family: Georgia, serif; font-style: italic; font-size: 11.5px; color: #8a8278; margin-top: 1px; }
+.jny .el-godshare{ display: block; font-family: 'EB Garamond', Georgia, serif; font-size: 11.5px; color: #8a8278; margin-top: 1px; }
 /* teaser index (curation pass, owner 2026-08-19): claim title + derived
    verdict + visual per section card; the whole card is the tap target */
 .jny .el-tease{ display: block; width: 100%; text-align: left; cursor: pointer; position: relative;
@@ -2833,7 +2833,7 @@
 .jny .el-teasegod{ display: block; margin-top: 9px; }
 .jny .el-teasegod + .el-teasegod{ padding-top: 9px; border-top: 1px dotted rgba(139,115,85,0.22); }
 .jny .el-teasegodhead{ display: block; font-family: 'EB Garamond', Georgia, serif; font-size: 14px; margin-bottom: 2px; }
-.jny .el-teasegoddef{ display: block; font-family: Georgia, serif; font-style: italic; font-size: 12.5px; color: #6f6759; margin: 0 0 6px; }
+.jny .el-teasegoddef{ display: block; font-family: 'EB Garamond', Georgia, serif; font-size: 12.5px; color: #6f6759; margin: 0 0 6px; }
 .jny .el-tease .el-adj{ display: flex; flex-wrap: wrap; gap: 5px; }
 .jny .el-tease .el-mechviz{ pointer-events: none; }
 /* the domains card's NAMED POSITION rows (curation v7): term (no 汉字 on
@@ -2849,7 +2849,29 @@
    TG_PATTERN analysis woven invisibly · people · turn · shadow · body) */
 .jny .elpos-domread{ margin: 8px 0 0; font-family: 'EB Garamond', Georgia, serif;
     font-size: 13px; line-height: 1.55; color: var(--inkDeep, #2b2722); }
-.jny .elpos-turn{ font-style: italic; color: #5d564a; }
+.jny .elpos-turn{ color: #5d564a; }
+
+/* ── the distillation ladder (DES_04 §AM.11, owner 2026-08-19) ── */
+/* rung ① — the catalogue takeaway strip: two derived deep-linked lines */
+.jny .jtakeaway{ margin: 10px 16px 0; padding: 10px 12px 11px; border-radius: 14px;
+    background: rgba(244,237,222,0.55); border: 1px solid rgba(205,190,158,0.4); }
+.jny .jtakeaway .sec-eyebrow{ display: block; margin-bottom: 6px; }
+.jny .jtake-line{ display: flex; align-items: flex-start; gap: 8px; width: 100%; text-align: left;
+    background: none; border: none; padding: 5px 0; cursor: pointer; font: inherit; color: inherit; }
+.jny .jtake-el{ width: 15px; height: 15px; flex: none; margin-top: 2px; color: var(--bronzeDark); }
+.jny .jtake-t{ flex: 1; font-family: 'EB Garamond', Georgia, serif; font-size: 13.5px; line-height: 1.45; color: var(--inkDeep, #2b2722); }
+.jny .jtake-chev{ width: 13px; height: 13px; flex: none; margin-top: 3px; color: #a89c86; }
+/* rung ② — the dot card's deep-seat hint */
+.jny .wp-dotcard .wd-seat{ margin: 7px 0 0; font-family: 'EB Garamond', Georgia, serif; font-size: 12.5px; line-height: 1.5; color: var(--inkDeep, #2b2722); }
+.jny .wp-dotcard .wd-seat b{ font-weight: 600; }
+/* rungs ④–⑥ — seat ordering mark + the deeper-layers expander */
+.jny .elpos-start{ font-style: normal; font-family: 'Cinzel', Georgia, serif; font-size: 8.5px; letter-spacing: 1.2px;
+    text-transform: uppercase; color: var(--bronzeDark); background: rgba(160,138,100,0.14);
+    border: 1px solid rgba(160,138,100,0.4); border-radius: 999px; padding: 1px 7px; margin-left: 7px; vertical-align: 2px; }
+.jny .elpos-deeper{ display: inline-flex; align-items: center; gap: 5px; margin-top: 9px; cursor: pointer;
+    font-family: 'Cinzel', Georgia, serif; font-size: 10px; letter-spacing: 1.3px; text-transform: uppercase;
+    color: var(--bronzeDark); background: none; border: none; border-bottom: 1px dotted rgba(160,138,100,0.6); padding: 0 0 2px; }
+.jny .elpos-deeper svg{ width: 11px; height: 11px; }
 .jny .el-domchip{ font-size: 11px; letter-spacing: 0.6px; padding: 3px 10px; border-radius: 999px;
     background: rgba(248,244,236,0.9); border: 1px solid rgba(160,138,100,0.4); color: var(--bronzeDark); }
 .jny .el-domlock{ color: #8a8278; font-size: 12px; }

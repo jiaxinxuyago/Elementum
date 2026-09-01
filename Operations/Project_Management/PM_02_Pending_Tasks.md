@@ -83,6 +83,8 @@ Therapist/psychic register: analytical personality truth + ONE tendency-framed p
 ### POS-D-B · ✅ COMPLETE (owner lock 2026-08-19): anatomy corpus ×70 (522 batched units; turns = unlabeled tone-modifiers on the domain block per owner re-ruling; domains = declared-only, guard-validated; health lines god×palace-based after the chart-invariance accuracy fix); registry ×11 locked; sweep 16/16. **POS-D CLOSED.**
 ### POS-D-C · Later: canon expansion (财坏印 · 财滋杀) · the Codex patterns/domains/gates chapter (where the pattern names + classical translations finally teach)
 
+### LADDER · The distillation ladder — ✅ WIRED (owner rulings ×3, 2026-08-19): documented FIRST (DES_04 §AM.11 + REA_02 §5e ranking law + REA_03 row) then built — catalogue takeaway strip (pattern + deep seat, deep-linked w/ seat pre-open), dot-card deep-seat hint, two-stage seat disclosure, rank-ordered seats w/ START HERE. Zero new content (all derived). Italic law enforced on my 3 additions; prototype italics = defect chip
+
 ## OWNER — review & decisions (no deadline)
 
 | ID | Task |

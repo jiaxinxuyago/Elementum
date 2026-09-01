@@ -3272,10 +3272,25 @@ Italic was reserved for **two contexts only** (v2, now revoked):
 
 If neither, set the text upright.
 
+### §AM.11 — The reading distillation ladder (cognitive-load law for the reading journey; owner rulings 2026-08-19)
+
+> **[OWNER RULING 2026-08-19.]** The reading journey ramps cognitive load in six even rungs, and **every level displays a DERIVED distillation of the level below** — takeaways bubble up as one-liners while depth stays put. Nothing is condensed; everything gets an advance scout.
+
+**The ladder:** ① catalogue takeaway → ② dot-card hook → ③ element-page teaser → ④ seat map → ⑤ seat core reading → ⑥ full anatomy. Each rung adds one concept and never repeats the previous rung's text verbatim (each line is a *different* derivation: pattern line, seat teaser, section teaser, term row, summary, anatomy).
+
+**The surfaces (all derived from locked corpus — no new content authored for this law):**
+1. **Catalogue · "WHAT YOUR CHART SAYS FIRST" strip** (beat 1, under the identity diagnosis): exactly TWO tappable lines — (a) the chart's top triggered ten-god pattern (fused tier outranks; text = the pattern reading's first sentence), (b) the chart's deep seat (top of the significance ranking; text = the seat teaser's first sentence). **Both DEEP-LINK** into the owning element's Domains detail with the target seat's accordion pre-opened.
+2. **Dot card · deep-seat hint**: one line per element — its highest-ranked seat's term + teaser opening (non-tappable; the card's CTA is the link).
+3. **Two-stage seat disclosure** (Seeker): a seat opens to Stage A = summary reading + domain paragraphs (with woven pattern + tone turn); "The deeper layers" expander reveals Stage B = life chapter, the people, the shadow, the body.
+4. **Seat ordering**: the Domains detail and teaser rows list seats by the significance ranking (below), with a small START HERE mark on the element's top seat when it holds more than one.
+
+**The seat significance ranking (locked vocabulary, REA_02 §5e):** 月支 > 月干 > 日支 > 时支 > 时干 > 年支 > 年干 (branch outranks stem within a gate, extending the owner's 月支>月干 precedent through the unspecified tail).
+
 ### Version history
 
 | Version | Date | Changes |
 |---|---|---|
 | §AMENDMENT initial | 2026-05-05 | Consolidated v3 + amendment drift items into 9 patches. Added IA reframe, motion spec, cardstock-active + elevated surface variants, reading-section icon family. |
 | §AM.10 added | 2026-05-06 | Italic usage v2 — restricted from 5 contexts to 2 (sub-headline + microcopy). Annotated §3.5.E as superseded. Cascaded patches into amendment HTML + 2 shared components. |
+| §AM.11 added | 2026-08-19 | The reading distillation ladder — six-rung cognitive-load law, catalogue takeaway strip (×2 deep-linked lines), dot-card deep-seat hint, two-stage seat disclosure, seat significance ranking. Also: 3 live italic rules stripped from journey.css per §AM.10 v3 (the transplanted prototype stylesheet still carries ~7 more live italics — defect chip filed). |
 

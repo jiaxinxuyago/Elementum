@@ -26,6 +26,7 @@ import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
 import { APP_URL } from '../../infra/index.js';
 import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_LINE } from './journeyData.js';
 import { resolvePositions } from '../reading/positionsResolve.js';
+import { SLOT_RANK } from '../../content/positions.js';
 import { FEEDS, TAMES, CYCLE_LINE } from '../../content/cycles.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
@@ -66,6 +67,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const [dotOpen, setDotOpen] = useState(null);    // wheel-dot float — the element's relation with the core
   const [posOpen, setPosOpen] = useState(null);    // element-page position accordion (position id)
   const [elSec, setElSec] = useState(null);        // element section detail ('mech' | 'fn' | 'dom')
+  const [deepOpen, setDeepOpen] = useState(false); // seat Stage B ("the deeper layers") — resets per seat
   const [folioOpen, setFolioOpen] = useState(false);
 
   const model = useMemo(() => {
@@ -342,7 +344,20 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
     </div>
   ) : null;
   // The element's seats (REA_02 §5e echo): the positions this energy holds.
-  const elPositions = elScreen ? resolvePositions(chart, hourUnknown).filter((p) => p.el === elScreen.el) : [];
+  // Chart-level positions once (the distillation ladder, DES_04 §AM.11):
+  // the catalogue takeaway strip + dot-card hints derive from the same
+  // resolution the element pages use; element seats sort by SLOT_RANK.
+  const allPositions = m ? resolvePositions(chart, hourUnknown) : [];
+  const bySeatRank = (a, b) => (SLOT_RANK[a.slot] || 9) - (SLOT_RANK[b.slot] || 9);
+  const firstSent = (s) => { const i = s.indexOf('.'); return i >= 0 ? s.slice(0, i + 1) : s; };
+  // The chart's two takeaways: the top triggered pattern (fused outranks)
+  // and the deep seat (SLOT_RANK top) — both deep-linked into the owning
+  // element's Domains detail with the seat pre-opened.
+  const patternSeat = [...allPositions].filter((p) => p.pattern).sort((a, b) =>
+    (b.pattern.fusedLine ? 1 : 0) - (a.pattern.fusedLine ? 1 : 0) || bySeatRank(a, b))[0] || null;
+  const deepSeat = [...allPositions].sort(bySeatRank)[0] || null;
+  const goSeatDeep = (p) => { setElOpen(p.el); setElSec('dom'); setPosOpen(p.id); setDeepOpen(false); goScreen('elsec'); };
+  const elPositions = elScreen ? allPositions.filter((p) => p.el === elScreen.el).sort(bySeatRank) : [];
   // Curation v7 (owner 2026-08-19): each named position carries its OWN
   // teaser row — term (no 汉字 on the card) + 1–2 domain chips + the
   // authored position teaser (therapist-psychic register, REA_04 §9.4;
@@ -471,6 +486,30 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     </div>
                   </div>
                   </div>
+                  {/* the catalogue takeaway strip (DES_04 §AM.11, owner
+                      2026-08-19): TWO derived lines — the top triggered
+                      pattern + the chart's deep seat — each deep-linking
+                      into the owning element's Domains detail with the
+                      seat pre-opened. Rung ① of the distillation ladder. */}
+                  {(patternSeat || deepSeat) && (
+                    <div className="jtakeaway">
+                      <span className="sec-eyebrow">WHAT YOUR CHART SAYS FIRST</span>
+                      {patternSeat && (
+                        <button className="jtake-line" onClick={() => goSeatDeep(patternSeat)}>
+                          <Use id={`el-${patternSeat.el}`} className="jtake-el" />
+                          <span className="jtake-t">{firstSent(patternSeat.pattern.reading)}</span>
+                          <Use id="ico-chev-r" className="jtake-chev" />
+                        </button>
+                      )}
+                      {deepSeat && (
+                        <button className="jtake-line" onClick={() => goSeatDeep(deepSeat)}>
+                          <Use id={`el-${deepSeat.el}`} className="jtake-el" />
+                          <span className="jtake-t">{firstSent(deepSeat.teaser || deepSeat.defline)}</span>
+                          <Use id="ico-chev-r" className="jtake-chev" />
+                        </button>
+                      )}
+                    </div>
+                  )}
                   <button className="jbridge" onClick={() => swTo(stageRef.current?.querySelector('.beat[data-beat="2"]'), 56)}><span>What does your energy look like?</span><Use id="ar-down" /></button>
                 </div>
 
@@ -671,11 +710,11 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     {elPositions.length ? (
                       <div className="elpos">
                         <span className="elpos-lead">{elPositions.length === 1 ? 'Its seat in your pillars:' : 'Its seats in your pillars:'}</span>
-                        {elPositions.map((p) => (
+                        {elPositions.map((p, pi) => (
                           <div className={`elpos-row acc${posOpen === p.id ? ' open' : ''}`} key={p.id}>
-                            <button className="elpos-head" aria-expanded={posOpen === p.id} onClick={() => setPosOpen((v) => (v === p.id ? null : p.id))}>
+                            <button className="elpos-head" aria-expanded={posOpen === p.id} onClick={() => { setDeepOpen(false); setPosOpen((v) => (v === p.id ? null : p.id)); }}>
                               <span className="elpos-slot">{p.slotZh}</span>
-                              <span className="elpos-term">{p.term}<span className="elpos-zh">{p.termZh}</span></span>
+                              <span className="elpos-term">{p.term}{pi === 0 && elPositions.length > 1 && <i className="elpos-start">start here</i>}<span className="elpos-zh">{p.termZh}</span></span>
                               <Use id="ico-chev-r" className="elpos-chev" />
                             </button>
                             {posOpen === p.id && (
@@ -697,32 +736,41 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                                     : null;
                                   const turn = elScreen.dx?.condition === 'Overfueled' ? p.turnFriction
                                     : elScreen.dx?.condition === 'Underfueled' ? p.turnCatalyst : null;
+                                  {/* two-stage disclosure (DES_04 §AM.11,
+                                      rungs ⑤/⑥): Stage A = summary + domain
+                                      ¶s (pattern woven, turn as tone
+                                      modifier); "the deeper layers" reveals
+                                      Stage B = chapter · people · shadow ·
+                                      body. */}
                                   return (
                                     <>
                                       <p className="elpos-reading">{p.reading}</p>
-                                      {p.lifeChapter && (
-                                        <p className="elpos-domread"><b className="el-funclab">{p.chapter}.</b> {p.lifeChapter}</p>
-                                      )}
                                       {p.domainReadings && Object.entries(p.domainReadings).map(([d, txt]) => (
                                         <p className="elpos-domread" key={d}><b className="el-funclab">{d}.</b> {txt}{weaveDomain === d ? ` ${patText}` : ''}</p>
                                       ))}
                                       {patText && !weaveDomain && (
                                         <p className="elpos-domread">{patText}</p>
                                       )}
-                                      {/* the state turn = a TONE MODIFIER on the
-                                          domain block above (owner 2026-08-19),
-                                          not a section: unlabeled continuation */}
                                       {turn && (
                                         <p className="elpos-domread elpos-turn">{turn}</p>
                                       )}
-                                      {p.relations && (
-                                        <p className="elpos-domread"><b className="el-funclab">The people.</b> {p.relations}</p>
-                                      )}
-                                      {p.shadowLine && (
-                                        <p className="elpos-domread"><b className="el-funclab">The shadow.</b> {p.shadowLine}</p>
-                                      )}
-                                      {p.healthLine && (
-                                        <p className="elpos-domread"><b className="el-funclab">The body.</b> {p.healthLine}</p>
+                                      {!deepOpen ? (
+                                        <button className="elpos-deeper" onClick={() => setDeepOpen(true)}>The deeper layers <Use id="ico-chev-r" /></button>
+                                      ) : (
+                                        <>
+                                          {p.lifeChapter && (
+                                            <p className="elpos-domread"><b className="el-funclab">{p.chapter}.</b> {p.lifeChapter}</p>
+                                          )}
+                                          {p.relations && (
+                                            <p className="elpos-domread"><b className="el-funclab">The people.</b> {p.relations}</p>
+                                          )}
+                                          {p.shadowLine && (
+                                            <p className="elpos-domread"><b className="el-funclab">The shadow.</b> {p.shadowLine}</p>
+                                          )}
+                                          {p.healthLine && (
+                                            <p className="elpos-domread"><b className="el-funclab">The body.</b> {p.healthLine}</p>
+                                          )}
+                                        </>
                                       )}
                                     </>
                                   );
@@ -811,6 +859,14 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
               <span className="wd-eq">{dot.eq}</span>
               <p className="wp-body">{dot.body}</p>
               <p className="wd-fam">{FAMILY_LINE[dot.r.family]}</p>
+              {/* rung ② — the element's deep seat as a one-line hint
+                  (DES_04 §AM.11); the CTA below is the link */}
+              {(() => {
+                const ds = allPositions.filter((p) => p.el === dot.r.el).sort(bySeatRank)[0];
+                return ds ? (
+                  <p className="wd-seat"><b>{ds.term}.</b> {firstSent(ds.teaser || ds.defline)}</p>
+                ) : null;
+              })()}
               <p className="wd-dx">Your {dot.r.name} is <b className="cond">{dot.r.dx.condition}</b>{dot.r.dx.remedy ? <> — <b className="appr">{dot.r.dx.remedy}</b> it.</> : <> — {m.foldVerdict}</>}</p>
               {dot.r.adj?.length ? (
                 <div className="wd-adj">{dot.r.adj.map((a) => <span key={a} className={`wd-adjchip${(dot.r.role === 'friction' || dot.r.coreExcess) ? ' down' : ''}`}>{a}</span>)}</div>

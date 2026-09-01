@@ -20,6 +20,15 @@ export const CHAPTERS = {
   day: 'The Home Chapter', hour: 'The Late Chapter',
 };
 
+// The seat significance ranking (REA_02 §5e, LOCKED, owner 2026-08-19):
+// 月支 > 月干 > 日支 > 时支 > 时干 > 年支 > 年干 — lower = deeper. Drives
+// the distillation ladder (DES_04 §AM.11): the catalogue's deep-seat
+// takeaway, the dot card's hint, and seat ordering in the Domains detail.
+export const SLOT_RANK = {
+  month_branch: 1, month_stem: 2, day_branch: 3,
+  hour_branch: 4, hour_stem: 5, year_branch: 6, year_stem: 7,
+};
+
 export const DOMAIN_TAXONOMY = ['Wealth', 'Health', 'Career', 'Love', 'Family', 'Social', 'Mind', 'Growth'];
 // (the DOMAIN_DEF one-liners were retired the day they were authored —
 // owner 2026-08-19: domain rows tag their source gate instead; the wording
