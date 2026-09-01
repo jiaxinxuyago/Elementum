@@ -28,6 +28,8 @@ import { buildJourneyModel, buildElementScreen, buildGlossary } from './journeyD
 import { resolvePositions } from '../reading/positionsResolve.js';
 import { SLOT_RANK } from '../../content/positions.js';
 import { FEEDS, TAMES } from '../../content/cycles.js';
+import { PAIR_CELLS } from '../../content/pairs.js';
+import { K2_FUNCTIONS } from '../../content/k2.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
 
@@ -361,8 +363,13 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const dot = dotOpen ? (() => {
     const r = m.byEl[dotOpen];
     if (!r) return null;
+    // The verdict line carries the seat's §5f function noun (owner 2026-09-01:
+    // "surface the function noun on each energy CTA verdict line").
+    const pairFn = PAIR_CELLS[`${m.core.hz}_${r.hz}`]?.function;
+    const fnLabel = (K2_FUNCTIONS.find((f) => f.key === pairFn?.primary) || {}).label || '';
+    const fnClause = fnLabel ? ` It runs your ${fnLabel}.` : '';
     if (r.isCore) {
-      return { r, verb: 'core', tint: 't-core', eq: `${r.name} is your Core`, body: firstSent(glossary.core.body) };
+      return { r, verb: 'core', tint: 't-core', eq: `${r.name} is your Core`, body: `${firstSent(glossary.core.body)}${fnClause}` };
     }
     const core = m.core.el;
     const edge = FEEDS[r.el] === core ? { a: r.el, b: core, verb: 'feeds' }
@@ -372,7 +379,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
     return {
       r, ...edge, tint: r.role === 'friction' ? 't-fric' : 't-cat',
       eq: `${m.byEl[edge.a].name} ${edge.verb} ${m.byEl[edge.b].name}`,
-      body: `That is why ${r.name} is your ${r.relation}.`,
+      body: `That is why ${r.name} is your ${r.relation}.${fnClause}`,
     };
   })() : null;
   // The card element's highest-ranked seat — the CTA subtext's destination.
