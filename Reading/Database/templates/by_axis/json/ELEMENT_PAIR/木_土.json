@@ -19,8 +19,11 @@
       "primary": "action",
       "body": "The Drive is your action function: what you go get, build, and hold. With Earth running it, action in you is territorial and patient: you advance by rooting, compounding, refusing to be moved. What you claim you keep, and what you keep appreciates. Choose ground worth decades, because your way of holding makes leaving expensive.",
       "dips": {
-        "bonds": "You provide like ground provides: quietly, constantly, and without invoices."
+        "order": "What you provide becomes order: the ground you tend sets where every path across it runs."
       }
     }
+  },
+  "__ore": {
+    "retired_bonds_dip": "You provide like ground provides: quietly, constantly, and without invoices."
   }
 }

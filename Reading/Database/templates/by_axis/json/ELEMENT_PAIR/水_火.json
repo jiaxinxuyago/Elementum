@@ -19,8 +19,11 @@
       "primary": "action",
       "body": "The Drive is your action function: what you go get, build, and hold. With Fire running it, action in you is climate control over bright things: you move on opportunity coolly, price urgency without feeling it, and win by staying liquid while everyone else overheats. Claim the flashy asset calmly. Your calm is the negotiating position.",
       "dips": {
-        "bonds": "You provide by steadying: the heated people you cool become yours for life."
+        "order": "What you fuel becomes rank: kept flames turn into the hearth a whole house is ruled by."
       }
     }
+  },
+  "__ore": {
+    "retired_bonds_dip": "You provide by steadying: the heated people you cool become yours for life."
   }
 }

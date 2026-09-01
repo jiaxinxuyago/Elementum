@@ -19,8 +19,11 @@
       "primary": "action",
       "body": "The Drive is your action function: what you go get, build, and hold. With Wood running it, action in you wants living material: ventures that grow, skills that branch, assets with rings in them. You claim by shaping rather than seizing, and what you prune well becomes durable and yours. Aim the edge at growth worth decades, not stems worth days.",
       "dips": {
-        "bonds": "Providing is your quiet love language: the pruned garden speaks for you."
+        "order": "What you grow becomes structure: the timber you raise ends up framing the rules you live in."
       }
     }
+  },
+  "__ore": {
+    "retired_bonds_dip": "Providing is your quiet love language: the pruned garden speaks for you."
   }
 }

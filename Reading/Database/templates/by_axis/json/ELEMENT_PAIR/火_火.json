@@ -16,9 +16,10 @@
       "friction_turn": "Run heavy, the Core turns Bubble: so much light nothing else is visible, warmth that outshines the people it warms. Dim deliberately sometimes. Stars are seen at night."
     },
     "function": {
-      "primary": "mind",
-      "body": "The Core is your judgment function: the seat where conviction is lit and carried. With Fire doubled here, your mind thinks in illumination: it decides by what suddenly makes sense, whole pictures catching at once. Your certainty is warm and contagious, which is power and responsibility in one. Check the flash against daylight before you rally anyone to it.",
+      "primary": "body",
+      "body": "The Core is your endurance function: the seat your strength burns from. With Fire doubled here, your vitality runs on ignition rather than storage: enormous surges, thin reserves, brilliance that outworks anyone for a week and nobody for a season. Bank the coals on purpose. Fuel, sleep, and rhythm are the fire itself, so tend them the way you tend the blaze.",
       "dips": {
+        "mind": "You decide by illumination, whole pictures catching at once. Check the flash against daylight.",
         "action": "Conviction moves you instantly: the moment you see it, you are already lit."
       }
     }

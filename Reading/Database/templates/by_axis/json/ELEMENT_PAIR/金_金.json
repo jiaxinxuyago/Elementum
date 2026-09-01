@@ -16,9 +16,10 @@
       "friction_turn": "Run heavy, the Core turns Bubble: so much edge that nothing else gets in, certainty sealed against weather. Honor the standard, and let one trusted voice past it."
     },
     "function": {
-      "primary": "mind",
-      "body": "The Core is your judgment function: the seat where positions are taken and kept. With Metal doubled here, your mind works like an assay office: claims weighed, conclusions struck once and held. You think in standards, and your certainty is load-bearing for the people around you. The craft is re-testing your own conclusions on schedule: even a true edge needs truing.",
+      "primary": "body",
+      "body": "The Core is your endurance function: the seat where strength is stored and spent. With Metal doubled here, your constitution is tempered steel: slow to tire, slower to bend, holding shape under loads that fold softer frames. Your reserves run deep and cold, and you mistake that for endlessness. The craft is maintenance without occasion: oil the blade before it asks, and let rest keep your temper.",
       "dips": {
+        "mind": "Your judgment holds like your frame does: conclusions struck once and kept, worth re-testing on a schedule.",
         "action": "Decisions become motion fast in you: once judged, a thing is already being done."
       }
     }

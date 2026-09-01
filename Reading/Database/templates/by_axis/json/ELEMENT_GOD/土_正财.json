@@ -16,7 +16,7 @@
     "k2_functional": {
       "mind": "You think in inventory and upkeep: what is held, what it needs, what it is for.",
       "expression": "You commit in cornerstones: few words, permanent.",
-      "bonds": "You hold people with land-deep loyalty: slow to accept, never letting go.",
+      "order": "Your order is masonry: rule on rule, checked level, built to hold other people’s weight.",
       "action": "You maintain relentlessly: the fixed fence, the paid tax, the kept schedule.",
       "body": "Your health is a homestead: solid while kept up, creaky when routine slips."
     },

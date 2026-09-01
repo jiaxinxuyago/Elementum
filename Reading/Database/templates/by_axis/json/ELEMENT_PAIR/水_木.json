@@ -19,9 +19,11 @@
       "primary": "expression",
       "body": "The Voice is your expression function: the gate where inner depth becomes outer growth. With Wood running it, expression in you cultivates: you speak in seeds, questions, and quiet suggestions that turn out to be load-bearing a year later. Your influence is climate more than announcement. Claim some of the harvest aloud. Forests forget which rain raised them.",
       "dips": {
-        "mind": "Explaining a thing plants it deeper in you: taught knowledge roots twice.",
-        "bonds": "People grow near you and cannot always say why: that is your rain at work."
+        "mind": "Explaining a thing plants it deeper in you: taught knowledge roots twice."
       }
     }
+  },
+  "__ore": {
+    "retired_bonds_dip": "People grow near you and cannot always say why: that is your rain at work."
   }
 }

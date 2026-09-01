@@ -16,9 +16,10 @@
       "friction_turn": "Run heavy, the Core turns Bubble: depth sealed under a still surface, so much knowing that nothing surfaces to be checked. Say the read aloud. Deep water still needs shores."
     },
     "function": {
-      "primary": "mind",
-      "body": "The Core is your judgment function: the seat where perception becomes position. With Water doubled here, your mind reads before it reasons: currents, motives, the shape of the unsaid, all sensed whole and early. Your conclusions arrive as certainties with the working hidden. Surface the working sometimes. A shown depth is trusted further than a felt one.",
+      "primary": "body",
+      "body": "The Core is your endurance function: the seat your strength refills from. With Water doubled here, your vitality is a deep table: quiet reserves that recharge from below, stamina that flows around obstacles rather than breaking on them. You recover in solitude and silence the way aquifers do. Guard the recharge fiercely. A drawn-down well still looks like a well from above.",
       "dips": {
+        "mind": "You read before you reason: currents and motives sensed whole. Surface the working sometimes.",
         "action": "You move when the tide is right and not before: timing is your entire style of force."
       }
     }

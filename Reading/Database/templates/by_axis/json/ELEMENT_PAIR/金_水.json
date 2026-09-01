@@ -19,9 +19,11 @@
       "primary": "expression",
       "body": "The Voice is your expression function: the gate where inner work becomes outer fact. With Water running it, expression in you flows rather than strikes. You persuade by permeating, the right word finding its level the way water finds a floor. When your Voice is fed, thought leaves you easily and lands soft. When it is dammed, you feel it as pressure at the throat and the hands.",
       "dips": {
-        "mind": "Speaking is how your thinking finishes: an idea is not done until it has been said.",
-        "bonds": "People read your care through what you make for them, more than what you declare."
+        "mind": "Speaking is how your thinking finishes: an idea is not done until it has been said."
       }
     }
+  },
+  "__ore": {
+    "retired_bonds_dip": "People read your care through what you make for them, more than what you declare."
   }
 }

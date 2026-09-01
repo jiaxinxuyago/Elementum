@@ -19,9 +19,11 @@
       "primary": "expression",
       "body": "The Voice is your expression function: the gate where inner ground becomes outer fact. With Metal running it, expression in you is smelted: few words, long formed, hard to argue with. You express by finishing, and your outputs carry an heirloom weight that louder voices never manage. Let things out before they are perfect. Ore refines in the open too.",
       "dips": {
-        "mind": "Writing sharpens your slow thinking: the sentence is where your ground finds its edge.",
-        "bonds": "People keep what you make: your rare words get quoted back years later."
+        "mind": "Writing sharpens your slow thinking: the sentence is where your ground finds its edge."
       }
     }
+  },
+  "__ore": {
+    "retired_bonds_dip": "People keep what you make: your rare words get quoted back years later."
   }
 }

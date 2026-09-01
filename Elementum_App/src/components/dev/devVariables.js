@@ -92,7 +92,7 @@ export function buildVariableGroups(model, activeEl, chart) {
       surface: 'Element screens (the restructured ladder: mechanism → function → domains)',
       vars: [
         { name: 'mechanism (base + role-resolved turn — section 1, EP restructure 2026-08-19)', axis: 'ELEMENT_PAIR×25', arch: focus ? `pair · DM×${focus.el}` : 'DM × each', status: 'LOCKED ×25', value: 'base 45–75w (§5d equation + image line + seat) · catalyst/friction turns ≤35w' },
-        { name: 'function (primary + body + dips — section 2, §5f seat map)', axis: 'ELEMENT_PAIR×25', arch: focus ? `pair · DM×${focus.el}` : 'DM × each', status: 'LOCKED ×25', value: 'Core→Mind · Root→Mind (re-ruled 2026-08-19) · Voice→Expression · Drive→Action · Duty→Bonds' },
+        { name: 'function (primary + body + dips — section 2, §5f seat map)', axis: 'ELEMENT_PAIR×25', arch: focus ? `pair · DM×${focus.el}` : 'DM × each', status: 'LOCKED ×25', value: 'Core→Body · Root→Mind · Voice→Expression · Drive→Action · Duty→Order (bijection re-ruled 2026-09-01)' },
         { name: 'self_card (face+presence — CORE element only, band mirror; BAND-C 2026-08-14)', axis: 'STEM·BAND×30', arch: bandArch, status: 'LIVE', value: join([selfCard?.face, selfCard?.presence]) || null },
         { name: 'persona_name (V — Ruling Domains god sub-blocks)', axis: 'GOD×10', arch: focus ? focusGodArch : godsArch, status: 'LIVE', value: focus ? TG_PERSONA[focus.god] : perEl((r) => TG_PERSONA[r.god]) },
         { name: 'face_kw', axis: 'GOD×10', arch: focusGodArch, status: 'LIVE', value: focusGod ? (FACE_CARD[focusGod]?.kw || []).join(' · ') : null },

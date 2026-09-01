@@ -19,9 +19,11 @@
       "primary": "expression",
       "body": "The Voice is your expression function: the gate where inner heat becomes outer fact. With Earth running it, expression in you builds rather than dazzles: lessons, systems, homes, traditions warm to the touch. You speak in things that outlast the saying. Feed it steadily and your warmth becomes infrastructure, the kind of expression people live inside for years.",
       "dips": {
-        "mind": "Teaching is how your thinking settles: explain it once and you own it.",
-        "bonds": "People inhabit what you express: your warmth reaches them as belonging."
+        "mind": "Teaching is how your thinking settles: explain it once and you own it."
       }
     }
+  },
+  "__ore": {
+    "retired_bonds_dip": "People inhabit what you express: your warmth reaches them as belonging."
   }
 }

@@ -19,8 +19,11 @@
       "primary": "action",
       "body": "The Drive is your action function: what you go get, build, and hold. With Metal running it, action in you is smithing: you take hard, resistant, valuable material and work it while it is hot. Deals, crafts, reputations, all shaped in heat, all worth more when you set them down. Strike in the window. Your timing is the skill.",
       "dips": {
-        "bonds": "You provide by making: the things you forge carry your warmth into other hands."
+        "order": "What you forge becomes law: the tools you make end up setting the standards around you."
       }
     }
+  },
+  "__ore": {
+    "retired_bonds_dip": "You provide by making: the things you forge carry your warmth into other hands."
   }
 }

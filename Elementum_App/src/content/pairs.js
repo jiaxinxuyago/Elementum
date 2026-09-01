@@ -7,11 +7,13 @@
 //     equation + image line, deriving the §5b seat noun) + catalyst_turn /
 //     friction_turn (role-resolved in the view; friction speaks the §5b-ii
 //     shadow noun). Core self-pairs read as reinforcement.
-//   · function: the seat's §5f primary (Core→mind · Root→body · Voice→
-//     expression · Drive→action · Duty→bonds) as the body + dip lines.
+//   · function: the seat's §5f primary (Core→body · Root→mind · Voice→
+//     expression · Drive→action · Duty→order; bijection re-ruled
+//     2026-09-01) as the body + dip lines.
 // Station truth: by_axis/json/ELEMENT_PAIR/*.json — THIS FILE IS
 // REGENERATED WHOLESALE from the station (REA_05); edit there, never here.
-// Corpus LOCKED ×25 (owner 2026-08-19: 金_水 template approved → batch).
+// Corpus LOCKED ×25 (owner 2026-08-19: 金_水 template approved → batch;
+// §5f function re-ruling applied 2026-09-01).
 // ===================================================================
 
 // Pair cells, keyed `${dmElementHanzi}_${energyElementHanzi}`.
@@ -23,9 +25,10 @@ export const PAIR_CELLS = {
       friction_turn: 'Run heavy, the Core turns Bubble: a canopy so dense no other light gets in, growth for growth’s own sake. Thin the branches and let the forest breathe.',
     },
     function: {
-      primary: 'mind',
-      body: 'The Core is your judgment function: the seat where direction is chosen and held. With Wood doubled here, your mind thinks in growth arcs: where this leads, what it becomes, which branch carries weight in ten years. You judge by trajectory rather than snapshot, and your patience with slow developing things is itself a form of intelligence. Re-check the heading each season.',
+      primary: 'body',
+      body: 'The Core is your endurance function: the seat where strength renews itself. With Wood doubled here, your vitality works like a living tree: it recovers by growing, and it outlasts by renewal, fresh shoots after every cutback. Your reserves are seasonal rather than constant, so honor the winters as part of the engine. A tree that never sheds snaps in the first real storm.',
       dips: {
+        mind: 'You judge by trajectory: where a thing leads in ten years outweighs its snapshot today.',
         action: 'You decide by starting: the sapling planted teaches you whether the plan was right.',
       },
     },
@@ -41,7 +44,6 @@ export const PAIR_CELLS = {
       body: 'The Voice is your expression function: the gate where inner growth becomes outer light. With Fire running it, expression in you performs: it warms, it dazzles, it spreads by catching. You are at your clearest in front of people, mid-flame, thinking aloud. Feed it seasoned material, work that has dried long enough to burn clean, and your reach turns luminous.',
       dips: {
         mind: 'You discover what you think by saying it while it burns.',
-        bonds: 'People gather to your warmth first and your reasons second.',
       },
     },
   },
@@ -55,7 +57,7 @@ export const PAIR_CELLS = {
       primary: 'action',
       body: 'The Drive is your action function: what you go get, build, and hold. With Earth running it, action in you is territorial and patient: you advance by rooting, compounding, refusing to be moved. What you claim you keep, and what you keep appreciates. Choose ground worth decades, because your way of holding makes leaving expensive.',
       dips: {
-        bonds: 'You provide like ground provides: quietly, constantly, and without invoices.',
+        order: 'What you provide becomes order: the ground you tend sets where every path across it runs.',
       },
     },
   },
@@ -66,7 +68,7 @@ export const PAIR_CELLS = {
       friction_turn: 'Run heavy, the Duty turns Weight: cut after cut until growing feels like a fault. Too much knife leaves no tree. Step back from blades that prune for pruning’s sake.',
     },
     function: {
-      primary: 'bonds',
+      primary: 'order',
       body: 'The Duty is your accountability function: how order, obligation, and other people’s standards sit on you. With Metal running it, accountability in you is exact: contracts, deadlines, people who measure. You grow best trellised, and you know it, which is why you keep choosing exacting company. Respect the shears that shape you, and refuse the ones that only wound.',
       dips: {
         action: 'A hard rule concentrates you: given clean constraints, your growth goes vertical.',
@@ -108,9 +110,10 @@ export const PAIR_CELLS = {
       friction_turn: 'Run heavy, the Core turns Bubble: so much light nothing else is visible, warmth that outshines the people it warms. Dim deliberately sometimes. Stars are seen at night.',
     },
     function: {
-      primary: 'mind',
-      body: 'The Core is your judgment function: the seat where conviction is lit and carried. With Fire doubled here, your mind thinks in illumination: it decides by what suddenly makes sense, whole pictures catching at once. Your certainty is warm and contagious, which is power and responsibility in one. Check the flash against daylight before you rally anyone to it.',
+      primary: 'body',
+      body: 'The Core is your endurance function: the seat your strength burns from. With Fire doubled here, your vitality runs on ignition rather than storage: enormous surges, thin reserves, brilliance that outworks anyone for a week and nobody for a season. Bank the coals on purpose. Fuel, sleep, and rhythm are the fire itself, so tend them the way you tend the blaze.',
       dips: {
+        mind: 'You decide by illumination, whole pictures catching at once. Check the flash against daylight.',
         action: 'Conviction moves you instantly: the moment you see it, you are already lit.',
       },
     },
@@ -126,7 +129,6 @@ export const PAIR_CELLS = {
       body: 'The Voice is your expression function: the gate where inner heat becomes outer fact. With Earth running it, expression in you builds rather than dazzles: lessons, systems, homes, traditions warm to the touch. You speak in things that outlast the saying. Feed it steadily and your warmth becomes infrastructure, the kind of expression people live inside for years.',
       dips: {
         mind: 'Teaching is how your thinking settles: explain it once and you own it.',
-        bonds: 'People inhabit what you express: your warmth reaches them as belonging.',
       },
     },
   },
@@ -140,7 +142,7 @@ export const PAIR_CELLS = {
       primary: 'action',
       body: 'The Drive is your action function: what you go get, build, and hold. With Metal running it, action in you is smithing: you take hard, resistant, valuable material and work it while it is hot. Deals, crafts, reputations, all shaped in heat, all worth more when you set them down. Strike in the window. Your timing is the skill.',
       dips: {
-        bonds: 'You provide by making: the things you forge carry your warmth into other hands.',
+        order: 'What you forge becomes law: the tools you make end up setting the standards around you.',
       },
     },
   },
@@ -151,7 +153,7 @@ export const PAIR_CELLS = {
       friction_turn: 'Run heavy, the Duty turns Weight: constant drizzle on every spark, caution soaking the kindling before it catches. Step out of the rain. A doused fire serves no one.',
     },
     function: {
-      primary: 'bonds',
+      primary: 'order',
       body: 'The Duty is your accountability function: how order, obligation, and other people’s depths sit on you. With Water running it, accountability in you arrives quietly: the measured senior, the still question, consequences that seep rather than strike. You answer best to calm authority, and you learn to bank your fire around it. Choose water that cools you without putting you out.',
       dips: {
         action: 'A cool deadline focuses your flame: pressure quiets the flicker and points the heat.',
@@ -165,7 +167,7 @@ export const PAIR_CELLS = {
       friction_turn: 'Run heavy, the Duty turns Weight: roots everywhere, every living thing anchored in your acre, soil exhausted by what it holds. Let a slope go wild. You are ground, not groundskeeper to everyone.',
     },
     function: {
-      primary: 'bonds',
+      primary: 'order',
       body: 'The Duty is your accountability function: how order, obligation, and living claims sit on you. With Wood running it, accountability in you grows: children, teams, gardens of people whose roots are in your ground. You hold rank by being held onto, and the grip that tires you is also what keeps your hillside from sliding. Prune the claims each season, keep the ones that fruit.',
       dips: {
         action: 'A living deadline moves you: you work hardest when something planted depends on it.',
@@ -193,9 +195,10 @@ export const PAIR_CELLS = {
       friction_turn: 'Run heavy, the Core turns Bubble: ground packed so hard nothing new can root, steadiness sealed into immobility. Till the field. Even bedrock is improved by weather.',
     },
     function: {
-      primary: 'mind',
-      body: 'The Core is your judgment function: the seat where positions settle and hold. With Earth doubled here, your mind works like sediment: evidence layered slowly, conclusions compacted until they bear weight. You are nearly impossible to stampede, and your no is worth more than most people’s contracts. Survey your own ground yearly. Even right conclusions shift a little.',
+      primary: 'body',
+      body: 'The Core is your endurance function: the seat your strength rests on. With Earth doubled here, your constitution is bedrock: vast reserves, slow rhythms, an endurance that looks like stillness and outlasts everything that hurries. Depletion in you is geological, so gradual you rarely feel it moving. Weigh yourself honestly each season, and shore the ground before it says you must.',
       dips: {
+        mind: 'Your conclusions compact like sediment until they bear weight, and nobody stampedes you off them.',
         action: 'You act like a season: slow to start, impossible to stop once turned.',
       },
     },
@@ -211,7 +214,6 @@ export const PAIR_CELLS = {
       body: 'The Voice is your expression function: the gate where inner ground becomes outer fact. With Metal running it, expression in you is smelted: few words, long formed, hard to argue with. You express by finishing, and your outputs carry an heirloom weight that louder voices never manage. Let things out before they are perfect. Ore refines in the open too.',
       dips: {
         mind: 'Writing sharpens your slow thinking: the sentence is where your ground finds its edge.',
-        bonds: 'People keep what you make: your rare words get quoted back years later.',
       },
     },
   },
@@ -225,7 +227,7 @@ export const PAIR_CELLS = {
       primary: 'action',
       body: 'The Drive is your action function: what you go get, build, and hold. With Water running it, action in you is hydraulic: you build channels, then let volume do the work. Income streams, standing arrangements, systems that flow while you sleep. You claim by routing rather than grabbing, and what you route well returns forever. Dig the canal once, drink for years.',
       dips: {
-        bonds: 'You hold people by being their banks: steady sides that let their current run.',
+        order: 'The wealth you channel becomes structure: managed current turns into the aqueduct that orders the valley.',
       },
     },
   },
@@ -239,7 +241,7 @@ export const PAIR_CELLS = {
       primary: 'action',
       body: 'The Drive is your action function: what you go get, build, and hold. With Wood running it, action in you wants living material: ventures that grow, skills that branch, assets with rings in them. You claim by shaping rather than seizing, and what you prune well becomes durable and yours. Aim the edge at growth worth decades, not stems worth days.',
       dips: {
-        bonds: 'Providing is your quiet love language: the pruned garden speaks for you.',
+        order: 'What you grow becomes structure: the timber you raise ends up framing the rules you live in.',
       },
     },
   },
@@ -250,7 +252,7 @@ export const PAIR_CELLS = {
       friction_turn: 'Run heavy, the Duty turns Weight: constant forge, no bench time, a blade softening under pressure it never leaves. Step out of the fire long enough to hold an edge.',
     },
     function: {
-      primary: 'bonds',
+      primary: 'order',
       body: 'The Duty is your accountability function: how order, obligation, and other people’s expectations sit on you. With Fire running it, accountability in you is hot and visible: exacting seniors, stakes with deadlines, standards enforced in public. You hold rank by surviving heat gracefully, and people trust steel that has been through the forge. Choose fires that finish you, not ones that just burn.',
       dips: {
         action: 'Under real pressure you act cleaner: crisis burns off your hesitation.',
@@ -278,9 +280,10 @@ export const PAIR_CELLS = {
       friction_turn: 'Run heavy, the Core turns Bubble: so much edge that nothing else gets in, certainty sealed against weather. Honor the standard, and let one trusted voice past it.',
     },
     function: {
-      primary: 'mind',
-      body: 'The Core is your judgment function: the seat where positions are taken and kept. With Metal doubled here, your mind works like an assay office: claims weighed, conclusions struck once and held. You think in standards, and your certainty is load-bearing for the people around you. The craft is re-testing your own conclusions on schedule: even a true edge needs truing.',
+      primary: 'body',
+      body: 'The Core is your endurance function: the seat where strength is stored and spent. With Metal doubled here, your constitution is tempered steel: slow to tire, slower to bend, holding shape under loads that fold softer frames. Your reserves run deep and cold, and you mistake that for endlessness. The craft is maintenance without occasion: oil the blade before it asks, and let rest keep your temper.',
       dips: {
+        mind: 'Your judgment holds like your frame does: conclusions struck once and kept, worth re-testing on a schedule.',
         action: 'Decisions become motion fast in you: once judged, a thing is already being done.',
       },
     },
@@ -296,7 +299,6 @@ export const PAIR_CELLS = {
       body: 'The Voice is your expression function: the gate where inner work becomes outer fact. With Water running it, expression in you flows rather than strikes. You persuade by permeating, the right word finding its level the way water finds a floor. When your Voice is fed, thought leaves you easily and lands soft. When it is dammed, you feel it as pressure at the throat and the hands.',
       dips: {
         mind: 'Speaking is how your thinking finishes: an idea is not done until it has been said.',
-        bonds: 'People read your care through what you make for them, more than what you declare.',
       },
     },
   },
@@ -311,7 +313,6 @@ export const PAIR_CELLS = {
       body: 'The Voice is your expression function: the gate where inner depth becomes outer growth. With Wood running it, expression in you cultivates: you speak in seeds, questions, and quiet suggestions that turn out to be load-bearing a year later. Your influence is climate more than announcement. Claim some of the harvest aloud. Forests forget which rain raised them.',
       dips: {
         mind: 'Explaining a thing plants it deeper in you: taught knowledge roots twice.',
-        bonds: 'People grow near you and cannot always say why: that is your rain at work.',
       },
     },
   },
@@ -325,7 +326,7 @@ export const PAIR_CELLS = {
       primary: 'action',
       body: 'The Drive is your action function: what you go get, build, and hold. With Fire running it, action in you is climate control over bright things: you move on opportunity coolly, price urgency without feeling it, and win by staying liquid while everyone else overheats. Claim the flashy asset calmly. Your calm is the negotiating position.',
       dips: {
-        bonds: 'You provide by steadying: the heated people you cool become yours for life.',
+        order: 'What you fuel becomes rank: kept flames turn into the hearth a whole house is ruled by.',
       },
     },
   },
@@ -336,7 +337,7 @@ export const PAIR_CELLS = {
       friction_turn: 'Run heavy, the Duty turns Weight: banks closing in, current squeezed into a schedule until the water forgets it moves. Widen the channel. Rivers are meant to breathe.',
     },
     function: {
-      primary: 'bonds',
+      primary: 'order',
       body: 'The Duty is your accountability function: how order, obligation, and firm structure sit on you. With Earth running it, accountability in you is banked and patient: steady roles, long commitments, people whose expectations do not move with weather. You resent the walls and run truer inside them, and both facts belong in your planning. Choose banks that point somewhere worth arriving.',
       dips: {
         action: 'Structure converts you to force: the same depth that idles in the open drives turbines in a channel.',
@@ -364,9 +365,10 @@ export const PAIR_CELLS = {
       friction_turn: 'Run heavy, the Core turns Bubble: depth sealed under a still surface, so much knowing that nothing surfaces to be checked. Say the read aloud. Deep water still needs shores.',
     },
     function: {
-      primary: 'mind',
-      body: 'The Core is your judgment function: the seat where perception becomes position. With Water doubled here, your mind reads before it reasons: currents, motives, the shape of the unsaid, all sensed whole and early. Your conclusions arrive as certainties with the working hidden. Surface the working sometimes. A shown depth is trusted further than a felt one.',
+      primary: 'body',
+      body: 'The Core is your endurance function: the seat your strength refills from. With Water doubled here, your vitality is a deep table: quiet reserves that recharge from below, stamina that flows around obstacles rather than breaking on them. You recover in solitude and silence the way aquifers do. Guard the recharge fiercely. A drawn-down well still looks like a well from above.',
       dips: {
+        mind: 'You read before you reason: currents and motives sensed whole. Surface the working sometimes.',
         action: 'You move when the tide is right and not before: timing is your entire style of force.',
       },
     },

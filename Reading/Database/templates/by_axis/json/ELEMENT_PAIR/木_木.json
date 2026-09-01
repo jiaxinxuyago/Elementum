@@ -16,9 +16,10 @@
       "friction_turn": "Run heavy, the Core turns Bubble: a canopy so dense no other light gets in, growth for growth’s own sake. Thin the branches and let the forest breathe."
     },
     "function": {
-      "primary": "mind",
-      "body": "The Core is your judgment function: the seat where direction is chosen and held. With Wood doubled here, your mind thinks in growth arcs: where this leads, what it becomes, which branch carries weight in ten years. You judge by trajectory rather than snapshot, and your patience with slow developing things is itself a form of intelligence. Re-check the heading each season.",
+      "primary": "body",
+      "body": "The Core is your endurance function: the seat where strength renews itself. With Wood doubled here, your vitality works like a living tree: it recovers by growing, and it outlasts by renewal, fresh shoots after every cutback. Your reserves are seasonal rather than constant, so honor the winters as part of the engine. A tree that never sheds snaps in the first real storm.",
       "dips": {
+        "mind": "You judge by trajectory: where a thing leads in ten years outweighs its snapshot today.",
         "action": "You decide by starting: the sapling planted teaches you whether the plan was right."
       }
     }

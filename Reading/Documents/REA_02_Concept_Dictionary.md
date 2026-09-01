@@ -258,17 +258,17 @@ The Nebula principle: a configuration is a NAMED EVENT, and the reading starts f
 
 **Domain definition lines ×8 (authored + RETIRED same day, owner 2026-08-19 — the domain rows tag their source gate instead, "extra unnecessary information"; wording preserved here for a future Codex domains chapter; code + station homes removed):** Wealth "What you earn, own, and grow." · Health "The body's reserves, and what restores them." · Career "Your work, your rank, your public standing." · Love "Partnership, and what two people build." · Family "The people you come from and the ones you raise." · Social "Your circles, your allies, your name among peers." · Mind "How you think, learn, and decide." · Growth "What you are becoming, and the road there."
 
-## 5f · LOCKED — the seat functions (element-page restructure; mapping locked with the ELEMENT_PAIR template, owner 2026-08-19; **Root re-ruled → Mind, owner 2026-08-19**)
+## 5f · LOCKED — the seat functions (element-page restructure; mapping locked with the ELEMENT_PAIR template, owner 2026-08-19; **Root re-ruled → Mind 2026-08-19; Core re-ruled → Body + Duty re-ruled → Order, owner 2026-09-01 — the map is now a BIJECTION**)
 
-The owner's ruling: on the energy page, "How it runs your functions" speaks the SEAT NOUN as a function of the reader's system — energy-level, no god split (the gods live in Ruling Domains). Each seat owns ONE primary function from the five (Mind · Expression · Bonds · Action · Body) and may dip into 1–2 others. **Primaries may repeat — the map is not a bijection (owner amendment 2026-08-19: Root joined Core on Mind; 印星's classical center of gravity is learning/absorption, so the restoration material moved to Root's Body dip).**
+The owner's ruling: on the energy page, "How it runs your functions" speaks the SEAT NOUN as a function of the reader's system — energy-level, no god split (the gods live in Ruling Domains). Each seat owns ONE primary function from the five (**Mind · Expression · Order · Action · Body** — the function set re-ruled 2026-09-01: **Bonds RETIRED from the set**, relationship truth lives in the Love/Family/Social domains and the relations 六亲 layer, never in the function register) and may dip into 1–2 others. **The 2026-09-01 re-ruling restored the bijection: five seats, five functions, each owned once.** Classical grounds — Core→Body: day-master strength IS the 身强/身弱 (body strong/weak) axis, 比劫帮身 = peers prop up the body; 比劫 governs stamina, willpower, and physical footing. Duty→Order: 官杀 is 约束 — pressure, rules, discipline, standing; "Bonds" falsely overlapped the domain register. Drive's natural dip re-keyed to Order per 财生官 (wealth underwrites rank); Voice's retired relational dip lines preserved in the cells' `__ore`.
 
 | Seat (§5b) | Family | **Primary function** | Natural dips | The functional read |
 |---|---|---|---|---|
-| Core | 比劫 self | **Mind** | Action | identity, stance, judgment — the seat of the one deciding |
+| Core | 比劫 self | **Body** | Mind · Action | stamina, will, self-hold — 身 read as a function; the strength the whole chart stands on |
 | Root | 印 resource | **Mind** | Body | learning and absorption — where the world soaks in and becomes yours |
-| Voice | 食伤 output | **Expression** | Mind · Bonds | the gate where inner work becomes outer fact |
-| Drive | 财 wealth | **Action** | Bonds | building and claiming — what you go get and provide |
-| Duty | 官杀 officer | **Bonds** | Action | order and accountability — how you hold rank among people |
+| Voice | 食伤 output | **Expression** | Mind | the gate where inner work becomes outer fact |
+| Drive | 财 wealth | **Action** | Order | building and claiming — what you go get and provide (财生官: what you build becomes structure) |
+| Duty | 官杀 officer | **Order** | Action | regulation and accountability — the rules you answer to and the rank you hold by them |
 
 Shadow twins (§5b-ii) carry over: a seat in excess speaks its shadow in the friction turn (Voice→Echo etc.).
 

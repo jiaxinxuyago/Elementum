@@ -19,8 +19,11 @@
       "primary": "action",
       "body": "The Drive is your action function: what you go get, build, and hold. With Water running it, action in you is hydraulic: you build channels, then let volume do the work. Income streams, standing arrangements, systems that flow while you sleep. You claim by routing rather than grabbing, and what you route well returns forever. Dig the canal once, drink for years.",
       "dips": {
-        "bonds": "You hold people by being their banks: steady sides that let their current run."
+        "order": "The wealth you channel becomes structure: managed current turns into the aqueduct that orders the valley."
       }
     }
+  },
+  "__ore": {
+    "retired_bonds_dip": "You hold people by being their banks: steady sides that let their current run."
   }
 }
