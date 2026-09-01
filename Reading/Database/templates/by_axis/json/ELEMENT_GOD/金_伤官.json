@@ -20,7 +20,18 @@
       "action": "You execute with flourish, better than asked and different than specified.",
       "body": "Your energy runs keen and high-strung: honed by challenge, notched by tedium."
     },
-    "adj_chips": null,
+    "adj_chips": {
+      "catalyst": [
+        "Razor-witted",
+        "Piercing",
+        "Virtuosic"
+      ],
+      "friction": [
+        "Cutting",
+        "Merciless",
+        "Contemptuous"
+      ]
+    },
     "k2_domain_readings": {
       "Talent": "Your talent is the brilliant edge: work with finish other people cannot reach. Sign it, show it, price it properly. Metal brilliance that stays sheathed reads as arrogance without the receipts.",
       "Performance": "You perform with precision: the flawless delivery, the duel won in public. Choose stages where exactness shines, competitions, critiques, crafts. Applause for sharpness is the kind you can actually live on.",

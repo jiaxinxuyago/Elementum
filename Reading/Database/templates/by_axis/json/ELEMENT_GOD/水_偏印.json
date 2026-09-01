@@ -20,7 +20,18 @@
       "action": "You act from the deep read: moves that seem sudden and were years in solution.",
       "body": "Your body is tidal: rhythms of immersion and surfacing, drained by shallow noise."
     },
-    "adj_chips": null,
+    "adj_chips": {
+      "catalyst": [
+        "Deep-diving",
+        "Prescient",
+        "Subtle"
+      ],
+      "friction": [
+        "Submerged",
+        "Elusive",
+        "Unreachable"
+      ]
+    },
     "k2_domain_readings": {
       "Learning": "You learn by immersion: total absorption until a field saturates and understanding crystallizes whole. Interrupted immersion loses everything, so defend the deep dives. Come up between them.",
       "Intuition": "Your intuition is sonar: reading what moves beneath speech, sensing the shape of the unsaid. It is uncannily accurate about people. Verify before acting. Sonar shows shape, never color.",

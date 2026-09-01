@@ -20,7 +20,18 @@
       "action": "You produce steadily and domestically, greatness in the daily bread rather than the grand gesture.",
       "body": "Your wellbeing is homestead-shaped: regular meals, familiar beds, seasons of honest work."
     },
-    "adj_chips": null,
+    "adj_chips": {
+      "catalyst": [
+        "Hearty",
+        "Settled",
+        "Providing"
+      ],
+      "friction": [
+        "Complacent",
+        "Sluggish",
+        "Cosseted"
+      ]
+    },
     "k2_domain_readings": {
       "Expression": "Your expression is the kept table: cooking, homemaking, the craft of comfort itself. It looks humble and it is foundational. Whole families run on exactly what you make daily.",
       "Enjoyment": "You enjoy the settled pleasures: harvest meals, familiar comforts, the deep satisfaction of enough. Let abundance be enjoyed, not only stored. A pantry is for feasts as well as winters.",

@@ -20,7 +20,18 @@
       "action": "You accelerate when someone runs beside you. Alone, you coast. Recruit pace-setters.",
       "body": "Your energy feeds on contest and outdoor motion, and sours in idle shade."
     },
-    "adj_chips": null,
+    "adj_chips": {
+      "catalyst": [
+        "Fast-climbing",
+        "Gutsy",
+        "Rivalry-spurred"
+      ],
+      "friction": [
+        "Overreaching",
+        "Turf-guarding",
+        "Rash"
+      ]
+    },
     "k2_domain_readings": {
       "Rivalry": "Your rivalries are growth spurts: every worthy competitor adds a ring. Keep them seasonal rather than permanent. A race that never ends stops being training and becomes a root war.",
       "Shared stakes": "You pool naturally: gardens, ventures, family plots tended together. Write down whose branch is whose before the fruit comes in. Shared soil grows the most and disputes the hardest.",

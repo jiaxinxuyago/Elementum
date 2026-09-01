@@ -24,103 +24,290 @@
         "id": "金_劫财",
         "key": "金_劫财",
         "canonical_name": "The Rival",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Keen-edged",
+            "Competitive",
+            "Undaunted"
+          ],
+          "friction": [
+            "Cutthroat",
+            "Abrasive",
+            "Duel-prone"
+          ]
+        }
       },
       {
         "id": "金_食神",
         "key": "金_食神",
         "canonical_name": "The Artisan",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Craft-loving",
+            "Refined",
+            "Savoring"
+          ],
+          "friction": [
+            "Fussy",
+            "Self-satisfied",
+            "Dulled"
+          ]
+        }
       },
       {
         "id": "金_伤官",
         "key": "金_伤官",
         "canonical_name": "The Virtuoso",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Razor-witted",
+            "Piercing",
+            "Virtuosic"
+          ],
+          "friction": [
+            "Cutting",
+            "Merciless",
+            "Contemptuous"
+          ]
+        }
       },
       {
         "id": "金_偏财",
         "key": "金_偏财",
         "canonical_name": "The Horizon",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Quick-eyed",
+            "Polished",
+            "Venturesome"
+          ],
+          "friction": [
+            "Mercenary",
+            "Acquisitive",
+            "Restless"
+          ]
+        }
       },
       {
         "id": "金_正财",
         "key": "金_正财",
         "canonical_name": "The Steward",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Meticulous",
+            "Trustworthy",
+            "Accruing"
+          ],
+          "friction": [
+            "Austere",
+            "Grasping",
+            "Unbudging"
+          ]
+        }
       },
       {
         "id": "金_七杀",
         "key": "金_七杀",
         "canonical_name": "The General",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Battle-ready",
+            "Disciplined",
+            "Surgical"
+          ],
+          "friction": [
+            "Punishing",
+            "Ruthless",
+            "Blunted"
+          ]
+        }
       },
       {
         "id": "金_正官",
         "key": "金_正官",
         "canonical_name": "The Magistrate",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Precise",
+            "Incorruptible",
+            "Even-handed"
+          ],
+          "friction": [
+            "Exacting",
+            "Unbending",
+            "By-the-book"
+          ]
+        }
       },
       {
         "id": "金_偏印",
         "key": "金_偏印",
         "canonical_name": "The Alchemist",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Fine-tuned",
+            "Discerning",
+            "Ingenious"
+          ],
+          "friction": [
+            "Cryptic",
+            "Hair-splitting",
+            "Cloistered"
+          ]
+        }
       },
       {
         "id": "金_正印",
         "key": "金_正印",
         "canonical_name": "The Sage",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Discreet",
+            "Preserving",
+            "Quietly-wise"
+          ],
+          "friction": [
+            "Detached",
+            "Formal",
+            "Locked-away"
+          ]
+        }
       },
       {
         "id": "土_比肩",
         "key": "土_比肩",
         "canonical_name": "The Twin",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Self-grounded",
+            "Solid",
+            "Dependable"
+          ],
+          "friction": [
+            "Entrenched",
+            "Immovable",
+            "Set-apart"
+          ]
+        }
       },
       {
         "id": "土_劫财",
         "key": "土_劫财",
         "canonical_name": "The Rival",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Ground-taking",
+            "Tenacious",
+            "Unbowed"
+          ],
+          "friction": [
+            "Territorial",
+            "Grudging",
+            "Bulldozing"
+          ]
+        }
       },
       {
         "id": "土_食神",
         "key": "土_食神",
         "canonical_name": "The Artisan",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Hearty",
+            "Settled",
+            "Providing"
+          ],
+          "friction": [
+            "Complacent",
+            "Sluggish",
+            "Cosseted"
+          ]
+        }
       },
       {
         "id": "土_伤官",
         "key": "土_伤官",
         "canonical_name": "The Virtuoso",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Ground-breaking",
+            "Wry",
+            "Unconventional"
+          ],
+          "friction": [
+            "Contrarian",
+            "Sardonic",
+            "Quake-prone"
+          ]
+        }
       },
       {
         "id": "土_偏财",
         "key": "土_偏财",
         "canonical_name": "The Horizon",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Shrewd",
+            "Well-traveled",
+            "Bountiful"
+          ],
+          "friction": [
+            "Land-hungry",
+            "Restive",
+            "Spread-thin"
+          ]
+        }
       },
       {
         "id": "土_正财",
         "key": "土_正财",
         "canonical_name": "The Steward",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Thrifty",
+            "Steadfast",
+            "Well-stocked"
+          ],
+          "friction": [
+            "Hoarding",
+            "Immobile",
+            "Miserly"
+          ]
+        }
       },
       {
         "id": "土_七杀",
         "key": "土_七杀",
         "canonical_name": "The General",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Fortress-calm",
+            "Commanding",
+            "Siege-proof"
+          ],
+          "friction": [
+            "Walled-up",
+            "Heavy-handed",
+            "Grinding"
+          ]
+        }
       },
       {
         "id": "土_正官",
         "key": "土_正官",
         "canonical_name": "The Magistrate",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Rock-steady",
+            "Just",
+            "Load-bearing"
+          ],
+          "friction": [
+            "Ponderous",
+            "Rule-bound",
+            "Ossified"
+          ]
+        }
       },
       {
         "id": "土_偏印",
@@ -143,37 +330,103 @@
         "id": "土_正印",
         "key": "土_正印",
         "canonical_name": "The Sage",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Grounding",
+            "Enduring",
+            "Sustaining"
+          ],
+          "friction": [
+            "Insular",
+            "Buried",
+            "Inert"
+          ]
+        }
       },
       {
         "id": "木_比肩",
         "key": "木_比肩",
         "canonical_name": "The Twin",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Self-rooted",
+            "Upright",
+            "Persevering"
+          ],
+          "friction": [
+            "Standoffish",
+            "Stubborn",
+            "Slow-yielding"
+          ]
+        }
       },
       {
         "id": "木_劫财",
         "key": "木_劫财",
         "canonical_name": "The Rival",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Fast-climbing",
+            "Gutsy",
+            "Rivalry-spurred"
+          ],
+          "friction": [
+            "Overreaching",
+            "Turf-guarding",
+            "Rash"
+          ]
+        }
       },
       {
         "id": "木_食神",
         "key": "木_食神",
         "canonical_name": "The Artisan",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Fruitful",
+            "Mellow",
+            "Tending"
+          ],
+          "friction": [
+            "Overripe",
+            "Lax",
+            "Unpruned"
+          ]
+        }
       },
       {
         "id": "木_伤官",
         "key": "木_伤官",
         "canonical_name": "The Virtuoso",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Free-growing",
+            "Original",
+            "Untamed"
+          ],
+          "friction": [
+            "Wayward",
+            "Sprawling",
+            "Defiant"
+          ]
+        }
       },
       {
         "id": "木_偏财",
         "key": "木_偏财",
         "canonical_name": "The Horizon",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Wide-branching",
+            "Enterprising",
+            "Open-handed"
+          ],
+          "friction": [
+            "Scattered",
+            "Overgrown",
+            "Fickle"
+          ]
+        }
       },
       {
         "id": "木_正财",
@@ -196,37 +449,103 @@
         "id": "木_七杀",
         "key": "木_七杀",
         "canonical_name": "The General",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Hard-trained",
+            "Focused",
+            "Storm-tested"
+          ],
+          "friction": [
+            "Severe",
+            "Straining",
+            "Overdriven"
+          ]
+        }
       },
       {
         "id": "木_正官",
         "key": "木_正官",
         "canonical_name": "The Magistrate",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Straight-growing",
+            "Honorable",
+            "Exemplary"
+          ],
+          "friction": [
+            "Stiff",
+            "Overformal",
+            "Hidebound"
+          ]
+        }
       },
       {
         "id": "木_偏印",
         "key": "木_偏印",
         "canonical_name": "The Alchemist",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Cross-pollinating",
+            "Perceptive",
+            "Quietly-original"
+          ],
+          "friction": [
+            "Tangled",
+            "Secretive",
+            "Reclusive"
+          ]
+        }
       },
       {
         "id": "木_正印",
         "key": "木_正印",
         "canonical_name": "The Sage",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Nurturing",
+            "Evergreen",
+            "Shade-giving"
+          ],
+          "friction": [
+            "Smothering",
+            "Clinging",
+            "Dormant"
+          ]
+        }
       },
       {
         "id": "水_比肩",
         "key": "水_比肩",
         "canonical_name": "The Twin",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Self-contained",
+            "Even-keeled",
+            "Independent"
+          ],
+          "friction": [
+            "Cold-running",
+            "Isolated",
+            "Impenetrable"
+          ]
+        }
       },
       {
         "id": "水_劫财",
         "key": "水_劫财",
         "canonical_name": "The Rival",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Tide-riding",
+            "Nervy",
+            "Quicksilver"
+          ],
+          "friction": [
+            "Undermining",
+            "Covetous",
+            "Slippery"
+          ]
+        }
       },
       {
         "id": "水_食神",
@@ -249,79 +568,222 @@
         "id": "水_伤官",
         "key": "水_伤官",
         "canonical_name": "The Virtuoso",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Silver-tongued",
+            "Inspired",
+            "Free-flowing"
+          ],
+          "friction": [
+            "Corrosive",
+            "Mocking",
+            "Uncontainable"
+          ]
+        }
       },
       {
         "id": "水_偏财",
         "key": "水_偏财",
         "canonical_name": "The Horizon",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Far-flowing",
+            "Adaptive",
+            "Magnetic"
+          ],
+          "friction": [
+            "Tide-tossed",
+            "Ungrounded",
+            "Dispersed"
+          ]
+        }
       },
       {
         "id": "水_正财",
         "key": "水_正财",
         "canonical_name": "The Steward",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Prudent",
+            "Steady-flowing",
+            "Provident"
+          ],
+          "friction": [
+            "Dammed-up",
+            "Wary",
+            "Clutching"
+          ]
+        }
       },
       {
         "id": "水_七杀",
         "key": "水_七杀",
         "canonical_name": "The General",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Cool-headed",
+            "Unblinking",
+            "Deep-striking"
+          ],
+          "friction": [
+            "Chilling",
+            "Relentless",
+            "Submerging"
+          ]
+        }
       },
       {
         "id": "水_正官",
         "key": "水_正官",
         "canonical_name": "The Magistrate",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Clear-channeled",
+            "Composed",
+            "Far-sighted"
+          ],
+          "friction": [
+            "Overcautious",
+            "Muted",
+            "Current-bound"
+          ]
+        }
       },
       {
         "id": "水_偏印",
         "key": "水_偏印",
         "canonical_name": "The Alchemist",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Deep-diving",
+            "Prescient",
+            "Subtle"
+          ],
+          "friction": [
+            "Submerged",
+            "Elusive",
+            "Unreachable"
+          ]
+        }
       },
       {
         "id": "水_正印",
         "key": "水_正印",
         "canonical_name": "The Sage",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Replenishing",
+            "Serene",
+            "Receptive"
+          ],
+          "friction": [
+            "Passive",
+            "Waterlogged",
+            "Cocooned"
+          ]
+        }
       },
       {
         "id": "火_比肩",
         "key": "火_比肩",
         "canonical_name": "The Twin",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Self-lit",
+            "Vivid",
+            "Undimmed"
+          ],
+          "friction": [
+            "Prideful",
+            "Flaring",
+            "Unapproachable"
+          ]
+        }
       },
       {
         "id": "火_劫财",
         "key": "火_劫财",
         "canonical_name": "The Rival",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Spark-chasing",
+            "Audacious",
+            "Electrifying"
+          ],
+          "friction": [
+            "Hot-headed",
+            "Resentful",
+            "Explosive"
+          ]
+        }
       },
       {
         "id": "火_食神",
         "key": "火_食神",
         "canonical_name": "The Artisan",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Radiant",
+            "Convivial",
+            "Heartwarming"
+          ],
+          "friction": [
+            "Comfort-chasing",
+            "Extravagant",
+            "Slack"
+          ]
+        }
       },
       {
         "id": "火_伤官",
         "key": "火_伤官",
         "canonical_name": "The Virtuoso",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Dazzling",
+            "Quick-witted",
+            "Incandescent"
+          ],
+          "friction": [
+            "Provocative",
+            "Scene-stealing",
+            "Combustible"
+          ]
+        }
       },
       {
         "id": "火_偏财",
         "key": "火_偏财",
         "canonical_name": "The Horizon",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Spark-spotting",
+            "Charismatic",
+            "Fast-moving"
+          ],
+          "friction": [
+            "Flash-chasing",
+            "Spendthrift",
+            "Flighty"
+          ]
+        }
       },
       {
         "id": "火_正财",
         "key": "火_正财",
         "canonical_name": "The Steward",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Warm-handed",
+            "Diligent",
+            "Bankable"
+          ],
+          "friction": [
+            "Tight-fisted",
+            "Anxious",
+            "Overcareful"
+          ]
+        }
       },
       {
         "id": "火_七杀",
@@ -344,19 +806,52 @@
         "id": "火_正官",
         "key": "火_正官",
         "canonical_name": "The Magistrate",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Upstanding",
+            "Luminous",
+            "Inspiring"
+          ],
+          "friction": [
+            "Stern",
+            "Appearance-bound",
+            "Overextended"
+          ]
+        }
       },
       {
         "id": "火_偏印",
         "key": "火_偏印",
         "canonical_name": "The Alchemist",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Visionary",
+            "Night-bright",
+            "Uncanny"
+          ],
+          "friction": [
+            "Obsessive",
+            "Erratic",
+            "Estranged"
+          ]
+        }
       },
       {
         "id": "火_正印",
         "key": "火_正印",
         "canonical_name": "The Sage",
-        "value": null
+        "value": {
+          "catalyst": [
+            "Hearth-warm",
+            "Encouraging",
+            "Restorative"
+          ],
+          "friction": [
+            "Coddling",
+            "Dependent",
+            "Languid"
+          ]
+        }
       }
     ]
   }

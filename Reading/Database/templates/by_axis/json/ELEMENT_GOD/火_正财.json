@@ -20,7 +20,18 @@
       "action": "You work in sustainable heat: consistent output that never needs rescue.",
       "body": "Your energy is banked flame: protected sleep, regular meals, celebration in season."
     },
-    "adj_chips": null,
+    "adj_chips": {
+      "catalyst": [
+        "Warm-handed",
+        "Diligent",
+        "Bankable"
+      ],
+      "friction": [
+        "Tight-fisted",
+        "Anxious",
+        "Overcareful"
+      ]
+    },
     "k2_domain_readings": {
       "Wealth": "Your wealth is hearth-warm: earned brightly, spent on the household’s glow, kept steady over spectacular. Fund the gatherings and the securities both. A warm home is your portfolio’s purpose.",
       "Savings": "You save for warmth: reserves that keep winters kind. Automate them so celebration cannot raid the woodpile. A banked fire relights fast. An empty grate does not.",

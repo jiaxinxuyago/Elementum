@@ -20,7 +20,18 @@
       "action": "You advance relentlessly by stages, each node a consolidation before the next push.",
       "body": "Your energy is green iron: flexible strength that still requires dormant seasons."
     },
-    "adj_chips": null,
+    "adj_chips": {
+      "catalyst": [
+        "Hard-trained",
+        "Focused",
+        "Storm-tested"
+      ],
+      "friction": [
+        "Severe",
+        "Straining",
+        "Overdriven"
+      ]
+    },
     "k2_domain_readings": {
       "Pressure": "Pressure accelerates your growth: deadlines, competition, expectation all read as sunlight. Choose pressures that build height, and shed the ones that only strip bark.",
       "Command": "You command by example and altitude: first up, most exposed, setting pace. It inspires and it isolates. Grow lieutenants deliberately so the canopy is not one tree.",

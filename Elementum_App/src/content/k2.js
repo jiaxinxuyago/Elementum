@@ -52,6 +52,7 @@ export const K2_CELLS = {
       action: 'You start on your own signal and keep your own pace. Seasons of effort suit you better than sprints.',
       body: 'Your stamina is vegetal: quiet, continuous, renewed by daylight and outdoor air.',
     },
+    adj: { catalyst: ['Self-rooted', 'Upright', 'Persevering'], friction: ['Standoffish', 'Stubborn', 'Slow-yielding'] },
     domain_readings: {
       Peers: 'Your peers are the grove: people growing the same direction at their own speeds. Comparison is your fertilizer and your poison, so use the grove for shade and shelter, and race only your own rings.',
       Independence: 'Wood independence is having your own soil: your plot, your craft, your income no one else waters. Secure it early. You bend badly when planted in someone else’s garden.',
@@ -67,6 +68,7 @@ export const K2_CELLS = {
       action: 'You accelerate when someone runs beside you. Alone, you coast. Recruit pace-setters.',
       body: 'Your energy feeds on contest and outdoor motion, and sours in idle shade.',
     },
+    adj: { catalyst: ['Fast-climbing', 'Gutsy', 'Rivalry-spurred'], friction: ['Overreaching', 'Turf-guarding', 'Rash'] },
     domain_readings: {
       Rivalry: 'Your rivalries are growth spurts: every worthy competitor adds a ring. Keep them seasonal rather than permanent. A race that never ends stops being training and becomes a root war.',
       'Shared stakes': 'You pool naturally: gardens, ventures, family plots tended together. Write down whose branch is whose before the fruit comes in. Shared soil grows the most and disputes the hardest.',
@@ -82,6 +84,7 @@ export const K2_CELLS = {
       action: 'You work in cycles, steady tending over heroic pushes, and your harvests prove the method.',
       body: 'Your health is agricultural: sun, movement, real food, and rest between seasons.',
     },
+    adj: { catalyst: ['Fruitful', 'Mellow', 'Tending'], friction: ['Overripe', 'Lax', 'Unpruned'] },
     domain_readings: {
       Expression: 'Your expression bears fruit: gardens, meals, projects that people can taste and hold. Make output a rhythm rather than an event. An orchard produces because producing is simply what it does.',
       Enjoyment: 'You enjoy abundance in its natural forms: tables full, gardens loud, seasons honored with their own pleasures. Guard the fallow time too. Delight, like soil, needs its resting years.',
@@ -97,6 +100,7 @@ export const K2_CELLS = {
       action: 'You work in growth spurts toward light only you see. Fences slow you less than doubt.',
       body: 'Your energy is sap-driven: surging seasons, then hard winters that demand real rest.',
     },
+    adj: { catalyst: ['Free-growing', 'Original', 'Untamed'], friction: ['Wayward', 'Sprawling', 'Defiant'] },
     domain_readings: {
       Talent: 'Your talent is generative: new shoots daily, whole canopies of ideas. The gift needs an editor the way forests need clearings. Cut sightlines through your own abundance so the best trees show.',
       Performance: 'You perform by unveiling growth: the project no one authorized, suddenly in bloom. Time the reveals. A garden shown at flowering converts skeptics that a garden shown as seeds cannot.',
@@ -112,6 +116,7 @@ export const K2_CELLS = {
       action: 'You grow toward opportunity steadily, extending reach every season without retreating.',
       body: 'Your energy expands with novelty and travel, and wilts in cramped pots.',
     },
+    adj: { catalyst: ['Wide-branching', 'Enterprising', 'Open-handed'], friction: ['Scattered', 'Overgrown', 'Fickle'] },
     domain_readings: {
       Opportunity: 'Opportunities appear to you as open land: markets unplanted, niches unclaimed. You see fertile ground others call wilderness. Scout it, but check the soil before transplanting everything.',
       Ventures: 'Your ventures grow in groves: several trunks sharing a root system of skills and contacts. Let each mature before seeding the next. Orchards fail from planting fever, not planting.',
@@ -143,6 +148,7 @@ export const K2_CELLS = {
       action: 'You advance relentlessly by stages, each node a consolidation before the next push.',
       body: 'Your energy is green iron: flexible strength that still requires dormant seasons.',
     },
+    adj: { catalyst: ['Hard-trained', 'Focused', 'Storm-tested'], friction: ['Severe', 'Straining', 'Overdriven'] },
     domain_readings: {
       Pressure: 'Pressure accelerates your growth: deadlines, competition, expectation all read as sunlight. Choose pressures that build height, and shed the ones that only strip bark.',
       Command: 'You command by example and altitude: first up, most exposed, setting pace. It inspires and it isolates. Grow lieutenants deliberately so the canopy is not one tree.',
@@ -158,6 +164,7 @@ export const K2_CELLS = {
       action: 'You advance by cultivating order: process planted, tended, scaled.',
       body: 'Your health likes structured growth: progressive training, seasonal rest, upright posture.',
     },
+    adj: { catalyst: ['Straight-growing', 'Honorable', 'Exemplary'], friction: ['Stiff', 'Overformal', 'Hidebound'] },
     domain_readings: {
       Career: 'Your career grows like a managed forest: steady rings, widening responsibility, roots deepening in one good house. Choose organizations you would plant a decade in. Transplanting yearly wastes your kind of compounding.',
       Status: 'Your standing grows organically: respect accruing ring by ring until you are somehow the oak everyone consults. Let it. Just keep lower branches reachable.',
@@ -173,6 +180,7 @@ export const K2_CELLS = {
       action: 'You act on grown conviction: slow to sprout, deep-rooted once moving.',
       body: 'Your body learns like a plant: gradual conditioning, sunlight and quiet, no forced seasons.',
     },
+    adj: { catalyst: ['Cross-pollinating', 'Perceptive', 'Quietly-original'], friction: ['Tangled', 'Secretive', 'Reclusive'] },
     domain_readings: {
       Learning: 'You learn like an ecosystem: slowly, laterally, everything connecting to everything. Formal courses feel like pots. Give yourself wild ground, mixed sources, and the hybrids will astonish.',
       Intuition: 'Your intuition grows on the underside of awareness: a slow mycelium that suddenly fruits an answer. Give questions dormancy. What you cannot force overnight arrives by spring.',
@@ -188,6 +196,7 @@ export const K2_CELLS = {
       action: 'You act by tending: consistent small care that compounds into forests.',
       body: 'Your body thrives on green routine: nature, gentle movement, seasonal patience with yourself.',
     },
+    adj: { catalyst: ['Nurturing', 'Evergreen', 'Shade-giving'], friction: ['Smothering', 'Clinging', 'Dormant'] },
     domain_readings: {
       Knowledge: 'Your knowledge is arboreal: living, branching, taught best by walking someone through the grove. You learn to pass on. Teaching is how your roots drink.',
       Shelter: 'Your shelter is canopy: people rest under your patience and grow in your shade. The forest never asks who waters the oldest tree. Arrange your own rain.',
@@ -203,6 +212,7 @@ export const K2_CELLS = {
       action: 'You ignite your own starts and dislike waiting on anyone’s match. Momentum is personal.',
       body: 'Your energy burns bright and social: fed by activity, drained by standing in another’s shadow.',
     },
+    adj: { catalyst: ['Self-lit', 'Vivid', 'Undimmed'], friction: ['Prideful', 'Flaring', 'Unapproachable'] },
     domain_readings: {
       Peers: 'Your peers are fellow fires: vivid friends, loud tables, mutual sparks. The heat of comparison can flare into rivalry fast, so choose companions who celebrate blaze rather than compete for oxygen.',
       Independence: 'Fire independence is your own hearth: warmth that no one can dim by leaving. Build a life that stays lit in an empty house, and company becomes a pleasure instead of a fuel line.',
@@ -218,6 +228,7 @@ export const K2_CELLS = {
       action: 'You move fastest in a pack with a prize. Solo marathons dim you.',
       body: 'Your energy flares with company and stakes, then needs true dark to recover.',
     },
+    adj: { catalyst: ['Spark-chasing', 'Audacious', 'Electrifying'], friction: ['Hot-headed', 'Resentful', 'Explosive'] },
     domain_readings: {
       Rivalry: 'Your rivals are accelerants: nothing focuses your flame like a nearby blaze. Keep rivalry ritual, races and games and friendly scoreboards, so the heat builds camaraderie instead of ash.',
       'Shared stakes': 'You fund and join easily, splitting bills and risks in the same warm gesture. Enthusiasm signs faster than judgment reads. Let every shared blaze get one cold morning review before you pour fuel.',
@@ -233,6 +244,7 @@ export const K2_CELLS = {
       action: 'You work best hosting the work: projects with an audience and a payoff people can enjoy.',
       body: 'Your energy loves festivity and pays for excess. Alternate feast days with hearth days.',
     },
+    adj: { catalyst: ['Radiant', 'Convivial', 'Heartwarming'], friction: ['Comfort-chasing', 'Extravagant', 'Slack'] },
     domain_readings: {
       Expression: 'Your expression is the lit table: cooking, performing, hosting, celebrating. It is real art, so treat it as one. The gatherings you make are the memories a whole circle keeps.',
       Enjoyment: 'You enjoy loudly and generously, and your appetite blesses whatever it touches. The discipline is savoring over consuming: fewer, better feasts. The flame tastes more when it eats slower.',
@@ -248,6 +260,7 @@ export const K2_CELLS = {
       action: 'You act in brilliant bursts. Sustained grind dims you, so build around intensity.',
       body: 'Your energy is flare-shaped: spectacular output, real crashes. Sleep is your fire code.',
     },
+    adj: { catalyst: ['Dazzling', 'Quick-witted', 'Incandescent'], friction: ['Provocative', 'Scene-stealing', 'Combustible'] },
     domain_readings: {
       Talent: 'Your talent is incandescent and public: performing, persuading, lighting ideas so others finally see them. It needs an audience the way flame needs air. Book the stage instead of apologizing for wanting one.',
       Performance: 'Performance is your natural habitat: the pitch, the stage, the moment all eyes turn. Rehearse enough to deserve the attention you attract. Brilliance plus preparation reads as destiny.',
@@ -263,6 +276,7 @@ export const K2_CELLS = {
       action: 'You seize chances at speed, brilliant in windows, bored in pipelines.',
       body: 'Your energy is festive and spendy: fueled by occasions, emptied by them too.',
     },
+    adj: { catalyst: ['Spark-spotting', 'Charismatic', 'Fast-moving'], friction: ['Flash-chasing', 'Spendthrift', 'Flighty'] },
     domain_readings: {
       Opportunity: 'Chances come to you socially: the tip at the table, the partner met at the party. Keep circulating, it is genuinely your economy. Just write things down before the candles burn out.',
       Ventures: 'Your ventures shine at launch: openings, campaigns, anything with a lit fuse and a crowd. Pair every firework with a caretaker who loves the quiet part. That partnership is your fortune.',
@@ -278,6 +292,7 @@ export const K2_CELLS = {
       action: 'You work in sustainable heat: consistent output that never needs rescue.',
       body: 'Your energy is banked flame: protected sleep, regular meals, celebration in season.',
     },
+    adj: { catalyst: ['Warm-handed', 'Diligent', 'Bankable'], friction: ['Tight-fisted', 'Anxious', 'Overcareful'] },
     domain_readings: {
       Wealth: 'Your wealth is hearth-warm: earned brightly, spent on the household’s glow, kept steady over spectacular. Fund the gatherings and the securities both. A warm home is your portfolio’s purpose.',
       Savings: 'You save for warmth: reserves that keep winters kind. Automate them so celebration cannot raid the woodpile. A banked fire relights fast. An empty grate does not.',
@@ -309,6 +324,7 @@ export const K2_CELLS = {
       action: 'You act as the example: first to follow the rule, brightest while doing it.',
       body: 'Your energy is ceremonial flame: strong on stage and schedule, needing dark hours off duty.',
     },
+    adj: { catalyst: ['Upstanding', 'Luminous', 'Inspiring'], friction: ['Stern', 'Appearance-bound', 'Overextended'] },
     domain_readings: {
       Career: 'Your career runs on visible service: roles where leading and lighting are the same act. Teaching, governance, the public face of good systems. Seek podiums attached to substance.',
       Status: 'Your standing is luminous and watched: warmth draws the credit and the scrutiny together. Live as if lit, because you are. The honest glow survives every inspection.',
@@ -324,6 +340,7 @@ export const K2_CELLS = {
       action: 'You act on illumination: bursts of inspired work between contemplative dark.',
       body: 'Your energy strobes: brilliant hours, ash hours, restored by solitude and low light.',
     },
+    adj: { catalyst: ['Visionary', 'Night-bright', 'Uncanny'], friction: ['Obsessive', 'Erratic', 'Estranged'] },
     domain_readings: {
       Learning: 'You learn by ignition: nothing for weeks, then a spark takes and you consume a field in days. Honor the cycle. Keep fuel stacked for when the flash comes.',
       Intuition: 'Your intuition arrives as vision: sudden, whole, and correct more often than you can justify. Note it immediately. The flash fades faster than the truth it showed.',
@@ -339,6 +356,7 @@ export const K2_CELLS = {
       action: 'You care actively: soup made, lamps lit, courage rekindled by hand.',
       body: 'Your warmth needs fuel: real meals, real sleep, gatherings balanced with quiet embers.',
     },
+    adj: { catalyst: ['Hearth-warm', 'Encouraging', 'Restorative'], friction: ['Coddling', 'Dependent', 'Languid'] },
     domain_readings: {
       Knowledge: 'Your knowledge lives as story: wisdom kept warm and passed mouth to mouth. You remember what mattered, not what was footnoted. Tell it often. Stories die refrigerated.',
       Shelter: 'Your shelter is firelight: people arrive cold and leave believing in themselves. That rekindling is rare medicine. Notice who only visits to warm their hands, and bank accordingly.',
@@ -354,6 +372,7 @@ export const K2_CELLS = {
       action: 'You work your own plot at your own pace, and what you start gets finished, quietly.',
       body: 'Your energy is bedrock steady: unhurried, unshakable through long loads, renewed by routine.',
     },
+    adj: { catalyst: ['Self-grounded', 'Solid', 'Dependable'], friction: ['Entrenched', 'Immovable', 'Set-apart'] },
     domain_readings: {
       Peers: 'Your peers are landholders like you: solid people with their own ground and no designs on yours. Trade help across fences freely. The neighbors you respect at seventy are the wealth this position promises.',
       Independence: 'Earth independence is owned ground: a home, a trade, a name that stands without cosigners. You will have it, because you refuse alternatives. Just leave a gate in the fence.',
@@ -369,6 +388,7 @@ export const K2_CELLS = {
       action: 'You move deliberately then decisively: long surveys, sudden purchases.',
       body: 'Your energy is heavy machinery: slow to start, formidable engaged, needing scheduled idle.',
     },
+    adj: { catalyst: ['Ground-taking', 'Tenacious', 'Unbowed'], friction: ['Territorial', 'Grudging', 'Bulldozing'] },
     domain_readings: {
       Rivalry: 'Your rivalries are territorial and patient: the competing shop, the sibling’s acreage, the slow contest of estates. Compete by building better rather than holding harder. Ground won by improvement stays won.',
       'Shared stakes': 'Everything significant you own will at some point be co-owned: family land, joint ventures, marriages of assets. Survey early, deed clearly, and revisit the map annually. Your fortune lives in shared soil.',
@@ -384,6 +404,7 @@ export const K2_CELLS = {
       action: 'You produce steadily and domestically, greatness in the daily bread rather than the grand gesture.',
       body: 'Your wellbeing is homestead-shaped: regular meals, familiar beds, seasons of honest work.',
     },
+    adj: { catalyst: ['Hearty', 'Settled', 'Providing'], friction: ['Complacent', 'Sluggish', 'Cosseted'] },
     domain_readings: {
       Expression: 'Your expression is the kept table: cooking, homemaking, the craft of comfort itself. It looks humble and it is foundational. Whole families run on exactly what you make daily.',
       Enjoyment: 'You enjoy the settled pleasures: harvest meals, familiar comforts, the deep satisfaction of enough. Let abundance be enjoyed, not only stored. A pantry is for feasts as well as winters.',
@@ -399,6 +420,7 @@ export const K2_CELLS = {
       action: 'You out-build objections. By the time they finish arguing, the structure is up.',
       body: 'Your energy is geological: massive reserves, slow spend, real quakes when pressed too long.',
     },
+    adj: { catalyst: ['Ground-breaking', 'Wry', 'Unconventional'], friction: ['Contrarian', 'Sardonic', 'Quake-prone'] },
     domain_readings: {
       Talent: 'Your talent is constructive genius: making real what others only pitch. It compounds with patience, so pick projects worth years. Your monuments will outlast every clever thing said about them.',
       Performance: 'You perform through results: the opening day, the finished span, the harvest weighed. Let there be openings, invite people to what you built. Even mountains benefit from an unveiling.',
@@ -414,6 +436,7 @@ export const K2_CELLS = {
       action: 'You acquire deliberately: surveyed chances, patient closings, ownership that sticks.',
       body: 'Your energy is estate-like: unhurried, substantial, maintained by routine and good meals.',
     },
+    adj: { catalyst: ['Shrewd', 'Well-traveled', 'Bountiful'], friction: ['Land-hungry', 'Restive', 'Spread-thin'] },
     domain_readings: {
       Opportunity: 'Your opportunities are tangible: property, inventory, businesses with floors and keys. You distrust vapor correctly. Walk the ground before buying it, and buy ground more often than promises.',
       Ventures: 'Your ventures should hold weight: real assets, real product, margins you can stack. Compound patiently. In your hands, boring holdings quietly outperform everyone’s exciting stories.',
@@ -429,6 +452,7 @@ export const K2_CELLS = {
       action: 'You maintain relentlessly: the fixed fence, the paid tax, the kept schedule.',
       body: 'Your health is a homestead: solid while kept up, creaky when routine slips.',
     },
+    adj: { catalyst: ['Thrifty', 'Steadfast', 'Well-stocked'], friction: ['Hoarding', 'Immobile', 'Miserly'] },
     domain_readings: {
       Wealth: 'Your wealth is literal ground: property, durables, enterprises with deeds. In your element, holdings hold. Diversify just enough that one bad season cannot take the whole farm.',
       Savings: 'You save geologically: layers on layers, bedrock reserves. The craft is knowing enough. Set the number, then let the surplus fund life above ground.',
@@ -444,6 +468,7 @@ export const K2_CELLS = {
       action: 'You apply steady, crushing persistence. Nothing outlasts you on purpose.',
       body: 'Your energy is garrison-strength: vast, slow-burning, needing scheduled leave.',
     },
+    adj: { catalyst: ['Fortress-calm', 'Commanding', 'Siege-proof'], friction: ['Walled-up', 'Heavy-handed', 'Grinding'] },
     domain_readings: {
       Pressure: 'You metabolize pressure into foundation: loads that flatten others become your footing. The watch-point is accumulation. Mountains crack invisibly first, so audit the strain you call normal.',
       Command: 'You command through immovability: the standard that does not shift, the decision that stays decided. It builds empires of order. Leave one gate for appeals, or the fortress becomes a wall.',
@@ -459,6 +484,7 @@ export const K2_CELLS = {
       action: 'You keep order by bearing it: reliable weight, terms served fully.',
       body: 'Your health is load-bearing: strong under routine, needing the pack taken off some days.',
     },
+    adj: { catalyst: ['Rock-steady', 'Just', 'Load-bearing'], friction: ['Ponderous', 'Rule-bound', 'Ossified'] },
     domain_readings: {
       Career: 'Your career is foundation work: operations, governance, the roles that hold everything up. Advancement comes as accumulated trust. Claim the title when it is due. Bedrock underasks.',
       Status: 'Your standing is landmark-grade: slow to build, nearly impossible to erode. People locate themselves by you. Accept the monument quietly and stay reachable at ground level.',
@@ -490,6 +516,7 @@ export const K2_CELLS = {
       action: 'You care by carrying: the meals, the moves, the long unthanked logistics.',
       body: 'Your body is the homestead: sturdy under routine, honest about weather, deserving repair too.',
     },
+    adj: { catalyst: ['Grounding', 'Enduring', 'Sustaining'], friction: ['Insular', 'Buried', 'Inert'] },
     domain_readings: {
       Knowledge: 'Your knowledge is settled sediment: practical wisdom layered by years, the kind villages consult. You know what actually works. Write the almanac down. Ground should not be the only copy.',
       Shelter: 'Your shelter is the family land itself: people return to you between every attempt at the world. Being home is holy work with no clock. Post seasons. Even land lies fallow.',
@@ -521,6 +548,7 @@ export const K2_CELLS = {
       action: 'You strike while others weigh. Decisiveness under stakes is your cleanest edge.',
       body: 'Your energy spikes for contests and crashes after. Build recovery into the schedule like a trainer would.',
     },
+    adj: { catalyst: ['Keen-edged', 'Competitive', 'Undaunted'], friction: ['Cutthroat', 'Abrasive', 'Duel-prone'] },
     domain_readings: {
       Rivalry: 'Rivalry is your whetstone: you improve fastest with a named competitor in view. Choose rivals worth becoming, because you will absorb their shape. And retire each rivalry the day it stops sharpening and starts nicking.',
       'Shared stakes': 'You bet alongside people easily: ventures, splits, loans between friends. Metal keeps clean edges, so keep clean papers. The partnerships that survive you are the ones with terms as sharp as the trust.',
@@ -536,6 +564,7 @@ export const K2_CELLS = {
       action: 'You work in smooth passes, without drama or waste. The bench stays tidy and the output keeps coming.',
       body: 'Your wellbeing tracks your hands: making rests you, idleness corrodes, rhythm is your maintenance.',
     },
+    adj: { catalyst: ['Craft-loving', 'Refined', 'Savoring'], friction: ['Fussy', 'Self-satisfied', 'Dulled'] },
     domain_readings: {
       Expression: 'Your expression is craftsmanship: things made exactly, words placed cleanly, taste visible in every output. You do not need volume. One finished piece says what an hour of talk cannot, so keep finishing pieces.',
       Enjoyment: 'You enjoy like a connoisseur of the specific: the correct knife, the true note, the single well-made thing. Fund those pleasures without guilt. Precision delight is how this energy refuels its edge.',
@@ -551,6 +580,7 @@ export const K2_CELLS = {
       action: 'You execute with flourish, better than asked and different than specified.',
       body: 'Your energy runs keen and high-strung: honed by challenge, notched by tedium.',
     },
+    adj: { catalyst: ['Razor-witted', 'Piercing', 'Virtuosic'], friction: ['Cutting', 'Merciless', 'Contemptuous'] },
     domain_readings: {
       Talent: 'Your talent is the brilliant edge: work with finish other people cannot reach. Sign it, show it, price it properly. Metal brilliance that stays sheathed reads as arrogance without the receipts.',
       Performance: 'You perform with precision: the flawless delivery, the duel won in public. Choose stages where exactness shines, competitions, critiques, crafts. Applause for sharpness is the kind you can actually live on.',
@@ -566,6 +596,7 @@ export const K2_CELLS = {
       action: 'You strike opportunities with timing others envy: measured approach, decisive cut.',
       body: 'Your energy is transactional and crisp: peaks in negotiations, restored by order.',
     },
+    adj: { catalyst: ['Quick-eyed', 'Polished', 'Venturesome'], friction: ['Mercenary', 'Acquisitive', 'Restless'] },
     domain_readings: {
       Opportunity: 'You see openings as clearly as flaws in ore: the undervalued asset, the mispriced moment. Trust the eye and audit the appetite. Two ventures cut deep beat ten scratched shallow.',
       Ventures: 'Your ventures favor precision plays: quality arbitrage, timing trades, craft turned to commerce. Structure each like a blade, defined edge, clean handle, known length, and your record stays enviable.',
@@ -581,6 +612,7 @@ export const K2_CELLS = {
       action: 'You execute with clean precision: zero waste, nothing reworked, every screw accounted for.',
       body: 'Your health runs on maintenance: tuned habits, regular checks, quality inputs.',
     },
+    adj: { catalyst: ['Meticulous', 'Trustworthy', 'Accruing'], friction: ['Austere', 'Grasping', 'Unbudging'] },
     domain_readings: {
       Wealth: 'Your wealth is machined: earned exactly, kept polished, compounded without drama. You will never be flashy and never be broke. Invest in quality that holds its edge, including your own skills.',
       Savings: 'You save like an armorer: reserves as protection, kept bright and counted. The vault serves the life, so define what it defends, and spend without guilt inside those lines.',
@@ -596,6 +628,7 @@ export const K2_CELLS = {
       action: 'You strike decisively where others deliberate. Hesitation is not among your defects.',
       body: 'Your energy is martial: strengthened by training, corroded by idle tension.',
     },
+    adj: { catalyst: ['Battle-ready', 'Disciplined', 'Surgical'], friction: ['Punishing', 'Ruthless', 'Blunted'] },
     domain_readings: {
       Pressure: 'Pressure is your forge: you harden correctly under loads that crack others. Seek arenas with real stakes. Comfort dulls you faster than any enemy could.',
       Command: 'Command fits you like a sword fits its grip: natural, tested, dangerous if idle. Take charge where the mission deserves it, and practice the harder art, releasing command without losing edge.',
@@ -611,6 +644,7 @@ export const K2_CELLS = {
       action: 'You execute by the book you helped write: correct, complete, on time.',
       body: 'Your health obeys regimen: inspections kept, discipline holding the frame straight.',
     },
+    adj: { catalyst: ['Precise', 'Incorruptible', 'Even-handed'], friction: ['Exacting', 'Unbending', 'By-the-book'] },
     domain_readings: {
       Career: 'Your career climbs through correctness: credentials, rank, a record without dents. Institutions promote you because you are what their rules dream of. Pick ones whose rules deserve you.',
       Status: 'Your standing is engraved, earned slowly, hard to tarnish. Guard it without worshiping it. A reputation is a tool for doing right at scale, not the point of the work.',
@@ -626,6 +660,7 @@ export const K2_CELLS = {
       action: 'You act after analysis: one clean stroke where others attempt ten.',
       body: 'Your body runs cool and exact: solitary recovery, tension pooling in the jaw and shoulders.',
     },
+    adj: { catalyst: ['Fine-tuned', 'Discerning', 'Ingenious'], friction: ['Cryptic', 'Hair-splitting', 'Cloistered'] },
     domain_readings: {
       Learning: 'You learn by testing: every teaching struck against evidence before acceptance. Slow intake, permanent retention. Choose dense material worth the smelting. Shallow content wastes your furnace.',
       Intuition: 'Your intuition is metallurgical: a felt sense for what is alloyed with falsehood. When something rings wrong, it is wrong. Trust the ear and verify the details later.',
@@ -641,6 +676,7 @@ export const K2_CELLS = {
       action: 'You act as trained: disciplined kindness, standards kept even while comforting.',
       body: 'Your body responds to disciplined rest: real recovery scheduled like practice.',
     },
+    adj: { catalyst: ['Discreet', 'Preserving', 'Quietly-wise'], friction: ['Detached', 'Formal', 'Locked-away'] },
     domain_readings: {
       Knowledge: 'Your knowledge is armory-grade: fewer books, deeply proofed, instantly deployable. You trust what survived testing. Curate hard, and reread the masters yearly. Your edge is depth.',
       Shelter: 'Your shelter is a forge-side bench: people come to you and leave straightened. You protect by tempering. Remember some visitors need only warmth. Not everything cracked wants rework.',
@@ -656,6 +692,7 @@ export const K2_CELLS = {
       action: 'You move at your own gradient: steady, self-directed, impossible to dam for long.',
       body: 'Your energy runs in currents: even output for weeks, then a quiet season to refill the source.',
     },
+    adj: { catalyst: ['Self-contained', 'Even-keeled', 'Independent'], friction: ['Cold-running', 'Isolated', 'Impenetrable'] },
     domain_readings: {
       Peers: 'Your peers are parallel currents: fellow travelers heading the same direction by different beds. You collect companions across every landscape you cross. Keep a few for the whole length of the river, not just the pretty stretches.',
       Independence: 'Water independence is having your own source: income, opinions, and inner weather that no one else controls upstream. Protect the headwaters. Everything else about you can flex.',
@@ -671,6 +708,7 @@ export const K2_CELLS = {
       action: 'You advance through openings others miss, water finding the crack in every dam.',
       body: 'Your energy ebbs and floods: read your own tide chart and schedule accordingly.',
     },
+    adj: { catalyst: ['Tide-riding', 'Nervy', 'Quicksilver'], friction: ['Undermining', 'Covetous', 'Slippery'] },
     domain_readings: {
       Rivalry: 'Your rivalries run underwater: unspoken races, silent measurements, positions gained without visible waves. Surface one or two. A named, laughing rivalry refreshes you more than ten secret ones.',
       'Shared stakes': 'Money and effort pool around you like watersheds: group funds, family flows, blended accounts. You track it all mentally and forgive it all eventually. Put banks around what must not flood away.',
@@ -702,6 +740,7 @@ export const K2_CELLS = {
       action: 'You erode obstacles rather than storming them: patient, fluid, suddenly through.',
       body: 'Your energy is tidal and cerebral: brilliant tides, murky lows, cleared by moving water.',
     },
+    adj: { catalyst: ['Silver-tongued', 'Inspired', 'Free-flowing'], friction: ['Corrosive', 'Mocking', 'Uncontainable'] },
     domain_readings: {
       Talent: 'Your talent is fluid genius: writing, strategy, humor, any craft where thought must flow around form. It resists containers and needs them. Choose loose ones, essays, seasons, series, and pour.',
       Performance: 'You perform by currents: the essay that spreads, the remark that travels. Your stage is wherever words flow. Publish more, polish less. Rivers are judged by movement, not by stillness.',
@@ -717,6 +756,7 @@ export const K2_CELLS = {
       action: 'You move liquidly between chances, in early, out clean, rarely anchored.',
       body: 'Your energy circulates: many light engagements over one heavy load, refreshed by travel.',
     },
+    adj: { catalyst: ['Far-flowing', 'Adaptive', 'Magnetic'], friction: ['Tide-tossed', 'Ungrounded', 'Dispersed'] },
     domain_readings: {
       Opportunity: 'Your chances arrive by water: distant markets, moving information, the current nobody else has felt yet. Act while it is early. Your edge is timing, and timing evaporates.',
       Ventures: 'Your ventures should float: trade, media, logistics, anything that moves. Portfolios over monuments. Keep each light enough to steer and honest enough to dock anywhere.',
@@ -732,6 +772,7 @@ export const K2_CELLS = {
       action: 'You administer gracefully: systems, budgets, routines that run without drought.',
       body: 'Your health is hydraulic: consistent sleep, steady intake, motion that keeps circulation honest.',
     },
+    adj: { catalyst: ['Prudent', 'Steady-flowing', 'Provident'], friction: ['Dammed-up', 'Wary', 'Clutching'] },
     domain_readings: {
       Wealth: 'Your wealth is flow-managed: salaries channeled, streams diversified, leaks found early. You prosper by routing, not risking. Map the canals once a year and fortune stays irrigated.',
       Savings: 'You save in reservoirs: automatic diversions filling quiet pools. Name each pool’s purpose, storm, harvest, joy, and the discipline becomes drinkable.',
@@ -747,6 +788,7 @@ export const K2_CELLS = {
       action: 'You apply pressure like water: total, patient, finding every gap in the defense.',
       body: 'Your energy is deep current: enormous, unhurried, dangerous to overdraw.',
     },
+    adj: { catalyst: ['Cool-headed', 'Unblinking', 'Deep-striking'], friction: ['Chilling', 'Relentless', 'Submerging'] },
     domain_readings: {
       Pressure: 'You convert pressure into depth: threats make you quieter and more exact. Beware pressure you keep underwater. Even oceans need to storm occasionally.',
       Command: 'You command by current: framing choices, shaping terrain, letting people arrive at your conclusion. It is masterful and unsettling. Show the hand sometimes. Trust grows where strategy is visible.',
@@ -762,6 +804,7 @@ export const K2_CELLS = {
       action: 'You administer adaptively: process that reroutes around obstacles without losing the sea.',
       body: 'Your health is regulated flow: steady rhythms, flexible plans, stagnation as the only enemy.',
     },
+    adj: { catalyst: ['Clear-channeled', 'Composed', 'Far-sighted'], friction: ['Overcautious', 'Muted', 'Current-bound'] },
     domain_readings: {
       Career: 'Your career advances by navigation: reading currents, timing passages, arriving at rank without visible strain. Diplomacy, coordination, the harbor-master roles. Your course is quiet and it compounds.',
       Status: 'Your standing spreads like watershed reputation: carried by word of mouth into places you have never been. Tend the source. Everything downstream tastes of it.',
@@ -777,6 +820,7 @@ export const K2_CELLS = {
       action: 'You act from the deep read: moves that seem sudden and were years in solution.',
       body: 'Your body is tidal: rhythms of immersion and surfacing, drained by shallow noise.',
     },
+    adj: { catalyst: ['Deep-diving', 'Prescient', 'Subtle'], friction: ['Submerged', 'Elusive', 'Unreachable'] },
     domain_readings: {
       Learning: 'You learn by immersion: total absorption until a field saturates and understanding crystallizes whole. Interrupted immersion loses everything, so defend the deep dives. Come up between them.',
       Intuition: 'Your intuition is sonar: reading what moves beneath speech, sensing the shape of the unsaid. It is uncannily accurate about people. Verify before acting. Sonar shows shape, never color.',
@@ -792,6 +836,7 @@ export const K2_CELLS = {
       action: 'You sustain quietly: needs met before they were named, credit declined.',
       body: 'Your body absorbs ambient stress: it needs literal water, sleep, and shores away from everyone.',
     },
+    adj: { catalyst: ['Replenishing', 'Serene', 'Receptive'], friction: ['Passive', 'Waterlogged', 'Cocooned'] },
     domain_readings: {
       Knowledge: 'Your knowledge is absorbed rather than studied: understanding soaked from every source you touch. You know more than your credentials admit. Let it surface. Springs are meant to be found.',
       Shelter: 'Your shelter is stillness: people pour out their storms and you hand back a level surface. That absorption has a cost curve. Drain what you take in somewhere safe.',

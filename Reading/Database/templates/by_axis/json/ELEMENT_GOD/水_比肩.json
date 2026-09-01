@@ -20,7 +20,18 @@
       "action": "You move at your own gradient: steady, self-directed, impossible to dam for long.",
       "body": "Your energy runs in currents: even output for weeks, then a quiet season to refill the source."
     },
-    "adj_chips": null,
+    "adj_chips": {
+      "catalyst": [
+        "Self-contained",
+        "Even-keeled",
+        "Independent"
+      ],
+      "friction": [
+        "Cold-running",
+        "Isolated",
+        "Impenetrable"
+      ]
+    },
     "k2_domain_readings": {
       "Peers": "Your peers are parallel currents: fellow travelers heading the same direction by different beds. You collect companions across every landscape you cross. Keep a few for the whole length of the river, not just the pretty stretches.",
       "Independence": "Water independence is having your own source: income, opinions, and inner weather that no one else controls upstream. Protect the headwaters. Everything else about you can flex.",

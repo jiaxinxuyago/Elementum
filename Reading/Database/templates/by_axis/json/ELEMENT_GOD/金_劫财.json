@@ -20,7 +20,18 @@
       "action": "You strike while others weigh. Decisiveness under stakes is your cleanest edge.",
       "body": "Your energy spikes for contests and crashes after. Build recovery into the schedule like a trainer would."
     },
-    "adj_chips": null,
+    "adj_chips": {
+      "catalyst": [
+        "Keen-edged",
+        "Competitive",
+        "Undaunted"
+      ],
+      "friction": [
+        "Cutthroat",
+        "Abrasive",
+        "Duel-prone"
+      ]
+    },
     "k2_domain_readings": {
       "Rivalry": "Rivalry is your whetstone: you improve fastest with a named competitor in view. Choose rivals worth becoming, because you will absorb their shape. And retire each rivalry the day it stops sharpening and starts nicking.",
       "Shared stakes": "You bet alongside people easily: ventures, splits, loans between friends. Metal keeps clean edges, so keep clean papers. The partnerships that survive you are the ones with terms as sharp as the trust.",

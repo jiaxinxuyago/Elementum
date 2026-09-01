@@ -20,7 +20,18 @@
       "action": "You work your own plot at your own pace, and what you start gets finished, quietly.",
       "body": "Your energy is bedrock steady: unhurried, unshakable through long loads, renewed by routine."
     },
-    "adj_chips": null,
+    "adj_chips": {
+      "catalyst": [
+        "Self-grounded",
+        "Solid",
+        "Dependable"
+      ],
+      "friction": [
+        "Entrenched",
+        "Immovable",
+        "Set-apart"
+      ]
+    },
     "k2_domain_readings": {
       "Peers": "Your peers are landholders like you: solid people with their own ground and no designs on yours. Trade help across fences freely. The neighbors you respect at seventy are the wealth this position promises.",
       "Independence": "Earth independence is owned ground: a home, a trade, a name that stands without cosigners. You will have it, because you refuse alternatives. Just leave a gate in the fence.",

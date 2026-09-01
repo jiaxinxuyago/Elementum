@@ -20,7 +20,18 @@
       "action": "You maintain relentlessly: the fixed fence, the paid tax, the kept schedule.",
       "body": "Your health is a homestead: solid while kept up, creaky when routine slips."
     },
-    "adj_chips": null,
+    "adj_chips": {
+      "catalyst": [
+        "Thrifty",
+        "Steadfast",
+        "Well-stocked"
+      ],
+      "friction": [
+        "Hoarding",
+        "Immobile",
+        "Miserly"
+      ]
+    },
     "k2_domain_readings": {
       "Wealth": "Your wealth is literal ground: property, durables, enterprises with deeds. In your element, holdings hold. Diversify just enough that one bad season cannot take the whole farm.",
       "Savings": "You save geologically: layers on layers, bedrock reserves. The craft is knowing enough. Set the number, then let the surplus fund life above ground.",
