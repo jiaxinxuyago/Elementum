@@ -24,10 +24,10 @@ import { useChart } from '../../store/chartContext.jsx';
 import { STEM_CARD_DATA } from '../../content/index.js';
 import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
 import { APP_URL } from '../../infra/index.js';
-import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_LINE } from './journeyData.js';
+import { buildJourneyModel, buildElementScreen, buildGlossary } from './journeyData.js';
 import { resolvePositions } from '../reading/positionsResolve.js';
 import { SLOT_RANK } from '../../content/positions.js';
-import { FEEDS, TAMES, CYCLE_LINE } from '../../content/cycles.js';
+import { FEEDS, TAMES } from '../../content/cycles.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
 import './journey.css';
 
@@ -282,20 +282,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const centerCls = isBladeArt ? 'center-seal a-seal' : 'center-seal ms';
   const centerSrc = isBladeArt ? sealSrc : paintSrc;
 
-  const track = (cur) => (
-    <span className="sp-track">
-      {towers.map((t) => (
-        t.presence > 0 ? (
-          <i key={t.el} className={t.el === cur ? 'cur' : undefined}
-            style={{ width: `${t.presence}%`, background: t.el === cur ? `var(--${t.el}Deep)` : `color-mix(in srgb, var(--${t.el}Deep) 40%, var(--silkDeep))` }} />
-        ) : (
-          <i key={t.el} className={t.el === cur ? 'cur gh' : 'gh'}
-            style={{ width: '2%', ...(t.el === cur ? { background: `var(--${t.el}Deep)` } : {}) }} />
-        )
-      ))}
-    </span>
-  );
-
   // the dot card's capsule DNA (npig pigment + bottom-up presence fill) —
   // shared by the dot card's 生/克 relation strip and the element page's
   // mechanism graphic.
@@ -366,27 +352,31 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const condIcon = m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged';
   const fnNote = fnOpen ? glossary[fnOpen] : null;
 
-  // Wheel-dot float (REA_02 §5d) — the energy-reading entry card: identity
-  // row, the 生/克 relation strip (iconographic), seat derivation + family
-  // line, state verdict, role adjectives, presence track, full-reading CTA.
+  // Wheel-dot float (REA_02 §5d, minimal-card owner ruling 2026-09-01) —
+  // rung ② of the ladder (DES_04 §AM.11): a HOOK, not a summary. Four
+  // layers only: band identity, the 生/克 mechanism graphic, ONE derivation
+  // claim (role pill inline), three keyword chips. The CTA carries the
+  // deep-seat destination as its subtext. Family line, state verdict,
+  // presence track, identity row, seat body line: retired from the card.
   const dot = dotOpen ? (() => {
     const r = m.byEl[dotOpen];
     if (!r) return null;
     if (r.isCore) {
-      return { r, verb: 'core', tint: 't-core', eq: `${r.name} is your Core`, body: glossary.core.body };
+      return { r, verb: 'core', tint: 't-core', eq: `${r.name} is your Core`, body: firstSent(glossary.core.body) };
     }
     const core = m.core.el;
     const edge = FEEDS[r.el] === core ? { a: r.el, b: core, verb: 'feeds' }
       : FEEDS[core] === r.el ? { a: core, b: r.el, verb: 'feeds' }
       : TAMES[r.el] === core ? { a: r.el, b: core, verb: 'tames' }
       : { a: core, b: r.el, verb: 'tames' };
-    const img = CYCLE_LINE[`${edge.a}>${edge.b}`] || '';
     return {
       r, ...edge, tint: r.role === 'friction' ? 't-fric' : 't-cat',
       eq: `${m.byEl[edge.a].name} ${edge.verb} ${m.byEl[edge.b].name}`,
-      body: `${img ? img.charAt(0).toUpperCase() + img.slice(1) + '. ' : ''}That is why ${r.name} is your ${r.relation}.`,
+      body: `That is why ${r.name} is your ${r.relation}.`,
     };
   })() : null;
+  // The card element's highest-ranked seat — the CTA subtext's destination.
+  const dotSeat = dot ? allPositions.filter((p) => p.el === dot.r.el).sort(bySeatRank)[0] || null : null;
 
   // data-ca="dock" removed with the dock retirement (2026-08-19): its stale
   // padv2 padding-bottom:18px override was clipping every screen's tail under
@@ -833,15 +823,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
               <span className="wp-wm"><Use id={`el-${dot.r.el}`} /></span>
               <button className="wp-x" aria-label="Close" onClick={() => setDotOpen(null)}><Use id="ico-close" /></button>
               <span className="wp-ey">{dot.verb === 'core' ? 'Your day master' : 'The cycle of energies'}</span>
+              <span className="wd-bandname"><Use id={`el-${dot.r.el}`} className="wd-elic" />{dot.r.name}<b className="wd-hz">{dot.r.hz}</b></span>
             </div>
             <div className="wp-inner">
-              <div className="wd-id">
-                <span className="wd-name"><Use id={`el-${dot.r.el}`} className="wd-elic" />{dot.r.name}<b className="wd-hz">{dot.r.hz}</b><span className="wd-pct">{dot.r.presence}%</span></span>
-                <span className={`role-pill ${dot.r.isCore ? 'core' : dot.r.role === 'friction' ? 'fric' : 'cat'}`}>
-                  {dot.r.isCore ? <Disc /> : dot.r.role === 'friction' ? <Use id="ar-down" /> : <Use id="ar-up" />}
-                  {dot.r.isCore ? 'Core' : dot.r.role === 'friction' ? 'Friction' : 'Catalyst'}
-                </span>
-              </div>
               {/* the 生/克 relation strip — capsule thumbnails (the dock's
                   design DNA: npig pigment + bottom-up presence fill) joined
                   by the law glyph; the core card pairs capsule with seal. */}
@@ -865,24 +849,20 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                 );
               })()}
               <span className="wd-eq">{dot.eq}</span>
-              <p className="wp-body">{dot.body}</p>
-              <p className="wd-fam">{FAMILY_LINE[dot.r.family]}</p>
-              {/* rung ② — the element's deep seat as a one-line hint
-                  (DES_04 §AM.11); the CTA below is the link */}
-              {(() => {
-                const ds = allPositions.filter((p) => p.el === dot.r.el).sort(bySeatRank)[0];
-                return ds ? (
-                  <p className="wd-seat"><b>{ds.term}.</b> {firstSent(ds.teaser || ds.defline)}</p>
-                ) : null;
-              })()}
-              <p className="wd-dx">Your {dot.r.name} is <b className="cond">{dot.r.dx.condition}</b>{dot.r.dx.remedy ? <> — <b className="appr">{dot.r.dx.remedy}</b> it.</> : <> — {m.foldVerdict}</>}</p>
+              {/* the ONE meaning line — the derivation claim, role pill inline
+                  as the card's only state signal (owner ruling 2026-09-01) */}
+              <p className="wp-body wd-mean">{dot.body}{' '}
+                <span className={`role-pill ${dot.r.isCore ? 'core' : dot.r.role === 'friction' ? 'fric' : 'cat'}`}>
+                  {dot.r.isCore ? <Disc /> : dot.r.role === 'friction' ? <Use id="ar-down" /> : <Use id="ar-up" />}
+                  {dot.r.isCore ? 'Core' : dot.r.role === 'friction' ? 'Friction' : 'Catalyst'}
+                </span>
+              </p>
               {dot.r.adj?.length ? (
                 <div className="wd-adj">{dot.r.adj.map((a) => <span key={a} className={`wd-adjchip${(dot.r.role === 'friction' || dot.r.coreExcess) ? ' down' : ''}`}>{a}</span>)}</div>
               ) : null}
-              {track(dot.r.el)}
               <button className="wp-codex" onClick={() => { setDotOpen(null); goElement(dot.r.el); }}>
                 <span className="wp-cx-ic"><Use id={`el-${dot.r.el}`} /></span>
-                <span className="wp-cx-tx"><b>Open the full {dot.r.name} reading</b><small>{dot.verb === 'core' ? 'the energy that is you' : `your ${dot.r.relation}, read in full`}</small></span>
+                <span className="wp-cx-tx"><b>Open the full {dot.r.name} reading</b><small>{dotSeat ? `starts at ${dotSeat.term}` : dot.verb === 'core' ? 'the energy that is you' : `your ${dot.r.relation}, read in full`}</small></span>
                 <span className="wp-cx-go"><Use id="ico-arrow-r" /></span>
               </button>
             </div>

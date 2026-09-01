@@ -2710,19 +2710,15 @@
 .jny .vx-box .crmain .ik-pct{font-size:8.5px;color:var(--inkLight);margin-top:2px}
 
 /* ─── wheel-dot entry card (REA_02 s5d — energy-reading entry) ─────────
-   The dot float at energy-tile fidelity: identity row, the iconographic
-   生/克 relation strip, seat + family + state verdict, role adjectives,
-   presence track, full-reading CTA. */
-.jny .wp-dotcard .wd-id{ display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 2px; }
-.jny .wp-dotcard .wd-name{ display: inline-flex; align-items: baseline; gap: 7px; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 21px; font-weight: 600; color: var(--inkDeep, #2b2722); }
+   Minimal card (owner ruling 2026-09-01, DES_04 §AM.11 rung ②): a hook,
+   not a summary. Band identity → the 生/克 mechanism graphic → ONE
+   derivation claim (role pill inline) → three keyword chips → CTA (the
+   deep-seat destination rides as its subtext). */
+.jny .wp-dotcard .wd-bandname{ position: relative; z-index: 1; display: inline-flex; align-items: baseline; gap: 7px; margin-top: 4px;
+    font-family: 'Cormorant Garamond', Georgia, serif; font-size: 21px; font-weight: 600; color: var(--inkDeep, #2b2722); }
 .jny .wp-dotcard .wd-elic{ width: 17px; height: 17px; align-self: center; }
 .jny .wp-dotcard .wd-hz{ font-family: 'Noto Serif SC', serif; font-size: 14px; font-weight: 500; color: var(--bronzeDark); }
-.jny .wp-dotcard .wd-pct{ font-size: 12.5px; color: #8a8278; letter-spacing: 0.4px; }
 .jny .wp-dotcard .wd-rel{ display: flex; align-items: center; justify-content: center; gap: 12px; margin: 10px 0 2px; }
-.jny .wp-dotcard .wd-chip{ width: 42px; height: 42px; border-radius: 50%; display: inline-flex; flex-direction: column; align-items: center; justify-content: center; gap: 0;
-    background: rgba(248,244,236,0.9); border: 1px solid var(--paperHair, #e2dbcc); box-shadow: inset 0 0 0 3px rgba(255,255,255,0.35); }
-.jny .wp-dotcard .wd-chip svg{ width: 15px; height: 15px; }
-.jny .wp-dotcard .wd-chip b{ font-family: 'Noto Serif SC', serif; font-size: 11px; font-weight: 600; line-height: 1.1; color: var(--inkDeep, #2b2722); }
 .jny .wp-dotcard .wd-link{ display: inline-flex; flex-direction: column; align-items: center; gap: 1px; min-width: 64px; }
 .jny .wp-dotcard .wd-lawhz{ font-style: normal; font-family: 'Noto Serif SC', serif; font-size: 15px; font-weight: 600; line-height: 1; }
 .jny .wp-dotcard .wd-link.feeds .wd-lawhz{ color: #4c7a4f; }
@@ -2734,17 +2730,12 @@
 .jny .wp-dotcard .wd-link.tames .wd-arrow path{ stroke: #a3543e; stroke-dasharray: 3 3; }
 .jny .wp-dotcard .wd-lawtx{ font-size: 9px; letter-spacing: 1.6px; text-transform: uppercase; color: #8a8278; }
 .jny .wp-dotcard .wd-eq{ display: block; text-align: center; font-size: 11px; letter-spacing: 1.8px; text-transform: uppercase; color: var(--bronzeDark); margin: 4px 0 8px; }
-.jny .wp-dotcard .wd-fam{ margin: 6px 0 0; font-size: 12.5px; line-height: 1.55; color: #6d675c; }
-.jny .wp-dotcard .wd-dx{ margin: 7px 0 0; font-size: 13px; color: var(--inkDeep, #2b2722); }
-.jny .wp-dotcard .wd-dx .cond{ color: var(--bronzeDark); }
-.jny .wp-dotcard .wd-dx .appr{ color: #4c7a4f; }
-.jny .wp-dotcard .wd-adj{ display: flex; flex-wrap: wrap; gap: 6px; margin: 9px 0 2px; }
+.jny .wp-dotcard .wd-mean{ margin: 4px 0 0; text-align: center; }
+.jny .wp-dotcard .wd-mean .role-pill{ vertical-align: 2px; margin-left: 3px; }
+.jny .wp-dotcard .wd-adj{ display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 9px 0 2px; }
 .jny .wp-dotcard .wd-adjchip{ font-size: 11px; letter-spacing: 0.6px; padding: 3px 9px; border-radius: 999px;
     background: rgba(76,122,79,0.10); border: 1px solid rgba(76,122,79,0.28); color: #3f6342; }
 .jny .wp-dotcard .wd-adjchip.down{ background: rgba(163,84,62,0.09); border-color: rgba(163,84,62,0.26); color: #8a4632; }
-.jny .wp-dotcard .sp-track{ display: flex; height: 5px; border-radius: 999px; overflow: hidden; margin: 11px 0 2px; gap: 1px; }
-.jny .wp-dotcard .sp-track i{ display: block; height: 100%; }
-.jny .wp-dotcard .wp-inner .wd-id{ margin: 0 0 6px; padding-bottom: 8px; border-bottom: 1px solid var(--paperHair, #e2dbcc); }
 
 /* ── dot-card capsule thumbnails — the dock tiles' design DNA, miniature ── */
 .jny .wp-dotcard .wd-rel{ gap: 14px; margin: 12px 0 4px; }
@@ -2861,9 +2852,6 @@
 .jny .jtake-el{ width: 15px; height: 15px; flex: none; margin-top: 2px; color: var(--bronzeDark); }
 .jny .jtake-t{ flex: 1; font-family: 'EB Garamond', Georgia, serif; font-size: 13.5px; line-height: 1.45; color: var(--inkDeep, #2b2722); }
 .jny .jtake-chev{ width: 13px; height: 13px; flex: none; margin-top: 3px; color: #a89c86; }
-/* rung ② — the dot card's deep-seat hint */
-.jny .wp-dotcard .wd-seat{ margin: 7px 0 0; font-family: 'EB Garamond', Georgia, serif; font-size: 12.5px; line-height: 1.5; color: var(--inkDeep, #2b2722); }
-.jny .wp-dotcard .wd-seat b{ font-weight: 600; }
 /* rungs ④–⑥ — seat ordering mark + the deeper-layers expander */
 .jny .elpos-start{ font-style: normal; font-family: 'Cinzel', Georgia, serif; font-size: 8.5px; letter-spacing: 1.2px;
     text-transform: uppercase; color: var(--bronzeDark); background: rgba(160,138,100,0.14);

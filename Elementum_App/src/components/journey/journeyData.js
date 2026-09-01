@@ -73,7 +73,9 @@ export const DEFLINE = {
 };
 
 // ── Round 2 (2026-07-23) ───────────────────────────────────────────
-// Family one-liners for the pill definition block (locked, share-flow verbatim)
+// Family one-liners (locked wording). Retired from the dot card by the
+// minimal-card ruling (owner 2026-09-01); preserved here as Codex ore
+// for the family-relations chapter.
 export const FAMILY_LINE = {
   self: 'This energy is you — your identity and your footing among equals.',
   resource: 'What feeds and backs you — the support and learning you run on.',
@@ -253,7 +255,6 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
   // §4b adjective chips.
   els.forEach((r) => {
     r.title = `${r.name} is Your ${r.relation}`;
-    r.familyLine = FAMILY_LINE[r.family] || '';
     const frictionSide = r.role === 'friction' || r.coreExcess;
     const catalystSide = !frictionSide && (r.role === 'catalyst' || r.role === 'ally' || r.missing || r.coreCatalyst);
     if (condition === 'Balanced') r.dx = { condition: 'Balanced', remedy: null };
