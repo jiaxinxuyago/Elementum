@@ -363,13 +363,14 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const dot = dotOpen ? (() => {
     const r = m.byEl[dotOpen];
     if (!r) return null;
-    // The verdict line carries the seat's §5f function noun (owner 2026-09-01:
-    // "surface the function noun on each energy CTA verdict line").
-    const pairFn = PAIR_CELLS[`${m.core.hz}_${r.hz}`]?.function;
-    const fnLabel = (K2_FUNCTIONS.find((f) => f.key === pairFn?.primary) || {}).label || '';
-    const fnClause = fnLabel ? ` It runs your ${fnLabel}.` : '';
+    // The card's text = definition + verdict (owner formula 2026-09-01):
+    // the DEFINITION speaks the §5f function claim ("Wood is your Action");
+    // the VERDICT (ELEMENT_PAIR.cta_verdict, teaser register) explains it.
+    const pairCell = PAIR_CELLS[`${m.core.hz}_${r.hz}`];
+    const fnLabel = (K2_FUNCTIONS.find((f) => f.key === pairCell?.function?.primary) || {}).label || '';
+    const verdict = pairCell?.cta_verdict || '';
     if (r.isCore) {
-      return { r, verb: 'core', tint: 't-core', eq: `${r.name} is your Core`, body: `${firstSent(glossary.core.body)}${fnClause}` };
+      return { r, verb: 'core', tint: 't-core', eq: `${r.name} is your Core`, fnLabel, verdict };
     }
     const core = m.core.el;
     const edge = FEEDS[r.el] === core ? { a: r.el, b: core, verb: 'feeds' }
@@ -379,7 +380,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
     return {
       r, ...edge, tint: r.role === 'friction' ? 't-fric' : 't-cat',
       eq: `${m.byEl[edge.a].name} ${edge.verb} ${m.byEl[edge.b].name}`,
-      body: `That is why ${r.name} is your ${r.relation}.${fnClause}`,
+      fnLabel, verdict,
     };
   })() : null;
   // The card element's highest-ranked seat — the CTA subtext's destination.
@@ -856,14 +857,18 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                 );
               })()}
               <span className="wd-eq">{dot.eq}</span>
-              {/* the ONE meaning line — the derivation claim, role pill inline
-                  as the card's only state signal (owner ruling 2026-09-01) */}
-              <p className="wp-body wd-mean">{dot.body}{' '}
-                <span className={`role-pill ${dot.r.isCore ? 'core' : dot.r.role === 'friction' ? 'fric' : 'cat'}`}>
-                  {dot.r.isCore ? <Disc /> : dot.r.role === 'friction' ? <Use id="ar-down" /> : <Use id="ar-up" />}
-                  {dot.r.isCore ? 'Core' : dot.r.role === 'friction' ? 'Friction' : 'Catalyst'}
-                </span>
-              </p>
+              {/* definition + verdict (owner formula 2026-09-01): the energy
+                  defined by its §5f function, then the teaser-register verdict
+                  explaining it; the role pill stays the only state signal */}
+              {dot.fnLabel && (
+                <p className="wd-def">{dot.r.name} is your <b>{dot.fnLabel}</b>{' '}
+                  <span className={`role-pill ${dot.r.isCore ? 'core' : dot.r.role === 'friction' ? 'fric' : 'cat'}`}>
+                    {dot.r.isCore ? <Disc /> : dot.r.role === 'friction' ? <Use id="ar-down" /> : <Use id="ar-up" />}
+                    {dot.r.isCore ? 'Core' : dot.r.role === 'friction' ? 'Friction' : 'Catalyst'}
+                  </span>
+                </p>
+              )}
+              {dot.verdict && <p className="wp-body wd-mean">{dot.verdict}</p>}
               {dot.r.adj?.length ? (
                 <div className="wd-adj">{dot.r.adj.map((a) => <span key={a} className={`wd-adjchip${(dot.r.role === 'friction' || dot.r.coreExcess) ? ' down' : ''}`}>{a}</span>)}</div>
               ) : null}

@@ -1,0 +1,158 @@
+{
+  "$variable": "cta_verdict",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "ELEMENT_PAIR": [
+      {
+        "id": "木_木",
+        "key": "木_木",
+        "canonical_name": "Wood core × Wood — the Core",
+        "value": "You recover by growing, and stillness drains you faster than effort ever will, so your health runs on having something alive to tend."
+      },
+      {
+        "id": "木_火",
+        "key": "木_火",
+        "canonical_name": "Wood core × Fire — the Voice",
+        "value": "What you have grown quietly wants a stage, and the warmth you release when you finally speak is what people remember you by."
+      },
+      {
+        "id": "木_土",
+        "key": "木_土",
+        "canonical_name": "Wood core × Earth — the Drive",
+        "value": "You build by tending ground, patient claims that compound, and your fortune favors what you can hold for years over what you can grab today."
+      },
+      {
+        "id": "木_金",
+        "key": "木_金",
+        "canonical_name": "Wood core × Metal — the Duty",
+        "value": "Discipline reaches you as a blade, exacting people, hard standards, and every cut you accept on purpose becomes shape you get to keep."
+      },
+      {
+        "id": "木_水",
+        "key": "木_水",
+        "canonical_name": "Wood core × Water — the Root",
+        "value": "Your thinking absorbs like rain into roots, slow and total, and what you learn deeply once feeds you for decades."
+      },
+      {
+        "id": "火_木",
+        "key": "火_木",
+        "canonical_name": "Fire core × Wood — the Root",
+        "value": "Your mind gathers fuel long before it flares, and the ideas you feed patiently become the insights people call sudden."
+      },
+      {
+        "id": "火_火",
+        "key": "火_火",
+        "canonical_name": "Fire core × Fire — the Core",
+        "value": "Your strength arrives in blazes and burns out in private, and how you refill between fires decides almost everything else in your chart."
+      },
+      {
+        "id": "火_土",
+        "key": "火_土",
+        "canonical_name": "Fire core × Earth — the Voice",
+        "value": "Your heat leaves you as something solid, homes, habits, made things, and people trust what you build longer than what you say."
+      },
+      {
+        "id": "火_金",
+        "key": "火_金",
+        "canonical_name": "Fire core × Metal — the Drive",
+        "value": "You act by forging, heat applied until something keeps its shape, and your money follows the finished piece rather than the bright idea."
+      },
+      {
+        "id": "火_水",
+        "key": "火_水",
+        "canonical_name": "Fire core × Water — the Duty",
+        "value": "Pressure reaches you cool and quiet, and the calm authorities you let bank your fire are the reason it lasts the night."
+      },
+      {
+        "id": "土_木",
+        "key": "土_木",
+        "canonical_name": "Earth core × Wood — the Duty",
+        "value": "Your obligations are alive, people rooted in your ground, and the claims you keep pruned are what hold your hillside together."
+      },
+      {
+        "id": "土_火",
+        "key": "土_火",
+        "canonical_name": "Earth core × Fire — the Root",
+        "value": "Your mind learns by warmth: lessons only settle once something about them catches, and what moves you once instructs you forever."
+      },
+      {
+        "id": "土_土",
+        "key": "土_土",
+        "canonical_name": "Earth core × Earth — the Core",
+        "value": "Your endurance is so quiet you forget it has limits, and the day you finally feel tired is years after you first were."
+      },
+      {
+        "id": "土_金",
+        "key": "土_金",
+        "canonical_name": "Earth core × Metal — the Voice",
+        "value": "You speak rarely and it lands like something forged, and the few words you release outlive whole conversations other people spent."
+      },
+      {
+        "id": "土_水",
+        "key": "土_水",
+        "canonical_name": "Earth core × Water — the Drive",
+        "value": "You act by channeling what moves, and wealth gathers wherever you set banks for a current, slow claims that irrigate for decades."
+      },
+      {
+        "id": "金_木",
+        "key": "金_木",
+        "canonical_name": "Metal core × Wood — the Drive",
+        "value": "You act by pruning, cutting away what wastes the light, and what you shape patiently ends up bearing fruit that careless hands never get."
+      },
+      {
+        "id": "金_火",
+        "key": "金_火",
+        "canonical_name": "Metal core × Fire — the Duty",
+        "value": "Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull."
+      },
+      {
+        "id": "金_土",
+        "key": "金_土",
+        "canonical_name": "Metal core × Earth — the Root",
+        "value": "Your mind takes things in slowly and keeps them forever, and your best judgments are the ones you let sit overnight."
+      },
+      {
+        "id": "金_金",
+        "key": "金_金",
+        "canonical_name": "Metal core × Metal — the Core",
+        "value": "You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill."
+      },
+      {
+        "id": "金_水",
+        "key": "金_水",
+        "canonical_name": "Metal core × Water — the Voice",
+        "value": "Your precision leaves you as flow, and the things you finally say arrive so smooth nobody sees how long you sharpened them."
+      },
+      {
+        "id": "水_木",
+        "key": "水_木",
+        "canonical_name": "Water core × Wood — the Voice",
+        "value": "What you feel becomes what you grow, and the people and projects you quietly water are your real body of work."
+      },
+      {
+        "id": "水_火",
+        "key": "水_火",
+        "canonical_name": "Water core × Fire — the Drive",
+        "value": "You act by choosing which fires to feed, and your fortune follows the few flames you steady rather than the many you chase."
+      },
+      {
+        "id": "水_土",
+        "key": "水_土",
+        "canonical_name": "Water core × Earth — the Duty",
+        "value": "Structure is what turns your depth into force, and the steady commitments you resent a little are exactly where your power compounds."
+      },
+      {
+        "id": "水_金",
+        "key": "水_金",
+        "canonical_name": "Water core × Metal — the Root",
+        "value": "Your mind sharpens whatever it absorbs, and the clean distinctions you cut in private become the clarity people borrow from you."
+      },
+      {
+        "id": "水_水",
+        "key": "水_水",
+        "canonical_name": "Water core × Water — the Core",
+        "value": "Your stamina refills in solitude and silence, and every season you skip that refill quietly borrows from the next one."
+      }
+    ]
+  }
+}

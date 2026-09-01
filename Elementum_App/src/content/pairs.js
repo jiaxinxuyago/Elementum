@@ -32,6 +32,7 @@ export const PAIR_CELLS = {
         action: 'You decide by starting: the sapling planted teaches you whether the plan was right.',
       },
     },
+    cta_verdict: 'You recover by growing, and stillness drains you faster than effort ever will, so your health runs on having something alive to tend.',
   },
   '木_火': {
     mechanism: {
@@ -46,6 +47,7 @@ export const PAIR_CELLS = {
         mind: 'You discover what you think by saying it while it burns.',
       },
     },
+    cta_verdict: 'What you have grown quietly wants a stage, and the warmth you release when you finally speak is what people remember you by.',
   },
   '木_土': {
     mechanism: {
@@ -60,6 +62,7 @@ export const PAIR_CELLS = {
         order: 'What you provide becomes order: the ground you tend sets where every path across it runs.',
       },
     },
+    cta_verdict: 'You build by tending ground, patient claims that compound, and your fortune favors what you can hold for years over what you can grab today.',
   },
   '木_金': {
     mechanism: {
@@ -74,6 +77,7 @@ export const PAIR_CELLS = {
         action: 'A hard rule concentrates you: given clean constraints, your growth goes vertical.',
       },
     },
+    cta_verdict: 'Discipline reaches you as a blade, exacting people, hard standards, and every cut you accept on purpose becomes shape you get to keep.',
   },
   '木_水': {
     mechanism: {
@@ -88,6 +92,7 @@ export const PAIR_CELLS = {
         body: 'Deep sleep is your classroom too: the rest that soaks you is what growth drinks.',
       },
     },
+    cta_verdict: 'Your thinking absorbs like rain into roots, slow and total, and what you learn deeply once feeds you for decades.',
   },
   '火_木': {
     mechanism: {
@@ -102,6 +107,7 @@ export const PAIR_CELLS = {
         body: 'Green time restores the thinker: gardens, walks, and living things refill your fuel.',
       },
     },
+    cta_verdict: 'Your mind gathers fuel long before it flares, and the ideas you feed patiently become the insights people call sudden.',
   },
   '火_火': {
     mechanism: {
@@ -117,6 +123,7 @@ export const PAIR_CELLS = {
         action: 'Conviction moves you instantly: the moment you see it, you are already lit.',
       },
     },
+    cta_verdict: 'Your strength arrives in blazes and burns out in private, and how you refill between fires decides almost everything else in your chart.',
   },
   '火_土': {
     mechanism: {
@@ -131,6 +138,7 @@ export const PAIR_CELLS = {
         mind: 'Teaching is how your thinking settles: explain it once and you own it.',
       },
     },
+    cta_verdict: 'Your heat leaves you as something solid, homes, habits, made things, and people trust what you build longer than what you say.',
   },
   '火_金': {
     mechanism: {
@@ -145,6 +153,7 @@ export const PAIR_CELLS = {
         order: 'What you forge becomes law: the tools you make end up setting the standards around you.',
       },
     },
+    cta_verdict: 'You act by forging, heat applied until something keeps its shape, and your money follows the finished piece rather than the bright idea.',
   },
   '火_水': {
     mechanism: {
@@ -159,6 +168,7 @@ export const PAIR_CELLS = {
         action: 'A cool deadline focuses your flame: pressure quiets the flicker and points the heat.',
       },
     },
+    cta_verdict: 'Pressure reaches you cool and quiet, and the calm authorities you let bank your fire are the reason it lasts the night.',
   },
   '土_木': {
     mechanism: {
@@ -173,6 +183,7 @@ export const PAIR_CELLS = {
         action: 'A living deadline moves you: you work hardest when something planted depends on it.',
       },
     },
+    cta_verdict: 'Your obligations are alive, people rooted in your ground, and the claims you keep pruned are what hold your hillside together.',
   },
   '土_火': {
     mechanism: {
@@ -187,6 +198,7 @@ export const PAIR_CELLS = {
         body: 'Celebration is restoration: sun, feasts, and open affection literally rebuild your ground.',
       },
     },
+    cta_verdict: 'Your mind learns by warmth: lessons only settle once something about them catches, and what moves you once instructs you forever.',
   },
   '土_土': {
     mechanism: {
@@ -202,6 +214,7 @@ export const PAIR_CELLS = {
         action: 'You act like a season: slow to start, impossible to stop once turned.',
       },
     },
+    cta_verdict: 'Your endurance is so quiet you forget it has limits, and the day you finally feel tired is years after you first were.',
   },
   '土_金': {
     mechanism: {
@@ -216,6 +229,7 @@ export const PAIR_CELLS = {
         mind: 'Writing sharpens your slow thinking: the sentence is where your ground finds its edge.',
       },
     },
+    cta_verdict: 'You speak rarely and it lands like something forged, and the few words you release outlive whole conversations other people spent.',
   },
   '土_水': {
     mechanism: {
@@ -230,6 +244,7 @@ export const PAIR_CELLS = {
         order: 'The wealth you channel becomes structure: managed current turns into the aqueduct that orders the valley.',
       },
     },
+    cta_verdict: 'You act by channeling what moves, and wealth gathers wherever you set banks for a current, slow claims that irrigate for decades.',
   },
   '金_木': {
     mechanism: {
@@ -244,6 +259,7 @@ export const PAIR_CELLS = {
         order: 'What you grow becomes structure: the timber you raise ends up framing the rules you live in.',
       },
     },
+    cta_verdict: 'You act by pruning, cutting away what wastes the light, and what you shape patiently ends up bearing fruit that careless hands never get.',
   },
   '金_火': {
     mechanism: {
@@ -258,6 +274,7 @@ export const PAIR_CELLS = {
         action: 'Under real pressure you act cleaner: crisis burns off your hesitation.',
       },
     },
+    cta_verdict: 'Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull.',
   },
   '金_土': {
     mechanism: {
@@ -272,6 +289,7 @@ export const PAIR_CELLS = {
         body: 'Real rest is part of the studying: sleep and routine are where the layers set.',
       },
     },
+    cta_verdict: 'Your mind takes things in slowly and keeps them forever, and your best judgments are the ones you let sit overnight.',
   },
   '金_金': {
     mechanism: {
@@ -287,6 +305,7 @@ export const PAIR_CELLS = {
         action: 'Decisions become motion fast in you: once judged, a thing is already being done.',
       },
     },
+    cta_verdict: 'You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill.',
   },
   '金_水': {
     mechanism: {
@@ -301,6 +320,7 @@ export const PAIR_CELLS = {
         mind: 'Speaking is how your thinking finishes: an idea is not done until it has been said.',
       },
     },
+    cta_verdict: 'Your precision leaves you as flow, and the things you finally say arrive so smooth nobody sees how long you sharpened them.',
   },
   '水_木': {
     mechanism: {
@@ -315,6 +335,7 @@ export const PAIR_CELLS = {
         mind: 'Explaining a thing plants it deeper in you: taught knowledge roots twice.',
       },
     },
+    cta_verdict: 'What you feel becomes what you grow, and the people and projects you quietly water are your real body of work.',
   },
   '水_火': {
     mechanism: {
@@ -329,6 +350,7 @@ export const PAIR_CELLS = {
         order: 'What you fuel becomes rank: kept flames turn into the hearth a whole house is ruled by.',
       },
     },
+    cta_verdict: 'You act by choosing which fires to feed, and your fortune follows the few flames you steady rather than the many you chase.',
   },
   '水_土': {
     mechanism: {
@@ -343,6 +365,7 @@ export const PAIR_CELLS = {
         action: 'Structure converts you to force: the same depth that idles in the open drives turbines in a channel.',
       },
     },
+    cta_verdict: 'Structure is what turns your depth into force, and the steady commitments you resent a little are exactly where your power compounds.',
   },
   '水_金': {
     mechanism: {
@@ -357,6 +380,7 @@ export const PAIR_CELLS = {
         body: 'Ordered spaces and clean inputs are how your body refills its depth.',
       },
     },
+    cta_verdict: 'Your mind sharpens whatever it absorbs, and the clean distinctions you cut in private become the clarity people borrow from you.',
   },
   '水_水': {
     mechanism: {
@@ -372,5 +396,6 @@ export const PAIR_CELLS = {
         action: 'You move when the tide is right and not before: timing is your entire style of force.',
       },
     },
+    cta_verdict: 'Your stamina refills in solitude and silence, and every season you skip that refill quietly borrows from the next one.',
   },
 };

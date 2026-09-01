@@ -314,6 +314,7 @@ for (const dm of PAIR_ELS) {
     file('ELEMENT_PAIR', key, key, null, {
       mechanism: cell?.mechanism ?? null,
       function: cell?.function ?? null,
+      cta_verdict: cell?.cta_verdict ?? null,
     }, ['src/content/pairs.js (PAIR_CELLS — regenerated wholesale from this station axis)'],
     { status_note: 'LOCKED ×25 (owner 2026-08-19: 金_水 template approved → batch) — element page sections 1–2' });
   }

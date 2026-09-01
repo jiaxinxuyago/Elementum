@@ -2730,8 +2730,11 @@
 .jny .wp-dotcard .wd-link.tames .wd-arrow path{ stroke: #a3543e; stroke-dasharray: 3 3; }
 .jny .wp-dotcard .wd-lawtx{ font-size: 9px; letter-spacing: 1.6px; text-transform: uppercase; color: #8a8278; }
 .jny .wp-dotcard .wd-eq{ display: block; text-align: center; font-size: 11px; letter-spacing: 1.8px; text-transform: uppercase; color: var(--bronzeDark); margin: 4px 0 8px; }
-.jny .wp-dotcard .wd-mean{ margin: 4px 0 0; text-align: center; }
-.jny .wp-dotcard .wd-mean .role-pill{ vertical-align: 2px; margin-left: 3px; }
+.jny .wp-dotcard .wd-def{ margin: 5px 0 0; text-align: center; font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 18px; font-weight: 600; color: var(--inkDeep, #2b2722); }
+.jny .wp-dotcard .wd-def b{ font-weight: 700; color: var(--bronzeDark); }
+.jny .wp-dotcard .wd-def .role-pill{ vertical-align: 3px; margin-left: 4px; }
+.jny .wp-dotcard .wd-mean{ margin: 5px 0 0; text-align: left; }
 .jny .wp-dotcard .wd-adj{ display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 9px 0 2px; }
 .jny .wp-dotcard .wd-adjchip{ font-size: 11px; letter-spacing: 0.6px; padding: 3px 9px; border-radius: 999px;
     background: rgba(76,122,79,0.10); border: 1px solid rgba(76,122,79,0.28); color: #3f6342; }
