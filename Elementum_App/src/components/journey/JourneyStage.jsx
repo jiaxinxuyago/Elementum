@@ -775,7 +775,15 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                                     </>
                                   );
                                 })() : (
-                                  <p className="body2 el-domlock" style={{ margin: '6px 0 0' }}>The full reading of this seat opens with Seeker.</p>
+                                  <>
+                                    {/* free-tier Stage A teaser (DES_04 §AM.11
+                                        softener, owner 2026-08-19): the summary
+                                        reading's declaration sentence + a
+                                        seat-specific inventory of what Seeker
+                                        unlocks — derived, no new content */}
+                                    <p className="elpos-reading">{firstSent(p.reading)}</p>
+                                    <p className="body2 el-domlock" style={{ margin: '8px 0 0' }}>With Seeker this seat opens in full: the reading, {p.domains.join(', ')}, {p.chapter ? `your ${p.chapter.replace('The ', '').toLowerCase()}, ` : ''}the people, the shadow, and the body.</p>
+                                  </>
                                 )}
                               </div>
                             )}
