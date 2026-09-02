@@ -17,8 +17,8 @@
     },
     "function": {
       "primary": "order",
-      "definition_catalyst": "Fire is your Order, and as a catalyst, it is the pressure that organizes you: deadlines, scrutiny, real stakes. You focus best when something is genuinely on the line, and drift when nothing is. Keep one commitment with external accountability at all times, a client, a coach, a date you cannot move.",
-      "definition_friction": "Fire is your Order, and as a friction, it is pressure landing on reserves that are already low: every demand feels urgent, so you answer all of them and recover from none. Pick the two obligations that actually pay you back, and practice saying a slow no to the rest.",
+      "definition_catalyst": "Fire is your Order, and as a catalyst, it is the pressure that organizes you: deadlines, scrutiny, real stakes. You focus best when something is genuinely on the line, and drift when nothing is.\n\nDay to day this looks like finishing more in the last two days than in the quiet two weeks before, working better with a witness, and going slack the moment a deadline moves. Low-stakes seasons quietly cost you the most.\n\nThe program: keep one commitment with external accountability at all times, a client, a coach, a date you cannot move. Break long projects into short public checkpoints. When motivation dips, add stakes before you add effort.",
+      "definition_friction": "Fire is your Order, and as a friction, it is pressure landing on reserves that are already low: every demand feels urgent, so you answer all of them and recover from none.\n\nDay to day this looks like a calendar full of other people’s emergencies, a jaw that will not unclench, and standards you keep meeting at costs nobody sees. Saying no feels more dangerous than being drained does.\n\nThe program: pick the two obligations that actually pay you back, and practice saying a slow no to the rest. Build one pressure-free hour into every day. Before accepting a new demand, name what it will replace.",
       "dips": {
         "action": "Under real pressure you act cleaner: crisis burns off your hesitation."
       }

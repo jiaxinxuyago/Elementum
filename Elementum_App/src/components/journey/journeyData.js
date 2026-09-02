@@ -414,10 +414,14 @@ export function buildElementScreen(model, el) {
     // THE FUNCTION (§5f): merged into the mechanism detail (owner 2026-09-01).
     fn,
     fnLabel,
-    // v2 definitions (owner 2026-09-02): role-variant continuations of the
-    // cta_verdict, resolved by the chart's role side (balanced → catalyst);
-    // fn.body remains the fallback until the ×20 batch lands.
-    fnDef: fn ? (((r.role === 'friction' || r.coreExcess) ? fn.definition_friction : fn.definition_catalyst) || fn.body || '') : '',
+    // v3 definitions (owner re-org 2026-09-02): the role-resolved FULL
+    // function reading (3 ¶, \n\n separated) lives on its own detail page;
+    // the card shows the DERIVED teaser (the reading's first sentence).
+    ...((() => {
+      const fnDef = fn ? (((r.role === 'friction' || r.coreExcess) ? fn.definition_friction : fn.definition_catalyst) || fn.body || '') : '';
+      const dot = fnDef.indexOf('.');
+      return { fnDef, fnTeaser: dot > 0 ? fnDef.slice(0, dot + 1) : fnDef };
+    })()),
     // THE DIAGNOSIS (owner 2026-09-01): the logic chain spoken — core state ×
     // chemistry direction → catalyst/friction → directive. Templated derived
     // vocabulary (no authored corpus); the graphic shows the same equation.
