@@ -420,7 +420,13 @@ export function buildElementScreen(model, el) {
     // function reading (3 ¶, \n\n separated) lives on its own detail page;
     // the card shows the DERIVED teaser (the reading's first sentence).
     ...((() => {
-      const fnDef = fn ? (((r.role === 'friction' || r.coreExcess) ? fn.definition_friction : fn.definition_catalyst) || fn.body || '') : '';
+      const raw = fn ? (((r.role === 'friction' || r.coreExcess) ? fn.definition_friction : fn.definition_catalyst) || fn.body || '') : '';
+      // display de-dup (owner 2026-09-02): the claim TITLES the section now,
+      // so the reading renders with its claim clause stripped — "As a
+      // friction, it is intake…" / "Running over, it is…". Corpus untouched.
+      const prefix = `${r.name} is your ${fnLabel}, and `;
+      const rest = raw.startsWith(prefix) ? raw.slice(prefix.length) : null;
+      const fnDef = rest ? rest.charAt(0).toUpperCase() + rest.slice(1) : raw;
       const dot = fnDef.indexOf('.');
       return { fnDef, fnTeaser: dot > 0 ? fnDef.slice(0, dot + 1) : fnDef };
     })()),
