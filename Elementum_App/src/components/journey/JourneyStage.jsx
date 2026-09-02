@@ -667,12 +667,12 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     <span className="laylab">THE FUNCTION</span>
                     {/* the claim line is THIS section's title (owner 2026-09-02) */}
                     <span className="serifline el-teasetitle">{elScreen.elName} is your {elScreen.fnLabel}.</span>
-                    {/* the personality keywords ride with the claim here too
-                        (owner 2026-09-02: they were cover-only) */}
+                    <span className="el-teasep" style={{ marginTop: 2 }}>{elScreen.fnTeaser}</span>
+                    {/* the personality keywords close the text block (owner
+                        2026-09-02: below the paragraph, like the cover) */}
                     {m.byEl[elScreen.el].adj?.length ? (
                       <span className="wd-adj el-fnadj">{m.byEl[elScreen.el].adj.map((a) => <span key={a} className={`wd-adjchip${(m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess) ? ' down' : ''}`}>{a}</span>)}</span>
                     ) : null}
-                    <span className="el-teasep" style={{ marginTop: 4 }}>{elScreen.fnTeaser}</span>
                     <span className="readcirc sm el-goarrow"><Use id="ico-arrow-r" /></span>
                   </button>
                 )}
@@ -737,14 +737,14 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   <div className="cardstock el-fncard">
                     <span className="laylab">THE FUNCTION</span>
                     <span className="serifline el-teasetitle">{elScreen.elName} is your {elScreen.fnLabel}.</span>
-                    {m.byEl[elScreen.el].adj?.length ? (
-                      <span className="wd-adj el-fnadj">{m.byEl[elScreen.el].adj.map((a) => <span key={a} className={`wd-adjchip${(m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess) ? ' down' : ''}`}>{a}</span>)}</span>
-                    ) : null}
                     {/* the full function reading (v3): ¶1 definition · ¶2 day
-                        to day · ¶3 the program; dips close as the coda */}
+                        to day · ¶3 the program; keywords + dips close */}
                     {elScreen.fnDef.split('\n\n').map((p, i) => (
                       <p className="body2 el-fnbody" key={i} style={{ margin: i ? '9px 0 0' : '8px 0 0' }}>{p}</p>
                     ))}
+                    {m.byEl[elScreen.el].adj?.length ? (
+                      <span className="wd-adj el-fnadj" style={{ marginTop: 9 }}>{m.byEl[elScreen.el].adj.map((a) => <span key={a} className={`wd-adjchip${(m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess) ? ' down' : ''}`}>{a}</span>)}</span>
+                    ) : null}
                     {Object.entries(elScreen.fn?.dips || {}).map(([k, txt]) => (
                       <p className="body2 el-funcrow" key={k} style={{ margin: '9px 0 0' }}><b className="el-funclab">{(elScreen.functionsDef.find((f) => f.key === k) || { label: k }).label}.</b> {txt}</p>
                     ))}
