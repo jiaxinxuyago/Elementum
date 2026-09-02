@@ -405,7 +405,8 @@ export function buildElementScreen(model, el) {
     el, name: r.name.toUpperCase(), hz: r.hz, cls: `a-${el}`,
     pig: `var(--${el})`,
     reye, roleTx, roleKind,
-    title: r.hook || `${r.keyword} — your ${r.relation}`, tag: r.tag,
+    // tile hook + tag retired from the hero (owner 2026-09-01: the hero card
+    // headline is the function CLAIM; ENERGY_TILE hooks become unrendered ore)
     selfCard,
     elName: r.name, relation: r.relation, dx: r.dx,
     mech,
@@ -417,6 +418,8 @@ export function buildElementScreen(model, el) {
     // THE FUNCTION (§5f): merged into the mechanism detail (owner 2026-09-01).
     fn,
     fnLabel,
+    // the pair's CTA verdict (teaser register) — the hero card's meaning line
+    verdict: pair?.cta_verdict || '',
     functionsDef: K2_FUNCTIONS,
     domTitle: 'What it rules in your life',
     // RULING DOMAINS (EP-C): the gods' home — per present face, a sub-block

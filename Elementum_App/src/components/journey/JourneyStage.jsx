@@ -608,15 +608,42 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                 <span className="bl el-back">YOUR ENERGIES · {elScreen.name}</span>
               </button>
               <div className="scrollwrap"><div className="padv2">
-                <div className="hero2" style={{ height: 156 }}>
-                  <span className={`hart el-art ${elScreen.cls}`} /><span className="scrim" /><span className="hair el-hair" style={{ background: elScreen.pig }} />
-                  <span className="bighz el-hz" aria-hidden="true">{elScreen.hz}</span>
-                  <span className="hrole"><span className={`rchip el-chip ${elScreen.roleKind === 'who' ? 'corec' : elScreen.roleKind}`}>{elScreen.roleKind === 'up' && <Use id="ar-up" />}{elScreen.roleKind === 'down' && <Use id="ar-down" />}{elScreen.roleTx}</span></span>
-                  <span className="hcontent">
-                    <span className="reye el-reye"><Use id={`el-${elScreen.el}`} /> {elScreen.reye}</span>
-                    <span className="htitle el-title">{elScreen.title}</span><span className="hsub el-tag">{elScreen.tag}</span>
-                  </span>
-                </div>
+                {/* THE HERO CARD (owner 2026-09-01): the art band and the
+                    mechanism card CONSOLIDATED — the old energy-pill expanded
+                    card reborn at element grain. Anatomy by significance:
+                    ① identity + state (art, name·%, role chip) ② the function
+                    CLAIM as the headline ③ dominance track + rank ④ the
+                    chemistry formula ⑤ the verdict (teaser register) ⑥ the
+                    seek/skip diagnosis, closing on the directive. Tapping
+                    opens the mechanism detail. Tile hook + tag retired. */}
+                {elScreen.mech && (
+                  <button className="cardstock el-tease el-herocard" onClick={() => openSec('mech')}>
+                    <div className="hero2 el-heroart" style={{ height: 148 }}>
+                      <span className={`hart el-art ${elScreen.cls}`} /><span className="scrim" /><span className="hair el-hair" style={{ background: elScreen.pig }} />
+                      <span className="bighz el-hz" aria-hidden="true">{elScreen.hz}</span>
+                      <span className="hrole"><span className={`rchip el-chip ${elScreen.roleKind === 'who' ? 'corec' : elScreen.roleKind}`}>{elScreen.roleKind === 'up' && <Use id="ar-up" />}{elScreen.roleKind === 'down' && <Use id="ar-down" />}{elScreen.roleTx}</span></span>
+                      <span className="hcontent">
+                        <span className="reye el-reye"><Use id={`el-${elScreen.el}`} /> {elScreen.reye}</span>
+                        <span className="htitle el-title">{elScreen.elName} is your {elScreen.fnLabel}.</span>
+                      </span>
+                    </div>
+                    <span className="sp-track el-herotrack">
+                      {towers.map((t) => (
+                        t.presence > 0
+                          ? <i key={t.el} className={t.el === elScreen.el ? 'cur' : undefined} style={{ width: `${t.presence}%`, background: t.el === elScreen.el ? `var(--${t.el}Deep)` : `color-mix(in srgb, var(--${t.el}Deep) 40%, var(--silkDeep))` }} />
+                          : <i key={t.el} className={t.el === elScreen.el ? 'cur gh' : 'gh'} style={{ width: '2%', ...(t.el === elScreen.el ? { background: `var(--${t.el}Deep)` } : {}) }} />
+                      ))}
+                    </span>
+                    <span className="el-herorank">{(() => { const rk = towers.findIndex((t) => t.el === elScreen.el) + 1; return rk === 1 ? 'Your strongest energy' : `Your ${['', '', '2nd', '3rd', '4th', '5th'][rk]} strongest energy`; })()}</span>
+                    {mechViz}
+                    {elScreen.verdict && <span className="el-teasep el-heroverdict">{elScreen.verdict}</span>}
+                    <span className="el-herodx">
+                      {elScreen.mech.turnLab && <span className="laylab el-verdlab" style={{ fontWeight: 600, color: `var(--${elScreen.el}Deep)` }}>{elScreen.mech.turnLab}</span>}
+                      <span className="el-teasep" style={{ marginTop: 3 }}>{elScreen.mechTeaser}</span>
+                    </span>
+                    <span className="el-teasego"><Use id="ico-chev-r" /></span>
+                  </button>
+                )}
                 {/* BAND-C self_card — only the CORE element carries the band mirror */}
                 {elScreen.selfCard && (
                   <div className="cardstock el-selfcard">
@@ -624,23 +651,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     <p className="serifline el-selfface" style={{ margin: '0 0 5px', fontSize: 14.5 }}>{elScreen.selfCard.face}</p>
                     <p className="body2 el-selfpresence" style={{ margin: 0 }}>{elScreen.selfCard.presence}</p>
                   </div>
-                )}
-                {/* Curation pass (owner rulings 2026-08-19): the page is a
-                    TEASER INDEX — three claim-titled cards (Set A), each a
-                    conclusive derived verdict + visual, opening its detail
-                    sub-screen. Gating: mechanism + function free in full;
-                    the domains detail's readings are Seeker. */}
-                {/* consolidated card (owner 2026-09-01): THE MECHANISM and
-                    THE FUNCTION merged — one card, titled with the FUNCTION
-                    noun; its detail carries both paragraphs. */}
-                {elScreen.mech && (
-                  <button className="cardstock el-tease" onClick={() => openSec('mech')}>
-                    <span className="laylab">THE MECHANISM</span>
-                    <span className="serifline el-teasetitle">{elScreen.mechTitle}</span>
-                    {mechViz}
-                    <span className="el-teasep">{elScreen.mechTeaser}</span>
-                    <span className="el-teasego"><Use id="ico-chev-r" /></span>
-                  </button>
                 )}
                 {elFaces.length ? (
                   <button className="cardstock el-tease" onClick={() => openSec('dom')}>
