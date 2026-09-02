@@ -313,26 +313,44 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const openSec = (k) => { setElSec(k); setPosOpen(k === 'dom' ? (elPositions[0]?.id ?? null) : null); setDeepOpen(false); setGodOpen(null); goScreen('elsec'); };
   // The mechanism equation graphic (capsules + 生/克 link, wp-dotcard scope) —
   // shared by the mechanism teaser card and its detail screen.
+  // The graphic is a true EQUATION (owner 2026-09-01): the core capsule
+  // wears its state, and the strip concludes in the role — chemistry ×
+  // state = catalyst/friction, readable without a word of prose.
+  const mvCoreTag = m.condition !== 'Balanced' ? m.condition.toUpperCase() : null;
+  const capMv = (el) => (el === m.core.el && mvCoreTag)
+    ? <span className="el-mvcore">{capThumb(el)}<i className="el-mvstate">{mvCoreTag}</i></span>
+    : capThumb(el);
+  const mvResult = elScreen ? (
+    <>
+      <span className="el-mveqs" aria-hidden="true">=</span>
+      {m.condition === 'Balanced'
+        ? <span className="role-pill cond"><Use id="ic-balanced" />Balanced</span>
+        : elScreen.roleKind === 'down' ? <span className="role-pill fric"><Use id="ar-down" />Friction</span>
+        : elScreen.roleKind === 'up' ? <span className="role-pill cat"><Use id="ar-up" />Catalyst</span>
+        : <span className="role-pill cond"><Use id={m.condition === 'Overfueled' ? 'ic-charged' : 'ic-receptive'} />{m.condition}</span>}
+    </>
+  ) : null;
   const mechViz = elScreen?.mech ? (
     <div className="wp-dotcard el-mechviz">
       {elScreen.mech.verb === 'core' ? (
         <div className="wd-rel el-mechrel">
-          {capThumb(elScreen.mech.a)}
+          {capMv(elScreen.mech.a)}
           <span className="wd-link core"><i className="wd-lawhz">主</i><span className="wd-lawtx">day master</span></span>
           <span className="wd-capseal" style={{ backgroundImage: `url('${centerSrc}')` }} aria-hidden="true" />
         </div>
       ) : (
         <div className="wd-rel el-mechrel">
-          {capThumb(elScreen.mech.a)}
+          {capMv(elScreen.mech.a)}
           <span className={`wd-link ${elScreen.mech.verb}`}>
             <i className="wd-lawhz">{elScreen.mech.verb === 'feeds' ? '生' : '克'}</i>
             <svg className="wd-arrow" viewBox="0 0 44 10" aria-hidden="true"><path d="M2 5 H36 M36 5 l-6 -3.6 M36 5 l-6 3.6" /></svg>
             <span className="wd-lawtx">{elScreen.mech.verb}</span>
           </span>
-          {capThumb(elScreen.mech.b)}
+          {capMv(elScreen.mech.b)}
         </div>
       )}
-      <span className="wd-eq el-mecheq">{elScreen.mech.eq}</span>
+      {/* the conclusion line: the equation caption fused with the role result */}
+      <span className="el-mvres"><span className="wd-eq el-mecheq">{elScreen.mech.eq}</span>{mvResult}</span>
     </div>
   ) : null;
   // The element's seats (REA_02 §5e echo): the positions this energy holds.
@@ -640,11 +658,10 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                       </span>
                     </div>
                     {mechViz}
-                    {elScreen.verdict && <span className="el-teasep el-heroverdict">{elScreen.verdict}</span>}
-                    <span className="el-herodx">
-                      {elScreen.mech.turnLab && <span className="laylab el-verdlab" style={{ fontWeight: 600, color: `var(--${elScreen.el}Deep)` }}>{elScreen.mech.turnLab}</span>}
-                      <span className="el-teasep" style={{ marginTop: 3 }}>{elScreen.mechTeaser}</span>
-                    </span>
+                    {/* the diagnosis verdict (owner 2026-09-01): the same
+                        equation the graphic shows, spoken as a chain — state,
+                        chemistry, conclusion, directive */}
+                    {elScreen.diag && <span className="el-teasep el-herodiag">{elScreen.diag}</span>}
                     <span className="el-teasego"><Use id="ico-chev-r" /></span>
                   </button>
                 )}

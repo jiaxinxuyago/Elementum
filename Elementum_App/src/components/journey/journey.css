@@ -2829,9 +2829,15 @@
 .jny .el-herocard .el-herotrack i.cur{ box-shadow: inset 0 0 0 1.5px rgba(255,255,255,0.85); }
 .jny .el-herocard .el-heropct{ flex: none; font-family: 'EB Garamond', Georgia, serif; font-size: 12.5px;
     font-weight: 600; color: #f6f1e6; text-shadow: 0 1px 3px rgba(20,17,13,0.55); }
-.jny .el-herocard .el-heroverdict{ margin-top: 4px; }
-.jny .el-herocard .el-herodx{ display: block; margin-top: 9px; padding-top: 8px;
-    border-top: 1px dotted rgba(139,115,85,0.26); }
+.jny .el-herocard .el-herodiag{ margin-top: 6px; }
+/* the equation graphic's state tag + result (owner 2026-09-01) */
+.jny .el-mvcore{ display: inline-flex; flex-direction: column; align-items: center; gap: 4px; }
+.jny .el-mvstate{ font-style: normal; font-family: 'Cinzel', Georgia, serif; font-size: 7.5px; letter-spacing: 1.1px;
+    text-transform: uppercase; color: var(--bronzeDark); background: rgba(160,138,100,0.14);
+    border: 1px solid rgba(160,138,100,0.4); border-radius: 999px; padding: 1px 6px; }
+.jny .el-mveqs{ font-family: 'Noto Serif SC', serif; font-size: 13px; color: #8a8278; }
+.jny .el-mvres{ display: flex; align-items: center; justify-content: center; gap: 8px; margin: 4px 0 8px; }
+.jny .el-mvres .wd-eq{ margin: 0; }
 .jny .elgod-name{ font-size: 14px; }
 .jny .elgod-name b{ font-weight: 600; }
 .jny .el-godshare-in{ font-size: 11.5px; color: #8a8278; }

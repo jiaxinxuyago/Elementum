@@ -391,16 +391,8 @@ export function buildElementScreen(model, el) {
 
   const fn = pair?.function || null;
   const fnLabel = (K2_FUNCTIONS.find((f) => f.key === fn?.primary) || {}).label || '';
-  // Curation v6 (owner 2026-08-19): every teaser card carries exactly ONE
-  // conclusive line — the corpus's own opening quoted verbatim (an exact
-  // foretaste of the detail). Mechanism = the state turn's first sentence;
-  // function = the body's first sentence; domains = the lead seat's defline
-  // (built in the view, it needs the resolved positions).
-  const firstSentence = (s) => { const i = s.indexOf('.'); return i >= 0 ? s.slice(0, i + 1) : s; };
-  const mechTeaser = mech
-    ? (mech.turn ? firstSentence(mech.turn)
-      : r.isCore ? 'In your chart it holds its measure.' : 'In your chart it runs balanced: nothing to force.')
-    : '';
+  // (the mech state-turn teaser retired 2026-09-01 — the hero card's second
+  // component is the DIAGNOSIS verdict; the turn still renders in the detail)
 
   return {
     el, name: r.name.toUpperCase(), hz: r.hz, cls: `a-${el}`,
@@ -415,12 +407,42 @@ export function buildElementScreen(model, el) {
     // the seat noun ("Why Wood is your Action") — the seat noun is taught
     // inside the corpus paragraphs, not in titles.
     mechTitle: r.isCore ? 'The energy that is you' : `Why ${r.name} is your ${fnLabel}`,
-    mechTeaser,
     // THE FUNCTION (§5f): merged into the mechanism detail (owner 2026-09-01).
     fn,
     fnLabel,
-    // the pair's CTA verdict (teaser register) — the hero card's meaning line
-    verdict: pair?.cta_verdict || '',
+    // THE DIAGNOSIS (owner 2026-09-01): the logic chain spoken — core state ×
+    // chemistry direction → catalyst/friction → directive. Templated derived
+    // vocabulary (no authored corpus); the graphic shows the same equation.
+    diag: (() => {
+      const coreName = model.core.name;
+      const cond = model.condition;
+      if (r.isCore) {
+        return cond === 'Overfueled'
+          ? `This is your core itself, and it runs overfueled: more ${r.name} than your chart can spend. The surplus is the friction. Channel it.`
+          : cond === 'Underfueled'
+            ? `This is your core itself, and it runs underfueled: your ${r.name} spends more than it takes in. Refilling it is the first work of your chart.`
+            : `This is your core itself, and it holds its measure. Keep the balance rather than forcing it.`;
+      }
+      if (cond === 'Balanced') {
+        return `Your ${coreName} core runs balanced, so nothing here needs forcing. ${r.name} plays its part in the cycle, and you can let it.`;
+      }
+      const over = cond === 'Overfueled';
+      const shape = edge.verb === 'feeds' ? (edge.a === r.el ? 'feed' : 'drain') : (edge.a === r.el ? 'press' : 'spend');
+      return {
+        feed: over
+          ? `Your ${coreName} core is overfueled, and ${r.name} pours more in. More fuel on a full fire is friction. Ease off ${r.name}.`
+          : `Your ${coreName} core is underfueled, and ${r.name} pours fuel in. A hungry core wants exactly this, so ${r.name} is a catalyst. Seek it.`,
+        drain: over
+          ? `Your ${coreName} core is overfueled, and ${r.name} draws that surplus out. A full core wants spending, so ${r.name} is a catalyst. Seek it.`
+          : `Your ${coreName} core is underfueled, and ${r.name} keeps drawing it out. Spending what is already scarce is friction. Ease off ${r.name}.`,
+        press: over
+          ? `Your ${coreName} core is overfueled, and ${r.name} presses against it. Force with nowhere to go wants exactly that shaping, so ${r.name} is a catalyst. Seek it.`
+          : `Your ${coreName} core is underfueled, and ${r.name} presses on it anyway. Pressure on a low flame is friction. Ease off ${r.name}.`,
+        spend: over
+          ? `Your ${coreName} core is overfueled, and shaping ${r.name} spends the extra force. A full core wants work to do, so ${r.name} is a catalyst. Seek it.`
+          : `Your ${coreName} core is underfueled, and shaping ${r.name} costs force it barely has. That spending is friction for now. Ease off ${r.name}.`,
+      }[shape];
+    })(),
     functionsDef: K2_FUNCTIONS,
     domTitle: 'What it rules in your life',
     // RULING DOMAINS (EP-C): the gods' home — per present face, a sub-block
