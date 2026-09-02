@@ -178,7 +178,7 @@ Glance labels are ONE punchy keyword ("Insight — your Root"), never `[modifier
 
 Forks resolved: Drive over Harvest, Duty over Trial; law #4 scoped to persona-name slots so Root is legal. Glance grammar: **`[Keyword] — your [Relation]`**.
 
-**5b-ii · LOCKED — the five SHADOW nouns (owner 2026-08-14).** The relation nouns double as the CATALYST-form vocabulary; each has a shadow twin — the same force in excess — that FRICTION advice surfaces speak through instead. This resolves the "skip your Root" contradiction: anatomy is never insulted; the friction verdict lands on the shadow noun (skip-row glance grammar: `[Element] is your [Shadow]`). Anatomy nouns remain the teaching layer everywhere else (wheel, pill unfolds, FAMILY_LINE, element heroes).
+**5b-ii · LOCKED — the five SHADOW nouns (owner 2026-08-14; row grammar superseded 2026-09-01).** The relation nouns double as the CATALYST-form vocabulary; each has a shadow twin — the same force in excess — that FRICTION advice surfaces speak through instead. This resolves the "skip your Root" contradiction: anatomy is never insulted; the friction verdict lands on the shadow noun. **Row-grammar amendment (owner 2026-09-01): the seek/skip rows and the share card's Seek/Skip columns now speak the §5f FUNCTION noun (`[Element] is your [Function]` — "Fire is your Order"), matching the dot card they open; the shadow nouns remain the friction-verdict vocabulary (mechanism friction turns, element-screen state verdicts), and the seat nouns remain the element page's teaching layer.**
 
 | Family | Catalyst form (= relation noun) | **Shadow form (friction)** | The turn |
 |---|---|---|---|

@@ -360,6 +360,11 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   // claim (role pill inline), three keyword chips. The CTA carries the
   // deep-seat destination as its subtext. Family line, state verdict,
   // presence track, identity row, seat body line: retired from the card.
+  // The §5f function noun for an element (bijection, owner 2026-09-01) — the
+  // wheel panel's rows and the dot card speak the SAME vocabulary; the seat
+  // noun stays on the element page, the shadow noun in friction verdicts.
+  const fnNoun = (r) => (K2_FUNCTIONS.find((f) => f.key === PAIR_CELLS[`${m.core.hz}_${r.hz}`]?.function?.primary) || {}).label || r.relation;
+
   const dot = dotOpen ? (() => {
     const r = m.byEl[dotOpen];
     if (!r) return null;
@@ -550,7 +555,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                           {m.seek.map((r) => (
                             <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => setDotOpen(r.el)}>
                               <span className={`ik-chip${r.missing ? ' ghosted' : ''}`}><Use id={`el-${r.el}`} className="elmark" /><span className={`ik-plate a-${r.el}`} /></span>
-                              <span className="crmain"><span className="ik-phrase"><b className="ik-el">{r.name}</b><span className="ik-is">is your</span><b className="ik-rel">{r.relation}</b></span><span className="ik-pct">{r.presence}%</span></span>
+                              <span className="crmain"><span className="ik-phrase"><b className="ik-el">{r.name}</b><span className="ik-is">is your</span><b className="ik-rel">{fnNoun(r)}</b></span><span className="ik-pct">{r.presence}%</span></span>
                             </button>
                           ))}
                         </div>
@@ -559,9 +564,11 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                           {m.skip.map((r) => (
                             <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => setDotOpen(r.el)}>
                               <span className={`ik-chip${r.missing ? ' ghosted' : ''}`}><Use id={`el-${r.el}`} className="elmark" /><span className={`ik-plate a-${r.el}`} /></span>
-                              {/* Friction rows speak the SHADOW noun (REA_02 §5b-ii) — the anatomy
-                                  noun is never the thing the reading says to skip. */}
-                              <span className="crmain"><span className="ik-phrase"><b className="ik-el">{r.name}</b><span className="ik-is">is your</span><b className="ik-rel">{r.shadow}</b></span><span className="ik-pct">{r.presence}%</span></span>
+                              {/* Both panels speak the §5f FUNCTION noun (owner 2026-09-01,
+                                  superseding the seat/shadow row nouns) — the rows and the
+                                  dot card they open share one vocabulary; the shadow noun
+                                  (REA_02 §5b-ii) lives on in the friction verdicts. */}
+                              <span className="crmain"><span className="ik-phrase"><b className="ik-el">{r.name}</b><span className="ik-is">is your</span><b className="ik-rel">{fnNoun(r)}</b></span><span className="ik-pct">{r.presence}%</span></span>
                             </button>
                           ))}
                         </div>
@@ -950,7 +957,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                             <span className="v-bar"><i style={{ height: `${Math.round((r.presence / pMax) * 100)}%`, background: `var(--${r.el}Deep)` }} /></span>
                             <span className="v-mk" style={{ color: `var(--${r.el}Deep)` }}><svg viewBox="0 0 24 24" fill="currentColor"><use href={U(`el-${r.el}`)} /></svg></span>
                             <span className="v-el">{r.name}</span>
-                            <span className="v-noun">{r.relation}</span>
+                            <span className="v-noun">{fnNoun(r)}</span>
                           </div>
                         ))}
                       </div>
@@ -964,9 +971,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                             <span className="v-bar"><i style={{ height: `${Math.round((r.presence / pMax) * 100)}%`, background: `var(--${r.el}Deep)` }} /></span>
                             <span className="v-mk" style={{ color: `var(--${r.el}Deep)` }}><svg viewBox="0 0 24 24" fill="currentColor"><use href={U(`el-${r.el}`)} /></svg></span>
                             <span className="v-el">{r.name}</span>
-                            {/* Skip side speaks the SHADOW noun (REA_02 §5b-ii) — the
-                                anatomy noun is never what the reading says to skip. */}
-                            <span className="v-noun">{r.shadow}</span>
+                            {/* Both share-card columns speak the §5f FUNCTION noun
+                                (owner 2026-09-01), mirroring the wheel panel. */}
+                            <span className="v-noun">{fnNoun(r)}</span>
                           </div>
                         ))}
                       </div>
