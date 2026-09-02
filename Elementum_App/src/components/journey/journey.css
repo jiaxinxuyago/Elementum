@@ -2734,10 +2734,10 @@
     display: flex; align-items: center; justify-content: center; border: none; padding: 0; margin: 13px auto 2px;
     box-shadow: 0 4px 12px rgba(40,30,20,0.28); }
 .jny .wp-dotcard .wp-codex svg{ width: 15px; height: 15px; }
-.jny .wp-dotcard .wd-adj{ display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 9px 0 2px; }
-.jny .wp-dotcard .wd-adjchip{ font-size: 11px; letter-spacing: 0.6px; padding: 3px 9px; border-radius: 999px;
+.jny .wd-adj{ display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 9px 0 2px; }
+.jny .wd-adjchip{ font-size: 11px; letter-spacing: 0.6px; padding: 3px 9px; border-radius: 999px;
     background: rgba(76,122,79,0.10); border: 1px solid rgba(76,122,79,0.28); color: #3f6342; }
-.jny .wp-dotcard .wd-adjchip.down{ background: rgba(163,84,62,0.09); border-color: rgba(163,84,62,0.26); color: #8a4632; }
+.jny .wd-adjchip.down{ background: rgba(163,84,62,0.09); border-color: rgba(163,84,62,0.26); color: #8a4632; }
 
 /* ── dot-card capsule thumbnails — the dock tiles' design DNA, miniature ── */
 .jny .wp-dotcard .wd-rel{ gap: 14px; margin: 12px 0 4px; }
@@ -2811,6 +2811,8 @@
    identity → the equation as the focal object → conclusion caption →
    dominance bar; the diagnosis is the card's caption footer ── */
 .jny .el-heroart{ position: relative; overflow: hidden; border-radius: 12px; margin: 0 0 10px; }
+/* the personality keywords on the FUNCTION section (owner 2026-09-02) */
+.jny .el-fnadj{ margin: 2px 0 2px; }
 /* the classical epigraph (mechanism v2, owner 2026-09-02) */
 .jny .el-classic{ margin: 12px 0 0; text-align: center; font-family: 'Noto Serif SC', serif;
     font-size: 15px; letter-spacing: 2px; color: var(--bronzeDark); }

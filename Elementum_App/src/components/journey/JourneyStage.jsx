@@ -667,7 +667,12 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     <span className="laylab">THE FUNCTION</span>
                     {/* the claim line is THIS section's title (owner 2026-09-02) */}
                     <span className="serifline el-teasetitle">{elScreen.elName} is your {elScreen.fnLabel}.</span>
-                    <span className="el-teasep" style={{ marginTop: 2 }}>{elScreen.fnTeaser}</span>
+                    {/* the personality keywords ride with the claim here too
+                        (owner 2026-09-02: they were cover-only) */}
+                    {m.byEl[elScreen.el].adj?.length ? (
+                      <span className="wd-adj el-fnadj">{m.byEl[elScreen.el].adj.map((a) => <span key={a} className={`wd-adjchip${(m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess) ? ' down' : ''}`}>{a}</span>)}</span>
+                    ) : null}
+                    <span className="el-teasep" style={{ marginTop: 4 }}>{elScreen.fnTeaser}</span>
                     <span className="readcirc sm el-goarrow"><Use id="ico-arrow-r" /></span>
                   </button>
                 )}
@@ -732,6 +737,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   <div className="cardstock el-fncard">
                     <span className="laylab">THE FUNCTION</span>
                     <span className="serifline el-teasetitle">{elScreen.elName} is your {elScreen.fnLabel}.</span>
+                    {m.byEl[elScreen.el].adj?.length ? (
+                      <span className="wd-adj el-fnadj">{m.byEl[elScreen.el].adj.map((a) => <span key={a} className={`wd-adjchip${(m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess) ? ' down' : ''}`}>{a}</span>)}</span>
+                    ) : null}
                     {/* the full function reading (v3): ¶1 definition · ¶2 day
                         to day · ¶3 the program; dips close as the coda */}
                     {elScreen.fnDef.split('\n\n').map((p, i) => (
