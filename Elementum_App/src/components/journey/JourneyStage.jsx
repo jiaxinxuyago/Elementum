@@ -24,7 +24,7 @@ import { useChart } from '../../store/chartContext.jsx';
 import { STEM_CARD_DATA } from '../../content/index.js';
 import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
 import { APP_URL } from '../../infra/index.js';
-import { buildJourneyModel, buildElementScreen, buildGlossary } from './journeyData.js';
+import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_FN } from './journeyData.js';
 import { resolvePositions } from '../reading/positionsResolve.js';
 import { SLOT_RANK } from '../../content/positions.js';
 import { FEEDS, TAMES } from '../../content/cycles.js';
@@ -385,7 +385,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   // The §5f function noun for an element (bijection, owner 2026-09-01) — the
   // wheel panel's rows and the dot card speak the SAME vocabulary; the seat
   // noun stays on the element page, the shadow noun in friction verdicts.
-  const fnNoun = (r) => (K2_FUNCTIONS.find((f) => f.key === PAIR_CELLS[`${m.core.hz}_${r.hz}`]?.function?.primary) || {}).label || r.relation;
+  const fnNoun = (r) => (K2_FUNCTIONS.find((f) => f.key === PAIR_CELLS[`${m.core.hz}_${r.hz}`]?.function?.primary) || {}).label || FAMILY_FN[r.family] || '';
 
   const dot = dotOpen ? (() => {
     const r = m.byEl[dotOpen];
@@ -661,7 +661,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                         your Mind and what do you mean by that?") — the §5f
                         body answers the title's claim before the chemistry
                         explains the role */}
-                    {elScreen.fn && <span className="el-teasep el-herofn">{elScreen.fn.body}</span>}
+                    {elScreen.fnDef && <span className="el-teasep el-herofn">{elScreen.fnDef}</span>}
                     {mechViz}
                     {/* the diagnosis verdict (owner 2026-09-01): the same
                         equation the graphic shows, spoken as a chain — state,
@@ -724,10 +724,10 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                         <p className="body2" style={{ margin: 0 }}>{elScreen.mech.turn}</p>
                       </div>
                     )}
-                    {elScreen.fn && (
+                    {elScreen.fnDef && (
                       <>
-                        <p className="body2 el-fnbody" style={{ margin: '10px 0 0' }}><b className="el-funclab">It runs your {elScreen.fnLabel}.</b> {elScreen.fn.body}</p>
-                        {Object.entries(elScreen.fn.dips || {}).map(([k, txt]) => (
+                        <p className="body2 el-fnbody" style={{ margin: '10px 0 0' }}>{elScreen.fnDef}</p>
+                        {Object.entries(elScreen.fn?.dips || {}).map(([k, txt]) => (
                           <p className="body2 el-funcrow" key={k} style={{ margin: '7px 0 0' }}><b className="el-funclab">{(elScreen.functionsDef.find((f) => f.key === k) || { label: k }).label}.</b> {txt}</p>
                         ))}
                       </>

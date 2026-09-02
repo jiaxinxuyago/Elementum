@@ -130,41 +130,41 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Metal, and Metal tames Wood: the knife prunes the branch. Wood is the living, growing material your edge exists to shape: projects, plans, property, ambitions with sap still in them. That is why it is your Drive, the seat of what you build and claim. Every clean cut you make turns wild growth into something orchard-shaped and yours. |
+| `base` | Your core is Metal, and Metal tames Wood: the knife prunes the branch. Wood is the living, growing material your edge exists to shape: projects, plans, property, ambitions with sap still in them. That is why Wood is your Action, the arena of what you build and claim. Every clean cut you make turns wild growth into something orchard-shaped and yours. |
 | `catalyst_turn` | Run thin, the knife has nothing to prune: skill idling without a project worth it. Your chart asks you to claim material. Pick one living ambition and start cutting. |
-| `friction_turn` | Run heavy, the Drive turns Grind: endless pruning, forests of projects, an edge worn on material that never ends. The knife dulls on quantity. Cut fewer branches, and finish them. |
+| `friction_turn` | Run heavy, the pruning never stops: forests of projects, an edge worn on material that never ends. The knife dulls on quantity. Cut fewer branches, and finish them. |
 
 ### Metal core × Fire — the Duty · 金_火
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Metal, and Fire tames Metal: the forge softens the blade. Fire is the heat that presses on you, deadlines, authority, scrutiny, crisis, and pressure is exactly what a blade is finished by. That is why it is your Duty, the seat of the discipline that shapes you. The forge is not your enemy. It is the only thing that reworks your edge. |
+| `base` | Your core is Metal, and Fire tames Metal: the forge softens the blade. Fire is the heat that presses on you, deadlines, authority, scrutiny, crisis, and pressure is exactly what a blade is finished by. That is why Fire is your Order, the discipline that shapes you. The forge is not your enemy. It is the only thing that reworks your edge. |
 | `catalyst_turn` | Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena. |
-| `friction_turn` | Run heavy, the Duty turns Weight: constant forge, no bench time, a blade softening under pressure it never leaves. Step out of the fire long enough to hold an edge. |
+| `friction_turn` | Run heavy, the forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves. Step out of the fire long enough to hold an edge. |
 
 ### Metal core × Earth — the Root · 金_土
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Metal, and Earth feeds Metal: ore grows in the mountain. Everything solid and patient in your life is the ground your edge is mined from. Sleep, routine, teachers, home: that is Earth doing its slow work on you. It is your Root, the seat that restores what the cutting spends. A blade is only ever as good as the mountain behind it. |
+| `base` | Your core is Metal, and Earth feeds Metal: ore grows in the mountain. Everything solid and patient in your life is the ground your edge is mined from. Sleep, routine, teachers, home: that is Earth doing its slow work on you. That is why Earth is your Mind, the slow intake that restores what the cutting spends. A blade is only ever as good as the mountain behind it. |
 | `catalyst_turn` | Run thin, the mountain goes hungry: a keen edge with nothing behind it, sharpness spent faster than it forms. Your chart asks you to feed the ground. Rest and study are smelting, not stalling. |
-| `friction_turn` | Run heavy, the Root turns Cage: so much shelter the blade never leaves the mine. Comfort and preparation begin to bury the edge they formed. Dig out and cut something real. |
+| `friction_turn` | Run heavy, the shelter closes over the blade: so much preparation that the edge never leaves the mine. Comfort begins to bury what it formed. Dig out and cut something real. |
 
 ### Metal core × Metal — the Core · 金_金
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Metal, and here Metal stands with Metal: edge alongside edge, the same ore twice refined. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. It is your Core, the seat of identity itself: your standards, your stance, your word. Where the other energies act on you, this one just holds the line. |
+| `base` | Your core is Metal, and here Metal stands with Metal: edge alongside edge, the same ore twice refined. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. That is why Metal is your Body: the strength you stand on, your stance, your word made physical. Where the other energies act on you, this one just holds the line. |
 | `catalyst_turn` | Run thin, the line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last. Your chart asks you to feed the self. Practice your craft alone until it rings. |
-| `friction_turn` | Run heavy, the Core turns Bubble: so much edge that nothing else gets in, certainty sealed against weather. Honor the standard, and let one trusted voice past it. |
+| `friction_turn` | Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through. |
 
 ### Metal core × Water — the Voice · 金_水
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Metal, and Metal feeds Water: dew beads on the cold blade. Whatever your core pours itself into becomes your Voice, the channel where what you are turns into what you say and make. Water adds nothing to your Metal. It carries it outward. Every sentence, every sketch, every offered comfort is your edge, condensed and set moving. |
+| `base` | Your core is Metal, and Metal feeds Water: dew beads on the cold blade. Whatever your core pours itself into becomes your Expression, the channel where what you are turns into what you say and make. Water adds nothing to your Metal. It carries it outward. Every sentence, every sketch, every offered comfort is your edge, condensed and set moving. |
 | `catalyst_turn` | Run thin, this channel shows as pressure without release: much forged, little said. That is why your chart asks you to feed it. Writing, speaking, sharing work early lets the blade breathe. |
-| `friction_turn` | Run heavy, the Voice turns Echo: output for its own sake, saying instead of shaping. The flood drinks the blade that feeds it. Cut the noise and the water clears. |
+| `friction_turn` | Run heavy, the flow turns to flood: output for its own sake, saying instead of shaping. The flood drinks the blade that feeds it. Cut the noise and the water clears. |
 
 ### Water core × Wood — the Voice · 水_木
 

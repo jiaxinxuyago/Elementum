@@ -67,7 +67,7 @@ export function buildVariableGroups(model, activeEl, chart) {
         { name: 'fold_verdict (V)', axis: 'CONDITION×3', arch: condArch, status: 'LIVE', value: m?.foldVerdict },
         { name: 'lead_god_per_element', axis: 'DERIVED', status: 'LIVE', value: perEl((r) => r.god) },
         { name: 'keyword (V, per lead god)', axis: 'GOD×10', arch: godsArch, status: 'LIVE', value: perEl((r) => r.keyword) },
-        { name: 'relation_noun (V)', axis: 'FAMILY×5', arch: 'all ×5', status: 'LIVE', value: perEl((r) => r.relation) },
+        { name: 'function_noun (V — replaced relation_noun, owner 2026-09-02)', axis: 'FAMILY×5', arch: 'all ×5', status: 'LIVE', value: 'Body · Mind · Expression · Action · Order (REA_02 §5f; seat + shadow nouns retired to Codex ore)' },
         { name: 'roles (+excess/major/missing)', axis: 'DERIVED', status: 'LIVE', value: perEl((r) => `${r.isCore ? 'core' : r.role}${r.coreExcess ? '+excess' : ''}${r.major ? '+major' : ''}${r.missing ? '+missing' : ''}`) },
         { name: 'tpl_dx_line', axis: 'T · role-driven', arch: 'tpl_dx_line', status: 'LIVE', value: m?.core ? `Your ${m.core.name} is ${m.core.dx?.condition ?? m.condition} — ${m.core.dx?.remedy ?? m.approach ?? 'keep the mix'}${m.core.dx?.remedy ? ' it.' : ''}` : null },
         { name: 'tpl_verdict_line', axis: 'T · pole+verb', arch: 'tpl_verdict_line', status: 'LIVE', value: m?.core?.verdict ? `${m.core.verdict.connector} ${m.core.verdict.pole} · ${m.core.verdict.verb}` : null },

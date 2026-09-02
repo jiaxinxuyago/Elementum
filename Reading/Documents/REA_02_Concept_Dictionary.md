@@ -164,21 +164,23 @@ One sharp trait-noun per ten-god face; the two faces of each family are delibera
 
 ## 5 · Element modifiers — RETIRED FROM GLANCE LABELS (owner 2026-07-15)
 
-Glance labels are ONE punchy keyword ("Insight — your Root"), never `[modifier]+[keyword]` — the element is already on the tile (name, %, pigment, icon). The five modifiers survive only as **authoring palette** for deep-reading prose: Metal **Sharp** · Wood **Vital** · Fire **Ardent** · Earth **Grounded** · Water **Deep**. The 50 formula-derived glance labels are retired; the 50 `element_god` cells remain the CONTENT unit (REA_03).
+Glance labels are ONE punchy keyword ("Insight — your Mind"), never `[modifier]+[keyword]` — the element is already on the tile (name, %, pigment, icon). The five modifiers survive only as **authoring palette** for deep-reading prose: Metal **Sharp** · Wood **Vital** · Fire **Ardent** · Earth **Grounded** · Water **Deep**. The 50 formula-derived glance labels are retired; the 50 `element_god` cells remain the CONTENT unit (REA_03).
 
-## 5b · LOCKED — the five relation nouns (owner 2026-07-16)
+## 5b · RETIRED — the five relation nouns (locked 2026-07-16 · **RETIRED from all live surfaces, owner 2026-09-02**)
 
-| Family | What it is to you | **Noun** |
-|---|---|---|
-| Self 比劫 | the element that *is* you — identity, peers | **Core** |
-| Output 食伤 | what you generate — expression, talent | **Voice** |
-| Wealth 财 | what you pursue & hold — reward, desire | **Drive** |
-| Authority 官杀 | what tests & structures you — pressure, duty | **Duty** |
-| Resource 印 | what feeds & backs you — support, learning | **Root** |
+> **[OWNER RULING 2026-09-02.] The five FUNCTION nouns (§5f: Body · Mind · Expression · Action · Order) are THE vocabulary for elemental relations, everywhere — they REPLACE the relation nouns below on every rendered surface and in all corpus.** Glance grammar: **`[Element] is your [Function]`** ("Earth is your Mind"). The relation nouns and their shadow twins (5b-ii) are preserved here as Codex ore and project history only; no live surface, title, or corpus paragraph may introduce them. The ELEMENT_PAIR corpus (mechanism bases, friction turns, function definitions) is re-authored under this law.
 
-Forks resolved: Drive over Harvest, Duty over Trial; law #4 scoped to persona-name slots so Root is legal. Glance grammar: **`[Keyword] — your [Relation]`**.
+| Family | What it is to you | Retired noun | **The function noun that replaced it** |
+|---|---|---|---|
+| Self 比劫 | the element that *is* you — identity, peers | Core | **Body** |
+| Output 食伤 | what you generate — expression, talent | Voice | **Expression** |
+| Wealth 财 | what you pursue & hold — reward, desire | Drive | **Action** |
+| Authority 官杀 | what tests & structures you — pressure, duty | Duty | **Order** |
+| Resource 印 | what feeds & backs you — support, learning | Root | **Mind** |
 
-**5b-ii · LOCKED — the five SHADOW nouns (owner 2026-08-14; row grammar superseded 2026-09-01).** The relation nouns double as the CATALYST-form vocabulary; each has a shadow twin — the same force in excess — that FRICTION advice surfaces speak through instead. This resolves the "skip your Root" contradiction: anatomy is never insulted; the friction verdict lands on the shadow noun. **Row-grammar amendment (owner 2026-09-01): the seek/skip rows and the share card's Seek/Skip columns now speak the §5f FUNCTION noun (`[Element] is your [Function]` — "Fire is your Order"), matching the dot card they open; the shadow nouns remain the friction-verdict vocabulary (mechanism friction turns, element-screen state verdicts), and the seat nouns remain the element page's teaching layer.**
+(Historical forks: Drive over Harvest, Duty over Trial; old glance grammar `[Keyword] — your [Relation]` retired with the nouns.)
+
+**5b-ii · RETIRED — the five SHADOW nouns (locked 2026-08-14 · RETIRED from live surfaces with 5b, owner 2026-09-02).** Bubble · Cage · Echo · Grind · Weight are Codex ore: friction surfaces now speak plain excess language in the function-noun register (the re-authored friction turns and the role-variant function definitions), never a named shadow.
 
 | Family | Catalyst form (= relation noun) | **Shadow form (friction)** | The turn |
 |---|---|---|---|
@@ -258,7 +260,7 @@ The Nebula principle: a configuration is a NAMED EVENT, and the reading starts f
 
 **Domain definition lines ×8 (authored + RETIRED same day, owner 2026-08-19 — the domain rows tag their source gate instead, "extra unnecessary information"; wording preserved here for a future Codex domains chapter; code + station homes removed):** Wealth "What you earn, own, and grow." · Health "The body's reserves, and what restores them." · Career "Your work, your rank, your public standing." · Love "Partnership, and what two people build." · Family "The people you come from and the ones you raise." · Social "Your circles, your allies, your name among peers." · Mind "How you think, learn, and decide." · Growth "What you are becoming, and the road there."
 
-## 5f · LOCKED — the seat functions (element-page restructure; mapping locked with the ELEMENT_PAIR template, owner 2026-08-19; **Root re-ruled → Mind 2026-08-19; Core re-ruled → Body + Duty re-ruled → Order, owner 2026-09-01 — the map is now a BIJECTION**)
+## 5f · LOCKED — the five FUNCTION nouns (element-page restructure; mapping locked with the ELEMENT_PAIR template, owner 2026-08-19; **Root re-ruled → Mind 2026-08-19; Core re-ruled → Body + Duty re-ruled → Order, owner 2026-09-01 — the map is now a BIJECTION; since 2026-09-02 the function nouns are THE elemental-relation vocabulary (§5b retired) — the "Seat" column below is derivation history, never rendered**)
 
 The owner's ruling: on the energy page, "How it runs your functions" speaks the SEAT NOUN as a function of the reader's system — energy-level, no god split (the gods live in Ruling Domains). Each seat owns ONE primary function from the five (**Mind · Expression · Order · Action · Body** — the function set re-ruled 2026-09-01: **Bonds RETIRED from the set**, relationship truth lives in the Love/Family/Social domains and the relations 六亲 layer, never in the function register) and may dip into 1–2 others. **The 2026-09-01 re-ruling restored the bijection: five seats, five functions, each owned once.** Classical grounds — Core→Body: day-master strength IS the 身强/身弱 (body strong/weak) axis, 比劫帮身 = peers prop up the body; 比劫 governs stamina, willpower, and physical footing. Duty→Order: 官杀 is 约束 — pressure, rules, discipline, standing; "Bonds" falsely overlapped the domain register. Drive's natural dip re-keyed to Order per 财生官 (wealth underwrites rank); Voice's retired relational dip lines preserved in the cells' `__ore`.
 

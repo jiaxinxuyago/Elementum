@@ -11,17 +11,21 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Metal, and Earth feeds Metal: ore grows in the mountain. Everything solid and patient in your life is the ground your edge is mined from. Sleep, routine, teachers, home: that is Earth doing its slow work on you. It is your Root, the seat that restores what the cutting spends. A blade is only ever as good as the mountain behind it.",
+      "base": "Your core is Metal, and Earth feeds Metal: ore grows in the mountain. Everything solid and patient in your life is the ground your edge is mined from. Sleep, routine, teachers, home: that is Earth doing its slow work on you. That is why Earth is your Mind, the slow intake that restores what the cutting spends. A blade is only ever as good as the mountain behind it.",
       "catalyst_turn": "Run thin, the mountain goes hungry: a keen edge with nothing behind it, sharpness spent faster than it forms. Your chart asks you to feed the ground. Rest and study are smelting, not stalling.",
-      "friction_turn": "Run heavy, the Root turns Cage: so much shelter the blade never leaves the mine. Comfort and preparation begin to bury the edge they formed. Dig out and cut something real."
+      "friction_turn": "Run heavy, the shelter closes over the blade: so much preparation that the edge never leaves the mine. Comfort begins to bury what it formed. Dig out and cut something real."
     },
     "function": {
       "primary": "mind",
-      "body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Earth running it, your mind absorbs like sediment: slowly, in layers, keeping everything that settles. You are slow to learn and nearly impossible to unteach. Give ideas time underground. What forms there comes out ore-grade, load-bearing, and permanently yours.",
+      "definition_catalyst": "Earth is your Mind, and as a catalyst it is the intake that steadies you: reading that settles in layers, lessons that compact into ground worth building on. A core running thin refills exactly here. Give ideas their time underground and what forms comes back ore-grade, load-bearing, and permanently yours.",
+      "definition_friction": "Earth is your Mind, and right now it runs as friction: the same slow absorbing that makes your judgment permanent keeps pouring fuel into a core already full. Everything gets stored and too little gets spent, so study becomes one more way to stay buried. Let what you know leave the ground: teach it, apply it, cut with it.",
       "dips": {
         "body": "Real rest is part of the studying: sleep and routine are where the layers set."
       }
     },
     "cta_verdict": "Your mind takes things in slowly and keeps them forever, and your best judgments are the ones you let sit overnight."
+  },
+  "__ore": {
+    "retired_fn_body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Earth running it, your mind absorbs like sediment: slowly, in layers, keeping everything that settles. You are slow to learn and nearly impossible to unteach. Give ideas time underground. What forms there comes out ore-grade, load-bearing, and permanently yours."
   }
 }

@@ -248,13 +248,14 @@ export const PAIR_CELLS = {
   },
   '金_木': {
     mechanism: {
-      base: 'Your core is Metal, and Metal tames Wood: the knife prunes the branch. Wood is the living, growing material your edge exists to shape: projects, plans, property, ambitions with sap still in them. That is why it is your Drive, the seat of what you build and claim. Every clean cut you make turns wild growth into something orchard-shaped and yours.',
+      base: 'Your core is Metal, and Metal tames Wood: the knife prunes the branch. Wood is the living, growing material your edge exists to shape: projects, plans, property, ambitions with sap still in them. That is why Wood is your Action, the arena of what you build and claim. Every clean cut you make turns wild growth into something orchard-shaped and yours.',
       catalyst_turn: 'Run thin, the knife has nothing to prune: skill idling without a project worth it. Your chart asks you to claim material. Pick one living ambition and start cutting.',
-      friction_turn: 'Run heavy, the Drive turns Grind: endless pruning, forests of projects, an edge worn on material that never ends. The knife dulls on quantity. Cut fewer branches, and finish them.',
+      friction_turn: 'Run heavy, the pruning never stops: forests of projects, an edge worn on material that never ends. The knife dulls on quantity. Cut fewer branches, and finish them.',
     },
     function: {
       primary: 'action',
-      body: 'The Drive is your action function: what you go get, build, and hold. With Wood running it, action in you wants living material: ventures that grow, skills that branch, assets with rings in them. You claim by shaping rather than seizing, and what you prune well becomes durable and yours. Aim the edge at growth worth decades, not stems worth days.',
+      definition_catalyst: 'Wood is your Action, and as a catalyst it is the work your force was made for: living projects that take shape under the blade and give the edge a reason. A full core empties best into building. Pick one growing thing and cut toward it daily.',
+      definition_friction: 'Wood is your Action, and right now it runs as friction: every open project one more cut from a blade running thin. The trouble is rarely the building and mostly the number of open builds. Finish one thing fully before the next gets steel.',
       dips: {
         order: 'What you grow becomes structure: the timber you raise ends up framing the rules you live in.',
       },
@@ -263,13 +264,14 @@ export const PAIR_CELLS = {
   },
   '金_火': {
     mechanism: {
-      base: 'Your core is Metal, and Fire tames Metal: the forge softens the blade. Fire is the heat that presses on you, deadlines, authority, scrutiny, crisis, and pressure is exactly what a blade is finished by. That is why it is your Duty, the seat of the discipline that shapes you. The forge is not your enemy. It is the only thing that reworks your edge.',
+      base: 'Your core is Metal, and Fire tames Metal: the forge softens the blade. Fire is the heat that presses on you, deadlines, authority, scrutiny, crisis, and pressure is exactly what a blade is finished by. That is why Fire is your Order, the discipline that shapes you. The forge is not your enemy. It is the only thing that reworks your edge.',
       catalyst_turn: 'Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena.',
-      friction_turn: 'Run heavy, the Duty turns Weight: constant forge, no bench time, a blade softening under pressure it never leaves. Step out of the fire long enough to hold an edge.',
+      friction_turn: 'Run heavy, the forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves. Step out of the fire long enough to hold an edge.',
     },
     function: {
       primary: 'order',
-      body: 'The Duty is your accountability function: how order, obligation, and other people’s expectations sit on you. With Fire running it, accountability in you is hot and visible: exacting seniors, stakes with deadlines, standards enforced in public. You hold rank by surviving heat gracefully, and people trust steel that has been through the forge. Choose fires that finish you, not ones that just burn.',
+      definition_catalyst: 'Fire is your Order, and as a catalyst it is the pressure that finishes you: deadlines, scrutiny, stakes that make the edge prove itself. A core with surplus force wants exactly this heat. Choose one forge worth standing in and stay until the temper takes.',
+      definition_friction: 'Fire is your Order, and right now it runs as friction: heat pressing on a blade with little left to temper. Underfueled steel warps where finished steel hardens. Step back from the loudest demands and answer only the ones that pay you back in strength.',
       dips: {
         action: 'Under real pressure you act cleaner: crisis burns off your hesitation.',
       },
@@ -278,13 +280,14 @@ export const PAIR_CELLS = {
   },
   '金_土': {
     mechanism: {
-      base: 'Your core is Metal, and Earth feeds Metal: ore grows in the mountain. Everything solid and patient in your life is the ground your edge is mined from. Sleep, routine, teachers, home: that is Earth doing its slow work on you. It is your Root, the seat that restores what the cutting spends. A blade is only ever as good as the mountain behind it.',
+      base: 'Your core is Metal, and Earth feeds Metal: ore grows in the mountain. Everything solid and patient in your life is the ground your edge is mined from. Sleep, routine, teachers, home: that is Earth doing its slow work on you. That is why Earth is your Mind, the slow intake that restores what the cutting spends. A blade is only ever as good as the mountain behind it.',
       catalyst_turn: 'Run thin, the mountain goes hungry: a keen edge with nothing behind it, sharpness spent faster than it forms. Your chart asks you to feed the ground. Rest and study are smelting, not stalling.',
-      friction_turn: 'Run heavy, the Root turns Cage: so much shelter the blade never leaves the mine. Comfort and preparation begin to bury the edge they formed. Dig out and cut something real.',
+      friction_turn: 'Run heavy, the shelter closes over the blade: so much preparation that the edge never leaves the mine. Comfort begins to bury what it formed. Dig out and cut something real.',
     },
     function: {
       primary: 'mind',
-      body: 'The Root is your learning function: the seat where the world soaks in and becomes yours. With Earth running it, your mind absorbs like sediment: slowly, in layers, keeping everything that settles. You are slow to learn and nearly impossible to unteach. Give ideas time underground. What forms there comes out ore-grade, load-bearing, and permanently yours.',
+      definition_catalyst: 'Earth is your Mind, and as a catalyst it is the intake that steadies you: reading that settles in layers, lessons that compact into ground worth building on. A core running thin refills exactly here. Give ideas their time underground and what forms comes back ore-grade, load-bearing, and permanently yours.',
+      definition_friction: 'Earth is your Mind, and right now it runs as friction: the same slow absorbing that makes your judgment permanent keeps pouring fuel into a core already full. Everything gets stored and too little gets spent, so study becomes one more way to stay buried. Let what you know leave the ground: teach it, apply it, cut with it.',
       dips: {
         body: 'Real rest is part of the studying: sleep and routine are where the layers set.',
       },
@@ -293,13 +296,14 @@ export const PAIR_CELLS = {
   },
   '金_金': {
     mechanism: {
-      base: 'Your core is Metal, and here Metal stands with Metal: edge alongside edge, the same ore twice refined. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. It is your Core, the seat of identity itself: your standards, your stance, your word. Where the other energies act on you, this one just holds the line.',
+      base: 'Your core is Metal, and here Metal stands with Metal: edge alongside edge, the same ore twice refined. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. That is why Metal is your Body: the strength you stand on, your stance, your word made physical. Where the other energies act on you, this one just holds the line.',
       catalyst_turn: 'Run thin, the line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last. Your chart asks you to feed the self. Practice your craft alone until it rings.',
-      friction_turn: 'Run heavy, the Core turns Bubble: so much edge that nothing else gets in, certainty sealed against weather. Honor the standard, and let one trusted voice past it.',
+      friction_turn: 'Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through.',
     },
     function: {
       primary: 'body',
-      body: 'The Core is your endurance function: the seat where strength is stored and spent. With Metal doubled here, your constitution is tempered steel: slow to tire, slower to bend, holding shape under loads that fold softer frames. Your reserves run deep and cold, and you mistake that for endlessness. The craft is maintenance without occasion: oil the blade before it asks, and let rest keep your temper.',
+      definition_catalyst: 'Metal is your Body, and it is running thin: the edge still holds its shape, but the reserves behind it are low. Strength like yours fails late and suddenly rather than early and loudly. Refill on schedule, sleep, real food, quiet maintenance, and the bill your body has been quietly writing gets torn up.',
+      definition_friction: 'Metal is your Body, and right now there is more of it than your chart can spend: stamina hardening into rigidity, discipline into strain. An edge kept permanently drawn dulls itself on air. Spend the surplus somewhere real, hard training, hard work, heavy lifting in any sense, and the body stops bracing against nothing.',
       dips: {
         mind: 'Your judgment holds like your frame does: conclusions struck once and kept, worth re-testing on a schedule.',
         action: 'Decisions become motion fast in you: once judged, a thing is already being done.',
@@ -309,13 +313,14 @@ export const PAIR_CELLS = {
   },
   '金_水': {
     mechanism: {
-      base: 'Your core is Metal, and Metal feeds Water: dew beads on the cold blade. Whatever your core pours itself into becomes your Voice, the channel where what you are turns into what you say and make. Water adds nothing to your Metal. It carries it outward. Every sentence, every sketch, every offered comfort is your edge, condensed and set moving.',
+      base: 'Your core is Metal, and Metal feeds Water: dew beads on the cold blade. Whatever your core pours itself into becomes your Expression, the channel where what you are turns into what you say and make. Water adds nothing to your Metal. It carries it outward. Every sentence, every sketch, every offered comfort is your edge, condensed and set moving.',
       catalyst_turn: 'Run thin, this channel shows as pressure without release: much forged, little said. That is why your chart asks you to feed it. Writing, speaking, sharing work early lets the blade breathe.',
-      friction_turn: 'Run heavy, the Voice turns Echo: output for its own sake, saying instead of shaping. The flood drinks the blade that feeds it. Cut the noise and the water clears.',
+      friction_turn: 'Run heavy, the flow turns to flood: output for its own sake, saying instead of shaping. The flood drinks the blade that feeds it. Cut the noise and the water clears.',
     },
     function: {
       primary: 'expression',
-      body: 'The Voice is your expression function: the gate where inner work becomes outer fact. With Water running it, expression in you flows rather than strikes. You persuade by permeating, the right word finding its level the way water finds a floor. When your Voice is fed, thought leaves you easily and lands soft. When it is dammed, you feel it as pressure at the throat and the hands.',
+      definition_catalyst: 'Water is your Expression, and as a catalyst it is where your surplus finally leaves: polish becoming prose, precision becoming speech, pressure coming off the blade every time you say the thing out loud. The more you release, the smoother you run. Publish sooner than feels finished.',
+      definition_friction: 'Water is your Expression, and right now it runs as friction: words leaving faster than the core refills, output drawing on reserves that are already thin. The flow still looks effortless from outside, which is exactly the danger. Say less for a season and let the well come back.',
       dips: {
         mind: 'Speaking is how your thinking finishes: an idea is not done until it has been said.',
       },

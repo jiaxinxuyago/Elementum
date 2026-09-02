@@ -11,17 +11,21 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Metal, and Fire tames Metal: the forge softens the blade. Fire is the heat that presses on you, deadlines, authority, scrutiny, crisis, and pressure is exactly what a blade is finished by. That is why it is your Duty, the seat of the discipline that shapes you. The forge is not your enemy. It is the only thing that reworks your edge.",
+      "base": "Your core is Metal, and Fire tames Metal: the forge softens the blade. Fire is the heat that presses on you, deadlines, authority, scrutiny, crisis, and pressure is exactly what a blade is finished by. That is why Fire is your Order, the discipline that shapes you. The forge is not your enemy. It is the only thing that reworks your edge.",
       "catalyst_turn": "Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena.",
-      "friction_turn": "Run heavy, the Duty turns Weight: constant forge, no bench time, a blade softening under pressure it never leaves. Step out of the fire long enough to hold an edge."
+      "friction_turn": "Run heavy, the forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves. Step out of the fire long enough to hold an edge."
     },
     "function": {
       "primary": "order",
-      "body": "The Duty is your accountability function: how order, obligation, and other people’s expectations sit on you. With Fire running it, accountability in you is hot and visible: exacting seniors, stakes with deadlines, standards enforced in public. You hold rank by surviving heat gracefully, and people trust steel that has been through the forge. Choose fires that finish you, not ones that just burn.",
+      "definition_catalyst": "Fire is your Order, and as a catalyst it is the pressure that finishes you: deadlines, scrutiny, stakes that make the edge prove itself. A core with surplus force wants exactly this heat. Choose one forge worth standing in and stay until the temper takes.",
+      "definition_friction": "Fire is your Order, and right now it runs as friction: heat pressing on a blade with little left to temper. Underfueled steel warps where finished steel hardens. Step back from the loudest demands and answer only the ones that pay you back in strength.",
       "dips": {
         "action": "Under real pressure you act cleaner: crisis burns off your hesitation."
       }
     },
     "cta_verdict": "Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull."
+  },
+  "__ore": {
+    "retired_fn_body": "The Duty is your accountability function: how order, obligation, and other people’s expectations sit on you. With Fire running it, accountability in you is hot and visible: exacting seniors, stakes with deadlines, standards enforced in public. You hold rank by surviving heat gracefully, and people trust steel that has been through the forge. Choose fires that finish you, not ones that just burn."
   }
 }

@@ -11,18 +11,22 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Metal, and here Metal stands with Metal: edge alongside edge, the same ore twice refined. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. It is your Core, the seat of identity itself: your standards, your stance, your word. Where the other energies act on you, this one just holds the line.",
+      "base": "Your core is Metal, and here Metal stands with Metal: edge alongside edge, the same ore twice refined. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. That is why Metal is your Body: the strength you stand on, your stance, your word made physical. Where the other energies act on you, this one just holds the line.",
       "catalyst_turn": "Run thin, the line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last. Your chart asks you to feed the self. Practice your craft alone until it rings.",
-      "friction_turn": "Run heavy, the Core turns Bubble: so much edge that nothing else gets in, certainty sealed against weather. Honor the standard, and let one trusted voice past it."
+      "friction_turn": "Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through."
     },
     "function": {
       "primary": "body",
-      "body": "The Core is your endurance function: the seat where strength is stored and spent. With Metal doubled here, your constitution is tempered steel: slow to tire, slower to bend, holding shape under loads that fold softer frames. Your reserves run deep and cold, and you mistake that for endlessness. The craft is maintenance without occasion: oil the blade before it asks, and let rest keep your temper.",
+      "definition_catalyst": "Metal is your Body, and it is running thin: the edge still holds its shape, but the reserves behind it are low. Strength like yours fails late and suddenly rather than early and loudly. Refill on schedule, sleep, real food, quiet maintenance, and the bill your body has been quietly writing gets torn up.",
+      "definition_friction": "Metal is your Body, and right now there is more of it than your chart can spend: stamina hardening into rigidity, discipline into strain. An edge kept permanently drawn dulls itself on air. Spend the surplus somewhere real, hard training, hard work, heavy lifting in any sense, and the body stops bracing against nothing.",
       "dips": {
         "mind": "Your judgment holds like your frame does: conclusions struck once and kept, worth re-testing on a schedule.",
         "action": "Decisions become motion fast in you: once judged, a thing is already being done."
       }
     },
     "cta_verdict": "You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill."
+  },
+  "__ore": {
+    "retired_fn_body": "The Core is your endurance function: the seat where strength is stored and spent. With Metal doubled here, your constitution is tempered steel: slow to tire, slower to bend, holding shape under loads that fold softer frames. Your reserves run deep and cold, and you mistake that for endlessness. The craft is maintenance without occasion: oil the blade before it asks, and let rest keep your temper."
   }
 }

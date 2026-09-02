@@ -134,7 +134,8 @@
 | Field | Value |
 |---|---|
 | `primary` | action |
-| `body` | The Drive is your action function: what you go get, build, and hold. With Wood running it, action in you wants living material: ventures that grow, skills that branch, assets with rings in them. You claim by shaping rather than seizing, and what you prune well becomes durable and yours. Aim the edge at growth worth decades, not stems worth days. |
+| `definition_catalyst` | Wood is your Action, and as a catalyst it is the work your force was made for: living projects that take shape under the blade and give the edge a reason. A full core empties best into building. Pick one growing thing and cut toward it daily. |
+| `definition_friction` | Wood is your Action, and right now it runs as friction: every open project one more cut from a blade running thin. The trouble is rarely the building and mostly the number of open builds. Finish one thing fully before the next gets steel. |
 | `dips.order` | What you grow becomes structure: the timber you raise ends up framing the rules you live in. |
 
 ### Metal core × Fire — the Duty · 金_火
@@ -142,7 +143,8 @@
 | Field | Value |
 |---|---|
 | `primary` | order |
-| `body` | The Duty is your accountability function: how order, obligation, and other people’s expectations sit on you. With Fire running it, accountability in you is hot and visible: exacting seniors, stakes with deadlines, standards enforced in public. You hold rank by surviving heat gracefully, and people trust steel that has been through the forge. Choose fires that finish you, not ones that just burn. |
+| `definition_catalyst` | Fire is your Order, and as a catalyst it is the pressure that finishes you: deadlines, scrutiny, stakes that make the edge prove itself. A core with surplus force wants exactly this heat. Choose one forge worth standing in and stay until the temper takes. |
+| `definition_friction` | Fire is your Order, and right now it runs as friction: heat pressing on a blade with little left to temper. Underfueled steel warps where finished steel hardens. Step back from the loudest demands and answer only the ones that pay you back in strength. |
 | `dips.action` | Under real pressure you act cleaner: crisis burns off your hesitation. |
 
 ### Metal core × Earth — the Root · 金_土
@@ -150,7 +152,8 @@
 | Field | Value |
 |---|---|
 | `primary` | mind |
-| `body` | The Root is your learning function: the seat where the world soaks in and becomes yours. With Earth running it, your mind absorbs like sediment: slowly, in layers, keeping everything that settles. You are slow to learn and nearly impossible to unteach. Give ideas time underground. What forms there comes out ore-grade, load-bearing, and permanently yours. |
+| `definition_catalyst` | Earth is your Mind, and as a catalyst it is the intake that steadies you: reading that settles in layers, lessons that compact into ground worth building on. A core running thin refills exactly here. Give ideas their time underground and what forms comes back ore-grade, load-bearing, and permanently yours. |
+| `definition_friction` | Earth is your Mind, and right now it runs as friction: the same slow absorbing that makes your judgment permanent keeps pouring fuel into a core already full. Everything gets stored and too little gets spent, so study becomes one more way to stay buried. Let what you know leave the ground: teach it, apply it, cut with it. |
 | `dips.body` | Real rest is part of the studying: sleep and routine are where the layers set. |
 
 ### Metal core × Metal — the Core · 金_金
@@ -158,7 +161,8 @@
 | Field | Value |
 |---|---|
 | `primary` | body |
-| `body` | The Core is your endurance function: the seat where strength is stored and spent. With Metal doubled here, your constitution is tempered steel: slow to tire, slower to bend, holding shape under loads that fold softer frames. Your reserves run deep and cold, and you mistake that for endlessness. The craft is maintenance without occasion: oil the blade before it asks, and let rest keep your temper. |
+| `definition_catalyst` | Metal is your Body, and it is running thin: the edge still holds its shape, but the reserves behind it are low. Strength like yours fails late and suddenly rather than early and loudly. Refill on schedule, sleep, real food, quiet maintenance, and the bill your body has been quietly writing gets torn up. |
+| `definition_friction` | Metal is your Body, and right now there is more of it than your chart can spend: stamina hardening into rigidity, discipline into strain. An edge kept permanently drawn dulls itself on air. Spend the surplus somewhere real, hard training, hard work, heavy lifting in any sense, and the body stops bracing against nothing. |
 | `dips.mind` | Your judgment holds like your frame does: conclusions struck once and kept, worth re-testing on a schedule. |
 | `dips.action` | Decisions become motion fast in you: once judged, a thing is already being done. |
 
@@ -167,7 +171,8 @@
 | Field | Value |
 |---|---|
 | `primary` | expression |
-| `body` | The Voice is your expression function: the gate where inner work becomes outer fact. With Water running it, expression in you flows rather than strikes. You persuade by permeating, the right word finding its level the way water finds a floor. When your Voice is fed, thought leaves you easily and lands soft. When it is dammed, you feel it as pressure at the throat and the hands. |
+| `definition_catalyst` | Water is your Expression, and as a catalyst it is where your surplus finally leaves: polish becoming prose, precision becoming speech, pressure coming off the blade every time you say the thing out loud. The more you release, the smoother you run. Publish sooner than feels finished. |
+| `definition_friction` | Water is your Expression, and right now it runs as friction: words leaving faster than the core refills, output drawing on reserves that are already thin. The flow still looks effortless from outside, which is exactly the danger. Say less for a season and let the well come back. |
 | `dips.mind` | Speaking is how your thinking finishes: an idea is not done until it has been said. |
 
 ### Water core × Wood — the Voice · 水_木

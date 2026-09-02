@@ -26,12 +26,19 @@ export const EL_HZ = { metal: '金', earth: '土', wood: '木', water: '水', fi
 
 // ── REA_02 locked vocabulary ───────────────────────────────────────
 // §5b relation nouns (LOCKED 2026-07-16)
+// RETIRED from all live surfaces (owner 2026-09-02, REA_02 §5b): the five
+// FUNCTION nouns replace these as the elemental-relation vocabulary.
+// Preserved as Codex ore only — nothing may render them.
 export const RELATION_NOUN = { self: 'Core', resource: 'Root', wealth: 'Drive', output: 'Voice', officer: 'Duty' };
+// The family → §5f function noun map — THE live vocabulary (bijection).
+export const FAMILY_FN = { self: 'Body', resource: 'Mind', output: 'Expression', wealth: 'Action', officer: 'Order' };
 
 // §5b-ii shadow nouns (LOCKED 2026-08-14) — the same force in excess. The
 // relation noun is the CATALYST-form vocabulary; FRICTION advice surfaces
 // speak through the shadow twin instead ("Earth is your Cage"), so the
 // anatomy is never the thing the reading tells you to skip.
+// RETIRED with §5b-ii (owner 2026-09-02): friction surfaces speak plain
+// excess language in the function-noun register. Codex ore only.
 export const SHADOW_NOUN = { self: 'Bubble', resource: 'Cage', wealth: 'Grind', output: 'Echo', officer: 'Weight' };
 
 // (the SEAT_TEASE consequence clauses were retired by curation v6, owner
@@ -208,8 +215,6 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
     // Ten-god family of an element relative to the day master is the engine's
     // relationOf (energyRoles.js) — reused here, not reimplemented.
     const family = relationOf(EL_NAME[e.el], EL_NAME[coreEl]);
-    const relation = RELATION_NOUN[family];
-    const shadow = SHADOW_NOUN[family];
     const god = e.leadGod;
     const keyword = KEYWORD[god] || '';
     const tile = ENERGY_TILE[e.el] || {};
@@ -217,7 +222,7 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
       el: e.el, name: EL_NAME[e.el], hz: EL_HZ[e.el],
       presence: e.presence, rank: rankOf[e.el], size: SIZES[rankOf[e.el]],
       role, isCore, missing, major, coreExcess, coreCatalyst,
-      family, relation, shadow, god, keyword,
+      family, god, keyword,
       persona: TG_PERSONA[god] || '',
       catalystPole: POLE_CATALYST[god] || '', frictionPole: POLE_FRICTION[god] || '',
       faceKw: (FACE_CARD[god]?.kw || []).join(' · ').toLowerCase(),
@@ -254,7 +259,6 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
   // Balanced. Plus the pill definition/family lines and role-conditioned
   // §4b adjective chips.
   els.forEach((r) => {
-    r.title = `${r.name} is Your ${r.relation}`;
     const frictionSide = r.role === 'friction' || r.coreExcess;
     const catalystSide = !frictionSide && (r.role === 'catalyst' || r.role === 'ally' || r.missing || r.coreCatalyst);
     if (condition === 'Balanced') r.dx = { condition: 'Balanced', remedy: null };
@@ -401,7 +405,7 @@ export function buildElementScreen(model, el) {
     // tile hook + tag retired from the hero (owner 2026-09-01: the hero card
     // headline is the function CLAIM; ENERGY_TILE hooks become unrendered ore)
     selfCard,
-    elName: r.name, relation: r.relation, dx: r.dx,
+    elName: r.name, dx: r.dx,
     mech,
     // Consolidated card title (owner 2026-09-01): the FUNCTION noun, never
     // the seat noun ("Why Wood is your Action") — the seat noun is taught
@@ -410,6 +414,10 @@ export function buildElementScreen(model, el) {
     // THE FUNCTION (§5f): merged into the mechanism detail (owner 2026-09-01).
     fn,
     fnLabel,
+    // v2 definitions (owner 2026-09-02): role-variant continuations of the
+    // cta_verdict, resolved by the chart's role side (balanced → catalyst);
+    // fn.body remains the fallback until the ×20 batch lands.
+    fnDef: fn ? (((r.role === 'friction' || r.coreExcess) ? fn.definition_friction : fn.definition_catalyst) || fn.body || '') : '',
     // THE DIAGNOSIS (owner 2026-09-01): the logic chain spoken — core state ×
     // chemistry direction → catalyst/friction → directive. Templated derived
     // vocabulary (no authored corpus); the graphic shows the same equation.
