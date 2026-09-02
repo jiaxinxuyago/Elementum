@@ -11,7 +11,8 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Earth, and Wood tames Earth: roots hold the hillside. Wood is the living demand that grips you, family, growth, obligations that keep growing back, and rooted ground is what a hillside is for. That is why Wood is your Order, the discipline that shapes you. Unclaimed ground erodes. Rooted ground becomes a terraced farm.",
+      "classic": "專勝散，故木勝土",
+      "base": "The concentrated prevails over the scattered, and so wood grips earth: roots thread the field, take hold, and do not ask permission. The ground carries what grows in it, season after season, the way a hillside carries its forest. It is a weight and a purpose at once. Unrooted ground is only dust waiting for wind.",
       "catalyst_turn": "Run thin, nothing roots in you: ground with no claim on it, steadiness serving no living thing. Your chart asks for roots. Take on something growing and let it grip.",
       "friction_turn": "Run heavy, the roots take everything: every living thing anchored in your acre, soil exhausted by what it holds. Let a slope go wild. You are ground, not groundskeeper to everyone."
     },
@@ -26,6 +27,7 @@
     "cta_verdict": "Your obligations are alive, people rooted in your ground, and the claims you keep pruned are what hold your hillside together."
   },
   "__ore": {
-    "retired_fn_body": "The Duty is your accountability function: how order, obligation, and living claims sit on you. With Wood running it, accountability in you grows: children, teams, gardens of people whose roots are in your ground. You hold rank by being held onto, and the grip that tires you is also what keeps your hillside from sliding. Prune the claims each season, keep the ones that fruit."
+    "retired_fn_body": "The Duty is your accountability function: how order, obligation, and living claims sit on you. With Wood running it, accountability in you grows: children, teams, gardens of people whose roots are in your ground. You hold rank by being held onto, and the grip that tires you is also what keeps your hillside from sliding. Prune the claims each season, keep the ones that fruit.",
+    "retired_base_personal": "Your core is Earth, and Wood tames Earth: roots hold the hillside. Wood is the living demand that grips you, family, growth, obligations that keep growing back, and rooted ground is what a hillside is for. That is why Wood is your Order, the discipline that shapes you. Unclaimed ground erodes. Rooted ground becomes a terraced farm."
   }
 }

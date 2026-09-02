@@ -11,13 +11,14 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Earth, and Fire feeds Earth: ash becomes soil. Everything warm that visits you, affection, praise, festivity, sunlight on the field, breaks down into the ground you grow from. That is why Fire is your Mind, the intake that restores what holding spends. Soil is not made by stone alone. It is made by everything that once burned.",
+      "classic": "木焚而成灰，灰即土也",
+      "base": "Ash is earth, the old texts say: everything that burns comes down to soil at last. So the field is fed by every fire that visits it, warmth breaking down into richness, the bright and the festive settling in as fertility. Cold ground grows little. Ground that has known flame grows the harvest.",
       "catalyst_turn": "Run thin, the field goes gray: duties held on cold ground, nothing warm coming in. Your chart asks you to feed the fire that feeds you. Accept warmth. Attend the feast.",
       "friction_turn": "Run heavy, the warmth never lets up: comfort layered until the ground never firms and standing feels unnecessary. Walk off the hearth and bear some weather."
     },
     "function": {
       "primary": "mind",
-      "definition_catalyst": "Fire is your Mind, and as a catalyst, it is how learning actually enters you: through excitement, people, and live example rather than cold text. You retain what warmed you.\n\nThe lecture you remember came from the teacher you loved. The skill that stuck was learned beside someone, the fact that stayed arrived inside a story, and everything studied dutifully alone has mostly evaporated.\n\nFor you, warmth is a study technique. Take the class instead of the book. Explain new ideas to someone within a day of meeting them. Learn beside people on purpose, and let excitement pick the syllabus more often than duty does.",
+      "definition_catalyst": "Fire is your Mind, and as a catalyst, it is how learning actually enters you: through excitement, people, and live example rather than cold text. You retain what warmed you. Affection, praise, and festivity all count as study.\n\nThe lecture you remember came from the teacher you loved. The skill that stuck was learned beside someone, the fact that stayed arrived inside a story, and everything studied dutifully alone has mostly evaporated.\n\nFor you, warmth is a study technique. Take the class instead of the book. Explain new ideas to someone within a day of meeting them. Learn beside people on purpose, and let excitement pick the syllabus more often than duty does.",
       "definition_friction": "Fire is your Mind, and as a friction, it is stimulation mistaken for nourishment: feeds, sparks, novelty consumed all day while real understanding stays shallow. The excitement is spending you, and it feels like input.\n\nInterested in everything for about a minute. Forty tabs of sparks, a feed refreshed at red lights, enthusiasm rented by the hour, and by evening the mind is somehow both overfull and unfed.\n\nAttention is the meal, and yours is being eaten as snacks. Cut the feeds to one sitting a day. Give the freed hour to one slow subject and stay a month. Let yourself be bored on purpose until depth becomes interesting again.",
       "dips": {
         "body": "Celebration is restoration: sun, feasts, and open affection literally rebuild your ground."
@@ -26,6 +27,7 @@
     "cta_verdict": "Your mind learns by warmth: lessons only settle once something about them catches, and what moves you once instructs you forever."
   },
   "__ore": {
-    "retired_fn_body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Fire running it, your mind absorbs through warmth: stories told at tables, lessons carried by people you love, knowledge that arrives lit. You learn best in company and remember what was taught with feeling. Seek warm teachers. Cold material simply never composts into you."
+    "retired_fn_body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Fire running it, your mind absorbs through warmth: stories told at tables, lessons carried by people you love, knowledge that arrives lit. You learn best in company and remember what was taught with feeling. Seek warm teachers. Cold material simply never composts into you.",
+    "retired_base_personal": "Your core is Earth, and Fire feeds Earth: ash becomes soil. Everything warm that visits you, affection, praise, festivity, sunlight on the field, breaks down into the ground you grow from. That is why Fire is your Mind, the intake that restores what holding spends. Soil is not made by stone alone. It is made by everything that once burned."
   }
 }

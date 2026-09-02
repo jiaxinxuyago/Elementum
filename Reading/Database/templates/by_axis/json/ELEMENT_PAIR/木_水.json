@@ -11,7 +11,8 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Wood, and Water feeds Wood: rain raises the forest. Everything that soaks in quietly, sleep, reading, long conversations, time near water and depth, is what your growth actually drinks. That is why Water is your Mind, the intake that restores what growing spends. A forest is not raised by effort. It is raised by weather.",
+      "classic": "因水潤而能生",
+      "base": "Water gives life to wood, the old texts say, because it moistens: rain soaks the ground, the root drinks in the dark, and what was a seed unfolds toward the sky. The forest is not raised by effort. It is raised by weather, by the patient water that asks no credit for the green it lifts.",
       "catalyst_turn": "Run thin, the canopy outpaces the rain: ambition still reaching while the soil dries. Your chart asks you to feed the water table. Rest, read, go quiet and refill.",
       "friction_turn": "Run heavy, the ground floods: roots soaked past drinking, growth postponed for one more season of preparation. Drain a little. Trees also need sun."
     },
@@ -26,6 +27,7 @@
     "cta_verdict": "Your thinking absorbs like rain into roots, slow and total, and what you learn deeply once feeds you for decades."
   },
   "__ore": {
-    "retired_fn_body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Water running it, your mind absorbs by immersion: full depth or nothing, understanding arriving whole after the soak. You learn from atmospheres as much as pages, and a question left overnight answers itself by morning. Trust the seep. Forcing it only muddies the water."
+    "retired_fn_body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Water running it, your mind absorbs by immersion: full depth or nothing, understanding arriving whole after the soak. You learn from atmospheres as much as pages, and a question left overnight answers itself by morning. Trust the seep. Forcing it only muddies the water.",
+    "retired_base_personal": "Your core is Wood, and Water feeds Wood: rain raises the forest. Everything that soaks in quietly, sleep, reading, long conversations, time near water and depth, is what your growth actually drinks. That is why Water is your Mind, the intake that restores what growing spends. A forest is not raised by effort. It is raised by weather."
   }
 }

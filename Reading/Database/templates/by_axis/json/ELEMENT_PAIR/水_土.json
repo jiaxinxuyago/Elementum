@@ -11,7 +11,8 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Water, and Earth tames Water: banks give the river its path. Earth is the structure that contains you, schedules, roles, walls that will not move for feeling, and contained water is what a river is. That is why Earth is your Order, the discipline that shapes you. Unbanked, depth spreads into marsh. Banked, it becomes current.",
+      "classic": "實勝虛，故土勝水",
+      "base": "The solid prevails over the flowing, and so earth contains water: banks make the river, walls make the well, and depth without a vessel is only weather. Contained, water becomes current, direction, force. The old texts do not call the banks a prison. They call them the reason the river arrives.",
       "catalyst_turn": "Run thin, nothing banks you: depth spreading wide and arriving nowhere, freedom without force. Your chart asks for structure. Accept the role, the rhythm, the walls that aim you.",
       "friction_turn": "Run heavy, the banks close in: current squeezed into a schedule until the water forgets it moves. Widen the channel. Rivers are meant to breathe."
     },
@@ -26,6 +27,7 @@
     "cta_verdict": "Structure is what turns your depth into force, and the steady commitments you resent a little are exactly where your power compounds."
   },
   "__ore": {
-    "retired_fn_body": "The Duty is your accountability function: how order, obligation, and firm structure sit on you. With Earth running it, accountability in you is banked and patient: steady roles, long commitments, people whose expectations do not move with weather. You resent the walls and run truer inside them, and both facts belong in your planning. Choose banks that point somewhere worth arriving."
+    "retired_fn_body": "The Duty is your accountability function: how order, obligation, and firm structure sit on you. With Earth running it, accountability in you is banked and patient: steady roles, long commitments, people whose expectations do not move with weather. You resent the walls and run truer inside them, and both facts belong in your planning. Choose banks that point somewhere worth arriving.",
+    "retired_base_personal": "Your core is Water, and Earth tames Water: banks give the river its path. Earth is the structure that contains you, schedules, roles, walls that will not move for feeling, and contained water is what a river is. That is why Earth is your Order, the discipline that shapes you. Unbanked, depth spreads into marsh. Banked, it becomes current."
   }
 }

@@ -11,7 +11,8 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Earth, and Earth feeds Metal: ore grows in the mountain. Whatever your ground pours itself into becomes your Expression, the channel where your patience turns to something refined and exact. Every precise word, every finished piece, every standard you quietly set is your years of holding, surfacing as edge. Mountains speak rarely. What they say is ore.",
+      "classic": "金居石依山，津潤而生",
+      "base": "Metal is born of earth: it gathers in the mountain's stone, condensed out of long pressure and deep moisture, the ground's patience arriving at a point. The mountain speaks rarely. When it does, what it says is ore, and every refined thing that leaves the rock carries the mountain's patience inside it.",
       "catalyst_turn": "Run thin, the ore stays buried: depth with no expression, patience that never mints anything. Your chart asks you to bring metal up. Finish a piece, publish the standard.",
       "friction_turn": "Run heavy, the mining never stops: everything minted, the mountain hollowed for output. Leave some ore in the ground. Your silence is part of the deposit."
     },
@@ -27,6 +28,7 @@
   },
   "__ore": {
     "retired_bonds_dip": "People keep what you make: your rare words get quoted back years later.",
-    "retired_fn_body": "The Voice is your expression function: the gate where inner ground becomes outer fact. With Metal running it, expression in you is smelted: few words, long formed, hard to argue with. You express by finishing, and your outputs carry an heirloom weight that louder voices never manage. Let things out before they are perfect. Ore refines in the open too."
+    "retired_fn_body": "The Voice is your expression function: the gate where inner ground becomes outer fact. With Metal running it, expression in you is smelted: few words, long formed, hard to argue with. You express by finishing, and your outputs carry an heirloom weight that louder voices never manage. Let things out before they are perfect. Ore refines in the open too.",
+    "retired_base_personal": "Your core is Earth, and Earth feeds Metal: ore grows in the mountain. Whatever your ground pours itself into becomes your Expression, the channel where your patience turns to something refined and exact. Every precise word, every finished piece, every standard you quietly set is your years of holding, surfacing as edge. Mountains speak rarely. What they say is ore."
   }
 }

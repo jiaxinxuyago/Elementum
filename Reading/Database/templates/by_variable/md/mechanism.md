@@ -10,7 +10,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Wood, and here Wood stands with Wood: growth alongside growth, one forest sharing a root system. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. That is why Wood is your Body: your direction, your reaching, your green stubborn aliveness made physical. The other energies act on you. This one is you. |
+| `classic` | 方以類聚，物以群分 |
+| `base` | Things gather by kind, the Book of Changes says, and so wood stands with wood: one forest sharing one root system, every trunk raising the canopy that shelters the next seedling. There is no reaction here, only more of the same green force. A single tree is weather's toy. A forest makes its own weather. |
 | `catalyst_turn` | Run thin, the trunk doubts itself: direction borrowed, growth waiting for permission. Your chart asks you to feed the self. Start something and let it grow visibly yours. |
 | `friction_turn` | Run heavy, the canopy closes: growth so dense no other light gets in, growth for growth’s own sake. Thin the branches and let the forest breathe. |
 
@@ -18,7 +19,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Wood, and Wood feeds Fire: dry branches make the flame. Whatever your growth pours itself into becomes your Expression, the channel where what you have grown turns to light and heat for others. Every talk given, every gathering warmed, every idea that catches is your years of quiet branching, finally burning visible. |
+| `classic` | 木性溫暖，火伏其中 |
+| `base` | Wood is warm by nature, the classics say, and fire sleeps inside it: drill the branch, strike the grain, and the hidden flame comes out. Every log is a lantern waiting for permission. What grew for years in silence burns in an evening, and the light was in the wood all along. |
 | `catalyst_turn` | Run thin, the wood stays green: years of growth and nothing kindled, reach without light. Your chart asks you to burn a little. Show the work, tell the story, let it catch. |
 | `friction_turn` | Run heavy, the burning outruns the growing: everything lit the moment it grows, no branch left on the tree. The flame eats its own forest. Bank the fire and let some growth stand. |
 
@@ -26,7 +28,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Wood, and Wood tames Earth: roots hold the hillside. Earth is the solid, ownable ground your growth exists to take hold of: land, savings, positions, anything with acreage. That is why Earth is your Action, the arena of what you build and claim. A tree does not chase its territory. It roots into it and stays. |
+| `classic` | 專勝散，故木勝土 |
+| `base` | The concentrated prevails over the scattered, and so wood governs earth: the root threads the loose soil, binds it, and holds the slope that rain would otherwise carry away. Ground without roots erodes grain by grain. Gripped by the living tree, the same ground becomes terrace, garden, land worth naming. |
 | `catalyst_turn` | Run thin, the roots float: plenty of reaching, nothing held, growth with no ground under it. Your chart asks you to claim soil. Buy in, commit, root somewhere real. |
 | `friction_turn` | Run heavy, the holding never stops: every slope claimed, every acre worked, roots spread past what the tree can feed. Hold less hillside, hold it deeper. |
 
@@ -34,7 +37,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Wood, and Metal tames Wood: the knife prunes the branch. Metal is the edge that comes for your growth, rules, reviews, hard standards, and pruning is precisely what turns wild reach into an orchard. That is why Metal is your Order, the discipline that shapes you. Unpruned trees grow large. Pruned ones bear fruit. |
+| `classic` | 剛勝柔，故金勝木 |
+| `base` | The hard prevails over the soft, and so metal comes for wood: the shears meet the hedge, the saw meets the trunk, and wild growth learns the shape it could not find alone. Unpruned, a tree grows large and fruitless. Under the edge it loses branches and gains a harvest. |
 | `catalyst_turn` | Run thin, nothing prunes you: growth in every direction and fruit in none. Your chart asks for the knife. Invite the standard, the editor, the coach with shears. |
 | `friction_turn` | Run heavy, the cutting never stops: cut after cut until growing feels like a fault. Too much knife leaves no tree. Step back from blades that prune for pruning’s sake. |
 
@@ -42,7 +46,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Wood, and Water feeds Wood: rain raises the forest. Everything that soaks in quietly, sleep, reading, long conversations, time near water and depth, is what your growth actually drinks. That is why Water is your Mind, the intake that restores what growing spends. A forest is not raised by effort. It is raised by weather. |
+| `classic` | 因水潤而能生 |
+| `base` | Water gives life to wood, the old texts say, because it moistens: rain soaks the ground, the root drinks in the dark, and what was a seed unfolds toward the sky. The forest is not raised by effort. It is raised by weather, by the patient water that asks no credit for the green it lifts. |
 | `catalyst_turn` | Run thin, the canopy outpaces the rain: ambition still reaching while the soil dries. Your chart asks you to feed the water table. Rest, read, go quiet and refill. |
 | `friction_turn` | Run heavy, the ground floods: roots soaked past drinking, growth postponed for one more season of preparation. Drain a little. Trees also need sun. |
 
@@ -50,7 +55,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Fire, and Wood feeds Fire: dry branches make the flame. Everything gathered and grown, books read, friendships tended, skills stacked like cordwood, is the fuel your light actually burns. That is why Wood is your Mind, the intake that restores what shining spends. A fire is not kept alive by burning harder. It is kept alive by the woodpile. |
+| `classic` | 木性溫暖，火伏其中 |
+| `base` | Wood is warm by nature and fire sleeps inside it, the classics say, so every flame is fed by what was gathered before it: dry branches, stacked seasons, years of quiet growth surrendered to one bright hour. A fire is only ever as tall as its fuel. The blaze borrows everything from the forest. |
 | `catalyst_turn` | Run thin, the flame eats scraps: brilliance flaring on no reserves, warmth borrowed from tomorrow. Your chart asks you to stack wood. Learn, gather, befriend, store. |
 | `friction_turn` | Run heavy, the woodpile buries the fire: fuel hoarded past burning, preparation stacked so high the flame never gets lit. Pull a branch off the pile and strike. |
 
@@ -58,7 +64,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Fire, and here Fire stands with Fire: flame alongside flame, one blaze sharing a hearth. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. That is why Fire is your Body: your warmth, your visibility, your refusal to be dim. The other energies act on you. This one is the light itself. |
+| `classic` | 同明相照，同類相求 |
+| `base` | Lights answer one another, the old histories say: flame set beside flame makes one blaze, brighter than the sum of what was lit. There is no reaction between them, only reinforcement, heat agreeing with heat. Such doubling warms whole houses, and it can also empty the woodpile twice as fast. |
 | `catalyst_turn` | Run thin, the flame apologizes for shining: warmth dialed down, light waiting to be invited. Your chart asks you to feed the self. Take the stage you keep declining. |
 | `friction_turn` | Run heavy, the light crowds out the sky: so much shine nothing else is visible, warmth that outshines the people it warms. Dim deliberately sometimes. Stars are seen at night. |
 
@@ -66,7 +73,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Fire, and Fire feeds Earth: ash becomes soil. Whatever your heat pours itself into becomes your Expression, the channel where your burning turns to ground others stand on. Every lesson taught, every custom kept warm, every gathering hosted is your flame settling into something lasting. Light shows. Soil stays. |
+| `classic` | 木焚而成灰，灰即土也 |
+| `base` | Fire gives birth to earth, the old texts say: what burns comes down at last as ash, and ash settles into soil. Nothing bright is lost entirely. The flame that danced for an evening feeds the field for a generation, warmth pressed down into ground that will hold seeds long after the light is gone. |
 | `catalyst_turn` | Run thin, the fire leaves no ash: heat and light, nothing banked, nothing built from the burning. Your chart asks you to settle some flame. Teach it, write it, found it. |
 | `friction_turn` | Run heavy, every spark gets pressed into a monument: output hardening faster than it can live. Let some fires just be fires. Not every flame must found something. |
 
@@ -74,7 +82,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Fire, and Fire tames Metal: the forge softens the blade. Metal is the hard, finished, valuable material your heat exists to work: money, tools, standards, anything that resists until it glows. That is why Metal is your Action, the arena of what you build and claim. Value does not frighten you. You have seen what it looks like soft. |
+| `classic` | 精勝堅，故火勝金 |
+| `base` | The refined prevails over the stubborn, and so fire works metal: in the furnace the hardest thing in the world goes soft, gives up its rock, and takes a finer form. Cold, metal refuses every argument. Heated, it flows like consent, and the smith reads the glow the way farmers read the sky. |
 | `catalyst_turn` | Run thin, the forge stands cold: heat with nothing hard to work, charm with no asset under it. Your chart asks you to work metal. Take on the difficult, valuable thing. |
 | `friction_turn` | Run heavy, the melting never stops: everything softened for reworking, nothing allowed to cool and keep an edge. Let finished things stay finished. A forge needs objects, not only fire. |
 
@@ -82,7 +91,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Fire, and Water tames Fire: rain ends the blaze. Water is the cool that presses on you, rules, review, depths you cannot light, and a flame that has met rain burns more carefully ever after. That is why Water is your Order, the discipline that shapes you. Rain is not the end of fire. It is fire’s education. |
+| `classic` | 眾勝寡，故水勝火 |
+| `base` | The many prevail over the few, and so water commands fire: one flame meets the falling rain, and however bright it burned, the rain does not run out first. What survives learns to burn banked and careful. Rain is the blaze's schooling: after it, fire keeps its heat closer and wastes less light. |
 | `catalyst_turn` | Run thin, nothing checks the burn: enthusiasm with no depth gauge, light that has never been rained on. Your chart asks for water. Seek the cold reviewer, the quiet counsel. |
 | `friction_turn` | Run heavy, the rain never lifts: constant drizzle on every spark, caution soaking the kindling before it catches. Step out of the rain. A doused fire serves no one. |
 
@@ -90,7 +100,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Earth, and Wood tames Earth: roots hold the hillside. Wood is the living demand that grips you, family, growth, obligations that keep growing back, and rooted ground is what a hillside is for. That is why Wood is your Order, the discipline that shapes you. Unclaimed ground erodes. Rooted ground becomes a terraced farm. |
+| `classic` | 專勝散，故木勝土 |
+| `base` | The concentrated prevails over the scattered, and so wood grips earth: roots thread the field, take hold, and do not ask permission. The ground carries what grows in it, season after season, the way a hillside carries its forest. It is a weight and a purpose at once. Unrooted ground is only dust waiting for wind. |
 | `catalyst_turn` | Run thin, nothing roots in you: ground with no claim on it, steadiness serving no living thing. Your chart asks for roots. Take on something growing and let it grip. |
 | `friction_turn` | Run heavy, the roots take everything: every living thing anchored in your acre, soil exhausted by what it holds. Let a slope go wild. You are ground, not groundskeeper to everyone. |
 
@@ -98,7 +109,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Earth, and Fire feeds Earth: ash becomes soil. Everything warm that visits you, affection, praise, festivity, sunlight on the field, breaks down into the ground you grow from. That is why Fire is your Mind, the intake that restores what holding spends. Soil is not made by stone alone. It is made by everything that once burned. |
+| `classic` | 木焚而成灰，灰即土也 |
+| `base` | Ash is earth, the old texts say: everything that burns comes down to soil at last. So the field is fed by every fire that visits it, warmth breaking down into richness, the bright and the festive settling in as fertility. Cold ground grows little. Ground that has known flame grows the harvest. |
 | `catalyst_turn` | Run thin, the field goes gray: duties held on cold ground, nothing warm coming in. Your chart asks you to feed the fire that feeds you. Accept warmth. Attend the feast. |
 | `friction_turn` | Run heavy, the warmth never lets up: comfort layered until the ground never firms and standing feels unnecessary. Walk off the hearth and bear some weather. |
 
@@ -106,7 +118,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Earth, and here Earth stands with Earth: ground alongside ground, bedrock under soil. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. That is why Earth is your Body: your steadiness, your word, your way of staying when everything else moves. The other energies act on you. This one holds. |
+| `classic` | 厚德載物 |
+| `base` | Thick virtue carries all things, the Book of Changes says of earth: ground laid upon ground, bedrock under soil, the one element whose nature is simply to hold. Nothing reacts here. Ground settles onto ground, and the stillness deepens until mountains sit on it without complaint. What everything else moves through, earth remains. |
 | `catalyst_turn` | Run thin, the ground doubts its own bearing: steadiness performed, footing borrowed. Your chart asks you to feed the self. Keep one promise to yourself so long it becomes terrain. |
 | `friction_turn` | Run heavy, the ground packs hard: so much steadiness nothing new can root, stillness sealed into immobility. Till the field. Even bedrock is improved by weather. |
 
@@ -114,7 +127,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Earth, and Earth feeds Metal: ore grows in the mountain. Whatever your ground pours itself into becomes your Expression, the channel where your patience turns to something refined and exact. Every precise word, every finished piece, every standard you quietly set is your years of holding, surfacing as edge. Mountains speak rarely. What they say is ore. |
+| `classic` | 金居石依山，津潤而生 |
+| `base` | Metal is born of earth: it gathers in the mountain's stone, condensed out of long pressure and deep moisture, the ground's patience arriving at a point. The mountain speaks rarely. When it does, what it says is ore, and every refined thing that leaves the rock carries the mountain's patience inside it. |
 | `catalyst_turn` | Run thin, the ore stays buried: depth with no expression, patience that never mints anything. Your chart asks you to bring metal up. Finish a piece, publish the standard. |
 | `friction_turn` | Run heavy, the mining never stops: everything minted, the mountain hollowed for output. Leave some ore in the ground. Your silence is part of the deposit. |
 
@@ -122,7 +136,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Earth, and Earth tames Water: banks give the river its path. Water is the moving, liquid, flowing material your ground exists to channel: money, opportunity, people in motion. That is why Water is your Action, the arena of what you build and claim. You do not chase the river. You shape the banks and let it arrive. |
+| `classic` | 實勝虛，故土勝水 |
+| `base` | The solid prevails over the flowing, and so earth governs water: banks give the river its path, the dam gives the flood its pause, and what would spread into marsh becomes current with somewhere to go. Unbanked water wanders and thins. Held by ground, the same water turns wheels, floats grain, arrives. |
 | `catalyst_turn` | Run thin, the banks hold no river: structure ready, nothing flowing, canals waiting on rain. Your chart asks you to court the current. Go where things move and channel some. |
 | `friction_turn` | Run heavy, the damming never stops: every stream metered, flow managed until nothing pools for joy. Unclench a channel. Some water is for watching. |
 
@@ -175,7 +190,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Water, and Water feeds Wood: rain raises the forest. Whatever your depth pours itself into becomes your Expression, the channel where what you know underneath turns into visible growth. Every person mentored, every idea seeded, every project quietly watered is your rain, standing up as someone’s forest. Depth shows itself as what it grows. |
+| `classic` | 因水潤而能生 |
+| `base` | Water gives life to wood because it moistens, say the old texts: rain falls, the root drinks, and the forest stands up out of the ground the water made soft. The rain keeps nothing for itself. Everything it touches turns green on its behalf, and the tallest trees are its quietest monuments. |
 | `catalyst_turn` | Run thin, the rain withholds: depth circling underground, nothing green standing up from it. Your chart asks you to pour. Mentor someone, seed the idea, water a thing in public. |
 | `friction_turn` | Run heavy, the rain never closes: everything that stands still gets watered, depth drained into other people’s forests. Close the sky sometimes. Rain is also allowed to rest. |
 
@@ -183,7 +199,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Water, and Water tames Fire: rain ends the blaze. Fire is the bright, urgent, valuable heat your depth exists to govern: opportunity, attention, markets mid-blaze. That is why Fire is your Action, the arena of what you build and claim. You do not outshine the fire. You decide where it burns, and what survives it. |
+| `classic` | 眾勝寡，故水勝火 |
+| `base` | The many prevail over the few, and so water governs fire: the rain decides which flames continue, the river decides where the burning stops. Fire is brilliant and outnumbered. Depth arrives without hurry, spends nothing it cannot spare, and the blaze that seemed unstoppable at midnight is steam by morning. |
 | `catalyst_turn` | Run thin, nothing bright is governed: depth with no stake in the blaze, wisdom watching value burn past. Your chart asks you to claim heat. Step toward the bright loud thing. |
 | `friction_turn` | Run heavy, the managing never stops: every bright thing dampened into strategy, no fire left just for warmth. Let one blaze run wild and enjoy it. |
 
@@ -191,7 +208,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Water, and Earth tames Water: banks give the river its path. Earth is the structure that contains you, schedules, roles, walls that will not move for feeling, and contained water is what a river is. That is why Earth is your Order, the discipline that shapes you. Unbanked, depth spreads into marsh. Banked, it becomes current. |
+| `classic` | 實勝虛，故土勝水 |
+| `base` | The solid prevails over the flowing, and so earth contains water: banks make the river, walls make the well, and depth without a vessel is only weather. Contained, water becomes current, direction, force. The old texts do not call the banks a prison. They call them the reason the river arrives. |
 | `catalyst_turn` | Run thin, nothing banks you: depth spreading wide and arriving nowhere, freedom without force. Your chart asks for structure. Accept the role, the rhythm, the walls that aim you. |
 | `friction_turn` | Run heavy, the banks close in: current squeezed into a schedule until the water forgets it moves. Widen the channel. Rivers are meant to breathe. |
 
@@ -199,7 +217,8 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Water, and Metal feeds Water: dew beads on the cold blade. Everything precise and refined that touches you, clear teaching, exact tools, people with standards, condenses into new depth. That is why Metal is your Mind, the intake that restores what flowing spends. Rivers are not fed by wishing. They are fed by cold clean edges upstream. |
+| `classic` | 少陰之氣，銷金為水 |
+| `base` | Water is metal's child, the old reckoning says: dew beads on cold iron, molten metal runs like a river, and the exact hard thing releases the flowing one. So clarity feeds depth. What the whetted edge concentrates, the stream inherits, sharpness dissolved into current and carried further than any blade could reach. |
 | `catalyst_turn` | Run thin, the spring runs shallow: intuition drawn on without refilling, depth spending faster than it condenses. Your chart asks for metal. Study something exact and drink from it. |
 | `friction_turn` | Run heavy, the rigor sets like concrete: so much refining the water never moves, depth held in cisterns of preparation. Pour something out. A spring proves itself by flowing. |
 
@@ -207,6 +226,7 @@
 
 | Field | Value |
 |---|---|
-| `base` | Your core is Water, and here Water stands with Water: depth alongside depth, one sea fed by its own rivers. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. That is why Water is your Body: your perception, your patience, your way of knowing what moves beneath. The other energies act on you. This one simply deepens. |
+| `classic` | 潤萬物者莫潤乎水 |
+| `base` | Nothing moistens all things like water, the Book of Changes says: depth joined to depth, rivers feeding the sea that sends them back as rain. There is no reaction here, only gathering. Still water clarifies, deep water remembers, and the same softness that yields to every stone eventually carries the stone away. |
 | `catalyst_turn` | Run thin, the sea doubts its depth: perception discounted, knowing deferred to louder instruments. Your chart asks you to feed the self. Trust one read all the way through. |
 | `friction_turn` | Run heavy, the surface seals: depth stilled under so much knowing that nothing surfaces to be checked. Say the read aloud. Deep water still needs shores. |

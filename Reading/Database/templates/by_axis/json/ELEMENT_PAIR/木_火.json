@@ -11,7 +11,8 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Wood, and Wood feeds Fire: dry branches make the flame. Whatever your growth pours itself into becomes your Expression, the channel where what you have grown turns to light and heat for others. Every talk given, every gathering warmed, every idea that catches is your years of quiet branching, finally burning visible.",
+      "classic": "木性溫暖，火伏其中",
+      "base": "Wood is warm by nature, the classics say, and fire sleeps inside it: drill the branch, strike the grain, and the hidden flame comes out. Every log is a lantern waiting for permission. What grew for years in silence burns in an evening, and the light was in the wood all along.",
       "catalyst_turn": "Run thin, the wood stays green: years of growth and nothing kindled, reach without light. Your chart asks you to burn a little. Show the work, tell the story, let it catch.",
       "friction_turn": "Run heavy, the burning outruns the growing: everything lit the moment it grows, no branch left on the tree. The flame eats its own forest. Bank the fire and let some growth stand."
     },
@@ -27,6 +28,7 @@
   },
   "__ore": {
     "retired_bonds_dip": "People gather to your warmth first and your reasons second.",
-    "retired_fn_body": "The Voice is your expression function: the gate where inner growth becomes outer light. With Fire running it, expression in you performs: it warms, it dazzles, it spreads by catching. You are at your clearest in front of people, mid-flame, thinking aloud. Feed it seasoned material, work that has dried long enough to burn clean, and your reach turns luminous."
+    "retired_fn_body": "The Voice is your expression function: the gate where inner growth becomes outer light. With Fire running it, expression in you performs: it warms, it dazzles, it spreads by catching. You are at your clearest in front of people, mid-flame, thinking aloud. Feed it seasoned material, work that has dried long enough to burn clean, and your reach turns luminous.",
+    "retired_base_personal": "Your core is Wood, and Wood feeds Fire: dry branches make the flame. Whatever your growth pours itself into becomes your Expression, the channel where what you have grown turns to light and heat for others. Every talk given, every gathering warmed, every idea that catches is your years of quiet branching, finally burning visible."
   }
 }

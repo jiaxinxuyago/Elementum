@@ -11,7 +11,8 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Earth, and here Earth stands with Earth: ground alongside ground, bedrock under soil. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. That is why Earth is your Body: your steadiness, your word, your way of staying when everything else moves. The other energies act on you. This one holds.",
+      "classic": "厚德載物",
+      "base": "Thick virtue carries all things, the Book of Changes says of earth: ground laid upon ground, bedrock under soil, the one element whose nature is simply to hold. Nothing reacts here. Ground settles onto ground, and the stillness deepens until mountains sit on it without complaint. What everything else moves through, earth remains.",
       "catalyst_turn": "Run thin, the ground doubts its own bearing: steadiness performed, footing borrowed. Your chart asks you to feed the self. Keep one promise to yourself so long it becomes terrain.",
       "friction_turn": "Run heavy, the ground packs hard: so much steadiness nothing new can root, stillness sealed into immobility. Till the field. Even bedrock is improved by weather."
     },
@@ -27,6 +28,7 @@
     "cta_verdict": "Your endurance is so quiet you forget it has limits, and the day you finally feel tired is years after you first were."
   },
   "__ore": {
-    "retired_fn_body": "The Core is your endurance function: the seat your strength rests on. With Earth doubled here, your constitution is bedrock: vast reserves, slow rhythms, an endurance that looks like stillness and outlasts everything that hurries. Depletion in you is geological, so gradual you rarely feel it moving. Weigh yourself honestly each season, and shore the ground before it says you must."
+    "retired_fn_body": "The Core is your endurance function: the seat your strength rests on. With Earth doubled here, your constitution is bedrock: vast reserves, slow rhythms, an endurance that looks like stillness and outlasts everything that hurries. Depletion in you is geological, so gradual you rarely feel it moving. Weigh yourself honestly each season, and shore the ground before it says you must.",
+    "retired_base_personal": "Your core is Earth, and here Earth stands with Earth: ground alongside ground, bedrock under soil. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. That is why Earth is your Body: your steadiness, your word, your way of staying when everything else moves. The other energies act on you. This one holds."
   }
 }

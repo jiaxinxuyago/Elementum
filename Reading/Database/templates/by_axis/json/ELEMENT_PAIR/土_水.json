@@ -11,7 +11,8 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Earth, and Earth tames Water: banks give the river its path. Water is the moving, liquid, flowing material your ground exists to channel: money, opportunity, people in motion. That is why Water is your Action, the arena of what you build and claim. You do not chase the river. You shape the banks and let it arrive.",
+      "classic": "實勝虛，故土勝水",
+      "base": "The solid prevails over the flowing, and so earth governs water: banks give the river its path, the dam gives the flood its pause, and what would spread into marsh becomes current with somewhere to go. Unbanked water wanders and thins. Held by ground, the same water turns wheels, floats grain, arrives.",
       "catalyst_turn": "Run thin, the banks hold no river: structure ready, nothing flowing, canals waiting on rain. Your chart asks you to court the current. Go where things move and channel some.",
       "friction_turn": "Run heavy, the damming never stops: every stream metered, flow managed until nothing pools for joy. Unclench a channel. Some water is for watching."
     },
@@ -27,6 +28,7 @@
   },
   "__ore": {
     "retired_bonds_dip": "You hold people by being their banks: steady sides that let their current run.",
-    "retired_fn_body": "The Drive is your action function: what you go get, build, and hold. With Water running it, action in you is hydraulic: you build channels, then let volume do the work. Income streams, standing arrangements, systems that flow while you sleep. You claim by routing rather than grabbing, and what you route well returns forever. Dig the canal once, drink for years."
+    "retired_fn_body": "The Drive is your action function: what you go get, build, and hold. With Water running it, action in you is hydraulic: you build channels, then let volume do the work. Income streams, standing arrangements, systems that flow while you sleep. You claim by routing rather than grabbing, and what you route well returns forever. Dig the canal once, drink for years.",
+    "retired_base_personal": "Your core is Earth, and Earth tames Water: banks give the river its path. Water is the moving, liquid, flowing material your ground exists to channel: money, opportunity, people in motion. That is why Water is your Action, the arena of what you build and claim. You do not chase the river. You shape the banks and let it arrive."
   }
 }

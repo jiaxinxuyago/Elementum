@@ -11,7 +11,8 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Water, and here Water stands with Water: depth alongside depth, one sea fed by its own rivers. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. That is why Water is your Body: your perception, your patience, your way of knowing what moves beneath. The other energies act on you. This one simply deepens.",
+      "classic": "潤萬物者莫潤乎水",
+      "base": "Nothing moistens all things like water, the Book of Changes says: depth joined to depth, rivers feeding the sea that sends them back as rain. There is no reaction here, only gathering. Still water clarifies, deep water remembers, and the same softness that yields to every stone eventually carries the stone away.",
       "catalyst_turn": "Run thin, the sea doubts its depth: perception discounted, knowing deferred to louder instruments. Your chart asks you to feed the self. Trust one read all the way through.",
       "friction_turn": "Run heavy, the surface seals: depth stilled under so much knowing that nothing surfaces to be checked. Say the read aloud. Deep water still needs shores."
     },
@@ -27,6 +28,7 @@
     "cta_verdict": "Your stamina refills in solitude and silence, and every season you skip that refill quietly borrows from the next one."
   },
   "__ore": {
-    "retired_fn_body": "The Core is your endurance function: the seat your strength refills from. With Water doubled here, your vitality is a deep table: quiet reserves that recharge from below, stamina that flows around obstacles rather than breaking on them. You recover in solitude and silence the way aquifers do. Guard the recharge fiercely. A drawn-down well still looks like a well from above."
+    "retired_fn_body": "The Core is your endurance function: the seat your strength refills from. With Water doubled here, your vitality is a deep table: quiet reserves that recharge from below, stamina that flows around obstacles rather than breaking on them. You recover in solitude and silence the way aquifers do. Guard the recharge fiercely. A drawn-down well still looks like a well from above.",
+    "retired_base_personal": "Your core is Water, and here Water stands with Water: depth alongside depth, one sea fed by its own rivers. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. That is why Water is your Body: your perception, your patience, your way of knowing what moves beneath. The other energies act on you. This one simply deepens."
   }
 }

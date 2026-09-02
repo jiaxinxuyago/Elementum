@@ -11,7 +11,8 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Wood, and Metal tames Wood: the knife prunes the branch. Metal is the edge that comes for your growth, rules, reviews, hard standards, and pruning is precisely what turns wild reach into an orchard. That is why Metal is your Order, the discipline that shapes you. Unpruned trees grow large. Pruned ones bear fruit.",
+      "classic": "剛勝柔，故金勝木",
+      "base": "The hard prevails over the soft, and so metal comes for wood: the shears meet the hedge, the saw meets the trunk, and wild growth learns the shape it could not find alone. Unpruned, a tree grows large and fruitless. Under the edge it loses branches and gains a harvest.",
       "catalyst_turn": "Run thin, nothing prunes you: growth in every direction and fruit in none. Your chart asks for the knife. Invite the standard, the editor, the coach with shears.",
       "friction_turn": "Run heavy, the cutting never stops: cut after cut until growing feels like a fault. Too much knife leaves no tree. Step back from blades that prune for pruning’s sake."
     },
@@ -26,6 +27,7 @@
     "cta_verdict": "Discipline reaches you as a blade, exacting people, hard standards, and every cut you accept on purpose becomes shape you get to keep."
   },
   "__ore": {
-    "retired_fn_body": "The Duty is your accountability function: how order, obligation, and other people’s standards sit on you. With Metal running it, accountability in you is exact: contracts, deadlines, people who measure. You grow best trellised, and you know it, which is why you keep choosing exacting company. Respect the shears that shape you, and refuse the ones that only wound."
+    "retired_fn_body": "The Duty is your accountability function: how order, obligation, and other people’s standards sit on you. With Metal running it, accountability in you is exact: contracts, deadlines, people who measure. You grow best trellised, and you know it, which is why you keep choosing exacting company. Respect the shears that shape you, and refuse the ones that only wound.",
+    "retired_base_personal": "Your core is Wood, and Metal tames Wood: the knife prunes the branch. Metal is the edge that comes for your growth, rules, reviews, hard standards, and pruning is precisely what turns wild reach into an orchard. That is why Metal is your Order, the discipline that shapes you. Unpruned trees grow large. Pruned ones bear fruit."
   }
 }

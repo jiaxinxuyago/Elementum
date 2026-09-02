@@ -11,7 +11,8 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Fire, and Water tames Fire: rain ends the blaze. Water is the cool that presses on you, rules, review, depths you cannot light, and a flame that has met rain burns more carefully ever after. That is why Water is your Order, the discipline that shapes you. Rain is not the end of fire. It is fire’s education.",
+      "classic": "眾勝寡，故水勝火",
+      "base": "The many prevail over the few, and so water commands fire: one flame meets the falling rain, and however bright it burned, the rain does not run out first. What survives learns to burn banked and careful. Rain is the blaze's schooling: after it, fire keeps its heat closer and wastes less light.",
       "catalyst_turn": "Run thin, nothing checks the burn: enthusiasm with no depth gauge, light that has never been rained on. Your chart asks for water. Seek the cold reviewer, the quiet counsel.",
       "friction_turn": "Run heavy, the rain never lifts: constant drizzle on every spark, caution soaking the kindling before it catches. Step out of the rain. A doused fire serves no one."
     },
@@ -26,6 +27,7 @@
     "cta_verdict": "Pressure reaches you cool and quiet, and the calm authorities you let bank your fire are the reason it lasts the night."
   },
   "__ore": {
-    "retired_fn_body": "The Duty is your accountability function: how order, obligation, and other people’s depths sit on you. With Water running it, accountability in you arrives quietly: the measured senior, the still question, consequences that seep rather than strike. You answer best to calm authority, and you learn to bank your fire around it. Choose water that cools you without putting you out."
+    "retired_fn_body": "The Duty is your accountability function: how order, obligation, and other people’s depths sit on you. With Water running it, accountability in you arrives quietly: the measured senior, the still question, consequences that seep rather than strike. You answer best to calm authority, and you learn to bank your fire around it. Choose water that cools you without putting you out.",
+    "retired_base_personal": "Your core is Fire, and Water tames Fire: rain ends the blaze. Water is the cool that presses on you, rules, review, depths you cannot light, and a flame that has met rain burns more carefully ever after. That is why Water is your Order, the discipline that shapes you. Rain is not the end of fire. It is fire’s education."
   }
 }
