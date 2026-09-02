@@ -11,13 +11,14 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Water, and Water feeds Wood: rain raises the forest. Whatever your depth pours itself into becomes your Voice, the channel where what you know underneath turns into visible growth. Every person mentored, every idea seeded, every project quietly watered is your rain, standing up as someone’s forest. Depth shows itself as what it grows.",
+      "base": "Your core is Water, and Water feeds Wood: rain raises the forest. Whatever your depth pours itself into becomes your Expression, the channel where what you know underneath turns into visible growth. Every person mentored, every idea seeded, every project quietly watered is your rain, standing up as someone’s forest. Depth shows itself as what it grows.",
       "catalyst_turn": "Run thin, the rain withholds: depth circling underground, nothing green standing up from it. Your chart asks you to pour. Mentor someone, seed the idea, water a thing in public.",
-      "friction_turn": "Run heavy, the Voice turns Echo: watering everything that stands still, depth drained into other people’s forests. Close the sky sometimes. Rain is also allowed to rest."
+      "friction_turn": "Run heavy, the rain never closes: everything that stands still gets watered, depth drained into other people’s forests. Close the sky sometimes. Rain is also allowed to rest."
     },
     "function": {
       "primary": "expression",
-      "body": "The Voice is your expression function: the gate where inner depth becomes outer growth. With Wood running it, expression in you cultivates: you speak in seeds, questions, and quiet suggestions that turn out to be load-bearing a year later. Your influence is climate more than announcement. Claim some of the harvest aloud. Forests forget which rain raised them.",
+      "definition_catalyst": "Wood is your Expression, and as a catalyst, it is your depth showing up as things that grow: people mentored, ideas seeded, projects that stand up and keep growing after you step back. You are built to develop others. Take one mentee, one junior, one growing thing, and give it a standing hour a week.",
+      "definition_friction": "Wood is your Expression, and as a friction, it is pouring into everything that stands still: every person developed, every idea watered, your depth spent raising gardens you do not live in. Giving has outrun replenishing. Count what you are currently growing, keep the three that matter, and let the rest go.",
       "dips": {
         "mind": "Explaining a thing plants it deeper in you: taught knowledge roots twice."
       }
@@ -25,6 +26,7 @@
     "cta_verdict": "What you feel becomes what you grow, and the people and projects you quietly water are your real body of work."
   },
   "__ore": {
-    "retired_bonds_dip": "People grow near you and cannot always say why: that is your rain at work."
+    "retired_bonds_dip": "People grow near you and cannot always say why: that is your rain at work.",
+    "retired_fn_body": "The Voice is your expression function: the gate where inner depth becomes outer growth. With Wood running it, expression in you cultivates: you speak in seeds, questions, and quiet suggestions that turn out to be load-bearing a year later. Your influence is climate more than announcement. Claim some of the harvest aloud. Forests forget which rain raised them."
   }
 }

@@ -11,13 +11,14 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Earth, and Earth feeds Metal: ore grows in the mountain. Whatever your ground pours itself into becomes your Voice, the channel where your patience turns to something refined and exact. Every precise word, every finished piece, every standard you quietly set is your years of holding, surfacing as edge. Mountains speak rarely. What they say is ore.",
+      "base": "Your core is Earth, and Earth feeds Metal: ore grows in the mountain. Whatever your ground pours itself into becomes your Expression, the channel where your patience turns to something refined and exact. Every precise word, every finished piece, every standard you quietly set is your years of holding, surfacing as edge. Mountains speak rarely. What they say is ore.",
       "catalyst_turn": "Run thin, the ore stays buried: depth with no expression, patience that never mints anything. Your chart asks you to bring metal up. Finish a piece, publish the standard.",
-      "friction_turn": "Run heavy, the Voice turns Echo: everything mined and minted, the mountain hollowed for output. Leave some ore in the ground. Your silence is part of the deposit."
+      "friction_turn": "Run heavy, the mining never stops: everything minted, the mountain hollowed for output. Leave some ore in the ground. Your silence is part of the deposit."
     },
     "function": {
       "primary": "expression",
-      "body": "The Voice is your expression function: the gate where inner ground becomes outer fact. With Metal running it, expression in you is smelted: few words, long formed, hard to argue with. You express by finishing, and your outputs carry an heirloom weight that louder voices never manage. Let things out before they are perfect. Ore refines in the open too.",
+      "definition_catalyst": "Metal is your Expression, and as a catalyst, it is your patience surfacing as precision: the exact word, the finished piece, the standard people quote after you leave. You speak rarely and it lands, so treat output as your multiplier. Ship one polished thing a month, small is fine, finished is the point.",
+      "definition_friction": "Metal is your Expression, and as a friction, it is output demanded from reserves that fill slowly: more deliverables, more opinions, more polish than your quiet depth can supply. Producing is starting to hollow you. Halve your output commitments for a quarter, and let the remaining work carry your full standard.",
       "dips": {
         "mind": "Writing sharpens your slow thinking: the sentence is where your ground finds its edge."
       }
@@ -25,6 +26,7 @@
     "cta_verdict": "You speak rarely and it lands like something forged, and the few words you release outlive whole conversations other people spent."
   },
   "__ore": {
-    "retired_bonds_dip": "People keep what you make: your rare words get quoted back years later."
+    "retired_bonds_dip": "People keep what you make: your rare words get quoted back years later.",
+    "retired_fn_body": "The Voice is your expression function: the gate where inner ground becomes outer fact. With Metal running it, expression in you is smelted: few words, long formed, hard to argue with. You express by finishing, and your outputs carry an heirloom weight that louder voices never manage. Let things out before they are perfect. Ore refines in the open too."
   }
 }

@@ -9,7 +9,8 @@
         "canonical_name": "Wood core × Wood — the Core",
         "value": {
           "primary": "body",
-          "body": "The Core is your endurance function: the seat where strength renews itself. With Wood doubled here, your vitality works like a living tree: it recovers by growing, and it outlasts by renewal, fresh shoots after every cutback. Your reserves are seasonal rather than constant, so honor the winters as part of the engine. A tree that never sheds snaps in the first real storm.",
+          "definition_catalyst": "Wood is your Body, and running thin, it is the growth reserve your whole system draws on: appetite, stamina, the will to start things. When it dips you feel it as flatness before you feel it as fatigue. Protect the basics that regrow you: daylight, movement, green places, and one genuinely free evening a week.",
+          "definition_friction": "Wood is your Body, and running over, it is more growing force than your life gives outlets: restlessness, overcommitment, energy that starts five things just to spend itself. The surplus needs somewhere physical to go. Train hard enough to feel it, and cap your active projects at two.",
           "dips": {
             "mind": "You judge by trajectory: where a thing leads in ten years outweighs its snapshot today.",
             "action": "You decide by starting: the sapling planted teaches you whether the plan was right."
@@ -22,7 +23,8 @@
         "canonical_name": "Wood core × Fire — the Voice",
         "value": {
           "primary": "expression",
-          "body": "The Voice is your expression function: the gate where inner growth becomes outer light. With Fire running it, expression in you performs: it warms, it dazzles, it spreads by catching. You are at your clearest in front of people, mid-flame, thinking aloud. Feed it seasoned material, work that has dried long enough to burn clean, and your reach turns luminous.",
+          "definition_catalyst": "Fire is your Expression, and as a catalyst, it is where what you have built becomes visible: presenting, hosting, putting your name on the work. Visibility feeds you more than you expect, and hiding good work reads to you as safety while it quietly drains morale. Show one finished thing a week, publicly, on purpose.",
+          "definition_friction": "Fire is your Expression, and as a friction, it is visibility outrunning capacity: announcing early, performing energy you do not have, saying yes on stage and paying for it offstage. Pull the launch dates in your calendar back by half, and let the next thing be seen only when it is done.",
           "dips": {
             "mind": "You discover what you think by saying it while it burns."
           }
@@ -34,7 +36,8 @@
         "canonical_name": "Wood core × Earth — the Drive",
         "value": {
           "primary": "action",
-          "body": "The Drive is your action function: what you go get, build, and hold. With Earth running it, action in you is territorial and patient: you advance by rooting, compounding, refusing to be moved. What you claim you keep, and what you keep appreciates. Choose ground worth decades, because your way of holding makes leaving expensive.",
+          "definition_catalyst": "Earth is your Action, and as a catalyst, it is where your reach becomes something held: savings, property, positions, commitments that stay put. You do best when ambition lands somewhere concrete. Automate a monthly amount into one long-term asset, and stop renegotiating it.",
+          "definition_friction": "Earth is your Action, and as a friction, it is holding past your means: too many commitments owned, maintained, and defended at once, each taxing energy you no longer have spare. Everything you keep charges rent on you. Sell, delegate, or close one standing obligation this month.",
           "dips": {
             "order": "What you provide becomes order: the ground you tend sets where every path across it runs."
           }
@@ -46,7 +49,8 @@
         "canonical_name": "Wood core × Metal — the Duty",
         "value": {
           "primary": "order",
-          "body": "The Duty is your accountability function: how order, obligation, and other people’s standards sit on you. With Metal running it, accountability in you is exact: contracts, deadlines, people who measure. You grow best trellised, and you know it, which is why you keep choosing exacting company. Respect the shears that shape you, and refuse the ones that only wound.",
+          "definition_catalyst": "Metal is your Order, and as a catalyst, it is the standard that shapes your growth: editors, coaches, reviews, rules you chose on purpose. You improve fastest under exacting eyes. Put your work in front of one demanding person on a schedule, monthly at least, and treat their notes as maintenance.",
+          "definition_friction": "Metal is your Order, and as a friction, it is correction landing harder than you can absorb: every rule met, every critique taken, until standards stop shaping you and start shrinking you. Not all judges deserve a seat. Keep the two whose notes make you better, and mute the rest.",
           "dips": {
             "action": "A hard rule concentrates you: given clean constraints, your growth goes vertical."
           }
@@ -58,7 +62,8 @@
         "canonical_name": "Wood core × Water — the Root",
         "value": {
           "primary": "mind",
-          "body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Water running it, your mind absorbs by immersion: full depth or nothing, understanding arriving whole after the soak. You learn from atmospheres as much as pages, and a question left overnight answers itself by morning. Trust the seep. Forcing it only muddies the water.",
+          "definition_catalyst": "Water is your Mind, and as a catalyst, it is how you refill: quiet intake, reading, long conversations, time alone that lets impressions settle into understanding. Your thinking improves in direct proportion to your rest. Protect one screen-free hour before bed, and take the walk before the decision.",
+          "definition_friction": "Water is your Mind, and as a friction, it is intake past the point of use: one more book, one more opinion, reflection turning into stalling. More input now costs you clarity instead of adding it. Set a decision date for the thing you keep researching, and keep it.",
           "dips": {
             "body": "Deep sleep is your classroom too: the rest that soaks you is what growth drinks."
           }
@@ -70,7 +75,8 @@
         "canonical_name": "Fire core × Wood — the Root",
         "value": {
           "primary": "mind",
-          "body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Wood running it, your mind absorbs like a canopy: reaching for new material, grafting idea onto idea until strange hybrids fruit. You learn by gathering and by growing, and every book, mentor, and friendship becomes future firelight. Keep planting. Your brilliance burns what your curiosity stacked.",
+          "definition_catalyst": "Wood is your Mind, and as a catalyst, it is how your fuel accumulates: skills stacked, books finished, people learned from over years. What you gather quietly is what you later burn as brilliance. Keep one slow project that grows monthly, a course, a craft, a language, and refuse to rush it.",
+          "definition_friction": "Wood is your Mind, and as a friction, it is gathering as a way of postponing: one more certification, one more plan, readiness that keeps moving its own finish line. You are prepared enough for the next real step. Book the thing you have been training for, this month, at whatever level you are.",
           "dips": {
             "body": "Green time restores the thinker: gardens, walks, and living things refill your fuel."
           }
@@ -82,7 +88,8 @@
         "canonical_name": "Fire core × Fire — the Core",
         "value": {
           "primary": "body",
-          "body": "The Core is your endurance function: the seat your strength burns from. With Fire doubled here, your vitality runs on ignition rather than storage: enormous surges, thin reserves, brilliance that outworks anyone for a week and nobody for a season. Bank the coals on purpose. Fuel, sleep, and rhythm are the fire itself, so tend them the way you tend the blaze.",
+          "definition_catalyst": "Fire is your Body, and running thin, it is the energy behind your warmth: sociability, drive, the lift that makes mornings possible. Yours runs in bursts, so depletion shows as dimness with people you love. Schedule recovery like meetings: real breaks between social blocks, and daylight before screens.",
+          "definition_friction": "Fire is your Body, and running over, it is more heat than your days can spend: sleep that will not come, intensity leaking into every conversation, rest that feels like a punishment. The surplus needs burning on purpose. Train to actual sweat most days, and keep one evening a week completely unplanned.",
           "dips": {
             "mind": "You decide by illumination, whole pictures catching at once. Check the flash against daylight.",
             "action": "Conviction moves you instantly: the moment you see it, you are already lit."
@@ -95,7 +102,8 @@
         "canonical_name": "Fire core × Earth — the Voice",
         "value": {
           "primary": "expression",
-          "body": "The Voice is your expression function: the gate where inner heat becomes outer fact. With Earth running it, expression in you builds rather than dazzles: lessons, systems, homes, traditions warm to the touch. You speak in things that outlast the saying. Feed it steadily and your warmth becomes infrastructure, the kind of expression people live inside for years.",
+          "definition_catalyst": "Earth is your Expression, and as a catalyst, it is your heat becoming things that last: lessons taught, systems written down, gatherings that become traditions. You are at your best converting enthusiasm into something others can stand on. After every burst of inspiration, spend one hour turning it into a document, a recipe, a repeatable plan.",
+          "definition_friction": "Earth is your Expression, and as a friction, it is making monuments out of moments: every idea formalized, every project turned permanent, output hardening while your energy thins. Some things are allowed to be temporary. Let the next good idea stay a conversation, and finish the one structure that matters.",
           "dips": {
             "mind": "Teaching is how your thinking settles: explain it once and you own it."
           }
@@ -107,7 +115,8 @@
         "canonical_name": "Fire core × Metal — the Drive",
         "value": {
           "primary": "action",
-          "body": "The Drive is your action function: what you go get, build, and hold. With Metal running it, action in you is smithing: you take hard, resistant, valuable material and work it while it is hot. Deals, crafts, reputations, all shaped in heat, all worth more when you set them down. Strike in the window. Your timing is the skill.",
+          "definition_catalyst": "Metal is your Action, and as a catalyst, it is your heat applied to hard, valuable problems: negotiations, difficult skills, work that resists until it yields. Easy tasks waste you. Take the assignment everyone else avoids, price your work higher than feels comfortable, and let difficulty be your filter.",
+          "definition_friction": "Metal is your Action, and as a friction, it is reworking what should be finished: renegotiating settled things, polishing shipped work, effort spent softening what was already solid. Done is a decision you keep reopening. Close three open loops this week and do not reopen them.",
           "dips": {
             "order": "What you forge becomes law: the tools you make end up setting the standards around you."
           }
@@ -119,7 +128,8 @@
         "canonical_name": "Fire core × Water — the Duty",
         "value": {
           "primary": "order",
-          "body": "The Duty is your accountability function: how order, obligation, and other people’s depths sit on you. With Water running it, accountability in you arrives quietly: the measured senior, the still question, consequences that seep rather than strike. You answer best to calm authority, and you learn to bank your fire around it. Choose water that cools you without putting you out.",
+          "definition_catalyst": "Water is your Order, and as a catalyst, it is the cool check your intensity needs: reviews, budgets, one person whose calm questions slow you down before the leap. Your best decisions have all survived a night of doubt. Build the pause in: sleep on anything irreversible, and keep a reviewer you cannot charm.",
+          "definition_friction": "Water is your Order, and as a friction, it is caution soaking through everything: every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would. Give small decisions a five-minute timer, and save the reviews for what is truly irreversible.",
           "dips": {
             "action": "A cool deadline focuses your flame: pressure quiets the flicker and points the heat."
           }
@@ -131,7 +141,8 @@
         "canonical_name": "Earth core × Wood — the Duty",
         "value": {
           "primary": "order",
-          "body": "The Duty is your accountability function: how order, obligation, and living claims sit on you. With Wood running it, accountability in you grows: children, teams, gardens of people whose roots are in your ground. You hold rank by being held onto, and the grip that tires you is also what keeps your hillside from sliding. Prune the claims each season, keep the ones that fruit.",
+          "definition_catalyst": "Wood is your Order, and as a catalyst, it is living obligation that keeps you growing: family, teams, mentees, commitments that grow back each season and ask you to grow with them. Care is your discipline. Take on one responsibility that develops over years, and let its schedule structure yours.",
+          "definition_friction": "Wood is your Order, and as a friction, it is obligations multiplying past your ground: everyone rooted in you, nothing rooted for you, care extracted faster than it regrows. Some claims on you are habits, not needs. List who actually needs you this season, and hand one standing duty back.",
           "dips": {
             "action": "A living deadline moves you: you work hardest when something planted depends on it."
           }
@@ -143,7 +154,8 @@
         "canonical_name": "Earth core × Fire — the Root",
         "value": {
           "primary": "mind",
-          "body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Fire running it, your mind absorbs through warmth: stories told at tables, lessons carried by people you love, knowledge that arrives lit. You learn best in company and remember what was taught with feeling. Seek warm teachers. Cold material simply never composts into you.",
+          "definition_catalyst": "Fire is your Mind, and as a catalyst, it is how learning actually enters you: through excitement, people, and live example rather than cold text. You retain what warmed you. Learn socially on purpose: take the class instead of the book, and explain new ideas to someone within a day of meeting them.",
+          "definition_friction": "Fire is your Mind, and as a friction, it is stimulation mistaken for nourishment: feeds, sparks, novelty consumed all day while real understanding stays shallow. The excitement is spending you, and it feels like input. Cut the feeds to one sitting a day, and give the freed hour to one slow subject.",
           "dips": {
             "body": "Celebration is restoration: sun, feasts, and open affection literally rebuild your ground."
           }
@@ -155,7 +167,8 @@
         "canonical_name": "Earth core × Earth — the Core",
         "value": {
           "primary": "body",
-          "body": "The Core is your endurance function: the seat your strength rests on. With Earth doubled here, your constitution is bedrock: vast reserves, slow rhythms, an endurance that looks like stillness and outlasts everything that hurries. Depletion in you is geological, so gradual you rarely feel it moving. Weigh yourself honestly each season, and shore the ground before it says you must.",
+          "definition_catalyst": "Earth is your Body, and running thin, it is the steadiness under everything: digestion, sleep depth, the physical calm that lets you carry weight. Yours erodes quietly under skipped meals and moved bedtimes. Rebuild it with boring regularity: same waking hour, real lunches, and a weekly slow day you defend like an appointment.",
+          "definition_friction": "Earth is your Body, and running over, it is heaviness accumulating: routines hardened into ruts, comfort eaten past comfort, a body built for staying that now resists moving. The fix is gentle motion, made non-negotiable. Walk daily at the same hour, and change one fixed habit each season just to prove you can.",
           "dips": {
             "mind": "Your conclusions compact like sediment until they bear weight, and nobody stampedes you off them.",
             "action": "You act like a season: slow to start, impossible to stop once turned."
@@ -168,7 +181,8 @@
         "canonical_name": "Earth core × Metal — the Voice",
         "value": {
           "primary": "expression",
-          "body": "The Voice is your expression function: the gate where inner ground becomes outer fact. With Metal running it, expression in you is smelted: few words, long formed, hard to argue with. You express by finishing, and your outputs carry an heirloom weight that louder voices never manage. Let things out before they are perfect. Ore refines in the open too.",
+          "definition_catalyst": "Metal is your Expression, and as a catalyst, it is your patience surfacing as precision: the exact word, the finished piece, the standard people quote after you leave. You speak rarely and it lands, so treat output as your multiplier. Ship one polished thing a month, small is fine, finished is the point.",
+          "definition_friction": "Metal is your Expression, and as a friction, it is output demanded from reserves that fill slowly: more deliverables, more opinions, more polish than your quiet depth can supply. Producing is starting to hollow you. Halve your output commitments for a quarter, and let the remaining work carry your full standard.",
           "dips": {
             "mind": "Writing sharpens your slow thinking: the sentence is where your ground finds its edge."
           }
@@ -180,7 +194,8 @@
         "canonical_name": "Earth core × Water — the Drive",
         "value": {
           "primary": "action",
-          "body": "The Drive is your action function: what you go get, build, and hold. With Water running it, action in you is hydraulic: you build channels, then let volume do the work. Income streams, standing arrangements, systems that flow while you sleep. You claim by routing rather than grabbing, and what you route well returns forever. Dig the canal once, drink for years.",
+          "definition_catalyst": "Water is your Action, and as a catalyst, it is moving value passing through your steady hands: money, opportunities, people in motion who need somewhere reliable to land. You profit by being the stable point in a moving system. Keep a fixed monthly review of what flows through you, income, offers, introductions, and route each one deliberately.",
+          "definition_friction": "Water is your Action, and as a friction, it is managing flows you no longer need to manage: accounts checked daily, opportunities tracked past usefulness, control spending the calm it was meant to protect. Let the system run itself for a month. Automate the transfers, check monthly, and spend the attention on living.",
           "dips": {
             "order": "The wealth you channel becomes structure: managed current turns into the aqueduct that orders the valley."
           }
@@ -258,7 +273,8 @@
         "canonical_name": "Water core × Wood — the Voice",
         "value": {
           "primary": "expression",
-          "body": "The Voice is your expression function: the gate where inner depth becomes outer growth. With Wood running it, expression in you cultivates: you speak in seeds, questions, and quiet suggestions that turn out to be load-bearing a year later. Your influence is climate more than announcement. Claim some of the harvest aloud. Forests forget which rain raised them.",
+          "definition_catalyst": "Wood is your Expression, and as a catalyst, it is your depth showing up as things that grow: people mentored, ideas seeded, projects that stand up and keep growing after you step back. You are built to develop others. Take one mentee, one junior, one growing thing, and give it a standing hour a week.",
+          "definition_friction": "Wood is your Expression, and as a friction, it is pouring into everything that stands still: every person developed, every idea watered, your depth spent raising gardens you do not live in. Giving has outrun replenishing. Count what you are currently growing, keep the three that matter, and let the rest go.",
           "dips": {
             "mind": "Explaining a thing plants it deeper in you: taught knowledge roots twice."
           }
@@ -270,7 +286,8 @@
         "canonical_name": "Water core × Fire — the Drive",
         "value": {
           "primary": "action",
-          "body": "The Drive is your action function: what you go get, build, and hold. With Fire running it, action in you is climate control over bright things: you move on opportunity coolly, price urgency without feeling it, and win by staying liquid while everyone else overheats. Claim the flashy asset calmly. Your calm is the negotiating position.",
+          "definition_catalyst": "Fire is your Action, and as a catalyst, it is the bright opportunity your judgment was built to run: launches, markets, moments that reward the person who read them early. You see clearly where others squint, so act on it. When your read says now, commit within a week instead of watching it prove you right.",
+          "definition_friction": "Fire is your Action, and as a friction, it is urgency pulling on a system that runs deep and slow: hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you. Let two opportunities pass for every one you take, and take only what survives a week of waiting.",
           "dips": {
             "order": "What you fuel becomes rank: kept flames turn into the hearth a whole house is ruled by."
           }
@@ -282,7 +299,8 @@
         "canonical_name": "Water core × Earth — the Duty",
         "value": {
           "primary": "order",
-          "body": "The Duty is your accountability function: how order, obligation, and firm structure sit on you. With Earth running it, accountability in you is banked and patient: steady roles, long commitments, people whose expectations do not move with weather. You resent the walls and run truer inside them, and both facts belong in your planning. Choose banks that point somewhere worth arriving.",
+          "definition_catalyst": "Earth is your Order, and as a catalyst, it is the structure that turns your depth into force: fixed roles, steady schedules, commitments that do not move with your moods. You are most creative inside walls you chose. Anchor the week with three fixed blocks, same day, same hour, and let everything fluid arrange around them.",
+          "definition_friction": "Earth is your Order, and as a friction, it is structure tightening past usefulness: a calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you actually run on. Loosen deliberately. Leave one afternoon a week unscheduled, and renegotiate the obligation you dread most.",
           "dips": {
             "action": "Structure converts you to force: the same depth that idles in the open drives turbines in a channel."
           }
@@ -294,7 +312,8 @@
         "canonical_name": "Water core × Metal — the Root",
         "value": {
           "primary": "mind",
-          "body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Metal running it, your mind absorbs by distillation: exact teachers, clean sources, one precise sentence worth an hour of noise. What passes your filter condenses into permanent depth. Curate hard. Your intelligence is fed by quality, and clutter silts the spring.",
+          "definition_catalyst": "Metal is your Mind, and as a catalyst, it is precision feeding your depth: exact teachers, rigorous methods, clean tools that turn vague knowing into usable clarity. You think better with structure than with more input. Learn one exact discipline properly, notation, code, a method, and let it organize everything else you know.",
+          "definition_friction": "Metal is your Mind, and as a friction, it is rigor calcifying: frameworks collected, systems perfected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking. Skip the new method this month. Take what you already know and apply it somewhere messy.",
           "dips": {
             "body": "Ordered spaces and clean inputs are how your body refills its depth."
           }
@@ -306,7 +325,8 @@
         "canonical_name": "Water core × Water — the Core",
         "value": {
           "primary": "body",
-          "body": "The Core is your endurance function: the seat your strength refills from. With Water doubled here, your vitality is a deep table: quiet reserves that recharge from below, stamina that flows around obstacles rather than breaking on them. You recover in solitude and silence the way aquifers do. Guard the recharge fiercely. A drawn-down well still looks like a well from above.",
+          "definition_catalyst": "Water is your Body, and running thin, it is the deep reserve under your perception: sleep quality, quiet time, the stillness your system restores itself in. Yours drains invisibly, through noise and company, long before you feel tired. Guard solitude like medicine: one silent hour daily, and a full day alone each month.",
+          "definition_friction": "Water is your Body, and running over, it is stillness pooling into stagnation: rest that no longer restores, sleep that stretches without refreshing, energy waiting for a current that never comes. The reserve needs circulation. Add motion that flows, swimming, walking, cycling, and one weekly commitment that gets you out the door.",
           "dips": {
             "mind": "You read before you reason: currents and motives sensed whole. Surface the working sometimes.",
             "action": "You move when the tide is right and not before: timing is your entire style of force."

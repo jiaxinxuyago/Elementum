@@ -11,13 +11,14 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Fire, and Fire tames Metal: the forge softens the blade. Metal is the hard, finished, valuable material your heat exists to work: money, tools, standards, anything that resists until it glows. That is why it is your Drive, the seat of what you build and claim. Value does not frighten you. You have seen what it looks like soft.",
+      "base": "Your core is Fire, and Fire tames Metal: the forge softens the blade. Metal is the hard, finished, valuable material your heat exists to work: money, tools, standards, anything that resists until it glows. That is why Metal is your Action, the arena of what you build and claim. Value does not frighten you. You have seen what it looks like soft.",
       "catalyst_turn": "Run thin, the forge stands cold: heat with nothing hard to work, charm with no asset under it. Your chart asks you to work metal. Take on the difficult, valuable thing.",
-      "friction_turn": "Run heavy, the Drive turns Grind: everything melted for reworking, nothing allowed to cool and keep an edge. Let finished things stay finished. A forge needs objects, not only fire."
+      "friction_turn": "Run heavy, the melting never stops: everything softened for reworking, nothing allowed to cool and keep an edge. Let finished things stay finished. A forge needs objects, not only fire."
     },
     "function": {
       "primary": "action",
-      "body": "The Drive is your action function: what you go get, build, and hold. With Metal running it, action in you is smithing: you take hard, resistant, valuable material and work it while it is hot. Deals, crafts, reputations, all shaped in heat, all worth more when you set them down. Strike in the window. Your timing is the skill.",
+      "definition_catalyst": "Metal is your Action, and as a catalyst, it is your heat applied to hard, valuable problems: negotiations, difficult skills, work that resists until it yields. Easy tasks waste you. Take the assignment everyone else avoids, price your work higher than feels comfortable, and let difficulty be your filter.",
+      "definition_friction": "Metal is your Action, and as a friction, it is reworking what should be finished: renegotiating settled things, polishing shipped work, effort spent softening what was already solid. Done is a decision you keep reopening. Close three open loops this week and do not reopen them.",
       "dips": {
         "order": "What you forge becomes law: the tools you make end up setting the standards around you."
       }
@@ -25,6 +26,7 @@
     "cta_verdict": "You act by forging, heat applied until something keeps its shape, and your money follows the finished piece rather than the bright idea."
   },
   "__ore": {
-    "retired_bonds_dip": "You provide by making: the things you forge carry your warmth into other hands."
+    "retired_bonds_dip": "You provide by making: the things you forge carry your warmth into other hands.",
+    "retired_fn_body": "The Drive is your action function: what you go get, build, and hold. With Metal running it, action in you is smithing: you take hard, resistant, valuable material and work it while it is hot. Deals, crafts, reputations, all shaped in heat, all worth more when you set them down. Strike in the window. Your timing is the skill."
   }
 }

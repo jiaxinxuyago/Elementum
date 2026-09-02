@@ -11,17 +11,21 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Water, and Earth tames Water: banks give the river its path. Earth is the structure that contains you, schedules, roles, walls that will not move for feeling, and contained water is what a river is. That is why it is your Duty, the seat of the discipline that shapes you. Unbanked, depth spreads into marsh. Banked, it becomes current.",
+      "base": "Your core is Water, and Earth tames Water: banks give the river its path. Earth is the structure that contains you, schedules, roles, walls that will not move for feeling, and contained water is what a river is. That is why Earth is your Order, the discipline that shapes you. Unbanked, depth spreads into marsh. Banked, it becomes current.",
       "catalyst_turn": "Run thin, nothing banks you: depth spreading wide and arriving nowhere, freedom without force. Your chart asks for structure. Accept the role, the rhythm, the walls that aim you.",
-      "friction_turn": "Run heavy, the Duty turns Weight: banks closing in, current squeezed into a schedule until the water forgets it moves. Widen the channel. Rivers are meant to breathe."
+      "friction_turn": "Run heavy, the banks close in: current squeezed into a schedule until the water forgets it moves. Widen the channel. Rivers are meant to breathe."
     },
     "function": {
       "primary": "order",
-      "body": "The Duty is your accountability function: how order, obligation, and firm structure sit on you. With Earth running it, accountability in you is banked and patient: steady roles, long commitments, people whose expectations do not move with weather. You resent the walls and run truer inside them, and both facts belong in your planning. Choose banks that point somewhere worth arriving.",
+      "definition_catalyst": "Earth is your Order, and as a catalyst, it is the structure that turns your depth into force: fixed roles, steady schedules, commitments that do not move with your moods. You are most creative inside walls you chose. Anchor the week with three fixed blocks, same day, same hour, and let everything fluid arrange around them.",
+      "definition_friction": "Earth is your Order, and as a friction, it is structure tightening past usefulness: a calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you actually run on. Loosen deliberately. Leave one afternoon a week unscheduled, and renegotiate the obligation you dread most.",
       "dips": {
         "action": "Structure converts you to force: the same depth that idles in the open drives turbines in a channel."
       }
     },
     "cta_verdict": "Structure is what turns your depth into force, and the steady commitments you resent a little are exactly where your power compounds."
+  },
+  "__ore": {
+    "retired_fn_body": "The Duty is your accountability function: how order, obligation, and firm structure sit on you. With Earth running it, accountability in you is banked and patient: steady roles, long commitments, people whose expectations do not move with weather. You resent the walls and run truer inside them, and both facts belong in your planning. Choose banks that point somewhere worth arriving."
   }
 }

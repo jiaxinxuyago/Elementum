@@ -11,17 +11,21 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Earth, and Wood tames Earth: roots hold the hillside. Wood is the living demand that grips you, family, growth, obligations that keep growing back, and rooted ground is what a hillside is for. That is why it is your Duty, the seat of the discipline that shapes you. Unclaimed ground erodes. Rooted ground becomes a terraced farm.",
+      "base": "Your core is Earth, and Wood tames Earth: roots hold the hillside. Wood is the living demand that grips you, family, growth, obligations that keep growing back, and rooted ground is what a hillside is for. That is why Wood is your Order, the discipline that shapes you. Unclaimed ground erodes. Rooted ground becomes a terraced farm.",
       "catalyst_turn": "Run thin, nothing roots in you: ground with no claim on it, steadiness serving no living thing. Your chart asks for roots. Take on something growing and let it grip.",
-      "friction_turn": "Run heavy, the Duty turns Weight: roots everywhere, every living thing anchored in your acre, soil exhausted by what it holds. Let a slope go wild. You are ground, not groundskeeper to everyone."
+      "friction_turn": "Run heavy, the roots take everything: every living thing anchored in your acre, soil exhausted by what it holds. Let a slope go wild. You are ground, not groundskeeper to everyone."
     },
     "function": {
       "primary": "order",
-      "body": "The Duty is your accountability function: how order, obligation, and living claims sit on you. With Wood running it, accountability in you grows: children, teams, gardens of people whose roots are in your ground. You hold rank by being held onto, and the grip that tires you is also what keeps your hillside from sliding. Prune the claims each season, keep the ones that fruit.",
+      "definition_catalyst": "Wood is your Order, and as a catalyst, it is living obligation that keeps you growing: family, teams, mentees, commitments that grow back each season and ask you to grow with them. Care is your discipline. Take on one responsibility that develops over years, and let its schedule structure yours.",
+      "definition_friction": "Wood is your Order, and as a friction, it is obligations multiplying past your ground: everyone rooted in you, nothing rooted for you, care extracted faster than it regrows. Some claims on you are habits, not needs. List who actually needs you this season, and hand one standing duty back.",
       "dips": {
         "action": "A living deadline moves you: you work hardest when something planted depends on it."
       }
     },
     "cta_verdict": "Your obligations are alive, people rooted in your ground, and the claims you keep pruned are what hold your hillside together."
+  },
+  "__ore": {
+    "retired_fn_body": "The Duty is your accountability function: how order, obligation, and living claims sit on you. With Wood running it, accountability in you grows: children, teams, gardens of people whose roots are in your ground. You hold rank by being held onto, and the grip that tires you is also what keeps your hillside from sliding. Prune the claims each season, keep the ones that fruit."
   }
 }

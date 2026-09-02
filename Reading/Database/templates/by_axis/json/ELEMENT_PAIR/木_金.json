@@ -11,17 +11,21 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Wood, and Metal tames Wood: the knife prunes the branch. Metal is the edge that comes for your growth, rules, reviews, hard standards, and pruning is precisely what turns wild reach into an orchard. That is why it is your Duty, the seat of the discipline that shapes you. Unpruned trees grow large. Pruned ones bear fruit.",
+      "base": "Your core is Wood, and Metal tames Wood: the knife prunes the branch. Metal is the edge that comes for your growth, rules, reviews, hard standards, and pruning is precisely what turns wild reach into an orchard. That is why Metal is your Order, the discipline that shapes you. Unpruned trees grow large. Pruned ones bear fruit.",
       "catalyst_turn": "Run thin, nothing prunes you: growth in every direction and fruit in none. Your chart asks for the knife. Invite the standard, the editor, the coach with shears.",
-      "friction_turn": "Run heavy, the Duty turns Weight: cut after cut until growing feels like a fault. Too much knife leaves no tree. Step back from blades that prune for pruning’s sake."
+      "friction_turn": "Run heavy, the cutting never stops: cut after cut until growing feels like a fault. Too much knife leaves no tree. Step back from blades that prune for pruning’s sake."
     },
     "function": {
       "primary": "order",
-      "body": "The Duty is your accountability function: how order, obligation, and other people’s standards sit on you. With Metal running it, accountability in you is exact: contracts, deadlines, people who measure. You grow best trellised, and you know it, which is why you keep choosing exacting company. Respect the shears that shape you, and refuse the ones that only wound.",
+      "definition_catalyst": "Metal is your Order, and as a catalyst, it is the standard that shapes your growth: editors, coaches, reviews, rules you chose on purpose. You improve fastest under exacting eyes. Put your work in front of one demanding person on a schedule, monthly at least, and treat their notes as maintenance.",
+      "definition_friction": "Metal is your Order, and as a friction, it is correction landing harder than you can absorb: every rule met, every critique taken, until standards stop shaping you and start shrinking you. Not all judges deserve a seat. Keep the two whose notes make you better, and mute the rest.",
       "dips": {
         "action": "A hard rule concentrates you: given clean constraints, your growth goes vertical."
       }
     },
     "cta_verdict": "Discipline reaches you as a blade, exacting people, hard standards, and every cut you accept on purpose becomes shape you get to keep."
+  },
+  "__ore": {
+    "retired_fn_body": "The Duty is your accountability function: how order, obligation, and other people’s standards sit on you. With Metal running it, accountability in you is exact: contracts, deadlines, people who measure. You grow best trellised, and you know it, which is why you keep choosing exacting company. Respect the shears that shape you, and refuse the ones that only wound."
   }
 }

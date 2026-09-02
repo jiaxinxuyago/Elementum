@@ -11,13 +11,14 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Wood, and Wood tames Earth: roots hold the hillside. Earth is the solid, ownable ground your growth exists to take hold of: land, savings, positions, anything with acreage. That is why it is your Drive, the seat of what you build and claim. A tree does not chase its territory. It roots into it and stays.",
+      "base": "Your core is Wood, and Wood tames Earth: roots hold the hillside. Earth is the solid, ownable ground your growth exists to take hold of: land, savings, positions, anything with acreage. That is why Earth is your Action, the arena of what you build and claim. A tree does not chase its territory. It roots into it and stays.",
       "catalyst_turn": "Run thin, the roots float: plenty of reaching, nothing held, growth with no ground under it. Your chart asks you to claim soil. Buy in, commit, root somewhere real.",
-      "friction_turn": "Run heavy, the Drive turns Grind: every slope must be held, every acre worked, roots spread past what the tree can feed. Hold less hillside, hold it deeper."
+      "friction_turn": "Run heavy, the holding never stops: every slope claimed, every acre worked, roots spread past what the tree can feed. Hold less hillside, hold it deeper."
     },
     "function": {
       "primary": "action",
-      "body": "The Drive is your action function: what you go get, build, and hold. With Earth running it, action in you is territorial and patient: you advance by rooting, compounding, refusing to be moved. What you claim you keep, and what you keep appreciates. Choose ground worth decades, because your way of holding makes leaving expensive.",
+      "definition_catalyst": "Earth is your Action, and as a catalyst, it is where your reach becomes something held: savings, property, positions, commitments that stay put. You do best when ambition lands somewhere concrete. Automate a monthly amount into one long-term asset, and stop renegotiating it.",
+      "definition_friction": "Earth is your Action, and as a friction, it is holding past your means: too many commitments owned, maintained, and defended at once, each taxing energy you no longer have spare. Everything you keep charges rent on you. Sell, delegate, or close one standing obligation this month.",
       "dips": {
         "order": "What you provide becomes order: the ground you tend sets where every path across it runs."
       }
@@ -25,6 +26,7 @@
     "cta_verdict": "You build by tending ground, patient claims that compound, and your fortune favors what you can hold for years over what you can grab today."
   },
   "__ore": {
-    "retired_bonds_dip": "You provide like ground provides: quietly, constantly, and without invoices."
+    "retired_bonds_dip": "You provide like ground provides: quietly, constantly, and without invoices.",
+    "retired_fn_body": "The Drive is your action function: what you go get, build, and hold. With Earth running it, action in you is territorial and patient: you advance by rooting, compounding, refusing to be moved. What you claim you keep, and what you keep appreciates. Choose ground worth decades, because your way of holding makes leaving expensive."
   }
 }
