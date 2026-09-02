@@ -2818,9 +2818,29 @@
 /* 3 · ruling domains: per-god sub-blocks — collapsed accordions since the
    revelation-ladder ruling (owner 2026-09-01); they reuse the seat rows'
    accordion DNA (.elpos-row/.elpos-head/.elpos-body) */
-/* ── the element HERO CARD (owner 2026-09-01): art band + mechanism card
-   consolidated — the old energy-pill expanded card at element grain ── */
+/* ── the element HERO CARD (owner 2026-09-01; ONE-THUMBNAIL redesign
+   2026-09-02): every visual element composes ON the ink art — chip +
+   identity → the equation as the focal object → conclusion caption →
+   dominance bar; the diagnosis is the card's caption footer ── */
 .jny .el-herocard .el-heroart{ position: relative; overflow: hidden; border-radius: 12px; margin: 0 0 10px; }
+.jny .el-herocard .el-heroart2{ height: auto; }
+.jny .el-heroart2 .el-herostack{ position: relative; z-index: 2; display: flex; flex-direction: column;
+    gap: 8px; padding: 12px 14px 13px; }
+.jny .el-heroart2 .el-herotop{ display: flex; align-items: center; justify-content: space-between; }
+.jny .el-heroart2 .el-reye{ text-shadow: 0 1px 4px rgba(20,17,13,0.8); }
+/* the equation, staged on dark ground: capsules stay light (the focal
+   chips), law text + captions go cream with the hero's text shadow */
+.jny .el-heroart2 .el-mechviz .wd-rel{ margin: 4px 0 0; }
+.jny .el-heroart2 .el-mechviz .wd-lawtx{ color: #e9d9b8; text-shadow: 0 1px 3px rgba(20,17,13,0.55); }
+.jny .el-heroart2 .el-mechviz .wd-link.feeds .wd-lawhz{ color: #a8cfab; text-shadow: 0 1px 3px rgba(20,17,13,0.55); }
+.jny .el-heroart2 .el-mechviz .wd-link.tames .wd-lawhz{ color: #dda28d; text-shadow: 0 1px 3px rgba(20,17,13,0.55); }
+.jny .el-heroart2 .el-mechviz .wd-link.core .wd-lawhz{ color: #e9d9b8; text-shadow: 0 1px 3px rgba(20,17,13,0.55); }
+.jny .el-heroart2 .el-mechviz .wd-link.feeds .wd-arrow path{ stroke: #a8cfab; }
+.jny .el-heroart2 .el-mechviz .wd-link.tames .wd-arrow path{ stroke: #dda28d; }
+.jny .el-heroart2 .el-mechviz .wd-eq{ color: #f0e6d2; text-shadow: 0 1px 3px rgba(20,17,13,0.55); }
+.jny .el-heroart2 .el-mechviz .el-mveqs{ color: #e9d9b8; text-shadow: 0 1px 3px rgba(20,17,13,0.55); }
+.jny .el-heroart2 .el-mechviz .el-mvres{ margin: 2px 0 0; }
+.jny .el-heroart2 .el-mvstate{ background: rgba(248,244,236,0.88); border-color: rgba(160,138,100,0.5); }
 /* the dominance bar + number ON the art (owner 2026-09-01) — light-on-dark */
 .jny .el-herocard .el-herobar{ display: flex; align-items: center; gap: 8px; margin: 9px 0 0; }
 .jny .el-herocard .el-herotrack{ flex: 1; display: flex; height: 5px; border-radius: 4px; overflow: hidden; gap: 1px;

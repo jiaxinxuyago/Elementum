@@ -634,17 +634,23 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     chemistry formula ⑤ the verdict (teaser register) ⑥ the
                     seek/skip diagnosis, closing on the directive. Tapping
                     opens the mechanism detail. Tile hook + tag retired. */}
+                {/* ONE coherent thumbnail (owner 2026-09-02): the ink art is
+                    the ground and every visual element composes ON it — role
+                    chip + identity up top, the chemistry equation as the
+                    focal object, the conclusion caption, the dominance bar
+                    at the base. The diagnosis is the card's caption footer.
+                    (The claim line moved to THE FUNCTION card's title.) */}
                 {elScreen.mech && (
                   <button className="cardstock el-tease el-herocard" onClick={() => openSec('mech')}>
-                    <div className="hero2 el-heroart" style={{ height: 148 }}>
+                    <div className="hero2 el-heroart el-heroart2">
                       <span className={`hart el-art ${elScreen.cls}`} /><span className="scrim" /><span className="hair el-hair" style={{ background: elScreen.pig }} />
                       <span className="bighz el-hz" aria-hidden="true">{elScreen.hz}</span>
-                      <span className="hrole"><span className={`rchip el-chip ${elScreen.roleKind === 'who' ? 'corec' : elScreen.roleKind}`}>{elScreen.roleKind === 'up' && <Use id="ar-up" />}{elScreen.roleKind === 'down' && <Use id="ar-down" />}{elScreen.roleTx}</span></span>
-                      <span className="hcontent">
-                        <span className="reye el-reye"><Use id={`el-${elScreen.el}`} /> {elScreen.reye}</span>
-                        <span className="htitle el-title">{elScreen.elName} is your {elScreen.fnLabel}.</span>
-                        {/* the dominance bar + number live ON the thumbnail
-                            (owner 2026-09-01), under the claim */}
+                      <div className="el-herostack">
+                        <span className="el-herotop">
+                          <span className={`rchip el-chip ${elScreen.roleKind === 'who' ? 'corec' : elScreen.roleKind}`}>{elScreen.roleKind === 'up' && <Use id="ar-up" />}{elScreen.roleKind === 'down' && <Use id="ar-down" />}{elScreen.roleTx}</span>
+                          <span className="reye el-reye"><Use id={`el-${elScreen.el}`} /> {elScreen.reye}</span>
+                        </span>
+                        {mechViz}
                         <span className="el-herobar">
                           <span className="sp-track el-herotrack">
                             {towers.map((t) => (
@@ -655,12 +661,8 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                           </span>
                           <b className="el-heropct">{m.byEl[elScreen.el].presence}%</b>
                         </span>
-                      </span>
+                      </div>
                     </div>
-                    {mechViz}
-                    {/* the diagnosis verdict (owner 2026-09-01): the same
-                        equation the graphic shows, spoken as a chain — state,
-                        chemistry, conclusion, directive */}
                     {elScreen.diag && <span className="el-teasep el-herodiag">{elScreen.diag}</span>}
                     <span className="el-teasego"><Use id="ico-chev-r" /></span>
                   </button>
@@ -670,6 +672,8 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                 {elScreen.fnTeaser && (
                   <button className="cardstock el-tease" onClick={() => openSec('fn')}>
                     <span className="laylab">THE FUNCTION</span>
+                    {/* the claim line is THIS section's title (owner 2026-09-02) */}
+                    <span className="serifline el-teasetitle">{elScreen.elName} is your {elScreen.fnLabel}.</span>
                     <span className="el-teasep" style={{ marginTop: 2 }}>{elScreen.fnTeaser}</span>
                     <span className="el-teasego"><Use id="ico-chev-r" /></span>
                   </button>
