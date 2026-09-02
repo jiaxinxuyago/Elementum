@@ -109,6 +109,7 @@ export const K2_CELLS = {
     overview: 'Your Wood moves as the Steward: growth banked in rings. You build worth the way orchards do, planted early, tended patiently, harvested honestly, replanted always. Assets in your care grow. So do people. Your fortune is cumulative and alive, and it rewards the seasons you refuse to rush.',
     functional: 'You build annually: steady deposits of effort that quietly become an estate.',
     adj: { catalyst: ['Cultivating', 'Compounding', 'Deep-rooted'], friction: ['Root-bound', 'Risk-averse', 'Inflexible'] },
+    adjGloss: { catalyst: ['Value gets grown, tended, and harvested rather than chased.', 'Small steady gains stacked patiently until they become terrain.', 'Commitments sunk far enough down that storms pass over them.'], friction: ['Held so tightly to the familiar plot that growth circles itself.', 'Every venture measured twice, and most measured into the ground.', 'The planted position stays planted, even when the season changes.'] },
     domain_readings: {
       Wealth: 'Your wealth is orchard-shaped: productive assets, patient growth, income in seasons. Buy things that grow, land, skills, dividends, and let time do the heaviest lifting. It intends to.',
       Savings: 'You save like a granary: harvests stored against winters. Rotate the stock, reinvest the surplus, and remember granaries exist so that planting can be brave.',
@@ -219,6 +220,7 @@ export const K2_CELLS = {
     overview: 'Your Fire moves as the General: heat weaponized into will. You command like a charge, blazing conviction that armies of ordinary people find themselves following. Crisis makes you luminous. Peacetime makes you dangerous to furniture. Aim the cannon, always. Unaimed, this much fire tests every relationship it warms.',
     functional: 'Your order is fire discipline: absolute at the front, enforced on yourself before anyone else feels it.',
     adj: { catalyst: ['Swift', 'Daring', 'Crisis-ready'], friction: ['Scorching', 'Domineering', 'Burned-out'] },
+    adjGloss: { catalyst: ['Decision and motion arrive together, usually before others finish weighing.', 'Stakes read as invitation, and the bold line is the natural one.', 'Emergencies organize you. The worst hour finds you at your clearest.'], friction: ['Pressure passed on as heat, and the people nearest feel it first.', 'Command extended past its post, decisions taken that were not yours to take.', 'The fire that organized everything begins consuming its own keeper.'] },
     domain_readings: {
       Pressure: 'Pressure ignites you: stakes convert your heat into focus. Without real battles you invent them, so keep a worthy campaign running at all times, professional or physical.',
       Command: 'You command by fire: vision hot enough to melt objections. Troops follow the light. Mind the scorch radius, and let cooler officers handle the discipline your heat would burn.',
@@ -339,6 +341,7 @@ export const K2_CELLS = {
     overview: 'Your Earth carries the Alchemist’s current: nourishment that arrives as understanding rather than comfort. This is ground that reads before it feeds, soil that turns experience over slowly until it becomes insight. It shelters you the way a library shelters, quiet, stocked, slightly apart, and it asks one rent: time alone to do the turning.',
     functional: 'Thinking runs deep and sideways. You digest slowly, connect strangely, and surface with conclusions no straight line could have reached.',
     adj: { catalyst: ['Deep-reading', 'Unhurried', 'Inventive'], friction: ['Withdrawn', 'Brooding', 'Shut-away'] },
+    adjGloss: { catalyst: ['Nothing skims. Every subject gets excavated to its foundations.', 'Understanding arrives on its own schedule, and it refuses to be rushed.', 'Odd sources combine underground into ideas nobody saw coming.'], friction: ['The inner study is warm, and the door drifts shut behind you.', 'Thoughts settle in layers and stay down longer than they need to.', 'The shelter of knowing becomes a place you forget to leave.'] },
     domain_readings: {
       Learning: 'Learning is where this Earth feeds you best. Not the classroom kind so much as the deep private kind: the obsession studied at midnight, the field entered through the side door. Give it one strange subject at a time and it will quietly out-earn every credential in the house.',
       Intuition: 'The hunch arrives before the reason does, and for you it is usually load-bearing. Treat the sudden knowing as a first draft: trust it enough to write it down, doubt it enough to check the math by morning.',
@@ -359,6 +362,7 @@ export const K2_CELLS = {
     overview: 'Your Metal moves as the Twin: a standing force that meets the world edge-first and equal. Nothing about you waits for permission. You hold your line the way a blade holds its shape, and you respect exactly the people who hold theirs. Company, for you, is two swords in one sheath: close, parallel, never fused.',
     functional: 'Your energy is tempered and even: slow to tire, slow to bend, restored by solitary work.',
     adj: { catalyst: ['Self-forged', 'Tempered', 'Unshakeable'], friction: ['Sealed-off', 'Rigid', 'Solitary'] },
+    adjGloss: { catalyst: ['Standards built by your own hand, tested until they ring true.', 'Hardened by repetition and pressure, calm where others crack.', 'Once set, your stance holds against argument, fashion, and weather.'], friction: ['The gates close early, and second opinions wait outside.', 'Form held so firmly that bending starts to feel like breaking.', 'Company gets filed under optional, and the filing becomes a habit.'] },
     domain_readings: {
       Peers: 'Your peers are fellow blades: rivals you respect, colleagues you measure against, friends won through tested mettle. Keep two or three whose standards match yours. Iron sharpens iron is not a proverb to you. It is your social life.',
       Independence: 'Independence, in metal, is structural: you do not perform autonomy, you are made of it. Guard it without sealing it. A blade alone stays sharp but unused, and your edge exists for work that matters.',
@@ -479,6 +483,7 @@ export const K2_CELLS = {
     overview: 'Your Water moves as the Artisan: a spring that feeds everything downstream. Your output flows, words, ideas, comfort, care, without visible effort, and people drink from it more than you notice. You nourish by permeating: the right thing said gently, the mood eased, the story that waters a dry week.',
     functional: 'Your expression pours: fluent, warm, endlessly refilled. Writing and talk both come as flow.',
     adj: { catalyst: ['Fluent', 'Nourishing', 'Easygoing'], friction: ['Drifting', 'Indulgent', 'Unstirred'] },
+    adjGloss: { catalyst: ['Words and warmth move without effort, finding their level in any company.', 'What flows out of you feeds people, often before they ask.', 'Currents get ridden rather than fought, and the ride looks graceful.'], friction: ['Ease without direction, pleasant water carrying you nowhere in particular.', 'Comfort refilled past the brim while the harder thing waits.', 'So little friction that nothing ever quite asks you to grow.'] },
     domain_readings: {
       Expression: 'Your expression is the stream itself: writing, conversation, comfort flowing daily. Volume is natural to you, so add channels: publish, record, send. Water that reaches others is what turns gift to harvest.',
       Enjoyment: 'You enjoy in gentle currents: long baths, slow music, conversation into the night. Honor these as necessities. A spring that is never let pool goes brackish.',

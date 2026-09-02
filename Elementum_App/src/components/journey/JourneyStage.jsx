@@ -742,9 +742,19 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     {elScreen.fnDef.split('\n\n').map((p, i) => (
                       <p className="body2 el-fnbody" key={i} style={{ margin: i ? '9px 0 0' : '8px 0 0' }}>{p}</p>
                     ))}
-                    {m.byEl[elScreen.el].adj?.length ? (
-                      <span className="wd-adj el-fnadj" style={{ marginTop: 9 }}>{m.byEl[elScreen.el].adj.map((a) => <span key={a} className={`wd-adjchip${(m.byEl[elScreen.el].role === 'friction' || m.byEl[elScreen.el].coreExcess) ? ' down' : ''}`}>{a}</span>)}</span>
-                    ) : null}
+                    {/* the keyword LEDGER (owner 2026-09-02): each chip earns
+                        its line here — bare chips only until the batch lands */}
+                    {(() => { const r = m.byEl[elScreen.el]; if (!r.adj?.length) return null;
+                      return r.adjGloss ? (
+                        <div className="el-fnledger">
+                          {r.adj.map((a, i) => (
+                            <p className="body2 el-funcrow" key={a} style={{ margin: '9px 0 0' }}><b className="el-funclab">{a}.</b> {r.adjGloss[i]}</p>
+                          ))}
+                        </div>
+                      ) : (
+                        <span className="wd-adj el-fnadj" style={{ marginTop: 9 }}>{r.adj.map((a) => <span key={a} className={`wd-adjchip${(r.role === 'friction' || r.coreExcess) ? ' down' : ''}`}>{a}</span>)}</span>
+                      );
+                    })()}
                     {Object.entries(elScreen.fn?.dips || {}).map(([k, txt]) => (
                       <p className="body2 el-funcrow" key={k} style={{ margin: '9px 0 0' }}><b className="el-funclab">{(elScreen.functionsDef.find((f) => f.key === k) || { label: k }).label}.</b> {txt}</p>
                     ))}
@@ -904,9 +914,8 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   on the page — its header carries the diagnosis instead) */}
               {dot.s.fnLabel && <p className="wd-def">{dot.r.name} is your <b>{dot.s.fnLabel}</b></p>}
               {dot.s.verdict && <p className="wp-body wd-mean">{dot.s.verdict}</p>}
-              {dot.r.adj?.length ? (
-                <div className="wd-adj">{dot.r.adj.map((a) => <span key={a} className={`wd-adjchip${(dot.r.role === 'friction' || dot.r.coreExcess) ? ' down' : ''}`}>{a}</span>)}</div>
-              ) : null}
+              {/* keyword chips retired from the cover (owner 2026-09-02 rung
+                  law: cover none · function card bare · reading page glossed) */}
               {/* arrow-only entry — the readcirc language */}
               <button className="wp-codex" aria-label={`Open the full ${dot.r.name} reading`}
                 onClick={() => { setDotOpen(null); goElement(dot.r.el); }}>

@@ -271,6 +271,9 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
     const pole = frictionSide ? 'friction' : 'catalyst';
     const cellAdj = (g) => K2_CELLS[`${r.hz}_${g}`]?.adj?.[pole];
     r.adj = cellAdj(r.god) || (frictionSide ? ADJ_FRICTION[r.god] : ADJ_CATALYST[r.god]) || [];
+    // the keyword LEDGER glosses (owner 2026-09-02) — index-aligned with
+    // r.adj; null until the ×45 batch lands (the view falls back to chips)
+    r.adjGloss = K2_CELLS[`${r.hz}_${r.god}`]?.adjGloss?.[pole] || null;
     r.adjPole = frictionSide ? 'fric' : 'cat';
     // v2.1 polarity faces, persona-enriched (owner merge-and-retire ruling
     // 2026-08-19: the element screen absorbs the faces page's polarity split).
