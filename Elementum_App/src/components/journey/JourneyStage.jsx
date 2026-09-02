@@ -68,7 +68,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const [fnOpen, setFnOpen] = useState(null);      // footnote float (cond|cat|fric)
   const [dotOpen, setDotOpen] = useState(null);    // wheel-dot float — the element's relation with the core
   const [posOpen, setPosOpen] = useState(null);    // element-page position accordion (position id)
-  const [elSec, setElSec] = useState(null);        // element section detail ('mech' | 'fn' | 'dom')
+  const [elSec, setElSec] = useState(null);        // element section detail ('mech' | 'dom') — fn merged into mech (owner 2026-09-01)
   const [deepOpen, setDeepOpen] = useState(false); // seat Stage B ("the deeper layers") — resets per seat
   const [godOpen, setGodOpen] = useState(null);    // WHO RUNS IT god accordion (god zh) — collapsed by default
   const [folioOpen, setFolioOpen] = useState(false);
@@ -630,23 +630,15 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     conclusive derived verdict + visual, opening its detail
                     sub-screen. Gating: mechanism + function free in full;
                     the domains detail's readings are Seeker. */}
+                {/* consolidated card (owner 2026-09-01): THE MECHANISM and
+                    THE FUNCTION merged — one card, titled with the FUNCTION
+                    noun; its detail carries both paragraphs. */}
                 {elScreen.mech && (
                   <button className="cardstock el-tease" onClick={() => openSec('mech')}>
                     <span className="laylab">THE MECHANISM</span>
                     <span className="serifline el-teasetitle">{elScreen.mechTitle}</span>
                     {mechViz}
                     <span className="el-teasep">{elScreen.mechTeaser}</span>
-                    <span className="el-teasego"><Use id="ico-chev-r" /></span>
-                  </button>
-                )}
-                {elScreen.fn && (
-                  <button className="cardstock el-tease" onClick={() => openSec('fn')}>
-                    <span className="laylab">THE FUNCTION</span>
-                    <span className="serifline el-teasetitle">{elScreen.fnTitle}</span>
-                    {/* the primary ONLY (owner 2026-08-19: showing the other
-                        functions confuses first glance) — the title names it,
-                        the teaser explains it; nothing else renders */}
-                    <span className="el-teasep">{elScreen.fnTeaser}</span>
                     <span className="el-teasego"><Use id="ico-chev-r" /></span>
                   </button>
                 )}
@@ -679,7 +671,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
               <div className="plateimg a-plate-rice" /><div className="eltint" />
               <button className="backrow" aria-label={`Back to ${elScreen.name}`} onClick={() => goScreen('element')}>
                 <span className="bico"><Use id="ico-chev-l" /></span>
-                <span className="bl el-back">{elScreen.name} · {elSec === 'mech' ? 'THE MECHANISM' : elSec === 'fn' ? 'THE FUNCTION' : 'THE DOMAINS'}</span>
+                <span className="bl el-back">{elScreen.name} · {elSec === 'mech' ? 'THE MECHANISM' : 'THE DOMAINS'}</span>
               </button>
               <div className="scrollwrap"><div className="padv2">
                 {elSec === 'mech' && elScreen.mech && (
@@ -687,6 +679,8 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     <span className="laylab">THE MECHANISM</span>
                     <span className="serifline el-teasetitle">{elScreen.mechTitle}</span>
                     {mechViz}
+                    {/* consolidated detail (owner 2026-09-01): ¶1 the mechanism
+                        (+ its state turn), ¶2 the meaning of the function */}
                     <p className="body2 el-mechbase" style={{ margin: '8px 0 0' }}>{elScreen.mech.base}</p>
                     {elScreen.mech.turn && (
                       <div className="el-mechturn" style={{ borderLeft: `3px solid var(--${elScreen.el}Deep)` }}>
@@ -694,16 +688,14 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                         <p className="body2" style={{ margin: 0 }}>{elScreen.mech.turn}</p>
                       </div>
                     )}
-                  </div>
-                )}
-                {elSec === 'fn' && elScreen.fn && (
-                  <div className="cardstock el-fncard">
-                    <span className="laylab">THE FUNCTION</span>
-                    <span className="serifline el-teasetitle">{elScreen.fnTitle}</span>
-                    <p className="body2 el-fnbody" style={{ margin: '8px 0 0' }}>{elScreen.fn.body}</p>
-                    {Object.entries(elScreen.fn.dips || {}).map(([k, txt]) => (
-                      <p className="body2 el-funcrow" key={k} style={{ margin: '7px 0 0' }}><b className="el-funclab">{(elScreen.functionsDef.find((f) => f.key === k) || { label: k }).label}.</b> {txt}</p>
-                    ))}
+                    {elScreen.fn && (
+                      <>
+                        <p className="body2 el-fnbody" style={{ margin: '10px 0 0' }}><b className="el-funclab">It runs your {elScreen.fnLabel}.</b> {elScreen.fn.body}</p>
+                        {Object.entries(elScreen.fn.dips || {}).map(([k, txt]) => (
+                          <p className="body2 el-funcrow" key={k} style={{ margin: '7px 0 0' }}><b className="el-funclab">{(elScreen.functionsDef.find((f) => f.key === k) || { label: k }).label}.</b> {txt}</p>
+                        ))}
+                      </>
+                    )}
                   </div>
                 )}
                 {elSec === 'dom' && elFaces.length ? (

@@ -400,7 +400,6 @@ export function buildElementScreen(model, el) {
     ? (mech.turn ? firstSentence(mech.turn)
       : r.isCore ? 'In your chart it holds its measure.' : 'In your chart it runs balanced: nothing to force.')
     : '';
-  const fnTeaser = fn ? firstSentence(fn.body) : '';
 
   return {
     el, name: r.name.toUpperCase(), hz: r.hz, cls: `a-${el}`,
@@ -410,13 +409,14 @@ export function buildElementScreen(model, el) {
     selfCard,
     elName: r.name, relation: r.relation, dx: r.dx,
     mech,
-    mechTitle: r.isCore ? 'The energy that is you' : `Why ${r.name} is your ${r.relation}`,
+    // Consolidated card title (owner 2026-09-01): the FUNCTION noun, never
+    // the seat noun ("Why Wood is your Action") — the seat noun is taught
+    // inside the corpus paragraphs, not in titles.
+    mechTitle: r.isCore ? 'The energy that is you' : `Why ${r.name} is your ${fnLabel}`,
     mechTeaser,
-    // THE FUNCTION (§5f): the seat's primary function read, energy-level.
+    // THE FUNCTION (§5f): merged into the mechanism detail (owner 2026-09-01).
     fn,
     fnLabel,
-    fnTitle: `It runs your ${fnLabel}`,
-    fnTeaser,
     functionsDef: K2_FUNCTIONS,
     domTitle: 'What it rules in your life',
     // RULING DOMAINS (EP-C): the gods' home — per present face, a sub-block
