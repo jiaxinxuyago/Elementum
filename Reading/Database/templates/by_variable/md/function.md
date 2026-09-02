@@ -134,8 +134,8 @@
 | Field | Value |
 |---|---|
 | `primary` | action |
-| `definition_catalyst` | Wood is your Action, and as a catalyst it is the work your force was made for: living projects that take shape under the blade and give the edge a reason. A full core empties best into building. Pick one growing thing and cut toward it daily. |
-| `definition_friction` | Wood is your Action, and right now it runs as friction: every open project one more cut from a blade running thin. The trouble is rarely the building and mostly the number of open builds. Finish one thing fully before the next gets steel. |
+| `definition_catalyst` | Wood is your Action, and as a catalyst, it is where your discipline becomes results: projects, ventures, skills that grow with tending. You do best with one live build that rewards steady work, and worst with none. Keep a single main project at all times, and give it the first hour of your day, before anyone else gets you. |
+| `definition_friction` | Wood is your Action, and as a friction, it is too many builds drawing on too little fuel: every open project takes a daily cut of attention whether you touch it or not. Progress spreads thin across all of them. List everything you have started, finish or close the bottom half, and let one thing get your best. |
 | `dips.order` | What you grow becomes structure: the timber you raise ends up framing the rules you live in. |
 
 ### Metal core × Fire — the Duty · 金_火
@@ -143,8 +143,8 @@
 | Field | Value |
 |---|---|
 | `primary` | order |
-| `definition_catalyst` | Fire is your Order, and as a catalyst it is the pressure that finishes you: deadlines, scrutiny, stakes that make the edge prove itself. A core with surplus force wants exactly this heat. Choose one forge worth standing in and stay until the temper takes. |
-| `definition_friction` | Fire is your Order, and right now it runs as friction: heat pressing on a blade with little left to temper. Underfueled steel warps where finished steel hardens. Step back from the loudest demands and answer only the ones that pay you back in strength. |
+| `definition_catalyst` | Fire is your Order, and as a catalyst, it is the pressure that organizes you: deadlines, scrutiny, real stakes. You focus best when something is genuinely on the line, and drift when nothing is. Keep one commitment with external accountability at all times, a client, a coach, a date you cannot move. |
+| `definition_friction` | Fire is your Order, and as a friction, it is pressure landing on reserves that are already low: every demand feels urgent, so you answer all of them and recover from none. Pick the two obligations that actually pay you back, and practice saying a slow no to the rest. |
 | `dips.action` | Under real pressure you act cleaner: crisis burns off your hesitation. |
 
 ### Metal core × Earth — the Root · 金_土
@@ -152,8 +152,8 @@
 | Field | Value |
 |---|---|
 | `primary` | mind |
-| `definition_catalyst` | Earth is your Mind, and as a catalyst it is the intake that steadies you: reading that settles in layers, lessons that compact into ground worth building on. A core running thin refills exactly here. Give ideas their time underground and what forms comes back ore-grade, load-bearing, and permanently yours. |
-| `definition_friction` | Earth is your Mind, and right now it runs as friction: the same slow absorbing that makes your judgment permanent keeps pouring fuel into a core already full. Everything gets stored and too little gets spent, so study becomes one more way to stay buried. Let what you know leave the ground: teach it, apply it, cut with it. |
+| `definition_catalyst` | Earth is your Mind, and as a catalyst, it is how you take things in: slowly, thoroughly, and for keeps. You learn best with time and repetition, and your judgment gets sharper the longer you sit with a question. Give every big decision one night. Read before you decide, and reread before you commit. |
+| `definition_friction` | Earth is your Mind, and as a friction, it is intake with no off switch: more courses, more research, more preparing, while the doing keeps waiting. Absorbing starts to feel like progress, and it is the safest way to stand still. Set a rule: for every hour you study, produce something someone else can see. |
 | `dips.body` | Real rest is part of the studying: sleep and routine are where the layers set. |
 
 ### Metal core × Metal — the Core · 金_金
@@ -161,8 +161,8 @@
 | Field | Value |
 |---|---|
 | `primary` | body |
-| `definition_catalyst` | Metal is your Body, and it is running thin: the edge still holds its shape, but the reserves behind it are low. Strength like yours fails late and suddenly rather than early and loudly. Refill on schedule, sleep, real food, quiet maintenance, and the bill your body has been quietly writing gets torn up. |
-| `definition_friction` | Metal is your Body, and right now there is more of it than your chart can spend: stamina hardening into rigidity, discipline into strain. An edge kept permanently drawn dulls itself on air. Spend the surplus somewhere real, hard training, hard work, heavy lifting in any sense, and the body stops bracing against nothing. |
+| `definition_catalyst` | Metal is your Body, and running thin, it is the reserve everything else draws on: sleep, food, recovery, the physical base under your discipline. Yours holds form long after the fuel is low, so you notice depletion late. Put maintenance on the calendar before you need it: a fixed bedtime, real meals, one full rest day a week. |
+| `definition_friction` | Metal is your Body, and running over, it is more physical force than your life currently spends: discipline with no outlet, stamina turning into tension you carry in your shoulders and jaw. Give it a hard weekly outlet, lifting, long walks, manual work, and watch the tension drop. |
 | `dips.mind` | Your judgment holds like your frame does: conclusions struck once and kept, worth re-testing on a schedule. |
 | `dips.action` | Decisions become motion fast in you: once judged, a thing is already being done. |
 
@@ -171,8 +171,8 @@
 | Field | Value |
 |---|---|
 | `primary` | expression |
-| `definition_catalyst` | Water is your Expression, and as a catalyst it is where your surplus finally leaves: polish becoming prose, precision becoming speech, pressure coming off the blade every time you say the thing out loud. The more you release, the smoother you run. Publish sooner than feels finished. |
-| `definition_friction` | Water is your Expression, and right now it runs as friction: words leaving faster than the core refills, output drawing on reserves that are already thin. The flow still looks effortless from outside, which is exactly the danger. Say less for a season and let the well come back. |
+| `definition_catalyst` | Water is your Expression, and as a catalyst, it is the channel where your thinking becomes output: writing, speaking, showing work. You process by producing, and holding things in builds pressure you feel as restlessness before you name it as silence. Keep one regular outlet, a journal, a weekly share, a standing call with someone who asks, and protect it like sleep. |
+| `definition_friction` | Water is your Expression, and as a friction, it is output running ahead of your reserves: you keep producing, posting, and explaining while the energy behind it thins. The work still looks effortless, which is why you miss the cost. Cut your output channels to one for a month and let the rest go quiet. |
 | `dips.mind` | Speaking is how your thinking finishes: an idea is not done until it has been said. |
 
 ### Water core × Wood — the Voice · 水_木
