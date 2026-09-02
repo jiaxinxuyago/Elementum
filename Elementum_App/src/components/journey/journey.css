@@ -2859,6 +2859,10 @@
    verdict + visual per section card; the whole card is the tap target */
 .jny .el-tease{ display: block; width: 100%; text-align: left; cursor: pointer; position: relative;
     font: inherit; color: inherit; border: inherit; }
+/* black-arrow reading tap-in (owner 2026-09-02): every section card that
+   opens a reading carries the readcirc arrow, bottom-right */
+.jny .el-tease.goa{ padding-bottom: 50px; }
+.jny .el-tease .el-goarrow{ position: absolute; right: 13px; bottom: 12px; }
 .jny .el-tease:active{ transform: scale(0.988); }
 .jny .el-teasetitle{ display: block; font-size: 16.5px; margin: 0 0 7px; color: var(--inkDeep, #2b2722); }
 .jny .el-teasep{ display: block; margin-top: 8px; font-family: 'EB Garamond', Georgia, serif;

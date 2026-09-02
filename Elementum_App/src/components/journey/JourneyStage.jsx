@@ -355,7 +355,6 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
       <span className="el-mvres"><span className="wd-eq el-mecheq">{s.mech.eq}</span>{mvResultFor(s)}</span>
     </div>
   ) : null;
-  const mechViz = mechVizFor(elScreen);
   // THE one-thumbnail (owner design 2026-09-02): ink art ground, everything
   // visual composed on it — chip + identity, the equation, the dominance bar.
   const heroThumbFor = (s) => s?.mech ? (
@@ -650,22 +649,32 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     focal object, the conclusion caption, the dominance bar
                     at the base. The diagnosis is the card's caption footer.
                     (The claim line moved to THE FUNCTION card's title.) */}
+                {/* the HEADER (owner 2026-09-02): thumbnail + diagnosis, a
+                    pure header — the mechanism gets its own tap-in card */}
                 {elScreen.mech && (
-                  <button className="cardstock el-tease el-herocard" onClick={() => openSec('mech')}>
+                  <div className="cardstock el-herocard">
                     {heroThumbFor(elScreen)}
                     {elScreen.diag && <span className="el-teasep el-herodiag">{elScreen.diag}</span>}
-                    <span className="el-teasego"><Use id="ico-chev-r" /></span>
+                  </div>
+                )}
+                {/* THE MECHANISM card — its own section, black-arrow tap-in */}
+                {elScreen.mech && (
+                  <button className="cardstock el-tease goa" onClick={() => openSec('mech')}>
+                    <span className="laylab">THE MECHANISM</span>
+                    <span className="serifline el-teasetitle">{elScreen.mechTitle}</span>
+                    <span className="el-teasep" style={{ marginTop: 2 }}>{firstSent(elScreen.mech.base)}</span>
+                    <span className="readcirc sm el-goarrow"><Use id="ico-arrow-r" /></span>
                   </button>
                 )}
                 {/* THE FUNCTION card (owner re-org 2026-09-02): the derived
                     teaser — the full reading opens on its own detail page */}
                 {elScreen.fnTeaser && (
-                  <button className="cardstock el-tease" onClick={() => openSec('fn')}>
+                  <button className="cardstock el-tease goa" onClick={() => openSec('fn')}>
                     <span className="laylab">THE FUNCTION</span>
                     {/* the claim line is THIS section's title (owner 2026-09-02) */}
                     <span className="serifline el-teasetitle">{elScreen.elName} is your {elScreen.fnLabel}.</span>
                     <span className="el-teasep" style={{ marginTop: 2 }}>{elScreen.fnTeaser}</span>
-                    <span className="el-teasego"><Use id="ico-chev-r" /></span>
+                    <span className="readcirc sm el-goarrow"><Use id="ico-arrow-r" /></span>
                   </button>
                 )}
                 {/* BAND-C self_card — only the CORE element carries the band mirror */}
@@ -677,7 +686,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   </div>
                 )}
                 {elFaces.length ? (
-                  <button className="cardstock el-tease" onClick={() => openSec('dom')}>
+                  <button className="cardstock el-tease goa" onClick={() => openSec('dom')}>
                     <span className="laylab">THE DOMAINS</span>
                     <span className="serifline el-teasetitle">{elScreen.domTitle}</span>
                     {/* the named positions lead (the Nebula principle): each
@@ -692,7 +701,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     {!elPositions.length && (
                       <span className="el-teasep" style={{ marginTop: 0 }}>{elScreen.elName} holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.</span>
                     )}
-                    <span className="el-teasego"><Use id="ico-chev-r" /></span>
+                    <span className="readcirc sm el-goarrow"><Use id="ico-arrow-r" /></span>
                   </button>
                 ) : null}
               </div></div>
@@ -712,10 +721,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   <div className="cardstock el-mech">
                     <span className="laylab">THE MECHANISM</span>
                     <span className="serifline el-teasetitle">{elScreen.mechTitle}</span>
-                    {mechViz}
-                    {/* the mechanism in full (owner re-org 2026-09-02):
-                        base + state turn — the function reading moved to
-                        its own THE FUNCTION detail */}
+                    {/* the detail opens under THE thumbnail (owner 2026-09-02)
+                        — the same object as the cover and the page header */}
+                    {heroThumbFor(elScreen)}
                     <p className="body2 el-mechbase" style={{ margin: '8px 0 0' }}>{elScreen.mech.base}</p>
                     {elScreen.mech.turn && (
                       <div className="el-mechturn" style={{ borderLeft: `3px solid var(--${elScreen.el}Deep)` }}>
