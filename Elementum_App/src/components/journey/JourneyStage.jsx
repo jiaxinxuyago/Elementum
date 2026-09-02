@@ -715,9 +715,10 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   <div className="cardstock el-mech">
                     <span className="laylab">THE MECHANISM</span>
                     <span className="serifline el-teasetitle">{elScreen.mechTitle}</span>
-                    {/* the detail opens under THE thumbnail (owner 2026-09-02)
-                        — the same object as the cover and the page header */}
-                    {heroThumbFor(elScreen)}
+                    {/* the classical register (owner 2026-09-02): 汉字 epigraph
+                        → the classic's poetic rendering → the state turn.
+                        (Thumbnail removed — it already covers rungs above.) */}
+                    {elScreen.mech.classic && <p className="el-classic" aria-hidden="true">「{elScreen.mech.classic}」</p>}
                     <p className="body2 el-mechbase" style={{ margin: '8px 0 0' }}>{elScreen.mech.base}</p>
                     {elScreen.mech.turn && (
                       <div className="el-mechturn" style={{ borderLeft: `3px solid var(--${elScreen.el}Deep)` }}>

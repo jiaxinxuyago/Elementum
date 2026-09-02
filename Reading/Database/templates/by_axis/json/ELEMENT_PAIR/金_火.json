@@ -11,7 +11,8 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Metal, and Fire tames Metal: the forge softens the blade. Fire is the heat that presses on you, deadlines, authority, scrutiny, crisis, and pressure is exactly what a blade is finished by. That is why Fire is your Order, the discipline that shapes you. The forge is not your enemy. It is the only thing that reworks your edge.",
+      "classic": "精勝堅，故火勝金",
+      "base": "The refined prevails over the stubborn: fire alone commands metal. In the forge the unbending learns to bend, ore gives up its rock, and the blade takes whatever shape the flame decides. Heat is the one argument metal cannot win, and what survives the fire comes out finer than what went in.",
       "catalyst_turn": "Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena.",
       "friction_turn": "Run heavy, the forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves. Step out of the fire long enough to hold an edge."
     },
@@ -26,6 +27,7 @@
     "cta_verdict": "Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull."
   },
   "__ore": {
-    "retired_fn_body": "The Duty is your accountability function: how order, obligation, and other people’s expectations sit on you. With Fire running it, accountability in you is hot and visible: exacting seniors, stakes with deadlines, standards enforced in public. You hold rank by surviving heat gracefully, and people trust steel that has been through the forge. Choose fires that finish you, not ones that just burn."
+    "retired_fn_body": "The Duty is your accountability function: how order, obligation, and other people’s expectations sit on you. With Fire running it, accountability in you is hot and visible: exacting seniors, stakes with deadlines, standards enforced in public. You hold rank by surviving heat gracefully, and people trust steel that has been through the forge. Choose fires that finish you, not ones that just burn.",
+    "retired_base_personal": "Your core is Metal, and Fire tames Metal: the forge softens the blade. Fire is the heat that presses on you, deadlines, authority, scrutiny, crisis, and pressure is exactly what a blade is finished by. That is why Fire is your Order, the discipline that shapes you. The forge is not your enemy. It is the only thing that reworks your edge."
   }
 }

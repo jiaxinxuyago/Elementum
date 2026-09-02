@@ -11,13 +11,14 @@
   ],
   "candidates": {
     "mechanism": {
-      "base": "Your core is Metal, and Earth feeds Metal: ore grows in the mountain. Everything solid and patient in your life is the ground your edge is mined from. Sleep, routine, teachers, home: that is Earth doing its slow work on you. That is why Earth is your Mind, the slow intake that restores what the cutting spends. A blade is only ever as good as the mountain behind it.",
+      "classic": "金居石依山，津潤而生",
+      "base": "Metal is born of earth, the old texts say: it lies in the mountain, gathered in stone, grown by slow pressure and the moisture of deep ground. Nothing hurries it. The mountain holds the ore for ages before any edge is struck from it, and every blade remembers the patience of the rock that made it.",
       "catalyst_turn": "Run thin, the mountain goes hungry: a keen edge with nothing behind it, sharpness spent faster than it forms. Your chart asks you to feed the ground. Rest and study are smelting, not stalling.",
       "friction_turn": "Run heavy, the shelter closes over the blade: so much preparation that the edge never leaves the mine. Comfort begins to bury what it formed. Dig out and cut something real."
     },
     "function": {
       "primary": "mind",
-      "definition_catalyst": "Earth is your Mind, and as a catalyst, it is how you take things in: slowly, thoroughly, and for keeps. You learn best with time and repetition, and your judgment gets sharper the longer you sit with a question.\n\nPatient, thorough, hard to argue with. You are the one who rereads the message before replying, distrusts a first reaction on principle, and remembers what everyone else forgot. People bring you things to check because your slowness is really carefulness wearing work clothes.\n\nDepth is simply patience given enough seasons. So give every big decision one night. Read before deciding, reread before committing. Once a season, pull out an old certainty and test whether it still holds.",
+      "definition_catalyst": "Earth is your Mind, and as a catalyst, it is how you take things in: slowly, thoroughly, and for keeps. Sleep, routine, teachers, home: everything steady in your life feeds it. You learn best with time and repetition, and your judgment gets sharper the longer you sit with a question.\n\nPatient, thorough, hard to argue with. You are the one who rereads the message before replying, distrusts a first reaction on principle, and remembers what everyone else forgot. People bring you things to check because your slowness is really carefulness wearing work clothes.\n\nDepth is simply patience given enough seasons. So give every big decision one night. Read before deciding, reread before committing. Once a season, pull out an old certainty and test whether it still holds.",
       "definition_friction": "Earth is your Mind, and as a friction, it is intake with no off switch: more courses, more research, more preparing, while the doing keeps waiting. Absorbing starts to feel like progress, and it is the safest way to stand still.\n\nSeventeen open tabs and no draft. A shelf of notebooks with three pages used. Advice collected from everyone and acted on from no one. Careful has quietly become cautious, cautious has become stuck, and the next step has been known for a while now.\n\nAt some point more learning is just fear with a syllabus. Trade study for evidence: for every hour in, one thing out that someone else can see. Give the thing you keep researching a decision date. Finish one old course before any new one gets your card.",
       "dips": {
         "body": "Real rest is part of the studying: sleep and routine are where the layers set."
@@ -26,6 +27,7 @@
     "cta_verdict": "Your mind takes things in slowly and keeps them forever, and your best judgments are the ones you let sit overnight."
   },
   "__ore": {
-    "retired_fn_body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Earth running it, your mind absorbs like sediment: slowly, in layers, keeping everything that settles. You are slow to learn and nearly impossible to unteach. Give ideas time underground. What forms there comes out ore-grade, load-bearing, and permanently yours."
+    "retired_fn_body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Earth running it, your mind absorbs like sediment: slowly, in layers, keeping everything that settles. You are slow to learn and nearly impossible to unteach. Give ideas time underground. What forms there comes out ore-grade, load-bearing, and permanently yours.",
+    "retired_base_personal": "Your core is Metal, and Earth feeds Metal: ore grows in the mountain. Everything solid and patient in your life is the ground your edge is mined from. Sleep, routine, teachers, home: that is Earth doing its slow work on you. That is why Earth is your Mind, the slow intake that restores what the cutting spends. A blade is only ever as good as the mountain behind it."
   }
 }

@@ -387,6 +387,8 @@ export function buildElementScreen(model, el) {
   const mech = pair ? {
     ...edge,
     eq: r.isCore ? `${r.name} is your Core` : `${model.byEl[edge.a].name} ${edge.verb} ${model.byEl[edge.b].name}`,
+    // the 汉字 classical epigraph (mechanism v2, owner 2026-09-02)
+    classic: pair.mechanism.classic || '',
     base: pair.mechanism.base,
     turn: r.dx?.condition === 'Overfueled' ? pair.mechanism.friction_turn
       : r.dx?.condition === 'Underfueled' ? pair.mechanism.catalyst_turn : null,

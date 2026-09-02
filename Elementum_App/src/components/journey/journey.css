@@ -2811,6 +2811,9 @@
    identity → the equation as the focal object → conclusion caption →
    dominance bar; the diagnosis is the card's caption footer ── */
 .jny .el-heroart{ position: relative; overflow: hidden; border-radius: 12px; margin: 0 0 10px; }
+/* the classical epigraph (mechanism v2, owner 2026-09-02) */
+.jny .el-classic{ margin: 12px 0 0; text-align: center; font-family: 'Noto Serif SC', serif;
+    font-size: 15px; letter-spacing: 2px; color: var(--bronzeDark); }
 .jny .el-heroart2{ height: auto; }
 /* THE COVER (owner 2026-09-02): the wheel-dot sheet renders the SAME
    thumbnail that heads the element page — plus close-button clearance */

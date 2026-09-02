@@ -263,7 +263,8 @@ export const PAIR_CELLS = {
   },
   '金_木': {
     mechanism: {
-      base: 'Your core is Metal, and Metal tames Wood: the knife prunes the branch. Wood is the living, growing material your edge exists to shape: projects, plans, property, ambitions with sap still in them. That is why Wood is your Action, the arena of what you build and claim. Every clean cut you make turns wild growth into something orchard-shaped and yours.',
+      classic: '剛勝柔，故金勝木',
+      base: 'The hard prevails over the soft, the classics say, and so metal governs wood. The axe meets the trunk, the knife meets the branch, and the wild green yields shape it could not find alone. The cut is craft rather than ruin: forest becomes timber, bramble becomes orchard, under an edge that knows what to spare.',
       catalyst_turn: 'Run thin, the knife has nothing to prune: skill idling without a project worth it. Your chart asks you to claim material. Pick one living ambition and start cutting.',
       friction_turn: 'Run heavy, the pruning never stops: forests of projects, an edge worn on material that never ends. The knife dulls on quantity. Cut fewer branches, and finish them.',
     },
@@ -279,7 +280,8 @@ export const PAIR_CELLS = {
   },
   '金_火': {
     mechanism: {
-      base: 'Your core is Metal, and Fire tames Metal: the forge softens the blade. Fire is the heat that presses on you, deadlines, authority, scrutiny, crisis, and pressure is exactly what a blade is finished by. That is why Fire is your Order, the discipline that shapes you. The forge is not your enemy. It is the only thing that reworks your edge.',
+      classic: '精勝堅，故火勝金',
+      base: 'The refined prevails over the stubborn: fire alone commands metal. In the forge the unbending learns to bend, ore gives up its rock, and the blade takes whatever shape the flame decides. Heat is the one argument metal cannot win, and what survives the fire comes out finer than what went in.',
       catalyst_turn: 'Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena.',
       friction_turn: 'Run heavy, the forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves. Step out of the fire long enough to hold an edge.',
     },
@@ -295,13 +297,14 @@ export const PAIR_CELLS = {
   },
   '金_土': {
     mechanism: {
-      base: 'Your core is Metal, and Earth feeds Metal: ore grows in the mountain. Everything solid and patient in your life is the ground your edge is mined from. Sleep, routine, teachers, home: that is Earth doing its slow work on you. That is why Earth is your Mind, the slow intake that restores what the cutting spends. A blade is only ever as good as the mountain behind it.',
+      classic: '金居石依山，津潤而生',
+      base: 'Metal is born of earth, the old texts say: it lies in the mountain, gathered in stone, grown by slow pressure and the moisture of deep ground. Nothing hurries it. The mountain holds the ore for ages before any edge is struck from it, and every blade remembers the patience of the rock that made it.',
       catalyst_turn: 'Run thin, the mountain goes hungry: a keen edge with nothing behind it, sharpness spent faster than it forms. Your chart asks you to feed the ground. Rest and study are smelting, not stalling.',
       friction_turn: 'Run heavy, the shelter closes over the blade: so much preparation that the edge never leaves the mine. Comfort begins to bury what it formed. Dig out and cut something real.',
     },
     function: {
       primary: 'mind',
-      definition_catalyst: 'Earth is your Mind, and as a catalyst, it is how you take things in: slowly, thoroughly, and for keeps. You learn best with time and repetition, and your judgment gets sharper the longer you sit with a question.\n\nPatient, thorough, hard to argue with. You are the one who rereads the message before replying, distrusts a first reaction on principle, and remembers what everyone else forgot. People bring you things to check because your slowness is really carefulness wearing work clothes.\n\nDepth is simply patience given enough seasons. So give every big decision one night. Read before deciding, reread before committing. Once a season, pull out an old certainty and test whether it still holds.',
+      definition_catalyst: 'Earth is your Mind, and as a catalyst, it is how you take things in: slowly, thoroughly, and for keeps. Sleep, routine, teachers, home: everything steady in your life feeds it. You learn best with time and repetition, and your judgment gets sharper the longer you sit with a question.\n\nPatient, thorough, hard to argue with. You are the one who rereads the message before replying, distrusts a first reaction on principle, and remembers what everyone else forgot. People bring you things to check because your slowness is really carefulness wearing work clothes.\n\nDepth is simply patience given enough seasons. So give every big decision one night. Read before deciding, reread before committing. Once a season, pull out an old certainty and test whether it still holds.',
       definition_friction: 'Earth is your Mind, and as a friction, it is intake with no off switch: more courses, more research, more preparing, while the doing keeps waiting. Absorbing starts to feel like progress, and it is the safest way to stand still.\n\nSeventeen open tabs and no draft. A shelf of notebooks with three pages used. Advice collected from everyone and acted on from no one. Careful has quietly become cautious, cautious has become stuck, and the next step has been known for a while now.\n\nAt some point more learning is just fear with a syllabus. Trade study for evidence: for every hour in, one thing out that someone else can see. Give the thing you keep researching a decision date. Finish one old course before any new one gets your card.',
       dips: {
         body: 'Real rest is part of the studying: sleep and routine are where the layers set.',
@@ -311,7 +314,8 @@ export const PAIR_CELLS = {
   },
   '金_金': {
     mechanism: {
-      base: 'Your core is Metal, and here Metal stands with Metal: edge alongside edge, the same ore twice refined. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. That is why Metal is your Body: the strength you stand on, your stance, your word made physical. Where the other energies act on you, this one just holds the line.',
+      classic: '同聲相應，同氣相求',
+      base: 'Like answers like, the classics say: the same note struck twice rings once, and louder. When metal stands beside metal there is no reaction, only reinforcement, ore of one seam, edges off one forge. Such sameness is strength and its own hazard. Two blades in one sheath keep each other keen, or wear each other blunt.',
       catalyst_turn: 'Run thin, the line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last. Your chart asks you to feed the self. Practice your craft alone until it rings.',
       friction_turn: 'Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through.',
     },
@@ -328,13 +332,14 @@ export const PAIR_CELLS = {
   },
   '金_水': {
     mechanism: {
-      base: 'Your core is Metal, and Metal feeds Water: dew beads on the cold blade. Whatever your core pours itself into becomes your Expression, the channel where what you are turns into what you say and make. Water adds nothing to your Metal. It carries it outward. Every sentence, every sketch, every offered comfort is your edge, condensed and set moving.',
+      classic: '少陰之氣，銷金為水',
+      base: 'In the old reckoning water is metal\'s child: cold iron beads the morning dew, and metal, melted, runs bright as any river. The hard thing does not stay hard. At its finest edge it turns liquid, and what was fixed begins to flow, the clear stream carrying the mountain\'s sharpness out into the world.',
       catalyst_turn: 'Run thin, this channel shows as pressure without release: much forged, little said. That is why your chart asks you to feed it. Writing, speaking, sharing work early lets the blade breathe.',
       friction_turn: 'Run heavy, the flow turns to flood: output for its own sake, saying instead of shaping. The flood drinks the blade that feeds it. Cut the noise and the water clears.',
     },
     function: {
       primary: 'expression',
-      definition_catalyst: 'Water is your Expression, and as a catalyst, it is the channel where your thinking becomes output: writing, speaking, showing work. You process by producing, and holding things in builds pressure you feel as restlessness before you name it as silence.\n\nFluent, articulate, better out loud than your drafts suggest. Clarity tends to arrive mid-sentence, moods lift after a long talk, and an idea stays tangled until the moment you explain it to someone else. What goes unsaid does not dissolve in you. It sits.\n\nExpression is how you metabolize your life, so treat the outlet as survival rather than hobby. Keep one channel sacred, a journal, a weekly share, a standing call with someone who asks. Publish sooner than feels finished. Stuck on a decision, say it out loud first.',
+      definition_catalyst: 'Water is your Expression, and as a catalyst, it is the channel where your thinking becomes output: writing, speaking, showing work, even comfort offered well. You process by producing, and holding things in builds pressure you feel as restlessness before you name it as silence.\n\nFluent, articulate, better out loud than your drafts suggest. Clarity tends to arrive mid-sentence, moods lift after a long talk, and an idea stays tangled until the moment you explain it to someone else. What goes unsaid does not dissolve in you. It sits.\n\nExpression is how you metabolize your life, so treat the outlet as survival rather than hobby. Keep one channel sacred, a journal, a weekly share, a standing call with someone who asks. Publish sooner than feels finished. Stuck on a decision, say it out loud first.',
       definition_friction: 'Water is your Expression, and as a friction, it is output running ahead of your reserves: you keep producing, posting, and explaining while the energy behind it thins. The work still looks effortless, which is exactly why you miss the cost.\n\nGenerous with words, reliable on every thread, the one who always answers. Lately the conversations that used to feed you leave you emptied, and there is a widening gap between how fluent you sound and how much is actually left behind the fluency.\n\nQuiet is where your voice refills, so ration it like income. Cut the channels to one for a month. Check that you have eaten and slept before agreeing to explain anything. And keep one thought a day entirely yours, on purpose.',
       dips: {
         mind: 'Speaking is how your thinking finishes: an idea is not done until it has been said.',
