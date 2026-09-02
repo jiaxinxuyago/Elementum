@@ -2821,12 +2821,13 @@
 /* ── the element HERO CARD (owner 2026-09-01): art band + mechanism card
    consolidated — the old energy-pill expanded card at element grain ── */
 .jny .el-herocard .el-heroart{ position: relative; overflow: hidden; border-radius: 12px; margin: 0 0 10px; }
-.jny .el-herocard .el-herotrack{ display: flex; height: 6px; border-radius: 4px; overflow: hidden; gap: 1px;
-    border: 1px solid rgba(43,39,34,0.10); background: rgba(248,244,236,0.7); margin: 2px 0 0; }
+.jny .el-herocard .el-herobar{ display: flex; align-items: center; gap: 8px; margin: 2px 0 0; }
+.jny .el-herocard .el-herotrack{ flex: 1; display: flex; height: 6px; border-radius: 4px; overflow: hidden; gap: 1px;
+    border: 1px solid rgba(43,39,34,0.10); background: rgba(248,244,236,0.7); }
 .jny .el-herocard .el-herotrack i{ height: 100%; display: block; }
 .jny .el-herocard .el-herotrack i.cur{ box-shadow: inset 0 0 0 1.5px rgba(255,255,255,0.7); }
-.jny .el-herocard .el-herorank{ display: block; margin: 5px 0 0; font-size: 9.5px; letter-spacing: 1.4px;
-    text-transform: uppercase; color: #8a8278; }
+.jny .el-herocard .el-heropct{ flex: none; font-family: 'EB Garamond', Georgia, serif; font-size: 12.5px;
+    font-weight: 600; color: var(--inkDeep, #2b2722); }
 .jny .el-herocard .el-heroverdict{ margin-top: 4px; }
 .jny .el-herocard .el-herodx{ display: block; margin-top: 9px; padding-top: 8px;
     border-top: 1px dotted rgba(139,115,85,0.26); }

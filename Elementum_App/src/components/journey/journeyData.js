@@ -353,7 +353,8 @@ export function buildElementScreen(model, el) {
   else if (r.role === 'friction') { roleTx = 'FRICTION'; roleKind = 'down'; }
   else { roleTx = 'CATALYST'; roleKind = 'up'; }
 
-  const reye = `${r.name.toUpperCase()} · ${r.presence}%${r.missing ? ' · MISSING' : r.isCore ? ' · YOUR CORE' : ''}`;
+  // the dominance number moved off the art to sit with the track (owner 2026-09-01)
+  const reye = `${r.name.toUpperCase()}${r.missing ? ' · MISSING' : r.isCore ? ' · YOUR CORE' : ''}`;
 
   // The turn label (SEEK/SKIP register) — heads the mechanism's state turn.
   const turnLab = r.isCore

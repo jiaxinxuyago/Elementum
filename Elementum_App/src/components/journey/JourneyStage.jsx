@@ -627,14 +627,18 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                         <span className="htitle el-title">{elScreen.elName} is your {elScreen.fnLabel}.</span>
                       </span>
                     </div>
-                    <span className="sp-track el-herotrack">
-                      {towers.map((t) => (
-                        t.presence > 0
-                          ? <i key={t.el} className={t.el === elScreen.el ? 'cur' : undefined} style={{ width: `${t.presence}%`, background: t.el === elScreen.el ? `var(--${t.el}Deep)` : `color-mix(in srgb, var(--${t.el}Deep) 40%, var(--silkDeep))` }} />
-                          : <i key={t.el} className={t.el === elScreen.el ? 'cur gh' : 'gh'} style={{ width: '2%', ...(t.el === elScreen.el ? { background: `var(--${t.el}Deep)` } : {}) }} />
-                      ))}
+                    {/* the dominance number rides WITH the track (owner 2026-09-01;
+                        rank statement removed) */}
+                    <span className="el-herobar">
+                      <span className="sp-track el-herotrack">
+                        {towers.map((t) => (
+                          t.presence > 0
+                            ? <i key={t.el} className={t.el === elScreen.el ? 'cur' : undefined} style={{ width: `${t.presence}%`, background: t.el === elScreen.el ? `var(--${t.el}Deep)` : `color-mix(in srgb, var(--${t.el}Deep) 40%, var(--silkDeep))` }} />
+                            : <i key={t.el} className={t.el === elScreen.el ? 'cur gh' : 'gh'} style={{ width: '2%', ...(t.el === elScreen.el ? { background: `var(--${t.el}Deep)` } : {}) }} />
+                        ))}
+                      </span>
+                      <b className="el-heropct">{m.byEl[elScreen.el].presence}%</b>
                     </span>
-                    <span className="el-herorank">{(() => { const rk = towers.findIndex((t) => t.el === elScreen.el) + 1; return rk === 1 ? 'Your strongest energy' : `Your ${['', '', '2nd', '3rd', '4th', '5th'][rk]} strongest energy`; })()}</span>
                     {mechViz}
                     {elScreen.verdict && <span className="el-teasep el-heroverdict">{elScreen.verdict}</span>}
                     <span className="el-herodx">
