@@ -2709,15 +2709,10 @@
 .jny .ik-rel{font-family:'Cormorant Garamond',Georgia,serif;font-size:14.5px;font-weight:600;color:var(--ink);line-height:1.05}
 .jny .vx-box .crmain .ik-pct{font-size:8.5px;color:var(--inkLight);margin-top:2px}
 
-/* ─── wheel-dot entry card (REA_02 s5d — energy-reading entry) ─────────
-   Minimal card (owner ruling 2026-09-01, DES_04 §AM.11 rung ②): a hook,
-   not a summary. Band identity → the 生/克 mechanism graphic → ONE
-   derivation claim (role pill inline) → three keyword chips → CTA (the
-   deep-seat destination rides as its subtext). */
-.jny .wp-dotcard .wd-bandname{ position: relative; z-index: 1; display: inline-flex; align-items: baseline; gap: 7px; margin-top: 4px;
-    font-family: 'Cormorant Garamond', Georgia, serif; font-size: 21px; font-weight: 600; color: var(--inkDeep, #2b2722); }
-.jny .wp-dotcard .wd-elic{ width: 17px; height: 17px; align-self: center; }
-.jny .wp-dotcard .wd-hz{ font-family: 'Noto Serif SC', serif; font-size: 14px; font-weight: 500; color: var(--bronzeDark); }
+/* ─── wheel-dot entry card — THE COVER (owner journey redesign 2026-09-02):
+   the sheet renders the element page's own one-thumbnail (heroThumbFor) +
+   claim · cta_verdict · keyword chips · arrow. The wd-* capsule DNA below
+   also serves the el-mechviz equation everywhere it renders. */
 .jny .wp-dotcard .wd-rel{ display: flex; align-items: center; justify-content: center; gap: 12px; margin: 10px 0 2px; }
 .jny .wp-dotcard .wd-link{ display: inline-flex; flex-direction: column; align-items: center; gap: 1px; min-width: 64px; }
 .jny .wp-dotcard .wd-lawhz{ font-style: normal; font-family: 'Noto Serif SC', serif; font-size: 15px; font-weight: 600; line-height: 1; }
@@ -2730,7 +2725,6 @@
 .jny .wp-dotcard .wd-link.tames .wd-arrow path{ stroke: #a3543e; stroke-dasharray: 3 3; }
 .jny .wp-dotcard .wd-lawtx{ font-size: 9px; letter-spacing: 1.6px; text-transform: uppercase; color: #8a8278; }
 .jny .wp-dotcard .wd-eq{ display: block; text-align: center; font-size: 11px; letter-spacing: 1.8px; text-transform: uppercase; color: var(--bronzeDark); margin: 4px 0 8px; }
-.jny .wp-dotcard .wd-rolerow{ display: flex; justify-content: center; margin: 6px 0 0; }
 .jny .wp-dotcard .wd-def{ margin: 6px 0 0; text-align: center; font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 18px; font-weight: 600; color: var(--inkDeep, #2b2722); }
 .jny .wp-dotcard .wd-def b{ font-weight: 700; color: var(--bronzeDark); }
@@ -2765,14 +2759,8 @@
 .jny .wp-dotcard .wd-capseal{ width: 84px; height: 84px; border-radius: 50%; flex: none; background-size: cover; background-position: center;
     box-shadow: inset 0 0 0 1px rgba(205,190,158,0.55), 0 4px 12px rgba(60,46,28,0.12); }
 
-/* ── dot-card band art — the element's ink wash previews its reading ── */
-.jny .wp-dotcard .wp-band{ position: relative; overflow: hidden; }
-.jny .wp-dotcard .wd-bandart{ position: absolute; inset: 0; background-size: cover; background-position: center 30%; opacity: 0.6; }
-.jny .wp-dotcard .wd-bandscrim{ position: absolute; inset: 0;
-    background: linear-gradient(to bottom, rgba(248,244,236,0.08), rgba(248,244,236,0.42) 62%, rgba(248,244,236,0.78)); }
-.jny .wp-dotcard .wp-band .wp-ey{ position: relative; z-index: 1; }
-.jny .wp-dotcard .wp-band .wp-wm{ z-index: 1; }
-.jny .wp-dotcard .wp-band .wp-x{ z-index: 2; }
+/* (the dot card's bespoke band art retired 2026-09-02 — the shared
+   one-thumbnail is the cover's visual) */
 
 /* core diagnosis folio now LEADS beat 2 (owner 2026-08-19) — spacing for
    the eyebrow -> folio -> wheel order; the wheel keeps its own top margin. */
@@ -2822,8 +2810,13 @@
    2026-09-02): every visual element composes ON the ink art — chip +
    identity → the equation as the focal object → conclusion caption →
    dominance bar; the diagnosis is the card's caption footer ── */
-.jny .el-herocard .el-heroart{ position: relative; overflow: hidden; border-radius: 12px; margin: 0 0 10px; }
-.jny .el-herocard .el-heroart2{ height: auto; }
+.jny .el-heroart{ position: relative; overflow: hidden; border-radius: 12px; margin: 0 0 10px; }
+.jny .el-heroart2{ height: auto; }
+/* THE COVER (owner 2026-09-02): the wheel-dot sheet renders the SAME
+   thumbnail that heads the element page — plus close-button clearance */
+.jny .wp-cover{ position: relative; }
+.jny .wp-cover .wp-coverx{ position: absolute; top: 16px; right: 16px; z-index: 6; }
+.jny .wp-cover .el-herotop{ padding-right: 34px; }
 .jny .el-heroart2 .el-herostack{ position: relative; z-index: 2; display: flex; flex-direction: column;
     gap: 8px; padding: 12px 14px 13px; }
 .jny .el-heroart2 .el-herotop{ display: flex; align-items: center; justify-content: space-between; }
@@ -2842,12 +2835,12 @@
 .jny .el-heroart2 .el-mechviz .el-mvres{ margin: 2px 0 0; }
 .jny .el-heroart2 .el-mvstate{ background: rgba(248,244,236,0.88); border-color: rgba(160,138,100,0.5); }
 /* the dominance bar + number ON the art (owner 2026-09-01) — light-on-dark */
-.jny .el-herocard .el-herobar{ display: flex; align-items: center; gap: 8px; margin: 9px 0 0; }
-.jny .el-herocard .el-herotrack{ flex: 1; display: flex; height: 5px; border-radius: 4px; overflow: hidden; gap: 1px;
+.jny .el-heroart2 .el-herobar{ display: flex; align-items: center; gap: 8px; margin: 9px 0 0; }
+.jny .el-heroart2 .el-herotrack{ flex: 1; display: flex; height: 5px; border-radius: 4px; overflow: hidden; gap: 1px;
     border: 1px solid rgba(246,241,230,0.35); background: rgba(20,17,13,0.35); }
-.jny .el-herocard .el-herotrack i{ height: 100%; display: block; }
-.jny .el-herocard .el-herotrack i.cur{ box-shadow: inset 0 0 0 1.5px rgba(255,255,255,0.85); }
-.jny .el-herocard .el-heropct{ flex: none; font-family: 'EB Garamond', Georgia, serif; font-size: 12.5px;
+.jny .el-heroart2 .el-herotrack i{ height: 100%; display: block; }
+.jny .el-heroart2 .el-herotrack i.cur{ box-shadow: inset 0 0 0 1.5px rgba(255,255,255,0.85); }
+.jny .el-heroart2 .el-heropct{ flex: none; font-family: 'EB Garamond', Georgia, serif; font-size: 12.5px;
     font-weight: 600; color: #f6f1e6; text-shadow: 0 1px 3px rgba(20,17,13,0.55); }
 .jny .el-herocard .el-herodiag{ margin-top: 6px; }
 /* the equation graphic's state tag + result (owner 2026-09-01) */

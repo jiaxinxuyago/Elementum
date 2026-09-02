@@ -27,7 +27,6 @@ import { APP_URL } from '../../infra/index.js';
 import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_FN } from './journeyData.js';
 import { resolvePositions } from '../reading/positionsResolve.js';
 import { SLOT_RANK } from '../../content/positions.js';
-import { FEEDS, TAMES } from '../../content/cycles.js';
 import { PAIR_CELLS } from '../../content/pairs.js';
 import { K2_FUNCTIONS } from '../../content/k2.js';
 import { JOURNEY_DEFS } from './journeyDefs.js';
@@ -320,37 +319,66 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const capMv = (el) => (el === m.core.el && mvCoreTag)
     ? <span className="el-mvcore">{capThumb(el)}<i className="el-mvstate">{mvCoreTag}</i></span>
     : capThumb(el);
-  const mvResult = elScreen ? (
+  // Parameterized over a screen object `s` (owner 2026-09-02): the equation
+  // and the one-thumbnail render for ANY element — the hero, the mechanism
+  // detail, AND the wheel-dot cover share these builders.
+  const mvResultFor = (s) => (
     <>
       <span className="el-mveqs" aria-hidden="true">=</span>
       {m.condition === 'Balanced'
         ? <span className="role-pill cond"><Use id="ic-balanced" />Balanced</span>
-        : elScreen.roleKind === 'down' ? <span className="role-pill fric"><Use id="ar-down" />Friction</span>
-        : elScreen.roleKind === 'up' ? <span className="role-pill cat"><Use id="ar-up" />Catalyst</span>
+        : s.roleKind === 'down' ? <span className="role-pill fric"><Use id="ar-down" />Friction</span>
+        : s.roleKind === 'up' ? <span className="role-pill cat"><Use id="ar-up" />Catalyst</span>
         : <span className="role-pill cond"><Use id={m.condition === 'Overfueled' ? 'ic-charged' : 'ic-receptive'} />{m.condition}</span>}
     </>
-  ) : null;
-  const mechViz = elScreen?.mech ? (
+  );
+  const mechVizFor = (s) => s?.mech ? (
     <div className="wp-dotcard el-mechviz">
-      {elScreen.mech.verb === 'core' ? (
+      {s.mech.verb === 'core' ? (
         <div className="wd-rel el-mechrel">
-          {capMv(elScreen.mech.a)}
+          {capMv(s.mech.a)}
           <span className="wd-link core"><i className="wd-lawhz">主</i><span className="wd-lawtx">day master</span></span>
           <span className="wd-capseal" style={{ backgroundImage: `url('${centerSrc}')` }} aria-hidden="true" />
         </div>
       ) : (
         <div className="wd-rel el-mechrel">
-          {capMv(elScreen.mech.a)}
-          <span className={`wd-link ${elScreen.mech.verb}`}>
-            <i className="wd-lawhz">{elScreen.mech.verb === 'feeds' ? '生' : '克'}</i>
+          {capMv(s.mech.a)}
+          <span className={`wd-link ${s.mech.verb}`}>
+            <i className="wd-lawhz">{s.mech.verb === 'feeds' ? '生' : '克'}</i>
             <svg className="wd-arrow" viewBox="0 0 44 10" aria-hidden="true"><path d="M2 5 H36 M36 5 l-6 -3.6 M36 5 l-6 3.6" /></svg>
-            <span className="wd-lawtx">{elScreen.mech.verb}</span>
+            <span className="wd-lawtx">{s.mech.verb}</span>
           </span>
-          {capMv(elScreen.mech.b)}
+          {capMv(s.mech.b)}
         </div>
       )}
       {/* the conclusion line: the equation caption fused with the role result */}
-      <span className="el-mvres"><span className="wd-eq el-mecheq">{elScreen.mech.eq}</span>{mvResult}</span>
+      <span className="el-mvres"><span className="wd-eq el-mecheq">{s.mech.eq}</span>{mvResultFor(s)}</span>
+    </div>
+  ) : null;
+  const mechViz = mechVizFor(elScreen);
+  // THE one-thumbnail (owner design 2026-09-02): ink art ground, everything
+  // visual composed on it — chip + identity, the equation, the dominance bar.
+  const heroThumbFor = (s) => s?.mech ? (
+    <div className="hero2 el-heroart el-heroart2">
+      <span className={`hart el-art ${s.cls}`} /><span className="scrim" /><span className="hair el-hair" style={{ background: s.pig }} />
+      <span className="bighz el-hz" aria-hidden="true">{s.hz}</span>
+      <div className="el-herostack">
+        <span className="el-herotop">
+          <span className={`rchip el-chip ${s.roleKind === 'who' ? 'corec' : s.roleKind}`}>{s.roleKind === 'up' && <Use id="ar-up" />}{s.roleKind === 'down' && <Use id="ar-down" />}{s.roleTx}</span>
+          <span className="reye el-reye"><Use id={`el-${s.el}`} /> {s.reye}</span>
+        </span>
+        {mechVizFor(s)}
+        <span className="el-herobar">
+          <span className="sp-track el-herotrack">
+            {towers.map((t) => (
+              t.presence > 0
+                ? <i key={t.el} className={t.el === s.el ? 'cur' : undefined} style={{ width: `${t.presence}%`, background: t.el === s.el ? `var(--${t.el}Deep)` : `color-mix(in srgb, var(--${t.el}Deep) 40%, var(--silkDeep))` }} />
+                : <i key={t.el} className={t.el === s.el ? 'cur gh' : 'gh'} style={{ width: '2%', ...(t.el === s.el ? { background: `var(--${t.el}Deep)` } : {}) }} />
+            ))}
+          </span>
+          <b className="el-heropct">{m.byEl[s.el].presence}%</b>
+        </span>
+      </div>
     </div>
   ) : null;
   // The element's seats (REA_02 §5e echo): the positions this energy holds.
@@ -376,39 +404,21 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const condIcon = m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged';
   const fnNote = fnOpen ? glossary[fnOpen] : null;
 
-  // Wheel-dot float (REA_02 §5d, minimal-card owner ruling 2026-09-01) —
-  // rung ② of the ladder (DES_04 §AM.11): a HOOK, not a summary. Four
-  // layers only: band identity, the 生/克 mechanism graphic, ONE derivation
-  // claim (role pill inline), three keyword chips. The CTA carries the
-  // deep-seat destination as its subtext. Family line, state verdict,
-  // presence track, identity row, seat body line: retired from the card.
+  // Wheel-dot float — THE COVER (owner journey redesign 2026-09-02): the
+  // floating card IS the element page's one-thumbnail, plus the rung-②
+  // texts (claim · cta_verdict · keyword chips · arrow). Tapping through
+  // lands on the page HEADED BY THE IDENTICAL THUMBNAIL — one object
+  // carried across the transition; the equation is taught exactly once.
   // The §5f function noun for an element (bijection, owner 2026-09-01) — the
   // wheel panel's rows and the dot card speak the SAME vocabulary; the seat
   // noun stays on the element page, the shadow noun in friction verdicts.
   const fnNoun = (r) => (K2_FUNCTIONS.find((f) => f.key === PAIR_CELLS[`${m.core.hz}_${r.hz}`]?.function?.primary) || {}).label || FAMILY_FN[r.family] || '';
 
-  const dot = dotOpen ? (() => {
-    const r = m.byEl[dotOpen];
-    if (!r) return null;
-    // The card's text = definition + verdict (owner formula 2026-09-01):
-    // the DEFINITION speaks the §5f function claim ("Wood is your Action");
-    // the VERDICT (ELEMENT_PAIR.cta_verdict, teaser register) explains it.
-    const pairCell = PAIR_CELLS[`${m.core.hz}_${r.hz}`];
-    const fnLabel = (K2_FUNCTIONS.find((f) => f.key === pairCell?.function?.primary) || {}).label || '';
-    const verdict = pairCell?.cta_verdict || '';
-    if (r.isCore) {
-      return { r, verb: 'core', tint: 't-core', fnLabel, verdict };
-    }
-    const core = m.core.el;
-    const edge = FEEDS[r.el] === core ? { a: r.el, b: core, verb: 'feeds' }
-      : FEEDS[core] === r.el ? { a: core, b: r.el, verb: 'feeds' }
-      : TAMES[r.el] === core ? { a: r.el, b: core, verb: 'tames' }
-      : { a: core, b: r.el, verb: 'tames' };
-    return {
-      r, ...edge, tint: r.role === 'friction' ? 't-fric' : 't-cat',
-      fnLabel, verdict,
-    };
-  })() : null;
+  const dot = dotOpen && m.byEl[dotOpen] ? {
+    r: m.byEl[dotOpen],
+    tint: m.byEl[dotOpen].isCore ? 't-core' : m.byEl[dotOpen].role === 'friction' ? 't-fric' : 't-cat',
+    s: buildElementScreen(m, dotOpen),
+  } : null;
 
   // data-ca="dock" removed with the dock retirement (2026-08-19): its stale
   // padv2 padding-bottom:18px override was clipping every screen's tail under
@@ -642,27 +652,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     (The claim line moved to THE FUNCTION card's title.) */}
                 {elScreen.mech && (
                   <button className="cardstock el-tease el-herocard" onClick={() => openSec('mech')}>
-                    <div className="hero2 el-heroart el-heroart2">
-                      <span className={`hart el-art ${elScreen.cls}`} /><span className="scrim" /><span className="hair el-hair" style={{ background: elScreen.pig }} />
-                      <span className="bighz el-hz" aria-hidden="true">{elScreen.hz}</span>
-                      <div className="el-herostack">
-                        <span className="el-herotop">
-                          <span className={`rchip el-chip ${elScreen.roleKind === 'who' ? 'corec' : elScreen.roleKind}`}>{elScreen.roleKind === 'up' && <Use id="ar-up" />}{elScreen.roleKind === 'down' && <Use id="ar-down" />}{elScreen.roleTx}</span>
-                          <span className="reye el-reye"><Use id={`el-${elScreen.el}`} /> {elScreen.reye}</span>
-                        </span>
-                        {mechViz}
-                        <span className="el-herobar">
-                          <span className="sp-track el-herotrack">
-                            {towers.map((t) => (
-                              t.presence > 0
-                                ? <i key={t.el} className={t.el === elScreen.el ? 'cur' : undefined} style={{ width: `${t.presence}%`, background: t.el === elScreen.el ? `var(--${t.el}Deep)` : `color-mix(in srgb, var(--${t.el}Deep) 40%, var(--silkDeep))` }} />
-                                : <i key={t.el} className={t.el === elScreen.el ? 'cur gh' : 'gh'} style={{ width: '2%', ...(t.el === elScreen.el ? { background: `var(--${t.el}Deep)` } : {}) }} />
-                            ))}
-                          </span>
-                          <b className="el-heropct">{m.byEl[elScreen.el].presence}%</b>
-                        </span>
-                      </div>
-                    </div>
+                    {heroThumbFor(elScreen)}
                     {elScreen.diag && <span className="el-teasep el-herodiag">{elScreen.diag}</span>}
                     <span className="el-teasego"><Use id="ico-chev-r" /></span>
                   </button>
@@ -892,56 +882,21 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
       {dot && (
         <div className="wordpop open" role="presentation">
           <div className="wp-scrim" onClick={() => setDotOpen(null)} />
-          <div className={`wp-sheet wp-dotcard ${dot.tint}`} role="dialog" aria-label={`${dot.r.name} — its reading and its relation with your core`}>
-            <div className="wp-band">
-              {/* the element's ink art — the card previews its destination
-                  (the element screen opens on this same wash) */}
-              <span className={`wd-bandart a-${dot.r.el}`} aria-hidden="true" />
-              <span className="wd-bandscrim" aria-hidden="true" />
-              <span className="wp-wm"><Use id={`el-${dot.r.el}`} /></span>
-              <button className="wp-x" aria-label="Close" onClick={() => setDotOpen(null)}><Use id="ico-close" /></button>
-              <span className="wp-ey">{dot.verb === 'core' ? 'Your day master' : 'The cycle of energies'}</span>
-              <span className="wd-bandname"><Use id={`el-${dot.r.el}`} className="wd-elic" />{dot.r.name}<b className="wd-hz">{dot.r.hz}</b></span>
-            </div>
+          <div className={`wp-sheet wp-dotcard wp-cover ${dot.tint}`} role="dialog" aria-label={`${dot.r.name} — its reading and its relation with your core`}>
+            <button className="wp-x wp-coverx" aria-label="Close" onClick={() => setDotOpen(null)}><Use id="ico-close" /></button>
             <div className="wp-inner">
-              {/* the 生/克 relation strip — capsule thumbnails (the dock's
-                  design DNA: npig pigment + bottom-up presence fill) joined
-                  by the law glyph; the core card pairs capsule with seal. */}
-              {(() => {
-                return dot.verb === 'core' ? (
-                  <div className="wd-rel">
-                    {capThumb(dot.r.el)}
-                    <span className="wd-link core"><i className="wd-lawhz">主</i><span className="wd-lawtx">day master</span></span>
-                    <span className="wd-capseal" style={{ backgroundImage: `url('${centerSrc}')` }} aria-hidden="true" />
-                  </div>
-                ) : (
-                  <div className="wd-rel">
-                    {capThumb(dot.a)}
-                    <span className={`wd-link ${dot.verb}`}>
-                      <i className="wd-lawhz">{dot.verb === 'feeds' ? '生' : '克'}</i>
-                      <svg className="wd-arrow" viewBox="0 0 44 10" aria-hidden="true"><path d="M2 5 H36 M36 5 l-6 -3.6 M36 5 l-6 3.6" /></svg>
-                      <span className="wd-lawtx">{dot.verb}</span>
-                    </span>
-                    {capThumb(dot.b)}
-                  </div>
-                );
-              })()}
-              {/* the role pill sits where the eq caption was (owner cleanup
-                  2026-09-01: the graphic already explains the relation) */}
-              <div className="wd-rolerow">
-                <span className={`role-pill ${dot.r.isCore ? 'core' : dot.r.role === 'friction' ? 'fric' : 'cat'}`}>
-                  {dot.r.isCore ? <Disc /> : dot.r.role === 'friction' ? <Use id="ar-down" /> : <Use id="ar-up" />}
-                  {dot.r.isCore ? 'Core' : dot.r.role === 'friction' ? 'Friction' : 'Catalyst'}
-                </span>
-              </div>
-              {/* definition + verdict (owner formula 2026-09-01) */}
-              {dot.fnLabel && <p className="wd-def">{dot.r.name} is your <b>{dot.fnLabel}</b></p>}
-              {dot.verdict && <p className="wp-body wd-mean">{dot.verdict}</p>}
+              {/* THE COVER = the element page's own thumbnail (owner journey
+                  redesign 2026-09-02) — the same object heads the page this
+                  card opens; the equation is taught exactly once. */}
+              {heroThumbFor(dot.s)}
+              {/* the rung-② texts: claim · verdict · keywords (never repeated
+                  on the page — its header carries the diagnosis instead) */}
+              {dot.s.fnLabel && <p className="wd-def">{dot.r.name} is your <b>{dot.s.fnLabel}</b></p>}
+              {dot.s.verdict && <p className="wp-body wd-mean">{dot.s.verdict}</p>}
               {dot.r.adj?.length ? (
                 <div className="wd-adj">{dot.r.adj.map((a) => <span key={a} className={`wd-adjchip${(dot.r.role === 'friction' || dot.r.coreExcess) ? ' down' : ''}`}>{a}</span>)}</div>
               ) : null}
-              {/* arrow-only entry (owner cleanup 2026-09-01: the readcirc
-                  language — consistent with every other reading-page entry) */}
+              {/* arrow-only entry — the readcirc language */}
               <button className="wp-codex" aria-label={`Open the full ${dot.r.name} reading`}
                 onClick={() => { setDotOpen(null); goElement(dot.r.el); }}>
                 <Use id="ico-arrow-r" />

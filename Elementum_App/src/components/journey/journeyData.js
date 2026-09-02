@@ -414,6 +414,8 @@ export function buildElementScreen(model, el) {
     // THE FUNCTION (§5f): merged into the mechanism detail (owner 2026-09-01).
     fn,
     fnLabel,
+    // the pair's cta_verdict — the COVER's meaning line (rung ②)
+    verdict: pair?.cta_verdict || '',
     // v3 definitions (owner re-org 2026-09-02): the role-resolved FULL
     // function reading (3 ¶, \n\n separated) lives on its own detail page;
     // the card shows the DERIVED teaser (the reading's first sentence).
