@@ -649,20 +649,14 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     focal object, the conclusion caption, the dominance bar
                     at the base. The diagnosis is the card's caption footer.
                     (The claim line moved to THE FUNCTION card's title.) */}
-                {/* the HEADER (owner 2026-09-02): thumbnail + diagnosis, a
-                    pure header — the mechanism gets its own tap-in card */}
+                {/* the HEADER card (owner 2026-09-02, fixed same day: the
+                    standalone MECHANISM card duplicated the claim — the
+                    reading button lives ON the diagnosis line instead, and
+                    the mechanism reading expands from there) */}
                 {elScreen.mech && (
-                  <div className="cardstock el-herocard">
+                  <button className="cardstock el-tease goa el-herocard" onClick={() => openSec('mech')}>
                     {heroThumbFor(elScreen)}
                     {elScreen.diag && <span className="el-teasep el-herodiag">{elScreen.diag}</span>}
-                  </div>
-                )}
-                {/* THE MECHANISM card — its own section, black-arrow tap-in */}
-                {elScreen.mech && (
-                  <button className="cardstock el-tease goa" onClick={() => openSec('mech')}>
-                    <span className="laylab">THE MECHANISM</span>
-                    <span className="serifline el-teasetitle">{elScreen.mechTitle}</span>
-                    <span className="el-teasep" style={{ marginTop: 2 }}>{firstSent(elScreen.mech.base)}</span>
                     <span className="readcirc sm el-goarrow"><Use id="ico-arrow-r" /></span>
                   </button>
                 )}
