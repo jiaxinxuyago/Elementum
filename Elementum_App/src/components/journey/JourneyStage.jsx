@@ -657,6 +657,11 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                         </span>
                       </span>
                     </div>
+                    {/* the FUNCTION paragraph (owner 2026-09-01: "Earth is
+                        your Mind and what do you mean by that?") — the §5f
+                        body answers the title's claim before the chemistry
+                        explains the role */}
+                    {elScreen.fn && <span className="el-teasep el-herofn">{elScreen.fn.body}</span>}
                     {mechViz}
                     {/* the diagnosis verdict (owner 2026-09-01): the same
                         equation the graphic shows, spoken as a chain — state,
