@@ -13,13 +13,7 @@
     "structural_interaction": "Metal pressing Wood same-polarity — the cutting force that doesn't grant permission",
     "dm_element": "Wood",
     "k2_overview": "Your Metal moves as the General: edge given rank. Pressure organizes you, crisis promotes you, and your will cuts through what committees cannot. This is the sword in its born office, decisive, disciplined, feared a little and needed often. Command the campaigns worth blood. Sheathe everywhere else.",
-    "k2_functional": {
-      "mind": "You think in objectives: what falls first, what follows, what gets deliberately spared.",
-      "expression": "You issue orders that sound like conclusions. People execute before questioning.",
-      "order": "Your rules are field orders: few, absolute, and enforced first on your own conduct.",
-      "action": "You strike decisively where others deliberate. Hesitation is not among your defects.",
-      "body": "Your energy is martial: strengthened by training, corroded by idle tension."
-    },
+    "k2_functional": "Your rules are field orders: few, absolute, and enforced first on your own conduct.",
     "adj_chips": {
       "catalyst": [
         "Battle-ready",

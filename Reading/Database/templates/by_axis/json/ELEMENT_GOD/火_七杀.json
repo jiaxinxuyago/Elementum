@@ -13,13 +13,7 @@
     "structural_interaction": "Fire pressing Metal same-polarity — the forge that doesn't moderate itself",
     "dm_element": "Metal",
     "k2_overview": "Your Fire moves as the General: heat weaponized into will. You command like a charge, blazing conviction that armies of ordinary people find themselves following. Crisis makes you luminous. Peacetime makes you dangerous to furniture. Aim the cannon, always. Unaimed, this much fire tests every relationship it warms.",
-    "k2_functional": {
-      "mind": "You think in offensives: the bold stroke, the morale, the moment to charge.",
-      "expression": "You speak fire into formations: rally, order, charge, all in one breath.",
-      "order": "Your order is fire discipline: absolute at the front, enforced on yourself before anyone else feels it.",
-      "action": "You attack problems frontally at full heat, and mostly the problems lose.",
-      "body": "Your energy is artillery: devastating volleys, mandatory cooldowns, maintenance between engagements."
-    },
+    "k2_functional": "Your order is fire discipline: absolute at the front, enforced on yourself before anyone else feels it.",
     "adj_chips": {
       "catalyst": [
         "Swift",

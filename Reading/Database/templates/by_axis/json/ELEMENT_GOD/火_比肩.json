@@ -13,13 +13,7 @@
     "structural_interaction": "Warmth amplifying warmth — illumination running without containment",
     "dm_element": "Fire",
     "k2_overview": "Your Fire moves as the Twin: a flame that burns on its own fuel and stands level with every other light. You warm a gathering without needing to lead it, and you bristle when anyone tries to carry you. Two torches burn brighter side by side. That is your theory of company, and mostly it works.",
-    "k2_functional": {
-      "mind": "You think fast and first-person: what I would do arrives before what they meant.",
-      "expression": "You speak with heat and certainty. People rarely wonder where you stand.",
-      "order": "Your code is a kept flame: self-lit, self-tended, and no one else’s hand adjusts it.",
-      "action": "You ignite your own starts and dislike waiting on anyone’s match. Momentum is personal.",
-      "body": "Your energy burns bright and social: fed by activity, drained by standing in another’s shadow."
-    },
+    "k2_functional": "Your energy burns bright and social: fed by activity, drained by standing in another’s shadow.",
     "adj_chips": {
       "catalyst": [
         "Self-lit",

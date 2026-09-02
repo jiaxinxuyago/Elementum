@@ -16,7 +16,7 @@
 import { getEnergyBand, relationOf } from '../../engine/index.js';
 import { TG_PERSONA, TG_DEFLINE, selfCardFor } from '../../content/index.js';
 import { FEEDS, TAMES } from '../../content/cycles.js';
-import { K2_CELLS, K2_FUNCTIONS, GOD_DOMAINS } from '../../content/k2.js';
+import { K2_CELLS, K2_FUNCTIONS, GOD_DOMAINS, GOD_FN } from '../../content/k2.js';
 import { PAIR_CELLS } from '../../content/pairs.js';
 import { FACE_CARD, ENERGY_TILE } from '../../content/reading/index.js';
 
@@ -421,10 +421,13 @@ export function buildElementScreen(model, el) {
     domTitle: 'What it rules in your life',
     // RULING DOMAINS (EP-C): the gods' home — per present face, a sub-block
     // of persona + defline (§2, teaser-first per the curation ruling) +
+    // the god's ONE function line (owner 2026-09-01: family bijection) +
     // domains + its seats + Seeker-gated domain readings.
     faces: (r.faces || []).map((f) => ({
       ...f,
       defline: TG_DEFLINE[f.god] || '',
+      fnLabel: (K2_FUNCTIONS.find((x) => x.key === GOD_FN[f.god]) || {}).label || '',
+      fnLine: K2_CELLS[`${r.hz}_${f.god}`]?.functional || '',
       domains: GOD_DOMAINS[f.god] || [],
       readings: K2_CELLS[`${r.hz}_${f.god}`]?.domain_readings || null,
     })),

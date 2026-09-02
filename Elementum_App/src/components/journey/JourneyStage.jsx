@@ -802,6 +802,12 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                       <div className="el-godblock" key={f.god}>
                         <p className="serifline el-godhead"><b>{f.persona}</b> {f.god} · {f.keyword.toUpperCase()}{elFaces.length > 1 ? <span className="el-godshare">{f.share}% of your {elScreen.elName}</span> : null}</p>
                         <p className="el-teasegoddef" style={{ display: 'block', margin: '0 0 6px' }}>{f.defline}</p>
+                        {/* the god's ONE function line (owner 2026-09-01: family
+                            bijection — a two-faced element shows one function in
+                            its two polarity temperaments) */}
+                        {f.fnLine && (
+                          <p className="body2 el-funcrow" style={{ margin: '0 0 6px' }}><b className="el-funclab">Runs your {f.fnLabel}.</b> {f.fnLine}</p>
+                        )}
                         <div className="el-adj">{f.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
                         {f.readings && tier !== 'free' && (
                           <div className="el-domreads">

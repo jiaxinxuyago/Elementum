@@ -13,13 +13,7 @@
     "structural_interaction": "Reach amplifying reach — developmental instinct without definition or counterforce",
     "dm_element": "Wood",
     "k2_overview": "Your Wood moves as the Twin: growth that stands beside others without leaning on them. You rise the way two trees share a hillside, close enough to shelter each other, rooted enough to stand alone. Ambition, for you, is upward and personal. You measure yourself against your own last season, and quietly against the tree beside you.",
-    "k2_functional": {
-      "mind": "You think in growth lines: where you were, where you are, what the next height requires.",
-      "expression": "You speak plainly and upward, more comfortable stating goals than confessing doubts.",
-      "order": "Your rules are your own rings: grown from inside, read by nobody else, and never up for vote.",
-      "action": "You start on your own signal and keep your own pace. Seasons of effort suit you better than sprints.",
-      "body": "Your stamina is vegetal: quiet, continuous, renewed by daylight and outdoor air."
-    },
+    "k2_functional": "Your stamina is vegetal: quiet, continuous, renewed by daylight and outdoor air.",
     "adj_chips": {
       "catalyst": [
         "Self-rooted",

@@ -13,13 +13,7 @@
     "structural_interaction": "Earth pressing Water same-polarity — the dam blocking depth without permission",
     "dm_element": "Water",
     "k2_overview": "Your Earth moves as the General: mass mobilized. Your authority is siege-grade, patient, inevitable, built of logistics and will. You do not charge. You surround, supply, and wait, and what you press eventually yields. People obey your stillness more than others’ shouting. Use that gravity on real fortresses.",
-    "k2_functional": {
-      "mind": "You think in sieges: supply lines, patience, which walls fall to time.",
-      "expression": "You command in few words with tectonic weight. Repetition is beneath the mountain.",
-      "order": "Your order is a fortress code: few gates, hard walls, and zero exceptions after dark.",
-      "action": "You apply steady, crushing persistence. Nothing outlasts you on purpose.",
-      "body": "Your energy is garrison-strength: vast, slow-burning, needing scheduled leave."
-    },
+    "k2_functional": "Your order is a fortress code: few gates, hard walls, and zero exceptions after dark.",
     "adj_chips": {
       "catalyst": [
         "Fortress-calm",

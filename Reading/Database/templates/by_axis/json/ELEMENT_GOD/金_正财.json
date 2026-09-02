@@ -13,13 +13,7 @@
     "structural_interaction": "Fire directing Metal cross-polarity — focused warmth shaping the edge with discipline",
     "dm_element": "Fire",
     "k2_overview": "Your Metal moves as the Steward: an edge in service of what it keeps. You maintain value with a craftsman’s discipline, tools oiled, accounts true, promises weighed before signing. Nothing gaudy, everything durable. What passes through your hands leaves better organized, and what stays becomes quietly excellent.",
-    "k2_functional": {
-      "mind": "You think in maintenance schedules: what needs truing before it breaks.",
-      "expression": "You speak in accurate commitments: dates kept, numbers exact, words engraved.",
-      "order": "Your order is a true ledger: entries exact, standards audited, loosened only by deliberate choice.",
-      "action": "You execute with clean precision: zero waste, nothing reworked, every screw accounted for.",
-      "body": "Your health runs on maintenance: tuned habits, regular checks, quality inputs."
-    },
+    "k2_functional": "You execute with clean precision: zero waste, nothing reworked, every screw accounted for.",
     "adj_chips": {
       "catalyst": [
         "Meticulous",

@@ -13,13 +13,7 @@
     "structural_interaction": "Water setting standard for Fire cross-polarity — depth asking whether warmth is sustainable",
     "dm_element": "Fire",
     "k2_overview": "Your Water moves as the Magistrate: navigable law, order that flows. You govern the way good rivers govern valleys, setting course without shouting, adjusting to terrain while staying a river. Your rules bend around cases and still arrive at the sea. It is the subtlest authority, and people obey it thinking they chose to.",
-    "k2_functional": {
-      "mind": "You think in channels and cases: where the rule should flow, where it should pool.",
-      "expression": "You direct fluently: guidance that reads as conversation and lands as policy.",
-      "order": "Your order runs like a canal: dug once with care, then carrying everyone’s traffic for decades.",
-      "action": "You administer adaptively: process that reroutes around obstacles without losing the sea.",
-      "body": "Your health is regulated flow: steady rhythms, flexible plans, stagnation as the only enemy."
-    },
+    "k2_functional": "Your order runs like a canal: dug once with care, then carrying everyone’s traffic for decades.",
     "adj_chips": {
       "catalyst": [
         "Clear-channeled",

@@ -272,6 +272,8 @@ The owner's ruling: on the energy page, "How it runs your functions" speaks the 
 
 Shadow twins (§5b-ii) carry over: a seat in excess speaks its shadow in the friction turn (Voice→Echo etc.).
 
+**God grain (owner 2026-09-01):** each ten god owns exactly its FAMILY's function (比肩/劫财→Body · 偏印/正印→Mind · 食神/伤官→Expression · 偏财/正财→Action · 七杀/正官→Order) — the polarity pair are the function's two temperaments. A god's effects on OTHER functions are interactions and belong to the pattern axis (§5g), never to functional tables.
+
 ## 5g · PROPOSED — the ten-god relation patterns (TG_PATTERN axis; owner directives 2026-08-19: the 精华, a first-class conditional reading angle; INVISIBLE IN-APP — canon awaiting owner lock)
 
 The classical god-pair patterns are conditional reading machinery: each has a 汉字 name + a persona-led English name (BOTH surface only in the future Codex chapter — owner re-ruling 2026-08-19: no classic quotes, no god-pair mechanics in the app reading), a trigger condition over the chart's resolved positions, and its own cell (line ≤40w, Codex ore · reading 45–70w, pure you-language · fused_line ≤25w · target_domains). **Trigger law: both sides present among the positions → the pattern's analysis WEAVES into the seat's matching domain paragraph (first declared domain in target_domains; unlabeled continuation fallback), one pattern per seat, priority = canon order. FUSED tier: both sides sharing one pillar (e.g. 偏印+食神 同柱) is the strongest classical trigger and appends the fused line.**

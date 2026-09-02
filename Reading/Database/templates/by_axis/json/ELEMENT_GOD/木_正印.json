@@ -13,13 +13,7 @@
     "structural_interaction": "Wood generating Fire cross-polarity — reach nourishing warmth and opening direction",
     "dm_element": "Fire",
     "k2_overview": "Your Wood moves as the Sage: living shelter, the teaching tree. Care in you grows canopies, patience wide enough for slow learners, roots that hold ground for whole families. What you know, you plant in people. It is the gentlest power in the system. Just keep one sunny patch that grows things purely for you.",
-    "k2_functional": {
-      "mind": "You think in growth arcs: what this person could become with the right seasons.",
-      "expression": "You teach by cultivation: questions as water, encouragement as light.",
-      "order": "Your order is an old orchard’s: patient principles rather than posted rules, teaching by shade and season.",
-      "action": "You act by tending: consistent small care that compounds into forests.",
-      "body": "Your body thrives on green routine: nature, gentle movement, seasonal patience with yourself."
-    },
+    "k2_functional": "You think in growth arcs: what this person could become with the right seasons.",
     "adj_chips": {
       "catalyst": [
         "Nurturing",

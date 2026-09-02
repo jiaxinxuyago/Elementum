@@ -13,13 +13,7 @@
     "structural_interaction": "Metal meeting Metal cross-polarity — similar nature, competitive register",
     "dm_element": "Metal",
     "k2_overview": "Your Metal moves as the Rival: an edge that sharpens against other edges. Competition wakes you up, stakes clarify you, and you cut boldest when something real is on the table. Money and metal both change hands fast around you. The trick of your life is dueling without wounding, and betting without handing over the sword.",
-    "k2_functional": {
-      "mind": "You think in contests: openings, counters, what winning this exchange actually costs.",
-      "expression": "Your words carry challenge even in kindness. Sparring is how you show interest.",
-      "order": "You cross blades with every rule once: the ones that parry become your own code.",
-      "action": "You strike while others weigh. Decisiveness under stakes is your cleanest edge.",
-      "body": "Your energy spikes for contests and crashes after. Build recovery into the schedule like a trainer would."
-    },
+    "k2_functional": "Your energy spikes for contests and crashes after. Build recovery into the schedule like a trainer would.",
     "adj_chips": {
       "catalyst": [
         "Keen-edged",

@@ -13,13 +13,7 @@
     "structural_interaction": "Warmth meeting warmth cross-polarity — presence competing with presence",
     "dm_element": "Fire",
     "k2_overview": "Your Fire moves as the Rival: flame that leaps between torches. You catch ambition from the people around you and pass yours back doubled, the most contagious energy in any gathering. Stakes make you luminous. The same draft that spreads your fire can spread it thin, so choose which blazes are actually yours.",
-    "k2_functional": {
-      "mind": "You think in surges: ideas arrive lit, borrowed sparks included, and sorting comes later.",
-      "expression": "You talk people into things, including yourself. Enthusiasm is your native tongue.",
-      "order": "Rules are heat to you: you honor the referee who survives your testing and burn past the rest.",
-      "action": "You move fastest in a pack with a prize. Solo marathons dim you.",
-      "body": "Your energy flares with company and stakes, then needs true dark to recover."
-    },
+    "k2_functional": "Your energy flares with company and stakes, then needs true dark to recover.",
     "adj_chips": {
       "catalyst": [
         "Spark-chasing",

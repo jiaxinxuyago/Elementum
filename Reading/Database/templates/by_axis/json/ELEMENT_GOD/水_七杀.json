@@ -13,13 +13,7 @@
     "structural_interaction": "Water pressing Fire same-polarity — the extinguishing force that doesn't moderate itself",
     "dm_element": "Fire",
     "k2_overview": "Your Water moves as the General: force that arrives as tide. You command indirectly, positioning, timing, the pressure of inevitability, and opponents find themselves outflanked by someone who never raised a voice. Strategy is your sword arm. The deep game, played patiently, with the current doing the marching.",
-    "k2_functional": {
-      "mind": "You think three tides ahead: position, advantage, the battle won before contact.",
-      "expression": "You direct in suggestions that turn out to be orders in retrospect.",
-      "order": "Your discipline moves like a cold current: quiet, total, and felt only when someone crosses it.",
-      "action": "You apply pressure like water: total, patient, finding every gap in the defense.",
-      "body": "Your energy is deep current: enormous, unhurried, dangerous to overdraw."
-    },
+    "k2_functional": "Your discipline moves like a cold current: quiet, total, and felt only when someone crosses it.",
     "adj_chips": {
       "catalyst": [
         "Cool-headed",

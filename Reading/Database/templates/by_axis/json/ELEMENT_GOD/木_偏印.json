@@ -13,13 +13,7 @@
     "structural_interaction": "Wood generating Fire same-polarity — reach as fuel sustaining warmth",
     "dm_element": "Fire",
     "k2_overview": "Your Wood moves as the Alchemist: knowledge grown rather than gathered. Understanding grafts onto you slowly and lives, ideas cross-pollinating in ways textbooks never planned. Your learning is a garden with strange hybrids. Tend it privately as you must, then let people taste the fruit. It is stranger and better than you think.",
-    "k2_functional": {
-      "mind": "You think by grafting: splicing distant ideas until something new takes root.",
-      "expression": "You explain in organic metaphors: knowledge with soil still on it.",
-      "order": "Your order is a walled garden: an inner system, strange from outside, flawlessly logical within.",
-      "action": "You act on grown conviction: slow to sprout, deep-rooted once moving.",
-      "body": "Your body learns like a plant: gradual conditioning, sunlight and quiet, no forced seasons."
-    },
+    "k2_functional": "You think by grafting: splicing distant ideas until something new takes root.",
     "adj_chips": {
       "catalyst": [
         "Cross-pollinating",

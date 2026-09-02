@@ -13,13 +13,7 @@
     "structural_interaction": "Fire setting standard for Metal cross-polarity — the forge that refines and grants recognition",
     "dm_element": "Metal",
     "k2_overview": "Your Fire moves as the Magistrate: civic light, authority that illuminates. You carry rules the way lighthouses carry flame, visibly, warmly, for everyone’s navigation. People follow your lead because it brightens rather than binds. Office becomes you. Keep the light public and tended, and rank will keep arriving on its own.",
-    "k2_functional": {
-      "mind": "You think in public standards: what the light should show, who steers by it.",
-      "expression": "You announce rather than memo: clarity with warmth, direction people can see.",
-      "order": "You carry order like a lantern: visible standards others steer by, kept lit at personal cost.",
-      "action": "You act as the example: first to follow the rule, brightest while doing it.",
-      "body": "Your energy is ceremonial flame: strong on stage and schedule, needing dark hours off duty."
-    },
+    "k2_functional": "You carry order like a lantern: visible standards others steer by, kept lit at personal cost.",
     "adj_chips": {
       "catalyst": [
         "Upstanding",

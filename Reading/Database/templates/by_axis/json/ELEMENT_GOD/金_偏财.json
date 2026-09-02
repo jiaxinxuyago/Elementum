@@ -13,13 +13,7 @@
     "structural_interaction": "Fire directing Metal broadly — warmth applied to precision as distributed material",
     "dm_element": "Fire",
     "k2_overview": "Your Metal moves as the Horizon: an edge pointed outward. You mint opportunity, spotting value with an assayer’s eye and striking while metal is hot. Deals sharpen you, markets read like open books, and money is a tool you handle without trembling. Fortune favors your precision. Fence one treasury it cannot touch.",
-    "k2_functional": {
-      "mind": "You think in valuations: what this is worth, to whom, and when the price moves.",
-      "expression": "You pitch cleanly: terms polished, numbers ready, a handshake worth filing.",
-      "order": "You keep a light code with hard edges: few laws, brightly kept, and everything else negotiable by noon.",
-      "action": "You strike opportunities with timing others envy: measured approach, decisive cut.",
-      "body": "Your energy is transactional and crisp: peaks in negotiations, restored by order."
-    },
+    "k2_functional": "You strike opportunities with timing others envy: measured approach, decisive cut.",
     "adj_chips": {
       "catalyst": [
         "Quick-eyed",

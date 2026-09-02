@@ -13,13 +13,7 @@
     "structural_interaction": "Reach meeting reach cross-polarity — growth competing with growth",
     "dm_element": "Wood",
     "k2_overview": "Your Wood moves as the Rival: growth that races the grove. Another’s success reads to you as proof of reachable height, and it pulls you upward faster than any plan. You share ground generously and compete on it constantly. Handled well, that doubles every harvest. Handled loosely, the roots start strangling.",
-    "k2_functional": {
-      "mind": "You think comparatively: their height, your height, the fastest honest way to close the gap.",
-      "expression": "You talk in ambitions and dares, half invitation, half challenge.",
-      "order": "Rules read as trellises to outgrow: you climb them hardest when someone says they hold you.",
-      "action": "You accelerate when someone runs beside you. Alone, you coast. Recruit pace-setters.",
-      "body": "Your energy feeds on contest and outdoor motion, and sours in idle shade."
-    },
+    "k2_functional": "Your energy feeds on contest and outdoor motion, and sours in idle shade.",
     "adj_chips": {
       "catalyst": [
         "Fast-climbing",

@@ -13,13 +13,7 @@
     "structural_interaction": "Metal generating Water same-polarity — precision as the source sustaining depth",
     "dm_element": "Water",
     "k2_overview": "Your Metal moves as the Alchemist: a mind that refines. You take raw knowledge and smelt it, testing claims, discarding slag, keeping only what rings true when struck. Your insight is assay-grade and arrives in solitude. Share the refined ingots. The lonely part of the craft is the furnace, not the life.",
-    "k2_functional": {
-      "mind": "You think by refinement: melt the claim, pour off error, keep the metal.",
-      "expression": "You speak rarely and precisely: conclusions already tested, edges deburred.",
-      "order": "Your order is a locksmith’s bench: private tolerances, strange tools, and results that open what experts cannot.",
-      "action": "You act after analysis: one clean stroke where others attempt ten.",
-      "body": "Your body runs cool and exact: solitary recovery, tension pooling in the jaw and shoulders."
-    },
+    "k2_functional": "You think by refinement: melt the claim, pour off error, keep the metal.",
     "adj_chips": {
       "catalyst": [
         "Fine-tuned",

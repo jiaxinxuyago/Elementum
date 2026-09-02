@@ -13,13 +13,7 @@
     "structural_interaction": "Water generating Wood same-polarity — depth as natural source of effortless reach",
     "dm_element": "Water",
     "k2_overview": "Your Wood moves as the Artisan: growth that fruits. Everything you tend produces, gardens, projects, people, and the producing feels less like work than like season. You nourish by cultivating: patient feeding, honest pruning, harvests shared at the fence. Your gift ripens on its own schedule. Respect the schedule.",
-    "k2_functional": {
-      "mind": "You think in seasons and yields: what to plant now for the table you want later.",
-      "expression": "Your words grow on people slowly and stay. You persuade the way spring does.",
-      "order": "Your order is seasonal: rhythms rather than rules, kept because they feel like growing.",
-      "action": "You work in cycles, steady tending over heroic pushes, and your harvests prove the method.",
-      "body": "Your health is agricultural: sun, movement, real food, and rest between seasons."
-    },
+    "k2_functional": "Your words grow on people slowly and stay. You persuade the way spring does.",
     "adj_chips": {
       "catalyst": [
         "Fruitful",

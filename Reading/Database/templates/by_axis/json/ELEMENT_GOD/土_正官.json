@@ -13,13 +13,7 @@
     "structural_interaction": "Earth setting standard for Water cross-polarity — containment asking whether depth has form",
     "dm_element": "Water",
     "k2_overview": "Your Earth moves as the Magistrate: bedrock law, order with geological patience. You hold standards the way mountains hold borders, unmoved, unhurried, outlasting every argument. Institutions rest on people like you. The honor is real and so is the load. Survey what you carry, and set down the duties that were never yours.",
-    "k2_functional": {
-      "mind": "You think in precedent and foundation: what has held, what will keep holding.",
-      "expression": "You rule in plain stone: few words, level, final.",
-      "order": "You are the standing wall others build against: order is less your duty than your substance.",
-      "action": "You keep order by bearing it: reliable weight, terms served fully.",
-      "body": "Your health is load-bearing: strong under routine, needing the pack taken off some days."
-    },
+    "k2_functional": "You are the standing wall others build against: order is less your duty than your substance.",
     "adj_chips": {
       "catalyst": [
         "Rock-steady",
