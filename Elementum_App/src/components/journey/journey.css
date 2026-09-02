@@ -2821,13 +2821,14 @@
 /* ── the element HERO CARD (owner 2026-09-01): art band + mechanism card
    consolidated — the old energy-pill expanded card at element grain ── */
 .jny .el-herocard .el-heroart{ position: relative; overflow: hidden; border-radius: 12px; margin: 0 0 10px; }
-.jny .el-herocard .el-herobar{ display: flex; align-items: center; gap: 8px; margin: 2px 0 0; }
-.jny .el-herocard .el-herotrack{ flex: 1; display: flex; height: 6px; border-radius: 4px; overflow: hidden; gap: 1px;
-    border: 1px solid rgba(43,39,34,0.10); background: rgba(248,244,236,0.7); }
+/* the dominance bar + number ON the art (owner 2026-09-01) — light-on-dark */
+.jny .el-herocard .el-herobar{ display: flex; align-items: center; gap: 8px; margin: 9px 0 0; }
+.jny .el-herocard .el-herotrack{ flex: 1; display: flex; height: 5px; border-radius: 4px; overflow: hidden; gap: 1px;
+    border: 1px solid rgba(246,241,230,0.35); background: rgba(20,17,13,0.35); }
 .jny .el-herocard .el-herotrack i{ height: 100%; display: block; }
-.jny .el-herocard .el-herotrack i.cur{ box-shadow: inset 0 0 0 1.5px rgba(255,255,255,0.7); }
+.jny .el-herocard .el-herotrack i.cur{ box-shadow: inset 0 0 0 1.5px rgba(255,255,255,0.85); }
 .jny .el-herocard .el-heropct{ flex: none; font-family: 'EB Garamond', Georgia, serif; font-size: 12.5px;
-    font-weight: 600; color: var(--inkDeep, #2b2722); }
+    font-weight: 600; color: #f6f1e6; text-shadow: 0 1px 3px rgba(20,17,13,0.55); }
 .jny .el-herocard .el-heroverdict{ margin-top: 4px; }
 .jny .el-herocard .el-herodx{ display: block; margin-top: 9px; padding-top: 8px;
     border-top: 1px dotted rgba(139,115,85,0.26); }
