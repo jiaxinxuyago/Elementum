@@ -70,6 +70,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const [posOpen, setPosOpen] = useState(null);    // element-page position accordion (position id)
   const [elSec, setElSec] = useState(null);        // element section detail ('mech' | 'fn' | 'dom')
   const [deepOpen, setDeepOpen] = useState(false); // seat Stage B ("the deeper layers") — resets per seat
+  const [godOpen, setGodOpen] = useState(null);    // WHO RUNS IT god accordion (god zh) — collapsed by default
   const [folioOpen, setFolioOpen] = useState(false);
 
   const model = useMemo(() => {
@@ -306,7 +307,10 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const elFaces = elScreen?.faces?.length ? elScreen.faces : [];
   // Curation pass (owner 2026-08-19): the element page is a teaser index;
   // each section opens its own detail sub-screen (jscreen "elsec").
-  const openSec = (k) => { setElSec(k); setPosOpen(null); goScreen('elsec'); };
+  // Revelation ladder (owner 2026-09-01): the Domains detail arrives with
+  // the TOP seat's Stage A already open — the reading is visible with zero
+  // taps (this replaced the START HERE chip); the god layer stays collapsed.
+  const openSec = (k) => { setElSec(k); setPosOpen(k === 'dom' ? (elPositions[0]?.id ?? null) : null); setDeepOpen(false); setGodOpen(null); goScreen('elsec'); };
   // The mechanism equation graphic (capsules + 生/克 link, wp-dotcard scope) —
   // shared by the mechanism teaser card and its detail screen.
   const mechViz = elScreen?.mech ? (
@@ -344,7 +348,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const patternSeat = [...allPositions].filter((p) => p.pattern).sort((a, b) =>
     (b.pattern.fusedLine ? 1 : 0) - (a.pattern.fusedLine ? 1 : 0) || bySeatRank(a, b))[0] || null;
   const deepSeat = [...allPositions].sort(bySeatRank)[0] || null;
-  const goSeatDeep = (p) => { setElOpen(p.el); setElSec('dom'); setPosOpen(p.id); setDeepOpen(false); goScreen('elsec'); };
+  const goSeatDeep = (p) => { setElOpen(p.el); setElSec('dom'); setPosOpen(p.id); setDeepOpen(false); setGodOpen(null); goScreen('elsec'); };
   const elPositions = elScreen ? allPositions.filter((p) => p.el === elScreen.el).sort(bySeatRank) : [];
   // Curation v7 (owner 2026-08-19): each named position carries its OWN
   // teaser row — term (no 汉字 on the card) + 1–2 domain chips + the
@@ -712,24 +716,22 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     {elPositions.length ? (
                       <div className="elpos">
                         <span className="elpos-lead">{elPositions.length === 1 ? 'Its seat in your pillars:' : 'Its seats in your pillars:'}</span>
-                        {elPositions.map((p, pi) => (
+                        {elPositions.map((p) => (
                           <div className={`elpos-row acc${posOpen === p.id ? ' open' : ''}`} key={p.id}>
                             <button className="elpos-head" aria-expanded={posOpen === p.id} onClick={() => { setDeepOpen(false); setPosOpen((v) => (v === p.id ? null : p.id)); }}>
                               <span className="elpos-slot">{p.slotZh}</span>
-                              <span className="elpos-term">{p.term}{pi === 0 && elPositions.length > 1 && <i className="elpos-start">start here</i>}<span className="elpos-zh">{p.termZh}</span></span>
+                              <span className="elpos-term">{p.term}<span className="elpos-zh">{p.termZh}</span></span>
                               <Use id="ico-chev-r" className="elpos-chev" />
                             </button>
                             {posOpen === p.id && (
                               <div className="elpos-body">
-                                <div className="el-adj">{p.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
-                                <p className="elpos-defline">{p.defline}</p>
-                                {/* gating ruling 2026-08-19: seat NAMES +
-                                    deflines free. Seeker anatomy (POS-D):
-                                    summary → life chapter → domain ¶s (the
-                                    TG_PATTERN analysis WEAVES invisibly into
-                                    its first matching domain ¶, owner: no
-                                    names, no boxes) → relations → state turn
-                                    (band-resolved) → shadow → body. */}
+                                {/* revelation ladder (owner 2026-09-01): the
+                                    READING LEADS — chips + defline demoted to
+                                    the free tier (Seeker's reading declares
+                                    its domains in its own first sentence).
+                                    Seeker anatomy (POS-D): summary → domain
+                                    ¶s (pattern woven, turn as tone modifier)
+                                    → deeper layers → the god bridge. */}
                                 {tier !== 'free' ? (() => {
                                   const pat = p.pattern;
                                   const patText = pat ? `${pat.reading}${pat.fusedLine ? ` ${pat.fusedLine}` : ''}` : null;
@@ -779,14 +781,23 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                                 })() : (
                                   <>
                                     {/* free-tier Stage A teaser (DES_04 §AM.11
-                                        softener, owner 2026-08-19): the summary
+                                        softener, owner 2026-08-19): chips +
+                                        defline (the free surface) + the summary
                                         reading's declaration sentence + a
                                         seat-specific inventory of what Seeker
                                         unlocks — derived, no new content */}
+                                    <div className="el-adj">{p.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
+                                    <p className="elpos-defline">{p.defline}</p>
                                     <p className="elpos-reading">{firstSent(p.reading)}</p>
                                     <p className="body2 el-domlock" style={{ margin: '8px 0 0' }}>With Seeker this seat opens in full: the reading, {p.domains.join(', ')}, {p.chapter ? `your ${p.chapter.replace('The ', '').toLowerCase()}, ` : ''}the people, the shadow, and the body.</p>
                                   </>
                                 )}
+                                {/* the god bridge (owner 2026-09-01): the god is
+                                    introduced FROM the position — opens and
+                                    scrolls to its collapsed block below */}
+                                <button className="elpos-deeper elpos-godlink" onClick={() => { setGodOpen(p.god); setTimeout(() => document.getElementById(`elgod-${p.god}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' }), 60); }}>
+                                  About {p.term.replace(/ (at|inside) the .*$/, '')}, who holds this seat <Use id="ico-chev-r" />
+                                </button>
                               </div>
                             )}
                           </div>
@@ -796,24 +807,30 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                       <p className="elpos-none">This energy holds no seat in your pillars. It reaches you through the hidden stems, felt more than placed.</p>
                     )}
                     {/* the ten-god layer, introduced AFTER the positions
-                        (owner 2026-08-19): who runs the seats above */}
+                        (owner 2026-08-19) — and COLLAPSED by default (owner
+                        2026-09-01: supplementary teaching is opt-in; the
+                        heads still teach persona + function at a glance) */}
                     <span className="laylab el-wholab">WHO RUNS IT</span>
                     {elFaces.map((f) => (
-                      <div className="el-godblock" key={f.god}>
-                        <p className="serifline el-godhead"><b>{f.persona}</b> {f.god} · {f.keyword.toUpperCase()}{elFaces.length > 1 ? <span className="el-godshare">{f.share}% of your {elScreen.elName}</span> : null}</p>
-                        <p className="el-teasegoddef" style={{ display: 'block', margin: '0 0 6px' }}>{f.defline}</p>
-                        {/* the god's ONE function line (owner 2026-09-01: family
-                            bijection — a two-faced element shows one function in
-                            its two polarity temperaments) */}
-                        {f.fnLine && (
-                          <p className="body2 el-funcrow" style={{ margin: '0 0 6px' }}><b className="el-funclab">Runs your {f.fnLabel}.</b> {f.fnLine}</p>
-                        )}
-                        <div className="el-adj">{f.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
-                        {f.readings && tier !== 'free' && (
-                          <div className="el-domreads">
-                            {Object.entries(f.readings).map(([d, txt]) => (
-                              <p className="body2" key={d} style={{ margin: '9px 0 0' }}><b>{d}.</b> {txt}</p>
-                            ))}
+                      <div className={`elpos-row acc${godOpen === f.god ? ' open' : ''}`} key={f.god} id={`elgod-${f.god}`}>
+                        <button className="elpos-head" aria-expanded={godOpen === f.god} onClick={() => setGodOpen((v) => (v === f.god ? null : f.god))}>
+                          <span className="elpos-term"><span className="elgod-name"><b>{f.persona}</b> · {f.god}{elFaces.length > 1 ? <span className="el-godshare-in"> · {f.share}%</span> : null}</span><span className="elpos-zh">runs your {f.fnLabel} · {f.keyword.toLowerCase()}</span></span>
+                          <Use id="ico-chev-r" className="elpos-chev" />
+                        </button>
+                        {godOpen === f.god && (
+                          <div className="elpos-body">
+                            <p className="el-teasegoddef" style={{ display: 'block', margin: '0 0 6px' }}>{f.defline}</p>
+                            {f.fnLine && (
+                              <p className="body2 el-funcrow" style={{ margin: '0 0 6px' }}><b className="el-funclab">Runs your {f.fnLabel}.</b> {f.fnLine}</p>
+                            )}
+                            <div className="el-adj">{f.domains.map((d) => <span key={d} className="el-domchip">{d}</span>)}</div>
+                            {f.readings && tier !== 'free' && (
+                              <div className="el-domreads">
+                                {Object.entries(f.readings).map(([d, txt]) => (
+                                  <p className="body2" key={d} style={{ margin: '9px 0 0' }}><b>{d}.</b> {txt}</p>
+                                ))}
+                              </div>
+                            )}
                           </div>
                         )}
                       </div>

@@ -2815,10 +2815,13 @@
 .jny .el-mechturn{ margin-top: 10px; padding: 7px 0 2px 11px; }
 /* 2 · the function: the primary ONLY (owner 2026-08-19 — no other functions
    shown; the title names it, the body explains it) */
-/* 3 · ruling domains: per-god sub-blocks */
-.jny .el-godblock{ margin-top: 11px; padding-top: 10px; border-top: 1px dotted rgba(139,115,85,0.26); }
-.jny .el-godhead{ margin: 0 0 6px; font-size: 14px; }
-.jny .el-godshare{ display: block; font-family: 'EB Garamond', Georgia, serif; font-size: 11.5px; color: #8a8278; margin-top: 1px; }
+/* 3 · ruling domains: per-god sub-blocks — collapsed accordions since the
+   revelation-ladder ruling (owner 2026-09-01); they reuse the seat rows'
+   accordion DNA (.elpos-row/.elpos-head/.elpos-body) */
+.jny .elgod-name{ font-size: 14px; }
+.jny .elgod-name b{ font-weight: 600; }
+.jny .el-godshare-in{ font-size: 11.5px; color: #8a8278; }
+.jny .elpos-godlink{ margin-top: 10px; }
 /* teaser index (curation pass, owner 2026-08-19): claim title + derived
    verdict + visual per section card; the whole card is the tap target */
 .jny .el-tease{ display: block; width: 100%; text-align: left; cursor: pointer; position: relative;
@@ -2860,10 +2863,8 @@
 .jny .jtake-el{ width: 15px; height: 15px; flex: none; margin-top: 2px; color: var(--bronzeDark); }
 .jny .jtake-t{ flex: 1; font-family: 'EB Garamond', Georgia, serif; font-size: 13.5px; line-height: 1.45; color: var(--inkDeep, #2b2722); }
 .jny .jtake-chev{ width: 13px; height: 13px; flex: none; margin-top: 3px; color: #a89c86; }
-/* rungs ④–⑥ — seat ordering mark + the deeper-layers expander */
-.jny .elpos-start{ font-style: normal; font-family: 'Cinzel', Georgia, serif; font-size: 8.5px; letter-spacing: 1.2px;
-    text-transform: uppercase; color: var(--bronzeDark); background: rgba(160,138,100,0.14);
-    border: 1px solid rgba(160,138,100,0.4); border-radius: 999px; padding: 1px 7px; margin-left: 7px; vertical-align: 2px; }
+/* rungs ④–⑥ — the deeper-layers expander (the START HERE mark retired
+   2026-09-01: the top seat now auto-opens instead of being labeled) */
 .jny .elpos-deeper{ display: inline-flex; align-items: center; gap: 5px; margin-top: 9px; cursor: pointer;
     font-family: 'Cinzel', Georgia, serif; font-size: 10px; letter-spacing: 1.3px; text-transform: uppercase;
     color: var(--bronzeDark); background: none; border: none; border-bottom: 1px dotted rgba(160,138,100,0.6); padding: 0 0 2px; }
