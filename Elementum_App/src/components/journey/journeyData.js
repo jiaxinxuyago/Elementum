@@ -294,21 +294,29 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
     // Rows carry their source god as metadata only (the render is unlabeled
     // — ten-god vocabulary is first taught in THE DOMAINS); an unbatched
     // minority cell falls back to the lead's 3 rows.
+    // THE THREE DOORS (owner 2026-09-03): each keyword is cooked in three
+    // door variants (trait / scene / outside) backlogged in the station;
+    // the assembled ledger picks doors by position rotation so no two
+    // adjacent rows enter the same way, and any keyword reads well at any
+    // blend position.
+    const DOOR_ORDER = ['trait', 'scene', 'outside'];
     const cellReading = (g) => K2_CELLS[`${r.hz}_${g}`]?.fnReading?.[pole] || null;
     const leadRd = cellReading(r.god);
     r.fnRows = null;
     if (leadRd) {
       const minor = r.faces.length > 1 ? r.faces[1] : null;
       const minorRd = minor ? cellReading(minor.god) : null;
+      let picked;
       if (minorRd) {
         const nMinor = r.faces[0].share < 60 ? 2 : 1;
-        r.fnRows = [
+        picked = [
           ...leadRd.ledger.slice(0, 2).map((row) => ({ ...row, god: r.god })),
           ...minorRd.ledger.slice(0, nMinor).map((row) => ({ ...row, god: minor.god })),
         ];
       } else {
-        r.fnRows = leadRd.ledger.map((row) => ({ ...row, god: null }));
+        picked = leadRd.ledger.map((row) => ({ ...row, god: null }));
       }
+      r.fnRows = picked.map((row, i) => ({ word: row.word, god: row.god, text: row.doors[DOOR_ORDER[i % 3]] }));
       r.adj = r.fnRows.map((row) => row.word);
     }
     r.chips = [];

@@ -67,39 +67,57 @@
         "ledger": [
           {
             "word": "Deep-reading",
-            "line": "You take things in whole. A feature most people mistake for slowness.",
-            "scene": "One book read twice beats their forty skimmed summaries. Ask you a year later and it is still there."
+            "doors": {
+              "trait": "Taking things in whole is how your mind works, even when the world calls it slowness. You read the book twice while everyone else skims forty summaries, and a year later you are the only one who still has it. Nothing you truly studied has ever left you.",
+              "scene": "One book, read twice, with notes in the margins the second time through. That is your whole method, and it quietly beats the forty skimmed summaries everyone else is stacking. Ask you about it in a year and it is still there, organized and ready.",
+              "outside": "People mistake your pace for being behind, right up until they need someone who actually understood the material. Then they come to you. What reads as slow from the outside is your mind refusing to accept anything it has not fully chewed."
+            }
           },
           {
             "word": "Unhurried",
-            "line": "Waiting before you speak is a habit you built, and it works.",
-            "scene": "In a meeting where everyone answers in five seconds, yours comes last and gets written down."
+            "doors": {
+              "trait": "Waiting before you speak is a habit you built on purpose, and it earns its keep. Your answer tends to come last in any fast conversation, and it tends to be the one that gets written down. Speed was never where your thinking lived.",
+              "scene": "The meeting moves fast, everyone answers inside five seconds, and you say nothing for a while. Then your answer arrives, last and unhurried, and it is the one that ends up in the notes. It took you longer because you were finishing the thought.",
+              "outside": "Faster colleagues sometimes read your silence as having nothing to say. The ones who stay long enough learn the pattern: pressure speeds everyone else up and leaves your pace exactly where it was. What you lose in quickness you keep collecting back in accuracy."
+            }
           },
           {
             "word": "Inventive",
-            "line": "Your best ideas arrive from odd corners. A tendency worth trusting more.",
-            "scene": "The fix for a work problem shows up from a cookbook, a bus ride, an uncle’s offhand story."
+            "doors": {
+              "trait": "Your best ideas come in from odd corners, and trusting them is a skill worth building. The fix for a work problem arrives out of a cookbook, a bus ride, an uncle’s offhand story. Strange sources are your mind’s actual supply line.",
+              "scene": "The answer to a work problem shows up while you are reading a cookbook, or on a bus, or inside an uncle’s offhand story. It happens too often to be luck. Your mind connects things underground, in the dark, and hands you the result later like it was easy.",
+              "outside": "Nobody watching you would call it research. A cookbook here, a detour there, an afternoon lost to something unrelated, and then you surface with an idea no straight line could have reached. The people who work in straight lines have learned to stop asking how."
+            }
           }
         ],
-        "advise": "Deep minds underrate their own output. Once a month, teach one thing you learned to one person. Explaining it is how you find out it is really yours. Keep one notebook, not six. And say your slow answer out loud before someone faster says a worse one."
+        "advise": "Deep minds underrate their own output, so build the habit of releasing some. Once a month, teach one thing you learned to one person, because explaining it is how you find out it is really yours. Keep one notebook instead of six. And say your slow answer out loud before someone faster says a worse one."
       },
       "friction": {
         "define": "Earth is your Mind, and as a friction, it is intake with no off switch. Courses, research, reading, preparing: everything that goes in counts as progress, so nothing ever has to come out. Learning becomes the most respectable way to stand still.",
         "ledger": [
           {
             "word": "Withdrawn",
-            "line": "Pulling back is your default setting, not a mood that passes.",
-            "scene": "You draft three versions of a two-line reply, then put the phone face-down through dinner anyway."
+            "doors": {
+              "trait": "Pulling back is where you rest, long before it is any kind of reaction. You will draft three versions of a two-line reply, decide none of them is ready, and put the phone face-down through dinner. The message was fine an hour ago. Sending is the part you keep postponing.",
+              "scene": "Three drafts of a two-line reply sit on your phone, and the phone sits face-down through dinner. Nothing about the message is hard. The withdrawing happens earlier than that, somewhere between thinking a thing and letting anyone watch you think it.",
+              "outside": "People stop hearing from you and assume something happened. Usually nothing did, and that is the part worth noticing: the quiet was never a response to anything. Given no reason at all, your door still drifts toward closed, and someone else always has to knock first."
+            }
           },
           {
             "word": "Brooding",
-            "line": "You hold thoughts long after they stop being useful. A habit, not thinking.",
-            "scene": "Tuesday’s conversation is still playing on Thursday night, paused at the one sentence you would take back."
+            "doors": {
+              "trait": "Holding a thought long after it stops being useful is your mind’s oldest habit. Tuesday’s conversation is still playing on Thursday night, paused and rewound at the one sentence you would take back. All that replaying feels like processing. Mostly it is wear.",
+              "scene": "It is Thursday night and Tuesday’s conversation is still running, paused at the one sentence you would take back. You have replayed it enough times to know it will not change, and you replay it anyway, because putting a thought down was never something anyone taught you.",
+              "outside": "From the outside you just seem quiet. Inside, a committee has been in session since Tuesday, reviewing one sentence from a conversation everyone else forgot. What people read as calm is often storage, thoughts settling in layers and staying down longer than they ever needed to."
+            }
           },
           {
             "word": "Overprepared",
-            "line": "Getting ready is where you hide, and it looks responsible from the outside.",
-            "scene": "Seventeen tabs, two saved courses, a notebook full of plans, and the first real step still waiting on one more book."
+            "doors": {
+              "trait": "Getting ready is where you hide, and it photographs as diligence from every angle. Seventeen tabs, two saved courses, a notebook full of plans, and the first real step still waiting on one more book. At some point the preparing stopped serving the step and started replacing it.",
+              "scene": "Seventeen browser tabs, two saved courses, a notebook full of plans. The project they all point at has not moved in a month, but the researching of it has never gone better. One more book, you tell yourself, and the telling sounds exactly like last time.",
+              "outside": "To everyone watching, you are the responsible one, always studying, always ready. Only you know the arithmetic underneath: as long as you are still getting ready, nobody can say you failed. It is a clever shelter, and it keeps out progress as reliably as it keeps out judgment."
+            }
           }
         ],
         "advise": "At some point more learning is just fear with a reading list. Trade study for evidence: for every hour that goes in, one small thing comes out where someone can see it. Give each research topic a decision date. Finish one old course before any new one gets your money."

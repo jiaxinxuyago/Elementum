@@ -63,46 +63,64 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "Fire is your Order, and as a catalyst, it is command that arrives exactly when things fall apart. Pressure does not scatter you, it organizes you. Deadlines, emergencies, hard calls: the hotter the moment, the straighter your line through it.",
+        "define": "Fire is your Order, and as a catalyst, it is command that arrives exactly when things fall apart. Pressure organizes you while it scatters everyone else. Deadlines, emergencies, hard calls: the hotter the moment, the straighter your line through it.",
         "ledger": [
           {
             "word": "Swift",
-            "line": "Deciding fast is native to you. Speed, not recklessness.",
-            "scene": "Ten people debating dinner for twenty minutes. You name the restaurant, stand up, and somehow everyone is relieved."
+            "doors": {
+              "trait": "Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Ten people can debate dinner for twenty minutes. You name the restaurant, stand up, and the whole table discovers it was only ever waiting for permission to stop choosing.",
+              "scene": "Twenty minutes into the dinner debate, you name the restaurant and stand up. Chairs scrape, coats go on, and the relief around the table is almost audible. Nobody remembers the other options by the sidewalk. Deciding was the meal everyone was actually hungry for.",
+              "outside": "People who deliberate for a living find your speed alarming until they work with it once. Then they start routing choices your way, quietly, the ones that have been circling for weeks. You settle them before lunch and nobody ever asks to reopen one."
+            }
           },
           {
             "word": "Daring",
-            "line": "You move toward what others edge away from. Wiring, not an act.",
-            "scene": "The hard phone call everyone dreads sits on your list one day, not three weeks. And it goes fine."
+            "doors": {
+              "trait": "Moving toward what others edge away from is wiring, and it spares you the weeks other people lose to dread. The phone call everyone fears sits on your list for one day instead of three. It goes fine. It nearly always goes fine, and you know that going in.",
+              "scene": "The call everyone dreaded sat on your list for exactly one day. You made it standing up, between two other tasks, and it went the way these things usually go with you, which is fine. Three weeks of collective dread died in four unremarkable minutes.",
+              "outside": "Teams keep a mental list of things nobody wants to do, and your name has drifted next to most of them. Colleagues call it bravery to your face and something more useful behind your back: proof that the scary version of a task rarely survives contact with someone unafraid of it."
+            }
           },
           {
             "word": "Crisis-ready",
-            "line": "Emergencies make you calmer. Your talent shows up when plans fail.",
-            "scene": "Power out, venue flooded, speaker sick, and you are the one with a working plan by the second sentence."
+            "doors": {
+              "trait": "Emergencies make you calmer, which is rare enough that people remember it. Power out, venue flooded, speaker sick, and you have a working plan by the second sentence. Your talent was built for exactly the moments most plans are not.",
+              "scene": "The venue flooded at noon and the speaker cancelled at one. By ten past, you had a new room, a new order of events, and a tone in your voice that made panic seem like a strange hobby other people had. The event ran. Nobody remembers how close it came.",
+              "outside": "There is a particular quiet that falls when things break and you are present, because everyone knows where the decisions will come from. It looks like glamour from a distance and it is really logistics under pressure, done fast, and it has saved more days than anyone has counted."
+            }
           }
         ],
-        "advise": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is not a waiting room. It is what the fighting was for."
+        "advise": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it."
       },
       "friction": {
         "define": "Fire is your Order, and as a friction, it is command with the thermostat broken. Everything gets treated like an emergency, everyone like a subordinate, and the heat that once cut through problems starts cutting through people, then finally through you.",
         "ledger": [
           {
             "word": "Scorching",
-            "line": "Your intensity marks people whether you mean it or not.",
-            "scene": "You called the work sloppy and forgot it by lunch. The person who heard it can still quote you a year later."
+            "doors": {
+              "trait": "Your intensity marks people whether you mean it or not, and you usually do not. You called the work sloppy and forgot the sentence by lunch. The person who heard it can still recite it a year later, tone included, and they have never once shown you the scar.",
+              "scene": "It was one word, sloppy, said at speed on a Tuesday and forgotten by lunch. A year later the person who caught it can still play it back with your exact inflection. You were putting out a fire. They were standing closer to it than you noticed.",
+              "outside": "New people get warned about you, gently, in hallways: brilliant, worth it, wear gloves. The warnings are affectionate and they are also warnings. Half the silence you read as respect is actually flinch, and the difference matters more every year you climb."
+            }
           },
           {
             "word": "Domineering",
-            "line": "Taking charge is your reflex, even where nobody asked.",
-            "scene": "It is a family vacation, and there is somehow a schedule, a briefing, and a debrief. People start replying in one word."
+            "doors": {
+              "trait": "Taking charge is your reflex even where nobody asked, and the family vacation proves it annually. There is somehow a schedule, a briefing, and a debrief. People have started replying in one word, which you read as efficiency and they mean as retreat.",
+              "scene": "The vacation had a schedule by the first morning and a debrief by the last night, and somewhere in between, the group chat went quiet. One-word replies, thumbs up, fine. You ran a beautiful operation. The others were on holiday, or trying to be.",
+              "outside": "People under your command perform agreement long before they feel it, because pushing back costs more energy than most afternoons contain. Decisions that were never yours keep ending up yours. It feels like leadership from where you stand. From two steps away it looks like weather everyone dresses for."
+            }
           },
           {
             "word": "Burned-out",
-            "line": "You run at full flame until the fuel simply ends. A cycle, not bad luck.",
-            "scene": "Three months of heroics, two weeks of not getting up, then apologies and the same three months again."
+            "doors": {
+              "trait": "Running at full flame until the fuel simply ends is a cycle for you, and calling it bad luck stopped working several cycles ago. Three months of heroics, two weeks of not getting up, then apologies and the same three months again. The crash is on the schedule now. You just decline to read that far down.",
+              "scene": "The three months of heroics ended the way they always end, with two weeks where getting up felt theoretical. From the couch you drafted apologies and, in the same hour, the next campaign. The pattern is so regular a friend once predicted your crash to within four days.",
+              "outside": "Everyone around you can see the crash coming except you, and they have learned not to say so out loud. They plan for your two dark weeks the way coastal towns plan for storm season, quietly moving what matters to higher ground. The storm never once takes the hint."
+            }
           }
         ],
-        "advise": "Command works best rationed. Before taking over, ask one question and wait for the whole answer. Rank the week’s fires and let the bottom three burn out alone. Schedule the rest before the crash schedules it for you. An order nobody can breathe in is not order."
+        "advise": "Command works best rationed. Before taking over, ask one question and wait for the whole answer. Rank the week’s fires and let the bottom three burn out alone. Schedule the rest before the crash schedules it for you. Order people can breathe in is the only kind that holds."
       }
     }
   }

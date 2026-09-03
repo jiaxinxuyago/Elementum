@@ -67,18 +67,27 @@
         "ledger": [
           {
             "word": "Wide-branching",
-            "line": "Your effort naturally runs in several directions at once.",
-            "scene": "Three ventures, two cities, one calendar. Somehow the overlaps feed each other instead of colliding."
+            "doors": {
+              "trait": "Your effort naturally runs in several directions at once, and the directions feed each other more than they collide. Three ventures, two cities, one calendar that frightens single-focus people. The overlaps are where your luck actually lives, so you stopped apologizing for them.",
+              "scene": "The supplier from the first venture became the landlord of the second, and a customer from the second just introduced the third. On paper it is three businesses in two cities. In practice it is one root system wearing three names, and it feeds itself.",
+              "outside": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on."
+            }
           },
           {
             "word": "Enterprising",
-            "line": "You see the opening before others see the wall.",
-            "scene": "The empty lot everyone walks past has, in your head, already been a café for a year."
+            "doors": {
+              "trait": "Seeing the opening before others see the wall is your standing advantage. The empty lot everyone walks past has, in your head, already been a café for a year. Most of those cafés stay imaginary, and the one you actually build pays for the habit.",
+              "scene": "You walked past the empty lot once and the café appeared in your head, tables and all, a year before anyone else saw potential. By the time the neighborhood caught up, you had already moved on twice. Early is the only schedule you have ever kept.",
+              "outside": "Friends have learned to listen when you point at nothing and describe a business. Half your ideas sound absurd on the sidewalk and obvious five years later. The people who laughed at the first one quietly ask about the next."
+            }
           },
           {
             "word": "Open-handed",
-            "line": "Money moves through you easily, and it tends to come back.",
-            "scene": "You covered the dinner, funded the cousin, seeded the friend. Half of it returned doubled, none of it was missed."
+            "doors": {
+              "trait": "Money moves through your hands easily, and it keeps coming back with interest of a kind no bank tracks. You covered the dinner, funded the cousin, seeded the friend. Half of it returned doubled, and the goodwill on the rest still pays out in introductions.",
+              "scene": "You covered the dinner without thinking, the way you seeded the friend’s shop and floated the cousin’s rent. Nobody kept a ledger, least of all you. Somehow the shop sends customers, the cousin sends leads, and generosity keeps turning out to be your best-performing account.",
+              "outside": "The word on you is generous, and the word travels further than money does. Doors open because you propped one open for someone else two years back. Tight-fisted people never see this economy at all, and they keep wondering how you afford your luck."
+            }
           }
         ],
         "advise": "Spreading trees still need a trunk. Keep one steady venture that pays for the experiments, and review the branches twice a year: feed the two that fruit, cut the rest without ceremony. Generosity works best on a budget it never has to apologize for."
@@ -88,21 +97,30 @@
         "ledger": [
           {
             "word": "Scattered",
-            "line": "Starting is your talent. Staying is the tax you keep dodging.",
-            "scene": "Four projects at forty percent. The oldest one only needed two more weekends, eight months ago."
+            "doors": {
+              "trait": "Starting is your genuine talent, and staying is the tax you keep finding ways around. Four projects sit at forty percent. The oldest needed two more weekends, eight months ago, and it will get them right after the new one stops being new.",
+              "scene": "Four projects, all around forty percent, none moving. The oldest one needed two weekends of work in March, and it is October, and those weekends went to the newest one, which has since also stopped. The finish line has never once seen you up close.",
+              "outside": "People have stopped asking how the projects are going, because the answer is always the same word, almost. Your talent was never the question. What they are waiting for, some more patiently than others, is a single finished thing to point at."
+            }
           },
           {
             "word": "Overgrown",
-            "line": "You add commitments the way a hedge adds branches, without asking the roots.",
-            "scene": "The calendar has no white left in it, and half the entries are things you volunteered for while busy."
+            "doors": {
+              "trait": "Adding commitments is a reflex you no longer notice, the way a hedge never notices new branches. The calendar has no white space left, and half the entries are things you volunteered for while already busy. Every yes seemed small. The sum runs your life now.",
+              "scene": "There is no white space left in the calendar, and reading it honestly is uncomfortable: half the entries are things you volunteered for while already busy. Each one was one small yes. Together they are the reason the important thing keeps not happening.",
+              "outside": "From outside, your life looks impressively full, and people say so with admiration. Up close, the fullness has no center. Even your closest people book you two weeks out, and the thing you say matters most has not appeared on the calendar in months."
+            }
           },
           {
             "word": "Fickle",
-            "line": "Your interest peaks early and moves on before the results arrive.",
-            "scene": "The guitar, the course, the market stall: each got six brilliant weeks and then a quiet shelf."
+            "doors": {
+              "trait": "Your interest burns hottest at the start and moves on before results arrive, and the pattern is old enough to have a shelf. The guitar, the course, the market stall, each brilliant for six weeks. Enthusiasm was never the missing ingredient. Week seven is.",
+              "scene": "The guitar got six good weeks, then the course got its six, then the market stall. Each one was the real thing while it lasted, and the shelf where they ended up is running out of space. Week seven has beaten you more often than any rival.",
+              "outside": "Friends now respond to your new obsessions with a warmth they privately ration, because they have met week seven. Nobody doubts the passion. They have simply watched enough six-week eras end to know the shelf, and never the stage, is where this one is headed too."
+            }
           }
         ],
-        "advise": "A field of sprouts feeds no one. Pick the two branches that matter and give them the season. Before starting anything new, finish or formally kill one old thing, and say the ending out loud. Fewer directions is not a smaller life. It is how fruit happens."
+        "advise": "A field of sprouts feeds no one. Pick the two branches that matter and give them the season. Before starting anything new, finish or formally kill one old thing, and say the ending out loud. Fewer directions is how fruit happens."
       }
     }
   }

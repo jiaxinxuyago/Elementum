@@ -63,22 +63,31 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "Water is your Expression, and as a catalyst, it is output that flows without forcing. Words, cooking, small kindnesses, the mood of a room: whatever you give out moves easily and lands soft, and people are fed by it before they notice they were hungry.",
+        "define": "Water is your Expression, and as a catalyst, it is output that flows without forcing. Words, cooking, small kindnesses, the mood of an evening: whatever you give out moves easily and lands soft, and people are fed by it before they notice they were hungry.",
         "ledger": [
           {
             "word": "Fluent",
-            "line": "Expressing comes to you the way walking does. No assembly required.",
-            "scene": "The toast you gave with zero notes is the one the couple still quotes. You forgot it by dessert."
+            "doors": {
+              "trait": "Expression comes to you the way walking comes to other people, without assembly or rehearsal. The toast you gave with zero notes is the one the couple still quotes, and you had forgotten it by dessert. What costs everyone else three drafts costs you almost nothing.",
+              "scene": "The toast happened because someone handed you a glass and the moment was there. There were no notes and there was no plan, and it landed so well the couple still quotes it. You forgot it by dessert, the way a river forgets water it has already carried.",
+              "outside": "People prepare for days to do what you do between bites. They notice, too. Half the invitations you get are really requests for you to come and make the talking easy, and you have never once thought of it as work."
+            }
           },
           {
             "word": "Nourishing",
-            "line": "What you make leaves people fuller. A feature of everything you produce.",
-            "scene": "Friends arrive at your kitchen table wound tight and leave two hours later fed, lighter, and not sure what happened."
+            "doors": {
+              "trait": "Whatever you make leaves people fuller than it strictly had to, and that surplus is the signature. Friends arrive at your kitchen table wound tight and leave two hours later fed, lighter, and unsure what exactly happened. Feeding people is simply the shape your talent takes.",
+              "scene": "They arrive wound tight, sit down at your kitchen table, and something loosens over the second hour. Soup helps, and so does the way you ask questions. By the door they are lighter and cannot name what happened. You can. It happens every time.",
+              "outside": "Nobody leaves your table the way they arrived, and word of that travels. You are the number people call on the bad night, the kitchen they route the heartbroken friend toward. It is a strange kind of fame, warm and unlisted, and you earned it a bowl at a time."
+            }
           },
           {
             "word": "Easygoing",
-            "line": "Your tempo stays loose where others clench. A temperament, not laziness.",
-            "scene": "The flight is cancelled and you are the one at the counter making the agent laugh while everyone gets rebooked."
+            "doors": {
+              "trait": "Your tempo stays loose where other people clench, which is temperament rather than effort. The flight gets cancelled and you end up at the counter making the agent laugh while everyone’s seats get rebooked. Ease like that cannot be faked under pressure. Yours is native.",
+              "scene": "The flight is cancelled, the line is furious, and somehow you are at the counter making the gate agent laugh while the rebooking happens. Nothing about it was strategy. Loose is just the setting you run at, and pressure has never found the dial.",
+              "outside": "Tense people collect near you without being invited, the way cold hands find a warm mug. Whatever they came in carrying weighs less within the hour. You rarely notice the effect, which is precisely why it works, and precisely why nobody believes you when you shrug."
+            }
           }
         ],
         "advise": "Ease is a gift right up until it dodges every hard thing. Pick one piece of what you make and finish it to done, not to pleasant. Say the awkward true sentence once a week, to the person it belongs to. Comfort that never risks anything eventually feeds no one."
@@ -88,18 +97,27 @@
         "ledger": [
           {
             "word": "Drifting",
-            "line": "You follow the day’s current instead of steering it. A habit, not an accident.",
-            "scene": "The Tuesday you planned to write became errands, a nap, and a show. Nobody chose it, which is the point."
+            "doors": {
+              "trait": "Following the day’s current instead of steering it is a habit now, whatever it started as. The Tuesday you set aside for writing became errands, a nap, and a show, and at no point did anyone decide that. The not-deciding is the whole mechanism.",
+              "scene": "The Tuesday reserved for writing turned into a pharmacy run, then a nap, then just one episode. Each step was reasonable. By eleven at night the day had been fully spent and nobody had ever actually spent it, which is how most of your Tuesdays go missing.",
+              "outside": "Anyone auditing your week would find no disasters, just a soft trail of almosts. Plans that dissolved politely. People stopped expecting the novel, the channel, the business, and you noticed them stopping, and even that noticing drifted off downstream with the rest."
+            }
           },
           {
             "word": "Indulgent",
-            "line": "Treating yourself is your answer to most feelings.",
-            "scene": "Stress orders dessert, boredom opens the app, sadness books the trip. The card statement reads like a mood diary."
+            "doors": {
+              "trait": "Treating yourself is your first answer to most feelings, and by now the treats have a routing system. Stress orders dessert, boredom opens the app, sadness books the trip. The card statement reads like a mood diary, and the moods are winning.",
+              "scene": "Last month’s card statement, read honestly, is a diary. The dessert on the stressful ninth, the flights browsed at midnight on the lonely seventeenth, the gadget that arrived after the argument. Every feeling got fed. The one thing still hungry at the end was the work.",
+              "outside": "You are famously good to yourself, and friends joke about it right up to the line where it stops being funny. Comfort was supposed to be the refill between efforts. Lately nobody, including you, can point to the effort it is refilling for."
+            }
           },
           {
             "word": "Unstirred",
-            "line": "It takes a lot to move you, and less would be better.",
-            "scene": "The deadline, the news, the argument all get the same shrug and the same tea, until one Thursday everything lands at once."
+            "doors": {
+              "trait": "It takes a great deal to move you, and less would honestly serve you better. The deadline, the news, the argument all get the same shrug and the same tea. Calm this deep is a talent right up until it becomes a moat.",
+              "scene": "The deadline got a shrug and a fresh cup of tea. So did the news, and the argument, and the email marked urgent twice. Then one Thursday everything landed at once, and the calm you had been so proud of turned out to be a backlog.",
+              "outside": "People have stopped bringing you their urgency, since it comes back to them unshaken and slightly damp. What reads as depth is sometimes just distance. The things that should reach you do not, and downstream of that, neither do the people attached to them."
+            }
           }
         ],
         "advise": "A river with no banks is a swamp, even a pleasant one. Give your talent one container: one project, one hour, the same time every day. Let yourself be bothered on purpose by one thing that matters. And make the treat follow the work, never replace it."

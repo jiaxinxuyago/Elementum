@@ -739,15 +739,20 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     <span className="serifline el-teasetitle">{elScreen.elName} is your {elScreen.fnLabel}.</span>
                     {elScreen.fnReading ? (
                       <>
-                        {/* THE GOD-GRAIN READING (owner 2026-09-03): define ¶
-                            → the dominance-WEIGHTED keyword LEDGER (2+1 /
-                            2+2 / 3 rows — the polarity blend renders
-                            unlabeled; ten-god vocabulary is first taught in
-                            THE DOMAINS) → advise ¶ (lead god's prescription) */}
+                        {/* THE GOD-GRAIN READING (owner 2026-09-03, three-
+                            doors fashion): chip row (the scannable summary)
+                            → define ¶ → the dominance-WEIGHTED keyword
+                            LEDGER (each row a full-sentence door variant,
+                            rotated so no two adjacent rows enter the same
+                            way; the polarity blend renders unlabeled) →
+                            advise ¶ (lead god's prescription) */}
+                        {(() => { const r = m.byEl[elScreen.el]; return r.adj?.length ? (
+                          <span className="wd-adj el-fnadj" style={{ margin: '6px 0 2px' }}>{r.adj.map((a) => <span key={a} className={`wd-adjchip${(r.role === 'friction' || r.coreExcess) ? ' down' : ''}`}>{a}</span>)}</span>
+                        ) : null; })()}
                         <p className="body2 el-fnbody" style={{ margin: '8px 0 0' }}>{elScreen.fnReading.define}</p>
                         <div className="el-fnledger">
                           {elScreen.fnReading.ledger.map((row) => (
-                            <p className="body2 el-funcrow" key={row.word} style={{ margin: '9px 0 0' }}><b className="el-funclab">{row.word}.</b> {row.line} {row.scene}</p>
+                            <p className="body2 el-funcrow" key={row.word} style={{ margin: '9px 0 0' }}><b className="el-funclab">{row.word}.</b> {row.text}</p>
                           ))}
                         </div>
                         <p className="body2 el-fnbody" style={{ margin: '9px 0 0' }}>{elScreen.fnReading.advise}</p>
