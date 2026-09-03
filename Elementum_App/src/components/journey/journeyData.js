@@ -291,8 +291,9 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
     // (<60%): 2+2 · single face: 3. Rank convention: authored chip order =
     // significance order, so top-N selection is deterministic. Card chips =
     // the ledger's words (rung identity — 4 chips on balanced elements).
-    // Rows carry their god only when the set spans both faces (tag renders);
-    // an unbatched minority cell falls back to the lead's 3 untagged rows.
+    // Rows carry their source god as metadata only (the render is unlabeled
+    // — ten-god vocabulary is first taught in THE DOMAINS); an unbatched
+    // minority cell falls back to the lead's 3 rows.
     const cellReading = (g) => K2_CELLS[`${r.hz}_${g}`]?.fnReading?.[pole] || null;
     const leadRd = cellReading(r.god);
     r.fnRows = null;
@@ -466,19 +467,11 @@ export function buildElementScreen(model, el) {
         fnTeaser: dot > 0 ? stripped.slice(0, dot + 1) : stripped,
       };
     })()),
-    // THE FACE SPLIT as the LEDGER PREAMBLE (owner 2026-09-03, option 2 +
-    // the weighted-ledger rulings): a two-faced element's split line names
-    // the polarity composition with engine weights and introduces the
-    // blended ledger ("Both mark your Action:"). While the minority cell is
-    // unbatched the rows can't blend, so the line keeps the pointer form.
-    faceSplit: (r.faces || []).length > 1 ? (() => {
-      const [lead, minor] = r.faces;
-      const spans = !!(r.fnRows && r.fnRows.some((row) => row.god === minor.god));
-      if (!spans) return `Your ${r.name} runs two temperaments: mostly ${lead.persona} (${lead.god} ${lead.share}%), with a streak of ${minor.persona} (${minor.god} ${minor.share}%). Meet ${minor.persona} under The Domains.`;
-      return lead.share < 60
-        ? `Your ${r.name} runs two temperaments in near-equal measure: ${lead.persona} (${lead.god} ${lead.share}%) and ${minor.persona} (${minor.god} ${minor.share}%). Both mark your ${fnLabel}:`
-        : `Your ${r.name} runs two temperaments: mostly ${lead.persona} (${lead.god} ${lead.share}%), with a streak of ${minor.persona} (${minor.god} ${minor.share}%). Both mark your ${fnLabel}:`;
-    })() : null,
+    // (FACE-SPLIT line + ledger god tags RETIRED the day they shipped —
+    // owner 2026-09-03: "too explicit" + "we only introduce the concept of
+    // ten-god later on". The weighted blend stays but renders unlabeled;
+    // the ten-god vocabulary is first taught in THE DOMAINS, per the
+    // revelation ladder, where the minority face keeps its god block.)
     // THE DIAGNOSIS (owner 2026-09-01): the logic chain spoken — core state ×
     // chemistry direction → catalyst/friction → directive. Templated derived
     // vocabulary (no authored corpus); the graphic shows the same equation.
