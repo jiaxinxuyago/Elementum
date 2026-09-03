@@ -26,7 +26,6 @@
         "Unreachable"
       ]
     },
-    "adj_gloss": null,
     "k2_domain_readings": {
       "Learning": "You learn by immersion: total absorption until a field saturates and understanding crystallizes whole. Interrupted immersion loses everything, so defend the deep dives. Come up between them.",
       "Intuition": "Your intuition is sonar: reading what moves beneath speech, sensing the shape of the unsaid. It is uncannily accurate about people. Verify before acting. Sonar shows shape, never color.",
@@ -61,6 +60,7 @@
           }
         }
       }
-    }
+    },
+    "fn_reading": null
   }
 }

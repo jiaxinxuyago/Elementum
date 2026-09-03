@@ -17,25 +17,13 @@
     "adj_chips": {
       "catalyst": [
         "Self-forged",
-        "Tempered",
+        "Reserved",
         "Unshakeable"
       ],
       "friction": [
         "Sealed-off",
         "Rigid",
         "Solitary"
-      ]
-    },
-    "adj_gloss": {
-      "catalyst": [
-        "Standards built by your own hand, tested until they ring true.",
-        "Hardened by repetition and pressure, calm where others crack.",
-        "Once set, your stance holds against argument, fashion, and weather."
-      ],
-      "friction": [
-        "The gates close early, and second opinions wait outside.",
-        "Form held so firmly that bending starts to feel like breaking.",
-        "Company gets filed under optional, and the filing becomes a habit."
       ]
     },
     "k2_domain_readings": {
@@ -71,6 +59,50 @@
             "season": null
           }
         }
+      }
+    },
+    "fn_reading": {
+      "catalyst": {
+        "define": "Metal is your Body, and as a catalyst, it is a self that holds its own shape. Your standards come from inside, your word keeps its weight under pressure, and you can carry a hard week without borrowing anyone’s strength.",
+        "ledger": [
+          {
+            "word": "Self-forged",
+            "line": "You built yourself by your own measure. A fact, not a pose.",
+            "scene": "Nobody taught you the morning routine, the savings rule, the way you train. Ten years on, none of it has slipped."
+          },
+          {
+            "word": "Reserved",
+            "line": "You keep most of yourself back, by choice, not by fear.",
+            "scene": "At the party you say maybe forty words, and three people still leave thinking you were the most solid person there."
+          },
+          {
+            "word": "Unshakeable",
+            "line": "Pressure does not move your line. A feature, not stubbornness.",
+            "scene": "The deadline panic sweeps the office, chairs rolling, voices up, and your pace does not change by one keystroke."
+          }
+        ],
+        "advise": "Strength that never leans becomes a wall even friends stop knocking on. Once a week, accept help you could technically do without. Tell one person about a load while you are still carrying it. Your standards stay yours, but let two people hold a copy."
+      },
+      "friction": {
+        "define": "Metal is your Body, and as a friction, it is a self shut so tight that nothing gets in, including what you need. Help reads as insult, company as noise. The strength is real, but it is spending you faster than anyone can see.",
+        "ledger": [
+          {
+            "word": "Sealed-off",
+            "line": "Not letting people in stopped being a choice a while ago.",
+            "scene": "Fine, you say, on the day of the diagnosis, the layoff, the breakup. The word has three hundred uses and no meaning."
+          },
+          {
+            "word": "Rigid",
+            "line": "Your rules survive even when the reason for them has died.",
+            "scene": "Gym at six, lunch at noon, lights out at eleven, kept through a fever and a friend’s one free evening in town."
+          },
+          {
+            "word": "Solitary",
+            "line": "Alone is your default answer, long past the point it helps.",
+            "scene": "You moved apartments twice with rented dollies and no phone calls. Both times someone would have said yes."
+          }
+        ],
+        "advise": "A body is not a vault, and neither is a life. Ask for one small favor this week and let it be done badly. Book the checkup you keep postponing. When someone offers help, count to three before refusing, and once out of ten times, say yes."
       }
     }
   }

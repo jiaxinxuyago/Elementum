@@ -733,28 +733,41 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     )}
                   </div>
                 )}
-                {elSec === 'fn' && elScreen.fnDef && (
+                {elSec === 'fn' && (elScreen.fnReading || elScreen.fnDef) && (
                   <div className="cardstock el-fncard">
                     <span className="laylab">THE FUNCTION</span>
                     <span className="serifline el-teasetitle">{elScreen.elName} is your {elScreen.fnLabel}.</span>
-                    {/* the full function reading (v3): ¶1 definition · ¶2 day
-                        to day · ¶3 the program; keywords + dips close */}
-                    {elScreen.fnDef.split('\n\n').map((p, i) => (
-                      <p className="body2 el-fnbody" key={i} style={{ margin: i ? '9px 0 0' : '8px 0 0' }}>{p}</p>
-                    ))}
-                    {/* the keyword LEDGER (owner 2026-09-02): each chip earns
-                        its line here — bare chips only until the batch lands */}
-                    {(() => { const r = m.byEl[elScreen.el]; if (!r.adj?.length) return null;
-                      return r.adjGloss ? (
+                    {elScreen.fnReading ? (
+                      <>
+                        {/* THE GOD-GRAIN READING (owner 2026-09-03): define ¶
+                            → the 3-beat keyword LEDGER (defining line + scene)
+                            → advise ¶ → the derived face-split line when the
+                            element carries both polarity faces */}
+                        <p className="body2 el-fnbody" style={{ margin: '8px 0 0' }}>{elScreen.fnReading.define}</p>
                         <div className="el-fnledger">
-                          {r.adj.map((a, i) => (
-                            <p className="body2 el-funcrow" key={a} style={{ margin: '9px 0 0' }}><b className="el-funclab">{a}.</b> {r.adjGloss[i]}</p>
+                          {elScreen.fnReading.ledger.map((row) => (
+                            <p className="body2 el-funcrow" key={row.word} style={{ margin: '9px 0 0' }}><b className="el-funclab">{row.word}.</b> {row.line} {row.scene}</p>
                           ))}
                         </div>
-                      ) : (
-                        <span className="wd-adj el-fnadj" style={{ marginTop: 9 }}>{r.adj.map((a) => <span key={a} className={`wd-adjchip${(r.role === 'friction' || r.coreExcess) ? ' down' : ''}`}>{a}</span>)}</span>
-                      );
-                    })()}
+                        <p className="body2 el-fnbody" style={{ margin: '9px 0 0' }}>{elScreen.fnReading.advise}</p>
+                        {elScreen.faceSplit && (
+                          <p className="body2 el-facesplit">{elScreen.faceSplit}</p>
+                        )}
+                      </>
+                    ) : (
+                      <>
+                        {/* pair-grain fallback until the ×90 batch lands:
+                            the v3 definition ¶s + the bare keyword chips */}
+                        {elScreen.fnDef.split('\n\n').map((p, i) => (
+                          <p className="body2 el-fnbody" key={i} style={{ margin: i ? '9px 0 0' : '8px 0 0' }}>{p}</p>
+                        ))}
+                        {(() => { const r = m.byEl[elScreen.el]; if (!r.adj?.length) return null;
+                          return (
+                            <span className="wd-adj el-fnadj" style={{ marginTop: 9 }}>{r.adj.map((a) => <span key={a} className={`wd-adjchip${(r.role === 'friction' || r.coreExcess) ? ' down' : ''}`}>{a}</span>)}</span>
+                          );
+                        })()}
+                      </>
+                    )}
                     {Object.entries(elScreen.fn?.dips || {}).map(([k, txt]) => (
                       <p className="body2 el-funcrow" key={k} style={{ margin: '9px 0 0' }}><b className="el-funclab">{(elScreen.functionsDef.find((f) => f.key === k) || { label: k }).label}.</b> {txt}</p>
                     ))}

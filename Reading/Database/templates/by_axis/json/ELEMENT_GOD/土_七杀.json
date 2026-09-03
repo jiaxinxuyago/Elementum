@@ -26,7 +26,6 @@
         "Grinding"
       ]
     },
-    "adj_gloss": null,
     "k2_domain_readings": {
       "Pressure": "You metabolize pressure into foundation: loads that flatten others become your footing. The watch-point is accumulation. Mountains crack invisibly first, so audit the strain you call normal.",
       "Command": "You command through immovability: the standard that does not shift, the decision that stays decided. It builds empires of order. Leave one gate for appeals, or the fortress becomes a wall.",
@@ -61,6 +60,7 @@
           }
         }
       }
-    }
+    },
+    "fn_reading": null
   }
 }

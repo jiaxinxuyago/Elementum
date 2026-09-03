@@ -26,7 +26,6 @@
         "Clutching"
       ]
     },
-    "adj_gloss": null,
     "k2_domain_readings": {
       "Wealth": "Your wealth is flow-managed: salaries channeled, streams diversified, leaks found early. You prosper by routing, not risking. Map the canals once a year and fortune stays irrigated.",
       "Savings": "You save in reservoirs: automatic diversions filling quiet pools. Name each pool’s purpose, storm, harvest, joy, and the discipline becomes drinkable.",
@@ -61,6 +60,7 @@
           }
         }
       }
-    }
+    },
+    "fn_reading": null
   }
 }

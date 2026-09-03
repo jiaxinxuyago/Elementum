@@ -23,19 +23,7 @@
       "friction": [
         "Withdrawn",
         "Brooding",
-        "Shut-away"
-      ]
-    },
-    "adj_gloss": {
-      "catalyst": [
-        "Nothing skims. Every subject gets excavated to its foundations.",
-        "Understanding arrives on its own schedule, and it refuses to be rushed.",
-        "Odd sources combine underground into ideas nobody saw coming."
-      ],
-      "friction": [
-        "The inner study is warm, and the door drifts shut behind you.",
-        "Thoughts settle in layers and stay down longer than they need to.",
-        "The shelter of knowing becomes a place you forget to leave."
+        "Overprepared"
       ]
     },
     "k2_domain_readings": {
@@ -71,6 +59,50 @@
             "season": null
           }
         }
+      }
+    },
+    "fn_reading": {
+      "catalyst": {
+        "define": "Earth is your Mind, and as a catalyst, it is a slow, deep intake that turns experience into ground you can stand on. Books, mentors, quiet rooms, long walks after hard conversations: whatever feeds it comes back later as judgment.",
+        "ledger": [
+          {
+            "word": "Deep-reading",
+            "line": "You take things in whole. A feature most people mistake for slowness.",
+            "scene": "One book read twice beats their forty skimmed summaries. Ask you a year later and it is still there."
+          },
+          {
+            "word": "Unhurried",
+            "line": "Waiting before you speak is a habit you built, and it works.",
+            "scene": "In a meeting where everyone answers in five seconds, yours comes last and gets written down."
+          },
+          {
+            "word": "Inventive",
+            "line": "Your best ideas arrive from odd corners. A tendency worth trusting more.",
+            "scene": "The fix for a work problem shows up from a cookbook, a bus ride, an uncle’s offhand story."
+          }
+        ],
+        "advise": "Deep minds underrate their own output. Once a month, teach one thing you learned to one person. Explaining it is how you find out it is really yours. Keep one notebook, not six. And say your slow answer out loud before someone faster says a worse one."
+      },
+      "friction": {
+        "define": "Earth is your Mind, and as a friction, it is intake with no off switch. Courses, research, reading, preparing: everything that goes in counts as progress, so nothing ever has to come out. Learning becomes the most respectable way to stand still.",
+        "ledger": [
+          {
+            "word": "Withdrawn",
+            "line": "Pulling back is your default setting, not a mood that passes.",
+            "scene": "You draft three versions of a two-line reply, then put the phone face-down through dinner anyway."
+          },
+          {
+            "word": "Brooding",
+            "line": "You hold thoughts long after they stop being useful. A habit, not thinking.",
+            "scene": "Tuesday’s conversation is still playing on Thursday night, paused at the one sentence you would take back."
+          },
+          {
+            "word": "Overprepared",
+            "line": "Getting ready is where you hide, and it looks responsible from the outside.",
+            "scene": "Seventeen tabs, two saved courses, a notebook full of plans, and the first real step still waiting on one more book."
+          }
+        ],
+        "advise": "At some point more learning is just fear with a reading list. Trade study for evidence: for every hour that goes in, one small thing comes out where someone can see it. Give each research topic a decision date. Finish one old course before any new one gets your money."
       }
     }
   }

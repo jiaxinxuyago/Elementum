@@ -26,7 +26,6 @@
         "Unpruned"
       ]
     },
-    "adj_gloss": null,
     "k2_domain_readings": {
       "Expression": "Your expression bears fruit: gardens, meals, projects that people can taste and hold. Make output a rhythm rather than an event. An orchard produces because producing is simply what it does.",
       "Enjoyment": "You enjoy abundance in its natural forms: tables full, gardens loud, seasons honored with their own pleasures. Guard the fallow time too. Delight, like soil, needs its resting years.",
@@ -61,6 +60,7 @@
           }
         }
       }
-    }
+    },
+    "fn_reading": null
   }
 }

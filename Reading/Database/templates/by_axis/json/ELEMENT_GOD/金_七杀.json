@@ -26,7 +26,6 @@
         "Blunted"
       ]
     },
-    "adj_gloss": null,
     "k2_domain_readings": {
       "Pressure": "Pressure is your forge: you harden correctly under loads that crack others. Seek arenas with real stakes. Comfort dulls you faster than any enemy could.",
       "Command": "Command fits you like a sword fits its grip: natural, tested, dangerous if idle. Take charge where the mission deserves it, and practice the harder art, releasing command without losing edge.",
@@ -61,6 +60,7 @@
           }
         }
       }
-    }
+    },
+    "fn_reading": null
   }
 }

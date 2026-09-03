@@ -10,7 +10,7 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Self-forged · Tempered · Unshakeable |
+| `catalyst` | Self-forged · Reserved · Unshakeable |
 | `friction` | Sealed-off · Rigid · Solitary |
 
 ### The Rival · 金_劫财
@@ -137,7 +137,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Deep-reading · Unhurried · Inventive |
-| `friction` | Withdrawn · Brooding · Shut-away |
+| `friction` | Withdrawn · Brooding · Overprepared |
 
 ### The Sage · 土_正印
 

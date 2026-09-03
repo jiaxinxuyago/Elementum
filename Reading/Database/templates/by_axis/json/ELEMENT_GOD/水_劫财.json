@@ -26,7 +26,6 @@
         "Slippery"
       ]
     },
-    "adj_gloss": null,
     "k2_domain_readings": {
       "Rivalry": "Your rivalries run underwater: unspoken races, silent measurements, positions gained without visible waves. Surface one or two. A named, laughing rivalry refreshes you more than ten secret ones.",
       "Shared stakes": "Money and effort pool around you like watersheds: group funds, family flows, blended accounts. You track it all mentally and forgive it all eventually. Put banks around what must not flood away.",
@@ -61,6 +60,7 @@
           }
         }
       }
-    }
+    },
+    "fn_reading": null
   }
 }

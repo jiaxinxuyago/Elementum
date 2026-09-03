@@ -26,7 +26,6 @@
         "By-the-book"
       ]
     },
-    "adj_gloss": null,
     "k2_domain_readings": {
       "Career": "Your career climbs through correctness: credentials, rank, a record without dents. Institutions promote you because you are what their rules dream of. Pick ones whose rules deserve you.",
       "Status": "Your standing is engraved, earned slowly, hard to tarnish. Guard it without worshiping it. A reputation is a tool for doing right at scale, not the point of the work.",
@@ -61,6 +60,7 @@
           }
         }
       }
-    }
+    },
+    "fn_reading": null
   }
 }

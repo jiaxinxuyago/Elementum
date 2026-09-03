@@ -26,7 +26,6 @@
         "Spread-thin"
       ]
     },
-    "adj_gloss": null,
     "k2_domain_readings": {
       "Opportunity": "Your opportunities are tangible: property, inventory, businesses with floors and keys. You distrust vapor correctly. Walk the ground before buying it, and buy ground more often than promises.",
       "Ventures": "Your ventures should hold weight: real assets, real product, margins you can stack. Compound patiently. In your hands, boring holdings quietly outperform everyone’s exciting stories.",
@@ -61,6 +60,7 @@
           }
         }
       }
-    }
+    },
+    "fn_reading": null
   }
 }

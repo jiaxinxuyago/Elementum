@@ -1,0 +1,523 @@
+{
+  "$variable": "fn_reading",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "ELEMENT_GOD": [
+      {
+        "id": "金_比肩",
+        "key": "金_比肩",
+        "canonical_name": "The Twin",
+        "value": {
+          "catalyst": {
+            "define": "Metal is your Body, and as a catalyst, it is a self that holds its own shape. Your standards come from inside, your word keeps its weight under pressure, and you can carry a hard week without borrowing anyone’s strength.",
+            "ledger": [
+              {
+                "word": "Self-forged",
+                "line": "You built yourself by your own measure. A fact, not a pose.",
+                "scene": "Nobody taught you the morning routine, the savings rule, the way you train. Ten years on, none of it has slipped."
+              },
+              {
+                "word": "Reserved",
+                "line": "You keep most of yourself back, by choice, not by fear.",
+                "scene": "At the party you say maybe forty words, and three people still leave thinking you were the most solid person there."
+              },
+              {
+                "word": "Unshakeable",
+                "line": "Pressure does not move your line. A feature, not stubbornness.",
+                "scene": "The deadline panic sweeps the office, chairs rolling, voices up, and your pace does not change by one keystroke."
+              }
+            ],
+            "advise": "Strength that never leans becomes a wall even friends stop knocking on. Once a week, accept help you could technically do without. Tell one person about a load while you are still carrying it. Your standards stay yours, but let two people hold a copy."
+          },
+          "friction": {
+            "define": "Metal is your Body, and as a friction, it is a self shut so tight that nothing gets in, including what you need. Help reads as insult, company as noise. The strength is real, but it is spending you faster than anyone can see.",
+            "ledger": [
+              {
+                "word": "Sealed-off",
+                "line": "Not letting people in stopped being a choice a while ago.",
+                "scene": "Fine, you say, on the day of the diagnosis, the layoff, the breakup. The word has three hundred uses and no meaning."
+              },
+              {
+                "word": "Rigid",
+                "line": "Your rules survive even when the reason for them has died.",
+                "scene": "Gym at six, lunch at noon, lights out at eleven, kept through a fever and a friend’s one free evening in town."
+              },
+              {
+                "word": "Solitary",
+                "line": "Alone is your default answer, long past the point it helps.",
+                "scene": "You moved apartments twice with rented dollies and no phone calls. Both times someone would have said yes."
+              }
+            ],
+            "advise": "A body is not a vault, and neither is a life. Ask for one small favor this week and let it be done badly. Book the checkup you keep postponing. When someone offers help, count to three before refusing, and once out of ten times, say yes."
+          }
+        }
+      },
+      {
+        "id": "金_劫财",
+        "key": "金_劫财",
+        "canonical_name": "The Rival",
+        "value": null
+      },
+      {
+        "id": "金_食神",
+        "key": "金_食神",
+        "canonical_name": "The Artisan",
+        "value": null
+      },
+      {
+        "id": "金_伤官",
+        "key": "金_伤官",
+        "canonical_name": "The Virtuoso",
+        "value": null
+      },
+      {
+        "id": "金_偏财",
+        "key": "金_偏财",
+        "canonical_name": "The Horizon",
+        "value": null
+      },
+      {
+        "id": "金_正财",
+        "key": "金_正财",
+        "canonical_name": "The Steward",
+        "value": null
+      },
+      {
+        "id": "金_七杀",
+        "key": "金_七杀",
+        "canonical_name": "The General",
+        "value": null
+      },
+      {
+        "id": "金_正官",
+        "key": "金_正官",
+        "canonical_name": "The Magistrate",
+        "value": null
+      },
+      {
+        "id": "金_偏印",
+        "key": "金_偏印",
+        "canonical_name": "The Alchemist",
+        "value": null
+      },
+      {
+        "id": "金_正印",
+        "key": "金_正印",
+        "canonical_name": "The Sage",
+        "value": null
+      },
+      {
+        "id": "土_比肩",
+        "key": "土_比肩",
+        "canonical_name": "The Twin",
+        "value": null
+      },
+      {
+        "id": "土_劫财",
+        "key": "土_劫财",
+        "canonical_name": "The Rival",
+        "value": null
+      },
+      {
+        "id": "土_食神",
+        "key": "土_食神",
+        "canonical_name": "The Artisan",
+        "value": null
+      },
+      {
+        "id": "土_伤官",
+        "key": "土_伤官",
+        "canonical_name": "The Virtuoso",
+        "value": null
+      },
+      {
+        "id": "土_偏财",
+        "key": "土_偏财",
+        "canonical_name": "The Horizon",
+        "value": null
+      },
+      {
+        "id": "土_正财",
+        "key": "土_正财",
+        "canonical_name": "The Steward",
+        "value": null
+      },
+      {
+        "id": "土_七杀",
+        "key": "土_七杀",
+        "canonical_name": "The General",
+        "value": null
+      },
+      {
+        "id": "土_正官",
+        "key": "土_正官",
+        "canonical_name": "The Magistrate",
+        "value": null
+      },
+      {
+        "id": "土_偏印",
+        "key": "土_偏印",
+        "canonical_name": "The Alchemist",
+        "value": {
+          "catalyst": {
+            "define": "Earth is your Mind, and as a catalyst, it is a slow, deep intake that turns experience into ground you can stand on. Books, mentors, quiet rooms, long walks after hard conversations: whatever feeds it comes back later as judgment.",
+            "ledger": [
+              {
+                "word": "Deep-reading",
+                "line": "You take things in whole. A feature most people mistake for slowness.",
+                "scene": "One book read twice beats their forty skimmed summaries. Ask you a year later and it is still there."
+              },
+              {
+                "word": "Unhurried",
+                "line": "Waiting before you speak is a habit you built, and it works.",
+                "scene": "In a meeting where everyone answers in five seconds, yours comes last and gets written down."
+              },
+              {
+                "word": "Inventive",
+                "line": "Your best ideas arrive from odd corners. A tendency worth trusting more.",
+                "scene": "The fix for a work problem shows up from a cookbook, a bus ride, an uncle’s offhand story."
+              }
+            ],
+            "advise": "Deep minds underrate their own output. Once a month, teach one thing you learned to one person. Explaining it is how you find out it is really yours. Keep one notebook, not six. And say your slow answer out loud before someone faster says a worse one."
+          },
+          "friction": {
+            "define": "Earth is your Mind, and as a friction, it is intake with no off switch. Courses, research, reading, preparing: everything that goes in counts as progress, so nothing ever has to come out. Learning becomes the most respectable way to stand still.",
+            "ledger": [
+              {
+                "word": "Withdrawn",
+                "line": "Pulling back is your default setting, not a mood that passes.",
+                "scene": "You draft three versions of a two-line reply, then put the phone face-down through dinner anyway."
+              },
+              {
+                "word": "Brooding",
+                "line": "You hold thoughts long after they stop being useful. A habit, not thinking.",
+                "scene": "Tuesday’s conversation is still playing on Thursday night, paused at the one sentence you would take back."
+              },
+              {
+                "word": "Overprepared",
+                "line": "Getting ready is where you hide, and it looks responsible from the outside.",
+                "scene": "Seventeen tabs, two saved courses, a notebook full of plans, and the first real step still waiting on one more book."
+              }
+            ],
+            "advise": "At some point more learning is just fear with a reading list. Trade study for evidence: for every hour that goes in, one small thing comes out where someone can see it. Give each research topic a decision date. Finish one old course before any new one gets your money."
+          }
+        }
+      },
+      {
+        "id": "土_正印",
+        "key": "土_正印",
+        "canonical_name": "The Sage",
+        "value": null
+      },
+      {
+        "id": "木_比肩",
+        "key": "木_比肩",
+        "canonical_name": "The Twin",
+        "value": null
+      },
+      {
+        "id": "木_劫财",
+        "key": "木_劫财",
+        "canonical_name": "The Rival",
+        "value": null
+      },
+      {
+        "id": "木_食神",
+        "key": "木_食神",
+        "canonical_name": "The Artisan",
+        "value": null
+      },
+      {
+        "id": "木_伤官",
+        "key": "木_伤官",
+        "canonical_name": "The Virtuoso",
+        "value": null
+      },
+      {
+        "id": "木_偏财",
+        "key": "木_偏财",
+        "canonical_name": "The Horizon",
+        "value": null
+      },
+      {
+        "id": "木_正财",
+        "key": "木_正财",
+        "canonical_name": "The Steward",
+        "value": {
+          "catalyst": {
+            "define": "Wood is your Action, and as a catalyst, it is work that grows instead of burns. You build the way seasons do: plant, tend, wait, gather. Money, skills, and trust all behave like living things in your hands, and they multiply because you keep showing up.",
+            "ledger": [
+              {
+                "word": "Cultivating",
+                "line": "You improve what you own instead of chasing what you want. A working principle.",
+                "scene": "The same bike, oiled for six years. The same client, kept for ten. Both worth double what they were."
+              },
+              {
+                "word": "Compounding",
+                "line": "Small and repeated is your natural size for effort.",
+                "scene": "Fifty a month since college, a page a day, one call every Friday. None of it looks like much until it does."
+              },
+              {
+                "word": "Deep-rooted",
+                "line": "You commit to one craft, one town, and stay. A feature, not a rut.",
+                "scene": "Friends rebrand every two years. You are on year nine of the same work, and people now come to you."
+              }
+            ],
+            "advise": "Slow builders forget to look up. Once a season, ask whether the field still deserves the tending, and let one dead project go without guilt. Keep the daily habits exactly as they are. And raise your price sooner than feels polite. Growth you never claim quietly spoils."
+          },
+          "friction": {
+            "define": "Wood is your Action, and as a friction, it is roots gripping so hard that nothing new can be planted. Every choice defends what is already there: the savings, the routine, the safe client. The work stalls not from laziness but from holding on.",
+            "ledger": [
+              {
+                "word": "Root-bound",
+                "line": "You outgrow places and stay anyway. A pattern, not loyalty.",
+                "scene": "Same desk, same rate, same commute for five years, while the plant on that desk got repotted twice."
+              },
+              {
+                "word": "Risk-averse",
+                "line": "Weighing a risk is your reflex. Taking one almost never survives the weighing.",
+                "scene": "Three spreadsheets comparing the two jobs, and the reply that finally goes out is thanks, but not this year."
+              },
+              {
+                "word": "Inflexible",
+                "line": "Once your way works, it hardens into the only way.",
+                "scene": "The new tool sits unopened for a year because the old one still technically works. So does everyone else’s patience."
+              }
+            ],
+            "advise": "Security you never spend is just fear with a balance. Take one small risk each quarter, on purpose, with time or money you have already fenced off. Replace one worn method before it breaks on its own. Judge your way by its results, not its years of service."
+          }
+        }
+      },
+      {
+        "id": "木_七杀",
+        "key": "木_七杀",
+        "canonical_name": "The General",
+        "value": null
+      },
+      {
+        "id": "木_正官",
+        "key": "木_正官",
+        "canonical_name": "The Magistrate",
+        "value": null
+      },
+      {
+        "id": "木_偏印",
+        "key": "木_偏印",
+        "canonical_name": "The Alchemist",
+        "value": null
+      },
+      {
+        "id": "木_正印",
+        "key": "木_正印",
+        "canonical_name": "The Sage",
+        "value": null
+      },
+      {
+        "id": "水_比肩",
+        "key": "水_比肩",
+        "canonical_name": "The Twin",
+        "value": null
+      },
+      {
+        "id": "水_劫财",
+        "key": "水_劫财",
+        "canonical_name": "The Rival",
+        "value": null
+      },
+      {
+        "id": "水_食神",
+        "key": "水_食神",
+        "canonical_name": "The Artisan",
+        "value": {
+          "catalyst": {
+            "define": "Water is your Expression, and as a catalyst, it is output that flows without forcing. Words, cooking, small kindnesses, the mood of a room: whatever you give out moves easily and lands soft, and people are fed by it before they notice they were hungry.",
+            "ledger": [
+              {
+                "word": "Fluent",
+                "line": "Expressing comes to you the way walking does. No assembly required.",
+                "scene": "The toast you gave with zero notes is the one the couple still quotes. You forgot it by dessert."
+              },
+              {
+                "word": "Nourishing",
+                "line": "What you make leaves people fuller. A feature of everything you produce.",
+                "scene": "Friends arrive at your kitchen table wound tight and leave two hours later fed, lighter, and not sure what happened."
+              },
+              {
+                "word": "Easygoing",
+                "line": "Your tempo stays loose where others clench. A temperament, not laziness.",
+                "scene": "The flight is cancelled and you are the one at the counter making the agent laugh while everyone gets rebooked."
+              }
+            ],
+            "advise": "Ease is a gift right up until it dodges every hard thing. Pick one piece of what you make and finish it to done, not to pleasant. Say the awkward true sentence once a week, to the person it belongs to. Comfort that never risks anything eventually feeds no one."
+          },
+          "friction": {
+            "define": "Water is your Expression, and as a friction, it is output with no banks. Talent leaks into whatever is nearest: snacks, scrolling, pleasant company, half-made things. Nothing is wrong, exactly. That is the problem. Comfort keeps absorbing the effort your best work was waiting for.",
+            "ledger": [
+              {
+                "word": "Drifting",
+                "line": "You follow the day’s current instead of steering it. A habit, not an accident.",
+                "scene": "The Tuesday you planned to write became errands, a nap, and a show. Nobody chose it, which is the point."
+              },
+              {
+                "word": "Indulgent",
+                "line": "Treating yourself is your answer to most feelings.",
+                "scene": "Stress orders dessert, boredom opens the app, sadness books the trip. The card statement reads like a mood diary."
+              },
+              {
+                "word": "Unstirred",
+                "line": "It takes a lot to move you, and less would be better.",
+                "scene": "The deadline, the news, the argument all get the same shrug and the same tea, until one Thursday everything lands at once."
+              }
+            ],
+            "advise": "A river with no banks is a swamp, even a pleasant one. Give your talent one container: one project, one hour, the same time every day. Let yourself be bothered on purpose by one thing that matters. And make the treat follow the work, never replace it."
+          }
+        }
+      },
+      {
+        "id": "水_伤官",
+        "key": "水_伤官",
+        "canonical_name": "The Virtuoso",
+        "value": null
+      },
+      {
+        "id": "水_偏财",
+        "key": "水_偏财",
+        "canonical_name": "The Horizon",
+        "value": null
+      },
+      {
+        "id": "水_正财",
+        "key": "水_正财",
+        "canonical_name": "The Steward",
+        "value": null
+      },
+      {
+        "id": "水_七杀",
+        "key": "水_七杀",
+        "canonical_name": "The General",
+        "value": null
+      },
+      {
+        "id": "水_正官",
+        "key": "水_正官",
+        "canonical_name": "The Magistrate",
+        "value": null
+      },
+      {
+        "id": "水_偏印",
+        "key": "水_偏印",
+        "canonical_name": "The Alchemist",
+        "value": null
+      },
+      {
+        "id": "水_正印",
+        "key": "水_正印",
+        "canonical_name": "The Sage",
+        "value": null
+      },
+      {
+        "id": "火_比肩",
+        "key": "火_比肩",
+        "canonical_name": "The Twin",
+        "value": null
+      },
+      {
+        "id": "火_劫财",
+        "key": "火_劫财",
+        "canonical_name": "The Rival",
+        "value": null
+      },
+      {
+        "id": "火_食神",
+        "key": "火_食神",
+        "canonical_name": "The Artisan",
+        "value": null
+      },
+      {
+        "id": "火_伤官",
+        "key": "火_伤官",
+        "canonical_name": "The Virtuoso",
+        "value": null
+      },
+      {
+        "id": "火_偏财",
+        "key": "火_偏财",
+        "canonical_name": "The Horizon",
+        "value": null
+      },
+      {
+        "id": "火_正财",
+        "key": "火_正财",
+        "canonical_name": "The Steward",
+        "value": null
+      },
+      {
+        "id": "火_七杀",
+        "key": "火_七杀",
+        "canonical_name": "The General",
+        "value": {
+          "catalyst": {
+            "define": "Fire is your Order, and as a catalyst, it is command that arrives exactly when things fall apart. Pressure does not scatter you, it organizes you. Deadlines, emergencies, hard calls: the hotter the moment, the straighter your line through it.",
+            "ledger": [
+              {
+                "word": "Swift",
+                "line": "Deciding fast is native to you. Speed, not recklessness.",
+                "scene": "Ten people debating dinner for twenty minutes. You name the restaurant, stand up, and somehow everyone is relieved."
+              },
+              {
+                "word": "Daring",
+                "line": "You move toward what others edge away from. Wiring, not an act.",
+                "scene": "The hard phone call everyone dreads sits on your list one day, not three weeks. And it goes fine."
+              },
+              {
+                "word": "Crisis-ready",
+                "line": "Emergencies make you calmer. Your talent shows up when plans fail.",
+                "scene": "Power out, venue flooded, speaker sick, and you are the one with a working plan by the second sentence."
+              }
+            ],
+            "advise": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is not a waiting room. It is what the fighting was for."
+          },
+          "friction": {
+            "define": "Fire is your Order, and as a friction, it is command with the thermostat broken. Everything gets treated like an emergency, everyone like a subordinate, and the heat that once cut through problems starts cutting through people, then finally through you.",
+            "ledger": [
+              {
+                "word": "Scorching",
+                "line": "Your intensity marks people whether you mean it or not.",
+                "scene": "You called the work sloppy and forgot it by lunch. The person who heard it can still quote you a year later."
+              },
+              {
+                "word": "Domineering",
+                "line": "Taking charge is your reflex, even where nobody asked.",
+                "scene": "It is a family vacation, and there is somehow a schedule, a briefing, and a debrief. People start replying in one word."
+              },
+              {
+                "word": "Burned-out",
+                "line": "You run at full flame until the fuel simply ends. A cycle, not bad luck.",
+                "scene": "Three months of heroics, two weeks of not getting up, then apologies and the same three months again."
+              }
+            ],
+            "advise": "Command works best rationed. Before taking over, ask one question and wait for the whole answer. Rank the week’s fires and let the bottom three burn out alone. Schedule the rest before the crash schedules it for you. An order nobody can breathe in is not order."
+          }
+        }
+      },
+      {
+        "id": "火_正官",
+        "key": "火_正官",
+        "canonical_name": "The Magistrate",
+        "value": null
+      },
+      {
+        "id": "火_偏印",
+        "key": "火_偏印",
+        "canonical_name": "The Alchemist",
+        "value": null
+      },
+      {
+        "id": "火_正印",
+        "key": "火_正印",
+        "canonical_name": "The Sage",
+        "value": null
+      }
+    ]
+  }
+}

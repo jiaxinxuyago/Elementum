@@ -26,7 +26,6 @@
         "Cocooned"
       ]
     },
-    "adj_gloss": null,
     "k2_domain_readings": {
       "Knowledge": "Your knowledge is absorbed rather than studied: understanding soaked from every source you touch. You know more than your credentials admit. Let it surface. Springs are meant to be found.",
       "Shelter": "Your shelter is stillness: people pour out their storms and you hand back a level surface. That absorption has a cost curve. Drain what you take in somewhere safe.",
@@ -61,6 +60,7 @@
           }
         }
       }
-    }
+    },
+    "fn_reading": null
   }
 }

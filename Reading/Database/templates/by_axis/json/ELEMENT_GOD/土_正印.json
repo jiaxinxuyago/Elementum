@@ -26,7 +26,6 @@
         "Inert"
       ]
     },
-    "adj_gloss": null,
     "k2_domain_readings": {
       "Knowledge": "Your knowledge is settled sediment: practical wisdom layered by years, the kind villages consult. You know what actually works. Write the almanac down. Ground should not be the only copy.",
       "Shelter": "Your shelter is the family land itself: people return to you between every attempt at the world. Being home is holy work with no clock. Post seasons. Even land lies fallow.",
@@ -61,6 +60,7 @@
           }
         }
       }
-    }
+    },
+    "fn_reading": null
   }
 }

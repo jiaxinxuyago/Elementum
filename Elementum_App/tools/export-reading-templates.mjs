@@ -250,7 +250,9 @@ for (const el of ELS) for (const g of GODS) {
     k2_overview: k2.K2_CELLS[key]?.overview ?? null,
     k2_functional: k2.K2_CELLS[key]?.functional ?? null,
     adj_chips: k2.K2_CELLS[key]?.adj ?? null,
-    adj_gloss: k2.K2_CELLS[key]?.adjGloss ?? null,
+    // the god-grain function reading (owner 2026-09-03; adj_gloss retired
+    // unlocked, absorbed into fn_reading's ledger)
+    fn_reading: k2.K2_CELLS[key]?.fnReading ?? null,
     k2_domain_readings: k2.K2_CELLS[key]?.domain_readings ?? null,
     k2_card: {
       face: null, persona: null, chips: null, rulingDomain: null,

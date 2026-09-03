@@ -26,7 +26,6 @@
         "Unbudging"
       ]
     },
-    "adj_gloss": null,
     "k2_domain_readings": {
       "Wealth": "Your wealth is machined: earned exactly, kept polished, compounded without drama. You will never be flashy and never be broke. Invest in quality that holds its edge, including your own skills.",
       "Savings": "You save like an armorer: reserves as protection, kept bright and counted. The vault serves the life, so define what it defends, and spend without guilt inside those lines.",
@@ -61,6 +60,7 @@
           }
         }
       }
-    }
+    },
+    "fn_reading": null
   }
 }

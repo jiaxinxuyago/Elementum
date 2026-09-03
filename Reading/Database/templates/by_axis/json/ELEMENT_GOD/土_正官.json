@@ -26,7 +26,6 @@
         "Ossified"
       ]
     },
-    "adj_gloss": null,
     "k2_domain_readings": {
       "Career": "Your career is foundation work: operations, governance, the roles that hold everything up. Advancement comes as accumulated trust. Claim the title when it is due. Bedrock underasks.",
       "Status": "Your standing is landmark-grade: slow to build, nearly impossible to erode. People locate themselves by you. Accept the monument quietly and stay reachable at ground level.",
@@ -61,6 +60,7 @@
           }
         }
       }
-    }
+    },
+    "fn_reading": null
   }
 }

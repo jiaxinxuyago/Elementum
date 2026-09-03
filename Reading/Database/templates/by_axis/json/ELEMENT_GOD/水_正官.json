@@ -26,7 +26,6 @@
         "Current-bound"
       ]
     },
-    "adj_gloss": null,
     "k2_domain_readings": {
       "Career": "Your career advances by navigation: reading currents, timing passages, arriving at rank without visible strain. Diplomacy, coordination, the harbor-master roles. Your course is quiet and it compounds.",
       "Status": "Your standing spreads like watershed reputation: carried by word of mouth into places you have never been. Tend the source. Everything downstream tastes of it.",
@@ -61,6 +60,7 @@
           }
         }
       }
-    }
+    },
+    "fn_reading": null
   }
 }

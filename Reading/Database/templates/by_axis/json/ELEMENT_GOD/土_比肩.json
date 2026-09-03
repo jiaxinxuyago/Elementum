@@ -26,7 +26,6 @@
         "Set-apart"
       ]
     },
-    "adj_gloss": null,
     "k2_domain_readings": {
       "Peers": "Your peers are landholders like you: solid people with their own ground and no designs on yours. Trade help across fences freely. The neighbors you respect at seventy are the wealth this position promises.",
       "Independence": "Earth independence is owned ground: a home, a trade, a name that stands without cosigners. You will have it, because you refuse alternatives. Just leave a gate in the fence.",
@@ -61,6 +60,7 @@
           }
         }
       }
-    }
+    },
+    "fn_reading": null
   }
 }

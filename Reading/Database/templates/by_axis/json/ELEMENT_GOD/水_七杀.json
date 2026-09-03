@@ -26,7 +26,6 @@
         "Submerging"
       ]
     },
-    "adj_gloss": null,
     "k2_domain_readings": {
       "Pressure": "You convert pressure into depth: threats make you quieter and more exact. Beware pressure you keep underwater. Even oceans need to storm occasionally.",
       "Command": "You command by current: framing choices, shaping terrain, letting people arrive at your conclusion. It is masterful and unsettling. Show the hand sometimes. Trust grows where strategy is visible.",
@@ -61,6 +60,7 @@
           }
         }
       }
-    }
+    },
+    "fn_reading": null
   }
 }

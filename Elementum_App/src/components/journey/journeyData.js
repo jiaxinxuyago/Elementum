@@ -271,9 +271,6 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
     const pole = frictionSide ? 'friction' : 'catalyst';
     const cellAdj = (g) => K2_CELLS[`${r.hz}_${g}`]?.adj?.[pole];
     r.adj = cellAdj(r.god) || (frictionSide ? ADJ_FRICTION[r.god] : ADJ_CATALYST[r.god]) || [];
-    // the keyword LEDGER glosses (owner 2026-09-02) — index-aligned with
-    // r.adj; null until the ×45 batch lands (the view falls back to chips)
-    r.adjGloss = K2_CELLS[`${r.hz}_${r.god}`]?.adjGloss?.[pole] || null;
     r.adjPole = frictionSide ? 'fric' : 'cat';
     // v2.1 polarity faces, persona-enriched (owner merge-and-retire ruling
     // 2026-08-19: the element screen absorbs the faces page's polarity split).
@@ -421,20 +418,37 @@ export function buildElementScreen(model, el) {
     fnLabel,
     // the pair's cta_verdict — the COVER's meaning line (rung ②)
     verdict: pair?.cta_verdict || '',
-    // v3 definitions (owner re-org 2026-09-02): the role-resolved FULL
-    // function reading (3 ¶, \n\n separated) lives on its own detail page;
-    // the card shows the DERIVED teaser (the reading's first sentence).
+    // THE GOD-GRAIN FUNCTION READING (owner 2026-09-03): the full reading
+    // (define ¶ · 3-beat keyword ledger · advise ¶) lives on the ELEMENT×GOD
+    // axis so it derives from the chart's LEAD ten-god (a 偏印-lead Earth
+    // reads 土_偏印, never 土_正印). The pair-grain v3 definition stays as
+    // the fallback until the ×90 batch lands. Card teaser = first sentence.
     ...((() => {
-      const raw = fn ? (((r.role === 'friction' || r.coreExcess) ? fn.definition_friction : fn.definition_catalyst) || fn.body || '') : '';
+      const pole = (r.role === 'friction' || r.coreExcess) ? 'friction' : 'catalyst';
+      const cellFn = K2_CELLS[`${r.hz}_${r.god}`]?.fnReading?.[pole] || null;
+      const raw = cellFn ? cellFn.define
+        : fn ? ((pole === 'friction' ? fn.definition_friction : fn.definition_catalyst) || fn.body || '') : '';
       // display de-dup (owner 2026-09-02): the claim TITLES the section now,
       // so the reading renders with its claim clause stripped — "As a
       // friction, it is intake…" / "Running over, it is…". Corpus untouched.
       const prefix = `${r.name} is your ${fnLabel}, and `;
       const rest = raw.startsWith(prefix) ? raw.slice(prefix.length) : null;
-      const fnDef = rest ? rest.charAt(0).toUpperCase() + rest.slice(1) : raw;
-      const dot = fnDef.indexOf('.');
-      return { fnDef, fnTeaser: dot > 0 ? fnDef.slice(0, dot + 1) : fnDef };
+      const stripped = rest ? rest.charAt(0).toUpperCase() + rest.slice(1) : raw;
+      const dot = stripped.indexOf('.');
+      return {
+        fnReading: cellFn ? { define: stripped, ledger: cellFn.ledger, advise: cellFn.advise } : null,
+        fnDef: cellFn ? '' : stripped,
+        fnTeaser: dot > 0 ? stripped.slice(0, dot + 1) : stripped,
+      };
     })()),
+    // THE FACE SPLIT (owner 2026-09-03, option 2): a two-faced element keeps
+    // the lead face's reading, plus ONE derived line naming the polarity
+    // split with engine weights and pointing at the minority face's Domains
+    // god block. Zero authored corpus.
+    faceSplit: (r.faces || []).length > 1 ? (() => {
+      const [lead, minor] = r.faces;
+      return `Your ${r.name} runs two temperaments: mostly ${lead.persona} (${lead.god} ${lead.share}%), with a streak of ${minor.persona} (${minor.god} ${minor.share}%). Meet ${minor.persona} under The Domains.`;
+    })() : null,
     // THE DIAGNOSIS (owner 2026-09-01): the logic chain spoken — core state ×
     // chemistry direction → catalyst/friction → directive. Templated derived
     // vocabulary (no authored corpus); the graphic shows the same equation.

@@ -26,7 +26,6 @@
         "Uncontainable"
       ]
     },
-    "adj_gloss": null,
     "k2_domain_readings": {
       "Talent": "Your talent is fluid genius: writing, strategy, humor, any craft where thought must flow around form. It resists containers and needs them. Choose loose ones, essays, seasons, series, and pour.",
       "Performance": "You perform by currents: the essay that spreads, the remark that travels. Your stage is wherever words flow. Publish more, polish less. Rivers are judged by movement, not by stillness.",
@@ -61,6 +60,7 @@
           }
         }
       }
-    }
+    },
+    "fn_reading": null
   }
 }

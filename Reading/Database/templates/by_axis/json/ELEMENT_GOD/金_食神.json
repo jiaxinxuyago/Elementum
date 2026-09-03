@@ -26,7 +26,6 @@
         "Dulled"
       ]
     },
-    "adj_gloss": null,
     "k2_domain_readings": {
       "Expression": "Your expression is craftsmanship: things made exactly, words placed cleanly, taste visible in every output. You do not need volume. One finished piece says what an hour of talk cannot, so keep finishing pieces.",
       "Enjoyment": "You enjoy like a connoisseur of the specific: the correct knife, the true note, the single well-made thing. Fund those pleasures without guilt. Precision delight is how this energy refuels its edge.",
@@ -61,6 +60,7 @@
           }
         }
       }
-    }
+    },
+    "fn_reading": null
   }
 }
