@@ -196,7 +196,28 @@
 
 | Field | Value |
 |---|---|
-| `value` | *(unauthored)* |
+| `catalyst.define` | Wood is your Action, and as a catalyst, it is growth that spreads instead of climbs. Opportunity shows up as branches: the side project, the second market, the friend of a friend. You reach in several directions at once, and somewhere out there, something is always ripening. |
+| `catalyst.ledger[0].word` | Wide-branching |
+| `catalyst.ledger[0].line` | Your effort naturally runs in several directions at once. |
+| `catalyst.ledger[0].scene` | Three ventures, two cities, one calendar. Somehow the overlaps feed each other instead of colliding. |
+| `catalyst.ledger[1].word` | Enterprising |
+| `catalyst.ledger[1].line` | You see the opening before others see the wall. |
+| `catalyst.ledger[1].scene` | The empty lot everyone walks past has, in your head, already been a café for a year. |
+| `catalyst.ledger[2].word` | Open-handed |
+| `catalyst.ledger[2].line` | Money moves through you easily, and it tends to come back. |
+| `catalyst.ledger[2].scene` | You covered the dinner, funded the cousin, seeded the friend. Half of it returned doubled, none of it was missed. |
+| `catalyst.advise` | Spreading trees still need a trunk. Keep one steady venture that pays for the experiments, and review the branches twice a year: feed the two that fruit, cut the rest without ceremony. Generosity works best on a budget it never has to apologize for. |
+| `friction.define` | Wood is your Action, and as a friction, it is growth in every direction and a harvest in none. New branches keep starting: projects, plans, half-planted ventures. Each one takes a little light, and together they take all of it. Nothing gets enough to ripen. |
+| `friction.ledger[0].word` | Scattered |
+| `friction.ledger[0].line` | Starting is your talent. Staying is the tax you keep dodging. |
+| `friction.ledger[0].scene` | Four projects at forty percent. The oldest one only needed two more weekends, eight months ago. |
+| `friction.ledger[1].word` | Overgrown |
+| `friction.ledger[1].line` | You add commitments the way a hedge adds branches, without asking the roots. |
+| `friction.ledger[1].scene` | The calendar has no white left in it, and half the entries are things you volunteered for while busy. |
+| `friction.ledger[2].word` | Fickle |
+| `friction.ledger[2].line` | Your interest peaks early and moves on before the results arrive. |
+| `friction.ledger[2].scene` | The guitar, the course, the market stall: each got six brilliant weeks and then a quiet shelf. |
+| `friction.advise` | A field of sprouts feeds no one. Pick the two branches that matter and give them the season. Before starting anything new, finish or formally kill one old thing, and say the ending out loud. Fewer directions is not a smaller life. It is how fruit happens. |
 
 ### The Steward · 木_正财
 

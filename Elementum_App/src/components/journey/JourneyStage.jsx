@@ -740,19 +740,20 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     {elScreen.fnReading ? (
                       <>
                         {/* THE GOD-GRAIN READING (owner 2026-09-03): define ¶
-                            → the 3-beat keyword LEDGER (defining line + scene)
-                            → advise ¶ → the derived face-split line when the
-                            element carries both polarity faces */}
+                            → the face-split PREAMBLE (two-faced elements) →
+                            the dominance-WEIGHTED keyword LEDGER (2+1 / 2+2 /
+                            3 rows, god-tagged when spanning both faces) →
+                            advise ¶ (lead god's prescription) */}
                         <p className="body2 el-fnbody" style={{ margin: '8px 0 0' }}>{elScreen.fnReading.define}</p>
-                        <div className="el-fnledger">
-                          {elScreen.fnReading.ledger.map((row) => (
-                            <p className="body2 el-funcrow" key={row.word} style={{ margin: '9px 0 0' }}><b className="el-funclab">{row.word}.</b> {row.line} {row.scene}</p>
-                          ))}
-                        </div>
-                        <p className="body2 el-fnbody" style={{ margin: '9px 0 0' }}>{elScreen.fnReading.advise}</p>
                         {elScreen.faceSplit && (
                           <p className="body2 el-facesplit">{elScreen.faceSplit}</p>
                         )}
+                        <div className="el-fnledger">
+                          {elScreen.fnReading.ledger.map((row) => (
+                            <p className="body2 el-funcrow" key={row.word} style={{ margin: '9px 0 0' }}><b className="el-funclab">{row.word}.</b>{row.god && <span className="el-godtag">{row.god}</span>} {row.line} {row.scene}</p>
+                          ))}
+                        </div>
+                        <p className="body2 el-fnbody" style={{ margin: '9px 0 0' }}>{elScreen.fnReading.advise}</p>
                       </>
                     ) : (
                       <>

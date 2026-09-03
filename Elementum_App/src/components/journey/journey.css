@@ -2813,9 +2813,11 @@
 .jny .el-heroart{ position: relative; overflow: hidden; border-radius: 12px; margin: 0 0 10px; }
 /* the personality keywords on the FUNCTION section (owner 2026-09-02) */
 .jny .el-fnadj{ margin: 2px 0 2px; }
-/* the FACE-SPLIT line (owner 2026-09-03): two-faced elements acknowledge the
-   minority polarity face after the god-grain reading */
-.jny .el-facesplit{ margin: 12px 0 0; padding-top: 9px; border-top: 1px solid var(--hairline, rgba(60,50,40,.14)); color: var(--inkSoft, #6b6156); }
+/* the FACE-SPLIT line as the ledger preamble (owner 2026-09-03): two-faced
+   elements name the polarity composition before the weighted ledger */
+.jny .el-facesplit{ margin: 10px 0 0; color: var(--inkSoft, #6b6156); }
+/* the ledger rows' god tag — renders only when the set spans both faces */
+.jny .el-godtag{ font-family: 'Noto Serif SC', serif; font-size: 10.5px; color: var(--bronzeDark); margin: 0 4px 0 3px; }
 /* the classical epigraph (mechanism v2, owner 2026-09-02) */
 .jny .el-classic{ margin: 12px 0 0; text-align: center; font-family: 'Noto Serif SC', serif;
     font-size: 15px; letter-spacing: 2px; color: var(--bronzeDark); }

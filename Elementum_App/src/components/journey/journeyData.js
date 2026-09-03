@@ -285,6 +285,31 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
       adj: cellAdj(f.god) || (frictionSide ? ADJ_FRICTION[f.god] : ADJ_CATALYST[f.god]) || [],
       teaser: FACE_CARD[f.god]?.teaser || '',
     }));
+    // THE WEIGHTED LEDGER (owner rulings ×4, 2026-09-03): the function
+    // ledger carries the element's FULL polarity composition, dominance-
+    // weighted — lead face ≥60%: 2 lead rows + 1 minority row · balanced
+    // (<60%): 2+2 · single face: 3. Rank convention: authored chip order =
+    // significance order, so top-N selection is deterministic. Card chips =
+    // the ledger's words (rung identity — 4 chips on balanced elements).
+    // Rows carry their god only when the set spans both faces (tag renders);
+    // an unbatched minority cell falls back to the lead's 3 untagged rows.
+    const cellReading = (g) => K2_CELLS[`${r.hz}_${g}`]?.fnReading?.[pole] || null;
+    const leadRd = cellReading(r.god);
+    r.fnRows = null;
+    if (leadRd) {
+      const minor = r.faces.length > 1 ? r.faces[1] : null;
+      const minorRd = minor ? cellReading(minor.god) : null;
+      if (minorRd) {
+        const nMinor = r.faces[0].share < 60 ? 2 : 1;
+        r.fnRows = [
+          ...leadRd.ledger.slice(0, 2).map((row) => ({ ...row, god: r.god })),
+          ...minorRd.ledger.slice(0, nMinor).map((row) => ({ ...row, god: minor.god })),
+        ];
+      } else {
+        r.fnRows = leadRd.ledger.map((row) => ({ ...row, god: null }));
+      }
+      r.adj = r.fnRows.map((row) => row.word);
+    }
     r.chips = [];
     if (r.isCore) r.chips.push({ k: 'core', label: 'Core' });
     if (r.role === 'friction' || r.coreExcess) r.chips.push({ k: 'fric', label: 'Friction' });
@@ -436,18 +461,23 @@ export function buildElementScreen(model, el) {
       const stripped = rest ? rest.charAt(0).toUpperCase() + rest.slice(1) : raw;
       const dot = stripped.indexOf('.');
       return {
-        fnReading: cellFn ? { define: stripped, ledger: cellFn.ledger, advise: cellFn.advise } : null,
+        fnReading: cellFn ? { define: stripped, ledger: r.fnRows || cellFn.ledger, advise: cellFn.advise } : null,
         fnDef: cellFn ? '' : stripped,
         fnTeaser: dot > 0 ? stripped.slice(0, dot + 1) : stripped,
       };
     })()),
-    // THE FACE SPLIT (owner 2026-09-03, option 2): a two-faced element keeps
-    // the lead face's reading, plus ONE derived line naming the polarity
-    // split with engine weights and pointing at the minority face's Domains
-    // god block. Zero authored corpus.
+    // THE FACE SPLIT as the LEDGER PREAMBLE (owner 2026-09-03, option 2 +
+    // the weighted-ledger rulings): a two-faced element's split line names
+    // the polarity composition with engine weights and introduces the
+    // blended ledger ("Both mark your Action:"). While the minority cell is
+    // unbatched the rows can't blend, so the line keeps the pointer form.
     faceSplit: (r.faces || []).length > 1 ? (() => {
       const [lead, minor] = r.faces;
-      return `Your ${r.name} runs two temperaments: mostly ${lead.persona} (${lead.god} ${lead.share}%), with a streak of ${minor.persona} (${minor.god} ${minor.share}%). Meet ${minor.persona} under The Domains.`;
+      const spans = !!(r.fnRows && r.fnRows.some((row) => row.god === minor.god));
+      if (!spans) return `Your ${r.name} runs two temperaments: mostly ${lead.persona} (${lead.god} ${lead.share}%), with a streak of ${minor.persona} (${minor.god} ${minor.share}%). Meet ${minor.persona} under The Domains.`;
+      return lead.share < 60
+        ? `Your ${r.name} runs two temperaments in near-equal measure: ${lead.persona} (${lead.god} ${lead.share}%) and ${minor.persona} (${minor.god} ${minor.share}%). Both mark your ${fnLabel}:`
+        : `Your ${r.name} runs two temperaments: mostly ${lead.persona} (${lead.god} ${lead.share}%), with a streak of ${minor.persona} (${minor.god} ${minor.share}%). Both mark your ${fnLabel}:`;
     })() : null,
     // THE DIAGNOSIS (owner 2026-09-01): the logic chain spoken — core state ×
     // chemistry direction → catalyst/friction → directive. Templated derived
