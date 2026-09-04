@@ -476,10 +476,10 @@ export function buildElementScreen(model, el) {
       const prefix = `${r.name} is your ${fnLabel}, and `;
       const rest = raw.startsWith(prefix) ? raw.slice(prefix.length) : null;
       const stripped = rest ? rest.charAt(0).toUpperCase() + rest.slice(1) : raw;
-      const dot = stripped.indexOf('.');
+      // (the derived first-sentence teaser retired 2026-09-04 — the FUNCTION
+      // tile's meaning line is the authored cta_verdict, owner ruling)
       return {
         fnReading: fn ? { define: stripped, ledger: r.fnRows, advise: fn[`advise_${pole}`] || '' } : null,
-        fnTeaser: dot > 0 ? stripped.slice(0, dot + 1) : stripped,
       };
     })()),
     // (FACE-SPLIT line + ledger god tags RETIRED the day they shipped —

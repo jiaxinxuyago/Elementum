@@ -660,14 +660,18 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     <span className="readcirc sm el-goarrow"><Use id="ico-arrow-r" /></span>
                   </button>
                 )}
-                {/* THE FUNCTION card (owner re-org 2026-09-02): the derived
-                    teaser — the full reading opens on its own detail page */}
-                {elScreen.fnTeaser && (
+                {/* THE FUNCTION card (owner re-org 2026-09-02; teaser re-ruled
+                    2026-09-04): the tile's meaning line is the AUTHORED
+                    cta_verdict — the derived first-sentence teaser duplicated
+                    the reading's own opener on tap-in, so the tile hooks and
+                    the detail opens fresh. The verdict also lives on the dot
+                    cover; the cover is transient, this is the standing entry. */}
+                {elScreen.verdict && (
                   <button className="cardstock el-tease goa" onClick={() => openSec('fn')}>
                     <span className="laylab">THE FUNCTION</span>
                     {/* the claim line is THIS section's title (owner 2026-09-02) */}
                     <span className="serifline el-teasetitle">{elScreen.elName} is your {elScreen.fnLabel}.</span>
-                    <span className="el-teasep" style={{ marginTop: 2 }}>{elScreen.fnTeaser}</span>
+                    <span className="el-teasep" style={{ marginTop: 2 }}>{elScreen.verdict}</span>
                     {/* the personality keywords close the text block (owner
                         2026-09-02: below the paragraph, like the cover) */}
                     {m.byEl[elScreen.el].adj?.length ? (
