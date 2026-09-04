@@ -23,7 +23,7 @@
       "friction": [
         "Complacent",
         "Sluggish",
-        "Cosseted"
+        "Pampered"
       ]
     },
     "k2_domain_readings": {
@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Hearty",
+            "doors": {
+              "trait": "Your warmth arrives in generous portions, seconds included. The laugh is real and audible from the driveway, the welcome fills doorways, the food comes in servings that assume everyone is recovering from something. People leave your presence heavier and lighter at the same time.",
+              "scene": "You hugged the departing intern on their last day and they cried, then laughed, then took the container of food you had somehow prepared. It was a Tuesday. Nobody else had planned anything. Your goodbyes just come catered, and people remember them for years.",
+              "outside": "Invitations to yours get accepted at a suspiciously high rate, and everyone brings appetites they deny elsewhere. Around your table, people eat like their grandmother is watching and talk like nobody is. The recipe everyone asks for is not really the food."
+            }
+          },
+          {
+            "word": "Settled",
+            "doors": {
+              "trait": "Contentment came to you early and never left. The house is enough, the work is enough, tonight’s dinner is a small event worth savoring out loud. Peace like yours reads as quietly radical among people who are permanently mid-upgrade.",
+              "scene": "Friends came over agitated about the market, the election, the everything, and left three hours later having discussed tomatoes, an old trip, and a plan for soup. Nothing was solved. Everything was better. Your kitchen table does this reliably, and nobody can explain the mechanism.",
+              "outside": "People visit you the way city dwellers visit the countryside, to remember a pace exists. Your unhurried answers slow their breathing within the hour. More than one friend has admitted planning a hard week around a stop at your place, medicinal and unofficial."
+            }
+          },
+          {
+            "word": "Providing",
+            "doors": {
+              "trait": "Feeding people, literally and otherwise, is your default expression of everything. Congratulations come as dinner, condolences as casserole, apology as pie. Words were never quite your instrument. The stocked plate says what you mean with better grammar than you ever found.",
+              "scene": "When the neighbors’ kitchen flooded, dinner appeared on their porch for six consecutive nights, different each night, unsigned after the second. They knew. Everyone always knows. The seventh night they came to your door with the empty dishes and stayed three hours.",
+              "outside": "There is a shelf of your containers in half the kitchens on the street, waiting to be returned, in no hurry. People measure crises partly by whether your food showed up. It always has, which is why nobody around you fully believes in worst cases."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Complacent",
+            "doors": {
+              "trait": "Good enough arrived years ago and you parked there. The skills plateaued where the applause got comfortable, the menu settled into rotation, the questions you ask the world got smaller. Nothing is wrong. That is the anesthetic, and it is working.",
+              "scene": "The restaurant changed its menu and you grieved for a week, which was the biggest event of your quarter. The novel sits half-read since spring. Asked what is new, you laughed and said nothing, thank goodness. Part of you checked whether that was still funny.",
+              "outside": "People stopped inviting you to the ambitious things, the course, the climb, the startup, because your no had become furniture. They meet you where you are, fondly, forever. Somewhere in the fondness is a question nobody asks out loud anymore: what would it take."
+            }
+          },
+          {
+            "word": "Sluggish",
+            "doors": {
+              "trait": "Your engine idles low, and everything discretionary waits behind it. The reply sits, the errand rolls to next week, the project gathers a soft dust. It is never refusal, just a body that treats urgency as a rumor and momentum as an occasional guest.",
+              "scene": "The two-minute form took eleven days, which even you found funny once it was done. In between, the reminder emails arrived, were read from bed, and joined the queue. Nothing bad happened. Nothing bad ever quite happens, which keeps the idle running.",
+              "outside": "People pad every request to you with a week, automatically, the way builders pad quotes. The padding works, mostly, and its existence never gets mentioned to your face. Deadlines that genuinely matter get routed to faster hands, along with, quietly, the credit."
+            }
+          },
+          {
+            "word": "Pampered",
+            "doors": {
+              "trait": "Comfort is your climate, and discomfort gets treated as a system error. The thermostat, the cushions, the snacks within reach of the good chair: your setup absorbs effort before effort forms. Convenience was the reward once. Somewhere along the way it became the requirement.",
+              "scene": "The camping trip died in the planning stage, again, on the pillow question. There is a version of you that would have loved the campfire. He was outvoted by the version who knows the good chair, the near snacks, and exactly how far the blanket reaches.",
+              "outside": "Loved ones arrange the world around your comforts with amused precision, the right chair saved, the schedule bent around your naps. It is done with love and a faint tiredness. Adventures get planned in sizes that fit inside your comfort, which is to say, small."
+            }
+          }
+        ]
+      }
+    }
   }
 }

@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-lit",
+            "doors": {
+              "trait": "Your fire needs no external ignition. Motivation, celebration, recovery: all generated onboard, on your schedule, from your own fuel. Gray seasons that dim everyone else find your output unchanged, and people eventually ask where the switch is. There is no switch. There is just you, on.",
+              "scene": "The whole team went flat after the funding fell through, and you came in Monday running on the same setting as always, working the plan, playing your music. By Wednesday two others had re-lit off your example. Nobody discussed it. Flame transfers that way, wordlessly.",
+              "outside": "People keep expecting your energy to trace back to something: the routine, the diet, the secret. They audit your habits and find nothing transferable. The light is simply factory-installed, and the people who winter near you have learned to stop explaining it and start standing closer."
+            }
+          },
+          {
+            "word": "Vivid",
+            "doors": {
+              "trait": "You register at full saturation. The laugh is audible, the shirt is the orange one, the opinion arrives in primary colors: nothing about you is beige, and memory holds you accordingly. People forget entire parties but not the twenty minutes you were at them.",
+              "scene": "The new client met fourteen people at the mixer and, a week later, could name one. The follow-up email opened with a reference to your story about the ferry, told once, at volume, near the snacks. The account landed partly on that ferry. Color closes.",
+              "outside": "Descriptions of you never require clarification. Say your first name in any group you have crossed and faces do the same thing: light slightly, ready an anecdote. Being unmistakable is its own infrastructure, and yours was built without a brand consultant, loudly, one vivid appearance at a time."
+            }
+          },
+          {
+            "word": "Undimmed",
+            "doors": {
+              "trait": "Setbacks that lower other people’s flames leave your wattage stubbornly constant. The rejection, the rough year, the public stumble: each arrives expecting to find a dimmer switch and finds instead a person already back at brightness, slightly annoyed at the interruption.",
+              "scene": "The restaurant failed in March, publicly, expensively, and by June you were catering weddings out of a rented kitchen with the same menu and better margins. People kept waiting for the humbled chapter. You skipped it, apparently unaware it was scheduled, and the food got better.",
+              "outside": "People measure resilience against you and quietly retire the word for themselves. Your relights after failure have become local legend: same heat, new venue, no visible scar tissue. Investors who lost money on your last thing keep asking about your next one. Light like yours audits well."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Prideful",
+            "doors": {
+              "trait": "Your flame refuses to be seen flickering. The struggle stays private, the help gets declined at the door, the apology exits in a dialect nobody recognizes as one. Being impressive is mandatory, being witnessed mid-failure is not survivable, and the policy costs you exactly what it protects.",
+              "scene": "The business wobbled for five months before anyone knew, because the version of you at dinners kept performing success on schedule. When the closure finally announced itself, friends were hurt in an unexpected direction: you had let them toast a ghost. The pride had spent their trust.",
+              "outside": "People edit their offers of help into compliments before approaching you, a translation service everyone runs and nobody acknowledges. Your worst seasons are visible only in hindsight, dated by gaps in the photo record. The support you never requested was available the whole time, warming nobody."
+            }
+          },
+          {
+            "word": "Flaring",
+            "doors": {
+              "trait": "Your reactions overshoot the trigger. The mild critique gets a flare, the small delay gets a scene, the joke at your expense gets a response sized for slander. The brightness that makes you magnetic makes your anger theatrical, and audiences remember theater far longer than causes.",
+              "scene": "The waiter brought the wrong dish and the table got a demonstration nobody ordered: voice up, comparisons drawn, a manager summoned over rice. The dish was fixed in four minutes. The evening was not. Your date married someone else, eventually, and still tells the rice story.",
+              "outside": "People curate what reaches you, sanding down feedback and delaying bad news for calm windows that keep not arriving. You experience the filtered world as respect. It is actually flame management, run by committee, and the committee is tired and very good at its job now."
+            }
+          },
+          {
+            "word": "Unapproachable",
+            "doors": {
+              "trait": "Your brightness reads as a closed door. The confidence, the speed, the shine: together they build a glare people squint at from a distance, assuming you need nothing and no one. Invitations to depth stopped arriving years ago. Everyone assumed someone else was providing it.",
+              "scene": "At your lowest week in years, the phone stayed silent, and you realized the silence was your own engineering: a decade of seeming complete had trained everyone out of checking. The one friend who did call apologized twice for intruding. You were, you said brightly, fine.",
+              "outside": "New people orbit you at a fixed radius, warmed but not close, sensing no docking port in all that light. The intimates you do have all report the same onboarding: years of proximity before the first real conversation. Most people, understandably, settle for the glow and drift."
+            }
+          }
+        ]
+      }
+    }
   }
 }

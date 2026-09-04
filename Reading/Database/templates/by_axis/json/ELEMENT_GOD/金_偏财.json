@@ -18,11 +18,11 @@
       "catalyst": [
         "Quick-eyed",
         "Polished",
-        "Venturesome"
+        "Adventurous"
       ],
       "friction": [
         "Mercenary",
-        "Acquisitive",
+        "Grabby",
         "Restless"
       ]
     },
@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Quick-eyed",
+            "doors": {
+              "trait": "Value flashes at you from clutter. The underpriced watch in the junk tray, the mispriced listing at midnight, the talented kid in the noisy audition: your eye sorts faster than markets do, and the gap between seeing and everyone-else-seeing is where your margins live.",
+              "scene": "At the estate sale you walked past forty tables, lifted one ugly lamp, and paid nine dollars for what the auction house later confirmed at twelve hundred. The seller was happy. You were happy. The dealers who arrived an hour earlier still discuss the lamp.",
+              "outside": "Friends send you photos before buying anything used: the car, the sofa, the ring. Your calls come back in seconds, are rarely wrong, and have saved your circle a documented fortune. Somebody proposed paying you a retainer once. You declined and appraised their offer instead, accurately."
+            }
+          },
+          {
+            "word": "Polished",
+            "doors": {
+              "trait": "Your presentation is machined smooth. The shoes, the phrasing, the follow-up note: every surface catches light, and doors open on the shine before your substance says a word. People assume expensive training. It is actually maintenance, done privately, to standards nobody imposed but you.",
+              "scene": "You were the least qualified person in the final round and the offer came to you, a fact the recruiter later explained with unusual honesty: everyone answered similarly, and you were the answer they could picture in front of clients tomorrow. The picture closed. It usually does.",
+              "outside": "People upgrade their own presentation after time around you, quietly: the better email sign-off, the pressed shirt, the pause before answering. You set finish standards without announcing any. Rough talent gets sent to you for polishing the way stones get sent to tumblers, and emerges bookable."
+            }
+          },
+          {
+            "word": "Adventurous",
+            "doors": {
+              "trait": "New territory pulls you the way bargains pull collectors. The unlisted trail, the menu with no translation, the market nobody in your industry has priced: you go first, pay the entry costs cheerfully, and return with either treasure or material. Both spend well at dinner.",
+              "scene": "The detour that made the whole trip was your call: off the itinerary, down the unmarked coast road, into the town where the festival happened to be. The group still ranks that accidental evening above everything planned. Your navigation method, they note, was curiosity at full speed.",
+              "outside": "People position themselves near your plans the way surfers position near reefs, knowing something will break interestingly. Half your friendships were formed mid-adventure, welded by weather and wrong turns. The stories that open every reunion have one census result: you are in nearly all of them."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Mercenary",
+            "doors": {
+              "trait": "Every relationship carries a price tag only you can see. The friendship with useful contacts, the favor with its invoice pre-drafted, the warmth calibrated to net worth: your attention follows value with an honesty that would be refreshing if anyone enjoyed being an asset.",
+              "scene": "Your outreach pattern got noticed by a friend between jobs: three unanswered months, then a same-day reply once his new title went live. He tested it twice more over the years. The correlation held. He keeps you in his phone under a label that is not your name.",
+              "outside": "People experience your interest as a market signal and check what changed in their circumstances when you warm up. The network you built this way is wide, efficient, and thin, and it prices you back: when your own value dipped two years ago, the inbox went quiet, symmetrically."
+            }
+          },
+          {
+            "word": "Grabby",
+            "doors": {
+              "trait": "Yours expands to include whatever is near it. The last slice claimed while offering it, the shared discount used first, the group opportunity that becomes your opportunity by speed of hand. Each individual grab is small and deniable. The pattern has a reputation with its own chair.",
+              "scene": "The sample sale had a two-per-person limit, and your six, acquired through charm and a borrowed cousin, became the story the group told afterward, fondly at first. At the next sale, notably, nobody texted you the address. You found out from the shopping bags.",
+              "outside": "People count, around you: the split bill, the shared points, the credit on the joint project. They never used to count. The counting started at specific remembered moments, one per relationship, each involving your hand reaching something first. Everything since has been arithmetic with a memory."
+            }
+          },
+          {
+            "word": "Restless",
+            "doors": {
+              "trait": "Stillness costs you more than motion. The good position gets abandoned at its plateau, the profitable arrangement gets renegotiated out of boredom, the sure thing loses to the next thing on novelty alone. Your escape velocity is magnificent. Your orbits never complete.",
+              "scene": "The role was perfect for eighteen months, which your resume confirms is your standard tenure, seven entries deep. The recruiter flagged the pattern gently. You explained each move persuasively, as always. She listened, nodded, and wrote one word on her pad. You have wondered since what it was.",
+              "outside": "People hesitate to build anything long on you, having watched the eighteen-month clock run before. Partnerships offer you sprints, landlords remember you, and your own accountant keeps your files in the active drawer permanently. The freedom is real. The compounding it keeps interrupting is also real."
+            }
+          }
+        ]
+      }
+    }
   }
 }

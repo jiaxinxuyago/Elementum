@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Silver-tongued",
+            "doors": {
+              "trait": "Words obey you the way water obeys gravity, finding every gap and pouring through beautifully. You talk people into things, out of things, and around things, and they enjoy the ride even when they can see the technique. Persuasion this smooth stopped being learned long ago. It flows.",
+              "scene": "The refund was against policy, the agent had said no twice, and four minutes into your version of events she was laughing and typing an exception. On the way out you tipped generously, which is your habit after winning. The technique pays its taxes.",
+              "outside": "Friends bring you along to negotiations the way people bring jumper cables, just in case. Sellers quote you one price and agree to another, later, unsure how the distance was crossed. The recordings would show nothing but pleasant conversation. That is the whole trick."
+            }
+          },
+          {
+            "word": "Inspired",
+            "doors": {
+              "trait": "Ideas arrive in you like spring water, from somewhere underground and always moving. Mid-shower, mid-sentence, mid-commute: the notion appears whole, strange, and usually good. You have learned to keep something to write with everywhere, including the glovebox and the shower wall.",
+              "scene": "The campaign that carried the year was dictated into your phone at a red light, complete with the tagline, in ninety seconds. The agency had been circling it for a month. You apologized for the audio quality. Nobody heard the apology over the applause.",
+              "outside": "Colleagues have learned to schedule brainstorms around your presence, then pretend they did not. With you in the region, the whiteboard fills differently. Where the ideas come from, nobody knows, including you. That they keep coming is the only data anyone needs."
+            }
+          },
+          {
+            "word": "Free-flowing",
+            "doors": {
+              "trait": "Your expression pours without a container. Conversation, writing, jokes, comfort: it all moves in one continuous current, adjusting shape to whatever bank it meets. Blocks that stop other people for weeks read to you as rumors. You have never actually met one.",
+              "scene": "The wedding speech was written in the car, the toast at the table, and the eulogy, the hard one, on the morning itself, each in one take. People assume drafts exist. There are no drafts. There is a tap, and it has never once refused to open.",
+              "outside": "People near you talk more than they meant to and better than they usually do, pulled along by a current they did not notice entering. Conversations with you get quoted later. Somebody once recorded a dinner, just to keep the sound of it moving."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Corrosive",
+            "doors": {
+              "trait": "Your words work on people the way water works on iron, slowly, invisibly, and completely. The little digs, the accurate observations shared at the wrong moment, the humor with acid in it: nothing dramatic, ever. Just gradual damage that everyone attributes to time.",
+              "scene": "You have a nickname for a coworker that is funny, accurate, and has quietly followed them through two promotions like rust. You would be startled to learn they know it exists. They have known for three years. It reached them in an afternoon.",
+              "outside": "People leave conversations with you feeling slightly reduced and unable to file a complaint, since every individual sentence was technically fine. The effect is cumulative, like weather on a statue. Old friends have weathered into acquaintances without either of you naming the process."
+            }
+          },
+          {
+            "word": "Mocking",
+            "doors": {
+              "trait": "Ridicule is your reflex response to sincerity, including your own. The earnest attempt, the heartfelt post, the brave little dream: something in you must comment, and the comment must have teeth. Everything is material. The people who love you have learned to bring their material pre-shrunk.",
+              "scene": "Your brother announced the marathon plan and your impression of his jogging arrived within the minute, flawless and fatal. The table laughed. He ran it anyway, eight months later, and you noticed your invitation to the finish line had gone to other people.",
+              "outside": "Around you, people announce less. The promotions get mentioned after the fact, the engagements are revealed in safe company, the drafts stay in drawers. You experience this as being spared the boring parts. It is actually the sound of doors, closing gently, at scale."
+            }
+          },
+          {
+            "word": "Uncontainable",
+            "doors": {
+              "trait": "What you know, feel, or suspect will exit your mouth, and timing has no vote. The secret, the observation, the truth the dinner was structured around avoiding: your current finds the crack. Afterward you apologize sincerely, which changes nothing about the flood next time.",
+              "scene": "The surprise party survived until you saw the birthday girl on Tuesday, at which point your face and then your mouth handed over everything. Four weeks of planning, undone in nine seconds. You felt terrible. You also, everyone noted, felt terrible audibly and at length.",
+              "outside": "Friends now sort information into what you can hold, a short list, and what you cannot, everything else. Being trusted less hurts you, genuinely. But the leak record reads like a tide table, and the people who love you have simply stopped building below the waterline."
+            }
+          }
+        ]
+      }
+    }
   }
 }

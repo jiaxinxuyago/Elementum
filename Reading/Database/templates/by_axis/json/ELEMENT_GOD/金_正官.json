@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Precise",
+            "doors": {
+              "trait": "Exactness is your dialect. The estimate lands within percent, the summary contains nothing loose, the drawer holds what its label claims. Around you, vagueness feels briefly embarrassed of itself, and work passing through your hands comes out true to measure, every time it matters.",
+              "scene": "The budget you built in January closed the year eleven dollars off, across forty accounts, a variance your auditor circled with an exclamation mark and showed to colleagues. You considered the eleven dollars a miss. The auditor considered framing it. Both reactions were, in their way, accurate.",
+              "outside": "People stop estimating around you and start measuring, pulled upward by your example. Documents you have touched become the reference copies. When two versions of any number circulate, meetings resolve the dispute with four words, said without irony: check what theirs says."
+            }
+          },
+          {
+            "word": "Incorruptible",
+            "doors": {
+              "trait": "Your price does not exist. The convenient blindness, the adjusted figure, the favor with strings: each has approached you dressed in reasonable clothes, and each has left unbought. People stopped offering years ago, which is the cleanest audit result a character can post.",
+              "scene": "The developer’s envelope, offered with practiced lightness at the site meeting, was returned across the table before it finished landing, without commentary, and the inspection proceeded to its correct conclusion. The story circulated in both industries. Your approvals, consequently, are bankable at face value, everywhere.",
+              "outside": "Institutions position you where temptation concentrates, treasurer, examiner, referee, because your presence retires a whole category of risk. The compliment is structural: systems relax around your name. Somewhere in three organizations, rules exist that were written shorter because you would be the one holding them."
+            }
+          },
+          {
+            "word": "Even-handed",
+            "doors": {
+              "trait": "Your fairness holds under load. The friend and the stranger get the same terms, the popular opinion and the correct one get separated calmly, and both sides of any dispute leave your table feeling accurately weighed. Balance like yours is engineered. People rest whole arguments on it.",
+              "scene": "The inheritance dispute that was fracturing the family got handed, by unspoken consensus, to you, and your allocation, explained line by line at the kitchen table, was accepted by all four siblings, including the two who arrived with lawyers’ letters. The letters went home unopened.",
+              "outside": "Warring parties agree on you when they can agree on nothing else, which has become its own career. Your rulings hold without enforcement because both sides watched the scales the whole time. The nickname that follows you between organizations translates, roughly, to: the one they both trusted."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Exacting",
+            "doors": {
+              "trait": "Your standard admits no rounding. The report is right or it is redone, the table is set correctly or reset, the apology contains the exact words or does not count. Excellence this consistent is genuinely rare, and living beside it is a occupation nobody applied for.",
+              "scene": "The thank-you card your daughter wrote got returned for a second draft, spelling corrected, sentiment intact but re-ordered. She was nine. The card that finally sent was perfect, and she has not voluntarily written one since. The standard held. Something else, harder to name, did not.",
+              "outside": "People proofread their texts to you, twice, and still feel the red pen through the phone. The quality you extract is real and measurable. So is the reluctance that precedes every submission, the small breath people take before showing you anything they made, including, lately, their choices."
+            }
+          },
+          {
+            "word": "Unbending",
+            "doors": {
+              "trait": "The rule holds regardless of weather. The exception with merit, the mercy the moment obviously wanted, the technicality that ruins an honest case: your spine does not consult the specifics. Consistency this pure is a kind of integrity and a kind of blindness, wearing the same suit.",
+              "scene": "Your nephew missed the application deadline by one hour, with a hospital receipt explaining it, and your recommendation letter, promised for months, stayed unsent on principle: terms are terms. He got in the following year, elsewhere, and thanks a different uncle in the acknowledgments now.",
+              "outside": "People stopped bringing you their edge cases, the human ones that need judgment rather than enforcement, and the routing happened years ago, quietly. What reaches you now is only what fits the forms. You process it flawlessly, and never learn what the filters caught."
+            }
+          },
+          {
+            "word": "By-the-book",
+            "doors": {
+              "trait": "The manual outranks the moment. The procedure gets followed into outcomes the procedure never imagined, the form gets completed while the situation burns politely nearby, and initiative waits outside your job description, permanently, holding its useful ideas. Nothing you do is ever wrong. Much of it is beside the point.",
+              "scene": "The customer’s problem had an obvious two-minute fix and a four-day approved pathway, and you chose the pathway, correctly, while they watched the fix sit there, visible to everyone. They complied, complained, and switched providers. The file shows full compliance. The file is complete and the client is gone.",
+              "outside": "Colleagues invoke your name as a unit of process: run it past the book, they say, meaning you. In audits you are priceless. In fires, people have learned to route around your desk first and apologize to it later, a workflow so established it appears, unofficially, in the onboarding notes."
+            }
+          }
+        ]
+      }
+    }
   }
 }

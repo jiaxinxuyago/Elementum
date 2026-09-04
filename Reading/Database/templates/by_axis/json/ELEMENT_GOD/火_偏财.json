@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Spark-spotting",
+            "doors": {
+              "trait": "You see the catch of an opportunity before there is visible flame. The undervalued block, the platform before the crowd, the person about to become somebody: your eye finds the ember while everyone else needs the bonfire. Being early is your entire portfolio, and it keeps paying.",
+              "scene": "You bought the ugly little stand at the market’s dead corner because the foot traffic map in your head disagreed with the rent. Two seasons later the corner was the market, and the rent conversation went differently, in your favor, with you on the landlord side.",
+              "outside": "Friends have learned to note what you mention twice, since your casual enthusiasms have a habit of becoming everyone’s expensive enthusiasms two years later. A few of them now just ask directly, at dinner, in January: what are you seeing lately. The answers have funded renovations."
+            }
+          },
+          {
+            "word": "Charismatic",
+            "doors": {
+              "trait": "People warm to you before you finish your first sentence, and doors follow. The upgrade appears, the stranger extends the invitation, the gatekeeper finds an exception with your name on it. Charm this natural is not performed. It is a temperature, and everyone drifts toward it.",
+              "scene": "You walked into the fully booked restaurant behind two parties who had been turned away, and left with a corner table, the chef’s recommendation, and a standing invitation. Your dinner companion timed the whole ascent: four minutes. She has retold that timing at every gathering since.",
+              "outside": "Gatherings rearrange around your arrival, which you notice less than everyone else does. Hosts introduce you first, strangers remember your name, and follow-ups appear in your inbox from conversations you barely registered. The network effect is compounding. Other people network. You just show up warm."
+            }
+          },
+          {
+            "word": "Fast-moving",
+            "doors": {
+              "trait": "Your speed between spark and action embarrasses whole planning departments. The idea from breakfast has a domain name by lunch and revenue by the quarter’s end. Momentum is your natural state, and hesitation, wherever you encounter it, reads to you as a foreign language.",
+              "scene": "The pop-up went from group-chat joke to opening night in nineteen days, permits included. People asked how long you had been planning it. The honest answer, since the joke, confused them into laughter. The line outside, though, was fluent in results.",
+              "outside": "Partners either learn your tempo or watch from the platform. By the time competitors finish their market analysis, you are iterating on version two with actual customer complaints, which you consider the only research with calories in it. The analysts eventually cite you. As data."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Flash-chasing",
+            "doors": {
+              "trait": "Every new shine gets your full sprint. The trend, the token, the just-opened thing: you arrive first, burn bright, and are gone before the substance question comes up. Chasing light is genuinely fun. A portfolio of chases, though, is mostly a photo album of exits.",
+              "scene": "You were early to the app everyone joined and earlier out, early to the seltzer brand, the course platform, the resale game. Each sprint made money for three months and stories forever. The friend who boringly stayed in one lane just bought a house. You have anecdotes.",
+              "outside": "People invite your read on what is next and quietly discount your staying power, a distinction that took you years to notice. The introductions still come. What stopped coming are the long-term seats, the ones reserved for people who will still be there when the shine dulls."
+            }
+          },
+          {
+            "word": "Spendthrift",
+            "doors": {
+              "trait": "Money exits you at the speed of delight. The round for the table, the gadget of the month, the upgrade that felt like destiny at checkout: each purchase is warm and defensible, and together they are a bonfire with a loyalty card. Earning was never your problem. Keeping never got hired.",
+              "scene": "The bonus landed on the fourth and was structurally gone by the nineteenth: the trip booked, the jacket, the speakers, the generous gesture at dinner that felt so right. Nothing was wasted, exactly. Nothing was kept, either. The statement reads like a wonderful month someone else paid for.",
+              "outside": "Friends love going out with you and wince at your math. The generosity is legendary and the reserves are rumor. People close to you have started celebrating your windfalls nervously, knowing the celebration itself will consume a measurable percentage. Somebody gifted you a budgeting app once. You upgraded it to premium."
+            }
+          },
+          {
+            "word": "Flighty",
+            "doors": {
+              "trait": "Your commitments have the lifespan of sparks. The plan ignites, glows, and is ash by the follow-through date, replaced by a newer, brighter plan in the same weekend. People stopped writing your intentions in ink around the time you did, which was never.",
+              "scene": "The Portugal trip was real for eleven days: researched, group-chatted, half-booked. Then the sailing course appeared, then the food truck idea, and by month’s end Portugal was a tab among tabs. Your browser history is an atlas of abandoned futures, each one sincerely meant for a week.",
+              "outside": "People triangulate your actual plans by waiting a month and checking what survived. Employers, partners, and one long-suffering travel agent have all developed the same policy: nothing books until you mention it a third time. You find the policy insulting. It has never once been wrong."
+            }
+          }
+        ]
+      }
+    }
   }
 }

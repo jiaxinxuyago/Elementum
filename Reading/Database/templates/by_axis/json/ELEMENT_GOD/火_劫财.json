@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Spark-chasing",
+            "doors": {
+              "trait": "You run toward whatever is catching fire, and the running is the point. The contested deal, the live crisis, the dare with witnesses: your blood answers heat the way others answer comfort. In a world of careful people, you are the one already moving, already lit.",
+              "scene": "When the flagship store’s launch collapsed at noon, you drove there without being asked, arriving mid-panic with energy the situation had run out of. By close, the day was saved and slightly legendary. Your boss asked who sent you. Nobody had. The smoke had.",
+              "outside": "Teams keep you near the volatile accounts the way stations keep engines running. When something flares, you are moving before the call finishes, and colleagues have learned to just hand you the keys. The calm assignments bore you visibly. Nobody wastes you on them anymore."
+            }
+          },
+          {
+            "word": "Audacious",
+            "doors": {
+              "trait": "Your asks have no ceiling. The cold call to the CEO, the bid above your class, the public promise that forces the miracle: you say the enormous thing out loud, and enough of it lands to fund the reputation. Fortune does seem to favor you. You invoice it accordingly.",
+              "scene": "You pitched the biggest client in the region from the lobby, uninvited, with a deck finished that morning in the car. Security was called and, in the end, so was the account manager. The contract took eight months. The story reached your industry in eight days.",
+              "outside": "People preface their descriptions of you with you will not believe, and the stories hold up under checking. Some rivals call the boldness reckless from a safe distance. Your collaborators call it Tuesday, and have learned to draft the press release before you finish the sentence."
+            }
+          },
+          {
+            "word": "Electrifying",
+            "doors": {
+              "trait": "Your energy transfers on contact. The flat team meeting catches current when you enter, the tired project finds voltage, the gathering’s... pulse syncs upward to yours. People leave your orbit doing things they had filed under someday. The battery, mysteriously, never bills anyone.",
+              "scene": "The fundraiser was dying at forty percent with a week left, and your two-day blitz of calls, stunts, and shameless enthusiasm dragged it to one-forty. Volunteers who had gone quiet came back loud. The organizer’s thank-you note said simply: you plugged us back in.",
+              "outside": "People describe meetings before and after your arrival as different weather. Managers deploy you into stalled teams the way medics deploy adrenaline, and the effect is roughly as fast. The crash that sometimes follows is also documented. Everyone considers it worth it, and schedules for it."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Hot-headed",
+            "doors": {
+              "trait": "The fuse is short, dry, and pre-lit. The wrong word, the cut-off in traffic, the tone in an email: ignition beats deliberation to the scene every time. Afterward you cool fast and repair sincerely. The people nearby, though, have all learned the smell of smoke.",
+              "scene": "The referee’s call was wrong, and your response, at a children’s game, entered neighborhood folklore within the hour. You apologized to everyone by sundown, sincerely, including the referee. Your daughter accepted the apology and, the following week, asked you to wait in the car.",
+              "outside": "People manage your temperature the way sound engineers manage feedback, adjusting topics before the squeal. Certain news gets delivered to you in public places, on purpose. You noticed the pattern once and got angry about it, which, everyone agreed silently, rather settled the question."
+            }
+          },
+          {
+            "word": "Resentful",
+            "doors": {
+              "trait": "Other people’s wins sit on your skin like sunburn. The peer’s promotion, the friend’s effortless luck, the rival’s applause: each one stings out of proportion, and the sting talks. It comes out as jokes with edges and praise with subtitles. Everyone reads the subtitles.",
+              "scene": "At the launch party for your friend’s startup, funded on the first try, your toast included the phrase must be nice twice, laughed off both times, remembered anyway. The friendship survived. Its temperature dropped four degrees that night and never fully came back to season.",
+              "outside": "Your congratulations arrive with a delay everyone has learned to expect, like sound after lightning. People soft-launch their successes around you, understating, apologizing for luck. They do it out of care, which would wound you worst of all, so it stays carefully unmentioned."
+            }
+          },
+          {
+            "word": "Explosive",
+            "doors": {
+              "trait": "Pressure in you does not vent. It stores, silently, behind a warm exterior, until the container fails all at once. The blowups arrive without visible warning, sized for the backlog rather than the trigger, and the cleanup involves people who never saw the gauge climbing.",
+              "scene": "The garage door sticking was the trigger, but the detonation covered March through August: the job, the loan, the unsaid things, all of it airborne in one four-minute burst. Your family stood very still. The door, notably, still sticks. Nobody mentions it now.",
+              "outside": "People close to you have become seismologists, reading your quiet for pressure signs and mostly getting it wrong, because the gauge is internal and you politely deny it exists. The denials are calm right up until they are not. Afterward everyone, including you, surveys the range."
+            }
+          }
+        ]
+      }
+    }
   }
 }

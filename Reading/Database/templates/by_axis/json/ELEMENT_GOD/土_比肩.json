@@ -22,7 +22,7 @@
       ],
       "friction": [
         "Entrenched",
-        "Immovable",
+        "Hard-headed",
         "Set-apart"
       ]
     },
@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-grounded",
+            "doors": {
+              "trait": "Your footing comes from inside your own boundaries, and it shows in how little you sway. Trends pass, opinions swirl, someone is always panicking about something, and your center of gravity stays home. People push against you mostly to find out where solid feels like.",
+              "scene": "The whole friend group pivoted careers, diets, and philosophies twice in three years. You kept the trade, the routine, and the Sunday walk, cheerfully unmoved. Two of the pivots have since called you asking, sincerely, how a person just stays put and stays fine.",
+              "outside": "In any shaken group, eyes drift to you the way feet find level ground. You rarely offer opinions on the storm of the week. Your steadiness is the opinion, and several people have privately rebuilt their footing using yours as the reference."
+            }
+          },
+          {
+            "word": "Solid",
+            "doors": {
+              "trait": "What you build, physically or otherwise, holds weight without creaking. The shelf, the budget, the promise: over-engineered slightly, tested honestly, then trusted completely. Flash was never the point. Your work is the kind people lean on without checking first.",
+              "scene": "The deck you built a decade ago has hosted every family summer since, thirty people at its worst, without one loose board. The neighbor’s newer deck is on its second rebuild. He asked what you did differently. You said screws, and time, and meant both.",
+              "outside": "People assign you the load-bearing jobs without discussion, the way nobody discusses which wall holds the roof. Your name on a task closes the worry about it. It is a quiet reputation, never announced, visible mainly in what people no longer double-check."
+            }
+          },
+          {
+            "word": "Dependable",
+            "doors": {
+              "trait": "Showing up is your entire philosophy, executed daily. No dramatic rescues, just presence with a pattern: the shift covered, the call returned, the same seat at the same table when it matters. People build lives partly out of the certainty you supply.",
+              "scene": "When the funeral was announced, three people separately texted to ask if you were going, and all three booked their travel only after you said yes. You had not organized anything. Your attendance was the organization, the fixed point the plans grew around.",
+              "outside": "Your reliability has become infrastructure other people budget on. Bosses give you the accounts that cannot wobble, friends give you the spare keys, family gives you the passwords. Nobody remembers deciding this. Trust just pooled where the ground never shifted."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Entrenched",
+            "doors": {
+              "trait": "Your positions come with earthworks. The opinion dug in years ago has supply lines, sandbags, and a flag, and updating it now feels like losing a war rather than learning a fact. You defend ground long after anyone remembers what battle claimed it.",
+              "scene": "The debate about the route to the lake house is in its ninth year. There is a faster way, proven twice by phone timers. You drive your way, narrating its virtues, adding twenty minutes. The family has stopped arguing and started packing snacks for the difference.",
+              "outside": "People know which of your topics are trenches and step around them in socks. The map of what cannot be discussed with you grows a little each year. You experience this as peace finally achieved. It is actually conversation rerouted around a fortified position."
+            }
+          },
+          {
+            "word": "Hard-headed",
+            "doors": {
+              "trait": "Being told things is not how you learn. The lesson has to bruise you personally before it counts, and even then you sometimes get a second opinion from another bruise. Advice slides off the same skull the wall keeps failing to teach.",
+              "scene": "Three people told you the ladder was set wrong, and you climbed it anyway, and the emergency department nurse asked what happened in the tone of someone who already knew the genre. You retold it later as a story about the ladder. It is not about the ladder.",
+              "outside": "Warning you has become a formality people perform for their own consciences. They say the thing, you do yours, the consequences arrive on schedule, and everyone pretends surprise. What they have actually stopped expecting is the middle step where the warning changes anything."
+            }
+          },
+          {
+            "word": "Set-apart",
+            "doors": {
+              "trait": "Standing slightly outside the group is your resting position. Neither hostile nor shy, just fenced: you attend, contribute, and remain somehow adjacent, a property with clear boundaries and one gate. People sense the line without seeing it, and mostly nobody tests the latch.",
+              "scene": "At every gathering there is a point where the group photo assembles and someone has to call your name twice, because you were at the fence, at the grill, at the edge of frame. The album shows a decade of you half-turned, arriving into pictures.",
+              "outside": "People describe knowing you in approximations, even the ones who have known you twenty years. Beloved, reliable, and somehow unvisited. The distance never insults anyone, and never closes either. Eventually friends stop reaching across it and just wave, warmly, from their side."
+            }
+          }
+        ]
+      }
+    }
   }
 }

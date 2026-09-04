@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Cool-headed",
+            "doors": {
+              "trait": "Your temperature drops as situations heat up, which is backwards from most people and priceless in a crisis. The angrier the meeting, the clearer your sentences get. Decisions made in your coolness hold up later, when everyone rereads what the heat almost signed.",
+              "scene": "Both founders were shouting by the time you spoke, and your first sentence was a number. Your second was a date. The shouting had nowhere to attach itself to arithmetic, and the meeting ended with a plan bearing your fingerprints and their signatures.",
+              "outside": "People check what you think before reacting, having learned that your read subtracts the drama automatically. In emergencies your voice becomes the reference track. Panic simply finds no purchase on you, and after a while it stops trying and starts listening."
+            }
+          },
+          {
+            "word": "Unblinking",
+            "doors": {
+              "trait": "You look directly at what others manage around. The bad diagnosis, the failing numbers, the conversation everyone keeps rescheduling: your gaze goes straight in, takes the true measure, and does not flinch on contact. Reality respects you for it and returns the favor with early warnings.",
+              "scene": "When the project was dying, you were the one who said dying, out loud, in week two instead of month four. The word landed like cold water. It also saved the quarter, because everything that followed was built on the actual situation instead of the brochure.",
+              "outside": "People borrow your eyes for their hardest looks: the contract they are afraid to reread, the feedback they suspect is true, the mole on the shoulder. You never soften the report and never sharpen it either. Afterward they know, which was the entire point."
+            }
+          },
+          {
+            "word": "Deep-striking",
+            "doors": {
+              "trait": "When you move, it lands where it matters, at depth. No warning shots, no surface noise: you wait, read the current, and place one action where the whole structure turns. People rarely see your strike. They see everything afterward arranging itself differently.",
+              "scene": "You said nothing in three consecutive negotiations, then made one call to one person on a Thursday, and the entire deal reorganized around it by Monday. Colleagues spent the week reconstructing what happened. What happened was patience with coordinates.",
+              "outside": "Rivals underestimate you at intake because you make no ripples, and revise their opinion exactly once. The revision is permanent. Around your industry there is a small collection of stories that all end the same way: nobody saw it coming, and it only needed to come once."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Chilling",
+            "doors": {
+              "trait": "Your displeasure arrives as temperature. There is never a scene: the warmth simply leaves the water, and everyone in it notices at once. People can handle anger. The cold is harder, because there is nothing to answer and nowhere to warm up.",
+              "scene": "You said nothing wrong at dinner. You said almost nothing at all, and the table spent two hours in a careful climate, passing dishes with light hands. Your partner asked afterward what happened. Nothing happened, you said, at a temperature that confirmed everything.",
+              "outside": "People describe crossing you with weather words: frost, freeze, ice age. The thaw comes eventually, unannounced, and everyone pretends the winter did not happen. But they dress for it now, permanently, and some conversations never come back indoors."
+            }
+          },
+          {
+            "word": "Relentless",
+            "doors": {
+              "trait": "Once you commit to pressure, it does not stop. The follow-up, the reminder, the revisited grievance: your current keeps flowing against the same rock long after the point was made, and past where the point began eroding the ground it stood on.",
+              "scene": "The dispute with the contractor was won in March, with a refund and an apology. You were still composing documentation in June. The folder is immaculate and the war is over, and only one side has noticed the second fact.",
+              "outside": "People settle with you early because they have seen what the long version costs. Your persistence wins real victories, and it has also outlived several relationships that surrendered years before you stopped. The current cannot tell the difference between resistance and rubble."
+            }
+          },
+          {
+            "word": "Submerging",
+            "doors": {
+              "trait": "Your force pulls downward quietly. Deadlines, standards, and consequences settle over people like water over a diver, heavier with every meter, and nobody can point to the moment breathing got hard. You never raise your voice. The pressure does the talking, at depth.",
+              "scene": "The new hire was excellent for three months, then quieter, then gone, and the exit interview mentioned an atmosphere no single incident could explain. You reread it twice, genuinely puzzled. Each individual expectation had been reasonable. Together they were an ocean on someone’s chest.",
+              "outside": "Teams under you produce and pale at the same time, and the best people leave while thanking you sincerely. From your seat it looks like standards working. From theirs it was the slow discovery of how deep the water had gotten while they were busy swimming."
+            }
+          }
+        ]
+      }
+    }
   }
 }

@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Craft-loving",
+            "doors": {
+              "trait": "The making itself feeds you. The knife kept sharp, the joint fitted flush, the sentence revised until it clicks: process is your pleasure, and it shows in everything that leaves your hands. People sense the extra hour in your work without being able to point at it.",
+              "scene": "The cutting board you made as a housewarming gift took three weekends and outlasted the marriage it was given to. In the settlement, notably, it was contested. You have since made two more on request, each with a waiting period the recipients found completely reasonable.",
+              "outside": "People commission things from you that stores sell cheaper, and know exactly why they are paying more and waiting longer. Objects you have made get pointed out to houseguests, credited by name. Your work carries a small warranty nobody wrote down: it was made by someone who loved making it."
+            }
+          },
+          {
+            "word": "Refined",
+            "doors": {
+              "trait": "Your taste has a machinist’s tolerance. The one right glass for the wine, the single adjective where three loitered, the pause placed exactly: refinement is not fussiness in your hands, it is fit, and everything around you sits a little truer for it.",
+              "scene": "You reduced the menu from nine dishes to five, the invitation from a paragraph to a line, and the dinner, guests agreed afterward, was the best of the year, though nobody could name what made it feel that way. You could have named it: subtraction, done lovingly, all afternoon.",
+              "outside": "People borrow your eye before their big occasions: the outfit checked, the speech trimmed, the toast rehearsed. Your edits are small and decisive, and their absence is loud. Events that skip your review acquire, in your circle’s vocabulary, a technical description: slightly too much."
+            }
+          },
+          {
+            "word": "Savoring",
+            "doors": {
+              "trait": "You extract full value from good moments. The coffee gets its silence, the win gets its evening, the anniversary gets marked properly instead of glanced at. Pleasure, in your hands, is not consumed. It is machined for maximum yield, and the yields are excellent.",
+              "scene": "The bottle you had saved for eleven years got opened on an ordinary Thursday that you had unilaterally declared worthy, and the resulting three-hour dinner for two is now referenced in your household as the benchmark. Nothing had happened that day. That, you explained, was the occasion.",
+              "outside": "People slow down at your table without noticing the mechanism: courses that arrive unhurried, toasts that actually toast something, phones that migrate to pockets. Afterward they describe the evening as long in the good way. You have quietly taught everyone you host what time tastes like."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Fussy",
+            "doors": {
+              "trait": "The right way has become the only way, and the tolerances keep narrowing. The coffee is drinkable at one temperature, the towels fold along one axis, the restaurant loses you at the first wobbling table. Quality was the point once. The specifications have since annexed the pleasure.",
+              "scene": "The vacation rental was lovely and wrong: the pillows, the knife situation, the light in the kitchen at breakfast. You spent the first morning reorganizing and the family spent it on the beach, waving up at the window occasionally. The kitchen, by checkout, was perfect. The tan was theirs.",
+              "outside": "Hosting you has become a certification process your friends prepare for, half joking, checking the coffee equipment against remembered complaints. Invitations still come, with disclaimers attached. The dinner parties proceed slightly braced, and the truly relaxed ones, you have started noticing, happen at addresses you hear about afterward."
+            }
+          },
+          {
+            "word": "Self-satisfied",
+            "doors": {
+              "trait": "Your own standards approve of you completely, and the audit ended there years ago. The taste is excellent and certain, the methods proven and closed, the feedback received warmly and filed unread. Contentment this polished repels improvement, and everything ambitious slides off, politely, elsewhere.",
+              "scene": "The critique group admired your chapter and suggested one structural change, and your explanation of why the structure was already correct ran longer than their notes. They agreed pleasantly. The novel, excellent and unchanged, is in its ninth year of being almost ready, admired chiefly by its author.",
+              "outside": "People stopped offering you notes somewhere in the last decade, an editorial silence you experience as arrival. The work remains good, genuinely, and identically good: the growth curve flattened exactly where the confidence plateaued. Younger talents study your early work with reverence, and your recent work not at all."
+            }
+          },
+          {
+            "word": "Dulled",
+            "doors": {
+              "trait": "Comfort has rounded your edge. The palate needs stronger seasoning, the wins need bigger stakes, the pleasures that once rang now land muffled under years of easy access. Everything is available and nothing is delicious. The instrument still works. It just cannot hear itself anymore.",
+              "scene": "The tasting menu that would have thrilled you at thirty got a shrug and a comparison at fifty-five, the fourth such shrug that month. On the walk home you passed a food cart with a line of delighted students, and stood there a moment, doing an arithmetic you did not finish.",
+              "outside": "People notice that delighting you has become a project with a low hit rate, and the gift-giving around you has turned practical, then perfunctory. The enthusiasms you once broadcast made you magnetic. The connoisseurship that replaced them is accurate, extensive, and, the table has noticed, contagious in the wrong direction."
+            }
+          }
+        ]
+      }
+    }
   }
 }

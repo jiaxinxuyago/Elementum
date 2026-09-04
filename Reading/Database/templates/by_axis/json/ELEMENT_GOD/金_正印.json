@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Discreet",
+            "doors": {
+              "trait": "What enters your keeping stays kept. The friend’s diagnosis, the colleague’s exit plans, the family matter: all held in a vault whose combination has never leaked once. In an age of broadcast, your silence is heirloom-grade, and people inventory it correctly as treasure.",
+              "scene": "When the merger rumors flew, three separate executives realized mid-panic that you had known for a month, from three separate confidences, and cross-referenced nothing to anyone. The realization traveled. Your calendar for the following quarter filled with meetings that began: this stays with you.",
+              "outside": "People sequence their disclosures by trust, and you are the first tier alone. Secrets travel toward you and stop, a fact widely relied upon and never once tested to failure. At every funeral, someone in the region is calmer because what they told you decades ago stayed told."
+            }
+          },
+          {
+            "word": "Preserving",
+            "doors": {
+              "trait": "You maintain what matters against time’s default. The friendship kept in service since school, the grandmother’s recipe made annually to spec, the archive of photos labeled while others let theirs dissolve into camera rolls. Loss takes a percentage from everyone else. You have negotiated a better rate.",
+              "scene": "The recipe was almost lost twice, once at the funeral, once in the flood, and both times your copy, made years earlier in careful ink, restored it to the family. There are now four copies, distributed by you, laminated. The dish appears every winter, tasting like continuity.",
+              "outside": "People discover what you have kept at exactly the moments loss becomes visible: the address that survived in your book, the photo of the shop before the fire, the friendship maintained through everyone’s chaotic decade. You are the family’s off-site backup, and everybody restores from you eventually."
+            }
+          },
+          {
+            "word": "Quietly-wise",
+            "doors": {
+              "trait": "Your wisdom skips the podium. The insight arrives in a sentence near the end of the visit, unlabeled, easy to miss, and it reorganizes the listener’s month. You never claim the credit and rarely get it, which suits you. The advice was for using, never for citing.",
+              "scene": "Your niece made the decision everyone praised her for after one walk with you, during which, by her account, you mostly asked what she already thought and mentioned, once, what you had seen happen to hurry. The sentence took four seconds. She built two years on it.",
+              "outside": "People leave your company having reached their own conclusions, unaware of the machining. Years later they quote things you said as things they realized. You watch your sentences circulate under other people’s names, polished by use, and consider the ledger, on balance, exactly right."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Detached",
+            "doors": {
+              "trait": "Your care operates at instrument distance. The concern is genuine and arrives as analysis, the love is real and expressed as protocol, and the people receiving it stand slightly cold in the accuracy, holding perfectly correct advice, wishing it had arms.",
+              "scene": "Your son called with news that had tears at its edges, and your response, calibrated and useful, addressed every practical dimension within four minutes. The call ended efficiently. He sat in the car afterward, helped and unheld, and then phoned his aunt to say the same things over.",
+              "outside": "People pre-sort what they bring you: problems yes, feelings elsewhere. The sorting is so old it feels like respect, and it has a cost ledger nobody opens. You are the first call for logistics and the last to hear anything that requires only company. The queue reveals the design."
+            }
+          },
+          {
+            "word": "Formal",
+            "doors": {
+              "trait": "Correctness armors every exchange. The thank-you notes are impeccable, the boundaries observed to the millimeter, the affection conducted through channels so proper that its temperature cannot be verified. People know exactly where they stand with you. Nobody knows how it feels there.",
+              "scene": "Your birthday call to your oldest friend ran eleven minutes, covered health, family, and weather in that order, and closed with regards to the household. It has run this way for thirty years. She once tried to break format with something raw. The pause was so perfect she apologized.",
+              "outside": "People mirror your correctness back at you, and the relationship proceeds like diplomacy between friendly nations: warm communiques, scheduled summits, nothing unscripted. The love is real on both sides and fully suited at all times. Everyone involved occasionally wonders what casual would have felt like."
+            }
+          },
+          {
+            "word": "Locked-away",
+            "doors": {
+              "trait": "Your inner life is in the vault with everyone else’s secrets. The grief went in decades ago, the hopes followed, and the combination, if you are honest, has drifted from your own memory. What remains public is composed, helpful, and sealed. Even you visit the contents rarely.",
+              "scene": "The night your oldest friend died, you tidied the kitchen, answered the necessary messages with grace, and slept on schedule. The crying happened weeks later, alone, in the car, over a song, for four minutes, and was filed before the engine cooled. Nobody ever knew. That was the design.",
+              "outside": "The people closest to you can list your kindnesses for hours and your feelings for seconds. At gatherings, your composure is the fixed point everyone appreciates and nobody can reach. Someone once asked what you were carrying. You answered with what you were managing. The difference went home unexamined."
+            }
+          }
+        ]
+      }
+    }
   }
 }

@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Free-growing",
+            "doors": {
+              "trait": "Your expression grows wherever it wants, and forcing it into rows kills it. Give you a template and the life drains out. Give you open ground and something appears that nobody planted, better than what was planned, impossible to have ordered in advance.",
+              "scene": "The brief asked for a standard newsletter, and what you delivered was a running column with a voice, a following, and eventually a waiting list. Nobody approved the change. It grew past the approval stage while the approvers were in meetings, and readership tripled.",
+              "outside": "Editors, managers, and one long-suffering teacher all learned the same lesson: fence you and you produce hedges, free you and you produce forests. The people who benefit most from your work are the ones who learned to stop supervising the growing."
+            }
+          },
+          {
+            "word": "Original",
+            "doors": {
+              "trait": "Your ideas arrive without ancestors. Where others improve on the existing, you sprout something with no clear parent, odd at first sight and obvious in hindsight. Imitation is genuinely difficult for you, which cost you in school and pays you everywhere else.",
+              "scene": "The party game you invented on a napkin has now been played at four weddings and one corporate retreat, mutating slightly each time. Someone recently asked where you found it. The napkin is framed in your friend’s kitchen, which is its citation.",
+              "outside": "People carry your ideas into places you never visit, usually without your name attached, always with your fingerprints visible to anyone who knows you. Being copied stopped bothering you once you noticed the copies cannot make the next one. Only the source does that."
+            }
+          },
+          {
+            "word": "Untamed",
+            "doors": {
+              "trait": "Nobody ever quite domesticated your voice, and the wildness is the value. You say the thing with the bark still on it, unsanded by committee. Polished people find you alarming and then find themselves quoting you, because the rough version was the true one.",
+              "scene": "At the panel, between two rehearsed speakers, you answered the question everyone was avoiding, in the words everyone was avoiding it in. The moderator blinked. The clip, forty seconds long, outlived the entire conference, and next year they booked you first.",
+              "outside": "Organizers invite you with a specific mix of hope and bracing, the way towns invite weather. Something will happen, it will be alive, and it will not be what the agenda said. The agenda-keepers grumble. The audiences keep coming back for the weather."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Wayward",
+            "doors": {
+              "trait": "Direction is your allergy. The plan says left, and something in you veers right on principle, even when left was your own idea last week. Paths bore you the moment they firm up, which keeps life interesting and keeps arrival permanently postponed.",
+              "scene": "You quit the program two months before certification, the third finish line abandoned in five years, each exit backed by a compelling reason that shares no logic with the others. The certificates would spell a career by now. The reasons, laid end to end, spell only motion.",
+              "outside": "People stopped mapping your trajectory and started just asking where you are this season. Mentors who invested in one direction watched you grow in another, and the generous ones call it range. The honest ones ask what all this growing is refusing to become."
+            }
+          },
+          {
+            "word": "Sprawling",
+            "doors": {
+              "trait": "Your expression spreads faster than it deepens. The podcast, the essays, the half-built app, the sketchbooks: green shoots in every direction, canopy in none. Each new tendril takes light from the last one. The garden is enormous and, so far, fruitless.",
+              "scene": "The essay was going well until minute forty, when it became a second essay, which spawned a video idea, which required a new microphone, which arrived to find you starting a third essay. All four projects share one folder. The folder is named Focus.",
+              "outside": "Your feeds show a person of astonishing range and no address. Followers love the variety, and the industry people who could open doors keep asking the same question in different words: what is the one thing. You keep answering with five."
+            }
+          },
+          {
+            "word": "Defiant",
+            "doors": {
+              "trait": "Rules read as dares to you, including the ones that were protecting something. Authority triggers your sap like spring: the tone sharpens, the counterargument grows thorns, and suddenly the fight is the point. Half your battles improved things. The other half just cost you allies.",
+              "scene": "The new policy was mildly inconvenient and your response was a manifesto, posted in the all-hands channel at four on a Friday. It got eleven reactions and one meeting invite. The policy stayed. Your name moved onto a list nobody prints but everyone consults.",
+              "outside": "People with power approach you pre-flinched, which you enjoy more than is useful. Doors open more slowly for you than your talent justifies, and everyone except you can name the reason. The reason has thorns and posts on Fridays."
+            }
+          }
+        ]
+      }
+    }
   }
 }

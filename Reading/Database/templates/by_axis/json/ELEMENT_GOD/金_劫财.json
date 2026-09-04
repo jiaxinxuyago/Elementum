@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Keen-edged",
+            "doors": {
+              "trait": "Competition hones you visibly. The rival’s number posted on your wall, the timed run against your own record, the deal chased sharper because someone else wants it: pressure grinds you finer instead of down, and your edge is renewed weekly, on purpose, against real resistance.",
+              "scene": "The quarter your division got a genuine competitor was the quarter your numbers, flat for a year, jumped nineteen percent. Nothing else changed. Your manager mentioned this pairing carefully at review, and you agreed with unusual cheerfulness. You had noticed the sharpening yourself, and enjoyed it.",
+              "outside": "People perform better against you and thank you for it later, sometimes years later. Training partners request you specifically, knowing the pace will hurt correctly. Whole teams calibrate their edge on yours, the way shops keep one true reference tool against which everything else gets measured."
+            }
+          },
+          {
+            "word": "Competitive",
+            "doors": {
+              "trait": "Everything can be scored, and you are keeping score. The sales board, the board game, the parallel parking: your intensity arrives regardless of stakes, and it lifts the whole field, because coasting near you is simply not available. Games mean more when you are playing. Everyone plays harder.",
+              "scene": "The office steps challenge was meant as a wellness joke until you joined, at which point it developed leagues, trash talk, and a trophy someone welded. Participation tripled. The winner, who was not you that quarter, framed the printout. You demanded a rematch at the ceremony, smiling.",
+              "outside": "People pick you first for anything with a winner, and brace slightly when you join casual things. The intensity is contagious in the useful direction: standards rise wherever you compete. The company records you have broken remain broken by you, a fact you check, occasionally, at lunch."
+            }
+          },
+          {
+            "word": "Undaunted",
+            "doors": {
+              "trait": "Odds do not negotiate with you, because you decline the meeting. The favorite you were supposed to lose to, the market you were too small for, the record held too long: your approach is identical regardless of the forecast, and forecasts around you have developed a humility.",
+              "scene": "The tender was between your four-person shop and two multinationals, and your bid went in anyway, priced with nerve, argued in person. You took forty percent of the contract, the part requiring speed. The multinationals now subcontract you, a sentence you never say out loud at meetings.",
+              "outside": "People stopped warning you about long shots after enough of them landed, and started quietly co-investing instead. Your presence in a fight recalibrates everyone’s sense of winnable. The stories are traded at industry dinners, always ending the same way: somebody checked the standings twice."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Cutthroat",
+            "doors": {
+              "trait": "Winning has stopped checking its methods with you. The shortcut through a colleague’s territory, the information used a half-step past fair, the alliance dropped at the moment of maximum value: each move defensible in isolation, and together a style that people describe with one hand on their wallet.",
+              "scene": "The lead was technically unassigned when you took it, though everyone knew whose relationship had warmed it for a year. The commission cleared. The colleague said nothing, transferred out in the spring, and now runs the region you cannot get meetings in. Accounts settle slowly, and fully.",
+              "outside": "People collaborate with you in armor now: terms written, credit pre-assigned, nothing left ambiguous. The precautions slow everything and offend you slightly. But the stories that mandated them are specific, dated, and told to every newcomer by their second week, as onboarding."
+            }
+          },
+          {
+            "word": "Abrasive",
+            "doors": {
+              "trait": "Contact with you sands people down. The interruption at speed, the correction without cushioning, the volume that arrives when resistance does: none of it is malicious, and all of it accumulates, until working near you requires the kind of gloves people resent needing.",
+              "scene": "The engineer was right about the flaw, and by the end of your six-minute response he had stopped defending the point, then stopped talking entirely, then, that quarter, stopped raising flaws. The next one shipped. It was expensive. The postmortem located the bug and, unofficially, the silence.",
+              "outside": "Teams route their communication with you through the two people who can take the friction, an arrangement everyone denies exists. Your results are respected in full. But the roughness has a documented orbit: talent circles you once, learns the surface, and requests the transfer politely."
+            }
+          },
+          {
+            "word": "Duel-prone",
+            "doors": {
+              "trait": "Everything becomes a contest, including things that were conversations. The differing opinion escalates to a showdown, the casual game develops stakes, the family dinner acquires a scoreboard nobody else consented to. You win most of them. The wins pile up in a specific corner, alone.",
+              "scene": "The debate about the restaurant bill, seven dollars at issue, ran twenty minutes and ended with your victory and a quieter table. You had been right. The couple across from you split an odd look you decoded weeks later, at another dinner, to which they had invited others.",
+              "outside": "People decline the bait now with practiced smoothness, agreeing early, changing subjects, letting your gauntlets lie where they fall. The duels you still get are with strangers and juniors, everyone else having retired from the circuit. Champions, it turns out, mostly age out undefeated, in emptying halls."
+            }
+          }
+        ]
+      }
+    }
   }
 }

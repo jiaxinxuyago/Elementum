@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Hard-trained",
+            "doors": {
+              "trait": "Discipline shaped you the way wind shapes a coastal tree, early and permanently. The training you put yourself through would read as punishment in someone else’s diary. In yours it reads as Tuesday, and the strength it built shows in everything you hold up.",
+              "scene": "Five-thirty alarm, the same drills, the log filled in daily for six years without an audience. When the crisis finally needed someone with exactly that conditioning, you were ready in a way that cannot be improvised. Everyone else called it luck. Your notebook disagrees.",
+              "outside": "People meet your regimen with a mix of awe and concern, then borrow pieces of it when their own lives wobble. The full program breaks everyone who tries it wholesale. You built it ring by ring, which is the part imitators always skip."
+            }
+          },
+          {
+            "word": "Focused",
+            "doors": {
+              "trait": "Aiming at one thing is your natural state, and everything else becomes background. When a goal locks in, the noise drops away like leaves in November: one target, one season, one line of growth. Scattered people orbit you just to remember what direction feels like.",
+              "scene": "For eight months the exam was the only thing on the whiteboard, and the whiteboard was the only decoration you allowed. Friends sent invitations and got back polite versions of after June. June came. You passed in the top percentile, and repainted the whiteboard.",
+              "outside": "Interrupting you mid-pursuit is a known impossibility, and people schedule around your seasons of aim. Their word for it is intensity, said with respect and a little distance. Projects that need a spearpoint get handed to you. Projects that need a committee do not."
+            }
+          },
+          {
+            "word": "Storm-tested",
+            "doors": {
+              "trait": "Hard weather already came for you, and you are still standing, which changed what pressure means. New crises get measured against old ones and usually lose. You bend, hold, and straighten, with the particular calm of wood that has already survived its worst forecast.",
+              "scene": "When the company shed half its staff, panic moved through the office in waves and broke around your desk. You had rebuilt from worse in 2018. You spent the afternoon making two lists and booking one call, and by Friday people were borrowing your lists.",
+              "outside": "People check your face during bad news the way sailors check the barometer. If you are steady, the situation is survivable, and your steadiness was calibrated by real storms rather than confidence. The calibration shows. Nobody can fake rings."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Severe",
+            "doors": {
+              "trait": "Your standards fall on people like frost, necessary in your mind, killing in effect. The praise is rare, the corrections are exact, and small errors get treated as character evidence. You are hardest on yourself, which is true, and which warms nobody.",
+              "scene": "The intern’s report came back with forty-one margin notes and no sentence about the parts that worked, of which there were several. They redid it, better and frightened. You filed the improvement as proof of method. Their transfer request came three weeks later.",
+              "outside": "People perform excellence around you and save their real drafts, real doubts, and real questions for softer weather. What you read as high standards working, they experience as a climate. Things grow around you, carefully, the way plants grow near a cold window."
+            }
+          },
+          {
+            "word": "Straining",
+            "doors": {
+              "trait": "Effort past sense is your signature strain. The bar goes up the moment you clear it, rest gets rescheduled, and your body files complaints your calendar refuses to read. Growth needs push, and push is the only gift you know how to give it.",
+              "scene": "The physio said six weeks off, and you negotiated it down to two in the parking lot, with yourself. The knee had opinions in week three. You called it information and trained through it, and the six weeks eventually happened anyway, doubled, in a brace.",
+              "outside": "People around you feel the pull of your pace and either sprint or step back. Teammates burn out trying to match a load you never announced was heavy. The strain you carry silently sets the building’s tempo, and the building is getting tired."
+            }
+          },
+          {
+            "word": "Overdriven",
+            "doors": {
+              "trait": "Your engine has no idle. Rest feels like falling behind, holidays get converted into projects, and even recovery has metrics now. Somewhere the drive stopped being toward anything. It just drives, and you are both the driver and the surface being worn down.",
+              "scene": "The vacation itinerary had seven cities in nine days and a spreadsheet with column headers. On day five your family staged a small intervention at a fountain, requesting one afternoon of nothing. You granted it, checked messages twice, and called the afternoon productive.",
+              "outside": "Watching you rest makes other people anxious, because you do it like a task with a deadline. Friends have stopped suggesting you slow down and started placing quiet bets on when the crash lands. The bets have gotten shorter every year. Nobody says so at dinner."
+            }
+          }
+        ]
+      }
+    }
   }
 }

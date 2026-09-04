@@ -23,7 +23,7 @@
       "friction": [
         "Coddling",
         "Dependent",
-        "Languid"
+        "Drowsy"
       ]
     },
     "k2_domain_readings": {
@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Hearth-warm",
+            "doors": {
+              "trait": "Your presence is the warm center other lives arrange themselves around. People come in from their cold weeks and hold their hands out to you, mostly without noticing the gesture. The warmth is steady, unconditional, and quietly expensive to maintain. Nobody sees the fuel line. You are the fuel line.",
+              "scene": "Sunday afternoons at yours have become load-bearing for at least five people, including one who mostly sits near the conversation without joining it. Nothing is organized. Soup happens, light happens, and everyone leaves warmer than they arrived. The tradition has no name and perfect attendance.",
+              "outside": "People describe your home with their shoulders, dropping them. New partners get brought to you early, unofficially, for climate testing. The verdictless warmth you offer has become the family’s reference temperature, and holidays anywhere else get compared to it, quietly, in the car home."
+            }
+          },
+          {
+            "word": "Encouraging",
+            "doors": {
+              "trait": "You warm other people’s small flames on principle. The shaky first attempt, the half-announced dream, the try that failed: each gets your specific heat, aimed at the part that was brave. People attempt things in your presence they would not risk elsewhere. That is the whole climate you run.",
+              "scene": "Your niece showed you eleven seconds of a song she was too shy to finish, and your response, proportionate and warm and precise, is why there is now an EP. She thanked you in the liner notes for hearing it before it existed. You framed nothing. You remembered everything.",
+              "outside": "People rehearse their announcements on you first, using your reaction as the prototype for braver telling. The pattern is invisible until you map it: half the leaps in your circle checked their footing against your encouragement first. You are the base camp several summits never mention."
+            }
+          },
+          {
+            "word": "Restorative",
+            "doors": {
+              "trait": "Time near you repairs people. The burned-out friend, the post-hospital parent, the teenager mid-storm: they sit in your warmth doing apparently nothing, and leave with something reattached. You never announce a treatment. You just keep the light on and the questions gentle, and mending happens.",
+              "scene": "Your brother spent three weekends on your couch after the divorce, barely speaking, watching cooking shows. You fed him, asked nothing, and let the couch work. On the fourth weekend he fixed your cabinet hinge, unprompted, whistling. You both understood the hinge was a discharge summary.",
+              "outside": "There is a folding of people into your care that everyone recognizes and nobody has named: after the bad news, so-and-so should probably go to yours. It is spoken like protocol. Your spare bed has hosted more recoveries than some clinics, at a fraction of the paperwork."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Coddling",
+            "doors": {
+              "trait": "Your warmth removes obstacles that were doing important work. The struggle gets pre-solved, the consequence intercepted, the difficulty warmed away before it could teach anything. The people you love stay comfortable and stay soft, and the softness eventually presents its own bill, addressed to them.",
+              "scene": "Your son’s overdue essay got rescued by your midnight edit, again, the fourth rescue this term. His grades are excellent and weightless. The teacher suspects, the boy knows, and some part of him has begun to calculate, correctly, that finishing things is optional in a heated house.",
+              "outside": "Other adults watch you absorb consequences meant for people you love, and bite their tongues at various speeds. The kids are lovely and unweathered. Where resilience should be forming, there is instead a well-tended warmth, and everyone except you can see the forecast it cannot survive."
+            }
+          },
+          {
+            "word": "Dependent",
+            "doors": {
+              "trait": "Being needed became your fuel, and the tank runs low without it. The empty nest, the recovered friend, the crisis that resolves: each healthy ending registers somewhere in you as a small layoff. You keep people slightly cold, unconsciously, to stay employed as their warmth.",
+              "scene": "When your daughter said the therapy was working and she felt genuinely okay, your joy arrived with a strange undertow you inspected later, alone. That week you called her twice with concerns she did not have. She noticed. The okay-ness held anyway, which helped and hurt.",
+              "outside": "People manage their independence around your feelings, staging their strength gently, keeping small needs alive for you like pilot lights. It is tender and slightly backwards, everyone caring for the caregiver by performing need. The healthiest thing anyone could give you is nothing to fix. Nobody dares yet."
+            }
+          },
+          {
+            "word": "Drowsy",
+            "doors": {
+              "trait": "Comfort has lowered your flame to standby. The naps lengthen, the plans soften, the day organizes itself around warmth and ease, and ambition visits like a former colleague, fondly and briefly. Nothing hurts. Nothing much happens either, and the two facts are holding hands.",
+              "scene": "The afternoon disappeared again into the warm chair, the blanket, the something on in the background. The course tab is still open from Tuesday, bookmarked under a nap. At six you surfaced, cozy and faintly disappointed, and made tea, which resolved the disappointment into evening.",
+              "outside": "Your people have stopped scheduling you before noon or after eight, fitting themselves into your waking window with practiced ease. Plans involving you acquire cushions automatically. The affection is intact, and the shared unspoken knowledge too: the fire is banked so low now, it mostly keeps itself warm."
+            }
+          }
+        ]
+      }
+    }
   }
 }

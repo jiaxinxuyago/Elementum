@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Clear-channeled",
+            "doors": {
+              "trait": "Your discipline flows in built channels: the routine, the process, the documented way. Where others improvise and flood, you move the same water through the same course daily, and things downstream can rely on it. Order, in your hands, is irrigation rather than dam.",
+              "scene": "The morning sequence has not changed in nine years: the walk, the list, the first hard task before mail. Colleagues set meetings around it like farmers around rainfall. On the rare day the sequence breaks, three people ask if everything is alright. It usually is, by ten.",
+              "outside": "Systems you build keep working after you leave them, which people discover with surprise and gratitude. The handover document from your last role is still in use, verbatim, four successors later. Somebody described inheriting your process as moving into a house with the plumbing already perfect."
+            }
+          },
+          {
+            "word": "Composed",
+            "doors": {
+              "trait": "You hold your shape under pressure the way deep water holds its level: visibly, reassuringly, without effort you would admit to. The difficult meeting, the public mistake, the audit: your surface stays level, and everyone in the region borrows a little of it.",
+              "scene": "When your name was mentioned unfairly in the all-hands, forty faces turned to watch yours. It gave them nothing: a nod, a note taken, a follow-up requested calmly afterward through channels. The retraction came within the week, and your pulse, whatever it did, did it privately.",
+              "outside": "People bring you bad news first, specifically, because your reaction never adds to the problem. The messengers relax mid-sentence, watching it land in still water. What it costs you to keep the surface level is a figure nobody has ever seen, which is the point of paying it."
+            }
+          },
+          {
+            "word": "Far-sighted",
+            "doors": {
+              "trait": "You plan at distances other people reserve for fantasy. The pension started at twenty-three, the succession question asked a decade early, the consequence spotted three moves before it forms. Present-tense people find it eerie. Future-tense people find it, eventually, in their interest.",
+              "scene": "The clause you insisted on in 2019, the one everyone called paranoid, activated last spring and saved the partnership six figures. You accepted the apologies without ceremony. The next contract contains four such clauses. Nobody calls them paranoid now. They call them yours.",
+              "outside": "People check plans against your horizon the way ships check charts, especially for the waters nobody has entered yet. Your predictions are unglamorous and mostly correct, delivered early enough to act on. The ones who listened compound the benefit. The ones who did not become examples."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Overcautious",
+            "doors": {
+              "trait": "Every risk gets weighed until it drowns. The checking, the double-checking, the waiting for conditions: your prudence has a thoroughness that outlives most opportunities. Nothing bad happens to you, statistically. The cost is that remarkably little of anything happens, and the ledger never shows it.",
+              "scene": "The investment you researched for six months appreciated forty percent while the research matured. You printed the analysis anyway, complete and correct, a beautiful audit of a ship that had sailed. It sits in the drawer with its siblings. The drawer is thick with correct conclusions.",
+              "outside": "People stopped waiting for your green light years ago, since it arrives after the intersection has cleared. They proceed, and you catch up, cautiously, once the road is proven. Your record contains no disasters and no adventures, and only one of those absences was chosen."
+            }
+          },
+          {
+            "word": "Muted",
+            "doors": {
+              "trait": "Your voice arrives pre-softened, and the softening costs content. The objection becomes a question, the question becomes a pause, the pause gets read as agreement. What you actually think is audible only at very close range, and most decisions get made from further away.",
+              "scene": "You disagreed with the plan in the meeting where it could have mattered, silently, and again in the hallway, quietly, to someone with no vote. The plan proceeded and failed roughly as you had predicted. Your prediction exists in no record. It was a very correct whisper.",
+              "outside": "Colleagues discover your opinions archaeologically, years later, over drinks: you had doubts about that? The doubts were real and beautifully reasoned and entirely internal. People would have listened, they insist. You nod, unconvinced, quietly, which is of course the whole mechanism in miniature."
+            }
+          },
+          {
+            "word": "Current-bound",
+            "doors": {
+              "trait": "The channel decides your route. The established procedure, the way it has always flowed, the course set by someone upstream years ago: you follow it faithfully, even where the banks have visibly moved. Freedom to reroute exists on paper. The water has never once tested it.",
+              "scene": "The weekly report you compile takes three hours and, as of the reorg two years ago, has no remaining readers. You suspected as much and confirmed it once, gently, then continued compiling. The channel was dug and the water flows. Somewhere that is still a reason.",
+              "outside": "People watch you execute obsolete instructions with a loyalty that would be moving on a battlefield and is puzzling in an office. New options get presented to you and acknowledged and left on the bank. The current knows one direction. Everyone has stopped suggesting there are others."
+            }
+          }
+        ]
+      }
+    }
   }
 }

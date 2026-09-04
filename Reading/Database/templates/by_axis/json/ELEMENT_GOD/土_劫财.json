@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Ground-taking",
+            "doors": {
+              "trait": "Advancing is how your body answers the world: a foot in the door, a stake in the ground, a seat claimed at tables you were not quite invited to. You expand quietly and hold what you take. By the time anyone objects, you are already infrastructure.",
+              "scene": "The abandoned corner of the office became your project station one shelf at a time, over six unremarkable weeks. Nobody approved it and nobody could unwind it, since by then the whole team used it. Management eventually labeled it, which is how conquest gets certified.",
+              "outside": "People discover your influence the way surveyors discover fences: already installed, weathered in, slightly past the property line. Nobody remembers granting the territory, and everybody relies on how well you run it. Complaints tend to die out on the walk over."
+            }
+          },
+          {
+            "word": "Tenacious",
+            "doors": {
+              "trait": "Letting go is simply not in your body’s vocabulary. The application gets resubmitted, the door gets knocked on again, the no gets treated as a scheduling issue. What you grip, you keep gripping, well past the point where everyone else’s hands opened.",
+              "scene": "The permit was denied twice, and the third application had photographs, precedents, and a cover letter that quoted the inspector back to himself. It passed. The clerk who stamped it said, with respect, that they hoped never to see your name again.",
+              "outside": "Opponents budget extra rounds for you, because your first defeat is just your intake meeting. People who watched you lose in March have learned not to celebrate, since your Aprils have a reputation. Eventually the resistance factors you in like weather and yields early."
+            }
+          },
+          {
+            "word": "Unbowed",
+            "doors": {
+              "trait": "Pressure that bends other people mostly just settles your stance. Criticism, setbacks, the year everything went wrong: your posture after each one is level ground. You take the hit, absorb it, and stand where you stood, which is its own kind of answer.",
+              "scene": "The venture failed publicly, and you showed up Monday at the usual hour with an ordinary face and a revised plan. The people waiting to see you diminished waited all week. By Friday they were reading the plan, mostly to learn what standing back up looks like.",
+              "outside": "People stop testing you after the first time they watch a real blow land and change nothing. The steadiness reads as almost unfair. Behind your back, the description is always some version of the same sentence: whatever happens, that one stays standing."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Territorial",
+            "doors": {
+              "trait": "Yours is a word your body enforces before your mind gets consulted. The parking spot, the project, the Sunday routine: incursions get met with a speed that surprises even you. Most of the invasions were imaginary. The defense spending has been extremely real.",
+              "scene": "A new hire touched your client file with good intentions, and the temperature of your reply preserved itself in the team’s memory for a year. They were trying to help. The help never came back, and now the workload is defended and entirely yours.",
+              "outside": "Colleagues navigate your territory with a map they keep updated among themselves: what not to touch, which chair is yours, when to ask versus announce. Cooperation with you has border-crossing paperwork. Some people just trade elsewhere, and you file that as respect."
+            }
+          },
+          {
+            "word": "Grudging",
+            "doors": {
+              "trait": "You keep score with geological patience. The slight from 2019 is filed, cross-referenced, and quietly load-bearing in how you treat its author. Forgiveness feels like surrendering land. So the ledger grows, and you pay its storage costs nightly without auditing what the grudges rent.",
+              "scene": "You attended the wedding and were pleasant all evening to the cousin, who never knew that the seating, the small talk, and the early exit were all footnotes to a loan unreturned in 2017. It was sixty dollars. The interest is now a relationship.",
+              "outside": "People sense the ledger without seeing it. There is a slight tax in how you greet certain names, a coolness with fifteen-year-old foundations. Newcomers get warned in shorthand: do not end up in the book. Nobody can say exactly how one gets out of it."
+            }
+          },
+          {
+            "word": "Bulldozing",
+            "doors": {
+              "trait": "When you want something, obstacles register as terrain rather than as people. The plan rolls forward, objections get graded flat, and you genuinely do not hear the crunch. Afterward the path is open and efficient, and someone behind you is holding pieces of their fence.",
+              "scene": "The family holiday got decided in one message, yours, sent before the poll you had proposed finished collecting votes. Three people had conflicts. The trip was excellent and efficiently run, and two of the three still bring up the poll, humorously, in a specific tone.",
+              "outside": "People agree with you in meetings and then meet again, smaller, without you. It is not sabotage. It is the only lane where their input survives contact. You keep winning the official votes and losing informal ones you never find out happened."
+            }
+          }
+        ]
+      }
+    }
   }
 }

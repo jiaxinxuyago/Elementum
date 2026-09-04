@@ -18,7 +18,7 @@
       "catalyst": [
         "Dazzling",
         "Quick-witted",
-        "Incandescent"
+        "White-hot"
       ],
       "friction": [
         "Provocative",
@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Dazzling",
+            "doors": {
+              "trait": "When you switch on, everyone else becomes background lighting. The presentation, the toast, the argument you decide to win in style: your output has wattage that cannot be taught, and attention finds you the way moths find porch lights, reliably and a little helplessly.",
+              "scene": "You took the graveyard slot at the conference, the one after lunch on the last day, and by minute six people were texting colleagues to come in. The recording circulated for months. The organizers moved you to the keynote the following year, apologizing for the delay.",
+              "outside": "People plan events partly around whether you will be on form, because your form changes the evening’s category. The risk is known and priced in: you might outshine the occasion itself. Twice now, the couple’s wedding is mostly remembered for your toast. They quote it fondly, mostly."
+            }
+          },
+          {
+            "word": "Quick-witted",
+            "doors": {
+              "trait": "Your mind moves at spark speed. The comeback arrives while the setup is still landing, the solution mid-question, the joke exactly on the beat. In fast company you are the fastest thing present, and slow company speeds up around you out of self-respect.",
+              "scene": "The client’s curveball question, the one designed to embarrass, got an answer so fast and clean that the questioner laughed and wrote it down. Your team debriefed the moment for a week. You could not remember composing the reply. It had simply been lit and ready.",
+              "outside": "People stop mid-story around you to say do not steal this, knowing your version will be funnier by dinner. Writers in your circle keep notes on things you said in passing. At least one printed mug exists. You signed it, obviously, since the line was yours."
+            }
+          },
+          {
+            "word": "White-hot",
+            "doors": {
+              "trait": "At full intensity you do in hours what committees do in quarters. The deadline crunch, the final rehearsal, the last mile: your heat concentrates into something close to alarming, and the output comes back changed at a molecular level. Nobody asks what it costs. It visibly costs.",
+              "scene": "The pitch was due at nine and dead at midnight, so you burned from midnight to six and delivered something that made the original plan look like a rough draft of your rough draft. The client signed by lunch. You slept through the celebration, honorably.",
+              "outside": "Colleagues describe your peak state with fire-safety vocabulary, half joking. When you lock in, people clear the area and route materials toward you, knowing the window is real and finite. What comes out of those windows has won accounts, contests, and one national award. Handle accordingly."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Provocative",
+            "doors": {
+              "trait": "You poke things to watch them jump. The needling question at the calm dinner, the opinion calibrated to singe, the topic everyone buried, exhumed by you at speed. Reaction is your proof of life, and peace, in your hands, keeps getting tested for flammability.",
+              "scene": "The family lunch was going suspiciously smoothly, so you asked your uncle about the election, twice, with eye contact. The predictable fire arrived on schedule. You watched it burn with the satisfaction of an arsonist reviewing his work, and left before the cleanup, as usual.",
+              "outside": "Hosts seat you the way fire marshals plan exits: deliberately and with contingencies. Your provocations are often genuinely interesting, which is the defense you always offer. But friends have started previewing guest lists with you, and the previews have the tone of safety briefings."
+            }
+          },
+          {
+            "word": "Scene-stealing",
+            "doors": {
+              "trait": "Attention is oxygen, and you take yours from whoever currently holds it. The birthday girl, the grieving widow, the colleague mid-triumph: within minutes the light has somehow bent toward you, and you honestly did not plan it. The reflex plans it. You just execute.",
+              "scene": "At the retirement party, the guest of honor spoke for eight minutes, and your follow-up story, told from the floor, ran eleven and got bigger laughs. People checked the retiree’s face without meaning to. You were magnificent. It was, everyone agreed later, exactly the problem.",
+              "outside": "Friends love you and have learned to schedule you: the big news gets announced before you arrive or after you leave. Nobody has ever said this to your face, and the calendar work involved is considerable. You would be devastated to see it. It is very carefully hidden."
+            }
+          },
+          {
+            "word": "Combustible",
+            "doors": {
+              "trait": "Your anger lives close to the surface, pre-mixed and waiting for a spark. The wrong tone, the third interruption, the printer at the worst moment: ignition is instant, spectacular, and mostly brief. The flare passes quickly for you. The scorch marks have a longer schedule.",
+              "scene": "The parking dispute lasted ninety seconds and cost a friendship of nine years. You were over it by evening and composed a warm apology, which was accepted the way one accepts a document. The dinners never resumed. The whole thing had taken less time than the parking.",
+              "outside": "People handle you with mitts they pretend are casual. Certain topics arrive pre-softened, certain news gets staged across days, and your reactions get war-gamed before big announcements. You find out about the choreography occasionally, and the finding out itself requires choreography."
+            }
+          }
+        ]
+      }
+    }
   }
 }

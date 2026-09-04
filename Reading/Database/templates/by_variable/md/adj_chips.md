@@ -31,15 +31,15 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Razor-witted · Piercing · Virtuosic |
+| `catalyst` | Razor-witted · Piercing · Masterful |
 | `friction` | Cutting · Merciless · Contemptuous |
 
 ### The Horizon · 金_偏财
 
 | Field | Value |
 |---|---|
-| `catalyst` | Quick-eyed · Polished · Venturesome |
-| `friction` | Mercenary · Acquisitive · Restless |
+| `catalyst` | Quick-eyed · Polished · Adventurous |
+| `friction` | Mercenary · Grabby · Restless |
 
 ### The Steward · 金_正财
 
@@ -67,7 +67,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Fine-tuned · Discerning · Ingenious |
-| `friction` | Cryptic · Hair-splitting · Cloistered |
+| `friction` | Cryptic · Hair-splitting · Shut-in |
 
 ### The Sage · 金_正印
 
@@ -81,7 +81,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Self-grounded · Solid · Dependable |
-| `friction` | Entrenched · Immovable · Set-apart |
+| `friction` | Entrenched · Hard-headed · Set-apart |
 
 ### The Rival · 土_劫财
 
@@ -95,21 +95,21 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Hearty · Settled · Providing |
-| `friction` | Complacent · Sluggish · Cosseted |
+| `friction` | Complacent · Sluggish · Pampered |
 
 ### The Virtuoso · 土_伤官
 
 | Field | Value |
 |---|---|
 | `catalyst` | Ground-breaking · Wry · Unconventional |
-| `friction` | Contrarian · Sardonic · Quake-prone |
+| `friction` | Contrarian · Eye-rolling · Quake-prone |
 
 ### The Horizon · 土_偏财
 
 | Field | Value |
 |---|---|
 | `catalyst` | Shrewd · Well-traveled · Bountiful |
-| `friction` | Land-hungry · Restive · Spread-thin |
+| `friction` | Land-hungry · Never-settled · Spread-thin |
 
 ### The Steward · 土_正财
 
@@ -130,7 +130,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Rock-steady · Just · Load-bearing |
-| `friction` | Ponderous · Rule-bound · Ossified |
+| `friction` | Slow-moving · Rule-bound · Set-in-stone |
 
 ### The Alchemist · 土_偏印
 
@@ -200,7 +200,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Straight-growing · Honorable · Exemplary |
-| `friction` | Stiff · Overformal · Hidebound |
+| `friction` | Stiff · Overformal · Change-proof |
 
 ### The Alchemist · 木_偏印
 
@@ -228,7 +228,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Tide-riding · Nervy · Quicksilver |
-| `friction` | Undermining · Covetous · Slippery |
+| `friction` | Undermining · Envious · Slippery |
 
 ### The Artisan · 水_食神
 
@@ -255,7 +255,7 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Prudent · Steady-flowing · Provident |
+| `catalyst` | Prudent · Steady-flowing · Well-prepared |
 | `friction` | Dammed-up · Wary · Clutching |
 
 ### The General · 水_七杀
@@ -276,7 +276,7 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Deep-diving · Prescient · Subtle |
+| `catalyst` | Deep-diving · Tide-reading · Subtle |
 | `friction` | Submerged · Elusive · Unreachable |
 
 ### The Sage · 水_正印
@@ -304,14 +304,14 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Radiant · Convivial · Heartwarming |
+| `catalyst` | Radiant · Festive · Heartwarming |
 | `friction` | Comfort-chasing · Extravagant · Slack |
 
 ### The Virtuoso · 火_伤官
 
 | Field | Value |
 |---|---|
-| `catalyst` | Dazzling · Quick-witted · Incandescent |
+| `catalyst` | Dazzling · Quick-witted · White-hot |
 | `friction` | Provocative · Scene-stealing · Combustible |
 
 ### The Horizon · 火_偏财
@@ -354,4 +354,4 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Hearth-warm · Encouraging · Restorative |
-| `friction` | Coddling · Dependent · Languid |
+| `friction` | Coddling · Dependent · Drowsy |

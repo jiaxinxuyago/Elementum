@@ -22,7 +22,7 @@
       ],
       "friction": [
         "Land-hungry",
-        "Restive",
+        "Never-settled",
         "Spread-thin"
       ]
     },
@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Shrewd",
+            "doors": {
+              "trait": "Reading the real value of things is your standing talent, and it works on houses, people, and offers alike. You see the water damage behind the fresh paint and the good bones behind the ugly listing. Bad deals rarely survive your first slow walk around them.",
+              "scene": "Everyone else toured the staged interior. You spent nine minutes in the basement with a flashlight and offered twelve percent under asking, with reasons attached. The sellers argued, then folded. Two years later the neighbors are still asking how you got that price.",
+              "outside": "Friends bring you their contracts the way people bring jewelry to an appraiser. You flip straight to the page where deals go wrong, and you are rarely wrong about which page that is. Your fee is a coffee, and the savings have bought several people cars."
+            }
+          },
+          {
+            "word": "Well-traveled",
+            "doors": {
+              "trait": "Ground you have personally covered is your actual education. Markets, cities, kitchens, border towns: you learn places by standing in them, and every trip quietly becomes inventory. When a decision needs context, you usually have some, bought at the price of having been there.",
+              "scene": "The supplier problem stumped the office for a week, and you solved it with one call to a man you met at a trade fair in 2021, in a city nobody else could place. The office called it luck. Your contact list calls it coverage.",
+              "outside": "People assume your stories are exaggerated until they travel with you once and watch three strangers in two cities greet you by name. The network was not built at desks. It was built at long tables, and it keeps paying for itself in favors."
+            }
+          },
+          {
+            "word": "Bountiful",
+            "doors": {
+              "trait": "Plenty follows you around, and you spread it without doing arithmetic. The garden overproduces, the table seats extras, the referral goes out before being asked for. Abundance is your operating assumption, and somehow the assumption keeps proving itself right.",
+              "scene": "You came back from the weekend market with too much of everything, again, and by Sunday night four households had bags on their porches. Nobody keeps score, least of all you. Somehow your own porch is never empty either, which you have stopped calling coincidence.",
+              "outside": "Around you, people relax about money in a way they cannot explain. There is always somehow enough, and some extra, and a plan for the extra. Scarcity thinking finds no soil at your table, and guests leave having borrowed a little of your assumption."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Land-hungry",
+            "doors": {
+              "trait": "Wanting more ground is a hunger that eating does not fix. The bigger house asked for a better car, which asked for the second property, which asks nightly for a third. Each acquisition was supposed to be the last one. The hunger signs nothing and remembers nothing.",
+              "scene": "You opened the property app at eleven again, two years after buying the place that was supposed to end the searching. Saved listings: forty-one. The current house, by any honest measure, is enough. Enough has somehow never once felt like the finish line it promised to be.",
+              "outside": "Friends hear about each new purchase with congratulations that have grown slightly careful. They can see the pattern you narrate as progress: the goalposts move the week you reach them. Somebody once asked what amount would finally be enough. The pause afterward answered better than you did."
+            }
+          },
+          {
+            "word": "Never-settled",
+            "doors": {
+              "trait": "Staying put itches. Six months into any arrangement, your eyes drift to the exits: the next city, the next market, the next better setup. The moving was exciting the first several times. Somewhere along the way it stopped being motion toward anything and became the motion itself.",
+              "scene": "The boxes from the last move were still flat-packed in the closet when you started browsing rentals in a city you visited once. Your lease has eight months left. Your address book has three crossed-out entries per person, and your friends now write yours in pencil.",
+              "outside": "People love you from a slight distance, because the distance keeps changing. Invitations come with a built-in question mark, since nobody is sure which city you answer from this season. The freedom is real, and so is the pencil everyone writes your address in."
+            }
+          },
+          {
+            "word": "Spread-thin",
+            "doors": {
+              "trait": "Your holdings outgrew your hands a while ago. The properties, the side hustles, the commitments across three time zones all technically function, and all of them get a thinner slice of you each season. Everything is covered. Nothing is tended. The difference is starting to show.",
+              "scene": "Sunday was for the rental’s leaky tap, the market stall’s inventory, the cousin’s business plan, and the neglected tax folder. Each got forty minutes and none got finished. You fell asleep mid-list. The tap is still dripping into a bucket that has its own schedule now.",
+              "outside": "From outside, your empire looks impressive, and up close it looks tired. Tenants wait longer, partners chase you for answers, and the best opportunity of last year slipped past while you were patching the worst one. Everyone can see the stretching except the person stretched."
+            }
+          }
+        ]
+      }
+    }
   }
 }

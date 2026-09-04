@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Warm-handed",
+            "doors": {
+              "trait": "Money leaves your hands warm. The fair wage rounded up, the invoice paid the day it arrives, the tip that acknowledges the human: your dealings carry heat without waste, and people remember transacting with you the way they remember good meals, specifically and fondly.",
+              "scene": "You paid the young decorator his full quote the same evening, plus the amount his underquoting had cost him, with a note about knowing his worth. He kept the note. Three years and one thriving business later, he still bumps your jobs to the front of his book.",
+              "outside": "Tradespeople answer your calls first, sellers hold things for you unasked, and your name in a transaction thaws the terms. The premium you occasionally pay for decency keeps returning as priority, honesty, and first refusal. Your money makes friends everywhere it goes, and they all remember your address."
+            }
+          },
+          {
+            "word": "Diligent",
+            "doors": {
+              "trait": "Your effort burns steady, on schedule, without applause requirements. The daily block, the maintained log, the follow-through that arrives exactly when promised: the work gets done at a sustainable temperature, every day, and the years quietly assemble the results into something substantial.",
+              "scene": "The certification took eighteen months of Tuesday and Thursday evenings, logged without drama while louder colleagues announced bootcamps they never finished. When the title bump came, people called it sudden. The logbook, four notebooks thick by then, had a different word for it.",
+              "outside": "Managers hand you the long-burn projects, the ones that die in flashier hands, because your fire does not need feeding by an audience. What you tend, finishes. The portfolio of finished things has become your entire argument, and it wins every review without your voice rising once."
+            }
+          },
+          {
+            "word": "Bankable",
+            "doors": {
+              "trait": "Your word converts to certainty at full rate. The quote holds, the date holds, the handshake survives price movements: people budget on your commitments the way they budget on arithmetic. Being counted on is your asset class, and its yield compounds in reputation.",
+              "scene": "The contractor overran and your quote did not, absorbing the difference exactly as promised, exactly once. The client noticed both halves: the cost you ate and the silence you ate it with. Their next three projects arrived un-tendered, with a note: your number is the number.",
+              "outside": "Around you, people stop building contingencies. The backup plans for your deliverables have quietly disappeared from other people’s spreadsheets, which is the highest compliment operations can pay. New partners get told simply: whatever that one says will happen, price it as done."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Tight-fisted",
+            "doors": {
+              "trait": "The flame gets rationed like the last match. The heating negotiated by degrees, the gift budgeted to the occasion’s minimum, the generosity metered through a nozzle: nothing is ever quite wasted, and nothing is ever quite warm. The savings are real. So is the temperature.",
+              "scene": "The birthday gift was practical, correctly sized, and returned the following week for something the recipient actually wanted, an exchange conducted politely and remembered longer than the birthday. You noticed the return in the account. You did not mention it. Neither did they, at length.",
+              "outside": "People have quietly re-sorted you from ask to do not bother, and the re-sorting saved you money that cost you invitations. The rounds you never bought, the collections you queried, the split hairs at every bill: each small defense held. The territory it defended has emptied."
+            }
+          },
+          {
+            "word": "Anxious",
+            "doors": {
+              "trait": "Money worry runs in you like a pilot light, never quite off. The balance gets checked at midnight, the small expense triggers the big spiral, and windfalls arrive pre-ruined by the question of losing them. The accounts are healthy. The relationship with them is not.",
+              "scene": "The unexpected dental bill was covered by any of four accounts, and still cost you a weekend of recalculating retirement projections at the kitchen table, again, with the door closed. Your partner watched the light under the door. The numbers were fine. The light stayed on till two.",
+              "outside": "People around you have learned that financial topics change your breathing, and they steer accordingly: trips proposed with cost worked out in advance, gifts disguised as luck. The care is loving and constant and slightly exhausting, and everyone maintains it because the alternative is watching you calculate."
+            }
+          },
+          {
+            "word": "Overcareful",
+            "doors": {
+              "trait": "Every risk gets triple-checked until it leaves. The opportunity waits while you verify, the verified thing waits while you re-verify, and the moment, which had a temperature, cools to safe and worthless. Nothing bad gets past you. The cost is everything that needed slight courage.",
+              "scene": "The franchise opportunity cleared your first review, your second, and your accountant’s, and died awaiting your third, taken instead by a former colleague with worse analysis and a signature. Their opening party invitation sat on your counter for a month. You checked their numbers annually, after.",
+              "outside": "People pitch you first for rigor and elsewhere for money, a routing everyone understands and nobody explains to you. Your due diligence is borrowed by half your circle, applied to deals you declined. The finder’s fees that never existed would, by now, have funded the caution."
+            }
+          }
+        ]
+      }
+    }
   }
 }

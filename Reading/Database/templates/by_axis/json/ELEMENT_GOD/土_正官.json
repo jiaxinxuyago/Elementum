@@ -21,9 +21,9 @@
         "Load-bearing"
       ],
       "friction": [
-        "Ponderous",
+        "Slow-moving",
         "Rule-bound",
-        "Ossified"
+        "Set-in-stone"
       ]
     },
     "k2_domain_readings": {
@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Rock-steady",
+            "doors": {
+              "trait": "Reliability is your signature act, performed so long it stopped being a performance. You are where you said, when you said, doing what you agreed. Whole systems, families, and rosters get planned around the fact of you holding, and you simply keep holding.",
+              "scene": "In eleven years you have missed the Thursday pickup twice, both hospital-grade reasons, both with a backup already arranged. The coach plans the schedule around your name first. Somewhere a whole carpool’s architecture rests on a person who just does not cancel.",
+              "outside": "People stop confirming with you after the first year, which is its own trophy. Plans that touch you are considered anchored. When someone flakes, the group’s sentence is always the same: at least we know so-and-so is coming. You are the so-and-so."
+            }
+          },
+          {
+            "word": "Just",
+            "doors": {
+              "trait": "Fairness runs your decisions even when favoritism would be cheaper. The rules apply to your favorite and your rival at the same rate, and to you first of all. People may dislike your ruling. They have stopped questioning how you reached it.",
+              "scene": "You gave your closest friend the same late penalty you gave the stranger, and paid your own penalty the month your half of the paperwork slipped. The friend sulked for a week. The system survived, and it survives specifically because everyone watched you charge yourself.",
+              "outside": "Disputes come to you pre-softened, because both sides expect straight scales and dress accordingly. Your judgment gets borrowed by people who cannot agree on anything else. Being trusted like that is quiet, unpaid work. You do it anyway, and the peace holds."
+            }
+          },
+          {
+            "word": "Load-bearing",
+            "doors": {
+              "trait": "Heavy things migrate to you because you keep accepting them, and structures form on top. The team’s hardest account, the family’s paperwork, the club’s finances: whatever must not fail gets filed under your name. You carry it evenly and rarely mention the tonnage.",
+              "scene": "When the audit came, three departments discovered that their processes all ran through one spreadsheet you maintain at seven each Monday. Nobody had documented this. The auditor asked what happens if you go on holiday. The silence answered thoroughly, and the holiday remains theoretical.",
+              "outside": "People sleep better because certain things are yours, and most could not list what those things are. The load only becomes visible when you are sick for a week and four small systems wobble. Everyone notices then. Everyone forgets again by the next quarter."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Slow-moving",
+            "doors": {
+              "trait": "Your pace has one setting, geological, and urgency does not shift it. The decision will be right and it will be late, in that order. Opportunities with expiry dates keep expiring in your in-tray while the due diligence achieves its usual thoroughness.",
+              "scene": "The apartment was perfect, and your offer went in nine days later, complete, notarized, and third in line. The winning bid was written on a kitchen counter the first evening. You reviewed your process afterward, carefully, over several weeks.",
+              "outside": "People bring you decisions early, padding for your timeline the way airlines pad schedules. Fast-moving partners have learned to route the urgent things around you and apologize later. Your thoroughness is real, and it keeps buying quality with time that some things did not have."
+            }
+          },
+          {
+            "word": "Rule-bound",
+            "doors": {
+              "trait": "The rule outranks the situation for you, even when the situation is standing right there. Exceptions feel like structural damage, so the form gets filled, the channel gets followed, the spirit occasionally suffocates inside the letter. Order is kept. What order was for gets misplaced.",
+              "scene": "The refund was obviously deserved, and you declined it because the receipt was two days outside the window. The customer left angry and told the story often. Head office would have approved the exception. The window had not, and you answer to windows.",
+              "outside": "People experience you as a well-run tollbooth: fair, predictable, and immovable at exactly the moments that needed a human. Colleagues save their workarounds for your days off. The rules you enforce so faithfully were written by people who assumed more discretion than you spend."
+            }
+          },
+          {
+            "word": "Set-in-stone",
+            "doors": {
+              "trait": "Once your position sets, it sets. New evidence arrives and finds the concrete already cured. You call it consistency, and it often is, and sometimes it is just the memory of a decision outliving every reason that made it.",
+              "scene": "You still refuse that vendor over an incident from 2016 whose participants have all left both companies. The current rep is excellent, and their quote came in lowest. The stone does not read quotes. The stone remembers 2016, and the contract went elsewhere, again.",
+              "outside": "People have stopped bringing you second chances, for vendors or for people, because the outcome is pre-decided. Your world is firm, and its firmness is finished. In the archive of closed cases sit a few that deserved reopening, and everyone knows which ones except you."
+            }
+          }
+        ]
+      }
+    }
   }
 }

@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Thrifty",
+            "doors": {
+              "trait": "Getting full value out of things is a craft you practice daily and almost invisibly. The repaired instead of replaced, the bought-once-properly, the leftovers built into a second dinner. Waste offends you mildly and constantly, and your accounts show what mild constant offense saves.",
+              "scene": "The winter coat is on its ninth season, re-zipped twice by the tailor whose name you know. Colleagues in this year’s jackets tease you about it. The retirement account you never mention could quietly buy everyone at the table a coat store.",
+              "outside": "Friends borrow your judgment before big purchases, because you know where quality actually lives at every price. Your advice has saved them thousands, delivered without a single lecture about their spending. They only suspect the size of what your own restraint has built."
+            }
+          },
+          {
+            "word": "Steadfast",
+            "doors": {
+              "trait": "Holding course is your competitive advantage in a distractible world. The plan from January is still the plan in September, adjusted, funded, on schedule. Shiny alternatives pitch themselves at you weekly and bounce off politely. What you committed to, you finish.",
+              "scene": "While the group chat cycled through four investment fads in a year, your boring monthly transfer went through forty-eight times, unphotographed. Two of the fads ended badly for people you love. Your account did the thing accounts are supposed to do, quietly, again.",
+              "outside": "People set their watches by your consistency and occasionally roll their eyes at it, until their own zigzags total up. Then they come asking about the boring transfer. You show them the math, kindly, without once saying the sentence you have earned."
+            }
+          },
+          {
+            "word": "Well-stocked",
+            "doors": {
+              "trait": "Reserves are your love language and your strategy. The pantry, the savings, the spare parts drawer, the contact who owes you one: whatever the situation needs, some corner of your life already holds it. Emergencies visit you and find the door already answered.",
+              "scene": "During the outage, your house was the one with candles, a charged power bank, cash, and cocoa. Three neighbors ended up in your kitchen playing cards by lamplight. It was, one of them said, the nicest blackout of their life. You had planned for worse.",
+              "outside": "People tease you about the stockpiles until the day they call you from a breakdown lane, a storm, or a sudden expense. You always have the thing. Around you, disasters get downgraded to inconveniences, and nobody fully registers who did the downgrading."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Hoarding",
+            "doors": {
+              "trait": "Keeping has stopped being a strategy and become a compulsion with a filing system. Money is stored rather than used, and might-need has annexed the garage. Security was the goal once. Now the piles themselves ask for protection, and you provide it nightly.",
+              "scene": "The garage has not held a car since 2019. It holds four labeled bins of cables for devices you no longer own, kept because throwing them out feels like bleeding. You bought a fifth bin last month. The car sits outside in the weather, depreciating.",
+              "outside": "Family negotiates with you before every clear-out, and loses. Guests notice the house has started belonging to its contents. The savings, which are genuinely impressive, work the same way: admired, counted, and never allowed out to actually do anything."
+            }
+          },
+          {
+            "word": "Immobile",
+            "doors": {
+              "trait": "Your money and your life share one posture: seated. The cash waits in the account earning almost nothing, the career waits in the safe role, the plans wait for a certainty that never files its paperwork. Waiting feels responsible. Compounded, it has cost more than any risk would have.",
+              "scene": "The savings sat through two boom years at a fraction of a percent while you researched, thoroughly, the accounts you never opened. The research folder is excellent. The difference between it and action, calculated once by your brother-in-law, funded his kitchen renovation.",
+              "outside": "Advisors, friends, and one very patient cousin have all presented you the same numbers and watched them lose to inertia. Nobody doubts your discipline. They doubt the strategy of a fortress that never opens its gates, even to let its own supplies grow."
+            }
+          },
+          {
+            "word": "Miserly",
+            "doors": {
+              "trait": "Spending hurts you in a place logic cannot reach, and the people around you absorb the difference. The heating waits until the frost, the tip gets calculated to the coin, the gift arrives practical and slightly under the occasion. The books balance. Warmth pays the levy.",
+              "scene": "At the anniversary dinner you queried one item on the bill, correctly, for four dollars. The table went quiet in a way the four dollars did not buy back. Your partner said nothing then and remembered it at strange moments for a year.",
+              "outside": "People plan around your tightness with small workarounds: they book the restaurant, buy the better wine themselves, stop suggesting trips. You read it as everyone overspending. They read the flinch that crosses your face at every bill, and they have stopped bringing you their celebrations."
+            }
+          }
+        ]
+      }
+    }
   }
 }

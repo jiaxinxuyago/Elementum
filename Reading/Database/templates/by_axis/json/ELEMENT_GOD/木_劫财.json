@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Fast-climbing",
+            "doors": {
+              "trait": "Upward is your body’s default direction, and speed is its signature. New job, new ladder, new wall: you find the holds faster than anyone expects, and you are halfway up before the group finishes stretching. Height that takes others years takes you seasons.",
+              "scene": "You joined in March as the junior hire and by December were running the standup, through momentum rather than coup. The org chart caught up to reality in the spring. Somebody checked the dates twice, assuming a typo. The dates were right.",
+              "outside": "Peers track your ascent with a mix of inspiration and vertigo. Some train harder because you exist, which you would take as the highest compliment. The ones who resent it are mostly resenting the mirror. You climb past both kinds without slowing."
+            }
+          },
+          {
+            "word": "Gutsy",
+            "doors": {
+              "trait": "Nerve is your renewable resource. You ask for the number with a straight face, take the shot with the game on the line, sign up before feeling ready. Fear shows up on schedule and finds you already moving, which it never quite gets used to.",
+              "scene": "You asked for forty percent above the posted range, out loud, in the actual meeting, while your co-applicants asked for the midpoint. The pause lasted four seconds. You got thirty-two percent and a reputation. Both are still compounding.",
+              "outside": "People borrow your nerve for their own risky moments, asking what you would do and then, crucially, whether you would come along. You usually would. Half your circle’s boldest stories feature you standing just off-camera, having dared them into the frame."
+            }
+          },
+          {
+            "word": "Rivalry-spurred",
+            "doors": {
+              "trait": "Competition is your fertilizer. A rival in the field and your growth doubles: the training sharpens, the hours deepen, the work finds another gear you did not know the engine had. You do not resent your rivals. You privately thank them, at the finish line.",
+              "scene": "The gym was dying at six in the morning until the newcomer started matching your pace. Within a month you were both twenty percent stronger and nodding like diplomats. Neither of you has ever named the arrangement. Both of you check the other’s numbers first.",
+              "outside": "Coaches and managers quietly use you as the pace car, placing you near whoever needs pushing. It works every time. The people you pull upward mostly like you, once they recover, and the record boards in several places carry the results of arguments you started."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Overreaching",
+            "doors": {
+              "trait": "Your reach consistently files claims your foundations cannot fund. The bigger title, the second loan, the bet sized for the person you plan to become: each grab lands just past stable, and the wobble afterward is now a recognizable season of your life.",
+              "scene": "The renovation budget was set, then exceeded by the better tiles, then by the wall that became optional, then structural, then gone. The house is beautiful and the debt has a view. You have started describing year five of the two-year plan as phase two.",
+              "outside": "Lenders, partners, and family have all developed the same small pause before your proposals. They have watched the pattern: brilliant start, stretched middle, scramble. They still say yes, usually at reduced exposure, and keep a quiet reserve for the scramble."
+            }
+          },
+          {
+            "word": "Turf-guarding",
+            "doors": {
+              "trait": "Your patch gets defended with energy the patch itself never asked for. The account, the role, the recipe, the driving route: colleagues, siblings, and once a wedding DJ have all met the fence unexpectedly. Sharing feels like shrinking. So the fence grows instead.",
+              "scene": "The new colleague suggested a small improvement to your process, and your reply, though polite, contained a full title deed. The improvement was good. It surfaced eight months later from someone else and you fought it again, on principle, before quietly adopting it.",
+              "outside": "People pitch changes to your areas through intermediaries now, or wrapped as your own idea returned. It works, which is its own commentary. The domain stays yours and stays smaller than it would be, and everyone but you has done that math."
+            }
+          },
+          {
+            "word": "Rash",
+            "doors": {
+              "trait": "Your body signs before your mind reads. The quit, the purchase, the lane change, the reply-all: executed at growth speed, reviewed at leisure. Some of your best outcomes started this way, which is the problem, because so did all of your worst ones.",
+              "scene": "You resigned on a Tuesday over a scheduling slight, without a plan, with a mortgage. It worked out, eventually, which is the version the story leads with. The four months in the middle, the ones your partner remembers differently, get summarized as a transition.",
+              "outside": "Your circle has a protocol for your announcements: wait forty-eight hours before reacting, because half of them reverse. The other half were already executed. People love the aliveness and have learned to keep helmets nearby. Somebody usually rides along, bracing."
+            }
+          }
+        ]
+      }
+    }
   }
 }

@@ -18,7 +18,7 @@
       "catalyst": [
         "Razor-witted",
         "Piercing",
-        "Virtuosic"
+        "Masterful"
       ],
       "friction": [
         "Cutting",
@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Razor-witted",
+            "doors": {
+              "trait": "Your intelligence has an edge you can hear. The observation lands exactly where it aims, the flaw in the argument gets opened in one line, and conversations sharpen when you join them, the way knives sharpen near a good stone. People think faster around you, in self-defense.",
+              "scene": "The consultant’s deck was forty slides of expensive fog, and your one question, asked politely at slide nine, ended the engagement by Friday. The question fit in a text message. The savings fit in a house. Your boss now brings you specifically to be asked things.",
+              "outside": "People quote your one-liners for years, slightly nervously, because the wit that delights them has clearly conducted assessments of them too. Being liked by you reads as certification. Dinner invitations follow you around, and so does a certain care in how people finish their sentences."
+            }
+          },
+          {
+            "word": "Piercing",
+            "doors": {
+              "trait": "You see through surfaces on contact: the pitch to its weakness, the person to their motive, the story to the version underneath. Politeness keeps most of it unsaid, and the world mostly cannot tell what you have already filed. The files are extensive, and accurate.",
+              "scene": "Ten minutes into the interview you had located what the polished resume was arranged to hide, and asked about it kindly, and the candidate, after a pause, gave the first honest answer of the morning. You hired her. She later said that question changed how she interviews.",
+              "outside": "People feel read by you and check their own behavior retroactively after conversations. The perceptiveness is unsettling in exactly one direction: nothing performed survives it. Around you, colleagues have learned to bring the real version early, since the other kind just costs an extra meeting."
+            }
+          },
+          {
+            "word": "Masterful",
+            "doors": {
+              "trait": "Whatever craft holds your attention gets taken to the metal limit. The skill is not dabbled at, it is pursued through the plateau, past the point where everyone else declared good enough, into territory where your work becomes the local definition. Mastery is simply where your standards live.",
+              "scene": "Your presentation files get passed around after you leave companies, studied like museum pieces: the pacing, the slides, the answers that seemed pre-loaded for every question. A former colleague admitted keeping a folder named after you, opened before her own big meetings, for calibration.",
+              "outside": "In your field, your name has become an adjective among people who have never met you. New hires get shown your work as the ceiling, which creates two camps: the inspired and the discouraged. Both camps, notably, cite the same files. Neither has matched them yet."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Cutting",
+            "doors": {
+              "trait": "Your words leave edges in people. The observation was accurate, the phrasing was clean, and the person carrying it home was bleeding in a way neither of you acknowledged at the time. Accuracy is your alibi. It has covered a remarkable amount of damage.",
+              "scene": "You described your friend’s new business idea as a lemonade stand with a logo, in front of the group, to real laughter. The line was perfect. The business, which succeeded, launched without your knowledge a year later, and you learned about it from a billboard.",
+              "outside": "People edit themselves entering your company, pre-checking their enthusiasms for exposed surfaces. The conversations stay bright and slightly armored. What you lose is the unguarded material, the tender first drafts of people, which now get shown to blunter audiences first, or only."
+            }
+          },
+          {
+            "word": "Merciless",
+            "doors": {
+              "trait": "Weakness activates something in you that forgot to install brakes. The struggling presenter gets the hardest question, the failing argument gets dismantled past its surrender, the flinch invites a second cut. You call it rigor. The people watching call it something they discuss on the way home.",
+              "scene": "The junior analyst’s numbers fell apart under your questioning, which was fair, and then continued falling apart for eleven more minutes, which was not. The team studied their laptops. He recovered professionally, eventually, at another firm, and tells the story as formative, in the surgical sense.",
+              "outside": "Opponents prepare for you like weather events and allies quietly hope you stay aimed elsewhere. The fear is real capital, and you spend it efficiently. What it cannot buy, notably, is the thing adjacent teams have and yours lacks: people willing to be wrong out loud."
+            }
+          },
+          {
+            "word": "Contemptuous",
+            "doors": {
+              "trait": "Most people fail an exam you never announce. The mediocre effort, the fuzzy thinking, the ordinary taste: each gets silently graded and permanently filed, and the grade leaks through your face at doses everyone can read. Respect from you is rare currency. Its scarcity is the design.",
+              "scene": "Your colleague’s proud announcement of a certificate you consider trivial received your congratulations at a temperature slightly below the words themselves. He noticed, as everyone notices, the two-degree gap between what you said and what your eyebrows had already published. The certificate went undisplayed.",
+              "outside": "People compete for your approval years after leaving your orbit, a fact that would please you and should alarm you. The bar you set is real. But teams around you spend measurable energy managing the fear of your disdain, which is energy subtracted, daily, from the actual work."
+            }
+          }
+        ]
+      }
+    }
   }
 }

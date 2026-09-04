@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Self-rooted",
+            "doors": {
+              "trait": "Your footing is your own, grown from your own choices and watered on your own schedule. Approval is pleasant weather rather than required rainfall. People with shallower systems topple in seasons you barely notice, and they notice you not noticing.",
+              "scene": "When the industry rumor cycle hit, half your peers rewrote their profiles within a week. You changed nothing, on the grounds that nothing about you had changed. The cycle passed. Your unchanged profile now reads as the confident one, which it always was.",
+              "outside": "People ask your opinion specifically because it was not assembled from the group’s. Your yes means yes and arrives unsponsored. In shifting alliances you are the fixed survey point, and both sides check their positions against yours without telling each other."
+            }
+          },
+          {
+            "word": "Upright",
+            "doors": {
+              "trait": "You stand the way you were grown, straight, without leaning on charm or apology. Posture is the visible part. The invisible part is a spine of small daily choices to stay vertical when leaning would pay better, and it shows in how people address you.",
+              "scene": "In the meeting where blame was being distributed creatively, you stated your part plainly, first, unprompted. The distribution stopped. Two others matched your honesty within the hour, and the meeting produced a fix instead of a story. Your sentence cost little and reset everything.",
+              "outside": "People stand slightly straighter next to you, an effect you never engineered. Nobody offers you the shady deal, the gossip, or the shortcut, having pre-read the answer in your bearing. It filters your invitations wonderfully. Only the clean business arrives."
+            }
+          },
+          {
+            "word": "Persevering",
+            "doors": {
+              "trait": "Continuing is your quiet superpower. Where motivation fails, you simply proceed: the run in the rain, the chapter after a rejection, year six of the practice everyone else left in year one. Time works for you because you never fire it.",
+              "scene": "The allotment produced almost nothing for two years, and every neighbor with better soil quit. You composted, adjusted, replanted, and in year four gave away more vegetables than the quitters had ever grown. The plot did not improve. You outlasted its learning curve.",
+              "outside": "Your persistence reads as unremarkable up close, day by day, and staggering in summary. People introduce you with numbers: fifteen years running, four hundred consecutive weeks. The numbers embarrass you slightly. They are also, everyone agrees, the whole explanation."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Standoffish",
+            "doors": {
+              "trait": "Your default distance reads as a fence with no gate signage. You join late, leave early, and hold conversations at arm’s length even when your arm wanted otherwise. People conclude you prefer it this way. Some days they are wrong, and the fence cannot say so.",
+              "scene": "At the reunion you spent forty minutes near the drinks table in a pleasant holding pattern, waiting to be approached, while three people across the lawn did the same thing, waiting for you. Everyone drove home slightly lonely. The photos look fine.",
+              "outside": "New people get warned that you take a while, delivered as advice, functioning as a moat. By the time anyone crosses it, they find someone warmer than advertised and mildly puzzled about the moat’s reputation. You built it in increments. It reads as architecture now."
+            }
+          },
+          {
+            "word": "Stubborn",
+            "doors": {
+              "trait": "Once planted, your position holds against reason, weather, and personal cost. Being wrong is survivable. Admitting it feels like being uprooted, so the argument continues past its own death, and you keep watering a stump on principle.",
+              "scene": "The thermostat war of last winter was never about degrees. Concessions were available cheaply in week one. By week six, both sides were cold and dug in, and you specifically were wearing two sweaters indoors as a form of speech.",
+              "outside": "People pick which hills to offer you carefully, knowing you will die on any of them, including the decorative ones. Negotiations with you get shorter as everyone learns the shape: agreement, or geology. Your wins are real. So is the tally of what they cost."
+            }
+          },
+          {
+            "word": "Slow-yielding",
+            "doors": {
+              "trait": "You do change, eventually, at a pace that tests everyone’s faith in the concept. New evidence gets a probation period measured in seasons. By the time you adopt the improvement, its inventor has moved on, and you present it with the calm of original ownership.",
+              "scene": "You resisted the phone upgrade for three years, listing principled objections, and then loved it within a week of surrendering. The pattern has repeated with the car, the software, and one entire relationship. The objections were never about the thing. They were about being moved.",
+              "outside": "People learn to plant ideas near you and walk away, returning months later to find them adopted and slightly renamed. Pushing speeds nothing and delays plenty. Your eventual yes is solid, everyone agrees, and everyone budgets a fiscal year for it."
+            }
+          }
+        ]
+      }
+    }
   }
 }

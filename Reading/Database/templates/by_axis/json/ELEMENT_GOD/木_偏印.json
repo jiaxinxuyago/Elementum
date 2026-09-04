@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Cross-pollinating",
+            "doors": {
+              "trait": "Your mind grafts ideas across fields that never formally met. The biology podcast fixes the pricing problem, the poetry course improves your code reviews. Nothing you learn stays in its own bed, and the hybrids that result are yours alone.",
+              "scene": "The logistics fix that saved the quarter came, by your own account, from a documentary about ant colonies watched at one in the morning. You explained the connection twice and it survived neither explanation. It worked anyway. The warehouse now runs on ants, unofficially.",
+              "outside": "Colleagues have learned that your reading list is a leading indicator of next quarter’s ideas, and that none of it will look relevant at the time. Mushrooms, medieval trade, birdsong. Six months later one of them is a strategy. Nobody can predict which."
+            }
+          },
+          {
+            "word": "Perceptive",
+            "doors": {
+              "trait": "You notice the understory, the layer below what people say. The pause before the yes, the meeting scheduled suspiciously early, the plant someone stopped watering. Your reads arrive quietly and early, and they are right often enough to be slightly unsettling.",
+              "scene": "You told your partner the neighbors were splitting up three months before the moving truck confirmed it, citing only the way they parked. It sounded absurd in March. In June it sounded like surveillance. It was neither. It was the parking, plus attention.",
+              "outside": "Friends run their situations past you the way farmers check soil, quietly and before committing. You rarely volunteer what you see, which people mistake for not seeing. The few who ask directly get answers that reorganize their month, and they learn to ask again."
+            }
+          },
+          {
+            "word": "Quietly-original",
+            "doors": {
+              "trait": "Your originality does not perform. It compounds in notebooks, side folders, and long walks, surfacing as finished oddness months later. People are startled to discover you invented things they assumed had teams behind them. You never mentioned it. Mentioning was never the point.",
+              "scene": "The tool the whole department uses daily was built by you over one quiet winter, released without announcement, discovered by accident in a shared drive. It has no logo and no documentation. It also has no competition, and everyone knows who to thank, silently.",
+              "outside": "The flashy thinkers get the conference slots, and then privately message you afterward. Your ideas travel by word of mouth among people who make things, unbranded and load-bearing. Fame keeps missing you, and influence, checking the records, never has."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Tangled",
+            "doors": {
+              "trait": "Your thoughts grow into each other until no single thread pulls free. The simple question triggers the whole system: history, caveats, three related concerns, and an hour later the original question is still standing there, unanswered, holding its coat.",
+              "scene": "Asked whether you wanted the Thursday or Friday slot, you produced a consideration of both, touching childcare, traffic patterns, an article about decision fatigue, and your mother. The organizer waited, then assigned Thursday. You are still not sure Thursday was right.",
+              "outside": "People simplify their questions before bringing them to you, stripping out anything your mind might climb. It half works. What they get back is still a thicket, thorough beyond use, and they thank you and go make the decision with a coin."
+            }
+          },
+          {
+            "word": "Secretive",
+            "doors": {
+              "trait": "Information flows into you and does not flow out. Your projects, your feelings, your Tuesday afternoons: all filed under later. Nobody is deceived, exactly. They are just standing outside a hedge that grew so gradually no one remembers planting it.",
+              "scene": "Your closest friend learned about the job interview after you got the job, the apartment after you signed, and the surgery after the stitches came out. Each time they asked why. Each time the honest answer was that telling never occurred to you.",
+              "outside": "The people who love you assemble you from fragments, comparing notes like researchers with a rare species. Someone knows about the writing, someone else about the debt, nobody about both. Your privacy is total, and from their side it looks a lot like distance."
+            }
+          },
+          {
+            "word": "Reclusive",
+            "doors": {
+              "trait": "Given a free evening, you choose the den, every time, and the evenings are increasingly free because people stopped asking. Solitude feeds your mind and quietly starves the rest. The difference between retreat and disappearance is a return date, and yours keeps sliding.",
+              "scene": "The last three invitations got the same reply, drafted with real intention: next time. There was a fourth invitation. There was not a fifth. The group photo from the trip you skipped hangs in another house, complete without you, and nobody meant anything by it.",
+              "outside": "Friends now describe you in past-adjacent tense, fondly, the way people describe a lighthouse keeper. Brilliant, out there somewhere, presumably fine. Re-entry gets harder each season you stay in the trees, and the seasons have started agreeing with each other."
+            }
+          }
+        ]
+      }
+    }
   }
 }

@@ -22,7 +22,7 @@
       ],
       "friction": [
         "Undermining",
-        "Covetous",
+        "Envious",
         "Slippery"
       ]
     },
@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Tide-riding",
+            "doors": {
+              "trait": "Momentum is your element. When a wave forms, a trend, an opening, a hot streak, you are on it early and balanced while others are still judging the water. Timing this good cannot really be taught. You feel the swell gathering under things before it shows.",
+              "scene": "You listed the apartment the week before the neighborhood turned, joined the platform the month before it exploded, and sold the collectibles at what proved to be the peak. Asked for your secret, you shrugged: it felt full. The people who waited for proof are still waiting.",
+              "outside": "Friends watch what you do more than what you say, having learned your moves front-run the news. When you quietly start something, a few of them start it too, uninvited, downstream. Your wake has carried more people to shore than your advice ever did."
+            }
+          },
+          {
+            "word": "Nervy",
+            "doors": {
+              "trait": "Your nerves run hot and fast, and under pressure that is an asset: the reflexes fire, the words come, the move gets made while others are still inhaling. Hesitation costs more than error in your world, and you have priced both correctly for years.",
+              "scene": "The auction came down to the final ten seconds and your hand went up twice, decisively, at numbers you had set in advance and honored under fire. The slower money around you watched the hammer fall. Outside, someone asked if you were scared. Only usefully, you said.",
+              "outside": "People want you beside them at exactly the moments they dread: the confrontation, the deadline, the phone call with everything riding. Your presence converts their fear into motion. You have talked more people through more brave moments than anyone realizes, always at speed."
+            }
+          },
+          {
+            "word": "Quicksilver",
+            "doors": {
+              "trait": "You change direction without losing momentum, which physics suggests should be impossible. The pivot, the comeback, the mid-air adjustment: your plans are liquid and your recovery is instant. Watching you move through a shifting situation is like watching mercury find its way downhill.",
+              "scene": "The presentation crashed on slide two, and by slide never you were performing the whole thing from memory, better, with jokes about the crash stitched in. The client signed. Your teammate still keeps the corrupted file, as a relic of the day disaster improved the pitch.",
+              "outside": "Nobody plans around your reversals anymore. They plan with them, keeping options warm because you will find the better route mid-journey and take it without ceremony. Rigid colleagues find you maddening. The results, year after year, keep declining to support their case."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Undermining",
+            "doors": {
+              "trait": "Your competitiveness works underground. The compliment with a current in it, the help that arrives slightly late, the praise for a rival delivered where it does maximum quiet damage. On the surface, all is warmth. Below, the sand is always moving under someone.",
+              "scene": "You recommended your colleague for the committee, warmly, in the same email thread where you mentioned, in passing, their overloaded quarter. The recommendation was real. So was the sinking. They did not get it, and thanked you for trying, and you accepted the thanks.",
+              "outside": "People near you sometimes find their footing giving way and cannot name why: the stalled promotion, the cooled friendship, the invitation that stopped coming. Nothing traces back. But older colleagues exchange a look when newcomers praise your generosity, and the look has tenure."
+            }
+          },
+          {
+            "word": "Envious",
+            "doors": {
+              "trait": "Other people’s tides hurt you. The friend’s windfall, the peer’s launch, the sibling’s easy luck: each lands somewhere unprotected, and your congratulations come out slightly waterlogged. You want the good things wanted. You just want them to arrive in your harbor first.",
+              "scene": "The group toasted the engagement and your glass rose with everyone’s, on a two-second delay that only you noticed. You were happy for them by Thursday, sincerely. The gap between the toast and Thursday is where your friendships keep taking on water.",
+              "outside": "Friends have started softening their good news before delivering it to you, sanding the shine off, adding disclaimers about luck. They do it out of care and do not discuss it. Your reaction was never cruel. It was just visible, every time, like weather through glass."
+            }
+          },
+          {
+            "word": "Slippery",
+            "doors": {
+              "trait": "Commitments run off you when conditions change, and conditions always change. The agreement meant everything at signing and less at settlement, the story adjusts to its audience, and blame finds you already moved downstream. Nothing sticks, which was once an advantage. People notice what nothing sticks to.",
+              "scene": "The deal you shook on in April had, by June, developed nuances nobody remembered negotiating. Your version was fluid, documented nowhere, and delivered with such ease that the other side doubted their own notes. They paid the difference. They also, quietly, retired your number.",
+              "outside": "People who have dealt with you twice bring witnesses the third time, or paper, or both. Your reputation flows ahead of you into new ventures, arriving before your charm does. The charm still works in the moment. It is the mornings after that have stopped cooperating."
+            }
+          }
+        ]
+      }
+    }
   }
 }

@@ -22,7 +22,7 @@
       ],
       "friction": [
         "Contrarian",
-        "Sardonic",
+        "Eye-rolling",
         "Quake-prone"
       ]
     },
@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Ground-breaking",
+            "doors": {
+              "trait": "Breaking new ground is how your expression works: the flat, settled, everyone-agrees surface is exactly where you start digging. Your best ideas arrive as polite earthquakes, reorganizing a topic people thought was finished. The field is never as settled as it looks, and you prove it.",
+              "scene": "The process had been the process for nine years, until your two-slide deck at the retreat. There was a silence, then laughter, then a whiteboard. By spring the old process was a story people told, and you were somehow not officially credited.",
+              "outside": "Managers learn to seat you carefully, because whatever the group has quietly agreed not to question is the first thing you will question. Half the time it is uncomfortable. The other half, the thing you dug up was the exact rock the plan was about to hit."
+            }
+          },
+          {
+            "word": "Wry",
+            "doors": {
+              "trait": "Dry is your native register. The joke arrives flat, two beats late, and lands harder for it, usually while everyone else is still being earnest. Humor is how your truth gets past security. People laugh first and only later notice what you actually said.",
+              "scene": "In the middle of the budget meeting’s third lap around the same point, you said one quiet sentence and the table broke. The meeting ended four minutes later with a decision. Your sentence had the decision folded inside the joke, which everyone realized on the stairs.",
+              "outside": "People quote you at dinners you were not invited to. The deadpan reads as harmless right up until someone writes it down, and there, in plain text, is a fairly serious critique of how things are run. You have been warned about this. The warnings were also quoted."
+            }
+          },
+          {
+            "word": "Unconventional",
+            "doors": {
+              "trait": "Doing it the standard way physically bothers you, the way a crooked picture frame bothers other people. Your methods look wrong until the results arrive. The spreadsheet is shaped strangely, the pitch skips the template, and both work for reasons the template never considered.",
+              "scene": "You taught the training session backward, results first, theory never. The feedback forms split perfectly: half the class wanted the old slides back, half said it was the first training they had ever stayed awake for. You kept the backward version and the split.",
+              "outside": "Coworkers describe your methods with a hand gesture, because words take too long. Nobody fully approves and nobody interferes, since the last person who standardized your workflow watched output drop by half. You are the licensed exception, and the license renews on results."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Contrarian",
+            "doors": {
+              "trait": "Disagreeing arrives before your reasons do, and sometimes instead of them. Whatever the group settles on, something in you stands up to unsettle it. Being the counterweight was useful so often that it became a reflex, and now it fires even when the scale was balanced.",
+              "scene": "The team finally aligned after three weeks, and your hand went up with a fresh objection you half believed. The alignment wobbled, the meeting ran long, and afterward you privately admitted the plan had been fine. The objection just refused to stay seated.",
+              "outside": "People have started pre-gaming your objections, guessing them in advance and drafting answers before you speak. It works as a system. It also means your yes has quietly lost its market value, because everyone prices in a no from you regardless of the question."
+            }
+          },
+          {
+            "word": "Eye-rolling",
+            "doors": {
+              "trait": "Contempt leaks out of you through the smallest muscles, and everyone catches it. The sigh, the half-second stare at the ceiling, the pen set down slowly. You never said the meeting was stupid. Your face published a full review before your mouth said anything.",
+              "scene": "Someone junior presented an idea you had watched fail in 2019, and your eyebrow filed its report before slide two. They finished shakily and never pitched again in your presence. You remember the flaw in the idea. They remember the eyebrow.",
+              "outside": "People rehearse before telling you things, and the rehearsal is about your face. What feels to you like honest quality control lands as a toll on everyone bringing you anything unfinished. The unfinished things have started routing around you, which is how you lose first drafts forever."
+            }
+          },
+          {
+            "word": "Quake-prone",
+            "doors": {
+              "trait": "Long stillness, then the crack: your frustration stores itself quietly and spends itself all at once. Months of fine, fine, fine, and then one Tuesday the ground moves and everyone nearby learns what was actually underneath. The eruption feels sudden to them. It was years old to you.",
+              "scene": "It was the dishwasher being loaded wrong that finally did it, which everyone understood was never really about the dishwasher. Eight months of swallowed remarks arrived in four unscheduled minutes. The kitchen went very quiet. The actual issue, named at last, turned out to be workable.",
+              "outside": "People near you learn to read the ground: the shorter answers, the tidier desk, the way your jokes stop. They start walking softly weeks before you blow, which means the whole household holds its breath on a schedule you set and cannot see."
+            }
+          }
+        ]
+      }
+    }
   }
 }

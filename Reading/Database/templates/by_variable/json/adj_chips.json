@@ -62,7 +62,7 @@
           "catalyst": [
             "Razor-witted",
             "Piercing",
-            "Virtuosic"
+            "Masterful"
           ],
           "friction": [
             "Cutting",
@@ -79,11 +79,11 @@
           "catalyst": [
             "Quick-eyed",
             "Polished",
-            "Venturesome"
+            "Adventurous"
           ],
           "friction": [
             "Mercenary",
-            "Acquisitive",
+            "Grabby",
             "Restless"
           ]
         }
@@ -152,7 +152,7 @@
           "friction": [
             "Cryptic",
             "Hair-splitting",
-            "Cloistered"
+            "Shut-in"
           ]
         }
       },
@@ -185,7 +185,7 @@
           ],
           "friction": [
             "Entrenched",
-            "Immovable",
+            "Hard-headed",
             "Set-apart"
           ]
         }
@@ -220,7 +220,7 @@
           "friction": [
             "Complacent",
             "Sluggish",
-            "Cosseted"
+            "Pampered"
           ]
         }
       },
@@ -236,7 +236,7 @@
           ],
           "friction": [
             "Contrarian",
-            "Sardonic",
+            "Eye-rolling",
             "Quake-prone"
           ]
         }
@@ -253,7 +253,7 @@
           ],
           "friction": [
             "Land-hungry",
-            "Restive",
+            "Never-settled",
             "Spread-thin"
           ]
         }
@@ -303,9 +303,9 @@
             "Load-bearing"
           ],
           "friction": [
-            "Ponderous",
+            "Slow-moving",
             "Rule-bound",
-            "Ossified"
+            "Set-in-stone"
           ]
         }
       },
@@ -475,7 +475,7 @@
           "friction": [
             "Stiff",
             "Overformal",
-            "Hidebound"
+            "Change-proof"
           ]
         }
       },
@@ -542,7 +542,7 @@
           ],
           "friction": [
             "Undermining",
-            "Covetous",
+            "Envious",
             "Slippery"
           ]
         }
@@ -606,7 +606,7 @@
           "catalyst": [
             "Prudent",
             "Steady-flowing",
-            "Provident"
+            "Well-prepared"
           ],
           "friction": [
             "Dammed-up",
@@ -656,7 +656,7 @@
         "value": {
           "catalyst": [
             "Deep-diving",
-            "Prescient",
+            "Tide-reading",
             "Subtle"
           ],
           "friction": [
@@ -724,7 +724,7 @@
         "value": {
           "catalyst": [
             "Radiant",
-            "Convivial",
+            "Festive",
             "Heartwarming"
           ],
           "friction": [
@@ -742,7 +742,7 @@
           "catalyst": [
             "Dazzling",
             "Quick-witted",
-            "Incandescent"
+            "White-hot"
           ],
           "friction": [
             "Provocative",
@@ -849,7 +849,7 @@
           "friction": [
             "Coddling",
             "Dependent",
-            "Languid"
+            "Drowsy"
           ]
         }
       }

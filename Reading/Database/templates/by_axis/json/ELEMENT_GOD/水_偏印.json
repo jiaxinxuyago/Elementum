@@ -17,7 +17,7 @@
     "adj_chips": {
       "catalyst": [
         "Deep-diving",
-        "Prescient",
+        "Tide-reading",
         "Subtle"
       ],
       "friction": [
@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Deep-diving",
+            "doors": {
+              "trait": "Your mind goes down where others skim across. A subject catches you and you vanish into it for weeks, surfacing with pearls nobody knew were down there. The depth is the method: what you understand, you understand from the floor up.",
+              "scene": "The two-hour documentary became a four-month descent through library loans, forum archives, and one email exchange with a retired professor in Finland. When you finally explained it at dinner, simply and completely, the family sat quiet. The dive had reached the bottom of something.",
+              "outside": "People ask you questions the way they lower buckets into wells, knowing the answer will come up cold and clear and from further down than expected. Experts double-check their own fields after talking to you. Nobody can tell where you find the time. The time is underwater."
+            }
+          },
+          {
+            "word": "Tide-reading",
+            "doors": {
+              "trait": "You sense turns before they announce themselves. The market mood, the friendship cooling, the industry current reversing: something in you registers the shift while the surface still looks calm. You rarely explain the read, because the read arrives without paperwork.",
+              "scene": "You moved your savings in September, citing a feeling with no citation. In November the sector everyone loved gave back three years of gains. Your brother-in-law asked how you knew. You said the water felt different, which was true and did not help him.",
+              "outside": "People have learned to note your quiet exits: from stocks, from projects, from certain gatherings. The reasons surface months later wearing headlines. Being early looks like luck each individual time. Across twenty years it looks like an instrument nobody else was issued."
+            }
+          },
+          {
+            "word": "Subtle",
+            "doors": {
+              "trait": "Your influence works below the surface, in word choices and timing rather than announcements. You adjust one sentence in the proposal, one name on the invite list, one pause in the conversation, and outcomes shift downstream. Watching for your fingerprints is pointless. Water does not leave any.",
+              "scene": "The reconciliation between your two feuding friends took place, they believe, by accident, at a dinner that happened to include both, seated apart, near topics that happened to soften them. The accident took you three weeks to arrange. Neither has ever suspected a current.",
+              "outside": "People experience your presence as things going strangely smoothly. Meetings you attend reach agreement sooner, disputes near you lose their heat, and nobody can attribute any of it. Credit slides off you like rain, which is how you prefer it. The results stay."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Submerged",
+            "doors": {
+              "trait": "You live below your own surface. The real opinions, the real feelings, the real plans sit in deep water while a calm, pleasant version of you handles the daylight. People know the surface fluently. The rest of you has not taken visitors in years.",
+              "scene": "At your own birthday dinner, surrounded by people who love you, you had the familiar sensation of attending remotely. The laughing went fine. The thank-you speech went fine. On the drive home the quiet person in the deep finally exhaled, alone again, at last.",
+              "outside": "The people closest to you describe a wall of perfect friendliness with something unreadable behind the glass. They stopped diving for you after enough attempts came back empty-handed. Now everyone treads water together politely, and calls it knowing each other."
+            }
+          },
+          {
+            "word": "Elusive",
+            "doors": {
+              "trait": "Pinning you down is a sport nobody wins. The plan stays liquid, the commitment arrives hedged, the yes has a current in it that could carry it anywhere. Even your calendar entries are written in pencil, in your head, where nobody can confirm them.",
+              "scene": "Three friends compared notes and discovered you had given each a different account of the same weekend, all technically true, none complete. Confronted gently, you flowed around the question with such grace that it took them an hour to notice it had not been answered.",
+              "outside": "People plan around you with margins, booking you the way sailors book the weather, hopefully and with backups. When you do appear, fully present, it is wonderful and mildly surprising. The group has a phrase for it: catching the tide in. It happens twice a season."
+            }
+          },
+          {
+            "word": "Unreachable",
+            "doors": {
+              "trait": "There is a depth in you that no line reaches. Partners, parents, and two good therapists have all paid out rope and come up short. It is not defense, exactly. It is that some final fathom of you has never once felt like surfacing was worth the pressure change.",
+              "scene": "In the middle of the hardest conversation of the marriage, the honest one, the one you both needed, your partner watched you descend mid-sentence: present, nodding, and gone. The words kept coming. The person behind them had left for somewhere deeper, and both of you knew it.",
+              "outside": "The people who love you have made peace, separately, with loving a horizon. They get the warmth, the humor, the company, everything but the bottom. Some stopped needing it. One or two still sit on the shore some evenings, watching the water not say anything."
+            }
+          }
+        ]
+      }
+    }
   }
 }

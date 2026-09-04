@@ -23,7 +23,7 @@
       "friction": [
         "Stiff",
         "Overformal",
-        "Hidebound"
+        "Change-proof"
       ]
     },
     "k2_domain_readings": {
@@ -61,6 +61,63 @@
         }
       }
     },
-    "fn_reading": null
+    "fn_reading": {
+      "catalyst": {
+        "ledger": [
+          {
+            "word": "Straight-growing",
+            "doors": {
+              "trait": "You grow toward the light in a straight line: education, career, family, each stage built plumb on the last. Shortcuts bend other people’s trunks. Yours rises clean, and decades later the straightness is visible from a distance, holding up more than itself.",
+              "scene": "The five-year plan you wrote at twenty-four has checkmarks on it, most of them dated within a season of the target. It is framed nowhere and referenced constantly. People ask how you knew what you wanted. You mostly knew how you wanted to grow.",
+              "outside": "Younger relatives get pointed at your life the way apprentices get pointed at level foundations. It creates a pressure you never asked for and quietly enjoy. The nickname behind your back is some version of the reliable one. Worse names exist."
+            }
+          },
+          {
+            "word": "Honorable",
+            "doors": {
+              "trait": "Your word is structural. What you promise happens, what you sign binds you, and what you would not want printed does not get done. In a market of loopholes you deal in load-bearing sentences, and people build on them without inspection.",
+              "scene": "The handshake deal from 2015 cost you money to honor when prices moved, and you honored it without renegotiating. The other party tells that story at dinners. Their referrals arrive pre-sold, doing your marketing in a currency that cannot be purchased.",
+              "outside": "Your name gets invoked to settle arguments you are not present for, as in, would that person do this. Being a unit of measurement is unpaid work with excellent hours. People behave slightly better around you, and mostly cannot say why."
+            }
+          },
+          {
+            "word": "Exemplary",
+            "doors": {
+              "trait": "Being the example is a role your conduct keeps applying for. You do the boring right thing repeatedly, visibly, without being asked, and standards form around you the way paths form where someone walks daily. Rules look livable in your vicinity, which is why they hold.",
+              "scene": "You returned the extra change, filed the honest expense report, and took the parking ticket without contesting the unfair half. Small, dull, witnessed. Two years later a junior colleague, caught in a real dilemma, did the right thing and cited you. You had said nothing.",
+              "outside": "Parents point at you, managers reference you, and the group’s behavior improves measurably when you enter. It is a strange power, being calibration. The cost is that your rare bad day gets discussed like an earthquake. The benefit is everything that quietly never goes wrong."
+            }
+          }
+        ]
+      },
+      "friction": {
+        "ledger": [
+          {
+            "word": "Stiff",
+            "doors": {
+              "trait": "Bending is not in your repertoire. The joke lands on you and stops, the change of plans arrives and finds you already braced, the hug gets received like an audit. Your uprightness holds structures up and keeps warmth at handshake distance.",
+              "scene": "The surprise party genuinely surprised you, and your first act was to check whether the kitchen had been left tidy. It had. You relaxed by degrees over ninety minutes, arriving at almost festive just as guests were leaving. They still describe you as having attended.",
+              "outside": "People warm up their news before bringing it to you, knowing spontaneity bounces off your posture. Children in the family treat you with formal fondness, like a beloved building. The loosening everyone hopes for appears only on rare evenings, and gets discussed for years."
+            }
+          },
+          {
+            "word": "Overformal",
+            "doors": {
+              "trait": "Procedure is your native tongue, spoken even at picnics. The email where a text would do, the agenda for the family meeting, the correct channels pursued at incorrect moments. Form was meant to carry respect. Somewhere along the way it started replacing contact.",
+              "scene": "Your birthday message to your oldest friend arrived typed, punctuated, and signed with your full name, as it has for thirty years. They read it aloud to their spouse in a formal voice, laughed, and then, quietly, kept it. Both reactions were about the same thing.",
+              "outside": "People adjust their register around you like visitors at a consulate, and the real conversation happens after you leave the group. You are respected in full and confided in rarely. The distance between those two facts is where your friendships wait."
+            }
+          },
+          {
+            "word": "Change-proof",
+            "doors": {
+              "trait": "New ways bounce off your bark. The updated system, the different route, the revised recipe: each gets a trial with a predetermined result. What worked keeps working, in your telling, and the world’s job is to stop moving while you finish being right.",
+              "scene": "The team migrated tools in March, and you are still exporting everything to the old format, nightly, in a private folder labeled in case. The folder has never once been needed. Its maintenance now takes longer than learning the new tool would have.",
+              "outside": "Rollouts route around you by design now, with your section handled last and by specific patient people. You experience this as respect for your seniority. It is partly that, and partly the org chart drawing a fence around the place where change goes to stall."
+            }
+          }
+        ]
+      }
+    }
   }
 }
