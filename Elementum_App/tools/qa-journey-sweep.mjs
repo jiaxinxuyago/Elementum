@@ -367,8 +367,9 @@ async function scenarioB(browser) {
   const openEnergyFor = async (el) => {
     await toCatalogue();
     await page.click(`.wheel .node[data-el="${el}"]`);
-    await page.waitForSelector('.wp-sheet.wp-dotcard .wp-codex', { timeout: 5000 });
-    await page.click('.wp-sheet.wp-dotcard .wp-codex');
+    // the CTA is the thumbnail itself (owner 2026-09-04; wp-codex retired)
+    await page.waitForSelector('.wp-sheet.wp-dotcard .wp-thumbcta', { timeout: 5000 });
+    await page.click('.wp-sheet.wp-dotcard .wp-thumbcta');
     await page.waitForFunction(() => {
       const f = document.querySelector('.jscreen[data-screen="element"].active .el-mecheq');
       return f && (f.textContent || '').trim().length > 0;

@@ -355,18 +355,27 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
       <span className="el-mvres"><span className="wd-eq el-mecheq">{s.mech.eq}</span>{mvResultFor(s)}</span>
     </div>
   ) : null;
-  // THE one-thumbnail (owner design 2026-09-02): ink art ground, everything
-  // visual composed on it — chip + identity, the equation, the dominance bar.
-  const heroThumbFor = (s) => s?.mech ? (
+  // THE one-thumbnail (owner design 2026-09-02; de-dup + cover mode owner
+  // 2026-09-04): ink art ground, everything composed on it. The role speaks
+  // ONCE, as the equation caption's conclusion — the top role chip retired
+  // (it doubled the caption pill). In cover mode the thumbnail IS the CTA:
+  // the function claim and the three keyword chips join the art, and the
+  // verdict moves off the cover (it lives on the FUNCTION tile + reading).
+  const heroThumbFor = (s, cover = false) => s?.mech ? (
     <div className="hero2 el-heroart el-heroart2">
       <span className={`hart el-art ${s.cls}`} /><span className="scrim" /><span className="hair el-hair" style={{ background: s.pig }} />
       <span className="bighz el-hz" aria-hidden="true">{s.hz}</span>
       <div className="el-herostack">
         <span className="el-herotop">
-          <span className={`rchip el-chip ${s.roleKind === 'who' ? 'corec' : s.roleKind}`}>{s.roleKind === 'up' && <Use id="ar-up" />}{s.roleKind === 'down' && <Use id="ar-down" />}{s.roleTx}</span>
-          <span className="reye el-reye"><Use id={`el-${s.el}`} /> {s.reye}</span>
+          <span className="reye el-reye" style={{ marginLeft: 'auto' }}><Use id={`el-${s.el}`} /> {s.reye}</span>
         </span>
         {mechVizFor(s)}
+        {cover && s.fnLabel && (
+          <span className="serifline el-artclaim">{s.elName} is your {s.fnLabel}.</span>
+        )}
+        {cover && m.byEl[s.el].adj?.length ? (
+          <span className="wd-adj el-artchips">{m.byEl[s.el].adj.map((a) => <span key={a} className={`wd-adjchip${(m.byEl[s.el].role === 'friction' || m.byEl[s.el].coreExcess) ? ' down' : ''}`}>{a}</span>)}</span>
+        ) : null}
         <span className="el-herobar">
           <span className="sp-track el-herotrack">
             {towers.map((t) => (
@@ -741,6 +750,11 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                   <div className="cardstock el-fncard">
                     <span className="laylab">THE FUNCTION</span>
                     <span className="serifline el-teasetitle">{elScreen.elName} is your {elScreen.fnLabel}.</span>
+                    {/* the verdict opens the page (owner 2026-09-04: moved off
+                        the cover — it lives here and on the FUNCTION tile) */}
+                    {elScreen.verdict && (
+                      <span className="el-teasep" style={{ marginTop: 3 }}>{elScreen.verdict}</span>
+                    )}
                     {/* THE GOD-GRAIN READING (owner 2026-09-03, three-doors
                         fashion; both corpora complete 2026-09-04, v3 fallback
                         retired): chip row (the scannable summary) → define ¶
@@ -912,20 +926,15 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
           <div className={`wp-sheet wp-dotcard wp-cover ${dot.tint}`} role="dialog" aria-label={`${dot.r.name} — its reading and its relation with your core`}>
             <button className="wp-x wp-coverx" aria-label="Close" onClick={() => setDotOpen(null)}><Use id="ico-close" /></button>
             <div className="wp-inner">
-              {/* THE COVER = the element page's own thumbnail (owner journey
-                  redesign 2026-09-02) — the same object heads the page this
-                  card opens; the equation is taught exactly once. */}
-              {heroThumbFor(dot.s)}
-              {/* the rung-② texts: claim · verdict · keywords (never repeated
-                  on the page — its header carries the diagnosis instead) */}
-              {dot.s.fnLabel && <p className="wd-def">{dot.r.name} is your <b>{dot.s.fnLabel}</b></p>}
-              {dot.s.verdict && <p className="wp-body wd-mean">{dot.s.verdict}</p>}
-              {/* keyword chips retired from the cover (owner 2026-09-02 rung
-                  law: cover none · function card bare · reading page glossed) */}
-              {/* arrow-only entry — the readcirc language */}
-              <button className="wp-codex" aria-label={`Open the full ${dot.r.name} reading`}
+              {/* THE CTA IS THE THUMBNAIL (owner 2026-09-04): the cover = one
+                  tappable art object — claim, keyword chips, equation, and
+                  dominance bar all composed ON it. The verdict left the cover
+                  (it lives on the FUNCTION tile and the reading page); the
+                  role speaks once, in the equation's conclusion. */}
+              <button className="wp-thumbcta" aria-label={`Open the full ${dot.r.name} reading`}
                 onClick={() => { setDotOpen(null); goElement(dot.r.el); }}>
-                <Use id="ico-arrow-r" />
+                {heroThumbFor(dot.s, true)}
+                <span className="readcirc sm wp-thumbgo"><Use id="ico-arrow-r" /></span>
               </button>
             </div>
           </div>

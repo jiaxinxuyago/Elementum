@@ -2813,6 +2813,14 @@
 .jny .el-heroart{ position: relative; overflow: hidden; border-radius: 12px; margin: 0 0 10px; }
 /* the personality keywords on the FUNCTION section (owner 2026-09-02) */
 .jny .el-fnadj{ margin: 2px 0 2px; }
+/* THE CTA IS THE THUMBNAIL (owner 2026-09-04): the cover's single tappable
+   art object — claim + chips composed on the art, arrow riding its corner */
+.jny .wp-thumbcta{ display: block; width: 100%; position: relative; padding: 0; border: 0; background: none; text-align: inherit; cursor: pointer; }
+.jny .wp-thumbcta .el-heroart2{ margin: 0; }
+.jny .wp-thumbgo{ position: absolute; right: 10px; bottom: 44px; z-index: 3; }
+.jny .el-artclaim{ display: block; margin: 10px 2px 0; font-size: 17px; color: #faf6ee; text-shadow: 0 1px 8px rgba(20,16,10,.45); }
+.jny .el-artchips{ display: flex; flex-wrap: wrap; justify-content: flex-start; gap: 5px; margin: 7px 0 2px; }
+.jny .el-artchips .wd-adjchip{ background: rgba(250,246,238,.94); border-color: transparent; box-shadow: 0 1px 4px rgba(20,16,10,.25); }
 /* the classical epigraph (mechanism v2, owner 2026-09-02) */
 .jny .el-classic{ margin: 12px 0 0; text-align: center; font-family: 'Noto Serif SC', serif;
     font-size: 15px; letter-spacing: 2px; color: var(--bronzeDark); }
