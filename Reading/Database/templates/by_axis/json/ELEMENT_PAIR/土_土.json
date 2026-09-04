@@ -18,8 +18,10 @@
     },
     "function": {
       "primary": "body",
-      "definition_catalyst": "Earth is your Body, and running thin, it is the steadiness under everything: digestion, sleep depth, the physical calm that lets you carry weight. Yours erodes quietly under skipped meals and moved bedtimes.\n\nDependable to everyone, depleted underneath. Lunch became a snack at the desk, sleep became negotiable, and the calm people rely on is being paid for out of reserves nobody sees you spending.\n\nStability is a practice before it is a trait. Rebuild with boring regularity: same waking hour, real lunches eaten sitting down, one slow day a week defended like an appointment. Let others see you rest so they learn to expect it.",
-      "definition_friction": "Earth is your Body, and running over, it is heaviness accumulating: routines hardened into ruts, comfort eaten past comfort, a body built for staying that now resists moving.\n\nSettled, comfortable, slowly cementing. The same chair, the same orders, the same weekend shape for three years running, and a low hum of dullness that gets read as contentment because it holds still.\n\nSteadiness needs motion the way ground needs rain. Walk daily at the same hour until it is simply weather. Change one fixed habit each season purely to prove you can. Say yes to one invitation a month that mildly inconveniences you."
+      "definition_catalyst": "Earth is your Body, and running thin, it is the steadiness under everything: digestion, sleep depth, the physical calm that lets you carry weight. Yours erodes quietly under skipped meals and moved bedtimes.",
+      "definition_friction": "Earth is your Body, and running over, it is heaviness accumulating: routines hardened into ruts, comfort eaten past comfort, a body built for staying that now resists moving.",
+      "advise_catalyst": "Stability is a practice before it is a trait. Rebuild with boring regularity: same waking hour, real lunches eaten sitting down, one slow day a week defended like an appointment. Let others see you rest so they learn to expect it.",
+      "advise_friction": "Steadiness needs motion the way ground needs rain. Walk daily at the same hour until it is simply weather. Change one fixed habit each season purely to prove you can. Say yes to one invitation a month that mildly inconveniences you."
     },
     "cta_verdict": "Your endurance is so quiet you forget it has limits, and the day you finally feel tired is years after you first were."
   },
@@ -29,6 +31,8 @@
     "backlog_dips_tg_pattern": {
       "mind": "Your conclusions compact like sediment until they bear weight, and nobody stampedes you off them.",
       "action": "You act like a season: slow to start, impossible to stop once turned."
-    }
+    },
+    "retired_v3_definition_catalyst": "Earth is your Body, and running thin, it is the steadiness under everything: digestion, sleep depth, the physical calm that lets you carry weight. Yours erodes quietly under skipped meals and moved bedtimes.\n\nDependable to everyone, depleted underneath. Lunch became a snack at the desk, sleep became negotiable, and the calm people rely on is being paid for out of reserves nobody sees you spending.\n\nStability is a practice before it is a trait. Rebuild with boring regularity: same waking hour, real lunches eaten sitting down, one slow day a week defended like an appointment. Let others see you rest so they learn to expect it.",
+    "retired_v3_definition_friction": "Earth is your Body, and running over, it is heaviness accumulating: routines hardened into ruts, comfort eaten past comfort, a body built for staying that now resists moving.\n\nSettled, comfortable, slowly cementing. The same chair, the same orders, the same weekend shape for three years running, and a low hum of dullness that gets read as contentment because it holds still.\n\nSteadiness needs motion the way ground needs rain. Walk daily at the same hour until it is simply weather. Change one fixed habit each season purely to prove you can. Say yes to one invitation a month that mildly inconveniences you."
   }
 }

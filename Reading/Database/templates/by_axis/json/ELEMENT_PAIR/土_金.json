@@ -18,8 +18,10 @@
     },
     "function": {
       "primary": "expression",
-      "definition_catalyst": "Metal is your Expression, and as a catalyst, it is your patience surfacing as precision: the exact word, the finished piece, the standard people quote after you leave. You speak rarely and it lands.\n\nThe two-line email that settles a week of debate, the tool everyone borrows, the sentence colleagues repeat as policy: your quiet compounds into a reputation for saying true things well.\n\nScarcity is part of your signal, and shipping is the other part. Ship one polished thing a month, small is fine, finished is the point. Keep a file of your exact sentences. Volunteer the summary when talk runs long.",
-      "definition_friction": "Metal is your Expression, and as a friction, it is output demanded from reserves that fill slowly: more deliverables, more opinions, more polish than your quiet depth can supply. Producing is starting to hollow you.\n\nAsked for takes, drained by takes. Every meeting wants your read, every doc wants your pass, and the well-chosen words that used to feel like craft now feel like quota.\n\nA slow well serves best when it is pumped rarely. Halve your output commitments for a quarter. Let the remaining work carry your full standard. Answer fewer threads, and let silence do some of your talking again."
+      "definition_catalyst": "Metal is your Expression, and as a catalyst, it is your patience surfacing as precision: the exact word, the finished piece, the standard people quote after you leave. You speak rarely and it lands.",
+      "definition_friction": "Metal is your Expression, and as a friction, it is output demanded from reserves that fill slowly: more deliverables, more opinions, more polish than your quiet depth can supply. Producing is starting to hollow you.",
+      "advise_catalyst": "Scarcity is part of your signal, and shipping is the other part. Ship one polished thing a month, small is fine, finished is the point. Keep a file of your exact sentences. Volunteer the summary when talk runs long.",
+      "advise_friction": "A slow well serves best when it is pumped rarely. Halve your output commitments for a quarter. Let the remaining work carry your full standard. Answer fewer threads, and let silence do some of your talking again."
     },
     "cta_verdict": "You speak rarely and it lands like something forged, and the few words you release outlive whole conversations other people spent."
   },
@@ -29,6 +31,8 @@
     "retired_base_personal": "Your core is Earth, and Earth feeds Metal: ore grows in the mountain. Whatever your ground pours itself into becomes your Expression, the channel where your patience turns to something refined and exact. Every precise word, every finished piece, every standard you quietly set is your years of holding, surfacing as edge. Mountains speak rarely. What they say is ore.",
     "backlog_dips_tg_pattern": {
       "mind": "Writing sharpens your slow thinking: the sentence is where your ground finds its edge."
-    }
+    },
+    "retired_v3_definition_catalyst": "Metal is your Expression, and as a catalyst, it is your patience surfacing as precision: the exact word, the finished piece, the standard people quote after you leave. You speak rarely and it lands.\n\nThe two-line email that settles a week of debate, the tool everyone borrows, the sentence colleagues repeat as policy: your quiet compounds into a reputation for saying true things well.\n\nScarcity is part of your signal, and shipping is the other part. Ship one polished thing a month, small is fine, finished is the point. Keep a file of your exact sentences. Volunteer the summary when talk runs long.",
+    "retired_v3_definition_friction": "Metal is your Expression, and as a friction, it is output demanded from reserves that fill slowly: more deliverables, more opinions, more polish than your quiet depth can supply. Producing is starting to hollow you.\n\nAsked for takes, drained by takes. Every meeting wants your read, every doc wants your pass, and the well-chosen words that used to feel like craft now feel like quota.\n\nA slow well serves best when it is pumped rarely. Halve your output commitments for a quarter. Let the remaining work carry your full standard. Answer fewer threads, and let silence do some of your talking again."
   }
 }

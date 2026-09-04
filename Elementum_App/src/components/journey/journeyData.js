@@ -464,12 +464,12 @@ export function buildElementScreen(model, el) {
     // ELEMENT_PAIR (the family defines the FUNCTION, face-agnostic, so a
     // two-faced element needs no anchor), the keyword LEDGER comes from the
     // ELEMENT_GOD cells (the god defines the CHARACTER, dominance-weighted,
-    // door-rotated). Pairs without the advise field fall back to their v3
-    // 3-¶ definition until the batch lands. Card teaser = first sentence.
+    // door-rotated). Both corpora complete 2026-09-04 (harvest ×20 + god
+    // batch ×44) — the v3 fallback render is retired. Card teaser = the
+    // reading's first sentence.
     ...((() => {
       const pole = (r.role === 'friction' || r.coreExcess) ? 'friction' : 'catalyst';
-      const adv = fn?.[`advise_${pole}`] || '';
-      const raw = fn ? ((pole === 'friction' ? fn.definition_friction : fn.definition_catalyst) || fn.body || '') : '';
+      const raw = fn ? ((pole === 'friction' ? fn.definition_friction : fn.definition_catalyst) || '') : '';
       // display de-dup (owner 2026-09-02): the claim TITLES the section now,
       // so the reading renders with its claim clause stripped — "As a
       // friction, it is intake…" / "Running over, it is…". Corpus untouched.
@@ -478,8 +478,7 @@ export function buildElementScreen(model, el) {
       const stripped = rest ? rest.charAt(0).toUpperCase() + rest.slice(1) : raw;
       const dot = stripped.indexOf('.');
       return {
-        fnReading: adv ? { define: stripped, ledger: r.fnRows, advise: adv } : null,
-        fnDef: adv ? '' : stripped,
+        fnReading: fn ? { define: stripped, ledger: r.fnRows, advise: fn[`advise_${pole}`] || '' } : null,
         fnTeaser: dot > 0 ? stripped.slice(0, dot + 1) : stripped,
       };
     })()),

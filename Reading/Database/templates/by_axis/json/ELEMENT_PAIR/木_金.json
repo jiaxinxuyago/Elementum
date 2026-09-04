@@ -18,8 +18,10 @@
     },
     "function": {
       "primary": "order",
-      "definition_catalyst": "Metal is your Order, and as a catalyst, it is the standard that shapes your growth: editors, coaches, reviews, rules you chose on purpose. You improve fastest under exacting eyes.\n\nCoachable, honest about your own work, better every year that someone demanding stays close. The teacher who marked hard, the friend who says the draft is not there yet: those are the people your progress is made of.\n\nGrowth loves resistance it respects. Put your work in front of one demanding person on a schedule, monthly at least. Ask for the harshest note first. Treat every review on the calendar as training, never as threat.",
-      "definition_friction": "Metal is your Order, and as a friction, it is correction landing harder than you can absorb: every rule met, every critique taken, until standards stop shaping you and start shrinking you.\n\nDiligent, deferential, increasingly small. The inbox of feedback gets read twice, the harsh voice gets memorized, and somewhere along the way the growing itself started asking permission. Rules that were meant to support have become fencing.\n\nStandards should serve the thing growing, never the other way around. Keep the two judges whose notes make you better and mute the rest. Answer critique after a night, never in the hour. Break one harmless rule a month to remember you can."
+      "definition_catalyst": "Metal is your Order, and as a catalyst, it is the standard that shapes your growth: editors, coaches, reviews, rules you chose on purpose. You improve fastest under exacting eyes.",
+      "definition_friction": "Metal is your Order, and as a friction, it is correction landing harder than you can absorb: every rule met, every critique taken, until standards stop shaping you and start shrinking you.",
+      "advise_catalyst": "Growth loves resistance it respects. Put your work in front of one demanding person on a schedule, monthly at least. Ask for the harshest note first. Treat every review on the calendar as training, never as threat.",
+      "advise_friction": "Standards should serve the thing growing, never the other way around. Keep the two judges whose notes make you better and mute the rest. Answer critique after a night, never in the hour. Break one harmless rule a month to remember you can."
     },
     "cta_verdict": "Discipline reaches you as a blade, exacting people, hard standards, and every cut you accept on purpose becomes shape you get to keep."
   },
@@ -28,6 +30,8 @@
     "retired_base_personal": "Your core is Wood, and Metal tames Wood: the knife prunes the branch. Metal is the edge that comes for your growth, rules, reviews, hard standards, and pruning is precisely what turns wild reach into an orchard. That is why Metal is your Order, the discipline that shapes you. Unpruned trees grow large. Pruned ones bear fruit.",
     "backlog_dips_tg_pattern": {
       "action": "A hard rule concentrates you: given clean constraints, your growth goes vertical."
-    }
+    },
+    "retired_v3_definition_catalyst": "Metal is your Order, and as a catalyst, it is the standard that shapes your growth: editors, coaches, reviews, rules you chose on purpose. You improve fastest under exacting eyes.\n\nCoachable, honest about your own work, better every year that someone demanding stays close. The teacher who marked hard, the friend who says the draft is not there yet: those are the people your progress is made of.\n\nGrowth loves resistance it respects. Put your work in front of one demanding person on a schedule, monthly at least. Ask for the harshest note first. Treat every review on the calendar as training, never as threat.",
+    "retired_v3_definition_friction": "Metal is your Order, and as a friction, it is correction landing harder than you can absorb: every rule met, every critique taken, until standards stop shaping you and start shrinking you.\n\nDiligent, deferential, increasingly small. The inbox of feedback gets read twice, the harsh voice gets memorized, and somewhere along the way the growing itself started asking permission. Rules that were meant to support have become fencing.\n\nStandards should serve the thing growing, never the other way around. Keep the two judges whose notes make you better and mute the rest. Answer critique after a night, never in the hour. Break one harmless rule a month to remember you can."
   }
 }

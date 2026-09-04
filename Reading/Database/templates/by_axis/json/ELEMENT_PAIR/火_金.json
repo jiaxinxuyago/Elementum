@@ -18,8 +18,10 @@
     },
     "function": {
       "primary": "action",
-      "definition_catalyst": "Metal is your Action, and as a catalyst, it is your heat applied to hard, valuable problems: negotiations, difficult skills, work that resists until it yields. Easy tasks waste you.\n\nEnergized by difficulty, bored by the rest. The gnarly client, the instrument nobody masters, the conversation everyone else postpones: these are where your focus arrives whole, and where the money and the meaning both live.\n\nDifficulty is your natural price filter, so use it openly. Take the assignment everyone else avoids. Price your work higher than feels comfortable and let the discomfort season. Once a year, pick one skill hard enough to embarrass you for months.",
-      "definition_friction": "Metal is your Action, and as a friction, it is reworking what should be finished: renegotiating settled things, polishing shipped work, effort spent softening what was already solid. Done is a decision you keep reopening.\n\nPerfectionist heat with nowhere new to go. The sent email gets reread, the closed deal gets second-guessed, the finished piece gets one more pass that makes it different rather than better.\n\nFinished things are load-bearing, so stop testing them. Close three open loops this week and do not reopen them. Give every task a final pass, then a lock. Aim the reworking energy at one genuinely unsolved problem instead."
+      "definition_catalyst": "Metal is your Action, and as a catalyst, it is your heat applied to hard, valuable problems: negotiations, difficult skills, work that resists until it yields. Easy tasks waste you.",
+      "definition_friction": "Metal is your Action, and as a friction, it is reworking what should be finished: renegotiating settled things, polishing shipped work, effort spent softening what was already solid. Done is a decision you keep reopening.",
+      "advise_catalyst": "Difficulty is your natural price filter, so use it openly. Take the assignment everyone else avoids. Price your work higher than feels comfortable and let the discomfort season. Once a year, pick one skill hard enough to embarrass you for months.",
+      "advise_friction": "Finished things are load-bearing, so stop testing them. Close three open loops this week and do not reopen them. Give every task a final pass, then a lock. Aim the reworking energy at one genuinely unsolved problem instead."
     },
     "cta_verdict": "You act by forging, heat applied until something keeps its shape, and your money follows the finished piece rather than the bright idea."
   },
@@ -29,6 +31,8 @@
     "retired_base_personal": "Your core is Fire, and Fire tames Metal: the forge softens the blade. Metal is the hard, finished, valuable material your heat exists to work: money, tools, standards, anything that resists until it glows. That is why Metal is your Action, the arena of what you build and claim. Value does not frighten you. You have seen what it looks like soft.",
     "backlog_dips_tg_pattern": {
       "order": "What you forge becomes law: the tools you make end up setting the standards around you."
-    }
+    },
+    "retired_v3_definition_catalyst": "Metal is your Action, and as a catalyst, it is your heat applied to hard, valuable problems: negotiations, difficult skills, work that resists until it yields. Easy tasks waste you.\n\nEnergized by difficulty, bored by the rest. The gnarly client, the instrument nobody masters, the conversation everyone else postpones: these are where your focus arrives whole, and where the money and the meaning both live.\n\nDifficulty is your natural price filter, so use it openly. Take the assignment everyone else avoids. Price your work higher than feels comfortable and let the discomfort season. Once a year, pick one skill hard enough to embarrass you for months.",
+    "retired_v3_definition_friction": "Metal is your Action, and as a friction, it is reworking what should be finished: renegotiating settled things, polishing shipped work, effort spent softening what was already solid. Done is a decision you keep reopening.\n\nPerfectionist heat with nowhere new to go. The sent email gets reread, the closed deal gets second-guessed, the finished piece gets one more pass that makes it different rather than better.\n\nFinished things are load-bearing, so stop testing them. Close three open loops this week and do not reopen them. Give every task a final pass, then a lock. Aim the reworking energy at one genuinely unsolved problem instead."
   }
 }

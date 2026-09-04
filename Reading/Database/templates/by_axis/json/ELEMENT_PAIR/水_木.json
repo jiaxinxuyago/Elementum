@@ -18,8 +18,10 @@
     },
     "function": {
       "primary": "expression",
-      "definition_catalyst": "Wood is your Expression, and as a catalyst, it is your depth showing up as things that grow: people mentored, ideas seeded, projects that stand up and keep growing after you step back. You are built to develop others.\n\nThe junior who got promoted still quotes you. The idea you gave away is thriving under someone else’s name, and honestly it pleases you, because what you plant mattering more than what you hold is the whole shape of your gift.\n\nInfluence, for you, is slow, patient, and alive. Take one mentee, one junior, one growing thing, and give it a standing hour a week. Seed ideas freely and follow up seasonally. Keep a quiet list of what you have grown.",
-      "definition_friction": "Wood is your Expression, and as a friction, it is pouring into everything that stands still: every person developed, every idea watered, your depth spent raising gardens you do not live in.\n\nEveryone’s mentor, no one’s project. The advice flows daily, the intros get made, the drafts get reviewed, and at the end of the month there is nothing with your own name on it and little water left either.\n\nGenerosity without limits feeds no one well for long. Count what you are currently growing, keep the three that matter, and let the rest go. Decline one mentorship ask a month. Water something of yours first, every single week."
+      "definition_catalyst": "Wood is your Expression, and as a catalyst, it is your depth showing up as things that grow: people mentored, ideas seeded, projects that stand up and keep growing after you step back. You are built to develop others.",
+      "definition_friction": "Wood is your Expression, and as a friction, it is pouring into everything that stands still: every person developed, every idea watered, your depth spent raising gardens you do not live in.",
+      "advise_catalyst": "Influence, for you, is slow, patient, and alive. Take one mentee, one junior, one growing thing, and give it a standing hour a week. Seed ideas freely and follow up seasonally. Keep a quiet list of what you have grown.",
+      "advise_friction": "Generosity without limits feeds no one well for long. Count what you are currently growing, keep the three that matter, and let the rest go. Decline one mentorship ask a month. Water something of yours first, every single week."
     },
     "cta_verdict": "What you feel becomes what you grow, and the people and projects you quietly water are your real body of work."
   },
@@ -29,6 +31,8 @@
     "retired_base_personal": "Your core is Water, and Water feeds Wood: rain raises the forest. Whatever your depth pours itself into becomes your Expression, the channel where what you know underneath turns into visible growth. Every person mentored, every idea seeded, every project quietly watered is your rain, standing up as someone’s forest. Depth shows itself as what it grows.",
     "backlog_dips_tg_pattern": {
       "mind": "Explaining a thing plants it deeper in you: taught knowledge roots twice."
-    }
+    },
+    "retired_v3_definition_catalyst": "Wood is your Expression, and as a catalyst, it is your depth showing up as things that grow: people mentored, ideas seeded, projects that stand up and keep growing after you step back. You are built to develop others.\n\nThe junior who got promoted still quotes you. The idea you gave away is thriving under someone else’s name, and honestly it pleases you, because what you plant mattering more than what you hold is the whole shape of your gift.\n\nInfluence, for you, is slow, patient, and alive. Take one mentee, one junior, one growing thing, and give it a standing hour a week. Seed ideas freely and follow up seasonally. Keep a quiet list of what you have grown.",
+    "retired_v3_definition_friction": "Wood is your Expression, and as a friction, it is pouring into everything that stands still: every person developed, every idea watered, your depth spent raising gardens you do not live in.\n\nEveryone’s mentor, no one’s project. The advice flows daily, the intros get made, the drafts get reviewed, and at the end of the month there is nothing with your own name on it and little water left either.\n\nGenerosity without limits feeds no one well for long. Count what you are currently growing, keep the three that matter, and let the rest go. Decline one mentorship ask a month. Water something of yours first, every single week."
   }
 }

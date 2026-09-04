@@ -733,50 +733,33 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     )}
                   </div>
                 )}
-                {elSec === 'fn' && (elScreen.fnReading || elScreen.fnDef) && (
+                {elSec === 'fn' && elScreen.fnReading && (
                   <div className="cardstock el-fncard">
                     <span className="laylab">THE FUNCTION</span>
                     <span className="serifline el-teasetitle">{elScreen.elName} is your {elScreen.fnLabel}.</span>
-                    {elScreen.fnReading ? (
-                      <>
-                        {/* THE GOD-GRAIN READING (owner 2026-09-03, three-
-                            doors fashion): chip row (the scannable summary)
-                            → define ¶ → the dominance-WEIGHTED keyword
-                            LEDGER (each row a full-sentence door variant,
-                            rotated so no two adjacent rows enter the same
-                            way; the polarity blend renders unlabeled) →
-                            advise ¶ (lead god's prescription) */}
-                        {(() => { const r = m.byEl[elScreen.el]; return r.adj?.length ? (
-                          <span className="wd-adj el-fnadj" style={{ margin: '6px 0 2px' }}>{r.adj.map((a) => <span key={a} className={`wd-adjchip${(r.role === 'friction' || r.coreExcess) ? ' down' : ''}`}>{a}</span>)}</span>
-                        ) : null; })()}
-                        <p className="body2 el-fnbody" style={{ margin: '8px 0 0' }}>{elScreen.fnReading.define}</p>
-                        {elScreen.fnReading.ledger && (
-                          <div className="el-fnledger">
-                            {elScreen.fnReading.ledger.map((row) => (
-                              <p className="body2 el-funcrow" key={row.word} style={{ margin: '9px 0 0' }}><b className="el-funclab">{row.word}.</b> {row.text}</p>
-                            ))}
-                          </div>
-                        )}
-                        <p className="body2 el-fnbody" style={{ margin: '9px 0 0' }}>{elScreen.fnReading.advise}</p>
-                      </>
-                    ) : (
-                      <>
-                        {/* pair-grain fallback until the ×90 batch lands:
-                            the v3 definition ¶s + the bare keyword chips */}
-                        {elScreen.fnDef.split('\n\n').map((p, i) => (
-                          <p className="body2 el-fnbody" key={i} style={{ margin: i ? '9px 0 0' : '8px 0 0' }}>{p}</p>
+                    {/* THE GOD-GRAIN READING (owner 2026-09-03, three-doors
+                        fashion; both corpora complete 2026-09-04, v3 fallback
+                        retired): chip row (the scannable summary) → define ¶
+                        → the dominance-WEIGHTED keyword LEDGER (each row a
+                        full-sentence door variant, rotated so no two adjacent
+                        rows enter the same way; the polarity blend renders
+                        unlabeled) → advise ¶. The dips coda is RETIRED
+                        (cross-function lines = TG_PATTERN territory, in
+                        station __ore) — the reading ends with the advise. */}
+                    {(() => { const r = m.byEl[elScreen.el]; return r.adj?.length ? (
+                      <span className="wd-adj el-fnadj" style={{ margin: '6px 0 2px' }}>{r.adj.map((a) => <span key={a} className={`wd-adjchip${(r.role === 'friction' || r.coreExcess) ? ' down' : ''}`}>{a}</span>)}</span>
+                    ) : null; })()}
+                    <p className="body2 el-fnbody" style={{ margin: '8px 0 0' }}>{elScreen.fnReading.define}</p>
+                    {elScreen.fnReading.ledger && (
+                      <div className="el-fnledger">
+                        {elScreen.fnReading.ledger.map((row) => (
+                          <p className="body2 el-funcrow" key={row.word} style={{ margin: '9px 0 0' }}><b className="el-funclab">{row.word}.</b> {row.text}</p>
                         ))}
-                        {(() => { const r = m.byEl[elScreen.el]; if (!r.adj?.length) return null;
-                          return (
-                            <span className="wd-adj el-fnadj" style={{ marginTop: 9 }}>{r.adj.map((a) => <span key={a} className={`wd-adjchip${(r.role === 'friction' || r.coreExcess) ? ' down' : ''}`}>{a}</span>)}</span>
-                          );
-                        })()}
-                      </>
+                      </div>
                     )}
-                    {/* dips coda RETIRED (owner 2026-09-03): cross-function
-                        lines are TG_PATTERN territory — backlogged in the
-                        station's __ore until that axis ships. The reading
-                        ends where the advise ¶ ends. */}
+                    {elScreen.fnReading.advise && (
+                      <p className="body2 el-fnbody" style={{ margin: '9px 0 0' }}>{elScreen.fnReading.advise}</p>
+                    )}
                   </div>
                 )}
                 {elSec === 'dom' && elFaces.length ? (

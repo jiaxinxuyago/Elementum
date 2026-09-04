@@ -18,8 +18,10 @@
     },
     "function": {
       "primary": "order",
-      "definition_catalyst": "Wood is your Order, and as a catalyst, it is living obligation that keeps you growing: family, teams, mentees, commitments that grow back each season and ask you to grow with them. Care is your discipline.\n\nThe garden, the godchild, the junior you did not have to take on: what depends on you organizes you, and the years shaped by a growing responsibility have been your best years so far.\n\nSome people are structured by rules. You are structured by what you tend. Take on one responsibility that develops over years and let its calendar anchor yours. Show up on its schedule especially when you do not feel like it.",
-      "definition_friction": "Wood is your Order, and as a friction, it is obligations multiplying past your ground: everyone rooted in you, nothing rooted for you, care extracted faster than it regrows.\n\nGodparent to everyone, patient of no one. Four groups depend on your steadiness, the calendar is other people’s growth, and the requests keep arriving because you have never once let a season lapse.\n\nCare that never rests its fields goes barren. List who actually needs you this season and hand one standing duty back, kindly and completely. Say a full yes to fewer things. Plant something that feeds you and give it the best hour."
+      "definition_catalyst": "Wood is your Order, and as a catalyst, it is living obligation that keeps you growing: family, teams, mentees, commitments that grow back each season and ask you to grow with them. Care is your discipline.",
+      "definition_friction": "Wood is your Order, and as a friction, it is obligations multiplying past your ground: everyone rooted in you, nothing rooted for you, care extracted faster than it regrows.",
+      "advise_catalyst": "Some people are structured by rules. You are structured by what you tend. Take on one responsibility that develops over years and let its calendar anchor yours. Show up on its schedule especially when you do not feel like it.",
+      "advise_friction": "Care that never rests its fields goes barren. List who actually needs you this season and hand one standing duty back, kindly and completely. Say a full yes to fewer things. Plant something that feeds you and give it the best hour."
     },
     "cta_verdict": "Your obligations are alive, people rooted in your ground, and the claims you keep pruned are what hold your hillside together."
   },
@@ -28,6 +30,8 @@
     "retired_base_personal": "Your core is Earth, and Wood tames Earth: roots hold the hillside. Wood is the living demand that grips you, family, growth, obligations that keep growing back, and rooted ground is what a hillside is for. That is why Wood is your Order, the discipline that shapes you. Unclaimed ground erodes. Rooted ground becomes a terraced farm.",
     "backlog_dips_tg_pattern": {
       "action": "A living deadline moves you: you work hardest when something planted depends on it."
-    }
+    },
+    "retired_v3_definition_catalyst": "Wood is your Order, and as a catalyst, it is living obligation that keeps you growing: family, teams, mentees, commitments that grow back each season and ask you to grow with them. Care is your discipline.\n\nThe garden, the godchild, the junior you did not have to take on: what depends on you organizes you, and the years shaped by a growing responsibility have been your best years so far.\n\nSome people are structured by rules. You are structured by what you tend. Take on one responsibility that develops over years and let its calendar anchor yours. Show up on its schedule especially when you do not feel like it.",
+    "retired_v3_definition_friction": "Wood is your Order, and as a friction, it is obligations multiplying past your ground: everyone rooted in you, nothing rooted for you, care extracted faster than it regrows.\n\nGodparent to everyone, patient of no one. Four groups depend on your steadiness, the calendar is other people’s growth, and the requests keep arriving because you have never once let a season lapse.\n\nCare that never rests its fields goes barren. List who actually needs you this season and hand one standing duty back, kindly and completely. Say a full yes to fewer things. Plant something that feeds you and give it the best hour."
   }
 }

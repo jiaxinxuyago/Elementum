@@ -18,8 +18,10 @@
     },
     "function": {
       "primary": "order",
-      "definition_catalyst": "Water is your Order, and as a catalyst, it is the cool check your intensity needs: reviews, budgets, one person whose calm questions slow you down before the leap. Your best decisions have all survived a night of doubt.\n\nBold, quick, better with a counterweight. The friend who asks what could go wrong, the budget that will not flex, the rule about sleeping on it: each has quietly saved you more than once, and you know it.\n\nDiscipline, for you, is imported, so import it well. Sleep on anything irreversible. Keep a reviewer you cannot charm and show them everything big. Put a cool number on every hot plan before saying yes.",
-      "definition_friction": "Water is your Order, and as a friction, it is caution soaking through everything: every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would.\n\nCareful, considered, dimmed. The idea gets run past four people and survives none of them, the window closes during the third review, and enthusiasm has learned to arrive pre-apologized.\n\nPrudence past its dose becomes fear with a clipboard. Give small decisions a five-minute timer. Reserve real review for the truly irreversible. Once a month, act on a warm impulse the same day it arrives and audit the result later."
+      "definition_catalyst": "Water is your Order, and as a catalyst, it is the cool check your intensity needs: reviews, budgets, one person whose calm questions slow you down before the leap. Your best decisions have all survived a night of doubt.",
+      "definition_friction": "Water is your Order, and as a friction, it is caution soaking through everything: every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would.",
+      "advise_catalyst": "Discipline, for you, is imported, so import it well. Sleep on anything irreversible. Keep a reviewer you cannot charm and show them everything big. Put a cool number on every hot plan before saying yes.",
+      "advise_friction": "Prudence past its dose becomes fear with a clipboard. Give small decisions a five-minute timer. Reserve real review for the truly irreversible. Once a month, act on a warm impulse the same day it arrives and audit the result later."
     },
     "cta_verdict": "Pressure reaches you cool and quiet, and the calm authorities you let bank your fire are the reason it lasts the night."
   },
@@ -28,6 +30,8 @@
     "retired_base_personal": "Your core is Fire, and Water tames Fire: rain ends the blaze. Water is the cool that presses on you, rules, review, depths you cannot light, and a flame that has met rain burns more carefully ever after. That is why Water is your Order, the discipline that shapes you. Rain is not the end of fire. It is fire’s education.",
     "backlog_dips_tg_pattern": {
       "action": "A cool deadline focuses your flame: pressure quiets the flicker and points the heat."
-    }
+    },
+    "retired_v3_definition_catalyst": "Water is your Order, and as a catalyst, it is the cool check your intensity needs: reviews, budgets, one person whose calm questions slow you down before the leap. Your best decisions have all survived a night of doubt.\n\nBold, quick, better with a counterweight. The friend who asks what could go wrong, the budget that will not flex, the rule about sleeping on it: each has quietly saved you more than once, and you know it.\n\nDiscipline, for you, is imported, so import it well. Sleep on anything irreversible. Keep a reviewer you cannot charm and show them everything big. Put a cool number on every hot plan before saying yes.",
+    "retired_v3_definition_friction": "Water is your Order, and as a friction, it is caution soaking through everything: every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would.\n\nCareful, considered, dimmed. The idea gets run past four people and survives none of them, the window closes during the third review, and enthusiasm has learned to arrive pre-apologized.\n\nPrudence past its dose becomes fear with a clipboard. Give small decisions a five-minute timer. Reserve real review for the truly irreversible. Once a month, act on a warm impulse the same day it arrives and audit the result later."
   }
 }
