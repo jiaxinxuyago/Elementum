@@ -68,7 +68,7 @@
             "word": "Connects dots",
             "doors": {
               "trait": "Your mind grafts ideas across fields that never formally met. The biology podcast fixes the pricing problem, the poetry course improves your code reviews. Nothing you learn stays in its own bed, and the hybrids that result are yours alone.",
-              "scene": "The logistics fix that saved the quarter came, by your own account, from a documentary about ant colonies watched at one in the morning. You explained the connection twice and it survived neither explanation. It worked anyway. The warehouse now runs on ants, unofficially.",
+              "scene": "The shipping fix that saved the quarter came, by your own account, from a documentary about ant colonies watched at one in the morning. You explained the connection twice and it survived neither explanation. It worked anyway. The warehouse now runs on ants, unofficially.",
               "outside": "Colleagues have learned that your reading list is a leading indicator of next quarter’s ideas, and that none of it will look relevant at the time. Mushrooms, medieval trade, birdsong. Six months later one of them is a strategy. Nobody can predict which."
             }
           },
@@ -83,9 +83,9 @@
           {
             "word": "Self-taught",
             "doors": {
-              "trait": "Everything important you know, you taught yourself, sideways. No course covered it, no mentor assigned it: you found the forum, the old manual, the strange book, and built the skill in private. Credentials confuse people about you. The knowledge is real and the paper does not exist.",
+              "trait": "Everything important you know, you taught yourself, sideways. No course covered it, no mentor assigned it: you found the forum, the old manual, the strange book, and built the skill in private. Diplomas confuse people about you. The knowledge is real and the paper does not exist.",
               "scene": "You learned the trade from a decade-old forum thread, two library books, and four hundred evenings of trying, and the certified people at work now quietly ask you the hard questions. Someone asked where you studied. The honest answer, nowhere, ended the conversation strangely.",
-              "outside": "People cannot place your education, and it bothers the credentialed ones. You cite no school and beat their methods anyway, using approaches with no names. Eventually they stop asking where it came from and start asking how it works. You mostly cannot explain that either."
+              "outside": "People cannot place your education, and it bothers the ones with framed diplomas. You cite no school and beat their methods anyway, using approaches with no names. Eventually they stop asking where it came from and start asking how it works. You mostly cannot explain that either."
             }
           }
         ]

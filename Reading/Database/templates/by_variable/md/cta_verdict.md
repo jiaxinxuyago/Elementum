@@ -23,7 +23,7 @@
 | **Earth core × Earth — the Core** | 土_土 | Your endurance is so quiet you forget it has limits, and the day you finally feel tired is years after you first were. |
 | **Earth core × Metal — the Voice** | 土_金 | You speak rarely and it lands like something forged, and the few words you release outlive whole conversations other people spent. |
 | **Earth core × Water — the Drive** | 土_水 | You act by channeling what moves, and wealth gathers wherever you set banks for a current, slow claims that irrigate for decades. |
-| **Metal core × Wood — the Drive** | 金_木 | You act by pruning, cutting away what wastes the light, and what you shape patiently ends up bearing fruit that careless hands never get. |
+| **Metal core × Wood — the Drive** | 金_木 | You act by cutting away whatever wastes the light, and what you care for slowly ends up bearing fruit that careless hands never get. |
 | **Metal core × Fire — the Duty** | 金_火 | Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull. |
 | **Metal core × Earth — the Root** | 金_土 | Your mind takes things in slowly and keeps them forever, and your best judgments are the ones you let sit overnight. |
 | **Metal core × Metal — the Core** | 金_金 | You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill. |

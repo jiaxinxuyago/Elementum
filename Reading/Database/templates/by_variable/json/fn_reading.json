@@ -184,7 +184,7 @@
                 "word": "Dulled",
                 "doors": {
                   "trait": "Comfort has rounded your edge. The palate needs stronger seasoning, the wins need bigger stakes, the pleasures that once rang now land muffled under years of easy access. Everything is available and nothing is delicious. The instrument still works. It just cannot hear itself anymore.",
-                  "scene": "The tasting menu that would have thrilled you at thirty got a shrug and a comparison at fifty-five, the fourth such shrug that month. On the walk home you passed a food cart with a line of delighted students, and stood there a moment, doing an arithmetic you did not finish.",
+                  "scene": "The tasting menu that would have thrilled you at thirty got a shrug and a comparison at fifty-five, the fourth such shrug that month. On the walk home you passed a food cart with a line of delighted students, and stood there a moment, running numbers you did not finish.",
                   "outside": "People notice that delighting you has become a project with a low hit rate, and the gift-giving around you has turned practical, then perfunctory. The enthusiasms you once broadcast made you magnetic. The connoisseurship that replaced them is accurate, extensive, and, the table has noticed, contagious in the wrong direction."
                 }
               }
@@ -330,7 +330,7 @@
                 "doors": {
                   "trait": "Detail is where your love of quality lives. The receipts reconciled monthly, the maintenance schedule honored, the small print actually read: your life runs on a fineness of attention that prevents disasters so early they never even become anecdotes. Nothing about you is approximately done.",
                   "scene": "The warranty claim that saved you eleven hundred dollars took four minutes, because the receipt, the serial number, and the original packaging were exactly where your system said they would be, three years on. The agent audibly recalibrated. Most claims, she said, die of missing paperwork. Yours arrived immortal.",
-                  "outside": "People hand you things that must not be gotten wrong: the visa application, the medication schedule, the wedding logistics. Errors approach your work and give up early. The double-checkers who review you have quietly stopped, a professional courtesy extended to perhaps three people they have ever met."
+                  "outside": "People hand you things that must not be gotten wrong: the visa application, the medication schedule, the wedding planning. Errors approach your work and give up early. The double-checkers who review you have quietly stopped, a professional courtesy extended to perhaps three people they have ever met."
                 }
               },
               {
@@ -346,7 +346,7 @@
                 "doors": {
                   "trait": "Your wealth grows the way rust never sleeps, in your favor: small, constant, compounding additions that no single day notices. The percent saved, the skill deepened annually, the relationship maintained for decades: everything in your portfolio gains a little every quarter, forever.",
                   "scene": "The account you opened at twenty-two with automatic transfers you never adjusted crossed a threshold this year that startled even you. The statement arrived on an ordinary Tuesday. You had done nothing dramatic in twenty years, which was, the statement made clear, the entire strategy.",
-                  "outside": "People ask your secret expecting a trick and receive arithmetic: start early, add always, subtract rarely. They leave disappointed and return years later, converted, showing you their own compounding curves. Your example has quietly seeded more retirement accounts than any advisor in your zip code."
+                  "outside": "People ask your secret expecting a trick and receive simple math: start early, add always, subtract rarely. They leave disappointed and return years later, converted, showing you their own compounding curves. Your example has quietly seeded more retirement accounts than any advisor in your zip code."
                 }
               }
             ]
@@ -400,7 +400,7 @@
                 "word": "Disciplined",
                 "doors": {
                   "trait": "Your discipline is structural steel, not decoration. The habit holds on the bad days, which is the only measurement that counts: the routine survives travel, illness, and success, each of which kills most people’s systems. What you commit to becomes load-bearing, permanently.",
-                  "scene": "Two hundred consecutive weeks of the same training schedule, through two job changes and one broken hand, adjusted around the cast rather than paused for it. The physiotherapist asked to see the log, then photographed it for her office wall, as evidence of a species.",
+                  "scene": "Two hundred consecutive weeks of the same training schedule, through two job changes and one broken hand, adjusted around the cast rather than paused for it. The physical therapist asked to see the log, then photographed it for her office wall, as evidence of a species.",
                   "outside": "Your consistency reads as almost mechanical until people need to borrow it. Then they discover the practical magic: things placed in your keeping happen, on schedule, indefinitely. Whole projects get architected around your reliability the way bridges get designed around their strongest member."
                 }
               },
@@ -420,7 +420,7 @@
                 "word": "Punishing",
                 "doors": {
                   "trait": "Your corrections carry more force than the error weighed. The missed detail gets a review nobody forgets, the small failure gets a consequence with edges, and people leave your feedback sessions altered. Standards were the point once. The punishment developed its own appetite.",
-                  "scene": "The report had one wrong figure in forty pages, and your response, delivered in front of the team, itemized the error’s ancestry for six minutes. The analyst fixed it in one. The other thirty-nine pages were excellent, a fact that attended the meeting silently.",
+                  "scene": "The report had one wrong figure in forty pages, and your response, delivered in front of the team, traced everywhere the mistake had come from, for six minutes. The analyst fixed it in one. The other thirty-nine pages were excellent, a fact that attended the meeting silently.",
                   "outside": "People submit work to you the way defendants approach sentencing, hoping for mercy rates you have never once published. The quality around you is genuinely high, and it is maintained the way ports maintain sea walls: through repeated, memorable demonstrations of what happens without them."
                 }
               },
@@ -436,7 +436,7 @@
                 "word": "Blunted",
                 "doors": {
                   "trait": "Your edge dulled from overuse. The intensity that once cut through anything now grinds through everything: the same force applied to birthday plans and board fights, the same siege posture at breakfast. Constant hardness is not sharpness. Somewhere in the years of pressing, the actual edge left.",
-                  "scene": "The vacation had a briefing document. The barbecue had contingencies. When your daughter asked if you could just come to the beach without a plan, the question sat in you strangely for days, because the honest answer was that you no longer remembered how that worked.",
+                  "scene": "The vacation had a briefing document. The barbecue had backup plans. When your daughter asked if you could just come to the beach without a plan, the question sat in you strangely for days, because the honest answer was that you no longer remembered how that worked.",
                   "outside": "People stopped bringing you the soft problems, the ones needing a light touch, and the routing decision was mutual and unspoken. What remains in your queue is armor-plated: disputes, deadlines, campaigns. You are excellent at all of it, and the calendar reads like a war ledger."
                 }
               }
@@ -610,7 +610,7 @@
                 "doors": {
                   "trait": "Your care operates at instrument distance. The concern is genuine and arrives as analysis, the love is real and expressed as protocol, and the people receiving it stand slightly cold in the accuracy, holding perfectly correct advice, wishing it had arms.",
                   "scene": "Your son called with news that had tears at its edges, and your response, calibrated and useful, addressed every practical dimension within four minutes. The call ended efficiently. He sat in the car afterward, helped and unheld, and then phoned his aunt to say the same things over.",
-                  "outside": "People pre-sort what they bring you: problems yes, feelings elsewhere. The sorting is so old it feels like respect, and it has a cost ledger nobody opens. You are the first call for logistics and the last to hear anything that requires only company. The queue reveals the design."
+                  "outside": "People pre-sort what they bring you: problems yes, feelings elsewhere. The sorting is so old it feels like respect, and it has a cost ledger nobody opens. You are the first call for practical things and the last to hear anything that requires only company. The queue reveals the design."
                 }
               },
               {
@@ -911,7 +911,7 @@
               {
                 "word": "Overflowing",
                 "doors": {
-                  "trait": "Plenty follows you around, and you spread it without doing arithmetic. The garden overproduces, the table seats extras, the referral goes out before being asked for. Abundance is your operating assumption, and somehow the assumption keeps proving itself right.",
+                  "trait": "Plenty follows you around, and you spread it without doing the math. The garden overproduces, the table seats extras, the referral goes out before being asked for. Abundance is your operating assumption, and somehow the assumption keeps proving itself right.",
                   "scene": "You came back from the weekend market with too much of everything, again, and by Sunday night four households had bags on their porches. Nobody keeps score, least of all you. Somehow your own porch is never empty either, which you have stopped calling coincidence.",
                   "outside": "Around you, people relax about money in a way they cannot explain. There is always somehow enough, and some extra, and a plan for the extra. Scarcity thinking finds no soil at your table, and guests leave having borrowed a little of your assumption."
                 }
@@ -987,7 +987,7 @@
                 "word": "Hoarding",
                 "doors": {
                   "trait": "Keeping has stopped being a strategy and become a compulsion with a filing system. Money is stored rather than used, and might-need has annexed the garage. Security was the goal once. Now the piles themselves ask for protection, and you provide it nightly.",
-                  "scene": "The garage has not held a car since 2019. It holds four labeled bins of cables for devices you no longer own, kept because throwing them out feels like bleeding. You bought a fifth bin last month. The car sits outside in the weather, depreciating.",
+                  "scene": "The garage has not held a car since 2019. It holds four labeled bins of cables for devices you no longer own, kept because throwing them out feels like bleeding. You bought a fifth bin last month. The car sits outside in the weather, losing value.",
                   "outside": "Family negotiates with you before every clear-out, and loses. Guests notice the house has started belonging to its contents. The savings, which are genuinely impressive, work the same way: admired, counted, and never allowed out to actually do anything."
                 }
               },
@@ -1101,7 +1101,7 @@
                 "word": "Load-bearing",
                 "doors": {
                   "trait": "Heavy things migrate to you because you keep accepting them, and structures form on top. The team’s hardest account, the family’s paperwork, the club’s finances: whatever must not fail gets filed under your name. You carry it evenly and rarely mention the tonnage.",
-                  "scene": "When the audit came, three departments discovered that their processes all ran through one spreadsheet you maintain at seven each Monday. Nobody had documented this. The auditor asked what happens if you go on holiday. The silence answered thoroughly, and the holiday remains theoretical.",
+                  "scene": "When the audit came, three departments discovered that their processes all ran through one spreadsheet you maintain at seven each Monday. Nobody had documented this. The auditor asked what happens if you go on holiday. The silence answered thoroughly, and the holiday remains imaginary.",
                   "outside": "People sleep better because certain things are yours, and most could not list what those things are. The load only becomes visible when you are sick for a week and four small systems wobble. Everyone notices then. Everyone forgets again by the next quarter."
                 }
               }
@@ -1113,7 +1113,7 @@
                 "word": "Slow-moving",
                 "doors": {
                   "trait": "Your pace has one setting, geological, and urgency does not shift it. The decision will be right and it will be late, in that order. Opportunities with expiry dates keep expiring in your in-tray while the due diligence achieves its usual thoroughness.",
-                  "scene": "The apartment was perfect, and your offer went in nine days later, complete, notarized, and third in line. The winning bid was written on a kitchen counter the first evening. You reviewed your process afterward, carefully, over several weeks.",
+                  "scene": "The apartment was perfect, and your offer went in nine days later, complete, signed and stamped, and third in line. The winning bid was written on a kitchen counter the first evening. You reviewed your process afterward, carefully, over several weeks.",
                   "outside": "People bring you decisions early, padding for your timeline the way airlines pad schedules. Fast-moving partners have learned to route the urgent things around you and apologize later. Your thoroughness is real, and it keeps buying quality with time that some things did not have."
                 }
               },
@@ -1193,7 +1193,7 @@
                 "doors": {
                   "trait": "Getting ready is where you hide, and it photographs as diligence from every angle. As long as you are still preparing, nobody can grade the real attempt, and part of you has arranged your studying life around that protection. Somewhere the preparing stopped serving the step and started replacing it.",
                   "scene": "Seventeen browser tabs, two saved courses, a notebook full of plans. The project they all point at has not moved in a month, but the researching of it has never gone better. One more book, you tell yourself, and the telling sounds exactly like last time.",
-                  "outside": "To everyone watching, you are the responsible one, always studying, always ready. Only you know the arithmetic underneath: as long as you are still getting ready, nobody can say you failed. It is a clever shelter, and it keeps out progress as reliably as it keeps out judgment."
+                  "outside": "To everyone watching, you are the responsible one, always studying, always ready. Only you know the math underneath: as long as you are still getting ready, nobody can say you failed. It is a clever shelter, and it keeps out progress as reliably as it keeps out judgment."
                 }
               }
             ]
@@ -1541,7 +1541,7 @@
               {
                 "word": "Open-handed",
                 "doors": {
-                  "trait": "Money moves through your hands easily, and it keeps coming back with interest of a kind no bank tracks. You give without arithmetic, on instinct, and the instinct has been running a quietly profitable book for years without ever once being audited.",
+                  "trait": "Money moves through your hands easily, and it keeps coming back with interest of a kind no bank tracks. You give without counting, on instinct, and the instinct has been running a quietly profitable book for years without ever once being audited.",
                   "scene": "You covered the dinner without thinking, the way you seeded the friend’s shop and floated the cousin’s rent. Nobody kept a ledger, least of all you. Somehow the shop sends customers, the cousin sends leads, and generosity keeps turning out to be your best-performing account.",
                   "outside": "The word on you is generous, and the word travels further than money does. Doors open because you propped one open for someone else two years back. Tight-fisted people never see this economy at all, and they keep wondering how you afford your luck."
                 }
@@ -1778,7 +1778,7 @@
                 "word": "Connects dots",
                 "doors": {
                   "trait": "Your mind grafts ideas across fields that never formally met. The biology podcast fixes the pricing problem, the poetry course improves your code reviews. Nothing you learn stays in its own bed, and the hybrids that result are yours alone.",
-                  "scene": "The logistics fix that saved the quarter came, by your own account, from a documentary about ant colonies watched at one in the morning. You explained the connection twice and it survived neither explanation. It worked anyway. The warehouse now runs on ants, unofficially.",
+                  "scene": "The shipping fix that saved the quarter came, by your own account, from a documentary about ant colonies watched at one in the morning. You explained the connection twice and it survived neither explanation. It worked anyway. The warehouse now runs on ants, unofficially.",
                   "outside": "Colleagues have learned that your reading list is a leading indicator of next quarter’s ideas, and that none of it will look relevant at the time. Mushrooms, medieval trade, birdsong. Six months later one of them is a strategy. Nobody can predict which."
                 }
               },
@@ -1793,9 +1793,9 @@
               {
                 "word": "Self-taught",
                 "doors": {
-                  "trait": "Everything important you know, you taught yourself, sideways. No course covered it, no mentor assigned it: you found the forum, the old manual, the strange book, and built the skill in private. Credentials confuse people about you. The knowledge is real and the paper does not exist.",
+                  "trait": "Everything important you know, you taught yourself, sideways. No course covered it, no mentor assigned it: you found the forum, the old manual, the strange book, and built the skill in private. Diplomas confuse people about you. The knowledge is real and the paper does not exist.",
                   "scene": "You learned the trade from a decade-old forum thread, two library books, and four hundred evenings of trying, and the certified people at work now quietly ask you the hard questions. Someone asked where you studied. The honest answer, nowhere, ended the conversation strangely.",
-                  "outside": "People cannot place your education, and it bothers the credentialed ones. You cite no school and beat their methods anyway, using approaches with no names. Eventually they stop asking where it came from and start asking how it works. You mostly cannot explain that either."
+                  "outside": "People cannot place your education, and it bothers the ones with framed diplomas. You cite no school and beat their methods anyway, using approaches with no names. Eventually they stop asking where it came from and start asking how it works. You mostly cannot explain that either."
                 }
               }
             ]
@@ -1931,7 +1931,7 @@
               {
                 "word": "Cold-running",
                 "doors": {
-                  "trait": "Your warmth exists and runs deep and rarely surfaces where people can feel it. The care comes out as logistics, the affection as usefulness, and the words themselves stay below. People eventually stop swimming down to check. The temperature at the surface is what they live with.",
+                  "trait": "Your warmth exists and runs deep and rarely surfaces where people can feel it. The care comes out as errands, the affection as usefulness, and the words themselves stay below. People eventually stop swimming down to check. The temperature at the surface is what they live with.",
                   "scene": "Your partner mentioned, quietly, that you had not said anything warm in some weeks. You had fixed the brakes, renewed the insurance, and prepaid the winter heating that same month. You cited these. There was a silence in which both of you were right, and only one warm.",
                   "outside": "People describe you as reliable first and affectionate somewhere after the pause. The love is inferred from your actions the way deep currents are inferred from instruments: real, documented, unfelt on the skin. Some loved ones adjusted. The ones who needed sun moved toward it, elsewhere."
                 }
@@ -2157,7 +2157,7 @@
                 "doors": {
                   "trait": "Your reach extends the way rivers extend, finding distant ground that stay-at-home currents never touch. The overseas client, the cousin of a stranger, the market two time zones away: your opportunities live at range, and distance has never once read as an obstacle to you.",
                   "scene": "The apartment in another country got rented through a chain of four people, none of whom you had met a year ago: a hostel conversation, a wedding, a group chat, a landlord. Your friends redraw the sequence on napkins and get lost. You just followed the water.",
-                  "outside": "Your address book spans cities you have not visited yet, and somehow those entries pay off too. People far away describe you as the person to know locally, an arithmetic nobody can check. When anything needs to happen at distance, yours is the number that gets called."
+                  "outside": "Your address book spans cities you have not visited yet, and somehow those entries pay off too. People far away describe you as the person to know locally, a math nobody can check. When anything needs to happen at distance, yours is the number that gets called."
                 }
               },
               {
@@ -2262,7 +2262,7 @@
               {
                 "word": "Can’t let go",
                 "doors": {
-                  "trait": "Letting go, of money, of objects, of the way Sunday is supposed to run, activates something in your grip that logic cannot pry open. The sunk cost stays sunk and held, the depreciated thing stays shelved, and your hands, at any given moment, are completely full.",
+                  "trait": "Letting go, of money, of objects, of the way Sunday is supposed to run, activates something in your grip that logic cannot pry open. The sunk cost stays sunk and held, the worn-out thing stays shelved, and your hands, at any given moment, are completely full.",
                   "scene": "The vacation fund has existed for nine years and never once been spent, each proposed trip failing the final review at the moment of booking. The money is for vacations. The vacations are somehow never quite worth the money. The fund grows, a monument to trips unrisked.",
                   "outside": "Prying anything from you, a concession, an old coat for the charity bag, an admission that plans changed, has a known difficulty rating among your people. They mostly stopped trying and started working around the grip. Your hands hold everything. Notably, lately, that includes very little of theirs."
                 }
@@ -2282,7 +2282,7 @@
                 "word": "Cool-headed",
                 "doors": {
                   "trait": "Your temperature drops as situations heat up, which is backwards from most people and priceless in a crisis. The angrier the meeting, the clearer your sentences get. Decisions made in your coolness hold up later, when everyone rereads what the heat almost signed.",
-                  "scene": "Both founders were shouting by the time you spoke, and your first sentence was a number. Your second was a date. The shouting had nowhere to attach itself to arithmetic, and the meeting ended with a plan bearing your fingerprints and their signatures.",
+                  "scene": "Both founders were shouting by the time you spoke, and your first sentence was a number. Your second was a date. The shouting had nowhere to attach itself to numbers, and the meeting ended with a plan bearing your fingerprints and their signatures.",
                   "outside": "Opponents find your calm the most alarming thing in the fight. While they heat up, you cool down, and every degree they rise hands you another advantage. Beating you requires making you blink first. The people who have tried compare notes afterward, uselessly."
                 }
               },
@@ -2318,7 +2318,7 @@
                 "word": "Relentless",
                 "doors": {
                   "trait": "Once you commit to pressure, it does not stop. The follow-up, the reminder, the revisited grievance: your current keeps flowing against the same rock long after the point was made, and past where the point began eroding the ground it stood on.",
-                  "scene": "The dispute with the contractor was won in March, with a refund and an apology. You were still composing documentation in June. The folder is immaculate and the war is over, and only one side has noticed the second fact.",
+                  "scene": "The dispute with the contractor was won in March, with a refund and an apology. You were still composing documentation in June. The folder is spotless and the war is over, and only one side has noticed the second fact.",
                   "outside": "People settle with you early because they have seen what the long version costs. Your persistence wins real victories, and it has also outlived several relationships that surrendered years before you stopped. The current cannot tell the difference between resistance and rubble."
                 }
               },
@@ -2346,7 +2346,7 @@
                 "doors": {
                   "trait": "Your discipline flows in built channels: the routine, the process, the documented way. Where others improvise and flood, you move the same water through the same course daily, and things downstream can rely on it. Order, in your hands, is irrigation rather than dam.",
                   "scene": "The morning sequence has not changed in nine years: the walk, the list, the first hard task before mail. Colleagues set meetings around it like farmers around rainfall. On the rare day the sequence breaks, three people ask if everything is alright. It usually is, by ten.",
-                  "outside": "Systems you build keep working after you leave them, which people discover with surprise and gratitude. The handover document from your last role is still in use, verbatim, four successors later. Somebody described inheriting your process as moving into a house with the plumbing already perfect."
+                  "outside": "Systems you build keep working after you leave them, which people discover with surprise and gratitude. The handover document from your last role is still in use, word for word, four successors later. Somebody described inheriting your process as moving into a house with the plumbing already perfect."
                 }
               },
               {
@@ -2382,7 +2382,7 @@
                 "doors": {
                   "trait": "Your voice arrives pre-softened, and the softening costs content. The objection becomes a question, the question becomes a pause, the pause gets read as agreement. What you actually think is audible only at very close range, and most decisions get made from further away.",
                   "scene": "You disagreed with the plan in the meeting where it could have mattered, silently, and again in the hallway, quietly, to someone with no vote. The plan proceeded and failed roughly as you had predicted. Your prediction exists in no record. It was a very correct whisper.",
-                  "outside": "Colleagues discover your opinions archaeologically, years later, over drinks: you had doubts about that? The doubts were real and beautifully reasoned and entirely internal. People would have listened, they insist. You nod, unconvinced, quietly, which is of course the whole mechanism in miniature."
+                  "outside": "Colleagues dig up your opinions years later, over drinks: you had doubts about that? The doubts were real and beautifully reasoned and entirely internal. People would have listened, they insist. You nod, unconvinced, quietly, which is of course the whole mechanism in miniature."
                 }
               },
               {
@@ -2444,7 +2444,7 @@
                 "word": "Fixated",
                 "doors": {
                   "trait": "When a subject takes you, it takes all of you. The research dive eats the evenings, the meals, the errands, and the surface duties of your life tread water while you are down there. The depth is real. So is everything floating unattended above it.",
-                  "scene": "Three weeks into the deep dive, the fridge held condiments, the inbox held forty-one unread, and you knew more about the subject than almost anyone alive. Nobody had seen you. The obsession was fed daily. Everything else in the house was not.",
+                  "scene": "Three weeks into the deep dive, the fridge held ketchup and little else, the inbox held forty-one unread, and you knew more about the subject than almost anyone alive. Nobody had seen you. The obsession was fed daily. Everything else in the house was not.",
                   "outside": "People learn to date your disappearances by topic. Mention the current one and you surface, bright and full. Mention dinner and you drift back down. What you bring up from these dives is genuinely rare. What it costs is everything scheduled during them."
                 }
               },
@@ -2697,7 +2697,7 @@
                 "doors": {
                   "trait": "Your celebrations outspend their occasions. The birthday needs the venue, the dinner needs the good bottle, the ordinary weekend needs upgrading on principle. Delight justifies every line item at the moment of purchase, and the statements afterward read like reviews of a life slightly larger than the income.",
                   "scene": "The birthday needed a venue, the venue needed a theme, and the theme needed the good caterer, for eleven guests. It was a wonderful night, everyone says so. The next gathering anyone else hosts will be at a kitchen table, apologizing for it.",
-                  "outside": "Friends love your occasions and cannot reciprocate them, so slowly they stop trying. Invitations to yours climb, invitations back shrink, smaller and slightly ashamed. Celebration was supposed to bring the table together. Sized this big, it mostly makes everyone else’s table feel poor."
+                  "outside": "Friends love your occasions and cannot match them, so slowly they stop trying. Invitations to yours climb, invitations back shrink, smaller and slightly ashamed. Celebration was supposed to bring the table together. Sized this big, it mostly makes everyone else’s table feel poor."
                 }
               },
               {
@@ -2738,7 +2738,7 @@
               {
                 "word": "White-hot",
                 "doors": {
-                  "trait": "At full intensity you do in hours what committees do in quarters. The deadline crunch, the final rehearsal, the last mile: your heat concentrates into something close to alarming, and the output comes back changed at a molecular level. Nobody asks what it costs. It visibly costs.",
+                  "trait": "At full intensity you do in hours what committees do in quarters. The deadline crunch, the final rehearsal, the last mile: your heat concentrates into something close to alarming, and the output comes back changed from the inside out. Nobody asks what it costs. It visibly costs.",
                   "scene": "The pitch was due at nine and dead at midnight, so you burned from midnight to six and delivered something that made the original plan look like a rough draft of your rough draft. The client signed by lunch. You slept through the celebration, honorably.",
                   "outside": "Colleagues describe your peak state with fire-safety vocabulary, half joking. When you lock in, people clear the area and route materials toward you, knowing the window is real and finite. What comes out of those windows has won accounts, contests, and one national award. Handle accordingly."
                 }
@@ -2752,7 +2752,7 @@
                 "doors": {
                   "trait": "You poke things to watch them jump. The needling question at the calm dinner, the opinion calibrated to singe, the topic everyone buried, exhumed by you at speed. Reaction is your proof of life, and peace, in your hands, keeps getting tested for flammability.",
                   "scene": "The family lunch was going suspiciously smoothly, so you asked your uncle about the election, twice, with eye contact. The predictable fire arrived on schedule. You watched it burn with the satisfaction of an arsonist reviewing his work, and left before the cleanup, as usual.",
-                  "outside": "Hosts seat you the way fire marshals plan exits: deliberately and with contingencies. Your provocations are often genuinely interesting, which is the defense you always offer. But friends have started previewing guest lists with you, and the previews have the tone of safety briefings."
+                  "outside": "Hosts seat you the way fire marshals plan exits: deliberately and with backup plans. Your provocations are often genuinely interesting, which is the defense you always offer. But friends have started previewing guest lists with you, and the previews have the tone of safety briefings."
                 }
               },
               {
@@ -2864,9 +2864,9 @@
               {
                 "word": "Bankable",
                 "doors": {
-                  "trait": "Your word converts to certainty at full rate. The quote holds, the date holds, the handshake survives price movements: people budget on your commitments the way they budget on arithmetic. Being counted on is your asset class, and its yield compounds in reputation.",
+                  "trait": "Your word converts to certainty at full rate. The quote holds, the date holds, the handshake survives price movements: people budget on your commitments the way they budget on math. Being counted on is your asset class, and its yield compounds in reputation.",
                   "scene": "The contractor overran and your quote did not, absorbing the difference exactly as promised, exactly once. The client noticed both halves: the cost you ate and the silence you ate it with. Their next three projects arrived un-tendered, with a note: your number is the number.",
-                  "outside": "Around you, people stop building contingencies. The backup plans for your deliverables have quietly disappeared from other people’s spreadsheets, which is the highest compliment operations can pay. New partners get told simply: whatever that one says will happen, price it as done."
+                  "outside": "Around you, people stop building backup plans. The backup plans for your deliverables have quietly disappeared from other people’s spreadsheets, which is the highest compliment operations can pay. New partners get told simply: whatever that one says will happen, price it as done."
                 }
               }
             ]
@@ -2929,7 +2929,7 @@
                 "doors": {
                   "trait": "Emergencies make you calmer, which is rare enough that people remember it. Your talent switches on precisely when plans switch off: full clarity, short sentences, zero panic. Peace leaves you slightly restless, honestly. Collapse, oddly, brings out your very best manners.",
                   "scene": "The venue flooded at noon and the speaker cancelled at one. By ten past, you had a new hall, a new order of events, and a tone in your voice that made panic seem like a strange hobby other people had. The event ran. Nobody remembers how close it came.",
-                  "outside": "There is a particular quiet that falls when things break and you are present, because everyone knows where the decisions will come from. It looks like glamour from a distance and it is really logistics under pressure, done fast, and it has saved more days than anyone has counted."
+                  "outside": "There is a particular quiet that falls when things break and you are present, because everyone knows where the decisions will come from. It looks like glamour from a distance and it is really planning under pressure, done fast, and it has saved more days than anyone has counted."
                 }
               }
             ]
@@ -2956,7 +2956,7 @@
                 "word": "Burned-out",
                 "doors": {
                   "trait": "Running at full flame until the fuel simply ends is a cycle for you, and calling it bad luck stopped working several cycles ago. The crash sits on the schedule now, as regular as the campaigns themselves. You just decline to read that far down.",
-                  "scene": "The three months of heroics ended the way they always end, with two weeks where getting up felt theoretical. From the couch you drafted apologies and, in the same hour, the next campaign. The pattern is so regular a friend once predicted your crash to within four days.",
+                  "scene": "The three months of heroics ended the way they always end, with two weeks where getting up felt like a rumor. From the couch you drafted apologies and, in the same hour, the next campaign. The pattern is so regular a friend once predicted your crash to within four days.",
                   "outside": "Everyone around you can see the crash coming except you, and they have learned not to say so out loud. They plan for your two dark weeks the way coastal towns plan for storm season, quietly moving what matters to higher ground. The storm never once takes the hint."
                 }
               }
@@ -3082,7 +3082,7 @@
                 "word": "Distant",
                 "doors": {
                   "trait": "Your inner world drifted from the shared one by degrees. The interests nobody around you shares, the hours nobody keeps, the references that land on silence: each pulled you a little further offshore. People love you from the mainland. The commute between you has gotten long.",
-                  "scene": "At the reunion you spent the evening at the edge of three conversations, fluent in none of them, holding your drink like credentials. The people were kind and the kindness had distance in it. You left early, relieved, and the relief troubled you the whole drive home.",
+                  "scene": "At the reunion you spent the evening at the edge of three conversations, fluent in none of them, holding your drink like a permission slip. The people were kind and the kindness had distance in it. You left early, relieved, and the relief troubled you the whole drive home.",
                   "outside": "Old friends describe you now with the phrase in their own world, said warmly and with a small shrug. Invitations still come, at holidays, in the plural, addressed to a version of you they remember. The estrangement was nobody’s decision. It accumulated, like heat leaving a house."
                 }
               }

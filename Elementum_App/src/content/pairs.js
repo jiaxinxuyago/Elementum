@@ -272,7 +272,7 @@ export const PAIR_CELLS = {
       advise_catalyst: 'Growing things still need a gardener’s ruthlessness. Once a season, walk the whole field: feed what is fruiting, and let one dead project go without guilt. Keep the daily habits exactly as they are. And claim the growth out loud, raise the price, take the credit, sooner than feels polite.',
       advise_friction: 'A field is judged at harvest, and yours keeps skipping the judging. Twice a year, walk the rows honestly: kill one dead thing out loud, feed the two that actually fruit, and spend one fenced-off risk on purpose. Judge every habit by its yield, and never by its years of service.',
     },
-    cta_verdict: 'You act by pruning, cutting away what wastes the light, and what you shape patiently ends up bearing fruit that careless hands never get.',
+    cta_verdict: 'You act by cutting away whatever wastes the light, and what you care for slowly ends up bearing fruit that careless hands never get.',
   },
   '金_火': {
     mechanism: {
