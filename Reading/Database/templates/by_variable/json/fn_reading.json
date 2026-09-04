@@ -9,7 +9,6 @@
         "canonical_name": "The Twin",
         "value": {
           "catalyst": {
-            "define": "Metal is your Body, and as a catalyst, it is a self that holds its own shape. Your standards come from inside, your word keeps its weight under pressure, and you can carry a hard week without borrowing anyone’s strength.",
             "ledger": [
               {
                 "word": "Self-forged",
@@ -35,11 +34,9 @@
                   "outside": "Colleagues have stopped checking whether you are worried, because the answer never changes anything. In a crisis people orbit you without knowing why. Steadiness this even is rare enough that others borrow against it, and you let them, and it costs you exactly nothing visible."
                 }
               }
-            ],
-            "advise": "Strength that never leans becomes a wall even friends stop knocking on. Once a week, accept help you could technically do without. Tell one person about a load while you are still carrying it. Your standards stay yours, but let two people hold a copy."
+            ]
           },
           "friction": {
-            "define": "Metal is your Body, and as a friction, it is a self shut so tight that nothing gets in, including what you need. Help reads as insult, company as noise. The strength is real, but it is spending you faster than anyone can see.",
             "ledger": [
               {
                 "word": "Sealed-off",
@@ -65,8 +62,7 @@
                   "outside": "Friends have stopped offering, which you count as efficiency and they count as defeat. The distance you keep reads as self-sufficiency for the first few years. After that it starts to read as a judgment of them, and they were never the ones being judged."
                 }
               }
-            ],
-            "advise": "A body is not a vault, and neither is a life. Ask for one small favor this week and let it be done badly. Book the checkup you keep postponing. When someone offers help, count to three before refusing, and once out of ten times, say yes."
+            ]
           }
         }
       },
@@ -178,7 +174,6 @@
         "canonical_name": "The Alchemist",
         "value": {
           "catalyst": {
-            "define": "Earth is your Mind, and as a catalyst, it is a slow, deep intake that turns experience into ground you can stand on. Books, mentors, quiet rooms, long walks after hard conversations: whatever feeds it comes back later as judgment.",
             "ledger": [
               {
                 "word": "Deep-reading",
@@ -204,11 +199,9 @@
                   "outside": "Nobody watching you would call it research. A cookbook here, a detour there, an afternoon lost to something unrelated, and then you surface with an idea no straight line could have reached. The people who work in straight lines have learned to stop asking how."
                 }
               }
-            ],
-            "advise": "Deep minds underrate their own output, so build the habit of releasing some. Once a month, teach one thing you learned to one person, because explaining it is how you find out it is really yours. Keep one notebook instead of six. And say your slow answer out loud before someone faster says a worse one."
+            ]
           },
           "friction": {
-            "define": "Earth is your Mind, and as a friction, it is intake with no off switch. Courses, research, reading, preparing: everything that goes in counts as progress, so nothing ever has to come out. Learning becomes the most respectable way to stand still.",
             "ledger": [
               {
                 "word": "Withdrawn",
@@ -234,8 +227,7 @@
                   "outside": "To everyone watching, you are the responsible one, always studying, always ready. Only you know the arithmetic underneath: as long as you are still getting ready, nobody can say you failed. It is a clever shelter, and it keeps out progress as reliably as it keeps out judgment."
                 }
               }
-            ],
-            "advise": "At some point more learning is just fear with a reading list. Trade study for evidence: for every hour that goes in, one small thing comes out where someone can see it. Give each research topic a decision date. Finish one old course before any new one gets your money."
+            ]
           }
         }
       },
@@ -275,7 +267,6 @@
         "canonical_name": "The Horizon",
         "value": {
           "catalyst": {
-            "define": "Wood is your Action, and as a catalyst, it is growth that spreads instead of climbs. Opportunity shows up as branches: the side project, the second market, the friend of a friend. You reach in several directions at once, and somewhere out there, something is always ripening.",
             "ledger": [
               {
                 "word": "Wide-branching",
@@ -301,11 +292,9 @@
                   "outside": "The word on you is generous, and the word travels further than money does. Doors open because you propped one open for someone else two years back. Tight-fisted people never see this economy at all, and they keep wondering how you afford your luck."
                 }
               }
-            ],
-            "advise": "Spreading trees still need a trunk. Keep one steady venture that pays for the experiments, and review the branches twice a year: feed the two that fruit, cut the rest without ceremony. Generosity works best on a budget it never has to apologize for."
+            ]
           },
           "friction": {
-            "define": "Wood is your Action, and as a friction, it is growth in every direction and a harvest in none. New branches keep starting: projects, plans, half-planted ventures. Each one takes a little light, and together they take all of it. Nothing gets enough to ripen.",
             "ledger": [
               {
                 "word": "Scattered",
@@ -331,8 +320,7 @@
                   "outside": "Friends now respond to your new obsessions with a warmth they privately ration, because they have met week seven. Nobody doubts the passion. They have simply watched enough six-week eras end to know the shelf, and never the stage, is where this one is headed too."
                 }
               }
-            ],
-            "advise": "A field of sprouts feeds no one. Pick the two branches that matter and give them the season. Before starting anything new, finish or formally kill one old thing, and say the ending out loud. Fewer directions is how fruit happens."
+            ]
           }
         }
       },
@@ -342,7 +330,6 @@
         "canonical_name": "The Steward",
         "value": {
           "catalyst": {
-            "define": "Wood is your Action, and as a catalyst, it is work that grows instead of burns. You build the way seasons do: plant, tend, wait, gather. Money, skills, and trust all behave like living things in your hands, and they multiply because you keep showing up.",
             "ledger": [
               {
                 "word": "Cultivating",
@@ -368,11 +355,9 @@
                   "outside": "People who track one goal at a time find your calendar easy to read and your patience hard to copy. You are where you said you would be, doing what you said you would do, nine years in. Roots this deep never look like much from above. They hold anyway."
                 }
               }
-            ],
-            "advise": "Slow builders forget to look up. Once a season, ask whether the field still deserves the tending, and let one dead project go without guilt. Keep the daily habits exactly as they are. And raise your price sooner than feels polite. Growth you never claim quietly spoils."
+            ]
           },
           "friction": {
-            "define": "Wood is your Action, and as a friction, it is roots gripping so hard that nothing new can be planted. Every choice quietly defends what is already there: the savings, the routine, the safe client. It looks careful from the outside, and it is really a grip that has forgotten how to open.",
             "ledger": [
               {
                 "word": "Root-bound",
@@ -398,8 +383,7 @@
                   "outside": "Working around you has become a small skill people teach each other. They know which suggestions to skip, which routines are load-bearing, and which sentence beginning with we have always means the conversation is over. Your way still works. It is just no longer the only thing being maintained."
                 }
               }
-            ],
-            "advise": "Security you never spend is just fear with a balance. Take one small risk each quarter, on purpose, with time or money you have already fenced off. Replace one worn method before it breaks on its own. Judge your way by its results, not its years of service."
+            ]
           }
         }
       },
@@ -445,7 +429,6 @@
         "canonical_name": "The Artisan",
         "value": {
           "catalyst": {
-            "define": "Water is your Expression, and as a catalyst, it is output that flows without forcing. Words, cooking, small kindnesses, the mood of an evening: whatever you give out moves easily and lands soft, and people are fed by it before they notice they were hungry.",
             "ledger": [
               {
                 "word": "Fluent",
@@ -471,11 +454,9 @@
                   "outside": "Tense people collect near you without being invited, the way cold hands find a warm mug. Whatever they came in carrying weighs less within the hour. You rarely notice the effect, which is precisely why it works, and precisely why nobody believes you when you shrug."
                 }
               }
-            ],
-            "advise": "Ease is a gift right up until it dodges every hard thing. Pick one piece of what you make and finish it to done, not to pleasant. Say the awkward true sentence once a week, to the person it belongs to. Comfort that never risks anything eventually feeds no one."
+            ]
           },
           "friction": {
-            "define": "Water is your Expression, and as a friction, it is output with no banks. Talent leaks into whatever is nearest: snacks, scrolling, pleasant company, half-made things. Nothing is wrong, exactly. That is the problem. Comfort keeps absorbing the effort your best work was waiting for.",
             "ledger": [
               {
                 "word": "Drifting",
@@ -501,8 +482,7 @@
                   "outside": "People have stopped bringing you their urgency, since it comes back to them unshaken and slightly damp. What reads as depth is sometimes just distance. The things that should reach you do not, and downstream of that, neither do the people attached to them."
                 }
               }
-            ],
-            "advise": "A river with no banks is a swamp, even a pleasant one. Give your talent one container: one project, one hour, the same time every day. Let yourself be bothered on purpose by one thing that matters. And make the treat follow the work, never replace it."
+            ]
           }
         }
       },
@@ -590,7 +570,6 @@
         "canonical_name": "The General",
         "value": {
           "catalyst": {
-            "define": "Fire is your Order, and as a catalyst, it is command that arrives exactly when things fall apart. Pressure organizes you while it scatters everyone else. Deadlines, emergencies, hard calls: the hotter the moment, the straighter your line through it.",
             "ledger": [
               {
                 "word": "Swift",
@@ -616,11 +595,9 @@
                   "outside": "There is a particular quiet that falls when things break and you are present, because everyone knows where the decisions will come from. It looks like glamour from a distance and it is really logistics under pressure, done fast, and it has saved more days than anyone has counted."
                 }
               }
-            ],
-            "advise": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it."
+            ]
           },
           "friction": {
-            "define": "Fire is your Order, and as a friction, it is command with the thermostat broken. Everything gets treated like an emergency, everyone like a subordinate, and the heat that once cut through problems starts cutting through people, then finally through you.",
             "ledger": [
               {
                 "word": "Scorching",
@@ -646,8 +623,7 @@
                   "outside": "Everyone around you can see the crash coming except you, and they have learned not to say so out loud. They plan for your two dark weeks the way coastal towns plan for storm season, quietly moving what matters to higher ground. The storm never once takes the hint."
                 }
               }
-            ],
-            "advise": "Command works best rationed. Before taking over, ask one question and wait for the whole answer. Rank the week’s fires and let the bottom three burn out alone. Schedule the rest before the crash schedules it for you. Order people can breathe in is the only kind that holds."
+            ]
           }
         }
       },

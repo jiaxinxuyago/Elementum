@@ -10,7 +10,6 @@
 
 | Field | Value |
 |---|---|
-| `catalyst.define` | Metal is your Body, and as a catalyst, it is a self that holds its own shape. Your standards come from inside, your word keeps its weight under pressure, and you can carry a hard week without borrowing anyone’s strength. |
 | `catalyst.ledger[0].word` | Self-forged |
 | `catalyst.ledger[0].doors.trait` | You built yourself by your own measure, and you know exactly which parts you built. Nobody assigned the morning routine, the savings rule, or the way you train. Ten years on, none of it has slipped, mostly because none of it was ever borrowed. |
 | `catalyst.ledger[0].doors.scene` | The morning routine started in a bad year, the savings rule after one specific mistake, the training after nobody came to help. Each one was built by hand, for a reason you could name. Ten years later they all still hold, and you still remember the reasons. |
@@ -23,8 +22,6 @@
 | `catalyst.ledger[2].doors.trait` | Pressure does not move your line, and that steadiness is a built feature rather than stubbornness. The deadline panic sweeps the office, chairs rolling and voices climbing, and your pace does not change by a keystroke. Panic has simply never once improved your output, so you declined it. |
 | `catalyst.ledger[2].doors.scene` | The deadline lands and the office turns into weather, chairs rolling, voices up, someone rewriting the plan hourly. Your pace stays exactly where it was on Monday. By Friday the weather has passed, and your part is the one that shipped clean. |
 | `catalyst.ledger[2].doors.outside` | Colleagues have stopped checking whether you are worried, because the answer never changes anything. In a crisis people orbit you without knowing why. Steadiness this even is rare enough that others borrow against it, and you let them, and it costs you exactly nothing visible. |
-| `catalyst.advise` | Strength that never leans becomes a wall even friends stop knocking on. Once a week, accept help you could technically do without. Tell one person about a load while you are still carrying it. Your standards stay yours, but let two people hold a copy. |
-| `friction.define` | Metal is your Body, and as a friction, it is a self shut so tight that nothing gets in, including what you need. Help reads as insult, company as noise. The strength is real, but it is spending you faster than anyone can see. |
 | `friction.ledger[0].word` | Sealed-off |
 | `friction.ledger[0].doors.trait` | Letting people in stopped being something you decline and became something you cannot quite locate. Fine, you say, on the day of the diagnosis, the layoff, the breakup. The word has three hundred uses now, and not one of them means fine. |
 | `friction.ledger[0].doors.scene` | On the day of the diagnosis you said fine. Layoff, fine. Breakup, fine. The word has become a door painted to look like a wall, and the people who love you have quietly stopped testing whether it opens. |
@@ -37,7 +34,6 @@
 | `friction.ledger[2].doors.trait` | Alone is your default answer, and it kept answering long after the question changed. You moved apartments twice with rented dollies and zero phone calls, and both times at least one person would have said yes. Proving you can was settled years ago. You keep proving it. |
 | `friction.ledger[2].doors.scene` | Two apartment moves, two rented dollies, zero phone calls made. Halfway down the stairs with the couch, wedged and sweating, you ran the list of people who would have come, and it was a real list, and you finished the move alone anyway. |
 | `friction.ledger[2].doors.outside` | Friends have stopped offering, which you count as efficiency and they count as defeat. The distance you keep reads as self-sufficiency for the first few years. After that it starts to read as a judgment of them, and they were never the ones being judged. |
-| `friction.advise` | A body is not a vault, and neither is a life. Ask for one small favor this week and let it be done badly. Book the checkup you keep postponing. When someone offers help, count to three before refusing, and once out of ten times, say yes. |
 
 ### The Rival · 金_劫财
 
@@ -145,7 +141,6 @@
 
 | Field | Value |
 |---|---|
-| `catalyst.define` | Earth is your Mind, and as a catalyst, it is a slow, deep intake that turns experience into ground you can stand on. Books, mentors, quiet rooms, long walks after hard conversations: whatever feeds it comes back later as judgment. |
 | `catalyst.ledger[0].word` | Deep-reading |
 | `catalyst.ledger[0].doors.trait` | Taking things in whole is how your mind works, even when the world calls it slowness. You read the book twice while everyone else skims forty summaries, and a year later you are the only one who still has it. Nothing you truly studied has ever left you. |
 | `catalyst.ledger[0].doors.scene` | One book, read twice, with notes in the margins the second time through. That is your whole method, and it quietly beats the forty skimmed summaries everyone else is stacking. Ask you about it in a year and it is still there, organized and ready. |
@@ -158,8 +153,6 @@
 | `catalyst.ledger[2].doors.trait` | Your best ideas come in from odd corners, and trusting them is a skill worth building. The fix for a work problem arrives out of a cookbook, a bus ride, an uncle’s offhand story. Strange sources are your mind’s actual supply line. |
 | `catalyst.ledger[2].doors.scene` | The answer to a work problem shows up while you are reading a cookbook, or on a bus, or inside an uncle’s offhand story. It happens too often to be luck. Your mind connects things underground, in the dark, and hands you the result later like it was easy. |
 | `catalyst.ledger[2].doors.outside` | Nobody watching you would call it research. A cookbook here, a detour there, an afternoon lost to something unrelated, and then you surface with an idea no straight line could have reached. The people who work in straight lines have learned to stop asking how. |
-| `catalyst.advise` | Deep minds underrate their own output, so build the habit of releasing some. Once a month, teach one thing you learned to one person, because explaining it is how you find out it is really yours. Keep one notebook instead of six. And say your slow answer out loud before someone faster says a worse one. |
-| `friction.define` | Earth is your Mind, and as a friction, it is intake with no off switch. Courses, research, reading, preparing: everything that goes in counts as progress, so nothing ever has to come out. Learning becomes the most respectable way to stand still. |
 | `friction.ledger[0].word` | Withdrawn |
 | `friction.ledger[0].doors.trait` | Pulling back is where you rest, long before it is any kind of reaction. You will draft three versions of a two-line reply, decide none of them is ready, and put the phone face-down through dinner. The message was fine an hour ago. Sending is the part you keep postponing. |
 | `friction.ledger[0].doors.scene` | Three drafts of a two-line reply sit on your phone, and the phone sits face-down through dinner. Nothing about the message is hard. The withdrawing happens earlier than that, somewhere between thinking a thing and letting anyone watch you think it. |
@@ -172,7 +165,6 @@
 | `friction.ledger[2].doors.trait` | Getting ready is where you hide, and it photographs as diligence from every angle. Seventeen tabs, two saved courses, a notebook full of plans, and the first real step still waiting on one more book. At some point the preparing stopped serving the step and started replacing it. |
 | `friction.ledger[2].doors.scene` | Seventeen browser tabs, two saved courses, a notebook full of plans. The project they all point at has not moved in a month, but the researching of it has never gone better. One more book, you tell yourself, and the telling sounds exactly like last time. |
 | `friction.ledger[2].doors.outside` | To everyone watching, you are the responsible one, always studying, always ready. Only you know the arithmetic underneath: as long as you are still getting ready, nobody can say you failed. It is a clever shelter, and it keeps out progress as reliably as it keeps out judgment. |
-| `friction.advise` | At some point more learning is just fear with a reading list. Trade study for evidence: for every hour that goes in, one small thing comes out where someone can see it. Give each research topic a decision date. Finish one old course before any new one gets your money. |
 
 ### The Sage · 土_正印
 
@@ -208,7 +200,6 @@
 
 | Field | Value |
 |---|---|
-| `catalyst.define` | Wood is your Action, and as a catalyst, it is growth that spreads instead of climbs. Opportunity shows up as branches: the side project, the second market, the friend of a friend. You reach in several directions at once, and somewhere out there, something is always ripening. |
 | `catalyst.ledger[0].word` | Wide-branching |
 | `catalyst.ledger[0].doors.trait` | Your effort naturally runs in several directions at once, and the directions feed each other more than they collide. Three ventures, two cities, one calendar that frightens single-focus people. The overlaps are where your luck actually lives, so you stopped apologizing for them. |
 | `catalyst.ledger[0].doors.scene` | The supplier from the first venture became the landlord of the second, and a customer from the second just introduced the third. On paper it is three businesses in two cities. In practice it is one root system wearing three names, and it feeds itself. |
@@ -221,8 +212,6 @@
 | `catalyst.ledger[2].doors.trait` | Money moves through your hands easily, and it keeps coming back with interest of a kind no bank tracks. You covered the dinner, funded the cousin, seeded the friend. Half of it returned doubled, and the goodwill on the rest still pays out in introductions. |
 | `catalyst.ledger[2].doors.scene` | You covered the dinner without thinking, the way you seeded the friend’s shop and floated the cousin’s rent. Nobody kept a ledger, least of all you. Somehow the shop sends customers, the cousin sends leads, and generosity keeps turning out to be your best-performing account. |
 | `catalyst.ledger[2].doors.outside` | The word on you is generous, and the word travels further than money does. Doors open because you propped one open for someone else two years back. Tight-fisted people never see this economy at all, and they keep wondering how you afford your luck. |
-| `catalyst.advise` | Spreading trees still need a trunk. Keep one steady venture that pays for the experiments, and review the branches twice a year: feed the two that fruit, cut the rest without ceremony. Generosity works best on a budget it never has to apologize for. |
-| `friction.define` | Wood is your Action, and as a friction, it is growth in every direction and a harvest in none. New branches keep starting: projects, plans, half-planted ventures. Each one takes a little light, and together they take all of it. Nothing gets enough to ripen. |
 | `friction.ledger[0].word` | Scattered |
 | `friction.ledger[0].doors.trait` | Starting is your genuine talent, and staying is the tax you keep finding ways around. Four projects sit at forty percent. The oldest needed two more weekends, eight months ago, and it will get them right after the new one stops being new. |
 | `friction.ledger[0].doors.scene` | Four projects, all around forty percent, none moving. The oldest one needed two weekends of work in March, and it is October, and those weekends went to the newest one, which has since also stopped. The finish line has never once seen you up close. |
@@ -235,13 +224,11 @@
 | `friction.ledger[2].doors.trait` | Your interest burns hottest at the start and moves on before results arrive, and the pattern is old enough to have a shelf. The guitar, the course, the market stall, each brilliant for six weeks. Enthusiasm was never the missing ingredient. Week seven is. |
 | `friction.ledger[2].doors.scene` | The guitar got six good weeks, then the course got its six, then the market stall. Each one was the real thing while it lasted, and the shelf where they ended up is running out of space. Week seven has beaten you more often than any rival. |
 | `friction.ledger[2].doors.outside` | Friends now respond to your new obsessions with a warmth they privately ration, because they have met week seven. Nobody doubts the passion. They have simply watched enough six-week eras end to know the shelf, and never the stage, is where this one is headed too. |
-| `friction.advise` | A field of sprouts feeds no one. Pick the two branches that matter and give them the season. Before starting anything new, finish or formally kill one old thing, and say the ending out loud. Fewer directions is how fruit happens. |
 
 ### The Steward · 木_正财
 
 | Field | Value |
 |---|---|
-| `catalyst.define` | Wood is your Action, and as a catalyst, it is work that grows instead of burns. You build the way seasons do: plant, tend, wait, gather. Money, skills, and trust all behave like living things in your hands, and they multiply because you keep showing up. |
 | `catalyst.ledger[0].word` | Cultivating |
 | `catalyst.ledger[0].doors.trait` | Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. The bike you’ve oiled every spring for six years still rides like new, and the client you’ve kept for ten pays double what they did at the start. You didn’t chase either of those. You maintained them. |
 | `catalyst.ledger[0].doors.scene` | The bike you have oiled every spring for six years is one example, and the client you have kept for ten is the other. Neither looked like ambition at any point, and both are now worth double what they were. That is more growth than most of the chasing around you produced. |
@@ -254,8 +241,6 @@
 | `catalyst.ledger[2].doors.trait` | Committing to one craft and one ground, and then actually staying, is the move you keep making. Friends rebrand every two years while you are on year nine of the same work. The staying looked stubborn for a while. Now it looks like the whole strategy. |
 | `catalyst.ledger[2].doors.scene` | Year nine of the same work, same town, same name on the door. Around year four it felt like being left behind, because everyone else was rebranding and relocating. Then the people who kept moving started sending work to the one person who could still be found. |
 | `catalyst.ledger[2].doors.outside` | People who track one goal at a time find your calendar easy to read and your patience hard to copy. You are where you said you would be, doing what you said you would do, nine years in. Roots this deep never look like much from above. They hold anyway. |
-| `catalyst.advise` | Slow builders forget to look up. Once a season, ask whether the field still deserves the tending, and let one dead project go without guilt. Keep the daily habits exactly as they are. And raise your price sooner than feels polite. Growth you never claim quietly spoils. |
-| `friction.define` | Wood is your Action, and as a friction, it is roots gripping so hard that nothing new can be planted. Every choice quietly defends what is already there: the savings, the routine, the safe client. It looks careful from the outside, and it is really a grip that has forgotten how to open. |
 | `friction.ledger[0].word` | Root-bound |
 | `friction.ledger[0].doors.trait` | Outgrowing a place and staying anyway is a pattern of yours, and calling it loyalty stopped being accurate a while ago. Same desk, same rate, same commute for five years, while the plant on that desk got repotted twice. Even the furniture is getting more fresh soil than you. |
 | `friction.ledger[0].doors.scene` | The plant on your desk has been repotted twice in five years. The desk itself, the rate, and the commute have not moved once in the same stretch. You keep telling people you are settled, and some of them have started gently asking settled into what. |
@@ -268,7 +253,6 @@
 | `friction.ledger[2].doors.trait` | Once your way of doing things works, it hardens into the only way you will do them. The new tool sits unopened for a year because the old one still technically works. The people waiting on you are also still technically patient. |
 | `friction.ledger[2].doors.scene` | The new tool has been sitting unopened for a year, and the old one still technically works, which settles the argument every time it comes up. The argument keeps coming up. You have noticed that, and decided it means everyone else is wrong twice. |
 | `friction.ledger[2].doors.outside` | Working around you has become a small skill people teach each other. They know which suggestions to skip, which routines are load-bearing, and which sentence beginning with we have always means the conversation is over. Your way still works. It is just no longer the only thing being maintained. |
-| `friction.advise` | Security you never spend is just fear with a balance. Take one small risk each quarter, on purpose, with time or money you have already fenced off. Replace one worn method before it breaks on its own. Judge your way by its results, not its years of service. |
 
 ### The General · 木_七杀
 
@@ -310,7 +294,6 @@
 
 | Field | Value |
 |---|---|
-| `catalyst.define` | Water is your Expression, and as a catalyst, it is output that flows without forcing. Words, cooking, small kindnesses, the mood of an evening: whatever you give out moves easily and lands soft, and people are fed by it before they notice they were hungry. |
 | `catalyst.ledger[0].word` | Fluent |
 | `catalyst.ledger[0].doors.trait` | Expression comes to you the way walking comes to other people, without assembly or rehearsal. The toast you gave with zero notes is the one the couple still quotes, and you had forgotten it by dessert. What costs everyone else three drafts costs you almost nothing. |
 | `catalyst.ledger[0].doors.scene` | The toast happened because someone handed you a glass and the moment was there. There were no notes and there was no plan, and it landed so well the couple still quotes it. You forgot it by dessert, the way a river forgets water it has already carried. |
@@ -323,8 +306,6 @@
 | `catalyst.ledger[2].doors.trait` | Your tempo stays loose where other people clench, which is temperament rather than effort. The flight gets cancelled and you end up at the counter making the agent laugh while everyone’s seats get rebooked. Ease like that cannot be faked under pressure. Yours is native. |
 | `catalyst.ledger[2].doors.scene` | The flight is cancelled, the line is furious, and somehow you are at the counter making the gate agent laugh while the rebooking happens. Nothing about it was strategy. Loose is just the setting you run at, and pressure has never found the dial. |
 | `catalyst.ledger[2].doors.outside` | Tense people collect near you without being invited, the way cold hands find a warm mug. Whatever they came in carrying weighs less within the hour. You rarely notice the effect, which is precisely why it works, and precisely why nobody believes you when you shrug. |
-| `catalyst.advise` | Ease is a gift right up until it dodges every hard thing. Pick one piece of what you make and finish it to done, not to pleasant. Say the awkward true sentence once a week, to the person it belongs to. Comfort that never risks anything eventually feeds no one. |
-| `friction.define` | Water is your Expression, and as a friction, it is output with no banks. Talent leaks into whatever is nearest: snacks, scrolling, pleasant company, half-made things. Nothing is wrong, exactly. That is the problem. Comfort keeps absorbing the effort your best work was waiting for. |
 | `friction.ledger[0].word` | Drifting |
 | `friction.ledger[0].doors.trait` | Following the day’s current instead of steering it is a habit now, whatever it started as. The Tuesday you set aside for writing became errands, a nap, and a show, and at no point did anyone decide that. The not-deciding is the whole mechanism. |
 | `friction.ledger[0].doors.scene` | The Tuesday reserved for writing turned into a pharmacy run, then a nap, then just one episode. Each step was reasonable. By eleven at night the day had been fully spent and nobody had ever actually spent it, which is how most of your Tuesdays go missing. |
@@ -337,7 +318,6 @@
 | `friction.ledger[2].doors.trait` | It takes a great deal to move you, and less would honestly serve you better. The deadline, the news, the argument all get the same shrug and the same tea. Calm this deep is a talent right up until it becomes a moat. |
 | `friction.ledger[2].doors.scene` | The deadline got a shrug and a fresh cup of tea. So did the news, and the argument, and the email marked urgent twice. Then one Thursday everything landed at once, and the calm you had been so proud of turned out to be a backlog. |
 | `friction.ledger[2].doors.outside` | People have stopped bringing you their urgency, since it comes back to them unshaken and slightly damp. What reads as depth is sometimes just distance. The things that should reach you do not, and downstream of that, neither do the people attached to them. |
-| `friction.advise` | A river with no banks is a swamp, even a pleasant one. Give your talent one container: one project, one hour, the same time every day. Let yourself be bothered on purpose by one thing that matters. And make the treat follow the work, never replace it. |
 
 ### The Virtuoso · 水_伤官
 
@@ -421,7 +401,6 @@
 
 | Field | Value |
 |---|---|
-| `catalyst.define` | Fire is your Order, and as a catalyst, it is command that arrives exactly when things fall apart. Pressure organizes you while it scatters everyone else. Deadlines, emergencies, hard calls: the hotter the moment, the straighter your line through it. |
 | `catalyst.ledger[0].word` | Swift |
 | `catalyst.ledger[0].doors.trait` | Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Ten people can debate dinner for twenty minutes. You name the restaurant, stand up, and the whole table discovers it was only ever waiting for permission to stop choosing. |
 | `catalyst.ledger[0].doors.scene` | Twenty minutes into the dinner debate, you name the restaurant and stand up. Chairs scrape, coats go on, and the relief around the table is almost audible. Nobody remembers the other options by the sidewalk. Deciding was the meal everyone was actually hungry for. |
@@ -434,8 +413,6 @@
 | `catalyst.ledger[2].doors.trait` | Emergencies make you calmer, which is rare enough that people remember it. Power out, venue flooded, speaker sick, and you have a working plan by the second sentence. Your talent was built for exactly the moments most plans are not. |
 | `catalyst.ledger[2].doors.scene` | The venue flooded at noon and the speaker cancelled at one. By ten past, you had a new room, a new order of events, and a tone in your voice that made panic seem like a strange hobby other people had. The event ran. Nobody remembers how close it came. |
 | `catalyst.ledger[2].doors.outside` | There is a particular quiet that falls when things break and you are present, because everyone knows where the decisions will come from. It looks like glamour from a distance and it is really logistics under pressure, done fast, and it has saved more days than anyone has counted. |
-| `catalyst.advise` | Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it. |
-| `friction.define` | Fire is your Order, and as a friction, it is command with the thermostat broken. Everything gets treated like an emergency, everyone like a subordinate, and the heat that once cut through problems starts cutting through people, then finally through you. |
 | `friction.ledger[0].word` | Scorching |
 | `friction.ledger[0].doors.trait` | Your intensity marks people whether you mean it or not, and you usually do not. You called the work sloppy and forgot the sentence by lunch. The person who heard it can still recite it a year later, tone included, and they have never once shown you the scar. |
 | `friction.ledger[0].doors.scene` | It was one word, sloppy, said at speed on a Tuesday and forgotten by lunch. A year later the person who caught it can still play it back with your exact inflection. You were putting out a fire. They were standing closer to it than you noticed. |
@@ -448,7 +425,6 @@
 | `friction.ledger[2].doors.trait` | Running at full flame until the fuel simply ends is a cycle for you, and calling it bad luck stopped working several cycles ago. Three months of heroics, two weeks of not getting up, then apologies and the same three months again. The crash is on the schedule now. You just decline to read that far down. |
 | `friction.ledger[2].doors.scene` | The three months of heroics ended the way they always end, with two weeks where getting up felt theoretical. From the couch you drafted apologies and, in the same hour, the next campaign. The pattern is so regular a friend once predicted your crash to within four days. |
 | `friction.ledger[2].doors.outside` | Everyone around you can see the crash coming except you, and they have learned not to say so out loud. They plan for your two dark weeks the way coastal towns plan for storm season, quietly moving what matters to higher ground. The storm never once takes the hint. |
-| `friction.advise` | Command works best rationed. Before taking over, ask one question and wait for the whole answer. Rank the week’s fires and let the bottom three burn out alone. Schedule the rest before the crash schedules it for you. Order people can breathe in is the only kind that holds. |
 
 ### The Magistrate · 火_正官
 

@@ -63,7 +63,6 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "Wood is your Action, and as a catalyst, it is growth that spreads instead of climbs. Opportunity shows up as branches: the side project, the second market, the friend of a friend. You reach in several directions at once, and somewhere out there, something is always ripening.",
         "ledger": [
           {
             "word": "Wide-branching",
@@ -89,11 +88,9 @@
               "outside": "The word on you is generous, and the word travels further than money does. Doors open because you propped one open for someone else two years back. Tight-fisted people never see this economy at all, and they keep wondering how you afford your luck."
             }
           }
-        ],
-        "advise": "Spreading trees still need a trunk. Keep one steady venture that pays for the experiments, and review the branches twice a year: feed the two that fruit, cut the rest without ceremony. Generosity works best on a budget it never has to apologize for."
+        ]
       },
       "friction": {
-        "define": "Wood is your Action, and as a friction, it is growth in every direction and a harvest in none. New branches keep starting: projects, plans, half-planted ventures. Each one takes a little light, and together they take all of it. Nothing gets enough to ripen.",
         "ledger": [
           {
             "word": "Scattered",
@@ -119,8 +116,7 @@
               "outside": "Friends now respond to your new obsessions with a warmth they privately ration, because they have met week seven. Nobody doubts the passion. They have simply watched enough six-week eras end to know the shelf, and never the stage, is where this one is headed too."
             }
           }
-        ],
-        "advise": "A field of sprouts feeds no one. Pick the two branches that matter and give them the season. Before starting anything new, finish or formally kill one old thing, and say the ending out loud. Fewer directions is how fruit happens."
+        ]
       }
     }
   }

@@ -452,16 +452,17 @@ export function buildElementScreen(model, el) {
     fnLabel,
     // the pair's cta_verdict — the COVER's meaning line (rung ②)
     verdict: pair?.cta_verdict || '',
-    // THE GOD-GRAIN FUNCTION READING (owner 2026-09-03): the full reading
-    // (define ¶ · 3-beat keyword ledger · advise ¶) lives on the ELEMENT×GOD
-    // axis so it derives from the chart's LEAD ten-god (a 偏印-lead Earth
-    // reads 土_偏印, never 土_正印). The pair-grain v3 definition stays as
-    // the fallback until the ×90 batch lands. Card teaser = first sentence.
+    // THE AXIS HOMING (owner structure ruling 2026-09-03): the reading
+    // assembles across two axes — define ¶ and advise ¶ come from the
+    // ELEMENT_PAIR (the family defines the FUNCTION, face-agnostic, so a
+    // two-faced element needs no anchor), the keyword LEDGER comes from the
+    // ELEMENT_GOD cells (the god defines the CHARACTER, dominance-weighted,
+    // door-rotated). Pairs without the advise field fall back to their v3
+    // 3-¶ definition until the batch lands. Card teaser = first sentence.
     ...((() => {
       const pole = (r.role === 'friction' || r.coreExcess) ? 'friction' : 'catalyst';
-      const cellFn = K2_CELLS[`${r.hz}_${r.god}`]?.fnReading?.[pole] || null;
-      const raw = cellFn ? cellFn.define
-        : fn ? ((pole === 'friction' ? fn.definition_friction : fn.definition_catalyst) || fn.body || '') : '';
+      const adv = fn?.[`advise_${pole}`] || '';
+      const raw = fn ? ((pole === 'friction' ? fn.definition_friction : fn.definition_catalyst) || fn.body || '') : '';
       // display de-dup (owner 2026-09-02): the claim TITLES the section now,
       // so the reading renders with its claim clause stripped — "As a
       // friction, it is intake…" / "Running over, it is…". Corpus untouched.
@@ -470,8 +471,8 @@ export function buildElementScreen(model, el) {
       const stripped = rest ? rest.charAt(0).toUpperCase() + rest.slice(1) : raw;
       const dot = stripped.indexOf('.');
       return {
-        fnReading: cellFn ? { define: stripped, ledger: r.fnRows || cellFn.ledger, advise: cellFn.advise } : null,
-        fnDef: cellFn ? '' : stripped,
+        fnReading: adv ? { define: stripped, ledger: r.fnRows, advise: adv } : null,
+        fnDef: adv ? '' : stripped,
         fnTeaser: dot > 0 ? stripped.slice(0, dot + 1) : stripped,
       };
     })()),

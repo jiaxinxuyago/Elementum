@@ -63,7 +63,6 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "Wood is your Action, and as a catalyst, it is work that grows instead of burns. You build the way seasons do: plant, tend, wait, gather. Money, skills, and trust all behave like living things in your hands, and they multiply because you keep showing up.",
         "ledger": [
           {
             "word": "Cultivating",
@@ -89,11 +88,9 @@
               "outside": "People who track one goal at a time find your calendar easy to read and your patience hard to copy. You are where you said you would be, doing what you said you would do, nine years in. Roots this deep never look like much from above. They hold anyway."
             }
           }
-        ],
-        "advise": "Slow builders forget to look up. Once a season, ask whether the field still deserves the tending, and let one dead project go without guilt. Keep the daily habits exactly as they are. And raise your price sooner than feels polite. Growth you never claim quietly spoils."
+        ]
       },
       "friction": {
-        "define": "Wood is your Action, and as a friction, it is roots gripping so hard that nothing new can be planted. Every choice quietly defends what is already there: the savings, the routine, the safe client. It looks careful from the outside, and it is really a grip that has forgotten how to open.",
         "ledger": [
           {
             "word": "Root-bound",
@@ -119,8 +116,7 @@
               "outside": "Working around you has become a small skill people teach each other. They know which suggestions to skip, which routines are load-bearing, and which sentence beginning with we have always means the conversation is over. Your way still works. It is just no longer the only thing being maintained."
             }
           }
-        ],
-        "advise": "Security you never spend is just fear with a balance. Take one small risk each quarter, on purpose, with time or money you have already fenced off. Replace one worn method before it breaks on its own. Judge your way by its results, not its years of service."
+        ]
       }
     }
   }

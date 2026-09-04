@@ -750,11 +750,13 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                           <span className="wd-adj el-fnadj" style={{ margin: '6px 0 2px' }}>{r.adj.map((a) => <span key={a} className={`wd-adjchip${(r.role === 'friction' || r.coreExcess) ? ' down' : ''}`}>{a}</span>)}</span>
                         ) : null; })()}
                         <p className="body2 el-fnbody" style={{ margin: '8px 0 0' }}>{elScreen.fnReading.define}</p>
-                        <div className="el-fnledger">
-                          {elScreen.fnReading.ledger.map((row) => (
-                            <p className="body2 el-funcrow" key={row.word} style={{ margin: '9px 0 0' }}><b className="el-funclab">{row.word}.</b> {row.text}</p>
-                          ))}
-                        </div>
+                        {elScreen.fnReading.ledger && (
+                          <div className="el-fnledger">
+                            {elScreen.fnReading.ledger.map((row) => (
+                              <p className="body2 el-funcrow" key={row.word} style={{ margin: '9px 0 0' }}><b className="el-funclab">{row.word}.</b> {row.text}</p>
+                            ))}
+                          </div>
+                        )}
                         <p className="body2 el-fnbody" style={{ margin: '9px 0 0' }}>{elScreen.fnReading.advise}</p>
                       </>
                     ) : (

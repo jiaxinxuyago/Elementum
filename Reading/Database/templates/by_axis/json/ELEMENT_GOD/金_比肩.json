@@ -63,7 +63,6 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "Metal is your Body, and as a catalyst, it is a self that holds its own shape. Your standards come from inside, your word keeps its weight under pressure, and you can carry a hard week without borrowing anyone’s strength.",
         "ledger": [
           {
             "word": "Self-forged",
@@ -89,11 +88,9 @@
               "outside": "Colleagues have stopped checking whether you are worried, because the answer never changes anything. In a crisis people orbit you without knowing why. Steadiness this even is rare enough that others borrow against it, and you let them, and it costs you exactly nothing visible."
             }
           }
-        ],
-        "advise": "Strength that never leans becomes a wall even friends stop knocking on. Once a week, accept help you could technically do without. Tell one person about a load while you are still carrying it. Your standards stay yours, but let two people hold a copy."
+        ]
       },
       "friction": {
-        "define": "Metal is your Body, and as a friction, it is a self shut so tight that nothing gets in, including what you need. Help reads as insult, company as noise. The strength is real, but it is spending you faster than anyone can see.",
         "ledger": [
           {
             "word": "Sealed-off",
@@ -119,8 +116,7 @@
               "outside": "Friends have stopped offering, which you count as efficiency and they count as defeat. The distance you keep reads as self-sufficiency for the first few years. After that it starts to read as a judgment of them, and they were never the ones being judged."
             }
           }
-        ],
-        "advise": "A body is not a vault, and neither is a life. Ask for one small favor this week and let it be done badly. Book the checkup you keep postponing. When someone offers help, count to three before refusing, and once out of ten times, say yes."
+        ]
       }
     }
   }

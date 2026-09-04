@@ -63,7 +63,6 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "Earth is your Mind, and as a catalyst, it is a slow, deep intake that turns experience into ground you can stand on. Books, mentors, quiet rooms, long walks after hard conversations: whatever feeds it comes back later as judgment.",
         "ledger": [
           {
             "word": "Deep-reading",
@@ -89,11 +88,9 @@
               "outside": "Nobody watching you would call it research. A cookbook here, a detour there, an afternoon lost to something unrelated, and then you surface with an idea no straight line could have reached. The people who work in straight lines have learned to stop asking how."
             }
           }
-        ],
-        "advise": "Deep minds underrate their own output, so build the habit of releasing some. Once a month, teach one thing you learned to one person, because explaining it is how you find out it is really yours. Keep one notebook instead of six. And say your slow answer out loud before someone faster says a worse one."
+        ]
       },
       "friction": {
-        "define": "Earth is your Mind, and as a friction, it is intake with no off switch. Courses, research, reading, preparing: everything that goes in counts as progress, so nothing ever has to come out. Learning becomes the most respectable way to stand still.",
         "ledger": [
           {
             "word": "Withdrawn",
@@ -119,8 +116,7 @@
               "outside": "To everyone watching, you are the responsible one, always studying, always ready. Only you know the arithmetic underneath: as long as you are still getting ready, nobody can say you failed. It is a clever shelter, and it keeps out progress as reliably as it keeps out judgment."
             }
           }
-        ],
-        "advise": "At some point more learning is just fear with a reading list. Trade study for evidence: for every hour that goes in, one small thing comes out where someone can see it. Give each research topic a decision date. Finish one old course before any new one gets your money."
+        ]
       }
     }
   }

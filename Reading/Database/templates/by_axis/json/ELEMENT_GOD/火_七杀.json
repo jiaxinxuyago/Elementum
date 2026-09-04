@@ -63,7 +63,6 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "Fire is your Order, and as a catalyst, it is command that arrives exactly when things fall apart. Pressure organizes you while it scatters everyone else. Deadlines, emergencies, hard calls: the hotter the moment, the straighter your line through it.",
         "ledger": [
           {
             "word": "Swift",
@@ -89,11 +88,9 @@
               "outside": "There is a particular quiet that falls when things break and you are present, because everyone knows where the decisions will come from. It looks like glamour from a distance and it is really logistics under pressure, done fast, and it has saved more days than anyone has counted."
             }
           }
-        ],
-        "advise": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it."
+        ]
       },
       "friction": {
-        "define": "Fire is your Order, and as a friction, it is command with the thermostat broken. Everything gets treated like an emergency, everyone like a subordinate, and the heat that once cut through problems starts cutting through people, then finally through you.",
         "ledger": [
           {
             "word": "Scorching",
@@ -119,8 +116,7 @@
               "outside": "Everyone around you can see the crash coming except you, and they have learned not to say so out loud. They plan for your two dark weeks the way coastal towns plan for storm season, quietly moving what matters to higher ground. The storm never once takes the hint."
             }
           }
-        ],
-        "advise": "Command works best rationed. Before taking over, ask one question and wait for the whole answer. Rank the week’s fires and let the bottom three burn out alone. Schedule the rest before the crash schedules it for you. Order people can breathe in is the only kind that holds."
+        ]
       }
     }
   }

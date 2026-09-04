@@ -63,7 +63,6 @@
     },
     "fn_reading": {
       "catalyst": {
-        "define": "Water is your Expression, and as a catalyst, it is output that flows without forcing. Words, cooking, small kindnesses, the mood of an evening: whatever you give out moves easily and lands soft, and people are fed by it before they notice they were hungry.",
         "ledger": [
           {
             "word": "Fluent",
@@ -89,11 +88,9 @@
               "outside": "Tense people collect near you without being invited, the way cold hands find a warm mug. Whatever they came in carrying weighs less within the hour. You rarely notice the effect, which is precisely why it works, and precisely why nobody believes you when you shrug."
             }
           }
-        ],
-        "advise": "Ease is a gift right up until it dodges every hard thing. Pick one piece of what you make and finish it to done, not to pleasant. Say the awkward true sentence once a week, to the person it belongs to. Comfort that never risks anything eventually feeds no one."
+        ]
       },
       "friction": {
-        "define": "Water is your Expression, and as a friction, it is output with no banks. Talent leaks into whatever is nearest: snacks, scrolling, pleasant company, half-made things. Nothing is wrong, exactly. That is the problem. Comfort keeps absorbing the effort your best work was waiting for.",
         "ledger": [
           {
             "word": "Drifting",
@@ -119,8 +116,7 @@
               "outside": "People have stopped bringing you their urgency, since it comes back to them unshaken and slightly damp. What reads as depth is sometimes just distance. The things that should reach you do not, and downstream of that, neither do the people attached to them."
             }
           }
-        ],
-        "advise": "A river with no banks is a swamp, even a pleasant one. Give your talent one container: one project, one hour, the same time every day. Let yourself be bothered on purpose by one thing that matters. And make the treat follow the work, never replace it."
+        ]
       }
     }
   }
