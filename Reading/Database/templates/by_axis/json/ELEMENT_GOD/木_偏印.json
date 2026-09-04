@@ -18,7 +18,7 @@
       "catalyst": [
         "Cross-pollinating",
         "Perceptive",
-        "Quietly-original"
+        "Self-taught"
       ],
       "friction": [
         "Tangled",
@@ -81,11 +81,11 @@
             }
           },
           {
-            "word": "Quietly-original",
+            "word": "Self-taught",
             "doors": {
-              "trait": "Your originality does not perform. It compounds in notebooks, side folders, and long walks, surfacing as finished oddness months later. People are startled to discover you invented things they assumed had teams behind them. You never mentioned it. Mentioning was never the point.",
-              "scene": "The tool the whole department uses daily was built by you over one quiet winter, released without announcement, discovered by accident in a shared drive. It has no logo and no documentation. It also has no competition, and everyone knows who to thank, silently.",
-              "outside": "The flashy thinkers get the conference slots, and then privately message you afterward. Your ideas travel by word of mouth among people who make things, unbranded and load-bearing. Fame keeps missing you, and influence, checking the records, never has."
+              "trait": "Everything important you know, you taught yourself, sideways. No course covered it, no mentor assigned it: you found the forum, the old manual, the strange book, and built the skill in private. Credentials confuse people about you. The knowledge is real and the paper does not exist.",
+              "scene": "You learned the trade from a decade-old forum thread, two library books, and four hundred evenings of trying, and the certified people at work now quietly ask you the hard questions. Someone asked where you studied. The honest answer, nowhere, ended the conversation strangely.",
+              "outside": "People cannot place your education, and it bothers the credentialed ones. You cite no school and beat their methods anyway, using approaches with no names. Eventually they stop asking where it came from and start asking how it works. You mostly cannot explain that either."
             }
           }
         ]

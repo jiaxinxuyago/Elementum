@@ -22,7 +22,7 @@
       ],
       "friction": [
         "Prideful",
-        "Flaring",
+        "Touchy",
         "Unapproachable"
       ]
     },
@@ -75,9 +75,9 @@
           {
             "word": "Vivid",
             "doors": {
-              "trait": "You register at full saturation. The laugh is audible, the shirt is the orange one, the opinion arrives in primary colors: nothing about you is beige, and memory holds you accordingly. People forget entire parties but not the twenty minutes you were at them.",
-              "scene": "The new client met fourteen people at the mixer and, a week later, could name one. The follow-up email opened with a reference to your story about the ferry, told once, at volume, near the snacks. The account landed partly on that ferry. Color closes.",
-              "outside": "Descriptions of you never require clarification. Say your first name in any group you have crossed and faces do the same thing: light slightly, ready an anecdote. Being unmistakable is its own infrastructure, and yours was built without a brand consultant, loudly, one vivid appearance at a time."
+              "trait": "You are unmistakably yourself at all times, and it costs you nothing. The opinions, the laugh, the orange shirt: none of it adjusts to the audience, because none of it was built for an audience. People meet one version of you. There is only one.",
+              "scene": "At the new job you dressed, joked, and disagreed exactly as you had at the old one, from day one. No feeling-out period, no beige phase. Within a month the team could imitate you affectionately, which is what happens to people who are only themselves.",
+              "outside": "Nobody has ever described you as an acquired taste, because there is nothing gradual about you. People place you instantly and permanently. Years later, strangers from one meeting recall you in detail, while the adaptable people around you have blurred together in everyone’s memory."
             }
           },
           {
@@ -101,11 +101,11 @@
             }
           },
           {
-            "word": "Flaring",
+            "word": "Touchy",
             "doors": {
-              "trait": "Your reactions overshoot the trigger. The mild critique gets a flare, the small delay gets a scene, the joke at your expense gets a response sized for slander. The brightness that makes you magnetic makes your anger theatrical, and audiences remember theater far longer than causes.",
-              "scene": "The waiter brought the wrong dish and the table got a demonstration nobody ordered: voice up, comparisons drawn, a manager summoned over rice. The dish was fixed in four minutes. The evening was not. Your date married someone else, eventually, and still tells the rice story.",
-              "outside": "People curate what reaches you, sanding down feedback and delaying bad news for calm windows that keep not arriving. You experience the filtered world as respect. It is actually flame management, run by committee, and the committee is tired and very good at its job now."
+              "trait": "Being treated as less than an equal lights you up faster than any insult. The talked-over sentence, the credit handed elsewhere, the tone that files you under junior: your heat answers before your judgment gets a vote. The issue is never the thing. It is the standing.",
+              "scene": "The contractor explained your own trade to you, slowly, and the meeting changed temperature. You corrected him once, precisely, at volume. He was right about one small detail and never got to say it, which cost you a week and won you nothing.",
+              "outside": "People around you learn the one rule quickly: never talk down to you, even by accident. Introductions get made carefully, titles included. The respect this enforces is real, and so is the caution, and the two arrive together, holding hands."
             }
           },
           {

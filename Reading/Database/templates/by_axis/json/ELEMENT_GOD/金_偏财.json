@@ -22,7 +22,7 @@
       ],
       "friction": [
         "Mercenary",
-        "Grabby",
+        "Deal-hungry",
         "Restless"
       ]
     },
@@ -101,11 +101,11 @@
             }
           },
           {
-            "word": "Grabby",
+            "word": "Deal-hungry",
             "doors": {
-              "trait": "Yours expands to include whatever is near it. The last slice claimed while offering it, the shared discount used first, the group opportunity that becomes your opportunity by speed of hand. Each individual grab is small and deniable. The pattern has a reputation with its own chair.",
-              "scene": "The sample sale had a two-per-person limit, and your six, acquired through charm and a borrowed cousin, became the story the group told afterward, fondly at first. At the next sale, notably, nobody texted you the address. You found out from the shopping bags.",
-              "outside": "People count, around you: the split bill, the shared points, the credit on the joint project. They never used to count. The counting started at specific remembered moments, one per relationship, each involving your hand reaching something first. Everything since has been arithmetic with a memory."
+              "trait": "Every deal within reach gets reached for. The marketplace find, the estate sale, the friend selling below value: your hands close on opportunities by reflex, and your storage fills with the proof. Each grab was genuinely smart. The appetite behind them has never once said enough.",
+              "scene": "You came home with three watches from a sale you attended for one, each undervalued, each a story. The drawer of brilliant purchases now holds forty such stories. Half are still in their boxes, appreciating quietly, waiting for a selling day that never quite arrives.",
+              "outside": "Dealers greet you by name in three cities, and your family greets new packages with a specific face. Nobody doubts your eye. What they count, privately, is how much brilliance sits boxed in the garage, bought at the right price for reasons that expired on arrival."
             }
           },
           {

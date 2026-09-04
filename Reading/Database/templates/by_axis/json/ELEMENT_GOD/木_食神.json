@@ -23,7 +23,7 @@
       "friction": [
         "Overripe",
         "Lax",
-        "Unpruned"
+        "Overbooked"
       ]
     },
     "k2_domain_readings": {
@@ -83,9 +83,9 @@
           {
             "word": "Tending",
             "doors": {
-              "trait": "You express care by maintenance. The plants get watered, the friendships get watered, the small hinge gets oiled before it squeaks. Nothing dramatic, everything alive: your love language is upkeep, spoken fluently across gardens, machines, and people.",
-              "scene": "While house-sitting, you fixed the sticking drawer, fed the neglected fern back to opinion-having health, and left the spice rack alphabetized. The owners noticed over three weeks, one small kindness at a time, like finding notes. Nothing was mentioned. Everything was received.",
-              "outside": "Things in your care visibly do better, and people have started leaving things in your care on thin pretexts: plants, pets, adolescents. The results speak. Around your house even the street trees look tended, and the neighbors have theories about the correlation, all of them right."
+              "trait": "You express care by making things comfortable around people. The blanket appears before anyone said cold, the kettle is on before the knock, the leftovers go home in containers with the right lids. Nobody calls it expression. It is your entire vocabulary.",
+              "scene": "While house-sitting, you left the place cozier than you found it: the reading lamp moved to where the light actually falls, the good mugs brought forward, soup in the freezer with a dated label. The owners noticed for three weeks, one small comfort at a time.",
+              "outside": "People relax in spaces you have touched and cannot say why. The guest who slept over once still mentions the bedside water. Comfort follows you into other people’s houses and stays after you leave, which is a strange, real talent, and completely unlisted."
             }
           }
         ]
@@ -109,11 +109,11 @@
             }
           },
           {
-            "word": "Unpruned",
+            "word": "Overbooked",
             "doors": {
-              "trait": "Nothing in your life gets cut back, so everything grows into everything. The hobbies overlap the obligations, the kindnesses expand into commitments, the yes count rises annually. Every branch is genuinely alive. The tree, as a whole, is slowly shading itself out.",
-              "scene": "Saturday holds pottery, the volunteer shift, two standing brunches, and the league you meant to quit in 2022. Each one survived its trial period into permanence. You love most of it, tiredly. Quitting anything feels like unkindness, so the calendar does the suffering instead.",
-              "outside": "Your people see the sprawl and stage gentle interventions disguised as scheduling questions. Which three things matter most, someone asks yearly. You answer honestly, differently each time, and cut nothing. The sprawl continues, beloved and unbounded, and the best branches wait for light like everything else."
+              "trait": "Saying no feels like unkindness to you, so you mostly do not. The favor, the shift swap, the third brunch: each yes is warm and small, and together they have booked your life solid. Everyone gets a slice of you. The slices stopped adding up to a person.",
+              "scene": "Saturday holds pottery, the volunteer shift, two standing brunches, and a league you joined to be nice in 2022. You enjoy each one, tiredly. The afternoon you actually wanted, the empty one, has not appeared on the calendar since spring.",
+              "outside": "People know you will say yes, and the knowing shows up in their asks. You are the default babysitter, the fallback host, the covering shift. Nobody means harm. But generosity with no gate gets scheduled by other people, and yours has been for years."
             }
           }
         ]

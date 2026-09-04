@@ -75,7 +75,7 @@
           {
             "word": "Piercing",
             "doors": {
-              "trait": "You see through surfaces on contact: the pitch to its weakness, the person to their motive, the story to the version underneath. Politeness keeps most of it unsaid, and the world mostly cannot tell what you have already filed. The files are extensive, and accurate.",
+              "trait": "You say the thing everyone else is carefully not seeing. The flaw in the plan, the motive under the pitch, the number that does not add up: you name it out loud, early, in the meeting, while it can still be fixed. Comfort has never once outranked accuracy for you.",
               "scene": "Ten minutes into the interview you had located what the polished resume was arranged to hide, and asked about it kindly, and the candidate, after a pause, gave the first honest answer of the morning. You hired her. She later said that question changed how she interviews.",
               "outside": "People feel read by you and check their own behavior retroactively after conversations. The perceptiveness is unsettling in exactly one direction: nothing performed survives it. Around you, colleagues have learned to bring the real version early, since the other kind just costs an extra meeting."
             }
@@ -83,7 +83,7 @@
           {
             "word": "Masterful",
             "doors": {
-              "trait": "Whatever craft holds your attention gets taken to the metal limit. The skill is not dabbled at, it is pursued through the plateau, past the point where everyone else declared good enough, into territory where your work becomes the local definition. Mastery is simply where your standards live.",
+              "trait": "Your skill is built to be witnessed. The presentation, the performance, the flawless run under pressure: you polish until the work holds up in front of anyone, and then you put it in front of everyone. Private excellence never interested you. Excellence, for you, is a public act.",
               "scene": "Your presentation files get passed around after you leave companies, studied like museum pieces: the pacing, the slides, the answers that seemed pre-loaded for every question. A former colleague admitted keeping a folder named after you, opened before her own big meetings, for calibration.",
               "outside": "In your field, your name has become an adjective among people who have never met you. New hires get shown your work as the ceiling, which creates two camps: the inspired and the discouraged. Both camps, notably, cite the same files. Neither has matched them yet."
             }

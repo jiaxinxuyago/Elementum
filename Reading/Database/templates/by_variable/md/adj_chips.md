@@ -39,7 +39,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Quick-eyed · Polished · Adventurous |
-| `friction` | Mercenary · Grabby · Restless |
+| `friction` | Mercenary · Deal-hungry · Restless |
 
 ### The Steward · 金_正财
 
@@ -165,7 +165,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Fruitful · Mellow · Tending |
-| `friction` | Overripe · Lax · Unpruned |
+| `friction` | Overripe · Lax · Overbooked |
 
 ### The Virtuoso · 木_伤官
 
@@ -206,7 +206,7 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Cross-pollinating · Perceptive · Quietly-original |
+| `catalyst` | Cross-pollinating · Perceptive · Self-taught |
 | `friction` | Tangled · Secretive · Reclusive |
 
 ### The Sage · 木_正印
@@ -227,7 +227,7 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Tide-riding · Nervy · Quicksilver |
+| `catalyst` | Competitive · Nervy · Agile |
 | `friction` | Undermining · Envious · Slippery |
 
 ### The Artisan · 水_食神
@@ -277,7 +277,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Deep-diving · Tide-reading · Subtle |
-| `friction` | Submerged · Elusive · Unreachable |
+| `friction` | Submerged · Fixated · Unreachable |
 
 ### The Sage · 水_正印
 
@@ -291,7 +291,7 @@
 | Field | Value |
 |---|---|
 | `catalyst` | Self-lit · Vivid · Undimmed |
-| `friction` | Prideful · Flaring · Unapproachable |
+| `friction` | Prideful · Touchy · Unapproachable |
 
 ### The Rival · 火_劫财
 

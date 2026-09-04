@@ -22,7 +22,7 @@
       ],
       "friction": [
         "Submerged",
-        "Elusive",
+        "Fixated",
         "Unreachable"
       ]
     },
@@ -101,11 +101,11 @@
             }
           },
           {
-            "word": "Elusive",
+            "word": "Fixated",
             "doors": {
-              "trait": "Pinning you down is a sport nobody wins. The plan stays liquid, the commitment arrives hedged, the yes has a current in it that could carry it anywhere. Even your calendar entries are written in pencil, in your head, where nobody can confirm them.",
-              "scene": "Three friends compared notes and discovered you had given each a different account of the same weekend, all technically true, none complete. Confronted gently, you flowed around the question with such grace that it took them an hour to notice it had not been answered.",
-              "outside": "People plan around you with margins, booking you the way sailors book the weather, hopefully and with backups. When you do appear, fully present, it is wonderful and mildly surprising. The group has a phrase for it: catching the tide in. It happens twice a season."
+              "trait": "When a subject takes you, it takes all of you. The research dive eats the evenings, the meals, the errands, and the surface duties of your life tread water while you are down there. The depth is real. So is everything floating unattended above it.",
+              "scene": "Three weeks into the deep dive, the fridge held condiments, the inbox held forty-one unread, and you knew more about the subject than almost anyone alive. Nobody had seen you. The obsession was fed daily. Everything else in the house was not.",
+              "outside": "People learn to date your disappearances by topic. Mention the current one and you surface, bright and full. Mention dinner and you drift back down. What you bring up from these dives is genuinely rare. What it costs is everything scheduled during them."
             }
           },
           {
