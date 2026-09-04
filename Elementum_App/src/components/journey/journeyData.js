@@ -316,8 +316,15 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
       } else {
         picked = leadRd.ledger.map((row) => ({ ...row, god: null }));
       }
-      r.fnRows = picked.map((row, i) => ({ word: row.word, god: row.god, text: row.doors[DOOR_ORDER[i % 3]] }));
-      r.adj = r.fnRows.map((row) => row.word);
+      // A door-less row degrades OUT rather than crashing the model build
+      // (content null-safety, C1): the station checker compares fields, it
+      // does not assert the doors shape, so an unbatched cell must never be
+      // able to take the whole reading screen down.
+      const rows = picked
+        .map((row, i) => ({ word: row.word, god: row.god, text: row.doors?.[DOOR_ORDER[i % 3]] || '' }))
+        .filter((row) => row.text);
+      r.fnRows = rows.length ? rows : null;
+      if (r.fnRows) r.adj = r.fnRows.map((row) => row.word);
     }
     r.chips = [];
     if (r.isCore) r.chips.push({ k: 'core', label: 'Core' });
