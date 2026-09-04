@@ -16,7 +16,7 @@
     "k2_functional": "Your energy is tempered and even: slow to tire, slow to bend, restored by solitary work.",
     "adj_chips": {
       "catalyst": [
-        "Self-forged",
+        "Self-made",
         "Reserved",
         "Unshakeable"
       ],
@@ -65,7 +65,7 @@
       "catalyst": {
         "ledger": [
           {
-            "word": "Self-forged",
+            "word": "Self-made",
             "doors": {
               "trait": "You built yourself by your own measure, and you know exactly which parts you built. Nobody assigned the morning routine, the savings rule, or the way you train. Ten years on, none of it has slipped, mostly because none of it was ever borrowed.",
               "scene": "The morning routine started in a bad year, the savings rule after one specific mistake, the training after nobody came to help. Each one was built by hand, for a reason you could name. Ten years later they all still hold, and you still remember the reasons.",

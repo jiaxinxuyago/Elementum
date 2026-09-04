@@ -17,7 +17,7 @@
     "adj_chips": {
       "catalyst": [
         "Fine-tuned",
-        "Discerning",
+        "Selective",
         "Ingenious"
       ],
       "friction": [
@@ -73,7 +73,7 @@
             }
           },
           {
-            "word": "Discerning",
+            "word": "Selective",
             "doors": {
               "trait": "Your judgment separates finely: the good from the merely polished, the signal from the confident noise, the person worth betting on from the person worth watching. Choices filtered through you come out cleaner, and your shortlists have a strange habit of containing the eventual answer.",
               "scene": "From forty applications you pulled three names in one evening, and the hire, made from your three, is now running the department. The panel spent two weeks reaching the shortlist you reached before dinner. Nobody can extract your criteria. You suspect they would not transfer.",

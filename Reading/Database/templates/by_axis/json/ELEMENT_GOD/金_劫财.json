@@ -18,12 +18,12 @@
       "catalyst": [
         "Keen-edged",
         "Competitive",
-        "Undaunted"
+        "Unfazed"
       ],
       "friction": [
         "Cutthroat",
         "Abrasive",
-        "Duel-prone"
+        "Picks fights"
       ]
     },
     "k2_domain_readings": {
@@ -81,7 +81,7 @@
             }
           },
           {
-            "word": "Undaunted",
+            "word": "Unfazed",
             "doors": {
               "trait": "Odds do not negotiate with you, because you decline the meeting. The favorite you were supposed to lose to, the market you were too small for, the record held too long: your approach is identical regardless of the forecast, and forecasts around you have developed a humility.",
               "scene": "The tender was between your four-person shop and two multinationals, and your bid went in anyway, priced with nerve, argued in person. You took forty percent of the contract, the part requiring speed. The multinationals now subcontract you, a sentence you never say out loud at meetings.",
@@ -109,7 +109,7 @@
             }
           },
           {
-            "word": "Duel-prone",
+            "word": "Picks fights",
             "doors": {
               "trait": "Everything becomes a contest, including things that were conversations. The differing opinion escalates to a showdown, the casual game develops stakes, the family dinner acquires a scoreboard nobody else consented to. You win most of them. The wins pile up in a specific corner, alone.",
               "scene": "The debate about the restaurant bill, seven dollars at issue, ran twenty minutes and ended with your victory and a quieter table. You had been right. The couple across from you split an odd look you decoded weeks later, at another dinner, to which they had invited others.",

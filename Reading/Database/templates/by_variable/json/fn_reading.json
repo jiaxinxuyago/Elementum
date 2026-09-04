@@ -11,7 +11,7 @@
           "catalyst": {
             "ledger": [
               {
-                "word": "Self-forged",
+                "word": "Self-made",
                 "doors": {
                   "trait": "You built yourself by your own measure, and you know exactly which parts you built. Nobody assigned the morning routine, the savings rule, or the way you train. Ten years on, none of it has slipped, mostly because none of it was ever borrowed.",
                   "scene": "The morning routine started in a bad year, the savings rule after one specific mistake, the training after nobody came to help. Each one was built by hand, for a reason you could name. Ten years later they all still hold, and you still remember the reasons.",
@@ -90,7 +90,7 @@
                 }
               },
               {
-                "word": "Undaunted",
+                "word": "Unfazed",
                 "doors": {
                   "trait": "Odds do not negotiate with you, because you decline the meeting. The favorite you were supposed to lose to, the market you were too small for, the record held too long: your approach is identical regardless of the forecast, and forecasts around you have developed a humility.",
                   "scene": "The tender was between your four-person shop and two multinationals, and your bid went in anyway, priced with nerve, argued in person. You took forty percent of the contract, the part requiring speed. The multinationals now subcontract you, a sentence you never say out loud at meetings.",
@@ -118,7 +118,7 @@
                 }
               },
               {
-                "word": "Duel-prone",
+                "word": "Picks fights",
                 "doors": {
                   "trait": "Everything becomes a contest, including things that were conversations. The differing opinion escalates to a showdown, the casual game develops stakes, the family dinner acquires a scoreboard nobody else consented to. You win most of them. The wins pile up in a specific corner, alone.",
                   "scene": "The debate about the restaurant bill, seven dollars at issue, ran twenty minutes and ended with your victory and a quieter table. You had been right. The couple across from you split an odd look you decoded weeks later, at another dinner, to which they had invited others.",
@@ -244,7 +244,7 @@
                 }
               },
               {
-                "word": "Contemptuous",
+                "word": "Judgy",
                 "doors": {
                   "trait": "Most people fail an exam you never announce. The mediocre effort, the fuzzy thinking, the ordinary taste: each gets silently graded and permanently filed, and the grade leaks through your face at doses everyone can read. Respect from you is rare currency. Its scarcity is the design.",
                   "scene": "Your colleague’s proud announcement of a certificate you consider trivial received your congratulations at a temperature slightly below the words themselves. He noticed, as everyone notices, the two-degree gap between what you said and what your eyebrows had already published. The certificate went undisplayed.",
@@ -326,7 +326,7 @@
           "catalyst": {
             "ledger": [
               {
-                "word": "Meticulous",
+                "word": "Thorough",
                 "doors": {
                   "trait": "Detail is where your love of quality lives. The receipts reconciled monthly, the maintenance schedule honored, the small print actually read: your life runs on a fineness of attention that prevents disasters so early they never even become anecdotes. Nothing about you is approximately done.",
                   "scene": "The warranty claim that saved you eleven hundred dollars took four minutes, because the receipt, the serial number, and the original packaging were exactly where your system said they would be, three years on. The agent audibly recalibrated. Most claims, she said, die of missing paperwork. Yours arrived immortal.",
@@ -342,7 +342,7 @@
                 }
               },
               {
-                "word": "Accruing",
+                "word": "Slow and steady",
                 "doors": {
                   "trait": "Your wealth grows the way rust never sleeps, in your favor: small, constant, compounding additions that no single day notices. The percent saved, the skill deepened annually, the relationship maintained for decades: everything in your portfolio gains a little every quarter, forever.",
                   "scene": "The account you opened at twenty-two with automatic transfers you never adjusted crossed a threshold this year that startled even you. The statement arrived on an ordinary Tuesday. You had done nothing dramatic in twenty years, which was, the statement made clear, the entire strategy.",
@@ -354,7 +354,7 @@
           "friction": {
             "ledger": [
               {
-                "word": "Austere",
+                "word": "No-frills",
                 "doors": {
                   "trait": "Comfort gets audited out of your life on principle. The heating conservative, the furnishings functional, the pleasures budgeted to their nutritional minimum: discipline built the estate, and somewhere it kept building past the point of purpose, into corners nobody warms.",
                   "scene": "The dinner you hosted was correct: adequate portions, sensible wine, lights at economy. Guests praised the meal and stopped somewhere short of settling in, coats kept near. The evening ended punctually. Your home, one of them said in the car, is the tidiest place she has ever been cold.",
@@ -362,7 +362,7 @@
                 }
               },
               {
-                "word": "Grasping",
+                "word": "Greedy",
                 "doors": {
                   "trait": "What comes near your hands tends to stay in them. The negotiation pushed past won into extractive, the split adjusted a few percent your way, the free thing taken because free: each grasp is small, and the sum has a gravity that people feel and rarely name.",
                   "scene": "The settlement was fair at the first offer, and your counter, and the counter after that, extracted eleven percent more and something else that did not appear on the term sheet. The other side paid in full and briefed their industry. Your next three negotiations opened noticeably colder.",
@@ -370,7 +370,7 @@
                 }
               },
               {
-                "word": "Unbudging",
+                "word": "Won’t budge",
                 "doors": {
                   "trait": "Your positions are priced once and never repriced. The offer stands as made, the grudge as filed, the opinion as formed in the original year: movement reads to you as loss, so nothing moves, and the world negotiates around you the way rivers negotiate around bedrock.",
                   "scene": "The house sat unsold for fourteen months because your price, set in a different market, declined to acknowledge the new one. The eventual sale, at less than the early offers you refused, closed a chapter your spouse refers to only by its duration. The number had not budged. Everything else had.",
@@ -480,7 +480,7 @@
           "friction": {
             "ledger": [
               {
-                "word": "Exacting",
+                "word": "Demanding",
                 "doors": {
                   "trait": "Your standard admits no rounding. The report is right or it is redone, the table is set correctly or reset, the apology contains the exact words or does not count. Excellence this consistent is genuinely rare, and living beside it is an occupation nobody applied for.",
                   "scene": "The thank-you card your daughter wrote got returned for a second draft, spelling corrected, sentiment intact but re-ordered. She was nine. The card that finally sent was perfect, and she has not voluntarily written one since. The standard held. Something else, harder to name, did not.",
@@ -523,7 +523,7 @@
                 }
               },
               {
-                "word": "Discerning",
+                "word": "Selective",
                 "doors": {
                   "trait": "Your judgment separates finely: the good from the merely polished, the signal from the confident noise, the person worth betting on from the person worth watching. Choices filtered through you come out cleaner, and your shortlists have a strange habit of containing the eventual answer.",
                   "scene": "From forty applications you pulled three names in one evening, and the hire, made from your three, is now running the department. The panel spent two weeks reaching the shortlist you reached before dinner. Nobody can extract your criteria. You suspect they would not transfer.",
@@ -594,7 +594,7 @@
                 }
               },
               {
-                "word": "Quietly-wise",
+                "word": "Old soul",
                 "doors": {
                   "trait": "Your wisdom skips the podium. The insight arrives in a sentence near the end of the visit, unlabeled, easy to miss, and it reorganizes the listener’s month. You never claim the credit and rarely get it, which suits you. The advice was for using, never for citing.",
                   "scene": "Your niece made the decision everyone praised her for after one walk with you, during which, by her account, you mostly asked what she already thought and mentioned, once, what you had seen happen to hurry. The sentence took four seconds. She built two years on it.",
@@ -669,7 +669,7 @@
           "friction": {
             "ledger": [
               {
-                "word": "Entrenched",
+                "word": "Dug in",
                 "doors": {
                   "trait": "Your positions come with earthworks. The opinion dug in years ago has supply lines, sandbags, and a flag, and updating it now feels like losing a war rather than learning a fact. You defend ground long after anyone remembers what battle claimed it.",
                   "scene": "The debate about the route to the lake house is in its ninth year. There is a faster way, proven twice by phone timers. You drive your way, narrating its virtues, adding twenty minutes. The family has stopped arguing and started packing snacks for the difference.",
@@ -720,7 +720,7 @@
                 }
               },
               {
-                "word": "Unbowed",
+                "word": "Unbroken",
                 "doors": {
                   "trait": "Pressure that bends other people mostly just settles your stance. Criticism, setbacks, the year everything went wrong: your posture after each one is level ground. You take the hit, absorb it, and stand where you stood, which is its own kind of answer.",
                   "scene": "The venture failed publicly, and you showed up Monday at the usual hour with an ordinary face and a revised plan. The people waiting to see you diminished waited all week. By Friday they were reading the plan, mostly to learn what standing back up looks like.",
@@ -740,7 +740,7 @@
                 }
               },
               {
-                "word": "Grudging",
+                "word": "Holds grudges",
                 "doors": {
                   "trait": "You keep score with geological patience. The slight from 2019 is filed, cross-referenced, and quietly load-bearing in how you treat its author. Forgiveness feels like surrendering land. So the ledger grows, and you pay its storage costs nightly without auditing what the grudges rent.",
                   "scene": "You attended the wedding and were pleasant all evening to the cousin, who never knew that the seating, the small talk, and the early exit were all footnotes to a loan unreturned in 2017. It was sixty dollars. The interest is now a relationship.",
@@ -795,7 +795,7 @@
           "friction": {
             "ledger": [
               {
-                "word": "Complacent",
+                "word": "Coasting",
                 "doors": {
                   "trait": "Good enough arrived years ago and you parked there. The skills plateaued where the applause got comfortable, the menu settled into rotation, the questions you ask the world got smaller. Nothing is wrong. That is the anesthetic, and it is working.",
                   "scene": "The restaurant changed its menu and you grieved for a week, which was the biggest event of your quarter. The novel sits half-read since spring. Asked what is new, you laughed and said nothing, thank goodness. Part of you checked whether that was still funny.",
@@ -838,7 +838,7 @@
                 }
               },
               {
-                "word": "Wry",
+                "word": "Deadpan",
                 "doors": {
                   "trait": "Dry is your native register. The joke arrives flat, two beats late, and lands harder for it, usually while everyone else is still being earnest. Humor is how your truth gets past security. People laugh first and only later notice what you actually said.",
                   "scene": "In the middle of the budget meeting’s third lap around the same point, you said one quiet sentence and the table broke. The meeting ended four minutes later with a decision. Your sentence had the decision folded inside the joke, which everyone realized on the stairs.",
@@ -909,7 +909,7 @@
                 }
               },
               {
-                "word": "Bountiful",
+                "word": "Overflowing",
                 "doors": {
                   "trait": "Plenty follows you around, and you spread it without doing arithmetic. The garden overproduces, the table seats extras, the referral goes out before being asked for. Abundance is your operating assumption, and somehow the assumption keeps proving itself right.",
                   "scene": "You came back from the weekend market with too much of everything, again, and by Sunday night four households had bags on their porches. Nobody keeps score, least of all you. Somehow your own porch is never empty either, which you have stopped calling coincidence.",
@@ -964,7 +964,7 @@
                 }
               },
               {
-                "word": "Steadfast",
+                "word": "Steady",
                 "doors": {
                   "trait": "Holding course is your competitive advantage in a distractible world. The plan from January is still the plan in September, adjusted, funded, on schedule. Shiny alternatives pitch themselves at you weekly and bounce off politely. What you committed to, you finish.",
                   "scene": "While the group chat cycled through four investment fads in a year, your boring monthly transfer went through forty-eight times, unphotographed. Two of the fads ended badly for people you love. Your account did the thing accounts are supposed to do, quietly, again.",
@@ -1000,7 +1000,7 @@
                 }
               },
               {
-                "word": "Miserly",
+                "word": "Cheap",
                 "doors": {
                   "trait": "Spending hurts you in a place logic cannot reach, and the people around you absorb the difference. The heating waits until the frost, the tip gets calculated to the coin, the gift arrives practical and slightly under the occasion. The books balance. Warmth pays the levy.",
                   "scene": "At the anniversary dinner you queried one item on the bill, correctly, for four dollars. The table went quiet in a way the four dollars did not buy back. Your partner said nothing then and remembered it at strange moments for a year.",
@@ -1090,7 +1090,7 @@
                 }
               },
               {
-                "word": "Just",
+                "word": "Fair",
                 "doors": {
                   "trait": "Fairness runs your decisions even when favoritism would be cheaper. The rules apply to your favorite and your rival at the same rate, and to you first of all. People may dislike your ruling. They have stopped questioning how you reached it.",
                   "scene": "You gave your closest friend the same late penalty you gave the stranger, and paid your own penalty the month your half of the paperwork slipped. The friend sulked for a week. The system survived, and it survives specifically because everyone watched you charge yourself.",
@@ -1236,7 +1236,7 @@
           "friction": {
             "ledger": [
               {
-                "word": "Insular",
+                "word": "Closed-off",
                 "doors": {
                   "trait": "Your mind trusts its home ground and quietly stopped traveling. The same three sources, the same trusted voices, the same conclusions wearing deeper into the same paths. New input has to marry into the family to be heard. The walls were comfort once. Now they are also the view.",
                   "scene": "The article that challenged your position went unread for a month, then unread permanently. At dinner you summarized its argument anyway, slightly wrong, to nods from the same four people who always nod. The dinner was warm. It is always warm, and always the same temperature.",
@@ -1252,7 +1252,7 @@
                 }
               },
               {
-                "word": "Inert",
+                "word": "Unmoving",
                 "doors": {
                   "trait": "Staying put has become your mind’s answer to open questions. The decision waits, the plan rests, the possibility sits in its chair until it stops asking. Nothing is refused outright. Things are simply outlasted, and the stillness does the declining on your behalf.",
                   "scene": "The evening-course brochure has been on the counter since March, under the fruit bowl, slightly stained now. You are not against it. You are not anything about it, which the brochure has slowly learned. In June someone will move it to the drawer.",
@@ -1315,7 +1315,7 @@
                 }
               },
               {
-                "word": "Slow-yielding",
+                "word": "Slow to change",
                 "doors": {
                   "trait": "You do change, eventually, at a pace that tests everyone’s faith in the concept. New evidence gets a probation period measured in seasons. By the time you adopt the improvement, its inventor has moved on, and you present it with the calm of original ownership.",
                   "scene": "You resisted the phone upgrade for three years, listing principled objections, and then loved it within a week of surrendering. The pattern has repeated with the car, the software, and one entire relationship. The objections were never about the thing. They were about being moved.",
@@ -1350,7 +1350,7 @@
                 }
               },
               {
-                "word": "Rivalry-spurred",
+                "word": "Rivalry-fueled",
                 "doors": {
                   "trait": "Competition is your fertilizer. A rival in the field and your growth doubles: the training sharpens, the hours deepen, the work finds another gear you did not know the engine had. You do not resent your rivals. You privately thank them, at the finish line.",
                   "scene": "The gym was dying at six in the morning until the newcomer started matching your pace. Within a month you were both twenty percent stronger and nodding like diplomats. Neither of you has ever named the arrangement. Both of you check the other’s numbers first.",
@@ -1378,7 +1378,7 @@
                 }
               },
               {
-                "word": "Rash",
+                "word": "Impulsive",
                 "doors": {
                   "trait": "Your body signs before your mind reads. The quit, the purchase, the lane change, the reply-all: executed at growth speed, reviewed at leisure. Some of your best outcomes started this way, which is the problem, because so did all of your worst ones.",
                   "scene": "You resigned on a Tuesday over a scheduling slight, without a plan, with a mortgage. It worked out, eventually, which is the version the story leads with. The four months in the middle, the ones your partner remembers differently, get summarized as a transition.",
@@ -1488,7 +1488,7 @@
           "friction": {
             "ledger": [
               {
-                "word": "Wayward",
+                "word": "Chaotic",
                 "doors": {
                   "trait": "Direction is your allergy. The plan says left, and something in you veers right on principle, even when left was your own idea last week. Paths bore you the moment they firm up, which keeps life interesting and keeps arrival permanently postponed.",
                   "scene": "You quit the program two months before certification, the third finish line abandoned in five years, each exit backed by a compelling reason that shares no logic with the others. The certificates would spell a career by now. The reasons, laid end to end, spell only motion.",
@@ -1614,7 +1614,7 @@
           "friction": {
             "ledger": [
               {
-                "word": "Root-bound",
+                "word": "Stuck",
                 "doors": {
                   "trait": "Outgrowing a place and staying anyway is a pattern of yours, and calling it loyalty stopped being accurate a while ago. The ground you hold has long since stopped feeding you. Holding it anyway is the habit, and the habit never checks the yield.",
                   "scene": "The plant on your desk has been repotted twice in five years. The desk itself, the rate, and the commute have not moved once in the same stretch. You keep telling people you are settled, and some of them have started gently asking settled into what.",
@@ -1622,7 +1622,7 @@
                 }
               },
               {
-                "word": "Risk-averse",
+                "word": "Plays it safe",
                 "doors": {
                   "trait": "Weighing a risk is your reflex, and almost no risk survives the weighing. The analysis is always excellent and always lands on later, because the math was never the real obstacle. The deciding was, and the deciding still is.",
                   "scene": "Three spreadsheets compared the two jobs down to the commute minutes, and the reply that finally went out was thanks, but not this year. The analysis took six weeks. The no took one sentence, and it was written somewhere in you before the spreadsheets ever opened.",
@@ -1728,7 +1728,7 @@
                 }
               },
               {
-                "word": "Exemplary",
+                "word": "Leads by example",
                 "doors": {
                   "trait": "Being the example is a role your conduct keeps applying for. You do the boring right thing repeatedly, visibly, without being asked, and standards form around you the way paths form where someone walks daily. Rules look livable in your vicinity, which is why they hold.",
                   "scene": "You returned the extra change, filed the honest expense report, and took the parking ticket without contesting the unfair half. Small, dull, witnessed. Two years later a junior colleague, caught in a real dilemma, did the right thing and cited you. You had said nothing.",
@@ -1775,7 +1775,7 @@
           "catalyst": {
             "ledger": [
               {
-                "word": "Cross-pollinating",
+                "word": "Connects dots",
                 "doors": {
                   "trait": "Your mind grafts ideas across fields that never formally met. The biology podcast fixes the pricing problem, the poetry course improves your code reviews. Nothing you learn stays in its own bed, and the hybrids that result are yours alone.",
                   "scene": "The logistics fix that saved the quarter came, by your own account, from a documentary about ant colonies watched at one in the morning. You explained the connection twice and it survived neither explanation. It worked anyway. The warehouse now runs on ants, unofficially.",
@@ -1874,7 +1874,7 @@
                 }
               },
               {
-                "word": "Clinging",
+                "word": "Clingy",
                 "doors": {
                   "trait": "Letting go is a season your mind refuses to enter. The grown child, the finished era, the friend who moved: you hold on with tendrils dressed as check-ins, traditions, and gentle guilt. The grip feels like love from inside. From outside it has a weight.",
                   "scene": "The weekly call with your daughter has an agenda now, hers, called boundaries. You negotiated it down from daily with visible effort. Afterward you reorganized her old bedroom again, which is its own kind of phone call, one she has stopped answering.",
@@ -1972,7 +1972,7 @@
                 }
               },
               {
-                "word": "Nervy",
+                "word": "Unafraid",
                 "doors": {
                   "trait": "Your nerves hold exactly when the other side hopes they will not. The staring contest of a negotiation, the final round, the moment someone raises the stakes to scare you: your pulse spikes and your voice does not. Opponents read calm. It is actually appetite.",
                   "scene": "The other bidder raised twice to shake you loose, and your third bid came back before the echo faded, at a number you had chosen for exactly this moment. They folded in the parking lot. You had been enjoying yourself since the second raise.",
@@ -2071,7 +2071,7 @@
                 }
               },
               {
-                "word": "Unstirred",
+                "word": "Unmoved",
                 "doors": {
                   "trait": "It takes a great deal to move you, and less would honestly serve you better. The deadline, the news, the argument all get the same shrug and the same tea. Calm this deep is a talent right up until it becomes a moat.",
                   "scene": "The deadline got a shrug and a fresh cup of tea. So did the news, and the argument, and the email marked urgent twice. Then one Thursday everything landed at once, and the calm you had been so proud of turned out to be a backlog.",
@@ -2118,7 +2118,7 @@
           "friction": {
             "ledger": [
               {
-                "word": "Corrosive",
+                "word": "Toxic",
                 "doors": {
                   "trait": "Your words work on people the way water works on iron, slowly, invisibly, and completely. The little digs, the accurate observations shared at the wrong moment, the humor with acid in it: nothing dramatic, ever. Just gradual damage that everyone attributes to time.",
                   "scene": "You have a nickname for a coworker that is funny, accurate, and has quietly followed them through two promotions like rust. You would be startled to learn they know it exists. They have known for three years. It reached them in an afternoon.",
@@ -2181,7 +2181,7 @@
           "friction": {
             "ledger": [
               {
-                "word": "Tide-tossed",
+                "word": "Up and down",
                 "doors": {
                   "trait": "Your fortunes rise and fall on currents you ride but never steer. The windfall month, the wipeout quarter, the rescue that arrives from nowhere, the loss that follows it out: your financial life reads like a tide chart with no moon to blame.",
                   "scene": "March brought the surprise contract that fixed everything, and August took it away with a client bankruptcy nobody saw coming. You have been rich twice and rinsed twice in four years, and your budgeting app has given up on trend lines. It just shows waves now.",
@@ -2197,7 +2197,7 @@
                 }
               },
               {
-                "word": "Dispersed",
+                "word": "Everywhere at once",
                 "doors": {
                   "trait": "Your energy spreads across so many channels that no single one carries real depth. The five ventures, the three cities, the dozen half-relationships: everything gets a trickle, and trickles evaporate. The delta looks impressive from above. At ground level, none of the streams can float a boat.",
                   "scene": "Tuesday touched four projects in three currencies and finished none of anything. The calls overlapped, the follow-ups queued, and at midnight you were answering messages for the venture that earns the least, because it shouts the loudest. The one that could actually flourish got eleven minutes.",
@@ -2216,7 +2216,7 @@
           "catalyst": {
             "ledger": [
               {
-                "word": "Prudent",
+                "word": "Careful",
                 "doors": {
                   "trait": "You handle resources the way careful water handles a landscape, never taking more than the channel can hold. The purchase gets slept on, the debt gets declined, the plan keeps a margin. Boring, people say, until their own accounts get interesting in the bad way.",
                   "scene": "The car was chosen after the insurance quote, the reliability data, and one conversation with a mechanic you trust. It has now outlasted three of your friends’ flashier choices, at half the total cost. The spreadsheet that picked it is still on your laptop, mildly famous.",
@@ -2260,7 +2260,7 @@
                 }
               },
               {
-                "word": "Clutching",
+                "word": "Can’t let go",
                 "doors": {
                   "trait": "Letting go, of money, of objects, of the way Sunday is supposed to run, activates something in your grip that logic cannot pry open. The sunk cost stays sunk and held, the depreciated thing stays shelved, and your hands, at any given moment, are completely full.",
                   "scene": "The vacation fund has existed for nine years and never once been spent, each proposed trip failing the final review at the moment of booking. The money is for vacations. The vacations are somehow never quite worth the money. The fund grows, a monument to trips unrisked.",
@@ -2323,7 +2323,7 @@
                 }
               },
               {
-                "word": "Submerging",
+                "word": "Suffocating",
                 "doors": {
                   "trait": "Your force pulls downward quietly. Deadlines, standards, and consequences settle over people like water over a diver, heavier with every meter, and nobody can point to the moment breathing got hard. You never raise your voice. The pressure does the talking, at depth.",
                   "scene": "The new hire was excellent for three months, then quieter, then gone, and the exit interview mentioned an atmosphere no single incident could explain. You reread it twice, genuinely puzzled. Each individual expectation had been reasonable. Together they were an ocean on someone’s chest.",
@@ -2342,7 +2342,7 @@
           "catalyst": {
             "ledger": [
               {
-                "word": "Clear-channeled",
+                "word": "Clockwork",
                 "doors": {
                   "trait": "Your discipline flows in built channels: the routine, the process, the documented way. Where others improvise and flood, you move the same water through the same course daily, and things downstream can rely on it. Order, in your hands, is irrigation rather than dam.",
                   "scene": "The morning sequence has not changed in nine years: the walk, the list, the first hard task before mail. Colleagues set meetings around it like farmers around rainfall. On the rare day the sequence breaks, three people ask if everything is alright. It usually is, by ten.",
@@ -2386,7 +2386,7 @@
                 }
               },
               {
-                "word": "Current-bound",
+                "word": "On rails",
                 "doors": {
                   "trait": "The channel decides your route. The established procedure, the way it has always flowed, the course set by someone upstream years ago: you follow it faithfully, even where the banks have visibly moved. Freedom to reroute exists on paper. The water has never once tested it.",
                   "scene": "The weekly report you compile takes three hours and, as of the reorg two years ago, has no remaining readers. You suspected as much and confirmed it once, gently, then continued compiling. The channel was dug and the water flows. Somewhere that is still a reason.",
@@ -2559,7 +2559,7 @@
           "friction": {
             "ledger": [
               {
-                "word": "Prideful",
+                "word": "Too proud",
                 "doors": {
                   "trait": "Your flame refuses to be seen flickering. The struggle stays private, the help gets declined at the door, the apology exits in a dialect nobody recognizes as one. Being impressive is mandatory, being witnessed mid-failure is not survivable, and the policy costs you exactly what it protects.",
                   "scene": "The business wobbled for five months before anyone knew, because the version of you at dinners kept performing success on schedule. When the closure finally announced itself, friends were hurt in an unexpected direction: you had let them toast a ghost. The pride had spent their trust.",
@@ -2602,7 +2602,7 @@
                 }
               },
               {
-                "word": "Audacious",
+                "word": "Fearless",
                 "doors": {
                   "trait": "Your asks have no ceiling. The cold call to the CEO, the bid above your class, the public promise that forces the miracle: you say the enormous thing out loud, and enough of it lands to fund the reputation. Fortune does seem to favor you. You invoice it accordingly.",
                   "scene": "You pitched the biggest client in the region from the lobby, uninvited, with a deck finished that morning in the car. Security was called and, in the end, so was the account manager. The contract took eight months. The story reached your industry in eight days.",
@@ -2693,7 +2693,7 @@
                 }
               },
               {
-                "word": "Extravagant",
+                "word": "Over the top",
                 "doors": {
                   "trait": "Your celebrations outspend their occasions. The birthday needs the venue, the dinner needs the good bottle, the ordinary weekend needs upgrading on principle. Delight justifies every line item at the moment of purchase, and the statements afterward read like reviews of a life slightly larger than the income.",
                   "scene": "The birthday needed a venue, the venue needed a theme, and the theme needed the good caterer, for eleven guests. It was a wonderful night, everyone says so. The next gathering anyone else hosts will be at a kitchen table, apologizing for it.",
@@ -2819,7 +2819,7 @@
                 }
               },
               {
-                "word": "Spendthrift",
+                "word": "Big spender",
                 "doors": {
                   "trait": "Money exits you at the speed of delight. The round for the table, the gadget of the month, the upgrade that felt like destiny at checkout: each purchase is warm and defensible, and together they are a bonfire with a loyalty card. Earning was never your problem. Keeping never got hired.",
                   "scene": "The bonus landed on the fourth and was structurally gone by the nineteenth: the trip booked, the jacket, the speakers, the generous gesture at dinner that felt so right. Nothing was wasted, exactly. Nothing was kept, either. The statement reads like a wonderful month someone else paid for.",
@@ -2854,7 +2854,7 @@
                 }
               },
               {
-                "word": "Diligent",
+                "word": "Hardworking",
                 "doors": {
                   "trait": "Your effort burns steady, on schedule, without applause requirements. The daily block, the maintained log, the follow-through that arrives exactly when promised: the work gets done at a sustainable temperature, every day, and the years quietly assemble the results into something substantial.",
                   "scene": "The certification took eighteen months of Tuesday and Thursday evenings, logged without drama while louder colleagues announced bootcamps they never finished. When the title bump came, people called it sudden. The logbook, four notebooks thick by then, had a different word for it.",
@@ -2909,7 +2909,7 @@
           "catalyst": {
             "ledger": [
               {
-                "word": "Swift",
+                "word": "Decisive",
                 "doors": {
                   "trait": "Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Options do not improve with age, in your experience, and your experience keeps proving it. The choice gets made while others are still framing the question. Then everyone breathes.",
                   "scene": "Twenty minutes into the dinner debate, you name the restaurant and stand up. Chairs scrape, coats go on, and the relief around the table is almost audible. Nobody remembers the other options by the sidewalk. Deciding was the meal everyone was actually hungry for.",
@@ -2937,7 +2937,7 @@
           "friction": {
             "ledger": [
               {
-                "word": "Scorching",
+                "word": "Too intense",
                 "doors": {
                   "trait": "Your intensity marks people whether you mean it or not, and you usually do not. The heat that cuts through problems does not distinguish problems from bystanders, and the bystanders remember longer. You forget the flare by lunch. Nobody standing near it ever does.",
                   "scene": "It was one word, sloppy, said at speed on a Tuesday and forgotten by lunch. A year later the person who caught it can still play it back with your exact inflection. You were putting out a fire. They were standing closer to it than you noticed.",
@@ -2945,7 +2945,7 @@
                 }
               },
               {
-                "word": "Domineering",
+                "word": "Bossy",
                 "doors": {
                   "trait": "Taking charge is your reflex even where nobody asked, and mostly nobody asked. Any gathering without a commander strikes you as an emergency, and you fix it by quietly assuming the post. Order arrives on schedule. Volunteering, around you, just as quietly dies.",
                   "scene": "The vacation had a schedule by the first morning and a debrief by the last night, and somewhere in between, the group chat went quiet. One-word replies, thumbs up, fine. You ran a beautiful operation. The others were on holiday, or trying to be.",
@@ -2980,7 +2980,7 @@
                 }
               },
               {
-                "word": "Luminous",
+                "word": "Squeaky-clean",
                 "doors": {
                   "trait": "Your integrity gives off actual light. People behave better in your radius without being asked, the meeting sits straighter when you join, and the shady proposal dies unspoken because you happened to be at the table. You illuminate by standing there. It is a strange, real power.",
                   "scene": "The vendor arrived with the usual flexible arrangement and, twelve minutes into your company, quietly stopped offering it. Nothing was said. Your presence had simply lit the transaction, and things done in the dark declined to attend. Your boss now brings you to certain meetings as equipment.",
@@ -3079,7 +3079,7 @@
                 }
               },
               {
-                "word": "Estranged",
+                "word": "Distant",
                 "doors": {
                   "trait": "Your inner world drifted from the shared one by degrees. The interests nobody around you shares, the hours nobody keeps, the references that land on silence: each pulled you a little further offshore. People love you from the mainland. The commute between you has gotten long.",
                   "scene": "At the reunion you spent the evening at the edge of three conversations, fluent in none of them, holding your drink like credentials. The people were kind and the kindness had distance in it. You left early, relieved, and the relief troubled you the whole drive home.",
@@ -3098,7 +3098,7 @@
           "catalyst": {
             "ledger": [
               {
-                "word": "Hearth-warm",
+                "word": "Warm-hearted",
                 "doors": {
                   "trait": "Your presence is the warm center other lives arrange themselves around. People come in from their cold weeks and hold their hands out to you, mostly without noticing the gesture. The warmth is steady, unconditional, and quietly expensive to maintain. Nobody sees the fuel line. You are the fuel line.",
                   "scene": "Sunday afternoons at yours have become load-bearing for at least five people, including one who mostly sits near the conversation without joining it. Nothing is organized. Soup happens, light happens, and everyone leaves warmer than they arrived. The tradition has no name and perfect attendance.",
@@ -3114,7 +3114,7 @@
                 }
               },
               {
-                "word": "Restorative",
+                "word": "Healing",
                 "doors": {
                   "trait": "Time near you repairs people. The burned-out friend, the post-hospital parent, the teenager mid-storm: they sit in your warmth doing apparently nothing, and leave with something reattached. You never announce a treatment. You just keep the light on and the questions gentle, and mending happens.",
                   "scene": "Your brother spent three weekends on your couch after the divorce, barely speaking, watching cooking shows. You fed him, asked nothing, and let the couch work. On the fourth weekend he fixed your cabinet hinge, unprompted, whistling. You both understood the hinge was a discharge summary.",
@@ -3126,7 +3126,7 @@
           "friction": {
             "ledger": [
               {
-                "word": "Coddling",
+                "word": "Babying",
                 "doors": {
                   "trait": "Your warmth removes obstacles that were doing important work. The struggle gets pre-solved, the consequence intercepted, the difficulty warmed away before it could teach anything. The people you love stay comfortable and stay soft, and the softness eventually presents its own bill, addressed to them.",
                   "scene": "Your son’s overdue essay got rescued by your midnight edit, again, the fourth rescue this term. His grades are excellent and weightless. The teacher suspects, the boy knows, and some part of him has begun to calculate, correctly, that finishing things is optional in a heated house.",

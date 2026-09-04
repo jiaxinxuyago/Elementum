@@ -16,14 +16,14 @@
     "k2_functional": "You administer gracefully: systems, budgets, routines that run without drought.",
     "adj_chips": {
       "catalyst": [
-        "Prudent",
+        "Careful",
         "Steady-flowing",
         "Well-prepared"
       ],
       "friction": [
         "Dammed-up",
         "Wary",
-        "Clutching"
+        "Can’t let go"
       ]
     },
     "k2_domain_readings": {
@@ -65,7 +65,7 @@
       "catalyst": {
         "ledger": [
           {
-            "word": "Prudent",
+            "word": "Careful",
             "doors": {
               "trait": "You handle resources the way careful water handles a landscape, never taking more than the channel can hold. The purchase gets slept on, the debt gets declined, the plan keeps a margin. Boring, people say, until their own accounts get interesting in the bad way.",
               "scene": "The car was chosen after the insurance quote, the reliability data, and one conversation with a mechanic you trust. It has now outlasted three of your friends’ flashier choices, at half the total cost. The spreadsheet that picked it is still on your laptop, mildly famous.",
@@ -109,7 +109,7 @@
             }
           },
           {
-            "word": "Clutching",
+            "word": "Can’t let go",
             "doors": {
               "trait": "Letting go, of money, of objects, of the way Sunday is supposed to run, activates something in your grip that logic cannot pry open. The sunk cost stays sunk and held, the depreciated thing stays shelved, and your hands, at any given moment, are completely full.",
               "scene": "The vacation fund has existed for nine years and never once been spent, each proposed trip failing the final review at the moment of booking. The money is for vacations. The vacations are somehow never quite worth the money. The fund grows, a monument to trips unrisked.",

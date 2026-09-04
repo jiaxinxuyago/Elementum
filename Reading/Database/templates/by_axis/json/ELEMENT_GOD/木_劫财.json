@@ -18,12 +18,12 @@
       "catalyst": [
         "Fast-climbing",
         "Gutsy",
-        "Rivalry-spurred"
+        "Rivalry-fueled"
       ],
       "friction": [
         "Overreaching",
         "Turf-guarding",
-        "Rash"
+        "Impulsive"
       ]
     },
     "k2_domain_readings": {
@@ -81,7 +81,7 @@
             }
           },
           {
-            "word": "Rivalry-spurred",
+            "word": "Rivalry-fueled",
             "doors": {
               "trait": "Competition is your fertilizer. A rival in the field and your growth doubles: the training sharpens, the hours deepen, the work finds another gear you did not know the engine had. You do not resent your rivals. You privately thank them, at the finish line.",
               "scene": "The gym was dying at six in the morning until the newcomer started matching your pace. Within a month you were both twenty percent stronger and nodding like diplomats. Neither of you has ever named the arrangement. Both of you check the other’s numbers first.",
@@ -109,7 +109,7 @@
             }
           },
           {
-            "word": "Rash",
+            "word": "Impulsive",
             "doors": {
               "trait": "Your body signs before your mind reads. The quit, the purchase, the lane change, the reply-all: executed at growth speed, reviewed at leisure. Some of your best outcomes started this way, which is the problem, because so did all of your worst ones.",
               "scene": "You resigned on a Tuesday over a scheduling slight, without a plan, with a mortgage. It worked out, eventually, which is the version the story leads with. The four months in the middle, the ones your partner remembers differently, get summarized as a transition.",

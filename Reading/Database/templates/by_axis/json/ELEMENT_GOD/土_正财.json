@@ -17,13 +17,13 @@
     "adj_chips": {
       "catalyst": [
         "Thrifty",
-        "Steadfast",
+        "Steady",
         "Well-stocked"
       ],
       "friction": [
         "Hoarding",
         "Immobile",
-        "Miserly"
+        "Cheap"
       ]
     },
     "k2_domain_readings": {
@@ -73,7 +73,7 @@
             }
           },
           {
-            "word": "Steadfast",
+            "word": "Steady",
             "doors": {
               "trait": "Holding course is your competitive advantage in a distractible world. The plan from January is still the plan in September, adjusted, funded, on schedule. Shiny alternatives pitch themselves at you weekly and bounce off politely. What you committed to, you finish.",
               "scene": "While the group chat cycled through four investment fads in a year, your boring monthly transfer went through forty-eight times, unphotographed. Two of the fads ended badly for people you love. Your account did the thing accounts are supposed to do, quietly, again.",
@@ -109,7 +109,7 @@
             }
           },
           {
-            "word": "Miserly",
+            "word": "Cheap",
             "doors": {
               "trait": "Spending hurts you in a place logic cannot reach, and the people around you absorb the difference. The heating waits until the frost, the tip gets calculated to the coin, the gift arrives practical and slightly under the occasion. The books balance. Warmth pays the levy.",
               "scene": "At the anniversary dinner you queried one item on the bill, correctly, for four dollars. The table went quiet in a way the four dollars did not buy back. Your partner said nothing then and remembered it at strange moments for a year.",

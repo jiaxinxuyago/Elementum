@@ -17,7 +17,7 @@
     "adj_chips": {
       "catalyst": [
         "Rock-steady",
-        "Just",
+        "Fair",
         "Load-bearing"
       ],
       "friction": [
@@ -73,7 +73,7 @@
             }
           },
           {
-            "word": "Just",
+            "word": "Fair",
             "doors": {
               "trait": "Fairness runs your decisions even when favoritism would be cheaper. The rules apply to your favorite and your rival at the same rate, and to you first of all. People may dislike your ruling. They have stopped questioning how you reached it.",
               "scene": "You gave your closest friend the same late penalty you gave the stranger, and paid your own penalty the month your half of the paperwork slipped. The friend sulked for a week. The system survived, and it survives specifically because everyone watched you charge yourself.",

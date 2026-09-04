@@ -16,14 +16,14 @@
     "k2_functional": "Your order runs like a canal: dug once with care, then carrying everyone’s traffic for decades.",
     "adj_chips": {
       "catalyst": [
-        "Clear-channeled",
+        "Clockwork",
         "Composed",
         "Far-sighted"
       ],
       "friction": [
         "Overcautious",
         "Muted",
-        "Current-bound"
+        "On rails"
       ]
     },
     "k2_domain_readings": {
@@ -65,7 +65,7 @@
       "catalyst": {
         "ledger": [
           {
-            "word": "Clear-channeled",
+            "word": "Clockwork",
             "doors": {
               "trait": "Your discipline flows in built channels: the routine, the process, the documented way. Where others improvise and flood, you move the same water through the same course daily, and things downstream can rely on it. Order, in your hands, is irrigation rather than dam.",
               "scene": "The morning sequence has not changed in nine years: the walk, the list, the first hard task before mail. Colleagues set meetings around it like farmers around rainfall. On the rare day the sequence breaks, three people ask if everything is alright. It usually is, by ten.",
@@ -109,7 +109,7 @@
             }
           },
           {
-            "word": "Current-bound",
+            "word": "On rails",
             "doors": {
               "trait": "The channel decides your route. The established procedure, the way it has always flowed, the course set by someone upstream years ago: you follow it faithfully, even where the banks have visibly moved. Freedom to reroute exists on paper. The water has never once tested it.",
               "scene": "The weekly report you compile takes three hours and, as of the reorg two years ago, has no remaining readers. You suspected as much and confirmed it once, gently, then continued compiling. The channel was dug and the water flows. Somewhere that is still a reason.",

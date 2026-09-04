@@ -21,7 +21,7 @@
         "Untamed"
       ],
       "friction": [
-        "Wayward",
+        "Chaotic",
         "Sprawling",
         "Defiant"
       ]
@@ -93,7 +93,7 @@
       "friction": {
         "ledger": [
           {
-            "word": "Wayward",
+            "word": "Chaotic",
             "doors": {
               "trait": "Direction is your allergy. The plan says left, and something in you veers right on principle, even when left was your own idea last week. Paths bore you the moment they firm up, which keeps life interesting and keeps arrival permanently postponed.",
               "scene": "You quit the program two months before certification, the third finish line abandoned in five years, each exit backed by a compelling reason that shares no logic with the others. The certificates would spell a career by now. The reasons, laid end to end, spell only motion.",

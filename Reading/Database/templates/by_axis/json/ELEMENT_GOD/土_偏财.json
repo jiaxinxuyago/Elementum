@@ -18,7 +18,7 @@
       "catalyst": [
         "Shrewd",
         "Well-traveled",
-        "Bountiful"
+        "Overflowing"
       ],
       "friction": [
         "Land-hungry",
@@ -81,7 +81,7 @@
             }
           },
           {
-            "word": "Bountiful",
+            "word": "Overflowing",
             "doors": {
               "trait": "Plenty follows you around, and you spread it without doing arithmetic. The garden overproduces, the table seats extras, the referral goes out before being asked for. Abundance is your operating assumption, and somehow the assumption keeps proving itself right.",
               "scene": "You came back from the weekend market with too much of everything, again, and by Sunday night four households had bags on their porches. Nobody keeps score, least of all you. Somehow your own porch is never empty either, which you have stopped calling coincidence.",

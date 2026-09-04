@@ -21,9 +21,9 @@
         "Magnetic"
       ],
       "friction": [
-        "Tide-tossed",
+        "Up and down",
         "Ungrounded",
-        "Dispersed"
+        "Everywhere at once"
       ]
     },
     "k2_domain_readings": {
@@ -93,7 +93,7 @@
       "friction": {
         "ledger": [
           {
-            "word": "Tide-tossed",
+            "word": "Up and down",
             "doors": {
               "trait": "Your fortunes rise and fall on currents you ride but never steer. The windfall month, the wipeout quarter, the rescue that arrives from nowhere, the loss that follows it out: your financial life reads like a tide chart with no moon to blame.",
               "scene": "March brought the surprise contract that fixed everything, and August took it away with a client bankruptcy nobody saw coming. You have been rich twice and rinsed twice in four years, and your budgeting app has given up on trend lines. It just shows waves now.",
@@ -109,7 +109,7 @@
             }
           },
           {
-            "word": "Dispersed",
+            "word": "Everywhere at once",
             "doors": {
               "trait": "Your energy spreads across so many channels that no single one carries real depth. The five ventures, the three cities, the dozen half-relationships: everything gets a trickle, and trickles evaporate. The delta looks impressive from above. At ground level, none of the streams can float a boat.",
               "scene": "Tuesday touched four projects in three currencies and finished none of anything. The calls overlapped, the follow-ups queued, and at midnight you were answering messages for the venture that earns the least, because it shouts the loudest. The one that could actually flourish got eleven minutes.",

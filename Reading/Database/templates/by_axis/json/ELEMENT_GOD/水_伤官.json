@@ -21,7 +21,7 @@
         "Free-flowing"
       ],
       "friction": [
-        "Corrosive",
+        "Toxic",
         "Mocking",
         "Uncontainable"
       ]
@@ -93,7 +93,7 @@
       "friction": {
         "ledger": [
           {
-            "word": "Corrosive",
+            "word": "Toxic",
             "doors": {
               "trait": "Your words work on people the way water works on iron, slowly, invisibly, and completely. The little digs, the accurate observations shared at the wrong moment, the humor with acid in it: nothing dramatic, ever. Just gradual damage that everyone attributes to time.",
               "scene": "You have a nickname for a coworker that is funny, accurate, and has quietly followed them through two promotions like rust. You would be startled to learn they know it exists. They have known for three years. It reached them in an afternoon.",

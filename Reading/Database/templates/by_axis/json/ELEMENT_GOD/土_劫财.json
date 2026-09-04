@@ -18,11 +18,11 @@
       "catalyst": [
         "Ground-taking",
         "Tenacious",
-        "Unbowed"
+        "Unbroken"
       ],
       "friction": [
         "Territorial",
-        "Grudging",
+        "Holds grudges",
         "Bulldozing"
       ]
     },
@@ -81,7 +81,7 @@
             }
           },
           {
-            "word": "Unbowed",
+            "word": "Unbroken",
             "doors": {
               "trait": "Pressure that bends other people mostly just settles your stance. Criticism, setbacks, the year everything went wrong: your posture after each one is level ground. You take the hit, absorb it, and stand where you stood, which is its own kind of answer.",
               "scene": "The venture failed publicly, and you showed up Monday at the usual hour with an ordinary face and a revised plan. The people waiting to see you diminished waited all week. By Friday they were reading the plan, mostly to learn what standing back up looks like.",
@@ -101,7 +101,7 @@
             }
           },
           {
-            "word": "Grudging",
+            "word": "Holds grudges",
             "doors": {
               "trait": "You keep score with geological patience. The slight from 2019 is filed, cross-referenced, and quietly load-bearing in how you treat its author. Forgiveness feels like surrendering land. So the ledger grows, and you pay its storage costs nightly without auditing what the grudges rent.",
               "scene": "You attended the wedding and were pleasant all evening to the cousin, who never knew that the seating, the small talk, and the early exit were all footnotes to a loan unreturned in 2017. It was sixty dollars. The interest is now a relationship.",

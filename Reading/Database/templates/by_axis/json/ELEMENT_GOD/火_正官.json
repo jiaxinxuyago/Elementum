@@ -17,7 +17,7 @@
     "adj_chips": {
       "catalyst": [
         "Upstanding",
-        "Luminous",
+        "Squeaky-clean",
         "Inspiring"
       ],
       "friction": [
@@ -73,7 +73,7 @@
             }
           },
           {
-            "word": "Luminous",
+            "word": "Squeaky-clean",
             "doors": {
               "trait": "Your integrity gives off actual light. People behave better in your radius without being asked, the meeting sits straighter when you join, and the shady proposal dies unspoken because you happened to be at the table. You illuminate by standing there. It is a strange, real power.",
               "scene": "The vendor arrived with the usual flexible arrangement and, twelve minutes into your company, quietly stopped offering it. Nothing was said. Your presence had simply lit the transaction, and things done in the dark declined to attend. Your boss now brings you to certain meetings as equipment.",

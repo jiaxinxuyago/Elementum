@@ -17,7 +17,7 @@
     "adj_chips": {
       "catalyst": [
         "Spark-chasing",
-        "Audacious",
+        "Fearless",
         "Electrifying"
       ],
       "friction": [
@@ -73,7 +73,7 @@
             }
           },
           {
-            "word": "Audacious",
+            "word": "Fearless",
             "doors": {
               "trait": "Your asks have no ceiling. The cold call to the CEO, the bid above your class, the public promise that forces the miracle: you say the enormous thing out loud, and enough of it lands to fund the reputation. Fortune does seem to favor you. You invoice it accordingly.",
               "scene": "You pitched the biggest client in the region from the lobby, uninvited, with a deck finished that morning in the car. Security was called and, in the end, so was the account manager. The contract took eight months. The story reached your industry in eight days.",

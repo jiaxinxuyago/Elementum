@@ -23,7 +23,7 @@
       "friction": [
         "Standoffish",
         "Stubborn",
-        "Slow-yielding"
+        "Slow to change"
       ]
     },
     "k2_domain_readings": {
@@ -109,7 +109,7 @@
             }
           },
           {
-            "word": "Slow-yielding",
+            "word": "Slow to change",
             "doors": {
               "trait": "You do change, eventually, at a pace that tests everyone’s faith in the concept. New evidence gets a probation period measured in seasons. By the time you adopt the improvement, its inventor has moved on, and you present it with the calm of original ownership.",
               "scene": "You resisted the phone upgrade for three years, listing principled objections, and then loved it within a week of surrendering. The pattern has repeated with the car, the software, and one entire relationship. The objections were never about the thing. They were about being moved.",

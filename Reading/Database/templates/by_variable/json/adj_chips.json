@@ -9,7 +9,7 @@
         "canonical_name": "The Twin",
         "value": {
           "catalyst": [
-            "Self-forged",
+            "Self-made",
             "Reserved",
             "Unshakeable"
           ],
@@ -28,12 +28,12 @@
           "catalyst": [
             "Keen-edged",
             "Competitive",
-            "Undaunted"
+            "Unfazed"
           ],
           "friction": [
             "Cutthroat",
             "Abrasive",
-            "Duel-prone"
+            "Picks fights"
           ]
         }
       },
@@ -67,7 +67,7 @@
           "friction": [
             "Cutting",
             "Merciless",
-            "Contemptuous"
+            "Judgy"
           ]
         }
       },
@@ -94,14 +94,14 @@
         "canonical_name": "The Steward",
         "value": {
           "catalyst": [
-            "Meticulous",
+            "Thorough",
             "Trustworthy",
-            "Accruing"
+            "Slow and steady"
           ],
           "friction": [
-            "Austere",
-            "Grasping",
-            "Unbudging"
+            "No-frills",
+            "Greedy",
+            "Won’t budge"
           ]
         }
       },
@@ -133,7 +133,7 @@
             "Even-handed"
           ],
           "friction": [
-            "Exacting",
+            "Demanding",
             "Unbending",
             "By-the-book"
           ]
@@ -146,7 +146,7 @@
         "value": {
           "catalyst": [
             "Fine-tuned",
-            "Discerning",
+            "Selective",
             "Ingenious"
           ],
           "friction": [
@@ -164,7 +164,7 @@
           "catalyst": [
             "Discreet",
             "Preserving",
-            "Quietly-wise"
+            "Old soul"
           ],
           "friction": [
             "Detached",
@@ -184,7 +184,7 @@
             "Dependable"
           ],
           "friction": [
-            "Entrenched",
+            "Dug in",
             "Hard-headed",
             "Set-apart"
           ]
@@ -198,11 +198,11 @@
           "catalyst": [
             "Ground-taking",
             "Tenacious",
-            "Unbowed"
+            "Unbroken"
           ],
           "friction": [
             "Territorial",
-            "Grudging",
+            "Holds grudges",
             "Bulldozing"
           ]
         }
@@ -218,7 +218,7 @@
             "Providing"
           ],
           "friction": [
-            "Complacent",
+            "Coasting",
             "Sluggish",
             "Pampered"
           ]
@@ -231,7 +231,7 @@
         "value": {
           "catalyst": [
             "Ground-breaking",
-            "Wry",
+            "Deadpan",
             "Unconventional"
           ],
           "friction": [
@@ -249,7 +249,7 @@
           "catalyst": [
             "Shrewd",
             "Well-traveled",
-            "Bountiful"
+            "Overflowing"
           ],
           "friction": [
             "Land-hungry",
@@ -265,13 +265,13 @@
         "value": {
           "catalyst": [
             "Thrifty",
-            "Steadfast",
+            "Steady",
             "Well-stocked"
           ],
           "friction": [
             "Hoarding",
             "Immobile",
-            "Miserly"
+            "Cheap"
           ]
         }
       },
@@ -299,7 +299,7 @@
         "value": {
           "catalyst": [
             "Rock-steady",
-            "Just",
+            "Fair",
             "Load-bearing"
           ],
           "friction": [
@@ -337,9 +337,9 @@
             "Sustaining"
           ],
           "friction": [
-            "Insular",
+            "Closed-off",
             "Buried",
-            "Inert"
+            "Unmoving"
           ]
         }
       },
@@ -356,7 +356,7 @@
           "friction": [
             "Standoffish",
             "Stubborn",
-            "Slow-yielding"
+            "Slow to change"
           ]
         }
       },
@@ -368,12 +368,12 @@
           "catalyst": [
             "Fast-climbing",
             "Gutsy",
-            "Rivalry-spurred"
+            "Rivalry-fueled"
           ],
           "friction": [
             "Overreaching",
             "Turf-guarding",
-            "Rash"
+            "Impulsive"
           ]
         }
       },
@@ -405,7 +405,7 @@
             "Untamed"
           ],
           "friction": [
-            "Wayward",
+            "Chaotic",
             "Sprawling",
             "Defiant"
           ]
@@ -439,8 +439,8 @@
             "Deep-rooted"
           ],
           "friction": [
-            "Root-bound",
-            "Risk-averse",
+            "Stuck",
+            "Plays it safe",
             "Inflexible"
           ]
         }
@@ -470,7 +470,7 @@
           "catalyst": [
             "Straight-growing",
             "Honorable",
-            "Exemplary"
+            "Leads by example"
           ],
           "friction": [
             "Stiff",
@@ -485,7 +485,7 @@
         "canonical_name": "The Alchemist",
         "value": {
           "catalyst": [
-            "Cross-pollinating",
+            "Connects dots",
             "Perceptive",
             "Self-taught"
           ],
@@ -508,7 +508,7 @@
           ],
           "friction": [
             "Smothering",
-            "Clinging",
+            "Clingy",
             "Dormant"
           ]
         }
@@ -537,7 +537,7 @@
         "value": {
           "catalyst": [
             "Competitive",
-            "Nervy",
+            "Unafraid",
             "Agile"
           ],
           "friction": [
@@ -560,7 +560,7 @@
           "friction": [
             "Drifting",
             "Indulgent",
-            "Unstirred"
+            "Unmoved"
           ]
         }
       },
@@ -575,7 +575,7 @@
             "Free-flowing"
           ],
           "friction": [
-            "Corrosive",
+            "Toxic",
             "Mocking",
             "Uncontainable"
           ]
@@ -592,9 +592,9 @@
             "Magnetic"
           ],
           "friction": [
-            "Tide-tossed",
+            "Up and down",
             "Ungrounded",
-            "Dispersed"
+            "Everywhere at once"
           ]
         }
       },
@@ -604,14 +604,14 @@
         "canonical_name": "The Steward",
         "value": {
           "catalyst": [
-            "Prudent",
+            "Careful",
             "Steady-flowing",
             "Well-prepared"
           ],
           "friction": [
             "Dammed-up",
             "Wary",
-            "Clutching"
+            "Can’t let go"
           ]
         }
       },
@@ -628,7 +628,7 @@
           "friction": [
             "Chilling",
             "Relentless",
-            "Submerging"
+            "Suffocating"
           ]
         }
       },
@@ -638,14 +638,14 @@
         "canonical_name": "The Magistrate",
         "value": {
           "catalyst": [
-            "Clear-channeled",
+            "Clockwork",
             "Composed",
             "Far-sighted"
           ],
           "friction": [
             "Overcautious",
             "Muted",
-            "Current-bound"
+            "On rails"
           ]
         }
       },
@@ -694,7 +694,7 @@
             "Undimmed"
           ],
           "friction": [
-            "Prideful",
+            "Too proud",
             "Touchy",
             "Unapproachable"
           ]
@@ -707,7 +707,7 @@
         "value": {
           "catalyst": [
             "Spark-chasing",
-            "Audacious",
+            "Fearless",
             "Electrifying"
           ],
           "friction": [
@@ -729,7 +729,7 @@
           ],
           "friction": [
             "Comfort-chasing",
-            "Extravagant",
+            "Over the top",
             "Slack"
           ]
         }
@@ -763,7 +763,7 @@
           ],
           "friction": [
             "Flash-chasing",
-            "Spendthrift",
+            "Big spender",
             "Flighty"
           ]
         }
@@ -775,7 +775,7 @@
         "value": {
           "catalyst": [
             "Warm-handed",
-            "Diligent",
+            "Hardworking",
             "Bankable"
           ],
           "friction": [
@@ -791,13 +791,13 @@
         "canonical_name": "The General",
         "value": {
           "catalyst": [
-            "Swift",
+            "Decisive",
             "Daring",
             "Crisis-ready"
           ],
           "friction": [
-            "Scorching",
-            "Domineering",
+            "Too intense",
+            "Bossy",
             "Burned-out"
           ]
         }
@@ -809,7 +809,7 @@
         "value": {
           "catalyst": [
             "Upstanding",
-            "Luminous",
+            "Squeaky-clean",
             "Inspiring"
           ],
           "friction": [
@@ -832,7 +832,7 @@
           "friction": [
             "Obsessive",
             "Erratic",
-            "Estranged"
+            "Distant"
           ]
         }
       },
@@ -842,12 +842,12 @@
         "canonical_name": "The Sage",
         "value": {
           "catalyst": [
-            "Hearth-warm",
+            "Warm-hearted",
             "Encouraging",
-            "Restorative"
+            "Healing"
           ],
           "friction": [
-            "Coddling",
+            "Babying",
             "Dependent",
             "Drowsy"
           ]

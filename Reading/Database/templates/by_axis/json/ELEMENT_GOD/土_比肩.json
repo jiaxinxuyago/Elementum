@@ -21,7 +21,7 @@
         "Dependable"
       ],
       "friction": [
-        "Entrenched",
+        "Dug in",
         "Hard-headed",
         "Set-apart"
       ]
@@ -93,7 +93,7 @@
       "friction": {
         "ledger": [
           {
-            "word": "Entrenched",
+            "word": "Dug in",
             "doors": {
               "trait": "Your positions come with earthworks. The opinion dug in years ago has supply lines, sandbags, and a flag, and updating it now feels like losing a war rather than learning a fact. You defend ground long after anyone remembers what battle claimed it.",
               "scene": "The debate about the route to the lake house is in its ninth year. There is a faster way, proven twice by phone timers. You drive your way, narrating its virtues, adding twenty minutes. The family has stopped arguing and started packing snacks for the difference.",

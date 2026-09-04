@@ -23,7 +23,7 @@
       "friction": [
         "Cutting",
         "Merciless",
-        "Contemptuous"
+        "Judgy"
       ]
     },
     "k2_domain_readings": {
@@ -109,7 +109,7 @@
             }
           },
           {
-            "word": "Contemptuous",
+            "word": "Judgy",
             "doors": {
               "trait": "Most people fail an exam you never announce. The mediocre effort, the fuzzy thinking, the ordinary taste: each gets silently graded and permanently filed, and the grade leaks through your face at doses everyone can read. Respect from you is rare currency. Its scarcity is the design.",
               "scene": "Your colleague’s proud announcement of a certificate you consider trivial received your congratulations at a temperature slightly below the words themselves. He noticed, as everyone notices, the two-degree gap between what you said and what your eyebrows had already published. The certificate went undisplayed.",

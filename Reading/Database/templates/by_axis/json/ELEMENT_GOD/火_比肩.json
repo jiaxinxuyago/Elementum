@@ -21,7 +21,7 @@
         "Undimmed"
       ],
       "friction": [
-        "Prideful",
+        "Too proud",
         "Touchy",
         "Unapproachable"
       ]
@@ -93,7 +93,7 @@
       "friction": {
         "ledger": [
           {
-            "word": "Prideful",
+            "word": "Too proud",
             "doors": {
               "trait": "Your flame refuses to be seen flickering. The struggle stays private, the help gets declined at the door, the apology exits in a dialect nobody recognizes as one. Being impressive is mandatory, being witnessed mid-failure is not survivable, and the policy costs you exactly what it protects.",
               "scene": "The business wobbled for five months before anyone knew, because the version of you at dinners kept performing success on schedule. When the closure finally announced itself, friends were hurt in an unexpected direction: you had let them toast a ghost. The pride had spent their trust.",

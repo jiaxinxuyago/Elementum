@@ -17,7 +17,7 @@
     "adj_chips": {
       "catalyst": [
         "Warm-handed",
-        "Diligent",
+        "Hardworking",
         "Bankable"
       ],
       "friction": [
@@ -73,7 +73,7 @@
             }
           },
           {
-            "word": "Diligent",
+            "word": "Hardworking",
             "doors": {
               "trait": "Your effort burns steady, on schedule, without applause requirements. The daily block, the maintained log, the follow-through that arrives exactly when promised: the work gets done at a sustainable temperature, every day, and the years quietly assemble the results into something substantial.",
               "scene": "The certification took eighteen months of Tuesday and Thursday evenings, logged without drama while louder colleagues announced bootcamps they never finished. When the title bump came, people called it sudden. The logbook, four notebooks thick by then, had a different word for it.",

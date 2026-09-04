@@ -21,7 +21,7 @@
         "Even-handed"
       ],
       "friction": [
-        "Exacting",
+        "Demanding",
         "Unbending",
         "By-the-book"
       ]
@@ -93,7 +93,7 @@
       "friction": {
         "ledger": [
           {
-            "word": "Exacting",
+            "word": "Demanding",
             "doors": {
               "trait": "Your standard admits no rounding. The report is right or it is redone, the table is set correctly or reset, the apology contains the exact words or does not count. Excellence this consistent is genuinely rare, and living beside it is an occupation nobody applied for.",
               "scene": "The thank-you card your daughter wrote got returned for a second draft, spelling corrected, sentiment intact but re-ordered. She was nine. The card that finally sent was perfect, and she has not voluntarily written one since. The standard held. Something else, harder to name, did not.",

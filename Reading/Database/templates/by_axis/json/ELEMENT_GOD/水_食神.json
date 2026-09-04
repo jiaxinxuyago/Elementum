@@ -23,7 +23,7 @@
       "friction": [
         "Drifting",
         "Indulgent",
-        "Unstirred"
+        "Unmoved"
       ]
     },
     "k2_domain_readings": {
@@ -109,7 +109,7 @@
             }
           },
           {
-            "word": "Unstirred",
+            "word": "Unmoved",
             "doors": {
               "trait": "It takes a great deal to move you, and less would honestly serve you better. The deadline, the news, the argument all get the same shrug and the same tea. Calm this deep is a talent right up until it becomes a moat.",
               "scene": "The deadline got a shrug and a fresh cup of tea. So did the news, and the argument, and the email marked urgent twice. Then one Thursday everything landed at once, and the calm you had been so proud of turned out to be a backlog.",

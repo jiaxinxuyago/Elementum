@@ -17,7 +17,7 @@
     "adj_chips": {
       "catalyst": [
         "Competitive",
-        "Nervy",
+        "Unafraid",
         "Agile"
       ],
       "friction": [
@@ -73,7 +73,7 @@
             }
           },
           {
-            "word": "Nervy",
+            "word": "Unafraid",
             "doors": {
               "trait": "Your nerves hold exactly when the other side hopes they will not. The staring contest of a negotiation, the final round, the moment someone raises the stakes to scare you: your pulse spikes and your voice does not. Opponents read calm. It is actually appetite.",
               "scene": "The other bidder raised twice to shake you loose, and your third bid came back before the echo faded, at a number you had chosen for exactly this moment. They folded in the parking lot. You had been enjoying yourself since the second raise.",

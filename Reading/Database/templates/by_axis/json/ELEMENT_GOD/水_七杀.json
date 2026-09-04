@@ -23,7 +23,7 @@
       "friction": [
         "Chilling",
         "Relentless",
-        "Submerging"
+        "Suffocating"
       ]
     },
     "k2_domain_readings": {
@@ -109,7 +109,7 @@
             }
           },
           {
-            "word": "Submerging",
+            "word": "Suffocating",
             "doors": {
               "trait": "Your force pulls downward quietly. Deadlines, standards, and consequences settle over people like water over a diver, heavier with every meter, and nobody can point to the moment breathing got hard. You never raise your voice. The pressure does the talking, at depth.",
               "scene": "The new hire was excellent for three months, then quieter, then gone, and the exit interview mentioned an atmosphere no single incident could explain. You reread it twice, genuinely puzzled. Each individual expectation had been reasonable. Together they were an ocean on someone’s chest.",

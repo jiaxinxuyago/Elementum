@@ -21,8 +21,8 @@
         "Deep-rooted"
       ],
       "friction": [
-        "Root-bound",
-        "Risk-averse",
+        "Stuck",
+        "Plays it safe",
         "Inflexible"
       ]
     },
@@ -93,7 +93,7 @@
       "friction": {
         "ledger": [
           {
-            "word": "Root-bound",
+            "word": "Stuck",
             "doors": {
               "trait": "Outgrowing a place and staying anyway is a pattern of yours, and calling it loyalty stopped being accurate a while ago. The ground you hold has long since stopped feeding you. Holding it anyway is the habit, and the habit never checks the yield.",
               "scene": "The plant on your desk has been repotted twice in five years. The desk itself, the rate, and the commute have not moved once in the same stretch. You keep telling people you are settled, and some of them have started gently asking settled into what.",
@@ -101,7 +101,7 @@
             }
           },
           {
-            "word": "Risk-averse",
+            "word": "Plays it safe",
             "doors": {
               "trait": "Weighing a risk is your reflex, and almost no risk survives the weighing. The analysis is always excellent and always lands on later, because the math was never the real obstacle. The deciding was, and the deciding still is.",
               "scene": "Three spreadsheets compared the two jobs down to the commute minutes, and the reply that finally went out was thanks, but not this year. The analysis took six weeks. The no took one sentence, and it was written somewhere in you before the spreadsheets ever opened.",

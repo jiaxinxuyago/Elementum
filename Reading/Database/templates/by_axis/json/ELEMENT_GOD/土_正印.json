@@ -21,9 +21,9 @@
         "Sustaining"
       ],
       "friction": [
-        "Insular",
+        "Closed-off",
         "Buried",
-        "Inert"
+        "Unmoving"
       ]
     },
     "k2_domain_readings": {
@@ -93,7 +93,7 @@
       "friction": {
         "ledger": [
           {
-            "word": "Insular",
+            "word": "Closed-off",
             "doors": {
               "trait": "Your mind trusts its home ground and quietly stopped traveling. The same three sources, the same trusted voices, the same conclusions wearing deeper into the same paths. New input has to marry into the family to be heard. The walls were comfort once. Now they are also the view.",
               "scene": "The article that challenged your position went unread for a month, then unread permanently. At dinner you summarized its argument anyway, slightly wrong, to nods from the same four people who always nod. The dinner was warm. It is always warm, and always the same temperature.",
@@ -109,7 +109,7 @@
             }
           },
           {
-            "word": "Inert",
+            "word": "Unmoving",
             "doors": {
               "trait": "Staying put has become your mind’s answer to open questions. The decision waits, the plan rests, the possibility sits in its chair until it stops asking. Nothing is refused outright. Things are simply outlasted, and the stillness does the declining on your behalf.",
               "scene": "The evening-course brochure has been on the counter since March, under the fruit bowl, slightly stained now. You are not against it. You are not anything about it, which the brochure has slowly learned. In June someone will move it to the drawer.",

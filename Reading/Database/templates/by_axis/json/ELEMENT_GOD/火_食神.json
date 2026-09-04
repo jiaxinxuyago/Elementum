@@ -22,7 +22,7 @@
       ],
       "friction": [
         "Comfort-chasing",
-        "Extravagant",
+        "Over the top",
         "Slack"
       ]
     },
@@ -101,7 +101,7 @@
             }
           },
           {
-            "word": "Extravagant",
+            "word": "Over the top",
             "doors": {
               "trait": "Your celebrations outspend their occasions. The birthday needs the venue, the dinner needs the good bottle, the ordinary weekend needs upgrading on principle. Delight justifies every line item at the moment of purchase, and the statements afterward read like reviews of a life slightly larger than the income.",
               "scene": "The birthday needed a venue, the venue needed a theme, and the theme needed the good caterer, for eleven guests. It was a wonderful night, everyone says so. The next gathering anyone else hosts will be at a kitchen table, apologizing for it.",

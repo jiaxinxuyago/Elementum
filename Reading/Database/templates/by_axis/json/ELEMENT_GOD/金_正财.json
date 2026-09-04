@@ -16,14 +16,14 @@
     "k2_functional": "You execute with clean precision: zero waste, nothing reworked, every screw accounted for.",
     "adj_chips": {
       "catalyst": [
-        "Meticulous",
+        "Thorough",
         "Trustworthy",
-        "Accruing"
+        "Slow and steady"
       ],
       "friction": [
-        "Austere",
-        "Grasping",
-        "Unbudging"
+        "No-frills",
+        "Greedy",
+        "Won’t budge"
       ]
     },
     "k2_domain_readings": {
@@ -65,7 +65,7 @@
       "catalyst": {
         "ledger": [
           {
-            "word": "Meticulous",
+            "word": "Thorough",
             "doors": {
               "trait": "Detail is where your love of quality lives. The receipts reconciled monthly, the maintenance schedule honored, the small print actually read: your life runs on a fineness of attention that prevents disasters so early they never even become anecdotes. Nothing about you is approximately done.",
               "scene": "The warranty claim that saved you eleven hundred dollars took four minutes, because the receipt, the serial number, and the original packaging were exactly where your system said they would be, three years on. The agent audibly recalibrated. Most claims, she said, die of missing paperwork. Yours arrived immortal.",
@@ -81,7 +81,7 @@
             }
           },
           {
-            "word": "Accruing",
+            "word": "Slow and steady",
             "doors": {
               "trait": "Your wealth grows the way rust never sleeps, in your favor: small, constant, compounding additions that no single day notices. The percent saved, the skill deepened annually, the relationship maintained for decades: everything in your portfolio gains a little every quarter, forever.",
               "scene": "The account you opened at twenty-two with automatic transfers you never adjusted crossed a threshold this year that startled even you. The statement arrived on an ordinary Tuesday. You had done nothing dramatic in twenty years, which was, the statement made clear, the entire strategy.",
@@ -93,7 +93,7 @@
       "friction": {
         "ledger": [
           {
-            "word": "Austere",
+            "word": "No-frills",
             "doors": {
               "trait": "Comfort gets audited out of your life on principle. The heating conservative, the furnishings functional, the pleasures budgeted to their nutritional minimum: discipline built the estate, and somewhere it kept building past the point of purpose, into corners nobody warms.",
               "scene": "The dinner you hosted was correct: adequate portions, sensible wine, lights at economy. Guests praised the meal and stopped somewhere short of settling in, coats kept near. The evening ended punctually. Your home, one of them said in the car, is the tidiest place she has ever been cold.",
@@ -101,7 +101,7 @@
             }
           },
           {
-            "word": "Grasping",
+            "word": "Greedy",
             "doors": {
               "trait": "What comes near your hands tends to stay in them. The negotiation pushed past won into extractive, the split adjusted a few percent your way, the free thing taken because free: each grasp is small, and the sum has a gravity that people feel and rarely name.",
               "scene": "The settlement was fair at the first offer, and your counter, and the counter after that, extracted eleven percent more and something else that did not appear on the term sheet. The other side paid in full and briefed their industry. Your next three negotiations opened noticeably colder.",
@@ -109,7 +109,7 @@
             }
           },
           {
-            "word": "Unbudging",
+            "word": "Won’t budge",
             "doors": {
               "trait": "Your positions are priced once and never repriced. The offer stands as made, the grudge as filed, the opinion as formed in the original year: movement reads to you as loss, so nothing moves, and the world negotiates around you the way rivers negotiate around bedrock.",
               "scene": "The house sat unsold for fourteen months because your price, set in a different market, declined to acknowledge the new one. The eventual sale, at less than the early offers you refused, closed a chapter your spouse refers to only by its duration. The number had not budged. Everything else had.",

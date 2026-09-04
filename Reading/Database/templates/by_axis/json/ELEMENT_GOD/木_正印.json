@@ -22,7 +22,7 @@
       ],
       "friction": [
         "Smothering",
-        "Clinging",
+        "Clingy",
         "Dormant"
       ]
     },
@@ -101,7 +101,7 @@
             }
           },
           {
-            "word": "Clinging",
+            "word": "Clingy",
             "doors": {
               "trait": "Letting go is a season your mind refuses to enter. The grown child, the finished era, the friend who moved: you hold on with tendrils dressed as check-ins, traditions, and gentle guilt. The grip feels like love from inside. From outside it has a weight.",
               "scene": "The weekly call with your daughter has an agenda now, hers, called boundaries. You negotiated it down from daily with visible effort. Afterward you reorganized her old bedroom again, which is its own kind of phone call, one she has stopped answering.",

@@ -16,12 +16,12 @@
     "k2_functional": "You think in warm stories: knowledge kept as tales that teach without lecturing.",
     "adj_chips": {
       "catalyst": [
-        "Hearth-warm",
+        "Warm-hearted",
         "Encouraging",
-        "Restorative"
+        "Healing"
       ],
       "friction": [
-        "Coddling",
+        "Babying",
         "Dependent",
         "Drowsy"
       ]
@@ -65,7 +65,7 @@
       "catalyst": {
         "ledger": [
           {
-            "word": "Hearth-warm",
+            "word": "Warm-hearted",
             "doors": {
               "trait": "Your presence is the warm center other lives arrange themselves around. People come in from their cold weeks and hold their hands out to you, mostly without noticing the gesture. The warmth is steady, unconditional, and quietly expensive to maintain. Nobody sees the fuel line. You are the fuel line.",
               "scene": "Sunday afternoons at yours have become load-bearing for at least five people, including one who mostly sits near the conversation without joining it. Nothing is organized. Soup happens, light happens, and everyone leaves warmer than they arrived. The tradition has no name and perfect attendance.",
@@ -81,7 +81,7 @@
             }
           },
           {
-            "word": "Restorative",
+            "word": "Healing",
             "doors": {
               "trait": "Time near you repairs people. The burned-out friend, the post-hospital parent, the teenager mid-storm: they sit in your warmth doing apparently nothing, and leave with something reattached. You never announce a treatment. You just keep the light on and the questions gentle, and mending happens.",
               "scene": "Your brother spent three weekends on your couch after the divorce, barely speaking, watching cooking shows. You fed him, asked nothing, and let the couch work. On the fourth weekend he fixed your cabinet hinge, unprompted, whistling. You both understood the hinge was a discharge summary.",
@@ -93,7 +93,7 @@
       "friction": {
         "ledger": [
           {
-            "word": "Coddling",
+            "word": "Babying",
             "doors": {
               "trait": "Your warmth removes obstacles that were doing important work. The struggle gets pre-solved, the consequence intercepted, the difficulty warmed away before it could teach anything. The people you love stay comfortable and stay soft, and the softness eventually presents its own bill, addressed to them.",
               "scene": "Your son’s overdue essay got rescued by your midnight edit, again, the fourth rescue this term. His grades are excellent and weightless. The teacher suspects, the boy knows, and some part of him has begun to calculate, correctly, that finishing things is optional in a heated house.",

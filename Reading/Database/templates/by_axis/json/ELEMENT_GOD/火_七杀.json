@@ -16,13 +16,13 @@
     "k2_functional": "Your order is fire discipline: absolute at the front, enforced on yourself before anyone else feels it.",
     "adj_chips": {
       "catalyst": [
-        "Swift",
+        "Decisive",
         "Daring",
         "Crisis-ready"
       ],
       "friction": [
-        "Scorching",
-        "Domineering",
+        "Too intense",
+        "Bossy",
         "Burned-out"
       ]
     },
@@ -65,7 +65,7 @@
       "catalyst": {
         "ledger": [
           {
-            "word": "Swift",
+            "word": "Decisive",
             "doors": {
               "trait": "Deciding fast is native wiring for you, and it reads as relief to everyone stuck deliberating. Options do not improve with age, in your experience, and your experience keeps proving it. The choice gets made while others are still framing the question. Then everyone breathes.",
               "scene": "Twenty minutes into the dinner debate, you name the restaurant and stand up. Chairs scrape, coats go on, and the relief around the table is almost audible. Nobody remembers the other options by the sidewalk. Deciding was the meal everyone was actually hungry for.",
@@ -93,7 +93,7 @@
       "friction": {
         "ledger": [
           {
-            "word": "Scorching",
+            "word": "Too intense",
             "doors": {
               "trait": "Your intensity marks people whether you mean it or not, and you usually do not. The heat that cuts through problems does not distinguish problems from bystanders, and the bystanders remember longer. You forget the flare by lunch. Nobody standing near it ever does.",
               "scene": "It was one word, sloppy, said at speed on a Tuesday and forgotten by lunch. A year later the person who caught it can still play it back with your exact inflection. You were putting out a fire. They were standing closer to it than you noticed.",
@@ -101,7 +101,7 @@
             }
           },
           {
-            "word": "Domineering",
+            "word": "Bossy",
             "doors": {
               "trait": "Taking charge is your reflex even where nobody asked, and mostly nobody asked. Any gathering without a commander strikes you as an emergency, and you fix it by quietly assuming the post. Order arrives on schedule. Volunteering, around you, just as quietly dies.",
               "scene": "The vacation had a schedule by the first morning and a debrief by the last night, and somewhere in between, the group chat went quiet. One-word replies, thumbs up, fine. You ran a beautiful operation. The others were on holiday, or trying to be.",
