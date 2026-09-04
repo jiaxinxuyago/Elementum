@@ -2903,16 +2903,8 @@
     font-size: 13px; line-height: 1.55; color: var(--inkDeep, #2b2722); }
 .jny .elpos-turn{ color: #5d564a; }
 
-/* ── the distillation ladder (DES_04 §AM.11, owner 2026-08-19) ── */
-/* rung ① — the catalogue takeaway strip: two derived deep-linked lines */
-.jny .jtakeaway{ margin: 10px 16px 0; padding: 10px 12px 11px; border-radius: 14px;
-    background: rgba(244,237,222,0.55); border: 1px solid rgba(205,190,158,0.4); }
-.jny .jtakeaway .sec-eyebrow{ display: block; margin-bottom: 6px; }
-.jny .jtake-line{ display: flex; align-items: flex-start; gap: 8px; width: 100%; text-align: left;
-    background: none; border: none; padding: 5px 0; cursor: pointer; font: inherit; color: inherit; }
-.jny .jtake-el{ width: 15px; height: 15px; flex: none; margin-top: 2px; color: var(--bronzeDark); }
-.jny .jtake-t{ flex: 1; font-family: 'EB Garamond', Georgia, serif; font-size: 13.5px; line-height: 1.45; color: var(--inkDeep, #2b2722); }
-.jny .jtake-chev{ width: 13px; height: 13px; flex: none; margin-top: 3px; color: #a89c86; }
+/* ── the distillation ladder (DES_04 §AM.11, owner 2026-08-19; rung-①
+   takeaway strip retired 2026-09-04) ── */
 /* rungs ④–⑥ — the deeper-layers expander (the START HERE mark retired
    2026-09-01: the top seat now auto-opens instead of being labeled) */
 .jny .elpos-deeper{ display: inline-flex; align-items: center; gap: 5px; margin-top: 9px; cursor: pointer;

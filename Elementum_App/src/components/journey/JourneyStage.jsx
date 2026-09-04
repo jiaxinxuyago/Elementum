@@ -396,13 +396,9 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const allPositions = m ? resolvePositions(chart, hourUnknown) : [];
   const bySeatRank = (a, b) => (SLOT_RANK[a.slot] || 9) - (SLOT_RANK[b.slot] || 9);
   const firstSent = (s) => { const i = s.indexOf('.'); return i >= 0 ? s.slice(0, i + 1) : s; };
-  // The chart's two takeaways: the top triggered pattern (fused outranks)
-  // and the deep seat (SLOT_RANK top) — both deep-linked into the owning
-  // element's Domains detail with the seat pre-opened.
-  const patternSeat = [...allPositions].filter((p) => p.pattern).sort((a, b) =>
-    (b.pattern.fusedLine ? 1 : 0) - (a.pattern.fusedLine ? 1 : 0) || bySeatRank(a, b))[0] || null;
-  const deepSeat = [...allPositions].sort(bySeatRank)[0] || null;
-  const goSeatDeep = (p) => { setElOpen(p.el); setElSec('dom'); setPosOpen(p.id); setDeepOpen(false); setGodOpen(null); goScreen('elsec'); };
+  // (the catalogue takeaway strip retired — owner 2026-09-04: the covers,
+  // FUNCTION tiles, and reading pages now carry the hook rungs; the strip's
+  // deep-seat teasers duplicated the verdict layer one screen up)
   const elPositions = elScreen ? allPositions.filter((p) => p.el === elScreen.el).sort(bySeatRank) : [];
   // Curation v7 (owner 2026-08-19): each named position carries its OWN
   // teaser row — term (no 汉字 on the card) + 1–2 domain chips + the
@@ -526,30 +522,8 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                     </div>
                   </div>
                   </div>
-                  {/* the catalogue takeaway strip (DES_04 §AM.11, owner
-                      2026-08-19): TWO derived lines — the top triggered
-                      pattern + the chart's deep seat — each deep-linking
-                      into the owning element's Domains detail with the
-                      seat pre-opened. Rung ① of the distillation ladder. */}
-                  {(patternSeat || deepSeat) && (
-                    <div className="jtakeaway">
-                      <span className="sec-eyebrow">WHAT YOUR CHART SAYS FIRST</span>
-                      {patternSeat && (
-                        <button className="jtake-line" onClick={() => goSeatDeep(patternSeat)}>
-                          <Use id={`el-${patternSeat.el}`} className="jtake-el" />
-                          <span className="jtake-t">{firstSent(patternSeat.pattern.reading)}</span>
-                          <Use id="ico-chev-r" className="jtake-chev" />
-                        </button>
-                      )}
-                      {deepSeat && (
-                        <button className="jtake-line" onClick={() => goSeatDeep(deepSeat)}>
-                          <Use id={`el-${deepSeat.el}`} className="jtake-el" />
-                          <span className="jtake-t">{firstSent(deepSeat.teaser || deepSeat.defline)}</span>
-                          <Use id="ico-chev-r" className="jtake-chev" />
-                        </button>
-                      )}
-                    </div>
-                  )}
+                  {/* (takeaway strip retired 2026-09-04 — see note at the
+                      position-resolution block above) */}
                   <button className="jbridge" onClick={() => swTo(stageRef.current?.querySelector('.beat[data-beat="2"]'), 56)}><span>What does your energy look like?</span><Use id="ar-down" /></button>
                 </div>
 
