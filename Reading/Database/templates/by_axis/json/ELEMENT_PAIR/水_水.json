@@ -19,16 +19,16 @@
     "function": {
       "primary": "body",
       "definition_catalyst": "Water is your Body, and running thin, it is the deep reserve under your perception: sleep quality, quiet time, the stillness your system restores itself in. Yours drains invisibly, through noise and company, long before you feel tired.\n\nPresent, attentive, secretly threadbare. The social week was lovely and cost a fortune, sleep is shallow where it used to be bottomless, and the intuition you rely on has started arriving late.\n\nSolitude is your maintenance, so dose it like medicine. One silent hour daily, no inputs. A full day alone each month, calendared in advance. Leave gatherings while they are still good, and let the quiet finish what the rest began.",
-      "definition_friction": "Water is your Body, and running over, it is stillness pooling into stagnation: rest that no longer restores, sleep that stretches without refreshing, energy waiting for a current that never comes.\n\nCalm on the surface, becalmed underneath. The naps multiply, the plans get postponed into next month, and the deep reserves everyone envies sit unspent, going slightly stale while the world assumes you are fine.\n\nDepth stays fresh by moving. Add motion that flows, swimming, walking, cycling, and make one weekly commitment that gets you out the door regardless of mood. Say yes before the mood votes. Stir the water and watch the energy remember itself.",
-      "dips": {
-        "mind": "You read before you reason: currents and motives sensed whole. Surface the working sometimes.",
-        "action": "You move when the tide is right and not before: timing is your entire style of force."
-      }
+      "definition_friction": "Water is your Body, and running over, it is stillness pooling into stagnation: rest that no longer restores, sleep that stretches without refreshing, energy waiting for a current that never comes.\n\nCalm on the surface, becalmed underneath. The naps multiply, the plans get postponed into next month, and the deep reserves everyone envies sit unspent, going slightly stale while the world assumes you are fine.\n\nDepth stays fresh by moving. Add motion that flows, swimming, walking, cycling, and make one weekly commitment that gets you out the door regardless of mood. Say yes before the mood votes. Stir the water and watch the energy remember itself."
     },
     "cta_verdict": "Your stamina refills in solitude and silence, and every season you skip that refill quietly borrows from the next one."
   },
   "__ore": {
     "retired_fn_body": "The Core is your endurance function: the seat your strength refills from. With Water doubled here, your vitality is a deep table: quiet reserves that recharge from below, stamina that flows around obstacles rather than breaking on them. You recover in solitude and silence the way aquifers do. Guard the recharge fiercely. A drawn-down well still looks like a well from above.",
-    "retired_base_personal": "Your core is Water, and here Water stands with Water: depth alongside depth, one sea fed by its own rivers. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. That is why Water is your Body: your perception, your patience, your way of knowing what moves beneath. The other energies act on you. This one simply deepens."
+    "retired_base_personal": "Your core is Water, and here Water stands with Water: depth alongside depth, one sea fed by its own rivers. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. That is why Water is your Body: your perception, your patience, your way of knowing what moves beneath. The other energies act on you. This one simply deepens.",
+    "backlog_dips_tg_pattern": {
+      "mind": "You read before you reason: currents and motives sensed whole. Surface the working sometimes.",
+      "action": "You move when the tide is right and not before: timing is your entire style of force."
+    }
   }
 }

@@ -19,16 +19,16 @@
     "function": {
       "primary": "body",
       "definition_catalyst": "Fire is your Body, and running thin, it is the energy behind your warmth: sociability, drive, the lift that makes mornings possible. Yours runs in bursts, so depletion shows as dimness with people you love.\n\nBright in public, flat at home. The laugh still performs, the plans still get made, and the people closest to you get whatever is left, which lately is not much. Warmth on an empty tank comes out as effort.\n\nA light that never recharges becomes an act. Schedule recovery like meetings: real breaks between social blocks, daylight before screens, one morning a week with no one to perform for. Cancel something small today and feel what returns.",
-      "definition_friction": "Fire is your Body, and running over, it is more heat than your days can spend: sleep that will not come, intensity leaking into every conversation, rest that feels like a punishment.\n\nMagnetic, exhausting, on at all hours. The group chat gets voice notes at midnight, small plans become productions, and stillness itches so badly that even holidays get scheduled like campaigns.\n\nHeat needs somewhere honest to go or it goes everywhere. Train to actual sweat most days. Keep one evening a week completely unplanned and endure it. Put the phone down an hour before bed and let the engine actually idle.",
-      "dips": {
-        "mind": "You decide by illumination, whole pictures catching at once. Check the flash against daylight.",
-        "action": "Conviction moves you instantly: the moment you see it, you are already lit."
-      }
+      "definition_friction": "Fire is your Body, and running over, it is more heat than your days can spend: sleep that will not come, intensity leaking into every conversation, rest that feels like a punishment.\n\nMagnetic, exhausting, on at all hours. The group chat gets voice notes at midnight, small plans become productions, and stillness itches so badly that even holidays get scheduled like campaigns.\n\nHeat needs somewhere honest to go or it goes everywhere. Train to actual sweat most days. Keep one evening a week completely unplanned and endure it. Put the phone down an hour before bed and let the engine actually idle."
     },
     "cta_verdict": "Your strength arrives in blazes and burns out in private, and how you refill between fires decides almost everything else in your chart."
   },
   "__ore": {
     "retired_fn_body": "The Core is your endurance function: the seat your strength burns from. With Fire doubled here, your vitality runs on ignition rather than storage: enormous surges, thin reserves, brilliance that outworks anyone for a week and nobody for a season. Bank the coals on purpose. Fuel, sleep, and rhythm are the fire itself, so tend them the way you tend the blaze.",
-    "retired_base_personal": "Your core is Fire, and here Fire stands with Fire: flame alongside flame, one blaze sharing a hearth. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. That is why Fire is your Body: your warmth, your visibility, your refusal to be dim. The other energies act on you. This one is the light itself."
+    "retired_base_personal": "Your core is Fire, and here Fire stands with Fire: flame alongside flame, one blaze sharing a hearth. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. That is why Fire is your Body: your warmth, your visibility, your refusal to be dim. The other energies act on you. This one is the light itself.",
+    "backlog_dips_tg_pattern": {
+      "mind": "You decide by illumination, whole pictures catching at once. Check the flash against daylight.",
+      "action": "Conviction moves you instantly: the moment you see it, you are already lit."
+    }
   }
 }

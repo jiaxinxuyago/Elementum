@@ -19,16 +19,16 @@
     "function": {
       "primary": "body",
       "definition_catalyst": "Wood is your Body, and running thin, it is the growth reserve your whole system draws on: appetite, stamina, the will to start things. When it dips you feel it as flatness before you feel it as fatigue.\n\nLively by design, lately muted. Meals get skipped without hunger noticing, weekends pass without anything begun, and the person who used to start things watches other people start them instead. Nothing is wrong exactly. There is just less of you available than there used to be.\n\nVitality is grown, never summoned. Get daylight before noon, move every day even briefly, keep green things and green places near you. Protect one truly free evening a week. Start one small thing and let finishing it feed the next.",
-      "definition_friction": "Wood is your Body, and running over, it is more growing force than your life gives outlets: restlessness, overcommitment, energy that starts five things just to spend itself.\n\nExpansive, eager, impossible to keep still. Every idea becomes a signup, every free hour becomes a plan, and the body hums at bedtime like something still mid-sprint. Unspent growth does not wait politely. It turns on its owner as agitation.\n\nForce without direction becomes pressure on the vessel. Spend it hard and on purpose: train until tired, walk far, build with your hands. Cap active projects at two. When restlessness spikes, exercise before you commit to anything new.",
-      "dips": {
-        "mind": "You judge by trajectory: where a thing leads in ten years outweighs its snapshot today.",
-        "action": "You decide by starting: the sapling planted teaches you whether the plan was right."
-      }
+      "definition_friction": "Wood is your Body, and running over, it is more growing force than your life gives outlets: restlessness, overcommitment, energy that starts five things just to spend itself.\n\nExpansive, eager, impossible to keep still. Every idea becomes a signup, every free hour becomes a plan, and the body hums at bedtime like something still mid-sprint. Unspent growth does not wait politely. It turns on its owner as agitation.\n\nForce without direction becomes pressure on the vessel. Spend it hard and on purpose: train until tired, walk far, build with your hands. Cap active projects at two. When restlessness spikes, exercise before you commit to anything new."
     },
     "cta_verdict": "You recover by growing, and stillness drains you faster than effort ever will, so your health runs on having something alive to tend."
   },
   "__ore": {
     "retired_fn_body": "The Core is your endurance function: the seat where strength renews itself. With Wood doubled here, your vitality works like a living tree: it recovers by growing, and it outlasts by renewal, fresh shoots after every cutback. Your reserves are seasonal rather than constant, so honor the winters as part of the engine. A tree that never sheds snaps in the first real storm.",
-    "retired_base_personal": "Your core is Wood, and here Wood stands with Wood: growth alongside growth, one forest sharing a root system. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. That is why Wood is your Body: your direction, your reaching, your green stubborn aliveness made physical. The other energies act on you. This one is you."
+    "retired_base_personal": "Your core is Wood, and here Wood stands with Wood: growth alongside growth, one forest sharing a root system. This is a reinforcement rather than a reaction, the part of your chart that is simply more of you. That is why Wood is your Body: your direction, your reaching, your green stubborn aliveness made physical. The other energies act on you. This one is you.",
+    "backlog_dips_tg_pattern": {
+      "mind": "You judge by trajectory: where a thing leads in ten years outweighs its snapshot today.",
+      "action": "You decide by starting: the sapling planted teaches you whether the plan was right."
+    }
   }
 }

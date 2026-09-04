@@ -19,15 +19,15 @@
     "function": {
       "primary": "mind",
       "definition_catalyst": "Water is your Mind, and as a catalyst, it is how you refill: quiet intake, reading, long conversations, time alone that lets impressions settle into understanding. Your thinking improves in direct proportion to your rest.\n\nReflective, absorbent, better after silence. The best ideas surface in the shower, on the walk, in the hour nobody needed anything, and a rushed week leaves you strangely stupid in ways sleep alone does not fix.\n\nUnderstanding arrives on its own schedule and only through an open door. Hold one screen-free hour before bed. Take the walk before the decision. Keep a note of what surfaces there, because it will be the truest thinking you do.",
-      "definition_friction": "Water is your Mind, and as a friction, it is intake past the point of use: one more book, one more opinion, reflection turning into stalling. More input now costs you clarity instead of adding it.\n\nThoughtful to the point of drowning in it. Podcasts on double speed, three browsers of research, friends polled until their answers cancel out, and the decision still standing exactly where it stood a month ago.\n\nA mind can also overwater. Close the intake and let what you know settle: set a decision date and honor it, act on the last book before opening the next, and take one full day a week with nothing new coming in.",
-      "dips": {
-        "body": "Deep sleep is your classroom too: the rest that soaks you is what growth drinks."
-      }
+      "definition_friction": "Water is your Mind, and as a friction, it is intake past the point of use: one more book, one more opinion, reflection turning into stalling. More input now costs you clarity instead of adding it.\n\nThoughtful to the point of drowning in it. Podcasts on double speed, three browsers of research, friends polled until their answers cancel out, and the decision still standing exactly where it stood a month ago.\n\nA mind can also overwater. Close the intake and let what you know settle: set a decision date and honor it, act on the last book before opening the next, and take one full day a week with nothing new coming in."
     },
     "cta_verdict": "Your thinking absorbs like rain into roots, slow and total, and what you learn deeply once feeds you for decades."
   },
   "__ore": {
     "retired_fn_body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Water running it, your mind absorbs by immersion: full depth or nothing, understanding arriving whole after the soak. You learn from atmospheres as much as pages, and a question left overnight answers itself by morning. Trust the seep. Forcing it only muddies the water.",
-    "retired_base_personal": "Your core is Wood, and Water feeds Wood: rain raises the forest. Everything that soaks in quietly, sleep, reading, long conversations, time near water and depth, is what your growth actually drinks. That is why Water is your Mind, the intake that restores what growing spends. A forest is not raised by effort. It is raised by weather."
+    "retired_base_personal": "Your core is Wood, and Water feeds Wood: rain raises the forest. Everything that soaks in quietly, sleep, reading, long conversations, time near water and depth, is what your growth actually drinks. That is why Water is your Mind, the intake that restores what growing spends. A forest is not raised by effort. It is raised by weather.",
+    "backlog_dips_tg_pattern": {
+      "body": "Deep sleep is your classroom too: the rest that soaks you is what growth drinks."
+    }
   }
 }

@@ -19,15 +19,15 @@
     "function": {
       "primary": "mind",
       "definition_catalyst": "Metal is your Mind, and as a catalyst, it is precision feeding your depth: exact teachers, rigorous methods, clean tools that turn vague knowing into usable clarity. You think better with structure than with more input.\n\nIntuitive first, exact second, formidable when both. The notation learned properly, the method drilled until invisible, the one rigorous teacher: each has turned a year of vague sensing into something you can actually wield.\n\nStructure is what makes your depth spendable. Learn one exact discipline properly, notation, code, a method, and let it organize everything else you know. Write definitions for the words you use most. Choose teachers stricter than your mood.",
-      "definition_friction": "Metal is your Mind, and as a friction, it is rigor calcifying: frameworks collected, systems perfected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking.\n\nA note system with better architecture than the ideas inside it. Templates for everything, tags on the tags, and the strange truth that the clearest thinking lately happened away from the entire apparatus.\n\nMethod is scaffolding, and scaffolding is meant to come down. Skip the new framework this month. Take what you already know and apply it somewhere messy. Once a week, think on paper with no system at all and see what you actually believe.",
-      "dips": {
-        "body": "Ordered spaces and clean inputs are how your body refills its depth."
-      }
+      "definition_friction": "Metal is your Mind, and as a friction, it is rigor calcifying: frameworks collected, systems perfected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking.\n\nA note system with better architecture than the ideas inside it. Templates for everything, tags on the tags, and the strange truth that the clearest thinking lately happened away from the entire apparatus.\n\nMethod is scaffolding, and scaffolding is meant to come down. Skip the new framework this month. Take what you already know and apply it somewhere messy. Once a week, think on paper with no system at all and see what you actually believe."
     },
     "cta_verdict": "Your mind sharpens whatever it absorbs, and the clean distinctions you cut in private become the clarity people borrow from you."
   },
   "__ore": {
     "retired_fn_body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Metal running it, your mind absorbs by distillation: exact teachers, clean sources, one precise sentence worth an hour of noise. What passes your filter condenses into permanent depth. Curate hard. Your intelligence is fed by quality, and clutter silts the spring.",
-    "retired_base_personal": "Your core is Water, and Metal feeds Water: dew beads on the cold blade. Everything precise and refined that touches you, clear teaching, exact tools, people with standards, condenses into new depth. That is why Metal is your Mind, the intake that restores what flowing spends. Rivers are not fed by wishing. They are fed by cold clean edges upstream."
+    "retired_base_personal": "Your core is Water, and Metal feeds Water: dew beads on the cold blade. Everything precise and refined that touches you, clear teaching, exact tools, people with standards, condenses into new depth. That is why Metal is your Mind, the intake that restores what flowing spends. Rivers are not fed by wishing. They are fed by cold clean edges upstream.",
+    "backlog_dips_tg_pattern": {
+      "body": "Ordered spaces and clean inputs are how your body refills its depth."
+    }
   }
 }

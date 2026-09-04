@@ -773,9 +773,10 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                         })()}
                       </>
                     )}
-                    {Object.entries(elScreen.fn?.dips || {}).map(([k, txt]) => (
-                      <p className="body2 el-funcrow" key={k} style={{ margin: '9px 0 0' }}><b className="el-funclab">{(elScreen.functionsDef.find((f) => f.key === k) || { label: k }).label}.</b> {txt}</p>
-                    ))}
+                    {/* dips coda RETIRED (owner 2026-09-03): cross-function
+                        lines are TG_PATTERN territory — backlogged in the
+                        station's __ore until that axis ships. The reading
+                        ends where the advise ¶ ends. */}
                   </div>
                 )}
                 {elSec === 'dom' && elFaces.length ? (
