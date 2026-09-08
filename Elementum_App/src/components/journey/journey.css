@@ -288,12 +288,6 @@
 .jny .hero2 .htitle{ display: block; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 26px; color: #f6f1e6; line-height: 1.04; margin-top: 6px; }
 .jny .hero2 .hsub{ display: block; font-style: italic; color: #dccfb6; margin-top: 4px; font-size: 12.5px; }
 .jny .hero2 .reye,.jny .hero2 .htitle,.jny .hero2 .hsub{ text-shadow: 0 1px 3px rgba(20,17,13,0.55); }
-.jny .rchip{ display: inline-flex; align-items: center; gap: 4px; font-size: 8.5px; font-weight: 700; letter-spacing: 1.1px;
-    text-transform: uppercase; color: #fff; border-radius: 999px; padding: 3px 9px 3px 6px; }
-.jny .rchip svg{ width: 10px; height: 10px; }
-.jny .rchip.up{ background: var(--up); }
-.jny .rchip.down{ background: var(--down); }
-.jny .rchip.corec{ color: #F4ECD9; background: var(--dmBorder); }
 .jny .laylab{ font-weight: 500; font-size: 8.5px; letter-spacing: 2px; text-transform: uppercase; color: var(--inkLight); margin-bottom: 5px; display: block; }
 .jny .serifline{ font-family: 'Cormorant Garamond', Georgia, serif; font-size: 15.5px; font-weight: 500; line-height: 1.35; color: var(--ink); }
 .jny .saysline{ font-size: 11px; color: var(--inkLight); }
@@ -1441,12 +1435,6 @@
 .jny .hero2 .htitle{ display: block; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 26px; color: #f6f1e6; line-height: 1.04; margin-top: 6px; }
 .jny .hero2 .hsub{ display: block; font-style: italic; color: #dccfb6; margin-top: 4px; font-size: 12.5px; }
 .jny .hero2 .reye,.jny .hero2 .htitle,.jny .hero2 .hsub{ text-shadow: 0 1px 3px rgba(20,17,13,0.55); }
-.jny .rchip{ display: inline-flex; align-items: center; gap: 4px; font-size: 8.5px; font-weight: 700; letter-spacing: 1.1px;
-    text-transform: uppercase; color: #fff; border-radius: 999px; padding: 3px 9px 3px 6px; }
-.jny .rchip svg{ width: 10px; height: 10px; }
-.jny .rchip.up{ background: var(--up); }
-.jny .rchip.down{ background: var(--down); }
-.jny .rchip.corec{ color: #F4ECD9; background: var(--dmBorder); }
 .jny .laylab{ font-weight: 500; font-size: 8.5px; letter-spacing: 2px; text-transform: uppercase; color: var(--inkLight); margin-bottom: 5px; display: block; }
 .jny .serifline{ font-family: 'Cormorant Garamond', Georgia, serif; font-size: 15.5px; font-weight: 500; line-height: 1.35; color: var(--ink); }
 .jny .saysline{ font-size: 11px; color: var(--inkLight); }
@@ -2725,15 +2713,6 @@
 .jny .wp-dotcard .wd-link.tames .wd-arrow path{ stroke: #a3543e; stroke-dasharray: 3 3; }
 .jny .wp-dotcard .wd-lawtx{ font-size: 9px; letter-spacing: 1.6px; text-transform: uppercase; color: #8a8278; }
 .jny .wp-dotcard .wd-eq{ display: block; text-align: center; font-size: 11px; letter-spacing: 1.8px; text-transform: uppercase; color: var(--bronzeDark); margin: 4px 0 8px; }
-.jny .wp-dotcard .wd-def{ margin: 6px 0 0; text-align: center; font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 18px; font-weight: 600; color: var(--inkDeep, #2b2722); }
-.jny .wp-dotcard .wd-def b{ font-weight: 700; color: var(--bronzeDark); }
-.jny .wp-dotcard .wd-mean{ margin: 5px 0 0; text-align: left; }
-/* arrow-only reading entry — the readcirc language, centered (owner 2026-09-01) */
-.jny .wp-dotcard .wp-codex{ width: 38px; height: 38px; border-radius: 50%; background: #26221D; color: #F3EDDF;
-    display: flex; align-items: center; justify-content: center; border: none; padding: 0; margin: 13px auto 2px;
-    box-shadow: 0 4px 12px rgba(40,30,20,0.28); }
-.jny .wp-dotcard .wp-codex svg{ width: 15px; height: 15px; }
 .jny .wd-adj{ display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 9px 0 2px; }
 .jny .wd-adjchip{ font-size: 11px; letter-spacing: 0.6px; padding: 3px 9px; border-radius: 999px;
     background: rgba(76,122,79,0.10); border: 1px solid rgba(76,122,79,0.28); color: #3f6342; }

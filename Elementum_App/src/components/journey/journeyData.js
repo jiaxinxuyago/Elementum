@@ -393,10 +393,8 @@ function fullManifesto(card) {
 export function buildElementScreen(model, el) {
   const r = model.byEl[el];
   if (!r) return null;
-  let roleTx; let roleKind;
-  if (r.isCore) { roleTx = 'YOUR CORE'; roleKind = 'who'; }
-  else if (r.role === 'friction') { roleTx = 'FRICTION'; roleKind = 'down'; }
-  else { roleTx = 'CATALYST'; roleKind = 'up'; }
+  // the role-pill kind (who / down / up) — the label itself is rendered by the pill
+  const roleKind = r.isCore ? 'who' : r.role === 'friction' ? 'down' : 'up';
 
   // the dominance number moved off the art to sit with the track (owner 2026-09-01)
   const reye = `${r.name.toUpperCase()}${r.missing ? ' · MISSING' : r.isCore ? ' · YOUR CORE' : ''}`;
@@ -444,7 +442,7 @@ export function buildElementScreen(model, el) {
   return {
     el, name: r.name.toUpperCase(), hz: r.hz, cls: `a-${el}`,
     pig: `var(--${el})`,
-    reye, roleTx, roleKind,
+    reye, roleKind,
     // tile hook + tag retired from the hero (owner 2026-09-01: the hero card
     // headline is the function CLAIM; ENERGY_TILE hooks become unrendered ore)
     selfCard,
@@ -457,7 +455,8 @@ export function buildElementScreen(model, el) {
     // THE FUNCTION (§5f): merged into the mechanism detail (owner 2026-09-01).
     fn,
     fnLabel,
-    // the pair's cta_verdict — the COVER's meaning line (rung ②)
+    // the pair's cta_verdict — off the cover since cdafa7e (owner 2026-09-04);
+    // it renders on the FUNCTION tile and the reading page
     verdict: pair?.cta_verdict || '',
     // THE AXIS HOMING (owner structure ruling 2026-09-03): the reading
     // assembles across two axes — define ¶ and advise ¶ come from the
