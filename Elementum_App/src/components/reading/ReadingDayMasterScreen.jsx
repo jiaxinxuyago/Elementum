@@ -9,6 +9,7 @@
 import './reading.css';
 import ReadingDayMasterCard from './ReadingDayMasterCard.jsx';
 import { STEM_CARD_DATA } from '../../content/index.js';
+import { getEnergyBand, STEM_ELEM } from '../../engine/index.js';
 import { resolveDayMasterReading } from './readingResolve.js';
 import { useReading } from './useReading.js';
 
@@ -20,6 +21,11 @@ export default function ReadingDayMasterScreen({ onBack, onBirthChart }) {
   // Band-resolved nature + gifts & shadows (owner layout 2026-08-05; BAND-A
   // band variants 2026-08-13 — falls back to the locked baseline cleanly).
   const reading = resolveDayMasterReading(stem, chart) || {};
+  // The causal frame + handoff (owner journey restructure 2026-09-10): the
+  // chapter is identity-only — gifts/shadows keyed to the chart's band, one
+  // bridge sentence back to the catalogue's ENERGY MANUAL. Fed-by, never
+  // equals: the feeder energies are named in the manual, not here.
+  const band = chart?.dayMaster ? getEnergyBand(chart.dayMaster.strength) : 'balanced';
   return (
     <div className="reading" style={{ position: 'absolute', inset: 0 }}>
       <ReadingDayMasterCard
@@ -30,6 +36,8 @@ export default function ReadingDayMasterScreen({ onBack, onBirthChart }) {
         nature={reading.nature || card?.yourNature?.desc}
         gifts={reading.gifts}
         shadows={reading.shadows}
+        band={band}
+        coreElement={STEM_ELEM[stem]}
         onBack={onBack}
         onBirthChart={onBirthChart}
       />

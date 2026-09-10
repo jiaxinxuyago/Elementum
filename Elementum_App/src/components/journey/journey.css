@@ -215,7 +215,7 @@
     background: rgba(248,244,236,0.95); border: 1px solid var(--paperHair); color: var(--bronzeDark);
     display: inline-flex; align-items: center; justify-content: center; }
 .jny .stripshare svg{ width: 14px; height: 14px; }
-.jny .wheel{ position: relative; width: 320px; height: 300px; margin: 16px auto 0; }
+.jny .wheel{ position: relative; width: 320px; height: 320px; margin: 16px auto 0; }
 .jny .center-seal{ position: absolute; left: 18.4px; top: 9.2px; width: 276px; height: 276px; z-index: 1; border: none; cursor: pointer; padding: 0; background-color: transparent; }
 .jny .center-seal:focus-visible{ outline: 2px solid var(--bronzeDark); outline-offset: 4px; border-radius: 50%; }
 .jny .node{ position: absolute; border-radius: 50%; border: none; padding: 0; cursor: pointer; background: none;
@@ -1362,7 +1362,7 @@
     background: rgba(248,244,236,0.95); border: 1px solid var(--paperHair); color: var(--bronzeDark);
     display: inline-flex; align-items: center; justify-content: center; }
 .jny .stripshare svg{ width: 14px; height: 14px; }
-.jny .wheel{ position: relative; width: 320px; height: 300px; margin: 16px auto 0; }
+.jny .wheel{ position: relative; width: 320px; height: 320px; margin: 16px auto 0; }
 .jny .center-seal{ position: absolute; left: 18.4px; top: 9.2px; width: 276px; height: 276px; z-index: 1; border: none; cursor: pointer; padding: 0; background-color: transparent; }
 .jny .center-seal:focus-visible{ outline: 2px solid var(--bronzeDark); outline-offset: 4px; border-radius: 50%; }
 .jny .node{ position: absolute; border-radius: 50%; border: none; padding: 0; cursor: pointer; background: none;
@@ -2914,3 +2914,28 @@
 .jny .elpos-body{ padding: 0 11px 10px; }
 .jny .elpos-defline{ font-family: 'Cormorant Garamond', Georgia, serif; font-size: 13.5px; line-height: 1.5; color: var(--inkDeep, #2b2722); margin: 7px 0 5px; }
 .jny .elpos-reading{ font-family: 'EB Garamond', Georgia, serif; font-size: 12.5px; line-height: 1.62; color: #4a4540; margin: 0; }
+
+/* ── owner journey restructure 2026-09-10 ─────────────────────────── */
+/* stem-literacy lines (keyword chips retired everywhere) */
+.jny .rvl-lit{ font-family:'Cinzel',Georgia,serif; font-size:11px; letter-spacing:2.6px; color:var(--bronzeDark); margin:2px 0 4px; }
+.jny .id-lit{ font-family:'Cinzel',Georgia,serif; font-size:9px; letter-spacing:1.8px; color:var(--inkLight,#8a7f6d); align-self:center; }
+.jny .sc-lit{ font-family:'Cinzel',Georgia,serif; font-size:10px; letter-spacing:2.2px; color:var(--bronzeDark); margin:4px 0 2px; }
+/* YOUR ENERGY MANUAL (beat 2): condition line + prescription unfold */
+.jny .manual-tile{ padding:4px 12px; }
+.jny .manual-tile .idg-line{ width:100%; }
+.jny .manual-body{ padding:2px 2px 10px; }
+.jny .man-defline{ margin:2px 0 4px; color:var(--inkDeep,#2b2722); }
+.jny .man-why{ margin:0 0 2px; font-size:12px; color:var(--inkLight,#8a7f6d); }
+.jny .man-ey{ margin-top:12px; }
+.jny .man-self{ display:inline-block; font-family:'Cinzel',Georgia,serif; font-size:7.5px; font-weight:400; letter-spacing:1.2px; color:#faf5ea; background:var(--bronzeDark); border-radius:999px; padding:2px 7px; margin-left:7px; vertical-align:2px; }
+/* the SEEK/EASE rails — the map's key; the wheel itself untouched */
+.jny .maprails{ display:flex; justify-content:space-between; align-items:center; margin:8px 6px 0; }
+.jny .mr-side{ display:flex; align-items:center; gap:5px; }
+.jny .mr-lab{ font-family:'Cinzel',Georgia,serif; font-size:8px; letter-spacing:1.6px; }
+.jny .mr-lab.seek{ color:var(--up,#5c6e46); margin-right:2px; }
+.jny .mr-lab.ease{ color:var(--down,#8a4a38); margin-left:2px; }
+.jny .mr-dot{ width:20px; height:20px; border-radius:50%; display:inline-flex; align-items:center; justify-content:center; box-shadow:0 1px 4px rgba(50,40,25,.25); }
+.jny .mr-dot svg{ width:11px; height:11px; color:#faf5ea; fill:currentColor; }
+.jny .mr-dot.self{ outline:2px solid var(--bronzeDark); outline-offset:2px; }
+/* function noun labels under the wheel nodes (labeled, clean) */
+.jny .node .fnlab{ position:absolute; top:100%; left:50%; transform:translateX(-50%); margin-top:11px; font-family:'Cinzel',Georgia,serif; font-size:6.5px; letter-spacing:1.1px; color:var(--inkLight,#8a7f6d); white-space:nowrap; pointer-events:none; }

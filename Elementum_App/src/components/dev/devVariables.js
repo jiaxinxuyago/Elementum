@@ -56,7 +56,8 @@ export function buildVariableGroups(model, activeEl, chart) {
       vars: [
         { name: 'archetype_name', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: m?.archetype },
         { name: 'manifesto', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: m?.manifesto },
-        { name: 'stem_keywords', axis: 'STEM×10', arch: stemArch, status: 'LIVE', value: m?.stemKeywords?.join(' · ') },
+        { name: 'stem_keywords', axis: 'STEM×10', arch: stemArch, status: 'RETIRED · CODEX ORE', value: '(chips retired from all surfaces, owner 2026-09-10 — the stem-literacy line replaced them)' },
+        { name: 'stem_literacy (derived)', axis: 'STEM · derived', arch: stemArch, status: 'LIVE', value: m?.stemLit },
         { name: 'tpl_cast_line', axis: 'T · derived slots', arch: 'tpl_cast_line', status: 'LIVE', value: m?.cast },
       ],
     },

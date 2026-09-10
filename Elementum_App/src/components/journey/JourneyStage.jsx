@@ -63,14 +63,13 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
   const [cardStatus, setCardStatus] = useState(null);
   const cardRef = useRef(null);
   const cardStatusT = useRef(null);
-  const [insOpen, setInsOpen] = useState(null);    // inscription line unfold
+  const [manualOpen, setManualOpen] = useState(false); // YOUR ENERGY MANUAL unfold (owner 2026-09-10)
   const [fnOpen, setFnOpen] = useState(null);      // footnote float (cond|cat|fric)
   const [dotOpen, setDotOpen] = useState(null);    // wheel-dot float — the element's relation with the core
   const [posOpen, setPosOpen] = useState(null);    // element-page position accordion (position id)
   const [elSec, setElSec] = useState(null);        // element section detail ('mech' | 'fn' | 'dom') — fn re-split as the function reading's home (owner re-org 2026-09-02)
   const [deepOpen, setDeepOpen] = useState(false); // seat Stage B ("the deeper layers") — resets per seat
   const [godOpen, setGodOpen] = useState(null);    // WHO RUNS IT god accordion (god zh) — collapsed by default
-  const [folioOpen, setFolioOpen] = useState(false);
 
   const model = useMemo(() => {
     if (!chart || !ec || !identity) return null;
@@ -138,17 +137,8 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
     });
   }, []);
 
-  // inscription line toggle (folio carriage)
-  const insToggle = useCallback((k) => {
-    if (k === 'core') {
-      const root = stageRef.current;
-      root?.querySelectorAll('.wheel .node.is-core, .wheel .center-seal').forEach((n) => {
-        n.classList.remove('pulse'); void n.offsetWidth; n.classList.add('pulse');
-        setTimeout(() => n.classList.remove('pulse'), 1200);
-      });
-    }
-    setInsOpen((cur) => (cur === k ? null : k));
-  }, []);
+  // (insToggle/folio retired with the beat-1 folio — its teaching lines
+  //  live on inside YOUR ENERGY MANUAL, owner 2026-09-10)
 
   // ── effects: ink-in observer + dock merge/pill refold ────────────
   useEffect(() => {
@@ -450,7 +440,10 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                 <p className="rvl-kick">{m.maniThesis}</p>
                 <p className="rvl-edge">{m.maniEdge}</p>
                 <span className="rvl-rule" />
-                <div className="rvl-kw">{(m.stemKeywords || []).map((w) => <span key={w}>{w}</span>)}</div>
+                {/* stem-literacy line (owner 2026-09-10): sign · polarity ·
+                    element — the keyword chips retired everywhere (labels
+                    lost to portraits; the manifesto carries character) */}
+                <div className="rvl-lit">{m.stemLit}</div>
                 <div className="rvl-cast">{m.cast}<span>— ELEMENTUM —</span></div>
               </div>
               <button className="rvl-swipe" aria-label="Continue to your energies — swipe up or tap"><Use id="ico-chev-r" /><span>Swipe up</span></button>
@@ -476,59 +469,84 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                       </div>
                       <div className="hc-man"><span className="redrule" /><p className="mani">{m.manifesto}</p></div>
                       <div className="hc-foot">
-                        <div className="kws">{(m.stemKeywords || []).map((k) => <span className="kw" key={k}>{k}</span>)}</div>
+                        <div className="id-lit">{m.stemLit} · CAST FROM YOUR DAY OF BIRTH</div>
                         {/* Owner ruling 2026-08-05: the hero arrow goes STRAIGHT to the
                             full Day Master page (P4, app-daymaster) — the journey's
                             internal daymaster sub-screen was retired (owner, 2026-08-13). */}
                         <button className="readcirc" aria-label="Read your Day Master" onClick={() => onOpenDayMaster && onOpenDayMaster()}><Use id="ico-arrow-r" /></button>
                       </div>
                     </div>
-                  {/* Core diagnosis, organic (owner 2026-08-19): not a tile —
-                      a sentence in the hero's own typography. Seal says WHAT
-                      YOU ARE; this line says HOW IT'S RUNNING; the fold still
-                      opens the three teaching lines. */}
-                  <div className={`insc id-diag${folioOpen ? ' folio-open' : ''}`} data-ins="folio" data-css="inscP">
-                    <button className="idg-line" aria-expanded={folioOpen} onClick={() => { setFolioOpen((v) => { if (v) setInsOpen(null); return !v; }); }}>
-                      <Use id={`el-${m.core.el}`} className="idg-el" />
-                      <span className="idg-t">Your Core Energy is <b>{m.core.name}</b> · it runs <span className="role-pill cond" role="button" tabIndex={0} onClick={(e) => { e.stopPropagation(); setFnOpen('cond'); }}><Use id={condIcon} />{m.condition}</span> — {m.foldVerdict}</span>
-                      <Use id="ico-chev-r" className="idg-chev" />
-                    </button>
-                    <div className="ins-para">
-                      <button className="ins-line" aria-expanded={insOpen === 'core'} onClick={() => insToggle('core')}>
-                        <span className="ins-lead"><svg viewBox="0 0 24 24" className="core"><use href={U(`el-${m.core.el}`)} /></svg></span>
-                        <span className="ins-t">Your core is <svg className="ins-ic core" viewBox="0 0 24 24" aria-hidden="true"><use href={U(`el-${m.core.el}`)} /></svg><b className="mw">{m.core.name}</b> — the <span className="bw">{m.archetype.replace(/^The /, '')}</span>&rsquo;s own element.</span>
-                        <span className="ins-s" aria-hidden="true">Core · {m.core.name}</span>
-                      </button>
-                      {insOpen === 'core' && <div className="ins-more"><span className="cor-v">The seal at the wheel&rsquo;s center is {m.core.name}&rsquo;s sign — the day master you were cast with; its share leads the wheel.</span></div>}
-                      <button className="ins-line" aria-expanded={insOpen === 'cond'} onClick={() => insToggle('cond')}>
-                        <span className="ins-lead"><Use id={m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged'} /></span>
-                        <span className="ins-t">It runs <span className="role-pill cond"><Use id={m.condition === 'Underfueled' ? 'ic-receptive' : m.condition === 'Balanced' ? 'ic-balanced' : 'ic-charged'} />{m.condition}</span> — {m.condTail}</span>
-                        <span className="ins-s" aria-hidden="true">Runs {m.condition}</span>
-                      </button>
-                      {insOpen === 'cond' && <div className="ins-more"><span className="cor-v">{m.defline[m.condition]}</span></div>}
-                      {m.apprLine && (
-                        <>
-                          <button className="ins-line" aria-expanded={insOpen === 'appr'} onClick={(e) => {
-                            if (e.target.closest('.ins-dn')) { swTo(stageRef.current?.querySelector('.beat[data-beat="3"]'), 56); return; }
-                            insToggle('appr');
-                          }}>
-                            <span className="ins-lead"><Use id={m.approach === 'Refill' ? 'ic-fuel' : 'ic-channel'} /></span>
-                            <span className="ins-t">So <svg className="ins-ic" viewBox="0 0 24 24" aria-hidden="true"><use href={U(m.approach === 'Refill' ? 'ic-fuel' : 'ic-channel')} /></svg><b>{m.apprLine.verb}</b> it — {m.apprLine.tail}<Use id="ar-down" className="ins-dn" /></span>
-                            <span className="ins-s" aria-hidden="true">{m.apprLine.verb} it ↓</span>
-                          </button>
-                          {insOpen === 'appr' && <div className="ins-more"><span className="cor-v">{m.defline[m.approach]}</span></div>}
-                        </>
-                      )}
-                    </div>
+                  {/* (the core-diagnosis folio became YOUR ENERGY MANUAL,
+                      beat 2 — owner journey restructure 2026-09-10; the
+                      takeaway strip retired 2026-09-04) */}
                   </div>
-                  </div>
-                  {/* (takeaway strip retired 2026-09-04 — see note at the
-                      position-resolution block above) */}
-                  <button className="jbridge" onClick={() => swTo(stageRef.current?.querySelector('.beat[data-beat="2"]'), 56)}><span>What does your energy look like?</span><Use id="ar-down" /></button>
+                  <button className="jbridge" onClick={() => swTo(stageRef.current?.querySelector('.beat[data-beat="2"]'), 56)}><span>How does your energy run?</span><Use id="ar-down" /></button>
                 </div>
 
                 <div className="beat" data-beat="2">
-                  <span className="sec-eyebrow">YOUR FIVE ENERGIES</span>
+                  {/* YOUR ENERGY MANUAL (owner rulings 2026-09-10): the core
+                      analyzed from its CONDITION (never the ten-god voice) —
+                      the line expands into the prescription: SEEK / EASE with
+                      the old seek/skip rows relocated as its doors, and the
+                      core itself on the ease side for overfueled charts
+                      (mirrored to seek when underfueled). Replaces both the
+                      beat-1 folio and the old beat-3 panels. */}
+                  <span className="sec-eyebrow">YOUR ENERGY MANUAL</span>
+                  <div className={`cardstock manual-tile${manualOpen ? ' open' : ''}`}>
+                    <button className="idg-line" aria-expanded={manualOpen} onClick={() => setManualOpen((v) => !v)}>
+                      <Use id={`el-${m.core.el}`} className="idg-el" />
+                      <span className="idg-t"><b>{m.core.name}</b> is your <b>{fnNoun(m.core)}</b> · it runs <span className="role-pill cond" role="button" tabIndex={0} onClick={(e) => { e.stopPropagation(); setFnOpen('cond'); }}><Use id={condIcon} />{m.condition}</span></span>
+                      <Use id="ico-chev-r" className="idg-chev" />
+                    </button>
+                    {manualOpen && (
+                      <div className="manual-body">
+                        <p className="body2 man-defline">{m.defline[m.condition]}</p>
+                        {m.balanced ? (
+                          <p className="body2 man-why">Nothing to force — {m.foldVerdict} The map below is yours to wander.</p>
+                        ) : (
+                          <>
+                            <div className="vx-ey man-ey"><span>SEEK THESE</span><span className="role-pill cat" role="button" tabIndex={0} onClick={() => setFnOpen('cat')}><Use id="ar-up" />Catalyst</span></div>
+                            <p className="man-why">{m.condition === 'Overfueled' ? 'These spend your surplus well.' : 'These refill what runs low.'}</p>
+                            {m.seek.map((r) => (
+                              <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => setDotOpen(r.el)}>
+                                <span className={`ik-chip${r.missing ? ' ghosted' : ''}`}><Use id={`el-${r.el}`} className="elmark" /><span className={`ik-plate a-${r.el}`} /></span>
+                                <span className="crmain"><span className="ik-phrase"><b className="ik-el">{r.name}</b><span className="ik-is">is your</span><b className="ik-rel">{fnNoun(r)}{r.isCore && <span className="man-self">YOURSELF</span>}</b></span><span className="ik-pct">{r.presence}%</span></span>
+                              </button>
+                            ))}
+                            <div className="vx-ey man-ey"><span>EASE THESE</span><span className="role-pill fric" role="button" tabIndex={0} onClick={() => setFnOpen('fric')}><Use id="ar-down" />Friction</span></div>
+                            <p className="man-why">{m.condition === 'Overfueled' ? 'These feed a core already full.' : 'These spend what little comes in.'}</p>
+                            {m.skip.map((r) => (
+                              <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => setDotOpen(r.el)}>
+                                <span className={`ik-chip${r.missing ? ' ghosted' : ''}`}><Use id={`el-${r.el}`} className="elmark" /><span className={`ik-plate a-${r.el}`} /></span>
+                                <span className="crmain"><span className="ik-phrase"><b className="ik-el">{r.name}</b><span className="ik-is">is your</span><b className="ik-rel">{fnNoun(r)}{r.isCore && <span className="man-self">YOURSELF</span>}</b></span><span className="ik-pct">{r.presence}%</span></span>
+                              </button>
+                            ))}
+                          </>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                  <button className="jbridge" onClick={() => swTo(stageRef.current?.querySelector('.beat[data-beat="3"]'), 56)}><span>See the five, placed</span><Use id="ar-down" /></button>
+                </div>
+
+                <div className="beat" data-beat="3">
+                  <span className="sec-eyebrow">YOUR ENERGY MAP</span>
+                  {/* the SEEK/EASE rails (owner 2026-09-10): the manual's two
+                      lists echoed as the map's key — seek pinned left, ease
+                      right (the self ringed). The wheel itself is untouched:
+                      same nodes, seats, sizes, and role pips. */}
+                  {!m.balanced && (
+                    <div className="maprails" aria-hidden="true">
+                      <span className="mr-side">
+                        <span className="mr-lab seek">SEEK</span>
+                        {m.seek.map((r) => <span key={r.el} className="mr-dot" style={{ background: `var(--${r.el}Deep)` }}><Use id={`el-${r.el}`} /></span>)}
+                      </span>
+                      <span className="mr-side">
+                        {m.skip.map((r) => <span key={r.el} className={`mr-dot${r.isCore ? ' self' : ''}`} style={{ background: `var(--${r.el}Deep)` }}><Use id={`el-${r.el}`} /></span>)}
+                        <span className="mr-lab ease">EASE</span>
+                      </span>
+                    </div>
+                  )}
                   <div className="wheel" ref={wheelRef} aria-label="Dominance wheel — tap any energy to open its reading">
                     <button className={centerCls} style={{ backgroundImage: `url('${centerSrc}')` }} aria-label="The Day Master seal — open your identity card" onClick={() => setShowShare(true)} />
                     {m.els.map((r) => (
@@ -544,52 +562,16 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                           : r.role === 'friction'
                             ? <span className="pip down"><Use id="ar-down" /></span>
                             : <span className={`pip up${r.major ? ' major' : ''}`}><Use id="ar-up" /></span>}
+                        {/* function label (owner 2026-09-10: "label it but
+                            keep the design clean") — the §5f noun, micro */}
+                        <span className="fnlab">{fnNoun(r)}</span>
                       </button>
                     ))}
                   </div>
-
-                  <button className="jbridge" onClick={() => swTo(stageRef.current?.querySelector('.beat[data-beat="3"]'), 56)}><span>So what do you need — and what don&rsquo;t you?</span><Use id="ar-down" /></button>
                 </div>
-
-                <div className="beat" data-beat="3">
-                  {m.balanced ? (
-                    <div className="rxvars" data-rx="columns">
-                      <div className="vx-pair" data-rxpane="columns">
-                        <div className="vx-box" style={{ flex: 1 }}>
-                          <div className="vx-ey"><span>BALANCED</span><span className="role-pill cond"><Use id="ic-balanced" />Balanced</span></div>
-                          <p className="body2" style={{ margin: '4px 2px 6px' }}>Balanced — nothing to force; {m.foldVerdict}</p>
-                        </div>
-                      </div>
-                    </div>
-                  ) : (
-                    <div className="rxvars" data-rx="columns">
-                      <div className="vx-pair" data-rxpane="columns">
-                        <div className="vx-box">
-                          <div className="vx-ey"><span>SEEK THESE</span><span className="role-pill cat" role="button" tabIndex={0} onClick={() => setFnOpen('cat')}><Use id="ar-up" />Catalyst</span></div>
-                          {m.seek.map((r) => (
-                            <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => setDotOpen(r.el)}>
-                              <span className={`ik-chip${r.missing ? ' ghosted' : ''}`}><Use id={`el-${r.el}`} className="elmark" /><span className={`ik-plate a-${r.el}`} /></span>
-                              <span className="crmain"><span className="ik-phrase"><b className="ik-el">{r.name}</b><span className="ik-is">is your</span><b className="ik-rel">{fnNoun(r)}</b></span><span className="ik-pct">{r.presence}%</span></span>
-                            </button>
-                          ))}
-                        </div>
-                        <div className="vx-box">
-                          <div className="vx-ey"><span>SKIP THESE</span><span className="role-pill fric" role="button" tabIndex={0} onClick={() => setFnOpen('fric')}><Use id="ar-down" />Friction</span></div>
-                          {m.skip.map((r) => (
-                            <button key={r.el} className={`ik-crow pv-${r.el}`} aria-label={`${r.name} — open its reading`} onClick={() => setDotOpen(r.el)}>
-                              <span className={`ik-chip${r.missing ? ' ghosted' : ''}`}><Use id={`el-${r.el}`} className="elmark" /><span className={`ik-plate a-${r.el}`} /></span>
-                              {/* Both panels speak the §5f FUNCTION noun (owner 2026-09-01,
-                                  superseding the seat/shadow row nouns) — the rows and the
-                                  dot card they open share one vocabulary; the shadow noun
-                                  (REA_02 §5b-ii) lives on in the friction verdicts. */}
-                              <span className="crmain"><span className="ik-phrase"><b className="ik-el">{r.name}</b><span className="ik-is">is your</span><b className="ik-rel">{fnNoun(r)}</b></span><span className="ik-pct">{r.presence}%</span></span>
-                            </button>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                  )}
-                </div>
+                {/* (the beat-3 SEEK/SKIP panels retired 2026-09-10 — their
+                    rows live on as YOUR ENERGY MANUAL's doors in beat 2;
+                    SKIP re-worded EASE so the core itself can sit there) */}
 
                 {/* wordsnote (A2, round-3 order). The energy-tile shelf (beat 4)
                     and the sticky ca-dock were RETIRED (owner 2026-08-19): the
@@ -970,7 +952,7 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
                 </div>
                 <div className="scarch">{m.archetype}</div>
                 <div className="scman">{m.manifesto}</div>
-                <div className="sckws">{(m.stemKeywords || []).map((k) => <span className="sckw" key={k}>{k}</span>)}</div>
+                <div className="sc-lit">{m.stemLit}</div>
                 <div className="scbp">
                   <div className="sc-coreline">
                     <span className="sc-mk" style={{ color: `var(--${m.core.el}Deep)` }}><svg viewBox="0 0 24 24" fill="currentColor"><use href={U(`el-${m.core.el}`)} /></svg></span>

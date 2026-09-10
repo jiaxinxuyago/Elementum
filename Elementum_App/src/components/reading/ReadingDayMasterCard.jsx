@@ -9,7 +9,17 @@
 // No gate here — identity is the free hook.
 // ===================================================================
 
-export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, overview, nature, gifts, shadows, onBack, onBirthChart, onShare }) {
+export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, overview, nature, gifts, shadows, band, coreElement, onBack, onBirthChart, onShare }) {
+  // The causal frame (owner 2026-09-10): gifts = the archetype running
+  // right; shadows = the band's own failure direction. The bridge lines are
+  // derived, mechanism-honest (shadows are FED BY imbalance, never equal to
+  // the friction energies — those are named in the catalogue's manual).
+  const shadowState = band === 'concentrated' ? 'RUNNING OVER' : band === 'open' ? 'RUNNING THIN' : 'OFF BALANCE';
+  const shadowBridge = band === 'concentrated'
+    ? 'These swell when the imbalance keeps getting fed.'
+    : band === 'open'
+      ? 'These surface when the reserve runs low.'
+      : 'These surface when the balance slips.';
   return (
     <div className="reading-fill">
       <img className="ground-img" src="/backgrounds/bg-reading-03-watermark-low.png" alt="" />
@@ -44,7 +54,7 @@ export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, 
 
         {overview ? (
           <div className="layer" style={{ marginTop: 18 }}>
-            <div className="layer-label">Day Master overview</div>
+            <div className="layer-label">The Sign</div>
             <p>{overview}</p>
           </div>
         ) : null}
@@ -58,11 +68,28 @@ export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, 
 
         {(gifts?.length || shadows?.length) ? (
           <div className="claims-card" style={{ marginTop: 12 }}>
-            {gifts?.length ? <div className="layer-label" style={{ padding: '2px 0 4px' }}>Gifts</div> : null}
+            {gifts?.length ? (
+              <>
+                <div className="layer-label gs-right" style={{ padding: '2px 0 2px' }}>{archetype.toUpperCase()}, RUNNING RIGHT</div>
+                <div className="gs-bridge">These light up when your core runs balanced.</div>
+              </>
+            ) : null}
             {(gifts || []).map((g) => <div className="claim" key={g.phrase}><b>{g.phrase}.</b> {g.desc}</div>)}
-            {shadows?.length ? <div className="layer-label" style={{ padding: '10px 0 4px' }}>Shadows</div> : null}
+            {shadows?.length ? (
+              <>
+                <div className="layer-label gs-over" style={{ padding: '10px 0 2px' }}>{archetype.toUpperCase()}, {shadowState}</div>
+                <div className="gs-bridge">{shadowBridge}</div>
+              </>
+            ) : null}
             {(shadows || []).map((s) => <div className="claim" key={s.phrase}><b>{s.phrase}.</b> {s.desc}</div>)}
           </div>
+        ) : null}
+
+        {coreElement ? (
+          <button type="button" className="dm-handoff" onClick={onBack}>
+            <span>{archetype} is cast in <b>{coreElement}</b> — and {coreElement} is your <b>Body</b>. Your manual shows how it is running.</span>
+            <svg className="bc-arr" viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-arrow-r" /></svg>
+          </button>
         ) : null}
 
         <div className="expander">

@@ -13,7 +13,7 @@
 // pending the 50-cell authoring pass.
 // ===================================================================
 
-import { getEnergyBand, relationOf } from '../../engine/index.js';
+import { getEnergyBand, relationOf, STEM_YIN } from '../../engine/index.js';
 import { TG_PERSONA, TG_DEFLINE, selfCardFor } from '../../content/index.js';
 import { FEEDS, TAMES } from '../../content/cycles.js';
 import { K2_CELLS, K2_FUNCTIONS, GOD_DOMAINS, GOD_FN } from '../../content/k2.js';
@@ -357,7 +357,12 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
     stemId: ec.dayMaster, stem: ec.stem,
     archetype: identity.archetype, pinyin: identity.pinyin,
     manifesto, maniThesis: identity.manifesto, maniEdge: identity.manifestoEdge,
-    inscription: identity.inscription, stemKeywords: identity.keywords, cast,
+    inscription: identity.inscription, cast,
+    // THE STEM-LITERACY LINE (owner 2026-09-10): the identity surfaces teach
+    // WHAT the day master is — sign · polarity · element — instead of the
+    // retired adjective keywords (labels lost to portraits everywhere else;
+    // identity.keywords stays in the content library as Codex ore).
+    stemLit: `${ec.stem} · ${STEM_YIN[ec.stem] === 0 ? 'YANG' : 'YIN'} ${core.name.toUpperCase()}`,
     condition, approach, band,
     foldVerdict: FOLD_VERDICT[condition],
     condTail: COND_TAIL[condition],
