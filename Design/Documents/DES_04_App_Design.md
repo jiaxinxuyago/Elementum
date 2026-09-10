@@ -429,8 +429,8 @@ Welcome → Onboarding (7 steps) → Loading → Reveal → Dashboard (lands on 
 
 The Energy Map is the default landing after Reveal because the user has just had their identity recognition moment — they want to go deeper into who they are, not pivot immediately to daily utility.
 
-**Returning user (chart exists in storage):**
-WelcomeScreen detects chart in localStorage via `useEffect` and auto-redirects to `/dashboard/` (Today). No onboarding. Every subsequent fresh open lands on Today.
+**Returning user (signed-in account + chart exists on this device) — owner ruling 2026-09-10:**
+A cold open with a live session skips Welcome and onboarding entirely: the app enters Loading (the chart is recomputed from on-device birth data) and hands off to the Reading catalogue (`app-reading`), not the Naming ceremony and not Today. The same path plays when the "Already mapped? Sign in" pill completes a sign-in with a chart on-device. Deep links (any `#/route`) are honoured as-is. A signed-in user on a fresh device still redraws the chart through onboarding — birth data is on-device only (INF_01 §3); the account restores unlocks, not the chart. Implemented by `ReturningUserGate` in `App.jsx`.
 
 **Incomplete onboarding:**
 If a user begins onboarding but exits before completing all 7 steps, partial progress is saved to localStorage. On next Welcome Screen load, a secondary quiet link appears beneath the primary CTA: *"Continue where you left off →"* in 14px EB Garamond, `#8C857B`. Tapping it resumes at the last completed step with all previous answers pre-filled. The primary CTA ("Begin Your Journey") starts fresh.

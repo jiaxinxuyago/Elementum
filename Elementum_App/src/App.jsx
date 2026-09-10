@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useTransition, Suspense, lazy } from 'react';
+import React, { useState, useEffect, useRef, useTransition, Suspense, lazy } from 'react';
 import {
   ChartProvider,
   useChart,
@@ -382,6 +382,33 @@ function PurchaseRedirect() {
   return null;
 }
 
+// Returning user, cold open (owner ruling 2026-09-10): a signed-in visitor
+// whose chart already lives on this device does not wait on Welcome — the app
+// opens straight into Loading, which recomputes the chart and hands off to the
+// reading catalogue (app-reading). No onboarding, no Naming ceremony (that
+// played the day the chart was first drawn). Fires once, and only when the
+// page was opened WITHOUT a hash — a deep link (#/app-profile, a dev jump to
+// #/welcome, the QA sweeps) is honoured as-is. A stored purchase intent (the
+// Google OAuth return trip mid-checkout) is left to PurchaseRedirect.
+// Birth data is on-device only (INF_01 §3), so a fresh device still has to
+// redraw the chart through onboarding — the account restores unlocks, not
+// the chart.
+const COLD_OPEN = typeof window !== 'undefined' && !window.location.hash;
+function ReturningUserGate({ screen, onEnter }) {
+  const { user, ready } = useAuth();
+  const { chart } = useChart();
+  const fired = useRef(false);
+  useEffect(() => {
+    if (fired.current || !COLD_OPEN || !ready || !user || !chart || screen !== 'welcome') return;
+    try {
+      if (sessionStorage.getItem(PURCHASE_INTENT_KEY)) return;
+    } catch { /* storage unavailable — proceed */ }
+    fired.current = true;
+    onEnter();
+  }, [ready, user, chart, screen, onEnter]);
+  return null;
+}
+
 export default function App() {
   const [screen, setScreenState] = useState(readHash);
   // Navigations run as a transition: if the target screen is still lazy-loading,
@@ -428,6 +455,16 @@ export default function App() {
 
   const goto = (name) => () => setScreen(name);
 
+  // Where Loading hands off once the chart is computed and the dwell ends:
+  // 'reveal' (the Naming ceremony — a chart drawn for the first time through
+  // onboarding) or 'app-reading' (the catalogue — a returning account whose
+  // chart already lives on this device; see ReturningUserGate above). A
+  // ref, not state: the choice is made by whoever routes INTO loading and
+  // read once on exit. A hash reload of #/loading defaults to the ceremony.
+  const loadingNextRef = useRef('reveal');
+  const startLoading = (next) => { loadingNextRef.current = next; setScreen('loading'); };
+  const enterReturning = () => startLoading('app-reading');
+
   // Maps a ReadingTabBar key ('today', 'guidance', 'reading', 'compat',
   // 'profile') to the corresponding FLOW screen ('app-*'). Used as the
   // `onTabChange` callback by every DashboardShell render.
@@ -461,7 +498,7 @@ export default function App() {
   let rendered;
   switch (screen) {
     case 'welcome':
-      rendered = <WelcomeScreen onContinue={goto('step1')} onEnterApp={goto('app-today')} />;
+      rendered = <WelcomeScreen onContinue={goto('step1')} onEnterApp={enterReturning} />;
       break;
     case 'step1':
       rendered = <Step1_Year onBack={back} onContinue={goto('step2')} />;
@@ -510,16 +547,16 @@ export default function App() {
       rendered = (
         <Step7_Notify
           onBack={back}
-          onContinue={goto('loading')}
+          onContinue={() => startLoading('reveal')}
           onChangeTime={goto('step7a')}
         />
       );
       break;
     case 'step7a':
-      rendered = <Step7A_NotifyTime onBack={back} onContinue={goto('loading')} />;
+      rendered = <Step7A_NotifyTime onBack={back} onContinue={() => startLoading('reveal')} />;
       break;
     case 'loading':
-      rendered = <LoadingScreen onComplete={goto('reveal')} />;
+      rendered = <LoadingScreen onComplete={() => setScreen(loadingNextRef.current)} />;
       break;
     case 'reveal':
       // P6 journey: the Naming ceremony ink-dissolves, the seal descends into
@@ -704,7 +741,7 @@ export default function App() {
       rendered = <LockedDetail onBack={goto('app-reading')} />;
       break;
     default:
-      rendered = <WelcomeScreen onContinue={goto('step1')} />;
+      rendered = <WelcomeScreen onContinue={goto('step1')} onEnterApp={enterReturning} />;
   }
 
   // Welcome needs a CTA hook; pass onContinue as an onClick on the button.
@@ -717,6 +754,8 @@ export default function App() {
       <UpgradeModalProvider>
         {/* Stripe founding-pass success redirect → grant access + ceremony (once). */}
         <PurchaseRedirect />
+        {/* Signed-in + chart on-device + cold open → Loading → catalogue. */}
+        <ReturningUserGate screen={screen} onEnter={enterReturning} />
         {/* Dev/test hooks (window.__seedData/__setTier/__buySelfReport/etc.) —
             gated to dev builds so they never ship as a console backdoor. */}
         {IS_DEV && <DevHelpers />}

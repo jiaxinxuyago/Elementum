@@ -12,16 +12,19 @@ import { useAuth } from '../../store/authContext.jsx';
 import { useChart } from '../../store/chartContext.jsx';
 import AuthModal from '../dashboard/AuthModal.jsx';
 
-// `onEnterApp` — returning user with a chart already on this device → straight
-// to the dashboard. `onContinue` — into onboarding (new chart / new device).
+// `onEnterApp` — returning account with a chart already on this device →
+// Loading → the reading catalogue (owner ruling 2026-09-10: no onboarding, no
+// Today detour). `onContinue` — into onboarding (new chart / new device).
 export default function WelcomeScreen({ onContinue, onEnterApp }) {
   const { user } = useAuth();
   const { chart } = useChart();
   const [authOpen, setAuthOpen] = useState(false);
 
   // Post-sign-in routing: the account restores unlocks, but birth data lives
-  // on-device (INF_01 §3) — so a chart here means "welcome home", and a fresh
-  // device means the chart is redrawn through onboarding (unlocks intact).
+  // on-device (INF_01 §3) — so a chart here means "welcome home" (Loading →
+  // catalogue, onboarding skipped), and a fresh device means the chart is
+  // redrawn through onboarding (unlocks intact). App.jsx's ReturningUserGate
+  // takes the same path automatically on a cold open with a live session.
   const proceedSignedIn = () => (chart ? (onEnterApp || onContinue) : onContinue)();
 
   return (
