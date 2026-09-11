@@ -190,7 +190,7 @@
   width: 40px;
   height: 40px;
   border: none;
-  border-radius: var(--r-pill);
+  border-radius: 999px;
   background: rgba(248, 246, 240, 0.14);
   color: var(--cream);
   display: flex;
@@ -209,7 +209,7 @@
 }
 .sc-scale {
   position: relative;
-  border-radius: var(--r-16);
+  border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.42);
 }
@@ -220,7 +220,7 @@
 }
 .sc-actions {
   display: flex;
-  gap: var(--sp-10);
+  gap: 10px;
   margin-top: 18px;
   flex-wrap: wrap;
   justify-content: center;
@@ -230,7 +230,7 @@
   font-size: 15px;
   letter-spacing: 0.4px;
   padding: 11px 20px;
-  border-radius: var(--r-pill);
+  border-radius: 999px;
   border: 1px solid rgba(248, 246, 240, 0.28);
   background: rgba(248, 246, 240, 0.10);
   color: var(--cream);
@@ -240,7 +240,7 @@
   background: var(--cream);
   color: var(--ink);
   border-color: var(--cream);
-  box-shadow: var(--shadow-cta-alt);
+  box-shadow: 0 8px 22px rgba(43, 39, 34, 0.35);
 }
 .sc-btn:disabled { opacity: 0.5; cursor: default; }
 .sc-status {
