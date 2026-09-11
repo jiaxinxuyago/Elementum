@@ -104,5 +104,6 @@ Old commit messages and external artifacts may still cite DOC#; each converted f
 - `Design/Documents/` — the DES docs (formerly `DevLog_Docs/Design/`); the rest of `Design/` is design assets (legends, tokens, libraries, handoff packages).
 - `Reading/Documents/` — the REA reading library (formerly `DevLog_Docs/Reading/`), review-grade; `Reading/Database/` is the reading-data home (`elementum_profile_database.html` — the HTML twin of `archetypeSource.js` — the generated `reading-replicant.html`, and future data exports). The app's runtime content stays in `Elementum_App/src/content/` (live code lives in the app — cleanup rule #1).
 - `Operations/` — everything else: Development, Infrastructure, Business, Legal_Admin, Project_Management, and this registry.
+- `Memory/` — cross-machine session handoffs (owner-commissioned 2026-09-11): distilled Claude session state pushed through git so sessions on other machines / cloud sessions inherit it. Naming `YYYY-MM-DD_<session-title-slug>.md`; convention in `Memory/README.md`. Not registry-numbered — handoffs are session artifacts, not docs of record.
 
 Cite with enough path to disambiguate.
