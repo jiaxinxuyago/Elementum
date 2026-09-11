@@ -57,16 +57,16 @@ Head commit at writing: `4d5b5ff` — design(reading): the journey restructure (
 - Scrutiny items 16–18 (angle collisions / rhythm passes / pair minors) — dropped as
   diversity-motivated under the keyword core principles; only reopen if the owner re-frames them
   as accuracy.
-- **Five unmerged `claude/*` fix branches, one commit each — ALL PUSHED TO ORIGIN 2026-09-11** so any
-  session can rule/merge them (pushing ≠ merging; merges stay owner-ruled):
-  - `claude/mystifying-hellman-062638` (`432b39a` journey.css dead-weight purge 2898→645 lines) —
-    **WILL CONFLICT** with the 2026-09-10 journey.css restructure appends.
-  - `claude/sad-curran-0ea73f` (`7b0ac04` italic sweep, journey.css + reading.css `.layer .pull`) —
-    **WILL CONFLICT**, same file; it also edited both copies of the duplicated block the purge deletes,
-    so merge ORDER matters (owner to rule; purge-first then re-apply italics is the likely shape).
-  - `claude/adoring-bardeen-07d898` (`29ae8a1` share card: 4 undefined token vars → literals) — likely clean.
-  - `claude/heuristic-goldstine-472020` (`1ef1874` font declarations aligned to loaded set) — likely clean.
-  - `claude/inspiring-murdock-212cb1` (`fc9ff96` DevBar imports TG_PERSONA via barrel) — likely clean.
+- ~~Five unmerged `claude/*` fix branches~~ — **ALL FIVE MERGED INTO MAIN 2026-09-11 (owner: "check
+  if there's merge conflict and resolve"; head `766baa6`)**: share-card token literals `29ae8a1` ·
+  font alignment `1ef1874` · DevBar barrel import `fc9ff96` (superseded by later main, resolved ours) ·
+  italic sweep `7b0ac04` (resolved: SC font from main + italic deletions from the branch) ·
+  journey.css purge `432b39a` (resolved: purged 645-line base + every later main-side change
+  re-applied — wheel 320, SC fonts, italic-free, all restructure blocks; one rescue: the copy1-only
+  live rule `.jny[data-journey="scroll"] .jbridge{display:flex}` carried into the survivor; liveness
+  sweep of all 518 deleted selectors vs journey JSX = zero live losses). journey.css now 699 lines,
+  single copy. Gates after merges: sweep 16/16 · eslint 0/57 baseline. Remote branches can be deleted
+  once the owner confirms.
 - Design-HTML sync debt (catalogue + element page + P4) — deferred until layout is called settled.
 - Parked decision batch: REA_03 §7 #3/#4 + journey definition-of-locked checklist (offer when the
   owner has decision bandwidth).
