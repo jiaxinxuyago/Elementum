@@ -65,8 +65,11 @@ Head commit at writing: `4d5b5ff` — design(reading): the journey restructure (
   re-applied — wheel 320, SC fonts, italic-free, all restructure blocks; one rescue: the copy1-only
   live rule `.jny[data-journey="scroll"] .jbridge{display:flex}` carried into the survivor; liveness
   sweep of all 518 deleted selectors vs journey JSX = zero live losses). journey.css now 699 lines,
-  single copy. Gates after merges: sweep 16/16 · eslint 0/57 baseline. Remote branches can be deleted
-  once the owner confirms.
+  single copy. Gates after merges: sweep 16/16 · eslint 0/57 baseline. **Branch cleanup complete
+  (owner-ruled same day): all merged branches deleted from origin AND locally, plus the superseded
+  `autofix/2026-07-30-eslint-zero-errors` (its two lint fixes landed independently) and 17 stale
+  merged local branches (9 autofix/* + 8 worktree-agent-*). Both origin and the local repo now carry
+  ONLY `main`.**
 - Design-HTML sync debt (catalogue + element page + P4) — deferred until layout is called settled.
 - Parked decision batch: REA_03 §7 #3/#4 + journey definition-of-locked checklist (offer when the
   owner has decision bandwidth).
