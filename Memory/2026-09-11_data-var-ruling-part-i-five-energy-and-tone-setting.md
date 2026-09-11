@@ -57,9 +57,16 @@ Head commit at writing: `4d5b5ff` — design(reading): the journey restructure (
 - Scrutiny items 16–18 (angle collisions / rhythm passes / pair minors) — dropped as
   diversity-motivated under the keyword core principles; only reopen if the owner re-frames them
   as accuracy.
-- **Two unmerged worktree branches WILL conflict with recent journey.css appends:**
-  `claude/mystifying-hellman` (journey.css purge `432b39a`, 2898→645 lines) and `claude/sad-curran`
-  (italic sweep `7b0ac04`). Owner to rule the merges.
+- **Five unmerged `claude/*` fix branches, one commit each — ALL PUSHED TO ORIGIN 2026-09-11** so any
+  session can rule/merge them (pushing ≠ merging; merges stay owner-ruled):
+  - `claude/mystifying-hellman-062638` (`432b39a` journey.css dead-weight purge 2898→645 lines) —
+    **WILL CONFLICT** with the 2026-09-10 journey.css restructure appends.
+  - `claude/sad-curran-0ea73f` (`7b0ac04` italic sweep, journey.css + reading.css `.layer .pull`) —
+    **WILL CONFLICT**, same file; it also edited both copies of the duplicated block the purge deletes,
+    so merge ORDER matters (owner to rule; purge-first then re-apply italics is the likely shape).
+  - `claude/adoring-bardeen-07d898` (`29ae8a1` share card: 4 undefined token vars → literals) — likely clean.
+  - `claude/heuristic-goldstine-472020` (`1ef1874` font declarations aligned to loaded set) — likely clean.
+  - `claude/inspiring-murdock-212cb1` (`fc9ff96` DevBar imports TG_PERSONA via barrel) — likely clean.
 - Design-HTML sync debt (catalogue + element page + P4) — deferred until layout is called settled.
 - Parked decision batch: REA_03 §7 #3/#4 + journey definition-of-locked checklist (offer when the
   owner has decision bandwidth).
