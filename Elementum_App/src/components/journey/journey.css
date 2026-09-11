@@ -39,7 +39,7 @@
 .jny .head .sub b{ color: var(--pg-ink); font-weight: 600; }
 .jny .chart-chip{ display: inline-flex; align-items: center; gap: 8px; margin-top: 14px; border: 1px solid var(--pg-hair);
     border-radius: 999px; padding: 5px 14px; font-family: Consolas, monospace; font-size: 11px; letter-spacing: 0.6px; color: var(--pg-mut); }
-.jny .chart-chip .zh{ font-family: 'Noto Serif TC', serif; font-size: 13px; color: var(--pg-ink); }
+.jny .chart-chip .zh{ font-family: 'Noto Serif SC', serif; font-size: 13px; color: var(--pg-ink); }
 .jny .variant{ display: grid; grid-template-columns: 390px minmax(300px, 1fr); gap: 40px; align-items: start; padding: 40px 0; border-top: 1px solid var(--pg-hair); }
 .jny .variant:first-of-type{ border-top: none; }
 @media (max-width: 880px){
@@ -145,7 +145,7 @@
 .jny .stone .med svg{ width: 18px; height: 18px; fill: var(--pigDeep, var(--ink)); }
 .jny .stone .med.sealmed{ background-color: rgba(248,244,236,0.7); border-radius: 999px; box-shadow: inset 0 0 0 1px rgba(205,190,158,0.5); }
 .jny .stone .word{ font-family: 'Cormorant Garamond', Georgia, serif; font-size: 19px; font-weight: 600; line-height: 1; color: var(--pigDeep, var(--walnut)); }
-.jny .stone .word .zh{ font-family: 'Noto Serif TC', serif; font-size: 12px; font-weight: 400; color: var(--inkLight); margin-left: 3px; }
+.jny .stone .word .zh{ font-family: 'Noto Serif SC', serif; font-size: 12px; font-weight: 400; color: var(--inkLight); margin-left: 3px; }
 .jny .stone .sline{ font-size: 10.5px; font-style: italic; line-height: 1.35; color: var(--inkLight); }
 .jny .stone .spip{ position: absolute; top: 9px; right: 9px; width: 16px; height: 16px; border-radius: 50%; border: 1.3px solid;
     background: rgba(248,244,236,0.95); display: flex; align-items: center; justify-content: center; }
@@ -166,7 +166,7 @@
 .jny .ddc .dd-k{ font-family: Cinzel, Georgia, serif; font-size: 8px; font-weight: 600; letter-spacing: 2.2px; color: var(--bronzeDark); text-transform: uppercase; display: block; }
 .jny .ddc .dd-v{ font-family: 'Cormorant Garamond', Georgia, serif; font-size: 16.5px; font-weight: 600; line-height: 1.15; color: var(--ink); display: block; margin-top: 1px; }
 .jny .ddc .dd-v .en{ color: var(--pigDeep, var(--walnut)); }
-.jny .ddc .dd-v .zh{ font-family: 'Noto Serif TC', serif; font-size: 11.5px; font-weight: 400; color: var(--inkLight); }
+.jny .ddc .dd-v .zh{ font-family: 'Noto Serif SC', serif; font-size: 11.5px; font-weight: 400; color: var(--inkLight); }
 .jny .ddc .dd-v .tail{ font-family: 'EB Garamond', Georgia, serif; font-size: 11.5px; font-weight: 400; color: var(--inkSoft); }
 .jny .ddc .dd-go{ width: 26px; height: 26px; border-radius: 999px; display: flex; align-items: center; justify-content: center;
     background: color-mix(in srgb, var(--pig, var(--paperHair)) 12%, transparent); color: var(--pigDeep, var(--bronzeDark)); }
@@ -180,7 +180,7 @@
 .jny .pos-row:focus-visible{ outline: 2px solid var(--bronzeDark); outline-offset: 1px; }
 .jny .pos-row .pk{ font-family: Cinzel, Georgia, serif; font-size: 9px; font-weight: 600; letter-spacing: 2.4px; color: var(--bronzeDark); text-transform: uppercase; }
 .jny .pos-row .pw{ font-family: 'Cormorant Garamond', Georgia, serif; font-size: 23px; font-weight: 600; line-height: 1.05; color: var(--pigDeep, var(--walnut)); }
-.jny .pos-row .pw .zh{ font-family: 'Noto Serif TC', serif; font-size: 14px; font-weight: 400; color: var(--inkLight); }
+.jny .pos-row .pw .zh{ font-family: 'Noto Serif SC', serif; font-size: 14px; font-weight: 400; color: var(--inkLight); }
 .jny .pos-row .pw .tail{ display: block; font-family: 'EB Garamond', Georgia, serif; font-size: 11px; font-weight: 400; color: var(--inkSoft); margin-top: 1px; letter-spacing: 0.2px; }
 .jny .pos-row .ppip{ width: 17px; height: 17px; border-radius: 50%; border: 1.3px solid; background: rgba(248,244,236,0.9);
     display: inline-flex; align-items: center; justify-content: center; align-self: center; }
@@ -280,7 +280,7 @@
 .jny .hero2 .hart{ position: absolute; inset: 0; background-position: center; background-size: cover; }
 .jny .hero2 .scrim{ position: absolute; inset: 0; background: linear-gradient(to top, rgba(20,17,13,0.92) 0%, rgba(20,17,13,0.58) 36%, rgba(20,17,13,0.14) 66%, transparent 84%); }
 .jny .hero2 .hair{ position: absolute; left: 0; right: 0; top: 0; height: 3px; background: var(--pig, var(--metal)); opacity: 0.9; }
-.jny .hero2 .bighz{ position: absolute; top: 12px; right: 16px; font-family: 'Noto Serif TC', serif; font-weight: 300; color: rgba(255,255,255,0.22); line-height: 0.8; z-index: 2; font-size: 60px; }
+.jny .hero2 .bighz{ position: absolute; top: 12px; right: 16px; font-family: 'Noto Serif SC', serif; font-weight: 300; color: rgba(255,255,255,0.22); line-height: 0.8; z-index: 2; font-size: 60px; }
 .jny .hero2 .hrole{ position: absolute; top: 12px; left: 12px; z-index: 3; }
 .jny .hero2 .hcontent{ position: absolute; left: 18px; right: 18px; bottom: 14px; z-index: 3; }
 .jny .hero2 .reye{ display: flex; align-items: center; gap: 7px; font-weight: 500; font-size: 9.5px; letter-spacing: 2.2px; text-transform: uppercase; color: #e9d9b8; }
@@ -355,7 +355,7 @@
 .jny .flcard[data-fl="ledger"] [data-flpane="ledger"]{ display: block; }
 .jny .flcard[data-fl="cascade"] [data-flpane="cascade"]{ display: block; }
 .jny .fl-name{ font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; color: var(--pigDeep, var(--walnut)); }
-.jny .fl-name .zh{ font-family: 'Noto Serif TC', serif; font-weight: 400; color: var(--inkLight); }
+.jny .fl-name .zh{ font-family: 'Noto Serif SC', serif; font-weight: 400; color: var(--inkLight); }
 .jny .fl-tail{ font-family: 'EB Garamond', Georgia, serif; font-style: italic; color: var(--inkLight); }
 .jny .fl-pip{ width: 15px; height: 15px; border-radius: 50%; border: 1.3px solid; background: rgba(248,244,236,0.95);
     display: inline-flex; align-items: center; justify-content: center; flex: none; }
@@ -1137,7 +1137,7 @@
 .jny .stateline:first-of-type{ border-top: none; }
 .jny .stateline .k{ font-family: Cinzel, Georgia, serif; font-size: 8px; letter-spacing: 1.6px; text-transform: uppercase; color: var(--pg-acc); }
 .jny .stateline .nm{ font-family: 'Cormorant Garamond', Georgia, serif; font-size: 16px; font-weight: 500; color: var(--pg-ink); }
-.jny .stateline .nm .zh{ font-family: 'Noto Serif TC', serif; font-size: 10.5px; color: var(--pg-mut); }
+.jny .stateline .nm .zh{ font-family: 'Noto Serif SC', serif; font-size: 10.5px; color: var(--pg-mut); }
 .jny .stateline .tey2{ display: block; font-family: 'JetBrains Mono', Consolas, monospace; font-size: 8px; letter-spacing: 1px; color: var(--fireDeep); }
 .jny .stateline .tl{ display: block; font-family: 'EB Garamond', Georgia, serif; font-style: italic; font-size: 11px; color: var(--pg-mut); margin-top: 1px; }
 .jny .lean{ width: 15px; height: 15px; border-radius: 50%; border: 1.2px dashed; display: inline-flex; align-items: center; justify-content: center; }
@@ -1186,7 +1186,7 @@
 .jny .head .sub b{ color: var(--pg-ink); font-weight: 600; }
 .jny .chart-chip{ display: inline-flex; align-items: center; gap: 8px; margin-top: 14px; border: 1px solid var(--pg-hair);
     border-radius: 999px; padding: 5px 14px; font-family: Consolas, monospace; font-size: 11px; letter-spacing: 0.6px; color: var(--pg-mut); }
-.jny .chart-chip .zh{ font-family: 'Noto Serif TC', serif; font-size: 13px; color: var(--pg-ink); }
+.jny .chart-chip .zh{ font-family: 'Noto Serif SC', serif; font-size: 13px; color: var(--pg-ink); }
 .jny .variant{ display: grid; grid-template-columns: 390px minmax(300px, 1fr); gap: 40px; align-items: start; padding: 40px 0; border-top: 1px solid var(--pg-hair); }
 .jny .variant:first-of-type{ border-top: none; }
 @media (max-width: 880px){
@@ -1292,7 +1292,7 @@
 .jny .stone .med svg{ width: 18px; height: 18px; fill: var(--pigDeep, var(--ink)); }
 .jny .stone .med.sealmed{ background-color: rgba(248,244,236,0.7); border-radius: 999px; box-shadow: inset 0 0 0 1px rgba(205,190,158,0.5); }
 .jny .stone .word{ font-family: 'Cormorant Garamond', Georgia, serif; font-size: 19px; font-weight: 600; line-height: 1; color: var(--pigDeep, var(--walnut)); }
-.jny .stone .word .zh{ font-family: 'Noto Serif TC', serif; font-size: 12px; font-weight: 400; color: var(--inkLight); margin-left: 3px; }
+.jny .stone .word .zh{ font-family: 'Noto Serif SC', serif; font-size: 12px; font-weight: 400; color: var(--inkLight); margin-left: 3px; }
 .jny .stone .sline{ font-size: 10.5px; font-style: italic; line-height: 1.35; color: var(--inkLight); }
 .jny .stone .spip{ position: absolute; top: 9px; right: 9px; width: 16px; height: 16px; border-radius: 50%; border: 1.3px solid;
     background: rgba(248,244,236,0.95); display: flex; align-items: center; justify-content: center; }
@@ -1313,7 +1313,7 @@
 .jny .ddc .dd-k{ font-family: Cinzel, Georgia, serif; font-size: 8px; font-weight: 600; letter-spacing: 2.2px; color: var(--bronzeDark); text-transform: uppercase; display: block; }
 .jny .ddc .dd-v{ font-family: 'Cormorant Garamond', Georgia, serif; font-size: 16.5px; font-weight: 600; line-height: 1.15; color: var(--ink); display: block; margin-top: 1px; }
 .jny .ddc .dd-v .en{ color: var(--pigDeep, var(--walnut)); }
-.jny .ddc .dd-v .zh{ font-family: 'Noto Serif TC', serif; font-size: 11.5px; font-weight: 400; color: var(--inkLight); }
+.jny .ddc .dd-v .zh{ font-family: 'Noto Serif SC', serif; font-size: 11.5px; font-weight: 400; color: var(--inkLight); }
 .jny .ddc .dd-v .tail{ font-family: 'EB Garamond', Georgia, serif; font-size: 11.5px; font-weight: 400; color: var(--inkSoft); }
 .jny .ddc .dd-go{ width: 26px; height: 26px; border-radius: 999px; display: flex; align-items: center; justify-content: center;
     background: color-mix(in srgb, var(--pig, var(--paperHair)) 12%, transparent); color: var(--pigDeep, var(--bronzeDark)); }
@@ -1327,7 +1327,7 @@
 .jny .pos-row:focus-visible{ outline: 2px solid var(--bronzeDark); outline-offset: 1px; }
 .jny .pos-row .pk{ font-family: Cinzel, Georgia, serif; font-size: 9px; font-weight: 600; letter-spacing: 2.4px; color: var(--bronzeDark); text-transform: uppercase; }
 .jny .pos-row .pw{ font-family: 'Cormorant Garamond', Georgia, serif; font-size: 23px; font-weight: 600; line-height: 1.05; color: var(--pigDeep, var(--walnut)); }
-.jny .pos-row .pw .zh{ font-family: 'Noto Serif TC', serif; font-size: 14px; font-weight: 400; color: var(--inkLight); }
+.jny .pos-row .pw .zh{ font-family: 'Noto Serif SC', serif; font-size: 14px; font-weight: 400; color: var(--inkLight); }
 .jny .pos-row .pw .tail{ display: block; font-family: 'EB Garamond', Georgia, serif; font-size: 11px; font-weight: 400; color: var(--inkSoft); margin-top: 1px; letter-spacing: 0.2px; }
 .jny .pos-row .ppip{ width: 17px; height: 17px; border-radius: 50%; border: 1.3px solid; background: rgba(248,244,236,0.9);
     display: inline-flex; align-items: center; justify-content: center; align-self: center; }
@@ -1427,7 +1427,7 @@
 .jny .hero2 .hart{ position: absolute; inset: 0; background-position: center; background-size: cover; }
 .jny .hero2 .scrim{ position: absolute; inset: 0; background: linear-gradient(to top, rgba(20,17,13,0.92) 0%, rgba(20,17,13,0.58) 36%, rgba(20,17,13,0.14) 66%, transparent 84%); }
 .jny .hero2 .hair{ position: absolute; left: 0; right: 0; top: 0; height: 3px; background: var(--pig, var(--metal)); opacity: 0.9; }
-.jny .hero2 .bighz{ position: absolute; top: 12px; right: 16px; font-family: 'Noto Serif TC', serif; font-weight: 300; color: rgba(255,255,255,0.22); line-height: 0.8; z-index: 2; font-size: 60px; }
+.jny .hero2 .bighz{ position: absolute; top: 12px; right: 16px; font-family: 'Noto Serif SC', serif; font-weight: 300; color: rgba(255,255,255,0.22); line-height: 0.8; z-index: 2; font-size: 60px; }
 .jny .hero2 .hrole{ position: absolute; top: 12px; left: 12px; z-index: 3; }
 .jny .hero2 .hcontent{ position: absolute; left: 18px; right: 18px; bottom: 14px; z-index: 3; }
 .jny .hero2 .reye{ display: flex; align-items: center; gap: 7px; font-weight: 500; font-size: 9.5px; letter-spacing: 2.2px; text-transform: uppercase; color: #e9d9b8; }
@@ -1502,7 +1502,7 @@
 .jny .flcard[data-fl="ledger"] [data-flpane="ledger"]{ display: block; }
 .jny .flcard[data-fl="cascade"] [data-flpane="cascade"]{ display: block; }
 .jny .fl-name{ font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; color: var(--pigDeep, var(--walnut)); }
-.jny .fl-name .zh{ font-family: 'Noto Serif TC', serif; font-weight: 400; color: var(--inkLight); }
+.jny .fl-name .zh{ font-family: 'Noto Serif SC', serif; font-weight: 400; color: var(--inkLight); }
 .jny .fl-tail{ font-family: 'EB Garamond', Georgia, serif; font-style: italic; color: var(--inkLight); }
 .jny .fl-pip{ width: 15px; height: 15px; border-radius: 50%; border: 1.3px solid; background: rgba(248,244,236,0.95);
     display: inline-flex; align-items: center; justify-content: center; flex: none; }
@@ -2402,7 +2402,7 @@
 .jny .stateline:first-of-type{ border-top: none; }
 .jny .stateline .k{ font-family: Cinzel, Georgia, serif; font-size: 8px; letter-spacing: 1.6px; text-transform: uppercase; color: var(--pg-acc); }
 .jny .stateline .nm{ font-family: 'Cormorant Garamond', Georgia, serif; font-size: 16px; font-weight: 500; color: var(--pg-ink); }
-.jny .stateline .nm .zh{ font-family: 'Noto Serif TC', serif; font-size: 10.5px; color: var(--pg-mut); }
+.jny .stateline .nm .zh{ font-family: 'Noto Serif SC', serif; font-size: 10.5px; color: var(--pg-mut); }
 .jny .stateline .tey2{ display: block; font-family: 'JetBrains Mono', Consolas, monospace; font-size: 8px; letter-spacing: 1px; color: var(--fireDeep); }
 .jny .stateline .tl{ display: block; font-family: 'EB Garamond', Georgia, serif; font-style: italic; font-size: 11px; color: var(--pg-mut); margin-top: 1px; }
 .jny .lean{ width: 15px; height: 15px; border-radius: 50%; border: 1.2px dashed; display: inline-flex; align-items: center; justify-content: center; }

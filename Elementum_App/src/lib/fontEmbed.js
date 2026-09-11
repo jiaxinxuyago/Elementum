@@ -2,9 +2,8 @@
 // LIB · scoped font embed for card export
 // ─────────────────────────────────────────────────────────────────────────────
 // html-to-image's default embedder walks EVERY @font-face in the document —
-// which here includes the multi-megabyte CJK families (Noto Serif SC, Ma Shan
-// Zheng) loaded for the app UI. Inlining those stalls the raster for tens of
-// seconds. The shareable cards are Latin-only, so we embed just the three
+// which here includes the multi-megabyte CJK family (Noto Serif SC) loaded
+// for the app UI. Inlining those stalls the raster for tens of seconds. The shareable cards are Latin-only, so we embed just the three
 // display families as data URLs and hand html-to-image a ready `fontEmbedCSS`
 // string, which makes it skip its own slow walk entirely.
 //
@@ -17,8 +16,8 @@
 const SCOPED_CSS_URL =
   'https://fonts.googleapis.com/css2' +
   '?family=Cinzel:wght@500;600' +
-  '&family=Cormorant+Garamond:wght@500' +
-  '&family=EB+Garamond:wght@400;500' +
+  '&family=Cormorant+Garamond:wght@500;600' +
+  '&family=EB+Garamond:wght@400;500;700' +
   '&display=swap';
 
 const WOFF2_URL = /url\((https:\/\/[^)]+\.woff2)\)/g;
