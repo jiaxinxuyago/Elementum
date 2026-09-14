@@ -359,6 +359,6 @@ YOU ARE (reveal eyebrow) · YOUR READING (catalogue eyebrow) · YOUR ENERGY MANU
 |---|---|
 | **Document** | REA_02 — Concept Dictionary (the V book) |
 | **Version** | 1.0 · 2026-07-28 (consolidation of the retired Reading_Concept_Inventory Part 1 + Identity_Vocabulary §4–§6 + constant surface copy; renumbered REA_13→REA_02 same day) |
-| **Status** | §2 registry + §4/§4b keywords/poles + §5b relation nouns + §5c strength/remedy/panels/glossary = OWNER-LOCKED · §3 inventory + §4c register = adopted guidance · open items: 正印 Profile-DB backfill · R3/R6 glossary rulings (queue: REA_03 §11) |
+| **Status** | §2 registry + §4/§4b keywords/poles + §5b relation nouns + §5c strength/remedy/panels/glossary = OWNER-LOCKED · §3 inventory + §4c register = adopted guidance · open items: 正印 Profile-DB backfill · R6 glossary ruling (queue: REA_03 §11) |
 | **Consumers** | REA_03 (generation schema — every V slot) · REA_06 (ladder) · `journeyData.js` vocabulary tables · consultant charter · all reading surfaces |
 | **Rule** | This doc defines terms; it never varies per chart and is never a generation target. One concept, one name (law #1). |
