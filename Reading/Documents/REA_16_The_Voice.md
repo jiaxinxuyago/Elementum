@@ -361,4 +361,4 @@ Ruled corpus exemplars and current lab bests — grows as the owner rules. **Lab
 |---|---|
 | **Document** | REA_16 — The Voice (tone canon) |
 | **Version** | 2.0 · 2026-08-05 (THE ELEMENTUM REGISTER: master + branch architecture) |
-| **Enforcement** | `.claude/skills/humanized-prose/SKILL.md` (gate) · tone lab `Reading/Database/templates/tone_lab/` (workshop) · REA_03 §10 rule 12 (registry pointer) |
+| **Enforcement** | `.claude/skills/humanized-prose/SKILL.md` (gate) · tone lab CLOSED 2026-08-05 (§6) · REA_03 §10 rule 12 (registry pointer) |
