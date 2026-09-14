@@ -11,6 +11,122 @@ sessions must know).
 
 ---
 
+## 2026-09-14
+
+*(Written by the EOD PM routine, which fired as a Monday catch-up at 11:38 and finished ~14:00. **It is the first run under the marker-first gate (`BUG-20260910-1`).** Window `0b75fb0..843f666` = **27 commits across 09-04, 09-08, 09-10 and 09-11**. The routine left no day-log for any of those days: 09-04 and 09-08 fell to the old clock gate, the 09-10 run fired but wrote nothing, and the 09-11 slot never fired. **They get no entries of their own.** Their work is grouped by commit date below, and no past entry is created or edited.)*
+
+**Done**
+
+*09-04 (Thu/Fri overnight + evening). Eight commits of owner-ruled reading work. The function reading is now corpus-complete.*
+- `ddc5017` **THE GOD TRACK BATCH ×44.** All 50 ELEMENT_GOD door ledgers are done: 792 passages written as trait/scene/outside doors, plus 17 chip-vocabulary swaps.
+- `e929e73` **THE PAIR HARVEST ×20.** ELEMENT_PAIR define/advise is complete ×25. The pair budget was tightened from ≤140w to ≤60w. The v3 fallback render was deleted as dead code.
+- `f9210d2` The FUNCTION tile now shows the authored `cta_verdict`, and the derived teaser is retired.
+- `308ba60` **THE ACCURACY PASS.** 77 doors were revised under three owner keyword principles: accuracy first, basic vocabulary, and chip uniqueness **relaxed** to same-element sibling pairs only.
+- `0da8f81` **THE VOCABULARY ZONE.** B1–B2 conversational English is now the benchmark voice (REA_16 §2c). The chip sweep covered ×55, and the chip budget went from ≤2w to ≤3w.
+- `733b30e` **THE PROSE ZONE PASS ×33.** Zero above-zone words remain across 900 doors and 25 verdicts.
+- `cdafa7e` **THE CTA IS THE THUMBNAIL.** The dot cover is now one tappable art object with the claim and chips drawn on it. `wp-codex` retired from the cover.
+- `e55d45c` The catalogue takeaway strip is retired.
+
+*09-08.*
+- `086bac3` Owner-directed dead-CSS cleanup: `BUG-20260908-1/-2` CLOSED.
+
+*09-10.*
+- `d538207` + `9c9d99b` Both EOD routines' gates are now **marker-first** (`BUG-20260730-4` CLOSED 09-10, 42 d). Tonight's run is the close condition for `BUG-20260910-1`, and it met it.
+- `4dc38cb` **Returning accounts skip onboarding**: cold open → Loading → catalogue.
+- `4d5b5ff` **THE JOURNEY RESTRUCTURE.** The catalogue is three beats: hero → YOUR ENERGY MANUAL → YOUR ENERGY MAP. SKIP becomes EASE. `stem_keywords` chips are retired to Codex ore and replaced by a derived stem-literacy line. P4 is identity only. Docs cascaded to REA_02 §5c, REA_16, REA_03 and DES_04 §AM.11 ×3.
+
+*09-11.*
+- `e292843` **New repo root `Memory/`** for cross-machine session handoffs, registered in the registry. The first handoff went in at `4a4229d`, with updates at `e630b12` and `843f666`.
+- **All five stranded `claude/*` branches were merged, with conflicts resolved:**
+  - `29ae8a1` share-card token literals
+  - `1ef1874` font alignment (Noto Serif SC, EB Garamond 400–700, Ma Shan Zheng dropped)
+  - `fc9ff96` DevBar barrel import (no net diff)
+  - `7b0ac04` §AM.10 italic sweep
+  - `432b39a` **journey.css purge, 2,898 → 699 lines, single copy**
+  - The two worktrees flagged 🚨 on 09-03 are resolved. Origin and local branches were then cleaned down to `main`.
+
+*Pipelines across the window.*
+- ✅ **Morning QA is CLEAN on 09-08, 09-10 and 09-14.** Today's run: route sweep 123 cells all zero · journey 16/16 on `843f666` · engine 6/6 · voice audit clean · live health green.
+- **EOD code reviews:**
+  - 09-08 ×2: the 09-04 window, rescued by the marker.
+  - 09-10: 6 findings, 4 MED.
+  - **09-14 catch-up** over the 09-11 merge train: 3 findings, and `BUG-20260810-2`, `-0814-4` and `-0820-9` CLOSED by the purge.
+- 🔧 **Doc audit: Monday full-registry sweep over all three roots, 4 auditors.**
+  - **24 mechanical fixes were dispatched to three file-disjoint `autofix/2026-09-14-*` branches and merged through `merge-fix-branches.mjs` at `843f666..37a1822`.** Gates: eslint 0 errors · engine golden 6/6 · build ✔.
+  - REA_03 ×8: `k2_functional` ×1, POSITION ×70 locked, R4 riders ruled, `mean_line` retired, function nouns, `stemVariants.js` ×2, REA_16 citation, missing breadcrumb.
+  - REA_01 live manifestos ×10 · REA_05 header keys ×3 · REA_16 tone-lab closed · REA_02 R6 · REA_04 ids.
+  - DES_04: `tokens.css` path, §AM.10 moot rows.
+  - DEV_02/DEV_03 citations · PM_01 analytics time · PM_02 `k2_functional` + App.jsx 903 ln · registry BIZ_03 §8 ratified + next id REA_17.
+  - Two were skipped as not verbatim-safe and are now judgment items: the REA_02 §5b clause, and the budget-report naming exemption.
+  - Registry reconciles: 24 registered, all present. The only unregistered files are the two known ones in `Design/Documents/` and the 2 budget reports.
+
+**Pending**
+
+- 🚨 **Engine Tier-A bug, not yet in the ledger: births from Jan 1 to about Jan 5 (before 小寒) get the wrong month pillar.**
+  - Cause: `getSolarMonthIndex` (`calculator.js:36–39`) starts `idx=0` = 丑, so dates before that year's 小寒 never fall back to the previous 大雪 month (子).
+  - Found by the DEV auditor, who ran `1990-01-02` through the engine: it gives `丁丑`, and the correct pillar is `丙子`. I confirmed the cause in the code.
+  - The same root means `currentFlowYear`/`currentFlowMonth` will be wrong in early January, starting 2027-01-01.
+  - No golden case covers this window. It belongs in the code lane under the DEV_04 accuracy protocol, and needs an owner go.
+- ⚠️ **`BUG-20260914-1` MED: a live visual regression from the 09-11 merge train.**
+  - The purge branch forked 34 commits behind main and dropped `.jny .readcirc.sm`.
+  - All four reading tap-in arrows (element-page MECHANISM/FUNCTION/DOMAINS + the dot-card cover) now render at 38px instead of the owner-ruled 30px.
+  - The fix restores 2 rules and is proposed, not dispatched.
+- ⚠️ **Routine reliability is still the weak spot.**
+  - The 09-11 EOD slots never fired.
+  - The 09-10 PM run shows "succeeded" but wrote nothing (`BUG-20260827-1`, REOPENED).
+  - The Windows fallback detector returned **Last Result 1** today and has written no `latest.md` since 07-27.
+  - All three weekday routines fired together at 11:38 (`BUG-20260729-1` lateness + `BUG-20260828-1` overlap).
+  - The markers held, so nothing was lost this time.
+- ⚠️ **Trio doc findings that need owner judgment.**
+  - `INF_01:180` still says push is payload-less, but the code and `:171` use encrypted payloads, and payload-less sends are silently dropped on iOS.
+  - `DEV_03 §5` bundle baseline: 864 kB on paper vs **1,546.91 kB** measured, with P1 breached.
+  - `DEV_03 K5` says the Stop hook is the only deploy path, but GitHub Actions deploys on every push.
+  - `DEV_03 P6` says `/art/` is SW-cached, but it is not in `vite.config.js`.
+  - `DEV_01 §2.2/§2.5/§5` still prints the two Tier-A formulas fixed 07-09.
+  - `INF_01` header/§5/§9 still say "planning / stubs".
+  - `PM_01` row 11 says the analytics task is DISABLED, but the scheduler has it enabled.
+  - The repo mirror `tools/routines/daily-qa.prompt.md` is missing the live task's voice-audit step (HIGH, routine-file lane).
+- 📋 **Ledger: 47 not closed (0 HIGH · 17 MID · 15 MED · 15 LOW), counted before tonight's `BUG-20260910-1` closure.**
+  - New since 09-03: `BUG-20260910-2` (Google OAuth return skips the returning-user gate; one-line fix awaiting go) · `-3` (element page still says "SKIP THIS"; owner vocabulary question) · `-4/-5/-6/-7` · `BUG-20260914-1/-2`.
+  - `BUG-20260903-1` (main chunk 1.55 MB) OPEN, 11 d. The oldest is `BUG-20260727-1`, 49 d.
+- 📋 **Doc judgment backlog (~58 proposed, none auto-fixed).**
+  - REA_16 §2c ⇄ voice-audit regex still drops 14 locked rows. The duplicate `ELEMENT_PAIR.mechanism` key is still there. The en-dash budget `35–55w` is never enforced.
+  - REA_03:137 + DES_04 §AM.11:3312 still end the function detail on dips. **`e929e73` never got a §AM.11 row.**
+  - REA_01 still teaches seat nouns, and its taxonomy lacks the ELEMENT_PAIR/TG_PATTERN axes.
+  - DES_04 §AM.1 Energy Map patch, owed by D13b.
+  - DES_04 §19 pricing is stale vs `pricing.js`.
+  - DES_14 is largely stale: refresh or archive.
+  - Two unregistered `Design/Documents/` files, 47 d.
+  - PM_02 D-U-N-S PDF deleted 07-09 in `bc076e1`, likely by accident.
+  - BIZ_01 spend-cap/Anthropic contradictions.
+  - FYI: a stray `origin/main-301pu8` branch exists at `843f666`, even though the handoff says origin carries only main.
+- **Carried owner gates, now aged:**
+  - REA_03 §7 #3/#4 + the journey definition-of-locked checklist (82 d)
+  - OWNER-3 domain price (69 d)
+  - INFRA-1 Phase 1 flip (69 d; the budget report says set the HK-3 spend cap first)
+  - OWNER-4 OAuth brand verification (68 d)
+  - OWNER-1 skims (67 d)
+  - HK-3 spend cap / HK-4 auto-renew (67 d)
+  - REA_06 concept-ladder re-walk (96 d)
+  - 金_木 pair polish (parked 09-04)
+  - Design-HTML sync debt (deliberately deferred until layout settles)
+
+**Pivots**
+
+- **The reading page's voice is now law, not taste.** The 09-04 rulings put three laws on record in REA_16:
+  - B1–B2 conversational English is the benchmark.
+  - Accuracy outranks expressive diversity.
+  - Chip uniqueness binds only within sibling pairs.
+
+  Every future corpus pass is measured against the zone, and "diversity" edits need an accuracy reason to reopen.
+- **The journey now reads in classical decoding order** (day master → condition + preferences → relations), and **EASE replaces SKIP** as a state-invariant directive. `stem_keywords` joined the Codex ore. The dominance wheel design stays a hard constraint.
+- **Returning users go straight to their reading.** Welcome and onboarding are for new charts only.
+- **Cross-machine continuity moved into git** (`Memory/`, newest handoff wins). The automation stack stays on the primary laptop only.
+- **Routines trust markers, not clocks.** Both EOD routines now cover `START..END` and advance only after writing. Tonight shows it working: 27 commits across four unlogged days were recovered in one pass.
+- **Lesson from the merge train:** a long-lived cleanup branch must re-run its liveness audit against the merge target, not its fork point. The one live rule lost (`readcirc.sm`) was live on main but not on the fork.
+
+---
+
 ## 2026-09-03
 
 *(Written by the EOD PM routine, which fired ~18:30. **This is the first day-log entry since 2026-07-30 — a 35-day gap.** Do not read that gap as a quiet month: it is the accumulated cost of the missed-slot mechanism documented in `BUG-20260729-1`/`BUG-20260828-1`, and the doc-audit journal carried the day-log debt forward run after run. The gap days are NOT retro-created here — past days are never back-filled. Their substance survives in the QA digest, the code-review journal and the fix-dispatch ledger.)*
