@@ -160,7 +160,7 @@ without reading git history?*
   - **Naming system** — `PascalCase` components/classes · `useX` hooks ·
     `camelCase` functions/variables · `SCREAMING_SNAKE` module-level constants and
     data tables (`FLOW`, `CASES`, `STEM_PINYIN`) · file names match their default
-    export (`ReadingFacesScreen.jsx`). Mixed or drive-by-renamed conventions: LOW.
+    export (`ReadingDayMasterScreen.jsx`). Mixed or drive-by-renamed conventions: LOW.
   - **Module system** — ESM everywhere; node tooling is `.mjs`; no `require()` in
     app code; no default-and-named export mixing from one module without reason.
   - **Functions over classes** — functional React components only; plain functions

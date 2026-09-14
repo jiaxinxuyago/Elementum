@@ -54,7 +54,7 @@
 | *(retired)* Content_Generation_Guide | REA_06 | — | REA_05 | DES_06 |
 | *(retired)* Format_Audit / Content_Review | REA_09 / REA_10 | — | REA_09 / REA_10 | DES_10 / DES_11 |
 
-Legacy **section** citations resolve at the same § numbers in the current books: old Concept_Inventory §1–3 = REA_02 §1–3 · old Identity_Vocabulary §4–6 = REA_02 §4–6 · old Reading_Schema §7 = REA_03 §7 · old Concept_Inventory §6–12 = REA_06 §6–12 · old Knowledge_Pool PARTs/§§ = REA_04 same. Ids REA_07–REA_15 are RETIRED (transition/legacy), never reused; the next new Reading doc is born REA_16.
+Legacy **section** citations resolve at the same § numbers in the current books: old Concept_Inventory §1–3 = REA_02 §1–3 · old Identity_Vocabulary §4–6 = REA_02 §4–6 · old Reading_Schema §7 = REA_03 §7 · old Concept_Inventory §6–12 = REA_06 §6–12 · old Knowledge_Pool PARTs/§§ = REA_04 same. Ids REA_07–REA_15 are RETIRED (transition/legacy), never reused; REA_16 (The_Voice) was born 2026-08-05; the next new Reading doc is born REA_17.
 
 ### Development/ — engine spec, code architecture, engineering protocols
 | ID | Title | Purpose | Formerly |
@@ -77,7 +77,7 @@ Legacy **section** citations resolve at the same § numbers in the current books
 |---|---|---|
 | BIZ_01 | Elementum_Expense_Report | Monthly costs + phase projections + cost triggers |
 | BIZ_02 | Elementum_Validation_Sprint | Beta validation strategy |
-| BIZ_03 | Audience_Tone_Research | Target-audience demographics + competitor voice matrix + tone-of-voice variants for the Reading corpus (2026-08-05; §8 tone prompt pending owner ruling) |
+| BIZ_03 | Audience_Tone_Research | Target-audience demographics + competitor voice matrix + tone-of-voice variants for the Reading corpus (2026-08-05; §8 tone ratified 2026-08-05 — operating canon now REA_16) |
 
 ### Legal_Admin/ — legal records, entity paperwork
 | File | Purpose |
