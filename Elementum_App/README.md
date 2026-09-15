@@ -80,7 +80,7 @@ the app and runs `wrangler deploy` on every merge to `main` that touches
 (jiaxinxuyago.github.io/Elementum) and does NOT update elementum.life.
 Manual deploy: `npm run build && npx wrangler deploy` from this folder.
 
-## The dev / staging site (elementum-dev)
+## The dev / staging site — dev.elementum.life
 
 A second Worker, `elementum-dev`, serves a build made with `VITE_DEVTOOLS=1`
 (see `src/devtools.js`): the DevBar (Chart + Schema tabs) and the
@@ -89,8 +89,29 @@ A second Worker, `elementum-dev`, serves a build made with `VITE_DEVTOOLS=1`
 sessions, which have no local dev server the owner can open, get a live
 testing surface. `.github/workflows/deploy-dev.yml` builds and runs
 `wrangler deploy --env dev` on every push to the `dev` branch that touches
-`Elementum_App/`; the URL is the auto `https://elementum-dev.<account>.workers.dev`
-(printed in the deploy log; attach a custom domain in the dashboard if wanted).
-Workflow: push to `dev` → test there → push the same commit to `main`.
+`Elementum_App/`. The address is **https://dev.elementum.life** (custom
+domain attached in the Cloudflare dashboard, like elementum.life on the prod
+Worker; the auto workers.dev URL is retired with `workers_dev: false`).
 The prod build never sets the flag, so elementum.life carries none of this.
 Manual dev deploy: `VITE_DEVTOOLS=1 npm run build && npx wrangler deploy --env dev`.
+
+### The standard change workflow (owner ruling 2026-09-15)
+
+The `dev` branch is the staging lane; `main` is the release lane. Every
+app-touching change travels the same road, from a laptop or a cloud session:
+
+1. Run the local gates (lint, voice audit, station sync audit, journey sweep,
+   build) on the branch you are working on.
+2. Push the commit to `dev`. The deploy-dev workflow rebuilds the staging
+   site within ~2 minutes; reload dev.elementum.life twice (PWA autoUpdate)
+   and test with the DevBar / QA hooks.
+3. Push the **same commit** to `main` (fast-forward; `dev` never carries
+   commits that `main` will not get). The deploy workflow rebuilds
+   elementum.life.
+4. Confirm on elementum.life after two reloads.
+
+Doc-only changes (no `Elementum_App/` files) can go to `main` directly —
+neither workflow triggers. If `dev` ever diverges from `main` (an experiment
+that was not promoted), reset it: `git push origin main:dev --force-with-lease`
+is the sanctioned reset, since `dev` holds no history of its own.
+The full record is INF_01 §10.

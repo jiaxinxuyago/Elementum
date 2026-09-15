@@ -29,14 +29,18 @@
   // A second Worker serving a VITE_DEVTOOLS=1 build (DevBar + the
   // window.__seedData/__goto QA hooks) so cloud sessions get a live testing
   // surface. Deployed by .github/workflows/deploy-dev.yml on every push to
-  // the `dev` branch (`wrangler deploy --env dev`). workers_dev:true gives it
-  // the auto URL https://elementum-dev.<account>.workers.dev; attach a custom
-  // domain later in the dashboard if wanted. The build is noindex
-  // (vite.config.js) — never a public address.
+  // the `dev` branch (`wrangler deploy --env dev`). Its address is
+  // https://dev.elementum.life — a custom domain attached in the dashboard
+  // (Workers → elementum-dev → Settings → Domains & Routes) and, for the same
+  // token-permission reason as elementum.life above, deliberately NOT
+  // declared here. workers_dev:false retires the auto
+  // elementum-dev.<account>.workers.dev URL so the dev site has one address
+  // (owner 2026-09-15). The build is noindex (vite.config.js) — never a
+  // public address. Full topology + workflow: INF_01 §10.
   "env": {
     "dev": {
       "name": "elementum-dev",
-      "workers_dev": true,
+      "workers_dev": false,
       "preview_urls": false,
       "assets": {
         "directory": "./dist",

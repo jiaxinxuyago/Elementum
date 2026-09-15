@@ -3,7 +3,8 @@
 # is made with VITE_DEVTOOLS=1, which turns on the DevBar and the QA hooks
 # (src/devtools.js) so cloud sessions get a live staging site to test on
 # before a change goes to main. Same secrets as deploy.yml.
-# URL: https://elementum-dev.<account>.workers.dev (printed in the deploy log).
+# URL: https://dev.elementum.life (custom domain attached in the Cloudflare
+# dashboard; see wrangler.jsonc env.dev and INF_01 §10).
 name: Deploy elementum-dev
 
 on:

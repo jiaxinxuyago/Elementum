@@ -280,10 +280,15 @@ Budgets are measured against `npm run build` output. Baselines (2026-07-07):
     attachment are explicit decisions with a comment (the main worker's
     dashboard-managed-domain note is the reference); a diff flipping one silently:
     HIGH (it changes what's publicly reachable).
-  - **Deploy path** — the main `elementum` worker deploys via the Stop-hook
-    (`sync-live.ps1`, fingerprint-gated + smoke-checked); satellite workers deploy
-    manually via their documented command. A change that adds a THIRD deploy path
-    or bypasses the smoke check: MEDIUM.
+  - **Deploy path** — the app has exactly two sanctioned lanes (INF_01 §10):
+    push to `main` → `deploy.yml` → `elementum` Worker → elementum.life, and
+    push to `dev` → `deploy-dev.yml` → `elementum-dev` Worker →
+    dev.elementum.life (the `VITE_DEVTOOLS=1` build; the laptop Stop-hook
+    `sync-live.ps1` remains the fingerprint-gated + smoke-checked local mirror of
+    the release lane). Satellite workers deploy manually via their documented
+    command. A change that adds another deploy path, bypasses the smoke check, or
+    lets the release lane build with `VITE_DEVTOOLS` set: MEDIUM (HIGH for the
+    flag, per the exposure-flag rule above).
   - **New external service** — any diff introducing a new hosted dependency
     (database, queue, API) is automatically an owner decision: flag HIGH with the
     ownership-pattern note (personal-owner + company-member per the infra map),

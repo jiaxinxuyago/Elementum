@@ -70,7 +70,7 @@ Legacy **section** citations resolve at the same § numbers in the current books
 ### Infrastructure/ — backend, workers, external services, store enrollment
 | ID | Title | Purpose | Formerly |
 |---|---|---|---|
-| INF_01 | Backend_Architecture | Workers, Stripe, Supabase, push, LLM, §4.2a store runbooks | DOC10 |
+| INF_01 | Backend_Architecture | Workers, Stripe, Supabase, push, LLM, §4.2a store runbooks, §10 deploy topology (elementum.life / dev.elementum.life) + the standard dev → main workflow | DOC10 |
 
 ### Business/ — strategy, financials
 | ID | Title | Purpose |
