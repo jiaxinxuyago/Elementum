@@ -27,7 +27,8 @@ import {
   paperHair, cardstockBg, withAlpha,
 } from '../../../styles/tokens';
 
-const IS_DEV = typeof import.meta !== 'undefined' && import.meta.env?.DEV;
+import { IS_DEV_TOOLS } from '../../../devtools.js';
+const IS_DEV = IS_DEV_TOOLS;
 
 export default function ProfileScreen() {
   const { birthData, chart, tier, updateBirthData, resetFlow } = useChart();

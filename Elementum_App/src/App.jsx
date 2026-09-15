@@ -66,6 +66,7 @@ const ChartPatternsDetail = lazy(() => import('./components/dashboard/reading-de
 const SeasonalCalibrationDetail = lazy(() => import('./components/dashboard/reading-detail/SeasonalCalibrationDetail.jsx'));
 const LockedDetail = lazy(() => import('./components/dashboard/reading-detail/LockedDetail.jsx'));
 const DevBar = lazy(() => import('./components/dev/DevBar.jsx'));
+import { IS_DEV_TOOLS } from './devtools.js';
 const ReadingWheelPreview = lazy(() => import('./components/reading/ReadingWheelPreview.jsx'));
 const ReadingDayMasterScreen = lazy(() => import('./components/reading/ReadingDayMasterScreen.jsx'));
 const ReadingPillarChartScreen = lazy(() => import('./components/reading/ReadingPillarChartScreen.jsx'));
@@ -186,7 +187,8 @@ import ErrorBoundary from './components/ErrorBoundary.jsx';
 
 // Dev-only. DevBar + phone-frame sit side-by-side on desktop; on mobile
 // viewports the DevBar hides so the phone frame fills the screen.
-const IS_DEV = typeof import.meta !== 'undefined' && import.meta.env?.DEV;
+// IS_DEV = `vite dev` OR a VITE_DEVTOOLS=1 build (the elementum-dev Worker).
+const IS_DEV = IS_DEV_TOOLS;
 
 // Phone-frame wrapper — DES_04 §6 specifies 390×844 viewport context.
 // On desktop we center a phone-shaped frame; on mobile it fills the viewport.

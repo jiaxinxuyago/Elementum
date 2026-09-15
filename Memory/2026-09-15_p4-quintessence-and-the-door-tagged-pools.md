@@ -53,6 +53,12 @@ baseline · build green · journey sweep 18/18.
 - A third per-element state for abundant catalysts (would touch the manual rows) — later pass.
 - ~~Add the 渊海子平 五行生克宜忌 lines to REA_04~~ — DONE 2026-09-15 (REA_04 PART 2, v1.3).
 - Design-HTML sync debt (catalogue + element page + P4) still deferred until layout is called settled.
+- **DEV / STAGING SITE (owner 2026-09-15):** the `dev` branch deploys a VITE_DEVTOOLS=1 build to the
+  `elementum-dev` Worker (`.github/workflows/deploy-dev.yml`, `wrangler.jsonc` env.dev, auto URL
+  `https://elementum-dev.<account>.workers.dev`, noindex). It carries the DevBar + the QA hooks, so a
+  cloud session can test live: push to `dev` → test → push the same commit to `main`. Gate =
+  `src/devtools.js` IS_DEV_TOOLS (vite dev OR the flag). Put Cloudflare Access in front of it when
+  convenient; the prod build never sets the flag.
 - Cloud-session note: the journey sweep needs `QA_BASE=http://localhost:<port>/` and a symlink from
   playwright's pinned headless-shell path to `/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell`.
 

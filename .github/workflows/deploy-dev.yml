@@ -1,0 +1,46 @@
+# Deploys the DEV build of the Elementum app to the `elementum-dev` Cloudflare
+# Worker on every push to the `dev` branch that touches the app. The dev build
+# is made with VITE_DEVTOOLS=1, which turns on the DevBar and the QA hooks
+# (src/devtools.js) so cloud sessions get a live staging site to test on
+# before a change goes to main. Same secrets as deploy.yml.
+# URL: https://elementum-dev.<account>.workers.dev (printed in the deploy log).
+name: Deploy elementum-dev
+
+on:
+  push:
+    branches: [dev]
+    paths:
+      - 'Elementum_App/**'
+      - '.github/workflows/deploy-dev.yml'
+  workflow_dispatch:
+
+jobs:
+  deploy-dev:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: Elementum_App/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: Elementum_App
+
+      - name: Build (dev tools on)
+        run: npm run build
+        working-directory: Elementum_App
+        env:
+          VITE_DEVTOOLS: '1'
+
+      - name: Deploy to Cloudflare Workers (elementum-dev)
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: Elementum_App
+          wranglerVersion: '4.107.0'
+          command: deploy --env dev

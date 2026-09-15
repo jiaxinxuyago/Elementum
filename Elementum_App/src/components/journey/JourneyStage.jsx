@@ -19,6 +19,7 @@
 // ===================================================================
 
 import { useEffect, useMemo, useRef, useState, useCallback } from 'react';
+import { IS_DEV_TOOLS } from '../../devtools.js';
 import { useReading } from '../reading/useReading.js';
 import { useChart } from '../../store/chartContext.jsx';
 import { STEM_CARD_DATA } from '../../content/index.js';
@@ -118,7 +119,7 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
   // (it is internal state, not a hash route), and broadcast the current
   // internal sub-screen so the DevBar Schema tab can track it.
   useEffect(() => {
-    if (!import.meta.env.DEV || typeof window === 'undefined') return undefined;
+    if (!IS_DEV_TOOLS || typeof window === 'undefined') return undefined;
     window.__journeyElement = goElement;
     return () => { if (window.__journeyElement === goElement) delete window.__journeyElement; };
   }, [goElement]);
@@ -129,7 +130,7 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
     if (openCore && coreElKey) goElement(coreElKey);
   }, [openCore, coreElKey, goElement]);
   useEffect(() => {
-    if (!import.meta.env.DEV || typeof window === 'undefined') return undefined;
+    if (!IS_DEV_TOOLS || typeof window === 'undefined') return undefined;
     window.__journeyScreen = screen;
     window.__journeyElOpen = (screen === 'element' || screen === 'elsec') ? elOpen : null;
     window.dispatchEvent(new CustomEvent('journey-screen', { detail: screen }));

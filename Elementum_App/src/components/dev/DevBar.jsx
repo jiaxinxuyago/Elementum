@@ -9,8 +9,9 @@
 //            surface, resolved LIVE against the active chart (axis +
 //            status + value). Mirrors devVariables.js ← REA_03.
 //
-// Only renders in development (import.meta.env.DEV) and only on viewports
-// wide enough to have space beside the 390px phone frame. Never shipped.
+// Only renders when IS_DEV_TOOLS is on (`vite dev`, or the VITE_DEVTOOLS=1
+// build that serves the elementum-dev Worker) and only on viewports wide
+// enough to have space beside the 390px phone frame. Never in elementum.life.
 // ===================================================================
 
 import { useEffect, useMemo, useState } from 'react';

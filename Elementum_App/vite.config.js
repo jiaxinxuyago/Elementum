@@ -44,6 +44,33 @@ function pruneDevAssets() {
   };
 }
 
+// ── Dev-tools build (the elementum-dev Worker) ──────────────────────
+// VITE_DEVTOOLS=1 turns on IS_DEV_TOOLS (src/devtools.js) in a production
+// build. The build is marked noindex and ships a disallow-all robots.txt so
+// the staging site never gets indexed; the PWA manifest is renamed so an
+// installed dev app is never mistaken for the real one.
+const DEVTOOLS = process.env.VITE_DEVTOOLS === '1';
+
+function devToolsBuild() {
+  let outDir = 'dist';
+  return {
+    name: 'elementum-devtools-build',
+    apply: 'build',
+    configResolved(config) {
+      outDir = path.resolve(config.root, config.build.outDir);
+    },
+    transformIndexHtml(html) {
+      if (!DEVTOOLS) return html;
+      return html.replace('<meta charset="UTF-8" />', '<meta charset="UTF-8" />\n    <meta name="robots" content="noindex, nofollow" />');
+    },
+    closeBundle() {
+      if (!DEVTOOLS) return;
+      fs.writeFileSync(path.join(outDir, 'robots.txt'), 'User-agent: *\nDisallow: /\n');
+      console.log('\n[devtools] VITE_DEVTOOLS=1 build: noindex meta + robots.txt disallow-all written');
+    },
+  };
+}
+
 // https://vite.dev/config/
 export default defineConfig({
   // Override for subpath hosting (e.g. GitHub Pages): ELEMENTUM_BASE=/Elementum/
@@ -54,12 +81,13 @@ export default defineConfig({
   plugins: [
     react(),
     pruneDevAssets(),
+    devToolsBuild(),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'icons.svg', 'icons/apple-touch-icon.png'],
       manifest: {
-        name: 'Elementum',
-        short_name: 'Elementum',
+        name: DEVTOOLS ? 'Elementum Dev' : 'Elementum',
+        short_name: DEVTOOLS ? 'Elementum Dev' : 'Elementum',
         description: 'Your elemental energy, read from the moment you were born.',
         theme_color: '#F1E9D6',      // silk — matches the app ground
         background_color: '#F1E9D6',

@@ -23,5 +23,25 @@
     // The app is a single index.html (hash navigation, no client routes),
     // but SPA fallback keeps deep links and the SW navigation safe.
     "not_found_handling": "single-page-application"
+  },
+
+  // ── DEV / STAGING — the elementum-dev Worker (owner 2026-09-15) ────────
+  // A second Worker serving a VITE_DEVTOOLS=1 build (DevBar + the
+  // window.__seedData/__goto QA hooks) so cloud sessions get a live testing
+  // surface. Deployed by .github/workflows/deploy-dev.yml on every push to
+  // the `dev` branch (`wrangler deploy --env dev`). workers_dev:true gives it
+  // the auto URL https://elementum-dev.<account>.workers.dev; attach a custom
+  // domain later in the dashboard if wanted. The build is noindex
+  // (vite.config.js) — never a public address.
+  "env": {
+    "dev": {
+      "name": "elementum-dev",
+      "workers_dev": true,
+      "preview_urls": false,
+      "assets": {
+        "directory": "./dist",
+        "not_found_handling": "single-page-application"
+      }
+    }
   }
 }
