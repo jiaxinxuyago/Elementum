@@ -51,7 +51,7 @@ baseline · build green · journey sweep 18/18.
 - Balanced charts: P4 falls back to pool order ×3+×3 under the balanced bridges (ruled default);
   no balanced exemplar verified visually yet.
 - A third per-element state for abundant catalysts (would touch the manual rows) — later pass.
-- Add the 渊海子平 五行生克宜忌 lines to REA_04 as sourced Tier-1 canon (with the 埋→辛 caveat).
+- ~~Add the 渊海子平 五行生克宜忌 lines to REA_04~~ — DONE 2026-09-15 (REA_04 PART 2, v1.3).
 - Design-HTML sync debt (catalogue + element page + P4) still deferred until layout is called settled.
 - Cloud-session note: the journey sweep needs `QA_BASE=http://localhost:<port>/` and a symlink from
   playwright's pinned headless-shell path to `/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell`.

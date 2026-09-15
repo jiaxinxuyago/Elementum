@@ -343,6 +343,61 @@ Max: **2 behavioral claims per polarity.**
 
 ---
 
+### 渊海子平 — 五行生克制化宜忌 (the excess / deficiency idioms)
+
+**What it covers:** 卷一 《论五行生克制化各有所喜所害例》 — the five verse sets that state what each element does to its neighbor when it is in EXCESS or in DEFICIT. This is the classical ground for every "too much of X" reading in the system: the ELEMENT_PAIR mechanism turns, the `carry` micro-lines, and the shadow faces of the door-tagged STEM pools (REA_02 §5h). Added 2026-09-15 from the P4 accuracy audit; verified verbatim across three mirrors (维基文库 淵海子平 · donglishuzhai 卷一 · sohu 论五行生克制化宜忌).
+
+**SOURCE-FROM — the five sets (verbatim):**
+
+```
+生之太过（多则反害）：
+金赖土生，土多金埋；土赖火生，火多土焦；火赖木生，木多火炽；木赖水生，水多木漂；水赖金生，金多水浊。
+
+泄之太过（子多母病）：
+金能生水，水多金沉；水能生木，木盛水缩；木能生火，火多木焚；火能生土，土多火晦；土能生金，金多土变。
+
+克之不逮（反被其侮）：
+金能克木，木坚金缺；木能克土，土重木折；土能克水，水多土流；水能克火，火多水热；火能克金，金多火熄。
+
+衰而逢克（必见其败）：
+金衰遇火，必见销熔；火弱逢水，必为熄灭；水弱逢土，必为淤塞；土衰遇木，必遭倾陷；木弱逢金，必为砍折。
+
+强而得制（方成其用）：
+强金得水，方挫其锋；强水得木，方泄其势；强木得火，方化其顽；强火得土，方止其焰；强土得金，方制其害。
+```
+
+Note on later idioms: 木多火塞 and 土多水塞 are not in the text (it has 木多火炽 and 水弱逢土，必为淤塞); 火多金熔 / 木多土倾 / 金多木折 / 水多火灭 are the 衰而逢克 set in modern shorthand.
+
+**How the sets map onto the §5f functions (the door rule):**
+
+| Set | Which door it speaks | Reads as |
+|---|---|---|
+| 生之太过 (母多子病) | **Mind** overgrown (the feeder in excess) | intake that smothers: 埋 / 焦 / 炽 / 漂 / 浊 |
+| 泄之太过 (子多母病) | **Expression** overgrown (the output in excess) | output that drains the self: 沉 / 缩 / 焚 / 晦 / 变 |
+| 克之不逮 | **Action** overgrown (the controlled in excess) | material the self cannot work: 缺 / 折 / 流 / 热 / 熄 |
+| 衰而逢克 | **Order** overgrown on a weak self | pressure that breaks rather than tempers: 销熔 / 熄灭 / 淤塞 / 倾陷 / 砍折 |
+| 强而得制 | the remedy for a strong self (**Body** overgrown) | the 克泄耗 outflow, the manual's SEEK side on Overfueled charts |
+
+**Personality glosses (modern commentary; medium confidence unless marked):**
+
+| Idiom | Gloss | Confidence |
+|---|---|---|
+| 土多金埋 | talent hard to show, dull and slow to react, hesitant, thinks much does little, does not push for itself | medium-high; **applies to 辛 more than 庚** (see caveat) |
+| 水多木漂 | no drive, poor follow-through, cannot stand alone, drifts between plans, scatters | high |
+| 木多火炽 | Fire self choked by fuel: doubts its worth, mood swings, wants to escape the family that feeds it | medium |
+| 火多土焦 | Earth baked hard: stubborn, dry, surface calm over an impatient core | medium |
+| 金多水浊 | rigid, over-sourced, cannot take advice, chases its own tail | medium |
+| 木坚金缺 | Metal worn on endless material: the pruning never stops, the edge dulls on quantity | medium (indirect) |
+| 财多身弱 (富屋贫人) | short-term gain, idle ambition, starts and never finishes, restless busy-ness | high (渊海子平 十神篇 财多盗气 verbatim; 富屋贫人 is a proverbial 断语, not a verse) |
+
+**Caveat that governs 庚 (audit finding, 2026-09-15):** 滴天髓 gives 庚 *土润则生，土干则脆* (wet earth nourishes it; dry earth makes it brittle) and gives 辛 *畏土之叠* (原注: 戊己土多而能埋). The 埋 image belongs to 辛. A heavy Earth on a strong 庚 reads as 郁滞 through the 性情篇 line *阳明遇金，郁而多烦* (任注: 湿土藏金 → 忧郁、心郁志灰、多烦闷), never as "buried". The locked `金_土` friction turn keeps its owner-ruled wording; the P4 carry card frames it as weight, not burial.
+
+**Derivation question, answered for this source:** the sets add exactly one thing Tier 2 does not: WHICH neighbor element's excess produces which failure mode of the self. That is the door rule's classical ground and nothing more. Max **2 behavioral claims per pair** (the pair's friction turn + its `carry` clause), never a stem-level claim from these lines alone.
+
+**Where the corpus draws on it:** ELEMENT_PAIR `mechanism.friction_turn` / `carry.friction` ×25 (生之太过 for Mind pairs, 泄之太过 for Expression pairs, 克之不逮 for Action pairs, 衰而逢克 for Order pairs, the self-pair from 滴天髓 身旺无泄); STEM shadow seeds tagged in the ten-stem remap (e.g. 甲 Floats between plans ← 水多木漂 · 丙 Chokes on fuel ← 木多火炽 · 己 Burns the seedlings ← 火多土焦 · 壬 Pulled every way ← 金多水浊 · 辛 Stays boxed up ← 畏土之叠).
+
+---
+
 ### 神峰通考 (张神峰) — Deficiency/Remedy Theory
 
 **What it covers:** 病药说 — the principle that structural distinction arises from structural deficiency, and the chart's value is revealed when the remedy element arrives. Also contains a sustained critique of mechanical application of classical rules: the principle matters; the formula is secondary.
@@ -809,7 +864,7 @@ A quick-reference index of every source cited in this document.
 | 子平真诠 | SOURCE-FROM | 食神, 伤官, 正官 chapters |
 | 滴天髓 (任铁樵) | SOURCE-FROM | pure tgPattern (身旺有泄), 七杀 chapters, 512 case studies |
 | 三命通会 | SOURCE-FROM | 十干体象 (stem behavioral defaults), 论财 (wealth theory), rooted tgPattern |
-| 渊海子平 | SOURCE-FROM | Supporting 十干体象 profiles, rooted tgPattern |
+| 渊海子平 | SOURCE-FROM | Supporting 十干体象 profiles, rooted tgPattern; **卷一 五行生克制化宜忌 — the excess/deficiency idiom sets (the door rule's classical ground, added 2026-09-15)**; 十神篇 财多盗气 |
 | 神峰通考 | SOURCE-FROM | 病药说 — universal catalyst/remedy framing (teaser, p2, twoAM fields) |
 | 千里命稿 | VERIFY-ONLY | Pillar-to-life-stage mapping — temporal framing for landscape and twoAM fields |
 
@@ -1431,7 +1486,7 @@ Palace/era/relations table and "palace decides WHEN, god decides WHAT" framing c
 |---|---|
 | **Document** | REA_04 — Knowledge Pool |
 | **Last Updated** | 2026-04-10 |
-| **Version** | 1.2  ·  April 2026 |
+| **Version** | 1.3  ·  2026-09-15 (渊海子平 五行生克制化宜忌 added) |
 | **Status** | LIVING — grows additively; existing entries rarely change once verified |
 | **Audience** | Content creators, generation system (as reference library) |
 | **Purpose** | Complete source library for all Elementum archetype content. Classical BaZi texts, modern psychological frameworks, and resonance bridges. REA_05 tells you which sources to use for a given key; this document tells you what they are and what each produces. |
@@ -1443,6 +1498,7 @@ Palace/era/relations table and "palace decides WHEN, god decides WHAT" framing c
 
 | Version | Date | Changes |
 |---|---|---|
+| 1.3 | 2026-09-15 | Added 渊海子平 卷一 五行生克制化宜忌 (the five excess/deficiency verse sets, verbatim) as a SOURCE-FROM block under PART 2, with the door-rule mapping, personality glosses with confidence, the 埋→辛 caveat (滴天髓 庚 土润则生 / 辛 畏土之叠 / 性情篇 阳明遇金), and the corpus pointers (ELEMENT_PAIR carry, STEM shadow seeds). From the P4 accuracy audit (REA_02 §5h). |
 | 1.2 | April 2026 | Added PART 8 Translation Protocol — complete language layer rules, stem/element/TG vocabulary maps, classical idiom bridges, forbidden term list, consistency anchors. |
 | 1.1 | April 2026 | Added 神峰通考 (病药说 — universal catalyst/remedy SOURCE-FROM); Added 千里命稿 (pillar-stage mapping, VERIFY-ONLY); Added PART 7 Calculation Accuracy Verification Anchors; Added full APA bibliographic citations for all Tier 2 psychological frameworks (PART 6 §6.4); Updated source index and text overview table. |
 | 1.0 | April 2026 | Initial version. Five classical texts, full Tier 2 psychological frameworks, Tier 3 resonance bridges, expansion protocol. |
