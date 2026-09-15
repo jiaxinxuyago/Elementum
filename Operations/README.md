@@ -70,7 +70,7 @@ Legacy **section** citations resolve at the same § numbers in the current books
 ### Infrastructure/ — backend, workers, external services, store enrollment
 | ID | Title | Purpose | Formerly |
 |---|---|---|---|
-| INF_01 | Backend_Architecture | Workers, Stripe, Supabase, push, LLM, §4.2a store runbooks, §10 deploy topology, §10.0 the closed public-address inventory, §10.1 the three-lane workflow (cloud → dev.elementum.life, local → localhost, deliverable → elementum.life) | DOC10 |
+| INF_01 | Backend_Architecture | Workers, Stripe, Supabase, push, LLM, §4.2a store runbooks, §10 deploy topology, §10.0 the closed public-address inventory, §10.1 the standard workflow (all edits to `main`; cloud sessions look on dev.elementum.life, local on localhost, deliverable elementum.life) | DOC10 |
 
 ### Business/ — strategy, financials
 | ID | Title | Purpose |

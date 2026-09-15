@@ -53,20 +53,17 @@ baseline · build green · journey sweep 18/18.
 - A third per-element state for abundant catalysts (would touch the manual rows) — later pass.
 - ~~Add the 渊海子平 五行生克宜忌 lines to REA_04~~ — DONE 2026-09-15 (REA_04 PART 2, v1.3).
 - Design-HTML sync debt (catalogue + element page + P4) still deferred until layout is called settled.
-- **DEV / STAGING SITE = https://dev.elementum.life (owner 2026-09-15, STANDARD WORKFLOW):** the
-  `dev` branch deploys a VITE_DEVTOOLS=1 build to the `elementum-dev` Worker
-  (`.github/workflows/deploy-dev.yml`, `wrangler.jsonc` env.dev, custom domain attached in the
-  dashboard, workers.dev URL retired, noindex). It carries the DevBar + the QA hooks. The road for
-  every app change, from any machine: gates → push `dev` → test on dev.elementum.life (two reloads)
-  → push the SAME commit to `main` → confirm on elementum.life. Doc-only commits go to `main` direct.
-  **Officialized (owner, same day): cloud session tests on dev.elementum.life; local session
-  tests on localhost (`npm run dev`); the deliverable is ALWAYS elementum.life.** Public-address set
-  is closed (INF_01 §10.0): both app workers.dev URLs retired, all five Workers `preview_urls:false`
-  (satellites take effect on their next manual deploy or via the dashboard Preview toggle), GitHub
-  Pages (jiaxinxuyago.github.io/Elementum, a copy of the raw `main` tree) RETIRED — owner switches
-  it off at Settings → Pages → Source: None. Record of truth: INF_01 §10 (+ DEV_03 K5, app README).
-  Gate = `src/devtools.js` IS_DEV_TOOLS (vite dev OR the flag); the prod build never sets it. Still
-  open: Cloudflare Access in front of dev.elementum.life.
+- **DEV MIRROR = https://dev.elementum.life (owner 2026-09-15, STANDARD WORKFLOW):** `deploy-dev.yml`
+  builds a VITE_DEVTOOLS=1 copy of every push to `main` into the `elementum-dev` Worker (custom
+  domain in the dashboard, workers.dev URL retired, noindex), so the dev site always mirrors the
+  commit live on elementum.life, with the DevBar + QA hooks on. **All real edits go to `main` from
+  any session; there is no staging branch** (a `dev` branch existed for a few hours and was retired
+  under this ruling). Cloud sessions look at their change on dev.elementum.life (no localhost);
+  local sessions on localhost; the deliverable is always elementum.life. GitHub Pages (the repo
+  tree) stays. Record of truth: INF_01 §10 (+ DEV_03 K5, app README). Public-address set closed
+  (INF_01 §10.0): all five Workers `preview_urls:false` (satellites on their next manual deploy or
+  the dashboard Preview toggle). Gate = `src/devtools.js` IS_DEV_TOOLS (vite dev OR the flag); the
+  prod build never sets it. Still open: Cloudflare Access in front of dev.elementum.life.
 - Cloud-session note: the journey sweep needs `QA_BASE=http://localhost:<port>/` and a symlink from
   playwright's pinned headless-shell path to `/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell`.
 

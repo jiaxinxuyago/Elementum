@@ -1,15 +1,16 @@
 # Deploys the DEV build of the Elementum app to the `elementum-dev` Cloudflare
-# Worker on every push to the `dev` branch that touches the app. The dev build
-# is made with VITE_DEVTOOLS=1, which turns on the DevBar and the QA hooks
-# (src/devtools.js) so cloud sessions get a live staging site to test on
-# before a change goes to main. Same secrets as deploy.yml.
-# URL: https://dev.elementum.life (custom domain attached in the Cloudflare
-# dashboard; see wrangler.jsonc env.dev and INF_01 §10).
+# Worker on every push to `main` that touches the app — the same trigger as
+# deploy.yml, so dev.elementum.life is always a mirror of the commit that is
+# live on elementum.life. The dev build is made with VITE_DEVTOOLS=1, which
+# turns on the DevBar and the QA hooks (src/devtools.js) so cloud sessions,
+# which have no localhost, get a live surface to look at their change on.
+# Same secrets as deploy.yml. URL: https://dev.elementum.life (custom domain
+# attached in the Cloudflare dashboard; see wrangler.jsonc env.dev and INF_01 §10).
 name: Deploy elementum-dev
 
 on:
   push:
-    branches: [dev]
+    branches: [main]
     paths:
       - 'Elementum_App/**'
       - '.github/workflows/deploy-dev.yml'

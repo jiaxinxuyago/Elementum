@@ -254,54 +254,53 @@ Keeping `useChart()` as the single accessor for `tier`/`hasSelfReport` means the
 
 ## 10. Deployment topology — elementum.life and dev.elementum.life
 
-**Two app Workers, two branches, two GitHub Actions workflows.** Both are static-assets Workers built from the same `Elementum_App/` source; only the build flag and the address differ.
+**One branch, two app Workers, two GitHub Actions workflows.** `main` is the only branch real edits go to. Every push to `main` that touches `Elementum_App/` fires both workflows: the release build to elementum.life and, from the same commit, the dev-tools build to dev.elementum.life. The two sites are the same code; only the build flag and the address differ.
 
-| Lane | Branch | Workflow | Worker | Address | Build |
-|---|---|---|---|---|---|
-| **Release** | `main` | `.github/workflows/deploy.yml` | `elementum` | https://elementum.life | plain `npm run build` |
-| **Staging** | `dev` | `.github/workflows/deploy-dev.yml` | `elementum-dev` | https://dev.elementum.life | `VITE_DEVTOOLS=1 npm run build` |
+| Site | Workflow (on push to `main`) | Worker | Address | Build |
+|---|---|---|---|---|
+| **The product** | `.github/workflows/deploy.yml` | `elementum` | https://elementum.life | plain `npm run build` |
+| **The dev mirror** | `.github/workflows/deploy-dev.yml` | `elementum-dev` | https://dev.elementum.life | `VITE_DEVTOOLS=1 npm run build` |
 
-- **Addresses are dashboard-managed custom domains.** Both hostnames are attached in the Cloudflare dashboard (Workers → *worker* → Settings → Domains & Routes) and deliberately NOT declared in `wrangler.jsonc`: declaring a domain makes wrangler sync zone routes on every deploy, which needs zone-level token permissions the account-owned deploy token cannot carry. Both Workers set `workers_dev: false` and `preview_urls: false`, so each site has exactly one public address (no duplicate-site indexing, no stray preview URLs). If either Worker is ever recreated, re-attach its domain in the dashboard first.
-- **What the staging build turns on** (`src/devtools.js` → `IS_DEV_TOOLS`, true under the vite dev server OR the `VITE_DEVTOOLS=1` flag): the DevBar (Chart + Schema tabs), the `window.__seedData` / `__goto` / `__setTier` QA hooks, and the ProfileScreen dev controls. The build is also marked `noindex, nofollow`, ships a disallow-all `robots.txt`, and installs as the PWA "Elementum Dev" (`vite.config.js`). The release build never sets the flag, so elementum.life carries none of this. A diff that sets the flag in `deploy.yml`, or unsets it in `deploy-dev.yml`, is a DEV_03 K5 exposure-flag finding (HIGH).
-- **Why it exists (owner 2026-09-15):** cloud sessions (claude.ai/code) have no local dev server the owner can open, and the egress proxy blocks our own hostnames from inside the session. dev.elementum.life gives every session, on any machine, the same live testing surface the laptop's `npm run dev` gives. Optional hardening, not yet done: Cloudflare Access (Zero Trust) in front of `dev.elementum.life` to keep the staging build owner-only.
+- **Addresses are dashboard-managed custom domains.** Both hostnames are attached in the Cloudflare dashboard (Workers → *worker* → Domains → Add Domain) and deliberately NOT declared in `wrangler.jsonc`: declaring a domain makes wrangler sync zone routes on every deploy, which needs zone-level token permissions the account-owned deploy token cannot carry. Both Workers set `workers_dev: false` and `preview_urls: false`, so each site has exactly one public address. If either Worker is ever recreated, re-attach its domain in the dashboard first. The `dev` subdomain is a record inside the elementum.life zone, never a zone of its own (the "Add a site" flow is the wrong door).
+- **What the dev-mirror build turns on** (`src/devtools.js` → `IS_DEV_TOOLS`, true under the vite dev server OR the `VITE_DEVTOOLS=1` flag): the DevBar (Chart + Schema tabs), the `window.__seedData` / `__goto` / `__setTier` QA hooks, and the ProfileScreen dev controls. The build is also marked `noindex, nofollow`, ships a disallow-all `robots.txt`, and installs as the PWA "Elementum Dev" (`vite.config.js`). The release build never sets the flag, so elementum.life carries none of this. A diff that sets the flag in `deploy.yml`, or unsets it in `deploy-dev.yml`, is a DEV_03 K5 exposure-flag finding (HIGH).
+- **Why it exists (owner 2026-09-15):** cloud sessions (claude.ai/code) have no local dev server the owner can open, and the egress proxy blocks our own hostnames from inside the session. dev.elementum.life gives a cloud session the same live, DevBar-equipped surface that `npm run dev` gives the laptop. It is a viewing surface, not a staging gate. Optional hardening, not yet done: Cloudflare Access (Zero Trust) in front of `dev.elementum.life` to keep the dev build owner-only.
 - **Secrets:** both workflows use the same repository secrets, `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. Neither app Worker holds runtime secrets; the satellite Workers (§4.2 stripe-webhook, §4.3 llm, §4.4 push) keep their own documented `wrangler secret put` sets and still deploy manually with their documented command.
 
-### §10.0 Public address inventory (owner ruling 2026-09-15: three addresses, nothing else)
+### §10.0 Public address inventory (owner ruling 2026-09-15)
 
 | Address | Serves | Status |
 |---|---|---|
-| **https://elementum.life** | the product (`elementum` Worker, `main`) | **KEEP — the only deliverable** |
-| **https://dev.elementum.life** | the staging build (`elementum-dev` Worker, `dev`) | **KEEP — cloud-session testing** |
-| `http://localhost:<port>` | the vite dev server (`npm run dev`) | **KEEP — local-session testing** (not a public address) |
+| **https://elementum.life** | the product (`elementum` Worker) | **KEEP — the deliverable, always** |
+| **https://dev.elementum.life** | the dev mirror of `main` (`elementum-dev` Worker) | **KEEP — cloud-session testing** |
+| `http://localhost:<port>` | the vite dev server (`npm run dev`) | KEEP — local-session testing (not a public address) |
+| `jiaxinxuyago.github.io/Elementum` (GitHub Pages) | GitHub's built-in "pages build and deployment" of the `main` tree | **KEEP (owner 2026-09-15)** — it publishes the repository tree, not the app, and stays on; it never updates elementum.life |
 | `elementum-push` / `elementum-llm` / `elementum-stripe-webhook` `.jiaxinxuyago.workers.dev` | API endpoints only (browser, service worker, Stripe) | KEEP — load-bearing, never user-facing pages; their `preview_urls` are retired |
 | `elementum.<account>.workers.dev`, `elementum-dev.<account>.workers.dev` | duplicate app addresses | RETIRED (`workers_dev:false` on both app Workers) |
 | `*-<worker>.<account>.workers.dev` preview URLs | version previews | RETIRED (`preview_urls:false` on all five Workers; satellites take effect on their next manual deploy, or flip the Preview toggle on each Worker's Domains tab) |
-| `jiaxinxuyago.github.io/Elementum` (GitHub Pages) | a copy of the whole `main` branch, republished on every push by GitHub's built-in "pages build and deployment" | **RETIRED (owner 2026-09-15)** — it was never the app (the app builds from `Elementum_App/`, Pages served the raw repo tree: docs, station JSON, handoffs). Switch off at github.com → Elementum → Settings → Pages → Source: *None*; the `ELEMENTUM_BASE` subpath override in `vite.config.js` stays as a generic hosting knob. |
-| a `dev.elementum.life` **zone** under Websites | an accidental "Add a site" from the first attachment attempt, if it was completed | RETIRE if present (Websites → dev.elementum.life → Overview → Remove site). The subdomain lives as a record inside the elementum.life zone, never as its own zone. |
+| a `dev.elementum.life` **zone** under Websites | an accidental "Add a site" from the first attachment attempt, if it was completed | RETIRE if present (Websites → dev.elementum.life → Overview → Remove site) |
 
 No `www.elementum.life` exists and none is planned; the apex is the address.
 
-### §10.1 The standard change workflow (owner ruling 2026-09-15)
+### §10.1 The standard workflow (owner ruling 2026-09-15)
 
-**Three lanes, one deliverable.** Where you test depends on where the session runs; what ships never changes:
+**All real edits go to `main`, from any session.** There is no staging branch: a code change is a real change, and `main` is where it lives. The only thing that differs by session is where you look at it:
 
-| Session | Test on | How |
+| Session | Looks at the change on | Because |
 |---|---|---|
-| **Cloud session** (claude.ai/code, any machine) | **https://dev.elementum.life** | push the commit to `dev`; `deploy-dev.yml` rebuilds the staging site |
-| **Local session** (the laptop) | **localhost** | `npm run dev` in `Elementum_App/` (vite dev server; `IS_DEV_TOOLS` is on under vite dev, so the DevBar and QA hooks are there without any flag) |
-| **Both** | **https://elementum.life** is the final deliverable, always | push the tested commit to `main`; `deploy.yml` rebuilds the product |
+| **Cloud session** (claude.ai/code) | **https://dev.elementum.life** | no localhost exists; the dev mirror rebuilds from `main` with the DevBar on |
+| **Local session** (the laptop) | **localhost** (`npm run dev`) | the vite dev server already has the DevBar; dev.elementum.life works there too |
+| **Everyone, always** | **https://elementum.life** is the deliverable | the same push to `main` rebuilds it |
 
-`dev` is the staging lane, `main` the release lane, and `dev` never carries commits that `main` will not receive. A local session may skip the `dev` push (localhost already gave it the DevBar) but must still land on `main` through the same gates. Every change that touches `Elementum_App/` travels this road:
+The road for a change that touches `Elementum_App/`:
 
-1. **Gates first, on the working branch:** `npm run lint` · `node tools/voice-audit.mjs` · `node tools/export-reading-templates.mjs` (sync audit, never `--harvest`) · `node tools/qa-journey-sweep.mjs` · `npm run build`.
-2. **Push to `dev`** (cloud sessions; local sessions test on localhost instead). `deploy-dev.yml` rebuilds dev.elementum.life (about two minutes; the deploy log is the receipt). Reload twice (the PWA is `autoUpdate`, so the first load fetches the new service worker and the second shows it) and test with the DevBar and the QA hooks.
-3. **Push the same commit to `main`** (fast-forward). `deploy.yml` rebuilds elementum.life. Doc-only commits (no `Elementum_App/` paths) trigger neither workflow and may go straight to `main`.
-4. **Confirm on elementum.life** after two reloads.
+1. **Gates on the working tree, before the push:** `npm run lint` · `node tools/voice-audit.mjs` · `node tools/export-reading-templates.mjs` (sync audit, never `--harvest`) · `node tools/qa-journey-sweep.mjs` · `npm run build`. The gates are the test; the sites are where the owner looks.
+2. **Push to `main`.** Both workflows run (about a minute each; the Actions run is the receipt a cloud session can read, since its proxy cannot reach either hostname).
+3. **Look at it:** a cloud session on dev.elementum.life with the DevBar and the QA hooks, a local session on localhost. Reload twice on first visit after a deploy (the PWA is `autoUpdate`: the first load fetches the new service worker, the second shows it).
+4. **Confirm on elementum.life** the same way. Doc-only commits (no `Elementum_App/` paths) trigger neither workflow.
 
 Rules that follow from this:
-- **Same commit, both lanes.** Never a rebuild on `main` that was not the build seen on `dev`. If `dev` diverges (an experiment not promoted), reset it to `main` with `git push origin main:dev --force-with-lease`; `dev` holds no history of its own, so this loses nothing.
-- **The agent wall still holds.** Agents never run `wrangler` or `deploy` themselves; both lanes deploy only through the Actions workflows on push. Push-to-`main` for agents remains gated by the owner's standing grant for the session (or `tools/merge-fix-branches.mjs` for the fix lane); push-to-`dev` is the cloud session's ordinary testing step under the same grant.
-- **Cloud-session verification** of a deploy goes through the GitHub Actions run (status + log), since the session's proxy cannot reach either hostname; the owner confirms visually on dev.elementum.life.
+- **The agent wall still holds.** Agents never run `wrangler` or `deploy` themselves; both sites deploy only through the Actions workflows on push. Push-to-`main` for agents remains gated by the owner's standing grant for the session (or `tools/merge-fix-branches.mjs` for the fix lane).
+- **The dev mirror never diverges from `main`.** It is built from the same commit; nothing is ever pushed to the dev site that is not on `main`. (A `dev` branch existed for a few hours on 2026-09-15 as a staging lane and was retired the same day under this ruling; `deploy-dev.yml` still accepts `workflow_dispatch` for a manual rebuild.)
 
 ---
 
@@ -313,5 +312,5 @@ Rules that follow from this:
 | 0.2 | July 2026 | Founding Pass shipped (interim, honor-system Stripe Payment Link) — recorded in §4.2. Added §4.2a wallets & native-app billing (Apple Pay/Google Pay work via Stripe on web/PWA; native App Store/Play require Apple IAP + Google Play Billing) + open decision #6. |
 | 0.4 | July 2026 | §4.4 Web Push shipped + verified (iOS + desktop). RFC 8291 encrypted payloads required for Apple delivery. |
 | 0.3 | July 2026 | **§4.1 + §4.2 shipped server-verified.** Supabase auth (purchase-gated sign-in, entitlements table + RLS + signup trigger), Stripe webhook Worker (signature-verified → entitlement upsert), server-truth tier in the client, honor-system grant retired. Stack note: serverless functions run on **Cloudflare Workers** (not Supabase Edge Functions) — wrangler was already authenticated, same platform as the app. |
-| 0.6 | September 2026 | **§10 Deployment topology + the standard dev → main workflow (owner 2026-09-15).** Second app Worker `elementum-dev` at https://dev.elementum.life serving the `VITE_DEVTOOLS=1` build from the `dev` branch via `deploy-dev.yml`; both app domains dashboard-managed, both Workers `workers_dev:false`; the cloud-session testing road (gates → push `dev` → test → push the same commit to `main`). Same day, officialized as the three-lane rule (§10.0 address inventory + §10.1): cloud sessions test on dev.elementum.life, local sessions on localhost, the deliverable is always elementum.life; every other address retired (both app workers.dev URLs, all preview URLs, the GitHub Pages copy of the repo). |
+| 0.6 | September 2026 | **§10 Deployment topology + the standard dev → main workflow (owner 2026-09-15).** Second app Worker `elementum-dev` at https://dev.elementum.life serving the `VITE_DEVTOOLS=1` build from the `dev` branch via `deploy-dev.yml`; both app domains dashboard-managed, both Workers `workers_dev:false`; the cloud-session testing road (gates → push `dev` → test → push the same commit to `main`). Same day, corrected and officialized (§10.0 inventory + §10.1): `main` is the only branch for real edits from any session; `deploy-dev.yml` rebuilds dev.elementum.life from every push to `main` as a DevBar-equipped mirror for cloud sessions; local sessions use localhost; the deliverable is always elementum.life. Both app workers.dev URLs and all preview URLs retired; GitHub Pages (the repo tree) stays. The short-lived `dev` staging branch retired. |
 | 0.5 | July 2026 | **§4.3 AI Consultant shipped (Phase 0)** — elementum-llm Worker + five tuning rounds (see §4.3 tuning log); Phase-1 gates done (/legal AI amendment + on-device chat persistence); Phase 1 = empty OWNER_IDS. **§4.2a addendum: Apple Developer setup started** — Organization enrollment under Lantern Digital locked; D-U-N-S runbook + the three Phase-B product-changing rules recorded. |

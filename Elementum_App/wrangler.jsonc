@@ -27,9 +27,10 @@
 
   // ── DEV / STAGING — the elementum-dev Worker (owner 2026-09-15) ────────
   // A second Worker serving a VITE_DEVTOOLS=1 build (DevBar + the
-  // window.__seedData/__goto QA hooks) so cloud sessions get a live testing
-  // surface. Deployed by .github/workflows/deploy-dev.yml on every push to
-  // the `dev` branch (`wrangler deploy --env dev`). Its address is
+  // window.__seedData/__goto QA hooks) so cloud sessions get a live surface
+  // to look at their change on. Deployed by .github/workflows/deploy-dev.yml
+  // on every push to `main`, from the same commit as elementum.life
+  // (`wrangler deploy --env dev`). Its address is
   // https://dev.elementum.life — a custom domain attached in the dashboard
   // (Workers → elementum-dev → Settings → Domains & Routes) and, for the same
   // token-permission reason as elementum.life above, deliberately NOT

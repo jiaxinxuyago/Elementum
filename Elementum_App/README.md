@@ -75,54 +75,47 @@ The live site is a Cloudflare Worker serving `dist/` as static assets (see
 `wrangler.jsonc`). Deploys are automated: `.github/workflows/deploy.yml` builds
 the app and runs `wrangler deploy` on every merge to `main` that touches
 `Elementum_App/`, authenticated by the `CLOUDFLARE_API_TOKEN` and
-`CLOUDFLARE_ACCOUNT_ID` repository secrets. elementum.life is the only
-deliverable address: the app Worker has no workers.dev or preview URL, and
-the GitHub Pages copy of the repo (jiaxinxuyago.github.io/Elementum, which
-published the raw `main` tree, never the app) is retired (owner 2026-09-15;
-Settings → Pages → Source: None). Full address inventory: INF_01 §10.0.
+`CLOUDFLARE_ACCOUNT_ID` repository secrets. The GitHub Pages
+"pages build and deployment" workflow publishes the repository tree
+(jiaxinxuyago.github.io/Elementum) and does NOT update elementum.life.
+elementum.life is the only address of the app: the Worker has no workers.dev
+or preview URL. Full address inventory: INF_01 §10.0.
 Manual deploy: `npm run build && npx wrangler deploy` from this folder.
 
-## The dev / staging site — dev.elementum.life
+## The dev mirror — dev.elementum.life
 
 A second Worker, `elementum-dev`, serves a build made with `VITE_DEVTOOLS=1`
 (see `src/devtools.js`): the DevBar (Chart + Schema tabs) and the
 `window.__seedData` / `__goto` / `__setTier` QA hooks are ON, the page is
 `noindex`, and the PWA installs as "Elementum Dev". It exists so cloud
-sessions, which have no local dev server the owner can open, get a live
-testing surface. `.github/workflows/deploy-dev.yml` builds and runs
-`wrangler deploy --env dev` on every push to the `dev` branch that touches
-`Elementum_App/`. The address is **https://dev.elementum.life** (custom
-domain attached in the Cloudflare dashboard, like elementum.life on the prod
-Worker; the auto workers.dev URL is retired with `workers_dev: false`).
-The prod build never sets the flag, so elementum.life carries none of this.
+sessions, which have no localhost the owner can open, get a live surface
+with the dev tools on. `.github/workflows/deploy-dev.yml` builds and runs
+`wrangler deploy --env dev` on every push to `main` that touches
+`Elementum_App/`, the same trigger as the product deploy, so
+**https://dev.elementum.life** always mirrors the commit that is live on
+elementum.life. The domain is a custom domain attached in the Cloudflare
+dashboard, like elementum.life on the prod Worker; the auto workers.dev URL
+is retired with `workers_dev: false`. The prod build never sets the flag, so
+elementum.life carries none of this.
 Manual dev deploy: `VITE_DEVTOOLS=1 npm run build && npx wrangler deploy --env dev`.
 
-### The standard change workflow (owner ruling 2026-09-15)
+### The standard workflow (owner ruling 2026-09-15)
 
-Three lanes, one deliverable:
+All real edits go to `main`, from any session. There is no staging branch.
+What differs by session is only where you look at the change:
 
-| Session | Test on |
+| Session | Looks at the change on |
 |---|---|
-| Cloud session (claude.ai/code) | **https://dev.elementum.life** (push to `dev`) |
+| Cloud session (claude.ai/code) | **https://dev.elementum.life** (rebuilt from `main`, DevBar on) |
 | Local session (the laptop) | **localhost** (`npm run dev`; the DevBar is on under vite dev) |
-| Final deliverable, always | **https://elementum.life** (push to `main`) |
+| Everyone, always | **https://elementum.life** is the deliverable |
 
-The `dev` branch is the staging lane; `main` is the release lane. Every
-app-touching change travels the same road, from a laptop or a cloud session
-(a local session may skip step 2, since localhost already gave it the DevBar):
+1. Run the gates on the working tree: lint, voice audit, station sync audit,
+   journey sweep, build.
+2. Push to `main`. Both workflows run (about a minute each).
+3. Look at it: dev.elementum.life from a cloud session, localhost from a
+   local one. Reload twice on first visit (PWA autoUpdate).
+4. Confirm on elementum.life. Doc-only commits (no `Elementum_App/` files)
+   trigger neither workflow.
 
-1. Run the local gates (lint, voice audit, station sync audit, journey sweep,
-   build) on the branch you are working on.
-2. Push the commit to `dev`. The deploy-dev workflow rebuilds the staging
-   site within ~2 minutes; reload dev.elementum.life twice (PWA autoUpdate)
-   and test with the DevBar / QA hooks.
-3. Push the **same commit** to `main` (fast-forward; `dev` never carries
-   commits that `main` will not get). The deploy workflow rebuilds
-   elementum.life.
-4. Confirm on elementum.life after two reloads.
-
-Doc-only changes (no `Elementum_App/` files) can go to `main` directly —
-neither workflow triggers. If `dev` ever diverges from `main` (an experiment
-that was not promoted), reset it: `git push origin main:dev --force-with-lease`
-is the sanctioned reset, since `dev` holds no history of its own.
 The full record is INF_01 §10.

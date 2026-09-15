@@ -73,9 +73,8 @@ function devToolsBuild() {
 
 // https://vite.dev/config/
 export default defineConfig({
-  // Generic subpath-hosting override (ELEMENTUM_BASE=/sub/). Not used by any
-  // live address: elementum.life and dev.elementum.life serve from '/', and the
-  // GitHub Pages copy of the repo is retired (INF_01 §10.0).
+  // Subpath-hosting override (e.g. GitHub Pages: ELEMENTUM_BASE=/Elementum/).
+  // elementum.life and dev.elementum.life both serve from '/'.
   base: process.env.ELEMENTUM_BASE || '/',
   // Honor a harness-assigned dev port (launch.json autoPort sets PORT); Vite
   // ignores the PORT env var by default. No PORT → Vite's usual 5173+.

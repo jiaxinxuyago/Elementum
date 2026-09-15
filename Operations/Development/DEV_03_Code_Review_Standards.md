@@ -280,19 +280,19 @@ Budgets are measured against `npm run build` output. Baselines (2026-07-07):
     attachment are explicit decisions with a comment (the main worker's
     dashboard-managed-domain note is the reference); a diff flipping one silently:
     HIGH (it changes what's publicly reachable).
-  - **Deploy path** — the app has exactly two sanctioned lanes (INF_01 §10):
-    push to `main` → `deploy.yml` → `elementum` Worker → elementum.life, and
-    push to `dev` → `deploy-dev.yml` → `elementum-dev` Worker →
-    dev.elementum.life (the `VITE_DEVTOOLS=1` build; the laptop Stop-hook
+  - **Deploy path** — one branch, two app deploys (INF_01 §10): every push to
+    `main` fires `deploy.yml` → `elementum` Worker → elementum.life AND
+    `deploy-dev.yml` → `elementum-dev` Worker → dev.elementum.life (the
+    `VITE_DEVTOOLS=1` mirror for cloud sessions; the laptop Stop-hook
     `sync-live.ps1` remains the fingerprint-gated + smoke-checked local mirror of
-    the release lane). Satellite workers deploy manually via their documented
-    command. A change that adds another deploy path, bypasses the smoke check, or
-    lets the release lane build with `VITE_DEVTOOLS` set: MEDIUM (HIGH for the
-    flag, per the exposure-flag rule above). The public-address set is closed
-    (INF_01 §10.0: elementum.life, dev.elementum.life, the three satellite API
-    hostnames); a diff that re-enables a `workers_dev`/`preview_urls` flag, a
-    GitHub Pages publish, or any new public hostname without an owner ruling:
-    HIGH.
+    the product deploy). Satellite workers deploy manually via their documented
+    command. A change that adds another deploy path, a staging branch, bypasses
+    the smoke check, or lets the product build with `VITE_DEVTOOLS` set: MEDIUM
+    (HIGH for the flag, per the exposure-flag rule above). The public-address set
+    is closed (INF_01 §10.0: elementum.life, dev.elementum.life, the three
+    satellite API hostnames, plus GitHub Pages for the repo tree); a diff that
+    re-enables a `workers_dev`/`preview_urls` flag or adds any new public
+    hostname without an owner ruling: HIGH.
   - **New external service** — any diff introducing a new hosted dependency
     (database, queue, API) is automatically an owner decision: flag HIGH with the
     ownership-pattern note (personal-owner + company-member per the infra map),
