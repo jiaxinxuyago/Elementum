@@ -75,9 +75,11 @@ The live site is a Cloudflare Worker serving `dist/` as static assets (see
 `wrangler.jsonc`). Deploys are automated: `.github/workflows/deploy.yml` builds
 the app and runs `wrangler deploy` on every merge to `main` that touches
 `Elementum_App/`, authenticated by the `CLOUDFLARE_API_TOKEN` and
-`CLOUDFLARE_ACCOUNT_ID` repository secrets. The GitHub Pages
-"pages build and deployment" workflow publishes a separate site
-(jiaxinxuyago.github.io/Elementum) and does NOT update elementum.life.
+`CLOUDFLARE_ACCOUNT_ID` repository secrets. elementum.life is the only
+deliverable address: the app Worker has no workers.dev or preview URL, and
+the GitHub Pages copy of the repo (jiaxinxuyago.github.io/Elementum, which
+published the raw `main` tree, never the app) is retired (owner 2026-09-15;
+Settings → Pages → Source: None). Full address inventory: INF_01 §10.0.
 Manual deploy: `npm run build && npx wrangler deploy` from this folder.
 
 ## The dev / staging site — dev.elementum.life
@@ -97,8 +99,17 @@ Manual dev deploy: `VITE_DEVTOOLS=1 npm run build && npx wrangler deploy --env d
 
 ### The standard change workflow (owner ruling 2026-09-15)
 
+Three lanes, one deliverable:
+
+| Session | Test on |
+|---|---|
+| Cloud session (claude.ai/code) | **https://dev.elementum.life** (push to `dev`) |
+| Local session (the laptop) | **localhost** (`npm run dev`; the DevBar is on under vite dev) |
+| Final deliverable, always | **https://elementum.life** (push to `main`) |
+
 The `dev` branch is the staging lane; `main` is the release lane. Every
-app-touching change travels the same road, from a laptop or a cloud session:
+app-touching change travels the same road, from a laptop or a cloud session
+(a local session may skip step 2, since localhost already gave it the DevBar):
 
 1. Run the local gates (lint, voice audit, station sync audit, journey sweep,
    build) on the branch you are working on.

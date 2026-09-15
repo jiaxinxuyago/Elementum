@@ -16,6 +16,9 @@
   // endpoints directly (infra/push.js) and the service worker fetches the
   // daily message from it (public/push-sw.js).
   "workers_dev": true,
+  // Version preview URLs (*-elementum-push.<account>.workers.dev) retired —
+  // one address per Worker (INF_01 §10.0, owner 2026-09-15).
+  "preview_urls": false,
   "triggers": {
     "crons": ["0 * * * *"]
   },

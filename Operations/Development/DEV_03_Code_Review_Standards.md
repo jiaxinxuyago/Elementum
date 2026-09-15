@@ -288,7 +288,11 @@ Budgets are measured against `npm run build` output. Baselines (2026-07-07):
     the release lane). Satellite workers deploy manually via their documented
     command. A change that adds another deploy path, bypasses the smoke check, or
     lets the release lane build with `VITE_DEVTOOLS` set: MEDIUM (HIGH for the
-    flag, per the exposure-flag rule above).
+    flag, per the exposure-flag rule above). The public-address set is closed
+    (INF_01 §10.0: elementum.life, dev.elementum.life, the three satellite API
+    hostnames); a diff that re-enables a `workers_dev`/`preview_urls` flag, a
+    GitHub Pages publish, or any new public hostname without an owner ruling:
+    HIGH.
   - **New external service** — any diff introducing a new hosted dependency
     (database, queue, API) is automatically an owner decision: flag HIGH with the
     ownership-pattern note (personal-owner + company-member per the infra map),

@@ -14,6 +14,9 @@
   // Public .workers.dev URL is REQUIRED: the browser calls /chat directly
   // (AIConsultantScreen); access is enforced in-worker (JWT + entitlement).
   "workers_dev": true,
+  // Version preview URLs (*-elementum-llm.<account>.workers.dev) retired —
+  // one address per Worker (INF_01 §10.0, owner 2026-09-15).
+  "preview_urls": false,
   "vars": {
     "SUPABASE_URL": "https://nbactbfxqslzehzbgetp.supabase.co",
     // The model switch (INF_01 §4.3): Sonnet for beta; flip to the open arm

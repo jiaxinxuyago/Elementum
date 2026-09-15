@@ -59,9 +59,14 @@ baseline · build green · journey sweep 18/18.
   dashboard, workers.dev URL retired, noindex). It carries the DevBar + the QA hooks. The road for
   every app change, from any machine: gates → push `dev` → test on dev.elementum.life (two reloads)
   → push the SAME commit to `main` → confirm on elementum.life. Doc-only commits go to `main` direct.
-  Record of truth: INF_01 §10 (+ DEV_03 K5 deploy-path rule, app README). Gate =
-  `src/devtools.js` IS_DEV_TOOLS (vite dev OR the flag); the prod build never sets it. Still open:
-  Cloudflare Access in front of dev.elementum.life.
+  **Officialized (owner, same day): cloud session tests on dev.elementum.life; local session
+  tests on localhost (`npm run dev`); the deliverable is ALWAYS elementum.life.** Public-address set
+  is closed (INF_01 §10.0): both app workers.dev URLs retired, all five Workers `preview_urls:false`
+  (satellites take effect on their next manual deploy or via the dashboard Preview toggle), GitHub
+  Pages (jiaxinxuyago.github.io/Elementum, a copy of the raw `main` tree) RETIRED — owner switches
+  it off at Settings → Pages → Source: None. Record of truth: INF_01 §10 (+ DEV_03 K5, app README).
+  Gate = `src/devtools.js` IS_DEV_TOOLS (vite dev OR the flag); the prod build never sets it. Still
+  open: Cloudflare Access in front of dev.elementum.life.
 - Cloud-session note: the journey sweep needs `QA_BASE=http://localhost:<port>/` and a symlink from
   playwright's pinned headless-shell path to `/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell`.
 

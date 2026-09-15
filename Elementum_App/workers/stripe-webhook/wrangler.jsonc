@@ -13,6 +13,9 @@
   // This is an API endpoint for Stripe, not a user-facing page — the
   // workers.dev URL is exactly what we give Stripe as the endpoint URL.
   "workers_dev": true,
+  // Version preview URLs (*-elementum-stripe-webhook.<account>.workers.dev)
+  // retired — one address per Worker (INF_01 §10.0, owner 2026-09-15).
+  "preview_urls": false,
   "vars": {
     "SUPABASE_URL": "https://nbactbfxqslzehzbgetp.supabase.co"
   }
