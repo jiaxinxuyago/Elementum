@@ -1,25 +1,65 @@
 // ===================================================================
 // ELEMENTUM · ReadingDayMasterCard  (P4 — the Day Master reference card)
 // ===================================================================
-// Reached from the catalogue hero arrow. The reference (not the
-// ceremony): seal + archetype + manifesto, the motivated "Birth Chart"
-// route into the 八字 chart, the Day Master overview (ledger register),
-// the Your Nature portrait, and the Gifts & Shadows panel (owner order
-// 2026-08-05). Fills the app frame; the global tab bar sits over it.
-// No gate here — identity is the free hook.
+// Reached from the catalogue hero arrow. The quintessence page (REA_02 §5h,
+// owner 2026-09-15): seal + archetype + manifesto, the "Birth Chart" route
+// into the 八字 chart, The Sign, Your nature, the Gifts & Shadows panel with
+// a door mark per trait, the pool note, and the carry card that puts all
+// five energies in the manual's EASE / SEEK rows. Fills the app frame; the
+// global tab bar sits over it. No gate here — identity is the free hook.
+// Vocabulary firewall: no ten-god name on this page; function nouns only.
 // ===================================================================
 
-export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, overview, nature, gifts, shadows, band, coreElement, onBack, onBirthChart, onShare }) {
-  // The causal frame (owner 2026-09-10): gifts = the archetype running
-  // right; shadows = the band's own failure direction. The bridge lines are
-  // derived, mechanism-honest (shadows are FED BY imbalance, never equal to
-  // the friction energies — those are named in the catalogue's manual).
+const NUM_WORD = { 12: 'twelve', 13: 'thirteen', 14: 'fourteen', 15: 'fifteen', 16: 'sixteen' };
+
+function DoorMark({ mark }) {
+  if (!mark) return null;
+  const role = mark.role || 'none';
+  return (
+    <span className={`dm-door ${mark.el} ${role}`} aria-label={`${mark.name}, ${role === 'seek' ? 'seek' : role === 'ease' ? 'ease' : 'balanced'}`}>
+      <i />
+      <span>{mark.name}</span>
+    </span>
+  );
+}
+
+function CarryRow({ row }) {
+  if (!row) return null;
+  const role = row.kind === 'seek' ? 'Seek' : 'Ease';
+  return (
+    <div className={`dm-row ${row.kind}`}>
+      <div className="dm-dots">
+        {row.energies.map((e) => <span key={e.el} className={`dm-dot ${e.el}`}>{e.hz}</span>)}
+      </div>
+      <div className="dm-rowbody">
+        <div className="dm-rl">
+          <span className={`dm-role ${row.kind}`}>{role}</span>
+          {row.energies.map((e) => (
+            <span key={e.el}>{e.name} · {e.isCore ? 'you' : e.fn} · {e.presence}</span>
+          ))}
+        </div>
+        {row.sentence ? <p className="dm-eff">{row.sentence}</p> : null}
+        {row.remedy ? <p className="dm-rem">{row.remedy}</p> : null}
+        {row.touch?.length ? (
+          <div className="dm-touch">{row.touch.map((t) => <span key={t}>{t}</span>)}</div>
+        ) : null}
+      </div>
+    </div>
+  );
+}
+
+export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, overview, nature, gifts, shadows, band, balanced, poolSize, carry, onBack, onBirthChart, onShare }) {
+  // The causal frame (owner 2026-09-10) under the door rule (2026-09-15):
+  // gifts show through the energies the chart asks you to seek, shadows
+  // through the energies already carrying weight. A Balanced chart opens no
+  // doors, so the bridges fall back to the band form.
   const shadowState = band === 'concentrated' ? 'RUNNING OVER' : band === 'open' ? 'RUNNING THIN' : 'OFF BALANCE';
-  const shadowBridge = band === 'concentrated'
-    ? 'These swell when the imbalance keeps getting fed.'
-    : band === 'open'
-      ? 'These surface when the reserve runs low.'
-      : 'These surface when the balance slips.';
+  const giftBridge = balanced ? 'These light up when your core runs balanced.' : 'Through the energies your chart asks you to seek.';
+  const shadowBridge = balanced ? 'These swell when the balance slips.' : 'Through the energies already carrying weight.';
+  const shown = (gifts?.length || 0) + (shadows?.length || 0);
+  const poolNote = poolSize && shown
+    ? `${shown === 6 ? 'Six' : shown} of ${archetype}'s ${NUM_WORD[poolSize] || poolSize}. Your chart picks which show.`
+    : null;
   return (
     <div className="reading-fill">
       <img className="ground-img" src="/backgrounds/bg-reading-03-watermark-low.png" alt="" />
@@ -71,30 +111,62 @@ export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, 
             {gifts?.length ? (
               <>
                 <div className="layer-label gs-right" style={{ padding: '2px 0 2px' }}>{archetype.toUpperCase()}, RUNNING RIGHT</div>
-                <div className="gs-bridge">These light up when your core runs balanced.</div>
+                <div className="gs-bridge">{giftBridge}</div>
               </>
             ) : null}
-            {(gifts || []).map((g) => <div className="claim" key={g.phrase}><b>{g.phrase}.</b> {g.desc}</div>)}
+            {(gifts || []).map((g) => (
+              <div className="claim dm-claim" key={g.phrase}>
+                <span><b>{g.phrase}.</b> {g.desc}</span>
+                <DoorMark mark={g.mark} />
+              </div>
+            ))}
             {shadows?.length ? (
               <>
                 <div className="layer-label gs-over" style={{ padding: '10px 0 2px' }}>{archetype.toUpperCase()}, {shadowState}</div>
                 <div className="gs-bridge">{shadowBridge}</div>
               </>
             ) : null}
-            {(shadows || []).map((s) => <div className="claim" key={s.phrase}><b>{s.phrase}.</b> {s.desc}</div>)}
+            {(shadows || []).map((s) => (
+              <div className="claim dm-claim" key={s.phrase}>
+                <span><b>{s.phrase}.</b> {s.desc}</span>
+                <DoorMark mark={s.mark} />
+              </div>
+            ))}
+            {poolNote ? <div className="dm-poolnote">{poolNote}</div> : null}
           </div>
         ) : null}
 
-        {coreElement ? (
-          <button type="button" className="dm-handoff" onClick={onBack}>
-            <span>{archetype} is cast in <b>{coreElement}</b> — and {coreElement} is your <b>Body</b>. Your manual shows how it is running.</span>
-            <svg className="bc-arr" viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-arrow-r" /></svg>
-          </button>
+        {carry ? (
+          <div className="layer dm-carry" style={{ marginTop: 12 }}>
+            <div className="layer-label">How your chart carries {archetype}</div>
+            <p className="dm-lead">{carry.lead}</p>
+            <div className="dm-track" aria-label="Your five energies by presence">
+              {carry.track.map((t) => <b key={t.el} className={t.el} style={{ width: `${Math.max(t.presence, 2)}%` }} />)}
+            </div>
+            <div className="dm-tracklab">
+              {carry.track.map((t) => (
+                <span key={t.el} style={{ width: `${Math.max(t.presence, 2)}%` }}>
+                  <em>{t.presence}</em>
+                  {t.presence >= 12 ? <>{t.name}{t.mark ? <i className={t.mark}>{t.mark === 'seek' ? '▲' : '▼'}</i> : null}</> : null}
+                </span>
+              ))}
+            </div>
+            {carry.ease || carry.seek ? (
+              <div className="dm-rows">
+                <CarryRow row={carry.ease} />
+                <CarryRow row={carry.seek} />
+              </div>
+            ) : null}
+            <button type="button" className="dm-handoff" onClick={onBack}>
+              <span>Your <b>manual</b> holds the full seek and ease rows.</span>
+              <svg className="bc-arr" viewBox="0 0 24 24" aria-hidden="true"><use href="#ico-arrow-r" /></svg>
+            </button>
+          </div>
         ) : null}
 
         <div className="expander">
           <span className="uico"><svg viewBox="0 0 24 24"><use href="#ico-chev-r" /></svg></span>
-          What&apos;s a Day Master — and why the day?
+          What&apos;s a Day Master, and why the day?
         </div>
         <div className="codex-link">Deeper in the Codex →</div>
       </div>

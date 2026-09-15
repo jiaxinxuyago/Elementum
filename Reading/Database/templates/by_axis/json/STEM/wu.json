@@ -10,7 +10,7 @@
     "src/content/reading/readingContent.js (DM_READING)",
     "buildIdentity"
   ],
-  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4)",
+  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited)",
   "candidates": {
     "archetype_name": "The Mountain",
     "manifesto": "Immovable by design · You are the Earth others use to find their footing.",
@@ -32,75 +32,88 @@
       {
         "phrase": "Everyone's rock",
         "dim": "being leaned on",
-        "desc": "Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling.",
-        "bands": "all"
+        "door": "body",
+        "desc": "Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling."
       },
       {
         "phrase": "Shows up regardless",
         "dim": "showing up",
-        "desc": "Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six.",
-        "bands": "all"
+        "door": "body",
+        "desc": "Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six."
       },
       {
         "phrase": "Calm under fire",
         "dim": "crisis",
-        "desc": "The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be.",
-        "bands": [
-          "concentrated"
-        ]
+        "door": "order",
+        "desc": "The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be."
       },
       {
         "phrase": "Safe harbor",
         "dim": "secrets",
-        "desc": "People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning.",
-        "bands": [
-          "balanced",
-          "open"
-        ]
+        "door": "mind",
+        "desc": "People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning."
       },
       {
         "phrase": "Slow and sure",
         "dim": "pace",
-        "desc": "You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely.",
-        "bands": [
-          "open"
-        ]
+        "door": "action",
+        "desc": "You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely."
+      },
+      {
+        "phrase": "Keeps the record",
+        "dim": "memory",
+        "door": "mind",
+        "desc": "You remember what was said, when, and by whom. Not to use it. Because it happened."
+      },
+      {
+        "phrase": "Says it once",
+        "dim": "speaking up",
+        "door": "expression",
+        "desc": "You say the thing one time, plainly, and do not repeat it. People learn to listen the first time."
       }
     ],
     "shadows": [
       {
         "phrase": "Bottles it up",
         "dim": "sharing the load",
-        "desc": "The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked.",
-        "bands": "all"
+        "door": "body",
+        "desc": "The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked."
       },
       {
         "phrase": "Waits too long",
         "dim": "fixable problems",
-        "desc": "Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it.",
-        "bands": "all"
+        "door": "mind",
+        "desc": "Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it."
       },
       {
         "phrase": "Can't let go",
         "dim": "endings",
-        "desc": "Jobs, grudges, houses, roles that ended years ago. Letting go feels like betraying everyone who leaned on the holding, so the grip stays closed.",
-        "bands": "all"
+        "door": "body",
+        "desc": "Jobs, grudges, houses, roles that ended years ago. Letting go feels like betraying everyone who leaned on the holding, so the grip stays closed."
       },
       {
         "phrase": "Set in stone",
         "dim": "changing course",
-        "desc": "Once your footing is chosen, argument becomes erosion. It works on you in centuries, not conversations. People eventually stop bringing the map.",
-        "bands": [
-          "concentrated"
-        ]
+        "door": "mind",
+        "desc": "Once your footing is chosen, argument becomes erosion. It works on you in centuries, not conversations. People eventually stop bringing the map."
       },
       {
         "phrase": "Quietly overwhelmed",
         "dim": "capacity",
-        "desc": "The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost.",
-        "bands": [
-          "open"
-        ]
+        "door": "order",
+        "desc": "The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost."
+      },
+      {
+        "phrase": "Dumps the load",
+        "dim": "finally speaking",
+        "door": "expression",
+        "desc": "Once you finally speak, all of it comes down at once, years of it, on whoever is standing there."
+      },
+      {
+        "phrase": "Dams the river",
+        "dim": "letting things flow",
+        "door": "action",
+        "desc": "What could flow gets dammed. Money, plans, people, all held until the pressure shows."
       }
     ],
     "__ore": {
@@ -246,7 +259,93 @@
             "default": "That you need things too — specific things, from specific people — and have spent so long not needing anything visibly that you've almost stopped knowing how to name what those things are. You're so reliably there for everyone else that the question of what you need has largely stopped being asked. Which means it's also largely stopped being answered."
           }
         }
-      ]
+      ],
+      "retired_band_pools": {
+        "note": "band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band)",
+        "gifts": [
+          {
+            "phrase": "Everyone's rock",
+            "dim": "being leaned on",
+            "desc": "Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Shows up regardless",
+            "dim": "showing up",
+            "desc": "Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Calm under fire",
+            "dim": "crisis",
+            "desc": "The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be.",
+            "bands": [
+              "concentrated"
+            ]
+          },
+          {
+            "phrase": "Safe harbor",
+            "dim": "secrets",
+            "desc": "People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning.",
+            "bands": [
+              "balanced",
+              "open"
+            ]
+          },
+          {
+            "phrase": "Slow and sure",
+            "dim": "pace",
+            "desc": "You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely.",
+            "bands": [
+              "open"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "phrase": "Bottles it up",
+            "dim": "sharing the load",
+            "desc": "The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Waits too long",
+            "dim": "fixable problems",
+            "desc": "Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Can't let go",
+            "dim": "endings",
+            "desc": "Jobs, grudges, houses, roles that ended years ago. Letting go feels like betraying everyone who leaned on the holding, so the grip stays closed.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Set in stone",
+            "dim": "changing course",
+            "desc": "Once your footing is chosen, argument becomes erosion. It works on you in centuries, not conversations. People eventually stop bringing the map.",
+            "bands": [
+              "concentrated"
+            ]
+          },
+          {
+            "phrase": "Quietly overwhelmed",
+            "dim": "capacity",
+            "desc": "The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost.",
+            "bands": [
+              "open"
+            ]
+          }
+        ]
+      },
+      "retired_thin_self_items": []
+    },
+    "door_note": {
+      "body": "Earth",
+      "mind": "Fire",
+      "expression": "Metal",
+      "action": "Water",
+      "order": "Wood"
     }
   }
 }

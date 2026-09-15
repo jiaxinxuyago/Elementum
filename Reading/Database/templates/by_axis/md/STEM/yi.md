@@ -10,7 +10,7 @@
 | **key** | 乙 |
 | **canonical name** | The Vine |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) |
+| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) |
 | **sources** | Elementum_App/src/content/archetypeSource.js · src/content/reading/readingContent.js (DM_READING) · buildIdentity |
 
 ## Candidate variables
@@ -28,44 +28,65 @@
 | `dm_overview` | The Vine is Yin Wood, the green that came second and learned from it. It is the grass and the climbing plant, life that cannot force a door and so finds every window. Late spring is its season, when growth stops charging and starts weaving. On an old stone wall it looks delicate all day, and by year's end the stones have quietly moved. |
 | `gifts[0].phrase` | Nobody's fool |
 | `gifts[0].dim` | reading people |
+| `gifts[0].door` | mind |
 | `gifts[0].desc` | You clock the difference between what's said and what's meant almost instantly. People stopped managing you long ago. It never worked. |
-| `gifts[0].bands` | all |
 | `gifts[1].phrase` | Finds another way |
 | `gifts[1].dim` | obstacles |
+| `gifts[1].door` | action |
 | `gifts[1].desc` | Where others push the locked door harder, you're already around the back. You arrive where you meant to, by a path nobody predicted. |
-| `gifts[1].bands` | all |
 | `gifts[2].phrase` | Wins people over |
 | `gifts[2].dim` | trust |
+| `gifts[2].door` | expression |
 | `gifts[2].desc` | Not loudly, and not fast. But give it a season and the skeptics are asking your opinion first. Trust built your way tends to hold. |
-| `gifts[2].bands` | concentrated |
 | `gifts[3].phrase` | Attentive friend |
 | `gifts[3].dim` | close bonds |
+| `gifts[3].door` | body |
 | `gifts[3].desc` | You track what the people around you need without being told. The birthday, the hard week, the thing they mentioned once in passing. You caught it. |
-| `gifts[3].bands` | balanced · open |
 | `gifts[4].phrase` | Quiet survivor |
 | `gifts[4].dim` | hard seasons |
+| `gifts[4].door` | order |
 | `gifts[4].desc` | The storms that snapped stronger-looking people somehow didn't end you. You bent, waited, and grew back. It's a longer game than anyone realizes. |
-| `gifts[4].bands` | open |
-| `shadows[0].phrase` | Swallows own needs |
-| `shadows[0].dim` | own needs |
-| `shadows[0].desc` | You know what everyone else needs before they say it. Yours stay unspoken, and people learn there's no need to check on you. There is. |
-| `shadows[0].bands` | all |
-| `shadows[1].phrase` | Easily underestimated |
-| `shadows[1].dim` | how others read you |
-| `shadows[1].desc` | The work you do bends around obstacles so smoothly that nobody sees the work. They see luck, or ease. You know it was neither. |
-| `shadows[1].bands` | all |
+| `gifts[5].phrase` | Regrows from little |
+| `gifts[5].dim` | setbacks |
+| `gifts[5].door` | body |
+| `gifts[5].desc` | Cut back to nothing in March, and by June there is a green line up the wall again. |
+| `gifts[6].phrase` | Maps the wall |
+| `gifts[6].dim` | second attempts |
+| `gifts[6].door` | mind |
+| `gifts[6].desc` | Every wall you have climbed is a map you keep. The second time is never the long way. |
+| `shadows[0].phrase` | Grows over others |
+| `shadows[0].dim` | the shared wall |
+| `shadows[0].door` | body |
+| `shadows[0].desc` | Given a shared wall, you take the sunny side without noticing. Later you wonder why the other vine went quiet. |
+| `shadows[1].phrase` | Hides the effort |
+| `shadows[1].dim` | how the climb looks |
+| `shadows[1].door` | expression |
+| `shadows[1].desc` | The wall got climbed and nobody saw the climb. You made it look like the vine was always there, and then you are hurt when they believe it. |
 | `shadows[2].phrase` | Bends too far |
 | `shadows[2].dim` | boundaries |
+| `shadows[2].door` | order |
 | `shadows[2].desc` | You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you're holding stops being yours. |
-| `shadows[2].bands` | all |
 | `shadows[3].phrase` | Suspects an angle |
 | `shadows[3].dim` | face value |
+| `shadows[3].door` | mind |
 | `shadows[3].desc` | You can't quite take kindness at face value. Somewhere in you a quiet analyst asks what this person is really after. Sometimes the answer was nothing, and the wondering showed. |
-| `shadows[3].bands` | concentrated |
 | `shadows[4].phrase` | Loses the thread |
 | `shadows[4].dim` | direction |
+| `shadows[4].door` | mind |
 | `shadows[4].desc` | With no wall to climb, the winding can forget where it was going. You're flexible about the route, and lately, quietly, about the destination too. |
-| `shadows[4].bands` | open |
+| `shadows[5].phrase` | Tangled in others |
+| `shadows[5].dim` | pulling free |
+| `shadows[5].door` | body |
+| `shadows[5].desc` | So much of you is wrapped around other people that pulling free would take them down too. |
+| `shadows[6].phrase` | Takes every opening |
+| `shadows[6].dim` | saying yes |
+| `shadows[6].door` | action |
+| `shadows[6].desc` | A gap is a gap. You grow into all of them, and the garden has no space left for anything else. |
+| `door_note.body` | Wood |
+| `door_note.mind` | Water |
+| `door_note.expression` | Fire |
+| `door_note.action` | Earth |
+| `door_note.order` | Metal |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -123,3 +144,45 @@
 | `blocks[4].patterns` | pure · rooted · flowing · forging · tested |
 | `blocks[4].priority.default` | 5 |
 | `blocks[4].text.default` | How much of what looks like flexibility is actually a form of self-protection — a way of staying mobile enough that no single failure can fully land on you. The adaptability is genuine intelligence. It's also, sometimes, a way of not having to find out what happens if you commit completely and it doesn't work. |
+| `retired_band_pools.note` | band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band) |
+| `retired_band_pools.gifts[0].phrase` | Nobody's fool |
+| `retired_band_pools.gifts[0].dim` | reading people |
+| `retired_band_pools.gifts[0].desc` | You clock the difference between what's said and what's meant almost instantly. People stopped managing you long ago. It never worked. |
+| `retired_band_pools.gifts[0].bands` | all |
+| `retired_band_pools.gifts[1].phrase` | Finds another way |
+| `retired_band_pools.gifts[1].dim` | obstacles |
+| `retired_band_pools.gifts[1].desc` | Where others push the locked door harder, you're already around the back. You arrive where you meant to, by a path nobody predicted. |
+| `retired_band_pools.gifts[1].bands` | all |
+| `retired_band_pools.gifts[2].phrase` | Wins people over |
+| `retired_band_pools.gifts[2].dim` | trust |
+| `retired_band_pools.gifts[2].desc` | Not loudly, and not fast. But give it a season and the skeptics are asking your opinion first. Trust built your way tends to hold. |
+| `retired_band_pools.gifts[2].bands` | concentrated |
+| `retired_band_pools.gifts[3].phrase` | Attentive friend |
+| `retired_band_pools.gifts[3].dim` | close bonds |
+| `retired_band_pools.gifts[3].desc` | You track what the people around you need without being told. The birthday, the hard week, the thing they mentioned once in passing. You caught it. |
+| `retired_band_pools.gifts[3].bands` | balanced · open |
+| `retired_band_pools.gifts[4].phrase` | Quiet survivor |
+| `retired_band_pools.gifts[4].dim` | hard seasons |
+| `retired_band_pools.gifts[4].desc` | The storms that snapped stronger-looking people somehow didn't end you. You bent, waited, and grew back. It's a longer game than anyone realizes. |
+| `retired_band_pools.gifts[4].bands` | open |
+| `retired_band_pools.shadows[0].phrase` | Swallows own needs |
+| `retired_band_pools.shadows[0].dim` | own needs |
+| `retired_band_pools.shadows[0].desc` | You know what everyone else needs before they say it. Yours stay unspoken, and people learn there's no need to check on you. There is. |
+| `retired_band_pools.shadows[0].bands` | all |
+| `retired_band_pools.shadows[1].phrase` | Easily underestimated |
+| `retired_band_pools.shadows[1].dim` | how others read you |
+| `retired_band_pools.shadows[1].desc` | The work you do bends around obstacles so smoothly that nobody sees the work. They see luck, or ease. You know it was neither. |
+| `retired_band_pools.shadows[1].bands` | all |
+| `retired_band_pools.shadows[2].phrase` | Bends too far |
+| `retired_band_pools.shadows[2].dim` | boundaries |
+| `retired_band_pools.shadows[2].desc` | You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you're holding stops being yours. |
+| `retired_band_pools.shadows[2].bands` | all |
+| `retired_band_pools.shadows[3].phrase` | Suspects an angle |
+| `retired_band_pools.shadows[3].dim` | face value |
+| `retired_band_pools.shadows[3].desc` | You can't quite take kindness at face value. Somewhere in you a quiet analyst asks what this person is really after. Sometimes the answer was nothing, and the wondering showed. |
+| `retired_band_pools.shadows[3].bands` | concentrated |
+| `retired_band_pools.shadows[4].phrase` | Loses the thread |
+| `retired_band_pools.shadows[4].dim` | direction |
+| `retired_band_pools.shadows[4].desc` | With no wall to climb, the winding can forget where it was going. You're flexible about the route, and lately, quietly, about the destination too. |
+| `retired_band_pools.shadows[4].bands` | open |
+| `retired_thin_self_items` |  |

@@ -7,7 +7,8 @@
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
-    "owner rulings 2026-08-19 (element-page restructure)"
+    "owner rulings 2026-08-19 (element-page restructure)",
+    "REA_02 §5h (the carry card; owner 2026-09-15)"
   ],
   "candidates": {
     "mechanism": {
@@ -23,7 +24,20 @@
       "advise_catalyst": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it.",
       "advise_friction": "Command works best rationed. Before taking over, ask one question and wait for the whole answer. Rank the week’s fires and let the bottom three burn out alone. Schedule the rest before the crash schedules it for you. Order people can breathe in is the only kind that holds."
     },
-    "cta_verdict": "Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull."
+    "cta_verdict": "Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull.",
+    "carry": {
+      "catalyst": {
+        "clause": "Nothing tempers you: an edge that keeps its first shape and calls it character.",
+        "remedy": "Take the demanding role, the audit, the arena."
+      },
+      "friction": {
+        "clause": "The forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves.",
+        "remedy": "Step out of the fire long enough to hold an edge."
+      },
+      "wide": {
+        "clause": "Fire is the widest door, the forge that finishes the edge."
+      }
+    }
   },
   "__ore": {
     "retired_fn_body": "The Duty is your accountability function: how order, obligation, and other people’s expectations sit on you. With Fire running it, accountability in you is hot and visible: exacting seniors, stakes with deadlines, standards enforced in public. You hold rank by surviving heat gracefully, and people trust steel that has been through the forge. Choose fires that finish you, not ones that just burn.",

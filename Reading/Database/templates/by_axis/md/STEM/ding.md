@@ -10,7 +10,7 @@
 | **key** | 丁 |
 | **canonical name** | The Candle |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) |
+| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) |
 | **sources** | Elementum_App/src/content/archetypeSource.js · src/content/reading/readingContent.js (DM_READING) · buildIdentity |
 
 ## Candidate variables
@@ -28,44 +28,65 @@
 | `dm_overview` | The Candle is Yin Fire, the fire that agreed to be small. It keeps the hours after dark, when the great light has gone home and warmth becomes a personal matter. Lamp light, hearth light, the flame a hand can shelter. In a night window it holds one table, one page, one face, while the dark politely keeps its distance. |
 | `gifts[0].phrase` | Deeply present |
 | `gifts[0].dim` | one-on-one |
+| `gifts[0].door` | body |
 | `gifts[0].desc` | When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find. |
-| `gifts[0].bands` | all |
 | `gifts[1].phrase` | Misses nothing |
 | `gifts[1].dim` | details |
+| `gifts[1].door` | mind |
 | `gifts[1].desc` | The small tell, the changed tone, the detail everyone walked past. You caught it, and three months later it turned out to be the whole story. |
-| `gifts[1].bands` | all |
 | `gifts[2].phrase` | Fully committed |
 | `gifts[2].dim` | the inner circle |
+| `gifts[2].door` | body |
 | `gifts[2].desc` | What you choose gets everything you have. The people and work inside your circle never have to wonder where they stand. |
-| `gifts[2].bands` | concentrated |
 | `gifts[3].phrase` | Rekindles people |
 | `gifts[3].dim` | influence on others |
+| `gifts[3].door` | expression |
 | `gifts[3].desc` | Your belief in someone works at close range. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again. |
-| `gifts[3].bands` | balanced · open |
 | `gifts[4].phrase` | Keeps the flame |
 | `gifts[4].dim` | hard seasons |
+| `gifts[4].door` | order |
 | `gifts[4].desc` | The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night. |
-| `gifts[4].bands` | open |
+| `gifts[5].phrase` | Studies one thing |
+| `gifts[5].dim` | expertise |
+| `gifts[5].door` | mind |
+| `gifts[5].desc` | One subject, years deep. You know it the way people know a face. |
+| `gifts[6].phrase` | Tends what's near |
+| `gifts[6].dim` | small work |
+| `gifts[6].door` | action |
+| `gifts[6].desc` | The small work in arm’s reach gets done well and on time. That is where you build. |
 | `shadows[0].phrase` | Plays favorites |
 | `shadows[0].dim` | the periphery |
+| `shadows[0].door` | body |
 | `shadows[0].desc` | Whoever holds your focus gets daylight. Everyone else gets dusk. The people at the edge of your attention feel the difference, and some of them mind. |
-| `shadows[0].bands` | all |
 | `shadows[1].phrase` | One-track mind |
 | `shadows[1].dim` | multitasking |
+| `shadows[1].door` | mind |
 | `shadows[1].desc` | You genuinely cannot split the flame. The second project, the waiting text, the simmering pot. They all wait in the dark until you turn. |
-| `shadows[1].bands` | all |
 | `shadows[2].phrase` | Takes it personally |
 | `shadows[2].dim` | criticism |
+| `shadows[2].door` | order |
 | `shadows[2].desc` | What you're devoted to has no separation from you. A criticism of the work lands as a criticism of your soul, every time. |
-| `shadows[2].bands` | all |
 | `shadows[3].phrase` | Comes on strong |
 | `shadows[3].dim` | presence |
+| `shadows[3].door` | expression |
 | `shadows[3].desc` | The full beam of your attention can arrive harder than the moment asked for. Some things needed gentle warmth and got the blowtorch. |
-| `shadows[3].bands` | concentrated |
-| `shadows[4].phrase` | Hides the light |
-| `shadows[4].dim` | reaching out |
-| `shadows[4].desc` | The people who'd treasure your attention rarely get offered it first. The flame stays behind cupped hands, and whole years of warmth go unseen. |
-| `shadows[4].bands` | open |
+| `shadows[4].phrase` | Nothing left over |
+| `shadows[4].dim` | outside the circle |
+| `shadows[4].door` | body |
+| `shadows[4].desc` | The circle gets all of you. Outside it there is no light, and no one you can see. |
+| `shadows[5].phrase` | Stares at flaws |
+| `shadows[5].dim` | one detail |
+| `shadows[5].door` | mind |
+| `shadows[5].desc` | One crack, and the whole night is spent on it. The rest of the wall stops existing. |
+| `shadows[6].phrase` | Too many candles |
+| `shadows[6].dim` | commitments |
+| `shadows[6].door` | action |
+| `shadows[6].desc` | You lit more than one candle can keep. Now every flame is small and getting smaller. |
+| `door_note.body` | Fire |
+| `door_note.mind` | Wood |
+| `door_note.expression` | Earth |
+| `door_note.action` | Metal |
+| `door_note.order` | Water |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -123,3 +144,50 @@
 | `blocks[4].patterns` | pure · rooted · flowing · forging · tested |
 | `blocks[4].priority.default` | 5 |
 | `blocks[4].text.default` | That when the full flame arrives at full force in a context that wasn't ready for it, you often don't understand why it didn't land the way it should have. The quality was real. The care was genuine. What you don't always account for is that not every moment wants to be fully illuminated. |
+| `retired_band_pools.note` | band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band) |
+| `retired_band_pools.gifts[0].phrase` | Deeply present |
+| `retired_band_pools.gifts[0].dim` | one-on-one |
+| `retired_band_pools.gifts[0].desc` | When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find. |
+| `retired_band_pools.gifts[0].bands` | all |
+| `retired_band_pools.gifts[1].phrase` | Misses nothing |
+| `retired_band_pools.gifts[1].dim` | details |
+| `retired_band_pools.gifts[1].desc` | The small tell, the changed tone, the detail everyone walked past. You caught it, and three months later it turned out to be the whole story. |
+| `retired_band_pools.gifts[1].bands` | all |
+| `retired_band_pools.gifts[2].phrase` | Fully committed |
+| `retired_band_pools.gifts[2].dim` | the inner circle |
+| `retired_band_pools.gifts[2].desc` | What you choose gets everything you have. The people and work inside your circle never have to wonder where they stand. |
+| `retired_band_pools.gifts[2].bands` | concentrated |
+| `retired_band_pools.gifts[3].phrase` | Rekindles people |
+| `retired_band_pools.gifts[3].dim` | influence on others |
+| `retired_band_pools.gifts[3].desc` | Your belief in someone works at close range. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again. |
+| `retired_band_pools.gifts[3].bands` | balanced · open |
+| `retired_band_pools.gifts[4].phrase` | Keeps the flame |
+| `retired_band_pools.gifts[4].dim` | hard seasons |
+| `retired_band_pools.gifts[4].desc` | The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night. |
+| `retired_band_pools.gifts[4].bands` | open |
+| `retired_band_pools.shadows[0].phrase` | Plays favorites |
+| `retired_band_pools.shadows[0].dim` | the periphery |
+| `retired_band_pools.shadows[0].desc` | Whoever holds your focus gets daylight. Everyone else gets dusk. The people at the edge of your attention feel the difference, and some of them mind. |
+| `retired_band_pools.shadows[0].bands` | all |
+| `retired_band_pools.shadows[1].phrase` | One-track mind |
+| `retired_band_pools.shadows[1].dim` | multitasking |
+| `retired_band_pools.shadows[1].desc` | You genuinely cannot split the flame. The second project, the waiting text, the simmering pot. They all wait in the dark until you turn. |
+| `retired_band_pools.shadows[1].bands` | all |
+| `retired_band_pools.shadows[2].phrase` | Takes it personally |
+| `retired_band_pools.shadows[2].dim` | criticism |
+| `retired_band_pools.shadows[2].desc` | What you're devoted to has no separation from you. A criticism of the work lands as a criticism of your soul, every time. |
+| `retired_band_pools.shadows[2].bands` | all |
+| `retired_band_pools.shadows[3].phrase` | Comes on strong |
+| `retired_band_pools.shadows[3].dim` | presence |
+| `retired_band_pools.shadows[3].desc` | The full beam of your attention can arrive harder than the moment asked for. Some things needed gentle warmth and got the blowtorch. |
+| `retired_band_pools.shadows[3].bands` | concentrated |
+| `retired_band_pools.shadows[4].phrase` | Hides the light |
+| `retired_band_pools.shadows[4].dim` | reaching out |
+| `retired_band_pools.shadows[4].desc` | The people who'd treasure your attention rarely get offered it first. The flame stays behind cupped hands, and whole years of warmth go unseen. |
+| `retired_band_pools.shadows[4].bands` | open |
+| `retired_thin_self_items[0].pool` | shadows |
+| `retired_thin_self_items[0].phrase` | Hides the light |
+| `retired_thin_self_items[0].dim` | reaching out |
+| `retired_thin_self_items[0].desc` | The people who'd treasure your attention rarely get offered it first. The flame stays behind cupped hands, and whole years of warmth go unseen. |
+| `retired_thin_self_items[0].bands` | open |
+| `retired_thin_self_items[0].why` | thin-Body item; no shadow face for a catalyst |

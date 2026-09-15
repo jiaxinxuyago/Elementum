@@ -10,7 +10,7 @@
 | **key** | 庚 |
 | **canonical name** | The Blade |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) |
+| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) |
 | **sources** | Elementum_App/src/content/archetypeSource.js · src/content/reading/readingContent.js (DM_READING) · buildIdentity |
 
 ## Candidate variables
@@ -26,46 +26,67 @@
 | `dm_mechanism` | Yang Metal tempered by spring wood — strength that grew against resistance, not in its absence. |
 | `yourNature_desc` | You put the truth ahead of your own comfort, and usually ahead of your own company. People keep the clarity you hand them and stay careful around the edge it came from. The cost never comes up. You've never once shown anyone the bill. |
 | `dm_overview` | The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech. |
-| `gifts[0].phrase` | Instant character read |
-| `gifts[0].dim` | first impressions |
-| `gifts[0].desc` | Ten minutes into meeting someone, you already know who they are. Months later, everyone else catches up to what you saw in the first handshake. |
-| `gifts[0].bands` | all |
-| `gifts[1].phrase` | Straight talker |
-| `gifts[1].dim` | communication |
-| `gifts[1].desc` | When everyone at the table is talking around the problem, you're the one who names it. People save their hardest questions for you because you won't dress up the answer. |
-| `gifts[1].bands` | all |
-| `gifts[2].phrase` | Crisis performer |
-| `gifts[2].dim` | under pressure |
-| `gifts[2].desc` | The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved. |
-| `gifts[2].bands` | concentrated |
+| `gifts[0].phrase` | Crisis performer |
+| `gifts[0].dim` | under pressure |
+| `gifts[0].door` | order |
+| `gifts[0].desc` | The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved. |
+| `gifts[1].phrase` | First-handshake read |
+| `gifts[1].dim` | first impressions |
+| `gifts[1].door` | mind |
+| `gifts[1].desc` | Ten minutes into meeting someone, you know who they are. Whether you say so is another matter. Months later everyone else catches up to the handshake. |
+| `gifts[2].phrase` | No dressed-up answers |
+| `gifts[2].dim` | communication |
+| `gifts[2].door` | expression |
+| `gifts[2].desc` | When you do speak, you say the thing the table has been talking around. People save their hardest questions for you because the answer comes back plain. |
 | `gifts[3].phrase` | Quiet loyalty |
 | `gifts[3].dim` | close bonds |
+| `gifts[3].door` | body |
 | `gifts[3].desc` | Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time. |
-| `gifts[3].bands` | balanced · open |
 | `gifts[4].phrase` | Careful finisher |
 | `gifts[4].dim` | at work |
+| `gifts[4].door` | body |
 | `gifts[4].desc` | You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing. |
-| `gifts[4].bands` | open |
-| `shadows[0].phrase` | Own harshest critic |
-| `shadows[0].dim` | self-worth |
-| `shadows[0].desc` | The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days for you. |
-| `shadows[0].bands` | all |
-| `shadows[1].phrase` | Mistaken for cold |
-| `shadows[1].dim` | how others read you |
-| `shadows[1].desc` | New people often think you're judging them. You usually are, but not the way they fear, and by the time they learn that, some have already kept their distance. |
-| `shadows[1].bands` | all |
-| `shadows[2].phrase` | Right too early |
-| `shadows[2].dim` | the long view |
-| `shadows[2].desc` | You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone. |
-| `shadows[2].bands` | all |
-| `shadows[3].phrase` | Quick to conclude |
-| `shadows[3].dim` | second chances |
-| `shadows[3].desc` | Once you've decided what something is, it stays decided. The person who grew, the plan that improved, the second chance that was earned, they all arrive to a door already shut. |
-| `shadows[3].bands` | concentrated |
-| `shadows[4].phrase` | Endless second-guessing |
-| `shadows[4].dim` | decision-making |
-| `shadows[4].desc` | You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished. |
-| `shadows[4].bands` | open |
+| `gifts[5].phrase` | Clears dead weight |
+| `gifts[5].dim` | trimming a plan |
+| `gifts[5].door` | action |
+| `gifts[5].desc` | Handed a plan with twelve moving parts, you find the three that matter and the nine that were there for comfort. |
+| `gifts[6].phrase` | Practices alone |
+| `gifts[6].dim` | practice |
+| `gifts[6].door` | mind |
+| `gifts[6].desc` | The skill arrives finished. Nobody saw the quiet months of practice behind it, and you like it that way. |
+| `shadows[0].phrase` | Stays decided |
+| `shadows[0].dim` | second chances |
+| `shadows[0].door` | body |
+| `shadows[0].desc` | Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut. |
+| `shadows[1].phrase` | Own harshest critic |
+| `shadows[1].dim` | self-worth |
+| `shadows[1].door` | order |
+| `shadows[1].desc` | The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days. |
+| `shadows[2].phrase` | Edge before warmth |
+| `shadows[2].dim` | first meetings |
+| `shadows[2].door` | body |
+| `shadows[2].desc` | The read happens before the smile does. New people meet the edge first, and some never wait around for the rest. |
+| `shadows[3].phrase` | Right too early |
+| `shadows[3].dim` | the long view |
+| `shadows[3].door` | mind |
+| `shadows[3].desc` | You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone. |
+| `shadows[4].phrase` | Lives inside plans |
+| `shadows[4].dim` | testing the plan |
+| `shadows[4].door` | mind |
+| `shadows[4].desc` | The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it. |
+| `shadows[5].phrase` | Overshoots the point |
+| `shadows[5].dim` | saying too much |
+| `shadows[5].door` | expression |
+| `shadows[5].desc` | The clean line was there in the first sentence. You kept going, and by the fourth the table had stopped hearing the first. |
+| `shadows[6].phrase` | Cuts too deep |
+| `shadows[6].dim` | trimming |
+| `shadows[6].door` | action |
+| `shadows[6].desc` | Asked to trim, you take it to the frame. The part that was working goes out with the part that was not. |
+| `door_note.body` | Metal |
+| `door_note.mind` | Earth |
+| `door_note.expression` | Water |
+| `door_note.action` | Wood |
+| `door_note.order` | Fire |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -183,3 +204,50 @@
 | `blocks[10].priority.concentrated_pure` | 5 |
 | `blocks[10].text.default` | What the room sees: precision and an edge that doesn't easily bend. What is underneath: a softer interior than the presence suggests, running a question the assessment doesn't fully answer — whether the verdict holds, whether the standard is being aimed at the right things. The certainty is partly real and partly structural. Most people close to you eventually sense this. |
 | `blocks[10].text.concentrated` | What the room sees: precision, certainty, an edge that doesn't bend. What is actually underneath: a much softer interior than anyone in the room would guess, running a question that the assessment never quite answers — whether what you've built is actually right, whether the verdict holds, whether the standard is being applied to the right things. The blade in the tongue is protecting something. The certainty is partly real and partly structural armor. You know this. Most people close to you eventually sense it. The gap between the version of you that the room experiences and the version that exists at 2 AM is larger than most people realize. |
+| `retired_band_pools.note` | band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band) |
+| `retired_band_pools.gifts[0].phrase` | Instant character read |
+| `retired_band_pools.gifts[0].dim` | first impressions |
+| `retired_band_pools.gifts[0].desc` | Ten minutes into meeting someone, you already know who they are. Months later, everyone else catches up to what you saw in the first handshake. |
+| `retired_band_pools.gifts[0].bands` | all |
+| `retired_band_pools.gifts[1].phrase` | Straight talker |
+| `retired_band_pools.gifts[1].dim` | communication |
+| `retired_band_pools.gifts[1].desc` | When everyone at the table is talking around the problem, you're the one who names it. People save their hardest questions for you because you won't dress up the answer. |
+| `retired_band_pools.gifts[1].bands` | all |
+| `retired_band_pools.gifts[2].phrase` | Crisis performer |
+| `retired_band_pools.gifts[2].dim` | under pressure |
+| `retired_band_pools.gifts[2].desc` | The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved. |
+| `retired_band_pools.gifts[2].bands` | concentrated |
+| `retired_band_pools.gifts[3].phrase` | Quiet loyalty |
+| `retired_band_pools.gifts[3].dim` | close bonds |
+| `retired_band_pools.gifts[3].desc` | Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time. |
+| `retired_band_pools.gifts[3].bands` | balanced · open |
+| `retired_band_pools.gifts[4].phrase` | Careful finisher |
+| `retired_band_pools.gifts[4].dim` | at work |
+| `retired_band_pools.gifts[4].desc` | You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing. |
+| `retired_band_pools.gifts[4].bands` | open |
+| `retired_band_pools.shadows[0].phrase` | Own harshest critic |
+| `retired_band_pools.shadows[0].dim` | self-worth |
+| `retired_band_pools.shadows[0].desc` | The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days for you. |
+| `retired_band_pools.shadows[0].bands` | all |
+| `retired_band_pools.shadows[1].phrase` | Mistaken for cold |
+| `retired_band_pools.shadows[1].dim` | how others read you |
+| `retired_band_pools.shadows[1].desc` | New people often think you're judging them. You usually are, but not the way they fear, and by the time they learn that, some have already kept their distance. |
+| `retired_band_pools.shadows[1].bands` | all |
+| `retired_band_pools.shadows[2].phrase` | Right too early |
+| `retired_band_pools.shadows[2].dim` | the long view |
+| `retired_band_pools.shadows[2].desc` | You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone. |
+| `retired_band_pools.shadows[2].bands` | all |
+| `retired_band_pools.shadows[3].phrase` | Quick to conclude |
+| `retired_band_pools.shadows[3].dim` | second chances |
+| `retired_band_pools.shadows[3].desc` | Once you've decided what something is, it stays decided. The person who grew, the plan that improved, the second chance that was earned, they all arrive to a door already shut. |
+| `retired_band_pools.shadows[3].bands` | concentrated |
+| `retired_band_pools.shadows[4].phrase` | Endless second-guessing |
+| `retired_band_pools.shadows[4].dim` | decision-making |
+| `retired_band_pools.shadows[4].desc` | You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished. |
+| `retired_band_pools.shadows[4].bands` | open |
+| `retired_thin_self_items[0].pool` | shadows |
+| `retired_thin_self_items[0].phrase` | Endless second-guessing |
+| `retired_thin_self_items[0].dim` | decision-making |
+| `retired_thin_self_items[0].desc` | You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished. |
+| `retired_thin_self_items[0].bands` | open |
+| `retired_thin_self_items[0].why` | thin-Body item; no shadow face for a catalyst |

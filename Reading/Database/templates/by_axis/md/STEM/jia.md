@@ -10,7 +10,7 @@
 | **key** | 甲 |
 | **canonical name** | The Oak |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) |
+| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) |
 | **sources** | Elementum_App/src/content/archetypeSource.js · src/content/reading/readingContent.js (DM_READING) · buildIdentity |
 
 ## Candidate variables
@@ -28,44 +28,65 @@
 | `dm_overview` | The Oak is Yang Wood, the first sign in the count of days, the oldest picture of beginning itself. It is the seed that argues with the ground and wins, the trunk that spends a hundred years walking toward the sky. Spring belongs to it, and so does every road that is still mostly promise. Whatever refuses to stay small grows under this sign. |
 | `gifts[0].phrase` | First to move |
 | `gifts[0].dim` | beginnings |
+| `gifts[0].door` | action |
 | `gifts[0].desc` | While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up. |
-| `gifts[0].bands` | concentrated · balanced |
 | `gifts[1].phrase` | Raises everyone's game |
 | `gifts[1].dim` | influence on others |
+| `gifts[1].door` | expression |
 | `gifts[1].desc` | People around you end up aiming higher than they meant to. Your reach quietly becomes the new ceiling, and nobody remembers deciding that. |
-| `gifts[1].bands` | all |
 | `gifts[2].phrase` | Builds to last |
 | `gifts[2].dim` | at work |
+| `gifts[2].door` | order |
 | `gifts[2].desc` | You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down. |
-| `gifts[2].bands` | concentrated |
 | `gifts[3].phrase` | Keeps the faith |
 | `gifts[3].dim` | inner life |
+| `gifts[3].door` | body |
 | `gifts[3].desc` | You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter. |
-| `gifts[3].bands` | balanced · open |
 | `gifts[4].phrase` | Late bloomer |
 | `gifts[4].dim` | over the years |
-| `gifts[4].desc` | Your progress doesn't look dramatic day to day. Then people look up and the sapling they remember is somehow taller than the fence. |
-| `gifts[4].bands` | open |
+| `gifts[4].door` | mind |
+| `gifts[4].desc` | The Oak that everyone wrote off in spring is the one still standing in October. Your growth arrives on its own calendar, and it arrives. |
+| `gifts[5].phrase` | Holds its ground |
+| `gifts[5].dim` | standing alone |
+| `gifts[5].door` | body |
+| `gifts[5].desc` | Wind from every side, and you are still where you were planted, still facing the same way. |
+| `gifts[6].phrase` | Takes the lesson |
+| `gifts[6].dim` | hard seasons |
+| `gifts[6].door` | mind |
+| `gifts[6].desc` | One hard season teaches you what a decade of easy ones could not, and you keep it. |
 | `shadows[0].phrase` | Outpaces people |
 | `shadows[0].dim` | close bonds |
-| `shadows[0].desc` | The people who love you often feel a step behind. The reaching never slows quite enough to let them catch up. |
-| `shadows[0].bands` | all |
+| `shadows[0].door` | action |
+| `shadows[0].desc` | The people who love you feel a step behind. The reaching never slows quite enough to let them catch up. |
 | `shadows[1].phrase` | Asks for nothing |
 | `shadows[1].dim` | asking for help |
+| `shadows[1].door` | body |
 | `shadows[1].desc` | Help is right there and you know it. You'd still rather struggle in private than let anyone watch you need something. Asking feels like shrinking an inch you can't get back. |
-| `shadows[1].bands` | all |
 | `shadows[2].phrase` | Leaves things unfinished |
 | `shadows[2].dim` | follow-through |
+| `shadows[2].door` | expression |
 | `shadows[2].desc` | You commit hard, build fast, then spot the next mountain before this one is settled. Someone else ends up pouring the foundation you sketched. |
-| `shadows[2].bands` | all |
 | `shadows[3].phrase` | Charges ahead |
 | `shadows[3].dim` | warnings |
+| `shadows[3].door` | body |
 | `shadows[3].desc` | When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff. |
-| `shadows[3].bands` | concentrated |
-| `shadows[4].phrase` | Slow to launch |
-| `shadows[4].dim` | beginnings |
-| `shadows[4].desc` | The direction is clear and the wanting is real, but the first step keeps waiting for a readier day. The path doesn't mind. The calendar does. |
-| `shadows[4].bands` | open |
+| `shadows[4].phrase` | Floats between plans |
+| `shadows[4].dim` | direction |
+| `shadows[4].door` | mind |
+| `shadows[4].desc` | Every new idea is a river, and you have followed so many that the roots are off the ground. |
+| `shadows[5].phrase` | Waits for signs |
+| `shadows[5].dim` | advice |
+| `shadows[5].door` | mind |
+| `shadows[5].desc` | The move is ready. You are waiting for one more piece of advice before you make it. |
+| `shadows[6].phrase` | Snaps under load |
+| `shadows[6].dim` | under rules |
+| `shadows[6].door` | order |
+| `shadows[6].desc` | Bent far enough by rules that were not yours, you do not bend. You break, and loudly. |
+| `door_note.body` | Wood |
+| `door_note.mind` | Water |
+| `door_note.expression` | Fire |
+| `door_note.action` | Earth |
+| `door_note.order` | Metal |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -123,3 +144,50 @@
 | `blocks[4].patterns` | pure · rooted · flowing · forging · tested |
 | `blocks[4].priority.default` | 5 |
 | `blocks[4].text.default` | That you often don't know what you're building toward — only that you're building. The momentum is real. The destination is often genuinely unclear even to you, which is part of why the reaching can go in so many directions before finding the thing that's actually worth the full force. |
+| `retired_band_pools.note` | band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band) |
+| `retired_band_pools.gifts[0].phrase` | First to move |
+| `retired_band_pools.gifts[0].dim` | beginnings |
+| `retired_band_pools.gifts[0].desc` | While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up. |
+| `retired_band_pools.gifts[0].bands` | concentrated · balanced |
+| `retired_band_pools.gifts[1].phrase` | Raises everyone's game |
+| `retired_band_pools.gifts[1].dim` | influence on others |
+| `retired_band_pools.gifts[1].desc` | People around you end up aiming higher than they meant to. Your reach quietly becomes the new ceiling, and nobody remembers deciding that. |
+| `retired_band_pools.gifts[1].bands` | all |
+| `retired_band_pools.gifts[2].phrase` | Builds to last |
+| `retired_band_pools.gifts[2].dim` | at work |
+| `retired_band_pools.gifts[2].desc` | You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down. |
+| `retired_band_pools.gifts[2].bands` | concentrated |
+| `retired_band_pools.gifts[3].phrase` | Keeps the faith |
+| `retired_band_pools.gifts[3].dim` | inner life |
+| `retired_band_pools.gifts[3].desc` | You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter. |
+| `retired_band_pools.gifts[3].bands` | balanced · open |
+| `retired_band_pools.gifts[4].phrase` | Late bloomer |
+| `retired_band_pools.gifts[4].dim` | over the years |
+| `retired_band_pools.gifts[4].desc` | Your progress doesn't look dramatic day to day. Then people look up and the sapling they remember is somehow taller than the fence. |
+| `retired_band_pools.gifts[4].bands` | open |
+| `retired_band_pools.shadows[0].phrase` | Outpaces people |
+| `retired_band_pools.shadows[0].dim` | close bonds |
+| `retired_band_pools.shadows[0].desc` | The people who love you often feel a step behind. The reaching never slows quite enough to let them catch up. |
+| `retired_band_pools.shadows[0].bands` | all |
+| `retired_band_pools.shadows[1].phrase` | Asks for nothing |
+| `retired_band_pools.shadows[1].dim` | asking for help |
+| `retired_band_pools.shadows[1].desc` | Help is right there and you know it. You'd still rather struggle in private than let anyone watch you need something. Asking feels like shrinking an inch you can't get back. |
+| `retired_band_pools.shadows[1].bands` | all |
+| `retired_band_pools.shadows[2].phrase` | Leaves things unfinished |
+| `retired_band_pools.shadows[2].dim` | follow-through |
+| `retired_band_pools.shadows[2].desc` | You commit hard, build fast, then spot the next mountain before this one is settled. Someone else ends up pouring the foundation you sketched. |
+| `retired_band_pools.shadows[2].bands` | all |
+| `retired_band_pools.shadows[3].phrase` | Charges ahead |
+| `retired_band_pools.shadows[3].dim` | warnings |
+| `retired_band_pools.shadows[3].desc` | When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff. |
+| `retired_band_pools.shadows[3].bands` | concentrated |
+| `retired_band_pools.shadows[4].phrase` | Slow to launch |
+| `retired_band_pools.shadows[4].dim` | beginnings |
+| `retired_band_pools.shadows[4].desc` | The direction is clear and the wanting is real, but the first step keeps waiting for a readier day. The path doesn't mind. The calendar does. |
+| `retired_band_pools.shadows[4].bands` | open |
+| `retired_thin_self_items[0].pool` | shadows |
+| `retired_thin_self_items[0].phrase` | Slow to launch |
+| `retired_thin_self_items[0].dim` | beginnings |
+| `retired_thin_self_items[0].desc` | The direction is clear and the wanting is real, but the first step keeps waiting for a readier day. The path doesn't mind. The calendar does. |
+| `retired_thin_self_items[0].bands` | open |
+| `retired_thin_self_items[0].why` | thin-Body item; a thin Body is a catalyst and carries no shadow face |

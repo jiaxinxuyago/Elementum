@@ -541,3 +541,82 @@ export function buildElementScreen(model, el) {
   };
 }
 
+
+// ────────────────────────────────────────────────────────────────
+// P4 v3 (REA_02 §5h, owner 2026-09-15): the door-tagged pools and the
+// carry card are derived from the same journey model the catalogue uses,
+// so P4 and the manual can never disagree about which energies are open.
+// ────────────────────────────────────────────────────────────────
+
+// The §5f function an energy runs for this core (the pair cell's primary),
+// as the pool `door` key. Family fallback for an unbatched pair.
+export function fnKeyFor(m, r) {
+  return PAIR_CELLS[`${m.core.hz}_${r.hz}`]?.function?.primary
+    || String(FAMILY_FN[r.family] || '').toLowerCase();
+}
+
+export function fnLabelFor(m, r) {
+  const key = fnKeyFor(m, r);
+  return (K2_FUNCTIONS.find((f) => f.key === key) || {}).label || FAMILY_FN[r.family] || '';
+}
+
+// The open doors per pool: gifts through the catalysts (the manual's SEEK
+// order), shadows through the frictions (core first, the EASE order). A
+// Balanced chart hides its rails and opens no doors (pool order shows).
+export function poolDoors(m) {
+  if (!m || m.balanced) return { gifts: [], shadows: [] };
+  return { gifts: m.seek.map((r) => fnKeyFor(m, r)), shadows: m.skip.map((r) => fnKeyFor(m, r)) };
+}
+
+// The door mark for a chosen item: the energy its door resolves to and the
+// manual's arrow for it (seek / ease / null when the chart is balanced).
+export function doorMarkFor(m, item) {
+  if (!m || !item?.door) return null;
+  const r = m.els.find((x) => fnKeyFor(m, x) === item.door);
+  if (!r) return null;
+  const role = m.seek.includes(r) ? 'seek' : m.skip.includes(r) ? 'ease' : null;
+  return { el: r.el, name: r.name, hz: r.hz, presence: r.presence, role };
+}
+
+const NUM_WORD = ['No', 'One', 'Two', 'Three', 'Four', 'Five'];
+// An abundant catalyst speaks through the pair's `wide` line (REA_02 §5c
+// option 1) instead of its thin-turn.
+const ABUNDANT_PCT = 20;
+
+// The carry card model: lead line (tpl_carry_lead), the five-energy track
+// with the manual's arrows, one EASE row and one SEEK row assembled from the
+// ELEMENT_PAIR `carry` micro-lines in the manual's order, and the chosen
+// trait chips each row produces.
+export function buildCarryModel(m, chosen = {}) {
+  if (!m) return null;
+  const pairFor = (r) => PAIR_CELLS[`${m.core.hz}_${r.hz}`]?.carry || null;
+  const coreName = m.core.name;
+  const nEase = m.skip.length; const nSeek = m.seek.length;
+  const lead = m.condition === 'Overfueled'
+    ? `${coreName} runs Overfueled. ${NUM_WORD[nEase] || nEase} energies feed a core already full. ${NUM_WORD[nSeek] || nSeek} are where the surplus should go.`
+    : m.condition === 'Underfueled'
+      ? `${coreName} runs Underfueled. ${NUM_WORD[nSeek] || nSeek} energies are what the core is asking for. ${NUM_WORD[nEase] || nEase} already carry weight.`
+      : `${coreName} runs Balanced. Intake and burn hold each other, so the doors below are open on both sides.`;
+  const track = [...m.els].sort((a, b) => b.presence - a.presence).map((r) => ({
+    el: r.el, name: r.name, hz: r.hz, presence: r.presence, isCore: r.isCore,
+    mark: m.seek.includes(r) ? 'seek' : m.skip.includes(r) ? 'ease' : null,
+  }));
+  const row = (kind, rows, items) => {
+    if (!rows.length) return null;
+    const pole = kind === 'seek' ? 'catalyst' : 'friction';
+    const energies = rows.map((r) => ({ el: r.el, name: r.name, hz: r.hz, presence: r.presence, isCore: r.isCore, fn: fnLabelFor(m, r) }));
+    const sentence = rows.map((r) => {
+      const c = pairFor(r); if (!c) return '';
+      if (kind === 'seek' && !r.isCore && r.presence >= ABUNDANT_PCT && c.wide?.clause) return c.wide.clause;
+      return c[pole]?.clause || '';
+    }).filter(Boolean).join(' ');
+    const remedy = rows.map((r) => pairFor(r)?.[pole]?.remedy || '').filter(Boolean).join(' ');
+    const touch = (items || []).map((it) => it.phrase);
+    return { kind, energies, sentence, remedy, touch };
+  };
+  return {
+    lead, track, balanced: !!m.balanced,
+    ease: m.balanced ? null : row('ease', m.skip, chosen.shadows),
+    seek: m.balanced ? null : row('seek', m.seek, chosen.gifts),
+  };
+}

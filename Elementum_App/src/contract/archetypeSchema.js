@@ -160,8 +160,8 @@ export const SHAPES = {
               note: 'The trait STAGED: 2–3 everyday words anchored by a noun/verb ("Straight talker", "Runs on empty") — situational register, never bare adjectives (those belong to stem_keywords; REA_16 §3 register split + phrase law v4).' },
     desc:   { type: 'string', sentenceMin: 1, sentenceMax: 3, required: true,
               note: 'The trait seen through the item\'s angle — a concrete real-life image (REA_16 §3 desc law).' },
-    bands:  { type: "string[] | 'all'", required: true,
-              note: "Band tags driving selection: 'all' = every band's pool; array = only those bands." },
+    door:   { type: "'body' | 'mind' | 'expression' | 'action' | 'order'", required: true,
+              note: 'The §5f function the trait is exercised through (REA_02 §5h). Gift faces show when the door\'s energy is a catalyst, shadow faces when it carries weight; selectPoolByDoor picks the chart\'s trio.' },
   },
 };
 
@@ -264,19 +264,19 @@ export const ARCHETYPE_SCHEMA = {
 
   // ─────────────────────────────────────────────────────────────
   gifts: {
-    _meta: { tier: 'free', varyBy: ['stem', 'band'], section: 'Gifts row (band-tagged pool ×5 → chart sees ×3)', itemShape: 'TaggedPoolItem' },
-    type: 'object[]', arrayLen: 5, required: true,
+    _meta: { tier: 'free', varyBy: ['stem', 'chart roles'], section: 'Gifts row (door-tagged pool ×7 → chart sees ×3)', itemShape: 'TaggedPoolItem' },
+    type: 'object[]', arrayLen: null, required: true,
     itemShape: SHAPES.TaggedPoolItem,
-    note: 'Band-tagged pool (REA_16 §3 pool laws v3). selectPoolByBand picks the chart\'s trio: band-tagged items first, then all-tagged in pool order. Authored station-first; `dim` (the ANGLE — the life-facet lens, e.g. "under pressure") stays station-side.',
-    example: [{ phrase: 'Crisis performer', desc: "The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved.", bands: ['concentrated'] }],
+    note: 'Door-tagged pool (REA_02 §5h): a gift face per §5f function, Body + Mind doubled. selectPoolByDoor picks the chart\'s trio: one per catalyst energy in the manual\'s SEEK order, the third from the heaviest catalyst\'s second item. Authored station-first; `dim` (the ANGLE) stays station-side.',
+    example: [{ phrase: 'Crisis performer', door: 'order', desc: 'The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved.' }],
   },
 
   shadows: {
-    _meta: { tier: 'free', varyBy: ['stem', 'band'], section: 'Shadows row (band-tagged pool ×5 → chart sees ×3)', itemShape: 'TaggedPoolItem' },
-    type: 'object[]', arrayLen: 5, required: true,
+    _meta: { tier: 'free', varyBy: ['stem', 'chart roles'], section: 'Shadows row (door-tagged pool ×7 → chart sees ×3)', itemShape: 'TaggedPoolItem' },
+    type: 'object[]', arrayLen: null, required: true,
     itemShape: SHAPES.TaggedPoolItem,
-    note: 'Symmetric with gifts — same pool construct and selection law.',
-    example: [{ phrase: 'Endless second-guessing', desc: "You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished.", bands: ['open'] }],
+    note: 'Symmetric with gifts: a shadow face per function = the function overgrown (REA_02 §4b). selectPoolByDoor picks one per friction energy, core first, in the manual\'s EASE order.',
+    example: [{ phrase: 'Stays decided', door: 'body', desc: 'Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut.' }],
   },
 
   // ─────────────────────────────────────────────────────────────

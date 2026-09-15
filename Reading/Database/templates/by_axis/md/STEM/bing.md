@@ -10,7 +10,7 @@
 | **key** | 丙 |
 | **canonical name** | The Sun |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) |
+| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) |
 | **sources** | Elementum_App/src/content/archetypeSource.js · src/content/reading/readingContent.js (DM_READING) · buildIdentity |
 
 ## Candidate variables
@@ -26,46 +26,75 @@
 | `dm_mechanism` | Yang Fire that gives without dimming — radiance steadied by what it warms. |
 | `yourNature_desc` | You brighten the day of whoever's near you, and none of it is on purpose. The light just runs, morning to night, on you as fuel. People plan around your warmth the way they plan around daylight, and asking what it costs occurs to no one. You included. |
 | `dm_overview` | The Sun is Yang Fire, the fire that no one lit and no one owns. It keeps high summer and full noon, opening every market and warming every back without asking a single name. The sky itself is its lantern. Everything that grows turns toward it, and on the day it slips behind clouds, the whole village looks up and wonders. |
-| `gifts[0].phrase` | Instantly likable |
+| `gifts[0].phrase` | Liked on arrival |
 | `gifts[0].dim` | first impressions |
-| `gifts[0].desc` | Strangers relax around you before you've said much of anything. Guards drop, small talk turns real, and nobody can quite explain why. |
-| `gifts[0].bands` | all |
+| `gifts[0].door` | expression |
+| `gifts[0].desc` | People are glad you are there before you have said a word. It is the warmth, not the talk. |
 | `gifts[1].phrase` | Lifts the mood |
 | `gifts[1].dim` | atmosphere |
+| `gifts[1].door` | expression |
 | `gifts[1].desc` | A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did. |
-| `gifts[1].bands` | all |
 | `gifts[2].phrase` | No hidden agenda |
 | `gifts[2].dim` | hard days |
+| `gifts[2].door` | body |
 | `gifts[2].desc` | Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out. |
-| `gifts[2].bands` | concentrated |
 | `gifts[3].phrase` | First to celebrate |
 | `gifts[3].dim` | others' wins |
+| `gifts[3].door` | action |
 | `gifts[3].desc` | Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it. |
-| `gifts[3].bands` | balanced · open |
 | `gifts[4].phrase` | Keeps it close |
 | `gifts[4].dim` | close bonds |
+| `gifts[4].door` | body |
 | `gifts[4].desc` | The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully. |
-| `gifts[4].bands` | open |
+| `gifts[5].phrase` | Feeds on daylight |
+| `gifts[5].dim` | refueling |
+| `gifts[5].door` | mind |
+| `gifts[5].desc` | You feed on what is around you. A good morning, a good friend, a good idea, and you are lit again. |
+| `gifts[6].phrase` | Catches the mood |
+| `gifts[6].dim` | reading a mood |
+| `gifts[6].door` | mind |
+| `gifts[6].desc` | You know the weather of a place the moment you walk in, and you adjust your light to it. |
+| `gifts[7].phrase` | Bright under pressure |
+| `gifts[7].dim` | bad days |
+| `gifts[7].door` | order |
+| `gifts[7].desc` | The harder the day, the steadier the shine. People stand nearer to you when things go wrong. |
 | `shadows[0].phrase` | Runs on empty |
 | `shadows[0].dim` | personal reserves |
+| `shadows[0].door` | body |
 | `shadows[0].desc` | You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks. |
-| `shadows[0].bands` | all |
 | `shadows[1].phrase` | Allergic to gloom |
 | `shadows[1].dim` | heavy feelings |
+| `shadows[1].door` | expression |
 | `shadows[1].desc` | A sad silence starts and you're already reaching for the joke, the fix, the bright side. Some feelings needed to sit a while longer. People learn to take their heavy things elsewhere. |
-| `shadows[1].bands` | all |
-| `shadows[2].phrase` | Taken for granted |
+| `shadows[2].phrase` | Sends no bill |
 | `shadows[2].dim` | recognition |
-| `shadows[2].desc` | Your brightness is treated like the sun. Always there, nobody's job to maintain. The one day it dims, people ask what's wrong with you, not what it cost. |
-| `shadows[2].bands` | all |
+| `shadows[2].door` | action |
+| `shadows[2].desc` | You give the warmth away and never send the bill. Years in, nobody knows there was one, and you are the last to check the balance. |
 | `shadows[3].phrase` | Fills every silence |
 | `shadows[3].dim` | quiet moments |
+| `shadows[3].door` | expression |
 | `shadows[3].desc` | Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade. |
-| `shadows[3].bands` | concentrated |
 | `shadows[4].phrase` | Smiles on schedule |
 | `shadows[4].dim` | authenticity |
+| `shadows[4].door` | order |
 | `shadows[4].desc` | The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed. |
-| `shadows[4].bands` | open |
+| `shadows[5].phrase` | Last log burning |
+| `shadows[5].dim` | the last reserve |
+| `shadows[5].door` | body |
+| `shadows[5].desc` | The reserve is gone and the light is still on. You will find out tomorrow what that cost. |
+| `shadows[6].phrase` | Chokes on fuel |
+| `shadows[6].dim` | taking on more |
+| `shadows[6].door` | mind |
+| `shadows[6].desc` | Another book, another course, another person to feed on. The fire is choking on the pile. |
+| `shadows[7].phrase` | Buried in ideas |
+| `shadows[7].dim` | too many plans |
+| `shadows[7].door` | mind |
+| `shadows[7].desc` | So much to burn that nothing catches. The best plan is under six others. |
+| `door_note.body` | Fire |
+| `door_note.mind` | Wood |
+| `door_note.expression` | Earth |
+| `door_note.action` | Metal |
+| `door_note.order` | Water |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -123,3 +152,45 @@
 | `blocks[4].patterns` | pure · rooted · flowing · forging · tested |
 | `blocks[4].priority.default` | 5 |
 | `blocks[4].text.default` | That you sometimes don't know whether the warmth is something you're choosing or something that just runs regardless. The giving can feel less like a gift and more like a structural fact — which makes it genuinely difficult to protect, because it's hard to guard something that operates before you've decided to give it. |
+| `retired_band_pools.note` | band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band) |
+| `retired_band_pools.gifts[0].phrase` | Instantly likable |
+| `retired_band_pools.gifts[0].dim` | first impressions |
+| `retired_band_pools.gifts[0].desc` | Strangers relax around you before you've said much of anything. Guards drop, small talk turns real, and nobody can quite explain why. |
+| `retired_band_pools.gifts[0].bands` | all |
+| `retired_band_pools.gifts[1].phrase` | Lifts the mood |
+| `retired_band_pools.gifts[1].dim` | atmosphere |
+| `retired_band_pools.gifts[1].desc` | A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did. |
+| `retired_band_pools.gifts[1].bands` | all |
+| `retired_band_pools.gifts[2].phrase` | No hidden agenda |
+| `retired_band_pools.gifts[2].dim` | hard days |
+| `retired_band_pools.gifts[2].desc` | Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out. |
+| `retired_band_pools.gifts[2].bands` | concentrated |
+| `retired_band_pools.gifts[3].phrase` | First to celebrate |
+| `retired_band_pools.gifts[3].dim` | others' wins |
+| `retired_band_pools.gifts[3].desc` | Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it. |
+| `retired_band_pools.gifts[3].bands` | balanced · open |
+| `retired_band_pools.gifts[4].phrase` | Keeps it close |
+| `retired_band_pools.gifts[4].dim` | close bonds |
+| `retired_band_pools.gifts[4].desc` | The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully. |
+| `retired_band_pools.gifts[4].bands` | open |
+| `retired_band_pools.shadows[0].phrase` | Runs on empty |
+| `retired_band_pools.shadows[0].dim` | personal reserves |
+| `retired_band_pools.shadows[0].desc` | You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks. |
+| `retired_band_pools.shadows[0].bands` | all |
+| `retired_band_pools.shadows[1].phrase` | Allergic to gloom |
+| `retired_band_pools.shadows[1].dim` | heavy feelings |
+| `retired_band_pools.shadows[1].desc` | A sad silence starts and you're already reaching for the joke, the fix, the bright side. Some feelings needed to sit a while longer. People learn to take their heavy things elsewhere. |
+| `retired_band_pools.shadows[1].bands` | all |
+| `retired_band_pools.shadows[2].phrase` | Taken for granted |
+| `retired_band_pools.shadows[2].dim` | recognition |
+| `retired_band_pools.shadows[2].desc` | Your brightness is treated like the sun. Always there, nobody's job to maintain. The one day it dims, people ask what's wrong with you, not what it cost. |
+| `retired_band_pools.shadows[2].bands` | all |
+| `retired_band_pools.shadows[3].phrase` | Fills every silence |
+| `retired_band_pools.shadows[3].dim` | quiet moments |
+| `retired_band_pools.shadows[3].desc` | Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade. |
+| `retired_band_pools.shadows[3].bands` | concentrated |
+| `retired_band_pools.shadows[4].phrase` | Smiles on schedule |
+| `retired_band_pools.shadows[4].dim` | authenticity |
+| `retired_band_pools.shadows[4].desc` | The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed. |
+| `retired_band_pools.shadows[4].bands` | open |
+| `retired_thin_self_items` |  |

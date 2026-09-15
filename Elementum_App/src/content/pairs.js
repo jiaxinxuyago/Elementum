@@ -33,6 +33,10 @@ export const PAIR_CELLS = {
       advise_friction: 'Force without direction becomes pressure on the vessel. Spend it hard and on purpose: train until tired, walk far, build with your hands. Cap active projects at two. When restlessness spikes, exercise before you commit to anything new.',
     },
     cta_verdict: 'You recover by growing, and stillness drains you faster than effort ever will, so your health runs on having something alive to tend.',
+    carry: {
+      catalyst: { clause: `The trunk doubts itself: direction borrowed, growth waiting for permission.`, remedy: `Start something and let it grow visibly yours.` },
+      friction: { clause: `The canopy closes: growth so dense no other light gets in, growth for growth’s own sake.`, remedy: `Thin the branches and let the forest breathe.` },
+    },
   },
   '木_火': {
     mechanism: {
@@ -49,6 +53,11 @@ export const PAIR_CELLS = {
       advise_friction: 'An audience is a loan against tomorrow. Borrow less: pull the launch dates back by half, decline one appearance a month, and let the next thing be seen only when it is done. Practice being unimpressive in safe company.',
     },
     cta_verdict: 'What you have grown quietly wants a stage, and the warmth you release when you finally speak is what people remember you by.',
+    carry: {
+      catalyst: { clause: `The wood stays green: years of growth and nothing kindled, reach without light.`, remedy: `Show the work, tell the story, let it catch.` },
+      friction: { clause: `The burning outruns the growing: everything lit the moment it grows, no branch left on the tree.`, remedy: `Bank the fire and let some growth stand.` },
+      wide: { clause: `Fire is the widest door, the light everything you grow was reaching for.` },
+    },
   },
   '木_土': {
     mechanism: {
@@ -65,6 +74,11 @@ export const PAIR_CELLS = {
       advise_friction: 'Lightness is also a form of wealth. Sell, delegate, or close one standing obligation this month. Before acquiring anything, name its yearly cost in hours. Keep a short list of what you would defend in a hard year, and loosen everything off it.',
     },
     cta_verdict: 'You build by tending ground, patient claims that compound, and your fortune favors what you can hold for years over what you can grab today.',
+    carry: {
+      catalyst: { clause: `The roots float: plenty of reaching, nothing held, growth with no ground under it.`, remedy: `Buy in, commit, root somewhere real.` },
+      friction: { clause: `The holding never stops: every slope claimed, every acre worked, roots spread past what the tree can feed.`, remedy: `Hold less hillside, hold it deeper.` },
+      wide: { clause: `Earth is the widest door, the ground you were built to take root in.` },
+    },
   },
   '木_金': {
     mechanism: {
@@ -81,6 +95,11 @@ export const PAIR_CELLS = {
       advise_friction: 'Standards should serve the thing growing, never the other way around. Keep the two judges whose notes make you better and mute the rest. Answer critique after a night, never in the hour. Break one harmless rule a month to remember you can.',
     },
     cta_verdict: 'Discipline reaches you as a blade, exacting people, hard standards, and every cut you accept on purpose becomes shape you get to keep.',
+    carry: {
+      catalyst: { clause: `Nothing prunes you: growth in every direction and fruit in none.`, remedy: `Invite the standard, the editor, the coach with shears.` },
+      friction: { clause: `The cutting never stops: cut after cut until growing feels like a fault.`, remedy: `Step back from blades that prune for pruning’s sake.` },
+      wide: { clause: `Metal is the widest door, the shears that turn growth into fruit.` },
+    },
   },
   '木_水': {
     mechanism: {
@@ -97,6 +116,11 @@ export const PAIR_CELLS = {
       advise_friction: 'A mind can also overwater. Close the intake and let what you know settle: set a decision date and honor it, act on the last book before opening the next, and take one full day a week with nothing new coming in.',
     },
     cta_verdict: 'Your thinking absorbs like rain into roots, slow and total, and what you learn deeply once feeds you for decades.',
+    carry: {
+      catalyst: { clause: `The canopy outpaces the rain: ambition still reaching while the soil dries.`, remedy: `Rest, read, go quiet and refill.` },
+      friction: { clause: `The ground floods: roots soaked past drinking, growth postponed for one more season of preparation.`, remedy: `Trees also need sun.` },
+      wide: { clause: `Water is the widest door, the rain the whole tree drinks from.` },
+    },
   },
   '火_木': {
     mechanism: {
@@ -113,6 +137,11 @@ export const PAIR_CELLS = {
       advise_friction: 'Readiness is proven only in the open. Book the thing you have been training for, this month, at whatever level you are. Let one plan ship at eighty percent. When the urge to prepare rises, ask what it is protecting you from.',
     },
     cta_verdict: 'Your mind gathers fuel long before it flares, and the ideas you feed patiently become the insights people call sudden.',
+    carry: {
+      catalyst: { clause: `The flame eats scraps: brilliance flaring on no reserves, warmth borrowed from tomorrow.`, remedy: `Learn, gather, befriend, store.` },
+      friction: { clause: `The woodpile buries the fire: fuel hoarded past burning, preparation stacked so high the flame never gets lit.`, remedy: `Pull a branch off the pile and strike.` },
+      wide: { clause: `Wood is the widest door, the fuel your light was waiting for.` },
+    },
   },
   '火_火': {
     mechanism: {
@@ -129,6 +158,10 @@ export const PAIR_CELLS = {
       advise_friction: 'Heat needs somewhere honest to go or it goes everywhere. Train to actual sweat most days. Keep one evening a week completely unplanned and endure it. Put the phone down an hour before bed and let the engine actually idle.',
     },
     cta_verdict: 'Your strength arrives in blazes and burns out in private, and how you refill between fires decides almost everything else in your chart.',
+    carry: {
+      catalyst: { clause: `The flame apologizes for shining: warmth dialed down, light waiting to be invited.`, remedy: `Take the stage you keep declining.` },
+      friction: { clause: `The light crowds out the sky.`, remedy: `Stars are seen at night.` },
+    },
   },
   '火_土': {
     mechanism: {
@@ -145,6 +178,11 @@ export const PAIR_CELLS = {
       advise_friction: 'Some warmth is meant to be spent, never stored. Let the next good idea stay a conversation. Retire one system you maintain out of habit. Pour your building energy into the single structure that actually matters this year, and let the rest be evenings.',
     },
     cta_verdict: 'Your heat leaves you as something solid, homes, habits, made things, and people trust what you build longer than what you say.',
+    carry: {
+      catalyst: { clause: `The fire leaves no ash: heat and light, nothing banked, nothing built from the burning.`, remedy: `Teach it, write it, found it.` },
+      friction: { clause: `Every spark gets pressed into a monument: output hardening faster than it can live.`, remedy: `Not every flame must found something.` },
+      wide: { clause: `Earth is the widest door, the hearth that keeps what you burn.` },
+    },
   },
   '火_金': {
     mechanism: {
@@ -161,6 +199,11 @@ export const PAIR_CELLS = {
       advise_friction: 'Finished things are load-bearing, so stop testing them. Close three open loops this week and do not reopen them. Give every task a final pass, then a lock. Aim the reworking energy at one genuinely unsolved problem instead.',
     },
     cta_verdict: 'You act by forging, heat applied until something keeps its shape, and your money follows the finished piece rather than the bright idea.',
+    carry: {
+      catalyst: { clause: `The forge stands cold: heat with nothing hard to work, charm with no asset under it.`, remedy: `Take on the difficult, valuable thing.` },
+      friction: { clause: `The melting never stops: everything softened for reworking, nothing allowed to cool and keep an edge.`, remedy: `A forge needs objects, not only fire.` },
+      wide: { clause: `Metal is the widest door, the hard thing your heat was made to work.` },
+    },
   },
   '火_水': {
     mechanism: {
@@ -177,6 +220,11 @@ export const PAIR_CELLS = {
       advise_friction: 'Prudence past its dose becomes fear with a clipboard. Give small decisions a five-minute timer. Reserve real review for the truly irreversible. Once a month, act on a warm impulse the same day it arrives and audit the result later.',
     },
     cta_verdict: 'Pressure reaches you cool and quiet, and the calm authorities you let bank your fire are the reason it lasts the night.',
+    carry: {
+      catalyst: { clause: `Nothing checks the burn: enthusiasm with no depth gauge, light that has never been rained on.`, remedy: `Seek the cold reviewer, the quiet counsel.` },
+      friction: { clause: `The rain never lifts: constant drizzle on every spark, caution soaking the kindling before it catches.`, remedy: `A doused fire serves no one.` },
+      wide: { clause: `Water is the widest door, the depth that keeps the burn honest.` },
+    },
   },
   '土_木': {
     mechanism: {
@@ -193,6 +241,11 @@ export const PAIR_CELLS = {
       advise_friction: 'Care that never rests its fields goes barren. List who actually needs you this season and hand one standing duty back, kindly and completely. Say a full yes to fewer things. Plant something that feeds you and give it the best hour.',
     },
     cta_verdict: 'Your obligations are alive, people rooted in your ground, and the claims you keep pruned are what hold your hillside together.',
+    carry: {
+      catalyst: { clause: `Nothing roots in you: ground with no claim on it, steadiness serving no living thing.`, remedy: `Take on something growing and let it grip.` },
+      friction: { clause: `The roots take everything: every living thing anchored in your acre, soil exhausted by what it holds.`, remedy: `You are ground, not groundskeeper to everyone.` },
+      wide: { clause: `Wood is the widest door, the living thing your ground exists to hold.` },
+    },
   },
   '土_火': {
     mechanism: {
@@ -209,6 +262,11 @@ export const PAIR_CELLS = {
       advise_friction: 'Attention is the meal, and yours is being eaten as snacks. Cut the feeds to one sitting a day. Give the freed hour to one slow subject and stay a month. Let yourself be bored on purpose until depth becomes interesting again.',
     },
     cta_verdict: 'Your mind learns by warmth: lessons only settle once something about them catches, and what moves you once instructs you forever.',
+    carry: {
+      catalyst: { clause: `The field goes gray: duties held on cold ground, nothing warm coming in.`, remedy: `Attend the feast.` },
+      friction: { clause: `The warmth never lets up: comfort layered until the ground never firms and standing feels unnecessary.`, remedy: `Walk off the hearth and bear some weather.` },
+      wide: { clause: `Fire is the widest door, the warmth that lets the ground grow anything.` },
+    },
   },
   '土_土': {
     mechanism: {
@@ -225,6 +283,10 @@ export const PAIR_CELLS = {
       advise_friction: 'Steadiness needs motion the way ground needs rain. Walk daily at the same hour until it is simply weather. Change one fixed habit each season purely to prove you can. Say yes to one invitation a month that mildly inconveniences you.',
     },
     cta_verdict: 'Your endurance is so quiet you forget it has limits, and the day you finally feel tired is years after you first were.',
+    carry: {
+      catalyst: { clause: `The ground doubts its own bearing: steadiness performed, footing borrowed.`, remedy: `Keep one promise to yourself so long it becomes terrain.` },
+      friction: { clause: `The ground packs hard: so much steadiness nothing new can root, stillness sealed into immobility.`, remedy: `Even bedrock is improved by weather.` },
+    },
   },
   '土_金': {
     mechanism: {
@@ -241,6 +303,11 @@ export const PAIR_CELLS = {
       advise_friction: 'A slow well serves best when it is pumped rarely. Halve your output commitments for a quarter. Let the remaining work carry your full standard. Answer fewer threads, and let silence do some of your talking again.',
     },
     cta_verdict: 'You speak rarely and it lands like something forged, and the few words you release outlive whole conversations other people spent.',
+    carry: {
+      catalyst: { clause: `The ore stays buried: depth with no expression, patience that never mints anything.`, remedy: `Finish a piece, publish the standard.` },
+      friction: { clause: `The mining never stops: everything minted, the mountain hollowed for output.`, remedy: `Your silence is part of the deposit.` },
+      wide: { clause: `Metal is the widest door, the ore your mountain was keeping.` },
+    },
   },
   '土_水': {
     mechanism: {
@@ -257,6 +324,11 @@ export const PAIR_CELLS = {
       advise_friction: 'A well-built channel does not need a warden. Automate the transfers and check monthly, on one fixed day. Archive whatever sat watched but untouched for ninety days. Let one week a quarter pass entirely unmonitored, and spend the attention on something that cannot be refreshed.',
     },
     cta_verdict: 'You act by channeling what moves, and wealth gathers wherever you set banks for a current, slow claims that irrigate for decades.',
+    carry: {
+      catalyst: { clause: `The banks hold no river: structure ready, nothing flowing, canals waiting on rain.`, remedy: `Go where things move and channel some.` },
+      friction: { clause: `The damming never stops: every stream metered, flow managed until nothing pools for joy.`, remedy: `Some water is for watching.` },
+      wide: { clause: `Water is the widest door, the river your banks were built for.` },
+    },
   },
   '金_木': {
     mechanism: {
@@ -273,6 +345,11 @@ export const PAIR_CELLS = {
       advise_friction: 'A field is judged at harvest, and yours keeps skipping the judging. Twice a year, walk the rows honestly: kill one dead thing out loud, feed the two that actually fruit, and spend one fenced-off risk on purpose. Judge every habit by its yield, and never by its years of service.',
     },
     cta_verdict: 'You act by cutting away whatever wastes the light, and what you care for slowly ends up bearing fruit that careless hands never get.',
+    carry: {
+      catalyst: { clause: `The knife has nothing to prune: skill idling without a project worth it.`, remedy: `Pick one living ambition and start cutting.` },
+      friction: { clause: `The pruning never stops: forests of projects, an edge worn on material that never ends.`, remedy: `Cut fewer branches, and finish them.` },
+      wide: { clause: `Wood is the widest door, the material the knife is for.` },
+    },
   },
   '金_火': {
     mechanism: {
@@ -289,6 +366,11 @@ export const PAIR_CELLS = {
       advise_friction: 'Command works best rationed. Before taking over, ask one question and wait for the whole answer. Rank the week’s fires and let the bottom three burn out alone. Schedule the rest before the crash schedules it for you. Order people can breathe in is the only kind that holds.',
     },
     cta_verdict: 'Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull.',
+    carry: {
+      catalyst: { clause: `Nothing tempers you: an edge that keeps its first shape and calls it character.`, remedy: `Take the demanding role, the audit, the arena.` },
+      friction: { clause: `The forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves.`, remedy: `Step out of the fire long enough to hold an edge.` },
+      wide: { clause: `Fire is the widest door, the forge that finishes the edge.` },
+    },
   },
   '金_土': {
     mechanism: {
@@ -305,6 +387,11 @@ export const PAIR_CELLS = {
       advise_friction: 'At some point more learning is just fear with a reading list. Trade study for evidence: for every hour that goes in, one small thing comes out where someone can see it. Give each research topic a decision date. Finish one old course before any new one gets your money.',
     },
     cta_verdict: 'Your mind takes things in slowly and keeps them forever, and your best judgments are the ones you let sit overnight.',
+    carry: {
+      catalyst: { clause: `The mountain goes hungry: a keen edge with nothing behind it, sharpness spent faster than it forms.`, remedy: `Rest and study are smelting, not stalling.` },
+      friction: { clause: `The shelter closes over the blade: so much preparation that the edge never leaves the mine.`, remedy: `Dig out and cut something real.` },
+      wide: { clause: `Earth is the widest door, the ground the ore grows in.` },
+    },
   },
   '金_金': {
     mechanism: {
@@ -321,6 +408,10 @@ export const PAIR_CELLS = {
       advise_friction: 'A body built for effort needs effort to be at peace. Give it a hard weekly outlet, lifting, long walks, manual work. Pair every sitting-heavy day with something physical. When patience runs short, train first and talk after.',
     },
     cta_verdict: 'You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill.',
+    carry: {
+      catalyst: { clause: `The line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last.`, remedy: `Practice your craft alone until it rings.` },
+      friction: { clause: `The edge seals itself in: so much certainty that nothing else gets past it.`, remedy: `Honor the standard, and let one trusted voice through.` },
+    },
   },
   '金_水': {
     mechanism: {
@@ -337,6 +428,11 @@ export const PAIR_CELLS = {
       advise_friction: 'A river with no banks is a swamp, even a pleasant one. Give your talent one container: one project, one hour, the same time every day. Let yourself be bothered on purpose by one thing that matters. And make the treat follow the work, never replace it.',
     },
     cta_verdict: 'Your precision leaves you as flow, and the things you finally say arrive so smooth nobody sees how long you sharpened them.',
+    carry: {
+      catalyst: { clause: `This channel shows as pressure without release: much forged, little said.`, remedy: `Writing, speaking, sharing work early lets the blade breathe.` },
+      friction: { clause: `The flow turns to flood: output for its own sake, saying instead of shaping.`, remedy: `Cut the noise and the water clears.` },
+      wide: { clause: `Water is the widest door, the channel that lets the blade breathe.` },
+    },
   },
   '水_木': {
     mechanism: {
@@ -353,6 +449,11 @@ export const PAIR_CELLS = {
       advise_friction: 'Generosity without limits feeds no one well for long. Count what you are currently growing, keep the three that matter, and let the rest go. Decline one mentorship ask a month. Water something of yours first, every single week.',
     },
     cta_verdict: 'What you feel becomes what you grow, and the people and projects you quietly water are your real body of work.',
+    carry: {
+      catalyst: { clause: `The rain withholds: depth circling underground, nothing green standing up from it.`, remedy: `Mentor someone, seed the idea, water a thing in public.` },
+      friction: { clause: `The rain never closes: everything that stands still gets watered, depth drained into other people’s forests.`, remedy: `Rain is also allowed to rest.` },
+      wide: { clause: `Wood is the widest door, the green thing your rain is for.` },
+    },
   },
   '水_火': {
     mechanism: {
@@ -369,6 +470,11 @@ export const PAIR_CELLS = {
       advise_friction: 'Your edge is patience, so defend it from excitement. Let two opportunities pass for every one you take. Take only what survives a week of waiting. Keep a cooling-off rule for anything urgent, because urgency is usually someone else’s deadline.',
     },
     cta_verdict: 'You act by choosing which fires to feed, and your fortune follows the few flames you steady rather than the many you chase.',
+    carry: {
+      catalyst: { clause: `Nothing bright is governed: depth with no stake in the blaze, wisdom watching value burn past.`, remedy: `Step toward the bright loud thing.` },
+      friction: { clause: `The managing never stops: every bright thing dampened into strategy, no fire left just for warmth.`, remedy: `Let one blaze run wild and enjoy it.` },
+      wide: { clause: `Fire is the widest door, the bright thing your depth should claim.` },
+    },
   },
   '水_土': {
     mechanism: {
@@ -385,6 +491,11 @@ export const PAIR_CELLS = {
       advise_friction: 'A schedule should hold your life, never replace it. Leave one afternoon a week unscheduled and guard the emptiness. Renegotiate the obligation you dread most. Each quarter, drop one commitment that survives on habit alone.',
     },
     cta_verdict: 'Structure is what turns your depth into force, and the steady commitments you resent a little are exactly where your power compounds.',
+    carry: {
+      catalyst: { clause: `Nothing banks you: depth spreading wide and arriving nowhere, freedom without force.`, remedy: `Accept the role, the rhythm, the walls that aim you.` },
+      friction: { clause: `The banks close in: current squeezed into a schedule until the water forgets it moves.`, remedy: `Rivers are meant to breathe.` },
+      wide: { clause: `Earth is the widest door, the banks that turn depth into a river.` },
+    },
   },
   '水_金': {
     mechanism: {
@@ -401,6 +512,11 @@ export const PAIR_CELLS = {
       advise_friction: 'Method is scaffolding, and scaffolding is meant to come down. Skip the new framework this month. Take what you already know and apply it somewhere messy. Once a week, think on paper with no system at all and see what you actually believe.',
     },
     cta_verdict: 'Your mind sharpens whatever it absorbs, and the clean distinctions you cut in private become the clarity people borrow from you.',
+    carry: {
+      catalyst: { clause: `The spring runs shallow: intuition drawn on without refilling, depth spending faster than it condenses.`, remedy: `Study something exact and drink from it.` },
+      friction: { clause: `The rigor sets like concrete: so much refining the water never moves, depth held in cisterns of preparation.`, remedy: `A spring proves itself by flowing.` },
+      wide: { clause: `Metal is the widest door, the spring that keeps your depth refilled.` },
+    },
   },
   '水_水': {
     mechanism: {
@@ -417,5 +533,9 @@ export const PAIR_CELLS = {
       advise_friction: 'Depth stays fresh by moving. Add motion that flows, swimming, walking, cycling, and make one weekly commitment that gets you out the door regardless of mood. Say yes before the mood votes. Stir the water and watch the energy remember itself.',
     },
     cta_verdict: 'Your stamina refills in solitude and silence, and every season you skip that refill quietly borrows from the next one.',
+    carry: {
+      catalyst: { clause: `The sea doubts its depth: perception discounted, knowing deferred to louder instruments.`, remedy: `Trust one read all the way through.` },
+      friction: { clause: `The surface seals: depth stilled under so much knowing that nothing surfaces to be checked.`, remedy: `Deep water still needs shores.` },
+    },
   },
 };

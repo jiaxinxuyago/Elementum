@@ -7,7 +7,8 @@
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
-    "owner rulings 2026-08-19 (element-page restructure)"
+    "owner rulings 2026-08-19 (element-page restructure)",
+    "REA_02 §5h (the carry card; owner 2026-09-15)"
   ],
   "candidates": {
     "mechanism": {
@@ -23,7 +24,17 @@
       "advise_catalyst": "Vitality is grown, never summoned. Get daylight before noon, move every day even briefly, keep green things and green places near you. Protect one truly free evening a week. Start one small thing and let finishing it feed the next.",
       "advise_friction": "Force without direction becomes pressure on the vessel. Spend it hard and on purpose: train until tired, walk far, build with your hands. Cap active projects at two. When restlessness spikes, exercise before you commit to anything new."
     },
-    "cta_verdict": "You recover by growing, and stillness drains you faster than effort ever will, so your health runs on having something alive to tend."
+    "cta_verdict": "You recover by growing, and stillness drains you faster than effort ever will, so your health runs on having something alive to tend.",
+    "carry": {
+      "catalyst": {
+        "clause": "The trunk doubts itself: direction borrowed, growth waiting for permission.",
+        "remedy": "Start something and let it grow visibly yours."
+      },
+      "friction": {
+        "clause": "The canopy closes: growth so dense no other light gets in, growth for growth’s own sake.",
+        "remedy": "Thin the branches and let the forest breathe."
+      }
+    }
   },
   "__ore": {
     "retired_fn_body": "The Core is your endurance function: the seat where strength renews itself. With Wood doubled here, your vitality works like a living tree: it recovers by growing, and it outlasts by renewal, fresh shoots after every cutback. Your reserves are seasonal rather than constant, so honor the winters as part of the engine. A tree that never sheds snaps in the first real storm.",

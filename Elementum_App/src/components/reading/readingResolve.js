@@ -128,10 +128,12 @@ export function tenGodForEnergy(dmEl, el) {
 // P4 — the band-resolved reading: Gifts & Shadows trios (owner layout
 // 2026-08-05) plus the yourNature band variant (BAND-A corpus 2026-08-13;
 // resolveArchetype merges `${stem}_${band}` over the locked baseline).
-export function resolveDayMasterReading(stem, chart) {
+export function resolveDayMasterReading(stem, chart, doors) {
   const baseline = STEM_CARD_DATA[stem];
   if (!baseline) return null;
-  const a = resolveArchetype(stem, baseline, chart);
+  // `doors` (REA_02 §5h): the chart's open functions per pool — gifts through
+  // the catalysts, shadows through the frictions (journeyData.poolDoors).
+  const a = resolveArchetype(stem, baseline, chart, doors);
   return { nature: a.yourNature?.desc || '', gifts: a.gifts || [], shadows: a.shadows || [] };
 }
 

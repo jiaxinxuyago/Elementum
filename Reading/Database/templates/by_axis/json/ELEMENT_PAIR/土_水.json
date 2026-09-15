@@ -7,7 +7,8 @@
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
-    "owner rulings 2026-08-19 (element-page restructure)"
+    "owner rulings 2026-08-19 (element-page restructure)",
+    "REA_02 §5h (the carry card; owner 2026-09-15)"
   ],
   "candidates": {
     "mechanism": {
@@ -23,7 +24,20 @@
       "advise_catalyst": "Value moves toward whoever moves it cleanly. Keep a fixed monthly review of what flows through you, income, offers, introductions, and route each one deliberately. Answer the forwardable email same-day. Save a fixed share of every inflow first.",
       "advise_friction": "A well-built channel does not need a warden. Automate the transfers and check monthly, on one fixed day. Archive whatever sat watched but untouched for ninety days. Let one week a quarter pass entirely unmonitored, and spend the attention on something that cannot be refreshed."
     },
-    "cta_verdict": "You act by channeling what moves, and wealth gathers wherever you set banks for a current, slow claims that irrigate for decades."
+    "cta_verdict": "You act by channeling what moves, and wealth gathers wherever you set banks for a current, slow claims that irrigate for decades.",
+    "carry": {
+      "catalyst": {
+        "clause": "The banks hold no river: structure ready, nothing flowing, canals waiting on rain.",
+        "remedy": "Go where things move and channel some."
+      },
+      "friction": {
+        "clause": "The damming never stops: every stream metered, flow managed until nothing pools for joy.",
+        "remedy": "Some water is for watching."
+      },
+      "wide": {
+        "clause": "Water is the widest door, the river your banks were built for."
+      }
+    }
   },
   "__ore": {
     "retired_bonds_dip": "You hold people by being their banks: steady sides that let their current run.",

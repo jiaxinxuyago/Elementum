@@ -10,7 +10,7 @@
 | **key** | 己 |
 | **canonical name** | The Field |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) |
+| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) |
 | **sources** | Elementum_App/src/content/archetypeSource.js · src/content/reading/readingContent.js (DM_READING) · buildIdentity |
 
 ## Candidate variables
@@ -28,44 +28,65 @@
 | `dm_overview` | The Field is Yin Earth, the ground that lets itself be opened. It keeps late summer, when the year's work ripens and the soil shows what it has been quietly doing all along. It is the tilled dark earth of the family plot, taking seed, rain, even ash, and answering with harvest. All things return to it, and it turns none of them away. |
 | `gifts[0].phrase` | Anticipates needs |
 | `gifts[0].dim` | unspoken needs |
+| `gifts[0].door` | mind |
 | `gifts[0].desc` | The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did. |
-| `gifts[0].bands` | all |
 | `gifts[1].phrase` | Grows people |
 | `gifts[1].dim` | others' growth |
+| `gifts[1].door` | expression |
 | `gifts[1].desc` | People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly. |
-| `gifts[1].bands` | all |
 | `gifts[2].phrase` | Keeps every promise |
 | `gifts[2].dim` | promises |
+| `gifts[2].door` | order |
 | `gifts[2].desc` | Your care doesn't have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that. |
-| `gifts[2].bands` | concentrated |
 | `gifts[3].phrase` | Restful company |
 | `gifts[3].dim` | comfort |
+| `gifts[3].door` | body |
 | `gifts[3].desc` | Nobody performs around you. Friends unclench, say the true version, and stay an hour longer than they planned. Your presence works like fallow ground. |
-| `gifts[3].bands` | balanced · open |
 | `gifts[4].phrase` | Quietly essential |
 | `gifts[4].dim` | being noticed |
+| `gifts[4].door` | body |
 | `gifts[4].desc` | Nothing about you announces itself. But when you step back for a while, everything wilts a little, and everyone finally notices who was watering. |
-| `gifts[4].bands` | open |
+| `gifts[5].phrase` | Reads the season |
+| `gifts[5].dim` | timing |
+| `gifts[5].door` | mind |
+| `gifts[5].desc` | You know when to plant and when to leave the ground alone. Timing is the thing you never explain. |
+| `gifts[6].phrase` | Feeds the table |
+| `gifts[6].dim` | providing |
+| `gifts[6].door` | action |
+| `gifts[6].desc` | There is always enough. Nobody asks how. You made sure before they were hungry. |
 | `shadows[0].phrase` | Too agreeable |
 | `shadows[0].dim` | own preferences |
-| `shadows[0].desc` | The group picks the plan and you say it's fine. It usually is. Somewhere under all the years of fine sits a list of things you actually wanted that nobody has ever heard. |
-| `shadows[0].bands` | all |
-| `shadows[1].phrase` | Neglects own growth |
-| `shadows[1].dim` | own growth |
-| `shadows[1].desc` | Everyone else's garden is thriving under your care. Yours is the one with the weeds, waiting for a season you never schedule. |
-| `shadows[1].bands` | all |
+| `shadows[0].door` | body |
+| `shadows[0].desc` | The group picks the plan and you say it's fine. It is, mostly. Somewhere under all the years of fine sits a list of things you actually wanted that nobody has ever heard. |
+| `shadows[1].phrase` | Takes the mud |
+| `shadows[1].dim` | what gets dropped on you |
+| `shadows[1].door` | body |
+| `shadows[1].desc` | Everything anyone drops goes into you and nothing drains out. The field that grew things is turning to mud. |
 | `shadows[2].phrase` | Can't say no |
 | `shadows[2].dim` | saying no |
+| `shadows[2].door` | order |
 | `shadows[2].desc` | The request lands and the yes is out before you've checked the calendar or the tank. Refusing feels like frost, so you never learned it. |
-| `shadows[2].bands` | all |
 | `shadows[3].phrase` | Smothers a little |
 | `shadows[3].dim` | hard lessons |
+| `shadows[3].door` | expression |
 | `shadows[3].desc` | Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed. |
-| `shadows[3].bands` | concentrated |
 | `shadows[4].phrase` | Worn thin |
 | `shadows[4].dim` | personal reserves |
+| `shadows[4].door` | action |
 | `shadows[4].desc` | Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field. |
-| `shadows[4].bands` | open |
+| `shadows[5].phrase` | Burns the seedlings |
+| `shadows[5].dim` | too much heat |
+| `shadows[5].door` | mind |
+| `shadows[5].desc` | Too much heat and nothing grows. You are busy, warm, and producing nothing you wanted. |
+| `shadows[6].phrase` | Overheats on praise |
+| `shadows[6].dim` | being praised |
+| `shadows[6].door` | mind |
+| `shadows[6].desc` | Fed on praise until the ground bakes hard. The softness that made things grow is the first thing to go. |
+| `door_note.body` | Earth |
+| `door_note.mind` | Fire |
+| `door_note.expression` | Metal |
+| `door_note.action` | Water |
+| `door_note.order` | Wood |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -123,3 +144,45 @@
 | `blocks[4].patterns` | pure · rooted · flowing · forging · tested |
 | `blocks[4].priority.default` | 5 |
 | `blocks[4].text.default` | That you keep score, quietly — and that the accounting is often worse than anyone around you knows. You don't say this because saying it feels contrary to what care is supposed to be. But the gap between what's given and what returns is real, and it accumulates in you even when it isn't visible to anyone else. |
+| `retired_band_pools.note` | band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band) |
+| `retired_band_pools.gifts[0].phrase` | Anticipates needs |
+| `retired_band_pools.gifts[0].dim` | unspoken needs |
+| `retired_band_pools.gifts[0].desc` | The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did. |
+| `retired_band_pools.gifts[0].bands` | all |
+| `retired_band_pools.gifts[1].phrase` | Grows people |
+| `retired_band_pools.gifts[1].dim` | others' growth |
+| `retired_band_pools.gifts[1].desc` | People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly. |
+| `retired_band_pools.gifts[1].bands` | all |
+| `retired_band_pools.gifts[2].phrase` | Keeps every promise |
+| `retired_band_pools.gifts[2].dim` | promises |
+| `retired_band_pools.gifts[2].desc` | Your care doesn't have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that. |
+| `retired_band_pools.gifts[2].bands` | concentrated |
+| `retired_band_pools.gifts[3].phrase` | Restful company |
+| `retired_band_pools.gifts[3].dim` | comfort |
+| `retired_band_pools.gifts[3].desc` | Nobody performs around you. Friends unclench, say the true version, and stay an hour longer than they planned. Your presence works like fallow ground. |
+| `retired_band_pools.gifts[3].bands` | balanced · open |
+| `retired_band_pools.gifts[4].phrase` | Quietly essential |
+| `retired_band_pools.gifts[4].dim` | being noticed |
+| `retired_band_pools.gifts[4].desc` | Nothing about you announces itself. But when you step back for a while, everything wilts a little, and everyone finally notices who was watering. |
+| `retired_band_pools.gifts[4].bands` | open |
+| `retired_band_pools.shadows[0].phrase` | Too agreeable |
+| `retired_band_pools.shadows[0].dim` | own preferences |
+| `retired_band_pools.shadows[0].desc` | The group picks the plan and you say it's fine. It usually is. Somewhere under all the years of fine sits a list of things you actually wanted that nobody has ever heard. |
+| `retired_band_pools.shadows[0].bands` | all |
+| `retired_band_pools.shadows[1].phrase` | Neglects own growth |
+| `retired_band_pools.shadows[1].dim` | own growth |
+| `retired_band_pools.shadows[1].desc` | Everyone else's garden is thriving under your care. Yours is the one with the weeds, waiting for a season you never schedule. |
+| `retired_band_pools.shadows[1].bands` | all |
+| `retired_band_pools.shadows[2].phrase` | Can't say no |
+| `retired_band_pools.shadows[2].dim` | saying no |
+| `retired_band_pools.shadows[2].desc` | The request lands and the yes is out before you've checked the calendar or the tank. Refusing feels like frost, so you never learned it. |
+| `retired_band_pools.shadows[2].bands` | all |
+| `retired_band_pools.shadows[3].phrase` | Smothers a little |
+| `retired_band_pools.shadows[3].dim` | hard lessons |
+| `retired_band_pools.shadows[3].desc` | Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed. |
+| `retired_band_pools.shadows[3].bands` | concentrated |
+| `retired_band_pools.shadows[4].phrase` | Worn thin |
+| `retired_band_pools.shadows[4].dim` | personal reserves |
+| `retired_band_pools.shadows[4].desc` | Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field. |
+| `retired_band_pools.shadows[4].bands` | open |
+| `retired_thin_self_items` |  |

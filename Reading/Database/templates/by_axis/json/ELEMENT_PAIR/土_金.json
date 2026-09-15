@@ -7,7 +7,8 @@
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
-    "owner rulings 2026-08-19 (element-page restructure)"
+    "owner rulings 2026-08-19 (element-page restructure)",
+    "REA_02 §5h (the carry card; owner 2026-09-15)"
   ],
   "candidates": {
     "mechanism": {
@@ -23,7 +24,20 @@
       "advise_catalyst": "Scarcity is part of your signal, and shipping is the other part. Ship one polished thing a month, small is fine, finished is the point. Keep a file of your exact sentences. Volunteer the summary when talk runs long.",
       "advise_friction": "A slow well serves best when it is pumped rarely. Halve your output commitments for a quarter. Let the remaining work carry your full standard. Answer fewer threads, and let silence do some of your talking again."
     },
-    "cta_verdict": "You speak rarely and it lands like something forged, and the few words you release outlive whole conversations other people spent."
+    "cta_verdict": "You speak rarely and it lands like something forged, and the few words you release outlive whole conversations other people spent.",
+    "carry": {
+      "catalyst": {
+        "clause": "The ore stays buried: depth with no expression, patience that never mints anything.",
+        "remedy": "Finish a piece, publish the standard."
+      },
+      "friction": {
+        "clause": "The mining never stops: everything minted, the mountain hollowed for output.",
+        "remedy": "Your silence is part of the deposit."
+      },
+      "wide": {
+        "clause": "Metal is the widest door, the ore your mountain was keeping."
+      }
+    }
   },
   "__ore": {
     "retired_bonds_dip": "People keep what you make: your rare words get quoted back years later.",

@@ -10,7 +10,7 @@
 | **key** | 壬 |
 | **canonical name** | The Ocean |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) |
+| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) |
 | **sources** | Elementum_App/src/content/archetypeSource.js · src/content/reading/readingContent.js (DM_READING) · buildIdentity |
 
 ## Candidate variables
@@ -28,44 +28,65 @@
 | `dm_overview` | The Ocean is Yang Water, the water that never learned the meaning of far. Early winter is its season, pulling everything down into depth and moving on under a still surface. It is the open sea and the long river, the current that crosses what the eye gives up on. Past the harbor mouth it keeps its own maps. |
 | `gifts[0].phrase` | Big picture thinker |
 | `gifts[0].dim` | connections |
+| `gifts[0].door` | mind |
 | `gifts[0].desc` | While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out. |
-| `gifts[0].bands` | all |
 | `gifts[1].phrase` | Endlessly curious |
 | `gifts[1].dim` | learning |
+| `gifts[1].door` | mind |
 | `gifts[1].desc` | Every field, every stranger, every rabbit hole. Dinner with you can cross four centuries and never feel like a lecture. The appetite doesn't switch off. |
-| `gifts[1].bands` | all |
 | `gifts[2].phrase` | Thinks big |
 | `gifts[2].dim` | horizons |
+| `gifts[2].door` | action |
 | `gifts[2].desc` | Small plans bore you on arrival. You're drawn to the far shore, the decade plan, the version of the idea that scares the committee. |
-| `gifts[2].bands` | concentrated |
 | `gifts[3].phrase` | Even keel |
 | `gifts[3].dim` | under pressure |
+| `gifts[3].door` | order |
 | `gifts[3].desc` | Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours. |
-| `gifts[3].bands` | balanced · open |
 | `gifts[4].phrase` | Full of surprises |
 | `gifts[4].dim` | being known |
+| `gifts[4].door` | expression |
 | `gifts[4].desc` | Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned. |
-| `gifts[4].bands` | open |
-| `shadows[0].phrase` | Lost in translation |
-| `shadows[0].dim` | communication |
-| `shadows[0].desc` | What you actually think arrives at about a tenth of its size when spoken. The best of you doesn't travel well in words, and meetings never see it. |
-| `shadows[0].bands` | all |
+| `gifts[5].phrase` | Nothing rattles it |
+| `gifts[5].dim` | storms |
+| `gifts[5].door` | body |
+| `gifts[5].desc` | Storms cross the surface. Ten fathoms down, nothing has moved. |
+| `gifts[6].phrase` | Keeps its level |
+| `gifts[6].dim` | recovery |
+| `gifts[6].door` | body |
+| `gifts[6].desc` | Whatever pours in, you find your level again by morning. |
+| `shadows[0].phrase` | Starts at bottom |
+| `shadows[0].dim` | explaining yourself |
+| `shadows[0].door` | expression |
+| `shadows[0].desc` | You start where your thinking ended, ten fathoms down, and wonder why the table looks lost. |
 | `shadows[1].phrase` | Hard to know |
 | `shadows[1].dim` | close bonds |
+| `shadows[1].door` | body |
 | `shadows[1].desc` | Even the people closest to you work from a fraction. Whole regions of you stay unmapped, not hidden exactly, just never offered. |
-| `shadows[1].bands` | all |
 | `shadows[2].phrase` | Spread too thin |
 | `shadows[2].dim` | focus |
+| `shadows[2].door` | action |
 | `shadows[2].desc` | Everything interests you and nothing contains you, so the current runs in six directions at once. Vast motion, and some seasons, no arrival. |
-| `shadows[2].bands` | all |
 | `shadows[3].phrase` | Sweeps people along |
 | `shadows[3].dim` | momentum |
-| `shadows[3].desc` | The plan was already moving before anyone agreed to it. Your current is strong enough that consent sometimes arrives after departure. |
-| `shadows[3].bands` | concentrated |
-| `shadows[4].phrase` | Drifts away |
-| `shadows[4].dim` | presence |
-| `shadows[4].desc` | Mid-conversation, mid-project, mid-year, part of you quietly leaves for open water. People feel the tide go out before you've noticed you left. |
-| `shadows[4].bands` | open |
+| `shadows[3].door` | body |
+| `shadows[3].desc` | The plan was already moving before anyone agreed to it. Your current is strong enough that consent can arrive after departure. |
+| `shadows[4].phrase` | Pulled every way |
+| `shadows[4].dim` | sources |
+| `shadows[4].door` | mind |
+| `shadows[4].desc` | Every source you take in pulls a different way. The water is deep and going nowhere. |
+| `shadows[5].phrase` | Muddied by advice |
+| `shadows[5].dim` | taking counsel |
+| `shadows[5].door` | mind |
+| `shadows[5].desc` | So much counsel has gone in that the water will not clear. You cannot see your own bottom anymore. |
+| `shadows[6].phrase` | Held behind walls |
+| `shadows[6].dim` | others' rules |
+| `shadows[6].door` | order |
+| `shadows[6].desc` | Dammed by other people’s rules, the sea goes quiet. Quiet is not the same as calm. |
+| `door_note.body` | Water |
+| `door_note.mind` | Metal |
+| `door_note.expression` | Wood |
+| `door_note.action` | Fire |
+| `door_note.order` | Earth |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -123,3 +144,50 @@
 | `blocks[4].patterns` | pure · rooted · flowing · forging · tested |
 | `blocks[4].priority.default` | 5 |
 | `blocks[4].text.default` | How often you're lonely in this specific way: surrounded by capable, intelligent people and still operating in a depth no one in the room is quite reaching. Not because the people are insufficient. Because the depth is structural — it was always going to be this particular width and this particular distance down, regardless of who was in the room. |
+| `retired_band_pools.note` | band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band) |
+| `retired_band_pools.gifts[0].phrase` | Big picture thinker |
+| `retired_band_pools.gifts[0].dim` | connections |
+| `retired_band_pools.gifts[0].desc` | While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out. |
+| `retired_band_pools.gifts[0].bands` | all |
+| `retired_band_pools.gifts[1].phrase` | Endlessly curious |
+| `retired_band_pools.gifts[1].dim` | learning |
+| `retired_band_pools.gifts[1].desc` | Every field, every stranger, every rabbit hole. Dinner with you can cross four centuries and never feel like a lecture. The appetite doesn't switch off. |
+| `retired_band_pools.gifts[1].bands` | all |
+| `retired_band_pools.gifts[2].phrase` | Thinks big |
+| `retired_band_pools.gifts[2].dim` | horizons |
+| `retired_band_pools.gifts[2].desc` | Small plans bore you on arrival. You're drawn to the far shore, the decade plan, the version of the idea that scares the committee. |
+| `retired_band_pools.gifts[2].bands` | concentrated |
+| `retired_band_pools.gifts[3].phrase` | Even keel |
+| `retired_band_pools.gifts[3].dim` | under pressure |
+| `retired_band_pools.gifts[3].desc` | Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours. |
+| `retired_band_pools.gifts[3].bands` | balanced · open |
+| `retired_band_pools.gifts[4].phrase` | Full of surprises |
+| `retired_band_pools.gifts[4].dim` | being known |
+| `retired_band_pools.gifts[4].desc` | Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned. |
+| `retired_band_pools.gifts[4].bands` | open |
+| `retired_band_pools.shadows[0].phrase` | Lost in translation |
+| `retired_band_pools.shadows[0].dim` | communication |
+| `retired_band_pools.shadows[0].desc` | What you actually think arrives at about a tenth of its size when spoken. The best of you doesn't travel well in words, and meetings never see it. |
+| `retired_band_pools.shadows[0].bands` | all |
+| `retired_band_pools.shadows[1].phrase` | Hard to know |
+| `retired_band_pools.shadows[1].dim` | close bonds |
+| `retired_band_pools.shadows[1].desc` | Even the people closest to you work from a fraction. Whole regions of you stay unmapped, not hidden exactly, just never offered. |
+| `retired_band_pools.shadows[1].bands` | all |
+| `retired_band_pools.shadows[2].phrase` | Spread too thin |
+| `retired_band_pools.shadows[2].dim` | focus |
+| `retired_band_pools.shadows[2].desc` | Everything interests you and nothing contains you, so the current runs in six directions at once. Vast motion, and some seasons, no arrival. |
+| `retired_band_pools.shadows[2].bands` | all |
+| `retired_band_pools.shadows[3].phrase` | Sweeps people along |
+| `retired_band_pools.shadows[3].dim` | momentum |
+| `retired_band_pools.shadows[3].desc` | The plan was already moving before anyone agreed to it. Your current is strong enough that consent sometimes arrives after departure. |
+| `retired_band_pools.shadows[3].bands` | concentrated |
+| `retired_band_pools.shadows[4].phrase` | Drifts away |
+| `retired_band_pools.shadows[4].dim` | presence |
+| `retired_band_pools.shadows[4].desc` | Mid-conversation, mid-project, mid-year, part of you quietly leaves for open water. People feel the tide go out before you've noticed you left. |
+| `retired_band_pools.shadows[4].bands` | open |
+| `retired_thin_self_items[0].pool` | shadows |
+| `retired_thin_self_items[0].phrase` | Drifts away |
+| `retired_thin_self_items[0].dim` | presence |
+| `retired_thin_self_items[0].desc` | Mid-conversation, mid-project, mid-year, part of you quietly leaves for open water. People feel the tide go out before you've noticed you left. |
+| `retired_thin_self_items[0].bands` | open |
+| `retired_thin_self_items[0].why` | the docs repositioned 壬 from introvert-drift to vast-moving (REA_16 2026-08-05); drift is the rejected reading |

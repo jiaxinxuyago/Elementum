@@ -7,7 +7,8 @@
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
-    "owner rulings 2026-08-19 (element-page restructure)"
+    "owner rulings 2026-08-19 (element-page restructure)",
+    "REA_02 §5h (the carry card; owner 2026-09-15)"
   ],
   "candidates": {
     "mechanism": {
@@ -23,7 +24,20 @@
       "advise_catalyst": "Influence, for you, is slow, patient, and alive. Take one mentee, one junior, one growing thing, and give it a standing hour a week. Seed ideas freely and follow up seasonally. Keep a quiet list of what you have grown.",
       "advise_friction": "Generosity without limits feeds no one well for long. Count what you are currently growing, keep the three that matter, and let the rest go. Decline one mentorship ask a month. Water something of yours first, every single week."
     },
-    "cta_verdict": "What you feel becomes what you grow, and the people and projects you quietly water are your real body of work."
+    "cta_verdict": "What you feel becomes what you grow, and the people and projects you quietly water are your real body of work.",
+    "carry": {
+      "catalyst": {
+        "clause": "The rain withholds: depth circling underground, nothing green standing up from it.",
+        "remedy": "Mentor someone, seed the idea, water a thing in public."
+      },
+      "friction": {
+        "clause": "The rain never closes: everything that stands still gets watered, depth drained into other people’s forests.",
+        "remedy": "Rain is also allowed to rest."
+      },
+      "wide": {
+        "clause": "Wood is the widest door, the green thing your rain is for."
+      }
+    }
   },
   "__ore": {
     "retired_bonds_dip": "People grow near you and cannot always say why: that is your rain at work.",

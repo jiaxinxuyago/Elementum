@@ -11,42 +11,44 @@
           {
             "phrase": "First to move",
             "dim": "beginnings",
-            "desc": "While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up.",
-            "bands": [
-              "concentrated",
-              "balanced"
-            ]
+            "door": "action",
+            "desc": "While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up."
           },
           {
             "phrase": "Raises everyone's game",
             "dim": "influence on others",
-            "desc": "People around you end up aiming higher than they meant to. Your reach quietly becomes the new ceiling, and nobody remembers deciding that.",
-            "bands": "all"
+            "door": "expression",
+            "desc": "People around you end up aiming higher than they meant to. Your reach quietly becomes the new ceiling, and nobody remembers deciding that."
           },
           {
             "phrase": "Builds to last",
             "dim": "at work",
-            "desc": "You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down.",
-            "bands": [
-              "concentrated"
-            ]
+            "door": "order",
+            "desc": "You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down."
           },
           {
             "phrase": "Keeps the faith",
             "dim": "inner life",
-            "desc": "You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter.",
-            "bands": [
-              "balanced",
-              "open"
-            ]
+            "door": "body",
+            "desc": "You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter."
           },
           {
             "phrase": "Late bloomer",
             "dim": "over the years",
-            "desc": "Your progress doesn't look dramatic day to day. Then people look up and the sapling they remember is somehow taller than the fence.",
-            "bands": [
-              "open"
-            ]
+            "door": "mind",
+            "desc": "The Oak that everyone wrote off in spring is the one still standing in October. Your growth arrives on its own calendar, and it arrives."
+          },
+          {
+            "phrase": "Holds its ground",
+            "dim": "standing alone",
+            "door": "body",
+            "desc": "Wind from every side, and you are still where you were planted, still facing the same way."
+          },
+          {
+            "phrase": "Takes the lesson",
+            "dim": "hard seasons",
+            "door": "mind",
+            "desc": "One hard season teaches you what a decade of easy ones could not, and you keep it."
           }
         ]
       },
@@ -58,39 +60,44 @@
           {
             "phrase": "Nobody's fool",
             "dim": "reading people",
-            "desc": "You clock the difference between what's said and what's meant almost instantly. People stopped managing you long ago. It never worked.",
-            "bands": "all"
+            "door": "mind",
+            "desc": "You clock the difference between what's said and what's meant almost instantly. People stopped managing you long ago. It never worked."
           },
           {
             "phrase": "Finds another way",
             "dim": "obstacles",
-            "desc": "Where others push the locked door harder, you're already around the back. You arrive where you meant to, by a path nobody predicted.",
-            "bands": "all"
+            "door": "action",
+            "desc": "Where others push the locked door harder, you're already around the back. You arrive where you meant to, by a path nobody predicted."
           },
           {
             "phrase": "Wins people over",
             "dim": "trust",
-            "desc": "Not loudly, and not fast. But give it a season and the skeptics are asking your opinion first. Trust built your way tends to hold.",
-            "bands": [
-              "concentrated"
-            ]
+            "door": "expression",
+            "desc": "Not loudly, and not fast. But give it a season and the skeptics are asking your opinion first. Trust built your way tends to hold."
           },
           {
             "phrase": "Attentive friend",
             "dim": "close bonds",
-            "desc": "You track what the people around you need without being told. The birthday, the hard week, the thing they mentioned once in passing. You caught it.",
-            "bands": [
-              "balanced",
-              "open"
-            ]
+            "door": "body",
+            "desc": "You track what the people around you need without being told. The birthday, the hard week, the thing they mentioned once in passing. You caught it."
           },
           {
             "phrase": "Quiet survivor",
             "dim": "hard seasons",
-            "desc": "The storms that snapped stronger-looking people somehow didn't end you. You bent, waited, and grew back. It's a longer game than anyone realizes.",
-            "bands": [
-              "open"
-            ]
+            "door": "order",
+            "desc": "The storms that snapped stronger-looking people somehow didn't end you. You bent, waited, and grew back. It's a longer game than anyone realizes."
+          },
+          {
+            "phrase": "Regrows from little",
+            "dim": "setbacks",
+            "door": "body",
+            "desc": "Cut back to nothing in March, and by June there is a green line up the wall again."
+          },
+          {
+            "phrase": "Maps the wall",
+            "dim": "second attempts",
+            "door": "mind",
+            "desc": "Every wall you have climbed is a map you keep. The second time is never the long way."
           }
         ]
       },
@@ -100,41 +107,52 @@
         "canonical_name": "The Sun",
         "value": [
           {
-            "phrase": "Instantly likable",
+            "phrase": "Liked on arrival",
             "dim": "first impressions",
-            "desc": "Strangers relax around you before you've said much of anything. Guards drop, small talk turns real, and nobody can quite explain why.",
-            "bands": "all"
+            "door": "expression",
+            "desc": "People are glad you are there before you have said a word. It is the warmth, not the talk."
           },
           {
             "phrase": "Lifts the mood",
             "dim": "atmosphere",
-            "desc": "A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did.",
-            "bands": "all"
+            "door": "expression",
+            "desc": "A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did."
           },
           {
             "phrase": "No hidden agenda",
             "dim": "hard days",
-            "desc": "Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out.",
-            "bands": [
-              "concentrated"
-            ]
+            "door": "body",
+            "desc": "Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out."
           },
           {
             "phrase": "First to celebrate",
             "dim": "others' wins",
-            "desc": "Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it.",
-            "bands": [
-              "balanced",
-              "open"
-            ]
+            "door": "action",
+            "desc": "Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it."
           },
           {
             "phrase": "Keeps it close",
             "dim": "close bonds",
-            "desc": "The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully.",
-            "bands": [
-              "open"
-            ]
+            "door": "body",
+            "desc": "The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully."
+          },
+          {
+            "phrase": "Feeds on daylight",
+            "dim": "refueling",
+            "door": "mind",
+            "desc": "You feed on what is around you. A good morning, a good friend, a good idea, and you are lit again."
+          },
+          {
+            "phrase": "Catches the mood",
+            "dim": "reading a mood",
+            "door": "mind",
+            "desc": "You know the weather of a place the moment you walk in, and you adjust your light to it."
+          },
+          {
+            "phrase": "Bright under pressure",
+            "dim": "bad days",
+            "door": "order",
+            "desc": "The harder the day, the steadier the shine. People stand nearer to you when things go wrong."
           }
         ]
       },
@@ -146,39 +164,44 @@
           {
             "phrase": "Deeply present",
             "dim": "one-on-one",
-            "desc": "When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find.",
-            "bands": "all"
+            "door": "body",
+            "desc": "When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find."
           },
           {
             "phrase": "Misses nothing",
             "dim": "details",
-            "desc": "The small tell, the changed tone, the detail everyone walked past. You caught it, and three months later it turned out to be the whole story.",
-            "bands": "all"
+            "door": "mind",
+            "desc": "The small tell, the changed tone, the detail everyone walked past. You caught it, and three months later it turned out to be the whole story."
           },
           {
             "phrase": "Fully committed",
             "dim": "the inner circle",
-            "desc": "What you choose gets everything you have. The people and work inside your circle never have to wonder where they stand.",
-            "bands": [
-              "concentrated"
-            ]
+            "door": "body",
+            "desc": "What you choose gets everything you have. The people and work inside your circle never have to wonder where they stand."
           },
           {
             "phrase": "Rekindles people",
             "dim": "influence on others",
-            "desc": "Your belief in someone works at close range. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again.",
-            "bands": [
-              "balanced",
-              "open"
-            ]
+            "door": "expression",
+            "desc": "Your belief in someone works at close range. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again."
           },
           {
             "phrase": "Keeps the flame",
             "dim": "hard seasons",
-            "desc": "The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night.",
-            "bands": [
-              "open"
-            ]
+            "door": "order",
+            "desc": "The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night."
+          },
+          {
+            "phrase": "Studies one thing",
+            "dim": "expertise",
+            "door": "mind",
+            "desc": "One subject, years deep. You know it the way people know a face."
+          },
+          {
+            "phrase": "Tends what's near",
+            "dim": "small work",
+            "door": "action",
+            "desc": "The small work in arm’s reach gets done well and on time. That is where you build."
           }
         ]
       },
@@ -190,39 +213,44 @@
           {
             "phrase": "Everyone's rock",
             "dim": "being leaned on",
-            "desc": "Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling.",
-            "bands": "all"
+            "door": "body",
+            "desc": "Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling."
           },
           {
             "phrase": "Shows up regardless",
             "dim": "showing up",
-            "desc": "Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six.",
-            "bands": "all"
+            "door": "body",
+            "desc": "Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six."
           },
           {
             "phrase": "Calm under fire",
             "dim": "crisis",
-            "desc": "The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be.",
-            "bands": [
-              "concentrated"
-            ]
+            "door": "order",
+            "desc": "The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be."
           },
           {
             "phrase": "Safe harbor",
             "dim": "secrets",
-            "desc": "People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning.",
-            "bands": [
-              "balanced",
-              "open"
-            ]
+            "door": "mind",
+            "desc": "People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning."
           },
           {
             "phrase": "Slow and sure",
             "dim": "pace",
-            "desc": "You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely.",
-            "bands": [
-              "open"
-            ]
+            "door": "action",
+            "desc": "You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely."
+          },
+          {
+            "phrase": "Keeps the record",
+            "dim": "memory",
+            "door": "mind",
+            "desc": "You remember what was said, when, and by whom. Not to use it. Because it happened."
+          },
+          {
+            "phrase": "Says it once",
+            "dim": "speaking up",
+            "door": "expression",
+            "desc": "You say the thing one time, plainly, and do not repeat it. People learn to listen the first time."
           }
         ]
       },
@@ -234,39 +262,44 @@
           {
             "phrase": "Anticipates needs",
             "dim": "unspoken needs",
-            "desc": "The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did.",
-            "bands": "all"
+            "door": "mind",
+            "desc": "The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did."
           },
           {
             "phrase": "Grows people",
             "dim": "others' growth",
-            "desc": "People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly.",
-            "bands": "all"
+            "door": "expression",
+            "desc": "People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly."
           },
           {
             "phrase": "Keeps every promise",
             "dim": "promises",
-            "desc": "Your care doesn't have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that.",
-            "bands": [
-              "concentrated"
-            ]
+            "door": "order",
+            "desc": "Your care doesn't have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that."
           },
           {
             "phrase": "Restful company",
             "dim": "comfort",
-            "desc": "Nobody performs around you. Friends unclench, say the true version, and stay an hour longer than they planned. Your presence works like fallow ground.",
-            "bands": [
-              "balanced",
-              "open"
-            ]
+            "door": "body",
+            "desc": "Nobody performs around you. Friends unclench, say the true version, and stay an hour longer than they planned. Your presence works like fallow ground."
           },
           {
             "phrase": "Quietly essential",
             "dim": "being noticed",
-            "desc": "Nothing about you announces itself. But when you step back for a while, everything wilts a little, and everyone finally notices who was watering.",
-            "bands": [
-              "open"
-            ]
+            "door": "body",
+            "desc": "Nothing about you announces itself. But when you step back for a while, everything wilts a little, and everyone finally notices who was watering."
+          },
+          {
+            "phrase": "Reads the season",
+            "dim": "timing",
+            "door": "mind",
+            "desc": "You know when to plant and when to leave the ground alone. Timing is the thing you never explain."
+          },
+          {
+            "phrase": "Feeds the table",
+            "dim": "providing",
+            "door": "action",
+            "desc": "There is always enough. Nobody asks how. You made sure before they were hungry."
           }
         ]
       },
@@ -276,41 +309,46 @@
         "canonical_name": "The Blade",
         "value": [
           {
-            "phrase": "Instant character read",
-            "dim": "first impressions",
-            "desc": "Ten minutes into meeting someone, you already know who they are. Months later, everyone else catches up to what you saw in the first handshake.",
-            "bands": "all"
-          },
-          {
-            "phrase": "Straight talker",
-            "dim": "communication",
-            "desc": "When everyone at the table is talking around the problem, you're the one who names it. People save their hardest questions for you because you won't dress up the answer.",
-            "bands": "all"
-          },
-          {
             "phrase": "Crisis performer",
             "dim": "under pressure",
-            "desc": "The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved.",
-            "bands": [
-              "concentrated"
-            ]
+            "door": "order",
+            "desc": "The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
+          },
+          {
+            "phrase": "First-handshake read",
+            "dim": "first impressions",
+            "door": "mind",
+            "desc": "Ten minutes into meeting someone, you know who they are. Whether you say so is another matter. Months later everyone else catches up to the handshake."
+          },
+          {
+            "phrase": "No dressed-up answers",
+            "dim": "communication",
+            "door": "expression",
+            "desc": "When you do speak, you say the thing the table has been talking around. People save their hardest questions for you because the answer comes back plain."
           },
           {
             "phrase": "Quiet loyalty",
             "dim": "close bonds",
-            "desc": "Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time.",
-            "bands": [
-              "balanced",
-              "open"
-            ]
+            "door": "body",
+            "desc": "Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time."
           },
           {
             "phrase": "Careful finisher",
             "dim": "at work",
-            "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing.",
-            "bands": [
-              "open"
-            ]
+            "door": "body",
+            "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing."
+          },
+          {
+            "phrase": "Clears dead weight",
+            "dim": "trimming a plan",
+            "door": "action",
+            "desc": "Handed a plan with twelve moving parts, you find the three that matter and the nine that were there for comfort."
+          },
+          {
+            "phrase": "Practices alone",
+            "dim": "practice",
+            "door": "mind",
+            "desc": "The skill arrives finished. Nobody saw the quiet months of practice behind it, and you like it that way."
           }
         ]
       },
@@ -322,39 +360,44 @@
           {
             "phrase": "Impeccable taste",
             "dim": "quality",
-            "desc": "You know the good one from the almost-good one at a glance, the way some people can tell a note is flat. Friends borrow your eye before they buy.",
-            "bands": "all"
+            "door": "mind",
+            "desc": "You know the good one from the almost-good one at a glance, the way some people can tell a note is flat. Friends borrow your eye before they buy."
           },
           {
             "phrase": "Quality guaranteed",
             "dim": "at work",
-            "desc": "Nothing leaves your hands that you don't believe in. Years later your work is the one still holding up under inspection.",
-            "bands": "all"
+            "door": "order",
+            "desc": "Nothing leaves your hands that you don't believe in. Years later your work is the one still holding up under inspection."
           },
           {
             "phrase": "Spots the crack",
             "dim": "early warnings",
-            "desc": "You saw the flaw three months before it became the problem. You usually say it out loud exactly once, and then wait.",
-            "bands": [
-              "concentrated"
-            ]
+            "door": "mind",
+            "desc": "You saw the flaw three months before it became the problem. You say it out loud exactly once, and then wait."
           },
           {
             "phrase": "Notices the effort",
             "dim": "others' work",
-            "desc": "The detail someone worked hardest on, the one everyone else missed, is the first thing you praise. Being appreciated by you means something because you actually looked.",
-            "bands": [
-              "balanced",
-              "open"
-            ]
+            "door": "body",
+            "desc": "The detail someone worked hardest on, the one everyone else missed, is the first thing you praise. Being appreciated by you means something because you actually looked."
           },
           {
             "phrase": "Understated excellence",
             "dim": "self-presentation",
-            "desc": "You don't advertise, compete, or explain. The work speaks quietly, the taste shows in small choices, and the people who know, know.",
-            "bands": [
-              "open"
-            ]
+            "door": "expression",
+            "desc": "You don't advertise, compete, or explain. The work speaks quietly, the taste shows in small choices, and the people who know, know."
+          },
+          {
+            "phrase": "Keeps its shape",
+            "dim": "being handled",
+            "door": "body",
+            "desc": "Handled by everyone, changed by no one. You come out of every year the same stone."
+          },
+          {
+            "phrase": "Prices it right",
+            "dim": "placing value",
+            "door": "action",
+            "desc": "You know what a thing is worth and where it belongs. Placed by you, it stays placed."
           }
         ]
       },
@@ -366,39 +409,44 @@
           {
             "phrase": "Big picture thinker",
             "dim": "connections",
-            "desc": "While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out.",
-            "bands": "all"
+            "door": "mind",
+            "desc": "While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out."
           },
           {
             "phrase": "Endlessly curious",
             "dim": "learning",
-            "desc": "Every field, every stranger, every rabbit hole. Dinner with you can cross four centuries and never feel like a lecture. The appetite doesn't switch off.",
-            "bands": "all"
+            "door": "mind",
+            "desc": "Every field, every stranger, every rabbit hole. Dinner with you can cross four centuries and never feel like a lecture. The appetite doesn't switch off."
           },
           {
             "phrase": "Thinks big",
             "dim": "horizons",
-            "desc": "Small plans bore you on arrival. You're drawn to the far shore, the decade plan, the version of the idea that scares the committee.",
-            "bands": [
-              "concentrated"
-            ]
+            "door": "action",
+            "desc": "Small plans bore you on arrival. You're drawn to the far shore, the decade plan, the version of the idea that scares the committee."
           },
           {
             "phrase": "Even keel",
             "dim": "under pressure",
-            "desc": "Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours.",
-            "bands": [
-              "balanced",
-              "open"
-            ]
+            "door": "order",
+            "desc": "Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours."
           },
           {
             "phrase": "Full of surprises",
             "dim": "being known",
-            "desc": "Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned.",
-            "bands": [
-              "open"
-            ]
+            "door": "expression",
+            "desc": "Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned."
+          },
+          {
+            "phrase": "Nothing rattles it",
+            "dim": "storms",
+            "door": "body",
+            "desc": "Storms cross the surface. Ten fathoms down, nothing has moved."
+          },
+          {
+            "phrase": "Keeps its level",
+            "dim": "recovery",
+            "door": "body",
+            "desc": "Whatever pours in, you find your level again by morning."
           }
         ]
       },
@@ -410,39 +458,50 @@
           {
             "phrase": "Feels the undercurrent",
             "dim": "unspoken feelings",
-            "desc": "You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence.",
-            "bands": "all"
+            "door": "mind",
+            "desc": "You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence."
           },
           {
             "phrase": "Finds the words",
             "dim": "naming feelings",
-            "desc": "Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it.",
-            "bands": "all"
+            "door": "expression",
+            "desc": "Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it."
           },
           {
             "phrase": "Knows what helps",
             "dim": "caregiving",
-            "desc": "Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands.",
-            "bands": [
-              "concentrated"
-            ]
+            "door": "action",
+            "desc": "Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands."
           },
           {
             "phrase": "Gentle confidant",
             "dim": "secrets",
-            "desc": "People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it.",
-            "bands": [
-              "balanced",
-              "open"
-            ]
+            "door": "body",
+            "desc": "People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it."
           },
           {
             "phrase": "Changes minds softly",
             "dim": "influence on others",
-            "desc": "Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did.",
-            "bands": [
-              "open"
-            ]
+            "door": "expression",
+            "desc": "Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did."
+          },
+          {
+            "phrase": "Settles the dust",
+            "dim": "presence",
+            "door": "body",
+            "desc": "The air is calmer after you have been in it, and nobody can say what you did."
+          },
+          {
+            "phrase": "Soaks it up",
+            "dim": "learning",
+            "door": "mind",
+            "desc": "Whatever falls near you goes in and stays. Years later it comes back as knowing."
+          },
+          {
+            "phrase": "Wears down stone",
+            "dim": "under pressure",
+            "door": "order",
+            "desc": "Pressure does not stop you. Given enough seasons, the rain shapes the rock that tried to stop it."
           }
         ]
       }

@@ -10,7 +10,7 @@
 | **key** | 戊 |
 | **canonical name** | The Mountain |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) |
+| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) |
 | **sources** | Elementum_App/src/content/archetypeSource.js · src/content/reading/readingContent.js (DM_READING) · buildIdentity |
 
 ## Candidate variables
@@ -28,44 +28,65 @@
 | `dm_overview` | The Mountain is Yang Earth, the ground raised up until it touches weather. It was here before the roads and will be here after them, the wall that rivers learn to walk around. Travelers set their course by it and never ask how it is doing. It carries snow on its shoulders and the sky's own weight, and it calls the arrangement fair. |
 | `gifts[0].phrase` | Everyone's rock |
 | `gifts[0].dim` | being leaned on |
+| `gifts[0].door` | body |
 | `gifts[0].desc` | Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling. |
-| `gifts[0].bands` | all |
 | `gifts[1].phrase` | Shows up regardless |
 | `gifts[1].dim` | showing up |
+| `gifts[1].door` | body |
 | `gifts[1].desc` | Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six. |
-| `gifts[1].bands` | all |
 | `gifts[2].phrase` | Calm under fire |
 | `gifts[2].dim` | crisis |
+| `gifts[2].door` | order |
 | `gifts[2].desc` | The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be. |
-| `gifts[2].bands` | concentrated |
 | `gifts[3].phrase` | Safe harbor |
 | `gifts[3].dim` | secrets |
+| `gifts[3].door` | mind |
 | `gifts[3].desc` | People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning. |
-| `gifts[3].bands` | balanced · open |
 | `gifts[4].phrase` | Slow and sure |
 | `gifts[4].dim` | pace |
+| `gifts[4].door` | action |
 | `gifts[4].desc` | You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely. |
-| `gifts[4].bands` | open |
+| `gifts[5].phrase` | Keeps the record |
+| `gifts[5].dim` | memory |
+| `gifts[5].door` | mind |
+| `gifts[5].desc` | You remember what was said, when, and by whom. Not to use it. Because it happened. |
+| `gifts[6].phrase` | Says it once |
+| `gifts[6].dim` | speaking up |
+| `gifts[6].door` | expression |
+| `gifts[6].desc` | You say the thing one time, plainly, and do not repeat it. People learn to listen the first time. |
 | `shadows[0].phrase` | Bottles it up |
 | `shadows[0].dim` | sharing the load |
+| `shadows[0].door` | body |
 | `shadows[0].desc` | The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked. |
-| `shadows[0].bands` | all |
 | `shadows[1].phrase` | Waits too long |
 | `shadows[1].dim` | fixable problems |
+| `shadows[1].door` | mind |
 | `shadows[1].desc` | Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it. |
-| `shadows[1].bands` | all |
 | `shadows[2].phrase` | Can't let go |
 | `shadows[2].dim` | endings |
+| `shadows[2].door` | body |
 | `shadows[2].desc` | Jobs, grudges, houses, roles that ended years ago. Letting go feels like betraying everyone who leaned on the holding, so the grip stays closed. |
-| `shadows[2].bands` | all |
 | `shadows[3].phrase` | Set in stone |
 | `shadows[3].dim` | changing course |
+| `shadows[3].door` | mind |
 | `shadows[3].desc` | Once your footing is chosen, argument becomes erosion. It works on you in centuries, not conversations. People eventually stop bringing the map. |
-| `shadows[3].bands` | concentrated |
 | `shadows[4].phrase` | Quietly overwhelmed |
 | `shadows[4].dim` | capacity |
+| `shadows[4].door` | order |
 | `shadows[4].desc` | The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost. |
-| `shadows[4].bands` | open |
+| `shadows[5].phrase` | Dumps the load |
+| `shadows[5].dim` | finally speaking |
+| `shadows[5].door` | expression |
+| `shadows[5].desc` | Once you finally speak, all of it comes down at once, years of it, on whoever is standing there. |
+| `shadows[6].phrase` | Dams the river |
+| `shadows[6].dim` | letting things flow |
+| `shadows[6].door` | action |
+| `shadows[6].desc` | What could flow gets dammed. Money, plans, people, all held until the pressure shows. |
+| `door_note.body` | Earth |
+| `door_note.mind` | Fire |
+| `door_note.expression` | Metal |
+| `door_note.action` | Water |
+| `door_note.order` | Wood |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -123,3 +144,45 @@
 | `blocks[4].patterns` | pure · rooted · flowing · forging · tested |
 | `blocks[4].priority.default` | 5 |
 | `blocks[4].text.default` | That you need things too — specific things, from specific people — and have spent so long not needing anything visibly that you've almost stopped knowing how to name what those things are. You're so reliably there for everyone else that the question of what you need has largely stopped being asked. Which means it's also largely stopped being answered. |
+| `retired_band_pools.note` | band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band) |
+| `retired_band_pools.gifts[0].phrase` | Everyone's rock |
+| `retired_band_pools.gifts[0].dim` | being leaned on |
+| `retired_band_pools.gifts[0].desc` | Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling. |
+| `retired_band_pools.gifts[0].bands` | all |
+| `retired_band_pools.gifts[1].phrase` | Shows up regardless |
+| `retired_band_pools.gifts[1].dim` | showing up |
+| `retired_band_pools.gifts[1].desc` | Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six. |
+| `retired_band_pools.gifts[1].bands` | all |
+| `retired_band_pools.gifts[2].phrase` | Calm under fire |
+| `retired_band_pools.gifts[2].dim` | crisis |
+| `retired_band_pools.gifts[2].desc` | The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be. |
+| `retired_band_pools.gifts[2].bands` | concentrated |
+| `retired_band_pools.gifts[3].phrase` | Safe harbor |
+| `retired_band_pools.gifts[3].dim` | secrets |
+| `retired_band_pools.gifts[3].desc` | People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning. |
+| `retired_band_pools.gifts[3].bands` | balanced · open |
+| `retired_band_pools.gifts[4].phrase` | Slow and sure |
+| `retired_band_pools.gifts[4].dim` | pace |
+| `retired_band_pools.gifts[4].desc` | You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely. |
+| `retired_band_pools.gifts[4].bands` | open |
+| `retired_band_pools.shadows[0].phrase` | Bottles it up |
+| `retired_band_pools.shadows[0].dim` | sharing the load |
+| `retired_band_pools.shadows[0].desc` | The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked. |
+| `retired_band_pools.shadows[0].bands` | all |
+| `retired_band_pools.shadows[1].phrase` | Waits too long |
+| `retired_band_pools.shadows[1].dim` | fixable problems |
+| `retired_band_pools.shadows[1].desc` | Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it. |
+| `retired_band_pools.shadows[1].bands` | all |
+| `retired_band_pools.shadows[2].phrase` | Can't let go |
+| `retired_band_pools.shadows[2].dim` | endings |
+| `retired_band_pools.shadows[2].desc` | Jobs, grudges, houses, roles that ended years ago. Letting go feels like betraying everyone who leaned on the holding, so the grip stays closed. |
+| `retired_band_pools.shadows[2].bands` | all |
+| `retired_band_pools.shadows[3].phrase` | Set in stone |
+| `retired_band_pools.shadows[3].dim` | changing course |
+| `retired_band_pools.shadows[3].desc` | Once your footing is chosen, argument becomes erosion. It works on you in centuries, not conversations. People eventually stop bringing the map. |
+| `retired_band_pools.shadows[3].bands` | concentrated |
+| `retired_band_pools.shadows[4].phrase` | Quietly overwhelmed |
+| `retired_band_pools.shadows[4].dim` | capacity |
+| `retired_band_pools.shadows[4].desc` | The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost. |
+| `retired_band_pools.shadows[4].bands` | open |
+| `retired_thin_self_items` |  |

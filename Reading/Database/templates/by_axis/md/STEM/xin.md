@@ -10,7 +10,7 @@
 | **key** | 辛 |
 | **canonical name** | The Jewel |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) |
+| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) |
 | **sources** | Elementum_App/src/content/archetypeSource.js · src/content/reading/readingContent.js (DM_READING) · buildIdentity |
 
 ## Candidate variables
@@ -28,44 +28,65 @@
 | `dm_overview` | The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. The last of autumn belongs to it, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. Under a patient hand it is cut small and exact, holding more light than its size should allow, and it refuses to call the work done early. |
 | `gifts[0].phrase` | Impeccable taste |
 | `gifts[0].dim` | quality |
+| `gifts[0].door` | mind |
 | `gifts[0].desc` | You know the good one from the almost-good one at a glance, the way some people can tell a note is flat. Friends borrow your eye before they buy. |
-| `gifts[0].bands` | all |
 | `gifts[1].phrase` | Quality guaranteed |
 | `gifts[1].dim` | at work |
+| `gifts[1].door` | order |
 | `gifts[1].desc` | Nothing leaves your hands that you don't believe in. Years later your work is the one still holding up under inspection. |
-| `gifts[1].bands` | all |
 | `gifts[2].phrase` | Spots the crack |
 | `gifts[2].dim` | early warnings |
-| `gifts[2].desc` | You saw the flaw three months before it became the problem. You usually say it out loud exactly once, and then wait. |
-| `gifts[2].bands` | concentrated |
+| `gifts[2].door` | mind |
+| `gifts[2].desc` | You saw the flaw three months before it became the problem. You say it out loud exactly once, and then wait. |
 | `gifts[3].phrase` | Notices the effort |
 | `gifts[3].dim` | others' work |
+| `gifts[3].door` | body |
 | `gifts[3].desc` | The detail someone worked hardest on, the one everyone else missed, is the first thing you praise. Being appreciated by you means something because you actually looked. |
-| `gifts[3].bands` | balanced · open |
 | `gifts[4].phrase` | Understated excellence |
 | `gifts[4].dim` | self-presentation |
+| `gifts[4].door` | expression |
 | `gifts[4].desc` | You don't advertise, compete, or explain. The work speaks quietly, the taste shows in small choices, and the people who know, know. |
-| `gifts[4].bands` | open |
+| `gifts[5].phrase` | Keeps its shape |
+| `gifts[5].dim` | being handled |
+| `gifts[5].door` | body |
+| `gifts[5].desc` | Handled by everyone, changed by no one. You come out of every year the same stone. |
+| `gifts[6].phrase` | Prices it right |
+| `gifts[6].dim` | placing value |
+| `gifts[6].door` | action |
+| `gifts[6].desc` | You know what a thing is worth and where it belongs. Placed by you, it stays placed. |
 | `shadows[0].phrase` | Bruises easily |
 | `shadows[0].dim` | criticism |
+| `shadows[0].door` | order |
 | `shadows[0].desc` | The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep. |
-| `shadows[0].bands` | all |
 | `shadows[1].phrase` | Hard to impress |
 | `shadows[1].dim` | praise |
+| `shadows[1].door` | mind |
 | `shadows[1].desc` | People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it. |
-| `shadows[1].bands` | all |
-| `shadows[2].phrase` | Chronically disappointed |
-| `shadows[2].dim` | expectations |
-| `shadows[2].desc` | You can always see the better version that doesn't exist. The gap between possible and actual never quite closes, and living in it wears. |
-| `shadows[2].bands` | all |
+| `shadows[2].phrase` | Stays boxed up |
+| `shadows[2].dim` | being sheltered |
+| `shadows[2].door` | mind |
+| `shadows[2].desc` | Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box. |
 | `shadows[3].phrase` | Polishes forever |
 | `shadows[3].dim` | finishing |
+| `shadows[3].door` | body |
 | `shadows[3].desc` | The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive. |
-| `shadows[3].bands` | concentrated |
 | `shadows[4].phrase` | Sells self short |
 | `shadows[4].dim` | self-worth |
+| `shadows[4].door` | expression |
 | `shadows[4].desc` | The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly. |
-| `shadows[4].bands` | open |
+| `shadows[5].phrase` | Trusts one judge |
+| `shadows[5].dim` | taking advice |
+| `shadows[5].door` | body |
+| `shadows[5].desc` | The only opinion that counts on your work is yours, and it has never once been satisfied. |
+| `shadows[6].phrase` | Hoards raw stones |
+| `shadows[6].dim` | acquiring |
+| `shadows[6].door` | action |
+| `shadows[6].desc` | Every good piece deserves a setting, so you keep buying stones for settings you never make. |
+| `door_note.body` | Metal |
+| `door_note.mind` | Earth |
+| `door_note.expression` | Water |
+| `door_note.action` | Wood |
+| `door_note.order` | Fire |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -123,3 +144,45 @@
 | `blocks[4].patterns` | pure · rooted · flowing · forging · tested |
 | `blocks[4].priority.default` | 5 |
 | `blocks[4].text.default` | That the standard you apply to everything, you apply to yourself — and that this is often the hardest part. The gap between what you can perceive as possible in yourself and what you currently are is always visible to you. Which means you're almost never quite satisfied with who you are right now, regardless of what you've achieved. |
+| `retired_band_pools.note` | band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band) |
+| `retired_band_pools.gifts[0].phrase` | Impeccable taste |
+| `retired_band_pools.gifts[0].dim` | quality |
+| `retired_band_pools.gifts[0].desc` | You know the good one from the almost-good one at a glance, the way some people can tell a note is flat. Friends borrow your eye before they buy. |
+| `retired_band_pools.gifts[0].bands` | all |
+| `retired_band_pools.gifts[1].phrase` | Quality guaranteed |
+| `retired_band_pools.gifts[1].dim` | at work |
+| `retired_band_pools.gifts[1].desc` | Nothing leaves your hands that you don't believe in. Years later your work is the one still holding up under inspection. |
+| `retired_band_pools.gifts[1].bands` | all |
+| `retired_band_pools.gifts[2].phrase` | Spots the crack |
+| `retired_band_pools.gifts[2].dim` | early warnings |
+| `retired_band_pools.gifts[2].desc` | You saw the flaw three months before it became the problem. You usually say it out loud exactly once, and then wait. |
+| `retired_band_pools.gifts[2].bands` | concentrated |
+| `retired_band_pools.gifts[3].phrase` | Notices the effort |
+| `retired_band_pools.gifts[3].dim` | others' work |
+| `retired_band_pools.gifts[3].desc` | The detail someone worked hardest on, the one everyone else missed, is the first thing you praise. Being appreciated by you means something because you actually looked. |
+| `retired_band_pools.gifts[3].bands` | balanced · open |
+| `retired_band_pools.gifts[4].phrase` | Understated excellence |
+| `retired_band_pools.gifts[4].dim` | self-presentation |
+| `retired_band_pools.gifts[4].desc` | You don't advertise, compete, or explain. The work speaks quietly, the taste shows in small choices, and the people who know, know. |
+| `retired_band_pools.gifts[4].bands` | open |
+| `retired_band_pools.shadows[0].phrase` | Bruises easily |
+| `retired_band_pools.shadows[0].dim` | criticism |
+| `retired_band_pools.shadows[0].desc` | The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep. |
+| `retired_band_pools.shadows[0].bands` | all |
+| `retired_band_pools.shadows[1].phrase` | Hard to impress |
+| `retired_band_pools.shadows[1].dim` | praise |
+| `retired_band_pools.shadows[1].desc` | People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it. |
+| `retired_band_pools.shadows[1].bands` | all |
+| `retired_band_pools.shadows[2].phrase` | Chronically disappointed |
+| `retired_band_pools.shadows[2].dim` | expectations |
+| `retired_band_pools.shadows[2].desc` | You can always see the better version that doesn't exist. The gap between possible and actual never quite closes, and living in it wears. |
+| `retired_band_pools.shadows[2].bands` | all |
+| `retired_band_pools.shadows[3].phrase` | Polishes forever |
+| `retired_band_pools.shadows[3].dim` | finishing |
+| `retired_band_pools.shadows[3].desc` | The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive. |
+| `retired_band_pools.shadows[3].bands` | concentrated |
+| `retired_band_pools.shadows[4].phrase` | Sells self short |
+| `retired_band_pools.shadows[4].dim` | self-worth |
+| `retired_band_pools.shadows[4].desc` | The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly. |
+| `retired_band_pools.shadows[4].bands` | open |
+| `retired_thin_self_items` |  |

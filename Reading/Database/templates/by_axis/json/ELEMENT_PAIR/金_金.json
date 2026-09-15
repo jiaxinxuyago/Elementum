@@ -7,7 +7,8 @@
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
-    "owner rulings 2026-08-19 (element-page restructure)"
+    "owner rulings 2026-08-19 (element-page restructure)",
+    "REA_02 §5h (the carry card; owner 2026-09-15)"
   ],
   "candidates": {
     "mechanism": {
@@ -23,7 +24,17 @@
       "advise_catalyst": "Discipline that skips recovery is borrowing, and the interest is physical. Put maintenance on the calendar before it is needed: fixed bedtime, real meals, one full rest day a week. Track energy like money for one month. Treat the first sign of wear as a warning.",
       "advise_friction": "A body built for effort needs effort to be at peace. Give it a hard weekly outlet, lifting, long walks, manual work. Pair every sitting-heavy day with something physical. When patience runs short, train first and talk after."
     },
-    "cta_verdict": "You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill."
+    "cta_verdict": "You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill.",
+    "carry": {
+      "catalyst": {
+        "clause": "The line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last.",
+        "remedy": "Practice your craft alone until it rings."
+      },
+      "friction": {
+        "clause": "The edge seals itself in: so much certainty that nothing else gets past it.",
+        "remedy": "Honor the standard, and let one trusted voice through."
+      }
+    }
   },
   "__ore": {
     "retired_fn_body": "The Core is your endurance function: the seat where strength is stored and spent. With Metal doubled here, your constitution is tempered steel: slow to tire, slower to bend, holding shape under loads that fold softer frames. Your reserves run deep and cold, and you mistake that for endlessness. The craft is maintenance without occasion: oil the blade before it asks, and let rest keep your temper.",

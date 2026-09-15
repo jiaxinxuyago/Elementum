@@ -7,7 +7,8 @@
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
-    "owner rulings 2026-08-19 (element-page restructure)"
+    "owner rulings 2026-08-19 (element-page restructure)",
+    "REA_02 §5h (the carry card; owner 2026-09-15)"
   ],
   "candidates": {
     "mechanism": {
@@ -23,7 +24,20 @@
       "advise_catalyst": "Discipline, for you, is imported, so import it well. Sleep on anything irreversible. Keep a reviewer you cannot charm and show them everything big. Put a cool number on every hot plan before saying yes.",
       "advise_friction": "Prudence past its dose becomes fear with a clipboard. Give small decisions a five-minute timer. Reserve real review for the truly irreversible. Once a month, act on a warm impulse the same day it arrives and audit the result later."
     },
-    "cta_verdict": "Pressure reaches you cool and quiet, and the calm authorities you let bank your fire are the reason it lasts the night."
+    "cta_verdict": "Pressure reaches you cool and quiet, and the calm authorities you let bank your fire are the reason it lasts the night.",
+    "carry": {
+      "catalyst": {
+        "clause": "Nothing checks the burn: enthusiasm with no depth gauge, light that has never been rained on.",
+        "remedy": "Seek the cold reviewer, the quiet counsel."
+      },
+      "friction": {
+        "clause": "The rain never lifts: constant drizzle on every spark, caution soaking the kindling before it catches.",
+        "remedy": "A doused fire serves no one."
+      },
+      "wide": {
+        "clause": "Water is the widest door, the depth that keeps the burn honest."
+      }
+    }
   },
   "__ore": {
     "retired_fn_body": "The Duty is your accountability function: how order, obligation, and other people’s depths sit on you. With Water running it, accountability in you arrives quietly: the measured senior, the still question, consequences that seep rather than strike. You answer best to calm authority, and you learn to bank your fire around it. Choose water that cools you without putting you out.",

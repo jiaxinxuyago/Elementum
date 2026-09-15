@@ -1,0 +1,20 @@
+{
+  "$archetype": "tpl_pool_bridge",
+  "axis": "TEMPLATED",
+  "key": "tpl_pool_bridge",
+  "canonical_name": null,
+  "construct": "Derived slot template (REA_03 §5; REA_02 §5h)",
+  "candidate_note": "Slot-filled at runtime from derived values only (REA_03 §10 rule 3).",
+  "sources": [
+    "REA_02 §5h",
+    "DES_04 §AM.11 P4 v3"
+  ],
+  "status_note": "LIVE 2026-09-15 · P4 panel bridge lines",
+  "budget": "≤10w",
+  "candidates": {
+    "gifts": "Through the energies your chart asks you to seek.",
+    "shadows": "Through the energies already carrying weight.",
+    "gifts_balanced": "These light up when your core runs balanced.",
+    "shadows_balanced": "These swell when the balance slips."
+  }
+}

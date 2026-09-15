@@ -7,7 +7,8 @@
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
-    "owner rulings 2026-08-19 (element-page restructure)"
+    "owner rulings 2026-08-19 (element-page restructure)",
+    "REA_02 §5h (the carry card; owner 2026-09-15)"
   ],
   "candidates": {
     "mechanism": {
@@ -23,7 +24,20 @@
       "advise_catalyst": "Brilliance is mostly patience with good storage. Keep one slow project that grows monthly, a course, a craft, a language, and refuse to rush it. Finish books. Choose one person to learn from properly this year and stay teachable.",
       "advise_friction": "Readiness is proven only in the open. Book the thing you have been training for, this month, at whatever level you are. Let one plan ship at eighty percent. When the urge to prepare rises, ask what it is protecting you from."
     },
-    "cta_verdict": "Your mind gathers fuel long before it flares, and the ideas you feed patiently become the insights people call sudden."
+    "cta_verdict": "Your mind gathers fuel long before it flares, and the ideas you feed patiently become the insights people call sudden.",
+    "carry": {
+      "catalyst": {
+        "clause": "The flame eats scraps: brilliance flaring on no reserves, warmth borrowed from tomorrow.",
+        "remedy": "Learn, gather, befriend, store."
+      },
+      "friction": {
+        "clause": "The woodpile buries the fire: fuel hoarded past burning, preparation stacked so high the flame never gets lit.",
+        "remedy": "Pull a branch off the pile and strike."
+      },
+      "wide": {
+        "clause": "Wood is the widest door, the fuel your light was waiting for."
+      }
+    }
   },
   "__ore": {
     "retired_fn_body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Wood running it, your mind absorbs like a canopy: reaching for new material, grafting idea onto idea until strange hybrids fruit. You learn by gathering and by growing, and every book, mentor, and friendship becomes future firelight. Keep planting. Your brilliance burns what your curiosity stacked.",

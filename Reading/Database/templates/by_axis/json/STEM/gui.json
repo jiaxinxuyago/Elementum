@@ -10,7 +10,7 @@
     "src/content/reading/readingContent.js (DM_READING)",
     "buildIdentity"
   ],
-  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4)",
+  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited)",
   "candidates": {
     "archetype_name": "The Rain",
     "manifesto": "Felt before spoken · You are the Water that quietly changes whatever it touches.",
@@ -32,75 +32,94 @@
       {
         "phrase": "Feels the undercurrent",
         "dim": "unspoken feelings",
-        "desc": "You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence.",
-        "bands": "all"
+        "door": "mind",
+        "desc": "You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence."
       },
       {
         "phrase": "Finds the words",
         "dim": "naming feelings",
-        "desc": "Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it.",
-        "bands": "all"
+        "door": "expression",
+        "desc": "Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it."
       },
       {
         "phrase": "Knows what helps",
         "dim": "caregiving",
-        "desc": "Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands.",
-        "bands": [
-          "concentrated"
-        ]
+        "door": "action",
+        "desc": "Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands."
       },
       {
         "phrase": "Gentle confidant",
         "dim": "secrets",
-        "desc": "People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it.",
-        "bands": [
-          "balanced",
-          "open"
-        ]
+        "door": "body",
+        "desc": "People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it."
       },
       {
         "phrase": "Changes minds softly",
         "dim": "influence on others",
-        "desc": "Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did.",
-        "bands": [
-          "open"
-        ]
+        "door": "expression",
+        "desc": "Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did."
+      },
+      {
+        "phrase": "Settles the dust",
+        "dim": "presence",
+        "door": "body",
+        "desc": "The air is calmer after you have been in it, and nobody can say what you did."
+      },
+      {
+        "phrase": "Soaks it up",
+        "dim": "learning",
+        "door": "mind",
+        "desc": "Whatever falls near you goes in and stays. Years later it comes back as knowing."
+      },
+      {
+        "phrase": "Wears down stone",
+        "dim": "under pressure",
+        "door": "order",
+        "desc": "Pressure does not stop you. Given enough seasons, the rain shapes the rock that tried to stop it."
       }
     ],
     "shadows": [
       {
         "phrase": "Absorbs everything",
         "dim": "others' emotions",
-        "desc": "You walk in fine and leave carrying the argument two strangers had near you. Other people's weather soaks straight through your coat.",
-        "bands": "all"
+        "door": "mind",
+        "desc": "You walk in fine and leave carrying the argument two strangers had near you. Other people's weather soaks straight through your coat."
       },
       {
         "phrase": "Avoids the fight",
         "dim": "hard conversations",
-        "desc": "You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years.",
-        "bands": "all"
+        "door": "order",
+        "desc": "You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years."
       },
       {
         "phrase": "Marinates in it",
         "dim": "moving on",
-        "desc": "The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep.",
-        "bands": "all"
+        "door": "mind",
+        "desc": "The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep."
       },
       {
         "phrase": "Feelings as facts",
         "dim": "evidence",
-        "desc": "When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one.",
-        "bands": [
-          "concentrated"
-        ]
+        "door": "body",
+        "desc": "When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one."
       },
       {
-        "phrase": "Doubts the signal",
-        "dim": "trusting yourself",
-        "desc": "The hunch was right, and you overruled it anyway because three people sounded surer than you felt. You've learned to poll before trusting the one instrument that was working.",
-        "bands": [
-          "open"
-        ]
+        "phrase": "Loses the border",
+        "dim": "whose feeling",
+        "door": "body",
+        "desc": "Their weather becomes yours. By evening you cannot say whose sadness you are carrying."
+      },
+      {
+        "phrase": "Warns too softly",
+        "dim": "warnings",
+        "door": "expression",
+        "desc": "The true thing was said. It was said so gently that nobody heard it as a warning."
+      },
+      {
+        "phrase": "Boils off early",
+        "dim": "chasing warmth",
+        "door": "action",
+        "desc": "Every warm thing pulls you toward it, and you rise to meet it before anything lands."
       }
     ],
     "__ore": {
@@ -246,7 +265,104 @@
             "default": "That you absorb far more than you show — and that the accumulation is real and has weight. Over time, in environments that don't return what's given, this becomes something between exhaustion and a kind of grief: the specific sadness of giving something real that doesn't arrive back at the same depth."
           }
         }
+      ],
+      "retired_band_pools": {
+        "note": "band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band)",
+        "gifts": [
+          {
+            "phrase": "Feels the undercurrent",
+            "dim": "unspoken feelings",
+            "desc": "You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Finds the words",
+            "dim": "naming feelings",
+            "desc": "Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Knows what helps",
+            "dim": "caregiving",
+            "desc": "Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands.",
+            "bands": [
+              "concentrated"
+            ]
+          },
+          {
+            "phrase": "Gentle confidant",
+            "dim": "secrets",
+            "desc": "People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it.",
+            "bands": [
+              "balanced",
+              "open"
+            ]
+          },
+          {
+            "phrase": "Changes minds softly",
+            "dim": "influence on others",
+            "desc": "Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did.",
+            "bands": [
+              "open"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "phrase": "Absorbs everything",
+            "dim": "others' emotions",
+            "desc": "You walk in fine and leave carrying the argument two strangers had near you. Other people's weather soaks straight through your coat.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Avoids the fight",
+            "dim": "hard conversations",
+            "desc": "You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Marinates in it",
+            "dim": "moving on",
+            "desc": "The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Feelings as facts",
+            "dim": "evidence",
+            "desc": "When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one.",
+            "bands": [
+              "concentrated"
+            ]
+          },
+          {
+            "phrase": "Doubts the signal",
+            "dim": "trusting yourself",
+            "desc": "The hunch was right, and you overruled it anyway because three people sounded surer than you felt. You've learned to poll before trusting the one instrument that was working.",
+            "bands": [
+              "open"
+            ]
+          }
+        ]
+      },
+      "retired_thin_self_items": [
+        {
+          "pool": "shadows",
+          "phrase": "Doubts the signal",
+          "dim": "trusting yourself",
+          "desc": "The hunch was right, and you overruled it anyway because three people sounded surer than you felt. You've learned to poll before trusting the one instrument that was working.",
+          "bands": [
+            "open"
+          ],
+          "why": "thin-Body item; no shadow face for a catalyst"
+        }
       ]
+    },
+    "door_note": {
+      "body": "Water",
+      "mind": "Metal",
+      "expression": "Wood",
+      "action": "Fire",
+      "order": "Earth"
     }
   }
 }

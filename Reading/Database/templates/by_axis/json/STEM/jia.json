@@ -10,7 +10,7 @@
     "src/content/reading/readingContent.js (DM_READING)",
     "buildIdentity"
   ],
-  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4)",
+  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited)",
   "candidates": {
     "archetype_name": "The Oak",
     "manifesto": "Motion before readiness · You are the Wood that rises before the path is clear.",
@@ -32,78 +32,88 @@
       {
         "phrase": "First to move",
         "dim": "beginnings",
-        "desc": "While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up.",
-        "bands": [
-          "concentrated",
-          "balanced"
-        ]
+        "door": "action",
+        "desc": "While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up."
       },
       {
         "phrase": "Raises everyone's game",
         "dim": "influence on others",
-        "desc": "People around you end up aiming higher than they meant to. Your reach quietly becomes the new ceiling, and nobody remembers deciding that.",
-        "bands": "all"
+        "door": "expression",
+        "desc": "People around you end up aiming higher than they meant to. Your reach quietly becomes the new ceiling, and nobody remembers deciding that."
       },
       {
         "phrase": "Builds to last",
         "dim": "at work",
-        "desc": "You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down.",
-        "bands": [
-          "concentrated"
-        ]
+        "door": "order",
+        "desc": "You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down."
       },
       {
         "phrase": "Keeps the faith",
         "dim": "inner life",
-        "desc": "You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter.",
-        "bands": [
-          "balanced",
-          "open"
-        ]
+        "door": "body",
+        "desc": "You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter."
       },
       {
         "phrase": "Late bloomer",
         "dim": "over the years",
-        "desc": "Your progress doesn't look dramatic day to day. Then people look up and the sapling they remember is somehow taller than the fence.",
-        "bands": [
-          "open"
-        ]
+        "door": "mind",
+        "desc": "The Oak that everyone wrote off in spring is the one still standing in October. Your growth arrives on its own calendar, and it arrives."
+      },
+      {
+        "phrase": "Holds its ground",
+        "dim": "standing alone",
+        "door": "body",
+        "desc": "Wind from every side, and you are still where you were planted, still facing the same way."
+      },
+      {
+        "phrase": "Takes the lesson",
+        "dim": "hard seasons",
+        "door": "mind",
+        "desc": "One hard season teaches you what a decade of easy ones could not, and you keep it."
       }
     ],
     "shadows": [
       {
         "phrase": "Outpaces people",
         "dim": "close bonds",
-        "desc": "The people who love you often feel a step behind. The reaching never slows quite enough to let them catch up.",
-        "bands": "all"
+        "door": "action",
+        "desc": "The people who love you feel a step behind. The reaching never slows quite enough to let them catch up."
       },
       {
         "phrase": "Asks for nothing",
         "dim": "asking for help",
-        "desc": "Help is right there and you know it. You'd still rather struggle in private than let anyone watch you need something. Asking feels like shrinking an inch you can't get back.",
-        "bands": "all"
+        "door": "body",
+        "desc": "Help is right there and you know it. You'd still rather struggle in private than let anyone watch you need something. Asking feels like shrinking an inch you can't get back."
       },
       {
         "phrase": "Leaves things unfinished",
         "dim": "follow-through",
-        "desc": "You commit hard, build fast, then spot the next mountain before this one is settled. Someone else ends up pouring the foundation you sketched.",
-        "bands": "all"
+        "door": "expression",
+        "desc": "You commit hard, build fast, then spot the next mountain before this one is settled. Someone else ends up pouring the foundation you sketched."
       },
       {
         "phrase": "Charges ahead",
         "dim": "warnings",
-        "desc": "When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff.",
-        "bands": [
-          "concentrated"
-        ]
+        "door": "body",
+        "desc": "When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff."
       },
       {
-        "phrase": "Slow to launch",
-        "dim": "beginnings",
-        "desc": "The direction is clear and the wanting is real, but the first step keeps waiting for a readier day. The path doesn't mind. The calendar does.",
-        "bands": [
-          "open"
-        ]
+        "phrase": "Floats between plans",
+        "dim": "direction",
+        "door": "mind",
+        "desc": "Every new idea is a river, and you have followed so many that the roots are off the ground."
+      },
+      {
+        "phrase": "Waits for signs",
+        "dim": "advice",
+        "door": "mind",
+        "desc": "The move is ready. You are waiting for one more piece of advice before you make it."
+      },
+      {
+        "phrase": "Snaps under load",
+        "dim": "under rules",
+        "door": "order",
+        "desc": "Bent far enough by rules that were not yours, you do not bend. You break, and loudly."
       }
     ],
     "__ore": {
@@ -249,7 +259,107 @@
             "default": "That you often don't know what you're building toward — only that you're building. The momentum is real. The destination is often genuinely unclear even to you, which is part of why the reaching can go in so many directions before finding the thing that's actually worth the full force."
           }
         }
+      ],
+      "retired_band_pools": {
+        "note": "band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band)",
+        "gifts": [
+          {
+            "phrase": "First to move",
+            "dim": "beginnings",
+            "desc": "While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up.",
+            "bands": [
+              "concentrated",
+              "balanced"
+            ]
+          },
+          {
+            "phrase": "Raises everyone's game",
+            "dim": "influence on others",
+            "desc": "People around you end up aiming higher than they meant to. Your reach quietly becomes the new ceiling, and nobody remembers deciding that.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Builds to last",
+            "dim": "at work",
+            "desc": "You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down.",
+            "bands": [
+              "concentrated"
+            ]
+          },
+          {
+            "phrase": "Keeps the faith",
+            "dim": "inner life",
+            "desc": "You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter.",
+            "bands": [
+              "balanced",
+              "open"
+            ]
+          },
+          {
+            "phrase": "Late bloomer",
+            "dim": "over the years",
+            "desc": "Your progress doesn't look dramatic day to day. Then people look up and the sapling they remember is somehow taller than the fence.",
+            "bands": [
+              "open"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "phrase": "Outpaces people",
+            "dim": "close bonds",
+            "desc": "The people who love you often feel a step behind. The reaching never slows quite enough to let them catch up.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Asks for nothing",
+            "dim": "asking for help",
+            "desc": "Help is right there and you know it. You'd still rather struggle in private than let anyone watch you need something. Asking feels like shrinking an inch you can't get back.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Leaves things unfinished",
+            "dim": "follow-through",
+            "desc": "You commit hard, build fast, then spot the next mountain before this one is settled. Someone else ends up pouring the foundation you sketched.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Charges ahead",
+            "dim": "warnings",
+            "desc": "When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff.",
+            "bands": [
+              "concentrated"
+            ]
+          },
+          {
+            "phrase": "Slow to launch",
+            "dim": "beginnings",
+            "desc": "The direction is clear and the wanting is real, but the first step keeps waiting for a readier day. The path doesn't mind. The calendar does.",
+            "bands": [
+              "open"
+            ]
+          }
+        ]
+      },
+      "retired_thin_self_items": [
+        {
+          "pool": "shadows",
+          "phrase": "Slow to launch",
+          "dim": "beginnings",
+          "desc": "The direction is clear and the wanting is real, but the first step keeps waiting for a readier day. The path doesn't mind. The calendar does.",
+          "bands": [
+            "open"
+          ],
+          "why": "thin-Body item; a thin Body is a catalyst and carries no shadow face"
+        }
       ]
+    },
+    "door_note": {
+      "body": "Wood",
+      "mind": "Water",
+      "expression": "Fire",
+      "action": "Earth",
+      "order": "Metal"
     }
   }
 }

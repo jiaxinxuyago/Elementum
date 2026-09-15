@@ -10,7 +10,7 @@
     "src/content/reading/readingContent.js (DM_READING)",
     "buildIdentity"
   ],
-  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4)",
+  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited)",
   "candidates": {
     "archetype_name": "The Blade",
     "manifesto": "Precision before intention · You are the Metal that cuts things clean.",
@@ -30,77 +30,90 @@
     "dm_overview": "The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech.",
     "gifts": [
       {
-        "phrase": "Instant character read",
-        "dim": "first impressions",
-        "desc": "Ten minutes into meeting someone, you already know who they are. Months later, everyone else catches up to what you saw in the first handshake.",
-        "bands": "all"
-      },
-      {
-        "phrase": "Straight talker",
-        "dim": "communication",
-        "desc": "When everyone at the table is talking around the problem, you're the one who names it. People save their hardest questions for you because you won't dress up the answer.",
-        "bands": "all"
-      },
-      {
         "phrase": "Crisis performer",
         "dim": "under pressure",
-        "desc": "The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved.",
-        "bands": [
-          "concentrated"
-        ]
+        "door": "order",
+        "desc": "The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
+      },
+      {
+        "phrase": "First-handshake read",
+        "dim": "first impressions",
+        "door": "mind",
+        "desc": "Ten minutes into meeting someone, you know who they are. Whether you say so is another matter. Months later everyone else catches up to the handshake."
+      },
+      {
+        "phrase": "No dressed-up answers",
+        "dim": "communication",
+        "door": "expression",
+        "desc": "When you do speak, you say the thing the table has been talking around. People save their hardest questions for you because the answer comes back plain."
       },
       {
         "phrase": "Quiet loyalty",
         "dim": "close bonds",
-        "desc": "Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time.",
-        "bands": [
-          "balanced",
-          "open"
-        ]
+        "door": "body",
+        "desc": "Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time."
       },
       {
         "phrase": "Careful finisher",
         "dim": "at work",
-        "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing.",
-        "bands": [
-          "open"
-        ]
+        "door": "body",
+        "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing."
+      },
+      {
+        "phrase": "Clears dead weight",
+        "dim": "trimming a plan",
+        "door": "action",
+        "desc": "Handed a plan with twelve moving parts, you find the three that matter and the nine that were there for comfort."
+      },
+      {
+        "phrase": "Practices alone",
+        "dim": "practice",
+        "door": "mind",
+        "desc": "The skill arrives finished. Nobody saw the quiet months of practice behind it, and you like it that way."
       }
     ],
     "shadows": [
       {
-        "phrase": "Own harshest critic",
-        "dim": "self-worth",
-        "desc": "The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days for you.",
-        "bands": "all"
+        "phrase": "Stays decided",
+        "dim": "second chances",
+        "door": "body",
+        "desc": "Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut."
       },
       {
-        "phrase": "Mistaken for cold",
-        "dim": "how others read you",
-        "desc": "New people often think you're judging them. You usually are, but not the way they fear, and by the time they learn that, some have already kept their distance.",
-        "bands": "all"
+        "phrase": "Own harshest critic",
+        "dim": "self-worth",
+        "door": "order",
+        "desc": "The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days."
+      },
+      {
+        "phrase": "Edge before warmth",
+        "dim": "first meetings",
+        "door": "body",
+        "desc": "The read happens before the smile does. New people meet the edge first, and some never wait around for the rest."
       },
       {
         "phrase": "Right too early",
         "dim": "the long view",
-        "desc": "You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone.",
-        "bands": "all"
+        "door": "mind",
+        "desc": "You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone."
       },
       {
-        "phrase": "Quick to conclude",
-        "dim": "second chances",
-        "desc": "Once you've decided what something is, it stays decided. The person who grew, the plan that improved, the second chance that was earned, they all arrive to a door already shut.",
-        "bands": [
-          "concentrated"
-        ]
+        "phrase": "Lives inside plans",
+        "dim": "testing the plan",
+        "door": "mind",
+        "desc": "The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it."
       },
       {
-        "phrase": "Endless second-guessing",
-        "dim": "decision-making",
-        "desc": "You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished.",
-        "bands": [
-          "open"
-        ]
+        "phrase": "Overshoots the point",
+        "dim": "saying too much",
+        "door": "expression",
+        "desc": "The clean line was there in the first sentence. You kept going, and by the fourth the table had stopped hearing the first."
+      },
+      {
+        "phrase": "Cuts too deep",
+        "dim": "trimming",
+        "door": "action",
+        "desc": "Asked to trim, you take it to the frame. The part that was working goes out with the part that was not."
       }
     ],
     "__ore": {
@@ -397,7 +410,104 @@
             "concentrated": "What the room sees: precision, certainty, an edge that doesn't bend. What is actually underneath: a much softer interior than anyone in the room would guess, running a question that the assessment never quite answers — whether what you've built is actually right, whether the verdict holds, whether the standard is being applied to the right things. The blade in the tongue is protecting something. The certainty is partly real and partly structural armor. You know this. Most people close to you eventually sense it. The gap between the version of you that the room experiences and the version that exists at 2 AM is larger than most people realize."
           }
         }
+      ],
+      "retired_band_pools": {
+        "note": "band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band)",
+        "gifts": [
+          {
+            "phrase": "Instant character read",
+            "dim": "first impressions",
+            "desc": "Ten minutes into meeting someone, you already know who they are. Months later, everyone else catches up to what you saw in the first handshake.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Straight talker",
+            "dim": "communication",
+            "desc": "When everyone at the table is talking around the problem, you're the one who names it. People save their hardest questions for you because you won't dress up the answer.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Crisis performer",
+            "dim": "under pressure",
+            "desc": "The day everything breaks is the day you're calmest. While others freeze, you're already cutting the problem into pieces that can be solved.",
+            "bands": [
+              "concentrated"
+            ]
+          },
+          {
+            "phrase": "Quiet loyalty",
+            "dim": "close bonds",
+            "desc": "Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time.",
+            "bands": [
+              "balanced",
+              "open"
+            ]
+          },
+          {
+            "phrase": "Careful finisher",
+            "dim": "at work",
+            "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing.",
+            "bands": [
+              "open"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "phrase": "Own harshest critic",
+            "dim": "self-worth",
+            "desc": "The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days for you.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Mistaken for cold",
+            "dim": "how others read you",
+            "desc": "New people often think you're judging them. You usually are, but not the way they fear, and by the time they learn that, some have already kept their distance.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Right too early",
+            "dim": "the long view",
+            "desc": "You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Quick to conclude",
+            "dim": "second chances",
+            "desc": "Once you've decided what something is, it stays decided. The person who grew, the plan that improved, the second chance that was earned, they all arrive to a door already shut.",
+            "bands": [
+              "concentrated"
+            ]
+          },
+          {
+            "phrase": "Endless second-guessing",
+            "dim": "decision-making",
+            "desc": "You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished.",
+            "bands": [
+              "open"
+            ]
+          }
+        ]
+      },
+      "retired_thin_self_items": [
+        {
+          "pool": "shadows",
+          "phrase": "Endless second-guessing",
+          "dim": "decision-making",
+          "desc": "You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished.",
+          "bands": [
+            "open"
+          ],
+          "why": "thin-Body item; no shadow face for a catalyst"
+        }
       ]
+    },
+    "door_note": {
+      "body": "Metal",
+      "mind": "Earth",
+      "expression": "Water",
+      "action": "Wood",
+      "order": "Fire"
     }
   }
 }

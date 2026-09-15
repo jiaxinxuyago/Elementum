@@ -339,7 +339,7 @@ for (const tp of tgp.TG_PATTERNS) {
   { status_note: 'TG_PATTERN axis (owner 2026-08-19): triggered when both god sides sit among the chart\'s resolved positions; FUSED tier when they share a pillar; priority = canon order; one per seat' });
 }
 
-// ── TEMPLATED ×16 (the sentence patterns) ──
+// ── TEMPLATED ×20 (the sentence patterns) ──
 const T = (name, status, budget, body) => file('TEMPLATED', name, name, null, body, ['REA_03 §5 (patterns)'], { status_note: status, budget });
 T('tpl_cast_line', 'LIVE · R1 RULED (owner-locked 2026-08-03): month-name format', 'one line', { pattern: 'CAST FROM {y} · {MONTH-NAME} {d} · {hour-range} {tz}', example: 'CAST FROM 1995 · APRIL 29 · 17–19 CST', hour_unknown_fallback: 'CAST FROM {y} · {MONTH-NAME} {d} · HOUR UNSET', tz_derivation: 'birth-place IANA zone → Intl short abbr at the birth date (DST-aware); zones whose short form is a raw GMT offset fall back to the long name initials (Asia/Shanghai → CST); omitted only when no zone is stored (buildIdentity, identity.js)' });
 T('tpl_core_energy_line', 'LIVE', 'one line', { pattern: 'Your Core Energy is {El}' });
@@ -350,9 +350,27 @@ T('tpl_pill_title', 'LIVE', 'one line', { pattern: '{El} is Your {Relation}' });
 T('tpl_dx_line', 'LIVE', 'one line', { pattern: 'Your {El} is {Cond} — {Remedy} it.', clauses: { mapping: 'role-driven (owner-ratified 2026-07-23): friction-side incl. core excess → Overfueled·Channel · catalyst-side incl. missing → Underfueled·Refill · Balanced chart → Balanced·keep the mix' } });
 T('tpl_verdict_line', 'LIVE', 'one line', { pattern: '{connector} {pole} · {verb}', clauses: { connectors: { core_overfueled: 'curdling into', core_underfueled: 'reaching for', core_balanced: 'holding', friction: 'curdling into', catalyst: 'rising toward' }, verbs: { core_overfueled: 'channel it', core_underfueled: 'refill it', core_balanced: 'trust it', friction: 'loosen it', catalyst_missing: 'borrow it', catalyst_lead: 'feed it', catalyst_other: 'keep it close' } } });
 T('tpl_share_coreline', 'LIVE', 'one line', { pattern: '{El} is your Core — {Cond}' });
-T('tpl_dm_prescription', 'INTERIM (pending K2) — UNSURFACED since the J4 sub-screen retired (owner 2026-08-13); P4 renders no prescription cards', '1–2 sentences', { pattern: 'SEEK THIS · {EL} / SKIP THIS · {EL} + body', clauses: { seek_present: '{El} is the energy your chart asks for — thin in you and worth feeding. Seek it on purpose.', seek_missing: "{El} is the energy you don't carry — the one your chart asks for most. Borrow it daily{, through …}.", skip: '{El} is already rich in you — more of it weighs the core. Stop adding; let what you have ease.' } });
+T('tpl_dm_prescription', 'RETIRED → ore 2026-09-15 (superseded by the P4 carry card, REA_02 §5h); INTERIM (pending K2) — UNSURFACED since the J4 sub-screen retired (owner 2026-08-13); P4 renders no prescription cards', '1–2 sentences', { pattern: 'SEEK THIS · {EL} / SKIP THIS · {EL} + body', clauses: { seek_present: '{El} is the energy your chart asks for — thin in you and worth feeding. Seek it on purpose.', seek_missing: "{El} is the energy you don't carry — the one your chart asks for most. Borrow it daily{, through …}.", skip: '{El} is already rich in you — more of it weighs the core. Stop adding; let what you have ease.' } });
 T('tpl_element_verdict', 'LIVE', '1 sentence', { clauses: { core: 'Balanced — nothing to force; keep the mix. / Underfueled — it burns more than it takes in; refill it.', core_excess: "Overfueled — honor it, don't feed it further.", friction: 'Already rich in you — more of it weighs the core; stop adding.', catalyst_missing: 'Cast with none — borrow it daily · with {others}.', catalyst_thin: 'Thin in you — worth feeding.', catalyst: 'Give it more to shape.' } });
 T('tpl_hour_chip', 'LIVE', '≤12w', { pattern: 'Cast without your hour — close, not exact. Discover it →' });
+// P4 v3 — the carry card + pool bridges (REA_02 §5h, owner 2026-09-15). Code-resident copies live in ReadingDayMasterScreen.
+T('tpl_carry_lead', 'LIVE 2026-09-15 · P4 carry card lead line', '≤20w', {
+  Overfueled: '{Core} runs Overfueled. {nEase} energies feed a core already full. {nSeek} are where the surplus should go.',
+  Underfueled: '{Core} runs Underfueled. {nSeek} energies are what the core is asking for. {nEase} already carry weight.',
+  Balanced: '{Core} runs Balanced. Intake and burn hold each other, so the doors below are open on both sides.',
+});
+T('tpl_carry_row', 'LIVE 2026-09-15 · P4 carry card rows (assembly law, code-resident: ReadingDayMasterScreen)', 'label ≤6 tokens', {
+  label: '{Role} · {El} · {Fn} · {pct}',
+  core_label: '{Role} · {El} · you · {pct}',
+  assembly: "sentence = ELEMENT_PAIR[core_el].carry[pole].clause for each energy in the manual's order (abundant catalyst → carry.wide), joined as sentences; remedy = the same rows' remedies; touch = the chosen P4 items whose door resolves to an energy in the row",
+});
+T('tpl_pool_bridge', 'LIVE 2026-09-15 · P4 panel bridge lines', '≤10w', {
+  gifts: 'Through the energies your chart asks you to seek.',
+  shadows: 'Through the energies already carrying weight.',
+  gifts_balanced: 'These light up when your core runs balanced.',
+  shadows_balanced: 'These swell when the balance slips.',
+});
+T('tpl_pool_note', 'LIVE 2026-09-15 · P4 panel foot', '≤12w', { pattern: "Six of {Arch}'s {n}. Your chart picks which show." });
 T('tpl_presence_frames', 'PLANNED', '≤20w ×4', { pattern: null, clauses: { dominant: null, present: null, scarce: null, absent: null } });
 T('tpl_cycle_line', 'VOCABULARY LOCKED (REA_02 §5d, owner 2026-08-14) — the 生/克 cognition floor; surfaces pending (wheel arrows · seat derivations · team sentence · Codex chapter)', 'law verb + image line ≤8w · ×10', {
   pattern: '{ElA} {feeds|tames} {ElB} — {image line}',

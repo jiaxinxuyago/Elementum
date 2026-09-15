@@ -7,7 +7,8 @@
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
-    "owner rulings 2026-08-19 (element-page restructure)"
+    "owner rulings 2026-08-19 (element-page restructure)",
+    "REA_02 §5h (the carry card; owner 2026-09-15)"
   ],
   "candidates": {
     "mechanism": {
@@ -23,7 +24,20 @@
       "advise_catalyst": "Choose your structure and the rest takes care of itself. Anchor the week with three fixed blocks, same day, same hour, and let everything fluid arrange around them. Accept the role with the schedule. Keep the routine two weeks past the urge to quit.",
       "advise_friction": "A schedule should hold your life, never replace it. Leave one afternoon a week unscheduled and guard the emptiness. Renegotiate the obligation you dread most. Each quarter, drop one commitment that survives on habit alone."
     },
-    "cta_verdict": "Structure is what turns your depth into force, and the steady commitments you resent a little are exactly where your power compounds."
+    "cta_verdict": "Structure is what turns your depth into force, and the steady commitments you resent a little are exactly where your power compounds.",
+    "carry": {
+      "catalyst": {
+        "clause": "Nothing banks you: depth spreading wide and arriving nowhere, freedom without force.",
+        "remedy": "Accept the role, the rhythm, the walls that aim you."
+      },
+      "friction": {
+        "clause": "The banks close in: current squeezed into a schedule until the water forgets it moves.",
+        "remedy": "Rivers are meant to breathe."
+      },
+      "wide": {
+        "clause": "Earth is the widest door, the banks that turn depth into a river."
+      }
+    }
   },
   "__ore": {
     "retired_fn_body": "The Duty is your accountability function: how order, obligation, and firm structure sit on you. With Earth running it, accountability in you is banked and patient: steady roles, long commitments, people whose expectations do not move with weather. You resent the walls and run truer inside them, and both facts belong in your planning. Choose banks that point somewhere worth arriving.",

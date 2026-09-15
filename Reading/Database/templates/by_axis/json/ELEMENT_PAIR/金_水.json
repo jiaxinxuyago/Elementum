@@ -7,7 +7,8 @@
   "candidate_note": "TEMPLATE — awaiting owner review; the other 24 pairs batch after this cell locks.",
   "sources": [
     "REA_02 §5b relation nouns · §5b-ii shadow nouns · §5d cycle vocabulary · §5f seat functions (proposed)",
-    "owner rulings 2026-08-19: mechanism ×25 element-pair grain · seat→primary-function map · gods rehome to Ruling Domains"
+    "owner rulings 2026-08-19: mechanism ×25 element-pair grain · seat→primary-function map · gods rehome to Ruling Domains",
+    "REA_02 §5h (the carry card; owner 2026-09-15)"
   ],
   "candidates": {
     "mechanism": {
@@ -23,7 +24,20 @@
       "advise_catalyst": "Ease is a gift right up until it dodges every hard thing. Pick one piece of what you make and finish it to done, not to pleasant. Say the awkward true sentence once a week, to the person it belongs to. Comfort that never risks anything eventually feeds no one.",
       "advise_friction": "A river with no banks is a swamp, even a pleasant one. Give your talent one container: one project, one hour, the same time every day. Let yourself be bothered on purpose by one thing that matters. And make the treat follow the work, never replace it."
     },
-    "cta_verdict": "Your precision leaves you as flow, and the things you finally say arrive so smooth nobody sees how long you sharpened them."
+    "cta_verdict": "Your precision leaves you as flow, and the things you finally say arrive so smooth nobody sees how long you sharpened them.",
+    "carry": {
+      "catalyst": {
+        "clause": "This channel shows as pressure without release: much forged, little said.",
+        "remedy": "Writing, speaking, sharing work early lets the blade breathe."
+      },
+      "friction": {
+        "clause": "The flow turns to flood: output for its own sake, saying instead of shaping.",
+        "remedy": "Cut the noise and the water clears."
+      },
+      "wide": {
+        "clause": "Water is the widest door, the channel that lets the blade breathe."
+      }
+    }
   },
   "__ore": {
     "retired_bonds_dip": "People read your care through what you make for them, more than what you declare.",

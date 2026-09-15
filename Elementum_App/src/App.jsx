@@ -59,7 +59,6 @@ const DayPage = lazy(() => import('./components/dashboard/DayPage.jsx'));
 const MonthPage = lazy(() => import('./components/dashboard/MonthPage.jsx'));
 const YearPage = lazy(() => import('./components/dashboard/YearPage.jsx'));
 const DecadePage = lazy(() => import('./components/dashboard/DecadePage.jsx'));
-const ElementalNatureDetail = lazy(() => import('./components/dashboard/reading-detail/ElementalNatureDetail.jsx'));
 const TenGodsDetail = lazy(() => import('./components/dashboard/reading-detail/TenGodsDetail.jsx'));
 const ForcesInMotionDetail = lazy(() => import('./components/dashboard/reading-detail/ForcesInMotionDetail.jsx'));
 const LifeChaptersDetail = lazy(() => import('./components/dashboard/reading-detail/LifeChaptersDetail.jsx'));
@@ -96,7 +95,6 @@ function prefetchScreens() {
       import('./components/dashboard/MonthPage.jsx'),
       import('./components/dashboard/YearPage.jsx'),
       import('./components/dashboard/DecadePage.jsx'),
-      import('./components/dashboard/reading-detail/ElementalNatureDetail.jsx'),
       import('./components/dashboard/reading-detail/TenGodsDetail.jsx'),
       import('./components/dashboard/reading-detail/ForcesInMotionDetail.jsx'),
       import('./components/dashboard/reading-detail/LifeChaptersDetail.jsx'),
@@ -708,7 +706,10 @@ export default function App() {
       rendered = <ReadingScreen onTab={routeTab} onDayMaster={goto('app-daymaster')} onOpenEnergy={goto('app-reading')} />;
       break;
     case 'read-elemental':
-      rendered = <ElementalNatureDetail onBack={goto('app-reading')} />;
+      // RETIRED d12 Elemental Nature detail (owner 2026-09-15, REA_02 §5h):
+      // aliased to the journey's core energy page (the Body corpus); its
+      // stem-axis sections stay Codex ore.
+      rendered = <JourneyStage openCore onOpenDayMaster={goto('app-daymaster')} onOpenCodex={goto('app-codex')} />;
       break;
     case 'read-daymaster':
       // Retired DayMasterDetail — aliased to the D13 Day Master card (P4).

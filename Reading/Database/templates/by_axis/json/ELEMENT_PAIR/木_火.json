@@ -7,7 +7,8 @@
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
-    "owner rulings 2026-08-19 (element-page restructure)"
+    "owner rulings 2026-08-19 (element-page restructure)",
+    "REA_02 §5h (the carry card; owner 2026-09-15)"
   ],
   "candidates": {
     "mechanism": {
@@ -23,7 +24,20 @@
       "advise_catalyst": "Light is part of how work finishes. Show one finished thing a week, publicly and on purpose. Say yes to the toast, the talk, the intro. When something stalls, share it half-done and let being seen restart it.",
       "advise_friction": "An audience is a loan against tomorrow. Borrow less: pull the launch dates back by half, decline one appearance a month, and let the next thing be seen only when it is done. Practice being unimpressive in safe company."
     },
-    "cta_verdict": "What you have grown quietly wants a stage, and the warmth you release when you finally speak is what people remember you by."
+    "cta_verdict": "What you have grown quietly wants a stage, and the warmth you release when you finally speak is what people remember you by.",
+    "carry": {
+      "catalyst": {
+        "clause": "The wood stays green: years of growth and nothing kindled, reach without light.",
+        "remedy": "Show the work, tell the story, let it catch."
+      },
+      "friction": {
+        "clause": "The burning outruns the growing: everything lit the moment it grows, no branch left on the tree.",
+        "remedy": "Bank the fire and let some growth stand."
+      },
+      "wide": {
+        "clause": "Fire is the widest door, the light everything you grow was reaching for."
+      }
+    }
   },
   "__ore": {
     "retired_bonds_dip": "People gather to your warmth first and your reasons second.",

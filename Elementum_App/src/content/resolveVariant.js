@@ -49,27 +49,35 @@ export function archetypeKeyFor(stem, chart) {
     || `${stem}_${getEnergyBand(chart?.dayMaster?.strength || 'moderate')}_${chart?.tgPattern || 'pure'}`;
 }
 
-// Select a chart's ×3 from a band-tagged pool (REA_16 §3 selection law):
-// items tagged with this band first, then all-tagged items in pool order.
-// An item is all-tagged when `bands` is the literal 'all' in EITHER spelling the
-// schema's `string[] | 'all'` type allows — the bare string `bands: 'all'` or an
-// array containing it (`['all']`, or a mixed array) — or when `bands` is missing,
-// so legacy untagged ×3 arrays pass through intact.
-const isAllTagged = (bands) => (Array.isArray(bands) ? bands.includes('all') : true);
-
-export function selectPoolByBand(pool, band) {
+// Select a chart's ×3 from a door-tagged pool (REA_02 §5h selection law).
+// `doors` is the ordered list of function keys the chart opens for this pool
+// (gifts: the catalyst energies in the manual's SEEK order; shadows: the
+// friction energies, core first, in the EASE order). One item per door in
+// that order, then the third slot from the FIRST door's second item (the
+// heaviest energy of the set), then pool order as the last resort. With no
+// doors at all (a Balanced chart hides its rails) the pool's first ×3 show.
+export function selectPoolByDoor(pool, doors) {
   if (!Array.isArray(pool)) return [];
-  const tagged = pool.filter(
-    (it) => Array.isArray(it.bands) && it.bands.includes(band) && !it.bands.includes('all'),
-  );
-  const alls = pool.filter((it) => isAllTagged(it.bands));
-  return [...tagged, ...alls].slice(0, 3);
+  const list = Array.isArray(doors) ? doors.filter(Boolean) : [];
+  if (!list.length) return pool.slice(0, 3);
+  const used = new Set();
+  const out = [];
+  const take = (door) => {
+    const it = pool.find((x) => x.door === door && !used.has(x));
+    if (it) { used.add(it); out.push(it); }
+  };
+  for (const d of list) { if (out.length >= 3) break; take(d); }
+  for (const d of list) { if (out.length >= 3) break; take(d); }
+  for (const it of pool) { if (out.length >= 3) break; if (!used.has(it)) { used.add(it); out.push(it); } }
+  return out.slice(0, 3);
 }
 
 // Merge the pre-generated archetypeKey variant (yourNature / gifts / shadows)
 // over the stem baseline. Returns a baseline-shaped object, variant-enriched.
-// gifts/shadows come back band-selected ×3 (winning pool → selectPoolByBand).
-export function resolveArchetype(stem, baseline, chart) {
+// gifts/shadows come back door-selected ×3 (winning pool → selectPoolByDoor);
+// `doors` = { gifts: [...fn keys], shadows: [...fn keys] } from the chart's
+// roles (journeyData.poolDoors). Omitted → pool order (the Balanced fallback).
+export function resolveArchetype(stem, baseline, chart, doors = {}) {
   if (!baseline) return baseline;
   // Variant lookup with a fallback chain (Group C) so a stem can ship concise
   // band/pattern variants instead of all 15 compounds:
@@ -84,8 +92,8 @@ export function resolveArchetype(stem, baseline, chart) {
   return {
     ...baseline,
     yourNature: { ...(baseline.yourNature || {}), ...(v.yourNature || {}) },
-    gifts: selectPoolByBand((v.gifts && v.gifts.length) ? v.gifts : baseline.gifts, band),
-    shadows: selectPoolByBand((v.shadows && v.shadows.length) ? v.shadows : baseline.shadows, band),
+    gifts: selectPoolByDoor((v.gifts && v.gifts.length) ? v.gifts : baseline.gifts, doors.gifts),
+    shadows: selectPoolByDoor((v.shadows && v.shadows.length) ? v.shadows : baseline.shadows, doors.shadows),
   };
 }
 

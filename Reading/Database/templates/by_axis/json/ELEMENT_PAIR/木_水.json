@@ -7,7 +7,8 @@
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
-    "owner rulings 2026-08-19 (element-page restructure)"
+    "owner rulings 2026-08-19 (element-page restructure)",
+    "REA_02 §5h (the carry card; owner 2026-09-15)"
   ],
   "candidates": {
     "mechanism": {
@@ -23,7 +24,20 @@
       "advise_catalyst": "Understanding arrives on its own schedule and only through an open door. Hold one screen-free hour before bed. Take the walk before the decision. Keep a note of what surfaces there, because it will be the truest thinking you do.",
       "advise_friction": "A mind can also overwater. Close the intake and let what you know settle: set a decision date and honor it, act on the last book before opening the next, and take one full day a week with nothing new coming in."
     },
-    "cta_verdict": "Your thinking absorbs like rain into roots, slow and total, and what you learn deeply once feeds you for decades."
+    "cta_verdict": "Your thinking absorbs like rain into roots, slow and total, and what you learn deeply once feeds you for decades.",
+    "carry": {
+      "catalyst": {
+        "clause": "The canopy outpaces the rain: ambition still reaching while the soil dries.",
+        "remedy": "Rest, read, go quiet and refill."
+      },
+      "friction": {
+        "clause": "The ground floods: roots soaked past drinking, growth postponed for one more season of preparation.",
+        "remedy": "Trees also need sun."
+      },
+      "wide": {
+        "clause": "Water is the widest door, the rain the whole tree drinks from."
+      }
+    }
   },
   "__ore": {
     "retired_fn_body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Water running it, your mind absorbs by immersion: full depth or nothing, understanding arriving whole after the soak. You learn from atmospheres as much as pages, and a question left overnight answers itself by morning. Trust the seep. Forcing it only muddies the water.",

@@ -10,7 +10,7 @@
     "src/content/reading/readingContent.js (DM_READING)",
     "buildIdentity"
   ],
-  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4)",
+  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited)",
   "candidates": {
     "archetype_name": "The Candle",
     "manifesto": "Intimacy over range · You are the Fire that burns closest, not widest.",
@@ -32,75 +32,88 @@
       {
         "phrase": "Deeply present",
         "dim": "one-on-one",
-        "desc": "When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find.",
-        "bands": "all"
+        "door": "body",
+        "desc": "When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find."
       },
       {
         "phrase": "Misses nothing",
         "dim": "details",
-        "desc": "The small tell, the changed tone, the detail everyone walked past. You caught it, and three months later it turned out to be the whole story.",
-        "bands": "all"
+        "door": "mind",
+        "desc": "The small tell, the changed tone, the detail everyone walked past. You caught it, and three months later it turned out to be the whole story."
       },
       {
         "phrase": "Fully committed",
         "dim": "the inner circle",
-        "desc": "What you choose gets everything you have. The people and work inside your circle never have to wonder where they stand.",
-        "bands": [
-          "concentrated"
-        ]
+        "door": "body",
+        "desc": "What you choose gets everything you have. The people and work inside your circle never have to wonder where they stand."
       },
       {
         "phrase": "Rekindles people",
         "dim": "influence on others",
-        "desc": "Your belief in someone works at close range. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again.",
-        "bands": [
-          "balanced",
-          "open"
-        ]
+        "door": "expression",
+        "desc": "Your belief in someone works at close range. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again."
       },
       {
         "phrase": "Keeps the flame",
         "dim": "hard seasons",
-        "desc": "The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night.",
-        "bands": [
-          "open"
-        ]
+        "door": "order",
+        "desc": "The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night."
+      },
+      {
+        "phrase": "Studies one thing",
+        "dim": "expertise",
+        "door": "mind",
+        "desc": "One subject, years deep. You know it the way people know a face."
+      },
+      {
+        "phrase": "Tends what's near",
+        "dim": "small work",
+        "door": "action",
+        "desc": "The small work in arm’s reach gets done well and on time. That is where you build."
       }
     ],
     "shadows": [
       {
         "phrase": "Plays favorites",
         "dim": "the periphery",
-        "desc": "Whoever holds your focus gets daylight. Everyone else gets dusk. The people at the edge of your attention feel the difference, and some of them mind.",
-        "bands": "all"
+        "door": "body",
+        "desc": "Whoever holds your focus gets daylight. Everyone else gets dusk. The people at the edge of your attention feel the difference, and some of them mind."
       },
       {
         "phrase": "One-track mind",
         "dim": "multitasking",
-        "desc": "You genuinely cannot split the flame. The second project, the waiting text, the simmering pot. They all wait in the dark until you turn.",
-        "bands": "all"
+        "door": "mind",
+        "desc": "You genuinely cannot split the flame. The second project, the waiting text, the simmering pot. They all wait in the dark until you turn."
       },
       {
         "phrase": "Takes it personally",
         "dim": "criticism",
-        "desc": "What you're devoted to has no separation from you. A criticism of the work lands as a criticism of your soul, every time.",
-        "bands": "all"
+        "door": "order",
+        "desc": "What you're devoted to has no separation from you. A criticism of the work lands as a criticism of your soul, every time."
       },
       {
         "phrase": "Comes on strong",
         "dim": "presence",
-        "desc": "The full beam of your attention can arrive harder than the moment asked for. Some things needed gentle warmth and got the blowtorch.",
-        "bands": [
-          "concentrated"
-        ]
+        "door": "expression",
+        "desc": "The full beam of your attention can arrive harder than the moment asked for. Some things needed gentle warmth and got the blowtorch."
       },
       {
-        "phrase": "Hides the light",
-        "dim": "reaching out",
-        "desc": "The people who'd treasure your attention rarely get offered it first. The flame stays behind cupped hands, and whole years of warmth go unseen.",
-        "bands": [
-          "open"
-        ]
+        "phrase": "Nothing left over",
+        "dim": "outside the circle",
+        "door": "body",
+        "desc": "The circle gets all of you. Outside it there is no light, and no one you can see."
+      },
+      {
+        "phrase": "Stares at flaws",
+        "dim": "one detail",
+        "door": "mind",
+        "desc": "One crack, and the whole night is spent on it. The rest of the wall stops existing."
+      },
+      {
+        "phrase": "Too many candles",
+        "dim": "commitments",
+        "door": "action",
+        "desc": "You lit more than one candle can keep. Now every flame is small and getting smaller."
       }
     ],
     "__ore": {
@@ -246,7 +259,104 @@
             "default": "That when the full flame arrives at full force in a context that wasn't ready for it, you often don't understand why it didn't land the way it should have. The quality was real. The care was genuine. What you don't always account for is that not every moment wants to be fully illuminated."
           }
         }
+      ],
+      "retired_band_pools": {
+        "note": "band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band)",
+        "gifts": [
+          {
+            "phrase": "Deeply present",
+            "dim": "one-on-one",
+            "desc": "When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Misses nothing",
+            "dim": "details",
+            "desc": "The small tell, the changed tone, the detail everyone walked past. You caught it, and three months later it turned out to be the whole story.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Fully committed",
+            "dim": "the inner circle",
+            "desc": "What you choose gets everything you have. The people and work inside your circle never have to wonder where they stand.",
+            "bands": [
+              "concentrated"
+            ]
+          },
+          {
+            "phrase": "Rekindles people",
+            "dim": "influence on others",
+            "desc": "Your belief in someone works at close range. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again.",
+            "bands": [
+              "balanced",
+              "open"
+            ]
+          },
+          {
+            "phrase": "Keeps the flame",
+            "dim": "hard seasons",
+            "desc": "The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night.",
+            "bands": [
+              "open"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "phrase": "Plays favorites",
+            "dim": "the periphery",
+            "desc": "Whoever holds your focus gets daylight. Everyone else gets dusk. The people at the edge of your attention feel the difference, and some of them mind.",
+            "bands": "all"
+          },
+          {
+            "phrase": "One-track mind",
+            "dim": "multitasking",
+            "desc": "You genuinely cannot split the flame. The second project, the waiting text, the simmering pot. They all wait in the dark until you turn.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Takes it personally",
+            "dim": "criticism",
+            "desc": "What you're devoted to has no separation from you. A criticism of the work lands as a criticism of your soul, every time.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Comes on strong",
+            "dim": "presence",
+            "desc": "The full beam of your attention can arrive harder than the moment asked for. Some things needed gentle warmth and got the blowtorch.",
+            "bands": [
+              "concentrated"
+            ]
+          },
+          {
+            "phrase": "Hides the light",
+            "dim": "reaching out",
+            "desc": "The people who'd treasure your attention rarely get offered it first. The flame stays behind cupped hands, and whole years of warmth go unseen.",
+            "bands": [
+              "open"
+            ]
+          }
+        ]
+      },
+      "retired_thin_self_items": [
+        {
+          "pool": "shadows",
+          "phrase": "Hides the light",
+          "dim": "reaching out",
+          "desc": "The people who'd treasure your attention rarely get offered it first. The flame stays behind cupped hands, and whole years of warmth go unseen.",
+          "bands": [
+            "open"
+          ],
+          "why": "thin-Body item; no shadow face for a catalyst"
+        }
       ]
+    },
+    "door_note": {
+      "body": "Fire",
+      "mind": "Wood",
+      "expression": "Earth",
+      "action": "Metal",
+      "order": "Water"
     }
   }
 }

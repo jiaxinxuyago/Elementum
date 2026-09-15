@@ -7,7 +7,8 @@
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
-    "owner rulings 2026-08-19 (element-page restructure)"
+    "owner rulings 2026-08-19 (element-page restructure)",
+    "REA_02 §5h (the carry card; owner 2026-09-15)"
   ],
   "candidates": {
     "mechanism": {
@@ -23,7 +24,20 @@
       "advise_catalyst": "Structure is what makes your depth spendable. Learn one exact discipline properly, notation, code, a method, and let it organize everything else you know. Write definitions for the words you use most. Choose teachers stricter than your mood.",
       "advise_friction": "Method is scaffolding, and scaffolding is meant to come down. Skip the new framework this month. Take what you already know and apply it somewhere messy. Once a week, think on paper with no system at all and see what you actually believe."
     },
-    "cta_verdict": "Your mind sharpens whatever it absorbs, and the clean distinctions you cut in private become the clarity people borrow from you."
+    "cta_verdict": "Your mind sharpens whatever it absorbs, and the clean distinctions you cut in private become the clarity people borrow from you.",
+    "carry": {
+      "catalyst": {
+        "clause": "The spring runs shallow: intuition drawn on without refilling, depth spending faster than it condenses.",
+        "remedy": "Study something exact and drink from it."
+      },
+      "friction": {
+        "clause": "The rigor sets like concrete: so much refining the water never moves, depth held in cisterns of preparation.",
+        "remedy": "A spring proves itself by flowing."
+      },
+      "wide": {
+        "clause": "Metal is the widest door, the spring that keeps your depth refilled."
+      }
+    }
   },
   "__ore": {
     "retired_fn_body": "The Root is your learning function: the seat where the world soaks in and becomes yours. With Metal running it, your mind absorbs by distillation: exact teachers, clean sources, one precise sentence worth an hour of noise. What passes your filter condenses into permanent depth. Curate hard. Your intelligence is fed by quality, and clutter silts the spring.",

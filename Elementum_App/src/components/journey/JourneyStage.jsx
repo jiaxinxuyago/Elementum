@@ -54,7 +54,7 @@ const Disc = () => (
   <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6" fill="currentColor" /></svg>
 );
 
-export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, onOpenCodex }) {
+export default function JourneyStage({ reveal = false, openCore = false, onDone, onOpenDayMaster, onOpenCodex }) {
   const { chart, ec, identity, hourUnknown } = useReading();
   const { tier } = useChart();   // K2 domain readings are Seeker-gated
   const [screen, setScreen] = useState('catalogue');
@@ -122,6 +122,12 @@ export default function JourneyStage({ reveal = false, onDone, onOpenDayMaster, 
     window.__journeyElement = goElement;
     return () => { if (window.__journeyElement === goElement) delete window.__journeyElement; };
   }, [goElement]);
+  // `read-elemental` alias (owner 2026-09-15): the retired d12 Elemental
+  // Nature detail now opens the core's own energy page (the Body corpus).
+  const coreElKey = model?.core?.el;
+  useEffect(() => {
+    if (openCore && coreElKey) goElement(coreElKey);
+  }, [openCore, coreElKey, goElement]);
   useEffect(() => {
     if (!import.meta.env.DEV || typeof window === 'undefined') return undefined;
     window.__journeyScreen = screen;

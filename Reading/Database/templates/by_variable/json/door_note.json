@@ -1,0 +1,128 @@
+{
+  "$variable": "door_note",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "STEM": [
+      {
+        "id": "jia",
+        "key": "甲",
+        "canonical_name": "The Oak",
+        "value": {
+          "body": "Wood",
+          "mind": "Water",
+          "expression": "Fire",
+          "action": "Earth",
+          "order": "Metal"
+        }
+      },
+      {
+        "id": "yi",
+        "key": "乙",
+        "canonical_name": "The Vine",
+        "value": {
+          "body": "Wood",
+          "mind": "Water",
+          "expression": "Fire",
+          "action": "Earth",
+          "order": "Metal"
+        }
+      },
+      {
+        "id": "bing",
+        "key": "丙",
+        "canonical_name": "The Sun",
+        "value": {
+          "body": "Fire",
+          "mind": "Wood",
+          "expression": "Earth",
+          "action": "Metal",
+          "order": "Water"
+        }
+      },
+      {
+        "id": "ding",
+        "key": "丁",
+        "canonical_name": "The Candle",
+        "value": {
+          "body": "Fire",
+          "mind": "Wood",
+          "expression": "Earth",
+          "action": "Metal",
+          "order": "Water"
+        }
+      },
+      {
+        "id": "wu",
+        "key": "戊",
+        "canonical_name": "The Mountain",
+        "value": {
+          "body": "Earth",
+          "mind": "Fire",
+          "expression": "Metal",
+          "action": "Water",
+          "order": "Wood"
+        }
+      },
+      {
+        "id": "ji",
+        "key": "己",
+        "canonical_name": "The Field",
+        "value": {
+          "body": "Earth",
+          "mind": "Fire",
+          "expression": "Metal",
+          "action": "Water",
+          "order": "Wood"
+        }
+      },
+      {
+        "id": "geng",
+        "key": "庚",
+        "canonical_name": "The Blade",
+        "value": {
+          "body": "Metal",
+          "mind": "Earth",
+          "expression": "Water",
+          "action": "Wood",
+          "order": "Fire"
+        }
+      },
+      {
+        "id": "xin",
+        "key": "辛",
+        "canonical_name": "The Jewel",
+        "value": {
+          "body": "Metal",
+          "mind": "Earth",
+          "expression": "Water",
+          "action": "Wood",
+          "order": "Fire"
+        }
+      },
+      {
+        "id": "ren",
+        "key": "壬",
+        "canonical_name": "The Ocean",
+        "value": {
+          "body": "Water",
+          "mind": "Metal",
+          "expression": "Wood",
+          "action": "Fire",
+          "order": "Earth"
+        }
+      },
+      {
+        "id": "gui",
+        "key": "癸",
+        "canonical_name": "The Rain",
+        "value": {
+          "body": "Water",
+          "mind": "Metal",
+          "expression": "Wood",
+          "action": "Fire",
+          "order": "Earth"
+        }
+      }
+    ]
+  }
+}

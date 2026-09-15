@@ -10,7 +10,7 @@
 | **key** | 癸 |
 | **canonical name** | The Rain |
 | **construct** | TBD — ruled per-axis with the owner |
-| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) |
+| **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) |
 | **sources** | Elementum_App/src/content/archetypeSource.js · src/content/reading/readingContent.js (DM_READING) · buildIdentity |
 
 ## Candidate variables
@@ -28,44 +28,69 @@
 | `dm_overview` | The Rain is Yin Water, the last sign in the count, the water that closes the circle so it can begin again. It is rain, dew, and mist, the moisture that arrives everywhere and forces nothing. At winter's end it falls softly on planted fields through the night. By morning it is gone, and everything it touched has quietly agreed to grow. |
 | `gifts[0].phrase` | Feels the undercurrent |
 | `gifts[0].dim` | unspoken feelings |
+| `gifts[0].door` | mind |
 | `gifts[0].desc` | You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence. |
-| `gifts[0].bands` | all |
 | `gifts[1].phrase` | Finds the words |
 | `gifts[1].dim` | naming feelings |
+| `gifts[1].door` | expression |
 | `gifts[1].desc` | Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it. |
-| `gifts[1].bands` | all |
 | `gifts[2].phrase` | Knows what helps |
 | `gifts[2].dim` | caregiving |
+| `gifts[2].door` | action |
 | `gifts[2].desc` | Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands. |
-| `gifts[2].bands` | concentrated |
 | `gifts[3].phrase` | Gentle confidant |
 | `gifts[3].dim` | secrets |
+| `gifts[3].door` | body |
 | `gifts[3].desc` | People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it. |
-| `gifts[3].bands` | balanced · open |
 | `gifts[4].phrase` | Changes minds softly |
 | `gifts[4].dim` | influence on others |
+| `gifts[4].door` | expression |
 | `gifts[4].desc` | Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did. |
-| `gifts[4].bands` | open |
+| `gifts[5].phrase` | Settles the dust |
+| `gifts[5].dim` | presence |
+| `gifts[5].door` | body |
+| `gifts[5].desc` | The air is calmer after you have been in it, and nobody can say what you did. |
+| `gifts[6].phrase` | Soaks it up |
+| `gifts[6].dim` | learning |
+| `gifts[6].door` | mind |
+| `gifts[6].desc` | Whatever falls near you goes in and stays. Years later it comes back as knowing. |
+| `gifts[7].phrase` | Wears down stone |
+| `gifts[7].dim` | under pressure |
+| `gifts[7].door` | order |
+| `gifts[7].desc` | Pressure does not stop you. Given enough seasons, the rain shapes the rock that tried to stop it. |
 | `shadows[0].phrase` | Absorbs everything |
 | `shadows[0].dim` | others' emotions |
+| `shadows[0].door` | mind |
 | `shadows[0].desc` | You walk in fine and leave carrying the argument two strangers had near you. Other people's weather soaks straight through your coat. |
-| `shadows[0].bands` | all |
 | `shadows[1].phrase` | Avoids the fight |
 | `shadows[1].dim` | hard conversations |
+| `shadows[1].door` | order |
 | `shadows[1].desc` | You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years. |
-| `shadows[1].bands` | all |
 | `shadows[2].phrase` | Marinates in it |
 | `shadows[2].dim` | moving on |
+| `shadows[2].door` | mind |
 | `shadows[2].desc` | The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep. |
-| `shadows[2].bands` | all |
 | `shadows[3].phrase` | Feelings as facts |
 | `shadows[3].dim` | evidence |
+| `shadows[3].door` | body |
 | `shadows[3].desc` | When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one. |
-| `shadows[3].bands` | concentrated |
-| `shadows[4].phrase` | Doubts the signal |
-| `shadows[4].dim` | trusting yourself |
-| `shadows[4].desc` | The hunch was right, and you overruled it anyway because three people sounded surer than you felt. You've learned to poll before trusting the one instrument that was working. |
-| `shadows[4].bands` | open |
+| `shadows[4].phrase` | Loses the border |
+| `shadows[4].dim` | whose feeling |
+| `shadows[4].door` | body |
+| `shadows[4].desc` | Their weather becomes yours. By evening you cannot say whose sadness you are carrying. |
+| `shadows[5].phrase` | Warns too softly |
+| `shadows[5].dim` | warnings |
+| `shadows[5].door` | expression |
+| `shadows[5].desc` | The true thing was said. It was said so gently that nobody heard it as a warning. |
+| `shadows[6].phrase` | Boils off early |
+| `shadows[6].dim` | chasing warmth |
+| `shadows[6].door` | action |
+| `shadows[6].desc` | Every warm thing pulls you toward it, and you rise to meet it before anything lands. |
+| `door_note.body` | Water |
+| `door_note.mind` | Metal |
+| `door_note.expression` | Wood |
+| `door_note.action` | Fire |
+| `door_note.order` | Earth |
 
 ## Ore (legacy corpus — mining material, fate pending rulings)
 
@@ -123,3 +148,50 @@
 | `blocks[4].patterns` | pure · rooted · flowing · forging · tested |
 | `blocks[4].priority.default` | 5 |
 | `blocks[4].text.default` | That you absorb far more than you show — and that the accumulation is real and has weight. Over time, in environments that don't return what's given, this becomes something between exhaustion and a kind of grief: the specific sadness of giving something real that doesn't arrive back at the same depth. |
+| `retired_band_pools.note` | band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band) |
+| `retired_band_pools.gifts[0].phrase` | Feels the undercurrent |
+| `retired_band_pools.gifts[0].dim` | unspoken feelings |
+| `retired_band_pools.gifts[0].desc` | You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence. |
+| `retired_band_pools.gifts[0].bands` | all |
+| `retired_band_pools.gifts[1].phrase` | Finds the words |
+| `retired_band_pools.gifts[1].dim` | naming feelings |
+| `retired_band_pools.gifts[1].desc` | Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it. |
+| `retired_band_pools.gifts[1].bands` | all |
+| `retired_band_pools.gifts[2].phrase` | Knows what helps |
+| `retired_band_pools.gifts[2].dim` | caregiving |
+| `retired_band_pools.gifts[2].desc` | Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands. |
+| `retired_band_pools.gifts[2].bands` | concentrated |
+| `retired_band_pools.gifts[3].phrase` | Gentle confidant |
+| `retired_band_pools.gifts[3].dim` | secrets |
+| `retired_band_pools.gifts[3].desc` | People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it. |
+| `retired_band_pools.gifts[3].bands` | balanced · open |
+| `retired_band_pools.gifts[4].phrase` | Changes minds softly |
+| `retired_band_pools.gifts[4].dim` | influence on others |
+| `retired_band_pools.gifts[4].desc` | Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did. |
+| `retired_band_pools.gifts[4].bands` | open |
+| `retired_band_pools.shadows[0].phrase` | Absorbs everything |
+| `retired_band_pools.shadows[0].dim` | others' emotions |
+| `retired_band_pools.shadows[0].desc` | You walk in fine and leave carrying the argument two strangers had near you. Other people's weather soaks straight through your coat. |
+| `retired_band_pools.shadows[0].bands` | all |
+| `retired_band_pools.shadows[1].phrase` | Avoids the fight |
+| `retired_band_pools.shadows[1].dim` | hard conversations |
+| `retired_band_pools.shadows[1].desc` | You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years. |
+| `retired_band_pools.shadows[1].bands` | all |
+| `retired_band_pools.shadows[2].phrase` | Marinates in it |
+| `retired_band_pools.shadows[2].dim` | moving on |
+| `retired_band_pools.shadows[2].desc` | The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep. |
+| `retired_band_pools.shadows[2].bands` | all |
+| `retired_band_pools.shadows[3].phrase` | Feelings as facts |
+| `retired_band_pools.shadows[3].dim` | evidence |
+| `retired_band_pools.shadows[3].desc` | When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one. |
+| `retired_band_pools.shadows[3].bands` | concentrated |
+| `retired_band_pools.shadows[4].phrase` | Doubts the signal |
+| `retired_band_pools.shadows[4].dim` | trusting yourself |
+| `retired_band_pools.shadows[4].desc` | The hunch was right, and you overruled it anyway because three people sounded surer than you felt. You've learned to poll before trusting the one instrument that was working. |
+| `retired_band_pools.shadows[4].bands` | open |
+| `retired_thin_self_items[0].pool` | shadows |
+| `retired_thin_self_items[0].phrase` | Doubts the signal |
+| `retired_thin_self_items[0].dim` | trusting yourself |
+| `retired_thin_self_items[0].desc` | The hunch was right, and you overruled it anyway because three people sounded surer than you felt. You've learned to poll before trusting the one instrument that was working. |
+| `retired_thin_self_items[0].bands` | open |
+| `retired_thin_self_items[0].why` | thin-Body item; no shadow face for a catalyst |

@@ -7,7 +7,8 @@
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
-    "owner rulings 2026-08-19 (element-page restructure)"
+    "owner rulings 2026-08-19 (element-page restructure)",
+    "REA_02 §5h (the carry card; owner 2026-09-15)"
   ],
   "candidates": {
     "mechanism": {
@@ -23,7 +24,20 @@
       "advise_catalyst": "Growth loves resistance it respects. Put your work in front of one demanding person on a schedule, monthly at least. Ask for the harshest note first. Treat every review on the calendar as training, never as threat.",
       "advise_friction": "Standards should serve the thing growing, never the other way around. Keep the two judges whose notes make you better and mute the rest. Answer critique after a night, never in the hour. Break one harmless rule a month to remember you can."
     },
-    "cta_verdict": "Discipline reaches you as a blade, exacting people, hard standards, and every cut you accept on purpose becomes shape you get to keep."
+    "cta_verdict": "Discipline reaches you as a blade, exacting people, hard standards, and every cut you accept on purpose becomes shape you get to keep.",
+    "carry": {
+      "catalyst": {
+        "clause": "Nothing prunes you: growth in every direction and fruit in none.",
+        "remedy": "Invite the standard, the editor, the coach with shears."
+      },
+      "friction": {
+        "clause": "The cutting never stops: cut after cut until growing feels like a fault.",
+        "remedy": "Step back from blades that prune for pruning’s sake."
+      },
+      "wide": {
+        "clause": "Metal is the widest door, the shears that turn growth into fruit."
+      }
+    }
   },
   "__ore": {
     "retired_fn_body": "The Duty is your accountability function: how order, obligation, and other people’s standards sit on you. With Metal running it, accountability in you is exact: contracts, deadlines, people who measure. You grow best trellised, and you know it, which is why you keep choosing exacting company. Respect the shears that shape you, and refuse the ones that only wound.",

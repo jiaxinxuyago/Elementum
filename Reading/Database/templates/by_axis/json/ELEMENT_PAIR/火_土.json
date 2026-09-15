@@ -7,7 +7,8 @@
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
-    "owner rulings 2026-08-19 (element-page restructure)"
+    "owner rulings 2026-08-19 (element-page restructure)",
+    "REA_02 §5h (the carry card; owner 2026-09-15)"
   ],
   "candidates": {
     "mechanism": {
@@ -23,7 +24,20 @@
       "advise_catalyst": "Enthusiasm fades, structure remembers. After every burst of inspiration, spend one hour making it hold: a document, a recipe, a repeatable plan. Host the gathering twice and it becomes tradition. Write down the thing you keep explaining.",
       "advise_friction": "Some warmth is meant to be spent, never stored. Let the next good idea stay a conversation. Retire one system you maintain out of habit. Pour your building energy into the single structure that actually matters this year, and let the rest be evenings."
     },
-    "cta_verdict": "Your heat leaves you as something solid, homes, habits, made things, and people trust what you build longer than what you say."
+    "cta_verdict": "Your heat leaves you as something solid, homes, habits, made things, and people trust what you build longer than what you say.",
+    "carry": {
+      "catalyst": {
+        "clause": "The fire leaves no ash: heat and light, nothing banked, nothing built from the burning.",
+        "remedy": "Teach it, write it, found it."
+      },
+      "friction": {
+        "clause": "Every spark gets pressed into a monument: output hardening faster than it can live.",
+        "remedy": "Not every flame must found something."
+      },
+      "wide": {
+        "clause": "Earth is the widest door, the hearth that keeps what you burn."
+      }
+    }
   },
   "__ore": {
     "retired_bonds_dip": "People inhabit what you express: your warmth reaches them as belonging.",

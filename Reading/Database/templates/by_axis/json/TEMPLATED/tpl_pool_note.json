@@ -1,0 +1,16 @@
+{
+  "$archetype": "tpl_pool_note",
+  "axis": "TEMPLATED",
+  "key": "tpl_pool_note",
+  "canonical_name": null,
+  "construct": "Derived slot template (REA_03 §5; REA_02 §5h)",
+  "candidate_note": "Slot-filled at runtime from derived values only (REA_03 §10 rule 3).",
+  "sources": [
+    "REA_02 §5h"
+  ],
+  "status_note": "LIVE 2026-09-15 · P4 panel foot",
+  "budget": "≤12w",
+  "candidates": {
+    "pattern": "Six of {Arch}'s {n}. Your chart picks which show."
+  }
+}

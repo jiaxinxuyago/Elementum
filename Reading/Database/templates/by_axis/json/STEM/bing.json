@@ -10,7 +10,7 @@
     "src/content/reading/readingContent.js (DM_READING)",
     "buildIdentity"
   ],
-  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4)",
+  "status_note": "manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited)",
   "candidates": {
     "archetype_name": "The Sun",
     "manifesto": "Warmth without permission · You are the Fire that gives light before anyone asks.",
@@ -30,77 +30,102 @@
     "dm_overview": "The Sun is Yang Fire, the fire that no one lit and no one owns. It keeps high summer and full noon, opening every market and warming every back without asking a single name. The sky itself is its lantern. Everything that grows turns toward it, and on the day it slips behind clouds, the whole village looks up and wonders.",
     "gifts": [
       {
-        "phrase": "Instantly likable",
+        "phrase": "Liked on arrival",
         "dim": "first impressions",
-        "desc": "Strangers relax around you before you've said much of anything. Guards drop, small talk turns real, and nobody can quite explain why.",
-        "bands": "all"
+        "door": "expression",
+        "desc": "People are glad you are there before you have said a word. It is the warmth, not the talk."
       },
       {
         "phrase": "Lifts the mood",
         "dim": "atmosphere",
-        "desc": "A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did.",
-        "bands": "all"
+        "door": "expression",
+        "desc": "A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did."
       },
       {
         "phrase": "No hidden agenda",
         "dim": "hard days",
-        "desc": "Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out.",
-        "bands": [
-          "concentrated"
-        ]
+        "door": "body",
+        "desc": "Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out."
       },
       {
         "phrase": "First to celebrate",
         "dim": "others' wins",
-        "desc": "Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it.",
-        "bands": [
-          "balanced",
-          "open"
-        ]
+        "door": "action",
+        "desc": "Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it."
       },
       {
         "phrase": "Keeps it close",
         "dim": "close bonds",
-        "desc": "The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully.",
-        "bands": [
-          "open"
-        ]
+        "door": "body",
+        "desc": "The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully."
+      },
+      {
+        "phrase": "Feeds on daylight",
+        "dim": "refueling",
+        "door": "mind",
+        "desc": "You feed on what is around you. A good morning, a good friend, a good idea, and you are lit again."
+      },
+      {
+        "phrase": "Catches the mood",
+        "dim": "reading a mood",
+        "door": "mind",
+        "desc": "You know the weather of a place the moment you walk in, and you adjust your light to it."
+      },
+      {
+        "phrase": "Bright under pressure",
+        "dim": "bad days",
+        "door": "order",
+        "desc": "The harder the day, the steadier the shine. People stand nearer to you when things go wrong."
       }
     ],
     "shadows": [
       {
         "phrase": "Runs on empty",
         "dim": "personal reserves",
-        "desc": "You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks.",
-        "bands": "all"
+        "door": "body",
+        "desc": "You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks."
       },
       {
         "phrase": "Allergic to gloom",
         "dim": "heavy feelings",
-        "desc": "A sad silence starts and you're already reaching for the joke, the fix, the bright side. Some feelings needed to sit a while longer. People learn to take their heavy things elsewhere.",
-        "bands": "all"
+        "door": "expression",
+        "desc": "A sad silence starts and you're already reaching for the joke, the fix, the bright side. Some feelings needed to sit a while longer. People learn to take their heavy things elsewhere."
       },
       {
-        "phrase": "Taken for granted",
+        "phrase": "Sends no bill",
         "dim": "recognition",
-        "desc": "Your brightness is treated like the sun. Always there, nobody's job to maintain. The one day it dims, people ask what's wrong with you, not what it cost.",
-        "bands": "all"
+        "door": "action",
+        "desc": "You give the warmth away and never send the bill. Years in, nobody knows there was one, and you are the last to check the balance."
       },
       {
         "phrase": "Fills every silence",
         "dim": "quiet moments",
-        "desc": "Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade.",
-        "bands": [
-          "concentrated"
-        ]
+        "door": "expression",
+        "desc": "Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade."
       },
       {
         "phrase": "Smiles on schedule",
         "dim": "authenticity",
-        "desc": "The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed.",
-        "bands": [
-          "open"
-        ]
+        "door": "order",
+        "desc": "The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed."
+      },
+      {
+        "phrase": "Last log burning",
+        "dim": "the last reserve",
+        "door": "body",
+        "desc": "The reserve is gone and the light is still on. You will find out tomorrow what that cost."
+      },
+      {
+        "phrase": "Chokes on fuel",
+        "dim": "taking on more",
+        "door": "mind",
+        "desc": "Another book, another course, another person to feed on. The fire is choking on the pile."
+      },
+      {
+        "phrase": "Buried in ideas",
+        "dim": "too many plans",
+        "door": "mind",
+        "desc": "So much to burn that nothing catches. The best plan is under six others."
       }
     ],
     "__ore": {
@@ -246,7 +271,93 @@
             "default": "That you sometimes don't know whether the warmth is something you're choosing or something that just runs regardless. The giving can feel less like a gift and more like a structural fact — which makes it genuinely difficult to protect, because it's hard to guard something that operates before you've decided to give it."
           }
         }
-      ]
+      ],
+      "retired_band_pools": {
+        "note": "band-tagged ×5 pools RETIRED 2026-09-15 (REA_02 §5h: door-tagged ×7 supersede; bands retired, the role set already is the band)",
+        "gifts": [
+          {
+            "phrase": "Instantly likable",
+            "dim": "first impressions",
+            "desc": "Strangers relax around you before you've said much of anything. Guards drop, small talk turns real, and nobody can quite explain why.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Lifts the mood",
+            "dim": "atmosphere",
+            "desc": "A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did.",
+            "bands": "all"
+          },
+          {
+            "phrase": "No hidden agenda",
+            "dim": "hard days",
+            "desc": "Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out.",
+            "bands": [
+              "concentrated"
+            ]
+          },
+          {
+            "phrase": "First to celebrate",
+            "dim": "others' wins",
+            "desc": "Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it.",
+            "bands": [
+              "balanced",
+              "open"
+            ]
+          },
+          {
+            "phrase": "Keeps it close",
+            "dim": "close bonds",
+            "desc": "The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully.",
+            "bands": [
+              "open"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "phrase": "Runs on empty",
+            "dim": "personal reserves",
+            "desc": "You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Allergic to gloom",
+            "dim": "heavy feelings",
+            "desc": "A sad silence starts and you're already reaching for the joke, the fix, the bright side. Some feelings needed to sit a while longer. People learn to take their heavy things elsewhere.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Taken for granted",
+            "dim": "recognition",
+            "desc": "Your brightness is treated like the sun. Always there, nobody's job to maintain. The one day it dims, people ask what's wrong with you, not what it cost.",
+            "bands": "all"
+          },
+          {
+            "phrase": "Fills every silence",
+            "dim": "quiet moments",
+            "desc": "Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade.",
+            "bands": [
+              "concentrated"
+            ]
+          },
+          {
+            "phrase": "Smiles on schedule",
+            "dim": "authenticity",
+            "desc": "The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed.",
+            "bands": [
+              "open"
+            ]
+          }
+        ]
+      },
+      "retired_thin_self_items": []
+    },
+    "door_note": {
+      "body": "Fire",
+      "mind": "Wood",
+      "expression": "Earth",
+      "action": "Metal",
+      "order": "Water"
     }
   }
 }

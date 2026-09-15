@@ -7,7 +7,8 @@
   "candidate_note": "LOCKED corpus ×25 (owner: template approved, batch authored to it).",
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
-    "owner rulings 2026-08-19 (element-page restructure)"
+    "owner rulings 2026-08-19 (element-page restructure)",
+    "REA_02 §5h (the carry card; owner 2026-09-15)"
   ],
   "candidates": {
     "mechanism": {
@@ -23,7 +24,17 @@
       "advise_catalyst": "Solitude is your maintenance, so dose it like medicine. One silent hour daily, no inputs. A full day alone each month, calendared in advance. Leave gatherings while they are still good, and let the quiet finish what the rest began.",
       "advise_friction": "Depth stays fresh by moving. Add motion that flows, swimming, walking, cycling, and make one weekly commitment that gets you out the door regardless of mood. Say yes before the mood votes. Stir the water and watch the energy remember itself."
     },
-    "cta_verdict": "Your stamina refills in solitude and silence, and every season you skip that refill quietly borrows from the next one."
+    "cta_verdict": "Your stamina refills in solitude and silence, and every season you skip that refill quietly borrows from the next one.",
+    "carry": {
+      "catalyst": {
+        "clause": "The sea doubts its depth: perception discounted, knowing deferred to louder instruments.",
+        "remedy": "Trust one read all the way through."
+      },
+      "friction": {
+        "clause": "The surface seals: depth stilled under so much knowing that nothing surfaces to be checked.",
+        "remedy": "Deep water still needs shores."
+      }
+    }
   },
   "__ore": {
     "retired_fn_body": "The Core is your endurance function: the seat your strength refills from. With Water doubled here, your vitality is a deep table: quiet reserves that recharge from below, stamina that flows around obstacles rather than breaking on them. You recover in solitude and silence the way aquifers do. Guard the recharge fiercely. A drawn-down well still looks like a well from above.",
