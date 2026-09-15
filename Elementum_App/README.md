@@ -79,3 +79,18 @@ the app and runs `wrangler deploy` on every merge to `main` that touches
 "pages build and deployment" workflow publishes a separate site
 (jiaxinxuyago.github.io/Elementum) and does NOT update elementum.life.
 Manual deploy: `npm run build && npx wrangler deploy` from this folder.
+
+## The dev / staging site (elementum-dev)
+
+A second Worker, `elementum-dev`, serves a build made with `VITE_DEVTOOLS=1`
+(see `src/devtools.js`): the DevBar (Chart + Schema tabs) and the
+`window.__seedData` / `__goto` / `__setTier` QA hooks are ON, the page is
+`noindex`, and the PWA installs as "Elementum Dev". It exists so cloud
+sessions, which have no local dev server the owner can open, get a live
+testing surface. `.github/workflows/deploy-dev.yml` builds and runs
+`wrangler deploy --env dev` on every push to the `dev` branch that touches
+`Elementum_App/`; the URL is the auto `https://elementum-dev.<account>.workers.dev`
+(printed in the deploy log; attach a custom domain in the dashboard if wanted).
+Workflow: push to `dev` → test there → push the same commit to `main`.
+The prod build never sets the flag, so elementum.life carries none of this.
+Manual dev deploy: `VITE_DEVTOOLS=1 npm run build && npx wrangler deploy --env dev`.
