@@ -44,16 +44,16 @@ Around the compound sit the two non-archetype classes: **derived values** (perce
 
 | 干 | Archetype · manifesto |
 |---|---|
-| 甲 | **The Oak** — Builds what others can only imagine. Growth is not ambition — it is the architecture. |
-| 乙 | **The Vine** — Finds the path no one else sees. Arrives exactly where it intended. |
-| 丙 | **The Sun** — Doesn't choose to illuminate. Simply is light — and everything near it comes alive. |
-| 丁 | **The Candle** — Illuminates completely what it's pointed at. Nothing more. Nothing less. |
-| 戊 | **The Mountain** — People orient their lives around it without knowing why. The ground that holds. |
-| 己 | **The Field** — Grows things in silence. Leaves everything it touches more alive than it found it. |
-| 庚 | **The Blade** — Precision before intention · An edge is never given — it is forged. |
-| 辛 | **The Jewel** — Perceives what is excellent the way others perceive temperature — before the question is asked. |
-| 壬 | **The Ocean** — Holds more beneath the surface than it ever shows. Always has. Always will. |
-| 癸 | **The Rain** — Knows what is true before it is spoken. Nourishes what it touches without announcing it. |
+| 甲 | **The Oak** — Motion before readiness · You are the Wood that rises before the path is clear. |
+| 乙 | **The Vine** — Route bends. Destination holds. · You are the Wood that gets there anyway. |
+| 丙 | **The Sun** — Warmth without permission · You are the Fire that gives light before anyone asks. |
+| 丁 | **The Candle** — Intimacy over range · You are the Fire that burns closest, not widest. |
+| 戊 | **The Mountain** — Immovable by design · You are the Earth others use to find their footing. |
+| 己 | **The Field** — Nourish without credit · You are the Earth that turns what it holds into growth. |
+| 庚 | **The Blade** — Precision before intention · You are the Metal that cuts things clean. |
+| 辛 | **The Jewel** — Refinement over output · You are the Metal that refines until nothing extra remains. |
+| 壬 | **The Ocean** — Depth before disclosure · You are the Water that keeps moving without losing its depth. |
+| 癸 | **The Rain** — Felt before spoken · You are the Water that quietly changes whatever it touches. |
 
 ## One chart, end to end (the golden reference)
 

@@ -124,7 +124,7 @@ The default state of every screen shows you the most personally relevant content
 | Accent deepest | Walnut | `#5a4430` | Hover states, pressed CTAs |
 | Gold highlight | Gold | `#D4AF37` | Navigation active indicator, special moments |
 
-**Element colors (LOCKED — canonical: Design/tokens.css; historical source: the old Archetype_System):**
+**Element colors (LOCKED — canonical: Design/Source/tokens.css; historical source: the old Archetype_System):**
 
 | Element | Display | Hex | Deep variant | Deep hex |
 |---|---|---|---|---|
@@ -3262,8 +3262,8 @@ Italic was reserved for **two contexts only** (v2, now revoked):
 - `legend-patterns.html` — retired 2026-07-29 (patch moot)
 - `legend-screens-amendment.html` — retired 2026-07-29 (patch moot; §AM rules remain in this document)
 - `legend-screens.html` — retired 2026-07-29 (patch moot)
-- `Elementum_App/src/components/shared/EnergyBlueprint.jsx` — patch needed (BlueprintRow `.name` italic, empty-state message italic)
-- `Elementum_App/src/components/shared/IdentityRibbon.jsx` — patch needed (element-name italic, saturation reading paragraph italic)
+- `Elementum_App/src/components/shared/EnergyBlueprint.jsx` — deleted (patch moot)
+- `Elementum_App/src/components/shared/IdentityRibbon.jsx` — deleted (patch moot)
 - DES_04 §3.5.E — annotated as superseded (this commit)
 
 **Audit checklist for new code.** Before shipping any text element with `fontStyle: 'italic'` or CSS `font-style: italic`, verify it answers YES to one of:

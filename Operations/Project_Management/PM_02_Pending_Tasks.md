@@ -46,7 +46,7 @@ Slot RULED = the self energy card: renders ONLY on the core element's screen (`b
 
 ## K2 — the ELEMENT_GOD depth campaign (construct ruled 2026-08-19; REA_16 §6)
 
-Cell = `k2_overview` (40–70w) + `k2_functional` ×5 (Mind/Expression/Bonds/Action/Body, ≤22w) + `k2_domain_readings` (per `GOD.domains`, 18–55w, Seeker-gated). Grain ELEMENT_GOD ×50; K2 register (god cost × element arena); station-first; gates = both audits + humanize + owner review per the variable law.
+Cell = `k2_overview` (40–70w) + `k2_functional` ×1 (the god's family function per `GOD_FN` — Mind/Expression/Order/Action/Body; re-ruled 2026-09-01, ≤22w) + `k2_domain_readings` (per `GOD.domains`, 18–55w, Seeker-gated). Grain ELEMENT_GOD ×50; K2 register (god cost × element arena); station-first; gates = both audits + humanize + owner review per the variable law.
 
 ### K2-A · Template cell — ✅ 土_偏印 authored + locked (the corpus template)
 ### K2-B · Batch ×49 — ✅ COMPLETE (2026-08-19): all 50 cells station-authored → `k2.js` K2_CELLS regenerated from station; persona-led throughout (TG_PERSONA canonical: 伤官 Virtuoso · 正官 Magistrate · 正印 Sage now named in-body); registry rows locked at 40–70w / ≤22w / 18–55w; both audits green (5 voice tells caught + fixed pre-lock); interim `mean_line` RETIRED; verified on the exemplar's five element pages incl. Seeker gating
@@ -103,7 +103,7 @@ Therapist/psychic register: analytical personality truth + ONE tendency-framed p
 | HK-2 | Account hygiene: add company email to Supabase org + Google Cloud IAM (per the ownership map's dual-identity pattern) |
 | HK-3 | Anthropic console: workspace spend limit for the elementum-llm key (console-enforced cap independent of the worker kill-switch) |
 | HK-4 | One-time check: elementum.life auto-renew enabled in Cloudflare Registrar |
-| HK-5 | Deferred code items: App.jsx size split (846 ln) · ~20 unused engine exports · push-worker per-sub JWT reuse · batchGenerate .js→.mjs |
+| HK-5 | Deferred code items: App.jsx size split (903 ln) · ~20 unused engine exports · push-worker per-sub JWT reuse · batchGenerate .js→.mjs |
 | HK-6 | `DEV_05` Tier-D deferred backlog: reuse extraction (BackBar/SectionCard/PigmentBadge + hooks) + 3 strict-lint react-hooks items |
 | HK-7 | Design-system owner rulings parked for the design-library rebuild: radius scale · InkTile alpha · UpgradeModal palette · un-tokenized grays (`DES_13`) |
 | HK-8 | Optional: `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` (stops Windows fighting dev .ps1 tooling) |
