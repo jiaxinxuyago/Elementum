@@ -53,6 +53,29 @@ baseline · build green · journey sweep 18/18.
   page "The Yin Carry Lines"); the energy pages' mechanism TURNS still wear the yang noun (not ruled). STILL OPEN:
   (b) two tempo phrases (甲 Late bloomer, 戊 Slow
   and sure); (c) the pair cells' Order friction paragraphs do not carry the inner judge the pools read.
+- **SAMPLING-TEST BACKLOG (owner 2026-09-16: "backlog them and think about the fixes first", review page "Seven
+  Charts, One Story?"):** (1) a MISSING energy marked friction gets the overgrowth reading and an overgrowth shadow
+  (S3 Wood 0% on 丁, S5 Earth 0% on 辛); (2) THIN frictions (≤10%) read as overgrown on Underfueled charts (mirror of
+  the abundant-catalyst tension; one third-state pass should cover abundant catalyst + thin friction + missing
+  friction); (3) pool order picks the weaker of a doubled door's two items (S1 Right too early over Lives inside
+  plans; S6 Attentive friend over Regrows from little) — station-side lead ordering; (4) Balanced can hide a
+  lopsided chart (S7: Metal 84%, core 0%, reads Balanced; track asks to seek Metal; 金多水浊); (5) 丁 Action gift
+  Tends what's near contradicts the wide line "the hard thing your heat was made to work"; (6) Underfueled cores get
+  a Body gift that speaks the reserve as deep under a bridge that reads as a chart claim; (7) a 0% CORE presence on
+  a chart whose day master IS that element (S7) — engine presence question. Root-cause diagnosis + fix design
+  requested before any one-by-one fixing.
+  **Full-coverage report 2026-09-16 ("Why the Echo Breaks", private artifact): the reading space is 20 readings
+  (10 stems × Over/Under; Balanced 1.3% of charts and nearly all lopsided); 33,604 real charts run through the app's
+  code; 66% of shown slots echo, 34% partial, 0 break at pool level; 17 live items unreachable (Body 2nd gift,
+  Mind 2nd shadow). ROOT CAUSES: RC1 roles are valence only, sentences assume volume (thin friction 49% of charts,
+  missing friction 11%, abundant catalyst 43%, dominant ≥40% 15%); RC2 band is the only condition (no excess
+  override, Balanced hides lopsided charts); RC3 selection is condition-only (two-state page, third chip by list
+  order); RC4 pool items have no derivation law binding them to the pair definitions (carry lines do); RC5 bridges
+  assert chart claims over quintessence items; RC6 the day stem has no composition weight, so "core MISSING" =
+  日主无根. PROPOSED: valence × volume per energy (absent/thin/present/abundant/dominant), excess override per
+  渊海子平 (REA_04 PART 2), Balanced needs distribution, doubled pairs = echo face + excess face, `echo_of`
+  derivation law, capability-register bridges, core relabel "unrooted". Six rulings pending (Q1 override, Q2
+  thresholds, Q3 chip count, Q4 derivation scope, Q5 Balanced, Q6 core presence). No fix executed.
 - Balanced exemplar (2026-09-16, seen on the local render, not ruled): the `xin` preset is balanced. Carry card shows
   the track and no EASE/SEEK rows while the lead says "the doors below are open on both sides"; ▲ marks still show on
   Wood/Earth from the manual's seek list; the two smallest energies lose their labels at narrow width.
