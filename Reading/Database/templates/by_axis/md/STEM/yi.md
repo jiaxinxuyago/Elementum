@@ -58,10 +58,10 @@
 | `shadows[0].dim` | the shared wall |
 | `shadows[0].door` | body |
 | `shadows[0].desc` | Given a shared wall, you take the sunny side without noticing. Later you wonder why the other vine went quiet. |
-| `shadows[1].phrase` | Hides the effort |
-| `shadows[1].dim` | how the climb looks |
+| `shadows[1].phrase` | Promises the bloom |
+| `shadows[1].dim` | announcing early |
 | `shadows[1].door` | expression |
-| `shadows[1].desc` | The wall got climbed and nobody saw the climb. You made it look like the vine was always there, and then you are hurt when they believe it. |
+| `shadows[1].desc` | You tell people where you will be by summer while the wall is still bare. The saying comes easily. Then the summer has to keep the promise. |
 | `shadows[2].phrase` | Bends too far |
 | `shadows[2].dim` | boundaries |
 | `shadows[2].door` | order |
@@ -186,3 +186,8 @@
 | `retired_band_pools.shadows[4].desc` | With no wall to climb, the winding can forget where it was going. You're flexible about the route, and lately, quietly, about the destination too. |
 | `retired_band_pools.shadows[4].bands` | open |
 | `retired_thin_self_items` |  |
+| `retired_door_audit_2026-09-16[0].phrase` | Hides the effort |
+| `retired_door_audit_2026-09-16[0].dim` | how the climb looks |
+| `retired_door_audit_2026-09-16[0].door` | expression |
+| `retired_door_audit_2026-09-16[0].desc` | The wall got climbed and nobody saw the climb. You made it look like the vine was always there, and then you are hurt when they believe it. |
+| `retired_door_audit_2026-09-16[0].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |

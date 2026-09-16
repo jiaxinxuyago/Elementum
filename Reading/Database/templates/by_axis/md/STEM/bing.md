@@ -26,70 +26,62 @@
 | `dm_mechanism` | Yang Fire that gives without dimming — radiance steadied by what it warms. |
 | `yourNature_desc` | You brighten the day of whoever's near you, and none of it is on purpose. The light just runs, morning to night, on you as fuel. People plan around your warmth the way they plan around daylight, and asking what it costs occurs to no one. You included. |
 | `dm_overview` | The Sun is Yang Fire, the fire that no one lit and no one owns. It keeps high summer and full noon, opening every market and warming every back without asking a single name. The sky itself is its lantern. Everything that grows turns toward it, and on the day it slips behind clouds, the whole village looks up and wonders. |
-| `gifts[0].phrase` | Liked on arrival |
-| `gifts[0].dim` | first impressions |
+| `gifts[0].phrase` | Founds the tradition |
+| `gifts[0].dim` | what lasts |
 | `gifts[0].door` | expression |
-| `gifts[0].desc` | People are glad you are there before you have said a word. It is the warmth, not the talk. |
-| `gifts[1].phrase` | Lifts the mood |
-| `gifts[1].dim` | atmosphere |
-| `gifts[1].door` | expression |
-| `gifts[1].desc` | A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did. |
-| `gifts[2].phrase` | No hidden agenda |
-| `gifts[2].dim` | hard days |
-| `gifts[2].door` | body |
-| `gifts[2].desc` | Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out. |
-| `gifts[3].phrase` | First to celebrate |
-| `gifts[3].dim` | others' wins |
-| `gifts[3].door` | action |
-| `gifts[3].desc` | Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it. |
-| `gifts[4].phrase` | Keeps it close |
-| `gifts[4].dim` | close bonds |
-| `gifts[4].door` | body |
-| `gifts[4].desc` | The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully. |
-| `gifts[5].phrase` | Feeds on daylight |
-| `gifts[5].dim` | refueling |
+| `gifts[0].desc` | The dinner you hosted once is now the dinner everyone hosts. What you warm tends to set into something people keep doing after you have moved on. |
+| `gifts[1].phrase` | No hidden agenda |
+| `gifts[1].dim` | hard days |
+| `gifts[1].door` | body |
+| `gifts[1].desc` | Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out. |
+| `gifts[2].phrase` | Hard problems only |
+| `gifts[2].dim` | the work you pick |
+| `gifts[2].door` | action |
+| `gifts[2].desc` | Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on. |
+| `gifts[3].phrase` | Keeps it close |
+| `gifts[3].dim` | close bonds |
+| `gifts[3].door` | body |
+| `gifts[3].desc` | The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully. |
+| `gifts[4].phrase` | Feeds on daylight |
+| `gifts[4].dim` | refueling |
+| `gifts[4].door` | mind |
+| `gifts[4].desc` | You feed on what is around you. A good morning, a good friend, a good idea, and you are lit again. |
+| `gifts[5].phrase` | Catches the mood |
+| `gifts[5].dim` | reading a mood |
 | `gifts[5].door` | mind |
-| `gifts[5].desc` | You feed on what is around you. A good morning, a good friend, a good idea, and you are lit again. |
-| `gifts[6].phrase` | Catches the mood |
-| `gifts[6].dim` | reading a mood |
-| `gifts[6].door` | mind |
-| `gifts[6].desc` | You know the weather of a place the moment you walk in, and you adjust your light to it. |
-| `gifts[7].phrase` | Bright under pressure |
-| `gifts[7].dim` | bad days |
-| `gifts[7].door` | order |
-| `gifts[7].desc` | The harder the day, the steadier the shine. People stand nearer to you when things go wrong. |
+| `gifts[5].desc` | You know the weather of a place the moment you walk in, and you adjust your light to it. |
+| `gifts[6].phrase` | Bright under pressure |
+| `gifts[6].dim` | bad days |
+| `gifts[6].door` | order |
+| `gifts[6].desc` | The harder the day, the steadier the shine. People stand nearer to you when things go wrong. |
 | `shadows[0].phrase` | Runs on empty |
 | `shadows[0].dim` | personal reserves |
 | `shadows[0].door` | body |
 | `shadows[0].desc` | You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks. |
-| `shadows[1].phrase` | Allergic to gloom |
-| `shadows[1].dim` | heavy feelings |
-| `shadows[1].door` | expression |
-| `shadows[1].desc` | A sad silence starts and you're already reaching for the joke, the fix, the bright side. Some feelings needed to sit a while longer. People learn to take their heavy things elsewhere. |
-| `shadows[2].phrase` | Sends no bill |
-| `shadows[2].dim` | recognition |
-| `shadows[2].door` | action |
-| `shadows[2].desc` | You give the warmth away and never send the bill. Years in, nobody knows there was one, and you are the last to check the balance. |
-| `shadows[3].phrase` | Fills every silence |
-| `shadows[3].dim` | quiet moments |
-| `shadows[3].door` | expression |
-| `shadows[3].desc` | Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade. |
-| `shadows[4].phrase` | Smiles on schedule |
-| `shadows[4].dim` | authenticity |
-| `shadows[4].door` | order |
-| `shadows[4].desc` | The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed. |
-| `shadows[5].phrase` | Last log burning |
-| `shadows[5].dim` | the last reserve |
-| `shadows[5].door` | body |
-| `shadows[5].desc` | The reserve is gone and the light is still on. You will find out tomorrow what that cost. |
-| `shadows[6].phrase` | Chokes on fuel |
-| `shadows[6].dim` | taking on more |
+| `shadows[1].phrase` | Reopens the deal |
+| `shadows[1].dim` | settled things |
+| `shadows[1].door` | action |
+| `shadows[1].desc` | Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled. |
+| `shadows[2].phrase` | Fills every silence |
+| `shadows[2].dim` | quiet moments |
+| `shadows[2].door` | expression |
+| `shadows[2].desc` | Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade. |
+| `shadows[3].phrase` | Smiles on schedule |
+| `shadows[3].dim` | authenticity |
+| `shadows[3].door` | order |
+| `shadows[3].desc` | The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed. |
+| `shadows[4].phrase` | Last log burning |
+| `shadows[4].dim` | the last reserve |
+| `shadows[4].door` | body |
+| `shadows[4].desc` | The reserve is gone and the light is still on. You will find out tomorrow what that cost. |
+| `shadows[5].phrase` | Chokes on fuel |
+| `shadows[5].dim` | taking on more |
+| `shadows[5].door` | mind |
+| `shadows[5].desc` | Another book, another course, another person to feed on. The fire is choking on the pile. |
+| `shadows[6].phrase` | Buried in ideas |
+| `shadows[6].dim` | too many plans |
 | `shadows[6].door` | mind |
-| `shadows[6].desc` | Another book, another course, another person to feed on. The fire is choking on the pile. |
-| `shadows[7].phrase` | Buried in ideas |
-| `shadows[7].dim` | too many plans |
-| `shadows[7].door` | mind |
-| `shadows[7].desc` | So much to burn that nothing catches. The best plan is under six others. |
+| `shadows[6].desc` | So much to burn that nothing catches. The best plan is under six others. |
 | `door_note.body` | Fire |
 | `door_note.mind` | Wood |
 | `door_note.expression` | Earth |
@@ -194,3 +186,28 @@
 | `retired_band_pools.shadows[4].desc` | The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed. |
 | `retired_band_pools.shadows[4].bands` | open |
 | `retired_thin_self_items` |  |
+| `retired_door_audit_2026-09-16[0].phrase` | Liked on arrival |
+| `retired_door_audit_2026-09-16[0].dim` | first impressions |
+| `retired_door_audit_2026-09-16[0].door` | expression |
+| `retired_door_audit_2026-09-16[0].desc` | People are glad you are there before you have said a word. It is the warmth, not the talk. |
+| `retired_door_audit_2026-09-16[0].why` | door audit 2026-09-16: pool shape — Expression was doubled; the §5h law doubles Body and Mind only |
+| `retired_door_audit_2026-09-16[1].phrase` | Lifts the mood |
+| `retired_door_audit_2026-09-16[1].dim` | atmosphere |
+| `retired_door_audit_2026-09-16[1].door` | expression |
+| `retired_door_audit_2026-09-16[1].desc` | A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did. |
+| `retired_door_audit_2026-09-16[1].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |
+| `retired_door_audit_2026-09-16[2].phrase` | First to celebrate |
+| `retired_door_audit_2026-09-16[2].dim` | others' wins |
+| `retired_door_audit_2026-09-16[2].door` | action |
+| `retired_door_audit_2026-09-16[2].desc` | Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it. |
+| `retired_door_audit_2026-09-16[2].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |
+| `retired_door_audit_2026-09-16[3].phrase` | Allergic to gloom |
+| `retired_door_audit_2026-09-16[3].dim` | heavy feelings |
+| `retired_door_audit_2026-09-16[3].door` | expression |
+| `retired_door_audit_2026-09-16[3].desc` | A sad silence starts and you're already reaching for the joke, the fix, the bright side. Some feelings needed to sit a while longer. People learn to take their heavy things elsewhere. |
+| `retired_door_audit_2026-09-16[3].why` | door audit 2026-09-16: pool shape — Expression was doubled; the §5h law doubles Body and Mind only |
+| `retired_door_audit_2026-09-16[4].phrase` | Sends no bill |
+| `retired_door_audit_2026-09-16[4].dim` | recognition |
+| `retired_door_audit_2026-09-16[4].door` | action |
+| `retired_door_audit_2026-09-16[4].desc` | You give the warmth away and never send the bill. Years in, nobody knows there was one, and you are the last to check the balance. |
+| `retired_door_audit_2026-09-16[4].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |

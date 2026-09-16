@@ -25,7 +25,7 @@ import { useChart } from '../../store/chartContext.jsx';
 import { STEM_CARD_DATA } from '../../content/index.js';
 import { downloadCardPng, shareCard, copyText } from '../../lib/cardExport.js';
 import { APP_URL } from '../../infra/index.js';
-import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_FN } from './journeyData.js';
+import { buildJourneyModel, buildElementScreen, buildGlossary, FAMILY_FN, coreElOf } from './journeyData.js';
 import { resolvePositions } from '../reading/positionsResolve.js';
 import { SLOT_RANK } from '../../content/positions.js';
 import { PAIR_CELLS } from '../../content/pairs.js';
@@ -58,8 +58,11 @@ const Disc = () => (
 export default function JourneyStage({ reveal = false, openCore = false, onDone, onOpenDayMaster, onOpenCodex }) {
   const { chart, ec, identity, hourUnknown } = useReading();
   const { tier } = useChart();   // K2 domain readings are Seeker-gated
-  const [screen, setScreen] = useState('catalogue');
-  const [elOpen, setElOpen] = useState(null);      // element screen target
+  // `read-elemental` alias (owner 2026-09-15): the retired d12 Elemental
+  // Nature detail opens straight onto the core's own energy page (the Body
+  // corpus), so the initial screen is seeded from the prop, not set in an effect.
+  const [screen, setScreen] = useState(() => (openCore && ec ? 'element' : 'catalogue'));
+  const [elOpen, setElOpen] = useState(() => (openCore && ec ? coreElOf(ec) : null));      // element screen target
   const [showShare, setShowShare] = useState(false);
   const [cardStatus, setCardStatus] = useState(null);
   const cardRef = useRef(null);
@@ -123,12 +126,6 @@ export default function JourneyStage({ reveal = false, openCore = false, onDone,
     window.__journeyElement = goElement;
     return () => { if (window.__journeyElement === goElement) delete window.__journeyElement; };
   }, [goElement]);
-  // `read-elemental` alias (owner 2026-09-15): the retired d12 Elemental
-  // Nature detail now opens the core's own energy page (the Body corpus).
-  const coreElKey = model?.core?.el;
-  useEffect(() => {
-    if (openCore && coreElKey) goElement(coreElKey);
-  }, [openCore, coreElKey, goElement]);
   useEffect(() => {
     if (!IS_DEV_TOOLS || typeof window === 'undefined') return undefined;
     window.__journeyScreen = screen;

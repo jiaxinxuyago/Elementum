@@ -30,10 +30,10 @@
 | `gifts[0].dim` | connections |
 | `gifts[0].door` | mind |
 | `gifts[0].desc` | While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out. |
-| `gifts[1].phrase` | Endlessly curious |
-| `gifts[1].dim` | learning |
+| `gifts[1].phrase` | Sharpened by rigor |
+| `gifts[1].dim` | good teachers |
 | `gifts[1].door` | mind |
-| `gifts[1].desc` | Every field, every stranger, every rabbit hole. Dinner with you can cross four centuries and never feel like a lecture. The appetite doesn't switch off. |
+| `gifts[1].desc` | Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through. |
 | `gifts[2].phrase` | Thinks big |
 | `gifts[2].dim` | horizons |
 | `gifts[2].door` | action |
@@ -42,10 +42,10 @@
 | `gifts[3].dim` | under pressure |
 | `gifts[3].door` | order |
 | `gifts[3].desc` | Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours. |
-| `gifts[4].phrase` | Full of surprises |
-| `gifts[4].dim` | being known |
+| `gifts[4].phrase` | Seeds the idea |
+| `gifts[4].dim` | what grows after you |
 | `gifts[4].door` | expression |
-| `gifts[4].desc` | Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned. |
+| `gifts[4].desc` | You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from. |
 | `gifts[5].phrase` | Nothing rattles it |
 | `gifts[5].dim` | storms |
 | `gifts[5].door` | body |
@@ -191,3 +191,13 @@
 | `retired_thin_self_items[0].desc` | Mid-conversation, mid-project, mid-year, part of you quietly leaves for open water. People feel the tide go out before you've noticed you left. |
 | `retired_thin_self_items[0].bands` | open |
 | `retired_thin_self_items[0].why` | the docs repositioned 壬 from introvert-drift to vast-moving (REA_16 2026-08-05); drift is the rejected reading |
+| `retired_door_audit_2026-09-16[0].phrase` | Endlessly curious |
+| `retired_door_audit_2026-09-16[0].dim` | learning |
+| `retired_door_audit_2026-09-16[0].door` | mind |
+| `retired_door_audit_2026-09-16[0].desc` | Every field, every stranger, every rabbit hole. Dinner with you can cross four centuries and never feel like a lecture. The appetite doesn't switch off. |
+| `retired_door_audit_2026-09-16[0].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |
+| `retired_door_audit_2026-09-16[1].phrase` | Full of surprises |
+| `retired_door_audit_2026-09-16[1].dim` | being known |
+| `retired_door_audit_2026-09-16[1].door` | expression |
+| `retired_door_audit_2026-09-16[1].desc` | Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned. |
+| `retired_door_audit_2026-09-16[1].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |

@@ -36,16 +36,10 @@
         "desc": "You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence."
       },
       {
-        "phrase": "Finds the words",
-        "dim": "naming feelings",
-        "door": "expression",
-        "desc": "Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it."
-      },
-      {
-        "phrase": "Knows what helps",
-        "dim": "caregiving",
+        "phrase": "Reads the moment",
+        "dim": "timing",
         "door": "action",
-        "desc": "Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands."
+        "desc": "You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived."
       },
       {
         "phrase": "Gentle confidant",
@@ -110,10 +104,10 @@
         "desc": "Their weather becomes yours. By evening you cannot say whose sadness you are carrying."
       },
       {
-        "phrase": "Warns too softly",
-        "dim": "warnings",
+        "phrase": "Waters every garden",
+        "dim": "other people's growth",
         "door": "expression",
-        "desc": "The true thing was said. It was said so gently that nobody heard it as a warning."
+        "desc": "Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours."
       },
       {
         "phrase": "Boils off early",
@@ -354,6 +348,29 @@
             "open"
           ],
           "why": "thin-Body item; no shadow face for a catalyst"
+        }
+      ],
+      "retired_door_audit_2026-09-16": [
+        {
+          "phrase": "Finds the words",
+          "dim": "naming feelings",
+          "door": "expression",
+          "desc": "Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it.",
+          "why": "door audit 2026-09-16: pool shape — Expression was doubled; the §5h law doubles Body and Mind only"
+        },
+        {
+          "phrase": "Warns too softly",
+          "dim": "warnings",
+          "door": "expression",
+          "desc": "The true thing was said. It was said so gently that nobody heard it as a warning.",
+          "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
+        },
+        {
+          "phrase": "Knows what helps",
+          "dim": "caregiving",
+          "door": "action",
+          "desc": "Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands.",
+          "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
         }
       ]
     },

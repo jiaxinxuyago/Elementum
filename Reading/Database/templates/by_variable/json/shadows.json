@@ -9,10 +9,10 @@
         "canonical_name": "The Oak",
         "value": [
           {
-            "phrase": "Outpaces people",
-            "dim": "close bonds",
+            "phrase": "Holds every acre",
+            "dim": "what you keep",
             "door": "action",
-            "desc": "The people who love you feel a step behind. The reaching never slows quite enough to let them catch up."
+            "desc": "Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent."
           },
           {
             "phrase": "Asks for nothing",
@@ -64,10 +64,10 @@
             "desc": "Given a shared wall, you take the sunny side without noticing. Later you wonder why the other vine went quiet."
           },
           {
-            "phrase": "Hides the effort",
-            "dim": "how the climb looks",
+            "phrase": "Promises the bloom",
+            "dim": "announcing early",
             "door": "expression",
-            "desc": "The wall got climbed and nobody saw the climb. You made it look like the vine was always there, and then you are hurt when they believe it."
+            "desc": "You tell people where you will be by summer while the wall is still bare. The saying comes easily. Then the summer has to keep the promise."
           },
           {
             "phrase": "Bends too far",
@@ -113,16 +113,10 @@
             "desc": "You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks."
           },
           {
-            "phrase": "Allergic to gloom",
-            "dim": "heavy feelings",
-            "door": "expression",
-            "desc": "A sad silence starts and you're already reaching for the joke, the fix, the bright side. Some feelings needed to sit a while longer. People learn to take their heavy things elsewhere."
-          },
-          {
-            "phrase": "Sends no bill",
-            "dim": "recognition",
+            "phrase": "Reopens the deal",
+            "dim": "settled things",
             "door": "action",
-            "desc": "You give the warmth away and never send the bill. Years in, nobody knows there was one, and you are the last to check the balance."
+            "desc": "Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled."
           },
           {
             "phrase": "Fills every silence",
@@ -217,10 +211,10 @@
             "desc": "The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked."
           },
           {
-            "phrase": "Waits too long",
-            "dim": "fixable problems",
+            "phrase": "Warmed, not fed",
+            "dim": "what counts as input",
             "door": "mind",
-            "desc": "Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it."
+            "desc": "Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before."
           },
           {
             "phrase": "Can't let go",
@@ -364,10 +358,10 @@
             "desc": "The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep."
           },
           {
-            "phrase": "Hard to impress",
-            "dim": "praise",
+            "phrase": "Studies the setting",
+            "dim": "preparation",
             "door": "mind",
-            "desc": "People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it."
+            "desc": "One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work."
           },
           {
             "phrase": "Stays boxed up",
@@ -382,10 +376,10 @@
             "desc": "The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive."
           },
           {
-            "phrase": "Sells self short",
-            "dim": "self-worth",
+            "phrase": "Cuts in passing",
+            "dim": "small remarks",
             "door": "expression",
-            "desc": "The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly."
+            "desc": "The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not."
           },
           {
             "phrase": "Trusts one judge",
@@ -486,10 +480,10 @@
             "desc": "Their weather becomes yours. By evening you cannot say whose sadness you are carrying."
           },
           {
-            "phrase": "Warns too softly",
-            "dim": "warnings",
+            "phrase": "Waters every garden",
+            "dim": "other people's growth",
             "door": "expression",
-            "desc": "The true thing was said. It was said so gently that nobody heard it as a warning."
+            "desc": "Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours."
           },
           {
             "phrase": "Boils off early",

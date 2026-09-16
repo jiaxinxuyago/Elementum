@@ -30,34 +30,30 @@
 | `gifts[0].dim` | unspoken feelings |
 | `gifts[0].door` | mind |
 | `gifts[0].desc` | You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence. |
-| `gifts[1].phrase` | Finds the words |
-| `gifts[1].dim` | naming feelings |
-| `gifts[1].door` | expression |
-| `gifts[1].desc` | Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it. |
-| `gifts[2].phrase` | Knows what helps |
-| `gifts[2].dim` | caregiving |
-| `gifts[2].door` | action |
-| `gifts[2].desc` | Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands. |
-| `gifts[3].phrase` | Gentle confidant |
-| `gifts[3].dim` | secrets |
-| `gifts[3].door` | body |
-| `gifts[3].desc` | People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it. |
-| `gifts[4].phrase` | Changes minds softly |
-| `gifts[4].dim` | influence on others |
-| `gifts[4].door` | expression |
-| `gifts[4].desc` | Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did. |
-| `gifts[5].phrase` | Settles the dust |
-| `gifts[5].dim` | presence |
-| `gifts[5].door` | body |
-| `gifts[5].desc` | The air is calmer after you have been in it, and nobody can say what you did. |
-| `gifts[6].phrase` | Soaks it up |
-| `gifts[6].dim` | learning |
-| `gifts[6].door` | mind |
-| `gifts[6].desc` | Whatever falls near you goes in and stays. Years later it comes back as knowing. |
-| `gifts[7].phrase` | Wears down stone |
-| `gifts[7].dim` | under pressure |
-| `gifts[7].door` | order |
-| `gifts[7].desc` | Pressure does not stop you. Given enough seasons, the rain shapes the rock that tried to stop it. |
+| `gifts[1].phrase` | Reads the moment |
+| `gifts[1].dim` | timing |
+| `gifts[1].door` | action |
+| `gifts[1].desc` | You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived. |
+| `gifts[2].phrase` | Gentle confidant |
+| `gifts[2].dim` | secrets |
+| `gifts[2].door` | body |
+| `gifts[2].desc` | People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it. |
+| `gifts[3].phrase` | Changes minds softly |
+| `gifts[3].dim` | influence on others |
+| `gifts[3].door` | expression |
+| `gifts[3].desc` | Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did. |
+| `gifts[4].phrase` | Settles the dust |
+| `gifts[4].dim` | presence |
+| `gifts[4].door` | body |
+| `gifts[4].desc` | The air is calmer after you have been in it, and nobody can say what you did. |
+| `gifts[5].phrase` | Soaks it up |
+| `gifts[5].dim` | learning |
+| `gifts[5].door` | mind |
+| `gifts[5].desc` | Whatever falls near you goes in and stays. Years later it comes back as knowing. |
+| `gifts[6].phrase` | Wears down stone |
+| `gifts[6].dim` | under pressure |
+| `gifts[6].door` | order |
+| `gifts[6].desc` | Pressure does not stop you. Given enough seasons, the rain shapes the rock that tried to stop it. |
 | `shadows[0].phrase` | Absorbs everything |
 | `shadows[0].dim` | others' emotions |
 | `shadows[0].door` | mind |
@@ -78,10 +74,10 @@
 | `shadows[4].dim` | whose feeling |
 | `shadows[4].door` | body |
 | `shadows[4].desc` | Their weather becomes yours. By evening you cannot say whose sadness you are carrying. |
-| `shadows[5].phrase` | Warns too softly |
-| `shadows[5].dim` | warnings |
+| `shadows[5].phrase` | Waters every garden |
+| `shadows[5].dim` | other people's growth |
 | `shadows[5].door` | expression |
-| `shadows[5].desc` | The true thing was said. It was said so gently that nobody heard it as a warning. |
+| `shadows[5].desc` | Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours. |
 | `shadows[6].phrase` | Boils off early |
 | `shadows[6].dim` | chasing warmth |
 | `shadows[6].door` | action |
@@ -195,3 +191,18 @@
 | `retired_thin_self_items[0].desc` | The hunch was right, and you overruled it anyway because three people sounded surer than you felt. You've learned to poll before trusting the one instrument that was working. |
 | `retired_thin_self_items[0].bands` | open |
 | `retired_thin_self_items[0].why` | thin-Body item; no shadow face for a catalyst |
+| `retired_door_audit_2026-09-16[0].phrase` | Finds the words |
+| `retired_door_audit_2026-09-16[0].dim` | naming feelings |
+| `retired_door_audit_2026-09-16[0].door` | expression |
+| `retired_door_audit_2026-09-16[0].desc` | Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it. |
+| `retired_door_audit_2026-09-16[0].why` | door audit 2026-09-16: pool shape — Expression was doubled; the §5h law doubles Body and Mind only |
+| `retired_door_audit_2026-09-16[1].phrase` | Warns too softly |
+| `retired_door_audit_2026-09-16[1].dim` | warnings |
+| `retired_door_audit_2026-09-16[1].door` | expression |
+| `retired_door_audit_2026-09-16[1].desc` | The true thing was said. It was said so gently that nobody heard it as a warning. |
+| `retired_door_audit_2026-09-16[1].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |
+| `retired_door_audit_2026-09-16[2].phrase` | Knows what helps |
+| `retired_door_audit_2026-09-16[2].dim` | caregiving |
+| `retired_door_audit_2026-09-16[2].door` | action |
+| `retired_door_audit_2026-09-16[2].desc` | Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands. |
+| `retired_door_audit_2026-09-16[2].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |

@@ -10,10 +10,10 @@
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Outpaces people |
-| `0.dim` | close bonds |
+| `0.phrase` | Holds every acre |
+| `0.dim` | what you keep |
 | `0.door` | action |
-| `0.desc` | The people who love you feel a step behind. The reaching never slows quite enough to let them catch up. |
+| `0.desc` | Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent. |
 | `1.phrase` | Asks for nothing |
 | `1.dim` | asking for help |
 | `1.door` | body |
@@ -47,10 +47,10 @@
 | `0.dim` | the shared wall |
 | `0.door` | body |
 | `0.desc` | Given a shared wall, you take the sunny side without noticing. Later you wonder why the other vine went quiet. |
-| `1.phrase` | Hides the effort |
-| `1.dim` | how the climb looks |
+| `1.phrase` | Promises the bloom |
+| `1.dim` | announcing early |
 | `1.door` | expression |
-| `1.desc` | The wall got climbed and nobody saw the climb. You made it look like the vine was always there, and then you are hurt when they believe it. |
+| `1.desc` | You tell people where you will be by summer while the wall is still bare. The saying comes easily. Then the summer has to keep the promise. |
 | `2.phrase` | Bends too far |
 | `2.dim` | boundaries |
 | `2.door` | order |
@@ -80,34 +80,30 @@
 | `0.dim` | personal reserves |
 | `0.door` | body |
 | `0.desc` | You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks. |
-| `1.phrase` | Allergic to gloom |
-| `1.dim` | heavy feelings |
-| `1.door` | expression |
-| `1.desc` | A sad silence starts and you're already reaching for the joke, the fix, the bright side. Some feelings needed to sit a while longer. People learn to take their heavy things elsewhere. |
-| `2.phrase` | Sends no bill |
-| `2.dim` | recognition |
-| `2.door` | action |
-| `2.desc` | You give the warmth away and never send the bill. Years in, nobody knows there was one, and you are the last to check the balance. |
-| `3.phrase` | Fills every silence |
-| `3.dim` | quiet moments |
-| `3.door` | expression |
-| `3.desc` | Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade. |
-| `4.phrase` | Smiles on schedule |
-| `4.dim` | authenticity |
-| `4.door` | order |
-| `4.desc` | The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed. |
-| `5.phrase` | Last log burning |
-| `5.dim` | the last reserve |
-| `5.door` | body |
-| `5.desc` | The reserve is gone and the light is still on. You will find out tomorrow what that cost. |
-| `6.phrase` | Chokes on fuel |
-| `6.dim` | taking on more |
+| `1.phrase` | Reopens the deal |
+| `1.dim` | settled things |
+| `1.door` | action |
+| `1.desc` | Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled. |
+| `2.phrase` | Fills every silence |
+| `2.dim` | quiet moments |
+| `2.door` | expression |
+| `2.desc` | Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade. |
+| `3.phrase` | Smiles on schedule |
+| `3.dim` | authenticity |
+| `3.door` | order |
+| `3.desc` | The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed. |
+| `4.phrase` | Last log burning |
+| `4.dim` | the last reserve |
+| `4.door` | body |
+| `4.desc` | The reserve is gone and the light is still on. You will find out tomorrow what that cost. |
+| `5.phrase` | Chokes on fuel |
+| `5.dim` | taking on more |
+| `5.door` | mind |
+| `5.desc` | Another book, another course, another person to feed on. The fire is choking on the pile. |
+| `6.phrase` | Buried in ideas |
+| `6.dim` | too many plans |
 | `6.door` | mind |
-| `6.desc` | Another book, another course, another person to feed on. The fire is choking on the pile. |
-| `7.phrase` | Buried in ideas |
-| `7.dim` | too many plans |
-| `7.door` | mind |
-| `7.desc` | So much to burn that nothing catches. The best plan is under six others. |
+| `6.desc` | So much to burn that nothing catches. The best plan is under six others. |
 
 ### The Candle · 丁
 
@@ -150,10 +146,10 @@
 | `0.dim` | sharing the load |
 | `0.door` | body |
 | `0.desc` | The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked. |
-| `1.phrase` | Waits too long |
-| `1.dim` | fixable problems |
+| `1.phrase` | Warmed, not fed |
+| `1.dim` | what counts as input |
 | `1.door` | mind |
-| `1.desc` | Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it. |
+| `1.desc` | Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before. |
 | `2.phrase` | Can't let go |
 | `2.dim` | endings |
 | `2.door` | body |
@@ -249,10 +245,10 @@
 | `0.dim` | criticism |
 | `0.door` | order |
 | `0.desc` | The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep. |
-| `1.phrase` | Hard to impress |
-| `1.dim` | praise |
+| `1.phrase` | Studies the setting |
+| `1.dim` | preparation |
 | `1.door` | mind |
-| `1.desc` | People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it. |
+| `1.desc` | One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work. |
 | `2.phrase` | Stays boxed up |
 | `2.dim` | being sheltered |
 | `2.door` | mind |
@@ -261,10 +257,10 @@
 | `3.dim` | finishing |
 | `3.door` | body |
 | `3.desc` | The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive. |
-| `4.phrase` | Sells self short |
-| `4.dim` | self-worth |
+| `4.phrase` | Cuts in passing |
+| `4.dim` | small remarks |
 | `4.door` | expression |
-| `4.desc` | The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly. |
+| `4.desc` | The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not. |
 | `5.phrase` | Trusts one judge |
 | `5.dim` | taking advice |
 | `5.door` | body |
@@ -331,10 +327,10 @@
 | `4.dim` | whose feeling |
 | `4.door` | body |
 | `4.desc` | Their weather becomes yours. By evening you cannot say whose sadness you are carrying. |
-| `5.phrase` | Warns too softly |
-| `5.dim` | warnings |
+| `5.phrase` | Waters every garden |
+| `5.dim` | other people's growth |
 | `5.door` | expression |
-| `5.desc` | The true thing was said. It was said so gently that nobody heard it as a warning. |
+| `5.desc` | Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours. |
 | `6.phrase` | Boils off early |
 | `6.dim` | chasing warmth |
 | `6.door` | action |

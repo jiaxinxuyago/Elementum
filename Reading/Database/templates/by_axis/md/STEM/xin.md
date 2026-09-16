@@ -58,10 +58,10 @@
 | `shadows[0].dim` | criticism |
 | `shadows[0].door` | order |
 | `shadows[0].desc` | The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep. |
-| `shadows[1].phrase` | Hard to impress |
-| `shadows[1].dim` | praise |
+| `shadows[1].phrase` | Studies the setting |
+| `shadows[1].dim` | preparation |
 | `shadows[1].door` | mind |
-| `shadows[1].desc` | People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it. |
+| `shadows[1].desc` | One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work. |
 | `shadows[2].phrase` | Stays boxed up |
 | `shadows[2].dim` | being sheltered |
 | `shadows[2].door` | mind |
@@ -70,10 +70,10 @@
 | `shadows[3].dim` | finishing |
 | `shadows[3].door` | body |
 | `shadows[3].desc` | The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive. |
-| `shadows[4].phrase` | Sells self short |
-| `shadows[4].dim` | self-worth |
+| `shadows[4].phrase` | Cuts in passing |
+| `shadows[4].dim` | small remarks |
 | `shadows[4].door` | expression |
-| `shadows[4].desc` | The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly. |
+| `shadows[4].desc` | The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not. |
 | `shadows[5].phrase` | Trusts one judge |
 | `shadows[5].dim` | taking advice |
 | `shadows[5].door` | body |
@@ -186,3 +186,13 @@
 | `retired_band_pools.shadows[4].desc` | The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly. |
 | `retired_band_pools.shadows[4].bands` | open |
 | `retired_thin_self_items` |  |
+| `retired_door_audit_2026-09-16[0].phrase` | Hard to impress |
+| `retired_door_audit_2026-09-16[0].dim` | praise |
+| `retired_door_audit_2026-09-16[0].door` | mind |
+| `retired_door_audit_2026-09-16[0].desc` | People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it. |
+| `retired_door_audit_2026-09-16[0].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |
+| `retired_door_audit_2026-09-16[1].phrase` | Sells self short |
+| `retired_door_audit_2026-09-16[1].dim` | self-worth |
+| `retired_door_audit_2026-09-16[1].door` | expression |
+| `retired_door_audit_2026-09-16[1].desc` | The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly. |
+| `retired_door_audit_2026-09-16[1].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |

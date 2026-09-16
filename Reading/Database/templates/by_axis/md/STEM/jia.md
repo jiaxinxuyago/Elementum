@@ -26,10 +26,10 @@
 | `dm_mechanism` | Yang Wood grown toward light — a spine that rose by reaching, season over season. |
 | `yourNature_desc` | You see where things could go before most people see that they could go anywhere, and you're moving while they're still deciding. What you build tends to outlast you. You're just rarely there to see it, because halfway through every ending you've already started the next thing. |
 | `dm_overview` | The Oak is Yang Wood, the first sign in the count of days, the oldest picture of beginning itself. It is the seed that argues with the ground and wins, the trunk that spends a hundred years walking toward the sky. Spring belongs to it, and so does every road that is still mostly promise. Whatever refuses to stay small grows under this sign. |
-| `gifts[0].phrase` | First to move |
-| `gifts[0].dim` | beginnings |
+| `gifts[0].phrase` | Plants a stake |
+| `gifts[0].dim` | commitments |
 | `gifts[0].door` | action |
-| `gifts[0].desc` | While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up. |
+| `gifts[0].desc` | Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs. |
 | `gifts[1].phrase` | Raises everyone's game |
 | `gifts[1].dim` | influence on others |
 | `gifts[1].door` | expression |
@@ -54,10 +54,10 @@
 | `gifts[6].dim` | hard seasons |
 | `gifts[6].door` | mind |
 | `gifts[6].desc` | One hard season teaches you what a decade of easy ones could not, and you keep it. |
-| `shadows[0].phrase` | Outpaces people |
-| `shadows[0].dim` | close bonds |
+| `shadows[0].phrase` | Holds every acre |
+| `shadows[0].dim` | what you keep |
 | `shadows[0].door` | action |
-| `shadows[0].desc` | The people who love you feel a step behind. The reaching never slows quite enough to let them catch up. |
+| `shadows[0].desc` | Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent. |
 | `shadows[1].phrase` | Asks for nothing |
 | `shadows[1].dim` | asking for help |
 | `shadows[1].door` | body |
@@ -191,3 +191,13 @@
 | `retired_thin_self_items[0].desc` | The direction is clear and the wanting is real, but the first step keeps waiting for a readier day. The path doesn't mind. The calendar does. |
 | `retired_thin_self_items[0].bands` | open |
 | `retired_thin_self_items[0].why` | thin-Body item; a thin Body is a catalyst and carries no shadow face |
+| `retired_door_audit_2026-09-16[0].phrase` | First to move |
+| `retired_door_audit_2026-09-16[0].dim` | beginnings |
+| `retired_door_audit_2026-09-16[0].door` | action |
+| `retired_door_audit_2026-09-16[0].desc` | While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up. |
+| `retired_door_audit_2026-09-16[0].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |
+| `retired_door_audit_2026-09-16[1].phrase` | Outpaces people |
+| `retired_door_audit_2026-09-16[1].dim` | close bonds |
+| `retired_door_audit_2026-09-16[1].door` | action |
+| `retired_door_audit_2026-09-16[1].desc` | The people who love you feel a step behind. The reaching never slows quite enough to let them catch up. |
+| `retired_door_audit_2026-09-16[1].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |

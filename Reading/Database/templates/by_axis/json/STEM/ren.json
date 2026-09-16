@@ -36,10 +36,10 @@
         "desc": "While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out."
       },
       {
-        "phrase": "Endlessly curious",
-        "dim": "learning",
+        "phrase": "Sharpened by rigor",
+        "dim": "good teachers",
         "door": "mind",
-        "desc": "Every field, every stranger, every rabbit hole. Dinner with you can cross four centuries and never feel like a lecture. The appetite doesn't switch off."
+        "desc": "Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through."
       },
       {
         "phrase": "Thinks big",
@@ -54,10 +54,10 @@
         "desc": "Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours."
       },
       {
-        "phrase": "Full of surprises",
-        "dim": "being known",
+        "phrase": "Seeds the idea",
+        "dim": "what grows after you",
         "door": "expression",
-        "desc": "Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned."
+        "desc": "You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from."
       },
       {
         "phrase": "Nothing rattles it",
@@ -348,6 +348,22 @@
             "open"
           ],
           "why": "the docs repositioned 壬 from introvert-drift to vast-moving (REA_16 2026-08-05); drift is the rejected reading"
+        }
+      ],
+      "retired_door_audit_2026-09-16": [
+        {
+          "phrase": "Endlessly curious",
+          "dim": "learning",
+          "door": "mind",
+          "desc": "Every field, every stranger, every rabbit hole. Dinner with you can cross four centuries and never feel like a lecture. The appetite doesn't switch off.",
+          "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
+        },
+        {
+          "phrase": "Full of surprises",
+          "dim": "being known",
+          "door": "expression",
+          "desc": "Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned.",
+          "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
         }
       ]
     },

@@ -373,7 +373,7 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
   };
 }
 
-function coreElOf(ec) {
+export function coreElOf(ec) {
   const core = ec.energies.find((e) => (e.roles || []).includes('core'));
   return core ? core.el : ec.energies[0].el;
 }

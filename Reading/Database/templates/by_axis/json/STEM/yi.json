@@ -80,10 +80,10 @@
         "desc": "Given a shared wall, you take the sunny side without noticing. Later you wonder why the other vine went quiet."
       },
       {
-        "phrase": "Hides the effort",
-        "dim": "how the climb looks",
+        "phrase": "Promises the bloom",
+        "dim": "announcing early",
         "door": "expression",
-        "desc": "The wall got climbed and nobody saw the climb. You made it look like the vine was always there, and then you are hurt when they believe it."
+        "desc": "You tell people where you will be by summer while the wall is still bare. The saying comes easily. Then the summer has to keep the promise."
       },
       {
         "phrase": "Bends too far",
@@ -338,7 +338,16 @@
           }
         ]
       },
-      "retired_thin_self_items": []
+      "retired_thin_self_items": [],
+      "retired_door_audit_2026-09-16": [
+        {
+          "phrase": "Hides the effort",
+          "dim": "how the climb looks",
+          "door": "expression",
+          "desc": "The wall got climbed and nobody saw the climb. You made it look like the vine was always there, and then you are hurt when they believe it.",
+          "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
+        }
+      ]
     },
     "door_note": {
       "body": "Wood",

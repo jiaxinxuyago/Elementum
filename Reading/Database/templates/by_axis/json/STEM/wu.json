@@ -80,10 +80,10 @@
         "desc": "The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked."
       },
       {
-        "phrase": "Waits too long",
-        "dim": "fixable problems",
+        "phrase": "Warmed, not fed",
+        "dim": "what counts as input",
         "door": "mind",
-        "desc": "Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it."
+        "desc": "Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before."
       },
       {
         "phrase": "Can't let go",
@@ -338,7 +338,16 @@
           }
         ]
       },
-      "retired_thin_self_items": []
+      "retired_thin_self_items": [],
+      "retired_door_audit_2026-09-16": [
+        {
+          "phrase": "Waits too long",
+          "dim": "fixable problems",
+          "door": "mind",
+          "desc": "Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it.",
+          "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
+        }
+      ]
     },
     "door_note": {
       "body": "Earth",

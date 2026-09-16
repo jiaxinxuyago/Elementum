@@ -9,10 +9,10 @@
         "canonical_name": "The Oak",
         "value": [
           {
-            "phrase": "First to move",
-            "dim": "beginnings",
+            "phrase": "Plants a stake",
+            "dim": "commitments",
             "door": "action",
-            "desc": "While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up."
+            "desc": "Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs."
           },
           {
             "phrase": "Raises everyone's game",
@@ -107,16 +107,10 @@
         "canonical_name": "The Sun",
         "value": [
           {
-            "phrase": "Liked on arrival",
-            "dim": "first impressions",
+            "phrase": "Founds the tradition",
+            "dim": "what lasts",
             "door": "expression",
-            "desc": "People are glad you are there before you have said a word. It is the warmth, not the talk."
-          },
-          {
-            "phrase": "Lifts the mood",
-            "dim": "atmosphere",
-            "door": "expression",
-            "desc": "A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did."
+            "desc": "The dinner you hosted once is now the dinner everyone hosts. What you warm tends to set into something people keep doing after you have moved on."
           },
           {
             "phrase": "No hidden agenda",
@@ -125,10 +119,10 @@
             "desc": "Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out."
           },
           {
-            "phrase": "First to celebrate",
-            "dim": "others' wins",
+            "phrase": "Hard problems only",
+            "dim": "the work you pick",
             "door": "action",
-            "desc": "Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it."
+            "desc": "Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on."
           },
           {
             "phrase": "Keeps it close",
@@ -413,10 +407,10 @@
             "desc": "While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out."
           },
           {
-            "phrase": "Endlessly curious",
-            "dim": "learning",
+            "phrase": "Sharpened by rigor",
+            "dim": "good teachers",
             "door": "mind",
-            "desc": "Every field, every stranger, every rabbit hole. Dinner with you can cross four centuries and never feel like a lecture. The appetite doesn't switch off."
+            "desc": "Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through."
           },
           {
             "phrase": "Thinks big",
@@ -431,10 +425,10 @@
             "desc": "Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours."
           },
           {
-            "phrase": "Full of surprises",
-            "dim": "being known",
+            "phrase": "Seeds the idea",
+            "dim": "what grows after you",
             "door": "expression",
-            "desc": "Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned."
+            "desc": "You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from."
           },
           {
             "phrase": "Nothing rattles it",
@@ -462,16 +456,10 @@
             "desc": "You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence."
           },
           {
-            "phrase": "Finds the words",
-            "dim": "naming feelings",
-            "door": "expression",
-            "desc": "Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it."
-          },
-          {
-            "phrase": "Knows what helps",
-            "dim": "caregiving",
+            "phrase": "Reads the moment",
+            "dim": "timing",
             "door": "action",
-            "desc": "Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands."
+            "desc": "You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived."
           },
           {
             "phrase": "Gentle confidant",

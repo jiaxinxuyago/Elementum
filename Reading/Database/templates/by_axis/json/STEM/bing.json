@@ -30,16 +30,10 @@
     "dm_overview": "The Sun is Yang Fire, the fire that no one lit and no one owns. It keeps high summer and full noon, opening every market and warming every back without asking a single name. The sky itself is its lantern. Everything that grows turns toward it, and on the day it slips behind clouds, the whole village looks up and wonders.",
     "gifts": [
       {
-        "phrase": "Liked on arrival",
-        "dim": "first impressions",
+        "phrase": "Founds the tradition",
+        "dim": "what lasts",
         "door": "expression",
-        "desc": "People are glad you are there before you have said a word. It is the warmth, not the talk."
-      },
-      {
-        "phrase": "Lifts the mood",
-        "dim": "atmosphere",
-        "door": "expression",
-        "desc": "A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did."
+        "desc": "The dinner you hosted once is now the dinner everyone hosts. What you warm tends to set into something people keep doing after you have moved on."
       },
       {
         "phrase": "No hidden agenda",
@@ -48,10 +42,10 @@
         "desc": "Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out."
       },
       {
-        "phrase": "First to celebrate",
-        "dim": "others' wins",
+        "phrase": "Hard problems only",
+        "dim": "the work you pick",
         "door": "action",
-        "desc": "Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it."
+        "desc": "Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on."
       },
       {
         "phrase": "Keeps it close",
@@ -86,16 +80,10 @@
         "desc": "You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks."
       },
       {
-        "phrase": "Allergic to gloom",
-        "dim": "heavy feelings",
-        "door": "expression",
-        "desc": "A sad silence starts and you're already reaching for the joke, the fix, the bright side. Some feelings needed to sit a while longer. People learn to take their heavy things elsewhere."
-      },
-      {
-        "phrase": "Sends no bill",
-        "dim": "recognition",
+        "phrase": "Reopens the deal",
+        "dim": "settled things",
         "door": "action",
-        "desc": "You give the warmth away and never send the bill. Years in, nobody knows there was one, and you are the last to check the balance."
+        "desc": "Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled."
       },
       {
         "phrase": "Fills every silence",
@@ -350,7 +338,44 @@
           }
         ]
       },
-      "retired_thin_self_items": []
+      "retired_thin_self_items": [],
+      "retired_door_audit_2026-09-16": [
+        {
+          "phrase": "Liked on arrival",
+          "dim": "first impressions",
+          "door": "expression",
+          "desc": "People are glad you are there before you have said a word. It is the warmth, not the talk.",
+          "why": "door audit 2026-09-16: pool shape — Expression was doubled; the §5h law doubles Body and Mind only"
+        },
+        {
+          "phrase": "Lifts the mood",
+          "dim": "atmosphere",
+          "door": "expression",
+          "desc": "A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did.",
+          "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
+        },
+        {
+          "phrase": "First to celebrate",
+          "dim": "others' wins",
+          "door": "action",
+          "desc": "Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it.",
+          "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
+        },
+        {
+          "phrase": "Allergic to gloom",
+          "dim": "heavy feelings",
+          "door": "expression",
+          "desc": "A sad silence starts and you're already reaching for the joke, the fix, the bright side. Some feelings needed to sit a while longer. People learn to take their heavy things elsewhere.",
+          "why": "door audit 2026-09-16: pool shape — Expression was doubled; the §5h law doubles Body and Mind only"
+        },
+        {
+          "phrase": "Sends no bill",
+          "dim": "recognition",
+          "door": "action",
+          "desc": "You give the warmth away and never send the bill. Years in, nobody knows there was one, and you are the last to check the balance.",
+          "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
+        }
+      ]
     },
     "door_note": {
       "body": "Fire",

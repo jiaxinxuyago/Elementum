@@ -80,10 +80,10 @@
         "desc": "The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep."
       },
       {
-        "phrase": "Hard to impress",
-        "dim": "praise",
+        "phrase": "Studies the setting",
+        "dim": "preparation",
         "door": "mind",
-        "desc": "People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it."
+        "desc": "One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work."
       },
       {
         "phrase": "Stays boxed up",
@@ -98,10 +98,10 @@
         "desc": "The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive."
       },
       {
-        "phrase": "Sells self short",
-        "dim": "self-worth",
+        "phrase": "Cuts in passing",
+        "dim": "small remarks",
         "door": "expression",
-        "desc": "The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly."
+        "desc": "The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not."
       },
       {
         "phrase": "Trusts one judge",
@@ -338,7 +338,23 @@
           }
         ]
       },
-      "retired_thin_self_items": []
+      "retired_thin_self_items": [],
+      "retired_door_audit_2026-09-16": [
+        {
+          "phrase": "Hard to impress",
+          "dim": "praise",
+          "door": "mind",
+          "desc": "People bring you their best and watch your face for the wince. Praise from you is rare currency, and some have stopped trying to earn it.",
+          "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
+        },
+        {
+          "phrase": "Sells self short",
+          "dim": "self-worth",
+          "door": "expression",
+          "desc": "The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly.",
+          "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
+        }
+      ]
     },
     "door_note": {
       "body": "Metal",

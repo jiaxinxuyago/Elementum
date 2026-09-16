@@ -58,10 +58,10 @@
 | `shadows[0].dim` | sharing the load |
 | `shadows[0].door` | body |
 | `shadows[0].desc` | The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked. |
-| `shadows[1].phrase` | Waits too long |
-| `shadows[1].dim` | fixable problems |
+| `shadows[1].phrase` | Warmed, not fed |
+| `shadows[1].dim` | what counts as input |
 | `shadows[1].door` | mind |
-| `shadows[1].desc` | Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it. |
+| `shadows[1].desc` | Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before. |
 | `shadows[2].phrase` | Can't let go |
 | `shadows[2].dim` | endings |
 | `shadows[2].door` | body |
@@ -186,3 +186,8 @@
 | `retired_band_pools.shadows[4].desc` | The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost. |
 | `retired_band_pools.shadows[4].bands` | open |
 | `retired_thin_self_items` |  |
+| `retired_door_audit_2026-09-16[0].phrase` | Waits too long |
+| `retired_door_audit_2026-09-16[0].dim` | fixable problems |
+| `retired_door_audit_2026-09-16[0].door` | mind |
+| `retired_door_audit_2026-09-16[0].desc` | Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it. |
+| `retired_door_audit_2026-09-16[0].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |

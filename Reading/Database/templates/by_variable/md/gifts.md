@@ -10,10 +10,10 @@
 
 | Field | Value |
 |---|---|
-| `0.phrase` | First to move |
-| `0.dim` | beginnings |
+| `0.phrase` | Plants a stake |
+| `0.dim` | commitments |
 | `0.door` | action |
-| `0.desc` | While the group is still weighing options, you've already started. Half the time, your starting is what makes everyone else's mind up. |
+| `0.desc` | Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs. |
 | `1.phrase` | Raises everyone's game |
 | `1.dim` | influence on others |
 | `1.door` | expression |
@@ -76,38 +76,34 @@
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Liked on arrival |
-| `0.dim` | first impressions |
+| `0.phrase` | Founds the tradition |
+| `0.dim` | what lasts |
 | `0.door` | expression |
-| `0.desc` | People are glad you are there before you have said a word. It is the warmth, not the talk. |
-| `1.phrase` | Lifts the mood |
-| `1.dim` | atmosphere |
-| `1.door` | expression |
-| `1.desc` | A flat afternoon turns brighter when you walk in. Ideas grow a size, people volunteer for things, and the day feels more possible than it did. |
-| `2.phrase` | No hidden agenda |
-| `2.dim` | hard days |
-| `2.door` | body |
-| `2.desc` | Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out. |
-| `3.phrase` | First to celebrate |
-| `3.dim` | others' wins |
-| `3.door` | action |
-| `3.desc` | Other people's wins genuinely delight you. You're the first call when good news lands, because your joy for them has no asterisk on it. |
-| `4.phrase` | Keeps it close |
-| `4.dim` | close bonds |
-| `4.door` | body |
-| `4.desc` | The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully. |
-| `5.phrase` | Feeds on daylight |
-| `5.dim` | refueling |
+| `0.desc` | The dinner you hosted once is now the dinner everyone hosts. What you warm tends to set into something people keep doing after you have moved on. |
+| `1.phrase` | No hidden agenda |
+| `1.dim` | hard days |
+| `1.door` | body |
+| `1.desc` | Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out. |
+| `2.phrase` | Hard problems only |
+| `2.dim` | the work you pick |
+| `2.door` | action |
+| `2.desc` | Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on. |
+| `3.phrase` | Keeps it close |
+| `3.dim` | close bonds |
+| `3.door` | body |
+| `3.desc` | The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully. |
+| `4.phrase` | Feeds on daylight |
+| `4.dim` | refueling |
+| `4.door` | mind |
+| `4.desc` | You feed on what is around you. A good morning, a good friend, a good idea, and you are lit again. |
+| `5.phrase` | Catches the mood |
+| `5.dim` | reading a mood |
 | `5.door` | mind |
-| `5.desc` | You feed on what is around you. A good morning, a good friend, a good idea, and you are lit again. |
-| `6.phrase` | Catches the mood |
-| `6.dim` | reading a mood |
-| `6.door` | mind |
-| `6.desc` | You know the weather of a place the moment you walk in, and you adjust your light to it. |
-| `7.phrase` | Bright under pressure |
-| `7.dim` | bad days |
-| `7.door` | order |
-| `7.desc` | The harder the day, the steadier the shine. People stand nearer to you when things go wrong. |
+| `5.desc` | You know the weather of a place the moment you walk in, and you adjust your light to it. |
+| `6.phrase` | Bright under pressure |
+| `6.dim` | bad days |
+| `6.door` | order |
+| `6.desc` | The harder the day, the steadier the shine. People stand nearer to you when things go wrong. |
 
 ### The Candle · 丁
 
@@ -282,10 +278,10 @@
 | `0.dim` | connections |
 | `0.door` | mind |
 | `0.desc` | While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out. |
-| `1.phrase` | Endlessly curious |
-| `1.dim` | learning |
+| `1.phrase` | Sharpened by rigor |
+| `1.dim` | good teachers |
 | `1.door` | mind |
-| `1.desc` | Every field, every stranger, every rabbit hole. Dinner with you can cross four centuries and never feel like a lecture. The appetite doesn't switch off. |
+| `1.desc` | Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through. |
 | `2.phrase` | Thinks big |
 | `2.dim` | horizons |
 | `2.door` | action |
@@ -294,10 +290,10 @@
 | `3.dim` | under pressure |
 | `3.door` | order |
 | `3.desc` | Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours. |
-| `4.phrase` | Full of surprises |
-| `4.dim` | being known |
+| `4.phrase` | Seeds the idea |
+| `4.dim` | what grows after you |
 | `4.door` | expression |
-| `4.desc` | Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned. |
+| `4.desc` | You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from. |
 | `5.phrase` | Nothing rattles it |
 | `5.dim` | storms |
 | `5.door` | body |
@@ -315,31 +311,27 @@
 | `0.dim` | unspoken feelings |
 | `0.door` | mind |
 | `0.desc` | You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence. |
-| `1.phrase` | Finds the words |
-| `1.dim` | naming feelings |
-| `1.door` | expression |
-| `1.desc` | Someone circles a feeling for twenty minutes, and you hand them the sentence for it. They stare at you. That was exactly it. |
-| `2.phrase` | Knows what helps |
-| `2.dim` | caregiving |
-| `2.door` | action |
-| `2.desc` | Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands. |
-| `3.phrase` | Gentle confidant |
-| `3.dim` | secrets |
-| `3.door` | body |
-| `3.desc` | People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it. |
-| `4.phrase` | Changes minds softly |
-| `4.dim` | influence on others |
-| `4.door` | expression |
-| `4.desc` | Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did. |
-| `5.phrase` | Settles the dust |
-| `5.dim` | presence |
-| `5.door` | body |
-| `5.desc` | The air is calmer after you have been in it, and nobody can say what you did. |
-| `6.phrase` | Soaks it up |
-| `6.dim` | learning |
-| `6.door` | mind |
-| `6.desc` | Whatever falls near you goes in and stays. Years later it comes back as knowing. |
-| `7.phrase` | Wears down stone |
-| `7.dim` | under pressure |
-| `7.door` | order |
-| `7.desc` | Pressure does not stop you. Given enough seasons, the rain shapes the rock that tried to stop it. |
+| `1.phrase` | Reads the moment |
+| `1.dim` | timing |
+| `1.door` | action |
+| `1.desc` | You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived. |
+| `2.phrase` | Gentle confidant |
+| `2.dim` | secrets |
+| `2.door` | body |
+| `2.desc` | People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it. |
+| `3.phrase` | Changes minds softly |
+| `3.dim` | influence on others |
+| `3.door` | expression |
+| `3.desc` | Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did. |
+| `4.phrase` | Settles the dust |
+| `4.dim` | presence |
+| `4.door` | body |
+| `4.desc` | The air is calmer after you have been in it, and nobody can say what you did. |
+| `5.phrase` | Soaks it up |
+| `5.dim` | learning |
+| `5.door` | mind |
+| `5.desc` | Whatever falls near you goes in and stays. Years later it comes back as knowing. |
+| `6.phrase` | Wears down stone |
+| `6.dim` | under pressure |
+| `6.door` | order |
+| `6.desc` | Pressure does not stop you. Given enough seasons, the rain shapes the rock that tried to stop it. |
