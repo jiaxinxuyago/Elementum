@@ -8,7 +8,8 @@
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
     "owner rulings 2026-08-19 (element-page restructure)",
-    "REA_02 §5h (the carry card; owner 2026-09-15)"
+    "REA_02 §5h (the carry card; owner 2026-09-15)",
+    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted"
   ],
   "candidates": {
     "mechanism": {
@@ -36,6 +37,22 @@
       },
       "wide": {
         "clause": "Water is the widest door, the depth that keeps the burn honest."
+      },
+      "missing": {
+        "clause": "Nothing checks the burn: enthusiasm without a gauge, light that has never been rained on.",
+        "remedy": "Borrow water: one cold reviewer."
+      },
+      "spared": {
+        "clause": "Water runs absent, and nothing douses the flame: no drizzle on the spark, no second-guessing.",
+        "remedy": "Keep it. Choose one check you trust."
+      },
+      "thin": {
+        "clause": "Water runs thin and unwanted: a light rain, easy to shine through.",
+        "remedy": "Shine through it."
+      },
+      "excess": {
+        "clause": "Weak fire drowns in strong water: checks past what the flame can survive, caution putting the light out.",
+        "remedy": "Get out of the rain. Add wood."
       }
     }
   },

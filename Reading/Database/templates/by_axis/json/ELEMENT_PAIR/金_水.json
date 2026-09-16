@@ -9,7 +9,8 @@
     "REA_02 §5b relation nouns · §5b-ii shadow nouns · §5d cycle vocabulary · §5f seat functions (proposed)",
     "owner rulings 2026-08-19: mechanism ×25 element-pair grain · seat→primary-function map · gods rehome to Ruling Domains",
     "REA_02 §5h (the carry card; owner 2026-09-15)",
-    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)"
+    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)",
+    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted"
   ],
   "candidates": {
     "mechanism": {
@@ -37,6 +38,22 @@
       },
       "wide": {
         "clause": "Water is the widest door, the channel that lets the blade breathe."
+      },
+      "missing": {
+        "clause": "No channel out: much forged, nothing said, the pressure with nowhere to go.",
+        "remedy": "Borrow a channel: write it down, say it once."
+      },
+      "spared": {
+        "clause": "Water runs absent, and nothing spills: the edge keeps its shape and its silence.",
+        "remedy": "Keep it. Speak on purpose, not on reflex."
+      },
+      "thin": {
+        "clause": "Water runs thin and unwanted: a trickle of output, easy to keep clean.",
+        "remedy": "A trickle is enough. Keep it clean."
+      },
+      "excess": {
+        "clause": "Too much water sinks the metal: output floods the work, saying everything and shaping nothing.",
+        "remedy": "Cut the flow. Finish one thing in silence."
       }
     },
     "carry_yin": {

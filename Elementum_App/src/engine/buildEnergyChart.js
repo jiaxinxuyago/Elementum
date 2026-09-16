@@ -10,8 +10,8 @@
 // applyDominanceRules. Spec: Design/Documents/HANDOFF_PART1.md §3.
 // ===================================================================
 
-import { getEnergyBand, resolveElementFaces } from './calculator.js';
-import { classifyEnergyRoles } from './energyRoles.js';
+import { resolveElementFaces } from './calculator.js';
+import { classifyEnergyRoles, resolveBand } from './energyRoles.js';
 import { EL_ORDER } from './dominanceWheel.js';
 import { STEM_PINYIN as STEM_ID } from './stemPinyin.js';
 const CAP = { metal: 'Metal', earth: 'Earth', water: 'Water', wood: 'Wood', fire: 'Fire' };
@@ -32,7 +32,6 @@ function roundTo100(frac) {
 
 export function buildEnergyChart(chart) {
   const dmEl = chart.dayMaster.element;
-  const band = getEnergyBand(chart.dayMaster.strength);
 
   // presence % from composition scores (0–1 fraction → integer %, sum 100)
   const frac = {};
@@ -46,6 +45,9 @@ export function buildEnergyChart(chart) {
 
   // classifier works in capitalized element names
   const presenceCap = Object.fromEntries(EL_ORDER.map((lc) => [CAP[lc], presencePct[lc]]));
+  // The reading band: the strength band behind the Balanced guard (owner
+  // R5, 2026-09-16) — see energyRoles.resolveBand.
+  const band = resolveBand({ strength: chart.dayMaster.strength, dmEl, presence: presenceCap });
   const roleMap = classifyEnergyRoles({ dmEl, band, presence: presenceCap });
 
   const energies = EL_ORDER
@@ -59,6 +61,8 @@ export function buildEnergyChart(chart) {
         el: lc,
         presence: presencePct[lc],
         roles: rec.roles,
+        volume: rec.volume,             // absent · thin · present · abundant · dominant (owner R2)
+        ...(rec.excess ? { excess: true } : {}),   // valence flipped by the excess override (owner R1)
         faces: faceInfo.presentFaces,   // [{ god, weight, polarity }]
         leadGod: faceInfo.leadGod,      // dominant present face (DM-polarity fallback for ghost)
         absentGod: faceInfo.absentGod,  // the absent polarity's god, when exactly one is present

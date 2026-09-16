@@ -9,7 +9,8 @@
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
     "owner rulings 2026-08-19 (element-page restructure)",
     "REA_02 §5h (the carry card; owner 2026-09-15)",
-    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)"
+    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)",
+    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted"
   ],
   "candidates": {
     "mechanism": {
@@ -37,6 +38,22 @@
       },
       "wide": {
         "clause": "Fire is the widest door, the warmth that lets the ground grow anything."
+      },
+      "missing": {
+        "clause": "No warmth coming in: duties on cold ground, nothing learned by heart.",
+        "remedy": "Borrow fire: people, praise, a feast."
+      },
+      "spared": {
+        "clause": "Fire runs absent, and the ground stays firm: nothing baked, nothing mistaken for food.",
+        "remedy": "Keep it. Take warmth in small doses."
+      },
+      "thin": {
+        "clause": "Fire runs thin and unwanted: a small warmth, easily borne.",
+        "remedy": "Bear it lightly."
+      },
+      "excess": {
+        "clause": "Too much fire bakes the earth: ground hardened by heat, stubborn on the surface and dry underneath.",
+        "remedy": "Walk off the hearth. Add water."
       }
     },
     "carry_yin": {

@@ -9,7 +9,8 @@
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
     "owner rulings 2026-08-19 (element-page restructure)",
     "REA_02 §5h (the carry card; owner 2026-09-15)",
-    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)"
+    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)",
+    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted"
   ],
   "candidates": {
     "mechanism": {
@@ -37,6 +38,22 @@
       },
       "wide": {
         "clause": "Earth is the widest door, the banks that turn depth into a river."
+      },
+      "missing": {
+        "clause": "Nothing banks the water: depth spreading wide, arriving nowhere.",
+        "remedy": "Borrow structure: one role, one rhythm."
+      },
+      "spared": {
+        "clause": "Earth runs absent, and the current is free: no banks closing in.",
+        "remedy": "Keep it. Choose one wall."
+      },
+      "thin": {
+        "clause": "Earth runs thin and unwanted: low banks, easily crossed.",
+        "remedy": "Cross them when you must."
+      },
+      "excess": {
+        "clause": "Weak water silts up under strong earth: structure past what the current can move, flow stopped by banks.",
+        "remedy": "Widen the channel. Add metal."
       }
     },
     "carry_yin": {

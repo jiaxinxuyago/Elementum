@@ -13,7 +13,7 @@
 // pending the 50-cell authoring pass.
 // ===================================================================
 
-import { getEnergyBand, relationOf, STEM_YIN } from '../../engine/index.js';
+import { getEnergyBand, relationOf, STEM_YIN, volumeOf } from '../../engine/index.js';
 import { TG_PERSONA, TG_DEFLINE, selfCardFor } from '../../content/index.js';
 import { FEEDS, TAMES } from '../../content/cycles.js';
 import { K2_CELLS, K2_FUNCTIONS, GOD_DOMAINS, GOD_FN } from '../../content/k2.js';
@@ -184,7 +184,10 @@ function seatElements(elements, coreEl, condition) {
 // card: STEM_CARD_DATA[stem]
 export function buildJourneyModel({ chart, ec, identity, card }) {
   const coreEl = coreElOf(ec);
-  const band = getEnergyBand(chart.dayMaster.strength);
+  // The reading band comes from the energy chart (resolveBand: the strength
+  // band behind the Balanced guard, owner R5 2026-09-16); the raw strength
+  // band stays the fallback for callers that hand in a bare chart.
+  const band = ec.band || getEnergyBand(chart.dayMaster.strength);
   const condition = CONDITION[band] || 'Balanced';
   const approach = APPROACH[band] || null;
 
@@ -211,6 +214,10 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
     else if (roles.includes('ally')) role = 'ally';
     const coreExcess = isCore && roles.includes('friction');
     const coreCatalyst = isCore && roles.includes('catalyst');
+    // Volume (owner R2): absent · thin · present · abundant · dominant. The
+    // reading picks its sentence from valence × volume, never valence alone.
+    const volume = e.volume || volumeOf(e.presence);
+    const excess = !!e.excess;   // valence flipped by the excess override (owner R1)
 
     // Ten-god family of an element relative to the day master is the engine's
     // relationOf (energyRoles.js) — reused here, not reimplemented.
@@ -222,6 +229,7 @@ export function buildJourneyModel({ chart, ec, identity, card }) {
       el: e.el, name: EL_NAME[e.el], hz: EL_HZ[e.el],
       presence: e.presence, rank: rankOf[e.el], size: SIZES[rankOf[e.el]],
       role, isCore, missing, major, coreExcess, coreCatalyst,
+      volume, excess,
       family, god, keyword,
       persona: TG_PERSONA[god] || '',
       catalystPole: POLE_CATALYST[god] || '', frictionPole: POLE_FRICTION[god] || '',
@@ -402,7 +410,8 @@ export function buildElementScreen(model, el) {
   const roleKind = r.isCore ? 'who' : r.role === 'friction' ? 'down' : 'up';
 
   // the dominance number moved off the art to sit with the track (owner 2026-09-01)
-  const reye = `${r.name.toUpperCase()}${r.missing ? ' · MISSING' : r.isCore ? ' · YOUR CORE' : ''}`;
+  // A core at 0% is 日主无根: unrooted, never missing (owner R6, 2026-09-16).
+  const reye = `${r.name.toUpperCase()}${r.missing ? (r.isCore ? ' · YOUR CORE · UNROOTED' : ' · MISSING') : r.isCore ? ' · YOUR CORE' : ''}`;
 
   // The turn label (SEEK/SKIP register) — heads the mechanism's state turn.
   const turnLab = r.isCore
@@ -563,9 +572,18 @@ export function fnLabelFor(m, r) {
 // The open doors per pool: gifts through the catalysts (the manual's SEEK
 // order), shadows through the frictions (core first, the EASE order). A
 // Balanced chart hides its rails and opens no doors (pool order shows).
+// Each door carries the energy's volume (owner R2/R3, 2026-09-16): gifts open
+// through every wanted door (a gift is what the material CAN do, absent or
+// not); shadows open only through PRESENT unwanted doors — an absent or thin
+// energy cannot be overgrown. The chip count follows the chart (two or three).
+const PRESENT = new Set(['present', 'abundant', 'dominant']);
 export function poolDoors(m) {
   if (!m || m.balanced) return { gifts: [], shadows: [] };
-  return { gifts: m.seek.map((r) => fnKeyFor(m, r)), shadows: m.skip.map((r) => fnKeyFor(m, r)) };
+  const d = (r) => ({ door: fnKeyFor(m, r), volume: r.volume, el: r.el, isCore: r.isCore, excess: r.excess });
+  return {
+    gifts: m.seek.map(d),
+    shadows: m.skip.filter((r) => PRESENT.has(r.volume)).map(d),
+  };
 }
 
 // The door mark for a chosen item: the energy its door resolves to and the
@@ -575,13 +593,10 @@ export function doorMarkFor(m, item) {
   const r = m.els.find((x) => fnKeyFor(m, x) === item.door);
   if (!r) return null;
   const role = m.seek.includes(r) ? 'seek' : m.skip.includes(r) ? 'ease' : null;
-  return { el: r.el, name: r.name, hz: r.hz, presence: r.presence, role };
+  return { el: r.el, name: r.name, hz: r.hz, presence: r.presence, role, volume: r.volume, isCore: r.isCore, excess: r.excess };
 }
 
 const NUM_WORD = ['No', 'One', 'Two', 'Three', 'Four', 'Five'];
-// An abundant catalyst speaks through the pair's `wide` line (REA_02 §5c
-// option 1) instead of its thin-turn.
-const ABUNDANT_PCT = 20;
 
 // The carry card model: lead line (tpl_carry_lead), the five-energy track
 // with the manual's arrows, one EASE row and one SEEK row assembled from the
@@ -599,7 +614,7 @@ export function buildCarryModel(m, chosen = {}) {
     if (!cell?.carry) return null;
     if (!yin || !cell.carry_yin) return cell.carry;
     const out = {};
-    for (const pole of ['catalyst', 'friction', 'wide']) {
+    for (const pole of ['catalyst', 'friction', 'wide', 'missing', 'spared', 'thin', 'excess', 'unrooted']) {
       if (cell.carry[pole] || cell.carry_yin[pole]) out[pole] = { ...(cell.carry[pole] || {}), ...(cell.carry_yin[pole] || {}) };
     }
     return out;
@@ -617,14 +632,29 @@ export function buildCarryModel(m, chosen = {}) {
   }));
   const row = (kind, rows, items) => {
     if (!rows.length) return null;
-    const pole = kind === 'seek' ? 'catalyst' : 'friction';
     const energies = rows.map((r) => ({ el: r.el, name: r.name, hz: r.hz, presence: r.presence, isCore: r.isCore, fn: fnLabelFor(m, r) }));
-    const sentence = rows.map((r) => {
-      const c = pairFor(r); if (!c) return '';
-      if (kind === 'seek' && !r.isCore && r.presence >= ABUNDANT_PCT && c.wide?.clause) return c.wide.clause;
-      return c[pole]?.clause || '';
-    }).filter(Boolean).join(' ');
-    const remedy = rows.map((r) => pairFor(r)?.[pole]?.remedy || '').filter(Boolean).join(' ');
+    // The line per energy is picked by valence × volume (owner R1/R2,
+    // 2026-09-16). Wanted: absent → `missing` (borrow it) · abundant → `wide`
+    // · else the catalyst turn. Unwanted: absent → `spared` (absent, and
+    // better so) · thin → `thin` (kept small) · dominant → `excess` (the
+    // 渊海子平 idiom; the valence flip) · else the friction turn. Each state
+    // line falls back to the pole's turn until the cell carries it.
+    const lineFor = (r) => {
+      const c = pairFor(r); if (!c) return null;
+      const v = r.volume || volumeOf(r.presence);
+      if (r.isCore && v === 'absent' && c.unrooted?.clause) return c.unrooted;   // 日主无根 (owner R6)
+      if (kind === 'seek') {
+        if (v === 'absent' && c.missing?.clause) return c.missing;
+        if (!r.isCore && (v === 'abundant' || v === 'dominant') && c.wide?.clause) return c.wide;
+        return c.catalyst;
+      }
+      if (v === 'absent' && c.spared?.clause) return c.spared;
+      if (v === 'thin' && c.thin?.clause) return c.thin;
+      if (v === 'dominant' && c.excess?.clause) return c.excess;
+      return c.friction;
+    };
+    const sentence = rows.map((r) => lineFor(r)?.clause || '').filter(Boolean).join(' ');
+    const remedy = rows.map((r) => lineFor(r)?.remedy || '').filter(Boolean).join(' ');
     const touch = (items || []).map((it) => it.phrase);
     return { kind, energies, sentence, remedy, touch };
   };

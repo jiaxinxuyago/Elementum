@@ -50,25 +50,44 @@ export function archetypeKeyFor(stem, chart) {
 }
 
 // Select a chart's ×3 from a door-tagged pool (REA_02 §5h selection law).
-// `doors` is the ordered list of function keys the chart opens for this pool
-// (gifts: the catalyst energies in the manual's SEEK order; shadows: the
-// friction energies, core first, in the EASE order). One item per door in
-// that order, then the third slot from the FIRST door's second item (the
-// heaviest energy of the set), then pool order as the last resort. With no
-// doors at all (a Balanced chart hides its rails) the pool's first ×3 show.
-export function selectPoolByDoor(pool, doors) {
+// `doors` is the ordered list of doors the chart opens for this pool (the
+// manual's SEEK order for gifts, EASE order for shadows), each `{ door,
+// volume }` (a bare function key is accepted too). One chip per door, so the
+// count follows the chart: two or three (owner R3, 2026-09-16). The face
+// chosen through a door depends on the energy's volume (owner R1/R2): the
+// pool's `echo` face (item[0] of the door, cut from the pair definition) by
+// default; on a doubled door the second item is the `wide` face for gifts
+// (an abundant catalyst) or the `excess` face for shadows (an abundant or
+// dominant friction). With no doors at all (a Balanced chart) the pool's
+// first ×3 show.
+const BIG = new Set(['abundant', 'dominant']);
+export function selectPoolByDoor(pool, doors, kind = 'gifts') {
   if (!Array.isArray(pool)) return [];
-  const list = Array.isArray(doors) ? doors.filter(Boolean) : [];
+  const list = (Array.isArray(doors) ? doors : []).filter(Boolean)
+    .map((d) => (typeof d === 'string' ? { door: d } : d));
   if (!list.length) return pool.slice(0, 3);
   const used = new Set();
   const out = [];
-  const take = (door) => {
-    const it = pool.find((x) => x.door === door && !used.has(x));
-    if (it) { used.add(it); out.push(it); }
-  };
-  for (const d of list) { if (out.length >= 3) break; take(d); }
-  for (const d of list) { if (out.length >= 3) break; take(d); }
-  for (const it of pool) { if (out.length >= 3) break; if (!used.has(it)) { used.add(it); out.push(it); } }
+  const bigFace = kind === 'shadows' ? 'excess' : 'wide';
+  for (const d of list) {
+    if (out.length >= 3) break;
+    const atDoor = pool.filter((x) => x.door === d.door);
+    const cands = atDoor.filter((x) => !used.has(x));
+    if (!cands.length) continue;
+    // face: the station's tag, else by position (item[0] echo, item[1] the big face)
+    const faceOf = (x) => x.face || (atDoor.indexOf(x) === 0 ? 'echo' : bigFace);
+    let pick = null;
+    if (BIG.has(d.volume)) pick = cands.find((x) => faceOf(x) === bigFace) || null;
+    if (!pick) pick = cands.find((x) => faceOf(x) === 'echo') || cands[0];
+    used.add(pick); out.push(pick);
+  }
+  // Floor of two (owner R3): when only one door is open (a dominant core
+  // with every other unwanted energy absent), the open door's other face
+  // fills the second slot.
+  if (out.length === 1) {
+    const other = pool.find((x) => x.door === list[0]?.door && !used.has(x)) || pool.find((x) => !used.has(x));
+    if (other) out.push(other);
+  }
   return out.slice(0, 3);
 }
 
@@ -92,8 +111,8 @@ export function resolveArchetype(stem, baseline, chart, doors = {}) {
   return {
     ...baseline,
     yourNature: { ...(baseline.yourNature || {}), ...(v.yourNature || {}) },
-    gifts: selectPoolByDoor((v.gifts && v.gifts.length) ? v.gifts : baseline.gifts, doors.gifts),
-    shadows: selectPoolByDoor((v.shadows && v.shadows.length) ? v.shadows : baseline.shadows, doors.shadows),
+    gifts: selectPoolByDoor((v.gifts && v.gifts.length) ? v.gifts : baseline.gifts, doors.gifts, 'gifts'),
+    shadows: selectPoolByDoor((v.shadows && v.shadows.length) ? v.shadows : baseline.shadows, doors.shadows, 'shadows'),
   };
 }
 

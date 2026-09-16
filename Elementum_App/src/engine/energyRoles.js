@@ -12,7 +12,40 @@
 // ever reaches a user-facing string.
 // ===================================================================
 
-import { CATALYST_MAP } from './calculator.js';
+import { CATALYST_MAP, getEnergyBand } from './calculator.js';
+
+// ── VALENCE × VOLUME (owner rulings 2026-09-16, REA_02 §5h) ─────────────
+// A role is valence (wanted / unwanted, from the band) AND volume (how much
+// of the energy the chart holds). Tiers ruled from the presence distribution
+// over 30 years of charts: absent ≤0.5 · thin ≤10 · present · abundant ≥20 ·
+// dominant ≥40 (percent of composition).
+export const VOLUME = { absent: 0.5, thin: 10, abundant: 20, dominant: 40 };
+export function volumeOf(presence) {
+  const p = Number(presence) || 0;
+  if (p <= VOLUME.absent) return 'absent';
+  if (p <= VOLUME.thin) return 'thin';
+  if (p >= VOLUME.dominant) return 'dominant';
+  if (p >= VOLUME.abundant) return 'abundant';
+  return 'present';
+}
+
+// The band the reading runs on. The strength band is the base; Balanced is
+// kept only behind a guard (owner R5): moderate strength AND no non-core
+// energy abundant. A moderate chart with an abundant energy falls to the
+// nearest band: an abundant feeder or peer (resource / self) props the body
+// → concentrated; an abundant drainer or controller → open.
+export function resolveBand({ strength, dmEl, presence }) {
+  const base = getEnergyBand(strength);
+  if (base !== 'balanced') return base;
+  let top = null;
+  for (const [X, p] of Object.entries(presence || {})) {
+    if (X === dmEl) continue;
+    if ((p ?? 0) >= VOLUME.abundant && (!top || p > top.p)) top = { X, p };
+  }
+  if (!top) return 'balanced';
+  const rel = relationOf(top.X, dmEl);
+  return (rel === 'resource' || rel === 'self') ? 'concentrated' : 'open';
+}
 
 const GEN = { Wood: 'Fire', Fire: 'Earth', Earth: 'Metal', Metal: 'Water', Water: 'Wood' };
 const CTL = { Wood: 'Earth', Earth: 'Water', Water: 'Fire', Fire: 'Metal', Metal: 'Wood' };
@@ -66,6 +99,7 @@ export function classifyEnergyRoles({ dmEl, band, presence }) {
 
     if (X === dmEl) set.add('core');
     if ((presence?.[X] ?? 0) <= MISSING_EPS) set.add('missing');
+    const volume = volumeOf(presence?.[X] ?? 0);
 
     if (band === 'balanced') {
       if (pair.includes(X) && X !== dmEl) set.add('catalyst');
@@ -74,9 +108,18 @@ export function classifyEnergyRoles({ dmEl, band, presence }) {
       if (favor.catalyst.includes(rel)) set.add('catalyst');
       if (favor.friction.includes(rel)) set.add('friction');
     }
+    // The excess override (owner R1, 渊海子平 太过): a non-core energy at the
+    // dominant tier is unwanted whatever the band says — too much Earth
+    // buries Metal, too much Metal muddies Water. Valence flips; the
+    // reading speaks it through the pair's excess line.
+    let excess = false;
+    if (X !== dmEl && volume === 'dominant') {
+      set.delete('catalyst'); set.delete('ally'); set.add('friction'); excess = true;
+    }
 
     const roles = ROLE_ORDER.filter((r) => set.has(r));
-    const rec = { roles };
+    const rec = { roles, volume };
+    if (excess) rec.excess = true;
     if (X === majorEl && set.has('catalyst')) rec.major = 'catalyst';
     out[X] = rec;
   }

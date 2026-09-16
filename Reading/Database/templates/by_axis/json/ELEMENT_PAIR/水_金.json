@@ -9,7 +9,8 @@
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
     "owner rulings 2026-08-19 (element-page restructure)",
     "REA_02 §5h (the carry card; owner 2026-09-15)",
-    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)"
+    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)",
+    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted"
   ],
   "candidates": {
     "mechanism": {
@@ -37,6 +38,22 @@
       },
       "wide": {
         "clause": "Metal is the widest door, the spring that keeps your depth refilled."
+      },
+      "missing": {
+        "clause": "No spring feeding the depth: knowing drawn on and never refilled.",
+        "remedy": "Borrow metal: one exact teacher."
+      },
+      "spared": {
+        "clause": "Metal runs absent, and the water moves: nothing calcified, nothing over-refined.",
+        "remedy": "Keep it. Add rigor one method at a time."
+      },
+      "thin": {
+        "clause": "Metal runs thin and unwanted: a little rigor, easily carried.",
+        "remedy": "Carry it lightly."
+      },
+      "excess": {
+        "clause": "Too much metal muddies the water: so much refining the depth never clears, knowing choked by its sources.",
+        "remedy": "Pour something out. Stop collecting."
       }
     },
     "carry_yin": {

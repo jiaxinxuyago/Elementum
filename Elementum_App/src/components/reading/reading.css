@@ -565,7 +565,9 @@
 
 /* P4 v3 — door marks + the carry card (REA_02 §5h, owner 2026-09-15) */
 .reading .claim.dm-claim{ display:grid; grid-template-columns:1fr auto; gap:10px; align-items:start; }
-.reading .dm-door{ display:inline-flex; flex-direction:column; align-items:center; gap:2px; margin-top:3px; min-width:34px; font-family:'Cinzel',serif; font-size:7.5px; letter-spacing:1.2px; text-transform:uppercase; color:var(--inkLight); }
+.reading /* volume word on the door mark (owner R2 2026-09-16) */
+.dm-door em { font-style: normal; opacity: .7; }
+.dm-door{ display:inline-flex; flex-direction:column; align-items:center; gap:2px; margin-top:3px; min-width:34px; font-family:'Cinzel',serif; font-size:7.5px; letter-spacing:1.2px; text-transform:uppercase; color:var(--inkLight); }
 .reading .dm-door i{ display:block; width:22px; height:22px; border-radius:50%; background:var(--bronze); box-shadow:inset 0 0 0 2px rgba(255,255,255,.45); position:relative; }
 .reading .dm-door.metal i, .reading .dm-dot.metal, .reading .dm-track b.metal{ background:var(--metal); }
 .reading .dm-door.earth i, .reading .dm-dot.earth, .reading .dm-track b.earth{ background:var(--earth); }

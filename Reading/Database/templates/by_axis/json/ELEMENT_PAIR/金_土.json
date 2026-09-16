@@ -9,7 +9,8 @@
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
     "owner rulings 2026-08-19 (element-page restructure)",
     "REA_02 §5h (the carry card; owner 2026-09-15)",
-    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)"
+    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)",
+    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted"
   ],
   "candidates": {
     "mechanism": {
@@ -37,6 +38,22 @@
       },
       "wide": {
         "clause": "Earth is the widest door, the ground the ore grows in."
+      },
+      "missing": {
+        "clause": "No ground under the edge: judgment made on the spot, nothing settled in first.",
+        "remedy": "Borrow ground: a mentor, a book, one slow evening."
+      },
+      "spared": {
+        "clause": "Earth runs absent, and the edge is lighter for it: nothing to bury it, nothing to shelter in.",
+        "remedy": "Keep it that way. Decide, then rest."
+      },
+      "thin": {
+        "clause": "Earth runs thin and unwanted: a little shelter, easily left.",
+        "remedy": "Leave it as it is, small."
+      },
+      "excess": {
+        "clause": "Too much earth buries the metal: talent that never surfaces, thought that never becomes a cut.",
+        "remedy": "Dig out. Less study, one real cut."
       }
     },
     "carry_yin": {

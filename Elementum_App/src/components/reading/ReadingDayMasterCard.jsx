@@ -12,13 +12,17 @@
 
 const NUM_WORD = { 12: 'twelve', 13: 'thirteen', 14: 'fourteen', 15: 'fifteen', 16: 'sixteen' };
 
+// The door mark carries the energy's volume as well as its arrow (owner R2,
+// 2026-09-16): absent (unrooted for the core) · thin · wide · excess.
+const VOL_LABEL = { absent: 'absent', thin: 'thin', abundant: 'wide', dominant: 'excess' };
 function DoorMark({ mark }) {
   if (!mark) return null;
   const role = mark.role || 'none';
+  const vol = mark.volume === 'absent' && mark.isCore ? 'unrooted' : VOL_LABEL[mark.volume] || '';
   return (
-    <span className={`dm-door ${mark.el} ${role}`} aria-label={`${mark.name}, ${role === 'seek' ? 'seek' : role === 'ease' ? 'ease' : 'balanced'}`}>
+    <span className={`dm-door ${mark.el} ${role}${vol ? ' v-' + vol : ''}`} aria-label={`${mark.name}${vol ? ', ' + vol : ''}, ${role === 'seek' ? 'seek' : role === 'ease' ? 'ease' : 'balanced'}`}>
       <i />
-      <span>{mark.name}</span>
+      <span>{mark.name}{vol ? <em> · {vol}</em> : null}</span>
     </span>
   );
 }
@@ -54,11 +58,15 @@ export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, 
   // through the energies already carrying weight. A Balanced chart opens no
   // doors, so the bridges fall back to the band form.
   const shadowState = band === 'concentrated' ? 'RUNNING OVER' : band === 'open' ? 'RUNNING THIN' : 'OFF BALANCE';
-  const giftBridge = balanced ? 'These light up when your core runs balanced.' : 'Through the energies your chart asks you to seek.';
-  const shadowBridge = balanced ? 'These swell when the balance slips.' : 'Through the energies already carrying weight.';
+  // Bridges in the capability register (owner R5-of-the-report, 2026-09-16):
+  // the material's reach, not a claim about the chart; the carry card below
+  // keeps the chart claims.
+  const giftBridge = balanced ? 'These light up when your core runs balanced.' : `What ${archetype} can do where your chart asks for more.`;
+  const shadowBridge = balanced ? 'These swell when the balance slips.' : `Where ${archetype} overgrows when an energy carries weight.`;
   const shown = (gifts?.length || 0) + (shadows?.length || 0);
+  const SHOWN_WORD = { 3: 'Three', 4: 'Four', 5: 'Five', 6: 'Six' };
   const poolNote = poolSize && shown
-    ? `${shown === 6 ? 'Six' : shown} of ${archetype}'s ${NUM_WORD[poolSize] || poolSize}. Your chart picks which show.`
+    ? `${SHOWN_WORD[shown] || shown} of ${archetype}'s ${NUM_WORD[poolSize] || poolSize}. Your chart picks which show, and how many.`
     : null;
   return (
     <div className="reading-fill">

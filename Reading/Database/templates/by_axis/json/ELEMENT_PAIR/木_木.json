@@ -9,7 +9,8 @@
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
     "owner rulings 2026-08-19 (element-page restructure)",
     "REA_02 §5h (the carry card; owner 2026-09-15)",
-    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)"
+    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)",
+    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted"
   ],
   "candidates": {
     "mechanism": {
@@ -34,6 +35,18 @@
       "friction": {
         "clause": "The canopy closes: growth so dense no other light gets in, growth for growth’s own sake.",
         "remedy": "Thin the branches and let the forest breathe."
+      },
+      "unrooted": {
+        "clause": "The self stands without roots: growth on will alone, direction borrowed.",
+        "remedy": "Feed the self. Start something visibly yours."
+      },
+      "excess": {
+        "clause": "Strong wood wants fire: so much growth it shades out everything, itself included.",
+        "remedy": "Burn some of it. Show the work."
+      },
+      "thin": {
+        "clause": "Wood runs thin and still carries weight: little growth, held too hard.",
+        "remedy": "Loosen the grip on growing."
       }
     },
     "carry_yin": {

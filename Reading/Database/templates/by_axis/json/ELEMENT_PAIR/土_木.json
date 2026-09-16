@@ -8,7 +8,8 @@
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
     "owner rulings 2026-08-19 (element-page restructure)",
-    "REA_02 §5h (the carry card; owner 2026-09-15)"
+    "REA_02 §5h (the carry card; owner 2026-09-15)",
+    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted"
   ],
   "candidates": {
     "mechanism": {
@@ -36,6 +37,22 @@
       },
       "wide": {
         "clause": "Wood is the widest door, the living thing your ground exists to hold."
+      },
+      "missing": {
+        "clause": "Nothing roots in you: ground with no claim on it.",
+        "remedy": "Borrow roots: one living thing to tend."
+      },
+      "spared": {
+        "clause": "Wood runs absent, and the soil is not drawn on: nobody rooted in you, nothing extracted.",
+        "remedy": "Keep it. Take on roots by choice."
+      },
+      "thin": {
+        "clause": "Wood runs thin and unwanted: a few roots, easily fed.",
+        "remedy": "Feed them. Take no more."
+      },
+      "excess": {
+        "clause": "Weak earth caves under strong wood: obligations past what the ground can hold, soil torn by roots.",
+        "remedy": "Let a slope go wild. Add fire."
       }
     }
   },

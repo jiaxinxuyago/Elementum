@@ -8,7 +8,8 @@
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
     "owner rulings 2026-08-19 (element-page restructure)",
-    "REA_02 §5h (the carry card; owner 2026-09-15)"
+    "REA_02 §5h (the carry card; owner 2026-09-15)",
+    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted"
   ],
   "candidates": {
     "mechanism": {
@@ -36,6 +37,22 @@
       },
       "wide": {
         "clause": "Wood is the widest door, the green thing your rain is for."
+      },
+      "missing": {
+        "clause": "The rain withholds: depth underground, nothing green from it.",
+        "remedy": "Borrow wood: mentor one person."
+      },
+      "spared": {
+        "clause": "Wood runs absent, and the depth is kept: nothing drained into other people's gardens.",
+        "remedy": "Keep it. Pour by choice."
+      },
+      "thin": {
+        "clause": "Wood runs thin and unwanted: a small garden, easily watered.",
+        "remedy": "Water it. Plant no more."
+      },
+      "excess": {
+        "clause": "Too much wood drinks the water: more growing than the depth can feed, the self drained raising it.",
+        "remedy": "Close the sky. Let the water table rise."
       }
     }
   },

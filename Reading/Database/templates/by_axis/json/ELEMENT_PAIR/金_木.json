@@ -9,7 +9,8 @@
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
     "owner rulings 2026-08-19 (element-page restructure)",
     "REA_02 §5h (the carry card; owner 2026-09-15)",
-    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)"
+    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)",
+    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted"
   ],
   "candidates": {
     "mechanism": {
@@ -37,6 +38,22 @@
       },
       "wide": {
         "clause": "Wood is the widest door, the material the knife is for."
+      },
+      "missing": {
+        "clause": "No material to cut: skill with nothing to work, an edge kept for its own sake.",
+        "remedy": "Borrow material: one project, one claim."
+      },
+      "spared": {
+        "clause": "Wood runs absent, and the knife is not worn: nothing to prune, nothing to hold.",
+        "remedy": "Keep the knife bright. Pick projects rarely."
+      },
+      "thin": {
+        "clause": "Wood runs thin and unwanted: a small plot, easily kept.",
+        "remedy": "Keep the plot small."
+      },
+      "excess": {
+        "clause": "Hard wood chips the edge: more to cut than the metal can bear, effort dulling on what resists.",
+        "remedy": "Cut less. Sharpen before you cut."
       }
     },
     "carry_yin": {

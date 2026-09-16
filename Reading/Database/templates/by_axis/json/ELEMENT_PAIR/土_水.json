@@ -8,7 +8,8 @@
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
     "owner rulings 2026-08-19 (element-page restructure)",
-    "REA_02 §5h (the carry card; owner 2026-09-15)"
+    "REA_02 §5h (the carry card; owner 2026-09-15)",
+    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted"
   ],
   "candidates": {
     "mechanism": {
@@ -36,6 +37,22 @@
       },
       "wide": {
         "clause": "Water is the widest door, the river your banks were built for."
+      },
+      "missing": {
+        "clause": "No river in the banks: structure ready, nothing flowing.",
+        "remedy": "Borrow water: go where things move."
+      },
+      "spared": {
+        "clause": "Water runs absent, and nothing needs damming: the calm keeps itself.",
+        "remedy": "Keep the calm. Channel little."
+      },
+      "thin": {
+        "clause": "Water runs thin and unwanted: a small stream, easily watched.",
+        "remedy": "Watch it. Don't meter it."
+      },
+      "excess": {
+        "clause": "Too much water washes earth away: more flow than the banks can hold, ground lost managing it.",
+        "remedy": "Let it flow. Hold less of it."
       }
     }
   },
