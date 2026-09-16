@@ -8,7 +8,8 @@
   "sources": [
     "REA_02 §5b relation nouns · §5b-ii shadow nouns · §5d cycle vocabulary · §5f seat functions (proposed)",
     "owner rulings 2026-08-19: mechanism ×25 element-pair grain · seat→primary-function map · gods rehome to Ruling Domains",
-    "REA_02 §5h (the carry card; owner 2026-09-15)"
+    "REA_02 §5h (the carry card; owner 2026-09-15)",
+    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)"
   ],
   "candidates": {
     "mechanism": {
@@ -36,6 +37,15 @@
       },
       "wide": {
         "clause": "Water is the widest door, the channel that lets the blade breathe."
+      }
+    },
+    "carry_yin": {
+      "catalyst": {
+        "clause": "This channel shows as pressure without release: much polished, little said.",
+        "remedy": "Writing, speaking, sharing work early lets the stone breathe."
+      },
+      "wide": {
+        "clause": "Water is the widest door, the channel that lets the stone breathe."
       }
     }
   },

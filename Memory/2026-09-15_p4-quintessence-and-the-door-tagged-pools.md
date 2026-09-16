@@ -48,10 +48,10 @@ baseline · build green · journey sweep 18/18.
 ## Pending / parked
 
 - **DOOR AUDIT 2026-09-16 (done, pushed):** all 143 pool items graded against their pair cells (REA_16 §6 row); 13 mismatches
-  re-authored, pool shape restored to ×7 + ×7 (4 items to `__ore.retired_door_audit_2026-09-16`). STILL OPEN for owner
-  ruling: (a) the 25 pair cells are shared by yin/yang siblings and speak the yang noun on the yin carry card
-  ("the shelter closes over the blade" on the Jewel; "the sea" on the Rain; "the trunk" on the Vine; "the field" on
-  the Mountain) — a yin variant of `carry` clauses or element-level nouns; (b) two tempo phrases (甲 Late bloomer, 戊 Slow
+  re-authored, pool shape restored to ×7 + ×7 (4 items to `__ore.retired_door_audit_2026-09-16`). (a) DONE 2026-09-16:
+  `ELEMENT_PAIR.carry_yin` ×16 sparse overrides, picked by STEM_YIN in buildCarryModel (REA_16 §2c row; owner review
+  page "The Yin Carry Lines"); the energy pages' mechanism TURNS still wear the yang noun (not ruled). STILL OPEN:
+  (b) two tempo phrases (甲 Late bloomer, 戊 Slow
   and sure); (c) the pair cells' Order friction paragraphs do not carry the inner judge the pools read.
 - Balanced exemplar (2026-09-16, seen on the local render, not ruled): the `xin` preset is balanced. Carry card shows
   the track and no EASE/SEEK rows while the lead says "the doors below are open on both sides"; ▲ marks still show on

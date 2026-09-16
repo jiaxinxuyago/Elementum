@@ -8,7 +8,8 @@
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
     "owner rulings 2026-08-19 (element-page restructure)",
-    "REA_02 §5h (the carry card; owner 2026-09-15)"
+    "REA_02 §5h (the carry card; owner 2026-09-15)",
+    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)"
   ],
   "candidates": {
     "mechanism": {
@@ -33,6 +34,11 @@
       "friction": {
         "clause": "The ground packs hard: so much steadiness nothing new can root, stillness sealed into immobility.",
         "remedy": "Even bedrock is improved by weather."
+      }
+    },
+    "carry_yin": {
+      "friction": {
+        "remedy": "Even good soil is improved by weather."
       }
     }
   },

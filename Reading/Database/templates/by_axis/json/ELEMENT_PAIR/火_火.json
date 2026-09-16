@@ -8,7 +8,8 @@
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
     "owner rulings 2026-08-19 (element-page restructure)",
-    "REA_02 §5h (the carry card; owner 2026-09-15)"
+    "REA_02 §5h (the carry card; owner 2026-09-15)",
+    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)"
   ],
   "candidates": {
     "mechanism": {
@@ -33,6 +34,12 @@
       "friction": {
         "clause": "The light crowds out the sky.",
         "remedy": "Stars are seen at night."
+      }
+    },
+    "carry_yin": {
+      "friction": {
+        "clause": "The flame takes the whole table: so much light up close that nothing else at it is visible.",
+        "remedy": "Leave the far corners dark."
       }
     }
   },

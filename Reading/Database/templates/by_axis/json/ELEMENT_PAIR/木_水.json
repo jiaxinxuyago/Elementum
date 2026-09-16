@@ -8,7 +8,8 @@
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
     "owner rulings 2026-08-19 (element-page restructure)",
-    "REA_02 §5h (the carry card; owner 2026-09-15)"
+    "REA_02 §5h (the carry card; owner 2026-09-15)",
+    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)"
   ],
   "candidates": {
     "mechanism": {
@@ -36,6 +37,17 @@
       },
       "wide": {
         "clause": "Water is the widest door, the rain the whole tree drinks from."
+      }
+    },
+    "carry_yin": {
+      "catalyst": {
+        "clause": "The vine outpaces the rain: ambition still reaching while the soil dries."
+      },
+      "friction": {
+        "remedy": "Vines also need sun."
+      },
+      "wide": {
+        "clause": "Water is the widest door, the rain the whole vine drinks from."
       }
     }
   },

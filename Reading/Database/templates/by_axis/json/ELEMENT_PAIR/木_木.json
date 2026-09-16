@@ -8,7 +8,8 @@
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
     "owner rulings 2026-08-19 (element-page restructure)",
-    "REA_02 §5h (the carry card; owner 2026-09-15)"
+    "REA_02 §5h (the carry card; owner 2026-09-15)",
+    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)"
   ],
   "candidates": {
     "mechanism": {
@@ -33,6 +34,15 @@
       "friction": {
         "clause": "The canopy closes: growth so dense no other light gets in, growth for growth’s own sake.",
         "remedy": "Thin the branches and let the forest breathe."
+      }
+    },
+    "carry_yin": {
+      "catalyst": {
+        "clause": "The vine doubts itself: direction borrowed, growth waiting for permission."
+      },
+      "friction": {
+        "clause": "The vine covers the wall: growth so dense no other light gets in, growth for growth’s own sake.",
+        "remedy": "Thin the tendrils and let the wall breathe."
       }
     }
   },

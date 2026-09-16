@@ -8,7 +8,8 @@
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
     "owner rulings 2026-08-19 (element-page restructure)",
-    "REA_02 §5h (the carry card; owner 2026-09-15)"
+    "REA_02 §5h (the carry card; owner 2026-09-15)",
+    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)"
   ],
   "candidates": {
     "mechanism": {
@@ -36,6 +37,18 @@
       },
       "wide": {
         "clause": "Wood is the widest door, the material the knife is for."
+      }
+    },
+    "carry_yin": {
+      "catalyst": {
+        "clause": "The wheel has nothing to cut: skill idling without a stone worth it."
+      },
+      "friction": {
+        "clause": "The cutting never stops: trays of half-set stones, a facet worn on material that never ends.",
+        "remedy": "Cut fewer stones, and finish them."
+      },
+      "wide": {
+        "clause": "Wood is the widest door, the material the wheel is for."
       }
     }
   },

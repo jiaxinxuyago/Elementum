@@ -8,7 +8,8 @@
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
     "owner rulings 2026-08-19 (element-page restructure)",
-    "REA_02 §5h (the carry card; owner 2026-09-15)"
+    "REA_02 §5h (the carry card; owner 2026-09-15)",
+    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)"
   ],
   "candidates": {
     "mechanism": {
@@ -27,7 +28,7 @@
     "cta_verdict": "Your mind learns by warmth: lessons only settle once something about them catches, and what moves you once instructs you forever.",
     "carry": {
       "catalyst": {
-        "clause": "The field goes gray: duties held on cold ground, nothing warm coming in.",
+        "clause": "The ground goes gray: duties held on cold ground, nothing warm coming in.",
         "remedy": "Attend the feast."
       },
       "friction": {
@@ -36,6 +37,11 @@
       },
       "wide": {
         "clause": "Fire is the widest door, the warmth that lets the ground grow anything."
+      }
+    },
+    "carry_yin": {
+      "catalyst": {
+        "clause": "The field goes gray: duties held on cold ground, nothing warm coming in."
       }
     }
   },

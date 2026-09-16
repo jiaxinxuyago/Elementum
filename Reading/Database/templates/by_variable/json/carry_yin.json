@@ -1,0 +1,228 @@
+{
+  "$variable": "carry_yin",
+  "generated_note": "GENERATED comparative pivot of the by_axis station (registry fields only; __ore and TEMPLATED excluded). Truth = by_axis/json — edit there, then re-run node tools/build-template-twins.mjs.",
+  "axes": {
+    "ELEMENT_PAIR": [
+      {
+        "id": "木_木",
+        "key": "木_木",
+        "canonical_name": "Wood core × Wood — the Core",
+        "value": {
+          "catalyst": {
+            "clause": "The vine doubts itself: direction borrowed, growth waiting for permission."
+          },
+          "friction": {
+            "clause": "The vine covers the wall: growth so dense no other light gets in, growth for growth’s own sake.",
+            "remedy": "Thin the tendrils and let the wall breathe."
+          }
+        }
+      },
+      {
+        "id": "木_火",
+        "key": "木_火",
+        "canonical_name": "Wood core × Fire — the Voice",
+        "value": {
+          "friction": {
+            "clause": "The burning outruns the growing: everything lit the moment it grows, no tendril left on the wall."
+          }
+        }
+      },
+      {
+        "id": "木_土",
+        "key": "木_土",
+        "canonical_name": "Wood core × Earth — the Drive",
+        "value": {
+          "friction": {
+            "clause": "The holding never stops: every wall claimed, every trellis taken, roots spread past what the vine can feed.",
+            "remedy": "Hold less wall, hold it deeper."
+          }
+        }
+      },
+      {
+        "id": "木_水",
+        "key": "木_水",
+        "canonical_name": "Wood core × Water — the Root",
+        "value": {
+          "catalyst": {
+            "clause": "The vine outpaces the rain: ambition still reaching while the soil dries."
+          },
+          "friction": {
+            "remedy": "Vines also need sun."
+          },
+          "wide": {
+            "clause": "Water is the widest door, the rain the whole vine drinks from."
+          }
+        }
+      },
+      {
+        "id": "火_火",
+        "key": "火_火",
+        "canonical_name": "Fire core × Fire — the Core",
+        "value": {
+          "friction": {
+            "clause": "The flame takes the whole table: so much light up close that nothing else at it is visible.",
+            "remedy": "Leave the far corners dark."
+          }
+        }
+      },
+      {
+        "id": "土_火",
+        "key": "土_火",
+        "canonical_name": "Earth core × Fire — the Root",
+        "value": {
+          "catalyst": {
+            "clause": "The field goes gray: duties held on cold ground, nothing warm coming in."
+          }
+        }
+      },
+      {
+        "id": "土_土",
+        "key": "土_土",
+        "canonical_name": "Earth core × Earth — the Core",
+        "value": {
+          "friction": {
+            "remedy": "Even good soil is improved by weather."
+          }
+        }
+      },
+      {
+        "id": "土_金",
+        "key": "土_金",
+        "canonical_name": "Earth core × Metal — the Voice",
+        "value": {
+          "friction": {
+            "clause": "The mining never stops: everything minted, the topsoil stripped for output."
+          },
+          "wide": {
+            "clause": "Metal is the widest door, the ore your soil was keeping."
+          }
+        }
+      },
+      {
+        "id": "金_木",
+        "key": "金_木",
+        "canonical_name": "Metal core × Wood — the Drive",
+        "value": {
+          "catalyst": {
+            "clause": "The wheel has nothing to cut: skill idling without a stone worth it."
+          },
+          "friction": {
+            "clause": "The cutting never stops: trays of half-set stones, a facet worn on material that never ends.",
+            "remedy": "Cut fewer stones, and finish them."
+          },
+          "wide": {
+            "clause": "Wood is the widest door, the material the wheel is for."
+          }
+        }
+      },
+      {
+        "id": "金_火",
+        "key": "金_火",
+        "canonical_name": "Metal core × Fire — the Duty",
+        "value": {
+          "catalyst": {
+            "clause": "Nothing tests you: a stone that keeps its first cut and calls it character."
+          },
+          "friction": {
+            "clause": "The wheel never stops: constant pressure, no bench time, a stone thinned by a polish it never leaves.",
+            "remedy": "Step off the wheel long enough to keep a facet."
+          },
+          "wide": {
+            "clause": "Fire is the widest door, the fire that finishes the stone."
+          }
+        }
+      },
+      {
+        "id": "金_土",
+        "key": "金_土",
+        "canonical_name": "Metal core × Earth — the Root",
+        "value": {
+          "catalyst": {
+            "clause": "The mine goes hungry: a fine stone with nothing behind it, brilliance spent faster than it forms.",
+            "remedy": "Rest and study are the polishing, not stalling."
+          },
+          "friction": {
+            "clause": "The setting closes over the stone: so much preparation that the jewel never leaves the box.",
+            "remedy": "Take it out and wear it somewhere real."
+          }
+        }
+      },
+      {
+        "id": "金_金",
+        "key": "金_金",
+        "canonical_name": "Metal core × Metal — the Core",
+        "value": {
+          "catalyst": {
+            "clause": "The facet wavers: opinions borrowed, standards negotiable, a stone that answers to whoever held it last.",
+            "remedy": "Practice your craft alone until it shines."
+          },
+          "friction": {
+            "clause": "The setting seals itself in: so much certainty that nothing else gets past it."
+          }
+        }
+      },
+      {
+        "id": "金_水",
+        "key": "金_水",
+        "canonical_name": "Metal core × Water — the Voice",
+        "value": {
+          "catalyst": {
+            "clause": "This channel shows as pressure without release: much polished, little said.",
+            "remedy": "Writing, speaking, sharing work early lets the stone breathe."
+          },
+          "wide": {
+            "clause": "Water is the widest door, the channel that lets the stone breathe."
+          }
+        }
+      },
+      {
+        "id": "水_土",
+        "key": "水_土",
+        "canonical_name": "Water core × Earth — the Duty",
+        "value": {
+          "catalyst": {
+            "clause": "Nothing catches you: rain spreading wide and soaking in nowhere, freedom without force."
+          },
+          "friction": {
+            "clause": "The gutters take it all: rain routed into a schedule until it forgets where it wanted to fall.",
+            "remedy": "Rain is meant to wander."
+          },
+          "wide": {
+            "clause": "Earth is the widest door, the ground that turns rain into a harvest."
+          }
+        }
+      },
+      {
+        "id": "水_金",
+        "key": "水_金",
+        "canonical_name": "Water core × Metal — the Root",
+        "value": {
+          "catalyst": {
+            "clause": "The cloud runs thin: intuition drawn on without refilling, feeling spent faster than it gathers."
+          },
+          "friction": {
+            "clause": "The rigor sets like concrete: so much refining the rain never falls, feeling held in tanks of preparation.",
+            "remedy": "Rain proves itself by falling."
+          },
+          "wide": {
+            "clause": "Metal is the widest door, the cold air that gathers the rain."
+          }
+        }
+      },
+      {
+        "id": "水_水",
+        "key": "水_水",
+        "canonical_name": "Water core × Water — the Core",
+        "value": {
+          "catalyst": {
+            "clause": "The rain doubts what it felt: perception discounted, knowing deferred to louder instruments."
+          },
+          "friction": {
+            "clause": "The mist never lifts: so much felt and so little said that nothing ever gets checked.",
+            "remedy": "Rain still needs ground to land on."
+          }
+        }
+      }
+    ]
+  }
+}

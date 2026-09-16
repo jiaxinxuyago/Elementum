@@ -8,7 +8,8 @@
   "sources": [
     "REA_02 §5b · §5b-ii · §5d · §5f (locked)",
     "owner rulings 2026-08-19 (element-page restructure)",
-    "REA_02 §5h (the carry card; owner 2026-09-15)"
+    "REA_02 §5h (the carry card; owner 2026-09-15)",
+    "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)"
   ],
   "candidates": {
     "mechanism": {
@@ -36,6 +37,16 @@
       },
       "wide": {
         "clause": "Earth is the widest door, the ground the ore grows in."
+      }
+    },
+    "carry_yin": {
+      "catalyst": {
+        "clause": "The mine goes hungry: a fine stone with nothing behind it, brilliance spent faster than it forms.",
+        "remedy": "Rest and study are the polishing, not stalling."
+      },
+      "friction": {
+        "clause": "The setting closes over the stone: so much preparation that the jewel never leaves the box.",
+        "remedy": "Take it out and wear it somewhere real."
       }
     }
   },

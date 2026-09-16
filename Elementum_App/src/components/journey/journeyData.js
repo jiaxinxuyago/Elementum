@@ -589,7 +589,21 @@ const ABUNDANT_PCT = 20;
 // trait chips each row produces.
 export function buildCarryModel(m, chosen = {}) {
   if (!m) return null;
-  const pairFor = (r) => PAIR_CELLS[`${m.core.hz}_${r.hz}`]?.carry || null;
+  // The 25 pair cells are shared by the yin and yang siblings of a core
+  // element. Their carry lines wear the yang archetype's noun (the blade,
+  // the trunk, the sea); `carry_yin` holds the yin sibling's own lines
+  // (the stone, the vine, the rain) as sparse overrides (owner 2026-09-16).
+  const yin = STEM_YIN[m.stem] === 1;
+  const pairFor = (r) => {
+    const cell = PAIR_CELLS[`${m.core.hz}_${r.hz}`];
+    if (!cell?.carry) return null;
+    if (!yin || !cell.carry_yin) return cell.carry;
+    const out = {};
+    for (const pole of ['catalyst', 'friction', 'wide']) {
+      if (cell.carry[pole] || cell.carry_yin[pole]) out[pole] = { ...(cell.carry[pole] || {}), ...(cell.carry_yin[pole] || {}) };
+    }
+    return out;
+  };
   const coreName = m.core.name;
   const nEase = m.skip.length; const nSeek = m.seek.length;
   const lead = m.condition === 'Overfueled'

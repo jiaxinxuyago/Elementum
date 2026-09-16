@@ -118,7 +118,7 @@
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The field goes gray: duties held on cold ground, nothing warm coming in. |
+| `catalyst.clause` | The ground goes gray: duties held on cold ground, nothing warm coming in. |
 | `catalyst.remedy` | Attend the feast. |
 | `friction.clause` | The warmth never lets up: comfort layered until the ground never firms and standing feels unnecessary. |
 | `friction.remedy` | Walk off the hearth and bear some weather. |

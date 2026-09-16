@@ -37,6 +37,10 @@ export const PAIR_CELLS = {
       catalyst: { clause: `The trunk doubts itself: direction borrowed, growth waiting for permission.`, remedy: `Start something and let it grow visibly yours.` },
       friction: { clause: `The canopy closes: growth so dense no other light gets in, growth for growth’s own sake.`, remedy: `Thin the branches and let the forest breathe.` },
     },
+    carry_yin: {
+      catalyst: { clause: `The vine doubts itself: direction borrowed, growth waiting for permission.` },
+      friction: { clause: `The vine covers the wall: growth so dense no other light gets in, growth for growth’s own sake.`, remedy: `Thin the tendrils and let the wall breathe.` },
+    },
   },
   '木_火': {
     mechanism: {
@@ -58,6 +62,9 @@ export const PAIR_CELLS = {
       friction: { clause: `The burning outruns the growing: everything lit the moment it grows, no branch left on the tree.`, remedy: `Bank the fire and let some growth stand.` },
       wide: { clause: `Fire is the widest door, the light everything you grow was reaching for.` },
     },
+    carry_yin: {
+      friction: { clause: `The burning outruns the growing: everything lit the moment it grows, no tendril left on the wall.` },
+    },
   },
   '木_土': {
     mechanism: {
@@ -78,6 +85,9 @@ export const PAIR_CELLS = {
       catalyst: { clause: `The roots float: plenty of reaching, nothing held, growth with no ground under it.`, remedy: `Buy in, commit, root somewhere real.` },
       friction: { clause: `The holding never stops: every slope claimed, every acre worked, roots spread past what the tree can feed.`, remedy: `Hold less hillside, hold it deeper.` },
       wide: { clause: `Earth is the widest door, the ground you were built to take root in.` },
+    },
+    carry_yin: {
+      friction: { clause: `The holding never stops: every wall claimed, every trellis taken, roots spread past what the vine can feed.`, remedy: `Hold less wall, hold it deeper.` },
     },
   },
   '木_金': {
@@ -121,6 +131,11 @@ export const PAIR_CELLS = {
       friction: { clause: `The ground floods: roots soaked past drinking, growth postponed for one more season of preparation.`, remedy: `Trees also need sun.` },
       wide: { clause: `Water is the widest door, the rain the whole tree drinks from.` },
     },
+    carry_yin: {
+      catalyst: { clause: `The vine outpaces the rain: ambition still reaching while the soil dries.` },
+      friction: { remedy: `Vines also need sun.` },
+      wide: { clause: `Water is the widest door, the rain the whole vine drinks from.` },
+    },
   },
   '火_木': {
     mechanism: {
@@ -161,6 +176,9 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `The flame apologizes for shining: warmth dialed down, light waiting to be invited.`, remedy: `Take the stage you keep declining.` },
       friction: { clause: `The light crowds out the sky.`, remedy: `Stars are seen at night.` },
+    },
+    carry_yin: {
+      friction: { clause: `The flame takes the whole table: so much light up close that nothing else at it is visible.`, remedy: `Leave the far corners dark.` },
     },
   },
   '火_土': {
@@ -263,9 +281,12 @@ export const PAIR_CELLS = {
     },
     cta_verdict: 'Your mind learns by warmth: lessons only settle once something about them catches, and what moves you once instructs you forever.',
     carry: {
-      catalyst: { clause: `The field goes gray: duties held on cold ground, nothing warm coming in.`, remedy: `Attend the feast.` },
+      catalyst: { clause: `The ground goes gray: duties held on cold ground, nothing warm coming in.`, remedy: `Attend the feast.` },
       friction: { clause: `The warmth never lets up: comfort layered until the ground never firms and standing feels unnecessary.`, remedy: `Walk off the hearth and bear some weather.` },
       wide: { clause: `Fire is the widest door, the warmth that lets the ground grow anything.` },
+    },
+    carry_yin: {
+      catalyst: { clause: `The field goes gray: duties held on cold ground, nothing warm coming in.` },
     },
   },
   '土_土': {
@@ -287,6 +308,9 @@ export const PAIR_CELLS = {
       catalyst: { clause: `The ground doubts its own bearing: steadiness performed, footing borrowed.`, remedy: `Keep one promise to yourself so long it becomes terrain.` },
       friction: { clause: `The ground packs hard: so much steadiness nothing new can root, stillness sealed into immobility.`, remedy: `Even bedrock is improved by weather.` },
     },
+    carry_yin: {
+      friction: { remedy: `Even good soil is improved by weather.` },
+    },
   },
   '土_金': {
     mechanism: {
@@ -307,6 +331,10 @@ export const PAIR_CELLS = {
       catalyst: { clause: `The ore stays buried: depth with no expression, patience that never mints anything.`, remedy: `Finish a piece, publish the standard.` },
       friction: { clause: `The mining never stops: everything minted, the mountain hollowed for output.`, remedy: `Your silence is part of the deposit.` },
       wide: { clause: `Metal is the widest door, the ore your mountain was keeping.` },
+    },
+    carry_yin: {
+      friction: { clause: `The mining never stops: everything minted, the topsoil stripped for output.` },
+      wide: { clause: `Metal is the widest door, the ore your soil was keeping.` },
     },
   },
   '土_水': {
@@ -350,6 +378,11 @@ export const PAIR_CELLS = {
       friction: { clause: `The pruning never stops: forests of projects, an edge worn on material that never ends.`, remedy: `Cut fewer branches, and finish them.` },
       wide: { clause: `Wood is the widest door, the material the knife is for.` },
     },
+    carry_yin: {
+      catalyst: { clause: `The wheel has nothing to cut: skill idling without a stone worth it.` },
+      friction: { clause: `The cutting never stops: trays of half-set stones, a facet worn on material that never ends.`, remedy: `Cut fewer stones, and finish them.` },
+      wide: { clause: `Wood is the widest door, the material the wheel is for.` },
+    },
   },
   '金_火': {
     mechanism: {
@@ -370,6 +403,11 @@ export const PAIR_CELLS = {
       catalyst: { clause: `Nothing tempers you: an edge that keeps its first shape and calls it character.`, remedy: `Take the demanding role, the audit, the arena.` },
       friction: { clause: `The forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves.`, remedy: `Step out of the fire long enough to hold an edge.` },
       wide: { clause: `Fire is the widest door, the forge that finishes the edge.` },
+    },
+    carry_yin: {
+      catalyst: { clause: `Nothing tests you: a stone that keeps its first cut and calls it character.` },
+      friction: { clause: `The wheel never stops: constant pressure, no bench time, a stone thinned by a polish it never leaves.`, remedy: `Step off the wheel long enough to keep a facet.` },
+      wide: { clause: `Fire is the widest door, the fire that finishes the stone.` },
     },
   },
   '金_土': {
@@ -392,6 +430,10 @@ export const PAIR_CELLS = {
       friction: { clause: `The shelter closes over the blade: so much preparation that the edge never leaves the mine.`, remedy: `Dig out and cut something real.` },
       wide: { clause: `Earth is the widest door, the ground the ore grows in.` },
     },
+    carry_yin: {
+      catalyst: { clause: `The mine goes hungry: a fine stone with nothing behind it, brilliance spent faster than it forms.`, remedy: `Rest and study are the polishing, not stalling.` },
+      friction: { clause: `The setting closes over the stone: so much preparation that the jewel never leaves the box.`, remedy: `Take it out and wear it somewhere real.` },
+    },
   },
   '金_金': {
     mechanism: {
@@ -411,6 +453,10 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `The line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last.`, remedy: `Practice your craft alone until it rings.` },
       friction: { clause: `The edge seals itself in: so much certainty that nothing else gets past it.`, remedy: `Honor the standard, and let one trusted voice through.` },
+    },
+    carry_yin: {
+      catalyst: { clause: `The facet wavers: opinions borrowed, standards negotiable, a stone that answers to whoever held it last.`, remedy: `Practice your craft alone until it shines.` },
+      friction: { clause: `The setting seals itself in: so much certainty that nothing else gets past it.` },
     },
   },
   '金_水': {
@@ -432,6 +478,10 @@ export const PAIR_CELLS = {
       catalyst: { clause: `This channel shows as pressure without release: much forged, little said.`, remedy: `Writing, speaking, sharing work early lets the blade breathe.` },
       friction: { clause: `The flow turns to flood: output for its own sake, saying instead of shaping.`, remedy: `Cut the noise and the water clears.` },
       wide: { clause: `Water is the widest door, the channel that lets the blade breathe.` },
+    },
+    carry_yin: {
+      catalyst: { clause: `This channel shows as pressure without release: much polished, little said.`, remedy: `Writing, speaking, sharing work early lets the stone breathe.` },
+      wide: { clause: `Water is the widest door, the channel that lets the stone breathe.` },
     },
   },
   '水_木': {
@@ -496,6 +546,11 @@ export const PAIR_CELLS = {
       friction: { clause: `The banks close in: current squeezed into a schedule until the water forgets it moves.`, remedy: `Rivers are meant to breathe.` },
       wide: { clause: `Earth is the widest door, the banks that turn depth into a river.` },
     },
+    carry_yin: {
+      catalyst: { clause: `Nothing catches you: rain spreading wide and soaking in nowhere, freedom without force.` },
+      friction: { clause: `The gutters take it all: rain routed into a schedule until it forgets where it wanted to fall.`, remedy: `Rain is meant to wander.` },
+      wide: { clause: `Earth is the widest door, the ground that turns rain into a harvest.` },
+    },
   },
   '水_金': {
     mechanism: {
@@ -517,6 +572,11 @@ export const PAIR_CELLS = {
       friction: { clause: `The rigor sets like concrete: so much refining the water never moves, depth held in cisterns of preparation.`, remedy: `A spring proves itself by flowing.` },
       wide: { clause: `Metal is the widest door, the spring that keeps your depth refilled.` },
     },
+    carry_yin: {
+      catalyst: { clause: `The cloud runs thin: intuition drawn on without refilling, feeling spent faster than it gathers.` },
+      friction: { clause: `The rigor sets like concrete: so much refining the rain never falls, feeling held in tanks of preparation.`, remedy: `Rain proves itself by falling.` },
+      wide: { clause: `Metal is the widest door, the cold air that gathers the rain.` },
+    },
   },
   '水_水': {
     mechanism: {
@@ -536,6 +596,10 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `The sea doubts its depth: perception discounted, knowing deferred to louder instruments.`, remedy: `Trust one read all the way through.` },
       friction: { clause: `The surface seals: depth stilled under so much knowing that nothing surfaces to be checked.`, remedy: `Deep water still needs shores.` },
+    },
+    carry_yin: {
+      catalyst: { clause: `The rain doubts what it felt: perception discounted, knowing deferred to louder instruments.` },
+      friction: { clause: `The mist never lifts: so much felt and so little said that nothing ever gets checked.`, remedy: `Rain still needs ground to land on.` },
     },
   },
 };
