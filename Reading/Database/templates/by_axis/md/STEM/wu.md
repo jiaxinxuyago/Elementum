@@ -29,59 +29,87 @@
 | `gifts[0].phrase` | Everyone's rock |
 | `gifts[0].dim` | being leaned on |
 | `gifts[0].door` | body |
-| `gifts[0].desc` | Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling. |
+| `gifts[0].face` | echo |
+| `gifts[0].echo_of` | 土_土.function.definition_catalyst |
+| `gifts[0].desc` | The physical calm under everything else. Friends plan around you the way builders plan around bedrock, and it only erodes under skipped meals and moved bedtimes. |
 | `gifts[1].phrase` | Shows up regardless |
 | `gifts[1].dim` | showing up |
 | `gifts[1].door` | body |
-| `gifts[1].desc` | Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six. |
-| `gifts[2].phrase` | Calm under fire |
-| `gifts[2].dim` | crisis |
-| `gifts[2].door` | order |
-| `gifts[2].desc` | The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be. |
-| `gifts[3].phrase` | Safe harbor |
-| `gifts[3].dim` | secrets |
+| `gifts[1].face` | wide |
+| `gifts[1].echo_of` | 土_土.function.definition_catalyst |
+| `gifts[1].desc` | Storms, funerals, moving days, the long boring middle of hard times. Plenty of steadiness, and you are still there in week six. |
+| `gifts[2].phrase` | Learns from people |
+| `gifts[2].dim` | how you learn |
+| `gifts[2].door` | mind |
+| `gifts[2].face` | echo |
+| `gifts[2].echo_of` | 土_火.function.definition_catalyst |
+| `gifts[2].desc` | Cold text slides off. What warmed you stays: the person who showed you, the evening it was said, the praise that made it stick. |
+| `gifts[3].phrase` | Keeps the record |
+| `gifts[3].dim` | memory |
 | `gifts[3].door` | mind |
-| `gifts[3].desc` | People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning. |
-| `gifts[4].phrase` | Slow and sure |
-| `gifts[4].dim` | pace |
-| `gifts[4].door` | action |
-| `gifts[4].desc` | You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely. |
-| `gifts[5].phrase` | Keeps the record |
-| `gifts[5].dim` | memory |
-| `gifts[5].door` | mind |
-| `gifts[5].desc` | You remember what was said, when, and by whom. Not to use it. Because it happened. |
-| `gifts[6].phrase` | Says it once |
-| `gifts[6].dim` | speaking up |
-| `gifts[6].door` | expression |
-| `gifts[6].desc` | You say the thing one time, plainly, and do not repeat it. People learn to listen the first time. |
-| `shadows[0].phrase` | Bottles it up |
-| `shadows[0].dim` | sharing the load |
+| `gifts[3].face` | wide |
+| `gifts[3].echo_of` | 土_火.carry.wide |
+| `gifts[3].desc` | So much has warmed its way in that you remember what was said, when, and by whom. Not to use it. Because it happened. |
+| `gifts[4].phrase` | Says it once |
+| `gifts[4].dim` | speaking up |
+| `gifts[4].door` | expression |
+| `gifts[4].face` | echo |
+| `gifts[4].echo_of` | 土_金.function.definition_catalyst |
+| `gifts[4].desc` | You say the thing one time, plainly, the exact word, and do not repeat it. People learn to listen the first time. |
+| `gifts[5].phrase` | Safe hands |
+| `gifts[5].dim` | things in motion |
+| `gifts[5].door` | action |
+| `gifts[5].face` | echo |
+| `gifts[5].echo_of` | 土_水.function.definition_catalyst |
+| `gifts[5].desc` | Money, chances, people in motion all need somewhere reliable to land. You profit by being the still point in a moving system. |
+| `gifts[6].phrase` | Carries the family |
+| `gifts[6].dim` | obligations |
+| `gifts[6].door` | order |
+| `gifts[6].face` | echo |
+| `gifts[6].echo_of` | 土_木.function.definition_catalyst |
+| `gifts[6].desc` | Family, teams, the people who grow back each season and ask you to grow with them. Care is your discipline, and it keeps you moving. |
+| `shadows[0].phrase` | Sinks into routine |
+| `shadows[0].dim` | habits |
 | `shadows[0].door` | body |
-| `shadows[0].desc` | The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked. |
-| `shadows[1].phrase` | Feeds on distraction |
-| `shadows[1].dim` | what counts as input |
-| `shadows[1].door` | mind |
-| `shadows[1].desc` | Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before. |
-| `shadows[2].phrase` | Can't let go |
-| `shadows[2].dim` | endings |
-| `shadows[2].door` | body |
-| `shadows[2].desc` | Jobs, grudges, houses, roles that ended years ago. Letting go feels like betraying everyone who leaned on the holding, so the grip stays closed. |
+| `shadows[0].face` | echo |
+| `shadows[0].echo_of` | 土_土.function.definition_friction |
+| `shadows[0].desc` | Heaviness accumulating. Routines hardened into ruts, comfort eaten past comfort, a body built for staying that now resists moving. |
+| `shadows[1].phrase` | Can't let go |
+| `shadows[1].dim` | endings |
+| `shadows[1].door` | body |
+| `shadows[1].face` | excess |
+| `shadows[1].echo_of` | 土_土.carry.excess |
+| `shadows[1].desc` | So much steadiness nothing new can root. Jobs, grudges, houses, roles that ended years ago, all still held, because letting go feels like betraying everyone who leaned on the holding. |
+| `shadows[2].phrase` | Feeds on distraction |
+| `shadows[2].dim` | what counts as input |
+| `shadows[2].door` | mind |
+| `shadows[2].face` | echo |
+| `shadows[2].echo_of` | 土_火.function.definition_friction |
+| `shadows[2].desc` | Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before. |
 | `shadows[3].phrase` | Set in stone |
 | `shadows[3].dim` | changing course |
 | `shadows[3].door` | mind |
-| `shadows[3].desc` | Once your footing is chosen, argument becomes erosion. It works on you in centuries, not conversations. People eventually stop bringing the map. |
-| `shadows[4].phrase` | Quietly overwhelmed |
-| `shadows[4].dim` | capacity |
-| `shadows[4].door` | order |
-| `shadows[4].desc` | The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost. |
-| `shadows[5].phrase` | Dumps the load |
-| `shadows[5].dim` | finally speaking |
-| `shadows[5].door` | expression |
-| `shadows[5].desc` | Once you finally speak, all of it comes down at once, years of it, on whoever is standing there. |
-| `shadows[6].phrase` | Dams the river |
-| `shadows[6].dim` | letting things flow |
-| `shadows[6].door` | action |
-| `shadows[6].desc` | What could flow gets dammed. Money, plans, people, all held until the pressure shows. |
+| `shadows[3].face` | excess |
+| `shadows[3].echo_of` | 土_火.carry.excess |
+| `shadows[3].desc` | Baked hard by too much heat. Once your footing is chosen, argument works on you in centuries, not conversations, and people stop bringing the map. |
+| `shadows[4].phrase` | Drained by deadlines |
+| `shadows[4].dim` | output on demand |
+| `shadows[4].door` | expression |
+| `shadows[4].face` | echo |
+| `shadows[4].echo_of` | 土_金.function.definition_friction |
+| `shadows[4].desc` | More deliverables, more opinions, more polish than your quiet depth can supply. Producing is starting to hollow you. |
+| `shadows[5].phrase` | Manages everything |
+| `shadows[5].dim` | control |
+| `shadows[5].door` | action |
+| `shadows[5].face` | echo |
+| `shadows[5].echo_of` | 土_水.function.definition_friction |
+| `shadows[5].desc` | Accounts checked daily, opportunities tracked past usefulness, control spending the calm it was meant to protect. |
+| `shadows[6].phrase` | Quietly overwhelmed |
+| `shadows[6].dim` | capacity |
+| `shadows[6].door` | order |
+| `shadows[6].face` | echo |
+| `shadows[6].echo_of` | 土_木.function.definition_friction |
+| `shadows[6].desc` | Everyone rooted in you, nothing rooted for you. The load has not changed, but the legs under it have, and you still say yes to every weight. |
 | `door_note.body` | Earth |
 | `door_note.mind` | Fire |
 | `door_note.expression` | Metal |
@@ -191,3 +219,33 @@
 | `retired_door_audit_2026-09-16[0].door` | mind |
 | `retired_door_audit_2026-09-16[0].desc` | Enduring a problem is easier for you than changing it, so you sit under fixable things for years. The leak, the job, the ache. Bearing it quietly starts to look like solving it. |
 | `retired_door_audit_2026-09-16[0].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |
+| `retired_derivation_law_2026-09-16[0].phrase` | Calm under fire |
+| `retired_derivation_law_2026-09-16[0].dim` | crisis |
+| `retired_derivation_law_2026-09-16[0].door` | order |
+| `retired_derivation_law_2026-09-16[0].desc` | The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be. |
+| `retired_derivation_law_2026-09-16[0].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[1].phrase` | Safe harbor |
+| `retired_derivation_law_2026-09-16[1].dim` | secrets |
+| `retired_derivation_law_2026-09-16[1].door` | mind |
+| `retired_derivation_law_2026-09-16[1].desc` | People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning. |
+| `retired_derivation_law_2026-09-16[1].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[2].phrase` | Slow and sure |
+| `retired_derivation_law_2026-09-16[2].dim` | pace |
+| `retired_derivation_law_2026-09-16[2].door` | action |
+| `retired_derivation_law_2026-09-16[2].desc` | You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely. |
+| `retired_derivation_law_2026-09-16[2].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[3].phrase` | Bottles it up |
+| `retired_derivation_law_2026-09-16[3].dim` | sharing the load |
+| `retired_derivation_law_2026-09-16[3].door` | body |
+| `retired_derivation_law_2026-09-16[3].desc` | The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked. |
+| `retired_derivation_law_2026-09-16[3].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[4].phrase` | Dumps the load |
+| `retired_derivation_law_2026-09-16[4].dim` | finally speaking |
+| `retired_derivation_law_2026-09-16[4].door` | expression |
+| `retired_derivation_law_2026-09-16[4].desc` | Once you finally speak, all of it comes down at once, years of it, on whoever is standing there. |
+| `retired_derivation_law_2026-09-16[4].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[5].phrase` | Dams the river |
+| `retired_derivation_law_2026-09-16[5].dim` | letting things flow |
+| `retired_derivation_law_2026-09-16[5].door` | action |
+| `retired_derivation_law_2026-09-16[5].desc` | What could flow gets dammed. Money, plans, people, all held until the pressure shows. |
+| `retired_derivation_law_2026-09-16[5].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |

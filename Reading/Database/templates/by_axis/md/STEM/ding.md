@@ -26,62 +26,90 @@
 | `dm_mechanism` | Yin Fire kept close — a focused heat that endures by staying contained. |
 | `yourNature_desc` | You give whatever you turn toward all of you, and people who've felt that never quite forget it. It's the closest thing to being truly seen most of them get. One flame, one circle, and a lot of patient darkness just outside it. |
 | `dm_overview` | The Candle is Yin Fire, the fire that agreed to be small. It keeps the hours after dark, when the great light has gone home and warmth becomes a personal matter. Lamp light, hearth light, the flame a hand can shelter. In a night window it holds one table, one page, one face, while the dark politely keeps its distance. |
-| `gifts[0].phrase` | Deeply present |
-| `gifts[0].dim` | one-on-one |
+| `gifts[0].phrase` | Fully committed |
+| `gifts[0].dim` | the inner circle |
 | `gifts[0].door` | body |
-| `gifts[0].desc` | When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find. |
-| `gifts[1].phrase` | Misses nothing |
-| `gifts[1].dim` | details |
-| `gifts[1].door` | mind |
-| `gifts[1].desc` | The small tell, the changed tone, the detail everyone walked past. You caught it, and three months later it turned out to be the whole story. |
-| `gifts[2].phrase` | Fully committed |
-| `gifts[2].dim` | the inner circle |
-| `gifts[2].door` | body |
-| `gifts[2].desc` | What you choose gets everything you have. The people and work inside your circle never have to wonder where they stand. |
-| `gifts[3].phrase` | Rekindles people |
-| `gifts[3].dim` | influence on others |
-| `gifts[3].door` | expression |
-| `gifts[3].desc` | Your belief in someone works at close range. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again. |
-| `gifts[4].phrase` | Keeps the flame |
-| `gifts[4].dim` | hard seasons |
-| `gifts[4].door` | order |
-| `gifts[4].desc` | The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night. |
-| `gifts[5].phrase` | Studies one thing |
-| `gifts[5].dim` | expertise |
-| `gifts[5].door` | mind |
-| `gifts[5].desc` | One subject, years deep. You know it the way people know a face. |
-| `gifts[6].phrase` | Tends what's near |
-| `gifts[6].dim` | small work |
-| `gifts[6].door` | action |
-| `gifts[6].desc` | The small work in arm’s reach gets done well and on time. That is where you build. |
-| `shadows[0].phrase` | Plays favorites |
-| `shadows[0].dim` | the periphery |
+| `gifts[0].face` | echo |
+| `gifts[0].echo_of` | 火_火.function.definition_catalyst |
+| `gifts[0].desc` | What you choose gets all the energy you have, in bursts, at close range. The people inside your circle never wonder where they stand. |
+| `gifts[1].phrase` | Deeply present |
+| `gifts[1].dim` | attention |
+| `gifts[1].door` | body |
+| `gifts[1].face` | wide |
+| `gifts[1].echo_of` | 火_火.function.definition_catalyst |
+| `gifts[1].desc` | Plenty of light and all of it pointed at one person. Phones stay dark, time goes quiet, and they leave feeling seen in a way that is hard to find. |
+| `gifts[2].phrase` | Studies one thing |
+| `gifts[2].dim` | depth |
+| `gifts[2].door` | mind |
+| `gifts[2].face` | echo |
+| `gifts[2].echo_of` | 火_木.function.definition_catalyst |
+| `gifts[2].desc` | One subject, years deep, stacked quietly like fuel. You know it the way people know a face, and it burns later as brilliance. |
+| `gifts[3].phrase` | Misses nothing |
+| `gifts[3].dim` | small details |
+| `gifts[3].door` | mind |
+| `gifts[3].face` | wide |
+| `gifts[3].echo_of` | 火_木.carry.wide |
+| `gifts[3].desc` | With this much fuel behind the flame, the small tell, the changed tone, the detail everyone walked past all catch your eye. Three months later it turned out to be the whole story. |
+| `gifts[4].phrase` | Rekindles people |
+| `gifts[4].dim` | close range |
+| `gifts[4].door` | expression |
+| `gifts[4].face` | echo |
+| `gifts[4].echo_of` | 火_土.function.definition_catalyst |
+| `gifts[4].desc` | Your belief in someone works at close range and lasts. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again. |
+| `gifts[5].phrase` | Cracks hard problems |
+| `gifts[5].dim` | the work you pick |
+| `gifts[5].door` | action |
+| `gifts[5].face` | echo |
+| `gifts[5].echo_of` | 火_金.function.definition_catalyst |
+| `gifts[5].desc` | Easy work wastes you. Give you one difficult, valuable thing within arm's reach and the heat finally has something to work on. |
+| `gifts[6].phrase` | Listens to doubt |
+| `gifts[6].dim` | before the leap |
+| `gifts[6].door` | order |
+| `gifts[6].face` | echo |
+| `gifts[6].echo_of` | 火_水.function.definition_catalyst |
+| `gifts[6].desc` | One calm person whose questions slow you down before the leap. Your best decisions all survived a night of doubt. |
+| `shadows[0].phrase` | Can't cool down |
+| `shadows[0].dim` | rest |
 | `shadows[0].door` | body |
-| `shadows[0].desc` | Whoever holds your focus gets daylight. Everyone else gets dusk. The people at the edge of your attention feel the difference, and some of them mind. |
-| `shadows[1].phrase` | One-track mind |
-| `shadows[1].dim` | multitasking |
-| `shadows[1].door` | mind |
-| `shadows[1].desc` | You genuinely cannot split the flame. The second project, the waiting text, the simmering pot. They all wait in the dark until you turn. |
-| `shadows[2].phrase` | Takes it personally |
-| `shadows[2].dim` | criticism |
-| `shadows[2].door` | order |
-| `shadows[2].desc` | What you're devoted to has no separation from you. A criticism of the work lands as a criticism of your soul, every time. |
-| `shadows[3].phrase` | Comes on strong |
-| `shadows[3].dim` | presence |
-| `shadows[3].door` | expression |
-| `shadows[3].desc` | The full beam of your attention can arrive harder than the moment asked for. Some things needed gentle warmth and got the blowtorch. |
-| `shadows[4].phrase` | Nothing left over |
-| `shadows[4].dim` | outside the circle |
-| `shadows[4].door` | body |
-| `shadows[4].desc` | The circle gets all of you. Outside it there is no light, and no one you can see. |
-| `shadows[5].phrase` | Stares at flaws |
-| `shadows[5].dim` | one detail |
-| `shadows[5].door` | mind |
-| `shadows[5].desc` | One crack, and the whole night is spent on it. The rest of the wall stops existing. |
-| `shadows[6].phrase` | Too many candles |
-| `shadows[6].dim` | commitments |
-| `shadows[6].door` | action |
-| `shadows[6].desc` | You lit more than one candle can keep. Now every flame is small and getting smaller. |
+| `shadows[0].face` | echo |
+| `shadows[0].echo_of` | 火_火.function.definition_friction |
+| `shadows[0].desc` | More heat than your days can spend. Sleep will not come, and the intensity leaks into every conversation until rest feels like punishment. |
+| `shadows[1].phrase` | Plays favorites |
+| `shadows[1].dim` | the edge of attention |
+| `shadows[1].door` | body |
+| `shadows[1].face` | excess |
+| `shadows[1].echo_of` | 火_火.carry.excess |
+| `shadows[1].desc` | Whoever holds your focus gets daylight and everyone else gets dusk. So much light on one spot that nothing else is visible, and some people mind. |
+| `shadows[2].phrase` | Never ready enough |
+| `shadows[2].dim` | preparation |
+| `shadows[2].door` | mind |
+| `shadows[2].face` | echo |
+| `shadows[2].echo_of` | 火_木.function.definition_friction |
+| `shadows[2].desc` | One more course, one more plan, readiness that keeps moving its own finish line. The wick is ready. You are still gathering. |
+| `shadows[3].phrase` | Smothered by plans |
+| `shadows[3].dim` | too many plans |
+| `shadows[3].door` | mind |
+| `shadows[3].face` | excess |
+| `shadows[3].echo_of` | 火_木.carry.excess |
+| `shadows[3].desc` | So much fuel stacked around one small flame that it cannot catch. The best plan is under six others. |
+| `shadows[4].phrase` | Makes it permanent |
+| `shadows[4].dim` | moments |
+| `shadows[4].door` | expression |
+| `shadows[4].face` | echo |
+| `shadows[4].echo_of` | 火_土.function.definition_friction |
+| `shadows[4].desc` | The evening that should have been an evening becomes a tradition, a plan, a commitment. Output hardens faster than it can live. |
+| `shadows[5].phrase` | Keeps reworking it |
+| `shadows[5].dim` | finishing |
+| `shadows[5].door` | action |
+| `shadows[5].face` | echo |
+| `shadows[5].echo_of` | 火_金.function.definition_friction |
+| `shadows[5].desc` | Signed, shipped, agreed, and you are back at it with a smaller brush. Done is a decision you keep reopening. |
+| `shadows[6].phrase` | Doubts every spark |
+| `shadows[6].dim` | second-guessing |
+| `shadows[6].door` | order |
+| `shadows[6].face` | echo |
+| `shadows[6].echo_of` | 火_水.function.definition_friction |
+| `shadows[6].desc` | Every plan reviewed until the moment passes, every small light second-guessed into a maybe. The checking costs more than the mistake would. |
 | `door_note.body` | Fire |
 | `door_note.mind` | Wood |
 | `door_note.expression` | Earth |
@@ -191,3 +219,43 @@
 | `retired_thin_self_items[0].desc` | The people who'd treasure your attention rarely get offered it first. The flame stays behind cupped hands, and whole years of warmth go unseen. |
 | `retired_thin_self_items[0].bands` | open |
 | `retired_thin_self_items[0].why` | thin-Body item; no shadow face for a catalyst |
+| `retired_derivation_law_2026-09-16[0].phrase` | Keeps the flame |
+| `retired_derivation_law_2026-09-16[0].dim` | hard seasons |
+| `retired_derivation_law_2026-09-16[0].door` | order |
+| `retired_derivation_law_2026-09-16[0].desc` | The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night. |
+| `retired_derivation_law_2026-09-16[0].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[1].phrase` | Tends what's near |
+| `retired_derivation_law_2026-09-16[1].dim` | small work |
+| `retired_derivation_law_2026-09-16[1].door` | action |
+| `retired_derivation_law_2026-09-16[1].desc` | The small work in arm’s reach gets done well and on time. That is where you build. |
+| `retired_derivation_law_2026-09-16[1].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[2].phrase` | One-track mind |
+| `retired_derivation_law_2026-09-16[2].dim` | multitasking |
+| `retired_derivation_law_2026-09-16[2].door` | mind |
+| `retired_derivation_law_2026-09-16[2].desc` | You genuinely cannot split the flame. The second project, the waiting text, the simmering pot. They all wait in the dark until you turn. |
+| `retired_derivation_law_2026-09-16[2].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[3].phrase` | Takes it personally |
+| `retired_derivation_law_2026-09-16[3].dim` | criticism |
+| `retired_derivation_law_2026-09-16[3].door` | order |
+| `retired_derivation_law_2026-09-16[3].desc` | What you're devoted to has no separation from you. A criticism of the work lands as a criticism of your soul, every time. |
+| `retired_derivation_law_2026-09-16[3].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[4].phrase` | Comes on strong |
+| `retired_derivation_law_2026-09-16[4].dim` | presence |
+| `retired_derivation_law_2026-09-16[4].door` | expression |
+| `retired_derivation_law_2026-09-16[4].desc` | The full beam of your attention can arrive harder than the moment asked for. Some things needed gentle warmth and got the blowtorch. |
+| `retired_derivation_law_2026-09-16[4].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[5].phrase` | Nothing left over |
+| `retired_derivation_law_2026-09-16[5].dim` | outside the circle |
+| `retired_derivation_law_2026-09-16[5].door` | body |
+| `retired_derivation_law_2026-09-16[5].desc` | The circle gets all of you. Outside it there is no light, and no one you can see. |
+| `retired_derivation_law_2026-09-16[5].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[6].phrase` | Stares at flaws |
+| `retired_derivation_law_2026-09-16[6].dim` | one detail |
+| `retired_derivation_law_2026-09-16[6].door` | mind |
+| `retired_derivation_law_2026-09-16[6].desc` | One crack, and the whole night is spent on it. The rest of the wall stops existing. |
+| `retired_derivation_law_2026-09-16[6].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[7].phrase` | Too many candles |
+| `retired_derivation_law_2026-09-16[7].dim` | commitments |
+| `retired_derivation_law_2026-09-16[7].door` | action |
+| `retired_derivation_law_2026-09-16[7].desc` | You lit more than one candle can keep. Now every flame is small and getting smaller. |
+| `retired_derivation_law_2026-09-16[7].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |

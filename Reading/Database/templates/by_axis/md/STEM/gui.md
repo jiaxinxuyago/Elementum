@@ -26,62 +26,90 @@
 | `dm_mechanism` | Yin Water that finds every opening — perception that travels where pressure cannot. |
 | `yourNature_desc` | You feel what a day is carrying before anyone says so, and you take it in the way ground takes rain. Most of it grows something. Some of it was never yours to hold, and telling the difference is the quiet work of your life. |
 | `dm_overview` | The Rain is Yin Water, the last sign in the count, the water that closes the circle so it can begin again. It is rain, dew, and mist, the moisture that arrives everywhere and forces nothing. At winter's end it falls softly on planted fields through the night. By morning it is gone, and everything it touched has quietly agreed to grow. |
-| `gifts[0].phrase` | Feels the undercurrent |
-| `gifts[0].dim` | unspoken feelings |
-| `gifts[0].door` | mind |
-| `gifts[0].desc` | You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence. |
-| `gifts[1].phrase` | Spots the opening |
-| `gifts[1].dim` | timing |
-| `gifts[1].door` | action |
-| `gifts[1].desc` | You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived. |
-| `gifts[2].phrase` | Gentle confidant |
-| `gifts[2].dim` | secrets |
-| `gifts[2].door` | body |
-| `gifts[2].desc` | People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it. |
-| `gifts[3].phrase` | Changes minds softly |
-| `gifts[3].dim` | influence on others |
-| `gifts[3].door` | expression |
-| `gifts[3].desc` | Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did. |
-| `gifts[4].phrase` | Settles the dust |
-| `gifts[4].dim` | presence |
-| `gifts[4].door` | body |
-| `gifts[4].desc` | The air is calmer after you have been in it, and nobody can say what you did. |
-| `gifts[5].phrase` | Soaks it up |
-| `gifts[5].dim` | learning |
-| `gifts[5].door` | mind |
-| `gifts[5].desc` | Whatever falls near you goes in and stays. Years later it comes back as knowing. |
-| `gifts[6].phrase` | Wears down stone |
-| `gifts[6].dim` | under pressure |
+| `gifts[0].phrase` | Needs the quiet |
+| `gifts[0].dim` | recovery |
+| `gifts[0].door` | body |
+| `gifts[0].face` | echo |
+| `gifts[0].echo_of` | 水_水.function.definition_catalyst |
+| `gifts[0].desc` | Your reserve refills in stillness and drains through noise and company long before you feel tired. One quiet night and the dew is back. |
+| `gifts[1].phrase` | Gentle confidant |
+| `gifts[1].dim` | secrets |
+| `gifts[1].door` | body |
+| `gifts[1].face` | wide |
+| `gifts[1].echo_of` | 水_水.function.definition_catalyst |
+| `gifts[1].desc` | Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and you have never broken one. |
+| `gifts[2].phrase` | Better with structure |
+| `gifts[2].dim` | good teachers |
+| `gifts[2].door` | mind |
+| `gifts[2].face` | echo |
+| `gifts[2].echo_of` | 水_金.function.definition_catalyst |
+| `gifts[2].desc` | Exact teachers, clean methods, rigorous tools turn what you feel into something usable. You think better with structure than with more input. |
+| `gifts[3].phrase` | Feels the undercurrent |
+| `gifts[3].dim` | unspoken feelings |
+| `gifts[3].door` | mind |
+| `gifts[3].face` | wide |
+| `gifts[3].echo_of` | 水_金.carry.wide |
+| `gifts[3].desc` | Fed by exact sources, the feel arrives early. You knew the couple was fighting before they did. |
+| `gifts[4].phrase` | Changes minds softly |
+| `gifts[4].dim` | influence on others |
+| `gifts[4].door` | expression |
+| `gifts[4].face` | echo |
+| `gifts[4].echo_of` | 水_木.function.definition_catalyst |
+| `gifts[4].desc` | Nobody remembers losing the argument to you. Positions shift a degree a week until, months later, everyone agrees and thinks they always did. |
+| `gifts[5].phrase` | Spots the opening |
+| `gifts[5].dim` | timing |
+| `gifts[5].door` | action |
+| `gifts[5].face` | echo |
+| `gifts[5].echo_of` | 水_火.function.definition_catalyst |
+| `gifts[5].desc` | You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived. |
+| `gifts[6].phrase` | Blooms on routine |
+| `gifts[6].dim` | walls you chose |
 | `gifts[6].door` | order |
-| `gifts[6].desc` | Pressure does not stop you. Given enough seasons, the rain shapes the rock that tried to stop it. |
-| `shadows[0].phrase` | Absorbs everything |
-| `shadows[0].dim` | others' emotions |
-| `shadows[0].door` | mind |
-| `shadows[0].desc` | You walk in fine and leave carrying the argument two strangers had near you. Other people's weather soaks straight through your coat. |
-| `shadows[1].phrase` | Avoids the fight |
-| `shadows[1].dim` | hard conversations |
-| `shadows[1].door` | order |
-| `shadows[1].desc` | You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years. |
-| `shadows[2].phrase` | Marinates in it |
+| `gifts[6].face` | echo |
+| `gifts[6].echo_of` | 水_土.function.definition_catalyst |
+| `gifts[6].desc` | Fixed roles, steady schedules, commitments that do not move with your moods. Inside walls you chose, the rain becomes a river. |
+| `shadows[0].phrase` | Sleeps without rest |
+| `shadows[0].dim` | recovery |
+| `shadows[0].door` | body |
+| `shadows[0].face` | echo |
+| `shadows[0].echo_of` | 水_水.function.definition_friction |
+| `shadows[0].desc` | Stillness pooling into stagnation. Sleep that stretches without refreshing, feeling waiting for a current that never comes. |
+| `shadows[1].phrase` | Loses the border |
+| `shadows[1].dim` | whose feeling |
+| `shadows[1].door` | body |
+| `shadows[1].face` | excess |
+| `shadows[1].echo_of` | 水_水.carry.excess |
+| `shadows[1].desc` | So much felt that nothing surfaces to be checked. Their weather becomes yours, and by evening you cannot say whose sadness you are carrying. |
+| `shadows[2].phrase` | Replays every word |
 | `shadows[2].dim` | moving on |
 | `shadows[2].door` | mind |
-| `shadows[2].desc` | The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep. |
-| `shadows[3].phrase` | Feelings as facts |
-| `shadows[3].dim` | evidence |
-| `shadows[3].door` | body |
-| `shadows[3].desc` | When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one. |
-| `shadows[4].phrase` | Loses the border |
-| `shadows[4].dim` | whose feeling |
-| `shadows[4].door` | body |
-| `shadows[4].desc` | Their weather becomes yours. By evening you cannot say whose sadness you are carrying. |
-| `shadows[5].phrase` | Mentors everyone |
-| `shadows[5].dim` | other people's growth |
-| `shadows[5].door` | expression |
-| `shadows[5].desc` | Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours. |
-| `shadows[6].phrase` | Boils off early |
-| `shadows[6].dim` | chasing warmth |
-| `shadows[6].door` | action |
-| `shadows[6].desc` | Every warm thing pulls you toward it, and you rise to meet it before anything lands. |
+| `shadows[2].face` | echo |
+| `shadows[2].echo_of` | 水_金.function.definition_friction |
+| `shadows[2].desc` | The conversation ended Tuesday and you are still in it Friday, sorting the tone and the pause into a system that never gets used. |
+| `shadows[3].phrase` | Absorbs everything |
+| `shadows[3].dim` | others' emotions |
+| `shadows[3].door` | mind |
+| `shadows[3].face` | excess |
+| `shadows[3].echo_of` | 水_金.carry.excess |
+| `shadows[3].desc` | Too much taken in and the water will not clear. You walk in fine and leave carrying the argument two strangers had near you. |
+| `shadows[4].phrase` | Mentors everyone |
+| `shadows[4].dim` | other people's growth |
+| `shadows[4].door` | expression |
+| `shadows[4].face` | echo |
+| `shadows[4].echo_of` | 水_木.function.definition_friction |
+| `shadows[4].desc` | Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours. |
+| `shadows[5].phrase` | Boils off early |
+| `shadows[5].dim` | chasing warmth |
+| `shadows[5].door` | action |
+| `shadows[5].face` | echo |
+| `shadows[5].echo_of` | 水_火.function.definition_friction |
+| `shadows[5].desc` | Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns. |
+| `shadows[6].phrase` | Trapped by routine |
+| `shadows[6].dim` | hard conversations |
+| `shadows[6].door` | order |
+| `shadows[6].face` | echo |
+| `shadows[6].echo_of` | 水_土.function.definition_friction |
+| `shadows[6].desc` | A calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you run on. |
 | `door_note.body` | Water |
 | `door_note.mind` | Metal |
 | `door_note.expression` | Wood |
@@ -206,3 +234,33 @@
 | `retired_door_audit_2026-09-16[2].door` | action |
 | `retired_door_audit_2026-09-16[2].desc` | Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands. |
 | `retired_door_audit_2026-09-16[2].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |
+| `retired_derivation_law_2026-09-16[0].phrase` | Settles the dust |
+| `retired_derivation_law_2026-09-16[0].dim` | presence |
+| `retired_derivation_law_2026-09-16[0].door` | body |
+| `retired_derivation_law_2026-09-16[0].desc` | The air is calmer after you have been in it, and nobody can say what you did. |
+| `retired_derivation_law_2026-09-16[0].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[1].phrase` | Soaks it up |
+| `retired_derivation_law_2026-09-16[1].dim` | learning |
+| `retired_derivation_law_2026-09-16[1].door` | mind |
+| `retired_derivation_law_2026-09-16[1].desc` | Whatever falls near you goes in and stays. Years later it comes back as knowing. |
+| `retired_derivation_law_2026-09-16[1].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[2].phrase` | Wears down stone |
+| `retired_derivation_law_2026-09-16[2].dim` | under pressure |
+| `retired_derivation_law_2026-09-16[2].door` | order |
+| `retired_derivation_law_2026-09-16[2].desc` | Pressure does not stop you. Given enough seasons, the rain shapes the rock that tried to stop it. |
+| `retired_derivation_law_2026-09-16[2].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[3].phrase` | Avoids the fight |
+| `retired_derivation_law_2026-09-16[3].dim` | hard conversations |
+| `retired_derivation_law_2026-09-16[3].door` | order |
+| `retired_derivation_law_2026-09-16[3].desc` | You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years. |
+| `retired_derivation_law_2026-09-16[3].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[4].phrase` | Marinates in it |
+| `retired_derivation_law_2026-09-16[4].dim` | moving on |
+| `retired_derivation_law_2026-09-16[4].door` | mind |
+| `retired_derivation_law_2026-09-16[4].desc` | The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep. |
+| `retired_derivation_law_2026-09-16[4].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[5].phrase` | Feelings as facts |
+| `retired_derivation_law_2026-09-16[5].dim` | evidence |
+| `retired_derivation_law_2026-09-16[5].door` | body |
+| `retired_derivation_law_2026-09-16[5].desc` | When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one. |
+| `retired_derivation_law_2026-09-16[5].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |

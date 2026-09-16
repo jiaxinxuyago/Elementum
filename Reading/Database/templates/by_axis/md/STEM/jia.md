@@ -26,62 +26,90 @@
 | `dm_mechanism` | Yang Wood grown toward light — a spine that rose by reaching, season over season. |
 | `yourNature_desc` | You see where things could go before most people see that they could go anywhere, and you're moving while they're still deciding. What you build tends to outlast you. You're just rarely there to see it, because halfway through every ending you've already started the next thing. |
 | `dm_overview` | The Oak is Yang Wood, the first sign in the count of days, the oldest picture of beginning itself. It is the seed that argues with the ground and wins, the trunk that spends a hundred years walking toward the sky. Spring belongs to it, and so does every road that is still mostly promise. Whatever refuses to stay small grows under this sign. |
-| `gifts[0].phrase` | Makes it official |
-| `gifts[0].dim` | commitments |
-| `gifts[0].door` | action |
-| `gifts[0].desc` | Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs. |
-| `gifts[1].phrase` | Raises everyone's game |
-| `gifts[1].dim` | influence on others |
-| `gifts[1].door` | expression |
-| `gifts[1].desc` | People around you end up aiming higher than they meant to. Your reach quietly becomes the new ceiling, and nobody remembers deciding that. |
-| `gifts[2].phrase` | Builds to last |
-| `gifts[2].dim` | at work |
-| `gifts[2].door` | order |
-| `gifts[2].desc` | You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down. |
-| `gifts[3].phrase` | Keeps the faith |
-| `gifts[3].dim` | inner life |
-| `gifts[3].door` | body |
-| `gifts[3].desc` | You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter. |
-| `gifts[4].phrase` | Late bloomer |
-| `gifts[4].dim` | over the years |
-| `gifts[4].door` | mind |
-| `gifts[4].desc` | The Oak that everyone wrote off in spring is the one still standing in October. Your growth arrives on its own calendar, and it arrives. |
-| `gifts[5].phrase` | Holds its ground |
-| `gifts[5].dim` | standing alone |
-| `gifts[5].door` | body |
-| `gifts[5].desc` | Wind from every side, and you are still where you were planted, still facing the same way. |
-| `gifts[6].phrase` | Takes the lesson |
-| `gifts[6].dim` | hard seasons |
-| `gifts[6].door` | mind |
-| `gifts[6].desc` | One hard season teaches you what a decade of easy ones could not, and you keep it. |
-| `shadows[0].phrase` | Owns too much |
-| `shadows[0].dim` | what you keep |
-| `shadows[0].door` | action |
-| `shadows[0].desc` | Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent. |
-| `shadows[1].phrase` | Asks for nothing |
-| `shadows[1].dim` | asking for help |
+| `gifts[0].phrase` | Quick to start |
+| `gifts[0].dim` | beginnings |
+| `gifts[0].door` | body |
+| `gifts[0].face` | echo |
+| `gifts[0].echo_of` | 木_木.function.definition_catalyst |
+| `gifts[0].desc` | The will to start is your reserve. When it is full you begin things before anyone has finished worrying, and when it dips you feel flat before you feel tired. |
+| `gifts[1].phrase` | Holds its ground |
+| `gifts[1].dim` | standing alone |
+| `gifts[1].door` | body |
+| `gifts[1].face` | wide |
+| `gifts[1].echo_of` | 木_木.function.definition_catalyst |
+| `gifts[1].desc` | Wind from every side, and you are still where you were planted, still facing the same way. Plenty of growing force, and all of it rooted. |
+| `gifts[2].phrase` | Takes the lesson |
+| `gifts[2].dim` | hard seasons |
+| `gifts[2].door` | mind |
+| `gifts[2].face` | echo |
+| `gifts[2].echo_of` | 木_水.function.definition_catalyst |
+| `gifts[2].desc` | One hard season teaches you what a decade of easy ones could not. It goes in quietly, over reading and long talks and rest, and you keep it. |
+| `gifts[3].phrase` | Grows on rest |
+| `gifts[3].dim` | refueling |
+| `gifts[3].door` | mind |
+| `gifts[3].face` | wide |
+| `gifts[3].echo_of` | 木_水.carry.wide |
+| `gifts[3].desc` | Give you water and you grow. A quiet week, a long book, and the reaching starts again on its own. |
+| `gifts[4].phrase` | Raises everyone's game |
+| `gifts[4].dim` | influence on others |
+| `gifts[4].door` | expression |
+| `gifts[4].face` | echo |
+| `gifts[4].echo_of` | 木_火.function.definition_catalyst |
+| `gifts[4].desc` | Put your name on the work and the whole table aims higher. Your reach, once visible, becomes the new ceiling, and nobody remembers deciding that. |
+| `gifts[5].phrase` | Makes it official |
+| `gifts[5].dim` | commitments |
+| `gifts[5].door` | action |
+| `gifts[5].face` | echo |
+| `gifts[5].echo_of` | 木_土.function.definition_catalyst |
+| `gifts[5].desc` | Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs. |
+| `gifts[6].phrase` | Better when edited |
+| `gifts[6].dim` | under review |
+| `gifts[6].door` | order |
+| `gifts[6].face` | echo |
+| `gifts[6].echo_of` | 木_金.function.definition_catalyst |
+| `gifts[6].desc` | You grow fastest under exacting eyes. Give you an editor, a coach, a rule you chose, and the work comes back sharper every round. |
+| `shadows[0].phrase` | Starts five things |
+| `shadows[0].dim` | follow-through |
+| `shadows[0].door` | body |
+| `shadows[0].face` | echo |
+| `shadows[0].echo_of` | 木_木.function.definition_friction |
+| `shadows[0].desc` | More growing force than your life has outlets for. Restless, overcommitted, five things begun just to spend the energy, and none of them finished. |
+| `shadows[1].phrase` | Crowds everyone out |
+| `shadows[1].dim` | close bonds |
 | `shadows[1].door` | body |
-| `shadows[1].desc` | Help is right there and you know it. You'd still rather struggle in private than let anyone watch you need something. Asking feels like shrinking an inch you can't get back. |
-| `shadows[2].phrase` | Leaves things unfinished |
-| `shadows[2].dim` | follow-through |
-| `shadows[2].door` | expression |
-| `shadows[2].desc` | You commit hard, build fast, then spot the next mountain before this one is settled. Someone else ends up pouring the foundation you sketched. |
-| `shadows[3].phrase` | Charges ahead |
-| `shadows[3].dim` | warnings |
-| `shadows[3].door` | body |
-| `shadows[3].desc` | When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff. |
-| `shadows[4].phrase` | Floats between plans |
-| `shadows[4].dim` | direction |
-| `shadows[4].door` | mind |
-| `shadows[4].desc` | Every new idea is a river, and you have followed so many that the roots are off the ground. |
-| `shadows[5].phrase` | Waits for signs |
-| `shadows[5].dim` | advice |
-| `shadows[5].door` | mind |
-| `shadows[5].desc` | The move is ready. You are waiting for one more piece of advice before you make it. |
+| `shadows[1].face` | excess |
+| `shadows[1].echo_of` | 木_木.carry.excess |
+| `shadows[1].desc` | Growth so dense no other light gets in. The people around you stop growing in your shade, and one day you notice you have too. |
+| `shadows[2].phrase` | Waits for signs |
+| `shadows[2].dim` | advice |
+| `shadows[2].door` | mind |
+| `shadows[2].face` | echo |
+| `shadows[2].echo_of` | 木_水.function.definition_friction |
+| `shadows[2].desc` | The move is ready. You are waiting for one more piece of advice before you make it, and the waiting has started to look like thinking. |
+| `shadows[3].phrase` | Floats between plans |
+| `shadows[3].dim` | direction |
+| `shadows[3].door` | mind |
+| `shadows[3].face` | excess |
+| `shadows[3].echo_of` | 木_水.carry.excess |
+| `shadows[3].desc` | Every new idea is a river, and you have followed so many that the roots are off the ground. Nothing is anchored. |
+| `shadows[4].phrase` | Promises too much |
+| `shadows[4].dim` | announcing early |
+| `shadows[4].door` | expression |
+| `shadows[4].face` | echo |
+| `shadows[4].echo_of` | 木_火.function.definition_friction |
+| `shadows[4].desc` | The announcement comes before the growth. You say yes on stage and pay for it offstage, and the next thing gets promised before this one is real. |
+| `shadows[5].phrase` | Owns too much |
+| `shadows[5].dim` | what you keep |
+| `shadows[5].door` | action |
+| `shadows[5].face` | echo |
+| `shadows[5].echo_of` | 木_土.function.definition_friction |
+| `shadows[5].desc` | Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent. |
 | `shadows[6].phrase` | Snaps under load |
 | `shadows[6].dim` | under rules |
 | `shadows[6].door` | order |
-| `shadows[6].desc` | Bent far enough by rules that were not yours, you do not bend. You break, and loudly. |
+| `shadows[6].face` | echo |
+| `shadows[6].echo_of` | 木_金.function.definition_friction |
+| `shadows[6].desc` | Correction landing harder than you can absorb. Every rule met, every critique taken, until the standards stop shaping you and start shrinking you, and then you break, loudly. |
 | `door_note.body` | Wood |
 | `door_note.mind` | Water |
 | `door_note.expression` | Fire |
@@ -201,3 +229,33 @@
 | `retired_door_audit_2026-09-16[1].door` | action |
 | `retired_door_audit_2026-09-16[1].desc` | The people who love you feel a step behind. The reaching never slows quite enough to let them catch up. |
 | `retired_door_audit_2026-09-16[1].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |
+| `retired_derivation_law_2026-09-16[0].phrase` | Builds to last |
+| `retired_derivation_law_2026-09-16[0].dim` | at work |
+| `retired_derivation_law_2026-09-16[0].door` | order |
+| `retired_derivation_law_2026-09-16[0].desc` | You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down. |
+| `retired_derivation_law_2026-09-16[0].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[1].phrase` | Keeps the faith |
+| `retired_derivation_law_2026-09-16[1].dim` | inner life |
+| `retired_derivation_law_2026-09-16[1].door` | body |
+| `retired_derivation_law_2026-09-16[1].desc` | You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter. |
+| `retired_derivation_law_2026-09-16[1].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[2].phrase` | Late bloomer |
+| `retired_derivation_law_2026-09-16[2].dim` | over the years |
+| `retired_derivation_law_2026-09-16[2].door` | mind |
+| `retired_derivation_law_2026-09-16[2].desc` | The Oak that everyone wrote off in spring is the one still standing in October. Your growth arrives on its own calendar, and it arrives. |
+| `retired_derivation_law_2026-09-16[2].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[3].phrase` | Asks for nothing |
+| `retired_derivation_law_2026-09-16[3].dim` | asking for help |
+| `retired_derivation_law_2026-09-16[3].door` | body |
+| `retired_derivation_law_2026-09-16[3].desc` | Help is right there and you know it. You'd still rather struggle in private than let anyone watch you need something. Asking feels like shrinking an inch you can't get back. |
+| `retired_derivation_law_2026-09-16[3].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[4].phrase` | Leaves things unfinished |
+| `retired_derivation_law_2026-09-16[4].dim` | follow-through |
+| `retired_derivation_law_2026-09-16[4].door` | expression |
+| `retired_derivation_law_2026-09-16[4].desc` | You commit hard, build fast, then spot the next mountain before this one is settled. Someone else ends up pouring the foundation you sketched. |
+| `retired_derivation_law_2026-09-16[4].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[5].phrase` | Charges ahead |
+| `retired_derivation_law_2026-09-16[5].dim` | warnings |
+| `retired_derivation_law_2026-09-16[5].door` | body |
+| `retired_derivation_law_2026-09-16[5].desc` | When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff. |
+| `retired_derivation_law_2026-09-16[5].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |

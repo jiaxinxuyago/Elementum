@@ -26,62 +26,90 @@
 | `dm_mechanism` | Yin Metal refined under pressure — an edge made keen by polishing, not by force. |
 | `yourNature_desc` | You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required. |
 | `dm_overview` | The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. The last of autumn belongs to it, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. Under a patient hand it is cut small and exact, holding more light than its size should allow, and it refuses to call the work done early. |
-| `gifts[0].phrase` | Impeccable taste |
-| `gifts[0].dim` | quality |
-| `gifts[0].door` | mind |
-| `gifts[0].desc` | You know the good one from the almost-good one at a glance, the way some people can tell a note is flat. Friends borrow your eye before they buy. |
-| `gifts[1].phrase` | Quality guaranteed |
-| `gifts[1].dim` | at work |
-| `gifts[1].door` | order |
-| `gifts[1].desc` | Nothing leaves your hands that you don't believe in. Years later your work is the one still holding up under inspection. |
-| `gifts[2].phrase` | Spots the crack |
-| `gifts[2].dim` | early warnings |
+| `gifts[0].phrase` | Keeps its shape |
+| `gifts[0].dim` | being handled |
+| `gifts[0].door` | body |
+| `gifts[0].face` | echo |
+| `gifts[0].echo_of` | 金_金.function.definition_catalyst |
+| `gifts[0].desc` | Handled by everyone, changed by no one. You hold your form long after the fuel is low, so you notice you are tired late. |
+| `gifts[1].phrase` | Polished by default |
+| `gifts[1].dim` | finishing |
+| `gifts[1].door` | body |
+| `gifts[1].face` | wide |
+| `gifts[1].echo_of` | 金_金.function.definition_catalyst |
+| `gifts[1].desc` | Plenty of the material and all of it finished. Even the things nobody will see leave your hands done properly. |
+| `gifts[2].phrase` | Impeccable taste |
+| `gifts[2].dim` | quality |
 | `gifts[2].door` | mind |
-| `gifts[2].desc` | You saw the flaw three months before it became the problem. You say it out loud exactly once, and then wait. |
-| `gifts[3].phrase` | Notices the effort |
-| `gifts[3].dim` | others' work |
-| `gifts[3].door` | body |
-| `gifts[3].desc` | The detail someone worked hardest on, the one everyone else missed, is the first thing you praise. Being appreciated by you means something because you actually looked. |
+| `gifts[2].face` | echo |
+| `gifts[2].echo_of` | 金_土.function.definition_catalyst |
+| `gifts[2].desc` | Years of quiet looking went in first. Now you know the good one from the almost-good one at a glance, and friends borrow your eye before they buy. |
+| `gifts[3].phrase` | Spots the crack |
+| `gifts[3].dim` | early warnings |
+| `gifts[3].door` | mind |
+| `gifts[3].face` | wide |
+| `gifts[3].echo_of` | 金_土.carry.wide |
+| `gifts[3].desc` | With this much ground under the stone, you saw the flaw three months before it became the problem. You say it out loud exactly once, and then wait. |
 | `gifts[4].phrase` | Understated excellence |
 | `gifts[4].dim` | self-presentation |
 | `gifts[4].door` | expression |
-| `gifts[4].desc` | You don't advertise, compete, or explain. The work speaks quietly, the taste shows in small choices, and the people who know, know. |
-| `gifts[5].phrase` | Keeps its shape |
-| `gifts[5].dim` | being handled |
-| `gifts[5].door` | body |
-| `gifts[5].desc` | Handled by everyone, changed by no one. You come out of every year the same stone. |
-| `gifts[6].phrase` | Prices it right |
-| `gifts[6].dim` | placing value |
-| `gifts[6].door` | action |
-| `gifts[6].desc` | You know what a thing is worth and where it belongs. Placed by you, it stays placed. |
-| `shadows[0].phrase` | Bruises easily |
-| `shadows[0].dim` | criticism |
-| `shadows[0].door` | order |
-| `shadows[0].desc` | The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep. |
-| `shadows[1].phrase` | Never stops preparing |
-| `shadows[1].dim` | preparation |
-| `shadows[1].door` | mind |
-| `shadows[1].desc` | One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work. |
-| `shadows[2].phrase` | Stays boxed up |
-| `shadows[2].dim` | being sheltered |
+| `gifts[4].face` | echo |
+| `gifts[4].echo_of` | 金_水.function.definition_catalyst |
+| `gifts[4].desc` | What is inside moves outward without forcing. You do not advertise, compete, or explain. The work speaks quietly, and the people who know, know. |
+| `gifts[5].phrase` | Prices it right |
+| `gifts[5].dim` | placing value |
+| `gifts[5].door` | action |
+| `gifts[5].face` | echo |
+| `gifts[5].echo_of` | 金_木.function.definition_catalyst |
+| `gifts[5].desc` | You know what a thing is worth and where it belongs, and what you place keeps growing in value after you have placed it. |
+| `gifts[6].phrase` | Quality guaranteed |
+| `gifts[6].dim` | at work |
+| `gifts[6].door` | order |
+| `gifts[6].face` | echo |
+| `gifts[6].echo_of` | 金_火.function.definition_catalyst |
+| `gifts[6].desc` | Pressure organizes you instead of scattering you. Nothing leaves your hands that you do not believe in, and years later your work is the one still holding up under inspection. |
+| `shadows[0].phrase` | Polishes forever |
+| `shadows[0].dim` | deadlines |
+| `shadows[0].door` | body |
+| `shadows[0].face` | echo |
+| `shadows[0].echo_of` | 金_金.function.definition_friction |
+| `shadows[0].desc` | Discipline with no outlet turns on the work. The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive. |
+| `shadows[1].phrase` | Trusts one judge |
+| `shadows[1].dim` | taking advice |
+| `shadows[1].door` | body |
+| `shadows[1].face` | excess |
+| `shadows[1].echo_of` | 金_金.carry.excess |
+| `shadows[1].desc` | So much certainty it cuts everything the same way. The only opinion that counts on your work is yours, and it has never once been satisfied. |
+| `shadows[2].phrase` | Never stops preparing |
+| `shadows[2].dim` | preparation |
 | `shadows[2].door` | mind |
-| `shadows[2].desc` | Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box. |
-| `shadows[3].phrase` | Polishes forever |
-| `shadows[3].dim` | finishing |
-| `shadows[3].door` | body |
-| `shadows[3].desc` | The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive. |
+| `shadows[2].face` | echo |
+| `shadows[2].echo_of` | 金_土.function.definition_friction |
+| `shadows[2].desc` | One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work. |
+| `shadows[3].phrase` | Stays boxed up |
+| `shadows[3].dim` | being sheltered |
+| `shadows[3].door` | mind |
+| `shadows[3].face` | excess |
+| `shadows[3].echo_of` | 金_土.carry_yin.excess |
+| `shadows[3].desc` | Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box. |
 | `shadows[4].phrase` | Remarks cut deep |
 | `shadows[4].dim` | small remarks |
 | `shadows[4].door` | expression |
-| `shadows[4].desc` | The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not. |
-| `shadows[5].phrase` | Trusts one judge |
-| `shadows[5].dim` | taking advice |
-| `shadows[5].door` | body |
-| `shadows[5].desc` | The only opinion that counts on your work is yours, and it has never once been satisfied. |
-| `shadows[6].phrase` | Hoards raw stones |
-| `shadows[6].dim` | acquiring |
-| `shadows[6].door` | action |
-| `shadows[6].desc` | Every good piece deserves a setting, so you keep buying stones for settings you never make. |
+| `shadows[4].face` | echo |
+| `shadows[4].echo_of` | 金_水.function.definition_friction |
+| `shadows[4].desc` | Output with no banks. The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not. |
+| `shadows[5].phrase` | Hoards raw stones |
+| `shadows[5].dim` | acquiring |
+| `shadows[5].door` | action |
+| `shadows[5].face` | echo |
+| `shadows[5].echo_of` | 金_木.function.definition_friction |
+| `shadows[5].desc` | Every good piece deserves a setting, so you keep buying stones for settings you never make. Plenty of motion, nothing finished. |
+| `shadows[6].phrase` | Panics over flaws |
+| `shadows[6].dim` | criticism |
+| `shadows[6].door` | order |
+| `shadows[6].face` | echo |
+| `shadows[6].echo_of` | 金_火.function.definition_friction |
+| `shadows[6].desc` | Every rule runs hot and every small flaw gets treated like an emergency. The standard presses down on people first, then hardest on you. |
 | `door_note.body` | Metal |
 | `door_note.mind` | Earth |
 | `door_note.expression` | Water |
@@ -196,3 +224,13 @@
 | `retired_door_audit_2026-09-16[1].door` | expression |
 | `retired_door_audit_2026-09-16[1].desc` | The standard that grades your work runs so hot that you present gold as passable. People take you at your word, and underprice you accordingly. |
 | `retired_door_audit_2026-09-16[1].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |
+| `retired_derivation_law_2026-09-16[0].phrase` | Notices the effort |
+| `retired_derivation_law_2026-09-16[0].dim` | others' work |
+| `retired_derivation_law_2026-09-16[0].door` | body |
+| `retired_derivation_law_2026-09-16[0].desc` | The detail someone worked hardest on, the one everyone else missed, is the first thing you praise. Being appreciated by you means something because you actually looked. |
+| `retired_derivation_law_2026-09-16[0].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[1].phrase` | Bruises easily |
+| `retired_derivation_law_2026-09-16[1].dim` | criticism |
+| `retired_derivation_law_2026-09-16[1].door` | order |
+| `retired_derivation_law_2026-09-16[1].desc` | The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep. |
+| `retired_derivation_law_2026-09-16[1].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |

@@ -30,90 +30,118 @@
     "dm_overview": "The Oak is Yang Wood, the first sign in the count of days, the oldest picture of beginning itself. It is the seed that argues with the ground and wins, the trunk that spends a hundred years walking toward the sky. Spring belongs to it, and so does every road that is still mostly promise. Whatever refuses to stay small grows under this sign.",
     "gifts": [
       {
-        "phrase": "Makes it official",
-        "dim": "commitments",
-        "door": "action",
-        "desc": "Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs."
-      },
-      {
-        "phrase": "Raises everyone's game",
-        "dim": "influence on others",
-        "door": "expression",
-        "desc": "People around you end up aiming higher than they meant to. Your reach quietly becomes the new ceiling, and nobody remembers deciding that."
-      },
-      {
-        "phrase": "Builds to last",
-        "dim": "at work",
-        "door": "order",
-        "desc": "You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down."
-      },
-      {
-        "phrase": "Keeps the faith",
-        "dim": "inner life",
+        "phrase": "Quick to start",
+        "dim": "beginnings",
         "door": "body",
-        "desc": "You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter."
-      },
-      {
-        "phrase": "Late bloomer",
-        "dim": "over the years",
-        "door": "mind",
-        "desc": "The Oak that everyone wrote off in spring is the one still standing in October. Your growth arrives on its own calendar, and it arrives."
+        "face": "echo",
+        "echo_of": "木_木.function.definition_catalyst",
+        "desc": "The will to start is your reserve. When it is full you begin things before anyone has finished worrying, and when it dips you feel flat before you feel tired."
       },
       {
         "phrase": "Holds its ground",
         "dim": "standing alone",
         "door": "body",
-        "desc": "Wind from every side, and you are still where you were planted, still facing the same way."
+        "face": "wide",
+        "echo_of": "木_木.function.definition_catalyst",
+        "desc": "Wind from every side, and you are still where you were planted, still facing the same way. Plenty of growing force, and all of it rooted."
       },
       {
         "phrase": "Takes the lesson",
         "dim": "hard seasons",
         "door": "mind",
-        "desc": "One hard season teaches you what a decade of easy ones could not, and you keep it."
+        "face": "echo",
+        "echo_of": "木_水.function.definition_catalyst",
+        "desc": "One hard season teaches you what a decade of easy ones could not. It goes in quietly, over reading and long talks and rest, and you keep it."
+      },
+      {
+        "phrase": "Grows on rest",
+        "dim": "refueling",
+        "door": "mind",
+        "face": "wide",
+        "echo_of": "木_水.carry.wide",
+        "desc": "Give you water and you grow. A quiet week, a long book, and the reaching starts again on its own."
+      },
+      {
+        "phrase": "Raises everyone's game",
+        "dim": "influence on others",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "木_火.function.definition_catalyst",
+        "desc": "Put your name on the work and the whole table aims higher. Your reach, once visible, becomes the new ceiling, and nobody remembers deciding that."
+      },
+      {
+        "phrase": "Makes it official",
+        "dim": "commitments",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "木_土.function.definition_catalyst",
+        "desc": "Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs."
+      },
+      {
+        "phrase": "Better when edited",
+        "dim": "under review",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "木_金.function.definition_catalyst",
+        "desc": "You grow fastest under exacting eyes. Give you an editor, a coach, a rule you chose, and the work comes back sharper every round."
       }
     ],
     "shadows": [
       {
-        "phrase": "Owns too much",
-        "dim": "what you keep",
-        "door": "action",
-        "desc": "Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent."
-      },
-      {
-        "phrase": "Asks for nothing",
-        "dim": "asking for help",
-        "door": "body",
-        "desc": "Help is right there and you know it. You'd still rather struggle in private than let anyone watch you need something. Asking feels like shrinking an inch you can't get back."
-      },
-      {
-        "phrase": "Leaves things unfinished",
+        "phrase": "Starts five things",
         "dim": "follow-through",
-        "door": "expression",
-        "desc": "You commit hard, build fast, then spot the next mountain before this one is settled. Someone else ends up pouring the foundation you sketched."
-      },
-      {
-        "phrase": "Charges ahead",
-        "dim": "warnings",
         "door": "body",
-        "desc": "When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff."
+        "face": "echo",
+        "echo_of": "木_木.function.definition_friction",
+        "desc": "More growing force than your life has outlets for. Restless, overcommitted, five things begun just to spend the energy, and none of them finished."
       },
       {
-        "phrase": "Floats between plans",
-        "dim": "direction",
-        "door": "mind",
-        "desc": "Every new idea is a river, and you have followed so many that the roots are off the ground."
+        "phrase": "Crowds everyone out",
+        "dim": "close bonds",
+        "door": "body",
+        "face": "excess",
+        "echo_of": "木_木.carry.excess",
+        "desc": "Growth so dense no other light gets in. The people around you stop growing in your shade, and one day you notice you have too."
       },
       {
         "phrase": "Waits for signs",
         "dim": "advice",
         "door": "mind",
-        "desc": "The move is ready. You are waiting for one more piece of advice before you make it."
+        "face": "echo",
+        "echo_of": "木_水.function.definition_friction",
+        "desc": "The move is ready. You are waiting for one more piece of advice before you make it, and the waiting has started to look like thinking."
+      },
+      {
+        "phrase": "Floats between plans",
+        "dim": "direction",
+        "door": "mind",
+        "face": "excess",
+        "echo_of": "木_水.carry.excess",
+        "desc": "Every new idea is a river, and you have followed so many that the roots are off the ground. Nothing is anchored."
+      },
+      {
+        "phrase": "Promises too much",
+        "dim": "announcing early",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "木_火.function.definition_friction",
+        "desc": "The announcement comes before the growth. You say yes on stage and pay for it offstage, and the next thing gets promised before this one is real."
+      },
+      {
+        "phrase": "Owns too much",
+        "dim": "what you keep",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "木_土.function.definition_friction",
+        "desc": "Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent."
       },
       {
         "phrase": "Snaps under load",
         "dim": "under rules",
         "door": "order",
-        "desc": "Bent far enough by rules that were not yours, you do not bend. You break, and loudly."
+        "face": "echo",
+        "echo_of": "木_金.function.definition_friction",
+        "desc": "Correction landing harder than you can absorb. Every rule met, every critique taken, until the standards stop shaping you and start shrinking you, and then you break, loudly."
       }
     ],
     "__ore": {
@@ -368,6 +396,50 @@
           "desc": "The people who love you feel a step behind. The reaching never slows quite enough to let them catch up.",
           "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
         }
+      ],
+      "retired_derivation_law_2026-09-16": [
+        {
+          "phrase": "Builds to last",
+          "dim": "at work",
+          "door": "order",
+          "desc": "You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Keeps the faith",
+          "dim": "inner life",
+          "door": "body",
+          "desc": "You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Late bloomer",
+          "dim": "over the years",
+          "door": "mind",
+          "desc": "The Oak that everyone wrote off in spring is the one still standing in October. Your growth arrives on its own calendar, and it arrives.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Asks for nothing",
+          "dim": "asking for help",
+          "door": "body",
+          "desc": "Help is right there and you know it. You'd still rather struggle in private than let anyone watch you need something. Asking feels like shrinking an inch you can't get back.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Leaves things unfinished",
+          "dim": "follow-through",
+          "door": "expression",
+          "desc": "You commit hard, build fast, then spot the next mountain before this one is settled. Someone else ends up pouring the foundation you sketched.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Charges ahead",
+          "dim": "warnings",
+          "door": "body",
+          "desc": "When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        }
       ]
     },
     "door_note": {
@@ -377,5 +449,6 @@
       "action": "Earth",
       "order": "Metal"
     }
-  }
+  },
+  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume."
 }

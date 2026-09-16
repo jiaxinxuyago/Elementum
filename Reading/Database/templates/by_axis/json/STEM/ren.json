@@ -30,90 +30,118 @@
     "dm_overview": "The Ocean is Yang Water, the water that never learned the meaning of far. Early winter is its season, pulling everything down into depth and moving on under a still surface. It is the open sea and the long river, the current that crosses what the eye gives up on. Past the harbor mouth it keeps its own maps.",
     "gifts": [
       {
-        "phrase": "Big picture thinker",
-        "dim": "connections",
-        "door": "mind",
-        "desc": "While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out."
-      },
-      {
-        "phrase": "Learns from experts",
-        "dim": "good teachers",
-        "door": "mind",
-        "desc": "Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through."
-      },
-      {
-        "phrase": "Thinks big",
-        "dim": "horizons",
-        "door": "action",
-        "desc": "Small plans bore you on arrival. You're drawn to the far shore, the decade plan, the version of the idea that scares the committee."
-      },
-      {
-        "phrase": "Even keel",
-        "dim": "under pressure",
-        "door": "order",
-        "desc": "Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours."
-      },
-      {
-        "phrase": "Gives ideas away",
-        "dim": "what grows after you",
-        "door": "expression",
-        "desc": "You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from."
+        "phrase": "Restored by quiet",
+        "dim": "recovery",
+        "door": "body",
+        "face": "echo",
+        "echo_of": "水_水.function.definition_catalyst",
+        "desc": "The reserve under everything you notice refills in stillness. Noise and company drain it long before you feel tired, and one quiet evening brings it back."
       },
       {
         "phrase": "Nothing rattles it",
         "dim": "storms",
         "door": "body",
-        "desc": "Storms cross the surface. Ten fathoms down, nothing has moved."
+        "face": "wide",
+        "echo_of": "水_水.function.definition_catalyst",
+        "desc": "Plenty of depth. Storms cross the surface, and ten fathoms down nothing has moved."
       },
       {
-        "phrase": "Keeps its level",
-        "dim": "recovery",
-        "door": "body",
-        "desc": "Whatever pours in, you find your level again by morning."
+        "phrase": "Learns from experts",
+        "dim": "good teachers",
+        "door": "mind",
+        "face": "echo",
+        "echo_of": "水_金.function.definition_catalyst",
+        "desc": "Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through."
+      },
+      {
+        "phrase": "Big picture thinker",
+        "dim": "connections",
+        "door": "mind",
+        "face": "wide",
+        "echo_of": "水_金.carry.wide",
+        "desc": "Fed by exact sources, the depth has structure. While the meeting argues about one tile, you see the whole mosaic and where it is heading."
+      },
+      {
+        "phrase": "Gives ideas away",
+        "dim": "what grows after you",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "水_木.function.definition_catalyst",
+        "desc": "You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from."
+      },
+      {
+        "phrase": "Thinks big",
+        "dim": "horizons",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "水_火.function.definition_catalyst",
+        "desc": "Launches, markets, the moment that rewards whoever read it early. Small plans bore you, and you see the far shore clearly where others squint."
+      },
+      {
+        "phrase": "Thrives on structure",
+        "dim": "walls you chose",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "水_土.function.definition_catalyst",
+        "desc": "Fixed roles, steady schedules, commitments that do not move with your moods. Inside walls you chose, the depth becomes force."
       }
     ],
     "shadows": [
       {
-        "phrase": "Starts at bottom",
-        "dim": "explaining yourself",
-        "door": "expression",
-        "desc": "You start where your thinking ended, ten fathoms down, and wonder why the table looks lost."
+        "phrase": "Rest stops working",
+        "dim": "recovery",
+        "door": "body",
+        "face": "echo",
+        "echo_of": "水_水.function.definition_friction",
+        "desc": "Stillness pooling into stagnation. Sleep that stretches without refreshing, energy waiting for a current that never comes."
       },
       {
         "phrase": "Hard to know",
         "dim": "close bonds",
         "door": "body",
-        "desc": "Even the people closest to you work from a fraction. Whole regions of you stay unmapped, not hidden exactly, just never offered."
+        "face": "excess",
+        "echo_of": "水_水.carry.excess",
+        "desc": "So much depth that nothing surfaces. Even the people closest to you work from a fraction, and whole regions of you stay unmapped, never offered."
       },
       {
-        "phrase": "Spread too thin",
-        "dim": "focus",
-        "door": "action",
-        "desc": "Everything interests you and nothing contains you, so the current runs in six directions at once. Vast motion, and some seasons, no arrival."
-      },
-      {
-        "phrase": "Sweeps people along",
-        "dim": "momentum",
-        "door": "body",
-        "desc": "The plan was already moving before anyone agreed to it. Your current is strong enough that consent can arrive after departure."
-      },
-      {
-        "phrase": "Pulled every way",
+        "phrase": "Collects frameworks",
         "dim": "sources",
         "door": "mind",
-        "desc": "Every source you take in pulls a different way. The water is deep and going nowhere."
+        "face": "echo",
+        "echo_of": "水_金.function.definition_friction",
+        "desc": "Systems perfected, methods collected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking."
       },
       {
         "phrase": "Muddied by advice",
         "dim": "taking counsel",
         "door": "mind",
+        "face": "excess",
+        "echo_of": "水_金.carry.excess",
         "desc": "So much counsel has gone in that the water will not clear. You cannot see your own bottom anymore."
+      },
+      {
+        "phrase": "Pours into everyone",
+        "dim": "other people's gardens",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "水_木.function.definition_friction",
+        "desc": "Every person developed, every idea watered, your depth spent raising gardens you do not live in."
+      },
+      {
+        "phrase": "Spread too thin",
+        "dim": "focus",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "水_火.function.definition_friction",
+        "desc": "Hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you."
       },
       {
         "phrase": "Held behind walls",
         "dim": "others' rules",
         "door": "order",
-        "desc": "Dammed by other people’s rules, the sea goes quiet. Quiet is not the same as calm."
+        "face": "echo",
+        "echo_of": "水_土.function.definition_friction",
+        "desc": "A calendar with no slack, roles held from duty long after they stopped fitting. Dammed by other people's rules, the sea goes quiet, and quiet is not the same as calm."
       }
     ],
     "__ore": {
@@ -365,6 +393,43 @@
           "desc": "Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned.",
           "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
         }
+      ],
+      "retired_derivation_law_2026-09-16": [
+        {
+          "phrase": "Even keel",
+          "dim": "under pressure",
+          "door": "order",
+          "desc": "Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Keeps its level",
+          "dim": "recovery",
+          "door": "body",
+          "desc": "Whatever pours in, you find your level again by morning.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Starts at bottom",
+          "dim": "explaining yourself",
+          "door": "expression",
+          "desc": "You start where your thinking ended, ten fathoms down, and wonder why the table looks lost.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Sweeps people along",
+          "dim": "momentum",
+          "door": "body",
+          "desc": "The plan was already moving before anyone agreed to it. Your current is strong enough that consent can arrive after departure.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Pulled every way",
+          "dim": "sources",
+          "door": "mind",
+          "desc": "Every source you take in pulls a different way. The water is deep and going nowhere.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        }
       ]
     },
     "door_note": {
@@ -374,5 +439,6 @@
       "action": "Fire",
       "order": "Earth"
     }
-  }
+  },
+  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume."
 }

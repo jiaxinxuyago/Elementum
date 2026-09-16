@@ -10,199 +10,283 @@
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Owns too much |
-| `0.dim` | what you keep |
-| `0.door` | action |
-| `0.desc` | Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent. |
-| `1.phrase` | Asks for nothing |
-| `1.dim` | asking for help |
+| `0.phrase` | Starts five things |
+| `0.dim` | follow-through |
+| `0.door` | body |
+| `0.face` | echo |
+| `0.echo_of` | 木_木.function.definition_friction |
+| `0.desc` | More growing force than your life has outlets for. Restless, overcommitted, five things begun just to spend the energy, and none of them finished. |
+| `1.phrase` | Crowds everyone out |
+| `1.dim` | close bonds |
 | `1.door` | body |
-| `1.desc` | Help is right there and you know it. You'd still rather struggle in private than let anyone watch you need something. Asking feels like shrinking an inch you can't get back. |
-| `2.phrase` | Leaves things unfinished |
-| `2.dim` | follow-through |
-| `2.door` | expression |
-| `2.desc` | You commit hard, build fast, then spot the next mountain before this one is settled. Someone else ends up pouring the foundation you sketched. |
-| `3.phrase` | Charges ahead |
-| `3.dim` | warnings |
-| `3.door` | body |
-| `3.desc` | When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff. |
-| `4.phrase` | Floats between plans |
-| `4.dim` | direction |
-| `4.door` | mind |
-| `4.desc` | Every new idea is a river, and you have followed so many that the roots are off the ground. |
-| `5.phrase` | Waits for signs |
-| `5.dim` | advice |
-| `5.door` | mind |
-| `5.desc` | The move is ready. You are waiting for one more piece of advice before you make it. |
+| `1.face` | excess |
+| `1.echo_of` | 木_木.carry.excess |
+| `1.desc` | Growth so dense no other light gets in. The people around you stop growing in your shade, and one day you notice you have too. |
+| `2.phrase` | Waits for signs |
+| `2.dim` | advice |
+| `2.door` | mind |
+| `2.face` | echo |
+| `2.echo_of` | 木_水.function.definition_friction |
+| `2.desc` | The move is ready. You are waiting for one more piece of advice before you make it, and the waiting has started to look like thinking. |
+| `3.phrase` | Floats between plans |
+| `3.dim` | direction |
+| `3.door` | mind |
+| `3.face` | excess |
+| `3.echo_of` | 木_水.carry.excess |
+| `3.desc` | Every new idea is a river, and you have followed so many that the roots are off the ground. Nothing is anchored. |
+| `4.phrase` | Promises too much |
+| `4.dim` | announcing early |
+| `4.door` | expression |
+| `4.face` | echo |
+| `4.echo_of` | 木_火.function.definition_friction |
+| `4.desc` | The announcement comes before the growth. You say yes on stage and pay for it offstage, and the next thing gets promised before this one is real. |
+| `5.phrase` | Owns too much |
+| `5.dim` | what you keep |
+| `5.door` | action |
+| `5.face` | echo |
+| `5.echo_of` | 木_土.function.definition_friction |
+| `5.desc` | Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent. |
 | `6.phrase` | Snaps under load |
 | `6.dim` | under rules |
 | `6.door` | order |
-| `6.desc` | Bent far enough by rules that were not yours, you do not bend. You break, and loudly. |
+| `6.face` | echo |
+| `6.echo_of` | 木_金.function.definition_friction |
+| `6.desc` | Correction landing harder than you can absorb. Every rule met, every critique taken, until the standards stop shaping you and start shrinking you, and then you break, loudly. |
 
 ### The Vine · 乙
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Grows over others |
-| `0.dim` | the shared wall |
+| `0.phrase` | Tangled in others |
+| `0.dim` | pulling free |
 | `0.door` | body |
-| `0.desc` | Given a shared wall, you take the sunny side without noticing. Later you wonder why the other vine went quiet. |
-| `1.phrase` | Announces too early |
-| `1.dim` | announcing early |
-| `1.door` | expression |
-| `1.desc` | You tell people where you will be by summer while the wall is still bare. The saying comes easily. Then the summer has to keep the promise. |
-| `2.phrase` | Bends too far |
-| `2.dim` | boundaries |
-| `2.door` | order |
-| `2.desc` | You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you're holding stops being yours. |
-| `3.phrase` | Suspects an angle |
+| `0.face` | echo |
+| `0.echo_of` | 木_木.function.definition_friction |
+| `0.desc` | More growing force than your life has outlets for, so it wraps around people. Pulling free now would take them down too. |
+| `1.phrase` | Grows over others |
+| `1.dim` | the shared wall |
+| `1.door` | body |
+| `1.face` | excess |
+| `1.echo_of` | 木_木.carry.excess |
+| `1.desc` | Given a shared wall, you take the sunny side without noticing. Growth so dense no other light gets in, and later you wonder why the other vine went quiet. |
+| `2.phrase` | Loses the thread |
+| `2.dim` | direction |
+| `2.door` | mind |
+| `2.face` | echo |
+| `2.echo_of` | 木_水.function.definition_friction |
+| `2.desc` | One more opinion, one more book, and the winding forgets where it was going. Reflection has turned into stalling. |
+| `3.phrase` | Drifts with advice |
 | `3.dim` | face value |
 | `3.door` | mind |
-| `3.desc` | You can't quite take kindness at face value. Somewhere in you a quiet analyst asks what this person is really after. Sometimes the answer was nothing, and the wondering showed. |
-| `4.phrase` | Loses the thread |
-| `4.dim` | direction |
-| `4.door` | mind |
-| `4.desc` | With no wall to climb, the winding can forget where it was going. You're flexible about the route, and lately, quietly, about the destination too. |
-| `5.phrase` | Tangled in others |
-| `5.dim` | pulling free |
-| `5.door` | body |
-| `5.desc` | So much of you is wrapped around other people that pulling free would take them down too. |
-| `6.phrase` | Takes every opening |
-| `6.dim` | saying yes |
-| `6.door` | action |
-| `6.desc` | A gap is a gap. You grow into all of them, and the garden has no space left for anything else. |
+| `3.face` | excess |
+| `3.echo_of` | 木_水.carry.excess |
+| `3.desc` | So much taken in that the roots lift off the ground. Every opinion moves you a little, and lately the destination moves too. |
+| `4.phrase` | Announces too early |
+| `4.dim` | the bare wall |
+| `4.door` | expression |
+| `4.face` | echo |
+| `4.echo_of` | 木_火.function.definition_friction |
+| `4.desc` | You tell people where you will be by summer while the wall is still bare. The saying comes easily. Then the summer has to keep the promise. |
+| `5.phrase` | Takes every opening |
+| `5.dim` | saying yes |
+| `5.door` | action |
+| `5.face` | echo |
+| `5.echo_of` | 木_土.function.definition_friction |
+| `5.desc` | A gap is a gap. You grow into all of them, hold all of them, and the garden has no space left for anything else. |
+| `6.phrase` | Bends too far |
+| `6.dim` | boundaries |
+| `6.door` | order |
+| `6.face` | echo |
+| `6.echo_of` | 木_金.function.definition_friction |
+| `6.desc` | You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you are holding stops being yours. |
 
 ### The Sun · 丙
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Runs on empty |
+| `0.phrase` | Can't switch off |
 | `0.dim` | personal reserves |
 | `0.door` | body |
-| `0.desc` | You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks. |
-| `1.phrase` | Reopens settled things |
-| `1.dim` | settled things |
-| `1.door` | action |
-| `1.desc` | Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled. |
-| `2.phrase` | Fills every silence |
-| `2.dim` | quiet moments |
-| `2.door` | expression |
-| `2.desc` | Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade. |
-| `3.phrase` | Smiles on schedule |
-| `3.dim` | authenticity |
-| `3.door` | order |
-| `3.desc` | The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed. |
-| `4.phrase` | Last log burning |
-| `4.dim` | the last reserve |
-| `4.door` | body |
-| `4.desc` | The reserve is gone and the light is still on. You will find out tomorrow what that cost. |
-| `5.phrase` | Chokes on fuel |
-| `5.dim` | taking on more |
-| `5.door` | mind |
-| `5.desc` | Another book, another course, another person to feed on. The fire is choking on the pile. |
-| `6.phrase` | Buried in ideas |
-| `6.dim` | too many plans |
-| `6.door` | mind |
-| `6.desc` | So much to burn that nothing catches. The best plan is under six others. |
+| `0.face` | echo |
+| `0.echo_of` | 火_火.function.definition_friction |
+| `0.desc` | More heat than your days can spend. Sleep will not come, intensity leaks into every conversation, and rest feels like a punishment. |
+| `1.phrase` | Outshines everyone |
+| `1.dim` | the whole sky |
+| `1.door` | body |
+| `1.face` | excess |
+| `1.echo_of` | 火_火.carry.excess |
+| `1.desc` | So much light that nothing else in the sky is visible, including the people you were warming. |
+| `2.phrase` | Chokes on fuel |
+| `2.dim` | taking on more |
+| `2.door` | mind |
+| `2.face` | echo |
+| `2.echo_of` | 火_木.function.definition_friction |
+| `2.desc` | Another book, another course, another person to learn from, and readiness keeps moving its own finish line. The fire is choking on the pile. |
+| `3.phrase` | Buried in ideas |
+| `3.dim` | too many plans |
+| `3.door` | mind |
+| `3.face` | excess |
+| `3.echo_of` | 火_木.carry.excess |
+| `3.desc` | Fuel stacked so high the flame never gets lit. So much to burn that nothing catches, and the best plan is under six others. |
+| `4.phrase` | Formalizes everything |
+| `4.dim` | quiet moments |
+| `4.door` | expression |
+| `4.face` | echo |
+| `4.echo_of` | 火_土.function.definition_friction |
+| `4.desc` | Every idea becomes a project and every project becomes permanent. The output hardens while the light behind it thins. |
+| `5.phrase` | Reopens settled things |
+| `5.dim` | settled things |
+| `5.door` | action |
+| `5.face` | echo |
+| `5.echo_of` | 火_金.function.definition_friction |
+| `5.desc` | Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled. |
+| `6.phrase` | Overthinks the leap |
+| `6.dim` | second-guessing |
+| `6.door` | order |
+| `6.face` | echo |
+| `6.echo_of` | 火_水.function.definition_friction |
+| `6.desc` | Every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would. |
 
 ### The Candle · 丁
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Plays favorites |
-| `0.dim` | the periphery |
+| `0.phrase` | Can't cool down |
+| `0.dim` | rest |
 | `0.door` | body |
-| `0.desc` | Whoever holds your focus gets daylight. Everyone else gets dusk. The people at the edge of your attention feel the difference, and some of them mind. |
-| `1.phrase` | One-track mind |
-| `1.dim` | multitasking |
-| `1.door` | mind |
-| `1.desc` | You genuinely cannot split the flame. The second project, the waiting text, the simmering pot. They all wait in the dark until you turn. |
-| `2.phrase` | Takes it personally |
-| `2.dim` | criticism |
-| `2.door` | order |
-| `2.desc` | What you're devoted to has no separation from you. A criticism of the work lands as a criticism of your soul, every time. |
-| `3.phrase` | Comes on strong |
-| `3.dim` | presence |
-| `3.door` | expression |
-| `3.desc` | The full beam of your attention can arrive harder than the moment asked for. Some things needed gentle warmth and got the blowtorch. |
-| `4.phrase` | Nothing left over |
-| `4.dim` | outside the circle |
-| `4.door` | body |
-| `4.desc` | The circle gets all of you. Outside it there is no light, and no one you can see. |
-| `5.phrase` | Stares at flaws |
-| `5.dim` | one detail |
-| `5.door` | mind |
-| `5.desc` | One crack, and the whole night is spent on it. The rest of the wall stops existing. |
-| `6.phrase` | Too many candles |
-| `6.dim` | commitments |
-| `6.door` | action |
-| `6.desc` | You lit more than one candle can keep. Now every flame is small and getting smaller. |
+| `0.face` | echo |
+| `0.echo_of` | 火_火.function.definition_friction |
+| `0.desc` | More heat than your days can spend. Sleep will not come, and the intensity leaks into every conversation until rest feels like punishment. |
+| `1.phrase` | Plays favorites |
+| `1.dim` | the edge of attention |
+| `1.door` | body |
+| `1.face` | excess |
+| `1.echo_of` | 火_火.carry.excess |
+| `1.desc` | Whoever holds your focus gets daylight and everyone else gets dusk. So much light on one spot that nothing else is visible, and some people mind. |
+| `2.phrase` | Never ready enough |
+| `2.dim` | preparation |
+| `2.door` | mind |
+| `2.face` | echo |
+| `2.echo_of` | 火_木.function.definition_friction |
+| `2.desc` | One more course, one more plan, readiness that keeps moving its own finish line. The wick is ready. You are still gathering. |
+| `3.phrase` | Smothered by plans |
+| `3.dim` | too many plans |
+| `3.door` | mind |
+| `3.face` | excess |
+| `3.echo_of` | 火_木.carry.excess |
+| `3.desc` | So much fuel stacked around one small flame that it cannot catch. The best plan is under six others. |
+| `4.phrase` | Makes it permanent |
+| `4.dim` | moments |
+| `4.door` | expression |
+| `4.face` | echo |
+| `4.echo_of` | 火_土.function.definition_friction |
+| `4.desc` | The evening that should have been an evening becomes a tradition, a plan, a commitment. Output hardens faster than it can live. |
+| `5.phrase` | Keeps reworking it |
+| `5.dim` | finishing |
+| `5.door` | action |
+| `5.face` | echo |
+| `5.echo_of` | 火_金.function.definition_friction |
+| `5.desc` | Signed, shipped, agreed, and you are back at it with a smaller brush. Done is a decision you keep reopening. |
+| `6.phrase` | Doubts every spark |
+| `6.dim` | second-guessing |
+| `6.door` | order |
+| `6.face` | echo |
+| `6.echo_of` | 火_水.function.definition_friction |
+| `6.desc` | Every plan reviewed until the moment passes, every small light second-guessed into a maybe. The checking costs more than the mistake would. |
 
 ### The Mountain · 戊
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Bottles it up |
-| `0.dim` | sharing the load |
+| `0.phrase` | Sinks into routine |
+| `0.dim` | habits |
 | `0.door` | body |
-| `0.desc` | The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked. |
-| `1.phrase` | Feeds on distraction |
-| `1.dim` | what counts as input |
-| `1.door` | mind |
-| `1.desc` | Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before. |
-| `2.phrase` | Can't let go |
-| `2.dim` | endings |
-| `2.door` | body |
-| `2.desc` | Jobs, grudges, houses, roles that ended years ago. Letting go feels like betraying everyone who leaned on the holding, so the grip stays closed. |
+| `0.face` | echo |
+| `0.echo_of` | 土_土.function.definition_friction |
+| `0.desc` | Heaviness accumulating. Routines hardened into ruts, comfort eaten past comfort, a body built for staying that now resists moving. |
+| `1.phrase` | Can't let go |
+| `1.dim` | endings |
+| `1.door` | body |
+| `1.face` | excess |
+| `1.echo_of` | 土_土.carry.excess |
+| `1.desc` | So much steadiness nothing new can root. Jobs, grudges, houses, roles that ended years ago, all still held, because letting go feels like betraying everyone who leaned on the holding. |
+| `2.phrase` | Feeds on distraction |
+| `2.dim` | what counts as input |
+| `2.door` | mind |
+| `2.face` | echo |
+| `2.echo_of` | 土_火.function.definition_friction |
+| `2.desc` | Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before. |
 | `3.phrase` | Set in stone |
 | `3.dim` | changing course |
 | `3.door` | mind |
-| `3.desc` | Once your footing is chosen, argument becomes erosion. It works on you in centuries, not conversations. People eventually stop bringing the map. |
-| `4.phrase` | Quietly overwhelmed |
-| `4.dim` | capacity |
-| `4.door` | order |
-| `4.desc` | The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost. |
-| `5.phrase` | Dumps the load |
-| `5.dim` | finally speaking |
-| `5.door` | expression |
-| `5.desc` | Once you finally speak, all of it comes down at once, years of it, on whoever is standing there. |
-| `6.phrase` | Dams the river |
-| `6.dim` | letting things flow |
-| `6.door` | action |
-| `6.desc` | What could flow gets dammed. Money, plans, people, all held until the pressure shows. |
+| `3.face` | excess |
+| `3.echo_of` | 土_火.carry.excess |
+| `3.desc` | Baked hard by too much heat. Once your footing is chosen, argument works on you in centuries, not conversations, and people stop bringing the map. |
+| `4.phrase` | Drained by deadlines |
+| `4.dim` | output on demand |
+| `4.door` | expression |
+| `4.face` | echo |
+| `4.echo_of` | 土_金.function.definition_friction |
+| `4.desc` | More deliverables, more opinions, more polish than your quiet depth can supply. Producing is starting to hollow you. |
+| `5.phrase` | Manages everything |
+| `5.dim` | control |
+| `5.door` | action |
+| `5.face` | echo |
+| `5.echo_of` | 土_水.function.definition_friction |
+| `5.desc` | Accounts checked daily, opportunities tracked past usefulness, control spending the calm it was meant to protect. |
+| `6.phrase` | Quietly overwhelmed |
+| `6.dim` | capacity |
+| `6.door` | order |
+| `6.face` | echo |
+| `6.echo_of` | 土_木.function.definition_friction |
+| `6.desc` | Everyone rooted in you, nothing rooted for you. The load has not changed, but the legs under it have, and you still say yes to every weight. |
 
 ### The Field · 己
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Too agreeable |
-| `0.dim` | own preferences |
+| `0.phrase` | Takes the mud |
+| `0.dim` | what gets dropped |
 | `0.door` | body |
-| `0.desc` | The group picks the plan and you say it's fine. It is, mostly. Somewhere under all the years of fine sits a list of things you actually wanted that nobody has ever heard. |
-| `1.phrase` | Takes the mud |
-| `1.dim` | what gets dropped on you |
+| `0.face` | echo |
+| `0.echo_of` | 土_土.function.definition_friction |
+| `0.desc` | Heaviness accumulating. Everything anyone drops goes into you and nothing drains out, and the field that grew things is turning to mud. |
+| `1.phrase` | Too agreeable |
+| `1.dim` | your own wants |
 | `1.door` | body |
-| `1.desc` | Everything anyone drops goes into you and nothing drains out. The field that grew things is turning to mud. |
-| `2.phrase` | Can't say no |
-| `2.dim` | saying no |
-| `2.door` | order |
-| `2.desc` | The request lands and the yes is out before you've checked the calendar or the tank. Refusing feels like frost, so you never learned it. |
-| `3.phrase` | Smothers a little |
-| `3.dim` | hard lessons |
-| `3.door` | expression |
-| `3.desc` | Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed. |
-| `4.phrase` | Worn thin |
-| `4.dim` | personal reserves |
-| `4.door` | action |
-| `4.desc` | Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field. |
-| `5.phrase` | Burns the seedlings |
-| `5.dim` | too much heat |
-| `5.door` | mind |
-| `5.desc` | Too much heat and nothing grows. You are busy, warm, and producing nothing you wanted. |
-| `6.phrase` | Overheats on praise |
-| `6.dim` | being praised |
-| `6.door` | mind |
-| `6.desc` | Fed on praise until the ground bakes hard. The softness that made things grow is the first thing to go. |
+| `1.face` | excess |
+| `1.echo_of` | 土_土.carry.excess |
+| `1.desc` | So much ground given over to everyone else that nothing of your own can root. The group picks the plan and you say it is fine. It is always fine. |
+| `2.phrase` | Overheats on praise |
+| `2.dim` | praise |
+| `2.door` | mind |
+| `2.face` | echo |
+| `2.echo_of` | 土_火.function.definition_friction |
+| `2.desc` | Praise, sparks, novelty taken in all day while real understanding stays shallow. The warmth is spending you, and it feels like learning. |
+| `3.phrase` | Burns the seedlings |
+| `3.dim` | producing |
+| `3.door` | mind |
+| `3.face` | excess |
+| `3.echo_of` | 土_火.carry.excess |
+| `3.desc` | Baked hard by too much heat. Busy, warm, and producing nothing you wanted. |
+| `4.phrase` | Drained by demands |
+| `4.dim` | output on demand |
+| `4.door` | expression |
+| `4.face` | echo |
+| `4.echo_of` | 土_金.function.definition_friction |
+| `4.desc` | Everyone wants a harvest, and the field gives one every season without lying fallow. Producing on demand is starting to hollow the ground. |
+| `5.phrase` | Counts every grain |
+| `5.dim` | control |
+| `5.door` | action |
+| `5.face` | echo |
+| `5.echo_of` | 土_水.function.definition_friction |
+| `5.desc` | Accounts checked daily, favors tracked, every flow managed past usefulness. The control spends the calm it was meant to protect. |
+| `6.phrase` | Can't say no |
+| `6.dim` | refusing |
+| `6.door` | order |
+| `6.face` | echo |
+| `6.echo_of` | 土_木.function.definition_friction |
+| `6.desc` | Everyone rooted in you, nothing rooted for you. The request lands and the yes is out before you have checked the calendar or the tank. |
 
 ### The Blade · 庚
 
@@ -255,97 +339,139 @@
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Bruises easily |
-| `0.dim` | criticism |
-| `0.door` | order |
-| `0.desc` | The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep. |
-| `1.phrase` | Never stops preparing |
-| `1.dim` | preparation |
-| `1.door` | mind |
-| `1.desc` | One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work. |
-| `2.phrase` | Stays boxed up |
-| `2.dim` | being sheltered |
+| `0.phrase` | Polishes forever |
+| `0.dim` | deadlines |
+| `0.door` | body |
+| `0.face` | echo |
+| `0.echo_of` | 金_金.function.definition_friction |
+| `0.desc` | Discipline with no outlet turns on the work. The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive. |
+| `1.phrase` | Trusts one judge |
+| `1.dim` | taking advice |
+| `1.door` | body |
+| `1.face` | excess |
+| `1.echo_of` | 金_金.carry.excess |
+| `1.desc` | So much certainty it cuts everything the same way. The only opinion that counts on your work is yours, and it has never once been satisfied. |
+| `2.phrase` | Never stops preparing |
+| `2.dim` | preparation |
 | `2.door` | mind |
-| `2.desc` | Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box. |
-| `3.phrase` | Polishes forever |
-| `3.dim` | finishing |
-| `3.door` | body |
-| `3.desc` | The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive. |
+| `2.face` | echo |
+| `2.echo_of` | 金_土.function.definition_friction |
+| `2.desc` | One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work. |
+| `3.phrase` | Stays boxed up |
+| `3.dim` | being sheltered |
+| `3.door` | mind |
+| `3.face` | excess |
+| `3.echo_of` | 金_土.carry_yin.excess |
+| `3.desc` | Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box. |
 | `4.phrase` | Remarks cut deep |
 | `4.dim` | small remarks |
 | `4.door` | expression |
-| `4.desc` | The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not. |
-| `5.phrase` | Trusts one judge |
-| `5.dim` | taking advice |
-| `5.door` | body |
-| `5.desc` | The only opinion that counts on your work is yours, and it has never once been satisfied. |
-| `6.phrase` | Hoards raw stones |
-| `6.dim` | acquiring |
-| `6.door` | action |
-| `6.desc` | Every good piece deserves a setting, so you keep buying stones for settings you never make. |
+| `4.face` | echo |
+| `4.echo_of` | 金_水.function.definition_friction |
+| `4.desc` | Output with no banks. The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not. |
+| `5.phrase` | Hoards raw stones |
+| `5.dim` | acquiring |
+| `5.door` | action |
+| `5.face` | echo |
+| `5.echo_of` | 金_木.function.definition_friction |
+| `5.desc` | Every good piece deserves a setting, so you keep buying stones for settings you never make. Plenty of motion, nothing finished. |
+| `6.phrase` | Panics over flaws |
+| `6.dim` | criticism |
+| `6.door` | order |
+| `6.face` | echo |
+| `6.echo_of` | 金_火.function.definition_friction |
+| `6.desc` | Every rule runs hot and every small flaw gets treated like an emergency. The standard presses down on people first, then hardest on you. |
 
 ### The Ocean · 壬
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Starts at bottom |
-| `0.dim` | explaining yourself |
-| `0.door` | expression |
-| `0.desc` | You start where your thinking ended, ten fathoms down, and wonder why the table looks lost. |
+| `0.phrase` | Rest stops working |
+| `0.dim` | recovery |
+| `0.door` | body |
+| `0.face` | echo |
+| `0.echo_of` | 水_水.function.definition_friction |
+| `0.desc` | Stillness pooling into stagnation. Sleep that stretches without refreshing, energy waiting for a current that never comes. |
 | `1.phrase` | Hard to know |
 | `1.dim` | close bonds |
 | `1.door` | body |
-| `1.desc` | Even the people closest to you work from a fraction. Whole regions of you stay unmapped, not hidden exactly, just never offered. |
-| `2.phrase` | Spread too thin |
-| `2.dim` | focus |
-| `2.door` | action |
-| `2.desc` | Everything interests you and nothing contains you, so the current runs in six directions at once. Vast motion, and some seasons, no arrival. |
-| `3.phrase` | Sweeps people along |
-| `3.dim` | momentum |
-| `3.door` | body |
-| `3.desc` | The plan was already moving before anyone agreed to it. Your current is strong enough that consent can arrive after departure. |
-| `4.phrase` | Pulled every way |
-| `4.dim` | sources |
-| `4.door` | mind |
-| `4.desc` | Every source you take in pulls a different way. The water is deep and going nowhere. |
-| `5.phrase` | Muddied by advice |
-| `5.dim` | taking counsel |
-| `5.door` | mind |
-| `5.desc` | So much counsel has gone in that the water will not clear. You cannot see your own bottom anymore. |
+| `1.face` | excess |
+| `1.echo_of` | 水_水.carry.excess |
+| `1.desc` | So much depth that nothing surfaces. Even the people closest to you work from a fraction, and whole regions of you stay unmapped, never offered. |
+| `2.phrase` | Collects frameworks |
+| `2.dim` | sources |
+| `2.door` | mind |
+| `2.face` | echo |
+| `2.echo_of` | 水_金.function.definition_friction |
+| `2.desc` | Systems perfected, methods collected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking. |
+| `3.phrase` | Muddied by advice |
+| `3.dim` | taking counsel |
+| `3.door` | mind |
+| `3.face` | excess |
+| `3.echo_of` | 水_金.carry.excess |
+| `3.desc` | So much counsel has gone in that the water will not clear. You cannot see your own bottom anymore. |
+| `4.phrase` | Pours into everyone |
+| `4.dim` | other people's gardens |
+| `4.door` | expression |
+| `4.face` | echo |
+| `4.echo_of` | 水_木.function.definition_friction |
+| `4.desc` | Every person developed, every idea watered, your depth spent raising gardens you do not live in. |
+| `5.phrase` | Spread too thin |
+| `5.dim` | focus |
+| `5.door` | action |
+| `5.face` | echo |
+| `5.echo_of` | 水_火.function.definition_friction |
+| `5.desc` | Hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you. |
 | `6.phrase` | Held behind walls |
 | `6.dim` | others' rules |
 | `6.door` | order |
-| `6.desc` | Dammed by other people’s rules, the sea goes quiet. Quiet is not the same as calm. |
+| `6.face` | echo |
+| `6.echo_of` | 水_土.function.definition_friction |
+| `6.desc` | A calendar with no slack, roles held from duty long after they stopped fitting. Dammed by other people's rules, the sea goes quiet, and quiet is not the same as calm. |
 
 ### The Rain · 癸
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Absorbs everything |
-| `0.dim` | others' emotions |
-| `0.door` | mind |
-| `0.desc` | You walk in fine and leave carrying the argument two strangers had near you. Other people's weather soaks straight through your coat. |
-| `1.phrase` | Avoids the fight |
-| `1.dim` | hard conversations |
-| `1.door` | order |
-| `1.desc` | You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years. |
-| `2.phrase` | Marinates in it |
+| `0.phrase` | Sleeps without rest |
+| `0.dim` | recovery |
+| `0.door` | body |
+| `0.face` | echo |
+| `0.echo_of` | 水_水.function.definition_friction |
+| `0.desc` | Stillness pooling into stagnation. Sleep that stretches without refreshing, feeling waiting for a current that never comes. |
+| `1.phrase` | Loses the border |
+| `1.dim` | whose feeling |
+| `1.door` | body |
+| `1.face` | excess |
+| `1.echo_of` | 水_水.carry.excess |
+| `1.desc` | So much felt that nothing surfaces to be checked. Their weather becomes yours, and by evening you cannot say whose sadness you are carrying. |
+| `2.phrase` | Replays every word |
 | `2.dim` | moving on |
 | `2.door` | mind |
-| `2.desc` | The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep. |
-| `3.phrase` | Feelings as facts |
-| `3.dim` | evidence |
-| `3.door` | body |
-| `3.desc` | When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one. |
-| `4.phrase` | Loses the border |
-| `4.dim` | whose feeling |
-| `4.door` | body |
-| `4.desc` | Their weather becomes yours. By evening you cannot say whose sadness you are carrying. |
-| `5.phrase` | Mentors everyone |
-| `5.dim` | other people's growth |
-| `5.door` | expression |
-| `5.desc` | Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours. |
-| `6.phrase` | Boils off early |
-| `6.dim` | chasing warmth |
-| `6.door` | action |
-| `6.desc` | Every warm thing pulls you toward it, and you rise to meet it before anything lands. |
+| `2.face` | echo |
+| `2.echo_of` | 水_金.function.definition_friction |
+| `2.desc` | The conversation ended Tuesday and you are still in it Friday, sorting the tone and the pause into a system that never gets used. |
+| `3.phrase` | Absorbs everything |
+| `3.dim` | others' emotions |
+| `3.door` | mind |
+| `3.face` | excess |
+| `3.echo_of` | 水_金.carry.excess |
+| `3.desc` | Too much taken in and the water will not clear. You walk in fine and leave carrying the argument two strangers had near you. |
+| `4.phrase` | Mentors everyone |
+| `4.dim` | other people's growth |
+| `4.door` | expression |
+| `4.face` | echo |
+| `4.echo_of` | 水_木.function.definition_friction |
+| `4.desc` | Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours. |
+| `5.phrase` | Boils off early |
+| `5.dim` | chasing warmth |
+| `5.door` | action |
+| `5.face` | echo |
+| `5.echo_of` | 水_火.function.definition_friction |
+| `5.desc` | Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns. |
+| `6.phrase` | Trapped by routine |
+| `6.dim` | hard conversations |
+| `6.door` | order |
+| `6.face` | echo |
+| `6.echo_of` | 水_土.function.definition_friction |
+| `6.desc` | A calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you run on. |

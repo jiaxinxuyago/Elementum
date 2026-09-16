@@ -30,90 +30,118 @@
     "dm_overview": "The Field is Yin Earth, the ground that lets itself be opened. It keeps late summer, when the year's work ripens and the soil shows what it has been quietly doing all along. It is the tilled dark earth of the family plot, taking seed, rain, even ash, and answering with harvest. All things return to it, and it turns none of them away.",
     "gifts": [
       {
-        "phrase": "Anticipates needs",
-        "dim": "unspoken needs",
-        "door": "mind",
-        "desc": "The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did."
-      },
-      {
-        "phrase": "Grows people",
-        "dim": "others' growth",
-        "door": "expression",
-        "desc": "People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly."
-      },
-      {
-        "phrase": "Keeps every promise",
-        "dim": "promises",
-        "door": "order",
-        "desc": "Your care doesn't have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that."
-      },
-      {
         "phrase": "Restful company",
-        "dim": "comfort",
+        "dim": "presence",
         "door": "body",
-        "desc": "Nobody performs around you. Friends unclench, say the true version, and stay an hour longer than they planned. Your presence works like fallow ground."
+        "face": "echo",
+        "echo_of": "土_土.function.definition_catalyst",
+        "desc": "Nobody performs around you. The physical calm under everything lets friends unclench, say the true version, and stay an hour longer than they planned."
       },
       {
         "phrase": "Quietly essential",
         "dim": "being noticed",
         "door": "body",
-        "desc": "Nothing about you announces itself. But when you step back for a while, everything wilts a little, and everyone finally notices who was watering."
+        "face": "wide",
+        "echo_of": "土_土.function.definition_catalyst",
+        "desc": "Plenty of ground and none of it announces itself. When you step back for a while, everything wilts a little, and everyone finally notices who was watering."
+      },
+      {
+        "phrase": "Remembers who helped",
+        "dim": "how you learn",
+        "door": "mind",
+        "face": "echo",
+        "echo_of": "土_火.function.definition_catalyst",
+        "desc": "Affection, praise and festivity all count as study for you. You learn best from people who were warm while they taught, and you never forget them."
       },
       {
         "phrase": "Reads the season",
         "dim": "timing",
         "door": "mind",
-        "desc": "You know when to plant and when to leave the ground alone. Timing is the thing you never explain."
+        "face": "wide",
+        "echo_of": "土_火.carry.wide",
+        "desc": "With this much warmth in the ground, you know when to plant and when to leave it alone. Timing is the thing you never explain."
+      },
+      {
+        "phrase": "Few words, exact",
+        "dim": "speaking up",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "土_金.function.definition_catalyst",
+        "desc": "You speak rarely and it lands. The exact word, the finished piece, the standard people quote after you leave."
       },
       {
         "phrase": "Feeds the table",
-        "dim": "providing",
+        "dim": "provision",
         "door": "action",
-        "desc": "There is always enough. Nobody asks how. You made sure before they were hungry."
+        "face": "echo",
+        "echo_of": "土_水.function.definition_catalyst",
+        "desc": "There is always enough. Money, chances, people in motion pass through your steady hands, and nobody asks how it was there before they were hungry."
+      },
+      {
+        "phrase": "Keeps every promise",
+        "dim": "obligations",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "土_木.function.definition_catalyst",
+        "desc": "Your care does not have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that."
       }
     ],
     "shadows": [
       {
-        "phrase": "Too agreeable",
-        "dim": "own preferences",
-        "door": "body",
-        "desc": "The group picks the plan and you say it's fine. It is, mostly. Somewhere under all the years of fine sits a list of things you actually wanted that nobody has ever heard."
-      },
-      {
         "phrase": "Takes the mud",
-        "dim": "what gets dropped on you",
+        "dim": "what gets dropped",
         "door": "body",
-        "desc": "Everything anyone drops goes into you and nothing drains out. The field that grew things is turning to mud."
+        "face": "echo",
+        "echo_of": "土_土.function.definition_friction",
+        "desc": "Heaviness accumulating. Everything anyone drops goes into you and nothing drains out, and the field that grew things is turning to mud."
       },
       {
-        "phrase": "Can't say no",
-        "dim": "saying no",
-        "door": "order",
-        "desc": "The request lands and the yes is out before you've checked the calendar or the tank. Refusing feels like frost, so you never learned it."
-      },
-      {
-        "phrase": "Smothers a little",
-        "dim": "hard lessons",
-        "door": "expression",
-        "desc": "Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed."
-      },
-      {
-        "phrase": "Worn thin",
-        "dim": "personal reserves",
-        "door": "action",
-        "desc": "Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field."
-      },
-      {
-        "phrase": "Burns the seedlings",
-        "dim": "too much heat",
-        "door": "mind",
-        "desc": "Too much heat and nothing grows. You are busy, warm, and producing nothing you wanted."
+        "phrase": "Too agreeable",
+        "dim": "your own wants",
+        "door": "body",
+        "face": "excess",
+        "echo_of": "土_土.carry.excess",
+        "desc": "So much ground given over to everyone else that nothing of your own can root. The group picks the plan and you say it is fine. It is always fine."
       },
       {
         "phrase": "Overheats on praise",
-        "dim": "being praised",
+        "dim": "praise",
         "door": "mind",
-        "desc": "Fed on praise until the ground bakes hard. The softness that made things grow is the first thing to go."
+        "face": "echo",
+        "echo_of": "土_火.function.definition_friction",
+        "desc": "Praise, sparks, novelty taken in all day while real understanding stays shallow. The warmth is spending you, and it feels like learning."
+      },
+      {
+        "phrase": "Burns the seedlings",
+        "dim": "producing",
+        "door": "mind",
+        "face": "excess",
+        "echo_of": "土_火.carry.excess",
+        "desc": "Baked hard by too much heat. Busy, warm, and producing nothing you wanted."
+      },
+      {
+        "phrase": "Drained by demands",
+        "dim": "output on demand",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "土_金.function.definition_friction",
+        "desc": "Everyone wants a harvest, and the field gives one every season without lying fallow. Producing on demand is starting to hollow the ground."
+      },
+      {
+        "phrase": "Counts every grain",
+        "dim": "control",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "土_水.function.definition_friction",
+        "desc": "Accounts checked daily, favors tracked, every flow managed past usefulness. The control spends the calm it was meant to protect."
+      },
+      {
+        "phrase": "Can't say no",
+        "dim": "refusing",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "土_木.function.definition_friction",
+        "desc": "Everyone rooted in you, nothing rooted for you. The request lands and the yes is out before you have checked the calendar or the tank."
       }
     ],
     "__ore": {
@@ -338,7 +366,37 @@
           }
         ]
       },
-      "retired_thin_self_items": []
+      "retired_thin_self_items": [],
+      "retired_derivation_law_2026-09-16": [
+        {
+          "phrase": "Anticipates needs",
+          "dim": "unspoken needs",
+          "door": "mind",
+          "desc": "The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Grows people",
+          "dim": "others' growth",
+          "door": "expression",
+          "desc": "People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Smothers a little",
+          "dim": "hard lessons",
+          "door": "expression",
+          "desc": "Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Worn thin",
+          "dim": "personal reserves",
+          "door": "action",
+          "desc": "Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        }
+      ]
     },
     "door_note": {
       "body": "Earth",
@@ -347,5 +405,6 @@
       "action": "Water",
       "order": "Wood"
     }
-  }
+  },
+  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume."
 }

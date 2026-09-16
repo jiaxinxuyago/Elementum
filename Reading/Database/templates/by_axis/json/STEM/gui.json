@@ -30,90 +30,118 @@
     "dm_overview": "The Rain is Yin Water, the last sign in the count, the water that closes the circle so it can begin again. It is rain, dew, and mist, the moisture that arrives everywhere and forces nothing. At winter's end it falls softly on planted fields through the night. By morning it is gone, and everything it touched has quietly agreed to grow.",
     "gifts": [
       {
-        "phrase": "Feels the undercurrent",
-        "dim": "unspoken feelings",
-        "door": "mind",
-        "desc": "You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence."
-      },
-      {
-        "phrase": "Spots the opening",
-        "dim": "timing",
-        "door": "action",
-        "desc": "You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived."
+        "phrase": "Needs the quiet",
+        "dim": "recovery",
+        "door": "body",
+        "face": "echo",
+        "echo_of": "水_水.function.definition_catalyst",
+        "desc": "Your reserve refills in stillness and drains through noise and company long before you feel tired. One quiet night and the dew is back."
       },
       {
         "phrase": "Gentle confidant",
         "dim": "secrets",
         "door": "body",
-        "desc": "People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it."
+        "face": "wide",
+        "echo_of": "水_水.function.definition_catalyst",
+        "desc": "Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and you have never broken one."
+      },
+      {
+        "phrase": "Better with structure",
+        "dim": "good teachers",
+        "door": "mind",
+        "face": "echo",
+        "echo_of": "水_金.function.definition_catalyst",
+        "desc": "Exact teachers, clean methods, rigorous tools turn what you feel into something usable. You think better with structure than with more input."
+      },
+      {
+        "phrase": "Feels the undercurrent",
+        "dim": "unspoken feelings",
+        "door": "mind",
+        "face": "wide",
+        "echo_of": "水_金.carry.wide",
+        "desc": "Fed by exact sources, the feel arrives early. You knew the couple was fighting before they did."
       },
       {
         "phrase": "Changes minds softly",
         "dim": "influence on others",
         "door": "expression",
-        "desc": "Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did."
+        "face": "echo",
+        "echo_of": "水_木.function.definition_catalyst",
+        "desc": "Nobody remembers losing the argument to you. Positions shift a degree a week until, months later, everyone agrees and thinks they always did."
       },
       {
-        "phrase": "Settles the dust",
-        "dim": "presence",
-        "door": "body",
-        "desc": "The air is calmer after you have been in it, and nobody can say what you did."
+        "phrase": "Spots the opening",
+        "dim": "timing",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "水_火.function.definition_catalyst",
+        "desc": "You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived."
       },
       {
-        "phrase": "Soaks it up",
-        "dim": "learning",
-        "door": "mind",
-        "desc": "Whatever falls near you goes in and stays. Years later it comes back as knowing."
-      },
-      {
-        "phrase": "Wears down stone",
-        "dim": "under pressure",
+        "phrase": "Blooms on routine",
+        "dim": "walls you chose",
         "door": "order",
-        "desc": "Pressure does not stop you. Given enough seasons, the rain shapes the rock that tried to stop it."
+        "face": "echo",
+        "echo_of": "水_土.function.definition_catalyst",
+        "desc": "Fixed roles, steady schedules, commitments that do not move with your moods. Inside walls you chose, the rain becomes a river."
       }
     ],
     "shadows": [
       {
-        "phrase": "Absorbs everything",
-        "dim": "others' emotions",
-        "door": "mind",
-        "desc": "You walk in fine and leave carrying the argument two strangers had near you. Other people's weather soaks straight through your coat."
-      },
-      {
-        "phrase": "Avoids the fight",
-        "dim": "hard conversations",
-        "door": "order",
-        "desc": "You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years."
-      },
-      {
-        "phrase": "Marinates in it",
-        "dim": "moving on",
-        "door": "mind",
-        "desc": "The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep."
-      },
-      {
-        "phrase": "Feelings as facts",
-        "dim": "evidence",
+        "phrase": "Sleeps without rest",
+        "dim": "recovery",
         "door": "body",
-        "desc": "When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one."
+        "face": "echo",
+        "echo_of": "水_水.function.definition_friction",
+        "desc": "Stillness pooling into stagnation. Sleep that stretches without refreshing, feeling waiting for a current that never comes."
       },
       {
         "phrase": "Loses the border",
         "dim": "whose feeling",
         "door": "body",
-        "desc": "Their weather becomes yours. By evening you cannot say whose sadness you are carrying."
+        "face": "excess",
+        "echo_of": "水_水.carry.excess",
+        "desc": "So much felt that nothing surfaces to be checked. Their weather becomes yours, and by evening you cannot say whose sadness you are carrying."
+      },
+      {
+        "phrase": "Replays every word",
+        "dim": "moving on",
+        "door": "mind",
+        "face": "echo",
+        "echo_of": "水_金.function.definition_friction",
+        "desc": "The conversation ended Tuesday and you are still in it Friday, sorting the tone and the pause into a system that never gets used."
+      },
+      {
+        "phrase": "Absorbs everything",
+        "dim": "others' emotions",
+        "door": "mind",
+        "face": "excess",
+        "echo_of": "水_金.carry.excess",
+        "desc": "Too much taken in and the water will not clear. You walk in fine and leave carrying the argument two strangers had near you."
       },
       {
         "phrase": "Mentors everyone",
         "dim": "other people's growth",
         "door": "expression",
+        "face": "echo",
+        "echo_of": "水_木.function.definition_friction",
         "desc": "Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours."
       },
       {
         "phrase": "Boils off early",
         "dim": "chasing warmth",
         "door": "action",
-        "desc": "Every warm thing pulls you toward it, and you rise to meet it before anything lands."
+        "face": "echo",
+        "echo_of": "水_火.function.definition_friction",
+        "desc": "Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns."
+      },
+      {
+        "phrase": "Trapped by routine",
+        "dim": "hard conversations",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "水_土.function.definition_friction",
+        "desc": "A calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you run on."
       }
     ],
     "__ore": {
@@ -372,6 +400,50 @@
           "desc": "Not generic comfort. The specific thing this specific person needed, delivered in the register they could receive. It's why your comfort actually lands.",
           "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
         }
+      ],
+      "retired_derivation_law_2026-09-16": [
+        {
+          "phrase": "Settles the dust",
+          "dim": "presence",
+          "door": "body",
+          "desc": "The air is calmer after you have been in it, and nobody can say what you did.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Soaks it up",
+          "dim": "learning",
+          "door": "mind",
+          "desc": "Whatever falls near you goes in and stays. Years later it comes back as knowing.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Wears down stone",
+          "dim": "under pressure",
+          "door": "order",
+          "desc": "Pressure does not stop you. Given enough seasons, the rain shapes the rock that tried to stop it.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Avoids the fight",
+          "dim": "hard conversations",
+          "door": "order",
+          "desc": "You go around hard conversations the way water goes around rock. The route is graceful. The rock is still there, and some of them have been there for years.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Marinates in it",
+          "dim": "moving on",
+          "door": "mind",
+          "desc": "The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Feelings as facts",
+          "dim": "evidence",
+          "door": "body",
+          "desc": "When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        }
       ]
     },
     "door_note": {
@@ -381,5 +453,6 @@
       "action": "Fire",
       "order": "Earth"
     }
-  }
+  },
+  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume."
 }

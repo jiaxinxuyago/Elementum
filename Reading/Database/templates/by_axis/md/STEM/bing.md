@@ -26,62 +26,90 @@
 | `dm_mechanism` | Yang Fire that gives without dimming — radiance steadied by what it warms. |
 | `yourNature_desc` | You brighten the day of whoever's near you, and none of it is on purpose. The light just runs, morning to night, on you as fuel. People plan around your warmth the way they plan around daylight, and asking what it costs occurs to no one. You included. |
 | `dm_overview` | The Sun is Yang Fire, the fire that no one lit and no one owns. It keeps high summer and full noon, opening every market and warming every back without asking a single name. The sky itself is its lantern. Everything that grows turns toward it, and on the day it slips behind clouds, the whole village looks up and wonders. |
-| `gifts[0].phrase` | Starts traditions |
-| `gifts[0].dim` | what lasts |
-| `gifts[0].door` | expression |
-| `gifts[0].desc` | The dinner you hosted once is now the dinner everyone hosts. What you warm tends to set into something people keep doing after you have moved on. |
-| `gifts[1].phrase` | No hidden agenda |
-| `gifts[1].dim` | hard days |
+| `gifts[0].phrase` | Lifts the morning |
+| `gifts[0].dim` | energy |
+| `gifts[0].door` | body |
+| `gifts[0].face` | echo |
+| `gifts[0].echo_of` | 火_火.function.definition_catalyst |
+| `gifts[0].desc` | Your energy is the lift that makes mornings possible, for you and for the people near you. It runs in bursts, and the bursts are bright. |
+| `gifts[1].phrase` | Shines on everyone |
+| `gifts[1].dim` | reach |
 | `gifts[1].door` | body |
-| `gifts[1].desc` | Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out. |
-| `gifts[2].phrase` | Takes hard jobs |
-| `gifts[2].dim` | the work you pick |
-| `gifts[2].door` | action |
-| `gifts[2].desc` | Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on. |
-| `gifts[3].phrase` | Keeps it close |
-| `gifts[3].dim` | close bonds |
-| `gifts[3].door` | body |
-| `gifts[3].desc` | The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully. |
-| `gifts[4].phrase` | Feeds on daylight |
-| `gifts[4].dim` | refueling |
-| `gifts[4].door` | mind |
-| `gifts[4].desc` | You feed on what is around you. A good morning, a good friend, a good idea, and you are lit again. |
-| `gifts[5].phrase` | Catches the mood |
-| `gifts[5].dim` | reading a mood |
-| `gifts[5].door` | mind |
-| `gifts[5].desc` | You know the weather of a place the moment you walk in, and you adjust your light to it. |
-| `gifts[6].phrase` | Bright under pressure |
-| `gifts[6].dim` | bad days |
+| `gifts[1].face` | wide |
+| `gifts[1].echo_of` | 火_火.function.definition_catalyst |
+| `gifts[1].desc` | Plenty of light and no meter on it. Everyone in the building gets some, whether they asked or not. |
+| `gifts[2].phrase` | Learns from everyone |
+| `gifts[2].dim` | refueling |
+| `gifts[2].door` | mind |
+| `gifts[2].face` | echo |
+| `gifts[2].echo_of` | 火_木.function.definition_catalyst |
+| `gifts[2].desc` | Skills stacked, books finished, friends kept for years. What you gather quietly is what you later spend as brilliance. |
+| `gifts[3].phrase` | Full of ideas |
+| `gifts[3].dim` | what catches |
+| `gifts[3].door` | mind |
+| `gifts[3].face` | wide |
+| `gifts[3].echo_of` | 火_木.carry.wide |
+| `gifts[3].desc` | With this much fuel around you, the light never wants for something to burn. Ideas, people, plans, all of it catches. |
+| `gifts[4].phrase` | Starts traditions |
+| `gifts[4].dim` | what lasts |
+| `gifts[4].door` | expression |
+| `gifts[4].face` | echo |
+| `gifts[4].echo_of` | 火_土.function.definition_catalyst |
+| `gifts[4].desc` | The dinner you hosted once is now the dinner everyone hosts. What you warm tends to set into something people keep doing after you have moved on. |
+| `gifts[5].phrase` | Takes hard jobs |
+| `gifts[5].dim` | the work you pick |
+| `gifts[5].door` | action |
+| `gifts[5].face` | echo |
+| `gifts[5].echo_of` | 火_金.function.definition_catalyst |
+| `gifts[5].desc` | Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on. |
+| `gifts[6].phrase` | Sleeps on it |
+| `gifts[6].dim` | before the leap |
 | `gifts[6].door` | order |
-| `gifts[6].desc` | The harder the day, the steadier the shine. People stand nearer to you when things go wrong. |
-| `shadows[0].phrase` | Runs on empty |
+| `gifts[6].face` | echo |
+| `gifts[6].echo_of` | 火_水.function.definition_catalyst |
+| `gifts[6].desc` | Your best decisions all survived a night of doubt. One calm person, one cold look at the budget, and the leap lands. |
+| `shadows[0].phrase` | Can't switch off |
 | `shadows[0].dim` | personal reserves |
 | `shadows[0].door` | body |
-| `shadows[0].desc` | You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks. |
-| `shadows[1].phrase` | Reopens settled things |
-| `shadows[1].dim` | settled things |
-| `shadows[1].door` | action |
-| `shadows[1].desc` | Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled. |
-| `shadows[2].phrase` | Fills every silence |
-| `shadows[2].dim` | quiet moments |
-| `shadows[2].door` | expression |
-| `shadows[2].desc` | Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade. |
-| `shadows[3].phrase` | Smiles on schedule |
-| `shadows[3].dim` | authenticity |
-| `shadows[3].door` | order |
-| `shadows[3].desc` | The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed. |
-| `shadows[4].phrase` | Last log burning |
-| `shadows[4].dim` | the last reserve |
-| `shadows[4].door` | body |
-| `shadows[4].desc` | The reserve is gone and the light is still on. You will find out tomorrow what that cost. |
-| `shadows[5].phrase` | Chokes on fuel |
-| `shadows[5].dim` | taking on more |
-| `shadows[5].door` | mind |
-| `shadows[5].desc` | Another book, another course, another person to feed on. The fire is choking on the pile. |
-| `shadows[6].phrase` | Buried in ideas |
-| `shadows[6].dim` | too many plans |
-| `shadows[6].door` | mind |
-| `shadows[6].desc` | So much to burn that nothing catches. The best plan is under six others. |
+| `shadows[0].face` | echo |
+| `shadows[0].echo_of` | 火_火.function.definition_friction |
+| `shadows[0].desc` | More heat than your days can spend. Sleep will not come, intensity leaks into every conversation, and rest feels like a punishment. |
+| `shadows[1].phrase` | Outshines everyone |
+| `shadows[1].dim` | the whole sky |
+| `shadows[1].door` | body |
+| `shadows[1].face` | excess |
+| `shadows[1].echo_of` | 火_火.carry.excess |
+| `shadows[1].desc` | So much light that nothing else in the sky is visible, including the people you were warming. |
+| `shadows[2].phrase` | Chokes on fuel |
+| `shadows[2].dim` | taking on more |
+| `shadows[2].door` | mind |
+| `shadows[2].face` | echo |
+| `shadows[2].echo_of` | 火_木.function.definition_friction |
+| `shadows[2].desc` | Another book, another course, another person to learn from, and readiness keeps moving its own finish line. The fire is choking on the pile. |
+| `shadows[3].phrase` | Buried in ideas |
+| `shadows[3].dim` | too many plans |
+| `shadows[3].door` | mind |
+| `shadows[3].face` | excess |
+| `shadows[3].echo_of` | 火_木.carry.excess |
+| `shadows[3].desc` | Fuel stacked so high the flame never gets lit. So much to burn that nothing catches, and the best plan is under six others. |
+| `shadows[4].phrase` | Formalizes everything |
+| `shadows[4].dim` | quiet moments |
+| `shadows[4].door` | expression |
+| `shadows[4].face` | echo |
+| `shadows[4].echo_of` | 火_土.function.definition_friction |
+| `shadows[4].desc` | Every idea becomes a project and every project becomes permanent. The output hardens while the light behind it thins. |
+| `shadows[5].phrase` | Reopens settled things |
+| `shadows[5].dim` | settled things |
+| `shadows[5].door` | action |
+| `shadows[5].face` | echo |
+| `shadows[5].echo_of` | 火_金.function.definition_friction |
+| `shadows[5].desc` | Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled. |
+| `shadows[6].phrase` | Overthinks the leap |
+| `shadows[6].dim` | second-guessing |
+| `shadows[6].door` | order |
+| `shadows[6].face` | echo |
+| `shadows[6].echo_of` | 火_水.function.definition_friction |
+| `shadows[6].desc` | Every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would. |
 | `door_note.body` | Fire |
 | `door_note.mind` | Wood |
 | `door_note.expression` | Earth |
@@ -211,3 +239,48 @@
 | `retired_door_audit_2026-09-16[4].door` | action |
 | `retired_door_audit_2026-09-16[4].desc` | You give the warmth away and never send the bill. Years in, nobody knows there was one, and you are the last to check the balance. |
 | `retired_door_audit_2026-09-16[4].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |
+| `retired_derivation_law_2026-09-16[0].phrase` | No hidden agenda |
+| `retired_derivation_law_2026-09-16[0].dim` | hard days |
+| `retired_derivation_law_2026-09-16[0].door` | body |
+| `retired_derivation_law_2026-09-16[0].desc` | Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out. |
+| `retired_derivation_law_2026-09-16[0].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[1].phrase` | Keeps it close |
+| `retired_derivation_law_2026-09-16[1].dim` | close bonds |
+| `retired_derivation_law_2026-09-16[1].door` | body |
+| `retired_derivation_law_2026-09-16[1].desc` | The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully. |
+| `retired_derivation_law_2026-09-16[1].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[2].phrase` | Feeds on daylight |
+| `retired_derivation_law_2026-09-16[2].dim` | refueling |
+| `retired_derivation_law_2026-09-16[2].door` | mind |
+| `retired_derivation_law_2026-09-16[2].desc` | You feed on what is around you. A good morning, a good friend, a good idea, and you are lit again. |
+| `retired_derivation_law_2026-09-16[2].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[3].phrase` | Catches the mood |
+| `retired_derivation_law_2026-09-16[3].dim` | reading a mood |
+| `retired_derivation_law_2026-09-16[3].door` | mind |
+| `retired_derivation_law_2026-09-16[3].desc` | You know the weather of a place the moment you walk in, and you adjust your light to it. |
+| `retired_derivation_law_2026-09-16[3].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[4].phrase` | Bright under pressure |
+| `retired_derivation_law_2026-09-16[4].dim` | bad days |
+| `retired_derivation_law_2026-09-16[4].door` | order |
+| `retired_derivation_law_2026-09-16[4].desc` | The harder the day, the steadier the shine. People stand nearer to you when things go wrong. |
+| `retired_derivation_law_2026-09-16[4].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[5].phrase` | Runs on empty |
+| `retired_derivation_law_2026-09-16[5].dim` | personal reserves |
+| `retired_derivation_law_2026-09-16[5].door` | body |
+| `retired_derivation_law_2026-09-16[5].desc` | You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks. |
+| `retired_derivation_law_2026-09-16[5].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[6].phrase` | Fills every silence |
+| `retired_derivation_law_2026-09-16[6].dim` | quiet moments |
+| `retired_derivation_law_2026-09-16[6].door` | expression |
+| `retired_derivation_law_2026-09-16[6].desc` | Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade. |
+| `retired_derivation_law_2026-09-16[6].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[7].phrase` | Smiles on schedule |
+| `retired_derivation_law_2026-09-16[7].dim` | authenticity |
+| `retired_derivation_law_2026-09-16[7].door` | order |
+| `retired_derivation_law_2026-09-16[7].desc` | The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed. |
+| `retired_derivation_law_2026-09-16[7].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[8].phrase` | Last log burning |
+| `retired_derivation_law_2026-09-16[8].dim` | the last reserve |
+| `retired_derivation_law_2026-09-16[8].door` | body |
+| `retired_derivation_law_2026-09-16[8].desc` | The reserve is gone and the light is still on. You will find out tomorrow what that cost. |
+| `retired_derivation_law_2026-09-16[8].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |

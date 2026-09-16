@@ -30,90 +30,118 @@
     "dm_overview": "The Vine is Yin Wood, the green that came second and learned from it. It is the grass and the climbing plant, life that cannot force a door and so finds every window. Late spring is its season, when growth stops charging and starts weaving. On an old stone wall it looks delicate all day, and by year's end the stones have quietly moved.",
     "gifts": [
       {
-        "phrase": "Nobody's fool",
-        "dim": "reading people",
-        "door": "mind",
-        "desc": "You clock the difference between what's said and what's meant almost instantly. People stopped managing you long ago. It never worked."
-      },
-      {
-        "phrase": "Finds another way",
-        "dim": "obstacles",
-        "door": "action",
-        "desc": "Where others push the locked door harder, you're already around the back. You arrive where you meant to, by a path nobody predicted."
-      },
-      {
-        "phrase": "Wins people over",
-        "dim": "trust",
-        "door": "expression",
-        "desc": "Not loudly, and not fast. But give it a season and the skeptics are asking your opinion first. Trust built your way tends to hold."
-      },
-      {
-        "phrase": "Attentive friend",
-        "dim": "close bonds",
-        "door": "body",
-        "desc": "You track what the people around you need without being told. The birthday, the hard week, the thing they mentioned once in passing. You caught it."
-      },
-      {
-        "phrase": "Quiet survivor",
-        "dim": "hard seasons",
-        "door": "order",
-        "desc": "The storms that snapped stronger-looking people somehow didn't end you. You bent, waited, and grew back. It's a longer game than anyone realizes."
-      },
-      {
         "phrase": "Regrows from little",
         "dim": "setbacks",
         "door": "body",
-        "desc": "Cut back to nothing in March, and by June there is a green line up the wall again."
+        "face": "echo",
+        "echo_of": "木_木.function.definition_catalyst",
+        "desc": "Cut back to nothing in March, and by June there is a green line up the wall again. The will to start is your reserve, and it refills."
+      },
+      {
+        "phrase": "Grows anywhere",
+        "dim": "conditions",
+        "door": "body",
+        "face": "wide",
+        "echo_of": "木_木.function.definition_catalyst",
+        "desc": "Give you a wall, any wall, and by summer there is green on it. Plenty of growing force, and it never waits for ideal conditions."
       },
       {
         "phrase": "Maps the wall",
         "dim": "second attempts",
         "door": "mind",
-        "desc": "Every wall you have climbed is a map you keep. The second time is never the long way."
+        "face": "echo",
+        "echo_of": "木_水.function.definition_catalyst",
+        "desc": "Every wall you have climbed is a map you keep. It goes in quietly, over rest and long conversations, and the second time is never the long way."
+      },
+      {
+        "phrase": "Nobody's fool",
+        "dim": "reading people",
+        "door": "mind",
+        "face": "wide",
+        "echo_of": "木_水.carry.wide",
+        "desc": "Years of quiet taking-in, and now you clock the difference between what is said and what is meant almost instantly. People stopped managing you long ago."
+      },
+      {
+        "phrase": "Wins people over",
+        "dim": "trust",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "木_火.function.definition_catalyst",
+        "desc": "Not loudly, and not fast. But put your name on the work and give it a season, and the skeptics are asking your opinion first."
+      },
+      {
+        "phrase": "Settles in",
+        "dim": "holding on",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "木_土.function.definition_catalyst",
+        "desc": "Where you arrive, you stay. The job, the flat, the friendship you climbed toward becomes something held, and it holds you back."
+      },
+      {
+        "phrase": "Better for pruning",
+        "dim": "under review",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "木_金.function.definition_catalyst",
+        "desc": "Cut back by the right hands, you come back stronger. An editor, a coach, a rule you chose, and the vine climbs straighter."
       }
     ],
     "shadows": [
       {
+        "phrase": "Tangled in others",
+        "dim": "pulling free",
+        "door": "body",
+        "face": "echo",
+        "echo_of": "木_木.function.definition_friction",
+        "desc": "More growing force than your life has outlets for, so it wraps around people. Pulling free now would take them down too."
+      },
+      {
         "phrase": "Grows over others",
         "dim": "the shared wall",
         "door": "body",
-        "desc": "Given a shared wall, you take the sunny side without noticing. Later you wonder why the other vine went quiet."
-      },
-      {
-        "phrase": "Announces too early",
-        "dim": "announcing early",
-        "door": "expression",
-        "desc": "You tell people where you will be by summer while the wall is still bare. The saying comes easily. Then the summer has to keep the promise."
-      },
-      {
-        "phrase": "Bends too far",
-        "dim": "boundaries",
-        "door": "order",
-        "desc": "You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you're holding stops being yours."
-      },
-      {
-        "phrase": "Suspects an angle",
-        "dim": "face value",
-        "door": "mind",
-        "desc": "You can't quite take kindness at face value. Somewhere in you a quiet analyst asks what this person is really after. Sometimes the answer was nothing, and the wondering showed."
+        "face": "excess",
+        "echo_of": "木_木.carry.excess",
+        "desc": "Given a shared wall, you take the sunny side without noticing. Growth so dense no other light gets in, and later you wonder why the other vine went quiet."
       },
       {
         "phrase": "Loses the thread",
         "dim": "direction",
         "door": "mind",
-        "desc": "With no wall to climb, the winding can forget where it was going. You're flexible about the route, and lately, quietly, about the destination too."
+        "face": "echo",
+        "echo_of": "木_水.function.definition_friction",
+        "desc": "One more opinion, one more book, and the winding forgets where it was going. Reflection has turned into stalling."
       },
       {
-        "phrase": "Tangled in others",
-        "dim": "pulling free",
-        "door": "body",
-        "desc": "So much of you is wrapped around other people that pulling free would take them down too."
+        "phrase": "Drifts with advice",
+        "dim": "face value",
+        "door": "mind",
+        "face": "excess",
+        "echo_of": "木_水.carry.excess",
+        "desc": "So much taken in that the roots lift off the ground. Every opinion moves you a little, and lately the destination moves too."
+      },
+      {
+        "phrase": "Announces too early",
+        "dim": "the bare wall",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "木_火.function.definition_friction",
+        "desc": "You tell people where you will be by summer while the wall is still bare. The saying comes easily. Then the summer has to keep the promise."
       },
       {
         "phrase": "Takes every opening",
         "dim": "saying yes",
         "door": "action",
-        "desc": "A gap is a gap. You grow into all of them, and the garden has no space left for anything else."
+        "face": "echo",
+        "echo_of": "木_土.function.definition_friction",
+        "desc": "A gap is a gap. You grow into all of them, hold all of them, and the garden has no space left for anything else."
+      },
+      {
+        "phrase": "Bends too far",
+        "dim": "boundaries",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "木_金.function.definition_friction",
+        "desc": "You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you are holding stops being yours."
       }
     ],
     "__ore": {
@@ -347,6 +375,36 @@
           "desc": "The wall got climbed and nobody saw the climb. You made it look like the vine was always there, and then you are hurt when they believe it.",
           "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
         }
+      ],
+      "retired_derivation_law_2026-09-16": [
+        {
+          "phrase": "Finds another way",
+          "dim": "obstacles",
+          "door": "action",
+          "desc": "Where others push the locked door harder, you're already around the back. You arrive where you meant to, by a path nobody predicted.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Attentive friend",
+          "dim": "close bonds",
+          "door": "body",
+          "desc": "You track what the people around you need without being told. The birthday, the hard week, the thing they mentioned once in passing. You caught it.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Quiet survivor",
+          "dim": "hard seasons",
+          "door": "order",
+          "desc": "The storms that snapped stronger-looking people somehow didn't end you. You bent, waited, and grew back. It's a longer game than anyone realizes.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Suspects an angle",
+          "dim": "face value",
+          "door": "mind",
+          "desc": "You can't quite take kindness at face value. Somewhere in you a quiet analyst asks what this person is really after. Sometimes the answer was nothing, and the wondering showed.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        }
       ]
     },
     "door_note": {
@@ -356,5 +414,6 @@
       "action": "Earth",
       "order": "Metal"
     }
-  }
+  },
+  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume."
 }

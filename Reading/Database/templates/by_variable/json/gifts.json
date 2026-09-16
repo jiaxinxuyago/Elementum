@@ -9,46 +9,60 @@
         "canonical_name": "The Oak",
         "value": [
           {
-            "phrase": "Makes it official",
-            "dim": "commitments",
-            "door": "action",
-            "desc": "Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs."
-          },
-          {
-            "phrase": "Raises everyone's game",
-            "dim": "influence on others",
-            "door": "expression",
-            "desc": "People around you end up aiming higher than they meant to. Your reach quietly becomes the new ceiling, and nobody remembers deciding that."
-          },
-          {
-            "phrase": "Builds to last",
-            "dim": "at work",
-            "door": "order",
-            "desc": "You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down."
-          },
-          {
-            "phrase": "Keeps the faith",
-            "dim": "inner life",
+            "phrase": "Quick to start",
+            "dim": "beginnings",
             "door": "body",
-            "desc": "You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter."
-          },
-          {
-            "phrase": "Late bloomer",
-            "dim": "over the years",
-            "door": "mind",
-            "desc": "The Oak that everyone wrote off in spring is the one still standing in October. Your growth arrives on its own calendar, and it arrives."
+            "face": "echo",
+            "echo_of": "木_木.function.definition_catalyst",
+            "desc": "The will to start is your reserve. When it is full you begin things before anyone has finished worrying, and when it dips you feel flat before you feel tired."
           },
           {
             "phrase": "Holds its ground",
             "dim": "standing alone",
             "door": "body",
-            "desc": "Wind from every side, and you are still where you were planted, still facing the same way."
+            "face": "wide",
+            "echo_of": "木_木.function.definition_catalyst",
+            "desc": "Wind from every side, and you are still where you were planted, still facing the same way. Plenty of growing force, and all of it rooted."
           },
           {
             "phrase": "Takes the lesson",
             "dim": "hard seasons",
             "door": "mind",
-            "desc": "One hard season teaches you what a decade of easy ones could not, and you keep it."
+            "face": "echo",
+            "echo_of": "木_水.function.definition_catalyst",
+            "desc": "One hard season teaches you what a decade of easy ones could not. It goes in quietly, over reading and long talks and rest, and you keep it."
+          },
+          {
+            "phrase": "Grows on rest",
+            "dim": "refueling",
+            "door": "mind",
+            "face": "wide",
+            "echo_of": "木_水.carry.wide",
+            "desc": "Give you water and you grow. A quiet week, a long book, and the reaching starts again on its own."
+          },
+          {
+            "phrase": "Raises everyone's game",
+            "dim": "influence on others",
+            "door": "expression",
+            "face": "echo",
+            "echo_of": "木_火.function.definition_catalyst",
+            "desc": "Put your name on the work and the whole table aims higher. Your reach, once visible, becomes the new ceiling, and nobody remembers deciding that."
+          },
+          {
+            "phrase": "Makes it official",
+            "dim": "commitments",
+            "door": "action",
+            "face": "echo",
+            "echo_of": "木_土.function.definition_catalyst",
+            "desc": "Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs."
+          },
+          {
+            "phrase": "Better when edited",
+            "dim": "under review",
+            "door": "order",
+            "face": "echo",
+            "echo_of": "木_金.function.definition_catalyst",
+            "desc": "You grow fastest under exacting eyes. Give you an editor, a coach, a rule you chose, and the work comes back sharper every round."
           }
         ]
       },
@@ -58,46 +72,60 @@
         "canonical_name": "The Vine",
         "value": [
           {
-            "phrase": "Nobody's fool",
-            "dim": "reading people",
-            "door": "mind",
-            "desc": "You clock the difference between what's said and what's meant almost instantly. People stopped managing you long ago. It never worked."
-          },
-          {
-            "phrase": "Finds another way",
-            "dim": "obstacles",
-            "door": "action",
-            "desc": "Where others push the locked door harder, you're already around the back. You arrive where you meant to, by a path nobody predicted."
-          },
-          {
-            "phrase": "Wins people over",
-            "dim": "trust",
-            "door": "expression",
-            "desc": "Not loudly, and not fast. But give it a season and the skeptics are asking your opinion first. Trust built your way tends to hold."
-          },
-          {
-            "phrase": "Attentive friend",
-            "dim": "close bonds",
-            "door": "body",
-            "desc": "You track what the people around you need without being told. The birthday, the hard week, the thing they mentioned once in passing. You caught it."
-          },
-          {
-            "phrase": "Quiet survivor",
-            "dim": "hard seasons",
-            "door": "order",
-            "desc": "The storms that snapped stronger-looking people somehow didn't end you. You bent, waited, and grew back. It's a longer game than anyone realizes."
-          },
-          {
             "phrase": "Regrows from little",
             "dim": "setbacks",
             "door": "body",
-            "desc": "Cut back to nothing in March, and by June there is a green line up the wall again."
+            "face": "echo",
+            "echo_of": "木_木.function.definition_catalyst",
+            "desc": "Cut back to nothing in March, and by June there is a green line up the wall again. The will to start is your reserve, and it refills."
+          },
+          {
+            "phrase": "Grows anywhere",
+            "dim": "conditions",
+            "door": "body",
+            "face": "wide",
+            "echo_of": "木_木.function.definition_catalyst",
+            "desc": "Give you a wall, any wall, and by summer there is green on it. Plenty of growing force, and it never waits for ideal conditions."
           },
           {
             "phrase": "Maps the wall",
             "dim": "second attempts",
             "door": "mind",
-            "desc": "Every wall you have climbed is a map you keep. The second time is never the long way."
+            "face": "echo",
+            "echo_of": "木_水.function.definition_catalyst",
+            "desc": "Every wall you have climbed is a map you keep. It goes in quietly, over rest and long conversations, and the second time is never the long way."
+          },
+          {
+            "phrase": "Nobody's fool",
+            "dim": "reading people",
+            "door": "mind",
+            "face": "wide",
+            "echo_of": "木_水.carry.wide",
+            "desc": "Years of quiet taking-in, and now you clock the difference between what is said and what is meant almost instantly. People stopped managing you long ago."
+          },
+          {
+            "phrase": "Wins people over",
+            "dim": "trust",
+            "door": "expression",
+            "face": "echo",
+            "echo_of": "木_火.function.definition_catalyst",
+            "desc": "Not loudly, and not fast. But put your name on the work and give it a season, and the skeptics are asking your opinion first."
+          },
+          {
+            "phrase": "Settles in",
+            "dim": "holding on",
+            "door": "action",
+            "face": "echo",
+            "echo_of": "木_土.function.definition_catalyst",
+            "desc": "Where you arrive, you stay. The job, the flat, the friendship you climbed toward becomes something held, and it holds you back."
+          },
+          {
+            "phrase": "Better for pruning",
+            "dim": "under review",
+            "door": "order",
+            "face": "echo",
+            "echo_of": "木_金.function.definition_catalyst",
+            "desc": "Cut back by the right hands, you come back stronger. An editor, a coach, a rule you chose, and the vine climbs straighter."
           }
         ]
       },
@@ -107,46 +135,60 @@
         "canonical_name": "The Sun",
         "value": [
           {
+            "phrase": "Lifts the morning",
+            "dim": "energy",
+            "door": "body",
+            "face": "echo",
+            "echo_of": "火_火.function.definition_catalyst",
+            "desc": "Your energy is the lift that makes mornings possible, for you and for the people near you. It runs in bursts, and the bursts are bright."
+          },
+          {
+            "phrase": "Shines on everyone",
+            "dim": "reach",
+            "door": "body",
+            "face": "wide",
+            "echo_of": "火_火.function.definition_catalyst",
+            "desc": "Plenty of light and no meter on it. Everyone in the building gets some, whether they asked or not."
+          },
+          {
+            "phrase": "Learns from everyone",
+            "dim": "refueling",
+            "door": "mind",
+            "face": "echo",
+            "echo_of": "火_木.function.definition_catalyst",
+            "desc": "Skills stacked, books finished, friends kept for years. What you gather quietly is what you later spend as brilliance."
+          },
+          {
+            "phrase": "Full of ideas",
+            "dim": "what catches",
+            "door": "mind",
+            "face": "wide",
+            "echo_of": "火_木.carry.wide",
+            "desc": "With this much fuel around you, the light never wants for something to burn. Ideas, people, plans, all of it catches."
+          },
+          {
             "phrase": "Starts traditions",
             "dim": "what lasts",
             "door": "expression",
+            "face": "echo",
+            "echo_of": "火_土.function.definition_catalyst",
             "desc": "The dinner you hosted once is now the dinner everyone hosts. What you warm tends to set into something people keep doing after you have moved on."
-          },
-          {
-            "phrase": "No hidden agenda",
-            "dim": "hard days",
-            "door": "body",
-            "desc": "Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out."
           },
           {
             "phrase": "Takes hard jobs",
             "dim": "the work you pick",
             "door": "action",
+            "face": "echo",
+            "echo_of": "火_金.function.definition_catalyst",
             "desc": "Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on."
           },
           {
-            "phrase": "Keeps it close",
-            "dim": "close bonds",
-            "door": "body",
-            "desc": "The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully."
-          },
-          {
-            "phrase": "Feeds on daylight",
-            "dim": "refueling",
-            "door": "mind",
-            "desc": "You feed on what is around you. A good morning, a good friend, a good idea, and you are lit again."
-          },
-          {
-            "phrase": "Catches the mood",
-            "dim": "reading a mood",
-            "door": "mind",
-            "desc": "You know the weather of a place the moment you walk in, and you adjust your light to it."
-          },
-          {
-            "phrase": "Bright under pressure",
-            "dim": "bad days",
+            "phrase": "Sleeps on it",
+            "dim": "before the leap",
             "door": "order",
-            "desc": "The harder the day, the steadier the shine. People stand nearer to you when things go wrong."
+            "face": "echo",
+            "echo_of": "火_水.function.definition_catalyst",
+            "desc": "Your best decisions all survived a night of doubt. One calm person, one cold look at the budget, and the leap lands."
           }
         ]
       },
@@ -156,46 +198,60 @@
         "canonical_name": "The Candle",
         "value": [
           {
-            "phrase": "Deeply present",
-            "dim": "one-on-one",
-            "door": "body",
-            "desc": "When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find."
-          },
-          {
-            "phrase": "Misses nothing",
-            "dim": "details",
-            "door": "mind",
-            "desc": "The small tell, the changed tone, the detail everyone walked past. You caught it, and three months later it turned out to be the whole story."
-          },
-          {
             "phrase": "Fully committed",
             "dim": "the inner circle",
             "door": "body",
-            "desc": "What you choose gets everything you have. The people and work inside your circle never have to wonder where they stand."
+            "face": "echo",
+            "echo_of": "火_火.function.definition_catalyst",
+            "desc": "What you choose gets all the energy you have, in bursts, at close range. The people inside your circle never wonder where they stand."
           },
           {
-            "phrase": "Rekindles people",
-            "dim": "influence on others",
-            "door": "expression",
-            "desc": "Your belief in someone works at close range. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again."
-          },
-          {
-            "phrase": "Keeps the flame",
-            "dim": "hard seasons",
-            "door": "order",
-            "desc": "The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night."
+            "phrase": "Deeply present",
+            "dim": "attention",
+            "door": "body",
+            "face": "wide",
+            "echo_of": "火_火.function.definition_catalyst",
+            "desc": "Plenty of light and all of it pointed at one person. Phones stay dark, time goes quiet, and they leave feeling seen in a way that is hard to find."
           },
           {
             "phrase": "Studies one thing",
-            "dim": "expertise",
+            "dim": "depth",
             "door": "mind",
-            "desc": "One subject, years deep. You know it the way people know a face."
+            "face": "echo",
+            "echo_of": "火_木.function.definition_catalyst",
+            "desc": "One subject, years deep, stacked quietly like fuel. You know it the way people know a face, and it burns later as brilliance."
           },
           {
-            "phrase": "Tends what's near",
-            "dim": "small work",
+            "phrase": "Misses nothing",
+            "dim": "small details",
+            "door": "mind",
+            "face": "wide",
+            "echo_of": "火_木.carry.wide",
+            "desc": "With this much fuel behind the flame, the small tell, the changed tone, the detail everyone walked past all catch your eye. Three months later it turned out to be the whole story."
+          },
+          {
+            "phrase": "Rekindles people",
+            "dim": "close range",
+            "door": "expression",
+            "face": "echo",
+            "echo_of": "火_土.function.definition_catalyst",
+            "desc": "Your belief in someone works at close range and lasts. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again."
+          },
+          {
+            "phrase": "Cracks hard problems",
+            "dim": "the work you pick",
             "door": "action",
-            "desc": "The small work in arm’s reach gets done well and on time. That is where you build."
+            "face": "echo",
+            "echo_of": "火_金.function.definition_catalyst",
+            "desc": "Easy work wastes you. Give you one difficult, valuable thing within arm's reach and the heat finally has something to work on."
+          },
+          {
+            "phrase": "Listens to doubt",
+            "dim": "before the leap",
+            "door": "order",
+            "face": "echo",
+            "echo_of": "火_水.function.definition_catalyst",
+            "desc": "One calm person whose questions slow you down before the leap. Your best decisions all survived a night of doubt."
           }
         ]
       },
@@ -208,43 +264,57 @@
             "phrase": "Everyone's rock",
             "dim": "being leaned on",
             "door": "body",
-            "desc": "Friends plan around you the way builders plan around bedrock. When their lives shake, yours is the number they dial with their hands still trembling."
+            "face": "echo",
+            "echo_of": "土_土.function.definition_catalyst",
+            "desc": "The physical calm under everything else. Friends plan around you the way builders plan around bedrock, and it only erodes under skipped meals and moved bedtimes."
           },
           {
             "phrase": "Shows up regardless",
             "dim": "showing up",
             "door": "body",
-            "desc": "Storms, funerals, moving days, the long boring middle of hard times. The dramatic helpers come and go. You're still there in week six."
+            "face": "wide",
+            "echo_of": "土_土.function.definition_catalyst",
+            "desc": "Storms, funerals, moving days, the long boring middle of hard times. Plenty of steadiness, and you are still there in week six."
           },
           {
-            "phrase": "Calm under fire",
-            "dim": "crisis",
-            "door": "order",
-            "desc": "The news that spins everyone else barely moves your needle. People watch your face in a crisis to decide how scared to be."
-          },
-          {
-            "phrase": "Safe harbor",
-            "dim": "secrets",
+            "phrase": "Learns from people",
+            "dim": "how you learn",
             "door": "mind",
-            "desc": "People tell you things they've told no one. Nothing shocks you, nothing leaks, and nothing changes how you treat them the next morning."
-          },
-          {
-            "phrase": "Slow and sure",
-            "dim": "pace",
-            "door": "action",
-            "desc": "You move at your own tempo and it's not fast. But what you finish is finished, and what you promised happens, eventually, completely."
+            "face": "echo",
+            "echo_of": "土_火.function.definition_catalyst",
+            "desc": "Cold text slides off. What warmed you stays: the person who showed you, the evening it was said, the praise that made it stick."
           },
           {
             "phrase": "Keeps the record",
             "dim": "memory",
             "door": "mind",
-            "desc": "You remember what was said, when, and by whom. Not to use it. Because it happened."
+            "face": "wide",
+            "echo_of": "土_火.carry.wide",
+            "desc": "So much has warmed its way in that you remember what was said, when, and by whom. Not to use it. Because it happened."
           },
           {
             "phrase": "Says it once",
             "dim": "speaking up",
             "door": "expression",
-            "desc": "You say the thing one time, plainly, and do not repeat it. People learn to listen the first time."
+            "face": "echo",
+            "echo_of": "土_金.function.definition_catalyst",
+            "desc": "You say the thing one time, plainly, the exact word, and do not repeat it. People learn to listen the first time."
+          },
+          {
+            "phrase": "Safe hands",
+            "dim": "things in motion",
+            "door": "action",
+            "face": "echo",
+            "echo_of": "土_水.function.definition_catalyst",
+            "desc": "Money, chances, people in motion all need somewhere reliable to land. You profit by being the still point in a moving system."
+          },
+          {
+            "phrase": "Carries the family",
+            "dim": "obligations",
+            "door": "order",
+            "face": "echo",
+            "echo_of": "土_木.function.definition_catalyst",
+            "desc": "Family, teams, the people who grow back each season and ask you to grow with them. Care is your discipline, and it keeps you moving."
           }
         ]
       },
@@ -254,46 +324,60 @@
         "canonical_name": "The Field",
         "value": [
           {
-            "phrase": "Anticipates needs",
-            "dim": "unspoken needs",
-            "door": "mind",
-            "desc": "The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did."
-          },
-          {
-            "phrase": "Grows people",
-            "dim": "others' growth",
-            "door": "expression",
-            "desc": "People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly."
-          },
-          {
-            "phrase": "Keeps every promise",
-            "dim": "promises",
-            "door": "order",
-            "desc": "Your care doesn't have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that."
-          },
-          {
             "phrase": "Restful company",
-            "dim": "comfort",
+            "dim": "presence",
             "door": "body",
-            "desc": "Nobody performs around you. Friends unclench, say the true version, and stay an hour longer than they planned. Your presence works like fallow ground."
+            "face": "echo",
+            "echo_of": "土_土.function.definition_catalyst",
+            "desc": "Nobody performs around you. The physical calm under everything lets friends unclench, say the true version, and stay an hour longer than they planned."
           },
           {
             "phrase": "Quietly essential",
             "dim": "being noticed",
             "door": "body",
-            "desc": "Nothing about you announces itself. But when you step back for a while, everything wilts a little, and everyone finally notices who was watering."
+            "face": "wide",
+            "echo_of": "土_土.function.definition_catalyst",
+            "desc": "Plenty of ground and none of it announces itself. When you step back for a while, everything wilts a little, and everyone finally notices who was watering."
+          },
+          {
+            "phrase": "Remembers who helped",
+            "dim": "how you learn",
+            "door": "mind",
+            "face": "echo",
+            "echo_of": "土_火.function.definition_catalyst",
+            "desc": "Affection, praise and festivity all count as study for you. You learn best from people who were warm while they taught, and you never forget them."
           },
           {
             "phrase": "Reads the season",
             "dim": "timing",
             "door": "mind",
-            "desc": "You know when to plant and when to leave the ground alone. Timing is the thing you never explain."
+            "face": "wide",
+            "echo_of": "土_火.carry.wide",
+            "desc": "With this much warmth in the ground, you know when to plant and when to leave it alone. Timing is the thing you never explain."
+          },
+          {
+            "phrase": "Few words, exact",
+            "dim": "speaking up",
+            "door": "expression",
+            "face": "echo",
+            "echo_of": "土_金.function.definition_catalyst",
+            "desc": "You speak rarely and it lands. The exact word, the finished piece, the standard people quote after you leave."
           },
           {
             "phrase": "Feeds the table",
-            "dim": "providing",
+            "dim": "provision",
             "door": "action",
-            "desc": "There is always enough. Nobody asks how. You made sure before they were hungry."
+            "face": "echo",
+            "echo_of": "土_水.function.definition_catalyst",
+            "desc": "There is always enough. Money, chances, people in motion pass through your steady hands, and nobody asks how it was there before they were hungry."
+          },
+          {
+            "phrase": "Keeps every promise",
+            "dim": "obligations",
+            "door": "order",
+            "face": "echo",
+            "echo_of": "土_木.function.definition_catalyst",
+            "desc": "Your care does not have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that."
           }
         ]
       },
@@ -366,46 +450,60 @@
         "canonical_name": "The Jewel",
         "value": [
           {
+            "phrase": "Keeps its shape",
+            "dim": "being handled",
+            "door": "body",
+            "face": "echo",
+            "echo_of": "金_金.function.definition_catalyst",
+            "desc": "Handled by everyone, changed by no one. You hold your form long after the fuel is low, so you notice you are tired late."
+          },
+          {
+            "phrase": "Polished by default",
+            "dim": "finishing",
+            "door": "body",
+            "face": "wide",
+            "echo_of": "金_金.function.definition_catalyst",
+            "desc": "Plenty of the material and all of it finished. Even the things nobody will see leave your hands done properly."
+          },
+          {
             "phrase": "Impeccable taste",
             "dim": "quality",
             "door": "mind",
-            "desc": "You know the good one from the almost-good one at a glance, the way some people can tell a note is flat. Friends borrow your eye before they buy."
-          },
-          {
-            "phrase": "Quality guaranteed",
-            "dim": "at work",
-            "door": "order",
-            "desc": "Nothing leaves your hands that you don't believe in. Years later your work is the one still holding up under inspection."
+            "face": "echo",
+            "echo_of": "金_土.function.definition_catalyst",
+            "desc": "Years of quiet looking went in first. Now you know the good one from the almost-good one at a glance, and friends borrow your eye before they buy."
           },
           {
             "phrase": "Spots the crack",
             "dim": "early warnings",
             "door": "mind",
-            "desc": "You saw the flaw three months before it became the problem. You say it out loud exactly once, and then wait."
-          },
-          {
-            "phrase": "Notices the effort",
-            "dim": "others' work",
-            "door": "body",
-            "desc": "The detail someone worked hardest on, the one everyone else missed, is the first thing you praise. Being appreciated by you means something because you actually looked."
+            "face": "wide",
+            "echo_of": "金_土.carry.wide",
+            "desc": "With this much ground under the stone, you saw the flaw three months before it became the problem. You say it out loud exactly once, and then wait."
           },
           {
             "phrase": "Understated excellence",
             "dim": "self-presentation",
             "door": "expression",
-            "desc": "You don't advertise, compete, or explain. The work speaks quietly, the taste shows in small choices, and the people who know, know."
-          },
-          {
-            "phrase": "Keeps its shape",
-            "dim": "being handled",
-            "door": "body",
-            "desc": "Handled by everyone, changed by no one. You come out of every year the same stone."
+            "face": "echo",
+            "echo_of": "金_水.function.definition_catalyst",
+            "desc": "What is inside moves outward without forcing. You do not advertise, compete, or explain. The work speaks quietly, and the people who know, know."
           },
           {
             "phrase": "Prices it right",
             "dim": "placing value",
             "door": "action",
-            "desc": "You know what a thing is worth and where it belongs. Placed by you, it stays placed."
+            "face": "echo",
+            "echo_of": "金_木.function.definition_catalyst",
+            "desc": "You know what a thing is worth and where it belongs, and what you place keeps growing in value after you have placed it."
+          },
+          {
+            "phrase": "Quality guaranteed",
+            "dim": "at work",
+            "door": "order",
+            "face": "echo",
+            "echo_of": "金_火.function.definition_catalyst",
+            "desc": "Pressure organizes you instead of scattering you. Nothing leaves your hands that you do not believe in, and years later your work is the one still holding up under inspection."
           }
         ]
       },
@@ -415,46 +513,60 @@
         "canonical_name": "The Ocean",
         "value": [
           {
-            "phrase": "Big picture thinker",
-            "dim": "connections",
-            "door": "mind",
-            "desc": "While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out."
-          },
-          {
-            "phrase": "Learns from experts",
-            "dim": "good teachers",
-            "door": "mind",
-            "desc": "Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through."
-          },
-          {
-            "phrase": "Thinks big",
-            "dim": "horizons",
-            "door": "action",
-            "desc": "Small plans bore you on arrival. You're drawn to the far shore, the decade plan, the version of the idea that scares the committee."
-          },
-          {
-            "phrase": "Even keel",
-            "dim": "under pressure",
-            "door": "order",
-            "desc": "Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours."
-          },
-          {
-            "phrase": "Gives ideas away",
-            "dim": "what grows after you",
-            "door": "expression",
-            "desc": "You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from."
+            "phrase": "Restored by quiet",
+            "dim": "recovery",
+            "door": "body",
+            "face": "echo",
+            "echo_of": "水_水.function.definition_catalyst",
+            "desc": "The reserve under everything you notice refills in stillness. Noise and company drain it long before you feel tired, and one quiet evening brings it back."
           },
           {
             "phrase": "Nothing rattles it",
             "dim": "storms",
             "door": "body",
-            "desc": "Storms cross the surface. Ten fathoms down, nothing has moved."
+            "face": "wide",
+            "echo_of": "水_水.function.definition_catalyst",
+            "desc": "Plenty of depth. Storms cross the surface, and ten fathoms down nothing has moved."
           },
           {
-            "phrase": "Keeps its level",
-            "dim": "recovery",
-            "door": "body",
-            "desc": "Whatever pours in, you find your level again by morning."
+            "phrase": "Learns from experts",
+            "dim": "good teachers",
+            "door": "mind",
+            "face": "echo",
+            "echo_of": "水_金.function.definition_catalyst",
+            "desc": "Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through."
+          },
+          {
+            "phrase": "Big picture thinker",
+            "dim": "connections",
+            "door": "mind",
+            "face": "wide",
+            "echo_of": "水_金.carry.wide",
+            "desc": "Fed by exact sources, the depth has structure. While the meeting argues about one tile, you see the whole mosaic and where it is heading."
+          },
+          {
+            "phrase": "Gives ideas away",
+            "dim": "what grows after you",
+            "door": "expression",
+            "face": "echo",
+            "echo_of": "水_木.function.definition_catalyst",
+            "desc": "You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from."
+          },
+          {
+            "phrase": "Thinks big",
+            "dim": "horizons",
+            "door": "action",
+            "face": "echo",
+            "echo_of": "水_火.function.definition_catalyst",
+            "desc": "Launches, markets, the moment that rewards whoever read it early. Small plans bore you, and you see the far shore clearly where others squint."
+          },
+          {
+            "phrase": "Thrives on structure",
+            "dim": "walls you chose",
+            "door": "order",
+            "face": "echo",
+            "echo_of": "水_土.function.definition_catalyst",
+            "desc": "Fixed roles, steady schedules, commitments that do not move with your moods. Inside walls you chose, the depth becomes force."
           }
         ]
       },
@@ -464,46 +576,60 @@
         "canonical_name": "The Rain",
         "value": [
           {
-            "phrase": "Feels the undercurrent",
-            "dim": "unspoken feelings",
-            "door": "mind",
-            "desc": "You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence."
-          },
-          {
-            "phrase": "Spots the opening",
-            "dim": "timing",
-            "door": "action",
-            "desc": "You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived."
+            "phrase": "Needs the quiet",
+            "dim": "recovery",
+            "door": "body",
+            "face": "echo",
+            "echo_of": "水_水.function.definition_catalyst",
+            "desc": "Your reserve refills in stillness and drains through noise and company long before you feel tired. One quiet night and the dew is back."
           },
           {
             "phrase": "Gentle confidant",
             "dim": "secrets",
             "door": "body",
-            "desc": "People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it."
+            "face": "wide",
+            "echo_of": "水_水.function.definition_catalyst",
+            "desc": "Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and you have never broken one."
+          },
+          {
+            "phrase": "Better with structure",
+            "dim": "good teachers",
+            "door": "mind",
+            "face": "echo",
+            "echo_of": "水_金.function.definition_catalyst",
+            "desc": "Exact teachers, clean methods, rigorous tools turn what you feel into something usable. You think better with structure than with more input."
+          },
+          {
+            "phrase": "Feels the undercurrent",
+            "dim": "unspoken feelings",
+            "door": "mind",
+            "face": "wide",
+            "echo_of": "水_金.carry.wide",
+            "desc": "Fed by exact sources, the feel arrives early. You knew the couple was fighting before they did."
           },
           {
             "phrase": "Changes minds softly",
             "dim": "influence on others",
             "door": "expression",
-            "desc": "Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did."
+            "face": "echo",
+            "echo_of": "水_木.function.definition_catalyst",
+            "desc": "Nobody remembers losing the argument to you. Positions shift a degree a week until, months later, everyone agrees and thinks they always did."
           },
           {
-            "phrase": "Settles the dust",
-            "dim": "presence",
-            "door": "body",
-            "desc": "The air is calmer after you have been in it, and nobody can say what you did."
+            "phrase": "Spots the opening",
+            "dim": "timing",
+            "door": "action",
+            "face": "echo",
+            "echo_of": "水_火.function.definition_catalyst",
+            "desc": "You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived."
           },
           {
-            "phrase": "Soaks it up",
-            "dim": "learning",
-            "door": "mind",
-            "desc": "Whatever falls near you goes in and stays. Years later it comes back as knowing."
-          },
-          {
-            "phrase": "Wears down stone",
-            "dim": "under pressure",
+            "phrase": "Blooms on routine",
+            "dim": "walls you chose",
             "door": "order",
-            "desc": "Pressure does not stop you. Given enough seasons, the rain shapes the rock that tried to stop it."
+            "face": "echo",
+            "echo_of": "水_土.function.definition_catalyst",
+            "desc": "Fixed roles, steady schedules, commitments that do not move with your moods. Inside walls you chose, the rain becomes a river."
           }
         ]
       }

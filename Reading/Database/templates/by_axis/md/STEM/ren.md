@@ -26,62 +26,90 @@
 | `dm_mechanism` | Yang Water that carves by patience — force that wins by not insisting. |
 | `yourNature_desc` | You think in fathoms while most conversation happens at the shoreline. What you show is a fraction of what's moving, and most of it simply doesn't travel well in words. The distance isn't loneliness exactly. It's just how far down you actually live. |
 | `dm_overview` | The Ocean is Yang Water, the water that never learned the meaning of far. Early winter is its season, pulling everything down into depth and moving on under a still surface. It is the open sea and the long river, the current that crosses what the eye gives up on. Past the harbor mouth it keeps its own maps. |
-| `gifts[0].phrase` | Big picture thinker |
-| `gifts[0].dim` | connections |
-| `gifts[0].door` | mind |
-| `gifts[0].desc` | While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out. |
-| `gifts[1].phrase` | Learns from experts |
-| `gifts[1].dim` | good teachers |
-| `gifts[1].door` | mind |
-| `gifts[1].desc` | Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through. |
-| `gifts[2].phrase` | Thinks big |
-| `gifts[2].dim` | horizons |
-| `gifts[2].door` | action |
-| `gifts[2].desc` | Small plans bore you on arrival. You're drawn to the far shore, the decade plan, the version of the idea that scares the committee. |
-| `gifts[3].phrase` | Even keel |
-| `gifts[3].dim` | under pressure |
-| `gifts[3].door` | order |
-| `gifts[3].desc` | Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours. |
+| `gifts[0].phrase` | Restored by quiet |
+| `gifts[0].dim` | recovery |
+| `gifts[0].door` | body |
+| `gifts[0].face` | echo |
+| `gifts[0].echo_of` | 水_水.function.definition_catalyst |
+| `gifts[0].desc` | The reserve under everything you notice refills in stillness. Noise and company drain it long before you feel tired, and one quiet evening brings it back. |
+| `gifts[1].phrase` | Nothing rattles it |
+| `gifts[1].dim` | storms |
+| `gifts[1].door` | body |
+| `gifts[1].face` | wide |
+| `gifts[1].echo_of` | 水_水.function.definition_catalyst |
+| `gifts[1].desc` | Plenty of depth. Storms cross the surface, and ten fathoms down nothing has moved. |
+| `gifts[2].phrase` | Learns from experts |
+| `gifts[2].dim` | good teachers |
+| `gifts[2].door` | mind |
+| `gifts[2].face` | echo |
+| `gifts[2].echo_of` | 水_金.function.definition_catalyst |
+| `gifts[2].desc` | Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through. |
+| `gifts[3].phrase` | Big picture thinker |
+| `gifts[3].dim` | connections |
+| `gifts[3].door` | mind |
+| `gifts[3].face` | wide |
+| `gifts[3].echo_of` | 水_金.carry.wide |
+| `gifts[3].desc` | Fed by exact sources, the depth has structure. While the meeting argues about one tile, you see the whole mosaic and where it is heading. |
 | `gifts[4].phrase` | Gives ideas away |
 | `gifts[4].dim` | what grows after you |
 | `gifts[4].door` | expression |
+| `gifts[4].face` | echo |
+| `gifts[4].echo_of` | 水_木.function.definition_catalyst |
 | `gifts[4].desc` | You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from. |
-| `gifts[5].phrase` | Nothing rattles it |
-| `gifts[5].dim` | storms |
-| `gifts[5].door` | body |
-| `gifts[5].desc` | Storms cross the surface. Ten fathoms down, nothing has moved. |
-| `gifts[6].phrase` | Keeps its level |
-| `gifts[6].dim` | recovery |
-| `gifts[6].door` | body |
-| `gifts[6].desc` | Whatever pours in, you find your level again by morning. |
-| `shadows[0].phrase` | Starts at bottom |
-| `shadows[0].dim` | explaining yourself |
-| `shadows[0].door` | expression |
-| `shadows[0].desc` | You start where your thinking ended, ten fathoms down, and wonder why the table looks lost. |
+| `gifts[5].phrase` | Thinks big |
+| `gifts[5].dim` | horizons |
+| `gifts[5].door` | action |
+| `gifts[5].face` | echo |
+| `gifts[5].echo_of` | 水_火.function.definition_catalyst |
+| `gifts[5].desc` | Launches, markets, the moment that rewards whoever read it early. Small plans bore you, and you see the far shore clearly where others squint. |
+| `gifts[6].phrase` | Thrives on structure |
+| `gifts[6].dim` | walls you chose |
+| `gifts[6].door` | order |
+| `gifts[6].face` | echo |
+| `gifts[6].echo_of` | 水_土.function.definition_catalyst |
+| `gifts[6].desc` | Fixed roles, steady schedules, commitments that do not move with your moods. Inside walls you chose, the depth becomes force. |
+| `shadows[0].phrase` | Rest stops working |
+| `shadows[0].dim` | recovery |
+| `shadows[0].door` | body |
+| `shadows[0].face` | echo |
+| `shadows[0].echo_of` | 水_水.function.definition_friction |
+| `shadows[0].desc` | Stillness pooling into stagnation. Sleep that stretches without refreshing, energy waiting for a current that never comes. |
 | `shadows[1].phrase` | Hard to know |
 | `shadows[1].dim` | close bonds |
 | `shadows[1].door` | body |
-| `shadows[1].desc` | Even the people closest to you work from a fraction. Whole regions of you stay unmapped, not hidden exactly, just never offered. |
-| `shadows[2].phrase` | Spread too thin |
-| `shadows[2].dim` | focus |
-| `shadows[2].door` | action |
-| `shadows[2].desc` | Everything interests you and nothing contains you, so the current runs in six directions at once. Vast motion, and some seasons, no arrival. |
-| `shadows[3].phrase` | Sweeps people along |
-| `shadows[3].dim` | momentum |
-| `shadows[3].door` | body |
-| `shadows[3].desc` | The plan was already moving before anyone agreed to it. Your current is strong enough that consent can arrive after departure. |
-| `shadows[4].phrase` | Pulled every way |
-| `shadows[4].dim` | sources |
-| `shadows[4].door` | mind |
-| `shadows[4].desc` | Every source you take in pulls a different way. The water is deep and going nowhere. |
-| `shadows[5].phrase` | Muddied by advice |
-| `shadows[5].dim` | taking counsel |
-| `shadows[5].door` | mind |
-| `shadows[5].desc` | So much counsel has gone in that the water will not clear. You cannot see your own bottom anymore. |
+| `shadows[1].face` | excess |
+| `shadows[1].echo_of` | 水_水.carry.excess |
+| `shadows[1].desc` | So much depth that nothing surfaces. Even the people closest to you work from a fraction, and whole regions of you stay unmapped, never offered. |
+| `shadows[2].phrase` | Collects frameworks |
+| `shadows[2].dim` | sources |
+| `shadows[2].door` | mind |
+| `shadows[2].face` | echo |
+| `shadows[2].echo_of` | 水_金.function.definition_friction |
+| `shadows[2].desc` | Systems perfected, methods collected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking. |
+| `shadows[3].phrase` | Muddied by advice |
+| `shadows[3].dim` | taking counsel |
+| `shadows[3].door` | mind |
+| `shadows[3].face` | excess |
+| `shadows[3].echo_of` | 水_金.carry.excess |
+| `shadows[3].desc` | So much counsel has gone in that the water will not clear. You cannot see your own bottom anymore. |
+| `shadows[4].phrase` | Pours into everyone |
+| `shadows[4].dim` | other people's gardens |
+| `shadows[4].door` | expression |
+| `shadows[4].face` | echo |
+| `shadows[4].echo_of` | 水_木.function.definition_friction |
+| `shadows[4].desc` | Every person developed, every idea watered, your depth spent raising gardens you do not live in. |
+| `shadows[5].phrase` | Spread too thin |
+| `shadows[5].dim` | focus |
+| `shadows[5].door` | action |
+| `shadows[5].face` | echo |
+| `shadows[5].echo_of` | 水_火.function.definition_friction |
+| `shadows[5].desc` | Hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you. |
 | `shadows[6].phrase` | Held behind walls |
 | `shadows[6].dim` | others' rules |
 | `shadows[6].door` | order |
-| `shadows[6].desc` | Dammed by other people’s rules, the sea goes quiet. Quiet is not the same as calm. |
+| `shadows[6].face` | echo |
+| `shadows[6].echo_of` | 水_土.function.definition_friction |
+| `shadows[6].desc` | A calendar with no slack, roles held from duty long after they stopped fitting. Dammed by other people's rules, the sea goes quiet, and quiet is not the same as calm. |
 | `door_note.body` | Water |
 | `door_note.mind` | Metal |
 | `door_note.expression` | Wood |
@@ -201,3 +229,28 @@
 | `retired_door_audit_2026-09-16[1].door` | expression |
 | `retired_door_audit_2026-09-16[1].desc` | Years in, people are still discovering entire coastlines of you. The languages, the past lives, the things you simply never mentioned. |
 | `retired_door_audit_2026-09-16[1].why` | door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude |
+| `retired_derivation_law_2026-09-16[0].phrase` | Even keel |
+| `retired_derivation_law_2026-09-16[0].dim` | under pressure |
+| `retired_derivation_law_2026-09-16[0].door` | order |
+| `retired_derivation_law_2026-09-16[0].desc` | Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours. |
+| `retired_derivation_law_2026-09-16[0].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[1].phrase` | Keeps its level |
+| `retired_derivation_law_2026-09-16[1].dim` | recovery |
+| `retired_derivation_law_2026-09-16[1].door` | body |
+| `retired_derivation_law_2026-09-16[1].desc` | Whatever pours in, you find your level again by morning. |
+| `retired_derivation_law_2026-09-16[1].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[2].phrase` | Starts at bottom |
+| `retired_derivation_law_2026-09-16[2].dim` | explaining yourself |
+| `retired_derivation_law_2026-09-16[2].door` | expression |
+| `retired_derivation_law_2026-09-16[2].desc` | You start where your thinking ended, ten fathoms down, and wonder why the table looks lost. |
+| `retired_derivation_law_2026-09-16[2].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[3].phrase` | Sweeps people along |
+| `retired_derivation_law_2026-09-16[3].dim` | momentum |
+| `retired_derivation_law_2026-09-16[3].door` | body |
+| `retired_derivation_law_2026-09-16[3].desc` | The plan was already moving before anyone agreed to it. Your current is strong enough that consent can arrive after departure. |
+| `retired_derivation_law_2026-09-16[3].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[4].phrase` | Pulled every way |
+| `retired_derivation_law_2026-09-16[4].dim` | sources |
+| `retired_derivation_law_2026-09-16[4].door` | mind |
+| `retired_derivation_law_2026-09-16[4].desc` | Every source you take in pulls a different way. The water is deep and going nowhere. |
+| `retired_derivation_law_2026-09-16[4].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |

@@ -30,90 +30,118 @@
     "dm_overview": "The Sun is Yang Fire, the fire that no one lit and no one owns. It keeps high summer and full noon, opening every market and warming every back without asking a single name. The sky itself is its lantern. Everything that grows turns toward it, and on the day it slips behind clouds, the whole village looks up and wonders.",
     "gifts": [
       {
+        "phrase": "Lifts the morning",
+        "dim": "energy",
+        "door": "body",
+        "face": "echo",
+        "echo_of": "火_火.function.definition_catalyst",
+        "desc": "Your energy is the lift that makes mornings possible, for you and for the people near you. It runs in bursts, and the bursts are bright."
+      },
+      {
+        "phrase": "Shines on everyone",
+        "dim": "reach",
+        "door": "body",
+        "face": "wide",
+        "echo_of": "火_火.function.definition_catalyst",
+        "desc": "Plenty of light and no meter on it. Everyone in the building gets some, whether they asked or not."
+      },
+      {
+        "phrase": "Learns from everyone",
+        "dim": "refueling",
+        "door": "mind",
+        "face": "echo",
+        "echo_of": "火_木.function.definition_catalyst",
+        "desc": "Skills stacked, books finished, friends kept for years. What you gather quietly is what you later spend as brilliance."
+      },
+      {
+        "phrase": "Full of ideas",
+        "dim": "what catches",
+        "door": "mind",
+        "face": "wide",
+        "echo_of": "火_木.carry.wide",
+        "desc": "With this much fuel around you, the light never wants for something to burn. Ideas, people, plans, all of it catches."
+      },
+      {
         "phrase": "Starts traditions",
         "dim": "what lasts",
         "door": "expression",
+        "face": "echo",
+        "echo_of": "火_土.function.definition_catalyst",
         "desc": "The dinner you hosted once is now the dinner everyone hosts. What you warm tends to set into something people keep doing after you have moved on."
-      },
-      {
-        "phrase": "No hidden agenda",
-        "dim": "hard days",
-        "door": "body",
-        "desc": "Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out."
       },
       {
         "phrase": "Takes hard jobs",
         "dim": "the work you pick",
         "door": "action",
+        "face": "echo",
+        "echo_of": "火_金.function.definition_catalyst",
         "desc": "Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on."
       },
       {
-        "phrase": "Keeps it close",
-        "dim": "close bonds",
-        "door": "body",
-        "desc": "The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully."
-      },
-      {
-        "phrase": "Feeds on daylight",
-        "dim": "refueling",
-        "door": "mind",
-        "desc": "You feed on what is around you. A good morning, a good friend, a good idea, and you are lit again."
-      },
-      {
-        "phrase": "Catches the mood",
-        "dim": "reading a mood",
-        "door": "mind",
-        "desc": "You know the weather of a place the moment you walk in, and you adjust your light to it."
-      },
-      {
-        "phrase": "Bright under pressure",
-        "dim": "bad days",
+        "phrase": "Sleeps on it",
+        "dim": "before the leap",
         "door": "order",
-        "desc": "The harder the day, the steadier the shine. People stand nearer to you when things go wrong."
+        "face": "echo",
+        "echo_of": "火_水.function.definition_catalyst",
+        "desc": "Your best decisions all survived a night of doubt. One calm person, one cold look at the budget, and the leap lands."
       }
     ],
     "shadows": [
       {
-        "phrase": "Runs on empty",
+        "phrase": "Can't switch off",
         "dim": "personal reserves",
         "door": "body",
-        "desc": "You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks."
+        "face": "echo",
+        "echo_of": "火_火.function.definition_friction",
+        "desc": "More heat than your days can spend. Sleep will not come, intensity leaks into every conversation, and rest feels like a punishment."
       },
       {
-        "phrase": "Reopens settled things",
-        "dim": "settled things",
-        "door": "action",
-        "desc": "Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled."
-      },
-      {
-        "phrase": "Fills every silence",
-        "dim": "quiet moments",
-        "door": "expression",
-        "desc": "Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade."
-      },
-      {
-        "phrase": "Smiles on schedule",
-        "dim": "authenticity",
-        "door": "order",
-        "desc": "The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed."
-      },
-      {
-        "phrase": "Last log burning",
-        "dim": "the last reserve",
+        "phrase": "Outshines everyone",
+        "dim": "the whole sky",
         "door": "body",
-        "desc": "The reserve is gone and the light is still on. You will find out tomorrow what that cost."
+        "face": "excess",
+        "echo_of": "火_火.carry.excess",
+        "desc": "So much light that nothing else in the sky is visible, including the people you were warming."
       },
       {
         "phrase": "Chokes on fuel",
         "dim": "taking on more",
         "door": "mind",
-        "desc": "Another book, another course, another person to feed on. The fire is choking on the pile."
+        "face": "echo",
+        "echo_of": "火_木.function.definition_friction",
+        "desc": "Another book, another course, another person to learn from, and readiness keeps moving its own finish line. The fire is choking on the pile."
       },
       {
         "phrase": "Buried in ideas",
         "dim": "too many plans",
         "door": "mind",
-        "desc": "So much to burn that nothing catches. The best plan is under six others."
+        "face": "excess",
+        "echo_of": "火_木.carry.excess",
+        "desc": "Fuel stacked so high the flame never gets lit. So much to burn that nothing catches, and the best plan is under six others."
+      },
+      {
+        "phrase": "Formalizes everything",
+        "dim": "quiet moments",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "火_土.function.definition_friction",
+        "desc": "Every idea becomes a project and every project becomes permanent. The output hardens while the light behind it thins."
+      },
+      {
+        "phrase": "Reopens settled things",
+        "dim": "settled things",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "火_金.function.definition_friction",
+        "desc": "Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled."
+      },
+      {
+        "phrase": "Overthinks the leap",
+        "dim": "second-guessing",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "火_水.function.definition_friction",
+        "desc": "Every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would."
       }
     ],
     "__ore": {
@@ -375,6 +403,71 @@
           "desc": "You give the warmth away and never send the bill. Years in, nobody knows there was one, and you are the last to check the balance.",
           "why": "door audit 2026-09-16: mismatch — the item spoke another door (or an underuse cost) and was replaced at door altitude"
         }
+      ],
+      "retired_derivation_law_2026-09-16": [
+        {
+          "phrase": "No hidden agenda",
+          "dim": "hard days",
+          "door": "body",
+          "desc": "Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Keeps it close",
+          "dim": "close bonds",
+          "door": "body",
+          "desc": "The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Feeds on daylight",
+          "dim": "refueling",
+          "door": "mind",
+          "desc": "You feed on what is around you. A good morning, a good friend, a good idea, and you are lit again.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Catches the mood",
+          "dim": "reading a mood",
+          "door": "mind",
+          "desc": "You know the weather of a place the moment you walk in, and you adjust your light to it.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Bright under pressure",
+          "dim": "bad days",
+          "door": "order",
+          "desc": "The harder the day, the steadier the shine. People stand nearer to you when things go wrong.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Runs on empty",
+          "dim": "personal reserves",
+          "door": "body",
+          "desc": "You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Fills every silence",
+          "dim": "quiet moments",
+          "door": "expression",
+          "desc": "Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Smiles on schedule",
+          "dim": "authenticity",
+          "door": "order",
+          "desc": "The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Last log burning",
+          "dim": "the last reserve",
+          "door": "body",
+          "desc": "The reserve is gone and the light is still on. You will find out tomorrow what that cost.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        }
       ]
     },
     "door_note": {
@@ -384,5 +477,6 @@
       "action": "Metal",
       "order": "Water"
     }
-  }
+  },
+  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume."
 }

@@ -30,90 +30,118 @@
     "dm_overview": "The Candle is Yin Fire, the fire that agreed to be small. It keeps the hours after dark, when the great light has gone home and warmth becomes a personal matter. Lamp light, hearth light, the flame a hand can shelter. In a night window it holds one table, one page, one face, while the dark politely keeps its distance.",
     "gifts": [
       {
-        "phrase": "Deeply present",
-        "dim": "one-on-one",
-        "door": "body",
-        "desc": "When you're with someone, you're entirely with them. Phones stay dark, time goes quiet, and they leave feeling seen in a way that's hard to find."
-      },
-      {
-        "phrase": "Misses nothing",
-        "dim": "details",
-        "door": "mind",
-        "desc": "The small tell, the changed tone, the detail everyone walked past. You caught it, and three months later it turned out to be the whole story."
-      },
-      {
         "phrase": "Fully committed",
         "dim": "the inner circle",
         "door": "body",
-        "desc": "What you choose gets everything you have. The people and work inside your circle never have to wonder where they stand."
+        "face": "echo",
+        "echo_of": "火_火.function.definition_catalyst",
+        "desc": "What you choose gets all the energy you have, in bursts, at close range. The people inside your circle never wonder where they stand."
       },
       {
-        "phrase": "Rekindles people",
-        "dim": "influence on others",
-        "door": "expression",
-        "desc": "Your belief in someone works at close range. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again."
-      },
-      {
-        "phrase": "Keeps the flame",
-        "dim": "hard seasons",
-        "door": "order",
-        "desc": "The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night."
+        "phrase": "Deeply present",
+        "dim": "attention",
+        "door": "body",
+        "face": "wide",
+        "echo_of": "火_火.function.definition_catalyst",
+        "desc": "Plenty of light and all of it pointed at one person. Phones stay dark, time goes quiet, and they leave feeling seen in a way that is hard to find."
       },
       {
         "phrase": "Studies one thing",
-        "dim": "expertise",
+        "dim": "depth",
         "door": "mind",
-        "desc": "One subject, years deep. You know it the way people know a face."
+        "face": "echo",
+        "echo_of": "火_木.function.definition_catalyst",
+        "desc": "One subject, years deep, stacked quietly like fuel. You know it the way people know a face, and it burns later as brilliance."
       },
       {
-        "phrase": "Tends what's near",
-        "dim": "small work",
+        "phrase": "Misses nothing",
+        "dim": "small details",
+        "door": "mind",
+        "face": "wide",
+        "echo_of": "火_木.carry.wide",
+        "desc": "With this much fuel behind the flame, the small tell, the changed tone, the detail everyone walked past all catch your eye. Three months later it turned out to be the whole story."
+      },
+      {
+        "phrase": "Rekindles people",
+        "dim": "close range",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "火_土.function.definition_catalyst",
+        "desc": "Your belief in someone works at close range and lasts. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again."
+      },
+      {
+        "phrase": "Cracks hard problems",
+        "dim": "the work you pick",
         "door": "action",
-        "desc": "The small work in arm’s reach gets done well and on time. That is where you build."
+        "face": "echo",
+        "echo_of": "火_金.function.definition_catalyst",
+        "desc": "Easy work wastes you. Give you one difficult, valuable thing within arm's reach and the heat finally has something to work on."
+      },
+      {
+        "phrase": "Listens to doubt",
+        "dim": "before the leap",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "火_水.function.definition_catalyst",
+        "desc": "One calm person whose questions slow you down before the leap. Your best decisions all survived a night of doubt."
       }
     ],
     "shadows": [
       {
+        "phrase": "Can't cool down",
+        "dim": "rest",
+        "door": "body",
+        "face": "echo",
+        "echo_of": "火_火.function.definition_friction",
+        "desc": "More heat than your days can spend. Sleep will not come, and the intensity leaks into every conversation until rest feels like punishment."
+      },
+      {
         "phrase": "Plays favorites",
-        "dim": "the periphery",
+        "dim": "the edge of attention",
         "door": "body",
-        "desc": "Whoever holds your focus gets daylight. Everyone else gets dusk. The people at the edge of your attention feel the difference, and some of them mind."
+        "face": "excess",
+        "echo_of": "火_火.carry.excess",
+        "desc": "Whoever holds your focus gets daylight and everyone else gets dusk. So much light on one spot that nothing else is visible, and some people mind."
       },
       {
-        "phrase": "One-track mind",
-        "dim": "multitasking",
+        "phrase": "Never ready enough",
+        "dim": "preparation",
         "door": "mind",
-        "desc": "You genuinely cannot split the flame. The second project, the waiting text, the simmering pot. They all wait in the dark until you turn."
+        "face": "echo",
+        "echo_of": "火_木.function.definition_friction",
+        "desc": "One more course, one more plan, readiness that keeps moving its own finish line. The wick is ready. You are still gathering."
       },
       {
-        "phrase": "Takes it personally",
-        "dim": "criticism",
-        "door": "order",
-        "desc": "What you're devoted to has no separation from you. A criticism of the work lands as a criticism of your soul, every time."
+        "phrase": "Smothered by plans",
+        "dim": "too many plans",
+        "door": "mind",
+        "face": "excess",
+        "echo_of": "火_木.carry.excess",
+        "desc": "So much fuel stacked around one small flame that it cannot catch. The best plan is under six others."
       },
       {
-        "phrase": "Comes on strong",
-        "dim": "presence",
+        "phrase": "Makes it permanent",
+        "dim": "moments",
         "door": "expression",
-        "desc": "The full beam of your attention can arrive harder than the moment asked for. Some things needed gentle warmth and got the blowtorch."
+        "face": "echo",
+        "echo_of": "火_土.function.definition_friction",
+        "desc": "The evening that should have been an evening becomes a tradition, a plan, a commitment. Output hardens faster than it can live."
       },
       {
-        "phrase": "Nothing left over",
-        "dim": "outside the circle",
-        "door": "body",
-        "desc": "The circle gets all of you. Outside it there is no light, and no one you can see."
-      },
-      {
-        "phrase": "Stares at flaws",
-        "dim": "one detail",
-        "door": "mind",
-        "desc": "One crack, and the whole night is spent on it. The rest of the wall stops existing."
-      },
-      {
-        "phrase": "Too many candles",
-        "dim": "commitments",
+        "phrase": "Keeps reworking it",
+        "dim": "finishing",
         "door": "action",
-        "desc": "You lit more than one candle can keep. Now every flame is small and getting smaller."
+        "face": "echo",
+        "echo_of": "火_金.function.definition_friction",
+        "desc": "Signed, shipped, agreed, and you are back at it with a smaller brush. Done is a decision you keep reopening."
+      },
+      {
+        "phrase": "Doubts every spark",
+        "dim": "second-guessing",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "火_水.function.definition_friction",
+        "desc": "Every plan reviewed until the moment passes, every small light second-guessed into a maybe. The checking costs more than the mistake would."
       }
     ],
     "__ore": {
@@ -349,6 +377,64 @@
           ],
           "why": "thin-Body item; no shadow face for a catalyst"
         }
+      ],
+      "retired_derivation_law_2026-09-16": [
+        {
+          "phrase": "Keeps the flame",
+          "dim": "hard seasons",
+          "door": "order",
+          "desc": "The light is smaller these days, but it hasn't gone out. Through stretches that extinguished louder fires, yours kept burning, quietly, all night.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Tends what's near",
+          "dim": "small work",
+          "door": "action",
+          "desc": "The small work in arm’s reach gets done well and on time. That is where you build.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "One-track mind",
+          "dim": "multitasking",
+          "door": "mind",
+          "desc": "You genuinely cannot split the flame. The second project, the waiting text, the simmering pot. They all wait in the dark until you turn.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Takes it personally",
+          "dim": "criticism",
+          "door": "order",
+          "desc": "What you're devoted to has no separation from you. A criticism of the work lands as a criticism of your soul, every time.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Comes on strong",
+          "dim": "presence",
+          "door": "expression",
+          "desc": "The full beam of your attention can arrive harder than the moment asked for. Some things needed gentle warmth and got the blowtorch.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Nothing left over",
+          "dim": "outside the circle",
+          "door": "body",
+          "desc": "The circle gets all of you. Outside it there is no light, and no one you can see.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Stares at flaws",
+          "dim": "one detail",
+          "door": "mind",
+          "desc": "One crack, and the whole night is spent on it. The rest of the wall stops existing.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Too many candles",
+          "dim": "commitments",
+          "door": "action",
+          "desc": "You lit more than one candle can keep. Now every flame is small and getting smaller.",
+          "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        }
       ]
     },
     "door_note": {
@@ -358,5 +444,6 @@
       "action": "Metal",
       "order": "Water"
     }
-  }
+  },
+  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (REA_16 §7, the pool derivation prompt; the Blade is the approved template). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume."
 }

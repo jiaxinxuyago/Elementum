@@ -26,62 +26,90 @@
 | `dm_mechanism` | Yin Earth that nourishes quietly — fertile ground that asks for no credit. |
 | `yourNature_desc` | You make the people around you better, mostly by giving them somewhere good to grow. Nobody performs it less than you do. Season after season the same trade repeats, your ground for their growing, and you notice what it's costing you about a season too late. |
 | `dm_overview` | The Field is Yin Earth, the ground that lets itself be opened. It keeps late summer, when the year's work ripens and the soil shows what it has been quietly doing all along. It is the tilled dark earth of the family plot, taking seed, rain, even ash, and answering with harvest. All things return to it, and it turns none of them away. |
-| `gifts[0].phrase` | Anticipates needs |
-| `gifts[0].dim` | unspoken needs |
-| `gifts[0].door` | mind |
-| `gifts[0].desc` | The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did. |
-| `gifts[1].phrase` | Grows people |
-| `gifts[1].dim` | others' growth |
-| `gifts[1].door` | expression |
-| `gifts[1].desc` | People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly. |
-| `gifts[2].phrase` | Keeps every promise |
-| `gifts[2].dim` | promises |
-| `gifts[2].door` | order |
-| `gifts[2].desc` | Your care doesn't have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that. |
-| `gifts[3].phrase` | Restful company |
-| `gifts[3].dim` | comfort |
-| `gifts[3].door` | body |
-| `gifts[3].desc` | Nobody performs around you. Friends unclench, say the true version, and stay an hour longer than they planned. Your presence works like fallow ground. |
-| `gifts[4].phrase` | Quietly essential |
-| `gifts[4].dim` | being noticed |
-| `gifts[4].door` | body |
-| `gifts[4].desc` | Nothing about you announces itself. But when you step back for a while, everything wilts a little, and everyone finally notices who was watering. |
-| `gifts[5].phrase` | Reads the season |
-| `gifts[5].dim` | timing |
-| `gifts[5].door` | mind |
-| `gifts[5].desc` | You know when to plant and when to leave the ground alone. Timing is the thing you never explain. |
-| `gifts[6].phrase` | Feeds the table |
-| `gifts[6].dim` | providing |
-| `gifts[6].door` | action |
-| `gifts[6].desc` | There is always enough. Nobody asks how. You made sure before they were hungry. |
-| `shadows[0].phrase` | Too agreeable |
-| `shadows[0].dim` | own preferences |
+| `gifts[0].phrase` | Restful company |
+| `gifts[0].dim` | presence |
+| `gifts[0].door` | body |
+| `gifts[0].face` | echo |
+| `gifts[0].echo_of` | 土_土.function.definition_catalyst |
+| `gifts[0].desc` | Nobody performs around you. The physical calm under everything lets friends unclench, say the true version, and stay an hour longer than they planned. |
+| `gifts[1].phrase` | Quietly essential |
+| `gifts[1].dim` | being noticed |
+| `gifts[1].door` | body |
+| `gifts[1].face` | wide |
+| `gifts[1].echo_of` | 土_土.function.definition_catalyst |
+| `gifts[1].desc` | Plenty of ground and none of it announces itself. When you step back for a while, everything wilts a little, and everyone finally notices who was watering. |
+| `gifts[2].phrase` | Remembers who helped |
+| `gifts[2].dim` | how you learn |
+| `gifts[2].door` | mind |
+| `gifts[2].face` | echo |
+| `gifts[2].echo_of` | 土_火.function.definition_catalyst |
+| `gifts[2].desc` | Affection, praise and festivity all count as study for you. You learn best from people who were warm while they taught, and you never forget them. |
+| `gifts[3].phrase` | Reads the season |
+| `gifts[3].dim` | timing |
+| `gifts[3].door` | mind |
+| `gifts[3].face` | wide |
+| `gifts[3].echo_of` | 土_火.carry.wide |
+| `gifts[3].desc` | With this much warmth in the ground, you know when to plant and when to leave it alone. Timing is the thing you never explain. |
+| `gifts[4].phrase` | Few words, exact |
+| `gifts[4].dim` | speaking up |
+| `gifts[4].door` | expression |
+| `gifts[4].face` | echo |
+| `gifts[4].echo_of` | 土_金.function.definition_catalyst |
+| `gifts[4].desc` | You speak rarely and it lands. The exact word, the finished piece, the standard people quote after you leave. |
+| `gifts[5].phrase` | Feeds the table |
+| `gifts[5].dim` | provision |
+| `gifts[5].door` | action |
+| `gifts[5].face` | echo |
+| `gifts[5].echo_of` | 土_水.function.definition_catalyst |
+| `gifts[5].desc` | There is always enough. Money, chances, people in motion pass through your steady hands, and nobody asks how it was there before they were hungry. |
+| `gifts[6].phrase` | Keeps every promise |
+| `gifts[6].dim` | obligations |
+| `gifts[6].door` | order |
+| `gifts[6].face` | echo |
+| `gifts[6].echo_of` | 土_木.function.definition_catalyst |
+| `gifts[6].desc` | Your care does not have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that. |
+| `shadows[0].phrase` | Takes the mud |
+| `shadows[0].dim` | what gets dropped |
 | `shadows[0].door` | body |
-| `shadows[0].desc` | The group picks the plan and you say it's fine. It is, mostly. Somewhere under all the years of fine sits a list of things you actually wanted that nobody has ever heard. |
-| `shadows[1].phrase` | Takes the mud |
-| `shadows[1].dim` | what gets dropped on you |
+| `shadows[0].face` | echo |
+| `shadows[0].echo_of` | 土_土.function.definition_friction |
+| `shadows[0].desc` | Heaviness accumulating. Everything anyone drops goes into you and nothing drains out, and the field that grew things is turning to mud. |
+| `shadows[1].phrase` | Too agreeable |
+| `shadows[1].dim` | your own wants |
 | `shadows[1].door` | body |
-| `shadows[1].desc` | Everything anyone drops goes into you and nothing drains out. The field that grew things is turning to mud. |
-| `shadows[2].phrase` | Can't say no |
-| `shadows[2].dim` | saying no |
-| `shadows[2].door` | order |
-| `shadows[2].desc` | The request lands and the yes is out before you've checked the calendar or the tank. Refusing feels like frost, so you never learned it. |
-| `shadows[3].phrase` | Smothers a little |
-| `shadows[3].dim` | hard lessons |
-| `shadows[3].door` | expression |
-| `shadows[3].desc` | Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed. |
-| `shadows[4].phrase` | Worn thin |
-| `shadows[4].dim` | personal reserves |
-| `shadows[4].door` | action |
-| `shadows[4].desc` | Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field. |
-| `shadows[5].phrase` | Burns the seedlings |
-| `shadows[5].dim` | too much heat |
-| `shadows[5].door` | mind |
-| `shadows[5].desc` | Too much heat and nothing grows. You are busy, warm, and producing nothing you wanted. |
-| `shadows[6].phrase` | Overheats on praise |
-| `shadows[6].dim` | being praised |
-| `shadows[6].door` | mind |
-| `shadows[6].desc` | Fed on praise until the ground bakes hard. The softness that made things grow is the first thing to go. |
+| `shadows[1].face` | excess |
+| `shadows[1].echo_of` | 土_土.carry.excess |
+| `shadows[1].desc` | So much ground given over to everyone else that nothing of your own can root. The group picks the plan and you say it is fine. It is always fine. |
+| `shadows[2].phrase` | Overheats on praise |
+| `shadows[2].dim` | praise |
+| `shadows[2].door` | mind |
+| `shadows[2].face` | echo |
+| `shadows[2].echo_of` | 土_火.function.definition_friction |
+| `shadows[2].desc` | Praise, sparks, novelty taken in all day while real understanding stays shallow. The warmth is spending you, and it feels like learning. |
+| `shadows[3].phrase` | Burns the seedlings |
+| `shadows[3].dim` | producing |
+| `shadows[3].door` | mind |
+| `shadows[3].face` | excess |
+| `shadows[3].echo_of` | 土_火.carry.excess |
+| `shadows[3].desc` | Baked hard by too much heat. Busy, warm, and producing nothing you wanted. |
+| `shadows[4].phrase` | Drained by demands |
+| `shadows[4].dim` | output on demand |
+| `shadows[4].door` | expression |
+| `shadows[4].face` | echo |
+| `shadows[4].echo_of` | 土_金.function.definition_friction |
+| `shadows[4].desc` | Everyone wants a harvest, and the field gives one every season without lying fallow. Producing on demand is starting to hollow the ground. |
+| `shadows[5].phrase` | Counts every grain |
+| `shadows[5].dim` | control |
+| `shadows[5].door` | action |
+| `shadows[5].face` | echo |
+| `shadows[5].echo_of` | 土_水.function.definition_friction |
+| `shadows[5].desc` | Accounts checked daily, favors tracked, every flow managed past usefulness. The control spends the calm it was meant to protect. |
+| `shadows[6].phrase` | Can't say no |
+| `shadows[6].dim` | refusing |
+| `shadows[6].door` | order |
+| `shadows[6].face` | echo |
+| `shadows[6].echo_of` | 土_木.function.definition_friction |
+| `shadows[6].desc` | Everyone rooted in you, nothing rooted for you. The request lands and the yes is out before you have checked the calendar or the tank. |
 | `door_note.body` | Earth |
 | `door_note.mind` | Fire |
 | `door_note.expression` | Metal |
@@ -186,3 +214,23 @@
 | `retired_band_pools.shadows[4].desc` | Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field. |
 | `retired_band_pools.shadows[4].bands` | open |
 | `retired_thin_self_items` |  |
+| `retired_derivation_law_2026-09-16[0].phrase` | Anticipates needs |
+| `retired_derivation_law_2026-09-16[0].dim` | unspoken needs |
+| `retired_derivation_law_2026-09-16[0].door` | mind |
+| `retired_derivation_law_2026-09-16[0].desc` | The tea appears before the cough. The help arrives before the asking. You noticed what someone needed a full day before they did. |
+| `retired_derivation_law_2026-09-16[0].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[1].phrase` | Grows people |
+| `retired_derivation_law_2026-09-16[1].dim` | others' growth |
+| `retired_derivation_law_2026-09-16[1].door` | expression |
+| `retired_derivation_law_2026-09-16[1].desc` | People become better versions of themselves around you and credit themselves entirely. They never see the conditions you built under their feet. You prefer it that way, mostly. |
+| `retired_derivation_law_2026-09-16[1].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[2].phrase` | Smothers a little |
+| `retired_derivation_law_2026-09-16[2].dim` | hard lessons |
+| `retired_derivation_law_2026-09-16[2].door` | expression |
+| `retired_derivation_law_2026-09-16[2].desc` | Sometimes the kindest soil grows a weaker root. You can tend a person past the point where struggling was the thing they needed. |
+| `retired_derivation_law_2026-09-16[2].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[3].phrase` | Worn thin |
+| `retired_derivation_law_2026-09-16[3].dim` | personal reserves |
+| `retired_derivation_law_2026-09-16[3].door` | action |
+| `retired_derivation_law_2026-09-16[3].desc` | Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field. |
+| `retired_derivation_law_2026-09-16[3].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
