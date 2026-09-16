@@ -795,22 +795,22 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
 
     // GIFTS & SHADOWS — door-tagged pools ×7 (REA_02 §5h): phrase · door (the §5f function) · desc. Station truth: by_axis/json/STEM/*.json
     gifts: [
-      { phrase: `Crisis performer`, door: 'order', desc: `The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved.` },
-      { phrase: `First-handshake read`, door: 'mind', desc: `Ten minutes into meeting someone, you know who they are. Whether you say so is another matter. Months later everyone else catches up to the handshake.` },
-      { phrase: `No dressed-up answers`, door: 'expression', desc: `When you do speak, you say the thing the table has been talking around. People save their hardest questions for you because the answer comes back plain.` },
-      { phrase: `Quiet loyalty`, door: 'body', desc: `Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time.` },
-      { phrase: `Careful finisher`, door: 'body', desc: `You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing.` },
-      { phrase: `Clears dead weight`, door: 'action', desc: `Handed a plan with twelve moving parts, you find the three that matter and the nine that were there for comfort.` },
-      { phrase: `Practices alone`, door: 'mind', desc: `The skill arrives finished. Nobody saw the quiet months of practice behind it, and you like it that way.` },
+      { phrase: `Holds its form`, door: 'body', face: 'echo', desc: `You keep your shape long after the fuel is low. Nobody sees you run down, because the line stays straight while it happens.` },
+      { phrase: `Careful finisher`, door: 'body', face: 'wide', desc: `You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing.` },
+      { phrase: `First-handshake read`, door: 'mind', face: 'echo', desc: `Ten minutes in, you know who they are. Years of quiet watching went in first, and it comes back as judgment. Months later everyone else catches up to the handshake.` },
+      { phrase: `Practices alone`, door: 'mind', face: 'wide', desc: `The skill arrives finished. Nobody saw the quiet months of practice behind it, and you like it that way.` },
+      { phrase: `No dressed-up answers`, door: 'expression', face: 'echo', desc: `What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain.` },
+      { phrase: `Prunes for growth`, door: 'action', face: 'echo', desc: `You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl.` },
+      { phrase: `Crisis performer`, door: 'order', face: 'echo', desc: `The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved.` },
     ],
     shadows: [
-      { phrase: `Stays decided`, door: 'body', desc: `Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut.` },
-      { phrase: `Own harshest critic`, door: 'order', desc: `The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days.` },
-      { phrase: `Edge before warmth`, door: 'body', desc: `The read happens before the smile does. New people meet the edge first, and some never wait around for the rest.` },
-      { phrase: `Right too early`, door: 'mind', desc: `You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone.` },
-      { phrase: `Lives inside plans`, door: 'mind', desc: `The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it.` },
-      { phrase: `Overshoots the point`, door: 'expression', desc: `The clean line was there in the first sentence. You kept going, and by the fourth the table had stopped hearing the first.` },
-      { phrase: `Cuts too deep`, door: 'action', desc: `Asked to trim, you take it to the frame. The part that was working goes out with the part that was not.` },
+      { phrase: `Wound too tight`, door: 'body', face: 'echo', desc: `Discipline with nothing to spend itself on turns into tension. It lives in your shoulders and your jaw, and people read it before you speak.` },
+      { phrase: `Stays decided`, door: 'body', face: 'excess', desc: `Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut.` },
+      { phrase: `Lives inside plans`, door: 'mind', face: 'echo', desc: `The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it.` },
+      { phrase: `Thinks, never cuts`, door: 'mind', face: 'excess', desc: `Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth.` },
+      { phrase: `Spills everywhere`, door: 'expression', face: 'echo', desc: `Talent with no banks runs into snacks, scrolling, remarks that cut deeper than you meant, and half-made things. Nothing is wrong, exactly. That is the problem.` },
+      { phrase: `Cuts without harvest`, door: 'action', face: 'echo', desc: `Effort goes wherever the branches already point: old ground held too hard, new shoots started too freely. The season ends with plenty of motion and nothing brought in.` },
+      { phrase: `Own harshest critic`, door: 'order', face: 'echo', desc: `Every rule runs hot and every moment is an emergency. The standard presses down on people first, then hardest on you. Finishing and feeling finished are two different days.` },
     ],
 
     blocks: [

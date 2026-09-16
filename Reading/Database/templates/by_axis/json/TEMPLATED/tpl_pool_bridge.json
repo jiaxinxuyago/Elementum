@@ -9,11 +9,11 @@
     "REA_02 §5h",
     "DES_04 §AM.11 P4 v3"
   ],
-  "status_note": "LIVE 2026-09-15 · P4 panel bridge lines",
-  "budget": "≤10w",
+  "status_note": "LIVE 2026-09-16 · P4 panel bridge lines in the capability register (owner 2026-09-16: the material's reach, not a chart claim; the carry card keeps the chart claims)",
+  "budget": "≤12w",
   "candidates": {
-    "gifts": "Through the energies your chart asks you to seek.",
-    "shadows": "Through the energies already carrying weight.",
+    "gifts": "What {Arch} can do where your chart asks for more.",
+    "shadows": "Where {Arch} overgrows when an energy carries weight.",
     "gifts_balanced": "These light up when your core runs balanced.",
     "shadows_balanced": "These swell when the balance slips."
   }

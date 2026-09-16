@@ -130,7 +130,7 @@ function write(axis, name, body) {
     // `dim` is authoring metadata on tagged-pool items (REA_16 §3) — it lives
     // station-side only and is stripped before comparing against code.
     const stripDim = (v) => Array.isArray(v)
-      ? v.map((it) => { if (it && typeof it === 'object' && 'dim' in it) { const { dim, ...keep } = it; return keep; } return it; })
+      ? v.map((it) => { if (it && typeof it === 'object' && ('dim' in it || 'echo_of' in it)) { const { dim, echo_of, ...keep } = it; return keep; } return it; })
       : v;
     for (const [k, v] of Object.entries(codeVars)) {
       if (!(k in stationVars)) { console.log(`OWED     ${axis}/${name}.json :: ${k} (live-code field missing from station)`); drift++; }
@@ -367,13 +367,13 @@ T('tpl_carry_row', 'LIVE 2026-09-15 · P4 carry card rows (assembly law, code-re
   core_label: '{Role} · {El} · you · {pct}',
   assembly: "sentence = ELEMENT_PAIR[core_el].carry[pole].clause for each energy in the manual's order (abundant catalyst → carry.wide), joined as sentences; remedy = the same rows' remedies; touch = the chosen P4 items whose door resolves to an energy in the row",
 });
-T('tpl_pool_bridge', 'LIVE 2026-09-15 · P4 panel bridge lines', '≤10w', {
-  gifts: 'Through the energies your chart asks you to seek.',
-  shadows: 'Through the energies already carrying weight.',
+T('tpl_pool_bridge', 'LIVE 2026-09-16 · P4 panel bridge lines in the capability register (owner 2026-09-16: the material\'s reach, not a chart claim; the carry card keeps the chart claims)', '≤12w', {
+  gifts: 'What {Arch} can do where your chart asks for more.',
+  shadows: 'Where {Arch} overgrows when an energy carries weight.',
   gifts_balanced: 'These light up when your core runs balanced.',
   shadows_balanced: 'These swell when the balance slips.',
 });
-T('tpl_pool_note', 'LIVE 2026-09-15 · P4 panel foot', '≤12w', { pattern: "Six of {Arch}'s {n}. Your chart picks which show." });
+T('tpl_pool_note', 'LIVE 2026-09-16 · P4 panel foot (count follows the chart, owner R3)', '≤14w', { pattern: "{Shown} of {Arch}'s {n}. Your chart picks which show, and how many." });
 T('tpl_presence_frames', 'PLANNED', '≤20w ×4', { pattern: null, clauses: { dominant: null, present: null, scarce: null, absent: null } });
 T('tpl_cycle_line', 'VOCABULARY LOCKED (REA_02 §5d, owner 2026-08-14) — the 生/克 cognition floor; surfaces pending (wheel arrows · seat derivations · team sentence · Codex chapter)', 'law verb + image line ≤8w · ×10', {
   pattern: '{ElA} {feeds|tames} {ElB} — {image line}',

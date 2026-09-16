@@ -208,34 +208,48 @@
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Crisis performer |
-| `0.dim` | under pressure |
-| `0.door` | order |
-| `0.desc` | The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved. |
-| `1.phrase` | First-handshake read |
-| `1.dim` | first impressions |
-| `1.door` | mind |
-| `1.desc` | Ten minutes into meeting someone, you know who they are. Whether you say so is another matter. Months later everyone else catches up to the handshake. |
-| `2.phrase` | No dressed-up answers |
-| `2.dim` | communication |
-| `2.door` | expression |
-| `2.desc` | When you do speak, you say the thing the table has been talking around. People save their hardest questions for you because the answer comes back plain. |
-| `3.phrase` | Quiet loyalty |
-| `3.dim` | close bonds |
-| `3.door` | body |
-| `3.desc` | Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time. |
-| `4.phrase` | Careful finisher |
-| `4.dim` | at work |
-| `4.door` | body |
-| `4.desc` | You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing. |
-| `5.phrase` | Clears dead weight |
+| `0.phrase` | Holds its form |
+| `0.dim` | running low |
+| `0.door` | body |
+| `0.face` | echo |
+| `0.echo_of` | 金_金.function.definition_catalyst |
+| `0.desc` | You keep your shape long after the fuel is low. Nobody sees you run down, because the line stays straight while it happens. |
+| `1.phrase` | Careful finisher |
+| `1.dim` | at work |
+| `1.door` | body |
+| `1.face` | wide |
+| `1.echo_of` | 金_金.function.definition_catalyst |
+| `1.desc` | You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing. |
+| `2.phrase` | First-handshake read |
+| `2.dim` | first impressions |
+| `2.door` | mind |
+| `2.face` | echo |
+| `2.echo_of` | 金_土.function.definition_catalyst |
+| `2.desc` | Ten minutes in, you know who they are. Years of quiet watching went in first, and it comes back as judgment. Months later everyone else catches up to the handshake. |
+| `3.phrase` | Practices alone |
+| `3.dim` | practice |
+| `3.door` | mind |
+| `3.face` | wide |
+| `3.echo_of` | 金_土.carry.wide |
+| `3.desc` | The skill arrives finished. Nobody saw the quiet months of practice behind it, and you like it that way. |
+| `4.phrase` | No dressed-up answers |
+| `4.dim` | communication |
+| `4.door` | expression |
+| `4.face` | echo |
+| `4.echo_of` | 金_水.function.definition_catalyst |
+| `4.desc` | What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain. |
+| `5.phrase` | Prunes for growth |
 | `5.dim` | trimming a plan |
 | `5.door` | action |
-| `5.desc` | Handed a plan with twelve moving parts, you find the three that matter and the nine that were there for comfort. |
-| `6.phrase` | Practices alone |
-| `6.dim` | practice |
-| `6.door` | mind |
-| `6.desc` | The skill arrives finished. Nobody saw the quiet months of practice behind it, and you like it that way. |
+| `5.face` | echo |
+| `5.echo_of` | 金_木.function.definition_catalyst |
+| `5.desc` | You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl. |
+| `6.phrase` | Crisis performer |
+| `6.dim` | under pressure |
+| `6.door` | order |
+| `6.face` | echo |
+| `6.echo_of` | 金_火.function.definition_catalyst |
+| `6.desc` | The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved. |
 
 ### The Jewel · 辛
 

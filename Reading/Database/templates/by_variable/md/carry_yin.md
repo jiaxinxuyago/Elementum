@@ -87,6 +87,8 @@
 | `catalyst.remedy` | Rest and study are the polishing, not stalling. |
 | `friction.clause` | The setting closes over the stone: so much preparation that the jewel never leaves the box. |
 | `friction.remedy` | Take it out and wear it somewhere real. |
+| `excess.clause` | Too much earth buries the metal: talent that never surfaces, thought that never becomes a cut. |
+| `excess.remedy` | Take it out of the box. Cut one thing. |
 
 ### Metal core × Metal — the Core · 金_金
 

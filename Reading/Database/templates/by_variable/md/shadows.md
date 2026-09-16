@@ -208,34 +208,48 @@
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Stays decided |
-| `0.dim` | second chances |
+| `0.phrase` | Wound too tight |
+| `0.dim` | unspent discipline |
 | `0.door` | body |
-| `0.desc` | Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut. |
-| `1.phrase` | Own harshest critic |
-| `1.dim` | self-worth |
-| `1.door` | order |
-| `1.desc` | The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days. |
-| `2.phrase` | Edge before warmth |
-| `2.dim` | first meetings |
-| `2.door` | body |
-| `2.desc` | The read happens before the smile does. New people meet the edge first, and some never wait around for the rest. |
-| `3.phrase` | Right too early |
-| `3.dim` | the long view |
+| `0.face` | echo |
+| `0.echo_of` | 金_金.function.definition_friction |
+| `0.desc` | Discipline with nothing to spend itself on turns into tension. It lives in your shoulders and your jaw, and people read it before you speak. |
+| `1.phrase` | Stays decided |
+| `1.dim` | second chances |
+| `1.door` | body |
+| `1.face` | excess |
+| `1.echo_of` | 金_金.carry.excess |
+| `1.desc` | Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut. |
+| `2.phrase` | Lives inside plans |
+| `2.dim` | testing the plan |
+| `2.door` | mind |
+| `2.face` | echo |
+| `2.echo_of` | 金_土.function.definition_friction |
+| `2.desc` | The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it. |
+| `3.phrase` | Thinks, never cuts |
+| `3.dim` | showing the work |
 | `3.door` | mind |
-| `3.desc` | You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone. |
-| `4.phrase` | Lives inside plans |
-| `4.dim` | testing the plan |
-| `4.door` | mind |
-| `4.desc` | The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it. |
-| `5.phrase` | Overshoots the point |
-| `5.dim` | saying too much |
-| `5.door` | expression |
-| `5.desc` | The clean line was there in the first sentence. You kept going, and by the fourth the table had stopped hearing the first. |
-| `6.phrase` | Cuts too deep |
-| `6.dim` | trimming |
-| `6.door` | action |
-| `6.desc` | Asked to trim, you take it to the frame. The part that was working goes out with the part that was not. |
+| `3.face` | excess |
+| `3.echo_of` | 金_土.carry.excess |
+| `3.desc` | Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth. |
+| `4.phrase` | Spills everywhere |
+| `4.dim` | saying too much |
+| `4.door` | expression |
+| `4.face` | echo |
+| `4.echo_of` | 金_水.function.definition_friction |
+| `4.desc` | Talent with no banks runs into snacks, scrolling, remarks that cut deeper than you meant, and half-made things. Nothing is wrong, exactly. That is the problem. |
+| `5.phrase` | Cuts without harvest |
+| `5.dim` | trimming |
+| `5.door` | action |
+| `5.face` | echo |
+| `5.echo_of` | 金_木.function.definition_friction |
+| `5.desc` | Effort goes wherever the branches already point: old ground held too hard, new shoots started too freely. The season ends with plenty of motion and nothing brought in. |
+| `6.phrase` | Own harshest critic |
+| `6.dim` | self-worth |
+| `6.door` | order |
+| `6.face` | echo |
+| `6.echo_of` | 金_火.function.definition_friction |
+| `6.desc` | Every rule runs hot and every moment is an emergency. The standard presses down on people first, then hardest on you. Finishing and feeling finished are two different days. |
 
 ### The Jewel · 辛
 

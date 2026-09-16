@@ -26,62 +26,90 @@
 | `dm_mechanism` | Yang Metal tempered by spring wood — strength that grew against resistance, not in its absence. |
 | `yourNature_desc` | You put the truth ahead of your own comfort, and usually ahead of your own company. People keep the clarity you hand them and stay careful around the edge it came from. The cost never comes up. You've never once shown anyone the bill. |
 | `dm_overview` | The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech. |
-| `gifts[0].phrase` | Crisis performer |
-| `gifts[0].dim` | under pressure |
-| `gifts[0].door` | order |
-| `gifts[0].desc` | The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved. |
-| `gifts[1].phrase` | First-handshake read |
-| `gifts[1].dim` | first impressions |
-| `gifts[1].door` | mind |
-| `gifts[1].desc` | Ten minutes into meeting someone, you know who they are. Whether you say so is another matter. Months later everyone else catches up to the handshake. |
-| `gifts[2].phrase` | No dressed-up answers |
-| `gifts[2].dim` | communication |
-| `gifts[2].door` | expression |
-| `gifts[2].desc` | When you do speak, you say the thing the table has been talking around. People save their hardest questions for you because the answer comes back plain. |
-| `gifts[3].phrase` | Quiet loyalty |
-| `gifts[3].dim` | close bonds |
-| `gifts[3].door` | body |
-| `gifts[3].desc` | Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time. |
-| `gifts[4].phrase` | Careful finisher |
-| `gifts[4].dim` | at work |
-| `gifts[4].door` | body |
-| `gifts[4].desc` | You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing. |
-| `gifts[5].phrase` | Clears dead weight |
+| `gifts[0].phrase` | Holds its form |
+| `gifts[0].dim` | running low |
+| `gifts[0].door` | body |
+| `gifts[0].face` | echo |
+| `gifts[0].echo_of` | 金_金.function.definition_catalyst |
+| `gifts[0].desc` | You keep your shape long after the fuel is low. Nobody sees you run down, because the line stays straight while it happens. |
+| `gifts[1].phrase` | Careful finisher |
+| `gifts[1].dim` | at work |
+| `gifts[1].door` | body |
+| `gifts[1].face` | wide |
+| `gifts[1].echo_of` | 金_金.function.definition_catalyst |
+| `gifts[1].desc` | You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing. |
+| `gifts[2].phrase` | First-handshake read |
+| `gifts[2].dim` | first impressions |
+| `gifts[2].door` | mind |
+| `gifts[2].face` | echo |
+| `gifts[2].echo_of` | 金_土.function.definition_catalyst |
+| `gifts[2].desc` | Ten minutes in, you know who they are. Years of quiet watching went in first, and it comes back as judgment. Months later everyone else catches up to the handshake. |
+| `gifts[3].phrase` | Practices alone |
+| `gifts[3].dim` | practice |
+| `gifts[3].door` | mind |
+| `gifts[3].face` | wide |
+| `gifts[3].echo_of` | 金_土.carry.wide |
+| `gifts[3].desc` | The skill arrives finished. Nobody saw the quiet months of practice behind it, and you like it that way. |
+| `gifts[4].phrase` | No dressed-up answers |
+| `gifts[4].dim` | communication |
+| `gifts[4].door` | expression |
+| `gifts[4].face` | echo |
+| `gifts[4].echo_of` | 金_水.function.definition_catalyst |
+| `gifts[4].desc` | What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain. |
+| `gifts[5].phrase` | Prunes for growth |
 | `gifts[5].dim` | trimming a plan |
 | `gifts[5].door` | action |
-| `gifts[5].desc` | Handed a plan with twelve moving parts, you find the three that matter and the nine that were there for comfort. |
-| `gifts[6].phrase` | Practices alone |
-| `gifts[6].dim` | practice |
-| `gifts[6].door` | mind |
-| `gifts[6].desc` | The skill arrives finished. Nobody saw the quiet months of practice behind it, and you like it that way. |
-| `shadows[0].phrase` | Stays decided |
-| `shadows[0].dim` | second chances |
+| `gifts[5].face` | echo |
+| `gifts[5].echo_of` | 金_木.function.definition_catalyst |
+| `gifts[5].desc` | You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl. |
+| `gifts[6].phrase` | Crisis performer |
+| `gifts[6].dim` | under pressure |
+| `gifts[6].door` | order |
+| `gifts[6].face` | echo |
+| `gifts[6].echo_of` | 金_火.function.definition_catalyst |
+| `gifts[6].desc` | The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved. |
+| `shadows[0].phrase` | Wound too tight |
+| `shadows[0].dim` | unspent discipline |
 | `shadows[0].door` | body |
-| `shadows[0].desc` | Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut. |
-| `shadows[1].phrase` | Own harshest critic |
-| `shadows[1].dim` | self-worth |
-| `shadows[1].door` | order |
-| `shadows[1].desc` | The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days. |
-| `shadows[2].phrase` | Edge before warmth |
-| `shadows[2].dim` | first meetings |
-| `shadows[2].door` | body |
-| `shadows[2].desc` | The read happens before the smile does. New people meet the edge first, and some never wait around for the rest. |
-| `shadows[3].phrase` | Right too early |
-| `shadows[3].dim` | the long view |
+| `shadows[0].face` | echo |
+| `shadows[0].echo_of` | 金_金.function.definition_friction |
+| `shadows[0].desc` | Discipline with nothing to spend itself on turns into tension. It lives in your shoulders and your jaw, and people read it before you speak. |
+| `shadows[1].phrase` | Stays decided |
+| `shadows[1].dim` | second chances |
+| `shadows[1].door` | body |
+| `shadows[1].face` | excess |
+| `shadows[1].echo_of` | 金_金.carry.excess |
+| `shadows[1].desc` | Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut. |
+| `shadows[2].phrase` | Lives inside plans |
+| `shadows[2].dim` | testing the plan |
+| `shadows[2].door` | mind |
+| `shadows[2].face` | echo |
+| `shadows[2].echo_of` | 金_土.function.definition_friction |
+| `shadows[2].desc` | The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it. |
+| `shadows[3].phrase` | Thinks, never cuts |
+| `shadows[3].dim` | showing the work |
 | `shadows[3].door` | mind |
-| `shadows[3].desc` | You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone. |
-| `shadows[4].phrase` | Lives inside plans |
-| `shadows[4].dim` | testing the plan |
-| `shadows[4].door` | mind |
-| `shadows[4].desc` | The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it. |
-| `shadows[5].phrase` | Overshoots the point |
-| `shadows[5].dim` | saying too much |
-| `shadows[5].door` | expression |
-| `shadows[5].desc` | The clean line was there in the first sentence. You kept going, and by the fourth the table had stopped hearing the first. |
-| `shadows[6].phrase` | Cuts too deep |
-| `shadows[6].dim` | trimming |
-| `shadows[6].door` | action |
-| `shadows[6].desc` | Asked to trim, you take it to the frame. The part that was working goes out with the part that was not. |
+| `shadows[3].face` | excess |
+| `shadows[3].echo_of` | 金_土.carry.excess |
+| `shadows[3].desc` | Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth. |
+| `shadows[4].phrase` | Spills everywhere |
+| `shadows[4].dim` | saying too much |
+| `shadows[4].door` | expression |
+| `shadows[4].face` | echo |
+| `shadows[4].echo_of` | 金_水.function.definition_friction |
+| `shadows[4].desc` | Talent with no banks runs into snacks, scrolling, remarks that cut deeper than you meant, and half-made things. Nothing is wrong, exactly. That is the problem. |
+| `shadows[5].phrase` | Cuts without harvest |
+| `shadows[5].dim` | trimming |
+| `shadows[5].door` | action |
+| `shadows[5].face` | echo |
+| `shadows[5].echo_of` | 金_木.function.definition_friction |
+| `shadows[5].desc` | Effort goes wherever the branches already point: old ground held too hard, new shoots started too freely. The season ends with plenty of motion and nothing brought in. |
+| `shadows[6].phrase` | Own harshest critic |
+| `shadows[6].dim` | self-worth |
+| `shadows[6].door` | order |
+| `shadows[6].face` | echo |
+| `shadows[6].echo_of` | 金_火.function.definition_friction |
+| `shadows[6].desc` | Every rule runs hot and every moment is an emergency. The standard presses down on people first, then hardest on you. Finishing and feeling finished are two different days. |
 | `door_note.body` | Metal |
 | `door_note.mind` | Earth |
 | `door_note.expression` | Water |
@@ -251,3 +279,33 @@
 | `retired_thin_self_items[0].desc` | You reach an answer, then reopen it, then reopen it again. The decision everyone's waiting on is still on your desk, not because you can't decide, but because deciding never feels finished. |
 | `retired_thin_self_items[0].bands` | open |
 | `retired_thin_self_items[0].why` | thin-Body item; no shadow face for a catalyst |
+| `retired_derivation_law_2026-09-16[0].phrase` | Quiet loyalty |
+| `retired_derivation_law_2026-09-16[0].dim` | close bonds |
+| `retired_derivation_law_2026-09-16[0].door` | body |
+| `retired_derivation_law_2026-09-16[0].desc` | Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time. |
+| `retired_derivation_law_2026-09-16[0].why` | derivation law 2026-09-16: the door already carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[1].phrase` | Clears dead weight |
+| `retired_derivation_law_2026-09-16[1].dim` | trimming a plan |
+| `retired_derivation_law_2026-09-16[1].door` | action |
+| `retired_derivation_law_2026-09-16[1].desc` | Handed a plan with twelve moving parts, you find the three that matter and the nine that were there for comfort. |
+| `retired_derivation_law_2026-09-16[1].why` | derivation law 2026-09-16: the door already carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[2].phrase` | Edge before warmth |
+| `retired_derivation_law_2026-09-16[2].dim` | first meetings |
+| `retired_derivation_law_2026-09-16[2].door` | body |
+| `retired_derivation_law_2026-09-16[2].desc` | The read happens before the smile does. New people meet the edge first, and some never wait around for the rest. |
+| `retired_derivation_law_2026-09-16[2].why` | derivation law 2026-09-16: the door already carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[3].phrase` | Right too early |
+| `retired_derivation_law_2026-09-16[3].dim` | the long view |
+| `retired_derivation_law_2026-09-16[3].door` | mind |
+| `retired_derivation_law_2026-09-16[3].desc` | You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone. |
+| `retired_derivation_law_2026-09-16[3].why` | derivation law 2026-09-16: the door already carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[4].phrase` | Overshoots the point |
+| `retired_derivation_law_2026-09-16[4].dim` | saying too much |
+| `retired_derivation_law_2026-09-16[4].door` | expression |
+| `retired_derivation_law_2026-09-16[4].desc` | The clean line was there in the first sentence. You kept going, and by the fourth the table had stopped hearing the first. |
+| `retired_derivation_law_2026-09-16[4].why` | derivation law 2026-09-16: the door already carries its echo face and its wide/excess face |
+| `retired_derivation_law_2026-09-16[5].phrase` | Cuts too deep |
+| `retired_derivation_law_2026-09-16[5].dim` | trimming |
+| `retired_derivation_law_2026-09-16[5].door` | action |
+| `retired_derivation_law_2026-09-16[5].desc` | Asked to trim, you take it to the frame. The part that was working goes out with the part that was not. |
+| `retired_derivation_law_2026-09-16[5].why` | derivation law 2026-09-16: the door already carries its echo face and its wide/excess face |

@@ -318,7 +318,7 @@
 | `spared.remedy` | Keep it that way. Decide, then rest. |
 | `thin.clause` | Earth runs thin and unwanted: a little shelter, easily left. |
 | `thin.remedy` | Leave it as it is, small. |
-| `excess.clause` | Too much earth buries the metal: talent that never surfaces, thought that never becomes a cut. |
+| `excess.clause` | Too much earth clogs the metal: fed past use, the edge stalls, brooding where it should cut. |
 | `excess.remedy` | Dig out. Less study, one real cut. |
 
 ### Metal core × Metal — the Core · 金_金

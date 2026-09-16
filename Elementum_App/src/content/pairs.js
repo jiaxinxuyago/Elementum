@@ -497,11 +497,12 @@ export const PAIR_CELLS = {
       missing: { clause: `No ground under the edge: judgment made on the spot, nothing settled in first.`, remedy: `Borrow ground: a mentor, a book, one slow evening.` },
       spared: { clause: `Earth runs absent, and the edge is lighter for it: nothing to bury it, nothing to shelter in.`, remedy: `Keep it that way. Decide, then rest.` },
       thin: { clause: `Earth runs thin and unwanted: a little shelter, easily left.`, remedy: `Leave it as it is, small.` },
-      excess: { clause: `Too much earth buries the metal: talent that never surfaces, thought that never becomes a cut.`, remedy: `Dig out. Less study, one real cut.` },
+      excess: { clause: `Too much earth clogs the metal: fed past use, the edge stalls, brooding where it should cut.`, remedy: `Dig out. Less study, one real cut.` },
     },
     carry_yin: {
       catalyst: { clause: `The mine goes hungry: a fine stone with nothing behind it, brilliance spent faster than it forms.`, remedy: `Rest and study are the polishing, not stalling.` },
       friction: { clause: `The setting closes over the stone: so much preparation that the jewel never leaves the box.`, remedy: `Take it out and wear it somewhere real.` },
+      excess: { clause: `Too much earth buries the metal: talent that never surfaces, thought that never becomes a cut.`, remedy: `Take it out of the box. Cut one thing.` },
     },
   },
   '金_金': {

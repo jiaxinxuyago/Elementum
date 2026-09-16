@@ -52,7 +52,7 @@
         "remedy": "Leave it as it is, small."
       },
       "excess": {
-        "clause": "Too much earth buries the metal: talent that never surfaces, thought that never becomes a cut.",
+        "clause": "Too much earth clogs the metal: fed past use, the edge stalls, brooding where it should cut.",
         "remedy": "Dig out. Less study, one real cut."
       }
     },
@@ -64,6 +64,10 @@
       "friction": {
         "clause": "The setting closes over the stone: so much preparation that the jewel never leaves the box.",
         "remedy": "Take it out and wear it somewhere real."
+      },
+      "excess": {
+        "clause": "Too much earth buries the metal: talent that never surfaces, thought that never becomes a cut.",
+        "remedy": "Take it out of the box. Cut one thing."
       }
     }
   },

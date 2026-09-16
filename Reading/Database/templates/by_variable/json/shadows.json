@@ -303,46 +303,60 @@
         "canonical_name": "The Blade",
         "value": [
           {
+            "phrase": "Wound too tight",
+            "dim": "unspent discipline",
+            "door": "body",
+            "face": "echo",
+            "echo_of": "金_金.function.definition_friction",
+            "desc": "Discipline with nothing to spend itself on turns into tension. It lives in your shoulders and your jaw, and people read it before you speak."
+          },
+          {
             "phrase": "Stays decided",
             "dim": "second chances",
             "door": "body",
+            "face": "excess",
+            "echo_of": "金_金.carry.excess",
             "desc": "Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut."
-          },
-          {
-            "phrase": "Own harshest critic",
-            "dim": "self-worth",
-            "door": "order",
-            "desc": "The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days."
-          },
-          {
-            "phrase": "Edge before warmth",
-            "dim": "first meetings",
-            "door": "body",
-            "desc": "The read happens before the smile does. New people meet the edge first, and some never wait around for the rest."
-          },
-          {
-            "phrase": "Right too early",
-            "dim": "the long view",
-            "door": "mind",
-            "desc": "You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone."
           },
           {
             "phrase": "Lives inside plans",
             "dim": "testing the plan",
             "door": "mind",
+            "face": "echo",
+            "echo_of": "金_土.function.definition_friction",
             "desc": "The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it."
           },
           {
-            "phrase": "Overshoots the point",
-            "dim": "saying too much",
-            "door": "expression",
-            "desc": "The clean line was there in the first sentence. You kept going, and by the fourth the table had stopped hearing the first."
+            "phrase": "Thinks, never cuts",
+            "dim": "showing the work",
+            "door": "mind",
+            "face": "excess",
+            "echo_of": "金_土.carry.excess",
+            "desc": "Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth."
           },
           {
-            "phrase": "Cuts too deep",
+            "phrase": "Spills everywhere",
+            "dim": "saying too much",
+            "door": "expression",
+            "face": "echo",
+            "echo_of": "金_水.function.definition_friction",
+            "desc": "Talent with no banks runs into snacks, scrolling, remarks that cut deeper than you meant, and half-made things. Nothing is wrong, exactly. That is the problem."
+          },
+          {
+            "phrase": "Cuts without harvest",
             "dim": "trimming",
             "door": "action",
-            "desc": "Asked to trim, you take it to the frame. The part that was working goes out with the part that was not."
+            "face": "echo",
+            "echo_of": "金_木.function.definition_friction",
+            "desc": "Effort goes wherever the branches already point: old ground held too hard, new shoots started too freely. The season ends with plenty of motion and nothing brought in."
+          },
+          {
+            "phrase": "Own harshest critic",
+            "dim": "self-worth",
+            "door": "order",
+            "face": "echo",
+            "echo_of": "金_火.function.definition_friction",
+            "desc": "Every rule runs hot and every moment is an emergency. The standard presses down on people first, then hardest on you. Finishing and feeling finished are two different days."
           }
         ]
       },

@@ -303,46 +303,60 @@
         "canonical_name": "The Blade",
         "value": [
           {
-            "phrase": "Crisis performer",
-            "dim": "under pressure",
-            "door": "order",
-            "desc": "The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
-          },
-          {
-            "phrase": "First-handshake read",
-            "dim": "first impressions",
-            "door": "mind",
-            "desc": "Ten minutes into meeting someone, you know who they are. Whether you say so is another matter. Months later everyone else catches up to the handshake."
-          },
-          {
-            "phrase": "No dressed-up answers",
-            "dim": "communication",
-            "door": "expression",
-            "desc": "When you do speak, you say the thing the table has been talking around. People save their hardest questions for you because the answer comes back plain."
-          },
-          {
-            "phrase": "Quiet loyalty",
-            "dim": "close bonds",
+            "phrase": "Holds its form",
+            "dim": "running low",
             "door": "body",
-            "desc": "Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time."
+            "face": "echo",
+            "echo_of": "金_金.function.definition_catalyst",
+            "desc": "You keep your shape long after the fuel is low. Nobody sees you run down, because the line stays straight while it happens."
           },
           {
             "phrase": "Careful finisher",
             "dim": "at work",
             "door": "body",
+            "face": "wide",
+            "echo_of": "金_金.function.definition_catalyst",
             "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing."
           },
           {
-            "phrase": "Clears dead weight",
-            "dim": "trimming a plan",
-            "door": "action",
-            "desc": "Handed a plan with twelve moving parts, you find the three that matter and the nine that were there for comfort."
+            "phrase": "First-handshake read",
+            "dim": "first impressions",
+            "door": "mind",
+            "face": "echo",
+            "echo_of": "金_土.function.definition_catalyst",
+            "desc": "Ten minutes in, you know who they are. Years of quiet watching went in first, and it comes back as judgment. Months later everyone else catches up to the handshake."
           },
           {
             "phrase": "Practices alone",
             "dim": "practice",
             "door": "mind",
+            "face": "wide",
+            "echo_of": "金_土.carry.wide",
             "desc": "The skill arrives finished. Nobody saw the quiet months of practice behind it, and you like it that way."
+          },
+          {
+            "phrase": "No dressed-up answers",
+            "dim": "communication",
+            "door": "expression",
+            "face": "echo",
+            "echo_of": "金_水.function.definition_catalyst",
+            "desc": "What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain."
+          },
+          {
+            "phrase": "Prunes for growth",
+            "dim": "trimming a plan",
+            "door": "action",
+            "face": "echo",
+            "echo_of": "金_木.function.definition_catalyst",
+            "desc": "You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl."
+          },
+          {
+            "phrase": "Crisis performer",
+            "dim": "under pressure",
+            "door": "order",
+            "face": "echo",
+            "echo_of": "金_火.function.definition_catalyst",
+            "desc": "The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
           }
         ]
       },

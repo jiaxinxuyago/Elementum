@@ -161,7 +161,9 @@ export const SHAPES = {
     desc:   { type: 'string', sentenceMin: 1, sentenceMax: 3, required: true,
               note: 'The trait seen through the item\'s angle — a concrete real-life image (REA_16 §3 desc law).' },
     door:   { type: "'body' | 'mind' | 'expression' | 'action' | 'order'", required: true,
-              note: 'The §5f function the trait is exercised through (REA_02 §5h). Gift faces show when the door\'s energy is a catalyst, shadow faces when it carries weight; selectPoolByDoor picks the chart\'s trio.' },
+              note: 'The §5f function the trait is exercised through (REA_02 §5h). Gift faces show when the door\'s energy is a catalyst, shadow faces when it carries weight; selectPoolByDoor picks one chip per open door.' },
+    face:   { type: "'echo' | 'wide' | 'excess'", required: true,
+              note: 'The derivation law (owner R4, 2026-09-16): echo = cut from the pair cell\'s function definition (item[0] of each door); wide = the abundant catalyst (gifts, Body/Mind second item, from carry.wide); excess = the dominant energy (shadows, Body/Mind second item, from carry.excess). Station-side `echo_of` names the pair field the item is cut from.' },
   },
 };
 

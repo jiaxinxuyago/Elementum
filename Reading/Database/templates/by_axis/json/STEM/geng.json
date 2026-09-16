@@ -30,90 +30,118 @@
     "dm_overview": "The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech.",
     "gifts": [
       {
-        "phrase": "Crisis performer",
-        "dim": "under pressure",
-        "door": "order",
-        "desc": "The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
-      },
-      {
-        "phrase": "First-handshake read",
-        "dim": "first impressions",
-        "door": "mind",
-        "desc": "Ten minutes into meeting someone, you know who they are. Whether you say so is another matter. Months later everyone else catches up to the handshake."
-      },
-      {
-        "phrase": "No dressed-up answers",
-        "dim": "communication",
-        "door": "expression",
-        "desc": "When you do speak, you say the thing the table has been talking around. People save their hardest questions for you because the answer comes back plain."
-      },
-      {
-        "phrase": "Quiet loyalty",
-        "dim": "close bonds",
+        "phrase": "Holds its form",
+        "dim": "running low",
         "door": "body",
-        "desc": "Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time."
+        "face": "echo",
+        "echo_of": "金_金.function.definition_catalyst",
+        "desc": "You keep your shape long after the fuel is low. Nobody sees you run down, because the line stays straight while it happens."
       },
       {
         "phrase": "Careful finisher",
         "dim": "at work",
         "door": "body",
+        "face": "wide",
+        "echo_of": "金_金.function.definition_catalyst",
         "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing."
       },
       {
-        "phrase": "Clears dead weight",
-        "dim": "trimming a plan",
-        "door": "action",
-        "desc": "Handed a plan with twelve moving parts, you find the three that matter and the nine that were there for comfort."
+        "phrase": "First-handshake read",
+        "dim": "first impressions",
+        "door": "mind",
+        "face": "echo",
+        "echo_of": "金_土.function.definition_catalyst",
+        "desc": "Ten minutes in, you know who they are. Years of quiet watching went in first, and it comes back as judgment. Months later everyone else catches up to the handshake."
       },
       {
         "phrase": "Practices alone",
         "dim": "practice",
         "door": "mind",
+        "face": "wide",
+        "echo_of": "金_土.carry.wide",
         "desc": "The skill arrives finished. Nobody saw the quiet months of practice behind it, and you like it that way."
+      },
+      {
+        "phrase": "No dressed-up answers",
+        "dim": "communication",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "金_水.function.definition_catalyst",
+        "desc": "What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain."
+      },
+      {
+        "phrase": "Prunes for growth",
+        "dim": "trimming a plan",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "金_木.function.definition_catalyst",
+        "desc": "You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl."
+      },
+      {
+        "phrase": "Crisis performer",
+        "dim": "under pressure",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "金_火.function.definition_catalyst",
+        "desc": "The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
       }
     ],
     "shadows": [
       {
+        "phrase": "Wound too tight",
+        "dim": "unspent discipline",
+        "door": "body",
+        "face": "echo",
+        "echo_of": "金_金.function.definition_friction",
+        "desc": "Discipline with nothing to spend itself on turns into tension. It lives in your shoulders and your jaw, and people read it before you speak."
+      },
+      {
         "phrase": "Stays decided",
         "dim": "second chances",
         "door": "body",
+        "face": "excess",
+        "echo_of": "金_金.carry.excess",
         "desc": "Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut."
-      },
-      {
-        "phrase": "Own harshest critic",
-        "dim": "self-worth",
-        "door": "order",
-        "desc": "The bar you hold the world to is nothing next to the one you hold yourself to. Finishing something and feeling finished are two different days."
-      },
-      {
-        "phrase": "Edge before warmth",
-        "dim": "first meetings",
-        "door": "body",
-        "desc": "The read happens before the smile does. New people meet the edge first, and some never wait around for the rest."
-      },
-      {
-        "phrase": "Right too early",
-        "dim": "the long view",
-        "door": "mind",
-        "desc": "You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone."
       },
       {
         "phrase": "Lives inside plans",
         "dim": "testing the plan",
         "door": "mind",
+        "face": "echo",
+        "echo_of": "金_土.function.definition_friction",
         "desc": "The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it."
       },
       {
-        "phrase": "Overshoots the point",
-        "dim": "saying too much",
-        "door": "expression",
-        "desc": "The clean line was there in the first sentence. You kept going, and by the fourth the table had stopped hearing the first."
+        "phrase": "Thinks, never cuts",
+        "dim": "showing the work",
+        "door": "mind",
+        "face": "excess",
+        "echo_of": "金_土.carry.excess",
+        "desc": "Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth."
       },
       {
-        "phrase": "Cuts too deep",
+        "phrase": "Spills everywhere",
+        "dim": "saying too much",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "金_水.function.definition_friction",
+        "desc": "Talent with no banks runs into snacks, scrolling, remarks that cut deeper than you meant, and half-made things. Nothing is wrong, exactly. That is the problem."
+      },
+      {
+        "phrase": "Cuts without harvest",
         "dim": "trimming",
         "door": "action",
-        "desc": "Asked to trim, you take it to the frame. The part that was working goes out with the part that was not."
+        "face": "echo",
+        "echo_of": "金_木.function.definition_friction",
+        "desc": "Effort goes wherever the branches already point: old ground held too hard, new shoots started too freely. The season ends with plenty of motion and nothing brought in."
+      },
+      {
+        "phrase": "Own harshest critic",
+        "dim": "self-worth",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "金_火.function.definition_friction",
+        "desc": "Every rule runs hot and every moment is an emergency. The standard presses down on people first, then hardest on you. Finishing and feeling finished are two different days."
       }
     ],
     "__ore": {
@@ -500,6 +528,50 @@
           ],
           "why": "thin-Body item; no shadow face for a catalyst"
         }
+      ],
+      "retired_derivation_law_2026-09-16": [
+        {
+          "phrase": "Quiet loyalty",
+          "dim": "close bonds",
+          "door": "body",
+          "desc": "Strangers get the edge. The few people you've let past it get someone who shows up at 2 AM without being asked, every time.",
+          "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Clears dead weight",
+          "dim": "trimming a plan",
+          "door": "action",
+          "desc": "Handed a plan with twelve moving parts, you find the three that matter and the nine that were there for comfort.",
+          "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Edge before warmth",
+          "dim": "first meetings",
+          "door": "body",
+          "desc": "The read happens before the smile does. New people meet the edge first, and some never wait around for the rest.",
+          "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Right too early",
+          "dim": "the long view",
+          "door": "mind",
+          "desc": "You see where things are heading long before anyone else will say it out loud. Being right early feels a lot like being alone.",
+          "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Overshoots the point",
+          "dim": "saying too much",
+          "door": "expression",
+          "desc": "The clean line was there in the first sentence. You kept going, and by the fourth the table had stopped hearing the first.",
+          "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
+        },
+        {
+          "phrase": "Cuts too deep",
+          "dim": "trimming",
+          "door": "action",
+          "desc": "Asked to trim, you take it to the frame. The part that was working goes out with the part that was not.",
+          "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
+        }
       ]
     },
     "door_note": {
@@ -509,5 +581,6 @@
       "action": "Wood",
       "order": "Fire"
     }
-  }
+  },
+  "derivation_law": "Owner R4 (2026-09-16): every item is cut from the pair cell it names in `echo_of` (the carry law applied to the pools). face=echo: item[0] of each door, the function running right / overgrown per the pair definition; face=wide (gifts, Body and Mind): the abundant catalyst, cut from carry.wide; face=excess (shadows, Body and Mind): the dominant energy, cut from carry.excess (渊海子平 太过). Chosen by selectPoolByDoor on the door's volume."
 }
