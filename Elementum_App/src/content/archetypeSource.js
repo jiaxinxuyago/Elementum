@@ -75,7 +75,7 @@ export const STEM_CARD_DATA = {
 
     // GIFTS & SHADOWS — band-tagged pools ×5 (REA_16 §3 pool laws); resolveArchetype selects the chart's ×3
     gifts: [
-      { phrase: `Plants a stake`, door: 'action', desc: `Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs.` },
+      { phrase: `Makes it official`, door: 'action', desc: `Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs.` },
       { phrase: `Raises everyone's game`, door: 'expression', desc: `People around you end up aiming higher than they meant to. Your reach quietly becomes the new ceiling, and nobody remembers deciding that.` },
       { phrase: `Builds to last`, door: 'order', desc: `You can't put real effort into something disposable. What you build is still standing years later, long after the quick versions fell down.` },
       { phrase: `Keeps the faith`, door: 'body', desc: `You still believe in where it's all heading, even in seasons when nothing looks like proof. That belief is what gets things through winter.` },
@@ -84,7 +84,7 @@ export const STEM_CARD_DATA = {
       { phrase: `Takes the lesson`, door: 'mind', desc: `One hard season teaches you what a decade of easy ones could not, and you keep it.` },
     ],
     shadows: [
-      { phrase: `Holds every acre`, door: 'action', desc: `Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent.` },
+      { phrase: `Owns too much`, door: 'action', desc: `Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent.` },
       { phrase: `Asks for nothing`, door: 'body', desc: `Help is right there and you know it. You'd still rather struggle in private than let anyone watch you need something. Asking feels like shrinking an inch you can't get back.` },
       { phrase: `Leaves things unfinished`, door: 'expression', desc: `You commit hard, build fast, then spot the next mountain before this one is settled. Someone else ends up pouring the foundation you sketched.` },
       { phrase: `Charges ahead`, door: 'body', desc: `When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff.` },
@@ -204,7 +204,7 @@ There's also a specific interpersonal cost: people who care about you often feel
     ],
     shadows: [
       { phrase: `Grows over others`, door: 'body', desc: `Given a shared wall, you take the sunny side without noticing. Later you wonder why the other vine went quiet.` },
-      { phrase: `Promises the bloom`, door: 'expression', desc: `You tell people where you will be by summer while the wall is still bare. The saying comes easily. Then the summer has to keep the promise.` },
+      { phrase: `Announces too early`, door: 'expression', desc: `You tell people where you will be by summer while the wall is still bare. The saying comes easily. Then the summer has to keep the promise.` },
       { phrase: `Bends too far`, door: 'order', desc: `You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you're holding stops being yours.` },
       { phrase: `Suspects an angle`, door: 'mind', desc: `You can't quite take kindness at face value. Somewhere in you a quiet analyst asks what this person is really after. Sometimes the answer was nothing, and the wondering showed.` },
       { phrase: `Loses the thread`, door: 'mind', desc: `With no wall to climb, the winding can forget where it was going. You're flexible about the route, and lately, quietly, about the destination too.` },
@@ -311,9 +311,9 @@ There's also a specific interpersonal cost: people who care about you often feel
 
     // GIFTS & SHADOWS — band-tagged pools ×5 (REA_16 §3 pool laws); resolveArchetype selects the chart's ×3
     gifts: [
-      { phrase: `Founds the tradition`, door: 'expression', desc: `The dinner you hosted once is now the dinner everyone hosts. What you warm tends to set into something people keep doing after you have moved on.` },
+      { phrase: `Starts traditions`, door: 'expression', desc: `The dinner you hosted once is now the dinner everyone hosts. What you warm tends to set into something people keep doing after you have moved on.` },
       { phrase: `No hidden agenda`, door: 'body', desc: `Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out.` },
-      { phrase: `Hard problems only`, door: 'action', desc: `Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on.` },
+      { phrase: `Takes hard jobs`, door: 'action', desc: `Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on.` },
       { phrase: `Keeps it close`, door: 'body', desc: `The wide broadcast costs more than it used to, so the warmth goes where it counts now. The few in your light feel it fully.` },
       { phrase: `Feeds on daylight`, door: 'mind', desc: `You feed on what is around you. A good morning, a good friend, a good idea, and you are lit again.` },
       { phrase: `Catches the mood`, door: 'mind', desc: `You know the weather of a place the moment you walk in, and you adjust your light to it.` },
@@ -321,7 +321,7 @@ There's also a specific interpersonal cost: people who care about you often feel
     ],
     shadows: [
       { phrase: `Runs on empty`, door: 'body', desc: `You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks.` },
-      { phrase: `Reopens the deal`, door: 'action', desc: `Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled.` },
+      { phrase: `Reopens settled things`, door: 'action', desc: `Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled.` },
       { phrase: `Fills every silence`, door: 'expression', desc: `Quiet moments get warmed whether they wanted warming or not. Some silences were doing fine on their own, and some people needed the shade.` },
       { phrase: `Smiles on schedule`, door: 'order', desc: `The warmth still shows up because people expect it, the way the sun is expected. Only you can tell which mornings it's real and which mornings it's performed.` },
       { phrase: `Last log burning`, door: 'body', desc: `The reserve is gone and the light is still on. You will find out tomorrow what that cost.` },
@@ -557,7 +557,7 @@ There's also an investment asymmetry that accumulates: you give the full quality
     ],
     shadows: [
       { phrase: `Bottles it up`, door: 'body', desc: `The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked.` },
-      { phrase: `Warmed, not fed`, door: 'mind', desc: `Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before.` },
+      { phrase: `Feeds on distraction`, door: 'mind', desc: `Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before.` },
       { phrase: `Can't let go`, door: 'body', desc: `Jobs, grudges, houses, roles that ended years ago. Letting go feels like betraying everyone who leaned on the holding, so the grip stays closed.` },
       { phrase: `Set in stone`, door: 'mind', desc: `Once your footing is chosen, argument becomes erosion. It works on you in centuries, not conversations. People eventually stop bringing the map.` },
       { phrase: `Quietly overwhelmed`, door: 'order', desc: `The load hasn't changed, but lately the legs under it have. You still say yes to every weight. The saying yes is starting to cost.` },
@@ -1020,10 +1020,10 @@ The verdict also becomes load-bearing: once formed, it requires new information 
     ],
     shadows: [
       { phrase: `Bruises easily`, door: 'order', desc: `The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep.` },
-      { phrase: `Studies the setting`, door: 'mind', desc: `One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work.` },
+      { phrase: `Never stops preparing`, door: 'mind', desc: `One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work.` },
       { phrase: `Stays boxed up`, door: 'mind', desc: `Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box.` },
       { phrase: `Polishes forever`, door: 'body', desc: `The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive.` },
-      { phrase: `Cuts in passing`, door: 'expression', desc: `The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not.` },
+      { phrase: `Remarks cut deep`, door: 'expression', desc: `The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not.` },
       { phrase: `Trusts one judge`, door: 'body', desc: `The only opinion that counts on your work is yours, and it has never once been satisfied.` },
       { phrase: `Hoards raw stones`, door: 'action', desc: `Every good piece deserves a setting, so you keep buying stones for settings you never make.` },
     ],
@@ -1128,10 +1128,10 @@ The verdict also becomes load-bearing: once formed, it requires new information 
     // GIFTS & SHADOWS — band-tagged pools ×5 (REA_16 §3 pool laws); resolveArchetype selects the chart's ×3
     gifts: [
       { phrase: `Big picture thinker`, door: 'mind', desc: `While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out.` },
-      { phrase: `Sharpened by rigor`, door: 'mind', desc: `Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through.` },
+      { phrase: `Learns from experts`, door: 'mind', desc: `Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through.` },
       { phrase: `Thinks big`, door: 'action', desc: `Small plans bore you on arrival. You're drawn to the far shore, the decade plan, the version of the idea that scares the committee.` },
       { phrase: `Even keel`, door: 'order', desc: `Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours.` },
-      { phrase: `Seeds the idea`, door: 'expression', desc: `You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from.` },
+      { phrase: `Gives ideas away`, door: 'expression', desc: `You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from.` },
       { phrase: `Nothing rattles it`, door: 'body', desc: `Storms cross the surface. Ten fathoms down, nothing has moved.` },
       { phrase: `Keeps its level`, door: 'body', desc: `Whatever pours in, you find your level again by morning.` },
     ],
@@ -1247,7 +1247,7 @@ Most exchanges happen at a shallower level than where you operate. This produces
     // GIFTS & SHADOWS — band-tagged pools ×5 (REA_16 §3 pool laws); resolveArchetype selects the chart's ×3
     gifts: [
       { phrase: `Feels the undercurrent`, door: 'mind', desc: `You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence.` },
-      { phrase: `Reads the moment`, door: 'action', desc: `You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived.` },
+      { phrase: `Spots the opening`, door: 'action', desc: `You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived.` },
       { phrase: `Gentle confidant`, door: 'body', desc: `People hand you their fragile things. The secret, the shame, the half-formed hope. Something about you promises soft handling, and you've never broken it.` },
       { phrase: `Changes minds softly`, door: 'expression', desc: `Nobody remembers losing the argument to you. Positions just shift a degree a week until, months later, everyone agrees and thinks they always did.` },
       { phrase: `Settles the dust`, door: 'body', desc: `The air is calmer after you have been in it, and nobody can say what you did.` },
@@ -1260,7 +1260,7 @@ Most exchanges happen at a shallower level than where you operate. This produces
       { phrase: `Marinates in it`, door: 'mind', desc: `The conversation ended Tuesday. You're still in it Friday, replaying the tone, the pause, the thing you almost said. Feelings don't pass through you so much as steep.` },
       { phrase: `Feelings as facts`, door: 'body', desc: `When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one.` },
       { phrase: `Loses the border`, door: 'body', desc: `Their weather becomes yours. By evening you cannot say whose sadness you are carrying.` },
-      { phrase: `Waters every garden`, door: 'expression', desc: `Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours.` },
+      { phrase: `Mentors everyone`, door: 'expression', desc: `Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours.` },
       { phrase: `Boils off early`, door: 'action', desc: `Every warm thing pulls you toward it, and you rise to meet it before anything lands.` },
     ],
     blocks: [

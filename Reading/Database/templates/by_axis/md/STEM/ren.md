@@ -30,7 +30,7 @@
 | `gifts[0].dim` | connections |
 | `gifts[0].door` | mind |
 | `gifts[0].desc` | While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out. |
-| `gifts[1].phrase` | Sharpened by rigor |
+| `gifts[1].phrase` | Learns from experts |
 | `gifts[1].dim` | good teachers |
 | `gifts[1].door` | mind |
 | `gifts[1].desc` | Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through. |
@@ -42,7 +42,7 @@
 | `gifts[3].dim` | under pressure |
 | `gifts[3].door` | order |
 | `gifts[3].desc` | Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours. |
-| `gifts[4].phrase` | Seeds the idea |
+| `gifts[4].phrase` | Gives ideas away |
 | `gifts[4].dim` | what grows after you |
 | `gifts[4].door` | expression |
 | `gifts[4].desc` | You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from. |

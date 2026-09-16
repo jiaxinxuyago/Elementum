@@ -30,7 +30,7 @@
 | `gifts[0].dim` | unspoken feelings |
 | `gifts[0].door` | mind |
 | `gifts[0].desc` | You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence. |
-| `gifts[1].phrase` | Reads the moment |
+| `gifts[1].phrase` | Spots the opening |
 | `gifts[1].dim` | timing |
 | `gifts[1].door` | action |
 | `gifts[1].desc` | You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived. |
@@ -74,7 +74,7 @@
 | `shadows[4].dim` | whose feeling |
 | `shadows[4].door` | body |
 | `shadows[4].desc` | Their weather becomes yours. By evening you cannot say whose sadness you are carrying. |
-| `shadows[5].phrase` | Waters every garden |
+| `shadows[5].phrase` | Mentors everyone |
 | `shadows[5].dim` | other people's growth |
 | `shadows[5].door` | expression |
 | `shadows[5].desc` | Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours. |

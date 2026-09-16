@@ -26,7 +26,7 @@
 | `dm_mechanism` | Yang Wood grown toward light — a spine that rose by reaching, season over season. |
 | `yourNature_desc` | You see where things could go before most people see that they could go anywhere, and you're moving while they're still deciding. What you build tends to outlast you. You're just rarely there to see it, because halfway through every ending you've already started the next thing. |
 | `dm_overview` | The Oak is Yang Wood, the first sign in the count of days, the oldest picture of beginning itself. It is the seed that argues with the ground and wins, the trunk that spends a hundred years walking toward the sky. Spring belongs to it, and so does every road that is still mostly promise. Whatever refuses to stay small grows under this sign. |
-| `gifts[0].phrase` | Plants a stake |
+| `gifts[0].phrase` | Makes it official |
 | `gifts[0].dim` | commitments |
 | `gifts[0].door` | action |
 | `gifts[0].desc` | Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs. |
@@ -54,7 +54,7 @@
 | `gifts[6].dim` | hard seasons |
 | `gifts[6].door` | mind |
 | `gifts[6].desc` | One hard season teaches you what a decade of easy ones could not, and you keep it. |
-| `shadows[0].phrase` | Holds every acre |
+| `shadows[0].phrase` | Owns too much |
 | `shadows[0].dim` | what you keep |
 | `shadows[0].door` | action |
 | `shadows[0].desc` | Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent. |

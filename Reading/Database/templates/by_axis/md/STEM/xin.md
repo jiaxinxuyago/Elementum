@@ -58,7 +58,7 @@
 | `shadows[0].dim` | criticism |
 | `shadows[0].door` | order |
 | `shadows[0].desc` | The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep. |
-| `shadows[1].phrase` | Studies the setting |
+| `shadows[1].phrase` | Never stops preparing |
 | `shadows[1].dim` | preparation |
 | `shadows[1].door` | mind |
 | `shadows[1].desc` | One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work. |
@@ -70,7 +70,7 @@
 | `shadows[3].dim` | finishing |
 | `shadows[3].door` | body |
 | `shadows[3].desc` | The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive. |
-| `shadows[4].phrase` | Cuts in passing |
+| `shadows[4].phrase` | Remarks cut deep |
 | `shadows[4].dim` | small remarks |
 | `shadows[4].door` | expression |
 | `shadows[4].desc` | The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not. |

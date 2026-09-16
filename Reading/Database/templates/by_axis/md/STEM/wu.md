@@ -58,7 +58,7 @@
 | `shadows[0].dim` | sharing the load |
 | `shadows[0].door` | body |
 | `shadows[0].desc` | The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked. |
-| `shadows[1].phrase` | Warmed, not fed |
+| `shadows[1].phrase` | Feeds on distraction |
 | `shadows[1].dim` | what counts as input |
 | `shadows[1].door` | mind |
 | `shadows[1].desc` | Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before. |

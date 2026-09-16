@@ -10,7 +10,7 @@
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Holds every acre |
+| `0.phrase` | Owns too much |
 | `0.dim` | what you keep |
 | `0.door` | action |
 | `0.desc` | Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent. |
@@ -47,7 +47,7 @@
 | `0.dim` | the shared wall |
 | `0.door` | body |
 | `0.desc` | Given a shared wall, you take the sunny side without noticing. Later you wonder why the other vine went quiet. |
-| `1.phrase` | Promises the bloom |
+| `1.phrase` | Announces too early |
 | `1.dim` | announcing early |
 | `1.door` | expression |
 | `1.desc` | You tell people where you will be by summer while the wall is still bare. The saying comes easily. Then the summer has to keep the promise. |
@@ -80,7 +80,7 @@
 | `0.dim` | personal reserves |
 | `0.door` | body |
 | `0.desc` | You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks. |
-| `1.phrase` | Reopens the deal |
+| `1.phrase` | Reopens settled things |
 | `1.dim` | settled things |
 | `1.door` | action |
 | `1.desc` | Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled. |
@@ -146,7 +146,7 @@
 | `0.dim` | sharing the load |
 | `0.door` | body |
 | `0.desc` | The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked. |
-| `1.phrase` | Warmed, not fed |
+| `1.phrase` | Feeds on distraction |
 | `1.dim` | what counts as input |
 | `1.door` | mind |
 | `1.desc` | Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before. |
@@ -245,7 +245,7 @@
 | `0.dim` | criticism |
 | `0.door` | order |
 | `0.desc` | The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep. |
-| `1.phrase` | Studies the setting |
+| `1.phrase` | Never stops preparing |
 | `1.dim` | preparation |
 | `1.door` | mind |
 | `1.desc` | One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work. |
@@ -257,7 +257,7 @@
 | `3.dim` | finishing |
 | `3.door` | body |
 | `3.desc` | The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive. |
-| `4.phrase` | Cuts in passing |
+| `4.phrase` | Remarks cut deep |
 | `4.dim` | small remarks |
 | `4.door` | expression |
 | `4.desc` | The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not. |
@@ -327,7 +327,7 @@
 | `4.dim` | whose feeling |
 | `4.door` | body |
 | `4.desc` | Their weather becomes yours. By evening you cannot say whose sadness you are carrying. |
-| `5.phrase` | Waters every garden |
+| `5.phrase` | Mentors everyone |
 | `5.dim` | other people's growth |
 | `5.door` | expression |
 | `5.desc` | Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours. |

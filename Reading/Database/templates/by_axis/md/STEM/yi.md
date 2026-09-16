@@ -58,7 +58,7 @@
 | `shadows[0].dim` | the shared wall |
 | `shadows[0].door` | body |
 | `shadows[0].desc` | Given a shared wall, you take the sunny side without noticing. Later you wonder why the other vine went quiet. |
-| `shadows[1].phrase` | Promises the bloom |
+| `shadows[1].phrase` | Announces too early |
 | `shadows[1].dim` | announcing early |
 | `shadows[1].door` | expression |
 | `shadows[1].desc` | You tell people where you will be by summer while the wall is still bare. The saying comes easily. Then the summer has to keep the promise. |

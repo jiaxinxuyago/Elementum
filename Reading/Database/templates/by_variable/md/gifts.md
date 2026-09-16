@@ -10,7 +10,7 @@
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Plants a stake |
+| `0.phrase` | Makes it official |
 | `0.dim` | commitments |
 | `0.door` | action |
 | `0.desc` | Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs. |
@@ -76,7 +76,7 @@
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Founds the tradition |
+| `0.phrase` | Starts traditions |
 | `0.dim` | what lasts |
 | `0.door` | expression |
 | `0.desc` | The dinner you hosted once is now the dinner everyone hosts. What you warm tends to set into something people keep doing after you have moved on. |
@@ -84,7 +84,7 @@
 | `1.dim` | hard days |
 | `1.door` | body |
 | `1.desc` | Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out. |
-| `2.phrase` | Hard problems only |
+| `2.phrase` | Takes hard jobs |
 | `2.dim` | the work you pick |
 | `2.door` | action |
 | `2.desc` | Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on. |
@@ -278,7 +278,7 @@
 | `0.dim` | connections |
 | `0.door` | mind |
 | `0.desc` | While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out. |
-| `1.phrase` | Sharpened by rigor |
+| `1.phrase` | Learns from experts |
 | `1.dim` | good teachers |
 | `1.door` | mind |
 | `1.desc` | Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through. |
@@ -290,7 +290,7 @@
 | `3.dim` | under pressure |
 | `3.door` | order |
 | `3.desc` | Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours. |
-| `4.phrase` | Seeds the idea |
+| `4.phrase` | Gives ideas away |
 | `4.dim` | what grows after you |
 | `4.door` | expression |
 | `4.desc` | You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from. |
@@ -311,7 +311,7 @@
 | `0.dim` | unspoken feelings |
 | `0.door` | mind |
 | `0.desc` | You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence. |
-| `1.phrase` | Reads the moment |
+| `1.phrase` | Spots the opening |
 | `1.dim` | timing |
 | `1.door` | action |
 | `1.desc` | You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived. |

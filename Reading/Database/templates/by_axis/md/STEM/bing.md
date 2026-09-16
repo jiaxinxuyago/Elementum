@@ -26,7 +26,7 @@
 | `dm_mechanism` | Yang Fire that gives without dimming — radiance steadied by what it warms. |
 | `yourNature_desc` | You brighten the day of whoever's near you, and none of it is on purpose. The light just runs, morning to night, on you as fuel. People plan around your warmth the way they plan around daylight, and asking what it costs occurs to no one. You included. |
 | `dm_overview` | The Sun is Yang Fire, the fire that no one lit and no one owns. It keeps high summer and full noon, opening every market and warming every back without asking a single name. The sky itself is its lantern. Everything that grows turns toward it, and on the day it slips behind clouds, the whole village looks up and wonders. |
-| `gifts[0].phrase` | Founds the tradition |
+| `gifts[0].phrase` | Starts traditions |
 | `gifts[0].dim` | what lasts |
 | `gifts[0].door` | expression |
 | `gifts[0].desc` | The dinner you hosted once is now the dinner everyone hosts. What you warm tends to set into something people keep doing after you have moved on. |
@@ -34,7 +34,7 @@
 | `gifts[1].dim` | hard days |
 | `gifts[1].door` | body |
 | `gifts[1].desc` | Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out. |
-| `gifts[2].phrase` | Hard problems only |
+| `gifts[2].phrase` | Takes hard jobs |
 | `gifts[2].dim` | the work you pick |
 | `gifts[2].door` | action |
 | `gifts[2].desc` | Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on. |
@@ -58,7 +58,7 @@
 | `shadows[0].dim` | personal reserves |
 | `shadows[0].door` | body |
 | `shadows[0].desc` | You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks. |
-| `shadows[1].phrase` | Reopens the deal |
+| `shadows[1].phrase` | Reopens settled things |
 | `shadows[1].dim` | settled things |
 | `shadows[1].door` | action |
 | `shadows[1].desc` | Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled. |

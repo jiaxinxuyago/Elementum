@@ -36,7 +36,7 @@
         "desc": "You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence."
       },
       {
-        "phrase": "Reads the moment",
+        "phrase": "Spots the opening",
         "dim": "timing",
         "door": "action",
         "desc": "You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived."
@@ -104,7 +104,7 @@
         "desc": "Their weather becomes yours. By evening you cannot say whose sadness you are carrying."
       },
       {
-        "phrase": "Waters every garden",
+        "phrase": "Mentors everyone",
         "dim": "other people's growth",
         "door": "expression",
         "desc": "Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours."

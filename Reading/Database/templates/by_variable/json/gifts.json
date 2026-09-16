@@ -9,7 +9,7 @@
         "canonical_name": "The Oak",
         "value": [
           {
-            "phrase": "Plants a stake",
+            "phrase": "Makes it official",
             "dim": "commitments",
             "door": "action",
             "desc": "Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs."
@@ -107,7 +107,7 @@
         "canonical_name": "The Sun",
         "value": [
           {
-            "phrase": "Founds the tradition",
+            "phrase": "Starts traditions",
             "dim": "what lasts",
             "door": "expression",
             "desc": "The dinner you hosted once is now the dinner everyone hosts. What you warm tends to set into something people keep doing after you have moved on."
@@ -119,7 +119,7 @@
             "desc": "Your warmth reads as real because it is. It showed up on the worst days too, when a performed version would have flickered out."
           },
           {
-            "phrase": "Hard problems only",
+            "phrase": "Takes hard jobs",
             "dim": "the work you pick",
             "door": "action",
             "desc": "Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on."
@@ -407,7 +407,7 @@
             "desc": "While the meeting argues about one tile, you're seeing the whole mosaic. How it connects, where it's heading, what it touches three steps out."
           },
           {
-            "phrase": "Sharpened by rigor",
+            "phrase": "Learns from experts",
             "dim": "good teachers",
             "door": "mind",
             "desc": "Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through."
@@ -425,7 +425,7 @@
             "desc": "Panic passes over you like weather over open water. Surface ruffles, depth undisturbed. People borrow your calm in their worst hours."
           },
           {
-            "phrase": "Seeds the idea",
+            "phrase": "Gives ideas away",
             "dim": "what grows after you",
             "door": "expression",
             "desc": "You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from."
@@ -456,7 +456,7 @@
             "desc": "You knew the couple was fighting before they did. The mood under the smiles reaches you first, ahead of any evidence."
           },
           {
-            "phrase": "Reads the moment",
+            "phrase": "Spots the opening",
             "dim": "timing",
             "door": "action",
             "desc": "You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived."

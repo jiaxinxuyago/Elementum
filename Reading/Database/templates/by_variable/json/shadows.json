@@ -9,7 +9,7 @@
         "canonical_name": "The Oak",
         "value": [
           {
-            "phrase": "Holds every acre",
+            "phrase": "Owns too much",
             "dim": "what you keep",
             "door": "action",
             "desc": "Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent."
@@ -64,7 +64,7 @@
             "desc": "Given a shared wall, you take the sunny side without noticing. Later you wonder why the other vine went quiet."
           },
           {
-            "phrase": "Promises the bloom",
+            "phrase": "Announces too early",
             "dim": "announcing early",
             "door": "expression",
             "desc": "You tell people where you will be by summer while the wall is still bare. The saying comes easily. Then the summer has to keep the promise."
@@ -113,7 +113,7 @@
             "desc": "You keep giving long after the tank light came on. The crash arrives suddenly, from everyone else's point of view. You saw it coming for weeks."
           },
           {
-            "phrase": "Reopens the deal",
+            "phrase": "Reopens settled things",
             "dim": "settled things",
             "door": "action",
             "desc": "Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled."
@@ -211,7 +211,7 @@
             "desc": "The weight you carry never makes it into words. It stacks, quietly, year on year, and the people closest to you have no idea how much is stacked."
           },
           {
-            "phrase": "Warmed, not fed",
+            "phrase": "Feeds on distraction",
             "dim": "what counts as input",
             "door": "mind",
             "desc": "Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before."
@@ -358,7 +358,7 @@
             "desc": "The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep."
           },
           {
-            "phrase": "Studies the setting",
+            "phrase": "Never stops preparing",
             "dim": "preparation",
             "door": "mind",
             "desc": "One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work."
@@ -376,7 +376,7 @@
             "desc": "The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive."
           },
           {
-            "phrase": "Cuts in passing",
+            "phrase": "Remarks cut deep",
             "dim": "small remarks",
             "door": "expression",
             "desc": "The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not."
@@ -480,7 +480,7 @@
             "desc": "Their weather becomes yours. By evening you cannot say whose sadness you are carrying."
           },
           {
-            "phrase": "Waters every garden",
+            "phrase": "Mentors everyone",
             "dim": "other people's growth",
             "door": "expression",
             "desc": "Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours."
