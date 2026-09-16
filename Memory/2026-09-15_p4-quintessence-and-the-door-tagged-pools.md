@@ -76,6 +76,14 @@ baseline · build green · journey sweep 18/18.
   渊海子平 (REA_04 PART 2), Balanced needs distribution, doubled pairs = echo face + excess face, `echo_of`
   derivation law, capability-register bridges, core relabel "unrooted". Six rulings pending (Q1 override, Q2
   thresholds, Q3 chip count, Q4 derivation scope, Q5 Balanced, Q6 core presence). No fix executed.
+  **OWNER RULINGS 2026-09-16 (six, taken one by one; execution pending the owner's go):** R1 excess FLIPS valence:
+  an energy at the dominant tier reads as a friction whatever the band, through its 渊海子平 excess idiom
+  (supersedes option 1 for dominant catalysts; abundant ones keep the wide line). R2 tiers: absent ≤0.5% · thin
+  ≤10% · abundant ≥20% · dominant ≥40%. R3 chip count follows the chart: two or three per side; shadows only through
+  PRESENT frictions. R4 re-derive ALL 140 pool items under the derivation law (echo face cut from the pair
+  definition + `echo_of` link; the doubled pairs' second items become the excess faces). R5 Balanced KEPT behind a
+  guard: moderate strength AND no energy abundant; otherwise the nearest band with the excess override. R6 core at
+  0% relabels to "unrooted" (日主无根); no engine change to presence.
 - Balanced exemplar (2026-09-16, seen on the local render, not ruled): the `xin` preset is balanced. Carry card shows
   the track and no EASE/SEEK rows while the lead says "the doors below are open on both sides"; ▲ marks still show on
   Wood/Earth from the manual's seek list; the two smallest energies lose their labels at narrow width.
