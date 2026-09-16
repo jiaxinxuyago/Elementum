@@ -303,7 +303,7 @@
         "canonical_name": "The Blade",
         "value": [
           {
-            "phrase": "Wound too tight",
+            "phrase": "Tense all over",
             "dim": "unspent discipline",
             "door": "body",
             "face": "echo",
@@ -311,7 +311,7 @@
             "desc": "Discipline with nothing to spend itself on turns into tension. It lives in your shoulders and your jaw, and people read it before you speak."
           },
           {
-            "phrase": "Stays decided",
+            "phrase": "Never reconsiders",
             "dim": "second chances",
             "door": "body",
             "face": "excess",
@@ -327,7 +327,7 @@
             "desc": "The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it."
           },
           {
-            "phrase": "Thinks, never cuts",
+            "phrase": "Plans, never acts",
             "dim": "showing the work",
             "door": "mind",
             "face": "excess",
@@ -335,7 +335,7 @@
             "desc": "Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth."
           },
           {
-            "phrase": "Spills everywhere",
+            "phrase": "No filter",
             "dim": "saying too much",
             "door": "expression",
             "face": "echo",
@@ -343,7 +343,7 @@
             "desc": "Talent with no banks runs into snacks, scrolling, remarks that cut deeper than you meant, and half-made things. Nothing is wrong, exactly. That is the problem."
           },
           {
-            "phrase": "Cuts without harvest",
+            "phrase": "Busy, nothing finished",
             "dim": "trimming",
             "door": "action",
             "face": "echo",

@@ -303,7 +303,7 @@
         "canonical_name": "The Blade",
         "value": [
           {
-            "phrase": "Holds its form",
+            "phrase": "Never looks tired",
             "dim": "running low",
             "door": "body",
             "face": "echo",
@@ -343,7 +343,7 @@
             "desc": "What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain."
           },
           {
-            "phrase": "Prunes for growth",
+            "phrase": "Trims for growth",
             "dim": "trimming a plan",
             "door": "action",
             "face": "echo",

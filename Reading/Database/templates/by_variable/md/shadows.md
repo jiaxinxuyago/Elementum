@@ -208,13 +208,13 @@
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Wound too tight |
+| `0.phrase` | Tense all over |
 | `0.dim` | unspent discipline |
 | `0.door` | body |
 | `0.face` | echo |
 | `0.echo_of` | 金_金.function.definition_friction |
 | `0.desc` | Discipline with nothing to spend itself on turns into tension. It lives in your shoulders and your jaw, and people read it before you speak. |
-| `1.phrase` | Stays decided |
+| `1.phrase` | Never reconsiders |
 | `1.dim` | second chances |
 | `1.door` | body |
 | `1.face` | excess |
@@ -226,19 +226,19 @@
 | `2.face` | echo |
 | `2.echo_of` | 金_土.function.definition_friction |
 | `2.desc` | The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it. |
-| `3.phrase` | Thinks, never cuts |
+| `3.phrase` | Plans, never acts |
 | `3.dim` | showing the work |
 | `3.door` | mind |
 | `3.face` | excess |
 | `3.echo_of` | 金_土.carry.excess |
 | `3.desc` | Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth. |
-| `4.phrase` | Spills everywhere |
+| `4.phrase` | No filter |
 | `4.dim` | saying too much |
 | `4.door` | expression |
 | `4.face` | echo |
 | `4.echo_of` | 金_水.function.definition_friction |
 | `4.desc` | Talent with no banks runs into snacks, scrolling, remarks that cut deeper than you meant, and half-made things. Nothing is wrong, exactly. That is the problem. |
-| `5.phrase` | Cuts without harvest |
+| `5.phrase` | Busy, nothing finished |
 | `5.dim` | trimming |
 | `5.door` | action |
 | `5.face` | echo |

@@ -26,7 +26,7 @@
 | `dm_mechanism` | Yang Metal tempered by spring wood — strength that grew against resistance, not in its absence. |
 | `yourNature_desc` | You put the truth ahead of your own comfort, and usually ahead of your own company. People keep the clarity you hand them and stay careful around the edge it came from. The cost never comes up. You've never once shown anyone the bill. |
 | `dm_overview` | The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech. |
-| `gifts[0].phrase` | Holds its form |
+| `gifts[0].phrase` | Never looks tired |
 | `gifts[0].dim` | running low |
 | `gifts[0].door` | body |
 | `gifts[0].face` | echo |
@@ -56,7 +56,7 @@
 | `gifts[4].face` | echo |
 | `gifts[4].echo_of` | 金_水.function.definition_catalyst |
 | `gifts[4].desc` | What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain. |
-| `gifts[5].phrase` | Prunes for growth |
+| `gifts[5].phrase` | Trims for growth |
 | `gifts[5].dim` | trimming a plan |
 | `gifts[5].door` | action |
 | `gifts[5].face` | echo |
@@ -68,13 +68,13 @@
 | `gifts[6].face` | echo |
 | `gifts[6].echo_of` | 金_火.function.definition_catalyst |
 | `gifts[6].desc` | The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved. |
-| `shadows[0].phrase` | Wound too tight |
+| `shadows[0].phrase` | Tense all over |
 | `shadows[0].dim` | unspent discipline |
 | `shadows[0].door` | body |
 | `shadows[0].face` | echo |
 | `shadows[0].echo_of` | 金_金.function.definition_friction |
 | `shadows[0].desc` | Discipline with nothing to spend itself on turns into tension. It lives in your shoulders and your jaw, and people read it before you speak. |
-| `shadows[1].phrase` | Stays decided |
+| `shadows[1].phrase` | Never reconsiders |
 | `shadows[1].dim` | second chances |
 | `shadows[1].door` | body |
 | `shadows[1].face` | excess |
@@ -86,19 +86,19 @@
 | `shadows[2].face` | echo |
 | `shadows[2].echo_of` | 金_土.function.definition_friction |
 | `shadows[2].desc` | The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it. |
-| `shadows[3].phrase` | Thinks, never cuts |
+| `shadows[3].phrase` | Plans, never acts |
 | `shadows[3].dim` | showing the work |
 | `shadows[3].door` | mind |
 | `shadows[3].face` | excess |
 | `shadows[3].echo_of` | 金_土.carry.excess |
 | `shadows[3].desc` | Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth. |
-| `shadows[4].phrase` | Spills everywhere |
+| `shadows[4].phrase` | No filter |
 | `shadows[4].dim` | saying too much |
 | `shadows[4].door` | expression |
 | `shadows[4].face` | echo |
 | `shadows[4].echo_of` | 金_水.function.definition_friction |
 | `shadows[4].desc` | Talent with no banks runs into snacks, scrolling, remarks that cut deeper than you meant, and half-made things. Nothing is wrong, exactly. That is the problem. |
-| `shadows[5].phrase` | Cuts without harvest |
+| `shadows[5].phrase` | Busy, nothing finished |
 | `shadows[5].dim` | trimming |
 | `shadows[5].door` | action |
 | `shadows[5].face` | echo |

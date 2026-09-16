@@ -208,7 +208,7 @@
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Holds its form |
+| `0.phrase` | Never looks tired |
 | `0.dim` | running low |
 | `0.door` | body |
 | `0.face` | echo |
@@ -238,7 +238,7 @@
 | `4.face` | echo |
 | `4.echo_of` | 金_水.function.definition_catalyst |
 | `4.desc` | What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain. |
-| `5.phrase` | Prunes for growth |
+| `5.phrase` | Trims for growth |
 | `5.dim` | trimming a plan |
 | `5.door` | action |
 | `5.face` | echo |
