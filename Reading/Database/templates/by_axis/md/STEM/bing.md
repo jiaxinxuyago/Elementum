@@ -104,12 +104,12 @@
 | `shadows[5].face` | echo |
 | `shadows[5].echo_of` | 火_金.function.definition_friction |
 | `shadows[5].desc` | Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled. |
-| `shadows[6].phrase` | Overthinks the leap |
-| `shadows[6].dim` | second-guessing |
+| `shadows[6].phrase` | Own harshest judge |
+| `shadows[6].dim` | being judged |
 | `shadows[6].door` | order |
 | `shadows[6].face` | echo |
 | `shadows[6].echo_of` | 火_水.function.definition_friction |
-| `shadows[6].desc` | Every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would. |
+| `shadows[6].desc` | Every plan reviewed until the moment passes, every spark second-guessed into a maybe, and the hardest judge of the flame is you. |
 | `door_note.body` | Fire |
 | `door_note.mind` | Wood |
 | `door_note.expression` | Earth |
@@ -284,3 +284,10 @@
 | `retired_derivation_law_2026-09-16[8].door` | body |
 | `retired_derivation_law_2026-09-16[8].desc` | The reserve is gone and the light is still on. You will find out tomorrow what that cost. |
 | `retired_derivation_law_2026-09-16[8].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_inner_judge_2026-09-17[0].phrase` | Overthinks the leap |
+| `retired_inner_judge_2026-09-17[0].dim` | second-guessing |
+| `retired_inner_judge_2026-09-17[0].door` | order |
+| `retired_inner_judge_2026-09-17[0].face` | echo |
+| `retired_inner_judge_2026-09-17[0].echo_of` | 火_水.function.definition_friction |
+| `retired_inner_judge_2026-09-17[0].desc` | Every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would. |
+| `retired_inner_judge_2026-09-17[0].why` | owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition |

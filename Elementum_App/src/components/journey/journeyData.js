@@ -437,14 +437,32 @@ export function buildElementScreen(model, el) {
     : FEEDS[core] === r.el ? { a: core, b: r.el, verb: 'feeds' }
     : TAMES[r.el] === core ? { a: r.el, b: core, verb: 'tames' }
     : { a: core, b: r.el, verb: 'tames' };
+  // The yin sibling speaks its own noun on the energy page too (owner
+  // 2026-09-17): `mechanism_yin` holds sparse overrides of the story and the
+  // two turns; everything else is the shared line.
+  const yinStem = STEM_YIN[model.stem] === 1;
+  const mechanism = pair ? (yinStem && pair.mechanism_yin ? { ...pair.mechanism, ...pair.mechanism_yin } : pair.mechanism) : null;
+  // The turn is picked by valence × volume, like the carry card (owner
+  // 2026-09-16): an absent, thin, dominant or unrooted energy speaks its
+  // state line (clause + remedy) instead of the pole's turn.
+  const carry = pair ? (yinStem && pair.carry_yin ? Object.fromEntries(['catalyst', 'friction', 'wide', 'missing', 'spared', 'thin', 'excess', 'unrooted'].filter((k) => pair.carry?.[k] || pair.carry_yin?.[k]).map((k) => [k, { ...(pair.carry?.[k] || {}), ...(pair.carry_yin?.[k] || {}) }])) : pair.carry) : null;
+  const stateTurn = (() => {
+    if (!carry) return null;
+    const v = r.volume || volumeOf(r.presence);
+    const line = r.isCore && v === 'absent' ? carry.unrooted
+      : r.dx?.condition === 'Underfueled' ? (v === 'absent' ? carry.missing : null)
+      : r.dx?.condition === 'Overfueled' ? (v === 'absent' ? carry.spared : v === 'thin' ? carry.thin : v === 'dominant' ? carry.excess : null)
+      : null;
+    return line?.clause ? `${line.clause} ${line.remedy || ''}`.trim() : null;
+  })();
   const mech = pair ? {
     ...edge,
     eq: r.isCore ? `${r.name} is your Core` : `${model.byEl[edge.a].name} ${edge.verb} ${model.byEl[edge.b].name}`,
     // the 汉字 classical epigraph (mechanism v2, owner 2026-09-02)
-    classic: pair.mechanism.classic || '',
-    base: pair.mechanism.base,
-    turn: r.dx?.condition === 'Overfueled' ? pair.mechanism.friction_turn
-      : r.dx?.condition === 'Underfueled' ? pair.mechanism.catalyst_turn : null,
+    classic: mechanism.classic || '',
+    base: mechanism.base,
+    turn: stateTurn || (r.dx?.condition === 'Overfueled' ? mechanism.friction_turn
+      : r.dx?.condition === 'Underfueled' ? mechanism.catalyst_turn : null),
     turnLab,
   } : null;
 

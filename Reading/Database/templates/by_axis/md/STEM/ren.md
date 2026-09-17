@@ -104,12 +104,12 @@
 | `shadows[5].face` | echo |
 | `shadows[5].echo_of` | 水_火.function.definition_friction |
 | `shadows[5].desc` | Hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you. |
-| `shadows[6].phrase` | Held behind walls |
-| `shadows[6].dim` | others' rules |
+| `shadows[6].phrase` | Sinks under blame |
+| `shadows[6].dim` | being judged |
 | `shadows[6].door` | order |
 | `shadows[6].face` | echo |
 | `shadows[6].echo_of` | 水_土.function.definition_friction |
-| `shadows[6].desc` | A calendar with no slack, roles held from duty long after they stopped fitting. Dammed by other people's rules, the sea goes quiet, and quiet is not the same as calm. |
+| `shadows[6].desc` | A calendar with no slack, roles held from duty, and when you miss one the sternest voice you hear is your own. Quiet is not the same as calm. |
 | `door_note.body` | Water |
 | `door_note.mind` | Metal |
 | `door_note.expression` | Wood |
@@ -254,3 +254,10 @@
 | `retired_derivation_law_2026-09-16[4].door` | mind |
 | `retired_derivation_law_2026-09-16[4].desc` | Every source you take in pulls a different way. The water is deep and going nowhere. |
 | `retired_derivation_law_2026-09-16[4].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_inner_judge_2026-09-17[0].phrase` | Held behind walls |
+| `retired_inner_judge_2026-09-17[0].dim` | others' rules |
+| `retired_inner_judge_2026-09-17[0].door` | order |
+| `retired_inner_judge_2026-09-17[0].face` | echo |
+| `retired_inner_judge_2026-09-17[0].echo_of` | 水_土.function.definition_friction |
+| `retired_inner_judge_2026-09-17[0].desc` | A calendar with no slack, roles held from duty long after they stopped fitting. Dammed by other people's rules, the sea goes quiet, and quiet is not the same as calm. |
+| `retired_inner_judge_2026-09-17[0].why` | owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition |

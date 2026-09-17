@@ -104,12 +104,12 @@
 | `shadows[5].face` | echo |
 | `shadows[5].echo_of` | 土_水.function.definition_friction |
 | `shadows[5].desc` | Accounts checked daily, opportunities tracked past usefulness, control spending the calm it was meant to protect. |
-| `shadows[6].phrase` | Quietly overwhelmed |
-| `shadows[6].dim` | capacity |
+| `shadows[6].phrase` | Never forgives itself |
+| `shadows[6].dim` | being judged |
 | `shadows[6].door` | order |
 | `shadows[6].face` | echo |
 | `shadows[6].echo_of` | 土_木.function.definition_friction |
-| `shadows[6].desc` | Everyone rooted in you, nothing rooted for you. The load has not changed, but the legs under it have, and you still say yes to every weight. |
+| `shadows[6].desc` | Everyone rooted in you, nothing rooted for you. Fall short once and the harshest judgement comes from inside, and it stays for years. |
 | `door_note.body` | Earth |
 | `door_note.mind` | Fire |
 | `door_note.expression` | Metal |
@@ -249,3 +249,10 @@
 | `retired_derivation_law_2026-09-16[5].door` | action |
 | `retired_derivation_law_2026-09-16[5].desc` | What could flow gets dammed. Money, plans, people, all held until the pressure shows. |
 | `retired_derivation_law_2026-09-16[5].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_inner_judge_2026-09-17[0].phrase` | Quietly overwhelmed |
+| `retired_inner_judge_2026-09-17[0].dim` | capacity |
+| `retired_inner_judge_2026-09-17[0].door` | order |
+| `retired_inner_judge_2026-09-17[0].face` | echo |
+| `retired_inner_judge_2026-09-17[0].echo_of` | 土_木.function.definition_friction |
+| `retired_inner_judge_2026-09-17[0].desc` | Everyone rooted in you, nothing rooted for you. The load has not changed, but the legs under it have, and you still say yes to every weight. |
+| `retired_inner_judge_2026-09-17[0].why` | owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition |

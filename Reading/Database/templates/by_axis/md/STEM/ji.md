@@ -104,12 +104,12 @@
 | `shadows[5].face` | echo |
 | `shadows[5].echo_of` | 土_水.function.definition_friction |
 | `shadows[5].desc` | Accounts checked daily, favors tracked, every flow managed past usefulness. The control spends the calm it was meant to protect. |
-| `shadows[6].phrase` | Can't say no |
-| `shadows[6].dim` | refusing |
+| `shadows[6].phrase` | Sorry for everything |
+| `shadows[6].dim` | being judged |
 | `shadows[6].door` | order |
 | `shadows[6].face` | echo |
 | `shadows[6].echo_of` | 土_木.function.definition_friction |
-| `shadows[6].desc` | Everyone rooted in you, nothing rooted for you. The request lands and the yes is out before you have checked the calendar or the tank. |
+| `shadows[6].desc` | The yes is out before you have checked the tank, and when you fall short the harshest judgement comes from inside. You apologize for the weather. |
 | `door_note.body` | Earth |
 | `door_note.mind` | Fire |
 | `door_note.expression` | Metal |
@@ -234,3 +234,10 @@
 | `retired_derivation_law_2026-09-16[3].door` | action |
 | `retired_derivation_law_2026-09-16[3].desc` | Season after season of giving without lying fallow. The soil still produces, but you can feel the harvests getting smaller, and nobody rotates the field. |
 | `retired_derivation_law_2026-09-16[3].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_inner_judge_2026-09-17[0].phrase` | Can't say no |
+| `retired_inner_judge_2026-09-17[0].dim` | refusing |
+| `retired_inner_judge_2026-09-17[0].door` | order |
+| `retired_inner_judge_2026-09-17[0].face` | echo |
+| `retired_inner_judge_2026-09-17[0].echo_of` | 土_木.function.definition_friction |
+| `retired_inner_judge_2026-09-17[0].desc` | Everyone rooted in you, nothing rooted for you. The request lands and the yes is out before you have checked the calendar or the tank. |
+| `retired_inner_judge_2026-09-17[0].why` | owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition |

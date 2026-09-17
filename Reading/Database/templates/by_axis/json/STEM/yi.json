@@ -136,12 +136,12 @@
         "desc": "A gap is a gap. You grow into all of them, hold all of them, and the garden has no space left for anything else."
       },
       {
-        "phrase": "Bends too far",
-        "dim": "boundaries",
+        "phrase": "Blames itself first",
+        "dim": "being judged",
         "door": "order",
         "face": "echo",
         "echo_of": "木_金.function.definition_friction",
-        "desc": "You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you are holding stops being yours."
+        "desc": "You keep adapting long after the honest move was to stop, and when the shape stops being yours, the first name on the blame list is your own."
       }
     ],
     "__ore": {
@@ -404,6 +404,17 @@
           "door": "mind",
           "desc": "You can't quite take kindness at face value. Somewhere in you a quiet analyst asks what this person is really after. Sometimes the answer was nothing, and the wondering showed.",
           "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        }
+      ],
+      "retired_inner_judge_2026-09-17": [
+        {
+          "phrase": "Bends too far",
+          "dim": "boundaries",
+          "door": "order",
+          "face": "echo",
+          "echo_of": "木_金.function.definition_friction",
+          "desc": "You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you are holding stops being yours.",
+          "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
         }
       ]
     },

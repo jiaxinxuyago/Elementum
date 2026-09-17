@@ -46,12 +46,12 @@
 | `5.face` | echo |
 | `5.echo_of` | 木_土.function.definition_friction |
 | `5.desc` | Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent. |
-| `6.phrase` | Snaps under load |
-| `6.dim` | under rules |
+| `6.phrase` | Never good enough |
+| `6.dim` | being judged |
 | `6.door` | order |
 | `6.face` | echo |
 | `6.echo_of` | 木_金.function.definition_friction |
-| `6.desc` | Correction landing harder than you can absorb. Every rule met, every critique taken, until the standards stop shaping you and start shrinking you, and then you break, loudly. |
+| `6.desc` | Every rule met, every critique taken, until the standards stop shaping you and start shrinking you. The harshest voice you hear is your own, and it never says done. |
 
 ### The Vine · 乙
 
@@ -93,12 +93,12 @@
 | `5.face` | echo |
 | `5.echo_of` | 木_土.function.definition_friction |
 | `5.desc` | A gap is a gap. You grow into all of them, hold all of them, and the garden has no space left for anything else. |
-| `6.phrase` | Bends too far |
-| `6.dim` | boundaries |
+| `6.phrase` | Blames itself first |
+| `6.dim` | being judged |
 | `6.door` | order |
 | `6.face` | echo |
 | `6.echo_of` | 木_金.function.definition_friction |
-| `6.desc` | You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you are holding stops being yours. |
+| `6.desc` | You keep adapting long after the honest move was to stop, and when the shape stops being yours, the first name on the blame list is your own. |
 
 ### The Sun · 丙
 
@@ -140,12 +140,12 @@
 | `5.face` | echo |
 | `5.echo_of` | 火_金.function.definition_friction |
 | `5.desc` | Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled. |
-| `6.phrase` | Overthinks the leap |
-| `6.dim` | second-guessing |
+| `6.phrase` | Own harshest judge |
+| `6.dim` | being judged |
 | `6.door` | order |
 | `6.face` | echo |
 | `6.echo_of` | 火_水.function.definition_friction |
-| `6.desc` | Every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would. |
+| `6.desc` | Every plan reviewed until the moment passes, every spark second-guessed into a maybe, and the hardest judge of the flame is you. |
 
 ### The Candle · 丁
 
@@ -187,12 +187,12 @@
 | `5.face` | echo |
 | `5.echo_of` | 火_金.function.definition_friction |
 | `5.desc` | Signed, shipped, agreed, and you are back at it with a smaller brush. Done is a decision you keep reopening. |
-| `6.phrase` | Doubts every spark |
-| `6.dim` | second-guessing |
+| `6.phrase` | Takes it personally |
+| `6.dim` | criticism |
 | `6.door` | order |
 | `6.face` | echo |
 | `6.echo_of` | 火_水.function.definition_friction |
-| `6.desc` | Every plan reviewed until the moment passes, every small light second-guessed into a maybe. The checking costs more than the mistake would. |
+| `6.desc` | A criticism of the work lands as a criticism of your soul, every time. The checking costs more than the mistake would, and the hardest judge of the flame is you. |
 
 ### The Mountain · 戊
 
@@ -234,12 +234,12 @@
 | `5.face` | echo |
 | `5.echo_of` | 土_水.function.definition_friction |
 | `5.desc` | Accounts checked daily, opportunities tracked past usefulness, control spending the calm it was meant to protect. |
-| `6.phrase` | Quietly overwhelmed |
-| `6.dim` | capacity |
+| `6.phrase` | Never forgives itself |
+| `6.dim` | being judged |
 | `6.door` | order |
 | `6.face` | echo |
 | `6.echo_of` | 土_木.function.definition_friction |
-| `6.desc` | Everyone rooted in you, nothing rooted for you. The load has not changed, but the legs under it have, and you still say yes to every weight. |
+| `6.desc` | Everyone rooted in you, nothing rooted for you. Fall short once and the harshest judgement comes from inside, and it stays for years. |
 
 ### The Field · 己
 
@@ -281,12 +281,12 @@
 | `5.face` | echo |
 | `5.echo_of` | 土_水.function.definition_friction |
 | `5.desc` | Accounts checked daily, favors tracked, every flow managed past usefulness. The control spends the calm it was meant to protect. |
-| `6.phrase` | Can't say no |
-| `6.dim` | refusing |
+| `6.phrase` | Sorry for everything |
+| `6.dim` | being judged |
 | `6.door` | order |
 | `6.face` | echo |
 | `6.echo_of` | 土_木.function.definition_friction |
-| `6.desc` | Everyone rooted in you, nothing rooted for you. The request lands and the yes is out before you have checked the calendar or the tank. |
+| `6.desc` | The yes is out before you have checked the tank, and when you fall short the harshest judgement comes from inside. You apologize for the weather. |
 
 ### The Blade · 庚
 
@@ -375,12 +375,12 @@
 | `5.face` | echo |
 | `5.echo_of` | 金_木.function.definition_friction |
 | `5.desc` | Every good piece deserves a setting, so you keep buying stones for settings you never make. Plenty of motion, nothing finished. |
-| `6.phrase` | Panics over flaws |
-| `6.dim` | criticism |
+| `6.phrase` | Hardest on itself |
+| `6.dim` | being judged |
 | `6.door` | order |
 | `6.face` | echo |
 | `6.echo_of` | 金_火.function.definition_friction |
-| `6.desc` | Every rule runs hot and every small flaw gets treated like an emergency. The standard presses down on people first, then hardest on you. |
+| `6.desc` | Every small flaw gets treated like an emergency, and nobody judges the stone as harshly as you do. The rules run hot, hardest on you. |
 
 ### The Ocean · 壬
 
@@ -422,12 +422,12 @@
 | `5.face` | echo |
 | `5.echo_of` | 水_火.function.definition_friction |
 | `5.desc` | Hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you. |
-| `6.phrase` | Held behind walls |
-| `6.dim` | others' rules |
+| `6.phrase` | Sinks under blame |
+| `6.dim` | being judged |
 | `6.door` | order |
 | `6.face` | echo |
 | `6.echo_of` | 水_土.function.definition_friction |
-| `6.desc` | A calendar with no slack, roles held from duty long after they stopped fitting. Dammed by other people's rules, the sea goes quiet, and quiet is not the same as calm. |
+| `6.desc` | A calendar with no slack, roles held from duty, and when you miss one the sternest voice you hear is your own. Quiet is not the same as calm. |
 
 ### The Rain · 癸
 
@@ -469,9 +469,9 @@
 | `5.face` | echo |
 | `5.echo_of` | 水_火.function.definition_friction |
 | `5.desc` | Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns. |
-| `6.phrase` | Trapped by routine |
-| `6.dim` | hard conversations |
+| `6.phrase` | Punishes itself quietly |
+| `6.dim` | being judged |
 | `6.door` | order |
 | `6.face` | echo |
 | `6.echo_of` | 水_土.function.definition_friction |
-| `6.desc` | A calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you run on. |
+| `6.desc` | Roles held from duty long after they stopped fitting, and one missed duty brings the sternest voice you hear, your own, so softly that nobody else notices. |

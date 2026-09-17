@@ -1,5 +1,5 @@
 {
-  "blessedAt": "2026-09-16T05:08:23.120Z",
+  "blessedAt": "2026-09-17T21:28:57.644Z",
   "cases": [
     {
       "label": "REFERENCE 庚 (strong)",
@@ -496,9 +496,7 @@
             "el": "wood",
             "presence": 34,
             "score": 0.334,
-            "roles": [
-              "friction"
-            ],
+            "roles": [],
             "leadGod": "偏财",
             "faces": [
               "偏财/yang",
@@ -522,8 +520,7 @@
             "presence": 21,
             "score": 0.214,
             "roles": [
-              "core",
-              "catalyst"
+              "core"
             ],
             "leadGod": "比肩",
             "faces": [
@@ -534,9 +531,7 @@
             "el": "water",
             "presence": 7,
             "score": 0.069,
-            "roles": [
-              "friction"
-            ],
+            "roles": [],
             "leadGod": "食神",
             "faces": [
               "食神/yang",
@@ -548,7 +543,7 @@
             "presence": 5,
             "score": 0.052,
             "roles": [
-              "friction"
+              "catalyst"
             ],
             "leadGod": "七杀",
             "faces": [

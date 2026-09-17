@@ -104,12 +104,12 @@
 | `shadows[5].face` | echo |
 | `shadows[5].echo_of` | 金_木.function.definition_friction |
 | `shadows[5].desc` | Every good piece deserves a setting, so you keep buying stones for settings you never make. Plenty of motion, nothing finished. |
-| `shadows[6].phrase` | Panics over flaws |
-| `shadows[6].dim` | criticism |
+| `shadows[6].phrase` | Hardest on itself |
+| `shadows[6].dim` | being judged |
 | `shadows[6].door` | order |
 | `shadows[6].face` | echo |
 | `shadows[6].echo_of` | 金_火.function.definition_friction |
-| `shadows[6].desc` | Every rule runs hot and every small flaw gets treated like an emergency. The standard presses down on people first, then hardest on you. |
+| `shadows[6].desc` | Every small flaw gets treated like an emergency, and nobody judges the stone as harshly as you do. The rules run hot, hardest on you. |
 | `door_note.body` | Metal |
 | `door_note.mind` | Earth |
 | `door_note.expression` | Water |
@@ -234,3 +234,10 @@
 | `retired_derivation_law_2026-09-16[1].door` | order |
 | `retired_derivation_law_2026-09-16[1].desc` | The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep. |
 | `retired_derivation_law_2026-09-16[1].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_inner_judge_2026-09-17[0].phrase` | Panics over flaws |
+| `retired_inner_judge_2026-09-17[0].dim` | criticism |
+| `retired_inner_judge_2026-09-17[0].door` | order |
+| `retired_inner_judge_2026-09-17[0].face` | echo |
+| `retired_inner_judge_2026-09-17[0].echo_of` | 金_火.function.definition_friction |
+| `retired_inner_judge_2026-09-17[0].desc` | Every rule runs hot and every small flaw gets treated like an emergency. The standard presses down on people first, then hardest on you. |
+| `retired_inner_judge_2026-09-17[0].why` | owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition |

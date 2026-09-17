@@ -10,7 +10,9 @@
     "owner rulings 2026-08-19 (element-page restructure)",
     "REA_02 §5h (the carry card; owner 2026-09-15)",
     "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)",
-    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted"
+    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted",
+    "owner 2026-09-17: the inner judge (官杀旺身弱, REA_02 §5h canon) carried by the Order friction definition",
+    "owner 2026-09-17: mechanism_yin, the yin sibling speaks its own noun on the energy page"
   ],
   "candidates": {
     "mechanism": {
@@ -22,7 +24,7 @@
     "function": {
       "primary": "order",
       "definition_catalyst": "Fire is your Order, and as a catalyst, it is structure with heat in it. Pressure organizes you instead of scattering you, rules turn into momentum, and when things fall apart you are the one holding a straight line through the middle of it.",
-      "definition_friction": "Fire is your Order, and as a friction, it is order with the thermostat broken. Every rule runs hot, every moment gets treated like an emergency, and the structure that once held things up starts pressing down on people, then finally on you.",
+      "definition_friction": "Fire is your Order, and as a friction, it is order with the thermostat broken. Every rule runs hot, every moment gets treated like an emergency, and the structure that held things up presses down on people, then hardest on you. Nobody judges the edge as harshly as you do.",
       "advise_catalyst": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it.",
       "advise_friction": "Command works best rationed. Before taking over, ask one question and wait for the whole answer. Rank the week’s fires and let the bottom three burn out alone. Schedule the rest before the crash schedules it for you. Order people can breathe in is the only kind that holds."
     },
@@ -67,6 +69,11 @@
       "wide": {
         "clause": "Fire is the widest door, the fire that finishes the stone."
       }
+    },
+    "mechanism_yin": {
+      "base": "The refined prevails over the stubborn: fire alone commands metal. In the kiln the unbending learns to bend, ore gives up its rock, and the stone takes whatever colour the flame decides. Heat is the one argument metal cannot win, and what survives the fire comes out finer than what went in.",
+      "catalyst_turn": "Run thin, nothing tests you: a stone that keeps its first cut and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena.",
+      "friction_turn": "Run heavy, the wheel never stops: constant pressure, no bench time, a stone thinned by a polish it never leaves. Step off the wheel long enough to keep a facet."
     }
   },
   "__ore": {

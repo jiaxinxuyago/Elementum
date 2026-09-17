@@ -10,7 +10,8 @@
     "owner rulings 2026-08-19 (element-page restructure)",
     "REA_02 §5h (the carry card; owner 2026-09-15)",
     "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)",
-    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted"
+    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted",
+    "owner 2026-09-17: mechanism_yin, the yin sibling speaks its own noun on the energy page"
   ],
   "candidates": {
     "mechanism": {
@@ -60,6 +61,10 @@
       "friction": {
         "clause": "The burning outruns the growing: everything lit the moment it grows, no tendril left on the wall."
       }
+    },
+    "mechanism_yin": {
+      "base": "Wood is warm by nature, the classics say, and fire sleeps inside it: strip the dry vine, strike the stem, and the hidden flame comes out. Every bundle of cuttings is a lantern waiting for permission. What grew for years in silence burns in an evening, and the light was in the wood all along.",
+      "friction_turn": "Run heavy, the burning outruns the growing: everything lit the moment it grows, no tendril left on the wall. The flame eats its own hedge. Bank the fire and let some growth stand."
     }
   },
   "__ore": {

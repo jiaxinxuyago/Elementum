@@ -104,12 +104,12 @@
 | `shadows[5].face` | echo |
 | `shadows[5].echo_of` | 水_火.function.definition_friction |
 | `shadows[5].desc` | Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns. |
-| `shadows[6].phrase` | Trapped by routine |
-| `shadows[6].dim` | hard conversations |
+| `shadows[6].phrase` | Punishes itself quietly |
+| `shadows[6].dim` | being judged |
 | `shadows[6].door` | order |
 | `shadows[6].face` | echo |
 | `shadows[6].echo_of` | 水_土.function.definition_friction |
-| `shadows[6].desc` | A calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you run on. |
+| `shadows[6].desc` | Roles held from duty long after they stopped fitting, and one missed duty brings the sternest voice you hear, your own, so softly that nobody else notices. |
 | `door_note.body` | Water |
 | `door_note.mind` | Metal |
 | `door_note.expression` | Wood |
@@ -264,3 +264,10 @@
 | `retired_derivation_law_2026-09-16[5].door` | body |
 | `retired_derivation_law_2026-09-16[5].desc` | When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one. |
 | `retired_derivation_law_2026-09-16[5].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_inner_judge_2026-09-17[0].phrase` | Trapped by routine |
+| `retired_inner_judge_2026-09-17[0].dim` | hard conversations |
+| `retired_inner_judge_2026-09-17[0].door` | order |
+| `retired_inner_judge_2026-09-17[0].face` | echo |
+| `retired_inner_judge_2026-09-17[0].echo_of` | 水_土.function.definition_friction |
+| `retired_inner_judge_2026-09-17[0].desc` | A calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you run on. |
+| `retired_inner_judge_2026-09-17[0].why` | owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition |

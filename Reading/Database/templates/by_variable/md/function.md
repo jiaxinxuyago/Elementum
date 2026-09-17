@@ -42,7 +42,7 @@
 |---|---|
 | `primary` | order |
 | `definition_catalyst` | Metal is your Order, and as a catalyst, it is the standard that shapes your growth: editors, coaches, reviews, rules you chose on purpose. You improve fastest under exacting eyes. |
-| `definition_friction` | Metal is your Order, and as a friction, it is correction landing harder than you can absorb: every rule met, every critique taken, until standards stop shaping you and start shrinking you. |
+| `definition_friction` | Metal is your Order, and as a friction, it is correction landing harder than you can absorb: every rule met, every critique taken, until standards stop shaping you and start shrinking you. The harshest voice you hear ends up being your own. |
 | `advise_catalyst` | Growth loves resistance it respects. Put your work in front of one demanding person on a schedule, monthly at least. Ask for the harshest note first. Treat every review on the calendar as training, never as threat. |
 | `advise_friction` | Standards should serve the thing growing, never the other way around. Keep the two judges whose notes make you better and mute the rest. Answer critique after a night, never in the hour. Break one harmless rule a month to remember you can. |
 
@@ -102,7 +102,7 @@
 |---|---|
 | `primary` | order |
 | `definition_catalyst` | Water is your Order, and as a catalyst, it is the cool check your intensity needs: reviews, budgets, one person whose calm questions slow you down before the leap. Your best decisions have all survived a night of doubt. |
-| `definition_friction` | Water is your Order, and as a friction, it is caution soaking through everything: every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would. |
+| `definition_friction` | Water is your Order, and as a friction, it is caution soaking through everything: every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would, and the hardest judge of the flame is you. |
 | `advise_catalyst` | Discipline, for you, is imported, so import it well. Sleep on anything irreversible. Keep a reviewer you cannot charm and show them everything big. Put a cool number on every hot plan before saying yes. |
 | `advise_friction` | Prudence past its dose becomes fear with a clipboard. Give small decisions a five-minute timer. Reserve real review for the truly irreversible. Once a month, act on a warm impulse the same day it arrives and audit the result later. |
 
@@ -112,7 +112,7 @@
 |---|---|
 | `primary` | order |
 | `definition_catalyst` | Wood is your Order, and as a catalyst, it is living obligation that keeps you growing: family, teams, mentees, commitments that grow back each season and ask you to grow with them. Care is your discipline. |
-| `definition_friction` | Wood is your Order, and as a friction, it is obligations multiplying past your ground: everyone rooted in you, nothing rooted for you, care extracted faster than it regrows. |
+| `definition_friction` | Wood is your Order, and as a friction, it is obligations multiplying past your ground: everyone rooted in you, nothing rooted for you, care extracted faster than it regrows. Fall short once and the harshest judgement comes from inside. |
 | `advise_catalyst` | Some people are structured by rules. You are structured by what you tend. Take on one responsibility that develops over years and let its calendar anchor yours. Show up on its schedule especially when you do not feel like it. |
 | `advise_friction` | Care that never rests its fields goes barren. List who actually needs you this season and hand one standing duty back, kindly and completely. Say a full yes to fewer things. Plant something that feeds you and give it the best hour. |
 
@@ -172,7 +172,7 @@
 |---|---|
 | `primary` | order |
 | `definition_catalyst` | Fire is your Order, and as a catalyst, it is structure with heat in it. Pressure organizes you instead of scattering you, rules turn into momentum, and when things fall apart you are the one holding a straight line through the middle of it. |
-| `definition_friction` | Fire is your Order, and as a friction, it is order with the thermostat broken. Every rule runs hot, every moment gets treated like an emergency, and the structure that once held things up starts pressing down on people, then finally on you. |
+| `definition_friction` | Fire is your Order, and as a friction, it is order with the thermostat broken. Every rule runs hot, every moment gets treated like an emergency, and the structure that held things up presses down on people, then hardest on you. Nobody judges the edge as harshly as you do. |
 | `advise_catalyst` | Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it. |
 | `advise_friction` | Command works best rationed. Before taking over, ask one question and wait for the whole answer. Rank the week’s fires and let the bottom three burn out alone. Schedule the rest before the crash schedules it for you. Order people can breathe in is the only kind that holds. |
 
@@ -232,7 +232,7 @@
 |---|---|
 | `primary` | order |
 | `definition_catalyst` | Earth is your Order, and as a catalyst, it is the structure that turns your depth into force: fixed roles, steady schedules, commitments that do not move with your moods. You are most creative inside walls you chose. |
-| `definition_friction` | Earth is your Order, and as a friction, it is structure tightening past usefulness: a calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you actually run on. |
+| `definition_friction` | Earth is your Order, and as a friction, it is structure tightening past usefulness: a calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you actually run on. Miss one duty and the sternest voice you hear is your own. |
 | `advise_catalyst` | Choose your structure and the rest takes care of itself. Anchor the week with three fixed blocks, same day, same hour, and let everything fluid arrange around them. Accept the role with the schedule. Keep the routine two weeks past the urge to quit. |
 | `advise_friction` | A schedule should hold your life, never replace it. Leave one afternoon a week unscheduled and guard the emptiness. Renegotiate the obligation you dread most. Each quarter, drop one commitment that survives on habit alone. |
 

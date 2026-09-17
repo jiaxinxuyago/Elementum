@@ -25,6 +25,11 @@ export const PAIR_CELLS = {
       catalyst_turn: 'Run thin, the trunk doubts itself: direction borrowed, growth waiting for permission. Your chart asks you to feed the self. Start something and let it grow visibly yours.',
       friction_turn: 'Run heavy, the canopy closes: growth so dense no other light gets in, growth for growth’s own sake. Thin the branches and let the forest breathe.',
     },
+    mechanism_yin: {
+      base: 'Things gather by kind, the Book of Changes says, and so wood stands with wood: one hedge sharing one root system, every vine raising the cover that shelters the next shoot. There is no reaction here, only more of the same green force. A single vine is weather\'s toy. A wall of them makes its own shade.',
+      catalyst_turn: 'Run thin, the vine doubts itself: direction borrowed, growth waiting for permission. Your chart asks you to feed the self. Start something and let it grow visibly yours.',
+      friction_turn: 'Run heavy, the vine covers the wall: growth so dense no other light gets in, growth for growth\'s own sake. Thin the tendrils and let the wall breathe.',
+    },
     function: {
       primary: 'body',
       definition_catalyst: 'Wood is your Body, and running thin, it is the growth reserve your whole system draws on: appetite, stamina, the will to start things. When it dips you feel it as flatness before you feel it as fatigue.',
@@ -51,6 +56,10 @@ export const PAIR_CELLS = {
       base: 'Wood is warm by nature, the classics say, and fire sleeps inside it: drill the branch, strike the grain, and the hidden flame comes out. Every log is a lantern waiting for permission. What grew for years in silence burns in an evening, and the light was in the wood all along.',
       catalyst_turn: 'Run thin, the wood stays green: years of growth and nothing kindled, reach without light. Your chart asks you to burn a little. Show the work, tell the story, let it catch.',
       friction_turn: 'Run heavy, the burning outruns the growing: everything lit the moment it grows, no branch left on the tree. The flame eats its own forest. Bank the fire and let some growth stand.',
+    },
+    mechanism_yin: {
+      base: 'Wood is warm by nature, the classics say, and fire sleeps inside it: strip the dry vine, strike the stem, and the hidden flame comes out. Every bundle of cuttings is a lantern waiting for permission. What grew for years in silence burns in an evening, and the light was in the wood all along.',
+      friction_turn: 'Run heavy, the burning outruns the growing: everything lit the moment it grows, no tendril left on the wall. The flame eats its own hedge. Bank the fire and let some growth stand.',
     },
     function: {
       primary: 'expression',
@@ -80,6 +89,10 @@ export const PAIR_CELLS = {
       catalyst_turn: 'Run thin, the roots float: plenty of reaching, nothing held, growth with no ground under it. Your chart asks you to claim soil. Buy in, commit, root somewhere real.',
       friction_turn: 'Run heavy, the holding never stops: every slope claimed, every acre worked, roots spread past what the tree can feed. Hold less hillside, hold it deeper.',
     },
+    mechanism_yin: {
+      base: 'The concentrated prevails over the scattered, and so wood governs earth: the root threads the loose soil, binds it, and holds the slope that rain would otherwise carry away. Ground without roots erodes grain by grain. Gripped by the living vine, the same ground becomes terrace, garden, land worth naming.',
+      friction_turn: 'Run heavy, the holding never stops: every wall claimed, every trellis taken, roots spread past what the vine can feed. Hold less wall, hold it deeper.',
+    },
     function: {
       primary: 'action',
       definition_catalyst: 'Earth is your Action, and as a catalyst, it is where your reach becomes something held: savings, property, positions, commitments that stay put. You do best when ambition lands somewhere concrete.',
@@ -108,10 +121,14 @@ export const PAIR_CELLS = {
       catalyst_turn: 'Run thin, nothing prunes you: growth in every direction and fruit in none. Your chart asks for the knife. Invite the standard, the editor, the coach with shears.',
       friction_turn: 'Run heavy, the cutting never stops: cut after cut until growing feels like a fault. Too much knife leaves no tree. Step back from blades that prune for pruning’s sake.',
     },
+    mechanism_yin: {
+      base: 'The hard prevails over the soft, and so metal comes for wood: the shears meet the hedge, the pruning knife meets the vine, and wild growth learns the shape it could not find alone. Unpruned, a vine sprawls and fruits little. Under the edge it loses tendrils and gains a harvest.',
+      friction_turn: 'Run heavy, the cutting never stops: cut after cut until growing feels like a fault. Too much knife leaves no vine. Step back from blades that prune for pruning\'s sake.',
+    },
     function: {
       primary: 'order',
       definition_catalyst: 'Metal is your Order, and as a catalyst, it is the standard that shapes your growth: editors, coaches, reviews, rules you chose on purpose. You improve fastest under exacting eyes.',
-      definition_friction: 'Metal is your Order, and as a friction, it is correction landing harder than you can absorb: every rule met, every critique taken, until standards stop shaping you and start shrinking you.',
+      definition_friction: 'Metal is your Order, and as a friction, it is correction landing harder than you can absorb: every rule met, every critique taken, until standards stop shaping you and start shrinking you. The harshest voice you hear ends up being your own.',
       advise_catalyst: 'Growth loves resistance it respects. Put your work in front of one demanding person on a schedule, monthly at least. Ask for the harshest note first. Treat every review on the calendar as training, never as threat.',
       advise_friction: 'Standards should serve the thing growing, never the other way around. Keep the two judges whose notes make you better and mute the rest. Answer critique after a night, never in the hour. Break one harmless rule a month to remember you can.',
     },
@@ -132,6 +149,11 @@ export const PAIR_CELLS = {
       base: 'Water gives life to wood, the old texts say, because it moistens: rain soaks the ground, the root drinks in the dark, and what was a seed unfolds toward the sky. The forest is not raised by effort. It is raised by weather, by the patient water that asks no credit for the green it lifts.',
       catalyst_turn: 'Run thin, the canopy outpaces the rain: ambition still reaching while the soil dries. Your chart asks you to feed the water table. Rest, read, go quiet and refill.',
       friction_turn: 'Run heavy, the ground floods: roots soaked past drinking, growth postponed for one more season of preparation. Drain a little. Trees also need sun.',
+    },
+    mechanism_yin: {
+      base: 'Water gives life to wood, the old texts say, because it moistens: rain soaks the ground, the root drinks in the dark, and what was a seed unfolds up the wall. The vine is not raised by effort. It is raised by weather, by the patient water that asks no credit for the green it lifts.',
+      catalyst_turn: 'Run thin, the vine outpaces the rain: ambition still reaching while the soil dries. Your chart asks you to feed the water table. Rest, read, go quiet and refill.',
+      friction_turn: 'Run heavy, the ground floods: roots soaked past drinking, growth postponed for one more season of preparation. Drain a little. Vines also need sun.',
     },
     function: {
       primary: 'mind',
@@ -163,6 +185,9 @@ export const PAIR_CELLS = {
       catalyst_turn: 'Run thin, the flame eats scraps: brilliance flaring on no reserves, warmth borrowed from tomorrow. Your chart asks you to stack wood. Learn, gather, befriend, store.',
       friction_turn: 'Run heavy, the woodpile buries the fire: fuel hoarded past burning, preparation stacked so high the flame never gets lit. Pull a branch off the pile and strike.',
     },
+    mechanism_yin: {
+      base: 'Wood is warm by nature and fire sleeps inside it, the classics say, so every flame is fed by what was gathered before it: dry branches, stacked seasons, years of quiet growth surrendered to one bright hour. A flame is only ever as tall as its fuel. The small light borrows everything from what was gathered.',
+    },
     function: {
       primary: 'mind',
       definition_catalyst: 'Wood is your Mind, and as a catalyst, it is how your fuel accumulates: skills stacked, books finished, friendships tended, people learned from over years. What you gather quietly becomes what you later spend as brilliance.',
@@ -187,6 +212,10 @@ export const PAIR_CELLS = {
       base: 'Lights answer one another, the old histories say: flame set beside flame makes one blaze, brighter than the sum of what was lit. There is no reaction between them, only reinforcement, heat agreeing with heat. Such doubling warms whole houses, and it can also empty the woodpile twice as fast.',
       catalyst_turn: 'Run thin, the flame apologizes for shining: warmth dialed down, light waiting to be invited. Your chart asks you to feed the self. Take the stage you keep declining.',
       friction_turn: 'Run heavy, the light crowds out the sky: so much shine nothing else is visible, warmth that outshines the people it warms. Dim deliberately sometimes. Stars are seen at night.',
+    },
+    mechanism_yin: {
+      catalyst_turn: 'Run thin, the flame apologizes for shining: warmth dialed down, light waiting to be invited. Your chart asks you to feed the self. Take the seat at the table you keep declining.',
+      friction_turn: 'Run heavy, the flame takes the whole table: so much light up close that nothing else at it is visible, warmth that outshines the people it warms. Dim deliberately sometimes. Leave the far corners dark.',
     },
     function: {
       primary: 'body',
@@ -267,7 +296,7 @@ export const PAIR_CELLS = {
     function: {
       primary: 'order',
       definition_catalyst: 'Water is your Order, and as a catalyst, it is the cool check your intensity needs: reviews, budgets, one person whose calm questions slow you down before the leap. Your best decisions have all survived a night of doubt.',
-      definition_friction: 'Water is your Order, and as a friction, it is caution soaking through everything: every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would.',
+      definition_friction: 'Water is your Order, and as a friction, it is caution soaking through everything: every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would, and the hardest judge of the flame is you.',
       advise_catalyst: 'Discipline, for you, is imported, so import it well. Sleep on anything irreversible. Keep a reviewer you cannot charm and show them everything big. Put a cool number on every hot plan before saying yes.',
       advise_friction: 'Prudence past its dose becomes fear with a clipboard. Give small decisions a five-minute timer. Reserve real review for the truly irreversible. Once a month, act on a warm impulse the same day it arrives and audit the result later.',
     },
@@ -289,10 +318,13 @@ export const PAIR_CELLS = {
       catalyst_turn: 'Run thin, nothing roots in you: ground with no claim on it, steadiness serving no living thing. Your chart asks for roots. Take on something growing and let it grip.',
       friction_turn: 'Run heavy, the roots take everything: every living thing anchored in your acre, soil exhausted by what it holds. Let a slope go wild. You are ground, not groundskeeper to everyone.',
     },
+    mechanism_yin: {
+      base: 'The concentrated prevails over the scattered, and so wood grips earth: roots thread the field, take hold, and do not ask permission. The ground carries what grows in it, season after season, the way a field carries its crop. It is a weight and a purpose at once. Unrooted ground is only dust waiting for wind.',
+    },
     function: {
       primary: 'order',
       definition_catalyst: 'Wood is your Order, and as a catalyst, it is living obligation that keeps you growing: family, teams, mentees, commitments that grow back each season and ask you to grow with them. Care is your discipline.',
-      definition_friction: 'Wood is your Order, and as a friction, it is obligations multiplying past your ground: everyone rooted in you, nothing rooted for you, care extracted faster than it regrows.',
+      definition_friction: 'Wood is your Order, and as a friction, it is obligations multiplying past your ground: everyone rooted in you, nothing rooted for you, care extracted faster than it regrows. Fall short once and the harshest judgement comes from inside.',
       advise_catalyst: 'Some people are structured by rules. You are structured by what you tend. Take on one responsibility that develops over years and let its calendar anchor yours. Show up on its schedule especially when you do not feel like it.',
       advise_friction: 'Care that never rests its fields goes barren. List who actually needs you this season and hand one standing duty back, kindly and completely. Say a full yes to fewer things. Plant something that feeds you and give it the best hour.',
     },
@@ -310,9 +342,13 @@ export const PAIR_CELLS = {
   '土_火': {
     mechanism: {
       classic: '木焚而成灰，灰即土也',
-      base: 'Ash is earth, the old texts say: everything that burns comes down to soil at last. So the field is fed by every fire that visits it, warmth breaking down into richness, the bright and the festive settling in as fertility. Cold ground grows little. Ground that has known flame grows the harvest.',
+      base: 'Ash is earth, the old texts say: everything that burns comes down to soil at last. So the ground is fed by every fire that visits it, warmth breaking down into richness, the bright and the festive settling in as fertility. Cold ground grows little. Ground that has known flame grows the harvest.',
       catalyst_turn: 'Run thin, the field goes gray: duties held on cold ground, nothing warm coming in. Your chart asks you to feed the fire that feeds you. Accept warmth. Attend the feast.',
       friction_turn: 'Run heavy, the warmth never lets up: comfort layered until the ground never firms and standing feels unnecessary. Walk off the hearth and bear some weather.',
+    },
+    mechanism_yin: {
+      base: 'Ash is earth, the old texts say: everything that burns comes down to soil at last. So the field is fed by every fire that visits it, warmth breaking down into richness, the bright and the festive settling in as fertility. Cold ground grows little. Ground that has known flame grows the harvest.',
+      catalyst_turn: 'Run thin, the field goes gray: duties held on cold ground, nothing warm coming in. Your chart asks you to feed the fire that feeds you. Accept warmth. Attend the feast.',
     },
     function: {
       primary: 'mind',
@@ -342,6 +378,10 @@ export const PAIR_CELLS = {
       catalyst_turn: 'Run thin, the ground doubts its own bearing: steadiness performed, footing borrowed. Your chart asks you to feed the self. Keep one promise to yourself so long it becomes terrain.',
       friction_turn: 'Run heavy, the ground packs hard: so much steadiness nothing new can root, stillness sealed into immobility. Till the field. Even bedrock is improved by weather.',
     },
+    mechanism_yin: {
+      base: 'Thick virtue carries all things, the Book of Changes says of earth: ground laid upon ground, bedrock under soil, the one element whose nature is simply to hold. Nothing reacts here. Ground settles onto ground, and the stillness deepens until whole harvests stand on it without complaint. What everything else moves through, earth remains.',
+      friction_turn: 'Run heavy, the ground packs hard: so much steadiness nothing new can root, stillness sealed into immobility. Till the field. Even good soil is improved by weather.',
+    },
     function: {
       primary: 'body',
       definition_catalyst: 'Earth is your Body, and running thin, it is the steadiness under everything: digestion, sleep depth, the physical calm that lets you carry weight. Yours erodes quietly under skipped meals and moved bedtimes.',
@@ -367,6 +407,10 @@ export const PAIR_CELLS = {
       base: 'Metal is born of earth: it gathers in the mountain\'s stone, condensed out of long pressure and deep moisture, the ground\'s patience arriving at a point. The mountain speaks rarely. When it does, what it says is ore, and every refined thing that leaves the rock carries the mountain\'s patience inside it.',
       catalyst_turn: 'Run thin, the ore stays buried: depth with no expression, patience that never mints anything. Your chart asks you to bring metal up. Finish a piece, publish the standard.',
       friction_turn: 'Run heavy, the mining never stops: everything minted, the mountain hollowed for output. Leave some ore in the ground. Your silence is part of the deposit.',
+    },
+    mechanism_yin: {
+      base: 'Metal is born of earth: it gathers under the field\'s stones, condensed out of long pressure and deep moisture, the ground\'s patience arriving at a point. The field speaks rarely. When it does, what it says is ore, and every refined thing that leaves the soil carries the field\'s patience inside it.',
+      friction_turn: 'Run heavy, the mining never stops: everything minted, the topsoil stripped for output. Leave some ore in the ground. Your silence is part of the deposit.',
     },
     function: {
       primary: 'expression',
@@ -422,6 +466,11 @@ export const PAIR_CELLS = {
       catalyst_turn: 'Run thin, the knife has nothing to prune: skill idling without a project worth it. Your chart asks you to claim material. Pick one living ambition and start cutting.',
       friction_turn: 'Run heavy, the pruning never stops: forests of projects, an edge worn on material that never ends. The knife dulls on quantity. Cut fewer branches, and finish them.',
     },
+    mechanism_yin: {
+      base: 'The hard prevails over the soft, the classics say, and so metal governs wood. The engraver\'s point meets the grain, the fine saw meets the branch, and the wild green takes a shape it could not find alone. The cut is craft rather than ruin: rough stock becomes inlay, bramble becomes orchard, under a point that knows what to spare.',
+      catalyst_turn: 'Run thin, the point has nothing to work: skill idling without a piece worth it. Your chart asks you to claim material. Pick one living ambition and start cutting.',
+      friction_turn: 'Run heavy, the cutting never stops: trays of half-set pieces, a point worn on material that never ends. The fine tool dulls on quantity. Cut fewer pieces, and finish them.',
+    },
     function: {
       primary: 'action',
       definition_catalyst: 'Wood is your Action, and as a catalyst, it is effort that behaves like a living thing. Whatever you plant and keep tending, money, skills, ventures, trust, grows on its own schedule and pays you back with interest, because your work compounds instead of burning off.',
@@ -452,10 +501,15 @@ export const PAIR_CELLS = {
       catalyst_turn: 'Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena.',
       friction_turn: 'Run heavy, the forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves. Step out of the fire long enough to hold an edge.',
     },
+    mechanism_yin: {
+      base: 'The refined prevails over the stubborn: fire alone commands metal. In the kiln the unbending learns to bend, ore gives up its rock, and the stone takes whatever colour the flame decides. Heat is the one argument metal cannot win, and what survives the fire comes out finer than what went in.',
+      catalyst_turn: 'Run thin, nothing tests you: a stone that keeps its first cut and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena.',
+      friction_turn: 'Run heavy, the wheel never stops: constant pressure, no bench time, a stone thinned by a polish it never leaves. Step off the wheel long enough to keep a facet.',
+    },
     function: {
       primary: 'order',
       definition_catalyst: 'Fire is your Order, and as a catalyst, it is structure with heat in it. Pressure organizes you instead of scattering you, rules turn into momentum, and when things fall apart you are the one holding a straight line through the middle of it.',
-      definition_friction: 'Fire is your Order, and as a friction, it is order with the thermostat broken. Every rule runs hot, every moment gets treated like an emergency, and the structure that once held things up starts pressing down on people, then finally on you.',
+      definition_friction: 'Fire is your Order, and as a friction, it is order with the thermostat broken. Every rule runs hot, every moment gets treated like an emergency, and the structure that held things up presses down on people, then hardest on you. Nobody judges the edge as harshly as you do.',
       advise_catalyst: 'Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it.',
       advise_friction: 'Command works best rationed. Before taking over, ask one question and wait for the whole answer. Rank the week’s fires and let the bottom three burn out alone. Schedule the rest before the crash schedules it for you. Order people can breathe in is the only kind that holds.',
     },
@@ -481,6 +535,11 @@ export const PAIR_CELLS = {
       base: 'Metal is born of earth, the old texts say: it lies in the mountain, gathered in stone, grown by slow pressure and the moisture of deep ground. Nothing hurries it. The mountain holds the ore for ages before any edge is struck from it, and every blade remembers the patience of the rock that made it.',
       catalyst_turn: 'Run thin, the mountain goes hungry: a keen edge with nothing behind it, sharpness spent faster than it forms. Your chart asks you to feed the ground. Rest and study are smelting, not stalling.',
       friction_turn: 'Run heavy, the shelter closes over the blade: so much preparation that the edge never leaves the mine. Comfort begins to bury what it formed. Dig out and cut something real.',
+    },
+    mechanism_yin: {
+      base: 'Metal is born of earth, the old texts say: it lies in the mountain, gathered in stone, grown by slow pressure and the moisture of deep ground. Nothing hurries it. The mountain holds the ore for ages before any stone is cut from it, and every jewel remembers the patience of the rock that made it.',
+      catalyst_turn: 'Run thin, the mine goes hungry: a fine stone with nothing behind it, brilliance spent faster than it forms. Your chart asks you to feed the ground. Rest and study are the polishing, not stalling.',
+      friction_turn: 'Run heavy, the setting closes over the stone: so much preparation that the jewel never leaves the box. Comfort begins to bury what it formed. Take it out and wear it somewhere real.',
     },
     function: {
       primary: 'mind',
@@ -512,6 +571,11 @@ export const PAIR_CELLS = {
       catalyst_turn: 'Run thin, the line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last. Your chart asks you to feed the self. Practice your craft alone until it rings.',
       friction_turn: 'Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through.',
     },
+    mechanism_yin: {
+      base: 'Like answers like, the classics say: the same note struck twice rings once, and louder. When metal stands beside metal there is no reaction, only reinforcement, ore of one seam, stones off one wheel. Such sameness is strength and its own hazard. Two stones in one box keep each other bright, or scratch each other dull.',
+      catalyst_turn: 'Run thin, the facet wavers: opinions borrowed, standards negotiable, a stone that answers to whoever held it last. Your chart asks you to feed the self. Practice your craft alone until it shines.',
+      friction_turn: 'Run heavy, the setting seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through.',
+    },
     function: {
       primary: 'body',
       definition_catalyst: 'Metal is your Body, and running thin, it is the reserve everything else draws on: sleep, food, recovery, the physical base under your discipline. Yours holds form long after the fuel is low, so you notice depletion late.',
@@ -538,6 +602,11 @@ export const PAIR_CELLS = {
       base: 'In the old reckoning water is metal\'s child: cold iron beads the morning dew, and metal, melted, runs bright as any river. The hard thing does not stay hard. At its finest edge it turns liquid, and what was fixed begins to flow, the clear stream carrying the mountain\'s sharpness out into the world.',
       catalyst_turn: 'Run thin, this channel shows as pressure without release: much forged, little said. That is why your chart asks you to feed it. Writing, speaking, sharing work early lets the blade breathe.',
       friction_turn: 'Run heavy, the flow turns to flood: output for its own sake, saying instead of shaping. The flood drinks the blade that feeds it. Cut the noise and the water clears.',
+    },
+    mechanism_yin: {
+      base: 'In the old reckoning water is metal\'s child: cold silver beads the morning dew, and metal, melted, runs bright as any river. The hard thing does not stay hard. At its finest facet it turns liquid, and what was fixed begins to flow, the clear stream carrying the stone\'s brightness out into the world.',
+      catalyst_turn: 'Run thin, this channel shows as pressure without release: much polished, little said. That is why your chart asks you to feed it. Writing, speaking, sharing work early lets the stone breathe.',
+      friction_turn: 'Run heavy, the flow turns to flood: output for its own sake, saying instead of shaping. The flood drinks the stone that feeds it. Cut the noise and the water clears.',
     },
     function: {
       primary: 'expression',
@@ -618,10 +687,15 @@ export const PAIR_CELLS = {
       catalyst_turn: 'Run thin, nothing banks you: depth spreading wide and arriving nowhere, freedom without force. Your chart asks for structure. Accept the role, the rhythm, the walls that aim you.',
       friction_turn: 'Run heavy, the banks close in: current squeezed into a schedule until the water forgets it moves. Widen the channel. Rivers are meant to breathe.',
     },
+    mechanism_yin: {
+      base: 'The solid prevails over the flowing, and so earth contains water: banks make the stream, walls make the well, and rain without a vessel is only weather. Contained, rain becomes current, direction, force. The old texts do not call the banks a prison. They call them the reason the stream arrives.',
+      catalyst_turn: 'Run thin, nothing catches you: rain spreading wide and soaking in nowhere, freedom without force. Your chart asks for structure. Accept the role, the rhythm, the walls that aim you.',
+      friction_turn: 'Run heavy, the gutters take it all: rain routed into a schedule until it forgets where it wanted to fall. Widen the channel. Rain is meant to wander.',
+    },
     function: {
       primary: 'order',
       definition_catalyst: 'Earth is your Order, and as a catalyst, it is the structure that turns your depth into force: fixed roles, steady schedules, commitments that do not move with your moods. You are most creative inside walls you chose.',
-      definition_friction: 'Earth is your Order, and as a friction, it is structure tightening past usefulness: a calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you actually run on.',
+      definition_friction: 'Earth is your Order, and as a friction, it is structure tightening past usefulness: a calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you actually run on. Miss one duty and the sternest voice you hear is your own.',
       advise_catalyst: 'Choose your structure and the rest takes care of itself. Anchor the week with three fixed blocks, same day, same hour, and let everything fluid arrange around them. Accept the role with the schedule. Keep the routine two weeks past the urge to quit.',
       advise_friction: 'A schedule should hold your life, never replace it. Leave one afternoon a week unscheduled and guard the emptiness. Renegotiate the obligation you dread most. Each quarter, drop one commitment that survives on habit alone.',
     },
@@ -647,6 +721,11 @@ export const PAIR_CELLS = {
       base: 'Water is metal\'s child, the old reckoning says: dew beads on cold iron, molten metal runs like a river, and the exact hard thing releases the flowing one. So clarity feeds depth. What the whetted edge concentrates, the stream inherits, sharpness dissolved into current and carried further than any blade could reach.',
       catalyst_turn: 'Run thin, the spring runs shallow: intuition drawn on without refilling, depth spending faster than it condenses. Your chart asks for metal. Study something exact and drink from it.',
       friction_turn: 'Run heavy, the rigor sets like concrete: so much refining the water never moves, depth held in cisterns of preparation. Pour something out. A spring proves itself by flowing.',
+    },
+    mechanism_yin: {
+      base: 'Water is metal\'s child, the old reckoning says: dew beads on cold iron, molten metal runs like a river, and the exact hard thing releases the flowing one. So clarity feeds depth. What the whetted edge concentrates, the rain inherits, sharpness dissolved into drops and carried further than any blade could reach.',
+      catalyst_turn: 'Run thin, the cloud runs thin: intuition drawn on without refilling, feeling spent faster than it gathers. Your chart asks for metal. Study something exact and drink from it.',
+      friction_turn: 'Run heavy, the rigor sets like concrete: so much refining the rain never falls, feeling held in tanks of preparation. Pour something out. Rain proves itself by falling.',
     },
     function: {
       primary: 'mind',
@@ -677,6 +756,11 @@ export const PAIR_CELLS = {
       base: 'Nothing moistens all things like water, the Book of Changes says: depth joined to depth, rivers feeding the sea that sends them back as rain. There is no reaction here, only gathering. Still water clarifies, deep water remembers, and the same softness that yields to every stone eventually carries the stone away.',
       catalyst_turn: 'Run thin, the sea doubts its depth: perception discounted, knowing deferred to louder instruments. Your chart asks you to feed the self. Trust one read all the way through.',
       friction_turn: 'Run heavy, the surface seals: depth stilled under so much knowing that nothing surfaces to be checked. Say the read aloud. Deep water still needs shores.',
+    },
+    mechanism_yin: {
+      base: 'Nothing moistens all things like water, the Book of Changes says: depth joined to depth, clouds feeding the rain that returns as cloud. There is no reaction here, only gathering. Still water clarifies, soft rain remembers, and the same softness that yields to every stone eventually wears the stone away.',
+      catalyst_turn: 'Run thin, the rain doubts what it felt: perception discounted, knowing deferred to louder instruments. Your chart asks you to feed the self. Trust one read all the way through.',
+      friction_turn: 'Run heavy, the mist never lifts: so much felt and so little said that nothing ever gets checked. Say the read aloud. Rain still needs ground to land on.',
     },
     function: {
       primary: 'body',

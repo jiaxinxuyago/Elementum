@@ -136,12 +136,12 @@
         "desc": "Hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you."
       },
       {
-        "phrase": "Held behind walls",
-        "dim": "others' rules",
+        "phrase": "Sinks under blame",
+        "dim": "being judged",
         "door": "order",
         "face": "echo",
         "echo_of": "水_土.function.definition_friction",
-        "desc": "A calendar with no slack, roles held from duty long after they stopped fitting. Dammed by other people's rules, the sea goes quiet, and quiet is not the same as calm."
+        "desc": "A calendar with no slack, roles held from duty, and when you miss one the sternest voice you hear is your own. Quiet is not the same as calm."
       }
     ],
     "__ore": {
@@ -429,6 +429,17 @@
           "door": "mind",
           "desc": "Every source you take in pulls a different way. The water is deep and going nowhere.",
           "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        }
+      ],
+      "retired_inner_judge_2026-09-17": [
+        {
+          "phrase": "Held behind walls",
+          "dim": "others' rules",
+          "door": "order",
+          "face": "echo",
+          "echo_of": "水_土.function.definition_friction",
+          "desc": "A calendar with no slack, roles held from duty long after they stopped fitting. Dammed by other people's rules, the sea goes quiet, and quiet is not the same as calm.",
+          "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
         }
       ]
     },

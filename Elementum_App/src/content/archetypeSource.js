@@ -90,7 +90,7 @@ export const STEM_CARD_DATA = {
       { phrase: `Floats between plans`, door: 'mind', face: 'excess', desc: `Every new idea is a river, and you have followed so many that the roots are off the ground. Nothing is anchored.` },
       { phrase: `Promises too much`, door: 'expression', face: 'echo', desc: `The announcement comes before the growth. You say yes on stage and pay for it offstage, and the next thing gets promised before this one is real.` },
       { phrase: `Owns too much`, door: 'action', face: 'echo', desc: `Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent.` },
-      { phrase: `Snaps under load`, door: 'order', face: 'echo', desc: `Correction landing harder than you can absorb. Every rule met, every critique taken, until the standards stop shaping you and start shrinking you, and then you break, loudly.` },
+      { phrase: `Never good enough`, door: 'order', face: 'echo', desc: `Every rule met, every critique taken, until the standards stop shaping you and start shrinking you. The harshest voice you hear is your own, and it never says done.` },
     ],
     blocks: [
       {
@@ -209,7 +209,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       { phrase: `Drifts with advice`, door: 'mind', face: 'excess', desc: `So much taken in that the roots lift off the ground. Every opinion moves you a little, and lately the destination moves too.` },
       { phrase: `Announces too early`, door: 'expression', face: 'echo', desc: `You tell people where you will be by summer while the wall is still bare. The saying comes easily. Then the summer has to keep the promise.` },
       { phrase: `Takes every opening`, door: 'action', face: 'echo', desc: `A gap is a gap. You grow into all of them, hold all of them, and the garden has no space left for anything else.` },
-      { phrase: `Bends too far`, door: 'order', face: 'echo', desc: `You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you are holding stops being yours.` },
+      { phrase: `Blames itself first`, door: 'order', face: 'echo', desc: `You keep adapting long after the honest move was to stop, and when the shape stops being yours, the first name on the blame list is your own.` },
     ],
     blocks: [
       {
@@ -326,7 +326,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       { phrase: `Buried in ideas`, door: 'mind', face: 'excess', desc: `Fuel stacked so high the flame never gets lit. So much to burn that nothing catches, and the best plan is under six others.` },
       { phrase: `Formalizes everything`, door: 'expression', face: 'echo', desc: `Every idea becomes a project and every project becomes permanent. The output hardens while the light behind it thins.` },
       { phrase: `Reopens settled things`, door: 'action', face: 'echo', desc: `Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled.` },
-      { phrase: `Overthinks the leap`, door: 'order', face: 'echo', desc: `Every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would.` },
+      { phrase: `Own harshest judge`, door: 'order', face: 'echo', desc: `Every plan reviewed until the moment passes, every spark second-guessed into a maybe, and the hardest judge of the flame is you.` },
     ],
     blocks: [
       {
@@ -443,7 +443,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       { phrase: `Smothered by plans`, door: 'mind', face: 'excess', desc: `So much fuel stacked around one small flame that it cannot catch. The best plan is under six others.` },
       { phrase: `Makes it permanent`, door: 'expression', face: 'echo', desc: `The evening that should have been an evening becomes a tradition, a plan, a commitment. Output hardens faster than it can live.` },
       { phrase: `Keeps reworking it`, door: 'action', face: 'echo', desc: `Signed, shipped, agreed, and you are back at it with a smaller brush. Done is a decision you keep reopening.` },
-      { phrase: `Doubts every spark`, door: 'order', face: 'echo', desc: `Every plan reviewed until the moment passes, every small light second-guessed into a maybe. The checking costs more than the mistake would.` },
+      { phrase: `Takes it personally`, door: 'order', face: 'echo', desc: `A criticism of the work lands as a criticism of your soul, every time. The checking costs more than the mistake would, and the hardest judge of the flame is you.` },
     ],
     blocks: [
       {
@@ -562,7 +562,7 @@ There's also an investment asymmetry that accumulates: you give the full quality
       { phrase: `Set in stone`, door: 'mind', face: 'excess', desc: `Baked hard by too much heat. Once your footing is chosen, argument works on you in centuries, not conversations, and people stop bringing the map.` },
       { phrase: `Drained by deadlines`, door: 'expression', face: 'echo', desc: `More deliverables, more opinions, more polish than your quiet depth can supply. Producing is starting to hollow you.` },
       { phrase: `Manages everything`, door: 'action', face: 'echo', desc: `Accounts checked daily, opportunities tracked past usefulness, control spending the calm it was meant to protect.` },
-      { phrase: `Quietly overwhelmed`, door: 'order', face: 'echo', desc: `Everyone rooted in you, nothing rooted for you. The load has not changed, but the legs under it have, and you still say yes to every weight.` },
+      { phrase: `Never forgives itself`, door: 'order', face: 'echo', desc: `Everyone rooted in you, nothing rooted for you. Fall short once and the harshest judgement comes from inside, and it stays for years.` },
     ],
     blocks: [
       {
@@ -681,7 +681,7 @@ There's also a slow accumulation of unspoken costs. You absorb a great deal with
       { phrase: `Burns the seedlings`, door: 'mind', face: 'excess', desc: `Baked hard by too much heat. Busy, warm, and producing nothing you wanted.` },
       { phrase: `Drained by demands`, door: 'expression', face: 'echo', desc: `Everyone wants a harvest, and the field gives one every season without lying fallow. Producing on demand is starting to hollow the ground.` },
       { phrase: `Counts every grain`, door: 'action', face: 'echo', desc: `Accounts checked daily, favors tracked, every flow managed past usefulness. The control spends the calm it was meant to protect.` },
-      { phrase: `Can't say no`, door: 'order', face: 'echo', desc: `Everyone rooted in you, nothing rooted for you. The request lands and the yes is out before you have checked the calendar or the tank.` },
+      { phrase: `Sorry for everything`, door: 'order', face: 'echo', desc: `The yes is out before you have checked the tank, and when you fall short the harshest judgement comes from inside. You apologize for the weather.` },
     ],
     blocks: [
       {
@@ -1025,7 +1025,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
       { phrase: `Stays boxed up`, door: 'mind', face: 'excess', desc: `Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box.` },
       { phrase: `Remarks cut deep`, door: 'expression', face: 'echo', desc: `Output with no banks. The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not.` },
       { phrase: `Hoards raw stones`, door: 'action', face: 'echo', desc: `Every good piece deserves a setting, so you keep buying stones for settings you never make. Plenty of motion, nothing finished.` },
-      { phrase: `Panics over flaws`, door: 'order', face: 'echo', desc: `Every rule runs hot and every small flaw gets treated like an emergency. The standard presses down on people first, then hardest on you.` },
+      { phrase: `Hardest on itself`, door: 'order', face: 'echo', desc: `Every small flaw gets treated like an emergency, and nobody judges the stone as harshly as you do. The rules run hot, hardest on you.` },
     ],
     blocks: [
       {
@@ -1142,7 +1142,7 @@ The verdict also becomes load-bearing: once formed, it requires new information 
       { phrase: `Muddied by advice`, door: 'mind', face: 'excess', desc: `So much counsel has gone in that the water will not clear. You cannot see your own bottom anymore.` },
       { phrase: `Pours into everyone`, door: 'expression', face: 'echo', desc: `Every person developed, every idea watered, your depth spent raising gardens you do not live in.` },
       { phrase: `Spread too thin`, door: 'action', face: 'echo', desc: `Hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you.` },
-      { phrase: `Held behind walls`, door: 'order', face: 'echo', desc: `A calendar with no slack, roles held from duty long after they stopped fitting. Dammed by other people's rules, the sea goes quiet, and quiet is not the same as calm.` },
+      { phrase: `Sinks under blame`, door: 'order', face: 'echo', desc: `A calendar with no slack, roles held from duty, and when you miss one the sternest voice you hear is your own. Quiet is not the same as calm.` },
     ],
     blocks: [
       {
@@ -1261,7 +1261,7 @@ Most exchanges happen at a shallower level than where you operate. This produces
       { phrase: `Absorbs everything`, door: 'mind', face: 'excess', desc: `Too much taken in and the water will not clear. You walk in fine and leave carrying the argument two strangers had near you.` },
       { phrase: `Mentors everyone`, door: 'expression', face: 'echo', desc: `Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours.` },
       { phrase: `Boils off early`, door: 'action', face: 'echo', desc: `Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns.` },
-      { phrase: `Trapped by routine`, door: 'order', face: 'echo', desc: `A calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you run on.` },
+      { phrase: `Punishes itself quietly`, door: 'order', face: 'echo', desc: `Roles held from duty long after they stopped fitting, and one missed duty brings the sternest voice you hear, your own, so softly that nobody else notices.` },
     ],
     blocks: [
       {

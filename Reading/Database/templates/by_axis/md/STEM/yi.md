@@ -104,12 +104,12 @@
 | `shadows[5].face` | echo |
 | `shadows[5].echo_of` | 木_土.function.definition_friction |
 | `shadows[5].desc` | A gap is a gap. You grow into all of them, hold all of them, and the garden has no space left for anything else. |
-| `shadows[6].phrase` | Bends too far |
-| `shadows[6].dim` | boundaries |
+| `shadows[6].phrase` | Blames itself first |
+| `shadows[6].dim` | being judged |
 | `shadows[6].door` | order |
 | `shadows[6].face` | echo |
 | `shadows[6].echo_of` | 木_金.function.definition_friction |
-| `shadows[6].desc` | You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you are holding stops being yours. |
+| `shadows[6].desc` | You keep adapting long after the honest move was to stop, and when the shape stops being yours, the first name on the blame list is your own. |
 | `door_note.body` | Wood |
 | `door_note.mind` | Water |
 | `door_note.expression` | Fire |
@@ -239,3 +239,10 @@
 | `retired_derivation_law_2026-09-16[3].door` | mind |
 | `retired_derivation_law_2026-09-16[3].desc` | You can't quite take kindness at face value. Somewhere in you a quiet analyst asks what this person is really after. Sometimes the answer was nothing, and the wondering showed. |
 | `retired_derivation_law_2026-09-16[3].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_inner_judge_2026-09-17[0].phrase` | Bends too far |
+| `retired_inner_judge_2026-09-17[0].dim` | boundaries |
+| `retired_inner_judge_2026-09-17[0].door` | order |
+| `retired_inner_judge_2026-09-17[0].face` | echo |
+| `retired_inner_judge_2026-09-17[0].echo_of` | 木_金.function.definition_friction |
+| `retired_inner_judge_2026-09-17[0].desc` | You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you are holding stops being yours. |
+| `retired_inner_judge_2026-09-17[0].why` | owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition |

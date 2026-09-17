@@ -10,7 +10,8 @@
     "owner rulings 2026-08-19: mechanism ×25 element-pair grain · seat→primary-function map · gods rehome to Ruling Domains",
     "REA_02 §5h (the carry card; owner 2026-09-15)",
     "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)",
-    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted"
+    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted",
+    "owner 2026-09-17: mechanism_yin, the yin sibling speaks its own noun on the energy page"
   ],
   "candidates": {
     "mechanism": {
@@ -64,6 +65,11 @@
       "wide": {
         "clause": "Water is the widest door, the channel that lets the stone breathe."
       }
+    },
+    "mechanism_yin": {
+      "base": "In the old reckoning water is metal's child: cold silver beads the morning dew, and metal, melted, runs bright as any river. The hard thing does not stay hard. At its finest facet it turns liquid, and what was fixed begins to flow, the clear stream carrying the stone's brightness out into the world.",
+      "catalyst_turn": "Run thin, this channel shows as pressure without release: much polished, little said. That is why your chart asks you to feed it. Writing, speaking, sharing work early lets the stone breathe.",
+      "friction_turn": "Run heavy, the flow turns to flood: output for its own sake, saying instead of shaping. The flood drinks the stone that feeds it. Cut the noise and the water clears."
     }
   },
   "__ore": {

@@ -136,12 +136,12 @@
         "desc": "Every good piece deserves a setting, so you keep buying stones for settings you never make. Plenty of motion, nothing finished."
       },
       {
-        "phrase": "Panics over flaws",
-        "dim": "criticism",
+        "phrase": "Hardest on itself",
+        "dim": "being judged",
         "door": "order",
         "face": "echo",
         "echo_of": "金_火.function.definition_friction",
-        "desc": "Every rule runs hot and every small flaw gets treated like an emergency. The standard presses down on people first, then hardest on you."
+        "desc": "Every small flaw gets treated like an emergency, and nobody judges the stone as harshly as you do. The rules run hot, hardest on you."
       }
     ],
     "__ore": {
@@ -397,6 +397,17 @@
           "door": "order",
           "desc": "The offhand comment lodges and stays. You can quote the one criticism from a page of praise, word for word, years later. Fine surfaces mark deep.",
           "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        }
+      ],
+      "retired_inner_judge_2026-09-17": [
+        {
+          "phrase": "Panics over flaws",
+          "dim": "criticism",
+          "door": "order",
+          "face": "echo",
+          "echo_of": "金_火.function.definition_friction",
+          "desc": "Every rule runs hot and every small flaw gets treated like an emergency. The standard presses down on people first, then hardest on you.",
+          "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
         }
       ]
     },

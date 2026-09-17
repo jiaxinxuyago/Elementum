@@ -136,12 +136,12 @@
         "desc": "Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent."
       },
       {
-        "phrase": "Snaps under load",
-        "dim": "under rules",
+        "phrase": "Never good enough",
+        "dim": "being judged",
         "door": "order",
         "face": "echo",
         "echo_of": "木_金.function.definition_friction",
-        "desc": "Correction landing harder than you can absorb. Every rule met, every critique taken, until the standards stop shaping you and start shrinking you, and then you break, loudly."
+        "desc": "Every rule met, every critique taken, until the standards stop shaping you and start shrinking you. The harshest voice you hear is your own, and it never says done."
       }
     ],
     "__ore": {
@@ -439,6 +439,17 @@
           "door": "body",
           "desc": "When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff.",
           "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        }
+      ],
+      "retired_inner_judge_2026-09-17": [
+        {
+          "phrase": "Snaps under load",
+          "dim": "under rules",
+          "door": "order",
+          "face": "echo",
+          "echo_of": "木_金.function.definition_friction",
+          "desc": "Correction landing harder than you can absorb. Every rule met, every critique taken, until the standards stop shaping you and start shrinking you, and then you break, loudly.",
+          "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
         }
       ]
     },

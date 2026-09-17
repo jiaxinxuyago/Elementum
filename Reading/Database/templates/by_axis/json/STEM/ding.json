@@ -136,12 +136,12 @@
         "desc": "Signed, shipped, agreed, and you are back at it with a smaller brush. Done is a decision you keep reopening."
       },
       {
-        "phrase": "Doubts every spark",
-        "dim": "second-guessing",
+        "phrase": "Takes it personally",
+        "dim": "criticism",
         "door": "order",
         "face": "echo",
         "echo_of": "火_水.function.definition_friction",
-        "desc": "Every plan reviewed until the moment passes, every small light second-guessed into a maybe. The checking costs more than the mistake would."
+        "desc": "A criticism of the work lands as a criticism of your soul, every time. The checking costs more than the mistake would, and the hardest judge of the flame is you."
       }
     ],
     "__ore": {
@@ -434,6 +434,17 @@
           "door": "action",
           "desc": "You lit more than one candle can keep. Now every flame is small and getting smaller.",
           "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        }
+      ],
+      "retired_inner_judge_2026-09-17": [
+        {
+          "phrase": "Doubts every spark",
+          "dim": "second-guessing",
+          "door": "order",
+          "face": "echo",
+          "echo_of": "火_水.function.definition_friction",
+          "desc": "Every plan reviewed until the moment passes, every small light second-guessed into a maybe. The checking costs more than the mistake would.",
+          "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
         }
       ]
     },

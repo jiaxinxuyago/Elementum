@@ -30,17 +30,19 @@ export function volumeOf(presence) {
 }
 
 // The band the reading runs on. The strength band is the base; Balanced is
-// kept only behind a guard (owner R5): moderate strength AND no non-core
-// energy abundant. A moderate chart with an abundant energy falls to the
-// nearest band: an abundant feeder or peer (resource / self) props the body
-// → concentrated; an abundant drainer or controller → open.
+// kept only behind a guard (owner R5, loosened 2026-09-17): moderate strength
+// AND no non-core energy DOMINANT (≥40%). The stricter guard at the abundant
+// tier let no chart through in 46 years of dates. A moderate chart with a
+// dominant energy falls to the nearest band: a dominant feeder or peer
+// (resource / self) props the body → concentrated; a dominant drainer or
+// controller → open.
 export function resolveBand({ strength, dmEl, presence }) {
   const base = getEnergyBand(strength);
   if (base !== 'balanced') return base;
   let top = null;
   for (const [X, p] of Object.entries(presence || {})) {
     if (X === dmEl) continue;
-    if ((p ?? 0) >= VOLUME.abundant && (!top || p > top.p)) top = { X, p };
+    if ((p ?? 0) >= VOLUME.dominant && (!top || p > top.p)) top = { X, p };
   }
   if (!top) return 'balanced';
   const rel = relationOf(top.X, dmEl);

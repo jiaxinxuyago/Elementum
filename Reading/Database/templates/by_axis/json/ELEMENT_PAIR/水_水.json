@@ -10,7 +10,8 @@
     "owner rulings 2026-08-19 (element-page restructure)",
     "REA_02 §5h (the carry card; owner 2026-09-15)",
     "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)",
-    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted"
+    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted",
+    "owner 2026-09-17: mechanism_yin, the yin sibling speaks its own noun on the energy page"
   ],
   "candidates": {
     "mechanism": {
@@ -57,6 +58,11 @@
         "clause": "The mist never lifts: so much felt and so little said that nothing ever gets checked.",
         "remedy": "Rain still needs ground to land on."
       }
+    },
+    "mechanism_yin": {
+      "base": "Nothing moistens all things like water, the Book of Changes says: depth joined to depth, clouds feeding the rain that returns as cloud. There is no reaction here, only gathering. Still water clarifies, soft rain remembers, and the same softness that yields to every stone eventually wears the stone away.",
+      "catalyst_turn": "Run thin, the rain doubts what it felt: perception discounted, knowing deferred to louder instruments. Your chart asks you to feed the self. Trust one read all the way through.",
+      "friction_turn": "Run heavy, the mist never lifts: so much felt and so little said that nothing ever gets checked. Say the read aloud. Rain still needs ground to land on."
     }
   },
   "__ore": {

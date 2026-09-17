@@ -322,6 +322,7 @@ for (const dm of PAIR_ELS) {
       carry: cell?.carry ?? null,
       // sparse: only the 16 cells whose yang noun does not fit the yin sibling carry it
       ...(cell?.carry_yin ? { carry_yin: cell.carry_yin } : {}),
+      ...(cell?.mechanism_yin ? { mechanism_yin: cell.mechanism_yin } : {}),
     }, ['src/content/pairs.js (PAIR_CELLS — regenerated wholesale from this station axis)'],
     { status_note: 'LOCKED ×25 (owner 2026-08-19: 金_水 template approved → batch) — element page sections 1–2' });
   }

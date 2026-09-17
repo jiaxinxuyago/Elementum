@@ -10,7 +10,9 @@
     "owner rulings 2026-08-19 (element-page restructure)",
     "REA_02 §5h (the carry card; owner 2026-09-15)",
     "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)",
-    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted"
+    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted",
+    "owner 2026-09-17: the inner judge (官杀旺身弱, REA_02 §5h canon) carried by the Order friction definition",
+    "owner 2026-09-17: mechanism_yin, the yin sibling speaks its own noun on the energy page"
   ],
   "candidates": {
     "mechanism": {
@@ -22,7 +24,7 @@
     "function": {
       "primary": "order",
       "definition_catalyst": "Earth is your Order, and as a catalyst, it is the structure that turns your depth into force: fixed roles, steady schedules, commitments that do not move with your moods. You are most creative inside walls you chose.",
-      "definition_friction": "Earth is your Order, and as a friction, it is structure tightening past usefulness: a calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you actually run on.",
+      "definition_friction": "Earth is your Order, and as a friction, it is structure tightening past usefulness: a calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you actually run on. Miss one duty and the sternest voice you hear is your own.",
       "advise_catalyst": "Choose your structure and the rest takes care of itself. Anchor the week with three fixed blocks, same day, same hour, and let everything fluid arrange around them. Accept the role with the schedule. Keep the routine two weeks past the urge to quit.",
       "advise_friction": "A schedule should hold your life, never replace it. Leave one afternoon a week unscheduled and guard the emptiness. Renegotiate the obligation you dread most. Each quarter, drop one commitment that survives on habit alone."
     },
@@ -67,6 +69,11 @@
       "wide": {
         "clause": "Earth is the widest door, the ground that turns rain into a harvest."
       }
+    },
+    "mechanism_yin": {
+      "base": "The solid prevails over the flowing, and so earth contains water: banks make the stream, walls make the well, and rain without a vessel is only weather. Contained, rain becomes current, direction, force. The old texts do not call the banks a prison. They call them the reason the stream arrives.",
+      "catalyst_turn": "Run thin, nothing catches you: rain spreading wide and soaking in nowhere, freedom without force. Your chart asks for structure. Accept the role, the rhythm, the walls that aim you.",
+      "friction_turn": "Run heavy, the gutters take it all: rain routed into a schedule until it forgets where it wanted to fall. Widen the channel. Rain is meant to wander."
     }
   },
   "__ore": {

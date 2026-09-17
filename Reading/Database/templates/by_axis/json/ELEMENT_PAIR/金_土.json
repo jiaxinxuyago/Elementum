@@ -10,7 +10,8 @@
     "owner rulings 2026-08-19 (element-page restructure)",
     "REA_02 §5h (the carry card; owner 2026-09-15)",
     "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)",
-    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted"
+    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted",
+    "owner 2026-09-17: mechanism_yin, the yin sibling speaks its own noun on the energy page"
   ],
   "candidates": {
     "mechanism": {
@@ -69,6 +70,11 @@
         "clause": "Too much earth buries the metal: talent that never surfaces, thought that never becomes a cut.",
         "remedy": "Take it out of the box. Cut one thing."
       }
+    },
+    "mechanism_yin": {
+      "base": "Metal is born of earth, the old texts say: it lies in the mountain, gathered in stone, grown by slow pressure and the moisture of deep ground. Nothing hurries it. The mountain holds the ore for ages before any stone is cut from it, and every jewel remembers the patience of the rock that made it.",
+      "catalyst_turn": "Run thin, the mine goes hungry: a fine stone with nothing behind it, brilliance spent faster than it forms. Your chart asks you to feed the ground. Rest and study are the polishing, not stalling.",
+      "friction_turn": "Run heavy, the setting closes over the stone: so much preparation that the jewel never leaves the box. Comfort begins to bury what it formed. Take it out and wear it somewhere real."
     }
   },
   "__ore": {

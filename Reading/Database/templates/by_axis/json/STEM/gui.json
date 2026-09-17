@@ -136,12 +136,12 @@
         "desc": "Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns."
       },
       {
-        "phrase": "Trapped by routine",
-        "dim": "hard conversations",
+        "phrase": "Punishes itself quietly",
+        "dim": "being judged",
         "door": "order",
         "face": "echo",
         "echo_of": "水_土.function.definition_friction",
-        "desc": "A calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you run on."
+        "desc": "Roles held from duty long after they stopped fitting, and one missed duty brings the sternest voice you hear, your own, so softly that nobody else notices."
       }
     ],
     "__ore": {
@@ -443,6 +443,17 @@
           "door": "body",
           "desc": "When the felt sense speaks, you treat it as evidence. Usually it is. The times it isn't, there's nothing to check it against, and a wrong hunch is as hard to argue with as a right one.",
           "why": "derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face"
+        }
+      ],
+      "retired_inner_judge_2026-09-17": [
+        {
+          "phrase": "Trapped by routine",
+          "dim": "hard conversations",
+          "door": "order",
+          "face": "echo",
+          "echo_of": "水_土.function.definition_friction",
+          "desc": "A calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you run on.",
+          "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
         }
       ]
     },

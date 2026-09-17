@@ -104,12 +104,12 @@
 | `shadows[5].face` | echo |
 | `shadows[5].echo_of` | 木_土.function.definition_friction |
 | `shadows[5].desc` | Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent. |
-| `shadows[6].phrase` | Snaps under load |
-| `shadows[6].dim` | under rules |
+| `shadows[6].phrase` | Never good enough |
+| `shadows[6].dim` | being judged |
 | `shadows[6].door` | order |
 | `shadows[6].face` | echo |
 | `shadows[6].echo_of` | 木_金.function.definition_friction |
-| `shadows[6].desc` | Correction landing harder than you can absorb. Every rule met, every critique taken, until the standards stop shaping you and start shrinking you, and then you break, loudly. |
+| `shadows[6].desc` | Every rule met, every critique taken, until the standards stop shaping you and start shrinking you. The harshest voice you hear is your own, and it never says done. |
 | `door_note.body` | Wood |
 | `door_note.mind` | Water |
 | `door_note.expression` | Fire |
@@ -259,3 +259,10 @@
 | `retired_derivation_law_2026-09-16[5].door` | body |
 | `retired_derivation_law_2026-09-16[5].desc` | When you've chosen a direction, warnings sound like weather. Sometimes they were weather. Sometimes they were the cliff. |
 | `retired_derivation_law_2026-09-16[5].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_inner_judge_2026-09-17[0].phrase` | Snaps under load |
+| `retired_inner_judge_2026-09-17[0].dim` | under rules |
+| `retired_inner_judge_2026-09-17[0].door` | order |
+| `retired_inner_judge_2026-09-17[0].face` | echo |
+| `retired_inner_judge_2026-09-17[0].echo_of` | 木_金.function.definition_friction |
+| `retired_inner_judge_2026-09-17[0].desc` | Correction landing harder than you can absorb. Every rule met, every critique taken, until the standards stop shaping you and start shrinking you, and then you break, loudly. |
+| `retired_inner_judge_2026-09-17[0].why` | owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition |

@@ -57,12 +57,12 @@
             "desc": "Every commitment you ever took on is still yours. The old role, the side venture, the promise from years ago, all kept, and all charging rent."
           },
           {
-            "phrase": "Snaps under load",
-            "dim": "under rules",
+            "phrase": "Never good enough",
+            "dim": "being judged",
             "door": "order",
             "face": "echo",
             "echo_of": "木_金.function.definition_friction",
-            "desc": "Correction landing harder than you can absorb. Every rule met, every critique taken, until the standards stop shaping you and start shrinking you, and then you break, loudly."
+            "desc": "Every rule met, every critique taken, until the standards stop shaping you and start shrinking you. The harshest voice you hear is your own, and it never says done."
           }
         ]
       },
@@ -120,12 +120,12 @@
             "desc": "A gap is a gap. You grow into all of them, hold all of them, and the garden has no space left for anything else."
           },
           {
-            "phrase": "Bends too far",
-            "dim": "boundaries",
+            "phrase": "Blames itself first",
+            "dim": "being judged",
             "door": "order",
             "face": "echo",
             "echo_of": "木_金.function.definition_friction",
-            "desc": "You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you are holding stops being yours."
+            "desc": "You keep adapting long after the honest move was to stop, and when the shape stops being yours, the first name on the blame list is your own."
           }
         ]
       },
@@ -183,12 +183,12 @@
             "desc": "Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled."
           },
           {
-            "phrase": "Overthinks the leap",
-            "dim": "second-guessing",
+            "phrase": "Own harshest judge",
+            "dim": "being judged",
             "door": "order",
             "face": "echo",
             "echo_of": "火_水.function.definition_friction",
-            "desc": "Every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would."
+            "desc": "Every plan reviewed until the moment passes, every spark second-guessed into a maybe, and the hardest judge of the flame is you."
           }
         ]
       },
@@ -246,12 +246,12 @@
             "desc": "Signed, shipped, agreed, and you are back at it with a smaller brush. Done is a decision you keep reopening."
           },
           {
-            "phrase": "Doubts every spark",
-            "dim": "second-guessing",
+            "phrase": "Takes it personally",
+            "dim": "criticism",
             "door": "order",
             "face": "echo",
             "echo_of": "火_水.function.definition_friction",
-            "desc": "Every plan reviewed until the moment passes, every small light second-guessed into a maybe. The checking costs more than the mistake would."
+            "desc": "A criticism of the work lands as a criticism of your soul, every time. The checking costs more than the mistake would, and the hardest judge of the flame is you."
           }
         ]
       },
@@ -309,12 +309,12 @@
             "desc": "Accounts checked daily, opportunities tracked past usefulness, control spending the calm it was meant to protect."
           },
           {
-            "phrase": "Quietly overwhelmed",
-            "dim": "capacity",
+            "phrase": "Never forgives itself",
+            "dim": "being judged",
             "door": "order",
             "face": "echo",
             "echo_of": "土_木.function.definition_friction",
-            "desc": "Everyone rooted in you, nothing rooted for you. The load has not changed, but the legs under it have, and you still say yes to every weight."
+            "desc": "Everyone rooted in you, nothing rooted for you. Fall short once and the harshest judgement comes from inside, and it stays for years."
           }
         ]
       },
@@ -372,12 +372,12 @@
             "desc": "Accounts checked daily, favors tracked, every flow managed past usefulness. The control spends the calm it was meant to protect."
           },
           {
-            "phrase": "Can't say no",
-            "dim": "refusing",
+            "phrase": "Sorry for everything",
+            "dim": "being judged",
             "door": "order",
             "face": "echo",
             "echo_of": "土_木.function.definition_friction",
-            "desc": "Everyone rooted in you, nothing rooted for you. The request lands and the yes is out before you have checked the calendar or the tank."
+            "desc": "The yes is out before you have checked the tank, and when you fall short the harshest judgement comes from inside. You apologize for the weather."
           }
         ]
       },
@@ -498,12 +498,12 @@
             "desc": "Every good piece deserves a setting, so you keep buying stones for settings you never make. Plenty of motion, nothing finished."
           },
           {
-            "phrase": "Panics over flaws",
-            "dim": "criticism",
+            "phrase": "Hardest on itself",
+            "dim": "being judged",
             "door": "order",
             "face": "echo",
             "echo_of": "金_火.function.definition_friction",
-            "desc": "Every rule runs hot and every small flaw gets treated like an emergency. The standard presses down on people first, then hardest on you."
+            "desc": "Every small flaw gets treated like an emergency, and nobody judges the stone as harshly as you do. The rules run hot, hardest on you."
           }
         ]
       },
@@ -561,12 +561,12 @@
             "desc": "Hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you."
           },
           {
-            "phrase": "Held behind walls",
-            "dim": "others' rules",
+            "phrase": "Sinks under blame",
+            "dim": "being judged",
             "door": "order",
             "face": "echo",
             "echo_of": "水_土.function.definition_friction",
-            "desc": "A calendar with no slack, roles held from duty long after they stopped fitting. Dammed by other people's rules, the sea goes quiet, and quiet is not the same as calm."
+            "desc": "A calendar with no slack, roles held from duty, and when you miss one the sternest voice you hear is your own. Quiet is not the same as calm."
           }
         ]
       },
@@ -624,12 +624,12 @@
             "desc": "Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns."
           },
           {
-            "phrase": "Trapped by routine",
-            "dim": "hard conversations",
+            "phrase": "Punishes itself quietly",
+            "dim": "being judged",
             "door": "order",
             "face": "echo",
             "echo_of": "水_土.function.definition_friction",
-            "desc": "A calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you run on."
+            "desc": "Roles held from duty long after they stopped fitting, and one missed duty brings the sternest voice you hear, your own, so softly that nobody else notices."
           }
         ]
       }

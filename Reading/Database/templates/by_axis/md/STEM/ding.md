@@ -104,12 +104,12 @@
 | `shadows[5].face` | echo |
 | `shadows[5].echo_of` | 火_金.function.definition_friction |
 | `shadows[5].desc` | Signed, shipped, agreed, and you are back at it with a smaller brush. Done is a decision you keep reopening. |
-| `shadows[6].phrase` | Doubts every spark |
-| `shadows[6].dim` | second-guessing |
+| `shadows[6].phrase` | Takes it personally |
+| `shadows[6].dim` | criticism |
 | `shadows[6].door` | order |
 | `shadows[6].face` | echo |
 | `shadows[6].echo_of` | 火_水.function.definition_friction |
-| `shadows[6].desc` | Every plan reviewed until the moment passes, every small light second-guessed into a maybe. The checking costs more than the mistake would. |
+| `shadows[6].desc` | A criticism of the work lands as a criticism of your soul, every time. The checking costs more than the mistake would, and the hardest judge of the flame is you. |
 | `door_note.body` | Fire |
 | `door_note.mind` | Wood |
 | `door_note.expression` | Earth |
@@ -259,3 +259,10 @@
 | `retired_derivation_law_2026-09-16[7].door` | action |
 | `retired_derivation_law_2026-09-16[7].desc` | You lit more than one candle can keep. Now every flame is small and getting smaller. |
 | `retired_derivation_law_2026-09-16[7].why` | derivation law 2026-09-16 (REA_16 §7): the door carries its echo face and its wide/excess face |
+| `retired_inner_judge_2026-09-17[0].phrase` | Doubts every spark |
+| `retired_inner_judge_2026-09-17[0].dim` | second-guessing |
+| `retired_inner_judge_2026-09-17[0].door` | order |
+| `retired_inner_judge_2026-09-17[0].face` | echo |
+| `retired_inner_judge_2026-09-17[0].echo_of` | 火_水.function.definition_friction |
+| `retired_inner_judge_2026-09-17[0].desc` | Every plan reviewed until the moment passes, every small light second-guessed into a maybe. The checking costs more than the mistake would. |
+| `retired_inner_judge_2026-09-17[0].why` | owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition |

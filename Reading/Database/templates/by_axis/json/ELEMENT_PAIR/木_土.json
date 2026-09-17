@@ -10,7 +10,8 @@
     "owner rulings 2026-08-19 (element-page restructure)",
     "REA_02 §5h (the carry card; owner 2026-09-15)",
     "REA_02 §5h carry_yin (owner 2026-09-16: the yin sibling speaks its own noun)",
-    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted"
+    "REA_02 §5h valence × volume (owner 2026-09-16): carry.missing / spared / thin / excess / unrooted",
+    "owner 2026-09-17: mechanism_yin, the yin sibling speaks its own noun on the energy page"
   ],
   "candidates": {
     "mechanism": {
@@ -61,6 +62,10 @@
         "clause": "The holding never stops: every wall claimed, every trellis taken, roots spread past what the vine can feed.",
         "remedy": "Hold less wall, hold it deeper."
       }
+    },
+    "mechanism_yin": {
+      "base": "The concentrated prevails over the scattered, and so wood governs earth: the root threads the loose soil, binds it, and holds the slope that rain would otherwise carry away. Ground without roots erodes grain by grain. Gripped by the living vine, the same ground becomes terrace, garden, land worth naming.",
+      "friction_turn": "Run heavy, the holding never stops: every wall claimed, every trellis taken, roots spread past what the vine can feed. Hold less wall, hold it deeper."
     }
   },
   "__ore": {
