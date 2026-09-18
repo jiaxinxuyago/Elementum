@@ -1,0 +1,3950 @@
+{
+  "reviewDate": "2026-09-17",
+  "codeCommit": "0104bd85976a6851d2f9a2591b59bed04c5f6ccb",
+  "scope": "59 scored units, 140 traits, 14 of 50 Part B cells; fixtures test assembly only",
+  "trace": {
+    "command": "node --input-type=module -e 'import {buildJourneyModel,poolDoors,buildCarryModel,buildElementScreen} from \"./src/components/journey/journeyData.js\"; import {buildEnergyChart} from \"./src/engine/buildEnergyChart.js\"; import {resolveDayMasterReading} from \"./src/components/reading/readingResolve.js\"; import {STEM_CARD_DATA} from \"./src/content/index.js\"; import {classifyEnergyRoles,resolveBand} from \"./src/engine/energyRoles.js\"; import {selectPoolByDoor} from \"./src/content/resolveVariant.js\"; const result=[]; for(const [stem,element,strength,p] of [[\"庚\",\"Metal\",\"strong\",{Earth:33,Wood:33,Metal:23,Water:6,Fire:5}],[\"丁\",\"Fire\",\"weak\",{Wood:30,Fire:15,Earth:5,Metal:10,Water:40}],[\"庚\",\"Metal\",\"strong\",{Metal:5,Earth:5,Wood:30,Fire:30,Water:30}],[\"庚\",\"Metal\",\"moderate\",{Metal:15,Earth:15,Wood:30,Fire:25,Water:15}]]){const chart={dayMaster:{stem,element,strength},elements:Object.fromEntries(Object.entries(p).map(([k,score])=>[k,{score}])),pillars:{},tgPattern:\"pure\"};const ec=buildEnergyChart(chart);const m=buildJourneyModel({chart,ec,identity:{},card:STEM_CARD_DATA[stem]});const doors=poolDoors(m);const r=resolveDayMasterReading(stem,chart,doors);result.push({stem,strength,p,band:m.band,doors,gifts:r.gifts.map(x=>({phrase:x.phrase,door:x.door})),shadows:r.shadows.map(x=>({phrase:x.phrase,door:x.door})),nature:r.nature,carry:buildCarryModel(m,r),pages:m.els.map(e=>{const s=buildElementScreen(m,e.el);return {el:e.el,volume:e.volume,role:e.role,turn:s.mech?.turn,define:s.fnReading?.define}})});}console.log(JSON.stringify({fixtures:result,core60:{roles:classifyEnergyRoles({dmEl:\"Metal\",band:\"open\",presence:{Metal:60,Earth:10,Wood:10,Fire:10,Water:10}}).Metal,band:resolveBand({dmEl:\"Metal\",strength:\"moderate\",presence:{Metal:60,Earth:10,Wood:10,Fire:10,Water:10}})}}));'",
+    "result": {
+      "fixtures": [
+        {
+          "stem": "庚",
+          "strength": "strong",
+          "p": {
+            "Earth": 33,
+            "Wood": 33,
+            "Metal": 23,
+            "Water": 6,
+            "Fire": 5
+          },
+          "band": "concentrated",
+          "doors": {
+            "gifts": [
+              {
+                "door": "order",
+                "volume": "thin",
+                "el": "fire",
+                "isCore": false,
+                "excess": false
+              },
+              {
+                "door": "action",
+                "volume": "abundant",
+                "el": "wood",
+                "isCore": false,
+                "excess": false
+              },
+              {
+                "door": "expression",
+                "volume": "thin",
+                "el": "water",
+                "isCore": false,
+                "excess": false
+              }
+            ],
+            "shadows": [
+              {
+                "door": "body",
+                "volume": "abundant",
+                "el": "metal",
+                "isCore": true,
+                "excess": false
+              },
+              {
+                "door": "mind",
+                "volume": "abundant",
+                "el": "earth",
+                "isCore": false,
+                "excess": false
+              }
+            ]
+          },
+          "gifts": [
+            {
+              "phrase": "Crisis performer",
+              "door": "order"
+            },
+            {
+              "phrase": "Trims for growth",
+              "door": "action"
+            },
+            {
+              "phrase": "No dressed-up answers",
+              "door": "expression"
+            }
+          ],
+          "shadows": [
+            {
+              "phrase": "Never reconsiders",
+              "door": "body"
+            },
+            {
+              "phrase": "Plans, never acts",
+              "door": "mind"
+            }
+          ],
+          "nature": "You are what the sword is like when it wakes up as a person. The cut is always ready and mostly used. You put the truth ahead of comfort, yours and everyone's, every day, in every setting. People bring you the questions nobody else will answer straight, then flinch at exactly what they asked for. The edge never rests. That includes the nights, and it includes you.",
+          "carry": {
+            "lead": "Metal runs Overfueled. Two energies feed a core already full. Three are where the surplus should go.",
+            "track": [
+              {
+                "el": "earth",
+                "name": "Earth",
+                "hz": "土",
+                "presence": 33,
+                "isCore": false,
+                "mark": "ease"
+              },
+              {
+                "el": "wood",
+                "name": "Wood",
+                "hz": "木",
+                "presence": 33,
+                "isCore": false,
+                "mark": "seek"
+              },
+              {
+                "el": "metal",
+                "name": "Metal",
+                "hz": "金",
+                "presence": 23,
+                "isCore": true,
+                "mark": "ease"
+              },
+              {
+                "el": "water",
+                "name": "Water",
+                "hz": "水",
+                "presence": 6,
+                "isCore": false,
+                "mark": "seek"
+              },
+              {
+                "el": "fire",
+                "name": "Fire",
+                "hz": "火",
+                "presence": 5,
+                "isCore": false,
+                "mark": "seek"
+              }
+            ],
+            "balanced": false,
+            "ease": {
+              "kind": "ease",
+              "energies": [
+                {
+                  "el": "metal",
+                  "name": "Metal",
+                  "hz": "金",
+                  "presence": 23,
+                  "isCore": true,
+                  "fn": "Body"
+                },
+                {
+                  "el": "earth",
+                  "name": "Earth",
+                  "hz": "土",
+                  "presence": 33,
+                  "isCore": false,
+                  "fn": "Mind"
+                }
+              ],
+              "sentence": "The edge seals itself in: so much certainty that nothing else gets past it. The shelter closes over the blade: so much preparation that the edge never leaves the mine.",
+              "remedy": "Honor the standard, and let one trusted voice through. Dig out and cut something real.",
+              "touch": [
+                "Never reconsiders",
+                "Plans, never acts"
+              ]
+            },
+            "seek": {
+              "kind": "seek",
+              "energies": [
+                {
+                  "el": "fire",
+                  "name": "Fire",
+                  "hz": "火",
+                  "presence": 5,
+                  "isCore": false,
+                  "fn": "Order"
+                },
+                {
+                  "el": "wood",
+                  "name": "Wood",
+                  "hz": "木",
+                  "presence": 33,
+                  "isCore": false,
+                  "fn": "Action"
+                },
+                {
+                  "el": "water",
+                  "name": "Water",
+                  "hz": "水",
+                  "presence": 6,
+                  "isCore": false,
+                  "fn": "Expression"
+                }
+              ],
+              "sentence": "Nothing tempers you: an edge that keeps its first shape and calls it character. Wood is the widest door, the material the knife is for. This channel shows as pressure without release: much forged, little said.",
+              "remedy": "Take the demanding role, the audit, the arena. Writing, speaking, sharing work early lets the blade breathe.",
+              "touch": [
+                "Crisis performer",
+                "Trims for growth",
+                "No dressed-up answers"
+              ]
+            }
+          },
+          "pages": [
+            {
+              "el": "earth",
+              "volume": "abundant",
+              "role": "friction",
+              "turn": "Run heavy, the shelter closes over the blade: so much preparation that the edge never leaves the mine. Comfort begins to bury what it formed. Dig out and cut something real.",
+              "define": "As a friction, it is intake with no off switch. Study, comfort, preparation, shelter: everything that goes in counts as progress, so nothing ever has to come out. Learning becomes the most respectable way to stand still."
+            },
+            {
+              "el": "wood",
+              "volume": "abundant",
+              "role": "catalyst",
+              "turn": "Run thin, the knife has nothing to prune: skill idling without a project worth it. Your chart asks you to claim material. Pick one living ambition and start cutting.",
+              "define": "As a catalyst, it is effort that behaves like a living thing. Whatever you plant and keep tending, money, skills, ventures, trust, grows on its own schedule and pays you back with interest, because your work compounds instead of burning off."
+            },
+            {
+              "el": "metal",
+              "volume": "abundant",
+              "role": "core",
+              "turn": "Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through.",
+              "define": "Running over, it is more physical force than your life currently spends: discipline with no outlet, stamina turning into tension you carry in your shoulders and jaw."
+            },
+            {
+              "el": "water",
+              "volume": "thin",
+              "role": "catalyst",
+              "turn": "Run thin, this channel shows as pressure without release: much forged, little said. That is why your chart asks you to feed it. Writing, speaking, sharing work early lets the blade breathe.",
+              "define": "As a catalyst, it is output that flows. Words, cooking, small kindnesses, the bright remark that turns an evening: whatever is inside you moves outward without forcing, and people are fed by it before they notice they were hungry."
+            },
+            {
+              "el": "fire",
+              "volume": "thin",
+              "role": "catalyst",
+              "turn": "Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena.",
+              "define": "As a catalyst, it is structure with heat in it. Pressure organizes you instead of scattering you, rules turn into momentum, and when things fall apart you are the one holding a straight line through the middle of it."
+            }
+          ]
+        },
+        {
+          "stem": "丁",
+          "strength": "weak",
+          "p": {
+            "Wood": 30,
+            "Fire": 15,
+            "Earth": 5,
+            "Metal": 10,
+            "Water": 40
+          },
+          "band": "open",
+          "doors": {
+            "gifts": [
+              {
+                "door": "mind",
+                "volume": "abundant",
+                "el": "wood",
+                "isCore": false,
+                "excess": false
+              },
+              {
+                "door": "body",
+                "volume": "present",
+                "el": "fire",
+                "isCore": true,
+                "excess": false
+              }
+            ],
+            "shadows": [
+              {
+                "door": "order",
+                "volume": "dominant",
+                "el": "water",
+                "isCore": false,
+                "excess": true
+              }
+            ]
+          },
+          "gifts": [
+            {
+              "phrase": "Misses nothing",
+              "door": "mind"
+            },
+            {
+              "phrase": "Fully committed",
+              "door": "body"
+            }
+          ],
+          "shadows": [
+            {
+              "phrase": "Doubts every spark",
+              "door": "order"
+            },
+            {
+              "phrase": "Can't cool down",
+              "door": "body"
+            }
+          ],
+          "nature": "You guard a smaller flame these days, cupped against wind, and you've learned what the guarding is worth. It lights less at once. What it lights, it lights completely, down to the grain of the wood. Most people never think to look for a fire this size. The few who sit close never quite recover from the warmth.",
+          "carry": {
+            "lead": "Fire runs Underfueled. Two energies are what the core is asking for. Three already carry weight.",
+            "track": [
+              {
+                "el": "water",
+                "name": "Water",
+                "hz": "水",
+                "presence": 40,
+                "isCore": false,
+                "mark": "ease"
+              },
+              {
+                "el": "wood",
+                "name": "Wood",
+                "hz": "木",
+                "presence": 30,
+                "isCore": false,
+                "mark": "seek"
+              },
+              {
+                "el": "fire",
+                "name": "Fire",
+                "hz": "火",
+                "presence": 15,
+                "isCore": true,
+                "mark": "seek"
+              },
+              {
+                "el": "metal",
+                "name": "Metal",
+                "hz": "金",
+                "presence": 10,
+                "isCore": false,
+                "mark": "ease"
+              },
+              {
+                "el": "earth",
+                "name": "Earth",
+                "hz": "土",
+                "presence": 5,
+                "isCore": false,
+                "mark": "ease"
+              }
+            ],
+            "balanced": false,
+            "ease": {
+              "kind": "ease",
+              "energies": [
+                {
+                  "el": "water",
+                  "name": "Water",
+                  "hz": "水",
+                  "presence": 40,
+                  "isCore": false,
+                  "fn": "Order"
+                },
+                {
+                  "el": "metal",
+                  "name": "Metal",
+                  "hz": "金",
+                  "presence": 10,
+                  "isCore": false,
+                  "fn": "Action"
+                },
+                {
+                  "el": "earth",
+                  "name": "Earth",
+                  "hz": "土",
+                  "presence": 5,
+                  "isCore": false,
+                  "fn": "Expression"
+                }
+              ],
+              "sentence": "Weak fire drowns in strong water: checks past what the flame can survive, caution putting the light out. Metal runs thin and unwanted: a small piece, easily finished. Earth runs thin and unwanted: a small hearth, easy to keep.",
+              "remedy": "Get out of the rain. Add wood. Finish it and let it cool. Keep the hearth small.",
+              "touch": [
+                "Doubts every spark",
+                "Can't cool down"
+              ]
+            },
+            "seek": {
+              "kind": "seek",
+              "energies": [
+                {
+                  "el": "wood",
+                  "name": "Wood",
+                  "hz": "木",
+                  "presence": 30,
+                  "isCore": false,
+                  "fn": "Mind"
+                },
+                {
+                  "el": "fire",
+                  "name": "Fire",
+                  "hz": "火",
+                  "presence": 15,
+                  "isCore": true,
+                  "fn": "Body"
+                }
+              ],
+              "sentence": "Wood is the widest door, the fuel your light was waiting for. The flame apologizes for shining: warmth dialed down, light waiting to be invited.",
+              "remedy": "Take the stage you keep declining.",
+              "touch": [
+                "Misses nothing",
+                "Fully committed"
+              ]
+            }
+          },
+          "pages": [
+            {
+              "el": "water",
+              "volume": "dominant",
+              "role": "friction",
+              "turn": "Run heavy, the rain never lifts: constant drizzle on every spark, caution soaking the kindling before it catches. Step out of the rain. A doused fire serves no one.",
+              "define": "As a friction, it is caution soaking through everything: every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would."
+            },
+            {
+              "el": "wood",
+              "volume": "abundant",
+              "role": "catalyst",
+              "turn": "Run thin, the flame eats scraps: brilliance flaring on no reserves, warmth borrowed from tomorrow. Your chart asks you to stack wood. Learn, gather, befriend, store.",
+              "define": "As a catalyst, it is how your fuel accumulates: skills stacked, books finished, friendships tended, people learned from over years. What you gather quietly becomes what you later spend as brilliance."
+            },
+            {
+              "el": "fire",
+              "volume": "present",
+              "role": "core",
+              "turn": "Run thin, the flame apologizes for shining: warmth dialed down, light waiting to be invited. Your chart asks you to feed the self. Take the stage you keep declining.",
+              "define": "Running thin, it is the energy behind your warmth: sociability, drive, the lift that makes mornings possible. Yours runs in bursts, so depletion shows as dimness with people you love."
+            },
+            {
+              "el": "metal",
+              "volume": "thin",
+              "role": "friction",
+              "turn": "Run heavy, the melting never stops: everything softened for reworking, nothing allowed to cool and keep an edge. Let finished things stay finished. A forge needs objects, not only fire.",
+              "define": "As a friction, it is reworking what should be finished: renegotiating settled things, polishing shipped work, effort spent softening what was already solid. Done is a decision you keep reopening."
+            },
+            {
+              "el": "earth",
+              "volume": "thin",
+              "role": "friction",
+              "turn": "Run heavy, every spark gets pressed into a monument: output hardening faster than it can live. Let some fires just be fires. Not every flame must found something.",
+              "define": "As a friction, it is making monuments out of moments: every idea formalized, every project turned permanent, output hardening while your energy thins."
+            }
+          ]
+        },
+        {
+          "stem": "庚",
+          "strength": "strong",
+          "p": {
+            "Metal": 5,
+            "Earth": 5,
+            "Wood": 30,
+            "Fire": 30,
+            "Water": 30
+          },
+          "band": "concentrated",
+          "doors": {
+            "gifts": [
+              {
+                "door": "order",
+                "volume": "abundant",
+                "el": "fire",
+                "isCore": false,
+                "excess": false
+              },
+              {
+                "door": "expression",
+                "volume": "abundant",
+                "el": "water",
+                "isCore": false,
+                "excess": false
+              },
+              {
+                "door": "action",
+                "volume": "abundant",
+                "el": "wood",
+                "isCore": false,
+                "excess": false
+              }
+            ],
+            "shadows": []
+          },
+          "gifts": [
+            {
+              "phrase": "Crisis performer",
+              "door": "order"
+            },
+            {
+              "phrase": "No dressed-up answers",
+              "door": "expression"
+            },
+            {
+              "phrase": "Trims for growth",
+              "door": "action"
+            }
+          ],
+          "shadows": [
+            {
+              "phrase": "Tense all over",
+              "door": "body"
+            },
+            {
+              "phrase": "Never reconsiders",
+              "door": "body"
+            },
+            {
+              "phrase": "Lives inside plans",
+              "door": "mind"
+            }
+          ],
+          "nature": "You are what the sword is like when it wakes up as a person. The cut is always ready and mostly used. You put the truth ahead of comfort, yours and everyone's, every day, in every setting. People bring you the questions nobody else will answer straight, then flinch at exactly what they asked for. The edge never rests. That includes the nights, and it includes you.",
+          "carry": {
+            "lead": "Metal runs Overfueled. Two energies feed a core already full. Three are where the surplus should go.",
+            "track": [
+              {
+                "el": "water",
+                "name": "Water",
+                "hz": "水",
+                "presence": 30,
+                "isCore": false,
+                "mark": "seek"
+              },
+              {
+                "el": "wood",
+                "name": "Wood",
+                "hz": "木",
+                "presence": 30,
+                "isCore": false,
+                "mark": "seek"
+              },
+              {
+                "el": "fire",
+                "name": "Fire",
+                "hz": "火",
+                "presence": 30,
+                "isCore": false,
+                "mark": "seek"
+              },
+              {
+                "el": "metal",
+                "name": "Metal",
+                "hz": "金",
+                "presence": 5,
+                "isCore": true,
+                "mark": "ease"
+              },
+              {
+                "el": "earth",
+                "name": "Earth",
+                "hz": "土",
+                "presence": 5,
+                "isCore": false,
+                "mark": "ease"
+              }
+            ],
+            "balanced": false,
+            "ease": {
+              "kind": "ease",
+              "energies": [
+                {
+                  "el": "metal",
+                  "name": "Metal",
+                  "hz": "金",
+                  "presence": 5,
+                  "isCore": true,
+                  "fn": "Body"
+                },
+                {
+                  "el": "earth",
+                  "name": "Earth",
+                  "hz": "土",
+                  "presence": 5,
+                  "isCore": false,
+                  "fn": "Mind"
+                }
+              ],
+              "sentence": "Metal runs thin and still carries weight: little of the self, held too tightly. Earth runs thin and unwanted: a little shelter, easily left.",
+              "remedy": "Loosen the grip. Leave it as it is, small.",
+              "touch": [
+                "Tense all over",
+                "Never reconsiders",
+                "Lives inside plans"
+              ]
+            },
+            "seek": {
+              "kind": "seek",
+              "energies": [
+                {
+                  "el": "fire",
+                  "name": "Fire",
+                  "hz": "火",
+                  "presence": 30,
+                  "isCore": false,
+                  "fn": "Order"
+                },
+                {
+                  "el": "water",
+                  "name": "Water",
+                  "hz": "水",
+                  "presence": 30,
+                  "isCore": false,
+                  "fn": "Expression"
+                },
+                {
+                  "el": "wood",
+                  "name": "Wood",
+                  "hz": "木",
+                  "presence": 30,
+                  "isCore": false,
+                  "fn": "Action"
+                }
+              ],
+              "sentence": "Fire is the widest door, the forge that finishes the edge. Water is the widest door, the channel that lets the blade breathe. Wood is the widest door, the material the knife is for.",
+              "remedy": "",
+              "touch": [
+                "Crisis performer",
+                "No dressed-up answers",
+                "Trims for growth"
+              ]
+            }
+          },
+          "pages": [
+            {
+              "el": "water",
+              "volume": "abundant",
+              "role": "catalyst",
+              "turn": "Run thin, this channel shows as pressure without release: much forged, little said. That is why your chart asks you to feed it. Writing, speaking, sharing work early lets the blade breathe.",
+              "define": "As a catalyst, it is output that flows. Words, cooking, small kindnesses, the bright remark that turns an evening: whatever is inside you moves outward without forcing, and people are fed by it before they notice they were hungry."
+            },
+            {
+              "el": "wood",
+              "volume": "abundant",
+              "role": "catalyst",
+              "turn": "Run thin, the knife has nothing to prune: skill idling without a project worth it. Your chart asks you to claim material. Pick one living ambition and start cutting.",
+              "define": "As a catalyst, it is effort that behaves like a living thing. Whatever you plant and keep tending, money, skills, ventures, trust, grows on its own schedule and pays you back with interest, because your work compounds instead of burning off."
+            },
+            {
+              "el": "fire",
+              "volume": "abundant",
+              "role": "catalyst",
+              "turn": "Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena.",
+              "define": "As a catalyst, it is structure with heat in it. Pressure organizes you instead of scattering you, rules turn into momentum, and when things fall apart you are the one holding a straight line through the middle of it."
+            },
+            {
+              "el": "metal",
+              "volume": "thin",
+              "role": "core",
+              "turn": "Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through.",
+              "define": "Running over, it is more physical force than your life currently spends: discipline with no outlet, stamina turning into tension you carry in your shoulders and jaw."
+            },
+            {
+              "el": "earth",
+              "volume": "thin",
+              "role": "friction",
+              "turn": "Run heavy, the shelter closes over the blade: so much preparation that the edge never leaves the mine. Comfort begins to bury what it formed. Dig out and cut something real.",
+              "define": "As a friction, it is intake with no off switch. Study, comfort, preparation, shelter: everything that goes in counts as progress, so nothing ever has to come out. Learning becomes the most respectable way to stand still."
+            }
+          ]
+        },
+        {
+          "stem": "庚",
+          "strength": "moderate",
+          "p": {
+            "Metal": 15,
+            "Earth": 15,
+            "Wood": 30,
+            "Fire": 25,
+            "Water": 15
+          },
+          "band": "open",
+          "doors": {
+            "gifts": [
+              {
+                "door": "mind",
+                "volume": "present",
+                "el": "earth",
+                "isCore": false,
+                "excess": false
+              },
+              {
+                "door": "body",
+                "volume": "present",
+                "el": "metal",
+                "isCore": true,
+                "excess": false
+              }
+            ],
+            "shadows": [
+              {
+                "door": "action",
+                "volume": "abundant",
+                "el": "wood",
+                "isCore": false,
+                "excess": false
+              },
+              {
+                "door": "order",
+                "volume": "abundant",
+                "el": "fire",
+                "isCore": false,
+                "excess": false
+              },
+              {
+                "door": "expression",
+                "volume": "present",
+                "el": "water",
+                "isCore": false,
+                "excess": false
+              }
+            ]
+          },
+          "gifts": [
+            {
+              "phrase": "First-handshake read",
+              "door": "mind"
+            },
+            {
+              "phrase": "Never looks tired",
+              "door": "body"
+            }
+          ],
+          "shadows": [
+            {
+              "phrase": "Busy, nothing finished",
+              "door": "action"
+            },
+            {
+              "phrase": "Own harshest critic",
+              "door": "order"
+            },
+            {
+              "phrase": "No filter",
+              "door": "expression"
+            }
+          ],
+          "nature": "You carry that same blade, and you carry it sheathed. The true thing gets said when it needs saying and held when it doesn't, and knowing the difference is half your worth. People trust your judgment because they've watched you choose not to cut. An edge that picks its moments stays believed, and stays welcome at the table.",
+          "carry": {
+            "lead": "Metal runs Underfueled. Two energies are what the core is asking for. Three already carry weight.",
+            "track": [
+              {
+                "el": "wood",
+                "name": "Wood",
+                "hz": "木",
+                "presence": 30,
+                "isCore": false,
+                "mark": "ease"
+              },
+              {
+                "el": "fire",
+                "name": "Fire",
+                "hz": "火",
+                "presence": 25,
+                "isCore": false,
+                "mark": "ease"
+              },
+              {
+                "el": "metal",
+                "name": "Metal",
+                "hz": "金",
+                "presence": 15,
+                "isCore": true,
+                "mark": "seek"
+              },
+              {
+                "el": "earth",
+                "name": "Earth",
+                "hz": "土",
+                "presence": 15,
+                "isCore": false,
+                "mark": "seek"
+              },
+              {
+                "el": "water",
+                "name": "Water",
+                "hz": "水",
+                "presence": 15,
+                "isCore": false,
+                "mark": "ease"
+              }
+            ],
+            "balanced": false,
+            "ease": {
+              "kind": "ease",
+              "energies": [
+                {
+                  "el": "wood",
+                  "name": "Wood",
+                  "hz": "木",
+                  "presence": 30,
+                  "isCore": false,
+                  "fn": "Action"
+                },
+                {
+                  "el": "fire",
+                  "name": "Fire",
+                  "hz": "火",
+                  "presence": 25,
+                  "isCore": false,
+                  "fn": "Order"
+                },
+                {
+                  "el": "water",
+                  "name": "Water",
+                  "hz": "水",
+                  "presence": 15,
+                  "isCore": false,
+                  "fn": "Expression"
+                }
+              ],
+              "sentence": "The pruning never stops: forests of projects, an edge worn on material that never ends. The forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves. The flow turns to flood: output for its own sake, saying instead of shaping.",
+              "remedy": "Cut fewer branches, and finish them. Step out of the fire long enough to hold an edge. Cut the noise and the water clears.",
+              "touch": [
+                "Busy, nothing finished",
+                "Own harshest critic",
+                "No filter"
+              ]
+            },
+            "seek": {
+              "kind": "seek",
+              "energies": [
+                {
+                  "el": "earth",
+                  "name": "Earth",
+                  "hz": "土",
+                  "presence": 15,
+                  "isCore": false,
+                  "fn": "Mind"
+                },
+                {
+                  "el": "metal",
+                  "name": "Metal",
+                  "hz": "金",
+                  "presence": 15,
+                  "isCore": true,
+                  "fn": "Body"
+                }
+              ],
+              "sentence": "The mountain goes hungry: a keen edge with nothing behind it, sharpness spent faster than it forms. The line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last.",
+              "remedy": "Rest and study are smelting, not stalling. Practice your craft alone until it rings.",
+              "touch": [
+                "First-handshake read",
+                "Never looks tired"
+              ]
+            }
+          },
+          "pages": [
+            {
+              "el": "wood",
+              "volume": "abundant",
+              "role": "friction",
+              "turn": "Run heavy, the pruning never stops: forests of projects, an edge worn on material that never ends. The knife dulls on quantity. Cut fewer branches, and finish them.",
+              "define": "As a friction, it is growth that stops answering to the harvest. Effort goes wherever the roots or the branches already point, old ground held too hard, new shoots started too freely, and the season ends with plenty of motion and nothing ripe."
+            },
+            {
+              "el": "fire",
+              "volume": "abundant",
+              "role": "friction",
+              "turn": "Run heavy, the forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves. Step out of the fire long enough to hold an edge.",
+              "define": "As a friction, it is order with the thermostat broken. Every rule runs hot, every moment gets treated like an emergency, and the structure that once held things up starts pressing down on people, then finally on you."
+            },
+            {
+              "el": "metal",
+              "volume": "present",
+              "role": "core",
+              "turn": "Run thin, the line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last. Your chart asks you to feed the self. Practice your craft alone until it rings.",
+              "define": "Running thin, it is the reserve everything else draws on: sleep, food, recovery, the physical base under your discipline. Yours holds form long after the fuel is low, so you notice depletion late."
+            },
+            {
+              "el": "earth",
+              "volume": "present",
+              "role": "catalyst",
+              "turn": "Run thin, the mountain goes hungry: a keen edge with nothing behind it, sharpness spent faster than it forms. Your chart asks you to feed the ground. Rest and study are smelting, not stalling.",
+              "define": "As a catalyst, it is a slow, deep intake that turns experience into ground you can stand on. Books, mentors, quiet corners, long walks after hard conversations: whatever feeds it comes back later as judgment."
+            },
+            {
+              "el": "water",
+              "volume": "present",
+              "role": "friction",
+              "turn": "Run heavy, the flow turns to flood: output for its own sake, saying instead of shaping. The flood drinks the blade that feeds it. Cut the noise and the water clears.",
+              "define": "As a friction, it is output with no banks. Talent spills wherever it lands, into snacks and scrolling, into remarks that cut deeper than intended, into half-made things. Nothing is wrong, exactly. That is the problem. The spill keeps absorbing the effort your best work was waiting for."
+            }
+          ]
+        }
+      ],
+      "core60": {
+        "roles": {
+          "roles": [
+            "core",
+            "catalyst"
+          ],
+          "volume": "dominant"
+        },
+        "band": "balanced"
+      }
+    }
+  },
+  "scorecard": [
+    {
+      "file": "01",
+      "unit": "甲",
+      "scores": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "01",
+      "unit": "乙",
+      "scores": [
+        3,
+        3,
+        2,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "01",
+      "unit": "丙",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "01",
+      "unit": "丁",
+      "scores": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "01",
+      "unit": "戊",
+      "scores": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "01",
+      "unit": "己",
+      "scores": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "file": "01",
+      "unit": "庚",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "01",
+      "unit": "辛",
+      "scores": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "01",
+      "unit": "壬",
+      "scores": [
+        3,
+        3,
+        2,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "01",
+      "unit": "癸",
+      "scores": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "木_木",
+      "scores": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "木_火",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "木_土",
+      "scores": [
+        3,
+        3,
+        2,
+        3,
+        2,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "木_金",
+      "scores": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "木_水",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "火_木",
+      "scores": [
+        1,
+        2,
+        2,
+        3,
+        2,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "火_火",
+      "scores": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "火_土",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "火_金",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "火_水",
+      "scores": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "土_木",
+      "scores": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "土_火",
+      "scores": [
+        3,
+        3,
+        2,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "土_土",
+      "scores": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "土_金",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "土_水",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "金_木",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "金_火",
+      "scores": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "金_土",
+      "scores": [
+        2,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "金_金",
+      "scores": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "金_水",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "水_木",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "水_火",
+      "scores": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "水_土",
+      "scores": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "水_金",
+      "scores": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "02",
+      "unit": "水_水",
+      "scores": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "file": "03A",
+      "unit": "比肩",
+      "scores": [
+        3,
+        3,
+        2,
+        3,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "03A",
+      "unit": "劫财",
+      "scores": [
+        3,
+        3,
+        2,
+        3,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "03A",
+      "unit": "食神",
+      "scores": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "03A",
+      "unit": "伤官",
+      "scores": [
+        3,
+        2,
+        2,
+        2,
+        1,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "03A",
+      "unit": "偏财",
+      "scores": [
+        3,
+        2,
+        2,
+        2,
+        1,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "03A",
+      "unit": "正财",
+      "scores": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "03A",
+      "unit": "七杀",
+      "scores": [
+        3,
+        2,
+        2,
+        2,
+        1,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "03A",
+      "unit": "正官",
+      "scores": [
+        3,
+        3,
+        2,
+        1,
+        1,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "03A",
+      "unit": "偏印",
+      "scores": [
+        3,
+        2,
+        2,
+        1,
+        1,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "03A",
+      "unit": "正印",
+      "scores": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "file": "03B",
+      "unit": "木_七杀",
+      "scores": [
+        3,
+        2,
+        1,
+        2,
+        1,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "file": "03B",
+      "unit": "木_伤官",
+      "scores": [
+        3,
+        2,
+        1,
+        2,
+        1,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "03B",
+      "unit": "木_偏印",
+      "scores": [
+        3,
+        2,
+        1,
+        2,
+        1,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "03B",
+      "unit": "木_偏财",
+      "scores": [
+        3,
+        2,
+        1,
+        2,
+        1,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "file": "03B",
+      "unit": "木_劫财",
+      "scores": [
+        3,
+        2,
+        1,
+        2,
+        1,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "03B",
+      "unit": "木_正印",
+      "scores": [
+        3,
+        2,
+        1,
+        2,
+        1,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "file": "03B",
+      "unit": "木_正官",
+      "scores": [
+        3,
+        2,
+        1,
+        2,
+        1,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "03B",
+      "unit": "木_正财",
+      "scores": [
+        3,
+        2,
+        1,
+        2,
+        1,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "file": "03B",
+      "unit": "木_比肩",
+      "scores": [
+        3,
+        2,
+        1,
+        2,
+        1,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "file": "03B",
+      "unit": "木_食神",
+      "scores": [
+        3,
+        2,
+        1,
+        2,
+        1,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "file": "03B",
+      "unit": "火_七杀",
+      "scores": [
+        3,
+        2,
+        1,
+        2,
+        1,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "file": "03B",
+      "unit": "土_偏印",
+      "scores": [
+        3,
+        3,
+        2,
+        2,
+        1,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "file": "03B",
+      "unit": "金_正财",
+      "scores": [
+        3,
+        1,
+        1,
+        2,
+        1,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "file": "03B",
+      "unit": "水_正印",
+      "scores": [
+        3,
+        2,
+        1,
+        2,
+        1,
+        2,
+        2,
+        1
+      ]
+    }
+  ],
+  "traitScores": [
+    {
+      "id": 1,
+      "stem": "甲",
+      "phrase": "Quick to start",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 2,
+      "stem": "甲",
+      "phrase": "Holds its ground",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 3,
+      "stem": "甲",
+      "phrase": "Takes the lesson",
+      "scores": [
+        3,
+        2,
+        2,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 4,
+      "stem": "甲",
+      "phrase": "Grows on rest",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 5,
+      "stem": "甲",
+      "phrase": "Raises everyone's game",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 6,
+      "stem": "甲",
+      "phrase": "Makes it official",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 7,
+      "stem": "甲",
+      "phrase": "Better when edited",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 8,
+      "stem": "甲",
+      "phrase": "Starts five things",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 9,
+      "stem": "甲",
+      "phrase": "Crowds everyone out",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 10,
+      "stem": "甲",
+      "phrase": "Waits for signs",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 11,
+      "stem": "甲",
+      "phrase": "Floats between plans",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 12,
+      "stem": "甲",
+      "phrase": "Promises too much",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 13,
+      "stem": "甲",
+      "phrase": "Owns too much",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 14,
+      "stem": "甲",
+      "phrase": "Never good enough",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 15,
+      "stem": "乙",
+      "phrase": "Regrows from little",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 16,
+      "stem": "乙",
+      "phrase": "Grows anywhere",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 17,
+      "stem": "乙",
+      "phrase": "Maps the wall",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 18,
+      "stem": "乙",
+      "phrase": "Nobody's fool",
+      "scores": [
+        3,
+        2,
+        3,
+        4,
+        2,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 19,
+      "stem": "乙",
+      "phrase": "Wins people over",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 20,
+      "stem": "乙",
+      "phrase": "Settles in",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 21,
+      "stem": "乙",
+      "phrase": "Better for pruning",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 22,
+      "stem": "乙",
+      "phrase": "Tangled in others",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 23,
+      "stem": "乙",
+      "phrase": "Grows over others",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 24,
+      "stem": "乙",
+      "phrase": "Loses the thread",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 25,
+      "stem": "乙",
+      "phrase": "Drifts with advice",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 26,
+      "stem": "乙",
+      "phrase": "Announces too early",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 27,
+      "stem": "乙",
+      "phrase": "Takes every opening",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 28,
+      "stem": "乙",
+      "phrase": "Blames itself first",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 29,
+      "stem": "丙",
+      "phrase": "Lifts the morning",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 30,
+      "stem": "丙",
+      "phrase": "Shines on everyone",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 31,
+      "stem": "丙",
+      "phrase": "Learns from everyone",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 32,
+      "stem": "丙",
+      "phrase": "Full of ideas",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 33,
+      "stem": "丙",
+      "phrase": "Starts traditions",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 34,
+      "stem": "丙",
+      "phrase": "Takes hard jobs",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        2,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 35,
+      "stem": "丙",
+      "phrase": "Sleeps on it",
+      "scores": [
+        3,
+        2,
+        2,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 36,
+      "stem": "丙",
+      "phrase": "Can't switch off",
+      "scores": [
+        3,
+        2,
+        3,
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 37,
+      "stem": "丙",
+      "phrase": "Outshines everyone",
+      "scores": [
+        3,
+        3,
+        3,
+        1,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 38,
+      "stem": "丙",
+      "phrase": "Chokes on fuel",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 39,
+      "stem": "丙",
+      "phrase": "Buried in ideas",
+      "scores": [
+        2,
+        3,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 40,
+      "stem": "丙",
+      "phrase": "Formalizes everything",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 41,
+      "stem": "丙",
+      "phrase": "Reopens settled things",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 42,
+      "stem": "丙",
+      "phrase": "Own harshest judge",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 43,
+      "stem": "丁",
+      "phrase": "Fully committed",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 44,
+      "stem": "丁",
+      "phrase": "Deeply present",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 45,
+      "stem": "丁",
+      "phrase": "Studies one thing",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 46,
+      "stem": "丁",
+      "phrase": "Misses nothing",
+      "scores": [
+        3,
+        1,
+        2,
+        4,
+        3,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 47,
+      "stem": "丁",
+      "phrase": "Rekindles people",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 48,
+      "stem": "丁",
+      "phrase": "Cracks hard problems",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        2,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 49,
+      "stem": "丁",
+      "phrase": "Listens to doubt",
+      "scores": [
+        3,
+        2,
+        2,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 50,
+      "stem": "丁",
+      "phrase": "Can't cool down",
+      "scores": [
+        3,
+        2,
+        3,
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 51,
+      "stem": "丁",
+      "phrase": "Plays favorites",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 52,
+      "stem": "丁",
+      "phrase": "Never ready enough",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 53,
+      "stem": "丁",
+      "phrase": "Smothered by plans",
+      "scores": [
+        2,
+        3,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 54,
+      "stem": "丁",
+      "phrase": "Makes it permanent",
+      "scores": [
+        3,
+        3,
+        3,
+        1,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 55,
+      "stem": "丁",
+      "phrase": "Keeps reworking it",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 56,
+      "stem": "丁",
+      "phrase": "Takes it personally",
+      "scores": [
+        3,
+        2,
+        3,
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 57,
+      "stem": "戊",
+      "phrase": "Everyone's rock",
+      "scores": [
+        3,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 58,
+      "stem": "戊",
+      "phrase": "Shows up regardless",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 59,
+      "stem": "戊",
+      "phrase": "Learns from people",
+      "scores": [
+        3,
+        2,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 60,
+      "stem": "戊",
+      "phrase": "Keeps the record",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 61,
+      "stem": "戊",
+      "phrase": "Says it once",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 62,
+      "stem": "戊",
+      "phrase": "Safe hands",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 63,
+      "stem": "戊",
+      "phrase": "Carries the family",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 64,
+      "stem": "戊",
+      "phrase": "Sinks into routine",
+      "scores": [
+        3,
+        2,
+        3,
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 65,
+      "stem": "戊",
+      "phrase": "Can't let go",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 66,
+      "stem": "戊",
+      "phrase": "Feeds on distraction",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 67,
+      "stem": "戊",
+      "phrase": "Set in stone",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 68,
+      "stem": "戊",
+      "phrase": "Drained by deadlines",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 69,
+      "stem": "戊",
+      "phrase": "Manages everything",
+      "scores": [
+        3,
+        3,
+        3,
+        1,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 70,
+      "stem": "戊",
+      "phrase": "Never forgives itself",
+      "scores": [
+        3,
+        2,
+        3,
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 71,
+      "stem": "己",
+      "phrase": "Restful company",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 72,
+      "stem": "己",
+      "phrase": "Quietly essential",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 73,
+      "stem": "己",
+      "phrase": "Remembers who helped",
+      "scores": [
+        3,
+        2,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 74,
+      "stem": "己",
+      "phrase": "Reads the season",
+      "scores": [
+        3,
+        3,
+        2,
+        2,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 75,
+      "stem": "己",
+      "phrase": "Few words, exact",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 76,
+      "stem": "己",
+      "phrase": "Feeds the table",
+      "scores": [
+        3,
+        3,
+        1,
+        4,
+        3,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 77,
+      "stem": "己",
+      "phrase": "Keeps every promise",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 78,
+      "stem": "己",
+      "phrase": "Takes the mud",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 79,
+      "stem": "己",
+      "phrase": "Too agreeable",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 80,
+      "stem": "己",
+      "phrase": "Overheats on praise",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 81,
+      "stem": "己",
+      "phrase": "Burns the seedlings",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 82,
+      "stem": "己",
+      "phrase": "Drained by demands",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 83,
+      "stem": "己",
+      "phrase": "Counts every grain",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 84,
+      "stem": "己",
+      "phrase": "Sorry for everything",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 85,
+      "stem": "庚",
+      "phrase": "Never looks tired",
+      "scores": [
+        3,
+        3,
+        3,
+        1,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 86,
+      "stem": "庚",
+      "phrase": "Careful finisher",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        3,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 87,
+      "stem": "庚",
+      "phrase": "First-handshake read",
+      "scores": [
+        3,
+        1,
+        1,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 88,
+      "stem": "庚",
+      "phrase": "Practices alone",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 89,
+      "stem": "庚",
+      "phrase": "No dressed-up answers",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 90,
+      "stem": "庚",
+      "phrase": "Trims for growth",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 91,
+      "stem": "庚",
+      "phrase": "Crisis performer",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        2,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 92,
+      "stem": "庚",
+      "phrase": "Tense all over",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 93,
+      "stem": "庚",
+      "phrase": "Never reconsiders",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 94,
+      "stem": "庚",
+      "phrase": "Lives inside plans",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 95,
+      "stem": "庚",
+      "phrase": "Plans, never acts",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 96,
+      "stem": "庚",
+      "phrase": "No filter",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 97,
+      "stem": "庚",
+      "phrase": "Busy, nothing finished",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 98,
+      "stem": "庚",
+      "phrase": "Own harshest critic",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 99,
+      "stem": "辛",
+      "phrase": "Keeps its shape",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 100,
+      "stem": "辛",
+      "phrase": "Polished by default",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        3,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 101,
+      "stem": "辛",
+      "phrase": "Impeccable taste",
+      "scores": [
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 102,
+      "stem": "辛",
+      "phrase": "Spots the crack",
+      "scores": [
+        3,
+        2,
+        2,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 103,
+      "stem": "辛",
+      "phrase": "Understated excellence",
+      "scores": [
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 104,
+      "stem": "辛",
+      "phrase": "Prices it right",
+      "scores": [
+        3,
+        3,
+        1,
+        4,
+        3,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "id": 105,
+      "stem": "辛",
+      "phrase": "Quality guaranteed",
+      "scores": [
+        3,
+        3,
+        1,
+        2,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 106,
+      "stem": "辛",
+      "phrase": "Polishes forever",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 107,
+      "stem": "辛",
+      "phrase": "Trusts one judge",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 108,
+      "stem": "辛",
+      "phrase": "Never stops preparing",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 109,
+      "stem": "辛",
+      "phrase": "Stays boxed up",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 110,
+      "stem": "辛",
+      "phrase": "Remarks cut deep",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 111,
+      "stem": "辛",
+      "phrase": "Hoards raw stones",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 112,
+      "stem": "辛",
+      "phrase": "Hardest on itself",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 113,
+      "stem": "壬",
+      "phrase": "Restored by quiet",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 114,
+      "stem": "壬",
+      "phrase": "Nothing rattles it",
+      "scores": [
+        3,
+        3,
+        1,
+        2,
+        3,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 115,
+      "stem": "壬",
+      "phrase": "Learns from experts",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 116,
+      "stem": "壬",
+      "phrase": "Big picture thinker",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 117,
+      "stem": "壬",
+      "phrase": "Gives ideas away",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 118,
+      "stem": "壬",
+      "phrase": "Thinks big",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        2,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 119,
+      "stem": "壬",
+      "phrase": "Thrives on structure",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 120,
+      "stem": "壬",
+      "phrase": "Rest stops working",
+      "scores": [
+        3,
+        2,
+        3,
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 121,
+      "stem": "壬",
+      "phrase": "Hard to know",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 122,
+      "stem": "壬",
+      "phrase": "Collects frameworks",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 123,
+      "stem": "壬",
+      "phrase": "Muddied by advice",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 124,
+      "stem": "壬",
+      "phrase": "Pours into everyone",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 125,
+      "stem": "壬",
+      "phrase": "Spread too thin",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 126,
+      "stem": "壬",
+      "phrase": "Sinks under blame",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 127,
+      "stem": "癸",
+      "phrase": "Needs the quiet",
+      "scores": [
+        3,
+        3,
+        3,
+        1,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 128,
+      "stem": "癸",
+      "phrase": "Gentle confidant",
+      "scores": [
+        3,
+        3,
+        1,
+        2,
+        3,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 129,
+      "stem": "癸",
+      "phrase": "Better with structure",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 130,
+      "stem": "癸",
+      "phrase": "Feels the undercurrent",
+      "scores": [
+        3,
+        1,
+        1,
+        4,
+        3,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 131,
+      "stem": "癸",
+      "phrase": "Changes minds softly",
+      "scores": [
+        3,
+        3,
+        2,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 132,
+      "stem": "癸",
+      "phrase": "Spots the opening",
+      "scores": [
+        3,
+        2,
+        2,
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 133,
+      "stem": "癸",
+      "phrase": "Blooms on routine",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 134,
+      "stem": "癸",
+      "phrase": "Sleeps without rest",
+      "scores": [
+        3,
+        2,
+        3,
+        4,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 135,
+      "stem": "癸",
+      "phrase": "Loses the border",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 136,
+      "stem": "癸",
+      "phrase": "Replays every word",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 137,
+      "stem": "癸",
+      "phrase": "Absorbs everything",
+      "scores": [
+        3,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 138,
+      "stem": "癸",
+      "phrase": "Mentors everyone",
+      "scores": [
+        3,
+        3,
+        3,
+        1,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 139,
+      "stem": "癸",
+      "phrase": "Boils off early",
+      "scores": [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 140,
+      "stem": "癸",
+      "phrase": "Punishes itself quietly",
+      "scores": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        4
+      ]
+    }
+  ],
+  "packVsCurrentOrderShadows": [
+    {
+      "stem": "甲",
+      "pack": "Never good enough",
+      "reason": "label not in current pool",
+      "current": {
+        "phrase": "Snaps under load",
+        "dim": "under rules",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "木_金.function.definition_friction",
+        "desc": "Correction landing harder than you can absorb. Every rule met, every critique taken, until the standards stop shaping you and start shrinking you, and then you break, loudly."
+      }
+    },
+    {
+      "stem": "乙",
+      "pack": "Blames itself first",
+      "reason": "label not in current pool",
+      "current": {
+        "phrase": "Bends too far",
+        "dim": "boundaries",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "木_金.function.definition_friction",
+        "desc": "You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you are holding stops being yours."
+      }
+    },
+    {
+      "stem": "丙",
+      "pack": "Own harshest judge",
+      "reason": "label not in current pool",
+      "current": {
+        "phrase": "Overthinks the leap",
+        "dim": "second-guessing",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "火_水.function.definition_friction",
+        "desc": "Every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would."
+      }
+    },
+    {
+      "stem": "丁",
+      "pack": "Takes it personally",
+      "reason": "label not in current pool",
+      "current": {
+        "phrase": "Doubts every spark",
+        "dim": "second-guessing",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "火_水.function.definition_friction",
+        "desc": "Every plan reviewed until the moment passes, every small light second-guessed into a maybe. The checking costs more than the mistake would."
+      }
+    },
+    {
+      "stem": "戊",
+      "pack": "Never forgives itself",
+      "reason": "label not in current pool",
+      "current": {
+        "phrase": "Quietly overwhelmed",
+        "dim": "capacity",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "土_木.function.definition_friction",
+        "desc": "Everyone rooted in you, nothing rooted for you. The load has not changed, but the legs under it have, and you still say yes to every weight."
+      }
+    },
+    {
+      "stem": "己",
+      "pack": "Sorry for everything",
+      "reason": "label not in current pool",
+      "current": {
+        "phrase": "Can't say no",
+        "dim": "refusing",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "土_木.function.definition_friction",
+        "desc": "Everyone rooted in you, nothing rooted for you. The request lands and the yes is out before you have checked the calendar or the tank."
+      }
+    },
+    {
+      "stem": "辛",
+      "pack": "Hardest on itself",
+      "reason": "label not in current pool",
+      "current": {
+        "phrase": "Panics over flaws",
+        "dim": "criticism",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "金_火.function.definition_friction",
+        "desc": "Every rule runs hot and every small flaw gets treated like an emergency. The standard presses down on people first, then hardest on you."
+      }
+    },
+    {
+      "stem": "壬",
+      "pack": "Sinks under blame",
+      "reason": "label not in current pool",
+      "current": {
+        "phrase": "Held behind walls",
+        "dim": "others' rules",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "水_土.function.definition_friction",
+        "desc": "A calendar with no slack, roles held from duty long after they stopped fitting. Dammed by other people's rules, the sea goes quiet, and quiet is not the same as calm."
+      }
+    },
+    {
+      "stem": "癸",
+      "pack": "Punishes itself quietly",
+      "reason": "label not in current pool",
+      "current": {
+        "phrase": "Trapped by routine",
+        "dim": "hard conversations",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "水_土.function.definition_friction",
+        "desc": "A calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you run on."
+      }
+    }
+  ],
+  "exporterAudit": {
+    "templates": 240,
+    "exitCode": 1,
+    "reportedMismatch": "_ORDER.json (taxonomy order changed in code)"
+  },
+  "limitations": [
+    "No empirical chart/personality validation",
+    "No complete calendar or birth-time calculation audit",
+    "No end-to-end browser or visual regression certification",
+    "Other 36 Part B cells not fully reviewed",
+    "Not an edition-level audit of all five classical works"
+  ]
+}

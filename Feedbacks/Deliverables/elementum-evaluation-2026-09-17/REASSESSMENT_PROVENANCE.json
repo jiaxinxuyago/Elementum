@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-18",
+  "gitHead": "219cde921985f5d77b18d8490d7f286fe0c4619f",
+  "scope": "Eight-document reconciliation, refreshed REA_02 and REA_16 reread, targeted current assembly inspection, and two executed resolveBand cases: Wood 30% -> balanced; Wood 40% -> open. No numeric rescoring, exhaustive blend run, primary-source re-verification or reader testing.",
+  "documents": [
+    {
+      "path": "D:\\Elementum\\Elementum_Project\\Reading\\Documents\\_ARCHIVE_Reading_V2.1_Reconciliation_Audit.md",
+      "bytes": 13085,
+      "sha256": "1fb0d2861f4f34eb1c4e6983f34303dbab21acb5b6b2f9acaf96a11386e10bb0"
+    },
+    {
+      "path": "D:\\Elementum\\Elementum_Project\\Reading\\Documents\\REA_01_Archetype_System.md",
+      "bytes": 9441,
+      "sha256": "a61a7e6928c6b16414188040fa55e081ecef40dc63da51f57a3006a082346189"
+    },
+    {
+      "path": "D:\\Elementum\\Elementum_Project\\Reading\\Documents\\REA_02_Concept_Dictionary.md",
+      "bytes": 44852,
+      "sha256": "6cffdcba9a1178566eec81ab792f323012db02a2bce5d97336bca064fe81f88e"
+    },
+    {
+      "path": "D:\\Elementum\\Elementum_Project\\Reading\\Documents\\REA_03_Reading_Generation_Schema.md",
+      "bytes": 56980,
+      "sha256": "9a44d5f04eeb12cc0b9f87ce352ca6366b21ee5f4d6515a5bbe98443b84ed83e"
+    },
+    {
+      "path": "D:\\Elementum\\Elementum_Project\\Reading\\Documents\\REA_04_Knowledge_Pool.md",
+      "bytes": 123879,
+      "sha256": "9337d176fede5fd88f2b6f1d9ff0ee94576c587c872f6de2915c86151a500643"
+    },
+    {
+      "path": "D:\\Elementum\\Elementum_Project\\Reading\\Documents\\REA_05_Generation_Architecture.md",
+      "bytes": 9811,
+      "sha256": "5063e3812ed2bdee6e174f07215ea35ecda47c546656b71bd3d63e4d9198d332"
+    },
+    {
+      "path": "D:\\Elementum\\Elementum_Project\\Reading\\Documents\\REA_06_Concept_Ladder.md",
+      "bytes": 12294,
+      "sha256": "18bcbf813dbad05bcc5e31b384ccfa8097a57650e285870395f829c5e4f36b83"
+    },
+    {
+      "path": "D:\\Elementum\\Elementum_Project\\Reading\\Documents\\REA_16_The_Voice.md",
+      "bytes": 131559,
+      "sha256": "d36b59f41ada1b4a3de35eef112d55fbfce732429f99cc479b45f03235e34185"
+    }
+  ],
+  "outputs": [
+    "00_START_HERE.md",
+    "SYSTEM_ALIGNED_REASSESSMENT.md",
+    "LANGUAGE_USE_RECOMMENDATIONS.md",
+    "ASSEMBLY_IMPLEMENTATION_SPEC.md"
+  ]
+}
