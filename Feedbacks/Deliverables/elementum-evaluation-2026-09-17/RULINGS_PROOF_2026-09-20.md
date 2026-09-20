@@ -13,60 +13,60 @@ Why it is an improvement: the classical verse says 木多火炽 (fire blazing). 
 | Surface | Before | After |
 |---|---|---|
 | P4 shadow chips | Outshines everyone [body/excess] · Buried in ideas [mind/excess] | unchanged |
-| Chip description (Buried in ideas) | Fuel stacked so high the flame never gets lit. So much to burn that nothing catches, and the best plan is under six others. | So many ideas lit at once that you cannot see the one that matters. Each new plan lands on top of the last, and the best one is burning somewhere underneath. |
-| Carry card, ease row | The light crowds out the sky. Too much wood chokes the fire: fuel stacked past burning, the flame smothered by its own supply. | The light crowds out the sky. Too much wood feeds the fire past its task: every idea lights the next before one finishes. |
-| Carry card, ease remedy | Stars are seen at night. Pull a branch off. Strike. | Stars are seen at night. One fire. Finish it, then light the next. |
-| Wood page, definition | As a friction, it is gathering as a way of postponing: one more certification, one more plan, readiness that keeps moving its own finish line. | As a friction, it is fuel arriving faster than you can burn it: every book starts a project, every conversation lights a plan, and the flame runs hotter and shorter with each new pile. |
-| Wood page, turn | Too much wood chokes the fire: fuel stacked past burning, the flame smothered by its own supply. Pull a branch off. Strike. | Too much wood feeds the fire past its task: every idea lights the next before one finishes. One fire. Finish it, then light the next. |
-| Wood page, advice | Readiness is proven only in the open. Book the thing you have been training for, this month, at whatever level you are. Let one plan ship at eighty percent. When the urge to prepare rises, ask what it is protecting you from. | Too much fuel makes a fast, hungry fire. Finish one thing before you light the next, and let a new idea wait a week before it gets your evenings. Read less, build more. When the urge to gather rises, ask what it is about to set alight. |
+| Chip description (Buried in ideas) | Fuel stacked so high the flame never gets lit. So much to burn that nothing catches, and the best plan is under six others. | So many ideas going at the same time that you cannot see the one that matters. Each new plan lands on top of the last, and the best one is somewhere underneath, still smoking. |
+| Carry card, ease row | The light crowds out the sky. Too much wood chokes the fire: fuel stacked past burning, the flame smothered by its own supply. | The light crowds out the sky. Too much wood feeds the fire past its task: a blaze that eats a season of fuel in a night. |
+| Carry card, ease remedy | Stars are seen at night. Pull a branch off. Strike. | Stars are seen at night. Bank the fire. Save half the wood. |
+| Wood page, definition | As a friction, it is gathering as a way of postponing: one more certification, one more plan, readiness that keeps moving its own finish line. | As a friction, it is more fuel than one flame can use: courses, books, mentors, plans, all of it feeding a fire that burns hotter than it burns long. |
+| Wood page, turn | Too much wood chokes the fire: fuel stacked past burning, the flame smothered by its own supply. Pull a branch off. Strike. | Too much wood feeds the fire past its task: a blaze that eats a season of fuel in a night. Bank the fire. Save half the wood. |
+| Wood page, advice | Readiness is proven only in the open. Book the thing you have been training for, this month, at whatever level you are. Let one plan ship at eighty percent. When the urge to prepare rises, ask what it is protecting you from. | The cure for too much fuel is a smaller hearth. Pick the one project that gets your evenings this month and let the reading list wait. Keep a written list of what you are not doing, and read it whenever a new idea asks to go first. Sleep on anything that arrived after ten. |
 
 **丙 The Sun, strong · Wood 30% (abundant, the heavy turn)** · Overfueled. Gift doors: order=water thin, action=metal present, expression=earth present. Shadow doors: body=fire abundant, mind=wood abundant.
 
 | Surface | Before | After |
 |---|---|---|
 | P4 shadow chips | Outshines everyone [body/excess] · Buried in ideas [mind/excess] | unchanged |
-| Chip description (Buried in ideas) | Fuel stacked so high the flame never gets lit. So much to burn that nothing catches, and the best plan is under six others. | So many ideas lit at once that you cannot see the one that matters. Each new plan lands on top of the last, and the best one is burning somewhere underneath. |
+| Chip description (Buried in ideas) | Fuel stacked so high the flame never gets lit. So much to burn that nothing catches, and the best plan is under six others. | So many ideas going at the same time that you cannot see the one that matters. Each new plan lands on top of the last, and the best one is somewhere underneath, still smoking. |
 | Carry card, ease row | The light crowds out the sky. The woodpile buries the fire: fuel hoarded past burning, preparation stacked so high the flame never gets lit. | The light crowds out the sky. The fire outgrows its hearth: every branch thrown on at once, heat spent in a rush. |
 | Carry card, ease remedy | Stars are seen at night. Pull a branch off the pile and strike. | Stars are seen at night. Burn one pile at a time. |
-| Wood page, definition | As a friction, it is gathering as a way of postponing: one more certification, one more plan, readiness that keeps moving its own finish line. | As a friction, it is fuel arriving faster than you can burn it: every book starts a project, every conversation lights a plan, and the flame runs hotter and shorter with each new pile. |
+| Wood page, definition | As a friction, it is gathering as a way of postponing: one more certification, one more plan, readiness that keeps moving its own finish line. | As a friction, it is more fuel than one flame can use: courses, books, mentors, plans, all of it feeding a fire that burns hotter than it burns long. |
 | Wood page, turn | Run heavy, the woodpile buries the fire: fuel hoarded past burning, preparation stacked so high the flame never gets lit. Pull a branch off the pile and strike. | Run heavy, the fire outgrows its hearth: every branch thrown on at once, heat spent in a rush, ash by morning. Burn one pile at a time. |
-| Wood page, advice | Readiness is proven only in the open. Book the thing you have been training for, this month, at whatever level you are. Let one plan ship at eighty percent. When the urge to prepare rises, ask what it is protecting you from. | Too much fuel makes a fast, hungry fire. Finish one thing before you light the next, and let a new idea wait a week before it gets your evenings. Read less, build more. When the urge to gather rises, ask what it is about to set alight. |
+| Wood page, advice | Readiness is proven only in the open. Book the thing you have been training for, this month, at whatever level you are. Let one plan ship at eighty percent. When the urge to prepare rises, ask what it is protecting you from. | The cure for too much fuel is a smaller hearth. Pick the one project that gets your evenings this month and let the reading list wait. Keep a written list of what you are not doing, and read it whenever a new idea asks to go first. Sleep on anything that arrived after ten. |
 
 **丙 The Sun, strong · Wood 15% (present, the echo face)** · Overfueled. Gift doors: order=water present, expression=earth abundant, action=metal present. Shadow doors: body=fire abundant, mind=wood present.
 
 | Surface | Before | After |
 |---|---|---|
 | P4 shadow chips | Outshines everyone [body/excess] · Chokes on fuel [mind/echo] | Outshines everyone [body/excess] · Chases every idea [mind/echo] |
-| Chip description (Chases every idea) | Another book, another course, another person to learn from, and readiness keeps moving its own finish line. The fire is choking on the pile. | Another book, another course, another person worth learning from, and each one lights a new project before the last has burned down. The fire is spreading, not growing. |
+| Chip description (Chases every idea) | Another book, another course, another person to learn from, and readiness keeps moving its own finish line. The fire is choking on the pile. | Another book, another course, another person worth learning from, and each one starts something before the last one is done. The fire is spreading, not growing. |
 | Carry card, ease row | The light crowds out the sky. The woodpile buries the fire: fuel hoarded past burning, preparation stacked so high the flame never gets lit. | The light crowds out the sky. The fire outgrows its hearth: every branch thrown on at once, heat spent in a rush. |
 | Carry card, ease remedy | Stars are seen at night. Pull a branch off the pile and strike. | Stars are seen at night. Burn one pile at a time. |
-| Wood page, definition | As a friction, it is gathering as a way of postponing: one more certification, one more plan, readiness that keeps moving its own finish line. | As a friction, it is fuel arriving faster than you can burn it: every book starts a project, every conversation lights a plan, and the flame runs hotter and shorter with each new pile. |
+| Wood page, definition | As a friction, it is gathering as a way of postponing: one more certification, one more plan, readiness that keeps moving its own finish line. | As a friction, it is more fuel than one flame can use: courses, books, mentors, plans, all of it feeding a fire that burns hotter than it burns long. |
 | Wood page, turn | Run heavy, the woodpile buries the fire: fuel hoarded past burning, preparation stacked so high the flame never gets lit. Pull a branch off the pile and strike. | Run heavy, the fire outgrows its hearth: every branch thrown on at once, heat spent in a rush, ash by morning. Burn one pile at a time. |
-| Wood page, advice | Readiness is proven only in the open. Book the thing you have been training for, this month, at whatever level you are. Let one plan ship at eighty percent. When the urge to prepare rises, ask what it is protecting you from. | Too much fuel makes a fast, hungry fire. Finish one thing before you light the next, and let a new idea wait a week before it gets your evenings. Read less, build more. When the urge to gather rises, ask what it is about to set alight. |
+| Wood page, advice | Readiness is proven only in the open. Book the thing you have been training for, this month, at whatever level you are. Let one plan ship at eighty percent. When the urge to prepare rises, ask what it is protecting you from. | The cure for too much fuel is a smaller hearth. Pick the one project that gets your evenings this month and let the reading list wait. Keep a written list of what you are not doing, and read it whenever a new idea asks to go first. Sleep on anything that arrived after ten. |
 
 **丁 The Candle, strong · Wood 45% (dominant)** · Overfueled. Gift doors: order=water thin, action=metal thin, expression=earth thin. Shadow doors: body=fire abundant, mind=wood dominant.
 
 | Surface | Before | After |
 |---|---|---|
 | P4 shadow chips | Plays favorites [body/excess] · Smothered by plans [mind/excess] | unchanged |
-| Chip description (Smothered by plans) | So much fuel stacked around one small flame that it cannot catch. The best plan is under six others. | So much fuel around one small flame that it flares in every direction instead of lasting. Bright for an evening, out by morning, and the plan that mattered is ash beside the others. |
-| Carry card, ease row | The flame takes the whole table: so much light up close that nothing else at it is visible. Too much wood chokes the fire: fuel stacked past burning, the flame smothered by its own supply. | The flame takes the whole table: so much light up close that nothing else at it is visible. Too much wood feeds the fire past its task: every idea lights the next before one finishes. |
-| Carry card, ease remedy | Leave the far corners dark. Pull a branch off. Strike. | Leave the far corners dark. One fire. Finish it, then light the next. |
-| Wood page, definition | As a friction, it is gathering as a way of postponing: one more certification, one more plan, readiness that keeps moving its own finish line. | As a friction, it is fuel arriving faster than you can burn it: every book starts a project, every conversation lights a plan, and the flame runs hotter and shorter with each new pile. |
-| Wood page, turn | Too much wood chokes the fire: fuel stacked past burning, the flame smothered by its own supply. Pull a branch off. Strike. | Too much wood feeds the fire past its task: every idea lights the next before one finishes. One fire. Finish it, then light the next. |
-| Wood page, advice | Readiness is proven only in the open. Book the thing you have been training for, this month, at whatever level you are. Let one plan ship at eighty percent. When the urge to prepare rises, ask what it is protecting you from. | Too much fuel makes a fast, hungry fire. Finish one thing before you light the next, and let a new idea wait a week before it gets your evenings. Read less, build more. When the urge to gather rises, ask what it is about to set alight. |
+| Chip description (Smothered by plans) | So much fuel stacked around one small flame that it cannot catch. The best plan is under six others. | So much fuel around one small flame that it flares in every direction instead of lasting. Bright for an evening, cold by breakfast, and the plan that mattered went up with the rest. |
+| Carry card, ease row | The flame takes the whole table: so much light up close that nothing else at it is visible. Too much wood chokes the fire: fuel stacked past burning, the flame smothered by its own supply. | The flame takes the whole table: so much light up close that nothing else at it is visible. Too much wood feeds the fire past its task: a blaze that eats a season of fuel in a night. |
+| Carry card, ease remedy | Leave the far corners dark. Pull a branch off. Strike. | Leave the far corners dark. Bank the fire. Save half the wood. |
+| Wood page, definition | As a friction, it is gathering as a way of postponing: one more certification, one more plan, readiness that keeps moving its own finish line. | As a friction, it is more fuel than one flame can use: courses, books, mentors, plans, all of it feeding a fire that burns hotter than it burns long. |
+| Wood page, turn | Too much wood chokes the fire: fuel stacked past burning, the flame smothered by its own supply. Pull a branch off. Strike. | Too much wood feeds the fire past its task: a blaze that eats a season of fuel in a night. Bank the fire. Save half the wood. |
+| Wood page, advice | Readiness is proven only in the open. Book the thing you have been training for, this month, at whatever level you are. Let one plan ship at eighty percent. When the urge to prepare rises, ask what it is protecting you from. | The cure for too much fuel is a smaller hearth. Pick the one project that gets your evenings this month and let the reading list wait. Keep a written list of what you are not doing, and read it whenever a new idea asks to go first. Sleep on anything that arrived after ten. |
 
 **丁 The Candle, strong · Wood 15% (present)** · Overfueled. Gift doors: order=water present, expression=earth abundant, action=metal present. Shadow doors: body=fire abundant, mind=wood present.
 
 | Surface | Before | After |
 |---|---|---|
 | P4 shadow chips | Plays favorites [body/excess] · Never ready enough [mind/echo] | unchanged |
-| Chip description (Never ready enough) | One more course, one more plan, readiness that keeps moving its own finish line. The wick is ready. You are still gathering. | One more course, one more plan, and each new pile of fuel pulls the small flame off the last one. Ready keeps moving because you keep lighting the next thing. |
+| Chip description (Never ready enough) | One more course, one more plan, readiness that keeps moving its own finish line. The wick is ready. You are still gathering. | One more course, one more plan, and the small flame moves to whatever caught last. Ready keeps moving because you do. |
 | Carry card, ease row | The flame takes the whole table: so much light up close that nothing else at it is visible. The woodpile buries the fire: fuel hoarded past burning, preparation stacked so high the flame never gets lit. | The flame takes the whole table: so much light up close that nothing else at it is visible. The fire outgrows its hearth: every branch thrown on at once, heat spent in a rush. |
 | Carry card, ease remedy | Leave the far corners dark. Pull a branch off the pile and strike. | Leave the far corners dark. Burn one pile at a time. |
-| Wood page, definition | As a friction, it is gathering as a way of postponing: one more certification, one more plan, readiness that keeps moving its own finish line. | As a friction, it is fuel arriving faster than you can burn it: every book starts a project, every conversation lights a plan, and the flame runs hotter and shorter with each new pile. |
+| Wood page, definition | As a friction, it is gathering as a way of postponing: one more certification, one more plan, readiness that keeps moving its own finish line. | As a friction, it is more fuel than one flame can use: courses, books, mentors, plans, all of it feeding a fire that burns hotter than it burns long. |
 | Wood page, turn | Run heavy, the woodpile buries the fire: fuel hoarded past burning, preparation stacked so high the flame never gets lit. Pull a branch off the pile and strike. | Run heavy, the fire outgrows its hearth: every branch thrown on at once, heat spent in a rush, ash by morning. Burn one pile at a time. |
-| Wood page, advice | Readiness is proven only in the open. Book the thing you have been training for, this month, at whatever level you are. Let one plan ship at eighty percent. When the urge to prepare rises, ask what it is protecting you from. | Too much fuel makes a fast, hungry fire. Finish one thing before you light the next, and let a new idea wait a week before it gets your evenings. Read less, build more. When the urge to gather rises, ask what it is about to set alight. |
+| Wood page, advice | Readiness is proven only in the open. Book the thing you have been training for, this month, at whatever level you are. Let one plan ship at eighty percent. When the urge to prepare rises, ask what it is protecting you from. | The cure for too much fuel is a smaller hearth. Pick the one project that gets your evenings this month and let the reading list wait. Keep a written list of what you are not doing, and read it whenever a new idea asks to go first. Sleep on anything that arrived after ten. |
 
 **Golden chart 1995-04-29 18:00 Beijing · 庚 The Blade**
 
@@ -200,10 +200,10 @@ Why it is an improvement: the definition says the friction is chasing hot chance
 |---|---|---|
 | P4 shadow chips | Spread too thin [action/echo] · Pours into everyone [expression/echo] · Sinks under blame [order/echo] | unchanged |
 | Fire page, definition | As a friction, it is urgency pulling on a system that runs deep and slow: hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you. | unchanged |
-| Fire page, turn | Run heavy, the managing never stops: every bright thing dampened into strategy, no fire left just for warmth. Let one blaze run wild and enjoy it. | Run heavy, the water starts to boil: every bright chance chased, every quick pivot taken, each one costing more recovery than it returns. Let the next hot offer wait a week. |
+| Fire page, turn | Run heavy, the managing never stops: every bright thing dampened into strategy, no fire left just for warmth. Let one blaze run wild and enjoy it. | Run heavy, the water starts to boil: depth spent on every bright thing that flares, nothing left cool for the long game. Cool it overnight before you move. |
 | Fire page, advice | Your edge is patience, so defend it from excitement. Let two opportunities pass for every one you take. Take only what survives a week of waiting. Keep a cooling-off rule for anything urgent, because urgency is usually someone else’s deadline. | unchanged |
-| Carry card, ease row | The managing never stops: every bright thing dampened into strategy, no fire left just for warmth. The rain never closes: everything that stands still gets watered, depth drained into other people’s forests. The banks close in: current squeezed into a schedule until the water forgets it moves. | The water starts to boil: every bright chance chased, each one costing more recovery than it returns. The rain never closes: everything that stands still gets watered, depth drained into other people’s forests. The banks close in: current squeezed into a schedule until the water forgets it moves. |
-| Carry card, ease remedy | Let one blaze run wild and enjoy it. Rain is also allowed to rest. Rivers are meant to breathe. | Let the next hot offer wait a week. Rain is also allowed to rest. Rivers are meant to breathe. |
+| Carry card, ease row | The managing never stops: every bright thing dampened into strategy, no fire left just for warmth. The rain never closes: everything that stands still gets watered, depth drained into other people’s forests. The banks close in: current squeezed into a schedule until the water forgets it moves. | The water starts to boil: depth spent on every bright thing that flares, nothing left cool for the long game. The rain never closes: everything that stands still gets watered, depth drained into other people’s forests. The banks close in: current squeezed into a schedule until the water forgets it moves. |
+| Carry card, ease remedy | Let one blaze run wild and enjoy it. Rain is also allowed to rest. Rivers are meant to breathe. | Cool it overnight before you move. Rain is also allowed to rest. Rivers are meant to breathe. |
 
 
 ## D5 · 金_土 heavy turn and REA_04 wording stay
@@ -262,6 +262,48 @@ All ten:
 | 正官 | Framework-mediated pressure — the standard that steadies | Framework-mediated pressure, the standard that steadies |
 | 偏印 | Unconventional nourishment — insight that transmutes | Unconventional nourishment, the insight that transmutes |
 | 正印 | Nourishment that deepens without redirecting — the root that holds | Nourishment that deepens without redirecting, the root that holds |
+
+## Repetition check
+
+Rule (owner 2026-09-20): no phrase may repeat across the fields of one cell or the surfaces of one chart. Each field has its own job: the definition says what the friction is in life terms, the turn gives the elemental image of the state and one directive, the advice is the practical programme, the chip description is the moment a person recognises. The check below lists every four-word run shared between two different fields on the charts in this proof, before and after. The carry card clause and remedy are excluded because the 2026-09-15 carry law cuts them from the turn on purpose (see the note under D1).
+
+| Chart · energy | Before | After |
+|---|---|---|
+| 丙 The Sun, strong · Wood 45% (dominant, the excess flip) · Wood | none | none |
+| 丙 The Sun, strong · Wood 30% (abundant, the heavy turn) · Wood | Wood turn ↔ chip "Buried in ideas": "stacked so high the" / "so high the flame" / "high the flame never" / "the flame never gets" / "flame never gets lit" | none |
+| 丙 The Sun, strong · Wood 15% (present, the echo face) · Wood | Wood definition ↔ chip "Chokes on fuel": "keeps moving its own" / "moving its own finish" / "its own finish line" | none |
+| 丁 The Candle, strong · Wood 45% (dominant) · Wood | none | none |
+| 丁 The Candle, strong · Wood 15% (present) · Wood | Wood definition ↔ chip "Never ready enough": "one more plan readiness" / "more plan readiness that" / "plan readiness that keeps" / "readiness that keeps moving" / "that keeps moving its" / "keeps moving its own" / "moving its own finish" / "its own finish line" | none |
+| 壬 The Ocean, weak · Fire 30% (Action, abundant friction) · Fire | Fire definition ↔ chip "Spread too thin": "hot chances chased quick" / "chances chased quick pivots" / "chased quick pivots made" / "quick pivots made each" / "pivots made each one" / "made each one costing" / "each one costing more" / "one costing more recovery" / "costing more recovery than" / "more recovery than it" / "recovery than it returns" / "than it returns fast" / "it returns fast money" / "returns fast money is" / "fast money is expensive" / "money is expensive for" / "is expensive for you" | Fire definition ↔ chip "Spread too thin": "hot chances chased quick" / "chances chased quick pivots" / "chased quick pivots made" / "quick pivots made each" / "pivots made each one" / "made each one costing" / "each one costing more" / "one costing more recovery" / "costing more recovery than" / "more recovery than it" / "recovery than it returns" / "than it returns fast" / "it returns fast money" / "returns fast money is" / "fast money is expensive" / "money is expensive for" / "is expensive for you" |
+| Golden chart 1995-04-29 18:00 Beijing · 庚 The Blade · Wood | Wood definition ↔ chip "Trims for growth": "you plant and keep" / "back with interest because" | Wood definition ↔ chip "Trims for growth": "you plant and keep" / "back with interest because" |
+| Golden chart 1995-04-29 18:00 Beijing · 庚 The Blade · Earth | none | none |
+| 丁 The Candle, weak · Wood 30 / Fire 15 / Earth 5 / Metal 10 / Water 40 · Wood | none | none |
+
+
+## Existing repetition inventory (before any ruling)
+
+The same four-word check run over the whole corpus as it ships today. **65 of the 140 chip descriptions repeat a run of their own source definition** (61 echo faces, 4 excess faces), so whenever such a chip shows, the person reads the same words on P4 and again in the definition on that energy's page. By stem: 庚 8 · 丙 6 · 壬 8 · 戊 8 · 甲 6 · 己 7 · 丁 6 · 癸 6 · 辛 7 · 乙 3. On the golden chart: *Trims for growth* (2 runs), *Never looks tired* (3), *No dressed-up answers* (4), *Plans, never acts* (3), *Tense all over* (1), and the two heaviest in the 庚 pool, *Busy, nothing finished* (18) and *No filter* (10).
+
+Worst twelve across the corpus:
+
+| Stem | Chip | Source | Shared runs | Example |
+|---|---|---|---|---|
+| 庚 | Busy, nothing finished [action/echo] | 金_木.function.definition_friction | 18 | "effort goes wherever the" |
+| 丙 | Own harshest judge [order/echo] | 火_水.function.definition_friction | 17 | "every plan reviewed until" |
+| 壬 | Spread too thin [action/echo] | 水_火.function.definition_friction | 17 | "hot chances chased quick" |
+| 戊 | Sinks into routine [body/echo] | 土_土.function.definition_friction | 16 | "heaviness accumulating routines hardened" |
+| 戊 | Drained by deadlines [expression/echo] | 土_金.function.definition_friction | 15 | "more deliverables more opinions" |
+| 甲 | Never good enough [order/echo] | 木_金.function.definition_friction | 14 | "every rule met every" |
+| 己 | Few words, exact [expression/echo] | 土_金.function.definition_catalyst | 13 | "you speak rarely and" |
+| 壬 | Pours into everyone [expression/echo] | 水_木.function.definition_friction | 13 | "every person developed every" |
+| 戊 | Manages everything [action/echo] | 土_水.function.definition_friction | 13 | "accounts checked daily opportunities" |
+| 戊 | Carries the family [order/echo] | 土_木.function.definition_catalyst | 12 | "grow back each season" |
+| 戊 | Never forgives itself [order/echo] | 土_木.function.definition_friction | 12 | "everyone rooted in you" |
+| 壬 | Rest stops working [body/echo] | 水_水.function.definition_friction | 11 | "stillness pooling into stagnation" |
+
+Inside the 25 pair cells the only systematic overlap is the templated opening of the two definitions ("Wood is your Mind, and as a…"), which never show together on one chart. Five other single-run overlaps exist (土_木 definition ↔ spared line, 木_火 advice ↔ missing and spared lines, 水_木 definition ↔ friction turn and carry). They go into the same batch.
+
+Proposed execution item (lane C3): re-cut the 65 descriptions so each is the recognisable moment, not a paraphrase of the definition it echoes, and fix the five cell overlaps. Shown as a batch before landing. Proposed gate: the voice audit gains this four-word check between a chip and its source and between the fields of a cell, with the carry law's clause and remedy as the only allowed match.
 
 ## Not shown here
 
