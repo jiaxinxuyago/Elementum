@@ -278,3 +278,27 @@ Then 丙 *Buried in ideas* would become something like *Too many fires* and 丁 
 - No global "can / when / if" prefixing; keep the three doors and the direct portraits.
 - No removal of ordinary scenes, objects or clock-time.
 - No change to the dominance wheel, the 40% house thresholds or the abundant-tier excess face.
+
+---
+
+## 6. Owner rulings, 2026-09-20
+
+Taken one by one with a before-and-after rendering on the golden chart (1995-04-29 18:00 Beijing, 庚 The Blade, Overfueled, Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5) or, where that chart does not exercise the decision, on the nearest chart that does. Nothing has been applied yet.
+
+| # | Ruling | What changes at execution | Golden chart |
+|---|---|---|---|
+| D1 | 木多火炽 is read literally: too much fuel makes the fire blaze past its task. | REA_04 line 387 gloss and the "intake that smothers" header; `火_木` definition_friction, advise_friction, mechanism.friction_turn, carry.friction, carry.excess, carry.spared; 丙 Mind echo label *Chokes on fuel* → *Chases every idea*. The labels *Buried in ideas*, *Never ready enough* and *Smothered by plans* stay; only their descriptions move to the new mechanism. | unchanged (Metal core) |
+| D1 rule | **Phrase law v6:** a chip names the symptom, the lived pattern the person recognises. Never a prescription, never a bare image without the symptom. | REA_16 §7 | n/a |
+| D1 rule | Previews and carry-card copy carry no signs (arrows and the like). The card renders clause and remedy as two plain lines. | preview method; a sweep of content modules for stray signs | n/a |
+| D2 | One chip per open door. Body and Mind, when they are the only open door, keep both faces (17.4% of charts, unchanged). Order, Action and Expression single doors show one chip and never borrow from Body (8.1% of charts go from two shadows to one). With no open door the shadow side hides entirely (11 charts in 33,604). Balanced baseline 3+3 unchanged. | `resolveVariant.js` selectPoolByDoor: explicit Balanced mode, no cross-door floor; `ReadingDayMasterCard.jsx` hides an empty side; pool note gains One and Two. | unchanged (3 + 2) |
+| D3 | The core stays exempt from the 40% flip. No code change and no dictionary change. | none | unchanged |
+| D4 | "the widest door" → "a wide door" in all 25 `carry.wide` clauses and the yin variants. Each wide line gets a remedy (≤12 words ×25), drafted as a batch for owner review before landing. The energy page routes a wanted abundant or dominant energy to the wide clause plus its remedy (the B10 fix). | `ELEMENT_PAIR/*.json` carry.wide, carry_yin.wide; `journeyData.js` stateTurn | Wood page turn: "Wood is a wide door, the material the knife is for. Cut what is already in front of you. Finish it." replaces "Run thin, the knife has nothing to prune…" |
+| D5 | Leave both: the `金_土` friction turn keeps "Comfort begins to bury what it formed" and REA_04 line 393 keeps its wording. The 三命通会 citation could not be checked (proxy blocks the sources). | none | unchanged |
+| D6 | REA_02 §2 owns "nourishment that deepens without redirecting" (The Sage). REA_04 lines 339, 734 and 1319-1320 get a reconciliation note. | REA_04 notes | unchanged |
+| D8 | God definition lines join with a comma, no dash: "Unconventional nourishment, the insight that transmutes." Ten lines. | REA_02 §2, `GOD/*.json` definition_line, `TG_DEFLINE` in code | Earth page Alchemist line |
+| D7 | 辛 concentrated nature: "Releasing is the hard part. You still see the flaw after the work is ready to leave." 乙 open nature: "The winding costs more in this season, so you pick your walls with care." 戊 inscription and 癸 lines stay. | `STEM_BAND/xin_concentrated.json`, `yi_open.json` (+ `stemVariants.js`) | unchanged |
+| B3 | `水_火` heavy turn approved: "Run heavy, the water starts to boil: every bright chance chased, every quick pivot taken, each one costing more recovery than it returns. Let the next hot offer wait a week." Carry clause and remedy cut from it. | `ELEMENT_PAIR/水_火.json` | unchanged |
+
+Scan behind D2 (33,604 charts, 1960 to 2005, two hours per day): shadow doors open none 0.03%, one 25.5%, two 58.4%, three or four 15.9%, Balanced 0.08%. Of the one-door charts, 17.4% of all charts are Body or Mind (second face shown), 8.1% are Order, Action or Expression (second chip borrowed from Body today). Gift doors open: one 1.0%, two 56.4%, three 42.6%.
+
+Still to be shown as candidate batches during execution, under the same before-and-after method: the 25 wide remedies (D4), the four D1 descriptions, the eight consequential-claim passages (lane C1), the three echo-chain items (lane C2), and the documentation edits (lane B).
