@@ -302,3 +302,11 @@ Taken one by one with a before-and-after rendering on the golden chart (1995-04-
 Scan behind D2 (33,604 charts, 1960 to 2005, two hours per day): shadow doors open none 0.03%, one 25.5%, two 58.4%, three or four 15.9%, Balanced 0.08%. Of the one-door charts, 17.4% of all charts are Body or Mind (second face shown), 8.1% are Order, Action or Expression (second chip borrowed from Body today). Gift doors open: one 1.0%, two 56.4%, three 42.6%.
 
 Still to be shown as candidate batches during execution, under the same before-and-after method: the 25 wide remedies (D4), the four D1 descriptions, the eight consequential-claim passages (lane C1), the three echo-chain items (lane C2), and the documentation edits (lane B).
+
+### 6a. Rulings added after the proof review (2026-09-20, later)
+
+| # | Ruling | What changes at execution |
+|---|---|---|
+| R-rep | **No phrase repeats across the fields of one cell or the surfaces of one chart.** Each field keeps its own job: definition (what the friction or gift is, in life terms), turn (elemental image of the state plus one directive), advice (the practical programme), chip description (the moment a person recognises). Mechanical check: no shared four-word run, stop-word-only runs ignored. | REA_16 §7 (phrase law v6 gains the field-angle rule); `tools/voice-audit.mjs` gains the four-word check chip-vs-source and field-vs-field. The D1 and B3 drafts were redrafted under it (RULINGS_PROOF_2026-09-20.md). |
+| R-carry | The 2026-09-15 carry law stands: the carry card clause and remedy are the turn's cut and are the one allowed match between surfaces. | none (the audit whitelists carry ↔ turn and yin ↔ yang) |
+| C3 | Re-cut the 65 chip descriptions that copy runs of their source definition (61 echo faces, 4 excess faces; seven on the golden chart's 庚 pool) plus the five single overlaps inside 土_木, 木_火 and 水_木. Labels and `echo_of` links stay. Shown as a reviewed before-and-after batch before landing. | `STEM/*.json` descs; three `ELEMENT_PAIR` cells |
