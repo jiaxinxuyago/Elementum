@@ -50,7 +50,7 @@
             "remedy": "Vines also need sun."
           },
           "wide": {
-            "clause": "Water is the widest door, the rain the whole vine drinks from."
+            "clause": "Water is a wide door, the rain the whole vine drinks from."
           }
         }
       },
@@ -94,7 +94,7 @@
             "clause": "The mining never stops: everything minted, the topsoil stripped for output."
           },
           "wide": {
-            "clause": "Metal is the widest door, the ore your soil was keeping."
+            "clause": "Metal is a wide door, the ore your soil was keeping."
           }
         }
       },
@@ -111,7 +111,7 @@
             "remedy": "Cut fewer stones, and finish them."
           },
           "wide": {
-            "clause": "Wood is the widest door, the material the wheel is for."
+            "clause": "Wood is a wide door, the material the wheel is for."
           }
         }
       },
@@ -128,7 +128,7 @@
             "remedy": "Step off the wheel long enough to keep a facet."
           },
           "wide": {
-            "clause": "Fire is the widest door, the fire that finishes the stone."
+            "clause": "Fire is a wide door, the fire that finishes the stone."
           }
         }
       },
@@ -175,7 +175,7 @@
             "remedy": "Writing, speaking, sharing work early lets the stone breathe."
           },
           "wide": {
-            "clause": "Water is the widest door, the channel that lets the stone breathe."
+            "clause": "Water is a wide door, the channel that lets the stone breathe."
           }
         }
       },
@@ -192,7 +192,7 @@
             "remedy": "Rain is meant to wander."
           },
           "wide": {
-            "clause": "Earth is the widest door, the ground that turns rain into a harvest."
+            "clause": "Earth is a wide door, the ground that turns rain into a harvest."
           }
         }
       },
@@ -209,7 +209,7 @@
             "remedy": "Rain proves itself by falling."
           },
           "wide": {
-            "clause": "Metal is the widest door, the cold air that gathers the rain."
+            "clause": "Metal is a wide door, the cold air that gathers the rain."
           }
         }
       },

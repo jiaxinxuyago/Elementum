@@ -18,7 +18,7 @@
 |---|---|
 | `persona_name` | The Artisan |
 | `domains` | Expression · Enjoyment · Children |
-| `definition_line` | Output that flows from you — giving that feels like being |
+| `definition_line` | Output that flows from you, giving that feels like being |
 | `keyword` | Flow |
 | `charge` | gentle |
 | `pole_catalyst` | Grace |
@@ -69,3 +69,4 @@
 | `domainSignatures.health.mechanism` | 食神 → invisible depletion, DM element bears the output load |
 | `domainSignatures.health.text` | 食神过旺 produces genuine physical depletion that arrives without warning because the cost was invisible at every intermediate stage. Restoration requires genuine rest, not just reduced output. |
 | `sixRelations` | *(unauthored)* |
+| `retired_2026-09-20_evaluation_rulings.definition_line` | Output that flows from you — giving that feels like being |

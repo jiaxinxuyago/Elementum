@@ -80,18 +80,18 @@
 | `shadows[1].face` | excess |
 | `shadows[1].echo_of` | 火_火.carry.excess |
 | `shadows[1].desc` | So much light that nothing else in the sky is visible, including the people you were warming. |
-| `shadows[2].phrase` | Chokes on fuel |
-| `shadows[2].dim` | taking on more |
+| `shadows[2].phrase` | Chases every idea |
+| `shadows[2].dim` | starting |
 | `shadows[2].door` | mind |
 | `shadows[2].face` | echo |
 | `shadows[2].echo_of` | 火_木.function.definition_friction |
-| `shadows[2].desc` | Another book, another course, another person to learn from, and readiness keeps moving its own finish line. The fire is choking on the pile. |
+| `shadows[2].desc` | Another book, another course, another person worth learning from, and each one starts something before the last one is done. The fire is spreading, not growing. |
 | `shadows[3].phrase` | Buried in ideas |
 | `shadows[3].dim` | too many plans |
 | `shadows[3].door` | mind |
 | `shadows[3].face` | excess |
 | `shadows[3].echo_of` | 火_木.carry.excess |
-| `shadows[3].desc` | Fuel stacked so high the flame never gets lit. So much to burn that nothing catches, and the best plan is under six others. |
+| `shadows[3].desc` | So many ideas going at the same time that you cannot see the one that matters. Each new plan lands on top of the last, and the best one is somewhere underneath, still smoking. |
 | `shadows[4].phrase` | Formalizes everything |
 | `shadows[4].dim` | quiet moments |
 | `shadows[4].door` | expression |
@@ -291,3 +291,15 @@
 | `retired_inner_judge_2026-09-17[0].echo_of` | 火_水.function.definition_friction |
 | `retired_inner_judge_2026-09-17[0].desc` | Every plan reviewed until the moment passes, every spark second-guessed into a maybe. The checking now costs more than the mistakes would. |
 | `retired_inner_judge_2026-09-17[0].why` | owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition |
+| `retired_2026-09-20_evaluation_rulings.shadows.Chokes on fuel.phrase` | Chokes on fuel |
+| `retired_2026-09-20_evaluation_rulings.shadows.Chokes on fuel.dim` | taking on more |
+| `retired_2026-09-20_evaluation_rulings.shadows.Chokes on fuel.door` | mind |
+| `retired_2026-09-20_evaluation_rulings.shadows.Chokes on fuel.face` | echo |
+| `retired_2026-09-20_evaluation_rulings.shadows.Chokes on fuel.echo_of` | 火_木.function.definition_friction |
+| `retired_2026-09-20_evaluation_rulings.shadows.Chokes on fuel.desc` | Another book, another course, another person to learn from, and readiness keeps moving its own finish line. The fire is choking on the pile. |
+| `retired_2026-09-20_evaluation_rulings.shadows.Buried in ideas.phrase` | Buried in ideas |
+| `retired_2026-09-20_evaluation_rulings.shadows.Buried in ideas.dim` | too many plans |
+| `retired_2026-09-20_evaluation_rulings.shadows.Buried in ideas.door` | mind |
+| `retired_2026-09-20_evaluation_rulings.shadows.Buried in ideas.face` | excess |
+| `retired_2026-09-20_evaluation_rulings.shadows.Buried in ideas.echo_of` | 火_木.carry.excess |
+| `retired_2026-09-20_evaluation_rulings.shadows.Buried in ideas.desc` | Fuel stacked so high the flame never gets lit. So much to burn that nothing catches, and the best plan is under six others. |

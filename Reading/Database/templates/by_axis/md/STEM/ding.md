@@ -85,13 +85,13 @@
 | `shadows[2].door` | mind |
 | `shadows[2].face` | echo |
 | `shadows[2].echo_of` | 火_木.function.definition_friction |
-| `shadows[2].desc` | One more course, one more plan, readiness that keeps moving its own finish line. The wick is ready. You are still gathering. |
+| `shadows[2].desc` | One more course, one more plan, and the small flame moves to whatever caught last. Ready keeps moving because you do. |
 | `shadows[3].phrase` | Smothered by plans |
 | `shadows[3].dim` | too many plans |
 | `shadows[3].door` | mind |
 | `shadows[3].face` | excess |
 | `shadows[3].echo_of` | 火_木.carry.excess |
-| `shadows[3].desc` | So much fuel stacked around one small flame that it cannot catch. The best plan is under six others. |
+| `shadows[3].desc` | So much fuel around one small flame that it flares in every direction instead of lasting. Bright for an evening, cold by breakfast, and the plan that mattered went up with the rest. |
 | `shadows[4].phrase` | Makes it permanent |
 | `shadows[4].dim` | moments |
 | `shadows[4].door` | expression |
@@ -266,3 +266,15 @@
 | `retired_inner_judge_2026-09-17[0].echo_of` | 火_水.function.definition_friction |
 | `retired_inner_judge_2026-09-17[0].desc` | Every plan reviewed until the moment passes, every small light second-guessed into a maybe. The checking costs more than the mistake would. |
 | `retired_inner_judge_2026-09-17[0].why` | owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition |
+| `retired_2026-09-20_evaluation_rulings.shadows.Never ready enough.phrase` | Never ready enough |
+| `retired_2026-09-20_evaluation_rulings.shadows.Never ready enough.dim` | preparation |
+| `retired_2026-09-20_evaluation_rulings.shadows.Never ready enough.door` | mind |
+| `retired_2026-09-20_evaluation_rulings.shadows.Never ready enough.face` | echo |
+| `retired_2026-09-20_evaluation_rulings.shadows.Never ready enough.echo_of` | 火_木.function.definition_friction |
+| `retired_2026-09-20_evaluation_rulings.shadows.Never ready enough.desc` | One more course, one more plan, readiness that keeps moving its own finish line. The wick is ready. You are still gathering. |
+| `retired_2026-09-20_evaluation_rulings.shadows.Smothered by plans.phrase` | Smothered by plans |
+| `retired_2026-09-20_evaluation_rulings.shadows.Smothered by plans.dim` | too many plans |
+| `retired_2026-09-20_evaluation_rulings.shadows.Smothered by plans.door` | mind |
+| `retired_2026-09-20_evaluation_rulings.shadows.Smothered by plans.face` | excess |
+| `retired_2026-09-20_evaluation_rulings.shadows.Smothered by plans.echo_of` | 火_木.carry.excess |
+| `retired_2026-09-20_evaluation_rulings.shadows.Smothered by plans.desc` | So much fuel stacked around one small flame that it cannot catch. The best plan is under six others. |

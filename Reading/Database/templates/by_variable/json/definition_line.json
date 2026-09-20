@@ -7,61 +7,61 @@
         "id": "bijian",
         "key": "比肩",
         "canonical_name": "The Twin",
-        "value": "Same nature, same register — the standard you hold yourself to"
+        "value": "Same nature, same register, the standard you hold yourself to"
       },
       {
         "id": "jiecai",
         "key": "劫财",
         "canonical_name": "The Rival",
-        "value": "Same nature, different register — the edge of comparison"
+        "value": "Same nature, different register, the edge of comparison"
       },
       {
         "id": "shishen",
         "key": "食神",
         "canonical_name": "The Artisan",
-        "value": "Output that flows from you — giving that feels like being"
+        "value": "Output that flows from you, giving that feels like being"
       },
       {
         "id": "shangguan",
         "key": "伤官",
         "canonical_name": "The Virtuoso",
-        "value": "Cross-current output — brilliance made of what it meets"
+        "value": "Cross-current output, brilliance made of what it meets"
       },
       {
         "id": "piancai",
         "key": "偏财",
         "canonical_name": "The Horizon",
-        "value": "Wide-ranging engagement — opportunity sensed at a distance"
+        "value": "Wide-ranging engagement, opportunity sensed at a distance"
       },
       {
         "id": "zhengcai",
         "key": "正财",
         "canonical_name": "The Steward",
-        "value": "Methodical, directed acquisition — value built and kept"
+        "value": "Methodical, directed acquisition, the value built and kept"
       },
       {
         "id": "qisha",
         "key": "七杀",
         "canonical_name": "The General",
-        "value": "Pressure that doesn't grant permission — the trial that forges"
+        "value": "Pressure that doesn't grant permission, the trial that forges"
       },
       {
         "id": "zhengguan",
         "key": "正官",
         "canonical_name": "The Magistrate",
-        "value": "Framework-mediated pressure — the standard that steadies"
+        "value": "Framework-mediated pressure, the standard that steadies"
       },
       {
         "id": "pianyin",
         "key": "偏印",
         "canonical_name": "The Alchemist",
-        "value": "Unconventional nourishment — insight that transmutes"
+        "value": "Unconventional nourishment, the insight that transmutes"
       },
       {
         "id": "zhengyin",
         "key": "正印",
         "canonical_name": "The Sage",
-        "value": "Nourishment that deepens without redirecting — the root that holds"
+        "value": "Nourishment that deepens without redirecting, the root that holds"
       }
     ]
   }

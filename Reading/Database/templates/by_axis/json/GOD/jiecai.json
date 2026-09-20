@@ -19,7 +19,7 @@
       "Shared stakes",
       "Boldness"
     ],
-    "definition_line": "Same nature, different register — the edge of comparison",
+    "definition_line": "Same nature, different register, the edge of comparison",
     "keyword": "Rivalry",
     "charge": "fierce",
     "pole_catalyst": "Daring",
@@ -120,7 +120,10 @@
           "text": "Competitive orientation produces overperformance relative to the body's actual capacity — pushing past physical limits to match or exceed a rival. The self-monitoring calibrates to the external reference rather than internal signals."
         }
       },
-      "sixRelations": null
+      "sixRelations": null,
+      "retired_2026-09-20_evaluation_rulings": {
+        "definition_line": "Same nature, different register — the edge of comparison"
+      }
     }
   }
 }

@@ -322,8 +322,8 @@ There's also a specific interpersonal cost: people who care about you often feel
     shadows: [
       { phrase: `Can't switch off`, door: 'body', face: 'echo', desc: `More heat than your days can spend. Sleep will not come, intensity leaks into every conversation, and rest feels like a punishment.` },
       { phrase: `Outshines everyone`, door: 'body', face: 'excess', desc: `So much light that nothing else in the sky is visible, including the people you were warming.` },
-      { phrase: `Chokes on fuel`, door: 'mind', face: 'echo', desc: `Another book, another course, another person to learn from, and readiness keeps moving its own finish line. The fire is choking on the pile.` },
-      { phrase: `Buried in ideas`, door: 'mind', face: 'excess', desc: `Fuel stacked so high the flame never gets lit. So much to burn that nothing catches, and the best plan is under six others.` },
+      { phrase: `Chases every idea`, door: 'mind', face: 'echo', desc: `Another book, another course, another person worth learning from, and each one starts something before the last one is done. The fire is spreading, not growing.` },
+      { phrase: `Buried in ideas`, door: 'mind', face: 'excess', desc: `So many ideas going at the same time that you cannot see the one that matters. Each new plan lands on top of the last, and the best one is somewhere underneath, still smoking.` },
       { phrase: `Formalizes everything`, door: 'expression', face: 'echo', desc: `Every idea becomes a project and every project becomes permanent. The output hardens while the light behind it thins.` },
       { phrase: `Reopens settled things`, door: 'action', face: 'echo', desc: `Signed, shipped, agreed, and you are back at the table warming it up again. Nothing is allowed to cool and stay settled.` },
       { phrase: `Own harshest judge`, door: 'order', face: 'echo', desc: `Every plan reviewed until the moment passes, every spark second-guessed into a maybe, and the hardest judge of the flame is you.` },
@@ -439,8 +439,8 @@ There's also a specific interpersonal cost: people who care about you often feel
     shadows: [
       { phrase: `Can't cool down`, door: 'body', face: 'echo', desc: `More heat than your days can spend. Sleep will not come, and the intensity leaks into every conversation until rest feels like punishment.` },
       { phrase: `Plays favorites`, door: 'body', face: 'excess', desc: `Whoever holds your focus gets daylight and everyone else gets dusk. So much light on one spot that nothing else is visible, and some people mind.` },
-      { phrase: `Never ready enough`, door: 'mind', face: 'echo', desc: `One more course, one more plan, readiness that keeps moving its own finish line. The wick is ready. You are still gathering.` },
-      { phrase: `Smothered by plans`, door: 'mind', face: 'excess', desc: `So much fuel stacked around one small flame that it cannot catch. The best plan is under six others.` },
+      { phrase: `Never ready enough`, door: 'mind', face: 'echo', desc: `One more course, one more plan, and the small flame moves to whatever caught last. Ready keeps moving because you do.` },
+      { phrase: `Smothered by plans`, door: 'mind', face: 'excess', desc: `So much fuel around one small flame that it flares in every direction instead of lasting. Bright for an evening, cold by breakfast, and the plan that mattered went up with the rest.` },
       { phrase: `Makes it permanent`, door: 'expression', face: 'echo', desc: `The evening that should have been an evening becomes a tradition, a plan, a commitment. Output hardens faster than it can live.` },
       { phrase: `Keeps reworking it`, door: 'action', face: 'echo', desc: `Signed, shipped, agreed, and you are back at it with a smaller brush. Done is a decision you keep reopening.` },
       { phrase: `Takes it personally`, door: 'order', face: 'echo', desc: `A criticism of the work lands as a criticism of your soul, every time. The checking costs more than the mistake would, and the hardest judge of the flame is you.` },

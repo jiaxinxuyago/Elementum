@@ -18,7 +18,7 @@
 |---|---|
 | `persona_name` | The General |
 | `domains` | Pressure · Command · Crisis |
-| `definition_line` | Pressure that doesn't grant permission — the trial that forges |
+| `definition_line` | Pressure that doesn't grant permission, the trial that forges |
 | `keyword` | Force |
 | `charge` | fierce |
 | `pole_catalyst` | Command |
@@ -71,3 +71,4 @@
 | `domainSignatures.health.mechanism` | 七杀 → chronic high-pressure operation, DM element depleted by adversarial force |
 | `domainSignatures.health.text` | The body bears the cost of sustained adversarial operation. Even when external pressure subsides, the internal system calibrated for it doesn't easily downregulate. |
 | `sixRelations` | *(unauthored)* |
+| `retired_2026-09-20_evaluation_rulings.definition_line` | Pressure that doesn't grant permission — the trial that forges |

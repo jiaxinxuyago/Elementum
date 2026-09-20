@@ -38,7 +38,7 @@
         "remedy": "Your silence is part of the deposit."
       },
       "wide": {
-        "clause": "Metal is the widest door, the ore your mountain was keeping."
+        "clause": "Metal is a wide door, the ore your mountain was keeping."
       },
       "missing": {
         "clause": "The ore stays buried: patience that never mints anything.",
@@ -62,7 +62,7 @@
         "clause": "The mining never stops: everything minted, the topsoil stripped for output."
       },
       "wide": {
-        "clause": "Metal is the widest door, the ore your soil was keeping."
+        "clause": "Metal is a wide door, the ore your soil was keeping."
       }
     },
     "mechanism_yin": {

@@ -68,7 +68,7 @@ export const STEM_VARIANTS = {
   },
   '乙_open': {
     yourNature: {
-      desc: `You keep the vine's gift of finding windows, even in seasons when you knock on fewer doors. The winding takes more out of you than it used to, so you pick your walls with care now. Nothing about that is retreat. A climber who chooses the wall is simply done wasting green on stone that won't hold it.`,
+      desc: `You keep the vine's gift of finding windows, even in seasons when you knock on fewer doors. The winding costs more in this season, so you pick your walls with care. Nothing about that is retreat. A climber who chooses the wall is simply done wasting green on stone that won't hold it.`,
     },
     selfCard: {
       face: `The winding rests between walls`,
@@ -224,7 +224,7 @@ export const STEM_VARIANTS = {
   // ── 辛 ──
   '辛_concentrated': {
     yourNature: {
-      desc: `You are the gem still under the wheel, and the hand that holds it, and the eye that isn't satisfied. The standard grades everything all day, itself included. What you release is flawless because releasing is the hard part. The polish never really stops. It just changes what it's working on when the desk finally clears.`,
+      desc: `You are the gem still under the wheel, and the hand that holds it, and the eye that isn't satisfied. The standard grades everything all day, itself included. Releasing is the hard part. You still see the flaw after the work is ready to leave. The polish never really stops. It just changes what it's working on when the desk finally clears.`,
     },
     selfCard: {
       face: `Polish that never clocks out`,

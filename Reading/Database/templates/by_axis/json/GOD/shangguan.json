@@ -19,7 +19,7 @@
       "Performance",
       "Defiance"
     ],
-    "definition_line": "Cross-current output — brilliance made of what it meets",
+    "definition_line": "Cross-current output, brilliance made of what it meets",
     "keyword": "Brilliance",
     "charge": "fierce",
     "pole_catalyst": "Spark",
@@ -120,7 +120,10 @@
           "text": "When the output has nowhere to land, the friction turns inward. The body bears the cost of sustained structural tension between what is produced and what the environment can receive."
         }
       },
-      "sixRelations": null
+      "sixRelations": null,
+      "retired_2026-09-20_evaluation_rulings": {
+        "definition_line": "Cross-current output — brilliance made of what it meets"
+      }
     }
   }
 }

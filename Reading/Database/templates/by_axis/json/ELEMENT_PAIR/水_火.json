@@ -16,7 +16,7 @@
       "classic": "眾勝寡，故水勝火",
       "base": "The many prevail over the few, and so water governs fire: the rain decides which flames continue, the river decides where the burning stops. Fire is brilliant and outnumbered. Depth arrives without hurry, spends nothing it cannot spare, and the blaze that seemed unstoppable at midnight is steam by morning.",
       "catalyst_turn": "Run thin, nothing bright is governed: depth with no stake in the blaze, wisdom watching value burn past. Your chart asks you to claim heat. Step toward the bright loud thing.",
-      "friction_turn": "Run heavy, the managing never stops: every bright thing dampened into strategy, no fire left just for warmth. Let one blaze run wild and enjoy it."
+      "friction_turn": "Run heavy, the water starts to boil: depth spent on every bright flare, nothing left cool for the long game. Cool it overnight before you move."
     },
     "function": {
       "primary": "action",
@@ -32,11 +32,11 @@
         "remedy": "Step toward the bright loud thing."
       },
       "friction": {
-        "clause": "The managing never stops: every bright thing dampened into strategy, no fire left just for warmth.",
-        "remedy": "Let one blaze run wild and enjoy it."
+        "clause": "The water starts to boil: depth spent on every bright flare, nothing left cool for the long game.",
+        "remedy": "Cool it overnight before you move."
       },
       "wide": {
-        "clause": "Fire is the widest door, the bright thing your depth should claim."
+        "clause": "Fire is a wide door, the bright thing your depth should claim."
       },
       "missing": {
         "clause": "Nothing bright is governed: depth with no stake in the blaze.",
@@ -53,6 +53,15 @@
       "excess": {
         "clause": "Too much fire heats the water: more bright chances than the depth can cool, boiled off by urgency.",
         "remedy": "Step back from the blaze. Add metal."
+      }
+    },
+    "__ore": {
+      "retired_2026-09-20_evaluation_rulings": {
+        "mechanism.friction_turn": "Run heavy, the managing never stops: every bright thing dampened into strategy, no fire left just for warmth. Let one blaze run wild and enjoy it.",
+        "carry.friction": {
+          "clause": "The managing never stops: every bright thing dampened into strategy, no fire left just for warmth.",
+          "remedy": "Let one blaze run wild and enjoy it."
+        }
       }
     }
   },

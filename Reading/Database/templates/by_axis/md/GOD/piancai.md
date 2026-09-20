@@ -18,7 +18,7 @@
 |---|---|
 | `persona_name` | The Horizon |
 | `domains` | Opportunity · Ventures · Father |
-| `definition_line` | Wide-ranging engagement — opportunity sensed at a distance |
+| `definition_line` | Wide-ranging engagement, opportunity sensed at a distance |
 | `keyword` | Reach |
 | `charge` | dynamic |
 | `pole_catalyst` | Momentum |
@@ -71,3 +71,4 @@
 | `domainSignatures.health.mechanism` | 偏财 → breadth depletes, rest deprioritized, paternal lineage |
 | `domainSignatures.health.text` | Involvement in so many things makes genuine rest genuinely rare. The body's signals for slowing down tend to be treated as opportunities for new engagement. Classically relates to the father and paternal lineage in health pattern transmission. |
 | `sixRelations` | *(unauthored)* |
+| `retired_2026-09-20_evaluation_rulings.definition_line` | Wide-ranging engagement — opportunity sensed at a distance |

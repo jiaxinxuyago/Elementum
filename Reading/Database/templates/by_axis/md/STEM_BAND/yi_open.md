@@ -16,6 +16,12 @@
 
 | Variable | Value |
 |---|---|
-| `yourNature_desc` | You keep the vine's gift of finding windows, even in seasons when you knock on fewer doors. The winding takes more out of you than it used to, so you pick your walls with care now. Nothing about that is retreat. A climber who chooses the wall is simply done wasting green on stone that won't hold it. |
+| `yourNature_desc` | You keep the vine's gift of finding windows, even in seasons when you knock on fewer doors. The winding costs more in this season, so you pick your walls with care. Nothing about that is retreat. A climber who chooses the wall is simply done wasting green on stone that won't hold it. |
 | `self_card.face` | The winding rests between walls |
 | `self_card.presence` | You still find the way around, just not every day. Some walls get climbed next month, and the vine loses nothing by waiting. |
+
+## Ore (legacy corpus — mining material, fate pending rulings)
+
+| Field | Value |
+|---|---|
+| `retired_2026-09-20_evaluation_rulings.yourNature_desc` | You keep the vine's gift of finding windows, even in seasons when you knock on fewer doors. The winding takes more out of you than it used to, so you pick your walls with care now. Nothing about that is retreat. A climber who chooses the wall is simply done wasting green on stone that won't hold it. |

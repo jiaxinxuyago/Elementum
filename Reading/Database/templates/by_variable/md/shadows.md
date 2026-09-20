@@ -116,18 +116,18 @@
 | `1.face` | excess |
 | `1.echo_of` | 火_火.carry.excess |
 | `1.desc` | So much light that nothing else in the sky is visible, including the people you were warming. |
-| `2.phrase` | Chokes on fuel |
-| `2.dim` | taking on more |
+| `2.phrase` | Chases every idea |
+| `2.dim` | starting |
 | `2.door` | mind |
 | `2.face` | echo |
 | `2.echo_of` | 火_木.function.definition_friction |
-| `2.desc` | Another book, another course, another person to learn from, and readiness keeps moving its own finish line. The fire is choking on the pile. |
+| `2.desc` | Another book, another course, another person worth learning from, and each one starts something before the last one is done. The fire is spreading, not growing. |
 | `3.phrase` | Buried in ideas |
 | `3.dim` | too many plans |
 | `3.door` | mind |
 | `3.face` | excess |
 | `3.echo_of` | 火_木.carry.excess |
-| `3.desc` | Fuel stacked so high the flame never gets lit. So much to burn that nothing catches, and the best plan is under six others. |
+| `3.desc` | So many ideas going at the same time that you cannot see the one that matters. Each new plan lands on top of the last, and the best one is somewhere underneath, still smoking. |
 | `4.phrase` | Formalizes everything |
 | `4.dim` | quiet moments |
 | `4.door` | expression |
@@ -168,13 +168,13 @@
 | `2.door` | mind |
 | `2.face` | echo |
 | `2.echo_of` | 火_木.function.definition_friction |
-| `2.desc` | One more course, one more plan, readiness that keeps moving its own finish line. The wick is ready. You are still gathering. |
+| `2.desc` | One more course, one more plan, and the small flame moves to whatever caught last. Ready keeps moving because you do. |
 | `3.phrase` | Smothered by plans |
 | `3.dim` | too many plans |
 | `3.door` | mind |
 | `3.face` | excess |
 | `3.echo_of` | 火_木.carry.excess |
-| `3.desc` | So much fuel stacked around one small flame that it cannot catch. The best plan is under six others. |
+| `3.desc` | So much fuel around one small flame that it flares in every direction instead of lasting. Bright for an evening, cold by breakfast, and the plan that mattered went up with the rest. |
 | `4.phrase` | Makes it permanent |
 | `4.dim` | moments |
 | `4.door` | expression |

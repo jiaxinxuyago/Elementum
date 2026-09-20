@@ -18,7 +18,7 @@
 |---|---|
 | `persona_name` | The Steward |
 | `domains` | Wealth · Savings · Steady love |
-| `definition_line` | Methodical, directed acquisition — value built and kept |
+| `definition_line` | Methodical, directed acquisition, the value built and kept |
 | `keyword` | Caution |
 | `charge` | gentle |
 | `pole_catalyst` | Security |
@@ -71,3 +71,4 @@
 | `domainSignatures.health.mechanism` | 正财 → controlled disciplined approach to body, rigidity risk |
 | `domainSignatures.health.text` | Tends to apply the same disciplined control to the body as to external resources. Excess 正财 produces bodily rigidity — the body is managed rather than listened to. |
 | `sixRelations` | *(unauthored)* |
+| `retired_2026-09-20_evaluation_rulings.definition_line` | Methodical, directed acquisition — value built and kept |

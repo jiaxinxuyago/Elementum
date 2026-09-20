@@ -18,7 +18,7 @@
 |---|---|
 | `persona_name` | The Sage |
 | `domains` | Knowledge · Shelter · Mother |
-| `definition_line` | Nourishment that deepens without redirecting — the root that holds |
+| `definition_line` | Nourishment that deepens without redirecting, the root that holds |
 | `keyword` | Care |
 | `charge` | gentle |
 | `pole_catalyst` | Wisdom |
@@ -69,3 +69,4 @@
 | `domainSignatures.health.mechanism` | 正印 → nourishment and opening, inherited health approaches, maternal lineage |
 | `domainSignatures.health.text` | The health approach tends to follow the mentors and support structures that formed the person. Classically related to the mother and maternal lineage in health pattern transmission. |
 | `sixRelations` | *(unauthored)* |
+| `retired_2026-09-20_evaluation_rulings.definition_line` | Nourishment that deepens without redirecting — the root that holds |

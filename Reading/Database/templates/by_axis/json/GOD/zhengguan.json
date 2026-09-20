@@ -19,7 +19,7 @@
       "Status",
       "Order"
     ],
-    "definition_line": "Framework-mediated pressure — the standard that steadies",
+    "definition_line": "Framework-mediated pressure, the standard that steadies",
     "keyword": "Order",
     "charge": "gentle",
     "pole_catalyst": "Integrity",
@@ -122,7 +122,10 @@
           "text": "Follows established health frameworks — respected medical guidance, conventional approaches. The shadow: difficulty trusting signals that fall outside the endorsed framework."
         }
       },
-      "sixRelations": null
+      "sixRelations": null,
+      "retired_2026-09-20_evaluation_rulings": {
+        "definition_line": "Framework-mediated pressure — the standard that steadies"
+      }
     }
   }
 }

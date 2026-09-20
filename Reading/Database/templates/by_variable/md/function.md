@@ -62,9 +62,9 @@
 |---|---|
 | `primary` | mind |
 | `definition_catalyst` | Wood is your Mind, and as a catalyst, it is how your fuel accumulates: skills stacked, books finished, friendships tended, people learned from over years. What you gather quietly becomes what you later spend as brilliance. |
-| `definition_friction` | Wood is your Mind, and as a friction, it is gathering as a way of postponing: one more certification, one more plan, readiness that keeps moving its own finish line. |
+| `definition_friction` | Wood is your Mind, and as a friction, it is more fuel than one flame can use: courses, books, mentors, plans, all of it feeding a fire that burns hotter than it burns long. |
 | `advise_catalyst` | Brilliance is mostly patience with good storage. Keep one slow project that grows monthly, a course, a craft, a language, and refuse to rush it. Finish books. Choose one person to learn from properly this year and stay teachable. |
-| `advise_friction` | Readiness is proven only in the open. Book the thing you have been training for, this month, at whatever level you are. Let one plan ship at eighty percent. When the urge to prepare rises, ask what it is protecting you from. |
+| `advise_friction` | You start more than you finish. Finish the one project closest to done this month, as it is, and let it ship at eighty percent. Put every new course, book or plan on a list until that one is out. When the urge to start something rises, ask which unfinished thing it would replace. |
 
 ### Fire core × Fire — the Core · 火_火
 

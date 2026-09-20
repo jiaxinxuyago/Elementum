@@ -18,7 +18,7 @@
 |---|---|
 | `persona_name` | The Rival |
 | `domains` | Rivalry · Shared stakes · Boldness |
-| `definition_line` | Same nature, different register — the edge of comparison |
+| `definition_line` | Same nature, different register, the edge of comparison |
 | `keyword` | Rivalry |
 | `charge` | fierce |
 | `pole_catalyst` | Daring |
@@ -69,3 +69,4 @@
 | `domainSignatures.health.mechanism` | 劫财 → competitive overperformance, external calibration of limits |
 | `domainSignatures.health.text` | Competitive orientation produces overperformance relative to the body's actual capacity — pushing past physical limits to match or exceed a rival. The self-monitoring calibrates to the external reference rather than internal signals. |
 | `sixRelations` | *(unauthored)* |
+| `retired_2026-09-20_evaluation_rulings.definition_line` | Same nature, different register — the edge of comparison |

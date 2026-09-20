@@ -19,7 +19,7 @@
       "Command",
       "Crisis"
     ],
-    "definition_line": "Pressure that doesn't grant permission — the trial that forges",
+    "definition_line": "Pressure that doesn't grant permission, the trial that forges",
     "keyword": "Force",
     "charge": "fierce",
     "pole_catalyst": "Command",
@@ -122,7 +122,10 @@
           "text": "The body bears the cost of sustained adversarial operation. Even when external pressure subsides, the internal system calibrated for it doesn't easily downregulate."
         }
       },
-      "sixRelations": null
+      "sixRelations": null,
+      "retired_2026-09-20_evaluation_rulings": {
+        "definition_line": "Pressure that doesn't grant permission — the trial that forges"
+      }
     }
   }
 }

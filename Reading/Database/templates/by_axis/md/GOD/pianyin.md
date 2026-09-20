@@ -18,7 +18,7 @@
 |---|---|
 | `persona_name` | The Alchemist |
 | `domains` | Learning · Intuition · Solitude |
-| `definition_line` | Unconventional nourishment — insight that transmutes |
+| `definition_line` | Unconventional nourishment, the insight that transmutes |
 | `keyword` | Insight |
 | `charge` | fierce |
 | `pole_catalyst` | Vision |
@@ -69,3 +69,4 @@
 | `domainSignatures.health.mechanism` | 偏印 → specific restoration conditions, dependency on source element |
 | `domainSignatures.health.text` | 偏印 produces deep restoration specifically when the DM's element is replenished through its own nature. The health pattern: extremely effective specific recovery practices that aren't easily transferred or replaced. |
 | `sixRelations` | *(unauthored)* |
+| `retired_2026-09-20_evaluation_rulings.definition_line` | Unconventional nourishment — insight that transmutes |

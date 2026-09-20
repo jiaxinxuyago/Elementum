@@ -18,7 +18,7 @@
 |---|---|
 | `persona_name` | The Magistrate |
 | `domains` | Career · Status · Order |
-| `definition_line` | Framework-mediated pressure — the standard that steadies |
+| `definition_line` | Framework-mediated pressure, the standard that steadies |
 | `keyword` | Order |
 | `charge` | gentle |
 | `pole_catalyst` | Integrity |
@@ -71,3 +71,4 @@
 | `domainSignatures.health.mechanism` | 正官 → institutional health approaches, suppression of DM expression |
 | `domainSignatures.health.text` | Follows established health frameworks — respected medical guidance, conventional approaches. The shadow: difficulty trusting signals that fall outside the endorsed framework. |
 | `sixRelations` | *(unauthored)* |
+| `retired_2026-09-20_evaluation_rulings.definition_line` | Framework-mediated pressure — the standard that steadies |

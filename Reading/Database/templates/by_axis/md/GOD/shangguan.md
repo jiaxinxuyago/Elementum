@@ -18,7 +18,7 @@
 |---|---|
 | `persona_name` | The Virtuoso |
 | `domains` | Talent · Performance · Defiance |
-| `definition_line` | Cross-current output — brilliance made of what it meets |
+| `definition_line` | Cross-current output, brilliance made of what it meets |
 | `keyword` | Brilliance |
 | `charge` | fierce |
 | `pole_catalyst` | Spark |
@@ -69,3 +69,4 @@
 | `domainSignatures.health.mechanism` | 伤官 → internal pressure when output has no channel, DM element depleted |
 | `domainSignatures.health.text` | When the output has nowhere to land, the friction turns inward. The body bears the cost of sustained structural tension between what is produced and what the environment can receive. |
 | `sixRelations` | *(unauthored)* |
+| `retired_2026-09-20_evaluation_rulings.definition_line` | Cross-current output — brilliance made of what it meets |

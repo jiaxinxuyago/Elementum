@@ -58,7 +58,7 @@
 | `classic` | 木性溫暖，火伏其中 |
 | `base` | Wood is warm by nature and fire sleeps inside it, the classics say, so every flame is fed by what was gathered before it: dry branches, stacked seasons, years of quiet growth surrendered to one bright hour. A fire is only ever as tall as its fuel. The blaze borrows everything from the forest. |
 | `catalyst_turn` | Run thin, the flame eats scraps: brilliance flaring on no reserves, warmth borrowed from tomorrow. Your chart asks you to stack wood. Learn, gather, befriend, store. |
-| `friction_turn` | Run heavy, the woodpile buries the fire: fuel hoarded past burning, preparation stacked so high the flame never gets lit. Pull a branch off the pile and strike. |
+| `friction_turn` | Run heavy, the fire outgrows its hearth: every branch thrown on at once, heat spent in a rush, ash by morning. Burn one pile at a time. |
 
 ### Fire core × Fire — the Core · 火_火
 
@@ -202,7 +202,7 @@
 | `classic` | 眾勝寡，故水勝火 |
 | `base` | The many prevail over the few, and so water governs fire: the rain decides which flames continue, the river decides where the burning stops. Fire is brilliant and outnumbered. Depth arrives without hurry, spends nothing it cannot spare, and the blaze that seemed unstoppable at midnight is steam by morning. |
 | `catalyst_turn` | Run thin, nothing bright is governed: depth with no stake in the blaze, wisdom watching value burn past. Your chart asks you to claim heat. Step toward the bright loud thing. |
-| `friction_turn` | Run heavy, the managing never stops: every bright thing dampened into strategy, no fire left just for warmth. Let one blaze run wild and enjoy it. |
+| `friction_turn` | Run heavy, the water starts to boil: depth spent on every bright flare, nothing left cool for the long game. Cool it overnight before you move. |
 
 ### Water core × Earth — the Duty · 水_土
 

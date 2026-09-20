@@ -18,7 +18,7 @@
 |---|---|
 | `persona_name` | The Twin |
 | `domains` | Peers · Independence · Self-reliance |
-| `definition_line` | Same nature, same register — the standard you hold yourself to |
+| `definition_line` | Same nature, same register, the standard you hold yourself to |
 | `keyword` | Independence |
 | `charge` | steady |
 | `pole_catalyst` | Self-trust |
@@ -69,3 +69,4 @@
 | `domainSignatures.health.mechanism` | 比肩 → self-monitoring calibrated to output, depletion unrecognized |
 | `domainSignatures.health.text` | Tends not to recognize depletion because the self-monitoring system is calibrated to output. Runs on conviction past the point where the body signals readiness to stop. Rest has to be decided, not felt. |
 | `sixRelations` | *(unauthored)* |
+| `retired_2026-09-20_evaluation_rulings.definition_line` | Same nature, same register — the standard you hold yourself to |

@@ -109,7 +109,7 @@
         "door": "mind",
         "face": "echo",
         "echo_of": "火_木.function.definition_friction",
-        "desc": "One more course, one more plan, readiness that keeps moving its own finish line. The wick is ready. You are still gathering."
+        "desc": "One more course, one more plan, and the small flame moves to whatever caught last. Ready keeps moving because you do."
       },
       {
         "phrase": "Smothered by plans",
@@ -117,7 +117,7 @@
         "door": "mind",
         "face": "excess",
         "echo_of": "火_木.carry.excess",
-        "desc": "So much fuel stacked around one small flame that it cannot catch. The best plan is under six others."
+        "desc": "So much fuel around one small flame that it flares in every direction instead of lasting. Bright for an evening, cold by breakfast, and the plan that mattered went up with the rest."
       },
       {
         "phrase": "Makes it permanent",
@@ -446,7 +446,25 @@
           "desc": "Every plan reviewed until the moment passes, every small light second-guessed into a maybe. The checking costs more than the mistake would.",
           "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
         }
-      ]
+      ],
+      "retired_2026-09-20_evaluation_rulings": {
+        "shadows.Never ready enough": {
+          "phrase": "Never ready enough",
+          "dim": "preparation",
+          "door": "mind",
+          "face": "echo",
+          "echo_of": "火_木.function.definition_friction",
+          "desc": "One more course, one more plan, readiness that keeps moving its own finish line. The wick is ready. You are still gathering."
+        },
+        "shadows.Smothered by plans": {
+          "phrase": "Smothered by plans",
+          "dim": "too many plans",
+          "door": "mind",
+          "face": "excess",
+          "echo_of": "火_木.carry.excess",
+          "desc": "So much fuel stacked around one small flame that it cannot catch. The best plan is under six others."
+        }
+      }
     },
     "door_note": {
       "body": "Fire",
