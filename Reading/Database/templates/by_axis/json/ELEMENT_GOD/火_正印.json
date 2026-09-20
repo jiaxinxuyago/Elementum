@@ -29,7 +29,7 @@
     "k2_domain_readings": {
       "Knowledge": "Your knowledge lives as story: wisdom kept warm and passed mouth to mouth. You remember what mattered, not what was footnoted. Tell it often. Stories die refrigerated.",
       "Shelter": "Your shelter is firelight: people arrive cold and leave believing in themselves. That rekindling is rare medicine. Notice who only visits to warm their hands, and bank accordingly.",
-      "Mother": "The mother-thread glows in you: a warming figure whose kitchen was church, or a cold hearth you swore to answer. Your tending is the answer. Let someone tend the tender."
+      "Nurture": "The nurturing thread glows in you: a warming figure whose kitchen was church, or a cold hearth you swore to answer. Your tending is the answer. Let someone tend the tender."
     },
     "k2_card": {
       "face": null,
@@ -117,6 +117,11 @@
             }
           }
         ]
+      }
+    },
+    "__ore": {
+      "retired_2026-09-20_batch3": {
+        "k2_domain_readings.Mother": "The mother-thread glows in you: a warming figure whose kitchen was church, or a cold hearth you swore to answer. Your tending is the answer. Let someone tend the tender."
       }
     }
   }

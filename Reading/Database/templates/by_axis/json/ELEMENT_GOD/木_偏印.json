@@ -76,7 +76,7 @@
             "word": "Perceptive",
             "doors": {
               "trait": "You notice the understory, the layer below what people say. The pause before the yes, the meeting scheduled suspiciously early, the plant someone stopped watering. Your reads arrive quietly and early, and they are right often enough to be slightly unsettling.",
-              "scene": "You told your partner the neighbors were splitting up three months before the moving truck confirmed it, citing only the way they parked. It sounded absurd in March. In June it sounded like surveillance. It was neither. It was the parking, plus attention.",
+              "scene": "You read a table in the time it takes to sit down. A changed tone, a pause a beat too long, a chair pulled slightly away, and you know something has shifted, usually before anyone says so.",
               "outside": "Friends run their situations past you the way farmers check soil, quietly and before committing. You rarely volunteer what you see, which people mistake for not seeing. The few who ask directly get answers that reorganize their month, and they learn to ask again."
             }
           },
@@ -117,6 +117,11 @@
             }
           }
         ]
+      }
+    },
+    "__ore": {
+      "retired_2026-09-20_batch3": {
+        "fn_reading.catalyst.Perceptive.scene": "You told your partner the neighbors were splitting up three months before the moving truck confirmed it, citing only the way they parked. It sounded absurd in March. In June it sounded like surveillance. It was neither. It was the parking, plus attention."
       }
     }
   }

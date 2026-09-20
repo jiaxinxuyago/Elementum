@@ -34,7 +34,7 @@
 | **The Virtuoso** | 木_伤官 | You express organically and abundantly, ideas leafing faster than any format can hold. |
 | **The Horizon** | 木_偏财 | You grow toward opportunity steadily, extending reach every season without retreating. |
 | **The Steward** | 木_正财 | You build annually: steady deposits of effort that quietly become an estate. |
-| **The General** | 木_七杀 | Your discipline is espalier: severe training, few branches, everything bent toward the chosen wall. |
+| **The General** | 木_七杀 | Your discipline is a strict coach: cut the extras, keep the goal, hold the line for years. |
 | **The Magistrate** | 木_正官 | Order is your native climate: you grow straight inside good structure and warp without it. |
 | **The Alchemist** | 木_偏印 | You think by grafting: splicing distant ideas until something new takes root. |
 | **The Sage** | 木_正印 | You think in growth arcs: what this person could become with the right seasons. |

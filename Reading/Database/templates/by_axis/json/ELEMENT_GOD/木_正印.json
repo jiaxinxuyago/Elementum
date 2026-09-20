@@ -29,7 +29,7 @@
     "k2_domain_readings": {
       "Knowledge": "Your knowledge is arboreal: living, branching, taught best by walking someone through the grove. You learn to pass on. Teaching is how your roots drink.",
       "Shelter": "Your shelter is canopy: people rest under your patience and grow in your shade. The forest never asks who waters the oldest tree. Arrange your own rain.",
-      "Mother": "The mother-thread is orchard-deep: a nurturing figure who planted daily, or soil you had to enrich alone. Either way you became the gardener. Tend your own roots with the same hands."
+      "Nurture": "The nurturing thread is orchard-deep: a nurturing figure who planted daily, or soil you had to enrich alone. Either way you became the gardener. Tend your own roots with the same hands."
     },
     "k2_card": {
       "face": null,
@@ -117,6 +117,11 @@
             }
           }
         ]
+      }
+    },
+    "__ore": {
+      "retired_2026-09-20_batch3": {
+        "k2_domain_readings.Mother": "The mother-thread is orchard-deep: a nurturing figure who planted daily, or soil you had to enrich alone. Either way you became the gardener. Tend your own roots with the same hands."
       }
     }
   }

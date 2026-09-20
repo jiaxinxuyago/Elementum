@@ -17,7 +17,7 @@
     "domains": [
       "Knowledge",
       "Shelter",
-      "Mother"
+      "Nurture"
     ],
     "definition_line": "Nourishment that deepens without redirecting, the root that holds",
     "keyword": "Care",
@@ -123,6 +123,13 @@
       "sixRelations": null,
       "retired_2026-09-20_evaluation_rulings": {
         "definition_line": "Nourishment that deepens without redirecting — the root that holds"
+      },
+      "retired_2026-09-20_batch3": {
+        "domains": [
+          "Knowledge",
+          "Shelter",
+          "Mother"
+        ]
       }
     }
   }

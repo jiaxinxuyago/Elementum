@@ -29,7 +29,7 @@
     "k2_domain_readings": {
       "Expression": "Your expression bears fruit: gardens, meals, projects that people can taste and hold. Make output a rhythm rather than an event. An orchard produces because producing is simply what it does.",
       "Enjoyment": "You enjoy abundance in its natural forms: tables full, gardens loud, seasons honored with their own pleasures. Guard the fallow time too. Delight, like soil, needs its resting years.",
-      "Children": "Children and students flourish around you like well-watered rows: fed patiently, staked when young, given sun and left to grow. Your line, biological or chosen, tends to be fruitful and fond of you."
+      "Children": "You are patient with children and students. You feed them, give them space, and let them grow at their own speed rather than yours, and you enjoy the raising more than the results."
     },
     "k2_card": {
       "face": null,
@@ -117,6 +117,11 @@
             }
           }
         ]
+      }
+    },
+    "__ore": {
+      "retired_2026-09-20_batch3": {
+        "k2_domain_readings.Children": "Children and students flourish around you like well-watered rows: fed patiently, staked when young, given sun and left to grow. Your line, biological or chosen, tends to be fruitful and fond of you."
       }
     }
   }

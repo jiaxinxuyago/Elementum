@@ -50,7 +50,7 @@
 
 | Field | Value |
 |---|---|
-| `Wealth` | Your wealth is machined: earned exactly, kept polished, compounded without drama. You will never be flashy and never be broke. Invest in quality that holds its edge, including your own skills. |
+| `Wealth` | Your wealth is machined: earned exactly, kept polished, compounded without drama. You are never flashy about money, and you hate not knowing where it went. Buy the thing that still earns its place a year on, and treat your own skills the same way. |
 | `Savings` | You save like an armorer: reserves as protection, kept bright and counted. The vault serves the life, so define what it defends, and spend without guilt inside those lines. |
 | `Steady love` | You love in maintained condition: reliability, kept promises, care with no rust on it. Choose someone who values upkeep, then schedule delight as faithfully as inspections. |
 
@@ -84,7 +84,7 @@
 |---|---|
 | `Knowledge` | Your knowledge is armory-grade: fewer books, deeply proofed, instantly deployable. You trust what survived testing. Curate hard, and reread the masters yearly. Your edge is depth. |
 | `Shelter` | Your shelter is a forge-side bench: people come to you and leave straightened. You protect by tempering. Remember some visitors need only warmth. Not everything cracked wants rework. |
-| `Mother` | The mother-thread runs steel-true: a nurturing figure of standards, or the ache where that discipline should have been. Her exactness lives in your caring. Keep the precision, soften the grading. |
+| `Nurture` | The nurturing thread runs steel-true: a nurturing figure of standards, or the ache where that discipline should have been. Her exactness lives in your caring. Keep the precision, soften the grading. |
 
 ### The Twin · 土_比肩
 
@@ -154,7 +154,7 @@
 
 | Field | Value |
 |---|---|
-| `Learning` | Learning is where this Earth feeds you best. Not the classroom kind so much as the deep private kind: the obsession studied at midnight, the field entered through the side door. Give it one strange subject at a time and it will quietly out-earn every credential in the house. |
+| `Learning` | Learning is where this Earth feeds you best. Not the classroom kind so much as the deep private kind: the obsession studied at midnight, the field entered through the side door. Give it one strange subject at a time. What you learn that way tends to outlast anything you learned for a grade. |
 | `Intuition` | The hunch arrives before the reason does, and for you it is usually load-bearing. Treat the sudden knowing as a first draft: trust it enough to write it down, doubt it enough to check the math by morning. |
 | `Solitude` | Time alone is this energy’s rent, and it collects whether you schedule it or not. Taken on purpose, solitude turns into your best material. Taken by accident, it curdles into distance from the people who were waiting outside the study. |
 
@@ -164,7 +164,7 @@
 |---|---|
 | `Knowledge` | Your knowledge is settled sediment: practical wisdom layered by years, the kind villages consult. You know what actually works. Write the almanac down. Ground should not be the only copy. |
 | `Shelter` | Your shelter is the family land itself: people return to you between every attempt at the world. Being home is holy work with no clock. Post seasons. Even land lies fallow. |
-| `Mother` | The mother-thread is bedrock here: nurture received deep or a hollow you filled by becoming the ground yourself. Either origin made you everyone’s home. Claim one plot back. |
+| `Nurture` | The nurturing thread is bedrock here: nurture received deep or a hollow you filled by becoming the ground yourself. Either origin made you everyone’s home. Claim one plot back. |
 
 ### The Twin · 木_比肩
 
@@ -188,7 +188,7 @@
 |---|---|
 | `Expression` | Your expression bears fruit: gardens, meals, projects that people can taste and hold. Make output a rhythm rather than an event. An orchard produces because producing is simply what it does. |
 | `Enjoyment` | You enjoy abundance in its natural forms: tables full, gardens loud, seasons honored with their own pleasures. Guard the fallow time too. Delight, like soil, needs its resting years. |
-| `Children` | Children and students flourish around you like well-watered rows: fed patiently, staked when young, given sun and left to grow. Your line, biological or chosen, tends to be fruitful and fond of you. |
+| `Children` | You are patient with children and students. You feed them, give them space, and let them grow at their own speed rather than yours, and you enjoy the raising more than the results. |
 
 ### The Virtuoso · 木_伤官
 
@@ -244,7 +244,7 @@
 |---|---|
 | `Knowledge` | Your knowledge is arboreal: living, branching, taught best by walking someone through the grove. You learn to pass on. Teaching is how your roots drink. |
 | `Shelter` | Your shelter is canopy: people rest under your patience and grow in your shade. The forest never asks who waters the oldest tree. Arrange your own rain. |
-| `Mother` | The mother-thread is orchard-deep: a nurturing figure who planted daily, or soil you had to enrich alone. Either way you became the gardener. Tend your own roots with the same hands. |
+| `Nurture` | The nurturing thread is orchard-deep: a nurturing figure who planted daily, or soil you had to enrich alone. Either way you became the gardener. Tend your own roots with the same hands. |
 
 ### The Twin · 水_比肩
 
@@ -324,7 +324,7 @@
 |---|---|
 | `Knowledge` | Your knowledge is absorbed rather than studied: understanding soaked from every source you touch. You know more than your credentials admit. Let it surface. Springs are meant to be found. |
 | `Shelter` | Your shelter is stillness: people pour out their storms and you hand back a level surface. That absorption has a cost curve. Drain what you take in somewhere safe. |
-| `Mother` | The mother-thread runs like groundwater: nurture that seeped in early and constant, or a dryness you learned to spring against. You became water for others either way. Refill upstream. |
+| `Nurture` | The nourishing thread runs like groundwater. Where care came early, you draw on it without thinking. You refill it where it ran dry. |
 
 ### The Twin · 火_比肩
 
@@ -404,4 +404,4 @@
 |---|---|
 | `Knowledge` | Your knowledge lives as story: wisdom kept warm and passed mouth to mouth. You remember what mattered, not what was footnoted. Tell it often. Stories die refrigerated. |
 | `Shelter` | Your shelter is firelight: people arrive cold and leave believing in themselves. That rekindling is rare medicine. Notice who only visits to warm their hands, and bank accordingly. |
-| `Mother` | The mother-thread glows in you: a warming figure whose kitchen was church, or a cold hearth you swore to answer. Your tending is the answer. Let someone tend the tender. |
+| `Nurture` | The nurturing thread glows in you: a warming figure whose kitchen was church, or a cold hearth you swore to answer. Your tending is the answer. Let someone tend the tender. |

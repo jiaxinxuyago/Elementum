@@ -158,7 +158,7 @@
 | `catalyst.ledger[0].word` | Thorough |
 | `catalyst.ledger[0].doors.trait` | Detail is where your love of quality lives. The receipts reconciled monthly, the maintenance schedule honored, the small print actually read: your life runs on a fineness of attention that prevents disasters so early they never even become anecdotes. Nothing about you is approximately done. |
 | `catalyst.ledger[0].doors.scene` | The warranty claim that saved you eleven hundred dollars took four minutes, because the receipt, the serial number, and the original packaging were exactly where your system said they would be, three years on. The agent audibly recalibrated. Most claims, she said, die of missing paperwork. Yours arrived immortal. |
-| `catalyst.ledger[0].doors.outside` | People hand you things that must not be gotten wrong: the visa application, the medication schedule, the wedding planning. Errors approach your work and give up early. The double-checkers who review you have quietly stopped, a professional courtesy extended to perhaps three people they have ever met. |
+| `catalyst.ledger[0].doors.outside` | People hand you the things that must not go wrong: the visa form, the wedding plan, the contract with the odd clause on page nine. You read every line, then read it again in the morning. The people who check your work expect a clean copy, and still look, because you would want them to. |
 | `catalyst.ledger[1].word` | Trustworthy |
 | `catalyst.ledger[1].doors.trait` | Your reliability is collateral-grade. People secure real decisions against your word: the deposit sent on your say-so, the key left under your mat, the password shared without ceremony. Trust accumulates around you the way interest accumulates, quietly, on never-broken terms. |
 | `catalyst.ledger[1].doors.scene` | Four families on your street hold spare keys at your house, a fact none of them coordinated. When the locksmith asked how you became the neighborhood vault, you could not name a starting event. There was no event. There were twenty years of nothing ever going missing. |
@@ -787,7 +787,7 @@
 | `friction.ledger[2].word` | Overdriven |
 | `friction.ledger[2].doors.trait` | Your engine has no idle. Rest feels like falling behind, holidays get converted into projects, and even recovery has metrics now. Somewhere the drive stopped being toward anything. It just drives, and you are both the driver and the surface being worn down. |
 | `friction.ledger[2].doors.scene` | The vacation itinerary had seven cities in nine days and a spreadsheet with column headers. On day five your family staged a small intervention at a fountain, requesting one afternoon of nothing. You granted it, checked messages twice, and called the afternoon productive. |
-| `friction.ledger[2].doors.outside` | Watching you rest makes other people anxious, because you do it like a task with a deadline. Friends have stopped suggesting you slow down and started placing quiet bets on when the crash lands. The bets have gotten shorter every year. Nobody says so at dinner. |
+| `friction.ledger[2].doors.outside` | Watching you rest makes other people anxious, because you do it like a task with a deadline. Friends gave up telling you to slow down. You are not built for slow. You are built to keep going until it is done. |
 
 ### The Magistrate · 木_正官
 
@@ -828,7 +828,7 @@
 | `catalyst.ledger[0].doors.outside` | Colleagues have learned that your reading list is a leading indicator of next quarter’s ideas, and that none of it will look relevant at the time. Mushrooms, medieval trade, birdsong. Six months later one of them is a strategy. Nobody can predict which. |
 | `catalyst.ledger[1].word` | Perceptive |
 | `catalyst.ledger[1].doors.trait` | You notice the understory, the layer below what people say. The pause before the yes, the meeting scheduled suspiciously early, the plant someone stopped watering. Your reads arrive quietly and early, and they are right often enough to be slightly unsettling. |
-| `catalyst.ledger[1].doors.scene` | You told your partner the neighbors were splitting up three months before the moving truck confirmed it, citing only the way they parked. It sounded absurd in March. In June it sounded like surveillance. It was neither. It was the parking, plus attention. |
+| `catalyst.ledger[1].doors.scene` | You read a table in the time it takes to sit down. A changed tone, a pause a beat too long, a chair pulled slightly away, and you know something has shifted, usually before anyone says so. |
 | `catalyst.ledger[1].doors.outside` | Friends run their situations past you the way farmers check soil, quietly and before committing. You rarely volunteer what you see, which people mistake for not seeing. The few who ask directly get answers that reorganize their month, and they learn to ask again. |
 | `catalyst.ledger[2].word` | Self-taught |
 | `catalyst.ledger[2].doors.trait` | Everything important you know, you taught yourself, sideways. No course covered it, no mentor assigned it: you found the forum, the old manual, the strange book, and built the skill in private. Diplomas confuse people about you. The knowledge is real and the paper does not exist. |
@@ -1147,7 +1147,7 @@
 | `catalyst.ledger[0].doors.outside` | People route their worst weeks through your place: the call made from your driveway before going home, the couch that has caught every crisis since 2015. Nobody plans it out loud. The harbor is simply known, the way water is known to be downhill. |
 | `catalyst.ledger[1].word` | Serene |
 | `catalyst.ledger[1].doors.trait` | Your calm is deep water, not thin ice. Provocations sink into it and are absorbed, deadlines land softly on it, and chaos arrives to find no surface tension to grab. It is not detachment. Everything registers. It just registers into stillness instead of splash. |
-| `catalyst.ledger[1].doors.scene` | The kitchen caught fire, briefly, at the family gathering, and your voice never left its usual register: pan lid, baking soda, window, done. The story afterward was all about the flames. You remember it as four small tasks that happened to be slightly warm. |
+| `catalyst.ledger[1].doors.scene` | The kitchen caught fire, briefly, at the family gathering, and your voice never left its usual register: pan lid, baking soda, window, done. The story afterward was all about the flames. You remember it as a Tuesday. |
 | `catalyst.ledger[1].doors.outside` | Storms wear themselves out on you without your doing anything. The furious arrive, talk, slow down, and leave merely tired, their weather absorbed into something deeper than it was. You never argue anyone calm. They pour it in, and the water takes it. |
 | `catalyst.ledger[2].word` | Receptive |
 | `catalyst.ledger[2].doors.trait` | You take things in fully before responding, which has become rare enough to feel like a gift. The half-formed idea, the clumsy confession, the criticism with truth in it: all get received whole, unjudged on arrival, given somewhere calm to finish becoming what they meant. |

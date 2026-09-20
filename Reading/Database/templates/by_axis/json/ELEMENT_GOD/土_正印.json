@@ -29,7 +29,7 @@
     "k2_domain_readings": {
       "Knowledge": "Your knowledge is settled sediment: practical wisdom layered by years, the kind villages consult. You know what actually works. Write the almanac down. Ground should not be the only copy.",
       "Shelter": "Your shelter is the family land itself: people return to you between every attempt at the world. Being home is holy work with no clock. Post seasons. Even land lies fallow.",
-      "Mother": "The mother-thread is bedrock here: nurture received deep or a hollow you filled by becoming the ground yourself. Either origin made you everyone’s home. Claim one plot back."
+      "Nurture": "The nurturing thread is bedrock here: nurture received deep or a hollow you filled by becoming the ground yourself. Either origin made you everyone’s home. Claim one plot back."
     },
     "k2_card": {
       "face": null,
@@ -117,6 +117,11 @@
             }
           }
         ]
+      }
+    },
+    "__ore": {
+      "retired_2026-09-20_batch3": {
+        "k2_domain_readings.Mother": "The mother-thread is bedrock here: nurture received deep or a hollow you filled by becoming the ground yourself. Either origin made you everyone’s home. Claim one plot back."
       }
     }
   }

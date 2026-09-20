@@ -17,7 +17,7 @@
 | **The General** | 七杀 | Pressure · Command · Crisis |
 | **The Magistrate** | 正官 | Career · Status · Order |
 | **The Alchemist** | 偏印 | Learning · Intuition · Solitude |
-| **The Sage** | 正印 | Knowledge · Shelter · Mother |
+| **The Sage** | 正印 | Knowledge · Shelter · Nurture |
 
 ## POSITION (×70)
 

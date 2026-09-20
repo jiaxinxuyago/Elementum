@@ -29,7 +29,7 @@
     "k2_domain_readings": {
       "Knowledge": "Your knowledge is absorbed rather than studied: understanding soaked from every source you touch. You know more than your credentials admit. Let it surface. Springs are meant to be found.",
       "Shelter": "Your shelter is stillness: people pour out their storms and you hand back a level surface. That absorption has a cost curve. Drain what you take in somewhere safe.",
-      "Mother": "The mother-thread runs like groundwater: nurture that seeped in early and constant, or a dryness you learned to spring against. You became water for others either way. Refill upstream."
+      "Nurture": "The nourishing thread runs like groundwater. Where care came early, you draw on it without thinking. You refill it where it ran dry."
     },
     "k2_card": {
       "face": null,
@@ -76,7 +76,7 @@
             "word": "Serene",
             "doors": {
               "trait": "Your calm is deep water, not thin ice. Provocations sink into it and are absorbed, deadlines land softly on it, and chaos arrives to find no surface tension to grab. It is not detachment. Everything registers. It just registers into stillness instead of splash.",
-              "scene": "The kitchen caught fire, briefly, at the family gathering, and your voice never left its usual register: pan lid, baking soda, window, done. The story afterward was all about the flames. You remember it as four small tasks that happened to be slightly warm.",
+              "scene": "The kitchen caught fire, briefly, at the family gathering, and your voice never left its usual register: pan lid, baking soda, window, done. The story afterward was all about the flames. You remember it as a Tuesday.",
               "outside": "Storms wear themselves out on you without your doing anything. The furious arrive, talk, slow down, and leave merely tired, their weather absorbed into something deeper than it was. You never argue anyone calm. They pour it in, and the water takes it."
             }
           },
@@ -117,6 +117,12 @@
             }
           }
         ]
+      }
+    },
+    "__ore": {
+      "retired_2026-09-20_batch3": {
+        "fn_reading.catalyst.Serene.scene": "The kitchen caught fire, briefly, at the family gathering, and your voice never left its usual register: pan lid, baking soda, window, done. The story afterward was all about the flames. You remember it as four small tasks that happened to be slightly warm.",
+        "k2_domain_readings.Mother": "The mother-thread runs like groundwater: nurture that seeped in early and constant, or a dryness you learned to spring against. You became water for others either way. Refill upstream."
       }
     }
   }

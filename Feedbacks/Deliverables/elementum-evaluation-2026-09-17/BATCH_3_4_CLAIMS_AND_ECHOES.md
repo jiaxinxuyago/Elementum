@@ -1,3 +1,5 @@
+> **Batch 3 LANDED 2026-09-20** after a row-by-row ruling (record: CLAUDE_EVALUATION_RESPONSE.md §6c). Several rows landed in a third form the owner cut from both columns. Batch 4 below is still open.
+
 # Batches 3 and 4 for review
 
 Batch 3: the consequential-claim passages (lane C1). Batch 4: the echo-chain chips (lane C2). Each row shows the shipped text, the candidate, what changed and why, the word count against the field budget, and the repetition check. The original may still win; nothing is on disk.
