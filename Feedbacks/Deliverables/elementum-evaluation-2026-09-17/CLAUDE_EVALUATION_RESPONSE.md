@@ -310,3 +310,11 @@ Still to be shown as candidate batches during execution, under the same before-a
 | R-rep | **No phrase repeats across the fields of one cell or the surfaces of one chart.** Each field keeps its own job: definition (what the friction or gift is, in life terms), turn (elemental image of the state plus one directive), advice (the practical programme), chip description (the moment a person recognises). Mechanical check: no shared four-word run, stop-word-only runs ignored. | REA_16 §7 (phrase law v6 gains the field-angle rule); `tools/voice-audit.mjs` gains the four-word check chip-vs-source and field-vs-field. The D1 and B3 drafts were redrafted under it (RULINGS_PROOF_2026-09-20.md). |
 | R-carry | The 2026-09-15 carry law stands: the carry card clause and remedy are the turn's cut and are the one allowed match between surfaces. | none (the audit whitelists carry ↔ turn and yin ↔ yang) |
 | C3 | Re-cut the 65 chip descriptions that copy runs of their source definition (61 echo faces, 4 excess faces; seven on the golden chart's 庚 pool) plus the five single overlaps inside 土_木, 木_火 and 水_木. Labels and `echo_of` links stay. Shown as a reviewed before-and-after batch before landing. | `STEM/*.json` descs; three `ELEMENT_PAIR` cells |
+
+### 6b. Proof review verdicts (owner 2026-09-20, later)
+
+| Item | Verdict | Effect at execution |
+|---|---|---|
+| 丙 Wood 45%: chip description *Buried in ideas*, carry ease row and remedy, Wood definition, Wood turn | After wins | The D1 redrafts land as shown in RULINGS_PROOF_2026-09-20.md (post-repetition-check versions). |
+| Advice field, all examples | **Before wins.** The `advise_catalyst` / `advise_friction` texts stay as authored everywhere, 火_木 included ("Readiness is proven only in the open…"). | No advice line changes in this pass. The owner's own words: the older version wins across these examples. |
+| Pool note (`tpl_pool_note`, the P4 chip-card foot "Five of the Blade's fourteen…") | Remove from the card. | `ReadingDayMasterCard.jsx` drops the line; the template stays in the station as ore; REA_16 §2c row → retired. |
