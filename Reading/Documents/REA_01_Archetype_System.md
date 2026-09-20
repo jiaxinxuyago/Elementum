@@ -35,6 +35,8 @@ Around the compound sit the two non-archetype classes: **derived values** (perce
 | **CONDITION** | ×3 (+2) | Overfueled · Balanced · Underfueled (+ Channel · Refill) | `CONDITION/` | TBD (locked terms as candidates) |
 | **FAMILY** | ×5 | The five relations (Core · Root · Drive · Voice · Duty) | `FAMILY/` | TBD (locked nouns/lines as candidates) |
 | **POSITION** | ×7 | The pillar palaces (宫位) | `POSITION/` | TBD (empty) |
+| **ELEMENT·PAIR** | ×25 | The Day-Master-element × energy-element cells (20 relations + 5 self pairs): mechanism · function (define/advise) · carry · carry_yin · mechanism_yin | `ELEMENT_PAIR/` | LOCKED/LIVE (2026-08-19 → 2026-09-17; added to this table 2026-09-20) |
+| **TG·PATTERN** | ×9 | The named ten-god relation patterns (枭神夺食 …), a conditional reading angle | `TG_PATTERN/` | canon ×9 authored (2026-08-19; added to this table 2026-09-20) |
 | **TEMPLATED** | ×16 | The sentence patterns (each pattern is its own template, authored once) | `TEMPLATED/` | patterns seeded |
 | **DERIVED** | — | Engine-computed selection values — never authored, no station folder | — | n/a |
 

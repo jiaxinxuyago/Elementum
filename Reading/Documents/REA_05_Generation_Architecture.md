@@ -69,7 +69,8 @@ The station has **two parent views** (owner-ruled 2026-08-03): **`by_axis/`** �
 | Consumer | Reads | Notes |
 |---|---|---|
 | `buildJourneyModel` (`journeyData.js`) | `STEM_CARD_DATA` (identity) · vocabulary tables (V) · `FACE_CARD`/`ENERGY_TILE` | reveal → catalogue journey; piping verified total 2026-07-27 |
-| Faces/deep pages (PLANNED) | `ENERGY_CARD_DATA[element_god]` (the K2 target module — created from the K2 template JSONs when authored) | registers selected by derived presence frames |
+| Element page (LIVE since 2026-08-19) | `PAIR_CELLS` (`pairs.js`, ELEMENT_PAIR) for the hero, turns and function reading · `K2_CELLS` (`k2.js`, ELEMENT_GOD) for the ledger, the god sub-block function line and the Seeker-gated domain readings · `TG_DEFLINE` (`tgNames.js`) | turns and chips picked by valence × volume; one resolved band for every surface (2026-09-20) |
+| P4 Day Master page (LIVE) | `STEM_CARD_DATA` pools via `resolveArchetype` + `selectPoolByDoor` · `PAIR_CELLS.carry` via `buildCarryModel` | door-selected chips (one per open door), the carry card |
 | Self-Report composer | the same content modules | one schema, all consumers (REA_03 rule #11) |
 | Consultant payload | the same content modules, composed on-device | vocabulary law enforced in payload + charter |
 | Engine | none of the authored content — it only *selects* (REA_03 §6 derived signatures) | the engine owns every number |

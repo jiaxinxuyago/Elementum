@@ -230,7 +230,7 @@ energyCard: {
 | `STEM.gifts[].face` · `STEM.shadows[].face` · `echo_of` | face ∈ echo / wide / excess; echo_of = `{pair}.{field path}` (station-only) | ×140 | — | **THE DERIVATION LAW (owner R4, 2026-09-16; REA_16 §7):** item[0] per door = echo face cut from the pair definition; Body/Mind second = wide (gifts, from carry.wide) / excess (shadows, from carry.excess); selectPoolByDoor picks by the door's volume, one chip per open door, two or three per side | 庚 Mind: echo "Lives inside plans" ← 金_土.definition_friction · excess "Plans, never acts" ← 金_土.carry.excess | P4 gifts & shadows | **LIVE** |
 | `tpl_carry_row` | row label `{Role} · {El} · {Fn} · {pct}`; sentence = `ELEMENT_PAIR.carry` clauses in manual order; remedies likewise; trait chips = the chosen items whose door is in the row | EASE · Metal · you · 23 · Earth · Mind · 33 → "The edge seals itself in, and heavy Earth weighs on it…" | P4 carry card | LIVE (2026-09-15) |
 | `tpl_pool_bridge` ×3 | gifts: Through the energies your chart asks you to seek. · shadows: Through the energies already carrying weight. · balanced: These light up when your core runs balanced. / These swell when the balance slips. | — | P4 panel bridges | LIVE (2026-09-15) |
-| `tpl_pool_note` | Six of {Arch}'s fourteen. Your chart picks which show. | Six of the Blade's fourteen. Your chart picks which show. | P4 panel foot | LIVE (2026-09-15) |
+| `tpl_pool_note` | Six of {Arch}'s fourteen. Your chart picks which show. | Six of the Blade's fourteen. Your chart picks which show. | P4 panel foot | **RETIRED (owner 2026-09-20)** — the bridges frame the chips; the count needs no note. Template kept in the station as ore. |
 
 ## §6 · Derived slot signatures (engine-owned; named here only as template inputs)
 
