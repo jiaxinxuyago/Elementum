@@ -25,6 +25,7 @@ and `RULINGS_PROOF_2026-09-20.md` (before/after on the golden chart 1995-04-29 1
 - **Batch 3 (ten consequential claims)** ruled row by row: guarantees, a private prediction, a
   medication schedule, a betting pool, "espalier" gone; originals kept where sharper. **The Sage's
   third domain word Mother → Nurture** (`GOD/zhengyin.json`, five `k2_domain_readings` keys, `k2.js`).
+- **All five Sage Nurture readings** now share the Water shape (where care came early / where it ran dry, one directive); "either way" is gone.
 - **Batch 4 (four echo-chain chips):** 己 *Too agreeable* → *Stuck in your ways* (four-word idiom
   admitted by name in the audit's list); 丁 *Rekindles people* lands on what lasts; two private-knowledge
   claims gone.
@@ -61,6 +62,4 @@ and `RULINGS_PROOF_2026-09-20.md` (before/after on the golden chart 1995-04-29 1
 
 - Owner's read of the 140 items under phrase law v6 (parked since 2026-09-16).
 - Five within-cell single-run overlaps (inventory).
-- The other four Sage "Nurture" readings still carry "either way / either origin" (M17 pattern);
-  not ruled.
 - Cloudflare tidy-ups; design-HTML sync debt (unchanged from the 2026-09-15 handoff).

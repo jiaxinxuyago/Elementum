@@ -100,7 +100,7 @@
         "value": {
           "Knowledge": "Your knowledge is armory-grade: fewer books, deeply proofed, instantly deployable. You trust what survived testing. Curate hard, and reread the masters yearly. Your edge is depth.",
           "Shelter": "Your shelter is a forge-side bench: people come to you and leave straightened. You protect by tempering. Remember some visitors need only warmth. Not everything cracked wants rework.",
-          "Nurture": "The nurturing thread runs steel-true: a nurturing figure of standards, or the ache where that discipline should have been. Her exactness lives in your caring. Keep the precision, soften the grading."
+          "Nurture": "The nourishing thread runs steel-true. Where care came early, you draw on it without thinking. Where it was missing, you set your own standard. Keep the precision, soften the grading."
         }
       },
       {
@@ -200,7 +200,7 @@
         "value": {
           "Knowledge": "Your knowledge is settled sediment: practical wisdom layered by years, the kind villages consult. You know what actually works. Write the almanac down. Ground should not be the only copy.",
           "Shelter": "Your shelter is the family land itself: people return to you between every attempt at the world. Being home is holy work with no clock. Post seasons. Even land lies fallow.",
-          "Nurture": "The nurturing thread is bedrock here: nurture received deep or a hollow you filled by becoming the ground yourself. Either origin made you everyone’s home. Claim one plot back."
+          "Nurture": "The nourishing thread is bedrock here. Where care came early, you draw on it without thinking. Where it was missing, you became the ground yourself. Keep one plot for you."
         }
       },
       {
@@ -300,7 +300,7 @@
         "value": {
           "Knowledge": "Your knowledge is arboreal: living, branching, taught best by walking someone through the grove. You learn to pass on. Teaching is how your roots drink.",
           "Shelter": "Your shelter is canopy: people rest under your patience and grow in your shade. The forest never asks who waters the oldest tree. Arrange your own rain.",
-          "Nurture": "The nurturing thread is orchard-deep: a nurturing figure who planted daily, or soil you had to enrich alone. Either way you became the gardener. Tend your own roots with the same hands."
+          "Nurture": "The nourishing thread runs orchard-deep. Where care came early, you draw on it without thinking. Where it ran thin, you grew your own. Tend your roots with the same hands you use on everyone else’s."
         }
       },
       {
@@ -500,7 +500,7 @@
         "value": {
           "Knowledge": "Your knowledge lives as story: wisdom kept warm and passed mouth to mouth. You remember what mattered, not what was footnoted. Tell it often. Stories die refrigerated.",
           "Shelter": "Your shelter is firelight: people arrive cold and leave believing in themselves. That rekindling is rare medicine. Notice who only visits to warm their hands, and bank accordingly.",
-          "Nurture": "The nurturing thread glows in you: a warming figure whose kitchen was church, or a cold hearth you swore to answer. Your tending is the answer. Let someone tend the tender."
+          "Nurture": "The nourishing thread glows in you. Where care came early, you draw on it without thinking. Where the hearth was cold, you lit your own. Let someone tend you for once."
         }
       }
     ]
