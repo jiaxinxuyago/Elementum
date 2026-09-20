@@ -38,7 +38,8 @@
         "remedy": "Trees also need sun."
       },
       "wide": {
-        "clause": "Water is already here in plenty, the rain the whole tree drinks from."
+        "clause": "Water is already here in plenty, the rain the whole tree drinks from.",
+        "remedy": "Stop refilling. Grow something from what you already know."
       },
       "missing": {
         "clause": "No water at the root: reaching on dry ground, nothing taken in before it is spent.",
@@ -65,7 +66,8 @@
         "remedy": "Vines also need sun."
       },
       "wide": {
-        "clause": "Water is already here in plenty, the rain the whole vine drinks from."
+        "clause": "Water is already here in plenty, the rain the whole vine drinks from.",
+        "remedy": "Stop refilling. Grow something from what you already know."
       }
     },
     "mechanism_yin": {

@@ -38,7 +38,8 @@
         "remedy": "Cut fewer branches, and finish them."
       },
       "wide": {
-        "clause": "Wood is already here in plenty, the material the knife is for."
+        "clause": "Wood is already here in plenty, the material the knife is for.",
+        "remedy": "Cut what is already in front of you. Finish it."
       },
       "missing": {
         "clause": "No material to cut: skill with nothing to work, an edge kept for its own sake.",
@@ -66,7 +67,8 @@
         "remedy": "Cut fewer stones, and finish them."
       },
       "wide": {
-        "clause": "Wood is already here in plenty, the material the wheel is for."
+        "clause": "Wood is already here in plenty, the material the wheel is for.",
+        "remedy": "Cut what is already in front of you. Finish it."
       }
     },
     "mechanism_yin": {

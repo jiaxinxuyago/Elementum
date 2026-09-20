@@ -38,7 +38,8 @@
         "remedy": "Your silence is part of the deposit."
       },
       "wide": {
-        "clause": "You have plenty of Metal, the ore your mountain was keeping."
+        "clause": "You have plenty of Metal, the ore your mountain was keeping.",
+        "remedy": "Ship the piece that is already finished."
       },
       "missing": {
         "clause": "The ore stays buried: patience that never mints anything.",
@@ -62,7 +63,8 @@
         "clause": "The mining never stops: everything minted, the topsoil stripped for output."
       },
       "wide": {
-        "clause": "You have plenty of Metal, the ore your soil was keeping."
+        "clause": "You have plenty of Metal, the ore your soil was keeping.",
+        "remedy": "Ship the piece that is already finished."
       }
     },
     "mechanism_yin": {

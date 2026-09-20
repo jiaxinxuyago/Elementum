@@ -38,7 +38,8 @@
         "remedy": "Cut the noise and the water clears."
       },
       "wide": {
-        "clause": "There is no shortage of Water in you, the channel that lets the blade breathe."
+        "clause": "There is no shortage of Water in you, the channel that lets the blade breathe.",
+        "remedy": "Say it while it is fresh. Ship the draft."
       },
       "missing": {
         "clause": "No channel out: much forged, nothing said, the pressure with nowhere to go.",
@@ -63,7 +64,8 @@
         "remedy": "Writing, speaking, sharing work early lets the stone breathe."
       },
       "wide": {
-        "clause": "There is no shortage of Water in you, the channel that lets the stone breathe."
+        "clause": "There is no shortage of Water in you, the channel that lets the stone breathe.",
+        "remedy": "Say it while it is fresh. Ship the draft."
       }
     },
     "mechanism_yin": {

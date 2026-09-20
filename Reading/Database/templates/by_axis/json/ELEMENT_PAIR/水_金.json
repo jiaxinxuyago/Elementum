@@ -38,7 +38,8 @@
         "remedy": "A spring proves itself by flowing."
       },
       "wide": {
-        "clause": "You have plenty of Metal, the spring that keeps your depth refilled."
+        "clause": "You have plenty of Metal, the spring that keeps your depth refilled.",
+        "remedy": "Use the exact sources you already have."
       },
       "missing": {
         "clause": "No spring feeding the depth: knowing drawn on and never refilled.",
@@ -66,7 +67,8 @@
         "remedy": "Rain proves itself by falling."
       },
       "wide": {
-        "clause": "You have plenty of Metal, the cold air that gathers the rain."
+        "clause": "You have plenty of Metal, the cold air that gathers the rain.",
+        "remedy": "Use the exact sources you already have."
       }
     },
     "mechanism_yin": {

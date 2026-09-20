@@ -39,7 +39,8 @@
         "remedy": "Rivers are meant to breathe."
       },
       "wide": {
-        "clause": "You are well supplied with Earth, the banks that turn depth into a river."
+        "clause": "You are well supplied with Earth, the banks that turn depth into a river.",
+        "remedy": "Keep the role you have. Let it aim you."
       },
       "missing": {
         "clause": "Nothing banks the water: depth spreading wide, arriving nowhere.",
@@ -67,7 +68,8 @@
         "remedy": "Rain is meant to wander."
       },
       "wide": {
-        "clause": "You are well supplied with Earth, the ground that turns rain into a harvest."
+        "clause": "You are well supplied with Earth, the ground that turns rain into a harvest.",
+        "remedy": "Keep the role you have. Let it aim you."
       }
     },
     "mechanism_yin": {

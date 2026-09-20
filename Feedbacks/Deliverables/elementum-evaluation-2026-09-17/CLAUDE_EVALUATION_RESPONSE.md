@@ -322,3 +322,9 @@ Still to be shown as candidate batches during execution, under the same before-a
 Correction (owner, same day): the 火_木 `advise_friction` takes the plain redraft below (54 words, inside the 60-word budget, clean under the repetition check). Every other advice line stays as authored.
 
 > You start more than you finish. Finish the one project closest to done this month, as it is, and let it ship at eighty percent. Put every new course, book or plan on a list until that one is out. When the urge to start something rises, ask which unfinished thing it would replace.
+
+### 6c. Batch landings
+
+| Batch | Status | Commit |
+|---|---|---|
+| 1 · 20 wide remedies (27 with yin) | **Approved and landed 2026-09-20.** `carry.wide.remedy` / `carry_yin.wide.remedy`; the energy page and the carry card add the remedy after the plentiful clause. | see git log |

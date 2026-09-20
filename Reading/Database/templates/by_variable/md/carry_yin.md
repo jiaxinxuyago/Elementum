@@ -34,6 +34,7 @@
 | `catalyst.clause` | The vine outpaces the rain: ambition still reaching while the soil dries. |
 | `friction.remedy` | Vines also need sun. |
 | `wide.clause` | Water is already here in plenty, the rain the whole vine drinks from. |
+| `wide.remedy` | Stop refilling. Grow something from what you already know. |
 
 ### Fire core × Fire — the Core · 火_火
 
@@ -60,6 +61,7 @@
 |---|---|
 | `friction.clause` | The mining never stops: everything minted, the topsoil stripped for output. |
 | `wide.clause` | You have plenty of Metal, the ore your soil was keeping. |
+| `wide.remedy` | Ship the piece that is already finished. |
 
 ### Metal core × Wood — the Drive · 金_木
 
@@ -69,6 +71,7 @@
 | `friction.clause` | The cutting never stops: trays of half-set stones, a facet worn on material that never ends. |
 | `friction.remedy` | Cut fewer stones, and finish them. |
 | `wide.clause` | Wood is already here in plenty, the material the wheel is for. |
+| `wide.remedy` | Cut what is already in front of you. Finish it. |
 
 ### Metal core × Fire — the Duty · 金_火
 
@@ -78,6 +81,7 @@
 | `friction.clause` | The wheel never stops: constant pressure, no bench time, a stone thinned by a polish it never leaves. |
 | `friction.remedy` | Step off the wheel long enough to keep a facet. |
 | `wide.clause` | Fire is easy for you to reach, the fire that finishes the stone. |
+| `wide.remedy` | Take the pressure you have. Let it sharpen you. |
 
 ### Metal core × Earth — the Root · 金_土
 
@@ -105,6 +109,7 @@
 | `catalyst.clause` | This channel shows as pressure without release: much polished, little said. |
 | `catalyst.remedy` | Writing, speaking, sharing work early lets the stone breathe. |
 | `wide.clause` | There is no shortage of Water in you, the channel that lets the stone breathe. |
+| `wide.remedy` | Say it while it is fresh. Ship the draft. |
 
 ### Water core × Earth — the Duty · 水_土
 
@@ -114,6 +119,7 @@
 | `friction.clause` | The gutters take it all: rain routed into a schedule until it forgets where it wanted to fall. |
 | `friction.remedy` | Rain is meant to wander. |
 | `wide.clause` | You are well supplied with Earth, the ground that turns rain into a harvest. |
+| `wide.remedy` | Keep the role you have. Let it aim you. |
 
 ### Water core × Metal — the Root · 水_金
 
@@ -123,6 +129,7 @@
 | `friction.clause` | The rigor sets like concrete: so much refining the rain never falls, feeling held in tanks of preparation. |
 | `friction.remedy` | Rain proves itself by falling. |
 | `wide.clause` | You have plenty of Metal, the cold air that gathers the rain. |
+| `wide.remedy` | Use the exact sources you already have. |
 
 ### Water core × Water — the Core · 水_水
 

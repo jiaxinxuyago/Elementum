@@ -44,7 +44,8 @@
             "remedy": "Bank the fire and let some growth stand."
           },
           "wide": {
-            "clause": "Fire is all around you, the light everything you grow was reaching for."
+            "clause": "Fire is all around you, the light everything you grow was reaching for.",
+            "remedy": "Show more of the work. It is ready."
           },
           "missing": {
             "clause": "Nothing kindled: years of growth and no light on any of it.",
@@ -78,7 +79,8 @@
             "remedy": "Hold less hillside, hold it deeper."
           },
           "wide": {
-            "clause": "Earth is one thing you never run short of, the ground you were built to take root in."
+            "clause": "Earth is one thing you never run short of, the ground you were built to take root in.",
+            "remedy": "Commit to one of the places you already hold."
           },
           "missing": {
             "clause": "No ground to root in: reach with nothing held, ambition that never lands.",
@@ -112,7 +114,8 @@
             "remedy": "Step back from blades that prune for pruning’s sake."
           },
           "wide": {
-            "clause": "You have plenty of Metal, the shears that turn growth into fruit."
+            "clause": "You have plenty of Metal, the shears that turn growth into fruit.",
+            "remedy": "Accept the cut. Keep what survives the edit."
           },
           "missing": {
             "clause": "Nothing prunes the growth: reach in every direction, fruit in none.",
@@ -146,7 +149,8 @@
             "remedy": "Trees also need sun."
           },
           "wide": {
-            "clause": "Water is already here in plenty, the rain the whole tree drinks from."
+            "clause": "Water is already here in plenty, the rain the whole tree drinks from.",
+            "remedy": "Stop refilling. Grow something from what you already know."
           },
           "missing": {
             "clause": "No water at the root: reaching on dry ground, nothing taken in before it is spent.",
@@ -180,7 +184,8 @@
             "remedy": "Burn one pile at a time."
           },
           "wide": {
-            "clause": "You were given plenty of Wood, the fuel your light was waiting for."
+            "clause": "You were given plenty of Wood, the fuel your light was waiting for.",
+            "remedy": "Burn what you have gathered. Light one thing this week."
           },
           "missing": {
             "clause": "No fuel behind the flame: brilliance on nothing, warmth borrowed from tomorrow.",
@@ -241,7 +246,8 @@
             "remedy": "Not every flame must found something."
           },
           "wide": {
-            "clause": "Earth is already here in plenty, the hearth that keeps what you burn."
+            "clause": "Earth is already here in plenty, the hearth that keeps what you burn.",
+            "remedy": "Build one thing that will outlast the evening."
           },
           "missing": {
             "clause": "No ash: heat and light, nothing built from the burning.",
@@ -275,7 +281,8 @@
             "remedy": "A forge needs objects, not only fire."
           },
           "wide": {
-            "clause": "You are well supplied with Metal, the hard thing your heat was made to work."
+            "clause": "You are well supplied with Metal, the hard thing your heat was made to work.",
+            "remedy": "Work the hard, valuable thing in front of you."
           },
           "missing": {
             "clause": "The forge stands empty: heat with nothing hard to work.",
@@ -309,7 +316,8 @@
             "remedy": "A doused fire serves no one."
           },
           "wide": {
-            "clause": "There is no shortage of Water in you, the depth that keeps the burn honest."
+            "clause": "There is no shortage of Water in you, the depth that keeps the burn honest.",
+            "remedy": "Take the cold review. Let it steady you."
           },
           "missing": {
             "clause": "Nothing checks the burn: enthusiasm without a gauge, light that has never been rained on.",
@@ -343,7 +351,8 @@
             "remedy": "You are ground, not groundskeeper to everyone."
           },
           "wide": {
-            "clause": "Wood is one thing you never run short of, the living thing your ground exists to hold."
+            "clause": "Wood is one thing you never run short of, the living thing your ground exists to hold.",
+            "remedy": "Say yes to the biggest responsibility on offer."
           },
           "missing": {
             "clause": "Nothing roots in you: ground with no claim on it.",
@@ -377,7 +386,8 @@
             "remedy": "Walk off the hearth and bear some weather."
           },
           "wide": {
-            "clause": "Fire is all around you, the warmth that lets the ground grow anything."
+            "clause": "Fire is all around you, the warmth that lets the ground grow anything.",
+            "remedy": "Spend the warmth. Host, teach, feed people."
           },
           "missing": {
             "clause": "No warmth coming in: duties on cold ground, nothing learned by heart.",
@@ -438,7 +448,8 @@
             "remedy": "Your silence is part of the deposit."
           },
           "wide": {
-            "clause": "You have plenty of Metal, the ore your mountain was keeping."
+            "clause": "You have plenty of Metal, the ore your mountain was keeping.",
+            "remedy": "Ship the piece that is already finished."
           },
           "missing": {
             "clause": "The ore stays buried: patience that never mints anything.",
@@ -472,7 +483,8 @@
             "remedy": "Some water is for watching."
           },
           "wide": {
-            "clause": "Water is easy for you to reach, the river your banks were built for."
+            "clause": "Water is easy for you to reach, the river your banks were built for.",
+            "remedy": "Put the flow you already have to work."
           },
           "missing": {
             "clause": "No river in the banks: structure ready, nothing flowing.",
@@ -506,7 +518,8 @@
             "remedy": "Cut fewer branches, and finish them."
           },
           "wide": {
-            "clause": "Wood is already here in plenty, the material the knife is for."
+            "clause": "Wood is already here in plenty, the material the knife is for.",
+            "remedy": "Cut what is already in front of you. Finish it."
           },
           "missing": {
             "clause": "No material to cut: skill with nothing to work, an edge kept for its own sake.",
@@ -540,7 +553,8 @@
             "remedy": "Step out of the fire long enough to hold an edge."
           },
           "wide": {
-            "clause": "Fire is easy for you to reach, the forge that finishes the edge."
+            "clause": "Fire is easy for you to reach, the forge that finishes the edge.",
+            "remedy": "Take the pressure you have. Let it sharpen you."
           },
           "missing": {
             "clause": "Nothing tempers the edge: a shape that was never tested, an edge that never met an arena.",
@@ -574,7 +588,8 @@
             "remedy": "Dig out and cut something real."
           },
           "wide": {
-            "clause": "You are well supplied with Earth, the ground the ore grows in."
+            "clause": "You are well supplied with Earth, the ground the ore grows in.",
+            "remedy": "Use what the ground gave you. Cut something."
           },
           "missing": {
             "clause": "No ground under the edge: judgment made on the spot, nothing settled in first.",
@@ -635,7 +650,8 @@
             "remedy": "Cut the noise and the water clears."
           },
           "wide": {
-            "clause": "There is no shortage of Water in you, the channel that lets the blade breathe."
+            "clause": "There is no shortage of Water in you, the channel that lets the blade breathe.",
+            "remedy": "Say it while it is fresh. Ship the draft."
           },
           "missing": {
             "clause": "No channel out: much forged, nothing said, the pressure with nowhere to go.",
@@ -669,7 +685,8 @@
             "remedy": "Rain is also allowed to rest."
           },
           "wide": {
-            "clause": "You were given plenty of Wood, the green thing your rain is for."
+            "clause": "You were given plenty of Wood, the green thing your rain is for.",
+            "remedy": "Pick one green thing and pour into it."
           },
           "missing": {
             "clause": "The rain withholds: depth underground, nothing green from it.",
@@ -703,7 +720,8 @@
             "remedy": "Cool it overnight before you move."
           },
           "wide": {
-            "clause": "Fire is all around you, the bright thing your depth should claim."
+            "clause": "Fire is all around you, the bright thing your depth should claim.",
+            "remedy": "Claim one bright chance and see it through."
           },
           "missing": {
             "clause": "Nothing bright is governed: depth with no stake in the blaze.",
@@ -737,7 +755,8 @@
             "remedy": "Rivers are meant to breathe."
           },
           "wide": {
-            "clause": "You are well supplied with Earth, the banks that turn depth into a river."
+            "clause": "You are well supplied with Earth, the banks that turn depth into a river.",
+            "remedy": "Keep the role you have. Let it aim you."
           },
           "missing": {
             "clause": "Nothing banks the water: depth spreading wide, arriving nowhere.",
@@ -771,7 +790,8 @@
             "remedy": "A spring proves itself by flowing."
           },
           "wide": {
-            "clause": "You have plenty of Metal, the spring that keeps your depth refilled."
+            "clause": "You have plenty of Metal, the spring that keeps your depth refilled.",
+            "remedy": "Use the exact sources you already have."
           },
           "missing": {
             "clause": "No spring feeding the depth: knowing drawn on and never refilled.",
