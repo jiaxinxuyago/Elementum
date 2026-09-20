@@ -227,7 +227,7 @@
             "door": "mind",
             "face": "wide",
             "echo_of": "火_木.carry.wide",
-            "desc": "With this much fuel behind the flame, the small tell, the changed tone, the detail everyone walked past all catch your eye. Three months later it turned out to be the whole story."
+            "desc": "With this much fuel behind the flame, the small tell, the changed tone, the detail everyone walked past all catch your eye. You usually know why before anyone explains."
           },
           {
             "phrase": "Rekindles people",
@@ -235,7 +235,7 @@
             "door": "expression",
             "face": "echo",
             "echo_of": "火_土.function.definition_catalyst",
-            "desc": "Your belief in someone works at close range and lasts. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again."
+            "desc": "Your belief in someone works at close range and lasts. What you give a friend over one evening, a push, a plan, a way to see it, is still holding them up a year later."
           },
           {
             "phrase": "Cracks hard problems",
@@ -605,7 +605,7 @@
             "door": "mind",
             "face": "wide",
             "echo_of": "水_金.carry.wide",
-            "desc": "Fed by exact sources, the feel arrives early. You knew the couple was fighting before they did."
+            "desc": "Fed from exact sources, the feel arrives early. The mood has shifted before anyone says so, and your tone has already changed to meet it."
           },
           {
             "phrase": "Changes minds softly",

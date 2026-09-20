@@ -1,4 +1,4 @@
-> **Batch 3 LANDED 2026-09-20** after a row-by-row ruling (record: CLAUDE_EVALUATION_RESPONSE.md §6c). Several rows landed in a third form the owner cut from both columns. Batch 4 below is still open.
+> **Batch 3 LANDED 2026-09-20** after a row-by-row ruling (record: CLAUDE_EVALUATION_RESPONSE.md §6c). Several rows landed in a third form the owner cut from both columns. Batch 4 also LANDED (record: §6c).
 
 # Batches 3 and 4 for review
 

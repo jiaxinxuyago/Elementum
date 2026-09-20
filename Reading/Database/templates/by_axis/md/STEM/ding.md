@@ -49,13 +49,13 @@
 | `gifts[3].door` | mind |
 | `gifts[3].face` | wide |
 | `gifts[3].echo_of` | 火_木.carry.wide |
-| `gifts[3].desc` | With this much fuel behind the flame, the small tell, the changed tone, the detail everyone walked past all catch your eye. Three months later it turned out to be the whole story. |
+| `gifts[3].desc` | With this much fuel behind the flame, the small tell, the changed tone, the detail everyone walked past all catch your eye. You usually know why before anyone explains. |
 | `gifts[4].phrase` | Rekindles people |
 | `gifts[4].dim` | close range |
 | `gifts[4].door` | expression |
 | `gifts[4].face` | echo |
 | `gifts[4].echo_of` | 火_土.function.definition_catalyst |
-| `gifts[4].desc` | Your belief in someone works at close range and lasts. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again. |
+| `gifts[4].desc` | Your belief in someone works at close range and lasts. What you give a friend over one evening, a push, a plan, a way to see it, is still holding them up a year later. |
 | `gifts[5].phrase` | Cracks hard problems |
 | `gifts[5].dim` | the work you pick |
 | `gifts[5].door` | action |
@@ -278,3 +278,15 @@
 | `retired_2026-09-20_evaluation_rulings.shadows.Smothered by plans.face` | excess |
 | `retired_2026-09-20_evaluation_rulings.shadows.Smothered by plans.echo_of` | 火_木.carry.excess |
 | `retired_2026-09-20_evaluation_rulings.shadows.Smothered by plans.desc` | So much fuel stacked around one small flame that it cannot catch. The best plan is under six others. |
+| `retired_2026-09-20_batch4.gifts.Misses nothing.phrase` | Misses nothing |
+| `retired_2026-09-20_batch4.gifts.Misses nothing.dim` | small details |
+| `retired_2026-09-20_batch4.gifts.Misses nothing.door` | mind |
+| `retired_2026-09-20_batch4.gifts.Misses nothing.face` | wide |
+| `retired_2026-09-20_batch4.gifts.Misses nothing.echo_of` | 火_木.carry.wide |
+| `retired_2026-09-20_batch4.gifts.Misses nothing.desc` | With this much fuel behind the flame, the small tell, the changed tone, the detail everyone walked past all catch your eye. Three months later it turned out to be the whole story. |
+| `retired_2026-09-20_batch4.gifts.Rekindles people.phrase` | Rekindles people |
+| `retired_2026-09-20_batch4.gifts.Rekindles people.dim` | close range |
+| `retired_2026-09-20_batch4.gifts.Rekindles people.door` | expression |
+| `retired_2026-09-20_batch4.gifts.Rekindles people.face` | echo |
+| `retired_2026-09-20_batch4.gifts.Rekindles people.echo_of` | 火_土.function.definition_catalyst |
+| `retired_2026-09-20_batch4.gifts.Rekindles people.desc` | Your belief in someone works at close range and lasts. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again. |

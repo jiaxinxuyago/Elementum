@@ -49,7 +49,7 @@
 | `gifts[3].door` | mind |
 | `gifts[3].face` | wide |
 | `gifts[3].echo_of` | 水_金.carry.wide |
-| `gifts[3].desc` | Fed by exact sources, the feel arrives early. You knew the couple was fighting before they did. |
+| `gifts[3].desc` | Fed from exact sources, the feel arrives early. The mood has shifted before anyone says so, and your tone has already changed to meet it. |
 | `gifts[4].phrase` | Changes minds softly |
 | `gifts[4].dim` | influence on others |
 | `gifts[4].door` | expression |
@@ -271,3 +271,9 @@
 | `retired_inner_judge_2026-09-17[0].echo_of` | 水_土.function.definition_friction |
 | `retired_inner_judge_2026-09-17[0].desc` | A calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you run on. |
 | `retired_inner_judge_2026-09-17[0].why` | owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition |
+| `retired_2026-09-20_batch4.gifts.Feels the undercurrent.phrase` | Feels the undercurrent |
+| `retired_2026-09-20_batch4.gifts.Feels the undercurrent.dim` | unspoken feelings |
+| `retired_2026-09-20_batch4.gifts.Feels the undercurrent.door` | mind |
+| `retired_2026-09-20_batch4.gifts.Feels the undercurrent.face` | wide |
+| `retired_2026-09-20_batch4.gifts.Feels the undercurrent.echo_of` | 水_金.carry.wide |
+| `retired_2026-09-20_batch4.gifts.Feels the undercurrent.desc` | Fed by exact sources, the feel arrives early. You knew the couple was fighting before they did. |

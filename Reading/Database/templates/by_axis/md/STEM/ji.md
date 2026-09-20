@@ -74,12 +74,12 @@
 | `shadows[0].face` | echo |
 | `shadows[0].echo_of` | 土_土.function.definition_friction |
 | `shadows[0].desc` | Heaviness accumulating. Everything anyone drops goes into you and nothing drains out, and the field that grew things is turning to mud. |
-| `shadows[1].phrase` | Too agreeable |
-| `shadows[1].dim` | your own wants |
+| `shadows[1].phrase` | Stuck in your ways |
+| `shadows[1].dim` | changing course |
 | `shadows[1].door` | body |
 | `shadows[1].face` | excess |
 | `shadows[1].echo_of` | 土_土.carry.excess |
-| `shadows[1].desc` | So much ground given over to everyone else that nothing of your own can root. The group picks the plan and you say it is fine. It is always fine. |
+| `shadows[1].desc` | So much settled ground that nothing new can take root. The plan that worked once is still the plan, and the fresh idea never gets past the doorway. |
 | `shadows[2].phrase` | Overheats on praise |
 | `shadows[2].dim` | praise |
 | `shadows[2].door` | mind |
@@ -241,3 +241,9 @@
 | `retired_inner_judge_2026-09-17[0].echo_of` | 土_木.function.definition_friction |
 | `retired_inner_judge_2026-09-17[0].desc` | Everyone rooted in you, nothing rooted for you. The request lands and the yes is out before you have checked the calendar or the tank. |
 | `retired_inner_judge_2026-09-17[0].why` | owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition |
+| `retired_2026-09-20_batch4.shadows.Too agreeable.phrase` | Too agreeable |
+| `retired_2026-09-20_batch4.shadows.Too agreeable.dim` | your own wants |
+| `retired_2026-09-20_batch4.shadows.Too agreeable.door` | body |
+| `retired_2026-09-20_batch4.shadows.Too agreeable.face` | excess |
+| `retired_2026-09-20_batch4.shadows.Too agreeable.echo_of` | 土_土.carry.excess |
+| `retired_2026-09-20_batch4.shadows.Too agreeable.desc` | So much ground given over to everyone else that nothing of your own can root. The group picks the plan and you say it is fine. It is always fine. |

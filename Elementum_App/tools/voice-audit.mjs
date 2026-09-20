@@ -133,7 +133,10 @@ for (const axis of fs.readdirSync(STATION)) {
         const kws = (vars.stem_keywords || []).map(kwStrip).filter((k) => k.length >= 4);
         for (const it of value) {
           if (String(it.phrase).toLowerCase().trim() === String(it.dim).toLowerCase().trim()) { console.log(`VOICE  ${where} :: phrase equals dim ("${it.phrase}") — dim is the angle, not the trait`); fail++; }
-          if (String(it.phrase).split(/\s+/).length > 3) { console.log(`VOICE  ${where} :: phrase "${it.phrase}" over 3 words (phrase law v4)`); fail++; }
+          // Phrase law: ≤3 everyday words. A fixed everyday idiom may run to four,
+          // named here by owner ruling (2026-09-20: "Stuck in your ways", 己 Body excess).
+          const IDIOMS_4W = new Set(['stuck in your ways']);
+          if (String(it.phrase).split(/\s+/).length > 3 && !IDIOMS_4W.has(String(it.phrase).toLowerCase().trim())) { console.log(`VOICE  ${where} :: phrase "${it.phrase}" over 3 words (phrase law v6)`); fail++; }
           for (const w of String(it.phrase).split(/\s+/).map(kwStrip).filter((x) => x.length >= 4)) {
             for (const k of kws) if (w.includes(k) || k.includes(w)) { console.log(`VOICE  ${where} :: phrase "${it.phrase}" shares a root with keyword chip (${w} ~ ${k}) — register split (REA_16 §3 v4)`); fail++; }
           }

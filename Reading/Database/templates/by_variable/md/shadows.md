@@ -251,12 +251,12 @@
 | `0.face` | echo |
 | `0.echo_of` | 土_土.function.definition_friction |
 | `0.desc` | Heaviness accumulating. Everything anyone drops goes into you and nothing drains out, and the field that grew things is turning to mud. |
-| `1.phrase` | Too agreeable |
-| `1.dim` | your own wants |
+| `1.phrase` | Stuck in your ways |
+| `1.dim` | changing course |
 | `1.door` | body |
 | `1.face` | excess |
 | `1.echo_of` | 土_土.carry.excess |
-| `1.desc` | So much ground given over to everyone else that nothing of your own can root. The group picks the plan and you say it is fine. It is always fine. |
+| `1.desc` | So much settled ground that nothing new can take root. The plan that worked once is still the plan, and the fresh idea never gets past the doorway. |
 | `2.phrase` | Overheats on praise |
 | `2.dim` | praise |
 | `2.door` | mind |

@@ -174,13 +174,13 @@
 | `3.door` | mind |
 | `3.face` | wide |
 | `3.echo_of` | 火_木.carry.wide |
-| `3.desc` | With this much fuel behind the flame, the small tell, the changed tone, the detail everyone walked past all catch your eye. Three months later it turned out to be the whole story. |
+| `3.desc` | With this much fuel behind the flame, the small tell, the changed tone, the detail everyone walked past all catch your eye. You usually know why before anyone explains. |
 | `4.phrase` | Rekindles people |
 | `4.dim` | close range |
 | `4.door` | expression |
 | `4.face` | echo |
 | `4.echo_of` | 火_土.function.definition_catalyst |
-| `4.desc` | Your belief in someone works at close range and lasts. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again. |
+| `4.desc` | Your belief in someone works at close range and lasts. What you give a friend over one evening, a push, a plan, a way to see it, is still holding them up a year later. |
 | `5.phrase` | Cracks hard problems |
 | `5.dim` | the work you pick |
 | `5.door` | action |
@@ -456,7 +456,7 @@
 | `3.door` | mind |
 | `3.face` | wide |
 | `3.echo_of` | 水_金.carry.wide |
-| `3.desc` | Fed by exact sources, the feel arrives early. You knew the couple was fighting before they did. |
+| `3.desc` | Fed from exact sources, the feel arrives early. The mood has shifted before anyone says so, and your tone has already changed to meet it. |
 | `4.phrase` | Changes minds softly |
 | `4.dim` | influence on others |
 | `4.door` | expression |

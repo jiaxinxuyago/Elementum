@@ -96,12 +96,12 @@
         "desc": "Heaviness accumulating. Everything anyone drops goes into you and nothing drains out, and the field that grew things is turning to mud."
       },
       {
-        "phrase": "Too agreeable",
-        "dim": "your own wants",
+        "phrase": "Stuck in your ways",
+        "dim": "changing course",
         "door": "body",
         "face": "excess",
         "echo_of": "土_土.carry.excess",
-        "desc": "So much ground given over to everyone else that nothing of your own can root. The group picks the plan and you say it is fine. It is always fine."
+        "desc": "So much settled ground that nothing new can take root. The plan that worked once is still the plan, and the fresh idea never gets past the doorway."
       },
       {
         "phrase": "Overheats on praise",
@@ -407,7 +407,17 @@
           "desc": "Everyone rooted in you, nothing rooted for you. The request lands and the yes is out before you have checked the calendar or the tank.",
           "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
         }
-      ]
+      ],
+      "retired_2026-09-20_batch4": {
+        "shadows.Too agreeable": {
+          "phrase": "Too agreeable",
+          "dim": "your own wants",
+          "door": "body",
+          "face": "excess",
+          "echo_of": "土_土.carry.excess",
+          "desc": "So much ground given over to everyone else that nothing of your own can root. The group picks the plan and you say it is fine. It is always fine."
+        }
+      }
     },
     "door_note": {
       "body": "Earth",

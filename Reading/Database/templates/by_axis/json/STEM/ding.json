@@ -59,7 +59,7 @@
         "door": "mind",
         "face": "wide",
         "echo_of": "火_木.carry.wide",
-        "desc": "With this much fuel behind the flame, the small tell, the changed tone, the detail everyone walked past all catch your eye. Three months later it turned out to be the whole story."
+        "desc": "With this much fuel behind the flame, the small tell, the changed tone, the detail everyone walked past all catch your eye. You usually know why before anyone explains."
       },
       {
         "phrase": "Rekindles people",
@@ -67,7 +67,7 @@
         "door": "expression",
         "face": "echo",
         "echo_of": "火_土.function.definition_catalyst",
-        "desc": "Your belief in someone works at close range and lasts. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again."
+        "desc": "Your belief in someone works at close range and lasts. What you give a friend over one evening, a push, a plan, a way to see it, is still holding them up a year later."
       },
       {
         "phrase": "Cracks hard problems",
@@ -463,6 +463,24 @@
           "face": "excess",
           "echo_of": "火_木.carry.excess",
           "desc": "So much fuel stacked around one small flame that it cannot catch. The best plan is under six others."
+        }
+      },
+      "retired_2026-09-20_batch4": {
+        "gifts.Misses nothing": {
+          "phrase": "Misses nothing",
+          "dim": "small details",
+          "door": "mind",
+          "face": "wide",
+          "echo_of": "火_木.carry.wide",
+          "desc": "With this much fuel behind the flame, the small tell, the changed tone, the detail everyone walked past all catch your eye. Three months later it turned out to be the whole story."
+        },
+        "gifts.Rekindles people": {
+          "phrase": "Rekindles people",
+          "dim": "close range",
+          "door": "expression",
+          "face": "echo",
+          "echo_of": "火_土.function.definition_catalyst",
+          "desc": "Your belief in someone works at close range and lasts. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again."
         }
       }
     },

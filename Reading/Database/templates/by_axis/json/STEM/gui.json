@@ -59,7 +59,7 @@
         "door": "mind",
         "face": "wide",
         "echo_of": "水_金.carry.wide",
-        "desc": "Fed by exact sources, the feel arrives early. You knew the couple was fighting before they did."
+        "desc": "Fed from exact sources, the feel arrives early. The mood has shifted before anyone says so, and your tone has already changed to meet it."
       },
       {
         "phrase": "Changes minds softly",
@@ -455,7 +455,17 @@
           "desc": "A calendar with no slack, roles held from duty long after they stopped fitting, routine squeezing out the responsiveness you run on.",
           "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
         }
-      ]
+      ],
+      "retired_2026-09-20_batch4": {
+        "gifts.Feels the undercurrent": {
+          "phrase": "Feels the undercurrent",
+          "dim": "unspoken feelings",
+          "door": "mind",
+          "face": "wide",
+          "echo_of": "水_金.carry.wide",
+          "desc": "Fed by exact sources, the feel arrives early. You knew the couple was fighting before they did."
+        }
+      }
     },
     "door_note": {
       "body": "Water",
