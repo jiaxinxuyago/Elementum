@@ -1,3 +1,5 @@
+> **WITHDRAWN 2026-09-20.** The owner reviewed the first four side by side and kept the originals four out of four. The repetition law now covers the fields of one cell on one page only; a chip echoing its definition across pages is the derivation law working. Kept as a record of what was tried and why it lost: the re-cuts steered around the source's best nouns and came out softer.
+
 # Batch 2 for review: the 63 chip descriptions that repeated their source
 
 Each description is re-cut as the moment a person recognises, under the derivation prompt (same mechanism as the source field, the stem's own material) and the repetition law (no four-word run shared with the source). Labels, doors, faces and `echo_of` links are unchanged. The check column reports shared runs against the source, signs, and negative parallelism. Nothing is on disk.

@@ -327,4 +327,5 @@ Correction (owner, same day): the 火_木 `advise_friction` takes the plain redr
 
 | Batch | Status | Commit |
 |---|---|---|
+| 2 · 63 chip descriptions re-cut off their sources | **Withdrawn 2026-09-20.** The owner compared the first four side by side and kept the originals four out of four: the tight cut of the definition's own nouns is the sharper line. The repetition law is narrowed to the fields of one cell on one page; a chip echoing its definition across pages is the derivation law, like the carry line echoing the turn. The audit's chip-vs-source check is removed. The five within-cell overlaps (土_木, 木_火, 水_木) remain the only C3 items. | — |
 | 1 · 20 wide remedies (27 with yin) | **Approved and landed 2026-09-20.** `carry.wide.remedy` / `carry_yin.wide.remedy`; the energy page and the carry card add the remedy after the plentiful clause. | see git log |

@@ -172,17 +172,21 @@ for (const [id, files] of poolPhraseSeen) {
   }
 }
 
-// ── THE REPETITION LAW (owner 2026-09-20, REA_16 §7 phrase law v6) ──
-// No phrase repeats across the fields of one cell or the surfaces of one
-// chart. Mechanical form: no four-word run shared (a) between a STEM pool
-// item's desc and the ELEMENT_PAIR field its `echo_of` names, or (b)
+// ── THE REPETITION LAW (owner 2026-09-20, narrowed the same day; REA_16 §7) ──
+// No phrase repeats across the fields of one cell on one page: definition,
+// turn, advice, carry remedy. Mechanical form: no four-word run shared
 // between two fields of one ELEMENT_PAIR cell. Stop-word-only runs are
-// ignored. The one lawful match is the carry law's cut (carry ↔ mechanism
-// turns) and the yin sibling's echo of the shared line (mechanism_yin ↔
-// mechanism, carry_yin ↔ carry). The two definitions' templated opening
-// ("X is your Function, and as a…") never shows on one chart and is ignored.
+// ignored. Lawful matches: the carry law's cut (carry ↔ mechanism turns),
+// the yin sibling's echo of the shared line (mechanism_yin ↔ mechanism,
+// carry_yin ↔ carry), and the two definitions' templated opening ("X is
+// your Function, and as a…"), which never shows on one chart.
+// NOT covered, by the owner's ruling after reviewing Batch 2: a STEM pool
+// item's desc echoing the ELEMENT_PAIR field its `echo_of` names. The chip
+// sits on the Day Master page and the definition on the energy page, and
+// the derivation law cuts the chip from the definition on purpose, exactly
+// as the carry line is cut from the turn. The tight cut is the better line.
 // Tier: BLOCKING when the field's §2c row carries `rep-block`; until then
-// an inventory (REP lines), the remediation map for the C3 batch.
+// an inventory (REP lines).
 {
   const REP_STOP = new Set(['the', 'a', 'an', 'and', 'of', 'to', 'in', 'on', 'it', 'is', 'you', 'your', 'that', 'for', 'with', 'as', 'at', 'by', 'one', 'this']);
   const repGrams = (t) => { const w = String(t || '').toLowerCase().replace(/[^a-z一-鿿\s']/g, ' ').split(/\s+/).filter(Boolean); const out = new Set(); for (let i = 0; i + 4 <= w.length; i++) { const g = w.slice(i, i + 4); if (g.every((x) => REP_STOP.has(x))) continue; out.add(g.join(' ')); } return out; };
@@ -190,20 +194,9 @@ for (const [id, files] of poolPhraseSeen) {
   const pairDir = path.join(STATION, 'ELEMENT_PAIR');
   const pairs = {};
   for (const f of fs.readdirSync(pairDir).filter((x) => x.endsWith('.json') && !x.startsWith('_'))) pairs[f.slice(0, -5)] = JSON.parse(fs.readFileSync(path.join(pairDir, f), 'utf8')).candidates || {};
-  const srcOf = (echo) => { const [cell, ...rest] = String(echo || '').split('.'); let d = pairs[cell]; for (const r of rest) d = d?.[r]; return typeof d === 'string' ? d : (d?.clause || ''); };
   let repN = 0; const repLines = [];
   const report = (rule, where, msg) => { if (rule?.notes.includes('rep-block')) { console.log(`VOICE  ${where} :: ${msg}`); fail++; } else { repN++; if (repLines.length < 12) repLines.push(`REP    ${where} :: ${msg}`); } };
-  // (a) pool item desc vs its echo source
-  const stemDir = path.join(STATION, 'STEM');
-  for (const f of fs.readdirSync(stemDir).filter((x) => x.endsWith('.json') && !x.startsWith('_'))) {
-    const vars = JSON.parse(fs.readFileSync(path.join(stemDir, f), 'utf8')).candidates || {};
-    for (const field of ['gifts', 'shadows']) for (const it of vars[field] || []) {
-      if (!it?.echo_of) continue;
-      const sh = repShared(it.desc, srcOf(it.echo_of));
-      if (sh.length) report(ruleFor('STEM', field), `STEM/${f} :: ${field} "${it.phrase}"`, `desc repeats its source ${it.echo_of} (${sh.length} run${sh.length > 1 ? 's' : ''}, e.g. "${sh[0]}") — phrase law v6`);
-    }
-  }
-  // (b) fields within one pair cell
+  // fields within one pair cell
   const lawful = (a, b) => { const t = (x) => x.split('.')[0]; const [ta, tb] = [t(a), t(b)]; return (ta === 'carry' && tb === 'mechanism') || (ta === 'mechanism' && tb === 'carry') || (ta === 'carry' && tb === 'carry') || (ta === 'carry_yin' || tb === 'carry_yin') || (ta === 'mechanism_yin' || tb === 'mechanism_yin') || (a === 'function.definition_catalyst' && b === 'function.definition_friction'); };
   for (const [cell, c] of Object.entries(pairs)) {
     const F = [];
