@@ -9,6 +9,7 @@
 // ===================================================================
 
 import { STEM_CARD_DATA, TG_PERSONA, resolveArchetype, selfCardFor } from '../../content/index.js';
+import { poolDoors } from '../journey/journeyData.js';
 import { FACE_CARD } from '../../content/reading/index.js';
 
 const join = (xs) => xs.filter(Boolean).join(' · ');
@@ -29,7 +30,7 @@ export function buildVariableGroups(model, activeEl, chart) {
   const m = model;
   const stem = m?.stem;
   const baseline = stem ? STEM_CARD_DATA[stem] : null;
-  const card = baseline && chart ? resolveArchetype(stem, baseline, chart) : baseline;
+  const card = baseline && chart ? resolveArchetype(stem, baseline, chart, m ? poolDoors(m) : {}, m?.band || null) : baseline;
   const towers = m ? [...m.els].sort((a, b) => b.presence - a.presence) : [];
   const perEl = (f) => join(towers.map((r) => `${r.name}:${f(r) ?? '—'}`));
 
@@ -105,7 +106,7 @@ export function buildVariableGroups(model, activeEl, chart) {
       surface: 'Deep pages (the element-god depth corpus)',
       vars: [
         { name: 'k2_domain_readings (Ruling Domains god sub-blocks, Seeker-gated)', axis: 'ELEMENT·GOD ×50', arch: focusElGodArch, status: 'LOCKED ×50 (2026-08-19)', value: 'per-domain 18–55w' },
-        { name: 'k2_overview + k2_functional ×5 (OFF-PAGE since the EP restructure — generation ore)', axis: 'ELEMENT·GOD ×50', arch: focusElGodArch, status: 'LOCKED ×50 · ORE', value: 'overview 40–70w · function rows ≤22w' },
+        { name: 'k2_overview ×5 (OFF-PAGE since the EP restructure — generation ore) + k2_functional ×5 (LIVE: the god sub-block function line)', axis: 'ELEMENT·GOD ×50', arch: focusElGodArch, status: 'LOCKED ×50 · overview ORE · functional LIVE', value: 'overview 40–70w · function rows ≤22w' },
         { name: 'position term + defline + reading', axis: 'POSITION ×70 (god×slot)', arch: 'god × gate·slot', status: 'LOCKED ×70 (energy-card seats accordion; P5 = index)', value: null },
         { name: 'k2_energy_card registers (v2.1 faces)', axis: 'ELEMENT·GOD ×registers', arch: focusElGodArch, status: 'PLANNED', value: 'face · persona · chips · rulingDomain · registers{dominant,absent}' },
         { name: 'tpl_presence_frames / rx_ribbon / pattern_conclusion', axis: 'T', status: 'PLANNED', value: null },

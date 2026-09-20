@@ -10,7 +10,6 @@
 // Vocabulary firewall: no ten-god name on this page; function nouns only.
 // ===================================================================
 
-const NUM_WORD = { 12: 'twelve', 13: 'thirteen', 14: 'fourteen', 15: 'fifteen', 16: 'sixteen' };
 
 // The door mark carries the energy's volume as well as its arrow (owner R2,
 // 2026-09-16): absent (unrooted for the core) · thin · wide · excess.
@@ -52,7 +51,7 @@ function CarryRow({ row }) {
   );
 }
 
-export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, overview, nature, gifts, shadows, band, balanced, poolSize, carry, onBack, onBirthChart, onShare }) {
+export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, overview, nature, gifts, shadows, band, balanced, carry, onBack, onBirthChart, onShare }) {
   // The causal frame (owner 2026-09-10) under the door rule (2026-09-15):
   // gifts show through the energies the chart asks you to seek, shadows
   // through the energies already carrying weight. A Balanced chart opens no
@@ -63,11 +62,9 @@ export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, 
   // keeps the chart claims.
   const giftBridge = balanced ? 'These light up when your core runs balanced.' : `What ${archetype} can do where your chart asks for more.`;
   const shadowBridge = balanced ? 'These swell when the balance slips.' : `Where ${archetype} overgrows when an energy carries weight.`;
-  const shown = (gifts?.length || 0) + (shadows?.length || 0);
-  const SHOWN_WORD = { 3: 'Three', 4: 'Four', 5: 'Five', 6: 'Six' };
-  const poolNote = poolSize && shown
-    ? `${SHOWN_WORD[shown] || shown} of ${archetype}'s ${NUM_WORD[poolSize] || poolSize}. Your chart picks which show, and how many.`
-    : null;
+  // The pool note ("Five of the Blade's fourteen…") was retired by the owner
+  // on 2026-09-20: the bridges frame the chips, the count needs no apology.
+  // An empty side (no open door) renders nothing, header included.
   return (
     <div className="reading-fill">
       <img className="ground-img" src="/backgrounds/bg-reading-03-watermark-low.png" alt="" />
@@ -140,7 +137,6 @@ export default function ReadingDayMasterCard({ dayMaster, archetype, manifesto, 
                 <DoorMark mark={s.mark} />
               </div>
             ))}
-            {poolNote ? <div className="dm-poolnote">{poolNote}</div> : null}
           </div>
         ) : null}
 

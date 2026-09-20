@@ -30,13 +30,14 @@ export default function ReadingDayMasterScreen({ onBack, onBirthChart }) {
     [chart, ec, identity, card],
   );
   const doors = useMemo(() => poolDoors(m), [m]);
-  const reading = useMemo(() => resolveDayMasterReading(stem, chart, doors) || {}, [stem, chart, doors]);
+  // One band for every surface (owner B11 2026-09-20): the resolved ec.band,
+  // never raw engine strength, picks the nature variant and the chips.
+  const reading = useMemo(() => resolveDayMasterReading(stem, chart, doors, m?.band) || {}, [stem, chart, doors, m]);
   const gifts = useMemo(() => (reading.gifts || []).map((it) => ({ ...it, mark: doorMarkFor(m, it) })), [reading, m]);
   const shadows = useMemo(() => (reading.shadows || []).map((it) => ({ ...it, mark: doorMarkFor(m, it) })), [reading, m]);
   const carry = useMemo(() => buildCarryModel(m, { gifts, shadows }), [m, gifts, shadows]);
   if (!ec || !identity) return null;
-  const band = chart?.dayMaster ? getEnergyBand(chart.dayMaster.strength) : 'balanced';
-  const poolSize = (card?.gifts?.length || 0) + (card?.shadows?.length || 0);
+  const band = m?.band || (chart?.dayMaster ? getEnergyBand(chart.dayMaster.strength) : 'balanced');
   return (
     <div className="reading" style={{ position: 'absolute', inset: 0 }}>
       <ReadingDayMasterCard
@@ -49,7 +50,6 @@ export default function ReadingDayMasterScreen({ onBack, onBirthChart }) {
         shadows={shadows}
         band={band}
         balanced={!!m?.balanced}
-        poolSize={poolSize}
         carry={carry}
         onBack={onBack}
         onBirthChart={onBirthChart}

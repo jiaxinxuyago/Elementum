@@ -444,13 +444,15 @@ export function buildElementScreen(model, el) {
   const mechanism = pair ? (yinStem && pair.mechanism_yin ? { ...pair.mechanism, ...pair.mechanism_yin } : pair.mechanism) : null;
   // The turn is picked by valence × volume, like the carry card (owner
   // 2026-09-16): an absent, thin, dominant or unrooted energy speaks its
-  // state line (clause + remedy) instead of the pole's turn.
+  // state line (clause + remedy) instead of the pole's turn. A wanted energy
+  // that runs abundant or dominant speaks the `wide` line (owner D4 and the
+  // B10 fix, 2026-09-20), so the page and the carry card never disagree.
   const carry = pair ? (yinStem && pair.carry_yin ? Object.fromEntries(['catalyst', 'friction', 'wide', 'missing', 'spared', 'thin', 'excess', 'unrooted'].filter((k) => pair.carry?.[k] || pair.carry_yin?.[k]).map((k) => [k, { ...(pair.carry?.[k] || {}), ...(pair.carry_yin?.[k] || {}) }])) : pair.carry) : null;
   const stateTurn = (() => {
     if (!carry) return null;
     const v = r.volume || volumeOf(r.presence);
     const line = r.isCore && v === 'absent' ? carry.unrooted
-      : r.dx?.condition === 'Underfueled' ? (v === 'absent' ? carry.missing : null)
+      : r.dx?.condition === 'Underfueled' ? (v === 'absent' ? carry.missing : (!r.isCore && (v === 'abundant' || v === 'dominant')) ? carry.wide : null)
       : r.dx?.condition === 'Overfueled' ? (v === 'absent' ? carry.spared : v === 'thin' ? carry.thin : v === 'dominant' ? carry.excess : null)
       : null;
     return line?.clause ? `${line.clause} ${line.remedy || ''}`.trim() : null;
@@ -595,8 +597,12 @@ export function fnLabelFor(m, r) {
 // not); shadows open only through PRESENT unwanted doors — an absent or thin
 // energy cannot be overgrown. The chip count follows the chart (two or three).
 const PRESENT = new Set(['present', 'abundant', 'dominant']);
+// A Balanced chart opens no doors and reads the pools' baseline: both sides
+// come back OMITTED (undefined), which selectPoolByDoor reads as the Balanced
+// mode. A non-Balanced chart with nothing eligible on a side returns [] for
+// that side, an explicitly empty selection (owner D2, 2026-09-20).
 export function poolDoors(m) {
-  if (!m || m.balanced) return { gifts: [], shadows: [] };
+  if (!m || m.balanced) return { gifts: undefined, shadows: undefined, balanced: true };
   const d = (r) => ({ door: fnKeyFor(m, r), volume: r.volume, el: r.el, isCore: r.isCore, excess: r.excess });
   return {
     gifts: m.seek.map(d),
