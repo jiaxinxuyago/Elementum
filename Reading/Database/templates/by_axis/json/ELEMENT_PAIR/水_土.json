@@ -39,7 +39,7 @@
         "remedy": "Rivers are meant to breathe."
       },
       "wide": {
-        "clause": "You have plenty of Earth, the banks that turn depth into a river."
+        "clause": "You are well supplied with Earth, the banks that turn depth into a river."
       },
       "missing": {
         "clause": "Nothing banks the water: depth spreading wide, arriving nowhere.",
@@ -67,7 +67,7 @@
         "remedy": "Rain is meant to wander."
       },
       "wide": {
-        "clause": "You have plenty of Earth, the ground that turns rain into a harvest."
+        "clause": "You are well supplied with Earth, the ground that turns rain into a harvest."
       }
     },
     "mechanism_yin": {

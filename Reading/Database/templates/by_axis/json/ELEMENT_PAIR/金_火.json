@@ -39,7 +39,7 @@
         "remedy": "Step out of the fire long enough to hold an edge."
       },
       "wide": {
-        "clause": "You have plenty of Fire, the forge that finishes the edge."
+        "clause": "Fire is easy for you to reach, the forge that finishes the edge."
       },
       "missing": {
         "clause": "Nothing tempers the edge: a shape that was never tested, an edge that never met an arena.",
@@ -67,7 +67,7 @@
         "remedy": "Step off the wheel long enough to keep a facet."
       },
       "wide": {
-        "clause": "You have plenty of Fire, the fire that finishes the stone."
+        "clause": "Fire is easy for you to reach, the fire that finishes the stone."
       }
     },
     "mechanism_yin": {

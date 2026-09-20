@@ -29,7 +29,7 @@
 | `catalyst.remedy` | Show the work, tell the story, let it catch. |
 | `friction.clause` | The burning outruns the growing: everything lit the moment it grows, no branch left on the tree. |
 | `friction.remedy` | Bank the fire and let some growth stand. |
-| `wide.clause` | You have plenty of Fire, the light everything you grow was reaching for. |
+| `wide.clause` | Fire is all around you, the light everything you grow was reaching for. |
 | `missing.clause` | Nothing kindled: years of growth and no light on any of it. |
 | `missing.remedy` | Borrow fire: show one finished thing. |
 | `spared.clause` | Fire runs absent, and the wood stays green: nothing burned early, nothing announced. |
@@ -47,7 +47,7 @@
 | `catalyst.remedy` | Buy in, commit, root somewhere real. |
 | `friction.clause` | The holding never stops: every slope claimed, every acre worked, roots spread past what the tree can feed. |
 | `friction.remedy` | Hold less hillside, hold it deeper. |
-| `wide.clause` | You have plenty of Earth, the ground you were built to take root in. |
+| `wide.clause` | Earth is one thing you never run short of, the ground you were built to take root in. |
 | `missing.clause` | No ground to root in: reach with nothing held, ambition that never lands. |
 | `missing.remedy` | Borrow ground: one commitment, kept. |
 | `spared.clause` | Earth runs absent, and the roots are free: nothing owned, nothing charging rent. |
@@ -83,7 +83,7 @@
 | `catalyst.remedy` | Rest, read, go quiet and refill. |
 | `friction.clause` | The ground floods: roots soaked past drinking, growth postponed for one more season of preparation. |
 | `friction.remedy` | Trees also need sun. |
-| `wide.clause` | You have plenty of Water, the rain the whole tree drinks from. |
+| `wide.clause` | Water is already here in plenty, the rain the whole tree drinks from. |
 | `missing.clause` | No water at the root: reaching on dry ground, nothing taken in before it is spent. |
 | `missing.remedy` | Borrow water: rest, reading, one quiet hour. |
 | `spared.clause` | Water runs absent, and the ground stays firm: nothing floods, nothing waits on one more season. |
@@ -101,7 +101,7 @@
 | `catalyst.remedy` | Learn, gather, befriend, store. |
 | `friction.clause` | The fire outgrows its hearth: every branch thrown on at once, heat spent in a rush. |
 | `friction.remedy` | Burn one pile at a time. |
-| `wide.clause` | You have plenty of Wood, the fuel your light was waiting for. |
+| `wide.clause` | You were given plenty of Wood, the fuel your light was waiting for. |
 | `missing.clause` | No fuel behind the flame: brilliance on nothing, warmth borrowed from tomorrow. |
 | `missing.remedy` | Borrow wood: learn, gather, store. |
 | `spared.clause` | Wood runs absent, and the fire keeps its size: one flame, one task, burned to the end. |
@@ -134,7 +134,7 @@
 | `catalyst.remedy` | Teach it, write it, found it. |
 | `friction.clause` | Every spark gets pressed into a monument: output hardening faster than it can live. |
 | `friction.remedy` | Not every flame must found something. |
-| `wide.clause` | You have plenty of Earth, the hearth that keeps what you burn. |
+| `wide.clause` | Earth is already here in plenty, the hearth that keeps what you burn. |
 | `missing.clause` | No ash: heat and light, nothing built from the burning. |
 | `missing.remedy` | Borrow ground: teach it, write it down. |
 | `spared.clause` | Earth runs absent, and the fire stays light: nothing pressed into a monument. |
@@ -152,7 +152,7 @@
 | `catalyst.remedy` | Take on the difficult, valuable thing. |
 | `friction.clause` | The melting never stops: everything softened for reworking, nothing allowed to cool and keep an edge. |
 | `friction.remedy` | A forge needs objects, not only fire. |
-| `wide.clause` | You have plenty of Metal, the hard thing your heat was made to work. |
+| `wide.clause` | You are well supplied with Metal, the hard thing your heat was made to work. |
 | `missing.clause` | The forge stands empty: heat with nothing hard to work. |
 | `missing.remedy` | Borrow metal: one difficult, valuable thing. |
 | `spared.clause` | Metal runs absent, and nothing needs reworking: the fire warms instead of melts. |
@@ -170,7 +170,7 @@
 | `catalyst.remedy` | Seek the cold reviewer, the quiet counsel. |
 | `friction.clause` | The rain never lifts: constant drizzle on every spark, caution soaking the kindling before it catches. |
 | `friction.remedy` | A doused fire serves no one. |
-| `wide.clause` | You have plenty of Water, the depth that keeps the burn honest. |
+| `wide.clause` | There is no shortage of Water in you, the depth that keeps the burn honest. |
 | `missing.clause` | Nothing checks the burn: enthusiasm without a gauge, light that has never been rained on. |
 | `missing.remedy` | Borrow water: one cold reviewer. |
 | `spared.clause` | Water runs absent, and nothing douses the flame: no drizzle on the spark, no second-guessing. |
@@ -188,7 +188,7 @@
 | `catalyst.remedy` | Take on something growing and let it grip. |
 | `friction.clause` | The roots take everything: every living thing anchored in your acre, soil exhausted by what it holds. |
 | `friction.remedy` | You are ground, not groundskeeper to everyone. |
-| `wide.clause` | You have plenty of Wood, the living thing your ground exists to hold. |
+| `wide.clause` | Wood is one thing you never run short of, the living thing your ground exists to hold. |
 | `missing.clause` | Nothing roots in you: ground with no claim on it. |
 | `missing.remedy` | Borrow roots: one living thing to tend. |
 | `spared.clause` | Wood runs absent, and the soil is not drawn on: nobody rooted in you, nothing extracted. |
@@ -206,7 +206,7 @@
 | `catalyst.remedy` | Attend the feast. |
 | `friction.clause` | The warmth never lets up: comfort layered until the ground never firms and standing feels unnecessary. |
 | `friction.remedy` | Walk off the hearth and bear some weather. |
-| `wide.clause` | You have plenty of Fire, the warmth that lets the ground grow anything. |
+| `wide.clause` | Fire is all around you, the warmth that lets the ground grow anything. |
 | `missing.clause` | No warmth coming in: duties on cold ground, nothing learned by heart. |
 | `missing.remedy` | Borrow fire: people, praise, a feast. |
 | `spared.clause` | Fire runs absent, and the ground stays firm: nothing baked, nothing mistaken for food. |
@@ -257,7 +257,7 @@
 | `catalyst.remedy` | Go where things move and channel some. |
 | `friction.clause` | The damming never stops: every stream metered, flow managed until nothing pools for joy. |
 | `friction.remedy` | Some water is for watching. |
-| `wide.clause` | You have plenty of Water, the river your banks were built for. |
+| `wide.clause` | Water is easy for you to reach, the river your banks were built for. |
 | `missing.clause` | No river in the banks: structure ready, nothing flowing. |
 | `missing.remedy` | Borrow water: go where things move. |
 | `spared.clause` | Water runs absent, and nothing needs damming: the calm keeps itself. |
@@ -275,7 +275,7 @@
 | `catalyst.remedy` | Pick one living ambition and start cutting. |
 | `friction.clause` | The pruning never stops: forests of projects, an edge worn on material that never ends. |
 | `friction.remedy` | Cut fewer branches, and finish them. |
-| `wide.clause` | You have plenty of Wood, the material the knife is for. |
+| `wide.clause` | Wood is already here in plenty, the material the knife is for. |
 | `missing.clause` | No material to cut: skill with nothing to work, an edge kept for its own sake. |
 | `missing.remedy` | Borrow material: one project, one claim. |
 | `spared.clause` | Wood runs absent, and the knife is not worn: nothing to prune, nothing to hold. |
@@ -293,7 +293,7 @@
 | `catalyst.remedy` | Take the demanding role, the audit, the arena. |
 | `friction.clause` | The forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves. |
 | `friction.remedy` | Step out of the fire long enough to hold an edge. |
-| `wide.clause` | You have plenty of Fire, the forge that finishes the edge. |
+| `wide.clause` | Fire is easy for you to reach, the forge that finishes the edge. |
 | `missing.clause` | Nothing tempers the edge: a shape that was never tested, an edge that never met an arena. |
 | `missing.remedy` | Borrow heat: one demanding role, one audit. |
 | `spared.clause` | Fire runs absent, and the metal keeps its temper: no forge to soften it, no heat to answer. |
@@ -311,7 +311,7 @@
 | `catalyst.remedy` | Rest and study are smelting, not stalling. |
 | `friction.clause` | The shelter closes over the blade: so much preparation that the edge never leaves the mine. |
 | `friction.remedy` | Dig out and cut something real. |
-| `wide.clause` | You have plenty of Earth, the ground the ore grows in. |
+| `wide.clause` | You are well supplied with Earth, the ground the ore grows in. |
 | `missing.clause` | No ground under the edge: judgment made on the spot, nothing settled in first. |
 | `missing.remedy` | Borrow ground: a mentor, a book, one slow evening. |
 | `spared.clause` | Earth runs absent, and the edge is lighter for it: nothing to bury it, nothing to shelter in. |
@@ -344,7 +344,7 @@
 | `catalyst.remedy` | Writing, speaking, sharing work early lets the blade breathe. |
 | `friction.clause` | The flow turns to flood: output for its own sake, saying instead of shaping. |
 | `friction.remedy` | Cut the noise and the water clears. |
-| `wide.clause` | You have plenty of Water, the channel that lets the blade breathe. |
+| `wide.clause` | There is no shortage of Water in you, the channel that lets the blade breathe. |
 | `missing.clause` | No channel out: much forged, nothing said, the pressure with nowhere to go. |
 | `missing.remedy` | Borrow a channel: write it down, say it once. |
 | `spared.clause` | Water runs absent, and nothing spills: the edge keeps its shape and its silence. |
@@ -362,7 +362,7 @@
 | `catalyst.remedy` | Mentor someone, seed the idea, water a thing in public. |
 | `friction.clause` | The rain never closes: everything that stands still gets watered, depth drained into other people’s forests. |
 | `friction.remedy` | Rain is also allowed to rest. |
-| `wide.clause` | You have plenty of Wood, the green thing your rain is for. |
+| `wide.clause` | You were given plenty of Wood, the green thing your rain is for. |
 | `missing.clause` | The rain withholds: depth underground, nothing green from it. |
 | `missing.remedy` | Borrow wood: mentor one person. |
 | `spared.clause` | Wood runs absent, and the depth is kept: nothing drained into other people's gardens. |
@@ -380,7 +380,7 @@
 | `catalyst.remedy` | Step toward the bright loud thing. |
 | `friction.clause` | The water starts to boil: depth spent on every bright flare, nothing left cool for the long game. |
 | `friction.remedy` | Cool it overnight before you move. |
-| `wide.clause` | You have plenty of Fire, the bright thing your depth should claim. |
+| `wide.clause` | Fire is all around you, the bright thing your depth should claim. |
 | `missing.clause` | Nothing bright is governed: depth with no stake in the blaze. |
 | `missing.remedy` | Borrow fire: step toward one bright thing. |
 | `spared.clause` | Fire runs absent, and nothing needs damping: no hot chances chased. |
@@ -398,7 +398,7 @@
 | `catalyst.remedy` | Accept the role, the rhythm, the walls that aim you. |
 | `friction.clause` | The banks close in: current squeezed into a schedule until the water forgets it moves. |
 | `friction.remedy` | Rivers are meant to breathe. |
-| `wide.clause` | You have plenty of Earth, the banks that turn depth into a river. |
+| `wide.clause` | You are well supplied with Earth, the banks that turn depth into a river. |
 | `missing.clause` | Nothing banks the water: depth spreading wide, arriving nowhere. |
 | `missing.remedy` | Borrow structure: one role, one rhythm. |
 | `spared.clause` | Earth runs absent, and the current is free: no banks closing in. |

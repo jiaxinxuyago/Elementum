@@ -50,7 +50,7 @@
             "remedy": "Vines also need sun."
           },
           "wide": {
-            "clause": "You have plenty of Water, the rain the whole vine drinks from."
+            "clause": "Water is already here in plenty, the rain the whole vine drinks from."
           }
         }
       },
@@ -111,7 +111,7 @@
             "remedy": "Cut fewer stones, and finish them."
           },
           "wide": {
-            "clause": "You have plenty of Wood, the material the wheel is for."
+            "clause": "Wood is already here in plenty, the material the wheel is for."
           }
         }
       },
@@ -128,7 +128,7 @@
             "remedy": "Step off the wheel long enough to keep a facet."
           },
           "wide": {
-            "clause": "You have plenty of Fire, the fire that finishes the stone."
+            "clause": "Fire is easy for you to reach, the fire that finishes the stone."
           }
         }
       },
@@ -175,7 +175,7 @@
             "remedy": "Writing, speaking, sharing work early lets the stone breathe."
           },
           "wide": {
-            "clause": "You have plenty of Water, the channel that lets the stone breathe."
+            "clause": "There is no shortage of Water in you, the channel that lets the stone breathe."
           }
         }
       },
@@ -192,7 +192,7 @@
             "remedy": "Rain is meant to wander."
           },
           "wide": {
-            "clause": "You have plenty of Earth, the ground that turns rain into a harvest."
+            "clause": "You are well supplied with Earth, the ground that turns rain into a harvest."
           }
         }
       },
