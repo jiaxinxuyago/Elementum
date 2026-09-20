@@ -318,3 +318,7 @@ Still to be shown as candidate batches during execution, under the same before-a
 | 丙 Wood 45%: chip description *Buried in ideas*, carry ease row and remedy, Wood definition, Wood turn | After wins | The D1 redrafts land as shown in RULINGS_PROOF_2026-09-20.md (post-repetition-check versions). |
 | Advice field, all examples | **Before wins.** The `advise_catalyst` / `advise_friction` texts stay as authored everywhere, 火_木 included ("Readiness is proven only in the open…"). | No advice line changes in this pass. The owner's own words: the older version wins across these examples. |
 | Pool note (`tpl_pool_note`, the P4 chip-card foot "Five of the Blade's fourteen…") | Remove from the card. | `ReadingDayMasterCard.jsx` drops the line; the template stays in the station as ore; REA_16 §2c row → retired. |
+
+Correction (owner, same day): the 火_木 `advise_friction` takes the plain redraft below (54 words, inside the 60-word budget, clean under the repetition check). Every other advice line stays as authored.
+
+> You start more than you finish. Finish the one project closest to done this month, as it is, and let it ship at eighty percent. Put every new course, book or plan on a list until that one is out. When the urge to start something rises, ask which unfinished thing it would replace.
