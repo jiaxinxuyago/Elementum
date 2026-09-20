@@ -38,7 +38,7 @@
         "remedy": "Cut the noise and the water clears."
       },
       "wide": {
-        "clause": "Water is a wide door, the channel that lets the blade breathe."
+        "clause": "You have plenty of Water, the channel that lets the blade breathe."
       },
       "missing": {
         "clause": "No channel out: much forged, nothing said, the pressure with nowhere to go.",
@@ -63,7 +63,7 @@
         "remedy": "Writing, speaking, sharing work early lets the stone breathe."
       },
       "wide": {
-        "clause": "Water is a wide door, the channel that lets the stone breathe."
+        "clause": "You have plenty of Water, the channel that lets the stone breathe."
       }
     },
     "mechanism_yin": {

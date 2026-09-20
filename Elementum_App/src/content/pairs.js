@@ -72,7 +72,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `The wood stays green: years of growth and nothing kindled, reach without light.`, remedy: `Show the work, tell the story, let it catch.` },
       friction: { clause: `The burning outruns the growing: everything lit the moment it grows, no branch left on the tree.`, remedy: `Bank the fire and let some growth stand.` },
-      wide: { clause: `Fire is a wide door, the light everything you grow was reaching for.` },
+      wide: { clause: `You have plenty of Fire, the light everything you grow was reaching for.` },
       missing: { clause: `Nothing kindled: years of growth and no light on any of it.`, remedy: `Borrow fire: show one finished thing.` },
       spared: { clause: `Fire runs absent, and the wood stays green: nothing burned early, nothing announced.`, remedy: `Keep it green. Show work when it is done.` },
       thin: { clause: `Fire runs thin and unwanted: a small flame, easy to bank.`, remedy: `Bank it. Let growth stand.` },
@@ -104,7 +104,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `The roots float: plenty of reaching, nothing held, growth with no ground under it.`, remedy: `Buy in, commit, root somewhere real.` },
       friction: { clause: `The holding never stops: every slope claimed, every acre worked, roots spread past what the tree can feed.`, remedy: `Hold less hillside, hold it deeper.` },
-      wide: { clause: `Earth is a wide door, the ground you were built to take root in.` },
+      wide: { clause: `You have plenty of Earth, the ground you were built to take root in.` },
       missing: { clause: `No ground to root in: reach with nothing held, ambition that never lands.`, remedy: `Borrow ground: one commitment, kept.` },
       spared: { clause: `Earth runs absent, and the roots are free: nothing owned, nothing charging rent.`, remedy: `Keep it light. Own little, deliberately.` },
       thin: { clause: `Earth runs thin and unwanted: a small plot, easily held.`, remedy: `Keep the plot small.` },
@@ -136,7 +136,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `Nothing prunes you: growth in every direction and fruit in none.`, remedy: `Invite the standard, the editor, the coach with shears.` },
       friction: { clause: `The cutting never stops: cut after cut until growing feels like a fault.`, remedy: `Step back from blades that prune for pruning’s sake.` },
-      wide: { clause: `Metal is a wide door, the shears that turn growth into fruit.` },
+      wide: { clause: `You have plenty of Metal, the shears that turn growth into fruit.` },
       missing: { clause: `Nothing prunes the growth: reach in every direction, fruit in none.`, remedy: `Borrow the knife: an editor, a coach, a rule.` },
       spared: { clause: `Metal runs absent, and nothing cuts: growth unshaped, and unbroken.`, remedy: `Keep it. Invite the shears on your terms.` },
       thin: { clause: `Metal runs thin and unwanted: a small blade, easy to step around.`, remedy: `Step around it.` },
@@ -166,7 +166,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `The canopy outpaces the rain: ambition still reaching while the soil dries.`, remedy: `Rest, read, go quiet and refill.` },
       friction: { clause: `The ground floods: roots soaked past drinking, growth postponed for one more season of preparation.`, remedy: `Trees also need sun.` },
-      wide: { clause: `Water is a wide door, the rain the whole tree drinks from.` },
+      wide: { clause: `You have plenty of Water, the rain the whole tree drinks from.` },
       missing: { clause: `No water at the root: reaching on dry ground, nothing taken in before it is spent.`, remedy: `Borrow water: rest, reading, one quiet hour.` },
       spared: { clause: `Water runs absent, and the ground stays firm: nothing floods, nothing waits on one more season.`, remedy: `Keep it dry. Act on what you know.` },
       thin: { clause: `Water runs thin and unwanted: a little rain, quickly used.`, remedy: `Let it stay light.` },
@@ -175,7 +175,7 @@ export const PAIR_CELLS = {
     carry_yin: {
       catalyst: { clause: `The vine outpaces the rain: ambition still reaching while the soil dries.` },
       friction: { remedy: `Vines also need sun.` },
-      wide: { clause: `Water is a wide door, the rain the whole vine drinks from.` },
+      wide: { clause: `You have plenty of Water, the rain the whole vine drinks from.` },
     },
   },
   '火_木': {
@@ -199,7 +199,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `The flame eats scraps: brilliance flaring on no reserves, warmth borrowed from tomorrow.`, remedy: `Learn, gather, befriend, store.` },
       friction: { clause: `The fire outgrows its hearth: every branch thrown on at once, heat spent in a rush.`, remedy: `Burn one pile at a time.` },
-      wide: { clause: `Wood is a wide door, the fuel your light was waiting for.` },
+      wide: { clause: `You have plenty of Wood, the fuel your light was waiting for.` },
       missing: { clause: `No fuel behind the flame: brilliance on nothing, warmth borrowed from tomorrow.`, remedy: `Borrow wood: learn, gather, store.` },
       spared: { clause: `Wood runs absent, and the fire keeps its size: one flame, one task, burned to the end.`, remedy: `Keep it. Gather only what you will burn.` },
       thin: { clause: `Wood runs thin and unwanted: a small pile, easily burned.`, remedy: `Burn it as it comes.` },
@@ -254,7 +254,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `The fire leaves no ash: heat and light, nothing banked, nothing built from the burning.`, remedy: `Teach it, write it, found it.` },
       friction: { clause: `Every spark gets pressed into a monument: output hardening faster than it can live.`, remedy: `Not every flame must found something.` },
-      wide: { clause: `Earth is a wide door, the hearth that keeps what you burn.` },
+      wide: { clause: `You have plenty of Earth, the hearth that keeps what you burn.` },
       missing: { clause: `No ash: heat and light, nothing built from the burning.`, remedy: `Borrow ground: teach it, write it down.` },
       spared: { clause: `Earth runs absent, and the fire stays light: nothing pressed into a monument.`, remedy: `Keep it light. Found only what you will tend.` },
       thin: { clause: `Earth runs thin and unwanted: a small hearth, easy to keep.`, remedy: `Keep the hearth small.` },
@@ -279,7 +279,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `The forge stands cold: heat with nothing hard to work, charm with no asset under it.`, remedy: `Take on the difficult, valuable thing.` },
       friction: { clause: `The melting never stops: everything softened for reworking, nothing allowed to cool and keep an edge.`, remedy: `A forge needs objects, not only fire.` },
-      wide: { clause: `Metal is a wide door, the hard thing your heat was made to work.` },
+      wide: { clause: `You have plenty of Metal, the hard thing your heat was made to work.` },
       missing: { clause: `The forge stands empty: heat with nothing hard to work.`, remedy: `Borrow metal: one difficult, valuable thing.` },
       spared: { clause: `Metal runs absent, and nothing needs reworking: the fire warms instead of melts.`, remedy: `Keep it. Take hard work rarely, on purpose.` },
       thin: { clause: `Metal runs thin and unwanted: a small piece, easily finished.`, remedy: `Finish it and let it cool.` },
@@ -304,7 +304,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `Nothing checks the burn: enthusiasm with no depth gauge, light that has never been rained on.`, remedy: `Seek the cold reviewer, the quiet counsel.` },
       friction: { clause: `The rain never lifts: constant drizzle on every spark, caution soaking the kindling before it catches.`, remedy: `A doused fire serves no one.` },
-      wide: { clause: `Water is a wide door, the depth that keeps the burn honest.` },
+      wide: { clause: `You have plenty of Water, the depth that keeps the burn honest.` },
       missing: { clause: `Nothing checks the burn: enthusiasm without a gauge, light that has never been rained on.`, remedy: `Borrow water: one cold reviewer.` },
       spared: { clause: `Water runs absent, and nothing douses the flame: no drizzle on the spark, no second-guessing.`, remedy: `Keep it. Choose one check you trust.` },
       thin: { clause: `Water runs thin and unwanted: a light rain, easy to shine through.`, remedy: `Shine through it.` },
@@ -332,7 +332,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `Nothing roots in you: ground with no claim on it, steadiness serving no living thing.`, remedy: `Take on something growing and let it grip.` },
       friction: { clause: `The roots take everything: every living thing anchored in your acre, soil exhausted by what it holds.`, remedy: `You are ground, not groundskeeper to everyone.` },
-      wide: { clause: `Wood is a wide door, the living thing your ground exists to hold.` },
+      wide: { clause: `You have plenty of Wood, the living thing your ground exists to hold.` },
       missing: { clause: `Nothing roots in you: ground with no claim on it.`, remedy: `Borrow roots: one living thing to tend.` },
       spared: { clause: `Wood runs absent, and the soil is not drawn on: nobody rooted in you, nothing extracted.`, remedy: `Keep it. Take on roots by choice.` },
       thin: { clause: `Wood runs thin and unwanted: a few roots, easily fed.`, remedy: `Feed them. Take no more.` },
@@ -361,7 +361,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `The ground goes gray: duties held on cold ground, nothing warm coming in.`, remedy: `Attend the feast.` },
       friction: { clause: `The warmth never lets up: comfort layered until the ground never firms and standing feels unnecessary.`, remedy: `Walk off the hearth and bear some weather.` },
-      wide: { clause: `Fire is a wide door, the warmth that lets the ground grow anything.` },
+      wide: { clause: `You have plenty of Fire, the warmth that lets the ground grow anything.` },
       missing: { clause: `No warmth coming in: duties on cold ground, nothing learned by heart.`, remedy: `Borrow fire: people, praise, a feast.` },
       spared: { clause: `Fire runs absent, and the ground stays firm: nothing baked, nothing mistaken for food.`, remedy: `Keep it. Take warmth in small doses.` },
       thin: { clause: `Fire runs thin and unwanted: a small warmth, easily borne.`, remedy: `Bear it lightly.` },
@@ -423,7 +423,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `The ore stays buried: depth with no expression, patience that never mints anything.`, remedy: `Finish a piece, publish the standard.` },
       friction: { clause: `The mining never stops: everything minted, the mountain hollowed for output.`, remedy: `Your silence is part of the deposit.` },
-      wide: { clause: `Metal is a wide door, the ore your mountain was keeping.` },
+      wide: { clause: `You have plenty of Metal, the ore your mountain was keeping.` },
       missing: { clause: `The ore stays buried: patience that never mints anything.`, remedy: `Borrow metal: finish one piece, say it once.` },
       spared: { clause: `Metal runs absent, and the mountain is not mined: nothing demanded, nothing hollowed.`, remedy: `Keep the ore. Mint only what matters.` },
       thin: { clause: `Metal runs thin and unwanted: a small vein, easily left.`, remedy: `Leave it in the ground.` },
@@ -431,7 +431,7 @@ export const PAIR_CELLS = {
     },
     carry_yin: {
       friction: { clause: `The mining never stops: everything minted, the topsoil stripped for output.` },
-      wide: { clause: `Metal is a wide door, the ore your soil was keeping.` },
+      wide: { clause: `You have plenty of Metal, the ore your soil was keeping.` },
     },
   },
   '土_水': {
@@ -452,7 +452,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `The banks hold no river: structure ready, nothing flowing, canals waiting on rain.`, remedy: `Go where things move and channel some.` },
       friction: { clause: `The damming never stops: every stream metered, flow managed until nothing pools for joy.`, remedy: `Some water is for watching.` },
-      wide: { clause: `Water is a wide door, the river your banks were built for.` },
+      wide: { clause: `You have plenty of Water, the river your banks were built for.` },
       missing: { clause: `No river in the banks: structure ready, nothing flowing.`, remedy: `Borrow water: go where things move.` },
       spared: { clause: `Water runs absent, and nothing needs damming: the calm keeps itself.`, remedy: `Keep the calm. Channel little.` },
       thin: { clause: `Water runs thin and unwanted: a small stream, easily watched.`, remedy: `Watch it. Don't meter it.` },
@@ -482,7 +482,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `The knife has nothing to prune: skill idling without a project worth it.`, remedy: `Pick one living ambition and start cutting.` },
       friction: { clause: `The pruning never stops: forests of projects, an edge worn on material that never ends.`, remedy: `Cut fewer branches, and finish them.` },
-      wide: { clause: `Wood is a wide door, the material the knife is for.` },
+      wide: { clause: `You have plenty of Wood, the material the knife is for.` },
       missing: { clause: `No material to cut: skill with nothing to work, an edge kept for its own sake.`, remedy: `Borrow material: one project, one claim.` },
       spared: { clause: `Wood runs absent, and the knife is not worn: nothing to prune, nothing to hold.`, remedy: `Keep the knife bright. Pick projects rarely.` },
       thin: { clause: `Wood runs thin and unwanted: a small plot, easily kept.`, remedy: `Keep the plot small.` },
@@ -491,7 +491,7 @@ export const PAIR_CELLS = {
     carry_yin: {
       catalyst: { clause: `The wheel has nothing to cut: skill idling without a stone worth it.` },
       friction: { clause: `The cutting never stops: trays of half-set stones, a facet worn on material that never ends.`, remedy: `Cut fewer stones, and finish them.` },
-      wide: { clause: `Wood is a wide door, the material the wheel is for.` },
+      wide: { clause: `You have plenty of Wood, the material the wheel is for.` },
     },
   },
   '金_火': {
@@ -517,7 +517,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `Nothing tempers you: an edge that keeps its first shape and calls it character.`, remedy: `Take the demanding role, the audit, the arena.` },
       friction: { clause: `The forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves.`, remedy: `Step out of the fire long enough to hold an edge.` },
-      wide: { clause: `Fire is a wide door, the forge that finishes the edge.` },
+      wide: { clause: `You have plenty of Fire, the forge that finishes the edge.` },
       missing: { clause: `Nothing tempers the edge: a shape that was never tested, an edge that never met an arena.`, remedy: `Borrow heat: one demanding role, one audit.` },
       spared: { clause: `Fire runs absent, and the metal keeps its temper: no forge to soften it, no heat to answer.`, remedy: `Keep it cool. Choose your pressures.` },
       thin: { clause: `Fire runs thin and unwanted: a low flame, easy to stand beside.`, remedy: `Let it stay low.` },
@@ -526,7 +526,7 @@ export const PAIR_CELLS = {
     carry_yin: {
       catalyst: { clause: `Nothing tests you: a stone that keeps its first cut and calls it character.` },
       friction: { clause: `The wheel never stops: constant pressure, no bench time, a stone thinned by a polish it never leaves.`, remedy: `Step off the wheel long enough to keep a facet.` },
-      wide: { clause: `Fire is a wide door, the fire that finishes the stone.` },
+      wide: { clause: `You have plenty of Fire, the fire that finishes the stone.` },
     },
   },
   '金_土': {
@@ -552,7 +552,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `The mountain goes hungry: a keen edge with nothing behind it, sharpness spent faster than it forms.`, remedy: `Rest and study are smelting, not stalling.` },
       friction: { clause: `The shelter closes over the blade: so much preparation that the edge never leaves the mine.`, remedy: `Dig out and cut something real.` },
-      wide: { clause: `Earth is a wide door, the ground the ore grows in.` },
+      wide: { clause: `You have plenty of Earth, the ground the ore grows in.` },
       missing: { clause: `No ground under the edge: judgment made on the spot, nothing settled in first.`, remedy: `Borrow ground: a mentor, a book, one slow evening.` },
       spared: { clause: `Earth runs absent, and the edge is lighter for it: nothing to bury it, nothing to shelter in.`, remedy: `Keep it that way. Decide, then rest.` },
       thin: { clause: `Earth runs thin and unwanted: a little shelter, easily left.`, remedy: `Leave it as it is, small.` },
@@ -619,7 +619,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `This channel shows as pressure without release: much forged, little said.`, remedy: `Writing, speaking, sharing work early lets the blade breathe.` },
       friction: { clause: `The flow turns to flood: output for its own sake, saying instead of shaping.`, remedy: `Cut the noise and the water clears.` },
-      wide: { clause: `Water is a wide door, the channel that lets the blade breathe.` },
+      wide: { clause: `You have plenty of Water, the channel that lets the blade breathe.` },
       missing: { clause: `No channel out: much forged, nothing said, the pressure with nowhere to go.`, remedy: `Borrow a channel: write it down, say it once.` },
       spared: { clause: `Water runs absent, and nothing spills: the edge keeps its shape and its silence.`, remedy: `Keep it. Speak on purpose, not on reflex.` },
       thin: { clause: `Water runs thin and unwanted: a trickle of output, easy to keep clean.`, remedy: `A trickle is enough. Keep it clean.` },
@@ -627,7 +627,7 @@ export const PAIR_CELLS = {
     },
     carry_yin: {
       catalyst: { clause: `This channel shows as pressure without release: much polished, little said.`, remedy: `Writing, speaking, sharing work early lets the stone breathe.` },
-      wide: { clause: `Water is a wide door, the channel that lets the stone breathe.` },
+      wide: { clause: `You have plenty of Water, the channel that lets the stone breathe.` },
     },
   },
   '水_木': {
@@ -648,7 +648,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `The rain withholds: depth circling underground, nothing green standing up from it.`, remedy: `Mentor someone, seed the idea, water a thing in public.` },
       friction: { clause: `The rain never closes: everything that stands still gets watered, depth drained into other people’s forests.`, remedy: `Rain is also allowed to rest.` },
-      wide: { clause: `Wood is a wide door, the green thing your rain is for.` },
+      wide: { clause: `You have plenty of Wood, the green thing your rain is for.` },
       missing: { clause: `The rain withholds: depth underground, nothing green from it.`, remedy: `Borrow wood: mentor one person.` },
       spared: { clause: `Wood runs absent, and the depth is kept: nothing drained into other people's gardens.`, remedy: `Keep it. Pour by choice.` },
       thin: { clause: `Wood runs thin and unwanted: a small garden, easily watered.`, remedy: `Water it. Plant no more.` },
@@ -673,7 +673,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `Nothing bright is governed: depth with no stake in the blaze, wisdom watching value burn past.`, remedy: `Step toward the bright loud thing.` },
       friction: { clause: `The water starts to boil: depth spent on every bright flare, nothing left cool for the long game.`, remedy: `Cool it overnight before you move.` },
-      wide: { clause: `Fire is a wide door, the bright thing your depth should claim.` },
+      wide: { clause: `You have plenty of Fire, the bright thing your depth should claim.` },
       missing: { clause: `Nothing bright is governed: depth with no stake in the blaze.`, remedy: `Borrow fire: step toward one bright thing.` },
       spared: { clause: `Fire runs absent, and nothing needs damping: no hot chances chased.`, remedy: `Keep it. Claim heat rarely.` },
       thin: { clause: `Fire runs thin and unwanted: a small blaze, easily enjoyed.`, remedy: `Enjoy it. Don't manage it.` },
@@ -703,7 +703,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `Nothing banks you: depth spreading wide and arriving nowhere, freedom without force.`, remedy: `Accept the role, the rhythm, the walls that aim you.` },
       friction: { clause: `The banks close in: current squeezed into a schedule until the water forgets it moves.`, remedy: `Rivers are meant to breathe.` },
-      wide: { clause: `Earth is a wide door, the banks that turn depth into a river.` },
+      wide: { clause: `You have plenty of Earth, the banks that turn depth into a river.` },
       missing: { clause: `Nothing banks the water: depth spreading wide, arriving nowhere.`, remedy: `Borrow structure: one role, one rhythm.` },
       spared: { clause: `Earth runs absent, and the current is free: no banks closing in.`, remedy: `Keep it. Choose one wall.` },
       thin: { clause: `Earth runs thin and unwanted: low banks, easily crossed.`, remedy: `Cross them when you must.` },
@@ -712,7 +712,7 @@ export const PAIR_CELLS = {
     carry_yin: {
       catalyst: { clause: `Nothing catches you: rain spreading wide and soaking in nowhere, freedom without force.` },
       friction: { clause: `The gutters take it all: rain routed into a schedule until it forgets where it wanted to fall.`, remedy: `Rain is meant to wander.` },
-      wide: { clause: `Earth is a wide door, the ground that turns rain into a harvest.` },
+      wide: { clause: `You have plenty of Earth, the ground that turns rain into a harvest.` },
     },
   },
   '水_金': {
@@ -738,7 +738,7 @@ export const PAIR_CELLS = {
     carry: {
       catalyst: { clause: `The spring runs shallow: intuition drawn on without refilling, depth spending faster than it condenses.`, remedy: `Study something exact and drink from it.` },
       friction: { clause: `The rigor sets like concrete: so much refining the water never moves, depth held in cisterns of preparation.`, remedy: `A spring proves itself by flowing.` },
-      wide: { clause: `Metal is a wide door, the spring that keeps your depth refilled.` },
+      wide: { clause: `You have plenty of Metal, the spring that keeps your depth refilled.` },
       missing: { clause: `No spring feeding the depth: knowing drawn on and never refilled.`, remedy: `Borrow metal: one exact teacher.` },
       spared: { clause: `Metal runs absent, and the water moves: nothing calcified, nothing over-refined.`, remedy: `Keep it. Add rigor one method at a time.` },
       thin: { clause: `Metal runs thin and unwanted: a little rigor, easily carried.`, remedy: `Carry it lightly.` },
@@ -747,7 +747,7 @@ export const PAIR_CELLS = {
     carry_yin: {
       catalyst: { clause: `The cloud runs thin: intuition drawn on without refilling, feeling spent faster than it gathers.` },
       friction: { clause: `The rigor sets like concrete: so much refining the rain never falls, feeling held in tanks of preparation.`, remedy: `Rain proves itself by falling.` },
-      wide: { clause: `Metal is a wide door, the cold air that gathers the rain.` },
+      wide: { clause: `You have plenty of Metal, the cold air that gathers the rain.` },
     },
   },
   '水_水': {

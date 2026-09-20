@@ -38,7 +38,7 @@
         "remedy": "A spring proves itself by flowing."
       },
       "wide": {
-        "clause": "Metal is a wide door, the spring that keeps your depth refilled."
+        "clause": "You have plenty of Metal, the spring that keeps your depth refilled."
       },
       "missing": {
         "clause": "No spring feeding the depth: knowing drawn on and never refilled.",
@@ -66,7 +66,7 @@
         "remedy": "Rain proves itself by falling."
       },
       "wide": {
-        "clause": "Metal is a wide door, the cold air that gathers the rain."
+        "clause": "You have plenty of Metal, the cold air that gathers the rain."
       }
     },
     "mechanism_yin": {

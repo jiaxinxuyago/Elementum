@@ -44,7 +44,7 @@
             "remedy": "Bank the fire and let some growth stand."
           },
           "wide": {
-            "clause": "Fire is a wide door, the light everything you grow was reaching for."
+            "clause": "You have plenty of Fire, the light everything you grow was reaching for."
           },
           "missing": {
             "clause": "Nothing kindled: years of growth and no light on any of it.",
@@ -78,7 +78,7 @@
             "remedy": "Hold less hillside, hold it deeper."
           },
           "wide": {
-            "clause": "Earth is a wide door, the ground you were built to take root in."
+            "clause": "You have plenty of Earth, the ground you were built to take root in."
           },
           "missing": {
             "clause": "No ground to root in: reach with nothing held, ambition that never lands.",
@@ -112,7 +112,7 @@
             "remedy": "Step back from blades that prune for pruning’s sake."
           },
           "wide": {
-            "clause": "Metal is a wide door, the shears that turn growth into fruit."
+            "clause": "You have plenty of Metal, the shears that turn growth into fruit."
           },
           "missing": {
             "clause": "Nothing prunes the growth: reach in every direction, fruit in none.",
@@ -146,7 +146,7 @@
             "remedy": "Trees also need sun."
           },
           "wide": {
-            "clause": "Water is a wide door, the rain the whole tree drinks from."
+            "clause": "You have plenty of Water, the rain the whole tree drinks from."
           },
           "missing": {
             "clause": "No water at the root: reaching on dry ground, nothing taken in before it is spent.",
@@ -180,7 +180,7 @@
             "remedy": "Burn one pile at a time."
           },
           "wide": {
-            "clause": "Wood is a wide door, the fuel your light was waiting for."
+            "clause": "You have plenty of Wood, the fuel your light was waiting for."
           },
           "missing": {
             "clause": "No fuel behind the flame: brilliance on nothing, warmth borrowed from tomorrow.",
@@ -241,7 +241,7 @@
             "remedy": "Not every flame must found something."
           },
           "wide": {
-            "clause": "Earth is a wide door, the hearth that keeps what you burn."
+            "clause": "You have plenty of Earth, the hearth that keeps what you burn."
           },
           "missing": {
             "clause": "No ash: heat and light, nothing built from the burning.",
@@ -275,7 +275,7 @@
             "remedy": "A forge needs objects, not only fire."
           },
           "wide": {
-            "clause": "Metal is a wide door, the hard thing your heat was made to work."
+            "clause": "You have plenty of Metal, the hard thing your heat was made to work."
           },
           "missing": {
             "clause": "The forge stands empty: heat with nothing hard to work.",
@@ -309,7 +309,7 @@
             "remedy": "A doused fire serves no one."
           },
           "wide": {
-            "clause": "Water is a wide door, the depth that keeps the burn honest."
+            "clause": "You have plenty of Water, the depth that keeps the burn honest."
           },
           "missing": {
             "clause": "Nothing checks the burn: enthusiasm without a gauge, light that has never been rained on.",
@@ -343,7 +343,7 @@
             "remedy": "You are ground, not groundskeeper to everyone."
           },
           "wide": {
-            "clause": "Wood is a wide door, the living thing your ground exists to hold."
+            "clause": "You have plenty of Wood, the living thing your ground exists to hold."
           },
           "missing": {
             "clause": "Nothing roots in you: ground with no claim on it.",
@@ -377,7 +377,7 @@
             "remedy": "Walk off the hearth and bear some weather."
           },
           "wide": {
-            "clause": "Fire is a wide door, the warmth that lets the ground grow anything."
+            "clause": "You have plenty of Fire, the warmth that lets the ground grow anything."
           },
           "missing": {
             "clause": "No warmth coming in: duties on cold ground, nothing learned by heart.",
@@ -438,7 +438,7 @@
             "remedy": "Your silence is part of the deposit."
           },
           "wide": {
-            "clause": "Metal is a wide door, the ore your mountain was keeping."
+            "clause": "You have plenty of Metal, the ore your mountain was keeping."
           },
           "missing": {
             "clause": "The ore stays buried: patience that never mints anything.",
@@ -472,7 +472,7 @@
             "remedy": "Some water is for watching."
           },
           "wide": {
-            "clause": "Water is a wide door, the river your banks were built for."
+            "clause": "You have plenty of Water, the river your banks were built for."
           },
           "missing": {
             "clause": "No river in the banks: structure ready, nothing flowing.",
@@ -506,7 +506,7 @@
             "remedy": "Cut fewer branches, and finish them."
           },
           "wide": {
-            "clause": "Wood is a wide door, the material the knife is for."
+            "clause": "You have plenty of Wood, the material the knife is for."
           },
           "missing": {
             "clause": "No material to cut: skill with nothing to work, an edge kept for its own sake.",
@@ -540,7 +540,7 @@
             "remedy": "Step out of the fire long enough to hold an edge."
           },
           "wide": {
-            "clause": "Fire is a wide door, the forge that finishes the edge."
+            "clause": "You have plenty of Fire, the forge that finishes the edge."
           },
           "missing": {
             "clause": "Nothing tempers the edge: a shape that was never tested, an edge that never met an arena.",
@@ -574,7 +574,7 @@
             "remedy": "Dig out and cut something real."
           },
           "wide": {
-            "clause": "Earth is a wide door, the ground the ore grows in."
+            "clause": "You have plenty of Earth, the ground the ore grows in."
           },
           "missing": {
             "clause": "No ground under the edge: judgment made on the spot, nothing settled in first.",
@@ -635,7 +635,7 @@
             "remedy": "Cut the noise and the water clears."
           },
           "wide": {
-            "clause": "Water is a wide door, the channel that lets the blade breathe."
+            "clause": "You have plenty of Water, the channel that lets the blade breathe."
           },
           "missing": {
             "clause": "No channel out: much forged, nothing said, the pressure with nowhere to go.",
@@ -669,7 +669,7 @@
             "remedy": "Rain is also allowed to rest."
           },
           "wide": {
-            "clause": "Wood is a wide door, the green thing your rain is for."
+            "clause": "You have plenty of Wood, the green thing your rain is for."
           },
           "missing": {
             "clause": "The rain withholds: depth underground, nothing green from it.",
@@ -703,7 +703,7 @@
             "remedy": "Cool it overnight before you move."
           },
           "wide": {
-            "clause": "Fire is a wide door, the bright thing your depth should claim."
+            "clause": "You have plenty of Fire, the bright thing your depth should claim."
           },
           "missing": {
             "clause": "Nothing bright is governed: depth with no stake in the blaze.",
@@ -737,7 +737,7 @@
             "remedy": "Rivers are meant to breathe."
           },
           "wide": {
-            "clause": "Earth is a wide door, the banks that turn depth into a river."
+            "clause": "You have plenty of Earth, the banks that turn depth into a river."
           },
           "missing": {
             "clause": "Nothing banks the water: depth spreading wide, arriving nowhere.",
@@ -771,7 +771,7 @@
             "remedy": "A spring proves itself by flowing."
           },
           "wide": {
-            "clause": "Metal is a wide door, the spring that keeps your depth refilled."
+            "clause": "You have plenty of Metal, the spring that keeps your depth refilled."
           },
           "missing": {
             "clause": "No spring feeding the depth: knowing drawn on and never refilled.",

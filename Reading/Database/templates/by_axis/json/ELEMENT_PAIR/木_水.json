@@ -38,7 +38,7 @@
         "remedy": "Trees also need sun."
       },
       "wide": {
-        "clause": "Water is a wide door, the rain the whole tree drinks from."
+        "clause": "You have plenty of Water, the rain the whole tree drinks from."
       },
       "missing": {
         "clause": "No water at the root: reaching on dry ground, nothing taken in before it is spent.",
@@ -65,7 +65,7 @@
         "remedy": "Vines also need sun."
       },
       "wide": {
-        "clause": "Water is a wide door, the rain the whole vine drinks from."
+        "clause": "You have plenty of Water, the rain the whole vine drinks from."
       }
     },
     "mechanism_yin": {

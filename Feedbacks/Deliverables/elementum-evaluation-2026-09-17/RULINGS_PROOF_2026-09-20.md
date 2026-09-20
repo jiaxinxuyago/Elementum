@@ -308,3 +308,9 @@ Proposed execution item (lane C3): re-cut the 65 descriptions so each is the rec
 ## Not shown here
 
 The eight consequential-claim passages (lane C1), the three echo-chain chips (lane C2) and the 21 remaining wide remedies are content candidates that come as reviewed batches during execution, each with before and after in this same format. The document edits (lane B) change no reading.
+
+## Amendments after this proof (2026-09-20, later)
+
+- D4: every "X is a wide door, …" line above now ships as "You have plenty of X, …" (owner: the plain line wins; "door" was never explained to the reader). The remedies are Batch 1.
+- The 火_木 excess clause ships trimmed to budget: "Too much wood feeds the fire past its task: a blaze that eats a season's fuel overnight." The 水_火 clause and turn ship with "every bright flare" for "every bright thing that flares".
+- The 火_木 advice ships in the owner's plain words (see CLAUDE_EVALUATION_RESPONSE.md §6b), not the draft shown above.
