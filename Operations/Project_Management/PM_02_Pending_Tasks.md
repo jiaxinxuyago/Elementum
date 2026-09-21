@@ -103,7 +103,7 @@ Therapist/psychic register: analytical personality truth + ONE tendency-framed p
 | HK-2 | Account hygiene: add company email to Supabase org + Google Cloud IAM (per the ownership map's dual-identity pattern) |
 | HK-3 | Anthropic console: workspace spend limit for the elementum-llm key (console-enforced cap independent of the worker kill-switch) |
 | HK-4 | One-time check: elementum.life auto-renew enabled in Cloudflare Registrar |
-| HK-5 | Deferred code items: App.jsx size split (903 ln) · ~20 unused engine exports · push-worker per-sub JWT reuse · batchGenerate .js→.mjs |
+| HK-5 | Deferred code items: App.jsx size split (906 ln) · ~20 unused engine exports · push-worker per-sub JWT reuse · batchGenerate .js→.mjs |
 | HK-6 | `DEV_05` Tier-D deferred backlog: reuse extraction (BackBar/SectionCard/PigmentBadge + hooks) + 3 strict-lint react-hooks items |
 | HK-7 | Design-system owner rulings parked for the design-library rebuild: radius scale · InkTile alpha · UpgradeModal palette · un-tokenized grays (`DES_13`) |
 | HK-8 | Optional: `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` (stops Windows fighting dev .ps1 tooling) |

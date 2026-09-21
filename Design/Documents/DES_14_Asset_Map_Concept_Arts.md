@@ -44,7 +44,7 @@ The Concept Arts folders already encode the **yin/yang split inside each element
 
 **Element-agnostic / composite:** `Five Elements/Five Elements (1–7)` — all five together, for neutral overview heroes (Energy Map blueprint, Reveal). Already wired as `ELEMENT_ART_COMPOSITE`.
 
-> The current code (`elementArt`) is **element-only** — it picks `Fire-Burn (1).png` for any Fire DM regardless of yang/yin. **Upgrade path:** key `elementArt` on `stem` (or `element+polarity`) to honour the table above (丙→Burn, 丁→Fire_Pattern, etc.). The source assets already exist; only the resolver + mirroring are missing.
+> The resolver is already stem-aware at HEAD: `backgrounds.js:167` is `elementArt(element, stem)` and resolves `STEM_VARIANT[stem]`, so a yin DM no longer falls back to its element's yang study. **What is still missing is the ART:** the yin-stem source paintings are not mirrored into `public/`, so the table above (丙→Burn, 丁→Fire_Pattern, etc.) cannot yet be honoured end-to-end. The source assets already exist in the vault; only the mirroring is missing.
 
 ---
 
@@ -101,7 +101,7 @@ Read top-to-bottom as "when the wireframe for this screen is chosen, fill its sl
 | `brush-samples/01–10` | Moodboards/brush-samples | TEXTURE | card accents, dividers, stroke vocabulary for SVG authoring (bold-stroke, ink-pool, dry-brush, splash-dots, mist-band, layered-ridges, asymmetric-branch, calligraphic-line, wash-gradient, negative-space) |
 | `Patterns/Patterns (1–10)` | Concept Arts/Patterns | PAGE-BG / TEXTURE | abstract ink fields, low-opacity fills, pattern badges |
 | `Landscapes/Landscapes (1–10)` | Concept Arts/Landscapes | PAGE-BG / journey-hero | Life Chapters, Reveal, any "journey/horizon" surface |
-| `scenes/landscape-river-pavilion.png`, `scenes/pattern-enso.png` | (already in public) | SCENE / TEXTURE | meeting-place backdrop · enso watermark |
+| `scenes/landscape-river-pavilion.png`, `scenes/pattern-enso.png` | **NOT mirrored** — no `concept-arts/scenes/` dir in `Elementum_App/public/` and no `src` file references it (audit 2026-09-21) | SCENE / TEXTURE | meeting-place backdrop · enso watermark |
 | `_Curated/ChatGPT_Backgrounds_v1/references/ref-01–20.jpg` | Concept Arts/_Curated | **reference only** | the curated style targets (mountain/landscape/per-element/plant/pattern) — feed these to ChatGPT/DALL-E as style anchors, **not** shipped assets |
 
 ---
@@ -115,15 +115,16 @@ The "_Icon", "_Icons", "_icons", "Jewel_Icons", "Blade_Icon" PNG sets inside eac
 ## 5 · Mirroring status & gaps (the work this map exposes)
 
 **Currently mirrored into `Elementum_App/public/` (all the app can reach today):**
-- `concept-arts/five-elements/` — **1 study per element** (`*-(1).png`) + 1 composite. *Yang only; no yin variants, no alternates.*
+- `concept-arts/library/` — **59 assets; the pool the code actually reads** (`src/styles/backgrounds.js:86` → `LIBRARY_DIR = '/concept-arts/library'`): `t_{el}_{n}_w.png` catalogue tiles, `t_{el}_{n}_p.png` portraits, `g_hero_{n}.png` generic heroes. ✓
 - `concept-arts/atmospheric/` — both depth maps. ✓
-- `concept-arts/scenes/` — river-pavilion + enso. ✓
+- `concept-arts/stems/` — all 10 raw stem paintings, plus `concept-arts/stems/proc/` — the 10 processed stem medallions (`{stem}-{element}.png`), read by `JourneyStage.jsx:273-274`. ✓
+- `concept-arts/dots/` — the 5 per-element dot-ink marks (`dotf-{el}.png`). ✓
 - `Stem Thumbnail/` — **`Geng_TheBlade.png` only** (1 of 10 stems). ✗ 9 missing.
 - `backgrounds/` — 24 PNGs, but **only ~5 are finished painted art** (reveal · onboarding · energymap · reading rice-paper); **8 are "PLACEHOLDER" spec cards** that bleed text and are replaced by CSS gradients in `SCREEN_BG`.
 
 **Open gaps (in priority order):**
 1. **Per-stem thumbnails — 9 of 10 missing.** Only 庚 exists. Blocks the Day Master hero / Elemental Draw deck from being per-stem. → ChatGPT/DALL-E batch, one per stem, using §1 imagery + `ref-*` style anchors.
-2. **Yin-stem SCENE-HERO art unmirrored.** `elementArt` is element-only. To honour §1 (丁→candle, 辛→jewel, 癸→dew, 乙→grass, 己→field), mirror the yin folders and key the resolver on stem. Source assets already exist — no generation needed, just curation + a resolver tweak.
+2. **Yin-stem SCENE-HERO art unmirrored.** (The resolver is no longer the blocker: at HEAD `backgrounds.js:167` is `elementArt(element, stem)` and already resolves `STEM_VARIANT[stem]` — the remaining gap is the assets.) To honour §1 (丁→candle, 辛→jewel, 癸→dew, 乙→grass, 己→field), mirror the yin folders and key the resolver on stem. Source assets already exist — no generation needed, just curation + a resolver tweak.
 3. **8 placeholder dashboard backgrounds.** Today/Guidance/Friends/Profile/reading-detail are CSS-gradient stand-ins. Real painted PNGs drop in at the same filename — *or* the wireframe pass may decide these screens want `atmospheric-*` scenery instead (already wired), making the placeholders moot.
 4. **TILE art crops.** The catalogue mosaic currently leans on gradient+mark; per-theme art crops (§2 Reading catalogue) need curating from the per-element studies.
 
