@@ -38,7 +38,7 @@
         "desc": "You keep your shape long after the fuel is low. Nobody sees you run down, because the line stays straight while it happens."
       },
       {
-        "phrase": "Careful finisher",
+        "phrase": "Finishes properly",
         "dim": "at work",
         "door": "body",
         "face": "wide",
@@ -70,7 +70,7 @@
         "desc": "What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain."
       },
       {
-        "phrase": "Trims for growth",
+        "phrase": "Plays the long game",
         "dim": "trimming a plan",
         "door": "action",
         "face": "echo",
@@ -112,7 +112,7 @@
         "desc": "The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it."
       },
       {
-        "phrase": "Plans, never acts",
+        "phrase": "Overprepared",
         "dim": "showing the work",
         "door": "mind",
         "face": "excess",
@@ -128,7 +128,7 @@
         "desc": "Talent with no banks runs into snacks, scrolling, remarks that cut deeper than you meant, and half-made things. Nothing is wrong, exactly. That is the problem."
       },
       {
-        "phrase": "Busy, nothing finished",
+        "phrase": "Spins its wheels",
         "dim": "trimming",
         "door": "action",
         "face": "echo",
@@ -572,7 +572,41 @@
           "desc": "Asked to trim, you take it to the frame. The part that was working goes out with the part that was not.",
           "why": "derivation law 2026-09-16: the door already carries its echo face and its wide/excess face"
         }
-      ]
+      ],
+      "retired_2026-09-21_cold_read": {
+        "gifts.Careful finisher": {
+          "phrase": "Careful finisher",
+          "dim": "at work",
+          "door": "body",
+          "face": "wide",
+          "echo_of": "金_金.function.definition_catalyst",
+          "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing."
+        },
+        "gifts.Trims for growth": {
+          "phrase": "Trims for growth",
+          "dim": "trimming a plan",
+          "door": "action",
+          "face": "echo",
+          "echo_of": "金_木.function.definition_catalyst",
+          "desc": "You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl."
+        },
+        "shadows.Plans, never acts": {
+          "phrase": "Plans, never acts",
+          "dim": "showing the work",
+          "door": "mind",
+          "face": "excess",
+          "echo_of": "金_土.carry.excess",
+          "desc": "Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth."
+        },
+        "shadows.Busy, nothing finished": {
+          "phrase": "Busy, nothing finished",
+          "dim": "trimming",
+          "door": "action",
+          "face": "echo",
+          "echo_of": "金_木.function.definition_friction",
+          "desc": "Effort goes wherever the branches already point: old ground held too hard, new shoots started too freely. The season ends with plenty of motion and nothing brought in."
+        }
+      }
     },
     "door_note": {
       "body": "Metal",

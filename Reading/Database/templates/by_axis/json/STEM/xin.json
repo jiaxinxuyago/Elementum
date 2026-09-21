@@ -30,7 +30,7 @@
     "dm_overview": "The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. The last of autumn belongs to it, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. Under a patient hand it is cut small and exact, holding more light than its size should allow, and it refuses to call the work done early.",
     "gifts": [
       {
-        "phrase": "Keeps its shape",
+        "phrase": "Steady under strain",
         "dim": "being handled",
         "door": "body",
         "face": "echo",
@@ -78,7 +78,7 @@
         "desc": "You know what a thing is worth and where it belongs, and what you place keeps growing in value after you have placed it."
       },
       {
-        "phrase": "Quality guaranteed",
+        "phrase": "Built to last",
         "dim": "at work",
         "door": "order",
         "face": "echo",
@@ -112,7 +112,7 @@
         "desc": "One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work."
       },
       {
-        "phrase": "Stays boxed up",
+        "phrase": "Buried talent",
         "dim": "being sheltered",
         "door": "mind",
         "face": "excess",
@@ -120,7 +120,7 @@
         "desc": "Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box."
       },
       {
-        "phrase": "Remarks cut deep",
+        "phrase": "Sharp tongue",
         "dim": "small remarks",
         "door": "expression",
         "face": "echo",
@@ -128,7 +128,7 @@
         "desc": "Output with no banks. The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not."
       },
       {
-        "phrase": "Hoards raw stones",
+        "phrase": "Hoarder of starts",
         "dim": "acquiring",
         "door": "action",
         "face": "echo",
@@ -409,7 +409,49 @@
           "desc": "Every rule runs hot and every small flaw gets treated like an emergency. The standard presses down on people first, then hardest on you.",
           "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
         }
-      ]
+      ],
+      "retired_2026-09-21_cold_read": {
+        "gifts.Keeps its shape": {
+          "phrase": "Keeps its shape",
+          "dim": "being handled",
+          "door": "body",
+          "face": "echo",
+          "echo_of": "金_金.function.definition_catalyst",
+          "desc": "Handled by everyone, changed by no one. You hold your form long after the fuel is low, so you notice you are tired late."
+        },
+        "gifts.Quality guaranteed": {
+          "phrase": "Quality guaranteed",
+          "dim": "at work",
+          "door": "order",
+          "face": "echo",
+          "echo_of": "金_火.function.definition_catalyst",
+          "desc": "Pressure organizes you instead of scattering you. Nothing leaves your hands that you do not believe in, and years later your work is the one still holding up under inspection."
+        },
+        "shadows.Stays boxed up": {
+          "phrase": "Stays boxed up",
+          "dim": "being sheltered",
+          "door": "mind",
+          "face": "excess",
+          "echo_of": "金_土.carry_yin.excess",
+          "desc": "Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box."
+        },
+        "shadows.Remarks cut deep": {
+          "phrase": "Remarks cut deep",
+          "dim": "small remarks",
+          "door": "expression",
+          "face": "echo",
+          "echo_of": "金_水.function.definition_friction",
+          "desc": "Output with no banks. The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not."
+        },
+        "shadows.Hoards raw stones": {
+          "phrase": "Hoards raw stones",
+          "dim": "acquiring",
+          "door": "action",
+          "face": "echo",
+          "echo_of": "金_木.function.definition_friction",
+          "desc": "Every good piece deserves a setting, so you keep buying stones for settings you never make. Plenty of motion, nothing finished."
+        }
+      }
     },
     "door_note": {
       "body": "Metal",

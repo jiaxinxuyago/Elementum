@@ -46,7 +46,7 @@
         "desc": "Plenty of ground and none of it announces itself. When you step back for a while, everything wilts a little, and everyone finally notices who was watering."
       },
       {
-        "phrase": "Remembers who helped",
+        "phrase": "Never forgets a kindness",
         "dim": "how you learn",
         "door": "mind",
         "face": "echo",
@@ -54,7 +54,7 @@
         "desc": "Affection, praise and festivity all count as study for you. You learn best from people who were warm while they taught, and you never forget them."
       },
       {
-        "phrase": "Reads the season",
+        "phrase": "Perfect timing",
         "dim": "timing",
         "door": "mind",
         "face": "wide",
@@ -62,7 +62,7 @@
         "desc": "With this much warmth in the ground, you know when to plant and when to leave it alone. Timing is the thing you never explain."
       },
       {
-        "phrase": "Few words, exact",
+        "phrase": "Every word counts",
         "dim": "speaking up",
         "door": "expression",
         "face": "echo",
@@ -88,7 +88,7 @@
     ],
     "shadows": [
       {
-        "phrase": "Takes the mud",
+        "phrase": "Bogged down",
         "dim": "what gets dropped",
         "door": "body",
         "face": "echo",
@@ -96,7 +96,7 @@
         "desc": "Heaviness accumulating. Everything anyone drops goes into you and nothing drains out, and the field that grew things is turning to mud."
       },
       {
-        "phrase": "Stuck in your ways",
+        "phrase": "Resists change",
         "dim": "changing course",
         "door": "body",
         "face": "excess",
@@ -104,7 +104,7 @@
         "desc": "So much settled ground that nothing new can take root. The plan that worked once is still the plan, and the fresh idea never gets past the doorway."
       },
       {
-        "phrase": "Overheats on praise",
+        "phrase": "Lives on praise",
         "dim": "praise",
         "door": "mind",
         "face": "echo",
@@ -112,7 +112,7 @@
         "desc": "Praise, sparks, novelty taken in all day while real understanding stays shallow. The warmth is spending you, and it feels like learning."
       },
       {
-        "phrase": "Burns the seedlings",
+        "phrase": "Busy but barren",
         "dim": "producing",
         "door": "mind",
         "face": "excess",
@@ -128,7 +128,7 @@
         "desc": "Everyone wants a harvest, and the field gives one every season without lying fallow. Producing on demand is starting to hollow the ground."
       },
       {
-        "phrase": "Counts every grain",
+        "phrase": "Penny-watcher",
         "dim": "control",
         "door": "action",
         "face": "echo",
@@ -416,6 +416,72 @@
           "face": "excess",
           "echo_of": "土_土.carry.excess",
           "desc": "So much ground given over to everyone else that nothing of your own can root. The group picks the plan and you say it is fine. It is always fine."
+        }
+      },
+      "retired_2026-09-21_cold_read": {
+        "gifts.Remembers who helped": {
+          "phrase": "Remembers who helped",
+          "dim": "how you learn",
+          "door": "mind",
+          "face": "echo",
+          "echo_of": "土_火.function.definition_catalyst",
+          "desc": "Affection, praise and festivity all count as study for you. You learn best from people who were warm while they taught, and you never forget them."
+        },
+        "gifts.Reads the season": {
+          "phrase": "Reads the season",
+          "dim": "timing",
+          "door": "mind",
+          "face": "wide",
+          "echo_of": "土_火.carry.wide",
+          "desc": "With this much warmth in the ground, you know when to plant and when to leave it alone. Timing is the thing you never explain."
+        },
+        "gifts.Few words, exact": {
+          "phrase": "Few words, exact",
+          "dim": "speaking up",
+          "door": "expression",
+          "face": "echo",
+          "echo_of": "土_金.function.definition_catalyst",
+          "desc": "You speak rarely and it lands. The exact word, the finished piece, the standard people quote after you leave."
+        },
+        "shadows.Takes the mud": {
+          "phrase": "Takes the mud",
+          "dim": "what gets dropped",
+          "door": "body",
+          "face": "echo",
+          "echo_of": "土_土.function.definition_friction",
+          "desc": "Heaviness accumulating. Everything anyone drops goes into you and nothing drains out, and the field that grew things is turning to mud."
+        },
+        "shadows.Stuck in your ways": {
+          "phrase": "Stuck in your ways",
+          "dim": "changing course",
+          "door": "body",
+          "face": "excess",
+          "echo_of": "土_土.carry.excess",
+          "desc": "So much settled ground that nothing new can take root. The plan that worked once is still the plan, and the fresh idea never gets past the doorway."
+        },
+        "shadows.Overheats on praise": {
+          "phrase": "Overheats on praise",
+          "dim": "praise",
+          "door": "mind",
+          "face": "echo",
+          "echo_of": "土_火.function.definition_friction",
+          "desc": "Praise, sparks, novelty taken in all day while real understanding stays shallow. The warmth is spending you, and it feels like learning."
+        },
+        "shadows.Burns the seedlings": {
+          "phrase": "Burns the seedlings",
+          "dim": "producing",
+          "door": "mind",
+          "face": "excess",
+          "echo_of": "土_火.carry.excess",
+          "desc": "Baked hard by too much heat. Busy, warm, and producing nothing you wanted."
+        },
+        "shadows.Counts every grain": {
+          "phrase": "Counts every grain",
+          "dim": "control",
+          "door": "action",
+          "face": "echo",
+          "echo_of": "土_水.function.definition_friction",
+          "desc": "Accounts checked daily, favors tracked, every flow managed past usefulness. The control spends the calm it was meant to protect."
         }
       }
     },

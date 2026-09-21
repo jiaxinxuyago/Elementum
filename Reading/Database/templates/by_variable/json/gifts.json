@@ -41,7 +41,7 @@
             "desc": "Give you water and you grow. A quiet week, a long book, and the reaching starts again on its own."
           },
           {
-            "phrase": "Raises everyone's game",
+            "phrase": "Owns the stage",
             "dim": "influence on others",
             "door": "expression",
             "face": "echo",
@@ -49,7 +49,7 @@
             "desc": "Put your name on the work and the whole table aims higher. Your reach, once visible, becomes the new ceiling, and nobody remembers deciding that."
           },
           {
-            "phrase": "Makes it official",
+            "phrase": "Makes it real",
             "dim": "commitments",
             "door": "action",
             "face": "echo",
@@ -57,7 +57,7 @@
             "desc": "Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs."
           },
           {
-            "phrase": "Better when edited",
+            "phrase": "Sharpened by review",
             "dim": "under review",
             "door": "order",
             "face": "echo",
@@ -72,7 +72,7 @@
         "canonical_name": "The Vine",
         "value": [
           {
-            "phrase": "Regrows from little",
+            "phrase": "Starts over easily",
             "dim": "setbacks",
             "door": "body",
             "face": "echo",
@@ -80,7 +80,7 @@
             "desc": "Cut back to nothing in March, and by June there is a green line up the wall again. The will to start is your reserve, and it refills."
           },
           {
-            "phrase": "Grows anywhere",
+            "phrase": "Thrives on little",
             "dim": "conditions",
             "door": "body",
             "face": "wide",
@@ -88,7 +88,7 @@
             "desc": "Give you a wall, any wall, and by summer there is green on it. Plenty of growing force, and it never waits for ideal conditions."
           },
           {
-            "phrase": "Maps the wall",
+            "phrase": "Remembers the route",
             "dim": "second attempts",
             "door": "mind",
             "face": "echo",
@@ -120,7 +120,7 @@
             "desc": "Where you arrive, you stay. The job, the flat, the friendship you climbed toward becomes something held, and it holds you back."
           },
           {
-            "phrase": "Better for pruning",
+            "phrase": "Thrives on feedback",
             "dim": "under review",
             "door": "order",
             "face": "echo",
@@ -143,7 +143,7 @@
             "desc": "Your energy is the lift that makes mornings possible, for you and for the people near you. It runs in bursts, and the bursts are bright."
           },
           {
-            "phrase": "Shines on everyone",
+            "phrase": "Generous with warmth",
             "dim": "reach",
             "door": "body",
             "face": "wide",
@@ -183,7 +183,7 @@
             "desc": "Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on."
           },
           {
-            "phrase": "Sleeps on it",
+            "phrase": "Checks before leaping",
             "dim": "before the leap",
             "door": "order",
             "face": "echo",
@@ -222,7 +222,7 @@
             "desc": "One subject, years deep, stacked quietly like fuel. You know it the way people know a face, and it burns later as brilliance."
           },
           {
-            "phrase": "Misses nothing",
+            "phrase": "Spots the detail",
             "dim": "small details",
             "door": "mind",
             "face": "wide",
@@ -340,7 +340,7 @@
             "desc": "Plenty of ground and none of it announces itself. When you step back for a while, everything wilts a little, and everyone finally notices who was watering."
           },
           {
-            "phrase": "Remembers who helped",
+            "phrase": "Never forgets a kindness",
             "dim": "how you learn",
             "door": "mind",
             "face": "echo",
@@ -348,7 +348,7 @@
             "desc": "Affection, praise and festivity all count as study for you. You learn best from people who were warm while they taught, and you never forget them."
           },
           {
-            "phrase": "Reads the season",
+            "phrase": "Perfect timing",
             "dim": "timing",
             "door": "mind",
             "face": "wide",
@@ -356,7 +356,7 @@
             "desc": "With this much warmth in the ground, you know when to plant and when to leave it alone. Timing is the thing you never explain."
           },
           {
-            "phrase": "Few words, exact",
+            "phrase": "Every word counts",
             "dim": "speaking up",
             "door": "expression",
             "face": "echo",
@@ -395,7 +395,7 @@
             "desc": "You keep your shape long after the fuel is low. Nobody sees you run down, because the line stays straight while it happens."
           },
           {
-            "phrase": "Careful finisher",
+            "phrase": "Finishes properly",
             "dim": "at work",
             "door": "body",
             "face": "wide",
@@ -427,7 +427,7 @@
             "desc": "What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain."
           },
           {
-            "phrase": "Trims for growth",
+            "phrase": "Plays the long game",
             "dim": "trimming a plan",
             "door": "action",
             "face": "echo",
@@ -450,7 +450,7 @@
         "canonical_name": "The Jewel",
         "value": [
           {
-            "phrase": "Keeps its shape",
+            "phrase": "Steady under strain",
             "dim": "being handled",
             "door": "body",
             "face": "echo",
@@ -498,7 +498,7 @@
             "desc": "You know what a thing is worth and where it belongs, and what you place keeps growing in value after you have placed it."
           },
           {
-            "phrase": "Quality guaranteed",
+            "phrase": "Built to last",
             "dim": "at work",
             "door": "order",
             "face": "echo",
@@ -513,7 +513,7 @@
         "canonical_name": "The Ocean",
         "value": [
           {
-            "phrase": "Restored by quiet",
+            "phrase": "Recharges in silence",
             "dim": "recovery",
             "door": "body",
             "face": "echo",
@@ -521,7 +521,7 @@
             "desc": "The reserve under everything you notice refills in stillness. Noise and company drain it long before you feel tired, and one quiet evening brings it back."
           },
           {
-            "phrase": "Nothing rattles it",
+            "phrase": "Deep calm",
             "dim": "storms",
             "door": "body",
             "face": "wide",
@@ -537,7 +537,7 @@
             "desc": "Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through."
           },
           {
-            "phrase": "Big picture thinker",
+            "phrase": "Strategic mind",
             "dim": "connections",
             "door": "mind",
             "face": "wide",
@@ -545,7 +545,7 @@
             "desc": "Fed by exact sources, the depth has structure. While the meeting argues about one tile, you see the whole mosaic and where it is heading."
           },
           {
-            "phrase": "Gives ideas away",
+            "phrase": "Makes others grow",
             "dim": "what grows after you",
             "door": "expression",
             "face": "echo",
@@ -576,7 +576,7 @@
         "canonical_name": "The Rain",
         "value": [
           {
-            "phrase": "Needs the quiet",
+            "phrase": "Quiet to recharge",
             "dim": "recovery",
             "door": "body",
             "face": "echo",
@@ -584,7 +584,7 @@
             "desc": "Your reserve refills in stillness and drains through noise and company long before you feel tired. One quiet night and the dew is back."
           },
           {
-            "phrase": "Gentle confidant",
+            "phrase": "Keeps secrets safe",
             "dim": "secrets",
             "door": "body",
             "face": "wide",
@@ -592,7 +592,7 @@
             "desc": "Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and you have never broken one."
           },
           {
-            "phrase": "Better with structure",
+            "phrase": "Sharpened by method",
             "dim": "good teachers",
             "door": "mind",
             "face": "echo",
@@ -608,7 +608,7 @@
             "desc": "Fed from exact sources, the feel arrives early. The mood has shifted before anyone says so, and your tone has already changed to meet it."
           },
           {
-            "phrase": "Changes minds softly",
+            "phrase": "Wins without arguing",
             "dim": "influence on others",
             "door": "expression",
             "face": "echo",
@@ -616,7 +616,7 @@
             "desc": "Nobody remembers losing the argument to you. Positions shift a degree a week until, months later, everyone agrees and thinks they always did."
           },
           {
-            "phrase": "Spots the opening",
+            "phrase": "Ahead of the curve",
             "dim": "timing",
             "door": "action",
             "face": "echo",

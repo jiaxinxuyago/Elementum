@@ -86,7 +86,7 @@
 | `shadows[2].face` | echo |
 | `shadows[2].echo_of` | 土_火.function.definition_friction |
 | `shadows[2].desc` | Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before. |
-| `shadows[3].phrase` | Set in stone |
+| `shadows[3].phrase` | Hard to persuade |
 | `shadows[3].dim` | changing course |
 | `shadows[3].door` | mind |
 | `shadows[3].face` | excess |
@@ -98,7 +98,7 @@
 | `shadows[4].face` | echo |
 | `shadows[4].echo_of` | 土_金.function.definition_friction |
 | `shadows[4].desc` | More deliverables, more opinions, more polish than your quiet depth can supply. Producing is starting to hollow you. |
-| `shadows[5].phrase` | Manages everything |
+| `shadows[5].phrase` | Micromanages |
 | `shadows[5].dim` | control |
 | `shadows[5].door` | action |
 | `shadows[5].face` | echo |
@@ -256,3 +256,15 @@
 | `retired_inner_judge_2026-09-17[0].echo_of` | 土_木.function.definition_friction |
 | `retired_inner_judge_2026-09-17[0].desc` | Everyone rooted in you, nothing rooted for you. The load has not changed, but the legs under it have, and you still say yes to every weight. |
 | `retired_inner_judge_2026-09-17[0].why` | owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition |
+| `retired_2026-09-21_cold_read.shadows.Set in stone.phrase` | Set in stone |
+| `retired_2026-09-21_cold_read.shadows.Set in stone.dim` | changing course |
+| `retired_2026-09-21_cold_read.shadows.Set in stone.door` | mind |
+| `retired_2026-09-21_cold_read.shadows.Set in stone.face` | excess |
+| `retired_2026-09-21_cold_read.shadows.Set in stone.echo_of` | 土_火.carry.excess |
+| `retired_2026-09-21_cold_read.shadows.Set in stone.desc` | Baked hard by too much heat. Once your footing is chosen, argument works on you in centuries, not conversations, and people stop bringing the map. |
+| `retired_2026-09-21_cold_read.shadows.Manages everything.phrase` | Manages everything |
+| `retired_2026-09-21_cold_read.shadows.Manages everything.dim` | control |
+| `retired_2026-09-21_cold_read.shadows.Manages everything.door` | action |
+| `retired_2026-09-21_cold_read.shadows.Manages everything.face` | echo |
+| `retired_2026-09-21_cold_read.shadows.Manages everything.echo_of` | 土_水.function.definition_friction |
+| `retired_2026-09-21_cold_read.shadows.Manages everything.desc` | Accounts checked daily, opportunities tracked past usefulness, control spending the calm it was meant to protect. |

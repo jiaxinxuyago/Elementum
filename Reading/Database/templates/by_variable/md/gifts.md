@@ -34,19 +34,19 @@
 | `3.face` | wide |
 | `3.echo_of` | 木_水.carry.wide |
 | `3.desc` | Give you water and you grow. A quiet week, a long book, and the reaching starts again on its own. |
-| `4.phrase` | Raises everyone's game |
+| `4.phrase` | Owns the stage |
 | `4.dim` | influence on others |
 | `4.door` | expression |
 | `4.face` | echo |
 | `4.echo_of` | 木_火.function.definition_catalyst |
 | `4.desc` | Put your name on the work and the whole table aims higher. Your reach, once visible, becomes the new ceiling, and nobody remembers deciding that. |
-| `5.phrase` | Makes it official |
+| `5.phrase` | Makes it real |
 | `5.dim` | commitments |
 | `5.door` | action |
 | `5.face` | echo |
 | `5.echo_of` | 木_土.function.definition_catalyst |
 | `5.desc` | Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs. |
-| `6.phrase` | Better when edited |
+| `6.phrase` | Sharpened by review |
 | `6.dim` | under review |
 | `6.door` | order |
 | `6.face` | echo |
@@ -57,19 +57,19 @@
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Regrows from little |
+| `0.phrase` | Starts over easily |
 | `0.dim` | setbacks |
 | `0.door` | body |
 | `0.face` | echo |
 | `0.echo_of` | 木_木.function.definition_catalyst |
 | `0.desc` | Cut back to nothing in March, and by June there is a green line up the wall again. The will to start is your reserve, and it refills. |
-| `1.phrase` | Grows anywhere |
+| `1.phrase` | Thrives on little |
 | `1.dim` | conditions |
 | `1.door` | body |
 | `1.face` | wide |
 | `1.echo_of` | 木_木.function.definition_catalyst |
 | `1.desc` | Give you a wall, any wall, and by summer there is green on it. Plenty of growing force, and it never waits for ideal conditions. |
-| `2.phrase` | Maps the wall |
+| `2.phrase` | Remembers the route |
 | `2.dim` | second attempts |
 | `2.door` | mind |
 | `2.face` | echo |
@@ -93,7 +93,7 @@
 | `5.face` | echo |
 | `5.echo_of` | 木_土.function.definition_catalyst |
 | `5.desc` | Where you arrive, you stay. The job, the flat, the friendship you climbed toward becomes something held, and it holds you back. |
-| `6.phrase` | Better for pruning |
+| `6.phrase` | Thrives on feedback |
 | `6.dim` | under review |
 | `6.door` | order |
 | `6.face` | echo |
@@ -110,7 +110,7 @@
 | `0.face` | echo |
 | `0.echo_of` | 火_火.function.definition_catalyst |
 | `0.desc` | Your energy is the lift that makes mornings possible, for you and for the people near you. It runs in bursts, and the bursts are bright. |
-| `1.phrase` | Shines on everyone |
+| `1.phrase` | Generous with warmth |
 | `1.dim` | reach |
 | `1.door` | body |
 | `1.face` | wide |
@@ -140,7 +140,7 @@
 | `5.face` | echo |
 | `5.echo_of` | 火_金.function.definition_catalyst |
 | `5.desc` | Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on. |
-| `6.phrase` | Sleeps on it |
+| `6.phrase` | Checks before leaping |
 | `6.dim` | before the leap |
 | `6.door` | order |
 | `6.face` | echo |
@@ -169,7 +169,7 @@
 | `2.face` | echo |
 | `2.echo_of` | 火_木.function.definition_catalyst |
 | `2.desc` | One subject, years deep, stacked quietly like fuel. You know it the way people know a face, and it burns later as brilliance. |
-| `3.phrase` | Misses nothing |
+| `3.phrase` | Spots the detail |
 | `3.dim` | small details |
 | `3.door` | mind |
 | `3.face` | wide |
@@ -257,19 +257,19 @@
 | `1.face` | wide |
 | `1.echo_of` | 土_土.function.definition_catalyst |
 | `1.desc` | Plenty of ground and none of it announces itself. When you step back for a while, everything wilts a little, and everyone finally notices who was watering. |
-| `2.phrase` | Remembers who helped |
+| `2.phrase` | Never forgets a kindness |
 | `2.dim` | how you learn |
 | `2.door` | mind |
 | `2.face` | echo |
 | `2.echo_of` | 土_火.function.definition_catalyst |
 | `2.desc` | Affection, praise and festivity all count as study for you. You learn best from people who were warm while they taught, and you never forget them. |
-| `3.phrase` | Reads the season |
+| `3.phrase` | Perfect timing |
 | `3.dim` | timing |
 | `3.door` | mind |
 | `3.face` | wide |
 | `3.echo_of` | 土_火.carry.wide |
 | `3.desc` | With this much warmth in the ground, you know when to plant and when to leave it alone. Timing is the thing you never explain. |
-| `4.phrase` | Few words, exact |
+| `4.phrase` | Every word counts |
 | `4.dim` | speaking up |
 | `4.door` | expression |
 | `4.face` | echo |
@@ -298,7 +298,7 @@
 | `0.face` | echo |
 | `0.echo_of` | 金_金.function.definition_catalyst |
 | `0.desc` | You keep your shape long after the fuel is low. Nobody sees you run down, because the line stays straight while it happens. |
-| `1.phrase` | Careful finisher |
+| `1.phrase` | Finishes properly |
 | `1.dim` | at work |
 | `1.door` | body |
 | `1.face` | wide |
@@ -322,7 +322,7 @@
 | `4.face` | echo |
 | `4.echo_of` | 金_水.function.definition_catalyst |
 | `4.desc` | What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain. |
-| `5.phrase` | Trims for growth |
+| `5.phrase` | Plays the long game |
 | `5.dim` | trimming a plan |
 | `5.door` | action |
 | `5.face` | echo |
@@ -339,7 +339,7 @@
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Keeps its shape |
+| `0.phrase` | Steady under strain |
 | `0.dim` | being handled |
 | `0.door` | body |
 | `0.face` | echo |
@@ -375,7 +375,7 @@
 | `5.face` | echo |
 | `5.echo_of` | 金_木.function.definition_catalyst |
 | `5.desc` | You know what a thing is worth and where it belongs, and what you place keeps growing in value after you have placed it. |
-| `6.phrase` | Quality guaranteed |
+| `6.phrase` | Built to last |
 | `6.dim` | at work |
 | `6.door` | order |
 | `6.face` | echo |
@@ -386,13 +386,13 @@
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Restored by quiet |
+| `0.phrase` | Recharges in silence |
 | `0.dim` | recovery |
 | `0.door` | body |
 | `0.face` | echo |
 | `0.echo_of` | 水_水.function.definition_catalyst |
 | `0.desc` | The reserve under everything you notice refills in stillness. Noise and company drain it long before you feel tired, and one quiet evening brings it back. |
-| `1.phrase` | Nothing rattles it |
+| `1.phrase` | Deep calm |
 | `1.dim` | storms |
 | `1.door` | body |
 | `1.face` | wide |
@@ -404,13 +404,13 @@
 | `2.face` | echo |
 | `2.echo_of` | 水_金.function.definition_catalyst |
 | `2.desc` | Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through. |
-| `3.phrase` | Big picture thinker |
+| `3.phrase` | Strategic mind |
 | `3.dim` | connections |
 | `3.door` | mind |
 | `3.face` | wide |
 | `3.echo_of` | 水_金.carry.wide |
 | `3.desc` | Fed by exact sources, the depth has structure. While the meeting argues about one tile, you see the whole mosaic and where it is heading. |
-| `4.phrase` | Gives ideas away |
+| `4.phrase` | Makes others grow |
 | `4.dim` | what grows after you |
 | `4.door` | expression |
 | `4.face` | echo |
@@ -433,19 +433,19 @@
 
 | Field | Value |
 |---|---|
-| `0.phrase` | Needs the quiet |
+| `0.phrase` | Quiet to recharge |
 | `0.dim` | recovery |
 | `0.door` | body |
 | `0.face` | echo |
 | `0.echo_of` | 水_水.function.definition_catalyst |
 | `0.desc` | Your reserve refills in stillness and drains through noise and company long before you feel tired. One quiet night and the dew is back. |
-| `1.phrase` | Gentle confidant |
+| `1.phrase` | Keeps secrets safe |
 | `1.dim` | secrets |
 | `1.door` | body |
 | `1.face` | wide |
 | `1.echo_of` | 水_水.function.definition_catalyst |
 | `1.desc` | Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and you have never broken one. |
-| `2.phrase` | Better with structure |
+| `2.phrase` | Sharpened by method |
 | `2.dim` | good teachers |
 | `2.door` | mind |
 | `2.face` | echo |
@@ -457,13 +457,13 @@
 | `3.face` | wide |
 | `3.echo_of` | 水_金.carry.wide |
 | `3.desc` | Fed from exact sources, the feel arrives early. The mood has shifted before anyone says so, and your tone has already changed to meet it. |
-| `4.phrase` | Changes minds softly |
+| `4.phrase` | Wins without arguing |
 | `4.dim` | influence on others |
 | `4.door` | expression |
 | `4.face` | echo |
 | `4.echo_of` | 水_木.function.definition_catalyst |
 | `4.desc` | Nobody remembers losing the argument to you. Positions shift a degree a week until, months later, everyone agrees and thinks they always did. |
-| `5.phrase` | Spots the opening |
+| `5.phrase` | Ahead of the curve |
 | `5.dim` | timing |
 | `5.door` | action |
 | `5.face` | echo |

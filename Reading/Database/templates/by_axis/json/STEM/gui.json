@@ -30,7 +30,7 @@
     "dm_overview": "The Rain is Yin Water, the last sign in the count, the water that closes the circle so it can begin again. It is rain, dew, and mist, the moisture that arrives everywhere and forces nothing. At winter's end it falls softly on planted fields through the night. By morning it is gone, and everything it touched has quietly agreed to grow.",
     "gifts": [
       {
-        "phrase": "Needs the quiet",
+        "phrase": "Quiet to recharge",
         "dim": "recovery",
         "door": "body",
         "face": "echo",
@@ -38,7 +38,7 @@
         "desc": "Your reserve refills in stillness and drains through noise and company long before you feel tired. One quiet night and the dew is back."
       },
       {
-        "phrase": "Gentle confidant",
+        "phrase": "Keeps secrets safe",
         "dim": "secrets",
         "door": "body",
         "face": "wide",
@@ -46,7 +46,7 @@
         "desc": "Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and you have never broken one."
       },
       {
-        "phrase": "Better with structure",
+        "phrase": "Sharpened by method",
         "dim": "good teachers",
         "door": "mind",
         "face": "echo",
@@ -62,7 +62,7 @@
         "desc": "Fed from exact sources, the feel arrives early. The mood has shifted before anyone says so, and your tone has already changed to meet it."
       },
       {
-        "phrase": "Changes minds softly",
+        "phrase": "Wins without arguing",
         "dim": "influence on others",
         "door": "expression",
         "face": "echo",
@@ -70,7 +70,7 @@
         "desc": "Nobody remembers losing the argument to you. Positions shift a degree a week until, months later, everyone agrees and thinks they always did."
       },
       {
-        "phrase": "Spots the opening",
+        "phrase": "Ahead of the curve",
         "dim": "timing",
         "door": "action",
         "face": "echo",
@@ -88,15 +88,15 @@
     ],
     "shadows": [
       {
-        "phrase": "Sleeps without rest",
+        "phrase": "Waits to be moved",
         "dim": "recovery",
         "door": "body",
         "face": "echo",
         "echo_of": "水_水.function.definition_friction",
-        "desc": "Stillness pooling into stagnation. Sleep that stretches without refreshing, feeling waiting for a current that never comes."
+        "desc": "So much stillness that nothing moves. You wait for a current to carry you instead of choosing one, and the waiting looks like rest but leaves you flat."
       },
       {
-        "phrase": "Loses the border",
+        "phrase": "Carries others' feelings",
         "dim": "whose feeling",
         "door": "body",
         "face": "excess",
@@ -112,7 +112,7 @@
         "desc": "The conversation ended Tuesday and you are still in it Friday, sorting the tone and the pause into a system that never gets used."
       },
       {
-        "phrase": "Absorbs everything",
+        "phrase": "Soaks up everything",
         "dim": "others' emotions",
         "door": "mind",
         "face": "excess",
@@ -120,7 +120,7 @@
         "desc": "Too much taken in and the water will not clear. You walk in fine and leave carrying the argument two strangers had near you."
       },
       {
-        "phrase": "Mentors everyone",
+        "phrase": "Everyone's helper",
         "dim": "other people's growth",
         "door": "expression",
         "face": "echo",
@@ -128,7 +128,7 @@
         "desc": "Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours."
       },
       {
-        "phrase": "Boils off early",
+        "phrase": "Quick to bite",
         "dim": "chasing warmth",
         "door": "action",
         "face": "echo",
@@ -136,7 +136,7 @@
         "desc": "Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns."
       },
       {
-        "phrase": "Punishes itself quietly",
+        "phrase": "Self-punishing",
         "dim": "being judged",
         "door": "order",
         "face": "echo",
@@ -464,6 +464,96 @@
           "face": "wide",
           "echo_of": "水_金.carry.wide",
           "desc": "Fed by exact sources, the feel arrives early. You knew the couple was fighting before they did."
+        }
+      },
+      "retired_2026-09-21_cold_read": {
+        "gifts.Needs the quiet": {
+          "phrase": "Needs the quiet",
+          "dim": "recovery",
+          "door": "body",
+          "face": "echo",
+          "echo_of": "水_水.function.definition_catalyst",
+          "desc": "Your reserve refills in stillness and drains through noise and company long before you feel tired. One quiet night and the dew is back."
+        },
+        "gifts.Gentle confidant": {
+          "phrase": "Gentle confidant",
+          "dim": "secrets",
+          "door": "body",
+          "face": "wide",
+          "echo_of": "水_水.function.definition_catalyst",
+          "desc": "Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and you have never broken one."
+        },
+        "gifts.Better with structure": {
+          "phrase": "Better with structure",
+          "dim": "good teachers",
+          "door": "mind",
+          "face": "echo",
+          "echo_of": "水_金.function.definition_catalyst",
+          "desc": "Exact teachers, clean methods, rigorous tools turn what you feel into something usable. You think better with structure than with more input."
+        },
+        "gifts.Changes minds softly": {
+          "phrase": "Changes minds softly",
+          "dim": "influence on others",
+          "door": "expression",
+          "face": "echo",
+          "echo_of": "水_木.function.definition_catalyst",
+          "desc": "Nobody remembers losing the argument to you. Positions shift a degree a week until, months later, everyone agrees and thinks they always did."
+        },
+        "gifts.Spots the opening": {
+          "phrase": "Spots the opening",
+          "dim": "timing",
+          "door": "action",
+          "face": "echo",
+          "echo_of": "水_火.function.definition_catalyst",
+          "desc": "You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived."
+        },
+        "shadows.Sleeps without rest": {
+          "phrase": "Sleeps without rest",
+          "dim": "recovery",
+          "door": "body",
+          "face": "echo",
+          "echo_of": "水_水.function.definition_friction",
+          "desc": "Stillness pooling into stagnation. Sleep that stretches without refreshing, feeling waiting for a current that never comes."
+        },
+        "shadows.Loses the border": {
+          "phrase": "Loses the border",
+          "dim": "whose feeling",
+          "door": "body",
+          "face": "excess",
+          "echo_of": "水_水.carry.excess",
+          "desc": "So much felt that nothing surfaces to be checked. Their weather becomes yours, and by evening you cannot say whose sadness you are carrying."
+        },
+        "shadows.Absorbs everything": {
+          "phrase": "Absorbs everything",
+          "dim": "others' emotions",
+          "door": "mind",
+          "face": "excess",
+          "echo_of": "水_金.carry.excess",
+          "desc": "Too much taken in and the water will not clear. You walk in fine and leave carrying the argument two strangers had near you."
+        },
+        "shadows.Mentors everyone": {
+          "phrase": "Mentors everyone",
+          "dim": "other people's growth",
+          "door": "expression",
+          "face": "echo",
+          "echo_of": "水_木.function.definition_friction",
+          "desc": "Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours."
+        },
+        "shadows.Boils off early": {
+          "phrase": "Boils off early",
+          "dim": "chasing warmth",
+          "door": "action",
+          "face": "echo",
+          "echo_of": "水_火.function.definition_friction",
+          "desc": "Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns."
+        },
+        "shadows.Punishes itself quietly": {
+          "phrase": "Punishes itself quietly",
+          "dim": "being judged",
+          "door": "order",
+          "face": "echo",
+          "echo_of": "水_土.function.definition_friction",
+          "desc": "Roles held from duty long after they stopped fitting, and one missed duty brings the sternest voice you hear, your own, so softly that nobody else notices."
         }
       }
     },

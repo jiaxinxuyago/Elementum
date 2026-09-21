@@ -112,7 +112,7 @@
             "desc": "You tell people where you will be by summer while the wall is still bare. The saying comes easily. Then the summer has to keep the promise."
           },
           {
-            "phrase": "Takes every opening",
+            "phrase": "Can't say no",
             "dim": "saying yes",
             "door": "action",
             "face": "echo",
@@ -143,7 +143,7 @@
             "desc": "More heat than your days can spend. Sleep will not come, intensity leaks into every conversation, and rest feels like a punishment."
           },
           {
-            "phrase": "Outshines everyone",
+            "phrase": "Steals the spotlight",
             "dim": "the whole sky",
             "door": "body",
             "face": "excess",
@@ -206,7 +206,7 @@
             "desc": "More heat than your days can spend. Sleep will not come, and the intensity leaks into every conversation until rest feels like punishment."
           },
           {
-            "phrase": "Plays favorites",
+            "phrase": "Tunnel vision",
             "dim": "the edge of attention",
             "door": "body",
             "face": "excess",
@@ -222,7 +222,7 @@
             "desc": "One more course, one more plan, and the small flame moves to whatever caught last. Ready keeps moving because you do."
           },
           {
-            "phrase": "Smothered by plans",
+            "phrase": "Burns out fast",
             "dim": "too many plans",
             "door": "mind",
             "face": "excess",
@@ -230,7 +230,7 @@
             "desc": "So much fuel around one small flame that it flares in every direction instead of lasting. Bright for an evening, cold by breakfast, and the plan that mattered went up with the rest."
           },
           {
-            "phrase": "Makes it permanent",
+            "phrase": "Overplans the fun",
             "dim": "moments",
             "door": "expression",
             "face": "echo",
@@ -238,7 +238,7 @@
             "desc": "The evening that should have been an evening becomes a tradition, a plan, a commitment. Output hardens faster than it can live."
           },
           {
-            "phrase": "Keeps reworking it",
+            "phrase": "Never calls it done",
             "dim": "finishing",
             "door": "action",
             "face": "echo",
@@ -285,7 +285,7 @@
             "desc": "Company, praise, a good evening, the feed on your phone: all of it feels like taking something in. By morning the ground knows nothing it did not know before."
           },
           {
-            "phrase": "Set in stone",
+            "phrase": "Hard to persuade",
             "dim": "changing course",
             "door": "mind",
             "face": "excess",
@@ -301,7 +301,7 @@
             "desc": "More deliverables, more opinions, more polish than your quiet depth can supply. Producing is starting to hollow you."
           },
           {
-            "phrase": "Manages everything",
+            "phrase": "Micromanages",
             "dim": "control",
             "door": "action",
             "face": "echo",
@@ -324,7 +324,7 @@
         "canonical_name": "The Field",
         "value": [
           {
-            "phrase": "Takes the mud",
+            "phrase": "Bogged down",
             "dim": "what gets dropped",
             "door": "body",
             "face": "echo",
@@ -332,7 +332,7 @@
             "desc": "Heaviness accumulating. Everything anyone drops goes into you and nothing drains out, and the field that grew things is turning to mud."
           },
           {
-            "phrase": "Stuck in your ways",
+            "phrase": "Resists change",
             "dim": "changing course",
             "door": "body",
             "face": "excess",
@@ -340,7 +340,7 @@
             "desc": "So much settled ground that nothing new can take root. The plan that worked once is still the plan, and the fresh idea never gets past the doorway."
           },
           {
-            "phrase": "Overheats on praise",
+            "phrase": "Lives on praise",
             "dim": "praise",
             "door": "mind",
             "face": "echo",
@@ -348,7 +348,7 @@
             "desc": "Praise, sparks, novelty taken in all day while real understanding stays shallow. The warmth is spending you, and it feels like learning."
           },
           {
-            "phrase": "Burns the seedlings",
+            "phrase": "Busy but barren",
             "dim": "producing",
             "door": "mind",
             "face": "excess",
@@ -364,7 +364,7 @@
             "desc": "Everyone wants a harvest, and the field gives one every season without lying fallow. Producing on demand is starting to hollow the ground."
           },
           {
-            "phrase": "Counts every grain",
+            "phrase": "Penny-watcher",
             "dim": "control",
             "door": "action",
             "face": "echo",
@@ -411,7 +411,7 @@
             "desc": "The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it."
           },
           {
-            "phrase": "Plans, never acts",
+            "phrase": "Overprepared",
             "dim": "showing the work",
             "door": "mind",
             "face": "excess",
@@ -427,7 +427,7 @@
             "desc": "Talent with no banks runs into snacks, scrolling, remarks that cut deeper than you meant, and half-made things. Nothing is wrong, exactly. That is the problem."
           },
           {
-            "phrase": "Busy, nothing finished",
+            "phrase": "Spins its wheels",
             "dim": "trimming",
             "door": "action",
             "face": "echo",
@@ -474,7 +474,7 @@
             "desc": "One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work."
           },
           {
-            "phrase": "Stays boxed up",
+            "phrase": "Buried talent",
             "dim": "being sheltered",
             "door": "mind",
             "face": "excess",
@@ -482,7 +482,7 @@
             "desc": "Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box."
           },
           {
-            "phrase": "Remarks cut deep",
+            "phrase": "Sharp tongue",
             "dim": "small remarks",
             "door": "expression",
             "face": "echo",
@@ -490,7 +490,7 @@
             "desc": "Output with no banks. The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not."
           },
           {
-            "phrase": "Hoards raw stones",
+            "phrase": "Hoarder of starts",
             "dim": "acquiring",
             "door": "action",
             "face": "echo",
@@ -513,7 +513,7 @@
         "canonical_name": "The Ocean",
         "value": [
           {
-            "phrase": "Rest stops working",
+            "phrase": "Stagnant",
             "dim": "recovery",
             "door": "body",
             "face": "echo",
@@ -521,7 +521,7 @@
             "desc": "Stillness pooling into stagnation. Sleep that stretches without refreshing, energy waiting for a current that never comes."
           },
           {
-            "phrase": "Hard to know",
+            "phrase": "Closed book",
             "dim": "close bonds",
             "door": "body",
             "face": "excess",
@@ -529,7 +529,7 @@
             "desc": "So much depth that nothing surfaces. Even the people closest to you work from a fraction, and whole regions of you stay unmapped, never offered."
           },
           {
-            "phrase": "Collects frameworks",
+            "phrase": "Over-organized",
             "dim": "sources",
             "door": "mind",
             "face": "echo",
@@ -537,7 +537,7 @@
             "desc": "Systems perfected, methods collected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking."
           },
           {
-            "phrase": "Muddied by advice",
+            "phrase": "Drowning in advice",
             "dim": "taking counsel",
             "door": "mind",
             "face": "excess",
@@ -545,7 +545,7 @@
             "desc": "So much counsel has gone in that the water will not clear. You cannot see your own bottom anymore."
           },
           {
-            "phrase": "Pours into everyone",
+            "phrase": "Overgives",
             "dim": "other people's gardens",
             "door": "expression",
             "face": "echo",
@@ -553,7 +553,7 @@
             "desc": "Every person developed, every idea watered, your depth spent raising gardens you do not live in."
           },
           {
-            "phrase": "Spread too thin",
+            "phrase": "Chases hot chances",
             "dim": "focus",
             "door": "action",
             "face": "echo",
@@ -561,7 +561,7 @@
             "desc": "Hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you."
           },
           {
-            "phrase": "Sinks under blame",
+            "phrase": "Carries every blame",
             "dim": "being judged",
             "door": "order",
             "face": "echo",
@@ -576,15 +576,15 @@
         "canonical_name": "The Rain",
         "value": [
           {
-            "phrase": "Sleeps without rest",
+            "phrase": "Waits to be moved",
             "dim": "recovery",
             "door": "body",
             "face": "echo",
             "echo_of": "水_水.function.definition_friction",
-            "desc": "Stillness pooling into stagnation. Sleep that stretches without refreshing, feeling waiting for a current that never comes."
+            "desc": "So much stillness that nothing moves. You wait for a current to carry you instead of choosing one, and the waiting looks like rest but leaves you flat."
           },
           {
-            "phrase": "Loses the border",
+            "phrase": "Carries others' feelings",
             "dim": "whose feeling",
             "door": "body",
             "face": "excess",
@@ -600,7 +600,7 @@
             "desc": "The conversation ended Tuesday and you are still in it Friday, sorting the tone and the pause into a system that never gets used."
           },
           {
-            "phrase": "Absorbs everything",
+            "phrase": "Soaks up everything",
             "dim": "others' emotions",
             "door": "mind",
             "face": "excess",
@@ -608,7 +608,7 @@
             "desc": "Too much taken in and the water will not clear. You walk in fine and leave carrying the argument two strangers had near you."
           },
           {
-            "phrase": "Mentors everyone",
+            "phrase": "Everyone's helper",
             "dim": "other people's growth",
             "door": "expression",
             "face": "echo",
@@ -616,7 +616,7 @@
             "desc": "Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours."
           },
           {
-            "phrase": "Boils off early",
+            "phrase": "Quick to bite",
             "dim": "chasing warmth",
             "door": "action",
             "face": "echo",
@@ -624,7 +624,7 @@
             "desc": "Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns."
           },
           {
-            "phrase": "Punishes itself quietly",
+            "phrase": "Self-punishing",
             "dim": "being judged",
             "door": "order",
             "face": "echo",

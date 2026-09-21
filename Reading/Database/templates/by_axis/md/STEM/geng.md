@@ -32,7 +32,7 @@
 | `gifts[0].face` | echo |
 | `gifts[0].echo_of` | 金_金.function.definition_catalyst |
 | `gifts[0].desc` | You keep your shape long after the fuel is low. Nobody sees you run down, because the line stays straight while it happens. |
-| `gifts[1].phrase` | Careful finisher |
+| `gifts[1].phrase` | Finishes properly |
 | `gifts[1].dim` | at work |
 | `gifts[1].door` | body |
 | `gifts[1].face` | wide |
@@ -56,7 +56,7 @@
 | `gifts[4].face` | echo |
 | `gifts[4].echo_of` | 金_水.function.definition_catalyst |
 | `gifts[4].desc` | What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain. |
-| `gifts[5].phrase` | Trims for growth |
+| `gifts[5].phrase` | Plays the long game |
 | `gifts[5].dim` | trimming a plan |
 | `gifts[5].door` | action |
 | `gifts[5].face` | echo |
@@ -86,7 +86,7 @@
 | `shadows[2].face` | echo |
 | `shadows[2].echo_of` | 金_土.function.definition_friction |
 | `shadows[2].desc` | The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it. |
-| `shadows[3].phrase` | Plans, never acts |
+| `shadows[3].phrase` | Overprepared |
 | `shadows[3].dim` | showing the work |
 | `shadows[3].door` | mind |
 | `shadows[3].face` | excess |
@@ -98,7 +98,7 @@
 | `shadows[4].face` | echo |
 | `shadows[4].echo_of` | 金_水.function.definition_friction |
 | `shadows[4].desc` | Talent with no banks runs into snacks, scrolling, remarks that cut deeper than you meant, and half-made things. Nothing is wrong, exactly. That is the problem. |
-| `shadows[5].phrase` | Busy, nothing finished |
+| `shadows[5].phrase` | Spins its wheels |
 | `shadows[5].dim` | trimming |
 | `shadows[5].door` | action |
 | `shadows[5].face` | echo |
@@ -309,3 +309,27 @@
 | `retired_derivation_law_2026-09-16[5].door` | action |
 | `retired_derivation_law_2026-09-16[5].desc` | Asked to trim, you take it to the frame. The part that was working goes out with the part that was not. |
 | `retired_derivation_law_2026-09-16[5].why` | derivation law 2026-09-16: the door already carries its echo face and its wide/excess face |
+| `retired_2026-09-21_cold_read.gifts.Careful finisher.phrase` | Careful finisher |
+| `retired_2026-09-21_cold_read.gifts.Careful finisher.dim` | at work |
+| `retired_2026-09-21_cold_read.gifts.Careful finisher.door` | body |
+| `retired_2026-09-21_cold_read.gifts.Careful finisher.face` | wide |
+| `retired_2026-09-21_cold_read.gifts.Careful finisher.echo_of` | 金_金.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Careful finisher.desc` | You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing. |
+| `retired_2026-09-21_cold_read.gifts.Trims for growth.phrase` | Trims for growth |
+| `retired_2026-09-21_cold_read.gifts.Trims for growth.dim` | trimming a plan |
+| `retired_2026-09-21_cold_read.gifts.Trims for growth.door` | action |
+| `retired_2026-09-21_cold_read.gifts.Trims for growth.face` | echo |
+| `retired_2026-09-21_cold_read.gifts.Trims for growth.echo_of` | 金_木.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Trims for growth.desc` | You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl. |
+| `retired_2026-09-21_cold_read.shadows.Plans, never acts.phrase` | Plans, never acts |
+| `retired_2026-09-21_cold_read.shadows.Plans, never acts.dim` | showing the work |
+| `retired_2026-09-21_cold_read.shadows.Plans, never acts.door` | mind |
+| `retired_2026-09-21_cold_read.shadows.Plans, never acts.face` | excess |
+| `retired_2026-09-21_cold_read.shadows.Plans, never acts.echo_of` | 金_土.carry.excess |
+| `retired_2026-09-21_cold_read.shadows.Plans, never acts.desc` | Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth. |
+| `retired_2026-09-21_cold_read.shadows.Busy, nothing finished.phrase` | Busy, nothing finished |
+| `retired_2026-09-21_cold_read.shadows.Busy, nothing finished.dim` | trimming |
+| `retired_2026-09-21_cold_read.shadows.Busy, nothing finished.door` | action |
+| `retired_2026-09-21_cold_read.shadows.Busy, nothing finished.face` | echo |
+| `retired_2026-09-21_cold_read.shadows.Busy, nothing finished.echo_of` | 金_木.function.definition_friction |
+| `retired_2026-09-21_cold_read.shadows.Busy, nothing finished.desc` | Effort goes wherever the branches already point: old ground held too hard, new shoots started too freely. The season ends with plenty of motion and nothing brought in. |

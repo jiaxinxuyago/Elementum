@@ -38,19 +38,19 @@
 | `gifts[1].face` | wide |
 | `gifts[1].echo_of` | 土_土.function.definition_catalyst |
 | `gifts[1].desc` | Plenty of ground and none of it announces itself. When you step back for a while, everything wilts a little, and everyone finally notices who was watering. |
-| `gifts[2].phrase` | Remembers who helped |
+| `gifts[2].phrase` | Never forgets a kindness |
 | `gifts[2].dim` | how you learn |
 | `gifts[2].door` | mind |
 | `gifts[2].face` | echo |
 | `gifts[2].echo_of` | 土_火.function.definition_catalyst |
 | `gifts[2].desc` | Affection, praise and festivity all count as study for you. You learn best from people who were warm while they taught, and you never forget them. |
-| `gifts[3].phrase` | Reads the season |
+| `gifts[3].phrase` | Perfect timing |
 | `gifts[3].dim` | timing |
 | `gifts[3].door` | mind |
 | `gifts[3].face` | wide |
 | `gifts[3].echo_of` | 土_火.carry.wide |
 | `gifts[3].desc` | With this much warmth in the ground, you know when to plant and when to leave it alone. Timing is the thing you never explain. |
-| `gifts[4].phrase` | Few words, exact |
+| `gifts[4].phrase` | Every word counts |
 | `gifts[4].dim` | speaking up |
 | `gifts[4].door` | expression |
 | `gifts[4].face` | echo |
@@ -68,25 +68,25 @@
 | `gifts[6].face` | echo |
 | `gifts[6].echo_of` | 土_木.function.definition_catalyst |
 | `gifts[6].desc` | Your care does not have seasons of convenience. What you said in spring still stands in winter, and people build their lives on that. |
-| `shadows[0].phrase` | Takes the mud |
+| `shadows[0].phrase` | Bogged down |
 | `shadows[0].dim` | what gets dropped |
 | `shadows[0].door` | body |
 | `shadows[0].face` | echo |
 | `shadows[0].echo_of` | 土_土.function.definition_friction |
 | `shadows[0].desc` | Heaviness accumulating. Everything anyone drops goes into you and nothing drains out, and the field that grew things is turning to mud. |
-| `shadows[1].phrase` | Stuck in your ways |
+| `shadows[1].phrase` | Resists change |
 | `shadows[1].dim` | changing course |
 | `shadows[1].door` | body |
 | `shadows[1].face` | excess |
 | `shadows[1].echo_of` | 土_土.carry.excess |
 | `shadows[1].desc` | So much settled ground that nothing new can take root. The plan that worked once is still the plan, and the fresh idea never gets past the doorway. |
-| `shadows[2].phrase` | Overheats on praise |
+| `shadows[2].phrase` | Lives on praise |
 | `shadows[2].dim` | praise |
 | `shadows[2].door` | mind |
 | `shadows[2].face` | echo |
 | `shadows[2].echo_of` | 土_火.function.definition_friction |
 | `shadows[2].desc` | Praise, sparks, novelty taken in all day while real understanding stays shallow. The warmth is spending you, and it feels like learning. |
-| `shadows[3].phrase` | Burns the seedlings |
+| `shadows[3].phrase` | Busy but barren |
 | `shadows[3].dim` | producing |
 | `shadows[3].door` | mind |
 | `shadows[3].face` | excess |
@@ -98,7 +98,7 @@
 | `shadows[4].face` | echo |
 | `shadows[4].echo_of` | 土_金.function.definition_friction |
 | `shadows[4].desc` | Everyone wants a harvest, and the field gives one every season without lying fallow. Producing on demand is starting to hollow the ground. |
-| `shadows[5].phrase` | Counts every grain |
+| `shadows[5].phrase` | Penny-watcher |
 | `shadows[5].dim` | control |
 | `shadows[5].door` | action |
 | `shadows[5].face` | echo |
@@ -247,3 +247,51 @@
 | `retired_2026-09-20_batch4.shadows.Too agreeable.face` | excess |
 | `retired_2026-09-20_batch4.shadows.Too agreeable.echo_of` | 土_土.carry.excess |
 | `retired_2026-09-20_batch4.shadows.Too agreeable.desc` | So much ground given over to everyone else that nothing of your own can root. The group picks the plan and you say it is fine. It is always fine. |
+| `retired_2026-09-21_cold_read.gifts.Remembers who helped.phrase` | Remembers who helped |
+| `retired_2026-09-21_cold_read.gifts.Remembers who helped.dim` | how you learn |
+| `retired_2026-09-21_cold_read.gifts.Remembers who helped.door` | mind |
+| `retired_2026-09-21_cold_read.gifts.Remembers who helped.face` | echo |
+| `retired_2026-09-21_cold_read.gifts.Remembers who helped.echo_of` | 土_火.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Remembers who helped.desc` | Affection, praise and festivity all count as study for you. You learn best from people who were warm while they taught, and you never forget them. |
+| `retired_2026-09-21_cold_read.gifts.Reads the season.phrase` | Reads the season |
+| `retired_2026-09-21_cold_read.gifts.Reads the season.dim` | timing |
+| `retired_2026-09-21_cold_read.gifts.Reads the season.door` | mind |
+| `retired_2026-09-21_cold_read.gifts.Reads the season.face` | wide |
+| `retired_2026-09-21_cold_read.gifts.Reads the season.echo_of` | 土_火.carry.wide |
+| `retired_2026-09-21_cold_read.gifts.Reads the season.desc` | With this much warmth in the ground, you know when to plant and when to leave it alone. Timing is the thing you never explain. |
+| `retired_2026-09-21_cold_read.gifts.Few words, exact.phrase` | Few words, exact |
+| `retired_2026-09-21_cold_read.gifts.Few words, exact.dim` | speaking up |
+| `retired_2026-09-21_cold_read.gifts.Few words, exact.door` | expression |
+| `retired_2026-09-21_cold_read.gifts.Few words, exact.face` | echo |
+| `retired_2026-09-21_cold_read.gifts.Few words, exact.echo_of` | 土_金.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Few words, exact.desc` | You speak rarely and it lands. The exact word, the finished piece, the standard people quote after you leave. |
+| `retired_2026-09-21_cold_read.shadows.Takes the mud.phrase` | Takes the mud |
+| `retired_2026-09-21_cold_read.shadows.Takes the mud.dim` | what gets dropped |
+| `retired_2026-09-21_cold_read.shadows.Takes the mud.door` | body |
+| `retired_2026-09-21_cold_read.shadows.Takes the mud.face` | echo |
+| `retired_2026-09-21_cold_read.shadows.Takes the mud.echo_of` | 土_土.function.definition_friction |
+| `retired_2026-09-21_cold_read.shadows.Takes the mud.desc` | Heaviness accumulating. Everything anyone drops goes into you and nothing drains out, and the field that grew things is turning to mud. |
+| `retired_2026-09-21_cold_read.shadows.Stuck in your ways.phrase` | Stuck in your ways |
+| `retired_2026-09-21_cold_read.shadows.Stuck in your ways.dim` | changing course |
+| `retired_2026-09-21_cold_read.shadows.Stuck in your ways.door` | body |
+| `retired_2026-09-21_cold_read.shadows.Stuck in your ways.face` | excess |
+| `retired_2026-09-21_cold_read.shadows.Stuck in your ways.echo_of` | 土_土.carry.excess |
+| `retired_2026-09-21_cold_read.shadows.Stuck in your ways.desc` | So much settled ground that nothing new can take root. The plan that worked once is still the plan, and the fresh idea never gets past the doorway. |
+| `retired_2026-09-21_cold_read.shadows.Overheats on praise.phrase` | Overheats on praise |
+| `retired_2026-09-21_cold_read.shadows.Overheats on praise.dim` | praise |
+| `retired_2026-09-21_cold_read.shadows.Overheats on praise.door` | mind |
+| `retired_2026-09-21_cold_read.shadows.Overheats on praise.face` | echo |
+| `retired_2026-09-21_cold_read.shadows.Overheats on praise.echo_of` | 土_火.function.definition_friction |
+| `retired_2026-09-21_cold_read.shadows.Overheats on praise.desc` | Praise, sparks, novelty taken in all day while real understanding stays shallow. The warmth is spending you, and it feels like learning. |
+| `retired_2026-09-21_cold_read.shadows.Burns the seedlings.phrase` | Burns the seedlings |
+| `retired_2026-09-21_cold_read.shadows.Burns the seedlings.dim` | producing |
+| `retired_2026-09-21_cold_read.shadows.Burns the seedlings.door` | mind |
+| `retired_2026-09-21_cold_read.shadows.Burns the seedlings.face` | excess |
+| `retired_2026-09-21_cold_read.shadows.Burns the seedlings.echo_of` | 土_火.carry.excess |
+| `retired_2026-09-21_cold_read.shadows.Burns the seedlings.desc` | Baked hard by too much heat. Busy, warm, and producing nothing you wanted. |
+| `retired_2026-09-21_cold_read.shadows.Counts every grain.phrase` | Counts every grain |
+| `retired_2026-09-21_cold_read.shadows.Counts every grain.dim` | control |
+| `retired_2026-09-21_cold_read.shadows.Counts every grain.door` | action |
+| `retired_2026-09-21_cold_read.shadows.Counts every grain.face` | echo |
+| `retired_2026-09-21_cold_read.shadows.Counts every grain.echo_of` | 土_水.function.definition_friction |
+| `retired_2026-09-21_cold_read.shadows.Counts every grain.desc` | Accounts checked daily, favors tracked, every flow managed past usefulness. The control spends the calm it was meant to protect. |

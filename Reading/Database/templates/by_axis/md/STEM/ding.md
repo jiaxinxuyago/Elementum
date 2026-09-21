@@ -44,7 +44,7 @@
 | `gifts[2].face` | echo |
 | `gifts[2].echo_of` | 火_木.function.definition_catalyst |
 | `gifts[2].desc` | One subject, years deep, stacked quietly like fuel. You know it the way people know a face, and it burns later as brilliance. |
-| `gifts[3].phrase` | Misses nothing |
+| `gifts[3].phrase` | Spots the detail |
 | `gifts[3].dim` | small details |
 | `gifts[3].door` | mind |
 | `gifts[3].face` | wide |
@@ -74,7 +74,7 @@
 | `shadows[0].face` | echo |
 | `shadows[0].echo_of` | 火_火.function.definition_friction |
 | `shadows[0].desc` | More heat than your days can spend. Sleep will not come, and the intensity leaks into every conversation until rest feels like punishment. |
-| `shadows[1].phrase` | Plays favorites |
+| `shadows[1].phrase` | Tunnel vision |
 | `shadows[1].dim` | the edge of attention |
 | `shadows[1].door` | body |
 | `shadows[1].face` | excess |
@@ -86,19 +86,19 @@
 | `shadows[2].face` | echo |
 | `shadows[2].echo_of` | 火_木.function.definition_friction |
 | `shadows[2].desc` | One more course, one more plan, and the small flame moves to whatever caught last. Ready keeps moving because you do. |
-| `shadows[3].phrase` | Smothered by plans |
+| `shadows[3].phrase` | Burns out fast |
 | `shadows[3].dim` | too many plans |
 | `shadows[3].door` | mind |
 | `shadows[3].face` | excess |
 | `shadows[3].echo_of` | 火_木.carry.excess |
 | `shadows[3].desc` | So much fuel around one small flame that it flares in every direction instead of lasting. Bright for an evening, cold by breakfast, and the plan that mattered went up with the rest. |
-| `shadows[4].phrase` | Makes it permanent |
+| `shadows[4].phrase` | Overplans the fun |
 | `shadows[4].dim` | moments |
 | `shadows[4].door` | expression |
 | `shadows[4].face` | echo |
 | `shadows[4].echo_of` | 火_土.function.definition_friction |
 | `shadows[4].desc` | The evening that should have been an evening becomes a tradition, a plan, a commitment. Output hardens faster than it can live. |
-| `shadows[5].phrase` | Keeps reworking it |
+| `shadows[5].phrase` | Never calls it done |
 | `shadows[5].dim` | finishing |
 | `shadows[5].door` | action |
 | `shadows[5].face` | echo |
@@ -290,3 +290,33 @@
 | `retired_2026-09-20_batch4.gifts.Rekindles people.face` | echo |
 | `retired_2026-09-20_batch4.gifts.Rekindles people.echo_of` | 火_土.function.definition_catalyst |
 | `retired_2026-09-20_batch4.gifts.Rekindles people.desc` | Your belief in someone works at close range and lasts. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again. |
+| `retired_2026-09-21_cold_read.gifts.Misses nothing.phrase` | Misses nothing |
+| `retired_2026-09-21_cold_read.gifts.Misses nothing.dim` | small details |
+| `retired_2026-09-21_cold_read.gifts.Misses nothing.door` | mind |
+| `retired_2026-09-21_cold_read.gifts.Misses nothing.face` | wide |
+| `retired_2026-09-21_cold_read.gifts.Misses nothing.echo_of` | 火_木.carry.wide |
+| `retired_2026-09-21_cold_read.gifts.Misses nothing.desc` | With this much fuel behind the flame, the small tell, the changed tone, the detail everyone walked past all catch your eye. You usually know why before anyone explains. |
+| `retired_2026-09-21_cold_read.shadows.Plays favorites.phrase` | Plays favorites |
+| `retired_2026-09-21_cold_read.shadows.Plays favorites.dim` | the edge of attention |
+| `retired_2026-09-21_cold_read.shadows.Plays favorites.door` | body |
+| `retired_2026-09-21_cold_read.shadows.Plays favorites.face` | excess |
+| `retired_2026-09-21_cold_read.shadows.Plays favorites.echo_of` | 火_火.carry.excess |
+| `retired_2026-09-21_cold_read.shadows.Plays favorites.desc` | Whoever holds your focus gets daylight and everyone else gets dusk. So much light on one spot that nothing else is visible, and some people mind. |
+| `retired_2026-09-21_cold_read.shadows.Smothered by plans.phrase` | Smothered by plans |
+| `retired_2026-09-21_cold_read.shadows.Smothered by plans.dim` | too many plans |
+| `retired_2026-09-21_cold_read.shadows.Smothered by plans.door` | mind |
+| `retired_2026-09-21_cold_read.shadows.Smothered by plans.face` | excess |
+| `retired_2026-09-21_cold_read.shadows.Smothered by plans.echo_of` | 火_木.carry.excess |
+| `retired_2026-09-21_cold_read.shadows.Smothered by plans.desc` | So much fuel around one small flame that it flares in every direction instead of lasting. Bright for an evening, cold by breakfast, and the plan that mattered went up with the rest. |
+| `retired_2026-09-21_cold_read.shadows.Makes it permanent.phrase` | Makes it permanent |
+| `retired_2026-09-21_cold_read.shadows.Makes it permanent.dim` | moments |
+| `retired_2026-09-21_cold_read.shadows.Makes it permanent.door` | expression |
+| `retired_2026-09-21_cold_read.shadows.Makes it permanent.face` | echo |
+| `retired_2026-09-21_cold_read.shadows.Makes it permanent.echo_of` | 火_土.function.definition_friction |
+| `retired_2026-09-21_cold_read.shadows.Makes it permanent.desc` | The evening that should have been an evening becomes a tradition, a plan, a commitment. Output hardens faster than it can live. |
+| `retired_2026-09-21_cold_read.shadows.Keeps reworking it.phrase` | Keeps reworking it |
+| `retired_2026-09-21_cold_read.shadows.Keeps reworking it.dim` | finishing |
+| `retired_2026-09-21_cold_read.shadows.Keeps reworking it.door` | action |
+| `retired_2026-09-21_cold_read.shadows.Keeps reworking it.face` | echo |
+| `retired_2026-09-21_cold_read.shadows.Keeps reworking it.echo_of` | 火_金.function.definition_friction |
+| `retired_2026-09-21_cold_read.shadows.Keeps reworking it.desc` | Signed, shipped, agreed, and you are back at it with a smaller brush. Done is a decision you keep reopening. |

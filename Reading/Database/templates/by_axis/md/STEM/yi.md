@@ -26,19 +26,19 @@
 | `dm_mechanism` | Yin Wood that wins by yielding — resilience dressed as softness. |
 | `yourNature_desc` | You get where you were going, one way or another, and you make it look easy enough that people miss how hard it was. The route changes constantly. The destination never has. Being flexible gets read as being soft, and you stopped correcting that a long time ago. It's useful. |
 | `dm_overview` | The Vine is Yin Wood, the green that came second and learned from it. It is the grass and the climbing plant, life that cannot force a door and so finds every window. Late spring is its season, when growth stops charging and starts weaving. On an old stone wall it looks delicate all day, and by year's end the stones have quietly moved. |
-| `gifts[0].phrase` | Regrows from little |
+| `gifts[0].phrase` | Starts over easily |
 | `gifts[0].dim` | setbacks |
 | `gifts[0].door` | body |
 | `gifts[0].face` | echo |
 | `gifts[0].echo_of` | 木_木.function.definition_catalyst |
 | `gifts[0].desc` | Cut back to nothing in March, and by June there is a green line up the wall again. The will to start is your reserve, and it refills. |
-| `gifts[1].phrase` | Grows anywhere |
+| `gifts[1].phrase` | Thrives on little |
 | `gifts[1].dim` | conditions |
 | `gifts[1].door` | body |
 | `gifts[1].face` | wide |
 | `gifts[1].echo_of` | 木_木.function.definition_catalyst |
 | `gifts[1].desc` | Give you a wall, any wall, and by summer there is green on it. Plenty of growing force, and it never waits for ideal conditions. |
-| `gifts[2].phrase` | Maps the wall |
+| `gifts[2].phrase` | Remembers the route |
 | `gifts[2].dim` | second attempts |
 | `gifts[2].door` | mind |
 | `gifts[2].face` | echo |
@@ -62,7 +62,7 @@
 | `gifts[5].face` | echo |
 | `gifts[5].echo_of` | 木_土.function.definition_catalyst |
 | `gifts[5].desc` | Where you arrive, you stay. The job, the flat, the friendship you climbed toward becomes something held, and it holds you back. |
-| `gifts[6].phrase` | Better for pruning |
+| `gifts[6].phrase` | Thrives on feedback |
 | `gifts[6].dim` | under review |
 | `gifts[6].door` | order |
 | `gifts[6].face` | echo |
@@ -98,7 +98,7 @@
 | `shadows[4].face` | echo |
 | `shadows[4].echo_of` | 木_火.function.definition_friction |
 | `shadows[4].desc` | You tell people where you will be by summer while the wall is still bare. The saying comes easily. Then the summer has to keep the promise. |
-| `shadows[5].phrase` | Takes every opening |
+| `shadows[5].phrase` | Can't say no |
 | `shadows[5].dim` | saying yes |
 | `shadows[5].door` | action |
 | `shadows[5].face` | echo |
@@ -246,3 +246,33 @@
 | `retired_inner_judge_2026-09-17[0].echo_of` | 木_金.function.definition_friction |
 | `retired_inner_judge_2026-09-17[0].desc` | You keep adapting long after the honest move was to stop. Somewhere between the fifth adjustment and the tenth, the shape you are holding stops being yours. |
 | `retired_inner_judge_2026-09-17[0].why` | owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition |
+| `retired_2026-09-21_cold_read.gifts.Regrows from little.phrase` | Regrows from little |
+| `retired_2026-09-21_cold_read.gifts.Regrows from little.dim` | setbacks |
+| `retired_2026-09-21_cold_read.gifts.Regrows from little.door` | body |
+| `retired_2026-09-21_cold_read.gifts.Regrows from little.face` | echo |
+| `retired_2026-09-21_cold_read.gifts.Regrows from little.echo_of` | 木_木.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Regrows from little.desc` | Cut back to nothing in March, and by June there is a green line up the wall again. The will to start is your reserve, and it refills. |
+| `retired_2026-09-21_cold_read.gifts.Grows anywhere.phrase` | Grows anywhere |
+| `retired_2026-09-21_cold_read.gifts.Grows anywhere.dim` | conditions |
+| `retired_2026-09-21_cold_read.gifts.Grows anywhere.door` | body |
+| `retired_2026-09-21_cold_read.gifts.Grows anywhere.face` | wide |
+| `retired_2026-09-21_cold_read.gifts.Grows anywhere.echo_of` | 木_木.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Grows anywhere.desc` | Give you a wall, any wall, and by summer there is green on it. Plenty of growing force, and it never waits for ideal conditions. |
+| `retired_2026-09-21_cold_read.gifts.Maps the wall.phrase` | Maps the wall |
+| `retired_2026-09-21_cold_read.gifts.Maps the wall.dim` | second attempts |
+| `retired_2026-09-21_cold_read.gifts.Maps the wall.door` | mind |
+| `retired_2026-09-21_cold_read.gifts.Maps the wall.face` | echo |
+| `retired_2026-09-21_cold_read.gifts.Maps the wall.echo_of` | 木_水.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Maps the wall.desc` | Every wall you have climbed is a map you keep. It goes in quietly, over rest and long conversations, and the second time is never the long way. |
+| `retired_2026-09-21_cold_read.gifts.Better for pruning.phrase` | Better for pruning |
+| `retired_2026-09-21_cold_read.gifts.Better for pruning.dim` | under review |
+| `retired_2026-09-21_cold_read.gifts.Better for pruning.door` | order |
+| `retired_2026-09-21_cold_read.gifts.Better for pruning.face` | echo |
+| `retired_2026-09-21_cold_read.gifts.Better for pruning.echo_of` | 木_金.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Better for pruning.desc` | Cut back by the right hands, you come back stronger. An editor, a coach, a rule you chose, and the vine climbs straighter. |
+| `retired_2026-09-21_cold_read.shadows.Takes every opening.phrase` | Takes every opening |
+| `retired_2026-09-21_cold_read.shadows.Takes every opening.dim` | saying yes |
+| `retired_2026-09-21_cold_read.shadows.Takes every opening.door` | action |
+| `retired_2026-09-21_cold_read.shadows.Takes every opening.face` | echo |
+| `retired_2026-09-21_cold_read.shadows.Takes every opening.echo_of` | 木_土.function.definition_friction |
+| `retired_2026-09-21_cold_read.shadows.Takes every opening.desc` | A gap is a gap. You grow into all of them, hold all of them, and the garden has no space left for anything else. |

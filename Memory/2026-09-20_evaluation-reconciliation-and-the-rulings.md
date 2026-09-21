@@ -58,7 +58,12 @@ and `RULINGS_PROOF_2026-09-20.md` (before/after on the golden chart 1995-04-29 1
 - Scratchpad transcriber (`transcribe.py`, cloud scratchpad only) now carries `advise_*` and
   `wide.remedy`; ELEMENT_GOD text is transcribed into `k2.js` by verbatim replacement.
 
+## Done after the handoff was written
+
+- **The cold read of the 140 labels (2026-09-21):** 57 labels replaced, stem by stem, in paired questions;
+  five four-word idioms named in the audit; the keyword-chip root check retired with the chips.
+  Record: THE_140_LABELS_COLD.md in the evaluation folder.
+
 ## Open
 
-- Owner's read of the 140 items under phrase law v6 (parked since 2026-09-16).
 - Cloudflare tidy-ups; design-HTML sync debt (unchanged from the 2026-09-15 handoff).

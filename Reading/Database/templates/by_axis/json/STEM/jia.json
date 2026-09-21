@@ -62,7 +62,7 @@
         "desc": "Give you water and you grow. A quiet week, a long book, and the reaching starts again on its own."
       },
       {
-        "phrase": "Raises everyone's game",
+        "phrase": "Owns the stage",
         "dim": "influence on others",
         "door": "expression",
         "face": "echo",
@@ -70,7 +70,7 @@
         "desc": "Put your name on the work and the whole table aims higher. Your reach, once visible, becomes the new ceiling, and nobody remembers deciding that."
       },
       {
-        "phrase": "Makes it official",
+        "phrase": "Makes it real",
         "dim": "commitments",
         "door": "action",
         "face": "echo",
@@ -78,7 +78,7 @@
         "desc": "Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs."
       },
       {
-        "phrase": "Better when edited",
+        "phrase": "Sharpened by review",
         "dim": "under review",
         "door": "order",
         "face": "echo",
@@ -451,7 +451,33 @@
           "desc": "Correction landing harder than you can absorb. Every rule met, every critique taken, until the standards stop shaping you and start shrinking you, and then you break, loudly.",
           "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
         }
-      ]
+      ],
+      "retired_2026-09-21_cold_read": {
+        "gifts.Raises everyone's game": {
+          "phrase": "Raises everyone's game",
+          "dim": "influence on others",
+          "door": "expression",
+          "face": "echo",
+          "echo_of": "木_火.function.definition_catalyst",
+          "desc": "Put your name on the work and the whole table aims higher. Your reach, once visible, becomes the new ceiling, and nobody remembers deciding that."
+        },
+        "gifts.Makes it official": {
+          "phrase": "Makes it official",
+          "dim": "commitments",
+          "door": "action",
+          "face": "echo",
+          "echo_of": "木_土.function.definition_catalyst",
+          "desc": "Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs."
+        },
+        "gifts.Better when edited": {
+          "phrase": "Better when edited",
+          "dim": "under review",
+          "door": "order",
+          "face": "echo",
+          "echo_of": "木_金.function.definition_catalyst",
+          "desc": "You grow fastest under exacting eyes. Give you an editor, a coach, a rule you chose, and the work comes back sharper every round."
+        }
+      }
     },
     "door_note": {
       "body": "Wood",

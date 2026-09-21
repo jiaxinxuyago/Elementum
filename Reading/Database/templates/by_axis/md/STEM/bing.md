@@ -32,7 +32,7 @@
 | `gifts[0].face` | echo |
 | `gifts[0].echo_of` | 火_火.function.definition_catalyst |
 | `gifts[0].desc` | Your energy is the lift that makes mornings possible, for you and for the people near you. It runs in bursts, and the bursts are bright. |
-| `gifts[1].phrase` | Shines on everyone |
+| `gifts[1].phrase` | Generous with warmth |
 | `gifts[1].dim` | reach |
 | `gifts[1].door` | body |
 | `gifts[1].face` | wide |
@@ -62,7 +62,7 @@
 | `gifts[5].face` | echo |
 | `gifts[5].echo_of` | 火_金.function.definition_catalyst |
 | `gifts[5].desc` | Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on. |
-| `gifts[6].phrase` | Sleeps on it |
+| `gifts[6].phrase` | Checks before leaping |
 | `gifts[6].dim` | before the leap |
 | `gifts[6].door` | order |
 | `gifts[6].face` | echo |
@@ -74,7 +74,7 @@
 | `shadows[0].face` | echo |
 | `shadows[0].echo_of` | 火_火.function.definition_friction |
 | `shadows[0].desc` | More heat than your days can spend. Sleep will not come, intensity leaks into every conversation, and rest feels like a punishment. |
-| `shadows[1].phrase` | Outshines everyone |
+| `shadows[1].phrase` | Steals the spotlight |
 | `shadows[1].dim` | the whole sky |
 | `shadows[1].door` | body |
 | `shadows[1].face` | excess |
@@ -303,3 +303,21 @@
 | `retired_2026-09-20_evaluation_rulings.shadows.Buried in ideas.face` | excess |
 | `retired_2026-09-20_evaluation_rulings.shadows.Buried in ideas.echo_of` | 火_木.carry.excess |
 | `retired_2026-09-20_evaluation_rulings.shadows.Buried in ideas.desc` | Fuel stacked so high the flame never gets lit. So much to burn that nothing catches, and the best plan is under six others. |
+| `retired_2026-09-21_cold_read.gifts.Shines on everyone.phrase` | Shines on everyone |
+| `retired_2026-09-21_cold_read.gifts.Shines on everyone.dim` | reach |
+| `retired_2026-09-21_cold_read.gifts.Shines on everyone.door` | body |
+| `retired_2026-09-21_cold_read.gifts.Shines on everyone.face` | wide |
+| `retired_2026-09-21_cold_read.gifts.Shines on everyone.echo_of` | 火_火.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Shines on everyone.desc` | Plenty of light and no meter on it. Everyone in the building gets some, whether they asked or not. |
+| `retired_2026-09-21_cold_read.gifts.Sleeps on it.phrase` | Sleeps on it |
+| `retired_2026-09-21_cold_read.gifts.Sleeps on it.dim` | before the leap |
+| `retired_2026-09-21_cold_read.gifts.Sleeps on it.door` | order |
+| `retired_2026-09-21_cold_read.gifts.Sleeps on it.face` | echo |
+| `retired_2026-09-21_cold_read.gifts.Sleeps on it.echo_of` | 火_水.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Sleeps on it.desc` | Your best decisions all survived a night of doubt. One calm person, one cold look at the budget, and the leap lands. |
+| `retired_2026-09-21_cold_read.shadows.Outshines everyone.phrase` | Outshines everyone |
+| `retired_2026-09-21_cold_read.shadows.Outshines everyone.dim` | the whole sky |
+| `retired_2026-09-21_cold_read.shadows.Outshines everyone.door` | body |
+| `retired_2026-09-21_cold_read.shadows.Outshines everyone.face` | excess |
+| `retired_2026-09-21_cold_read.shadows.Outshines everyone.echo_of` | 火_火.carry.excess |
+| `retired_2026-09-21_cold_read.shadows.Outshines everyone.desc` | So much light that nothing else in the sky is visible, including the people you were warming. |

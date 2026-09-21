@@ -50,19 +50,19 @@
 | `gifts[3].face` | wide |
 | `gifts[3].echo_of` | 木_水.carry.wide |
 | `gifts[3].desc` | Give you water and you grow. A quiet week, a long book, and the reaching starts again on its own. |
-| `gifts[4].phrase` | Raises everyone's game |
+| `gifts[4].phrase` | Owns the stage |
 | `gifts[4].dim` | influence on others |
 | `gifts[4].door` | expression |
 | `gifts[4].face` | echo |
 | `gifts[4].echo_of` | 木_火.function.definition_catalyst |
 | `gifts[4].desc` | Put your name on the work and the whole table aims higher. Your reach, once visible, becomes the new ceiling, and nobody remembers deciding that. |
-| `gifts[5].phrase` | Makes it official |
+| `gifts[5].phrase` | Makes it real |
 | `gifts[5].dim` | commitments |
 | `gifts[5].door` | action |
 | `gifts[5].face` | echo |
 | `gifts[5].echo_of` | 木_土.function.definition_catalyst |
 | `gifts[5].desc` | Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs. |
-| `gifts[6].phrase` | Better when edited |
+| `gifts[6].phrase` | Sharpened by review |
 | `gifts[6].dim` | under review |
 | `gifts[6].door` | order |
 | `gifts[6].face` | echo |
@@ -266,3 +266,21 @@
 | `retired_inner_judge_2026-09-17[0].echo_of` | 木_金.function.definition_friction |
 | `retired_inner_judge_2026-09-17[0].desc` | Correction landing harder than you can absorb. Every rule met, every critique taken, until the standards stop shaping you and start shrinking you, and then you break, loudly. |
 | `retired_inner_judge_2026-09-17[0].why` | owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition |
+| `retired_2026-09-21_cold_read.gifts.Raises everyone's game.phrase` | Raises everyone's game |
+| `retired_2026-09-21_cold_read.gifts.Raises everyone's game.dim` | influence on others |
+| `retired_2026-09-21_cold_read.gifts.Raises everyone's game.door` | expression |
+| `retired_2026-09-21_cold_read.gifts.Raises everyone's game.face` | echo |
+| `retired_2026-09-21_cold_read.gifts.Raises everyone's game.echo_of` | 木_火.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Raises everyone's game.desc` | Put your name on the work and the whole table aims higher. Your reach, once visible, becomes the new ceiling, and nobody remembers deciding that. |
+| `retired_2026-09-21_cold_read.gifts.Makes it official.phrase` | Makes it official |
+| `retired_2026-09-21_cold_read.gifts.Makes it official.dim` | commitments |
+| `retired_2026-09-21_cold_read.gifts.Makes it official.door` | action |
+| `retired_2026-09-21_cold_read.gifts.Makes it official.face` | echo |
+| `retired_2026-09-21_cold_read.gifts.Makes it official.echo_of` | 木_土.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Makes it official.desc` | Ambition lands somewhere real with you. The idea becomes a lease, a title, a name on the door, while other people are still describing theirs. |
+| `retired_2026-09-21_cold_read.gifts.Better when edited.phrase` | Better when edited |
+| `retired_2026-09-21_cold_read.gifts.Better when edited.dim` | under review |
+| `retired_2026-09-21_cold_read.gifts.Better when edited.door` | order |
+| `retired_2026-09-21_cold_read.gifts.Better when edited.face` | echo |
+| `retired_2026-09-21_cold_read.gifts.Better when edited.echo_of` | 木_金.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Better when edited.desc` | You grow fastest under exacting eyes. Give you an editor, a coach, a rule you chose, and the work comes back sharper every round. |

@@ -26,19 +26,19 @@
 | `dm_mechanism` | Yin Water that finds every opening — perception that travels where pressure cannot. |
 | `yourNature_desc` | You feel what a day is carrying before anyone says so, and you take it in the way ground takes rain. Most of it grows something. Some of it was never yours to hold, and telling the difference is the quiet work of your life. |
 | `dm_overview` | The Rain is Yin Water, the last sign in the count, the water that closes the circle so it can begin again. It is rain, dew, and mist, the moisture that arrives everywhere and forces nothing. At winter's end it falls softly on planted fields through the night. By morning it is gone, and everything it touched has quietly agreed to grow. |
-| `gifts[0].phrase` | Needs the quiet |
+| `gifts[0].phrase` | Quiet to recharge |
 | `gifts[0].dim` | recovery |
 | `gifts[0].door` | body |
 | `gifts[0].face` | echo |
 | `gifts[0].echo_of` | 水_水.function.definition_catalyst |
 | `gifts[0].desc` | Your reserve refills in stillness and drains through noise and company long before you feel tired. One quiet night and the dew is back. |
-| `gifts[1].phrase` | Gentle confidant |
+| `gifts[1].phrase` | Keeps secrets safe |
 | `gifts[1].dim` | secrets |
 | `gifts[1].door` | body |
 | `gifts[1].face` | wide |
 | `gifts[1].echo_of` | 水_水.function.definition_catalyst |
 | `gifts[1].desc` | Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and you have never broken one. |
-| `gifts[2].phrase` | Better with structure |
+| `gifts[2].phrase` | Sharpened by method |
 | `gifts[2].dim` | good teachers |
 | `gifts[2].door` | mind |
 | `gifts[2].face` | echo |
@@ -50,13 +50,13 @@
 | `gifts[3].face` | wide |
 | `gifts[3].echo_of` | 水_金.carry.wide |
 | `gifts[3].desc` | Fed from exact sources, the feel arrives early. The mood has shifted before anyone says so, and your tone has already changed to meet it. |
-| `gifts[4].phrase` | Changes minds softly |
+| `gifts[4].phrase` | Wins without arguing |
 | `gifts[4].dim` | influence on others |
 | `gifts[4].door` | expression |
 | `gifts[4].face` | echo |
 | `gifts[4].echo_of` | 水_木.function.definition_catalyst |
 | `gifts[4].desc` | Nobody remembers losing the argument to you. Positions shift a degree a week until, months later, everyone agrees and thinks they always did. |
-| `gifts[5].phrase` | Spots the opening |
+| `gifts[5].phrase` | Ahead of the curve |
 | `gifts[5].dim` | timing |
 | `gifts[5].door` | action |
 | `gifts[5].face` | echo |
@@ -68,13 +68,13 @@
 | `gifts[6].face` | echo |
 | `gifts[6].echo_of` | 水_土.function.definition_catalyst |
 | `gifts[6].desc` | Fixed roles, steady schedules, commitments that do not move with your moods. Inside walls you chose, the rain becomes a river. |
-| `shadows[0].phrase` | Sleeps without rest |
+| `shadows[0].phrase` | Waits to be moved |
 | `shadows[0].dim` | recovery |
 | `shadows[0].door` | body |
 | `shadows[0].face` | echo |
 | `shadows[0].echo_of` | 水_水.function.definition_friction |
-| `shadows[0].desc` | Stillness pooling into stagnation. Sleep that stretches without refreshing, feeling waiting for a current that never comes. |
-| `shadows[1].phrase` | Loses the border |
+| `shadows[0].desc` | So much stillness that nothing moves. You wait for a current to carry you instead of choosing one, and the waiting looks like rest but leaves you flat. |
+| `shadows[1].phrase` | Carries others' feelings |
 | `shadows[1].dim` | whose feeling |
 | `shadows[1].door` | body |
 | `shadows[1].face` | excess |
@@ -86,25 +86,25 @@
 | `shadows[2].face` | echo |
 | `shadows[2].echo_of` | 水_金.function.definition_friction |
 | `shadows[2].desc` | The conversation ended Tuesday and you are still in it Friday, sorting the tone and the pause into a system that never gets used. |
-| `shadows[3].phrase` | Absorbs everything |
+| `shadows[3].phrase` | Soaks up everything |
 | `shadows[3].dim` | others' emotions |
 | `shadows[3].door` | mind |
 | `shadows[3].face` | excess |
 | `shadows[3].echo_of` | 水_金.carry.excess |
 | `shadows[3].desc` | Too much taken in and the water will not clear. You walk in fine and leave carrying the argument two strangers had near you. |
-| `shadows[4].phrase` | Mentors everyone |
+| `shadows[4].phrase` | Everyone's helper |
 | `shadows[4].dim` | other people's growth |
 | `shadows[4].door` | expression |
 | `shadows[4].face` | echo |
 | `shadows[4].echo_of` | 水_木.function.definition_friction |
 | `shadows[4].desc` | Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours. |
-| `shadows[5].phrase` | Boils off early |
+| `shadows[5].phrase` | Quick to bite |
 | `shadows[5].dim` | chasing warmth |
 | `shadows[5].door` | action |
 | `shadows[5].face` | echo |
 | `shadows[5].echo_of` | 水_火.function.definition_friction |
 | `shadows[5].desc` | Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns. |
-| `shadows[6].phrase` | Punishes itself quietly |
+| `shadows[6].phrase` | Self-punishing |
 | `shadows[6].dim` | being judged |
 | `shadows[6].door` | order |
 | `shadows[6].face` | echo |
@@ -277,3 +277,69 @@
 | `retired_2026-09-20_batch4.gifts.Feels the undercurrent.face` | wide |
 | `retired_2026-09-20_batch4.gifts.Feels the undercurrent.echo_of` | 水_金.carry.wide |
 | `retired_2026-09-20_batch4.gifts.Feels the undercurrent.desc` | Fed by exact sources, the feel arrives early. You knew the couple was fighting before they did. |
+| `retired_2026-09-21_cold_read.gifts.Needs the quiet.phrase` | Needs the quiet |
+| `retired_2026-09-21_cold_read.gifts.Needs the quiet.dim` | recovery |
+| `retired_2026-09-21_cold_read.gifts.Needs the quiet.door` | body |
+| `retired_2026-09-21_cold_read.gifts.Needs the quiet.face` | echo |
+| `retired_2026-09-21_cold_read.gifts.Needs the quiet.echo_of` | 水_水.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Needs the quiet.desc` | Your reserve refills in stillness and drains through noise and company long before you feel tired. One quiet night and the dew is back. |
+| `retired_2026-09-21_cold_read.gifts.Gentle confidant.phrase` | Gentle confidant |
+| `retired_2026-09-21_cold_read.gifts.Gentle confidant.dim` | secrets |
+| `retired_2026-09-21_cold_read.gifts.Gentle confidant.door` | body |
+| `retired_2026-09-21_cold_read.gifts.Gentle confidant.face` | wide |
+| `retired_2026-09-21_cold_read.gifts.Gentle confidant.echo_of` | 水_水.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Gentle confidant.desc` | Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and you have never broken one. |
+| `retired_2026-09-21_cold_read.gifts.Better with structure.phrase` | Better with structure |
+| `retired_2026-09-21_cold_read.gifts.Better with structure.dim` | good teachers |
+| `retired_2026-09-21_cold_read.gifts.Better with structure.door` | mind |
+| `retired_2026-09-21_cold_read.gifts.Better with structure.face` | echo |
+| `retired_2026-09-21_cold_read.gifts.Better with structure.echo_of` | 水_金.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Better with structure.desc` | Exact teachers, clean methods, rigorous tools turn what you feel into something usable. You think better with structure than with more input. |
+| `retired_2026-09-21_cold_read.gifts.Changes minds softly.phrase` | Changes minds softly |
+| `retired_2026-09-21_cold_read.gifts.Changes minds softly.dim` | influence on others |
+| `retired_2026-09-21_cold_read.gifts.Changes minds softly.door` | expression |
+| `retired_2026-09-21_cold_read.gifts.Changes minds softly.face` | echo |
+| `retired_2026-09-21_cold_read.gifts.Changes minds softly.echo_of` | 水_木.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Changes minds softly.desc` | Nobody remembers losing the argument to you. Positions shift a degree a week until, months later, everyone agrees and thinks they always did. |
+| `retired_2026-09-21_cold_read.gifts.Spots the opening.phrase` | Spots the opening |
+| `retired_2026-09-21_cold_read.gifts.Spots the opening.dim` | timing |
+| `retired_2026-09-21_cold_read.gifts.Spots the opening.door` | action |
+| `retired_2026-09-21_cold_read.gifts.Spots the opening.face` | echo |
+| `retired_2026-09-21_cold_read.gifts.Spots the opening.echo_of` | 水_火.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Spots the opening.desc` | You felt the turn before the numbers did. The launch, the offer, the door about to open: you were already there when the bright thing arrived. |
+| `retired_2026-09-21_cold_read.shadows.Sleeps without rest.phrase` | Sleeps without rest |
+| `retired_2026-09-21_cold_read.shadows.Sleeps without rest.dim` | recovery |
+| `retired_2026-09-21_cold_read.shadows.Sleeps without rest.door` | body |
+| `retired_2026-09-21_cold_read.shadows.Sleeps without rest.face` | echo |
+| `retired_2026-09-21_cold_read.shadows.Sleeps without rest.echo_of` | 水_水.function.definition_friction |
+| `retired_2026-09-21_cold_read.shadows.Sleeps without rest.desc` | Stillness pooling into stagnation. Sleep that stretches without refreshing, feeling waiting for a current that never comes. |
+| `retired_2026-09-21_cold_read.shadows.Loses the border.phrase` | Loses the border |
+| `retired_2026-09-21_cold_read.shadows.Loses the border.dim` | whose feeling |
+| `retired_2026-09-21_cold_read.shadows.Loses the border.door` | body |
+| `retired_2026-09-21_cold_read.shadows.Loses the border.face` | excess |
+| `retired_2026-09-21_cold_read.shadows.Loses the border.echo_of` | 水_水.carry.excess |
+| `retired_2026-09-21_cold_read.shadows.Loses the border.desc` | So much felt that nothing surfaces to be checked. Their weather becomes yours, and by evening you cannot say whose sadness you are carrying. |
+| `retired_2026-09-21_cold_read.shadows.Absorbs everything.phrase` | Absorbs everything |
+| `retired_2026-09-21_cold_read.shadows.Absorbs everything.dim` | others' emotions |
+| `retired_2026-09-21_cold_read.shadows.Absorbs everything.door` | mind |
+| `retired_2026-09-21_cold_read.shadows.Absorbs everything.face` | excess |
+| `retired_2026-09-21_cold_read.shadows.Absorbs everything.echo_of` | 水_金.carry.excess |
+| `retired_2026-09-21_cold_read.shadows.Absorbs everything.desc` | Too much taken in and the water will not clear. You walk in fine and leave carrying the argument two strangers had near you. |
+| `retired_2026-09-21_cold_read.shadows.Mentors everyone.phrase` | Mentors everyone |
+| `retired_2026-09-21_cold_read.shadows.Mentors everyone.dim` | other people's growth |
+| `retired_2026-09-21_cold_read.shadows.Mentors everyone.door` | expression |
+| `retired_2026-09-21_cold_read.shadows.Mentors everyone.face` | echo |
+| `retired_2026-09-21_cold_read.shadows.Mentors everyone.echo_of` | 水_木.function.definition_friction |
+| `retired_2026-09-21_cold_read.shadows.Mentors everyone.desc` | Every stalled person and every half idea gets your rain. You leave greener ground behind you everywhere, and none of it is yours. |
+| `retired_2026-09-21_cold_read.shadows.Boils off early.phrase` | Boils off early |
+| `retired_2026-09-21_cold_read.shadows.Boils off early.dim` | chasing warmth |
+| `retired_2026-09-21_cold_read.shadows.Boils off early.door` | action |
+| `retired_2026-09-21_cold_read.shadows.Boils off early.face` | echo |
+| `retired_2026-09-21_cold_read.shadows.Boils off early.echo_of` | 水_火.function.definition_friction |
+| `retired_2026-09-21_cold_read.shadows.Boils off early.desc` | Every warm thing pulls you toward it, and you rise to meet it before anything lands. Each bright chance costs more recovery than it returns. |
+| `retired_2026-09-21_cold_read.shadows.Punishes itself quietly.phrase` | Punishes itself quietly |
+| `retired_2026-09-21_cold_read.shadows.Punishes itself quietly.dim` | being judged |
+| `retired_2026-09-21_cold_read.shadows.Punishes itself quietly.door` | order |
+| `retired_2026-09-21_cold_read.shadows.Punishes itself quietly.face` | echo |
+| `retired_2026-09-21_cold_read.shadows.Punishes itself quietly.echo_of` | 水_土.function.definition_friction |
+| `retired_2026-09-21_cold_read.shadows.Punishes itself quietly.desc` | Roles held from duty long after they stopped fitting, and one missed duty brings the sternest voice you hear, your own, so softly that nobody else notices. |

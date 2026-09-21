@@ -26,7 +26,7 @@
 | `dm_mechanism` | Yin Metal refined under pressure — an edge made keen by polishing, not by force. |
 | `yourNature_desc` | You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required. |
 | `dm_overview` | The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. The last of autumn belongs to it, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. Under a patient hand it is cut small and exact, holding more light than its size should allow, and it refuses to call the work done early. |
-| `gifts[0].phrase` | Keeps its shape |
+| `gifts[0].phrase` | Steady under strain |
 | `gifts[0].dim` | being handled |
 | `gifts[0].door` | body |
 | `gifts[0].face` | echo |
@@ -62,7 +62,7 @@
 | `gifts[5].face` | echo |
 | `gifts[5].echo_of` | 金_木.function.definition_catalyst |
 | `gifts[5].desc` | You know what a thing is worth and where it belongs, and what you place keeps growing in value after you have placed it. |
-| `gifts[6].phrase` | Quality guaranteed |
+| `gifts[6].phrase` | Built to last |
 | `gifts[6].dim` | at work |
 | `gifts[6].door` | order |
 | `gifts[6].face` | echo |
@@ -86,19 +86,19 @@
 | `shadows[2].face` | echo |
 | `shadows[2].echo_of` | 金_土.function.definition_friction |
 | `shadows[2].desc` | One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work. |
-| `shadows[3].phrase` | Stays boxed up |
+| `shadows[3].phrase` | Buried talent |
 | `shadows[3].dim` | being sheltered |
 | `shadows[3].door` | mind |
 | `shadows[3].face` | excess |
 | `shadows[3].echo_of` | 金_土.carry_yin.excess |
 | `shadows[3].desc` | Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box. |
-| `shadows[4].phrase` | Remarks cut deep |
+| `shadows[4].phrase` | Sharp tongue |
 | `shadows[4].dim` | small remarks |
 | `shadows[4].door` | expression |
 | `shadows[4].face` | echo |
 | `shadows[4].echo_of` | 金_水.function.definition_friction |
 | `shadows[4].desc` | Output with no banks. The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not. |
-| `shadows[5].phrase` | Hoards raw stones |
+| `shadows[5].phrase` | Hoarder of starts |
 | `shadows[5].dim` | acquiring |
 | `shadows[5].door` | action |
 | `shadows[5].face` | echo |
@@ -241,3 +241,33 @@
 | `retired_inner_judge_2026-09-17[0].echo_of` | 金_火.function.definition_friction |
 | `retired_inner_judge_2026-09-17[0].desc` | Every rule runs hot and every small flaw gets treated like an emergency. The standard presses down on people first, then hardest on you. |
 | `retired_inner_judge_2026-09-17[0].why` | owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition |
+| `retired_2026-09-21_cold_read.gifts.Keeps its shape.phrase` | Keeps its shape |
+| `retired_2026-09-21_cold_read.gifts.Keeps its shape.dim` | being handled |
+| `retired_2026-09-21_cold_read.gifts.Keeps its shape.door` | body |
+| `retired_2026-09-21_cold_read.gifts.Keeps its shape.face` | echo |
+| `retired_2026-09-21_cold_read.gifts.Keeps its shape.echo_of` | 金_金.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Keeps its shape.desc` | Handled by everyone, changed by no one. You hold your form long after the fuel is low, so you notice you are tired late. |
+| `retired_2026-09-21_cold_read.gifts.Quality guaranteed.phrase` | Quality guaranteed |
+| `retired_2026-09-21_cold_read.gifts.Quality guaranteed.dim` | at work |
+| `retired_2026-09-21_cold_read.gifts.Quality guaranteed.door` | order |
+| `retired_2026-09-21_cold_read.gifts.Quality guaranteed.face` | echo |
+| `retired_2026-09-21_cold_read.gifts.Quality guaranteed.echo_of` | 金_火.function.definition_catalyst |
+| `retired_2026-09-21_cold_read.gifts.Quality guaranteed.desc` | Pressure organizes you instead of scattering you. Nothing leaves your hands that you do not believe in, and years later your work is the one still holding up under inspection. |
+| `retired_2026-09-21_cold_read.shadows.Stays boxed up.phrase` | Stays boxed up |
+| `retired_2026-09-21_cold_read.shadows.Stays boxed up.dim` | being sheltered |
+| `retired_2026-09-21_cold_read.shadows.Stays boxed up.door` | mind |
+| `retired_2026-09-21_cold_read.shadows.Stays boxed up.face` | excess |
+| `retired_2026-09-21_cold_read.shadows.Stays boxed up.echo_of` | 金_土.carry_yin.excess |
+| `retired_2026-09-21_cold_read.shadows.Stays boxed up.desc` | Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box. |
+| `retired_2026-09-21_cold_read.shadows.Remarks cut deep.phrase` | Remarks cut deep |
+| `retired_2026-09-21_cold_read.shadows.Remarks cut deep.dim` | small remarks |
+| `retired_2026-09-21_cold_read.shadows.Remarks cut deep.door` | expression |
+| `retired_2026-09-21_cold_read.shadows.Remarks cut deep.face` | echo |
+| `retired_2026-09-21_cold_read.shadows.Remarks cut deep.echo_of` | 金_水.function.definition_friction |
+| `retired_2026-09-21_cold_read.shadows.Remarks cut deep.desc` | Output with no banks. The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not. |
+| `retired_2026-09-21_cold_read.shadows.Hoards raw stones.phrase` | Hoards raw stones |
+| `retired_2026-09-21_cold_read.shadows.Hoards raw stones.dim` | acquiring |
+| `retired_2026-09-21_cold_read.shadows.Hoards raw stones.door` | action |
+| `retired_2026-09-21_cold_read.shadows.Hoards raw stones.face` | echo |
+| `retired_2026-09-21_cold_read.shadows.Hoards raw stones.echo_of` | 金_木.function.definition_friction |
+| `retired_2026-09-21_cold_read.shadows.Hoards raw stones.desc` | Every good piece deserves a setting, so you keep buying stones for settings you never make. Plenty of motion, nothing finished. |

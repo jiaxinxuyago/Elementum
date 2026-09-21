@@ -30,7 +30,7 @@
     "dm_overview": "The Ocean is Yang Water, the water that never learned the meaning of far. Early winter is its season, pulling everything down into depth and moving on under a still surface. It is the open sea and the long river, the current that crosses what the eye gives up on. Past the harbor mouth it keeps its own maps.",
     "gifts": [
       {
-        "phrase": "Restored by quiet",
+        "phrase": "Recharges in silence",
         "dim": "recovery",
         "door": "body",
         "face": "echo",
@@ -38,7 +38,7 @@
         "desc": "The reserve under everything you notice refills in stillness. Noise and company drain it long before you feel tired, and one quiet evening brings it back."
       },
       {
-        "phrase": "Nothing rattles it",
+        "phrase": "Deep calm",
         "dim": "storms",
         "door": "body",
         "face": "wide",
@@ -54,7 +54,7 @@
         "desc": "Vague knowing becomes usable the moment someone exact gets hold of it. A rigorous teacher, a clean method, and the depth finally has a shape to pour through."
       },
       {
-        "phrase": "Big picture thinker",
+        "phrase": "Strategic mind",
         "dim": "connections",
         "door": "mind",
         "face": "wide",
@@ -62,7 +62,7 @@
         "desc": "Fed by exact sources, the depth has structure. While the meeting argues about one tile, you see the whole mosaic and where it is heading."
       },
       {
-        "phrase": "Gives ideas away",
+        "phrase": "Makes others grow",
         "dim": "what grows after you",
         "door": "expression",
         "face": "echo",
@@ -88,7 +88,7 @@
     ],
     "shadows": [
       {
-        "phrase": "Rest stops working",
+        "phrase": "Stagnant",
         "dim": "recovery",
         "door": "body",
         "face": "echo",
@@ -96,7 +96,7 @@
         "desc": "Stillness pooling into stagnation. Sleep that stretches without refreshing, energy waiting for a current that never comes."
       },
       {
-        "phrase": "Hard to know",
+        "phrase": "Closed book",
         "dim": "close bonds",
         "door": "body",
         "face": "excess",
@@ -104,7 +104,7 @@
         "desc": "So much depth that nothing surfaces. Even the people closest to you work from a fraction, and whole regions of you stay unmapped, never offered."
       },
       {
-        "phrase": "Collects frameworks",
+        "phrase": "Over-organized",
         "dim": "sources",
         "door": "mind",
         "face": "echo",
@@ -112,7 +112,7 @@
         "desc": "Systems perfected, methods collected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking."
       },
       {
-        "phrase": "Muddied by advice",
+        "phrase": "Drowning in advice",
         "dim": "taking counsel",
         "door": "mind",
         "face": "excess",
@@ -120,7 +120,7 @@
         "desc": "So much counsel has gone in that the water will not clear. You cannot see your own bottom anymore."
       },
       {
-        "phrase": "Pours into everyone",
+        "phrase": "Overgives",
         "dim": "other people's gardens",
         "door": "expression",
         "face": "echo",
@@ -128,7 +128,7 @@
         "desc": "Every person developed, every idea watered, your depth spent raising gardens you do not live in."
       },
       {
-        "phrase": "Spread too thin",
+        "phrase": "Chases hot chances",
         "dim": "focus",
         "door": "action",
         "face": "echo",
@@ -136,7 +136,7 @@
         "desc": "Hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you."
       },
       {
-        "phrase": "Sinks under blame",
+        "phrase": "Carries every blame",
         "dim": "being judged",
         "door": "order",
         "face": "echo",
@@ -441,7 +441,97 @@
           "desc": "A calendar with no slack, roles held from duty long after they stopped fitting. Dammed by other people's rules, the sea goes quiet, and quiet is not the same as calm.",
           "why": "owner 2026-09-17: the Order shadow carries the inner judge from the re-cut Order definition"
         }
-      ]
+      ],
+      "retired_2026-09-21_cold_read": {
+        "gifts.Restored by quiet": {
+          "phrase": "Restored by quiet",
+          "dim": "recovery",
+          "door": "body",
+          "face": "echo",
+          "echo_of": "水_水.function.definition_catalyst",
+          "desc": "The reserve under everything you notice refills in stillness. Noise and company drain it long before you feel tired, and one quiet evening brings it back."
+        },
+        "gifts.Nothing rattles it": {
+          "phrase": "Nothing rattles it",
+          "dim": "storms",
+          "door": "body",
+          "face": "wide",
+          "echo_of": "水_水.function.definition_catalyst",
+          "desc": "Plenty of depth. Storms cross the surface, and ten fathoms down nothing has moved."
+        },
+        "gifts.Big picture thinker": {
+          "phrase": "Big picture thinker",
+          "dim": "connections",
+          "door": "mind",
+          "face": "wide",
+          "echo_of": "水_金.carry.wide",
+          "desc": "Fed by exact sources, the depth has structure. While the meeting argues about one tile, you see the whole mosaic and where it is heading."
+        },
+        "gifts.Gives ideas away": {
+          "phrase": "Gives ideas away",
+          "dim": "what grows after you",
+          "door": "expression",
+          "face": "echo",
+          "echo_of": "水_木.function.definition_catalyst",
+          "desc": "You mention it once at dinner and walk away. A year later it is someone's company, and they are only half sure where it came from."
+        },
+        "shadows.Rest stops working": {
+          "phrase": "Rest stops working",
+          "dim": "recovery",
+          "door": "body",
+          "face": "echo",
+          "echo_of": "水_水.function.definition_friction",
+          "desc": "Stillness pooling into stagnation. Sleep that stretches without refreshing, energy waiting for a current that never comes."
+        },
+        "shadows.Hard to know": {
+          "phrase": "Hard to know",
+          "dim": "close bonds",
+          "door": "body",
+          "face": "excess",
+          "echo_of": "水_水.carry.excess",
+          "desc": "So much depth that nothing surfaces. Even the people closest to you work from a fraction, and whole regions of you stay unmapped, never offered."
+        },
+        "shadows.Collects frameworks": {
+          "phrase": "Collects frameworks",
+          "dim": "sources",
+          "door": "mind",
+          "face": "echo",
+          "echo_of": "水_金.function.definition_friction",
+          "desc": "Systems perfected, methods collected, understanding organized so thoroughly it never gets used. The structure is displacing the thinking."
+        },
+        "shadows.Muddied by advice": {
+          "phrase": "Muddied by advice",
+          "dim": "taking counsel",
+          "door": "mind",
+          "face": "excess",
+          "echo_of": "水_金.carry.excess",
+          "desc": "So much counsel has gone in that the water will not clear. You cannot see your own bottom anymore."
+        },
+        "shadows.Pours into everyone": {
+          "phrase": "Pours into everyone",
+          "dim": "other people's gardens",
+          "door": "expression",
+          "face": "echo",
+          "echo_of": "水_木.function.definition_friction",
+          "desc": "Every person developed, every idea watered, your depth spent raising gardens you do not live in."
+        },
+        "shadows.Spread too thin": {
+          "phrase": "Spread too thin",
+          "dim": "focus",
+          "door": "action",
+          "face": "echo",
+          "echo_of": "水_火.function.definition_friction",
+          "desc": "Hot chances chased, quick pivots made, each one costing more recovery than it returns. Fast money is expensive for you."
+        },
+        "shadows.Sinks under blame": {
+          "phrase": "Sinks under blame",
+          "dim": "being judged",
+          "door": "order",
+          "face": "echo",
+          "echo_of": "水_土.function.definition_friction",
+          "desc": "A calendar with no slack, roles held from duty, and when you miss one the sternest voice you hear is your own. Quiet is not the same as calm."
+        }
+      }
     },
     "door_note": {
       "body": "Water",

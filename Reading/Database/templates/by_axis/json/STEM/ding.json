@@ -54,7 +54,7 @@
         "desc": "One subject, years deep, stacked quietly like fuel. You know it the way people know a face, and it burns later as brilliance."
       },
       {
-        "phrase": "Misses nothing",
+        "phrase": "Spots the detail",
         "dim": "small details",
         "door": "mind",
         "face": "wide",
@@ -96,7 +96,7 @@
         "desc": "More heat than your days can spend. Sleep will not come, and the intensity leaks into every conversation until rest feels like punishment."
       },
       {
-        "phrase": "Plays favorites",
+        "phrase": "Tunnel vision",
         "dim": "the edge of attention",
         "door": "body",
         "face": "excess",
@@ -112,7 +112,7 @@
         "desc": "One more course, one more plan, and the small flame moves to whatever caught last. Ready keeps moving because you do."
       },
       {
-        "phrase": "Smothered by plans",
+        "phrase": "Burns out fast",
         "dim": "too many plans",
         "door": "mind",
         "face": "excess",
@@ -120,7 +120,7 @@
         "desc": "So much fuel around one small flame that it flares in every direction instead of lasting. Bright for an evening, cold by breakfast, and the plan that mattered went up with the rest."
       },
       {
-        "phrase": "Makes it permanent",
+        "phrase": "Overplans the fun",
         "dim": "moments",
         "door": "expression",
         "face": "echo",
@@ -128,7 +128,7 @@
         "desc": "The evening that should have been an evening becomes a tradition, a plan, a commitment. Output hardens faster than it can live."
       },
       {
-        "phrase": "Keeps reworking it",
+        "phrase": "Never calls it done",
         "dim": "finishing",
         "door": "action",
         "face": "echo",
@@ -481,6 +481,48 @@
           "face": "echo",
           "echo_of": "火_土.function.definition_catalyst",
           "desc": "Your belief in someone works at close range and lasts. A friend arrives half given up, and somewhere over tea at your table, the pilot light catches again."
+        }
+      },
+      "retired_2026-09-21_cold_read": {
+        "gifts.Misses nothing": {
+          "phrase": "Misses nothing",
+          "dim": "small details",
+          "door": "mind",
+          "face": "wide",
+          "echo_of": "火_木.carry.wide",
+          "desc": "With this much fuel behind the flame, the small tell, the changed tone, the detail everyone walked past all catch your eye. You usually know why before anyone explains."
+        },
+        "shadows.Plays favorites": {
+          "phrase": "Plays favorites",
+          "dim": "the edge of attention",
+          "door": "body",
+          "face": "excess",
+          "echo_of": "火_火.carry.excess",
+          "desc": "Whoever holds your focus gets daylight and everyone else gets dusk. So much light on one spot that nothing else is visible, and some people mind."
+        },
+        "shadows.Smothered by plans": {
+          "phrase": "Smothered by plans",
+          "dim": "too many plans",
+          "door": "mind",
+          "face": "excess",
+          "echo_of": "火_木.carry.excess",
+          "desc": "So much fuel around one small flame that it flares in every direction instead of lasting. Bright for an evening, cold by breakfast, and the plan that mattered went up with the rest."
+        },
+        "shadows.Makes it permanent": {
+          "phrase": "Makes it permanent",
+          "dim": "moments",
+          "door": "expression",
+          "face": "echo",
+          "echo_of": "火_土.function.definition_friction",
+          "desc": "The evening that should have been an evening becomes a tradition, a plan, a commitment. Output hardens faster than it can live."
+        },
+        "shadows.Keeps reworking it": {
+          "phrase": "Keeps reworking it",
+          "dim": "finishing",
+          "door": "action",
+          "face": "echo",
+          "echo_of": "火_金.function.definition_friction",
+          "desc": "Signed, shipped, agreed, and you are back at it with a smaller brush. Done is a decision you keep reopening."
         }
       }
     },

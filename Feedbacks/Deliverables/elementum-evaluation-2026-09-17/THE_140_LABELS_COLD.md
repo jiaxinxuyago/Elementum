@@ -122,3 +122,131 @@ Read each label with nothing under it. The test (phrase law v6): does it read as
 | 6 | **Spots the opening** | Action | 13 | **Boils off early** | Action |
 | 7 | **Blooms on routine** | Order | 14 | **Punishes itself quietly** | Order |
 
+
+
+---
+
+# The 140 labels: the owner's cold read, 2026-09-21
+
+Every label read with nothing under it, stem by stem, in the paired question format. A label failed when it did not read as a clear gift or shadow on its own, or did not name a trait a person would recognise in themselves (phrase law v6). Failed labels were replaced from options drafted to the same source mechanism; the owner also kept several after seeing the options. Descriptions were untouched except 癸 *Waits to be moved*, whose description was re-cut to the trait. Five four-word idioms were admitted by name.
+
+## 甲 The Oak: 3 replaced, 11 kept
+
+| Was | Now |
+|---|---|
+| Raises everyone's game | **Owns the stage** |
+| Makes it official | **Makes it real** |
+| Better when edited | **Sharpened by review** |
+
+## 乙 The Vine: 5 replaced, 9 kept
+
+| Was | Now |
+|---|---|
+| Regrows from little | **Starts over easily** |
+| Grows anywhere | **Thrives on little** |
+| Maps the wall | **Remembers the route** |
+| Better for pruning | **Thrives on feedback** |
+| Takes every opening | **Can't say no** |
+
+## 丙 The Sun: 3 replaced, 11 kept
+
+| Was | Now |
+|---|---|
+| Shines on everyone | **Generous with warmth** |
+| Sleeps on it | **Checks before leaping** |
+| Outshines everyone | **Steals the spotlight** |
+
+Read cold, questioned, then kept: Learns from everyone · Chases every idea
+
+## 丁 The Candle: 5 replaced, 9 kept
+
+| Was | Now |
+|---|---|
+| Misses nothing | **Spots the detail** |
+| Plays favorites | **Tunnel vision** |
+| Smothered by plans | **Burns out fast** |
+| Makes it permanent | **Overplans the fun** |
+| Keeps reworking it | **Never calls it done** |
+
+## 戊 The Mountain: 2 replaced, 12 kept
+
+| Was | Now |
+|---|---|
+| Set in stone | **Hard to persuade** |
+| Manages everything | **Micromanages** |
+
+Read cold, questioned, then kept: Says it once · Feeds on distraction · Drained by deadlines
+
+## 己 The Field: 8 replaced, 6 kept
+
+| Was | Now |
+|---|---|
+| Remembers who helped | **Never forgets a kindness** |
+| Reads the season | **Perfect timing** |
+| Few words, exact | **Every word counts** |
+| Stuck in your ways | **Resists change** |
+| Takes the mud | **Bogged down** |
+| Overheats on praise | **Lives on praise** |
+| Burns the seedlings | **Busy but barren** |
+| Counts every grain | **Penny-watcher** |
+
+## 庚 The Blade: 4 replaced, 10 kept
+
+| Was | Now |
+|---|---|
+| Trims for growth | **Plays the long game** |
+| Plans, never acts | **Overprepared** |
+| Careful finisher | **Finishes properly** |
+| Busy, nothing finished | **Spins its wheels** |
+
+Read cold, questioned, then kept: Lives inside plans
+
+## 辛 The Jewel: 5 replaced, 9 kept
+
+| Was | Now |
+|---|---|
+| Keeps its shape | **Steady under strain** |
+| Quality guaranteed | **Built to last** |
+| Stays boxed up | **Buried talent** |
+| Remarks cut deep | **Sharp tongue** |
+| Hoards raw stones | **Hoarder of starts** |
+
+Read cold, questioned, then kept: Understated excellence · Prices it right
+
+## 壬 The Ocean: 11 replaced, 3 kept
+
+| Was | Now |
+|---|---|
+| Restored by quiet | **Recharges in silence** |
+| Nothing rattles it | **Deep calm** |
+| Big picture thinker | **Strategic mind** |
+| Gives ideas away | **Makes others grow** |
+| Rest stops working | **Stagnant** |
+| Hard to know | **Closed book** |
+| Collects frameworks | **Over-organized** |
+| Muddied by advice | **Drowning in advice** |
+| Pours into everyone | **Overgives** |
+| Spread too thin | **Chases hot chances** |
+| Sinks under blame | **Carries every blame** |
+
+Read cold, questioned, then kept: Thinks big · Thrives on structure
+
+## 癸 The Rain: 11 replaced, 3 kept
+
+| Was | Now |
+|---|---|
+| Needs the quiet | **Quiet to recharge** |
+| Gentle confidant | **Keeps secrets safe** |
+| Better with structure | **Sharpened by method** |
+| Changes minds softly | **Wins without arguing** |
+| Spots the opening | **Ahead of the curve** |
+| Loses the border | **Carries others' feelings** |
+| Absorbs everything | **Soaks up everything** |
+| Mentors everyone | **Everyone's helper** |
+| Punishes itself quietly | **Self-punishing** |
+| Sleeps without rest | **Waits to be moved** |
+| Boils off early | **Quick to bite** |
+
+Read cold, questioned, then kept: Feels the undercurrent
+
+**Total: 57 of 140 labels replaced.** Four-word idioms admitted: Never calls it done, Never forgets a kindness, Plays the long game, Ahead of the curve, Waits to be moved.

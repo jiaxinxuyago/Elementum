@@ -38,7 +38,7 @@
         "desc": "Your energy is the lift that makes mornings possible, for you and for the people near you. It runs in bursts, and the bursts are bright."
       },
       {
-        "phrase": "Shines on everyone",
+        "phrase": "Generous with warmth",
         "dim": "reach",
         "door": "body",
         "face": "wide",
@@ -78,7 +78,7 @@
         "desc": "Easy work makes you careless. Hand you the negotiation nobody wants or the client everyone dreads, and the heat finally has something worth working on."
       },
       {
-        "phrase": "Sleeps on it",
+        "phrase": "Checks before leaping",
         "dim": "before the leap",
         "door": "order",
         "face": "echo",
@@ -96,7 +96,7 @@
         "desc": "More heat than your days can spend. Sleep will not come, intensity leaks into every conversation, and rest feels like a punishment."
       },
       {
-        "phrase": "Outshines everyone",
+        "phrase": "Steals the spotlight",
         "dim": "the whole sky",
         "door": "body",
         "face": "excess",
@@ -496,6 +496,32 @@
           "face": "excess",
           "echo_of": "火_木.carry.excess",
           "desc": "Fuel stacked so high the flame never gets lit. So much to burn that nothing catches, and the best plan is under six others."
+        }
+      },
+      "retired_2026-09-21_cold_read": {
+        "gifts.Shines on everyone": {
+          "phrase": "Shines on everyone",
+          "dim": "reach",
+          "door": "body",
+          "face": "wide",
+          "echo_of": "火_火.function.definition_catalyst",
+          "desc": "Plenty of light and no meter on it. Everyone in the building gets some, whether they asked or not."
+        },
+        "gifts.Sleeps on it": {
+          "phrase": "Sleeps on it",
+          "dim": "before the leap",
+          "door": "order",
+          "face": "echo",
+          "echo_of": "火_水.function.definition_catalyst",
+          "desc": "Your best decisions all survived a night of doubt. One calm person, one cold look at the budget, and the leap lands."
+        },
+        "shadows.Outshines everyone": {
+          "phrase": "Outshines everyone",
+          "dim": "the whole sky",
+          "door": "body",
+          "face": "excess",
+          "echo_of": "火_火.carry.excess",
+          "desc": "So much light that nothing else in the sky is visible, including the people you were warming."
         }
       }
     },
