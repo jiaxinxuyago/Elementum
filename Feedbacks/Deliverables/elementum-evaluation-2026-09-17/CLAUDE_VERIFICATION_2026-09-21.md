@@ -120,7 +120,7 @@ Legend. **DONE** = the pack's suggestion is in the corpus or code. **OWNER** = t
 
 ## 7. Still open
 
-Copy items, each a small edit, drafted here for a row-by-row ruling in the usual before-and-after way. Nothing below has been changed.
+Copy items, each a small edit, drafted for a row-by-row ruling. **Landed 2026-09-21:** O1, O2 and O3 were ruled After one by one; the owner then ruled O4 to O8 to proceed with the recommended text ("I've noticed these small language tweaking, you can proceed automatically with all your recommended options"). All eight are in the station and the runtime (gates green, see the commit). One departure from the table: O5 keeps a short second clause ("and nobody on shore would guess how much") so the 壬 portrait stays inside its 50–75 word budget (57 words).
 
 | # | Field | Before | Proposed |
 |---|---|---|---|
@@ -133,7 +133,7 @@ Copy items, each a small edit, drafted here for a row-by-row ruling in the usual
 | O7 | `木_七杀` [Hard-trained] outside | "The full program breaks everyone who tries it wholesale." | "Nobody manages the full program in one go." |
 | O8 | `木_正财` [Plays it safe] outside | "People bring you opportunities the way they feed a cautious animal, slowly and with both hands visible." | "People bring you opportunities gently, one at a time, with the exit left open." (editorial; the original may win) |
 
-Non-copy items:
+Non-copy items (still open):
 
 - **O9** FACE_CARD teasers (8 em-dashes, the 七杀 "sharpened by the trials" line): an unruled, unrendered surface. Rule the row or retire the field.
 - **O10** Dead fallback hygiene: "Domineering" in `GOD/qisha.json` adj_friction and `journeyData.js` ADJ_FRICTION → "Bossy", so the fallback matches the live axis if it ever fires.

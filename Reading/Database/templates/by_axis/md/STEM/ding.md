@@ -73,7 +73,7 @@
 | `shadows[0].door` | body |
 | `shadows[0].face` | echo |
 | `shadows[0].echo_of` | 火_火.function.definition_friction |
-| `shadows[0].desc` | More heat than your days can spend. Sleep will not come, and the intensity leaks into every conversation until rest feels like punishment. |
+| `shadows[0].desc` | More heat than your days can spend. The evening will not end, and the intensity leaks into every conversation until rest feels like punishment. |
 | `shadows[1].phrase` | Tunnel vision |
 | `shadows[1].dim` | the edge of attention |
 | `shadows[1].door` | body |
@@ -109,7 +109,7 @@
 | `shadows[6].door` | order |
 | `shadows[6].face` | echo |
 | `shadows[6].echo_of` | 火_水.function.definition_friction |
-| `shadows[6].desc` | A criticism of the work lands as a criticism of your soul, every time. The checking costs more than the mistake would, and the hardest judge of the flame is you. |
+| `shadows[6].desc` | A criticism of the work lands as a criticism of your soul. The checking costs more than the mistake would, and the hardest judge of the flame is you. |
 | `door_note.body` | Fire |
 | `door_note.mind` | Wood |
 | `door_note.expression` | Earth |

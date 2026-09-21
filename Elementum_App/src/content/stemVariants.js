@@ -253,7 +253,7 @@ export const STEM_VARIANTS = {
   // ── 壬 ──
   '壬_concentrated': {
     yourNature: {
-      desc: `You are the water past the harbor mouth, the part that keeps its own maps. More moves through your head in a day than most people ship in a month, and the surface shows almost none of it. Conversations feel like ports you visit briefly. The real cargo stays offshore, waiting for water deep enough to bring it in.`,
+      desc: `You are the water past the harbor mouth, the part that keeps its own maps. More moves through your head in a day than ever reaches the surface, and nobody on shore would guess how much. Conversations feel like ports you visit briefly. The real cargo stays offshore, waiting for water deep enough to bring it in.`,
     },
     selfCard: {
       face: `Current running every direction`,

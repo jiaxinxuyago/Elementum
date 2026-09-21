@@ -140,7 +140,7 @@
             "door": "body",
             "face": "echo",
             "echo_of": "火_火.function.definition_friction",
-            "desc": "More heat than your days can spend. Sleep will not come, intensity leaks into every conversation, and rest feels like a punishment."
+            "desc": "More heat than your days can spend. The day will not end on time, intensity leaks into every conversation, and rest feels like a punishment."
           },
           {
             "phrase": "Steals the spotlight",
@@ -203,7 +203,7 @@
             "door": "body",
             "face": "echo",
             "echo_of": "火_火.function.definition_friction",
-            "desc": "More heat than your days can spend. Sleep will not come, and the intensity leaks into every conversation until rest feels like punishment."
+            "desc": "More heat than your days can spend. The evening will not end, and the intensity leaks into every conversation until rest feels like punishment."
           },
           {
             "phrase": "Tunnel vision",
@@ -251,7 +251,7 @@
             "door": "order",
             "face": "echo",
             "echo_of": "火_水.function.definition_friction",
-            "desc": "A criticism of the work lands as a criticism of your soul, every time. The checking costs more than the mistake would, and the hardest judge of the flame is you."
+            "desc": "A criticism of the work lands as a criticism of your soul. The checking costs more than the mistake would, and the hardest judge of the flame is you."
           }
         ]
       },

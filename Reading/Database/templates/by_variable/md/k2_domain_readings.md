@@ -210,7 +210,7 @@
 
 | Field | Value |
 |---|---|
-| `Wealth` | Your wealth is orchard-shaped: productive assets, patient growth, income in seasons. Buy things that grow, land, skills, dividends, and let time do the heaviest lifting. It intends to. |
+| `Wealth` | Your wealth is orchard-shaped: productive assets, patient growth, income in seasons. You like what grows on its own, a skill, a plot, a stake left alone, and you let time do the heaviest lifting. It intends to. |
 | `Savings` | You save like a granary: harvests stored against winters. Rotate the stock, reinvest the surplus, and remember granaries exist so that planting can be brave. |
 | `Steady love` | You love agriculturally: devotion planted deep, tended daily, expected to fruit for decades. Choose a fellow gardener. Then keep courting through every season, even the mud ones. |
 

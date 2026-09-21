@@ -109,7 +109,7 @@
 | `0.door` | body |
 | `0.face` | echo |
 | `0.echo_of` | 火_火.function.definition_friction |
-| `0.desc` | More heat than your days can spend. Sleep will not come, intensity leaks into every conversation, and rest feels like a punishment. |
+| `0.desc` | More heat than your days can spend. The day will not end on time, intensity leaks into every conversation, and rest feels like a punishment. |
 | `1.phrase` | Steals the spotlight |
 | `1.dim` | the whole sky |
 | `1.door` | body |
@@ -156,7 +156,7 @@
 | `0.door` | body |
 | `0.face` | echo |
 | `0.echo_of` | 火_火.function.definition_friction |
-| `0.desc` | More heat than your days can spend. Sleep will not come, and the intensity leaks into every conversation until rest feels like punishment. |
+| `0.desc` | More heat than your days can spend. The evening will not end, and the intensity leaks into every conversation until rest feels like punishment. |
 | `1.phrase` | Tunnel vision |
 | `1.dim` | the edge of attention |
 | `1.door` | body |
@@ -192,7 +192,7 @@
 | `6.door` | order |
 | `6.face` | echo |
 | `6.echo_of` | 火_水.function.definition_friction |
-| `6.desc` | A criticism of the work lands as a criticism of your soul, every time. The checking costs more than the mistake would, and the hardest judge of the flame is you. |
+| `6.desc` | A criticism of the work lands as a criticism of your soul. The checking costs more than the mistake would, and the hardest judge of the flame is you. |
 
 ### The Mountain · 戊
 

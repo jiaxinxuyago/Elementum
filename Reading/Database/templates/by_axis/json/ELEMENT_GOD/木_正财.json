@@ -27,7 +27,7 @@
       ]
     },
     "k2_domain_readings": {
-      "Wealth": "Your wealth is orchard-shaped: productive assets, patient growth, income in seasons. Buy things that grow, land, skills, dividends, and let time do the heaviest lifting. It intends to.",
+      "Wealth": "Your wealth is orchard-shaped: productive assets, patient growth, income in seasons. You like what grows on its own, a skill, a plot, a stake left alone, and you let time do the heaviest lifting. It intends to.",
       "Savings": "You save like a granary: harvests stored against winters. Rotate the stock, reinvest the surplus, and remember granaries exist so that planting can be brave.",
       "Steady love": "You love agriculturally: devotion planted deep, tended daily, expected to fruit for decades. Choose a fellow gardener. Then keep courting through every season, even the mud ones."
     },
@@ -105,7 +105,7 @@
             "doors": {
               "trait": "Weighing a risk is your reflex, and almost no risk survives the weighing. The analysis is always excellent and always lands on later, because the math was never the real obstacle. The deciding was, and the deciding still is.",
               "scene": "Three spreadsheets compared the two jobs down to the commute minutes, and the reply that finally went out was thanks, but not this year. The analysis took six weeks. The no took one sentence, and it was written somewhere in you before the spreadsheets ever opened.",
-              "outside": "People bring you opportunities the way they feed a cautious animal, slowly and with both hands visible. They already know the odds. Whatever it is, however good it is, the first answer will be some polite version of later, and later has its own way of becoming never."
+              "outside": "People bring you opportunities gently, one at a time, with the exit left open. They already know the odds. Whatever it is, however good it is, the first answer will be some polite version of later, and later has its own way of becoming never."
             }
           },
           {

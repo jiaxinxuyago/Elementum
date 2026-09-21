@@ -320,7 +320,7 @@ There's also a specific interpersonal cost: people who care about you often feel
       { phrase: `Checks before leaping`, door: 'order', face: 'echo', desc: `Your best decisions all survived a night of doubt. One calm person, one cold look at the budget, and the leap lands.` },
     ],
     shadows: [
-      { phrase: `Can't switch off`, door: 'body', face: 'echo', desc: `More heat than your days can spend. Sleep will not come, intensity leaks into every conversation, and rest feels like a punishment.` },
+      { phrase: `Can't switch off`, door: 'body', face: 'echo', desc: `More heat than your days can spend. The day will not end on time, intensity leaks into every conversation, and rest feels like a punishment.` },
       { phrase: `Steals the spotlight`, door: 'body', face: 'excess', desc: `So much light that nothing else in the sky is visible, including the people you were warming.` },
       { phrase: `Chases every idea`, door: 'mind', face: 'echo', desc: `Another book, another course, another person worth learning from, and each one starts something before the last one is done. The fire is spreading, not growing.` },
       { phrase: `Buried in ideas`, door: 'mind', face: 'excess', desc: `So many ideas going at the same time that you cannot see the one that matters. Each new plan lands on top of the last, and the best one is somewhere underneath, still smoking.` },
@@ -437,13 +437,13 @@ There's also a specific interpersonal cost: people who care about you often feel
       { phrase: `Listens to doubt`, door: 'order', face: 'echo', desc: `One calm person whose questions slow you down before the leap. Your best decisions all survived a night of doubt.` },
     ],
     shadows: [
-      { phrase: `Can't cool down`, door: 'body', face: 'echo', desc: `More heat than your days can spend. Sleep will not come, and the intensity leaks into every conversation until rest feels like punishment.` },
+      { phrase: `Can't cool down`, door: 'body', face: 'echo', desc: `More heat than your days can spend. The evening will not end, and the intensity leaks into every conversation until rest feels like punishment.` },
       { phrase: `Tunnel vision`, door: 'body', face: 'excess', desc: `Whoever holds your focus gets daylight and everyone else gets dusk. So much light on one spot that nothing else is visible, and some people mind.` },
       { phrase: `Never ready enough`, door: 'mind', face: 'echo', desc: `One more course, one more plan, and the small flame moves to whatever caught last. Ready keeps moving because you do.` },
       { phrase: `Burns out fast`, door: 'mind', face: 'excess', desc: `So much fuel around one small flame that it flares in every direction instead of lasting. Bright for an evening, cold by breakfast, and the plan that mattered went up with the rest.` },
       { phrase: `Overplans the fun`, door: 'expression', face: 'echo', desc: `The evening that should have been an evening becomes a tradition, a plan, a commitment. Output hardens faster than it can live.` },
       { phrase: `Never calls it done`, door: 'action', face: 'echo', desc: `Signed, shipped, agreed, and you are back at it with a smaller brush. Done is a decision you keep reopening.` },
-      { phrase: `Takes it personally`, door: 'order', face: 'echo', desc: `A criticism of the work lands as a criticism of your soul, every time. The checking costs more than the mistake would, and the hardest judge of the flame is you.` },
+      { phrase: `Takes it personally`, door: 'order', face: 'echo', desc: `A criticism of the work lands as a criticism of your soul. The checking costs more than the mistake would, and the hardest judge of the flame is you.` },
     ],
     blocks: [
       {
@@ -1247,7 +1247,7 @@ Most exchanges happen at a shallower level than where you operate. This produces
     // GIFTS & SHADOWS — band-tagged pools ×5 (REA_16 §3 pool laws); resolveArchetype selects the chart's ×3
     gifts: [
       { phrase: `Quiet to recharge`, door: 'body', face: 'echo', desc: `Your reserve refills in stillness and drains through noise and company long before you feel tired. One quiet night and the dew is back.` },
-      { phrase: `Keeps secrets safe`, door: 'body', face: 'wide', desc: `Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and you have never broken one.` },
+      { phrase: `Keeps secrets safe`, door: 'body', face: 'wide', desc: `Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and they stay where they were put.` },
       { phrase: `Sharpened by method`, door: 'mind', face: 'echo', desc: `Exact teachers, clean methods, rigorous tools turn what you feel into something usable. You think better with structure than with more input.` },
       { phrase: `Feels the undercurrent`, door: 'mind', face: 'wide', desc: `Fed from exact sources, the feel arrives early. The mood has shifted before anyone says so, and your tone has already changed to meet it.` },
       { phrase: `Wins without arguing`, door: 'expression', face: 'echo', desc: `Nobody remembers losing the argument to you. Positions shift a degree a week until, months later, everyone agrees and thinks they always did.` },

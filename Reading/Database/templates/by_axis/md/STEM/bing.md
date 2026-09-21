@@ -73,7 +73,7 @@
 | `shadows[0].door` | body |
 | `shadows[0].face` | echo |
 | `shadows[0].echo_of` | 火_火.function.definition_friction |
-| `shadows[0].desc` | More heat than your days can spend. Sleep will not come, intensity leaks into every conversation, and rest feels like a punishment. |
+| `shadows[0].desc` | More heat than your days can spend. The day will not end on time, intensity leaks into every conversation, and rest feels like a punishment. |
 | `shadows[1].phrase` | Steals the spotlight |
 | `shadows[1].dim` | the whole sky |
 | `shadows[1].door` | body |

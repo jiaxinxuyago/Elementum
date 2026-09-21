@@ -37,7 +37,7 @@
 | `gifts[1].door` | body |
 | `gifts[1].face` | wide |
 | `gifts[1].echo_of` | 水_水.function.definition_catalyst |
-| `gifts[1].desc` | Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and you have never broken one. |
+| `gifts[1].desc` | Plenty of depth, softly held. People hand you their fragile things, the secret, the shame, the half-formed hope, and they stay where they were put. |
 | `gifts[2].phrase` | Sharpened by method |
 | `gifts[2].dim` | good teachers |
 | `gifts[2].door` | mind |
