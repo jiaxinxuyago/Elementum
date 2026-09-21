@@ -1,0 +1,17 @@
+{
+ "friction_turn": "Run heavy, the rain never lifts: constant drizzle on every spark, caution soaking the kindling before it catches. Step out of the rain. A doused fire serves no one.",
+ "carry": {
+  "friction": {
+   "clause": "The rain never lifts: constant drizzle on every spark, caution soaking the kindling before it catches.",
+   "remedy": "A doused fire serves no one."
+  },
+  "thin": {
+   "clause": "Water runs thin and unwanted: a light rain, easy to shine through.",
+   "remedy": "Shine through it."
+  },
+  "excess": {
+   "clause": "Weak fire drowns in strong water: checks past what the flame can survive, caution putting the light out.",
+   "remedy": "Get out of the rain. Add wood."
+  }
+ }
+}

@@ -1,0 +1,3 @@
+# harness/data
+
+`google-10000-english-usa-no-swears.txt`: the 10,000 most frequent English words (US spelling, no swears) from Josh Kaufman's *google-10000-english* (derived from the Google Web Trillion Word Corpus, Brants & Franz 2006, via Norvig's subsets). Fetched 2026-09-21 for the reader-zone check in `lib.mjs` (`zoneCheck`). The upstream README permits educational and personal or research use under the LDC license, Norvig's MIT license and fair use, and advises licensing from the LDC for commercial use. It is used here only as a research instrument inside the feedback harness; it is never shipped in the app. Replace it with a licensed CEFR list if the check ever moves into the pipeline.

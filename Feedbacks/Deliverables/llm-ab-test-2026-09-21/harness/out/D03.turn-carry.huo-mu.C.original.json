@@ -1,0 +1,17 @@
+{
+ "catalyst_turn": "Run thin, the flame eats scraps: brilliance flaring on no reserves, warmth borrowed from tomorrow. Your chart asks you to stack wood. Learn, gather, befriend, store.",
+ "carry": {
+  "catalyst": {
+   "clause": "The flame eats scraps: brilliance flaring on no reserves, warmth borrowed from tomorrow.",
+   "remedy": "Learn, gather, befriend, store."
+  },
+  "missing": {
+   "clause": "No fuel behind the flame: brilliance on nothing, warmth borrowed from tomorrow.",
+   "remedy": "Borrow wood: learn, gather, store."
+  },
+  "wide": {
+   "clause": "You were given plenty of Wood, the fuel your light was waiting for.",
+   "remedy": "Burn what you have gathered. Light one thing this week."
+  }
+ }
+}

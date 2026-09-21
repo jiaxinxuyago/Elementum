@@ -1,0 +1,39 @@
+{
+  "name": "2026-09-21-comparison",
+  "note": "REA_17 §4 comparison run: the six replication fields plus ELEMENT_PAIR.function.advise_*, ELEMENT_PAIR.mechanism.base and STEM.dm_overview, on the golden chart and the two contrast charts. Cells, poles and states are read off each chart by chart.mjs (the engine), never typed. The contrast charts are synthetic presences (no pillars), so POSITION runs on the golden chart only and their faces are the engine's polarity fallback. A card exemplar that is the cell under test is withheld from the prompt.",
+  "rows": [
+    { "id": "G01.pools.geng",            "field": "STEM.gifts+shadows",                     "cell": "庚", "chart": "golden" },
+    { "id": "G02.turn-carry.jin-tu.F",   "field": "ELEMENT_PAIR.mechanism.turn+carry",      "chart": "golden", "energy": "Earth" },
+    { "id": "G03.turn-carry.jin-mu.C",   "field": "ELEMENT_PAIR.mechanism.turn+carry",      "chart": "golden", "energy": "Wood" },
+    { "id": "G04.ledger.tu-pianyin.F0",  "field": "ELEMENT_GOD.fn_reading.row",             "chart": "golden", "energy": "Earth", "row": 0 },
+    { "id": "G05.position.piancai-day",  "field": "POSITION.reading+teaser+domain_readings","chart": "golden", "seat": "day_branch" },
+    { "id": "G06.band.geng-overfueled",  "field": "STEM_BAND.yourNature_desc+self_card",    "cell": "庚", "chart": "golden" },
+    { "id": "G07.domains.mu-zhengcai",   "field": "ELEMENT_GOD.k2_domain_readings",         "chart": "golden", "energy": "Wood" },
+    { "id": "G08.advise.jin-tu.F",       "field": "ELEMENT_PAIR.function.advise",           "chart": "golden", "energy": "Earth" },
+    { "id": "G09.advise.jin-mu.C",       "field": "ELEMENT_PAIR.function.advise",           "chart": "golden", "energy": "Wood" },
+    { "id": "G10.base.jin-mu",           "field": "ELEMENT_PAIR.mechanism.base",            "chart": "golden", "energy": "Wood" },
+    { "id": "G11.overview.geng",         "field": "STEM.dm_overview",                       "cell": "庚", "chart": "golden" },
+
+    { "id": "D01.pools.ding",            "field": "STEM.gifts+shadows",                     "cell": "丁", "chart": "ding-weak" },
+    { "id": "D02.turn-carry.huo-shui.F", "field": "ELEMENT_PAIR.mechanism.turn+carry",      "chart": "ding-weak", "energy": "Water" },
+    { "id": "D03.turn-carry.huo-mu.C",   "field": "ELEMENT_PAIR.mechanism.turn+carry",      "chart": "ding-weak", "energy": "Wood" },
+    { "id": "D04.ledger.shui-qisha.F0",  "field": "ELEMENT_GOD.fn_reading.row",             "chart": "ding-weak", "energy": "Water", "row": 0 },
+    { "id": "D05.band.ding-underfueled", "field": "STEM_BAND.yourNature_desc+self_card",    "cell": "丁", "chart": "ding-weak" },
+    { "id": "D06.domains.shui-qisha",    "field": "ELEMENT_GOD.k2_domain_readings",         "chart": "ding-weak", "energy": "Water" },
+    { "id": "D07.advise.huo-shui.F",     "field": "ELEMENT_PAIR.function.advise",           "chart": "ding-weak", "energy": "Water" },
+    { "id": "D08.advise.huo-mu.C",       "field": "ELEMENT_PAIR.function.advise",           "chart": "ding-weak", "energy": "Wood" },
+    { "id": "D09.base.huo-shui",         "field": "ELEMENT_PAIR.mechanism.base",            "chart": "ding-weak", "energy": "Water" },
+    { "id": "D10.overview.ding",         "field": "STEM.dm_overview",                       "cell": "丁", "chart": "ding-weak" },
+
+    { "id": "X01.pools.xin",             "field": "STEM.gifts+shadows",                     "cell": "辛", "chart": "xin-earth" },
+    { "id": "X02.turn-carry.jin-tu.F.yin","field": "ELEMENT_PAIR.mechanism.turn+carry",     "chart": "xin-earth", "energy": "Earth" },
+    { "id": "X03.turn-carry.jin-mu.C.yin","field": "ELEMENT_PAIR.mechanism.turn+carry",     "chart": "xin-earth", "energy": "Wood" },
+    { "id": "X04.ledger.mu-piancai.C0",  "field": "ELEMENT_GOD.fn_reading.row",             "chart": "xin-earth", "energy": "Wood", "row": 0 },
+    { "id": "X05.band.xin-overfueled",   "field": "STEM_BAND.yourNature_desc+self_card",    "cell": "辛", "chart": "xin-earth" },
+    { "id": "X06.domains.mu-piancai",    "field": "ELEMENT_GOD.k2_domain_readings",         "chart": "xin-earth", "energy": "Wood" },
+    { "id": "X07.advise.jin-shui.C",     "field": "ELEMENT_PAIR.function.advise",           "chart": "xin-earth", "energy": "Water" },
+    { "id": "X08.advise.jin-huo.C",      "field": "ELEMENT_PAIR.function.advise",           "chart": "xin-earth", "energy": "Fire" },
+    { "id": "X09.base.jin-tu",           "field": "ELEMENT_PAIR.mechanism.base",            "chart": "xin-earth", "energy": "Earth" },
+    { "id": "X10.overview.xin",          "field": "STEM.dm_overview",                       "cell": "辛", "chart": "xin-earth" }
+  ]
+}

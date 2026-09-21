@@ -1,0 +1,118 @@
+{
+ "gifts": [
+  {
+   "phrase": "Never looks tired",
+   "dim": "running low",
+   "door": "body",
+   "face": "echo",
+   "echo_of": "金_金.function.definition_catalyst",
+   "desc": "You keep your shape long after the fuel is low. Nobody sees you run down, because the line stays straight while it happens."
+  },
+  {
+   "phrase": "Finishes properly",
+   "dim": "at work",
+   "door": "body",
+   "face": "wide",
+   "echo_of": "金_金.function.definition_catalyst",
+   "desc": "You take longer to call something done, and it shows. What leaves your hands doesn't come back for fixing."
+  },
+  {
+   "phrase": "First-handshake read",
+   "dim": "first impressions",
+   "door": "mind",
+   "face": "echo",
+   "echo_of": "金_土.function.definition_catalyst",
+   "desc": "Ten minutes in, you know who they are. Years of quiet watching went in first, and it comes back as judgment. Months later everyone else catches up to the handshake."
+  },
+  {
+   "phrase": "Practices alone",
+   "dim": "practice",
+   "door": "mind",
+   "face": "wide",
+   "echo_of": "金_土.carry.wide",
+   "desc": "The skill arrives finished. Nobody saw the quiet months of practice behind it, and you like it that way."
+  },
+  {
+   "phrase": "No dressed-up answers",
+   "dim": "communication",
+   "door": "expression",
+   "face": "echo",
+   "echo_of": "金_水.function.definition_catalyst",
+   "desc": "What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain."
+  },
+  {
+   "phrase": "Plays the long game",
+   "dim": "trimming a plan",
+   "door": "action",
+   "face": "echo",
+   "echo_of": "金_木.function.definition_catalyst",
+   "desc": "You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl."
+  },
+  {
+   "phrase": "Crisis performer",
+   "dim": "under pressure",
+   "door": "order",
+   "face": "echo",
+   "echo_of": "金_火.function.definition_catalyst",
+   "desc": "The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
+  }
+ ],
+ "shadows": [
+  {
+   "phrase": "Tense all over",
+   "dim": "unspent discipline",
+   "door": "body",
+   "face": "echo",
+   "echo_of": "金_金.function.definition_friction",
+   "desc": "Discipline with nothing to spend itself on turns into tension. It lives in your shoulders and your jaw, and people read it before you speak."
+  },
+  {
+   "phrase": "Never reconsiders",
+   "dim": "second chances",
+   "door": "body",
+   "face": "excess",
+   "echo_of": "金_金.carry.excess",
+   "desc": "Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut."
+  },
+  {
+   "phrase": "Lives inside plans",
+   "dim": "testing the plan",
+   "door": "mind",
+   "face": "echo",
+   "echo_of": "金_土.function.definition_friction",
+   "desc": "The plan is complete down to the week, and it has been complete for a year. Living inside it is easier than testing it."
+  },
+  {
+   "phrase": "Overprepared",
+   "dim": "showing the work",
+   "door": "mind",
+   "face": "excess",
+   "echo_of": "金_土.carry.excess",
+   "desc": "Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth."
+  },
+  {
+   "phrase": "No filter",
+   "dim": "saying too much",
+   "door": "expression",
+   "face": "echo",
+   "echo_of": "金_水.function.definition_friction",
+   "desc": "Talent with no banks runs into snacks, scrolling, remarks that cut deeper than you meant, and half-made things. Nothing is wrong, exactly. That is the problem."
+  },
+  {
+   "phrase": "Spins its wheels",
+   "dim": "trimming",
+   "door": "action",
+   "face": "echo",
+   "echo_of": "金_木.function.definition_friction",
+   "desc": "Effort goes wherever the branches already point: old ground held too hard, new shoots started too freely. The season ends with plenty of motion and nothing brought in."
+  },
+  {
+   "phrase": "Own harshest critic",
+   "dim": "self-worth",
+   "door": "order",
+   "face": "echo",
+   "echo_of": "金_火.function.definition_friction",
+   "desc": "Every rule runs hot and every moment is an emergency. The standard presses down on people first, then hardest on you. Finishing and feeling finished are two different days."
+  }
+ ]
+}

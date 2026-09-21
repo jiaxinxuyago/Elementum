@@ -1,0 +1,40 @@
+{
+ "id": "X10.overview.xin",
+ "field": "STEM.dm_overview",
+ "cards": [
+  "STEM.dm_overview"
+ ],
+ "exemplarWithheld": [],
+ "ctx": {
+  "field": "STEM.dm_overview",
+  "axis": "STEM",
+  "band": "concentrated",
+  "chart": {
+   "id": "xin-earth",
+   "label": "contrast 辛 The Jewel, Overfueled, heavy Earth (fixture: Metal 20 / Earth 45 / Wood 15 / Fire 10 / Water 10)",
+   "stem": "辛",
+   "band": "concentrated",
+   "bandTerm": "Overfueled",
+   "synthetic": true
+  },
+  "stem": "辛",
+  "yin": true,
+  "cell": "xin"
+ },
+ "original": {
+  "dm_overview": "The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. The last of autumn belongs to it, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. Under a patient hand it is cut small and exact, holding more light than its size should allow, and it refuses to call the work done early."
+ },
+ "repFields": {
+  "yourNature_desc": "You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required.",
+  "manifesto": "Refinement over output · You are the Metal that refines until nothing extra remains.",
+  "inscription": "You hold your work to a standard nobody set, and it never says finished."
+ },
+ "repBlock": false,
+ "swapGram": null,
+ "zone": false,
+ "zoneBlock": false,
+ "shape": "{\"dm_overview\": \"...\"}",
+ "promptWords": 4004,
+ "rea17Version": "0.2",
+ "assembledAt": "2026-09-21T22:09:16.316Z"
+}

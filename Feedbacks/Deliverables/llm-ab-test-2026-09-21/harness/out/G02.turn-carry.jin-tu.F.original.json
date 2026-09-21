@@ -1,0 +1,17 @@
+{
+ "friction_turn": "Run heavy, the shelter closes over the blade: so much preparation that the edge never leaves the mine. Comfort begins to bury what it formed. Dig out and cut something real.",
+ "carry": {
+  "friction": {
+   "clause": "The shelter closes over the blade: so much preparation that the edge never leaves the mine.",
+   "remedy": "Dig out and cut something real."
+  },
+  "thin": {
+   "clause": "Earth runs thin and unwanted: a little shelter, easily left.",
+   "remedy": "Leave it as it is, small."
+  },
+  "excess": {
+   "clause": "Too much earth clogs the metal: fed past use, the edge stalls, brooding where it should cut.",
+   "remedy": "Dig out. Less study, one real cut."
+  }
+ }
+}

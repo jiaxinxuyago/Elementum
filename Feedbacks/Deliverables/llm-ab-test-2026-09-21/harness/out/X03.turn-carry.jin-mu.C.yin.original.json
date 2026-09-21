@@ -1,0 +1,17 @@
+{
+ "catalyst_turn": "Run thin, the point has nothing to work: skill idling without a piece worth it. Your chart asks you to claim material. Pick one living ambition and start cutting.",
+ "carry": {
+  "catalyst": {
+   "clause": "The wheel has nothing to cut: skill idling without a stone worth it.",
+   "remedy": "Pick one living ambition and start cutting."
+  },
+  "missing": {
+   "clause": "No material to cut: skill with nothing to work, an edge kept for its own sake.",
+   "remedy": "Borrow material: one project, one claim."
+  },
+  "wide": {
+   "clause": "Wood is already here in plenty, the material the wheel is for.",
+   "remedy": "Cut what is already in front of you. Finish it."
+  }
+ }
+}

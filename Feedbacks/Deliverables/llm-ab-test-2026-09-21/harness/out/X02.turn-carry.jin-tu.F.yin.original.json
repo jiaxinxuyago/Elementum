@@ -1,0 +1,17 @@
+{
+ "friction_turn": "Run heavy, the setting closes over the stone: so much preparation that the jewel never leaves the box. Comfort begins to bury what it formed. Take it out and wear it somewhere real.",
+ "carry": {
+  "friction": {
+   "clause": "The setting closes over the stone: so much preparation that the jewel never leaves the box.",
+   "remedy": "Take it out and wear it somewhere real."
+  },
+  "thin": {
+   "clause": "Earth runs thin and unwanted: a little shelter, easily left.",
+   "remedy": "Leave it as it is, small."
+  },
+  "excess": {
+   "clause": "Too much earth buries the metal: talent that never surfaces, thought that never becomes a cut.",
+   "remedy": "Take it out of the box. Cut one thing."
+  }
+ }
+}
