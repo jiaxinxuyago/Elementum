@@ -1,0 +1,96 @@
+{
+ "id": "X06.domains.mu-piancai",
+ "field": "ELEMENT_GOD.k2_domain_readings",
+ "cards": [
+  "ELEMENT_GOD.k2_domain_readings"
+ ],
+ "exemplarWithheld": [],
+ "ctx": {
+  "field": "ELEMENT_GOD.k2_domain_readings",
+  "axis": "ELEMENT_GOD",
+  "pole": "catalyst",
+  "band": "concentrated",
+  "chart": {
+   "id": "xin-earth",
+   "label": "contrast 辛 The Jewel, Overfueled, heavy Earth (fixture: Metal 20 / Earth 45 / Wood 15 / Fire 10 / Water 10)",
+   "stem": "辛",
+   "band": "concentrated",
+   "bandTerm": "Overfueled",
+   "synthetic": true
+  },
+  "stem": "辛",
+  "yin": true,
+  "energy": {
+   "el": "Wood",
+   "presence": 15,
+   "role": "catalyst",
+   "volume": "present",
+   "excess": false,
+   "state": "catalyst_turn",
+   "stateSource": "mechanism_yin.catalyst_turn",
+   "faces": [
+    {
+     "god": "偏财",
+     "share": 100,
+     "persona": "The Horizon",
+     "polarity": null
+    }
+   ],
+   "leadGod": "偏财",
+   "fnRows": [
+    {
+     "word": "Wide-branching",
+     "god": "偏财",
+     "door": "trait"
+    },
+    {
+     "word": "Enterprising",
+     "god": "偏财",
+     "door": "scene"
+    },
+    {
+     "word": "Open-handed",
+     "god": "偏财",
+     "door": "outside"
+    }
+   ]
+  },
+  "pairKey": "金_木",
+  "cell": "木_偏财"
+ },
+ "original": {
+  "Opportunity": "Opportunities appear to you as open land: markets unplanted, niches unclaimed. You see fertile ground others call wilderness. Scout it, but check the soil before transplanting everything.",
+  "Ventures": "Your ventures grow in groves: several trunks sharing a root system of skills and contacts. Let each mature before seeding the next. Orchards fail from planting fever, not planting.",
+  "Father": "The father-thread runs green and rangy: a paternal figure of journeys, enterprises, or restlessness. His pattern of reaching shaped yours. Keep the reach, and plant the roots he may have skipped."
+ },
+ "repFields": {
+  "k2_overview": "Your Wood moves as the Horizon: growth that reaches for distant light. Opportunity, for you, is territory: new markets, new cities, branches extended where no one from home has grown. You expand naturally and prune reluctantly. Fortune arrives through the reaching. Roots decide how much of it you keep.",
+  "k2_functional": "You grow toward opportunity steadily, extending reach every season without retreating.",
+  "fn_reading.catalyst.ledger[0].doors.trait": "Your effort naturally runs in several directions at once, and the directions feed each other more than they collide. Focus, as commonly preached, never fit you: your luck lives in the overlaps, where one venture waters the next. So you stopped apologizing for the branching.",
+  "fn_reading.catalyst.ledger[0].doors.scene": "The supplier from the first venture became the landlord of the second, and a customer from the second just introduced the third. On paper it is three businesses in two cities. In practice it is one root system wearing three names, and it feeds itself.",
+  "fn_reading.catalyst.ledger[0].doors.outside": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on.",
+  "fn_reading.catalyst.ledger[1].doors.trait": "Seeing the opening before others see the wall is your standing advantage. Where most people need proof, you need one walk past the site, and the plan assembles itself uninvited. Most of what you imagine stays imaginary. The fraction you build pays for the whole habit.",
+  "fn_reading.catalyst.ledger[1].doors.scene": "You walked past the empty lot once and the café appeared in your head, tables and all, a year before anyone else saw potential. By the time the neighborhood caught up, you had already moved on twice. Early is the only schedule you have ever kept.",
+  "fn_reading.catalyst.ledger[1].doors.outside": "Friends have learned to listen when you point at nothing and describe a business. Half your ideas sound absurd on the sidewalk and obvious five years later. The people who laughed at the first one quietly ask about the next.",
+  "fn_reading.catalyst.ledger[2].doors.trait": "Money moves through your hands easily, and it keeps coming back with interest of a kind no bank tracks. You give without counting, on instinct, and the instinct has been running a quietly profitable book for years without ever once being audited.",
+  "fn_reading.catalyst.ledger[2].doors.scene": "You covered the dinner without thinking, the way you seeded the friend’s shop and floated the cousin’s rent. Nobody kept a ledger, least of all you. Somehow the shop sends customers, the cousin sends leads, and generosity keeps turning out to be your best-performing account.",
+  "fn_reading.catalyst.ledger[2].doors.outside": "The word on you is generous, and the word travels further than money does. Doors open because you propped one open for someone else two years back. Tight-fisted people never see this economy at all, and they keep wondering how you afford your luck.",
+  "fn_reading.friction.ledger[0].doors.trait": "Starting is your genuine talent, and staying is the tax you keep finding ways around. Your energy is all spring and no autumn: everything gets planted, nothing gets brought in, and the finish line remains a rumor from other people’s lives.",
+  "fn_reading.friction.ledger[0].doors.scene": "Four projects, all around forty percent, none moving. The oldest one needed two weekends of work in March, and it is October, and those weekends went to the newest one, which has since also stopped. The finish line has never once seen you up close.",
+  "fn_reading.friction.ledger[0].doors.outside": "People have stopped asking how the projects are going, because the answer is always the same word, almost. Your talent was never the question. What they are waiting for, some more patiently than others, is a single finished thing to point at.",
+  "fn_reading.friction.ledger[1].doors.trait": "Adding commitments is a reflex you no longer notice, the way a hedge never notices new branches. Every yes seemed small at the moment of signing. The sum runs your life now, and the important thing keeps not happening inside a calendar too full to hold it.",
+  "fn_reading.friction.ledger[1].doors.scene": "There is no white space left in the calendar, and reading it honestly is uncomfortable: half the entries are things you volunteered for while already busy. Each one was one small yes. Together they are the reason the important thing keeps not happening.",
+  "fn_reading.friction.ledger[1].doors.outside": "From outside, your life looks impressively full, and people say so with admiration. Up close, the fullness has no center. Even your closest people book you two weeks out, and the thing you say matters most has not appeared on the calendar in months.",
+  "fn_reading.friction.ledger[2].doors.trait": "Your interest burns hottest at the start and moves on before results arrive, and the pattern is old enough to have its own shelf. Enthusiasm was never the missing ingredient in any of it. Week seven is, and week seven always has been.",
+  "fn_reading.friction.ledger[2].doors.scene": "The guitar got six good weeks, then the course got its six, then the market stall. Each one was the real thing while it lasted, and the shelf where they ended up is running out of space. Week seven has beaten you more often than any rival.",
+  "fn_reading.friction.ledger[2].doors.outside": "Friends now respond to your new obsessions with a warmth they privately ration, because they have met week seven. Nobody doubts the passion. They have simply watched enough six-week eras end to know the shelf, and never the stage, is where this one is headed too."
+ },
+ "repBlock": false,
+ "swapGram": null,
+ "zone": false,
+ "zoneBlock": false,
+ "shape": "{\"Opportunity\": \"...\", \"Ventures\": \"...\", \"Father\": \"...\"}",
+ "promptWords": 4056,
+ "rea17Version": "0.4",
+ "assembledAt": "2026-09-21T23:12:05.079Z"
+}

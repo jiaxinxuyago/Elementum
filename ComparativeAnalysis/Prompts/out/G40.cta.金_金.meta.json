@@ -1,0 +1,92 @@
+{
+ "id": "G40.cta.金_金",
+ "field": "ELEMENT_PAIR.cta_verdict",
+ "cards": [
+  "ELEMENT_PAIR.cta_verdict"
+ ],
+ "exemplarWithheld": [],
+ "ctx": {
+  "field": "ELEMENT_PAIR.cta_verdict",
+  "axis": "ELEMENT_PAIR",
+  "pole": "friction",
+  "band": "concentrated",
+  "chart": {
+   "id": "golden",
+   "label": "golden 庚 The Blade, 1995-04-29 18:00 Beijing (Overfueled; Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5)",
+   "stem": "庚",
+   "band": "concentrated",
+   "bandTerm": "Overfueled",
+   "synthetic": false
+  },
+  "stem": "庚",
+  "yin": false,
+  "energy": {
+   "el": "Metal",
+   "presence": 23,
+   "role": "core",
+   "volume": "abundant",
+   "excess": false,
+   "state": "friction_turn",
+   "stateSource": "mechanism.friction_turn",
+   "faces": [
+    {
+     "god": "比肩",
+     "share": 67,
+     "persona": "The Twin",
+     "polarity": "yang"
+    },
+    {
+     "god": "劫财",
+     "share": 33,
+     "persona": "The Rival",
+     "polarity": "yin"
+    }
+   ],
+   "leadGod": "比肩",
+   "fnRows": [
+    {
+     "word": "Sealed-off",
+     "god": "比肩",
+     "door": "trait"
+    },
+    {
+     "word": "Rigid",
+     "god": "比肩",
+     "door": "scene"
+    },
+    {
+     "word": "Cutthroat",
+     "god": "劫财",
+     "door": "outside"
+    }
+   ]
+  },
+  "pairKey": "金_金",
+  "cell": "金_金"
+ },
+ "original": {
+  "cta_verdict": "You bend for nothing and call it strength, and your body keeps that bargain until the day it presents the bill."
+ },
+ "repFields": {
+  "function.definition_catalyst": "Metal is your Body, and running thin, it is the reserve everything else draws on: sleep, food, recovery, the physical base under your discipline. Yours holds form long after the fuel is low, so you notice depletion late.",
+  "function.definition_friction": "Metal is your Body, and running over, it is more physical force than your life currently spends: discipline with no outlet, stamina turning into tension you carry in your shoulders and jaw.",
+  "function.advise_catalyst": "Discipline that skips recovery is borrowing, and the interest is physical. Put maintenance on the calendar before it is needed: fixed bedtime, real meals, one full rest day a week. Track energy like money for one month. Treat the first sign of wear as a warning.",
+  "function.advise_friction": "A body built for effort needs effort to be at peace. Give it a hard weekly outlet, lifting, long walks, manual work. Pair every sitting-heavy day with something physical. When patience runs short, train first and talk after.",
+  "mechanism.base": "Like answers like, the classics say: the same note struck twice rings once, and louder. When metal stands beside metal there is no reaction, only reinforcement, ore of one seam, edges off one forge. Such sameness is strength and its own hazard. Two blades in one sheath keep each other keen, or wear each other blunt.",
+  "mechanism.catalyst_turn": "Run thin, the line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last. Your chart asks you to feed the self. Practice your craft alone until it rings.",
+  "mechanism.friction_turn": "Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through.",
+  "carry.catalyst": "The line wavers: opinions borrowed, standards negotiable, an edge that answers to whoever held it last. Practice your craft alone until it rings.",
+  "carry.friction": "The edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through.",
+  "carry.unrooted": "The self stands without roots: an edge with nothing under it, form held on will alone. Feed the self. Borrow ground and practice.",
+  "carry.excess": "Strong metal wants water: so much certainty it cuts everything the same way. Let water blunt it. Say it, don't cut it.",
+  "carry.thin": "Metal runs thin and still carries weight: little of the self, held too tightly. Loosen the grip."
+ },
+ "repBlock": true,
+ "swapGram": null,
+ "zone": true,
+ "zoneBlock": false,
+ "shape": "{\"cta_verdict\": \"...\"}",
+ "promptWords": 4258,
+ "rea17Version": "0.4",
+ "assembledAt": "2026-09-21T23:12:04.811Z"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "G86.health.zhengcai_year_stem",
+ "field": "POSITION.health_line",
+ "cards": [
+  "POSITION.health_line"
+ ],
+ "exemplarWithheld": [],
+ "ctx": {
+  "field": "POSITION.health_line",
+  "axis": "POSITION",
+  "band": "concentrated",
+  "chart": {
+   "id": "golden",
+   "label": "golden 庚 The Blade, 1995-04-29 18:00 Beijing (Overfueled; Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5)",
+   "stem": "庚",
+   "band": "concentrated",
+   "bandTerm": "Overfueled",
+   "synthetic": false
+  },
+  "stem": "庚",
+  "yin": false,
+  "cell": "zhengcai_year_stem"
+ },
+ "original": {
+  "health_line": "The body budgets like you do: it thrives on regular hours and resents sudden splurges of effort. Keep the routines honest and it keeps the books balanced."
+ },
+ "repFields": {
+  "defline": "The Steward stands at your Year Gate: prudence is the family trait your story shows first.",
+  "teaser": "You learned early what things cost, and it shows in how carefully you build. Money grows for you the slow way, and it starts close to home.",
+  "reading": "This position rules Wealth and Family, and it rules them from your beginnings. The Steward stood openly at your Year Gate: a household that provided by planning, elders who counted carefully, a childhood where money had rules and the rules mostly held. The world still reads that face on you, dependable and early to save. Money learned young stays learned: your fortune keeps favoring the long way around. Through the family line come your steadiest assets, advice worth taking and sometimes property worth keeping. Honor the thrift you inherited, and spend on purpose now and then. Permission to enjoy it is part of the estate.",
+  "life_chapter": "Your early chapter ran on order: money named, chores real, promises kept in front of you. Whatever else childhood held, it taught account-keeping early, and the habits you formed before sixteen remain the quiet architecture of every budget you have balanced since.",
+  "relations": "Elders are this seat’s people: a provident parent or grandparent whose carefulness reached you as safety. Honor arrives through them, and duty flows back. Expect to be the relative others trust with arrangements, and let that trust stay a role rather than a debt.",
+  "turn_catalyst": "With this energy thin in you, the seat asks for practice: budget something small monthly. Order grows the way savings do, by deposit.",
+  "turn_friction": "With this energy running heavy, the seat over-counts: generosity waits on spreadsheets. Loosen one ledger and let someone treat you.",
+  "shadow_line": "Overloaded, prudence turns miserly here: joy postponed for a rainy day that never gets invited.",
+  "domain_readings.Wealth": "Money entered your life with rules attached, and the rules took. You save younger than most, spend with a list, and quietly compound while louder people perform wealth. The curve stays boring and rising. Trust it: your fortune is built like a wall, one considered brick at a time.",
+  "domain_readings.Family": "Family, for you, is a well-run estate more than a stage: obligations met, elders honored, help that arrives as groceries and paid bills rather than speeches. You may become the family treasurer early. Accept the role, set its limits in writing, and it becomes an honor rather than a tax."
+ },
+ "repBlock": false,
+ "swapGram": null,
+ "zone": false,
+ "zoneBlock": false,
+ "shape": "{\"health_line\": \"...\"}",
+ "promptWords": 4178,
+ "rea17Version": "0.4",
+ "assembledAt": "2026-09-21T23:12:04.884Z"
+}

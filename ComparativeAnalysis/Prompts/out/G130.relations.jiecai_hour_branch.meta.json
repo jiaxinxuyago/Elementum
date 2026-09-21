@@ -1,0 +1,47 @@
+{
+ "id": "G130.relations.jiecai_hour_branch",
+ "field": "POSITION.relations",
+ "cards": [
+  "POSITION.relations"
+ ],
+ "exemplarWithheld": [],
+ "ctx": {
+  "field": "POSITION.relations",
+  "axis": "POSITION",
+  "band": "concentrated",
+  "chart": {
+   "id": "golden",
+   "label": "golden 庚 The Blade, 1995-04-29 18:00 Beijing (Overfueled; Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5)",
+   "stem": "庚",
+   "band": "concentrated",
+   "bandTerm": "Overfueled",
+   "synthetic": false
+  },
+  "stem": "庚",
+  "yin": false,
+  "cell": "jiecai_hour_branch"
+ },
+ "original": {
+  "relations": "Children and the youngest circle are this seat’s people: strong-willed heirs, proteges with nerve, late friendships with the young and bold. They will contend with you and for you. Love them by matching them, and by keeping your own keys."
+ },
+ "repFields": {
+  "defline": "Inside your Hour Gate sits the shared harvest: what you build late in life is built with others.",
+  "teaser": "The people who come after you will have your fire and their own ideas. Late in life, generosity is your grace and your leak: give on purpose, not on request.",
+  "reading": "This position rules Family and Wealth, and it works in the root of your late years. The Rival lives inside your Hour Gate: the generation after you carries your fire with its own steering, children and heirs who are charismatic, willful, and expensive in ways you will mostly forgive. Late life keeps a shared-purse quality: people close to you will reach for your resources, and your generosity will want to answer. Some of that is grace. Budget it anyway, on purpose, with numbers. Protect the retirement floor first and give from above it. Then the boldness you are leaving behind reads as legacy, and the leaks never get to write the ending.",
+  "life_chapter": "Your late chapter stays loud: heirs with opinions, ventures that refuse retirement, a household that debates at dinner. The last decades run warmer and riskier than most people’s, and they suit you. Keep the fire. Fence the fuel.",
+  "turn_catalyst": "Run thin, the seat wants company late: back one young bold thing a year, with a number on it.",
+  "turn_friction": "Run heavy, the shared purse leaks late: every request lands as family. Fix the yearly figure, then relax inside it.",
+  "shadow_line": "Overloaded, generosity becomes the last contest: giving as the final way to win.",
+  "health_line": "Late strength is real here, and so is late tension: the body holds guard duty long after the watch ends. Put the armor down nightly.",
+  "domain_readings.Family": "Your late family life is vivid: heirs with your fire and their own compass, a household that debates because it cares. Do not mistake their independence for distance. The Rival’s children love by contending. Set the table anyway, referee lightly, and the noise turns out to be the warmth.",
+  "domain_readings.Wealth": "Late wealth needs a gatekeeper, and it should be you on your clearest day: claims will come dressed as family, opportunity, and honor. Fix your giving number annually, protect the floor beneath your own feet first. Generosity from a defended base reads as blessing. From an open vault it reads as weather."
+ },
+ "repBlock": false,
+ "swapGram": null,
+ "zone": false,
+ "zoneBlock": false,
+ "shape": "{\"relations\": \"...\"}",
+ "promptWords": 4181,
+ "rea17Version": "0.4",
+ "assembledAt": "2026-09-21T23:12:04.944Z"
+}

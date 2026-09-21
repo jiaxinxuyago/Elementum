@@ -2,7 +2,7 @@
 
 Written from a cloud session (claude.ai/code). Supersedes the 2026-09-15 handoff for workstream
 state; standing laws there still hold unless amended below. Record of every ruling and landing:
-`Feedbacks/Deliverables/elementum-evaluation-2026-09-17/CLAUDE_EVALUATION_RESPONSE.md` §6, §6a, §6b, §6c
+`ComparativeAnalysis/Evaluations/elementum-evaluation-2026-09-17/CLAUDE_EVALUATION_RESPONSE.md` §6, §6a, §6b, §6c
 and `RULINGS_PROOF_2026-09-20.md` (before/after on the golden chart 1995-04-29 18:00 Beijing, 庚).
 
 ## What changed in the reading (all on main, all gated)

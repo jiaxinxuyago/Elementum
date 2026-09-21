@@ -1,0 +1,42 @@
+{
+ "id": "G11.overview.geng",
+ "field": "STEM.dm_overview",
+ "cards": [
+  "STEM.dm_overview"
+ ],
+ "exemplarWithheld": [
+  "dm_overview"
+ ],
+ "ctx": {
+  "field": "STEM.dm_overview",
+  "axis": "STEM",
+  "band": "concentrated",
+  "chart": {
+   "id": "golden",
+   "label": "golden 庚 The Blade, 1995-04-29 18:00 Beijing (Overfueled; Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5)",
+   "stem": "庚",
+   "band": "concentrated",
+   "bandTerm": "Overfueled",
+   "synthetic": false
+  },
+  "stem": "庚",
+  "yin": false,
+  "cell": "geng"
+ },
+ "original": {
+  "dm_overview": "The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech."
+ },
+ "repFields": {
+  "yourNature_desc": "You put the truth ahead of your own comfort, and usually ahead of your own company. People keep the clarity you hand them and stay careful around the edge it came from. The cost never comes up. You've never once shown anyone the bill.",
+  "manifesto": "Precision before intention · You are the Metal that cuts things clean.",
+  "inscription": "You say what others soften, then quietly pay for being the one who did."
+ },
+ "repBlock": false,
+ "swapGram": null,
+ "zone": false,
+ "zoneBlock": false,
+ "shape": "{\"dm_overview\": \"...\"}",
+ "promptWords": 3914,
+ "rea17Version": "0.4",
+ "assembledAt": "2026-09-21T23:12:05.055Z"
+}

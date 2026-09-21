@@ -1,0 +1,460 @@
+{
+ "name": "ding-weak-all",
+ "note": "Every generation target the ding-weak chart reaches (contrast 丁 The Candle, weak, one Order door (fixture: Wood 30 / Fire 15 / Earth 5 / Metal 10 / Water 40)), read off the engine by chart.mjs on 2026-09-21. Same cells, same valence and volume for every model.",
+ "rows": [
+  {
+   "id": "D01.manifesto.ding",
+   "field": "STEM.manifesto",
+   "chart": "ding-weak",
+   "cell": "丁"
+  },
+  {
+   "id": "D02.inscription.ding",
+   "field": "STEM.inscription",
+   "chart": "ding-weak",
+   "cell": "丁"
+  },
+  {
+   "id": "D03.overview.ding",
+   "field": "STEM.dm_overview",
+   "chart": "ding-weak",
+   "cell": "丁"
+  },
+  {
+   "id": "D04.nature.ding",
+   "field": "STEM.yourNature_desc",
+   "chart": "ding-weak",
+   "cell": "丁"
+  },
+  {
+   "id": "D05.pools.ding",
+   "field": "STEM.gifts+shadows",
+   "chart": "ding-weak",
+   "cell": "丁"
+  },
+  {
+   "id": "D06.band.ding-open",
+   "field": "STEM_BAND.yourNature_desc+self_card",
+   "chart": "ding-weak",
+   "cell": "丁"
+  },
+  {
+   "id": "D07.base.火_水",
+   "field": "ELEMENT_PAIR.mechanism.base",
+   "chart": "ding-weak",
+   "energy": "Water"
+  },
+  {
+   "id": "D08.turn-carry.火_水.F",
+   "field": "ELEMENT_PAIR.mechanism.turn+carry",
+   "chart": "ding-weak",
+   "energy": "Water"
+  },
+  {
+   "id": "D09.definition.火_水.F",
+   "field": "ELEMENT_PAIR.function.definition",
+   "chart": "ding-weak",
+   "energy": "Water"
+  },
+  {
+   "id": "D10.advise.火_水.F",
+   "field": "ELEMENT_PAIR.function.advise",
+   "chart": "ding-weak",
+   "energy": "Water"
+  },
+  {
+   "id": "D11.cta.火_水",
+   "field": "ELEMENT_PAIR.cta_verdict",
+   "chart": "ding-weak",
+   "energy": "Water"
+  },
+  {
+   "id": "D12.carry.火_水.excess",
+   "field": "ELEMENT_PAIR.carry.pole",
+   "chart": "ding-weak",
+   "energy": "Water",
+   "state": "excess"
+  },
+  {
+   "id": "D13.k2overview.水_七杀",
+   "field": "ELEMENT_GOD.k2_overview",
+   "chart": "ding-weak",
+   "cell": "水_七杀"
+  },
+  {
+   "id": "D14.k2functional.水_七杀",
+   "field": "ELEMENT_GOD.k2_functional",
+   "chart": "ding-weak",
+   "cell": "水_七杀"
+  },
+  {
+   "id": "D15.chips.水_七杀",
+   "field": "ELEMENT_GOD.adj_chips",
+   "chart": "ding-weak",
+   "cell": "水_七杀"
+  },
+  {
+   "id": "D16.domains.水_七杀",
+   "field": "ELEMENT_GOD.k2_domain_readings",
+   "chart": "ding-weak",
+   "cell": "水_七杀"
+  },
+  {
+   "id": "D17.ledger.水_七杀.F0",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "ding-weak",
+   "cell": "水_七杀",
+   "pole": "friction",
+   "row": 0
+  },
+  {
+   "id": "D18.ledger.水_七杀.F1",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "ding-weak",
+   "cell": "水_七杀",
+   "pole": "friction",
+   "row": 1
+  },
+  {
+   "id": "D19.ledger.水_七杀.F2",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "ding-weak",
+   "cell": "水_七杀",
+   "pole": "friction",
+   "row": 2
+  },
+  {
+   "id": "D20.base.火_木",
+   "field": "ELEMENT_PAIR.mechanism.base",
+   "chart": "ding-weak",
+   "energy": "Wood"
+  },
+  {
+   "id": "D21.turn-carry.火_木.C",
+   "field": "ELEMENT_PAIR.mechanism.turn+carry",
+   "chart": "ding-weak",
+   "energy": "Wood"
+  },
+  {
+   "id": "D22.definition.火_木.C",
+   "field": "ELEMENT_PAIR.function.definition",
+   "chart": "ding-weak",
+   "energy": "Wood"
+  },
+  {
+   "id": "D23.advise.火_木.C",
+   "field": "ELEMENT_PAIR.function.advise",
+   "chart": "ding-weak",
+   "energy": "Wood"
+  },
+  {
+   "id": "D24.cta.火_木",
+   "field": "ELEMENT_PAIR.cta_verdict",
+   "chart": "ding-weak",
+   "energy": "Wood"
+  },
+  {
+   "id": "D25.carry.火_木.wide",
+   "field": "ELEMENT_PAIR.carry.pole",
+   "chart": "ding-weak",
+   "energy": "Wood",
+   "state": "wide"
+  },
+  {
+   "id": "D26.k2overview.木_偏印",
+   "field": "ELEMENT_GOD.k2_overview",
+   "chart": "ding-weak",
+   "cell": "木_偏印"
+  },
+  {
+   "id": "D27.k2functional.木_偏印",
+   "field": "ELEMENT_GOD.k2_functional",
+   "chart": "ding-weak",
+   "cell": "木_偏印"
+  },
+  {
+   "id": "D28.chips.木_偏印",
+   "field": "ELEMENT_GOD.adj_chips",
+   "chart": "ding-weak",
+   "cell": "木_偏印"
+  },
+  {
+   "id": "D29.domains.木_偏印",
+   "field": "ELEMENT_GOD.k2_domain_readings",
+   "chart": "ding-weak",
+   "cell": "木_偏印"
+  },
+  {
+   "id": "D30.ledger.木_偏印.C0",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "ding-weak",
+   "cell": "木_偏印",
+   "pole": "catalyst",
+   "row": 0
+  },
+  {
+   "id": "D31.ledger.木_偏印.C1",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "ding-weak",
+   "cell": "木_偏印",
+   "pole": "catalyst",
+   "row": 1
+  },
+  {
+   "id": "D32.ledger.木_偏印.C2",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "ding-weak",
+   "cell": "木_偏印",
+   "pole": "catalyst",
+   "row": 2
+  },
+  {
+   "id": "D33.base.火_火",
+   "field": "ELEMENT_PAIR.mechanism.base",
+   "chart": "ding-weak",
+   "energy": "Fire"
+  },
+  {
+   "id": "D34.turn-carry.火_火.C",
+   "field": "ELEMENT_PAIR.mechanism.turn+carry",
+   "chart": "ding-weak",
+   "energy": "Fire"
+  },
+  {
+   "id": "D35.definition.火_火.C",
+   "field": "ELEMENT_PAIR.function.definition",
+   "chart": "ding-weak",
+   "energy": "Fire"
+  },
+  {
+   "id": "D36.advise.火_火.C",
+   "field": "ELEMENT_PAIR.function.advise",
+   "chart": "ding-weak",
+   "energy": "Fire"
+  },
+  {
+   "id": "D37.cta.火_火",
+   "field": "ELEMENT_PAIR.cta_verdict",
+   "chart": "ding-weak",
+   "energy": "Fire"
+  },
+  {
+   "id": "D38.k2overview.火_比肩",
+   "field": "ELEMENT_GOD.k2_overview",
+   "chart": "ding-weak",
+   "cell": "火_比肩"
+  },
+  {
+   "id": "D39.k2functional.火_比肩",
+   "field": "ELEMENT_GOD.k2_functional",
+   "chart": "ding-weak",
+   "cell": "火_比肩"
+  },
+  {
+   "id": "D40.chips.火_比肩",
+   "field": "ELEMENT_GOD.adj_chips",
+   "chart": "ding-weak",
+   "cell": "火_比肩"
+  },
+  {
+   "id": "D41.domains.火_比肩",
+   "field": "ELEMENT_GOD.k2_domain_readings",
+   "chart": "ding-weak",
+   "cell": "火_比肩"
+  },
+  {
+   "id": "D42.ledger.火_比肩.C0",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "ding-weak",
+   "cell": "火_比肩",
+   "pole": "catalyst",
+   "row": 0
+  },
+  {
+   "id": "D43.ledger.火_比肩.C1",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "ding-weak",
+   "cell": "火_比肩",
+   "pole": "catalyst",
+   "row": 1
+  },
+  {
+   "id": "D44.ledger.火_比肩.C2",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "ding-weak",
+   "cell": "火_比肩",
+   "pole": "catalyst",
+   "row": 2
+  },
+  {
+   "id": "D45.base.火_金",
+   "field": "ELEMENT_PAIR.mechanism.base",
+   "chart": "ding-weak",
+   "energy": "Metal"
+  },
+  {
+   "id": "D46.turn-carry.火_金.F",
+   "field": "ELEMENT_PAIR.mechanism.turn+carry",
+   "chart": "ding-weak",
+   "energy": "Metal"
+  },
+  {
+   "id": "D47.definition.火_金.F",
+   "field": "ELEMENT_PAIR.function.definition",
+   "chart": "ding-weak",
+   "energy": "Metal"
+  },
+  {
+   "id": "D48.advise.火_金.F",
+   "field": "ELEMENT_PAIR.function.advise",
+   "chart": "ding-weak",
+   "energy": "Metal"
+  },
+  {
+   "id": "D49.cta.火_金",
+   "field": "ELEMENT_PAIR.cta_verdict",
+   "chart": "ding-weak",
+   "energy": "Metal"
+  },
+  {
+   "id": "D50.carry.火_金.thin",
+   "field": "ELEMENT_PAIR.carry.pole",
+   "chart": "ding-weak",
+   "energy": "Metal",
+   "state": "thin"
+  },
+  {
+   "id": "D51.k2overview.金_偏财",
+   "field": "ELEMENT_GOD.k2_overview",
+   "chart": "ding-weak",
+   "cell": "金_偏财"
+  },
+  {
+   "id": "D52.k2functional.金_偏财",
+   "field": "ELEMENT_GOD.k2_functional",
+   "chart": "ding-weak",
+   "cell": "金_偏财"
+  },
+  {
+   "id": "D53.chips.金_偏财",
+   "field": "ELEMENT_GOD.adj_chips",
+   "chart": "ding-weak",
+   "cell": "金_偏财"
+  },
+  {
+   "id": "D54.domains.金_偏财",
+   "field": "ELEMENT_GOD.k2_domain_readings",
+   "chart": "ding-weak",
+   "cell": "金_偏财"
+  },
+  {
+   "id": "D55.ledger.金_偏财.F0",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "ding-weak",
+   "cell": "金_偏财",
+   "pole": "friction",
+   "row": 0
+  },
+  {
+   "id": "D56.ledger.金_偏财.F1",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "ding-weak",
+   "cell": "金_偏财",
+   "pole": "friction",
+   "row": 1
+  },
+  {
+   "id": "D57.ledger.金_偏财.F2",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "ding-weak",
+   "cell": "金_偏财",
+   "pole": "friction",
+   "row": 2
+  },
+  {
+   "id": "D58.base.火_土",
+   "field": "ELEMENT_PAIR.mechanism.base",
+   "chart": "ding-weak",
+   "energy": "Earth"
+  },
+  {
+   "id": "D59.turn-carry.火_土.F",
+   "field": "ELEMENT_PAIR.mechanism.turn+carry",
+   "chart": "ding-weak",
+   "energy": "Earth"
+  },
+  {
+   "id": "D60.definition.火_土.F",
+   "field": "ELEMENT_PAIR.function.definition",
+   "chart": "ding-weak",
+   "energy": "Earth"
+  },
+  {
+   "id": "D61.advise.火_土.F",
+   "field": "ELEMENT_PAIR.function.advise",
+   "chart": "ding-weak",
+   "energy": "Earth"
+  },
+  {
+   "id": "D62.cta.火_土",
+   "field": "ELEMENT_PAIR.cta_verdict",
+   "chart": "ding-weak",
+   "energy": "Earth"
+  },
+  {
+   "id": "D63.carry.火_土.thin",
+   "field": "ELEMENT_PAIR.carry.pole",
+   "chart": "ding-weak",
+   "energy": "Earth",
+   "state": "thin"
+  },
+  {
+   "id": "D64.k2overview.土_食神",
+   "field": "ELEMENT_GOD.k2_overview",
+   "chart": "ding-weak",
+   "cell": "土_食神"
+  },
+  {
+   "id": "D65.k2functional.土_食神",
+   "field": "ELEMENT_GOD.k2_functional",
+   "chart": "ding-weak",
+   "cell": "土_食神"
+  },
+  {
+   "id": "D66.chips.土_食神",
+   "field": "ELEMENT_GOD.adj_chips",
+   "chart": "ding-weak",
+   "cell": "土_食神"
+  },
+  {
+   "id": "D67.domains.土_食神",
+   "field": "ELEMENT_GOD.k2_domain_readings",
+   "chart": "ding-weak",
+   "cell": "土_食神"
+  },
+  {
+   "id": "D68.ledger.土_食神.F0",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "ding-weak",
+   "cell": "土_食神",
+   "pole": "friction",
+   "row": 0
+  },
+  {
+   "id": "D69.ledger.土_食神.F1",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "ding-weak",
+   "cell": "土_食神",
+   "pole": "friction",
+   "row": 1
+  },
+  {
+   "id": "D70.ledger.土_食神.F2",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "ding-weak",
+   "cell": "土_食神",
+   "pole": "friction",
+   "row": 2
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "G105.health.bijian_month_stem",
+ "field": "POSITION.health_line",
+ "cards": [
+  "POSITION.health_line"
+ ],
+ "exemplarWithheld": [],
+ "ctx": {
+  "field": "POSITION.health_line",
+  "axis": "POSITION",
+  "band": "concentrated",
+  "chart": {
+   "id": "golden",
+   "label": "golden 庚 The Blade, 1995-04-29 18:00 Beijing (Overfueled; Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5)",
+   "stem": "庚",
+   "band": "concentrated",
+   "bandTerm": "Overfueled",
+   "synthetic": false
+  },
+  "stem": "庚",
+  "yin": false,
+  "cell": "bijian_month_stem"
+ },
+ "original": {
+  "health_line": "Your body works like you do, alone and hard: it excels under self-set training and breaks quietly rather than complain. Schedule the checkups it will never request."
+ },
+ "repFields": {
+  "defline": "The Twin stands at your Month Gate: the working world sees a colleague who carries their own weight, visibly.",
+  "teaser": "You do your best work as nobody’s junior. Midlife rewards your independence, though shared money with friends will need clearer lines than friendship likes.",
+  "reading": "This position rules Career and Social, and it runs the prime of your life. The Twin stands at your Month Gate in full view: the working world meets you as the equal, the colleague who owns whole tasks and quietly declines to be managed. From your twenties into your forties, rank comes to you through competence witnessed, and partnership taxes your speed. You feel both. Among peers and siblings the same law repeats: bonds hold best side by side, never one above the other. So keep money clean with friends, written down and unromantic. Choose the two or three long roads worth sharing the wheel for. The short ones were always yours.",
+  "life_chapter": "Your rising chapter is the proving decades: from your late teens through your thirties, life keeps handing you solo assignments, and each one carried alone becomes reputation. The era rewards independence and punishes waiting for rescue. Build the name early. It compounds.",
+  "relations": "Siblings and peers are this seat’s people: brothers in fact or in function, colleagues who become chosen family. They mirror you, sharpen you, and occasionally bill you. Keep the bonds level and the loans documented, and these are lifelong allies.",
+  "turn_catalyst": "Run thin, the seat wants spine practice: take one task wholly yours this season and decline the co-pilot.",
+  "turn_friction": "Run heavy, self-reliance walls you in at work: delegation feels like defeat. Hand one wheel over on purpose.",
+  "shadow_line": "Overloaded, the equal becomes the rival everywhere: every meeting a quiet arm-wrestle.",
+  "domain_readings.Career": "Your working life is a solo instrument played in public: you rise on competence witnessed, own tasks whole, and stall wherever credit blurs. Choose roles with clean scoreboards. Promotion for you follows visibility of workmanship, so work where the work can be seen, and signed.",
+  "domain_readings.Social": "Your circle runs level: peers, never patrons, and friendship as a pact between equals. People trust you fast and lean on you rarely, because you signal so little need. Let two or three actually in. The Twin’s crowd is small on purpose, and it holds when chosen well."
+ },
+ "repBlock": false,
+ "swapGram": null,
+ "zone": false,
+ "zoneBlock": false,
+ "shape": "{\"health_line\": \"...\"}",
+ "promptWords": 4166,
+ "rea17Version": "0.4",
+ "assembledAt": "2026-09-21T23:12:04.910Z"
+}

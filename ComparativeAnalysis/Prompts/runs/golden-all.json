@@ -1,0 +1,842 @@
+{
+ "name": "golden-all",
+ "note": "Every generation target the golden chart reaches (golden 庚 The Blade, 1995-04-29 18:00 Beijing (Overfueled; Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5)), read off the engine by chart.mjs on 2026-09-21. Same cells, same valence and volume for every model.",
+ "rows": [
+  {
+   "id": "G01.manifesto.geng",
+   "field": "STEM.manifesto",
+   "chart": "golden",
+   "cell": "庚"
+  },
+  {
+   "id": "G02.inscription.geng",
+   "field": "STEM.inscription",
+   "chart": "golden",
+   "cell": "庚"
+  },
+  {
+   "id": "G03.overview.geng",
+   "field": "STEM.dm_overview",
+   "chart": "golden",
+   "cell": "庚"
+  },
+  {
+   "id": "G04.nature.geng",
+   "field": "STEM.yourNature_desc",
+   "chart": "golden",
+   "cell": "庚"
+  },
+  {
+   "id": "G05.pools.geng",
+   "field": "STEM.gifts+shadows",
+   "chart": "golden",
+   "cell": "庚"
+  },
+  {
+   "id": "G06.band.geng-concentrated",
+   "field": "STEM_BAND.yourNature_desc+self_card",
+   "chart": "golden",
+   "cell": "庚"
+  },
+  {
+   "id": "G07.base.金_土",
+   "field": "ELEMENT_PAIR.mechanism.base",
+   "chart": "golden",
+   "energy": "Earth"
+  },
+  {
+   "id": "G08.turn-carry.金_土.F",
+   "field": "ELEMENT_PAIR.mechanism.turn+carry",
+   "chart": "golden",
+   "energy": "Earth"
+  },
+  {
+   "id": "G09.definition.金_土.F",
+   "field": "ELEMENT_PAIR.function.definition",
+   "chart": "golden",
+   "energy": "Earth"
+  },
+  {
+   "id": "G10.advise.金_土.F",
+   "field": "ELEMENT_PAIR.function.advise",
+   "chart": "golden",
+   "energy": "Earth"
+  },
+  {
+   "id": "G11.cta.金_土",
+   "field": "ELEMENT_PAIR.cta_verdict",
+   "chart": "golden",
+   "energy": "Earth"
+  },
+  {
+   "id": "G12.k2overview.土_偏印",
+   "field": "ELEMENT_GOD.k2_overview",
+   "chart": "golden",
+   "cell": "土_偏印"
+  },
+  {
+   "id": "G13.k2functional.土_偏印",
+   "field": "ELEMENT_GOD.k2_functional",
+   "chart": "golden",
+   "cell": "土_偏印"
+  },
+  {
+   "id": "G14.chips.土_偏印",
+   "field": "ELEMENT_GOD.adj_chips",
+   "chart": "golden",
+   "cell": "土_偏印"
+  },
+  {
+   "id": "G15.domains.土_偏印",
+   "field": "ELEMENT_GOD.k2_domain_readings",
+   "chart": "golden",
+   "cell": "土_偏印"
+  },
+  {
+   "id": "G16.ledger.土_偏印.F0",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "golden",
+   "cell": "土_偏印",
+   "pole": "friction",
+   "row": 0
+  },
+  {
+   "id": "G17.ledger.土_偏印.F1",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "golden",
+   "cell": "土_偏印",
+   "pole": "friction",
+   "row": 1
+  },
+  {
+   "id": "G18.ledger.土_偏印.F2",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "golden",
+   "cell": "土_偏印",
+   "pole": "friction",
+   "row": 2
+  },
+  {
+   "id": "G19.base.金_木",
+   "field": "ELEMENT_PAIR.mechanism.base",
+   "chart": "golden",
+   "energy": "Wood"
+  },
+  {
+   "id": "G20.turn-carry.金_木.C",
+   "field": "ELEMENT_PAIR.mechanism.turn+carry",
+   "chart": "golden",
+   "energy": "Wood"
+  },
+  {
+   "id": "G21.definition.金_木.C",
+   "field": "ELEMENT_PAIR.function.definition",
+   "chart": "golden",
+   "energy": "Wood"
+  },
+  {
+   "id": "G22.advise.金_木.C",
+   "field": "ELEMENT_PAIR.function.advise",
+   "chart": "golden",
+   "energy": "Wood"
+  },
+  {
+   "id": "G23.cta.金_木",
+   "field": "ELEMENT_PAIR.cta_verdict",
+   "chart": "golden",
+   "energy": "Wood"
+  },
+  {
+   "id": "G24.carry.金_木.wide",
+   "field": "ELEMENT_PAIR.carry.pole",
+   "chart": "golden",
+   "energy": "Wood",
+   "state": "wide"
+  },
+  {
+   "id": "G25.k2overview.木_正财",
+   "field": "ELEMENT_GOD.k2_overview",
+   "chart": "golden",
+   "cell": "木_正财"
+  },
+  {
+   "id": "G26.k2functional.木_正财",
+   "field": "ELEMENT_GOD.k2_functional",
+   "chart": "golden",
+   "cell": "木_正财"
+  },
+  {
+   "id": "G27.chips.木_正财",
+   "field": "ELEMENT_GOD.adj_chips",
+   "chart": "golden",
+   "cell": "木_正财"
+  },
+  {
+   "id": "G28.domains.木_正财",
+   "field": "ELEMENT_GOD.k2_domain_readings",
+   "chart": "golden",
+   "cell": "木_正财"
+  },
+  {
+   "id": "G29.k2overview.木_偏财",
+   "field": "ELEMENT_GOD.k2_overview",
+   "chart": "golden",
+   "cell": "木_偏财"
+  },
+  {
+   "id": "G30.k2functional.木_偏财",
+   "field": "ELEMENT_GOD.k2_functional",
+   "chart": "golden",
+   "cell": "木_偏财"
+  },
+  {
+   "id": "G31.chips.木_偏财",
+   "field": "ELEMENT_GOD.adj_chips",
+   "chart": "golden",
+   "cell": "木_偏财"
+  },
+  {
+   "id": "G32.domains.木_偏财",
+   "field": "ELEMENT_GOD.k2_domain_readings",
+   "chart": "golden",
+   "cell": "木_偏财"
+  },
+  {
+   "id": "G33.ledger.木_正财.C0",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "golden",
+   "cell": "木_正财",
+   "pole": "catalyst",
+   "row": 0
+  },
+  {
+   "id": "G34.ledger.木_正财.C1",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "golden",
+   "cell": "木_正财",
+   "pole": "catalyst",
+   "row": 1
+  },
+  {
+   "id": "G35.ledger.木_偏财.C0",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "golden",
+   "cell": "木_偏财",
+   "pole": "catalyst",
+   "row": 0
+  },
+  {
+   "id": "G36.base.金_金",
+   "field": "ELEMENT_PAIR.mechanism.base",
+   "chart": "golden",
+   "energy": "Metal"
+  },
+  {
+   "id": "G37.turn-carry.金_金.F",
+   "field": "ELEMENT_PAIR.mechanism.turn+carry",
+   "chart": "golden",
+   "energy": "Metal"
+  },
+  {
+   "id": "G38.definition.金_金.F",
+   "field": "ELEMENT_PAIR.function.definition",
+   "chart": "golden",
+   "energy": "Metal"
+  },
+  {
+   "id": "G39.advise.金_金.F",
+   "field": "ELEMENT_PAIR.function.advise",
+   "chart": "golden",
+   "energy": "Metal"
+  },
+  {
+   "id": "G40.cta.金_金",
+   "field": "ELEMENT_PAIR.cta_verdict",
+   "chart": "golden",
+   "energy": "Metal"
+  },
+  {
+   "id": "G41.k2overview.金_比肩",
+   "field": "ELEMENT_GOD.k2_overview",
+   "chart": "golden",
+   "cell": "金_比肩"
+  },
+  {
+   "id": "G42.k2functional.金_比肩",
+   "field": "ELEMENT_GOD.k2_functional",
+   "chart": "golden",
+   "cell": "金_比肩"
+  },
+  {
+   "id": "G43.chips.金_比肩",
+   "field": "ELEMENT_GOD.adj_chips",
+   "chart": "golden",
+   "cell": "金_比肩"
+  },
+  {
+   "id": "G44.domains.金_比肩",
+   "field": "ELEMENT_GOD.k2_domain_readings",
+   "chart": "golden",
+   "cell": "金_比肩"
+  },
+  {
+   "id": "G45.k2overview.金_劫财",
+   "field": "ELEMENT_GOD.k2_overview",
+   "chart": "golden",
+   "cell": "金_劫财"
+  },
+  {
+   "id": "G46.k2functional.金_劫财",
+   "field": "ELEMENT_GOD.k2_functional",
+   "chart": "golden",
+   "cell": "金_劫财"
+  },
+  {
+   "id": "G47.chips.金_劫财",
+   "field": "ELEMENT_GOD.adj_chips",
+   "chart": "golden",
+   "cell": "金_劫财"
+  },
+  {
+   "id": "G48.domains.金_劫财",
+   "field": "ELEMENT_GOD.k2_domain_readings",
+   "chart": "golden",
+   "cell": "金_劫财"
+  },
+  {
+   "id": "G49.ledger.金_比肩.F0",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "golden",
+   "cell": "金_比肩",
+   "pole": "friction",
+   "row": 0
+  },
+  {
+   "id": "G50.ledger.金_比肩.F1",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "golden",
+   "cell": "金_比肩",
+   "pole": "friction",
+   "row": 1
+  },
+  {
+   "id": "G51.ledger.金_劫财.F0",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "golden",
+   "cell": "金_劫财",
+   "pole": "friction",
+   "row": 0
+  },
+  {
+   "id": "G52.base.金_水",
+   "field": "ELEMENT_PAIR.mechanism.base",
+   "chart": "golden",
+   "energy": "Water"
+  },
+  {
+   "id": "G53.turn-carry.金_水.C",
+   "field": "ELEMENT_PAIR.mechanism.turn+carry",
+   "chart": "golden",
+   "energy": "Water"
+  },
+  {
+   "id": "G54.definition.金_水.C",
+   "field": "ELEMENT_PAIR.function.definition",
+   "chart": "golden",
+   "energy": "Water"
+  },
+  {
+   "id": "G55.advise.金_水.C",
+   "field": "ELEMENT_PAIR.function.advise",
+   "chart": "golden",
+   "energy": "Water"
+  },
+  {
+   "id": "G56.cta.金_水",
+   "field": "ELEMENT_PAIR.cta_verdict",
+   "chart": "golden",
+   "energy": "Water"
+  },
+  {
+   "id": "G57.k2overview.水_食神",
+   "field": "ELEMENT_GOD.k2_overview",
+   "chart": "golden",
+   "cell": "水_食神"
+  },
+  {
+   "id": "G58.k2functional.水_食神",
+   "field": "ELEMENT_GOD.k2_functional",
+   "chart": "golden",
+   "cell": "水_食神"
+  },
+  {
+   "id": "G59.chips.水_食神",
+   "field": "ELEMENT_GOD.adj_chips",
+   "chart": "golden",
+   "cell": "水_食神"
+  },
+  {
+   "id": "G60.domains.水_食神",
+   "field": "ELEMENT_GOD.k2_domain_readings",
+   "chart": "golden",
+   "cell": "水_食神"
+  },
+  {
+   "id": "G61.k2overview.水_伤官",
+   "field": "ELEMENT_GOD.k2_overview",
+   "chart": "golden",
+   "cell": "水_伤官"
+  },
+  {
+   "id": "G62.k2functional.水_伤官",
+   "field": "ELEMENT_GOD.k2_functional",
+   "chart": "golden",
+   "cell": "水_伤官"
+  },
+  {
+   "id": "G63.chips.水_伤官",
+   "field": "ELEMENT_GOD.adj_chips",
+   "chart": "golden",
+   "cell": "水_伤官"
+  },
+  {
+   "id": "G64.domains.水_伤官",
+   "field": "ELEMENT_GOD.k2_domain_readings",
+   "chart": "golden",
+   "cell": "水_伤官"
+  },
+  {
+   "id": "G65.ledger.水_食神.C0",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "golden",
+   "cell": "水_食神",
+   "pole": "catalyst",
+   "row": 0
+  },
+  {
+   "id": "G66.ledger.水_食神.C1",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "golden",
+   "cell": "水_食神",
+   "pole": "catalyst",
+   "row": 1
+  },
+  {
+   "id": "G67.ledger.水_伤官.C0",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "golden",
+   "cell": "水_伤官",
+   "pole": "catalyst",
+   "row": 0
+  },
+  {
+   "id": "G68.base.金_火",
+   "field": "ELEMENT_PAIR.mechanism.base",
+   "chart": "golden",
+   "energy": "Fire"
+  },
+  {
+   "id": "G69.turn-carry.金_火.C",
+   "field": "ELEMENT_PAIR.mechanism.turn+carry",
+   "chart": "golden",
+   "energy": "Fire"
+  },
+  {
+   "id": "G70.definition.金_火.C",
+   "field": "ELEMENT_PAIR.function.definition",
+   "chart": "golden",
+   "energy": "Fire"
+  },
+  {
+   "id": "G71.advise.金_火.C",
+   "field": "ELEMENT_PAIR.function.advise",
+   "chart": "golden",
+   "energy": "Fire"
+  },
+  {
+   "id": "G72.cta.金_火",
+   "field": "ELEMENT_PAIR.cta_verdict",
+   "chart": "golden",
+   "energy": "Fire"
+  },
+  {
+   "id": "G73.k2overview.火_七杀",
+   "field": "ELEMENT_GOD.k2_overview",
+   "chart": "golden",
+   "cell": "火_七杀"
+  },
+  {
+   "id": "G74.k2functional.火_七杀",
+   "field": "ELEMENT_GOD.k2_functional",
+   "chart": "golden",
+   "cell": "火_七杀"
+  },
+  {
+   "id": "G75.chips.火_七杀",
+   "field": "ELEMENT_GOD.adj_chips",
+   "chart": "golden",
+   "cell": "火_七杀"
+  },
+  {
+   "id": "G76.domains.火_七杀",
+   "field": "ELEMENT_GOD.k2_domain_readings",
+   "chart": "golden",
+   "cell": "火_七杀"
+  },
+  {
+   "id": "G77.ledger.火_七杀.C0",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "golden",
+   "cell": "火_七杀",
+   "pole": "catalyst",
+   "row": 0
+  },
+  {
+   "id": "G78.ledger.火_七杀.C1",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "golden",
+   "cell": "火_七杀",
+   "pole": "catalyst",
+   "row": 1
+  },
+  {
+   "id": "G79.ledger.火_七杀.C2",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "golden",
+   "cell": "火_七杀",
+   "pole": "catalyst",
+   "row": 2
+  },
+  {
+   "id": "G80.defline.zhengcai_year_stem",
+   "field": "POSITION.defline",
+   "chart": "golden",
+   "cell": "zhengcai_year_stem"
+  },
+  {
+   "id": "G81.position.zhengcai_year_stem",
+   "field": "POSITION.reading+teaser+domain_readings",
+   "chart": "golden",
+   "cell": "zhengcai_year_stem"
+  },
+  {
+   "id": "G82.chapter.zhengcai_year_stem",
+   "field": "POSITION.life_chapter",
+   "chart": "golden",
+   "cell": "zhengcai_year_stem"
+  },
+  {
+   "id": "G83.relations.zhengcai_year_stem",
+   "field": "POSITION.relations",
+   "chart": "golden",
+   "cell": "zhengcai_year_stem"
+  },
+  {
+   "id": "G84.turn.zhengcai_year_stem.C",
+   "field": "POSITION.turn",
+   "chart": "golden",
+   "cell": "zhengcai_year_stem",
+   "pole": "catalyst"
+  },
+  {
+   "id": "G85.shadow.zhengcai_year_stem",
+   "field": "POSITION.shadow_line",
+   "chart": "golden",
+   "cell": "zhengcai_year_stem"
+  },
+  {
+   "id": "G86.health.zhengcai_year_stem",
+   "field": "POSITION.health_line",
+   "chart": "golden",
+   "cell": "zhengcai_year_stem"
+  },
+  {
+   "id": "G87.tg-line.bi_jie_duo_cai",
+   "field": "TG_PATTERN.line",
+   "chart": "golden",
+   "cell": "bi_jie_duo_cai"
+  },
+  {
+   "id": "G88.tg-reading.bi_jie_duo_cai",
+   "field": "TG_PATTERN.reading",
+   "chart": "golden",
+   "cell": "bi_jie_duo_cai"
+  },
+  {
+   "id": "G89.tg-fused.bi_jie_duo_cai",
+   "field": "TG_PATTERN.fused_line",
+   "chart": "golden",
+   "cell": "bi_jie_duo_cai"
+  },
+  {
+   "id": "G90.defline.shishen_year_branch",
+   "field": "POSITION.defline",
+   "chart": "golden",
+   "cell": "shishen_year_branch"
+  },
+  {
+   "id": "G91.position.shishen_year_branch",
+   "field": "POSITION.reading+teaser+domain_readings",
+   "chart": "golden",
+   "cell": "shishen_year_branch"
+  },
+  {
+   "id": "G92.chapter.shishen_year_branch",
+   "field": "POSITION.life_chapter",
+   "chart": "golden",
+   "cell": "shishen_year_branch"
+  },
+  {
+   "id": "G93.relations.shishen_year_branch",
+   "field": "POSITION.relations",
+   "chart": "golden",
+   "cell": "shishen_year_branch"
+  },
+  {
+   "id": "G94.turn.shishen_year_branch.C",
+   "field": "POSITION.turn",
+   "chart": "golden",
+   "cell": "shishen_year_branch",
+   "pole": "catalyst"
+  },
+  {
+   "id": "G95.shadow.shishen_year_branch",
+   "field": "POSITION.shadow_line",
+   "chart": "golden",
+   "cell": "shishen_year_branch"
+  },
+  {
+   "id": "G96.health.shishen_year_branch",
+   "field": "POSITION.health_line",
+   "chart": "golden",
+   "cell": "shishen_year_branch"
+  },
+  {
+   "id": "G97.tg-line.xiao_shen_duo_shi",
+   "field": "TG_PATTERN.line",
+   "chart": "golden",
+   "cell": "xiao_shen_duo_shi"
+  },
+  {
+   "id": "G98.tg-reading.xiao_shen_duo_shi",
+   "field": "TG_PATTERN.reading",
+   "chart": "golden",
+   "cell": "xiao_shen_duo_shi"
+  },
+  {
+   "id": "G99.defline.bijian_month_stem",
+   "field": "POSITION.defline",
+   "chart": "golden",
+   "cell": "bijian_month_stem"
+  },
+  {
+   "id": "G100.position.bijian_month_stem",
+   "field": "POSITION.reading+teaser+domain_readings",
+   "chart": "golden",
+   "cell": "bijian_month_stem"
+  },
+  {
+   "id": "G101.chapter.bijian_month_stem",
+   "field": "POSITION.life_chapter",
+   "chart": "golden",
+   "cell": "bijian_month_stem"
+  },
+  {
+   "id": "G102.relations.bijian_month_stem",
+   "field": "POSITION.relations",
+   "chart": "golden",
+   "cell": "bijian_month_stem"
+  },
+  {
+   "id": "G103.turn.bijian_month_stem.F",
+   "field": "POSITION.turn",
+   "chart": "golden",
+   "cell": "bijian_month_stem",
+   "pole": "friction"
+  },
+  {
+   "id": "G104.shadow.bijian_month_stem",
+   "field": "POSITION.shadow_line",
+   "chart": "golden",
+   "cell": "bijian_month_stem"
+  },
+  {
+   "id": "G105.health.bijian_month_stem",
+   "field": "POSITION.health_line",
+   "chart": "golden",
+   "cell": "bijian_month_stem"
+  },
+  {
+   "id": "G106.defline.pianyin_month_branch",
+   "field": "POSITION.defline",
+   "chart": "golden",
+   "cell": "pianyin_month_branch"
+  },
+  {
+   "id": "G107.position.pianyin_month_branch",
+   "field": "POSITION.reading+teaser+domain_readings",
+   "chart": "golden",
+   "cell": "pianyin_month_branch"
+  },
+  {
+   "id": "G108.chapter.pianyin_month_branch",
+   "field": "POSITION.life_chapter",
+   "chart": "golden",
+   "cell": "pianyin_month_branch"
+  },
+  {
+   "id": "G109.relations.pianyin_month_branch",
+   "field": "POSITION.relations",
+   "chart": "golden",
+   "cell": "pianyin_month_branch"
+  },
+  {
+   "id": "G110.turn.pianyin_month_branch.F",
+   "field": "POSITION.turn",
+   "chart": "golden",
+   "cell": "pianyin_month_branch",
+   "pole": "friction"
+  },
+  {
+   "id": "G111.shadow.pianyin_month_branch",
+   "field": "POSITION.shadow_line",
+   "chart": "golden",
+   "cell": "pianyin_month_branch"
+  },
+  {
+   "id": "G112.health.pianyin_month_branch",
+   "field": "POSITION.health_line",
+   "chart": "golden",
+   "cell": "pianyin_month_branch"
+  },
+  {
+   "id": "G113.defline.piancai_day_branch",
+   "field": "POSITION.defline",
+   "chart": "golden",
+   "cell": "piancai_day_branch"
+  },
+  {
+   "id": "G114.position.piancai_day_branch",
+   "field": "POSITION.reading+teaser+domain_readings",
+   "chart": "golden",
+   "cell": "piancai_day_branch"
+  },
+  {
+   "id": "G115.chapter.piancai_day_branch",
+   "field": "POSITION.life_chapter",
+   "chart": "golden",
+   "cell": "piancai_day_branch"
+  },
+  {
+   "id": "G116.relations.piancai_day_branch",
+   "field": "POSITION.relations",
+   "chart": "golden",
+   "cell": "piancai_day_branch"
+  },
+  {
+   "id": "G117.turn.piancai_day_branch.C",
+   "field": "POSITION.turn",
+   "chart": "golden",
+   "cell": "piancai_day_branch",
+   "pole": "catalyst"
+  },
+  {
+   "id": "G118.shadow.piancai_day_branch",
+   "field": "POSITION.shadow_line",
+   "chart": "golden",
+   "cell": "piancai_day_branch"
+  },
+  {
+   "id": "G119.health.piancai_day_branch",
+   "field": "POSITION.health_line",
+   "chart": "golden",
+   "cell": "piancai_day_branch"
+  },
+  {
+   "id": "G120.defline.zhengcai_hour_stem",
+   "field": "POSITION.defline",
+   "chart": "golden",
+   "cell": "zhengcai_hour_stem"
+  },
+  {
+   "id": "G121.position.zhengcai_hour_stem",
+   "field": "POSITION.reading+teaser+domain_readings",
+   "chart": "golden",
+   "cell": "zhengcai_hour_stem"
+  },
+  {
+   "id": "G122.chapter.zhengcai_hour_stem",
+   "field": "POSITION.life_chapter",
+   "chart": "golden",
+   "cell": "zhengcai_hour_stem"
+  },
+  {
+   "id": "G123.relations.zhengcai_hour_stem",
+   "field": "POSITION.relations",
+   "chart": "golden",
+   "cell": "zhengcai_hour_stem"
+  },
+  {
+   "id": "G124.turn.zhengcai_hour_stem.C",
+   "field": "POSITION.turn",
+   "chart": "golden",
+   "cell": "zhengcai_hour_stem",
+   "pole": "catalyst"
+  },
+  {
+   "id": "G125.shadow.zhengcai_hour_stem",
+   "field": "POSITION.shadow_line",
+   "chart": "golden",
+   "cell": "zhengcai_hour_stem"
+  },
+  {
+   "id": "G126.health.zhengcai_hour_stem",
+   "field": "POSITION.health_line",
+   "chart": "golden",
+   "cell": "zhengcai_hour_stem"
+  },
+  {
+   "id": "G127.defline.jiecai_hour_branch",
+   "field": "POSITION.defline",
+   "chart": "golden",
+   "cell": "jiecai_hour_branch"
+  },
+  {
+   "id": "G128.position.jiecai_hour_branch",
+   "field": "POSITION.reading+teaser+domain_readings",
+   "chart": "golden",
+   "cell": "jiecai_hour_branch"
+  },
+  {
+   "id": "G129.chapter.jiecai_hour_branch",
+   "field": "POSITION.life_chapter",
+   "chart": "golden",
+   "cell": "jiecai_hour_branch"
+  },
+  {
+   "id": "G130.relations.jiecai_hour_branch",
+   "field": "POSITION.relations",
+   "chart": "golden",
+   "cell": "jiecai_hour_branch"
+  },
+  {
+   "id": "G131.turn.jiecai_hour_branch.F",
+   "field": "POSITION.turn",
+   "chart": "golden",
+   "cell": "jiecai_hour_branch",
+   "pole": "friction"
+  },
+  {
+   "id": "G132.shadow.jiecai_hour_branch",
+   "field": "POSITION.shadow_line",
+   "chart": "golden",
+   "cell": "jiecai_hour_branch"
+  },
+  {
+   "id": "G133.health.jiecai_hour_branch",
+   "field": "POSITION.health_line",
+   "chart": "golden",
+   "cell": "jiecai_hour_branch"
+  }
+ ]
+}

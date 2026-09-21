@@ -1,0 +1,48 @@
+{
+ "id": "G106.defline.pianyin_month_branch",
+ "field": "POSITION.defline",
+ "cards": [
+  "POSITION.defline"
+ ],
+ "exemplarWithheld": [],
+ "ctx": {
+  "field": "POSITION.defline",
+  "axis": "POSITION",
+  "band": "concentrated",
+  "chart": {
+   "id": "golden",
+   "label": "golden 庚 The Blade, 1995-04-29 18:00 Beijing (Overfueled; Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5)",
+   "stem": "庚",
+   "band": "concentrated",
+   "bandTerm": "Overfueled",
+   "synthetic": false
+  },
+  "stem": "庚",
+  "yin": false,
+  "cell": "pianyin_month_branch"
+ },
+ "original": {
+  "defline": "The Alchemist holds your chart’s strongest seat, the month branch, and does its thinking from the middle of your working life."
+ },
+ "repFields": {
+  "teaser": "Your mind works in private, on things most people find strange, and that is exactly where your career luck lives. The niche will pay what the mainstream never will.",
+  "reading": "This position rules Mind, Growth, and Career, and it rules them from the deepest seat your chart has. The Alchemist lives inside your Month Gate, hidden in the engine of your prime: your working life runs on private study, sideways insight, and an appetite for what most people overlook. Colleagues see the results and rarely the method. Through your prime years the pattern holds: the specialist path outpays the general one, and your best openings arrive through knowledge nobody asked you to gather. Mentors matter, though the unconventional ones serve you best. Guard time alone the way others guard salary. For you it is the same thing, and midlife will prove it.",
+  "life_chapter": "Your rising chapter runs underground: the years from adolescence through your thirties look quiet from outside while the real construction happens within. Late blooming is the design, and the strange knowledge gathered in this era becomes the authority of the next.",
+  "relations": "An unconventional teacher or guardian marks this seat’s people: care that arrived as instruction, or a mentor found off the official path. Expect your important guides to be odd ones. Trust the strange teachers. They were sent for you, and eventually you become one.",
+  "turn_catalyst": "Run thin, the seat asks for study: claim one hour of deep reading daily and guard it like income.",
+  "turn_friction": "Run heavy, thought eats action here: research becomes the errand that never ends. Ship one thing before the next book.",
+  "shadow_line": "Overloaded, insight sours into suspicion: reading motives where there is only weather.",
+  "health_line": "Thinking seasons tax the body here: appetite and sleep thin when the mind runs long. Anchor both with routine, and step outside between chapters.",
+  "domain_readings.Mind": "Your mind is a private laboratory: it absorbs sideways, incubates in silence, and produces conclusions that look sudden to everyone who missed the years underneath. Trust the incubation. Your thinking cannot be rushed, only fed, and it repays every strange book and quiet hour with interest.",
+  "domain_readings.Growth": "You grow in leaps disguised as stillness: long plateaus of gathering, then a step-change nobody saw building. Do not measure yourself against steady climbers. Your curve is a staircase, and the landings are where the real work happens. Keep faith on the flat stretches.",
+  "domain_readings.Career": "Professionally you are the specialist, the one called when the usual answers fail. The niche will pay what the mainstream never will, and your reputation compounds through solved unsolvables. Name your specialty publicly and let the strange work find you. It is already looking."
+ },
+ "repBlock": false,
+ "swapGram": null,
+ "zone": false,
+ "zoneBlock": false,
+ "shape": "{\"defline\": \"...\"}",
+ "promptWords": 4236,
+ "rea17Version": "0.4",
+ "assembledAt": "2026-09-21T23:12:04.911Z"
+}

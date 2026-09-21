@@ -1,0 +1,41 @@
+{
+ "id": "G97.tg-line.xiao_shen_duo_shi",
+ "field": "TG_PATTERN.line",
+ "cards": [
+  "TG_PATTERN.line"
+ ],
+ "exemplarWithheld": [
+  "line"
+ ],
+ "ctx": {
+  "field": "TG_PATTERN.line",
+  "axis": "TG_PATTERN",
+  "band": "concentrated",
+  "chart": {
+   "id": "golden",
+   "label": "golden 庚 The Blade, 1995-04-29 18:00 Beijing (Overfueled; Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5)",
+   "stem": "庚",
+   "band": "concentrated",
+   "bandTerm": "Overfueled",
+   "synthetic": false
+  },
+  "stem": "庚",
+  "yin": false,
+  "cell": "xiao_shen_duo_shi"
+ },
+ "original": {
+  "line": "The Alchemist and the Artisan share your chart, and they compete: too much theory starves your ease. When output stalls, the cure is one finished thing made with your hands, and fewer perfect plans."
+ },
+ "repFields": {
+  "reading": "One catch runs underneath: your own analysis can starve your output. Projects polish in private until the moment passes, and the drawer of nearly finished things grows. The cure is structural, deadlines you did not set, collaborators who ship, one craft done with the hands. In heavy thinking seasons, watch sleep and appetite first.",
+  "fused_line": "In you they share a single pillar, so the tug is constant: guard your finishing rituals fiercely."
+ },
+ "repBlock": false,
+ "swapGram": null,
+ "zone": false,
+ "zoneBlock": false,
+ "shape": "{\"line\": \"...\"}",
+ "promptWords": 3740,
+ "rea17Version": "0.4",
+ "assembledAt": "2026-09-21T23:12:04.899Z"
+}

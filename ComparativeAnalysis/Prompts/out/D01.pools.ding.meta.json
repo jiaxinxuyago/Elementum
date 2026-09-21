@@ -1,0 +1,156 @@
+{
+ "id": "D01.pools.ding",
+ "field": "STEM.gifts+shadows",
+ "cards": [
+  "STEM.gifts"
+ ],
+ "exemplarWithheld": [],
+ "ctx": {
+  "field": "STEM.gifts+shadows",
+  "axis": "STEM",
+  "band": "open",
+  "chart": {
+   "id": "ding-weak",
+   "label": "contrast 丁 The Candle, weak, one Order door (fixture: Wood 30 / Fire 15 / Earth 5 / Metal 10 / Water 40)",
+   "stem": "丁",
+   "band": "open",
+   "bandTerm": "Underfueled",
+   "synthetic": true
+  },
+  "stem": "丁",
+  "yin": true,
+  "cell": "ding"
+ },
+ "original": {
+  "gifts": [
+   {
+    "phrase": "Fully committed",
+    "dim": "the inner circle",
+    "door": "body",
+    "face": "echo",
+    "echo_of": "火_火.function.definition_catalyst",
+    "desc": "What you choose gets all the energy you have, in bursts, at close range. The people inside your circle never wonder where they stand."
+   },
+   {
+    "phrase": "Deeply present",
+    "dim": "attention",
+    "door": "body",
+    "face": "wide",
+    "echo_of": "火_火.function.definition_catalyst",
+    "desc": "Plenty of light and all of it pointed at one person. Phones stay dark, time goes quiet, and they leave feeling seen in a way that is hard to find."
+   },
+   {
+    "phrase": "Studies one thing",
+    "dim": "depth",
+    "door": "mind",
+    "face": "echo",
+    "echo_of": "火_木.function.definition_catalyst",
+    "desc": "One subject, years deep, stacked quietly like fuel. You know it the way people know a face, and it burns later as brilliance."
+   },
+   {
+    "phrase": "Spots the detail",
+    "dim": "small details",
+    "door": "mind",
+    "face": "wide",
+    "echo_of": "火_木.carry.wide",
+    "desc": "With this much fuel behind the flame, the small tell, the changed tone, the detail everyone walked past all catch your eye. You usually know why before anyone explains."
+   },
+   {
+    "phrase": "Rekindles people",
+    "dim": "close range",
+    "door": "expression",
+    "face": "echo",
+    "echo_of": "火_土.function.definition_catalyst",
+    "desc": "Your belief in someone works at close range and lasts. What you give a friend over one evening, a push, a plan, a way to see it, is still holding them up a year later."
+   },
+   {
+    "phrase": "Cracks hard problems",
+    "dim": "the work you pick",
+    "door": "action",
+    "face": "echo",
+    "echo_of": "火_金.function.definition_catalyst",
+    "desc": "Easy work wastes you. Give you one difficult, valuable thing within arm's reach and the heat finally has something to work on."
+   },
+   {
+    "phrase": "Listens to doubt",
+    "dim": "before the leap",
+    "door": "order",
+    "face": "echo",
+    "echo_of": "火_水.function.definition_catalyst",
+    "desc": "One calm person whose questions slow you down before the leap. Your best decisions all survived a night of doubt."
+   }
+  ],
+  "shadows": [
+   {
+    "phrase": "Can't cool down",
+    "dim": "rest",
+    "door": "body",
+    "face": "echo",
+    "echo_of": "火_火.function.definition_friction",
+    "desc": "More heat than your days can spend. The evening will not end, and the intensity leaks into every conversation until rest feels like punishment."
+   },
+   {
+    "phrase": "Tunnel vision",
+    "dim": "the edge of attention",
+    "door": "body",
+    "face": "excess",
+    "echo_of": "火_火.carry.excess",
+    "desc": "Whoever holds your focus gets daylight and everyone else gets dusk. So much light on one spot that nothing else is visible, and some people mind."
+   },
+   {
+    "phrase": "Never ready enough",
+    "dim": "preparation",
+    "door": "mind",
+    "face": "echo",
+    "echo_of": "火_木.function.definition_friction",
+    "desc": "One more course, one more plan, and the small flame moves to whatever caught last. Ready keeps moving because you do."
+   },
+   {
+    "phrase": "Burns out fast",
+    "dim": "too many plans",
+    "door": "mind",
+    "face": "excess",
+    "echo_of": "火_木.carry.excess",
+    "desc": "So much fuel around one small flame that it flares in every direction instead of lasting. Bright for an evening, cold by breakfast, and the plan that mattered went up with the rest."
+   },
+   {
+    "phrase": "Overplans the fun",
+    "dim": "moments",
+    "door": "expression",
+    "face": "echo",
+    "echo_of": "火_土.function.definition_friction",
+    "desc": "The evening that should have been an evening becomes a tradition, a plan, a commitment. Output hardens faster than it can live."
+   },
+   {
+    "phrase": "Never calls it done",
+    "dim": "finishing",
+    "door": "action",
+    "face": "echo",
+    "echo_of": "火_金.function.definition_friction",
+    "desc": "Signed, shipped, agreed, and you are back at it with a smaller brush. Done is a decision you keep reopening."
+   },
+   {
+    "phrase": "Takes it personally",
+    "dim": "criticism",
+    "door": "order",
+    "face": "echo",
+    "echo_of": "火_水.function.definition_friction",
+    "desc": "A criticism of the work lands as a criticism of your soul. The checking costs more than the mistake would, and the hardest judge of the flame is you."
+   }
+  ]
+ },
+ "repFields": {
+  "dm_overview": "The Candle is Yin Fire, the fire that agreed to be small. It keeps the hours after dark, when the great light has gone home and warmth becomes a personal matter. Lamp light, hearth light, the flame a hand can shelter. In a night window it holds one table, one page, one face, while the dark politely keeps its distance.",
+  "yourNature_desc": "You give whatever you turn toward all of you, and people who've felt that never quite forget it. It's the closest thing to being truly seen most of them get. One flame, one circle, and a lot of patient darkness just outside it.",
+  "manifesto": "Intimacy over range · You are the Fire that burns closest, not widest.",
+  "inscription": "What you turn toward gets all of you, and everything else waits in the dark."
+ },
+ "repBlock": false,
+ "swapGram": null,
+ "zone": false,
+ "zoneBlock": false,
+ "shape": "{\"gifts\":[{\"phrase\",\"dim\",\"door\",\"face\",\"echo_of\",\"desc\"} ×7],\"shadows\":[… ×7]}",
+ "promptWords": 5085,
+ "rea17Version": "0.4",
+ "assembledAt": "2026-09-21T23:12:05.057Z"
+}

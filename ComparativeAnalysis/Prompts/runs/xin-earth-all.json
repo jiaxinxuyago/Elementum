@@ -1,0 +1,439 @@
+{
+ "name": "xin-earth-all",
+ "note": "Every generation target the xin-earth chart reaches (contrast 辛 The Jewel, Overfueled, heavy Earth (fixture: Metal 20 / Earth 45 / Wood 15 / Fire 10 / Water 10)), read off the engine by chart.mjs on 2026-09-21. Same cells, same valence and volume for every model.",
+ "rows": [
+  {
+   "id": "X01.manifesto.xin",
+   "field": "STEM.manifesto",
+   "chart": "xin-earth",
+   "cell": "辛"
+  },
+  {
+   "id": "X02.inscription.xin",
+   "field": "STEM.inscription",
+   "chart": "xin-earth",
+   "cell": "辛"
+  },
+  {
+   "id": "X03.overview.xin",
+   "field": "STEM.dm_overview",
+   "chart": "xin-earth",
+   "cell": "辛"
+  },
+  {
+   "id": "X04.nature.xin",
+   "field": "STEM.yourNature_desc",
+   "chart": "xin-earth",
+   "cell": "辛"
+  },
+  {
+   "id": "X05.pools.xin",
+   "field": "STEM.gifts+shadows",
+   "chart": "xin-earth",
+   "cell": "辛"
+  },
+  {
+   "id": "X06.band.xin-concentrated",
+   "field": "STEM_BAND.yourNature_desc+self_card",
+   "chart": "xin-earth",
+   "cell": "辛"
+  },
+  {
+   "id": "X07.base.金_土",
+   "field": "ELEMENT_PAIR.mechanism.base",
+   "chart": "xin-earth",
+   "energy": "Earth"
+  },
+  {
+   "id": "X08.turn-carry.金_土.F",
+   "field": "ELEMENT_PAIR.mechanism.turn+carry",
+   "chart": "xin-earth",
+   "energy": "Earth"
+  },
+  {
+   "id": "X09.definition.金_土.F",
+   "field": "ELEMENT_PAIR.function.definition",
+   "chart": "xin-earth",
+   "energy": "Earth"
+  },
+  {
+   "id": "X10.advise.金_土.F",
+   "field": "ELEMENT_PAIR.function.advise",
+   "chart": "xin-earth",
+   "energy": "Earth"
+  },
+  {
+   "id": "X11.cta.金_土",
+   "field": "ELEMENT_PAIR.cta_verdict",
+   "chart": "xin-earth",
+   "energy": "Earth"
+  },
+  {
+   "id": "X12.carry.金_土.excess",
+   "field": "ELEMENT_PAIR.carry.pole",
+   "chart": "xin-earth",
+   "energy": "Earth",
+   "state": "excess"
+  },
+  {
+   "id": "X13.k2overview.土_偏印",
+   "field": "ELEMENT_GOD.k2_overview",
+   "chart": "xin-earth",
+   "cell": "土_偏印"
+  },
+  {
+   "id": "X14.k2functional.土_偏印",
+   "field": "ELEMENT_GOD.k2_functional",
+   "chart": "xin-earth",
+   "cell": "土_偏印"
+  },
+  {
+   "id": "X15.chips.土_偏印",
+   "field": "ELEMENT_GOD.adj_chips",
+   "chart": "xin-earth",
+   "cell": "土_偏印"
+  },
+  {
+   "id": "X16.domains.土_偏印",
+   "field": "ELEMENT_GOD.k2_domain_readings",
+   "chart": "xin-earth",
+   "cell": "土_偏印"
+  },
+  {
+   "id": "X17.ledger.土_偏印.F0",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "xin-earth",
+   "cell": "土_偏印",
+   "pole": "friction",
+   "row": 0
+  },
+  {
+   "id": "X18.ledger.土_偏印.F1",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "xin-earth",
+   "cell": "土_偏印",
+   "pole": "friction",
+   "row": 1
+  },
+  {
+   "id": "X19.ledger.土_偏印.F2",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "xin-earth",
+   "cell": "土_偏印",
+   "pole": "friction",
+   "row": 2
+  },
+  {
+   "id": "X20.base.金_金",
+   "field": "ELEMENT_PAIR.mechanism.base",
+   "chart": "xin-earth",
+   "energy": "Metal"
+  },
+  {
+   "id": "X21.turn-carry.金_金.F",
+   "field": "ELEMENT_PAIR.mechanism.turn+carry",
+   "chart": "xin-earth",
+   "energy": "Metal"
+  },
+  {
+   "id": "X22.definition.金_金.F",
+   "field": "ELEMENT_PAIR.function.definition",
+   "chart": "xin-earth",
+   "energy": "Metal"
+  },
+  {
+   "id": "X23.advise.金_金.F",
+   "field": "ELEMENT_PAIR.function.advise",
+   "chart": "xin-earth",
+   "energy": "Metal"
+  },
+  {
+   "id": "X24.cta.金_金",
+   "field": "ELEMENT_PAIR.cta_verdict",
+   "chart": "xin-earth",
+   "energy": "Metal"
+  },
+  {
+   "id": "X25.k2overview.金_比肩",
+   "field": "ELEMENT_GOD.k2_overview",
+   "chart": "xin-earth",
+   "cell": "金_比肩"
+  },
+  {
+   "id": "X26.k2functional.金_比肩",
+   "field": "ELEMENT_GOD.k2_functional",
+   "chart": "xin-earth",
+   "cell": "金_比肩"
+  },
+  {
+   "id": "X27.chips.金_比肩",
+   "field": "ELEMENT_GOD.adj_chips",
+   "chart": "xin-earth",
+   "cell": "金_比肩"
+  },
+  {
+   "id": "X28.domains.金_比肩",
+   "field": "ELEMENT_GOD.k2_domain_readings",
+   "chart": "xin-earth",
+   "cell": "金_比肩"
+  },
+  {
+   "id": "X29.ledger.金_比肩.F0",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "xin-earth",
+   "cell": "金_比肩",
+   "pole": "friction",
+   "row": 0
+  },
+  {
+   "id": "X30.ledger.金_比肩.F1",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "xin-earth",
+   "cell": "金_比肩",
+   "pole": "friction",
+   "row": 1
+  },
+  {
+   "id": "X31.ledger.金_比肩.F2",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "xin-earth",
+   "cell": "金_比肩",
+   "pole": "friction",
+   "row": 2
+  },
+  {
+   "id": "X32.base.金_木",
+   "field": "ELEMENT_PAIR.mechanism.base",
+   "chart": "xin-earth",
+   "energy": "Wood"
+  },
+  {
+   "id": "X33.turn-carry.金_木.C",
+   "field": "ELEMENT_PAIR.mechanism.turn+carry",
+   "chart": "xin-earth",
+   "energy": "Wood"
+  },
+  {
+   "id": "X34.definition.金_木.C",
+   "field": "ELEMENT_PAIR.function.definition",
+   "chart": "xin-earth",
+   "energy": "Wood"
+  },
+  {
+   "id": "X35.advise.金_木.C",
+   "field": "ELEMENT_PAIR.function.advise",
+   "chart": "xin-earth",
+   "energy": "Wood"
+  },
+  {
+   "id": "X36.cta.金_木",
+   "field": "ELEMENT_PAIR.cta_verdict",
+   "chart": "xin-earth",
+   "energy": "Wood"
+  },
+  {
+   "id": "X37.k2overview.木_偏财",
+   "field": "ELEMENT_GOD.k2_overview",
+   "chart": "xin-earth",
+   "cell": "木_偏财"
+  },
+  {
+   "id": "X38.k2functional.木_偏财",
+   "field": "ELEMENT_GOD.k2_functional",
+   "chart": "xin-earth",
+   "cell": "木_偏财"
+  },
+  {
+   "id": "X39.chips.木_偏财",
+   "field": "ELEMENT_GOD.adj_chips",
+   "chart": "xin-earth",
+   "cell": "木_偏财"
+  },
+  {
+   "id": "X40.domains.木_偏财",
+   "field": "ELEMENT_GOD.k2_domain_readings",
+   "chart": "xin-earth",
+   "cell": "木_偏财"
+  },
+  {
+   "id": "X41.ledger.木_偏财.C0",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "xin-earth",
+   "cell": "木_偏财",
+   "pole": "catalyst",
+   "row": 0
+  },
+  {
+   "id": "X42.ledger.木_偏财.C1",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "xin-earth",
+   "cell": "木_偏财",
+   "pole": "catalyst",
+   "row": 1
+  },
+  {
+   "id": "X43.ledger.木_偏财.C2",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "xin-earth",
+   "cell": "木_偏财",
+   "pole": "catalyst",
+   "row": 2
+  },
+  {
+   "id": "X44.base.金_水",
+   "field": "ELEMENT_PAIR.mechanism.base",
+   "chart": "xin-earth",
+   "energy": "Water"
+  },
+  {
+   "id": "X45.turn-carry.金_水.C",
+   "field": "ELEMENT_PAIR.mechanism.turn+carry",
+   "chart": "xin-earth",
+   "energy": "Water"
+  },
+  {
+   "id": "X46.definition.金_水.C",
+   "field": "ELEMENT_PAIR.function.definition",
+   "chart": "xin-earth",
+   "energy": "Water"
+  },
+  {
+   "id": "X47.advise.金_水.C",
+   "field": "ELEMENT_PAIR.function.advise",
+   "chart": "xin-earth",
+   "energy": "Water"
+  },
+  {
+   "id": "X48.cta.金_水",
+   "field": "ELEMENT_PAIR.cta_verdict",
+   "chart": "xin-earth",
+   "energy": "Water"
+  },
+  {
+   "id": "X49.k2overview.水_食神",
+   "field": "ELEMENT_GOD.k2_overview",
+   "chart": "xin-earth",
+   "cell": "水_食神"
+  },
+  {
+   "id": "X50.k2functional.水_食神",
+   "field": "ELEMENT_GOD.k2_functional",
+   "chart": "xin-earth",
+   "cell": "水_食神"
+  },
+  {
+   "id": "X51.chips.水_食神",
+   "field": "ELEMENT_GOD.adj_chips",
+   "chart": "xin-earth",
+   "cell": "水_食神"
+  },
+  {
+   "id": "X52.domains.水_食神",
+   "field": "ELEMENT_GOD.k2_domain_readings",
+   "chart": "xin-earth",
+   "cell": "水_食神"
+  },
+  {
+   "id": "X53.ledger.水_食神.C0",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "xin-earth",
+   "cell": "水_食神",
+   "pole": "catalyst",
+   "row": 0
+  },
+  {
+   "id": "X54.ledger.水_食神.C1",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "xin-earth",
+   "cell": "水_食神",
+   "pole": "catalyst",
+   "row": 1
+  },
+  {
+   "id": "X55.ledger.水_食神.C2",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "xin-earth",
+   "cell": "水_食神",
+   "pole": "catalyst",
+   "row": 2
+  },
+  {
+   "id": "X56.base.金_火",
+   "field": "ELEMENT_PAIR.mechanism.base",
+   "chart": "xin-earth",
+   "energy": "Fire"
+  },
+  {
+   "id": "X57.turn-carry.金_火.C",
+   "field": "ELEMENT_PAIR.mechanism.turn+carry",
+   "chart": "xin-earth",
+   "energy": "Fire"
+  },
+  {
+   "id": "X58.definition.金_火.C",
+   "field": "ELEMENT_PAIR.function.definition",
+   "chart": "xin-earth",
+   "energy": "Fire"
+  },
+  {
+   "id": "X59.advise.金_火.C",
+   "field": "ELEMENT_PAIR.function.advise",
+   "chart": "xin-earth",
+   "energy": "Fire"
+  },
+  {
+   "id": "X60.cta.金_火",
+   "field": "ELEMENT_PAIR.cta_verdict",
+   "chart": "xin-earth",
+   "energy": "Fire"
+  },
+  {
+   "id": "X61.k2overview.火_七杀",
+   "field": "ELEMENT_GOD.k2_overview",
+   "chart": "xin-earth",
+   "cell": "火_七杀"
+  },
+  {
+   "id": "X62.k2functional.火_七杀",
+   "field": "ELEMENT_GOD.k2_functional",
+   "chart": "xin-earth",
+   "cell": "火_七杀"
+  },
+  {
+   "id": "X63.chips.火_七杀",
+   "field": "ELEMENT_GOD.adj_chips",
+   "chart": "xin-earth",
+   "cell": "火_七杀"
+  },
+  {
+   "id": "X64.domains.火_七杀",
+   "field": "ELEMENT_GOD.k2_domain_readings",
+   "chart": "xin-earth",
+   "cell": "火_七杀"
+  },
+  {
+   "id": "X65.ledger.火_七杀.C0",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "xin-earth",
+   "cell": "火_七杀",
+   "pole": "catalyst",
+   "row": 0
+  },
+  {
+   "id": "X66.ledger.火_七杀.C1",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "xin-earth",
+   "cell": "火_七杀",
+   "pole": "catalyst",
+   "row": 1
+  },
+  {
+   "id": "X67.ledger.火_七杀.C2",
+   "field": "ELEMENT_GOD.fn_reading.row",
+   "chart": "xin-earth",
+   "cell": "火_七杀",
+   "pole": "catalyst",
+   "row": 2
+  }
+ ]
+}

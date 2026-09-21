@@ -1,0 +1,39 @@
+{
+ "id": "G88.tg-reading.bi_jie_duo_cai",
+ "field": "TG_PATTERN.reading",
+ "cards": [
+  "TG_PATTERN.reading"
+ ],
+ "exemplarWithheld": [],
+ "ctx": {
+  "field": "TG_PATTERN.reading",
+  "axis": "TG_PATTERN",
+  "band": "concentrated",
+  "chart": {
+   "id": "golden",
+   "label": "golden 庚 The Blade, 1995-04-29 18:00 Beijing (Overfueled; Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5)",
+   "stem": "庚",
+   "band": "concentrated",
+   "bandTerm": "Overfueled",
+   "synthetic": false
+  },
+  "stem": "庚",
+  "yin": false,
+  "cell": "bi_jie_duo_cai"
+ },
+ "original": {
+  "reading": "One law runs underneath your money: it attracts company. Friends with ventures, family with needs, partners with opinions, and it thins wherever ownership blurs. The same people would also carry you through droughts no bank would. So formalize every shared asset, price your generosity yearly, and keep one account whose shape nobody knows."
+ },
+ "repFields": {
+  "line": "Self stars and wealth stars share your pillars, the classic contested purse. Money does best held plainly in your name: partnerships loosen it, lending blurs it, and generosity deserves its own budget line.",
+  "fused_line": "Sharing a pillar, purse and peers sit in one seat for you: write things down early and often."
+ },
+ "repBlock": false,
+ "swapGram": null,
+ "zone": false,
+ "zoneBlock": false,
+ "shape": "{\"reading\": \"...\"}",
+ "promptWords": 3809,
+ "rea17Version": "0.4",
+ "assembledAt": "2026-09-21T23:12:04.887Z"
+}

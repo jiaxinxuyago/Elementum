@@ -1,0 +1,156 @@
+{
+ "id": "X01.pools.xin",
+ "field": "STEM.gifts+shadows",
+ "cards": [
+  "STEM.gifts"
+ ],
+ "exemplarWithheld": [],
+ "ctx": {
+  "field": "STEM.gifts+shadows",
+  "axis": "STEM",
+  "band": "concentrated",
+  "chart": {
+   "id": "xin-earth",
+   "label": "contrast 辛 The Jewel, Overfueled, heavy Earth (fixture: Metal 20 / Earth 45 / Wood 15 / Fire 10 / Water 10)",
+   "stem": "辛",
+   "band": "concentrated",
+   "bandTerm": "Overfueled",
+   "synthetic": true
+  },
+  "stem": "辛",
+  "yin": true,
+  "cell": "xin"
+ },
+ "original": {
+  "gifts": [
+   {
+    "phrase": "Steady under strain",
+    "dim": "being handled",
+    "door": "body",
+    "face": "echo",
+    "echo_of": "金_金.function.definition_catalyst",
+    "desc": "Handled by everyone, changed by no one. You hold your form long after the fuel is low, so you notice you are tired late."
+   },
+   {
+    "phrase": "Polished by default",
+    "dim": "finishing",
+    "door": "body",
+    "face": "wide",
+    "echo_of": "金_金.function.definition_catalyst",
+    "desc": "Plenty of the material and all of it finished. Even the things nobody will see leave your hands done properly."
+   },
+   {
+    "phrase": "Impeccable taste",
+    "dim": "quality",
+    "door": "mind",
+    "face": "echo",
+    "echo_of": "金_土.function.definition_catalyst",
+    "desc": "Years of quiet looking went in first. Now you know the good one from the almost-good one at a glance, and friends borrow your eye before they buy."
+   },
+   {
+    "phrase": "Spots the crack",
+    "dim": "early warnings",
+    "door": "mind",
+    "face": "wide",
+    "echo_of": "金_土.carry.wide",
+    "desc": "With this much ground under the stone, you saw the flaw three months before it became the problem. You say it out loud exactly once, and then wait."
+   },
+   {
+    "phrase": "Understated excellence",
+    "dim": "self-presentation",
+    "door": "expression",
+    "face": "echo",
+    "echo_of": "金_水.function.definition_catalyst",
+    "desc": "What is inside moves outward without forcing. You do not advertise, compete, or explain. The work speaks quietly, and the people who know, know."
+   },
+   {
+    "phrase": "Prices it right",
+    "dim": "placing value",
+    "door": "action",
+    "face": "echo",
+    "echo_of": "金_木.function.definition_catalyst",
+    "desc": "You know what a thing is worth and where it belongs, and what you place keeps growing in value after you have placed it."
+   },
+   {
+    "phrase": "Built to last",
+    "dim": "at work",
+    "door": "order",
+    "face": "echo",
+    "echo_of": "金_火.function.definition_catalyst",
+    "desc": "Pressure organizes you instead of scattering you. Nothing leaves your hands that you do not believe in, and years later your work is the one still holding up under inspection."
+   }
+  ],
+  "shadows": [
+   {
+    "phrase": "Polishes forever",
+    "dim": "deadlines",
+    "door": "body",
+    "face": "echo",
+    "echo_of": "金_金.function.definition_friction",
+    "desc": "Discipline with no outlet turns on the work. The tenth revision was ready. So was the sixth. The deadline passed while you fixed a flaw nobody else will ever perceive."
+   },
+   {
+    "phrase": "Trusts one judge",
+    "dim": "taking advice",
+    "door": "body",
+    "face": "excess",
+    "echo_of": "金_金.carry.excess",
+    "desc": "So much certainty it cuts everything the same way. The only opinion that counts on your work is yours, and it has never once been satisfied."
+   },
+   {
+    "phrase": "Never stops preparing",
+    "dim": "preparation",
+    "door": "mind",
+    "face": "echo",
+    "echo_of": "金_土.function.definition_friction",
+    "desc": "One more course on the craft before the first stone is cut. The preparation is exquisite, and it has quietly replaced the work."
+   },
+   {
+    "phrase": "Buried talent",
+    "dim": "being sheltered",
+    "door": "mind",
+    "face": "excess",
+    "echo_of": "金_土.carry_yin.excess",
+    "desc": "Kept safe for so long that nobody has seen the stone. The setting became the shelter, and the shelter became the box."
+   },
+   {
+    "phrase": "Sharp tongue",
+    "dim": "small remarks",
+    "door": "expression",
+    "face": "echo",
+    "echo_of": "金_水.function.definition_friction",
+    "desc": "Output with no banks. The remark was accurate and it was small, and it went in deeper than you meant. You forgot it by dinner. They did not."
+   },
+   {
+    "phrase": "Hoarder of starts",
+    "dim": "acquiring",
+    "door": "action",
+    "face": "echo",
+    "echo_of": "金_木.function.definition_friction",
+    "desc": "Every good piece deserves a setting, so you keep buying stones for settings you never make. Plenty of motion, nothing finished."
+   },
+   {
+    "phrase": "Hardest on itself",
+    "dim": "being judged",
+    "door": "order",
+    "face": "echo",
+    "echo_of": "金_火.function.definition_friction",
+    "desc": "Every small flaw gets treated like an emergency, and nobody judges the stone as harshly as you do. The rules run hot, hardest on you."
+   }
+  ]
+ },
+ "repFields": {
+  "dm_overview": "The Jewel is Yin Metal, the metal that survived refinement and came out beautiful. The last of autumn belongs to it, when everything coarse has been carried off and what remains is finish: the ornament, the needle, the struck coin. Under a patient hand it is cut small and exact, holding more light than its size should allow, and it refuses to call the work done early.",
+  "yourNature_desc": "You can tell real quality from almost, instantly, the way some people can tell a note is flat. It makes everything you finish worth keeping. It also means the standard follows you home, runs all night, and files its one report every time: not quite done. No audience required.",
+  "manifesto": "Refinement over output · You are the Metal that refines until nothing extra remains.",
+  "inscription": "You hold your work to a standard nobody set, and it never says finished."
+ },
+ "repBlock": false,
+ "swapGram": null,
+ "zone": false,
+ "zoneBlock": false,
+ "shape": "{\"gifts\":[{\"phrase\",\"dim\",\"door\",\"face\",\"echo_of\",\"desc\"} ×7],\"shadows\":[… ×7]}",
+ "promptWords": 5171,
+ "rea17Version": "0.4",
+ "assembledAt": "2026-09-21T23:12:05.072Z"
+}

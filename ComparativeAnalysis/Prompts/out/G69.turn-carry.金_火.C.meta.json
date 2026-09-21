@@ -1,0 +1,100 @@
+{
+ "id": "G69.turn-carry.金_火.C",
+ "field": "ELEMENT_PAIR.mechanism.turn+carry",
+ "cards": [
+  "ELEMENT_PAIR.mechanism.catalyst_turn",
+  "ELEMENT_PAIR.carry"
+ ],
+ "exemplarWithheld": [],
+ "ctx": {
+  "field": "ELEMENT_PAIR.mechanism.turn+carry",
+  "axis": "ELEMENT_PAIR",
+  "pole": "catalyst",
+  "band": "concentrated",
+  "chart": {
+   "id": "golden",
+   "label": "golden 庚 The Blade, 1995-04-29 18:00 Beijing (Overfueled; Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5)",
+   "stem": "庚",
+   "band": "concentrated",
+   "bandTerm": "Overfueled",
+   "synthetic": false
+  },
+  "stem": "庚",
+  "yin": false,
+  "energy": {
+   "el": "Fire",
+   "presence": 5,
+   "role": "catalyst",
+   "volume": "thin",
+   "excess": false,
+   "state": "catalyst_turn",
+   "stateSource": "mechanism.catalyst_turn",
+   "faces": [
+    {
+     "god": "七杀",
+     "share": 100,
+     "persona": "The General",
+     "polarity": "yang"
+    }
+   ],
+   "leadGod": "七杀",
+   "fnRows": [
+    {
+     "word": "Decisive",
+     "god": "七杀",
+     "door": "trait"
+    },
+    {
+     "word": "Daring",
+     "god": "七杀",
+     "door": "scene"
+    },
+    {
+     "word": "Crisis-ready",
+     "god": "七杀",
+     "door": "outside"
+    }
+   ]
+  },
+  "pairKey": "金_火",
+  "cell": "金_火"
+ },
+ "original": {
+  "catalyst_turn": "Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena.",
+  "carry": {
+   "catalyst": {
+    "clause": "Nothing tempers you: an edge that keeps its first shape and calls it character.",
+    "remedy": "Take the demanding role, the audit, the arena."
+   },
+   "missing": {
+    "clause": "Nothing tempers the edge: a shape that was never tested, an edge that never met an arena.",
+    "remedy": "Borrow heat: one demanding role, one audit."
+   },
+   "wide": {
+    "clause": "Fire is easy for you to reach, the forge that finishes the edge.",
+    "remedy": "Take the pressure you have. Let it sharpen you."
+   }
+  }
+ },
+ "repFields": {
+  "function.definition_catalyst": "Fire is your Order, and as a catalyst, it is structure with heat in it. Pressure organizes you instead of scattering you, rules turn into momentum, and when things fall apart you are the one holding a straight line through the middle of it.",
+  "function.definition_friction": "Fire is your Order, and as a friction, it is order with the thermostat broken. Every rule runs hot, every moment gets treated like an emergency, and the structure that held things up presses down on people, then hardest on you. Nobody judges the edge as harshly as you do.",
+  "function.advise_catalyst": "Fire that only knows battle starts inventing battles. Save your command for what deserves it: decide the small stuff instantly and cheaply. Build one boring routine that runs when nothing is burning. Peacetime is what the fighting was for, so practice standing in it.",
+  "function.advise_friction": "Command works best rationed. Before taking over, ask one question and wait for the whole answer. Rank the week’s fires and let the bottom three burn out alone. Schedule the rest before the crash schedules it for you. Order people can breathe in is the only kind that holds.",
+  "mechanism.base": "The refined prevails over the stubborn: fire alone commands metal. In the forge the unbending learns to bend, ore gives up its rock, and the blade takes whatever shape the flame decides. Heat is the one argument metal cannot win, and what survives the fire comes out finer than what went in.",
+  "mechanism.friction_turn": "Run heavy, the forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves. Step out of the fire long enough to hold an edge.",
+  "cta_verdict": "Pressure is your forge, and the heat you choose on purpose finishes an edge that comfort would have left dull.",
+  "carry.friction": "The forge never closes: constant heat, no bench time, a blade softening under pressure it never leaves. Step out of the fire long enough to hold an edge.",
+  "carry.spared": "Fire runs absent, and the metal keeps its temper: no forge to soften it, no heat to answer. Keep it cool. Choose your pressures.",
+  "carry.thin": "Fire runs thin and unwanted: a low flame, easy to stand beside. Let it stay low.",
+  "carry.excess": "Weak metal melts in strong fire: pressure past what the edge can hold, rules that soften, not shape. Step out of the fire. Add ground."
+ },
+ "repBlock": true,
+ "swapGram": null,
+ "zone": false,
+ "zoneBlock": false,
+ "shape": "{\"catalyst_turn\": \"...\", \"carry\": {\"catalyst\": {\"clause\",\"remedy\"}, \"missing\": {...}, \"wide\": {...}}}",
+ "promptWords": 4878,
+ "rea17Version": "0.4",
+ "assembledAt": "2026-09-21T23:12:04.858Z"
+}

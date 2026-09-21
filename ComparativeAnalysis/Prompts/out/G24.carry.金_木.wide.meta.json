@@ -1,0 +1,100 @@
+{
+ "id": "G24.carry.金_木.wide",
+ "field": "ELEMENT_PAIR.carry.pole",
+ "cards": [
+  "ELEMENT_PAIR.carry"
+ ],
+ "exemplarWithheld": [
+  "wide.clause"
+ ],
+ "ctx": {
+  "field": "ELEMENT_PAIR.carry.pole",
+  "axis": "ELEMENT_PAIR",
+  "pole": "catalyst",
+  "state": "wide",
+  "band": "concentrated",
+  "chart": {
+   "id": "golden",
+   "label": "golden 庚 The Blade, 1995-04-29 18:00 Beijing (Overfueled; Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5)",
+   "stem": "庚",
+   "band": "concentrated",
+   "bandTerm": "Overfueled",
+   "synthetic": false
+  },
+  "stem": "庚",
+  "yin": false,
+  "energy": {
+   "el": "Wood",
+   "presence": 33,
+   "role": "catalyst",
+   "volume": "abundant",
+   "excess": false,
+   "state": "wide",
+   "stateSource": "carry.wide",
+   "faces": [
+    {
+     "god": "正财",
+     "share": 74,
+     "persona": "The Steward",
+     "polarity": "yin"
+    },
+    {
+     "god": "偏财",
+     "share": 26,
+     "persona": "The Horizon",
+     "polarity": "yang"
+    }
+   ],
+   "leadGod": "正财",
+   "fnRows": [
+    {
+     "word": "Cultivating",
+     "god": "正财",
+     "door": "trait"
+    },
+    {
+     "word": "Compounding",
+     "god": "正财",
+     "door": "scene"
+    },
+    {
+     "word": "Wide-branching",
+     "god": "偏财",
+     "door": "outside"
+    }
+   ]
+  },
+  "pairKey": "金_木",
+  "cell": "金_木"
+ },
+ "original": {
+  "wide": {
+   "clause": "Wood is already here in plenty, the material the knife is for.",
+   "remedy": "Cut what is already in front of you. Finish it."
+  }
+ },
+ "repFields": {
+  "function.definition_catalyst": "Wood is your Action, and as a catalyst, it is effort that behaves like a living thing. Whatever you plant and keep tending, money, skills, ventures, trust, grows on its own schedule and pays you back with interest, because your work compounds instead of burning off.",
+  "function.definition_friction": "Wood is your Action, and as a friction, it is growth that stops answering to the harvest. Effort goes wherever the roots or the branches already point, old ground held too hard, new shoots started too freely, and the season ends with plenty of motion and nothing ripe.",
+  "function.advise_catalyst": "Growing things still need a gardener’s ruthlessness. Once a season, walk the whole field: feed what is fruiting, and let one dead project go without guilt. Keep the daily habits exactly as they are. And claim the growth out loud, raise the price, take the credit, sooner than feels polite.",
+  "function.advise_friction": "A field is judged at harvest, and yours keeps skipping the judging. Twice a year, walk the rows honestly: kill one dead thing out loud, feed the two that actually fruit, and spend one fenced-off risk on purpose. Judge every habit by its yield, and never by its years of service.",
+  "mechanism.base": "The hard prevails over the soft, the classics say, and so metal governs wood. The axe meets the trunk, the knife meets the branch, and the wild green yields shape it could not find alone. The cut is craft rather than ruin: forest becomes timber, bramble becomes orchard, under an edge that knows what to spare.",
+  "mechanism.catalyst_turn": "Run thin, the knife has nothing to prune: skill idling without a project worth it. Your chart asks you to claim material. Pick one living ambition and start cutting.",
+  "mechanism.friction_turn": "Run heavy, the pruning never stops: forests of projects, an edge worn on material that never ends. The knife dulls on quantity. Cut fewer branches, and finish them.",
+  "cta_verdict": "You act by cutting away whatever wastes the light, and what you care for slowly ends up bearing fruit that careless hands never get.",
+  "carry.catalyst": "The knife has nothing to prune: skill idling without a project worth it. Pick one living ambition and start cutting.",
+  "carry.friction": "The pruning never stops: forests of projects, an edge worn on material that never ends. Cut fewer branches, and finish them.",
+  "carry.missing": "No material to cut: skill with nothing to work, an edge kept for its own sake. Borrow material: one project, one claim.",
+  "carry.spared": "Wood runs absent, and the knife is not worn: nothing to prune, nothing to hold. Keep the knife bright. Pick projects rarely.",
+  "carry.thin": "Wood runs thin and unwanted: a small plot, easily kept. Keep the plot small.",
+  "carry.excess": "Hard wood chips the edge: more to cut than the metal can bear, effort dulling on what resists. Cut less. Sharpen before you cut."
+ },
+ "repBlock": true,
+ "swapGram": null,
+ "zone": false,
+ "zoneBlock": false,
+ "shape": "{\"wide\": {\"clause\": \"...\", \"remedy\": \"...\"}}",
+ "promptWords": 4647,
+ "rea17Version": "0.4",
+ "assembledAt": "2026-09-21T23:12:04.786Z"
+}

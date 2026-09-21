@@ -1,0 +1,17 @@
+{
+ "catalyst_turn": "Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena.",
+ "carry": {
+  "catalyst": {
+   "clause": "Nothing tempers you: an edge that keeps its first shape and calls it character.",
+   "remedy": "Take the demanding role, the audit, the arena."
+  },
+  "missing": {
+   "clause": "Nothing tempers the edge: a shape that was never tested, an edge that never met an arena.",
+   "remedy": "Borrow heat: one demanding role, one audit."
+  },
+  "wide": {
+   "clause": "Fire is easy for you to reach, the forge that finishes the edge.",
+   "remedy": "Take the pressure you have. Let it sharpen you."
+  }
+ }
+}

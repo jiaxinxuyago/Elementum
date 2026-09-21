@@ -1,0 +1,17 @@
+{
+ "friction_turn": "Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through.",
+ "carry": {
+  "friction": {
+   "clause": "The edge seals itself in: so much certainty that nothing else gets past it.",
+   "remedy": "Honor the standard, and let one trusted voice through."
+  },
+  "thin": {
+   "clause": "Metal runs thin and still carries weight: little of the self, held too tightly.",
+   "remedy": "Loosen the grip."
+  },
+  "excess": {
+   "clause": "Strong metal wants water: so much certainty it cuts everything the same way.",
+   "remedy": "Let water blunt it. Say it, don't cut it."
+  }
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "T2",
+ "field": "ELEMENT_PAIR.mechanism.turn+carry",
+ "cards": [
+  "ELEMENT_PAIR.mechanism.catalyst_turn",
+  "ELEMENT_PAIR.carry"
+ ],
+ "exemplarWithheld": [],
+ "ctx": {
+  "field": "ELEMENT_PAIR.mechanism.turn+carry",
+  "axis": "ELEMENT_PAIR",
+  "pole": "friction",
+  "chart": null,
+  "cell": "木_水",
+  "yin": false,
+  "stem": "甲"
+ },
+ "original": {
+  "friction_turn": "Run heavy, the ground floods: roots soaked past drinking, growth postponed for one more season of preparation. Drain a little. Trees also need sun.",
+  "carry": {
+   "friction": {
+    "clause": "The ground floods: roots soaked past drinking, growth postponed for one more season of preparation.",
+    "remedy": "Trees also need sun."
+   },
+   "thin": {
+    "clause": "Water runs thin and unwanted: a little rain, quickly used.",
+    "remedy": "Let it stay light."
+   },
+   "excess": {
+    "clause": "Too much water floats the wood: roots off the ground, drifting from plan to plan, nothing anchored.",
+    "remedy": "Drain it. Plant one thing and stay."
+   }
+  }
+ },
+ "repFields": {
+  "function.definition_catalyst": "Water is your Mind, and as a catalyst, it is how you refill: quiet intake, reading, long conversations, time alone that lets impressions settle into understanding. Your thinking improves in direct proportion to your rest.",
+  "function.definition_friction": "Water is your Mind, and as a friction, it is intake past the point of use: one more book, one more opinion, reflection turning into stalling. More input now costs you clarity instead of adding it.",
+  "function.advise_catalyst": "Understanding arrives on its own schedule and only through an open door. Hold one screen-free hour before bed. Take the walk before the decision. Keep a note of what surfaces there, because it will be the truest thinking you do.",
+  "function.advise_friction": "A mind can also overwater. Close the intake and let what you know settle: set a decision date and honor it, act on the last book before opening the next, and take one full day a week with nothing new coming in.",
+  "mechanism.base": "Water gives life to wood, the old texts say, because it moistens: rain soaks the ground, the root drinks in the dark, and what was a seed unfolds toward the sky. The forest is not raised by effort. It is raised by weather, by the patient water that asks no credit for the green it lifts.",
+  "mechanism.catalyst_turn": "Run thin, the canopy outpaces the rain: ambition still reaching while the soil dries. Your chart asks you to feed the water table. Rest, read, go quiet and refill.",
+  "cta_verdict": "Your thinking absorbs like rain into roots, slow and total, and what you learn deeply once feeds you for decades.",
+  "carry.catalyst": "The canopy outpaces the rain: ambition still reaching while the soil dries. Rest, read, go quiet and refill.",
+  "carry.wide": "Water is already here in plenty, the rain the whole tree drinks from. Stop refilling. Grow something from what you already know.",
+  "carry.missing": "No water at the root: reaching on dry ground, nothing taken in before it is spent. Borrow water: rest, reading, one quiet hour.",
+  "carry.spared": "Water runs absent, and the ground stays firm: nothing floods, nothing waits on one more season. Keep it dry. Act on what you know."
+ },
+ "repBlock": true,
+ "swapGram": null,
+ "zone": false,
+ "zoneBlock": false,
+ "shape": "{\"friction_turn\": \"...\", \"carry\": {\"friction\": {\"clause\",\"remedy\"}, \"thin\": {...}, \"excess\": {...}}}",
+ "promptWords": 4788,
+ "rea17Version": "0.4",
+ "assembledAt": "2026-09-21T23:12:05.155Z"
+}

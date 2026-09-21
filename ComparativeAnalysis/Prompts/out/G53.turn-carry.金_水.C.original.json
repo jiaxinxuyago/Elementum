@@ -1,0 +1,17 @@
+{
+ "catalyst_turn": "Run thin, this channel shows as pressure without release: much forged, little said. That is why your chart asks you to feed it. Writing, speaking, sharing work early lets the blade breathe.",
+ "carry": {
+  "catalyst": {
+   "clause": "This channel shows as pressure without release: much forged, little said.",
+   "remedy": "Writing, speaking, sharing work early lets the blade breathe."
+  },
+  "missing": {
+   "clause": "No channel out: much forged, nothing said, the pressure with nowhere to go.",
+   "remedy": "Borrow a channel: write it down, say it once."
+  },
+  "wide": {
+   "clause": "There is no shortage of Water in you, the channel that lets the blade breathe.",
+   "remedy": "Say it while it is fresh. Ship the draft."
+  }
+ }
+}
