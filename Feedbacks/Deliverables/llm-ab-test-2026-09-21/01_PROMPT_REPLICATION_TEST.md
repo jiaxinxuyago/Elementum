@@ -10,7 +10,7 @@ The owner's question has two parts: can another model replicate **the same forma
 
 | Test | Field | Cell | Model | Shape | Gate | Read |
 |---|---|---|---|---|---|---|
-| T1 | STEM.gifts + shadows (full 7 + 7 pool) | 丙 The Sun | Sonnet | {T1_SONNET_SHAPE} | {T1_SONNET_GATE} | {T1_SONNET_READ} |
+| T1 | STEM.gifts + shadows (full 7 + 7 pool) | 丙 The Sun | Sonnet | exact: 7 + 7, doors 2/2/1/1/1 on both sides, faces echo ×5 + wide ×2 / echo ×5 + excess ×2, all 14 `echo_of` paths resolve in the station, dims unique, no label clashes with the other nine pools | clean (no signs, no banned words, no hedges, phrases ≤3 words, descs 1–3 sentences) | mechanisms match their sources item by item (火_木 friction → "Stalls in prep", 火_金 friction → "Reopens what's done", 火_土 catalyst → "Makes it stick"); 12 of 14 labels would pass a cold read; two would not: **Impossible to miss** reads as praise on a shadow chip (the B4 fault) and **Checks it dead** is opaque. The Body shadow desc says "Sleep shows up late", which is what the source definition still says, so the derivation is correct and the owner's O2/O3 removal lives only at the chip level |
 | T1 | same | same | Haiku | **failed**: returned a prose summary instead of the JSON, twice; reported 6 gifts because the self pair's `carry.wide` came through as `undefined` | not run | not run |
 | T2 | ELEMENT_PAIR friction turn + carry friction / thin / excess | 木_水 | Sonnet | exact: turn opens "Run heavy,"; carry.friction cut from the turn's first clause and its directive; all three poles `{clause, remedy}` | clean (≤35w / ≤18w / ≤12w) | right mechanism (水多木漂 rendered as "too much water lifts the roots free… drifting"); the friction image (rain, root, mud) sits in the pair's chemistry; the directive is the definition's own ("close the book") rather than a new one, which is lawful |
 | T3 | ELEMENT_GOD fn_reading row, three doors | 水_食神 · Fluent | Sonnet | exact: `{word, doors:{trait, scene, outside}}`, 52–54w per door | clean | trait door opens on the trait, scene door has a clock time ("Ten forty at night") and a small object, outside door opens from other people; the cost lands at the close; passes the sibling test (nothing reads as 伤官) |
@@ -19,18 +19,25 @@ The owner's question has two parts: can another model replicate **the same forma
 | T5 | STEM_BAND yourNature_desc + self_card | 癸 Underfueled | Sonnet | exact: 62w, opens "You are what the rain is like when it wakes up as a person", face 6w, presence 22w | clean | **angle drift**: the portrait reads the Underfueled band as giving oneself away ("feeds roots that were never quite your own… What you keep for yourself… That's not much"), which is the unwitnessed-martyr angle REA_16 reserves for 丙, 己 and 庚. 癸's own cost is porousness. Format perfect, reasoning wrong |
 | T6 | ELEMENT_GOD k2_domain_readings | 土_正财 | Sonnet | exact: keys equal the persona's three domains, 46–55w each | clean | the Steward's counting carried in Earth's arena; Wealth carries no solvency promise and no holdings list; Steady love names the cost (patience read as coldness) |
 
-{T1_SONNET_DETAIL}
+### T1 in detail (the hardest field: a whole pool, blind)
+
+Sonnet, 521 seconds, one pass. Labels generated: gifts *Warms the morning · Gives without counting · Banked for years · Never runs empty · Makes it stick · Needs real resistance · Waits for calm*; shadows *Can't power down · Impossible to miss · Stalls in prep · Burns the reserves · Won't stay casual · Reopens what's done · Checks it dead*. Shipping labels for the same doors: *Lifts the morning · Generous with warmth · Learns from everyone · Full of ideas · Starts traditions · Takes hard jobs · Checks before leaping* and *Can't switch off · Steals the spotlight · Chases every idea · Buried in ideas · Formalizes everything · Reopens settled things · Own harshest judge*.
+
+The structure is identical. The mechanism behind each label is the same as the shipping item's because both were cut from the same source field, which is the derivation law working as designed. The style differs in the expected way: the candidate leans on the Sun's arena (morning, light, fuel, blaze) more heavily and writes longer descs. Two labels miss the phrase law's valence test, which no mechanical check catches; the owner's cold read remains the gate for labels.
 
 ## What the test says about the pack
 
-**Format and structure: yes, for a capable model.** Every Sonnet output matched the station's shape exactly on the first attempt: the right keys, counts, doors, faces, resolvable `echo_of` paths, budgets, openers and door rotation. The mechanical gate found nothing in five of five Sonnet runs. The originals and the candidates are interchangeable as data; the app would render either.
+**Format and structure: yes, for a capable model.** Every Sonnet output, the full 14-item pool included, matched the station's shape exactly on the first attempt: the right keys, counts, doors, faces, resolvable `echo_of` paths, budgets, openers and door rotation. The mechanical gate found nothing in six of six Sonnet runs. The originals and the candidates are interchangeable as data; the app would render either.
 
 **Style only differs: mostly, with two reasoning holes the pack did not close on its own.**
 
 1. **Angle drift on a band portrait (T5).** The Angle Map row was in the prompt and the model still wrote 癸 from 丙's cost dimension. The pack stated the arena but not the neighbouring angle to refuse, and never said that a band is a supply state rather than a portrait of giving. Both are now in REA_17 v0.2 (§1 "two drifts to refuse", §2.2 the per-stem "angle not to borrow" line).
-2. **A missing input was left blank (T1 Haiku).** The self pair has no `carry.wide`; the pack's card said where the Body wide gift comes from, but the input pack printed `undefined`, and the smaller model dropped the item. REA_17 v0.2 adds the stated-missing-inputs rule (§0.7) and the self-pair line to the pools card; the harness now prints the fallback in words.
+2. **Label valence is a read, not a rule (T1).** Two of fourteen generated labels read as praise or as a puzzle on a shadow chip. The phrase law is in the pack; the check that catches it is the owner's cold read, and the harness cannot replace it.
+3. **A missing input was left blank (T1 Haiku).** The self pair has no `carry.wide`; the pack's card said where the Body wide gift comes from, but the input pack printed `undefined`, and the smaller model dropped the item. REA_17 v0.2 adds the stated-missing-inputs rule (§0.7) and the self-pair line to the pools card; the harness now prints the fallback in words.
 
 **Format compliance is model-dependent.** The smaller model returned a summary instead of the JSON value twice in a row on the largest task and overshot one budget by a word. REA_17 v0.2 adds the output contract (§0.6): the shape in the task line, "JSON only" repeated as the last line, structured-output mode where the API has it, and an optional `_trace` key for the mechanism statement so the acceptance protocol can read the model's reasoning.
+
+**One ruling the pack does not carry because the station does not either.** The 丙 Body shadow desc restates the sleep symptom ("Sleep shows up late") because `火_火.function.definition_friction` still says "sleep that will not come". The owner removed it from the two chips (O2, O3) on 2026-09-21 and not from the source. A generator following the derivation law will reproduce it until the definition changes. That is a station question for the owner, not a pack defect.
 
 **Two more things the pack needed and now has.** The classical excess idioms per door (the five 渊海子平 sets) and the eight wide openers were named but not listed; a generator writing `carry.excess` or `carry.wide` had to be handed them ad hoc in the facts. Both are in §2.3 now, with the full ten-line classical portrait table in §2.4.
 
@@ -39,7 +46,7 @@ The owner's question has two parts: can another model replicate **the same forma
 | Dimension | v0.1 (tested) | v0.2 (after the fixes) |
 |---|---|---|
 | Structure reproduction (keys, counts, doors, faces, budgets) | complete for a capable model; one silent gap (self-pair wide) | complete; gap stated in words |
-| Vocabulary and syntax law | complete; zero gate findings on five Sonnet runs | unchanged |
+| Vocabulary and syntax law | complete; zero gate findings on six Sonnet runs | unchanged |
 | Reasoning inputs (mechanism, chemistry, portraits, idioms) | mostly present; idioms and portraits partly implicit | listed in full |
 | Angle fidelity per stem and persona | rows present; one drift observed | drifts named; per-stem "not this angle" line |
 | Output contract for smaller models | one instruction at the top; failed on the largest task | shape in the task line, JSON-only repeated, structured output, `_trace` |
