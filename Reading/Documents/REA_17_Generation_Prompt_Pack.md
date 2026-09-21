@@ -26,6 +26,8 @@ Rules of the game for any test run:
 3. **Output shape is the station's shape.** A pool item is `{phrase, dim, door, face, echo_of, desc}`; a ledger row is `{word, doors:{trait, scene, outside}}`; a carry pole is `{clause, remedy}`. Return the JSON value the field holds, nothing around it.
 4. **The mechanical gate runs first, the read second.** Every candidate passes the audit list at the end of §1 before anyone reads it for quality. A line that fails the gate is not compared.
 5. **The original is a candidate.** The shipping text competes on equal terms. Nothing is called better until it wins the read (REA_16 §3 litmus, and the acceptance protocol in the 2026-09-17 evaluation pack).
+6. **The output contract (added v0.2 after the replication test).** State the exact JSON shape in the task line AND repeat "return the JSON value only, no commentary, no code fence" as the last line of the prompt; smaller models returned a prose summary instead of the value when the instruction stood once at the top. Where the API offers a JSON or structured-output mode, use it. A generator may add one optional key, `_trace`, holding its one-clause mechanism statement per item (the acceptance protocol's source claim); the pipeline strips it before the station.
+7. **Missing inputs are stated, never left blank.** When a cell has no value for a field the card names (the five self pairs have no `carry.wide`), the input pack says so in words and names the fallback the card gives. A bare `undefined` cost one run a whole gift (six returned instead of seven).
 
 ---
 
@@ -76,6 +78,8 @@ Rules of the game for any test run:
 >
 > The protected spine, which no line may blur: 甲 rises · 乙 routes · 丙 radiates · 丁 concentrates · 戊 holds · 己 receives and grows · 庚 cuts · 辛 refines · 壬 ranges · 癸 permeates.
 >
+> Two drifts to refuse. The unwitnessed-martyr angle ("you give and nobody sees it") is not the house angle: only 丙, 己 and 庚 may stand near the recognition axis, each differently, and every other nature must be written from its own row above (癸 is porousness, not self-sacrifice; 壬 is containment, not neglect). And a band is a state of the core's supply, never a portrait of giving away: Underfueled means the core burns more than it takes in, so its portrait shows the material running low or held back, not the person spending themselves on others.
+>
 > Each persona owns a cost dimension and an arena too. An element-by-persona cell speaks the persona's cost in the element's arena (The General's unpermissioned pressure spoken in fire imagery).
 >
 > | Persona | Cost dimension | Arena |
@@ -125,15 +129,34 @@ The generator never derives any of this. It is supplied. Sources in brackets.
 
 ### 2.2 · The STEM pack (×10; REA_01, REA_02 §2, REA_16 §2b, `STEM/*.json`)
 
-Name and glyph (庚 The Blade, Yang Metal) · the spine verb (cuts) · the Angle Map row (cost dimension, arena, rhythm) · the material and what it does (the sword drawn once for the true thing; autumn; the harvest's arithmetic) · the locked manifesto and inscription (context, never rewritten in a field test unless that field is the target) · the `door_note` map (Body Metal · Mind Earth · Expression Water · Action Wood · Order Fire for 庚).
+Name and glyph (庚 The Blade, Yang Metal) · the spine verb (cuts) · the Angle Map row (cost dimension, arena, rhythm) · the material and what it does (the sword drawn once for the true thing; autumn; the harvest's arithmetic) · the locked manifesto and inscription (context, never rewritten in a field test unless that field is the target) · the `door_note` map (Body Metal · Mind Earth · Expression Water · Action Wood · Order Fire for 庚) · **the neighbouring angle the stem must not borrow** (from the Angle Map: for 癸 "not depletion or unrecognised giving, that is 丙's and 己's", for 壬 "not neglect", for 辛 "not 庚's isolation"), stated in one line because the replication test showed a generator drifting to the martyr angle on 癸 even with the row in front of it · for the pools, the five pair cells' `definition_catalyst`, `definition_friction`, `carry.wide` and `carry.excess` (`carry_yin.excess` for the yin stem), with the self pair's missing `carry.wide` stated in words: **the Body wide gift is cut from the self pair's `definition_catalyst` ("plenty of the self")**.
 
 ### 2.3 · The ELEMENT_PAIR pack (×25; REA_02 §5d, §5f, §5h; `ELEMENT_PAIR/<core>_<energy>.json`)
 
 The two elements and their law sentence with its image line from the ten equations (Earth feeds Metal: ore grows in the mountain · Metal tames Wood: the knife prunes the branch) · the direction relative to the core (feeder, fed, tamed, tamer, self) · the function noun the energy is for this core (feeder → Mind · fed → Expression · tamed → Action · tamer → Order · self → Body) · the classical 生/克 doctrine of the pair in one line, for the `mechanism.base` only · the state being written (catalyst or friction; and for carry, which of the eight poles) · the core's yin sibling noun set when a `_yin` field is the target (Blade → stone, facet, setting, wheel · Oak → vine, wall, tendril · Sun → the close flame · Mountain → soil, field · Ocean → rain, mist, cloud).
 
+**The excess idiom for the cell (REA_04 PART 2, the five 渊海子平 sets, verbatim; the `carry.excess` clause says the cell's idiom in English and never quotes it).** Which set speaks which door: 生之太过 the Mind door (feeder in excess: 金赖土生，土多金埋；土赖火生，火多土焦；火赖木生，木多火炽；木赖水生，水多木漂；水赖金生，金多水浊) · 泄之太过 the Expression door (金能生水，水多金沉；水能生木，木盛水缩；木能生火，火多木焚；火能生土，土多火晦；土能生金，金多土变) · 克之不逮 the Action door (金能克木，木坚金缺；木能克土，土重木折；土能克水，水多土流；水能克火，火多水热；火能克金，金多火熄) · 衰而逢克 the Order door (金衰遇火，必见销熔；火弱逢水，必为熄灭；水弱逢土，必为淤塞；土衰遇木，必遭倾陷；木弱逢金，必为砍折) · 强而得制 the self pair (强金得水，方挫其锋；强水得木，方泄其势；强木得火，方化其顽；强火得土，方止其焰；强土得金，方制其害). 木多火炽 is read literally since D1 (the fire blazes past its task). 土多金埋 applies to 辛, not 庚 (庚 reads 郁滞).
+
+**The eight wide openers (the `carry.wide` clause opens with one; no core element repeats one across its wanted energies):** "{Element} is one thing you never run short of" · "{Element} is easy for you to reach" · "{Element} is all around you" · "You have plenty of {Element}" · "{Element} is already here in plenty" · "You are well supplied with {Element}" · "You were given plenty of {Element}" · "There is no shortage of {Element} in you". The clause then names what the element is for this core in the core's material ("the ground the ore grows in"), and the remedy tells the reader to use it.
+
+**The self pair** has no `carry.wide` (the core is never a wanted catalyst of itself); it carries `unrooted` (the core at 0%, 日主无根) and `excess` (强而得制) instead.
+
 ### 2.4 · The GOD pack (×10; REA_02 §2, §4, §4b; REA_16 §2b-G; `GOD/*.json`)
 
-Persona name and definition line · keyword and charge · pole nouns (Vision / Distance) · family function (比劫 Body · 印 Mind · 食伤 Expression · 财 Action · 官杀 Order) · the classical 心性 portrait in one line (偏印: unorthodox absorption, solitary mastery, intake that starves output · 正印: shelter, over-protection · 食神: ease, appetite · 伤官: brilliance, defiance · 七杀: pressure as clarity · and so on) · the cost dimension and arena · the three ruled domain words · the sibling (the other polarity of the same family) for the sibling test.
+Persona name and definition line · keyword and charge · pole nouns (Vision / Distance) · family function (比劫 Body · 印 Mind · 食伤 Expression · 财 Action · 官杀 Order) · the cost dimension and arena · the three ruled domain words · the sibling (the other polarity of the same family) for the sibling test · the classical 心性 portrait in one line, the ten lines below (REA_02 §3, §4; REA_04 PART 2):
+
+| Persona | Classical portrait (one line, for the derivation chain's first step) |
+|---|---|
+| The Twin 比肩 | same nature, same register; the standard held to oneself; self-reliance that can wall others out |
+| The Rival 劫财 | same nature, different register; comparison as fuel; the race with no announced finish |
+| The Artisan 食神 | ease and appetite; output that flows without assertion; generous, content, prone to drift and indulgence |
+| The Virtuoso 伤官 | brilliance and defiance; output that exceeds its container; 傲物气高, cannot hold its tongue |
+| The Horizon 偏财 | wide-ranging engagement; opportunity sensed at a distance; windfall, generosity, the near things blur |
+| The Steward 正财 | methodical, directed acquisition; value built and kept; caution, thrift, the slow ledger |
+| The General 七杀 | pressure as clarity; the trial that forges; force without permission; peace felt as demotion |
+| The Magistrate 正官 | framework-mediated pressure; the standard that steadies; rank held by rules, rigidity as the shadow |
+| The Alchemist 偏印 | unorthodox absorption; solitary mastery; intake that starves output (枭神夺食) |
+| The Sage 正印 | shelter and nourishment that deepens without redirecting; over-protection, "not ready yet" as a place to stay |
 
 ### 2.5 · The ELEMENT_GOD pack (×50; REA_03 §4b; `ELEMENT_GOD/<element>_<god>.json`)
 
@@ -192,7 +215,7 @@ Card format: **field** · where it renders · register · person · budget · st
 - Sources: REA_16 §3 (portrait prose), §2c.
 
 **`STEM.gifts` and `STEM.shadows`** · Day Master page P4, one chip per open door · portrait (desc) and chip (phrase) · second person in desc · phrase ≤3w (or an admitted four-word idiom), desc 1–3 sentences · LIVE ×7 + ×7 per stem
-- Construct: seven gifts and seven shadows, `{phrase, dim, door, face, echo_of, desc}`. One echo face per door on each side; Body and Mind carry a second item (gift: the wide face from `carry.wide`; shadow: the excess face from `carry.excess`, or `carry_yin.excess` for the yin stem). `face` and `echo_of` are selection metadata, never rendered.
+- Construct: seven gifts and seven shadows, `{phrase, dim, door, face, echo_of, desc}`. One echo face per door on each side; Body and Mind carry a second item (gift: the wide face from `carry.wide`; shadow: the excess face from `carry.excess`, or `carry_yin.excess` for the yin stem). **The Body door is the self pair, which has no `carry.wide`: its wide gift is cut from the self pair's `definition_catalyst` ("plenty of the self") and its `echo_of` names that field.** The count is always 7 + 7. `face` and `echo_of` are selection metadata, never rendered.
 - Reasoning chain (THE POOL DERIVATION PROMPT): (1) read the named source field (`definition_catalyst` / `definition_friction` / `carry.wide` / `carry.excess`) and name its mechanism in one clause; (2) say the same mechanism in the stem's material, as something recognisable in a week of the reader's life, same mechanism, different noun, never a neighbouring mechanism and never the turn's imagery in place of the definition's; (3) cut the desc, one concrete image, the source's key noun or action still recognisable inside it; (4) cut the phrase LAST from the desc under the phrase law v6; (5) set the dim, the life-facet angle, ≤3 words, unique in the pool, never a restatement of the phrase.
 - Style: a gift is a capability of the material that holds on any chart of that stem (tempo and channel lifted out: "Stays decided", not "Quick to conclude"); a shadow is the function OVERGROWN, never underuse (underuse belongs to the carry card's SEEK rows); the desc may show the picture, the phrase stays plain.
 - Checks: pool shape 7+7 with Body and Mind doubled; every `echo_of` resolves; phrase ≤3w or admitted idiom; phrase ≠ dim; phrase unique across the ten pools; dim unique in the pool; zero dashes; the item read beside its source shows the same mechanism.
@@ -406,7 +429,7 @@ Card format: **field** · where it renders · register · person · budget · st
 | | |
 |---|---|
 | **Document** | REA_17 — The Generation Prompt Pack (master prompt · input pack · field cards) |
-| **Version** | 0.1 · 2026-09-21 (reverse-engineered at head `28ea4882`; DRAFT for owner review) |
+| **Version** | 0.2 · 2026-09-21 (after the blind replication test, Feedbacks/Deliverables/llm-ab-test-2026-09-21/01_PROMPT_REPLICATION_TEST.md: output contract, stated-missing-inputs rule, the self pair's wide face, the excess idiom sets, the eight wide openers, the ten classical portraits, the two angle drifts to refuse) · 0.1 · 2026-09-21 (reverse-engineered at head `28ea4882`) |
 | **Status** | DRAFT. Defines nothing new: compiles REA_01–REA_06, REA_16 and the station template cells into prompts. On any disagreement the source doc wins and this doc is corrected. |
 | **Companions** | REA_16 (voice canon and audit registry) · REA_03 (variables and budgets) · REA_02 (vocabulary) · REA_04 (sources, PART 8 translation protocol, PART 9 positioning) · REA_05 (station and pipeline) |
 | **Audience** | Anyone generating or comparing reading content: owner, authors, external models under test |
