@@ -69,6 +69,7 @@ Born 1995-04-29 at 18:00 in Beijing → pillars 乙亥 / 庚辰 / 庚寅 / 乙�
 | What data exists, its axis, budget, templates, the assembly model, open rulings | **REA_03 Reading_Generation_Schema** (+ xlsx twin in `Reading/Database/`) |
 | How templates are stored + piped into code/engine | **REA_05 Generation_Architecture** |
 | What order concepts are taught | **REA_06 Concept_Ladder** |
+| How every field is prompted for generation or comparison (master prompt, input pack per axis, one card per field) | **REA_17 Generation_Prompt_Pack** (DRAFT 2026-09-21) |
 | Why v2.1 decided what it decided | _ARCHIVE_Reading_V2.1_Reconciliation_Audit (record) |
 | The engine's math | **DEV_01** (Operations/Development/) |
 | The authored values themselves | `Elementum_App/src/content/` (runtime truth) · `Reading/Database/elementum_profile_database.html` (HTML twin) |

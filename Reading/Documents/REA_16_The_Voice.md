@@ -2,7 +2,7 @@
 
 > **Born 2026-08-05 (owner-ruled).** The operating law for HOW all reading content sounds. REA_03 dictates WHAT the variables are; REA_02 dictates the words they may use; THIS doc dictates the voice they speak in. Numbered REA_16 per the registry's append-only law (REA_07–15 are retired legacy ids — `Operations/README.md`). Research provenance: BIZ_03 (audience + competitor evidence, 2026-08-05) — that doc is the historical record; this doc is canon.
 
-**Position in the library:** REA_01 system · REA_02 words · REA_03 variables · REA_04 knowledge · REA_05 storage/piping · REA_06 teaching order · **REA_16 voice**.
+**Position in the library:** REA_01 system · REA_02 words · REA_03 variables · REA_04 knowledge · REA_05 storage/piping · REA_06 teaching order · **REA_16 voice** · REA_17 prompts (the assembled pack, DRAFT 2026-09-21).
 
 ---
 
