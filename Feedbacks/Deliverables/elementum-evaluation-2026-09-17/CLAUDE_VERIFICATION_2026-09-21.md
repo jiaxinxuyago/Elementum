@@ -133,13 +133,13 @@ Copy items, each a small edit, drafted for a row-by-row ruling. **Landed 2026-09
 | O7 | `木_七杀` [Hard-trained] outside | "The full program breaks everyone who tries it wholesale." | "Nobody manages the full program in one go." |
 | O8 | `木_正财` [Plays it safe] outside | "People bring you opportunities the way they feed a cautious animal, slowly and with both hands visible." | "People bring you opportunities gently, one at a time, with the exit left open." (editorial; the original may win) |
 
-Non-copy items (still open):
+Non-copy items (owner 2026-09-21: "close the non-copy items too, O9 to O13"):
 
-- **O9** FACE_CARD teasers (8 em-dashes, the 七杀 "sharpened by the trials" line): an unruled, unrendered surface. Rule the row or retire the field.
-- **O10** Dead fallback hygiene: "Domineering" in `GOD/qisha.json` adj_friction and `journeyData.js` ADJ_FRICTION → "Bossy", so the fallback matches the live axis if it ever fires.
-- **O11** M10 classical check of the Xin/Fire carry and D5's 三命通会 citation: blocked by the proxy; needs the owner's laptop.
-- **O12** Canon 9: the humanized-prose skill file's trailing dash allowance; gitignored, owner's laptop.
-- **O13** Spec §4/§8 test coverage: a boundary-matrix fixture set and the god-blend cases could be added to `qa-selection-fixtures.mjs`.
+- **O9 · CLOSED.** The ten face teasers are sign-free in the station (`GOD/*.json` face_teaser) and in the code twin (`FACE_CARD`): eight em-dashes to commas or periods, the 偏财 semicolon to a period, the rationed word "room" swapped three times (place, crowd, gatherings). The 七杀 line "sharpened by the trials you would never have chosen" stays: it names a pressure response, which the reassessment preserves. The REA_16 `code:reading#FACE_CARD` row is now locked, so the audit enforces it; the field remains unrendered on the journey (faces merged into the element screen 2026-08-19, R5 scope still open).
+- **O10 · CLOSED.** 七杀 "Domineering" → "Bossy" in REA_02 §4b, `GOD/qisha.json` and the `ADJ_FRICTION` fallback table, so the dead fallback matches the live `火_七杀` chip.
+- **O11 · LAPTOP.** Every classical-text route is blocked from this environment (wikisource, shidianguji, guoxuedashi, the web archive). Queued as a task card for the primary laptop together with O12: check 滴天髓 and 三命通會 for the 庚/辛 burial caveat and 窮通寶鑑 for the 辛/Fire condition, and document the result without changing the D5-ruled lines.
+- **O12 · LAPTOP.** The humanized-prose skill file is gitignored and absent from the cloud clone. Same task card: remove its trailing dash allowance and log the fix in REA_16 §6.
+- **O13 · CLOSED.** `tools/qa-selection-fixtures.mjs` now runs the boundary matrix and the god-blend matrix from spec §4 and §8. Classifier: 12 points around 0.5, 10, 20 and 40; Balanced guard at 39.9 / 40 / 40.1 and core 60. Assembled page turns: ten states across 0 / 1, 10 / 11, 19 / 20 and 39 / 40 for a wanted (Wood) and an unwanted (Earth) energy on a strong 庚, each asserting the right line (missing, catalyst turn, wide, excess, spared, thin, friction turn) and that no abundant wanted energy reads thin and no thin unwanted energy reads heavy. Ledger: single face 3 rows, 59.4 → 2+2, 60 and 60.6 → 2+1, reversed lead, 50/50 tie with the yang face leading, door rotation trait / scene / outside by position, card chips equal the ledger words, and a balanced face split never reads as the Balanced chart. One finding for the record: the model compares the rounded whole-percent share the card displays, so 59.5 to 59.9 read as 60 and take the 2+1 shape, in step with the shown number. All green at head.
 
 ## 8. Tally
 

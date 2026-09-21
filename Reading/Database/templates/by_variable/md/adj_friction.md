@@ -14,7 +14,7 @@
 | **The Virtuoso** | 伤官 | Rebellious · Over-exposed · Biting |
 | **The Horizon** | 偏财 | Restless · Overextended · Ungrounded |
 | **The Steward** | 正财 | Clenched · Risk-averse · Unyielding |
-| **The General** | 七杀 | Punishing · Domineering · Burned-out |
+| **The General** | 七杀 | Punishing · Bossy · Burned-out |
 | **The Magistrate** | 正官 | Conforming · Over-dutiful · Unbending |
 | **The Alchemist** | 偏印 | Aloof · Overthinking · Shut-off |
 | **The Sage** | 正印 | Passive · Over-protected · Inert |

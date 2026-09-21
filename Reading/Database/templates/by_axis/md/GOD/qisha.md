@@ -24,9 +24,9 @@
 | `pole_catalyst` | Command |
 | `pole_friction` | Harshness |
 | `adj_catalyst` | Decisive · Cool-headed · Battle-ready |
-| `adj_friction` | Punishing · Domineering · Burned-out |
+| `adj_friction` | Punishing · Bossy · Burned-out |
 | `face_kw` | Forging · Relentless · Decisive |
-| `face_teaser` | Pressure never asks your permission. You’re sharpened by the trials you would never have chosen. You meet the hard thing head-on where others flinch — decisive, and hard to rattle. The watch is for when force becomes a reflex on what only needed a lighter hand. |
+| `face_teaser` | Pressure never asks your permission. You’re sharpened by the trials you would never have chosen. You meet the hard thing head-on where others flinch, decisive and hard to rattle. The watch is for when force becomes a reflex on what only needed a lighter hand. |
 | `family_brief` | your authority & structure |
 | `family_clause` | the structure you answer to and grow into |
 | `family_element.appetite` | challenge, pressure, and the trials that forge you |

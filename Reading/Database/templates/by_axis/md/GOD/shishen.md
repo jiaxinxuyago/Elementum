@@ -26,7 +26,7 @@
 | `adj_catalyst` | Effortless · Warm · Generous |
 | `adj_friction` | Coasting · Indulgent · Unchallenged |
 | `face_kw` | Fluent · Generous · Easeful |
-| `face_teaser` | Ideas come easily and you give them away gladly. Creation, for you, is play before it is ever work. You make rooms lighter and tables fuller without seeming to try. The one caution is drift — when everything flows, it’s easy to coast past your best. |
+| `face_teaser` | Ideas come easily and you give them away gladly. Creation, for you, is play before it is ever work. You make gatherings lighter and tables fuller without seeming to try. The one caution is drift. When everything flows, it’s easy to coast past your best. |
 | `family_brief` | your output & expression |
 | `family_clause` | how you meet and remake the world |
 | `family_element.appetite` | making, voice, and the urge to put something into the world |

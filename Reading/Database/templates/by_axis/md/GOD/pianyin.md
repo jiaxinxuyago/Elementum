@@ -26,7 +26,7 @@
 | `adj_catalyst` | Intuitive · Penetrating · Inventive |
 | `adj_friction` | Aloof · Overthinking · Shut-off |
 | `face_kw` | Intuitive · Unorthodox · Transmuting |
-| `face_teaser` | You feed on the strange and the oblique — understanding tends to arrive sideways, rarely on cue. You turn raw, unpromising material into sense the way few others can. Original and self-sufficient, you think best alone. Just don’t let the wondering become a room you never leave. |
+| `face_teaser` | You feed on the strange and the oblique. Understanding tends to arrive sideways, rarely on cue. You turn raw, unpromising material into sense the way few others can. Original and self-sufficient, you think best alone. Just don’t let the wondering become a place you never leave. |
 | `family_brief` | your support & nourishment |
 | `family_clause` | the ground you’re built on |
 | `family_element.appetite` | insight, the oblique, and understanding that transmutes |

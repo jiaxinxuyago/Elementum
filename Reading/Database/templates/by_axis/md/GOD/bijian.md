@@ -26,7 +26,7 @@
 | `adj_catalyst` | Self-reliant · Steady · Unshakeable |
 | `adj_friction` | Walled-off · Solitary · Immovable |
 | `face_kw` | Independent · Resolute · Self-made |
-| `face_teaser` | You trust your own counsel first. Self-reliance is a strength — and, now and then, a wall others can’t get past. You begin without waiting for permission and finish without needing rescue. The art is knowing the moment standing alone costs more than it’s worth. |
+| `face_teaser` | You trust your own counsel first. Self-reliance is a strength, and now and then a wall others can’t get past. You begin without waiting for permission and finish without needing rescue. The art is knowing the moment standing alone costs more than it’s worth. |
 | `family_brief` | you |
 | `family_clause` | the self the other four energies turn around |
 | `family_element.appetite` | identity, autonomy, and the standard you hold yourself to |

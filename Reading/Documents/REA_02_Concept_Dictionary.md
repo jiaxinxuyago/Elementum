@@ -149,7 +149,7 @@ One sharp trait-noun per ten-god face; the two faces of each family are delibera
 | | 伤官 | The Virtuoso | Brilliance · fierce | **Spark** — Dazzling · Unruly · Rule-breaking | **Pushback** — Rebellious · Over-exposed · Biting |
 | Wealth 财 → **Drive** | 偏财 | The Horizon | Reach · dynamic | **Momentum** — Resourceful · Venturing · Magnetic | **Scatter** — Restless · Overextended · Ungrounded |
 | | 正财 | The Steward | Caution · gentle | **Security** — Reliable · Compounding · Loyal | **Hoarding** — Clenched · Risk-averse · Unyielding |
-| Authority 官杀 → **Duty** | 七杀 | The General | Force · fierce | **Command** — Decisive · Cool-headed · Battle-ready | **Harshness** — Punishing · Domineering · Burned-out |
+| Authority 官杀 → **Duty** | 七杀 | The General | Force · fierce | **Command** — Decisive · Cool-headed · Battle-ready | **Harshness** — Punishing · Bossy · Burned-out |
 | | 正官 | The Magistrate | Order · gentle | **Integrity** — Principled · Trusted · Fair | **Rigidity** — Conforming · Over-dutiful · Unbending |
 | Resource 印 → **Root** | 偏印 | The Alchemist | Insight · fierce | **Vision** — Intuitive · Penetrating · Inventive | **Distance** — Aloof · Overthinking · Shut-off |
 | | 正印 | The Sage | Care · gentle | **Wisdom** — Patient · Sheltering · Recharging | **Comfort** — Passive · Over-protected · Inert |

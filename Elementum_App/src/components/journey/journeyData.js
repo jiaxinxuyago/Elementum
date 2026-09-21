@@ -104,7 +104,7 @@ export const ADJ_FRICTION = {
   '比肩': ['Walled-off', 'Solitary', 'Immovable'], '劫财': ['Combative', 'Envious', 'Reckless'],
   '食神': ['Coasting', 'Indulgent', 'Unchallenged'], '伤官': ['Rebellious', 'Over-exposed', 'Biting'],
   '偏财': ['Restless', 'Overextended', 'Ungrounded'], '正财': ['Clenched', 'Risk-averse', 'Unyielding'],
-  '七杀': ['Punishing', 'Domineering', 'Burned-out'], '正官': ['Conforming', 'Over-dutiful', 'Unbending'],
+  '七杀': ['Punishing', 'Bossy', 'Burned-out'], '正官': ['Conforming', 'Over-dutiful', 'Unbending'],
   '偏印': ['Aloof', 'Overthinking', 'Shut-off'], '正印': ['Passive', 'Over-protected', 'Inert'],
 };
 

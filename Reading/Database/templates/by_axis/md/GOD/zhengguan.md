@@ -26,7 +26,7 @@
 | `adj_catalyst` | Principled · Trusted · Fair |
 | `adj_friction` | Conforming · Over-dutiful · Unbending |
 | `face_kw` | Principled · Measured · Ordered |
-| `face_teaser` | A discipline to grow into: measured authority that holds the line without forcing it. People trust you with responsibility because you carry it evenly. You’d rather be fair than feared, and it shows. The caution is rigidity — keeping the rule after it has outlived its reason. |
+| `face_teaser` | A discipline to grow into: measured authority that holds the line without forcing it. People trust you with responsibility because you carry it evenly. You’d rather be fair than feared, and it shows. The caution is rigidity, keeping the rule after it has outlived its reason. |
 | `family_brief` | your authority & structure |
 | `family_clause` | the structure you answer to and grow into |
 | `family_element.appetite` | order, duty, and the structure worth answering to |

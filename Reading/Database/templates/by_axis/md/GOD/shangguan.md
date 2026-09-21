@@ -26,7 +26,7 @@
 | `adj_catalyst` | Dazzling · Unruly · Rule-breaking |
 | `adj_friction` | Rebellious · Over-exposed · Biting |
 | `face_kw` | Brilliant · Unruly · Daring |
-| `face_teaser` | You dazzle when you break form. The same spark that wins the room can unsettle the ones who run it. You’d rather be brilliant than merely correct — and often you’re both. The craft is aiming it where invention is wanted, not just where rules happen to be. |
+| `face_teaser` | You dazzle when you break form. The same spark that wins the crowd can unsettle the ones who run it. You’d rather be brilliant than merely correct, and often you’re both. The craft is aiming it where invention is wanted, not just where rules happen to be. |
 | `family_brief` | your output & expression |
 | `family_clause` | how you meet and remake the world |
 | `family_element.appetite` | brilliance, invention, and expression that bends the rules |

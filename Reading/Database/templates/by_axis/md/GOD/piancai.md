@@ -26,7 +26,7 @@
 | `adj_catalyst` | Resourceful · Venturing · Magnetic |
 | `adj_friction` | Restless · Overextended · Ungrounded |
 | `face_kw` | Expansive · Sensing · Distant |
-| `face_teaser` | You read money as movement — pulled toward the deal on the horizon more than the one already in hand. Opportunity registers at a distance, and you back the bet others hesitate on. Windfall energizes you; routine quietly bores you. The skill is choosing which horizons are actually worth crossing. |
+| `face_teaser` | You read money as movement, pulled toward the deal on the horizon more than the one already in hand. Opportunity registers at a distance, and you back the bet others hesitate on. Windfall energizes you. Routine quietly bores you. The skill is choosing which horizons are actually worth crossing. |
 | `family_brief` | your wealth & desire |
 | `family_clause` | everything you treat as worth having and keeping |
 | `family_element.appetite` | value, growth, and the things worth having |
