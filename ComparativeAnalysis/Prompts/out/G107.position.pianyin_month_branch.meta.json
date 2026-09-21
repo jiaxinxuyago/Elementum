@@ -49,7 +49,7 @@
  "zone": false,
  "zoneBlock": false,
  "shape": "{\"reading\": \"...\", \"teaser\": \"...\", \"domain_readings\": {\"Mind\": \"...\", \"Growth\": \"...\", \"Career\": \"...\"}}",
- "promptWords": 4321,
+ "promptWords": 4335,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:04.912Z"
+ "assembledAt": "2026-09-21T23:34:43.548Z"
 }

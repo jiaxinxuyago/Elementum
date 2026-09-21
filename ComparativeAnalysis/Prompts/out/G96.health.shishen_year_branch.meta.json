@@ -34,14 +34,14 @@
   "turn_friction": "Run heavy, ease becomes indulgence here: comfort eaten past nourishment. Keep the feasts, add the fasts.",
   "shadow_line": "Overloaded, this root drifts: sweetness used as sedative, the couch quietly winning years.",
   "domain_readings.Family": "Your family root carries sweetness: somewhere in the early line, nurture was generous, and it still reaches you as an instinct for kinship and comfort. You gather relatives the way hearths gather chairs. Keep the recipes and the rituals. They are the family’s actual inheritance, and you are their keeper.",
-  "domain_readings.Health": "Your constitution is fundamentally friendly: good digestion of food and of life, recovery that arrives with rest and a proper meal. The risks are indulgence-shaped rather than fragility-shaped. Keep pleasure rhythmic, feast and fast in gentle alternation, and this body will carry you further than most."
+  "domain_readings.Health": "Your constitution is a friendly one: good digestion of food and of life, recovery that arrives with rest and a proper meal. The risks are indulgence-shaped rather than fragility-shaped. Keep pleasure rhythmic, feast and fast in gentle alternation, and this body will carry you further than most."
  },
  "repBlock": false,
  "swapGram": null,
  "zone": false,
  "zoneBlock": false,
  "shape": "{\"health_line\": \"...\"}",
- "promptWords": 4171,
+ "promptWords": 4186,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:04.898Z"
+ "assembledAt": "2026-09-21T23:34:43.522Z"
 }

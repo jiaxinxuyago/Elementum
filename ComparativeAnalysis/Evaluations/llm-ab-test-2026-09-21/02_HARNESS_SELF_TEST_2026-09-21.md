@@ -38,3 +38,20 @@ After the folder reorganisation (`Feedbacks/` → `ComparativeAnalysis/`, the pr
 What the addendum shows: the words often, sometimes, may and tends to appear in the shipping corpus as frequency and meaning words, not only as reflex hedges. The mechanical rule as the pack states it cannot tell the two apart. The owner's ruling on A10 (keep the list mechanical and re-cut the corpus, or narrow the mechanical rule to a shorter reflex list and leave the rest to the read) decides seven of these ten rows and every future candidate.
 
 Two validator corrections made while gating the full set, so the numbers above are the corpus's, not the tool's: the manifesto's identity formula ("You are the Metal that…") is shared by all ten stems on purpose (REA_16 §3), so the cross-stem four-gram check no longer runs on manifestos and the card file was corrected; the "scene door carries an object or a clock time" and "outside door opens from other people" checks were heuristics that seven shipping doors did not match, so they are now notes for the reader, not gate failures.
+
+## The rulings (owner, 2026-09-21, questionnaire Q0–Q8) and what landed
+
+| Q | Field | Before | After | Ruling |
+|---|---|---|---|---|
+| Q0 | the hedge rule (A10) | often / sometimes / may / tends to blocked everywhere (the pack's list; never enforced on the corpus) | only reflex forms block ("you may feel", "tends to be", "sometimes you", "often you"); frequency words inside a claim or a directive are lawful, the read judges them | narrow; the seven flagged lines stand |
+| Q1 | `piancai_day_branch.reading` | "…and your fortune genuinely likes it that way." | "…and your fortune likes it that way." | cut the word |
+| Q1 | `水_食神.fn_reading.catalyst.ledger[0].doors.trait` | "You genuinely do not know where the words are before they arrive." | "You do not know where the words are before they arrive." | cut the word |
+| Q1 | `shishen_year_branch.domain_readings.Health` | "Your constitution is fundamentally friendly: good digestion…" | "Your constitution is a friendly one: good digestion…" | cut the word |
+| Q2 | dim law (G3) | ≤3 words | ≤4 words; "the work you pick" and "the edge of attention" stand | widen |
+| Q3 | desc law (G4) | 1–3 sentences | 1–4 sentences; the two 辛 descs stand | widen |
+| Q5 | `木_偏财.k2_domain_readings.Father` | "The father-thread runs green and rangy: a paternal figure of journeys, enterprises, or restlessness. His pattern of reaching shaped yours. Keep the reach, and plant the roots he may have skipped." | "The father-thread runs green and rangy: reach, enterprise, restlessness, wherever a paternal figure stood. Where that reaching shaped you, keep it. Where it left no roots, plant them yourself." | the conditional shape |
+| Q6 | `金_木.carry_yin.catalyst.clause` | "The wheel has nothing to cut: skill idling without a stone worth it." | "The point has nothing to work: skill idling without a piece worth it." (remedy inherited) | cut from the yin turn |
+| Q7 | `木_偏财.adj_chips.catalyst[1]` and `fn_reading.catalyst.ledger[1].word` | Enterprising | Deal-maker | the report-card ban applied |
+| Q8 | `zhengcai_year_stem.turn_catalyst` · `turn_friction` | "With this energy thin in you, the seat asks for practice: …" · "With this energy running heavy, the seat over-counts: …" | "Run thin, the seat asks for practice: …" · "Run heavy, the seat over-counts: …" | the opener formula |
+
+Landed 2026-09-21 through the pipeline: station JSON → `build-template-twins.mjs` → deliberate transcription into `positions.js`, `k2.js`, `pairs.js` → `export-reading-templates.mjs` in sync across 240 files → voice audit clean → selection fixtures green. Logged in REA_16 §6, the rules register and the prompt files' iteration logs.

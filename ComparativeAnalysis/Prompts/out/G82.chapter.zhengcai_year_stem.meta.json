@@ -29,8 +29,8 @@
   "teaser": "You learned early what things cost, and it shows in how carefully you build. Money grows for you the slow way, and it starts close to home.",
   "reading": "This position rules Wealth and Family, and it rules them from your beginnings. The Steward stood openly at your Year Gate: a household that provided by planning, elders who counted carefully, a childhood where money had rules and the rules mostly held. The world still reads that face on you, dependable and early to save. Money learned young stays learned: your fortune keeps favoring the long way around. Through the family line come your steadiest assets, advice worth taking and sometimes property worth keeping. Honor the thrift you inherited, and spend on purpose now and then. Permission to enjoy it is part of the estate.",
   "relations": "Elders are this seat’s people: a provident parent or grandparent whose carefulness reached you as safety. Honor arrives through them, and duty flows back. Expect to be the relative others trust with arrangements, and let that trust stay a role rather than a debt.",
-  "turn_catalyst": "With this energy thin in you, the seat asks for practice: budget something small monthly. Order grows the way savings do, by deposit.",
-  "turn_friction": "With this energy running heavy, the seat over-counts: generosity waits on spreadsheets. Loosen one ledger and let someone treat you.",
+  "turn_catalyst": "Run thin, the seat asks for practice: budget something small monthly. Order grows the way savings do, by deposit.",
+  "turn_friction": "Run heavy, the seat over-counts: generosity waits on spreadsheets. Loosen one ledger and let someone treat you.",
   "shadow_line": "Overloaded, prudence turns miserly here: joy postponed for a rainy day that never gets invited.",
   "health_line": "The body budgets like you do: it thrives on regular hours and resents sudden splurges of effort. Keep the routines honest and it keeps the books balanced.",
   "domain_readings.Wealth": "Money entered your life with rules attached, and the rules took. You save younger than most, spend with a list, and quietly compound while louder people perform wealth. The curve stays boring and rising. Trust it: your fortune is built like a wall, one considered brick at a time.",
@@ -41,7 +41,7 @@
  "zone": false,
  "zoneBlock": false,
  "shape": "{\"life_chapter\": \"...\"}",
- "promptWords": 4177,
+ "promptWords": 4184,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:04.878Z"
+ "assembledAt": "2026-09-21T23:34:43.500Z"
 }

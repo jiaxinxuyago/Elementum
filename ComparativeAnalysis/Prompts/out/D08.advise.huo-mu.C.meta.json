@@ -82,7 +82,7 @@
  "zone": true,
  "zoneBlock": false,
  "shape": "{\"advise_catalyst\": \"...\"}",
- "promptWords": 4500,
+ "promptWords": 4514,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:05.067Z"
+ "assembledAt": "2026-09-21T23:34:43.207Z"
 }

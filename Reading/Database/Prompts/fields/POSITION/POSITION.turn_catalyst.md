@@ -23,3 +23,4 @@ PROMPT = `00_MASTER_PROMPT.md` + `01_INPUT_PACK.md` (the axis pack, filled from 
 | Date | Change | Ruling |
 |---|---|---|
 | 2026-09-21 | Born from REA_17 v0.3 | compilation, no new rule |
+| 2026-09-21 | The opener formula is a check, not a convention: zhengcai_year_stem re-cut, 70 of 70 now open "Run thin, / Run heavy," | owner ruling Q8 |

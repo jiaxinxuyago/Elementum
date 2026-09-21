@@ -45,7 +45,7 @@
  "zone": false,
  "zoneBlock": false,
  "shape": "{\"reading\": \"...\", \"teaser\": \"...\", \"domain_readings\": {\"Career\": \"...\", \"Social\": \"...\"}}",
- "promptWords": 4377,
+ "promptWords": 4391,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:04.903Z"
+ "assembledAt": "2026-09-21T23:34:43.527Z"
 }

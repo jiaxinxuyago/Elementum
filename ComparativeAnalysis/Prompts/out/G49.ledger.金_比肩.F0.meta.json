@@ -61,7 +61,7 @@
  "zone": true,
  "zoneBlock": false,
  "shape": "{\"word\": \"Sealed-off\", \"doors\": {\"trait\": \"...\", \"scene\": \"...\", \"outside\": \"...\"}}",
- "promptWords": 4607,
+ "promptWords": 4621,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:04.826Z"
+ "assembledAt": "2026-09-21T23:34:43.443Z"
 }

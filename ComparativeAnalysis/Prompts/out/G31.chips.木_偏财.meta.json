@@ -25,7 +25,7 @@
  "original": {
   "catalyst": [
    "Wide-branching",
-   "Enterprising",
+   "Deal-maker",
    "Open-handed"
   ],
   "friction": [
@@ -40,7 +40,7 @@
  "zone": true,
  "zoneBlock": true,
  "shape": "{\"catalyst\": [3 strings], \"friction\": [3 strings]}",
- "promptWords": 4126,
+ "promptWords": 4138,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:04.797Z"
+ "assembledAt": "2026-09-21T23:34:43.412Z"
 }

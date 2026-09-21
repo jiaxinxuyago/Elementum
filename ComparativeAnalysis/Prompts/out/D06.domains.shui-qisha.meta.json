@@ -90,7 +90,7 @@
  "zone": false,
  "zoneBlock": false,
  "shape": "{\"Pressure\": \"...\", \"Command\": \"...\", \"Crisis\": \"...\"}",
- "promptWords": 4075,
+ "promptWords": 4089,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:05.065Z"
+ "assembledAt": "2026-09-21T23:34:43.205Z"
 }

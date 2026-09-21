@@ -61,7 +61,7 @@
  "zone": true,
  "zoneBlock": false,
  "shape": "{\"word\": \"Rigid\", \"doors\": {\"trait\": \"...\", \"scene\": \"...\", \"outside\": \"...\"}}",
- "promptWords": 4591,
+ "promptWords": 4605,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:04.828Z"
+ "assembledAt": "2026-09-21T23:34:43.445Z"
 }

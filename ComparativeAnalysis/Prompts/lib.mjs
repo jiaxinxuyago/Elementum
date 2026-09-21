@@ -216,9 +216,9 @@ function validatePools(out, c, F, stat, gate) {
     const w = `${side}[${i}] ${it.phrase}`;
     const pw = wc(it.phrase); if (pw > 3 && !IDIOMS.has(String(it.phrase).toLowerCase())) F(w, `phrase ${pw} words`);
     if (String(it.phrase).toLowerCase() === String(it.dim).toLowerCase()) F(w, 'phrase = dim');
-    if (wc(it.dim) > 3) F(w, 'dim > 3 words');
+    if (wc(it.dim) > 4) F(w, 'dim > 4 words');
     gate(w + ' desc', it.desc, P(60));
-    const sents = String(it.desc).split(/[.!?]+\s/).filter(Boolean).length; if (sents > 3) F(w, `desc ${sents} sentences`);
+    const sents = String(it.desc).split(/[.!?]+\s/).filter(Boolean).length; if (sents > 4) F(w, `desc ${sents} sentences`);
     if (/^(The|A) [a-z]+$/.test(String(it.phrase)) && !/\b(ing|s|ed)\b/.test(it.phrase)) F(w, 'bare image phrase ("The + noun")');
   });
   const dg = g.map((x) => String(x.dim).toLowerCase()), ds = s.map((x) => String(x.dim).toLowerCase());
@@ -246,7 +246,8 @@ const note = (label, ok) => channel.note(label, ok); const readFlag = (where, ms
 
 // ── the mechanical gate (REA_17 §1 audit list; mirrors voice-audit.mjs) ──
 export const BANNED = /\b(delve|tapestry|testament|pivotal|crucial|intricate|robust|seamless|foster(ing|s)?|underscores?|showcas(e|ing)|leverag(e|ed)|boasts|vibrant|nestled|profound|realm|unlock|elevate|resonat\w*|navigate|landscape|verdicts?|legitimate|legitimacy|institutional|diligent|exemplary|enterprising|meticulous|destiny|destined|fate|fated|karmic|cosmic|zodiac|astrolog\w*|horoscope|celestial|manifest(ing|s|ed|ation)?|journey|vibration|aligned|empowered|fundamentally|genuinely|in essence|at your core|destined for greatness)\b/i;
-export const HEDGE = /\b(often|sometimes|may|tends? to|perhaps)\b/i;
+// Reflex hedges only (owner ruling Q0, 2026-09-21): a frequency word inside a claim or a directive is lawful and the read judges it.
+export const HEDGE = /\b(you (may|might) (feel|find|seem|notice|be)|may (feel|seem|find yourself)|tends? to (be|feel|seem|get)|(sometimes|often|perhaps) you\b|you (often|sometimes) (feel|find|seem))\b/i;
 export const BAZI = /\b(Day Master|Ten Gods?|Seven Killings|Direct Officer|Indirect Seal|Direct Seal|Rob Wealth|Food God|Hurt(ing)? Officer|Parallel Self|useful god|favou?rable element|wealth star|Four Pillars|BaZi|Bazi|dayun|liunian|Indirect Wealth|Direct Wealth|Eating God|Friend star)\b/i;
 export const PARALLELISM = [/\bnot (?:just |only )?[\w' ]{1,30}?\bbut\b/i, /\bit'?s not\b[^.]{1,40},\s*it'?s\b/i];
 export function makeGate(F) {

@@ -45,7 +45,7 @@
      "door": "trait"
     },
     {
-     "word": "Enterprising",
+     "word": "Deal-maker",
      "god": "偏财",
      "door": "scene"
     },
@@ -72,7 +72,7 @@
   "k2_functional": "You grow toward opportunity steadily, extending reach every season without retreating.",
   "k2_domain_readings.Opportunity": "Opportunities appear to you as open land: markets unplanted, niches unclaimed. You see fertile ground others call wilderness. Scout it, but check the soil before transplanting everything.",
   "k2_domain_readings.Ventures": "Your ventures grow in groves: several trunks sharing a root system of skills and contacts. Let each mature before seeding the next. Orchards fail from planting fever, not planting.",
-  "k2_domain_readings.Father": "The father-thread runs green and rangy: a paternal figure of journeys, enterprises, or restlessness. His pattern of reaching shaped yours. Keep the reach, and plant the roots he may have skipped.",
+  "k2_domain_readings.Father": "The father-thread runs green and rangy: reach, enterprise, restlessness, wherever a paternal figure stood. Where that reaching shaped you, keep it. Where it left no roots, plant them yourself.",
   "fn_reading.catalyst.ledger[1].doors.trait": "Seeing the opening before others see the wall is your standing advantage. Where most people need proof, you need one walk past the site, and the plan assembles itself uninvited. Most of what you imagine stays imaginary. The fraction you build pays for the whole habit.",
   "fn_reading.catalyst.ledger[1].doors.scene": "You walked past the empty lot once and the café appeared in your head, tables and all, a year before anyone else saw potential. By the time the neighborhood caught up, you had already moved on twice. Early is the only schedule you have ever kept.",
   "fn_reading.catalyst.ledger[1].doors.outside": "Friends have learned to listen when you point at nothing and describe a business. Half your ideas sound absurd on the sidewalk and obvious five years later. The people who laughed at the first one quietly ask about the next.",
@@ -96,7 +96,7 @@
  "zone": true,
  "zoneBlock": false,
  "shape": "{\"word\": \"Wide-branching\", \"doors\": {\"trait\": \"...\", \"scene\": \"...\", \"outside\": \"...\"}}",
- "promptWords": 4573,
+ "promptWords": 4585,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:05.077Z"
+ "assembledAt": "2026-09-21T23:34:43.218Z"
 }

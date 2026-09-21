@@ -27,3 +27,4 @@ PROMPT = `00_MASTER_PROMPT.md` + `01_INPUT_PACK.md` (the axis pack, filled from 
 | Date | Change | Ruling |
 |---|---|---|
 | 2026-09-21 | Born from REA_17 v0.3 | compilation, no new rule |
+| 2026-09-21 | 木_偏财 catalyst chip Enterprising → Deal-maker (the report-card ban applied to the corpus; the ledger row word follows the chip) | owner ruling Q7 |

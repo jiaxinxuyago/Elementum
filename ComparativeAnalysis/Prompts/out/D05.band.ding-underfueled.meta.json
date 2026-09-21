@@ -40,7 +40,7 @@
  "zone": false,
  "zoneBlock": false,
  "shape": "{\"yourNature_desc\": \"...\", \"self_card\": {\"face\": \"...\", \"presence\": \"...\"}}",
- "promptWords": 4348,
+ "promptWords": 4362,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:05.064Z"
+ "assembledAt": "2026-09-21T23:34:43.203Z"
 }

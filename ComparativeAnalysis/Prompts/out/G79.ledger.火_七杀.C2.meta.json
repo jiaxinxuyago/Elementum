@@ -61,7 +61,7 @@
  "zone": true,
  "zoneBlock": false,
  "shape": "{\"word\": \"Crisis-ready\", \"doors\": {\"trait\": \"...\", \"scene\": \"...\", \"outside\": \"...\"}}",
- "promptWords": 4580,
+ "promptWords": 4594,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:04.873Z"
+ "assembledAt": "2026-09-21T23:34:43.495Z"
 }

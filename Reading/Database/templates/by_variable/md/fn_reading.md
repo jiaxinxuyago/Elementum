@@ -710,7 +710,7 @@
 | `catalyst.ledger[0].doors.trait` | Your effort naturally runs in several directions at once, and the directions feed each other more than they collide. Focus, as commonly preached, never fit you: your luck lives in the overlaps, where one venture waters the next. So you stopped apologizing for the branching. |
 | `catalyst.ledger[0].doors.scene` | The supplier from the first venture became the landlord of the second, and a customer from the second just introduced the third. On paper it is three businesses in two cities. In practice it is one root system wearing three names, and it feeds itself. |
 | `catalyst.ledger[0].doors.outside` | People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on. |
-| `catalyst.ledger[1].word` | Enterprising |
+| `catalyst.ledger[1].word` | Deal-maker |
 | `catalyst.ledger[1].doors.trait` | Seeing the opening before others see the wall is your standing advantage. Where most people need proof, you need one walk past the site, and the plan assembles itself uninvited. Most of what you imagine stays imaginary. The fraction you build pays for the whole habit. |
 | `catalyst.ledger[1].doors.scene` | You walked past the empty lot once and the café appeared in your head, tables and all, a year before anyone else saw potential. By the time the neighborhood caught up, you had already moved on twice. Early is the only schedule you have ever kept. |
 | `catalyst.ledger[1].doors.outside` | Friends have learned to listen when you point at nothing and describe a business. Half your ideas sound absurd on the sidewalk and obvious five years later. The people who laughed at the first one quietly ask about the next. |
@@ -939,7 +939,7 @@
 | Field | Value |
 |---|---|
 | `catalyst.ledger[0].word` | Fluent |
-| `catalyst.ledger[0].doors.trait` | Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You genuinely do not know where the words are before they arrive. They just do. |
+| `catalyst.ledger[0].doors.trait` | Expression comes to you the way walking comes to other people, without assembly or rehearsal. What costs everyone else three drafts costs you a breath, and the ease is invisible from inside. You do not know where the words are before they arrive. They just do. |
 | `catalyst.ledger[0].doors.scene` | The toast happened because someone handed you a glass and the moment was there. There were no notes and there was no plan, and it landed so well the couple still quotes it. You forgot it by dessert, the way a river forgets water it has already carried. |
 | `catalyst.ledger[0].doors.outside` | People prepare for days to do what you do between bites. They notice, too. Half the invitations you get are really requests for you to come and make the talking easy, and you have never once thought of it as work. |
 | `catalyst.ledger[1].word` | Nourishing |

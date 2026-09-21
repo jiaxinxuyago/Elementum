@@ -30,7 +30,7 @@
 | `domain_readings.Family` | Family, for you, is a well-run estate more than a stage: obligations met, elders honored, help that arrives as groceries and paid bills rather than speeches. You may become the family treasurer early. Accept the role, set its limits in writing, and it becomes an honor rather than a tax. |
 | `life_chapter` | Your early chapter ran on order: money named, chores real, promises kept in front of you. Whatever else childhood held, it taught account-keeping early, and the habits you formed before sixteen remain the quiet architecture of every budget you have balanced since. |
 | `relations` | Elders are this seat’s people: a provident parent or grandparent whose carefulness reached you as safety. Honor arrives through them, and duty flows back. Expect to be the relative others trust with arrangements, and let that trust stay a role rather than a debt. |
-| `turn_catalyst` | With this energy thin in you, the seat asks for practice: budget something small monthly. Order grows the way savings do, by deposit. |
-| `turn_friction` | With this energy running heavy, the seat over-counts: generosity waits on spreadsheets. Loosen one ledger and let someone treat you. |
+| `turn_catalyst` | Run thin, the seat asks for practice: budget something small monthly. Order grows the way savings do, by deposit. |
+| `turn_friction` | Run heavy, the seat over-counts: generosity waits on spreadsheets. Loosen one ledger and let someone treat you. |
 | `shadow_line` | Overloaded, prudence turns miserly here: joy postponed for a rainy day that never gets invited. |
 | `health_line` | The body budgets like you do: it thrives on regular hours and resents sudden splurges of effort. Keep the routines honest and it keeps the books balanced. |

@@ -44,7 +44,7 @@
      "door": "trait"
     },
     {
-     "word": "Enterprising",
+     "word": "Deal-maker",
      "god": "偏财",
      "door": "scene"
     },
@@ -61,7 +61,7 @@
  "original": {
   "Opportunity": "Opportunities appear to you as open land: markets unplanted, niches unclaimed. You see fertile ground others call wilderness. Scout it, but check the soil before transplanting everything.",
   "Ventures": "Your ventures grow in groves: several trunks sharing a root system of skills and contacts. Let each mature before seeding the next. Orchards fail from planting fever, not planting.",
-  "Father": "The father-thread runs green and rangy: a paternal figure of journeys, enterprises, or restlessness. His pattern of reaching shaped yours. Keep the reach, and plant the roots he may have skipped."
+  "Father": "The father-thread runs green and rangy: reach, enterprise, restlessness, wherever a paternal figure stood. Where that reaching shaped you, keep it. Where it left no roots, plant them yourself."
  },
  "repFields": {
   "k2_overview": "Your Wood moves as the Horizon: growth that reaches for distant light. Opportunity, for you, is territory: new markets, new cities, branches extended where no one from home has grown. You expand naturally and prune reluctantly. Fortune arrives through the reaching. Roots decide how much of it you keep.",
@@ -90,7 +90,7 @@
  "zone": false,
  "zoneBlock": false,
  "shape": "{\"Opportunity\": \"...\", \"Ventures\": \"...\", \"Father\": \"...\"}",
- "promptWords": 4056,
+ "promptWords": 4070,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:05.079Z"
+ "assembledAt": "2026-09-21T23:34:43.221Z"
 }

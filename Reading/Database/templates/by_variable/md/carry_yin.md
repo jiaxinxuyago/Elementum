@@ -67,7 +67,7 @@
 
 | Field | Value |
 |---|---|
-| `catalyst.clause` | The wheel has nothing to cut: skill idling without a stone worth it. |
+| `catalyst.clause` | The point has nothing to work: skill idling without a piece worth it. |
 | `friction.clause` | The cutting never stops: trays of half-set stones, a facet worn on material that never ends. |
 | `friction.remedy` | Cut fewer stones, and finish them. |
 | `wide.clause` | Wood is already here in plenty, the material the wheel is for. |

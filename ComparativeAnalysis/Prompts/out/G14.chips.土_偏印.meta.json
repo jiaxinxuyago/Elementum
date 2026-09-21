@@ -40,7 +40,7 @@
  "zone": true,
  "zoneBlock": true,
  "shape": "{\"catalyst\": [3 strings], \"friction\": [3 strings]}",
- "promptWords": 4182,
+ "promptWords": 4196,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:04.769Z"
+ "assembledAt": "2026-09-21T23:34:43.380Z"
 }

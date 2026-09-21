@@ -178,7 +178,7 @@
 
 | Field | Value |
 |---|---|
-| `catalyst` | Wide-branching · Enterprising · Open-handed |
+| `catalyst` | Wide-branching · Deal-maker · Open-handed |
 | `friction` | Scattered · Overgrown · Fickle |
 
 ### The Steward · 木_正财

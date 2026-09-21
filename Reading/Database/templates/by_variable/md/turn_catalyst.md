@@ -43,7 +43,7 @@
 | **The Horizon inside the Day Gate** | 偏财在日支 | Run thin, the seat wants circulation: accept the invitations for one season and let the household fill. |
 | **The Horizon at the Hour Gate** | 偏财在时干 | Run thin, the door drifts shut: range intact, ventures postponed. Open one this year, sized kindly. The chapter stays wide only in use. |
 | **The Horizon inside the Hour Gate** | 偏财在时支 | Run thin, the gatherings thin too: distances winning by default. Book the reunion. This root is maintained, never inherited. |
-| **The Steward at the Year Gate** | 正财在年干 | With this energy thin in you, the seat asks for practice: budget something small monthly. Order grows the way savings do, by deposit. |
+| **The Steward at the Year Gate** | 正财在年干 | Run thin, the seat asks for practice: budget something small monthly. Order grows the way savings do, by deposit. |
 | **The Steward inside the Year Gate** | 正财在年支 | Run thin, the root underclaims: stability inherited, never quite trusted. Start the smallest steady account this month and watch the temperament wake. |
 | **The Steward at the Month Gate** | 正财在月干 | Run thin, the trust goes unclaimed: reliable work, invisible reliability. Ask for the raise this quarter. The ledger supports the request. |
 | **The Steward inside the Month Gate** | 正财在月支 | Run thin, the bedrock waits unbuilt: patience present, first courses unlaid. Start the boring valuable thing now. Time is the other ingredient. |

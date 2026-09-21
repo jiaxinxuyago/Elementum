@@ -96,7 +96,7 @@
  "zone": true,
  "zoneBlock": false,
  "shape": "{\"word\": \"Chilling\", \"doors\": {\"trait\": \"...\", \"scene\": \"...\", \"outside\": \"...\"}}",
- "promptWords": 4576,
+ "promptWords": 4590,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:05.063Z"
+ "assembledAt": "2026-09-21T23:34:43.202Z"
 }

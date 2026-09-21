@@ -24,7 +24,7 @@
   "cell": "piancai_day_branch"
  },
  "original": {
-  "reading": "This position rules Love, Social, and Wealth, and it works from your marriage palace. The Horizon lives inside your Day Gate: at close range you are drawn to people with reach, partners who know somebody everywhere and see openings you would walk past. The adult chapters of your life gain range through the one beside you: introductions, ventures, money that moves because the household is connected. Your home tends toward open doors and full calendars, and your fortune genuinely likes it that way. The watch-point is scatter. Choose a partner whose breadth comes with a center, and anchor the shared accounts somewhere steady. Then let the doors keep opening. They are your weather.",
+  "reading": "This position rules Love, Social, and Wealth, and it works from your marriage palace. The Horizon lives inside your Day Gate: at close range you are drawn to people with reach, partners who know somebody everywhere and see openings you would walk past. The adult chapters of your life gain range through the one beside you: introductions, ventures, money that moves because the household is connected. Your home tends toward open doors and full calendars, and your fortune likes it that way. The watch-point is scatter. Choose a partner whose breadth comes with a center, and anchor the shared accounts somewhere steady. Then let the doors keep opening. They are your weather.",
   "teaser": "You are drawn to partners with range, people who open doors you would not find alone. Marriage, for you, is also where opportunity walks in.",
   "domain_readings": {
    "Love": "In love you are drawn to range: partners with reach, plans, and a suitcase half-packed. Romance for you needs a horizon in it, shared ventures, travel, the next thing planned at breakfast. Choose a partner whose breadth has a center, and the marriage stays an expedition rather than a drift.",
@@ -46,7 +46,7 @@
  "zone": false,
  "zoneBlock": false,
  "shape": "{\"reading\": \"...\", \"teaser\": \"...\", \"domain_readings\": {\"Love\": \"...\", \"Social\": \"...\", \"Wealth\": \"...\"}}",
- "promptWords": 4382,
+ "promptWords": 4396,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:05.041Z"
+ "assembledAt": "2026-09-21T23:34:43.170Z"
 }

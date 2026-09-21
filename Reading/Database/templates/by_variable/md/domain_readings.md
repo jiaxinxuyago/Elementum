@@ -117,7 +117,7 @@
 | Field | Value |
 |---|---|
 | `Family` | Your family root carries sweetness: somewhere in the early line, nurture was generous, and it still reaches you as an instinct for kinship and comfort. You gather relatives the way hearths gather chairs. Keep the recipes and the rituals. They are the family’s actual inheritance, and you are their keeper. |
-| `Health` | Your constitution is fundamentally friendly: good digestion of food and of life, recovery that arrives with rest and a proper meal. The risks are indulgence-shaped rather than fragility-shaped. Keep pleasure rhythmic, feast and fast in gentle alternation, and this body will carry you further than most. |
+| `Health` | Your constitution is a friendly one: good digestion of food and of life, recovery that arrives with rest and a proper meal. The risks are indulgence-shaped rather than fragility-shaped. Keep pleasure rhythmic, feast and fast in gentle alternation, and this body will carry you further than most. |
 
 ### The Artisan at the Month Gate · 食神在月干
 

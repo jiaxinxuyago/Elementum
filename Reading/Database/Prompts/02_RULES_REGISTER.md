@@ -15,7 +15,7 @@ _Prompt file (data). One row per rule. "Gate" says whether `ComparativeAnalysis/
 | A7 | No courtroom tier (verdict, legitimate, legitimacy, institutional) | REA_16 §1b (owner 2026-08-05) | harness · voice-audit | explicit |
 | A8 | No report-card register (diligent, exemplary, enterprising, meticulous); the friend's word lands (Bossy, not Domineering) | REA_16 §2c THE VOCABULARY ZONE; REA_04 §8.9 | harness | explicit |
 | A9 | No therapy jargon, no slang, no doom | REA_16 §2, §3 bans | read | explicit |
-| A10 | No hedging as a reflex: often, sometimes, may, tends to, perhaps | REA_16 §3 bans; the 2026-09-17 pack allows can / when / if where meaning needs them | harness (blocking; the owner rules meaning-bearing uses) · voice-audit does not carry it | explicit in REA_16; IMPLIED → EXPLICIT in the gate (violations 4 and 5) |
+| A10 | No reflex hedging: "you may feel", "tends to be", "sometimes you", "often you", "perhaps". A frequency word inside a claim or a directive ("often by way of the kitchen", "write things down early and often") is lawful; the read judges it | REA_16 §3 bans, narrowed by the owner 2026-09-21 (ruling Q0); the 2026-09-17 pack allows can / when / if where meaning needs them | harness (reflex forms only) · read (the rest) | RULED 2026-09-21 |
 | A11 | The plain word beats the precise one (the read, not the assessment; noticing, not discernment; the mix, not the configuration; what works, not optimal) | REA_16 §1b replacement table | read; the reader-zone check names the words | explicit |
 | A12 | "room" is rationed corpus-wide: avoid it | REA_16 §1b | harness · voice-audit | explicit |
 | A13 | The function page (definitions, advice, chips, the three-door ledger, the dot-card line, k2_functional) stays in the CEFR B1–B2 zone; chips in high-school vocabulary | REA_16 §2c THE VOCABULARY ZONE (owner 2026-09-04) | harness reader-zone check (chips block on any outside word; prose blocks past the corpus ceiling of 14 per 100 words) | explicit; the word-level check is new 2026-09-21 |
@@ -75,8 +75,8 @@ _Prompt file (data). One row per rule. "Gate" says whether `ComparativeAnalysis/
 |---|---|---|---|---|
 | G1 | Pool shape 7 + 7, one echo face per door on each side, Body and Mind doubled (wide gift from carry.wide, excess shadow from carry.excess or carry_yin.excess); the self pair's wide gift is cut from its definition_catalyst | REA_16 §7; REA_02 §5h | harness · voice-audit (partial) | explicit |
 | G2 | Phrase law v6: a chip names the symptom, never a prescription or a bare image; ≤3 everyday words anchored by a noun or verb, or one of the admitted four-word idioms; its valence reads alone; unique across the ten pools; never equal to the dim; no shared root with another chip on its card | REA_16 §7 step 4 (owner 2026-09-20, 2026-09-21) | harness · voice-audit (length, uniqueness, phrase ≠ dim); the owner's cold read (valence) | explicit |
-| G3 | The dim is the life-facet angle, ≤3 words, unique within the pool, never a restatement of the phrase | REA_16 §3 dimension law v3, §7 step 5 | harness (length, uniqueness, ≠ phrase) · voice-audit (uniqueness, ≠ phrase; not length) | explicit in REA_16 §7; IMPLIED → EXPLICIT in the gate (violation 2: two 丁 dims) |
-| G4 | The desc is 1–3 sentences, B1–B2 vocabulary, one concrete image, the source's key noun still inside it | REA_16 §7 step 3 | harness (sentence count) · voice-audit does not carry it | explicit in REA_16 §7; IMPLIED → EXPLICIT in the gate (violation 3: two 辛 descs) |
+| G3 | The dim is the life-facet angle, ≤4 words, unique within the pool, never a restatement of the phrase | REA_16 §3 dimension law v3, §7 step 5 (≤3 until the owner widened it 2026-09-21, ruling Q2) | harness (length, uniqueness, ≠ phrase) · voice-audit (uniqueness, ≠ phrase; not length) | RULED 2026-09-21 |
+| G4 | The desc is 1–4 sentences, B1–B2 vocabulary, one concrete image, the source's key noun still inside it | REA_16 §7 step 3 (1–3 until the owner widened it 2026-09-21, ruling Q3) | harness (sentence count) · voice-audit does not carry it | RULED 2026-09-21 |
 | G5 | A gift is a capability of the material that holds on any chart of that stem; a shadow is the function overgrown, never underuse | REA_16 §2c gifts and shadows rows (owner 2026-09-15) | read | explicit |
 | G6 | adj_chips: three chips per pole are three distinct dimensions, high-school words, unique against the sibling cell, no report-card register | REA_16 §2c THE KEYWORD DERIVATION CHAIN, adj_chips row | harness | explicit |
 
@@ -102,8 +102,23 @@ _Prompt file (data). One row per rule. "Gate" says whether `ComparativeAnalysis/
 | 5 | `ELEMENT_GOD/木_偏财.k2_domain_readings.Father`: "the roots he may have skipped" | A10, D2 | same as 4, plus: a hedge does not license a biography claim; the conditional shape of the Nurture readings is the model |
 | 6 | `ELEMENT_PAIR/金_木.carry_yin.catalyst` vs `mechanism_yin.catalyst_turn` (wheel and stone vs point and piece) | F3 | the yin carry line is cut from the yin turn, so a cell that overrides the turn overrides the carry clause with it |
 
+## The rulings (owner, 2026-09-21, questionnaire Q0–Q8)
+
+| Q | Ruling | Landed |
+|---|---|---|
+| Q0 | The hedge rule narrows to reflex forms; frequency words inside a claim or a directive are lawful | A10 above; the gate's hedge pattern; REA_16 §3 bans line; the seven flagged lines stand |
+| Q1 | The hollow-affirmation list stays mechanical; the three words are cut | piancai_day_branch.reading · 水_食神 Fluent trait door · shishen_year_branch Health ("a friendly one") |
+| Q2 | Dim law ≤4 words | G3; REA_16 §7 step 5; the two 丁 dims stand |
+| Q3 | Desc law 1–4 sentences | G4; REA_16 §7 step 3; the two 辛 descs stand |
+| Q4 | (under Q0) "Show the hand sometimes" stands | |
+| Q5 | 木_偏财 Father re-cut to the conditional shape | station and k2.js |
+| Q6 | 金_木 carry_yin.catalyst.clause cut from the yin turn | station and pairs.js |
+| Q7 | 木_偏财 catalyst chip Enterprising → Deal-maker (ledger row word with it) | station and k2.js; A8 unchanged |
+| Q8 | zhengcai_year_stem turns re-cut to the opener formula | station and positions.js; C3 unchanged |
+
 ## Iteration log
 
 | Date | Change | Ruling |
 |---|---|---|
-| 2026-09-21 | Born: every rule the master prompt and the cards state, with source and enforcement; six implied rules marked from the self-test | owner's ask 2026-09-21; rulings on the six texts pending |
+| 2026-09-21 | Born: every rule the master prompt and the cards state, with source and enforcement; six implied rules marked from the self-test | owner's ask 2026-09-21 |
+| 2026-09-21 | A10 narrowed to reflex hedges; G3 ≤4 words; G4 1–4 sentences; the rulings table Q0–Q8 | owner's questionnaire rulings 2026-09-21 (REA_16 §6) |

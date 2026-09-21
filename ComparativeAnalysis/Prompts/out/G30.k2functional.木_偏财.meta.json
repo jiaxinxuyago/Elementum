@@ -29,7 +29,7 @@
   "k2_overview": "Your Wood moves as the Horizon: growth that reaches for distant light. Opportunity, for you, is territory: new markets, new cities, branches extended where no one from home has grown. You expand naturally and prune reluctantly. Fortune arrives through the reaching. Roots decide how much of it you keep.",
   "k2_domain_readings.Opportunity": "Opportunities appear to you as open land: markets unplanted, niches unclaimed. You see fertile ground others call wilderness. Scout it, but check the soil before transplanting everything.",
   "k2_domain_readings.Ventures": "Your ventures grow in groves: several trunks sharing a root system of skills and contacts. Let each mature before seeding the next. Orchards fail from planting fever, not planting.",
-  "k2_domain_readings.Father": "The father-thread runs green and rangy: a paternal figure of journeys, enterprises, or restlessness. His pattern of reaching shaped yours. Keep the reach, and plant the roots he may have skipped.",
+  "k2_domain_readings.Father": "The father-thread runs green and rangy: reach, enterprise, restlessness, wherever a paternal figure stood. Where that reaching shaped you, keep it. Where it left no roots, plant them yourself.",
   "fn_reading.catalyst.ledger[0].doors.trait": "Your effort naturally runs in several directions at once, and the directions feed each other more than they collide. Focus, as commonly preached, never fit you: your luck lives in the overlaps, where one venture waters the next. So you stopped apologizing for the branching.",
   "fn_reading.catalyst.ledger[0].doors.scene": "The supplier from the first venture became the landlord of the second, and a customer from the second just introduced the third. On paper it is three businesses in two cities. In practice it is one root system wearing three names, and it feeds itself.",
   "fn_reading.catalyst.ledger[0].doors.outside": "People who chase one goal at a time find your calendar hard to explain. You keep three ventures alive across two cities, and somehow the overlaps feed each other instead of colliding. Spreading is simply how opportunity finds enough doors to knock on.",
@@ -54,7 +54,7 @@
  "zone": true,
  "zoneBlock": false,
  "shape": "{\"k2_functional\": \"...\"}",
- "promptWords": 4057,
+ "promptWords": 4069,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:04.796Z"
+ "assembledAt": "2026-09-21T23:34:43.410Z"
 }

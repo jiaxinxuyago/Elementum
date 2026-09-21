@@ -44,7 +44,7 @@
  "zone": false,
  "zoneBlock": false,
  "shape": "{\"yourNature_desc\": \"...\", \"self_card\": {\"face\": \"...\", \"presence\": \"...\"}}",
- "promptWords": 4272,
+ "promptWords": 4286,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:04.750Z"
+ "assembledAt": "2026-09-21T23:34:43.350Z"
 }

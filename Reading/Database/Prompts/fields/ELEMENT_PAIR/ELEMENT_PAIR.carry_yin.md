@@ -23,3 +23,4 @@ PROMPT = `00_MASTER_PROMPT.md` + `01_INPUT_PACK.md` (the axis pack, filled from 
 | Date | Change | Ruling |
 |---|---|---|
 | 2026-09-21 | Born from REA_17 v0.3 | compilation, no new rule |
+| 2026-09-21 | A yin carry clause is cut from the yin turn where the cell overrides the turn (金_木 catalyst re-cut) | owner ruling Q6 (REA_02 §5h) |

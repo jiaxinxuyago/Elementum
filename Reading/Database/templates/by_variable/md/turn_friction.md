@@ -43,7 +43,7 @@
 | **The Horizon inside the Day Gate** | 偏财在日支 | Run heavy, the open house drains: every guest a venture, every venture a guest. Close the doors one night a week. |
 | **The Horizon at the Hour Gate** | 偏财在时干 | Run heavy, the openness leaks: every prospect funded, every trip taken. Map the estate first. Then wander freely. |
 | **The Horizon inside the Hour Gate** | 偏财在时支 | Run heavy, the motion scatters the center: everywhere visited, nowhere kept. Name a home base and defend its calendar. |
-| **The Steward at the Year Gate** | 正财在年干 | With this energy running heavy, the seat over-counts: generosity waits on spreadsheets. Loosen one ledger and let someone treat you. |
+| **The Steward at the Year Gate** | 正财在年干 | Run heavy, the seat over-counts: generosity waits on spreadsheets. Loosen one ledger and let someone treat you. |
 | **The Steward inside the Year Gate** | 正财在年支 | Run heavy, the counting tightens: every joy invoiced against the future. Spend one planned sum on pure delight. |
 | **The Steward at the Month Gate** | 正财在月干 | Run heavy, stewardship swallows the steward: everyone’s books balanced except your evenings. Return two hours nightly to yourself. |
 | **The Steward inside the Month Gate** | 正财在月支 | Run heavy, the building never pauses: maintenance as compulsion, rest as risk. Schedule the fallow season deliberately. |

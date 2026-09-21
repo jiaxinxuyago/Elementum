@@ -489,7 +489,7 @@ export const PAIR_CELLS = {
       excess: { clause: `Hard wood chips the edge: more to cut than the metal can bear, effort dulling on what resists.`, remedy: `Cut less. Sharpen before you cut.` },
     },
     carry_yin: {
-      catalyst: { clause: `The wheel has nothing to cut: skill idling without a stone worth it.` },
+      catalyst: { clause: `The point has nothing to work: skill idling without a piece worth it.` },
       friction: { clause: `The cutting never stops: trays of half-set stones, a facet worn on material that never ends.`, remedy: `Cut fewer stones, and finish them.` },
       wide: { clause: `Wood is already here in plenty, the material the wheel is for.`, remedy: `Cut what is already in front of you. Finish it.` },
     },

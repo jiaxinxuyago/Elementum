@@ -61,7 +61,7 @@
  "zone": true,
  "zoneBlock": false,
  "shape": "{\"word\": \"Withdrawn\", \"doors\": {\"trait\": \"...\", \"scene\": \"...\", \"outside\": \"...\"}}",
- "promptWords": 4633,
+ "promptWords": 4647,
  "rea17Version": "0.4",
- "assembledAt": "2026-09-21T23:12:04.773Z"
+ "assembledAt": "2026-09-21T23:34:43.385Z"
 }
