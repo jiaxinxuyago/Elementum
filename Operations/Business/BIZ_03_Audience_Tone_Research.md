@@ -1,8 +1,8 @@
 # BIZ_03 — Target Audience & Tone-of-Voice Research
 
-> **Purpose:** anchor the Reading-corpus tone-setting (manifesto + inscription, then all future content) in audience evidence rather than internal aesthetics. Commissioned by the owner 2026-08-04; focused single-session web sweep + the existing Cece analysis (`D:\Elementum\Documents\Cece_BaZi_Reading_Analysis.md`). Owner anchors: **primary target = Western astrology-app users · positioning OPEN to findings · full competitor set.**
+> **Purpose:** anchor the Reading-corpus tone-setting (manifesto + inscription, then all future content) in audience evidence rather than internal aesthetics. Commissioned by the owner 2026-08-04; focused single-session web sweep + the existing Cece analysis (`D:\Elementum\Misc\Cece_BaZi_Reading_Analysis.md`). Owner anchors: **primary target = Western astrology-app users · positioning OPEN to findings · full competitor set.**
 >
-> **Status:** §1–§5 research DONE · §6 tone variants DRAFTED · §7 recommendation PRESENTED · §8 ratified tone prompt = PENDING OWNER SELECTION.
+> **Status:** §1–§5 research DONE · §6 tone variants DRAFTED · §7 recommendation PRESENTED · §8 ratified 2026-08-05; operating canon now REA_16 The_Voice.
 
 ---
 

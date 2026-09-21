@@ -2,8 +2,8 @@
 
 The single rule that governs every Five-Energies wheel in the app (the canonical
 P3 reading catalogue, the P2 dissolve end-state, the hour-unknown variant, and
-the ten-stem gallery). It is implemented in `d13-v5.js` — that code is the source
-of truth; this document explains it.
+the ten-stem gallery). It is implemented in `Elementum_App/src/engine/dominanceWheel.js`
+— that code is the source of truth; this document explains it.
 
 Each energy has exactly **one input**: its **presence percentage `p`** (0–100,
 the share of the chart it occupies). Everything visual — how big its disk is and
@@ -90,8 +90,10 @@ core must stay on top; if it is underfueled, make the dominance order counterclo
 Underfueled row above reads that as presence-led seating (core NOT pinned to top) in CCW direction —
 if the core should stay top for Underfueled charts too, only the direction differs; correct this row.
 The old always-clockwise presence mode below is RETIRED for the catalogue wheel (kept for reference).
-Disk-size, geometry, art, and tie-break rules are unchanged. Implementation: `engine/dominanceWheel.js`
-`applyDominanceRules()` gains the condition parameter.
+Disk-size, geometry, art, and tie-break rules are unchanged. Implementation: the condition-dependent
+seating lives in `Elementum_App/src/components/journey/journeyData.js` — the `seatElements(elements,
+coreEl, condition)` seats builder. (`applyDominanceRules()` in `engine/dominanceWheel.js` takes no
+condition parameter; its signature is `applyDominanceRules(nodes, mode)`.)
 
 ### Presence mode (RETIRED for the catalogue — pre-2026-07-16 rule, kept for reference)
 
@@ -120,4 +122,4 @@ this when the elemental relationships matter more than the ranking.
 - Keep `D_MIN ≥ 40` base units, or the icon + number stop fitting.
 
 _Implementation: `D_MIN`, `D_MAX`, `RING_ANGLES`, `diameterFor()`, and
-`applyDominanceRules()` in `d13-v5.js`._
+`applyDominanceRules()` in `Elementum_App/src/engine/dominanceWheel.js`._
