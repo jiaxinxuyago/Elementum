@@ -193,7 +193,7 @@
 | `classic` | 因水潤而能生 |
 | `base` | Water gives life to wood because it moistens, say the old texts: rain falls, the root drinks, and the forest stands up out of the ground the water made soft. The rain keeps nothing for itself. Everything it touches turns green on its behalf, and the tallest trees are its quietest monuments. |
 | `catalyst_turn` | Run thin, the rain withholds: depth circling underground, nothing green standing up from it. Your chart asks you to pour. Mentor someone, seed the idea, water a thing in public. |
-| `friction_turn` | Run heavy, the rain never closes: everything that stands still gets watered, depth drained into other people’s forests. Close the sky sometimes. Rain is also allowed to rest. |
+| `friction_turn` | Run heavy, the rain never closes: every still thing gets watered, depth drained into other people’s forests. Close the sky sometimes. Rain is also allowed to rest. |
 
 ### Water core × Fire — the Drive · 水_火
 

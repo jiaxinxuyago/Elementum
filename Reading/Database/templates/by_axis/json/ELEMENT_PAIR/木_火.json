@@ -43,11 +43,11 @@
       },
       "missing": {
         "clause": "Nothing kindled: years of growth and no light on any of it.",
-        "remedy": "Borrow fire: show one finished thing."
+        "remedy": "Borrow fire: put one piece in front of people."
       },
       "spared": {
         "clause": "Fire runs absent, and the wood stays green: nothing burned early, nothing announced.",
-        "remedy": "Keep it green. Show work when it is done."
+        "remedy": "Keep it green. Show the work once it is finished."
       },
       "thin": {
         "clause": "Fire runs thin and unwanted: a small flame, easy to bank.",
@@ -66,6 +66,12 @@
     "mechanism_yin": {
       "base": "Wood is warm by nature, the classics say, and fire sleeps inside it: strip the dry vine, strike the stem, and the hidden flame comes out. Every bundle of cuttings is a lantern waiting for permission. What grew for years in silence burns in an evening, and the light was in the wood all along.",
       "friction_turn": "Run heavy, the burning outruns the growing: everything lit the moment it grows, no tendril left on the wall. The flame eats its own hedge. Bank the fire and let some growth stand."
+    },
+    "__ore": {
+      "retired_2026-09-21_overlaps": {
+        "carry.missing.remedy": "Borrow fire: show one finished thing.",
+        "carry.spared.remedy": "Keep it green. Show work when it is done."
+      }
     }
   },
   "__ore": {

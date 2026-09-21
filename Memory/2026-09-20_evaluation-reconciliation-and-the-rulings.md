@@ -41,8 +41,8 @@ and `RULINGS_PROOF_2026-09-20.md` (before/after on the golden chart 1995-04-29 1
 - **The repetition law (narrowed the same day):** no phrase repeats across the fields of one cell on
   one page (definition · turn · advice · remedy). Carry ↔ turn, yin ↔ yang and the definitions'
   templated opening are lawful. A chip echoing its definition across pages is the derivation law
-  working, NOT repetition (`voice-audit.mjs` within-cell four-word check, inventory tier; five
-  single-run findings remain in 土_木, 木_火, 水_木).
+  working, NOT repetition (`voice-audit.mjs` within-cell four-word check; zero findings since 2026-09-21, ready to turn
+  blocking with `rep-block` on the ELEMENT_PAIR rows).
 - **The advice field keeps its authored voice everywhere** (owner: the older version wins): short
   orders, one concrete detail, no imagery the clause has not set. Reading copy and previews carry
   no signs.
@@ -61,5 +61,4 @@ and `RULINGS_PROOF_2026-09-20.md` (before/after on the golden chart 1995-04-29 1
 ## Open
 
 - Owner's read of the 140 items under phrase law v6 (parked since 2026-09-16).
-- Five within-cell single-run overlaps (inventory).
 - Cloudflare tidy-ups; design-HTML sync debt (unchanged from the 2026-09-15 handoff).

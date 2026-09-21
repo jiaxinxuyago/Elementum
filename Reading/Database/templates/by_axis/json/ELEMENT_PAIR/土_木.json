@@ -46,7 +46,7 @@
         "remedy": "Borrow roots: one living thing to tend."
       },
       "spared": {
-        "clause": "Wood runs absent, and the soil is not drawn on: nobody rooted in you, nothing extracted.",
+        "clause": "Wood runs absent, and the soil is left alone: nobody leans on you, the ground keeps its own.",
         "remedy": "Keep it. Take on roots by choice."
       },
       "thin": {
@@ -60,6 +60,11 @@
     },
     "mechanism_yin": {
       "base": "The concentrated prevails over the scattered, and so wood grips earth: roots thread the field, take hold, and do not ask permission. The ground carries what grows in it, season after season, the way a field carries its crop. It is a weight and a purpose at once. Unrooted ground is only dust waiting for wind."
+    },
+    "__ore": {
+      "retired_2026-09-21_overlaps": {
+        "carry.spared.clause": "Wood runs absent, and the soil is not drawn on: nobody rooted in you, nothing extracted."
+      }
     }
   },
   "__ore": {

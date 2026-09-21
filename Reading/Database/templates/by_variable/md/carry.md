@@ -32,9 +32,9 @@
 | `wide.clause` | Fire is all around you, the light everything you grow was reaching for. |
 | `wide.remedy` | Show more of the work. It is ready. |
 | `missing.clause` | Nothing kindled: years of growth and no light on any of it. |
-| `missing.remedy` | Borrow fire: show one finished thing. |
+| `missing.remedy` | Borrow fire: put one piece in front of people. |
 | `spared.clause` | Fire runs absent, and the wood stays green: nothing burned early, nothing announced. |
-| `spared.remedy` | Keep it green. Show work when it is done. |
+| `spared.remedy` | Keep it green. Show the work once it is finished. |
 | `thin.clause` | Fire runs thin and unwanted: a small flame, easy to bank. |
 | `thin.remedy` | Bank it. Let growth stand. |
 | `excess.clause` | Too much fire burns the wood: everything lit as it grows, the tree spent on its own light. |
@@ -200,7 +200,7 @@
 | `wide.remedy` | Say yes to the biggest responsibility on offer. |
 | `missing.clause` | Nothing roots in you: ground with no claim on it. |
 | `missing.remedy` | Borrow roots: one living thing to tend. |
-| `spared.clause` | Wood runs absent, and the soil is not drawn on: nobody rooted in you, nothing extracted. |
+| `spared.clause` | Wood runs absent, and the soil is left alone: nobody leans on you, the ground keeps its own. |
 | `spared.remedy` | Keep it. Take on roots by choice. |
 | `thin.clause` | Wood runs thin and unwanted: a few roots, easily fed. |
 | `thin.remedy` | Feed them. Take no more. |
@@ -376,7 +376,7 @@
 |---|---|
 | `catalyst.clause` | The rain withholds: depth circling underground, nothing green standing up from it. |
 | `catalyst.remedy` | Mentor someone, seed the idea, water a thing in public. |
-| `friction.clause` | The rain never closes: everything that stands still gets watered, depth drained into other people’s forests. |
+| `friction.clause` | The rain never closes: every still thing gets watered, depth drained into other people’s forests. |
 | `friction.remedy` | Rain is also allowed to rest. |
 | `wide.clause` | You were given plenty of Wood, the green thing your rain is for. |
 | `wide.remedy` | Pick one green thing and pour into it. |
