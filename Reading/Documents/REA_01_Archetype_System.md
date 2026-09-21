@@ -22,22 +22,22 @@ Around the compound sit the two non-archetype classes: **derived values** (perce
 
 ## The taxonomy (NORMATIVE — the archetype classification method)
 
-> **Owner-finalized 2026-07-30.** This table is the system's classification authority: each axis is a CLASS OF ARCHETYPES; the count dictates how many archetypes that class contains; and each class carries its own **construct of data variables** — decided per axis, owner-supervised (the data-ruling task). The data station mirrors this table one-to-one: `Reading/Database/templates/by_axis/json/<AXIS>/` holds one template per archetype (a generated comparative pivot lives beside it in `templates/by_variable/` — REA_05 §1). REA_03 applies this taxonomy to the variables; when they disagree, THIS table wins.
+> **Owner-finalized 2026-07-30; Construct column refreshed 2026-09-21** (the TBD markers replaced with the rulings each axis now stands on; per-field prompts in REA_17). This table is the system's classification authority: each axis is a CLASS OF ARCHETYPES; the count dictates how many archetypes that class contains; and each class carries its own **construct of data variables** — decided per axis, owner-supervised (the data-ruling task). The data station mirrors this table one-to-one: `Reading/Database/templates/by_axis/json/<AXIS>/` holds one template per archetype (a generated comparative pivot lives beside it in `templates/by_variable/` — REA_05 §1). REA_03 applies this taxonomy to the variables; when they disagree, THIS table wins.
 
 | Axis (archetype class) | Count | What its archetypes are | Station folder | Construct |
 |---|---|---|---|---|
-| **STEM** | ×10 | The day-master identities (甲…癸 → The Oak…The Rain) | `STEM/` | TBD (candidates seeded) |
-| **STEM·BAND** | ×30 | Stem × energy band (the K1b self-card grain) | `STEM_BAND/` | TBD (empty) |
+| **STEM** | ×10 | The day-master identities (甲…癸 → The Oak…The Rain) | `STEM/` | RULED per field: identity seal (manifesto + inscription, LOCKED ×10 2026-08-03) · dm_overview THE SIGN (2026-08-14) · yourNature baseline · door-tagged gift/shadow pools ×7 + ×7 with the derivation law (2026-09-15/16) · dm_claims / dm_mechanism PLANNED (REA_17 §3.1) |
+| **STEM·BAND** | ×30 | Stem × energy band (the K1b self-card grain) | `STEM_BAND/` | LOCKED ×30 (owner 2026-08-14): yourNature v2 bridge 50–75w + self_card {face, presence} (REA_17 §3.2) |
 | **STEM·BAND·PATTERN** | ×150 | The legacy Layer-1 grain | `STEM_BAND_PATTERN/` | **HELD** — circle back at its data ruling (15 庚 entries exist in `stemVariants.js`) |
-| **ELEMENT** | ×5 | The five elements as reading surfaces | `ELEMENT/` | TBD (interim candidates) |
-| **GOD** | ×10 | The Ten-God personas (The Twin…The Sage) | `GOD/` | TBD (locked vocabulary + corpus as candidates) |
-| **ELEMENT·GOD** | ×50 | The K2 persona units (the two-faces corpus) | `ELEMENT_GOD/` | TBD (interaction seeds; K2 card stub) |
-| **CONDITION** | ×3 (+2) | Overfueled · Balanced · Underfueled (+ Channel · Refill) | `CONDITION/` | TBD (locked terms as candidates) |
-| **FAMILY** | ×5 | The five relations (Core · Root · Drive · Voice · Duty) | `FAMILY/` | TBD (locked nouns/lines as candidates) |
-| **POSITION** | ×7 | The pillar palaces (宫位) | `POSITION/` | TBD (empty) |
+| **ELEMENT** | ×5 | The five elements as reading surfaces | `ELEMENT/` | INTERIM, unrendered since 2026-09-01 (tile hook/tag); the element surface is carried by ELEMENT·PAIR and ELEMENT·GOD |
+| **GOD** | ×10 | The Ten-God personas (The Twin…The Sage) | `GOD/` | V-CLASS LOCKS (REA_02 §2, §4, §4b; domains ×3 2026-08-19; deflines comma-joined 2026-09-20); face_teaser unrendered, R5 open (REA_17 §3.5) |
+| **ELEMENT·GOD** | ×50 | The K2 persona units (the two-faces corpus) | `ELEMENT_GOD/` | LOCKED ×50: the K2 cell (overview + functional + domain readings, 2026-08-19) · adj_chips under the derivation chain and the B1–B2 zone (2026-09-03/04) · the three-door ledger fn_reading (2026-09-03/04); k2_card registers remain a stub (REA_17 §3.4) |
+| **CONDITION** | ×3 (+2) | Overfueled · Balanced · Underfueled (+ Channel · Refill) | `CONDITION/` | V-CLASS LOCKS (REA_02 §5c, re-locked 2026-07-16; Balanced guard 2026-09-17) |
+| **FAMILY** | ×5 | The five relations (Core · Root · Drive · Voice · Duty) | `FAMILY/` | V-CLASS, RETIRED from live surfaces 2026-09-02 (the function nouns of REA_02 §5f replaced them); derivation history |
+| **POSITION** | ×7 slots (×70 cells: god × slot) | The pillar palaces (宫位), read as named events | `POSITION/` | LOCKED ×70 (owner 2026-08-19): term · domains · defline · reading v2 · teaser · domain_readings · life_chapter · relations · turns · shadow_line · health_line (REA_02 §5e; REA_04 PART 9; REA_17 §3.6) |
 | **ELEMENT·PAIR** | ×25 | The Day-Master-element × energy-element cells (20 relations + 5 self pairs): mechanism · function (define/advise) · carry · carry_yin · mechanism_yin | `ELEMENT_PAIR/` | LOCKED/LIVE (2026-08-19 → 2026-09-17; added to this table 2026-09-20) |
-| **TG·PATTERN** | ×9 | The named ten-god relation patterns (枭神夺食 …), a conditional reading angle | `TG_PATTERN/` | canon ×9 authored (2026-08-19; added to this table 2026-09-20) |
-| **TEMPLATED** | ×16 | The sentence patterns (each pattern is its own template, authored once) | `TEMPLATED/` | patterns seeded |
+| **TG·PATTERN** | ×9 | The named ten-god relation patterns (枭神夺食 …), a conditional reading angle | `TG_PATTERN/` | canon ×9 authored (2026-08-19): line · reading · fused_line; §2c rows locked, the REA_02 §5g axis header still PROPOSED pending the owner's formal lock (REA_17 §3.7) |
+| **TEMPLATED** | ×21 | The sentence patterns (each pattern is its own template, authored once) | `TEMPLATED/` | derived slot templates, slot-filled from vocabulary + derived values only (REA_03 §5, §10 rule 3); tpl_pool_note retired 2026-09-20 |
 | **DERIVED** | — | Engine-computed selection values — never authored, no station folder | — | n/a |
 
 ## The ten archetypes (the system's public face)
@@ -79,6 +79,6 @@ Born 1995-04-29 at 18:00 in Beijing → pillars 乙亥 / 庚辰 / 庚寅 / 乙�
 | | |
 |---|---|
 | **Document** | REA_01 — The Compound Archetype System (overview / front door) |
-| **Version** | 2.1 · 2026-07-30 (taxonomy finalized as the normative archetype classification) |
+| **Version** | 2.2 · 2026-09-21 (Construct column refreshed to the ruled state per axis; 2.1 · 2026-07-30 taxonomy finalized) |
 | **Status** | OWNS the axis taxonomy normatively (owner-finalized 2026-07-30); the prose sections are orientation |
 | **Audience** | Anyone entering the reading library cold |

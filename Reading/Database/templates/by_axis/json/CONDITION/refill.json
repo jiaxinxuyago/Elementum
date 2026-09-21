@@ -3,8 +3,8 @@
   "axis": "CONDITION",
   "key": "生助",
   "canonical_name": "Refill",
-  "construct": "TBD — ruled per-axis with the owner",
-  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "construct": "V-CLASS LOCKS (refreshed 2026-09-21): term / zh / defline / cond_tail / fold_verdict / remedy per REA_02 §5c (re-locked 2026-07-16); glossary bodies composed at runtime from these lines (R3). Display terms only; the engine keys stay concentrated / balanced / open. Balanced guard: moderate strength AND no non-core energy ≥40% (2026-09-17).",
+  "candidate_note": "Locked vocabulary (REA_02 §5c), not a generation target.",
   "sources": [
     "REA_02 §5c locks (via journeyData vocabulary tables)"
   ],

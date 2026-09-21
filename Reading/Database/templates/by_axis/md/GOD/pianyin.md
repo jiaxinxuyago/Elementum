@@ -2,14 +2,14 @@
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
-> All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.
+> Vocabulary locks (REA_02 law), not generation targets; face_teaser awaits the R5 ruling.
 
 | | |
 |---|---|
 | **axis** | GOD |
 | **key** | 偏印 |
 | **canonical name** | The Alchemist |
-| **construct** | TBD — ruled per-axis with the owner |
+| **construct** | V-CLASS LOCKS (refreshed 2026-09-21): persona_name + definition_line (REA_02 §2; comma-joined, dashless, owner D8 2026-09-20) · keyword / charge / pole nouns (REA_02 §4, 2026-07-16) · domains ×3 (owner 2026-08-19; the Sage's third word Mother → Nurture 2026-09-20) · adj_catalyst / adj_friction = god-grain fallback tables, superseded by ELEMENT_GOD.adj_chips (dead at runtime; 七杀 Domineering → Bossy 2026-09-21) · face_kw / face_teaser = unrendered since the faces merge 2026-08-19, sign-free 2026-09-21, R5 scope open · family_brief / family_clause / family_element = energy-manual glue. Prompts: REA_17 §3.5. |
 | **sources** | REA_02 §2/§4/§4b locks · src/content/tgNames.js · src/components/journey/journeyData.js · src/content/reading/facesContent.js · src/content/archetypeSource.js (TG_CARD_DATA) |
 
 ## Candidate variables

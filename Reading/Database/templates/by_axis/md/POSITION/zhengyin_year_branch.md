@@ -2,14 +2,14 @@
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
-> All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.
+> LOCKED corpus ×70 (owner 2026-08-19: template pianyin_month_branch approved, batch ×63 authored to it).
 
 | | |
 |---|---|
 | **axis** | POSITION |
 | **key** | 正印在年支 |
 | **canonical name** | The Sage inside the Year Gate |
-| **construct** | TBD — ruled per-axis with the owner |
+| **construct** | RULED, THE NAMED EVENT (refreshed 2026-09-21; owner 2026-08-19, corpus LOCKED ×70): term = "{Persona} at\|inside the {Gate}" (stem = at, branch = inside) + term_zh · domains = 2–3 of the eight (Wealth · Health · Career · Love · Family · Social · Mind · Growth), declared in the reading's first sentence · defline ≤25w · reading v2 80–115w (the REA_04 §9.5 ladder: domains → shown/hidden face → era → relations → counsel) · teaser ≤30w (personality truth + ONE tendency-framed beat, §9.4) · domain_readings 35–60w per declared domain · life_chapter 35–60w (Early / Rising / Home / Late Chapter) · relations 30–55w (六亲) · turn_catalyst / turn_friction ≤30w (band-resolved) · shadow_line ≤30w · health_line ≤30w (non-medical). Seat rank 月支 > 月干 > 日支 > 时支 > 时干 > 年支 > 年干. Prompts: REA_17 §3.6. |
 | **status** | POSITION axis LOCKED ×70 (owner 2026-08-19): domains declared from the canonical taxonomy ×8; template pianyin_month_branch locked, batch authored to it |
 | **sources** | REA_02 §5e (position vocabulary) · engine pillar gods |
 

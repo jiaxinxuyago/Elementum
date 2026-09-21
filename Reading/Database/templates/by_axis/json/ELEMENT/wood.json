@@ -3,8 +3,8 @@
   "axis": "ELEMENT",
   "key": "木",
   "canonical_name": null,
-  "construct": "TBD — ruled per-axis with the owner",
-  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "construct": "INTERIM (refreshed 2026-09-21): energy_tile_hook / energy_tile_tag were the K2 interim hero copy; unrendered since the hero redesign (owner 2026-09-01: the headline is the function claim) · mean_line RETIRED 2026-08-19 with the MEAN table. No ruled construct; the element as a reading surface is carried by ELEMENT_PAIR and ELEMENT_GOD.",
+  "candidate_note": "Interim candidates, unrendered. Kept as ore until the axis is ruled or retired.",
   "sources": [
     "src/content/reading/surfaceContent.js (ENERGY_TILE — interim, 庚-voiced)",
     "src/components/journey/journeyData.js (MEAN)"

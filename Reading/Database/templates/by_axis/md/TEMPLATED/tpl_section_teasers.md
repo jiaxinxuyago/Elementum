@@ -2,13 +2,13 @@
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
-> All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.
+> Slot-filled at runtime from derived values only (REA_03 §10 rule 3).
 
 | | |
 |---|---|
 | **axis** | TEMPLATED |
 | **key** | tpl_section_teasers |
-| **construct** | TBD — ruled per-axis with the owner |
+| **construct** | Derived slot template (REA_03 §5; REA_02 §5h) |
 | **status** | LIVE (curation v6, owner 2026-08-19) — ONE conclusive quoted line per section card |
 | **budget** | one line each |
 | **sources** | REA_03 §5 (patterns) |

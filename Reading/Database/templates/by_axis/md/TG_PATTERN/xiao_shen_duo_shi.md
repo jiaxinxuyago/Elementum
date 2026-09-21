@@ -2,14 +2,14 @@
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
-> All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.
+> Authored ×9 to the 2026-08-19 directives; §2c rows locked; the axis lock in REA_02 §5g is still marked PROPOSED.
 
 | | |
 |---|---|
 | **axis** | TG_PATTERN |
 | **key** | 枭神夺食 |
 | **canonical name** | The Alchemist starves the Artisan |
-| **construct** | TBD — ruled per-axis with the owner |
+| **construct** | AUTHORED CANON ×9 (refreshed 2026-09-21; owner directives 2026-08-19): a conditional reading angle, triggered when both god sides sit among the chart's resolved positions, FUSED tier when they share a pillar, one per seat, priority = canon order · line ≤40w (Codex ore + the takeaway strip) · reading 45–70w in pure you-language, woven into the seat's first matching domain paragraph (no classics, no persona mechanics) · fused_line ≤25w · name_zh / name_en / trigger_gods / target_domains = metadata (REA_02 §5g). The §2c rows are locked; the axis header in REA_02 §5g still reads PROPOSED, awaiting the owner's formal lock. Prompts: REA_17 §3.7. |
 | **status** | TG_PATTERN axis (owner 2026-08-19): triggered when both god sides sit among the chart's resolved positions; FUSED tier when they share a pillar; priority = canon order; one per seat |
 | **sources** | src/content/tgPatterns.js (TG_PATTERNS — classical pattern canon) |
 

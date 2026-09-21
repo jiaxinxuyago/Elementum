@@ -2,13 +2,13 @@
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
-> All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.
+> Interim candidates, unrendered. Kept as ore until the axis is ruled or retired.
 
 | | |
 |---|---|
 | **axis** | ELEMENT |
 | **key** | 金 |
-| **construct** | TBD — ruled per-axis with the owner |
+| **construct** | INTERIM (refreshed 2026-09-21): energy_tile_hook / energy_tile_tag were the K2 interim hero copy; unrendered since the hero redesign (owner 2026-09-01: the headline is the function claim) · mean_line RETIRED 2026-08-19 with the MEAN table. No ruled construct; the element as a reading surface is carried by ELEMENT_PAIR and ELEMENT_GOD. |
 | **status** | interim copy — target grain is ELEMENT_GOD per the K2 pass |
 | **sources** | src/content/reading/surfaceContent.js (ENERGY_TILE — interim, 庚-voiced) · src/components/journey/journeyData.js (MEAN) |
 

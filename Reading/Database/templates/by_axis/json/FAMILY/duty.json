@@ -3,8 +3,8 @@
   "axis": "FAMILY",
   "key": "官杀",
   "canonical_name": "Duty",
-  "construct": "TBD — ruled per-axis with the owner",
-  "candidate_note": "All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.",
+  "construct": "V-CLASS, RETIRED FROM LIVE SURFACES (refreshed 2026-09-21): the five relation nouns (Core · Root · Drive · Voice · Duty) and their lines were locked 2026-07-16 and retired from all live surfaces 2026-09-02 when the five FUNCTION nouns (Body · Mind · Expression · Action · Order, REA_02 §5f) became the elemental-relation vocabulary. Kept as derivation history.",
+  "candidate_note": "Retired vocabulary; history only.",
   "sources": [
     "REA_02 §5b locks (via journeyData vocabulary tables)"
   ],

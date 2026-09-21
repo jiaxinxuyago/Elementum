@@ -2,14 +2,14 @@
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
-> All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.
+> LOCKED / LIVE corpus ×10 (per-field status in REA_16 §2c). dm_claims and dm_mechanism remain candidates until their construct is ruled.
 
 | | |
 |---|---|
 | **axis** | STEM |
 | **key** | 丁 |
 | **canonical name** | The Candle |
-| **construct** | TBD — ruled per-axis with the owner |
+| **construct** | RULED per field (refreshed 2026-09-21): identity seal = manifesto (couplet, L2 identity formula) + inscription (two-beat, dashless), axis LOCKED ×10 2026-08-03/05 · dm_overview = THE SIGN paragraph, third person, 55–85w (owner 2026-08-14) · yourNature_desc baseline = THE PERSON portrait 30–55w (band grain in STEM_BAND) · gifts/shadows = door-tagged pools ×7 + ×7 {phrase, dim, door, face, echo_of, desc}, every item cut from the pair field in echo_of (owner 2026-09-15/16), phrase law v6 (2026-09-20), labels cold-read 2026-09-21 · stem_keywords RETIRED to ore 2026-09-10 · dm_claims / dm_mechanism PLANNED. Prompts: REA_17 §3.1. |
 | **status** | manifesto + inscription: axis LOCKED STEM ×10 (identity-seal, owner 2026-08-03) — invariant under band/pattern; band nuance = yourNature_desc (R4) · gifts/shadows: DOOR-TAGGED ×7 (owner 2026-09-15, REA_02 §5h; the ten-stem remap, audited) |
 | **sources** | Elementum_App/src/content/archetypeSource.js · src/content/reading/readingContent.js (DM_READING) · buildIdentity |
 

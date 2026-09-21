@@ -2,13 +2,13 @@
 
 > **GENERATED from the by_axis JSON — do not hand-edit.** Edit the JSON (or request the change), then re-run `node tools/build-template-twins.mjs`.
 >
-> All variables below are CANDIDATES carried from the live corpus / REA_02 locks — the axis construct is TBD, ruled per-axis with the owner.
+> Slot-filled at runtime from derived values only (REA_03 §10 rule 3).
 
 | | |
 |---|---|
 | **axis** | TEMPLATED |
 | **key** | tpl_dm_prescription |
-| **construct** | TBD — ruled per-axis with the owner |
+| **construct** | Derived slot template (REA_03 §5; REA_02 §5h) |
 | **status** | RETIRED → ore 2026-09-15 (superseded by the P4 carry card, REA_02 §5h); INTERIM (pending K2) — UNSURFACED since the J4 sub-screen retired (owner 2026-08-13); P4 renders no prescription cards |
 | **budget** | 1–2 sentences |
 | **sources** | REA_03 §5 (patterns) |
