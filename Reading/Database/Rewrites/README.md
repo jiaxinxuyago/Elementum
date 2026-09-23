@@ -1,14 +1,19 @@
-# Reading/Database/Rewrites — model rewrites, per model, never the station
+# Reading/Database/Rewrites — one rewrite station per model, never the truth
 
-One folder per language model (`GPT-5/`, `Claude-Opus/`, …), one sub-folder per chart (`golden/`, `ding-weak/`, `xin-earth/`), one JSON per rewritten variable:
+Every language model that generates reading content gets its own station here, in the same two views as the final template station (`Reading/Database/templates/`), so any cell or any variable can be compared side by side and the author is never in doubt:
 
 ```
-Rewrites/<model>/<chart>/<id>.json   { id, field, cards, cell, state, chart, model, original, candidate, trace, gate, filedAt }
+Rewrites/<model>/by_axis/json/<AXIS>/<cell>.<model>.json     the station shape, sparse: only the fields this model wrote;
+                                                              candidates = the rewrite · $original = the shipping text ·
+                                                              $gate_findings per field · $generated_by, $handoff, $filed in the header
+Rewrites/<model>/by_axis/md/<AXIS>/<cell>.<model>.md          the readable twin (original | model | gate)
+Rewrites/<model>/by_variable/json/<var>.<model>.json          the pivot: one variable across the cells this model wrote
+Rewrites/<model>/README.md                                    how and when it was filed
 ```
 
-Filed by `ComparativeAnalysis/Prompts/compare.mjs` from the harness outputs after the gate has run; the gate result travels with the rewrite. The shipping original sits beside every candidate so any variable can be pulled up side by side (`compare.mjs runs/<manifest>.json --id <id>` writes the sheet to `ComparativeAnalysis/Evaluations/<run>/side-by-side/`).
+Filed by `ComparativeAnalysis/Prompts/file-rewrites.mjs` from a model's filled skeletons after the template gate has run; the model's own `_generated_by` line names it. The older flat form (`<model>/<chart>/<id>.json` from `compare.mjs`) is kept for the per-prompt comparison runs.
 
 Rules:
-- Nothing here is truth. The station (`templates/by_axis/json/`) changes only through the owner's row-by-row ruling and the REA_05 §1 pipeline.
-- A rewrite is never edited by hand; regenerate it or file a new one. The ruling is recorded in the run report under `ComparativeAnalysis/Evaluations/`.
-- The first experiment is the golden chart (1995-04-29 18:00 Beijing, 庚 The Blade), one variable at a time.
+- Nothing here is truth. The final template station is `Reading/Database/templates/` (by_axis the truth, by_variable generated from it). A field moves there only by the owner's ruling, through `adopt.mjs`, which records provenance (`$provenance` in the station file: field, model, date, ruling, the replaced text) and hands over to the REA_05 §1 pipeline.
+- A rewrite is never edited by hand; regenerate it or file a new one. Rulings are recorded in the run report under `ComparativeAnalysis/Evaluations/` and in REA_16 §6.
+- The first experiment is the golden chart (1995-04-29 18:00 Beijing, 庚 The Blade), the Day Master page and the five energy pages, one variable at a time.

@@ -30,7 +30,7 @@ Work one page at a time, in the order listed. For each field: read its card once
 
 ## The output contract
 
-- Return each skeleton as a file with the same name, every `value` filled, every other key byte-identical. Strings stay strings; the objects (`{phrase, dim, desc}`, `{clause, remedy}`, `{word, text}`) keep exactly those keys.
+- Return each skeleton as a file with the same name, every `value` filled, every other key byte-identical, and one line added at the very top of each file: `"_generated_by": "<your model name and version, exactly as your vendor names it>"`. Your work is filed as a station under `Reading/Database/Rewrites/<that name>/`, by axis and by variable, beside the current text and its gate result; a field is adopted into the final templates only by the owner's ruling, so the name must be right and the same in all six files. Strings stay strings; the objects (`{phrase, dim, desc}`, `{clause, remedy}`, `{word, text}`) keep exactly those keys.
 - You may add `"_trace"` beside any `value`: one clause naming the mechanism you cut the line from. Nothing else may be added.
 - No commentary outside the files. No code fences inside the JSON. No Chinese characters in any value. No em-dash, semicolon or arrow in any value.
 - Word counts are gated before anyone reads your work: a value outside its range is thrown out unread, whatever its quality. Count.

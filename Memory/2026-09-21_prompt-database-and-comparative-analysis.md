@@ -26,6 +26,7 @@ Written from a cloud session (claude.ai/code). Supersedes the 2026-09-20 handoff
 - New prompt files: `04_READING_SYSTEM_PRIMER.md`, `05_CLASSICAL_SOURCES.md`, `06_CAPS_BY_PAGE.md`; three thin cards expanded (cta_verdict, adj_chips, k2_functional).
 - New tools: `handoff.mjs` (builds `ComparativeAnalysis/Handoffs/<date>-geng-golden-<pass>/` + zip), `validate-template.mjs` (the template gate; the originals pass 6/6), `render-template.mjs` (page-by-page read, original then candidate).
 - Fixed: `voice-audit.mjs` registry parse skipped hyphenated registers (POSITION ×9, TG_PATTERN ×3 were never enforced); 62 rows now enforced, corpus clean.
+- 2026-09-24: generated content is filed as a rewrite station per model (`file-rewrites.mjs` → `Reading/Database/Rewrites/<model>/by_axis` + `by_variable`, model-named files, `$generated_by`), and adopted fields land in the final template station through `adopt.mjs` with `$provenance` (protocol steps 7–8). The dispatch prompt requires `_generated_by` in every returned file.
 - Next: the owner runs the blind zip in ChatGPT, saves the six filled skeletons under `ComparativeAnalysis/Prompts/out/handoff/2026-09-23-geng-golden-blind/<model>/`; then `validate-template.mjs`, `render-template.mjs --against ../Handoffs/2026-09-23-geng-golden-blind/benchmark`, the owner's read, then the benchmarked pass.
 
 ## Open

@@ -8,6 +8,9 @@ Prompts are tools, iterated and reused like code and data (owner 2026-09-21). Th
 | `01_INPUT_PACK.md` | what is handed over per axis, all from the station or the engine (one calculation model) |
 | `02_RULES_REGISTER.md` | every rule, numbered, with its source document and how it is enforced (harness gate, station audit, or the read); the six implied rules surfaced 2026-09-21 |
 | `03_COMPARISON_PROTOCOL.md` | how a like-for-like comparison run is fixed, gated, read, filed and reported |
+| `04_READING_SYSTEM_PRIMER.md` | for a writer with zero background: the product, the reader, the natures, the functions, the personas, the reasoning chain, the golden chart worked, what is fixed and what is free |
+| `05_CLASSICAL_SOURCES.md` | the reasoning canon and only this canon: the texts, the ten equations, strength · band · valence · volume, the five excess sets, the ten portraits, the translation protocol |
+| `06_CAPS_BY_PAGE.md` | every field's word range (both ends hard) by surface, the Day Master page and the energy page |
 | `fields/<AXIS>/<field>.md` | one card per authored field (36 files): surface, register, person, budget, construct, reasoning chain, style, checks, exemplar, sources, harness key, iteration log |
 | `fields/_CARD_FORMAT.md` | the card format |
 
