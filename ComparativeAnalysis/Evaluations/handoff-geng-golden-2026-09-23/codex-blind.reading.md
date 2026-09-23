@@ -1,5 +1,109 @@
 # Rendered reading · codex-blind (original then candidate per field)
 
+## The Day Master page (P4) of 庚 The Blade
+
+Gate: pass
+
+### manifesto  `STEM.manifesto`
+
+> **original**  
+> Precision before intention · You are the Metal that cuts things clean.
+
+**candidate**  
+Clarity before comfort · You are the Metal that cuts a clean line.
+
+### dm_overview  `STEM.dm_overview`
+
+> **original**  
+> The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech.
+
+**candidate**  
+The Blade is Yang Metal, steel given an edge in the forge. Its season is autumn, when the cut divides what stays from what must go. It has a purpose. Against the whetstone, it gives up a little metal to keep that purpose clear. Drawn from its sheath, the blade makes a line that cannot be softened once it is made.
+
+### band.yourNature_desc  `STEM_BAND.yourNature_desc`
+
+> **original**  
+> You are what the sword is like when it wakes up as a person. The cut is always ready and mostly used. You put the truth ahead of comfort, yours and everyone's, every day, in every setting. People bring you the questions nobody else will answer straight, then flinch at exactly what they asked for. The edge never rests. That includes the nights, and it includes you.
+
+**candidate**  
+You carry that drawn blade into ordinary conversation. There is more force behind your answer than the question needs, so even a small correction can arrive with the full edge of a challenge. You keep going. When honesty has a cut ready for every loose word, the point gets sharper while the conversation gets shorter. You can be right and left alone with it.
+
+### band.self_card.face  `STEM_BAND.self_card`
+
+> **original**  
+> The edge, never sheathed
+
+**candidate**  
+The blade kept drawn
+
+### band.self_card.presence  `STEM_BAND.self_card`
+
+> **original**  
+> The cut is always available and mostly used. Clarity this constant is a climate, and the people near you dress for it.
+
+**candidate**  
+You meet a loose claim with a sharp answer. Even casual talk can leave you holding a line nobody meant to test.
+
+### gifts[6]  `STEM.gifts` · order door
+
+> **original**  
+> **phrase:** Crisis performer  
+> **dim:** under pressure  
+> **desc:** The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved.
+
+**candidate**  
+**phrase:** Steady under pressure  
+**dim:** demanding moments  
+**desc:** You can turn pressure into a clear task. A deadline gives your effort an edge, and you can keep the work straight while the demands around it change.
+
+### gifts[5]  `STEM.gifts` · action door
+
+> **original**  
+> **phrase:** Plays the long game  
+> **dim:** trimming a plan  
+> **desc:** You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl.
+
+**candidate**  
+**phrase:** Builds to last  
+**dim:** what effort leaves  
+**desc:** You can keep working a piece long enough for each cut to build on the last. Practice leaves skill behind. The next task can begin with something the earlier one made possible.
+
+### gifts[4]  `STEM.gifts` · expression door
+
+> **original**  
+> **phrase:** No dressed-up answers  
+> **dim:** communication  
+> **desc:** What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain.
+
+**candidate**  
+**phrase:** Speaks with ease  
+**dim:** sharing thoughts  
+**desc:** You can put a clean edge on a thought without forcing the words. An explanation gives someone something they can use. What takes shape inside you can pass into ordinary conversation.
+
+### shadows[1]  `STEM.gifts` · body door
+
+> **original**  
+> **phrase:** Never reconsiders  
+> **dim:** second chances  
+> **desc:** Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut.
+
+**candidate**  
+**phrase:** Never reconsiders  
+**dim:** being challenged  
+**desc:** You keep the same cut ready even when the facts call for a different one. A correction becomes another chance to prove your point. Certainty has left no space for an answer that changes yours.
+
+### shadows[3]  `STEM.gifts` · mind door
+
+> **original**  
+> **phrase:** Overprepared  
+> **dim:** showing the work  
+> **desc:** Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth.
+
+**candidate**  
+**phrase:** Overprepared  
+**dim:** unused learning  
+**desc:** You can keep feeding a plan with notes until the edge stalls over the page. There is more to know. Study keeps growing while the work it was meant to serve stays untouched.
+
 ## The energy page of Earth (your Mind) for a Metal core, friction pole
 
 Gate: pass

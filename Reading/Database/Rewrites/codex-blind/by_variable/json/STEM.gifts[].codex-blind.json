@@ -1,0 +1,63 @@
+{
+  "$variable": "STEM.gifts[]",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "geng",
+      "field": "gifts[6]",
+      "candidate": {
+        "phrase": "Steady under pressure",
+        "dim": "demanding moments",
+        "desc": "You can turn pressure into a clear task. A deadline gives your effort an edge, and you can keep the work straight while the demands around it change."
+      },
+      "original": {
+        "phrase": "Crisis performer",
+        "dim": "under pressure",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "金_火.function.definition_catalyst",
+        "desc": "The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "geng",
+      "field": "gifts[5]",
+      "candidate": {
+        "phrase": "Builds to last",
+        "dim": "what effort leaves",
+        "desc": "You can keep working a piece long enough for each cut to build on the last. Practice leaves skill behind. The next task can begin with something the earlier one made possible."
+      },
+      "original": {
+        "phrase": "Plays the long game",
+        "dim": "trimming a plan",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "金_木.function.definition_catalyst",
+        "desc": "You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl."
+      },
+      "gate": "pass"
+    },
+    {
+      "cell": "geng",
+      "field": "gifts[4]",
+      "candidate": {
+        "phrase": "Speaks with ease",
+        "dim": "sharing thoughts",
+        "desc": "You can put a clean edge on a thought without forcing the words. An explanation gives someone something they can use. What takes shape inside you can pass into ordinary conversation."
+      },
+      "original": {
+        "phrase": "No dressed-up answers",
+        "dim": "communication",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "金_水.function.definition_catalyst",
+        "desc": "What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain."
+      },
+      "gate": "pass"
+    }
+  ]
+}

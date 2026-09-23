@@ -1,0 +1,16 @@
+{
+  "$variable": "STEM_BAND.self_card.face",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "geng_concentrated",
+      "field": "band.self_card.face",
+      "candidate": "The blade kept drawn",
+      "original": "The edge, never sheathed",
+      "gate": "pass"
+    }
+  ]
+}

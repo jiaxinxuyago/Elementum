@@ -1,0 +1,127 @@
+{
+  "$archetype": "geng",
+  "axis": "STEM",
+  "key": "geng",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "manifesto": "Clarity before comfort · You are the Metal that cuts a clean line.",
+    "dm_overview": "The Blade is Yang Metal, steel given an edge in the forge. Its season is autumn, when the cut divides what stays from what must go. It has a purpose. Against the whetstone, it gives up a little metal to keep that purpose clear. Drawn from its sheath, the blade makes a line that cannot be softened once it is made.",
+    "gifts": [
+      null,
+      null,
+      null,
+      null,
+      {
+        "phrase": "Speaks with ease",
+        "dim": "sharing thoughts",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "金_水.function.definition_catalyst",
+        "desc": "You can put a clean edge on a thought without forcing the words. An explanation gives someone something they can use. What takes shape inside you can pass into ordinary conversation."
+      },
+      {
+        "phrase": "Builds to last",
+        "dim": "what effort leaves",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "金_木.function.definition_catalyst",
+        "desc": "You can keep working a piece long enough for each cut to build on the last. Practice leaves skill behind. The next task can begin with something the earlier one made possible."
+      },
+      {
+        "phrase": "Steady under pressure",
+        "dim": "demanding moments",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "金_火.function.definition_catalyst",
+        "desc": "You can turn pressure into a clear task. A deadline gives your effort an edge, and you can keep the work straight while the demands around it change."
+      }
+    ],
+    "shadows": [
+      null,
+      {
+        "phrase": "Never reconsiders",
+        "dim": "being challenged",
+        "door": "body",
+        "face": "excess",
+        "echo_of": "金_金.carry.excess",
+        "desc": "You keep the same cut ready even when the facts call for a different one. A correction becomes another chance to prove your point. Certainty has left no space for an answer that changes yours."
+      },
+      null,
+      {
+        "phrase": "Overprepared",
+        "dim": "unused learning",
+        "door": "mind",
+        "face": "excess",
+        "echo_of": "金_土.carry.excess",
+        "desc": "You can keep feeding a plan with notes until the edge stalls over the page. There is more to know. Study keeps growing while the work it was meant to serve stays untouched."
+      }
+    ]
+  },
+  "$original": {
+    "manifesto": "Precision before intention · You are the Metal that cuts things clean.",
+    "dm_overview": "The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech.",
+    "gifts": [
+      null,
+      null,
+      null,
+      null,
+      {
+        "phrase": "No dressed-up answers",
+        "dim": "communication",
+        "door": "expression",
+        "face": "echo",
+        "echo_of": "金_水.function.definition_catalyst",
+        "desc": "What is inside you moves outward without forcing. When you speak, you say the thing the table has been talking around, and the answer comes back plain."
+      },
+      {
+        "phrase": "Plays the long game",
+        "dim": "trimming a plan",
+        "door": "action",
+        "face": "echo",
+        "echo_of": "金_木.function.definition_catalyst",
+        "desc": "You cut so the thing can grow. What you plant and keep cutting back, money, skill, trust, comes back with interest because you never let it sprawl."
+      },
+      {
+        "phrase": "Crisis performer",
+        "dim": "under pressure",
+        "door": "order",
+        "face": "echo",
+        "echo_of": "金_火.function.definition_catalyst",
+        "desc": "The day everything breaks is the day you are calmest. Others freeze. You are already cutting the problem into pieces that can be solved."
+      }
+    ],
+    "shadows": [
+      null,
+      {
+        "phrase": "Never reconsiders",
+        "dim": "second chances",
+        "door": "body",
+        "face": "excess",
+        "echo_of": "金_金.carry.excess",
+        "desc": "Once you have decided what something is, it stays that way. The person who grew, the plan that improved, the second chance that was earned, they all arrive at a door already shut."
+      },
+      null,
+      {
+        "phrase": "Overprepared",
+        "dim": "showing the work",
+        "door": "mind",
+        "face": "excess",
+        "echo_of": "金_土.carry.excess",
+        "desc": "Fed past use, the edge stalls. Everything goes in and nothing comes out, and the brooding gets mistaken for depth."
+      }
+    ]
+  },
+  "$gate_findings": {
+    "manifesto": "pass",
+    "dm_overview": "pass",
+    "gifts[6]": "pass",
+    "gifts[5]": "pass",
+    "gifts[4]": "pass",
+    "shadows[1]": "pass",
+    "shadows[3]": "pass"
+  }
+}

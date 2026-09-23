@@ -1,0 +1,16 @@
+{
+  "$variable": "STEM.dm_overview",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "geng",
+      "field": "dm_overview",
+      "candidate": "The Blade is Yang Metal, steel given an edge in the forge. Its season is autumn, when the cut divides what stays from what must go. It has a purpose. Against the whetstone, it gives up a little metal to keep that purpose clear. Drawn from its sheath, the blade makes a line that cannot be softened once it is made.",
+      "original": "The Blade is Yang Metal, the metal that has already been through fire. It arrives with autumn, the season that ends what summer started, and it does the harvest's honest arithmetic, deciding what was worth growing. Kept plain and kept sharp, it is drawn once, only for the true thing. Between wars it hangs on the wall and says nothing, which is its own kind of speech.",
+      "gate": "pass"
+    }
+  ]
+}

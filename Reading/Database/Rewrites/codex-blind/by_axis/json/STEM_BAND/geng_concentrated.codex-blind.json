@@ -1,0 +1,29 @@
+{
+  "$archetype": "geng_concentrated",
+  "axis": "STEM_BAND",
+  "key": "geng_concentrated",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$gate": "validate-template.mjs (both ends of the range, mechanical law, cut law, four-gram, reader zone)",
+  "$note": "A REWRITE STATION: the same shape as Reading/Database/templates/by_axis/json, sparse (only the fields this model wrote), never the truth. Adopt a field into the final template station with adopt.mjs on the owner's ruling.",
+  "candidates": {
+    "yourNature_desc": "You carry that drawn blade into ordinary conversation. There is more force behind your answer than the question needs, so even a small correction can arrive with the full edge of a challenge. You keep going. When honesty has a cut ready for every loose word, the point gets sharper while the conversation gets shorter. You can be right and left alone with it.",
+    "self_card": {
+      "face": "The blade kept drawn",
+      "presence": "You meet a loose claim with a sharp answer. Even casual talk can leave you holding a line nobody meant to test."
+    }
+  },
+  "$original": {
+    "yourNature_desc": "You are what the sword is like when it wakes up as a person. The cut is always ready and mostly used. You put the truth ahead of comfort, yours and everyone's, every day, in every setting. People bring you the questions nobody else will answer straight, then flinch at exactly what they asked for. The edge never rests. That includes the nights, and it includes you.",
+    "self_card": {
+      "face": "The edge, never sheathed",
+      "presence": "The cut is always available and mostly used. Clarity this constant is a climate, and the people near you dress for it."
+    }
+  },
+  "$gate_findings": {
+    "band.yourNature_desc": "pass",
+    "band.self_card.face": "pass",
+    "band.self_card.presence": "pass"
+  }
+}

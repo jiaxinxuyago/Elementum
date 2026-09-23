@@ -1,0 +1,275 @@
+{
+ "_generated_by": "Codex (exact model name and version not exposed)",
+ "_handoff": "2026-09-23 geng golden blind",
+ "_instructions": "Fill every \"value\" (strings, or the objects with the keys shown). Keep every other key byte-identical. You may add \"_trace\" beside any \"value\" holding one clause on the mechanism you cut it from. Return this file with the same name.",
+ "cell": "STEM/geng + STEM_BAND/geng_concentrated",
+ "page": "The Day Master page (P4) of 庚 The Blade",
+ "read_first": [
+  "prompts/04_READING_SYSTEM_PRIMER.md",
+  "prompts/00_MASTER_PROMPT.md",
+  "cards/STEM.manifesto.md",
+  "cards/STEM.dm_overview.md",
+  "cards/STEM_BAND.yourNature_desc.md",
+  "cards/STEM_BAND.self_card.md",
+  "cards/STEM.gifts.md"
+ ],
+ "facts": "Stem 庚 The Blade, Yang Metal. Spine: cuts. Arena: Metal (edge, blade, ore, forge, whetstone, the clean line).\nAngle Map row: | 庚 The Blade | Isolation through honesty | edge, cut, blade, steel, forge, whetstone, clean line | short hard declaratives, clean stops, no ornament |\nAngle not to borrow: this stem may stand near the recognition axis in its own way only; never another nature's cost dimension.\n- manifesto: [REDACTED: the target field]\n- inscription: \"You say what others soften, then quietly pay for being the one who did.\"\n- dm_overview (the sign): [REDACTED: the target field]\n- yourNature_desc (baseline, band-neutral): \"You put the truth ahead of your own comfort, and usually ahead of your own company. People keep the clarity you hand them and stay careful around the edge it came from. The cost never comes up. You've never once shown anyone the bill.\"\n- door_note (function → element): {\"body\":\"Metal\",\"mind\":\"Earth\",\"expression\":\"Water\",\"action\":\"Wood\",\"order\":\"Fire\"}. The yang stem reads carry.excess (no carry_yin).\n\n### Pair cell 金_金 (door body, Core element Metal, energy element Metal. Law: Metal and Metal are the same element (the self pair). Relative to the core the energy is the self, so Metal is this core's Body.)\n- function.definition_catalyst: \"Metal is your Body, and running thin, it is the reserve everything else draws on: sleep, food, recovery, the physical base under your discipline. Yours holds form long after the fuel is low, so you notice depletion late.\"\n- function.definition_friction: \"Metal is your Body, and running over, it is more physical force than your life currently spends: discipline with no outlet, stamina turning into tension you carry in your shoulders and jaw.\"\n- carry.wide: none (self pair): the Body wide gift is cut from this cell's definition_catalyst, echo_of = 金_金.function.definition_catalyst\n- carry.excess: {\"clause\":\"Strong metal wants water: so much certainty it cuts everything the same way.\",\"remedy\":\"Let water blunt it. Say it, don't cut it.\"}\n\n### Pair cell 金_土 (door mind, Core element Metal, energy element Earth. Law: Earth feeds Metal (土生金: ore grows in the mountain). Relative to the core the energy is the feeder, so Earth is this core's Mind.)\n- function.definition_catalyst: \"Earth is your Mind, and as a catalyst, it is a slow, deep intake that turns experience into ground you can stand on. Books, mentors, quiet corners, long walks after hard conversations: whatever feeds it comes back later as judgment.\"\n- function.definition_friction: \"Earth is your Mind, and as a friction, it is intake with no off switch. Study, comfort, preparation, shelter: everything that goes in counts as progress, so nothing ever has to come out. Learning becomes the most respectable way to stand still.\"\n- carry.wide: {\"clause\":\"You are well supplied with Earth, the ground the ore grows in.\",\"remedy\":\"Use what the ground gave you. Cut something.\"}\n- carry.excess: {\"clause\":\"Too much earth clogs the metal: fed past use, the edge stalls, brooding where it should cut.\",\"remedy\":\"Dig out. Less study, one real cut.\"}\n\n### Pair cell 金_水 (door expression, Core element Metal, energy element Water. Law: Metal feeds Water (金生水: dew beads on the cold blade). Relative to the core the energy is the fed, so Water is this core's Expression.)\n- function.definition_catalyst: \"Water is your Expression, and as a catalyst, it is output that flows. Words, cooking, small kindnesses, the bright remark that turns an evening: whatever is inside you moves outward without forcing, and people are fed by it before they notice they were hungry.\"\n- function.definition_friction: \"Water is your Expression, and as a friction, it is output with no banks. Talent spills wherever it lands, into snacks and scrolling, into remarks that cut deeper than intended, into half-made things. Nothing is wrong, exactly. That is the problem. The spill keeps absorbing the effort your best work was waiting for.\"\n- carry.wide: {\"clause\":\"There is no shortage of Water in you, the channel that lets the blade breathe.\",\"remedy\":\"Say it while it is fresh. Ship the draft.\"}\n- carry.excess: {\"clause\":\"Too much water sinks the metal: output floods the work, saying everything and shaping nothing.\",\"remedy\":\"Cut the flow. Finish one thing in silence.\"}\n\n### Pair cell 金_木 (door action, Core element Metal, energy element Wood. Law: Metal tames Wood (金克木: the knife prunes the branch). Relative to the core the energy is the tamed, so Wood is this core's Action.)\n- function.definition_catalyst: \"Wood is your Action, and as a catalyst, it is effort that behaves like a living thing. Whatever you plant and keep tending, money, skills, ventures, trust, grows on its own schedule and pays you back with interest, because your work compounds instead of burning off.\"\n- function.definition_friction: \"Wood is your Action, and as a friction, it is growth that stops answering to the harvest. Effort goes wherever the roots or the branches already point, old ground held too hard, new shoots started too freely, and the season ends with plenty of motion and nothing ripe.\"\n- carry.wide: {\"clause\":\"Wood is already here in plenty, the material the knife is for.\",\"remedy\":\"Cut what is already in front of you. Finish it.\"}\n- carry.excess: {\"clause\":\"Hard wood chips the edge: more to cut than the metal can bear, effort dulling on what resists.\",\"remedy\":\"Cut less. Sharpen before you cut.\"}\n\n### Pair cell 金_火 (door order, Core element Metal, energy element Fire. Law: Fire tames Metal (火克金: the forge softens the blade). Relative to the core the energy is the tamer, so Fire is this core's Order.)\n- function.definition_catalyst: \"Fire is your Order, and as a catalyst, it is structure with heat in it. Pressure organizes you instead of scattering you, rules turn into momentum, and when things fall apart you are the one holding a straight line through the middle of it.\"\n- function.definition_friction: \"Fire is your Order, and as a friction, it is order with the thermostat broken. Every rule runs hot, every moment gets treated like an emergency, and the structure that held things up presses down on people, then hardest on you. Nobody judges the edge as harshly as you do.\"\n- carry.wide: {\"clause\":\"Fire is easy for you to reach, the forge that finishes the edge.\",\"remedy\":\"Take the pressure you have. Let it sharpen you.\"}\n- carry.excess: {\"clause\":\"Weak metal melts in strong fire: pressure past what the edge can hold, rules that soften, not shape.\",\"remedy\":\"Step out of the fire. Add ground.\"}\n\nChart: golden 庚 The Blade, 1995-04-29 18:00 Beijing (Overfueled; Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5). Band Overfueled. Doors open on this chart: gifts through order (fire), action (wood), expression (water); shadows through body (metal), mind (earth). The chips shown are the ones in this skeleton; the other nine pool items are not shown on this chart and are listed for uniqueness only (no phrase may repeat one): Never looks tired (body, echo, dim \"running low\") · Finishes properly (body, wide, dim \"at work\") · First-handshake read (mind, echo, dim \"first impressions\") · Practices alone (mind, wide, dim \"practice\") · Tense all over (body, echo, dim \"unspent discipline\") · Lives inside plans (mind, echo, dim \"testing the plan\") · No filter (expression, echo, dim \"saying too much\") · Spins its wheels (action, echo, dim \"trimming\") · Own harshest critic (order, echo, dim \"self-worth\").",
+ "fields": {
+  "manifesto": {
+   "spec": {
+    "card": "STEM.manifesto",
+    "min": 4,
+    "max": 14,
+    "form": "L1 · L2",
+    "opener_L2": "You are the Metal that",
+    "notes": "L1 a noun-led hierarchy claim of 2 to 4 words, never the element or the reader; L2 the identity formula carrying the spine verb; joined by \" · \"."
+   },
+   "value": "Clarity before comfort · You are the Metal that cuts a clean line."
+  },
+  "dm_overview": {
+   "spec": {
+    "card": "STEM.dm_overview",
+    "min": 55,
+    "max": 85,
+    "person": "third person, the sign is the only actor, no \"you\"",
+    "opener": "The Blade is"
+   },
+   "value": "The Blade is Yang Metal, steel given an edge in the forge. Its season is autumn, when the cut divides what stays from what must go. It has a purpose. Against the whetstone, it gives up a little metal to keep that purpose clear. Drawn from its sheath, the blade makes a line that cannot be softened once it is made."
+  },
+  "band.yourNature_desc": {
+   "spec": {
+    "card": "STEM_BAND.yourNature_desc",
+    "band": "concentrated",
+    "min": 50,
+    "max": 75,
+    "person": "second person",
+    "opener": "You",
+    "notes": "sentence 1 receives the sign paragraph's central image onto the reader in this stem's own words; the band is a present state, never a decline; no four-word run from another stem's portrait"
+   },
+   "value": "You carry that drawn blade into ordinary conversation. There is more force behind your answer than the question needs, so even a small correction can arrive with the full edge of a challenge. You keep going. When honesty has a cut ready for every loose word, the point gets sharper while the conversation gets shorter. You can be right and left alone with it."
+  },
+  "band.self_card.face": {
+   "spec": {
+    "card": "STEM_BAND.self_card",
+    "min": 1,
+    "max": 8,
+    "person": "impersonal noun phrase naming the band state in the arena"
+   },
+   "value": "The blade kept drawn"
+  },
+  "band.self_card.presence": {
+   "spec": {
+    "card": "STEM_BAND.self_card",
+    "min": 5,
+    "max": 30,
+    "person": "second person allowed; being that state, dignified"
+   },
+   "value": "You meet a loose claim with a sharp answer. Even casual talk can leave you holding a line nobody meant to test."
+  },
+  "gifts[6]": {
+   "spec": {
+    "card": "STEM.gifts",
+    "side": "gift",
+    "door": "order",
+    "face": "echo",
+    "echo_of": "金_火.function.definition_catalyst",
+    "fixed": [
+     "door",
+     "face",
+     "echo_of"
+    ],
+    "phrase": {
+     "min": 1,
+     "max": 3,
+     "idioms4w": [
+      "never calls it done",
+      "never forgets a kindness",
+      "plays the long game",
+      "ahead of the curve",
+      "waits to be moved"
+     ]
+    },
+    "dim": {
+     "min": 1,
+     "max": 4
+    },
+    "desc": {
+     "sentences_min": 1,
+     "sentences_max": 4,
+     "max_words": 60,
+     "person": "second person"
+    },
+    "notes": "cut from 金_火.function.definition_catalyst under the derivation law: same mechanism, the stem's material, the phrase names the symptom and reads as a gift alone"
+   },
+   "value": {
+    "phrase": "Steady under pressure",
+    "dim": "demanding moments",
+    "desc": "You can turn pressure into a clear task. A deadline gives your effort an edge, and you can keep the work straight while the demands around it change."
+   }
+  },
+  "gifts[5]": {
+   "spec": {
+    "card": "STEM.gifts",
+    "side": "gift",
+    "door": "action",
+    "face": "echo",
+    "echo_of": "金_木.function.definition_catalyst",
+    "fixed": [
+     "door",
+     "face",
+     "echo_of"
+    ],
+    "phrase": {
+     "min": 1,
+     "max": 3,
+     "idioms4w": [
+      "never calls it done",
+      "never forgets a kindness",
+      "plays the long game",
+      "ahead of the curve",
+      "waits to be moved"
+     ]
+    },
+    "dim": {
+     "min": 1,
+     "max": 4
+    },
+    "desc": {
+     "sentences_min": 1,
+     "sentences_max": 4,
+     "max_words": 60,
+     "person": "second person"
+    },
+    "notes": "cut from 金_木.function.definition_catalyst under the derivation law: same mechanism, the stem's material, the phrase names the symptom and reads as a gift alone"
+   },
+   "value": {
+    "phrase": "Builds to last",
+    "dim": "what effort leaves",
+    "desc": "You can keep working a piece long enough for each cut to build on the last. Practice leaves skill behind. The next task can begin with something the earlier one made possible."
+   }
+  },
+  "gifts[4]": {
+   "spec": {
+    "card": "STEM.gifts",
+    "side": "gift",
+    "door": "expression",
+    "face": "echo",
+    "echo_of": "金_水.function.definition_catalyst",
+    "fixed": [
+     "door",
+     "face",
+     "echo_of"
+    ],
+    "phrase": {
+     "min": 1,
+     "max": 3,
+     "idioms4w": [
+      "never calls it done",
+      "never forgets a kindness",
+      "plays the long game",
+      "ahead of the curve",
+      "waits to be moved"
+     ]
+    },
+    "dim": {
+     "min": 1,
+     "max": 4
+    },
+    "desc": {
+     "sentences_min": 1,
+     "sentences_max": 4,
+     "max_words": 60,
+     "person": "second person"
+    },
+    "notes": "cut from 金_水.function.definition_catalyst under the derivation law: same mechanism, the stem's material, the phrase names the symptom and reads as a gift alone"
+   },
+   "value": {
+    "phrase": "Speaks with ease",
+    "dim": "sharing thoughts",
+    "desc": "You can put a clean edge on a thought without forcing the words. An explanation gives someone something they can use. What takes shape inside you can pass into ordinary conversation."
+   }
+  },
+  "shadows[1]": {
+   "spec": {
+    "card": "STEM.gifts",
+    "side": "shadow",
+    "door": "body",
+    "face": "excess",
+    "echo_of": "金_金.carry.excess",
+    "fixed": [
+     "door",
+     "face",
+     "echo_of"
+    ],
+    "phrase": {
+     "min": 1,
+     "max": 3,
+     "idioms4w": [
+      "never calls it done",
+      "never forgets a kindness",
+      "plays the long game",
+      "ahead of the curve",
+      "waits to be moved"
+     ]
+    },
+    "dim": {
+     "min": 1,
+     "max": 4
+    },
+    "desc": {
+     "sentences_min": 1,
+     "sentences_max": 4,
+     "max_words": 60,
+     "person": "second person"
+    },
+    "notes": "cut from 金_金.carry.excess under the derivation law: same mechanism, the stem's material, the phrase names the symptom and reads as a shadow alone"
+   },
+   "value": {
+    "phrase": "Never reconsiders",
+    "dim": "being challenged",
+    "desc": "You keep the same cut ready even when the facts call for a different one. A correction becomes another chance to prove your point. Certainty has left no space for an answer that changes yours."
+   }
+  },
+  "shadows[3]": {
+   "spec": {
+    "card": "STEM.gifts",
+    "side": "shadow",
+    "door": "mind",
+    "face": "excess",
+    "echo_of": "金_土.carry.excess",
+    "fixed": [
+     "door",
+     "face",
+     "echo_of"
+    ],
+    "phrase": {
+     "min": 1,
+     "max": 3,
+     "idioms4w": [
+      "never calls it done",
+      "never forgets a kindness",
+      "plays the long game",
+      "ahead of the curve",
+      "waits to be moved"
+     ]
+    },
+    "dim": {
+     "min": 1,
+     "max": 4
+    },
+    "desc": {
+     "sentences_min": 1,
+     "sentences_max": 4,
+     "max_words": 60,
+     "person": "second person"
+    },
+    "notes": "cut from 金_土.carry.excess under the derivation law: same mechanism, the stem's material, the phrase names the symptom and reads as a shadow alone"
+   },
+   "value": {
+    "phrase": "Overprepared",
+    "dim": "unused learning",
+    "desc": "You can keep feeding a plan with notes until the edge stalls over the page. There is more to know. Study keeps growing while the work it was meant to serve stays untouched."
+   }
+  }
+ }
+}

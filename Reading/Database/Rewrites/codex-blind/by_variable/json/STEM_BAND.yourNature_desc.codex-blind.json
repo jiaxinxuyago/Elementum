@@ -1,0 +1,16 @@
+{
+  "$variable": "STEM_BAND.yourNature_desc",
+  "$generated_by": "codex-blind",
+  "$handoff": "2026-09-23 geng golden blind",
+  "$filed": "2026-09-23",
+  "$note": "A REWRITE pivot: this model's candidates for one variable across the cells it wrote, each beside the original and its gate result. Truth is Reading/Database/templates/by_variable (generated from by_axis).",
+  "variants": [
+    {
+      "cell": "geng_concentrated",
+      "field": "band.yourNature_desc",
+      "candidate": "You carry that drawn blade into ordinary conversation. There is more force behind your answer than the question needs, so even a small correction can arrive with the full edge of a challenge. You keep going. When honesty has a cut ready for every loose word, the point gets sharper while the conversation gets shorter. You can be right and left alone with it.",
+      "original": "You are what the sword is like when it wakes up as a person. The cut is always ready and mostly used. You put the truth ahead of comfort, yours and everyone's, every day, in every setting. People bring you the questions nobody else will answer straight, then flinch at exactly what they asked for. The edge never rests. That includes the nights, and it includes you.",
+      "gate": "pass"
+    }
+  ]
+}
