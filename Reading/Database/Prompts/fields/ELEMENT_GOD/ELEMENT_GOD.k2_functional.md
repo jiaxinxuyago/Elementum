@@ -17,6 +17,7 @@ _Prompt file (data). Edit here; the harness reads this file. Born 2026-09-21 fro
 - Checks: ≤22w, zero dashes, B1–B2 zone (the 2026-09-20 Batch 3 line: "Your discipline is a strict coach: cut the extras, keep the goal, hold the line for years.").
 - Exemplar (土_偏印): "Thinking runs deep and sideways. You digest slowly, connect strangely, and surface with conclusions no straight line could have reached."
 - Sources: REA_16 §2c (re-ruled 2026-09-01); REA_02 §5f god grain.
+- Style: one line in kitchen-table words, the family function named by its verb (thinks, makes, builds, holds the line), the element's texture in one noun; no cross-function claim (that is TG_PATTERN's); the B1–B2 zone; renders after "runs your {Function}: " so it must read as the continuation of that stem.
 
 ## Assembly
 
@@ -27,3 +28,4 @@ PROMPT = `00_MASTER_PROMPT.md` + `01_INPUT_PACK.md` (the axis pack, filled from 
 | Date | Change | Ruling |
 |---|---|---|
 | 2026-09-21 | Born from REA_17 v0.3 | compilation, no new rule |
+| 2026-09-23 | Style line added from the registry row (re-ruled 2026-09-01) | handoff readiness check (no new rule) |

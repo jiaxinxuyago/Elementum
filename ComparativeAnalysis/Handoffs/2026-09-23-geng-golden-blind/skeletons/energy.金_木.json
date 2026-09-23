@@ -1,0 +1,167 @@
+{
+ "_handoff": "2026-09-23 geng golden blind",
+ "_instructions": "Fill every \"value\" (strings, or the objects with the keys shown). Keep every other key byte-identical. You may add \"_trace\" beside any \"value\" holding one clause on the mechanism you cut it from. Return this file with the same name.",
+ "cell": "ELEMENT_PAIR/金_木 + ELEMENT_GOD/木_正财, 木_偏财",
+ "page": "The energy page of Wood (your Action) for a Metal core, catalyst pole",
+ "read_first": [
+  "prompts/04_READING_SYSTEM_PRIMER.md",
+  "prompts/00_MASTER_PROMPT.md",
+  "cards/ELEMENT_PAIR.mechanism.base.md",
+  "cards/ELEMENT_PAIR.mechanism.catalyst_turn.md",
+  "cards/ELEMENT_PAIR.carry.md",
+  "cards/ELEMENT_PAIR.function.definition_catalyst.md",
+  "cards/ELEMENT_GOD.adj_chips.md",
+  "cards/ELEMENT_GOD.fn_reading.md",
+  "cards/ELEMENT_PAIR.function.advise_catalyst.md",
+  "cards/ELEMENT_PAIR.cta_verdict.md"
+ ],
+ "facts": "## CELL FACTS\n\nCell 金_木. Core element Metal, energy element Wood. Law: Metal tames Wood (金克木: the knife prunes the branch). Relative to the core the energy is the tamed, so Wood is this core's Action.\n- mechanism.classic (the sourced epigraph): \"剛勝柔，故金勝木\"\n- mechanism.base: [REDACTED: the target field]\n- mechanism.catalyst_turn: \"Run thin, the knife has nothing to prune: skill idling without a project worth it. Your chart asks you to claim material. Pick one living ambition and start cutting.\"\n- mechanism.friction_turn: \"Run heavy, the pruning never stops: forests of projects, an edge worn on material that never ends. The knife dulls on quantity. Cut fewer branches, and finish them.\"\n- function.definition_catalyst: [REDACTED: the target field]\n- function.definition_friction: \"Wood is your Action, and as a friction, it is growth that stops answering to the harvest. Effort goes wherever the roots or the branches already point, old ground held too hard, new shoots started too freely, and the season ends with plenty of motion and nothing ripe.\"\n- function.advise_catalyst: [REDACTED: the target field]\n- function.advise_friction: \"A field is judged at harvest, and yours keeps skipping the judging. Twice a year, walk the rows honestly: kill one dead thing out loud, feed the two that actually fruit, and spend one fenced-off risk on purpose. Judge every habit by its yield, and never by its years of service.\"\n- cta_verdict: [REDACTED: the target field]\n- carry.catalyst: {\"clause\":\"The knife has nothing to prune: skill idling without a project worth it.\",\"remedy\":\"Pick one living ambition and start cutting.\"}\n- carry.friction: {\"clause\":\"The pruning never stops: forests of projects, an edge worn on material that never ends.\",\"remedy\":\"Cut fewer branches, and finish them.\"}\n- carry.wide: [REDACTED: the target field]\n- carry.missing: {\"clause\":\"No material to cut: skill with nothing to work, an edge kept for its own sake.\",\"remedy\":\"Borrow material: one project, one claim.\"}\n- carry.spared: {\"clause\":\"Wood runs absent, and the knife is not worn: nothing to prune, nothing to hold.\",\"remedy\":\"Keep the knife bright. Pick projects rarely.\"}\n- carry.thin: {\"clause\":\"Wood runs thin and unwanted: a small plot, easily kept.\",\"remedy\":\"Keep the plot small.\"}\n- carry.excess: {\"clause\":\"Hard wood chips the edge: more to cut than the metal can bear, effort dulling on what resists.\",\"remedy\":\"Cut less. Sharpen before you cut.\"}\n\nThe classical excess idiom for this cell (say it in English in carry.excess, never quote it): 金能克木，木坚金缺 (克之不逮, the Action door).\nThe eight wide openers (a carry.wide clause opens with one; no core repeats one across its wanted energies): \"{Element} is one thing you never run short of\" · \"{Element} is easy for you to reach\" · \"{Element} is all around you\" · \"You have plenty of {Element}\" · \"{Element} is already here in plenty\" · \"You are well supplied with {Element}\" · \"You were given plenty of {Element}\" · \"There is no shortage of {Element} in you\".\nFields shown above that are not the target are context for the repetition law (no four-word run shared with them) and for the cut law; do not rewrite them.\n\n## CELL FACTS\n\nCell 木_正财 (Wood carrying The Steward). Persona The Steward (正财). Definition line: \"Methodical, directed acquisition, the value built and kept\". Keyword Caution, charge gentle, poles catalyst Security / friction Hoarding. Family function: Action. Cost dimension: value built and kept; counting what others spend freely. Arena: granary, kept things, stone by stone, seasons of saving. Classical portrait: methodical, directed acquisition; value built and kept; caution, thrift, the slow ledger. Ruled domains: Wealth, Savings, Steady love. Sibling (other polarity of the family): 偏财.\nElement arena: Wood (trunk, branch, root, grain, growth, the forest). dm_element (which core reads this cell): Metal. structural_interaction seed: \"Metal directing Wood cross-polarity — precision shaping reach toward structured outcomes\".\n- k2_overview: \"Your Wood moves as the Steward: growth banked in rings. You build worth the way orchards do, planted early, tended patiently, harvested honestly, replanted always. Assets in your care grow. So do people. Your fortune is cumulative and alive, and it rewards the seasons you refuse to rush.\"\n- k2_functional: \"You build annually: steady deposits of effort that quietly become an estate.\"\n- adj_chips: {\"friction\":[\"Stuck\",\"Plays it safe\",\"Inflexible\"],\"catalyst\":\"[REDACTED: the words under test]\"}\n- k2_domain_readings: {\"Wealth\":\"Your wealth is orchard-shaped: productive assets, patient growth, income in seasons. You like what grows on its own, a skill, a plot, a stake left alone, and you let time do the heaviest lifting. It intends to.\",\"Savings\":\"You save like a granary: harvests stored against winters. Rotate the stock, reinvest the surplus, and remember granaries exist so that planting can be brave.\",\"Steady love\":\"You love agriculturally: devotion planted deep, tended daily, expected to fruit for decades. Choose a fellow gardener. Then keep courting through every season, even the mud ones.\"}\n- fn_reading.catalyst.ledger (three rows, index-aligned to adj_chips.catalyst; authored order is significance order):\n  - row 0: [REDACTED: the target row]\n  - row 1: [REDACTED: the target row]\n  - row 2 \"Deep-rooted\": {\"trait\":\"Committing to one craft and one ground, and then actually staying, is the move you keep making. Depth beats breadth in every ledger you run, and the staying pays in ways the movers around you never collect. It looked stubborn for a while. Now it looks like strategy.\",\"scene\":\"Year nine of the same work, same town, same name on the door. Around year four it felt like being left behind, because everyone else was rebranding and relocating. Then the people who kept moving started sending work to the one person who could still be found.\",\"outside\":\"People who track one goal at a time find your calendar easy to read and your patience hard to copy. You are where you said you would be, doing what you said you would do, nine years in. Roots this deep never look like much from above. They hold anyway.\"}\n- Sibling cell 木_偏财 chips (nothing you write may fit the sibling): {\"catalyst\":[\"Wide-branching\",\"Deal-maker\",\"Open-handed\"],\"friction\":[\"Scattered\",\"Overgrown\",\"Fickle\"]}\n- Sibling cell 木_偏财 catalyst row 0 trait door, for contrast: \"Your effort naturally runs in several directions at once, and the directions feed each other more than they collide. Focus, as commonly preached, never fit you: your luck lives in the overlaps, where one venture waters the next. So you stopped apologizing for the branching.\"\n\n## CELL FACTS\n\nCell 木_偏财 (Wood carrying The Horizon). Persona The Horizon (偏财). Definition line: \"Wide-ranging engagement, opportunity sensed at a distance\". Keyword Reach, charge dynamic, poles catalyst Momentum / friction Scatter. Family function: Action. Cost dimension: opportunity sensed far off; the near things blur. Arena: horizon, wind, open road, far light, the next place. Classical portrait: wide-ranging engagement; opportunity sensed at a distance; windfall, generosity, the near things blur. Ruled domains: Opportunity, Ventures, Father. Sibling (other polarity of the family): 正财.\nElement arena: Wood (trunk, branch, root, grain, growth, the forest). dm_element (which core reads this cell): Metal. structural_interaction seed: \"Metal directing Wood broadly — precision ranging across living material\".\n- k2_overview: \"Your Wood moves as the Horizon: growth that reaches for distant light. Opportunity, for you, is territory: new markets, new cities, branches extended where no one from home has grown. You expand naturally and prune reluctantly. Fortune arrives through the reaching. Roots decide how much of it you keep.\"\n- k2_functional: \"You grow toward opportunity steadily, extending reach every season without retreating.\"\n- adj_chips: {\"friction\":[\"Scattered\",\"Overgrown\",\"Fickle\"],\"catalyst\":\"[REDACTED: the words under test]\"}\n- k2_domain_readings: {\"Opportunity\":\"Opportunities appear to you as open land: markets unplanted, niches unclaimed. You see fertile ground others call wilderness. Scout it, but check the soil before transplanting everything.\",\"Ventures\":\"Your ventures grow in groves: several trunks sharing a root system of skills and contacts. Let each mature before seeding the next. Orchards fail from planting fever, not planting.\",\"Father\":\"The father-thread runs green and rangy: reach, enterprise, restlessness, wherever a paternal figure stood. Where that reaching shaped you, keep it. Where it left no roots, plant them yourself.\"}\n- fn_reading.catalyst.ledger (three rows, index-aligned to adj_chips.catalyst; authored order is significance order):\n  - row 0: [REDACTED: the target row]\n  - row 1 \"Deal-maker\": {\"trait\":\"Seeing the opening before others see the wall is your standing advantage. Where most people need proof, you need one walk past the site, and the plan assembles itself uninvited. Most of what you imagine stays imaginary. The fraction you build pays for the whole habit.\",\"scene\":\"You walked past the empty lot once and the café appeared in your head, tables and all, a year before anyone else saw potential. By the time the neighborhood caught up, you had already moved on twice. Early is the only schedule you have ever kept.\",\"outside\":\"Friends have learned to listen when you point at nothing and describe a business. Half your ideas sound absurd on the sidewalk and obvious five years later. The people who laughed at the first one quietly ask about the next.\"}\n  - row 2 \"Open-handed\": {\"trait\":\"Money moves through your hands easily, and it keeps coming back with interest of a kind no bank tracks. You give without counting, on instinct, and the instinct has been running a quietly profitable book for years without ever once being audited.\",\"scene\":\"You covered the dinner without thinking, the way you seeded the friend’s shop and floated the cousin’s rent. Nobody kept a ledger, least of all you. Somehow the shop sends customers, the cousin sends leads, and generosity keeps turning out to be your best-performing account.\",\"outside\":\"The word on you is generous, and the word travels further than money does. Doors open because you propped one open for someone else two years back. Tight-fisted people never see this economy at all, and they keep wondering how you afford your luck.\"}\n- Sibling cell 木_正财 chips (nothing you write may fit the sibling): {\"catalyst\":[\"Cultivating\",\"Compounding\",\"Deep-rooted\"],\"friction\":[\"Stuck\",\"Plays it safe\",\"Inflexible\"]}\n- Sibling cell 木_正财 catalyst row 0 trait door, for contrast: \"Improving what you already own comes easier to you than chasing what you don’t, and it shows everywhere you’ve settled. Care, in your hands, behaves like an investment: whatever you maintain appreciates, and whatever needs chasing, you mostly no longer bother to chase.\"\n\nChart: golden 庚 The Blade, 1995-04-29 18:00 Beijing (Overfueled; Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5). Wood runs 33%: catalyst, abundant. The page shows the catalyst pole; its state line is the carry.wide line. Ledger rows shown: row 0 正财 · trait door, row 1 正财 · scene door, row 2 偏财 · outside door (one door per row, rotating trait · scene · outside).",
+ "fields": {
+  "mechanism.base": {
+   "spec": {
+    "card": "ELEMENT_PAIR.mechanism.base",
+    "min": 45,
+    "max": 75,
+    "person": "fully third person, no \"you\", no function claim, no persona"
+   },
+   "value": "[REDACTED: the field under test]"
+  },
+  "carry.wide": {
+   "spec": {
+    "card": "ELEMENT_PAIR.carry",
+    "renders": "P4 carry card and the energy page state line",
+    "clause": {
+     "min": 4,
+     "max": 18
+    },
+    "remedy": {
+     "min": 2,
+     "max": 12
+    },
+    "openers": [
+     "Wood is one thing you never run short of",
+     "Wood is easy for you to reach",
+     "Wood is all around you",
+     "You have plenty of Wood",
+     "Wood is already here in plenty",
+     "You are well supplied with Wood",
+     "You were given plenty of Wood",
+     "There is no shortage of Wood in you"
+    ],
+    "cut_from": null,
+    "notes": "Wood is wanted and abundant: the plentiful line, opening with one of the eight wide openers, no door metaphor; the remedy tells the reader to use it"
+   },
+   "value": {
+    "clause": "[REDACTED: the field under test]",
+    "remedy": "[REDACTED: the field under test]"
+   }
+  },
+  "function.definition_catalyst": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.definition_catalyst",
+    "min": 20,
+    "max": 55,
+    "person": "second person",
+    "opener": "Wood is your Action, and as a catalyst, it is",
+    "notes": "a concrete-life inventory of what the function does when it runs right"
+   },
+   "value": "[REDACTED: the field under test]"
+  },
+  "ledger[0]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "木_正财",
+    "persona": "The Steward (正财)",
+    "pole": "catalyst",
+    "row": 0,
+    "door": "trait",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a gift alone, distinct from the other rows and from the sibling cell's chips"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "door": "trait",
+     "notes": "opens on the trait claim: what this word IS for the person"
+    }
+   },
+   "value": {
+    "word": "[REDACTED: the field under test]",
+    "text": "[REDACTED: the field under test]"
+   }
+  },
+  "ledger[1]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "木_正财",
+    "persona": "The Steward (正财)",
+    "pole": "catalyst",
+    "row": 1,
+    "door": "scene",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a gift alone, distinct from the other rows and from the sibling cell's chips"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "door": "scene",
+     "notes": "opens inside a representative situation with ordinary objects and a clock time; the example is used, not displayed"
+    }
+   },
+   "value": {
+    "word": "[REDACTED: the field under test]",
+    "text": "[REDACTED: the field under test]"
+   }
+  },
+  "ledger[2]": {
+   "spec": {
+    "card": "ELEMENT_GOD.fn_reading",
+    "cell": "木_偏财",
+    "persona": "The Horizon (偏财)",
+    "pole": "catalyst",
+    "row": 0,
+    "door": "outside",
+    "word": {
+     "min": 1,
+     "max": 3,
+     "notes": "the chip: the persona's classical portrait textured by the element, high-school vocabulary, reads as a gift alone, distinct from the other rows and from the sibling cell's chips"
+    },
+    "text": {
+     "min": 35,
+     "max": 55,
+     "door": "outside",
+     "notes": "opens from how others see it and what it costs or pays"
+    }
+   },
+   "value": {
+    "word": "[REDACTED: the field under test]",
+    "text": "[REDACTED: the field under test]"
+   }
+  },
+  "function.advise_catalyst": {
+   "spec": {
+    "card": "ELEMENT_PAIR.function.advise_catalyst",
+    "min": 20,
+    "max": 60,
+    "person": "second person, imperatives allowed",
+    "notes": "one sentence naming the psychological truth under the state, then three or four small actions with objects and cadences, ending on the smallest; no metaphor stacking; no prescription of investments, careers or medical acts; never a guarantee"
+   },
+   "value": "[REDACTED: the field under test]"
+  },
+  "cta_verdict": {
+   "spec": {
+    "card": "ELEMENT_PAIR.cta_verdict",
+    "min": 8,
+    "max": 30,
+    "sentences": 1,
+    "person": "second person",
+    "notes": "explains \"Wood is your Action\": a behavioural truth plus ONE tendency-framed consequence beat"
+   },
+   "value": "[REDACTED: the field under test]"
+  }
+ }
+}

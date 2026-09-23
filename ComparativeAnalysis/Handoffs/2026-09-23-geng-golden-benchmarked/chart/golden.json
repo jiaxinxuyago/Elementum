@@ -1,0 +1,942 @@
+{
+ "id": "golden",
+ "label": "golden 庚 The Blade, 1995-04-29 18:00 Beijing (Overfueled; Earth 33 / Wood 33 / Metal 23 / Water 6 / Fire 5)",
+ "synthetic": false,
+ "stem": "庚",
+ "core": "Metal",
+ "yin": false,
+ "band": "concentrated",
+ "bandTerm": "Overfueled",
+ "balanced": false,
+ "dayMaster": {
+  "stem": "庚",
+  "element": "Metal",
+  "polarity": "yang",
+  "strength": "strong",
+  "strengthScore": 0.72
+ },
+ "pillars": {
+  "year": {
+   "stem": "乙",
+   "branch": "亥",
+   "stemElement": "Wood",
+   "branchElement": "Water",
+   "stemPolarity": "yin",
+   "branchPolarity": "yin",
+   "hidden": [
+    {
+     "stem": "壬",
+     "weight": 0.7,
+     "tenGod": "食神"
+    },
+    {
+     "stem": "甲",
+     "weight": 0.3,
+     "tenGod": "偏财"
+    }
+   ],
+   "stemTenGod": "正财"
+  },
+  "month": {
+   "stem": "庚",
+   "branch": "辰",
+   "stemElement": "Metal",
+   "branchElement": "Earth",
+   "stemPolarity": "yang",
+   "branchPolarity": "yang",
+   "hidden": [
+    {
+     "stem": "戊",
+     "weight": 0.6,
+     "tenGod": "偏印"
+    },
+    {
+     "stem": "乙",
+     "weight": 0.3,
+     "tenGod": "正财"
+    },
+    {
+     "stem": "癸",
+     "weight": 0.1,
+     "tenGod": "伤官"
+    }
+   ],
+   "stemTenGod": "比肩"
+  },
+  "day": {
+   "stem": "庚",
+   "branch": "寅",
+   "stemElement": "Metal",
+   "branchElement": "Wood",
+   "stemPolarity": "yang",
+   "branchPolarity": "yang",
+   "hidden": [
+    {
+     "stem": "甲",
+     "weight": 0.6,
+     "tenGod": "偏财"
+    },
+    {
+     "stem": "丙",
+     "weight": 0.3,
+     "tenGod": "七杀"
+    },
+    {
+     "stem": "戊",
+     "weight": 0.1,
+     "tenGod": "偏印"
+    }
+   ],
+   "stemTenGod": "Day Master"
+  },
+  "hour": {
+   "stem": "乙",
+   "branch": "酉",
+   "stemElement": "Wood",
+   "branchElement": "Metal",
+   "stemPolarity": "yin",
+   "branchPolarity": "yin",
+   "hidden": [
+    {
+     "stem": "辛",
+     "weight": 1,
+     "tenGod": "劫财"
+    }
+   ],
+   "stemTenGod": "正财"
+  }
+ },
+ "tenGods": {
+  "yearStem": {
+   "zh": "正财",
+   "en": "Direct Wealth",
+   "family": "wealth"
+  },
+  "yearBranch": {
+   "zh": "—",
+   "en": "—",
+   "family": "none"
+  },
+  "monthStem": {
+   "zh": "比肩",
+   "en": "Parallel Self",
+   "family": "self"
+  },
+  "monthBranch": {
+   "zh": "—",
+   "en": "—",
+   "family": "none"
+  },
+  "dayStem": {
+   "zh": "日主",
+   "en": "Day Master",
+   "family": "self"
+  },
+  "dayBranch": {
+   "zh": "—",
+   "en": "—",
+   "family": "none"
+  },
+  "hourStem": {
+   "zh": "正财",
+   "en": "Direct Wealth",
+   "family": "wealth"
+  },
+  "hourBranch": {
+   "zh": "—",
+   "en": "—",
+   "family": "none"
+  }
+ },
+ "composition": {
+  "Metal": {
+   "count": 2,
+   "score": 0.234,
+   "dominant": false,
+   "present": true
+  },
+  "Wood": {
+   "count": 3,
+   "score": 0.333,
+   "dominant": true,
+   "present": true
+  },
+  "Fire": {
+   "count": 1,
+   "score": 0.052,
+   "dominant": false,
+   "present": true
+  },
+  "Earth": {
+   "count": 3,
+   "score": 0.324,
+   "dominant": true,
+   "present": true
+  },
+  "Water": {
+   "count": 1,
+   "score": 0.057,
+   "dominant": false,
+   "present": true
+  }
+ },
+ "missingElements": [],
+ "tension": "forging",
+ "tgPattern": "forging",
+ "catalystElement": "Fire",
+ "archetypeKey": "庚_concentrated_forging",
+ "pattern": {
+  "name": "通关格",
+  "en": "Balance and Flow",
+  "family": "balanced",
+  "description": "Harmony and adaptability across contexts"
+ },
+ "combinations": [],
+ "branchPatterns": [
+  {
+   "type": "combination",
+   "zh": "六合",
+   "en": "Combination",
+   "branches": [
+    "寅",
+    "亥"
+   ],
+   "elements": [
+    "Wood",
+    "Water"
+   ]
+  },
+  {
+   "type": "combination",
+   "zh": "六合",
+   "en": "Combination",
+   "branches": [
+    "辰",
+    "酉"
+   ],
+   "elements": [
+    "Earth",
+    "Metal"
+   ]
+  }
+ ],
+ "luckPillars": [
+  {
+   "order": 1,
+   "stem": "己",
+   "branch": "卯",
+   "element": "Earth",
+   "stemTenGod": {
+    "zh": "正印",
+    "en": "Direct Seal",
+    "family": "seal"
+   },
+   "branchTenGod": {
+    "zh": "—",
+    "en": "—",
+    "family": "none"
+   },
+   "startAge": 8,
+   "endAge": 17,
+   "startYear": 2003,
+   "endYear": 2012,
+   "isCurrent": false,
+   "isPast": true
+  },
+  {
+   "order": 2,
+   "stem": "戊",
+   "branch": "寅",
+   "element": "Earth",
+   "stemTenGod": {
+    "zh": "偏印",
+    "en": "Indirect Seal",
+    "family": "seal"
+   },
+   "branchTenGod": {
+    "zh": "—",
+    "en": "—",
+    "family": "none"
+   },
+   "startAge": 18,
+   "endAge": 27,
+   "startYear": 2013,
+   "endYear": 2022,
+   "isCurrent": false,
+   "isPast": true
+  },
+  {
+   "order": 3,
+   "stem": "丁",
+   "branch": "丑",
+   "element": "Fire",
+   "stemTenGod": {
+    "zh": "正官",
+    "en": "Direct Officer",
+    "family": "officer"
+   },
+   "branchTenGod": {
+    "zh": "—",
+    "en": "—",
+    "family": "none"
+   },
+   "startAge": 28,
+   "endAge": 37,
+   "startYear": 2023,
+   "endYear": 2032,
+   "isCurrent": true,
+   "isPast": false
+  },
+  {
+   "order": 4,
+   "stem": "丙",
+   "branch": "子",
+   "element": "Fire",
+   "stemTenGod": {
+    "zh": "七杀",
+    "en": "Seven Killings",
+    "family": "officer"
+   },
+   "branchTenGod": {
+    "zh": "—",
+    "en": "—",
+    "family": "none"
+   },
+   "startAge": 38,
+   "endAge": 47,
+   "startYear": 2033,
+   "endYear": 2042,
+   "isCurrent": false,
+   "isPast": false
+  },
+  {
+   "order": 5,
+   "stem": "乙",
+   "branch": "亥",
+   "element": "Wood",
+   "stemTenGod": {
+    "zh": "正财",
+    "en": "Direct Wealth",
+    "family": "wealth"
+   },
+   "branchTenGod": {
+    "zh": "—",
+    "en": "—",
+    "family": "none"
+   },
+   "startAge": 48,
+   "endAge": 57,
+   "startYear": 2043,
+   "endYear": 2052,
+   "isCurrent": false,
+   "isPast": false
+  },
+  {
+   "order": 6,
+   "stem": "甲",
+   "branch": "戌",
+   "element": "Wood",
+   "stemTenGod": {
+    "zh": "偏财",
+    "en": "Indirect Wealth",
+    "family": "wealth"
+   },
+   "branchTenGod": {
+    "zh": "—",
+    "en": "—",
+    "family": "none"
+   },
+   "startAge": 58,
+   "endAge": 67,
+   "startYear": 2053,
+   "endYear": 2062,
+   "isCurrent": false,
+   "isPast": false
+  },
+  {
+   "order": 7,
+   "stem": "癸",
+   "branch": "酉",
+   "element": "Water",
+   "stemTenGod": {
+    "zh": "伤官",
+    "en": "Hurt Officer",
+    "family": "output"
+   },
+   "branchTenGod": {
+    "zh": "—",
+    "en": "—",
+    "family": "none"
+   },
+   "startAge": 68,
+   "endAge": 77,
+   "startYear": 2063,
+   "endYear": 2072,
+   "isCurrent": false,
+   "isPast": false
+  },
+  {
+   "order": 8,
+   "stem": "壬",
+   "branch": "申",
+   "element": "Water",
+   "stemTenGod": {
+    "zh": "食神",
+    "en": "Food God",
+    "family": "output"
+   },
+   "branchTenGod": {
+    "zh": "—",
+    "en": "—",
+    "family": "none"
+   },
+   "startAge": 78,
+   "endAge": 87,
+   "startYear": 2073,
+   "endYear": 2082,
+   "isCurrent": false,
+   "isPast": false
+  },
+  {
+   "order": 9,
+   "stem": "辛",
+   "branch": "未",
+   "element": "Metal",
+   "stemTenGod": {
+    "zh": "劫财",
+    "en": "Rob Wealth",
+    "family": "self"
+   },
+   "branchTenGod": {
+    "zh": "—",
+    "en": "—",
+    "family": "none"
+   },
+   "startAge": 88,
+   "endAge": 97,
+   "startYear": 2083,
+   "endYear": 2092,
+   "isCurrent": false,
+   "isPast": false
+  }
+ ],
+ "currentFlow": {
+  "year": {
+   "year": 2026,
+   "stem": "丙",
+   "branch": "午",
+   "stemElement": "Fire",
+   "branchElement": "Fire",
+   "stemTenGod": {
+    "zh": "七杀",
+    "en": "Seven Killings",
+    "family": "officer"
+   },
+   "branchTenGod": {
+    "zh": "—",
+    "en": "—",
+    "family": "none"
+   }
+  },
+  "month": {
+   "stem": "丁",
+   "branch": "酉",
+   "stemElement": "Fire",
+   "branchElement": "Metal",
+   "stemTenGod": {
+    "zh": "正官",
+    "en": "Direct Officer",
+    "family": "officer"
+   },
+   "branchTenGod": {
+    "zh": "—",
+    "en": "—",
+    "family": "none"
+   }
+  },
+  "day": {
+   "stem": "庚",
+   "branch": "子",
+   "stemElement": "Metal",
+   "branchElement": "Water",
+   "stemTenGod": {
+    "zh": "比肩",
+    "en": "Parallel Self",
+    "family": "self"
+   },
+   "branchTenGod": {
+    "zh": "—",
+    "en": "—",
+    "family": "none"
+   }
+  }
+ },
+ "energies": [
+  {
+   "el": "Earth",
+   "hz": "土",
+   "presence": 33,
+   "isCore": false,
+   "function": "Mind",
+   "role": "friction",
+   "volume": "abundant",
+   "excess": false,
+   "condition": "Overfueled",
+   "pole": "friction",
+   "pairKey": "金_土",
+   "state": "friction_turn",
+   "stateSource": "mechanism.friction_turn",
+   "turn": "Run heavy, the shelter closes over the blade: so much preparation that the edge never leaves the mine. Comfort begins to bury what it formed. Dig out and cut something real.",
+   "faces": [
+    {
+     "god": "偏印",
+     "share": 100,
+     "persona": "The Alchemist",
+     "polarity": "yang"
+    }
+   ],
+   "leadGod": "偏印",
+   "absentGod": "正印",
+   "fnRows": [
+    {
+     "word": "Withdrawn",
+     "god": "偏印",
+     "door": "trait"
+    },
+    {
+     "word": "Brooding",
+     "god": "偏印",
+     "door": "scene"
+    },
+    {
+     "word": "Overprepared",
+     "god": "偏印",
+     "door": "outside"
+    }
+   ]
+  },
+  {
+   "el": "Wood",
+   "hz": "木",
+   "presence": 33,
+   "isCore": false,
+   "function": "Action",
+   "role": "catalyst",
+   "volume": "abundant",
+   "excess": false,
+   "condition": "Underfueled",
+   "pole": "catalyst",
+   "pairKey": "金_木",
+   "state": "wide",
+   "stateSource": "carry.wide",
+   "turn": "Wood is already here in plenty, the material the knife is for. Cut what is already in front of you. Finish it.",
+   "faces": [
+    {
+     "god": "正财",
+     "share": 74,
+     "persona": "The Steward",
+     "polarity": "yin"
+    },
+    {
+     "god": "偏财",
+     "share": 26,
+     "persona": "The Horizon",
+     "polarity": "yang"
+    }
+   ],
+   "leadGod": "正财",
+   "absentGod": null,
+   "fnRows": [
+    {
+     "word": "Cultivating",
+     "god": "正财",
+     "door": "trait"
+    },
+    {
+     "word": "Compounding",
+     "god": "正财",
+     "door": "scene"
+    },
+    {
+     "word": "Wide-branching",
+     "god": "偏财",
+     "door": "outside"
+    }
+   ]
+  },
+  {
+   "el": "Metal",
+   "hz": "金",
+   "presence": 23,
+   "isCore": true,
+   "function": "Body",
+   "role": "core",
+   "volume": "abundant",
+   "excess": false,
+   "condition": "Overfueled",
+   "pole": "friction",
+   "pairKey": "金_金",
+   "state": "friction_turn",
+   "stateSource": "mechanism.friction_turn",
+   "turn": "Run heavy, the edge seals itself in: so much certainty that nothing else gets past it. Honor the standard, and let one trusted voice through.",
+   "faces": [
+    {
+     "god": "比肩",
+     "share": 67,
+     "persona": "The Twin",
+     "polarity": "yang"
+    },
+    {
+     "god": "劫财",
+     "share": 33,
+     "persona": "The Rival",
+     "polarity": "yin"
+    }
+   ],
+   "leadGod": "比肩",
+   "absentGod": null,
+   "fnRows": [
+    {
+     "word": "Sealed-off",
+     "god": "比肩",
+     "door": "trait"
+    },
+    {
+     "word": "Rigid",
+     "god": "比肩",
+     "door": "scene"
+    },
+    {
+     "word": "Cutthroat",
+     "god": "劫财",
+     "door": "outside"
+    }
+   ]
+  },
+  {
+   "el": "Water",
+   "hz": "水",
+   "presence": 6,
+   "isCore": false,
+   "function": "Expression",
+   "role": "catalyst",
+   "volume": "thin",
+   "excess": false,
+   "condition": "Underfueled",
+   "pole": "catalyst",
+   "pairKey": "金_水",
+   "state": "catalyst_turn",
+   "stateSource": "mechanism.catalyst_turn",
+   "turn": "Run thin, this channel shows as pressure without release: much forged, little said. That is why your chart asks you to feed it. Writing, speaking, sharing work early lets the blade breathe.",
+   "faces": [
+    {
+     "god": "食神",
+     "share": 64,
+     "persona": "The Artisan",
+     "polarity": "yang"
+    },
+    {
+     "god": "伤官",
+     "share": 36,
+     "persona": "The Virtuoso",
+     "polarity": "yin"
+    }
+   ],
+   "leadGod": "食神",
+   "absentGod": null,
+   "fnRows": [
+    {
+     "word": "Fluent",
+     "god": "食神",
+     "door": "trait"
+    },
+    {
+     "word": "Nourishing",
+     "god": "食神",
+     "door": "scene"
+    },
+    {
+     "word": "Silver-tongued",
+     "god": "伤官",
+     "door": "outside"
+    }
+   ]
+  },
+  {
+   "el": "Fire",
+   "hz": "火",
+   "presence": 5,
+   "isCore": false,
+   "function": "Order",
+   "role": "catalyst",
+   "volume": "thin",
+   "excess": false,
+   "condition": "Underfueled",
+   "pole": "catalyst",
+   "pairKey": "金_火",
+   "state": "catalyst_turn",
+   "stateSource": "mechanism.catalyst_turn",
+   "turn": "Run thin, nothing tempers you: an edge that keeps its first shape and calls it character. Your chart asks for heat. Take the demanding role, the audit, the arena.",
+   "faces": [
+    {
+     "god": "七杀",
+     "share": 100,
+     "persona": "The General",
+     "polarity": "yang"
+    }
+   ],
+   "leadGod": "七杀",
+   "absentGod": "正官",
+   "fnRows": [
+    {
+     "word": "Decisive",
+     "god": "七杀",
+     "door": "trait"
+    },
+    {
+     "word": "Daring",
+     "god": "七杀",
+     "door": "scene"
+    },
+    {
+     "word": "Crisis-ready",
+     "god": "七杀",
+     "door": "outside"
+    }
+   ]
+  }
+ ],
+ "doors": {
+  "gifts": [
+   {
+    "door": "order",
+    "volume": "thin",
+    "el": "fire",
+    "isCore": false,
+    "excess": false
+   },
+   {
+    "door": "action",
+    "volume": "abundant",
+    "el": "wood",
+    "isCore": false,
+    "excess": false
+   },
+   {
+    "door": "expression",
+    "volume": "thin",
+    "el": "water",
+    "isCore": false,
+    "excess": false
+   }
+  ],
+  "shadows": [
+   {
+    "door": "body",
+    "volume": "abundant",
+    "el": "metal",
+    "isCore": true,
+    "excess": false
+   },
+   {
+    "door": "mind",
+    "volume": "abundant",
+    "el": "earth",
+    "isCore": false,
+    "excess": false
+   }
+  ]
+ },
+ "selected": {
+  "gifts": [
+   {
+    "phrase": "Crisis performer",
+    "door": "order",
+    "face": "echo"
+   },
+   {
+    "phrase": "Plays the long game",
+    "door": "action",
+    "face": "echo"
+   },
+   {
+    "phrase": "No dressed-up answers",
+    "door": "expression",
+    "face": "echo"
+   }
+  ],
+  "shadows": [
+   {
+    "phrase": "Never reconsiders",
+    "door": "body",
+    "face": "excess"
+   },
+   {
+    "phrase": "Overprepared",
+    "door": "mind",
+    "face": "excess"
+   }
+  ],
+  "nature": "You are what the sword is like when it wakes up as a person. The cut is always r…"
+ },
+ "carryCard": {
+  "lead": "Metal runs Overfueled. Two energies feed a core already full. Three are where the surplus should go.",
+  "ease": "The edge seals itself in: so much certainty that nothing else gets past it. The shelter closes over the blade: so much preparation that the edge never leaves the mine.",
+  "seek": "Nothing tempers you: an edge that keeps its first shape and calls it character. Wood is already here in plenty, the material the knife is for. This channel shows as pressure without release: much forged, little said."
+ },
+ "positions": [
+  {
+   "id": "zhengcai_year_stem",
+   "god": "正财",
+   "persona": "The Steward",
+   "slot": "year_stem",
+   "kind": "stem",
+   "gate": "Year Gate",
+   "term": "The Steward at the Year Gate",
+   "domains": [
+    "Wealth",
+    "Family"
+   ],
+   "el": "wood",
+   "pattern": {
+    "key": "bi_jie_duo_cai",
+    "targets": [
+     "Wealth"
+    ],
+    "fused": true
+   }
+  },
+  {
+   "id": "shishen_year_branch",
+   "god": "食神",
+   "persona": "The Artisan",
+   "slot": "year_branch",
+   "kind": "branch",
+   "gate": "Year Gate",
+   "term": "The Artisan inside the Year Gate",
+   "domains": [
+    "Family",
+    "Health"
+   ],
+   "el": "water",
+   "pattern": {
+    "key": "xiao_shen_duo_shi",
+    "targets": [
+     "Mind",
+     "Career",
+     "Health"
+    ],
+    "fused": false
+   }
+  },
+  {
+   "id": "bijian_month_stem",
+   "god": "比肩",
+   "persona": "The Twin",
+   "slot": "month_stem",
+   "kind": "stem",
+   "gate": "Month Gate",
+   "term": "The Twin at the Month Gate",
+   "domains": [
+    "Career",
+    "Social"
+   ],
+   "el": "metal",
+   "pattern": {
+    "key": "bi_jie_duo_cai",
+    "targets": [
+     "Wealth"
+    ],
+    "fused": true
+   }
+  },
+  {
+   "id": "pianyin_month_branch",
+   "god": "偏印",
+   "persona": "The Alchemist",
+   "slot": "month_branch",
+   "kind": "branch",
+   "gate": "Month Gate",
+   "term": "The Alchemist inside the Month Gate",
+   "domains": [
+    "Mind",
+    "Growth",
+    "Career"
+   ],
+   "el": "earth",
+   "pattern": {
+    "key": "xiao_shen_duo_shi",
+    "targets": [
+     "Mind",
+     "Career",
+     "Health"
+    ],
+    "fused": false
+   }
+  },
+  {
+   "id": "piancai_day_branch",
+   "god": "偏财",
+   "persona": "The Horizon",
+   "slot": "day_branch",
+   "kind": "branch",
+   "gate": "Day Gate",
+   "term": "The Horizon inside the Day Gate",
+   "domains": [
+    "Love",
+    "Social",
+    "Wealth"
+   ],
+   "el": "wood",
+   "pattern": {
+    "key": "bi_jie_duo_cai",
+    "targets": [
+     "Wealth"
+    ],
+    "fused": true
+   }
+  },
+  {
+   "id": "zhengcai_hour_stem",
+   "god": "正财",
+   "persona": "The Steward",
+   "slot": "hour_stem",
+   "kind": "stem",
+   "gate": "Hour Gate",
+   "term": "The Steward at the Hour Gate",
+   "domains": [
+    "Wealth",
+    "Family"
+   ],
+   "el": "wood",
+   "pattern": {
+    "key": "bi_jie_duo_cai",
+    "targets": [
+     "Wealth"
+    ],
+    "fused": true
+   }
+  },
+  {
+   "id": "jiecai_hour_branch",
+   "god": "劫财",
+   "persona": "The Rival",
+   "slot": "hour_branch",
+   "kind": "branch",
+   "gate": "Hour Gate",
+   "term": "The Rival inside the Hour Gate",
+   "domains": [
+    "Family",
+    "Wealth"
+   ],
+   "el": "metal",
+   "pattern": {
+    "key": "bi_jie_duo_cai",
+    "targets": [
+     "Wealth"
+    ],
+    "fused": true
+   }
+  }
+ ]
+}

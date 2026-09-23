@@ -10,6 +10,9 @@ Builds blind generation prompts from the prompt database (`Reading/Database/Prom
 | `validate.mjs` | `node validate.mjs <id> <output.json> [--json] [--quiet]`: THE GATE. Exit 1 on any blocking finding; a failing candidate is not compared |
 | `compare.mjs` | files every model output under `Reading/Database/Rewrites/<model>/<chart>/<id>.json` with its original and gate result, and writes the side-by-side sheet per variable (`--id` for one) |
 | `selftest.mjs` | every original in a manifest is a candidate and runs through its own gate (`node selftest.mjs runs/<manifest>.json`) |
+| `handoff.mjs` | THE HANDOFF BUILDER: `node handoff.mjs --chart golden --pass blind\|benchmarked` writes `../Handoffs/<date>-<stem>-<chart>-<pass>/` (dispatch prompt, README, the prompt database, the cards in scope, the chart, one skeleton per page with spec + facts + empty values, the originals as `benchmark/`) and zips it (the blind zip excludes `benchmark/`) |
+| `validate-template.mjs` | THE TEMPLATE GATE: a filled skeleton (or a folder of them) checked field by field: both ends of the word range, the mechanical law, the cut law, the within-page four-gram, the cross-stem four-gram, the reader zone |
+| `render-template.mjs` | the Day Master page and the energy pages rendered from filled skeletons, original then candidate per field with `--against <benchmark dir>` |
 | `read-sheet.mjs` | the blind sheet: gate every candidate, shuffle the survivors with the original, letter them, write the key beside the sheet |
 | `report.mjs` | the dated run report: one row per candidate (field path · cell · state · chart · model · gate · read notes · status) plus the summary by model, from a scores file the reader fills |
 | `runs/` | run manifests: `2026-09-21-comparison.json` (31 rows, three charts), `golden-all.json` (133), `ding-weak-all.json` (70), `xin-earth-all.json` (67) |

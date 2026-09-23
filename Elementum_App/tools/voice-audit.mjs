@@ -27,7 +27,7 @@ const md = fs.readFileSync(REA16, 'utf8');
 const regSection = md.split('## §2c')[1]?.split(/\n## /)[0];
 if (!regSection) { console.error('✗ REA_16 §2c audit registry not found — the law is missing; refusing to run.'); process.exit(2); }
 const registry = [];
-for (const m of regSection.matchAll(/^\| `([^`]+)` \| (\w+) \| ([^|]*) \| (\w+) \| ([^|]*)\|$/gm)) {
+for (const m of regSection.matchAll(/^\| `([^`]+)` \| ([^|]+?) \| ([^|]*) \| (\w+) \| ([^|]*)\|$/gm)) {
   registry.push({ key: m[1].trim(), register: m[2].trim(), budget: m[3].trim(), status: m[4].trim(), notes: m[5].trim() });
 }
 if (!registry.length) { console.error('✗ REA_16 §2c parsed to zero rows — registry format drifted; refusing to run.'); process.exit(2); }

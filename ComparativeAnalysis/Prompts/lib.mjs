@@ -108,15 +108,17 @@ export function pairCellFacts(key, { redact = [], yin = false } = {}) {
   lines.push('Fields shown above that are not the target are context for the repetition law (no four-word run shared with them) and for the cut law; do not rewrite them.');
   return lines.join('\n');
 }
-export function egCellFacts(key, { redact = [], row = null, pole = null } = {}) {
+export function egCellFacts(key, { redact = [], row = null, pole = null, rows = null } = {}) {
+  const redRows = new Set(rows != null ? rows : row != null ? [row] : []);
   const [hz, god] = key.split('_'); const el = EL_OF_HZ[hz]; const cell = J(`ELEMENT_GOD/${key}.json`); const sibKey = `${hz}_${SIB[god]}`; const sib = J(`ELEMENT_GOD/${sibKey}.json`);
   const godc = J('GOD/' + GOD_FILE[god] + '.json');
   const isRed = (p) => redact.some((r) => p === r || p.startsWith(r + '.'));
   const lines = [`## CELL FACTS\n\nCell ${key} (${el} carrying ${godc.persona_name}). ${godPack(god)}\nElement arena: ${ARENA[el]}. dm_element (which core reads this cell): ${cell.dm_element}. structural_interaction seed: ${q(cell.structural_interaction)}.`];
-  for (const k of ['k2_overview', 'k2_functional', 'adj_chips', 'k2_domain_readings']) lines.push(`- ${k}: ${isRed(k) ? '[REDACTED: the target field]' : q(cell[k])}`);
-  if (pole) { const led = cell.fn_reading?.[pole]?.ledger || []; lines.push(`- fn_reading.${pole}.ledger (three rows, index-aligned to adj_chips.${pole}; authored order is significance order):`); led.forEach((r, i) => lines.push(`  - row ${i} "${r.word}": ${row === i && isRed('fn_reading') ? '[REDACTED: the target row]' : q(r.doors)}`)); }
+  for (const k of ['k2_overview', 'k2_functional', 'adj_chips', 'k2_domain_readings']) lines.push(`- ${k}: ${isRed(k) ? (k === 'adj_chips' && pole ? q({ [pole === 'catalyst' ? 'friction' : 'catalyst']: cell.adj_chips[pole === 'catalyst' ? 'friction' : 'catalyst'], [pole]: '[REDACTED: the words under test]' }) : '[REDACTED: the target field]') : q(cell[k])}`);
+  if (pole) { const led = cell.fn_reading?.[pole]?.ledger || []; lines.push(`- fn_reading.${pole}.ledger (three rows, index-aligned to adj_chips.${pole}; authored order is significance order):`); led.forEach((r, i) => lines.push(`  - row ${i}${redRows.has(i) && isRed('adj_chips') ? '' : ` "${r.word}"`}: ${redRows.has(i) && isRed('fn_reading') ? '[REDACTED: the target row]' : q(r.doors)}`)); }
   lines.push(`- Sibling cell ${sibKey} chips (nothing you write may fit the sibling): ${q(sib.adj_chips)}`);
-  if (pole && row != null && sib.fn_reading?.[pole]?.ledger?.[row]) lines.push(`- Sibling cell ${sibKey} ${pole} row ${row} trait door, for contrast: ${q(sib.fn_reading[pole].ledger[row].doors.trait)}`);
+  const r0 = rows != null ? rows[0] : row;
+  if (pole && r0 != null && sib.fn_reading?.[pole]?.ledger?.[r0]) lines.push(`- Sibling cell ${sibKey} ${pole} row ${r0} trait door, for contrast: ${q(sib.fn_reading[pole].ledger[r0].doors.trait)}`);
   else if (!pole) lines.push(`- Sibling cell ${sibKey} k2_overview, for contrast: ${q(sib.k2_overview)}`);
   return lines.join('\n');
 }
